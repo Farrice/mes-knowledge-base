@@ -2,7 +2,9 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+<!-- BEGIN:golden-rule -->
 > **⚠️ GOLDEN RULE — ONE TOOL PER WORKING TREE AT A TIME.** This repo is shared by Claude Code **and** OpenAI Codex with no lock between them. **Never run both against this directory at the same time** — concurrent edits corrupt the tree (the "apply one fix, another breaks" failure, root-caused 2026-06-30). Safe handoff: let the active tool finish to a clean `git status` or a commit, **then** open the other. Need both at once? Give one its own `git worktree` — never a second driver in this folder.
+<!-- END:golden-rule -->
 
 <!-- AGENTS.md is a pointer to GEMINI.md (Gemini-native, separately tuned). Run /sync-instructions after system intent changes. -->
 <!-- Slimmed 2026-06-09 (rebuild/deterministic-enforcement): reference blocks moved to directives/cli-reference.md, system-primitives.md, routing-bindings.md, model-notes.md. Nothing deleted — relocated. -->
@@ -55,7 +57,7 @@ Complete 6 steps IN ORDER for every deliverable request. Steps may narrow (table
 
 **Step 3: ROUTE to experts.** **Routing defaults to `PRODUCTION_CORE.md` entries** — the router hook surfaces `[CORE]` matches per prompt; long-tail requires explicit `/name` invocation or a decisively stronger match. Multi-domain: `directives/expert_auto_routing.md`. Mandatory bindings: see Routing summary below + `directives/routing-bindings.md`.
 
-**Step 4: LOAD via Context Engine.** Tier 0 (cards) -> **Tier 1.5a (Recall grounding — auto for content/copy/brand/voice/strategy/design domains: fire `mcp__recall__search`, inject 1-3 high-signal cards, silent skip if <2; `directives/recall-grounding-protocol.md`)** -> **Tier 1.5b (Unified memory facade: `python3 execution/memory_facade.py "<task intent>" --top 10` before expert output — one call across sovereign + auto-memory + wiki + agent + episodic (full CC/Codex conversation history — the auto-remember layer) stores; every skipped store is REPORTED, never silently dropped. Wraps `memory_retrieve.py`, which stays valid as the sovereign-only sub-path)** -> Tier 1 (SKILL.md + workflow) -> Tier 2 (+ genius.md) -> Tier 3 (sub-agent).
+**Step 4: LOAD via Context Engine.** Tier 0 (cards) -> **Tier 1.5a (Recall grounding — auto for content/copy/brand/voice/strategy/design domains: fire `mcp__recall__search`, inject 1-3 high-signal cards, silent skip if <2; `directives/recall-grounding-protocol.md`)** -> **<!-- BEGIN:memory-tier-1-5b -->Tier 1.5b (Unified memory facade: `python3 execution/memory_facade.py "<task intent>" --top 10` before expert output — one call across sovereign + auto-memory + wiki + agent + episodic (full CC/Codex conversation history — the auto-remember layer) stores; every skipped store is REPORTED, never silently dropped. Wraps `memory_retrieve.py`, which stays valid as the sovereign-only sub-path)<!-- END:memory-tier-1-5b -->** -> Tier 1 (SKILL.md + workflow) -> Tier 2 (+ genius.md) -> Tier 3 (sub-agent).
 **Never produce expert-domain output without loading the expert first.** Content: minimum 2 skill files per `directives/content_creation_gate.md`.
 
 **Step 5: PRODUCE output.** Their thinking, not their terminology. Enforce `directives/quality_assurance.md`: entity classification, no phantom research, no template slop.
@@ -159,7 +161,7 @@ Protocol -> directive map: `directives/INDEX.md`. The ones that fire most: Quali
 
 ## Upstreamed Bindings (from GEMINI.md CRITICAL list — pointers only)
 
-- **No AI slop**: banned phrases/structural moves catalogued in `directives/ai-slop-ban-bank.md` (64 entries), enforced via `python3 execution/prose_classifier.py check <file>` before delivery.
+- <!-- BEGIN:slop-ban -->**No AI slop**: banned phrases/structural moves catalogued in `directives/ai-slop-ban-bank.md` (64 entries), enforced via `python3 execution/prose_classifier.py check <file>` before delivery.<!-- END:slop-ban -->
 - **Tools OR text, never both**: each turn is either all tool calls (respond after tools return) or all text (no tool calls) — never mix tool use and final prose in the same turn.
 
 ### CRITICAL — Override Everything (compressed; items already covered above are omitted)

@@ -312,8 +312,14 @@ def check_hook_bridge() -> list[str]:
         fail("missing .codex/hooks.json")
     commands = hook_commands()
     expected_targets = ("cost-gate", "dangerous-git", "skill-router", "session-ledger")
-    if len(commands) != 6:
-        fail(f"expected 6 Codex hook commands, found {len(commands)}")
+    # Was 6; Wave 1 wired active-tool-lock (PreToolUse) + guard-stranded
+    # (UserPromptSubmit) into .codex/hooks.json, bringing the true count to 8:
+    # PreToolUse cost-gate/dangerous-git/active-tool-lock (3) + PostToolUse
+    # session-ledger (1) + UserPromptSubmit skill-router/session-ledger/
+    # guard-stranded (3) + Stop session-ledger (1).
+    EXPECTED_HOOK_COUNT = 8
+    if len(commands) != EXPECTED_HOOK_COUNT:
+        fail(f"expected {EXPECTED_HOOK_COUNT} Codex hook commands, found {len(commands)}")
     if not all("codex_hook_runner.py" in command for command in commands):
         fail("every Codex hook command must call codex_hook_runner.py")
     for target in expected_targets:

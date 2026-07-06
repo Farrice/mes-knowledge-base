@@ -1,0 +1,2 @@
+<!-- constitution-core block: memory-tier-1-5b; compiled into CLAUDE.md/GEMINI.md/AGENTS.md by platform_compiler.py compile -->
+Tier 1.5b (Unified memory facade: `python3 execution/memory_facade.py "<task intent>" --top 10` before expert output — one call across sovereign + auto-memory + wiki + agent + episodic (full CC/Codex conversation history — the auto-remember layer) stores; every skipped store is REPORTED, never silently dropped. Wraps `memory_retrieve.py`, which stays valid as the sovereign-only sub-path)

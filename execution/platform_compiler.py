@@ -33,6 +33,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 HASH_STORE = ROOT / ".agent" / "platform_hashes.json"
+CONSTITUTION_CORE_DIR = ROOT / "directives" / "constitution-core"
+CONSTITUTION_FILES = ["CLAUDE.md", "GEMINI.md", "AGENTS.md"]
 
 TRACKED = [
     "CLAUDE.md",
@@ -64,6 +66,26 @@ GEMINI_MAX_CHARS = 15_000
 REF_PATTERN = re.compile(
     r"`((?:directives|execution|skills|\.agent|\.gemini)/[A-Za-z0-9_\-./]+\.(?:md|py|json))`"
 )
+
+# Single-source constitution compilation (Wave 2, 2026-07-06). Shared blocks
+# live once in directives/constitution-core/<block>.md; constitutions carry
+# <!-- BEGIN:<block> --> ... <!-- END:<block> --> marker pairs around the
+# passage they share. `compile` substitutes canonical text between markers.
+# A missing marker pair in a given file is NOT an error — some platforms
+# (AGENTS.md's terse style, GEMINI.md's tuned variants) legitimately keep
+# their own wording for a passage and simply carry no markers for it.
+BLOCK_MARKER_RE = re.compile(r"<!-- BEGIN:([A-Za-z0-9_-]+) -->(.*?)<!-- END:\1 -->", re.DOTALL)
+BLOCK_HEADER_RE = re.compile(r"^<!--\s*constitution-core block:.*?-->\s*\n?", re.MULTILINE)
+
+
+def _load_constitution_core_blocks() -> dict:
+    blocks = {}
+    if not CONSTITUTION_CORE_DIR.exists():
+        return blocks
+    for p in sorted(CONSTITUTION_CORE_DIR.glob("*.md")):
+        text = BLOCK_HEADER_RE.sub("", p.read_text(), count=1)
+        blocks[p.stem] = text.strip("\n")
+    return blocks
 
 # Active Opus pins caused "model not available" stalls. Archived agents are exempt.
 OPUS_SCAN_GLOBS = [".claude/agents/**/*.md", "agents/**/AGENT.md"]
@@ -232,6 +254,73 @@ def cmd_lint(as_json: bool = False) -> int:
     return 1
 
 
+def cmd_compile(check: bool = False, write: bool = False) -> int:
+    """Compile directives/constitution-core/ blocks into marked passages.
+
+    --check (default if neither flag given): report-only, exit 1 on divergence.
+    --write: substitute canonical text between existing marker pairs, then
+    re-run the existing lint invariants (CANARIES, CONSTRAINTS_LAST, char caps)
+    to confirm the write didn't break anything.
+    """
+    blocks = _load_constitution_core_blocks()
+    if not blocks:
+        print(f"No blocks in {CONSTITUTION_CORE_DIR.relative_to(ROOT)} — nothing to compile.")
+        return 0
+
+    divergent: list = []
+    touched: set = set()
+
+    for rel in CONSTITUTION_FILES:
+        p = ROOT / rel
+        if not p.exists():
+            continue
+        text = p.read_text()
+
+        def _sub(match: "re.Match[str]", rel: str = rel) -> str:
+            name = match.group(1)
+            canonical = blocks.get(name)
+            if canonical is None:
+                return match.group(0)
+            touched.add(name)
+            current_inner = match.group(2)
+            multiline = current_inner.startswith("\n")
+            replacement_inner = f"\n{canonical}\n" if multiline else canonical
+            if current_inner == replacement_inner:
+                return match.group(0)
+            divergent.append(f"{rel}:{name}")
+            return f"<!-- BEGIN:{name} -->{replacement_inner}<!-- END:{name} -->"
+
+        new_text = BLOCK_MARKER_RE.sub(_sub, text)
+        if write and new_text != text:
+            p.write_text(new_text)
+
+    if write:
+        if divergent:
+            print(f"Compiled {len(divergent)} block instance(s) to canonical text:")
+            for d in divergent:
+                print(f"  - {d}")
+        else:
+            print("No divergence — marked passages already matched canonical blocks.")
+        lint_fails = _lint_failures()
+        if lint_fails:
+            print(f"POST-COMPILE LINT FAILURES ({len(lint_fails)}):")
+            for f in lint_fails:
+                print(f"  - {f}")
+            return 1
+        print("Post-compile lint clean — CANARIES/CONSTRAINTS/char-cap invariants hold.")
+        return 0
+
+    # --check or default: report-only, never write.
+    if divergent:
+        print("CONSTITUTION COMPILE DIVERGENCE — marked passages differ from canonical block text:")
+        for d in divergent:
+            print(f"  - {d}")
+        print("Review, then: python3 execution/platform_compiler.py compile --write")
+        return 1
+    print("compile --check clean — all marked blocks match directives/constitution-core/.")
+    return 0
+
+
 def cmd_forks() -> int:
     print("Known fork locations (informational — canonical system is THIS repo):")
     now = time.time()
@@ -266,11 +355,16 @@ def main() -> int:
     sub.add_parser("sync")
     sub.add_parser("forks")
     sub.add_parser("report")
+    cmp_ = sub.add_parser("compile")
+    cmp_.add_argument("--check", action="store_true", help="report-only; exit 1 on divergence (default)")
+    cmp_.add_argument("--write", action="store_true", help="substitute canonical block text, then re-lint")
     args = parser.parse_args()
     if args.cmd == "check":
         return cmd_check(as_json=args.json)
     if args.cmd == "lint":
         return cmd_lint(as_json=args.json)
+    if args.cmd == "compile":
+        return cmd_compile(check=args.check, write=args.write)
     return {"sync": cmd_sync, "forks": cmd_forks, "report": cmd_report}[args.cmd]()
 
 

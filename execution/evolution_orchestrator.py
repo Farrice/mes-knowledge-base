@@ -506,6 +506,30 @@ def run_daily() -> Dict[str, Any]:
     else:
         report_lines.append("- (clean)")
 
+    # Constitution-core compile drift (Wave 2, 2026-07-06) — observe-only: never
+    # mutates constitutions in the daily run, just reports whether the marked
+    # passages in CLAUDE.md/GEMINI.md/AGENTS.md still match
+    # directives/constitution-core/. Human runs `compile --write` to reconcile.
+    try:
+        import subprocess
+        proc = subprocess.run(
+            [sys.executable, str(Path(__file__).resolve().parent / "platform_compiler.py"), "compile", "--check"],
+            capture_output=True, text=True, timeout=30,
+        )
+        compile_ok = proc.returncode == 0
+        compile_output = (proc.stdout or proc.stderr or "").strip()
+    except Exception as exc:
+        compile_ok = None
+        compile_output = str(exc)
+
+    report_lines += ["", "## Constitution Compile Drift (observe-only)"]
+    if compile_ok is None:
+        report_lines.append(f"- (compile check unavailable: {compile_output})")
+    elif compile_ok:
+        report_lines.append("- (in sync — marked blocks match directives/constitution-core/)")
+    else:
+        report_lines.append(f"- DIVERGENT — review, then `python3 execution/platform_compiler.py compile --write`: {compile_output}")
+
     # Routing-learning pass (Wave 3, 2026-07) — observe-only-safe: a failure
     # here must never break the rest of the daily cycle.
     try:
