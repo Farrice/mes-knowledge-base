@@ -82,6 +82,8 @@ Checks 1-3 inspect the files; this check tests the *output*. Per `directives/emb
 
 **Blind-Pass Verdict:** PASS / FAIL (+ which real pieces used). A-tier promotion requires a Farrice-judged PASS. Record the verdict as an eval entry in `evolution_store/ground_truth/eval_set_v1.jsonl`.
 
+Craft standard: `directives/skill-craft-standard.md` — run its Section 8 pre-ship checklist alongside this check before conversion to skill.
+
 ### Check 4: Deduplication
 
 Before converting to a skill:

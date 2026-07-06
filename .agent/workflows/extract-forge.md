@@ -146,6 +146,7 @@ mkdir -p skills/[skill-name]/workflows skills/[skill-name]/references agents/[ex
 2. **Content quality spot-check**: Read 2-3 workflows for practitioner-grade quality
 3. **Slash command check**: Confirm wrappers correctly reference full workflows
 4. **Embodiment + blind-pass check** (`directives/embodiment-standard.md` — E4 2026-07-02): verify the 10-item build checklist (anti-patterns, verbatim-anchored heuristics, recognition test, named-entity floor, source-ledger, anti-overpolish voice texture), then run the mini blind-pass protocol — 1-2 Tier-1 workflow outputs beside real published pieces by the expert. PASS = indistinguishable or preferred; A-tier promotion requires a Farrice-judged pass; FAIL → fix weakest checklist item, retry once, else ship B-tier with the gap named. Append the verdict as an eval entry to `evolution_store/ground_truth/eval_set_v1.jsonl` (≥1 per ship).
+5. **Craft standard check**: `directives/skill-craft-standard.md` — the pre-ship checklist (Section 8) is REQUIRED before Phase 8.
 
 ### Phase 8: Performance Log
 

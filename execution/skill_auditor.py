@@ -40,6 +40,7 @@ Usage:
 
 import sys
 import json
+import re
 import argparse
 import shutil
 from pathlib import Path
@@ -113,6 +114,42 @@ def fingerprint_skill(skill_dir: Path) -> Dict[str, Any]:
         "workflow_names": [p.stem for p in workflow_files],
         "reference_count": reference_count,
     }
+
+
+# ─────────────────────────────────────────────────────────
+# Craft standard checks (directives/skill-craft-standard.md)
+# Cheap, deterministic, advisory only — never affects tier classification.
+# ─────────────────────────────────────────────────────────
+
+HARDCODED_SCORE_RE = re.compile(r"--intent\s+[89]\b|expert-score\s+[89]\b|score.*[89]/10", re.IGNORECASE)
+
+
+def craft_standard_flags(skill_dir: Path, fp: Dict[str, Any]) -> List[str]:
+    """Flag cheap, deterministic craft-standard gaps (advisory, not tier-affecting)."""
+    if fp["name"] in UTILITY_SKILLS:
+        return []
+    flags = []
+    if not fp["has_genius"]:
+        flags.append("no genius.md")
+    if fp["workflow_count"] == 0:
+        flags.append("zero workflows")
+    skill_md = skill_dir / "SKILL.md"
+    if skill_md.exists():
+        text = skill_md.read_text(errors="ignore").lower()
+        if "domain" not in text:
+            flags.append("frontmatter missing domain")
+        if "when_to_use" not in text:
+            flags.append("frontmatter missing when_to_use")
+    workflows_dir = skill_dir / "workflows"
+    if workflows_dir.exists():
+        for wf in workflows_dir.glob("*.md"):
+            try:
+                if HARDCODED_SCORE_RE.search(wf.read_text(errors="ignore")):
+                    flags.append(f"hardcoded score pattern in {wf.name}")
+                    break
+            except Exception:
+                pass
+    return flags
 
 
 # ─────────────────────────────────────────────────────────
@@ -318,7 +355,8 @@ def run_audit() -> Dict[str, Any]:
         trace = trace_signal.get(skill_dir.name)
         cross_ref = skill_dir.name in cross_refs
         classification = classify_tier(fp, trace, cross_ref)
-        rec = {**fp, "trace": trace, "cross_referenced": cross_ref, **classification}
+        craft_flags = craft_standard_flags(skill_dir, fp)
+        rec = {**fp, "trace": trace, "cross_referenced": cross_ref, **classification, "craft_flags": craft_flags}
         records.append(rec)
 
     # Summary
@@ -365,6 +403,18 @@ def write_audit_report(audit: Dict[str, Any]) -> Path:
         "- **REVIEW** — heuristic conflict, low trace scores, or unused full-structure skills → human judgment",
         "",
     ]
+
+    # Craft standard flags — advisory only, per directives/skill-craft-standard.md
+    flagged = [r for r in audit["records"] if r.get("craft_flags")]
+    if flagged:
+        lines += [
+            "## Craft Standard Flags (`directives/skill-craft-standard.md` — advisory, not tier-affecting)",
+            "",
+            f"{len(flagged)} skills have at least one cheap deterministic gap:",
+            "",
+        ]
+        lines += [f"- `{r['name']}`: {', '.join(r['craft_flags'])}" for r in sorted(flagged, key=lambda x: x["name"])]
+        lines.append("")
 
     # CORE DRIFT — Production Core entries with no production traces in window.
     # This is the correction mechanism for the (provisional) core roster:

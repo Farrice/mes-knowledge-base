@@ -97,6 +97,8 @@ Add to `AGENT_INDEX.md` and `SKILL_INDEX.md`.
 ### 8. CHECKPOINT 2: Quality Verification (embodiment, not eyeball)
 Run the embodiment check per `directives/embodiment-standard.md` (E4 2026-07-02): 10-item build checklist + mini blind-pass — generate 1 output with the new skill's primary workflow and place it beside a real published piece by the expert. PASS (indistinguishable/preferred) → DEPLOYED. FAIL → fix the weakest checklist item, iterate once, else ship B-tier with the gap named. Append the verdict as an eval entry (≥1 per ship). Present the blind-pass result — not just a sample workflow — for user review.
 
+Craft standard: `directives/skill-craft-standard.md` — the pre-ship checklist (Section 8) is REQUIRED before this checkpoint passes.
+
 ### 9. Performance Log
 Scores derive from the Checkpoint-2 blind-pass verdict + checklist coverage — never templated (`directives/embodiment-standard.md` § Scoring Discipline). Any dimension ≥8 requires `--anchor-named` + naming the anchor in notes.
 ```bash
