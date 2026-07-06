@@ -69,7 +69,7 @@ Chain Step 4 compliance (content domain — ≥2 skill files per `directives/con
 
 ### 3. Research Sprint (receipts or it didn't happen)
 
-**Research layer = Apify-first, deterministic fallback** (per `directives/apify-usage-policy.md`; Apify is budgeted/green and self-governs — never blocks): use `python3 execution/apify_client.py {instagram|reddit|web} ...` for RAW data the web can't reach — brand IG content + winning formats, Reddit sentiment/pain in the vertical, JS-rendered brand/career pages. The wrapper returns `{"fallback": true}` on budget exhaustion → reroute to `execution/research.py` → Perplexity → tavily/WebSearch. **Always report which tool produced each finding.** Run free web search for everything else. Two tracks:
+**Research layer = Apify-first, deterministic fallback** (per `directives/apify-usage-policy.md`; Apify is budgeted/green and self-governs — never blocks): use `python3 execution/apify_client.py {linkedin|twitter|instagram|reddit|web} ...` for RAW data the web can't reach — **`linkedin "<niche/topic>"` for what's actually landing on LinkedIn right now (post search, winning formats, live hooks), `twitter --query "<topic>"` for the faster-moving conversation**, brand IG content + winning formats, Reddit sentiment/pain in the vertical, JS-rendered brand/career pages. The wrapper returns `{"fallback": true}` on budget exhaustion → reroute to `execution/research.py` → Perplexity → tavily/WebSearch. **Always report which tool produced each finding.** Run free web search for everything else. Two tracks:
 
 **Track A — Zeitgeist & platform:**
 | # | Query | Feeds |

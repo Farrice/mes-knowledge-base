@@ -15,6 +15,9 @@ break.
 
 Usage:
     python execution/apify_client.py budget-status
+    python execution/apify_client.py verify                 # config check ($0)
+    python execution/apify_client.py verify --live          # smoke-test new actors
+    python execution/apify_client.py mcp-tools              # print MCP --tools list
     python execution/apify_client.py reddit "first time home buyer" --limit 50 --comments
     python execution/apify_client.py reddit --subreddit FirstTimeHomeBuyer --limit 30
     python execution/apify_client.py instagram realestatewithjing --limit 20
@@ -23,6 +26,15 @@ Usage:
     python execution/apify_client.py amazon "yoga mat" --limit 30
     python execution/apify_client.py maps "coffee shop" --location "Los Angeles" --limit 30
     python execution/apify_client.py web "https://example.com"
+    # --- social listening ---
+    python execution/apify_client.py linkedin "AI ghostwriting" --limit 30
+    python execution/apify_client.py linkedin-profile lara-acosta --limit 20
+    python execution/apify_client.py twitter --query "personal branding" --limit 50
+    python execution/apify_client.py twitter --handle naval --limit 30
+    python execution/apify_client.py threads zuck --limit 25
+    python execution/apify_client.py facebook "https://www.facebook.com/nike" --limit 25
+    # --- generic passthrough for any wired actor (raw Apify input JSON) ---
+    python execution/apify_client.py run twitter --input '{"searchTerms":["ai"],"maxItems":10}'
 
 Budget policy: directives/apify-usage-policy.md
 Ledger file:   .agent/apify-usage.json
@@ -51,17 +63,31 @@ PLAN_DOLLARS = 29.00
 SOFT_WARN_PCT = 0.70   # 70% → yellow, prefer cheap actors
 HARD_STOP_PCT = 0.90   # 90% → red, refuse new runs
 
-# Curated actor whitelist — must match --tools in .mcp.json.
-# cost_per_result is a conservative estimate based on Apify Store pricing
-# (April 2026). Real cost may differ slightly; tracker logs actual after each run.
+# Curated actor whitelist — SINGLE SOURCE OF TRUTH.
+# `execution/apify_setup.sh` reads this list (via `apify_client.py mcp-tools`)
+# to register the MCP server, so this dict and the MCP --tools flag can never
+# drift. cost_per_result is a conservative estimate based on Apify Store
+# pricing; the tracker logs actual cost after each run.
+#
+# "verified": True  = input schema confirmed by a live run.
+# "verified": False = added 2026-07 (social-listening expansion). The MCP path
+#     auto-loads each actor's real schema, so tools work regardless; the CLI
+#     convenience input below is best-known and confirmed via `verify --live`.
 ACTORS = {
-    "reddit":    {"id": "trudax/reddit-scraper-lite",     "cost_per_result": 0.001},
-    "instagram": {"id": "apify/instagram-scraper",        "cost_per_result": 0.0005},
-    "tiktok":    {"id": "clockworks/free-tiktok-scraper", "cost_per_result": 0.004},
-    "youtube":   {"id": "apidojo/youtube-scraper",        "cost_per_result": 0.005},
-    "amazon":    {"id": "junglee/amazon-scraper",         "cost_per_result": 0.0015},
-    "maps":      {"id": "compass/crawler-google-places",  "cost_per_result": 0.007},
-    "web":       {"id": "apify/rag-web-browser",          "cost_per_result": 0.003},
+    # --- core (verified live 2026-04) ---
+    "reddit":    {"id": "trudax/reddit-scraper-lite",     "cost_per_result": 0.001,  "verified": True},
+    "instagram": {"id": "apify/instagram-scraper",        "cost_per_result": 0.0005, "verified": True},
+    "tiktok":    {"id": "clockworks/free-tiktok-scraper", "cost_per_result": 0.004,  "verified": True},
+    "youtube":   {"id": "apidojo/youtube-scraper",        "cost_per_result": 0.005,  "verified": True},
+    "amazon":    {"id": "junglee/amazon-scraper",         "cost_per_result": 0.0015, "verified": True},
+    "maps":      {"id": "compass/crawler-google-places",  "cost_per_result": 0.007,  "verified": True},
+    "web":       {"id": "apify/rag-web-browser",          "cost_per_result": 0.003,  "verified": True},
+    # --- social-listening expansion (2026-07, pending first-run verification) ---
+    "linkedin":         {"id": "harvestapi/linkedin-post-search",     "cost_per_result": 0.008,  "verified": False},
+    "linkedin_profile": {"id": "harvestapi/linkedin-profile-scraper", "cost_per_result": 0.010,  "verified": False},
+    "twitter":          {"id": "apidojo/tweet-scraper",               "cost_per_result": 0.0004, "verified": False},
+    "threads":          {"id": "curious_coder/threads-scraper",       "cost_per_result": 0.003,  "verified": False},
+    "facebook":         {"id": "apify/facebook-posts-scraper",        "cost_per_result": 0.003,  "verified": False},
 }
 
 API_URL_TEMPLATE = "https://api.apify.com/v2/acts/{actor_id}/run-sync-get-dataset-items"
@@ -357,6 +383,163 @@ def cmd_web(args):
 
 
 # ---------------------------------------------------------------------------
+# Social listening actors (added 2026-07 — verify input schema via `verify --live`)
+# ---------------------------------------------------------------------------
+
+def cmd_linkedin(args):
+    """
+    harvestapi/linkedin-post-search — search LinkedIn posts by keyword.
+    No LinkedIn cookies required (HarvestAPI proxies). Best-known input below;
+    if Apify returns 400, adjust and re-run `verify --live`. Via MCP the real
+    schema is auto-loaded, so the tool works even if this convenience input drifts.
+    """
+    run_input = {"query": args.query, "maxItems": args.limit}
+    print(json.dumps(run_actor("linkedin", run_input, args.limit), indent=2))
+
+
+def cmd_linkedin_profile(args):
+    """harvestapi/linkedin-profile-scraper — profile detail by handle or full URL."""
+    handle = args.handle.lstrip("@")
+    url = handle if handle.startswith("http") else f"https://www.linkedin.com/in/{handle}/"
+    run_input = {"profiles": [url], "maxItems": args.limit}
+    print(json.dumps(run_actor("linkedin_profile", run_input, args.limit), indent=2))
+
+
+def cmd_twitter(args):
+    """apidojo/tweet-scraper (X) — search by term OR pull a handle's timeline."""
+    if not args.query and not args.handle:
+        print(json.dumps({"status": "error", "fallback": True,
+                          "message": "twitter needs --query or --handle.",
+                          "items": []}, indent=2))
+        return
+    run_input = {"maxItems": args.limit, "sort": args.sort}
+    if args.query:
+        run_input["searchTerms"] = [args.query]
+    if args.handle:
+        run_input["twitterHandles"] = [args.handle.lstrip("@")]
+    print(json.dumps(run_actor("twitter", run_input, args.limit), indent=2))
+
+
+def cmd_threads(args):
+    """curious_coder/threads-scraper — a Threads profile's recent posts."""
+    handle = args.handle.lstrip("@")
+    run_input = {
+        "startUrls": [{"url": f"https://www.threads.net/@{handle}"}],
+        "resultsLimit": args.limit,
+    }
+    print(json.dumps(run_actor("threads", run_input, args.limit), indent=2))
+
+
+def cmd_facebook(args):
+    """apify/facebook-posts-scraper — recent posts from a public page URL."""
+    run_input = {"startUrls": [{"url": args.url}], "resultsLimit": args.limit}
+    print(json.dumps(run_actor("facebook", run_input, args.limit), indent=2))
+
+
+def cmd_run(args):
+    """Generic passthrough: run any wired actor with raw Apify input JSON.
+
+    Future-proofs new actors and lets an agent match the exact Apify schema
+    when a convenience command doesn't cover a field.
+    """
+    try:
+        run_input = json.loads(args.input)
+    except json.JSONDecodeError as e:
+        print(json.dumps({"status": "error", "fallback": True,
+                          "message": f"--input is not valid JSON: {e}",
+                          "items": []}, indent=2))
+        return
+    # Estimate a result cap for budget math from common limit fields.
+    max_results = (run_input.get("maxItems") or run_input.get("resultsLimit")
+                   or run_input.get("maxResults") or run_input.get("limit")
+                   or args.limit)
+    print(json.dumps(run_actor(args.actor, run_input, int(max_results)), indent=2))
+
+
+# ---------------------------------------------------------------------------
+# Introspection / verification (no or minimal API cost)
+# ---------------------------------------------------------------------------
+
+def cmd_mcp_tools(_args=None):
+    """Print the comma-joined actor IDs for `claude mcp add ... --tools`.
+
+    Single source of truth consumed by execution/apify_setup.sh.
+    """
+    print(",".join(a["id"] for a in ACTORS.values()))
+
+
+def cmd_verify(args):
+    """Config check ($0), plus optional live smoke-test of actors.
+
+    `verify`         — token present? actors listed? MCP registered? budget state?
+    `verify --live`  — run each UNVERIFIED actor with 1 result and report pass/fail.
+    `verify --live --all` — smoke-test every actor (costs a few cents).
+    """
+    token = os.environ.get("APIFY_TOKEN", "")
+    mcp_path = BASE / ".mcp.json"
+    mcp_registered = False
+    if mcp_path.exists():
+        try:
+            mcp_registered = "apify" in json.loads(mcp_path.read_text()).get("mcpServers", {})
+        except (json.JSONDecodeError, AttributeError):
+            mcp_registered = False
+    usage = load_usage()
+
+    report = {
+        "token_present": bool(token),
+        "actor_count": len(ACTORS),
+        "actors": {k: {"id": v["id"], "verified": v["verified"]} for k, v in ACTORS.items()},
+        "mcp_json_exists": mcp_path.exists(),
+        "mcp_apify_registered": mcp_registered,
+        "budget_state": budget_state(usage),
+        "spent_dollars": round(usage["spent_dollars"], 4),
+        "remaining_dollars": round(usage["plan_dollars"] - usage["spent_dollars"], 4),
+        "next_steps": [],
+    }
+    if not token:
+        report["next_steps"].append("Add APIFY_TOKEN to .env (get it at console.apify.com/account/integrations).")
+    if not mcp_registered:
+        report["next_steps"].append("Register MCP tools: bash execution/apify_setup.sh (then restart the session).")
+
+    if args.live:
+        if not token:
+            report["live_test"] = "skipped — APIFY_TOKEN not set"
+        else:
+            targets = list(ACTORS) if args.all else [k for k, v in ACTORS.items() if not v["verified"]]
+            probes = {
+                "linkedin":         ("linkedin", {"query": "ai", "maxItems": 1}),
+                "linkedin_profile": ("linkedin_profile", {"profiles": ["https://www.linkedin.com/in/williamhgates/"], "maxItems": 1}),
+                "twitter":          ("twitter", {"searchTerms": ["ai"], "maxItems": 1, "sort": "Latest"}),
+                "threads":          ("threads", {"startUrls": [{"url": "https://www.threads.net/@zuck"}], "resultsLimit": 1}),
+                "facebook":         ("facebook", {"startUrls": [{"url": "https://www.facebook.com/nike"}], "resultsLimit": 1}),
+                "reddit":           ("reddit", {"startUrls": [{"url": "https://www.reddit.com/r/test/"}], "maxItems": 1, "skipComments": True}),
+                "instagram":        ("instagram", {"directUrls": ["https://www.instagram.com/instagram/"], "resultsType": "posts", "resultsLimit": 1}),
+                "tiktok":           ("tiktok", {"hashtags": ["fyp"], "resultsPerPage": 1}),
+                "youtube":          ("youtube", {"keywords": ["test"], "maxItems": 1}),
+                "amazon":           ("amazon", {"categoryOrProductUrls": [{"url": "https://www.amazon.com/s?k=pen"}], "maxItemsPerStartUrl": 1}),
+                "maps":             ("maps", {"searchStringsArray": ["cafe"], "locationQuery": "Los Angeles", "maxCrawledPlacesPerSearch": 1}),
+                "web":              ("web", {"query": "https://example.com", "maxResults": 1}),
+            }
+            results = {}
+            for key in targets:
+                if key not in probes:
+                    results[key] = {"status": "no-probe"}
+                    continue
+                actor_key, run_input = probes[key]
+                resp = run_actor(actor_key, run_input, 1)
+                results[key] = {
+                    "status": resp.get("status"),
+                    "result_count": resp.get("result_count", 0),
+                    "message": resp.get("message", ""),
+                }
+            report["live_test"] = results
+            report["next_steps"].append(
+                "For any 'ok' actor above, flip \"verified\": True in the ACTORS dict.")
+
+    print(json.dumps(report, indent=2))
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -367,6 +550,11 @@ def main():
 
     sub.add_parser("budget-status", help="Show current month budget")
     sub.add_parser("budget-reset", help="Manually reset budget (use sparingly)")
+    sub.add_parser("mcp-tools", help="Print comma-joined actor IDs for MCP --tools")
+
+    pv = sub.add_parser("verify", help="Config check ($0); --live smoke-tests actors")
+    pv.add_argument("--live", action="store_true", help="Actually call actors (small cost)")
+    pv.add_argument("--all", action="store_true", help="With --live: test every actor, not just unverified")
 
     pr = sub.add_parser("reddit", help="Reddit posts/comments")
     pr.add_argument("query", nargs="?", default="")
@@ -400,18 +588,53 @@ def main():
     pw = sub.add_parser("web", help="Generic JS-rendered web fetch")
     pw.add_argument("url")
 
+    pl = sub.add_parser("linkedin", help="LinkedIn post search by keyword")
+    pl.add_argument("query")
+    pl.add_argument("--limit", type=int, default=30)
+
+    plp = sub.add_parser("linkedin-profile", help="LinkedIn profile detail")
+    plp.add_argument("handle", help="handle (e.g. lara-acosta) or full profile URL")
+    plp.add_argument("--limit", type=int, default=20)
+
+    px = sub.add_parser("twitter", help="X/Twitter search or handle timeline")
+    px.add_argument("--query", default="")
+    px.add_argument("--handle", default="")
+    px.add_argument("--limit", type=int, default=50)
+    px.add_argument("--sort", default="Latest", choices=["Latest", "Top"])
+
+    pth = sub.add_parser("threads", help="Threads profile recent posts")
+    pth.add_argument("handle")
+    pth.add_argument("--limit", type=int, default=25)
+
+    pf = sub.add_parser("facebook", help="Facebook public page posts")
+    pf.add_argument("url", help="full page URL, e.g. https://www.facebook.com/nike")
+    pf.add_argument("--limit", type=int, default=25)
+
+    prun = sub.add_parser("run", help="Run any wired actor with raw Apify input JSON")
+    prun.add_argument("actor", choices=list(ACTORS.keys()))
+    prun.add_argument("--input", required=True, help="Apify run input as a JSON string")
+    prun.add_argument("--limit", type=int, default=25, help="Budget cap if input has no limit field")
+
     args = p.parse_args()
 
     handlers = {
-        "budget-status": cmd_budget_status,
-        "budget-reset":  cmd_budget_reset,
-        "reddit":        cmd_reddit,
-        "instagram":     cmd_instagram,
-        "tiktok":        cmd_tiktok,
-        "youtube":       cmd_youtube,
-        "amazon":        cmd_amazon,
-        "maps":          cmd_maps,
-        "web":           cmd_web,
+        "budget-status":    cmd_budget_status,
+        "budget-reset":     cmd_budget_reset,
+        "mcp-tools":        cmd_mcp_tools,
+        "verify":           cmd_verify,
+        "reddit":           cmd_reddit,
+        "instagram":        cmd_instagram,
+        "tiktok":           cmd_tiktok,
+        "youtube":          cmd_youtube,
+        "amazon":           cmd_amazon,
+        "maps":             cmd_maps,
+        "web":              cmd_web,
+        "linkedin":         cmd_linkedin,
+        "linkedin-profile": cmd_linkedin_profile,
+        "twitter":          cmd_twitter,
+        "threads":          cmd_threads,
+        "facebook":         cmd_facebook,
+        "run":              cmd_run,
     }
     handlers[args.cmd](args)
 

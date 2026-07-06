@@ -171,18 +171,27 @@ Apify provides web scraping and social listening for sites generic web search ca
 APIFY_TOKEN=apify_api_xxxxxxxxxxxxxxxxxxxx
 ```
 
-### Step 3: Register MCP Server (Curated Tool List)
+### Step 3: Register MCP Server (one command)
+
+```bash
+bash execution/apify_setup.sh
+```
+
+This reads `APIFY_TOKEN` from `.env`, registers the MCP server with the curated actor list (pulled from `apify_client.py mcp-tools` — the single source of truth), then runs a config check. Idempotent — safe to re-run. Restart the session afterward to load the `mcp__apify__*` tools.
+
+**Auto-registration:** a SessionStart hook (`execution/hooks/apify_mcp_bootstrap.py`, wired in `.claude/settings.json`) runs this automatically whenever the token is present and `apify` isn't already in `.mcp.json` — so fresh containers self-heal. Registration takes effect on the next session (Claude Code reads `.mcp.json` at start).
+
+Manual equivalent (if you prefer not to use the script):
 
 ```bash
 set -a; source .env; set +a
 claude mcp add apify -s project --env APIFY_TOKEN="$APIFY_TOKEN" -- \
-  npx -y @apify/actors-mcp-server \
-  --tools apify/rag-web-browser,trudax/reddit-scraper-lite,apify/instagram-scraper,clockworks/free-tiktok-scraper,apidojo/youtube-scraper,junglee/amazon-scraper,compass/crawler-google-places
+  npx -y @apify/actors-mcp-server --tools "$(python3 execution/apify_client.py mcp-tools)"
 ```
 
-This installs only the 7 curated actors. **No expensive enterprise actors are loaded** — even if Claude tries to call something else, the MCP server doesn't have it.
+**Only the 12 curated actors are loaded.** No expensive enterprise actors — even if Claude tries to call something else, the MCP server doesn't have it.
 
-### The 7 Curated Actors
+### The 12 Curated Actors
 
 | Actor | Purpose | Cost class |
 |---|---|---|
@@ -193,6 +202,13 @@ This installs only the 7 curated actors. **No expensive enterprise actors are lo
 | `apidojo/youtube-scraper` | YouTube + transcripts | Medium |
 | `junglee/amazon-scraper` | Amazon products/reviews | Cheap-Medium |
 | `compass/crawler-google-places` | Google Maps places | Medium |
+| `harvestapi/linkedin-post-search` | LinkedIn post search (no cookies) | Medium |
+| `harvestapi/linkedin-profile-scraper` | LinkedIn profiles / companies | Medium |
+| `apidojo/tweet-scraper` | X/Twitter search + timelines | Cheap |
+| `curious_coder/threads-scraper` | Threads profile posts | Cheap |
+| `apify/facebook-posts-scraper` | Facebook public page posts | Cheap |
+
+The 5 social actors were added 2026-07 and are pending first-run verification — see "Verification Status" in `directives/apify-usage-policy.md`. Their `mcp__apify__*` tools work immediately (MCP auto-loads schemas); validate the CLI convenience commands with `python3 execution/apify_client.py verify --live`.
 
 ### Python Wrapper (for Gemini + workflows)
 
@@ -203,7 +219,11 @@ python execution/apify_client.py budget-status
 python execution/apify_client.py reddit "first time home buyer" --limit 50 --comments
 python execution/apify_client.py instagram realestatewithjing --limit 20
 python execution/apify_client.py youtube "pilates day in life" --limit 5 --transcript
-# (full CLI: reddit, instagram, tiktok, youtube, amazon, maps, web, budget-status, budget-reset)
+python execution/apify_client.py linkedin "AI ghostwriting" --limit 30
+python execution/apify_client.py twitter --query "personal branding" --limit 50
+# (full CLI: reddit, instagram, tiktok, youtube, amazon, maps, web, linkedin,
+#  linkedin-profile, twitter, threads, facebook, run, verify, mcp-tools,
+#  budget-status, budget-reset)
 ```
 
 The wrapper:

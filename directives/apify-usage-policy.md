@@ -2,7 +2,9 @@
 
 > **Monthly Budget Limit: $29.00 (Apify Starter plan)**
 > This directive applies to ALL agents, workflows, and research tasks that use Apify.
-> **Last Updated: 2026-04-06**
+> **Last Updated: 2026-07-06** (added LinkedIn, X/Twitter, Threads, Facebook; MCP now auto-registers via SessionStart hook)
+
+**Reproducible setup (fresh clone / new container):** put `APIFY_TOKEN` in `.env`, then `bash execution/apify_setup.sh` (registers the MCP server + verifies). A SessionStart hook (`execution/hooks/apify_mcp_bootstrap.py`) re-registers it automatically when the token is present. Config check anytime: `python3 execution/apify_client.py verify`.
 
 ## Purpose
 
@@ -16,7 +18,7 @@ Apify provides scraping, social listening, and structured data extraction that *
 ## When to Use Apify (PRIMARY)
 
 - **Reddit deep dives** — thread mining, comment analysis, sentiment, subreddit scans
-- **Social listening** — Instagram, TikTok, YouTube content scraping
+- **Social listening** — LinkedIn (post search + profiles), X/Twitter, Threads, Facebook, Instagram, TikTok, YouTube content scraping — ear-to-the-ground on what's trending per platform
 - **E-commerce intelligence** — Amazon products, Best Sellers, reviews
 - **Local business research** — Google Maps places, contact info, reviews
 - **Site-specific extraction** — when `read_url_content` chokes on JS-rendered pages
@@ -43,9 +45,11 @@ Apify provides scraping, social listening, and structured data extraction that *
 
 ---
 
-## The 7 Approved Actors
+## The 12 Approved Actors
 
-These are the only actors loaded in `.mcp.json` and `execution/apify_client.py`. Adding new actors requires editing both files.
+The `ACTORS` dict in `execution/apify_client.py` is the **single source of truth**. The MCP `--tools` list is generated from it (`apify_client.py mcp-tools`), so the CLI and MCP paths can never drift. Add an actor there, then re-run `bash execution/apify_setup.sh`.
+
+**Core (verified live 2026-04):**
 
 | Actor key | Apify ID | Purpose | Cost class |
 |---|---|---|---|
@@ -57,7 +61,27 @@ These are the only actors loaded in `.mcp.json` and `execution/apify_client.py`.
 | `maps` | `compass/crawler-google-places` | Google Maps places, reviews | Medium (~$0.007/result) |
 | `web` | `apify/rag-web-browser` | JS-rendered page fetch | Cheap (~$0.003/result) |
 
-**Why these specific actors**: Best cost/quality ratio in their category as of 2026-04-06. Reddit-scraper-lite is the cheapest reliable Reddit option. Instagram-scraper is the cheapest at $0.50/1k. No expensive enterprise actors are loaded — even if an agent tries to call something else, the MCP server simply doesn't have it.
+**Social-listening expansion (added 2026-07 — see Verification Status below):**
+
+| Actor key | Apify ID | Purpose | Cost class |
+|---|---|---|---|
+| `linkedin` | `harvestapi/linkedin-post-search` | LinkedIn post search by keyword (no cookies) | Medium (~$0.008/result) |
+| `linkedin_profile` | `harvestapi/linkedin-profile-scraper` | LinkedIn profile / company detail | Medium (~$0.010/result) |
+| `twitter` | `apidojo/tweet-scraper` | X/Twitter search + handle timelines | Cheap (~$0.0004/result) |
+| `threads` | `curious_coder/threads-scraper` | Threads profile posts | Cheap (~$0.003/result) |
+| `facebook` | `apify/facebook-posts-scraper` | Facebook public page posts | Cheap (~$0.003/result) |
+
+**Why these specific actors**: Best cost/quality ratio in their category. Reddit-scraper-lite is the cheapest reliable Reddit option; instagram-scraper is the cheapest at $0.50/1k. HarvestAPI's LinkedIn actors need no LinkedIn cookies (they proxy), which is the durable choice against a shared budget. `apidojo/tweet-scraper` is the cheapest reliable X actor. No expensive enterprise actors are loaded — even if an agent tries to call something else, the MCP server simply doesn't have it.
+
+### Verification Status
+
+The 5 new actors are marked `"verified": False` in the `ACTORS` dict. This means the actor **ID** is wired and (via MCP) its real input schema is auto-loaded, so `mcp__apify__*` tool calls work immediately. The **CLI convenience input** (the hand-built `run_input` in each `cmd_*`) is best-known and confirmed with:
+
+```bash
+python3 execution/apify_client.py verify --live   # smoke-tests every unverified actor with 1 result
+```
+
+For any actor that returns `status: ok`, flip its `"verified"` flag to `True`. If one returns a 400, the Apify error names the field to fix — a one-line change in the `cmd_*` function. **The MCP path is unaffected either way.**
 
 ---
 

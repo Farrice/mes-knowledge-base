@@ -13,6 +13,11 @@ python execution/apify_client.py <command> [args]
 | Task type | Tool |
 |---|---|
 | Reddit threads, comments, sentiment | `apify_client.py reddit` |
+| LinkedIn post search (what's trending in a niche) | `apify_client.py linkedin` |
+| LinkedIn profile / company detail | `apify_client.py linkedin-profile` |
+| X/Twitter search or a handle's timeline | `apify_client.py twitter` |
+| Threads profile posts | `apify_client.py threads` |
+| Facebook public page posts | `apify_client.py facebook` |
 | Instagram profile audits, hashtag analysis | `apify_client.py instagram` |
 | TikTok hashtag scans, trend mining | `apify_client.py tiktok` |
 | YouTube videos + transcripts (vlogs, day-in-life) | `apify_client.py youtube` |
@@ -25,11 +30,16 @@ python execution/apify_client.py <command> [args]
 
 **Rule of thumb**: Apify pulls raw structured data. Perplexity synthesizes meaning. Use Apify → Perplexity as a pipeline, not as competitors.
 
-## The 7 Approved Actors
+## The 12 Approved Actors
 
-Only these 7 actors are wired up. Anything else requires editing `execution/apify_client.py`:
+Only these 12 actors are wired up. Anything else requires editing `execution/apify_client.py`:
 
 - `reddit` (cheap) — Reddit posts/comments
+- `linkedin` (medium) — LinkedIn post search by keyword
+- `linkedin-profile` (medium) — LinkedIn profile / company detail
+- `twitter` (cheap) — X/Twitter search + handle timelines
+- `threads` (cheap) — Threads profile posts
+- `facebook` (cheap) — Facebook public page posts
 - `instagram` (cheap) — IG profiles and posts
 - `tiktok` (medium) — TikTok hashtags
 - `youtube` (medium) — YouTube + transcripts
@@ -37,14 +47,29 @@ Only these 7 actors are wired up. Anything else requires editing `execution/apif
 - `maps` (medium) — Google Maps places
 - `web` (cheap) — JS-rendered page fetch
 
+The 5 social actors (linkedin, linkedin-profile, twitter, threads, facebook) were added 2026-07. If a CLI call returns an Apify 400, the error names the field to fix. Validate them with `python execution/apify_client.py verify --live`.
+
 ## Examples
 
 ```bash
 # Reddit deep dive on first-time home buyers
 python execution/apify_client.py reddit "first time home buyer california" --limit 50 --comments
 
-# Pull a specific subreddit
-python execution/apify_client.py reddit --subreddit FirstTimeHomeBuyer --limit 30
+# LinkedIn: what's trending in a niche (post search)
+python execution/apify_client.py linkedin "AI ghostwriting" --limit 30
+
+# LinkedIn profile detail
+python execution/apify_client.py linkedin-profile lara-acosta --limit 20
+
+# X/Twitter: search a topic, or pull a handle's timeline
+python execution/apify_client.py twitter --query "personal branding" --limit 50
+python execution/apify_client.py twitter --handle naval --limit 30
+
+# Threads profile posts
+python execution/apify_client.py threads zuck --limit 25
+
+# Facebook public page posts
+python execution/apify_client.py facebook "https://www.facebook.com/nike" --limit 25
 
 # Instagram profile audit
 python execution/apify_client.py instagram realestatewithjing --limit 20
@@ -52,14 +77,11 @@ python execution/apify_client.py instagram realestatewithjing --limit 20
 # YouTube vlog transcripts
 python execution/apify_client.py youtube "pilates day in the life" --limit 5 --transcript
 
-# Amazon Best Sellers in a category
-python execution/apify_client.py amazon --best-sellers --limit 30
-
-# Google Maps local businesses
-python execution/apify_client.py maps "yoga studio" --location "Sherman Oaks CA" --limit 30
-
 # Generic JS-rendered web fetch
 python execution/apify_client.py web "https://example.com"
+
+# Any wired actor with raw Apify input (matches the exact schema)
+python execution/apify_client.py run twitter --input '{"searchTerms":["ai"],"maxItems":10}'
 ```
 
 ## Budget Awareness — Critical
