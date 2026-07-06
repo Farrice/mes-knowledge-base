@@ -367,13 +367,23 @@ def cmd_capture(text: str, route: str) -> int:
     content += f"- [{stamp}] {text}\n"
     jpath.write_text(content)
     if route == "inbox":
-        THOUGHT_INBOX.mkdir(parents=True, exist_ok=True)
-        ipath = THOUGHT_INBOX / f"{today}.md"
-        if not ipath.exists():
-            ipath.write_text(f"# Thought Inbox — {today}\n\n")
-        with ipath.open("a") as f:
-            f.write(f"- [cos {stamp}] {text}\n")
-        print(f"Captured to journal + thought-bank inbox: {ipath.name}")
+        # 2026-07-06: delegates to thought_bank.py — the single deterministic
+        # writer of the thought-bank inbox (timestamped ## headers + sovereign
+        # mirror for weekly distill). Was a second, differently-formatted
+        # writer of the same file; this collapses it to one format, one path.
+        try:
+            sys.path.insert(0, str(REPO_ROOT / "execution"))
+            from thought_bank import capture as tb_capture  # noqa: E402
+            result = tb_capture(text, source="cos", silent=True)
+            if result.get("skipped"):
+                print(f"Captured to journal: {jpath.name} (thought-bank: duplicate, skipped)")
+            else:
+                print(f"Captured to journal: {jpath.name} + thought-bank inbox: "
+                      f"{Path(result['file']).name}")
+        except Exception as e:
+            # thought_bank.py unavailable — journal write above already succeeded;
+            # fail loud but don't lose the journal capture.
+            print(f"Captured to journal: {jpath.name} (thought-bank mirror FAILED: {e})")
     else:
         print(f"Captured to journal: {jpath.name}")
     return 0

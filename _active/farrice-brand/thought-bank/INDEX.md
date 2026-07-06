@@ -8,6 +8,39 @@
 
 ---
 
+## How capture works now (2026-07-06)
+
+Capture used to depend on the model remembering to write here mid-conversation
+— that's why there was exactly one entry in two months. It's now a
+deterministic pipeline with a physical backstop at every hop:
+
+1. **`/dump`** (COS front door) → its Capture Discipline step for content
+   sparks shells `python3 execution/thought_bank.py capture "<text>" --theme <t> --source dump`
+   (or the equivalent `cos_prep.py capture --route inbox`, which now delegates
+   to the same function). Appends `## HH:MM — <first 8 words>` + body +
+   `*Theme:*` / `*Source:*` tags to `inbox/YYYY-MM-DD.md` (one file per day,
+   append-only), and mirrors the entry into `.memory/sovereign.db`
+   (`tier=episodic, category=milestone, source=thought_bank`) so it flows into
+   the existing weekly distill pipeline.
+2. **Nightly backstop** — `execution/harvest_memory_daily.py` (launchd daily)
+   scans the last 24h of raw episodic exchanges for user turns opening with
+   `/dump`, `thought:`, `note to self`, or `capture this`, and appends any not
+   already in today's inbox file (deduped by normalized first-60-chars). This
+   is what guarantees capture even when a `/dump` session happened but the
+   CLI call got skipped conversationally.
+3. **Weekly distill** — the sovereign-mirrored entries cluster and get
+   proposed as semantic rules the same way every other episodic record does;
+   nothing auto-promotes, `memory_review.py` stays the human gate.
+4. **Themes stay human-curated.** Routing a raw entry into a `themes/*.md`
+   file (or promoting a stub theme to active) is still a deliberate editorial
+   pass, not automated — the deterministic layer only guarantees the raw
+   material lands in the inbox, not that it gets processed.
+
+CLI: `python3 execution/thought_bank.py capture "<text>" [--theme T] [--source S]`
+· `list [--days N]` · `stats`.
+
+---
+
 ## Active themes (have entries)
 
 | Theme | Last entry | Source |

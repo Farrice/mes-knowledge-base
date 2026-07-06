@@ -62,7 +62,7 @@ These rules are SOURCE-OF-TRUTH for Farrice's voice. They override any default A
 - **Writers-room is the DEFAULT for content ≥500 chars**, not a fallback. Run diagnosis-first from the start, never write-then-fix.
 - **Brandjack/newsjack Phase 0** before the 3 craft layers in writers-room — zeitgeist anchoring is non-optional (per `feedback_writers-room-zeitgeist-layer.md`, 2026-05-04).
 - **Banned structural tells** apply at the MOVE level, not just phrase level. Cross-piece rhythm variance is enforced (no two pieces in a window share closing structure).
-- **Thought-bank capture is silent.** When Farrice dumps a thought in conversation, capture verbatim to `inbox/YYYY-MM-DD.md` and route to themes. No slash command needed (per `project_thought-bank.md`).
+- **Thought-bank capture is deterministic (2026-07-06).** When Farrice dumps a thought in conversation, run `python3 execution/thought_bank.py capture "<verbatim text>" [--theme <t>]` — it appends to `inbox/YYYY-MM-DD.md`, dedupes, and mirrors into sovereign memory for weekly distill. `/dump` routes through the same writer; a nightly episodic backstop sweeps missed markers. Silent capture stays the trigger, but the SINK is the script — never a bare file write (per `feedback_ai-memory-dependent-observability.md`).
 - **Voice authenticity > engagement optimization.** Cheap-question closes that optimize for comment count are banned even when they would lift metrics.
 
 ---
