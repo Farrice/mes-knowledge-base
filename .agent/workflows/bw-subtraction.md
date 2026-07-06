@@ -1,0 +1,12 @@
+---
+description: "the master's cut — sort every detail into momentum vs. withheld-seed vs. dead weight, then tighten"
+---
+
+# The Subtraction Cut (Ben Watkins)
+
+the master's cut — sort every detail into momentum vs. withheld-seed vs. dead weight, then tighten
+
+## Steps
+1. Load the Ben Watkins spine: read `skills/ben-watkins-storytelling/genius.md` (voice + Decision Framework + Anti-Patterns).
+2. Read and execute the full workflow at `skills/ben-watkins-storytelling/workflows/bw-subtraction.md` exactly as documented (Pre-Flight, Steps, Output Format, Quality Gate).
+3. Run the Quality Gate (`genius.md` § Anti-Patterns + § Expert-Specific Quality Rubric) before delivering.

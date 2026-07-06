@@ -1,0 +1,12 @@
+---
+description: "write recognition copy so precise the reader feels personally named — no literal name"
+---
+
+# Call Them By Their Name (Ben Watkins)
+
+write recognition copy so precise the reader feels personally named — no literal name
+
+## Steps
+1. Load the Ben Watkins spine: read `skills/ben-watkins-storytelling/genius.md` (voice + Decision Framework + Anti-Patterns).
+2. Read and execute the full workflow at `skills/ben-watkins-storytelling/workflows/bw-call-by-name.md` exactly as documented (Pre-Flight, Steps, Output Format, Quality Gate).
+3. Run the Quality Gate (`genius.md` § Anti-Patterns + § Expert-Specific Quality Rubric) before delivering.
