@@ -490,6 +490,16 @@
     "status": ""
   },
   {
+    "name": "Claim-Safe Health Marketing",
+    "directory": "claim-safe-health-marketing",
+    "description": "The claim-substantiation gate for health, wellness, and supplement brand marketing. Classifies claims (disease vs. structure/function vs. qualified vs. puffery), maps claim strength to required evidence tier (FTC's competent-and-reliable-scientific-evidence standard), rewrites flagged copy into compliant-but-converting language, and runs the Meta/TikTok/Amazon platform-specific pass before launch. Built for Path A: claim-safe content for funded health brands.",
+    "when_to_use": "| Need | Route to |\n|---|---|\n| Coaching business / individual athlete programming | `alan-aragon-nutrition`, `andy-galpin-training-intelligence`, `strength-conditioning` |\n| Generic DR persuasion with no health/efficacy claim | `jw-engine`, `copy-engine` (no gate needed if there's no claim to substantiate) |\n| Non-U.S. regulatory regimes (EU health claims reg, Health Canada NHP) | Out of scope \u2014 flag explicitly, do not apply U.S. rules cross-jurisdiction |\n| Brand strategy / positioning for a funded health brand (not claim-level) | Nearest is `ross-mckay-premium-at-scale` (generic CPG) \u2014 this is a capability gap the E5 roadmap flags separately (Target #2, not this skill) |\n| Turning a scientific study into accurate content (evidence translation, not claim compliance) | Gap flagged separately as E5 Target #3 \u2014 not yet built; until it exists, this skill's substantiation-ladder logic (GP-02) is the interim reference |\n\n---",
+    "mtime": 1783353930.1964056,
+    "slash": "/claim-safe-health-marketing",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "coaching-business-os",
     "directory": "coaching-business-os",
     "description": "CONDUCTOR hub for the business-of-coaching vertical \u2014 a standalone system that diagnoses what a coaching business actually needs (offer economics, positioning, content monetization, client acquisition, or client transformation) and routes to the right lane, then composes those lanes into one coherent offer architecture. Monetization + transformation layer of the Alignment Architect coaching practice.",

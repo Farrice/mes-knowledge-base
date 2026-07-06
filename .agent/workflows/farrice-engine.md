@@ -8,6 +8,8 @@ The single front door. Composes Farrice's best assets — the Parallax voice, th
 
 This does NOT reinvent anything. It orchestrates what already exists.
 
+Universal front door: `/create` composes this engine for personal-brand work.
+
 ## Usage
 
 ```

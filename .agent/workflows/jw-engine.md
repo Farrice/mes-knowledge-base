@@ -6,6 +6,8 @@ expert: John Whiting
 
 # /jw-engine — The Propaganda Engine OS
 
+Universal front door: `/create` composes this engine for campaign/persuasion work.
+
 Read and execute the workflow at `skills/john-whiting-propaganda-machine/workflows/jw-engine.md`.
 
 ## Load first (in order)

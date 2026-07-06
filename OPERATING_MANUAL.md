@@ -2,6 +2,7 @@
 
 > One page. The ~10 commands that constitute daily operation. Everything else is long-tail — invoke by explicit `/name` or ask `/recommend`.
 > The system now has physical gates (hooks): cost, finalize-debt, routing warnings, extraction freeze. When a gate fires, it's working — don't fight it.
+> **Orchestrating multi-step or quality-critical work, or quality feels off? Load `directives/peak-operation.md`** — the doctrine for running this system at full capability on any model (written by Fable, 2026-07-06).
 
 ## Daily (10 min)
 
