@@ -12,6 +12,7 @@ A 3-layer expert-orchestration OS owned by Farrice: JARVIS routing → <!-- COUN
 - Notion: ALWAYS `execution/notion_api.py` (pins `Notion-Version: 2022-06-28`). Never the JS client.
 - Skills: `skills/[name]/` → `SKILL.md` + `genius.md` + `workflows/*.md`. **This repo is the single source of truth** — the ports under `~/.codex/skills/` are stale and many fail YAML validation; prefer reading repo skills directly.
 - Workflows: `/name` → read `.agent/workflows/[name].md` and execute. Index: `SLASH_COMMANDS.md`.
+- **Front doors (2026-07-06)**: `/go "<messy thought>"` = anti-bottleneck staging (silent DICE compile → written assumptions, max ONE question round → run packet → routes to the right conductor). `/create` = universal content conductor (outcome contract ≥2 outcomes → context richness → live zeitgeist w/ receipts → purpose routing → proven recipe → gates). Orchestrating multi-step or quality-critical work: load `directives/peak-operation.md` (the operating doctrine — shape of the work, routing table, drift signals, invariants).
 - Intermediates → `.tmp/` (never commit).
 
 ## The Chain (every deliverable request — no exceptions)
