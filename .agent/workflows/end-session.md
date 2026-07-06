@@ -6,6 +6,22 @@ description: Run at the end of a deep-work session
 
 > **Purpose**: Generate a clean handoff for the next session. Deep cleanup is optional — assets are already organized when produced.
 
+## Operator Core Alignment
+
+This workflow is the canonical source of truth for End-session behavior.
+Global and local End-session wrappers must stay thin compatibility wrappers
+that point back here, not competing behavior contracts.
+
+Preserve these invariants:
+
+- `/end-session` owns whole-session closeout, retrieval handoff, and closeout intelligence capture.
+- It is not `/handoff` for a focused transfer packet and not `/steering-compass` for standalone next-prompt coaching.
+- Meaningful closeouts include session naming metadata, a concise handoff, `3 Next Prompts`, `Operator Lesson`, `Next-time prompt`, `Subagent worth it?`, and `Reuse hook`.
+- Closeout intelligence runs through `python3 execution/session_closeout_intelligence.py run --source end-session`.
+- Conversation indexing uses the safe `python3 execution/conversation_index.py stats` check before any rebuild.
+- Optional cleanup must be reviewed; never publish, push, broadly delete, or perform destructive cleanup without explicit approval.
+- Real Codex subagents require explicit authorization.
+
 ## Insightful Momentum Closeout Requirement
 
 `/end-session` must not fall back to the old lightweight "Use Now / Harden /
@@ -121,7 +137,7 @@ python3 execution/conversation_index.py stats
 
 Only update a specific conversation when the current conversation id is known:
 ```bash
-python execution/conversation_index.py update <current-conversation-id>
+python execution/conversation_index.py update "$CURRENT_CONVERSATION_ID"
 ```
 
 ### 3. Git Checkpoint (Optional)
