@@ -15,3 +15,11 @@
 **Mode**: Advisory
 **Resolution**: unresolved (auto-logged by skill_router_hook, top match score 1.2)
 **Skill Created**: none
+
+## 2026-07-06 — brand-game-guessing
+
+**Task**: help me pick a name for my new supplement brand without it turning into a guessing game
+**Severity**: Medium
+**Mode**: Advisory
+**Resolution**: unresolved (auto-logged by skill_router_hook, top match score 1.5)
+**Skill Created**: none

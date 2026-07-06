@@ -1060,6 +1060,16 @@
     "status": ""
   },
   {
+    "name": "Fryderyk Wiatrowski AI Employee OS",
+    "directory": "fryderyk-wiatrowski-ai-employee-os",
+    "description": "Design, audit, and upgrade AI employee systems with ambient work surfaces, context isolation, scoped integrations, event semantics, trust ladders, rollout gates, and model/personality regression checks.",
+    "when_to_use": "",
+    "mtime": 1783359605.817577,
+    "slash": "/fryderyk-wiatrowski-ai-employee-os",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "Futurepedia Prompt Engineering",
     "directory": "futurepedia-prompt-engineering",
     "description": "The Expert Anchor System - 3-step framework for transforming generic AI outputs into expert-level, personalized execution through systematic knowledge extraction and context synthesis",
@@ -2024,7 +2034,7 @@
     "directory": "market_intelligence",
     "description": "Advanced trend spotting and keyword intent analysis system. Uses Agentic Research to replicate the \"unfair advantage\" of paid tools like Ahrefs and Google Trends.",
     "when_to_use": "",
-    "mtime": 1780387584.7409263,
+    "mtime": 1783358821.0830643,
     "slash": "/market_intelligence",
     "routing": "",
     "status": ""

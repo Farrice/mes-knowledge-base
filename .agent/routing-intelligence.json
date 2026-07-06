@@ -1106,26 +1106,759 @@
             "ensemble": true,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_145337_0b96",
+            "timestamp": "2026-07-06T14:53:37.473248+00:00",
+            "session_id": "test-port",
+            "request_summary": "write landing page copy for a fitness coach",
+            "intent_score": 0,
+            "domain_detected": "stefan-georgi-dopamine-copy",
+            "experts_deployed": [
+                "stefan-georgi-dopamine-copy",
+                "luke-iha-copy-blocks",
+                "how-i-write-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "stefan-georgi-dopamine-copy",
+            "ensemble": true,
+            "compound_pairing": "stefan-georgi-dopamine-copy + luke-iha-copy-blocks + how-i-write-os",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_145427_17d3",
+            "timestamp": "2026-07-06T14:54:27.216500+00:00",
+            "session_id": "",
+            "request_summary": "Harness frontier redesign shipped on feat/harness-frontier-loops: closed router learning loop (always-rank + suggest-vs-loaded feedback + nightly bounded weight learning), wired dormant safety hooks b",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-architecture"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "harness-frontier-loops",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_151818_d45d",
+            "timestamp": "2026-07-06T15:18:18.110710+00:00",
+            "session_id": "",
+            "request_summary": "Second-brain/memory/evolution audit + repair: evidence-based verdicts on all 11 subsystems; fixed knowledge compiler false-freshness (240->515 sources) + weekly schedule; evolution log desync root-cau",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-architecture"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_155330_d85c",
+            "timestamp": "2026-07-06T15:53:30.176956+00:00",
+            "session_id": "f4c7550a-f0f7-48df-be62-696b4870704b",
+            "request_summary": "I like us to execute all the recommended things in the queue. I re-authenticate the recall, then I want to do the e5 claim safe harvest, if possible, and then the thot bank. I don't want to retire it,",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "jason-fladlien-marketing",
+                "nate-b-jones-orchestration-intelligence"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + jason-fladlien-marketing + nate-b-jones-orchestration-intelligence",
+            "feedback": "fb_20260706_155924_6e9a"
+        },
+        {
+            "routing_id": "rt_20260706_160840_7edb",
+            "timestamp": "2026-07-06T16:08:40.050748+00:00",
+            "session_id": "",
+            "request_summary": "Full queue execution: claim-safe-health-marketing skill shipped (E5 target 1, /claim-safe, primary-source grounded); thought-bank deterministic capture spine (thought_bank.py + /dump delegation + nigh",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-architecture"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_161853_84d1",
+            "timestamp": "2026-07-06T16:18:53.755861+00:00",
+            "session_id": "f4c7550a-f0f7-48df-be62-696b4870704b",
+            "request_summary": "<task-notification>\n<task-id>bot5u4y3z</task-id>\n<tool-use-id>toolu_01TN9dH1soUgzgQyS3aKHTxo</tool-use-id>\n<output-file>/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/f4c7550a-f0f7-48df",
+            "intent_score": 0,
+            "domain_detected": "design-md",
+            "experts_deployed": [
+                "design-md",
+                "simon-intellectual-library-os",
+                "pptx"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "design-md",
+            "ensemble": true,
+            "compound_pairing": "design-md + simon-intellectual-library-os + pptx",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_162120_e952",
+            "timestamp": "2026-07-06T16:21:20.046418+00:00",
+            "session_id": "",
+            "request_summary": "Glow Daily Supplement launch post",
+            "intent_score": 7,
+            "domain_detected": "Content",
+            "experts_deployed": [],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_162139_5a1f",
+            "timestamp": "2026-07-06T16:21:39.086702+00:00",
+            "session_id": "bench-test-1",
+            "request_summary": "help me pick a name for my new supplement brand without it turning into a guessing game",
+            "intent_score": 0,
+            "domain_detected": "david-placek-naming",
+            "experts_deployed": [
+                "david-placek-naming"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "david-placek-naming",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_162143_eba8",
+            "timestamp": "2026-07-06T16:21:43.063450+00:00",
+            "session_id": "",
+            "request_summary": "Morning Reset fitness post",
+            "intent_score": 7,
+            "domain_detected": "Content",
+            "experts_deployed": [],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_162143_4209",
+            "timestamp": "2026-07-06T16:21:43.198721+00:00",
+            "session_id": "",
+            "request_summary": "internal script fix",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_162143_cf76",
+            "timestamp": "2026-07-06T16:21:43.364686+00:00",
+            "session_id": "",
+            "request_summary": "productivity app post",
+            "intent_score": 7,
+            "domain_detected": "Content",
+            "experts_deployed": [],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_162150_5372",
+            "timestamp": "2026-07-06T16:21:50.945161+00:00",
+            "session_id": "",
+            "request_summary": "market sizing research brief",
+            "intent_score": 7,
+            "domain_detected": "Research",
+            "experts_deployed": [],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_162151_0016",
+            "timestamp": "2026-07-06T16:21:51.079734+00:00",
+            "session_id": "",
+            "request_summary": "supplement brand market sizing",
+            "intent_score": 7,
+            "domain_detected": "Research",
+            "experts_deployed": [],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_162219_f7d6",
+            "timestamp": "2026-07-06T16:22:19.486280+00:00",
+            "session_id": "bench-test-1",
+            "request_summary": "help me pick a name for my new supplement brand without it turning into a guessing game",
+            "intent_score": 0,
+            "domain_detected": "david-placek-naming",
+            "experts_deployed": [
+                "david-placek-naming"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "david-placek-naming",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_162220_cd5b",
+            "timestamp": "2026-07-06T16:22:20.849146+00:00",
+            "session_id": "bench-test-2",
+            "request_summary": "help me pick a name for my new supplement brand without it turning into a guessing game",
+            "intent_score": 0,
+            "domain_detected": "david-placek-naming",
+            "experts_deployed": [
+                "david-placek-naming",
+                "brand-operating-system"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "david-placek-naming",
+            "ensemble": true,
+            "compound_pairing": "david-placek-naming + brand-operating-system",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_162226_d5cf",
+            "timestamp": "2026-07-06T16:22:26.673804+00:00",
+            "session_id": "t3",
+            "request_summary": "make sure the AI stops confidently making stuff up when it doesnt actually know",
+            "intent_score": 0,
+            "domain_detected": "nicolas-cole-niche-positioning",
+            "experts_deployed": [
+                "nicolas-cole-niche-positioning",
+                "prediction-market-making",
+                "deliberate"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nicolas-cole-niche-positioning",
+            "ensemble": true,
+            "compound_pairing": "nicolas-cole-niche-positioning + prediction-market-making + deliberate",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_162227_bb8c",
+            "timestamp": "2026-07-06T16:22:27.955876+00:00",
+            "session_id": "t4",
+            "request_summary": "make sure the AI stops confidently making stuff up when it doesnt actually know",
+            "intent_score": 0,
+            "domain_detected": "nicolas-cole-niche-positioning",
+            "experts_deployed": [
+                "nicolas-cole-niche-positioning",
+                "deliberate",
+                "mark-kashef-ai-councils"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nicolas-cole-niche-positioning",
+            "ensemble": true,
+            "compound_pairing": "nicolas-cole-niche-positioning + deliberate + mark-kashef-ai-councils",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_162401_ae6d",
+            "timestamp": "2026-07-06T16:24:01.647354+00:00",
+            "session_id": "",
+            "request_summary": "Three frontier improvements shipped: deterministic claim-risk gate auto-firing in finalize (DISEASE_CLAIM flag + swaps, never blocks); weekly router report card with daily staleness backstop; hybrid B",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-architecture"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_163546_50cc",
+            "timestamp": "2026-07-06T16:35:46.058808+00:00",
+            "session_id": "f4c7550a-f0f7-48df-be62-696b4870704b",
+            "request_summary": "Can you take a glance at the rest of the system and see what else we can improve on and how you operate at optimal and superior levels. I just want to fully leverage the time that we have left in usag",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "design-md",
+                "nate-b-jones-orchestration-intelligence"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + design-md + nate-b-jones-orchestration-intelligence",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_165410_f3a0",
+            "timestamp": "2026-07-06T16:54:10.914032+00:00",
+            "session_id": "",
+            "request_summary": "Final wave: /create universal content conductor (outcome contract, context richness, live zeitgeist, purpose routing, proven recipe, gates); peak-operation doctrine written + wired into OPERATING_MANU",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-architecture"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "create",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_165954_9f9c",
+            "timestamp": "2026-07-06T16:59:54.913628+00:00",
+            "session_id": "f4c7550a-f0f7-48df-be62-696b4870704b",
+            "request_summary": "is there still room to work on these last few things that I want to bring to your attention, besides this is the autopilot, the virtuoso level and savant level output routing and function for these sl",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "brand-operating-system",
+                "design-md"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + brand-operating-system + design-md",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_171000_42a6",
+            "timestamp": "2026-07-06T17:10:00.490592+00:00",
+            "session_id": "",
+            "request_summary": "Intent-to-execution layer repaired: root-caused why /autopilot never worked (command advertised gates that did not exist in the Codex-only workflow it delegated to); shipped /go anti-bottleneck front ",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-architecture"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "go",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_171537_e4c9",
+            "timestamp": "2026-07-06T17:15:37.327925+00:00",
+            "session_id": "f4c7550a-f0f7-48df-be62-696b4870704b",
+            "request_summary": "I want the same thing that we just built here to work in my Codex globally. Can you give me a prompt or a package I can send over there and let it run? All these things that we did here will work ther",
+            "intent_score": 0,
+            "domain_detected": "brand-operating-system",
+            "experts_deployed": [
+                "brand-operating-system",
+                "luke-iha-copy-blocks",
+                "deliberate"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "brand-operating-system",
+            "ensemble": true,
+            "compound_pairing": "brand-operating-system + luke-iha-copy-blocks + deliberate",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_172059_dac8",
+            "timestamp": "2026-07-06T17:20:59.943764+00:00",
+            "session_id": "codex-parity",
+            "request_summary": "write landing page copy for a fitness coach",
+            "intent_score": 0,
+            "domain_detected": "stefan-georgi-dopamine-copy",
+            "experts_deployed": [
+                "stefan-georgi-dopamine-copy",
+                "luke-iha-copy-blocks",
+                "how-i-write-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "stefan-georgi-dopamine-copy",
+            "ensemble": true,
+            "compound_pairing": "stefan-georgi-dopamine-copy + luke-iha-copy-blocks + how-i-write-os",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_172102_a119",
+            "timestamp": "2026-07-06T17:21:02.818893+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "how-i-write-os",
+            "experts_deployed": [
+                "how-i-write-os",
+                "gpt-image-2-director",
+                "marketing-studio-director"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "how-i-write-os",
+            "ensemble": true,
+            "compound_pairing": "how-i-write-os + gpt-image-2-director + marketing-studio-director",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_172148_b5f0",
+            "timestamp": "2026-07-06T17:21:48.912888+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "how-i-write-os",
+            "experts_deployed": [
+                "how-i-write-os",
+                "gpt-image-2-director",
+                "marketing-studio-director"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "how-i-write-os",
+            "ensemble": true,
+            "compound_pairing": "how-i-write-os + gpt-image-2-director + marketing-studio-director",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_172228_f161",
+            "timestamp": "2026-07-06T17:22:28.878824+00:00",
+            "session_id": "019f3871-b79c-74e3-a143-bf746af316a7",
+            "request_summary": "The KU was the complete practical test that I gave.",
+            "intent_score": 0,
+            "domain_detected": "brand-operating-system",
+            "experts_deployed": [
+                "brand-operating-system",
+                "webapp-testing",
+                "joscha-bach-consciousness"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "brand-operating-system",
+            "ensemble": true,
+            "compound_pairing": "brand-operating-system + webapp-testing + joscha-bach-consciousness",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_172529_0a2f",
+            "timestamp": "2026-07-06T17:25:29.284654+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "how-i-write-os",
+            "experts_deployed": [
+                "how-i-write-os",
+                "gpt-image-2-director",
+                "marketing-studio-director"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "how-i-write-os",
+            "ensemble": true,
+            "compound_pairing": "how-i-write-os + gpt-image-2-director + marketing-studio-director",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_172529_da02",
+            "timestamp": "2026-07-06T17:25:29.612275+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "The KU was the complete practical test that I gave.",
+            "intent_score": 0,
+            "domain_detected": "brand-operating-system",
+            "experts_deployed": [
+                "brand-operating-system",
+                "webapp-testing",
+                "joscha-bach-consciousness"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "brand-operating-system",
+            "ensemble": true,
+            "compound_pairing": "brand-operating-system + webapp-testing + joscha-bach-consciousness",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_172547_5031",
+            "timestamp": "2026-07-06T17:25:47.887839+00:00",
+            "session_id": "codex-parity-negative-check",
+            "request_summary": "write landing page copy for a fitness coach",
+            "intent_score": 0,
+            "domain_detected": "stefan-georgi-dopamine-copy",
+            "experts_deployed": [
+                "stefan-georgi-dopamine-copy",
+                "luke-iha-copy-blocks",
+                "how-i-write-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "stefan-georgi-dopamine-copy",
+            "ensemble": true,
+            "compound_pairing": "stefan-georgi-dopamine-copy + luke-iha-copy-blocks + how-i-write-os",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_172551_f421",
+            "timestamp": "2026-07-06T17:25:51.031308+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "how-i-write-os",
+            "experts_deployed": [
+                "how-i-write-os",
+                "gpt-image-2-director",
+                "marketing-studio-director"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "how-i-write-os",
+            "ensemble": true,
+            "compound_pairing": "how-i-write-os + gpt-image-2-director + marketing-studio-director",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_172624_c05f",
+            "timestamp": "2026-07-06T17:26:24.014634+00:00",
+            "session_id": "",
+            "request_summary": "Health Performance GEO daily brief for 2026-07-06: fashion-coded wellness CPG, Desire-to-Proof Map, publishable LinkedIn post, carousel, video script, proof spine, GEO/AEO opportunity, offer bridge, J",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "oren-operational-systems"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "daily-zeitgeist-brief",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_172718_d11b",
+            "timestamp": "2026-07-06T17:27:18.806973+00:00",
+            "session_id": "",
+            "request_summary": "Health Performance GEO Creative Strategist Engine daily brief for Farrice Cain, 2026-07-06. Produced complete chat-ready daily brief on fashion-coded wellness CPG and the Desire-to-Proof Map; saved lo",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "oren-operational-systems"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "daily-zeitgeist-brief",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_172830_5763",
+            "timestamp": "2026-07-06T17:28:30.691453+00:00",
+            "session_id": "codex-parity",
+            "request_summary": "write landing page copy for a fitness coach",
+            "intent_score": 0,
+            "domain_detected": "stefan-georgi-dopamine-copy",
+            "experts_deployed": [
+                "stefan-georgi-dopamine-copy",
+                "luke-iha-copy-blocks",
+                "how-i-write-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "stefan-georgi-dopamine-copy",
+            "ensemble": true,
+            "compound_pairing": "stefan-georgi-dopamine-copy + luke-iha-copy-blocks + how-i-write-os",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_172833_2f87",
+            "timestamp": "2026-07-06T17:28:33.597523+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "how-i-write-os",
+            "experts_deployed": [
+                "how-i-write-os",
+                "gpt-image-2-director",
+                "marketing-studio-director"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "how-i-write-os",
+            "ensemble": true,
+            "compound_pairing": "how-i-write-os + gpt-image-2-director + marketing-studio-director",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_173430_3839",
+            "timestamp": "2026-07-06T17:34:30.011336+00:00",
+            "session_id": "019f3871-b79c-74e3-a143-bf746af316a7",
+            "request_summary": "Is everything done correctly from the package I gave you in my first prompt?",
+            "intent_score": 0,
+            "domain_detected": "brand-operating-system",
+            "experts_deployed": [
+                "brand-operating-system",
+                "higgsfield-creative-studio",
+                "marketing-studio-director"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "brand-operating-system",
+            "ensemble": true,
+            "compound_pairing": "brand-operating-system + higgsfield-creative-studio + marketing-studio-director",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_180822_35b2",
+            "timestamp": "2026-07-06T18:08:22.538733+00:00",
+            "session_id": "codex-parity",
+            "request_summary": "write landing page copy for a fitness coach",
+            "intent_score": 0,
+            "domain_detected": "stefan-georgi-dopamine-copy",
+            "experts_deployed": [
+                "stefan-georgi-dopamine-copy",
+                "luke-iha-copy-blocks",
+                "how-i-write-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "stefan-georgi-dopamine-copy",
+            "ensemble": true,
+            "compound_pairing": "stefan-georgi-dopamine-copy + luke-iha-copy-blocks + how-i-write-os",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_180825_905f",
+            "timestamp": "2026-07-06T18:08:25.404199+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "how-i-write-os",
+            "experts_deployed": [
+                "how-i-write-os",
+                "gpt-image-2-director",
+                "marketing-studio-director"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "how-i-write-os",
+            "ensemble": true,
+            "compound_pairing": "how-i-write-os + gpt-image-2-director + marketing-studio-director",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_181913_cd62",
+            "timestamp": "2026-07-06T18:19:13.007527+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "how-i-write-os",
+            "experts_deployed": [
+                "how-i-write-os",
+                "gpt-image-2-director",
+                "marketing-studio-director"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "how-i-write-os",
+            "ensemble": true,
+            "compound_pairing": "how-i-write-os + gpt-image-2-director + marketing-studio-director",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_182637_5ed7",
+            "timestamp": "2026-07-06T18:26:37.642011+00:00",
+            "session_id": "f4c7550a-f0f7-48df-be62-696b4870704b",
+            "request_summary": "merge feat/harness-frontier-loops to main and re-bless the compiler",
+            "intent_score": 0,
+            "domain_detected": "nate-b-jones-auto-improvement-loops",
+            "experts_deployed": [
+                "nate-b-jones-auto-improvement-loops",
+                "self-evolving-systems",
+                "nate-b-jones-orchestration-intelligence"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nate-b-jones-auto-improvement-loops",
+            "ensemble": true,
+            "compound_pairing": "nate-b-jones-auto-improvement-loops + self-evolving-systems + nate-b-jones-orchestration-intelligence",
+            "feedback": null
         }
     ],
-    "feedback_log": [],
+    "feedback_log": [
+        {
+            "feedback_id": "fb_20260706_155924_6e9a",
+            "timestamp": "2026-07-06T15:59:24.718277+00:00",
+            "session_id": "f4c7550a-f0f7-48df-be62-696b4870704b",
+            "routing_id": "rt_20260706_155330_d85c",
+            "rating": "auto_miss",
+            "correction": "satori-graphics",
+            "notes": "expert skill 'satori-graphics' loaded not matching suggestion ['supercomputer', 'jason-fladlien-marketing', 'nate-b-jones-orchestration-intelligence']"
+        }
+    ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 65,
-            "total_feedback": 0,
+            "total_routings": 105,
+            "total_feedback": 1,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 15,
+                "System": 22,
                 "Client Work": 4,
                 "Analysis": 4,
                 "Strategy": 8,
                 "Creative": 7,
                 "Legal Consult Prep": 1,
-                "Content": 23,
+                "Content": 28,
                 "Extraction": 2,
-                "Research": 1
+                "Research": 3,
+                "stefan-georgi-dopamine-copy": 5,
+                "supercomputer": 3,
+                "design-md": 1,
+                "david-placek-naming": 3,
+                "nicolas-cole-niche-positioning": 2,
+                "brand-operating-system": 4,
+                "how-i-write-os": 7,
+                "nate-b-jones-auto-improvement-loops": 1
             },
             "expert_counts": {
                 "system-audit": 15,
@@ -1140,18 +1873,40 @@
                 "jen-santulan": 3,
                 "health-performance-geo-client-acquisition-engine": 3,
                 "deep-research": 4,
-                "nate-b-jones-orchestration-intelligence": 1,
+                "nate-b-jones-orchestration-intelligence": 4,
                 "source-command-mission": 1,
                 "creative-direction": 6,
-                "oren-operational-systems": 1,
+                "oren-operational-systems": 3,
                 "satori-graphics": 1,
                 "creative-director": 1,
                 "john-whiting": 2,
                 "master-copywriter": 2,
-                "ben-watkins": 1
+                "ben-watkins": 1,
+                "stefan-georgi-dopamine-copy": 5,
+                "luke-iha-copy-blocks": 6,
+                "how-i-write-os": 12,
+                "system-architecture": 6,
+                "supercomputer": 3,
+                "jason-fladlien-marketing": 1,
+                "design-md": 3,
+                "simon-intellectual-library-os": 1,
+                "pptx": 1,
+                "david-placek-naming": 3,
+                "brand-operating-system": 6,
+                "nicolas-cole-niche-positioning": 2,
+                "prediction-market-making": 1,
+                "deliberate": 3,
+                "mark-kashef-ai-councils": 1,
+                "gpt-image-2-director": 7,
+                "marketing-studio-director": 8,
+                "webapp-testing": 2,
+                "joscha-bach-consciousness": 2,
+                "higgsfield-creative-studio": 1,
+                "nate-b-jones-auto-improvement-loops": 1,
+                "self-evolving-systems": 1
             },
             "tier_counts": {
-                "0": 65,
+                "0": 105,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -1159,10 +1914,11 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 0,
-                "finalize-auto": 65
+                "hybrid": 26,
+                "finalize-auto": 79
             },
-            "ensemble_count": 22
+            "ensemble_count": 51,
+            "auto_miss_count": 1
         }
     }
 }

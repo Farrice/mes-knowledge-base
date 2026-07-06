@@ -1,4 +1,5 @@
 {
+    "status": "retired — see .agent/mcp-spend.jsonl (flat-sub, per-call logging)",
     "monthly_limit": 100,
     "current_month": "2026-03",
     "usage": {

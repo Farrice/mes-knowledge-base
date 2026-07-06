@@ -60,3 +60,5 @@
 {"ts": "2026-07-06T04:47:20.587027+00:00", "tool": "mcp__perplexity-ask__perplexity_research", "service": "perplexity", "billable": true, "session_id": "b088fd69-2ab4-4c3f-ac80-52bf967632ad"}
 {"ts": "2026-07-06T04:51:17.416963+00:00", "tool": "mcp__perplexity-ask__perplexity_research", "service": "perplexity", "billable": true, "session_id": "b088fd69-2ab4-4c3f-ac80-52bf967632ad"}
 {"ts": "2026-07-06T04:57:35.208250+00:00", "tool": "mcp__perplexity-ask__perplexity_research", "service": "perplexity", "billable": true, "session_id": "b088fd69-2ab4-4c3f-ac80-52bf967632ad"}
+{"ts": "2026-07-06T15:54:56.414104+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "f4c7550a-f0f7-48df-be62-696b4870704b"}
+{"ts": "2026-07-06T15:58:01.051748+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "f4c7550a-f0f7-48df-be62-696b4870704b"}

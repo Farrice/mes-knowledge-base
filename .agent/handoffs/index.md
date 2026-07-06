@@ -2,6 +2,8 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-06** [daily-zeitgeist-brief/active] [Health Performance GEO Creative Strategist Engine daily brief for Farrice Cain, 2026-07-06. Produced complete chat-ready daily brief on fashion-coded wellness CPG and the Desire-to-Proof Map; saved local Markdown brief; appended three valid JSONL insight rows; kept Google Drive disabled; verified routing, grounding, claim-risk, JSONL, and export guard.](2026-07-06-daily-zeitgeist-brief.md) — Health Performance GEO Creative Strategist Engine daily brief for Farrice Cain, 2026-07-06. Produced complete chat-ready daily brief on fashion-coded wellness CPG and the Desire-to-Proof Map; saved local Markdown brief; appended three valid JSONL insight rows; kept Google Drive disabled; verified routing, grounding, claim-risk, JSONL, and export guard.
+- **2026-07-06** [execution/active] [Execution — Token Meter](2026-07-06-execution.md) — Execution — Token Meter
 - **2026-07-05** [scratchpad/active] [Scratchpad — Gen Wrappers](2026-07-05-scratchpad.md) — Scratchpad — Gen Wrappers
 - **2026-07-05** [slash-commands-index/done] [SLASH_COMMANDS Index — Complete Regeneration (1866 commands, re-runnable generator)](2026-07-05-slash-commands-index.md) — Work complete — command index fully wired into sync flow; all commits pushed to branch feat/session-auto-naming-pin
 - **2026-07-05** [execution/active] [Execution — Generate Slash Commands](2026-07-05-execution.md) — Execution — Generate Slash Commands
