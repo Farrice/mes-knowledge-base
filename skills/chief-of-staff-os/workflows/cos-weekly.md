@@ -14,7 +14,7 @@ description: "/cos weekly — the 15-minute board session: four seats (CFO money
 
 ## Workflow — Four Seats (≤3 exchanges each)
 
-**Seat 1 — CFO.** Revenue vs targets: actual collected (`.agent/revenue-outcomes.json` / board pack) against `revenue-5k-incumbency`, then the $20-30K north star. Surface outcome check-ins due. Scan the week's journal for new-offer/repositioning drift — if found: one flat Incumbency Rule sentence, log to `## Parked`. If `/weekly-closeout` staleness appeared in recent briefs, surface it here (don't run it).
+**Seat 1 — CFO.** Revenue vs targets: actual collected (`.agent/revenue-outcomes.json` `total_revenue` / board pack) against `revenue-5k-incumbency`, then the $20-30K north star. Surface the same three outer-loop numbers the daily brief tracks: outcome check-ins due (`python3 execution/revenue_tracker.py due`), lifetime revenue collected, and deliverables shipped-but-never-logged (`python3 execution/revenue_tracker.py pipeline`). If the due list is non-trivial, point to the one-command drain: `python3 execution/revenue_tracker.py checkin`. Scan the week's journal for new-offer/repositioning drift — if found: one flat Incumbency Rule sentence, log to `## Parked`. If `/weekly-closeout` staleness appeared in recent briefs, surface it here (don't run it).
 
 **Seat 2 — COO.** Threads sorted: *advancing the active goal* / *maintenance* / *drift*. Name drift without euphemism; recommend kill/park per thread. Farrice decides; decisions get ledger lines. Pull unresolved `## Open loops` older than 3 days: move each forward, park it, or kill it.
 

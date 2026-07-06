@@ -311,6 +311,74 @@ def get_due(include_legacy: bool = True, legacy_days: int = 30) -> Dict[str, Any
     return {"due": due, "legacy": legacy, "due_count": len(due), "legacy_count": len(legacy)}
 
 
+def interactive_checkin(legacy_days: int = 30) -> Dict[str, Any]:
+    """Low-friction outer-loop drain: walk the due (+ legacy) pending queue
+    one item at a time, prompt for a resolution, write back immediately per
+    item so a partial session never loses progress.
+
+    Choices per item: [r]evenue logged / [n]o-revenue outcome / [p]ush 14d /
+    [s]kip (leave pending, untouched). This is the "cheap check-in" the COS
+    brief points to — replaces the multi-flag `log` invocation for the
+    common case of draining the due list.
+    """
+    data = _load_outcomes()
+    today = date.today().isoformat()
+    pending = [o for o in data.get("outcomes", []) if o.get("outcome_type") == "pending"]
+    due = sorted(
+        [o for o in pending if o.get("check_in_date") and o["check_in_date"] <= today],
+        key=lambda o: o.get("check_in_date", ""),
+    )
+    cutoff = (date.today() - timedelta(days=legacy_days)).isoformat()
+    legacy = sorted(
+        [o for o in pending if not o.get("check_in_date") and o.get("date", "") <= cutoff],
+        key=lambda o: o.get("date", ""),
+    )
+    queue = due + legacy
+
+    if not queue:
+        print("Nothing due. Outer loop is current.")
+        return {"resolved": 0, "skipped": 0, "pushed": 0, "queue_len": 0}
+
+    print(f"\n{len(queue)} check-in(s) due. For each: "
+          f"[r]evenue / [n]o-revenue / [p]ush 14d / [s]kip\n")
+    resolved = skipped = pushed = 0
+    for o in queue:
+        print(f"\n— {o['deliverable'][:80]}")
+        if o.get("expected_outcome"):
+            print(f"  expected: {o['expected_outcome']}")
+        choice = input("  [r/n/p/s]? ").strip().lower()
+        if choice == "r":
+            amt = input("  revenue $: ").strip()
+            desc = input("  outcome (what happened): ").strip()
+            try:
+                revenue = float(amt) if amt else 0.0
+            except ValueError:
+                revenue = 0.0
+            o.update({"revenue": revenue, "outcome": desc or "revenue logged",
+                      "outcome_type": "revenue", "resolved_date": today})
+            resolved += 1
+        elif choice == "n":
+            desc = input("  outcome (what happened, e.g. 'dead: reason'): ").strip()
+            o.update({"revenue": 0.0, "outcome": desc or "no revenue",
+                      "outcome_type": "archived-no-data", "resolved_date": today})
+            resolved += 1
+        elif choice == "p":
+            o["check_in_date"] = (date.today() + timedelta(days=14)).isoformat()
+            print(f"  pushed to {o['check_in_date']}")
+            pushed += 1
+        else:
+            print("  skipped")
+            skipped += 1
+
+    data["total_revenue"] = sum(x.get("revenue", 0) for x in data["outcomes"])
+    _save_outcomes(data)
+    print(f"\n{'='*60}")
+    print(f"  {resolved} resolved · {pushed} pushed · {skipped} skipped")
+    print(f"  Total Revenue (All Time): ${data['total_revenue']:,.2f}")
+    print(f"{'='*60}\n")
+    return {"resolved": resolved, "skipped": skipped, "pushed": pushed, "queue_len": len(queue)}
+
+
 def get_roi_report(skill: str = "", expert: str = "") -> Dict[str, Any]:
     """
     Generate an ROI report showing which skills/experts generate revenue.
@@ -476,6 +544,10 @@ def main():
     due_cmd.add_argument("--no-legacy", action="store_true", help="Hide legacy pending entries without check-in dates")
     due_cmd.add_argument("--legacy-days", type=int, default=30, help="Age threshold for legacy pending entries (default 30)")
 
+    # checkin (interactive, low-friction outer-loop drain)
+    checkin_cmd = sub.add_parser("checkin", help="Interactively walk the due list one item at a time")
+    checkin_cmd.add_argument("--legacy-days", type=int, default=30, help="Age threshold for legacy pending entries (default 30)")
+
     args = parser.parse_args()
 
     if args.command == "log":
@@ -491,6 +563,8 @@ def main():
         get_pipeline()
     elif args.command == "due":
         get_due(include_legacy=not args.no_legacy, legacy_days=args.legacy_days)
+    elif args.command == "checkin":
+        interactive_checkin(legacy_days=args.legacy_days)
     else:
         parser.print_help()
 

@@ -49,6 +49,10 @@ Read ALL of:
 | `_active/linkedin-launch/06-automation/daily/performance-log.md` | Last 7 entries + Carry-Forward Directives |
 | Yesterday's `daily/briefing-*.md` + most recent post set | Continuity; never repeat an angle, hook format, or close structure within 7 days |
 
+**Quality benchmark (REQUIRED — load before drafting; a fresh session may not run this engine without it):**
+- `_active/linkedin-launch/04-content-os/ai-boom-content-package.md` — the proven-recipe benchmark edition. This is the bar. If today's cook doesn't clear it, that's the gate failing, not a style nitpick.
+- The loaded memory note `feedback_content-quality-pipeline-recipe.md` — the recipe pattern behind that benchmark: scaffold × parallel-depth × expert-lens × voice-rules × dual-QA. Apply the pattern, not just the artifact shape.
+
 **Voice + cognitive-signature layer (load the depth — this is the antidote to flat AND what makes it world-class):**
 - `skills/fresh-voice-system/genius.md` — **THE depth engine.** Load the **Cognitive Signature** (Paradox Reveal → False-Frame Demolition → Reframe Landing = the "Goddamn That's True" sequence), the "value is the new generic / story-first, insight-second" principle, and the **AI-stigma reframe** (lead with the transformation + brand truth, never tool-talk).
 - Parallax exemplars (live voice texture): `_active/farrice-brand/content/linkedin-posts/parallax-launch-week/`, `.../2026-05-05-jj-manipulation-variants.md` (9/10), `.../substack-v2-drafts/02-anti-hustle.md` + `03-filter-babel.md`. Extract: scene-first openings, confession pivot, embodied metaphors (performance/training/gaming — never abstract), varied rhythm, recognition closes.

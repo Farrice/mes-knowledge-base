@@ -144,6 +144,56 @@ def gather_revenue_due() -> int:
         return 0
 
 
+def gather_outer_loop() -> dict:
+    """Deterministic revenue-loop signal for the '💰 Outer Loop' brief
+    section. Every field defaults safe; a broken/missing revenue-outcomes.json
+    or a failing pipeline subprocess degrades this to an empty dict — the
+    section is diagnostic, never a gate (Compass-not-Cage)."""
+    result = {"due_count": 0, "oldest_due": "", "lifetime_revenue": 0.0, "never_logged": None}
+    try:
+        d = json.loads(REVENUE.read_text())
+        outs = d.get("outcomes", d if isinstance(d, list) else [])
+        pending = [o for o in outs if o.get("outcome_type") == "pending"]
+        today = _today()
+        due = sorted(
+            [o for o in pending if o.get("check_in_date") and o["check_in_date"] <= today],
+            key=lambda o: o.get("check_in_date", ""),
+        )
+        result["due_count"] = len(due)
+        if due:
+            result["oldest_due"] = due[0].get("check_in_date", "")
+        result["lifetime_revenue"] = d.get("total_revenue", 0.0)
+    except Exception:
+        pass
+    try:
+        out = subprocess.run(
+            [sys.executable, "execution/revenue_tracker.py", "pipeline"],
+            capture_output=True, text=True, timeout=20, cwd=REPO_ROOT,
+        ).stdout
+        m = re.search(r"(\d+) deliverables? need outcome tracking", out)
+        if m:
+            result["never_logged"] = int(m.group(1))
+    except Exception:
+        pass
+    return result
+
+
+def render_outer_loop(loop: dict) -> list:
+    """≤6-line brief section. Silent no-op (empty list) if there's nothing
+    to say — never pad the brief with zeros to look busy."""
+    if not loop.get("due_count") and not loop.get("never_logged") and not loop.get("lifetime_revenue"):
+        return []
+    lines = ["", "## \U0001f4b0 Outer Loop"]
+    if loop.get("due_count"):
+        oldest = f" (oldest: {loop['oldest_due']})" if loop.get("oldest_due") else ""
+        lines.append(f"- {loop['due_count']} outcome check-in{'s' if loop['due_count'] != 1 else ''} overdue{oldest}")
+    if loop.get("never_logged"):
+        lines.append(f"- {loop['never_logged']} deliverable{'s' if loop['never_logged'] != 1 else ''} shipped, never logged")
+    lines.append(f"- Lifetime revenue collected: ${loop.get('lifetime_revenue', 0):,.2f}")
+    lines.append("- `python3 execution/revenue_tracker.py checkin` — walks the due list one by one")
+    return lines
+
+
 def gather_threads(limit: int = 3) -> list:
     try:
         out = subprocess.run(
@@ -248,7 +298,8 @@ def generate_questions(staleness, due_goals, loops, weekly_due, today) -> list:
 # ── brief rendering ───────────────────────────────────────────────
 
 
-def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions, weekly_line) -> str:
+def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions, weekly_line,
+                 outer_loop=None) -> str:
     today = _today()
     weekday = datetime.now().strftime("%A")
     lines = [f"# Morning Brief — {today} ({weekday})", ""]
@@ -275,6 +326,8 @@ def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions
         lines.append("")
         lines.append("## Yesterday's open loops")
         lines.extend(f"- {l}" for l in loops)
+    if outer_loop:
+        lines.extend(render_outer_loop(outer_loop))
     lines.append("")
     lines.append("## Your three questions")
     lines.extend(f"{i}. {q}" for i, q in enumerate(questions, 1))
@@ -330,8 +383,9 @@ def cmd_prep(force: bool, dry_run: bool) -> int:
         next_in = WEEKLY_EVERY_DAYS - _days_since(state.get("last_weekly", ""))
         weekly_line = f"in {next_in}d"
     questions = generate_questions(life_staleness(), due_goals, loops, weekly_due, today)
+    outer_loop = gather_outer_loop()
     brief = render_brief(state, goals, due_goals, revenue_due, threads, loops,
-                         questions, weekly_line)
+                         questions, weekly_line, outer_loop)
 
     if dry_run:
         print(brief)
