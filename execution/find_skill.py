@@ -18,10 +18,13 @@ Index cached at .agent/skill-index.json, keyed by per-file mtime.
 """
 
 import argparse
+import hashlib
 import json
 import math
+import os
 import re
 import sys
+import time
 from collections import Counter
 from pathlib import Path
 
@@ -243,6 +246,164 @@ LONG_TAIL_DEMOTE = 0.6
 # file means index rebuilds and weight learning never step on each other.
 WEIGHTS_PATH = REPO_ROOT / ".agent" / "skill-weights.json"
 
+# ── Hybrid retrieval: BM25 + Gemini embeddings (Wave 3 deferred item, shipped
+# 2026-07-06) ──
+# DEFAULT OFF behind SKILL_ROUTER_EMBED=1 — enable only after
+# benchmark_router_retrieval.py shows evidence (see that script). Cache lives
+# in its OWN file for the same reason skill-weights.json is separate from the
+# index: load_or_build_index() regenerates every record from disk on any
+# SKILL.md mtime change, and that rebuild must never clobber embeddings that
+# took real API calls to produce.
+EMBED_PATH = REPO_ROOT / ".agent" / "skill-embeddings.json"
+EMBED_MODEL = "gemini-embedding-001"  # matches execution/memory_embed.py
+EMBED_DIM = 768
+EMBED_COST_PER_1M_TOKENS = 0.15
+EMBED_QUERY_TIMEOUT_MS = 3000  # hard client-side cap; hook budget is 10s total
+
+
+def _hybrid_enabled() -> bool:
+    return os.environ.get("SKILL_ROUTER_EMBED") == "1"
+
+
+def _skill_hash(s: dict) -> str:
+    """Content hash for change detection — only re-embed skills whose
+    name/description/when_to_use actually changed since the last build."""
+    basis = f"{s.get('name', '')}\x1f{s.get('description', '')}\x1f{s.get('when_to_use', '')}"
+    return hashlib.sha1(basis.encode("utf-8")).hexdigest()
+
+
+def load_embed_cache() -> dict:
+    try:
+        return json.loads(EMBED_PATH.read_text())
+    except Exception:
+        return {}
+
+
+def save_embed_cache(cache: dict) -> None:
+    EMBED_PATH.parent.mkdir(parents=True, exist_ok=True)
+    EMBED_PATH.write_text(json.dumps(cache))
+
+
+def build_embeddings(skills: list[dict] | None = None) -> dict:
+    """Embed every skill whose content hash changed since the last cache
+    write. Skips unchanged skills entirely (hash match). Returns a report
+    dict — never raises; a hard failure just means 0 embedded."""
+    if skills is None:
+        skills = load_or_build_index()
+    cache = load_embed_cache()
+    to_embed = []
+    for s in skills:
+        h = _skill_hash(s)
+        cached = cache.get(s["directory"])
+        if not cached or cached.get("hash") != h:
+            to_embed.append((s, h))
+
+    report = {
+        "total_skills": len(skills),
+        "unchanged": len(skills) - len(to_embed),
+        "to_embed": len(to_embed),
+        "embedded": 0,
+        "failed": 0,
+        "est_cost_usd": 0.0,
+        "seconds": 0.0,
+    }
+    if not to_embed:
+        return report
+
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import memory_embed  # reuse house embedding client + model pattern
+    except Exception as e:
+        report["error"] = f"memory_embed import failed: {e}"
+        return report
+
+    texts = [
+        f"{s['name']}. {s['description']} {s['when_to_use']}"[:8000]
+        for s, _ in to_embed
+    ]
+    total_chars = sum(len(t) for t in texts)
+    report["est_cost_usd"] = round(
+        (total_chars / 4 / 1_000_000) * EMBED_COST_PER_1M_TOKENS, 4
+    )
+
+    start = time.time()
+    batch_size = 20
+    for i in range(0, len(to_embed), batch_size):
+        chunk = to_embed[i : i + batch_size]
+        chunk_texts = texts[i : i + batch_size]
+        try:
+            vectors = memory_embed.embed_batch(chunk_texts, task_type="RETRIEVAL_DOCUMENT")
+        except Exception as e:
+            report.setdefault("errors", []).append(str(e))
+            vectors = [None] * len(chunk)
+        for (s, h), vec in zip(chunk, vectors):
+            if vec is None:
+                report["failed"] += 1
+                continue
+            cache[s["directory"]] = {"hash": h, "vector": vec}
+            report["embedded"] += 1
+        if i + batch_size < len(to_embed):
+            time.sleep(0.3)
+    report["seconds"] = round(time.time() - start, 1)
+    save_embed_cache(cache)
+    return report
+
+
+def _embed_query(text: str) -> list[float] | None:
+    """Embed the incoming QUERY for hybrid rank(). Hard-capped at
+    EMBED_QUERY_TIMEOUT_MS client-side so a slow/hanging network call can
+    never blow the hook's 10s budget. ANY failure (missing lib, missing key,
+    network, timeout) returns None — caller falls back to pure BM25."""
+    try:
+        from google import genai
+        from google.genai import types
+
+        env_path = REPO_ROOT / ".env"
+        if env_path.exists():
+            for line in env_path.read_text().splitlines():
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    k, _, v = line.partition("=")
+                    os.environ.setdefault(k.strip(), v.strip())
+        api_key = os.environ.get("GEMINI_API_KEY")
+        if not api_key:
+            return None
+
+        client = genai.Client(
+            api_key=api_key,
+            http_options=types.HttpOptions(timeout=EMBED_QUERY_TIMEOUT_MS),
+        )
+        resp = client.models.embed_content(
+            model=EMBED_MODEL,
+            contents=text[:8000],
+            config={"task_type": "RETRIEVAL_QUERY", "output_dimensionality": EMBED_DIM},
+        )
+        if hasattr(resp, "embeddings") and resp.embeddings:
+            return list(resp.embeddings[0].values)
+        return None
+    except Exception:
+        return None
+
+
+def _cosine(a: list[float], b: list[float]) -> float:
+    if not a or not b:
+        return 0.0
+    dot = sum(x * y for x, y in zip(a, b))
+    na = math.sqrt(sum(x * x for x in a))
+    nb = math.sqrt(sum(y * y for y in b))
+    if na == 0.0 or nb == 0.0:
+        return 0.0
+    return dot / (na * nb)
+
+
+def _minmax(values: list[float]) -> list[float]:
+    if not values:
+        return []
+    lo, hi = min(values), max(values)
+    if hi - lo < 1e-9:
+        return [0.0 for _ in values]
+    return [(v - lo) / (hi - lo) for v in values]
+
 
 def load_core_ids() -> set:
     try:
@@ -309,7 +470,10 @@ def rank(skills: list[dict], query: str, top: int = 5, name_weight: int = 3) -> 
     q_tokens = expand(tokenize(query))
     core = load_core_ids()
     weights = load_skill_weights()
-    scored = []
+
+    # Raw BM25 score per skill (unfiltered — needed for every skill so the
+    # hybrid min-max normalization below has a full population to work from).
+    bm25_raw = []
     for s, d in zip(skills, docs):
         counter = Counter(d)
         doc_len = len(d)
@@ -322,6 +486,39 @@ def rank(skills: list[dict], query: str, top: int = 5, name_weight: int = 3) -> 
                 continue
             norm = K1 * ((1 - B) + B * doc_len / avgdl)
             score += idf[q] * (tf * (K1 + 1)) / (tf + norm)
+        bm25_raw.append(score)
+
+    # Hybrid path (SKILL_ROUTER_EMBED=1 only). Any failure at any stage —
+    # import, cache read, network, timeout — falls back to pure bm25_raw
+    # silently (one stderr line, never a crash). Non-hybrid behavior above
+    # this point is byte-identical to the pre-hybrid implementation.
+    blended = bm25_raw
+    if _hybrid_enabled():
+        try:
+            cache = load_embed_cache()
+            if cache:
+                query_vec = _embed_query(query)
+                if query_vec is not None:
+                    cos_raw = [
+                        _cosine(query_vec, (cache.get(s.get("directory", "")) or {}).get("vector"))
+                        for s in skills
+                    ]
+                    bm25_norm = _minmax(bm25_raw)
+                    cos_norm = _minmax(cos_raw)
+                    # Rescale the [0,1] blend back to BM25's native magnitude.
+                    # skill_router_hook.py's relevance floor (2.5-3.0) and the
+                    # 0.45x "strong match" cutoff are both calibrated against
+                    # raw BM25 scores (typically 5-40). Leaving the blend in
+                    # [0,1] would make every hybrid query look like a miss to
+                    # that caller without touching skill_router_hook.py itself.
+                    scale = max(bm25_raw) if bm25_raw and max(bm25_raw) > 0 else 1.0
+                    blended = [(0.6 * b + 0.4 * c) * scale for b, c in zip(bm25_norm, cos_norm)]
+        except Exception as e:
+            print(f"[find_skill] hybrid retrieval failed, falling back to BM25: {e}", file=sys.stderr)
+            blended = bm25_raw
+
+    scored = []
+    for s, score in zip(skills, blended):
         if score > 0:
             # Production Core policy: boost core, demote long-tail. Boost is
             # multiplicative, NOT a filter — a decisively stronger long-tail
@@ -361,11 +558,26 @@ def format_results(query: str, results: list[tuple[dict, float]]) -> str:
 
 def main():
     ap = argparse.ArgumentParser(description="Find the right skill via local keyword search.")
-    ap.add_argument("query", nargs="+", help="What you want to do, in natural language.")
+    ap.add_argument("query", nargs="*", help="What you want to do, in natural language.")
     ap.add_argument("--top", type=int, default=5, help="Max results (default 5).")
     ap.add_argument("--rebuild-index", action="store_true", help="Force rebuild of skill index.")
     ap.add_argument("--json", action="store_true", help="Output JSON instead of formatted text.")
+    ap.add_argument(
+        "--build-embeddings",
+        action="store_true",
+        help="Embed skills whose content changed into .agent/skill-embeddings.json, then exit "
+        "(feeds the SKILL_ROUTER_EMBED=1 hybrid rank() path — off by default).",
+    )
     args = ap.parse_args()
+
+    if args.build_embeddings:
+        skills = load_or_build_index(force=args.rebuild_index)
+        report = build_embeddings(skills)
+        print(json.dumps(report, indent=2))
+        return
+
+    if not args.query:
+        ap.error("query is required unless --build-embeddings is passed")
     query = " ".join(args.query)
     skills = load_or_build_index(force=args.rebuild_index)
     results = rank(skills, query, top=args.top)
