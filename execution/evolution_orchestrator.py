@@ -54,6 +54,19 @@ DAILY_REPORT_DIR = ROOT / "evolution_store" / "traces"
 PHASE2_QUEUE = ROOT / "evolution_store" / "queue" / "phase2_queue.jsonl"
 BINDING_QUEUE = ROOT / "evolution_store" / "queue" / "binding_review_queue.jsonl"
 
+# Routing-learning loop (Wave 3, 2026-07) — closes the MoE-style
+# suggest->load->outcome feedback captured by skill_router_hook.py +
+# execution/hooks/session_ledger_hook.py into per-skill rank weights.
+ROUTING_INTEL_PATH = ROOT / ".agent" / "routing-intelligence.json"
+SUB_AGENT_MISSES = ROOT / "evolution_store" / "sub_agent_misses.jsonl"
+SKILL_WEIGHTS_PATH = ROOT / ".agent" / "skill-weights.json"
+SYNONYM_CANDIDATES_PATH = ROOT / ".agent" / "synonym-candidates.md"
+
+WEIGHT_NUDGE = 0.05
+WEIGHT_DECAY = 0.02   # pulls weights back toward 1.0 each nightly run
+WEIGHT_MIN = 0.5
+WEIGHT_MAX = 2.0
+
 # Thresholds (tunable)
 LOW_SCORE_THRESHOLD = 7.0       # finalize composite below this counts as "low"
 LOW_SCORE_COUNT_TRIGGER = 2     # how many lows in 7d trigger Phase 2 queue
@@ -108,6 +121,152 @@ def load_grounded_skills() -> set:
     except Exception:
         pass
     return grounded
+
+
+# ─────────────────────────────────────────────────────────
+# Routing-learning cycle (Wave 3, 2026-07)
+# ─────────────────────────────────────────────────────────
+
+def _load_skill_weights() -> Dict[str, float]:
+    if not SKILL_WEIGHTS_PATH.exists():
+        return {}
+    try:
+        return json.load(open(SKILL_WEIGHTS_PATH))
+    except Exception:
+        return {}
+
+
+def _save_skill_weights(weights: Dict[str, float]) -> None:
+    SKILL_WEIGHTS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with open(SKILL_WEIGHTS_PATH, "w") as f:
+        json.dump(weights, f, indent=2, sort_keys=True)
+
+
+def _clamp_weight(w: float) -> float:
+    return max(WEIGHT_MIN, min(WEIGHT_MAX, w))
+
+
+def run_routing_learning() -> Dict[str, Any]:
+    """Nightly MoE-style weight nudge.
+
+    Reads the suggest->load->outcome feedback that skill_router_hook.py logs
+    (routing_decisions) and execution/hooks/session_ledger_hook.py logs
+    (feedback_log: auto_match/auto_miss, keyed by routing_id, with
+    `correction` always carrying the expert skill that actually loaded) from
+    .agent/routing-intelligence.json, plus qualifying-workflow misses from
+    evolution_store/sub_agent_misses.jsonl. Computes per-skill weight
+    nudges and writes them to .agent/skill-weights.json — a file SEPARATE
+    from the skill index (.agent/skill-index.json) on purpose, so any
+    SKILL.md edit that triggers an index rebuild never clobbers what's been
+    learned. find_skill.rank() applies these as a multiplier at query time.
+
+    Direction of the nudge:
+      - auto_match: the suggested skill was the one that actually loaded ->
+        +WEIGHT_NUDGE (reinforce — it was correctly ranked).
+      - auto_miss: the skill that actually loaded was NOT among the
+        suggestions -> +WEIGHT_NUDGE for that skill (it was under-ranked and
+        deserved to surface), -WEIGHT_NUDGE for each skill that WAS
+        suggested but wrong (over-ranked for that query).
+    All weights decay toward 1.0 by WEIGHT_DECAY first, so an un-reinforced
+    nudge relaxes over time rather than accumulating forever. Clamped to
+    [WEIGHT_MIN, WEIGHT_MAX].
+
+    NEVER touches execution/find_skill.py's SYNONYMS map or the skill index
+    — those stay human-owned. Recent sub_agent_misses.jsonl entries with a
+    `skill` field are instead appended as human-readable candidates to
+    .agent/synonym-candidates.md for manual review.
+    """
+    result: Dict[str, Any] = {"cycle": "routing_learning", "nudged": {}, "candidates_appended": 0}
+
+    try:
+        intel = json.loads(ROUTING_INTEL_PATH.read_text()) if ROUTING_INTEL_PATH.exists() else {}
+    except Exception:
+        intel = {}
+    decisions = {d.get("routing_id"): d for d in intel.get("routing_decisions", [])}
+    feedback = intel.get("feedback_log", [])
+
+    weights = _load_skill_weights()
+
+    # Decay toward 1.0 first so unrewarded weights relax over time.
+    for skill, w in list(weights.items()):
+        try:
+            w = float(w)
+        except Exception:
+            weights[skill] = 1.0
+            continue
+        if w > 1.0:
+            weights[skill] = _clamp_weight(max(1.0, w - WEIGHT_DECAY))
+        elif w < 1.0:
+            weights[skill] = _clamp_weight(min(1.0, w + WEIGHT_DECAY))
+
+    def _nudge(skill: str, delta: float) -> None:
+        if not skill:
+            return
+        weights[skill] = _clamp_weight(weights.get(skill, 1.0) + delta)
+        result["nudged"][skill] = round(weights[skill], 3)
+
+    for fb in feedback:
+        rating = fb.get("rating")
+        if rating not in ("auto_match", "auto_miss"):
+            continue
+        rd = decisions.get(fb.get("routing_id"), {})
+        loaded_skill = fb.get("correction") or ""
+        suggested = rd.get("experts_deployed", []) or []
+        if rating == "auto_match":
+            _nudge(loaded_skill, WEIGHT_NUDGE)
+        else:  # auto_miss
+            _nudge(loaded_skill, WEIGHT_NUDGE)  # under-ranked, deserved better
+            for s in suggested:
+                if s and s != loaded_skill:
+                    _nudge(s, -WEIGHT_NUDGE)     # over-ranked for this query
+
+    try:
+        _save_skill_weights(weights)
+    except Exception as e:
+        result["weights_write_error"] = str(e)
+
+    # Synonym candidates — human-review queue only, never auto-applied.
+    candidates_appended = 0
+    try:
+        if SUB_AGENT_MISSES.exists():
+            recent_cutoff = datetime.now() - timedelta(days=1)
+            new_lines = []
+            with open(SUB_AGENT_MISSES) as f:
+                for line in f:
+                    try:
+                        m = json.loads(line)
+                    except Exception:
+                        continue
+                    ts = m.get("timestamp", "")
+                    try:
+                        if datetime.fromisoformat(ts) < recent_cutoff:
+                            continue
+                    except Exception:
+                        continue
+                    skill = m.get("skill") or m.get("expert") or ""
+                    workflow = m.get("workflow", "")
+                    if not skill:
+                        continue
+                    new_lines.append(f"- `{workflow}` -> `{skill}` (manual load, {ts})")
+            if new_lines:
+                if not SYNONYM_CANDIDATES_PATH.exists():
+                    SYNONYM_CANDIDATES_PATH.parent.mkdir(parents=True, exist_ok=True)
+                    SYNONYM_CANDIDATES_PATH.write_text(
+                        "# Synonym Candidates\n\n"
+                        "Human-review queue only. evolution_orchestrator.run_routing_learning() "
+                        "appends candidate query-term -> skill pairs here from workflows that ran "
+                        "with zero measured sub-agent spawns (evolution_store/sub_agent_misses.jsonl). "
+                        "NEVER auto-applied to execution/find_skill.py's SYNONYMS map — a human "
+                        "decides whether the phrasing generalizes before adding it.\n"
+                    )
+                with open(SYNONYM_CANDIDATES_PATH, "a") as f:
+                    f.write(f"\n## {date.today().isoformat()}\n\n" + "\n".join(new_lines) + "\n")
+                candidates_appended = len(new_lines)
+    except Exception as e:
+        result["candidates_error"] = str(e)
+    result["candidates_appended"] = candidates_appended
+
+    return result
 
 
 # ─────────────────────────────────────────────────────────
@@ -347,6 +506,27 @@ def run_daily() -> Dict[str, Any]:
     else:
         report_lines.append("- (clean)")
 
+    # Routing-learning pass (Wave 3, 2026-07) — observe-only-safe: a failure
+    # here must never break the rest of the daily cycle.
+    try:
+        routing_learning = run_routing_learning()
+    except Exception as exc:
+        routing_learning = {"cycle": "routing_learning", "error": str(exc), "nudged": {}, "candidates_appended": 0}
+
+    report_lines += ["", "## Routing Learning (skill-weight nudges)"]
+    if routing_learning.get("error"):
+        report_lines.append(f"- (routing-learning unavailable: {routing_learning['error']})")
+    elif routing_learning.get("nudged"):
+        for skill, w in sorted(routing_learning["nudged"].items()):
+            report_lines.append(f"- `{skill}` -> weight {w}")
+    else:
+        report_lines.append("- (no feedback to learn from yet)")
+    if routing_learning.get("candidates_appended"):
+        report_lines.append(
+            f"- {routing_learning['candidates_appended']} synonym candidate(s) appended to "
+            ".agent/synonym-candidates.md for human review"
+        )
+
     report_path.write_text("\n".join(report_lines) + "\n")
 
     # Update state
@@ -363,6 +543,7 @@ def run_daily() -> Dict[str, Any]:
         "queued_binding_reviews": len(queued_bindings),
         "auto_evolve_eligible": sum(1 for q in queued_phase2 if q["grounded"]),
         "human_review_required": sum(1 for q in queued_phase2 if not q["grounded"]),
+        "routing_learning": routing_learning,
     }
 
 

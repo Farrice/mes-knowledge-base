@@ -85,6 +85,7 @@ def _load(session_id: str) -> dict:
         "staleness_warned": False, "miss_logged": False,
         "handoff_pending": False, "handoff_warned": False,
         "session_pinned": False, "session_pinned_at": None, "pin_nudged": False,
+        "pending_routing": None,
     }
 
 
@@ -106,6 +107,51 @@ def _prune() -> None:
 def _is_expert_skill(name: str) -> bool:
     """Expert skills carry a genius.md; utility skills don't."""
     return (SKILLS_DIR / name / "genius.md").exists()
+
+
+def _reconcile_routing_feedback(ledger: dict, loaded_dir: str) -> bool:
+    """Close the suggest -> load -> outcome loop (Wave 3, 2026-07).
+
+    skill_router_hook.py stashes a "pending_routing" entry (routing_id +
+    suggested_dirs) into this same ledger whenever it emits a suggestion.
+    When an expert skill actually loads, compare it against that pending
+    entry: if the loaded skill was one of the suggestions -> auto_match, else
+    -> auto_miss. Logged to routing_intelligence.log_feedback(); the loaded
+    skill is always passed as `correction` (even on auto_match) so
+    evolution_orchestrator.run_routing_learning() has a clean, structured
+    field to nudge weights from in both directions.
+
+    Fires once: the pending entry is cleared (set to None) whether or not
+    the routing_intelligence write itself succeeds — a dead pending entry
+    must never retry forever. Returns True if the ledger was mutated
+    (caller is responsible for _save()). Never raises.
+    """
+    pending = ledger.get("pending_routing")
+    if not pending or not pending.get("routing_id"):
+        return False
+    try:
+        sys.path.insert(0, str(REPO_ROOT / "execution"))
+        import routing_intelligence  # noqa: E402
+
+        suggested = pending.get("suggested_dirs") or []
+        matched = loaded_dir in suggested
+        rating = "auto_match" if matched else "auto_miss"
+        notes = (
+            f"expert skill '{loaded_dir}' loaded "
+            f"{'matching' if matched else 'not matching'} suggestion {suggested}"
+        )
+        routing_intelligence.log_feedback(
+            routing_id=pending["routing_id"],
+            rating=rating,
+            session_id=ledger.get("session_id", ""),
+            correction=loaded_dir,
+            notes=notes,
+        )
+    except Exception:
+        pass
+    finally:
+        ledger["pending_routing"] = None
+    return True
 
 
 def _add_debt(ledger: dict, dtype: str, name: str) -> None:
@@ -228,12 +274,14 @@ def handle_posttool(payload: dict) -> None:
     tin = payload.get("tool_input") or {}
     ledger = _load(session_id)
     changed = False
+    loaded_expert_skill = None
 
     if tool == "Read":
         fp = str(tin.get("file_path", ""))
         m = re.search(r"/skills/([^/]+)/(SKILL|genius)\.md$", fp)
         if m and _is_expert_skill(m.group(1)):
             _add_debt(ledger, "skill_loaded", m.group(1))
+            loaded_expert_skill = m.group(1)
             changed = True
     elif tool == "Skill":
         name = str(tin.get("skill", "")).split(":")[-1]
@@ -242,6 +290,7 @@ def handle_posttool(payload: dict) -> None:
             changed = True
         if name and _is_expert_skill(name):
             _add_debt(ledger, "skill_loaded", name)
+            loaded_expert_skill = name
             changed = True
     elif tool in ("Write", "Edit", "NotebookEdit"):
         fp = str(tin.get("file_path", tin.get("notebook_path", "")))
@@ -286,6 +335,9 @@ def handle_posttool(payload: dict) -> None:
             ledger["session_pinned"] = True
             ledger["session_pinned_at"] = _now()
             changed = True
+
+    if loaded_expert_skill and _reconcile_routing_feedback(ledger, loaded_expert_skill):
+        changed = True
 
     if changed:
         _save(ledger)

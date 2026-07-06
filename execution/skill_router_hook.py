@@ -19,6 +19,14 @@ DESIGN PRINCIPLES:
   command, and obvious system/conversational turns — no noise when routing is moot.
 - SUGGEST, DON'T FORCE: it surfaces options; Claude still decides. (Top match can be
   wrong; showing top-3 + leaving the call to Claude mitigates that.)
+- LEARNS (Wave 3, 2026-07): every emitted suggestion is logged to
+  routing_intelligence and stashed as "pending_routing" in the session ledger
+  (execution/hooks/session_ledger_hook.py). When the ledger later sees an expert
+  skill actually load, it reconciles that load against the pending suggestion
+  (auto_match / auto_miss) and evolution_orchestrator.run_routing_learning()
+  turns that feedback into per-skill rank-weight nudges nightly
+  (.agent/skill-weights.json, applied in find_skill.rank()). None of this ever
+  gates the suggestion itself — it's all best-effort, try/except-wrapped.
 
 Wired via .claude/settings.local.json -> hooks.UserPromptSubmit.
 """
@@ -188,7 +196,12 @@ def _control_route(prompt: str) -> tuple[str, str] | None:
 
 
 def _looks_like_expert_task(prompt: str) -> bool:
-    """Only inject expert suggestions for actual expert-domain work."""
+    """Soft signal only (Wave 3, 2026-07) — no longer gates whether ranking
+    runs at all. Every prompt that clears the earlier skip filters gets
+    ranked via find_skill.rank() regardless of this signal. This function
+    now only lowers the relevance floor slightly when the prompt reads as
+    expert-shaped, so genuinely ambiguous prompts still need a stronger BM25
+    match before a suggestion gets injected."""
 
     low = _normalize(prompt)
     if any(term in low for term in EXPERT_TASK_TERMS):
@@ -238,6 +251,26 @@ def _emit_control_override(route: str, reason: str) -> None:
     sys.exit(0)
 
 
+def _emit_abstention(top_score: float) -> None:
+    """Visible-but-quiet abstention (Wave 3, 2026-07). Previously the
+    below-floor path exited with zero signal — Claude had no way to tell
+    "no skill matched" apart from "hook didn't run." One short line closes
+    that gap without becoming noise: no list, no suggestion, just the miss."""
+    print(
+        json.dumps(
+            {
+                "hookSpecificOutput": {
+                    "hookEventName": "UserPromptSubmit",
+                    "additionalContext": (
+                        f"Router: no expert matched (top score {top_score:.1f}) — "
+                        "generalist mode; log a gap if this deserved an expert."
+                    ),
+                }
+            }
+        )
+    )
+
+
 _GAP_STOPWORDS = frozenset(
     "a an and are as at be but by can could do does for from get has have how i in is it "
     "me my of on or our please should so some that the their them then this to us want we "
@@ -280,6 +313,55 @@ def _log_gap(prompt: str, top_score: float) -> None:
         pass
 
 
+def _log_routing_decision(prompt: str, session_id: str, suggested_dirs: list[str]) -> str | None:
+    """Best-effort routing_intelligence log at suggestion-emit time. Returns
+    the routing_id on success, None on any failure — never raises."""
+    try:
+        import routing_intelligence  # noqa: E402
+
+        return routing_intelligence.log_routing_decision(
+            request_summary=prompt,
+            intent_score=0,  # not chain-scored at router time; analytics only
+            domain_detected=suggested_dirs[0] if suggested_dirs else "unknown",
+            experts_deployed=suggested_dirs,
+            tier_loaded=0,
+            mode="hybrid",
+            workflow_used=suggested_dirs[0] if suggested_dirs else "",
+            ensemble=len(suggested_dirs) > 1,
+            compound_pairing=" + ".join(suggested_dirs) if len(suggested_dirs) > 1 else "",
+            session_id=session_id,
+        )
+    except Exception as e:
+        _eprint(f"[skill_router_hook] routing_intelligence log failed (ignored): {e}")
+        return None
+
+
+def _stash_pending_routing(session_id: str, routing_id: str, suggested_dirs: list[str]) -> None:
+    """Stash {routing_id, suggested_dirs, ts} into the session ledger so
+    session_ledger_hook.py's PostToolUse handler can reconcile it against
+    whatever expert skill actually loads next. Loads session_ledger_hook.py
+    by file path (no package __init__.py in execution/hooks/) to reuse its
+    _load/_save instead of duplicating the ledger schema. Best-effort only."""
+    try:
+        import importlib.util
+
+        spec = importlib.util.spec_from_file_location(
+            "_session_ledger_hook_ref",
+            REPO_ROOT / "execution" / "hooks" / "session_ledger_hook.py",
+        )
+        slh = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(slh)
+        ledger = slh._load(session_id)
+        ledger["pending_routing"] = {
+            "routing_id": routing_id,
+            "suggested_dirs": suggested_dirs,
+            "ts": datetime.now().isoformat(),
+        }
+        slh._save(ledger)
+    except Exception as e:
+        _eprint(f"[skill_router_hook] pending-routing stash failed (ignored): {e}")
+
+
 def main():
     # --- read hook payload (fail-safe) ---
     try:
@@ -313,8 +395,12 @@ def main():
     if control:
         _emit_control_override(*control)
 
-    if not _looks_like_expert_task(prompt):
-        sys.exit(0)
+    # Soft signal only (Wave 3, 2026-07): expert-shaped phrasing no longer
+    # gates whether ranking runs — every prompt that reaches here gets
+    # ranked. It only lowers the relevance floor, so ambiguous prompts still
+    # need a stronger BM25 match to trigger an injected suggestion.
+    expert_signal = _looks_like_expert_task(prompt)
+    floor = 2.5 if expert_signal else 3.0
 
     # --- run the matcher (fail-safe import) ---
     try:
@@ -326,14 +412,12 @@ def main():
         _eprint(f"[skill_router_hook] matcher error (ignored): {e}")
         sys.exit(0)
 
-    if not results:
-        _log_gap(prompt, 0.0)
-        sys.exit(0)
+    top_score = results[0][1] if results else 0.0
 
     # --- relevance floor: don't inject weak/noise matches ---
-    top_score = results[0][1]
-    if top_score < 3.0:
+    if top_score < floor:
         _log_gap(prompt, top_score)
+        _emit_abstention(top_score)
         sys.exit(0)
     strong = [(s, sc) for s, sc in results if sc >= top_score * 0.45]
 
@@ -364,6 +448,16 @@ def main():
         tag = " [CORE]" if slug in core_ids else ""
         lines.append(f"  • /{slug}  (score {sc:.1f}){tag} — {desc}")
     block = "\n".join(lines)
+
+    # --- feedback loop (Wave 3, 2026-07): log the decision + stash pending
+    # state so the session ledger can reconcile it against whatever expert
+    # skill actually loads next (suggest -> load -> outcome). Best-effort
+    # only — never blocks or alters the suggestion that's about to print.
+    session_id = payload.get("session_id", "unknown")
+    suggested_dirs = [s.get("directory", "") for s, _ in strong]
+    routing_id = _log_routing_decision(prompt, payload.get("session_id", ""), suggested_dirs)
+    if routing_id:
+        _stash_pending_routing(session_id, routing_id, suggested_dirs)
 
     # UserPromptSubmit: emit additionalContext via hookSpecificOutput.
     out = {
