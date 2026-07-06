@@ -194,6 +194,85 @@ def render_outer_loop(loop: dict) -> list:
     return lines
 
 
+def gather_evolution() -> dict:
+    """Nightly evolution-report signal for the '\U0001f9ec Evolution' brief
+    section. Reads the newest evolution_store/traces/daily_evolution_*.md,
+    cheap string-matched headlines (no fancy parsing). Missing/broken reports
+    degrade to an empty dict — the section is diagnostic, never a gate
+    (Compass-not-Cage). cos_prep runs at 06:45, before the 07:00 evolution
+    run, so this usually surfaces yesterday's report — that's expected."""
+    result = {}
+    try:
+        traces_dir = REPO_ROOT / "evolution_store" / "traces"
+        reports = sorted(traces_dir.glob("daily_evolution_*.md"))
+        if not reports:
+            return result
+        latest = reports[-1]
+        m = re.search(r"daily_evolution_(\d{4}-\d{2}-\d{2})\.md$", latest.name)
+        date_str = m.group(1) if m else "?"
+        hours_stale = (datetime.now().timestamp() - latest.stat().st_mtime) / 3600
+        stale = hours_stale > 48
+        days_stale = _days_since(date_str) if date_str != "?" else NEVER_DAYS
+        text = latest.read_text()
+
+        headlines = []
+        pm = re.search(r"## Phase 2 Queue.*?\n(.*?)(?=\n## |\Z)", text, re.DOTALL)
+        if pm:
+            queue_lines = [l for l in pm.group(1).splitlines()
+                          if l.strip().startswith("- ") and "(none)" not in l]
+            if queue_lines:
+                n = len(queue_lines)
+                headlines.append(f"{n} skill{'s' if n != 1 else ''} flagged for Phase 2 human review")
+        rm = re.search(r"## Routing Learning.*?\n(.*?)(?=\n## |\Z)", text, re.DOTALL)
+        if rm:
+            nudge_lines = [l.strip("- ").strip() for l in rm.group(1).splitlines()
+                          if l.strip().startswith("- ")]
+            if nudge_lines:
+                n = len(nudge_lines)
+                headlines.append(f"Routing learning: {n} weight nudge{'s' if n != 1 else ''} (e.g. {nudge_lines[0]})")
+        if len(headlines) < 2:
+            dm = re.search(r"## Platform Constitution Drift\n(.*?)(?=\n## |\Z)", text, re.DOTALL)
+            if dm:
+                drift_lines = [l for l in dm.group(1).splitlines()
+                              if l.strip().startswith("- ") and "(clean)" not in l]
+                if drift_lines:
+                    n = len(drift_lines)
+                    headlines.append(f"{n} constitution file{'s' if n != 1 else ''} drifted since last bless")
+
+        result = {
+            "date": date_str,
+            "path": str(latest.relative_to(REPO_ROOT)),
+            "stale": stale,
+            "days_stale": days_stale,
+            "headlines": headlines[:2],
+        }
+    except Exception:
+        pass
+    return result
+
+
+def render_evolution(evo: dict) -> list:
+    """≤5-line brief section pointing to the latest nightly evolution
+    report. Silent no-op (empty list) if no reports exist yet — mirrors
+    render_outer_loop's silent-empty behavior."""
+    if not evo:
+        return []
+    lines = ["", f"## \U0001f9ec Evolution (latest: {evo.get('date', '?')})"]
+    if evo.get("stale"):
+        days = evo.get("days_stale", "?")
+        lines.append(f"- ⚠️ NO REPORT IN {days} DAYS — evolution loop may be dark; "
+                     f"run: python3 execution/evolution_orchestrator.py auto")
+    else:
+        headlines = evo.get("headlines", [])
+        if headlines:
+            lines.extend(f"- {h}" for h in headlines)
+        else:
+            lines.append("- clean run, no flags")
+    lines.append(f"- Report: `{evo.get('path', '')}`")
+    lines.append(f"- `cat {evo.get('path', '')}`")
+    return lines
+
+
 def gather_threads(limit: int = 3) -> list:
     try:
         out = subprocess.run(
@@ -299,7 +378,7 @@ def generate_questions(staleness, due_goals, loops, weekly_due, today) -> list:
 
 
 def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions, weekly_line,
-                 outer_loop=None) -> str:
+                 outer_loop=None, evolution=None) -> str:
     today = _today()
     weekday = datetime.now().strftime("%A")
     lines = [f"# Morning Brief — {today} ({weekday})", ""]
@@ -328,6 +407,8 @@ def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions
         lines.extend(f"- {l}" for l in loops)
     if outer_loop:
         lines.extend(render_outer_loop(outer_loop))
+    if evolution:
+        lines.extend(render_evolution(evolution))
     lines.append("")
     lines.append("## Your three questions")
     lines.extend(f"{i}. {q}" for i, q in enumerate(questions, 1))
@@ -384,8 +465,9 @@ def cmd_prep(force: bool, dry_run: bool) -> int:
         weekly_line = f"in {next_in}d"
     questions = generate_questions(life_staleness(), due_goals, loops, weekly_due, today)
     outer_loop = gather_outer_loop()
+    evolution = gather_evolution()
     brief = render_brief(state, goals, due_goals, revenue_due, threads, loops,
-                         questions, weekly_line, outer_loop)
+                         questions, weekly_line, outer_loop, evolution)
 
     if dry_run:
         print(brief)
