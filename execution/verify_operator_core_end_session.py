@@ -49,7 +49,7 @@ REQUIRED_TEXT = {
     ],
     GLOBAL_AGENTS: [
         "Global End-Session Closeout",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/end-session.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/end-session.md",
         "thin compatibility wrappers",
         "whole-session closeout",
         "retrieval handoff",
@@ -62,7 +62,7 @@ REQUIRED_TEXT = {
     ],
     GLOBAL_END_SESSION: [
         "Project Source Of Truth",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/end-session.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/end-session.md",
         "thin compatibility wrapper",
         "whole-session closeout",
         "retrieval handoff",
@@ -80,7 +80,7 @@ REQUIRED_TEXT = {
     GLOBAL_WRAPPER: [
         "compatibility alias",
         "/Users/farricecain/.codex/skills/end-session/SKILL.md",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/end-session.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/end-session.md",
         "thin compatibility wrapper",
         "whole-session closeout",
         "retrieval handoff",

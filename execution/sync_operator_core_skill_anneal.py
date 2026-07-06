@@ -15,7 +15,7 @@ GLOBAL_AGENTS = Path.home() / ".codex" / "AGENTS.md"
 GLOBAL_SKILL_ANNEAL = Path.home() / ".codex" / "skills" / "skill-anneal" / "SKILL.md"
 GLOBAL_WRAPPER = Path.home() / ".codex" / "skills" / "source-command-skill-anneal" / "SKILL.md"
 
-CANONICAL_PATH = "/Users/farricecain/Codex Antigravity/.agent/workflows/skill-anneal.md"
+CANONICAL_PATH = "/Users/farricecain/Google Antigravity/.agent/workflows/skill-anneal.md"
 
 COMMON_REQUIREMENTS = (
     "prompt-level skill/component annealing",
@@ -44,7 +44,7 @@ PATH_REQUIREMENTS = {
         "Annealing requires a target skill directory, failure examples, rubric/test-input set, proof artifact, measurable stop condition, turn cap, and explicit no-regression clause",
         "preserve upstream input, downstream output, and validation contract",
         "Limit edits to the single weakest criterion unless the user approves a broader rewrite",
-        "Side effects must be local, reversible, and inside `/Users/farricecain/Codex Antigravity`",
+        "Side effects must be local, reversible, and inside `/Users/farricecain/Google Antigravity`",
         "Stop at a human checkpoint for broader workflow evolution, global mirrors, external actions, broad archive/delete, destructive cleanup, new dependencies, failed validation, or Mission repair",
         "Route broad workflow evolution to `/self-evolve`",
         "Real Codex subagents require explicit authorization",
@@ -102,7 +102,7 @@ target skill directory, failure examples, rubric/test-input set, proof artifact,
 measurable stop condition, turn cap, and explicit no-regression clause. Limit
 edits to the single weakest criterion unless Farrice approves broader rewrite.
 Side effects must be local, reversible, and inside
-`/Users/farricecain/Codex Antigravity`. Use `/self-evolve` for broad workflow
+`/Users/farricecain/Google Antigravity`. Use `/self-evolve` for broad workflow
 evolution. Stop at a human checkpoint for global mirrors, external actions,
 broad archive/delete, destructive cleanup, new dependencies, failed validation,
 or Mission repair. Real Codex subagents require explicit authorization.
@@ -136,7 +136,7 @@ Preserve the current Skill-anneal contract:
 - annealing requires target skill directory, failure examples, rubric/test-input set, proof artifact, measurable stop condition, turn cap, and explicit no-regression clause
 - preserve upstream input, downstream output, and validation contract for larger skill systems
 - limit edits to the single weakest criterion unless Farrice approves broader rewrite
-- side effects must be local, reversible, and inside `/Users/farricecain/Codex Antigravity`
+- side effects must be local, reversible, and inside `/Users/farricecain/Google Antigravity`
 - human checkpoint for broader workflow evolution, global mirrors, external actions, broad archive/delete, destructive cleanup, new dependencies, failed validation, or Mission repair
 - broad workflow evolution routes to `/self-evolve`; repair, drift-audit, and broken-system language routes to `/system-audit` or `/autopilot`
 - real Codex subagents require explicit authorization

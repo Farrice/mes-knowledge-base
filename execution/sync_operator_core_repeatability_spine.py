@@ -15,7 +15,7 @@ GLOBAL_AGENTS = Path.home() / ".codex" / "AGENTS.md"
 GLOBAL_REPEATABILITY = Path.home() / ".codex" / "skills" / "repeatability-spine" / "SKILL.md"
 GLOBAL_WRAPPER = Path.home() / ".codex" / "skills" / "source-command-repeatability-spine" / "SKILL.md"
 
-CANONICAL_PATH = "/Users/farricecain/Codex Antigravity/.agent/workflows/repeatability-spine.md"
+CANONICAL_PATH = "/Users/farricecain/Google Antigravity/.agent/workflows/repeatability-spine.md"
 
 COMMON_REQUIREMENTS = (
     "preserve the good example",

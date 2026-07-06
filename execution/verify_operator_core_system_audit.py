@@ -45,7 +45,7 @@ REQUIRED_TEXT = {
     ],
     GLOBAL_AGENTS: [
         "Global System-audit Control Plane",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/system-audit.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/system-audit.md",
         "thin compatibility wrappers",
         "control-plane audit and repair",
         "read-only proof first",
@@ -60,7 +60,7 @@ REQUIRED_TEXT = {
     ],
     GLOBAL_SYSTEM_AUDIT: [
         "Project Source Of Truth",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/system-audit.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/system-audit.md",
         "thin compatibility wrapper",
         "control-plane audit and repair",
         "read-only proof first",
@@ -77,7 +77,7 @@ REQUIRED_TEXT = {
     GLOBAL_WRAPPER: [
         "compatibility alias",
         "/Users/farricecain/.codex/skills/system-audit/SKILL.md",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/system-audit.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/system-audit.md",
         "thin compatibility wrapper",
         "control-plane audit and repair",
         "read-only proof first",

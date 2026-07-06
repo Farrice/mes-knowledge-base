@@ -45,7 +45,7 @@ REQUIRED_TEXT = {
     ],
     GLOBAL_AGENTS: [
         "Global Health-check Status",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/health-check.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/health-check.md",
         "thin compatibility wrappers",
         "read-only status",
         "harness_status.py --plain",
@@ -60,7 +60,7 @@ REQUIRED_TEXT = {
     ],
     GLOBAL_HEALTH_CHECK: [
         "Project Source Of Truth",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/health-check.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/health-check.md",
         "thin compatibility wrapper",
         "read-only status by default",
         "harness_status.py --plain",
@@ -77,7 +77,7 @@ REQUIRED_TEXT = {
     GLOBAL_WRAPPER: [
         "compatibility alias",
         "/Users/farricecain/.codex/skills/health-check/SKILL.md",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/health-check.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/health-check.md",
         "thin compatibility wrapper",
         "read-only status by default",
         "harness_status.py --plain",

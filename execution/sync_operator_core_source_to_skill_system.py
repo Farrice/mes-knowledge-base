@@ -15,7 +15,7 @@ GLOBAL_AGENTS = Path.home() / ".codex" / "AGENTS.md"
 GLOBAL_SOURCE_TO_SKILL = Path.home() / ".codex" / "skills" / "source-to-skill-system" / "SKILL.md"
 GLOBAL_WRAPPER = Path.home() / ".codex" / "skills" / "source-command-source-to-skill-system" / "SKILL.md"
 
-CANONICAL_PATH = "/Users/farricecain/Codex Antigravity/.agent/workflows/source-to-skill-system.md"
+CANONICAL_PATH = "/Users/farricecain/Google Antigravity/.agent/workflows/source-to-skill-system.md"
 
 COMMON_REQUIREMENTS = (
     "connected skill systems",

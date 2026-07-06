@@ -23,7 +23,7 @@ REQUIRED_TEXT = {
         "Annealing requires a target skill directory, failure examples, rubric/test-input set, proof artifact, measurable stop condition, turn cap, and explicit no-regression clause",
         "preserve upstream input, downstream output, and validation contract",
         "Limit edits to the single weakest criterion unless the user approves a broader rewrite",
-        "Side effects must be local, reversible, and inside `/Users/farricecain/Codex Antigravity`",
+        "Side effects must be local, reversible, and inside `/Users/farricecain/Google Antigravity`",
         "Stop at a human checkpoint for broader workflow evolution, global mirrors, external actions, broad archive/delete, destructive cleanup, new dependencies, failed validation, or Mission repair",
         "Route broad workflow evolution to `/self-evolve`",
         "Real Codex subagents require explicit authorization",
@@ -50,7 +50,7 @@ REQUIRED_TEXT = {
     ],
     GLOBAL_AGENTS: [
         "Global Skill-anneal Prompt Repair",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/skill-anneal.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/skill-anneal.md",
         "thin compatibility wrappers",
         "prompt-level skill/component annealing",
         "queue-only diagnosis",
@@ -69,7 +69,7 @@ REQUIRED_TEXT = {
     ],
     GLOBAL_SKILL_ANNEAL: [
         "Project Source Of Truth",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/skill-anneal.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/skill-anneal.md",
         "thin compatibility wrapper",
         "prompt-level skill/component annealing",
         "queue-only diagnosis",
@@ -90,7 +90,7 @@ REQUIRED_TEXT = {
     GLOBAL_WRAPPER: [
         "compatibility alias",
         "/Users/farricecain/.codex/skills/skill-anneal/SKILL.md",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/skill-anneal.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/skill-anneal.md",
         "thin compatibility wrapper",
         "prompt-level skill/component annealing",
         "queue-only diagnosis",

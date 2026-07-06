@@ -45,7 +45,7 @@ REQUIRED_TEXT = {
     ],
     GLOBAL_AGENTS: [
         "Global Knowledge-librarian Pulse",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/knowledge-librarian.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/knowledge-librarian.md",
         "thin compatibility wrappers",
         "compact session-start knowledge pulse",
         "read-only default scans",
@@ -58,7 +58,7 @@ REQUIRED_TEXT = {
     ],
     GLOBAL_KNOWLEDGE_LIBRARIAN: [
         "Project Source Of Truth",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/knowledge-librarian.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/knowledge-librarian.md",
         "thin compatibility wrapper",
         "compact session-start knowledge pulse",
         "read-only default scans",
@@ -75,7 +75,7 @@ REQUIRED_TEXT = {
     GLOBAL_WRAPPER: [
         "compatibility alias",
         "/Users/farricecain/.codex/skills/knowledge-librarian/SKILL.md",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/knowledge-librarian.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/knowledge-librarian.md",
         "thin compatibility wrapper",
         "compact session-start knowledge pulse",
         "read-only default scans",

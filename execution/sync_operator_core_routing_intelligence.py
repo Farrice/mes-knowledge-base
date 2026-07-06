@@ -15,7 +15,7 @@ GLOBAL_AGENTS = Path.home() / ".codex" / "AGENTS.md"
 GLOBAL_ROUTING_INTELLIGENCE = Path.home() / ".codex" / "skills" / "routing-intelligence" / "SKILL.md"
 GLOBAL_WRAPPER = Path.home() / ".codex" / "skills" / "source-command-routing-intelligence" / "SKILL.md"
 
-CANONICAL_PATH = "/Users/farricecain/Codex Antigravity/.agent/workflows/routing-intelligence.md"
+CANONICAL_PATH = "/Users/farricecain/Google Antigravity/.agent/workflows/routing-intelligence.md"
 
 COMMON_REQUIREMENTS = (
     "read-only routing analytics",

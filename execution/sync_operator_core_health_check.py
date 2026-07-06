@@ -15,7 +15,7 @@ GLOBAL_AGENTS = Path.home() / ".codex" / "AGENTS.md"
 GLOBAL_HEALTH_CHECK = Path.home() / ".codex" / "skills" / "health-check" / "SKILL.md"
 GLOBAL_WRAPPER = Path.home() / ".codex" / "skills" / "source-command-health-check" / "SKILL.md"
 
-CANONICAL_PATH = "/Users/farricecain/Codex Antigravity/.agent/workflows/health-check.md"
+CANONICAL_PATH = "/Users/farricecain/Google Antigravity/.agent/workflows/health-check.md"
 
 COMMON_REQUIREMENTS = (
     "read-only status",

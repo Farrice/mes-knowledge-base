@@ -15,7 +15,7 @@ GLOBAL_AGENTS = Path.home() / ".codex" / "AGENTS.md"
 GLOBAL_END_SESSION = Path.home() / ".codex" / "skills" / "end-session" / "SKILL.md"
 GLOBAL_WRAPPER = Path.home() / ".codex" / "skills" / "source-command-end-session" / "SKILL.md"
 
-CANONICAL_PATH = "/Users/farricecain/Codex Antigravity/.agent/workflows/end-session.md"
+CANONICAL_PATH = "/Users/farricecain/Google Antigravity/.agent/workflows/end-session.md"
 
 COMMON_REQUIREMENTS = (
     "whole-session closeout",

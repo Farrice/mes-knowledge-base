@@ -15,7 +15,7 @@ GLOBAL_AGENTS = Path.home() / ".codex" / "AGENTS.md"
 GLOBAL_EXPERT_COMPOSITION = Path.home() / ".codex" / "skills" / "expert-composition-governor" / "SKILL.md"
 GLOBAL_WRAPPER = Path.home() / ".codex" / "skills" / "source-command-expert-composition-governor" / "SKILL.md"
 
-CANONICAL_PATH = "/Users/farricecain/Codex Antigravity/.agent/workflows/expert-composition-governor.md"
+CANONICAL_PATH = "/Users/farricecain/Google Antigravity/.agent/workflows/expert-composition-governor.md"
 
 REQUIRED_TEXT = {
     PROJECT_WORKFLOW: [

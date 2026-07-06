@@ -48,7 +48,7 @@ REQUIRED_TEXT = {
     ],
     GLOBAL_AGENTS: [
         "Global Source-to-skill-system Builder",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/source-to-skill-system.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/source-to-skill-system.md",
         "thin compatibility wrappers",
         "connected skill systems",
         "not isolated mega-skills",
@@ -64,7 +64,7 @@ REQUIRED_TEXT = {
     ],
     GLOBAL_SOURCE_TO_SKILL: [
         "Project Source Of Truth",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/source-to-skill-system.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/source-to-skill-system.md",
         "thin compatibility wrapper",
         "connected skill systems",
         "not isolated mega-skills",
@@ -83,7 +83,7 @@ REQUIRED_TEXT = {
     GLOBAL_WRAPPER: [
         "compatibility alias",
         "/Users/farricecain/.codex/skills/source-to-skill-system/SKILL.md",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/source-to-skill-system.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/source-to-skill-system.md",
         "thin compatibility wrapper",
         "connected skill systems",
         "not isolated mega-skills",

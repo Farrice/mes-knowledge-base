@@ -18,7 +18,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_AUTOMATION_ROOT = Path.home() / ".codex" / "automations"
-WORKSPACE = "/Users/farricecain/Codex Antigravity"
+WORKSPACE = "/Users/farricecain/Google Antigravity"
 RUNNER = ROOT / "execution" / "recurring_ops.py"
 
 

@@ -15,7 +15,7 @@ GLOBAL_AGENTS = Path.home() / ".codex" / "AGENTS.md"
 GLOBAL_SELF_EVOLVE = Path.home() / ".codex" / "skills" / "self-evolve" / "SKILL.md"
 GLOBAL_WRAPPER = Path.home() / ".codex" / "skills" / "source-command-self-evolve" / "SKILL.md"
 
-CANONICAL_PATH = "/Users/farricecain/Codex Antigravity/.agent/workflows/self-evolve.md"
+CANONICAL_PATH = "/Users/farricecain/Google Antigravity/.agent/workflows/self-evolve.md"
 
 COMMON_REQUIREMENTS = (
     "mutation-gated measured evolution",
@@ -42,7 +42,7 @@ PATH_REQUIREMENTS = {
         "mutation-gated measured evolution",
         "Incomplete or vague goal packets produce a queue-only diagnosis",
         "Mutation requires a complete goal packet, Evolution Council Verdict, baseline, search set, measurable stop condition, turn cap, proof artifact, and no-regression check",
-        "Permitted side effects must be local, reversible, and inside `/Users/farricecain/Codex Antigravity`",
+        "Permitted side effects must be local, reversible, and inside `/Users/farricecain/Google Antigravity`",
         "Stop at a human checkpoint for global mirrors, external actions, broad archive/delete, destructive cleanup, new dependencies, failed validation, or scope expansion",
         "Do not mutate Mission unless `verify_mission_activation_contract.py` fails and the user explicitly approves Mission repair",
         "Route repair, drift-audit, and broken-system language to `/system-audit` or `/autopilot`",
@@ -98,7 +98,7 @@ packets produce queue-only diagnosis and missing fields. Mutation requires a
 complete goal packet, Evolution Council Verdict, baseline, search set,
 measurable stop condition, turn cap, proof artifact, and no-regression check.
 Side effects must be local, reversible, and inside
-`/Users/farricecain/Codex Antigravity`. Stop at a human checkpoint for global
+`/Users/farricecain/Google Antigravity`. Stop at a human checkpoint for global
 mirrors, external actions, broad archive/delete, destructive cleanup, new
 dependencies, failed validation, scope expansion, or Mission repair unless
 `verify_mission_activation_contract.py` fails and Farrice explicitly approves.
@@ -131,7 +131,7 @@ Preserve the current Self-evolve contract:
 - mutation-gated measured evolution, not casual improvement
 - incomplete or vague goal packets produce queue-only diagnosis and missing fields
 - mutation requires a complete goal packet, Evolution Council Verdict, baseline, search set, measurable stop condition, turn cap, proof artifact, and no-regression check
-- side effects must be local, reversible, and inside `/Users/farricecain/Codex Antigravity`
+- side effects must be local, reversible, and inside `/Users/farricecain/Google Antigravity`
 - human checkpoint for global mirrors, external actions, broad archive/delete, destructive cleanup, new dependencies, failed validation, scope expansion, or Mission repair
 - no Mission mutation unless `verify_mission_activation_contract.py` fails and Farrice explicitly approves Mission repair
 - repair, drift-audit, and broken-system language routes to `/system-audit` or `/autopilot`

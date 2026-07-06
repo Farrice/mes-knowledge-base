@@ -15,7 +15,7 @@ GLOBAL_AGENTS = Path.home() / ".codex" / "AGENTS.md"
 GLOBAL_SYSTEM_AUDIT = Path.home() / ".codex" / "skills" / "system-audit" / "SKILL.md"
 GLOBAL_WRAPPER = Path.home() / ".codex" / "skills" / "source-command-system-audit" / "SKILL.md"
 
-CANONICAL_PATH = "/Users/farricecain/Codex Antigravity/.agent/workflows/system-audit.md"
+CANONICAL_PATH = "/Users/farricecain/Google Antigravity/.agent/workflows/system-audit.md"
 
 COMMON_REQUIREMENTS = (
     "control-plane audit and repair",

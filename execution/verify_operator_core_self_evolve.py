@@ -21,7 +21,7 @@ REQUIRED_TEXT = {
         "mutation-gated measured evolution",
         "Incomplete or vague goal packets produce a queue-only diagnosis",
         "Mutation requires a complete goal packet, Evolution Council Verdict, baseline, search set, measurable stop condition, turn cap, proof artifact, and no-regression check",
-        "Permitted side effects must be local, reversible, and inside `/Users/farricecain/Codex Antigravity`",
+        "Permitted side effects must be local, reversible, and inside `/Users/farricecain/Google Antigravity`",
         "Stop at a human checkpoint for global mirrors, external actions, broad archive/delete, destructive cleanup, new dependencies, failed validation, or scope expansion",
         "Do not mutate Mission unless `verify_mission_activation_contract.py` fails and the user explicitly approves Mission repair",
         "Route repair, drift-audit, and broken-system language to `/system-audit` or `/autopilot`",
@@ -49,7 +49,7 @@ REQUIRED_TEXT = {
     ],
     GLOBAL_AGENTS: [
         "Global Self-evolve Evolution",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/self-evolve.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/self-evolve.md",
         "thin compatibility wrappers",
         "mutation-gated measured evolution",
         "queue-only diagnosis",
@@ -68,7 +68,7 @@ REQUIRED_TEXT = {
     ],
     GLOBAL_SELF_EVOLVE: [
         "Project Source Of Truth",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/self-evolve.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/self-evolve.md",
         "thin compatibility wrapper",
         "mutation-gated measured evolution",
         "queue-only diagnosis",
@@ -89,7 +89,7 @@ REQUIRED_TEXT = {
     GLOBAL_WRAPPER: [
         "compatibility alias",
         "/Users/farricecain/.codex/skills/self-evolve/SKILL.md",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/self-evolve.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/self-evolve.md",
         "thin compatibility wrapper",
         "mutation-gated measured evolution",
         "queue-only diagnosis",

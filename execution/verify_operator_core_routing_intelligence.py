@@ -46,7 +46,7 @@ REQUIRED_TEXT = {
     ],
     GLOBAL_AGENTS: [
         "Global Routing-intelligence Analytics",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/routing-intelligence.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/routing-intelligence.md",
         "thin compatibility wrappers",
         "read-only analytics dashboard",
         "routing_intelligence.py scoreboard",
@@ -57,7 +57,7 @@ REQUIRED_TEXT = {
     ],
     GLOBAL_ROUTING_INTELLIGENCE: [
         "Project Source Of Truth",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/routing-intelligence.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/routing-intelligence.md",
         "thin compatibility wrapper",
         "read-only routing analytics by default",
         "routing_intelligence.py scoreboard",
@@ -71,7 +71,7 @@ REQUIRED_TEXT = {
     GLOBAL_WRAPPER: [
         "compatibility alias",
         "/Users/farricecain/.codex/skills/routing-intelligence/SKILL.md",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/routing-intelligence.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/routing-intelligence.md",
         "thin compatibility wrapper",
         "read-only routing analytics by default",
         "routing_intelligence.py scoreboard",

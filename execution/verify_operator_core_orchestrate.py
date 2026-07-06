@@ -35,7 +35,7 @@ REQUIRED_TEXT = {
         "no competing behavior contract",
     ],
     GLOBAL_ORCHESTRATE: [
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/orchestrate.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/orchestrate.md",
         "thin compatibility wrapper",
         "menu-only backend",
         "must not execute",
@@ -46,7 +46,7 @@ REQUIRED_TEXT = {
     GLOBAL_WRAPPER: [
         "compatibility alias",
         "/Users/farricecain/.codex/skills/orchestrate/SKILL.md",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/orchestrate.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/orchestrate.md",
         "menu-only backend",
         "must not execute",
         "execution intent routes through `/autopilot`",

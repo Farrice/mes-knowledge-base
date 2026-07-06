@@ -15,7 +15,7 @@ GLOBAL_AGENTS = Path.home() / ".codex" / "AGENTS.md"
 GLOBAL_KNOWLEDGE_LIBRARIAN = Path.home() / ".codex" / "skills" / "knowledge-librarian" / "SKILL.md"
 GLOBAL_WRAPPER = Path.home() / ".codex" / "skills" / "source-command-knowledge-librarian" / "SKILL.md"
 
-CANONICAL_PATH = "/Users/farricecain/Codex Antigravity/.agent/workflows/knowledge-librarian.md"
+CANONICAL_PATH = "/Users/farricecain/Google Antigravity/.agent/workflows/knowledge-librarian.md"
 
 COMMON_REQUIREMENTS = (
     "compact session-start knowledge pulse",

@@ -48,7 +48,7 @@ REQUIRED_TEXT = {
     ],
     GLOBAL_AGENTS: [
         "Global Repeatability-spine Regression Repair",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/repeatability-spine.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/repeatability-spine.md",
         "thin compatibility wrappers",
         "preserve the good example",
         "grounded evidence",
@@ -66,7 +66,7 @@ REQUIRED_TEXT = {
     ],
     GLOBAL_REPEATABILITY: [
         "Project Source Of Truth",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/repeatability-spine.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/repeatability-spine.md",
         "thin compatibility wrapper",
         "preserve the good example",
         "grounded evidence",
@@ -86,7 +86,7 @@ REQUIRED_TEXT = {
     GLOBAL_WRAPPER: [
         "compatibility alias",
         "/Users/farricecain/.codex/skills/repeatability-spine/SKILL.md",
-        "/Users/farricecain/Codex Antigravity/.agent/workflows/repeatability-spine.md",
+        "/Users/farricecain/Google Antigravity/.agent/workflows/repeatability-spine.md",
         "thin compatibility wrapper",
         "preserve the good example",
         "grounded evidence",

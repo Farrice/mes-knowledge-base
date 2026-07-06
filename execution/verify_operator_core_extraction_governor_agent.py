@@ -15,7 +15,7 @@ GLOBAL_AGENTS = Path.home() / ".codex" / "AGENTS.md"
 GLOBAL_EXTRACTION = Path.home() / ".codex" / "skills" / "extraction-governor-agent" / "SKILL.md"
 GLOBAL_WRAPPER = Path.home() / ".codex" / "skills" / "source-command-extraction-governor-agent" / "SKILL.md"
 
-CANONICAL_PATH = "/Users/farricecain/Codex Antigravity/.agent/workflows/extraction-governor-agent.md"
+CANONICAL_PATH = "/Users/farricecain/Google Antigravity/.agent/workflows/extraction-governor-agent.md"
 
 REQUIRED_TEXT = {
     PROJECT_WORKFLOW: [
