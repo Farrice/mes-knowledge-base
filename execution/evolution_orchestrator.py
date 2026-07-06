@@ -39,6 +39,7 @@ Cron suggestion (one entry, runs daily, decides what's due):
 
 import sys
 import json
+import re
 import argparse
 from pathlib import Path
 from datetime import datetime, timedelta, date
@@ -274,7 +275,193 @@ def run_routing_learning() -> Dict[str, Any]:
         result["candidates_error"] = str(e)
     result["candidates_appended"] = candidates_appended
 
+    # Cheap deterministic backstop (Wave 4, 2026-07-06): if the weekly cycle
+    # missed its slot (same sleep/StartCalendarInterval failure mode fixed
+    # for the daily cycle above), refresh the standalone router report card
+    # here anyway so it's never silently stale for more than a day past due.
+    try:
+        result["router_report_card_backstop"] = write_router_report_card(force=False)
+    except Exception as e:
+        result["router_report_card_error"] = str(e)
+
     return result
+
+
+# ─────────────────────────────────────────────────────────
+# Router Report Card (Wave 4, 2026-07-06)
+#
+# A ~one-page weekly glance at the router learning loop Wave 3 wired up
+# (skill_router_hook -> .agent/routing-intelligence.json ->
+# session_ledger_hook auto_match/auto_miss reconciliation ->
+# run_routing_learning() weight nudges + synonym candidates). Farrice's
+# stated #1 concern is the loop going dark silently, so section (e) below
+# exists purely as a canary: it checks whether ANY routing decision landed
+# in the trailing window, independent of whether there's enough reconciled
+# feedback yet to trend a match rate.
+# ─────────────────────────────────────────────────────────
+
+ROUTER_REPORT_CARD_PATH = ROOT / ".agent" / "router-report-card.md"
+GAP_LOG_PATH = ROOT / ".agent" / "gap-log.md"
+ROUTER_MIN_DECISIONS_TO_TREND = 5   # below this, report the raw split, not a headline %
+
+
+def _naive_ts(ts: str) -> Optional[datetime]:
+    """Parse an ISO timestamp and strip tzinfo so it compares against the naive
+    datetime.now() used everywhere else in this module. routing-intelligence.json
+    timestamps are tz-aware (+00:00); evolution_store trace timestamps are not —
+    this normalizes both."""
+    if not ts:
+        return None
+    try:
+        t = datetime.fromisoformat(ts)
+        return t.replace(tzinfo=None) if t.tzinfo else t
+    except Exception:
+        return None
+
+
+def _gap_log_counts(days: int) -> Dict[str, Any]:
+    """Count gap-log entries. Section headers follow `## YYYY-MM-DD — slug`.
+    If every section is dated, count is windowed to the last `days`; if any
+    section lacks a parseable date, falls back to the total count rather than
+    silently undercounting."""
+    if not GAP_LOG_PATH.exists():
+        return {"total": 0, "windowed": 0, "all_dated": True}
+    text = GAP_LOG_PATH.read_text()
+    total_sections = len(re.findall(r"^## ", text, flags=re.MULTILINE))
+    dated = re.findall(r"^## (\d{4}-\d{2}-\d{2})", text, flags=re.MULTILINE)
+    if total_sections == 0 or len(dated) < total_sections:
+        return {"total": total_sections, "windowed": total_sections, "all_dated": False}
+    cutoff = date.today() - timedelta(days=days)
+    windowed = sum(1 for d in dated if date.fromisoformat(d) >= cutoff)
+    return {"total": len(dated), "windowed": windowed, "all_dated": True}
+
+
+def _synonym_candidate_count() -> int:
+    """Each pending candidate is a `- \\`workflow\\` -> \\`skill\\`` bullet line."""
+    if not SYNONYM_CANDIDATES_PATH.exists():
+        return 0
+    text = SYNONYM_CANDIDATES_PATH.read_text()
+    return len(re.findall(r"^- `", text, flags=re.MULTILINE))
+
+
+def build_router_report_card() -> str:
+    """Build the one-page router report card as a markdown string (no I/O)."""
+    now = datetime.now()
+    generated = now.strftime("%Y-%m-%d %H:%M")
+    cutoff = now - timedelta(days=WEEKLY_DAYS)
+
+    try:
+        intel = json.loads(ROUTING_INTEL_PATH.read_text()) if ROUTING_INTEL_PATH.exists() else {}
+    except Exception:
+        intel = {}
+    routing_decisions = intel.get("routing_decisions", [])
+    feedback_log = intel.get("feedback_log", [])
+
+    recent_decisions = [r for r in routing_decisions if (_naive_ts(r.get("timestamp", "")) or datetime.min) >= cutoff]
+    recent_feedback = [f for f in feedback_log if (_naive_ts(f.get("timestamp", "")) or datetime.min) >= cutoff]
+
+    auto_match = sum(1 for f in recent_feedback if f.get("rating") == "auto_match")
+    auto_miss = sum(1 for f in recent_feedback if f.get("rating") == "auto_miss")
+    total_rated = auto_match + auto_miss
+
+    lines = [
+        f"# Router Report Card — {generated}",
+        "",
+        "Weekly glance at the router learning loop: "
+        "`skill_router_hook` (suggest) -> `routing-intelligence.json` (log) -> "
+        "`session_ledger_hook` (reconcile auto_match/auto_miss) -> "
+        "`run_routing_learning()` (nudge weights + surface synonym candidates).",
+        "",
+        f"## (a) Suggested-vs-Loaded Match Rate ({WEEKLY_DAYS}d)",
+    ]
+    if total_rated == 0:
+        lines.append(f"- 0 reconciled decisions in the last {WEEKLY_DAYS}d — too early to trend.")
+    elif total_rated < ROUTER_MIN_DECISIONS_TO_TREND:
+        rate = round(100 * auto_match / total_rated, 1)
+        lines.append(
+            f"- {total_rated} decision(s) reconciled — too early to trend confidently "
+            f"(auto_match {auto_match} / auto_miss {auto_miss}, {rate}% match)."
+        )
+    else:
+        rate = round(100 * auto_match / total_rated, 1)
+        lines.append(
+            f"- {total_rated} decisions reconciled: **{rate}% match rate** "
+            f"(auto_match {auto_match}, auto_miss {auto_miss})."
+        )
+
+    lines += ["", "## (b) Skill Weight Movers (vs 1.0 baseline)"]
+    weights = _load_skill_weights()
+    if not SKILL_WEIGHTS_PATH.exists() or not weights:
+        lines.append("- (no `.agent/skill-weights.json` yet — no weight nudges recorded)")
+    else:
+        ranked_desc = sorted(weights.items(), key=lambda kv: kv[1], reverse=True)
+        ranked_asc = sorted(weights.items(), key=lambda kv: kv[1])
+        gainers = [(s, w) for s, w in ranked_desc if w > 1.0][:5]
+        losers = [(s, w) for s, w in ranked_asc if w < 1.0][:5]
+        lines.append("**Top gainers:**")
+        if gainers:
+            for s, w in gainers:
+                lines.append(f"- `{s}` -> {round(w, 3)} ({round(w - 1.0, 3):+})")
+        else:
+            lines.append("- (none above baseline)")
+        lines.append("")
+        lines.append("**Top losers:**")
+        if losers:
+            for s, w in losers:
+                lines.append(f"- `{s}` -> {round(w, 3)} ({round(w - 1.0, 3):+})")
+        else:
+            lines.append("- (none below baseline)")
+
+    lines += ["", "## (c) Abstention / Gap Count"]
+    gap = _gap_log_counts(WEEKLY_DAYS)
+    if gap["total"] == 0:
+        lines.append("- 0 gaps on record.")
+    elif gap["all_dated"]:
+        lines.append(f"- {gap['windowed']} gap(s) logged in the last {WEEKLY_DAYS}d ({gap['total']} total on record).")
+    else:
+        lines.append(f"- {gap['total']} gap(s) on record (not all entries dated — showing total, not a {WEEKLY_DAYS}d window).")
+
+    lines += ["", "## (d) Pending Synonym Candidates"]
+    candidate_count = _synonym_candidate_count()
+    lines.append(f"- {candidate_count} candidate(s) awaiting human review -> `.agent/synonym-candidates.md`")
+
+    lines += ["", "## (e) Health Check — Is the Loop Alive?"]
+    if len(recent_decisions) == 0:
+        lines.append(
+            f"- **WARNING: 0 routing decisions logged in the last {WEEKLY_DAYS}d.** "
+            "The suggest->load->outcome loop may be dark — check `skill_router_hook.py` wiring "
+            "and `.agent/routing-intelligence.json` writes."
+        )
+    else:
+        lines.append(f"- {len(recent_decisions)} routing decision(s) logged in the last {WEEKLY_DAYS}d — loop is live.")
+
+    return "\n".join(lines) + "\n"
+
+
+def write_router_report_card(force: bool = False) -> Dict[str, Any]:
+    """Write the standalone .agent/router-report-card.md.
+
+    force=True (weekly cycle): always regenerate — this is the authoritative
+    weekly refresh.
+    force=False (daily cheap-mode backstop, called from run_routing_learning):
+    only regenerate if the file is missing or older than one WEEKLY_DAYS
+    window, so a missed weekly run doesn't leave Farrice staring at a stale
+    card — mirrors the CATCHUP_STALE_HOURS philosophy already applied to the
+    daily cycle in run_auto().
+    """
+    if not force and ROUTER_REPORT_CARD_PATH.exists():
+        try:
+            age_hours = (
+                datetime.now() - datetime.fromtimestamp(ROUTER_REPORT_CARD_PATH.stat().st_mtime)
+            ).total_seconds() / 3600.0
+            if age_hours < WEEKLY_DAYS * 24:
+                return {"written": False, "reason": "fresh", "age_hours": round(age_hours, 1)}
+        except Exception:
+            pass
+    card = build_router_report_card()
+    ROUTER_REPORT_CARD_PATH.parent.mkdir(parents=True, exist_ok=True)
+    ROUTER_REPORT_CARD_PATH.write_text(card)
+    return {"written": True, "path": str(ROUTER_REPORT_CARD_PATH)}
 
 
 # ─────────────────────────────────────────────────────────
@@ -588,6 +775,18 @@ def run_weekly() -> Dict[str, Any]:
     traces = load_traces(days=WEEKLY_DAYS)
     metrics = aggregate_skill_metrics(traces)
 
+    # Router Report Card (Wave 4, 2026-07-06) — appended into the same
+    # dated snapshot file the weekly cycle already produces (there is no
+    # separate weekly markdown report to match), plus a standalone,
+    # always-overwritten .agent/router-report-card.md so there's one
+    # stable path Farrice can glance at without hunting a dated filename.
+    try:
+        router_card = build_router_report_card()
+        card_write = write_router_report_card(force=True)
+    except Exception as e:
+        router_card = f"# Router Report Card\n\n- (generation failed: {e})\n"
+        card_write = {"written": False, "error": str(e)}
+
     today = date.today().isoformat()
     snapshot_path = DAILY_REPORT_DIR / f"weekly_baseline_{today}.json"
     DAILY_REPORT_DIR.mkdir(parents=True, exist_ok=True)
@@ -595,6 +794,7 @@ def run_weekly() -> Dict[str, Any]:
         "snapshot_date": today,
         "window_days": WEEKLY_DAYS,
         "metrics": metrics,
+        "router_report_card": router_card,
     }, indent=2))
 
     degrading = [s for s, m in metrics.items() if m["trend"] == "degrading"]
@@ -612,6 +812,7 @@ def run_weekly() -> Dict[str, Any]:
         "degrading_skills": degrading[:10],
         "improving_count": len(improving),
         "improving_skills": improving[:10],
+        "router_report_card_path": card_write.get("path", str(ROUTER_REPORT_CARD_PATH)),
     }
 
 
