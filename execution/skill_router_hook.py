@@ -403,12 +403,12 @@ def main():
     if low.startswith(SKIP_PREFIXES):
         sys.exit(0)
 
+    if _has_explicit_skill_invocation(prompt):
+        sys.exit(0)
+
     control = _control_route(prompt)
     if control:
         _emit_control_override(*control)
-
-    if _has_explicit_skill_invocation(prompt):
-        sys.exit(0)
 
     # Soft signal only (Wave 3, 2026-07): expert-shaped phrasing no longer
     # gates whether ranking runs — every prompt that reaches here gets

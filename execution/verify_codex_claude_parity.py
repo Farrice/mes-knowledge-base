@@ -320,9 +320,18 @@ def check_hook_bridge() -> list[str]:
     if not HOOKS_PATH.exists():
         fail("missing .codex/hooks.json")
     commands = hook_commands()
-    expected_targets = ("cost-gate", "dangerous-git", "skill-router", "session-ledger")
-    if len(commands) != 6:
-        fail(f"expected 6 Codex hook commands, found {len(commands)}")
+    expected_targets = (
+        "cost-gate",
+        "dangerous-git",
+        "active-tool-lock",
+        "skill-router",
+        "session-ledger posttool",
+        "session-ledger prompt",
+        "guard-stranded",
+        "session-ledger stop",
+    )
+    if len(commands) != 8:
+        fail(f"expected 8 Codex hook commands, found {len(commands)}")
     if not all("codex_hook_runner.py" in command for command in commands):
         fail("every Codex hook command must call codex_hook_runner.py")
     for target in expected_targets:
@@ -330,7 +339,10 @@ def check_hook_bridge() -> list[str]:
             fail(f"missing Codex hook target: {target}")
     if any(".claude/" in command for command in commands):
         fail("Codex hooks should not shell into .claude hook files")
-    receipts.append("Codex hook bridge includes cost-gate, dangerous-git, skill-router, session-ledger")
+    receipts.append(
+        "Codex hook bridge includes cost-gate, dangerous-git, active-tool-lock, "
+        "skill-router, session-ledger posttool/prompt/stop, and guard-stranded"
+    )
 
     dangerous_payload = json.dumps({"tool_name": "Bash", "tool_input": {"command": "git reset --hard"}})
     proc = run([sys.executable, ".codex/tools/codex_hook_runner.py", "dangerous-git"], input_text=dangerous_payload)
