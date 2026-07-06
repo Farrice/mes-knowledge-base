@@ -1,41 +1,41 @@
 # Knowledge Briefing
-*Generated: 2026-07-05 | 240 sources | 1,788,005 words*
+*Generated: 2026-07-06 | 515 sources | 2,360,184 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **sample-001** (strategy [oren-john]) — 448 words — `knowledge/expert-benchmarks/brand-strategy/sample-001.md`
-- **sample-002** (brand [oren-john]) — 628 words — `knowledge/expert-benchmarks/brand-strategy/sample-002.md`
-- **sample-003** (brand [oren-john]) — 740 words — `knowledge/expert-benchmarks/brand-strategy/sample-003.md`
-- **sample-001** (content [kieran-flanagan]) — 1,014 words — `knowledge/expert-benchmarks/content-strategy/sample-001.md`
-- **sample-002** (content) — 947 words — `knowledge/expert-benchmarks/content-strategy/sample-002.md`
-- **sample-003** (strategy [kieran-flanagan]) — 877 words — `knowledge/expert-benchmarks/content-strategy/sample-003.md`
-- **sample-004** (content) — 733 words — `knowledge/expert-benchmarks/content-strategy/sample-004.md`
-- **sample-006** (copywriting [cardinal-mason]) — 1,108 words — `knowledge/expert-benchmarks/copywriting/sample-006.md`
-- **sample-007** (copywriting [cardinal-mason]) — 503 words — `knowledge/expert-benchmarks/copywriting/sample-007.md`
-- **sample-003** (copywriting [nicolas-cole]) — 328 words — `knowledge/expert-benchmarks/linkedin/sample-003.md`
+- **log** (general) — 9,604 words — `knowledge/log.md`
+- **VISION** (content) — 1,099 words — `extractions/ben-watkins/VISION.md`
+- **extraction-report** (content [kallaway]) — 715 words — `extractions/kallaway-content-system/extraction-report.md`
+- **integrity-patch** (copywriting [kallaway]) — 590 words — `extractions/kallaway-content-system/integrity-patch.md`
+- **asset-inventory** (screenwriting [nick-saraev]) — 101 words — `extractions/mark-kashef-perfect-agentic-os-kit/asset-inventory.md`
+- **extraction-brief** (content [nick-saraev]) — 463 words — `extractions/mark-kashef-perfect-agentic-os-kit/extraction-brief.md`
+- **SKILL** (copywriting [nick-saraev]) — 3,638 words — `extractions/mark-kashef-perfect-agentic-os-kit/source_assets/SKILL.md`
+- **OPPORTUNITIES** (general [nick-saraev]) — 181 words — `extractions/mark-kashef-perfect-agentic-os-kit/source_assets/examples/devon_saas/OPPORTUNITIES.md`
+- **OPPORTUNITIES** (general [nick-saraev]) — 215 words — `extractions/mark-kashef-perfect-agentic-os-kit/source_assets/examples/dr_anwar_derma/OPPORTUNITIES.md`
+- **OPPORTUNITIES** (general [dai-media]) — 167 words — `extractions/mark-kashef-perfect-agentic-os-kit/source_assets/examples/dr_mehra_clinic/OPPORTUNITIES.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 100 | nicolas-cole |
-| copywriting | 38 | luke-iha |
-| strategy | 26 | april-dunford |
-| general | 20 | pressfield |
-| systems | 13 | nick-saraev |
-| brand | 12 | oren-john |
-| screenwriting | 11 | connelly |
-| seo | 8 | nathan-gotch |
-| research | 7 | dai-media |
-| sales | 5 | dai-media |
+| content | 170 | nicolas-cole |
+| copywriting | 83 | luke-iha |
+| general | 72 | nick-saraev |
+| screenwriting | 41 | connelly |
+| strategy | 39 | april-dunford |
+| brand | 35 | oren-john |
+| systems | 26 | nick-saraev |
+| seo | 21 | nathan-gotch |
+| research | 19 | dai-media |
+| sales | 9 | dai-media |
 
 ## Deepest Knowledge Sources (by word count)
 
+1. **video-context-ledger** (content) — 75,408 words — `extractions/video-context/3iR3kHxCwfo/video-context-ledger.md`
 1. **Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated** (brand [dai-media]) — 69,583 words — `knowledge/extractions/inbox/Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated.md`
 1. **Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average** (general) — 64,760 words — `knowledge/extractions/inbox/Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average.md`
-1. **Claude-💰💡💎 Jeremy Miner !  The One Sales Skill Separating You From Top Performers (Full Masterclass) p.2** (copywriting) — 64,349 words — `knowledge/extractions/inbox/Claude-💰💡💎 Jeremy Miner !  The One Sales Skill Separating You From Top Performers (Full Masterclass) p.2.md`
 1. **Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out** (brand) — 63,227 words — `knowledge/extractions/inbox/Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out.md`
 1. **Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2** (general) — 62,412 words — `knowledge/extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2.md`
 1. **Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers** (general) — 61,240 words — `knowledge/extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers.md`

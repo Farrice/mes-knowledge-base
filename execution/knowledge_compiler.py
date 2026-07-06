@@ -208,6 +208,41 @@ def generate_inventory() -> Dict[str, Any]:
     return manifest
 
 
+def _manifest_is_stale(manifest: Dict[str, Any]) -> bool:
+    """
+    Check whether manifest.json is out of date relative to the actual
+    knowledge sources on disk.
+
+    Fixes the false-freshness bug: briefing.md's date used to re-stamp
+    on every run even when the underlying manifest was months stale,
+    because the briefing stage silently reused the cached manifest.
+    True if the manifest has no 'generated' timestamp, or any source
+    file under KNOWLEDGE_DIRS has an mtime newer than that timestamp
+    (i.e. new/changed content the manifest never inventoried).
+    """
+    generated = manifest.get('generated')
+    if not generated:
+        return True
+    try:
+        generated_dt = datetime.fromisoformat(generated)
+    except ValueError:
+        return True
+
+    for knowledge_dir in KNOWLEDGE_DIRS:
+        if not knowledge_dir.exists():
+            continue
+        for md_file in knowledge_dir.rglob('*.md'):
+            if 'compiled' in str(md_file) or md_file.name.startswith('.'):
+                continue
+            try:
+                mtime = datetime.fromtimestamp(md_file.stat().st_mtime)
+            except OSError:
+                continue
+            if mtime > generated_dt:
+                return True
+    return False
+
+
 def generate_briefing(manifest: Dict[str, Any] = None) -> str:
     """
     Generate a session-start briefing from the knowledge base.
@@ -219,6 +254,9 @@ def generate_briefing(manifest: Dict[str, Any] = None) -> str:
         manifest_path = COMPILED_DIR / 'manifest.json'
         if manifest_path.exists():
             manifest = json.loads(manifest_path.read_text())
+            if _manifest_is_stale(manifest):
+                print("  Manifest stale relative to source files — re-inventorying before briefing (no silent re-stamp)...")
+                manifest = generate_inventory()
         else:
             manifest = generate_inventory()
 

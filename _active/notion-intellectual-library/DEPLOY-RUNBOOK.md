@@ -1,5 +1,7 @@
 # Notion Second Brain — Deploy Runbook (Phase 3 + Phase 4 wiring)
 
+> **STATUS 2026-07-06**: historical deploy documentation. The live pipeline is `mirror_notion.py` → `.memory/sovereign.db` (`notion_mirror`), nightly launchd `com.antigravity.mirror-nightly`; write path = `chain_runner` finalize → Notion. This folder is not a live mirror.
+
 **STATUS: DEPLOYED & LIVE (2026-06-23).** Hub `🏛️ Intellectual Library` + 5 DBs created in Notion. Local→Notion sync working. `NOTION_DB_SESSION_MEMORY=38849875a89781c0950ef6a48bb28a72` in `.env`. First row written. To log a session: `python3 execution/notion_api.py session-memory "<title>" --decisions "..." --pickup "..."`.
 
 > **Gotcha we hit + the fix (don't repeat):** Notion AI created the Session Memory DB under the new **data-source** model, surfaced in the hub as a **linked view**. Sharing the hub page with the `Antigravity` integration exposed the *linked view* (`data_sources: []`) but NOT the underlying source data source — so every write 404'd or threw "is a database, not a database" under the pinned `2022-06-28` API. **Resolution:** the integration can read/write the hub page, so we had it **create its own classic Session Memory DB under the hub** (`POST /databases` parent=hub page_id) — integration-owned, single-source, fully writable by the 2022-06-28 code, no sharing dance, no data-source/version friction. That id is what's in `.env`. The two original AI-made Session Memory refs (`46dc60b8…`, `2a4b6108…`) are empty linked views — safe to delete in Notion to avoid confusion.

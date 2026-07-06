@@ -1,186 +1,186 @@
 # Overlap Report
-*Generated: 2026-04-29*
+*Generated: 2026-07-06*
 
-**745 potential overlaps** detected.
+**987 potential overlaps** detected.
 
 These file pairs share domain, expert, and significant naming overlap. Consider consolidating.
 
 ### Overlap 1
-- **A**: `knowledge/extractions/inbox/Claude-💎💎💰 Harry Dry ! Learn Copywriting in 76 Minutes.md`
-- **B**: `knowledge/extractions/inbox/Claude-💰💡💎 Jeremy Miner !  The One Sales Skill Separating You From Top Performers (Full Masterclass) p.2.md`
-- **Shared**: !, claude
-- **Domain**: copywriting
+- **A**: `extractions/creative-direction/guide_research_cinematography.md`
+- **B**: `extractions/creative-direction/guide_research_design_principles.md`
+- **Shared**: guide, research
+- **Domain**: seo
 
 ### Overlap 2
-- **A**: `knowledge/extractions/inbox/Claude-💎💎💰 Harry Dry ! Learn Copywriting in 76 Minutes.md`
-- **B**: `knowledge/extractions/inbox/Claude-💰💡💎 Jeremy Miner !  The One Sales Skill Separating You From Top Performers (Full Masterclass).md`
-- **Shared**: !, claude
-- **Domain**: copywriting
+- **A**: `extractions/creative-direction/guide_research_cinematography.md`
+- **B**: `extractions/creative-direction/guide_research_styles_movements.md`
+- **Shared**: guide, research
+- **Domain**: seo
 
 ### Overlap 3
-- **A**: `knowledge/extractions/inbox/Claude-💎💎💰 Harry Dry ! Learn Copywriting in 76 Minutes.md`
-- **B**: `research_outputs/ai_authority_architect_agents/harry_dry.md`
-- **Shared**: harry, dry
-- **Domain**: copywriting
+- **A**: `extractions/creative-direction/guide_research_design_principles.md`
+- **B**: `extractions/creative-direction/guide_research_styles_movements.md`
+- **Shared**: guide, research
+- **Domain**: seo
 
 ### Overlap 4
-- **A**: `knowledge/extractions/inbox/Claude-💰💡💎 Jeremy Miner !  The One Sales Skill Separating You From Top Performers (Full Masterclass) p.2.md`
-- **B**: `knowledge/extractions/inbox/Claude-💰💡💎 Jeremy Miner !  The One Sales Skill Separating You From Top Performers (Full Masterclass).md`
-- **Shared**: one, separating, claude, 💰💡💎, sales, skill, top, performers, (full, masterclass), you, from, miner, !, jeremy
+- **A**: `extractions/april-dunford/extraction-report.md`
+- **B**: `extractions/omar-eddaoudi/extraction-report.md`
+- **Shared**: report, extraction
 - **Domain**: copywriting
 
 ### Overlap 5
-- **A**: `knowledge/extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md`
-- **B**: `knowledge/extractions/inbox/Claude-💎💎💎 Seena Rez ! $1.8m tiktok dropshipping in 30 days (showing you my actual viral videos and ho.2.md`
-- **Shared**: viral, actual, tiktok, my, claude, 30, (showing, 💎💎💎, dropshipping, videos, days, you
+- **A**: `extractions/lara-acosta/extraction-report.md`
+- **B**: `extractions/lara-acosta-content-system/extraction-report.md`
+- **Shared**: report, extraction
 - **Domain**: content
 
 ### Overlap 6
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/Jun Yuh/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `knowledge/council-sessions/2026-06-03-architect-a-suite-of-world-class-ai-cloud-projec.md`
+- **B**: `research_outputs/dwa-edgecase-3-research-2026-06-13.md`
+- **Shared**: 2026, 06
+- **Domain**: strategy
 
 ### Overlap 7
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/Ward Farnsworth/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `knowledge/extractions/inbox/Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI.md`
+- **B**: `knowledge/extractions/inbox/Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2.md`
+- **Shared**: strategy, reinventing, with, 💎💎🧑🏽, claude, ai, creative, copper, alex, !, 💻
+- **Domain**: strategy
 
 ### Overlap 8
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/brand-master/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/jeremy-haynes/extraction-report.md`
+- **B**: `extractions/omar-eltakrori/extraction-report.md`
+- **Shared**: report, extraction
+- **Domain**: strategy
 
 ### Overlap 9
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/caleb-ralston/caleb-ralston-2026-extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/jonathan-courtney/prompts/01-promoter-blueprint-audit.md`
+- **B**: `extractions/marc-andreessen-ben-horowitz/prompts/01-new-media-strategy-audit.md`
+- **Shared**: 01, audit
+- **Domain**: strategy
 
 ### Overlap 10
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/comedy-writing/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/prediction-market-trading/raw-sources/polymarket-arbitrage-source.md`
+- **B**: `extractions/prediction-market-trading/raw-sources/polymarket-docs-source.md`
+- **Shared**: polymarket, source
+- **Domain**: strategy
 
 ### Overlap 11
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/dan-koe/extraction-report-ai-leverage.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `knowledge/creative-direction/guides/kb-trailer-storytelling-narrative.md`
+- **B**: `knowledge/creative-direction/trailer-storytelling.md`
+- **Shared**: storytelling, trailer
+- **Domain**: screenwriting
 
 ### Overlap 12
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/dan-martell/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `knowledge/extractions/inbox/Claude-💎💎 Shaan Puri's Storytelling Formula.md`
+- **B**: `knowledge/extractions/inbox/Claude-💎💎🧑🏽_💻 Oscar Hoglund ! The Impact of Sound in Your Storytelling w! CEO of Epedemic Sound.md`
+- **Shared**: claude, storytelling
+- **Domain**: screenwriting
 
 ### Overlap 13
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/darrel-wilson-affiliate-marketing/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/meg-heckman/video-context-7MNa2YTPGs4/frame-notes.md`
+- **B**: `extractions/video-context/-WCNwxz3uoM/frame-notes.md`
+- **Shared**: frame, notes
+- **Domain**: screenwriting
 
 ### Overlap 14
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/dr-k/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/meg-heckman/video-context-7MNa2YTPGs4/frame-notes.md`
+- **B**: `extractions/video-context/3iR3kHxCwfo/frame-notes.md`
+- **Shared**: frame, notes
+- **Domain**: screenwriting
 
 ### Overlap 15
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/dr-kriukow/dr-kriukow-humanization-extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/meg-heckman/video-context-7MNa2YTPGs4/frame-notes.md`
+- **B**: `extractions/video-context/FD53kEpLh9c/frame-notes.md`
+- **Shared**: frame, notes
+- **Domain**: screenwriting
 
 ### Overlap 16
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/jonathan-courtney/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/meg-heckman/video-context-7MNa2YTPGs4/frame-notes.md`
+- **B**: `extractions/video-context/Zc4E_K48v48/frame-notes.md`
+- **Shared**: frame, notes
+- **Domain**: screenwriting
 
 ### Overlap 17
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/joscha-bach/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/meg-heckman/video-context-7MNa2YTPGs4/frame-notes.md`
+- **B**: `extractions/video-context/a7VjpIqq8Xk/frame-notes.md`
+- **Shared**: frame, notes
+- **Domain**: screenwriting
 
 ### Overlap 18
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/josh-sanders/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/video-context/-WCNwxz3uoM/frame-notes.md`
+- **B**: `extractions/video-context/3iR3kHxCwfo/frame-notes.md`
+- **Shared**: frame, notes
+- **Domain**: screenwriting
 
 ### Overlap 19
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/joshua-smith/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/video-context/-WCNwxz3uoM/frame-notes.md`
+- **B**: `extractions/video-context/FD53kEpLh9c/frame-notes.md`
+- **Shared**: frame, notes
+- **Domain**: screenwriting
 
 ### Overlap 20
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/lifestyle-business-experts/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/video-context/-WCNwxz3uoM/frame-notes.md`
+- **B**: `extractions/video-context/Zc4E_K48v48/frame-notes.md`
+- **Shared**: frame, notes
+- **Domain**: screenwriting
 
 ### Overlap 21
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/marc-andreessen/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/video-context/-WCNwxz3uoM/frame-notes.md`
+- **B**: `extractions/video-context/a7VjpIqq8Xk/frame-notes.md`
+- **Shared**: frame, notes
+- **Domain**: screenwriting
 
 ### Overlap 22
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/marc-andreessen-ben-horowitz/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/video-context/-WCNwxz3uoM/ocr-notes.md`
+- **B**: `extractions/video-context/FD53kEpLh9c/ocr-notes.md`
+- **Shared**: notes, ocr
+- **Domain**: screenwriting
 
 ### Overlap 23
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/mark-kashef-claude-claw/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/video-context/-WCNwxz3uoM/ocr-notes.md`
+- **B**: `extractions/video-context/Zc4E_K48v48/ocr-notes.md`
+- **Shared**: notes, ocr
+- **Domain**: screenwriting
 
 ### Overlap 24
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/mark-kashef-visual-design/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/video-context/-WCNwxz3uoM/uncertainty-report.md`
+- **B**: `extractions/video-context/FD53kEpLh9c/uncertainty-report.md`
+- **Shared**: report, uncertainty
+- **Domain**: screenwriting
 
 ### Overlap 25
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/mike-foutia-marketing-tools/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/video-context/-WCNwxz3uoM/uncertainty-report.md`
+- **B**: `extractions/video-context/Zc4E_K48v48/uncertainty-report.md`
+- **Shared**: report, uncertainty
+- **Domain**: screenwriting
 
 ### Overlap 26
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/nate-herk/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/video-context/3iR3kHxCwfo/frame-notes.md`
+- **B**: `extractions/video-context/FD53kEpLh9c/frame-notes.md`
+- **Shared**: frame, notes
+- **Domain**: screenwriting
 
 ### Overlap 27
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/ocean-vuong/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/video-context/3iR3kHxCwfo/frame-notes.md`
+- **B**: `extractions/video-context/Zc4E_K48v48/frame-notes.md`
+- **Shared**: frame, notes
+- **Domain**: screenwriting
 
 ### Overlap 28
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/rachel-woods/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/video-context/3iR3kHxCwfo/frame-notes.md`
+- **B**: `extractions/video-context/a7VjpIqq8Xk/frame-notes.md`
+- **Shared**: frame, notes
+- **Domain**: screenwriting
 
 ### Overlap 29
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/sabrina-ramonov/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/video-context/FD53kEpLh9c/frame-notes.md`
+- **B**: `extractions/video-context/Zc4E_K48v48/frame-notes.md`
+- **Shared**: frame, notes
+- **Domain**: screenwriting
 
 ### Overlap 30
-- **A**: `extractions/Josh Sanders/extraction-report.md`
-- **B**: `extractions/sam-goddard-media-scaling/extraction-report.md`
-- **Shared**: extraction, report
-- **Domain**: content
+- **A**: `extractions/video-context/FD53kEpLh9c/frame-notes.md`
+- **B**: `extractions/video-context/a7VjpIqq8Xk/frame-notes.md`
+- **Shared**: frame, notes
+- **Domain**: screenwriting
