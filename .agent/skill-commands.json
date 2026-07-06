@@ -197,6 +197,10 @@
       "skill": "cinematic-documentary"
     },
     {
+      "command": "/claim-safe",
+      "skill": "claim-safe-health-marketing"
+    },
+    {
       "command": "/coaching-business",
       "skill": "coaching-business-os"
     },
