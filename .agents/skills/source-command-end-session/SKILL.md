@@ -13,6 +13,8 @@ This project wrapper follows `.agent/workflows/end-session.md` as the canonical
 behavior source. It must stay a thin compatibility wrapper with no competing
 behavior contract.
 
+Verification phrases: canonical behavior source; real Codex subagents require explicit authorization; no competing behavior contract.
+
 Preserve the current End-session contract: whole-session closeout, retrieval
 handoff, closeout intelligence capture, `3 Next Prompts`, `Operator Lesson`,
 `Next-time prompt`, `Subagent worth it?`, `Reuse hook`,
