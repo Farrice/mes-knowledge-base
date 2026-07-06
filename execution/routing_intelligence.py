@@ -14,6 +14,9 @@ Usage:
     python execution/routing_intelligence.py feedback \
         --routing-id "rt_20260308_143022_a7f3" --rating positive
 
+    python execution/routing_intelligence.py misroute \
+        --request "Write a sales page" --wrong "Brand Expert" --correct "Copy Expert"
+
     python execution/routing_intelligence.py scoreboard
     python execution/routing_intelligence.py utilization
     python execution/routing_intelligence.py unused
@@ -32,7 +35,10 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 ROOT = Path(__file__).parent.parent
-DATA_FILE = ROOT / ".agent" / "routing-intelligence.json"
+DATA_FILE = Path(os.environ.get(
+    "ANTIGRAVITY_ROUTING_DATA_FILE",
+    str(ROOT / ".agent" / "routing-intelligence.json"),
+))
 AGENTS_DIR = ROOT / "agents"
 
 
@@ -257,6 +263,35 @@ def log_feedback(
 
     _write_data(data)
     return feedback_id
+
+
+def log_misroute(
+    request_summary: str,
+    wrong_route: str,
+    correct_route: str,
+    notes: str = "",
+    session_id: str = "",
+) -> tuple[str, str]:
+    """Log a wrong-route correction as one routing decision plus negative feedback."""
+    routing_id = log_routing_decision(
+        request_summary=request_summary,
+        intent_score=0,
+        domain_detected="misroute",
+        experts_deployed=[wrong_route],
+        tier_loaded=0,
+        mode="expertise",
+        workflow_used=wrong_route,
+        ensemble=False,
+        session_id=session_id,
+    )
+    feedback_id = log_feedback(
+        routing_id=routing_id,
+        rating="negative",
+        session_id=session_id,
+        correction=correct_route,
+        notes=f"Routing fix queued: {notes}".strip(),
+    )
+    return routing_id, feedback_id
 
 
 def get_last_routing_id() -> Optional[str]:
@@ -582,6 +617,14 @@ def main():
     fb_p.add_argument("--correction", default="", help="Who should have been used instead")
     fb_p.add_argument("--notes", default="", help="Free text notes")
 
+    # misroute
+    misroute_p = subparsers.add_parser("misroute", help="Record a wrong-route correction")
+    misroute_p.add_argument("--request", required=True, help="Original request or summary")
+    misroute_p.add_argument("--wrong", required=True, help="Wrong route or expert used")
+    misroute_p.add_argument("--correct", required=True, help="Correct route or expert that should have been used")
+    misroute_p.add_argument("--notes", default="", help="Free text notes")
+    misroute_p.add_argument("--session", default="", help="Session ID")
+
     # scoreboard
     subparsers.add_parser("scoreboard", help="Generate full analytics dashboard")
 
@@ -630,6 +673,16 @@ def main():
             notes=args.notes,
         )
         print(fid)
+
+    elif args.command == "misroute":
+        routing_id, feedback_id = log_misroute(
+            request_summary=args.request,
+            wrong_route=args.wrong,
+            correct_route=args.correct,
+            notes=args.notes,
+            session_id=args.session,
+        )
+        print(f"{routing_id} {feedback_id}")
 
     elif args.command == "scoreboard":
         print(generate_scoreboard())

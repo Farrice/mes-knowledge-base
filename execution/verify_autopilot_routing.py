@@ -31,8 +31,8 @@ REPEATABILITY_ROUTES = ["repeatability-spine", "autopilot", "system-audit", "pub
 MISSION_ROUTES = ["mission", "autopilot", "orchestrate"]
 REVENUE_ROUTES = ["first-10k", "revenue-offer-agent", "client-acquire", "zero-to-client-sprint", "service-first-productization"]
 SKILL_SYSTEM_ROUTES = ["source-to-skill-system", "extraction-governor-agent", "mission", "autopilot", "self-evolve", "skill-anneal"]
-FRONT_DOOR_CHOICE_ROUTES = ["autopilot", "orchestrate", "command-menu", "routing-intelligence", "knowledge-librarian", "mission"]
-MENU_BACKEND_ROUTES = ["orchestrate", "command-menu", "autopilot"]
+FRONT_DOOR_CHOICE_ROUTES = ["autopilot", "orchestrate", "routing-intelligence", "knowledge-librarian", "mission"]
+MENU_BACKEND_ROUTES = ["orchestrate", "autopilot"]
 RESEARCH_STACK_ROUTES = ["research-swarm", "parallel-research", "deep-research-gemini", "deep-research"]
 
 

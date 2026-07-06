@@ -9,6 +9,11 @@ request into one owner route, bounded support gates, the first safe local action
 verification, and a run receipt. It is not a competing router and not the older
 gate-suppressed mission dispatcher.
 
+## Co-Creative Launchpad
+
+Autopilot owns the Co-Creative Launchpad: raw context becomes an intent lock,
+route trace, execution decision, and safe local next action when risk permits.
+
 For substantial operator/system work, start with the local preflight:
 
 ```bash

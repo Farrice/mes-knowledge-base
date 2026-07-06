@@ -63,6 +63,13 @@ MISSION_STACK = (
     "orchestrate",
 )
 
+RESEARCH_STACK = (
+    "research-swarm",
+    "parallel-research",
+    "deep-research-gemini",
+    "deep-research",
+)
+
 
 def mission_query(query: str) -> bool:
     """Detect mission-continuity prompts that should beat generic build routes."""
@@ -135,6 +142,16 @@ def operator_front_door_query(query: str) -> bool:
         if term in query
     )
     return context_hits >= 2
+
+
+def explicit_research_stack_query(query: str) -> bool:
+    """Detect explicit research-stack menu probes without overriding deep-research-os."""
+
+    return (
+        "research swarm" in query
+        and "parallel research" in query
+        and ("deep research gemini" in query or "gemini" in query)
+    )
 
 
 def operator_lesson_front_door_query(query: str) -> bool:
@@ -619,6 +636,9 @@ def search_workflows(query, top_n=10):
     elif operator_front_door_query(normalized_query):
         route_names = [wf["name"] for wf in index]
         governed_order = [route for route in OPERATOR_FRONT_DOOR_STACK if route in route_names]
+    elif explicit_research_stack_query(normalized_query):
+        route_names = [wf["name"] for wf in index]
+        governed_order = [route for route in RESEARCH_STACK if route in route_names]
     elif governed_query_active(normalized_query):
         governed_order = governed_route_names(normalized_query, [wf["name"] for wf in index])
     governed_boost = {
