@@ -1,5 +1,5 @@
 # Knowledge Index
-*515 sources | 2,360,184 words | Updated: 2026-07-06*
+*515 sources | 2,361,728 words | Updated: 2026-07-06*
 
 ---
 
@@ -25,6 +25,7 @@
 - [extraction-report](../extractions/brad-bonanno/extraction-report.md) — 3,760 words
 - [DESIGN](design-libraries/brands/ferrari/DESIGN.md) — 3,753 words
 - [extraction-report](../extractions/marc-andreessen/extraction-report.md) — 3,749 words (stale)
+- [index](index.md) — 3,702 words
 - [visual-context](../extractions/meg-heckman/video-context-mV-DQElnWGk/visual-context.md) — 3,694 words
 - [extraction-report](../extractions/grace-andrews/extraction-report.md) [grace-beverley] — 3,663 words (stale)
 - [substack-brandjack-trends-april-2026](../research_outputs/substack-brandjack-trends-april-2026.md) — 3,555 words
@@ -62,7 +63,6 @@
 - [DESIGN](design-libraries/brands/elevenlabs/DESIGN.md) — 2,289 words
 - [smoothing-jagged-frontier-extraction](../extractions/nate-b-jones/smoothing-jagged-frontier-extraction.md) — 2,237 words (stale)
 - [extraction-report](../extractions/joscha-bach/extraction-report.md) — 2,223 words (stale)
-- [index](index.md) — 2,206 words
 - [extraction-report-ai-leverage](../extractions/dan-koe/extraction-report-ai-leverage.md) — 2,147 words (stale)
 - [extraction-report](../extractions/nicolas-cole-client-acquisition/extraction-report.md) [nicolas-cole] — 2,147 words (stale)
 - [linkedin-algorithm-2026](frameworks/linkedin-algorithm-2026.md) — 2,127 words
@@ -278,7 +278,7 @@
 - [Guide_3_Streetwear_Design_Mastery](creative-direction/guides/Guide_3_Streetwear_Design_Mastery.md) — 32,225 words
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 9,604 words
+- [log](log.md) — 9,652 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words

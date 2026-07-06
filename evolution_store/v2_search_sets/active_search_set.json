@@ -2074,8 +2074,73 @@
         "gaming_flag": false
       },
       "notes": "Retry after finalize intent_alignment under-scored summary context | local gates: content_finish_gate WARN only for prose template structure; grounding_guard PASS; export_format_guard PASS; JSONL PASS 53; route proof PASS; Google Drive disabled | platform: codex | Verification: PASS/PARTIAL because chain composite may disagree with local gates"
+    },
+    {
+      "trace_id": "20260706_081427",
+      "timestamp": "2026-07-06T08:14:27.999293",
+      "schema_version": "v3",
+      "component": "regression_audit/20260706_081423",
+      "expert": "",
+      "workflow": "",
+      "quality": {
+        "composite": 5.95,
+        "intent_alignment": 0.0,
+        "expert_standard": 0.0,
+        "adversarial_resilience": 0.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": [
+          {
+            "step": "regression_audit",
+            "signal_type": "domain_regression",
+            "severity": "major",
+            "description": "content: current 6.45 vs expected_min 7.5 (delta -1.05)"
+          },
+          {
+            "step": "regression_audit",
+            "signal_type": "domain_regression",
+            "severity": "major",
+            "description": "content: current 6.45 vs expected_min 7.0 (delta -0.55)"
+          },
+          {
+            "step": "regression_audit",
+            "signal_type": "domain_regression",
+            "severity": "major",
+            "description": "content: current 6.45 vs expected_min 7.0 (delta -0.55)"
+          },
+          {
+            "step": "regression_audit",
+            "signal_type": "domain_regression",
+            "severity": "major",
+            "description": "research: current 6.33 vs expected_min 7.5 (delta -1.17)"
+          },
+          {
+            "step": "regression_audit",
+            "signal_type": "domain_regression",
+            "severity": "major",
+            "description": "research: current 6.33 vs expected_min 7.0 (delta -0.67)"
+          },
+          {
+            "step": "regression_audit",
+            "signal_type": "domain_regression",
+            "severity": "major",
+            "description": "research: current 6.33 vs expected_min 7.0 (delta -0.67)"
+          }
+        ]
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Regression audit: 10 pass / 5 warn / 6 regress / 0 no-data"
     }
   ],
-  "total_cases": 74,
-  "last_updated": "2026-07-04T06:40:30.185077"
+  "total_cases": 75,
+  "last_updated": "2026-07-06T08:14:28.000585"
 }

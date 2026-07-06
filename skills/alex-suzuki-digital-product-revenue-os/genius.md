@@ -102,3 +102,11 @@ Free community + courses → application → founder call → close. Structure t
 
 ## Compliance Layer (non-negotiable)
 Every revenue figure labeled a creator claim; borrowed proof real and disclosed; affiliate disclosed; auto-DM opt-in only; multi-account distinct; real value delivered. See `references/compliance-gate.md`.
+
+## Evolution Log
+
+### 2026-07-06 — Voice Edge Calibration Gate added to 17-coldstart-revenue-engine (KEPT, +1.0)
+- **Trigger**: E3 blind bake-off ground truth (`evolution_store/ground_truth/eval_set_v1.jsonl` EVAL-026/027/028, calibrated_by_human=true). 2 of 3 blind reads preferred the real author's X post over the skill-generated one; Farrice's note on the third: "more polite, not wider appeal."
+- **Change**: Added Step 4.5 to workflow 17 (Hedge Strip + One Blunt Line Rule + Screenshot Test) between Post Engine (Step 4) and Platform Funnel(s) (Step 5). Single workflow file, single variable.
+- **Result**: 3-task seen benchmark (domain: default) — baseline avg 6.22, variant avg 7.22 (+1.0). Held-out task ("diagnostic self-assessment") scored 6.33 for the variant; gaming delta 0.89 (no flag, threshold 1.5). The gate did not engage on the held-out or educational-explainer task since neither drafts a Sales Post — expected and non-gaming, since the change is intentionally scoped to the post-drafting step.
+- **Lesson**: the "polite but narrower appeal" gap is real and fixable with an explicit anti-hedge / one-blunt-line check right after drafting, but it's local to the Sales Post artifact, not the whole cold-start system — don't expect this fix to lift non-post deliverables (funnels, diagnostics, education) produced by the same workflow.

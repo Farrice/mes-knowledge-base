@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-06T08:07:26.702583",
+  "generated": "2026-07-06T08:14:58.757486",
   "total_files": 515,
-  "total_words": 2360184,
-  "total_tokens_est": 3139044,
+  "total_words": 2361728,
+  "total_tokens_est": 3141098,
   "stale_files_30d": 405,
   "domains": {
     "content": 170,
@@ -1925,11 +1925,11 @@
       "parent": "knowledge",
       "domain": "content",
       "expert": null,
-      "word_count": 2206,
-      "modified": "2026-06-09T17:48:37.099570",
-      "age_days": 26,
-      "size_bytes": 31279,
-      "content_hash": "75acbd7e",
+      "word_count": 3702,
+      "modified": "2026-07-06T08:07:26.714181",
+      "age_days": 0,
+      "size_bytes": 59520,
+      "content_hash": "01da267f",
       "has_frontmatter": false
     },
     {
@@ -1938,10 +1938,10 @@
       "parent": "knowledge",
       "domain": "general",
       "expert": null,
-      "word_count": 9604,
-      "modified": "2026-07-06T07:54:27.228953",
+      "word_count": 9652,
+      "modified": "2026-07-06T08:14:54.342038",
       "age_days": 0,
-      "size_bytes": 74942,
+      "size_bytes": 75353,
       "content_hash": "5a51f947",
       "has_frontmatter": false
     },
@@ -2408,7 +2408,7 @@
       "expert": "dai-media",
       "word_count": 5168,
       "modified": "2026-05-03T08:11:12.290357",
-      "age_days": 63,
+      "age_days": 64,
       "size_bytes": 34259,
       "content_hash": "19ce9358",
       "has_frontmatter": false
@@ -3864,7 +3864,7 @@
       "expert": "luke-iha",
       "word_count": 1375,
       "modified": "2026-03-10T08:10:53.547226",
-      "age_days": 117,
+      "age_days": 118,
       "size_bytes": 8971,
       "content_hash": "c81f9ceb",
       "has_frontmatter": false
@@ -3877,7 +3877,7 @@
       "expert": "luke-iha",
       "word_count": 1528,
       "modified": "2026-03-10T08:11:45.065884",
-      "age_days": 117,
+      "age_days": 118,
       "size_bytes": 10102,
       "content_hash": "ddac9821",
       "has_frontmatter": false
@@ -3890,7 +3890,7 @@
       "expert": "luke-iha",
       "word_count": 1385,
       "modified": "2026-03-10T08:13:05.296827",
-      "age_days": 117,
+      "age_days": 118,
       "size_bytes": 8762,
       "content_hash": "ad12bfa8",
       "has_frontmatter": false
@@ -3903,7 +3903,7 @@
       "expert": "luke-iha",
       "word_count": 2004,
       "modified": "2026-03-10T08:13:07.367759",
-      "age_days": 117,
+      "age_days": 118,
       "size_bytes": 13953,
       "content_hash": "aad8f29a",
       "has_frontmatter": false
@@ -5125,7 +5125,7 @@
       "expert": null,
       "word_count": 915,
       "modified": "2026-04-14T08:13:17.957740",
-      "age_days": 82,
+      "age_days": 83,
       "size_bytes": 6531,
       "content_hash": "471b3302",
       "has_frontmatter": false

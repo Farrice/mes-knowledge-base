@@ -15,9 +15,19 @@
     "new skill/agent/workflow ship (with discipline: add at least 1 eval entry per ship)"
   ],
   "still_paused": [
-    "Phase 3 cross-pollination \u2014 E3 bake-off condition SATISFIED 2026-07-02 (see e3_bakeoff_result below); REMAINING unlock condition: one Phase 2 (/skill-evolution) cycle completes on a calibrated candidate",
+    "Phase 3 cross-pollination \u2014 BOTH original unlock conditions now SATISFIED (E3 bake-off 2026-07-02; first calibrated Phase 2 cycle 2026-07-06, see phase2_cycle_result). NEW gate before cross-pollination executes: investigate the 6 pre-existing regressions the 2026-07-06 regression audit surfaced in content/research domains. Farrice may lift by ordering that investigation or overriding.",
     "Autonomous skill modification on skills without ground-truth benchmarks (unchanged)"
   ],
+  "phase2_cycle_result": {
+    "completed_at": "2026-07-06",
+    "candidate": "alex-suzuki-digital-product-revenue-os (substituted for maria-wendt-digital-products, which had zero ground-truth coverage and was absent from every live Phase-2 queue signal)",
+    "weakest_workflow": "17-coldstart-revenue-engine",
+    "variant": "Step 4.5 Voice Edge Calibration Gate (Hedge Strip + One Blunt Line Rule + Screenshot Test) \u2014 targets E3 blind-rating feedback 'more polite, not wider appeal'",
+    "scores": "baseline 6.22 \u2192 variant 7.22 (+1.0), held-out 6.33, gaming delta 0.89 (< 1.5 threshold)",
+    "verdict": "KEEP, applied + traced (v3 trace, Performance Log, knowledge/patterns entry)",
+    "cascade_audit": "clean (0 downstream regressions on 3 sampled siblings)",
+    "regression_audit": "6 PRE-EXISTING regressions in unrelated domains (content, research) \u2014 does not revert this KEEP (additive-only rule) but gates the NEXT Phase-2 cycle until investigated"
+  },
   "verification_evidence": {
     "rubric_status": "rubric_load_bearing: true (11/12 calibrated)",
     "test_trace": "evolution_store/v2_traces/trace_20260504_105639_lara-acosta-linkedin-mastery.json",

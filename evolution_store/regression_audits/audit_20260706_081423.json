@@ -1,0 +1,256 @@
+{
+  "timestamp": "2026-07-06T08:14:23.394221",
+  "audit_id": "20260706_081423",
+  "audit_type": "regression",
+  "domains_audited": [
+    "copywriting",
+    "content",
+    "strategy",
+    "sales",
+    "research",
+    "brand",
+    "default"
+  ],
+  "sample_per_domain": 3,
+  "results": [
+    {
+      "domain": "copywriting",
+      "task": "Write a direct-response sales letter opener (first 200 words) for a $97 info product on email deliverability, cold traffic.",
+      "expected_min": 7.5,
+      "expected_target": 9.0,
+      "current_score": 7.23,
+      "delta": -0.27,
+      "status": "WARNING",
+      "scoring_method": "proxy_from_log",
+      "notes": "Classic DR fundamentals \u2014 should score strong on hook, pattern interrupt, problem agitation."
+    },
+    {
+      "domain": "copywriting",
+      "task": "Draft a cold outreach email to a VP Marketing at a Series B SaaS (ARR ~$30M) pitching a $5K/mo content retainer. Single email, <150 words, must earn a reply.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 7.23,
+      "delta": 0.23,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Specificity test \u2014 generic cold email patterns fail this; domain voice + proof signals succeed."
+    },
+    {
+      "domain": "copywriting",
+      "task": "Write a 3-line PPC ad (headline, body, CTA) for a $27/mo stock research tool targeting retail investors aged 35-55 worried about market volatility.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 7.23,
+      "delta": 0.23,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Constrained character-count copy \u2014 tests brevity + emotional precision."
+    },
+    {
+      "domain": "content",
+      "task": "Write a LinkedIn post (180-220 words) for a solo consultant sharing a counterintuitive lesson from a client engagement. Must drive substantive comments, not reactions.",
+      "expected_min": 7.5,
+      "expected_target": 9.0,
+      "current_score": 6.45,
+      "delta": -1.05,
+      "status": "REGRESSION",
+      "scoring_method": "proxy_from_log",
+      "notes": "LinkedIn-native content test \u2014 platform constraints + psychological specificity."
+    },
+    {
+      "domain": "content",
+      "task": "Write a Twitter/X thread opener (first 3 posts) on \"the real reason most creators plateau at 10K followers\" \u2014 must sound like a practitioner, not a guru.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 6.45,
+      "delta": -0.55,
+      "status": "REGRESSION",
+      "scoring_method": "proxy_from_log",
+      "notes": "Voice calibration test \u2014 generic advice fails, lived-experience signals succeed."
+    },
+    {
+      "domain": "content",
+      "task": "Draft a TikTok hook + opening 15 seconds for a personal finance creator targeting renters in their late 20s who feel locked out of homeownership.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 6.45,
+      "delta": -0.55,
+      "status": "REGRESSION",
+      "scoring_method": "proxy_from_log",
+      "notes": "Short-form video hook test \u2014 pattern interrupt + scroll-stop mechanics."
+    },
+    {
+      "domain": "strategy",
+      "task": "Write a one-page positioning statement (~300 words) for a solo fractional CMO targeting Series A-B SaaS companies spending $20K-$80K/mo on content but seeing <2x pipeline contribution.",
+      "expected_min": 7.5,
+      "expected_target": 9.0,
+      "current_score": 7.25,
+      "delta": -0.25,
+      "status": "WARNING",
+      "scoring_method": "proxy_from_log",
+      "notes": "Positioning test \u2014 specificity of ICP + mechanism + differentiation must all land."
+    },
+    {
+      "domain": "strategy",
+      "task": "Design a 60-day go-to-market plan for a $2,997 cohort course teaching AI automation to marketing operators, zero prior audience, founder has 8 years of in-house ops experience.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 7.25,
+      "delta": 0.25,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "GTM test \u2014 constrained inputs force strategy not template. Audience-build vs. authority-build tradeoff must surface."
+    },
+    {
+      "domain": "strategy",
+      "task": "Identify the 3 biggest structural weaknesses in Zapier's positioning for solo operators in 2026, and propose how a new entrant could exploit them.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 7.25,
+      "delta": 0.25,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Competitive intelligence test \u2014 observable market dynamics, not generic SWOT."
+    },
+    {
+      "domain": "sales",
+      "task": "Handle this live objection: \"I need to think about it\" \u2014 prospect is a $2M-ARR founder evaluating a $15K/mo content retainer. You are on a Zoom call, already 45 min in.",
+      "expected_min": 7.5,
+      "expected_target": 9.0,
+      "current_score": 7.25,
+      "delta": -0.25,
+      "status": "WARNING",
+      "scoring_method": "proxy_from_log",
+      "notes": "Live objection handling \u2014 real-talk vs. scripted manipulation separates expert from generic."
+    },
+    {
+      "domain": "sales",
+      "task": "Write a 4-email nurture sequence for a lead who downloaded a free guide titled \"5 Mistakes First-Time SaaS Founders Make With Pricing.\" Goal: book a $1K strategy call.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 7.25,
+      "delta": 0.25,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Email sequence architecture \u2014 each email must earn the next open, escalate commitment."
+    },
+    {
+      "domain": "sales",
+      "task": "Design a 30-minute discovery call outline for qualifying leads for a $50K 6-month consulting engagement. Must eliminate tire-kickers by minute 15.",
+      "expected_min": 7.5,
+      "expected_target": 9.0,
+      "current_score": 7.25,
+      "delta": -0.25,
+      "status": "WARNING",
+      "scoring_method": "proxy_from_log",
+      "notes": "Discovery call design \u2014 budget/authority/need/timing must surface naturally, not interrogatively."
+    },
+    {
+      "domain": "research",
+      "task": "Build a consumer persona for a first-time buyer of a $3K+ productivity coaching program. Focus on the pre-purchase window: triggers, objections, emotional state, search behavior.",
+      "expected_min": 7.5,
+      "expected_target": 9.0,
+      "current_score": 6.33,
+      "delta": -1.17,
+      "status": "REGRESSION",
+      "scoring_method": "proxy_from_log",
+      "notes": "Persona depth test \u2014 generic demographic vs. psychographic specificity separates junior from expert research."
+    },
+    {
+      "domain": "research",
+      "task": "Map the top 3 underserved niches in the AI-automation market where Zapier and Make have structural weaknesses. Include TAM estimate + entry cost for each.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 6.33,
+      "delta": -0.67,
+      "status": "REGRESSION",
+      "scoring_method": "proxy_from_log",
+      "notes": "Market intelligence test \u2014 structural reasoning, not surface trend-spotting."
+    },
+    {
+      "domain": "research",
+      "task": "Conduct a competitive analysis of the 5 largest AI writing tools for marketing teams in 2026. Identify the dimension of differentiation each is implicitly competing on.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 6.33,
+      "delta": -0.67,
+      "status": "REGRESSION",
+      "scoring_method": "proxy_from_log",
+      "notes": "Positioning analysis test \u2014 \"what game are they actually playing\" is the tier-1 question."
+    },
+    {
+      "domain": "brand",
+      "task": "Develop a positioning statement for the personal brand of a corporate lawyer pivoting to content creation about M&A deal structure, targeting mid-market founders ($10M-$100M ARR).",
+      "expected_min": 7.5,
+      "expected_target": 9.0,
+      "current_score": 7.61,
+      "delta": 0.11,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Pivot positioning \u2014 credibility transfer + audience-narrowing test."
+    },
+    {
+      "domain": "brand",
+      "task": "Write a 250-word brand voice guide for a $497/mo paid community for female founders scaling $1M\u2192$10M ARR. Must avoid both hustle-culture and soft-empowerment tropes.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 7.61,
+      "delta": 0.61,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Voice precision test \u2014 negative constraints force specificity."
+    },
+    {
+      "domain": "brand",
+      "task": "Design a 4-pillar content strategy for an ex-FAANG engineering leader building a personal brand on AI engineering + founder storytelling, targeting CTOs and VPs of Engineering.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 7.61,
+      "delta": 0.61,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Pillar architecture test \u2014 pillars must be non-overlapping, non-redundant, audience-serving."
+    },
+    {
+      "domain": "default",
+      "task": "Write a one-page executive summary (400 words) of your domain expertise tailored to a CEO who has 3 minutes to read it and must decide whether to engage your services.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 7.28,
+      "delta": 0.28,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Executive-summary test \u2014 compression + credibility + CTA discipline."
+    },
+    {
+      "domain": "default",
+      "task": "Design a 5-question self-assessment a prospect could take to determine if they need your services. Each question must segment seriously vs casually interested.",
+      "expected_min": 7.0,
+      "expected_target": 8.5,
+      "current_score": 7.28,
+      "delta": 0.28,
+      "status": "PASS",
+      "scoring_method": "proxy_from_log",
+      "notes": "Qualification mechanism test \u2014 good questions force honest self-diagnosis."
+    },
+    {
+      "domain": "default",
+      "task": "Write a \"first 30 days\" document for a new client who just hired you. Sequenced, actionable, demonstrates domain mastery without being rote.",
+      "expected_min": 7.5,
+      "expected_target": 9.0,
+      "current_score": 7.28,
+      "delta": -0.22,
+      "status": "WARNING",
+      "scoring_method": "proxy_from_log",
+      "notes": "Onboarding artifact \u2014 proves delivery craft, sets expectations, reduces buyer's remorse."
+    }
+  ],
+  "summary": {
+    "total_run": 21,
+    "passed": 10,
+    "warnings": 5,
+    "regressions": 6,
+    "no_data": 0
+  },
+  "blocking": true
+}

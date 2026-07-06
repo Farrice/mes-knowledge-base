@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-07-06T08:14:38.548662",
+  "audit_id": "20260706_081438",
+  "skill_kept": "alex-suzuki-digital-product-revenue-os",
+  "sample_size": 3,
+  "regression_threshold": 0.5,
+  "downstream_checked": [
+    "lamott-allen-really-real-writing",
+    "ai-carousel-content-engine",
+    "andrew-stanton-audience-engineering"
+  ],
+  "sampled": [
+    {
+      "skill": "lamott-allen-really-real-writing",
+      "confidence": 4.0,
+      "reasons": [
+        "shared-refs:hidden-knowledge.md,source-ledger.md"
+      ],
+      "baseline_score": 7.25,
+      "current_score": 7.25,
+      "delta": 0.0
+    },
+    {
+      "skill": "ai-carousel-content-engine",
+      "confidence": 2.0,
+      "reasons": [
+        "shared-refs:hidden-knowledge.md"
+      ],
+      "baseline_score": null,
+      "current_score": null,
+      "delta": null
+    },
+    {
+      "skill": "andrew-stanton-audience-engineering",
+      "confidence": 2.0,
+      "reasons": [
+        "shared-refs:hidden-knowledge.md"
+      ],
+      "baseline_score": 7.25,
+      "current_score": 7.25,
+      "delta": 0.0
+    }
+  ],
+  "regressions": [],
+  "flag": false
+}

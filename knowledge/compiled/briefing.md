@@ -1,11 +1,12 @@
 # Knowledge Briefing
-*Generated: 2026-07-06 | 515 sources | 2,360,184 words*
+*Generated: 2026-07-06 | 515 sources | 2,361,728 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **log** (general) — 9,604 words — `knowledge/log.md`
+- **index** (content) — 3,702 words — `knowledge/index.md`
+- **log** (general) — 9,652 words — `knowledge/log.md`
 - **VISION** (content) — 1,099 words — `extractions/ben-watkins/VISION.md`
 - **extraction-report** (content [kallaway]) — 715 words — `extractions/kallaway-content-system/extraction-report.md`
 - **integrity-patch** (copywriting [kallaway]) — 590 words — `extractions/kallaway-content-system/integrity-patch.md`
@@ -14,7 +15,6 @@
 - **SKILL** (copywriting [nick-saraev]) — 3,638 words — `extractions/mark-kashef-perfect-agentic-os-kit/source_assets/SKILL.md`
 - **OPPORTUNITIES** (general [nick-saraev]) — 181 words — `extractions/mark-kashef-perfect-agentic-os-kit/source_assets/examples/devon_saas/OPPORTUNITIES.md`
 - **OPPORTUNITIES** (general [nick-saraev]) — 215 words — `extractions/mark-kashef-perfect-agentic-os-kit/source_assets/examples/dr_anwar_derma/OPPORTUNITIES.md`
-- **OPPORTUNITIES** (general [dai-media]) — 167 words — `extractions/mark-kashef-perfect-agentic-os-kit/source_assets/examples/dr_mehra_clinic/OPPORTUNITIES.md`
 
 ## Domain Coverage
 
