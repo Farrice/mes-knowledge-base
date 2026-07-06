@@ -54,6 +54,7 @@ REPAIR_STATUS_REVIEW_PROMPT = (
 )
 STEERING_PROMPT = "give me better 3 next prompts and an operator lesson"
 CONVENE_PROMPT = "Convene the council to deliberate on an offer strategy"
+CONTEXT_NOTE_PROMPT = "The KU was the complete practical test that I gave."
 
 
 def run(args: list[str], input_text: str | None = None) -> subprocess.CompletedProcess[str]:
@@ -300,6 +301,11 @@ def check_prompt_hook() -> list[str]:
     if "CONTROL ROUTING OVERRIDE" in raw_intent_context:
         fail(f"explicit skill-link content prompt should not be control-overridden: {raw_intent_context}")
     receipts.append("explicit skill-link content prompt does not emit /system-audit override")
+
+    context_note = hook_context(CONTEXT_NOTE_PROMPT)
+    if context_note:
+        fail(f"context-only follow-up should not emit routing context: {context_note}")
+    receipts.append("context-only KU follow-up stays quiet")
     return receipts
 
 

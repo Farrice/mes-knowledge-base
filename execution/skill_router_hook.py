@@ -240,6 +240,42 @@ def _looks_like_expert_task(prompt: str) -> bool:
     return False
 
 
+def _looks_like_context_update(prompt: str) -> bool:
+    """Detect clarification-only follow-ups that should not trigger routing."""
+
+    q = _normalize(strip_explicit_invocation_artifacts(prompt))
+    if "?" in prompt:
+        return False
+    request_markers = (
+        "can you",
+        "please",
+        "i need",
+        "we need",
+        "need you",
+        "run",
+        "execute",
+        "fix",
+        "repair",
+        "verify",
+        "audit",
+        "review",
+        "write",
+        "draft",
+        "create",
+        "build",
+        "make",
+        "route",
+    )
+    if any(marker in q for marker in request_markers):
+        return False
+    return bool(
+        re.match(
+            r"^(the|this|that|it|[a-z0-9_-]+)\b.+\b(was|is|were|are|meant|means|refers to)\b",
+            q,
+        )
+    )
+
+
 def _emit_control_override(route: str, reason: str) -> None:
     block = "\n".join(
         [
@@ -409,6 +445,9 @@ def main():
     control = _control_route(prompt)
     if control:
         _emit_control_override(*control)
+
+    if _looks_like_context_update(prompt):
+        sys.exit(0)
 
     # Soft signal only (Wave 3, 2026-07): expert-shaped phrasing no longer
     # gates whether ranking runs — every prompt that reaches here gets
