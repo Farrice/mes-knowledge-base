@@ -112,8 +112,12 @@ def extract_agent_keywords(fm, body, slug):
                     if kw and len(kw) > 2:
                         keywords.add(kw.lower())
 
-    # 4. Domain/invocation line patterns
-    domain_match = re.search(r'\*\*Domain\*\*:\s*(.+)', body, re.IGNORECASE)
+    # 4. Domain/invocation line patterns. Handles both bold variants —
+    # "**Domain**: text" and "**Domain:** text"/"**Domains:** text" (the
+    # colon-inside-bold + plural forms sync_agents previously missed, e.g.
+    # agents/creative-director/AGENT.md's "- **Domains:** Visual identity...").
+    body_nobold = body.replace("**", "")
+    domain_match = re.search(r'Domains?:\s*(.+)', body_nobold, re.IGNORECASE)
     if domain_match:
         for kw in re.split(r'[,;&]+', domain_match.group(1)):
             kw = kw.strip().strip("*")
@@ -157,6 +161,20 @@ def extract_agent_keywords(fm, body, slug):
         if len(kw) > 2:
             cleaned.add(kw)
 
+    # 7. Last-resort fallback: compatibility-stub agents (e.g.
+    # agents/alex-suzuki/AGENT.md) route entirely through an "Invocation
+    # Triggers" bullet list with no Domain/Competencies/Philosophy section
+    # for the checks above to latch onto. Only fires when nothing else did.
+    if not cleaned:
+        trig_match = re.search(
+            r'##\s*Invocation Triggers\s*\n(.*?)(?=\n##|\Z)', body, re.DOTALL | re.IGNORECASE
+        )
+        if trig_match:
+            for line in trig_match.group(1).split("\n")[:4]:
+                item = line.strip().lstrip("-").strip().strip("*")
+                if item and 3 < len(item) < 80:
+                    cleaned.add(item.lower())
+
     return sorted(cleaned)
 
 
@@ -164,18 +182,56 @@ def extract_skill_keywords(fm, body, slug):
     """Extract domain keywords from skill file content."""
     keywords = []
 
-    # 1. Frontmatter description — richest source for skills
+    # 1. Frontmatter domain field — explicit, structured, highest signal.
+    # ~64 skills carry this field but it was never read before (backfill
+    # 2026-07-06); comma-split it straight into keywords.
+    if fm.get("domain"):
+        for kw in re.split(r'[,;&]+', fm["domain"].replace("|", "")):
+            kw = kw.strip()
+            if kw and len(kw) > 2:
+                keywords.append(kw.lower())
+
+    # 1b. Frontmatter when_to_use field (rare, but explicit invoke-when signal)
+    if fm.get("when_to_use"):
+        wtu = fm["when_to_use"].replace("|", "")
+        for segment in re.split(r'[.;]+', wtu):
+            segment = segment.strip()
+            if len(segment) > 5:
+                if len(segment) > 80:
+                    segment = segment[:77].rstrip() + "..."
+                keywords.append(segment.lower())
+
+    # 2. Frontmatter description — richest source for skills
     if fm.get("description"):
         desc = fm["description"]
         # Clean pipe chars that break markdown tables
         desc = desc.replace("|", "")
         # Split on periods/semicolons for distinct phrases
-        for segment in re.split(r'[.;]+', desc):
-            segment = segment.strip()
-            if len(segment) > 5 and len(segment) < 80:
-                keywords.append(segment.lower())
+        segments = [s.strip() for s in re.split(r'[.;]+', desc) if s.strip()]
+        fitting = [s for s in segments if 5 < len(s) < 80]
+        if fitting:
+            keywords.extend(s.lower() for s in fitting)
+        elif segments:
+            # Every sentence-level segment is a single long run-on (a common
+            # single-sentence-description pattern — e.g. ai-carousel-content-
+            # engine, eric-roth-screenwriting-mastery — was silently dropping
+            # to ZERO keywords here). Fall back to comma-splitting all
+            # segments for shorter phrases; last resort, truncate rather than
+            # drop the first segment entirely.
+            comma_parts = []
+            for seg in segments:
+                comma_parts.extend(p.strip() for p in seg.split(",") if p.strip())
+            fitting_commas = [s for s in comma_parts if 5 < len(s) < 80]
+            if fitting_commas:
+                keywords.extend(s.lower() for s in fitting_commas[:3])
+            else:
+                first = segments[0]
+                if len(first) > 80:
+                    first = first[:77].rstrip() + "..."
+                if len(first) > 5:
+                    keywords.append(first.lower())
 
-    # 2. First heading domain part (after name separator)
+    # 3. First heading domain part (after name separator)
     heading_match = re.search(r'^#\s+(.+)', body, re.MULTILINE)
     if heading_match:
         heading = heading_match.group(1).replace("|", "")
@@ -293,6 +349,186 @@ def sync_skills():
 
     populated = sum(1 for s in skills if s["keywords"])
     print(f"✅ Synced {len(skills)} skills to SKILL_INDEX.md ({populated} with keywords).")
+
+
+# ── Invocation card auto-stubs (Wave 4, 2026-07-06) ──────────────────────────
+INVOCATION_CARDS = os.path.join(AGENTS_DIR, "_framework", "invocation-cards.md")
+CARD_AUTO_BEGIN = (
+    "<!-- GEN:auto-card:BEGIN (regenerated by sync_registries.py — safe to hand-"
+    "enrich or promote an entry up into a curated section above; re-running "
+    "rebuilds ONLY this block from current agents/*/AGENT.md coverage gaps, so "
+    "a promoted card is never duplicated here) -->"
+)
+CARD_AUTO_END = "<!-- GEN:auto-card:END -->"
+
+
+def _norm_card_name(name):
+    """Normalize a card/agent display name for coverage comparison.
+
+    Cuts at the first title-separator (":" or "—") so long AGENT.md headings
+    like "Eric Roth: Oscar-Level Writing Virtuoso" compare equal to a card's
+    "AGENT: Eric Roth".
+    """
+    s = name.strip()
+    for sep in [":", "—"]:
+        if sep in s:
+            s = s.split(sep, 1)[0].strip()
+    return s.lower()
+
+
+def _card_display_name(fm, body, slug):
+    """Best display name for a NEW auto-card. Prefers `expert:` over `name:`
+    because many AGENT.md files set `name:` to the bare slug (e.g.
+    `name: lara-acosta`) — a fine machine key, a poor card heading."""
+    for field in ("expert", "name"):
+        val = fm.get(field)
+        if val and val.strip().lower() != slug.lower():
+            return val.strip()
+    heading_match = re.search(r'^#\s+(.+)', body, re.MULTILINE)
+    if heading_match:
+        h = heading_match.group(1).strip()
+        h = re.sub(r'^Agent:\s*', '', h, flags=re.IGNORECASE)
+        h = re.sub(r'\s+Agent$', '', h)
+        return h
+    return slug.replace("-", " ").title()
+
+
+def _card_domain(fm, body):
+    if fm.get("domain"):
+        d = fm["domain"].strip()
+        return d[:157].rstrip() + "..." if len(d) > 160 else d
+    body_nobold = body.replace("**", "")
+    m = re.search(r'Domains?:\s*(.+)', body_nobold, re.IGNORECASE)
+    if m:
+        d = m.group(1).strip()
+        return d[:157].rstrip() + "..." if len(d) > 160 else d
+    return "See AGENT.md — domain not yet tagged in frontmatter."
+
+
+def _card_invoke_when(body):
+    """First substantive prose line under the heading — a rough one-line
+    invoke-when gist for the stub. Skips headings, table rows, bullets."""
+    lines = body.splitlines()
+    for line in lines:
+        s = line.strip()
+        if not s or s.startswith(("#", "|", "```", "<!--", "-", "*", ">")):
+            continue
+        if len(s) > 20:
+            return s[:157].rstrip() + "..." if len(s) > 160 else s
+    return "See source AGENT.md for full methodology."
+
+
+def _existing_card_names(cards_text):
+    """Normalized names already covered by a curated `AGENT:` card, scanning
+    ONLY the hand-curated region (prior auto-block stripped first) so the
+    auto-block always regenerates from true current coverage, never from its
+    own last run's stubs."""
+    if CARD_AUTO_BEGIN in cards_text:
+        cards_text = cards_text.split(CARD_AUTO_BEGIN)[0]
+    names = set(
+        _norm_card_name(n) for n in re.findall(r'^AGENT:\s*(.+)$', cards_text, re.MULTILINE)
+    )
+    # Also credit an agent covered only via an ENTRY PROMPT path reference
+    # (some cards point at a shared skill rather than restating the name).
+    entry_paths = re.findall(r'^ENTRY PROMPT:\s*(.+)$', cards_text, re.MULTILINE)
+    return names, entry_paths
+
+
+def sync_invocation_cards():
+    """Append auto-generated stub cards for agents with NO invocation card.
+
+    Non-destructive + idempotent: only the `GEN:auto-card` region is rewritten
+    each run (same sentinel-region pattern as generate_slash_commands.py's
+    AUTO-INDEX). Hand-curated cards above the sentinel are never touched. If a
+    human later promotes a stub into a curated section (with a matching
+    `AGENT:` name), it disappears from the auto region on the next run instead
+    of duplicating.
+    """
+    print("Syncing invocation-cards.md auto-stubs...")
+    if not os.path.isfile(INVOCATION_CARDS):
+        print("⚠️  agents/_framework/invocation-cards.md not found — skipping.")
+        return
+
+    cards_text = read_file(INVOCATION_CARDS)
+    existing_names, entry_paths = _existing_card_names(cards_text)
+
+    missing = []
+    for item in sorted(os.listdir(AGENTS_DIR)):
+        if item.startswith("_") or item.startswith("."):
+            continue
+        agent_path = os.path.join(AGENTS_DIR, item)
+        if not os.path.isdir(agent_path):
+            continue
+        agent_md = os.path.join(agent_path, "AGENT.md")
+        if not os.path.isfile(agent_md):
+            continue
+
+        fm, body = extract_frontmatter_and_content(agent_md)
+        name = _card_display_name(fm, body, item)
+        key = _norm_card_name(name)
+
+        if key in existing_names:
+            continue
+        if any(item in ep for ep in entry_paths):
+            continue
+        missing.append((item, name, fm, body))
+
+    # Strip any prior auto region before rebuilding, INCLUDING the "---"
+    # divider this function prepends before the sentinel each run (otherwise
+    # it accumulates one extra "---" per re-run — same fix pattern as
+    # generate_slash_commands.py's head-rebuild).
+    if CARD_AUTO_BEGIN in cards_text:
+        head = cards_text.split(CARD_AUTO_BEGIN)[0].rstrip()
+    else:
+        head = cards_text.rstrip()
+    head = re.sub(r'(\n---\s*)+$', '', head).rstrip()
+
+    if not missing:
+        if CARD_AUTO_BEGIN in read_file(INVOCATION_CARDS):
+            # Full coverage now — remove a stale auto region entirely.
+            with open(INVOCATION_CARDS, "w", encoding="utf-8") as f:
+                f.write(head + "\n")
+        print("✅ Invocation cards: full coverage, no stubs needed.")
+        return
+
+    # Everything from CARD_AUTO_BEGIN to CARD_AUTO_END (including this heading
+    # + description, not just the cards) must live INSIDE the sentinel region —
+    # otherwise the heading/description duplicate on every re-run since only
+    # `head = text.split(CARD_AUTO_BEGIN)[0]` gets stripped.
+    lines = [
+        "", "---", "",
+        CARD_AUTO_BEGIN,
+        "",
+        "## Auto-Generated Stub Cards (pending manual enrichment)",
+        "",
+        f"> {len(missing)} agent(s) had no invocation card. Stubs below are machine-",
+        "> generated from `agents/<slug>/AGENT.md` — thinner than a hand-written",
+        "> card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and",
+        "> moving it into a themed section above; sync_registries.py will then",
+        "> stop regenerating it here.",
+        "",
+    ]
+    for slug, name, fm, body in missing:
+        domain = _card_domain(fm, body)
+        invoke_when = _card_invoke_when(body)
+        lines.append("<!-- GEN:auto-card -->")
+        lines.append("```")
+        lines.append(f"AGENT: {name}")
+        lines.append(f"DOMAIN: {domain}")
+        lines.append(f"CORE METHOD: (auto-stub — not yet distilled; see source)")
+        lines.append(f"BEST FOR: {invoke_when}")
+        lines.append(f"ENTRY PROMPT: agents/{slug}/AGENT.md")
+        lines.append("PAIRS WITH: (unassigned — enrich manually)")
+        lines.append("```")
+        lines.append("")
+    lines.append(CARD_AUTO_END)
+    lines.append("")
+
+    with open(INVOCATION_CARDS, "w", encoding="utf-8") as f:
+        f.write(head + "\n" + "\n".join(lines))
+
+    print(f"✅ Invocation cards: {len(missing)} auto-stub(s) appended "
+          f"(marked <!-- GEN:auto-card --> for later enrichment).")
 
 
 def _is_archived(skill_md_path):
@@ -535,6 +771,7 @@ if __name__ == "__main__":
 
     sync_agents()
     sync_skills()
+    sync_invocation_cards()
     if not args.indexes_only:
         sync_skill_commands()
     print("\n📚 Regenerating command index...")

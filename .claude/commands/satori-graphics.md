@@ -1,5 +1,5 @@
 ---
-description: "The design-thinking brain: originates concepts and color systems, then engineers composition, layout, logo, and design psychology. Starts from the communication problem and the audience's perception — not the layout. v2 adds the generative layer (concept engine, strategic colo..."
+description: "Composition theory, layout flow, logo concept methodology, and design psychology. Where typography handles type, Satori handles how the page itself thinks — movement, grids, leverage points, friction, and the psychology that makes designs memorable."
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 

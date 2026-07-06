@@ -5,6 +5,10 @@
       "skill": "adam-enfroy-affiliate-marketing"
     },
     {
+      "command": "/ai-carousel",
+      "skill": "ai-carousel-content-engine"
+    },
+    {
       "command": "/ai-chris",
       "skill": "ai-chris-lee-zero-testimonial-sales"
     },
@@ -81,7 +85,11 @@
       "skill": "april-dunford-positioning"
     },
     {
-      "command": "/ash-maurya",
+      "command": "/ash-maurya-founder-systems",
+      "skill": "ash-maurya-founder-systems"
+    },
+    {
+      "command": "/ash-maurya-lean-metrics",
       "skill": "ash-maurya-lean-metrics"
     },
     {
@@ -89,8 +97,16 @@
       "skill": "asset_generator"
     },
     {
+      "command": "/attention-hijack",
+      "skill": "attention-hijack-hooks"
+    },
+    {
       "command": "/authority-hacker",
       "skill": "authority-hacker-ai-social-media"
+    },
+    {
+      "command": "/ben-watkins",
+      "skill": "ben-watkins-storytelling"
     },
     {
       "command": "/benjamin-hardy",
@@ -125,6 +141,10 @@
       "skill": "brand-operating-system"
     },
     {
+      "command": "/brandon-jacoby",
+      "skill": "brandon-jacoby-taste-mastery"
+    },
+    {
       "command": "/brendan-kane",
       "skill": "brendan-kane-viral-strategy"
     },
@@ -155,6 +175,14 @@
     {
       "command": "/chase-hughes-conversational-influence",
       "skill": "chase-hughes-conversational-influence"
+    },
+    {
+      "command": "/cheri-tree",
+      "skill": "cheri-tree-bank-buyology"
+    },
+    {
+      "command": "/chief-of",
+      "skill": "chief-of-staff-os"
     },
     {
       "command": "/chris-cimorelli",
@@ -241,7 +269,11 @@
       "skill": "daniel-pink-writing-structure"
     },
     {
-      "command": "/daniel-priestley",
+      "command": "/daniel-priestley-24-assets-os",
+      "skill": "daniel-priestley-24-assets-os"
+    },
+    {
+      "command": "/daniel-priestley-oversubscribed",
       "skill": "daniel-priestley-oversubscribed"
     },
     {
@@ -299,6 +331,10 @@
     {
       "command": "/docx",
       "skill": "docx"
+    },
+    {
+      "command": "/dom-iacovone",
+      "skill": "dom-iacovone-multi-company-operator"
     },
     {
       "command": "/donald-miller-business-growth",
@@ -401,6 +437,10 @@
       "skill": "ghostwriting-voice-engine"
     },
     {
+      "command": "/gpt-image",
+      "skill": "gpt-image-2-director"
+    },
+    {
       "command": "/grace-andrews",
       "skill": "grace-andrews-media-company"
     },
@@ -429,6 +469,10 @@
       "skill": "henry-shukman-contemplative-writing"
     },
     {
+      "command": "/higgsfield-creative",
+      "skill": "higgsfield-creative-studio"
+    },
+    {
       "command": "/how-i",
       "skill": "how-i-write-os"
     },
@@ -439,6 +483,10 @@
     {
       "command": "/jack-roberts",
       "skill": "jack-roberts-design-mastery"
+    },
+    {
+      "command": "/james-i",
+      "skill": "james-i-bond-brain-glue"
     },
     {
       "command": "/jasmin-alic",
@@ -545,8 +593,16 @@
       "skill": "kallaway-audience-obsession"
     },
     {
-      "command": "/kallaway-content",
+      "command": "/kallaway-content-operating-system",
+      "skill": "kallaway-content-operating-system"
+    },
+    {
+      "command": "/kallaway-content-psychology",
       "skill": "kallaway-content-psychology"
+    },
+    {
+      "command": "/kallaway-content-system",
+      "skill": "kallaway-content-system"
     },
     {
       "command": "/kallaway-illusion",
@@ -619,6 +675,10 @@
     {
       "command": "/liam-mley",
       "skill": "liam-mley-ai-brain-builder"
+    },
+    {
+      "command": "/liam-ottley",
+      "skill": "liam-ottley-linkedin-lead-magnet"
     },
     {
       "command": "/lindsay-ai",
@@ -737,6 +797,10 @@
       "skill": "mark-kashef-claude-claw"
     },
     {
+      "command": "/mark-kashef-silver-platter-agentic-os",
+      "skill": "mark-kashef-silver-platter-agentic-os"
+    },
+    {
       "command": "/mark-kashef-visual-design",
       "skill": "mark-kashef-visual-design"
     },
@@ -747,6 +811,10 @@
     {
       "command": "/market_intelligence",
       "skill": "market_intelligence"
+    },
+    {
+      "command": "/marketing-studio",
+      "skill": "marketing-studio-director"
     },
     {
       "command": "/matt-mcgarry",
@@ -861,12 +929,24 @@
       "skill": "nicolas-cole-digital-products"
     },
     {
+      "command": "/nicolas-cole-edan-writing-mechanics",
+      "skill": "nicolas-cole-edan-writing-mechanics"
+    },
+    {
       "command": "/nicolas-cole-newsletter-flywheel",
       "skill": "nicolas-cole-newsletter-flywheel"
     },
     {
       "command": "/nicolas-cole-niche-positioning",
       "skill": "nicolas-cole-niche-positioning"
+    },
+    {
+      "command": "/nicolas-cole-nonfiction-value-architecture",
+      "skill": "nicolas-cole-nonfiction-value-architecture"
+    },
+    {
+      "command": "/nicolas-cole-sales-education-messaging",
+      "skill": "nicolas-cole-sales-education-messaging"
     },
     {
       "command": "/nicolas-cole-sentence-craft",
@@ -961,6 +1041,14 @@
       "skill": "pdf"
     },
     {
+      "command": "/persuasion-story",
+      "skill": "persuasion-story-code"
+    },
+    {
+      "command": "/phil-m",
+      "skill": "phil-m-jones-conversational-influence"
+    },
+    {
       "command": "/pj-accetturo",
       "skill": "pj-accetturo-ai-video"
     },
@@ -995,6 +1083,14 @@
     {
       "command": "/rachel-woods",
       "skill": "rachel-woods-ai-operations"
+    },
+    {
+      "command": "/rafa-conde-fourth-wall-experience-os",
+      "skill": "rafa-conde-fourth-wall-experience-os"
+    },
+    {
+      "command": "/rafa-conde-memorable-product-design",
+      "skill": "rafa-conde-memorable-product-design"
     },
     {
       "command": "/react-components",
@@ -1049,6 +1145,10 @@
       "skill": "sam-parr-copywriting"
     },
     {
+      "command": "/sam-parr-copywriting-mechanics",
+      "skill": "sam-parr-copywriting-mechanics"
+    },
+    {
       "command": "/sam-parr-taste-acquisition",
       "skill": "sam-parr-taste-acquisition"
     },
@@ -1091,6 +1191,10 @@
     {
       "command": "/self-evolving",
       "skill": "self-evolving-systems"
+    },
+    {
+      "command": "/semantic-document",
+      "skill": "semantic-document-library-os"
     },
     {
       "command": "/seth-godin-brand",
@@ -1185,6 +1289,10 @@
       "skill": "swarm-commander"
     },
     {
+      "command": "/sweat-equity",
+      "skill": "sweat-equity-speedrun-social-os"
+    },
+    {
       "command": "/taki-moore",
       "skill": "taki-moore-lifestyle-business"
     },
@@ -1275,6 +1383,14 @@
     {
       "command": "/xlsx",
       "skill": "xlsx"
+    },
+    {
+      "command": "/yann-martel",
+      "skill": "yann-martel-storytelling-mastery"
+    },
+    {
+      "command": "/youtube-video",
+      "skill": "youtube-video-context-analysis"
     },
     {
       "command": "/yuri-elkaim",

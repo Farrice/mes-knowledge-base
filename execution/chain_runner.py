@@ -1411,6 +1411,73 @@ def _pin_session_from_finalize(output_description, *, workflow="", project="",
         print(f"  (session pin skipped: {e})")
 
 
+def _print_auto_preview(content_path: str, task_type: str) -> None:
+    """--auto: surface the SAME deterministic checks _enforce_caps() runs
+    internally (prose_classifier.should_cap_expert_standard + grounding_guard)
+    up front, before the caller commits to --intent/--expert-score/--adversarial.
+
+    Read-only preview. Changes no scoring/veto logic — finalize() below still
+    runs the real _enforce_caps() pass and applies the caps itself; this just
+    removes the guesswork of not knowing in advance whether one will fire.
+    """
+    print("\n" + "=" * 60)
+    print("🔎 AUTO-COMPUTED (--auto preview)")
+    print("=" * 60)
+
+    if not content_path or not os.path.isfile(content_path):
+        print("  ⚠️  No readable --content-file given — nothing to scan.")
+        print("      Pass --content-file <path> to preview prose/grounding caps.")
+        print("=" * 60 + "\n")
+        return
+
+    try:
+        with open(content_path, "r", encoding="utf-8") as f:
+            text = f.read()
+    except Exception as e:
+        print(f"  ⚠️  Could not read {content_path}: {e}")
+        print("=" * 60 + "\n")
+        return
+
+    # Same Cap 1 check finalize()/_enforce_caps() runs internally.
+    if len(text) > 100:
+        try:
+            cap_required, details = should_cap_expert_standard(text)
+            verdict = details.get("verdict", "?")
+            ai_score = details.get("ai_score", "?")
+            signal_count = details.get("signal_count", "?")
+            print(f"  prose_classifier   : verdict={verdict}  ai_score={ai_score}/10  signals={signal_count}")
+            if cap_required:
+                print("                        -> would cap expert_standard at 6.0")
+        except Exception as e:
+            print(f"  prose_classifier   : ERROR ({e})")
+    else:
+        print("  prose_classifier   : NOT_RUN (content <=100 chars)")
+
+    # Same Cap 4 check finalize()/_enforce_caps() runs internally, for the
+    # task types the real gate applies it to.
+    if task_type in _GROUNDING_TASK_TYPES and len(text) > 200:
+        try:
+            sys.path.insert(0, str(Path(__file__).resolve().parent))
+            import grounding_guard as _gg
+            gr = _gg.scan(text, task_type)
+            g_verdict = gr.get("verdict", "?")
+            g_signals = gr.get("signals", [])
+            print(f"  grounding_guard    : verdict={g_verdict}  signals={'; '.join(g_signals[:2]) or 'none'}")
+            if g_verdict == "FLAG":
+                print("                        -> would cap expert_standard at 6.0 (unless already lower)")
+        except Exception as e:
+            print(f"  grounding_guard    : ERROR ({e})")
+    else:
+        print(f"  grounding_guard    : NOT_RUN (task_type={task_type!r} not gated, or content <=200 chars)")
+
+    print("=" * 60)
+    print("  These are previews of the SAME caps finalize() applies below.")
+    print("  Judgment scores (--intent/--expert-score/--adversarial) are still")
+    print("  required from you — --auto only removes the guesswork on the")
+    print("  deterministic dimensions.")
+    print("=" * 60 + "\n")
+
+
 def print_result(result: Dict) -> None:
     """Pretty-print the finalize result."""
     if not result.get("success"):
@@ -1563,6 +1630,14 @@ def main():
     # Autopilot Wave 5 stabilization (added 2026-05-23)
     fin.add_argument("--source-request", default=None, help="Original user request verbatim. Used for the post-hoc routing check instead of the output description. Autopilot's Phase 4 template MUST pass this to prevent false positives on the autopilot_orchestration binding.")
     fin.add_argument("--content-file", default="", dest="content_file", help="Path to the ACTUAL deliverable. The prose + structural-tells caps scan THIS (not the summary), so slop with banned moves cannot finalize clean. Pass the artifact for every Content/Copy/Creative finalize.")
+    # Finalize-friction cut (added 2026-07-06): --auto pre-computes the
+    # deterministic dimensions (prose_classifier + grounding_guard — the same
+    # modules _enforce_caps() runs internally) from --content-file and prints
+    # them as a clearly-labeled preview BEFORE finalize runs. Does not change
+    # required args or veto/cap logic — --intent/--expert-score/--adversarial
+    # are still required from the caller either way; --auto only removes the
+    # guesswork of not knowing in advance whether a cap will fire.
+    fin.add_argument("--auto", action="store_true", help="Preview mode: print the already-computed prose_classifier/grounding_guard verdicts for --content-file before finalize applies the same caps. No-op without --content-file. Judgment scores (--intent/--expert-score/--adversarial) are still required.")
     # Outcome-loop closure (added 2026-06-12)
     fin.add_argument("--expected-outcome", default="", dest="expected_outcome", help="What success looks like for this deliverable (e.g. 'client signs', 'post >2k impressions'). Stored on the pending revenue stub so the check-in is concrete, not vibes.")
     fin.add_argument("--check-in", type=int, default=None, dest="check_in", help="Days until the outcome check-in for this deliverable (default 14). Surfaced by `revenue_tracker.py due` and the session staleness line when it arrives.")
@@ -1580,6 +1655,9 @@ def main():
     args = parser.parse_args()
 
     if args.command == "finalize":
+        _content_path = getattr(args, "content_file", "") or args.anchor_path or ""
+        if args.auto:
+            _print_auto_preview(_content_path, args.type)
         result = finalize(
             output_description=args.output,
             expert=args.expert,
@@ -1606,7 +1684,7 @@ def main():
             factual_grounding=args.factual,
             anchor_named=args.anchor_named,
             source_request=args.source_request,
-            content_path=getattr(args, "content_file", "") or args.anchor_path or "",
+            content_path=_content_path,
             expected_outcome=args.expected_outcome,
             check_in_days=args.check_in,
         )
@@ -1617,7 +1695,7 @@ def main():
         if _do_pin and result.get("success"):
             _pin_session_from_finalize(
                 args.output, workflow=args.workflow, project=args.project,
-                content_path=getattr(args, "content_file", "") or args.anchor_path or "",
+                content_path=_content_path,
                 thread=args.pin_thread, status=args.pin_status, task_type=args.type,
             )
     else:
