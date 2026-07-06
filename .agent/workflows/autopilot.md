@@ -20,6 +20,12 @@ Pause only for external writes, destructive cleanup, paid/quota-heavy tools,
 global `~/.codex` edits, Codex Antigravity mutation, publishing/outreach,
 connector writes, or real Codex subagents.
 
+`/go` is the front door that stages this engine: when intent arrives raw or
+messy, run `/go "<messy thought>"` first. Its Stage 0 RUN PACKET (assumptions,
+outcomes, constraints, taste refs, budget note) is what Autopilot's Intent Lock
+consumes — Autopilot itself stays a gate-suppressed dispatcher, not a second
+intent-sharpening pass.
+
 ## Usage
 
 ```bash
@@ -85,6 +91,38 @@ The bridge must output predicted need, center, quality bar, chosen route,
 support gates, composition slots, context plan, execution decision, first safe
 action, verification plan, operator run prompt, and deferred plugin verdict.
 Plugin packaging remains deferred until local cold-start proof passes.
+
+## Taste Gates (G1 / G2 / G3)
+
+Autopilot is gate-*suppressed*, not gate-free: every other mid-flight halt
+(routing ambiguity, format choice, model choice, minor scope calls) is
+suppressed by design — see Execution Sequence above for the default path. Only
+these three taste gates are allowed to interrupt, each wired to a real,
+runnable asset:
+
+- **G1 — Intent (score <= 2 -> sharpen).** DICE-score the raw intent per
+  CLAUDE.md Step 1 (Deliverable, Audience, Context/constraints, End state,
+  Specific language), or reuse the `/go` Stage 0 RUN PACKET if one was already
+  produced upstream. Score >= 3: write the assumptions and proceed — no halt.
+  Score <= 2: one question round on the missing dimensions only, then proceed.
+- **G2 — Cost (paid spend > $5 -> approve once).** Before any Fal, Seedance,
+  Kling, or deep-research call: `python3 execution/cost_gate.py check --service
+  <id>`. On Claude Code this is hook-enforced (HARD BLOCK on deny); on Codex it
+  is manual — run the check yourself. Needs-approval: ask Farrice once, then
+  `python3 execution/cost_gate.py approve --service <id>` and continue without
+  re-asking for the rest of this run.
+- **G3 — Prose/taste (Expert Standard >= 7 and prose FLAGGED -> one taste
+  call).** Before delivering a content artifact: `python3
+  execution/prose_classifier.py check <file>`. If it flags AND the Expert
+  Standard dimension is trending >= 7, surface exactly one taste call to
+  Farrice — reference the taste-calibration signature (bimodal: clear
+  PASS/FAIL, narrow marginal band; -1/dimension on a FAIL) rather than
+  re-litigating the whole draft. Any dimension scored 8+ must name the
+  matching anchor in `evolution_store/ground_truth/rubric_v1.md` — if the
+  anchor can't be named, lower the score instead of asking.
+
+If none of G1/G2/G3 apply, Autopilot runs end-to-end and closes with the
+Friction Ledger + Run Receipt — no other approval loop.
 
 ## Safety Boundaries
 

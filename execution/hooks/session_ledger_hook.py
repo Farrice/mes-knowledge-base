@@ -489,6 +489,19 @@ def handle_stop(payload: dict) -> None:
         # fall through to finalize-debt logic
 
     if not _ripened(ledger):
+        # Next-Prompts steering nudge — warn-only, fires once per session when
+        # a finalize ran and this stop is NOT itself blocking. GEMINI.md/
+        # AGENTS.md carry the Operator Lesson / 3 Next-Prompts steering spec
+        # for Codex/Gemini surfaces; CLAUDE.md sessions never had a
+        # deterministic backstop for it (2026-07-06 gap-fix).
+        if ledger.get("finalized_at") and not ledger.get("next_prompts_nudged"):
+            ledger["next_prompts_nudged"] = True
+            _save(ledger)
+            print(
+                "Operator Lesson: emit 3 Next-Prompts (deepen / adjacent / "
+                "next-milestone) if not already given.",
+                file=sys.stderr,
+            )
         sys.exit(0)
 
     # Sub-agent miss: qualifying workflow ran with zero measured spawns.
