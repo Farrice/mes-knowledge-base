@@ -3,9 +3,11 @@
 > **Unified genius context for the satori-graphics skill.**
 > Every workflow loads this file before execution. It is the operating system for composition, layout, logo systems, and design psychology in the Satori tradition.
 
-**Source**: 4 YouTube masterclasses (~10,652 words) — psychology mindsets, composition + layout, logo design, professional design principles. See `extractions/satori-graphics/extraction-report.md` for full source-of-truth.
+**Source**: Satori Graphics masterclass series.
+- **v1** (4 videos, ~10,652 words): psychology mindsets, composition + layout, logo design, professional design principles. See `extractions/satori-graphics/extraction-report.md`.
+- **v2 expansion** (2026-07-04, +5 videos, ~7,800 words): high-level creative/design thinking, color full-guide, creative-concept techniques, high-vs-low-level designer mindsets, design revenue models. Transcripts in `extractions/satori-graphics/expansion-2026-07-04/`.
 
-**Domain**: Graphic design — composition, layout, logo systems, design psychology.
+**Domain**: Graphic design — composition, layout, logo systems, **color strategy**, **creative concept/ideation**, and design psychology. v2 adds the *generative* layer: where v1 audits and critiques, v2 originates concepts and palettes and drives production output.
 
 **Positioning**: The composition and logo thinker. Where typography agents handle *type*, Satori handles *how the page itself thinks* — movement, grids, leverage points, friction, and the psychology that makes designs memorable.
 
@@ -26,7 +28,9 @@ The design is the decision audit. Aesthetic moves cannot rescue weak decisions; 
 
 ---
 
-## The 12 Genius Patterns
+## The 17 Genius Patterns
+
+> GP-01 to GP-12 are the v1 core (composition, logo, psychology). GP-13 to GP-17 are the v2 generative layer (design-thinking front door, color, concept engine, perception). The v2 patterns *precede* the v1 patterns in a real workflow: you define the communication problem (GP-13), engineer the feeling (GP-14), originate the concept (GP-16) and palette (GP-15) — then the v1 composition/logo/audit machinery executes and verifies.
 
 ### GP-01 — Why-Before-What Decision Gate
 Every element on a layout must "pay rent" — serve a stated reason. If you can't answer "why is this here?" with a non-aesthetic justification (concept, hierarchy, psychology), it gets evicted.
@@ -219,6 +223,96 @@ A 90-second structural check. Flip the design upside down — your brain stops r
 
 ---
 
+### GP-13 — Communication-Problem-First (the Apple move)
+Design does not start with a layout. It starts with a **communication problem**. Apple's every asset begins with one question — *"What helps people understand and desire this product?"* — then adds only what is necessary to solve it. The amateur builds a layout and hopes it works; the pro states the problem and subtracts everything that competes with it.
+
+> *"Apple starts with a communication problem first and only adds what's necessary to solve it."*
+
+> *"Rather than asking, 'How can I make this look better?' I'm going to ask, 'What is the communication problem here?'"*
+
+**Operational test**: Before any composition, write the communication problem in one line ("get people to notice the burger and understand the offer in 2 seconds"). Every element then either *solves that problem* or gets cut. Note the reframe: clarity of communication usually makes the design look better anyway — beauty is a byproduct of solved communication, not the goal.
+
+**This is the front door.** GP-13 feeds GP-14 (feeling), GP-16 (concept), GP-06 (hierarchy). It is operationalized as `/satori-comms-brief`.
+
+---
+
+### GP-14 — Feeling-Before-Information (the 2-second judgment)
+Every design creates a **feeling before it communicates information** — fact. On a busy platform, a poster gets ~2 seconds; in that window the viewer's brain has *already* decided whether it feels premium, healthy, playful, or cheap, long before any typography is read. Great designers deliberately shape that first-second feeling.
+
+> *"Every design creates a feeling before it communicates information, fact."*
+
+> *"Your brain has already decided whether this feels premium, healthy, playful, cheap, or whatever."*
+
+**The lever**: the *same* content can be made to feel cheap or premium through visual language alone — typography psychology, color scheme, layout, solid-vs-gradient. A McDonald's poster and a Gordon Ramsay burger poster are opposite feelings for the same product. But the feeling must match the audience: *"no good making it premium if the end users are students with little to no money."*
+
+**Operational test**: Name the target feeling BEFORE choosing type/color. Then every visual choice is checked against "does this produce that feeling for *this* audience?" Operationalized as `/satori-feeling-calibrate`.
+
+---
+
+### GP-15 — Strategic Color System (5 layers × 4 roles)
+Colors have **no fixed meanings** — context (typography, imagery, industry, audience) determines meaning. The same red reads premium (luxury watch), loud (F1), or streaming (Netflix). "Red = danger" is rulebook thinking. Professionals operate color across **5 layers** and assign every color a **defined job**.
+
+> *"One of the biggest myths in graphic design is that colors have fixed meanings. They don't."*
+
+**The 5 layers** (walk in order):
+| Layer | Question | Failure mode |
+|---|---|---|
+| **1 Functional** | Can people understand what they're looking at? (buttons, nav, status) | Beautiful palette that fails comprehension |
+| **2 Emotional** | What does it make them feel? (warm=energetic, cool=calm) | Treating "blue=trust" as a rule, not a guide (blue is also cold/clinical/boring) |
+| **3 Cultural** | What does it mean to *this* audience's culture? (white=weddings West / mourning parts of Asia) | Ignoring cultural context for global audiences |
+| **4 Competitive** | Fit into the category color (instant trust) or break it (stand out)? | Disappearing into a "sea of identical competition" |
+| **5 Strategic** | What is this color trying to *achieve*? (attract / trust / differentiate) | Decorating instead of deciding |
+
+**The 4 roles** (every color gets a job — the real secret behind pro palettes):
+- **Primary** — hero; carries identity (where layers 2-5 show themselves)
+- **Secondary** — supports primary; flexibility/depth without stealing focus
+- **Accent** — where attention lives (CTA, focal points); functional color matters most here
+- **Neutral** — the most underrated; structure, breathing room, readability. *"Without them, every color ends up fighting for attention and eventually none of them would win."*
+
+> *"Every color has a clearly defined job… that's, more than anything else, the real secret behind color in modern design."*
+
+Operationalized as `/satori-color`; deep reference in `references/color-system.md`.
+
+---
+
+### GP-16 — Creative Concept Engine (7 techniques for designing insight)
+The human moat is **concept**. AI generates options; humans recognize the strongest idea and build an entire system around it. Concept is *designing insight* — finding the non-obvious truth and committing to it. Seven repeatable techniques:
+
+| # | Technique | Trigger | Exemplar |
+|---|---|---|---|
+| 1 | **Hidden Truth** | What's the real problem / consequence / thing people aren't thinking about? | Cigarettes → crayons (a smoker's impact on the children they love) |
+| 2 | **One Big Idea / Commit** | What's the single strongest feature? Push it further than anyone would. | Red-lens glasses — red floods the whole layout |
+| 3 | **Audience Language** | What terms does this *specific* audience use? | Bloomberg "bull market" — insiders get it, outsiders see a bull in a field |
+| 4 | **Literal Interpretation** | Which phrase/metaphor can I make *physically real*? | Borrow meaning already in the audience's mind |
+| 5 | **What-If Combination** | What if X were Y? (two unrelated worlds) | 404 page + IKEA missing-piece = instant humor |
+| 6 | **Tiny-Detail Flair** | What one small detail would tie it together? | Sushi sign — only the "Yo" recolored from the food |
+| 7 | **Emotion Over Information** | Am I communicating information or emotion? | Dog-euthanasia stat → torn page reveals a collar → it becomes *someone's* dog |
+
+> *"Stop designing around the obvious thing itself and start designing around the hidden truth behind the product."*
+
+> *"AI is very good at generating options, but human designers are still much better at recognizing the strongest idea and then building an entire system around it."*
+
+> *"Information tells people what to think, whereas emotion makes them feel something."*
+
+**Operational rule**: Start from the hidden truth (technique 1); pick 1-2 techniques per direction; commit fully to one idea rather than hedging across many mediocre options. Operationalized as `/satori-concept` (flagship); deep reference in `references/creative-concept-engine.md`.
+
+---
+
+### GP-17 — Perception Gap (intended vs perceived)
+Professionals think in **perception gaps** — the space between what you *intend* and what the audience actually *understands*. *"Aesthetics are subjective, but confusion isn't."* A design you have to explain has failed its job.
+
+> *"Where does the eye land first? What gets noticed second? And what gets missed completely?"*
+
+**The test** (sequence-recall): show the layout for a few seconds, then ask the viewer to describe what they remember *in order* — the sequence, not the details. Wrong first thing = hierarchy failed. Missed CTA = the design didn't guide them.
+
+**Two amplifiers**:
+- **Arrival state** — design for the psychological/emotional state the viewer is in *when they arrive* (charity site = cautious/seeking-trust; fashion mag = relaxed/browsing). Mismatch feels "off" instantly.
+- **Real context** — design for the actual viewing condition ("someone scrolling on their phone at night, half tired, brightness turned down — not someone zooming into your Dribbble shot analyzing your kerning").
+
+Bonus: the experience *around* the work (how a file opens, how a deliverable is presented) also shapes perceived value. *Perception creates value.* Operationalized as `/satori-perception-gap`.
+
+---
+
 ## Hidden Knowledge (Tacit Insights)
 
 ### HK-01 — What Designers Actually Sell
@@ -245,6 +339,18 @@ Faster execution makes weak concepts arrive faster. Time spent thinking is the m
 ### HK-08 — Concept Pause = Memory Formation
 The pause-to-resolve a clever design *is* the memory being formed. Designs that hand-deliver meaning don't get encoded; designs that require resolution do.
 
+### HK-09 — Beauty Is a Byproduct of Solved Communication
+When you fix the communication problem — enlarge the hero, cut competing graphics, simplify the message — the design "ironically usually looks better anyway." Chasing beauty directly produces decoration; solving communication produces beauty as a side effect.
+
+### HK-10 — Subtraction Creates Hierarchy Faster Than Addition
+The easiest way to create hierarchy is *not* making important things bigger — it's making unimportant things quieter or making them disappear. Amateurs add emphasis; pros remove competition.
+
+### HK-11 — "Communicating to Everyone" Is the Concept Killer
+The biggest concept mistake is trying to speak to everyone. The strongest concepts come from understanding one specific audience deeply enough to speak their language (the Bloomberg bull works *because* it excludes the non-investor). Narrow the audience to sharpen the concept.
+
+### HK-12 — Color Does Less Than You Think
+Much of what we credit to color is actually being carried by hierarchy, contrast, placement, and context. Fix those first; color then becomes far easier to work with. A palette can't rescue broken composition.
+
 ---
 
 ## Hall of Fame Exemplars
@@ -269,6 +375,30 @@ Strong angular lines representing robust/strong psychology. Doesn't tell you wha
 Vertical lines locked from the start. OS needed to feel secure, reliable, structured. Every subsequent choice was constrained exploration within "vertical-lines space."
 **Lesson**: Locking the primitive early turns wandering into directed exploration.
 
+### HOF-06 — Cigarettes → Crayons (Hidden Truth)
+Anti-smoking ad. Everyone knows smoking harms *you* — not groundbreaking. The designer found the hidden truth: a smoker's behavior harms the *children they love*. Cigarettes became crayons; childlike handwriting was the cherry on top. No words needed.
+**Lesson**: Design around the hidden truth behind the product, not the obvious message.
+
+### HOF-07 — Red-Lens System (Commit to One Idea)
+Product's strongest feature wasn't the glasses' shape — it was the red lenses. The designer committed completely: red spread through the blurred photography, product shots, ingredients, the whole atmosphere. One decision, systematized.
+**Lesson**: Find the single strongest idea and build the *entire* system around it — the human moat AI can't cross.
+
+### HOF-08 — Bloomberg Bull (Audience Language + Literal Interpretation)
+Bull-market issue. A bull standing in a field means nothing to a non-investor but everything to the target audience. Two techniques stacked: speaking a niche audience's language + making the metaphor ("bull market") physically real.
+**Lesson**: Understand a specific audience deeply enough to speak their language; borrow meaning already in their minds.
+
+### HOF-09 — 404 + IKEA (What-If Combination)
+A 404 error page merged with the IKEA "missing a piece during assembly" stereotype. Two unrelated worlds both instantly understood, combined for memorable humor.
+**Lesson**: "What if X were Y?" — connect ideas that don't normally belong together.
+
+### HOF-10 — Sushi Sign Detail (Tiny-Detail Flair)
+A restaurant sign where only the "Yo" is recolored — using a color pulled from the food itself. A tiny change most would overlook that ties the whole sign together.
+**Lesson**: Sometimes the design doesn't need huge creativity — just one noticed detail. Know when.
+
+### HOF-11 — Dog-Collar Reveal (Emotion Over Information)
+"10,000 dogs euthanized every day" + a syringe = information; sad but abstract. Then the page tears away to reveal a collar underneath — now it's *someone's* dog, with an owner and a home. A tiny visual change, a massive emotional jump.
+**Lesson**: Information tells people what to think; emotion makes them feel. For awareness/charity work, engineer the emotional reveal.
+
 ---
 
 ## Signature Moves (8 deployable plays)
@@ -283,6 +413,13 @@ Vertical lines locked from the start. OS needed to feel secure, reliable, struct
 | 6 | **Fresh-Eyes Pass** | Mid-project. Show to a designer-friend who hasn't been staring at it. |
 | 7 | **The Predictive-Empathy Soften** | When design is loud. Soften tone, add breathing room, add one trust cue. |
 | 8 | **The Thumbnail Test** | Pre-delivery. Shrink to thumbnail, test on light + dark, test on ≥2 formats. |
+| 9 | **The Communication-Problem Line** | Intake. Before any layout, write the communication problem in one sentence; every element solves it or is cut. |
+| 10 | **The Hidden-Truth Dig** | Concept stuck. Ask: what's the real problem / consequence / thing people aren't thinking about? Design around that, not the obvious. |
+| 11 | **The Commit-to-One** | Too many options. Pick the single strongest idea and build the whole system around it; push it further than anyone would. |
+| 12 | **The What-If Combine** | Blank-page ideation. "What if X were Y?" — merge two unrelated worlds the audience already understands. |
+| 13 | **The 5-Layer Color Pass** | Palette decisions. Walk Functional→Emotional→Cultural→Competitive→Strategic; then assign Primary/Secondary/Accent/Neutral jobs. |
+| 14 | **The Sequence-Recall Test** | Post-draft. Flash the design for 3s; ask what they remember *in order*. Wrong first thing = hierarchy failed. |
+| 15 | **The Feeling Calibration** | Same content, wrong vibe. Tune premium/cheap/playful via type + color + layout + surface, matched to the audience. |
 
 ---
 
@@ -303,6 +440,10 @@ A Satori-grade design earns ≥8 on each:
 
 **Composite ≥8.0** = ship-grade. Below 7.0 = rework.
 
+**For generative work (concept / color / design-think), add two criteria:**
+11. **Concept strength**: A non-obvious hidden truth or one-big-idea is named and committed to — not a decorated version of the obvious (GP-16).
+12. **Color-job clarity**: Every color has a stated job across the 4 roles; the 5-layer decisions (esp. the fit-in/stand-out call) are explicit (GP-15).
+
 ---
 
 ## Anti-Patterns (Auto-Reject)
@@ -317,18 +458,24 @@ A Satori-grade design earns ≥8 on each:
 8. **Aesthetic-first decisions** — colors/fonts before concept and primitive
 9. **Mixed-presentation pitches** — letting presentation aesthetics confound concept comparison
 10. **Comfort coasting** — same workflow because it feels efficient, not because it's still optimal
+11. **Layout-before-problem** — starting from a composition instead of the communication problem (GP-13)
+12. **Color-as-decoration** — colors with no defined job; palette chosen for "looks nice" not achievement (GP-15)
+13. **Communicating to everyone** — no specific audience, so the concept has no language to speak (GP-16, HK-11)
+14. **Information over emotion** (in emotional briefs) — stacking facts where a feeling/reveal was needed (GP-16 technique 7)
+15. **Explanation-required** — a design you have to explain has a perception gap; confusion isn't subjective (GP-17)
+16. **Feeling-audience mismatch** — a "premium" treatment aimed at an audience that reads it as pretension or can't afford it (GP-14)
 
 ---
 
 ## When NOT to Use Satori Tools
 
 - **Pure typography selection** → use `kittl-graphic-design` instead
-- **DESIGN.md token codification** → use `jack-roberts-design-mastery`
-- **AI image / video prompt engineering** → use `creative-direction` (Creative Director)
+- **DESIGN.md token codification** → use `jack-roberts-design-mastery` (Satori's `/satori-color` *feeds* the tokens; Jack codifies them)
+- **AI image / video prompt engineering** → use `creative-direction` (Creative Director) — Satori writes the *brief*, Creative Director writes the *prompt*
 - **Brand strategy / positioning** → use `greg-hoffman-brand-mastery` or `dai-media`
-- **Stylized poster generation production** → use `fantastic-posters`
+- **Stylized poster generation production** → use `fantastic-posters` (Satori's `/satori-design-think` hands off *to* it, cost-gated)
 
-Satori is for the **composition logic, layout flow, logo concept, and design psychology** layer — the layer that sits *above* type and *below* DESIGN.md codification.
+Satori is for the **communication thinking, concept origination, color strategy, composition logic, layout flow, logo concept, and design psychology** layer — the *brain* that sits above production tools. v2 rule: **Satori decides; the generation tools execute.** Never let a generation tool originate the concept — that's the human moat.
 
 ---
 
@@ -346,6 +493,13 @@ Satori's frameworks transfer beyond graphic design:
 | One-Sentence Brief | Product positioning | "[Product] is [verb] [audience] [outcome]" before feature design |
 | Flip Test | Editing | Read draft backwards / out-of-order to surface structural failures |
 | Concept Primitive | Voice systems | Lock voice primitive (rhythm, register, signature move) before drafting |
+| Communication-Problem-First | Any deliverable | State the communication problem before building; cut anything that doesn't solve it |
+| Hidden Truth | Copy hooks | The strongest hook designs around the non-obvious truth, not the product's obvious benefit |
+| One Big Idea / Commit | Positioning | Pick one wedge and build the whole system around it vs hedging across many claims |
+| 5-Layer Color | Brand token cascade | Functional→Strategic decision log becomes the DESIGN.md palette rationale |
+| Emotion Over Information | Content/newsletter | Lead with the emotional reveal; let the stat land *after* the feeling |
+| Perception Gap | UX / content | Test intended-vs-perceived reading order; if it needs explaining, it failed |
+| Audience Language | ICP messaging | Speak one specific audience's terms; excluding outsiders sharpens the concept |
 
 ---
 
@@ -355,5 +509,8 @@ For deeper reference material, load:
 - `references/lift-system-decision-criteria.md` — LIFT scoring rubric, edge cases
 - `references/grid-taxonomy-selector.md` — Grid selection decision tree
 - `references/movement-flow-ladder.md` — When to use which level
-- `references/source-quotes.md` — Verbatim Satori source material
+- `references/color-system.md` — **(v2)** 5-layer color model, 4-role palette, fit-in/stand-out tree, worked palette
+- `references/creative-concept-engine.md` — **(v2)** the 7 concept techniques expanded, selection matrix, commit principle
+- `references/design-business-models.md` — **(v2)** design-monetization map (reference-only)
+- `references/source-quotes.md` — Verbatim Satori source material (v1 + v2)
 - `references/cross-domain-transfer-map.md` — Detailed transfer cases

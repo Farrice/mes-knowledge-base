@@ -204,7 +204,6 @@
  ],
  "produced": true,
  "produced_paths": [
-  "/Users/farricecain/Google Antigravity/skills/nicolas-cole-sales-education-messaging/SKILL.md",
   "/Users/farricecain/Google Antigravity/skills/semantic-document-library-os/SKILL.md",
   "/Users/farricecain/Google Antigravity/skills/sweat-equity-speedrun-social-os/SKILL.md",
   "/Users/farricecain/Google Antigravity/skills/sam-parr-copywriting-mechanics/SKILL.md",
@@ -213,7 +212,8 @@
   "/Users/farricecain/Google Antigravity/skills/kallaway-content-system/SKILL.md",
   "/Users/farricecain/Google Antigravity/skills/kallaway-ai-content-engine/workflows/trend-hook-radar.md",
   "/Users/farricecain/Google Antigravity/directives/higgsfield-usage-policy.md",
-  "/Users/farricecain/Google Antigravity/execution/higgsfield_budget_guard.py"
+  "/Users/farricecain/Google Antigravity/execution/higgsfield_budget_guard.py",
+  "/tmp/handoff-2026-07-02-bridge-and-fork-harvest.md"
  ],
  "subagent_spawns": 2,
  "finalized_at": null,
@@ -221,9 +221,10 @@
  "stop_blocked_once": false,
  "staleness_warned": true,
  "miss_logged": false,
- "handoff_pending": false,
- "handoff_warned": false,
+ "handoff_pending": true,
+ "handoff_warned": true,
  "session_pinned": false,
  "session_pinned_at": null,
- "pin_nudged": true
+ "pin_nudged": true,
+ "cos_nudged": true
 }

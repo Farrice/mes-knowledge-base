@@ -13,6 +13,34 @@ A poster generator with a curated catalog of 38 visual styles (33 original + 5 t
 
 After generation, layer separation is handled outside this skill — open the PNG in Canva and use Magic / Smart Layers to split foreground/background/text.
 
+---
+
+## ⭐ The Studio Pipeline (v2, 2026-07-04) — use this for anything that must be *remarkable*, not just rendered
+
+**Load [`genius.md`](../../../genius.md) first.** It is the brain this skill never had. The bare "brief → pickStyle → render" path produces generic, redundant output; the **Studio** produces concept-first, non-redundant, multi-model, self-critiqued work.
+
+> **Satori decides. The router picks the instrument. The studio critiques its own work.**
+
+Run **`/fantastic-studio`** (`workflows/00-studio.md`) to orchestrate the full pipeline, or invoke a single stage:
+
+| # | Stage | Command | Does |
+|---|---|---|---|
+| 00 | **Studio (front door)** | `/fantastic-studio` | Runs 1–8 → a routed generation plan |
+| 01 | Reference-ground | `/fantastic-reference-ground` | Anchor in real high-taste lineage (not model default) |
+| 02 | **Art-direct** | `/fantastic-art-direct` | Ingest/run the **satori brain** → art-direction spec (kills generic) |
+| 03 | **Divergence spread** | `/fantastic-divergence` | N *orthogonally distinct* directions (kills redundancy) |
+| 04 | Model route | `/fantastic-model-route` | Each direction → GPT Image 2 / Higgsfield Soul / Nano / video |
+| 05 | Prompt compile | `/fantastic-prompt-compile` | Spec → model-specific prompt (+ Fal `--brief` JSON) |
+| 06 | Generate run | `/fantastic-generate-run` | Cost-gated, human-triggered runbook |
+| 07 | **Critique + refine** | `/fantastic-critique-refine` | Virgil × LIFT × type × anti-slop → `--mask` edits (first output → remarkable) |
+| 08 | Format pack | `/fantastic-format-pack` | One concept → feed/story/hero/print/cutout/motion |
+
+**When to skip the Studio**: a one-off quick draft, or a `--template` replicate of a proven layout. Everything client-facing or brand-defining runs the Studio.
+
+**Multi-model** (the router picks): `python3 execution/creative_router.py route --task "<direction>"`. Posters/typographic → `fal-poster` (this skill). Photoreal + people → `higgsfield-soul`. Cheap iteration → `higgsfield-nano`. Motion → `fal-kling` / `higgsfield-cinema` / `seedance-720p`.
+
+**Handoff from the design brain**: `/satori-design-think` produces a full Production Brief (hidden truth, LIFT hierarchy, color hex tokens, feeling, memory hook, anti-slop). `/fantastic-art-direct` ingests it directly — Satori is the brain, this skill is the hands.
+
 ## Video Generation (Mode-Aware Budget Required)
 
 Three video modes, each with its own budget ceiling enforced by `execution/fal_budget_guard.py`:

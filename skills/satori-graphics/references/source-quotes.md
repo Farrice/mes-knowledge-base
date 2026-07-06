@@ -162,3 +162,105 @@
 > *"This is good for testing and seeing if your design works on a technical level. So, the alignment, the white space, the micro white space."*
 
 > *"It does ensure that you don't have any kind of amateur mistakes, technically speaking."*
+
+---
+
+# v2 Expansion — Verbatim Material (2026-07-04)
+
+> From 5 additional Satori Graphics masterclasses (~7,800 words): high-level creative/design thinking, color full-guide, creative-concept techniques, high-vs-low-level mindsets, design business. Sponsorship segments (Pixai.io, Superhuman Mail, Octo/Dream) excluded from extraction.
+
+## On Communication-Problem-First (GP-13)
+
+> *"Most people assume that Apple's graphic assets look good because of the photography, the typography, all the ample amounts of white space… But those are just the final decisions. The interesting part is the thinking that comes before them."*
+
+> *"Every design decision here with Apple starts with a question. What helps people understand and desire this product?"*
+
+> *"Apple starts with a communication problem first and only adds what's necessary to solve it."*
+
+> *"Rather than asking, 'How can I make this look better?' I'm going to ask, 'What is the communication problem here?'"*
+
+> *"None of these changes are about decoration or my personal taste or style. They're all about making the communication clearer. And ironically, that usually makes the design look better in the first place."*
+
+## On Feeling-Before-Information (GP-14)
+
+> *"Every design creates a feeling before it communicates information, fact."*
+
+> *"In that time, you're probably not reading the typography very much… Instead, your brain has already decided whether this feels premium, healthy, playful, cheap, or whatever."*
+
+> *"We can take the same burger for our design here and we can make it appear cheap using layout, color, and typography choices. Or we can conversely make it feel more expensive and more premium… achieved with the visual language decisions alone."*
+
+> *"It is no good trying to make your design premium if the end users are teenagers or students with little to no money at disposal."*
+
+## On Hierarchy & Viewing Distance (GP-06 / GP-13)
+
+> *"Great graphic designers create hierarchy before they create or consider beauty as such."*
+
+> *"One of the easiest ways to create hierarchy isn't making important things look instantly bigger. It's just making unimportant things quieter or just completely disappeared."*
+
+> *"Before I touch the typography, I want to ask myself what somebody needs to recognize from 10 m, 5 m, and finally 1 m."*
+
+> *"This poster is going to be seen from several meters away on an underground platform, not from 30 cm away in Photoshop."*
+
+> *"That simple habit of forcing every decision to earn its place, that is often the difference between a design that simply looks good, and then one that genuinely does work."*
+
+## On Color (GP-15)
+
+> *"One of the biggest myths in graphic design is that colors have fixed meanings. They don't."*
+
+> *"Context is super super important when considering the meaning of color. For example, the typography changes the meaning. The imagery changes the meaning. The industry changes the meaning. And of course, the audience changes the meaning, too."*
+
+> *"I could take the exact same shade of red and make it feel premium, make it feel loud, or make it feel playful. And that's without ever changing the color itself."*
+
+> *"A lot of what we give color credit for is actually being ushered along by hierarchy, by contrast, placement, context, strategy."*
+
+> *"Most industries gradually develop color monopolies. Banks love blue, luxury brands love black and gold, eco brands love green… Do you fit into this, or do you want to stand out?"*
+
+> *"Instead of asking what color looks good, professional designers ask what this color is trying to achieve."*
+
+> *"Neutrals create structure. They actively create breathing room… Without them, every color ends up fighting for attention and eventually, none of them would win."*
+
+> *"Every color has a clearly defined job. And that's, more than anything else, is the real secret behind color in modern design."*
+
+## On the Creative Concept Engine (GP-16)
+
+> *"This is one of my most favorite creative techniques because it teaches you to stop designing around the obvious thing itself and then to start designing around the hidden truth behind the product."*
+
+> *"Whenever you're stuck on a project or a design, ask yourself what the real problem is. What's the consequence? What is the emotional impact? What's the thing people aren't immediately thinking about?"*
+
+> *"Creativity often comes from taking one strong idea and pushing it further than everybody else would."*
+
+> *"AI is very good at generating options, but human designers are still much better at recognizing the strongest idea and then building an entire system around it."*
+
+> *"Great concepts often come from understanding a specific audience deeply enough to speak their language."*
+
+> *"Literal interpretation. This is where you take a phrase, an expression, a metaphor, or just a piece of language, and you make it physically real… They're just borrowing meaning that already exists in the audience's mind."*
+
+> *"When you're struggling for ideas, just stop thinking about the product and start asking what if questions. What if a webpage was furniture?"*
+
+> *"Sometimes, it comes from noticing tiny details that everybody else just overlooks."*
+
+> *"Information tells people what to think, whereas emotion makes them feel something. And when you can actually combine those together efficiently, that's often when the most memorable and the most functional designs are created."*
+
+## On Perception Gaps (GP-17)
+
+> *"Professional designers think in perception gaps instead. It's the gap between what you intend and what the audience actually understands."*
+
+> *"Where does the eye land first? What gets noticed second? And what gets missed completely?"*
+
+> *"You can test this by showing a layout for a few seconds and asking someone to describe what they remember in order. Not the details, but the sequence."*
+
+> *"Aesthetics are subjective, but confusion isn't. And if you need to explain a design, then that design probably has failed its job in some way."*
+
+> *"Consider someone scrolling on their phone at night, half tired, brightness turned down. That's who you're designing for, not someone zooming into your dribbble shot and actually analyzing your kerning at the micro pixel level."*
+
+> *"Clients don't just pay for how something looks in the end result. They're also paying for how confident, how clear, and how easy the whole experience feels."*
+
+## On the Design Business (reference-only)
+
+> *"Graphic design might actually be one of the most flexible skills on the internet right now."*
+
+> *"A personal brand isn't really an income stream itself. It's more like an amplifier for every other income stream."*
+
+> *"Instead of selling the work once, what if you could sell it a thousand times?"*
+
+> *"Financial freedom rarely comes from one income stream. It usually comes from multiple streams supporting each other."*

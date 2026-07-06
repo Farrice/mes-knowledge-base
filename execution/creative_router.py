@@ -60,17 +60,21 @@ RULES = [
                      r"\bmenu\b", r"\bpackaging\b", r"\bUI\s*mockup\b"],
         "service": "fal-poster",
         "reason": "Stylized visual → Fal GPT-Image-2 via fantastic-posters (38 styles)",
-        "notes": "Pass --quality=medium for first pass; --quality=high only for finals",
+        "notes": "For concept-first, non-redundant work run /fantastic-studio (art-direct → divergence → route → critique) instead of a bare prompt. --quality=medium first pass; high only for finals.",
     },
 
-    # ─── Photoreal product / lifestyle / hero shots (Higgsfield Soul wins) ───
+    # ─── Photoreal product / lifestyle / hero shots + PEOPLE (Higgsfield Soul wins) ───
     {
         "patterns": [r"\bphotoreal\b", r"\bphoto[- ]?realistic\b", r"\bproduct\s+(hero|shot|photo)\b",
                      r"\blifestyle\s+shot\b", r"\bproduct\s+page\b",
-                     r"\bamazon\s+listing\b", r"\be-?commerce\b"],
+                     r"\bamazon\s+listing\b", r"\be-?commerce\b",
+                     # People / character consistency — Soul is the roster's face model
+                     r"\bportrait\b", r"\b(a\s+)?person\b", r"\bpeople\b", r"\bmodel\s+(wearing|shot|photo)\b",
+                     r"\bcharacter\s+(consistency|reference)?\b", r"\bheadshot\b", r"\bface\b",
+                     r"\bon[- ]?body\b", r"\bugc\s+(photo|still)\b", r"\btalent\b"],
         "service": "higgsfield-soul",
-        "reason": "Photoreal product → Higgsfield Soul 2.0 (best photoreal quality)",
-        "notes": "Use Nano Banana as fallback if Soul over-stylizes",
+        "reason": "Photoreal / people / character → Higgsfield Soul 2.0 (best photoreal + face consistency)",
+        "notes": "People and product heroes route here, not fal-poster. Attach a character ref for consistency. Nano Banana as fallback if Soul over-stylizes.",
     },
 
     # ─── Quick concept images / cheap iteration (Nano Banana Pro) ───

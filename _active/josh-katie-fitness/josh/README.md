@@ -1,5 +1,6 @@
 # JOSH — Quick-Review Card
 **CURRENT PROGRAM:** [`programs/Josh_FullBody_GLP1_v2.md`](programs/Josh_FullBody_GLP1_v2.md) — 8-week "Bishop Block," titration-proof (started ___fill on kickoff___)
+**DAY FILES (grab-and-train):** [`workouts/`](workouts/) — Mon [F1 Squat](workouts/01-mon-foundational-1-squat-led.md) · Tue [Pump & Preserve](workouts/02-tue-trigger-a-pump-preserve.md) · Wed [F2 Push-Pull](workouts/03-wed-foundational-2-push-pull.md) · Thu [Zone-2 + Carries](workouts/04-thu-trigger-b-zone2-carries.md) · Fri [F3 Hinge](workouts/05-fri-foundational-3-hinge-led.md) · [On-Set Fallback](workouts/06-onset-fallback-10min.md)
 
 ## Snapshot
 ~245–247 lb · experienced · actor (on-set chaos = design input) · trains Mon–Fri.

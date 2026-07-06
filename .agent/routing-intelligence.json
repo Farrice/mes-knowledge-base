@@ -307,32 +307,851 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_032457_2848",
+            "timestamp": "2026-07-03T03:24:57.784616+00:00",
+            "session_id": "",
+            "request_summary": "Chief of Staff OS (/cos) — daily micro briefing + weekly board system: chief-of-staff-os skill (SKILL.md, genius.md, 3 workflows), cos_prep.py deterministic prep engine, launchd 06:45 morning job, ses",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "chief-of-staff-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "cos",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_032627_f680",
+            "timestamp": "2026-07-03T03:26:27.407013+00:00",
+            "session_id": "",
+            "request_summary": "Chief of Staff OS (/cos) v1.1 after retry pass — question engine enriched (25 phrasings across 5 life sections, was 15) + anti-nag section rotation (sections asked yesterday demoted, tested), on top o",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "chief-of-staff-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "cos",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_034531_0147",
+            "timestamp": "2026-07-03T03:45:31.619142+00:00",
+            "session_id": "",
+            "request_summary": "Josh Eightward legal consult brief",
+            "intent_score": 4,
+            "domain_detected": "Client Work",
+            "experts_deployed": [
+                "david-placek"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "name-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_034600_1fd5",
+            "timestamp": "2026-07-03T03:46:00.661350+00:00",
+            "session_id": "",
+            "request_summary": "Produced Josh's 15-minute Eightward legal consult brief from the transfer packet: preserved David Placek as naming owner, treated Eightward as lead, summarized live USPTO wordmark checks, live WHOIS c",
+            "intent_score": 4,
+            "domain_detected": "Client Work",
+            "experts_deployed": [
+                "david-placek"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "name-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_034729_c7c0",
+            "timestamp": "2026-07-03T03:47:29.800157+00:00",
+            "session_id": "",
+            "request_summary": "_active/josh-swing-nerd-shirts-v1/deliverables/2026-07-03-josh-eightward-legal-consult-brief.md",
+            "intent_score": 7,
+            "domain_detected": "Legal Consult Prep",
+            "experts_deployed": [
+                "David Placek"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "brand-decision",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_035853_7eb7",
+            "timestamp": "2026-07-03T03:58:53.145508+00:00",
+            "session_id": "",
+            "request_summary": "6853 Willis Ave weekend Instagram Reels text/email/briefing for Jen",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_035923_7087",
+            "timestamp": "2026-07-03T03:59:23.457345+00:00",
+            "session_id": "",
+            "request_summary": "Created canonical artifact _active/jen-listings/04-deliverables/6853-willis-weekend-content-brief.md: sendable text, email brief, property and neighborhood research receipts, six ready-to-film Reels s",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_040838_03d7",
+            "timestamp": "2026-07-03T04:08:38.557884+00:00",
+            "session_id": "",
+            "request_summary": "Created canonical teleprompter pack _active/jen-listings/04-deliverables/6853-willis-teleprompter-pack.md with 3 ADU-first Reels, 4 Stories, shot-by-shot b-roll order, caption starters, and fair-housi",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_043429_e78e",
+            "timestamp": "2026-07-03T04:34:29.204210+00:00",
+            "session_id": "",
+            "request_summary": "Created 6853 Willis persuasive Reels V2: repaired price-history-led safe draft into desire-first gated reveal, ADU-first scripts, four Stories, b-roll order, send-to-Jen briefing, fair-housing guardra",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_043502_4904",
+            "timestamp": "2026-07-03T04:35:02.492819+00:00",
+            "session_id": "",
+            "request_summary": "Retried weakest intent section for 6853 Willis persuasive Reels V2 by adding explicit Intent Lock for serious buyers skeptical of Van Nuys, price, and generic remodel value. Re-verified export guard, ",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_043553_7c2a",
+            "timestamp": "2026-07-03T04:35:53.773866+00:00",
+            "session_id": "",
+            "request_summary": "Finalized polished 6853 Willis persuasive Reels V2 after removing stiff not-X-but-Y cadence; export guard passed, canonical routing passed, banned-language scan clean, public-script fair-housing and p",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_044813_dfe0",
+            "timestamp": "2026-07-03T04:48:13.852653+00:00",
+            "session_id": "",
+            "request_summary": "Repaired Willis V2 into V2.1 after user feedback: preserved Reel 1 and first five hooks, replaced Reels 2 and 3 with suspicion-to-curiosity scripts, rewrote Reel 3 caption, updated b-roll/cover/postin",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_044912_a5aa",
+            "timestamp": "2026-07-03T04:49:12.061417+00:00",
+            "session_id": "",
+            "request_summary": "6853 Willis Ave Van Nuys listing Reel package — 6 hooks + tour script + filming briefing + send-ready text for Jen Santulan",
+            "intent_score": 7,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "01-listing-content",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_045112_c48c",
+            "timestamp": "2026-07-03T04:51:12.951934+00:00",
+            "session_id": "",
+            "request_summary": "Created clean Jen-facing Willis recording pack with internal strategy/Codex/scaffold notes removed; scripts, captions, Stories, and shot order only. Humanized cadence, read-aloud scripting, fair-housi",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_045133_6175",
+            "timestamp": "2026-07-03T04:51:33.505114+00:00",
+            "session_id": "",
+            "request_summary": "Retried clean Willis recording pack intent surface by adding explicit use instruction; final file remains scripts/captions/Stories/shot order only and passes content_finish_gate CLEAN, prose_classifie",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_045434_781d",
+            "timestamp": "2026-07-03T04:54:34.144051+00:00",
+            "session_id": "",
+            "request_summary": "Strengthened Willis clean recording pack with criteria-first hooks for qualified buyers and buyer agents: gated + ADU under .35M, ADU buyer should see this, and not a standard Van Nuys remodel. Refres",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_045455_39d5",
+            "timestamp": "2026-07-03T04:54:55.376504+00:00",
+            "session_id": "",
+            "request_summary": "Retried Willis qualified-buyer hook pass with explicit showing goal at top of clean recording pack; final artifact remains criteria-first, Jen-facing, source-supported, fair-housing safe, and verified",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_050059_8426",
+            "timestamp": "2026-07-03T05:00:59.122121+00:00",
+            "session_id": "",
+            "request_summary": "Repaired Willis clean recording pack after ADU overfit regression: restored suspicion/gate/full-setup hook spine, made ADU proof rather than the product, preserved Van Nuys reconsideration angle, upda",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "listing-content",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_050333_df63",
+            "timestamp": "2026-07-03T05:03:33.754742+00:00",
+            "session_id": "",
+            "request_summary": "Repaired 6853 Willis Jen clean recording pack after ADU-overfit regression by restoring suspicion/gate/reconsider-address hook spine, moving ADU to proof point, replacing price-first Reel 3, adding ho",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_050345_25f2",
+            "timestamp": "2026-07-03T05:03:45.873178+00:00",
+            "session_id": "",
+            "request_summary": "Retry weakest section for intent alignment: final Willis recording pack directly answers Farrice's critique that the prior draft became ADU-only and lost the strong first-five hook spine. The repaired",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan-listing-content"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_051702_cbdf",
+            "timestamp": "2026-07-03T05:17:02.775097+00:00",
+            "session_id": "",
+            "request_summary": "6853 Willis Ave Van Nuys listing Reel package v2 — 5 adversarially-hardened hooks (clarity kill-gate) + tour + filming briefing + send-ready text for Jen Santulan",
+            "intent_score": 7,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "01-listing-content",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_060928_03ab",
+            "timestamp": "2026-07-03T06:09:28.533646+00:00",
+            "session_id": "",
+            "request_summary": "6853 Willis Van Nuys Reels v3 — 12 objection-breaking hook cards (6 evergreen + 6 trend) in shoot-sheet format for Jen Santulan",
+            "intent_score": 7,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "01-listing-content",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_133917_28bc",
+            "timestamp": "2026-07-03T13:39:17.800994+00:00",
+            "session_id": "",
+            "request_summary": "Health Performance GEO Daily Brief for 2026-07-03: GLP-1 Adjacency Claim Map, local daily brief, Friday weekly synthesis, and JSONL insight rows",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "health-performance-geo-client-acquisition-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "farrice-engine",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_133941_c516",
+            "timestamp": "2026-07-03T13:39:41.113146+00:00",
+            "session_id": "",
+            "request_summary": "Complete Health Performance GEO Daily Brief delivered for Farrice Cain on 2026-07-03. Followed _active/health-performance-ip-library/AUTOMATION_PROMPT.md exactly: loaded automation prompt, V4 golden s",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "health-performance-geo-client-acquisition-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "farrice-engine",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_203156_77a7",
+            "timestamp": "2026-07-03T20:31:56.911318+00:00",
+            "session_id": "",
+            "request_summary": "Repaired Health Performance GEO automation prompt to stop GLP-1 capture and restore broad market-domain creative strategist intelligence. Updated AUTOMATION_PROMPT.md to v3.4 with Market-Domain Mandat",
+            "intent_score": 4,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_203206_ea43",
+            "timestamp": "2026-07-03T20:32:06.859878+00:00",
+            "session_id": "",
+            "request_summary": "Fixed the specific user-reported automation failure: Health Performance GEO was hyper-focused on GLP-1 instead of broad health-performance market-domain creative strategy, avatar pain points, problems",
+            "intent_score": 4,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_211007_6ba0",
+            "timestamp": "2026-07-03T21:10:07.649233+00:00",
+            "session_id": "",
+            "request_summary": "Josh Eightward Lindy Hop Brand Positioning Packet at _active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_LINDY_HOP_BRAND_POSITIONING_PACKET.md",
+            "intent_score": 3,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "deep-research"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "deep-research",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260703_211033_082c",
+            "timestamp": "2026-07-03T21:10:33.485350+00:00",
+            "session_id": "",
+            "request_summary": "Josh Eightward Lindy Hop Brand Positioning Packet: research-backed brand positioning and messaging packet for Josh's shift from nerd-swing joke shirts to culture-rooted Lindy Hop identity apparel. Cov",
+            "intent_score": 4,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "deep-research"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "deep-research",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260704_002455_07f0",
+            "timestamp": "2026-07-04T00:24:55.498231+00:00",
+            "session_id": "",
+            "request_summary": "Produced Josh Eightward Cultural Brand and Legal Consult Brief at _active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md. The artifact extends the e",
+            "intent_score": 4,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "nate-b-jones-orchestration-intelligence"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "mission",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260704_002507_f751",
+            "timestamp": "2026-07-04T00:25:07.974173+00:00",
+            "session_id": "",
+            "request_summary": "Created Josh's research-backed Eightward brand strategy packet for a culture-rooted Lindy Hop apparel brand. Deliverable: _active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAN",
+            "intent_score": 4,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "source-command-mission"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "mission",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260704_013353_4080",
+            "timestamp": "2026-07-04T01:33:53.204877+00:00",
+            "session_id": "",
+            "request_summary": "Produced the Eightward Visual Brand Book Preview package for Josh at _active/josh-swing-nerd-shirts-v1/04-deliverables/eightward-visual-brand-book/index.html. It is a private local HTML visual review ",
+            "intent_score": 4,
+            "domain_detected": "Creative",
+            "experts_deployed": [
+                "creative-direction"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "art-direct",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260704_013407_3e51",
+            "timestamp": "2026-07-04T01:34:07.651776+00:00",
+            "session_id": "",
+            "request_summary": "Created Josh's Eightward visual brand book and lookbook preview package at _active/josh-swing-nerd-shirts-v1/04-deliverables/eightward-visual-brand-book/index.html. This directly answers the request f",
+            "intent_score": 4,
+            "domain_detected": "Creative",
+            "experts_deployed": [
+                "creative-direction"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "art-direct",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260704_032019_2ecc",
+            "timestamp": "2026-07-04T03:20:19.875195+00:00",
+            "session_id": "",
+            "request_summary": "Created Josh Lindy Hop Apparel Visual Canvas: name-free image-first HTML lookbook with eight generated apparel boards, research ledger, metadata, verification screenshots, redirect stub for rejected o",
+            "intent_score": 4,
+            "domain_detected": "Creative",
+            "experts_deployed": [
+                "creative-direction"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "virtuoso-art-direct",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260704_032501_28ee",
+            "timestamp": "2026-07-04T03:25:01.421747+00:00",
+            "session_id": "",
+            "request_summary": "Retry: Josh requested a corrected name-free modern Lindy Hop apparel visual canvas after rejecting the SVG-style brand guide. Delivered an image-first HTML lookbook with eight natural-image apparel bo",
+            "intent_score": 4,
+            "domain_detected": "Creative",
+            "experts_deployed": [
+                "creative-direction"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "virtuoso-art-direct",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260704_042246_65f3",
+            "timestamp": "2026-07-04T04:22:46.669686+00:00",
+            "session_id": "",
+            "request_summary": "Created Josh Lindy Hop Apparel Preview Deck: 10-slide Josh-facing HTML deck distilled from the visual canvas with six curated boards, short talk track, three decision questions, separate presenter scr",
+            "intent_score": 4,
+            "domain_detected": "Creative",
+            "experts_deployed": [
+                "creative-direction"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "end-session-creative-deck",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260704_042710_b1ae",
+            "timestamp": "2026-07-04T04:27:10.473438+00:00",
+            "session_id": "",
+            "request_summary": "Retry: Josh requested a 10-slide preview deck from the visual canvas. Delivered a verified Josh-facing HTML deck with six curated boards, embedded talk track, separate presenter script, three decision",
+            "intent_score": 4,
+            "domain_detected": "Creative",
+            "experts_deployed": [
+                "creative-direction"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "end-session-creative-deck",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260704_133952_d5a3",
+            "timestamp": "2026-07-04T13:39:52.219429+00:00",
+            "session_id": "",
+            "request_summary": "Health Performance GEO Daily Brief 2026-07-04: Recovery Truth Map content-first brief with LinkedIn post, carousel, video script, proof spine, GEO/AEO opportunity, offer bridge, and JSONL insight rows",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "oren-operational-systems"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "daily-zeitgeist-brief",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260704_134030_15b6",
+            "timestamp": "2026-07-04T13:40:30.182428+00:00",
+            "session_id": "",
+            "request_summary": "Complete Health Performance GEO Daily Brief for Farrice Cain on 2026-07-04 produced from _active/health-performance-ip-library/AUTOMATION_PROMPT.md. Saved local brief to _active/health-performance-ip-",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "health-performance-geo-client-acquisition-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "health-performance-geo-daily-brief",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260704_152717_377f",
+            "timestamp": "2026-07-04T15:27:17.874996+00:00",
+            "session_id": "",
+            "request_summary": "Satori Graphics v2 — design-thinking + creative-concept + strategic-color mastery expansion (forge). 6 new workflows (concept engine, color system, design-think pipeline, comms-brief, perception-gap, ",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "satori-graphics"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260704_161536_970e",
+            "timestamp": "2026-07-04T16:15:36.012689+00:00",
+            "session_id": "",
+            "request_summary": "Fantastic Studio — elevated fantastic-posters from a keyword-template poster generator into a concept-first, multi-model, self-critiquing image/video engine. Added genius.md brain + /fantastic-studio ",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "creative-director"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "fantastic-studio",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260704_202411_fd81",
+            "timestamp": "2026-07-04T20:24:11.314369+00:00",
+            "session_id": "",
+            "request_summary": "Distribution + Tracking spec for The Final 10% reshaped offer — organic-first fill plan (cadence, content→ring→DM→Audit→Sprint→Room funnel, 5-lane propaganda sequence on Parallax+LinkedIn, DM engine, ",
+            "intent_score": 7,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "john-whiting"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "jw-engine",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260704_203340_e698",
+            "timestamp": "2026-07-04T20:33:40.789568+00:00",
+            "session_id": "",
+            "request_summary": "The Final 10% — offer red-team validation + propaganda fill machine (big-domino, 18-objection arsenal, 6 publish-ready pieces, offer doc, distribution+tracking) built on the reshaped offer",
+            "intent_score": 7,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "john-whiting"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "jw-engine",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260705_205725_bd01",
+            "timestamp": "2026-07-05T20:57:25.544708+00:00",
+            "session_id": "",
+            "request_summary": "DWA Threads test kit: evidence-picked anti-guru behavioral-change frame, fresh ICP (Mark, 33), creative brief, 5-post test plan, 5 shootable creative books, 6-angle hook bank, session-safe conversion ",
+            "intent_score": 7,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "master-copywriter"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "dwa-threads-test-kit",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260705_205824_9e78",
+            "timestamp": "2026-07-05T20:58:24.136756+00:00",
+            "session_id": "",
+            "request_summary": "DWA Threads test kit (final): evidence-picked anti-guru behavioral-change frame, fresh ICP (Mark, 33), creative brief, 5-post test plan, 5 shootable creative books, 6-angle hook bank, session-safe con",
+            "intent_score": 9,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "master-copywriter"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "dwa-threads-test-kit",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_014218_3e89",
+            "timestamp": "2026-07-06T01:42:18.418595+00:00",
+            "session_id": "",
+            "request_summary": "DWA intel + product wave: real Apify social listening (Reddit/TikTok/YouTube/IG, ~$0.74) -> voice-of-customer that CORRECTED the ICP (bimodal + mom-skewed), named competitor inventory (anti-guru+behav",
+            "intent_score": 9,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "deep-research"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "dwa-intel-and-product-engine",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_035425_4359",
+            "timestamp": "2026-07-06T03:54:25.713256+00:00",
+            "session_id": "",
+            "request_summary": "DWA GO/NO-GO verdict: 4-lens adversarial panel (Ash Maurya, Dunford, McRaney, red-team) unanimously reached PIVOT_VEHICLE (conf 8/10) on fresh reachability/competitor/belief intel + v2 Apify re-scrape",
+            "intent_score": 9,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "deep-research"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "dwa-go-no-go-verdict",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_060448_9446",
+            "timestamp": "2026-07-06T06:04:48.116804+00:00",
+            "session_id": "",
+            "request_summary": "Ben Watkins — Commercial Storytelling & The Pitch Room mastery extraction (forge)",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "ben-watkins"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 18,
+            "total_routings": 65,
             "total_feedback": 0,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 10,
-                "Client Work": 2,
+                "System": 15,
+                "Client Work": 4,
                 "Analysis": 4,
-                "Strategy": 1,
-                "Creative": 1
+                "Strategy": 8,
+                "Creative": 7,
+                "Legal Consult Prep": 1,
+                "Content": 23,
+                "Extraction": 2,
+                "Research": 1
             },
             "expert_counts": {
-                "system-audit": 13,
+                "system-audit": 15,
                 "strength-conditioning-os": 2,
                 "nicolas-cole": 1,
                 "source-to-skill-system": 1,
-                "founder-voice": 1
+                "founder-voice": 1,
+                "chief-of-staff-os": 2,
+                "david-placek": 2,
+                "David Placek": 1,
+                "jen-santulan-listing-content": 14,
+                "jen-santulan": 3,
+                "health-performance-geo-client-acquisition-engine": 3,
+                "deep-research": 4,
+                "nate-b-jones-orchestration-intelligence": 1,
+                "source-command-mission": 1,
+                "creative-direction": 6,
+                "oren-operational-systems": 1,
+                "satori-graphics": 1,
+                "creative-director": 1,
+                "john-whiting": 2,
+                "master-copywriter": 2,
+                "ben-watkins": 1
             },
             "tier_counts": {
-                "0": 18,
+                "0": 65,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -341,9 +1160,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 0,
-                "finalize-auto": 18
+                "finalize-auto": 65
             },
-            "ensemble_count": 7
+            "ensemble_count": 22
         }
     }
 }

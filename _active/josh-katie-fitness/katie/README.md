@@ -1,5 +1,6 @@
 # KATIE — Quick-Review Card
 **CURRENT PROGRAM:** [`programs/Katie_FullBody_Recomp_v2.md`](programs/Katie_FullBody_Recomp_v2.md) — 6-week "Strong & Lean" block (started ___fill on kickoff___)
+**DAY FILES (grab-and-train):** [`workouts/`](workouts/) — Mon [F1 Squat](workouts/01-mon-foundational-1-squat-led.md) · Tue [Trigger A](workouts/02-tue-trigger-a-glute-quad-shoulders.md) · Wed [F2 Hinge](workouts/03-wed-foundational-2-hinge-led.md) · Thu [Trigger B](workouts/04-thu-trigger-b-posterior-abs-zone2.md) · Fri [F3 Unilateral+OH](workouts/05-fri-foundational-3-unilateral-overhead.md)
 
 ## Snapshot
 ~134–135 lb · experienced · **high-responder / strength adaptor** · violinist, mother of two · trains Mon–Fri.

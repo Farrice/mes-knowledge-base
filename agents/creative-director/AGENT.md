@@ -144,6 +144,7 @@ For mixed requests ("build a brand system AND a working homepage"), chain: `synt
 - **DESIGN.md authoring**: `skills/design-md/SKILL.md` (Tier 1) + `skills/design-md/genius.md` (Tier 2 — token theory, WCAG math, lint patterns, brand-library decision tree)
 - **UI code generation**: `skills/product-design-build/SKILL.md` (Tier 1) + `skills/product-design-build/genius.md` (Tier 2 — variant architecture, accessibility patterns, Playwright loops)
 - **Cinematic / image / video**: `skills/creative-direction/SKILL.md` (Tier 1) + `skills/creative-direction/genius.md` (Tier 2)
+- **Image/video GENERATION (the conductor)**: `skills/fantastic-posters/genius.md` + `/fantastic-studio` — the concept-first, multi-model, self-critiquing pipeline. For any actual image/poster/video output, route through the Studio (art-direct → divergence → model-route → generate → critique/refine → format-pack). It composes the satori brain and `creative_router.py`. **Never hand a bare prompt to a generator when the output must be remarkable — run the Studio.**
 - **Brand library**: `knowledge/design-libraries/` (58 brand DESIGN.md files, MIT license)
 - **Knowledge archive**: `knowledge/creative-direction/` — full knowledge bases + encyclopedia guides
 - **Research archive**: `extractions/creative-direction/` — platform research, technique deep dives

@@ -2,9 +2,7 @@
 
 Self-contained: Codex does NOT auto-follow file pointers, so everything load-bearing is in THIS file. `CODEX.md` is the Codex-native operating authority for this workspace; read it as the expanded harness contract when repairing routing, hooks, command surfaces, or Operator Core behavior. Deep reference (read on demand, never assume loaded): `GEMINI.md`, `CLAUDE.md`, `PRODUCTION_CORE.md`, `OPERATING_MANUAL.md`.
 
-<!-- BEGIN:golden-rule -->
 > **⚠️ GOLDEN RULE — ONE TOOL PER WORKING TREE AT A TIME.** This repo is shared by Claude Code **and** OpenAI Codex with no lock between them. **Never run both against this directory at the same time** — concurrent edits corrupt the tree (the "apply one fix, another breaks" failure, root-caused 2026-06-30). Safe handoff: let the active tool finish to a clean `git status` or a commit, **then** open the other. Need both at once? Give one its own `git worktree` — never a second driver in this folder.
-<!-- END:golden-rule -->
 
 ## What this workspace is
 A 3-layer expert-orchestration OS owned by Farrice: JARVIS routing → <!-- COUNTS:BEGIN -->219 expert personas + 367 skills + 1,527 workflows<!-- COUNTS:END --> → deterministic Python backplane (`execution/`, ~128 scripts). The goal: world-class extracted experts producing revenue work, every deliverable feeding one learning loop (finalize → ledger → evolution) **rooted in this repo** — never fork it.

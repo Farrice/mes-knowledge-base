@@ -43,6 +43,14 @@ SYSTEM_SURFACE_TERMS = (
     "handcuffed",
     "source-command",
     "selective language",
+    "workspace",
+    "workspaces",
+    "global",
+    "global codex",
+    "global bridge",
+    "google antigravity",
+    "codex antigravity",
+    "bridge",
 )
 
 SYSTEM_PROBLEM_TERMS = (
@@ -54,6 +62,13 @@ SYSTEM_PROBLEM_TERMS = (
     "wrong",
     "broken",
     "break",
+    "failing",
+    "drift",
+    "drifted",
+    "global/workspace drift",
+    "split workspace",
+    "split workspaces",
+    "not-firing",
     "blocking",
     "not firing",
     "did not fire",
@@ -153,6 +168,43 @@ def normalize(value: str) -> str:
     return re.sub(r"\s+", " ", value.lower()).strip()
 
 
+def strip_explicit_invocation_artifacts(value: str) -> str:
+    """Remove explicit skill/link invocation plumbing before control matching.
+
+    Prompts can begin with app-style or markdown skill links such as:
+    ``[$raw-intent-bridge](/Users/.../.codex/skills/raw-intent-bridge/SKILL.md)``.
+    The path contains words like ``skills`` even when the user is asking for
+    normal client work. If the same prompt mentions domain risks like
+    "copyright issues", the unstripped path looks like a system complaint
+    ("skill" + "issues") and incorrectly routes to /system-audit.
+    """
+
+    def replace_markdown_link(match: re.Match[str]) -> str:
+        label = match.group(1)
+        href = match.group(2)
+        href_low = href.lower()
+        if (
+            "/skills/" in href_low
+            or "/.codex/skills/" in href_low
+            or "/.agents/skills/" in href_low
+            or href_low.endswith("/skill.md")
+            or href_low.endswith("skill.md")
+            or href_low.startswith("app://")
+        ):
+            return label
+        return match.group(0)
+
+    stripped = re.sub(r"\[([^\]]+)\]\(([^)]*)\)", replace_markdown_link, value)
+    stripped = re.sub(
+        r"/\S*(?:\.codex|\.agents)?/skills/\S*/SKILL\.md",
+        " ",
+        stripped,
+        flags=re.IGNORECASE,
+    )
+    stripped = re.sub(r"\s+", " ", stripped)
+    return stripped.strip()
+
+
 def _hits(query: str, terms: tuple[str, ...]) -> list[str]:
     return [term for term in terms if term in query]
 
@@ -193,7 +245,7 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
     evidence should route to /system-audit and suppress expert suggestions.
     """
 
-    q = normalize(prompt)
+    q = normalize(strip_explicit_invocation_artifacts(prompt))
     surface_hits = _hits(q, SYSTEM_SURFACE_TERMS)
     problem_hits = _hits(q, SYSTEM_PROBLEM_TERMS)
     action_hits = _hits(q, SYSTEM_ACTION_TERMS)
@@ -254,6 +306,58 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
     wrong_route_complaint = any(
         phrase in q for phrase in ("wrong route", "wrong workflow", "route picked the wrong")
     )
+    broad_front_door_surfaces = (
+        "autopilot",
+        "orchestration",
+        "orchestrate",
+        "router",
+        "routing intelligence",
+        "knowledge library",
+        "harness",
+        "self-evolve",
+        "skill-anneal",
+        "source-to-skill-system",
+        "extraction-governor-agent",
+        "repeatability-spine",
+        "expert-composition-governor",
+    )
+    broad_front_door_problems = (
+        "broken",
+        "wrong",
+        "useless",
+        "not doing",
+        "not working",
+        "mutating without proof",
+        "rewriting everything",
+        "creates bloat",
+        "writes state automatically",
+        "inventing findings",
+        "creates expert soup",
+    )
+    broad_front_door_complaint = (
+        any(term in q for term in broad_front_door_surfaces)
+        and any(term in q for term in broad_front_door_problems)
+        and not action_hits
+        and "codex" not in q
+        and "hook" not in q
+        and "hooks" not in q
+        and "default" not in q
+        and "defaults" not in q
+        and "wiring" not in q
+        and "wired" not in q
+        and "source-command-" not in q
+    )
+
+    if broad_front_door_complaint:
+        return {
+            "route": "autopilot",
+            "lane": "system-failure",
+            "reason": "Broad broken-system complaints should enter the Codex front door before specialist repair.",
+            "evidence": [
+                term for term in broad_front_door_surfaces if term in q
+            ][:4],
+            "confidence": 90,
+        }
 
     source_command_control = (
         "source-command-" in q and
@@ -261,8 +365,17 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
         not explicit_command_invoke
     )
     selective_language_complaint = "selective language" in q and (problem_hits or "linked" in q or "linking" in q)
-    shape_match = bool(surface_hits and (problem_hits or action_hits)) and not wrong_route_complaint
-    multi_surface_complaint = len(surface_hits) >= 2 and bool(problem_hits) and not wrong_route_complaint
+    shape_match = (
+        bool(surface_hits and (problem_hits or action_hits))
+        and not wrong_route_complaint
+        and not explicit_command_invoke
+    )
+    multi_surface_complaint = (
+        len(surface_hits) >= 2
+        and bool(problem_hits)
+        and not wrong_route_complaint
+        and not explicit_command_invoke
+    )
     general_distress = any(term in q for term in GENERAL_DISTRESS_TERMS)
     concrete_deliverable = any(re.search(rf"\b{re.escape(term)}\b", q) for term in DELIVERABLE_VERBS)
 

@@ -9,13 +9,16 @@ josh-katie-fitness/
 │   └── context-brief-2026-07-02.md   ← canonical client-state brief (wins over older export on conflicts)
 ├── katie/
 │   ├── README.md              ← Katie quick-review card
-│   ├── programs/Katie_FullBody_Recomp_v2.md    ← CURRENT (6-wk "Strong & Lean" block)
+│   ├── programs/Katie_FullBody_Recomp_v2.md    ← CURRENT (6-wk "Strong & Lean" block, master doc)
+│   ├── workouts/              ← one file per session (01-mon … 05-fri), grab-and-train
 │   └── check-ins/             ← weekly logs (template inside)
 └── josh/
     ├── README.md              ← Josh quick-review card
-    ├── programs/Josh_FullBody_GLP1_v2.md       ← CURRENT (8-wk "Bishop Block")
+    ├── programs/Josh_FullBody_GLP1_v2.md       ← CURRENT (8-wk "Bishop Block", master doc)
+    ├── workouts/              ← one file per session (01-mon … 05-fri + 06 on-set fallback)
     └── check-ins/             ← weekly logs (template inside)
 ```
+- **Master vs workouts**: the `programs/` file is the source of truth (progression wave, nutrition alignment, evidence notes). The `workouts/` files are self-contained session cards split from it — if the master changes, re-split the day files.
 
 ## Conventions
 - **Programs are versioned, never overwritten** — v3 lands next to v2 in `programs/`; the client README always names which one is CURRENT.

@@ -1906,7 +1906,7 @@ Every command that exists on disk but isn't already grouped in a curated section
 | `/satori-design-think` | The flagship end-to-end generative pipeline — comms brief → concept → hierarchy → color → feeling → memory hook → anti-slop → perception check, terminating in a production-ready brief plus a routed, human-triggered generation command |
 | `/satori-feeling-calibrate` | Tune the same fixed asset to a target feeling (premium / cheap / playful / reassuring) via the four visual-language levers — typography, color, layout, and solid-vs-gradient surface — gated by an audience-fit veto |
 | `/satori-flip-test` | 90-second pre-delivery technical audit — flip the design to see structure not content. Catches alignment, white-space, micro-rhythm errors invisible during normal viewing. |
-| `/satori-graphics` | Composition theory, layout flow, logo concept methodology, and design psychology. Where typography handles type, Satori handles how the page itself thinks — movement, grids, leverage points, friction, and the psychology that makes design... |
+| `/satori-graphics` | The design-thinking brain: originates concepts and color systems, then engineers composition, layout, logo, and design psychology. Starts from the communication problem and the audience's perception — not the layout. v2 adds the generati... |
 | `/satori-grid-select` | Pick the right grid from the 11-type Satori taxonomy + breakage rules + white-space plan |
 | `/satori-lift-audit` | LIFT system layered diagnostic on any layout — Leverage / Eye / Friction / Transferability scored with rewrite directives |
 | `/satori-listing-frame` | LIFT + memory-encoding pass on a Jen Santulan real estate Reels frame or thumbnail — buyer-state-aware composition for SoCal first-time buyers |

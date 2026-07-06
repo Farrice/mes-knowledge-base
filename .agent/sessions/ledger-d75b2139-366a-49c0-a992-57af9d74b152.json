@@ -1,20 +1,41 @@
 {
  "session_id": "d75b2139-366a-49c0-a992-57af9d74b152",
- "debts": [],
+ "debts": [
+  {
+   "type": "skill_loaded",
+   "name": "john-whiting-propaganda-machine",
+   "ts": "2026-07-04T13:17:43.235140"
+  },
+  {
+   "type": "skill_loaded",
+   "name": "fresh-voice-system",
+   "ts": "2026-07-04T13:18:15.710732"
+  }
+ ],
  "produced": true,
  "produced_paths": [
-  "/tmp/handoff-20260614-john-whiting-propaganda-os.md"
+  "/tmp/handoff-20260614-john-whiting-propaganda-os.md",
+  "/Users/farricecain/Google Antigravity/_active/farrice-final-10/SEED.md",
+  "/Users/farricecain/Google Antigravity/_active/farrice-final-10/research/icp-substrate.md",
+  "/Users/farricecain/Google Antigravity/_active/farrice-final-10/research/RED-TEAM-VERDICT.md",
+  "/Users/farricecain/Google Antigravity/_active/farrice-final-10/assets/big-domino.md",
+  "/Users/farricecain/Google Antigravity/_active/farrice-final-10/strategy/distribution-and-tracking.md",
+  "/Users/farricecain/Google Antigravity/_active/farrice-final-10/assets/objection-arsenal.md",
+  "/Users/farricecain/Google Antigravity/_active/farrice-final-10/strategy/offer-the-final-10.md",
+  "/Users/farricecain/Google Antigravity/_active/farrice-final-10/assets/attention-content.md",
+  "/Users/farricecain/Google Antigravity/_active/farrice-final-10/README.md"
  ],
  "subagent_spawns": 0,
  "finalized_at": null,
- "last_debt_at": null,
+ "last_debt_at": "2026-07-04T13:18:15.710740",
  "stop_blocked_once": false,
  "staleness_warned": true,
  "miss_logged": false,
  "handoff_pending": false,
  "handoff_warned": false,
  "session_pinned": true,
- "session_pinned_at": "2026-07-01T20:54:42.035739",
+ "session_pinned_at": "2026-07-04T13:33:41.434461",
  "pin_nudged": false,
- "handoff_saved_at": "2026-07-01T20:54:42.035732"
+ "handoff_saved_at": "2026-07-01T20:54:42.035732",
+ "cos_nudged": true
 }

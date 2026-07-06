@@ -24,15 +24,16 @@
  ],
  "produced": true,
  "produced_paths": [
-  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/01-source/context-brief-2026-07-02.md",
-  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/04-deliverables/Katie_FullBody_Recomp_v2.md",
-  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/04-deliverables/Josh_FullBody_GLP1_v2.md",
-  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/00-start-here/README.md",
-  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/katie/README.md",
-  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/josh/README.md",
+  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/katie/workouts/05-fri-foundational-3-unilateral-overhead.md",
+  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/josh/workouts/01-mon-foundational-1-squat-led.md",
+  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/josh/workouts/02-tue-trigger-a-pump-preserve.md",
+  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/josh/workouts/03-wed-foundational-2-push-pull.md",
+  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/josh/workouts/04-thu-trigger-b-zone2-carries.md",
+  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/josh/workouts/05-fri-foundational-3-hinge-led.md",
+  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/josh/workouts/06-onset-fallback-10min.md",
   "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/README.md",
-  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/katie/check-ins/_TEMPLATE.md",
-  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/josh/check-ins/_TEMPLATE.md"
+  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/katie/README.md",
+  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/josh/README.md"
  ],
  "subagent_spawns": 2,
  "finalized_at": "2026-07-02T10:18:32.320945",
@@ -44,5 +45,6 @@
  "handoff_warned": false,
  "session_pinned": false,
  "session_pinned_at": null,
- "pin_nudged": true
+ "pin_nudged": true,
+ "cos_nudged": true
 }

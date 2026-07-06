@@ -42,6 +42,7 @@ if str(REPO_ROOT / "execution") not in sys.path:
     sys.path.insert(0, str(REPO_ROOT / "execution"))
 
 from control_intent import classify_control_intent  # noqa: E402
+from control_intent import strip_explicit_invocation_artifacts  # noqa: E402
 
 REPEATABILITY_CONTROL_TERMS = (
     "copied over everything",
@@ -195,6 +196,17 @@ def _control_route(prompt: str) -> tuple[str, str] | None:
     return None
 
 
+def _has_explicit_skill_invocation(prompt: str) -> bool:
+    """Detect user-provided skill/app invocation links so routing stays quiet."""
+
+    low = prompt.lower()
+    if re.search(r"\[[^\]]+\]\((?:app://|[^)]*(?:/skills/|skill\.md))[^)]*\)", low):
+        return True
+    if re.search(r"/\S*(?:\.codex|\.agents)?/skills/\S*/skill\.md", low):
+        return True
+    return False
+
+
 def _looks_like_expert_task(prompt: str) -> bool:
     """Soft signal only (Wave 3, 2026-07) — no longer gates whether ranking
     runs at all. Every prompt that clears the earlier skip filters gets
@@ -203,7 +215,7 @@ def _looks_like_expert_task(prompt: str) -> bool:
     expert-shaped, so genuinely ambiguous prompts still need a stronger BM25
     match before a suggestion gets injected."""
 
-    low = _normalize(prompt)
+    low = _normalize(strip_explicit_invocation_artifacts(prompt))
     if any(term in low for term in EXPERT_TASK_TERMS):
         return True
     if re.search(r"\b(can you|please|help me|i need)\b", low) and len(low.split()) >= 8:
@@ -394,6 +406,9 @@ def main():
     control = _control_route(prompt)
     if control:
         _emit_control_override(*control)
+
+    if _has_explicit_skill_invocation(prompt):
+        sys.exit(0)
 
     # Soft signal only (Wave 3, 2026-07): expert-shaped phrasing no longer
     # gates whether ranking runs — every prompt that reaches here gets

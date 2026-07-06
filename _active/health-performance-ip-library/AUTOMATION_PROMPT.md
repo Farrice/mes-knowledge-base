@@ -1,6 +1,6 @@
 # Health Performance GEO Client Acquisition Engine
 
-Version: 3.3 Content-First
+Version: 3.4 Market-Domain Creative Intelligence
 Owner: Oren Operational Systems
 Quality wrapper: source-command-high-taste-os / high-taste-writing-os
 Primary specialist: Ethan Smith AEO
@@ -14,7 +14,18 @@ The job is to help Farrice publish high-captivation, educational, perspective-ch
 
 "He understands the market, the buyer, the claim risk, the content angle, and the AI-search opportunity better than we do."
 
-The daily job is not to summarize trends. It is to ignite useful content.
+The daily job is not to summarize trends. It is to understand the market domain like a world-class creative strategist, then ignite useful content.
+
+The engine is not a GLP-1 monitor, a supplement-compliance digest, a proof-boundary report, or a GEO-only scan. Those are allowed signals, but they are not the center.
+
+The center is the health-performance market and the avatar living inside it:
+
+- what buyers, founders, practitioners, and operators are worried about now
+- what category pressures are changing purchase behavior
+- what brands are repeating without noticing
+- what pain points and problems are becoming urgent
+- what cultural language, offer mechanics, creator patterns, and channel shifts are worth tapping into
+- what Farrice can say that shows strategic understanding before he sells anything
 
 Research proves the insight; it does not lead the brief.
 
@@ -52,9 +63,45 @@ Default offer language:
 
 The automation is a content ignition engine before it is a research report.
 
+### Market-Domain Mandate
+
+Every run must start with a broad market-domain scan before angle selection.
+
+Create an internal `Market Domain Map` with at least ten candidate signals across the health-performance domain. At least eight must be non-GLP-1-specific unless the live source environment is genuinely dominated by a cross-market GLP-1 event.
+
+The scan must include multiple signal families:
+
+- metabolic health, food behavior, protein, blood sugar, weight-management culture
+- sleep, recovery, stress, nervous system, HRV, burnout, and performance recovery
+- cognitive performance, focus, mood, mental energy, and operator stamina
+- gut health, hormones, women's health, active aging, longevity, and mobility
+- supplements, ingredients, formulation, trust, safety, and evidence literacy
+- wellness retail, spas, clinics, practitioner-led offers, creator-led brands, B2B wellness
+- fitness, wearables, diagnostics, labs, coaching, and habit-change products
+- AI search, answer engines, SEO/AEO/GEO, citation surfaces, and source-to-search trust
+- social listening, buyer language, category memes, founder anxiety, and objection language
+- creative strategy patterns: offers, hooks, proof mechanisms, landing pages, creator briefs, founder POV, category conventions
+
+Each candidate signal must be interpreted through six lenses:
+
+1. Avatar pain or problem: what a real buyer, founder, operator, or content lead is feeling or trying to solve.
+2. Market movement: what is changing in products, channels, culture, regulation, or buyer behavior.
+3. Creative opening: the post, teardown, story, content series, offer, or campaign angle it could become.
+4. Service relevance: how it connects to copywriting, ghostwriting, creative strategy, brand/content audit, SEO/AEO/GEO, or Source-To-Search work.
+5. Proof need: what source, caveat, receipt, or boundary keeps it trustworthy.
+6. Freshness and non-repetition: whether this expands the content moat instead of repeating yesterday's theme.
+
+GLP-1 is one category signal. It may win only when it reveals a broader market-domain shift, a specific non-obvious buyer pressure, or a stronger creative-strategy opportunity than the alternatives. Do not choose GLP-1 because it is familiar, easy to source, claim-risk heavy, or already present in the ledger.
+
+If GLP-1 wins on a given day, the brief must explicitly show why the angle is broader than GLP-1 and how it connects to the surrounding health-performance market.
+
 ### Meta-Prompt Angle Selection
 
 Before writing the brief, generate 12 possible angles from today's sources.
+At least eight candidate angles must be non-GLP-1-specific. No more than two
+may be GLP-1-adjacent unless there is a major live event with cross-category
+consequences.
+
 Score each angle from 0-5 on:
 
 - Can Farrice immediately talk about this?
@@ -62,10 +109,27 @@ Score each angle from 0-5 on:
 - Is there a buyer tension?
 - Is there a sharp belief shift?
 - Can it become a post, teardown, audit, or offer today?
+- Does it reveal a broader market-domain insight, not just a topic?
+- Does it name a real avatar pain, buying problem, founder anxiety, or category pressure?
+- Does it add a fresh lane to the content data moat instead of repeating the last two briefs?
 
-Pick the single highest-juice angle. Discard the rest unless they directly
-support the winner. Do not build a multi-signal report when one angle has
-enough content gravity.
+Apply a repetition penalty before picking:
+
+- If the same category or motif appeared in either of the last two daily briefs,
+  subtract 2 unless today's source gives it clear cross-market consequences.
+- If the same category or motif appeared in three of the last five briefs,
+  mark it `SATURATED` and choose another lane unless no other lane passes the
+  content-gravity threshold.
+- GLP-1, claim boundaries, and source-safety topics are especially subject to
+  this penalty because they can easily crowd out broader market understanding.
+
+Pick the single highest-juice angle after the market scan and repetition
+penalty. The output can still center one thesis, but the selected thesis must
+come from a broad scan, not from a narrow proof or regulatory lane by default.
+
+Discard the rest unless they directly support the winner, but preserve a compact
+`Market Intelligence Read` in the saved brief so Farrice can see the market
+understanding behind the pick.
 
 ### Skill Order
 
@@ -97,6 +161,37 @@ Required test: the first 300 words of the saved brief must contain:
 
 If the first 300 words are mostly context load, tables, labels, or research
 setup, rewrite the opening before finalizing.
+
+### Creative Strategist Depth Gate
+
+The saved brief must prove market understanding before it proves research
+discipline.
+
+Every run must include a compact `Market Intelligence Read` in Section 0 or
+Section 1. Keep it short and founder-readable. Use bullets, not a table.
+
+Required fields:
+
+- what is pressing in the market today
+- the avatar pain or problem underneath the signal
+- the category convention or repeated pattern Farrice can name
+- the service opportunity hidden inside the pressure
+- one insight that is not a trend summary
+
+The selected angle fails if it only says:
+
+- a topic is trending
+- a regulation or study exists
+- AI search matters
+- a claim needs a source
+- a brand needs a proof surface
+
+The selected angle passes when it shows:
+
+- why the buyer or founder is feeling pressure now
+- what the category misunderstands or keeps repeating
+- what content, offer, audit, or strategy move Farrice can make today
+- how the insight expands his health-performance market understanding
 
 ### Plain-English Conversion Rule
 
@@ -251,31 +346,49 @@ as dullness.
 
 Run the lanes in this order and label each item by lane.
 
-1. **Source Truth Lane**
+1. **Market Domain And Avatar Pressure Lane**
+   - Buyer pain points, founder anxieties, operator problems, category movements,
+     product launches, channel shifts, creator behavior, buyer objections,
+     consumer language, offer conventions, and service demand.
+   - Purpose: understand what is pressing and commercially alive in the health,
+     wellness, supplement, and performance market before choosing a topic.
+
+2. **Market and Offer Lane**
+   - DTC wellness brands, B2B wellness brands, creator-led health brands,
+     productized diagnostics, audit offers, formulation-review offers,
+     copywriting, ghostwriting, AEO/SEO/GEO offers, campaign angles, and
+     category conventions.
+   - Purpose: identify funnel mechanics, offer shapes, price anchors, proof
+     moves, lead magnets, audit hooks, content gaps, and service opportunities.
+
+3. **Social Listening Lane**
+   - Public Reddit threads, public YouTube comments or transcripts, public forum
+     language, public social posts when accessible.
+   - Purpose: extract buyer language, doubts, wince lines, side-effect anxieties,
+     founder anxieties, purchase objections, content fatigue, and lived-experience
+     phrasing.
+
+4. **Creative And Copy Intelligence Lane**
+   - High-performing LinkedIn posts, newsletters, sales pages, ad angles,
+     landing-page structures, teardown posts, founder content, category memes,
+     creator briefs, content series, and repeated copy conventions.
+   - Purpose: identify hooks, pattern breaks, content buckets, visual assets,
+     proof mechanisms, CTA styles, narrative gaps, and copy angles Farrice can
+     adapt without copying.
+
+5. **Source Truth Lane**
    - FDA, FTC, NIH/ODS, PubMed, ClinicalTrials.gov, official company pages, peer-reviewed journals, Google Search Central.
    - Purpose: health claim discipline, supplement safety, regulatory movement, AI-search guidance.
 
-2. **Market and Offer Lane**
-   - DTC wellness brands, B2B wellness brands, creator-led health brands, productized diagnostics, audit offers, formulation-review offers, copywriting, ghostwriting, AEO/SEO/GEO offers.
-   - Purpose: identify funnel mechanics, offer shapes, price anchors, proof moves, lead magnets, audit hooks, content gaps, and category conventions.
-
-3. **AEO/GEO Retrieval Lane**
+6. **AEO/GEO Retrieval Lane**
    - Google Search Central, visible AI-search documentation, answer-engine behavior reports, citation studies, observed public search results where available.
    - Purpose: identify long-tail questions, citation gaps, information-gain opportunities, retrieval-source targets, share-of-voice questions, and answer-engine ghostwriting angles.
 
-4. **Social Listening Lane**
-   - Public Reddit threads, public YouTube comments or transcripts, public forum language, public social posts when accessible.
-   - Purpose: extract buyer language, doubts, wince lines, side-effect anxieties, founder anxieties, purchase objections, content fatigue, and lived-experience phrasing.
-
-5. **Creative And Copy Intelligence Lane**
-   - High-performing LinkedIn posts, newsletters, sales pages, ad angles, landing-page structures, teardown posts, founder content, category memes, and repeated copy conventions.
-   - Purpose: identify hooks, pattern breaks, content buckets, visual assets, proof mechanisms, CTA styles, and copy angles Farrice can adapt without copying.
-
-6. **Prospect And Audit Lane**
+7. **Prospect And Audit Lane**
    - Public brand websites, product pages, blogs, founder LinkedIn pages, content libraries, search results, and visible citation surfaces when available.
    - Purpose: convert the day's signal into a concrete audit lens for a real or archetypal prospect.
 
-7. **Personal IP Lane**
+8. **Personal IP Lane**
    - Prior local library entries, Farrice brand material when relevant, previous daily briefs, and the current insight ledger.
    - Purpose: compound recurring themes into owned language, named frameworks, content series, offers, and a content data moat.
 
@@ -302,7 +415,10 @@ Keep this short. Do not let process notes become the opening experience.
 Include:
 
 - owner, mode, route proof, golden sample status, and local context used
+- compact Market Intelligence Read: pressing market pressure, avatar pain,
+  category pattern, service opportunity, and non-obvious insight
 - the winning angle and why it beat the other candidates
+- why the winning angle is not merely a repeated motif from the last two briefs
 - source/proof posture: VERIFIED, LIKELY, and UNCONFIRMED
 - Google Drive export status
 - one open risk
@@ -557,6 +673,10 @@ Before finalizing, verify:
 - a clear Story Compass sentence is present
 - `### 4. Farrice Riff Fuel` makes a 60-120 second voice memo easy to record
 - source claims remain labeled `VERIFIED`, `LIKELY`, or `UNCONFIRMED`
+- the brief includes a compact Market Intelligence Read
+- at least eight angle candidates were non-GLP-1-specific before final selection
+- GLP-1 was not selected by default or because it was the easiest proof lane
+- the winning angle names a real avatar pain, market pressure, and service opportunity
 - JSONL validates line by line
 - Google Drive export remains disabled
 - `content_finish_gate.py`, `grounding_guard.py`, and export format guard run

@@ -32,6 +32,7 @@ PROBES = [
     ("source to skill system reusable operating layer", "source-to-skill-system"),
     ("Codex hooks are not firing", "system-audit"),
     ("Codex explains and plans instead of executing safe local next actions", "system-audit"),
+    ("Codex is failing across split workspaces with global/workspace drift and not-firing hooks", "system-audit"),
     ("execution bias repair with parallel agents", "system-audit"),
     ("Why do I have to be so deterministic with you in Codex compared to Claude Code?", "system-audit"),
     ("The pre-flight things did not kick in and I had to iterate 5 to 6 times.", "system-audit"),

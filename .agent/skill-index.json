@@ -260,6 +260,16 @@
     "status": ""
   },
   {
+    "name": "Ben Watkins \u2014 Commercial Storytelling & The Pitch Room",
+    "directory": "ben-watkins-storytelling",
+    "description": "The showrunner-who-sells method from the EP of Burn Notice (7 seasons) and showrunner of Cross (#1 on Amazon Prime), grounded in his 2026 Anatomy of a Dream interview. Owns the wedge no other roster expert covers: engineering emotion to sell an idea live in the pitch room and to stop the scroll on the feed. 14 workflows for the four pillars (attention \u2192 feel \u2192 teach \u2192 leave wanting), the 3 C's Titanic stack, the subtraction discipline (know what to leave out), infect-with-purpose / read-the-room / truncate-on-buy-in pitch psychology, call-them-by-their-name recognition, brand-as-a-show world-building, and the /bw-story-selling-system conductor that deploys the whole method across brand, pitch, and content.",
+    "when_to_use": "",
+    "mtime": 1783316514.5131276,
+    "slash": "/ben-watkins-storytelling",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "benjamin-hardy-identity",
     "directory": "benjamin-hardy-identity",
     "description": "Dr. Benjamin Hardy's identity-based goal psychology \u2014 the future as a psychological tool, 10x-is-easier-than-2x goal architecture, frame/floor/focus elimination, and operating FROM your future self instead of toward it.",
@@ -994,7 +1004,7 @@
     "directory": "fantastic-posters",
     "description": "Generates, edits, and transparency-strips images across 38 visual styles via GPT Image 2 (Fal), and animates poster outputs into video via Seedance 2.0 + Kling v3 Pro. Full GPT-Image-2 surface \u2014 text-to-image, mask-based edits (--input + --mask), multi-variant batching (--variants 1-4 in one API call), background removal (--rembg \u2192 transparent PNG), dimensions up to 3840\u00d72160. 5 typography-first presets (chalkboard, store window, menu, packaging, UI mockup) where the lettering IS the picture. Image-to-video bridge \u2014 any poster output becomes a video input frame. Use when the user says \"make a poster\", \"edit this poster\", \"swap the headline\", \"make a transparent logo\", \"make a video\", \"animate this poster\", \"image to video\", \"video trailer\", or names any of the 38 styles (vintage, Swiss, Ukiyo-e, brutalism, neon-noir, editorial). Trigger proactively whenever the user shares a brand and asks to \"visualize\" it \u2014 stylized image generation is this skill, not Canva or generic image tools.",
     "when_to_use": "- **`--input` (explicit edit mode)**: User wants to modify an existing image. Pass the image URL/path and describe ONLY the change. Example: `\"swap the headline to 'TONIGHT'\" --input=https://.../poster.png`. See `directives/fal-edit-mode-guide.md` for full guidance.\n- **`--mask` (surgical edit)**: Pair with `--input` (or `--refs`/`--template`) when the change is region-specific. Mask is B/W: white = edit, black = preserve. Same dimensions as input.\n- **`--variants=N` (cheap multi-variant)**: Use when you want N siblings of the same prompt (1 API call, N images, total cost N \u00d7 per-image). For diverse interpretations, use `--n=N` instead (N separate API calls with per-call diversity nudge).\n- **`--rembg` (transparency)**: Use for logos, stickers, cutouts. Adds ~$0.005/image. Requires a separate budget guard log entry under `--mode=rembg` per `directives/fal-usage-policy.md`.\n- **`--size=banner-3to1|hero-2to1|poster-xl|WxH`**: Use for hero banners, large social headers, billboards. Cost is the same regardless of dimensions \u2014 only `--quality` changes the price. Invalid sizes (>3840 edge, aspect >3:1, pixels outside [655K, 8.3M]) rejected before the API call.",
-    "mtime": 1779570615.7660398,
+    "mtime": 1783181057.6707203,
     "slash": "/fantastic-posters",
     "routing": "",
     "status": ""
@@ -2890,11 +2900,11 @@
     "status": ""
   },
   {
-    "name": "Satori Graphics: Composition + Logo Thinker",
+    "name": "Satori Graphics: Design-Thinking + Composition + Color Engine",
     "directory": "satori-graphics",
-    "description": "Composition theory, layout flow, logo concept methodology, and design psychology. Where typography handles type, Satori handles how the page itself thinks \u2014 movement, grids, leverage points, friction, and the psychology that makes designs memorable.",
+    "description": "The design-thinking brain: originates concepts and color systems, then engineers composition, layout, logo, and design psychology. Starts from the communication problem and the audience's perception \u2014 not the layout. v2 adds the generative layer (concept engine, strategic color, end-to-end production pipeline) on top of v1's audit machinery.",
     "when_to_use": "Route to the right expert instead:\n\n| Need | Route to |\n|---|---|\n| Pure typography selection | `kittl-graphic-design` |\n| DESIGN.md token codification (color/type/component) | `jack-roberts-design-mastery` or `design-md` |\n| AI image / video prompt engineering | `creative-direction` (Creative Director) |\n| Stylized poster production (Fal API) | `fantastic-posters` |\n| Brand strategy / positioning | `greg-hoffman-brand-mastery` or `dai-media` |\n| UI component code from DESIGN.md | `product-design-build` |\n| Personal brand strategy | `caleb-ralston-personal-brand` or `jun-yuh-personal-brand` |\n| Anti-slop audit (AI-tells in copy/output) | `jack-roberts-design-mastery /anti-slop` |\n\nSatori is for the **composition, layout flow, logo concept, and design psychology** layer \u2014 between type and DESIGN.md codification.\n\n---",
-    "mtime": 1777843720.4187498,
+    "mtime": 1783178367.4707341,
     "slash": "/satori-graphics",
     "routing": "",
     "status": ""
