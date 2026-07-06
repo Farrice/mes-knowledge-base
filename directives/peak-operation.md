@@ -16,6 +16,7 @@ Every strong outcome today followed the same five-beat shape. Reproduce the shap
 
 | Outcome envisioned | Run this — do not rebuild it |
 |---|---|
+| **A messy thought, any domain — "just make this happen"** | **`/go` (2026-07-06): silent DICE compile → written assumptions (max ONE question round) → run packet with taste refs → routes to the right conductor below → delivers + 3 Next-Prompts. The anti-bottleneck front door — the system sharpens intent, not Farrice** |
 | **Any content, any purpose (education/value/AHA/personal/client)** | **`/create` — the universal conductor (2026-07-06): outcome contract (≥2 engineered outcomes) → context richness (memory facade + COS goals + thought-bank) → live zeitgeist (perplexity/recall/research.py, receipts required) → route to the specialist stack → proven recipe → gates. Composes the engines below; never replaces them** |
 | Multi-deliverable marketing/creative mission | `/supercomputer` |
 | Gate-suppressed end-to-end run (3 taste gates only) | `/autopilot` |
