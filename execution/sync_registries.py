@@ -10,6 +10,8 @@ a command we did not generate (the 598 hand-written workflow shims are untouched
 import argparse
 import os
 import re
+import subprocess
+import sys
 from collections import Counter
 
 SKILLS_DIR = "skills"
@@ -490,6 +492,34 @@ def sync_skill_commands():
         )
 
 
+def sync_slash_commands_index():
+    """Regenerate SLASH_COMMANDS.md with complete command index.
+
+    Calls execution/generate_slash_commands.py to rebuild the index idempotently.
+    This keeps the command index current whenever workflows or commands change.
+    """
+    try:
+        result = subprocess.run(
+            [sys.executable, "execution/generate_slash_commands.py"],
+            capture_output=True,
+            text=True,
+            timeout=30,
+        )
+        if result.returncode != 0:
+            print(f"⚠️  SLASH_COMMANDS.md regeneration failed: {result.stderr}")
+            return
+        # Print the generator's output
+        if result.stdout:
+            for line in result.stdout.strip().split("\n"):
+                print(f"   {line}")
+    except subprocess.TimeoutExpired:
+        print("⚠️  SLASH_COMMANDS.md regeneration timed out")
+    except FileNotFoundError:
+        print("⚠️  generate_slash_commands.py not found")
+    except Exception as e:
+        print(f"⚠️  SLASH_COMMANDS.md regeneration error: {e}")
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Sync Antigravity registries and optional skill command shims.")
     parser.add_argument(
@@ -507,3 +537,5 @@ if __name__ == "__main__":
     sync_skills()
     if not args.indexes_only:
         sync_skill_commands()
+    print("\n📚 Regenerating command index...")
+    sync_slash_commands_index()
