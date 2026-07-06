@@ -16,6 +16,13 @@ Do not treat `GEMINI.md` or `CLAUDE.md` as primary routing authority in Codex. U
 
 ## Codex Control Plane
 
+- Front doors (2026-07-06): `/go "<messy thought>"` is the anti-bottleneck
+  staging path: silent DICE compile, written assumptions, max one question
+  round, run packet, then route to the right conductor. `/create` is the
+  universal content conductor: outcome contract with at least two engineered
+  outcomes, context richness, live zeitgeist with receipts, purpose routing,
+  proven recipe, and gates. For multi-step or quality-critical orchestration,
+  load `directives/peak-operation.md` before decomposing the work.
 - `/autopilot` is the intent-to-outcome front door for raw context, co-creative launchpad packets, intent lock, routing, visible trace, safe workspace-local execution, verification, run receipts, and risk-gated judgment.
 - `/system-audit` is the control-plane audit route for "built but not firing," competing defaults, broken routing, bridge drift, activation telemetry, and Autopilot behavior repair.
 - Operator Cockpit V2 is the pre-action cockpit for non-trivial work. Use `python3 execution/operator_cockpit.py --intent "<raw request>" --plain` to render the Intent Confidence Packet, current cockpit status, local friction capture, retrieval home, proof plan, and global mirror checkpoint before meaningful mutation.
