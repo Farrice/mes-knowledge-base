@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** harness-frontier-loops  
-**Full path:** .agent/handoffs/2026-07-06-harness-frontier-loops.md  
-**Date:** 2026-07-06 (today)  
-**Status:** ready  
-**Title:** Antigravity Harness — Frontier Session (7 Missions: Router Learns + /go + Doctrine)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume harness-frontier-loops` for this one.
-
----
-
 ---
 thread: harness-frontier-loops
 status: ready
@@ -61,4 +49,3 @@ pin: true
 - `/system-audit` — if anything control-plane feels off
 - `/claim-safe` — any health-brand copy (Path A)
 - `superpowers:verification-before-completion` — hold the session's verify-by-execution bar
-
