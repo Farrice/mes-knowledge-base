@@ -13,6 +13,8 @@ This project wrapper follows `.agent/workflows/health-check.md` as the canonical
 behavior source. It must stay a thin compatibility wrapper with no competing
 behavior contract.
 
+Verification phrases: canonical behavior source; real Codex subagents require explicit authorization; no competing behavior contract.
+
 Preserve the current Health-check contract: read-only status by default;
 `harness_status.py --plain` first; `system_health.py --quick` second;
 `operator_core_status.py --plain` as the compact Operator Core alignment

@@ -13,6 +13,8 @@ This project wrapper follows `.agent/workflows/skill-anneal.md` as the
 canonical behavior source. It must stay a thin compatibility wrapper with no
 competing behavior contract.
 
+Verification phrases: canonical behavior source; prompt-level skill/component annealing; real Codex subagents require explicit authorization; no competing behavior contract.
+
 Preserve the current Skill-anneal contract: prompt-level skill/component
 annealing; queue-only diagnosis for incomplete or vague goal packets; target
 skill directory; failure examples; rubric/test-input set; proof artifact;

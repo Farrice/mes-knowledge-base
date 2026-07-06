@@ -115,8 +115,8 @@ Fallback: `/recommend`
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-03-11 |
-| **Activation Count** | 0 |
-| **30-Day Review Date** | 2026-04-11 |
+| **Last Activated** | 2026-07-06 (codex parity verifier run) |
+| **Activation Count** | 1 |
+| **30-Day Review Date** | 2026-08-05 |
 
 *Created: 2026-03-02 | Compressed: 2026-04-13*

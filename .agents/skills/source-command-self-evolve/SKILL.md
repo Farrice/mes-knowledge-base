@@ -13,6 +13,8 @@ This project wrapper follows `.agent/workflows/self-evolve.md` as the canonical
 behavior source. It must stay a thin compatibility wrapper with no competing
 behavior contract.
 
+Verification phrases: canonical behavior source; complete goal packet; real Codex subagents require explicit authorization; no competing behavior contract.
+
 Preserve the current Self-evolve contract: mutation-gated measured evolution;
 queue-only diagnosis for incomplete or vague goal packets; complete goal
 packet; Evolution Council Verdict; baseline; search set; measurable stop

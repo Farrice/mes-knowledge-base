@@ -12,6 +12,8 @@ This workflow is the canonical source of truth for Routing-intelligence
 behavior. Global and local Routing-intelligence wrappers must stay thin
 compatibility wrappers that point back here, not competing behavior contracts.
 
+Verification phrase: canonical source of truth for Routing-intelligence behavior.
+
 Preserve these invariants:
 
 - `/routing-intelligence` is read-only analytics by default.

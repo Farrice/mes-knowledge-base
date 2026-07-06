@@ -16,6 +16,8 @@ Preserve these invariants:
 
 - `/health-check` is read-only by default.
 - Start with `python3 execution/harness_status.py --plain` for the trust/status surface.
+- Add `python3 execution/savant_control_room.py --plain` for the compact control-room view.
+- Add `python3 execution/operator_core_fast_proof.py --plain` for fast Operator Core proof.
 - Then run `python3 execution/system_health.py --quick` for activation and feedback-loop detail.
 - Include `python3 execution/operator_core_status.py --plain` as the compact Operator Core alignment closeout.
 - Do not write reports, sync Notion, optimize routes, mutate Mission, or perform cleanup unless explicitly requested.
@@ -33,6 +35,8 @@ health-check
 ### 1. Run the Health Check Script
 ```bash
 python3 execution/harness_status.py --plain
+python3 execution/savant_control_room.py --plain
+python3 execution/operator_core_fast_proof.py --plain
 python3 execution/system_health.py --quick
 python3 execution/operator_core_status.py --plain
 ```

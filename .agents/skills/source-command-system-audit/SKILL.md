@@ -13,6 +13,8 @@ This project wrapper follows `.agent/workflows/system-audit.md` as the
 canonical behavior source. It must stay a thin compatibility wrapper with no
 competing behavior contract.
 
+Verification phrase: no competing behavior contract.
+
 Preserve the current System-audit contract:
 
 - control-plane audit and repair

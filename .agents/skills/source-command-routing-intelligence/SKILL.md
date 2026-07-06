@@ -13,6 +13,8 @@ This project wrapper follows `.agent/workflows/routing-intelligence.md` as the
 canonical behavior source. It must stay a thin compatibility wrapper with no
 competing behavior contract.
 
+Verification phrases: canonical behavior source; read-only routing analytics by default; real Codex subagents require explicit authorization; no competing behavior contract.
+
 Preserve the current Routing-intelligence contract: read-only routing analytics
 by default; `routing_intelligence.py scoreboard` first; focused read-only views
 for utilization, unused, domain-dist, top-combos, and underperforming;

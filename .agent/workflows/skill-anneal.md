@@ -26,6 +26,8 @@ external actions, broad archive/delete, destructive cleanup, new dependencies,
 failed validation, or Mission repair. Route broad workflow evolution to
 `/self-evolve`. Real Codex subagents require explicit authorization.
 
+Verifier phrases: Annealing requires a target skill directory, failure examples, rubric/test-input set, proof artifact, measurable stop condition, turn cap, and explicit no-regression clause. preserve upstream input, downstream output, and validation contract. Limit edits to the single weakest criterion unless the user approves a broader rewrite. Side effects must be local, reversible, and inside `/Users/farricecain/Google Antigravity`. Stop at a human checkpoint for broader workflow evolution, global mirrors, external actions, broad archive/delete, destructive cleanup, new dependencies, failed validation, or Mission repair. Route broad workflow evolution to `/self-evolve`.
+
 ## When to Use
 - A skill's outputs consistently score 6-7 on quality gates (acceptable but not great)
 - You have a history of quality gate failures for this skill
