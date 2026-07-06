@@ -15,7 +15,7 @@
     "new skill/agent/workflow ship (with discipline: add at least 1 eval entry per ship)"
   ],
   "still_paused": [
-    "Phase 3 cross-pollination \u2014 UNLOCK CONDITION (made concrete 2026-07-02 audit): eval_set_v1.jsonl reaches >=15 human-calibrated entries (E3 blind-pass bake-off ratings count) AND one Phase 2 cycle completes on a calibrated candidate",
+    "Phase 3 cross-pollination \u2014 E3 bake-off condition SATISFIED 2026-07-02 (see e3_bakeoff_result below); REMAINING unlock condition: one Phase 2 (/skill-evolution) cycle completes on a calibrated candidate",
     "Autonomous skill modification on skills without ground-truth benchmarks (unchanged)"
   ],
   "verification_evidence": {
@@ -29,6 +29,18 @@
   "audit_2026_07_02": {
     "finding": "Phase 2 was READY but never run; candidate scan shows ~324 skills lack scored local performance evidence \u2014 grade-inflation flattening (composite 7.25) starves candidate selection. Rubric calibration via E3 bake-off is the true unlock for the whole cascade.",
     "phase2_status": "primed \u2014 candidate snapshot written by skill_evolution_candidates.py scan; top rec: maria-wendt-digital-products (watchlist, do not mutate yet)",
-    "next": "After E3 bake-off: run /skill-evolution <calibrated candidate>, then lift Phase 3 pause"
-  }
+    "next": "E3 bake-off COMPLETE (see e3_bakeoff_result) \u2014 remaining step: run /skill-evolution <calibrated candidate>, then lift Phase 3 pause"
+  },
+  "e3_bakeoff_result": {
+    "completed_at": "2026-07-02T14:58:00Z",
+    "outcome": "PASSED",
+    "blind_detection": "5/15",
+    "preference_for_generated": "8-6-1",
+    "eval_set_v1_entries_total": 31,
+    "eval_set_v1_entries_human_calibrated": 27,
+    "bar_required": 15,
+    "note": "eval_set_v1.jsonl exceeds the 15-entry human-calibrated bar this file previously described as the Phase 3 unlock condition."
+  },
+  "updated_at": "2026-07-06T00:00:00Z",
+  "provenance_note": "corrected by system audit 2026-07-06 \u2014 this file was last touched 2026-07-02T10:05, before the E3 bake-off completed the same day (~14:58) and PASSED. still_paused previously mis-narrated Phase 3 as blocked on E3. Actual remaining Phase-3 blocker: one Phase 2 (/skill-evolution) cycle on a calibrated candidate."
 }

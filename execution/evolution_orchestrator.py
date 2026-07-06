@@ -74,6 +74,14 @@ ROUTING_VIOLATION_TRIGGER = 3   # violations per binding to trigger binding revi
 WEEKLY_DAYS = 7
 MONTHLY_DAYS = 30
 
+# Catch-up threshold (Fix, 2026-07-06 audit): StartCalendarInterval launchd
+# jobs are silently skipped when the machine is asleep at the scheduled
+# minute — observed 7 missed days in June 2026, no catch-up. If the daily
+# cycle is this stale by the time ANY `auto` invocation happens (whenever
+# the machine next wakes/checks in), it runs immediately and is tagged
+# catchup:true in the log rather than silently waiting for tomorrow's slot.
+CATCHUP_STALE_HOURS = 36
+
 
 # ─────────────────────────────────────────────────────────
 # State management
@@ -642,25 +650,112 @@ def run_monthly() -> Dict[str, Any]:
 # Auto cycle (decides what's due)
 # ─────────────────────────────────────────────────────────
 
+def _hours_since(last_run_iso: Optional[str]) -> Optional[float]:
+    if not last_run_iso:
+        return None
+    try:
+        last = datetime.fromisoformat(last_run_iso)
+        return (datetime.now() - last).total_seconds() / 3600.0
+    except Exception:
+        return None
+
+
+def _ran_same_calendar_day(last_run_iso: Optional[str]) -> bool:
+    if not last_run_iso:
+        return False
+    try:
+        return datetime.fromisoformat(last_run_iso).date() == date.today()
+    except Exception:
+        return False
+
+
+def _skip_reason(cycle: str, last_run_iso: Optional[str], days_between: int) -> Dict[str, Any]:
+    """Build a self-describing skip record instead of a bare cycle name.
+
+    Distinguishes 'already ran earlier today, this is a second invocation
+    the same day' (routine — e.g. a second same-day trigger) from 'genuinely
+    not due yet' (e.g. weekly waiting mid-week) — a bare ["daily", ...] list
+    with no timestamp made a healthy second-invocation skip indistinguishable
+    from a failed run when read back from the log (2026-07-06 audit finding).
+    """
+    entry: Dict[str, Any] = {"cycle": cycle, "last_run": last_run_iso}
+    if not last_run_iso:
+        entry["reason"] = "never_run"
+        return entry
+    hours = _hours_since(last_run_iso)
+    if days_between <= 1 and _ran_same_calendar_day(last_run_iso):
+        entry["reason"] = "already_ran_today"
+    else:
+        entry["reason"] = "not_due_yet"
+    if hours is not None:
+        days_elapsed = hours / 24.0
+        entry["days_remaining"] = max(0.0, round(days_between - days_elapsed, 2))
+    return entry
+
+
 def run_auto() -> Dict[str, Any]:
-    """Run all due cycles based on last-run state."""
+    """Run all due cycles based on last-run state.
+
+    Includes catch-up handling (2026-07-06 fix): StartCalendarInterval
+    launchd jobs are missed entirely when the machine is asleep at the
+    scheduled minute (7 missed days observed in June 2026, no catch-up
+    previously). If the daily cycle is stale by more than
+    CATCHUP_STALE_HOURS by the time this runs, it fires immediately and is
+    tagged catchup:true. Guarded against double-running daily twice in the
+    same calendar day (e.g. a stray second invocation later the same day
+    after an earlier successful run) via _ran_same_calendar_day.
+
+    Each cycle is wrapped independently so one cycle throwing never
+    prevents the others from running, from updating their own state, or
+    from being reflected in this invocation's returned/printed record —
+    previously an uncaught exception in one cycle meant main() never
+    reached its print() call and the whole invocation vanished from the
+    log with no trace.
+    """
     state = _load_state()
-    out = {"ran": [], "skipped": []}
+    out: Dict[str, Any] = {"run_at": datetime.now().isoformat(), "ran": [], "skipped": []}
+    errors: List[Dict[str, Any]] = []
 
-    if _is_due(state.get("last_daily"), 1):
-        out["ran"].append({"daily": run_daily()})
+    # --- daily ---
+    last_daily = state.get("last_daily")
+    if _ran_same_calendar_day(last_daily):
+        out["skipped"].append(_skip_reason("daily", last_daily, 1))
+    elif _is_due(last_daily, 1):
+        hours = _hours_since(last_daily)
+        try:
+            daily_result = run_daily()
+            entry: Dict[str, Any] = {"daily": daily_result}
+            if hours is not None and hours >= CATCHUP_STALE_HOURS:
+                entry["catchup"] = True
+                entry["hours_since_last_run"] = round(hours, 1)
+            out["ran"].append(entry)
+        except Exception as exc:
+            errors.append({"cycle": "daily", "error": str(exc)})
     else:
-        out["skipped"].append("daily")
+        out["skipped"].append(_skip_reason("daily", last_daily, 1))
 
-    if _is_due(state.get("last_weekly"), WEEKLY_DAYS):
-        out["ran"].append({"weekly": run_weekly()})
+    # --- weekly ---
+    last_weekly = state.get("last_weekly")
+    if _is_due(last_weekly, WEEKLY_DAYS):
+        try:
+            out["ran"].append({"weekly": run_weekly()})
+        except Exception as exc:
+            errors.append({"cycle": "weekly", "error": str(exc)})
     else:
-        out["skipped"].append("weekly")
+        out["skipped"].append(_skip_reason("weekly", last_weekly, WEEKLY_DAYS))
 
-    if _is_due(state.get("last_monthly"), MONTHLY_DAYS):
-        out["ran"].append({"monthly": run_monthly()})
+    # --- monthly ---
+    last_monthly = state.get("last_monthly")
+    if _is_due(last_monthly, MONTHLY_DAYS):
+        try:
+            out["ran"].append({"monthly": run_monthly()})
+        except Exception as exc:
+            errors.append({"cycle": "monthly", "error": str(exc)})
     else:
-        out["skipped"].append("monthly")
+        out["skipped"].append(_skip_reason("monthly", last_monthly, MONTHLY_DAYS))
+
+    if errors:
+        out["errors"] = errors
 
     return out
 

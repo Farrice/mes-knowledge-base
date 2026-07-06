@@ -35,6 +35,14 @@ if not Path(PY).exists():
     PY = sys.executable
 DB = ROOT / ".memory" / "sovereign.db"
 
+# Review-queue staleness escalation (2026-07-06 fix): the script already
+# prints a "review queue" reminder line, but a reminder never louder than
+# the last one lets a `flagged_review` item age indefinitely (observed: 9
+# pending, oldest 36 days as of 2026-07-06). Nothing else in the system
+# escalates on age, so this script — the one thing guaranteed to run daily
+# — is where it has to happen.
+STALE_REVIEW_DAYS = 14
+
 
 def coverage() -> tuple[int, int]:
     con = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
@@ -44,6 +52,26 @@ def coverage() -> tuple[int, int]:
     finally:
         con.close()
     return emb, total
+
+
+def oldest_pending_review_age_days() -> tuple[int, float] | None:
+    """(pending_count, age_days_of_oldest) for flagged_review, or None if none pending."""
+    con = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
+    try:
+        row = con.execute(
+            "SELECT COUNT(*), MIN(created_at) FROM flagged_review WHERE status = 'pending'"
+        ).fetchone()
+    finally:
+        con.close()
+    count, oldest = row if row else (0, None)
+    if not count or not oldest:
+        return None
+    try:
+        oldest_dt = datetime.fromisoformat(oldest)
+    except Exception:
+        return None
+    age_days = (datetime.now(timezone.utc) - oldest_dt).total_seconds() / 86400.0
+    return count, age_days
 
 
 def run(cmd: list[str], env: dict | None = None, timeout: int = 3600) -> int:
@@ -57,6 +85,18 @@ def run(cmd: list[str], env: dict | None = None, timeout: int = 3600) -> int:
         return -1
 
 
+def _log_review_queue_staleness(now: str) -> None:
+    review = oldest_pending_review_age_days()
+    if review is None:
+        return
+    count, age_days = review
+    if age_days > STALE_REVIEW_DAYS:
+        print(
+            f"[{now}] ⚠️ REVIEW QUEUE STALE: {count} pending, oldest {age_days:.0f} days "
+            f"(>{STALE_REVIEW_DAYS}d threshold) — run memory_review.py"
+        )
+
+
 def main() -> int:
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     before, total = coverage()
@@ -64,6 +104,7 @@ def main() -> int:
     if before >= total:
         # 1-second no-op path: everything embedded; nothing to do unless new rows appear.
         print(f"[{now}] harvest-memory-daily: coverage complete ({before}/{total}) — no-op")
+        _log_review_queue_staleness(now)
         return 0
 
     # 1. EMBED — up to today's quota (429s near the cap are expected; script never fails on them)
@@ -84,6 +125,7 @@ def main() -> int:
     print(f"[{now}] harvest-memory-daily: embedded +{gained} → {after}/{total} ({pct:.1f}%) · distill: {distilled}")
     if after >= total:
         print(f"[{now}] 🎉 embedding coverage COMPLETE — review queue: python3 execution/memory_review.py list")
+    _log_review_queue_staleness(now)
     return 0
 
 
