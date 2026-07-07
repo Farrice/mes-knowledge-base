@@ -57,3 +57,8 @@
 {"ts": "2026-07-06T17:28:34.124801+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
 {"ts": "2026-07-06T18:08:25.820723+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
 {"ts": "2026-07-06T18:19:13.371198+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
+{"ts": "2026-07-07T14:19:52.315836+00:00", "event": "check", "service": "gemini-deep-research", "decision": "approved", "request": ""}
+{"ts": "2026-07-07T14:19:52.356249+00:00", "event": "check", "service": "perplexity-research", "decision": "needs_approval", "request": ""}
+{"ts": "2026-07-07T14:22:14.434897+00:00", "event": "check", "service": "gemini-deep-research", "decision": "approved", "request": "cd /Users/farricecain/Google\\ Antigravity && grep -A 10 \"def research\" execution/deep_research_engine.py | head -20"}
+{"ts": "2026-07-07T14:23:15.083548+00:00", "event": "check", "service": "gemini-deep-research", "decision": "approved", "request": ""}
+{"ts": "2026-07-07T14:23:15.174029+00:00", "event": "check", "service": "perplexity-research", "decision": "needs_approval", "request": ""}

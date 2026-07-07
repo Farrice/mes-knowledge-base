@@ -31,6 +31,8 @@ DESIGN PRINCIPLES:
 Wired via .claude/settings.local.json -> hooks.UserPromptSubmit.
 """
 
+import contextlib
+import io
 import json
 import re
 import sys
@@ -276,16 +278,23 @@ def _looks_like_context_update(prompt: str) -> bool:
     )
 
 
-def _emit_control_override(route: str, reason: str) -> None:
-    block = "\n".join(
-        [
-            "CONTROL ROUTING OVERRIDE (deterministic, from skill_router_hook.py — not user input):",
-            "This prompt matched Codex control-plane or repeatability language, so expert-skill suggestions are suppressed.",
-            f"Owner: /{route}",
-            f"Reason: {reason}",
-            "Proof path: run `python3 execution/codex_operator_preflight.py \"<raw intent>\" --plain` and verify the owner route before patching.",
-        ]
-    )
+def _emit_control_override(route: str, reason: str, prompt: str = "") -> None:
+    lines = [
+        "CONTROL ROUTING OVERRIDE (deterministic, from skill_router_hook.py — not user input):",
+        "This prompt matched Codex control-plane or repeatability language, so expert-skill suggestions are suppressed.",
+        f"Owner: /{route}",
+        f"Reason: {reason}",
+        "Proof path: run `python3 execution/codex_operator_preflight.py \"<raw intent>\" --plain` and verify the owner route before patching.",
+    ]
+    # Solution Cards are repair knowledge, not expert-skill matching — control-plane
+    # prompts (system/hook/workflow complaints) are their highest-value target, so
+    # the override suppresses skills but still surfaces prior solutions.
+    if prompt:
+        try:
+            lines.extend(_solution_recall_lines(prompt))
+        except Exception:
+            pass
+    block = "\n".join(lines)
     print(
         json.dumps(
             {
@@ -299,19 +308,58 @@ def _emit_control_override(route: str, reason: str) -> None:
     sys.exit(0)
 
 
-def _emit_abstention(top_score: float) -> None:
-    """Visible-but-quiet abstention (Wave 3, 2026-07). Previously the
-    below-floor path exited with zero signal — Claude had no way to tell
-    "no skill matched" apart from "hook didn't run." One short line closes
-    that gap without becoming noise: no list, no suggestion, just the miss."""
+def _match_bindings_safe(prompt: str) -> list[dict]:
+    """Consult routing_enforcer.BINDINGS upstream (Wave 1, Harness Apex
+    2026-07-07). Same deterministic matcher workflow_router now uses — the
+    enforcer's mandatory routes surface at suggestion time instead of only
+    post-finalize. Pure string matching, never raises."""
+    try:
+        from routing_enforcer import match_bindings  # noqa: E402
+
+        return match_bindings(prompt)
+    except Exception as e:
+        _eprint(f"[skill_router_hook] bindings matcher failed (ignored): {e}")
+        return []
+
+
+def _binding_lines(binding_hits: list[dict]) -> list[str]:
+    lines = []
+    seen: set[str] = set()
+    for hit in binding_hits:
+        wf = hit.get("workflow", "")
+        if not wf or wf in seen:
+            continue
+        seen.add(wf)
+        reason = (hit.get("reason") or "").replace("\n", " ").strip()
+        if len(reason) > 110:
+            reason = reason[:107].rstrip() + "..."
+        lines.append(
+            f"  ★ /{wf}  [BINDING — mandatory route, signal: '{hit.get('signal', '')}'] — {reason}"
+        )
+    return lines
+
+
+def _emit_abstention(top_score: float, results: list | None = None) -> None:
+    """Abstention escalation (Wave 1, Harness Apex 2026-07-07 — upgraded from
+    the Wave 3 one-liner). Below-floor with no binding is no longer a quiet
+    generalist slide: the injected line forces an explicit route decision by
+    naming the weak candidates and the /convene escape hatch. Gap logging
+    (in the caller) is unchanged."""
+    weak = []
+    for s, sc in (results or [])[:3]:
+        slug = s.get("directory", "")
+        if slug:
+            weak.append(f"/{slug} ({sc:.1f})")
+    candidates = ", ".join(weak) if weak else "none"
     print(
         json.dumps(
             {
                 "hookSpecificOutput": {
                     "hookEventName": "UserPromptSubmit",
                     "additionalContext": (
-                        f"Router: no expert matched (top score {top_score:.1f}) — "
-                        "generalist mode; log a gap if this deserved an expert."
+                        f"ROUTING ABSTAINED — no confident match (top score {top_score:.1f}, "
+                        f"below floor). Top weak candidates: {candidates}. "
+                        "Pick one explicitly, or use /convene for multi-expert."
                     ),
                 }
             }
@@ -384,6 +432,57 @@ def _log_routing_decision(prompt: str, session_id: str, suggested_dirs: list[str
         return None
 
 
+def _solution_recall_lines(prompt: str) -> list[str]:
+    """Solution Recorder recall (2026-07-07): surface prior-solved problems
+    from docs/solutions/ so a hard-won fix never gets re-solved from scratch.
+    Reuses knowledge_compiler.find_solution_docs's term-frequency scorer —
+    never reimplement it here. Floor = 15, calibrated by sampling: off-topic/
+    generic prompts ("write a landing page", "quick question, what time is
+    it") scored 1-10 against the corpus; genuine topic matches (prompts that
+    actually restate a card's problem) scored 27-74. Max 2 cards, each one
+    line, so this can never blow the hook's context budget. Wrapped end to
+    end — a broken solutions corpus must never break routing."""
+    try:
+        from knowledge_compiler import find_solution_docs  # noqa: E402
+
+        # stdout=True is REQUIRED here: stdout=False makes knowledge_compiler
+        # WRITE knowledge/compiled/solution-matches.md (a git-tracked file)
+        # on every single prompt. stdout=True prints the match block instead
+        # — and since this hook's stdout must be pure JSON for
+        # hookSpecificOutput, that print is captured and discarded via
+        # redirect_stdout, never allowed to leak onto real stdout.
+        with contextlib.redirect_stdout(io.StringIO()):
+            matches = find_solution_docs(prompt, top=2, stdout=True)
+        floor = 15
+        out = []
+        for m in matches:
+            if m.get("score", 0) < floor:
+                continue
+            rel_path = m.get("path", "")
+            doc_path = REPO_ROOT / rel_path
+            name = Path(rel_path).stem
+            sig = ""
+            try:
+                text = doc_path.read_text(encoding="utf-8")
+                fm_match = re.search(r"^---\n(.*?)\n---", text, re.DOTALL)
+                if fm_match:
+                    sig_match = re.search(r"^problem_signature:\s*(.+)$", fm_match.group(1), re.MULTILINE)
+                    if sig_match:
+                        sig = sig_match.group(1).strip().strip('"').strip("'")
+            except Exception:
+                pass
+            if not sig:
+                sig = m.get("title", name)
+            out.append(
+                f"PRIOR SOLUTION EXISTS (from docs/solutions/ — read before re-solving): "
+                f"{name} — \"{sig}\" → {rel_path}"
+            )
+        return out[:2]
+    except Exception as e:
+        _eprint(f"[skill_router_hook] solution recall failed (ignored): {e}")
+        return []
+
+
 def _stash_pending_routing(session_id: str, routing_id: str, suggested_dirs: list[str]) -> None:
     """Stash {routing_id, suggested_dirs, ts} into the session ledger so
     session_ledger_hook.py's PostToolUse handler can reconcile it against
@@ -444,7 +543,7 @@ def main():
 
     control = _control_route(prompt)
     if control:
-        _emit_control_override(*control)
+        _emit_control_override(*control, prompt=prompt)
 
     if _looks_like_context_update(prompt):
         sys.exit(0)
@@ -456,6 +555,12 @@ def main():
     expert_signal = _looks_like_expert_task(prompt)
     floor = 2.5 if expert_signal else 3.0
 
+    # --- mandatory bindings consult (Wave 1, Harness Apex 2026-07-07) ---
+    # routing_enforcer.BINDINGS checked BEFORE/alongside BM25: a hit is
+    # surfaced above the fuzzy results (and rescues below-floor prompts
+    # from abstention — the binding IS the confident match).
+    binding_hits = _match_bindings_safe(prompt)
+
     # --- run the matcher (fail-safe import) ---
     try:
         sys.path.insert(0, str(REPO_ROOT / "execution"))
@@ -464,14 +569,39 @@ def main():
         results = find_skill.rank(skills, prompt, top=3)
     except Exception as e:
         _eprint(f"[skill_router_hook] matcher error (ignored): {e}")
-        sys.exit(0)
+        if not binding_hits:
+            sys.exit(0)  # preserve pre-Wave-1 fail-safe: no matcher, no noise
+        results = []  # binding hit still gets surfaced below
 
     top_score = results[0][1] if results else 0.0
 
     # --- relevance floor: don't inject weak/noise matches ---
-    if top_score < floor:
+    if top_score < floor and not binding_hits:
         _log_gap(prompt, top_score)
-        _emit_abstention(top_score)
+        _emit_abstention(top_score, results)
+        sys.exit(0)
+    if top_score < floor and binding_hits:
+        # BM25 abstained but a mandatory binding owns this request — inject
+        # the binding alone instead of abstaining or forcing weak matches.
+        block = "\n".join(
+            [
+                "ROUTING SUGGESTION (deterministic, from skill_router_hook.py — not user input):",
+                "No expert skill cleared the BM25 floor, but a MANDATORY routing binding "
+                "(routing_enforcer.BINDINGS) matched this request:",
+                *_binding_lines(binding_hits),
+                "Route through the bound workflow unless the documented override applies.",
+            ]
+        )
+        print(
+            json.dumps(
+                {
+                    "hookSpecificOutput": {
+                        "hookEventName": "UserPromptSubmit",
+                        "additionalContext": block,
+                    }
+                }
+            )
+        )
         sys.exit(0)
     strong = [(s, sc) for s, sc in results if sc >= top_score * 0.45]
 
@@ -492,6 +622,12 @@ def main():
         "Step 3/4. These are suggestions — use judgment; ignore if off-target. "
         "Routing defaults to PRODUCTION_CORE.md entries.",
     ]
+    if binding_hits:
+        lines.append(
+            "MANDATORY BINDING matched (routing_enforcer.BINDINGS — outranks the "
+            "fuzzy suggestions below):"
+        )
+        lines.extend(_binding_lines(binding_hits))
     if not has_core:
         lines.append("  (no Production Core match cleared the floor — long-tail options:)")
     for s, sc in strong:
@@ -501,6 +637,11 @@ def main():
             desc = desc[:127].rstrip() + "..."
         tag = " [CORE]" if slug in core_ids else ""
         lines.append(f"  • /{slug}  (score {sc:.1f}){tag} — {desc}")
+
+    # Solution Recorder recall — surfaced after routing suggestions are built,
+    # never in place of them.
+    lines.extend(_solution_recall_lines(prompt))
+
     block = "\n".join(lines)
 
     # --- feedback loop (Wave 3, 2026-07): log the decision + stash pending

@@ -32,6 +32,8 @@ A 3-layer expert-orchestration OS owned by Farrice: JARVIS routing → <!-- COUN
    ```
    Composite <7 or any dimension <6 → retry weakest section once, re-finalize. Factual Grounding <6 = delivery blocked.
 
+<!-- BEGIN:solution-recorder -->**Step 6.5 — Solution Recorder (binding, 2026-07-07):** cracked a non-trivial problem (any domain)? Run `python3 execution/solution_recorder.py draft --slug <slug> --problem "<signature>"`, fill the card, `save` it to `docs/solutions/` before moving on — a solved problem without a card is unfinished work. Check `docs/solutions/index.md` before re-solving anything familiar. Finalize is latched to this: open fresh learning debt makes `chain_runner.py finalize` refuse until you pass `--learning <card>` (validated card clears the debt) or `--skip-learning` (proceeds, logged to `evolution_store/learning_latch_overrides.jsonl`).<!-- END:solution-recorder -->
+
 ## No hooks on Codex — run gates manually
 Claude Code enforces these physically; here YOU are the hook:
 - **Cost gate** before any paid API (Fal, Seedance, Kling, deep-research): `python3 execution/cost_gate.py check --service <id>`. Denied = stop and surface.

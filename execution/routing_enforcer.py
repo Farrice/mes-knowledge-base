@@ -1095,6 +1095,53 @@ def _request_hits_signal(request: str, signal_phrases: List[str]) -> Optional[st
     return None
 
 
+def match_bindings(text: str) -> List[Dict[str, str]]:
+    """Pure, non-logging BINDINGS matcher for upstream (pre-ranking) consult.
+
+    Wave 1 (Harness Apex, 2026-07-07): BINDINGS used to be consulted only
+    post-finalize via check_routing() — the suggestion path (workflow_router,
+    skill_router_hook) never asked. This gives routers a side-effect-free way
+    to ask "does a mandatory binding own this request?" BEFORE fuzzy scoring.
+
+    Deliberately narrower than check_routing():
+      - no control_intent classification (callers handle control lanes)
+      - no precondition_cmd subprocess execution (must stay pure/cheap)
+      - no logging, no exit codes — just matches
+
+    Returns a list of dicts (one per binding that fires, in BINDINGS order):
+        {"signal": <matched phrase>, "workflow": <primary mandatory workflow>,
+         "workflows": [<all acceptable workflows>], "reason": <binding reason>,
+         "binding_id": <id>}
+    Empty list = no binding fires. Never raises.
+    """
+    hits: List[Dict[str, str]] = []
+    try:
+        text_lower = text.lower()
+        for binding in BINDINGS:
+            matched_signal = _request_hits_signal(text, binding["signal_phrases"])
+            if not matched_signal:
+                continue
+            negative_signals = binding.get("negative_signals") or []
+            if any(neg.lower() in text_lower for neg in negative_signals):
+                continue
+            mandatory = binding.get("mandatory_workflow")
+            any_of = binding.get("mandatory_workflow_any_of") or []
+            workflows = [mandatory] if mandatory else list(any_of)
+            workflows = [_normalize_workflow(w) for w in workflows if w]
+            if not workflows:
+                continue
+            hits.append({
+                "signal": matched_signal,
+                "workflow": workflows[0],
+                "workflows": workflows,
+                "reason": binding.get("reason", ""),
+                "binding_id": binding.get("id", ""),
+            })
+    except Exception:
+        return []
+    return hits
+
+
 def check_routing(request: str, chosen_workflow: str) -> Dict[str, Any]:
     """
     Validate a routing decision against mandatory bindings.

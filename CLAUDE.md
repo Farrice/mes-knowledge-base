@@ -78,6 +78,7 @@ python3 execution/chain_runner.py finalize "[what you produced]" \
 - **Factual Grounding veto**: scored (not N/A) and <6 = delivery blocked regardless of composite.
 - **Calibrated rubric**: `evolution_store/ground_truth/rubric_v1.md` — anchors at 3/6/9. **Score >=8 = name the matching anchor**; can't name it, lower the score.
 - **Non-negotiable** — and now Stop-hook enforced. Protocols: `directives/quality_gate.md`, `directives/feedback-ratchet.md`.
+- <!-- BEGIN:solution-recorder -->**Solution Recorder (Step 6.5, Farrice 2026-07-07, binding)**: cracked a non-trivial problem this session — any domain (system fix, content recipe, client-format crack, strategy unlock)? Run `/extract-approach` → Solution Card in `docs/solutions/` BEFORE moving on. **A solved problem without a card is unfinished work.** The ledger books learning debt on fail→fix streaks; finalize latches on open debt (`--learning <card>` to clear, `--skip-learning` logs the override). Cards auto-resurface: router-hook "PRIOR SOLUTION EXISTS" injection, memory facade `solutions` source, `/resume`/kickoff, COS weekly digest — never re-solve what a card already solved.<!-- END:solution-recorder -->
 
 ### When Steps Narrow (Not Skip the Chain)
 

@@ -1,0 +1,49 @@
+{
+  "title": "Josh Lindy Hop Apparel Preview Deck",
+  "created_at": "2026-07-04",
+  "artifact_type": "visual_preview_deck",
+  "slide_count": 10,
+  "audience": "Josh",
+  "status": "preview",
+  "source_artifact": "../josh-lindy-apparel-visual-canvas/index.html",
+  "purpose": "Condense the visual canvas into a Josh-facing decision deck with curated boards, short talk track, and three decision questions.",
+  "primary_files": [
+    "index.html",
+    "styles.css",
+    "TALK_TRACK.md",
+    "VERIFICATION_RECEIPT.md",
+    "README.md"
+  ],
+  "asset_count": 6,
+  "visual_assets": [
+    "assets/01-social-night.png",
+    "assets/02-floor-energy.png",
+    "assets/03-practice-to-street.png",
+    "assets/04-silhouette-system.png",
+    "assets/05-material-detail.png",
+    "assets/06-outfit-families.png"
+  ],
+  "font_assets": [
+    "assets/fonts/InstrumentSerif-Regular.ttf",
+    "assets/fonts/WorkSans-Regular.ttf",
+    "assets/fonts/WorkSans-Bold.ttf"
+  ],
+  "verification_files": [
+    "verification/desktop-fullpage.png",
+    "verification/mobile-fullpage.png",
+    "verification/desktop-first-pass.png",
+    "verification/mobile-first-pass.png"
+  ],
+  "decision_questions": [
+    "Which lane leads?",
+    "Which three pieces start?",
+    "Where do the designs land first?"
+  ],
+  "constraints": [
+    "No final brand name",
+    "No final logo or mark",
+    "No religious-signifier framing",
+    "No stale visual direction",
+    "No legal-risk cultural ownership claims"
+  ]
+}

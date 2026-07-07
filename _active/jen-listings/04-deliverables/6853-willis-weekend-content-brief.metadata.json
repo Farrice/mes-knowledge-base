@@ -1,0 +1,27 @@
+{
+  "title": "6853 Willis Ave Weekend Content Brief",
+  "artifact_type": "briefing",
+  "created_for": "Jen Santulan weekend Instagram Reels execution",
+  "property": "6853 Willis Ave, Van Nuys, CA 91405",
+  "created_at": "2026-07-03",
+  "primary_workflow": "jen-santulan-listing-content/listing-content",
+  "support_workflows": [
+    "raw-intent-bridge",
+    "recommend",
+    "enrico-listing",
+    "satori-listing-frame",
+    "neighborhood-deep-dive-carousel"
+  ],
+  "sources": [
+    "https://www.zillow.com/homedetails/6853-Willis-Ave-Van-Nuys-CA-91405/19960624_zpid/",
+    "https://www.redfin.com/CA/Van-Nuys/6853-Willis-Ave-91405/home/4453762",
+    "https://www.realtor.com/realestateandhomes-detail/6853-Willis-Ave_Van-Nuys_CA_91405_M28266-69906",
+    "https://www.redfin.com/zipcode/91405/housing-market",
+    "https://www.redfin.com/neighborhood/2859/CA/Los-Angeles/Van-Nuys/housing-market",
+    "https://recreation.parks.lacity.gov/aquatic/balboa",
+    "https://engineering.lacity.gov/sepulveda-basin-vision-plan-project",
+    "https://recreation.parks.lacity.gov/reccenter/van-nuys",
+    "https://www.hud.gov/helping-americans/fair-housing-act-overview"
+  ],
+  "status": "ready_for_weekend_execution"
+}

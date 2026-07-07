@@ -33,6 +33,12 @@ python execution/handoff_store.py threads
 - If it lists ≥1 thread → add ONE line to the kickoff block: `📋 [N] resumable threads — /resume to pick one (or /resume <name>; /realign <name> to start adjacent).` Do not open, read, or summarize any handoff unless asked.
 - If it prints nothing / errors → proceed normally.
 
+Also surface recent Solution Cards (last 7 days), same decoupled discipline — visible,
+not auto-loaded: `python3 execution/solution_recorder.py search <keyword>` for a
+topic-matched card, or `ls docs/solutions/` for recency (filenames are dated
+`YYYY-MM-DD-<slug>.md`). If a card exists that matches the incoming task's domain, add
+one line: `📎 Solution Card from <date>: <problem_signature> — see docs/solutions/<file>.` No hits = no line.
+
 Decoupled on purpose: kickoff never assumes the last thread is the one you want. The actual resume engine is **`/resume`** (menu + reload) and **`/realign`** (adjacent context).
 
 **Race Mode note:** if the user then resumes a thread, reuse that thread's prior `SESSION_PATH` (from the handoff) instead of creating a fresh workspace in Step 1.5, so the session record doesn't fragment.

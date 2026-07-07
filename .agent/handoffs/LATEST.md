@@ -1,64 +1,72 @@
 # Latest Handoff
 
-**Thread:** harness-frontier-loops  
-**Full path:** .agent/handoffs/2026-07-06-harness-frontier-loops.md  
-**Date:** 2026-07-06 (today)  
+**Thread:** wargame-os-forge  
+**Full path:** .agent/handoffs/2026-07-07-wargame-os-forge.md  
+**Date:** 2026-07-07 (today)  
 **Status:** ready  
-**Title:** Antigravity Harness — Frontier Session (7 Missions: Router Learns + /go + Doctrine)
+**Title:** Wargame OS — Kashef Forge Extraction + Command Menu Sync (10 /wargame-* workflows)
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume harness-frontier-loops` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume wargame-os-forge` for this one.
 
 ---
-thread: harness-frontier-loops
+
+---
+thread: wargame-os-forge
 status: ready
-resume_hint: Maiden runs: /go then /create, then revenue checkin + memory_review
-unfinished: Validation only: /go + /create + linkedin-daily v2 + writers-room maiden runs; weekly-closeout Sunday; embed flag after report card; stash review
+resume_hint: Judge blind-pass for A-tier (10 min), then /wargame-client on Jen listing engine
+unfinished: A-tier judgment pending; first client deployment not yet run
 branch: main
 pin: true
 ---
 
-# Antigravity Harness — Frontier Session (7 Missions: Router Learns + /go + Doctrine)
+# Wargame OS — Kashef Forge Extraction + Command Menu Sync (10 /wargame-* workflows)
 
-**Date:** 2026-07-06 · **Branch:** all merged + pushed to `origin/main` (`d424b2066`) · **Driver:** Claude Fable 5 orchestrating ~20 Sonnet subagents (last full-capability Fable session)
+**Date**: 2026-07-07 · **Thread**: `wargame-os-forge` · **Status**: ready (A-tier judgment pending)
 
-## What the next session is for
+## What this session shipped
 
-**Validate in production, don't build.** Every mission shipped, verified by execution, committed, and pushed. The system's constraint is no longer capability — it's unproven-in-live-use paths. Next session = maiden runs + human-gate clearing.
+1. **`skills/mark-kashef-wargame-os/` — LIVE, B-tier** (forge extraction, EVAL-033). Kashef's wargaming method: the frontier model fights a mission on paper (Move / Expected observation / Fail + cause / Counter-move / Trigger, RECON NEEDED with exact settling checks, aborts, verification runs) so a cheaper executor runs it blind. 10 workflows in 3 tiers, all registered as `/wargame-*` slash commands. Expansion of the existing `mark-kashef` agent (planning layer ABOVE `mark-kashef-agent-orchestration`).
+2. **Command menu fully wired**: generated 769 missing command shims in `.claude/commands/` so all 1,542 `.agent/workflows/` files now appear in the typed `/` menu (was 1,130). Removed 1 dead orphan (`/references` — empty skill dir, no workflow). `SLASH_COMMANDS.md` regenerated (1,898 commands on disk). Zero gaps in either direction, verified by `comm` diff.
+3. **Chain closeout done**: finalize logged (Intent 9 / Expert 8 / Adversarial 8 / Grounding 9, anchors named, composite 8.33, Notion logged), `forge_gate.py record` run, EVAL-033 appended to `evolution_store/ground_truth/eval_set_v1.jsonl`, project memory written (`project_wargame-os-shipped.md` + MEMORY.md pointer).
 
-## Immediate priorities (in order)
+## Next session: two tasks, in order
 
-1. **Maiden run of `/go "<messy thought>"`** — the anti-bottleneck front door (`.agent/workflows/go.md`). First live run of the intent-compile → route → conduct → 3-Next-Prompts loop. Correct anything awkward; the design contract is: written assumptions, max ONE question round.
-2. **Maiden run of `/create`** — universal content conductor (`.agent/workflows/create.md`). Verify Stage 2 (live zeitgeist: recall + perplexity + research.py) actually fires with receipts.
-3. **`python3 execution/revenue_tracker.py checkin`** — interactive walk of 11 overdue + 19 never-logged outcomes. Then first-ever `/weekly-closeout` (Sunday).
-4. **`python3 execution/memory_review.py`** — 9 distilled memories pending, oldest 36+ days (queue alarm now fires in daily harvest log past 14d).
-5. **Validate the 07-01 rewrites** — `/linkedin-daily` v2 and `/writers-room` have zero runs since rewrite. One run each.
-6. **After ~1 week:** read `.agent/router-report-card.md`; if loop alive + weights sane → `export SKILL_ROUTER_EMBED=1` (hybrid retrieval benchmarked +6pts top-3, p95 +600ms, built flag-off).
-7. **Stash review:** `stash@{0}` (57 files: creative_router/workflow_router edits, satori WIP) + `stash@{1}` (6 files: jason-fladlien skill edits) — apply-or-drop deliberately.
+### Task 1 — A-tier judgment (Farrice, ~10 min)
+Read side by side:
+- `extractions/wargame-source/blind-pass-output.md` (fresh Sonnet agent's wargame, produced from skill files only)
+- `extractions/wargame-source/visual-context.md` § "The wargame output file itself" (Kashef's REAL 01-website.md artifact, transcribed from video frames 22–31)
 
-## What shipped (reference, not re-read — it's all in these files)
+PASS = indistinguishable or preferred. If PASS: update EVAL-033 (`calibrated_by_human: true`), note A-tier in `skills/mark-kashef-wargame-os/SKILL.md` frontmatter, log via finalize note. Known caveat to weigh: blind-pass Move 5's executor-mistake prediction reuses the exemplar's aria-hidden genre (apt transfer, not novel-class proof).
 
-- **Doctrine:** `directives/peak-operation.md` — LOAD THIS when orchestrating anything multi-step. Operating shape, outcome→engine routing table, drift signals, invariants.
-- **Craft standard:** `directives/skill-craft-standard.md` — REQUIRED checklist at every extraction gate (wired into extract/extract-forge/MES-3.0). Pattern density > length; Heartbeat Test; earned scores.
-- **Codex parity:** `docs/CODEX-PARITY-2026-07-06.md` — Codex ran it, 22 surgical commits, verified clean both sides.
-- **Session memory:** auto-memory `project_harness-frontier-loops.md` holds the full 7-mission record with root causes.
-- Key new machinery: router feedback loop (`routing-intelligence.json` + `.agent/skill-weights.json` nightly), `execution/thought_bank.py` (+ /dump delegation + nightly episodic backstop), `execution/claim_risk_scan.py` (auto-fires in finalize Step 2.6), `skills/claim-safe-health-marketing/` (B-tier; A-tier pends Farrice judging real Path-A client copy), COS brief now shows Outer Loop + 🧬 Evolution sections (6:45 daily), evolution Phase 3 LIFTED (supervise first 3 cross-pollination runs), `chain_runner.py finalize --auto`, Notion vault 250/250 rich bodies.
+### Task 2 — First real deployment: `/wargame-client` on Jen listing engine
+- Client context: `_active/jen-listings/CLAUDE.md` + `skills/jen-santulan-listing-content/` + golden ref: 6853 Willis production sheet (memory: `feedback-jen-reel-hook-style`, `feedback-client-content-production-format`).
+- Goal: wargame the listing-content production route ONCE at frontier tier (frozen choices = Jen's hook style, production-sheet format, ADU-as-bonus rule), grade to DONE, store under the client project. Every future listing = `/wargame-execute` with instance inputs at Sonnet cost.
 
-## Gotchas for the next agent
+## Key artifacts (reference, don't rebuild)
 
-- **GOLDEN RULE was violated live this session** (concurrent Haiku session + Codex app-server); recovered via stash. `active_tool_lock` hook now warns — treat its warning as a stop sign.
-- Quality gate caps self-reported 8+ at 7.25 (`_EARNED_8_CAP`) unless anchors convince it — by design (E1 lesson), not a bug. Name rubric anchors honestly.
-- `.agent/skill-embeddings.json` (3.6MB) is untracked-by-design; regenerate via `find_skill.py --build-embeddings` (~$0.007).
-- Never convert Notion property types (silently wipes values — experimentally confirmed). Additive only, via `execution/notion_api.py` (2022-06-28 pin).
-- Fal budget guard state was blind 65 days; now records deterministically but balance estimate needs a wallet check at fal.ai before trusting.
-- `com.antigravity.knowledge-compiler-weekly` fires first on Sunday 2026-07-12 05:00 — verify its log appears clean.
+- Skill: `skills/mark-kashef-wargame-os/` (SKILL.md, genius.md, 10 workflows, 4 references, folder template in assets/)
+- Extraction trail: `extractions/wargame-source/` — vision.md, architecture.md, mes-extraction.md (12 patterns), transcript.txt, visual-context.md, laundry-list-notes.md (/goal + /loop verbatim), blind-pass-output.md
+- Verbatim operating prompts: `skills/mark-kashef-wargame-os/references/goal-and-loop-contracts.md`
+- 45 video frames kept at `extractions/wargame-source/watch/frames/` (37MB video download deleted)
 
-## Suggested skills
+## Operational lessons banked
 
-- `/go` and `/create` — the new front doors (this session's build; run them, don't rebuild them)
-- `/resume harness-frontier-loops` — this thread
-- `/system-audit` — if anything control-plane feels off
-- `/claim-safe` — any health-brand copy (Path A)
-- `superpowers:verification-before-completion` — hold the session's verify-by-execution bar
+- Forge on a thin transcript (2,946w) is valid when the companion kit carries methodology density — weigh artifacts, not word count.
+- For demo-heavy creators, `/watch` visual context is PRIMARY, not additive — the frames held the richest artifact (complete worked wargame) that transcript + PDF lacked.
+- Pinning reference contracts on disk before parallel builders (solution card 2026-07-07-parallel-builders-stale-contracts) produced zero integration gaps across 11 parallel-built files.
+- Kashef landmine, now in genius.md: never ask a reasoning model to expose its thinking in output — request artifacts, findings, quotes, rewrites.
+
+## Suggested skills for the next session
+
+- `mark-kashef-wargame-os` (Skill tool) — loads genius.md + workflow set for both tasks
+- `/wargame-client` — Task 2's front door (composes wargame-order → run → grade → execute)
+- `/wargame-grade` — if the A-tier read surfaces fixable weaknesses, red-team + patch before promotion
+- `jen-santulan` / `listing-content` — client context for Task 2
+- `/resume wargame-os-forge` — reload this thread
+
+## Hot experts this session
+
+mark-kashef (deep — extraction target + existing orchestration context), embodiment/craft standards (`directives/skill-craft-standard.md`, `directives/embodiment-standard.md`).
+
+No secrets, keys, or PII in this document.
 

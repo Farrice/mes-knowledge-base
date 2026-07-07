@@ -638,3 +638,27 @@
     "monthly"
   ]
 }
+{
+  "run_at": "2026-07-07T07:00:02.546187",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-07-06T07:38:43.097235",
+      "reason": "not_due_yet",
+      "days_remaining": 0.03
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-07-02T07:00:01.046110",
+      "reason": "not_due_yet",
+      "days_remaining": 2.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-06-09T18:32:26.097605",
+      "reason": "not_due_yet",
+      "days_remaining": 2.48
+    }
+  ]
+}

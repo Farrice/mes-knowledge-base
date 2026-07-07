@@ -27,3 +27,11 @@
 - Workflows: ASCII Wireframe Generator, Visual Blueprint-to-Build Pipeline, Slide Deck Architect, Design System Visualizer, Visual Taste Gate.
 - Slash commands: `/wireframe` (pre-flight), `/visual-blueprint` (full pipeline), `/sketch-to-build` (rapid execution).
 - Stacks with: `banana-squad` (wireframed image gen), `oren-creative-direction` (CEV taste gates), `sean-kochel-design-first-build` (design-first artifacts).
+
+## Wargame OS Extraction (Jul 2026)
+- Source: YouTube nuwlyQXrADg ("Fable's last week" wargaming video, 13:58) + The Laundry List PDF (28pp) + shipped fable-wargame-kit (10 mission briefs, SUCCESS.md 8-point standard, LEDGER.md, /goal + /loop contracts).
+- Core pattern: don't ask the frontier model for plans OR execution — make it WARGAME the mission on paper (Move / Expected observation / Fail + cause / Counter-move / Trigger, RECON NEEDED with exact settling checks, aborts, verification runs) so a cheaper executor runs it blind. "You pay for the genius once. You keep it forever."
+- New skill: `mark-kashef-wargame-os` — 10 workflows (`/wargame-order`, `/wargame-run`, `/wargame-grade`, `/wargame-execute`, `/wargame-batch`, `/wargame-recon`, `/wargame-executor-fit`, `/wargame-brief`, `/wargame-mission`, `/wargame-client`).
+- Layer relationship: wargaming is the planning layer ABOVE agent-orchestration — it produces the failure-map orchestration executes. Fan-out, tollbooths, files-are-truth reappear downstream.
+- Key epistemics: the 2×2 unknowns box — "Your prompt only fills the first box. The wargame drags the other three into the light."
+- Operational landmine learned: never ask a reasoning model to expose its thinking in output (can silently reroute the session) — request artifacts, findings, quotes, rewrites.

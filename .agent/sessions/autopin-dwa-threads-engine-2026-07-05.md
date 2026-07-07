@@ -1,0 +1,7 @@
+# Dwa Threads Engine 2026 07 05 — 00 Farrice Voice And Assets
+
+**Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
+
+**Artifacts:** /Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/00-ground-truth-compliance-and-offer.md, /Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/00-research-and-whitespace.md, /Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/00-farrice-voice-and-assets.md
+
+**Retrieve:** `/resume dwa-threads-engine-2026-07-05`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).

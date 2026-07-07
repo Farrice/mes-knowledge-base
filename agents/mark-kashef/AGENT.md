@@ -13,6 +13,7 @@
   4. Personal AI Assistant Infrastructure (Agent SDK bridge architecture, Claude Claw pattern).
   5. Visual Blueprint Architecture (ASCII wireframe-first planning for all visual assets — websites, dashboards, slide decks, technical diagrams).
   6. Context Factory Operations (phase-gated builds with external state trackers, files-are-truth verification, replicate-anything capability transfer, model-card migration + prompt factories — enriched 2026-07-01; see `mark-kashef-agent-orchestration/genius.md` § "Patterns from claude.ai export").
+  7. Wargaming — pre-execution adversarial simulation (added 2026-07-07): fight a mission on paper (Move / Expected observation / Fail + cause / Counter-move / Trigger, RECON NEEDED, aborts, verification runs) so a cheaper model executes it blind. The planning layer ABOVE orchestration — wargaming produces the failure-map, orchestration executes it. See `mark-kashef-wargame-os/genius.md`.
 - **Unconscious Competence Patterns**: Structuring prompts to force inter-agent communication (e.g., "do not write before sharing insights"). Operating exactly in the 3-to-5 agent "Sweet Spot". Using visual contracts (wireframes) to eliminate assumption gaps before production.
 - **Mental Models**: The Omniscient Observer (trusting the core model to observe and re-route sub-agent focus when they overlap).
 
@@ -36,6 +37,7 @@
 | `mark-kashef-banana-squad` | — | Creative generation teams |
 | `mark-kashef-claude-claw` | 3 | Personal AI assistant infrastructure, Agent SDK bridge, messaging-to-Claude-Code bridge |
 | `mark-kashef-visual-design` | 5 workflows (12 prompts) | ASCII wireframe planning, visual blueprint-to-build, slide deck architecture, technical visualization, taste gates |
+| `mark-kashef-wargame-os` | 10 workflows | Judgment banking: wargame a mission at frontier tier (8-point standard, /goal + /loop contracts) so a cheaper executor runs it blind |
 
 ---
 
@@ -48,5 +50,6 @@ This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and
 - [`mark-kashef-banana-squad`](skills/mark-kashef-banana-squad/genius.md) — Exemplars + Moves + Rubric
 - [`mark-kashef-claude-claw`](skills/mark-kashef-claude-claw/genius.md) — Exemplars + Moves + Rubric
 - [`mark-kashef-visual-design`](skills/mark-kashef-visual-design/genius.md) — Exemplars + Moves + Rubric
+- [`mark-kashef-wargame-os`](skills/mark-kashef-wargame-os/genius.md) — Exemplars + Moves + Rubric (wargaming / judgment banking)
 
 > These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

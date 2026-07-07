@@ -1,0 +1,48 @@
+{
+  "title": "Josh Lindy Hop Apparel Visual Canvas",
+  "created_at": "2026-07-04",
+  "artifact_type": "visual_review_pack",
+  "audience": "Josh",
+  "status": "preview",
+  "purpose": "Name-free lookbook canvas for modern Lindy Hop apparel silhouettes, lifestyle mockups, and product direction.",
+  "primary_files": [
+    "index.html",
+    "styles.css",
+    "RESEARCH_LEDGER.md",
+    "VERIFICATION_RECEIPT.md",
+    "README.md"
+  ],
+  "asset_count": 8,
+  "visual_assets": [
+    "assets/01-social-floor-lookbook.png",
+    "assets/02-silhouette-system.png",
+    "assets/03-modern-social-night.png",
+    "assets/04-product-silhouette-grid.png",
+    "assets/05-practice-to-street.png",
+    "assets/06-material-detail-board.png",
+    "assets/07-unisex-movement-board.png",
+    "assets/08-three-outfit-families.png"
+  ],
+  "verification_files": [
+    "verification/desktop-fullpage.png",
+    "verification/mobile-fullpage.png"
+  ],
+  "creative_lanes": [
+    "Tailored Social Floor",
+    "Practice Utility",
+    "Music-Rooted Craft"
+  ],
+  "constraints": [
+    "No final brand name",
+    "No final logo or mark",
+    "No religious-signifier framing",
+    "No SVG identity board",
+    "No legal-risk cultural ownership claims"
+  ],
+  "verification_targets": [
+    "All referenced assets exist",
+    "No old naming terms in visible package files",
+    "JSON metadata validates",
+    "Export archive created"
+  ]
+}

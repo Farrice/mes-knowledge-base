@@ -30,3 +30,6 @@
 {"ts": "2026-07-06T17:21:03.016674+00:00", "query": "verify memory stack smoke test", "result_count": 1, "by_source": {"sovereign": 3, "automem": 3, "wiki": 3, "agents": 0, "episodic": 3}, "degraded": null}
 {"ts": "2026-07-06T17:28:33.328189+00:00", "query": "verify memory stack smoke test", "result_count": 1, "by_source": {"sovereign": 3, "automem": 3, "wiki": 3, "agents": 0, "episodic": 3}, "degraded": null}
 {"ts": "2026-07-06T18:08:29.181792+00:00", "query": "verify memory stack smoke test", "result_count": 1, "by_source": {"sovereign": 3, "automem": 3, "wiki": 3, "agents": 0, "episodic": 3}, "degraded": null}
+{"ts": "2026-07-07T14:25:45.100698+00:00", "query": "product-market fit offer market fit analysis harness monetization digital products high-ticket offer 10 options brief", "result_count": 10, "by_source": {"sovereign": 10, "automem": 10, "wiki": 10, "agents": 1, "episodic": 10}, "degraded": null}
+{"ts": "2026-07-07T18:40:33.530065+00:00", "query": "test signature", "result_count": 1, "by_source": {"solutions": 1}, "degraded": null}
+{"ts": "2026-07-07T18:52:11.879912+00:00", "query": "Mark Kashef wargame extraction — plan-vs-wargame, action reaction counteraction, executor briefs for cheaper models, age", "result_count": 10, "by_source": {"sovereign": 10, "automem": 10, "wiki": 10, "agents": 4, "episodic": 10, "solutions": 1}, "degraded": null}

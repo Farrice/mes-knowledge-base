@@ -1,0 +1,23 @@
+{
+  "title": "6853 Willis Ave Teleprompter Pack",
+  "artifact_type": "teleprompter_pack",
+  "created_for": "Jen Santulan weekend Instagram filming",
+  "property": "6853 Willis Ave, Van Nuys, CA 91405",
+  "created_at": "2026-07-03",
+  "source_brief": "_active/jen-listings/04-deliverables/6853-willis-weekend-content-brief.md",
+  "primary_workflow": "jen-santulan-listing-content/listing-content",
+  "outputs": [
+    "3 Reels",
+    "4 Stories",
+    "shot-by-shot b-roll order",
+    "caption starters",
+    "quality gate"
+  ],
+  "constraints": [
+    "ADU-first",
+    "fair-housing safe",
+    "no guessed ADU rent",
+    "source facts inherited from Willis brief"
+  ],
+  "status": "ready_for_filming"
+}

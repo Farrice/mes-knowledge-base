@@ -73,6 +73,15 @@ Thumbs.db
 # Per-session runtime ledgers (one file per session, written by session_ledger_hook.py)
 .agent/sessions/ledger-*.json
 
+# Closeout-spine runtime artifacts (end_session_closeout.py). state-archive/
+# holds verbatim copies of .agent/session-state.md, which is deliberately
+# never committed (privacy) — must never leak via `git add .`.
+.agent/sessions/end-session-memory-ledger.jsonl
+.agent/sessions/state-archive/
+
+# Ephemeral intent-tracking state
+.agent/intent-memory/
+
 # Sovereign memory store (SQLite — binary, not git-friendly)
 # Runtime data: DB + backups + JSONL sidecars are regenerated, never source-of-truth.
 .memory/sovereign.db

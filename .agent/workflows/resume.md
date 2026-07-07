@@ -35,7 +35,7 @@ Then RECONSTITUTE the working context — don't just read it:
 1. **Re-read** the deliverable/spec files the handoff references that still exist.
 2. **Re-warm experts** — load the skills listed under the handoff's "Suggested skills".
 3. **Branch** — if the drift block flags a different or missing branch, surface it and offer `git checkout <branch>` (never auto-force; the git hook blocks pushes anyway).
-4. **Reconcile with live truth** — read the matching `MEMORY.md` project entry and `.agent/session-state.md`. If memory contradicts the handoff's plan (e.g. memory says "shipped", handoff says "ship it"), trust memory and flag the divergence.
+4. **Reconcile with live truth** — read the matching `MEMORY.md` project entry and `.agent/session-state.md`. If memory contradicts the handoff's plan (e.g. memory says "shipped", handoff says "ship it"), trust memory and flag the divergence. Check `docs/solutions/index.md` for any card matching this thread's domain — a past solved problem may be directly relevant to what's resuming.
 5. Present a short **Realignment Brief**: what was true · what CHANGED since (from drift + memory) · the first 2–3 actions, each labeled **VALID / CHANGED / DONE**.
 
 ## Step 3 — Continue + close the loop

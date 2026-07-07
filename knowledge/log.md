@@ -396,3 +396,22 @@
 - `[2026-07-06 10:26]` **finalize** | Health Performance GEO daily brief for 2026-07-06: fashion-coded wellness CPG, Desire-to-Proof Map,  | general | oren-operational-systems — composite:6.17 status:Needs Improvement
 - `[2026-07-06 10:27]` **finalize** | Health Performance GEO Creative Strategist Engine daily brief for Farrice Cain, 2026-07-06. Produced | general | oren-operational-systems — composite:6.17 status:Needs Improvement
 - `[2026-07-06 16:03]` **lint** | Lint scan — 34 issues (18 errors, 5 warnings) — Files scanned: 240
+- `[2026-07-06 11:39]` **finalize** | skill-craft-standard authored + wired: evidence-grounded canonical build standard for skills/agents/ | general | system-architecture — composite:7.25 status:Needs Improvement
+- `[2026-07-07 06:56]` **finalize** | Harness Apex Plan — 4-audit analysis of supercomputer/JCC/autopilot/extraction/routing spine + 5-wav | strategy | system-audit — composite:7.25 status:Needs Improvement
+- `[2026-07-07 07:18]` **finalize** | JJ Playbook — grab-anytime developmental menu for JJ at 2.5 (.agent/cos/jj-playbook.md): five levers | general | chief-of-staff-os — composite:7.25 status:Needs Improvement
+- `[2026-07-07 07:33]` **finalize** | 10-Option PMF/Offer-Market-Fit Brief — Antigravity Harness Analysis | general | synthesis-engine — composite:7.25 status:Needs Improvement
+- `[2026-07-07 07:38]` **finalize** | PMF/Offer-Market-Fit Brief — recovered the stalled 2026-07-05 workflow research (8 payloads), comple | general | jason-fladlien — composite:7.25 status:Needs Improvement
+- `[2026-07-07 08:23]` **finalize** | PMF offer tournament + C1 creative package: 27-agent research run (5 Apify social-listening streams  | general | tobias-allen — composite:7.25 status:Needs Improvement
+- `[2026-07-07 08:54]` **finalize** | End-session closeout spine: new execution/end_session_closeout.py (7-step deterministic closeout: cl | general | system-orchestrator — composite:7.25 status:Needs Improvement
+- `[2026-07-07 08:54]` **finalize** | End-session closeout spine (re-finalize with anchor flag): execution/end_session_closeout.py 7-step  | general | system-orchestrator — composite:8.33 status:Keep
+- `[2026-07-07 09:59]` **finalize** | Swarm Apex mission plan + platform-mechanics research: 4 VERIFIED-labeled briefs (Manus/Grok Heavy/K | general | deep-research — composite:8.33 status:Keep
+- `[2026-07-07 10:51]` **finalize** | Claim-safe content landscape research report (research_outputs/2026-07-07-claim-safe-content-landsca | general | deep-research — composite:8.67 status:Keep
+- `[2026-07-07 11:43]` **finalize** | test finalize latch skip-learning override | general | test-expert — composite:7.25 status:Needs Improvement
+- `[2026-07-07 11:44]` **finalize** | test finalize latch skip-learning override | general | test-expert — composite:7.25 status:Needs Improvement
+- `[2026-07-07 12:03]` **finalize** | latch v2 stale-debt test | general | t — composite:7.25 status:Needs Improvement
+- `[2026-07-07 12:03]` **finalize** | latch v2 valid card clears debt | general | t — composite:7.25 status:Needs Improvement
+- `[2026-07-07 12:03]` **finalize** | latch v2 valid card clears debt (same-call) | general | t — composite:7.25 status:Needs Improvement
+- `[2026-07-07 12:06]` **finalize** | Path A proof-of-work decision brief (strategy_briefs/2026-07-07-path-a-proof-of-work-heavy.md) — fir | general | collective-genius-council — composite:8.67 status:Keep
+- `[2026-07-07 12:06]` **finalize** | Solution Recorder system: docs/solutions/ corpus (5 cards live) + solution_recorder.py (draft/save/c | general | system-orchestrator — composite:8.67 status:Keep
+- `[2026-07-07 12:25]` **finalize** | Mark Kashef — Wargame OS mastery extraction (forge): 10 workflows, genius.md, 4 references, folder t | general | mark-kashef — composite:8.33 status:Keep
+- `[2026-07-07 13:45]` **finalize** | Slash-command menu full sync: 769 missing workflow shims generated into .claude/commands (1,542 work | general | none — composite:8.33 status:Keep

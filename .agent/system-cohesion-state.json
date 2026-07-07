@@ -1,0 +1,61 @@
+{
+  "activation_queue": [
+    "eightward brand strategy packet in progress"
+  ],
+  "active_intent": {
+    "ambiguity_map": "Taste and community validation still require Josh/community interviews; legal clearance requires counsel.",
+    "audience": "Josh, his future apparel/legal collaborators, and serious Lindy Hop community members.",
+    "clarity_score": 5,
+    "confidence": "high",
+    "constraints": [
+      "No external publishing or paid tools; all legal/IP guidance framed as consult prep, not legal advice."
+    ],
+    "deliverable": "Complete brand strategy packet with cultural research dossier, cultural distance map, 40-60 entry visual reference board, fashion direction, positioning, product architecture, cultural/legal/IP risk map, and validation plan.",
+    "goal": "Create Josh's research-backed Eightward brand strategy packet for a culture-rooted Lindy Hop apparel brand.",
+    "source": "raw-intent-bridge + source-command-mission",
+    "success_criteria": [
+      "A lawyer-ready and brand-strategy-ready brief that respects Lindy Hop's Black American roots, avoids costume framing, and gives Josh a clear product and messaging path."
+    ]
+  },
+  "chosen_route": {
+    "mode": "Mission Mode",
+    "reason": "User explicitly invoked Mission and asked for high-depth coordinated brand research rather than a single-route draft.",
+    "route": "mission"
+  },
+  "expert_stack": [
+    "nate-b-jones-orchestration-intelligence"
+  ],
+  "mission": {
+    "slug": "eightward-lindy-hop-brand-strategy",
+    "state_path": ".agent/missions/eightward-lindy-hop-brand-strategy/mission.json",
+    "status": "complete"
+  },
+  "next_move": {
+    "action": "Review Josh Eightward brief, then choose 2-page founder brief or private mockup briefs.",
+    "owner": "Farrice/Josh",
+    "verification": [
+      "Counsel review plus paid cultural review before public launch"
+    ]
+  },
+  "schema_version": "system-cohesion-state/v1",
+  "support_gates": [
+    "deep-research"
+  ],
+  "updated_at": "2026-07-04T00:25:17+00:00",
+  "verifier_status": {
+    "artifact_router": "canonical",
+    "export_format_guard": "PASS",
+    "intent_memory_contract": "not_run",
+    "last_checked_at": "2026-07-04T00:25:17+00:00",
+    "mission_control_validate": "PASS",
+    "py_compile": "not_run",
+    "source_copy_check": "PASS",
+    "system_cohesion_spine": "not_run"
+  },
+  "weekly_platter": {
+    "last_generated_at": "",
+    "next_due": "",
+    "path": "",
+    "status": "not_started"
+  }
+}

@@ -17,10 +17,19 @@ Preserve these invariants:
 - `/end-session` owns whole-session closeout, retrieval handoff, and closeout intelligence capture.
 - It is not `/handoff` for a focused transfer packet and not `/steering-compass` for standalone next-prompt coaching.
 - Meaningful closeouts include session naming metadata, a concise handoff, `3 Next Prompts`, `Operator Lesson`, `Next-time prompt`, `Subagent worth it?`, and `Reuse hook`.
-- Closeout intelligence runs through `python3 execution/session_closeout_intelligence.py run --source end-session`.
+- Closeout intelligence runs via the closeout spine (Step 1.4, `execution/end_session_closeout.py`), which in turn invokes `python3 execution/session_closeout_intelligence.py run --source end-session` as one of its steps — do not call it separately.
 - Conversation indexing uses the safe `python3 execution/conversation_index.py stats` check before any rebuild.
 - Optional cleanup must be reviewed; never publish, push, broadly delete, or perform destructive cleanup without explicit approval.
 - Real Codex subagents require explicit authorization.
+
+### Deterministic backstop
+
+A `SessionEnd` hook (`execution/hooks/session_end_hook.py`) runs the closeout
+spine automatically in `--degraded` mode if a session produced artifacts but
+`/end-session` was never run — closeout is no longer memory-dependent on the
+operator. It stays silent when the spine already ran this session (detected
+via `session_ledger_hook.py`) or when the session was purely conversational
+(no artifacts produced).
 
 ## Insightful Momentum Closeout Requirement
 
@@ -113,6 +122,22 @@ Then surface the **titled retrieval block** in chat. This is the standard closeo
 Pull `<date>-<slug>` from the `saved:` line the save command printed (do not guess the path). The Title, thread, and slug all follow the naming convention above; never ask Farrice to supply or rename any of them.
 
 If the `/handoff` skill is unavailable (not installed), fall back to emitting the full block inline with the fields above plus **Core context to load:** [paths to the 2-3 essential deliverable files].
+
+### 1.4 Run the Closeout Spine
+// turbo
+```bash
+python3 execution/end_session_closeout.py run --slug "<thread-slug>"
+```
+This is the deterministic closeout spine — it wires up everything the old
+closeout preamble claimed but never physically ran: closeout intelligence
+(`session_closeout_intelligence.py run --source end-session`, feeding routing
+and performance feedback), a sovereign-memory episodic milestone record for
+this session, a one-line entry in the COS journal so `/cos` surfaces the
+close, an archived copy of `.agent/session-state.md`, and nudges for any
+unresolved friction-ledger entries or open finalize debt. Every step reports
+`CLOSEOUT <step>: OK|SKIP|FAIL — <detail>` and the sequence never halts on a
+failed or skipped step. **Surface these `CLOSEOUT` lines in the closeout
+answer** — skipped stores must stay visible to Farrice, not silently dropped.
 
 ### 1.5 Generate Insightful Momentum Follow-ups
 // turbo

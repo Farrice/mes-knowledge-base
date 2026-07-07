@@ -23,6 +23,9 @@ Stores unified (in rank order):
                 conversation history (superpowers episodic-memory). Read-only
                 SQL over the `exchanges` table, project-scoped to this repo by
                 default; the "auto-remember past sessions" layer.
+    solutions   docs/solutions/*.md — Solution Recorder cards (hard-won fixes
+                captured via execution/solution_recorder.py), frontmatter-
+                scored on name+problem_signature+tags.
 
 Design rules:
     - Read-only. The facade never writes to any store.
@@ -49,6 +52,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOVEREIGN_DB = ROOT / ".memory" / "sovereign.db"
 WIKI_MANIFEST = ROOT / "knowledge" / "compiled" / "manifest.json"
 AGENTS_DIR = ROOT / "agents"
+SOLUTIONS_DIR = ROOT / "docs" / "solutions"
 AUTOMEM_DIR = Path(os.environ.get(
     "ANTIGRAVITY_AUTOMEM_DIR",
     str(Path.home() / ".claude" / "projects" / "-Users-farricecain-Google-Antigravity" / "memory"),
@@ -71,7 +75,7 @@ elif _episodic_env:
 else:
     EPISODIC_PROJECTS = ["-" + str(ROOT).strip("/").replace("/", "-").replace(" ", "-")]
 
-ALL_SOURCES = ("sovereign", "automem", "wiki", "agents", "episodic")
+ALL_SOURCES = ("sovereign", "automem", "wiki", "agents", "episodic", "solutions")
 
 _STOPWORDS = {
     "a", "an", "and", "are", "as", "at", "be", "by", "for", "from", "how",
@@ -323,6 +327,52 @@ def _query_episodic(query: str, top_k: int) -> Dict[str, Any]:
 
 
 # ──────────────────────────────────────────────────────────────────
+# solutions — docs/solutions/*.md frontmatter (Solution Recorder cards,
+# 2026-07-07). Mirrors _query_wiki's shape: cheap frontmatter scan, term
+# overlap on name+problem_signature+tags, stdlib only (no yaml dependency —
+# regex extraction keeps this source degrading the same way wiki/agents do).
+# ──────────────────────────────────────────────────────────────────
+def _query_solutions(query: str, top_k: int) -> Dict[str, Any]:
+    try:
+        if not SOLUTIONS_DIR.is_dir():
+            return {"results": [], "degraded": f"solutions dir missing: {SOLUTIONS_DIR}"}
+        q_tokens = _tokens(query)
+        results = []
+        for f in SOLUTIONS_DIR.glob("*.md"):
+            if f.name == "index.md":
+                continue
+            try:
+                text = f.read_text(errors="ignore")
+            except OSError:
+                continue
+            fm_match = re.match(r"^---\n(.*?)\n---\n?", text, re.DOTALL)
+            if not fm_match:
+                continue
+            fm_text = fm_match.group(1)
+            name_m = re.search(r"^name:\s*(.+)$", fm_text, re.MULTILINE)
+            sig_m = re.search(r"^problem_signature:\s*(.+)$", fm_text, re.MULTILINE)
+            tags_m = re.search(r"^tags:\s*(.+)$", fm_text, re.MULTILINE)
+            name = name_m.group(1).strip() if name_m else f.stem
+            sig = sig_m.group(1).strip().strip('"').strip("'") if sig_m else ""
+            tags = tags_m.group(1).strip() if tags_m else ""
+            score = _overlap_score(q_tokens, f"{name} {sig} {tags}")
+            if score > 0:
+                results.append({
+                    "source": "solutions",
+                    "via": "frontmatter",
+                    "score": score,
+                    "id": f.stem,
+                    "pinned": False,
+                    "snippet": (sig or name)[:300],
+                    "path": str(f.relative_to(ROOT)),
+                })
+        results.sort(key=lambda r: r["score"], reverse=True)
+        return {"results": results[:top_k], "degraded": None}
+    except Exception as exc:
+        return {"results": [], "degraded": f"solutions: {str(exc)[:120]}"}
+
+
+# ──────────────────────────────────────────────────────────────────
 # facade
 # ──────────────────────────────────────────────────────────────────
 def recall(
@@ -349,6 +399,7 @@ def recall(
         ("wiki", lambda: _query_wiki(query, per_store)),
         ("agents", lambda: _query_agents(query, per_store)),
         ("episodic", lambda: _query_episodic(query, per_store)),
+        ("solutions", lambda: _query_solutions(query, per_store)),
     ):
         if name not in use:
             continue

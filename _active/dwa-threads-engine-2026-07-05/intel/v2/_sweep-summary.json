@@ -1,0 +1,87 @@
+{
+  "summary": [
+    {
+      "task": "reddit-dwa",
+      "status": "ok",
+      "fallback": false,
+      "results": 60,
+      "cost": 0.06,
+      "spent_total": 0.7945,
+      "remaining": 28.2055
+    },
+    {
+      "task": "reddit-affiliate",
+      "status": "ok",
+      "fallback": false,
+      "results": 50,
+      "cost": 0.05,
+      "spent_total": 0.8445,
+      "remaining": 28.1555
+    },
+    {
+      "task": "reddit-digitalmkt",
+      "status": "ok",
+      "fallback": false,
+      "results": 40,
+      "cost": 0.04,
+      "spent_total": 0.8845,
+      "remaining": 28.1155
+    },
+    {
+      "task": "reddit-juststart",
+      "status": "ok",
+      "fallback": false,
+      "results": 50,
+      "cost": 0.05,
+      "spent_total": 0.9345,
+      "remaining": 28.0655
+    },
+    {
+      "task": "reddit-reach",
+      "status": "ok",
+      "fallback": false,
+      "results": 40,
+      "cost": 0.04,
+      "spent_total": 0.9745,
+      "remaining": 28.0255
+    },
+    {
+      "task": "tiktok-affiliate",
+      "status": "ok",
+      "fallback": false,
+      "results": 60,
+      "cost": 0.24,
+      "spent_total": 1.2145,
+      "remaining": 27.7855
+    },
+    {
+      "task": "tiktok-makemoney",
+      "status": "ok",
+      "fallback": false,
+      "results": 60,
+      "cost": 0.24,
+      "spent_total": 1.4545,
+      "remaining": 27.5455
+    },
+    {
+      "task": "threads-dwa",
+      "status": "ok",
+      "fallback": false,
+      "results": 1,
+      "cost": 0.003,
+      "spent_total": 1.4575,
+      "remaining": 27.5425
+    },
+    {
+      "task": "threads-discovery",
+      "status": "ok",
+      "fallback": false,
+      "results": 1,
+      "cost": 0.003,
+      "spent_total": 1.4605,
+      "remaining": 27.5395
+    }
+  ],
+  "final_spent": 1.4605,
+  "tasks_run": 9
+}

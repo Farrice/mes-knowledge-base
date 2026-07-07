@@ -1,0 +1,105 @@
+{
+  "activation_queue": [
+    {
+      "blocker": "",
+      "evidence_path": "_active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md",
+      "expected_artifact": "Source-backed cultural dossier and visual reference board",
+      "id": "source-research",
+      "kind": "workstream",
+      "next_action": "Use source board and research dossier for counsel, cultural review, and mockup testing.",
+      "owner": "Codex main thread + bounded research agents",
+      "status": "complete",
+      "updated_at": "2026-07-04T00:24:32+00:00",
+      "validation_assertion": "cultural-grounding",
+      "workflow": "mission/deep-research"
+    },
+    {
+      "blocker": "",
+      "evidence_path": "_active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md",
+      "expected_artifact": "_active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_COMPLETE_LINDY_HOP_BRAND_STRATEGY_PACKET.md",
+      "id": "strategy-artifact",
+      "kind": "workstream",
+      "next_action": "Share with Josh for review before counsel, paid cultural review, and private mockups.",
+      "owner": "Codex main thread",
+      "status": "complete",
+      "updated_at": "2026-07-04T00:24:32+00:00",
+      "validation_assertion": "product-risk-validation",
+      "workflow": "mission"
+    }
+  ],
+  "approved_package_load_set": [],
+  "artifact_contract": {
+    "artifacts": [],
+    "required": false,
+    "root": "",
+    "type": "none"
+  },
+  "context_requirements": [],
+  "created_at": "2026-07-04T00:17:37+00:00",
+  "execution_receipt": {
+    "executed_lanes": [
+      "strategy-artifact",
+      "source-research"
+    ],
+    "planned_lanes": [
+      "source-research",
+      "strategy-artifact"
+    ],
+    "proof_artifacts": [
+      "_active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md"
+    ],
+    "resume_command": "/mission resume eightward-lindy-hop-brand-strategy",
+    "skipped_lanes": [],
+    "validators_run": [
+      "source-backed citation review",
+      "row-count and source-link review",
+      "artifact section review"
+    ]
+  },
+  "goal": "Create Josh's research-backed Eightward brand strategy packet for a culture-rooted Lindy Hop apparel brand, including cultural research, cultural-distance map, visual references, fashion direction, positioning, product architecture, risk map, and validation plan.",
+  "handoffs": [],
+  "librarian": {
+    "notes": "Memory quick pass and local project continuity reviewed; Mission used as owner for the Josh Eightward brand strategy packet.",
+    "required": true,
+    "status": "complete"
+  },
+  "mode": "client",
+  "name": "Eightward Lindy Hop Brand Strategy",
+  "package_boundaries": [],
+  "resume_packet": {
+    "fresh_session_packet": "Continue from .agent/missions/eightward-lindy-hop-brand-strategy/mission.json and _active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_EIGHTWARD_CULTURAL_BRAND_AND_LEGAL_CONSULT_BRIEF.md. Next useful action: turn the brief into a 2-page Josh-facing founder brief or 3 private mockup briefs.",
+    "next_command": "/mission eightward-lindy-hop-brand-strategy",
+    "notes": "Mission produced complete cultural brand and legal consult brief.",
+    "required": false,
+    "resume_command": "/mission eightward-lindy-hop-brand-strategy",
+    "state_sources": [
+      ".agent/missions/eightward-lindy-hop-brand-strategy/mission.json"
+    ]
+  },
+  "slug": "eightward-lindy-hop-brand-strategy",
+  "status": "complete",
+  "updated_at": "2026-07-04T00:25:17+00:00",
+  "validation_assertions": [
+    {
+      "covered_by": "Cultural Research Dossier; Cultural Distance Map; Cultural Safety Map",
+      "id": "cultural-grounding",
+      "pass_signal": "Key historical claims labeled VERIFIED/LIKELY/UNCONFIRMED with primary or reputable sources.",
+      "statement": "Packet grounds Lindy Hop in Black American social dance history and the Savoy/Harlem context while avoiding revival-only or costume framing.",
+      "validator": "source-backed citation review"
+    },
+    {
+      "covered_by": "Visual Reference Board",
+      "id": "visual-board",
+      "pass_signal": "At least 40 references, each tied to visual lesson, rights posture, or brand implication.",
+      "statement": "Packet includes a 40-60 entry visual reference board with source links and design lessons, not unlicensed image reuse instructions.",
+      "validator": "row-count and source-link review"
+    },
+    {
+      "covered_by": "Positioning; Product Architecture; Risk Map; Validation Plan",
+      "id": "product-risk-validation",
+      "pass_signal": "Actionable claims, legal-review prompts, and validation steps are present without pretending to be legal advice.",
+      "statement": "Packet translates research into brand positioning, capsule architecture, IP/cultural risk controls, and a validation plan Josh can act on before legal and production spend.",
+      "validator": "artifact section review"
+    }
+  ]
+}

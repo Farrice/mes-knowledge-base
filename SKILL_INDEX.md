@@ -112,6 +112,7 @@
 | `fraser-cottrell-paid-ads` | **fraser-cottrell-paid-ads** | villain-vs-hero script architecture, and the 6-format static ad library, validated across ~$300-450m in managed meta spend and 8 | 3 | 0 |
 | `fresh-voice-system` | **Fresh Voice System** | combines voice dna (tone, comedy, rhythm) with serial storytelling architecture (arc design | 3 | 0 |
 | `frontend-design` | **frontend-design** | create distinctive, production-grade frontend interfaces with high design quality, use this skill when the user asks to build web components | 0 | 0 |
+| `fryderyk-wiatrowski-ai-employee-os` | **Fryderyk Wiatrowski AI Employee OS** | design, and upgrade ai employee systems with ambient work surfaces, context isolation | 1 | 0 |
 | `futurepedia-prompt-engineering` | **Futurepedia Prompt Engineering** | the expert anchor system - 3-step framework for transforming generic ai outpu... | 6 | 18 |
 | `gabe-novotny-fitness-content-business` | **gabe-novotny-fitness-content-business** | the cpr (cash per reel) method, fitness content business os | 3 | 0 |
 | `gary-vaynerchuk-attention` | **gary-vaynerchuk-attention** | run a document-don't-create organic content engine, and amplify only proven organic winners, ai + pop culture era | 3 | 0 |
@@ -209,6 +210,7 @@
 | `mark-kashef-claude-claw` | **Mark Kashef: Claude Claw — Agent SDK Bridge Architecture** | full capability access from your phone, claude claw — agent sdk bridge architecture, agent sdk bridge architecture | 4 | 3 |
 | `mark-kashef-silver-platter-agentic-os` | **Mark Kashef Silver Platter Agentic OS** | audit an operator's business tools, map pantry -> prep -> plate, orchestrators | 0 | 0 |
 | `mark-kashef-visual-design` | **Mark Kashef — Visual Blueprint Methodology** | ascii wireframe-first visual planning system that aligns human vision with ai..., visual blueprint methodology | 5 | 0 |
+| `mark-kashef-wargame-os` | **Mark Kashef Wargame OS** | wargame, wargaming, battle plan | 10 | 0 |
 | `mark-manson-values-psychology` | **mark-manson-values-psychology** | the mindset layer for transformation coaching, values psychology & wellbeing | 3 | 0 |
 | `market_intelligence` | **Market Intelligence** | advanced trend spotting and keyword intent analysis system | 0 | 0 |
 | `marketing-studio-director` | **marketing-studio-director** | higgsfield marketing studio prompt director, universal director | 0 | 0 |

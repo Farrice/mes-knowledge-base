@@ -1,35 +1,35 @@
 # Knowledge Briefing
-*Generated: 2026-07-06 | 515 sources | 2,361,728 words*
+*Generated: 2026-07-07 | 529 sources | 2,403,039 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 3,702 words — `knowledge/index.md`
-- **log** (general) — 9,652 words — `knowledge/log.md`
-- **VISION** (content) — 1,099 words — `extractions/ben-watkins/VISION.md`
-- **extraction-report** (content [kallaway]) — 715 words — `extractions/kallaway-content-system/extraction-report.md`
-- **integrity-patch** (copywriting [kallaway]) — 590 words — `extractions/kallaway-content-system/integrity-patch.md`
-- **asset-inventory** (screenwriting [nick-saraev]) — 101 words — `extractions/mark-kashef-perfect-agentic-os-kit/asset-inventory.md`
-- **extraction-brief** (content [nick-saraev]) — 463 words — `extractions/mark-kashef-perfect-agentic-os-kit/extraction-brief.md`
-- **SKILL** (copywriting [nick-saraev]) — 3,638 words — `extractions/mark-kashef-perfect-agentic-os-kit/source_assets/SKILL.md`
-- **OPPORTUNITIES** (general [nick-saraev]) — 181 words — `extractions/mark-kashef-perfect-agentic-os-kit/source_assets/examples/devon_saas/OPPORTUNITIES.md`
-- **OPPORTUNITIES** (general [nick-saraev]) — 215 words — `extractions/mark-kashef-perfect-agentic-os-kit/source_assets/examples/dr_anwar_derma/OPPORTUNITIES.md`
+- **index** (content) — 3,777 words — `knowledge/index.md`
+- **log** (general) — 10,349 words — `knowledge/log.md`
+- **architecture** (systems) — 525 words — `extractions/wargame-source/architecture.md`
+- **blind-pass-output** (copywriting) — 3,611 words — `extractions/wargame-source/blind-pass-output.md`
+- **laundry-list-notes** (copywriting) — 2,380 words — `extractions/wargame-source/laundry-list-notes.md`
+- **mes-extraction** (content) — 4,604 words — `extractions/wargame-source/mes-extraction.md`
+- **vision** (content) — 678 words — `extractions/wargame-source/vision.md`
+- **visual-context** (sales) — 3,121 words — `extractions/wargame-source/visual-context.md`
+- **2026-07-07-claim-safe-content-landscape** (content) — 3,450 words — `research_outputs/2026-07-07-claim-safe-content-landscape.md`
+- **evolved-alex-suzuki-digital-product-revenue-os-2026-07-06** (brand) — 370 words — `knowledge/patterns/evolved-alex-suzuki-digital-product-revenue-os-2026-07-06.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 170 | nicolas-cole |
-| copywriting | 83 | luke-iha |
-| general | 72 | nick-saraev |
-| screenwriting | 41 | connelly |
+| content | 176 | nicolas-cole |
+| copywriting | 85 | luke-iha |
+| general | 74 | nick-saraev |
+| screenwriting | 42 | connelly |
 | strategy | 39 | april-dunford |
-| brand | 35 | oren-john |
-| systems | 26 | nick-saraev |
+| brand | 36 | oren-john |
+| systems | 27 | nick-saraev |
 | seo | 21 | nathan-gotch |
 | research | 19 | dai-media |
-| sales | 9 | dai-media |
+| sales | 10 | dai-media |
 
 ## Deepest Knowledge Sources (by word count)
 

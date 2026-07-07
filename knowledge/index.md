@@ -1,9 +1,9 @@
 # Knowledge Index
-*515 sources | 2,361,728 words | Updated: 2026-07-06*
+*529 sources | 2,403,039 words | Updated: 2026-07-07*
 
 ---
 
-## Content (170 files)
+## Content (176 files)
 
 - [video-context-ledger](../extractions/video-context/3iR3kHxCwfo/video-context-ledger.md) — 75,408 words
 - [Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them](extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md) — 60,850 words (stale)
@@ -17,18 +17,20 @@
 - [Guide_5_Trailer_Storytelling_Narrative](creative-direction/guides/Guide_5_Trailer_Storytelling_Narrative.md) — 5,775 words
 - [2026-04-25-substack-notes-craft-gemini-max](../research_outputs/2026-04-25-substack-notes-craft-gemini-max.md) — 5,421 words
 - [extraction-report](../extractions/ocean-vuong/extraction-report.md) — 4,861 words
+- [mes-extraction](../extractions/wargame-source/mes-extraction.md) — 4,604 words
 - [visual-context](../extractions/brad-bonanno/visual-context.md) — 4,497 words
 - [extraction-report](../extractions/dr-k/extraction-report.md) — 4,451 words
 - [mastery-extraction](../extractions/meg-heckman/mastery-extraction.md) — 4,112 words
 - [2026-04-24-substack-2026-growth-tactics-gemini](../research_outputs/2026-04-24-substack-2026-growth-tactics-gemini.md) — 3,820 words
+- [index](index.md) — 3,777 words
 - [mastery-extraction-teach-to-sell](../extractions/omar-eltakrori/teach-grow-rich/mastery-extraction-teach-to-sell.md) — 3,774 words
 - [extraction-report](../extractions/brad-bonanno/extraction-report.md) — 3,760 words
 - [DESIGN](design-libraries/brands/ferrari/DESIGN.md) — 3,753 words
 - [extraction-report](../extractions/marc-andreessen/extraction-report.md) — 3,749 words (stale)
-- [index](index.md) — 3,702 words
 - [visual-context](../extractions/meg-heckman/video-context-mV-DQElnWGk/visual-context.md) — 3,694 words
 - [extraction-report](../extractions/grace-andrews/extraction-report.md) [grace-beverley] — 3,663 words (stale)
 - [substack-brandjack-trends-april-2026](../research_outputs/substack-brandjack-trends-april-2026.md) — 3,555 words
+- [2026-07-07-claim-safe-content-landscape](../research_outputs/2026-07-07-claim-safe-content-landscape.md) — 3,450 words
 - [extraction-report](../extractions/oren/extraction-report.md) [oren-john] — 3,351 words (stale)
 - [DESIGN](design-libraries/brands/linear-app/DESIGN.md) — 3,342 words
 - [DESIGN](design-libraries/brands/sanity/DESIGN.md) — 3,204 words
@@ -133,8 +135,10 @@
 - [extraction-report](../extractions/kallaway-content-system/extraction-report.md) [kallaway] — 715 words
 - [attention-arbitrage-calculator](../extractions/sam-goddard-media-scaling/prompts/attention-arbitrage-calculator.md) — 713 words (stale)
 - [emotional-frequency-engineering](synthesis/emotional-frequency-engineering.md) [lara-acosta] — 708 words
+- [analysis](../extractions/video-context/ohKt066uFhg/analysis.md) — 693 words
 - [extraction-report](../extractions/rafa-conde/extraction-report.md) — 691 words
 - [06-unlocks-stacking](../extractions/chase-hughes/_forge-output/06-unlocks-stacking.md) — 684 words
+- [vision](../extractions/wargame-source/vision.md) — 678 words
 - [gopro-scaling-blueprint](../extractions/sam-goddard-media-scaling/prompts/gopro-scaling-blueprint.md) — 654 words (stale)
 - [dwell-time-narrative-gravity](synthesis/dwell-time-narrative-gravity.md) [kallaway] — 608 words
 - [research](../extractions/nick-saraev-cold-outreach/research.md) [nick-saraev] — 577 words (stale)
@@ -143,6 +147,7 @@
 - [sample-005](expert-benchmarks/linkedin/sample-005.md) [nicolas-cole] — 534 words
 - [source-ledger](../extractions/kobi-brown-educational-virality/source-ledger.md) — 501 words
 - [extraction-brief](../extractions/mark-kashef-perfect-agentic-os-kit/extraction-brief.md) [nick-saraev] — 463 words
+- [evidence-map](../extractions/video-context/ohKt066uFhg/evidence-map.md) — 459 words
 - [uncertainty-report](../extractions/kobi-brown-educational-virality/uncertainty-report.md) — 409 words
 - [validation-report](../extractions/mark-kashef-perfect-agentic-os-kit/validation-report.md) [nick-saraev] — 398 words
 - [source-to-skill-brief](../extractions/video-context/Zc4E_K48v48/source-to-skill-brief.md) — 394 words
@@ -171,12 +176,13 @@
 - [sample-002](expert-benchmarks/linkedin/sample-002.md) [lara-acosta] — 198 words
 - [metadata](../extractions/anne-lamott-neal-allen-really-real/metadata.md) — 194 words
 - [validation-report](../extractions/shan-hanif/validation-report.md) — 194 words (stale)
+- [extraction-brief](../extractions/video-context/ohKt066uFhg/extraction-brief.md) — 193 words
 - [validation-report](../extractions/ross-mckay/validation-report.md) [april-dunford] — 167 words (stale)
 - [source-notes](../extractions/rafa-conde/source-notes.md) — 121 words
 - [visual-notes](../extractions/kobi-brown-educational-virality/visual-notes.md) — 84 words
 - [context](../extractions/meg-heckman/codex-prior-art/agent/memory/context.md) — 75 words
 
-## Copywriting (83 files)
+## Copywriting (85 files)
 
 - [Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026](extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026.md) [cardinal-mason] — 60,673 words (stale)
 - [Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026 pt.2](extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026 pt.2.md) [cardinal-mason] — 54,838 words (stale)
@@ -193,11 +199,13 @@
 - [DESIGN](design-libraries/brands/cal/DESIGN.md) — 3,978 words
 - [DESIGN](design-libraries/brands/airbnb/DESIGN.md) — 3,846 words
 - [SKILL](../extractions/mark-kashef-perfect-agentic-os-kit/source_assets/SKILL.md) [nick-saraev] — 3,638 words
+- [blind-pass-output](../extractions/wargame-source/blind-pass-output.md) — 3,611 words
 - [DESIGN](design-libraries/brands/bmw/DESIGN.md) — 3,596 words
 - [DESIGN](design-libraries/brands/cohere/DESIGN.md) — 2,769 words
 - [DESIGN](design-libraries/brands/warp/DESIGN.md) — 2,545 words
 - [behavior-proof](../extractions/alex-suzuki-digital-product-revenue-os/proof/behavior-proof.md) — 2,490 words
 - [extraction-report](../extractions/luke-iha/video-8-proof-ladder/extraction-report.md) [luke-iha] — 2,422 words (stale)
+- [laundry-list-notes](../extractions/wargame-source/laundry-list-notes.md) — 2,380 words
 - [extraction-report](../extractions/april-dunford/extraction-report.md) [april-dunford] — 2,150 words (stale)
 - [extraction-report](../extractions/luke-iha/video-3-levels-of-awareness/extraction-report.md) [luke-iha] — 2,018 words (stale)
 - [cloud.google.com_blog_products_ai-machine-learning_ultimate-prompting-guide-for-nano-banana](../extractions/creative-direction/cloud.google.com_blog_products_ai-machine-learning_ultimate-prompting-guide-for-nano-banana.md) — 1,963 words
@@ -262,7 +270,7 @@
 - [sample-004](expert-benchmarks/copywriting/sample-004.md) [luke-iha] — 92 words
 - [sample-001](expert-benchmarks/copywriting/sample-001.md) [luke-iha] — 63 words
 
-## General (72 files)
+## General (74 files)
 
 - [Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average](extractions/inbox/Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average.md) — 64,760 words (stale)
 - [Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2](extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2.md) — 62,412 words (stale)
@@ -277,8 +285,9 @@
 - [Claude-👨🏽_🎨💎💎 Kittl ! Graphic Design Mastery](extractions/inbox/Claude-👨🏽_🎨💎💎 Kittl ! Graphic Design Mastery.md) — 35,030 words (stale)
 - [Guide_3_Streetwear_Design_Mastery](creative-direction/guides/Guide_3_Streetwear_Design_Mastery.md) — 32,225 words
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
+- [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 9,652 words
+- [log](log.md) — 10,349 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words
@@ -333,11 +342,12 @@
 - [uncertainty-report](../extractions/meg-heckman/video-context-7MNa2YTPGs4/uncertainty-report.md) — 57 words
 - [uncertainty-report](../extractions/video-context/3iR3kHxCwfo/uncertainty-report.md) — 57 words
 - [uncertainty-report](../extractions/video-context/a7VjpIqq8Xk/uncertainty-report.md) — 57 words
+- [uncertainty-report](../extractions/video-context/ohKt066uFhg/uncertainty-report.md) — 57 words
 - [ocr-notes](../extractions/meg-heckman/video-context-7MNa2YTPGs4/ocr-notes.md) — 20 words
 - [ocr-notes](../extractions/video-context/3iR3kHxCwfo/ocr-notes.md) — 20 words
 - [ocr-notes](../extractions/video-context/a7VjpIqq8Xk/ocr-notes.md) — 20 words
 
-## Screenwriting (41 files)
+## Screenwriting (42 files)
 
 - [Claude-💎💎 Shaan Puri's Storytelling Formula](extractions/inbox/Claude-💎💎 Shaan Puri's Storytelling Formula.md) — 50,755 words (stale)
 - [Claude-💎💎🧑🏽_💻 Oscar Hoglund ! The Impact of Sound in Your Storytelling w! CEO of Epedemic Sound](extractions/inbox/Claude-💎💎🧑🏽_💻 Oscar Hoglund ! The Impact of Sound in Your Storytelling w! CEO of Epedemic Sound.md) — 50,452 words (stale)
@@ -369,6 +379,7 @@
 - [frame-notes](../extractions/meg-heckman/video-context-7MNa2YTPGs4/frame-notes.md) — 125 words
 - [frame-notes](../extractions/video-context/3iR3kHxCwfo/frame-notes.md) — 125 words
 - [frame-notes](../extractions/video-context/a7VjpIqq8Xk/frame-notes.md) — 125 words
+- [frame-notes](../extractions/video-context/ohKt066uFhg/frame-notes.md) — 125 words
 - [asset-inventory](../extractions/mark-kashef-perfect-agentic-os-kit/asset-inventory.md) [nick-saraev] — 101 words
 - [uncertainty-report](../extractions/video-context/-WCNwxz3uoM/uncertainty-report.md) — 63 words
 - [uncertainty-report](../extractions/video-context/FD53kEpLh9c/uncertainty-report.md) — 63 words
@@ -423,7 +434,7 @@
 - [sample-001](expert-benchmarks/brand-strategy/sample-001.md) [oren-john] — 448 words
 - [product-design-scoring](../extractions/meg-heckman/codex-prior-art/skill/workflows/product-design-scoring.md) — 200 words
 
-## Brand (35 files)
+## Brand (36 files)
 
 - [Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated](extractions/inbox/Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated.md) [dai-media] — 69,583 words (stale)
 - [Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out](extractions/inbox/Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out.md) — 63,227 words (stale)
@@ -457,11 +468,12 @@
 - [money-words-miner](../extractions/joanna-wiebe-persuasion-mastery/prompts/money-words-miner.md) — 427 words (stale)
 - [genius-patterns](../extractions/meg-heckman/codex-prior-art/skill/references/genius-patterns.md) — 404 words
 - [apparel_design_research](../extractions/creative-direction/apparel_design_research.md) — 403 words
+- [evolved-alex-suzuki-digital-product-revenue-os-2026-07-06](patterns/evolved-alex-suzuki-digital-product-revenue-os-2026-07-06.md) — 370 words
 - [kittl_notes](../extractions/creative-direction/kittl_notes.md) — 324 words
 - [quality-rubric](../extractions/meg-heckman/codex-prior-art/skill/references/quality-rubric.md) — 261 words
 - [OPPORTUNITIES](../extractions/mark-kashef-perfect-agentic-os-kit/source_assets/examples/marco_ecommerce/OPPORTUNITIES.md) [nick-saraev] — 229 words
 
-## Systems (26 files)
+## Systems (27 files)
 
 - [Claude-💎💰🧑🏽_💻 JING ! Darrel Wilson ! This New AI Automation Is Replacing Freelancers in 2026](extractions/inbox/Claude-💎💰🧑🏽_💻 JING ! Darrel Wilson ! This New AI Automation Is Replacing Freelancers in 2026.md) — 50,355 words (stale)
 - [video-context-ledger](../extractions/video-context/-WCNwxz3uoM/video-context-ledger.md) — 28,024 words
@@ -485,6 +497,7 @@
 - [extraction-report](../extractions/mark-kashef/extraction-report.md) [nick-saraev] — 886 words (stale)
 - [ideas](../extractions/creative-direction/ideas.md) — 734 words
 - [extraction-report](../extractions/mark-kashef-banana-squad/extraction-report.md) — 612 words (stale)
+- [architecture](../extractions/wargame-source/architecture.md) — 525 words
 - [INDEX](../extractions/prediction-market-trading/INDEX.md) — 459 words
 - [node-workflows](creative-direction/node-workflows.md) — 418 words
 - [banana-squad-spawn](../extractions/mark-kashef-banana-squad/prompts/banana-squad-spawn.md) [nick-saraev] — 277 words (stale)
@@ -536,8 +549,9 @@
 - [reference-reverse-engineer](../extractions/mark-kashef-banana-squad/prompts/reference-reverse-engineer.md) — 362 words (stale)
 - [output-patterns](../extractions/creative-direction/output-patterns.md) — 251 words
 
-## Sales (9 files)
+## Sales (10 files)
 
+- [visual-context](../extractions/wargame-source/visual-context.md) — 3,121 words
 - [9-psychological-writing-triggers-extraction](../extractions/joanna-wiebe/9-psychological-writing-triggers-extraction.md) — 1,617 words (stale)
 - [practitioner-arsenal-system](mes-3.0/practitioner-arsenal-system.md) — 1,002 words (stale)
 - [extraction-report](../extractions/joanna-wiebe-persuasion-mastery/extraction-report.md) — 988 words (stale)
@@ -566,6 +580,10 @@
 - [the-3-percent-disruption-principle](knowledge/synthesis/the-3-percent-disruption-principle.md)
 - [the-persuasion-stack](knowledge/synthesis/the-persuasion-stack.md)
 - [universal-proof-architecture](knowledge/synthesis/universal-proof-architecture.md)
+
+## Evolved Patterns
+
+- [evolved-alex-suzuki-digital-product-revenue-os-2026-07-06](knowledge/patterns/evolved-alex-suzuki-digital-product-revenue-os-2026-07-06.md)
 
 ---
 *Auto-maintained by `execution/knowledge_compiler.py`. Updated on every ingest, extraction, and compilation.*

@@ -1,0 +1,87 @@
+{
+  "summary": [
+    {
+      "task": "reddit-dwa",
+      "status": "ok",
+      "fallback": false,
+      "results": 50,
+      "cost": 0.05,
+      "spent_total": 0.065,
+      "remaining": 28.935
+    },
+    {
+      "task": "reddit-mrr",
+      "status": "ok",
+      "fallback": false,
+      "results": 40,
+      "cost": 0.04,
+      "spent_total": 0.105,
+      "remaining": 28.895
+    },
+    {
+      "task": "reddit-juststart-firstsale",
+      "status": "ok",
+      "fallback": false,
+      "results": 40,
+      "cost": 0.04,
+      "spent_total": 0.145,
+      "remaining": 28.855
+    },
+    {
+      "task": "reddit-sidehustle-overwhelm",
+      "status": "ok",
+      "fallback": false,
+      "results": 40,
+      "cost": 0.04,
+      "spent_total": 0.185,
+      "remaining": 28.815
+    },
+    {
+      "task": "reddit-passiveincome-affiliate",
+      "status": "ok",
+      "fallback": false,
+      "results": 30,
+      "cost": 0.03,
+      "spent_total": 0.215,
+      "remaining": 28.785
+    },
+    {
+      "task": "tiktok-sidehustle",
+      "status": "ok",
+      "fallback": false,
+      "results": 60,
+      "cost": 0.24,
+      "spent_total": 0.455,
+      "remaining": 28.545
+    },
+    {
+      "task": "tiktok-digitalmarketing",
+      "status": "ok",
+      "fallback": false,
+      "results": 60,
+      "cost": 0.24,
+      "spent_total": 0.695,
+      "remaining": 28.305
+    },
+    {
+      "task": "youtube-first1k",
+      "status": "ok",
+      "fallback": false,
+      "results": 6,
+      "cost": 0.03,
+      "spent_total": 0.725,
+      "remaining": 28.275
+    },
+    {
+      "task": "web-trustpilot-dwa",
+      "status": "ok",
+      "fallback": false,
+      "results": 1,
+      "cost": 0.003,
+      "spent_total": 0.728,
+      "remaining": 28.272
+    }
+  ],
+  "final_spent": 0.728,
+  "tasks_run": 9
+}

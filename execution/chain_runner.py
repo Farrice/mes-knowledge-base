@@ -641,6 +641,13 @@ def finalize(
     # tracker default (14d).
     expected_outcome: str = "",
     check_in_days: Optional[int] = None,
+    # Learning-debt latch (Solution Recorder, added 2026-07-07): finalize
+    # refuses to proceed if the newest session ledger has open learning_debt
+    # (a hard-won fix never captured as a Solution Card), unless the caller
+    # clears it (learning_path -> validated card) or explicitly overrides
+    # (skip_learning -> logged to evolution_store/learning_latch_overrides.jsonl).
+    learning_path: str = "",
+    skip_learning: bool = False,
 ) -> Dict[str, Any]:
     """
     Enforce the complete Chain Steps 6-7 in a single deterministic call.
@@ -704,6 +711,127 @@ def finalize(
         result["success"] = False
         result["error"] = f"Missing required quality scores: {', '.join(missing)}. The quality gate requires all 3 sub-scores."
         return result
+
+    # ── Step 1.1: Learning-debt latch (Solution Recorder, added 2026-07-07) ─
+    # session_ledger_hook.py books learning_debt on the newest session ledger
+    # when a Bash fail->success streak (>=3) never got captured as a Solution
+    # Card. Finalize is the Chain's hard stop — it refuses here rather than
+    # let the capture evaporate. Only FRESH debt (ts within the last 4h,
+    # solution_recorder.LEARNING_DEBT_FRESH_HOURS) can block — the active
+    # session's ledger is almost always the newest (its posttool hook touches
+    # it every call) and the GOLDEN RULE forbids concurrent drivers, so
+    # freshness is the proportionate guard against a stale ledger false-block.
+    # Surgical: this is the only new gate; scoring/taste logic is untouched.
+    _ledger_glob_dir = Path(__file__).resolve().parent.parent / ".agent" / "sessions"
+    _ledger_path = None
+    _ledger_data: Dict[str, Any] = {}
+    try:
+        _candidates = sorted(_ledger_glob_dir.glob("ledger-*.json"), key=lambda p: p.stat().st_mtime, reverse=True)
+        if _candidates:
+            _ledger_path = _candidates[0]
+            _ledger_data = json.loads(_ledger_path.read_text(encoding="utf-8"))
+    except Exception:
+        _ledger_path, _ledger_data = None, {}
+
+    _all_debt = _ledger_data.get("learning_debt") or []
+    try:
+        from solution_recorder import split_debt_freshness as _split_debt
+        _learning_debt, _stale_debt = _split_debt(_all_debt)
+    except ImportError:
+        # Inline fallback mirroring solution_recorder.split_debt_freshness:
+        # unparseable ts counts as stale (can't prove freshness -> can't block).
+        from datetime import timedelta as _timedelta
+        _cutoff = datetime.now() - _timedelta(hours=4)
+        _learning_debt, _stale_debt = [], []
+        for _d in _all_debt:
+            try:
+                _ok = datetime.fromisoformat(str(_d.get("ts", ""))) >= _cutoff
+            except Exception:
+                _ok = False
+            (_learning_debt if _ok else _stale_debt).append(_d)
+
+    if _learning_debt:
+        if learning_path:
+            # The card must be a REAL, valid Solution Card under docs/solutions/
+            # — any other file refuses (Fix 3, 2026-07-07). Validation is
+            # solution_recorder.validate_card (single source of truth); the
+            # inline fallback covers ImportError only.
+            _lp = Path(learning_path).resolve()
+            _solutions_dir = Path(__file__).resolve().parent.parent / "docs" / "solutions"
+            _violations: List[str] = []
+            if _solutions_dir.resolve() not in _lp.parents:
+                _violations.append(f"file must live under docs/solutions/ (got {_lp})")
+            elif not _lp.exists():
+                _violations.append(f"file not found: {_lp}")
+            else:
+                try:
+                    from solution_recorder import validate_card as _validate_card
+                    _violations = _validate_card(_lp)
+                except ImportError:
+                    # Fallback: frontmatter keys + 7-H2 presence check inline.
+                    try:
+                        _text = _lp.read_text(encoding="utf-8")
+                        _fm_m = re.match(r"^---\n(.*?)\n---\n?(.*)$", _text, re.DOTALL)
+                        if not _fm_m:
+                            _violations.append("frontmatter block not found")
+                        else:
+                            _fm_text, _body = _fm_m.group(1), _fm_m.group(2)
+                            for _key in ("name", "problem_signature", "domain", "tags", "date", "status"):
+                                if not re.search(rf"^{_key}:\s*\S", _fm_text, re.MULTILINE):
+                                    _violations.append(f"missing required frontmatter key: {_key}")
+                            for _h2 in ("## Problem", "## Root Cause", "## Approach That Worked",
+                                        "## Dead Ends", "## Verification", "## Weaker-Model Trap",
+                                        "## Pointers"):
+                                if _h2 not in _body:
+                                    _violations.append(f"missing section: {_h2}")
+                    except OSError as _exc:
+                        _violations.append(f"file unreadable: {_exc}")
+            if _violations:
+                result["success"] = False
+                result["error"] = (
+                    f"LEARNING CARD INVALID — {learning_path} does not pass Solution Card "
+                    "validation:\n  - " + "\n  - ".join(_violations) +
+                    "\nSave a valid card first: python3 execution/solution_recorder.py save --file <path>."
+                )
+                return result
+            if _ledger_path is not None:
+                try:
+                    _ledger_data["learning_debt"] = []
+                    _ledger_path.write_text(json.dumps(_ledger_data, indent=1), encoding="utf-8")
+                except Exception:
+                    pass
+        elif skip_learning:
+            try:
+                _overrides_path = Path(__file__).resolve().parent.parent / "evolution_store" / "learning_latch_overrides.jsonl"
+                _overrides_path.parent.mkdir(parents=True, exist_ok=True)
+                with open(_overrides_path, "a") as _of:
+                    _of.write(json.dumps({
+                        "ts": datetime.now().isoformat(),
+                        "event": "learning_latch_override",
+                        "output": output_description[:120],
+                        "skill": skill, "workflow": workflow,
+                        "learning_debt": _learning_debt,
+                    }) + "\n")
+            except Exception:
+                pass
+        else:
+            _evidence_lines = "\n".join(
+                f"  - {d.get('ts', '?')} · streak {d.get('streak', '?')} · {d.get('evidence', '')}"
+                for d in _learning_debt
+            )
+            result["success"] = False
+            result["error"] = (
+                "LEARNING DEBT OPEN — a hard problem was cracked this session "
+                f"({len(_learning_debt)} fresh fail→success streak(s), ledger: "
+                f"{_ledger_path.name if _ledger_path else '<unknown>'}) with no Solution Card saved.\n"
+                f"{_evidence_lines}\n"
+                "Run: python3 execution/solution_recorder.py draft --slug <s> --problem \"<one line>\", "
+                "fill it in, then python3 execution/solution_recorder.py save --file <path>. Rerun "
+                "finalize with --learning <path-to-card>.\n"
+                "If this debt belongs to another window/session, clear with --skip-learning "
+                "(logged) — see docs/solutions/index.md first."
+            )
+            return result
 
     # ── Step 1.5: Verification accountability (added 2026-06-12) ─
     # Chain Step 5.5 fired before delivery — this makes skipping it VISIBLE.
@@ -1757,6 +1885,9 @@ def main():
     fin.add_argument("--pin-thread", default="", help="Thread slug for the session pin (default: --project, else --workflow). Pass explicitly to avoid splitting the /resume menu.")
     fin.add_argument("--pin-status", default="active", help="Handoff status for the pin: active|blocked|ready|mid-build|done. Default active.")
     fin.set_defaults(pin_session=None)
+    # Learning-debt latch (Solution Recorder, added 2026-07-07)
+    fin.add_argument("--learning", default="", dest="learning_path", help="Path to a saved Solution Card that clears open learning_debt on the newest session ledger.")
+    fin.add_argument("--skip-learning", action="store_true", help="Proceed despite open learning_debt. Logged to evolution_store/learning_latch_overrides.jsonl for audit — use sparingly.")
 
     args = parser.parse_args()
 
@@ -1793,6 +1924,8 @@ def main():
             content_path=_content_path,
             expected_outcome=args.expected_outcome,
             check_in_days=args.check_in,
+            learning_path=args.learning_path,
+            skip_learning=args.skip_learning,
         )
         print_result(result)
         _do_pin = args.pin_session

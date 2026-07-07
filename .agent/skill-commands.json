@@ -421,6 +421,10 @@
       "skill": "frontend-design"
     },
     {
+      "command": "/fryderyk-wiatrowski",
+      "skill": "fryderyk-wiatrowski-ai-employee-os"
+    },
+    {
       "command": "/futurepedia-prompt",
       "skill": "futurepedia-prompt-engineering"
     },
@@ -807,6 +811,10 @@
     {
       "command": "/mark-kashef-visual-design",
       "skill": "mark-kashef-visual-design"
+    },
+    {
+      "command": "/mark-kashef-wargame-os",
+      "skill": "mark-kashef-wargame-os"
     },
     {
       "command": "/mark-manson",

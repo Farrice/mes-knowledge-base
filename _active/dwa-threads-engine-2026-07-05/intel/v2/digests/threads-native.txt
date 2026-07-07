@@ -1,0 +1,1 @@
+# THREADS-NATIVE: FAILED. Both web-actor attempts returned empty text (Threads is JS/login-walled to rag-web-browser). ZERO Threads-native data exists. Close this gap only by manual human review of 10-20 Threads accounts.

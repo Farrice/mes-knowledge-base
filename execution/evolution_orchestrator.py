@@ -62,6 +62,9 @@ ROUTING_INTEL_PATH = ROOT / ".agent" / "routing-intelligence.json"
 SUB_AGENT_MISSES = ROOT / "evolution_store" / "sub_agent_misses.jsonl"
 SKILL_WEIGHTS_PATH = ROOT / ".agent" / "skill-weights.json"
 SYNONYM_CANDIDATES_PATH = ROOT / ".agent" / "synonym-candidates.md"
+# Quality→routing cursor (Wave 1, Harness Apex 2026-07-07): last v2-trace id
+# already folded into skill weights, so each finalize nudges exactly once.
+QUALITY_CURSOR_PATH = ROOT / ".agent" / "routing-quality-cursor.json"
 
 WEIGHT_NUDGE = 0.05
 WEIGHT_DECAY = 0.02   # pulls weights back toward 1.0 each nightly run
@@ -180,6 +183,12 @@ def run_routing_learning() -> Dict[str, Any]:
     nudge relaxes over time rather than accumulating forever. Clamped to
     [WEIGHT_MIN, WEIGHT_MAX].
 
+    Wave 1 (Harness Apex, 2026-07-07) adds a QUALITY signal alongside the
+    followed/not-followed signal: chain_runner finalize composites from
+    evolution_store/v2_traces nudge the finalized skill up (>=8) or down
+    (<7) at the same WEIGHT_NUDGE magnitude, cursor-tracked so each
+    finalize counts exactly once (.agent/routing-quality-cursor.json).
+
     NEVER touches execution/find_skill.py's SYNONYMS map or the skill index
     — those stay human-owned. Recent sub_agent_misses.jsonl entries with a
     `skill` field are instead appended as human-readable candidates to
@@ -228,6 +237,58 @@ def run_routing_learning() -> Dict[str, Any]:
             for s in suggested:
                 if s and s != loaded_skill:
                     _nudge(s, -WEIGHT_NUDGE)     # over-ranked for this query
+
+    # ── Quality→routing loop (Wave 1, Harness Apex 2026-07-07) ──────────
+    # Until now the loop only learned "was the suggestion followed"
+    # (auto_match/auto_miss) — never "did it work." chain_runner finalize
+    # already writes a per-route local record (evolution_store/v2_traces,
+    # operation=chain_finalize, component=skill dir, quality.composite).
+    # Fold it in: composite >=8 nudges the skill up, <7 nudges it down —
+    # same WEIGHT_NUDGE magnitude, same [WEIGHT_MIN, WEIGHT_MAX] clamp.
+    # A cursor (.agent/routing-quality-cursor.json) guarantees each finalize
+    # is counted exactly once; only components that are real skills/ dirs
+    # feed weights (task_type fallbacks like "Content" are skipped).
+    quality_counted = 0
+    try:
+        cursor = ""
+        try:
+            cursor = json.loads(QUALITY_CURSOR_PATH.read_text()).get("last_trace_id", "")
+        except Exception:
+            cursor = ""
+        if not cursor:
+            # First run: seed one week back so history doesn't stampede weights.
+            cursor = (datetime.now() - timedelta(days=WEEKLY_DAYS)).strftime("%Y%m%d_%H%M%S")
+        max_seen = cursor
+        for tf in sorted(TRACE_DIR.glob("trace_*.json")):
+            trace_id = tf.stem[len("trace_"):len("trace_") + 15]  # YYYYMMDD_HHMMSS
+            if trace_id <= cursor:
+                continue
+            try:
+                trace = json.loads(tf.read_text())
+            except Exception:
+                continue
+            if trace_id > max_seen:
+                max_seen = trace_id
+            if trace.get("operation") != "chain_finalize":
+                continue
+            skill = (trace.get("component") or "").strip()
+            if not skill or not (ROOT / "skills" / skill).is_dir():
+                continue
+            try:
+                composite = float((trace.get("quality") or {}).get("composite", 0.0))
+            except Exception:
+                continue
+            if composite >= 8.0:
+                _nudge(skill, WEIGHT_NUDGE)
+                quality_counted += 1
+            elif 0.0 < composite < LOW_SCORE_THRESHOLD:
+                _nudge(skill, -WEIGHT_NUDGE)
+                quality_counted += 1
+        QUALITY_CURSOR_PATH.parent.mkdir(parents=True, exist_ok=True)
+        QUALITY_CURSOR_PATH.write_text(json.dumps({"last_trace_id": max_seen}, indent=2))
+    except Exception as e:
+        result["quality_loop_error"] = str(e)
+    result["quality_finalizes_counted"] = quality_counted
 
     try:
         _save_skill_weights(weights)

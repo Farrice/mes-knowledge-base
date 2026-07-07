@@ -62,3 +62,13 @@
 {"ts": "2026-07-06T04:57:35.208250+00:00", "tool": "mcp__perplexity-ask__perplexity_research", "service": "perplexity", "billable": true, "session_id": "b088fd69-2ab4-4c3f-ac80-52bf967632ad"}
 {"ts": "2026-07-06T15:54:56.414104+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "f4c7550a-f0f7-48df-be62-696b4870704b"}
 {"ts": "2026-07-06T15:58:01.051748+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "f4c7550a-f0f7-48df-be62-696b4870704b"}
+{"ts": "2026-07-07T14:35:41.298066+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "b088fd69-2ab4-4c3f-ac80-52bf967632ad"}
+{"ts": "2026-07-07T14:35:47.945287+00:00", "tool": "mcp__perplexity-ask__perplexity_research", "service": "perplexity", "billable": true, "session_id": "b088fd69-2ab4-4c3f-ac80-52bf967632ad"}
+{"ts": "2026-07-07T14:41:10.254168+00:00", "tool": "mcp__perplexity-ask__perplexity_research", "service": "perplexity", "billable": true, "session_id": "b088fd69-2ab4-4c3f-ac80-52bf967632ad"}
+{"ts": "2026-07-07T14:42:04.206003+00:00", "tool": "mcp__perplexity-ask__perplexity_research", "service": "perplexity", "billable": true, "session_id": "b088fd69-2ab4-4c3f-ac80-52bf967632ad"}
+{"ts": "2026-07-07T14:42:35.545600+00:00", "tool": "mcp__perplexity-ask__perplexity_ask", "service": "perplexity", "billable": true, "session_id": "b088fd69-2ab4-4c3f-ac80-52bf967632ad"}
+{"ts": "2026-07-07T14:43:55.992277+00:00", "tool": "mcp__perplexity-ask__perplexity_ask", "service": "perplexity", "billable": true, "session_id": "b088fd69-2ab4-4c3f-ac80-52bf967632ad"}
+{"ts": "2026-07-07T16:47:58.374139+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "82ab33e7-00f2-4d59-85a9-b17b90031d31"}
+{"ts": "2026-07-07T16:48:06.490237+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "82ab33e7-00f2-4d59-85a9-b17b90031d31"}
+{"ts": "2026-07-07T16:48:12.039629+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "82ab33e7-00f2-4d59-85a9-b17b90031d31"}
+{"ts": "2026-07-07T16:48:23.309640+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "82ab33e7-00f2-4d59-85a9-b17b90031d31"}

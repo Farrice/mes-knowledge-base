@@ -20,6 +20,33 @@ from pathlib import Path
 from collections import defaultdict
 
 from control_intent import classify_control_intent
+
+# Wave 1 (Harness Apex, 2026-07-07): BINDINGS consulted upstream — a mandatory
+# binding hit pins its workflow(s) to rank #1 before any fuzzy scoring runs.
+try:
+    from routing_enforcer import match_bindings
+except Exception:  # never let enforcer import problems break search
+    def match_bindings(text):  # type: ignore
+        return []
+
+# Stopword filter (Wave 1, Harness Apex 2026-07-07). Reuses find_skill's
+# curated list when importable; the replica below only covers the failure
+# path (find_skill hard-exits at import when PyYAML is missing — SystemExit,
+# which a bare `except Exception` would NOT catch). Keep replica in sync
+# with execution/find_skill.py STOPWORDS.
+try:
+    from find_skill import STOPWORDS as QUERY_STOPWORDS
+except BaseException:
+    QUERY_STOPWORDS = {
+        "a", "an", "the", "and", "or", "but", "if", "then", "of", "on", "in", "to", "for",
+        "with", "from", "by", "as", "is", "are", "was", "were", "be", "been", "being",
+        "have", "has", "had", "do", "does", "did", "will", "would", "should", "could",
+        "may", "might", "i", "you", "we", "they", "it", "this", "that", "these", "those",
+        "my", "your", "our", "their", "its", "use", "using", "used", "when", "where",
+        "what", "which", "who", "how", "why", "just", "into", "out", "up", "down",
+        "over", "about", "like", "get", "got", "make", "made",
+    }
+
 from routing_governor import (
     governed_route_names,
     is_ai_employee_os_intent,
@@ -609,8 +636,26 @@ def build_index():
 def search_workflows(query, top_n=10):
     """Search workflows by keyword matching against name + description."""
     index = build_index()
-    query_terms = query.lower().split()
+    # Wave 1 (Harness Apex, 2026-07-07): stopwords and <3-char tokens no
+    # longer participate in substring scoring. Before this, the connective
+    # "but" in a query substring-matched the workflow literally named
+    # "bw-but-therefore" (+3 name, +2 desc) and outranked the real owner.
+    query_terms = [
+        t for t in query.lower().split()
+        if len(t) >= 3 and t not in QUERY_STOPWORDS
+    ]
     normalized_query = query.lower()
+
+    # Wave 1: mandatory BINDINGS consulted BEFORE fuzzy scoring. A binding
+    # hit pins its workflow(s) to the top of the ranking with an explicit
+    # BINDING marker — routing_enforcer.BINDINGS is the source of truth the
+    # post-finalize check already enforces; now the suggestion path asks too.
+    binding_hits = match_bindings(query)
+    binding_rank = {}  # workflow name -> (boost, matched signal)
+    for pos, hit in enumerate(binding_hits):
+        for sub, wf_name in enumerate(hit["workflows"]):
+            if wf_name not in binding_rank:
+                binding_rank[wf_name] = (50000 - pos * 200 - sub * 50, hit["signal"])
     control_intent = classify_control_intent(query)
     governed_order = []
     governed_boost = {}
@@ -645,6 +690,16 @@ def search_workflows(query, top_n=10):
         route: 10000 - (position * 100)
         for position, route in enumerate(governed_order[: max(top_n, 12)])
     }
+
+    # Bindings pin rank #1 ONLY when no control-plane governance claimed the
+    # query (governed stack or control-intent classification). Control-plane
+    # routing stays untouched (Wave 1 constraint); a binding hit under an
+    # active control lane demotes to an advisory marker, never an override.
+    control_plane_active = bool(governed_order) or bool(control_intent["route"])
+    if control_plane_active and binding_rank:
+        binding_rank = {
+            name: (50, signal) for name, (boost, signal) in binding_rank.items()
+        }
     scored = []
 
     # If suppress_expertise_routes, only consider control-plane routes.
@@ -654,13 +709,20 @@ def search_workflows(query, top_n=10):
             "skill-anneal", "source-to-skill-system", "routing-intelligence",
             "end-session", "mission", "repeatability-spine"
         }
-        wf_to_score = [wf for wf in index if wf["name"] in CONTROL_PLANE_ROUTES]
+        wf_to_score = [
+            wf for wf in index
+            if wf["name"] in CONTROL_PLANE_ROUTES or wf["name"] in binding_rank
+        ]
     else:
         wf_to_score = index
 
     for wf in wf_to_score:
         searchable = f"{wf['name']} {wf['description']} {wf['full_name']}".lower()
         score = 0
+        if wf["name"] in binding_rank:
+            boost, signal = binding_rank[wf["name"]]
+            score += boost
+            wf = dict(wf, binding_signal=signal)
         if wf["name"] in governed_boost:
             score += governed_boost[wf["name"]]
         if control_intent["route"] and wf["name"] == control_intent["route"]:
@@ -711,6 +773,22 @@ def search_workflows(query, top_n=10):
                     score += 1
         if score > 0:
             scored.append((score, wf))
+
+    # A bound PRIMARY workflow with no .agent/workflows/ file still surfaces
+    # (as a stub) so a binding hit is never silently dropped by index gaps.
+    indexed_names = {wf["name"] for wf in index}
+    for hit in binding_hits:
+        primary = hit["workflow"]
+        if primary not in indexed_names:
+            boost, signal = binding_rank[primary]
+            scored.append((boost, {
+                "name": primary,
+                "full_name": primary,
+                "description": f"(binding target — no workflow file in index) {hit['reason']}"[:200],
+                "size": 0,
+                "path": "",
+                "binding_signal": signal,
+            }))
 
     scored.sort(key=lambda x: (-x[0], x[1]["name"]))
     return scored[:top_n]
@@ -784,7 +862,10 @@ def main():
             return
         print(f"Top {len(results)} matches for '{args.query}':\n")
         for score, wf in results:
-            print(f"  /{wf['name']:40s} — {wf['description']}")
+            marker = ""
+            if wf.get("binding_signal"):
+                marker = f" [BINDING — mandatory route, signal: '{wf['binding_signal']}']"
+            print(f"  /{wf['name']:40s}{marker} — {wf['description']}")
 
     elif args.command == "domain":
         results = domain_lookup(args.name)

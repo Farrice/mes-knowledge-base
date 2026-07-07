@@ -1821,6 +1821,744 @@
             "ensemble": true,
             "compound_pairing": "nate-b-jones-auto-improvement-loops + self-evolving-systems + nate-b-jones-orchestration-intelligence",
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_183109_f099",
+            "timestamp": "2026-07-06T18:31:09.643022+00:00",
+            "session_id": "f4c7550a-f0f7-48df-be62-696b4870704b",
+            "request_summary": "All right, after everything you've done so far, is there anything else? That we could do to level our art system or enrich it and make it better to its highest intent. I am planning to. I know we did ",
+            "intent_score": 0,
+            "domain_detected": "design-md",
+            "experts_deployed": [
+                "design-md",
+                "nate-b-jones-auto-improvement-loops",
+                "self-evolving-systems"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "design-md",
+            "ensemble": true,
+            "compound_pairing": "design-md + nate-b-jones-auto-improvement-loops + self-evolving-systems",
+            "feedback": "fb_20260706_183243_2582"
+        },
+        {
+            "routing_id": "rt_20260706_183516_0817",
+            "timestamp": "2026-07-06T18:35:16.237590+00:00",
+            "session_id": "f4c7550a-f0f7-48df-be62-696b4870704b",
+            "request_summary": "I'm truly appreciative of all the work you did, and I'm thankful for you! Thank you for everything you did. I'm excited to see how everything turns out and to be able to utilize and build some awesome",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "brand-operating-system",
+                "internal-comms"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + brand-operating-system + internal-comms",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_183906_e6a5",
+            "timestamp": "2026-07-06T18:39:06.200985+00:00",
+            "session_id": "",
+            "request_summary": "skill-craft-standard authored + wired: evidence-grounded canonical build standard for skills/agents/workflows (pattern density over length, Heartbeat Test, router-facing frontmatter, earned scores); w",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-architecture"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260706_184511_35f8",
+            "timestamp": "2026-07-06T18:45:11.285535+00:00",
+            "session_id": "f4c7550a-f0f7-48df-be62-696b4870704b",
+            "request_summary": "with the Nightly Evolution report, I just want to make sure it runs or I see it so I can be aware of it, cause I might forget to run it myself.",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "wright-thompson-mastery",
+                "nicolas-cole-niche-positioning"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + wright-thompson-mastery + nicolas-cole-niche-positioning",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_135617_06bc",
+            "timestamp": "2026-07-07T13:56:17.249467+00:00",
+            "session_id": "",
+            "request_summary": "Harness Apex Plan — 4-audit analysis of supercomputer/JCC/autopilot/extraction/routing spine + 5-wave upgrade plan (_active/harness-apex-2026-07-07/PLAN.md) to encode Fable-level orchestration into de",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_141430_d697",
+            "timestamp": "2026-07-07T14:14:30.539498+00:00",
+            "session_id": "c558e706-f58c-4701-a4cd-5dd86cc6a615",
+            "request_summary": "JJ Plabook, \"go\" Also, one of the things I think would be super cool is that we did this with some of our prompts or workflows by fusing some together, not literally, but by stacking them into a unifi",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "brand-operating-system",
+                "david-placek-naming"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + brand-operating-system + david-placek-naming",
+            "feedback": "fb_20260707_141807_1ff0"
+        },
+        {
+            "routing_id": "rt_20260707_141702_8506",
+            "timestamp": "2026-07-07T14:17:02.244440+00:00",
+            "session_id": "2d252fd1-c92e-4f14-aed8-2928cf9f777f",
+            "request_summary": "let's do a demo and run it on my manifesto parallax edition zero one that I made. It's probably one of the most accurate pieces that I felt that I've ever generated and one of the most powerful pieces",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "how-i-write-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + how-i-write-os",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_141807_0377",
+            "timestamp": "2026-07-07T14:18:07.392625+00:00",
+            "session_id": "",
+            "request_summary": "JJ Playbook — grab-anytime developmental menu for JJ at 2.5 (.agent/cos/jj-playbook.md): five levers, time-windowed menu tied to his actual interests, screen launchpad protocol, solo-parent Tuesday rh",
+            "intent_score": 7,
+            "domain_detected": "Creative",
+            "experts_deployed": [
+                "chief-of-staff-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "cos-daily",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_142425_a298",
+            "timestamp": "2026-07-07T14:24:25.452291+00:00",
+            "session_id": "a1987cbb-e11e-4997-b55a-12e54d87d8d6",
+            "request_summary": "recently in the conversation, I asked you to analyze our entire harness and system that we built here, but also my personal context, to give me the best product-market fit and offer market fit for bui",
+            "intent_score": 0,
+            "domain_detected": "jason-fladlien-marketing",
+            "experts_deployed": [
+                "jason-fladlien-marketing",
+                "brand-operating-system",
+                "alex-suzuki-digital-product-revenue-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jason-fladlien-marketing",
+            "ensemble": true,
+            "compound_pairing": "jason-fladlien-marketing + brand-operating-system + alex-suzuki-digital-product-revenue-os",
+            "feedback": "fb_20260707_142959_03f2"
+        },
+        {
+            "routing_id": "rt_20260707_142924_b2d0",
+            "timestamp": "2026-07-07T14:29:24.681168+00:00",
+            "session_id": "wave1-test",
+            "request_summary": "write the next parallax edition about attention and memory",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "how-i-write-os",
+                "paul-harding-lyric-prose"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + how-i-write-os + paul-harding-lyric-prose",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_142928_5861",
+            "timestamp": "2026-07-07T14:29:28.330714+00:00",
+            "session_id": "wave1-test",
+            "request_summary": "please reorganize the garage shelving and label the storage bins for me",
+            "intent_score": 0,
+            "domain_detected": "paul-james-ai-automation",
+            "experts_deployed": [
+                "paul-james-ai-automation"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "paul-james-ai-automation",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_142943_7945",
+            "timestamp": "2026-07-07T14:29:43.537827+00:00",
+            "session_id": "wave1-test",
+            "request_summary": "write a eulogy for grandmas parakeet whose funeral is saturday",
+            "intent_score": 0,
+            "domain_detected": "how-i-write-os",
+            "experts_deployed": [
+                "how-i-write-os",
+                "paul-harding-lyric-prose",
+                "lamott-craft"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "how-i-write-os",
+            "ensemble": true,
+            "compound_pairing": "how-i-write-os + paul-harding-lyric-prose + lamott-craft",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_143329_1957",
+            "timestamp": "2026-07-07T14:33:29.399590+00:00",
+            "session_id": "b088fd69-2ab4-4c3f-ac80-52bf967632ad",
+            "request_summary": "did the workflow ever complete? Also, is there still an opportunity to take my extractions or my extraction process and prioritize it in a sense of helping people create their own intellectual propert",
+            "intent_score": 0,
+            "domain_detected": "david-placek-naming",
+            "experts_deployed": [
+                "david-placek-naming",
+                "supercomputer",
+                "self-evolving-systems"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "david-placek-naming",
+            "ensemble": true,
+            "compound_pairing": "david-placek-naming + supercomputer + self-evolving-systems",
+            "feedback": "fb_20260707_144557_ebf5"
+        },
+        {
+            "routing_id": "rt_20260707_143353_8d60",
+            "timestamp": "2026-07-07T14:33:53.357558+00:00",
+            "session_id": "",
+            "request_summary": "10-Option PMF/Offer-Market-Fit Brief — Antigravity Harness Analysis",
+            "intent_score": 7,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "synthesis-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "pmf-analysis-brief",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_143854_4d1b",
+            "timestamp": "2026-07-07T14:38:54.316522+00:00",
+            "session_id": "",
+            "request_summary": "PMF/Offer-Market-Fit Brief — recovered the stalled 2026-07-05 workflow research (8 payloads), completed the never-delivered slate: 10 scored paths + steel-man counter-read + two-action verdict sequenc",
+            "intent_score": 7,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "jason-fladlien"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "fladlien-game-selection",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_150232_ff1c",
+            "timestamp": "2026-07-07T15:02:32.269224+00:00",
+            "session_id": "b088fd69-2ab4-4c3f-ac80-52bf967632ad",
+            "request_summary": "I also remember that while executing all this, I want you, Fable, to be orchestrating judgment, taste, planning, and analyzing, and then having Opus or Sonnet 5 do all the busy grunt work so that we a",
+            "intent_score": 0,
+            "domain_detected": "design-md",
+            "experts_deployed": [
+                "design-md",
+                "xlsx",
+                "nate-b-jones-ai-taste-mastery"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "design-md",
+            "ensemble": true,
+            "compound_pairing": "design-md + xlsx + nate-b-jones-ai-taste-mastery",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_152342_ba11",
+            "timestamp": "2026-07-07T15:23:42.244926+00:00",
+            "session_id": "",
+            "request_summary": "PMF offer tournament + C1 creative package: 27-agent research run (5 Apify social-listening streams ~$2 spend, web/competitor sweeps, Danilov/Tobias/Seena lenses, 3-judge panel, 10 adversarial refuter",
+            "intent_score": 7,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "tobias-allen"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "pmf-offer-research",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_152607_f1f9",
+            "timestamp": "2026-07-07T15:26:07.622314+00:00",
+            "session_id": "82ab33e7-00f2-4d59-85a9-b17b90031d31",
+            "request_summary": "again, remember I want you to be the orchestrator, Fable, and have Sonia Opus do all the other work necessary. I want to make sure that our core workflows, like in session, are wired to perfection or ",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "brand-operating-system",
+                "david-placek-naming"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + brand-operating-system + david-placek-naming",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_155401_6372",
+            "timestamp": "2026-07-07T15:54:01.476109+00:00",
+            "session_id": "",
+            "request_summary": "End-session closeout spine: new execution/end_session_closeout.py (7-step deterministic closeout: closeout-intelligence, sovereign-memory episodic bridge, COS journal, session-state archive, friction ",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-orchestrator"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "end-session",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_155436_7067",
+            "timestamp": "2026-07-07T15:54:36.437738+00:00",
+            "session_id": "",
+            "request_summary": "End-session closeout spine (re-finalize with anchor flag): execution/end_session_closeout.py 7-step deterministic closeout + SessionEnd hook backstop + closeout_ran ledger detection + end-session.md S",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-orchestrator"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "end-session",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_164645_42c2",
+            "timestamp": "2026-07-07T16:46:45.458130+00:00",
+            "session_id": "82ab33e7-00f2-4d59-85a9-b17b90031d31",
+            "request_summary": "Would it be better to tackle this new task of creating world-class expert agents and council of experts that can work together to achieve amazing outcomes like the New supergrok ai, manus.ai, and Kimi",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "nate-b-jones-auto-improvement-loops",
+                "deliberate"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + nate-b-jones-auto-improvement-loops + deliberate",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_165955_a2c0",
+            "timestamp": "2026-07-07T16:59:55.117169+00:00",
+            "session_id": "",
+            "request_summary": "Swarm Apex mission plan + platform-mechanics research: 4 VERIFIED-labeled briefs (Manus/Grok Heavy/Kimi K2.6/Perplexity Comet-Labs) + internal orchestration stack audit (capability matrix, 8 gaps, bin",
+            "intent_score": 9,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "deep-research"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "convene",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_175009_a1ef",
+            "timestamp": "2026-07-07T17:50:09.079508+00:00",
+            "session_id": "82ab33e7-00f2-4d59-85a9-b17b90031d31",
+            "request_summary": "<task-notification>\n<task-id>wzf4elq7d</task-id>\n<tool-use-id>toolu_013CwtdRHPtAYv4R8XgfDWoV</tool-use-id>\n<output-file>/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/82ab33e7-00f2-4d59",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "brand-operating-system",
+                "claim-safe-health-marketing"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + brand-operating-system + claim-safe-health-marketing",
+            "feedback": "fb_20260707_183931_3b28"
+        },
+        {
+            "routing_id": "rt_20260707_175106_0c2a",
+            "timestamp": "2026-07-07T17:51:06.818430+00:00",
+            "session_id": "",
+            "request_summary": "Claim-safe content landscape research report (research_outputs/2026-07-07-claim-safe-content-landscape.md) — produced by the first live /swarm research mission: 6 parallel search workers, gap-check wi",
+            "intent_score": 9,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "deep-research"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "swarm-research",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_184143_4fd7",
+            "timestamp": "2026-07-07T18:41:43.059938+00:00",
+            "session_id": "verify-router-solution-line",
+            "request_summary": "Please help — this output has too many experts and skills, it is turning into expert soup, needs the expert composition governor pattern applied to compose the specialists properly",
+            "intent_score": 0,
+            "domain_detected": "design-md",
+            "experts_deployed": [
+                "design-md",
+                "strength-conditioning-os",
+                "omar-eddaoudi-scaling-ops"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "design-md",
+            "ensemble": true,
+            "compound_pairing": "design-md + strength-conditioning-os + omar-eddaoudi-scaling-ops",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_184151_8d32",
+            "timestamp": "2026-07-07T18:41:51.842614+00:00",
+            "session_id": "verify-router-solution-line",
+            "request_summary": "Please help — this output has too many experts and skills, it is turning into expert soup, needs the expert composition governor pattern applied to compose the specialists properly",
+            "intent_score": 0,
+            "domain_detected": "design-md",
+            "experts_deployed": [
+                "design-md",
+                "strength-conditioning-os",
+                "omar-eddaoudi-scaling-ops"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "design-md",
+            "ensemble": true,
+            "compound_pairing": "design-md + strength-conditioning-os + omar-eddaoudi-scaling-ops",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_184226_1602",
+            "timestamp": "2026-07-07T18:42:26.807289+00:00",
+            "session_id": "verify-router-solution-line",
+            "request_summary": "Please help — this output has too many experts and skills, it is turning into expert soup, needs the expert composition governor pattern applied to compose the specialists properly",
+            "intent_score": 0,
+            "domain_detected": "design-md",
+            "experts_deployed": [
+                "design-md",
+                "strength-conditioning-os",
+                "omar-eddaoudi-scaling-ops"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "design-md",
+            "ensemble": true,
+            "compound_pairing": "design-md + strength-conditioning-os + omar-eddaoudi-scaling-ops",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_184242_f960",
+            "timestamp": "2026-07-07T18:42:42.086557+00:00",
+            "session_id": "verify-router-generic2",
+            "request_summary": "Please write a landing page headline for my new fitness coaching product launch",
+            "intent_score": 0,
+            "domain_detected": "nicolas-cole-digital-products",
+            "experts_deployed": [
+                "nicolas-cole-digital-products",
+                "strength-conditioning-os",
+                "alex-suzuki-digital-product-revenue-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nicolas-cole-digital-products",
+            "ensemble": true,
+            "compound_pairing": "nicolas-cole-digital-products + strength-conditioning-os + alex-suzuki-digital-product-revenue-os",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_184324_2860",
+            "timestamp": "2026-07-07T18:43:24.383078+00:00",
+            "session_id": "",
+            "request_summary": "test finalize latch skip-learning override",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "test-expert"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "test-workflow",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_184400_f33d",
+            "timestamp": "2026-07-07T18:44:00.046680+00:00",
+            "session_id": "",
+            "request_summary": "test finalize latch skip-learning override",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "test-expert"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "test-workflow",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_184953_bb3b",
+            "timestamp": "2026-07-07T18:49:53.622627+00:00",
+            "session_id": "89530f50-a4a5-4302-b37b-e1daa77509cf",
+            "request_summary": "I want you to run this workflow and accomplish this goal, but I want you to again assume the role of the orchestrator and then use the other models, like Opus and Sonnet 5, to execute. I basically wan",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "david-placek-naming",
+                "design-md"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + david-placek-naming + design-md",
+            "feedback": "fb_20260707_185331_ac7f"
+        },
+        {
+            "routing_id": "rt_20260707_190300_f37c",
+            "timestamp": "2026-07-07T19:03:00.256284+00:00",
+            "session_id": "",
+            "request_summary": "latch v2 stale-debt test",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "t"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "t",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_190328_2d7f",
+            "timestamp": "2026-07-07T19:03:28.361364+00:00",
+            "session_id": "",
+            "request_summary": "latch v2 valid card clears debt",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "t"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "t",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_190357_989e",
+            "timestamp": "2026-07-07T19:03:57.456532+00:00",
+            "session_id": "",
+            "request_summary": "latch v2 valid card clears debt (same-call)",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "t"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "t",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_190413_7e87",
+            "timestamp": "2026-07-07T19:04:13.138567+00:00",
+            "session_id": "verify-mtime",
+            "request_summary": "Please help — this output has too many experts and skills, it is turning into expert soup, needs the expert composition governor pattern applied",
+            "intent_score": 0,
+            "domain_detected": "design-md",
+            "experts_deployed": [
+                "design-md",
+                "strength-conditioning-os",
+                "omar-eddaoudi-scaling-ops"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "design-md",
+            "ensemble": true,
+            "compound_pairing": "design-md + strength-conditioning-os + omar-eddaoudi-scaling-ops",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_190413_ceae",
+            "timestamp": "2026-07-07T19:04:13.439479+00:00",
+            "session_id": "verify-mtime",
+            "request_summary": "Please help — this output has too many experts and skills, it is turning into expert soup, needs the expert composition governor pattern applied",
+            "intent_score": 0,
+            "domain_detected": "design-md",
+            "experts_deployed": [
+                "design-md",
+                "strength-conditioning-os",
+                "omar-eddaoudi-scaling-ops"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "design-md",
+            "ensemble": true,
+            "compound_pairing": "design-md + strength-conditioning-os + omar-eddaoudi-scaling-ops",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_190607_554a",
+            "timestamp": "2026-07-07T19:06:07.134022+00:00",
+            "session_id": "",
+            "request_summary": "Path A proof-of-work decision brief (strategy_briefs/2026-07-07-path-a-proof-of-work-heavy.md) — first live /swarm heavy run: 8 expert trajectories, reflective aggregation preserving 5 forks with fals",
+            "intent_score": 9,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "collective-genius-council"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "swarm-heavy",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_190629_51db",
+            "timestamp": "2026-07-07T19:06:29.355941+00:00",
+            "session_id": "",
+            "request_summary": "Solution Recorder system: docs/solutions/ corpus (5 cards live) + solution_recorder.py (draft/save/check/search + validate_card) + cracked-problem detection in session ledger (returnCodeInterpretation",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-orchestrator"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-approach",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_192538_f0bf",
+            "timestamp": "2026-07-07T19:25:38.986704+00:00",
+            "session_id": "",
+            "request_summary": "Mark Kashef — Wargame OS mastery extraction (forge): 10 workflows, genius.md, 4 references, folder template, 10 slash commands, agent expansion",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "mark-kashef"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_203656_f8e9",
+            "timestamp": "2026-07-07T20:36:56.767035+00:00",
+            "session_id": "89530f50-a4a5-4302-b37b-e1daa77509cf",
+            "request_summary": "make sure all of the slash commands and workflows and things we've been generating in the last like 20 sessions (because we've been doing a lot of big work) are showing up in the slash command menu so",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "brand-operating-system",
+                "chase-hughes-conversational-influence"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + brand-operating-system + chase-hughes-conversational-influence",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_204507_0fae",
+            "timestamp": "2026-07-07T20:45:07.341805+00:00",
+            "session_id": "",
+            "request_summary": "Slash-command menu full sync: 769 missing workflow shims generated into .claude/commands (1,542 workflows now 100% menu-visible), 1 dead orphan removed, SLASH_COMMANDS.md regenerated, coverage verifie",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "none"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "end-session",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -1832,47 +2570,104 @@
             "rating": "auto_miss",
             "correction": "satori-graphics",
             "notes": "expert skill 'satori-graphics' loaded not matching suggestion ['supercomputer', 'jason-fladlien-marketing', 'nate-b-jones-orchestration-intelligence']"
+        },
+        {
+            "feedback_id": "fb_20260706_183243_2582",
+            "timestamp": "2026-07-06T18:32:43.672806+00:00",
+            "session_id": "f4c7550a-f0f7-48df-be62-696b4870704b",
+            "routing_id": "rt_20260706_183109_f099",
+            "rating": "auto_miss",
+            "correction": "claim-safe-health-marketing",
+            "notes": "expert skill 'claim-safe-health-marketing' loaded not matching suggestion ['design-md', 'nate-b-jones-auto-improvement-loops', 'self-evolving-systems']"
+        },
+        {
+            "feedback_id": "fb_20260707_141807_1ff0",
+            "timestamp": "2026-07-07T14:18:07.966839+00:00",
+            "session_id": "c558e706-f58c-4701-a4cd-5dd86cc6a615",
+            "routing_id": "rt_20260707_141430_d697",
+            "rating": "auto_miss",
+            "correction": "chief-of-staff-os",
+            "notes": "expert skill 'chief-of-staff-os' loaded not matching suggestion ['supercomputer', 'brand-operating-system', 'david-placek-naming']"
+        },
+        {
+            "feedback_id": "fb_20260707_142959_03f2",
+            "timestamp": "2026-07-07T14:29:59.281860+00:00",
+            "session_id": "a1987cbb-e11e-4997-b55a-12e54d87d8d6",
+            "routing_id": "rt_20260707_142425_a298",
+            "rating": "auto_match",
+            "correction": "jason-fladlien-marketing",
+            "notes": "expert skill 'jason-fladlien-marketing' loaded matching suggestion ['jason-fladlien-marketing', 'brand-operating-system', 'alex-suzuki-digital-product-revenue-os']"
+        },
+        {
+            "feedback_id": "fb_20260707_144557_ebf5",
+            "timestamp": "2026-07-07T14:45:57.605414+00:00",
+            "session_id": "b088fd69-2ab4-4c3f-ac80-52bf967632ad",
+            "routing_id": "rt_20260707_143329_1957",
+            "rating": "auto_miss",
+            "correction": "seena-rez-tiktok-commerce",
+            "notes": "expert skill 'seena-rez-tiktok-commerce' loaded not matching suggestion ['david-placek-naming', 'supercomputer', 'self-evolving-systems']"
+        },
+        {
+            "feedback_id": "fb_20260707_183931_3b28",
+            "timestamp": "2026-07-07T18:39:31.590453+00:00",
+            "session_id": "82ab33e7-00f2-4d59-85a9-b17b90031d31",
+            "routing_id": "rt_20260707_175009_a1ef",
+            "rating": "auto_miss",
+            "correction": "paul-harding-lyric-prose",
+            "notes": "expert skill 'paul-harding-lyric-prose' loaded not matching suggestion ['supercomputer', 'brand-operating-system', 'claim-safe-health-marketing']"
+        },
+        {
+            "feedback_id": "fb_20260707_185331_ac7f",
+            "timestamp": "2026-07-07T18:53:31.714197+00:00",
+            "session_id": "89530f50-a4a5-4302-b37b-e1daa77509cf",
+            "routing_id": "rt_20260707_184953_bb3b",
+            "rating": "auto_miss",
+            "correction": "mark-kashef-agent-orchestration",
+            "notes": "expert skill 'mark-kashef-agent-orchestration' loaded not matching suggestion ['supercomputer', 'david-placek-naming', 'design-md']"
         }
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 105,
-            "total_feedback": 1,
+            "total_routings": 146,
+            "total_feedback": 7,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 22,
+                "System": 33,
                 "Client Work": 4,
                 "Analysis": 4,
-                "Strategy": 8,
-                "Creative": 7,
+                "Strategy": 13,
+                "Creative": 8,
                 "Legal Consult Prep": 1,
                 "Content": 28,
-                "Extraction": 2,
-                "Research": 3,
+                "Extraction": 3,
+                "Research": 4,
                 "stefan-georgi-dopamine-copy": 5,
-                "supercomputer": 3,
-                "design-md": 1,
-                "david-placek-naming": 3,
+                "supercomputer": 13,
+                "design-md": 8,
+                "david-placek-naming": 4,
                 "nicolas-cole-niche-positioning": 2,
                 "brand-operating-system": 4,
-                "how-i-write-os": 7,
-                "nate-b-jones-auto-improvement-loops": 1
+                "how-i-write-os": 8,
+                "nate-b-jones-auto-improvement-loops": 1,
+                "jason-fladlien-marketing": 1,
+                "paul-james-ai-automation": 1,
+                "nicolas-cole-digital-products": 1
             },
             "expert_counts": {
-                "system-audit": 15,
-                "strength-conditioning-os": 2,
+                "system-audit": 16,
+                "strength-conditioning-os": 8,
                 "nicolas-cole": 1,
                 "source-to-skill-system": 1,
                 "founder-voice": 1,
-                "chief-of-staff-os": 2,
+                "chief-of-staff-os": 3,
                 "david-placek": 2,
                 "David Placek": 1,
                 "jen-santulan-listing-content": 14,
                 "jen-santulan": 3,
                 "health-performance-geo-client-acquisition-engine": 3,
-                "deep-research": 4,
+                "deep-research": 6,
                 "nate-b-jones-orchestration-intelligence": 4,
                 "source-command-mission": 1,
                 "creative-direction": 6,
@@ -1884,29 +2679,50 @@
                 "ben-watkins": 1,
                 "stefan-georgi-dopamine-copy": 5,
                 "luke-iha-copy-blocks": 6,
-                "how-i-write-os": 12,
-                "system-architecture": 6,
-                "supercomputer": 3,
-                "jason-fladlien-marketing": 1,
-                "design-md": 3,
+                "how-i-write-os": 15,
+                "system-architecture": 7,
+                "supercomputer": 14,
+                "jason-fladlien-marketing": 2,
+                "design-md": 11,
                 "simon-intellectual-library-os": 1,
                 "pptx": 1,
-                "david-placek-naming": 3,
-                "brand-operating-system": 6,
-                "nicolas-cole-niche-positioning": 2,
+                "david-placek-naming": 7,
+                "brand-operating-system": 12,
+                "nicolas-cole-niche-positioning": 3,
                 "prediction-market-making": 1,
-                "deliberate": 3,
+                "deliberate": 4,
                 "mark-kashef-ai-councils": 1,
                 "gpt-image-2-director": 7,
                 "marketing-studio-director": 8,
                 "webapp-testing": 2,
                 "joscha-bach-consciousness": 2,
                 "higgsfield-creative-studio": 1,
-                "nate-b-jones-auto-improvement-loops": 1,
-                "self-evolving-systems": 1
+                "nate-b-jones-auto-improvement-loops": 3,
+                "self-evolving-systems": 3,
+                "internal-comms": 1,
+                "wright-thompson-mastery": 1,
+                "alex-suzuki-digital-product-revenue-os": 2,
+                "paul-harding-lyric-prose": 2,
+                "paul-james-ai-automation": 1,
+                "lamott-craft": 1,
+                "synthesis-engine": 1,
+                "jason-fladlien": 1,
+                "xlsx": 1,
+                "nate-b-jones-ai-taste-mastery": 1,
+                "tobias-allen": 1,
+                "system-orchestrator": 3,
+                "claim-safe-health-marketing": 1,
+                "omar-eddaoudi-scaling-ops": 5,
+                "nicolas-cole-digital-products": 1,
+                "test-expert": 2,
+                "t": 3,
+                "collective-genius-council": 1,
+                "mark-kashef": 1,
+                "chase-hughes-conversational-influence": 1,
+                "none": 1
             },
             "tier_counts": {
-                "0": 105,
+                "0": 146,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -1914,11 +2730,12 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 26,
-                "finalize-auto": 79
+                "hybrid": 48,
+                "finalize-auto": 98
             },
-            "ensemble_count": 51,
-            "auto_miss_count": 1
+            "ensemble_count": 82,
+            "auto_miss_count": 6,
+            "auto_match_count": 1
         }
     }
 }

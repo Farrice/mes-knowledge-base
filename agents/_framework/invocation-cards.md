@@ -1598,7 +1598,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 57 agent(s) had no invocation card. Stubs below are machine-
+> 58 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -2031,6 +2031,16 @@ DOMAIN: Prediction market trading — weather, sports/events, market making, ris
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: Compound agent built from 4 MES 3.0 deep extractions totaling 3,947 lines of analyzed intelligence. This agent orchestrates weather trading, sports/event arb...
 ENTRY PROMPT: agents/prediction-market-strategist/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Research Intelligence Agent
+DOMAIN: research, intelligence, market analysis, competitive intelligence, factual verification, source ledgers
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: Own external truth: gather, verify, synthesize, and label facts before they enter strategy, content, offers, or client work.
+ENTRY PROMPT: agents/research-intelligence-agent/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 

@@ -92,6 +92,17 @@
           }
         ]
       }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/session_end_hook.py\"",
+            "timeout": 120
+          }
+        ]
+      }
     ]
   }
 }

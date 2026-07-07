@@ -173,6 +173,7 @@
 | `rachel-woods` | **Rachel Woods** | ai operations architect |
 | `reid-hoffman` | **Reid Hoffman** | ai investment strategy, ai strategy, ai venture evaluation, consumer psychology (seven deadly sins thesis), sin-engine diagnosis and sublimation design, social technology architect, social-ai product architecture, technology governance, technology philosophy, transition leadership, transition management |
 | `remotion` | **Remotion** | ai video creation |
+| `research-intelligence-agent` | **Research Intelligence Agent** | arsenal routing, competitive intelligence, compounding memory, factual verification, handoff discipline, intelligence, market analysis, objective ownership, research, source ledgers, taste and judgment |
 | `robert-greene` | **robert-greene** | craft mastery, ego and insecurity diagnosis, mastery strategist, mastery-path design, persuasion through self-interest and seduction, power, power dynamics, reputation, reputation and attention architecture, strategic concealment and multi-move planning, strategy |
 | `robert-mack` | **Robert Mack** | comedy writing architect |
 | `ron-lynch` | **Ron Lynch** | campaign architect, customer-as-media engineering, drtv-to-vsl translation, identity campaign architecture |

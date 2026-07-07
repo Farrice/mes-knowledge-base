@@ -85,7 +85,9 @@ def _load(session_id: str) -> dict:
         "staleness_warned": False, "miss_logged": False,
         "handoff_pending": False, "handoff_warned": False,
         "session_pinned": False, "session_pinned_at": None, "pin_nudged": False,
-        "pending_routing": None,
+        "pending_routing": None, "closeout_ran": False,
+        "bash_fail_streak": 0, "learning_debt": [], "solution_cards_saved": 0,
+        "learning_debt_nudged": False,
     }
 
 
@@ -303,7 +305,76 @@ def handle_posttool(payload: dict) -> None:
         ledger["subagent_spawns"] += 1
         changed = True
     elif tool == "Bash":
-        blob = json.dumps(payload.get("tool_response", "")) + str(tin.get("command", ""))
+        tool_response = payload.get("tool_response", "")
+        blob = json.dumps(tool_response) + str(tin.get("command", ""))
+        _cmd = str(tin.get("command", ""))
+
+        # Cracked-problem detection (Solution Recorder, 2026-07-07): a fail ->
+        # fail -> ... -> success streak on Bash is the deterministic signature
+        # of a hard problem getting solved. Booking it as learning_debt makes
+        # "capture the fix" a physical nudge instead of something Claude has
+        # to remember. Never raises — this whole hook is fail-safe by contract.
+        #
+        # Failure signal, in authority order (verified against the harness
+        # source: projects/Claude Code Harness Analysis/source-code-v2.1.88/
+        # src/tools/BashTool/{BashTool.tsx,commandSemantics.ts} — the Bash
+        # tool_response schema is {stdout, stderr, interrupted, isImage,
+        # returnCodeInterpretation, ...}; there is NO is_error key, ever):
+        #   1. interrupted: true -> failure.
+        #   2. returnCodeInterpretation (when present) is AUTHORITATIVE. Its
+        #      only possible values are commandSemantics messages: "No matches
+        #      found" (grep/rg exit 1), "Some directories were inaccessible"
+        #      (find 1), "Files differ" (diff 1), "Condition is false"
+        #      (test/[ 1) — all non-error semantics -> SUCCESS — and the
+        #      default-semantic "Command failed with exit code N" -> failure.
+        #   3. Fallback ONLY when that field is absent: conservative marker
+        #      match against the RESPONSE OUTPUT (stdout+stderr fields only).
+        #      Never the command text — `grep -rn "Error:"` must not self-flag.
+        _resp = tool_response if isinstance(tool_response, dict) else None
+        _resp_out = ((str(_resp.get("stdout", "")) + "\n" + str(_resp.get("stderr", "")))
+                     if _resp is not None else str(tool_response))
+        _is_error = None
+        if _resp is not None:
+            if _resp.get("interrupted") is True:
+                _is_error = True
+            else:
+                _rci = _resp.get("returnCodeInterpretation")
+                if isinstance(_rci, str) and _rci:
+                    _is_error = _rci.startswith("Command failed")
+        if _is_error is None:
+            _fail_markers = (
+                "command not found", "Traceback (most recent call last)",
+                "Error:", "FAILED", "fatal:", "No such file or directory",
+                "Permission denied", "ModuleNotFoundError", "SyntaxError",
+            )
+            _is_error = any(marker in _resp_out for marker in _fail_markers)
+
+        if _is_error:
+            ledger["bash_fail_streak"] = ledger.get("bash_fail_streak", 0) + 1
+            changed = True
+        else:
+            _streak = ledger.get("bash_fail_streak", 0)
+            if _streak >= 3:
+                _entry = {"ts": _now(), "evidence": _cmd[:120], "streak": _streak}
+                ledger["learning_debt"] = (ledger.get("learning_debt", []) + [_entry])[-5:]
+                changed = True
+            if ledger.get("bash_fail_streak", 0) != 0:
+                ledger["bash_fail_streak"] = 0
+                changed = True
+
+        # Solution Card saved -> the debt this streak represents is captured;
+        # clear it entirely (mirrors the finalize-clears-debt pattern below).
+        # Strict on purpose: the COMMAND must be a solution_recorder save AND
+        # the response output must carry the marker at line start — so
+        # cat-ing/grep-ing a file that merely CONTAINS the marker text can
+        # never false-clear real debt.
+        if ("solution_recorder.py" in _cmd and "save" in _cmd
+                and re.search(r"^SOLUTION CARD SAVED: docs/solutions/", _resp_out, re.MULTILINE)):
+            if ledger.get("learning_debt"):
+                ledger["learning_debt"] = []
+            ledger["solution_cards_saved"] = ledger.get("solution_cards_saved", 0) + 1
+            changed = True
+
         if "chain_runner.py" in blob and "finalize" in blob:
             if "CHAIN FINALIZE" in blob:
                 ledger["finalized_at"] = _now()
@@ -325,7 +396,6 @@ def handle_posttool(payload: dict) -> None:
         # "annotated"), the bare `pin` subcommand (prints "pinned:"), and
         # chain_runner's auto-pin inside finalize (prints "CHAIN PINNED"). Keeps the
         # Stop hook's pin backstop quiet. Mirrors the finalize-detection pattern above.
-        _cmd = str(tin.get("command", ""))
         _pin_via_store = (
             "handoff_store.py" in _cmd
             and ("--pin" in _cmd or bool(re.search(r"handoff_store\.py\s+pin\b", _cmd)))
@@ -334,6 +404,12 @@ def handle_posttool(payload: dict) -> None:
         if _pin_via_store or "CHAIN PINNED" in blob:
             ledger["session_pinned"] = True
             ledger["session_pinned_at"] = _now()
+            changed = True
+        # Closeout-spine detection — mirrors the finalize-detection pattern above.
+        # Lets the SessionEnd hook backstop (session_end_hook.py) know the spine
+        # already ran this session, so it doesn't re-run in degraded mode.
+        if "CLOSEOUT SPINE COMPLETE" in blob or "end_session_closeout.py" in _cmd:
+            ledger["closeout_ran"] = True
             changed = True
 
     if loaded_expert_skill and _reconcile_routing_feedback(ledger, loaded_expert_skill):
@@ -424,6 +500,30 @@ def handle_stop(payload: dict) -> None:
             sys.exit(0)
         print(f"[ledger observe] {ho_reason}", file=sys.stderr)
         # fall through to finalize-debt logic
+
+    # Learning-debt nudge (Solution Recorder, 2026-07-07) — independent of
+    # finalize debt. Fires once per session when a hard-won fix (3+ Bash
+    # fail->success streak) never got captured as a Solution Card. Observe-only
+    # — mirrors the finalize-debt observe-mode style, never blocks.
+    if ledger.get("learning_debt") and ledger.get("produced") and not ledger.get("learning_debt_nudged"):
+        ledger["learning_debt_nudged"] = True
+        _save(ledger)
+        ld_reason = (
+            f"LEARNING DEBT: a hard problem was cracked this session "
+            f"({len(ledger['learning_debt'])} fail→success streak(s)) with no Solution Card. "
+            "Run /extract-approach — incomplete capture is unfinished work."
+        )
+        try:
+            SESSIONS_DIR.mkdir(parents=True, exist_ok=True)
+            with open(OBSERVE_LOG, "a") as f:
+                f.write(json.dumps({"ts": _now(), "session_id": session_id,
+                                    "event": "learning_debt_open",
+                                    "learning_debt": ledger["learning_debt"],
+                                    "enforce": ENFORCE}) + "\n")
+        except Exception:
+            pass
+        print(f"[ledger observe] {ld_reason}", file=sys.stderr)
+        # fall through — this never blocks (observe-only per Farrice's ask)
 
     # Session AUTO-PIN backstop — independent of finalize debt. Fires when a durable
     # artifact shipped but no titled pin was recorded (chain_runner.finalize /

@@ -29,6 +29,8 @@ Every deliverable → artifact (`brain/<id>/`, `IsArtifact: true`). Workspace co
 5.5. **VERIFY**: Factual claims (real people/dates/events/statistics/sources)? Inventory → verify → label VERIFIED/LIKELY/UNCONFIRMED. Ref: `directives/verification-agent-protocol.md`. **Blocks delivery if Grounding <6.**
 6. **FINALIZE**: Score Intent/Expert/Adversarial/Factual Grounding (N/A for pure creative) 1-10. Shell: `python3 execution/chain_runner.py finalize "[output]" --expert X --skill X --workflow X --type [Content|Strategy|Research|Extraction|Client|System|Creative|Analysis] --intent X --expert-score X --adversarial X --sub-agents [measured] --notes "X | Verification: [PASS/FAIL/PARTIAL/N/A]"`. Composite<7 or any<6 → retry weakest. Grounding veto: <6 = blocked regardless of composite. **Stop hook enforces finalize once per session (after observe-mode window, flip LEDGER_ENFORCE=1).**
 
+<!-- BEGIN:solution-recorder -->**6.5 SOLUTION RECORDER (binding, 2026-07-07)**: cracked a non-trivial problem (any domain)? Run `/extract-approach` → Solution Card in `docs/solutions/` before moving on — a solved problem without a card is unfinished work. Clear finalize latch with `--learning <card>` (`--skip-learning` logs override). Check `docs/solutions/index.md` before re-solving anything familiar.<!-- END:solution-recorder -->
+
 **Skip conditions:** Score 4-5 → skip Step 2. "Just do it" → route silently (reuse route on follow-ups). No deliverable = no chain. System commands = chain does not apply. **Trivial ≠ skip — all content/copy/strategy/research/extraction runs the chain.**
 
 ---

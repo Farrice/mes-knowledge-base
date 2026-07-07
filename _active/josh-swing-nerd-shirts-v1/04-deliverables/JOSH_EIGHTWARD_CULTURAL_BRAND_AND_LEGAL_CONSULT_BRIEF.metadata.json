@@ -1,0 +1,16 @@
+{
+  "title": "Josh Eightward Cultural Brand and Legal Consult Brief",
+  "artifact_type": "strategy_brief",
+  "created_at": "2026-07-04",
+  "project": "josh-swing-nerd-shirts-v1",
+  "mission_slug": "eightward-lindy-hop-brand-strategy",
+  "primary_owner": "mission",
+  "naming_owner": "david-placek",
+  "status": "draft_ready_for_josh_review",
+  "format": "markdown_source",
+  "requires_before_public_launch": [
+    "trademark_counsel_review",
+    "paid_cultural_review",
+    "private_mockup_feedback"
+  ]
+}
