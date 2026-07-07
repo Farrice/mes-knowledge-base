@@ -28,6 +28,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 COS = REPO_ROOT / ".agent" / "cos"
 BRIEFS = COS / "briefs"
 JOURNAL = COS / "journal"
+WORLD = COS / "world"
 STATE_PATH = COS / "state.json"
 GOALS_PATH = COS / "goals.json"
 LIFE_PATH = COS / "life-context.md"
@@ -273,6 +274,23 @@ def render_evolution(evo: dict) -> list:
     return lines
 
 
+def render_world_pulse(pulse: dict) -> list:
+    """≤8-line brief section for world pulse (top 5 items: headline + one-line
+    why + source). Silent no-op (empty list) if no sourced items — the brief
+    renders fine without the section, and no item is ever shown unsourced."""
+    items = (pulse or {}).get("items", [])
+    if not items:
+        return []
+    lines = ["", "## 🌍 World pulse"]
+    for item in items[:5]:
+        title = item.get("title", "")
+        why = f" — {item['why']}" if item.get("why") else ""
+        lines.append(f"- **{title}**{why} ({item.get('url', '')})")
+    if pulse.get("path"):
+        lines.append(f"- Full pulse: `cat {pulse['path']}`")
+    return lines
+
+
 def gather_threads(limit: int = 3) -> list:
     try:
         out = subprocess.run(
@@ -328,7 +346,70 @@ def open_loops() -> list:
     return []
 
 
-# ── question generation ───────────────────────────────────────────
+def ensure_world_pulse() -> None:
+    """If today's world file is missing, try to generate it via world_pulse_research.py
+    (deep_research_engine: Gemini + Perplexity, cost-gated, honest-receipt research).
+    Fallback to world_brief.py (Tavily floor, $0) if unavailable. Wrapped so ANY
+    failure (missing script, no network, timeout) degrades gracefully: the
+    brief simply renders without the section."""
+    try:
+        if (WORLD / f"{_today()}.md").exists():
+            return
+        # Try primary research loop (deep_research_engine + Gemini/Perplexity)
+        result = subprocess.run(
+            [sys.executable, str(REPO_ROOT / "execution" / "world_pulse_research.py"), "run"],
+            capture_output=True, text=True, timeout=240, cwd=REPO_ROOT,
+        )
+        if result.returncode == 0:
+            return
+        # Fallback to Tavily floor if primary unavailable
+        subprocess.run(
+            [sys.executable, str(REPO_ROOT / "execution" / "world_brief.py"), "generate"],
+            capture_output=True, text=True, timeout=240, cwd=REPO_ROOT,
+        )
+    except Exception:
+        pass
+
+
+def gather_world_pulse() -> dict:
+    """World-pulse for the brief: {"items": [{title, why, url}], "path": str}.
+    Reads today's world file, falling back to yesterday's. Missing files and
+    DEGRADED files yield {} — the section is diagnostic, never a gate, and an
+    item without a real http(s) source never reaches the brief."""
+    try:
+        candidates = [WORLD / f"{_today()}.md",
+                      WORLD / f"{(datetime.now().date() - timedelta(days=1)).isoformat()}.md"]
+        pulse_file = next((p for p in candidates if p.exists()), None)
+        if pulse_file is None:
+            return {}
+        text = pulse_file.read_text()
+        status_m = re.search(r"^status: (.+)$", text, re.MULTILINE)
+        if status_m and status_m.group(1).strip().startswith("DEGRADED"):
+            return {}
+        items = []
+        for m in re.finditer(r"^## \d+\. (.+?)$", text, re.MULTILINE):
+            title = m.group(1).strip()
+            start = m.end()
+            next_match = re.search(r"^## ", text[start:], re.MULTILINE)
+            end = start + next_match.start() if next_match else len(text)
+            block = text[start:end]
+            src_match = re.search(r"\*\*Sources?:\*\* .*?(https?://\S+)", block)
+            if not src_match:
+                continue  # unsourced item never reaches the brief
+            why_match = re.search(r"\*\*Why it matters:\*\* (.+?)(?:\n|$)", block)
+            items.append({
+                "title": title,
+                "why": why_match.group(1).strip() if why_match else "",
+                "url": src_match.group(1).strip(),
+            })
+        if not items:
+            return {}
+        return {"items": items[:8], "path": str(pulse_file.relative_to(REPO_ROOT))}
+    except Exception:
+        return {}
+
+
+# ── question generation (v2: thread-connecting, archetype rotation) ───────────────────────────────────────────
 
 
 def _yesterday_brief_text() -> str:
@@ -339,6 +420,162 @@ def _yesterday_brief_text() -> str:
         return ""
 
 
+def _prior_questions() -> set:
+    """Exact question texts asked in yesterday's brief — never repeated today."""
+    m = re.search(r"^## Your three questions\n(.*)", _yesterday_brief_text(),
+                  re.MULTILINE | re.DOTALL)
+    qs = set()
+    if m:
+        for line in m.group(1).splitlines():
+            lm = re.match(r"^\d+\.\s+(.+)$", line.strip())
+            if lm:
+                qs.add(lm.group(1).strip())
+    return qs
+
+
+def _pick_fresh(options: list, avoid: set, *seed_parts: str) -> str:
+    """Stable-hashed pick that skips anything in `avoid` (yesterday's questions
+    + today's already-chosen ones). Returns "" when every option is stale."""
+    if not options:
+        return ""
+    digest = int(hashlib.md5("|".join(seed_parts).encode()).hexdigest(), 16)
+    for i in range(len(options)):
+        cand = options[(digest + i) % len(options)]
+        if cand and cand not in avoid:
+            return cand
+    return ""
+
+
+def _clip(text: str, limit: int = 70) -> str:
+    text = re.sub(r"\s+", " ", str(text)).strip()
+    return text[: limit - 1] + "…" if len(text) > limit else text
+
+
+def generate_questions_v2(today: str, staleness: list, due_goals: list, loops: list,
+                          weekly_due: bool, threads: list, world_items: list) -> list:
+    """Question engine v2 — three archetypes, one question each, every day:
+
+      1. decision-forcing   ("X or Y — pick") anchored to an open loop, a due
+                            goal, or a world-pulse item
+      2. connection-surfacing  must reference TWO distinct live threads/loops
+      3. life/chairman      from the stalest life-context section's bank
+
+    Every question references something specific; none repeats yesterday's
+    exact text. When inputs are thin (no loops/threads/world), each slot falls
+    back to the legacy behavior via the same banks the v1 engine used.
+    Only open-loop lines are quoted — journal `## Raw` content never leaks in.
+    """
+    threads = threads or []
+    world_items = world_items or []
+    avoid = _prior_questions()
+    questions: list = []
+
+    # ── Archetype 1: decision-forcing ────────────────────────────
+    # His own commitments (loops, due goals) outrank world items — a $-attached
+    # open loop always beats an article as the thing to force a pick on.
+    decision_opts, decision_anchors = [], []
+    for loop in loops:
+        decision_opts.append(
+            f'Open loop: "{_clip(loop, 80)}" — one concrete move on it today, or kill it and free the slot. Pick.')
+        decision_anchors.append(_clip(loop, 60))
+    for g in due_goals:
+        decision_opts.append(
+            f'Goal "{g["id"]}" review is due — recommit as-is or renegotiate the number. Pick one.')
+        decision_anchors.append(g["id"])
+    if not decision_opts:
+        for item in world_items[:3]:
+            if item.get("title"):
+                decision_opts.append(
+                    f'World pulse: "{_clip(item["title"], 70)}" — worth 30 focused minutes this week, or noise to ignore? Decide.')
+                decision_anchors.append(_clip(item["title"], 60))
+    q = _pick_fresh(decision_opts, avoid, today, "decision")
+    used_anchor = ""
+    if q:
+        questions.append(q)
+        avoid.add(q)
+        used_anchor = decision_anchors[decision_opts.index(q)]
+
+    # ── Archetype 2: connection-surfacing (two DISTINCT refs) ────
+    # Primary pool is his live threads + open loops (the spec: TWO distinct
+    # threads/loops). World items and goals only backfill when that pool is thin.
+    refs = []  # (kind, text) — order matters for deterministic pairing
+    refs += [("thread", _clip(t, 60)) for t in threads]
+    refs += [("loop", _clip(l, 60)) for l in loops]
+    if len({t for _, t in refs if t}) < 2:
+        refs += [("world", _clip(item["title"], 60)) for item in world_items if item.get("title")]
+        refs += [("goal", g["id"]) for g in due_goals]
+    seen_txt, uniq = set(), []
+    for kind, txt in refs:
+        if txt and txt not in seen_txt:
+            seen_txt.add(txt)
+            uniq.append((kind, txt))
+    # Don't re-anchor on what Q1 already forced a decision about (if the pool allows).
+    if used_anchor and len([r for r in uniq if r[1] != used_anchor]) >= 2:
+        uniq = [r for r in uniq if r[1] != used_anchor]
+    if len(uniq) >= 2:
+        digest = int(hashlib.md5(f"{today}|pair".encode()).hexdigest(), 16)
+        a = uniq[digest % len(uniq)]
+        rest = [r for r in uniq if r[1] != a[1]]
+        b = next((r for r in rest if r[0] != a[0]), rest[0])  # prefer a different kind
+        conn_opts = [t.format(a=a[1], b=b[1]) for t in (
+            'Hold "{a}" against "{b}" — is there one move that advances both, or are they competing for the same hours?',
+            '"{a}" and "{b}" are both live. What does the first know that the second needs?',
+            'Where do "{a}" and "{b}" secretly overlap — is there a single artifact that serves both?',
+        )]
+        q = _pick_fresh(conn_opts, avoid, today, "connect")
+        if q:
+            questions.append(q)
+            avoid.add(q)
+
+    # ── Archetype 3: life/chairman (stalest section first) ───────
+    onboarded = any(days < NEVER_DAYS for _, days in staleness)
+    ytext = _yesterday_brief_text()
+    ordered = staleness
+    if ytext:  # sections asked yesterday go to the back of the line
+        asked_yday = {s for s, _ in staleness
+                      if any(qq in ytext for qq in LIFE_QUESTIONS.get(s, []))}
+        ordered = ([x for x in staleness if x[0] not in asked_yday]
+                   + [x for x in staleness if x[0] in asked_yday])
+    for section, days in ordered:
+        bank = LIFE_QUESTIONS.get(section)
+        if not bank:
+            continue
+        if days >= 2 or not onboarded:
+            q = _pick_fresh(bank, avoid, today, section)
+            if q:
+                questions.append(q)
+                avoid.add(q)
+                break
+
+    # ── Fallback fill (thin inputs) — legacy v1 behavior ─────────
+    if len(questions) < 3 and due_goals:
+        g = due_goals[0]
+        days = _days_since(g.get("last_reviewed", ""))
+        ago = "never been reviewed" if days >= NEVER_DAYS else f"not been reviewed in {days}d"
+        q = f'Goal "{g["id"]}" has {ago} — still the target, or renegotiate?'
+        if q not in avoid:
+            questions.append(q)
+            avoid.add(q)
+    if len(questions) < 3 and weekly_due:
+        q = "Board sits today — what's the one thing you don't want to say out loud to it?"
+        if q not in avoid:
+            questions.append(q)
+            avoid.add(q)
+    fill = 0
+    while len(questions) < 3 and fill < 10:
+        q = _pick_fresh(LIFE_QUESTIONS["Mindset"], avoid, today, f"filler{fill}")
+        fill += 1
+        if q:
+            questions.append(q)
+            avoid.add(q)
+        else:
+            break
+    while len(questions) < 3:  # bank fully exhausted — repeat rather than crash
+        questions.append(_stable_pick(LIFE_QUESTIONS["Mindset"], today, f"exhausted{len(questions)}"))
+    return questions[:3]
+
+
+# ── legacy question generation (v1) — kept as the documented fallback shape ──
 def generate_questions(staleness, due_goals, loops, weekly_due, today) -> list:
     questions = []
     if loops:
@@ -378,7 +615,7 @@ def generate_questions(staleness, due_goals, loops, weekly_due, today) -> list:
 
 
 def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions, weekly_line,
-                 outer_loop=None, evolution=None) -> str:
+                 outer_loop=None, evolution=None, world_pulse=None) -> str:
     today = _today()
     weekday = datetime.now().strftime("%A")
     lines = [f"# Morning Brief — {today} ({weekday})", ""]
@@ -405,6 +642,8 @@ def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions
         lines.append("")
         lines.append("## Yesterday's open loops")
         lines.extend(f"- {l}" for l in loops)
+    if world_pulse:
+        lines.extend(render_world_pulse(world_pulse))
     if outer_loop:
         lines.extend(render_outer_loop(outer_loop))
     if evolution:
@@ -438,10 +677,10 @@ def weekly_status(state):
     return due, overdue
 
 
-def cmd_prep(force: bool, dry_run: bool) -> int:
-    for d in (COS, BRIEFS, JOURNAL):
+def cmd_prep(force: bool, dry_run: bool, date_str: str = None) -> int:
+    for d in (COS, BRIEFS, JOURNAL, WORLD):
         d.mkdir(parents=True, exist_ok=True)
-    today = _today()
+    today = date_str if date_str else _today()
     state = load_state()
     brief_path = BRIEFS / f"{today}.md"
 
@@ -457,17 +696,23 @@ def cmd_prep(force: bool, dry_run: bool) -> int:
     revenue_due = gather_revenue_due()
     threads = gather_threads()
     loops = open_loops()
+    ensure_world_pulse()  # generate today's world file if missing (fail-safe)
+    world_pulse = gather_world_pulse()
+    world_items = world_pulse.get("items", [])
     weekly_due, weekly_overdue = weekly_status(state)
     if weekly_due:
         weekly_line = f"{weekly_overdue}d overdue" if weekly_overdue > 0 else "due today"
     else:
         next_in = WEEKLY_EVERY_DAYS - _days_since(state.get("last_weekly", ""))
         weekly_line = f"in {next_in}d"
-    questions = generate_questions(life_staleness(), due_goals, loops, weekly_due, today)
+    # Question engine v2: three archetypes (decision-forcing / connection-
+    # surfacing / life-chairman), no repeat of yesterday's exact questions.
+    questions = generate_questions_v2(today, life_staleness(), due_goals, loops,
+                                      weekly_due, threads, world_items)
     outer_loop = gather_outer_loop()
     evolution = gather_evolution()
     brief = render_brief(state, goals, due_goals, revenue_due, threads, loops,
-                         questions, weekly_line, outer_loop, evolution)
+                         questions, weekly_line, outer_loop, evolution, world_pulse)
 
     if dry_run:
         print(brief)
@@ -571,6 +816,7 @@ def main() -> int:
     p_prep = sub.add_parser("prep", help="build today's brief + nudge")
     p_prep.add_argument("--force", action="store_true")
     p_prep.add_argument("--dry-run", action="store_true")
+    p_prep.add_argument("--date", help="YYYY-MM-DD (default: today)")
     sub.add_parser("nudge", help="print current nudge line")
     p_cap = sub.add_parser("capture", help="append capture to journal (+ inbox mirror)")
     p_cap.add_argument("--text", required=True)
@@ -581,7 +827,7 @@ def main() -> int:
     args = parser.parse_args()
 
     if args.cmd == "prep":
-        return cmd_prep(args.force, args.dry_run)
+        return cmd_prep(args.force, args.dry_run, args.date if hasattr(args, 'date') else None)
     if args.cmd == "nudge":
         return cmd_nudge()
     if args.cmd == "capture":
