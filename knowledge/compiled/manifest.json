@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-07T13:45:07.624186",
+  "generated": "2026-07-07T14:11:24.990271",
   "total_files": 529,
-  "total_words": 2403039,
-  "total_tokens_est": 3196041,
+  "total_words": 2403103,
+  "total_tokens_est": 3196126,
   "stale_files_30d": 405,
   "domains": {
     "content": 176,
@@ -1926,10 +1926,10 @@
       "domain": "content",
       "expert": null,
       "word_count": 3777,
-      "modified": "2026-07-07T12:25:39.269371",
+      "modified": "2026-07-07T14:01:32.920881",
       "age_days": 0,
       "size_bytes": 61014,
-      "content_hash": "4ce13632",
+      "content_hash": "44db6978",
       "has_frontmatter": false
     },
     {
@@ -1938,10 +1938,10 @@
       "parent": "knowledge",
       "domain": "general",
       "expert": null,
-      "word_count": 10349,
-      "modified": "2026-07-07T13:45:07.362354",
+      "word_count": 10413,
+      "modified": "2026-07-07T14:11:24.696473",
       "age_days": 0,
-      "size_bytes": 81222,
+      "size_bytes": 81767,
       "content_hash": "5a51f947",
       "has_frontmatter": false
     },
@@ -2499,7 +2499,7 @@
       "expert": null,
       "word_count": 223,
       "modified": "2026-06-12T13:46:44.039126",
-      "age_days": 24,
+      "age_days": 25,
       "size_bytes": 1574,
       "content_hash": "97b51469",
       "has_frontmatter": false
@@ -3227,7 +3227,7 @@
       "expert": null,
       "word_count": 2925,
       "modified": "2026-05-03T14:03:40.565951",
-      "age_days": 64,
+      "age_days": 65,
       "size_bytes": 20481,
       "content_hash": "09ab74a5",
       "has_frontmatter": false
@@ -4722,7 +4722,7 @@
       "expert": "connelly",
       "word_count": 3159,
       "modified": "2026-03-11T14:04:20.633297",
-      "age_days": 117,
+      "age_days": 118,
       "size_bytes": 21582,
       "content_hash": "4605f500",
       "has_frontmatter": false
@@ -6373,7 +6373,7 @@
       "expert": null,
       "word_count": 3820,
       "modified": "2026-04-24T14:07:05.531556",
-      "age_days": 73,
+      "age_days": 74,
       "size_bytes": 36113,
       "content_hash": "62310740",
       "has_frontmatter": false

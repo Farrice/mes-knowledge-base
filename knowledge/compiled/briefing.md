@@ -1,12 +1,12 @@
 # Knowledge Briefing
-*Generated: 2026-07-07 | 529 sources | 2,403,039 words*
+*Generated: 2026-07-07 | 529 sources | 2,403,103 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
 - **index** (content) — 3,777 words — `knowledge/index.md`
-- **log** (general) — 10,349 words — `knowledge/log.md`
+- **log** (general) — 10,413 words — `knowledge/log.md`
 - **architecture** (systems) — 525 words — `extractions/wargame-source/architecture.md`
 - **blind-pass-output** (copywriting) — 3,611 words — `extractions/wargame-source/blind-pass-output.md`
 - **laundry-list-notes** (copywriting) — 2,380 words — `extractions/wargame-source/laundry-list-notes.md`

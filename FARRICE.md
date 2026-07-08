@@ -2,6 +2,8 @@
 
 ## A Living Document for AI Collaboration
 
+> **The master profile lives at `FARRICE-MASTER-CONTEXT.md` (v2.0, 2026-07-07)** — the canonical, portable "true document" synthesizing 9 Notion self-work docs, the full story, wounds ([PRIVATE]-gated), gifts, receipts, and the leverage bridge. Load THAT for identity/voice/positioning/offer work; this file remains the interest-stack and collaboration-preferences layer.
+>
 > This is a context file, not a fixed identity. It captures where Farrice is *right now* — his interests, thinking, values, creative resources, and strategic direction. Everything here is meant to inform, not constrain. Use it as raw material for exploration, not a filter that limits output.
 
 ---

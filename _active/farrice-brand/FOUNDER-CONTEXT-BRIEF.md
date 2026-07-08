@@ -1,5 +1,7 @@
 # FOUNDER CONTEXT BRIEF — Farrice "Fresh" Cain
 
+> ⚠️ **SUPERSEDED 2026-07-07** by `/Users/farricecain/Google Antigravity/FARRICE-MASTER-CONTEXT.md` (v2.0) — the master doc absorbs this brief and adds the Notion self-work layer (9 docs), full receipts, and the pattern-vs-plan ledger. This file remains the deep-dive reference for §7 voice law and §12 calibration samples, which the master doc points back to.
+>
 > A holistic identity document. Feed this to an AI *before* it writes content or strategy for me, so its output carries my actual thinking, voice, and story — not a competent average of a stranger.
 >
 > **Version 1.0 · 2026-07-02 · direction-neutral** (serves any channel or offer)

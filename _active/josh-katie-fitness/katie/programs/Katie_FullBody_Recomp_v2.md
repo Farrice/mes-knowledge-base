@@ -1,6 +1,16 @@
-# KATIE — Full-Body Recomp v2 · "Strong & Lean" Block
+# KATIE — Full-Body Recomp v2.1 · "Strong & Lean" Block
 **Carbon Torch · 6-Week Block (5 training weeks + Week-6 deload) · Starts on tracker sign-off**
 **Phase posture:** Diet break COMPLETE → modest-deficit recomposition resumed. MAPS Anabolic hybrid: Phase I heavy primaries + controlled Phase III pump volume.
+
+> ## v2.1 ENRICHMENT (2026-07-02) — read this, then train from the day files
+> Coach ran v2 in person and read the sessions as too short on compound/variety work, under-serving **hips, quads, arms, and lower abs.** v2.1 adds 2 movements to each foundational + 1 to each trigger, concentrated on exactly those gaps. **The authoritative expanded sessions live in [`../workouts/`](../workouts/)** (each new movement tagged "NEW v2.1"). Additions by day:
+> - **Mon:** Heel-Elevated Goblet Squat (quads) · DB Incline Curl + Overhead Triceps superset (arms) · Hanging Leg Raise into the lower-ab circuit
+> - **Wed:** Goblet Cossack Squat (adductors/glute-med — the missing frontal plane) · DB Hammer Curl + Bench Dip superset (arms) · Hanging Leg Raise into core
+> - **Fri:** Single-Leg RDL (hips/hams) · DB Lateral Lunge (frontal-plane hips/quads)
+> - **Tue trigger:** DB Curl + Triceps Kickback superset (arms)
+> - **Thu trigger:** Copenhagen Plank (adductors/inner thigh — closes the last hip gap)
+>
+> **VOLUME GOVERNOR (the honesty layer).** This pushes weekly volume from ~MEV toward MAV — correct *because* her constraint was cortisol/recovery, and these adds are strength/real-rest work, not more short-rest grind. But it's a hypothesis the tracker validates: **if the strength index falls two weeks running, or sleep drops under ~6 h, or the scale bounces with poor sleep, the v2.1 accessories are the FIRST cut — the barbell primaries are protected.** The Week-6 deload and the cycle/performance/sleep AUTOREG rules already enforce this. Sessions now run ~80 min.
 
 ---
 

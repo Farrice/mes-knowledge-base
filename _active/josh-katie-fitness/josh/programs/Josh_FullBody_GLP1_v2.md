@@ -1,6 +1,18 @@
-# JOSH — Full-Body GLP-1 Muscle-Defense v2 · "Bishop Block"
+# JOSH — Full-Body GLP-1 Muscle-Defense v2.1 · "Bishop Block"
 **Carbon Torch · 8-Week Titration-Proof Block · spans the 1.5 mg → 4 mg dose step (~late July)**
 **Phase posture:** GLP-1 onboarding (oral Wegovy 1.5 mg daily, started ~June 25). Gentle window now — train and eat near normal, build the habits; the defense posture scales up at 9/25 mg. MAPS Anabolic hybrid: Phase I mechanical-tension anchors + tight hypertrophy back-offs. No metcon — that stays retired.
+
+> ## v2.1 ENRICHMENT (2026-07-02) — read this, then train from the day files
+> Coach ran v2 in person and wants more compound + accessory volume to drive the broad-shouldered, V-tapered "superhero" build. v2.1 adds 2 silhouette compounds to each foundational + 1 to Trigger A, distributed by body region. **Authoritative expanded sessions live in [`../workouts/`](../workouts/)** (each new movement tagged "NEW v2.1"). Additions by day:
+> - **Mon (legs/chest):** DB Romanian Deadlift (posterior base) · Incline DB Press (upper-chest shelf)
+> - **Wed (V-TAPER day):** Chest-Supported DB Row (back thickness, low-back-sparing) · DB Pullover (lats/serratus — the taper illusion)
+> - **Fri (hinge/shoulders):** Barbell Overhead Press (delt width) · Barbell Curl (arm mass)
+> - **Tue trigger:** Leaning DB Lateral Raise (long-range side-delt width)
+> - **Thu trigger:** DELIBERATELY UNCHANGED — the recovery valve is protected as the other four days grow
+>
+> **WHY NOW IS THE RIGHT WINDOW.** He's at 1.5 mg — appetite/fuel/recovery are still near-normal. This is the *one* window to bank muscle and work capacity before appetite drops at 9/25 mg. Delt frequency now hits ~3-4×/wk (Ethier: fast-recovering side delts tolerate it) and back volume concentrates on the V-taper (Ethier: pour volume into the muscle that transforms the silhouette).
+>
+> **VOLUME GOVERNOR (the honesty layer).** This pushes toward MAV in a medication-driven deficit — safe *only* while the dose is low. **The v2.1 adds are the volume that comes OFF first at every DOSE-STEP WEEK, and immediately if the strength index falls two weeks running (the muscle-loss flag) — the barbell anchors are never touched.** The existing dose-step AUTOREG already enforces this. Sessions now run ~80 min at 1.5 mg; expect to compress back toward the anchors by 9 mg.
 
 ---
 

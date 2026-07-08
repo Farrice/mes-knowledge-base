@@ -1,72 +1,69 @@
 # Latest Handoff
 
-**Thread:** wargame-os-forge  
-**Full path:** .agent/handoffs/2026-07-07-wargame-os-forge.md  
+**Thread:** alignment-architect-launch  
+**Full path:** .agent/handoffs/2026-07-07-alignment-architect-launch.md  
 **Date:** 2026-07-07 (today)  
 **Status:** ready  
-**Title:** Wargame OS — Kashef Forge Extraction + Command Menu Sync (10 /wargame-* workflows)
+**Title:** Alignment Architect — Launch Package + Master Context (Sprint offer, override on record)
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume wargame-os-forge` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume alignment-architect-launch` for this one.
 
 ---
-thread: wargame-os-forge
+
+---
+thread: alignment-architect-launch
 status: ready
-resume_hint: Judge blind-pass for A-tier (10 min), then /wargame-client on Jen listing engine
-unfinished: A-tier judgment pending; first client deployment not yet run
+resume_hint: Day 1: payment links + Cooz and Josh & Katie DMs (WEEK-1.md, all pre-written)
+unfinished: WEEK-1 execution + §11 gap-fill voice memos for FARRICE-MASTER-CONTEXT
 branch: main
 pin: true
 ---
 
-# Wargame OS — Kashef Forge Extraction + Command Menu Sync (10 /wargame-* workflows)
+# Alignment Architect — Launch Package + Master Context (Sprint offer, override on record)
 
-**Date**: 2026-07-07 · **Thread**: `wargame-os-forge` · **Status**: ready (A-tier judgment pending)
+**Session date:** 2026-07-07 · **Thread:** `alignment-architect-launch` · **Next session focus:** Day 1 execution (payment links, headline/About, queue posts, send the two anchor DMs), then WEEK-1.md waves.
 
-## What this session shipped
+## What this session decided (the load-bearing facts)
 
-1. **`skills/mark-kashef-wargame-os/` — LIVE, B-tier** (forge extraction, EVAL-033). Kashef's wargaming method: the frontier model fights a mission on paper (Move / Expected observation / Fail + cause / Counter-move / Trigger, RECON NEEDED with exact settling checks, aborts, verification runs) so a cheaper executor runs it blind. 10 workflows in 3 tiers, all registered as `/wargame-*` slash commands. Expansion of the existing `mark-kashef` agent (planning layer ABOVE `mark-kashef-agent-orchestration`).
-2. **Command menu fully wired**: generated 769 missing command shims in `.claude/commands/` so all 1,542 `.agent/workflows/` files now appear in the typed `/` menu (was 1,130). Removed 1 dead orphan (`/references` — empty skill dir, no workflow). `SLASH_COMMANDS.md` regenerated (1,898 commands on disk). Zero gaps in either direction, verified by `comm` diff.
-3. **Chain closeout done**: finalize logged (Intent 9 / Expert 8 / Adversarial 8 / Grounding 9, anchors named, composite 8.33, Notion logged), `forge_gate.py record` run, EVAL-033 appended to `evolution_store/ground_truth/eval_set_v1.jsonl`, project memory written (`project_wargame-os-shipped.md` + MEMORY.md pointer).
+1. **The Incumbency freeze was consciously overridden by Farrice, on record.** Surfaced in full first; he chose a bounded Alignment Architect test alongside Path A. Record: `_active/alignment-architect-2026-07-07/00-decision-record/OVERRIDE.md` + addendum in memory `project_path-decision-2026-07-01.md`.
+2. **New receipt that changed the ruling:** Coach Cooz PAID $3,000 ($1,500 × 2) for the AA-shaped white-glove offer (clarity + messaging + offer + first clients, health/wellness coach). AA is a collected offer that failed on **delivery model** (unbounded guarantee, architect-did-everything, no client-reps gates), not concept. Lifetime client cash ≈ $7,200, 100% warm, 100% health/fitness/transformation.
+3. **The offer:** The Alignment Sprint — $400 Alignment Audit (paid to book, written diagnostic in 48h) → $1,500 founding / $2,500 standard fixed 21-day Sprint → $750–1K/mo retainer (cap 3, 2 hrs/client/mo). Buyer: invisible-expert health/wellness/transformation practitioners, warm network first.
+4. **Wargame verdict FIX-THEN-SHIP, all 6 fixes applied** (payment timing, Rung-2 hour cap, Cooz DM honesty, consent-before-publish gates on posts 3 & 11, Path A carve-out + touches column). **Honest month-1 number: $1,500–2,500 collected**, not $3–3.5K. Four WATCH risks logged in `00-decision-record/WARGAME.md`.
+5. **Master context doc shipped:** `FARRICE-MASTER-CONTEXT.md` (repo root, v2.0) — canonical who-Farrice-is profile from 9 Notion self-work docs + workspace sweep. §3 is [PRIVATE — never public]. §11 gap-fill questions still open. Supersedes `_active/farrice-brand/FOUNDER-CONTEXT-BRIEF.md` (banner added); FARRICE.md + memory index point to it.
 
-## Next session: two tasks, in order
+## Immediate next actions (Day 1, ~2 hrs — all pre-written)
 
-### Task 1 — A-tier judgment (Farrice, ~10 min)
-Read side by side:
-- `extractions/wargame-source/blind-pass-output.md` (fresh Sonnet agent's wargame, produced from skill files only)
-- `extractions/wargame-source/visual-context.md` § "The wargame output file itself" (Kashef's REAL 01-website.md artifact, transcribed from video frames 22–31)
+1. Create payment links: $400 Audit · $750 Sprint deposit (Stripe/PayPal).
+2. Update LinkedIn headline + About, queue all 14 posts (`03-content/LINKEDIN-QUEUE.md`); post 1 live; posts 3 & 11 stay gated until consent nods.
+3. Send 2 DMs from `02-outreach/WARM-DM-SCRIPTS.md`: **Cooz** (heads-up + case-study-in-progress + 2 intro asks) and **Josh & Katie** (name-use permission + referral ask).
+4. Then follow `_active/alignment-architect-2026-07-07/WEEK-1.md` day by day. Friday: fill `05-congruence/SCOREBOARD.md` (four verbs + Path A touches ≥3/wk).
 
-PASS = indistinguishable or preferred. If PASS: update EVAL-033 (`calibrated_by_human: true`), note A-tier in `skills/mark-kashef-wargame-os/SKILL.md` frontmatter, log via finalize note. Known caveat to weigh: blind-pass Move 5's executor-mistake prediction reuses the exemplar's aria-hidden genre (apt transfer, not novel-class proof).
+## Key artifacts (read these, don't rebuild)
 
-### Task 2 — First real deployment: `/wargame-client` on Jen listing engine
-- Client context: `_active/jen-listings/CLAUDE.md` + `skills/jen-santulan-listing-content/` + golden ref: 6853 Willis production sheet (memory: `feedback-jen-reel-hook-style`, `feedback-client-content-production-format`).
-- Goal: wargame the listing-content production route ONCE at frontier tier (frozen choices = Jen's hook style, production-sheet format, ADU-as-bonus rule), grade to DONE, store under the client project. Every future listing = `/wargame-execute` with instance inputs at Sonnet cost.
+- `_active/alignment-architect-2026-07-07/` — README.md (map + four rules), WEEK-1.md, 01-offer/OFFER.md, 02-outreach/, 03-content/, 04-delivery/DELIVERY-SOP.md, 05-congruence/SCOREBOARD.md, 00-decision-record/ (OVERRIDE, GROUND, NOTION-AA, WARGAME)
+- `FARRICE-MASTER-CONTEXT.md` — load before any identity/voice/positioning work
+- `_active/farrice-master-context-2026-07-07/extracts/` — cited Notion + workspace extracts
+- `docs/solutions/2026-07-07-freeze-override-receipt-excavation.md` — the reusable method card
+- `_active/pmf-offer-map-2026-07-07/PMF-OFFER-BRIEF.md` — the 10-path shelf (parked paths have addresses; AI Brain install is the month-3+ ladder rung)
 
-## Key artifacts (reference, don't rebuild)
+## Guardrails for the next agent
 
-- Skill: `skills/mark-kashef-wargame-os/` (SKILL.md, genius.md, 10 workflows, 4 references, folder template in assets/)
-- Extraction trail: `extractions/wargame-source/` — vision.md, architecture.md, mes-extraction.md (12 patterns), transcript.txt, visual-context.md, laundry-list-notes.md (/goal + /loop verbatim), blind-pass-output.md
-- Verbatim operating prompts: `skills/mark-kashef-wargame-os/references/goal-and-loop-contracts.md`
-- 45 video frames kept at `extractions/wargame-source/watch/frames/` (37MB video download deleted)
+- **Bias to the four verbs: sent, held, sold, collected.** Day-8 document-improvement urges are the documented pattern in work clothes — name it once, then follow Farrice's call (compass, never cage).
+- No new infrastructure/skills/extractions for 90 days unless a paying client needs it — capability is not the constraint, contact is.
+- Privacy law: family specifics (mother/brother/father details) never public; live the pattern, not the autobiography.
+- Voice: FARRICE-MASTER-CONTEXT §7 + FOUNDER-CONTEXT-BRIEF §7/§12 are physical law; run `prose_classifier.py check` before any content ships.
+- Path A is protected by a tracked floor (≥3 touches/week) — watch that column, it tells the truth about the override.
 
-## Operational lessons banked
+## Suggested skills / workflows
 
-- Forge on a thin transcript (2,946w) is valid when the companion kit carries methodology density — weigh artifacts, not word count.
-- For demo-heavy creators, `/watch` visual context is PRIMARY, not additive — the frames held the richest artifact (complete worked wargame) that transcript + PDF lacked.
-- Pinning reference contracts on disk before parallel builders (solution card 2026-07-07-parallel-builders-stale-contracts) produced zero integration gaps across 11 parallel-built files.
-- Kashef landmine, now in genius.md: never ask a reasoning model to expose its thinking in output — request artifacts, findings, quotes, rewrites.
+- `/resume alignment-architect-launch` — re-enter this thread
+- `/ghostwrite` + Lara Acosta skill — if new LinkedIn posts are needed beyond the queue
+- `prose-doctor` agent — pre-publish voice pass on any new content
+- `/parallax` — if a Substack edition on this journey gets requested (receipts-in-public trigger: first 7/7 protocol week)
+- `execution/chain_runner.py finalize` — after any new deliverable
 
-## Suggested skills for the next session
+## Open questions only Farrice can answer
 
-- `mark-kashef-wargame-os` (Skill tool) — loads genius.md + workflow set for both tasks
-- `/wargame-client` — Task 2's front door (composes wargame-order → run → grade → execute)
-- `/wargame-grade` — if the A-tier read surfaces fixable weaknesses, red-team + patch before promotion
-- `jen-santulan` / `listing-content` — client context for Task 2
-- `/resume wargame-os-forge` — reload this thread
-
-## Hot experts this session
-
-mark-kashef (deep — extraction target + existing orchestration context), embodiment/craft standards (`directives/skill-craft-standard.md`, `directives/embodiment-standard.md`).
-
-No secrets, keys, or PII in this document.
+- §11 of FARRICE-MASTER-CONTEXT.md (six gap-fill questions, ~10 min of voice memos)
+- Confirm the §2 story layer (bullying/dark-chapter) is public-safe at the level written before it appears in content
 

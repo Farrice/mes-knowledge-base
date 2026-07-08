@@ -1,6 +1,7 @@
 # JOSH · THURSDAY — Trigger B (Zone-2 + Carries) · ~35 min
 **Block:** Bishop Block v2 · Master: [`../programs/Josh_FullBody_GLP1_v2.md`](../programs/Josh_FullBody_GLP1_v2.md)
 *Lowest-cost session of the week: fat-loss expenditure and work capacity at near-zero recovery draw, gut-friendly (steady-state, no impact). Skip-without-guilt on set days — the walk alone still counts.*
+> **v2.1 note — deliberately unchanged.** Every other day got heavier; this one stays light on purpose. With five now-bigger sessions feeding a growing GLP-1 deficit, the recovery valve earns its keep. Don't add lifting here — protect it.
 
 1. Zone-2 Walk [Conditioning] — 25-30 min brisk walk, nasal-breathing pace (full sentences possible) — Cue: if nasal breathing breaks, slow down. This is fat-burn and recovery, not a workout to survive.
 2. Farmer Carry [Grip, Traps, Core] — 4 x 40 yd, heavy DBs · Rest 75 s · RPE 8 — Cue: tall posture, crush grip, quick feet. AUTOREG: if grip feels torched by round 3, stop there — tomorrow's deadlift anchor outranks today's trigger.

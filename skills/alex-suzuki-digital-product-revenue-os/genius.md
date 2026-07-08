@@ -103,6 +103,20 @@ Free community + courses → application → founder call → close. Structure t
 ## Compliance Layer (non-negotiable)
 Every revenue figure labeled a creator claim; borrowed proof real and disclosed; affiliate disclosed; auto-DM opt-in only; multi-account distinct; real value delivered. See `references/compliance-gate.md`.
 
+## Voice & Texture Layer (watch-grounded — the embodiment gate)
+Captured by watching the actual $30K–$100K/post tweets (`references/real-post-teardowns.md`, `references/voice-and-texture.md`). Mechanics without this layer produce generic, unusable output. Every strong post uses 5+ of the 9 moves:
+1. **Transformation headline** — line 1 is a before→after with two hard numbers, not a topic.
+2. **Enemy line** — name the lazy default everyone else does.
+3. **Invented proprietary mechanism** — coin a named system/jargon you own ("Drag Map"). *Most-missed move.*
+4. **Before → strip → After**, bulleted specifics.
+5. **Payload freebie** — a numbered stack of 3–5 named deliverables, each with a number/scale/duration/sample.
+6. **Extreme specificity** — every claim carries a number; "a lot/quickly/results" is banned.
+7. **Mechanical CTA** — `Comment "KEYWORD" (must follow + RT so I can DM)`.
+8. **Quality-over-reach** — written for a small high-fit buyer; the copy itself filters.
+9. **10-min reply sprint + retweet boost** — the ops that make it land.
+
+**Specificity gate:** fail any draft with a topic/question headline, no invented mechanism, a vague "free guide" instead of a spec'd stack, or "a lot/quickly/results" where a number belongs. **Compliant-grip rule:** for affiliate/make-money niches, keep every move but move specificity off *money* and onto *skills/outputs/time* — never strip the grip with the claims.
+
 ## Evolution Log
 
 ### 2026-07-06 — Voice Edge Calibration Gate added to 17-coldstart-revenue-engine (KEPT, +1.0)

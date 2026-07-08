@@ -1,6 +1,16 @@
 # Post Anatomy — The Selling Post, Deep
 
-Companion to `post-mechanics.md`. This is the post-engineering floor: what actually carries the sale, the anatomy of his highest-claimed posts, the simple-for-scale variant, an expanded hook bank, swipe templates, and an AI-generation prompt pack. Source anchors: `PGeAozxJyho` (the $97K/$100K-per-post video) and `YaonYaeQlA4`. Revenue figures are creator claims. The verbatim winning tweets live as screenshots on his visual board, not in the transcript — so the teardown below is the **described anatomy with a labeled illustrative example**, not a quoted post.
+Companion to `post-mechanics.md`. This is the post-engineering floor: what actually carries the sale, the anatomy of his highest-claimed posts, the simple-for-scale variant, an expanded hook bank, swipe templates, and an AI-generation prompt pack. Source anchors: `PGeAozxJyho` (the $30K–$100K-per-post video) and `YaonYaeQlA4`. Revenue figures are creator claims. **The verbatim winning tweets were captured by watching the videos frame-by-frame** — read **`real-post-teardowns.md`** (the actual exemplar) and **`voice-and-texture.md`** (the 9 signature moves + specificity gate) FIRST. Those two are the embodiment layer; this file is the mechanical support.
+
+## The Real Skeleton (watch-grounded — this is the shape that converts)
+Every $30K–100K/post follows this, in order:
+1. **Transformation headline, line 1, two hard numbers** — "I helped a [buyer] go from [X] to [Y]…"
+2. **Enemy line** — one sentence on the lazy default everyone else does.
+3. **Before → strip → After**, bulleted specifics at each step.
+4. **Invented proprietary mechanism** — a named system/jargon you "own" (his: "Business Aerodynamics / Drag Map / Aerodynamics Audit").
+5. **The payload freebie** — a numbered stack of 3–5 *named* deliverables, each with a number/scale/duration/sample size. (His #2: "75-question diagnostic, scores 0–100, takes 60 min.")
+6. **Mechanical CTA** — `Comment "KEYWORD" (must follow + RT so I can DM)`.
+Then ops: 10-minute reply sprint + retweet from bigger accounts. The **specificity gate** in `voice-and-texture.md` fails any draft that goes generic.
 
 ## The Three Invariants (what carries every sale)
 1. **Qualified result hook** — first line names a specific buyer + a specific result/asset + a number or time frame. It *repels* the wrong reader on purpose.

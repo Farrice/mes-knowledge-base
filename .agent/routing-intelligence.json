@@ -2559,6 +2559,239 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_210122_2b72",
+            "timestamp": "2026-07-07T21:01:22.255384+00:00",
+            "session_id": "",
+            "request_summary": "Josh & Katie v2.1 workout enrichment (Carbon Torch): +2 compounds/accessories per foundational + 1 per trigger, concentrated on constraints — Katie hips/quads/frontal-plane/arms/lower-abs (heel-elev g",
+            "intent_score": 9,
+            "domain_detected": "Client Work",
+            "experts_deployed": [
+                "strength-conditioning-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "02-build-integrated-program",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_210132_bd60",
+            "timestamp": "2026-07-07T21:01:32.660193+00:00",
+            "session_id": "",
+            "request_summary": "v2.1 enrichment gate-read",
+            "intent_score": 9,
+            "domain_detected": "Client Work",
+            "experts_deployed": [
+                "strength-conditioning-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "02-build-integrated-program",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_211124_01b6",
+            "timestamp": "2026-07-07T21:11:24.678951+00:00",
+            "session_id": "",
+            "request_summary": "Katie progesterone-support insight brief (Carbon Torch) — evidence-based nutrition/lifestyle support for low-progesterone/normal-estrogen finding, gallbladder→fat-soluble-vitamin(D) link, test-timing/",
+            "intent_score": 9,
+            "domain_detected": "Client Work",
+            "experts_deployed": [
+                "alan-aragon-nutrition"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "01-diagnose-and-route",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_215340_ae55",
+            "timestamp": "2026-07-07T21:53:40.878710+00:00",
+            "session_id": "28510e0e-be1a-4062-a88c-ef22b9e5dcda",
+            "request_summary": "I actually do want the subfolders and highly organized every time because I don't want to be running into this issue moving forward.",
+            "intent_score": 0,
+            "domain_detected": "nate-b-jones-context-engineering",
+            "experts_deployed": [
+                "nate-b-jones-context-engineering",
+                "luke-iha-avatar-machine",
+                "design-md"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nate-b-jones-context-engineering",
+            "ensemble": true,
+            "compound_pairing": "nate-b-jones-context-engineering + luke-iha-avatar-machine + design-md",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_221838_b491",
+            "timestamp": "2026-07-07T22:18:38.008168+00:00",
+            "session_id": "",
+            "request_summary": "Suzuki OS embodiment upgrade (watch-grounded) + DWA content rebuilt to the real bar + project reorganized into populated subfolders",
+            "intent_score": 7,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "alex-suzuki"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "11-post-engineering-lab",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_223301_f401",
+            "timestamp": "2026-07-07T22:33:01.825752+00:00",
+            "session_id": "28510e0e-be1a-4062-a88c-ef22b9e5dcda",
+            "request_summary": "I want you to enrich this further by figuring out what actual questions people are asking around info products and courses like this currently, and whether or not we can build a strategy around those ",
+            "intent_score": 0,
+            "domain_detected": "david-placek-naming",
+            "experts_deployed": [
+                "david-placek-naming",
+                "darrel-wilson-ai-monetization",
+                "darrel-wilson-ai-affiliate"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "david-placek-naming",
+            "ensemble": true,
+            "compound_pairing": "david-placek-naming + darrel-wilson-ai-monetization + darrel-wilson-ai-affiliate",
+            "feedback": "fb_20260707_223506_e321"
+        },
+        {
+            "routing_id": "rt_20260707_224425_7bc5",
+            "timestamp": "2026-07-07T22:44:25.963037+00:00",
+            "session_id": "",
+            "request_summary": "DWA question-led content engine — real-questions research to next-step-over-flex strategy + OS principle",
+            "intent_score": 7,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "alex-suzuki"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "09-question-led-content-engine",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260707_232343_9b23",
+            "timestamp": "2026-07-07T23:23:43.274678+00:00",
+            "session_id": "",
+            "request_summary": "Alignment Architect launch package (_active/alignment-architect-2026-07-07/): freeze override on record, offer ladder (Audit $400 / Sprint $1.5-2.5K / retainer), warm DM scripts, 14-post LinkedIn queu",
+            "intent_score": 7,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "jason-fladlien-marketing"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "alignment-architect-launch",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260708_005356_5b44",
+            "timestamp": "2026-07-08T00:53:56.732137+00:00",
+            "session_id": "1a445b82-95ea-44af-b8a5-39367ad5ad9c",
+            "request_summary": "just go through my Notion and see the documents here. You can't create it to try and get a contextual understanding about myself and who I am, and create a master document that would be like a true do",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "nate-b-jones-context-engineering",
+                "brand-operating-system"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + nate-b-jones-context-engineering + brand-operating-system",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260708_005755_4f35",
+            "timestamp": "2026-07-08T00:57:55.471018+00:00",
+            "session_id": "1a445b82-95ea-44af-b8a5-39367ad5ad9c",
+            "request_summary": "<agent-message from=\"general-purpose\">\nNOTION-SELF-WORK.md written to _active/farrice-master-context-2026-07-07/extracts/ (~2,300 words, verbatim-preserving, [PRIVATE — never public] boundary marked o",
+            "intent_score": 0,
+            "domain_detected": "brand-operating-system",
+            "experts_deployed": [
+                "brand-operating-system",
+                "supercomputer",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "brand-operating-system",
+            "ensemble": true,
+            "compound_pairing": "brand-operating-system + supercomputer + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260708_010044_800e",
+            "timestamp": "2026-07-08T01:00:44.341722+00:00",
+            "session_id": "",
+            "request_summary": "FARRICE-MASTER-CONTEXT.md v2.0 — canonical master identity/context profile synthesized from 9 Notion self-work docs + workspace evidence trail + receipts; privacy-gated wounds section, zone-of-genius,",
+            "intent_score": 7,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "farrice-master-context-synthesis"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "autopilot",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260708_010456_a315",
+            "timestamp": "2026-07-08T01:04:56.930824+00:00",
+            "session_id": "1a445b82-95ea-44af-b8a5-39367ad5ad9c",
+            "request_summary": "what do you feel should be my next step, given everything that we tried to achieve in this session?",
+            "intent_score": 0,
+            "domain_detected": "omar-eltakrori",
+            "experts_deployed": [
+                "omar-eltakrori",
+                "donald-miller-culture-turnaround",
+                "mark-kashef-wargame-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "omar-eltakrori",
+            "ensemble": true,
+            "compound_pairing": "omar-eltakrori + donald-miller-culture-turnaround + mark-kashef-wargame-os",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260708_010519_26d1",
+            "timestamp": "2026-07-08T01:05:19.802065+00:00",
+            "session_id": "1a445b82-95ea-44af-b8a5-39367ad5ad9c",
+            "request_summary": "Given everything that you know, what would you do? How would you go about doing and leveraging what assets and skills and things that we have at our school?",
+            "intent_score": 0,
+            "domain_detected": "brand-operating-system",
+            "experts_deployed": [
+                "brand-operating-system",
+                "supercomputer",
+                "asset_generator"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "brand-operating-system",
+            "ensemble": true,
+            "compound_pairing": "brand-operating-system + supercomputer + asset_generator",
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -2624,40 +2857,51 @@
             "rating": "auto_miss",
             "correction": "mark-kashef-agent-orchestration",
             "notes": "expert skill 'mark-kashef-agent-orchestration' loaded not matching suggestion ['supercomputer', 'david-placek-naming', 'design-md']"
+        },
+        {
+            "feedback_id": "fb_20260707_223506_e321",
+            "timestamp": "2026-07-07T22:35:06.156528+00:00",
+            "session_id": "28510e0e-be1a-4062-a88c-ef22b9e5dcda",
+            "routing_id": "rt_20260707_223301_f401",
+            "rating": "auto_miss",
+            "correction": "writing-depth-layer",
+            "notes": "expert skill 'writing-depth-layer' loaded not matching suggestion ['david-placek-naming', 'darrel-wilson-ai-monetization', 'darrel-wilson-ai-affiliate']"
         }
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 146,
-            "total_feedback": 7,
+            "total_routings": 159,
+            "total_feedback": 8,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 33,
-                "Client Work": 4,
+                "System": 34,
+                "Client Work": 7,
                 "Analysis": 4,
-                "Strategy": 13,
+                "Strategy": 15,
                 "Creative": 8,
                 "Legal Consult Prep": 1,
                 "Content": 28,
-                "Extraction": 3,
+                "Extraction": 4,
                 "Research": 4,
                 "stefan-georgi-dopamine-copy": 5,
-                "supercomputer": 13,
+                "supercomputer": 14,
                 "design-md": 8,
-                "david-placek-naming": 4,
+                "david-placek-naming": 5,
                 "nicolas-cole-niche-positioning": 2,
-                "brand-operating-system": 4,
+                "brand-operating-system": 6,
                 "how-i-write-os": 8,
                 "nate-b-jones-auto-improvement-loops": 1,
                 "jason-fladlien-marketing": 1,
                 "paul-james-ai-automation": 1,
-                "nicolas-cole-digital-products": 1
+                "nicolas-cole-digital-products": 1,
+                "nate-b-jones-context-engineering": 1,
+                "omar-eltakrori": 1
             },
             "expert_counts": {
                 "system-audit": 16,
-                "strength-conditioning-os": 8,
+                "strength-conditioning-os": 10,
                 "nicolas-cole": 1,
                 "source-to-skill-system": 1,
                 "founder-voice": 1,
@@ -2681,13 +2925,13 @@
                 "luke-iha-copy-blocks": 6,
                 "how-i-write-os": 15,
                 "system-architecture": 7,
-                "supercomputer": 14,
-                "jason-fladlien-marketing": 2,
-                "design-md": 11,
+                "supercomputer": 17,
+                "jason-fladlien-marketing": 3,
+                "design-md": 12,
                 "simon-intellectual-library-os": 1,
                 "pptx": 1,
-                "david-placek-naming": 7,
-                "brand-operating-system": 12,
+                "david-placek-naming": 8,
+                "brand-operating-system": 15,
                 "nicolas-cole-niche-positioning": 3,
                 "prediction-market-making": 1,
                 "deliberate": 4,
@@ -2719,10 +2963,22 @@
                 "collective-genius-council": 1,
                 "mark-kashef": 1,
                 "chase-hughes-conversational-influence": 1,
-                "none": 1
+                "none": 1,
+                "alan-aragon-nutrition": 1,
+                "nate-b-jones-context-engineering": 2,
+                "luke-iha-avatar-machine": 1,
+                "alex-suzuki": 2,
+                "darrel-wilson-ai-monetization": 1,
+                "darrel-wilson-ai-affiliate": 1,
+                "doc-coauthoring": 1,
+                "farrice-master-context-synthesis": 1,
+                "omar-eltakrori": 1,
+                "donald-miller-culture-turnaround": 1,
+                "mark-kashef-wargame-os": 1,
+                "asset_generator": 1
             },
             "tier_counts": {
-                "0": 146,
+                "0": 159,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -2730,11 +2986,11 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 48,
-                "finalize-auto": 98
+                "hybrid": 54,
+                "finalize-auto": 105
             },
-            "ensemble_count": 82,
-            "auto_miss_count": 6,
+            "ensemble_count": 90,
+            "auto_miss_count": 7,
             "auto_match_count": 1
         }
     }

@@ -5,6 +5,8 @@ The user wants the deepest post-construction pass: a hook bank, anatomy-mapped f
 
 ## Load First
 - `../genius.md`
+- `../references/real-post-teardowns.md` (the actual $30K–100K/post exemplar — the bar)
+- `../references/voice-and-texture.md` (the 9 signature moves + specificity gate)
 - `../references/post-anatomy.md`
 - `../references/post-mechanics.md`
 - `../references/compliance-gate.md`
@@ -43,9 +45,11 @@ Confirm buyer, product, price, proof posture, free asset, and platform. If proof
 ## Claim Ledger + Disclosures
 ```
 
-## Quality Gate
-- The three invariants present (qualified hook, proof body, opt-in multi-freebie CTA).
-- Ready buyers have a purchase lane separate from the value lane.
-- No invented proof or guaranteed-income language.
-- Every output line could spawn 50 honest variants (scale test).
-- Fail and run `/suzuki-launch-debugger` if the draft is a question-map with no purchase motion.
+## Quality Gate (embodiment-enforced)
+Pass the specificity gate in `voice-and-texture.md` — fail the draft if any is true:
+- Headline is a topic/question, not a transformation with two hard numbers.
+- No invented, named proprietary mechanism.
+- Freebie is one vague "guide/course" instead of a numbered stack of 3–5 spec'd deliverables (each with a number/scale/duration/sample).
+- Any "a lot / quickly / results / some" where a number belongs.
+- No enemy/contrast line; no mechanical CTA (`keyword + follow + RT`).
+Plus: ready buyers have a purchase lane; no invented proof or guaranteed-income language; compliant-grip rule applied (specificity on skills/outputs/time, not income) for affiliate niches. If it reads like a *summary* of Suzuki instead of *a Suzuki post*, rewrite against `real-post-teardowns.md` before delivery.

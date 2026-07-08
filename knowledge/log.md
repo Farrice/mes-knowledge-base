@@ -415,3 +415,10 @@
 - `[2026-07-07 12:06]` **finalize** | Solution Recorder system: docs/solutions/ corpus (5 cards live) + solution_recorder.py (draft/save/c | general | system-orchestrator — composite:8.67 status:Keep
 - `[2026-07-07 12:25]` **finalize** | Mark Kashef — Wargame OS mastery extraction (forge): 10 workflows, genius.md, 4 references, folder t | general | mark-kashef — composite:8.33 status:Keep
 - `[2026-07-07 13:45]` **finalize** | Slash-command menu full sync: 769 missing workflow shims generated into .claude/commands (1,542 work | general | none — composite:8.33 status:Keep
+- `[2026-07-07 14:01]` **finalize** | Josh & Katie v2.1 workout enrichment (Carbon Torch): +2 compounds/accessories per foundational + 1 p | general | strength-conditioning-os — composite:8.33 status:Keep
+- `[2026-07-07 14:01]` **finalize** | v2.1 enrichment gate-read | general | strength-conditioning-os — composite:8.33 status:Keep
+- `[2026-07-07 14:11]` **finalize** | Katie progesterone-support insight brief (Carbon Torch) — evidence-based nutrition/lifestyle support | general | alan-aragon-nutrition — composite:8.33 status:Keep
+- `[2026-07-07 15:18]` **finalize** | Suzuki OS embodiment upgrade (watch-grounded) + DWA content rebuilt to the real bar + project reorga | general | alex-suzuki — composite:7.25 status:Needs Improvement
+- `[2026-07-07 15:44]` **finalize** | DWA question-led content engine — real-questions research to next-step-over-flex strategy + OS princ | general | alex-suzuki — composite:7.25 status:Needs Improvement
+- `[2026-07-07 16:23]` **finalize** | Alignment Architect launch package (_active/alignment-architect-2026-07-07/): freeze override on rec | general | jason-fladlien-marketing — composite:7.25 status:Needs Improvement
+- `[2026-07-07 18:00]` **finalize** | FARRICE-MASTER-CONTEXT.md v2.0 — canonical master identity/context profile synthesized from 9 Notion | brand | farrice-master-context-synthesis — composite:7.25 status:Needs Improvement

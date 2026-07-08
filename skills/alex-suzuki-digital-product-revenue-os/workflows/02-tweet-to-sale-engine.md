@@ -5,11 +5,16 @@ The user wants one X post or thread designed to sell an ebook, course, template,
 
 ## Load First
 - `../genius.md`
+- `../references/real-post-teardowns.md` (the actual winning tweet — match this)
+- `../references/voice-and-texture.md` (the 9 moves + specificity gate)
 - `../references/revenue-mechanics.md`
 - `../references/post-mechanics.md`
 - `../references/post-anatomy.md`
 - `../references/compliance-gate.md`
 - `../references/source-ledger.md`
+
+## Embodiment Gate (run before delivery)
+The post must pass the specificity gate in `voice-and-texture.md`: a transformation headline with hard numbers, an invented named mechanism, a payload freebie (3–5 spec'd deliverables), zero "a lot/quickly/results" vagueness. A generic post is a failed post — rewrite it to match `real-post-teardowns.md`.
 
 ## Steps
 1. **Buyer filter**: identify who should stop and who should ignore the post.
