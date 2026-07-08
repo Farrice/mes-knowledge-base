@@ -2792,6 +2792,23 @@
             "ensemble": true,
             "compound_pairing": "brand-operating-system + supercomputer + asset_generator",
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260708_141939_7704",
+            "timestamp": "2026-07-08T14:19:39.581853+00:00",
+            "session_id": "",
+            "request_summary": "Daily health-performance GEO brief 2026-07-08: AI Visibility Gap angle",
+            "intent_score": 7,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "ethan-smith-aeo"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "health-performance-geo-daily",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -2870,7 +2887,7 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 159,
+            "total_routings": 160,
             "total_feedback": 8,
             "positive_count": 0,
             "negative_count": 0,
@@ -2884,7 +2901,7 @@
                 "Legal Consult Prep": 1,
                 "Content": 28,
                 "Extraction": 4,
-                "Research": 4,
+                "Research": 5,
                 "stefan-georgi-dopamine-copy": 5,
                 "supercomputer": 14,
                 "design-md": 8,
@@ -2975,10 +2992,11 @@
                 "omar-eltakrori": 1,
                 "donald-miller-culture-turnaround": 1,
                 "mark-kashef-wargame-os": 1,
-                "asset_generator": 1
+                "asset_generator": 1,
+                "ethan-smith-aeo": 1
             },
             "tier_counts": {
-                "0": 159,
+                "0": 160,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -2987,7 +3005,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 54,
-                "finalize-auto": 105
+                "finalize-auto": 106
             },
             "ensemble_count": 90,
             "auto_miss_count": 7,
