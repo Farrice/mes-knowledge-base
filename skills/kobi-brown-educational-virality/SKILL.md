@@ -89,4 +89,5 @@ Every output must pass:
 - Deployment map: `references/cross-domain-deployment-map.md`
 - Behavior proof: `references/proof-lab.md`
 - Claim verification: `references/validation-report.md`
+- Prompt library: `references/prompts/` — 9 crown-jewel practitioner prompts (searchable via `python3 execution/prompt_library.py search "<topic>"`)
 - User guide: `USER-GUIDE.md`

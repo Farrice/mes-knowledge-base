@@ -69,5 +69,6 @@ Cross-domain pairings (Albom runs the theme + emotional spine; the named expert 
 - **Genius Context**: [genius.md](genius.md) — load before any workflow. The voice, the core paradox (the most emotional subjects demand the least emotional language), 22 operating patterns, signature moves, exemplars, and the rubric.
 - **Decision Framework**: [genius.md § Decision Framework](genius.md) — run before any workflow.
 - **Anti-Patterns**: [genius.md § Mitch Albom Would Never...](genius.md) — the quality gate; the Albom would-never-do list (no reached-for sentiment, no dropping the cord, no admiring its own prose, no writing 100% for himself).
+- **Prompt Library**: [references/prompts/](references/prompts/) — 31 crown-jewel practitioner prompts (mirrored in [references/_legacy-prompts/](references/_legacy-prompts/); searchable via `python3 execution/prompt_library.py search "<topic>"`).
 - **Signature Moves**: theme-first (build the story backward as a tool) · the tether/cord · the gravedigger angle · restraint until it cuts the flesh · name which grief · put-a-pin-in-it cross-cutting · 98% for the reader · the meaning-promise hook.
 - **The bar**: not "what an artist with words" but **"I couldn't stop thinking about it — it made me think about my own life."** If the output is admiring its own prose, it has already failed.

@@ -59,4 +59,5 @@ Ash Maurya's core move is turning entrepreneurship from inspirational guessing i
 - Genius patterns: [references/genius-patterns.md](references/genius-patterns.md)
 - Hidden knowledge: [references/hidden-knowledge.md](references/hidden-knowledge.md)
 - Quality rubric: [references/quality-rubric.md](references/quality-rubric.md)
+- Prompt library: [references/prompts/](references/prompts/) — placeholder, no practitioner prompts harvested yet (system-wide search: `python3 execution/prompt_library.py search "<topic>"`)
 - Source transcripts: not present in this repo — archived in the fork at `/Users/farricecain/Codex Antigravity/extractions/ash-maurya-founder-systems/` (see `references/source-map.md`)

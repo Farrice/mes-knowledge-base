@@ -27,5 +27,6 @@ Land premium ghostwriting clients ($3,000+/month) starting from zero credentials
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
 - **Market Intelligence**: [market-intelligence-2026.md](references/market-intelligence-2026.md) — pricing tiers, competitive landscape, AI impact assessment
 - **Extraction Report**: [extraction-report.md](../../../extractions/nicolas-cole-client-acquisition/extraction-report.md) — full raw extraction
+- **Prompt Library**: [references/prompts/](references/prompts/) — 9 crown-jewel practitioner prompts (searchable via `python3 execution/prompt_library.py search "<topic>"`)
 - **Decision Framework**: Use this skill when the problem is *getting clients*, not writing for them. For writing quality → `nicolas-cole-sentence-craft`. For product creation → `nicolas-cole-digital-products`. For niche clarity → `nicolas-cole-niche-positioning`.
 - **Anti-Patterns**: See [genius.md § Anti-Patterns](genius.md) — the Permission-Seeker trap, spray-and-pray, credential-chasing
