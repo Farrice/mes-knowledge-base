@@ -68,7 +68,7 @@ The implementation keeps two layers:
 - **Input tested:** Existing Josh swing-nerd shirt candidates.
 - **Weakness diagnosed:** Scorecard had insider clarity and wearability, but did not explicitly score future reaction, emotion-first purchase reason, or recognition speed.
 - **Source mechanics used:** identity signal, instant recognition, specificity, social currency, familiar/twist, emotion-first justification.
-- **Output produced:** `_active/josh-swing-nerd-shirts-v1/MEG_HECKMAN_TRIGGER_PASS.md`.
+- **Output produced:** `_active/josh-swing-nerd-shirts-v1/04-deliverables/MEG_HECKMAN_TRIGGER_PASS.md`.
 - **Behavior delta:** The launch package now judges whether each shirt creates a buyer-recognition moment, not only whether it is clever and wearable.
 - **Validation run:** artifact guards and router checks.
 - **Remaining risk:** Josh and real dancers still need to test live purchase/comment signals.

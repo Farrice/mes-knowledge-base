@@ -1,0 +1,40 @@
+{
+  "applied_at": "2026-07-09T03:13:11+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/farrice-teach-grow-rich/00-day1-build-sequence.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/farrice-teach-grow-rich/03-working-drafts/00-day1-build-sequence.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/farrice-teach-grow-rich/01-client-rolodex.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/farrice-teach-grow-rich/03-working-drafts/01-client-rolodex.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/farrice-teach-grow-rich/02-offer-belief-shift.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/farrice-teach-grow-rich/03-working-drafts/02-offer-belief-shift.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/farrice-teach-grow-rich/03-content-engine.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/farrice-teach-grow-rich/03-working-drafts/03-content-engine.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/farrice-teach-grow-rich/04-four-phase-roadmap.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/farrice-teach-grow-rich/03-working-drafts/04-four-phase-roadmap.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/farrice-teach-grow-rich/00-day1-build-sequence.md",
+    "/Users/farricecain/Google Antigravity/_active/farrice-teach-grow-rich/01-client-rolodex.md",
+    "/Users/farricecain/Google Antigravity/_active/farrice-teach-grow-rich/02-offer-belief-shift.md",
+    "/Users/farricecain/Google Antigravity/_active/farrice-teach-grow-rich/03-content-engine.md",
+    "/Users/farricecain/Google Antigravity/_active/farrice-teach-grow-rich/04-four-phase-roadmap.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/farrice-teach-grow-rich",
+  "project_slug": "farrice-teach-grow-rich",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-08.sh",
+  "rewrites": {},
+  "skipped": [],
+  "version": 1
+}

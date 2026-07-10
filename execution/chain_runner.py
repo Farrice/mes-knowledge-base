@@ -593,6 +593,113 @@ def _enforce_caps(
     }
 
 
+# ─────────────────────────────────────────────────────────────
+# Wave 2 finalize-input latches (Harness Apex 2026-07-09)
+# Factored as pure-ish functions so they are unit-testable without
+# running a full finalize (finalize has no dry-run mode).
+# ─────────────────────────────────────────────────────────────
+
+def check_anchor_named(
+    scores: Dict[str, Optional[float]],
+    anchor_named: Any,
+) -> Optional[str]:
+    """Anchor-named validation: any submitted dimension ≥8 requires a
+    NON-EMPTY anchor phrase (--anchor-named "<anchor phrase>").
+
+    Returns an error string (refusal) or None (ok). The phrase itself is
+    extracted by the caller via anchor_phrase().
+    """
+    phrase = anchor_phrase(anchor_named)
+    high = [f"{k}={v}" for k, v in scores.items() if v is not None and float(v) >= 8]
+    if high and not phrase:
+        return (
+            "ANCHOR REQUIRED — " + ", ".join(high) + " scored ≥8 without "
+            "--anchor-named \"<anchor phrase>\": rubric_v1.md says a ≥8 must name "
+            "its matching anchor (can't name it → lower the score)."
+        )
+    return None
+
+
+def anchor_phrase(anchor_named: Any) -> str:
+    """The named anchor as a string. Legacy bool True yields '' — the CLI
+    now passes the phrase itself; bare --anchor-named no longer satisfies
+    the ≥8 requirement."""
+    return anchor_named.strip() if isinstance(anchor_named, str) else ""
+
+
+def check_blind_pass_latch(
+    task_type: str,
+    skill: str,
+    expert: str,
+    skip_blind_pass: bool,
+    output_description: str = "",
+    workflow: str = "",
+) -> "Tuple[Dict[str, Any], Optional[str]]":
+    """Extraction latch: finalize --type Extraction requires a recorded
+    blind-pass verdict (execution/blind_pass.py) for the skill, or an
+    explicit --skip-blind-pass override (logged, compass-not-cage —
+    extractions stay cost-ungated per standing decision 2026-06-09).
+
+    Returns (blind_pass_check dict for the result, error string or None).
+    """
+    if task_type != "Extraction":
+        return {"status": "N/A"}, None
+
+    slug = (skill or expert or "").strip()
+    if not slug:
+        return {"status": "MISSING"}, (
+            "BLIND-PASS LATCH — finalize --type Extraction needs --skill (or --expert) "
+            "so the recorded blind-pass verdict can be looked up. Pass the skill dir name."
+        )
+
+    verdicts: List[Dict[str, Any]] = []
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import blind_pass as _bp
+        verdicts = _bp.recorded_verdicts(slug)
+    except Exception as _exc:  # noqa: BLE001 — latch must not crash finalize
+        return {"status": "ERROR", "detail": str(_exc)}, None
+
+    if verdicts:
+        latest = verdicts[-1]
+        return {
+            "status": "OK",
+            "eval_id": latest.get("id"),
+            "verdict": (latest.get("blind_pass") or {}).get("verdict")
+                        or latest.get("expected_verdict"),
+            "entries": len(verdicts),
+        }, None
+
+    if skip_blind_pass:
+        # Same override-logging pattern as the learning latch
+        # (evolution_store/learning_latch_overrides.jsonl).
+        try:
+            _ov_path = Path(__file__).resolve().parent.parent / "evolution_store" / "blind_pass_overrides.jsonl"
+            _ov_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(_ov_path, "a") as _of:
+                _of.write(json.dumps({
+                    "ts": datetime.now().isoformat(),
+                    "event": "blind_pass_latch_override",
+                    "output": output_description[:120],
+                    "skill": skill, "expert": expert, "workflow": workflow,
+                }) + "\n")
+        except Exception:
+            pass
+        return {"status": "OVERRIDDEN", "detail": "no recorded verdict; --skip-blind-pass logged"}, None
+
+    return {"status": "MISSING"}, (
+        f"BLIND-PASS MISSING — finalize --type Extraction requires a recorded blind-pass "
+        f"verdict for '{slug}' and none exists in evolution_store/ground_truth/eval_set_v1.jsonl.\n"
+        "Run the ritual (the judgment stays human/model; the record is automatic):\n"
+        f"  1. python3 execution/blind_pass.py prepare --expert {slug}\n"
+        "  2. Generate 1-2 outputs with the skill's Tier-1 workflow; judge side-by-side vs the\n"
+        "     reference corpus per directives/embodiment-standard.md Blind-Pass Protocol.\n"
+        f"  3. python3 execution/blind_pass.py record --expert {slug} --verdict PASS|FAIL --notes \"...\"\n"
+        "Then re-run finalize. Override (logged to evolution_store/blind_pass_overrides.jsonl): "
+        "--skip-blind-pass."
+    )
+
+
 def finalize(
     output_description: str,
     expert: str = "",
@@ -620,8 +727,11 @@ def finalize(
     anchor_ref_for: str = "",
     # Excellence Lift Wave 1 (added 2026-05-21)
     factual_grounding: Optional[float] = None,
-    # Excellence Lift Wave 2 (added 2026-05-21)
-    anchor_named: bool = False,
+    # Excellence Lift Wave 2 (added 2026-05-21). Harness Apex Wave 2
+    # (2026-07-09): now a STRING — the anchor phrase itself (rubric_v1.md
+    # anchor name). Any submitted dim ≥8 without a non-empty phrase refuses
+    # (check_anchor_named). Legacy bool True no longer satisfies ≥8.
+    anchor_named: Any = False,
     # Autopilot Wave 5 stabilization (added 2026-05-23): original user intent
     # used for the post-hoc routing check at line ~918. When None, the call
     # falls back to checking output_description (legacy behavior). Autopilot's
@@ -648,6 +758,11 @@ def finalize(
     # (skip_learning -> logged to evolution_store/learning_latch_overrides.jsonl).
     learning_path: str = "",
     skip_learning: bool = False,
+    # Extraction blind-pass latch (Harness Apex Wave 2, 2026-07-09): finalize
+    # --type Extraction refuses without a recorded blind_pass.py verdict for
+    # the skill unless this override is set (logged to
+    # evolution_store/blind_pass_overrides.jsonl — same pattern as skip_learning).
+    skip_blind_pass: bool = False,
 ) -> Dict[str, Any]:
     """
     Enforce the complete Chain Steps 6-7 in a single deterministic call.
@@ -710,6 +825,46 @@ def finalize(
     if missing:
         result["success"] = False
         result["error"] = f"Missing required quality scores: {', '.join(missing)}. The quality gate requires all 3 sub-scores."
+        return result
+
+    # ── Step 1.05: Anchor-named validation (Harness Apex Wave 2, 2026-07-09) ─
+    # Any submitted dimension ≥8 must arrive with --anchor-named "<anchor phrase>"
+    # (a non-empty string naming the rubric_v1.md anchor). Refusal here replaces
+    # the old silent path where unanchored 8s slid through to taste_signature
+    # Rule 2 and got flattened to 7.25 without explanation (2026-07-07 incident).
+    _anchor_err = check_anchor_named(
+        {
+            "intent_alignment": intent_alignment,
+            "expert_standard": expert_standard,
+            "adversarial_resilience": adversarial_resilience,
+            "factual_grounding": factual_grounding,
+        },
+        anchor_named,
+    )
+    if _anchor_err:
+        result["success"] = False
+        result["error"] = _anchor_err
+        return result
+    _anchor_phrase = anchor_phrase(anchor_named)
+    if _anchor_phrase:
+        result["anchor_phrase"] = _anchor_phrase
+        if f"anchor: {_anchor_phrase.lower()}" not in (notes or "").lower():
+            notes = (notes + " | " if notes else "") + f"Anchor: {_anchor_phrase}"
+    # Downstream (taste_signature) consumes a bool.
+    anchor_named = bool(_anchor_phrase) or anchor_named is True
+
+    # ── Step 1.07: Extraction blind-pass latch (Harness Apex Wave 2) ─
+    # Quality latch, not a spend gate — extractions stay cost-ungated per
+    # Farrice's standing decision 2026-06-09. See check_blind_pass_latch().
+    _bp_check, _bp_err = check_blind_pass_latch(
+        task_type=task_type, skill=skill, expert=expert,
+        skip_blind_pass=skip_blind_pass,
+        output_description=output_description, workflow=workflow,
+    )
+    result["blind_pass_check"] = _bp_check
+    if _bp_err:
+        result["success"] = False
+        result["error"] = _bp_err
         return result
 
     # ── Step 1.1: Learning-debt latch (Solution Recorder, added 2026-07-07) ─
@@ -864,7 +1019,8 @@ def finalize(
             "status": "MISSING",
             "detail": (
                 f"task_type '{task_type}' is fact-bearing but no --factual score was given "
-                "and --notes carries no 'Verification:' declaration. Run Chain Step 5.5, then "
+                "and --notes carries no 'Verification:' declaration. Run Chain Step 5.5 "
+                "(deterministic assist: python3 execution/claim_audit.py check <deliverable>), then "
                 "either pass --factual <1-10> or add '| Verification: PASS/FAIL/PARTIAL/N/A' to --notes."
             ),
         }
@@ -912,6 +1068,27 @@ def finalize(
     # taste_signature.apply runs ON TOP of the Wave 1 caps. It encodes
     # Farrice's bimodal taste signature (rubric_v1.md Bimodal Taste section)
     # — harsh on failures, 8-must-be-earned, anti-cluster detection.
+    #
+    # THE "FLATTENING" IS INTENDED BEHAVIOR (diagnosed 2026-07-09, Harness
+    # Apex Wave 2). Incident 2026-07-07: --intent 9 --expert-score 9
+    # --adversarial 8 without --anchor-named produced uniform
+    # 7.25/7.25/7.25 (composite 7.25). Code path: taste_signature.apply()
+    # Rule 2 ("8-must-be-earned") sets EACH dim ≥8 to the fixed value
+    # _EARNED_8_CAP = 7.25 when no anchor is named — a per-dimension cap to
+    # a constant, so three dims ≥8 all land on the same number and relative
+    # structure (9/9/8) is deliberately discarded: an unanchored 9 carries
+    # no more evidence than an unanchored 8. WHY 7.25 and not a composite
+    # cap: 7.25 sits below the 7.5 PASS floor so unanchored ≥8s can never
+    # PASS (fixes the 2026-05-22 plateau where cap==floor piled 70% of
+    # traces at exactly 7.50); documented in taste_signature.py Rule 2
+    # docstring and confirmed CORRECT-and-stays by E3
+    # (directives/embodiment-standard.md § Scoring Discipline). NOT the
+    # prose_classifier cap (that caps expert_standard only, at 6.0) and NOT
+    # regression logic (read-only baseline compare). Since Step 1.05, the
+    # unanchored-≥8 path refuses loudly at input instead of flattening
+    # silently — Rule 2 remains as defense in depth for programmatic
+    # callers. Raw scores stay visible in raw_* keys; the cap writes an
+    # earned_8_cap audit row per dimension into caps_applied.
     adjusted = apply_taste_signature(
         scores={
             "intent_alignment": enforced["intent_alignment"],
@@ -1860,7 +2037,8 @@ def main():
     # Excellence Lift Wave 1 (added 2026-05-21)
     fin.add_argument("--factual", type=float, default=None, help="Factual grounding score 1-10. Omit for N/A (pure creative/opinion). Score <6 BLOCKS delivery per quality_gate.md factual veto.")
     # Excellence Lift Wave 2 (added 2026-05-21)
-    fin.add_argument("--anchor-named", action="store_true", help="Set when scores ≥8 have a named rubric anchor (rubric_v1.md). Without this flag, any dim ≥8 is capped at 7.5 by the bimodal taste filter.")
+    fin.add_argument("--anchor-named", nargs="?", const="", default="", metavar="PHRASE",
+                     help="The rubric_v1.md anchor phrase your ≥8 score matches (e.g. \"Anchor 9 — expert would sign it unchanged\"). REQUIRED (non-empty) whenever any dimension score is ≥8 — finalize refuses otherwise. Bare --anchor-named (no phrase) no longer counts. Unanchored ≥8s used to slip through and get flattened to 7.25 by the bimodal taste filter (taste_signature.py Rule 2); now they refuse at input.")
     # Autopilot Wave 5 stabilization (added 2026-05-23)
     fin.add_argument("--source-request", default=None, help="Original user request verbatim. Used for the post-hoc routing check instead of the output description. Autopilot's Phase 4 template MUST pass this to prevent false positives on the autopilot_orchestration binding.")
     fin.add_argument("--content-file", default="", dest="content_file", help="Path to the ACTUAL deliverable. The prose + structural-tells caps scan THIS (not the summary), so slop with banned moves cannot finalize clean. Pass the artifact for every Content/Copy/Creative finalize.")
@@ -1888,6 +2066,10 @@ def main():
     # Learning-debt latch (Solution Recorder, added 2026-07-07)
     fin.add_argument("--learning", default="", dest="learning_path", help="Path to a saved Solution Card that clears open learning_debt on the newest session ledger.")
     fin.add_argument("--skip-learning", action="store_true", help="Proceed despite open learning_debt. Logged to evolution_store/learning_latch_overrides.jsonl for audit — use sparingly.")
+
+    # Harness Apex Wave 2 (2026-07-09): extraction blind-pass latch override.
+    fin.add_argument("--skip-blind-pass", action="store_true",
+                     help="Finalize --type Extraction without a recorded blind_pass.py verdict. Logged to evolution_store/blind_pass_overrides.jsonl for audit (compass-not-cage). Prefer running the ritual: blind_pass.py prepare → side-by-side judgment → blind_pass.py record.")
 
     args = parser.parse_args()
 
@@ -1926,8 +2108,12 @@ def main():
             check_in_days=args.check_in,
             learning_path=args.learning_path,
             skip_learning=args.skip_learning,
+            skip_blind_pass=args.skip_blind_pass,
         )
         print_result(result)
+        # Wave 2 latches must be shell-visible: refusal = non-zero exit.
+        if not result.get("success"):
+            sys.exit(1)
         _do_pin = args.pin_session
         if _do_pin is None:
             _do_pin = args.type in ("Content", "Creative", "Strategy")

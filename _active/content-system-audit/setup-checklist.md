@@ -9,7 +9,7 @@
 ## Phase 0 — Decisions Before Setup (15 min)
 
 - [ ] **Decision A**: Confirm beta pricing — first 3 clients at $99? (Plan default: yes)
-- [ ] **Decision B**: Verify Note 3 anecdote — is the fractional CFO case real? If not, pick Fallback A or B from `substack-notes.md`
+- [ ] **Decision B**: Verify Note 3 anecdote — is the fractional CFO case real? If not, pick Fallback A or B from `04-deliverables/substack-notes.md`
 - [ ] **Decision C**: Stripe products — separate $99 and $249 products, OR single $249 product with private $99 promo code? (Recommended: separate products, $99 link kept private)
 - [ ] **Decision D**: Calendar conflict — confirm 3 × 45-min slots available this week + next for beta clients
 
@@ -25,20 +25,20 @@
   - Description: "45-min audit + Notion workflow + 3 custom Claude prompts + 2-page blueprint. Delivered within 24 hrs of call."
 - [ ] Configure post-payment redirect → Tally intake form URL (so payment auto-routes to intake)
 - [ ] Test payment with $1.00 test product OR Stripe test mode
-- [ ] Save both checkout URLs in `_active/content-system-audit/links.md` (create file)
+- [ ] Save both checkout URLs in `_active/content-system-audit/06-system/links.md` (create file)
 
 ---
 
 ## Phase 2 — Tally Form (30 min)
 
 - [ ] Create new Tally form: "Content System Audit — Pre-Call Intake"
-- [ ] Build 8 questions per `_active/content-system-audit/intake-form.md`
+- [ ] Build 8 questions per `_active/content-system-audit/06-system/intake-form.md`
 - [ ] Configure logic: skip Q4/Q6 if Q2 = "I write everything from scratch"
 - [ ] Set up post-submission email automation (Tally Pro feature OR Zapier free tier)
-  - Subject + body per `intake-form.md` § "Post-Submission Confirmation Email"
+  - Subject + body per `06-system/intake-form.md` § "Post-Submission Confirmation Email"
 - [ ] Set up post-submission redirect to Calendly URL
 - [ ] Test full flow: submit form → check email lands → confirm Calendly redirect works
-- [ ] Save Tally URL in `_active/content-system-audit/links.md`
+- [ ] Save Tally URL in `_active/content-system-audit/06-system/links.md`
 
 ---
 
@@ -50,7 +50,7 @@
 - [ ] Configure Zoom or Google Meet auto-attach
 - [ ] Pre-call reminder: 24 hr + 1 hr before (forces them to actually show up)
 - [ ] Confirmation message: "Looking forward to mapping your system. Reply if you have voice samples I didn't get from the intake."
-- [ ] Save Calendly URL in `_active/content-system-audit/links.md`
+- [ ] Save Calendly URL in `_active/content-system-audit/06-system/links.md`
 
 ---
 
@@ -58,12 +58,12 @@
 
 - [ ] Create new Google Doc: "Content System Audit"
 - [ ] **Apply pageless format** (Format → Pageless mode) — REQUIRED per MEMORY.md feedback (2026-04-13). Never PAGES mode.
-- [ ] Paste copy from `_active/content-system-audit/sales-page.md`
+- [ ] Paste copy from `_active/content-system-audit/04-deliverables/sales-page.md`
 - [ ] Replace `[Stripe link]` placeholder with the $249 Stripe URL
 - [ ] Set sharing to "Anyone with the link can view"
 - [ ] Test: open in incognito to verify pageless renders + link works
 - [ ] Optional: shorten URL via short.io or bit.ly for cleaner DM-pasting
-- [ ] Save sales page URL in `_active/content-system-audit/links.md`
+- [ ] Save sales page URL in `_active/content-system-audit/06-system/links.md`
 
 ---
 
@@ -102,7 +102,7 @@ Daily, every day until 1 paid sale OR Day 9 fail-gate:
 |---|---|
 | 30 min | 5 substantive comments on prospect posts (50-100 words each) |
 | 30 min | 10-15 personalized connection requests (post-prewarm) |
-| 45 min | 10-20 cold DMs (variants 1-3 from `dm-scripts.md`) |
+| 45 min | 10-20 cold DMs (variants 1-3 from `04-deliverables/dm-scripts.md`) |
 | 30 min | 10-15 follow-ups on existing convos |
 | 15 min | 1 Substack Note (rotate Notes 1-3 over the week) |
 
@@ -154,11 +154,11 @@ Per Phase 3 of the master plan (`~/.claude/plans/help-me-excute-this-jolly-breez
 | File | Purpose |
 |---|---|
 | `README.md` | Offer brief + project context |
-| `objection-handles.md` | 10 buyer objections + responses for live calls / DMs |
+| `06-system/objection-handles.md` | 10 buyer objections + responses for live calls / DMs |
 | `RISKS.md` | Live risk tracker (update weekly) |
-| `dm-scripts.md` | 10 DM variants (cold + warm + transition + breakup) |
-| `launch-posts.md` | 3 LinkedIn launch posts (voice-passed + prose-doctor verified) |
-| `sales-page.md` | Sales page copy ready for Google Doc |
-| `intake-form.md` | Tally form spec (8 questions + confirmation email) |
-| `substack-notes.md` | 3 Substack Notes with verification flags |
+| `04-deliverables/dm-scripts.md` | 10 DM variants (cold + warm + transition + breakup) |
+| `04-deliverables/launch-posts.md` | 3 LinkedIn launch posts (voice-passed + prose-doctor verified) |
+| `04-deliverables/sales-page.md` | Sales page copy ready for Google Doc |
+| `06-system/intake-form.md` | Tally form spec (8 questions + confirmation email) |
+| `04-deliverables/substack-notes.md` | 3 Substack Notes with verification flags |
 | `setup-checklist.md` | THIS FILE — all manual setup actions |

@@ -1,0 +1,18 @@
+{
+  "applied_at": "2026-07-09T17:05:27+00:00",
+  "moves": [],
+  "old_paths": [],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness",
+  "project_slug": "josh-katie-fitness",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-09.sh",
+  "rewrites": {},
+  "skipped": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/NEXT-STEPS-FOR-JOSH-ENGAGEMENT.md",
+      "reason": "source missing"
+    }
+  ],
+  "version": 1
+}

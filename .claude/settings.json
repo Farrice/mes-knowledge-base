@@ -34,6 +34,11 @@
             "type": "command",
             "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/guard_stranded_deliverables.py\" check",
             "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/steering_loop_hook.py\" prompt",
+            "timeout": 10
           }
         ]
       }
@@ -80,6 +85,16 @@
             "timeout": 5
           }
         ]
+      },
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/artifact_placement_hook.py\"",
+            "timeout": 5
+          }
+        ]
       }
     ],
     "Stop": [
@@ -88,6 +103,11 @@
           {
             "type": "command",
             "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/session_ledger_hook.py\" stop",
+            "timeout": 10
+          },
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/steering_loop_hook.py\" stop",
             "timeout": 10
           }
         ]

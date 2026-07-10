@@ -152,7 +152,7 @@ Present 4 clear niche options Ken can choose from, with pros/cons for each:
 1. First check if `gdrive` is installed (`which gdrive`). If yes, use it.
 2. If not, check for `rclone` (`which rclone`). If configured for Google Drive, use it.
 3. If neither is available, check for `gcloud` with Drive API access.
-4. If none of those work, create the complete folder locally at `/Users/farricecain/Google Antigravity/deliverables/Kens_Fasting_Package/` with all the documents as beautifully formatted .md files AND export-ready Google Docs-compatible formats. Then give me instructions to upload manually or help me set up `gdrive`.
+4. If none of those work, create the complete folder locally at `/Users/farricecain/Google Antigravity/deliverables/kens-fasting-package/` with all the documents as beautifully formatted .md files AND export-ready Google Docs-compatible formats. Then give me instructions to upload manually or help me set up `gdrive`.
 
 ### Formatting Rules
 

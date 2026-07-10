@@ -21,7 +21,7 @@ Point this at **any** objective and it deploys the propaganda genius — the way
 
 | Capability | Reuses | Never rebuild |
 |---|---|---|
-| Intent parse · gate-suppression (G1/G2/G3) · parallel fan-out · finalize | `/autopilot` (`intent_to_package.py`, four-field envelope, `chain_runner.py`) | ✅ |
+| Intent parse · gate-suppression (G1/G2/G3) · parallel fan-out · finalize | `/autopilot` (`intent_to_package.py`, four-field envelope, `chain_runner.py`; G1/G2/G3 now evaluate deterministically via `execution/gates.py check`) | ✅ |
 | Ground-once · $0 cache reuse · VOC/market research | `/copy-engine` (`avatar_manifold_runner.py ground`) | ✅ |
 | Multi-deliverable cross-phase coherence · anchor memory | `/supercomputer` (`anchor_memory.py`) | ✅ |
 | Cost classification on paid steps | `creative_router.py` / cost gate hook | ✅ |
@@ -90,7 +90,11 @@ For multi-asset objectives, fan out via parallel Agent calls using autopilot's *
 ## PHASE 4 — Gate (fabrication + quality + ethics + spine)
 
 Gate the **full asset file at its path** — never the worker's ≤500-token summary. Every produced asset, before it ships:
-0. **Assumption-label audit (the no-fabrication backstop — a checked step, not a vibe).** Scan the asset and its grounding summary for every claim about a number, result, name, date, or market fact. Each must trace to a grounding source OR carry an `[ASSUMED:…]` / `[MODELED]` tag. Any unlabeled, unsourced claim is a **Gate-1 ethics fail** — kill it or label it. This makes "not-input-gated ≠ fabricated" physical instead of promised. (Honors `feedback_ai-memory-dependent-observability.md`: pair the narrative rule with a deterministic check; under 12-worker fan-out, hope is not a control.)
+0. **Assumption-label audit (the no-fabrication backstop — an exit code, not a vibe).** Run the deterministic net on the asset file:
+   ```bash
+   python3 execution/claim_audit.py check <asset-path>
+   ```
+   Exit 1 = one or more claim carriers (numbers, results, names, dates, market facts) carry no grounding tag or source. Each finding is a **Gate-1 ethics fail** — kill the claim or label it (`[VERIFIED]` / `[LIKELY]` / `[UNCONFIRMED]` / `[ASSUMED:…]` / `[MODELED]` / source line; `tag-help` prints the vocabulary for worker-prompt injection). Re-run until exit 0. This makes "not-input-gated ≠ fabricated" physical instead of promised. (Honors `feedback_ai-memory-dependent-observability.md`: pair the narrative rule with a deterministic check; under 12-worker fan-out, hope is not a control.) Override: `--skip-claim-audit` on the engine invocation skips this step as a **logged override** — record it in the finalize `--notes` (compass, never cage; the net stays default-on).
 1. **`jw-ethics-gate`** — true claims · real proof · buyer's genuine interest · reversible respect. Line-item, not impression. Fail any → kill or fix.
 2. **Spine test** (genius.md Voice Reference, Mode B) — does it still make the wrong-fit uncomfortable and the right-fit feel seen? Sanded-down = fail → restore the edge.
 3. **Prose classifier** — `python3 execution/prose_classifier.py check <path>` (G3). FLAGGED → fix via the relevant craft expert (often `/writers-room` or the stacked expert).

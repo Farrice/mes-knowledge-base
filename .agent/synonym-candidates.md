@@ -10,3 +10,11 @@ having suggested it.
 NEVER auto-applied to `execution/find_skill.py`'s `SYNONYMS` map. A human
 reads the candidates below, decides whether the phrasing actually
 generalizes (vs. being a one-off), and hand-adds it to `SYNONYMS` if so.
+
+## 2026-07-08
+
+- `extract-forge` -> `dara-denney-meta-ads` (manual load, 2026-07-07T20:36:03.973103)
+
+## 2026-07-09
+
+- `deep-research` -> `deep-research` (manual load, 2026-07-08T19:11:36.489154)

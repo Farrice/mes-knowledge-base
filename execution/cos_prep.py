@@ -191,7 +191,8 @@ def render_outer_loop(loop: dict) -> list:
     if loop.get("never_logged"):
         lines.append(f"- {loop['never_logged']} deliverable{'s' if loop['never_logged'] != 1 else ''} shipped, never logged")
     lines.append(f"- Lifetime revenue collected: ${loop.get('lifetime_revenue', 0):,.2f}")
-    lines.append("- `python3 execution/revenue_tracker.py checkin` — walks the due list one by one")
+    lines.append("- Data: [revenue-outcomes.json](.agent/revenue-outcomes.json) · "
+                 "`python3 execution/revenue_tracker.py checkin` walks the due list one by one")
     return lines
 
 
@@ -269,8 +270,8 @@ def render_evolution(evo: dict) -> list:
             lines.extend(f"- {h}" for h in headlines)
         else:
             lines.append("- clean run, no flags")
-    lines.append(f"- Report: `{evo.get('path', '')}`")
-    lines.append(f"- `cat {evo.get('path', '')}`")
+    path = evo.get("path", "")
+    lines.append(f"- Full report: [{path}]({path}) — FYI only; nothing to do unless a ⚠️ shows")
     return lines
 
 
@@ -287,7 +288,7 @@ def render_world_pulse(pulse: dict) -> list:
         why = f" — {item['why']}" if item.get("why") else ""
         lines.append(f"- **{title}**{why} ({item.get('url', '')})")
     if pulse.get("path"):
-        lines.append(f"- Full pulse: `cat {pulse['path']}`")
+        lines.append(f"- Full pulse: [{pulse['path']}]({pulse['path']})")
     return lines
 
 
@@ -327,23 +328,26 @@ def life_staleness() -> list:
     return sections
 
 
-def open_loops() -> list:
-    """Open loops from the most recent journal entry before today."""
+def open_loops() -> tuple:
+    """(loops, source_relpath) from the most recent journal entry before today.
+    The source path rides along so the brief can show WHERE each loop came
+    from — a loop without provenance reads as invented (Farrice, 2026-07-08)."""
     try:
         entries = sorted(JOURNAL.glob("*.md"), reverse=True)
         for entry in entries:
             if entry.stem >= _today():
                 continue
             text = entry.read_text()
+            src = str(entry.relative_to(REPO_ROOT))
             m = re.search(r"^## Open loops\n(.*?)(?=^## |\Z)", text, re.MULTILINE | re.DOTALL)
             if m:
                 loops = [l.strip("- ").strip() for l in m.group(1).splitlines()
                          if l.strip().startswith("- ")]
-                return [l for l in loops if l][:3]
-            return []
+                return [l for l in loops if l][:3], src
+            return [], src
     except Exception:
         pass
-    return []
+    return [], ""
 
 
 def ensure_world_pulse() -> None:
@@ -422,7 +426,7 @@ def _yesterday_brief_text() -> str:
 
 def _prior_questions() -> set:
     """Exact question texts asked in yesterday's brief — never repeated today."""
-    m = re.search(r"^## Your three questions\n(.*)", _yesterday_brief_text(),
+    m = re.search(r"^## Your .*questions\n(.*)", _yesterday_brief_text(),
                   re.MULTILINE | re.DOTALL)
     qs = set()
     if m:
@@ -452,7 +456,8 @@ def _clip(text: str, limit: int = 70) -> str:
 
 
 def generate_questions_v2(today: str, staleness: list, due_goals: list, loops: list,
-                          weekly_due: bool, threads: list, world_items: list) -> list:
+                          weekly_due: bool, threads: list, world_items: list,
+                          loops_src: str = "", world_path: str = "") -> list:
     """Question engine v2 — three archetypes, one question each, every day:
 
       1. decision-forcing   ("X or Y — pick") anchored to an open loop, a due
@@ -464,34 +469,47 @@ def generate_questions_v2(today: str, staleness: list, due_goals: list, loops: l
     exact text. When inputs are thin (no loops/threads/world), each slot falls
     back to the legacy behavior via the same banks the v1 engine used.
     Only open-loop lines are quoted — journal `## Raw` content never leaks in.
+
+    Returns a list of (question, source) tuples — every question carries a
+    provenance string the brief renders under it, so Farrice never has to ask
+    "where are you getting that from?" (binding feedback, 2026-07-08).
     """
     threads = threads or []
     world_items = world_items or []
     avoid = _prior_questions()
     questions: list = []
 
+    journal_src = (f"open loop · [journal {Path(loops_src).stem}]({loops_src})"
+                   if loops_src else "open loop")
+    goals_src = "goal registry · [goals.json](.agent/cos/goals.json)"
+    world_src = (f"world pulse · [{Path(world_path).stem}]({world_path})"
+                 if world_path else "world pulse")
+
     # ── Archetype 1: decision-forcing ────────────────────────────
     # His own commitments (loops, due goals) outrank world items — a $-attached
     # open loop always beats an article as the thing to force a pick on.
-    decision_opts, decision_anchors = [], []
+    decision_opts, decision_anchors, decision_srcs = [], [], []
     for loop in loops:
         decision_opts.append(
             f'Open loop: "{_clip(loop, 80)}" — one concrete move on it today, or kill it and free the slot. Pick.')
         decision_anchors.append(_clip(loop, 60))
+        decision_srcs.append(journal_src)
     for g in due_goals:
         decision_opts.append(
             f'Goal "{g["id"]}" review is due — recommit as-is or renegotiate the number. Pick one.')
         decision_anchors.append(g["id"])
+        decision_srcs.append(goals_src)
     if not decision_opts:
         for item in world_items[:3]:
             if item.get("title"):
                 decision_opts.append(
                     f'World pulse: "{_clip(item["title"], 70)}" — worth 30 focused minutes this week, or noise to ignore? Decide.')
                 decision_anchors.append(_clip(item["title"], 60))
+                decision_srcs.append(world_src)
     q = _pick_fresh(decision_opts, avoid, today, "decision")
     used_anchor = ""
     if q:
-        questions.append(q)
+        questions.append((q, decision_srcs[decision_opts.index(q)]))
         avoid.add(q)
         used_anchor = decision_anchors[decision_opts.index(q)]
 
@@ -524,7 +542,9 @@ def generate_questions_v2(today: str, staleness: list, due_goals: list, loops: l
         )]
         q = _pick_fresh(conn_opts, avoid, today, "connect")
         if q:
-            questions.append(q)
+            kind_src = {"thread": "live threads · `python3 execution/handoff_store.py threads`",
+                        "loop": journal_src, "world": world_src, "goal": goals_src}
+            questions.append((q, f"connects {kind_src[a[0]]} × {kind_src[b[0]]}"))
             avoid.add(q)
 
     # ── Archetype 3: life/chairman (stalest section first) ───────
@@ -536,6 +556,7 @@ def generate_questions_v2(today: str, staleness: list, due_goals: list, loops: l
                       if any(qq in ytext for qq in LIFE_QUESTIONS.get(s, []))}
         ordered = ([x for x in staleness if x[0] not in asked_yday]
                    + [x for x in staleness if x[0] in asked_yday])
+    used_section = ""
     for section, days in ordered:
         bank = LIFE_QUESTIONS.get(section)
         if not bank:
@@ -543,8 +564,10 @@ def generate_questions_v2(today: str, staleness: list, due_goals: list, loops: l
         if days >= 2 or not onboarded:
             q = _pick_fresh(bank, avoid, today, section)
             if q:
-                questions.append(q)
+                stale = "never updated" if days >= NEVER_DAYS else f"{days}d since update"
+                questions.append((q, f"[life-context.md § {section}](.agent/cos/life-context.md) · {stale}"))
                 avoid.add(q)
+                used_section = section
                 break
 
     # ── Fallback fill (thin inputs) — legacy v1 behavior ─────────
@@ -554,25 +577,56 @@ def generate_questions_v2(today: str, staleness: list, due_goals: list, loops: l
         ago = "never been reviewed" if days >= NEVER_DAYS else f"not been reviewed in {days}d"
         q = f'Goal "{g["id"]}" has {ago} — still the target, or renegotiate?'
         if q not in avoid:
-            questions.append(q)
+            questions.append((q, goals_src))
             avoid.add(q)
     if len(questions) < 3 and weekly_due:
         q = "Board sits today — what's the one thing you don't want to say out loud to it?"
         if q not in avoid:
-            questions.append(q)
+            questions.append((q, "board cadence · [state.json](.agent/cos/state.json)"))
             avoid.add(q)
     fill = 0
     while len(questions) < 3 and fill < 10:
         q = _pick_fresh(LIFE_QUESTIONS["Mindset"], avoid, today, f"filler{fill}")
         fill += 1
         if q:
-            questions.append(q)
+            questions.append((q, "[life-context.md § Mindset](.agent/cos/life-context.md) · rotation"))
             avoid.add(q)
         else:
             break
     while len(questions) < 3:  # bank fully exhausted — repeat rather than crash
-        questions.append(_stable_pick(LIFE_QUESTIONS["Mindset"], today, f"exhausted{len(questions)}"))
-    return questions[:3]
+        questions.append((_stable_pick(LIFE_QUESTIONS["Mindset"], today, f"exhausted{len(questions)}"),
+                          "question bank · rotation"))
+
+    # ── Optional extras 4-5 (Farrice, 2026-07-08: "I don't mind answering
+    # more questions") — only when real material exists; never bank-padded
+    # just to hit five. 3 stays the floor, 5 the ceiling.
+    if len(questions) >= 3:
+        for section, days in ordered:  # 4th: next genuinely-stale life section
+            if len(questions) >= 5:
+                break
+            if section == used_section or days < 2:
+                continue
+            bank = LIFE_QUESTIONS.get(section)
+            if not bank:
+                continue
+            q = _pick_fresh(bank, avoid, today, f"{section}|extra")
+            if q:
+                stale = "never updated" if days >= NEVER_DAYS else f"{days}d since update"
+                questions.append((q, f"[life-context.md § {section}](.agent/cos/life-context.md) · {stale}"))
+                avoid.add(q)
+                break
+        if len(questions) < 5:  # 5th: a world-pulse worth-it-or-noise decision
+            for item in world_items[:3]:
+                title = _clip(item.get("title", ""), 70)
+                if not title or title == used_anchor:
+                    continue
+                q = (f'World pulse: "{title}" — worth 30 focused minutes '
+                     f'this week, or noise to ignore? Decide.')
+                if q not in avoid:
+                    questions.append((q, world_src))
+                    avoid.add(q)
+                    break
+    return questions[:5]
 
 
 # ── legacy question generation (v1) — kept as the documented fallback shape ──
@@ -615,7 +669,10 @@ def generate_questions(staleness, due_goals, loops, weekly_due, today) -> list:
 
 
 def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions, weekly_line,
-                 outer_loop=None, evolution=None, world_pulse=None) -> str:
+                 outer_loop=None, evolution=None, world_pulse=None, loops_src="") -> str:
+    """Self-contained brief (Farrice, 2026-07-08, binding): every section names
+    its source as a clickable repo-relative link, every question carries a
+    provenance line. He should never have to ask where a line came from."""
     today = _today()
     weekday = datetime.now().strftime("%A")
     lines = [f"# Morning Brief — {today} ({weekday})", ""]
@@ -623,24 +680,32 @@ def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions
     lines.append(f"**Streak:** {streak} · **Board:** {weekly_line}")
     if goals:
         lines.append("")
-        lines.append("## Goal pulse")
+        lines.append("## Goal pulse — [goals.json](.agent/cos/goals.json)")
         due_ids = {g["id"] for g in due_goals}
         for g in goals:
-            flag = "🔍 review due" if g["id"] in due_ids else "on track"
+            if g["id"] in due_ids:
+                flag = "🔍 review due"
+            else:
+                days = _days_since(g.get("last_reviewed", ""))
+                flag = "never reviewed" if days >= NEVER_DAYS else f"reviewed {days}d ago"
             lines.append(f"- {g['id']} — {flag}")
     deck = []
     if revenue_due:
         deck.append(f"{revenue_due} outcome check-in{'s' if revenue_due != 1 else ''} due "
                     f"(`python3 execution/revenue_tracker.py due`)")
     if threads:
-        deck.append("Top threads: " + ", ".join(threads))
+        deck.append("Top threads: " + ", ".join(threads)
+                    + " — from `python3 execution/handoff_store.py threads`")
     if deck:
         lines.append("")
         lines.append("## On deck")
         lines.extend(f"- {d}" for d in deck)
     if loops:
         lines.append("")
-        lines.append("## Yesterday's open loops")
+        header = "## Yesterday's open loops"
+        if loops_src:
+            header += f" — from [{Path(loops_src).stem}]({loops_src})"
+        lines.append(header)
         lines.extend(f"- {l}" for l in loops)
     if world_pulse:
         lines.extend(render_world_pulse(world_pulse))
@@ -649,8 +714,16 @@ def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions
     if evolution:
         lines.extend(render_evolution(evolution))
     lines.append("")
-    lines.append("## Your three questions")
-    lines.extend(f"{i}. {q}" for i, q in enumerate(questions, 1))
+    n_words = {3: "three", 4: "four", 5: "five"}
+    lines.append(f"## Your {n_words.get(len(questions), len(questions))} questions")
+    for i, q in enumerate(questions, 1):
+        if isinstance(q, tuple):
+            text, src = q
+            lines.append(f"{i}. {text}")
+            if src:
+                lines.append(f"   ↳ from: {src}")
+        else:
+            lines.append(f"{i}. {q}")
     return "\n".join(lines) + "\n"
 
 
@@ -695,7 +768,7 @@ def cmd_prep(force: bool, dry_run: bool, date_str: str = None) -> int:
     due_goals = goals_due(goals)
     revenue_due = gather_revenue_due()
     threads = gather_threads()
-    loops = open_loops()
+    loops, loops_src = open_loops()
     ensure_world_pulse()  # generate today's world file if missing (fail-safe)
     world_pulse = gather_world_pulse()
     world_items = world_pulse.get("items", [])
@@ -708,11 +781,14 @@ def cmd_prep(force: bool, dry_run: bool, date_str: str = None) -> int:
     # Question engine v2: three archetypes (decision-forcing / connection-
     # surfacing / life-chairman), no repeat of yesterday's exact questions.
     questions = generate_questions_v2(today, life_staleness(), due_goals, loops,
-                                      weekly_due, threads, world_items)
+                                      weekly_due, threads, world_items,
+                                      loops_src=loops_src,
+                                      world_path=world_pulse.get("path", ""))
     outer_loop = gather_outer_loop()
     evolution = gather_evolution()
     brief = render_brief(state, goals, due_goals, revenue_due, threads, loops,
-                         questions, weekly_line, outer_loop, evolution, world_pulse)
+                         questions, weekly_line, outer_loop, evolution, world_pulse,
+                         loops_src=loops_src)
 
     if dry_run:
         print(brief)

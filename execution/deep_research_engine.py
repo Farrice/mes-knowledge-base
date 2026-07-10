@@ -800,13 +800,52 @@ class ResearchEngine:
                 findings = self._parse_perplexity_response(result.text, result.citations)
             except Exception as e:
                 error_msg = str(e)
-                if "cap reached" in error_msg.lower() or "budget" in error_msg.lower():
+                if "401" in error_msg or "unauthorized" in error_msg.lower():
+                    # Dead/expired key: latch off for the whole run instead of
+                    # 401-spamming every sub-query (2026-07-08: 12 x 401 per
+                    # topic before this latch existed).
+                    print("  ⚠️  Perplexity auth failed (401) — disabling for this run, "
+                          "falling back to Tavily floor")
+                    self.perplexity_client = None
+                elif "cap reached" in error_msg.lower() or "budget" in error_msg.lower():
                     print(f"  ℹ️  Perplexity cap/budget hit for angle '{angle}'. Skipping: {search_query[:50]}...")
                 else:
                     print(f"  ⚠️  Search failed for '{search_query[:50]}...': {e}")
-        else:
-            print(f"  ℹ️  No search backend available for: {search_query[:60]}...")
 
+        # $0 Tavily floor — fires when Perplexity is absent, latched off, or
+        # returned nothing. Same leg world_brief.py trusts (native_floor).
+        if not findings:
+            findings = self._tavily_search_findings(search_query)
+        if not findings and not self.perplexity_client:
+            print(f"  ℹ️  No search backend produced results for: {search_query[:60]}...")
+
+        return findings
+
+    def _tavily_search_findings(self, search_query: str) -> List[ResearchFinding]:
+        """Tavily-backed search leg (free tier). Returns [] on any failure —
+        mirrors native_floor.tavily_search's never-raise contract."""
+        try:
+            from native_floor import tavily_search
+        except ImportError:
+            return []
+        findings = []
+        for r in tavily_search(search_query, max_results=5):
+            url = (r.get("url") or "").strip()
+            content = re.sub(r"\s+", " ", (r.get("content") or "")).strip()
+            title = re.sub(r"\s+", " ", (r.get("title") or "")).strip()
+            if not url or not content:
+                continue  # unsourced result never becomes a finding
+            # Title as the claim: raw Tavily page content often opens with
+            # nav junk ("Skip to content...") that would otherwise become
+            # the item headline downstream.
+            findings.append(ResearchFinding(
+                claim=title if title else content[:200],
+                source_url=url,
+                source_title=title,
+                excerpt=content[:300],
+                confidence="medium",
+                finding_type="data",
+            ))
         return findings
 
     def _read_page_and_extract(self, url: str, query: str) -> List[ResearchFinding]:

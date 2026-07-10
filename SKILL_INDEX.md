@@ -77,7 +77,7 @@
 | `daniel-priestley-24-assets-os` | **Daniel Priestley: 24 Assets OS** | daniel priestley's 24 assets method for building digital, scalable, valuable businesses through ip | 12 | 0 |
 | `daniel-priestley-oversubscribed` | **Daniel Priestley: Oversubscribed Mastery** | 27 genius patterns and 27 crown jewel prompts for entrepreneurial domination, oversubscribed mastery | 7 | 27 |
 | `daniel-thrasher-affiliate` | **Daniel Thrasher — Affiliate Campaign Skills** | 5 years with top affiliates), campaign/funnel model, distinct from enfroy's blog-authority model, affiliate campaign skills | 3 | 0 |
-| `dara-denney-meta-ads` | **dara-denney-meta-ads** | dtc-meta-ads, engine for performance creative built on dara denney's agency methodology, meta ads creative strategy | 7 | 0 |
+| `dara-denney-meta-ads` | **dara-denney-meta-ads** | dtc-meta-ads, dtc creative strategy for meta ads — video + static, engine for performance creative built on dara denney's agency methodology | 17 | 0 |
 | `darrel-wilson-ai-affiliate` | **darrel-wilson-ai-affiliate** | ai-augmented affiliate marketing, digital revenue systems, $50-60k/month in commissions backs the methodology | 12 | 0 |
 | `darrel-wilson-ai-monetization` | **Darrel Wilson AI Monetization** | for ai-leverage-as-thinking-partner use dan-koe-ai-leverage, for solo-entrepreneur infrastructure use andrew-wilkinson-ai-entrepreneurship | 4 | 14 |
 | `david-bayer-elite-communication` | **David Bayer: Elite Communication** | for written voice / brand voice use voice-document or voice-calibrate, for sales-call dynamics specifically use chase-hughes-conversational-influence, elite communication | 3 | 17 |
@@ -351,6 +351,7 @@
 | `tyler-denk-audience-monetization` | **Antigravity Expert: Tyler Denk (Audience Monetization)** | beehiiv ceo tyler denk's system for audience acquisition, founder-led marketing, and high-ticket b2b monetization | 2 | 4 |
 | `velocity-scaling` | **velocity-scaling** | velocity scaling × dtc subscription × celebrity partnership × infrastructure pivot, speed itself becomes the moat, danny yeung | 18 | 0 |
 | `vince-nijhof-dtc-operator-system` | **vince-nijhof-dtc-operator-system** | dtc-operator-system, $20m/month dtc operator's playbook — paid-ads-first, ai-native | 14 | 0 |
+| `voice-os` | **voice-os** | cross-cutting identity x voice fidelity x calibration | 0 | 0 |
 | `ward-farnsworth-rhetorical-mastery` | **Ward Farnsworth — Rhetorical Mastery** | latinate chord-changes, chiasmus, anaphora | 15 | 4 |
 | `web-artifacts-builder` | **web-artifacts-builder** | suite of tools for creating elaborate, multi-component claude | 0 | 0 |
 | `webapp-testing` | **webapp-testing** | supports verifying frontend functionality, debugging ui behavior, capturing browser screenshots | 0 | 0 |

@@ -13,6 +13,7 @@
 | `/ghostwrite` + Lara Acosta (mastery, growth) | LinkedIn from scratch | A-tier, 4 log mentions |
 | `/parallax` | Parallax Substack editions | binding `parallax_editions` |
 | `/writers-room` | Refining an EXISTING draft (never production-from-scratch) | binding `writers_room_refinement` |
+| `voice-os` (`/voice-os`, card at `_active/farrice-brand/voice/VOICE-CARD.md`) | Always-on voice layer for anything in Farrice's own voice — dial MIRROR/BLEND/STRETCH/OFF + calibration loop | binding `farrice_voice_alignment`, built 2026-07-07 |
 | Luke Iha suite (avatar-machine, copy-blocks, vicious-hooks, vsl-leads) | Buyer intelligence → copy blocks | 16 log mentions, A-tier traces |
 | Stefan Georgi (dopamine-copy) · Jason Fladlien (marketing) | DR copy emotion/offer architecture | 95% of copy-usage logs |
 | `jen-santulan-listing-content` | Jen client work (cd `_active/jen-listings/`) | active client |

@@ -30,7 +30,12 @@ numbered with destinations, before routing. Then:
 
 If he skips or gives one line: capture the line, no interrogation, proceed.
 
-**Step 3 — One CEO line.** A single sentence connecting today to the active goal, grounded in what he just said. No lecture, no task list he didn't ask for.
+**Step 3 — The Counsel Close** (upgraded 2026-07-08 — Farrice: "I thought I would be getting more mentorship or guidance... real support or next steps"). Three parts, ≤6 lines total, all grounded in what he just said:
+1. **CEO line** — one sentence connecting today to the active goal.
+2. **One mentor insight** — teach him something real that expands capability: a frame, a mechanism, a principle drawn from the expert stack and applied to HIS situation today. Not a platitude; something he could not have said himself this morning.
+3. **One load-lift** — name the thing he can stop holding in his head because the system now carries it ("Josh follow-up date is in the loop file — off your mind until Friday").
+
+Logging without guidance = failed session. No lecture, no task list he didn't ask for — but never capture-and-run silent either.
 
 **Step 4 — Close.** `python3 execution/cos_prep.py mark daily`. Then, only what's relevant:
 - Content spark with legs captured? Name its ONE container and stop (genius.md One Container rule): "`/linkedin-daily`" / "`/parallax`" / "`/writers-room`". Never write the content inside the briefing.

@@ -1,5 +1,6 @@
 # KATIE — Quick-Review Card
 **📋 DEPLOY + SHARE:** [`programs/Katie_Complete_Program.md`](programs/Katie_Complete_Program.md) — training + nutrition in one Trainerize-ready doc · **Notion (shareable):** [KATIE — Complete Program](https://app.notion.com/p/39649875a897817dbfccd1b2e89e2553)
+**⚡ TRAINERIZE PASTE (bare lists):** [`programs/Katie_Trainerize_Paste.md`](programs/Katie_Trainerize_Paste.md) — copy one session block straight into the app's AI builder, zero editing
 **DESIGN SOURCE (rationale/evidence):** [`programs/Katie_FullBody_Recomp_v2.md`](programs/Katie_FullBody_Recomp_v2.md) — 6-week "Strong & Lean" block · **v2.1 enriched 2026-07-02** (more hips/quads/arms/lower-abs; see the program's v2.1 addendum) (started ___fill on kickoff___)
 **DAY FILES (grab-and-train):** [`workouts/`](workouts/) — Mon [F1 Squat](workouts/01-mon-foundational-1-squat-led.md) · Tue [Trigger A](workouts/02-tue-trigger-a-glute-quad-shoulders.md) · Wed [F2 Hinge](workouts/03-wed-foundational-2-hinge-led.md) · Thu [Trigger B](workouts/04-thu-trigger-b-posterior-abs-zone2.md) · Fri [F3 Unilateral+OH](workouts/05-fri-foundational-3-unilateral-overhead.md)
 

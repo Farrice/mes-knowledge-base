@@ -17,6 +17,7 @@
 
 | Priority | Folder | What's inside | Status |
 |---|---|---|---|
+| **0** | **`16-war-on-fitness-industry/`** | The "stop feeling like shit" local funnel (2026-07-08 voice memo): unbranded flyer → QR → squeeze page → in-person booking. **Client-facing package = `07-cooz-playbook/`** (implementation-grade cards per `00-strategy/DOC-FORMAT-SPEC.md`; mirrored to Drive folder "Cooz — The Truth About the War on the Fitness Industry" with research in Receipts/). Market-truth research: `06-market-truth/`. Flyer SVGs: `04-visuals/`. Ship blocker: `/book-in-person` page before flyers print (playbook doc 03 is the build checklist). Open Cooz decisions: voice-check the two line swaps, Jessica quote, Roni/Veronica. | **CURRENT — newest active build** |
 | **1** | **`15-final-package/`** | The complete handoff package — 11 documents, 45K words. Start with `04-COOZ-MARCHING-ORDERS.md`. | **CURRENT — ship this** |
 | **2** | **`14-ignition-plan/`** | The source Ignition Plan (also copied into 15-final-package as `01-THE-IGNITION-PLAN.md`) | CURRENT |
 | **3** | **`13-pmf-investigation/`** | 3 research reports (McBroom reverse-engineer, buyer investigation, business architecture). Referenced by the Ignition Plan. | CURRENT (reference only) |

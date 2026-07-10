@@ -73,3 +73,6 @@
 {"ts": "2026-07-07T16:48:12.039629+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "82ab33e7-00f2-4d59-85a9-b17b90031d31"}
 {"ts": "2026-07-07T16:48:23.309640+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "82ab33e7-00f2-4d59-85a9-b17b90031d31"}
 {"ts": "2026-07-07T22:34:58.493473+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "28510e0e-be1a-4062-a88c-ef22b9e5dcda"}
+{"ts": "2026-07-09T03:40:40.660897+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "6384d03d-e639-4824-aba0-b7e300f32930"}
+{"ts": "2026-07-09T03:40:48.548409+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "6384d03d-e639-4824-aba0-b7e300f32930"}
+{"ts": "2026-07-09T03:40:55.844282+00:00", "tool": "mcp__recall__get_document_content", "service": "recall", "billable": true, "session_id": "6384d03d-e639-4824-aba0-b7e300f32930"}

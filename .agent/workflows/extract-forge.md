@@ -145,18 +145,40 @@ mkdir -p skills/[skill-name]/workflows skills/[skill-name]/references agents/[ex
 1. **Structural check**: Confirm all files exist
 2. **Content quality spot-check**: Read 2-3 workflows for practitioner-grade quality
 3. **Slash command check**: Confirm wrappers correctly reference full workflows
-4. **Embodiment + blind-pass check** (`directives/embodiment-standard.md` — E4 2026-07-02): verify the 10-item build checklist (anti-patterns, verbatim-anchored heuristics, recognition test, named-entity floor, source-ledger, anti-overpolish voice texture), then run the mini blind-pass protocol — 1-2 Tier-1 workflow outputs beside real published pieces by the expert. PASS = indistinguishable or preferred; A-tier promotion requires a Farrice-judged pass; FAIL → fix weakest checklist item, retry once, else ship B-tier with the gap named. Append the verdict as an eval entry to `evolution_store/ground_truth/eval_set_v1.jsonl` (≥1 per ship).
-5. **Craft standard check**: `directives/skill-craft-standard.md` — the pre-ship checklist (Section 8) is REQUIRED before Phase 8.
+4. **Embodiment + blind-pass check** (`directives/embodiment-standard.md` — instrumented, Wave 2). Run this exact sequence:
+
+   ```bash
+   # 4a. Corpus gate — ≥2 real published pieces in extractions/[skill-dir]/reference-corpus/
+   #     (exit 1 prints exactly what to collect)
+   python3 execution/blind_pass.py prepare --expert [skill-dir]
+   ```
+
+   4b. **Side-by-side judgment** (human/model — never automated): 1-2 Tier-1 workflow outputs beside the reference-corpus pieces, judged against the recognition test. PASS = indistinguishable or preferred; A-tier promotion requires a Farrice-judged pass; FAIL → fix weakest checklist item, retry once, else ship B-tier with the gap named.
+
+   ```bash
+   # 4c. Record — appends the eval_set_v1.jsonl entry + extractions/[skill-dir]/blind-pass-log.md line
+   python3 execution/blind_pass.py record --expert [skill-dir] --verdict PASS|FAIL \
+       --notes "[which real pieces, what held / what gave it away]" \
+       --generated [path] --reference [path]
+   ```
+
+5. **Heartbeat gate** (replaces the prose "REQUIRED before ship" pointer — 6 tier-affecting checks from `directives/skill-craft-standard.md` §8):
+
+   ```bash
+   # ≥2 failures = tier capped at B (exit 1). Fix the named checks or ship with the gap named.
+   python3 execution/skill_auditor.py check --skill [skill-dir]
+   ```
 
 ### Phase 8: Performance Log
 
-Scores are NOT templated — derive them from the Phase 7.4 blind-pass verdict + checklist coverage (`directives/embodiment-standard.md` § Scoring Discipline). Any dimension ≥8 requires `--anchor-named` plus naming the matching rubric anchor in the notes.
+Scores are NOT templated — derive them from the Phase 7.4 blind-pass verdict + checklist coverage (`directives/embodiment-standard.md` § Scoring Discipline). Any dimension ≥8 requires `--anchor-named "<anchor phrase>"` (the matching rubric_v1.md anchor as a string — finalize refuses unanchored ≥8s). Finalize also refuses `--type Extraction` without the Phase-7.4c recorded verdict (`--skip-blind-pass` is the logged override).
 
 ```bash
 python3 execution/chain_runner.py finalize "[Expert] — [Domain] mastery extraction (forge)" \
     --expert [expert-name] --skill [skill-dir] --workflow extract-forge \
     --type Extraction --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
-    --notes "[workflow count] workflows, [genius pattern count] patterns | blind-pass: [PASS/FAIL vs which real pieces] | anchors: [named anchors for any ≥8]"
+    --anchor-named "[rubric anchor phrase, required for any ≥8]" \
+    --notes "[workflow count] workflows, [genius pattern count] patterns | blind-pass: [PASS/FAIL vs which real pieces] | heartbeat: [n/6]"
 ```
 
 Then register the extraction for usage telemetry (informational only — feeds the monthly production-use report, never blocks):

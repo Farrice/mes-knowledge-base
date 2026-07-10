@@ -2195,8 +2195,120 @@
         "gaming_flag": false
       },
       "notes": "Retry pass after first finalize: removed claim-risk scanner flags; Health Performance GEO daily brief saved and ledger rows appended | platform: codex | Verification: PASS/PARTIAL - grounding PASS, claim risk CLEAN, JSONL PASS, export guard PASS, routing PASS, content finish WARN due required parallel audit structure, Google Operator Core hook parity FAIL unrelated to content lane, Google Drive disabled"
+    },
+    {
+      "trace_id": "20260708_112526",
+      "timestamp": "2026-07-08T11:25:26.353280",
+      "schema_version": "v3",
+      "component": "_active/health-performance-ip-library",
+      "expert": "health-performance-geo-client-acquisition-engine",
+      "workflow": "health-performance-geo-daily-brief",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Content-first brief with women\u2019s health Symptom-to-Source Map; Drive export disabled; JSONL valid; grounding PASS; finish gate WARN after hard-tell repair due prose classifier parallel structure warning | platform: codex | Verification: PASS/PARTIAL"
+    },
+    {
+      "trace_id": "20260708_112630",
+      "timestamp": "2026-07-08T11:26:30.852549",
+      "schema_version": "v3",
+      "component": "_active/health-performance-ip-library",
+      "expert": "health-performance-geo-client-acquisition-engine",
+      "workflow": "health-performance-geo-daily-brief",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Retry pass completed after chain quality warning; removed hard AI structural tells; reduced claim risk from RISKY to WATCH; JSONL valid; export guard PASS; grounding PASS; content finish gate WARN only due prose classifier parallel-structure warning from required brief format | platform: codex | Verification: PASS/PARTIAL"
+    },
+    {
+      "trace_id": "20260709_063820",
+      "timestamp": "2026-07-09T06:38:20.975282",
+      "schema_version": "v3",
+      "component": "_active/health-performance-ip-library/AUTOMATION_PROMPT.md",
+      "expert": "health-performance-geo-client-acquisition-engine",
+      "workflow": "daily-zeitgeist-brief",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Signal-to-Decision Map selected after broad market scan and motif penalty | platform: codex | Verification: JSONL PASS, export PASS, grounding PASS, content_finish WARN, claim_risk WATCH, Drive disabled"
+    },
+    {
+      "trace_id": "20260709_063834",
+      "timestamp": "2026-07-09T06:38:34.983993",
+      "schema_version": "v3",
+      "component": "_active/health-performance-ip-library/AUTOMATION_PROMPT.md",
+      "expert": "health-performance-geo-client-acquisition-engine",
+      "workflow": "daily-zeitgeist-brief",
+      "quality": {
+        "composite": 6.17,
+        "intent_alignment": 4.0,
+        "expert_standard": 7.25,
+        "adversarial_resilience": 7.25,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Retry after known intent_alignment mismatch; artifact satisfies automation prompt output shape | platform: codex | Verification: JSONL PASS, export PASS, grounding PASS, content_finish WARN, claim_risk WATCH, Drive disabled"
     }
   ],
-  "total_cases": 77,
-  "last_updated": "2026-07-06T10:27:18.811966"
+  "total_cases": 81,
+  "last_updated": "2026-07-09T06:38:34.985285"
 }

@@ -76,6 +76,25 @@ requested outcome, proof, and handoff:
 python3 execution/outcome_recipes.py "[raw context]" --json
 ```
 
+The classifier resolves to one of these outcome classes (source of truth:
+`execution/outcome_recipes.py` — this table mirrors it, never extends it):
+
+| Outcome class | Primary route |
+|---|---|
+| kishotenketsu-contrast-storytelling | `/kishotenketsu-contrast-storytelling` |
+| system-repair | `/system-audit` |
+| source-to-skill | `/source-to-skill-system` |
+| plugin-packaging | `/plugin-readiness-audit` |
+| revenue-sprint | `/first-10k` |
+| content-package | `/content-media-agent` |
+| research-synthesis | `/research-intelligence-agent` |
+| deep-research-os | `/deep-research-os` |
+| client-audit | `/client-delivery-agent` |
+| design-build | `/creative-design-agent` |
+| mission-continuation | `/mission` |
+| repeatability-repair | `/repeatability-spine` |
+| general-operator (fallback) | `/autopilot` |
+
 ## Friction Ledger And Run Receipt
 
 When routing, hook, retrieval, proof, or operator-friction issues appear, log
@@ -158,31 +177,33 @@ Plugin packaging remains deferred until local cold-start proof passes.
 Autopilot is gate-*suppressed*, not gate-free: every other mid-flight halt
 (routing ambiguity, format choice, model choice, minor scope calls) is
 suppressed by design — see Execution Sequence above for the default path. Only
-these three taste gates are allowed to interrupt, each wired to a real,
-runnable asset:
+these three taste gates are allowed to interrupt, and their conditions are
+code, not judgment. Run one check:
 
-- **G1 — Intent (score <= 2 -> sharpen).** DICE-score the raw intent per
-  CLAUDE.md Step 1 (Deliverable, Audience, Context/constraints, End state,
-  Specific language), or reuse the `/go` Stage 0 RUN PACKET if one was already
-  produced upstream. Score >= 3: write the assumptions and proceed — no halt.
-  Score <= 2: one question round on the missing dimensions only, then proceed.
-- **G2 — Cost (paid spend > $5 -> approve once).** Before any Fal, Seedance,
-  Kling, or deep-research call: `python3 execution/cost_gate.py check --service
-  <id>`. On Claude Code this is hook-enforced (HARD BLOCK on deny); on Codex it
-  is manual — run the check yourself. Needs-approval: ask Farrice once, then
-  `python3 execution/cost_gate.py approve --service <id>` and continue without
-  re-asking for the rest of this run.
-- **G3 — Prose/taste (Expert Standard >= 7 and prose FLAGGED -> one taste
-  call).** Before delivering a content artifact: `python3
-  execution/prose_classifier.py check <file>`. If it flags AND the Expert
-  Standard dimension is trending >= 7, surface exactly one taste call to
-  Farrice — reference the taste-calibration signature (bimodal: clear
-  PASS/FAIL, narrow marginal band; -1/dimension on a FAIL) rather than
-  re-litigating the whole draft. Any dimension scored 8+ must name the
-  matching anchor in `evolution_store/ground_truth/rubric_v1.md` — if the
-  anchor can't be named, lower the score instead of asking.
+```bash
+python3 execution/gates.py check --dice <1-5> [--est-cost <dollars>] \
+    [--services <csv>] [--deliverable <path>] [--expert-score <n>]
+```
 
-If none of G1/G2/G3 apply, Autopilot runs end-to-end and closes with the
+Exit 0 = no gate fires, run end-to-end. Exit 2 = at least one fires; the
+output names each firing gate with its reason and exact remediation command.
+A gate whose inputs weren't provided reports "not evaluated (missing --x)" —
+never a silent pass. DICE-score the raw intent per CLAUDE.md Step 1, or reuse
+the `/go` Stage 0 RUN PACKET score if one was already produced upstream.
+
+| Gate | Fires when | Remediation |
+|---|---|---|
+| **G1 — Intent** | DICE score <= 2 | One question round on the missing dimensions only, then proceed. Score >= 3: write the assumptions and proceed — no halt. |
+| **G2 — Cost** | est-cost > $5, OR any listed service returns needs-approval/denied from `cost_gate.py check` (on Claude Code the deny is hook-enforced HARD BLOCK; on Codex the check is manual) | Ask Farrice once; after an explicit yes: `python3 execution/cost_gate.py approve --service <id>`, then continue without re-asking this run. Denied: surface, do not retry. |
+| **G3 — Prose/taste** | Expert Standard trending >= 7 AND `prose_classifier.py check` FLAGGED on the deliverable | Surface exactly one taste call to Farrice — never re-litigate the whole draft. Companion factual gate when the deliverable carries real-world claims: `python3 execution/claim_audit.py check <path>`. |
+
+Calibration for the G3 taste call (unchanged, binding): reference the
+taste-calibration signature — bimodal: clear PASS/FAIL, narrow marginal band;
+-1/dimension on a FAIL. Any dimension scored 8+ must name the matching anchor
+in `evolution_store/ground_truth/rubric_v1.md` — if the anchor can't be named,
+lower the score instead of asking.
+
+If none of G1/G2/G3 fire, Autopilot runs end-to-end and closes with the
 Friction Ledger + Run Receipt — no other approval loop.
 
 ## Safety Boundaries
@@ -216,22 +237,26 @@ when the work changes control-plane behavior.
 
 ## Operator Core Closeout
 
-Every meaningful Autopilot run closes with persistent per-exchange steering, not
-just a run receipt. For substantial work — builds, repairs, audits, or any run
-with a real next decision — include **3 Next Prompts** under the Insightful
-Momentum standard, keeping the Use Now / Harden / Expand frame and making each
-option context-rich and capability-revealing.
+Every meaningful Autopilot run — builds, repairs, audits, or any run with a
+real next decision — closes by filling in this template verbatim (replace the
+`<placeholders>`; do not regenerate the ritual as free-form prose):
 
-Always end with an **Operator Lesson** that teaches the move behind the work, not
-just the result, plus:
+```
+### Next Prompts (Insightful Momentum)
+1. **Use Now:** <copy-paste prompt that acts on this run's output immediately>
+2. **Harden:** <copy-paste prompt that verifies or strengthens what was built>
+3. **Expand:** <copy-paste prompt that extends this toward a named goal>
 
-- **Next-time prompt:** the copy-paste continuation that gets a better result on
-  the next run.
-- **Subagent worth it?** — would isolated parallel agents have done this better or
-  faster, and is that worth invoking next time? Note that real Codex subagents
-  require explicit authorization and default to read-only diagnostics.
-- **Reuse hook:** the part of this run worth turning into a repeatable skill,
-  workflow, or saved prompt.
+### Operator Lesson
+<one lesson that teaches the move behind the work, not just the result>
 
+- **Next-time prompt:** <copy-paste continuation that gets a better result next run>
+- **Subagent worth it?** <yes/no + why — real Codex subagents require explicit
+  authorization and default to read-only diagnostics>
+- **Reuse hook:** <the part of this run worth turning into a repeatable skill,
+  workflow, or saved prompt>
+```
+
+Each Next Prompt must be context-rich and capability-revealing, not generic.
 Skip the full closeout only when Farrice explicitly asks for a terse answer or a
 special tool action requires silence.

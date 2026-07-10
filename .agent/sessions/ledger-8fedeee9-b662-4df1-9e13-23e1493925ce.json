@@ -24,16 +24,16 @@
  ],
  "produced": true,
  "produced_paths": [
-  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/josh/programs/Josh_FullBody_GLP1_v2.md",
-  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/katie/README.md",
-  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/josh/README.md",
   "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/katie/health/progesterone-support-2026-07-07.md",
   "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/josh/sessions/2026-07-07-talking-points.md",
   "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/josh/programs/Josh_Training_Master.md",
   "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/katie/programs/Katie_Training_Master.md",
   "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/00-shared/Nutrition_Master_Josh_Katie.md",
   "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/josh/programs/Josh_Complete_Program.md",
-  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/katie/programs/Katie_Complete_Program.md"
+  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/katie/programs/Katie_Complete_Program.md",
+  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/josh/programs/Josh_Trainerize_Paste.md",
+  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/katie/programs/Katie_Trainerize_Paste.md",
+  "/Users/farricecain/Google Antigravity/_active/josh-katie-fitness/katie/README.md"
  ],
  "subagent_spawns": 2,
  "finalized_at": "2026-07-02T10:18:32.320945",
@@ -47,5 +47,15 @@
  "session_pinned_at": null,
  "pin_nudged": true,
  "cos_nudged": true,
- "next_prompts_nudged": true
+ "next_prompts_nudged": true,
+ "pending_routing": {
+  "routing_id": "rt_20260708_022139_6cc2",
+  "suggested_dirs": [
+   "stefan-georgi-dopamine-copy",
+   "dan-wang-literary-analysis",
+   "how-i-write-os"
+  ],
+  "ts": "2026-07-07T19:21:39.090099"
+ },
+ "closeout_ran": true
 }

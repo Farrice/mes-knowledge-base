@@ -30,7 +30,7 @@ Regression signs:
 
 Evidence anchor:
 
-- `_active/josh-swing-nerd-shirts-v1/JOSH_SWING_NERD_SHIRT_LAUNCH_V1.md`
+- `_active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_SWING_NERD_SHIRT_LAUNCH_V1.md`
 
 Preservation lock:
 

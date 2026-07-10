@@ -26,7 +26,7 @@ The active offer docs were updated alongside this packet so the module is visibl
 
 ## What This Connects
 
-- `_active/health-performance-ip-library/CLIENT_ACQUISITION_OFFER.md` is the current health-performance offer source of truth.
+- `_active/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md` is the current health-performance offer source of truth.
 - `_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/unified-offer-brief.md` is the current 4-pillar public sales brief.
 - The Nate B. Jones skill family supplies the backend method spine for agent-readable intent, context, trust, quality, and handoff design.
 - Ethan Smith supplies AEO strategy: long-tail question ownership, information gain, and citation compulsion.
@@ -127,8 +127,8 @@ We build the trust layer underneath your content system: what claims can be made
 
 ## Source Paths
 
-- `_active/health-performance-ip-library/CLIENT_ACQUISITION_OFFER.md`
-- `_active/health-performance-ip-library/SERVICE_LADDER.md`
+- `_active/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md`
+- `_active/health-performance-ip-library/04-deliverables/SERVICE_LADDER.md`
 - `_active/health-performance-ip-library/daily/2026-06-23-health-performance-geo-brief.md`
 - `_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/unified-offer-brief.md`
 - `_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/unified-offer-brief-one-pager.md`

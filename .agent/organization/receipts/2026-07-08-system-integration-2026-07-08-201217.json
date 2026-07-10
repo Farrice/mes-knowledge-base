@@ -1,0 +1,60 @@
+{
+  "applied_at": "2026-07-09T03:12:17+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-integration/2026-05-21-best-practices-research-synthesis.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-integration/02-research/2026-05-21-best-practices-research-synthesis.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-integration/2026-05-22-autopilot-wave5-validation.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-integration/02-research/2026-05-22-autopilot-wave5-validation.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-integration/2026-05-22-calibration-replay-results.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-integration/06-system/2026-05-22-calibration-replay-results.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-integration/2026-05-22-hookify-audit.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-integration/06-system/2026-05-22-hookify-audit.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-integration/2026-05-24-autopilot-wave5-revalidation.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-integration/02-research/2026-05-24-autopilot-wave5-revalidation.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-integration/2026-05-28-autopilot-wave5-revalidation.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-integration/02-research/2026-05-28-autopilot-wave5-revalidation.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/system-integration/2026-05-21-best-practices-research-synthesis.md",
+    "/Users/farricecain/Google Antigravity/_active/system-integration/2026-05-22-autopilot-wave5-validation.md",
+    "/Users/farricecain/Google Antigravity/_active/system-integration/2026-05-22-calibration-replay-results.md",
+    "/Users/farricecain/Google Antigravity/_active/system-integration/2026-05-22-hookify-audit.md",
+    "/Users/farricecain/Google Antigravity/_active/system-integration/2026-05-24-autopilot-wave5-revalidation.md",
+    "/Users/farricecain/Google Antigravity/_active/system-integration/2026-05-28-autopilot-wave5-revalidation.md"
+  ],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/system-integration/2026-05-12-agentic-os-elevation-brief.md",
+      "reason": "referenced from control-plane file: directives/sub_agent_protocol.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/system-integration/2026-05-22-description-rewrite-followup.md",
+      "reason": "referenced from control-plane file: .agent/workflows/find-skill.md"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/_active/system-integration",
+  "project_slug": "system-integration",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-08.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/system-integration/02-research/2026-05-22-autopilot-wave5-validation.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/system-integration/02-research/2026-05-24-autopilot-wave5-revalidation.md": 2,
+    "/Users/farricecain/Google Antigravity/_active/system-integration/02-research/2026-05-28-autopilot-wave5-revalidation.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/system-integration/06-system/2026-05-22-hookify-audit.md": 1,
+    "/Users/farricecain/Google Antigravity/evolution_store/ground_truth/rubric_v1.md": 1
+  },
+  "skipped": [],
+  "version": 1
+}

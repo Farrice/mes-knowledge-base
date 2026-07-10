@@ -10,8 +10,8 @@ Use this folder as the working home for the Source-to-Search Trust Layer and GLP
 
 These files remain in their original operating locations:
 
-- `_active/health-performance-ip-library/CLIENT_ACQUISITION_OFFER.md`
-- `_active/health-performance-ip-library/SERVICE_LADDER.md`
+- `_active/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md`
+- `_active/health-performance-ip-library/04-deliverables/SERVICE_LADDER.md`
 - `_active/health-performance-ip-library/AUTOMATION_PROMPT.md`
 - `_active/health-performance-ip-library/README.md`
 - `_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/unified-offer-brief.md`

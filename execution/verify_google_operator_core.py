@@ -156,15 +156,16 @@ def check_hook_parity() -> list[str]:
                 if command:
                     commands.append(command)
 
-    if len(commands) != 6:
-        fail(f"Expected 6 hook commands, found {len(commands)}")
+    # 8 = 6 original + 2 orphan hooks wired in Wave 1 (commit 3790f3014).
+    if len(commands) != 8:
+        fail(f"Expected 8 hook commands, found {len(commands)}")
     if not all("codex_hook_runner.py" in command for command in commands):
         fail("Every Codex hook command must call codex_hook_runner.py")
     if not any("dangerous-git" in command for command in commands):
         fail("Codex hook bridge is missing dangerous-git protection")
     if any("CLAUDE_PROJECT_DIR" in command for command in commands):
         fail(".codex/hooks.json still directly depends on CLAUDE_PROJECT_DIR")
-    receipts.append("hooks.json uses codex_hook_runner.py for all 6 hooks, including dangerous-git")
+    receipts.append("hooks.json uses codex_hook_runner.py for all 8 hooks, including dangerous-git")
 
     config = CONFIG_PATH.read_text(encoding="utf-8") if CONFIG_PATH.exists() else ""
     missing_optional: list[str] = []

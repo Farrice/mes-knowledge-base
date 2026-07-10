@@ -25,7 +25,7 @@ Publicly admits when her taste was wrong. "I bet against this and I was proved w
 **Action**: Track your own rejected hypotheses that the data later vindicated. Use as priors-correction.
 
 ### 4. Format-then-Messaging Separation
-"Formats alone are not enough." Format = vehicle. Messaging = cargo. Both engineered, both tested, both graded.
+"Formats alone are not enough." Format = vehicle. Messaging = cargo. You engineer, test, and grade each axis on its own.
 **Action**: Lock format archetype as Axis 1. Run messaging axis as separate variable. Test the matrix, not flat variants.
 
 ### 5. Enemy-Choice as Primary Test Variable
@@ -226,3 +226,164 @@ Notes The Woobles distributing same script to multiple creator personas. Thinks 
 #### The 7-Beat Founder Script Spine
 **Execute**: (1) Personal intro — name + "I'm the CEO and founder of X" (tested winner, keep it); (2) the personal problem — the more concrete and visceral the specifics, the better; (3) the turning/breaking point — why the problem became intolerable, including what else was tried that failed; (4) introduce the product as the solution; (5) 2-3 key benefits/differentiators vs. other solutions; (6) proof points — testimonials, stats, customer counts; (7) soft CTA.
 **Success Metric**: A first-time founder can Mad-Lib this spine into a shootable script in one sitting; the problem beat contains at least one concrete sensory-specific detail, not a category complaint.
+
+---
+
+## Static Ads — Genius Patterns, Hidden Knowledge, and Quality Standards
+
+> Source: "How I Make AI Static Ads (in minutes)", Dara Denney, YouTube 5C5VhqW9HCc — watched (frames + transcript). Canonical exemplars: `references/static-ad-exemplars.md`.
+
+> The masterclass teaches a 3-layer system (Strategy → Design → Copy) and 7 static archetypes. Below: the hidden patterns, format-objection matching logic, and signature moves that separate 9/10 static ads from 5/10 ones.
+
+### 10 Genius Patterns (Static Ads)
+
+1. **1-Second Hierarchy is Non-Negotiable** — Order the eye, don't split it into fake percentages. Headline generally comes FIRST (it does the targeting), then the product/key visual, then supporting elements; the focal point sits on the messaging ~9 times out of 10. Her acid test: "if a stranger cannot tell what you are selling in one second, kill it." Clarity always beats creativity.
+
+2. **Specificity Numbers (Mechanic 1) are Conversion Leverage** — "12 weeks" beats "fast"; "$28/bottle" beats "premium"; "12-piece set" beats "complete." Numerals stop the scroll + provide proof via concreteness. Format: [Benefit] + [Specific Timeframe/Quantity/Price]. Avoid vague adjectives entirely.
+
+3. **Lo-Fi Production as Authenticity Moat** — Founder photos + customer before/afters + real environments outperform polished studio photography for awareness-stage audiences. The friction (grain, uneven lighting, real bodies) *signals* "not a fake promise." Flip this only for luxury/premium verticals where polish signals quality.
+
+4. **Objection-to-Format Matching is the Core Decision** — Pick format *first* by identifying the persona's primary objection (not your product's primary benefit). Solution-aware buyer comparing options? → Comparison Callout. Unaware buyer who doesn't know the problem exists? → Educational Infographic. The objection drives the format.
+
+5. **The Proof Mechanism Must Match Awareness Level** — Unaware audiences: Education (infographic, stat visualization). Problem-aware: Mechanism (how/why it works, problem breakdown). Solution-aware: Social proof (testimonial, transformation, before/after). Brand-aware: Feature/philosophy (what makes you different). Decision-stage: Price/guarantee (removing last friction).
+
+6. **Curiosity Loop (Mechanic 5) Scales on Education** — Headline opens the gap (Sweetgreen's "The Economics of $15 Salads"), the visualization closes it (Chartr-style bar chart + the operating-loss number). Show the setup, hide the payoff through the click, satisfy it on the landing page. Works for TOF category-education ads; fails for LOF product ads (viewers abandon if benefit isn't visible immediately). Use selectively.
+
+7. **Negative Marketing (Mechanic 6) Requires Fairness Framing** — ✗ marks only work if your ✓ marks are defensible. Trash-talk (red X, insulting language) triggers skepticism. Stick to factual trade-offs: "More expensive, but better durability" signals honest comparison. The format itself (grid, side-by-side) does persuasion; copy should be neutral.
+
+8. **Copy Mechanic Stacking is Rare** — Most winning static ads use 1-2 mechanics (Specificity + Primal Desire, or Curiosity + Taboo). 3+ mechanics = cognitive overload. Stack mechanics only if they share the same proof mechanism (e.g., Specificity + Number both rely on visuals + text).
+
+9. **Brand Brain is the Underrated Speedup** — 1-page doc (brand promise, visual style, production rules, exemplar references) unlocks 10x faster AI generator prompts and iteration cycles. Without it, every prompt requires context-heavy scaffolding. Create it *before* format selection.
+
+10. **Format Adaptation (Static ↔ Video) Reuses Research** — Message architecture (objection, proof mechanism, awareness level) is format-agnostic. Only production vessel changes. Extract message → swap format (headline+hierarchy → hook+sequence) → reuse research. This is the highest-leverage stacking move.
+
+### 9 Hidden Knowledge Insights
+
+1. **The 1-Second Test is the Only Honest Compression Metric** — "If a stranger cannot tell what you are selling in one second, kill it." This glance test beats CTR, CPC, or impressions for early-stage concept validation. Test on strangers (not your ICP, not your team); if they can't name what's sold and the benefit at a glance, it's a hierarchy break — redo before production.
+
+2. **Lo-Fi Authenticity Moat Has a Shelf Life** — Works for 6-12 months, then audiences expect polish (brand maturity signal). Plan production-level upgrade before saturation (founder photos → graphic-style → hi-fi as brand grows). Track: when do competing brands pivot?
+
+3. **Comparison Grids Only Sell if Advantages Hurt** — If viewers don't think "wow, I didn't know they had that," the grid underperforms. Advantages must address genuine objections the persona actually has (not ones you infer). Validate via ICP interviews before locking grid rows.
+
+4. **Testimonial Extraction (Golden Nugget) Requires Curation** — Her actual move: run a CSV of customer reviews through your LLM and hunt for "golden nugget testimonials." Most of what comes back is generic praise ("Great product!"); the value is the handful of visceral, specific lines (sensory details, concrete outcomes, emotional beats) you curate out and can slide into a headline. Invest time in the scan.
+
+5. **Awareness Level ≠ Audience Familiarity** — A repeat customer can still be "solution-aware" (comparing upgrade options, not aware of your differentiation). Don't assume brand-aware just because they know you. Ask: "What are they doubting right now?" That's the awareness level that matters.
+
+6. **Visual Hierarchy on Mobile is Stricter Than Desktop** — The headline-first order that reads fine at 1.91:1 (Meta feed) can collapse on mobile square (1:1) or vertical (9:16), where the headline has to dominate or it disappears. Test layouts at platform dimensions *before* final production, and re-run the 1-second comprehension test at each dimension.
+
+7. **Specificity Without Social Proof Triggers Skepticism** — "Lose 12 lbs in 12 weeks" needs customer photos or stat (95% of participants saw results). Standalone specificity without proof reads as unsupported claim. Never separate specificity from proof mechanism.
+
+8. **Copywriting for Static Requires Omission, Not Addition** — Fewer words win. Every word must do work (move objection, add proof, or reinforce benefit). Test: can you remove a word and still understand the benefit? If yes, delete it. Static ads that feel "dense with meaning" beat ones that feel "full of words."
+
+9. **Format Archetypes Aren't Locked — Hybrid Formats Scale** — Educational Infographic + Testimonial (stat + customer quote in single visual) outperforms pure infographic. Transformation + Comparison (before/after grid showing multiple results) outperforms pure transformation. Combine archetypes only if proof mechanism remains singular (don't mix objection types).
+
+### 7 Format Archetypes Table
+
+| Format | Primary Use | Awareness Level | Proof Mechanism | Example (real, on-screen) |
+|---|---|---|---|---|
+| **Educational infographic** | Category-level insight, masquerades as organic | Unaware to Problem-aware | Visualization, stat, revelation | Sweetgreen "The Economics of $15 Salads" (Chartr-style bar chart) |
+| **Headliner ad** | Single sexy message as the focal point; product legible and second (NOT a full-bleed lifestyle shot with the headline on a scrim — that's a mood board, not a Headliner) | Brand-aware to Decision | Message credibility, one big headline | Happy Tuesdays "The cheat code to your big weekend." (sachet small under headline); Wandering Bear "SO GOOD IT SHOULD BE BAD FOR YOU" (can under headline); TIME "…the closest we've gotten to a fountain of youth" |
+| **Benefits callout** | Lead with the core desire, not a generic feature | Problem-aware to Solution-aware | Headline benefit; can carry a golden-nugget testimonial | Callout headline testing core-desire vs generic; testimonial-as-headline variant |
+| **Comparison / us-vs-them** | Make advantages legible in one glance | Solution-aware | Side-by-side ✓/✗ grid, negative marketing | "GRO Shampoo & Conditioner" vs "Other Hair Growth Products" (green ✓ vs red ✗) |
+| **Transformation** | Show the after state, don't just describe it | Solution-aware to Decision | Before/after visual proof + creator | "My secret for getting rid of dandruff" before/after (2 uses), lo-fi creator with two bottles |
+| **Grid static** | Range + value density, sales periods, multi-SKU | Brand-aware to Decision | Grid of product tiles, price anchor | "MEET THE Cook & Bake Set" struck-through $1,090 → $632, "STORAGE INCLUDED", ~9 tiles |
+| **Text-only ad** | Founder's letter, borrows an organic format | Brand-aware to Solution-aware | Long-form founder voice, reads like a post | totallee "iPhone Cases Are Weird." |
+
+### Format → Awareness Matching Logic
+
+- **Unaware** → Educational infographic (teach the problem, not the solution — Sweetgreen)
+- **Problem-Aware** → Educational infographic or Benefits callout (show why your product solves it)
+- **Solution-Aware** → Comparison / us-vs-them, Transformation, or Text-only founder's letter (prove superiority or credibility — GRO, dandruff before/after)
+- **Brand-Aware** → Headliner or Grid static (reinforce the message, show range/value — Happy Tuesdays, Cook & Bake)
+- **Decision-Stage** → Transformation, Headliner with authority quote, or Grid static (remove last objection via proof/price — dandruff proof, TIME quote, Cook & Bake price anchor)
+
+### 8 Copy Mechanics with Priority Ranking
+
+**By Objection Type** (what buyer is doubting):
+
+| Objection | Primary Mechanic | Secondary Mechanic | Tertiary |
+|---|---|---|---|
+| "Does it work?" | Show-Don't-Tell (8) | Specificity + Number (1) | Testimonial Mining (7) |
+| "Why yours vs. theirs?" | Negative Marketing (6) | Specificity + Number (1) | Curiosity Loop (5) |
+| "I'm not the right person for it" | Call Out the Audience / Self-Selection (2) | Primal Desire (4) | Borrow from Customers (7) |
+| "I didn't know this was a problem" | Curiosity Loop (5) | Taboo Leverage (3) | Education (n/a) |
+| "It's too expensive" | Taboo Leverage (3) | Specificity + Number (1) | Primal Desire (4) |
+| "I want it but I'm scared" | Primal Desire (4) | Testimonial Mining (7) | Show-Don't-Tell (8) |
+
+### Deep Dive: 3-Layer Static System
+
+**Layer 1 — Strategy** (awareness level, persona objection, proof mechanism):
+- Determines which format is viable
+- Determines which copy mechanic will work
+- Determines production level efficiency (lo-fi saves time if authenticity is the moat; hi-fi wastes budget if the audience doesn't care about polish)
+
+**Layer 2 — Design** (visual hierarchy, 1-second test):
+- Order, not percentages: headline first (does the targeting) → product/key visual → supporting elements; focal point on the messaging ~9/10 times
+- Headline is not a tagline — it's the benefit statement answering the objection
+- Proof must be visible at glance; don't hide it below the fold
+- Acid test: a stranger names what's sold in one second, or you kill it — clarity beats creativity
+
+**Layer 3 — Copy** (mechanic selection, value stacking):
+- Mechanic choice flows from Layer 1 objection identification
+- Value stack: Headline (hook) → Key visual (reinforces benefit) → Proof element (closes doubt)
+- No copy should be decorative; every line moves one of these three levers
+
+**Stacking Sequence**:
+1. Identify objection (Layer 1) → Pick format
+2. Pick format → Confirm Layer 2 visual hierarchy rules
+3. Pick mechanic based on objection (Layer 1) → Write headline (Layer 3)
+4. Headline + objection → Confirm proof mechanism works (Layer 1)
+5. Produce design (Layer 2) + refine copy (Layer 3) in parallel
+6. Test 1-second comprehension (Layer 2 acid test)
+
+### 3 Production Levels (Tools, Timeline, Quality Trade-offs)
+
+| Level | Tools | Output Quality | Timeline | Best For | Cost | When NOT to Use |
+|---|---|---|---|---|---|---|
+| **Lo-Fi Creator** | iPhone, natural light, founder/customer | Authentic, grainy-acceptable, real environments | 30 min shoot + 1 hr edit | Early-stage, founder story, transformation proof, authenticity-first verticals (fitness, wellness, DTC) | ~$500–2K (freelance editor) | Luxury, B2B, tech (polish signals credibility there) |
+| **Graphic-Style** | Canva, Figma, Higgsfield AI, fantastic-posters | Clean, minimal, high-contrast, data-focused | 45 min prompt + 15 min edit | Educational, infographics, comparison grids, feature showcases, product layouts | ~$200–1K (AI generator credits) | Founder stories, transformation proof (lo-fi beats polish for authenticity) |
+| **Hi-Fi Professional** | Professional photographer, studio lighting, 3D/VFX, video frame | Polished, magazine-grade, museum lighting | 2–5 day shoot + 3–7 day edit | Premium positioning, luxury goods, B2B, enterprise, architecture/real estate | ~$5K–25K+ (photographer + editor) | Early-stage testing (burn rate too high for iteration), unproven category |
+
+**Production level selection rule**: Match audience *expectation* for your category, not aspirational polish. Fitness audience expects lo-fi (real bodies, real sweat). Luxury audience expects hi-fi (craftsmanship visible). SaaS audience expects graphic-style (clarity, data focus).
+
+### Signature Moves (5 Key Tactics Specific to Static)
+
+1. **The Objection-First Headline** — Write the objection statement first, then reframe as benefit. Objection: "Premium coffee is pretentious." Reframe: "SO GOOD IT SHOULD BE BAD FOR YOU" (permission granted). This move flips skepticism into desire.
+
+2. **The Number-as-Anchor** — Open headline with specificity + number if testing awareness-to-solution-aware audience. "12 weeks," "$28," "12-piece set" all serve as credibility anchors. Numbers stop the scroll; words don't.
+
+3. **The Proof Placement Rule** — If the proof element (testimonial, stat, before/after) appears below the fold, it doesn't exist. Keep it *visible at 1-second glance* inside the same frame as the headline. Production rule: design layout with proof visible first; write copy to match.
+
+4. **The White-Space Trap** — Avoid using white space as a design choice if it reduces visual hierarchy clarity. White space works in luxury ads where minimalism = premium. Fails for DTC/performance ads where clarity = conversion. Test: Does proof element disappear on mobile? Fix it.
+
+5. **The Format Hybrid Rule** — If your winning static format is "Comparison Grid," test a variation that *layers* testimonial quotes alongside grid rows. The combination (data + human voice) often outperforms either alone. Signature move: compare + quote.
+
+### Quality Rubric (Self-Audit Before Production)
+
+| Criterion | Acceptable (6) | Good (8) | Savant (10) |
+|---|---|---|---|
+| **1-Second Comprehension** | A tester names the *scene/vibe* but not the product | Testers reliably name the PRODUCT CATEGORY (not just the mood) + the benefit at a glance | Every tester names product + benefit + the objection being solved, instantly, no effort |
+| **Proof Mechanism Clarity** | Proof element present but somewhat unclear (testimonial vague, stat generic) | Proof element clear and specific (customer name + outcome, stat has context) | Proof element feels inevitable to the objection (you see objection → proof answers it perfectly) |
+| **Visual Hierarchy Adherence** | Headline readable, key visual present, layout functional | Headline leads and does the targeting; **the product is a legible focal element** (not buried in a lifestyle shot); supporting elements last; readable on mobile | Hierarchy so clear the eye path is automatic; viewer scans headline → product → support in exact intended order without effort |
+| **Copy-Mechanic Alignment** | Mechanic used, but language is generic | Mechanic used correctly; language is specific to objection type | Mechanic and language are inseparable; removing either breaks the ad's entire logic |
+
+### Hard Vetoes — Auto Send-Back (Dara's stated rejects; a workflow that ships any of these has FAILED its Quality Gate)
+
+These are not scored — they are pass/fail gates. If any is true, the ad goes back before it ships, no matter the composite score:
+
+1. **Em dash anywhere in the copy** → send back. She removed one on camera ("I don't like this M dash"). Rewrite the line without it. (En dashes in price ranges are fine.)
+2. **The product isn't nameable at a glance** → send back. If a stranger names the *scene, event, or feeling* but not the product category, the product is buried — her single most-repeated kill condition ("too much going on… what's being sold?"). A full-bleed lifestyle/crowd shot with the product incidental is NOT a Headliner; it's a mood board. The message OR the product must be the focal point.
+3. **The headline generalizes away the persona's own specific detail** → send back. If Layer 1 surfaced "found her people in a warehouse at 2am" and the headline says "on a dancefloor," you threw away the gold. Specificity (Mechanic 1) is the point; pull the concrete detail back in.
+4. **Headline and CTA carry two competing concepts** → send back. One focal idea. If the headline sells belonging and the CTA sells navigation ("find your genre"), they fight for the one focal point.
+5. **"Clean and safe" when the brand/audience rewards visceral** → flag and push. Her explicit note: "lean into the visceral… they're playing it very clean and very safe." Greeting-card sentiment is a tell. For high-arousal categories (rave, personal-care embarrassment, indulgence), go visceral or taboo.
+6. **Self-congratulatory scoring** → she critiques, she doesn't grade her own work up. A lifestyle shot with buried product is not an 8 on 1-second comprehension. Score against the stranger's actual glance, not your intent.
+
+### Voice & Style Guidance
+
+- **No generic qualifiers**: Avoid "amazing," "incredible," "best-in-class." Replace with specific outcomes ("Results in 4 weeks" beats "Fast results").
+- **No passive voice in headlines**: "This changes lives" beats "Your life will be changed" — short, active, benefit-forward.
+- **No questions in headlines** (with rare exception): Question headlines lower click rates unless they create irresistible curiosity. A curiosity-loop statement like Sweetgreen's "The Economics of $15 Salads" works; "Want to lose weight?" doesn't.
+- **Decimal specificity signals credibility**: "$28" beats "$25–30"; "4-week transformation" beats "fast results"; "95% see results by week 4" beats "most customers see results."
+- **Sensory specificity in testimonials**: "I didn't feel deprived—I was eating actual food" beats "The diet was easy to follow." Details make proof credible.
+
+---

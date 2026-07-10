@@ -24,8 +24,8 @@ Usage:
     python3 execution/end_session_closeout.py run [--slug S] [--degraded] [--dry-run]
 
 Steps (in order): resolve-handoff, closeout-intelligence, memory-bridge,
-cos-journal, archive-session-state, friction-nudge, finalize-debt-nudge,
-solution-cards.
+cos-journal, archive-session-state, artifact-sweep, friction-nudge,
+finalize-debt-nudge, solution-cards.
 """
 from __future__ import annotations
 
@@ -452,6 +452,31 @@ def step_solution_cards(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> T
         return "FAIL", f"{type(e).__name__}: {e}"
 
 
+def step_artifact_sweep(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
+    """File unambiguous recent loose project-root artifacts into canonical
+    subfolders (only-populated policy). Degraded-safe: project_filer sweep
+    never throws and always exits 0, so a failure here never breaks closeout."""
+    filer = EXEC / "project_filer.py"
+    if not filer.exists():
+        return "SKIP", "project_filer.py not present"
+    if dry_run:
+        return "OK", "[dry-run] would run project_filer.py sweep"
+    try:
+        r = subprocess.run(
+            [sys.executable, str(filer), "sweep"],
+            capture_output=True, text=True, timeout=60, cwd=str(ROOT),
+        )
+        out_lines = [ln for ln in (r.stdout or "").splitlines() if ln.strip()]
+        last = out_lines[-1] if out_lines else "(no output)"
+        if r.returncode != 0:
+            return "FAIL", f"exit {r.returncode} — {last[:200]}"
+        return "OK", last[:200]
+    except subprocess.TimeoutExpired:
+        return "FAIL", "timed out after 60s"
+    except Exception as e:
+        return "FAIL", f"{type(e).__name__}: {e}"
+
+
 # ─────────────────────────────────────────────────────────────
 # spine runner
 # ─────────────────────────────────────────────────────────────
@@ -464,6 +489,7 @@ def run(slug: str, degraded: bool, dry_run: bool) -> int:
         ("memory-bridge", lambda: step_memory_bridge(ctx, degraded, dry_run)),
         ("cos-journal", lambda: step_cos_journal(ctx, degraded, dry_run)),
         ("archive-session-state", lambda: step_archive_session_state(ctx, degraded, dry_run, slug)),
+        ("artifact-sweep", lambda: step_artifact_sweep(ctx, degraded, dry_run)),
         ("friction-nudge", lambda: step_friction_nudge(ctx, degraded, dry_run)),
         ("finalize-debt-nudge", lambda: step_finalize_debt_nudge(ctx, degraded, dry_run)),
         ("solution-cards", lambda: step_solution_cards(ctx, degraded, dry_run)),

@@ -101,8 +101,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-07-07 (chain_runner finalize for _active/farrice-brand) |
-| **Activation Count** | 568 |
-| **30-Day Review Date** | 2026-08-06 |
+| **Last Activated** | 2026-07-09 (chain_runner finalize for system-audit) |
+| **Activation Count** | 589 |
+| **30-Day Review Date** | 2026-08-08 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

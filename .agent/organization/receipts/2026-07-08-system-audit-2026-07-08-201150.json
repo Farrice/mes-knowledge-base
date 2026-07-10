@@ -1,0 +1,97 @@
+{
+  "applied_at": "2026-07-09T03:11:50+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-audit/READINESS-FINAL-2026-05-05.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-audit/06-system/READINESS-FINAL-2026-05-05.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-audit/audit-2026-05-03.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-audit/06-system/audit-2026-05-03.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-audit/audit-2026-05-05.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-audit/06-system/audit-2026-05-05.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-audit/broken-workflow-resolution-2026-05-05.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-audit/06-system/broken-workflow-resolution-2026-05-05.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-audit/dependency-report-2026-05-05.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-audit/06-system/dependency-report-2026-05-05.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-audit/dependency_validator.py",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-audit/06-system/dependency_validator.py"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-audit/dependency_validator_full.py",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-audit/06-system/dependency_validator_full.py"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-audit/fantastic-posters-30day-proposed-limits.json",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-audit/03-working-drafts/fantastic-posters-30day-proposed-limits.json"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-audit/fantastic-posters-30day-review-2026-05-30.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-audit/02-research/fantastic-posters-30day-review-2026-05-30.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-audit/full-dependency-report-2026-05-05.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-audit/06-system/full-dependency-report-2026-05-05.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-audit/inventory_pass.py",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-audit/06-system/inventory_pass.py"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-audit/phase6-continuous-quality-setup.sh",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-audit/06-system/phase6-continuous-quality-setup.sh"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-audit/routing-2026-05-05.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-audit/06-system/routing-2026-05-05.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/system-audit/workflow-coverage-2026-05-05.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/system-audit/06-system/workflow-coverage-2026-05-05.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/system-audit/READINESS-FINAL-2026-05-05.md",
+    "/Users/farricecain/Google Antigravity/_active/system-audit/audit-2026-05-03.md",
+    "/Users/farricecain/Google Antigravity/_active/system-audit/audit-2026-05-05.md",
+    "/Users/farricecain/Google Antigravity/_active/system-audit/broken-workflow-resolution-2026-05-05.md",
+    "/Users/farricecain/Google Antigravity/_active/system-audit/dependency-report-2026-05-05.md",
+    "/Users/farricecain/Google Antigravity/_active/system-audit/dependency_validator.py",
+    "/Users/farricecain/Google Antigravity/_active/system-audit/dependency_validator_full.py",
+    "/Users/farricecain/Google Antigravity/_active/system-audit/fantastic-posters-30day-proposed-limits.json",
+    "/Users/farricecain/Google Antigravity/_active/system-audit/fantastic-posters-30day-review-2026-05-30.md",
+    "/Users/farricecain/Google Antigravity/_active/system-audit/full-dependency-report-2026-05-05.md",
+    "/Users/farricecain/Google Antigravity/_active/system-audit/inventory_pass.py",
+    "/Users/farricecain/Google Antigravity/_active/system-audit/phase6-continuous-quality-setup.sh",
+    "/Users/farricecain/Google Antigravity/_active/system-audit/routing-2026-05-05.md",
+    "/Users/farricecain/Google Antigravity/_active/system-audit/workflow-coverage-2026-05-05.md"
+  ],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/system-audit/audit-2026-04-24.md",
+      "reason": "referenced from control-plane file: CLAUDE.md"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/_active/system-audit",
+  "project_slug": "system-audit",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-08.sh",
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_audit-stage2-trigger.md": 2,
+    "/Users/farricecain/Google Antigravity/_active/system-audit/02-research/fantastic-posters-30day-review-2026-05-30.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/system-audit/06-system/READINESS-FINAL-2026-05-05.md": 10,
+    "/Users/farricecain/Google Antigravity/_active/system-audit/06-system/dependency_validator.py": 2,
+    "/Users/farricecain/Google Antigravity/_active/system-audit/06-system/dependency_validator_full.py": 2,
+    "/Users/farricecain/Google Antigravity/_active/system-audit/06-system/inventory_pass.py": 2
+  },
+  "skipped": [],
+  "version": 1
+}

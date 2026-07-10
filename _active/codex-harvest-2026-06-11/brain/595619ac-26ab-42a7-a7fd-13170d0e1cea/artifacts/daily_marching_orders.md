@@ -9,7 +9,7 @@
 | Asset | Location | Status |
 |---|---|---|
 | LinkedIn profile copy | [profile_buildouts_and_positioning.md](file:///Users/farricecain/.gemini/antigravity/brain/fef0d5ae-6841-4b6c-aba1-39a22658e824/artifacts/profile_buildouts_and_positioning.md) | ✅ Copy-paste ready |
-| 3 launch posts (voice-passed) | [launch-posts.md](file:///Users/farricecain/Google%20Antigravity/_active/content-system-audit/launch-posts.md) | ✅ Ship-ready |
+| 3 launch posts (voice-passed) | [launch-posts.md](file:///Users/farricecain/Google%20Antigravity/_active/content-system-audit/04-deliverables/launch-posts.md) | ✅ Ship-ready |
 | 10 LinkedIn posts (4 buckets) | [jcc_full_deploy_launch_engine.md](file:///Users/farricecain/.gemini/antigravity/brain/fef0d5ae-6841-4b6c-aba1-39a22658e824/artifacts/jcc_full_deploy_launch_engine.md) § Workstream 4 | ✅ Drafted |
 | DM templates (warm/cold/follow-up) | Same file, § Workstream 3 | ✅ Ready |
 | Comment archetypes | Same file, § Workstream 5 | ✅ Ready |
@@ -250,7 +250,7 @@
 ### Morning Block (90 min)
 
 - [ ] **Publish LinkedIn Post #1**
-  - Ship **Post 3 ("The Receipt")** from [launch-posts.md](file:///Users/farricecain/Google%20Antigravity/_active/content-system-audit/launch-posts.md)
+  - Ship **Post 3 ("The Receipt")** from [launch-posts.md](file:///Users/farricecain/Google%20Antigravity/_active/content-system-audit/04-deliverables/launch-posts.md)
   - Pre-publish checklist: read aloud, verify numbers ($249, 45 min), check char count (< 1,300 before "see more")
   - **Stay online 30 minutes after posting** (Acosta Post & Ghost rule)
   - Respond to every comment within 30 min
@@ -299,7 +299,7 @@
 ### Morning Block (90 min)
 
 - [ ] **Publish LinkedIn Post #2**
-  - Ship **Post 1 ("The Enemy")** from [launch-posts.md](file:///Users/farricecain/Google%20Antigravity/_active/content-system-audit/launch-posts.md)
+  - Ship **Post 1 ("The Enemy")** from [launch-posts.md](file:///Users/farricecain/Google%20Antigravity/_active/content-system-audit/04-deliverables/launch-posts.md)
   - Stay 30 min after posting
 
 ### Afternoon Block (90 min)
@@ -335,7 +335,7 @@
 ### Morning Block (90 min)
 
 - [ ] **Publish LinkedIn Post #3**
-  - Ship **Post 2 ("The Myth")** from [launch-posts.md](file:///Users/farricecain/Google%20Antigravity/_active/content-system-audit/launch-posts.md)
+  - Ship **Post 2 ("The Myth")** from [launch-posts.md](file:///Users/farricecain/Google%20Antigravity/_active/content-system-audit/04-deliverables/launch-posts.md)
   - Stay 30 min
 
 ### Afternoon Block (90 min)
@@ -422,7 +422,7 @@ Adjustment for next week:
 | Need | File |
 |---|---|
 | Profile copy (headline, about, experience) | [profile_buildouts_and_positioning.md](file:///Users/farricecain/.gemini/antigravity/brain/fef0d5ae-6841-4b6c-aba1-39a22658e824/artifacts/profile_buildouts_and_positioning.md) |
-| Launch posts (3, voice-passed) | [launch-posts.md](file:///Users/farricecain/Google%20Antigravity/_active/content-system-audit/launch-posts.md) |
+| Launch posts (3, voice-passed) | [launch-posts.md](file:///Users/farricecain/Google%20Antigravity/_active/content-system-audit/04-deliverables/launch-posts.md) |
 | 10 additional LinkedIn posts | [jcc_full_deploy § Workstream 4](file:///Users/farricecain/.gemini/antigravity/brain/fef0d5ae-6841-4b6c-aba1-39a22658e824/artifacts/jcc_full_deploy_launch_engine.md) |
 | DM templates (3 variants) | [jcc_full_deploy § Workstream 3](file:///Users/farricecain/.gemini/antigravity/brain/fef0d5ae-6841-4b6c-aba1-39a22658e824/artifacts/jcc_full_deploy_launch_engine.md) |
 | Comment archetypes (4 types) | [jcc_full_deploy § Workstream 5](file:///Users/farricecain/.gemini/antigravity/brain/fef0d5ae-6841-4b6c-aba1-39a22658e824/artifacts/jcc_full_deploy_launch_engine.md) |

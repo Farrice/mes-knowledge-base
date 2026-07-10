@@ -34,7 +34,7 @@ pin: true
 - `git push origin main` **from Farrice's terminal** is the one pending sync step (the block-dangerous-git hook stops agents from pushing — by design, don't route around).
 - Content OS: 14 exemplar posts deslopped + sameness-verified; canonical text = `04-content-os/starter-content-batch.md`.
 - Offer: `02-offer/CANONICAL-OFFER-BRIEF.md` (enhanced + red-teamed + zero-load §5) · one-pager rewritten as story (`02-offer/OFFER-ONE-PAGER.md`) · lead magnet de-lectured.
-- Hub reorg done: domain folders `00-start-here … 99-archive` mirror the Control Tower; front door = `_active/linkedin-launch/00-CONTROL-TOWER.md`.
+- Hub reorg done: domain folders `00-start-here … 99-archive` mirror the Control Tower; front door = `_active/linkedin-launch/04-deliverables/00-CONTROL-TOWER.md`.
 
 ## Open items (small, tracked)
 

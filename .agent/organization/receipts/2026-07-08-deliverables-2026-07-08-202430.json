@@ -1,0 +1,111 @@
+{
+  "applied_at": "2026-07-09T03:24:30+00:00",
+  "moves": [],
+  "old_paths": [],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/crafted_carousel",
+      "reason": "referenced from control-plane: execution/gen_handcrafted_carousel.py (default --out-dir deliverables/crafted_carousel) and .agent/workflows/generate-handcrafted-carousel.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/carousel_scripts",
+      "reason": "referenced from control-plane: .agent/workflows/generate-handcrafted-carousel.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/prediction-market-business-briefing.md",
+      "reason": "referenced from control-plane: .agent/workflows/reground-money-briefings.workflow.js (hardcoded path)"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/prediction-market-partner-briefing.md",
+      "reason": "referenced from control-plane: .agent/workflows/reground-money-briefings.workflow.js (hardcoded path)"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/prediction-market-proposal-package.md",
+      "reason": "referenced from control-plane: .agent/workflows/reground-money-briefings.workflow.js (hardcoded path)"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/deliverables",
+  "project_slug": "deliverables",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-08.sh",
+  "rewrites": {},
+  "skipped": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/Human_Values_Collective_Delivery",
+      "reason": "source missing"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/Josh_Banday_Pitch_Bible",
+      "reason": "source missing"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/Kens_Fasting_Package",
+      "reason": "source missing"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/carousel_images",
+      "reason": "source missing"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/21212-ingomar-ct-listing-content.md",
+      "reason": "source missing"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/21212-ingomar-ct-listing-content.pdf",
+      "reason": "source missing"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/Josh_Banday_Fellowship_Context_Master.md",
+      "reason": "source missing"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/Josh_Banday_Three_Show_Concepts.md",
+      "reason": "source missing"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/dsc-automation-audit.md",
+      "reason": "source missing"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/dsc-recruiting-playbook.md",
+      "reason": "source missing"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/dwa-edgecase-3-campaign.md",
+      "reason": "source missing"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/dwa-edgecase-3-campaign-v2.md",
+      "reason": "source missing"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/dwa-edgecase-3-campaign-v3-voice.md",
+      "reason": "source missing"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/dwa-edgecase-3-campaign-v3-voice.metadata.json",
+      "reason": "source missing"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/dwa-ready-or-not-campaign-v4-conversion.md",
+      "reason": "source missing"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/dwa-ready-or-not-campaign-v4-conversion.metadata.json",
+      "reason": "source missing"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/comeback-blueprint-product.md",
+      "reason": "source missing"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/comeback-blueprint-store-copy.md",
+      "reason": "source missing"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/deliverables/coach-cooz-deep-dive-march-2026.md",
+      "reason": "source missing"
+    }
+  ],
+  "version": 1
+}

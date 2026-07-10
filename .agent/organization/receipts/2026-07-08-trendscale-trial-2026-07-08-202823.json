@@ -1,0 +1,42 @@
+{
+  "applied_at": "2026-07-09T03:28:23+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/trendscale-trial/FACT-CHECK.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/trendscale-trial/02-research/FACT-CHECK.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/trendscale-trial/GENSPARK-BUILD.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/trendscale-trial/02-research/GENSPARK-BUILD.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/trendscale-trial/REFINEMENT-LEDGER.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/trendscale-trial/02-research/REFINEMENT-LEDGER.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/trendscale-trial/SEND-CHECKLIST.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/trendscale-trial/02-research/SEND-CHECKLIST.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/trendscale-trial/render.sh",
+      "to": "/Users/farricecain/Google Antigravity/projects/trendscale-trial/02-research/render.sh"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/projects/trendscale-trial/FACT-CHECK.md",
+    "/Users/farricecain/Google Antigravity/projects/trendscale-trial/GENSPARK-BUILD.md",
+    "/Users/farricecain/Google Antigravity/projects/trendscale-trial/REFINEMENT-LEDGER.md",
+    "/Users/farricecain/Google Antigravity/projects/trendscale-trial/SEND-CHECKLIST.md",
+    "/Users/farricecain/Google Antigravity/projects/trendscale-trial/render.sh"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/projects/trendscale-trial",
+  "project_slug": "trendscale-trial",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-08.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/projects/trendscale-trial/02-research/SEND-CHECKLIST.md": 5
+  },
+  "skipped": [],
+  "version": 1
+}

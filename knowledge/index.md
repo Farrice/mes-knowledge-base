@@ -1,9 +1,9 @@
 # Knowledge Index
-*529 sources | 2,403,103 words | Updated: 2026-07-07*
+*530 sources | 2,404,484 words | Updated: 2026-07-09*
 
 ---
 
-## Content (176 files)
+## Content (177 files)
 
 - [video-context-ledger](../extractions/video-context/3iR3kHxCwfo/video-context-ledger.md) — 75,408 words
 - [Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them](extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md) — 60,850 words (stale)
@@ -19,17 +19,17 @@
 - [extraction-report](../extractions/ocean-vuong/extraction-report.md) — 4,861 words
 - [mes-extraction](../extractions/wargame-source/mes-extraction.md) — 4,604 words
 - [visual-context](../extractions/brad-bonanno/visual-context.md) — 4,497 words
-- [extraction-report](../extractions/dr-k/extraction-report.md) — 4,451 words
+- [extraction-report](../extractions/dr-k/extraction-report.md) — 4,451 words (stale)
 - [mastery-extraction](../extractions/meg-heckman/mastery-extraction.md) — 4,112 words
 - [2026-04-24-substack-2026-growth-tactics-gemini](../research_outputs/2026-04-24-substack-2026-growth-tactics-gemini.md) — 3,820 words
-- [index](index.md) — 3,777 words
+- [index](index.md) — 3,782 words
 - [mastery-extraction-teach-to-sell](../extractions/omar-eltakrori/teach-grow-rich/mastery-extraction-teach-to-sell.md) — 3,774 words
 - [extraction-report](../extractions/brad-bonanno/extraction-report.md) — 3,760 words
 - [DESIGN](design-libraries/brands/ferrari/DESIGN.md) — 3,753 words
 - [extraction-report](../extractions/marc-andreessen/extraction-report.md) — 3,749 words (stale)
 - [visual-context](../extractions/meg-heckman/video-context-mV-DQElnWGk/visual-context.md) — 3,694 words
 - [extraction-report](../extractions/grace-andrews/extraction-report.md) [grace-beverley] — 3,663 words (stale)
-- [substack-brandjack-trends-april-2026](../research_outputs/substack-brandjack-trends-april-2026.md) — 3,555 words
+- [substack-brandjack-trends-april-2026](../research_outputs/substack-brandjack-trends-april-2026.md) — 3,555 words (stale)
 - [2026-07-07-claim-safe-content-landscape](../research_outputs/2026-07-07-claim-safe-content-landscape.md) — 3,450 words
 - [extraction-report](../extractions/oren/extraction-report.md) [oren-john] — 3,351 words (stale)
 - [DESIGN](design-libraries/brands/linear-app/DESIGN.md) — 3,342 words
@@ -129,6 +129,7 @@
 - [02-ooda-loop-media-warfare](../extractions/marc-andreessen-ben-horowitz/prompts/02-ooda-loop-media-warfare.md) — 881 words (stale)
 - [tension-relief-architecture](synthesis/tension-relief-architecture.md) [luke-iha] — 843 words
 - [tiktok-trend-scraper](../extractions/mike-foutia-marketing-tools/prompts/tiktok-trend-scraper.md) — 825 words (stale)
+- [VISION](../extractions/dara-denney/static-ads-masterclass/VISION.md) — 737 words
 - [sample-004](expert-benchmarks/content-strategy/sample-004.md) — 733 words
 - [scriptwriter-reframe-test](../extractions/sam-goddard-media-scaling/prompts/scriptwriter-reframe-test.md) — 727 words (stale)
 - [04-proposed-workflows](../extractions/chase-hughes/_forge-output/04-proposed-workflows.md) [april-dunford] — 719 words
@@ -171,9 +172,9 @@
 - [metadata](../extractions/kobi-brown-educational-virality/metadata.md) — 242 words
 - [apparel-concept-generator](../extractions/meg-heckman/codex-prior-art/skill/workflows/apparel-concept-generator.md) — 216 words
 - [streetwear-dna](../extractions/creative-direction/streetwear-dna.md) — 212 words
-- [sample-001](expert-benchmarks/linkedin/sample-001.md) [lara-acosta] — 210 words
+- [sample-001](expert-benchmarks/linkedin/sample-001.md) [lara-acosta] — 210 words (stale)
 - [validation-report](../extractions/lara-acosta/validation-report.md) [lara-acosta] — 204 words (stale)
-- [sample-002](expert-benchmarks/linkedin/sample-002.md) [lara-acosta] — 198 words
+- [sample-002](expert-benchmarks/linkedin/sample-002.md) [lara-acosta] — 198 words (stale)
 - [metadata](../extractions/anne-lamott-neal-allen-really-real/metadata.md) — 194 words
 - [validation-report](../extractions/shan-hanif/validation-report.md) — 194 words (stale)
 - [extraction-brief](../extractions/video-context/ohKt066uFhg/extraction-brief.md) — 193 words
@@ -248,7 +249,7 @@
 - [skill-system-contract](../extractions/alex-suzuki-digital-product-revenue-os/skill-system-contract.md) — 576 words
 - [the-3-percent-disruption-principle](synthesis/the-3-percent-disruption-principle.md) [luke-iha] — 544 words
 - [andrea-ticketing-platform-2026-06-18](../research_outputs/andrea-ticketing-platform-2026-06-18.md) — 537 words
-- [compare-copywriting-20260409-120217](expert-benchmarks/_comparisons/compare-copywriting-20260409-120217.md) — 505 words
+- [compare-copywriting-20260409-120217](expert-benchmarks/_comparisons/compare-copywriting-20260409-120217.md) — 505 words (stale)
 - [sample-007](expert-benchmarks/copywriting/sample-007.md) [cardinal-mason] — 503 words
 - [cognitive-bias-toolkit](../extractions/joanna-wiebe-persuasion-mastery/prompts/cognitive-bias-toolkit.md) — 498 words (stale)
 - [napoleon-identity-hook](../extractions/joanna-wiebe-persuasion-mastery/prompts/napoleon-identity-hook.md) — 495 words (stale)
@@ -262,13 +263,13 @@
 - [analysis](../extractions/meg-heckman/video-context-7MNa2YTPGs4/analysis.md) — 299 words
 - [source-metadata](../extractions/sean-macintyre/source-metadata.md) — 287 words
 - [cross-vertical-transfer](../extractions/meg-heckman/codex-prior-art/skill/workflows/cross-vertical-transfer.md) — 240 words
-- [sample-005](expert-benchmarks/copywriting/sample-005.md) [luke-iha] — 213 words
+- [sample-005](expert-benchmarks/copywriting/sample-005.md) [luke-iha] — 213 words (stale)
 - [buyer-trigger-audit](../extractions/meg-heckman/codex-prior-art/skill/workflows/buyer-trigger-audit.md) — 208 words
-- [sample-002](expert-benchmarks/copywriting/sample-002.md) [luke-iha] — 206 words
+- [sample-002](expert-benchmarks/copywriting/sample-002.md) [luke-iha] — 206 words (stale)
 - [metadata](../extractions/alex-suzuki-digital-product-revenue-os/metadata.md) — 158 words
-- [sample-003](expert-benchmarks/copywriting/sample-003.md) [luke-iha] — 157 words
-- [sample-004](expert-benchmarks/copywriting/sample-004.md) [luke-iha] — 92 words
-- [sample-001](expert-benchmarks/copywriting/sample-001.md) [luke-iha] — 63 words
+- [sample-003](expert-benchmarks/copywriting/sample-003.md) [luke-iha] — 157 words (stale)
+- [sample-004](expert-benchmarks/copywriting/sample-004.md) [luke-iha] — 92 words (stale)
+- [sample-001](expert-benchmarks/copywriting/sample-001.md) [luke-iha] — 63 words (stale)
 
 ## General (74 files)
 
@@ -287,7 +288,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 10,413 words
+- [log](log.md) — 11,052 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words
@@ -508,7 +509,7 @@
 - [ethan-smith-aeo-extraction-report](../extractions/ethan-smith/ethan-smith-aeo-extraction-report.md) [nathan-gotch] — 3,441 words (stale)
 - [human_values_collective_profile](../research_outputs/human_values_collective_profile.md) — 2,767 words (stale)
 - [ai_chris_lee](../research_outputs/ai_authority_architect_agents/ai_chris_lee.md) — 1,534 words
-- [extraction_report](../extractions/matthew-berman/extraction_report.md) — 1,163 words
+- [extraction_report](../extractions/matthew-berman/extraction_report.md) — 1,163 words (stale)
 - [sample-002](expert-benchmarks/seo/sample-002.md) [nathan-gotch] — 1,119 words
 - [long-context-memory-strategies-2026-05-25](../research_outputs/long-context-memory-strategies-2026-05-25.md) — 1,025 words
 - [virgil_abloh_streetwear](../extractions/creative-direction/virgil_abloh_streetwear.md) — 801 words
@@ -525,7 +526,7 @@
 - [guide_research_styles_movements](../extractions/creative-direction/guide_research_styles_movements.md) — 430 words
 - [gap-seo-content-psychology-bridge](synthesis/gap-seo-content-psychology-bridge.md) [lara-acosta] — 339 words
 - [nano_banana_notes](../extractions/creative-direction/nano_banana_notes.md) — 311 words
-- [sample-001](expert-benchmarks/seo/sample-001.md) [nathan-gotch] — 120 words
+- [sample-001](expert-benchmarks/seo/sample-001.md) [nathan-gotch] — 120 words (stale)
 
 ## Research (19 files)
 

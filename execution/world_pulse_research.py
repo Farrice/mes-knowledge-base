@@ -128,8 +128,7 @@ def _research_with_deep_engine(interests: dict) -> list:
             queries.extend(hints)
 
         if not queries:
-            print(f"  No active interests configured; using fallback", file=sys.stderr)
-            items = _manual_research_protocol(interests)
+            print(f"  No active interests configured", file=sys.stderr)
             return items
 
         # Pick 3-4 queries for today (deterministic rotation via hash)
@@ -171,34 +170,21 @@ def _research_with_deep_engine(interests: dict) -> list:
 
         if items:
             print(f"  SUCCESS: {len(items)} sourced items researched", file=sys.stderr)
-        else:
-            print(f"  No findings returned; trying manual protocol", file=sys.stderr)
-            items = _manual_research_protocol(interests)
 
     except ImportError:
-        print("  WARNING: deep_research_engine not available; falling back to manual research protocol", file=sys.stderr)
-        items = _manual_research_protocol(interests)
+        print("  WARNING: deep_research_engine not available", file=sys.stderr)
     except Exception as e:
         print(f"  ERROR during research: {type(e).__name__}: {str(e)[:100]}", file=sys.stderr)
-        items = _manual_research_protocol(interests)
 
     return items
 
 
-def _manual_research_protocol(interests: dict) -> list:
-    """Fallback when APIs unavailable: scaffold items so human can fill in sources."""
-    items = []
-    active_interests = [i for i in interests.get("interests", []) if i.get("active", True)][:3]
-    for interest in active_interests:
-        label = interest.get("label", "")
-        items.append({
-            "title": f"[RESEARCH NEEDED: {label}]",
-            "what": "[Automated research unavailable — manual research required. Consult Gemini, Perplexity, or primary sources.]",
-            "why": f"Relevant to Farrice's {label} interests and active threads.",
-            "sources": ["[ADD SOURCE URL]"],
-            "action": "[REVIEW THIS ITEM AND ADD REAL SOURCE]",
-        })
-    return items
+# _manual_research_protocol removed 2026-07-08: it wrote "[RESEARCH NEEDED]"
+# placeholder files and exited 0, which (a) blocked cos_prep's honest Tavily
+# fallback (world_brief.py) from ever firing and (b) blocked same-day
+# regeneration because the file already existed. A missing file + exit 1 is
+# the honest failure mode — the caller has a real $0 fallback for exactly
+# this case. Fabricated scaffolds are worse than no file.
 
 
 def cmd_run(date_str: str = None, dry_run: bool = False, force: bool = False) -> int:
@@ -227,10 +213,16 @@ def cmd_run(date_str: str = None, dry_run: bool = False, force: bool = False) ->
     # Run the actual research (deep_research_engine handles Gemini/Perplexity)
     items = _research_with_deep_engine(interests)
 
-    # Fallback if research produced no items
-    if not items:
-        print(f"  No items researched; building manual protocol scaffold", file=sys.stderr)
-        items = _manual_research_protocol(interests)
+    # Honesty gate (2026-07-08): an item only counts with a real http(s) source.
+    # Zero sourced items -> exit 1 WITHOUT writing, so the caller's $0 Tavily
+    # fallback (world_brief.py via cos_prep.ensure_world_pulse) actually fires.
+    sourced = [i for i in items
+               if any("http" in str(s) for s in (i.get("sources") or []))]
+    if not sourced:
+        print("  ZERO sourced items — not writing a placeholder file; "
+              "exiting 1 so the Tavily floor fallback runs", file=sys.stderr)
+        return 1
+    items = sourced
 
     brief = render_pulse_template(date_str, items)
 

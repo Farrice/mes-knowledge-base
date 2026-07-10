@@ -1,169 +1,173 @@
 {
-  "version": 1,
-  "updated": "2026-07-01",
-  "rule": "Routing defaults to core. Long-tail requires explicit /slash invocation or a decisively stronger match.",
-  "surface_budget": 45,
-  "budget_rule": "Hard ceiling on roster size (skills + workflows + infrastructure), lint-enforced by platform_compiler. Promotion to core requires demoting something once the budget is hit \u2014 same logic as the API dollar ceilings.",
-  "skills": [
-    {
-      "id": "luke-iha-avatar-machine",
-      "why": "16 log mentions; binding avatar_manifold_coldstart; the grounding engine for all copy"
-    },
-    {
-      "id": "luke-iha-copy-blocks",
-      "why": "A-tier with traces; the 6 copy blocks"
-    },
-    {
-      "id": "luke-iha-vicious-hooks",
-      "why": "A-tier with traces"
-    },
-    {
-      "id": "luke-iha-vsl-leads",
-      "why": "A-tier with traces; VSL production"
-    },
-    {
-      "id": "lara-acosta-linkedin-mastery",
-      "why": "A-tier; LinkedIn from-scratch binding"
-    },
-    {
-      "id": "lara-acosta-linkedin-growth",
-      "why": "A-tier; LinkedIn growth strategy"
-    },
-    {
-      "id": "diandra-escobar-linkedin-growth",
-      "why": "A-tier with traces; LinkedIn algorithm"
-    },
-    {
-      "id": "kallaway-social-commerce",
-      "why": "A-tier; content psychology"
-    },
-    {
-      "id": "stefan-georgi-dopamine-copy",
-      "why": "core copywriting; in 95% of copy usage logs"
-    },
-    {
-      "id": "jason-fladlien-marketing",
-      "why": "heavily referenced; webinar/offer architecture"
-    },
-    {
-      "id": "nicolas-cole-newsletter-flywheel",
-      "why": "A-tier; Parallax/newsletter engine"
-    },
-    {
-      "id": "nicolas-cole-digital-products",
-      "why": "A-tier; productization"
-    },
-    {
-      "id": "nate-b-jones-context-engineering",
-      "why": "A-tier; AI orchestration thinking"
-    },
-    {
-      "id": "nate-b-jones-auto-improvement-loops",
-      "why": "A-tier; evolution design"
-    },
-    {
-      "id": "david-placek-naming",
-      "why": "highest single-use score (9.3)"
-    },
-    {
-      "id": "brand-operating-system",
-      "why": "A-tier; /build-bos engine; Resonance BOS shipped"
-    },
-    {
-      "id": "creative-direction",
-      "why": "4 log mentions; visual deployment layer"
-    },
-    {
-      "id": "design-md",
-      "why": "DESIGN.md spec + UI codegen path"
-    },
-    {
-      "id": "jen-santulan-listing-content",
-      "why": "active client (Jen Santulan real estate)"
-    },
-    {
-      "id": "dai-media-consumer-posture",
-      "why": "A-tier; consumer posture lens"
-    },
-    {
-      "id": "donald-miller-storybrand",
-      "why": "A-tier; messaging clarity"
-    },
-    {
-      "id": "rory-sutherland-marketing",
-      "why": "A-tier; behavioral lens"
-    },
-    {
-      "id": "strength-conditioning-os",
-      "why": "Active fitness coaching business; conductor over galpin/israetel/teo/aragon lanes (export harvest 2026-07-01)"
-    },
-    {
-      "id": "extract-mastery",
-      "why": "Farrice's MES 3.0 extraction IP \u2014 methodology layer under /extract-forge (export harvest 2026-07-01)"
-    }
-  ],
-  "workflows": [
-    {
-      "id": "parallax",
-      "why": "own brand; binding parallax_editions"
-    },
-    {
-      "id": "copy-engine",
-      "why": "binding cold_start_converting_copy; the money path"
-    },
-    {
-      "id": "ghostwrite",
-      "why": "LinkedIn production path"
-    },
-    {
-      "id": "writers-room",
-      "why": "refinement of existing drafts (only)"
-    },
-    {
-      "id": "convene",
-      "why": "binding collective_genius; council engine"
-    },
-    {
-      "id": "avatar-machine",
-      "why": "cold-start buyer intelligence"
-    },
-    {
-      "id": "supercomputer",
-      "why": "multi-deliverable missions"
-    },
-    {
-      "id": "autopilot",
-      "why": "gate-suppressed orchestration"
-    },
-    {
-      "id": "deep-research",
-      "why": "binding unified_research"
-    },
-    {
-      "id": "weekly-pulse",
-      "why": "weekly planning"
-    },
-    {
-      "id": "weekly-closeout",
-      "why": "outer-loop closure ritual"
-    }
-  ],
-  "infrastructure": [
-    {
-      "id": "execution/research.py",
-      "why": "unified research engine"
-    },
-    {
-      "id": "execution/chain_runner.py",
-      "why": "finalize quality gate"
-    },
-    {
-      "id": "execution/knowledge_compiler.py",
-      "why": "Karpathy wiki engine"
-    },
-    {
-      "id": "extract-forge",
-      "why": "extraction pipeline \u2014 ungated; forge_gate.py is telemetry only"
-    }
-  ]
+ "version": 1,
+ "updated": "2026-07-07",
+ "rule": "Routing defaults to core. Long-tail requires explicit /slash invocation or a decisively stronger match.",
+ "surface_budget": 45,
+ "budget_rule": "Hard ceiling on roster size (skills + workflows + infrastructure), lint-enforced by platform_compiler. Promotion to core requires demoting something once the budget is hit \u2014 same logic as the API dollar ceilings.",
+ "skills": [
+  {
+   "id": "luke-iha-avatar-machine",
+   "why": "16 log mentions; binding avatar_manifold_coldstart; the grounding engine for all copy"
+  },
+  {
+   "id": "luke-iha-copy-blocks",
+   "why": "A-tier with traces; the 6 copy blocks"
+  },
+  {
+   "id": "luke-iha-vicious-hooks",
+   "why": "A-tier with traces"
+  },
+  {
+   "id": "luke-iha-vsl-leads",
+   "why": "A-tier with traces; VSL production"
+  },
+  {
+   "id": "lara-acosta-linkedin-mastery",
+   "why": "A-tier; LinkedIn from-scratch binding"
+  },
+  {
+   "id": "lara-acosta-linkedin-growth",
+   "why": "A-tier; LinkedIn growth strategy"
+  },
+  {
+   "id": "diandra-escobar-linkedin-growth",
+   "why": "A-tier with traces; LinkedIn algorithm"
+  },
+  {
+   "id": "kallaway-social-commerce",
+   "why": "A-tier; content psychology"
+  },
+  {
+   "id": "stefan-georgi-dopamine-copy",
+   "why": "core copywriting; in 95% of copy usage logs"
+  },
+  {
+   "id": "jason-fladlien-marketing",
+   "why": "heavily referenced; webinar/offer architecture"
+  },
+  {
+   "id": "nicolas-cole-newsletter-flywheel",
+   "why": "A-tier; Parallax/newsletter engine"
+  },
+  {
+   "id": "nicolas-cole-digital-products",
+   "why": "A-tier; productization"
+  },
+  {
+   "id": "nate-b-jones-context-engineering",
+   "why": "A-tier; AI orchestration thinking"
+  },
+  {
+   "id": "nate-b-jones-auto-improvement-loops",
+   "why": "A-tier; evolution design"
+  },
+  {
+   "id": "david-placek-naming",
+   "why": "highest single-use score (9.3)"
+  },
+  {
+   "id": "brand-operating-system",
+   "why": "A-tier; /build-bos engine; Resonance BOS shipped"
+  },
+  {
+   "id": "creative-direction",
+   "why": "4 log mentions; visual deployment layer"
+  },
+  {
+   "id": "design-md",
+   "why": "DESIGN.md spec + UI codegen path"
+  },
+  {
+   "id": "jen-santulan-listing-content",
+   "why": "active client (Jen Santulan real estate)"
+  },
+  {
+   "id": "dai-media-consumer-posture",
+   "why": "A-tier; consumer posture lens"
+  },
+  {
+   "id": "donald-miller-storybrand",
+   "why": "A-tier; messaging clarity"
+  },
+  {
+   "id": "rory-sutherland-marketing",
+   "why": "A-tier; behavioral lens"
+  },
+  {
+   "id": "strength-conditioning-os",
+   "why": "Active fitness coaching business; conductor over galpin/israetel/teo/aragon lanes (export harvest 2026-07-01)"
+  },
+  {
+   "id": "extract-mastery",
+   "why": "Farrice's MES 3.0 extraction IP \u2014 methodology layer under /extract-forge (export harvest 2026-07-01)"
+  },
+  {
+   "id": "voice-os",
+   "why": "Always-on Farrice voice layer: compiled VOICE-CARD.md + fidelity dial + felt-verdict calibration loop; binding farrice_voice_alignment; built 2026-07-07"
+  }
+ ],
+ "workflows": [
+  {
+   "id": "parallax",
+   "why": "own brand; binding parallax_editions"
+  },
+  {
+   "id": "copy-engine",
+   "why": "binding cold_start_converting_copy; the money path"
+  },
+  {
+   "id": "ghostwrite",
+   "why": "LinkedIn production path"
+  },
+  {
+   "id": "writers-room",
+   "why": "refinement of existing drafts (only)"
+  },
+  {
+   "id": "convene",
+   "why": "binding collective_genius; council engine"
+  },
+  {
+   "id": "avatar-machine",
+   "why": "cold-start buyer intelligence"
+  },
+  {
+   "id": "supercomputer",
+   "why": "multi-deliverable missions"
+  },
+  {
+   "id": "autopilot",
+   "why": "gate-suppressed orchestration"
+  },
+  {
+   "id": "deep-research",
+   "why": "binding unified_research"
+  },
+  {
+   "id": "weekly-pulse",
+   "why": "weekly planning"
+  },
+  {
+   "id": "weekly-closeout",
+   "why": "outer-loop closure ritual"
+  }
+ ],
+ "infrastructure": [
+  {
+   "id": "execution/research.py",
+   "why": "unified research engine"
+  },
+  {
+   "id": "execution/chain_runner.py",
+   "why": "finalize quality gate"
+  },
+  {
+   "id": "execution/knowledge_compiler.py",
+   "why": "Karpathy wiki engine"
+  },
+  {
+   "id": "extract-forge",
+   "why": "extraction pipeline \u2014 ungated; forge_gate.py is telemetry only"
+  }
+ ]
 }

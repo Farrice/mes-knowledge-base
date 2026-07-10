@@ -42,7 +42,7 @@ You're sitting at **Level 1-2 on Lynch's career ladder** — not because of skil
 
 ### Path B: The "Content System Audit" — Already Half-Built
 
-You already have launch posts written and voice-passed sitting in `_active/content-system-audit/launch-posts.md`. These are positioned as **$249 Content System Audits** for solo consultants. This is a real service you can ship TODAY.
+You already have launch posts written and voice-passed sitting in `_active/content-system-audit/04-deliverables/launch-posts.md`. These are positioned as **$249 Content System Audits** for solo consultants. This is a real service you can ship TODAY.
 
 **The problem**: You have no distribution to put those posts in front of people.
 

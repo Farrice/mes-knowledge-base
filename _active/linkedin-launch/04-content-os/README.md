@@ -2,7 +2,7 @@
 
 > The ongoing content engine. CONTENT-OS.md (master) + content-creation-system + social-playbook + exemplars/ + starter-content-batch.md (CANONICAL post text) + prompt-kits/prompt-sets + voice-gate + content-team-os.
 >
-> _Part of the LinkedIn Business OS. Front door: `../00-CONTROL-TOWER.md`. Folders mirror the Control Tower's §1–§6. Reorganized 2026-07-01._
+> _Part of the LinkedIn Business OS. Front door: `../04-deliverables/00-CONTROL-TOWER.md`. Folders mirror the Control Tower's §1–§6. Reorganized 2026-07-01._
 
 ## Contents
 - `CONTENT-OS.md`

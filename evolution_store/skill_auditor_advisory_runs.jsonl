@@ -1,0 +1,1 @@
+{"ts": "2026-07-09T17:51:29.637342", "event": "heartbeat_advisory_run", "context": "check --skill kallaway-content-operating-system --advisory (5 failures, gate suppressed)"}

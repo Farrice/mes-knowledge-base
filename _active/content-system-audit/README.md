@@ -61,13 +61,13 @@ Solo consultants, fractional executives, and B2B service providers billing $150+
 ## Project Files
 
 - `README.md` — this file
-- `objection-handles.md` — 5 buyer objections + responses
+- `06-system/objection-handles.md` — 5 buyer objections + responses
 - `RISKS.md` — scope-creep + cannibalization tracker (per Flag-Risks-Early standard)
-- `dm-scripts.md` — 10 consultant-tuned outreach variants
-- `launch-posts.md` — 3 LinkedIn posts post voice-pass
-- `intake-form.md` — Tally form questions
-- `sales-page.md` — Sales doc copy
-- `substack-notes.md` — 3 statement-hook trailer Notes
+- `04-deliverables/dm-scripts.md` — 10 consultant-tuned outreach variants
+- `04-deliverables/launch-posts.md` — 3 LinkedIn posts post voice-pass
+- `06-system/intake-form.md` — Tally form questions
+- `04-deliverables/sales-page.md` — Sales doc copy
+- `04-deliverables/substack-notes.md` — 3 statement-hook trailer Notes
 - `setup-checklist.md` — Stripe / Tally / Calendly / scheduling checklist for user actions
 
 ## Today's First Move (per plan)

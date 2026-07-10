@@ -1,0 +1,90 @@
+{
+ "project": "deliverables",
+ "recovered": true,
+ "moves": [
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/Human_Values_Collective_Delivery",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/human-values-collective-delivery"
+  },
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/Josh_Banday_Pitch_Bible",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/josh-banday-pitch-bible"
+  },
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/Kens_Fasting_Package",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/kens-fasting-package"
+  },
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/carousel_images",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/carousel-images"
+  },
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/21212-ingomar-ct-listing-content.md",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/jen-santulan/21212-ingomar-ct-listing-content.md"
+  },
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/21212-ingomar-ct-listing-content.pdf",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/jen-santulan/21212-ingomar-ct-listing-content.pdf"
+  },
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/Josh_Banday_Fellowship_Context_Master.md",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/josh-banday-pitch-bible/Josh_Banday_Fellowship_Context_Master.md"
+  },
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/Josh_Banday_Three_Show_Concepts.md",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/josh-banday-pitch-bible/Josh_Banday_Three_Show_Concepts.md"
+  },
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/dsc-automation-audit.md",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/dsc-dog-sitting/dsc-automation-audit.md"
+  },
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/dsc-recruiting-playbook.md",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/dsc-dog-sitting/dsc-recruiting-playbook.md"
+  },
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/dwa-edgecase-3-campaign.md",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/dwa-campaigns/dwa-edgecase-3-campaign.md"
+  },
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/dwa-edgecase-3-campaign-v2.md",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/dwa-campaigns/dwa-edgecase-3-campaign-v2.md"
+  },
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/dwa-edgecase-3-campaign-v3-voice.md",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/dwa-campaigns/dwa-edgecase-3-campaign-v3-voice.md"
+  },
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/dwa-edgecase-3-campaign-v3-voice.metadata.json",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/dwa-campaigns/dwa-edgecase-3-campaign-v3-voice.metadata.json"
+  },
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/dwa-ready-or-not-campaign-v4-conversion.md",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/dwa-campaigns/dwa-ready-or-not-campaign-v4-conversion.md"
+  },
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/dwa-ready-or-not-campaign-v4-conversion.metadata.json",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/dwa-campaigns/dwa-ready-or-not-campaign-v4-conversion.metadata.json"
+  },
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/comeback-blueprint-product.md",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/comeback-blueprint/comeback-blueprint-product.md"
+  },
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/comeback-blueprint-store-copy.md",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/comeback-blueprint/comeback-blueprint-store-copy.md"
+  },
+  {
+   "from": "/Users/farricecain/Google Antigravity/deliverables/coach-cooz-deep-dive-march-2026.md",
+   "to": "/Users/farricecain/Google Antigravity/deliverables/coach-cooz-final/coach-cooz-deep-dive-march-2026.md"
+  }
+ ],
+ "rewrites": {
+  "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/brain/f0054a93-478e-4c9f-b2a5-77da0169f04d/claude_code_prompt.md": 1,
+  "/Users/farricecain/Google Antigravity/deliverables/dwa-campaigns/dwa-edgecase-3-campaign-v3-voice.md": 1,
+  "/Users/farricecain/Google Antigravity/deliverables/dwa-campaigns/dwa-edgecase-3-campaign-v3-voice.metadata.json": 1,
+  "/Users/farricecain/Google Antigravity/deliverables/dwa-campaigns/dwa-ready-or-not-campaign-v4-conversion.md": 1,
+  "/Users/farricecain/Google Antigravity/deliverables/dwa-campaigns/dwa-ready-or-not-campaign-v4-conversion.metadata.json": 1
+ },
+ "note": "recovery after partial applies crashed mid-run (schema mismatches); moves landed in attempts 2-3, rewrites+receipt backfilled here | verify note: residual against-plan FAIL is a false positive from untracked vendored file deliverables/codex-port/antigravity-harness/SKILL.md (pre-existing bare-basename refs; untracked files are invisible to the git-HEAD baseline). Substance: 0 residue, 0 empty dirs, 19/19 recovered."
+}

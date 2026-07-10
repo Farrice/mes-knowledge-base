@@ -20,7 +20,7 @@ Local artifact: projects/farrice-creative-strategist-portfolio/
 
 ## Expected Outputs
 
-- `projects/farrice-creative-strategist-portfolio/HARDENING_AUDIT.md`
+- `projects/farrice-creative-strategist-portfolio/04-deliverables/HARDENING_AUDIT.md`
 - patched local portfolio source
 - desktop and mobile screenshots
 - `deliverables/manus-to-codex-replacement-workflow/`

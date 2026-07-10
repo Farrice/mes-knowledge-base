@@ -1,0 +1,53 @@
+{
+  "applied_at": "2026-07-09T03:13:02+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/2026-07-01-FINAL-VERDICT-path-arbitration.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/04-deliverables/2026-07-01-FINAL-VERDICT-path-arbitration.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/2026-07-01-path-council-adversary.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/04-deliverables/2026-07-01-path-council-adversary.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/2026-07-01-path-council-raw.json",
+      "to": "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/01-source/2026-07-01-path-council-raw.json"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/2026-07-01-path-council-synthesis.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/04-deliverables/2026-07-01-path-council-synthesis.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/2026-07-01-research-1-money-flow.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/02-research/2026-07-01-research-1-money-flow.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/2026-07-01-research-2-expert-market.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/02-research/2026-07-01-research-2-expert-market.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/2026-07-01-research-3-aeo-market.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/02-research/2026-07-01-research-3-aeo-market.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/2026-07-01-FINAL-VERDICT-path-arbitration.md",
+    "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/2026-07-01-path-council-adversary.md",
+    "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/2026-07-01-path-council-raw.json",
+    "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/2026-07-01-path-council-synthesis.md",
+    "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/2026-07-01-research-1-money-flow.md",
+    "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/2026-07-01-research-2-expert-market.md",
+    "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/2026-07-01-research-3-aeo-market.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01",
+  "project_slug": "path-decision-2026-07-01",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-08.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/farrice-master-context-2026-07-07/extracts/WORKSPACE-SELF.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/README.md": 7
+  },
+  "skipped": [],
+  "version": 1
+}

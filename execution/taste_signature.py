@@ -59,7 +59,7 @@ Usage:
         prose_verdict="CLEAN",
         factual_grounding=None,
     )
-    print(adjusted.composite)        # 7.5 (Rule 2 fired)
+    print(adjusted.composite)        # 7.25 (Rule 2 fired)
     print(adjusted.taste_verdict)    # "MARGINAL"
     print(adjusted.adjustments)      # audit trail
 """
@@ -105,7 +105,7 @@ def apply(
         scores: dict with at least the three required dimensions
             (intent_alignment, expert_standard, adversarial_resilience).
         anchor_named: True iff Claude named the rubric anchor for any
-            score ≥8. If False and any dim ≥8, Rule 2 caps it at 7.5.
+            score ≥8. If False and any dim ≥8, Rule 2 caps it at 7.25.
         prose_verdict: "CLEAN" | "WARNING" | "FLAGGED" | other. Used by
             Rule 3 anti-cluster check.
         factual_grounding: optional 4th dimension (1-10) or None for N/A.
@@ -149,7 +149,7 @@ def apply(
                 adv = new_val
 
     # ── Rule 2: 8-must-be-earned ──
-    # Any dim ≥8 without anchor_named is capped at 7.5. Forces Claude to
+    # Any dim ≥8 without anchor_named is capped at 7.25 (below the 7.5 PASS floor). Forces Claude to
     # cite the rubric anchor for any "excellent" claim.
     if not anchor_named:
         for name, val in (

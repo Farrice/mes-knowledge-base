@@ -1,0 +1,15 @@
+{
+  "auto_moved": 0,
+  "needs_judgment": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/content-system-audit/setup-checklist.md",
+      "project": "content-system-audit",
+      "reason": "pinned/control referrer"
+    }
+  ],
+  "projects_touched": [
+    "linkedin-launch"
+  ],
+  "since_minutes": 720,
+  "swept_at": "2026-07-09T15:04:37+00:00"
+}

@@ -1,5 +1,5 @@
 ---
-description: "DTC creative strategy for Meta ads — 2026 format archetype selection, David & Goliath construction, yapper script architecture, objection-handling ads, winning-hook engineering (4-layer anatomy + tested hook taxonomy), founder ads (6 plays + 7-beat script), and format × messag..."
+description: "DTC creative strategy for Meta ads — video + static. Video — 2026 format archetype selection, David & Goliath construction, yapper script architecture, objection-handling ads, winning-hook engineering (4-layer anatomy + tested hook taxonomy), founder ads (6 plays + 7-beat scri..."
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 

@@ -1,0 +1,74 @@
+{
+  "applied_at": "2026-07-09T03:12:51+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/ARTWORK_BUILD_PROMPTS.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/04-deliverables/ARTWORK_BUILD_PROMPTS.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/JOSH_SWING_NERD_SHIRT_LAUNCH_V1.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/04-deliverables/JOSH_SWING_NERD_SHIRT_LAUNCH_V1.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/LAUNCH_CONTENT_PACK.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/04-deliverables/LAUNCH_CONTENT_PACK.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/MEG_HECKMAN_12_CONCEPT_SPRINT.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/04-deliverables/MEG_HECKMAN_12_CONCEPT_SPRINT.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/MEG_HECKMAN_12_CONCEPT_SPRINT.metadata.json",
+      "to": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/04-deliverables/MEG_HECKMAN_12_CONCEPT_SPRINT.metadata.json"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/MEG_HECKMAN_TRIGGER_PASS.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/04-deliverables/MEG_HECKMAN_TRIGGER_PASS.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/MEG_HECKMAN_TRIGGER_PASS.metadata.json",
+      "to": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/04-deliverables/MEG_HECKMAN_TRIGGER_PASS.metadata.json"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/RED_TEAM_AND_SCORECARD.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/02-research/RED_TEAM_AND_SCORECARD.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/SOURCES.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/01-source/SOURCES.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/ARTWORK_BUILD_PROMPTS.md",
+    "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/JOSH_SWING_NERD_SHIRT_LAUNCH_V1.md",
+    "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/LAUNCH_CONTENT_PACK.md",
+    "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/MEG_HECKMAN_12_CONCEPT_SPRINT.md",
+    "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/MEG_HECKMAN_12_CONCEPT_SPRINT.metadata.json",
+    "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/MEG_HECKMAN_TRIGGER_PASS.md",
+    "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/MEG_HECKMAN_TRIGGER_PASS.metadata.json",
+    "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/RED_TEAM_AND_SCORECARD.md",
+    "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/SOURCES.md"
+  ],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/BONFIRE_PUBLISHING_CHECKLIST.md",
+      "reason": "referenced from control-plane file: .agent/workflows/merch-os.md"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1",
+  "project_slug": "josh-swing-nerd-shirts-v1",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-08.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/execution/skill_chunks.json": 1,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/semantic_libraries/antigravity/primitives/magic-preservation-regression-set.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/skills/meg-heckman-buyer-trigger-os/SKILL.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/04-deliverables/MEG_HECKMAN_12_CONCEPT_SPRINT.md": 2,
+    "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/README.md": 5,
+    "/Users/farricecain/Google Antigravity/extractions/meg-heckman/codex-prior-art/skill/SKILL.md": 1,
+    "/Users/farricecain/Google Antigravity/extractions/meg-heckman/video-context-7MNa2YTPGs4/meg-heckman-buyer-trigger-os-harvest.md": 1,
+    "/Users/farricecain/Google Antigravity/semantic_libraries/antigravity/primitives/magic-preservation-regression-set.md": 1
+  },
+  "skipped": [],
+  "version": 1
+}

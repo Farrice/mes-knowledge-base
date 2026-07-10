@@ -94,18 +94,39 @@ Use completion engine format with frontmatter (name, description, version: "2.0"
 // turbo
 Add to `AGENT_INDEX.md` and `SKILL_INDEX.md`.
 
-### 8. CHECKPOINT 2: Quality Verification (embodiment, not eyeball)
-Run the embodiment check per `directives/embodiment-standard.md` (E4 2026-07-02): 10-item build checklist + mini blind-pass — generate 1 output with the new skill's primary workflow and place it beside a real published piece by the expert. PASS (indistinguishable/preferred) → DEPLOYED. FAIL → fix the weakest checklist item, iterate once, else ship B-tier with the gap named. Append the verdict as an eval entry (≥1 per ship). Present the blind-pass result — not just a sample workflow — for user review.
+### 8. CHECKPOINT 2: Quality Verification (embodiment, not eyeball — instrumented, Wave 2)
 
-Craft standard: `directives/skill-craft-standard.md` — the pre-ship checklist (Section 8) is REQUIRED before this checkpoint passes.
+Run this exact sequence (the judgment stays human/model; the ritual and record are code):
+
+```bash
+# 1. Corpus gate — ≥2 real published pieces in extractions/[skill-dir]/reference-corpus/
+#    (exit 1 prints exactly what to collect; collect it, re-run)
+python3 execution/blind_pass.py prepare --expert [skill-dir]
+```
+
+2. **Side-by-side judgment** (human/model — per `directives/embodiment-standard.md` Blind-Pass Protocol): generate 1-2 outputs with the new skill's Tier-1 workflow, place beside the reference-corpus pieces, judge against the recognition test. Farrice judges when stakes are high (A-tier promotion). PASS = indistinguishable or preferred. FAIL → fix the weakest checklist item, iterate once, else ship B-tier with the gap named.
+
+```bash
+# 3. Record the verdict — appends the eval_set entry + ledger line automatically
+python3 execution/blind_pass.py record --expert [skill-dir] --verdict PASS|FAIL \
+    --notes "[which real pieces, what held / what gave it away]" \
+    --generated [path] --reference [path]
+
+# 4. Heartbeat gate — 6 tier-affecting craft checks (skill-craft-standard.md §8);
+#    ≥2 failures = tier capped at B (exit 1). Fix or ship with the gap named.
+python3 execution/skill_auditor.py check --skill [skill-dir]
+```
+
+Present the blind-pass result — not just a sample workflow — for user review.
 
 ### 9. Performance Log
-Scores derive from the Checkpoint-2 blind-pass verdict + checklist coverage — never templated (`directives/embodiment-standard.md` § Scoring Discipline). Any dimension ≥8 requires `--anchor-named` + naming the anchor in notes.
+Scores derive from the Checkpoint-2 blind-pass verdict + checklist coverage — never templated (`directives/embodiment-standard.md` § Scoring Discipline). Any dimension ≥8 requires `--anchor-named "<anchor phrase>"` (the rubric_v1.md anchor, as a string — finalize refuses unanchored ≥8s). Finalize also refuses `--type Extraction` without the Step-8 recorded verdict (`--skip-blind-pass` is the logged override).
 ```bash
 python3 execution/chain_runner.py finalize "[Expert] — [Domain] extraction" \
     --expert [expert-name] --skill [skill-dir] --workflow extract \
     --type Extraction --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
-    --notes "[genius patterns count], [workflows count], [key insight] | blind-pass: [PASS/FAIL] | anchors: [named for any ≥8]"
+    --anchor-named "[rubric anchor phrase, required for any ≥8]" \
+    --notes "[genius patterns count], [workflows count], [key insight] | blind-pass: [PASS/FAIL] | heartbeat: [n/6]"
 ```
 
 ### 10. Wiki Cascade (Karpathy Ingest)

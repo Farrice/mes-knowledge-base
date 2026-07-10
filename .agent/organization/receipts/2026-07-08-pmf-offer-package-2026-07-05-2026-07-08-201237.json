@@ -1,0 +1,60 @@
+{
+  "applied_at": "2026-07-09T03:12:37+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/00-THESIS-AND-VERDICT.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/02-research/00-THESIS-AND-VERDICT.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/01-offer-positioning.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/04-deliverables/01-offer-positioning.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/02-landing-page.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/04-deliverables/02-landing-page.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/03-outreach-kit.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/04-deliverables/03-outreach-kit.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/04-linkedin-gtm.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/04-deliverables/04-linkedin-gtm.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/05-shortform-scripts.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/04-deliverables/05-shortform-scripts.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/06-delivery-blueprint.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/04-deliverables/06-delivery-blueprint.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/07-proof-plan.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/04-deliverables/07-proof-plan.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/00-THESIS-AND-VERDICT.md",
+    "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/01-offer-positioning.md",
+    "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/02-landing-page.md",
+    "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/03-outreach-kit.md",
+    "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/04-linkedin-gtm.md",
+    "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/05-shortform-scripts.md",
+    "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/06-delivery-blueprint.md",
+    "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/07-proof-plan.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05",
+  "project_slug": "pmf-offer-package-2026-07-05",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-08.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-05-pmf-offer-package-2026-07-05.md": 2,
+    "/Users/farricecain/Google Antigravity/.agent/sessions/autopin-pmf-offer-package-2026-07-05.md": 2,
+    "/Users/farricecain/Google Antigravity/.agent/sessions/observe-log.jsonl": 5,
+    "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/02-research/00-THESIS-AND-VERDICT.md": 7
+  },
+  "skipped": [],
+  "version": 1
+}

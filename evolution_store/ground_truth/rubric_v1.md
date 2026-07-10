@@ -211,7 +211,7 @@ Tunable thresholds in `execution/taste_signature.py`:
 - `_FAILURE_PENALTY_THRESHOLD = 6.0`
 - `_FAILURE_PENALTY_AMOUNT = 1.0`
 - `_EARNED_8_THRESHOLD = 8.0`
-- `_EARNED_8_CAP = 7.25` (was 7.5; lowered 2026-05-23 to fix MARGINAL plateau at PASS-floor boundary — see `_active/system-integration/2026-05-22-calibration-replay-results.md`)
+- `_EARNED_8_CAP = 7.25` (was 7.5; lowered 2026-05-23 to fix MARGINAL plateau at PASS-floor boundary — see `_active/system-integration/06-system/2026-05-22-calibration-replay-results.md`)
 - `_PASS_COMPOSITE_FLOOR = 7.5`
 - `_PASS_DIMENSION_FLOOR = 7.0`
 - `_FAIL_DIMENSION_CEILING = 6.0`

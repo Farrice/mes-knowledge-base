@@ -27,6 +27,7 @@ Usage:
 
 import json
 import os
+import re
 import time
 from datetime import datetime, timezone
 from pathlib import Path
@@ -360,7 +361,34 @@ class DeepResearchClient:
                 citations.extend(step["citations"])
         if not citations and "citations" in final_data:
             citations = final_data["citations"]
-        return text, citations
+        if not citations and text:
+            # 2026-07-08: the Interactions API now embeds sources as inline
+            # markdown links instead of populating a citations array — a max
+            # run returned 56k chars with 65 URLs in-text and citations=[],
+            # so every claim was quarantined downstream. Harvest inline URLs
+            # (deduped, order-preserving) so provenance survives.
+            citations = list(dict.fromkeys(
+                u.rstrip(".,;") for u in
+                re.findall(r"https?://[^\s)\]>\"'`]+", text)))
+        return text, self._resolve_grounding_redirects(citations)
+
+    @staticmethod
+    def _resolve_grounding_redirects(citations: List[str], cap: int = 40) -> List[str]:
+        """Vertex grounding redirect URLs all share one opaque Google domain,
+        which destroys domain-diversity provenance downstream. Follow them to
+        the real source (capped, fail-safe: unresolvable keeps the wrapper)."""
+        resolved: List[str] = []
+        for u in citations[:cap]:
+            if "vertexaisearch.cloud.google.com/grounding-api-redirect" in u:
+                try:
+                    r = requests.head(u, allow_redirects=True, timeout=8)
+                    resolved.append(r.url or u)
+                except Exception:
+                    resolved.append(u)
+            else:
+                resolved.append(u)
+        resolved.extend(citations[cap:])
+        return list(dict.fromkeys(resolved))
 
     def start_async(self, query: str, *, mode: str = "standard",
                     enable_google_search: bool = True,

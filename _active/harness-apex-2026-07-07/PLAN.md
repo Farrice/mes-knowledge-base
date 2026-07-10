@@ -1,6 +1,7 @@
 # Harness Apex Plan — Fable-Level Orchestration on Any Model
 
-**Date:** 2026-07-07 · **Owner route:** /system-audit · **Status:** APPROVED ("go", 2026-07-07) — **Wave 0 SHIPPED · Wave 1 SHIPPED** (receipts: `.agent/run-receipts/2026-07-07T142840Z0000-cos.md`, `2026-07-07T143303Z0000-system-audit.md`) · Waves 2-5 queued
+**Date:** 2026-07-07 · **Owner route:** /system-audit · **Status:** APPROVED ("go", 2026-07-07) — **Waves 0, 1, 2 SHIPPED** (Wave 2 receipts: `2026-07-10T004341Z…`, `2026-07-10T004625Z…`, `2026-07-10T005523Z…` in `.agent/run-receipts/`) · Merged with Swarm Apex (`_active/swarm-apex-2026-07-07/PLAN.md`) as driving use-case of Waves 3+5 · Waves 3-5 queued
+**Wave 2 notes:** the "7.25 flattening" was intended behavior — taste_signature Rule 2 caps every unanchored ≥8 at 7.25 (below the 7.5 PASS floor); now unreachable silently, since finalize refuses unanchored ≥8s at input (`--anchor-named` required). Outcome classes: autopilot actually has 12+fallback, not 7 (plan text was stale). skill_auditor heartbeat gate live: 8 skills tier-capped A→B on first full audit.
 **Evidence:** 4 parallel audits (supercomputer/autopilot/jw-engine/mission · JCC plugin · extraction stack · routing spine), including a live-reproduced routing miss.
 
 ---

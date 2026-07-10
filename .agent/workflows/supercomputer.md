@@ -178,11 +178,17 @@ Before finalizing, audit that anchor memory actually shaped downstream outputs.
 python3 execution/anchor_memory.py describe <slug>
 ```
 
-For each anchor with `ref_for: [<phase>...]`:
+For each anchor with `ref_for: [<phase>...]`, run the propagation verifier against every dependent deliverable:
 
-1. Open the deliverable file from each phase in `ref_for`
-2. Grep for the anchor's path or distinctive key terms
-3. If absent: anchor propagation failed. Retry that phase with explicit injection: load the anchor path into the prompt verbatim, regenerate.
+```bash
+python3 execution/anchor_verify.py check \
+    --anchor <anchor-path> \
+    --targets <dependent-deliverable-path> [<more-paths>...]
+```
+
+It extracts the anchor's key terms (headings, bolded phrases, proper nouns, numbers — add `--terms "a,b,c"` for anything load-bearing it misses), greps each target for coverage, and returns a propagation score 1-10 per target with the missing terms named.
+
+**Gate rule: overall score <7 = propagation failed.** Retry that phase with explicit injection — load the anchor path and the listed missing terms into the prompt verbatim, regenerate, re-run the check. (Binary anchors like images: verify the *text* deliverables that describe or brief them; the image prompt file is the target.)
 
 This is the difference between Supercomputer success and "ChatGPT + image gen plugged in." Don't skip.
 

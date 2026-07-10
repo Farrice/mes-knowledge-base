@@ -1,0 +1,86 @@
+{
+  "applied_at": "2026-07-09T03:10:52+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/CODEX_MIGRATION.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/01-source/CODEX_MIGRATION.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/HARVEST-MANIFEST.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/06-system/HARVEST-MANIFEST.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/PRODUCT.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/01-source/PRODUCT.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/RETIREMENT-READY.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/04-deliverables/RETIREMENT-READY.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/harvest-verification.json",
+      "to": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/06-system/harvest-verification.json"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/skills-lock.json",
+      "to": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/06-system/skills-lock.json"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/CODEX_MIGRATION.md",
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/HARVEST-MANIFEST.md",
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/PRODUCT.md",
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/RETIREMENT-READY.md",
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/harvest-verification.json",
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/skills-lock.json"
+  ],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/AGENTS.md",
+      "reason": "referenced from control-plane file: .agent/workflows/sync-instructions.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/AGENT_INDEX.md",
+      "reason": "referenced from control-plane file: .agent/workflows/4c-architect.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/CODEX.md",
+      "reason": "referenced from control-plane file: .agent/workflows/ai-employee-os.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/DESIGN.md",
+      "reason": "referenced from control-plane file: .agent/workflows/build-bos.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/DOMAIN_REGISTRY.md",
+      "reason": "referenced from control-plane file: .agent/workflows/adversarial-review.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/GEMINI.md",
+      "reason": "referenced from control-plane file: .agent/workflows/brief.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/SKILL_INDEX.md",
+      "reason": "referenced from control-plane file: .agent/workflows/4c-architect.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/SLASH_COMMANDS.md",
+      "reason": "referenced from control-plane file: .agent/workflows/build.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/package.json",
+      "reason": "referenced from control-plane file: .agent/workflows/create-skill.md"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11",
+  "project_slug": "codex-harvest-2026-06-11",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-08.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/01-source/CODEX_MIGRATION.md": 4,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/04-deliverables/RETIREMENT-READY.md": 16,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/06-system/HARVEST-MANIFEST.md": 4292
+  },
+  "skipped": [],
+  "version": 1
+}

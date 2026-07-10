@@ -1,0 +1,65 @@
+{
+  "applied_at": "2026-07-09T03:12:08+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/content-system-audit/dm-scripts.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/content-system-audit/04-deliverables/dm-scripts.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/content-system-audit/intake-form.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/content-system-audit/06-system/intake-form.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/content-system-audit/launch-posts.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/content-system-audit/04-deliverables/launch-posts.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/content-system-audit/links.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/content-system-audit/06-system/links.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/content-system-audit/objection-handles.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/content-system-audit/06-system/objection-handles.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/content-system-audit/sales-page.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/content-system-audit/04-deliverables/sales-page.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/content-system-audit/substack-notes.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/content-system-audit/04-deliverables/substack-notes.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/content-system-audit/dm-scripts.md",
+    "/Users/farricecain/Google Antigravity/_active/content-system-audit/intake-form.md",
+    "/Users/farricecain/Google Antigravity/_active/content-system-audit/launch-posts.md",
+    "/Users/farricecain/Google Antigravity/_active/content-system-audit/links.md",
+    "/Users/farricecain/Google Antigravity/_active/content-system-audit/objection-handles.md",
+    "/Users/farricecain/Google Antigravity/_active/content-system-audit/sales-page.md",
+    "/Users/farricecain/Google Antigravity/_active/content-system-audit/substack-notes.md"
+  ],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/content-system-audit/setup-checklist.md",
+      "reason": "referenced from control-plane file: directives/INDEX.md"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/_active/content-system-audit",
+  "project_slug": "content-system-audit",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-08.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/_active/cash-first-service-menu/INTAKE-AND-LINKS.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/_active/service-first-productization/README.md": 2,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/_active/service-first-productization/SERVICE-FIRST-PRODUCTIZATION-PACK.md": 4,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/_exports/vibe-tax-brief-ai-handoff-2026-05-11/01-ALL-ARTIFACTS-COMBINED.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/_exports/vibe-tax-brief-ai-handoff-2026-05-11/05-supporting-revenue-context/_active__cash-first-service-menu__INTAKE-AND-LINKS.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/brain/595619ac-26ab-42a7-a7fd-13170d0e1cea/artifacts/daily_marching_orders.md": 5,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/brain/fef0d5ae-6841-4b6c-aba1-39a22658e824/artifacts/cold_start_creative_strategist.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/content-system-audit/README.md": 6,
+    "/Users/farricecain/Google Antigravity/_active/content-system-audit/setup-checklist.md": 15
+  },
+  "skipped": [],
+  "version": 1
+}

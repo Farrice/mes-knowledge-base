@@ -1,0 +1,48 @@
+{
+  "applied_at": "2026-07-09T02:38:35+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/strategic-clarity/01-strategic-identity-and-expertise-map.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/strategic-clarity/04-deliverables/01-strategic-identity-and-expertise-map.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/strategic-clarity/02-market-opportunity-matrix.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/strategic-clarity/02-research/02-market-opportunity-matrix.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/strategic-clarity/03-offer-architecture-and-revenue-paths.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/strategic-clarity/04-deliverables/03-offer-architecture-and-revenue-paths.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/strategic-clarity/04-fourteen-day-revenue-sprint.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/strategic-clarity/04-deliverables/04-fourteen-day-revenue-sprint.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/strategic-clarity/05-decision-framework-and-daily-north-star.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/strategic-clarity/04-deliverables/05-decision-framework-and-daily-north-star.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/strategic-clarity/01-strategic-identity-and-expertise-map.md",
+    "/Users/farricecain/Google Antigravity/_active/strategic-clarity/02-market-opportunity-matrix.md",
+    "/Users/farricecain/Google Antigravity/_active/strategic-clarity/03-offer-architecture-and-revenue-paths.md",
+    "/Users/farricecain/Google Antigravity/_active/strategic-clarity/04-fourteen-day-revenue-sprint.md",
+    "/Users/farricecain/Google Antigravity/_active/strategic-clarity/05-decision-framework-and-daily-north-star.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/strategic-clarity",
+  "project_slug": "strategic-clarity",
+  "pruned_dirs": [
+    "/Users/farricecain/Google Antigravity/_active/strategic-clarity/00-start-here",
+    "/Users/farricecain/Google Antigravity/_active/strategic-clarity/01-source",
+    "/Users/farricecain/Google Antigravity/_active/strategic-clarity/03-working-drafts",
+    "/Users/farricecain/Google Antigravity/_active/strategic-clarity/05-assets",
+    "/Users/farricecain/Google Antigravity/_active/strategic-clarity/06-system",
+    "/Users/farricecain/Google Antigravity/_active/strategic-clarity/90-exports",
+    "/Users/farricecain/Google Antigravity/_active/strategic-clarity/99-archive"
+  ],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-08.sh",
+  "rewrites": {},
+  "skipped": [],
+  "version": 1
+}

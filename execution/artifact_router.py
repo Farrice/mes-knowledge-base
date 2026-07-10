@@ -460,14 +460,12 @@ def ensure_org_home() -> None:
 
 
 def ensure_project_shapes() -> list[str]:
+    # Only-populated policy: never pre-create the numbered scaffold (empty
+    # folders read as "missing content"). Subfolders come into existence only
+    # when project_filer.py places a file into them. INDEX.md is still ensured.
     created: list[str] = []
     for project in active_projects():
         project_dir = ROOT / "_active" / project
-        for child in STANDARD_PROJECT_DIRS:
-            path = project_dir / child
-            if not path.exists():
-                path.mkdir(parents=True, exist_ok=True)
-                created.append(str(path))
         index_path = project_dir / "INDEX.md"
         if not index_path.exists():
             index_path.write_text(

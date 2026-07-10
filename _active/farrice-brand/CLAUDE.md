@@ -15,6 +15,8 @@
 
 ## Voice Rules (Non-Negotiable — From MEMORY.md)
 
+> **Canonical depth (2026-07-07): `voice/VOICE-CARD.md`** — the compiled Voice OS card (identity spine, measured stylometrics, channel registers, calibration bank, MIRROR/BLEND/STRETCH/OFF dial). The rules below stay binding as the compressed layer; the card is the granular source for stylometric and register detail. Portable export for external AIs: `voice/PORTABLE-VOICE-CARD.md`. Loop: `/voice-ratchet` (capture felt verdicts) → `/voice-compile` (recompile at 5+ pending). Skill: `skills/voice-os/`.
+
 These rules are SOURCE-OF-TRUTH for Farrice's voice. They override any default Antigravity content workflow that suggests otherwise.
 
 ### Banned phrase-level moves

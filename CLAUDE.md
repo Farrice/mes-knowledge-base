@@ -79,6 +79,7 @@ python3 execution/chain_runner.py finalize "[what you produced]" \
 - **Calibrated rubric**: `evolution_store/ground_truth/rubric_v1.md` — anchors at 3/6/9. **Score >=8 = name the matching anchor**; can't name it, lower the score.
 - **Non-negotiable** — and now Stop-hook enforced. Protocols: `directives/quality_gate.md`, `directives/feedback-ratchet.md`.
 - <!-- BEGIN:solution-recorder -->**Solution Recorder (Step 6.5, Farrice 2026-07-07, binding)**: cracked a non-trivial problem this session — any domain (system fix, content recipe, client-format crack, strategy unlock)? Run `/extract-approach` → Solution Card in `docs/solutions/` BEFORE moving on. **A solved problem without a card is unfinished work.** The ledger books learning debt on fail→fix streaks; finalize latches on open debt (`--learning <card>` to clear, `--skip-learning` logs the override). Cards auto-resurface: router-hook "PRIOR SOLUTION EXISTS" injection, memory facade `solutions` source, `/resume`/kickoff, COS weekly digest — never re-solve what a card already solved.<!-- END:solution-recorder -->
+- <!-- BEGIN:steering-loop -->**Steering Loop (Step 7, Farrice 2026-07-07, hook-enforced)**: close every substantive exchange with a **Next Moves** block (3 copy-paste prompts: Deepen / Adjacent / Act-toward-named-goal) + 1-line Operator Lesson, and run Forge Radar (repeated problem / manual loop / missing tool → flag the build in ONE line, never block; new assets ship only with an in-session proof-of-concept). Spec: `directives/steering-loop.md`. Injected per-exchange by `steering_loop_hook.py` (any model); misses logged to `.agent/sessions/steering-observe.jsonl`. Deep closeouts still use `/steering-compass`.<!-- END:steering-loop -->
 
 ### When Steps Narrow (Not Skip the Chain)
 
@@ -94,6 +95,7 @@ python3 execution/chain_runner.py finalize "[what you produced]" \
 ### Routing Summary (full table + reasons: `directives/routing-bindings.md`; machine source: `routing_enforcer.py BINDINGS`; update together)
 
 - Parallax editions -> `/parallax` (never writers-room) · LinkedIn from scratch -> `/ghostwrite`/Lara · refinement of existing draft -> `writers-room`
+- **Anything in Farrice's own voice** (posts, editions, Notes, emails, DMs, bios) -> load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (`skills/voice-os/SKILL.md`) as a LAYER before the content workflow runs — default BLEND; explicit voice work -> `/voice-os` (binding `farrice_voice_alignment`); felt verdicts -> `/voice-ratchet` silently in-session
 - Cold-start converting copy -> `/copy-engine` (Ground Once, Refine Free) · avatar/ICP cold-start -> `/avatar-machine` (Phase 0 GROUND non-optional)
 - Brand OS -> `/build-bos` · multi-deliverable mission -> `/supercomputer` · "no gates" -> `/autopilot` · context engineering -> `/ce-design`
 - Multi-expert/council -> `/convene` · generic research -> `execution/research.py` (Receipt-carrying; never answer research from training memory)

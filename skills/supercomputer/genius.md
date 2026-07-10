@@ -81,7 +81,7 @@ If you're not sure: lean Supercomputer. The overhead is small (one anchor_memory
 Things we don't yet know — will discover after 5-10 real missions:
 
 1. **Optimal auto-approve threshold.** $0.20 is a guess. Likely too low for "make 10 variations" workflows ($1 total but per-call is cheap), likely too high for habitual users.
-2. **Anchor-memory propagation enforcement.** Currently relies on the workflow being followed. Eventually: a finalize-time check that grep-detects anchor path references in dependent deliverables, scores propagation 1-10.
+2. **Anchor-memory propagation enforcement.** ~~Currently relies on the workflow being followed.~~ **Answered (Wave 2, 2026-07-09):** `execution/anchor_verify.py check --anchor <path> --targets <paths>` grep-detects anchor key-term coverage in dependent deliverables and scores propagation 1-10; Phase 3 now gates on overall ≥7. Remaining open sub-question: the right term weights for image-heavy missions.
 3. **Cross-project anchor sharing.** When building two brands in the same niche, should anchor learnings (audience insights, palette experiments) cross-pollinate? Probably yes, but the mechanism is TBD.
 4. **Scheduled / recurring missions.** "Every Monday, run a content drop based on last week's thought-bank." Claude Code's `/schedule` and `/loop` provide the hook. Wiring it into Supercomputer is Phase 2.
 5. **Public skill marketplace.** When external collaborators want to contribute skills, do we use Hermes Agent's marketplace format or our own? Defer until we have collaborators.

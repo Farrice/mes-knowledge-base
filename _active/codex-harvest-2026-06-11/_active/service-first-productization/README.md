@@ -41,8 +41,8 @@ Read these first:
 Live offer package:
 
 - `_active/content-system-audit/README.md`
-- `_active/content-system-audit/sales-page.md`
-- `_active/content-system-audit/dm-scripts.md`
+- `_active/content-system-audit/04-deliverables/sales-page.md`
+- `_active/content-system-audit/04-deliverables/dm-scripts.md`
 - `_active/content-system-audit/prospect-shortlist.md`
 - `_active/content-system-audit/mini-audit-template.md`
 - `_active/content-system-audit/fulfillment-sop.md`

@@ -48,13 +48,13 @@ Every reachability and competitor-conversion finding in this verdict is imported
 
 | File | Contents |
 |---|---|
-| `18-reachability-demand.md` | DWA organic footprint measurement across TikTok/Reddit — zero visible presence |
-| `19-competitor-conversion.md` | What actually wins reach in this niche — hype/flex register, zero anti-guru precedent |
-| `20-belief-movability.md` | Skeptic-belief structure — identity-protective, socially policed, warm-only conversions on record |
-| `21-GO-NO-GO-VERDICT.md` | Prior-wave verdict draft (superseded by this file as the definitive brief) |
-| `22-testkit-copy-v2.md` | Reshaped copy for the belief-movable version of the offer |
-| `23-week2-kit-presale.md` | Week 2 kit presale build |
-| `24-ship-sprint-presale.md` | $47 Ship Sprint presale — the new hero vehicle |
+| `02-research/18-reachability-demand.md` | DWA organic footprint measurement across TikTok/Reddit — zero visible presence |
+| `02-research/19-competitor-conversion.md` | What actually wins reach in this niche — hype/flex register, zero anti-guru precedent |
+| `02-research/20-belief-movability.md` | Skeptic-belief structure — identity-protective, socially policed, warm-only conversions on record |
+| `04-deliverables/21-GO-NO-GO-VERDICT.md` | Prior-wave verdict draft (superseded by this file as the definitive brief) |
+| `04-deliverables/22-testkit-copy-v2.md` | Reshaped copy for the belief-movable version of the offer |
+| `04-deliverables/23-week2-kit-presale.md` | Week 2 kit presale build |
+| `04-deliverables/24-ship-sprint-presale.md` | $47 Ship Sprint presale — the new hero vehicle |
 | `README-VERDICT.md` | This file — the definitive decision brief |
 
 ---

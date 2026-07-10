@@ -59,6 +59,7 @@ You have three failure patterns to guard against:
 - **Claim inventory**: Before writing, list every factual claim the deliverable will make. Policies, names, dates, prices, locations, specs, schedules, rules.
 - **Source verification**: Each claim must be checked against primary sources (official sites, documentation, authoritative reporting). Single-source claims get flagged. Multi-source (3+) claims are grounded.
 - **Verify BEFORE writing**: Research → verify → THEN compile. Not: research → compile → verify after pushback. The verification pass must happen before the user sees anything.
+- **Deterministic net (Wave 2, 2026-07-09)**: `python3 execution/claim_audit.py check <file>` scans for factual-claim carriers (numbers/currency/percents, dates, entity+claim-verb, superlatives-with-stats) and exits 1 on any carrier lacking a confidence tag or source. Run it before delivery on any claim-bearing deliverable — it catches unlabeled claims mechanically; it does NOT adjudicate truth (that stays with this protocol). `tag-help` prints the tag vocabulary for worker prompts.
 - **Confidence labeling**: Every factual claim in the deliverable must be one of:
   - **VERIFIED** — confirmed across 2+ independent sources. No flag needed in output.
   - **LIKELY** — from one credible source or strong inference. Flag in output: *"[Based on single source / inferred from X]"*

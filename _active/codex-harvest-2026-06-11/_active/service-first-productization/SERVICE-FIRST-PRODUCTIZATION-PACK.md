@@ -81,9 +81,9 @@ The diagnostic includes:
 ### Setup
 
 - Create $250 checkout.
-- Build intake from `_active/content-system-audit/intake-form.md`.
-- Publish or stage `_active/content-system-audit/sales-page.md`.
-- Fill `_active/content-system-audit/links.md`.
+- Build intake from `_active/content-system-audit/06-system/intake-form.md`.
+- Publish or stage `_active/content-system-audit/04-deliverables/sales-page.md`.
+- Fill `_active/content-system-audit/06-system/links.md`.
 - Open `_active/content-system-audit/outreach-tracker.md`.
 
 ### Prospect
@@ -99,7 +99,7 @@ The diagnostic includes:
 
 ### Ask
 
-- Send 10 direct asks from `_active/content-system-audit/dm-scripts.md`.
+- Send 10 direct asks from `_active/content-system-audit/04-deliverables/dm-scripts.md`.
 - Track every reply, objection, checkout request, and buyer phrase.
 
 ### Review

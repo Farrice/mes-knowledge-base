@@ -104,8 +104,12 @@ Run the planned steps in order. For each step:
 Before finalizing, audit that anchor-memory worked:
 
 1. `python3 execution/anchor_memory.py describe <slug>` and inspect.
-2. For each anchor with a non-empty `ref_for` list, confirm the referenced phase actually used it. Concretely: open the deliverable file from the dependent phase and grep for the anchor path or its key terms.
-3. If anchor propagation failed (later phase produced output that ignores anchor): flag it, retry that phase with explicit anchor injection.
+2. For each anchor with a non-empty `ref_for` list, run the propagation verifier against the dependent deliverables:
+   ```bash
+   python3 execution/anchor_verify.py check --anchor <anchor-path> --targets <dependent-deliverable-paths>
+   ```
+   It scores term coverage 1-10 per target and names the missing anchor terms.
+3. **Gate rule: overall score <7 = propagation failed.** Retry that phase with explicit anchor injection (inject the anchor path + the named missing terms verbatim), regenerate, re-run the check before moving to Phase 4.
 
 This is what separates the Supercomputer pattern from "ChatGPT + image gen plugged in."
 

@@ -16,5 +16,6 @@
  "session_pinned": true,
  "session_pinned_at": "2026-07-02T11:22:16.779512",
  "pin_nudged": false,
- "handoff_saved_at": "2026-07-02T11:22:16.779501"
+ "handoff_saved_at": "2026-07-02T11:22:16.779501",
+ "closeout_ran": true
 }

@@ -119,6 +119,7 @@ def fingerprint_skill(skill_dir: Path) -> Dict[str, Any]:
 # ─────────────────────────────────────────────────────────
 # Craft standard checks (directives/skill-craft-standard.md)
 # Cheap, deterministic, advisory only — never affects tier classification.
+# (The SIX heartbeat checks below, promoted 2026-07-09, DO affect tier.)
 # ─────────────────────────────────────────────────────────
 
 HARDCODED_SCORE_RE = re.compile(r"--intent\s+[89]\b|expert-score\s+[89]\b|score.*[89]/10", re.IGNORECASE)
@@ -150,6 +151,227 @@ def craft_standard_flags(skill_dir: Path, fp: Dict[str, Any]) -> List[str]:
             except Exception:
                 pass
     return flags
+
+
+# ─────────────────────────────────────────────────────────
+# Heartbeat checks — tier-affecting (Harness Apex Wave 2, 2026-07-09)
+#
+# Six checks from directives/skill-craft-standard.md §8 / embodiment-
+# standard.md build checklist, promoted from advisory prose to real
+# content checks (regex/structure, not vibes). Failing ≥2 caps the tier
+# at B (A demotes to B; lower tiers unchanged). --advisory restores the
+# old non-gating behavior — every advisory run is logged (compass-not-cage,
+# never a silent bypass). UTILITY skills are exempt (not graded against
+# the expert rubric).
+# ─────────────────────────────────────────────────────────
+
+HEARTBEAT_FAIL_CAP_THRESHOLD = 2   # failing this many checks caps the tier
+HEARTBEAT_CAP_TIER = "B"
+ADVISORY_LOG = ROOT / "evolution_store" / "skill_auditor_advisory_runs.jsonl"
+
+# Entity regex calibrated in skill_census.py (E1: fabricated-number-proof,
+# proper-noun bigrams deliberately removed 2026-07-02). Import to keep one
+# source of truth; inline fallback mirrors it.
+try:
+    from skill_census import (ENTITY_RE as _ENTITY_RE,
+                              NUMBERING_RE as _NUMBERING_RE,
+                              SECTION_RE as _SECTION_RE,
+                              sections_zero_entity as _sections_zero_entity)
+except ImportError:
+    _SECTION_RE = re.compile(r"^#{2,3}\s+", re.M)
+    _ENTITY_RE = re.compile(
+        r"\$\d|\d+%|\d{2,}|\d+\s?(?:x|lb|kg|kcal|min|hr|k)\b"
+        r"|[\"“][^\"”\n]{6,}[\"”]|https?://")
+    _NUMBERING_RE = re.compile(r"\b(?:pattern|step|phase|tier|level|check|rule)\s+\d+\b", re.I)
+
+    def _sections_zero_entity(genius: str):
+        idx = [m.start() for m in _SECTION_RE.finditer(genius)]
+        if not idx:
+            return 0, 0.0
+        idx.append(len(genius))
+        total, zero = 0, 0
+        for a, b in zip(idx, idx[1:]):
+            body = genius[a:b]
+            if len(body.strip()) < 80:
+                continue
+            body = "\n".join(body.splitlines()[1:])
+            body = _NUMBERING_RE.sub("", body)
+            total += 1
+            if not _ENTITY_RE.search(body):
+                zero += 1
+        return total, (zero / total if total else 0.0)
+
+# Named-entity floor threshold: skill_census.grade() flags zero_entity_ratio
+# ≥0.2 (calibrated 12/13 against the 2026-07-02 blind validation set).
+HEARTBEAT_ZERO_ENTITY_MAX = 0.2
+
+_HB_LIST_ITEM_RE = re.compile(r"^\s*(?:[-*]|\d+\.)\s+(.+)", re.M)
+_HB_HEADING_RE = re.compile(r"^(#{1,4})\s+(.*)$", re.M)
+_HB_ANTI_HEADING_RE = re.compile(r"anti.?pattern", re.I)
+_HB_ANTI_ITEM_RE = re.compile(r"\b(never|don'?t|do not|anti-pattern|failure mode)\b", re.I)
+# "Source attribution" on an anti-pattern: a date, timestamp, URL, source: tag,
+# verbatim quote, file path, or a named provenance word.
+_HB_SOURCE_ATTR_RE = re.compile(
+    r"\b\d{4}-\d{2}-\d{2}\b|\(\d{4}\)|\b20\d{2}\b|\d{1,2}:\d{2}"
+    r"|https?://|\bsource\b|\bsourced\b|\bper\b\s+`|\.md\b"
+    r"|\btranscript\b|\bepisode\b|\binterview\b|\bpodcast\b|\bvideo\b"
+    r"|[\"“][^\"”\n]{6,}[\"”]", re.I)
+_HB_INLINE_QUOTE_RE = re.compile(r"[\"“][^\"”\n]{40,}[\"”]")
+_HB_BLOCKQUOTE_RE = re.compile(r"(?:^>.*\n?)+", re.M)
+# Aligned with skill_census.RECOG_RE (calibrated 2026-07-02) + the craft-
+# standard phrasings ("recognition test", "using <X> vocabulary").
+_HB_RECOG_RE = re.compile(
+    r"recognition test|recognize this as|distinguish (?:this|it) from"
+    r"|(?:wearing|using) (?:\w+ )?vocabulary", re.I)
+_HB_LABEL_RE = re.compile(r"\bVERIFIED\b|\bLIKELY\b|\bUNCONFIRMED\b")
+# Contract concept, not one literal: claim-safe (the standard's own exemplar)
+# writes "Output Requirements"; others write "Output Schema"/"Output Format".
+_HB_OUTPUT_SCHEMA_RE = re.compile(r"output\s+(schema|format|requirements?)", re.I)
+_HB_QUALITY_GATE_RE = re.compile(r"quality\s+gate", re.I)
+
+
+def _read_text(path: Path) -> str:
+    try:
+        return path.read_text(encoding="utf-8", errors="replace")
+    except OSError:
+        return ""
+
+
+def _anti_pattern_items(genius: str) -> List[str]:
+    """List items inside anti-pattern-titled sections; fallback = any list
+    item anywhere whose text reads as a refusal (never/don't/anti-pattern)."""
+    items: List[str] = []
+    headings = list(_HB_HEADING_RE.finditer(genius))
+    for i, m in enumerate(headings):
+        if not _HB_ANTI_HEADING_RE.search(m.group(2)):
+            continue
+        level = len(m.group(1))
+        end = len(genius)
+        for nxt in headings[i + 1:]:
+            if len(nxt.group(1)) <= level:
+                end = nxt.start()
+                break
+        section = genius[m.end():end]
+        items.extend(t.strip() for t in _HB_LIST_ITEM_RE.findall(section))
+    if not items:
+        items = [t.strip() for t in _HB_LIST_ITEM_RE.findall(genius)
+                 if _HB_ANTI_ITEM_RE.search(t)]
+    return items
+
+
+def heartbeat_checks(skill_dir: Path, fp: Dict[str, Any]) -> List[Dict[str, Any]]:
+    """The six tier-affecting heartbeat checks. Each individually reportable:
+    [{"check", "passed", "detail"}, ...]."""
+    genius = _read_text(skill_dir / "genius.md")
+    skill_md = _read_text(skill_dir / "SKILL.md")
+    references_dir = skill_dir / "references"
+    workflows_dir = skill_dir / "workflows"
+    checks: List[Dict[str, Any]] = []
+
+    # 1. Anti-patterns ≥5 with source attribution (genius.md).
+    anti_items = _anti_pattern_items(genius)
+    sourced = [t for t in anti_items if _HB_SOURCE_ATTR_RE.search(t)]
+    checks.append({
+        "check": "anti_patterns_sourced",
+        "passed": len(sourced) >= 5,
+        "detail": f"{len(sourced)} source-attributed anti-pattern item(s) "
+                  f"(of {len(anti_items)} found; need ≥5 with a date/quote/source anchor)",
+    })
+
+    # 2. ≥3 verbatim exemplars (quoted material) in genius.md.
+    blockquotes = _HB_BLOCKQUOTE_RE.findall(genius)
+    inline_quotes = _HB_INLINE_QUOTE_RE.findall(genius)
+    exemplar_count = len(blockquotes) + len(inline_quotes)
+    checks.append({
+        "check": "verbatim_exemplars",
+        "passed": exemplar_count >= 3,
+        "detail": f"{len(blockquotes)} blockquote block(s) + {len(inline_quotes)} "
+                  f"long inline quote(s) = {exemplar_count} (need ≥3 verbatim exemplars)",
+    })
+
+    # 3. Recognition-test section present (SKILL.md or genius.md).
+    recog_hit = _HB_RECOG_RE.search(skill_md) or _HB_RECOG_RE.search(genius)
+    checks.append({
+        "check": "recognition_test",
+        "passed": bool(recog_hit),
+        "detail": (f"found: \"{recog_hit.group(0)}\"" if recog_hit
+                   else "no recognition-test language in SKILL.md or genius.md "
+                        "(\"would [expert] recognize this as theirs...\")"),
+    })
+
+    # 4. references/ source-ledger present.
+    ledger_files = []
+    labeled = False
+    if references_dir.is_dir():
+        for p in references_dir.rglob("*"):
+            if not p.is_file():
+                continue
+            if re.search(r"ledger|source", p.name, re.I):
+                ledger_files.append(p.name)
+            elif not labeled and _HB_LABEL_RE.search(_read_text(p)):
+                labeled = True
+                ledger_files.append(f"{p.name} (VERIFIED/LIKELY/UNCONFIRMED labels)")
+    genius_ledger = bool(re.search(r"source.?(ledger|caveats)", genius, re.I)) and _HB_LABEL_RE.search(genius)
+    checks.append({
+        "check": "source_ledger",
+        "passed": bool(ledger_files) or bool(genius_ledger),
+        "detail": (f"found: {', '.join(ledger_files[:3])}" if ledger_files
+                   else ("genius.md carries a labeled source section" if genius_ledger
+                         else "no references/*ledger*|*source* file, no VERIFIED/LIKELY/UNCONFIRMED "
+                              "labels anywhere — unauditable for hallucinated authority")),
+    })
+
+    # 5. Named-entity floor per genius pattern (skill_census calibration).
+    sections, zero_ratio = _sections_zero_entity(genius)
+    checks.append({
+        "check": "named_entity_floor",
+        "passed": sections > 0 and zero_ratio <= HEARTBEAT_ZERO_ENTITY_MAX,
+        "detail": f"{sections} pattern section(s), zero-entity ratio {zero_ratio:.2f} "
+                  f"(max {HEARTBEAT_ZERO_ENTITY_MAX}; every pattern needs ≥1 proper noun/number/quote)",
+    })
+
+    # 6. Output Schema + Quality Gate present per workflow file.
+    wf_files = sorted(workflows_dir.glob("*.md")) if workflows_dir.is_dir() else []
+    missing_contract = []
+    for wf in wf_files:
+        text = _read_text(wf)
+        gaps = []
+        if not _HB_OUTPUT_SCHEMA_RE.search(text):
+            gaps.append("Output Schema")
+        if not _HB_QUALITY_GATE_RE.search(text):
+            gaps.append("Quality Gate")
+        if gaps:
+            missing_contract.append(f"{wf.name} (missing {'+'.join(gaps)})")
+    checks.append({
+        "check": "workflow_contracts",
+        "passed": bool(wf_files) and not missing_contract,
+        "detail": (f"all {len(wf_files)} workflow file(s) carry Output Schema + Quality Gate"
+                   if wf_files and not missing_contract
+                   else (f"{len(missing_contract)}/{len(wf_files)} workflow file(s) missing contracts: "
+                         + "; ".join(missing_contract[:5]) if wf_files
+                         else "zero workflow files")),
+    })
+
+    return checks
+
+
+def heartbeat_failures(checks: List[Dict[str, Any]]) -> List[str]:
+    return [c["check"] for c in checks if not c["passed"]]
+
+
+def log_advisory_run(context: str) -> None:
+    """Every --advisory run is logged — the escape hatch exists (compass-not-
+    cage) but never silently."""
+    try:
+        ADVISORY_LOG.parent.mkdir(parents=True, exist_ok=True)
+        with open(ADVISORY_LOG, "a") as f:
+            f.write(json.dumps({
+                "ts": datetime.now().isoformat(),
+                "event": "heartbeat_advisory_run",
+                "context": context,
+            }) + "\n")
+    except Exception:
+        pass
 
 
 # ─────────────────────────────────────────────────────────
@@ -341,7 +563,7 @@ def classify_tier(fp: Dict[str, Any], trace: Optional[Dict[str, Any]],
 # Audit driver
 # ─────────────────────────────────────────────────────────
 
-def run_audit() -> Dict[str, Any]:
+def run_audit(advisory: bool = False) -> Dict[str, Any]:
     if not SKILLS_DIR.exists():
         return {"error": "skills_dir_missing"}
 
@@ -357,6 +579,24 @@ def run_audit() -> Dict[str, Any]:
         classification = classify_tier(fp, trace, cross_ref)
         craft_flags = craft_standard_flags(skill_dir, fp)
         rec = {**fp, "trace": trace, "cross_referenced": cross_ref, **classification, "craft_flags": craft_flags}
+
+        # Heartbeat checks — tier-affecting (Wave 2 promotion, 2026-07-09).
+        # Failing ≥2 caps the tier at B. UTILITY skills exempt. --advisory
+        # keeps the report but skips the cap (logged by main()).
+        if rec["tier"] != "UTILITY":
+            hb = heartbeat_checks(skill_dir, fp)
+            failures = heartbeat_failures(hb)
+            rec["heartbeat"] = hb
+            rec["heartbeat_failures"] = failures
+            if (not advisory
+                    and len(failures) >= HEARTBEAT_FAIL_CAP_THRESHOLD
+                    and rec["tier"] == "A"):
+                rec["tier"] = HEARTBEAT_CAP_TIER
+                rec["heartbeat_capped"] = True
+                rec["reasoning"].append(
+                    f"HEARTBEAT CAP: failed {len(failures)}/6 tier-affecting checks "
+                    f"({', '.join(failures)}) — capped at {HEARTBEAT_CAP_TIER} per "
+                    "directives/skill-craft-standard.md")
         records.append(rec)
 
     # Summary
@@ -403,6 +643,27 @@ def write_audit_report(audit: Dict[str, Any]) -> Path:
         "- **REVIEW** — heuristic conflict, low trace scores, or unused full-structure skills → human judgment",
         "",
     ]
+
+    # Heartbeat checks — TIER-AFFECTING (Wave 2 promotion, 2026-07-09)
+    hb_failing = [r for r in audit["records"]
+                  if len(r.get("heartbeat_failures") or []) >= HEARTBEAT_FAIL_CAP_THRESHOLD]
+    if hb_failing:
+        capped = [r for r in hb_failing if r.get("heartbeat_capped")]
+        lines += [
+            "## Heartbeat Checks (`directives/skill-craft-standard.md` — TIER-AFFECTING)",
+            "",
+            f"6 checks: anti-patterns ≥5 sourced · ≥3 verbatim exemplars · recognition test · "
+            f"source ledger · named-entity floor · workflow Output Schema+Quality Gate. "
+            f"Failing ≥{HEARTBEAT_FAIL_CAP_THRESHOLD} caps the tier at {HEARTBEAT_CAP_TIER}.",
+            "",
+            f"{len(hb_failing)} skill(s) fail ≥{HEARTBEAT_FAIL_CAP_THRESHOLD} checks "
+            f"({len(capped)} tier-capped this run):",
+            "",
+        ]
+        lines += [f"- `{r['name']}`: {', '.join(r['heartbeat_failures'])}"
+                  f"{' **[capped A→' + HEARTBEAT_CAP_TIER + ']**' if r.get('heartbeat_capped') else ''}"
+                  for r in sorted(hb_failing, key=lambda x: x["name"])]
+        lines.append("")
 
     # Craft standard flags — advisory only, per directives/skill-craft-standard.md
     flagged = [r for r in audit["records"] if r.get("craft_flags")]
@@ -642,8 +903,16 @@ def main():
     parser = argparse.ArgumentParser(description="Skill Auditor — tier-grade skill directories")
     sub = parser.add_subparsers(dest="command")
 
-    sub.add_parser("audit", help="Run audit and write report")
+    aud = sub.add_parser("audit", help="Run audit and write report")
+    aud.add_argument("--advisory", action="store_true",
+                     help="Heartbeat checks report but do NOT cap tiers (old behavior; logged)")
     sub.add_parser("duplication", help="Cross-reference skills × agents")
+
+    chk = sub.add_parser("check", help="Run the 6 tier-affecting heartbeat checks on ONE skill "
+                                       "(gate mode for extract/extract-forge QC; exit 1 on ≥2 failures)")
+    chk.add_argument("--skill", required=True, help="Skill directory name under skills/")
+    chk.add_argument("--advisory", action="store_true",
+                     help="Report failures without gating (exit 0; logged)")
 
     upd = sub.add_parser("update-index", help="Annotate SKILL_INDEX.md with tier classifications")
     upd.add_argument("--apply", action="store_true", help="Actually write (default: preview)")
@@ -658,13 +927,47 @@ def main():
     args = parser.parse_args()
 
     if args.command == "audit":
-        audit = run_audit()
+        if args.advisory:
+            log_advisory_run("audit --advisory (tier caps suppressed)")
+        audit = run_audit(advisory=args.advisory)
         path = write_audit_report(audit)
         print(json.dumps({
             "total_skills": audit["total_skills"],
             "tier_counts": audit["tier_counts"],
+            "advisory": args.advisory,
             "report": str(path),
         }, indent=2))
+
+    elif args.command == "check":
+        skill_dir = SKILLS_DIR / args.skill
+        if not skill_dir.is_dir():
+            print(f"ERROR: skills/{args.skill} not found")
+            sys.exit(1)
+        fp = fingerprint_skill(skill_dir)
+        if fp["name"] in UTILITY_SKILLS:
+            print(f"{args.skill}: UTILITY skill — exempt from heartbeat grading")
+            sys.exit(0)
+        checks = heartbeat_checks(skill_dir, fp)
+        failures = heartbeat_failures(checks)
+        print(f"Heartbeat check — skills/{args.skill} "
+              f"(directives/skill-craft-standard.md, tier-affecting)")
+        for c in checks:
+            print(f"  [{'PASS' if c['passed'] else 'FAIL'}] {c['check']}: {c['detail']}")
+        print(f"  → {len(failures)}/6 failing"
+              + (f" ({', '.join(failures)})" if failures else ""))
+        if len(failures) >= HEARTBEAT_FAIL_CAP_THRESHOLD:
+            if args.advisory:
+                log_advisory_run(f"check --skill {args.skill} --advisory "
+                                 f"({len(failures)} failures, gate suppressed)")
+                print(f"  ADVISORY MODE — would cap tier at {HEARTBEAT_CAP_TIER} "
+                      f"(≥{HEARTBEAT_FAIL_CAP_THRESHOLD} failures); logged to "
+                      f"{ADVISORY_LOG.relative_to(ROOT)}. Exit 0.")
+                sys.exit(0)
+            print(f"  GATE: tier capped at {HEARTBEAT_CAP_TIER} — fix the failing checks "
+                  "or ship with the gap named (embodiment-standard.md FAIL path). Exit 1.")
+            sys.exit(1)
+        print("  GATE: clear.")
+        sys.exit(0)
 
     elif args.command == "duplication":
         print(json.dumps(run_duplication_audit(), indent=2))

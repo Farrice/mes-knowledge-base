@@ -1,26 +1,26 @@
 # Knowledge Briefing
-*Generated: 2026-07-07 | 529 sources | 2,403,103 words*
+*Generated: 2026-07-09 | 530 sources | 2,404,484 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 3,777 words — `knowledge/index.md`
-- **log** (general) — 10,413 words — `knowledge/log.md`
+- **index** (content) — 3,782 words — `knowledge/index.md`
+- **log** (general) — 11,052 words — `knowledge/log.md`
+- **SKILL** (content) — 1,066 words — `extractions/meg-heckman/codex-prior-art/skill/SKILL.md`
+- **meg-heckman-buyer-trigger-os-harvest** (research) — 1,517 words — `extractions/meg-heckman/video-context-7MNa2YTPGs4/meg-heckman-buyer-trigger-os-harvest.md`
+- **research-integrity-audit** (research) — 3,469 words — `research_outputs/research-integrity-audit.md`
+- **VISION** (content) — 737 words — `extractions/dara-denney/static-ads-masterclass/VISION.md`
 - **architecture** (systems) — 525 words — `extractions/wargame-source/architecture.md`
 - **blind-pass-output** (copywriting) — 3,611 words — `extractions/wargame-source/blind-pass-output.md`
 - **laundry-list-notes** (copywriting) — 2,380 words — `extractions/wargame-source/laundry-list-notes.md`
 - **mes-extraction** (content) — 4,604 words — `extractions/wargame-source/mes-extraction.md`
-- **vision** (content) — 678 words — `extractions/wargame-source/vision.md`
-- **visual-context** (sales) — 3,121 words — `extractions/wargame-source/visual-context.md`
-- **2026-07-07-claim-safe-content-landscape** (content) — 3,450 words — `research_outputs/2026-07-07-claim-safe-content-landscape.md`
-- **evolved-alex-suzuki-digital-product-revenue-os-2026-07-06** (brand) — 370 words — `knowledge/patterns/evolved-alex-suzuki-digital-product-revenue-os-2026-07-06.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 176 | nicolas-cole |
+| content | 177 | nicolas-cole |
 | copywriting | 85 | luke-iha |
 | general | 74 | nick-saraev |
 | screenwriting | 42 | connelly |

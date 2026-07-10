@@ -12,14 +12,62 @@ import re
 from typing import Any
 
 
-SYSTEM_SURFACE_TERMS = (
+# Tiered evidence (2026-07-08 misfire fix): in THIS workspace "hook", "skill",
+# "agent", "chain", "default" are content-craft vocabulary first and system
+# vocabulary second. A single weak term + an everyday problem word ("why",
+# "issue", "wrong") was routing client/content work to /system-audit at
+# confidence 90+. Strong anchors are unambiguous control-plane words that may
+# fire alone; weak surface terms only count in aggregate and never against a
+# content-domain prompt.
+STRONG_ANCHOR_TERMS = (
     "codex",
     "claude code",
+    "claude parity",
+    "claude-parity",
+    "router",
+    "routers",
+    "skill router",
+    "workflow router",
+    "routing enforcer",
+    "routing",
+    "system-audit",
+    "system audit",
+    "wiring",
+    "rewire",
+    "hook wiring",
+    "route wiring",
+    "preflight",
+    "verifier",
+    "verifiers",
+    "control plane",
+    "control-plane",
+    "front door",
+    "settings.json",
+    "harness",
+    "misfire",
+    "misfires",
+    "misfiring",
+    "source-command",
+    "session ledger",
+    "cost gate",
+    "google antigravity",
+    "codex antigravity",
+    "global bridge",
+    "prompt hook",
+)
+
+# "hook(s)" is only a system anchor next to a system verb — content hooks
+# grip/convert/land; system hooks fire/block/inject/enforce/gate.
+HOOK_SYSTEM_RE = re.compile(
+    r"\bhooks?\b[^.!?]{0,60}?\b(fir\w*|block\w*|inject\w*|enforc\w*|wir\w*|gat\w*|trigger\w*|suppress\w*)\b"
+    r"|\b(fir\w*|block\w*|inject\w*|enforc\w*|wir\w*|gat\w*|trigger\w*|suppress\w*)\b[^.!?]{0,60}?\bhooks?\b"
+)
+
+SYSTEM_SURFACE_TERMS = (
     "hook",
     "hooks",
     "route",
     "routes",
-    "routing",
     "workflow",
     "workflows",
     "skill",
@@ -29,28 +77,53 @@ SYSTEM_SURFACE_TERMS = (
     "default",
     "defaults",
     "settings",
-    "front door",
-    "preflight",
-    "prompt hook",
     "wrapper",
     "wrappers",
     "wired",
-    "wiring",
     "linked",
     "linking",
     "chained",
     "chain",
     "handcuffed",
-    "source-command",
     "selective language",
     "workspace",
     "workspaces",
     "global",
-    "global codex",
-    "global bridge",
-    "google antigravity",
-    "codex antigravity",
     "bridge",
+)
+
+# Content-domain context: if the prompt lives in deliverable land, weak-only
+# evidence must never route it to control-plane repair.
+CONTENT_DOMAIN_TERMS = (
+    "post",
+    "posts",
+    "email",
+    "emails",
+    "copy",
+    "headline",
+    "headlines",
+    "linkedin",
+    "reel",
+    "reels",
+    "video",
+    "script",
+    "newsletter",
+    "substack",
+    "essay",
+    "article",
+    "carousel",
+    "listing",
+    "client",
+    "program",
+    "workout",
+    "fitness",
+    "offer",
+    "funnel",
+    "landing page",
+    "brand",
+    "campaign",
+    "converting",
+    "conversion",
 )
 
 SYSTEM_PROBLEM_TERMS = (
@@ -209,6 +282,17 @@ def _hits(query: str, terms: tuple[str, ...]) -> list[str]:
     return [term for term in terms if term in query]
 
 
+def _word_hits(query: str, terms: tuple[str, ...]) -> list[str]:
+    """Word-boundary matching — 'chain' must not hit 'blockchain', 'issue' not 'tissue'."""
+
+    hits = []
+    for term in terms:
+        pattern = r"\b" + re.escape(term).replace(r"\ ", r"\s+") + r"\b"
+        if re.search(pattern, query):
+            hits.append(term)
+    return hits
+
+
 def _looks_like_repair_status_review(query: str) -> bool:
     """Detect post-repair/status review turns without relying on exact complaints."""
 
@@ -246,11 +330,19 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
     """
 
     q = normalize(strip_explicit_invocation_artifacts(prompt))
-    surface_hits = _hits(q, SYSTEM_SURFACE_TERMS)
-    problem_hits = _hits(q, SYSTEM_PROBLEM_TERMS)
-    action_hits = _hits(q, SYSTEM_ACTION_TERMS)
+    anchor_hits = _word_hits(q, STRONG_ANCHOR_TERMS)
+    if HOOK_SYSTEM_RE.search(q):
+        anchor_hits.append("hook+system-verb")
+    surface_hits = _word_hits(q, SYSTEM_SURFACE_TERMS)
+    problem_hits = _word_hits(q, SYSTEM_PROBLEM_TERMS)
+    action_hits = _word_hits(q, SYSTEM_ACTION_TERMS)
+    content_context = bool(_word_hits(q, CONTENT_DOMAIN_TERMS))
     repeatability_hits = _hits(q, REPEATABILITY_TERMS)
-    repair_status_review = _looks_like_repair_status_review(q)
+    # A repair/status review loses to content-domain context — "why wasn't the
+    # email fixed" is a content revision complaint, not a control-plane one.
+    # A bare "nothing was fixed that I wanted" (no domain nouns) stays with
+    # /system-audit per the operator-core probe contract.
+    repair_status_review = _looks_like_repair_status_review(q) and not content_context
 
     embedded_system_repair_plan = bool(
         repeatability_hits
@@ -365,26 +457,34 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
         not explicit_command_invoke
     )
     selective_language_complaint = "selective language" in q and (problem_hits or "linked" in q or "linking" in q)
-    shape_match = (
-        bool(surface_hits and (problem_hits or action_hits))
-        and not wrong_route_complaint
-        and not explicit_command_invoke
-    )
-    multi_surface_complaint = (
-        len(surface_hits) >= 2
-        and bool(problem_hits)
-        and not wrong_route_complaint
-        and not explicit_command_invoke
-    )
     general_distress = any(term in q for term in GENERAL_DISTRESS_TERMS)
     concrete_deliverable = any(re.search(rf"\b{re.escape(term)}\b", q) for term in DELIVERABLE_VERBS)
+
+    # Tiered shape match (2026-07-08): a strong anchor + any problem/action
+    # evidence fires; weak surface terms alone need aggregate evidence (2+
+    # distinct surfaces, a problem AND an action) and lose to deliverable or
+    # content-domain context. This is what stops "why is this post not
+    # converting, check the hook" from routing to /system-audit.
+    anchored_match = bool(anchor_hits and (problem_hits or action_hits))
+    weak_lemmas = {t.rstrip("s") for t in surface_hits}
+    weak_aggregate_match = (
+        len(weak_lemmas) >= 2
+        and bool(problem_hits)
+        and bool(action_hits)
+        and not concrete_deliverable
+        and not content_context
+    )
+    shape_match = (
+        (anchored_match or weak_aggregate_match)
+        and not wrong_route_complaint
+        and not explicit_command_invoke
+    )
 
     if (
         repair_status_review
         or source_command_control
         or selective_language_complaint
         or shape_match
-        or multi_surface_complaint
     ):
         return {
             "route": "system-audit",
@@ -392,6 +492,7 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
             "reason": "System, route, hook, default, or wiring complaint should use control-plane repair before expert matching.",
             "evidence": (
                 (["repair/status review"] if repair_status_review else [])
+                + anchor_hits
                 + surface_hits
                 + problem_hits
                 + action_hits
@@ -399,6 +500,7 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
             "confidence": 90
             + min(
                 (1 if repair_status_review else 0)
+                + len(anchor_hits) * 2
                 + len(surface_hits)
                 + len(problem_hits)
                 + len(action_hits),

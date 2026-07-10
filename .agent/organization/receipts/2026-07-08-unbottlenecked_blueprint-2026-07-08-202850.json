@@ -1,0 +1,47 @@
+{
+  "applied_at": "2026-07-09T03:28:50+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/01_strategy_blueprint.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/04-deliverables/01_strategy_blueprint.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/02_ship_it_report.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/04-deliverables/02_ship_it_report.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/03_strategic_clarity_report.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/04-deliverables/03_strategic_clarity_report.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/04_high_ticket_offer_architecture.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/04-deliverables/04_high_ticket_offer_architecture.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/05_continuity_offer_architecture.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/04-deliverables/05_continuity_offer_architecture.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/06_icp_intelligence_report.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/04-deliverables/06_icp_intelligence_report.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/01_strategy_blueprint.md",
+    "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/02_ship_it_report.md",
+    "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/03_strategic_clarity_report.md",
+    "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/04_high_ticket_offer_architecture.md",
+    "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/05_continuity_offer_architecture.md",
+    "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/06_icp_intelligence_report.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint",
+  "project_slug": "unbottlenecked_blueprint",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-08.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/research_outputs/research-integrity-audit.md": 1
+  },
+  "skipped": [],
+  "version": 1
+}

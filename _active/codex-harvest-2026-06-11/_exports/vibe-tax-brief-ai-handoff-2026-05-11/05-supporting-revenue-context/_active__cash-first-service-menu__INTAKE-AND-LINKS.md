@@ -60,7 +60,7 @@ Ask:
 
 ### AI Content Misfire Audit
 
-Use `_active/content-system-audit/intake-form.md`.
+Use `_active/content-system-audit/06-system/intake-form.md`.
 
 ## Payment Language
 

@@ -1,0 +1,51 @@
+{
+  "applied_at": "2026-07-09T03:13:20+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/CLIENT_ACQUISITION_OFFER.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/COMPOSITION_LEDGER.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/06-system/COMPOSITION_LEDGER.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/SERVICE_LADDER.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/04-deliverables/SERVICE_LADDER.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/CLIENT_ACQUISITION_OFFER.md",
+    "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/COMPOSITION_LEDGER.md",
+    "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/SERVICE_LADDER.md"
+  ],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/AUTOMATION_PROMPT.md",
+      "reason": "referenced from control-plane file: execution/verify_health_performance_geo_prompt.py"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library",
+  "project_slug": "health-performance-ip-library",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-08.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.agent/missions/health-geo-client-acquisition-upgrade/mission.json": 4,
+    "/Users/farricecain/Google Antigravity/.agent/missions/health-geo-client-acquisition-upgrade/mission.md": 4,
+    "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/06-system/COMPOSITION_LEDGER.md": 2,
+    "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/projects/2026-06-23-revenue-source-to-search-trust-layer-glp1/01-offer/2026-06-23-source-to-search-trust-layer-one-page-offer-insert.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/projects/2026-06-23-revenue-source-to-search-trust-layer-glp1/03-reviews/2026-06-23-source-to-search-trust-layer-review-packet.md": 3,
+    "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/projects/2026-06-23-revenue-source-to-search-trust-layer-glp1/03-reviews/2026-06-23-source-to-search-trust-layer-review-packet.metadata.json": 2,
+    "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/projects/2026-06-23-revenue-source-to-search-trust-layer-glp1/04-source-context/2026-06-23-source-map-and-source-of-truth.md": 2,
+    "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/public-assets/source-to-search-trust-layer-one-page-offer-insert.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/review-packets/source-to-search-trust-layer-review-packet.md": 3,
+    "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/review-packets/source-to-search-trust-layer-review-packet.metadata.json": 2,
+    "/Users/farricecain/Google Antigravity/_active/linkedin-launch/00-CONTROL-TOWER.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/CANONICAL-OFFER-BRIEF.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/UNIFIED-OFFER-INDEX.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/UNIFIED-OFFER-MANIFEST.txt": 1,
+    "/Users/farricecain/Google Antigravity/_active/linkedin-launch/99-archive/superseded-offer-2026-07-01/unified-offer-brief-usage-guide.md": 1
+  },
+  "skipped": [],
+  "version": 1
+}

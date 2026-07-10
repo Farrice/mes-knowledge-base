@@ -662,3 +662,154 @@
     }
   ]
 }
+{
+  "run_at": "2026-07-08T07:00:01.198583",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-07-08.md",
+        "traces_24h": 30,
+        "routing_decisions_24h": 30,
+        "queued_phase2": 10,
+        "queued_binding_reviews": 1,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 10,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "satori-graphics": 1.1,
+            "supercomputer": 0.6,
+            "jason-fladlien-marketing": 0.95,
+            "nate-b-jones-orchestration-intelligence": 0.95,
+            "claim-safe-health-marketing": 1.0,
+            "design-md": 0.85,
+            "nate-b-jones-auto-improvement-loops": 0.95,
+            "self-evolving-systems": 0.9,
+            "chief-of-staff-os": 1.05,
+            "brand-operating-system": 0.9,
+            "david-placek-naming": 0.8,
+            "seena-rez-tiktok-commerce": 1.05,
+            "paul-harding-lyric-prose": 1.05,
+            "mark-kashef-agent-orchestration": 1.05,
+            "writing-depth-layer": 1.05,
+            "darrel-wilson-ai-monetization": 0.95,
+            "darrel-wilson-ai-affiliate": 0.95,
+            "dara-denney-meta-ads": 1.2,
+            "extract-mastery": 1.1,
+            "nate-b-jones-context-engineering": 0.95,
+            "doc-coauthoring": 0.9,
+            "strength-conditioning-os": 1.2,
+            "jen-santulan-listing-content": 0.9,
+            "oren-operational-systems": 0.8,
+            "creative-direction": 0.7,
+            "fantastic-posters": 1.05,
+            "ben-watkins-storytelling": 1.05,
+            "swarm-commander": 1.15,
+            "mark-kashef-wargame-os": 1.05
+          },
+          "candidates_appended": 1,
+          "quality_finalizes_counted": 27,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 43.5
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 47.4
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-07-02T07:00:01.046110",
+      "reason": "not_due_yet",
+      "days_remaining": 1.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-06-09T18:32:26.097605",
+      "reason": "not_due_yet",
+      "days_remaining": 1.48
+    }
+  ]
+}
+{
+  "run_at": "2026-07-09T07:00:04.629741",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-07-09.md",
+        "traces_24h": 11,
+        "routing_decisions_24h": 11,
+        "queued_phase2": 10,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 10,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "satori-graphics": 1.13,
+            "supercomputer": 0.5,
+            "jason-fladlien-marketing": 0.92,
+            "nate-b-jones-orchestration-intelligence": 0.92,
+            "claim-safe-health-marketing": 1.0,
+            "design-md": 0.67,
+            "nate-b-jones-auto-improvement-loops": 0.92,
+            "self-evolving-systems": 0.82,
+            "chief-of-staff-os": 1.08,
+            "brand-operating-system": 0.77,
+            "david-placek-naming": 0.62,
+            "seena-rez-tiktok-commerce": 1.08,
+            "paul-harding-lyric-prose": 1.08,
+            "mark-kashef-agent-orchestration": 1.08,
+            "writing-depth-layer": 1.08,
+            "darrel-wilson-ai-monetization": 0.92,
+            "darrel-wilson-ai-affiliate": 0.92,
+            "dara-denney-meta-ads": 1.33,
+            "extract-mastery": 1.03,
+            "nate-b-jones-context-engineering": 0.92,
+            "doc-coauthoring": 0.77,
+            "donald-miller-cognitive-load": 1.05
+          },
+          "candidates_appended": 1,
+          "quality_finalizes_counted": 0,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 67.5
+          }
+        }
+      }
+    },
+    {
+      "weekly": {
+        "cycle": "weekly",
+        "snapshot_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/weekly_baseline_2026-07-09.json",
+        "skills_tracked": 53,
+        "degrading_count": 1,
+        "degrading_skills": [
+          "system-audit"
+        ],
+        "improving_count": 3,
+        "improving_skills": [
+          "strength-conditioning-os",
+          "execution",
+          "extract-mastery"
+        ],
+        "router_report_card_path": "/Users/farricecain/Google Antigravity/.agent/router-report-card.md"
+      }
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "monthly",
+      "last_run": "2026-06-09T18:32:26.097605",
+      "reason": "not_due_yet",
+      "days_remaining": 0.48
+    }
+  ]
+}

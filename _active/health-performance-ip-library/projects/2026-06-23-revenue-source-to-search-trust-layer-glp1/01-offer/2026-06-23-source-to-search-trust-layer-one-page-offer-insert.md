@@ -70,7 +70,7 @@ We turn your best knowledge into agent-readable trust assets: source receipts, d
 
 ## Source Notes
 
-- Internal offer source: `_active/health-performance-ip-library/CLIENT_ACQUISITION_OFFER.md`
+- Internal offer source: `_active/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md`
 - Trust layer packet: `_active/health-performance-ip-library/review-packets/source-to-search-trust-layer-review-packet.md`
 - Method spine: Nate B. Jones trust architecture and intent engineering skills
 - Search layer: Ethan Smith AEO and Nathan Gotch AI SEO skills

@@ -1,0 +1,26 @@
+{
+  "title": "DWA Ready-or-Not Campaign V4",
+  "artifact_type": "conversion_campaign_packet",
+  "created_at": "2026-06-13",
+  "owner": "alex-suzuki-digital-product-revenue-os",
+  "revision_reason": "V3 was safe but too hesitation-weighted; V4 creates purchase-ready decision motion without income claims.",
+  "source_files": [
+    "deliverables/dwa-campaigns/dwa-edgecase-3-campaign-v3-voice.md",
+    "research_outputs/dwa-social-listening-deepening-2026-06-13.md",
+    "skills/alex-suzuki-digital-product-revenue-os/SKILL.md",
+    "skills/cardinal-mason-ai-copywriting/genius.md"
+  ],
+  "subagents_used": [
+    "019ec2ee-fcce-7ff2-a46a-e9805ac74d4e",
+    "019ec2ef-0c71-7050-9e36-25f7beb6fe2e",
+    "019ec2ef-1a3c-75d0-9ca4-fbd9225e45cd"
+  ],
+  "primary_ctas": ["FIT", "LINK"],
+  "constraints": [
+    "no income claims",
+    "no payback promises",
+    "affiliate disclosure before endorsement/link",
+    "fit check before affiliate link",
+    "final-sale/non-refundable reminder before link"
+  ]
+}

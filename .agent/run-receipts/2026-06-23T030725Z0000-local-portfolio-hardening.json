@@ -11,7 +11,7 @@
   "meta_intent": "Recruiter-ready artifact export and editability",
   "composition_owner": "main-thread",
   "feedback_hook": "",
-  "changed": "projects/farrice-creative-strategist-portfolio/styles.css; index.html; EDITING_GUIDE.md; RECRUITER_SEND_GUIDE.md; PDF export",
+  "changed": "projects/farrice-creative-strategist-portfolio/01-source/styles.css; index.html; EDITING_GUIDE.md; RECRUITER_SEND_GUIDE.md; PDF export",
   "passed": "Face-safe object-position added; print CSS added; PDF generated and first page rendered; desktop/mobile checks: 0 broken images, no overflow, clean console; favicon added to remove missing favicon noise",
   "failed": "No local PDF compressor available; full PDF is 21MB",
   "needs_judgment": "PDF is ready to send; public site deployment requires explicit host approval",

@@ -1,0 +1,87 @@
+{
+  "applied_at": "2026-07-09T03:10:41+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/04-listing-copy.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/04-deliverables/04-listing-copy.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/05-design-handoff.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/04-deliverables/05-design-handoff.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/06-launch-checklist.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/04-deliverables/06-launch-checklist.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/07-diagnose-metrics.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/04-deliverables/07-diagnose-metrics.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/08-run-summary.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/04-deliverables/08-run-summary.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/09-week1-drop-hero-brief.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/04-deliverables/09-week1-drop-hero-brief.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/10-studio-job-still-synced.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/04-deliverables/10-studio-job-still-synced.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/04-listing-copy.md",
+    "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/05-design-handoff.md",
+    "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/06-launch-checklist.md",
+    "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/07-diagnose-metrics.md",
+    "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/08-run-summary.md",
+    "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/09-week1-drop-hero-brief.md",
+    "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/10-studio-job-still-synced.md"
+  ],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/00-run-config.md",
+      "reason": "referenced from control-plane file: .agent/workflows/merch-os.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/01-ground.md",
+      "reason": "referenced from control-plane file: .agent/workflows/merch-os.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/02-concepts.md",
+      "reason": "referenced from control-plane file: .agent/workflows/merch-os.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/03-scorecard.md",
+      "reason": "referenced from control-plane file: .agent/workflows/merch-os.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/04-listings.md",
+      "reason": "referenced from control-plane file: .agent/workflows/merch-os.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/05-prompt-pack.md",
+      "reason": "referenced from control-plane file: .agent/workflows/merch-os.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/06-launch-plan.md",
+      "reason": "referenced from control-plane file: .agent/workflows/merch-os.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/07-diagnostics.md",
+      "reason": "referenced from control-plane file: .agent/workflows/merch-os.md"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1",
+  "project_slug": "mybpm-merch-os-run-1",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-08.sh",
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_fantastic-studio.md": 1,
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_satori-graphics-v2-design-thinking.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/04-deliverables/09-week1-drop-hero-brief.md": 3
+  },
+  "skipped": [],
+  "version": 1
+}

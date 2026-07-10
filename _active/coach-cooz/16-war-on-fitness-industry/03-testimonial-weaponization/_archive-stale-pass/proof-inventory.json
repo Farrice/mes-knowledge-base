@@ -1,0 +1,175 @@
+{
+  "harvest_date": "2026-07-08",
+  "total_quotes": 36,
+  "sources": {
+    "coachcooz_resurrections": {
+      "url": "https://www.coachcooz.com/resurrections",
+      "quote_count": 33,
+      "status": "active",
+      "extraction_method": "WebFetch"
+    },
+    "fitnessoverhollywood": {
+      "url": "https://www.fitnessoverhollywood.com/",
+      "quote_count": 3,
+      "status": "active",
+      "extraction_method": "WebFetch"
+    },
+    "yelp": {
+      "url": "https://www.yelp.com/biz/fitness-over-hollywood-north-hollywood-2",
+      "quote_count": 0,
+      "status": "blocked_403",
+      "note": "20 reviews exist but access blocked, manual harvest required",
+      "extraction_method": "blocked"
+    }
+  },
+  "top_quotes_by_impact": [
+    {
+      "rank": 1,
+      "name": "Cody McBroom",
+      "type": "peer_authority",
+      "quote": "What separates him is the amount of care he has for you.",
+      "feeling_language": true,
+      "source": "https://www.coachcooz.com/resurrections"
+    },
+    {
+      "rank": 2,
+      "name": "Mariano",
+      "type": "established_expert",
+      "quote": "Coach Cooz gives his clients an unparalleled level of professionalism, dedication, and care.",
+      "feeling_language": true,
+      "source": "https://www.coachcooz.com/resurrections"
+    },
+    {
+      "rank": 3,
+      "name": "Mari",
+      "type": "transformation_quantified",
+      "quote": "Within three months I went from 132 lbs to 148 lbs. The results were phenomenal.",
+      "feeling_language": true,
+      "metrics": {
+        "before_weight": 132,
+        "after_weight": 148,
+        "weight_gain": 16,
+        "timeline_months": 3
+      },
+      "source": "https://www.coachcooz.com/resurrections"
+    },
+    {
+      "rank": 4,
+      "name": "Robin",
+      "type": "identity_transformation",
+      "quote": "With Coach Cooz, I've not only transformed my body but also my mindset. I feel supported, motivated, and genuinely invested in.",
+      "feeling_language": true,
+      "feeling_words": ["transformed", "supported", "motivated", "invested"],
+      "source": "https://www.coachcooz.com/resurrections"
+    },
+    {
+      "rank": 5,
+      "name": "Mario",
+      "type": "objection_handler_fun",
+      "quote": "Acusio makes it FUN—I actually enjoy going to our sessions. I've lost 4% body fat and am FULL of energy!",
+      "feeling_language": true,
+      "feeling_words": ["FUN", "enjoy", "FULL of energy"],
+      "metrics": {
+        "body_fat_loss_percent": 4,
+        "duration_years": 5
+      },
+      "source": "https://www.coachcooz.com/resurrections"
+    }
+  ],
+  "objection_handlers": {
+    "age_injury_health": [
+      {
+        "name": "Buzz",
+        "age": 65,
+        "quote": "I'm 65 and used to be quite active. Since Covid I had fallen out of shape. Cooz has me feeling stronger and better."
+      },
+      {
+        "name": "Jennifer",
+        "condition": "post_ankle_injury",
+        "quote": "After an ankle injury, not only did he make me feel safe but also so welcomed. His attention to detail is everything."
+      },
+      {
+        "name": "Jessica",
+        "condition": "thyroid_cancer_history",
+        "quote": "I now lift heavier, have more knowledge, and feel so much more confident being back in the gym."
+      }
+    ],
+    "pain_gym_resistance": [
+      {
+        "name": "Mario",
+        "quote": "Acusio makes it FUN—I actually enjoy going to our sessions."
+      },
+      {
+        "name": "Davonte",
+        "quote": "The workouts were difficult but not straining."
+      }
+    ]
+  },
+  "feeling_language_index": {
+    "confidence": ["Angie", "Paige", "Jessica", "Johnny", "Sammy"],
+    "accomplished": ["Sammy", "Jess", "Corey"],
+    "strong_stronger": ["Angie", "Buzz", "Carron", "Karima", "Bruce"],
+    "energy": ["Carron", "Mario", "Buzz"],
+    "fun_enjoy": ["Lulu", "Saeed", "Mario"],
+    "supported_supportive": ["Robin", "Jeannette"],
+    "safe_comfortable": ["Melissa", "Patricia", "Jennifer"],
+    "grateful": ["Karima"],
+    "transformed": ["Robin"],
+    "motivated": ["Robin", "Jeannette", "Delirious L."]
+  },
+  "demographics": {
+    "age_65_plus": ["Buzz"],
+    "medical_conditions": ["Patricia", "Jessica", "Johnny"],
+    "injury_recovery": ["Jennifer"],
+    "long_term_clients_2plus_years": ["Jess", "Sam", "Mario", "Bruce", "Sammy"],
+    "peer_authority": ["Cody McBroom"],
+    "gym_experienced_20plus_years": ["Mariano"]
+  },
+  "transformation_metrics": [
+    {
+      "name": "Mari",
+      "metric": "weight",
+      "before": 132,
+      "after": 148,
+      "unit": "lbs",
+      "timeline": "3 months"
+    },
+    {
+      "name": "Mario",
+      "metric": "body_fat",
+      "before": null,
+      "after": "-4%",
+      "unit": "percent",
+      "timeline": "5 years training"
+    },
+    {
+      "name": "Karima",
+      "metric": "weight_loss",
+      "before": null,
+      "after": "-8",
+      "unit": "lbs",
+      "timeline": "3 months"
+    }
+  ],
+  "next_actions": [
+    {
+      "priority": 1,
+      "task": "Yelp Harvest",
+      "description": "Manually extract 20 Fitness Over Hollywood Yelp reviews",
+      "url": "https://www.yelp.com/biz/fitness-over-hollywood-north-hollywood-2",
+      "status": "pending"
+    },
+    {
+      "priority": 2,
+      "task": "Video Transcripts",
+      "description": "Extract YouTube testimonial transcripts from Fitness Over Hollywood",
+      "status": "pending"
+    },
+    {
+      "priority": 3,
+      "task": "Flyer Proof Deck",
+      "description": "Create 3-proof landing page block with top quotes",
+      "status": "ready_for_design"
+    }
+  ]
+}

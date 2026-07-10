@@ -245,11 +245,36 @@ def research(query: str, depth: str = "standard",
     elif result is None and depth == "standard":
         attempts.append(EngineAttempt(GE.PERPLEXITY, AO.NOT_ATTEMPTED, detail="reserved for deep/max"))
 
-    # 3. CLAUDE BEDROCK FLOOR — always catches failure
+    # 3. CLAUDE BEDROCK FLOOR — catches failure AND below-floor "successes".
+    #    2026-07-08: gemini_deep returned SUCCESS with 0 sources (132 claims
+    #    quarantined) and the healthy floor was never attempted — $0.50 for
+    #    unusable output. An accelerator only "delivers" if it clears the
+    #    depth floor; otherwise the floor runs and the better result wins.
+    min_src = DEPTH_MIN_SOURCES.get(depth, 3)
+    min_dom = DEPTH_MIN_DOMAINS.get(depth, 3)
+    accel_below_floor = (result is not None and result.status != RS.FAILED
+                         and (result.source_count < min_src or result.unique_domains < min_dom))
     if result is None or result.status == RS.FAILED:
         floor = run_floor(query, depth=depth)
         floor.attempts = attempts + floor.attempts  # prepend the accelerator receipt rows
         result = floor
+    elif accel_below_floor:
+        floor = run_floor(query, depth=depth)
+        if floor.source_count > result.source_count:
+            # Accelerator spend was real even though the floor result wins —
+            # log it here since step 5 will only see the floor's $0.
+            if result.cost_usd and result.cost_usd > 0:
+                _cost_gate_log(result.engine_used, result.cost_usd)
+            floor.warnings.append(
+                f"accelerator {result.engine_used} below floor "
+                f"({result.source_count} sources / {result.unique_domains} domains) — "
+                f"native floor result used instead")
+            floor.attempts = attempts + floor.attempts
+            result = floor
+        else:
+            result.warnings.append(
+                "native floor attempted (accelerator below floor) but did not improve source count")
+            result.attempts = attempts + floor.attempts + result.attempts
     else:
         attempts.append(EngineAttempt(GE.NATIVE, AO.NOT_ATTEMPTED, detail="accelerator delivered"))
         result.attempts = attempts + result.attempts

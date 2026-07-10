@@ -60,9 +60,10 @@ re-implement what the conductor already owns.
 ## Stage 3 — DELIVER + Next-Prompts
 
 Deliver the output, then close with the 3 Next-Prompts steering block below.
-This is the deterministic version of "the follow-up three-prompt" — it fires
-in Claude Code sessions even though the GEMINI.md/AGENTS.md Operator Lesson
-spec never made it into CLAUDE.md's Chain.
+As of 2026-07-08 this spec IS global: CLAUDE.md Chain Step 7 (Steering Loop,
+`directives/steering-loop.md`) enforces a per-exchange Next Moves block via
+`execution/hooks/steering_loop_hook.py` on every model. This stage remains the
+conductor-level version of the same contract.
 
 ### Next-Prompts Spec (canonical, always in this order)
 

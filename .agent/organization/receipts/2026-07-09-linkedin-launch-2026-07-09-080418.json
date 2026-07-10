@@ -1,0 +1,18 @@
+{
+  "applied_at": "2026-07-09T15:04:18+00:00",
+  "moves": [],
+  "old_paths": [],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/linkedin-launch",
+  "project_slug": "linkedin-launch",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-09.sh",
+  "rewrites": {},
+  "skipped": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/00-CONTROL-TOWER.md",
+      "reason": "source missing"
+    }
+  ],
+  "version": 1
+}

@@ -4,7 +4,7 @@
 
 - Manus session: `https://manus.im/app/gn4gQbZ4marr7Msfb2xAP2`
 - Manus preview: `https://predeploy-57681be8-farricepor-fagcrmt9-qydwak9ajq3nzwbk.manus.space/`
-- Local proof artifact: `projects/farrice-creative-strategist-portfolio/RUN_MAP.md`
+- Local proof artifact: `projects/farrice-creative-strategist-portfolio/04-deliverables/RUN_MAP.md`
 - Local source artifact: `projects/farrice-creative-strategist-portfolio/index.html`
 - Evidence limit: source was accessible through browser login and visible DOM extraction; unpublished Manus internal files are unavailable.
 

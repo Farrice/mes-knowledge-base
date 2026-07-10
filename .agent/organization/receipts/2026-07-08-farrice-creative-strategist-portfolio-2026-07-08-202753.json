@@ -1,0 +1,106 @@
+{
+  "applied_at": "2026-07-09T03:27:53+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/CMS_DEPLOYMENT_GUIDE.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/04-deliverables/CMS_DEPLOYMENT_GUIDE.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/EDITING_GUIDE.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/04-deliverables/EDITING_GUIDE.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/Farrice-Cain-Creative-Strategist-Portfolio.pdf",
+      "to": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/90-exports/Farrice-Cain-Creative-Strategist-Portfolio.pdf"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/HARDENING_AUDIT.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/04-deliverables/HARDENING_AUDIT.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/LIVE_EDITOR_WALKTHROUGH.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/04-deliverables/LIVE_EDITOR_WALKTHROUGH.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/RECRUITER_SEND_GUIDE.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/04-deliverables/RECRUITER_SEND_GUIDE.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/RUN_MAP.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/04-deliverables/RUN_MAP.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/build-public.mjs",
+      "to": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/01-source/build-public.mjs"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/content-overrides.js",
+      "to": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/01-source/content-overrides.js"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/edit-mode.js",
+      "to": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/01-source/edit-mode.js"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/editor-server.mjs",
+      "to": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/01-source/editor-server.mjs"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/editor.html",
+      "to": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/90-exports/editor.html"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/script.js",
+      "to": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/03-working-drafts/script.js"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/site-edits.json",
+      "to": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/01-source/site-edits.json"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/styles.css",
+      "to": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/01-source/styles.css"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/CMS_DEPLOYMENT_GUIDE.md",
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/EDITING_GUIDE.md",
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/Farrice-Cain-Creative-Strategist-Portfolio.pdf",
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/HARDENING_AUDIT.md",
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/LIVE_EDITOR_WALKTHROUGH.md",
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/RECRUITER_SEND_GUIDE.md",
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/RUN_MAP.md",
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/build-public.mjs",
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/content-overrides.js",
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/edit-mode.js",
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/editor-server.mjs",
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/editor.html",
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/script.js",
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/site-edits.json",
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/styles.css"
+  ],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/index.html",
+      "reason": "referenced from control-plane file: .agent/workflows/generate-asset.md"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio",
+  "project_slug": "farrice-creative-strategist-portfolio",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-08.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.agent/run-receipts/2026-06-23T025947Z0000-repeatability-spine-source-to-skill-system.json": 2,
+    "/Users/farricecain/Google Antigravity/.agent/run-receipts/2026-06-23T025947Z0000-repeatability-spine-source-to-skill-system.md": 2,
+    "/Users/farricecain/Google Antigravity/.agent/run-receipts/2026-06-23T030725Z0000-local-portfolio-hardening.json": 1,
+    "/Users/farricecain/Google Antigravity/.agent/run-receipts/2026-06-23T030725Z0000-local-portfolio-hardening.md": 1,
+    "/Users/farricecain/Google Antigravity/deliverables/manus-to-codex-replacement-workflow/COLD_START_FIXTURE.md": 1,
+    "/Users/farricecain/Google Antigravity/deliverables/manus-to-codex-replacement-workflow/SKILL_SYSTEM_CONTRACT.md": 1,
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/04-deliverables/CMS_DEPLOYMENT_GUIDE.md": 2,
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/04-deliverables/EDITING_GUIDE.md": 3,
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/04-deliverables/LIVE_EDITOR_WALKTHROUGH.md": 1,
+    "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/04-deliverables/RECRUITER_SEND_GUIDE.md": 2
+  },
+  "skipped": [],
+  "version": 1
+}

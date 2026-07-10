@@ -1013,6 +1013,35 @@ BINDINGS = [
         ),
     },
     {
+        # Deliberately narrow: explicit voice-identity language only. Voice OS is a
+        # LAYER loaded by content workflows (via PRODUCTION_CORE boost + CLAUDE.md
+        # Step 4), not a route that hijacks generic writing requests — a broad
+        # binding here would steal routing from /ghostwrite, /parallax, /copy-engine.
+        "id": "farrice_voice_alignment",
+        "signal_phrases": [
+            "sound like me", "in my voice", "my voice card", "voice card",
+            "voice os", "voice-os", "voice alignment", "does this sound like me",
+            "voice ratchet", "voice compile", "recompile the voice",
+            "make it sound like farrice",
+        ],
+        "negative_signals": [
+            "client voice", "jen", "andrea", "customer voice", "voice mining",
+        ],
+        "mandatory_workflow_any_of": [
+            "voice-os", "voice-ratchet", "voice-compile", "voice-audit",
+        ],
+        "forbidden_workflows": [],
+        "reason": (
+            "Explicit voice-identity language routes to Voice OS (skills/voice-os/ + "
+            "_active/farrice-brand/voice/VOICE-CARD.md) — the persistent compiled voice "
+            "card with the 4-mode fidelity dial (MIRROR/BLEND/STRETCH/OFF) and the "
+            "felt-verdict calibration loop. Improvising Farrice's voice from training "
+            "memory instead of the compiled card is the failure this prevents. Client "
+            "voice work (Jen, Andrea, customer VOC mining) is OFF-mode and keeps its "
+            "own routes."
+        ),
+    },
+    {
         # Placed LAST so domain-specific bindings (avatar, copy, parallax, BOS)
         # take precedence. This is the catch-all for GENERIC research that would
         # otherwise be answered from training memory instead of grounded in truth.
