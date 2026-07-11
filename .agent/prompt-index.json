@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 4427,
+ "count": 4577,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -1062,9 +1062,58 @@
   {
    "kind": "prompt-v2",
    "skill": "april-dunford-positioning",
+   "title": "Champion Ammunition Kit",
+   "gist": "Product/Company: [name]",
+   "path": "skills/april-dunford-positioning/references/prompts-v2/09-champion-ammunition.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "april-dunford-positioning",
    "title": "Proof Stack Assembler",
    "gist": "[ROLE: extracted from original prompt]",
    "path": "skills/april-dunford-positioning/references/prompts-v2/10-proof-stack-assembler.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "april-dunford-positioning",
+   "title": "Bowling Pin Strategy Planner",
+   "gist": "Product/Company: [name]",
+   "path": "skills/april-dunford-positioning/references/prompts-v2/11-bowling-pin-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "april-dunford-positioning",
+   "title": "Pitch Testing Protocol",
+   "gist": "Product/Company: [name]",
+   "path": "skills/april-dunford-positioning/references/prompts-v2/12-pitch-testing-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "april-dunford-positioning",
+   "title": "Buyer Indecision Reducer",
+   "gist": "Product/Company: [name]",
+   "path": "skills/april-dunford-positioning/references/prompts-v2/13-buyer-indecision-reducer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "asset_generator",
+   "title": "spy_market",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/asset_generator/references/prompts-v2/spy_market.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
+   "title": "ad-visual-template-architect",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/ad-visual-template-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
+   "title": "authenticity-ratio-planner",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/authenticity-ratio-planner.md"
   },
   {
    "kind": "prompt-v2",
@@ -1076,6 +1125,13 @@
   {
    "kind": "prompt-v2",
    "skill": "authority-hacker-ai-social-media",
+   "title": "customer-roleplay-deep-dive",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/customer-roleplay-deep-dive.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
    "title": "Authority Hacker \u2014 Duality Hook Engineer",
    "gist": "[ROLE: extracted from original prompt]",
    "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/duality-hook-engineer.md"
@@ -1083,9 +1139,44 @@
   {
    "kind": "prompt-v2",
    "skill": "authority-hacker-ai-social-media",
+   "title": "emotion-first-post-generator",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/emotion-first-post-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
    "title": "Authority Hacker \u2014 Hook-Dominance Scorer",
    "gist": "[ROLE: extracted from original prompt]",
    "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/hook-dominance-scorer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
+   "title": "meta-ad-campaign-builder",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/meta-ad-campaign-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
+   "title": "niche-emotional-targeting-engine",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/niche-emotional-targeting-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
+   "title": "self-learning-social-audit",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/self-learning-social-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
+   "title": "social-media-os-builder",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/social-media-os-builder.md"
   },
   {
    "kind": "prompt-v2",
@@ -1278,6 +1369,153 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "bitter-lesson-auditor",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/bitter-lesson-auditor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "crown_jewel_prompt_01_orchestration",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/crown_jewel_prompt_01_orchestration.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "crown_jewel_prompt_02_plan_first",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/crown_jewel_prompt_02_plan_first.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "crown_jewel_prompt_03_cross_device",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/crown_jewel_prompt_03_cross_device.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "crown_jewel_prompt_04_self_verifying",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/crown_jewel_prompt_04_self_verifying.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "crown_jewel_prompt_05_knowledge_base",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/crown_jewel_prompt_05_knowledge_base.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "crown_jewel_prompt_06_exponential",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/crown_jewel_prompt_06_exponential.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "crown_jewel_prompt_07_onboarding",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/crown_jewel_prompt_07_onboarding.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "latent-demand-finder",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/latent-demand-finder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "layer-under-the-layer-tutor",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/layer-under-the-layer-tutor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "miso-time-scale-planner",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/miso-time-scale-planner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "mobile_claude_code_commander",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/mobile_claude_code_commander.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "**",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/mobile_claude_code_quickstart.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "multi-quad-orchestrator",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/multi-quad-orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "plan-mode-architect",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/plan-mode-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "telemetry-to-pr-generator",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/telemetry-to-pr-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "transcendence_prompt_01_ai_ops_manager",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/transcendence_prompt_01_ai_ops_manager.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "transcendence_prompt_02_knowledge_monetization",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/transcendence_prompt_02_knowledge_monetization.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "transcendence_prompt_03_device_ubiquitous",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/transcendence_prompt_03_device_ubiquitous.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "transcendence_prompt_04_self_verifying",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/transcendence_prompt_04_self_verifying.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "underfunded-automation-strategist",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/boris-claude-code/references/prompts-v2/underfunded-automation-strategist.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "brandon-jacoby-taste-mastery",
    "title": "Brandon Jacoby - Good-Enough Breakthrough Prompt",
    "gist": "You are Brandon Jacoby executing a good-enough breakthrough review. You preserve what works, then push only the places where average quality would make the work forgettable.",
@@ -1300,9 +1538,23 @@
   {
    "kind": "prompt-v2",
    "skill": "brock-johnson-shareworthy-content",
+   "title": "algorithm-transcendence-playbook",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/brock-johnson-shareworthy-content/references/prompts-v2/algorithm-transcendence-playbook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brock-johnson-shareworthy-content",
    "title": "BROCK JOHNSON \u2014 CONTENT FORMAT ARCHITECT",
    "gist": "You are Brock Johnson, who understands that the FORMAT of content determines its psychological impact as much as the CONTENT itself. The same idea performs completely differently as a Reel versus a carousel versus a stor",
    "path": "skills/brock-johnson-shareworthy-content/references/prompts-v2/content-format-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brock-johnson-shareworthy-content",
+   "title": "engagement-psychology-system",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/brock-johnson-shareworthy-content/references/prompts-v2/engagement-psychology-system.md"
   },
   {
    "kind": "prompt-v2",
@@ -1317,6 +1569,83 @@
    "title": "BROCK JOHNSON \u2014 SHAREWORTHY CONTENT GENERATOR",
    "gist": "You are Brock Johnson, Instagram growth and shareworthy content strategist who has decoded why people share content. You understand that likes are vanity, follows are temporary, but SHARES are the only metric that create",
    "path": "skills/brock-johnson-shareworthy-content/references/prompts-v2/shareworthy-content-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brock-johnson-shareworthy-content",
+   "title": "viral-share-optimizer",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/brock-johnson-shareworthy-content/references/prompts-v2/viral-share-optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "01-business-scan",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/01-business-scan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "02-competitive-intelligence",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/02-competitive-intelligence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "03-customer-intelligence",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/03-customer-intelligence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "04-messaging-audit",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/04-messaging-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "05-digital-presence",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/05-digital-presence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "06-gap-identifier",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/06-gap-identifier.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "07-7s-organizational-scan",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/07-7s-organizational-scan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "08-swot-synthesis",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/08-swot-synthesis.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "09-recommendation-engine",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/09-recommendation-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "10-executive-report",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/10-executive-report.md"
   },
   {
    "kind": "prompt-v2",
@@ -1608,9 +1937,72 @@
   {
    "kind": "prompt-v2",
    "skill": "cardinal-mason-ai-copywriting",
+   "title": "p23-competitive-angle",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p23-competitive-angle.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "p24-deep-behavior-triggers",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p24-deep-behavior-triggers.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "p25-jobs-to-be-done",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p25-jobs-to-be-done.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "p26-cold-audience-conversion",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p26-cold-audience-conversion.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "p27-emotional-resonance",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p27-emotional-resonance.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "p28-cognitive-bias",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p28-cognitive-bias.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "p29-desire-manufacturing",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p29-desire-manufacturing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "p30-action-psychology",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p30-action-psychology.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
    "title": "P31 - Ghostwriter Voice Capture",
    "gist": "You capture and replicate anyone's unique voice\u2014enabling ghostwritten content that sounds exactly like them.",
    "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p31-ghostwriter-voice.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "p32-about-page",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p32-about-page.md"
   },
   {
    "kind": "prompt-v2",
@@ -1629,9 +2021,65 @@
   {
    "kind": "prompt-v2",
    "skill": "cardinal-mason-ai-copywriting",
+   "title": "p35-ad-suite",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p35-ad-suite.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "p36-case-study-deep",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p36-case-study-deep.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "p37-webinar-script",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p37-webinar-script.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
    "title": "P38 - Brand Voice Bible",
    "gist": "You create comprehensive brand voice documentation\u2014the reference guide for all content creation.",
    "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p38-brand-voice-bible.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "p39-lead-magnet",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p39-lead-magnet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "p40-podcast-pitch",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p40-podcast-pitch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "p41-twitter-threads",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p41-twitter-threads.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "p42-youtube-scripts",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p42-youtube-scripts.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "p43-blog-seo",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p43-blog-seo.md"
   },
   {
    "kind": "prompt-v2",
@@ -1646,6 +2094,27 @@
    "title": "P45 - Authority PR Copy",
    "gist": "You create PR and publicity materials that position clients as the go-to expert in their space.",
    "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p45-authority-pr.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-assembly",
+   "title": "01-full-assembly-orchestrator",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/creative-assembly/references/prompts-v2/01-full-assembly-orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-assembly",
+   "title": "02-selection-assembly-orchestrator",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/creative-assembly/references/prompts-v2/02-selection-assembly-orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-assembly",
+   "title": "03-editor-pass",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/creative-assembly/references/prompts-v2/03-editor-pass.md"
   },
   {
    "kind": "prompt-v2",
@@ -1887,10 +2356,311 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
+   "title": "prompt_7_brand_environment_designer",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/prompt_7_brand_environment_designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-wang-literary-analysis",
+   "title": "annual-letter-architect",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/dan-wang-literary-analysis/references/prompts-v2/annual-letter-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-wang-literary-analysis",
+   "title": "friction-mining",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/dan-wang-literary-analysis/references/prompts-v2/friction-mining.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-wang-literary-analysis",
+   "title": "musical-pacing-editor",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/dan-wang-literary-analysis/references/prompts-v2/musical-pacing-editor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-wang-literary-analysis",
+   "title": "observation-to-insight",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/dan-wang-literary-analysis/references/prompts-v2/observation-to-insight.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-wang-literary-analysis",
+   "title": "state-engineering",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/dan-wang-literary-analysis/references/prompts-v2/state-engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-wang-literary-analysis",
+   "title": "textured-essay-engine",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/dan-wang-literary-analysis/references/prompts-v2/textured-essay-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-wang-literary-analysis",
+   "title": "xray-reading-protocol",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/dan-wang-literary-analysis/references/prompts-v2/xray-reading-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "assessment-architecture",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/assessment-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "authority-content",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/authority-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "authority-narrative",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/authority-narrative.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "demand-supply-tension",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/demand-supply-tension.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "domain-domination",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/domain-domination.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "fame-game-framework",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/fame-game-framework.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "frustration-content",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/frustration-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "frustration-mining",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/frustration-mining.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "heartfelt-value-proposition",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/heartfelt-value-proposition.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "icp-heartfelt-alignment",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/icp-heartfelt-alignment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "ip-mining-methodology",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/ip-mining-methodology.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "kpi-positioning",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/kpi-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "market-segmentation-pricing",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/market-segmentation-pricing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "one-percent-positioning",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/one-percent-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "origin-story-alchemy",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/origin-story-alchemy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "oversubscribed-campaign",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/oversubscribed-campaign.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "path-least-resistance",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/path-least-resistance.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "personal-brand-architecture",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/personal-brand-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "premium-pitch",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/premium-pitch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "problem-aware-positioning",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/problem-aware-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "solopreneur-os",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/solopreneur-os.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "stakes-psychology",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/stakes-psychology.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "tension-copywriting",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/tension-copywriting.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "tension-creative-brief",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/tension-creative-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "tension-triangle-sales",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/tension-triangle-sales.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "viral-demand",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/viral-demand.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "worldview-messaging",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/worldview-messaging.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "affiliate-tool-architect",
+   "gist": "1. **IDENTIFY** the action users want to take in this niche",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/affiliate-tool-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "ai-app-monetization",
+   "gist": "1. **IDENTIFY** utility need with consistent user demand",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/ai-app-monetization.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "client-onboarding",
+   "gist": "1. **MAP** complete client journey from purchase to delivery",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/client-onboarding.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "cross-niche-deployer",
+   "gist": "1. **ABSTRACT** core workflow logic from niche-specific elements",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/cross-niche-deployer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "lead-gen-system",
+   "gist": "1. **ANALYZE** niche for where buyers publicly announce needs\u2014RFP platforms, job boards, forums",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/lead-gen-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "niche-template-arsenal",
+   "gist": "1. **RESEARCH** niche-specific needs and expectations",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/niche-template-arsenal.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "darrel-wilson-ai-monetization",
    "title": "Proof-First Content",
    "gist": "You are Darrel Wilson whose content focuses on \"I built this, here it is working\" rather than theory. You show real websites, real workflows, real results. Proof within 90 seconds of any interaction.",
    "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/proof-first-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "proposal-domination",
+   "gist": "1. **DECODE** what the buyer actually wants beyond stated requirements",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/proposal-domination.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "recurring-revenue-lockin",
+   "gist": "1. **SPLIT** into entry component and ongoing component",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/recurring-revenue-lockin.md"
   },
   {
    "kind": "prompt-v2",
@@ -1937,6 +2707,55 @@
   {
    "kind": "prompt-v2",
    "skill": "david-deutsch-copywriting",
+   "title": "02-universal-resonance",
+   "gist": "1. **IDENTIFY** universal drives (fear, desire, belonging)",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/02-universal-resonance.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "03-counter-intuitive",
+   "gist": "1. **IDENTIFY** conventional wisdom",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/03-counter-intuitive.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "04-viral-sharing",
+   "gist": "1. **ACTIVATE** social currency (makes sharer look smart)",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/04-viral-sharing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "05-scene-imagery",
+   "gist": "1. **CONVERT** explanations to scenes",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/05-scene-imagery.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "06-validation-matrix",
+   "gist": "1. **SCORE** attention hook (1-10)",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/06-validation-matrix.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "07-amplification-engine",
+   "gist": "1. **EXTRACT** content atom",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/07-amplification-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "08-belief-architecture",
+   "gist": "1. **IDENTIFY** limiting belief",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/08-belief-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
    "title": "Universal Content Pillar System",
    "gist": "7 eternal pillars for universal resonance.",
    "path": "skills/david-deutsch-copywriting/references/prompts-v2/09-content-pillars.md"
@@ -1944,9 +2763,23 @@
   {
    "kind": "prompt-v2",
    "skill": "david-deutsch-copywriting",
+   "title": "10-resonant-story",
+   "gist": "1. **OPEN** with entertainment hook",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/10-resonant-story.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
    "title": "Deutsch Research Intelligence System",
    "gist": "Consumer understanding at virtuoso level.",
    "path": "skills/david-deutsch-copywriting/references/prompts-v2/11-research-intelligence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "12-cold-conversion",
+   "gist": "1. **INTERRUPT** pattern with hook",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/12-cold-conversion.md"
   },
   {
    "kind": "prompt-v2",
@@ -1972,9 +2805,93 @@
   {
    "kind": "prompt-v2",
    "skill": "david-deutsch-copywriting",
+   "title": "16-cold-psychology",
+   "gist": "1. **IDENTIFY** their current state of mind",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/16-cold-psychology.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "17-screenwriter",
+   "gist": "1. **CONVERT** every explanation to scene",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/17-screenwriter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "18-personification",
+   "gist": "1. **IDENTIFY** abstract concept",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/18-personification.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "19-hidden-weakness",
+   "gist": "1. **LIST** all benefits/solutions",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/19-hidden-weakness.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "20-sentence-rhythm",
+   "gist": "1. **VARY** sentence length 5-25 words",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/20-sentence-rhythm.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "21-cross-industry",
+   "gist": "1. **STUDY** patterns outside your niche",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/21-cross-industry.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "V1-boring-to-brilliant",
+   "gist": "1. **IDENTIFY** surface-level boring element",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/V1-boring-to-brilliant.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "V2-question-protocol",
+   "gist": "1. **PREPARE** non-threatening questions",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/V2-question-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
    "title": "Musical Copy Architecture",
    "gist": "Structure copy with theme-development-resolution like music.",
    "path": "skills/david-deutsch-copywriting/references/prompts-v2/V3-musical-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "V4-assumption-assassination",
+   "gist": "1. **LIST** 5 assumptions you're making",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/V4-assumption-assassination.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "V5-salesperson-mining",
+   "gist": "1. **INTERVIEW** 3-5 salespeople",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/V5-salesperson-mining.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "V6-cross-industry",
+   "gist": "1. **STUDY** successful patterns outside niche",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/V6-cross-industry.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "V7-ai-editing",
+   "gist": "1. **WRITE** your thinking first (don't use AI for first draft)",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/V7-ai-editing.md"
   },
   {
    "kind": "prompt-v2",
@@ -4996,9 +5913,44 @@
   {
    "kind": "prompt-v2",
    "skill": "rory-sutherland-marketing",
+   "title": "the-cold-traffic-conversion-alchemist",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-cold-traffic-conversion-alchemist.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "the-cold-traffic-psychology-decoder",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-cold-traffic-psychology-decoder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
    "title": "COSTLY SIGNAL POSITIONING STRATEGY",
    "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing your mastery of costly signaling theory\u2014the insight that for certain goods and services, BEING EXPENSIVE IS THE PRODUCT. The price isn't a barrier to purchas",
    "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-costly-signal-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "the-deep-audience-psychology-decoder",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-deep-audience-psychology-decoder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "the-differentiation-strategy-generator",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-differentiation-strategy-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "the-doorman-fallacy-auditor",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-doorman-fallacy-auditor.md"
   },
   {
    "kind": "prompt-v2",
@@ -5010,9 +5962,37 @@
   {
    "kind": "prompt-v2",
    "skill": "rory-sutherland-marketing",
+   "title": "the-first-touch-conversion-maximizer",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-first-touch-conversion-maximizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "the-funnel-psychology-architect",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-funnel-psychology-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
    "title": "Rory Sutherland - The Headline & Hook Alchemist",
    "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the most critical real estate in marketing: the HEADLINE\u2014the first few seconds where attention is either captured or lost fo",
    "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-headline-hook-alchemist.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "the-high-ticket-conversion-closer",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-high-ticket-conversion-closer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "the-instant-authority-architect",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-instant-authority-architect.md"
   },
   {
    "kind": "prompt-v2",
@@ -5024,9 +6004,79 @@
   {
    "kind": "prompt-v2",
    "skill": "rory-sutherland-marketing",
+   "title": "the-launch-psychology-orchestrator",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-launch-psychology-orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "the-market-psychology-gap-finder",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-market-psychology-gap-finder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "the-objection-annihilation-system",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-objection-annihilation-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "the-pattern-interrupt-attention-hijacker",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-pattern-interrupt-attention-hijacker.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
    "title": "Rory Sutherland - The Psychological Copy Converter",
    "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing the fusion of 36 years of behavioral insight with direct response copywriting mastery. You write copy that converts not through clever words but through PSYC",
    "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-psychological-copy-converter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "the-psychological-marketing-strategist",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-psychological-marketing-strategist.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "the-psychological-reframe-engine",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-psychological-reframe-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "the-status-social-proof-architect",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-status-social-proof-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "the-story-selling-conversion-engine",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-story-selling-conversion-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "the-stranger-objection-annihilator",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-stranger-objection-annihilator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "the-transaction-utility-optimizer",
+   "gist": "[SYSTEM NAME]",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-transaction-utility-optimizer.md"
   },
   {
    "kind": "prompt-v2",
