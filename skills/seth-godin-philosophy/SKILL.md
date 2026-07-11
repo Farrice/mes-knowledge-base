@@ -1,9 +1,9 @@
 ---
 name: "Seth Godin — Strategic Philosophy"
 description: "Complete operating philosophy for overcoming resistance, shipping creative work, and doing what matters for people who care"
-version: "1.1"
+version: "1.2"
 format: "completion-engine"
-workflows: 7
+workflows: 8
 ---
 
 # Seth Godin — Strategic Philosophy
@@ -26,6 +26,7 @@ This skill captures Seth Godin's complete philosophy of creative self-leadership
 | 05 | [Status Trap Escape & Fuel Diagnosis](workflows/05-status-trap-escape.md) | Status game audit + fuel recalibration + role-of-best-self protocol | Feeling trapped in comparison, vanity metrics, or wrong fuel |
 | 06 | [Four Threads Strategy Compass](workflows/06-four-threads-strategy-compass.md) | Strategy One-Pager — Systems × Time × Games × Empathy diagnostic + becoming statement | Everything on the plan is tactics, "get the word out" appeared, or a market's front door won't open |
 | 07 | [Decision Quality Audit](workflows/07-decision-quality-audit.md) | Decision Quality Scorecard + constraint charter + tomorrow-once time reallocation | Re-litigating a decision by its outcome, facing a big fork, or drowning in yeses |
+| 08 | [Audience Truth Audit](workflows/08-audience-truth-audit.md) | Hidden Decision-Maker Map + Qualified Feedback Loop Design | Something isn't converting despite "obviously" fitting its audience, or public comments/reviews are quietly steering decisions |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow

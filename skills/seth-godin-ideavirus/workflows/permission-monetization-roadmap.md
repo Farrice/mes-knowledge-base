@@ -31,11 +31,12 @@ Evaluate the current state of your "Ideavirus" using the **8-Variable Engineerin
 4. **Friction Audit**: Count the clicks/steps required for a stranger to grant you permission. Apply **Pattern 5 (Smoothness)**: reduce these steps by 50%.
 
 ### Phase 2: The Permission Ladder & Value Exchange
-Architect the progression from stranger to advocate. For each level, define the "Value-for-Permission" exchange.
+Architect the progression from stranger to advocate using **Pattern 17 (The Permission Ladder & Intravenous Permission)**. For each level, define the "Value-for-Permission" exchange — and never ask for a tier the prospect hasn't earned yet.
 1. **Level 0-2 (Stranger to Engaged)**: What is the "Remarkable" content that earns the right to a follow?
 2. **Level 3 (Subscribed)**: Design the **Permission Asset**. What is the specific exchange (e.g., a tool, an audit, a manifesto) that makes giving an email address feel like a gift?
 3. **Level 4 (Anticipating)**: Define the "Anticipated" frequency. How do you move from "inbox clutter" to "I was looking for this"?
 4. **Level 5-6 (Customer to Advocate)**: Map the transition where the user begins to spread the virus for their own benefit.
+5. **Level 7 (Intravenous Permission)**: The ceiling tier — standing authorization (the subscription, the auto-renew, the "charge me every month") earned "drip by drip by drip," never sold in a single high-pressure ask.
 
 ### Phase 3: The Daily Practice Engine (The Shipping Ritual)
 Permission is a decaying asset; it must be renewed daily.

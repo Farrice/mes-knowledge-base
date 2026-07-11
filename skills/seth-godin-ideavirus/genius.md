@@ -123,6 +123,28 @@ Separate the "virus" (what spreads for free) from the "souvenir" (what people pa
 
 ---
 
+### Patterns from claude.ai export — Seth Godin conversations — tranche 2 (2026-07-10)
+
+> Source: Farrice's deeper-cut extraction conversations of "How to Build a Magnetic Brand that Sells Itself" (Coach Fresh) and "Seth Godin Reveals the Secret to Successful Strategy" (Carey Nieuwhof). Heavy overlap confirmed with tranche 1 and the base extraction (Nike/Hyatt, four threads, false proxies, smallest viable audience all re-appeared verbatim across 12 source conversations — not re-added). Net-new: the concrete permission escalation ladder from *Permission Marketing*, a distinct shame-to-status spread mechanic, and the three-part purchase-motivator triad underneath every ideavirus.
+
+#### Pattern 17: The Permission Ladder & Intravenous Permission
+**Execute**: Map the exact tier a prospect occupies on the permission hierarchy — from grudging tolerance (the advertiser you allow to interrupt your favorite show) up through subscribed and anticipating, to the top tier: "intravenous permission," where the customer has handed over standing authorization — "I trust you so much that every month you should charge me for your software" — the way you'd trust a doctor enough for general anesthesia. You don't reach that tier with one high-converting ad; you get there "drip by drip by drip" until the customer would miss you if you were gone. Before designing any offer, name which tier the prospect is actually on — never make a subscription-level ask of a stranger-tier relationship.
+**Success Metric**: Every offer in the funnel is matched to its prospect's earned permission tier; no ask exceeds the tier by more than one step
+
+#### Pattern 18: Status Loop from Shame to Pride
+**Execute**: Find what your audience privately feels ashamed or embarrassed about, then build the story or product that lets them convert that shame into a badge worn in public. Alcoholics Anonymous did this for addiction — "it's not anonymous at all: everyone knows what AA is because an alcoholic told us" — by making the act of offering help itself the status reward. Acne-patch brands did the same for teenage pimples: once wearing the patch in public stopped reading as shameful and started reading as "I don't give a damn, everyone has pimples," the product became self-marketing. The mechanism: name the private shame, build the vehicle that lets someone go public with it and gain status or affiliation for doing so — the spread engine builds itself from there.
+**Success Metric**: A named shame-to-pride conversion mechanic exists in the product/story before any paid distribution begins
+
+#### Hidden Knowledge (2026-07-10 additions)
+
+**Insight**: Once a market has "a roof, health, and food," people everywhere want three things in different measure: status (who eats lunch first, who's in the front row, who got the handshake), affiliation (am I wearing the right clothes, do I fit in with People Like Us), and freedom from fear — not freedom from risk, but freedom from the *made-up story* about the risk. Every ideavirus either delivers one of these three or it doesn't spread.
+**Deploy**: Before engineering a viral loop, name which of the three (status / affiliation / freedom-from-fear) the idea actually delivers. If the honest answer is none, the idea isn't a virus yet — it's just a feature.
+
+**Insight**: Attention and trust are both scarce economic assets, but they compound in opposite directions. Attention gets more expensive as more people chase it; trust gets more valuable precisely because more people are "hustling — going for the short hustle, hassling their way into making a buck today and disappearing tomorrow." Getting attention without trust is worth almost nothing; getting trust without much attention "is worth a ton."
+**Deploy**: When choosing where to spend limited effort, default to the trust-building action over the attention-buying action — attention decays on contact, trust compounds.
+
+---
+
 ## Hall of Fame Exemplars
 
 *   **Hotmail's "Get your free email at Hotmail" footer**: Every email sent by a Hotmail user automatically included a simple, clickable invitation for the recipient to get their own free Hotmail account.

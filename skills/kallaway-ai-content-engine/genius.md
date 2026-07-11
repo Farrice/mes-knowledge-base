@@ -1,6 +1,6 @@
 # Kallaway — AI-Enabled Content Engine: Genius Context
 
-> **Source**: "Three Biggest Social Media Shifts" (YouTube, 2026) — 5,210 words
+> **Source**: "Three Biggest Social Media Shifts" (YouTube, 2026) — 5,210 words; + "What Happens When AI Takes Over Social Media?" (claude.ai export tranche 2, 2026-07-10)
 > **Domain**: Content Psychology → AI-Augmented Production Infrastructure
 > **Tier**: Deep Extraction (Forge — Expansion)
 
@@ -146,6 +146,32 @@ AI Research → AI Analysis → AI Clustering → HUMAN REACTION → AI Drafting
 **Deployment Context**: Initial setup of any AI content research pipeline. Review and update quarterly.
 
 **Success Metric**: The channel list would pass a "would I watch this for fun?" test for every entry.
+
+---
+
+---
+
+### Pattern 7 — claude.ai export tranche 2 (2026-07-10): The AI Trust Goldilocks Window
+
+> Net-new pattern mined from a second batch of claude.ai extraction conversations ("What Happens When AI Takes Over Social Media?"). This is a macro/strategic-timing pattern, distinct from Patterns 1-6 which are all tactical/workflow-level. It answers a different question: not "how do I use AI in production" but "what does AI's arrival mean for when and how hard I should be building trust right now."
+
+**What He Sees**: Between roughly 2026-2030, AI-generated content density on feeds is low enough (currently ~1-2%, projected to cross a ~20-25% "AI-aware" threshold) that human creators can still build trust at the current low-friction rate — but this window is closing, not permanent. He calls this the **Goldilocks Zone**: AI isn't good enough yet to replace human creators, and it will never be this easy to grow a personal brand again.
+
+**The Core Mechanic — Trust Grandfathering**: Once viewers become AI-skeptical (crossing the awareness threshold), their DEFAULT trust rate for NEW/unknown accounts drops sharply — cold-to-warm conversion gets structurally harder platform-wide. But trust built BEFORE that shift is "grandfathered in" — an existing audience that already trusts you continues to trust you, because that trust was earned pre-skepticism. This makes the current window a **now-or-never trust-banking opportunity**, not just a growth-rate optimization.
+
+**The Trust-Building Playbook** (tactical expression of the strategic thesis — reuses the Trust Equation `Trust = Minutes × Relevance × Usefulness` already captured in content-psychology Pattern 32, decomposed here into 5 concrete levers):
+| Lever | Mechanism | Maps To |
+|---|---|---|
+| **Volume** | More total pieces of content | Minutes |
+| **Length** | Longer-form pieces per session | Minutes |
+| **Bingeability** | Content distinct/memorable enough that one video triggers a multi-video session | Minutes (compounding) |
+| **Relevance** | Tight niche/avatar discipline — every piece falls inside the ideal viewer's desire zone | Relevance |
+| **Usefulness** | New information + tactically implementable | Usefulness |
+
+**The Off-Ramp Imperative**: Trust accrued on a rented platform (social/YouTube) is trapped until it's converted to an owned channel (email list, private community, paid membership) via lead-magnet funnels. In the AI-skepticism era, owned-channel deliverability (near-100% via email) becomes MORE valuable relative to algorithmic reach (already ~2-3% organic reach today, trending down as AI-generated supply floods feeds).
+
+- **Deployment Context**: Annual/quarterly strategic planning for a personal brand or content-driven business — this is a "how urgently should I be building right now" pattern, not a per-piece production pattern.
+- **Success Metric**: A stated point-of-view on where your business sits relative to the Goldilocks window, plus a concrete owned-audience number (email list size, community members) growing month over month — not just follower count.
 
 ---
 

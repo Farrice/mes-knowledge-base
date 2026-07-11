@@ -1,7 +1,7 @@
 ---
 name: "Kallaway Word Mastery & Articulation"
 description: "Engineer writing that grips, resonates, and converts using rhythm architecture, tone calibration, believability auditing, and likable expert dynamics. The delivery layer that turns mechanically sound content into content people can't stop reading."
-version: "1.0"
+version: "1.1"
 format: "completion-engine"
 workflows: 13
 ---
@@ -39,6 +39,6 @@ Kallaway's content strategy determines *what* to say. Word Mastery determines *h
 | deploy | [Expertise Deployment Engine](workflows/expertise-deployment-engine.md) | World-class expertise deployed through the optimal vehicle — story, hot take, proof stack, demo, analogy — so knowledge RADIATES | You know something at depth but can't make it land with impact — the pinnacle workflow |
 
 ## Quick Reference
-- **Genius Context**: [genius.md](genius.md) — load before any workflow (18 patterns + research enrichment vectors)
+- **Genius Context**: [genius.md](genius.md) — load before any workflow (18 patterns + Bucket 9 Retention Word Locks [2026-07-10, 3 patterns] + research enrichment vectors)
 - **Extraction Source**: [word-mastery-extraction.md](../../extractions/kallaway/word-mastery-extraction.md) — full MES 3.0 extraction report
 - **Stacks With**: `kallaway-content-psychology` (strategy layer), `lara-acosta-linkedin` (platform), `luke-iha-proof` (proof stacking), `michael-connelly` (telling detail), `eric-roth` (residue engineering)

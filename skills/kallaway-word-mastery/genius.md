@@ -293,6 +293,45 @@ Expert content fails when it STATES expertise ("I'm an expert in X"). It succeed
 
 ---
 
+## Bucket 9: Retention Word Locks — claude.ai export tranche 2 (2026-07-10)
+
+> Net-new sentence-level techniques mined from a second batch of claude.ai extraction conversations ("Say This in Your Videos" — the "Story Locks" video). Three of the six locks in that source (Negative Frames, Loop Openers, Contrast Words) turned out to be the same mechanisms already captured as the Negative Frame Amplifier (content-psychology Pattern 28 area) and the Relay Race Rehook (addictive-storytelling Pattern 7) — cited, not re-added. The three below are genuinely new word-choice mechanics that operate below the sentence-structure level covered in Buckets 1-2.
+
+### GP-WM-23: Term Branding (The Labeling Effect)
+Give a concept a NAME, not just an explanation. The moment something has a name, it feels more important — the reader's brain registers "I need to know what that means" and won't disengage until it does.
+
+**The mechanism**: This is the same labeling effect behind "the value equation" (Hormozi) and "a thousand true fans" (Kevin Kelly) — decades of essays could have said the same thing without sticking; the name is what stuck. Kallaway does this constantly (Lego Bricks, Content Minutes, Story Locks) — each named term is a "digital trademark" around an idea.
+
+**Deployment**: Before publishing, scan for your best contrarian point or framework. Ask: "Could I package this and give it a name?" Don't over-apply — not every point needs a name, but every reusable framework or contrarian take benefits from one. A named term dropped into a sentence creates instant anticipation ("wait, what is that?") that holds the reader through the explanation.
+
+**Success signal**: You can point to 1-2 terms per piece that a reader could repeat back to someone else, unprompted.
+
+### GP-WM-24: Thought Narration (Saying What They're Already Thinking)
+Voice the reader's internal monologue OUT LOUD before they'd think to interrupt with it. Done correctly, it reads as mind-reading and creates a hypnotic one-on-one feeling from a piece of writing that's identical for every reader.
+
+**The mechanism**: Two effects fire simultaneously. First, immediate trust — "if they know what I'm thinking, they must know what they're talking about." Second, forced continuation — now the reader needs to hear the answer to the thing they were JUST thinking, because you named it. This is "personalization at scale": one piece of writing, but it reads like a live conversation.
+
+**Deployment**: After every major point or take, pause and ask: "What should the reader be thinking right now?" Then, at a natural transition, say that thing out loud: "Now you're probably thinking..." / "If I were you, the thing on my mind right now would be..." Use sparingly — 2-3 times per piece is enough to create the frame-breaker effect; overuse reads as gimmicky.
+
+**Success signal**: A reader reports the sensation of "it's like they were reading my mind" rather than "they explained something to me."
+
+### GP-WM-25: Embedded Truths (If/When Framing)
+Replace hedged, conditional language with definitive language — not by changing the claim, but by changing the grammatical frame. "If you try this" gives the reader a fork (maybe they will, maybe they won't) — a micro-exit-door for their attention. "When you try this" removes the fork entirely; there's only one road, and the brain follows without evaluating.
+
+**The swap list**:
+| Hedged (creates a fork) | Definitive (removes the fork) |
+|---|---|
+| "This might work because..." | "The reason this works is..." |
+| "You might notice this..." | "Once you see this, you can't unsee it..." |
+| "Some creators might be making a mistake here..." | "The mistake most creators make is this..." |
+| "If you try this thing..." | "When you try this thing..." |
+
+**Deployment**: Pass over any finished draft and flag every hedge word — if, maybe, might, could, probably, or any construction that sounds non-committal. Replace with when, the reason why, once you do this. This is distinct from GP-WM-07's Downward Inflection (which governs sentence-ENDING energy) — Embedded Truths governs the FRAMING choice at the start of a claim, independent of how the sentence ends.
+
+**Success signal**: Reading the draft aloud, zero sentences invite the silent question "...or does it?"
+
+---
+
 ## Quality Signals (Self-Audit Checklist)
 
 Run against any content piece before publishing:
@@ -378,3 +417,9 @@ Run against any content piece before publishing:
 - **Result**: KEPT — Both versions scored 8.3 composite, but variant produces qualitatively richer output: reader becomes protagonist (not observer), costs are visualized (not abstract), identity stakes persist after the piece ends.
 - **Change**: Added Step 3.5 (Emotional Stakes Architecture with 5 SM mechanics), enhanced Step 5 (stakes-weighted insight landing with identity echo), added stakes bridge to Step 4, enhanced Quality Gate with emotional investment checks, added dual filter to Step 7 compression pass.
 - **Lesson**: Tension without stakes is suspense without consequences. The variant's Personal Mirror mechanic ("You've felt this") is the single highest-impact addition — it converts the reader from audience to protagonist in one sentence. Identity Close > CTA for LinkedIn content.
+
+### 2026-07-10 — claude.ai export tranche 2: Retention Word Locks
+- **Hypothesis**: A second batch of claude.ai extraction conversations ("Say This in Your Videos" story-locks video) would contain net-new sentence-level word-choice techniques beyond the existing Rhythm Architecture and Likable Expert Dynamics buckets.
+- **Result**: KEPT (partial) — 3 of 6 source techniques were genuinely new (Term Branding, Thought Narration, Embedded Truths); the other 3 (Negative Frames, Loop Openers, Contrast Words) were the same mechanisms already captured in content-psychology's Negative Frame Amplifier and addictive-storytelling's Relay Race Rehook — cited, not duplicated.
+- **Change**: Added Bucket 9 (GP-WM-23 through GP-WM-25).
+- **Lesson**: Cross-skill dedup matters as much as within-skill dedup — half of a "new" 6-technique framework was a relabeling of mechanics that already live one skill over. Only fold in what survives the check against sibling skills, not just the home file.

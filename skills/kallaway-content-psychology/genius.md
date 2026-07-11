@@ -1020,12 +1020,61 @@ Corollary — the value exchange is inverted: a YouTube audience is worth **10-1
 
 ---
 
+### Patterns from claude.ai export — tranche 2 (2026-07-10)
+
+> Net-new patterns mined from a second batch of the user's claude.ai extraction conversations ("18 Psychology Tricks to Get Viewers Addicted," "Storytelling Tactics Top Creators Use To Hook You"). Tranche 2 is deeper in the source pool than tranche 1 and correspondingly more redundant — most of these conversations turned out to be the exact source videos already mined for Patterns 2, 5, 32, 33, 34, and 45. Only genuinely new structural/tactical material survived dedup. Numbered continuing the master sequence.
+
+## 48. The Six-Checkpoint Viewer Funnel
+
+**What Kallaway Sees**: The 8 Psychology Principles (Pattern 32) tell you WHAT to activate. This pattern tells you WHERE in the video each activation has to land. Every video is a sequential gate-check — Pain Acceptance → Trust → Plan of Attack → Likability → Attention → Action — and failing any gate ends the session regardless of how good the content after it is. "Do not pass go" — a viewer who doesn't clear checkpoint 1 never sees checkpoint 4, no matter how good it is.
+
+**The 6 Checkpoints**:
+
+| # | Checkpoint | The Gate Question | New Tactical Hacks (beyond existing patterns) |
+|---|-----------|-------------------|-----------------------------------------------|
+| 1 | **Pain Acceptance** | Does the viewer feel a pain point applies to THEM? | **Twisting the Knife** — bluntly restate the frustration ("if you've been struggling with X, I've been there") to deepen the gap before offering relief. **Pain-Solution Gap** — physically gesture (or visually show) the distance between where they are and where they want to be; makes the gap legible, not just implied. |
+| 2 | **Trust** | Does the viewer believe THIS person can solve it? | **The 6-Tier Trust Hierarchy** (ranked, most to least effective — any ONE of the top 3 is usually sufficient; missing all three requires stacking multiple of the bottom three): (1) proof you've solved this for someone like them, (2) proof you've solved it for yourself, (3) large social following / third-party cosign, (4) evidence you were once in their shoes, (5) common ground, (6) professional presentation quality. **The bigger the ask, the more trust required; the deeper the pain, the less trust required.** Facilitation hacks: flash visual proof (screenshots, before/afters) rapidly rather than narrating it; use explicit common-ground language ("I've been exactly where you are"); a professional setup substitutes for missing proof early on ("how does this person not have wins but have such a great setup?" — inverts skepticism into curiosity). |
+| 3 | **Plan of Attack** | Does the viewer believe you have a DIFFERENT, credible plan? | **Point of Difference** — state the plan as a contrast against the commonly-known approach (extends Pattern 3's Curiosity Loop into the plan-reveal moment specifically). **Structured List Delivery** — present the plan as an explicit numbered list ("these are my 18 tricks... 6 checkpoints"); the brain trusts and remembers structure, and repeating the count at two granularities (18 things = 6 buckets) prevents the number from feeling overwhelming. |
+| 4 | **Likability** | Does the viewer want THIS person to be the one who solves it? | **Energy Mirroring** — viewers act as mirrors; record one line at a time (not full paragraphs) to prevent energy trailing off toward sentence-ends — a delivery-level version of Word Mastery's Line-by-Line Energy Management (GP-WM-03). **Dual-Register Repetition** — say a point once with real vocabulary, then immediately restate it simpler/with a metaphor; comprehension gains compound directly into likability. **Non-Performance** — viewers detect a worn character; consistency of presentation (same look, same energy) reads as authenticity, which is liked regardless of whether the content itself is believed. |
+| 5 | **Attention** (body) | Does the viewer keep watching once the intro is spent? | **Create a Hunt** — nest a long-term loop (the video's ultimate payoff) around the short-term loops (each point); tease the long-term loop early ("wait for the last one") so mini-loop closures don't fully release attention. **Trans-Rhythm** — deliberately vary sentence length (short/long/compound) to create a "jagged line" on the page; monotone sentence-length is boredom, cadence variation is what makes delivery feel musical and locks attention. Visual audit: look at your script — flat right-margin = monotone risk. |
+| 6 | **Action** | Does the viewer DO something after the video ends? | **Close the Loop + Speed Upsell** — explicitly state the pain-solution gap is now closed by the free information, THEN offer the paid/action path as a speed multiplier for the ~95% who can't fully absorb and implement solo. **Unexpected Surprise** — engineer the piece to blow past the expectation set by the title/hook (a 12/10 quality bar), because action-taking correlates with expectation-beaten-by-reality, not with raw quality. **The Recap** — tell them what you told them; re-signals the pain-solution gap one final time immediately before the CTA. |
+
+**Relationship to Existing Patterns**: Checkpoint 1's "One Standard Deviation" hack and Checkpoint 2's "Proof" tier both restate Pattern 32 principles 8 and 5 — cite Pattern 32 rather than re-explaining. Checkpoint 5's loop mechanics extend Pattern 34 (Story Loop Engineering) and Pattern 7/addictive-storytelling's Relay Race Rehook — this pattern's contribution is the FUNNEL WRAPPER (the six sequential gates), not a replacement for the loop mechanics themselves.
+
+- **Deployment Context**: Full-script audit (see `viewer-funnel-audit` workflow), diagnosing WHERE in a specific video viewers are dropping (map the drop-off timestamp to the checkpoint it maps to).
+- **Success Metric**: For any published video with a retention graph, you can name which of the 6 checkpoints the drop-off cliff corresponds to — and it's never checkpoint 1 (if it is, the video shouldn't have been made).
+
+---
+
+## 49. Comprehension Engineering & Value Compression
+
+**What Kallaway Sees**: Retention isn't just curiosity management (Pattern 3) — half of it is a separate, more mechanical variable: **comprehension**. "Comprehension is how well a viewer actually understands what you're saying. Every sentence, every graphic, every additional word has the potential to make that go down." A confused viewer bounces even when curious, because confusion and curiosity feel identical in the first half-second and the brain resolves the ambiguity by leaving.
+
+**The Comprehension Toolkit**:
+- **Visual Matching**: For every sentence, ask "what's the best possible visual to increase understanding of THIS specific sentence?" — not just "add some b-roll." Mr. Beast's team times individual visual beats to individual words for this exact reason. Comprehension gain, not decoration, is the job of the visual.
+- **Hawk-Eye Narrative (Broad-to-Narrow Ordering)**: Establish wide context before narrowing to specifics — "broad, then deep," like a hawk surveying before diving. Dive into tactics too fast without orientation and you get comprehension loss; stay broad too long and you're not useful. This is the same ordering principle independently surfaced in the story-loop scripting process (work backward from your most-interesting reveal facts to figure out what context must come FIRST so the reveal lands) — corroborating evidence this is a load-bearing sequencing rule, not a one-off preference.
+- **Visual Stun Gun (Switching Pacing)**: Visuals serve two separate jobs — comprehension (matching, above) and pure attention-holding (switching pace). Jump cuts count. Benchmark the pacing range by placing a slow-paced channel (MKBHD-style) and a fast-paced channel on a timeline and marking every visual change — your pacing should sit inside that range, not outside it in either direction.
+- **Value Compression**: Bring the single most valuable point earlier in the runtime rather than saving it for a "build-up." On the final edit pass, reread the intro and cut every sentence that isn't load-bearing — "just pitch the ball immediately." The fear that giving value early kills watch-through is backwards: a viewer who leaves at minute 4 having gotten something beats a viewer who leaves at minute 4 having gotten nothing, and structuring for early value creates MORE reasons to stay (not fewer), because now there are two payoffs instead of one back-loaded payoff.
+
+- **Deployment Context**: Script tightening pass (after the Story Loop Architecture is drafted — Pattern 34), especially for education/expertise content where information density risks comprehension loss.
+- **Success Metric**: A cold reader can restate, in their own words, what each sentence meant on a single pass. Retention-graph cliffs that do NOT correspond to a Six-Checkpoint Funnel gate failure (Pattern 48) are usually comprehension failures — check visual matching and ordering before rewriting the substance.
+
+---
+
+### Hidden Knowledge — tranche 2
+
+- **Insight**: *The trust hierarchy has a threshold, not a sum.* You don't need all 6 trust-tiers (Pattern 48, Checkpoint 2) — any ONE of the top 3 is sufficient on its own. Creators over-invest in production polish (tier 6) when they could unlock trust faster by getting ONE testimonial (tier 1). → **Deploy**: Before upgrading a production setup, check whether a single client testimonial or personal-result proof point would clear the trust gate faster and cheaper.
+- **Insight**: *Comprehension and curiosity are easy to confuse post-mortem.* A retention cliff reads identically whether the viewer got bored (curiosity failure) or got lost (comprehension failure) — but the fixes are opposite (add a loop vs. simplify/re-order). → **Deploy**: Before adding more hooks to a flagging section, first check if the section is simply hard to follow.
+
+---
+
 ## Evolution Log
 
 | Date | Hypothesis | Result | Score Delta | Notes |
 |------|-----------|--------|-------------|-------|
 | 2026-04-09 | Add Resonance Prediction & Signal Feedback layer (Phase 2.5) to Strategic Market Architecture | KEPT | 7.3→8.7 (+1.4) | 5-indicator resonance scoring (Conversation Velocity, Emotional Polarity, Solution Vacuum, Identity Proximity, Timing Tension), falsifiable prediction statements, post-publish signal reading protocol (save-to-like, comment specificity, DM velocity, negative signals), pre-defined adaptation triggers. Turns static strategy into self-correcting system. Adversarial +2. |
 | 2026-07-01 | Enrich from claude.ai export (Speedrun, $10M Creator Business, 100K Subscriber convs) | KEPT | — | +10 net-new patterns (38-47: bingeability/series, 4-component visual style, unique edge, two dopamine hits/cult hopping, ignition/super share/5K line, creator business ladder, packaging-first inversion, click loop + 5-step intro, content speed differential, modern content stack) + 4 hidden-knowledge insights. Deduped against Patterns 1-37 and all 6 sibling Kallaway skills. |
+| 2026-07-10 | Enrich from claude.ai export tranche 2 (18 Psychology Tricks, Ultimate Kallaway Method, Storytelling Is Easier Than You Think, Game Theory, killer-script, viral-ideas-2025, AI-takeover, business-owner, irresistible-hooks convs) | KEPT | — | +2 net-new patterns (48-49: Six-Checkpoint Viewer Funnel, Comprehension Engineering & Value Compression) + 2 hidden-knowledge insights. Heavily redundant tranche as expected — Game Theory, killer-script, and viral-ideas-2025 convs turned out to be the exact source videos already mined for Patterns 33, 45, and 2/5 respectively (zero net-new from those three). Deduped against Patterns 1-47 and all sibling Kallaway skills. |
 
 ## Quality Rubric
 

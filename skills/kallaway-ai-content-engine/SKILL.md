@@ -72,7 +72,7 @@ All outputs from this domain are evaluated on:
 ```
 skills/kallaway-ai-content-engine/
 ├── SKILL.md                           ← You are here
-├── genius.md                          ← Core intelligence (6 patterns, 2 exemplars, 5 moves)
+├── genius.md                          ← Core intelligence (7 patterns, 2 exemplars, 5 moves; Pattern 7 = AI Trust Goldilocks Window, tranche 2 2026-07-10)
 ├── references/
 └── workflows/
     ├── ai-topic-mining-engine.md      ← Tier 1

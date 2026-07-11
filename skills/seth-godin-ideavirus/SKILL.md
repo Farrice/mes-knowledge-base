@@ -1,7 +1,7 @@
 ---
 name: "Seth Godin — Ideavirus Mastery"
 description: "Complete viral marketing and idea propagation system from Seth Godin's Unleashing the Ideavirus"
-version: "2.1"
+version: "2.2"
 format: "completion-engine"
 workflows: 6
 ---

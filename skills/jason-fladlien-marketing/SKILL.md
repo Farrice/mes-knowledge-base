@@ -1,6 +1,6 @@
 ---
 name: jason-fladlien-marketing
-description: Deploys Jason Fladlien's high-status persuasion physics — Success by Subtraction (remove the one weight, don't add ten tactics), Fear-First Conversion (get them to run out of reasons to say no), Incomparable Offer Engineering (don't make a better offer — make an incomparable one), and Radical Candor as Scarcity. 30 workflows across Tier 1-6 covering authority content, inertia-breaker presentations, identity-based offers, fear-mapped copy, indirect communication, spoken close architecture, one-to-many webinar campaigns, quantity-leap product creation, and game selection. Use when building high-ticket sales presentations, designing offer stacks that resist comparison, writing fear-first conversion copy, structuring webinar / VSL closes, dissolving prospect inertia, or when generic persuasion templates aren't converting. Trigger proactively when the user mentions "Guru's Guru" tier work, $5K+ offers, sales-presentation polish, or compares their offer favorably to competitors (the "comparable offer" trap is exactly what Fladlien dissolves).
+description: Deploys Jason Fladlien's high-status persuasion physics — Success by Subtraction (remove the one weight, don't add ten tactics), Fear-First Conversion (get them to run out of reasons to say no), Incomparable Offer Engineering (don't make a better offer — make an incomparable one), and Radical Candor as Scarcity. 31 workflows across Tier 1-7 covering authority content, inertia-breaker presentations, identity-based offers, fear-mapped copy, indirect communication, spoken close architecture, one-to-many webinar campaigns, quantity-leap product creation, game selection, and five-component offer anatomy with Setup-Payoff-Tie-Down scripting. Use when building high-ticket sales presentations, designing offer stacks that resist comparison, writing fear-first conversion copy, structuring webinar / VSL closes, dissolving prospect inertia, or when generic persuasion templates aren't converting. Trigger proactively when the user mentions "Guru's Guru" tier work, $5K+ offers, sales-presentation polish, or compares their offer favorably to competitors (the "comparable offer" trap is exactly what Fladlien dissolves).
 expert: Jason Fladlien
 domain: High-status marketing × persuasion physics × incomparable offer engineering
 ---
@@ -16,7 +16,7 @@ Expert in persuasion physics, subtractive psychology, fear-first conversion, inc
 - **Indirect Communication Mastery**: At the highest levels, get them to sell themselves
 - **Radical Candor as Scarcity**: Honesty is the rarest differentiator in a manipulative market
 
-## Workflows (30)
+## Workflows (31)
 
 ### Tier 1 — Foundation (7)
 | Workflow | Command | Produces |
@@ -72,8 +72,13 @@ Expert in persuasion physics, subtractive psychology, fear-first conversion, inc
 | One-Sitting Product Machine | `/fladlien-one-sitting` | Quantity-Leap Info-Product Plan (Four Multipliers + inevitable-success cadence + e-class ladder) |
 | Game Selection & Advantage Audit | `/fladlien-game-selection` | Play/Pass Verdict + Squint-Test Advantage + Brown Paper Bag Beta Design |
 
+### Tier 7 — Offer Anatomy (1)
+| Workflow | Command | Produces |
+|---------|---------|----------|
+| Offer Anatomy & Tie-Down Architecture | `/fladlien-offer-anatomy` | Five-Component Offer Blueprint (Get/Cost/Bonus/Risk/Scarcity) + Setup-Payoff-Tie-Down Scripts |
+
 ## Expert Context
-- **genius.md**: Full extraction intelligence — 15 genius patterns + 15 patterns from claude.ai export enrichment (2026-07-01: webinar campaign physics, quantity-leap product formula, game selection), 15 hidden knowledge items, 5 exemplars, 10 signature moves, 10-criterion quality rubric
-- **Source Material**: 2 transcript extractions, interview with extended analysis; enriched 2026-07-01 from 12 claude.ai export conversations (One-to-Many interviews, Product eClass 5.0, Project Mona Lisa/AI, NLP sales secrets, productivity panel)
+- **genius.md**: Full extraction intelligence — 15 genius patterns + 20 patterns from claude.ai export enrichment (2026-07-01 tranche 1: webinar campaign physics, quantity-leap product formula, game selection; 2026-07-10 tranche 2: compound skill stacking, crowd-inversion market arbitrage, absurdity amplification, heartbeat-of-the-market intelligence, format multiplication ladder), 17 hidden knowledge items, 5 exemplars, 10 signature moves, 10-criterion quality rubric
+- **Source Material**: 2 transcript extractions, interview with extended analysis; enriched 2026-07-01 from 12 claude.ai export conversations (One-to-Many interviews, Product eClass 5.0, Project Mona Lisa/AI, NLP sales secrets, productivity panel); enriched 2026-07-10 from 12 additional claude.ai export conversations (offer architecture + info product secrets, 5 Key Components of a Killer Offer, Webinars Aren't Dead, NLP Sales Secrets, Turning Entrepreneurs into Millionaires, Harnessing Webinars for Video Marketing, One-to-Many author interview, Why Most Sales Happen After No)
 - **Domain Coverage**: Copywriting, marketing psychology, offer architecture, sales/closing, brand strategy, spoken copy, hypnotic language, NLP, market research, empowerment marketing, indirect persuasion, conversational copy
 - **Prompt Library**: [references/prompts/](references/prompts/) — 26 crown-jewel practitioner prompts (mirrored in [references/_legacy-prompts/](references/_legacy-prompts/); searchable via `python3 execution/prompt_library.py search "<topic>"`)

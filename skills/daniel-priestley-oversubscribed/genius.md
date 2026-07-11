@@ -538,3 +538,79 @@
 1. Before raising prices, run the cash-carry protocol until quoting big numbers produces no flinch.
 2. Cut news/doom inputs for 90 days; reinvest the attention in asset creation.
 3. Audit your calendar for "component labor" hours — work that plugs into someone else's machine — and convert them to asset-building hours.
+
+---
+
+### Patterns from claude.ai export — tranche 2 (2026-07-10)
+
+> Net-new patterns folded in from 12 additional extraction conversations (money-making-expert interviews, high-ticket-client masterclasses, the "$100M Entrepreneur" buy-effortlessly series, and start-a-business/10X masterclasses). Deduped hard against Patterns 1-37 and Hidden Knowledge #1-10 above — several conversations covered the same ground (7-11-4, 1/9/90, CHAOS, the dinner-party partnership story) with no new mechanics, so those were skipped. Everything below is genuinely new.
+
+---
+
+#### Pattern 38: The Four Energies Team Physics
+**Description**: Every business needs four types of talent, mapped to a card-suit/season analogy: **Clubs (Spring)** — ideas, strategy, big-picture, networking; **Hearts (Summer)** — brand, marketing, story, people-facing; **Spades (Autumn)** — tasks, execution, getting things done; **Diamonds (Winter)** — systems, refinement, data, structure. Most founding conflict is two good people in different energies talking past each other, not a values problem.
+
+**Execute**: Map every team member (including yourself) to their dominant energy. When two energies clash in a meeting, name it explicitly and grant "Permission to Lock Horns" — a stated norm that Clubs-vs-Diamonds tension (vision vs. structure) is a feature of good teams, not a dysfunction to smooth over.
+
+**Success Metric**: Team composition covers all four energies without duplication at the top. Disagreements resolve faster because they're framed as energy friction, not personal conflict.
+
+---
+
+#### Pattern 39: The Three Brain Modes & Environment Design
+**Description**: Founders operate in one of three states: **Reptile mode** (stressed, exhausted, reactive, tunnel vision), **Autopilot mode** (executing known tasks, no new value created), and **Visionary mode** (possibility thinking, resource access, strategic moves). The lever is not willpower — it's environment. "Environment dictates performance": the room, the people, the financial pressure, and the physical state a founder is in produce the mode, not discipline.
+
+**Execute**: Before a strategic decision, check your mode. If in Reptile or Autopilot, change the environment first (different room, a walk, removing a stressor, sleep) rather than trying to think your way to a visionary decision under reptile conditions.
+
+**Success Metric**: Big calls get made from Visionary mode, identifiably — founder can name which mode produced a given decision in hindsight.
+
+---
+
+#### Pattern 40: The Cinderella Principle (Glass Slipper Selection)
+**Description**: To select the right few clients from many, run the fairy-tale sequence in reverse: throw the ball (build a wide top-of-funnel waiting list), then apply a rigid criteria — the glass slipper — to identify who actually fits. Target list size: roughly **10x the number of clients you actually want** (need 4-6 high-end clients → build a waitlist of 40). Most of the "fair maidens" get a nice free experience (content, an assessment, a webinar) and never convert; that's by design, not a failure.
+
+**Execute**: Before opening any high-ticket offer, define the glass slipper — 5 rigid qualifying questions that separate fits from non-fits. Build the waitlist to 10x target capacity BEFORE announcing you're taking clients. Present selection as "do you fit the criteria," never as a pitch.
+
+**Success Metric**: The business is choosing from a list, not chasing a prospect. Waitlist-to-client ratio holds near 10:1 at declared capacity.
+
+---
+
+#### Pattern 41: Signal Collection Before Supply (The Ice Cream Truck Method)
+**Description**: An ice-cream truck that opens its doors immediately gets a binary response: buy or don't. A truck that stays closed with a "opening soon, we typically sell out" sign and invites people to "join the lineup" gets signals of interest that (a) build a visible queue and (b) prevent price negotiation once it opens — nobody haggles in front of 40 people waiting behind them. The mechanism generalizes: ask for a small signal ("comment REPORT below") before ever asking for the sale; the signal itself becomes the demand-and-supply-tension proof.
+
+**Execute**: For any new offer, build a signal-collection step (comment word, waitlist join, form fill) BEFORE the offer is open. For cold-start with zero audience, use the **DM Magic Formula**: "I did something special for a certain type of person like you and got a remarkable result — can I explain it step by step?" Send in volume (Priestley's benchmark: 100/day for 30 days) to generate the first waitlist from nothing.
+
+**Success Metric**: By the time the offer opens, a visible signal queue already exists. Zero price objections at open because scarcity is already demonstrated, not asserted.
+
+---
+
+#### Pattern 42: The Tiered Offer Ladder (Bronze-Silver-Gold-Platinum + Decoy Middle)
+**Description**: Distinct from the Four-Tier Product Ecosystem (Pattern 35, which sequences Gift → Prospect → Core → Client offers) — this is price-tiering **within one service**. Structure the same core offer at Bronze/Silver/Gold/Platinum price points before market-testing, because founders consistently underestimate what the top of the market will pay. The classic result: price a service at $3K and watch buyers self-select into the $6K or $9K tier once it's presented as a choice, not a single price.
+
+**Execute**: Before quoting a new offer, build at minimum three price/scope tiers. Present all three together — buyers disproportionately choose the middle option when a lower and higher anchor exist on either side.
+
+**Success Metric**: Average deal size lands above the lowest tier without extra selling effort. "Sticker shock" objections drop because the buyer is choosing a tier, not evaluating one number in isolation.
+
+---
+
+#### Pattern 43: The Entrepreneur Apprenticeship & 90-Day Side Hustle
+**Description**: The fastest way to learn the "new rules" of building a personal-brand-plus-scalable-business is not books — it's becoming a **number two** to an entrepreneur who already has a personal brand (5K-50K followers is enough) and a working scalable model, for 1-2 years, inside a team of under 12 people. This precedes founding, and precedes side hustles. A **side hustle** is a distinct, disciplined format: an "open and shut" business case that starts and finishes inside 90 days by design (Priestley's own examples: running nightclub parties, door-to-door Valentine's roses) — not an ongoing venture, a bounded experiment that ends so the learning can be extracted.
+
+**Execute**: For someone starting from zero, sequence as: (1) find and work for an entrepreneur with a personal brand and elegant business model for 1-2 years as employee #2-10, (2) run 90-day side hustles with a pre-declared end date to test entrepreneurial instinct without long-term entanglement, (3) only then found the primary business.
+
+**Success Metric**: Career-stage clients skip years of trial-and-error by apprenticing under a working model instead of guessing alone. Side hustles produce clean learning because they have a forced stop.
+
+---
+
+## Hidden Knowledge — claude.ai export additions, tranche 2 (2026-07-10)
+
+---
+
+### Hidden Knowledge #11: The Creator/Consumer Bifurcation (AI Kings & Serfs)
+
+**Insight**: AI has exactly two superpowers, aimed at two different populations. On hyper-consumers, it maximizes distraction — the TikTok algorithm captures attention better than any human's self-control, and no one should feel weak for losing that fight ("there's not a single chess master who can beat an AI at chess"). On hyper-creators, it multiplies output — one person running 10 AI-assisted workflows can write a book, run a mastermind, and manage a property portfolio simultaneously. Society bifurcates into these two groups with no stable middle: "kings and serfs." What survives the split is **vitality, not functionality** — functionality is anything a computer can now do; vitality is "making things happen that wouldn't have otherwise happened," and only vitality gets paid at scale. The underlying wealth mechanism is the same as it's always been: money is made by creating and bringing new things into an expanding economy (the "pie that can expand"), not by saving from a fixed one — "it's not by saving, it's by creating things."
+
+**Deploy**:
+1. Audit your own AI usage: are you using it to consume (autopilot, distraction) or to create (drafting, building, shipping)? The line, not the tool, determines which side of the bifurcation you're on.
+2. When pricing or positioning any offer, lead with what you MAKE HAPPEN (vitality) that AI cannot, not with information or functionality AI now commoditizes.
+3. Treat personal brand as a compounding asset in this economy specifically because it can't be replicated by a competitor's AI stack — LinkedIn's own research found a personal account reaches roughly **120x the salience of a business account** posting the same content on the same schedule.
+4. When advising a founder on wealth-building, redirect from "spend less" to "create and bring one new thing into the economy" — the create → attract capital → scale → liquidity-event sequence is the actual path, not frugality.

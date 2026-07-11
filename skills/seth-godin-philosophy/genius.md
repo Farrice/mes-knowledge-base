@@ -205,6 +205,33 @@ A writer spends five years meticulously crafting a novel, constantly refining ev
 
 ---
 
+### Patterns from claude.ai export — Seth Godin conversations — tranche 2 (2026-07-10)
+
+> Source: Farrice's deeper-cut extraction conversations spanning "Why Strategy Always Beats Talent," "Seth Godin Reveals the Secret to Successful Strategy" (Carey Nieuwhof), "How to Build a Business Strategy That ACTUALLY Works" (Coach Fresh), and "How to Build Trust and Win Your Customer's Attention" (Eric Ries). Most of the strategy material (four threads, systems, kindling-before-logs, "you are traffic") re-confirmed patterns already extracted 2026-07-01 — not re-added. Net-new: how to find the real decision-maker, how to build a feedback loop that isn't just troll noise, a craft-level teaching principle, and how to spot the moment a system becomes vulnerable.
+
+#### Pattern 26: Hidden Decision-Maker Mapping
+**Execute**: Before building a strategy, identify who *actually* makes the adoption decision — it is often not the visible end-user. Godin's Lifespring hospital case: the team assumed their customer was the pregnant woman; the real decision-maker was her mother-in-law, who controls which hospital the family uses in that culture. The team had been "wasting all your time marketing to pregnant ladies." Ask explicitly: "who is not the obvious person, but the one whose approval actually unlocks the yes?" — then redesign messaging and channel choice around that person.
+**Success Metric**: The named decision-maker in the strategy brief was tested against "who actually controls the yes," not assumed to be the end-user by default
+
+#### Pattern 27: Qualified Feedback Loop Design (Kitchen-Uneaten Signal)
+**Execute**: Separate "criticism" from "feedback." Negative feedback loops are useful (a thermostat correcting course); public troll noise is not a feedback loop at all — it's a distraction that degrades behavior (politicians who "spend almost all of their day listening to trolls" start governing for the trolls). Build a small, qualified cohort — a workshop, a paid community, a beta group — and *watch* where they get confused or stuck, rather than asking them to "give feedback" directly (people freeze up and either flatter or perform criticism when asked point-blank). "Great chefs look at what's coming back to the kitchen uneaten." That implied signal from a qualified group is priceless; unsolicited comments from strangers are noise, not signal, and should be structurally excluded from editorial decisions (turn off public comments if they can't be filtered to a qualified cohort).
+**Success Metric**: The only feedback that changes the work traces to a named, qualified source (professional critique or an observed cohort) — zero unsolicited public comments cited as a reason for a change
+
+#### Pattern 28: The Smallest Nudge / Don't Steal the Revelation
+**Execute**: When teaching or writing, resist the urge to over-explain. Give "the smallest nudge possible that is still scaffolding" and then stop — let the audience complete the thought themselves: "if I say 'D' and you say 'd' in your own head, learning happens; if I make you sit through the whole alphabet, you glaze over." Verbosity is usually hiding — writers over-explain in anticipation of a negative comment, footnoting and doubling down so no one can catch them out; that instinct should be cut, not indulged. The target is a single image or line that does the work of a chapter (the "purple cow," not a ten-page argument for it).
+**Success Metric**: First draft is cut by removing every sentence that pre-defends against an imagined critic; the core insight survives in one memorable image or line, not an explanation of it
+
+#### Pattern 29: Spot the Agent of Change
+**Execute**: Don't just name systems (Pattern 17) — actively scan for what is currently *stressing* a dominant system, because that stress is where the opportunity window opens: "if you see something that is stressing out dominant systems, you found an agent of change." When ebooks stressed the publishing/bookstore system, incumbents hated and fought it — that resistance was the tell, and the one company that leaned into the shift instead of fighting it captured the opportunity. If the existing players in a system are fine with a shift (smaller, pricier cookie packages), there's no opportunity there; opportunity opens specifically where incumbents are resisting.
+**Success Metric**: The strategy names one active agent of change and the specific incumbent resistance to it, before resources are committed
+
+#### Hidden Knowledge (2026-07-10 additions)
+
+**Insight**: To evaluate whether today's hard decision is worth it, run the "5-year letter" thought experiment — write yourself a letter from 5 years in the future, thanking present-you for a specific decision made today (a client fired, a skill learned), the way you can already write that letter backward for a decision 5 years ago. Godin's proof case: firing his biggest client (a third of revenue, actively hostile, "sent a lawyer to every meeting") freed the team to replace the lost revenue "plus extra" within 60 days, because the relief itself became fuel.
+**Deploy**: Before making an expensive-feeling call (firing a bad client, ending a commitment, closing a line), draft the 5-years-from-now thank-you letter first (extends Pattern 20 — Time Horizon Arbitrage). If it's easy to write, take the loss now.
+
+---
+
 ## Evolution Log
 
 > Tracks all evolution attempts — kept AND discarded.

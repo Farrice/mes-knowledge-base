@@ -133,6 +133,39 @@ Analysis: "Make a decision" is the command. Everything before it is preparation 
 **Written application**:
 "Your market is more skeptical than ever. (True.) They've seen every tactic. (True.) They know when they're being sold to. (True.) Which means the only positioning that works now is being genuinely, uncomfortably honest. (Your conclusion — but it FEELS as obvious as the first three.)"
 
+#### Patterns from claude.ai export — tranche 2 (2026-07-10)
+
+#### Pattern 7: Linking (Two Facts + One Suggestion)
+**Principle**: Surround an unproven suggestion with two verifiably true statements. The suggestion inherits the credibility of its neighbors — the reader's brain doesn't audit each clause separately, it audits the paragraph as a whole.
+
+**Fladlien example** (paraphrased from technique description): "You take two true statements, then add a third — a suggestion — and because it's surrounded by factual evidence, the suggestion tends to take on the nature of fact."
+
+**Template**:
+```
+"[Verifiable fact]. [Verifiable fact]. [Unproven suggestion you want accepted as equally true]."
+```
+
+**Written applications**:
+- "You've read this far. Most people don't. Which means you're already the kind of operator this works for."
+- "This system shipped three products this quarter. Revenue is up 40%. It's because the founder finally stopped doing everything herself."
+
+#### Pattern 8: Gradual / Timeless Shift (Escalating Certainty)
+**Principle**: Open a piece of copy with tentative, deniable language ("maybe," "you might") and escalate — sentence by sentence, paragraph by paragraph — into fully declarative claims by the close. Early hedges buy trust; late certainty lands because the reader has already agreed with everything hedged before it.
+
+**Written applications**:
+- Opening: "You might already sense something isn't working." → Middle: "There's a good chance the bottleneck isn't what you think it is." → Close: "You now have everything you need to fix this. The only question is whether you act on it."
+- Avoid front-loading declarative claims to a cold or skeptical reader — earn the certainty across the piece, don't open with it.
+
+#### Pattern 9: Artfully Vague Language
+**Principle**: Leave the object of a claim deliberately unspecified so each reader fills it in with whatever is most emotionally relevant to them — one sentence, personalized N ways.
+
+**Fladlien example**: "You have within you the power to change — whether you realize it or not." (Change in WHAT is never specified; the reader supplies their own answer.)
+
+**Written applications**:
+- "There's something in your business right now that's costing you more than you think." (unspecified — each reader plugs in their own bottleneck)
+- "You already know what needs to happen next." (unspecified next action — self-selected by the reader's actual situation)
+- **Caution**: Artfully vague language only works stacked WITH specific proof elsewhere in the copy — an entire piece of vague language reads as generic AI slop, not hypnotic.
+
 ### Phase 2 — Integration Protocol
 
 **How to embed patterns into existing copy:**
