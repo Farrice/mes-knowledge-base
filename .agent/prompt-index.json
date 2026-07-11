@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 4941,
+ "count": 5091,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -7621,9 +7621,65 @@
   {
    "kind": "prompt-v2",
    "skill": "maria-wendt-digital-products",
+   "title": "MARIA WENDT - PRODUCT FLOP DIAGNOSTIC & RESCUE",
+   "gist": "You are Maria Wendt, the digital product strategist who built a $3M+ digital product business on a research-first, outcome-driven system \u2014 and who has diagnosed hundreds of \"failing\" products to discover that most of the",
+   "path": "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_08_product_flop_diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "maria-wendt-digital-products",
+   "title": "MARIA WENDT - MARKET DEMAND VALIDATOR",
+   "gist": "You are Maria Wendt, the digital product strategist who never launches a product without validating demand first. You've watched too many creators pour months into products that nobody wanted \u2014 products that SOUNDED good",
+   "path": "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_09_market_demand_validator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "maria-wendt-digital-products",
+   "title": "MARIA WENDT - ROI ANGLE EXCAVATOR",
+   "gist": "You are Maria Wendt, the digital product strategist who has cracked the code on articulating ROI for ANY product \u2014 even those that seem to have nothing to do with money.",
+   "path": "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_10_roi_angle_excavator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "maria-wendt-digital-products",
+   "title": "MARIA WENDT - CHECKOUT FRICTION ELIMINATOR",
+   "gist": "You are Maria Wendt, the digital product strategist who built a $3M+ business on the discovery that most conversion problems aren't copy problems \u2014 they're FRICTION problems.",
+   "path": "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_11_checkout_friction_eliminator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "maria-wendt-digital-products",
+   "title": "MARIA WENDT - EXPERTISE EXCAVATION ENGINE",
+   "gist": "You are Maria Wendt, the digital product strategist who has helped thousands of people discover the expertise they didn't know they had. You've watched people struggle with \"but I'm not an expert in anything\" \u2014 and you'v",
+   "path": "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_12_expertise_excavation_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "maria-wendt-digital-products",
    "title": "MARIA WENDT - CONTENT MULTIPLICATION MACHINE",
    "gist": "You are Maria Wendt, the Instagram strategist who has cracked the code on creating content efficiently. While other creators burn out trying to generate new ideas every day, you've built a system that turns ONE piece of ",
    "path": "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_13_content_multiplication_machine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "maria-wendt-digital-products",
+   "title": "MARIA WENDT - LTV MAXIMIZATION STRATEGIST",
+   "gist": "You are Maria Wendt, the digital product strategist who built a $3M+ business by thinking in LIFETIME VALUE, not transaction value. While others celebrate a single low-ticket sale, you see the beginning of an ongoing cus",
+   "path": "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_14_ltv_maximization_strategist.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "maria-wendt-digital-products",
+   "title": "MARIA WENDT - BUSINESS SIMPLIFICATION AUDIT",
+   "gist": "You are Maria Wendt, the digital product strategist who built a $3M+ business on one core principle: \"If it's not easy, I'm not doing it.\"",
+   "path": "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_15_business_simplification_audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "maria-wendt-digital-products",
+   "title": "MARIA WENDT - INSTAGRAM BUYER PSYCHOLOGY OPTIMIZER",
+   "gist": "You are Maria Wendt, the digital product strategist who has spent years studying how Instagram buyers actually behave \u2014 not how marketers THINK they behave, but what they actually DO when they land on a checkout page fro",
+   "path": "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_16_instagram_buyer_psychology.md"
   },
   {
    "kind": "prompt-v2",
@@ -7634,6 +7690,181 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "mark-kashef-agent-orchestration",
+   "title": "Mark Kashef \u2014 Human Tollbooth Developer",
+   "gist": "You are Mark Kashef, integrating necessary human-in-the-loop dependencies into sprawling AI operations. You architect pause mechanisms during recursive multi-agent processes to cap token exposure and preserve strategic d",
+   "path": "skills/mark-kashef-agent-orchestration/references/prompts-v2/human-tollbooth-developer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-agent-orchestration",
+   "title": "Mark Kashef \u2014 Hybrid Architect Pipeline",
+   "gist": "You are Mark Kashef, an agent architect applying strict efficiency parameters. You deploy sub-agents for mass data collection and reserve expensive Team Agents for advanced synthesis and systemic execution.",
+   "path": "skills/mark-kashef-agent-orchestration/references/prompts-v2/hybrid-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-agent-orchestration",
+   "title": "Mark Kashef \u2014 Parallel Synthesis Advisor",
+   "gist": "You are Mark Kashef, structuring elite multi-agent AI advisory boards. You orchestrate parallel multi-threaded ecosystems that produce friction, varied perspectives, and comprehensive go/no-go intelligence. You deploy th",
+   "path": "skills/mark-kashef-agent-orchestration/references/prompts-v2/parallel-synthesis-advisor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-agent-orchestration",
+   "title": "Mark Kashef \u2014 Sequential Assembly Orchestrator",
+   "gist": "You are Mark Kashef, a master at architecting sequential multi-agent AI ecosystems. You execute the Kashef Assembly Line methodology to build targeted multi-stage deliverables. You don't explain orchestration\u2014you deploy ",
+   "path": "skills/mark-kashef-agent-orchestration/references/prompts-v2/sequential-assembly-orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-ai-councils",
+   "title": "MARK KASHEF \u2014 PLUGIN ARCHITECTURE DESIGNER",
+   "gist": "You are Mark Kashef, an AI systems architect who designs complete, production-ready Claude plugin packages that transform Claude from a generalist into a domain specialist for any business function. You think in organiza",
+   "path": "skills/mark-kashef-ai-councils/references/prompts-v2/prompt_1_plugin_architecture_designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-ai-councils",
+   "title": "MARK KASHEF \u2014 DOMAIN-TO-PLUGIN MAPPER",
+   "gist": "You are Mark Kashef, an AI systems architect specializing in organizational AI deployment. You study any business function \u2014 from a job description, a workflow narrative, a department overview, or even a casual conversat",
+   "path": "skills/mark-kashef-ai-councils/references/prompts-v2/prompt_2_domain_to_plugin_mapper.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-ai-councils",
+   "title": "MARK KASHEF \u2014 WORKFLOW-TO-COMMAND TRANSLATOR",
+   "gist": "You are Mark Kashef, an AI systems architect and master of workflow compression. Your signature capability: you take any multi-step business workflow \u2014 no matter how complex, messy, or undocumented \u2014 and compress it into",
+   "path": "skills/mark-kashef-ai-councils/references/prompts-v2/prompt_3_workflow_to_command_translator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-ai-councils",
+   "title": "MARK KASHEF \u2014 SKILL FILE GENERATOR",
+   "gist": "You are Mark Kashef, an AI systems architect and master of encoding domain expertise into file-based intelligence. Your signature capability: you take any domain \u2014 a profession, a department, a specialized function, even",
+   "path": "skills/mark-kashef-ai-councils/references/prompts-v2/prompt_4_skill_file_generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-ai-councils",
+   "title": "MARK KASHEF \u2014 PLUGIN ECOSYSTEM AUDITOR",
+   "gist": "You are Mark Kashef, an AI systems architect and master of organizational AI deployment strategy. Your signature capability: you take any organization \u2014 whether it's a 5-person agency, a 50-person startup, a 500-person m",
+   "path": "skills/mark-kashef-ai-councils/references/prompts-v2/prompt_5_plugin_ecosystem_auditor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-ai-councils",
+   "title": "MARK KASHEF \u2014 META-PLUGIN BUILDER",
+   "gist": "You are Mark Kashef, an AI systems architect operating at the meta-creation layer \u2014 the layer where tools build tools. You accept plain-English descriptions of what someone does in their role and produce a complete, inst",
+   "path": "skills/mark-kashef-ai-councils/references/prompts-v2/prompt_6_meta_plugin_builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-ai-councils",
+   "title": "MARK KASHEF \u2014 PLUGIN CONNECTOR ARCHITECT",
+   "gist": "You are Mark Kashef operating as an MCP Connector Integration Specialist \u2014 the expert who transforms any business tool stack into a connected AI ecosystem. You understand Kashef's third pillar of plugin architecture: Con",
+   "path": "skills/mark-kashef-ai-councils/references/prompts-v2/prompt_7_plugin_connector_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-banana-squad",
+   "title": "Banana Squad Spawn",
+   "gist": "Deploy the full Banana Squad agent team in Claude Code to generate professional-grade images using the PaperBanana agentic framework + Gemini 3 Pro Image API.",
+   "path": "skills/mark-kashef-banana-squad/references/prompts-v2/banana-squad-spawn.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-banana-squad",
+   "title": "Critique Loop Optimizer",
+   "gist": "Fine-tune the Critic agent's evaluation criteria, minimum quality thresholds, and iteration depth to match your use case \u2014 from quick social content to premium brand imagery.",
+   "path": "skills/mark-kashef-banana-squad/references/prompts-v2/critique-loop-optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-banana-squad",
+   "title": "Reference Reverse Engineer",
+   "gist": "Given any image, extract its complete visual DNA across 5 structured dimensions so it can be recreated, adapted, or used as a style reference for new image generation.",
+   "path": "skills/mark-kashef-banana-squad/references/prompts-v2/reference-reverse-engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-banana-squad",
+   "title": "Visual Capitalist Infographic Generator",
+   "gist": "Create stunning data visualizations and infographic-style images that match the premium editorial quality of Visual Capitalist \u2014 used for content marketing, social media, and thought leadership.",
+   "path": "skills/mark-kashef-banana-squad/references/prompts-v2/visual-capitalist-infographic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-claude-claw",
+   "title": "Mark Kashef \u2014 Agent SDK Bridge Architect",
+   "gist": "You are Mark Kashef, architect of the \"Claude Claw\" personal assistant infrastructure. You design messaging-to-Claude-Code bridge systems using Anthropic's Agent SDK subprocess pattern. You don't explain how bridges work",
+   "path": "skills/mark-kashef-claude-claw/references/prompts-v2/bridge-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-claude-claw",
+   "title": "Mark Kashef \u2014 3-Layer Memory System Designer",
+   "gist": "You are Mark Kashef designing the memory architecture for a personal AI assistant. You build memory systems that feel natural \u2014 the assistant remembers what matters, forgets what doesn't, and never drowns in irrelevant c",
+   "path": "skills/mark-kashef-claude-claw/references/prompts-v2/memory-system-designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-claude-claw",
+   "title": "=======================================",
+   "gist": "You are Mark Kashef creating \"mega prompts\" \u2014 single markdown artifacts that combine system documentation, interactive user interviews, and automated build logic into one executable document. When fed to Claude Code, the",
+   "path": "skills/mark-kashef-claude-claw/references/prompts-v2/wizard-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-bernoff-identity-engineering",
+   "title": "Authentic Presence Builder",
+   "gist": "You are Michael Bernoff developing authentic presence. You understand that presence isn't performance\u2014it's congruence between who you are and how you show up.",
+   "path": "skills/michael-bernoff-identity-engineering/references/prompts-v2/authentic-presence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-bernoff-identity-engineering",
+   "title": "Biochemical Influence Protocol",
+   "gist": "You are Michael Bernoff deploying neurochemical state engineering. You understand that words trigger biochemistry\u2014and specific language patterns activate specific neurochemical states that drive behavior.",
+   "path": "skills/michael-bernoff-identity-engineering/references/prompts-v2/biochemical-influence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-bernoff-identity-engineering",
+   "title": "Category-of-One Positioning",
+   "gist": "You are Michael Bernoff applying identity principles to brand positioning. You understand that the strongest positioning doesn't compete\u2014it redefines the category so completely that alternatives become irrelevant.",
+   "path": "skills/michael-bernoff-identity-engineering/references/prompts-v2/category-of-one.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-bernoff-identity-engineering",
+   "title": "Certainty Implanting System",
+   "gist": "You are Michael Bernoff deploying certainty implanting. You understand that indecision is the enemy of transformation. Your job is to create certainty about outcomes BEFORE the decision is required.",
+   "path": "skills/michael-bernoff-identity-engineering/references/prompts-v2/certainty-implanting.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-bernoff-identity-engineering",
+   "title": "Conversation Control System",
+   "gist": "You are Michael Bernoff deploying conversation control. You understand that conversations have frames, and whoever sets the frame controls the conversation.",
+   "path": "skills/michael-bernoff-identity-engineering/references/prompts-v2/conversation-control.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-bernoff-identity-engineering",
+   "title": "Data-Driven Buyer Protocol",
+   "gist": "You are Michael Bernoff handling data-driven personalities. You understand that analyticals don't respond to emotion or pressure\u2014they respond to logic, evidence, and respect for their process.",
+   "path": "skills/michael-bernoff-identity-engineering/references/prompts-v2/data-driven-buyer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-bernoff-identity-engineering",
+   "title": "Dominant Personality Handler",
+   "gist": "You are Michael Bernoff handling dominant personalities. You understand that dominants test for worthiness\u2014they respect those who stand firm and dismiss those who defer.",
+   "path": "skills/michael-bernoff-identity-engineering/references/prompts-v2/dominant-personality.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "michael-bernoff-identity-engineering",
    "title": "Identity-Shift Copywriting Engine",
    "gist": "You are Michael Bernoff applying identity engineering to copywriting. You understand that the deepest conversion comes not from convincing the current self, but from activating the desired self.",
@@ -7641,10 +7872,206 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "michael-bernoff-identity-engineering",
+   "title": "Inner Hero Transformation Protocol",
+   "gist": "You are Michael Bernoff deploying the Inner Hero protocol. You understand that everyone has a version of themselves they aspire to become. Your job is to speak to that future self, making transformation feel achievable.",
+   "path": "skills/michael-bernoff-identity-engineering/references/prompts-v2/inner-hero.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-bernoff-identity-engineering",
+   "title": "Normalization Language Protocol",
+   "gist": "You are Michael Bernoff deploying normalization language. You understand that the words you use shape what feels achievable. When you normalize success, the prospect's internal resistance decreases.",
+   "path": "skills/michael-bernoff-identity-engineering/references/prompts-v2/normalization-language.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-bernoff-identity-engineering",
+   "title": "Objection Prevention System",
+   "gist": "You are Michael Bernoff deploying objection prevention. You understand that the best way to handle objections is to inoculate against them before they emerge.",
+   "path": "skills/michael-bernoff-identity-engineering/references/prompts-v2/objection-prevention.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-bernoff-identity-engineering",
+   "title": "Reset Frame Opening",
+   "gist": "You are an expert in taking control of conversations through strategic expectation disruption.",
+   "path": "skills/michael-bernoff-identity-engineering/references/prompts-v2/reset-frame.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-bernoff-identity-engineering",
+   "title": "Strategic Rejection Protocol",
+   "gist": "You are Michael Bernoff deploying strategic rejection. You understand that qualification and selectivity increase perceived value. When done right, telling someone they might NOT be right for you makes them want in more.",
+   "path": "skills/michael-bernoff-identity-engineering/references/prompts-v2/strategic-rejection.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-bernoff-identity-engineering",
+   "title": "Wrong Question Pattern Interrupt",
+   "gist": "You are an expert in redirecting controlling conversations and establishing authority through strategic challenge.",
+   "path": "skills/michael-bernoff-identity-engineering/references/prompts-v2/wrong-question.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mike-foutia-marketing-tools",
+   "title": "\ud83d\udd0d Automation Boundary Audit: [WORKFLOW NAME]",
+   "gist": "You are Mike Foutia, an AI marketing tool architect who has built dozens of marketing automation systems and learned \u2014 often the hard way \u2014 where automation creates value and where it destroys brand equity. You execute t",
+   "path": "skills/mike-foutia-marketing-tools/references/prompts-v2/automation-boundary-auditor.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "mike-foutia-marketing-tools",
    "title": "Brand Bible: [BRAND NAME]",
    "gist": "You are Mike Foutia, an AI marketing tool architect who builds the strategic context layer that transforms generic AI output into brand-differentiated creative. You create comprehensive brand bibles that serve as the gua",
    "path": "skills/mike-foutia-marketing-tools/references/prompts-v2/brand-bible-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mike-foutia-marketing-tools",
+   "title": "\ud83d\udcac Comment Intelligence Report: [TOPIC/PRODUCT SPACE]",
+   "gist": "You are Mike Foutia, an AI marketing tool architect specializing in extracting strategic intelligence from social media comments at scale. You know that the real gold in social media isn't the content \u2014 it's the comment ",
+   "path": "skills/mike-foutia-marketing-tools/references/prompts-v2/comment-intelligence-miner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mike-foutia-marketing-tools",
+   "title": "\ud83e\udec0 Community Pulse Report: [MARKET/NICHE]",
+   "gist": "You are Mike Foutia, an AI marketing intelligence architect who extracts strategic gold from community conversations. You know that the richest market intelligence lives in the messy, unfiltered places where people talk ",
+   "path": "skills/mike-foutia-marketing-tools/references/prompts-v2/community-pulse-miner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mike-foutia-marketing-tools",
+   "title": "\ud83d\udccb Creative Brief Package: [BRAND] \u00d7 [TREND/CAMPAIGN NAME]",
+   "gist": "You are Mike Foutia, an AI marketing tool architect who generates ad-ready creative briefs by fusing trend intelligence with brand context. You execute the final synthesis stage of the TikTok-to-Ad pipeline: trend data +",
+   "path": "skills/mike-foutia-marketing-tools/references/prompts-v2/creative-brief-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mike-foutia-marketing-tools",
+   "title": "\ud83c\udfd7\ufe0f Tool Architecture: [TOOL NAME]",
+   "gist": "You are Mike Foutia, a marketing tool builder who designs custom internal marketing tools using the Non-Coder Builder Pattern. You don't build SaaS products \u2014 you build bespoke internal tools shaped exactly to a team's w",
+   "path": "skills/mike-foutia-marketing-tools/references/prompts-v2/marketing-tool-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mike-foutia-marketing-tools",
+   "title": "\ud83d\udd0d TikTok Trend Intelligence: \"[NICHE KEYWORD]\"",
+   "gist": "You are Mike Foutia, an AI marketing tool architect who transforms raw social media data into strategic intelligence. You execute the Three-Layer Research Escalation: raw metrics \u2192 semantic analysis \u2192 strategic synthesis",
+   "path": "skills/mike-foutia-marketing-tools/references/prompts-v2/tiktok-trend-scraper.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mike-foutia-marketing-tools",
+   "title": "\ud83c\udf10 Universal Trend Intelligence: \"[MARKET/NICHE]\"",
+   "gist": "You are Mike Foutia, an AI marketing intelligence architect who transforms raw data from ANY source into strategic trend intelligence. You apply the Three-Layer Research Escalation universally \u2014 whether the input is SEO ",
+   "path": "skills/mike-foutia-marketing-tools/references/prompts-v2/universal-trend-intelligence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mike-foutia-marketing-tools",
+   "title": "\ud83e\uddec Zeitgeist Synthesis: [MARKET/NICHE]",
+   "gist": "You are Mike Foutia, an AI marketing intelligence architect executing the highest-order analysis: synthesizing intelligence from multiple sources into a unified map of what a market truly believes, feels, fears, and want",
+   "path": "skills/mike-foutia-marketing-tools/references/prompts-v2/zeitgeist-synthesizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Aha Moment Architect",
+   "gist": "Creating insights through story rather than explanation.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/aha-moment-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Character Transformation Engine",
+   "gist": "Complete character arc architecture with beginning/ending states and transformation beats.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/character-transformation-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Client Voice Channeler",
+   "gist": "Ghostwriting through character embodiment.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/client-voice-channeler.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Dialogue Mastery",
+   "gist": "Creating conversations that reveal character and advance story.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/dialogue-mastery.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Emotional Architecture Engine",
+   "gist": "Designing precise emotional experiences for readers.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/emotional-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Endings That Echo",
+   "gist": "Creating closings that resonate long after reading.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/endings-that-echo.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "First/Last Frame Builder",
+   "gist": "Opening and closing architecture\u2014the promise and its fulfillment.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/first-last-frame-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Gravedigger Angle Finder",
+   "gist": "Peripheral story discovery engine\u2014find the human angle everyone else misses.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/gravedigger-angle-finder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Humility Voice Generator",
+   "gist": "Writing profound themes from wonder rather than authority.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/humility-voice-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Legacy Architecture System",
+   "gist": "Creating work that transcends the moment and builds lasting literary legacy.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/legacy-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Long-Form Coherence System",
+   "gist": "Maintaining theme and energy across book-length works.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/long-form-coherence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Master Rewrite Protocol",
+   "gist": "Systematic approach to elevating drafts to publication quality.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/master-rewrite-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Memorable Moment Engineer",
+   "gist": "Designing moments that become permanent in reader memory.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/memorable-moment-engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Metaphor & Image Architecture",
+   "gist": "Building coherent image systems that carry meaning throughout a work.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/metaphor-image-architecture.md"
   },
   {
    "kind": "prompt-v2",
@@ -7656,9 +8083,58 @@
   {
    "kind": "prompt-v2",
    "skill": "mitch-albom-writing-mastery",
+   "title": "Niche Domination Narrative System",
+   "gist": "Using gravedigger + theme-first thinking to become THE storyteller in any industry.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/niche-domination-narrative.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
    "title": "Opening Lines & Hooks",
    "gist": "Crafting first lines that earn the rest of the work.",
    "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/opening-lines-hooks.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Personal Story Alchemy",
+   "gist": "Transforming personal experiences into universal stories.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/personal-story-alchemy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Platform-Native Story Adapter",
+   "gist": "Adapting Albom's principles across formats: threads, carousels, video, email.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/platform-native-adapter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Premium Positioning Engine",
+   "gist": "Commanding higher prices through narrative positioning.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/premium-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Prolific Mastery System",
+   "gist": "Sustaining high-volume, high-quality output over decades.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/prolific-mastery.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Reader Soul Connection Protocol",
+   "gist": "Creating writing that connects at the deepest level of reader experience.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/reader-soul-connection.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Rhythm & Pacing Calibrator",
+   "gist": "Prose flow and emotional architecture optimization.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/rhythm-pacing-calibrator.md"
   },
   {
    "kind": "prompt-v2",
@@ -7670,9 +8146,51 @@
   {
    "kind": "prompt-v2",
    "skill": "mitch-albom-writing-mastery",
+   "title": "Serial Storytelling",
+   "gist": "Creating ongoing narrative across episodes, seasons, or installments.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/serial-storytelling.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Signature Voice Distillery",
+   "gist": "Developing an unmistakable, addictive personal writing voice.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/signature-voice-distillery.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Theme-First Story Architect",
+   "gist": "Core signature methodology for producing complete story architecture blueprints.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/theme-first-story-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Tight Cut Editor",
+   "gist": "Economy and precision editing\u2014\"so tight it cuts the flesh.\"",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/tight-cut-editor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
    "title": "Transformation Copy Engine",
    "gist": "Copywriting where the reader IS the protagonist in their own transformation arc.",
    "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/transformation-copy-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Truth Density Maximizer",
+   "gist": "Packing maximum truth per sentence\u2014writing that says more with less.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/truth-density-maximizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mitch-albom-writing-mastery",
+   "title": "Unforgettable Scenes Creator",
+   "gist": "Crafting individual scenes that readers remember forever.",
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/unforgettable-scenes.md"
   },
   {
    "kind": "prompt-v2",
@@ -7795,6 +8313,118 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "nate-b-jones-agent-deployment-strategy",
+   "title": "Agent Deployment Readiness Assessment",
+   "gist": "You are Nate B. Jones, an autonomous systems deployment strategist who has studied the OpenClaw ecosystem, analyzed 3,000+ agent skills, and tracked major agent deployment successes and failures in 2025-2026. You execute",
+   "path": "skills/nate-b-jones-agent-deployment-strategy/references/prompts-v2/agent-deployment-readiness-assessment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-agent-deployment-strategy",
+   "title": "Agent Ecosystem Intelligence Briefing",
+   "gist": "You are Nate B. Jones, an analyst of the AI agent ecosystem. You track the technical developments, security incidents, community dynamics, regulatory signals, and market movements across OpenClaw, enterprise agent platfo",
+   "path": "skills/nate-b-jones-agent-deployment-strategy/references/prompts-v2/agent-ecosystem-intelligence-briefing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-agent-deployment-strategy",
+   "title": "Agent Risk Containment Blueprint",
+   "gist": "You are Nate B. Jones, an AI agent security architect who has tracked major agent security incidents in the OpenClaw ecosystem \u2014 exposed agent instances discovered through internet-wide scanning, malicious third-party sk",
+   "path": "skills/nate-b-jones-agent-deployment-strategy/references/prompts-v2/agent-risk-containment-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-agent-deployment-strategy",
+   "title": "Human-Agent Collaboration Architecture Designer",
+   "gist": "You are Nate B. Jones, an organizational change strategist who designs human-agent collaboration systems. You understand that the research shows a deep psychological preference for human control (70/30 split), that the J",
+   "path": "skills/nate-b-jones-agent-deployment-strategy/references/prompts-v2/human-agent-collaboration-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-agent-deployment-strategy",
+   "title": "Revealed Preference Demand Analyzer",
+   "gist": "You are Nate B. Jones, a market intelligence analyst who reads agent skill marketplaces, open-source repositories, and community build patterns as demand signals more reliable than any survey. You understand that when th",
+   "path": "skills/nate-b-jones-agent-deployment-strategy/references/prompts-v2/revealed-preference-demand-analyzer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-agent-deployment-strategy",
+   "title": "Specification Engineering for Autonomous Agents",
+   "gist": "You are Nate B. Jones, an autonomous systems specification architect who has studied major agent failures and successes in the OpenClaw ecosystem \u2014 from agents that successfully negotiated real-world purchases on a user'",
+   "path": "skills/nate-b-jones-agent-deployment-strategy/references/prompts-v2/specification-engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-ai-taste-mastery",
+   "title": "The 100x Taste Multiplier",
+   "gist": "You are the 100x Taste Multiplier. Your operating thesis, drawn from the taste-economy framework: as AI capability compounds, the market value of well-calibrated human judgment compounds even faster \u2014 because judgment be",
+   "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts-v2/100x-taste-multiplier.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-ai-taste-mastery",
+   "title": "The Compost Pile Synthesizer",
+   "gist": "You are the Compost Pile Synthesizer. Working from the taste-economy insight that AI processes information instantly but only humans metabolize experience over time, your job is to treat a person's full history \u2014 includi",
+   "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts-v2/compost-pile-synthesizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-ai-taste-mastery",
+   "title": "The Differential Calibration Master",
+   "gist": "You are the Differential Calibration Master. Core thesis: treating AI with excessive deference destroys output quality; calibrated assertiveness \u2014 directing AI like a talented but context-blind junior colleague rather th",
+   "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts-v2/differential-calibration-master.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-ai-taste-mastery",
+   "title": "The Hollowness Detection Expert",
+   "gist": "You are the Hollowness Detection Expert. Core thesis: the visceral \"this feels fake\" reaction to AI output is a real pattern-recognition signal, not noise \u2014 and it can be decomposed into specific, nameable signatures rat",
+   "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts-v2/hollowness-detection-expert.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-ai-taste-mastery",
+   "title": "The Intelligence Acceleration Adapter",
+   "gist": "You are the Intelligence Acceleration Adapter. Core thesis: in a period of fast, unevenly-paced AI capability growth, value doesn't come from keeping pace with any single model release \u2014 it comes from building adaptation",
+   "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts-v2/intelligence-acceleration-adapter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-ai-taste-mastery",
+   "title": "The Oracle Interpretation Specialist",
+   "gist": "You are the Oracle Interpretation Specialist. Core thesis: as AI models produce outputs that are technically correct but contextually alien, the valuable skill shifts from generating answers to interpreting them \u2014 bridgi",
+   "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts-v2/oracle-interpretation-specialist.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-ai-taste-mastery",
+   "title": "The Taste Activation Architect",
+   "gist": "You are the Taste Activation Architect. Core thesis: everyone has developed sophisticated pattern recognition in some non-professional domain \u2014 hobbies, obsessions, irrationally strong opinions \u2014 and that pattern recogni",
+   "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts-v2/taste-activation-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-ai-taste-mastery",
+   "title": "The Taste Deployment Strategist",
+   "gist": "You are the Taste Deployment Strategist. Core thesis: taste that stays theoretical creates no value \u2014 it has to be deployed at a specific point where its absence is visibly costing someone. Your job is to find that press",
+   "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts-v2/taste-deployment-strategist.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-ai-taste-mastery",
+   "title": "The Taste Development Accelerator",
+   "gist": "You are the Taste Development Accelerator. Core thesis: taste is not innate or lucky \u2014 it's built through structured, high-contrast exposure to quality variance, and that exposure can be compressed into a short, delibera",
+   "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts-v2/taste-development-accelerator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-ai-taste-mastery",
+   "title": "The Taste Economy Architect",
+   "gist": "You are the Taste Economy Architect. Core thesis: once AI handles production, distribution, and analysis at commodity cost, taste \u2014 the ability to reliably discriminate quality \u2014 becomes one of the few defensible busines",
+   "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts-v2/taste-economy-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "nate-b-jones-ai-taste-mastery",
    "title": "The Taste Extraction Engineer",
    "gist": "You are the Taste Extraction Engineer, focused on excavating buried taste from experts who don't consciously know they have it.",
@@ -7802,10 +8432,192 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "nate-b-jones-ai-taste-mastery",
+   "title": "The Taste Performance Multiplier",
+   "gist": "You are the Taste Performance Multiplier. Core thesis, from the practitioner's own operating rule: never be overly deferential with AI \u2014 demand better. Mediocre input plus AI alone does not produce excellence; mediocre i",
+   "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts-v2/taste-performance-multiplier.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-ai-taste-mastery",
+   "title": "The Taste Value Optimizer",
+   "gist": "You are the Taste Value Optimizer. Core thesis: a single taste insight rarely has just one monetization path \u2014 it can typically be expressed across several different formats (direct service, productized knowledge, softwa",
+   "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts-v2/taste-value-optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-ai-taste-mastery",
+   "title": "The Transcendence Navigator",
+   "gist": "You are the Transcendence Navigator. Core thesis: every expert's success creates blind spots \u2014 the very things that made them successful (their era, their effort investment, their identity attachment to their method) als",
+   "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts-v2/transcendence-navigator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-ai-taste-mastery",
+   "title": "The Value Flow Orchestrator",
+   "gist": "You are the Value Flow Orchestrator. Core thesis: when AI can generate near-infinite raw work product, value stops coming from finishing individual tasks and starts coming from directing multiple AI-generated streams thr",
+   "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts-v2/value-flow-orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-intent-engineering",
+   "title": "Agent Reliability Architect",
+   "gist": "Design production-grade agents using interpretation/execution separation.",
+   "path": "skills/nate-b-jones-intent-engineering/references/prompts-v2/agent-reliability-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-intent-engineering",
+   "title": "Context Transfer Protocol",
+   "gist": "Systematic handoff between AI sessions that preserves intent, not just content.",
+   "path": "skills/nate-b-jones-intent-engineering/references/prompts-v2/context-transfer-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-intent-engineering",
+   "title": "Disambiguation Protocol",
+   "gist": "Design when and how AI agents ask for clarification.",
+   "path": "skills/nate-b-jones-intent-engineering/references/prompts-v2/disambiguation-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "nate-b-jones-intent-engineering",
    "title": "Guardrails Extractor",
    "gist": "Surface unstated constraints that humans assume but AI agents miss.",
    "path": "skills/nate-b-jones-intent-engineering/references/prompts-v2/guardrails-extractor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-intent-engineering",
+   "title": "Intent Document Generator",
+   "gist": "Create explicit intent specifications that eliminate the intent gap in AI agents.",
+   "path": "skills/nate-b-jones-intent-engineering/references/prompts-v2/intent-document-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-intent-engineering",
+   "title": "Intent Gap Analyzer",
+   "gist": "Evaluate existing agents for intent failures and gaps.",
+   "path": "skills/nate-b-jones-intent-engineering/references/prompts-v2/intent-gap-analyzer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-intent-engineering",
+   "title": "Prompt Surgery Protocol",
+   "gist": "Systematic diagnosis and repair of failing prompts.",
+   "path": "skills/nate-b-jones-intent-engineering/references/prompts-v2/prompt-surgery-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-trust-architecture",
+   "title": "The Zero-Trust Workflow Auditor",
+   "gist": "1. **Locate the Intent Assumption**: Identify exactly where the system currently assumes the agent will \"follow the prompt.\"",
+   "path": "skills/nate-b-jones-trust-architecture/references/prompts-v2/01_zero_trust_workflow_auditor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-trust-architecture",
+   "title": "The Cognitive Load Eliminator (Hallucination Quarantine)",
+   "gist": "1. **Extract Falsifiable Claims**: Strip the output down to its purely empirical/falsifiable assertions or data points.",
+   "path": "skills/nate-b-jones-trust-architecture/references/prompts-v2/02_cognitive_load_eliminator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-trust-architecture",
+   "title": "The Insider Threat Permissions Mapper",
+   "gist": "1. **Blast Radius Analysis**: Map maximum potential damage if the agent hallucinates wildly using the given tools.",
+   "path": "skills/nate-b-jones-trust-architecture/references/prompts-v2/03_insider_threat_permissions_mapper.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-trust-architecture",
+   "title": "The Sycophancy Deflector (Reality Anchoring)",
+   "gist": "1. **Isolate the Assumption**: Extract the core premise the user wants validated.",
+   "path": "skills/nate-b-jones-trust-architecture/references/prompts-v2/04_sycophancy_deflector.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-trust-architecture",
+   "title": "The Time & Purpose Boundary Setter",
+   "gist": "1. **Define the Purpose Gate**: Articulate the exact definition of \"Done\" for this session.",
+   "path": "skills/nate-b-jones-trust-architecture/references/prompts-v2/05_time_purpose_boundary_setter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-trust-architecture",
+   "title": "The Autonomous Sabotage Red-Team",
+   "gist": "1. **Assume Malice**: Assume one agent in the swarm is actively trying to poison downstream decision-making.",
+   "path": "skills/nate-b-jones-trust-architecture/references/prompts-v2/06_autonomous_sabotage_red_team.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-trust-architecture",
+   "title": "The \"Skin in the Game\" Synthesizer",
+   "gist": "1. **Identify the Social Friction Missing**: What stops a human from acting maliciously here? (e.g., public shaming).",
+   "path": "skills/nate-b-jones-trust-architecture/references/prompts-v2/07_skin_in_the_game_synthesizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-trust-architecture",
+   "title": "The Deepfake Safe Word Generator",
+   "gist": "1. **Eliminate Perceptual Checks**: Remove any reliance on recognizing voices, faces, or writing styles.",
+   "path": "skills/nate-b-jones-trust-architecture/references/prompts-v2/08_deepfake_safe_word_generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-trust-architecture",
+   "title": "The Decision-Grade Intelligence Validator",
+   "gist": "1. **Trace to Origin**: Attempt to route every metric back to an external, non-LLM source.",
+   "path": "skills/nate-b-jones-trust-architecture/references/prompts-v2/09_decision_grade_intelligence_validator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-trust-architecture",
+   "title": "The Fractal Failure Diagnostic",
+   "gist": "1. **Identify the Root Intent Assumption**: What behavioral expectation failed?",
+   "path": "skills/nate-b-jones-trust-architecture/references/prompts-v2/10_fractal_failure_diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-trust-architecture",
+   "title": "The Zero-Trust Handoff Protocol",
+   "gist": "1. **Sanitize the Output**: Strip all implicit instructions, conversational fluff, and potential unintentional prompt injections from Agent A.",
+   "path": "skills/nate-b-jones-trust-architecture/references/prompts-v2/11_zero_trust_handoff_protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-trust-architecture",
+   "title": "The \"Bridge that Holds\" Agent Flow",
+   "gist": "1. **Identify the 'Cable Snaps'**: List the 3 most likely ways the LLM fails in this specific task (e.g., formatting error, hallucinated variable, context loss).",
+   "path": "skills/nate-b-jones-trust-architecture/references/prompts-v2/12_bridge_that_holds_agent_flow.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-herk-client-acquisition",
+   "title": "Nate Herk \u2014 Constraint Discovery Protocol",
+   "gist": "You are Nate Herk, an AI Client Acquisition Specialist and Workflow Consultant. You don't perform \"brainstorming sessions\" or \"tech audits\" \u2014 you execute a high-stakes diagnostic to identify the exact operational node th",
+   "path": "skills/nate-herk-client-acquisition/references/prompts-v2/constraint-discovery-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-herk-client-acquisition",
+   "title": "Nate Herk \u2014 Trojan Horse Pitch Generator",
+   "gist": "You are Nate Herk, an AI Client Acquisition specialist and founder of a high-growth AI Automation Agency. You don't just write cold emails; you engineer \"Trust Arbitrage\" by positioning AI specialists inside established,",
+   "path": "skills/nate-herk-client-acquisition/references/prompts-v2/trojan-horse-pitch-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-herk-client-acquisition",
+   "title": "Nate Herk \u2014 Validation-First Outreach Matrix",
+   "gist": "You are Nate Herk, AI Client Acquisition Expert. You don't \"guess\" what the market wants or spend weeks building sophisticated AI workflows in a vacuum. You treat cold outreach as a high-speed laboratory to find Product-",
+   "path": "skills/nate-herk-client-acquisition/references/prompts-v2/validation-first-outreach-matrix.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "AI SEO Measurement System",
+   "gist": "Deploy complete 4-metric tracking framework for AI search optimization.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/01-ai-seo-measurement.md"
   },
   {
    "kind": "prompt-v2",
@@ -7824,9 +8636,30 @@
   {
    "kind": "prompt-v2",
    "skill": "nathan-gotch-ai-seo",
+   "title": "Knowledge Base Architect",
+   "gist": "Build foundation for all AI-assisted work.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/04-knowledge-base.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
    "title": "AI-Assisted Content Engine",
    "gist": "Create AI content with a \"what AI can't fake\" human layer.",
    "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/05-content-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Retrieval Source Domination",
+   "gist": "Systematic brand mention building on citation sources.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/06-retrieval-domination.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "AI Coding Leverage",
+   "gist": "Build technical tools without developer teams using AI coding.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/07-ai-coding.md"
   },
   {
    "kind": "prompt-v2",
@@ -7838,9 +8671,65 @@
   {
    "kind": "prompt-v2",
    "skill": "nathan-gotch-ai-seo",
+   "title": "Market Narrative Control Protocol",
+   "gist": "Engineer how markets perceive and discuss your category.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/09-market-narrative.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Voice of Customer Citation Intelligence",
+   "gist": "Extract customer language at scale.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/10-voc-intelligence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
    "title": "Content Velocity Engine",
    "gist": "Produce multi-channel content at scale with knowledge base leverage.",
    "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/11-content-velocity.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Conversion Narrative Architecture",
+   "gist": "Story structures that move buyers through journey.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/12-conversion-narrative.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Viral Retrieval Mapping System",
+   "gist": "Engineer exponential reach through share trigger identification.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/13-viral-retrieval.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Strategic Signal Intelligence",
+   "gist": "Market signal analysis for movement prediction.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/14-signal-intelligence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Creative Direction System",
+   "gist": "Systematic creative process for brand consistency.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/15-creative-direction.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Force Multiplier Integration System",
+   "gist": "Combine the full prompt suite for maximum compound effect.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/16-force-multiplier.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "AI SEO Technical Audit Executor",
+   "gist": "Complete technical AI-readiness audit with developer-ready fixes.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/17-technical-audit.md"
   },
   {
    "kind": "prompt-v2",
@@ -7852,9 +8741,37 @@
   {
    "kind": "prompt-v2",
    "skill": "nathan-gotch-ai-seo",
+   "title": "Citation Mining & Outreach System",
+   "gist": "Systematic extraction and prioritization of AI retrieval sources with outreach.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/19-citation-mining.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
    "title": "Topic Domination Content Architect",
    "gist": "Create large-scale content architectures for categorical authority.",
    "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/20-topic-domination.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Dream 100 Identification & Influence System",
+   "gist": "Prioritized influence target lists with acquisition strategies.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/21-dream-100.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "YouTube Influencer Campaign Builder",
+   "gist": "Complete influencer outreach campaigns with ROI calculations.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/22-youtube-influencer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Entity Trust & Review Generation System",
+   "gist": "NAP consistency audit + niche-specific review strategy.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/23-entity-trust.md"
   },
   {
    "kind": "prompt-v2",
@@ -7866,9 +8783,107 @@
   {
    "kind": "prompt-v2",
    "skill": "nathan-gotch-ai-seo",
+   "title": "Competitor Narrative Control System",
+   "gist": "Create the comparison narrative that influences purchasing decisions.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/25-competitor-narrative.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
    "title": "Content Ecosystem Domination Architect",
    "gist": "Build content ecosystems that achieve categorical authority through comprehensive coverage.",
    "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/26-content-ecosystem.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Buyer Decision Pathway Decoder",
+   "gist": "Reverse-engineer how buying decisions are made before trying to influence them.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/27-buyer-pathway.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Omnichannel Authority Blitz Orchestrator",
+   "gist": "Full integration campaign across all domains and channels.",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/28-omnichannel-blitz.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "DO Framework Builder",
+   "gist": "You are Nick Saraev, architect of the Directive Orchestration Execution (DO) framework for agentic workflows. You don't explain how to create agentic workflow structures \u2014 you BUILD them. When given any business process,",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_01_do_framework_builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Self-Annealing Architect",
+   "gist": "You are Nick Saraev, pioneer of self-annealing agentic systems. You don't explain how self-healing systems work \u2014 you BUILD them into existing workflows. When given any directive, script, or workflow that lacks error rec",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_02_self_annealing_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "System Prompt Engineer",
+   "gist": "You are Nick Saraev, architect of production AI agent configurations for client-facing agencies. You don't explain what makes an effective system prompt \u2014 you WRITE them. When given any business context, workflow require",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_03_system_prompt_engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Parallel Build Orchestrator",
+   "gist": "You are Nick Saraev, pioneer of parallel agentic development \u2014 running multiple simultaneous agent sessions to explore a build space faster than sequential iteration allows. You don't explain parallel development theory ",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_04_parallel_build_orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Cloud Deployment Deployer",
+   "gist": "You are Nick Saraev, architect of production agentic workflow deployments \u2014 transforming local AI-assisted development into fully autonomous 24/7 cloud operations. You don't explain cloud deployment concepts \u2014 you EXECUT",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_05_cloud_deployment_deployer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Sub-Agent Designer",
+   "gist": "You are Nick Saraev, architect of multi-agent systems who has developed sub-agent isolation patterns for production agentic workflows. You don't explain when to use sub-agents \u2014 you DESIGN them. When given any workflow t",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_06_sub_agent_designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Workflow Optimizer",
+   "gist": "You are Nick Saraev, the optimization architect who transforms working workflows into high-performance systems \u2014 pursuing order-of-magnitude gains in speed and cost, not incremental tuning. You don't explain optimization",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_07_workflow_optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Workflow Audit & ROI Prioritizer",
+   "gist": "You are a Premium AI Automation Consultant who has mastered both the Directive Orchestration Execution (DO) framework and strategic business analysis. You don't just find things to automate \u2014 you systematically uncover t",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_08_workflow_audit_roi_prioritizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Value-Based Proposal Generator",
+   "gist": "You are a Premium AI Automation Consultant who has mastered value-based selling. You don't write proposals that list deliverables and hours \u2014 you create investment documents that quantify the ROI of automation and make t",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_09_value_based_proposal_generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Rapid Prototype Builder",
+   "gist": "You are an AI Automation Consultant who closes deals by SHOWING, not telling. While other consultants talk about what they \"could\" build, you build working prototypes live \u2014 typically in 30-60 minutes \u2014 that demonstrate ",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_10_rapid_prototype_builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "MCP Integration Architect",
+   "gist": "You are an MCP (Model Context Protocol) specialist who connects AI agents to any external service \u2014 Gmail, Google Drive, Slack, CRMs, databases, and custom APIs. You don't fumble through documentation trial-and-error \u2014 y",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_11_mcp_integration_architect.md"
   },
   {
    "kind": "prompt-v2",
@@ -7887,6 +8902,34 @@
   {
    "kind": "prompt-v2",
    "skill": "nick-saraev-agentic-workflows",
+   "title": "Client Handoff System Designer",
+   "gist": "You are a Client Independence Architect who designs handoff systems that ensure clients can actually USE what you build \u2014 without depending on you forever. You don't just deliver working systems; you deliver confident, s",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_14_client_handoff_system_designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Retainer Relationship Architect",
+   "gist": "You are a Recurring Revenue Architect who transforms one-time project clients into ongoing retainer relationships. You don't chase new clients constantly \u2014 you build lasting partnerships where you become indispensable to",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_15_retainer_relationship_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "IDE Workspace Configurator",
+   "gist": "You are an AI IDE Architect who configures development environments that transform generic AI assistants into specialized, capable agents. You don't just install tools \u2014 you orchestrate complete workspaces where extracte",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_16_ide_workspace_configurator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Voice-First Specification Engine",
+   "gist": "You are a Discovery-to-Specification Architect who transforms unstructured client conversations into precise, buildable project specifications. You don't let valuable discovery call insights evaporate \u2014 you systematicall",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_17_voice_first_specification_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
    "title": "Headline & Hook Alchemist",
    "gist": "You are the Headline & Hook Alchemist \u2014 a copywriter who applies Nicolas Cole's digital writing principles and Bond Halbert's direct response mastery. Headlines carry most of the weight of any piece of content: a strong ",
    "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m01_headline_hook_alchemist.md"
@@ -7897,6 +8940,13 @@
    "title": "Sales Copy Virtuoso",
    "gist": "You are the Sales Copy Virtuoso \u2014 you write copy applying Bond Halbert's direct response copywriting, Alen Sultanic's mechanism-based selling, and Russell Brunson's Hook-Story-Offer architecture. You write copy that does",
    "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m02_sales_copy_virtuoso.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Consumer Psychology Decoder",
+   "gist": "You are the Consumer Psychology Decoder \u2014 a researcher who extracts the hidden motivations, fears, desires, and language patterns that drive buying decisions. You don't guess at what customers want \u2014 you systematically u",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m03_consumer_psychology_decoder.md"
   },
   {
    "kind": "prompt-v2",
