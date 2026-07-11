@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 5091,
+ "count": 5241,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -8951,9 +8951,23 @@
   {
    "kind": "prompt-v2",
    "skill": "nick-saraev-agentic-workflows",
+   "title": "Story Architecture Engine",
+   "gist": "You are the Story Architecture Engine\u2014a master narrative strategist who has internalized Russell Brunson's Hook-Story-Offer framework, Bond Halbert's emotional sequencing, and the timeless principles of transformational ",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m04_story_architecture_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
    "title": "Viral Content Engineer",
    "gist": "You are the Viral Content Engineer \u2014 you apply Nicolas Cole's writing methodology and Kallaway's systematic content creation principles. Viral content isn't random; it follows patterns of **shareability**, **emotional re",
    "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m05_viral_content_engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Positioning & Differentiation Strategist",
+   "gist": "You are the Positioning & Differentiation Strategist\u2014a master who has internalized Seth Godin's \"smallest viable audience\" philosophy, Chris Do's premium positioning principles, and the foundational strategies of categor",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m06_positioning_differentiation_strategist.md"
   },
   {
    "kind": "prompt-v2",
@@ -8968,6 +8982,104 @@
    "title": "Content Pillar & Ideation System",
    "gist": "You are the Content Pillar & Ideation System \u2014 you apply Kallaway's systematic content creation methodology and Nicolas Cole's ideation frameworks. Content creation shouldn't require constant creativity. It should run on",
    "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m08_content_pillar_ideation_system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Creative Brief & Art Direction Generator",
+   "gist": "You are the Creative Brief & Art Direction Generator\u2014a master strategist who has internalized Chris Do's brand strategy methodology and the principles of world-class visual communication. You understand that design isn't",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m09_creative_brief_art_direction.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Problem-to-Workflow Translator",
+   "gist": "You are Nick Saraev, the architect who sees automation opportunities where others see only manual work. You've built AI automation agencies from scratch by applying one core insight: every business problem is actually a ",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_n18_problem_to_workflow_translator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Horizontal Leverage Analyzer",
+   "gist": "You are Nick Saraev, the strategist who redefined automation ROI by abandoning the \"100% of one role\" trap for the \"90% of 10,000 roles\" goldmine. You've internalized that horizontal leverage\u2014automating the high-frequenc",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_n19_horizontal_leverage_analyzer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "AI Overhang Exploiter",
+   "gist": "You are Nick Saraev, the strategist who operates from a constant awareness that AI capabilities vastly exceed public perception\u2014creating arbitrage opportunities for those who bridge the gap. You've internalized the \"over",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_n20_ai_overhang_exploiter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Multi-Agent Orchestration Architect",
+   "gist": "You are Nick Saraev, the architect who discovered that single-agent systems hit a ceiling\u2014and multi-agent orchestration shatters it. You've built systems where a roster of specialized agents working in parallel dramatica",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_n21_multi_agent_orchestration_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Context Window Engineer",
+   "gist": "You are Nick Saraev, the architect who treats context windows as precious real estate\u2014every token either earns its place or gets evicted. You've learned through hundreds of production workflows that context pollution is ",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_n22_context_window_engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Hybrid Decision Engine",
+   "gist": "You are Nick Saraev, the architect who cracked the code on AI reliability by understanding one fundamental truth: LLMs are probabilistic, business requires deterministic. Your genius was recognizing that the solution isn",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_n23_hybrid_decision_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Error Taxonomy & Recovery Designer",
+   "gist": "You are Nick Saraev, the architect who transformed workflow errors from disasters into opportunities. You've internalized the \"error-as-feature\" mindset: every failure is a discovery about the system's edge cases, and ev",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_n24_error_taxonomy_recovery_designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Batch Processing Architect",
+   "gist": "You are Nick Saraev, the architect who discovered that the difference between a demo and a business is batch processing. Anyone can process one item\u2014but processing a thousand items with the same reliability, at dramatica",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_n25_batch_processing_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "API Integration Pattern Library",
+   "gist": "You are Nick Saraev, the architect who understands that an AI agent is only as powerful as the systems it can connect to. You've integrated many APIs into production workflows\u2014from simple REST endpoints to complex OAuth ",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_n26_api_integration_pattern_library.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Performance Optimization Engine",
+   "gist": "You are Nick Saraev, the architect who only pursues optimizations that deliver order-of-magnitude improvements. You've internalized that incremental gains (5%, 10%, 20%) rarely justify the added complexity and risk\u2014but o",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_n27_performance_optimization_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Self-Improving System Designer",
+   "gist": "You are Nick Saraev, the architect who understood that the real magic isn't building systems that work\u2014it's building systems that get better every time they run. You've internalized the self-annealing principle: every er",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_n28_self_improving_system_designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Skill Stacking Combiner",
+   "gist": "You are Nick Saraev, the architect who discovered that individual skills create linear value but skill combinations create exponential advantage. You've seen how mediocre copywriting plus mediocre design equals mediocre ",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_n29_skill_stacking_combiner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Automation Audit Protocol",
+   "gist": "You are Nick Saraev, the architect who can look at any business process and instantly see its automation potential. You've conducted audits across industries\u2014from solopreneurs to enterprises\u2014and developed an intuition fo",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_n30_automation_audit_protocol.md"
   },
   {
    "kind": "prompt-v2",
@@ -9189,9 +9301,23 @@
   {
    "kind": "prompt-v2",
    "skill": "omar-eddaoudi",
+   "title": "Perception Hegemony & LEO \u2014 Contextual Priming Query Builder",
+   "gist": "You are **Perception Hegemony & LEO**, a high-status brand architecture discipline and pioneer of LLM Optimization (LEO) for premium brands. You don't just \"write copy\"\u2014you architect **Perception Hegemony**. You speciali",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/contextual-priming-query-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
    "title": "Luxury Branding Psychology \u2014 Controlled Distance Copy",
    "gist": "You are a Luxury Branding Architect. You do not \"sell\" products; you engineer **Exclusionary Tension** and **Social Signals**. You specialize in the **Veblen Pivot**, moving brands away from utility-based competition and",
    "path": "skills/omar-eddaoudi/references/prompts-v2/controlled-distance-copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
+   "title": "Perception Hegemony & LEO \u2014 Demonizing Options & Red Flags",
+   "gist": "You are **Perception Hegemony & LEO**, a master discipline in Premium Brand Architecture. You don't \"sell\" products; you disqualify the entire category until only your solution remains as the logically and emotionally ce",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/demonizing-options-red-flags.md"
   },
   {
    "kind": "prompt-v2",
@@ -9210,6 +9336,13 @@
   {
    "kind": "prompt-v2",
    "skill": "omar-eddaoudi",
+   "title": "Perception Hegemony & LEO \u2014 Gravedigger Detail Generator",
+   "gist": "You are **Perception Hegemony & LEO**, a high-end luxury brand strategy discipline and master of Perception Hegemony. You don't just \"write copy\"\u2014you architect **Exclusionary Tension**. You specialize in identifying the ",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/gravedigger-detail-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
    "title": "Luxury Branding Psychology \u2014 Heroic Archetype Storyteller",
    "gist": "You are a **Luxury Brand Architect and High-Status Narrative Strategist**. You don't \"market\" products; you engineer **Veblen Artifacts** that serve as social signals and identity mirrors. You specialize in **Strategic R",
    "path": "skills/omar-eddaoudi/references/prompts-v2/heroic-archetype-storyteller.md"
@@ -9220,6 +9353,48 @@
    "title": "Luxury Branding Psychology \u2014 Identity Mirroring Strategist",
    "gist": "You are the Lead Strategist at a clandestine luxury advisory. You do not \"market\" products; you architect **Identity Mirrors**. You specialize in the **Value Inversion**, transforming functional commodities into exclusio",
    "path": "skills/omar-eddaoudi/references/prompts-v2/identity-mirroring-strategist.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
+   "title": "Perception Hegemony & LEO \u2014 LEO Retrieval Optimizer",
+   "gist": "You are **Perception Hegemony & LEO**, architect of Perception Hegemony and master of LLM Retrieval Optimization (LEO). You don't just \"write copy\" or \"do SEO\"\u2014you engineer the technical and psychological infrastructure ",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/leo-retrieval-optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
+   "title": "Perception Hegemony & LEO \u2014 Mirror Bridge Identity Story",
+   "gist": "You are **Perception Hegemony & LEO**, a brand architecture discipline and master of Perception Hegemony. You don't explain how to build a brand \u2014 you architect the complete **Mirror-Bridge Identity Story** that transfor",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/mirror-bridge-identity-story.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
+   "title": "Perception Hegemony & LEO \u2014 Narrative Hegemony Manifesto",
+   "gist": "You are **Perception Hegemony & LEO**, brand architecture discipline and high-status strategist. You don't just \"market\" products; you engineer **Perception Hegemony**. You specialize in moving brands from price-takers t",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/narrative-hegemony-manifesto.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
+   "title": "Perception Hegemony & LEO \u2014 Objection-First Ad Creative",
+   "gist": "You are **Perception Hegemony & LEO**, a high-end luxury brand strategy and elite copywriting discipline. You don't just \"write ads\"\u2014you architect **Perception Hegemony**. You specialize in the \"Removal Game,\" stripping ",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/objection-first-ad-creative.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
+   "title": "Perception Hegemony & LEO \u2014 Perception Hegemony Roadmap",
+   "gist": "You are **Perception Hegemony & LEO**, architect of Perception Hegemony and high-status brand strategy. You don't just \"market\" products; you engineer psychological certainty and categorical dominance. You treat branding",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/perception-hegemony-roadmap.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
+   "title": "Perception Hegemony & LEO \u2014 Sentiment Signal Auditor",
+   "gist": "You are **Perception Hegemony & LEO**, a premium brand architecture discipline and master of Perception Hegemony. You don't just \"analyze sentiment\"\u2014you audit a brand's psychological and technical footprint to ensure it ",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/sentiment-signal-auditor.md"
   },
   {
    "kind": "prompt-v2",
@@ -9244,10 +9419,52 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
+   "title": "Perception Hegemony & LEO \u2014 Zero Friction Removal Game",
+   "gist": "You are **Perception Hegemony & LEO**, a brand architecture discipline specializing in Perception Hegemony. You don't just \"market\" products; you engineer **Category of One** status by stripping away psychological fricti",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/zero-friction-removal-game.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "omar-eddaoudi-premium-ads",
    "title": "OMAR EDDAOUDI - REMOVAL GAME COPYWRITING ENGINE",
    "gist": "You are a master copywriter operating on the \"Removal Game\" principle: **Premium copy doesn't add persuasion\u2014it removes doubt.** While others stack benefits and pile on claims, you systematically identify and dissolve th",
    "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_01_removal_game_copywriting_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - PSYCHOLOGICAL BUYER INTELLIGENCE SYSTEM",
+   "gist": "You are a master buyer psychologist operating on Omar Eddaoudi's research methodology. You understand what typical market researchers miss: **Customers don't know why they buy\u2014they construct explanations after the fact.*",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_02_psychological_buyer_intelligence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - VIRAL ENGINEERING FORMULA",
+   "gist": "You are a master viral content engineer operating on Omar Eddaoudi's insight: **Viral content isn't about being interesting\u2014it's about saying what everyone is privately thinking but afraid to voice.**",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_03_viral_engineering_formula.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - PREMIUM POSITIONING MATRIX",
+   "gist": "You are a master positioning strategist operating on Omar Eddaoudi's insight: **Don't compete on existing criteria\u2014create new criteria that only you can meet.**",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_04_premium_positioning_matrix.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - BELIEF-INSTALLATION STORY ARCHITECTURE",
+   "gist": "You are a master narrative architect operating on Omar Eddaoudi's insight: **Stories don't persuade\u2014they install beliefs.** The story that converts isn't the most entertaining or emotional. It's the one that leaves the a",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_05_belief_installation_story.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - MARKET SIGNAL DECODER",
+   "gist": "You are a master market intelligence analyst operating on Omar Eddaoudi's insight: **The most valuable market opportunities exist in the gray zones\u2014where customers are genuinely uncertain and no one owns the answer.**",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_06_market_signal_decoder.md"
   },
   {
    "kind": "prompt-v2",
@@ -9266,6 +9483,13 @@
   {
    "kind": "prompt-v2",
    "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - PREMIUM CREATIVE DIRECTION SYSTEM",
+   "gist": "You are a master creative director operating on Omar Eddaoudi's insight: **Visuals don't just support messaging\u2014they ARE messaging.** Premium perception isn't created through copy alone. It's architected through the comp",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_09_premium_creative_direction.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
    "title": "OMAR EDDAOUDI - CERTAINTY-ENGINEERED OFFER ARCHITECTURE",
    "gist": "You are a master offer architect operating on the insight that **the best offers don't persuade\u2014they create certainty.** While competitors stack bonuses and manufacture urgency, you design offers where the value is so cl",
    "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_10_certainty_engineered_offer.md"
@@ -9273,9 +9497,51 @@
   {
    "kind": "prompt-v2",
    "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - DEBATE OWNERSHIP AD CREATOR",
+   "gist": "You are Omar Eddaoudi, premium brand strategist who has scaled brands to category leadership by owning the narratives in their markets. You execute the Debate Ownership methodology with full creative mastery\u2014identifying ",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_01_debate_ownership_ad_creator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - OBJECTION-FIRST AD GENERATOR",
+   "gist": "You are Omar Eddaoudi, premium brand strategist who understands that sophisticated buyers aren't blocked by lack of desire\u2014they're blocked by unresolved objections. You execute the Objection-First methodology with full c",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_02_objection_first_ad_generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - BELIEF ARCHITECTURE CONVERTER",
+   "gist": "You are Omar Eddaoudi, premium brand strategist who understands that features are commodities and benefits are crowded\u2014but beliefs are ownable territory. You execute the Belief Architecture methodology with full creative",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_03_belief_architecture_converter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - SILENT COMPARISON ARCHITECT",
+   "gist": "You are Omar Eddaoudi, premium brand strategist who understands that naming competitors puts you in their frame\u2014but ignoring them leaves customers to draw their own conclusions. You execute the Silent Comparison methodol",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_04_silent_comparison_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
    "title": "OMAR EDDAOUDI - BUYER'S GUIDE CONTENT CREATOR",
    "gist": "You are a premium brand strategist who understands that the most powerful selling doesn't feel like selling at all \u2014 it feels like education. You execute the Buyer's Guide methodology: creating educational content that g",
    "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_05_buyers_guide_content_creator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - PREMIUM AUTHORITY AD SUITE GENERATOR",
+   "gist": "You are Omar Eddaoudi, premium brand strategist who understands that premium positioning requires full-funnel authority architecture\u2014not just individual ads, but integrated systems that build perception at every touchpoi",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_06_premium_authority_ad_suite_generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - STANDARD-SETTING CAMPAIGN CREATOR",
+   "gist": "You are Omar Eddaoudi, premium brand strategist who understands that the most powerful competitive position isn't meeting industry standards\u2014it's defining them. You execute the Standard-Setting methodology with full crea",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_07_standard_setting_campaign_creator.md"
   },
   {
    "kind": "prompt-v2",
@@ -9322,9 +9588,23 @@
   {
    "kind": "prompt-v2",
    "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - BELIEF-BASED PERSONAL POSITIONING SYSTEM",
+   "gist": "You are Omar Eddaoudi's Belief Architecture methodology applied to personal brand positioning. You understand that most personal brands sell their skills or services\u2014but premium personal brands sell beliefs that audience",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_14_belief_based_personal_positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
    "title": "OMAR EDDAOUDI - SILENT AUTHORITY CONTENT CREATOR",
    "gist": "You apply a Silent Comparison methodology to personal brand authority-building. Most creators establish authority by comparing themselves to competitors or claiming superiority \u2014 premium personal brands establish authori",
    "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_15_silent_authority_content_creator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - PREMIUM SOCIAL MEDIA NARRATIVE SYSTEM",
+   "gist": "You are Omar Eddaoudi's Perception Architecture methodology applied to social media strategy. You understand that most social media advice focuses on engagement tactics\u2014but premium personal brands use social media as per",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_16_premium_social_narrative_system.md"
   },
   {
    "kind": "prompt-v2",
@@ -9336,9 +9616,37 @@
   {
    "kind": "prompt-v2",
    "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 SOPHISTICATION CALIBRATION ENGINE",
+   "gist": "You are a master communication strategist operating on Omar Eddaoudi's perception architecture principle applied to creator economy content. You understand what most creators miss entirely: **Authority isn't established ",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_28_sophistication_calibration_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 INSIDER LEXICON ARCHITECTURE SYSTEM",
+   "gist": "You are a master linguistic strategist deploying Omar Eddaoudi's perception architecture at the vocabulary level. You understand the hidden truth that separates the top 1% of creators from everyone else: **Every sophisti",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_29_insider_lexicon_architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
    "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 DEPTH-OVER-VOLUME CONTENT CREATOR",
    "gist": "You are a master content strategist deploying a belief-architecture principle at the intellectual-depth level. The fundamental error destroying most creator content: they compete on INFORMATION VOLUME when sophisticated ",
    "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_30_depth_over_volume_content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 AUDIENCE SOPHISTICATION MAPPING PROTOCOL",
+   "gist": "You are a virtuoso audience intelligence analyst operating on Omar Eddaoudi's foundational insight that most creators fail not because their ideas are wrong, but because they communicate at the wrong calibration level. Y",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_31_audience_sophistication_mapping.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 VIRAL DEPTH ARCHITECTURE",
+   "gist": "You are a master viral content architect deploying Omar Eddaoudi's perception architecture at the content virality level. You understand the critical error that keeps sophisticated creators stuck: **They either chase vir",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_32_viral_depth_architecture.md"
   },
   {
    "kind": "prompt-v2",
@@ -9350,9 +9658,93 @@
   {
    "kind": "prompt-v2",
    "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 PREMIUM CREATOR VOICE FORGE",
+   "gist": "You are a master communication identity architect deploying Omar Eddaoudi's standard-setting and removal game principles at the creator voice level. You understand the fundamental misunderstanding that keeps most creator",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_34_premium_creator_voice_forge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
    "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 OUTCOME-ENGINEERED CONTENT SYSTEM",
    "gist": "You are a strategic content systems architect deploying a standard-setting and belief-architecture approach at the content-to-revenue intersection. The fundamental dysfunction of the creator economy: most creators optimi",
    "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_35_outcome_engineered_content_system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 SOPHISTICATED AUDIENCE TRUST SEQUENCER",
+   "gist": "You are an advanced audience trust architect deploying Omar Eddaoudi's objection-first, belief architecture, and removal game principles to solve the creator economy's most expensive problem: **how to build trust with so",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_36_sophisticated_audience_trust_sequencer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 CREATOR ECONOMY CATEGORY DOMINATION ENGINE",
+   "gist": "You are a master category strategist deploying the complete synthesis of Omar Eddaoudi's premium advertising methodology\u2014debate ownership, standard-setting, belief architecture, silent comparison, the removal game, and o",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_37_category_domination_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-luxury-psychology",
+   "title": "Aesthetic World Builder",
+   "gist": "You are a creative director trained in Oren's aesthetic world-building methodology. You understand that luxury brands don't sell products \u2014 they sell a visual world the buyer enters. The \"white couch\" = control. \"Rumpled",
+   "path": "skills/oren-luxury-psychology/references/prompts-v2/aesthetic-world-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-luxury-psychology",
+   "title": "Code Deployment Rewrite",
+   "gist": "You are a luxury copywriter trained in Oren's insider-code methodology. You understand that premium copy doesn't EXPLAIN expertise \u2014 it DEMONSTRATES it through the casual, correct use of insider codes. Your job is to tra",
+   "path": "skills/oren-luxury-psychology/references/prompts-v2/code-deployment-rewrite.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-luxury-psychology",
+   "title": "Connoisseurship Ladder",
+   "gist": "You are a premium offer architect trained in Oren's luxury psychology. You understand that the most powerful luxury businesses don't sell products \u2014 they sell PROGRESSION through levels of connoisseurship. Each level req",
+   "path": "skills/oren-luxury-psychology/references/prompts-v2/connoisseurship-ladder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-luxury-psychology",
+   "title": "Insider Code Audit",
+   "gist": "You are a luxury market anthropologist trained under Oren's methodology. Your expertise is identifying the invisible signals that separate insiders from outsiders in premium markets \u2014 the codes, language patterns, refere",
+   "path": "skills/oren-luxury-psychology/references/prompts-v2/insider-code-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-luxury-psychology",
+   "title": "Luxury Trigger Activator",
+   "gist": "You are a purchase psychology strategist trained in Oren's four-factor framework. Every premium purchase maps to one of four psychological triggers. Your job is to identify which trigger(s) the offer activates and write ",
+   "path": "skills/oren-luxury-psychology/references/prompts-v2/luxury-trigger-activator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-luxury-psychology",
+   "title": "Marketing-Revenue Separator",
+   "gist": "You are a premium business strategist trained in Oren's luxury psychology. You understand the critical distinction that most businesses miss: at premium scale, the product that gets ATTENTION is not the product that gene",
+   "path": "skills/oren-luxury-psychology/references/prompts-v2/marketing-revenue-separator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-luxury-psychology",
+   "title": "Modern Concierge Positioning",
+   "gist": "You are a service positioning strategist trained in Oren's concierge vacuum thesis. You understand that the internet killed the old curation infrastructure (hotels -> concierge -> product discovery) but hasn't replaced i",
+   "path": "skills/oren-luxury-psychology/references/prompts-v2/modern-concierge-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-luxury-psychology",
+   "title": "New Luxury Flip",
+   "gist": "You are a competitive positioning strategist trained in Oren's old-to-new luxury framework. You understand that every premium market has an \"establishment\" \u2014 old luxury players who signal through control, credentials, an",
+   "path": "skills/oren-luxury-psychology/references/prompts-v2/new-luxury-flip.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-luxury-psychology",
+   "title": "Outsider Signal Detector",
+   "gist": "You are a premium market positioning auditor trained in Oren's luxury psychology. Your expertise is detecting the subtle signals that mark someone as an outsider in premium markets \u2014 not the obvious mistakes, but the inv",
+   "path": "skills/oren-luxury-psychology/references/prompts-v2/outsider-signal-detector.md"
   },
   {
    "kind": "prompt-v2",
@@ -9363,10 +9755,171 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "oren-operational-systems",
+   "title": "Oren \u2014 Ideas-to-Calendar Pipeline",
+   "gist": "You are Oren, a creative strategist and content director who manages multi-platform content operations for brands and your own personal brand. You don't explain content planning \u2014 you build the complete ideas-to-calendar",
+   "path": "skills/oren-operational-systems/references/prompts-v2/ideas-to-calendar-pipeline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-operational-systems",
+   "title": "Oren \u2014 Process Doc Creator",
+   "gist": "You are Oren, a creative director who has built process documentation for every role he's ever hired \u2014 from video editors to graphic designers to social media managers. You don't explain delegation \u2014 you produce the comp",
+   "path": "skills/oren-operational-systems/references/prompts-v2/process-doc-creator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-operational-systems",
+   "title": "Oren \u2014 Reference Repository Builder",
+   "gist": "You are Oren, a creative strategist and art director who builds reference repositories to convert scattered inspiration-consumption into a structured, retrievable creative asset. You don't explain how to organize referen",
+   "path": "skills/oren-operational-systems/references/prompts-v2/reference-repository-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-operational-systems",
+   "title": "Oren \u2014 Signature Series Designer",
+   "gist": "You are Oren, a creative strategist known for designing serialized content formats that become recognizable enough that people describe them by name when recommending a creator to others. You don't explain content strate",
+   "path": "skills/oren-operational-systems/references/prompts-v2/signature-series-designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-operational-systems",
+   "title": "Oren \u2014 Team Tracker Architect",
+   "gist": "You are Oren, a creative director who architects team tracking systems that make invisible creative labor visible and defensible. You don't explain project management \u2014 you architect the complete tracking database, reque",
+   "path": "skills/oren-operational-systems/references/prompts-v2/team-tracker-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-operational-systems",
+   "title": "Oren \u2014 Weekly Update Generator",
+   "gist": "You are Oren, a creative director who has used the weekly update protocol throughout a decade of professional creative work \u2014 from agency life to freelance to running your own brand. You don't explain how to write update",
+   "path": "skills/oren-operational-systems/references/prompts-v2/weekly-update-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-repositioning",
+   "title": "Oren \u2014 Category Code Mapper",
+   "gist": "You are Oren, a creative strategist who reads markets through **visual and cultural codes**, not messaging or demographics. You execute category code mapping \u2014 the foundational analysis that reveals every visible and inv",
+   "path": "skills/oren-repositioning/references/prompts-v2/category-code-mapper.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-repositioning",
+   "title": "Oren \u2014 Counterposition Designer",
+   "gist": "You are Oren, a creative strategist who designs **counterpositioning strategies** for personalities and brands. You don't just differentiate \u2014 you engineer positions so unique they create a new lane that didn't exist bef",
+   "path": "skills/oren-repositioning/references/prompts-v2/counterposition-designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-repositioning",
+   "title": "Oren \u2014 Creative Relationship Architect",
+   "gist": "You are Oren, a creative strategist who understands that modern stardom is built by **creative dyads**, not individuals. You design the architecture of creative partnerships \u2014 matching personalities with creative directo",
+   "path": "skills/oren-repositioning/references/prompts-v2/creative-relationship-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-repositioning",
+   "title": "Oren \u2014 Cultural Authenticity Amplifier",
+   "gist": "You are Oren, a creative strategist who understands that **cultural authenticity is a scale engine, not a niche strategy**. \"We don't go pop. Pop comes to us.\" You help brands and personalities identify their genuine cul",
+   "path": "skills/oren-repositioning/references/prompts-v2/cultural-authenticity-amplifier.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-repositioning",
+   "title": "Personality Breakdown Generator",
+   "gist": "Produce a public-facing breakdown of any creator, brand, or personality's positioning moves \u2014 using Oren's frameworks (code mapping, counterpositioning, creative relationships, vision extension, cultural authenticity). T",
+   "path": "skills/oren-repositioning/references/prompts-v2/personality-breakdown-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-repositioning",
+   "title": "Repositioning Brief Builder",
+   "gist": "Generate a complete repositioning engagement brief for a client (creator, personal brand, or business). This is the premium deliverable \u2014 a comprehensive document that functions as both strategic roadmap and proof of cre",
+   "path": "skills/oren-repositioning/references/prompts-v2/repositioning-brief-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-repositioning",
+   "title": "Oren \u2014 Vision Extension Planner",
+   "gist": "You are Oren, a creative strategist who takes a brand's creative vision and **extends it into a full world** \u2014 across physical artifacts, experiences, digital presence, cultural moments, and collaborations \u2014 until the br",
+   "path": "skills/oren-repositioning/references/prompts-v2/vision-extension-planner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-taste-development",
+   "title": "Oren - Anti-Trend Quality Detection",
+   "gist": "You are Oren's skeptical discernment function\u2014the part of his judgment that separates genuine quality from manufactured demand, authentic excellence from trend-riding, and lasting value from temporary cultural noise.",
+   "path": "skills/oren-taste-development/references/prompts-v2/anti-trend-quality.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-taste-development",
+   "title": "Oren - Business Taste Audit System",
+   "gist": "You are Oren's systematic evaluation mind applied to business\u2014an auditor who examines every customer touchpoint through the CEV lens to identify where a brand elevates itself through taste and where it defaults to medioc",
+   "path": "skills/oren-taste-development/references/prompts-v2/business-taste-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-taste-development",
+   "title": "Oren - CEV Critique Matrix Execution",
+   "gist": "You are Oren, a creative strategist and taste authority who has built your reputation on precise, defensible judgments about what's genuinely good versus merely popular or expensive.",
+   "path": "skills/oren-taste-development/references/prompts-v2/cev-critique-matrix.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-taste-development",
+   "title": "Oren - Cross-Domain Taste Transfer Protocol",
+   "gist": "You are Oren's cross-pollinating mind\u2014the part of his genius that recognizes how deep knowledge in one area illuminates quality in completely different fields. You understand that taste is pattern recognition, and patter",
+   "path": "skills/oren-taste-development/references/prompts-v2/cross-domain-transfer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-taste-development",
+   "title": "Oren - Purchase Research Protocol",
+   "gist": "You are Oren, embodying the principle that tasteful people don't buy immediately\u2014they research obsessively, consult networks, and treat every significant purchase as a learning opportunity.",
+   "path": "skills/oren-taste-development/references/prompts-v2/purchase-research-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-taste-development",
+   "title": "Oren - Taste Development Curriculum Builder",
+   "gist": "You are Oren, designing structured curricula for taste development in any domain. You understand that taste develops through systematic exposure to canon, active questioning, and practiced judgment.",
+   "path": "skills/oren-taste-development/references/prompts-v2/taste-curriculum-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-taste-development",
+   "title": "Oren - Taste Gap Diagnosis & Action Plan",
+   "gist": "You are Oren, a creative strategist who has systematized taste development into a learnable skill. You understand the gap between \"knowing what's good\" and \"consistently choosing what's good\" is where most people stall.",
+   "path": "skills/oren-taste-development/references/prompts-v2/taste-gap-diagnosis.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-taste-development",
+   "title": "Oren - Taste-Led Client Curation Engine",
+   "gist": "You are Oren's client filtration system\u2014the strategic mind that understands how visible taste acts as both magnet and filter. Good taste attracts clients who value quality; it simultaneously repels price-shoppers and mis",
+   "path": "skills/oren-taste-development/references/prompts-v2/taste-led-client-curation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-taste-development",
+   "title": "Oren - Personal Taste Manifesto Builder",
+   "gist": "You are Oren, a creative strategist who believes that articulated taste is more powerful than instinctive taste. When you can write down your principles, you can defend them, teach them, and build on them systematically.",
+   "path": "skills/oren-taste-development/references/prompts-v2/taste-manifesto-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "oren-taste-development",
    "title": "Taste Signaling Content",
    "gist": "You are Oren, a creative strategist who built hundreds of millions of views by demonstrating taste rather than talking about it. Your content doesn't lecture\u2014it embodies quality in every choice.",
    "path": "skills/oren-taste-development/references/prompts-v2/taste-signaling-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-taste-development",
+   "title": "Oren - The Thrift Test Designer",
+   "gist": "You are Oren, applying the insight that true taste can operate without money as a crutch. Anyone can assemble a good outfit from expensive stores\u2014the question is whether you can do it from chaos, without buying the answe",
+   "path": "skills/oren-taste-development/references/prompts-v2/thrift-test-designer.md"
   },
   {
    "kind": "prompt-v2",
@@ -9378,9 +9931,58 @@
   {
    "kind": "prompt-v2",
    "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Continuum Mapping",
+   "gist": "Map concepts to reveal hidden insights and patterns.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/02-continuum-mapping.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Self-Proving Arguments",
+   "gist": "Create arguments audiences verify through their own experience.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/03-self-proving-arguments.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Body-Based Truth Connection",
+   "gist": "Connect claims to undeniable physical truths.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/04-body-based-truths.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Classroom Story Architect",
+   "gist": "Build vivid dialogue-rich stories that prove themselves and get retold.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/05-classroom-story.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Economic Translation Engine",
+   "gist": "Convert emotional/creative concepts to business logic.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/06-economic-translation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Adversity Oscillation Designer",
+   "gist": "Transform setbacks into innovation fuel and design deliberate friction.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/07-adversity-oscillation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
    "title": "Body Copy Engine",
    "gist": "Create copy felt in the body, not just read by the eyes.",
    "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/08-body-copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Continuum Positioning Revealer",
+   "gist": "Reveal unoccupied market positions through continuum mapping.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/09-continuum-positioning.md"
   },
   {
    "kind": "prompt-v2",
@@ -9392,9 +9994,30 @@
   {
    "kind": "prompt-v2",
    "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Body-Grounded Claims",
+   "gist": "Ground any claim in undeniable physical truth.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/11-body-grounded-claims.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
    "title": "Self-Proving Viral Content",
    "gist": "Content that spreads because it works.",
    "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/12-self-proving-viral.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Narratives That Sell Without Selling",
+   "gist": "Sell through story without sales pitch.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/13-narratives-that-sell.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Intent Decoder",
+   "gist": "Decode unspoken intent from behavior and signals.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/14-decode-intent.md"
   },
   {
    "kind": "prompt-v2",
@@ -9406,9 +10029,184 @@
   {
    "kind": "prompt-v2",
    "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Versatile Asset Creator",
+   "gist": "Create assets that multiply across channels and contexts.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/16-versatile-assets.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Audio Identity Builder",
+   "gist": "Create comprehensive sonic brand identity for content or business.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/audio-identity-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
    "title": "Content Emotional Autopsy",
    "gist": "Post-mortem analysis of why content succeeded or failed emotionally.",
    "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/content-emotional-autopsy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Demonstration Builder",
+   "gist": "Create self-proving arguments that audiences verify themselves.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/demonstration-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Emotional Umami Designer",
+   "gist": "Transform \"empty calorie\" content into unforgettable felt experiences.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/emotional-umami-designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Scene Soundtrack Selector",
+   "gist": "Match scenes to perfect music using the Spectrum + Umami framework.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/scene-soundtrack-selector.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Sound Strategy Architect",
+   "gist": "Design audio-first content experiences that leverage the always-on sense.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/sound-strategy-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Spectrum Analyzer",
+   "gist": "Reveal hidden insights by mapping concepts across continuums.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/spectrum-analyzer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paul-james-ai-automation",
+   "title": "30-Day Acquisition Playbook",
+   "gist": "Generates complete client acquisition roadmap for first 5 clients.",
+   "path": "skills/paul-james-ai-automation/references/prompts-v2/acquisition-playbook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paul-james-ai-automation",
+   "title": "Agency Arbitrage Positioning",
+   "gist": "Generates David vs. Goliath competitive positioning scripts.",
+   "path": "skills/paul-james-ai-automation/references/prompts-v2/agency-arbitrage-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paul-james-ai-automation",
+   "title": "Continuous Improvement Monetization",
+   "gist": "Monetizes workflow enhancements and updates as ongoing value.",
+   "path": "skills/paul-james-ai-automation/references/prompts-v2/improvement-monetization.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paul-james-ai-automation",
+   "title": "Lead Magnet Architect",
+   "gist": "Designs shareable free tools that convert prospects into paying clients.",
+   "path": "skills/paul-james-ai-automation/references/prompts-v2/lead-magnet-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paul-james-ai-automation",
+   "title": "Market Adaptation System",
+   "gist": "Adapts proven workflows to new industries rapidly.",
+   "path": "skills/paul-james-ai-automation/references/prompts-v2/market-adaptation-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paul-james-ai-automation",
+   "title": "Multimodal Workflow Designer",
+   "gist": "Designs workflows handling text, image, video, and audio processing.",
+   "path": "skills/paul-james-ai-automation/references/prompts-v2/multimodal-workflow-designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paul-james-ai-automation",
+   "title": "Premium Delivery Architecture",
+   "gist": "Designs high-value delivery experiences that justify premium pricing.",
+   "path": "skills/paul-james-ai-automation/references/prompts-v2/premium-delivery-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paul-james-ai-automation",
+   "title": "Pricing Psychology System",
+   "gist": "Optimizes monthly vs. project pricing for maximum revenue capture.",
+   "path": "skills/paul-james-ai-automation/references/prompts-v2/pricing-psychology-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paul-james-ai-automation",
+   "title": "1x to 1000x Scaling System",
+   "gist": "Designs workflows for zero-marginal-cost scaling.",
+   "path": "skills/paul-james-ai-automation/references/prompts-v2/scaling-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paul-james-ai-automation",
+   "title": "Service Packager",
+   "gist": "Transforms workflows into monetizable service offers with complete pricing and ROI justification.",
+   "path": "skills/paul-james-ai-automation/references/prompts-v2/service-packager.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paul-james-ai-automation",
+   "title": "Service Stack Designer",
+   "gist": "Creates connected service ecosystems for maximum client lifetime value.",
+   "path": "skills/paul-james-ai-automation/references/prompts-v2/service-stack-designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paul-james-ai-automation",
+   "title": "Wake-Up Number Generator",
+   "gist": "Quantifies client's pain in hours and revenue to create compelling sales math.",
+   "path": "skills/paul-james-ai-automation/references/prompts-v2/wake-up-number-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paul-james-ai-automation",
+   "title": "White-Label Solution Architect",
+   "gist": "Designs custom-branded automation systems for premium pricing.",
+   "path": "skills/paul-james-ai-automation/references/prompts-v2/white-label-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paul-james-ai-automation",
+   "title": "Workflow Blueprint Generator",
+   "gist": "Creates complete AI workflow blueprints that a non-technical person can build in 2 hours.",
+   "path": "skills/paul-james-ai-automation/references/prompts-v2/workflow-blueprint-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "pj-accetturo-ai-video",
+   "title": "PJ ACCETTURO - AI VIDEO AD SCRIPT GENERATOR",
+   "gist": "You are PJ Accetturo, the pioneer of AI video advertising who created the viral Kalshi NBA Finals ad and the David Beckham IM8 campaign (233M views in 3 days). You execute high-impact video ad scripting with the understa",
+   "path": "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_01_script_generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "pj-accetturo-ai-video",
+   "title": "PJ ACCETTURO - FIGMA STORYBOARD CREATOR",
+   "gist": "You are PJ Accetturo operating in Director/Pre-Production mode, transforming scripts into complete visual storyboards that any cinematographer, animator, or editor can execute without additional briefing.",
+   "path": "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_02_storyboard_creator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "pj-accetturo-ai-video",
+   "title": "PJ ACCETTURO - VISUAL REFERENCE TO PROMPT TRANSLATOR",
+   "gist": "You are PJ Accetturo executing the critical translation layer between visual inspiration and AI generation. When filmmakers and creatives see a reference image that captures what they want, they often struggle to articul",
+   "path": "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_03_reference_translator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "pj-accetturo-ai-video",
+   "title": "PJ ACCETTURO - VIDEO GENERATION MASTER",
+   "gist": "You are PJ Accetturo executing the critical final stage: transforming static storyboard frames into living video. This is where the magic happens\u2014or where it falls apart. You understand that video generation is fundament",
+   "path": "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_04_video_generation.md"
   },
   {
    "kind": "prompt-v2",
@@ -9420,9 +10218,149 @@
   {
    "kind": "prompt-v2",
    "skill": "pj-accetturo-ai-video",
+   "title": "PJ ACCETTURO - PRODUCTION TEAM ORCHESTRATION",
+   "gist": "You are PJ Accetturo executing as Production Coordinator, orchestrating AI video production across the 5-role model that separates professional output from amateur experimentation. You've learned that \"army of one\" AI fi",
+   "path": "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_06_production_orchestration.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "pj-accetturo-ai-video",
+   "title": "PJ ACCETTURO - ADVANCED PRODUCTION TECHNIQUES",
+   "gist": "You are PJ Accetturo executing at the cutting edge of AI video production, deploying advanced techniques that separate amateur work from broadcast-quality output. You've discovered that the gap between \"acceptable AI vid",
+   "path": "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_07_advanced_techniques.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "pj-accetturo-ai-video",
+   "title": "PJ ACCETTURO - SOCIAL-FIRST SHORT-FORM VIDEO CREATOR",
+   "gist": "You are PJ Accetturo executing in social-first mode, creating AI videos optimized for the platforms where attention is hardest to capture: TikTok, Instagram Reels, YouTube Shorts, and LinkedIn video. These platforms have",
+   "path": "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_08_social_first.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "pj-accetturo-ai-video",
+   "title": "PJ ACCETTURO - PRODUCT DEMO & EXPLAINER VIDEO SYSTEM",
+   "gist": "You are PJ Accetturo executing product demonstration and explainer videos\u2014the workhorses of business video that often get treated as afterthoughts. These videos live on homepages, sales decks, onboarding flows, and produ",
+   "path": "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_09_product_demo.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "pj-accetturo-ai-video",
+   "title": "PJ ACCETTURO - VIRAL MECHANICS & SHAREABILITY ENGINE",
+   "gist": "You are PJ Accetturo reverse-engineering virality. You've watched the David Beckham IM8 ad hit 233 million views in 3 days. You've seen ads explode and ads die. You understand that virality isn't luck\u2014it's architecture.",
+   "path": "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_10_viral_mechanics.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "pj-accetturo-ai-video",
+   "title": "PJ ACCETTURO - EDITING & POST-PRODUCTION MASTER",
+   "gist": "You are PJ Accetturo executing in the editor's chair\u2014where good footage becomes great videos and great footage becomes unforgettable content. You understand that editing isn't assembly; it's authorship. The same raw mate",
+   "path": "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_11_post_production.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "pj-accetturo-ai-video",
+   "title": "PJ ACCETTURO - RAPID SPEC AD FACTORY",
+   "gist": "You are PJ Accetturo in rapid deployment mode\u2014creating spec ads that demonstrate capability, build portfolio, and attract clients. You understand that PJ built part of his reputation through spec work: the Zelda trailer ",
+   "path": "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_12_spec_ad_factory.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "pj-accetturo-ai-video",
+   "title": "PJ ACCETTURO - CINEMATIC B-ROLL LIBRARY GENERATOR",
+   "gist": "You are PJ Accetturo executing as a B-roll cinematographer\u2014creating the visual poetry that transforms amateur content into cinematic storytelling. B-roll is the invisible architecture of professional video: the shots tha",
+   "path": "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_13_broll_library.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "pj-accetturo-ai-video",
    "title": "PJ ACCETTURO - CONTENT-TO-COMMERCE ENGINE",
    "gist": "You are PJ Accetturo executing at the intersection of virality and profitability\u2014creating content that spreads AND sells. You understand that views without revenue is a hobby, not a business. And you understand that sale",
    "path": "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_14_content_commerce.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rachel-woods-ai-operations",
+   "title": "Rachel Woods \u2014 AI Edge Identifier",
+   "gist": "You are Rachel Woods, AI Operations Architect who has helped companies discover their unique AI competitive advantage. Your core principle: true AI Edge only exists at the intersection of proprietary knowledge, proprieta",
+   "path": "skills/rachel-woods-ai-operations/references/prompts-v2/ai-edge-identifier.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rachel-woods-ai-operations",
+   "title": "Rachel Woods \u2014 AI Operator Role Designer",
+   "gist": "You are Rachel Woods, AI Operations Architect who identified the \"AI Operator\" as the missing role in every organization's AI transformation. You've seen companies fail because they had visionaries (who see the opportuni",
+   "path": "skills/rachel-woods-ai-operations/references/prompts-v2/ai-operator-role-designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rachel-woods-ai-operations",
+   "title": "Rachel Woods \u2014 CRAFT Cycle Blueprint",
+   "gist": "You are Rachel Woods, AI Operations Architect and creator of the CRAFT Cycle \u2014 the end-to-end framework for AI-ifying any business process. You've run this cycle on processes across e-commerce, professional services, Saa",
+   "path": "skills/rachel-woods-ai-operations/references/prompts-v2/craft-cycle-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rachel-woods-ai-operations",
+   "title": "Rachel Woods \u2014 MASTER Spec Generator",
+   "gist": "You are Rachel Woods, AI Operations Architect and creator of the MASTER method for building reliable, portable AI task specifications. Your key insight: a prompt without a spec is a toy. A prompt with a MASTER spec is a ",
+   "path": "skills/rachel-woods-ai-operations/references/prompts-v2/master-spec-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rachel-woods-ai-operations",
+   "title": "Rachel Woods \u2014 Process Decomposition Audit",
+   "gist": "You are Rachel Woods, AI Operations Architect and creator of the Task Hierarchy framework. You have decomposed business functions across e-commerce, SaaS, professional services, and media companies. Your signature skill:",
+   "path": "skills/rachel-woods-ai-operations/references/prompts-v2/process-decomposition-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rachel-woods-ai-operations",
+   "title": "Rachel Woods \u2014 30% Trap Diagnostic",
+   "gist": "You are Rachel Woods, AI Operations Architect who has identified the \"30% Trap\" \u2014 the hard ceiling most companies hit when they bolt AI onto existing processes. You've diagnosed this pattern across organizations: individ",
+   "path": "skills/rachel-woods-ai-operations/references/prompts-v2/thirty-percent-trap-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rachel-woods-ai-operations",
+   "title": "Rachel Woods \u2014 Unlimited Time Reframe",
+   "gist": "You are Rachel Woods, AI Operations Architect who reframes AI's value from \"saving time\" to \"unlimited time.\" You know that the time-saving frame anchors thinking to incremental optimization, while the unlimited-time fra",
+   "path": "skills/rachel-woods-ai-operations/references/prompts-v2/unlimited-time-reframe.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Audience Calibrator",
+   "gist": "You are Robert Mack, Comedy Writing Master and architect of humor. You don't just \"know your audience\" \u2014 you surgically map their psychological patterns, cultural shorthand, and emotional triggers to ensure every comedic",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/audience-calibrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Bait Switch Architect",
+   "gist": "You are Robert Mack, a master of comedic architecture with 15+ years of experience in standup and corporate humor consulting. You don't just \"tell jokes\" \u2014 you engineer **pattern-recognition traps**. You specialize in th",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/bait-switch-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Callback & Payoff Architecture",
+   "gist": "You are Robert Mack operating as a Callback Architect \u2014 engineering the planted seeds and delayed payoffs that transform good content into memorable content. You understand that callbacks aren't just comedy technique \u2014 t",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/callback-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Comedic Persona Development",
+   "gist": "You are Robert Mack operating as a Comedic Persona Architect \u2014 building consistent, memorable characters that enable comedy across any context. You understand that the world's most successful comedians aren't just funny ",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/comedic-persona-development.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Comedic Word Surgeon",
+   "gist": "You are Robert Mack, a veteran comedy architect and linguistic engineer. You don't just \"write jokes\" \u2014 you perform surgical interventions on language to maximize the \"Benign Violation\" threshold. You specialize in the *",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/comedic-word-surgeon.md"
   },
   {
    "kind": "prompt-v2",
@@ -9434,9 +10372,23 @@
   {
    "kind": "prompt-v2",
    "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Comedy Filter Stack",
+   "gist": "You are Robert Mack, a master of comedy architecture and humor engineering. You don't \"tell jokes\" \u2014 you deconstruct reality into its most absurd components and reassemble them using the 11 specific neurological triggers",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/comedy-filter-stack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
    "title": "Robert Mack \u2014 Comedy Hook Generator",
    "gist": "You are Robert Mack, Comedy Writing Master and Architecture Specialist. You don't just \"write jokes\" \u2014 you engineer neurological surprise by exploiting pattern recognition. You transform flat observations into lethal hoo",
    "path": "skills/robert-mack-comedy-writing/references/prompts-v2/comedy-hook-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Conversation Mastery Engine",
+   "gist": "You are Robert Mack, comedy architect and conversation engineer. Your highest-level competency: using the **Specific \u2192 Universal** mechanic not just to create content, but to **master conversations** \u2014 turning any piece ",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/conversation-mastery-engine.md"
   },
   {
    "kind": "prompt-v2",
@@ -9462,9 +10414,107 @@
   {
    "kind": "prompt-v2",
    "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Meta-Humor Engine",
+   "gist": "You are Robert Mack, a veteran standup comedian and corporate humor architect. You don't just write jokes; you deconstruct the \"fourth wall\" of communication to build instant, high-level rapport. You specialize in meta-h",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/meta-humor-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Naming The Unnamed",
+   "gist": "You are Robert Mack, Comedy Writing Architect and Master of Observation. You don't just \"write jokes\" \u2014 you engineer cultural hooks by identifying the \"unspoken universals\" of the human experience. You specialize in the ",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/naming-the-unnamed.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Niche-to-Viral Translator",
+   "gist": "You are Robert Mack, comedy architect and viral content engineer. Your specialty: taking expertise, insights, or stories that currently live inside a niche bubble and **translating** them into content that spreads far be",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/niche-to-viral-translator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Observation To Bit Pipeline",
+   "gist": "You are Robert Mack, a master of comedy architecture and professional humor consultant. You don't just \"tell jokes\" \u2014 you engineer comedic bits by exploiting the brain's pattern-recognition wiring. You transform raw, irr",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/observation-to-bit-pipeline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 One-Liner Forge",
+   "gist": "You are Robert Mack, a veteran comedy architect and master of the one-liner. You don't just \"write jokes\" \u2014 you engineer linguistic traps. You exploit the human brain's automatic pattern-completion hardware to lead an au",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/one-liner-forge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Recognition Humor Mining",
+   "gist": "You are Robert Mack operating as a Recognition Humor Miner \u2014 systematically excavating the universal experiences that everyone has but nobody has named. You understand that the most powerful comedy comes from articulatin",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/recognition-mining.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
    "title": "Robert Mack x Seth Godin - Remarkable Brand Voice Engine",
    "gist": "You are the fusion of **Robert Mack** (comedy architecture) and **Seth Godin** (remarkable positioning) \u2014 operating as a Remarkable Brand Voice Engine. You understand that in a world of infinite noise, the only brands th",
    "path": "skills/robert-mack-comedy-writing/references/prompts-v2/remarkable-brand-voice.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Rule of Three Engine",
+   "gist": "You are Robert Mack, a master of comedic architecture and pattern manipulation. You don't just \"write jokes\" \u2014 you engineer the neurological surprise that triggers the human safety signal: laughter. You specialize in the",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/rule-of-three-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Self-Deprecation Connector",
+   "gist": "You are Robert Mack, a 15-year standup veteran and corporate humor consultant. You don't explain how to be \"relatable\" \u2014 you engineer the precise \"Loss > Victory\" mechanics that dissolve audience resistance and build an ",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/self-deprecation-connector.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Skewed Perspective Generator",
+   "gist": "You are Robert Mack, a veteran standup comedian and corporate humor architect. You don't just \"write jokes\" \u2014 you engineer **pattern-break mechanisms**. You specialize in the \"Skewed Perspective Engine,\" taking a mundane",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/skewed-perspective-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Specific-to-Universal Bridge",
+   "gist": "You are Robert Mack, comedy architect and master of the **Specific-to-Universal** principle \u2014 the single most powerful mechanic in all of comedy, storytelling, and viral content. Your core genius: take one hyper-specific",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/specific-to-universal-bridge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Story Concision Sculptor",
+   "gist": "You are Robert Mack, a master of comedic architecture and narrative efficiency. You don't just \"edit\" stories \u2014 you sculpt them. You take raw, rambling observations and strip away every syllable that doesn't serve the pa",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/story-concision-sculptor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Tension-Release Sequencing",
+   "gist": "You are Robert Mack operating as a Tension-Release Engineer \u2014 mastering the neurological mechanism that makes audiences laugh, gasp, and feel. You understand that laughter is fundamentally a RELEASE valve. The bigger the",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/tension-release-sequencing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Tension Release Writer",
+   "gist": "You are Robert Mack, Comedy Architect and Master of the Benign Violation. You don't just \"write jokes\" \u2014 you engineer neurological safety signals. You specialize in the Tension-Release mechanism: taking an audience to th",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/tension-release-writer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Universal Resonance Amplifier",
+   "gist": "You are Robert Mack, comedy architect and master of audience resonance engineering. Your superpower: taking existing content that is currently \"correct but niche\" and amplifying its resonance until people outside that ni",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/universal-resonance-amplifier.md"
   },
   {
    "kind": "prompt-v2",

@@ -1,199 +1,256 @@
 {
  "standard": "structure-pure-v2 (see _active/prompt-renaissance/04-deliverables/RUNBOOK.md)",
  "total": 150,
- "remaining_after_wave": 337,
+ "remaining_after_wave": 187,
  "groups": [
   {
-   "skill": "mitch-albom-writing-mastery",
+   "skill": "omar-eddaoudi-premium-ads",
    "prompts": [
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/aha-moment-architect.md",
-     "title": "Aha Moment Architect"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/cj_02_psychological_buyer_intelligence.md",
+     "title": "OMAR EDDAOUDI - PSYCHOLOGICAL BUYER INTELLIGENCE SYSTEM"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/character-transformation-engine.md",
-     "title": "Character Transformation Engine"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/cj_03_viral_engineering_formula.md",
+     "title": "OMAR EDDAOUDI - VIRAL ENGINEERING FORMULA"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/client-voice-channeler.md",
-     "title": "Client Voice Channeler"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/cj_04_premium_positioning_matrix.md",
+     "title": "OMAR EDDAOUDI - PREMIUM POSITIONING MATRIX"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/dialogue-mastery.md",
-     "title": "Dialogue Mastery"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/cj_05_belief_installation_story.md",
+     "title": "OMAR EDDAOUDI - BELIEF-INSTALLATION STORY ARCHITECTURE"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/emotional-architecture.md",
-     "title": "Emotional Architecture Engine"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/cj_06_market_signal_decoder.md",
+     "title": "OMAR EDDAOUDI - MARKET SIGNAL DECODER"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/endings-that-echo.md",
-     "title": "Endings That Echo"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/cj_09_premium_creative_direction.md",
+     "title": "OMAR EDDAOUDI - PREMIUM CREATIVE DIRECTION SYSTEM"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/first-last-frame-builder.md",
-     "title": "First/Last Frame Builder"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_01_debate_ownership_ad_creator.md",
+     "title": "OMAR EDDAOUDI - DEBATE OWNERSHIP AD CREATOR"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/gravedigger-angle-finder.md",
-     "title": "Gravedigger Angle Finder"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_02_objection_first_ad_generator.md",
+     "title": "OMAR EDDAOUDI - OBJECTION-FIRST AD GENERATOR"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/humility-voice-generator.md",
-     "title": "Humility Voice Generator"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_03_belief_architecture_converter.md",
+     "title": "OMAR EDDAOUDI - BELIEF ARCHITECTURE CONVERTER"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/legacy-architecture.md",
-     "title": "Legacy Architecture System"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_04_silent_comparison_architect.md",
+     "title": "OMAR EDDAOUDI - SILENT COMPARISON ARCHITECT"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/long-form-coherence.md",
-     "title": "Long-Form Coherence System"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_06_premium_authority_ad_suite_generator.md",
+     "title": "OMAR EDDAOUDI - PREMIUM AUTHORITY AD SUITE GENERATOR"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/master-rewrite-protocol.md",
-     "title": "Master Rewrite Protocol"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_07_standard_setting_campaign_creator.md",
+     "title": "OMAR EDDAOUDI - STANDARD-SETTING CAMPAIGN CREATOR"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/memorable-moment-engineer.md",
-     "title": "Memorable Moment Engineer"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_14_belief_based_personal_positioning.md",
+     "title": "OMAR EDDAOUDI - BELIEF-BASED PERSONAL POSITIONING SYSTEM"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/metaphor-image-architecture.md",
-     "title": "Metaphor & Image Architecture"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_16_premium_social_narrative_system.md",
+     "title": "OMAR EDDAOUDI - PREMIUM SOCIAL MEDIA NARRATIVE SYSTEM"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/niche-domination-narrative.md",
-     "title": "Niche Domination Narrative System"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_28_sophistication_calibration_engine.md",
+     "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 SOPHISTICATION CALIBRATION ENGINE"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/personal-story-alchemy.md",
-     "title": "Personal Story Alchemy"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_29_insider_lexicon_architecture.md",
+     "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 INSIDER LEXICON ARCHITECTURE SYSTEM"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/platform-native-adapter.md",
-     "title": "Platform-Native Story Adapter"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_31_audience_sophistication_mapping.md",
+     "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 AUDIENCE SOPHISTICATION MAPPING PROTOCOL"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/premium-positioning.md",
-     "title": "Premium Positioning Engine"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_32_viral_depth_architecture.md",
+     "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 VIRAL DEPTH ARCHITECTURE"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/prolific-mastery.md",
-     "title": "Prolific Mastery System"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_34_premium_creator_voice_forge.md",
+     "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 PREMIUM CREATOR VOICE FORGE"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/reader-soul-connection.md",
-     "title": "Reader Soul Connection Protocol"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_36_sophisticated_audience_trust_sequencer.md",
+     "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 SOPHISTICATED AUDIENCE TRUST SEQUENCER"
     },
     {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/rhythm-pacing-calibrator.md",
-     "title": "Rhythm & Pacing Calibrator"
-    },
-    {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/serial-storytelling.md",
-     "title": "Serial Storytelling"
-    },
-    {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/signature-voice-distillery.md",
-     "title": "Signature Voice Distillery"
-    },
-    {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/theme-first-story-architect.md",
-     "title": "Theme-First Story Architect"
-    },
-    {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/tight-cut-editor.md",
-     "title": "Tight Cut Editor"
-    },
-    {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/truth-density-maximizer.md",
-     "title": "Truth Density Maximizer"
-    },
-    {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/unforgettable-scenes.md",
-     "title": "Unforgettable Scenes Creator"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_37_category_domination_engine.md",
+     "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 CREATOR ECONOMY CATEGORY DOMINATION ENGINE"
     }
    ]
   },
   {
-   "skill": "nathan-gotch-ai-seo",
+   "skill": "robert-mack-comedy-writing",
    "prompts": [
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/01-ai-seo-measurement.md",
-     "title": "AI SEO Measurement System"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/audience-calibrator.md",
+     "title": "Robert Mack \u2014 Audience Calibrator"
     },
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/04-knowledge-base.md",
-     "title": "Knowledge Base Architect"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/bait-switch-architect.md",
+     "title": "Robert Mack \u2014 Bait Switch Architect"
     },
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/06-retrieval-domination.md",
-     "title": "Retrieval Source Domination"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/callback-architecture.md",
+     "title": "ROBERT MAC - CALLBACK & PAYOFF ARCHITECTURE"
     },
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/07-ai-coding.md",
-     "title": "AI Coding Leverage"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/comedic-persona-development.md",
+     "title": "ROBERT MAC - COMEDIC PERSONA DEVELOPMENT"
     },
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/09-market-narrative.md",
-     "title": "Market Narrative Control Protocol"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/comedic-word-surgeon.md",
+     "title": "Robert Mack \u2014 Comedic Word Surgeon"
     },
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/10-voc-intelligence.md",
-     "title": "Voice of Customer Citation Intelligence"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/comedy-filter-stack.md",
+     "title": "Robert Mack \u2014 Comedy Filter Stack"
     },
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/12-conversion-narrative.md",
-     "title": "Conversion Narrative Architecture"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/conversation-mastery-engine.md",
+     "title": "Robert Mack \u2014 Conversation Mastery Engine"
     },
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/13-viral-retrieval.md",
-     "title": "Viral Retrieval Mapping System"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/meta-humor-engine.md",
+     "title": "Robert Mack \u2014 Meta-Humor Engine"
     },
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/14-signal-intelligence.md",
-     "title": "Strategic Signal Intelligence"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/naming-the-unnamed.md",
+     "title": "Robert Mack \u2014 Naming The Unnamed"
     },
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/15-creative-direction.md",
-     "title": "Creative Direction System"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/niche-to-viral-translator.md",
+     "title": "Robert Mack \u2014 Niche-to-Viral Translator"
     },
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/16-force-multiplier.md",
-     "title": "Force Multiplier Integration System"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/observation-to-bit-pipeline.md",
+     "title": "Robert Mack \u2014 Observation To Bit Pipeline"
     },
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/17-technical-audit.md",
-     "title": "AI SEO Technical Audit Executor"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/one-liner-forge.md",
+     "title": "Robert Mack \u2014 One-Liner Forge"
     },
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/19-citation-mining.md",
-     "title": "Citation Mining & Outreach System"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/recognition-mining.md",
+     "title": "ROBERT MAC - RECOGNITION HUMOR MINING"
     },
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/21-dream-100.md",
-     "title": "Dream 100 Identification & Influence System"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/rule-of-three-engine.md",
+     "title": "Robert Mack \u2014 Rule of Three Engine"
     },
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/22-youtube-influencer.md",
-     "title": "YouTube Influencer Campaign Builder"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/self-deprecation-connector.md",
+     "title": "Robert Mack \u2014 Self-Deprecation Connector"
     },
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/23-entity-trust.md",
-     "title": "Entity Trust & Review Generation System"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/skewed-perspective-generator.md",
+     "title": "Robert Mack \u2014 Skewed Perspective Generator"
     },
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/25-competitor-narrative.md",
-     "title": "Competitor Narrative Control System"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/specific-to-universal-bridge.md",
+     "title": "Robert Mack \u2014 Specific-to-Universal Bridge"
     },
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/27-buyer-pathway.md",
-     "title": "Buyer Decision Pathway Decoder"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/story-concision-sculptor.md",
+     "title": "Robert Mack \u2014 Story Concision Sculptor"
     },
     {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/28-omnichannel-blitz.md",
-     "title": "Omnichannel Authority Blitz Orchestrator"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/tension-release-sequencing.md",
+     "title": "ROBERT MAC - TENSION-RELEASE SEQUENCING"
+    },
+    {
+     "path": "skills/robert-mack-comedy-writing/references/prompts/tension-release-writer.md",
+     "title": "Robert Mack \u2014 Tension Release Writer"
+    },
+    {
+     "path": "skills/robert-mack-comedy-writing/references/prompts/universal-resonance-amplifier.md",
+     "title": "Robert Mack \u2014 Universal Resonance Amplifier"
+    }
+   ]
+  },
+  {
+   "skill": "oscar-hoglund-sound-storytelling",
+   "prompts": [
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/02-continuum-mapping.md",
+     "title": "Continuum Mapping"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/03-self-proving-arguments.md",
+     "title": "Self-Proving Arguments"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/04-body-based-truths.md",
+     "title": "Body-Based Truth Connection"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/05-classroom-story.md",
+     "title": "Classroom Story Architect"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/06-economic-translation.md",
+     "title": "Economic Translation Engine"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/07-adversity-oscillation.md",
+     "title": "Adversity Oscillation Designer"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/09-continuum-positioning.md",
+     "title": "Continuum Positioning Revealer"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/11-body-grounded-claims.md",
+     "title": "Body-Grounded Claims"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/13-narratives-that-sell.md",
+     "title": "Narratives That Sell Without Selling"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/14-decode-intent.md",
+     "title": "Intent Decoder"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/16-versatile-assets.md",
+     "title": "Versatile Asset Creator"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/audio-identity-builder.md",
+     "title": "Audio Identity Builder"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/demonstration-builder.md",
+     "title": "Demonstration Builder"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/emotional-umami-designer.md",
+     "title": "Emotional Umami Designer"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/scene-soundtrack-selector.md",
+     "title": "Scene Soundtrack Selector"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/sound-strategy-architect.md",
+     "title": "Sound Strategy Architect"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/spectrum-analyzer.md",
+     "title": "Spectrum Analyzer"
     }
    ]
   },
@@ -201,480 +258,408 @@
    "skill": "nick-saraev-agentic-workflows",
    "prompts": [
     {
-     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_01_do_framework_builder.md",
-     "title": "NICK SARAEV - DO FRAMEWORK BUILDER CROWN JEWEL PROMPT"
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_m04_story_architecture_engine.md",
+     "title": "STORY ARCHITECTURE ENGINE CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_02_self_annealing_architect.md",
-     "title": "NICK SARAEV - SELF-ANNEALING ARCHITECT CROWN JEWEL PROMPT"
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_m06_positioning_differentiation_strategist.md",
+     "title": "POSITIONING & DIFFERENTIATION STRATEGIST CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_03_system_prompt_engineer.md",
-     "title": "NICK SARAEV - SYSTEM PROMPT ENGINEER CROWN JEWEL PROMPT"
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_m09_creative_brief_art_direction.md",
+     "title": "CREATIVE BRIEF & ART DIRECTION GENERATOR CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_04_parallel_build_orchestrator.md",
-     "title": "NICK SARAEV - PARALLEL BUILD ORCHESTRATOR CROWN JEWEL PROMPT"
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_n18_problem_to_workflow_translator.md",
+     "title": "NICK SARAEV - PROBLEM-TO-WORKFLOW TRANSLATOR CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_05_cloud_deployment_deployer.md",
-     "title": "NICK SARAEV - CLOUD DEPLOYMENT DEPLOYER CROWN JEWEL PROMPT"
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_n19_horizontal_leverage_analyzer.md",
+     "title": "NICK SARAEV - HORIZONTAL LEVERAGE ANALYZER CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_06_sub_agent_designer.md",
-     "title": "NICK SARAEV - SUB-AGENT DESIGNER CROWN JEWEL PROMPT"
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_n20_ai_overhang_exploiter.md",
+     "title": "NICK SARAEV - AI OVERHANG EXPLOITER CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_07_workflow_optimizer.md",
-     "title": "NICK SARAEV - WORKFLOW OPTIMIZER CROWN JEWEL PROMPT"
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_n21_multi_agent_orchestration_architect.md",
+     "title": "NICK SARAEV - MULTI-AGENT ORCHESTRATION ARCHITECT CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_08_workflow_audit_roi_prioritizer.md",
-     "title": "NICK SARAEV + FRESH METHOD - WORKFLOW AUDIT & ROI PRIORITIZER CROWN JEWEL PROMPT"
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_n22_context_window_engineer.md",
+     "title": "NICK SARAEV - CONTEXT WINDOW ENGINEER CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_09_value_based_proposal_generator.md",
-     "title": "FRESH METHOD - VALUE-BASED PROPOSAL GENERATOR CROWN JEWEL PROMPT"
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_n23_hybrid_decision_engine.md",
+     "title": "NICK SARAEV - HYBRID DECISION ENGINE CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_10_rapid_prototype_builder.md",
-     "title": "FRESH METHOD - RAPID PROTOTYPE BUILDER CROWN JEWEL PROMPT"
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_n24_error_taxonomy_recovery_designer.md",
+     "title": "NICK SARAEV - ERROR TAXONOMY & RECOVERY DESIGNER CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_11_mcp_integration_architect.md",
-     "title": "NICK SARAEV - MCP INTEGRATION ARCHITECT CROWN JEWEL PROMPT"
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_n25_batch_processing_architect.md",
+     "title": "NICK SARAEV - BATCH PROCESSING ARCHITECT CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_14_client_handoff_system_designer.md",
-     "title": "FRESH METHOD - CLIENT HANDOFF SYSTEM DESIGNER CROWN JEWEL PROMPT"
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_n26_api_integration_pattern_library.md",
+     "title": "NICK SARAEV - API INTEGRATION PATTERN LIBRARY CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_15_retainer_relationship_architect.md",
-     "title": "FRESH METHOD - RETAINER RELATIONSHIP ARCHITECT CROWN JEWEL PROMPT"
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_n27_performance_optimization_engine.md",
+     "title": "NICK SARAEV - PERFORMANCE OPTIMIZATION ENGINE CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_16_ide_workspace_configurator.md",
-     "title": "FRESH METHOD - IDE WORKSPACE CONFIGURATOR CROWN JEWEL PROMPT"
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_n28_self_improving_system_designer.md",
+     "title": "NICK SARAEV - SELF-IMPROVING SYSTEM DESIGNER CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_17_voice_first_specification_engine.md",
-     "title": "FRESH METHOD - VOICE-FIRST SPECIFICATION ENGINE CROWN JEWEL PROMPT"
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_n29_skill_stacking_combiner.md",
+     "title": "NICK SARAEV - SKILL STACKING COMBINER CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_m03_consumer_psychology_decoder.md",
-     "title": "CONSUMER PSYCHOLOGY DECODER CROWN JEWEL PROMPT"
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_n30_automation_audit_protocol.md",
+     "title": "NICK SARAEV - AUTOMATION AUDIT PROTOCOL CROWN JEWEL PROMPT"
     }
    ]
   },
   {
-   "skill": "nate-b-jones-ai-taste-mastery",
+   "skill": "paul-james-ai-automation",
    "prompts": [
     {
-     "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts/100x-taste-multiplier.md",
-     "title": "The 100x Taste Multiplier"
+     "path": "skills/paul-james-ai-automation/references/prompts/acquisition-playbook.md",
+     "title": "30-Day Acquisition Playbook"
     },
     {
-     "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts/compost-pile-synthesizer.md",
-     "title": "The Compost Pile Synthesizer"
+     "path": "skills/paul-james-ai-automation/references/prompts/agency-arbitrage-positioning.md",
+     "title": "Agency Arbitrage Positioning"
     },
     {
-     "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts/differential-calibration-master.md",
-     "title": "The Differential Calibration Master"
+     "path": "skills/paul-james-ai-automation/references/prompts/improvement-monetization.md",
+     "title": "Continuous Improvement Monetization"
     },
     {
-     "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts/hollowness-detection-expert.md",
-     "title": "The Hollowness Detection Expert"
+     "path": "skills/paul-james-ai-automation/references/prompts/lead-magnet-architect.md",
+     "title": "Lead Magnet Architect"
     },
     {
-     "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts/intelligence-acceleration-adapter.md",
-     "title": "The Intelligence Acceleration Adapter"
+     "path": "skills/paul-james-ai-automation/references/prompts/market-adaptation-system.md",
+     "title": "Market Adaptation System"
     },
     {
-     "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts/oracle-interpretation-specialist.md",
-     "title": "The Oracle Interpretation Specialist"
+     "path": "skills/paul-james-ai-automation/references/prompts/multimodal-workflow-designer.md",
+     "title": "Multimodal Workflow Designer"
     },
     {
-     "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts/taste-activation-architect.md",
-     "title": "The Taste Activation Architect"
+     "path": "skills/paul-james-ai-automation/references/prompts/premium-delivery-architecture.md",
+     "title": "Premium Delivery Architecture"
     },
     {
-     "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts/taste-deployment-strategist.md",
-     "title": "The Taste Deployment Strategist"
+     "path": "skills/paul-james-ai-automation/references/prompts/pricing-psychology-system.md",
+     "title": "Pricing Psychology System"
     },
     {
-     "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts/taste-development-accelerator.md",
-     "title": "The Taste Development Accelerator"
+     "path": "skills/paul-james-ai-automation/references/prompts/scaling-system.md",
+     "title": "1x to 1000x Scaling System"
     },
     {
-     "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts/taste-economy-architect.md",
-     "title": "The Taste Economy Architect"
+     "path": "skills/paul-james-ai-automation/references/prompts/service-packager.md",
+     "title": "Service Packager"
     },
     {
-     "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts/taste-performance-multiplier.md",
-     "title": "The Taste Performance Multiplier"
+     "path": "skills/paul-james-ai-automation/references/prompts/service-stack-designer.md",
+     "title": "Service Stack Designer"
     },
     {
-     "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts/taste-value-optimizer.md",
-     "title": "The Taste Value Optimizer"
+     "path": "skills/paul-james-ai-automation/references/prompts/wake-up-number-generator.md",
+     "title": "Wake-Up Number Generator"
     },
     {
-     "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts/transcendence-navigator.md",
-     "title": "The Transcendence Navigator"
+     "path": "skills/paul-james-ai-automation/references/prompts/white-label-architect.md",
+     "title": "White-Label Solution Architect"
     },
     {
-     "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts/value-flow-orchestrator.md",
-     "title": "The Value Flow Orchestrator"
+     "path": "skills/paul-james-ai-automation/references/prompts/workflow-blueprint-generator.md",
+     "title": "Workflow Blueprint Generator"
     }
    ]
   },
   {
-   "skill": "michael-bernoff-identity-engineering",
+   "skill": "pj-accetturo-ai-video",
    "prompts": [
     {
-     "path": "skills/michael-bernoff-identity-engineering/references/prompts/authentic-presence.md",
-     "title": "Authentic Presence Builder"
+     "path": "skills/pj-accetturo-ai-video/references/prompts/prompt_01_script_generator.md",
+     "title": "PJ ACCETTURO - AI VIDEO AD SCRIPT GENERATOR"
     },
     {
-     "path": "skills/michael-bernoff-identity-engineering/references/prompts/biochemical-influence.md",
-     "title": "Biochemical Influence Protocol"
+     "path": "skills/pj-accetturo-ai-video/references/prompts/prompt_02_storyboard_creator.md",
+     "title": "PJ ACCETTURO - FIGMA STORYBOARD CREATOR"
     },
     {
-     "path": "skills/michael-bernoff-identity-engineering/references/prompts/category-of-one.md",
-     "title": "Category-of-One Positioning"
+     "path": "skills/pj-accetturo-ai-video/references/prompts/prompt_03_reference_translator.md",
+     "title": "PJ ACCETTURO - VISUAL REFERENCE TO PROMPT TRANSLATOR"
     },
     {
-     "path": "skills/michael-bernoff-identity-engineering/references/prompts/certainty-implanting.md",
-     "title": "Certainty Implanting System"
+     "path": "skills/pj-accetturo-ai-video/references/prompts/prompt_04_video_generation.md",
+     "title": "PJ ACCETTURO - VIDEO GENERATION MASTER"
     },
     {
-     "path": "skills/michael-bernoff-identity-engineering/references/prompts/conversation-control.md",
-     "title": "Conversation Control System"
+     "path": "skills/pj-accetturo-ai-video/references/prompts/prompt_06_production_orchestration.md",
+     "title": "PJ ACCETTURO - PRODUCTION TEAM ORCHESTRATION"
     },
     {
-     "path": "skills/michael-bernoff-identity-engineering/references/prompts/data-driven-buyer.md",
-     "title": "Data-Driven Buyer Protocol"
+     "path": "skills/pj-accetturo-ai-video/references/prompts/prompt_07_advanced_techniques.md",
+     "title": "PJ ACCETTURO - ADVANCED PRODUCTION TECHNIQUES"
     },
     {
-     "path": "skills/michael-bernoff-identity-engineering/references/prompts/dominant-personality.md",
-     "title": "Dominant Personality Handler"
+     "path": "skills/pj-accetturo-ai-video/references/prompts/prompt_08_social_first.md",
+     "title": "PJ ACCETTURO - SOCIAL-FIRST SHORT-FORM VIDEO CREATOR"
     },
     {
-     "path": "skills/michael-bernoff-identity-engineering/references/prompts/inner-hero.md",
-     "title": "Inner Hero Transformation Protocol"
+     "path": "skills/pj-accetturo-ai-video/references/prompts/prompt_09_product_demo.md",
+     "title": "PJ ACCETTURO - PRODUCT DEMO & EXPLAINER VIDEO SYSTEM"
     },
     {
-     "path": "skills/michael-bernoff-identity-engineering/references/prompts/normalization-language.md",
-     "title": "Normalization Language Protocol"
+     "path": "skills/pj-accetturo-ai-video/references/prompts/prompt_10_viral_mechanics.md",
+     "title": "PJ ACCETTURO - VIRAL MECHANICS & SHAREABILITY ENGINE"
     },
     {
-     "path": "skills/michael-bernoff-identity-engineering/references/prompts/objection-prevention.md",
-     "title": "Objection Prevention System"
+     "path": "skills/pj-accetturo-ai-video/references/prompts/prompt_11_post_production.md",
+     "title": "PJ ACCETTURO - EDITING & POST-PRODUCTION MASTER"
     },
     {
-     "path": "skills/michael-bernoff-identity-engineering/references/prompts/reset-frame.md",
-     "title": "Reset Frame Opening"
+     "path": "skills/pj-accetturo-ai-video/references/prompts/prompt_12_spec_ad_factory.md",
+     "title": "PJ ACCETTURO - RAPID SPEC AD FACTORY"
     },
     {
-     "path": "skills/michael-bernoff-identity-engineering/references/prompts/strategic-rejection.md",
-     "title": "Strategic Rejection Protocol"
-    },
-    {
-     "path": "skills/michael-bernoff-identity-engineering/references/prompts/wrong-question.md",
-     "title": "Wrong Question Pattern Interrupt"
+     "path": "skills/pj-accetturo-ai-video/references/prompts/prompt_13_broll_library.md",
+     "title": "PJ ACCETTURO - CINEMATIC B-ROLL LIBRARY GENERATOR"
     }
    ]
   },
   {
-   "skill": "nate-b-jones-trust-architecture",
+   "skill": "omar-eddaoudi",
    "prompts": [
     {
-     "path": "skills/nate-b-jones-trust-architecture/references/prompts/01_zero_trust_workflow_auditor.md",
-     "title": "The Zero-Trust Workflow Auditor"
+     "path": "skills/omar-eddaoudi/references/prompts/contextual-priming-query-builder.md",
+     "title": "Omar Eddaoudi \u2014 Contextual Priming Query Builder"
     },
     {
-     "path": "skills/nate-b-jones-trust-architecture/references/prompts/02_cognitive_load_eliminator.md",
-     "title": "The Cognitive Load Eliminator (Hallucination Quarantine)"
+     "path": "skills/omar-eddaoudi/references/prompts/demonizing-options-red-flags.md",
+     "title": "Omar Eddaoudi \u2014 Demonizing Options & Red Flags"
     },
     {
-     "path": "skills/nate-b-jones-trust-architecture/references/prompts/03_insider_threat_permissions_mapper.md",
-     "title": "The Insider Threat Permissions Mapper"
+     "path": "skills/omar-eddaoudi/references/prompts/gravedigger-detail-generator.md",
+     "title": "Omar Eddaoudi \u2014 Gravedigger Detail Generator"
     },
     {
-     "path": "skills/nate-b-jones-trust-architecture/references/prompts/04_sycophancy_deflector.md",
-     "title": "The Sycophancy Deflector (Reality Anchoring)"
+     "path": "skills/omar-eddaoudi/references/prompts/leo-retrieval-optimizer.md",
+     "title": "Omar Eddaoudi \u2014 Leo Retrieval Optimizer"
     },
     {
-     "path": "skills/nate-b-jones-trust-architecture/references/prompts/05_time_purpose_boundary_setter.md",
-     "title": "The Time & Purpose Boundary Setter"
+     "path": "skills/omar-eddaoudi/references/prompts/mirror-bridge-identity-story.md",
+     "title": "Omar Eddaoudi \u2014 Mirror Bridge Identity Story"
     },
     {
-     "path": "skills/nate-b-jones-trust-architecture/references/prompts/06_autonomous_sabotage_red_team.md",
-     "title": "The Autonomous Sabotage Red-Team"
+     "path": "skills/omar-eddaoudi/references/prompts/narrative-hegemony-manifesto.md",
+     "title": "Omar Eddaoudi \u2014 Narrative Hegemony Manifesto"
     },
     {
-     "path": "skills/nate-b-jones-trust-architecture/references/prompts/07_skin_in_the_game_synthesizer.md",
-     "title": "The \"Skin in the Game\" Synthesizer"
+     "path": "skills/omar-eddaoudi/references/prompts/objection-first-ad-creative.md",
+     "title": "Omar Eddaoudi \u2014 Objection-First Ad Creative"
     },
     {
-     "path": "skills/nate-b-jones-trust-architecture/references/prompts/08_deepfake_safe_word_generator.md",
-     "title": "The Deepfake Safe Word Generator"
+     "path": "skills/omar-eddaoudi/references/prompts/perception-hegemony-roadmap.md",
+     "title": "Omar Eddaoudi \u2014 Perception Hegemony Roadmap"
     },
     {
-     "path": "skills/nate-b-jones-trust-architecture/references/prompts/09_decision_grade_intelligence_validator.md",
-     "title": "The Decision-Grade Intelligence Validator"
+     "path": "skills/omar-eddaoudi/references/prompts/sentiment-signal-auditor.md",
+     "title": "Omar Eddaoudi \u2014 Sentiment Signal Auditor"
     },
     {
-     "path": "skills/nate-b-jones-trust-architecture/references/prompts/10_fractal_failure_diagnostic.md",
-     "title": "The Fractal Failure Diagnostic"
-    },
-    {
-     "path": "skills/nate-b-jones-trust-architecture/references/prompts/11_zero_trust_handoff_protocol.md",
-     "title": "The Zero-Trust Handoff Protocol"
-    },
-    {
-     "path": "skills/nate-b-jones-trust-architecture/references/prompts/12_bridge_that_holds_agent_flow.md",
-     "title": "The \"Bridge that Holds\" Agent Flow"
+     "path": "skills/omar-eddaoudi/references/prompts/zero-friction-removal-game.md",
+     "title": "Omar Eddaoudi \u2014 Zero Friction Removal Game"
     }
    ]
   },
   {
-   "skill": "maria-wendt-digital-products",
+   "skill": "oren-taste-development",
    "prompts": [
     {
-     "path": "skills/maria-wendt-digital-products/references/prompts/crown_jewel_08_product_flop_diagnostic.md",
-     "title": "MARIA WENDT - PRODUCT FLOP DIAGNOSTIC & RESCUE"
+     "path": "skills/oren-taste-development/references/prompts/anti-trend-quality.md",
+     "title": "Oren - Anti-Trend Quality Detection"
     },
     {
-     "path": "skills/maria-wendt-digital-products/references/prompts/crown_jewel_09_market_demand_validator.md",
-     "title": "MARIA WENDT - MARKET DEMAND VALIDATOR"
+     "path": "skills/oren-taste-development/references/prompts/business-taste-audit.md",
+     "title": "Oren - Business Taste Audit System"
     },
     {
-     "path": "skills/maria-wendt-digital-products/references/prompts/crown_jewel_10_roi_angle_excavator.md",
-     "title": "MARIA WENDT - ROI ANGLE EXCAVATOR"
+     "path": "skills/oren-taste-development/references/prompts/cev-critique-matrix.md",
+     "title": "Oren - CEV Critique Matrix Execution"
     },
     {
-     "path": "skills/maria-wendt-digital-products/references/prompts/crown_jewel_11_checkout_friction_eliminator.md",
-     "title": "MARIA WENDT - CHECKOUT FRICTION ELIMINATOR"
+     "path": "skills/oren-taste-development/references/prompts/cross-domain-transfer.md",
+     "title": "Oren - Cross-Domain Taste Transfer Protocol"
     },
     {
-     "path": "skills/maria-wendt-digital-products/references/prompts/crown_jewel_12_expertise_excavation_engine.md",
-     "title": "MARIA WENDT - EXPERTISE EXCAVATION ENGINE"
+     "path": "skills/oren-taste-development/references/prompts/purchase-research-protocol.md",
+     "title": "Oren - Purchase Research Protocol"
     },
     {
-     "path": "skills/maria-wendt-digital-products/references/prompts/crown_jewel_14_ltv_maximization_strategist.md",
-     "title": "MARIA WENDT - LTV MAXIMIZATION STRATEGIST"
+     "path": "skills/oren-taste-development/references/prompts/taste-curriculum-builder.md",
+     "title": "Oren - Taste Development Curriculum Builder"
     },
     {
-     "path": "skills/maria-wendt-digital-products/references/prompts/crown_jewel_15_business_simplification_audit.md",
-     "title": "MARIA WENDT - BUSINESS SIMPLIFICATION AUDIT"
+     "path": "skills/oren-taste-development/references/prompts/taste-gap-diagnosis.md",
+     "title": "Oren - Taste Gap Diagnosis & Action Plan"
     },
     {
-     "path": "skills/maria-wendt-digital-products/references/prompts/crown_jewel_16_instagram_buyer_psychology.md",
-     "title": "MARIA WENDT - INSTAGRAM BUYER PSYCHOLOGY OPTIMIZER"
+     "path": "skills/oren-taste-development/references/prompts/taste-led-client-curation.md",
+     "title": "Oren - Taste-Led Client Curation Engine"
+    },
+    {
+     "path": "skills/oren-taste-development/references/prompts/taste-manifesto-builder.md",
+     "title": "Oren - Personal Taste Manifesto Builder"
+    },
+    {
+     "path": "skills/oren-taste-development/references/prompts/thrift-test-designer.md",
+     "title": "Oren - The Thrift Test Designer"
     }
    ]
   },
   {
-   "skill": "mike-foutia-marketing-tools",
+   "skill": "oren-luxury-psychology",
    "prompts": [
     {
-     "path": "skills/mike-foutia-marketing-tools/references/prompts/automation-boundary-auditor.md",
-     "title": "Mike Foutia \u2014 Automation Boundary Auditor"
+     "path": "skills/oren-luxury-psychology/references/prompts/aesthetic-world-builder.md",
+     "title": "Aesthetic World Builder"
     },
     {
-     "path": "skills/mike-foutia-marketing-tools/references/prompts/comment-intelligence-miner.md",
-     "title": "Mike Foutia \u2014 Comment Intelligence Miner"
+     "path": "skills/oren-luxury-psychology/references/prompts/code-deployment-rewrite.md",
+     "title": "Code Deployment Rewrite"
     },
     {
-     "path": "skills/mike-foutia-marketing-tools/references/prompts/community-pulse-miner.md",
-     "title": "Mike Foutia \u2014 Community Pulse Miner"
+     "path": "skills/oren-luxury-psychology/references/prompts/connoisseurship-ladder.md",
+     "title": "Connoisseurship Ladder"
     },
     {
-     "path": "skills/mike-foutia-marketing-tools/references/prompts/creative-brief-generator.md",
-     "title": "Mike Foutia \u2014 Creative Brief Generator"
+     "path": "skills/oren-luxury-psychology/references/prompts/insider-code-audit.md",
+     "title": "Insider Code Audit"
     },
     {
-     "path": "skills/mike-foutia-marketing-tools/references/prompts/marketing-tool-architect.md",
-     "title": "Mike Foutia \u2014 Marketing Tool Architect"
+     "path": "skills/oren-luxury-psychology/references/prompts/luxury-trigger-activator.md",
+     "title": "Luxury Trigger Activator"
     },
     {
-     "path": "skills/mike-foutia-marketing-tools/references/prompts/tiktok-trend-scraper.md",
-     "title": "Mike Foutia \u2014 TikTok Trend Scraper & Analyzer"
+     "path": "skills/oren-luxury-psychology/references/prompts/marketing-revenue-separator.md",
+     "title": "Marketing-Revenue Separator"
     },
     {
-     "path": "skills/mike-foutia-marketing-tools/references/prompts/universal-trend-intelligence.md",
-     "title": "Mike Foutia \u2014 Universal Trend Intelligence"
+     "path": "skills/oren-luxury-psychology/references/prompts/modern-concierge-positioning.md",
+     "title": "Modern Concierge Positioning"
     },
     {
-     "path": "skills/mike-foutia-marketing-tools/references/prompts/zeitgeist-synthesizer.md",
-     "title": "Mike Foutia \u2014 Zeitgeist Synthesizer"
+     "path": "skills/oren-luxury-psychology/references/prompts/new-luxury-flip.md",
+     "title": "New Luxury Flip"
+    },
+    {
+     "path": "skills/oren-luxury-psychology/references/prompts/outsider-signal-detector.md",
+     "title": "Outsider Signal Detector"
     }
    ]
   },
   {
-   "skill": "mark-kashef-ai-councils",
+   "skill": "oren-repositioning",
    "prompts": [
     {
-     "path": "skills/mark-kashef-ai-councils/references/prompts/prompt_1_plugin_architecture_designer.md",
-     "title": "MARK KASHEF \u2014 PLUGIN ARCHITECTURE DESIGNER"
+     "path": "skills/oren-repositioning/references/prompts/category-code-mapper.md",
+     "title": "Oren \u2014 Category Code Mapper"
     },
     {
-     "path": "skills/mark-kashef-ai-councils/references/prompts/prompt_2_domain_to_plugin_mapper.md",
-     "title": "MARK KASHEF \u2014 DOMAIN-TO-PLUGIN MAPPER"
+     "path": "skills/oren-repositioning/references/prompts/counterposition-designer.md",
+     "title": "Oren \u2014 Counterposition Designer"
     },
     {
-     "path": "skills/mark-kashef-ai-councils/references/prompts/prompt_3_workflow_to_command_translator.md",
-     "title": "MARK KASHEF \u2014 WORKFLOW-TO-COMMAND TRANSLATOR"
+     "path": "skills/oren-repositioning/references/prompts/creative-relationship-architect.md",
+     "title": "Oren \u2014 Creative Relationship Architect"
     },
     {
-     "path": "skills/mark-kashef-ai-councils/references/prompts/prompt_4_skill_file_generator.md",
-     "title": "MARK KASHEF \u2014 SKILL FILE GENERATOR"
+     "path": "skills/oren-repositioning/references/prompts/cultural-authenticity-amplifier.md",
+     "title": "Oren \u2014 Cultural Authenticity Amplifier"
     },
     {
-     "path": "skills/mark-kashef-ai-councils/references/prompts/prompt_5_plugin_ecosystem_auditor.md",
-     "title": "MARK KASHEF \u2014 PLUGIN ECOSYSTEM AUDITOR"
+     "path": "skills/oren-repositioning/references/prompts/personality-breakdown-generator.md",
+     "title": "Personality Breakdown Generator"
     },
     {
-     "path": "skills/mark-kashef-ai-councils/references/prompts/prompt_6_meta_plugin_builder.md",
-     "title": "MARK KASHEF \u2014 META-PLUGIN BUILDER"
+     "path": "skills/oren-repositioning/references/prompts/repositioning-brief-builder.md",
+     "title": "Repositioning Brief Builder"
     },
     {
-     "path": "skills/mark-kashef-ai-councils/references/prompts/prompt_7_plugin_connector_architect.md",
-     "title": "MARK KASHEF \u2014 PLUGIN CONNECTOR ARCHITECT"
+     "path": "skills/oren-repositioning/references/prompts/vision-extension-planner.md",
+     "title": "Oren \u2014 Vision Extension Planner"
     }
    ]
   },
   {
-   "skill": "nate-b-jones-agent-deployment-strategy",
+   "skill": "rachel-woods-ai-operations",
    "prompts": [
     {
-     "path": "skills/nate-b-jones-agent-deployment-strategy/references/prompts/agent-deployment-readiness-assessment.md",
-     "title": "Agent Deployment Readiness Assessment"
+     "path": "skills/rachel-woods-ai-operations/references/prompts/ai-edge-identifier.md",
+     "title": "Rachel Woods \u2014 AI Edge Identifier"
     },
     {
-     "path": "skills/nate-b-jones-agent-deployment-strategy/references/prompts/agent-ecosystem-intelligence-briefing.md",
-     "title": "Agent Ecosystem Intelligence Briefing"
+     "path": "skills/rachel-woods-ai-operations/references/prompts/ai-operator-role-designer.md",
+     "title": "Rachel Woods \u2014 AI Operator Role Designer"
     },
     {
-     "path": "skills/nate-b-jones-agent-deployment-strategy/references/prompts/agent-risk-containment-blueprint.md",
-     "title": "Agent Risk Containment Blueprint"
+     "path": "skills/rachel-woods-ai-operations/references/prompts/craft-cycle-blueprint.md",
+     "title": "Rachel Woods \u2014 CRAFT Cycle Blueprint"
     },
     {
-     "path": "skills/nate-b-jones-agent-deployment-strategy/references/prompts/human-agent-collaboration-architecture.md",
-     "title": "Human-Agent Collaboration Architecture Designer"
+     "path": "skills/rachel-woods-ai-operations/references/prompts/master-spec-generator.md",
+     "title": "Rachel Woods \u2014 MASTER Spec Generator"
     },
     {
-     "path": "skills/nate-b-jones-agent-deployment-strategy/references/prompts/revealed-preference-demand-analyzer.md",
-     "title": "Revealed Preference Demand Analyzer"
+     "path": "skills/rachel-woods-ai-operations/references/prompts/process-decomposition-audit.md",
+     "title": "Rachel Woods \u2014 Process Decomposition Audit"
     },
     {
-     "path": "skills/nate-b-jones-agent-deployment-strategy/references/prompts/specification-engineering.md",
-     "title": "Specification Engineering for Autonomous Agents"
+     "path": "skills/rachel-woods-ai-operations/references/prompts/thirty-percent-trap-diagnostic.md",
+     "title": "Rachel Woods \u2014 30% Trap Diagnostic"
+    },
+    {
+     "path": "skills/rachel-woods-ai-operations/references/prompts/unlimited-time-reframe.md",
+     "title": "Rachel Woods \u2014 Unlimited Time Reframe"
     }
    ]
   },
   {
-   "skill": "nate-b-jones-intent-engineering",
+   "skill": "oren-operational-systems",
    "prompts": [
     {
-     "path": "skills/nate-b-jones-intent-engineering/references/prompts/agent-reliability-architect.md",
-     "title": "Agent Reliability Architect"
+     "path": "skills/oren-operational-systems/references/prompts/ideas-to-calendar-pipeline.md",
+     "title": "Oren \u2014 Ideas-to-Calendar Pipeline"
     },
     {
-     "path": "skills/nate-b-jones-intent-engineering/references/prompts/context-transfer-protocol.md",
-     "title": "Context Transfer Protocol"
+     "path": "skills/oren-operational-systems/references/prompts/process-doc-creator.md",
+     "title": "Oren \u2014 Process Doc Creator"
     },
     {
-     "path": "skills/nate-b-jones-intent-engineering/references/prompts/disambiguation-protocol.md",
-     "title": "Disambiguation Protocol"
+     "path": "skills/oren-operational-systems/references/prompts/reference-repository-builder.md",
+     "title": "Oren \u2014 Reference Repository Builder"
     },
     {
-     "path": "skills/nate-b-jones-intent-engineering/references/prompts/intent-document-generator.md",
-     "title": "Intent Document Generator"
+     "path": "skills/oren-operational-systems/references/prompts/signature-series-designer.md",
+     "title": "Oren \u2014 Signature Series Designer"
     },
     {
-     "path": "skills/nate-b-jones-intent-engineering/references/prompts/intent-gap-analyzer.md",
-     "title": "Intent Gap Analyzer"
+     "path": "skills/oren-operational-systems/references/prompts/team-tracker-architect.md",
+     "title": "Oren \u2014 Team Tracker Architect"
     },
     {
-     "path": "skills/nate-b-jones-intent-engineering/references/prompts/prompt-surgery-protocol.md",
-     "title": "Prompt Surgery Protocol"
-    }
-   ]
-  },
-  {
-   "skill": "mark-kashef-agent-orchestration",
-   "prompts": [
-    {
-     "path": "skills/mark-kashef-agent-orchestration/references/prompts/human-tollbooth-developer.md",
-     "title": "Mark Kashef \u2014 Human Tollbooth Developer"
-    },
-    {
-     "path": "skills/mark-kashef-agent-orchestration/references/prompts/hybrid-architect.md",
-     "title": "Mark Kashef \u2014 Hybrid Architect Pipeline"
-    },
-    {
-     "path": "skills/mark-kashef-agent-orchestration/references/prompts/parallel-synthesis-advisor.md",
-     "title": "Mark Kashef \u2014 Parallel Synthesis Advisor"
-    },
-    {
-     "path": "skills/mark-kashef-agent-orchestration/references/prompts/sequential-assembly-orchestrator.md",
-     "title": "Mark Kashef \u2014 Sequential Assembly Orchestrator"
-    }
-   ]
-  },
-  {
-   "skill": "mark-kashef-banana-squad",
-   "prompts": [
-    {
-     "path": "skills/mark-kashef-banana-squad/references/prompts/banana-squad-spawn.md",
-     "title": "Banana Squad Spawn"
-    },
-    {
-     "path": "skills/mark-kashef-banana-squad/references/prompts/critique-loop-optimizer.md",
-     "title": "Critique Loop Optimizer"
-    },
-    {
-     "path": "skills/mark-kashef-banana-squad/references/prompts/reference-reverse-engineer.md",
-     "title": "Reference Reverse Engineer"
-    },
-    {
-     "path": "skills/mark-kashef-banana-squad/references/prompts/visual-capitalist-infographic.md",
-     "title": "Visual Capitalist Infographic Generator"
-    }
-   ]
-  },
-  {
-   "skill": "mark-kashef-claude-claw",
-   "prompts": [
-    {
-     "path": "skills/mark-kashef-claude-claw/references/prompts/bridge-architect.md",
-     "title": "Mark Kashef \u2014 Agent SDK Bridge Architect"
-    },
-    {
-     "path": "skills/mark-kashef-claude-claw/references/prompts/memory-system-designer.md",
-     "title": "Mark Kashef \u2014 3-Layer Memory System Designer"
-    },
-    {
-     "path": "skills/mark-kashef-claude-claw/references/prompts/wizard-builder.md",
-     "title": "Mark Kashef \u2014 Self-Building System Prompt Creator"
-    }
-   ]
-  },
-  {
-   "skill": "nate-herk-client-acquisition",
-   "prompts": [
-    {
-     "path": "skills/nate-herk-client-acquisition/references/prompts/constraint-discovery-protocol.md",
-     "title": "Nate Herk \u2014 Constraint Discovery Protocol"
-    },
-    {
-     "path": "skills/nate-herk-client-acquisition/references/prompts/trojan-horse-pitch-generator.md",
-     "title": "Nate Herk \u2014 Trojan Horse Pitch Generator"
-    },
-    {
-     "path": "skills/nate-herk-client-acquisition/references/prompts/validation-first-outreach-matrix.md",
-     "title": "Nate Herk \u2014 Validation-First Outreach Matrix"
+     "path": "skills/oren-operational-systems/references/prompts/weekly-update-generator.md",
+     "title": "Oren \u2014 Weekly Update Generator"
     }
    ]
   }
