@@ -10,6 +10,7 @@ Read before executing:
 1. `skills/ben-watkins-storytelling/genius.md` (voice + Decision Framework + Anti-Patterns — Principles 5, 6, 7, 8)
 2. `skills/ben-watkins-storytelling/references/source-quotes.md` (§ The Pitch Room — the verbatim anchors you're building against)
 3. `skills/ben-watkins-storytelling/references/four-pillars.md` (§ 0 North Star + § Pillar 1 for the open)
+4. `skills/ben-watkins-storytelling/references/flow-and-cadence.md` (the connective-tissue layer — the pitch is spoken prose; the CS-02 failure lives between sentences)
 
 > **🔒 Pre-Flight Gate**: run the **Decision Framework** in `genius.md § Decision Framework` before executing — especially Q1 (what am I *promising*), Q2 (the one emotion), and Q7 (where the person in the room is in *their* story). If you can't name the purpose to infect them with, you have a feature list, not a pitch — stop and lock the north star first (stack `/bw-story-anatomy`).
 
@@ -65,7 +66,7 @@ Build the body as **modular sections you can cut mid-flight**, each carrying the
 | The general-meeting bet | I fly 3,000 miles in winter for a meeting with no role in it | She stops — "you flew all the way to New York for a *general*?" | The result the bet bought |
 | The result the bet bought | That commitment made her invent a scene on the spot; I left with an agent | They lean in / ask "then what happened?" | The ask (what I'm here to build now) |
 
-Fill this table for your pitch — the row above is Watkins's own general-meeting story worked as an example. Each section is a leave-them-wanting unit: land the feeling, sense the buy-in, cut before you talk past it.
+Fill this table for your pitch — the row above is Watkins's own general-meeting story worked as an example. Each section is a leave-them-wanting unit: land the feeling, sense the buy-in, cut before you talk past it. Cuts remove details, never the connective tissue between surviving sentences — re-read aloud after each cut pass.
 
 ### Step 6: Prep riffs to manufacture ownership
 Decide in advance how you'll handle ideas the room offers — because that's your ownership machine. *"When they offer an idea, you riff on that. You don't even have to incorporate that idea. Just riffing on that makes them feel like they're part of the process... Now, they're going to fight tooth and nail to make sure that thing works."* Pre-write two or three riff-launch lines ("Ooh — and if we took that further...") so that when an exec floats anything, you extend it out loud, honor it, and let them feel co-authorship. Riff, don't adopt (dilution) or dismiss (alienation). The felt ownership converts an evaluator into an ally who defends your project internally when you're not in the room.
@@ -128,6 +129,9 @@ CLOSING QUESTION:   So the question isn't whether the idea is good — it's who 
 - **The overlap is genuine and planted, not opened on.** No manufactured connection; no flattery handshake. If there's no real overlap, there's none — don't fake it.
 - **It closes on a question, not a summary.** The last beat hands them the pen and opens a loop, and everything before it promised the payoff. Predict what they say when they call someone — if you can't, the loop isn't live.
 - **The machinery is invisible.** Nowhere in the delivered script does it say "here's the surprise hook" or "buy-in signal." The room only feels pulled. Labels showing = rewrite.
+- **The script survives read-aloud.** A pitch is spoken prose — read it out loud, cold, at room pace; every stumble, stall, or backtrack is a rewrite signal (`flow-and-cadence.md § The Flow Gate`). Full oral craft: `/bw-spoken-story`.
+- **Every sentence hands off.** Openings pick up what the room already holds; no subject swap without a bridge; every pronoun binds instantly.
+- **Compression kept causality.** Truncation passes preserved the but/so/which-is-why chain — cut adjectives and credentials, never connectors.
 
 ## Common Pitfalls
 - **Opening on the logic slide.** Leading with market size, price, or margins because they feel "professional." Recovery: move every fact to *after* the emotional buy-in; open on surprise or proof-of-belief (Step 4). Facts confirm a decision emotion already made.

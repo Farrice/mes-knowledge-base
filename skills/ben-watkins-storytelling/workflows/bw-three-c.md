@@ -10,6 +10,7 @@ Read before executing:
 1. `skills/ben-watkins-storytelling/genius.md` (voice + Decision Framework + Anti-Patterns — especially "Three C's in sequence, not in sync")
 2. `skills/ben-watkins-storytelling/references/four-pillars.md` (§ Pillar 2 — the Titanic anchor, the simultaneity rule, attention-emotion vs. sustained feeling)
 3. `skills/ben-watkins-storytelling/references/source-quotes.md` (§ Pillar 2 — hold the draft against the verbatim lines)
+4. `skills/ben-watkins-storytelling/references/flow-and-cadence.md` (§ 4 — the connective-tissue layer the rebuilt beat's prose must survive)
 
 > 🔒 **Pre-Flight Gate**: run the **Decision Framework** in `genius.md § Decision Framework` before executing — you must be able to answer Q2 (*what's the one emotion, and what story causes it?*) and Q4 (*are the 3 C's firing together, or just a fact?*). If the piece has no character anyone cares about at all, stop and run `/bw-character-canvas` first — you can't stack a C you don't have. For the underlying want/need/nemesis, stack `eric-roth-screenwriting-mastery`.
 
@@ -112,6 +113,7 @@ Subtraction check: what got cut so the three could coincide cleanly: __________
 - **The machinery is invisible.** The AFTER prose never labels "here's the content, here's the stakes." The audience feels the beat; they never see the three buckets. Any on-page labeling breaks the spell — rewrite.
 - **It's a feeling, not a fact.** Hold the line against `source-quotes.md`: if the beat "states a fact" and hopes, it fails. Name the specific emotion it now causes.
 - **Subtraction held.** The rebuild is tighter than the original, not padded with a third scene. Coincidence, not accumulation.
+- **Flow Gate** (references/flow-and-cadence.md § 4): contour varies, every sentence hands off (known-new), loops engineered not asserted, survives read-aloud, compression kept causality — one fail = revise.
 
 ## Common Pitfalls
 - **Sequencing the C's and calling it done.** Building a lovely character beat and a big stakes beat back to back — three moments in a row, none coincident. Recovery: pick the single peak and collapse all three onto that one instant; the feeling lives in the overlap, never in the sequence.

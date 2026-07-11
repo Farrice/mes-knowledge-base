@@ -10,6 +10,7 @@ Read before executing:
 1. `skills/ben-watkins-storytelling/genius.md` (voice + Decision Framework + Anti-Patterns)
 2. `skills/ben-watkins-storytelling/references/business-translation-map.md` (§ (b) The Log Line — Blake Snyder; the customer=hero / you=bridge inversion, kept attributed)
 3. `skills/ben-watkins-storytelling/references/source-quotes.md` (§ The Art of Subtraction; § People Buy on Emotion)
+4. `skills/ben-watkins-storytelling/references/flow-and-cadence.md` (§ 4 — the line and its 30-second cut must survive read-aloud)
 
 > 🔒 **Pre-Flight Gate**: run the **Decision Framework** in `genius.md § Decision Framework` before executing — you need question 1 (the north star: say / why / who / promise) and question 2 (the one emotion) answered before a log line can compress anything. If the north star is fuzzy, run `/bw-north-star` first and come back. If the offer has no real transformation under it at all, `stanton-premise-sentence` digs the true premise before you try to shrink it to a line.
 
@@ -129,6 +130,7 @@ THE LOG LINE (leads on the pain):
 - **The 30-second cut actually cut something** — at least one beat withheld or killed. *"We're not going to overexplain."* If nothing got left out, you didn't subtract, you summarized.
 - **The retell test passed with a real person** — someone repeated it back clean after hearing it once. A log line that can't be retold isn't finished, no matter how good it reads.
 - **The machinery stays invisible** — the output never labels "here's the hero, here's the obstacle." The log line just sounds like a sentence a person would say.
+- **Flow Gate** (references/flow-and-cadence.md § 4): contour varies, every sentence hands off (known-new), loops engineered not asserted, survives read-aloud, compression kept causality — one fail = revise.
 
 ## Common Pitfalls
 - **Making the brand the hero.** The log line brags about the offer instead of dramatizing the customer's want. Recovery: apply the inversion literally — *"you are the thing that helps them get there,"* not the one the story is about. Rewrite the Hero slot as the customer and demote yourself to the bridge.

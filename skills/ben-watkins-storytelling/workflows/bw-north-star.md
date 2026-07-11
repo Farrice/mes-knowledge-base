@@ -10,6 +10,7 @@ Read before executing:
 1. `skills/ben-watkins-storytelling/genius.md` (voice + Decision Framework + Anti-Patterns)
 2. `skills/ben-watkins-storytelling/references/four-pillars.md` (§ 0 — The North Star, the pre-condition)
 3. `skills/ben-watkins-storytelling/references/source-quotes.md` (§ The North Star / Principles of Messaging; § The Art of Subtraction)
+4. `skills/ben-watkins-storytelling/references/flow-and-cadence.md` (§ 4 — The Flow Gate)
 
 > 🔒 **Pre-Flight Gate**: run the **Decision Framework** in `genius.md § Decision Framework` before executing — you are here to answer question 1 ("What's the north star?") so cold that questions 2–7 have a fixed point to swing from. This is the pre-flight brief the whole roster filters through: `/bw-story-anatomy` builds the four pillars against it, `/bw-pitch-room` sells it, `donald-miller-storybrand` can frame the brand message around it (Miller's template, his lane, not Watkins's), and `stanton-premise-sentence` digs the true premise underneath it. Lock this first or everything downstream inherits a fuzzy center.
 
@@ -123,6 +124,7 @@ HAND OFF TO: /bw-story-anatomy · /bw-pitch-room · copy roster (filter through,
 - **The one-line promise actually filters** — the cut list removes at least one real thing, including something you were attached to. A north star that cuts nothing is a wish list.
 - **The machinery stays off the page** in whatever gets built downstream — this brief is the operator's private compass, never labeled "here's our promise" in the output itself.
 - **The idea is singular** — no "and." If two ideas survived, you locked two north stars; split them.
+- **Flow Gate** (references/flow-and-cadence.md § 4, applies to any prose the output carries): contour varies, sentences hand off (known-new), loops engineered not asserted, survives read-aloud — one fail = revise.
 
 ## Common Pitfalls
 - **Skipping the fourth question.** Say/why/who get answered, "what am I promising" gets a hand-wave, and the whole thing floats. Recovery: refuse to leave Step 2 until the promise is a full sentence naming the transformation — *if you can't name it, you don't have a story, you have material.*

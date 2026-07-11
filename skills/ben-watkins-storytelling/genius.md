@@ -236,3 +236,10 @@ The **four pillars, the 3 C's, subtraction, "call them by their name," infect-wi
 - **Positioning**: Commercial-storytelling / pitch-room layer. Distinct from Miller/StoryBrand (brand template), Stanton (uncovering + engagement craft), Puri (viral compression), Kallaway (content psychology), Luke Iha/copy roster (written DR), Margolis (org change). Whitespace spine = the live pitch room (infect-with-purpose, read-the-room, truncate-on-buy-in, riff-for-ownership) + the subtraction discipline + the four-pillar anatomy applied to selling and the feed.
 - **Grounding note**: The four pillars / 3 C's / subtraction / pitch psychology are Watkins's; the but-therefore / log-line / world-building / Save-the-Cat overlays are the show's applied synthesis (attributed to Parker/Stone, Snyder, Ralston respectively). Kept separate in the business-translation map.
 - **Hypotheses to test**: (1) Does the four-pillar hook forge lift Parallax/LinkedIn open rates over topic-first drafting? (2) Does truncate-on-buy-in + subtraction sharpen client pitches (Jen listings, brand work)? (3) Does the 3 C's Titanic stack rescue flat content faster than adding proof? Benchmark next cycle.
+
+### 2026-07-10 — Amplification (extract-amplify + flow layer)
+- **Trigger**: Farrice's felt-verdict calibration event — the DWA Threads set passed all gates but read jarring/jolty. Root cause: subtraction severing connective tissue + unengineered loops (logged as CS-02 in `references/case-studies.md`).
+- **The repair**: `references/flow-and-cadence.md` — roster mining + external research (Provost contour, Loewenstein information-gap, known-new contract, Sugarman greased slide) — with Flow Gates retrofitted into story-anatomy, hook-forge, subtraction, call-by-name, and pitch-room.
+- **New workflows (4)**: `/bw-anatomy-audit`, `/bw-elevate` (encodes the rewrites-always-open protocol, Farrice 2026-07-10), `/bw-spoken-story`, `/bw-dream-anatomy`.
+- **Also added**: USER-GUIDE.md + the case-study ledger.
+- **Standing hypothesis to test**: does the flow layer close the felt-verdict gap on short-form output? Benchmark = the DWA rewrite.

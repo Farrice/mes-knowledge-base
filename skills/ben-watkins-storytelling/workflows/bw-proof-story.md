@@ -12,6 +12,7 @@ Read before executing:
 2. `skills/ben-watkins-storytelling/references/business-translation-map.md` § (e) *Undeniable Proof — Greenlight Yourself / Remove the Imagination Gap* — the imagination-gap + greenlight-yourself framing is the **show's synthesis of Watkins's "be your first investor"**, not his named framework; keep that attribution clean
 3. `skills/ben-watkins-storytelling/references/four-pillars.md` (the 3 C's you'll build the proof-story on)
 4. `skills/ben-watkins-storytelling/references/source-quotes.md` (calibration anchors — the lines the draft must not violate)
+5. `skills/ben-watkins-storytelling/references/flow-and-cadence.md § 4` (the Flow Gate — how the seeable proof reads sentence to sentence)
 
 > **🔒 Pre-Flight Gate**: run the **Decision Framework** in `genius.md § Decision Framework` before executing. Confirm you can name the *one emotion* the proof should cause and the *one thing they can see* instead of imagine. If your "proof" is still a claim they'd have to picture, you have material, not a proof-story — go build or find the seeable thing first.
 
@@ -100,6 +101,7 @@ WITHHELD SEED: what the short cost him to finish (let them ask)
 - **It closes on emotion, the number confirms.** You can name the single emotion the proof-story causes; the metric verifies the decision the feeling already made. If it rests on the stat alone, rebuild — *"I don't want you to just see my resume. I want you to see me."*
 - **Subtraction happened.** One part of the win is withheld so they lean in and ask; nothing survives that's neither momentum nor seed. Total clarity on the win removes the reason to reach for you.
 - **The machinery is invisible.** No "here's the proof / here's the imagination gap" labels in the delivered story. The reader only feels the risk drain out of the yes.
+- **Flow Gate** (references/flow-and-cadence.md § 4): contour varies, every sentence hands off (known-new), loops engineered not asserted, survives read-aloud, compression kept causality — one fail = revise.
 
 ## Common Pitfalls
 - **Listing the proof instead of storying it.** Dumping the stat ("we did $200K, 10,000 users, 4.9 stars") and hoping the number closes. *Recovery*: run Step 2 — put one person's stakes in front of the metric and let it happen to them; *"people buy based on emotion, not logic."*

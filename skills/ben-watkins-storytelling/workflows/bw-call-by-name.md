@@ -10,6 +10,7 @@ Read before executing:
 1. `skills/ben-watkins-storytelling/genius.md` (voice + Decision Framework + Anti-Patterns)
 2. `skills/ben-watkins-storytelling/references/four-pillars.md` (Pillar 1 → Mechanism C — recognition, not personalization)
 3. `skills/ben-watkins-storytelling/references/source-quotes.md` (Pillar 1 anchors — the "Just Do It" line)
+4. `skills/ben-watkins-storytelling/references/flow-and-cadence.md` (connective-tissue layer + Flow Gate)
 
 > 🔒 Pre-Flight Gate: run the **Decision Framework** in `genius.md § Decision Framework` before executing — you must be able to answer *who is this for* and *where are they in their story* (want / need / nemesis / the moment they find you). Recognition is impossible for "everyone." If you can't name one person at one moment, stop and profile them first (stack `icp-deep-dive` or `mcraney-deep-canvass`).
 
@@ -53,8 +54,10 @@ Score every candidate against the mirror below. If a line doesn't earn a hard ye
 | **The interior** | Mirrors a thought/fear/dream — something inside | Pastes a name/label/job-title on the outside |
 | **The voice** | Sounds like *them* talking, not you selling | Marketing diction; words they'd never use |
 
+When cutting: cuts remove details, never the connective tissue between surviving sentences — re-read aloud after each cut pass.
+
 ### Step 4 — Land the value on the heels of recognition, and leave a loop open
-Recognition is Pillar 1 — attention. It's not the payoff; it's the pin that holds their focus so you can move. The instant they feel named, get to the value — the *here's-what-I'd-do-about-that* turn — but don't close it all the way. Watkins never lets the gap seal: *"I need to establish a question between myself and the audience that they have to get that answered,"* and *"everything I've done up to that point before I ask the question has to also be promising them that the way that gets answered, they're going to really appreciate."* So the recognition line earns the trust; the value line proves you can help; the open loop makes them stay. Sequence, never labeled: mirror → the turn to value → the withheld beat that pulls them forward.
+Recognition is Pillar 1 — attention. It's not the payoff; it's the pin that holds their focus so you can move. The instant they feel named, get to the value — the *here's-what-I'd-do-about-that* turn — but don't close it all the way. Watkins never lets the gap seal: *"I need to establish a question between myself and the audience that they have to get that answered,"* and *"everything I've done up to that point before I ask the question has to also be promising them that the way that gets answered, they're going to really appreciate."* So the recognition line earns the trust; the value line proves you can help; the open loop makes them stay. Sequence, never labeled: mirror → the turn to value → the withheld beat that pulls them forward. And thread the mirror in — the sentence after a recognition line must open on what the mirror just planted (known-new contract); an isolated mirror line is a jolt, not a pin.
 
 Assemble the survivors into a **recognition-line bank** — sorted by interior register, each tagged with the emotion it fires and the value-turn it hands off to — ready to drop into hooks, VSL opens, email subject lines, and ad first-frames. Hand the bank downstream: feed the strongest mirrors to `diandra-headline-engineer` to weaponize as headlines, to `copy-engine` to build the body around, or to `resonate` to pressure-test whether the recognition truly lands before it ships.
 
@@ -105,6 +108,9 @@ CUT (failed exclusion / specificity — logged so I don't rewrite them): _______
 - **Value arrives on the heels of recognition.** The mirror hands off to a value-turn fast; recognition alone with no payoff is a party trick that reads as manipulation.
 - **The loop stays open.** Something is withheld and promised worth-it, so the reader stays past the *that's-me* — the question, not the cliffhanger.
 - **Machinery invisible.** Nothing in the delivered copy announces "here's your recognition line." They feel named; they never see the mirror being held.
+- **Every line hands off.** Each sentence opens on something the reader already holds and ends on the new thing; recognition lines thread into what follows, never stand isolated.
+- **Loops engineered, not asserted.** Promise + withhold + stake, primed with real information first; a mere mention creates confusion, not curiosity.
+- **Survives read-aloud.** Read cold, out loud — zero stumbles or backtracks; no run of 3+ same-length sentences.
 
 ## Common Pitfalls
 - **The horoscope.** The line is true of anyone, so it's owned by no one — reads as generic marketing and the guard goes up. *Recovery*: go back to Step 1 and get the *exact* version — the coffee-balance line, not "worried about money." Specific to one beats resonant to all.

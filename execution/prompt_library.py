@@ -61,6 +61,7 @@ def _title_and_gist(path: Path) -> tuple[str, str]:
 def build() -> dict:
     entries = []
     pops = [
+        ("prompt-v2", ROOT / "skills", "*/references/prompts-v2/*.md"),  # structure-pure refactors — preferred
         ("skill-prompt", ROOT / "skills", "*/references/prompts/*.md"),
         ("legacy-prompt", ROOT / "skills", "*/references/_legacy-prompts/*.md"),
         ("extraction-prompt", ROOT / "extractions", "*/prompts/*.md"),

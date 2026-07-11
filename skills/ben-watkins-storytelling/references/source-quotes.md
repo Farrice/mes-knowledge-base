@@ -171,6 +171,18 @@ These are the **interviewer/host's** articulations applying Watkins's principles
 - **"anytime you see somebody hesitate, that's a gap. Step into it."** (on making himself indispensable in the *Burn Notice* room)
   → Deploy: the grinder ethos — hesitation in a room is an opening; volunteer before you're asked.
 
+- **"I screen tested for three big shows that year. Did not book any of them."**
+  → Deploy: the journey's mislead beat — momentum that reads as progress right before the fall; anchor for `/bw-dream-anatomy`.
+
+- **"there's an envelope from the American Black Film Festival. It says, 'I've been selected.'"** (the short film that won the festival — and its HBO Short Film Award — becoming the undeniable proof that revived his acting career)
+  → Deploy: the undeniable-proof beat — the self-funded work that made him impossible to ignore; anchor for `/bw-proof-story` and `/bw-dream-anatomy`.
+
+- **`[host]`** **"moving on to our next principle which is proximity. This is the intentional act of placing yourself in environments and around people who elevate your thinking."**
+  → Deploy: the show's proximity principle (host framing of Ben's LA move) — attribute to the show, not Watkins.
+
+- **`[host]`** **"Moving on to our next principle, which is to find your allies. Your allies are the people in your life who support you. They believe in you and stand by your side as you chase your dream."**
+  → Deploy: the show's allies principle (host framing of Candy's role) — attribute to the show, not Watkins.
+
 - **"I tell everyone, do the thing that scares you. You don't want to pull back."** (on developing *The Greatest*)
   → Deploy: the fear-as-compass rule — the thing you're avoiding is often the thing you must do.
 

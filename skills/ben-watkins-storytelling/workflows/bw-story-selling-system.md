@@ -12,6 +12,7 @@ Read before executing:
 2. `skills/ben-watkins-storytelling/references/business-translation-map.md` (the master table — one principle across brand / pitch / content, and the attributed overlays)
 3. `skills/ben-watkins-storytelling/references/roster-stacking.md` (§ 3 — cross-expert stack chains; so you compose the roster, not just the /bw workflows)
 4. `skills/ben-watkins-storytelling/references/source-quotes.md` (calibration anchors for every layer)
+5. `skills/ben-watkins-storytelling/references/flow-and-cadence.md § 4` (the Flow Gate — applies to every composed surface's finished prose)
 
 > 🔒 **Pre-Flight Gate**: run the **Decision Framework** in `genius.md § Decision Framework` before executing — you must be able to answer questions 1–3 (north star, the one emotion, the first-beat grip) for the *whole message*, not per-surface, because the point of the conductor is that the answers are the *same* on all three surfaces. This workflow never writes a surface itself. It hands each one to the specialist who owns it — `/bw-north-star`, `/bw-log-line`, `/bw-brand-world`, `/bw-pitch-room`, `/bw-hook-forge`, `/bw-story-anatomy` — and keeps them all telling one story. If you're producing only one surface, stop and call that single workflow directly. For a larger multi-deliverable mission wrap it in `supercomputer` or `jw-engine`; for a gate-suppressed end-to-end run, `autopilot`.
 
@@ -118,6 +119,7 @@ STACK ON (options, not pipeline): supercomputer · jw-engine · autopilot · ore
 - **The machinery stays invisible in every surface** — no asset labels "here's our brand-world" or "here's the surprise hook." The audience feels one coherent world; they never see the seams between brand, pitch, and content.
 - **Attribution is clean** — the two overlays this conductor actually composes stay credited: world-building to Caleb Ralston (inside `/bw-brand-world`), the log line to Blake Snyder (inside `/bw-log-line`); the four pillars, 3 C's, and subtraction stay Watkins's. If a downstream layer pulls in but-and-therefore, that's Trey Parker & Matt Stone — but this conductor never authors it. Don't let the conductor blur the line the references keep.
 - **One thing got cut in Step 5** — a real asset that was good but pulled toward a different emotion. A coherence check that spares everything didn't check anything.
+- **Flow Gate** (references/flow-and-cadence.md § 4): contour varies, every sentence hands off (known-new), loops engineered not asserted, survives read-aloud, compression kept causality — one fail = revise.
 
 ## Common Pitfalls
 - **Re-writing instead of composing.** The conductor starts producing hooks and pitch lines itself rather than calling `/bw-hook-forge` and `/bw-pitch-room`, and the specialists' gates never fire. Recovery: for each layer, invoke the named /bw workflow and pull its output; this file only locks the center and audits coherence.

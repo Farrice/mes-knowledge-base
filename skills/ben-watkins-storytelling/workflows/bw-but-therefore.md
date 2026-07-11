@@ -11,6 +11,7 @@ Read before executing:
 2. `skills/ben-watkins-storytelling/references/business-translation-map.md § (a) But-and-Therefore Escalation` (the overlay, the Parker/Stone attribution, the Costco "but", the closer/farther gate)
 3. `skills/ben-watkins-storytelling/references/four-pillars.md § Pillar 2` (circumstance = stakes; the "but" as the fastest install)
 4. `skills/ben-watkins-storytelling/references/source-quotes.md § The Art of Subtraction` (hold the closer/farther cut against Watkins's own two-bucket rule)
+5. `skills/ben-watkins-storytelling/references/flow-and-cadence.md § 4` (the Flow Gate — how the surviving but/therefore beats hand off sentence to sentence)
 
 > 🔒 **Pre-Flight Gate**: run the **Decision Framework** in `genius.md § Decision Framework` before executing — you must be able to answer Q1 (*what's the north star / the one goal this story drives at?*) and Q5 (*what am I leaving out?*). If there's no single goal the character is chasing, there's no spine for the *buts* to escalate against — stop and run `/bw-north-star` first. **Attribution is binding: but-and-therefore is Parker & Stone's rule, not Watkins's — never present it as his.**
 >
@@ -130,6 +131,7 @@ WHAT CHANGED: 3 and-thens converted to but/therefore; 1 explainer aside cut
 - **The machinery is invisible.** The output prose never labels "here's the but, here's the therefore." The reader feels the screw tighten; they never see the wrench. Any on-page scaffolding breaks the spell — rewrite.
 - **The stakes genuinely rise.** By the last beat, *"are they going to pull this off?"* is a live question. If the ending feels inevitable from the start, the *buts* aren't loading real doubt — sharpen the obstacles.
 - **Attribution is clean.** But-and-therefore is credited to Parker & Stone, never to Watkins.
+- **Flow Gate** (references/flow-and-cadence.md § 4): contour varies, every sentence hands off (known-new), loops engineered not asserted, survives read-aloud, compression kept causality — one fail = revise.
 
 ## Common Pitfalls
 - **Sanding off the setbacks into a smooth win.** Rewriting *buts* as easy pivots so the story reads triumphant and frictionless. Recovery: a story with no real obstacle has no stakes and no lean-in — restore the *buts* that genuinely threatened the goal; the doubt is the emotion, per the closer/farther gate.

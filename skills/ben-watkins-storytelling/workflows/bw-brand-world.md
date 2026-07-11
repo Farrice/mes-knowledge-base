@@ -11,6 +11,7 @@ Read before executing:
 2. `skills/ben-watkins-storytelling/references/business-translation-map.md` (§ World-Building for Brand — the Ralston overlay; keep attribution clean)
 3. `skills/ben-watkins-storytelling/references/source-quotes.md` (North Star, emotion-over-logic, subtraction anchors)
 4. `skills/ben-watkins-storytelling/references/roster-stacking.md` (where to hand off to `oren-brand`, `grace-city-blueprint`, `build-bos`)
+5. `skills/ben-watkins-storytelling/references/flow-and-cadence.md` (§ 4 — the bible's prose fields must survive read-aloud, not just the world logic)
 
 > 🔒 **Pre-Flight Gate**: run the **Decision Framework** in `genius.md § Decision Framework` before executing — you must be able to name the north star (say / why / who / promise) and the *one emotion* the world is built to produce. World-building framing (film/TV, recurring characters/sets/formats) is Caleb Ralston's overlay, NOT Watkins's — never restyle it as Watkins's own frame. If the brand has no governing purpose yet, run `/build-bos` or `oren-brand` first, then come back with a promise to build the world around.
 
@@ -141,6 +142,7 @@ SIGNATURE VISUALS & FORMATS:
 - **Subtraction held** — the world is one clean thing; every recurring element serves it, and anything blurring it got cut. A bible that keeps everything didn't audit anything.
 - The **association audit** names the gap between what the audience associates now and what the north star promises, plus the one story to compound.
 - Attribution is **clean**: the film/TV world-building frame is credited to Caleb Ralston, never presented as Watkins's own framework.
+- **Flow Gate** (references/flow-and-cadence.md § 4): contour varies, every sentence hands off (known-new), loops engineered not asserted, survives read-aloud, compression kept causality — one fail = revise.
 
 ## Common Pitfalls
 - **Building a logo kit instead of a world.** Fonts and a color palette aren't a world — nobody belongs to a hex code. Recovery: return to Step 1 and write the *ethos someone joins*; the visual system serves the belonging, not the other way around.

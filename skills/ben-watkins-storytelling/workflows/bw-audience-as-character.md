@@ -11,6 +11,7 @@ Read before executing:
 2. `skills/ben-watkins-storytelling/references/four-pillars.md` (Pillar 1 § Mechanism C — recognition is a mirror, not a name token)
 3. `skills/ben-watkins-storytelling/references/business-translation-map.md` (the Save the Cat / emotional-journey overlay and its attribution)
 4. `skills/ben-watkins-storytelling/references/roster-stacking.md` (§3 — Ben's audience-as-character → McRaney / ICP deep-canvass for identity depth)
+5. `skills/ben-watkins-storytelling/references/flow-and-cadence.md` (§ 4 — The Flow Gate)
 
 > 🔒 **Pre-Flight Gate**: run the **Decision Framework** in `genius.md § Decision Framework` before executing — you must be able to answer Q7 (*where are they in their story?*) and Q6 (*what's the one emotion?*). This is the **craft-side** pass. If the job needs identity-level resistance and belief mapping, don't fake depth here — hand off to `mcraney-deep-canvass` / `icp-deep-dive` first, then come back and turn their profile into the line that lands.
 
@@ -130,6 +131,7 @@ THE MOMENT-SPECIFIC MESSAGE
 - **Nemesis is live** — the nemesis field carries actual charge (the chip on the shoulder), not a generic "competitor." If it's inert, dig again.
 - **Depth is honest** — if the piece needs identity-level resistance, you routed to `mcraney-deep-canvass` / `icp-deep-dive` rather than faking canvass-grade depth in the four-field study.
 - **Machinery invisible** — the output *says the thing that lands*; it never labels "here's the recognition beat." Execute, never announce.
+- **Flow Gate** (references/flow-and-cadence.md § 4, applies to any prose the output carries): contour varies, sentences hand off (known-new), loops engineered not asserted, survives read-aloud — one fail = revise.
 
 ## Common Pitfalls
 - **Studying the demographic instead of the character.** Age/income/title gives you a customer, not a line. **Recovery**: fill all four fields (want/need/nemesis/obstacle) as a protagonist; if you can't, you're profiling a segment, not a person — go narrower until one human appears.

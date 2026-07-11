@@ -11,6 +11,7 @@ Read before executing:
 1. `skills/ben-watkins-storytelling/genius.md` (voice + Decision Framework + Anti-Patterns)
 2. `skills/ben-watkins-storytelling/references/four-pillars.md` (the North Star pre-condition + all four pillars in depth)
 3. `skills/ben-watkins-storytelling/references/source-quotes.md` (calibration anchors — the lines the draft must not violate)
+4. `skills/ben-watkins-storytelling/references/flow-and-cadence.md` (the connective-tissue layer — how surviving sentences hand off)
 
 > **🔒 Pre-Flight Gate**: run the **Decision Framework** in `genius.md § Decision Framework` before executing. Confirm you can name the north star, the *one* emotion, and how you grip them in the first beat. If the output can't answer those three, stop and return to them before producing. No promise you can name = you have material, not a story.
 
@@ -47,7 +48,10 @@ Dissolve a real lesson *inside* the story, never bolted beside it as a module. *
 Close the loop you opened — but as a *question*, not a cliffhanger. *"I actually don't approach it as cliffhangers. I actually approach it as questions."* And the half everyone drops: *"everything I've done up to that point before I ask the question has to also be promising them that the way that gets answered, they're going to really appreciate."* A gap with no promised payoff reads as manipulation and they bail. Make the last line land the promise or hand them the next step.
 
 ### Step 6 — Subtraction pass
-Now cut. Asked what separates a good storyteller from a master, Watkins's answer: *"It's the ability to know what to leave out."* Sort every remaining detail into two buckets: **momentum** (keep — it moves the story forward) or **seed** (withhold — *"you want people to lean in and ask, make them ask"*). Anything that's neither is dead weight — delete it. Total clarity is the mistake; it removes the reason to lean in. Then strip every label so the machinery goes invisible — the reader should feel pulled and never once see the engine.
+Now cut. Asked what separates a good storyteller from a master, Watkins's answer: *"It's the ability to know what to leave out."* Sort every remaining detail into two buckets: **momentum** (keep — it moves the story forward) or **seed** (withhold — *"you want people to lean in and ask, make them ask"*). Anything that's neither is dead weight — delete it. Total clarity is the mistake; it removes the reason to lean in. But cuts remove details, never the connective tissue between surviving sentences — re-read aloud after each cut pass. Then strip every label so the machinery goes invisible — the reader should feel pulled and never once see the engine.
+
+### Step 6.5 — Flow pass
+After subtraction, run the surviving prose through `references/flow-and-cadence.md`: map the sentence-length contour, check every handoff (each sentence opens on something the reader holds, ends on the new), verify every loop is promise + withhold + stake, then read the whole piece aloud cold. Any stumble or backtrack = revise before delivery.
 
 **OUTPUT**: the finished piece, machinery invisible — plus one line naming the single emotion it causes.
 
@@ -94,6 +98,9 @@ WITHHELD SEED: what the scene was — and what she said after the tape
 - **The 3 C's are simultaneous.** Character AND content AND circumstance fire in the *same* beats (Titanic), not a character beat then later a stakes beat.
 - **Subtraction happened.** At least one seed is withheld to make them lean in; nothing survives that's neither momentum nor seed. Total clarity = a leak.
 - **Recognition, not personalization.** The audience feels the line was written *about them specifically* — their exact interior mirrored, no name token pasted on.
+- **The contour varies and every sentence hands off.** No 3+ same-length runs; each sentence opens on something the reader already holds and ends on the new; every *it/this/that* binds instantly.
+- **Loops are engineered, not asserted.** Promise + withhold + stake, primed with real information first; every opened loop resolves in the piece.
+- **It survives read-aloud.** Read cold, out loud — zero stumbles or backtracks; compression kept the but/so/which-is-why chain intact.
 
 ## Common Pitfalls
 - **Enumerating the pillars in the output.** Stamping "Pillar 1… Pillar 2…" in the finished piece announces the machinery and kills the lean-in. *Recovery*: the pillars are your build sheet, not the reader's — strip every label; the piece should read like one seamless story.

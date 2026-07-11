@@ -10,6 +10,7 @@ Read before executing:
 1. `skills/ben-watkins-storytelling/genius.md` (voice + Decision Framework + Anti-Patterns — especially Principle 9 "Know the Audience Like a Character" and the anti-pattern "Talking at the audience")
 2. `skills/ben-watkins-storytelling/references/source-quotes.md` (§ Know the Audience Like a Character — the nemesis line and the "master in people" line; hold the canvas against them)
 3. `skills/ben-watkins-storytelling/references/business-translation-map.md` (§ Save the Cat / audience map — the want/need/nemesis profiling is Watkins's own; the beat-sheet *location* overlay is Blake Snyder's, kept attributed)
+4. `skills/ben-watkins-storytelling/references/flow-and-cadence.md` (§ 4 — The Flow Gate)
 
 > 🔒 **Pre-Flight Gate**: run the **Decision Framework** in `genius.md § Decision Framework` before executing — you must be able to answer Q7 (*where are they in their story — want, need, nemesis, obstacle — and what moment of their arc are they in when they find me?*). If you don't yet know who this person actually is at a demographic/identity level, ground first: stack `icp-deep-dive` or `mcraney-deep-canvass` for the resistance-and-belief layer, then come back and turn their profile into a character. This canvas is the craft-side companion to `/bw-audience-as-character`.
 
@@ -151,6 +152,7 @@ BEAT AT POINT OF CONTACT: dark of the soul — the day before the turn, sorry fo
 - **The interior thought is in their voice, precise enough to be recognition.** They should feel the line was written *about them specifically*, no name used. Generic pain ("they're stressed and busy") fails — mirror the exact thought.
 - **They're pinned to ONE beat, not the whole journey.** If the canvas doesn't say what moment of their arc they're in at point of contact, you can't write the line that only lands there. Locate them (Step 6).
 - **Machinery invisible downstream.** Nothing produced *from* this canvas ever labels "here's their want, here's their nemesis." The canvas is the private backstory; the output just *feels* like it was written for one person.
+- **Flow Gate** (references/flow-and-cadence.md § 4, applies to any prose the output carries): contour varies, sentences hand off (known-new), loops engineered not asserted, survives read-aloud — one fail = revise.
 
 ## Common Pitfalls
 - **Profiling a segment and calling it a character.** Age, income, job title, "busy professional" — that's a demographic; it gives you a customer, not a line. Recovery: run Steps 1–3 on a single real person you can name (a past buyer, one DM), then generalize *outward* from the specific — never start from the average. Stack `content-audience-profile` for the demographic layer, then re-characterize.

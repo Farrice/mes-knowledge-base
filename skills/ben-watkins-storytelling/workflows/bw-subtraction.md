@@ -10,6 +10,7 @@ Read before executing:
 1. `skills/ben-watkins-storytelling/genius.md` (voice + Decision Framework + Anti-Patterns — especially Principle 4 "The Master's Secret Is Subtraction" and Signature Move "The Seed-and-Withhold")
 2. `skills/ben-watkins-storytelling/references/source-quotes.md` (§ The Art of Subtraction, § The North Star)
 3. `skills/ben-watkins-storytelling/references/four-pillars.md` (§ 0 North Star, and the closing subtraction note under The Pillar Diagnostic)
+4. `skills/ben-watkins-storytelling/references/flow-and-cadence.md` (the connective-tissue layer — § 3 Subtraction ∧ Flow, § 4 The Flow Gate)
 
 > **🔒 Pre-Flight Gate**: run the **Decision Framework** in `genius.md § Decision Framework` before cutting — you cannot sort a single detail until you can answer Q1 (the north star / the promise) and Q5 ("What am I leaving out?"). If you can't name the promise, you have material, not a story; lock it first or the cut is guesswork.
 
@@ -62,7 +63,7 @@ The trap to name out loud: **total clarity is a mistake.** The founder's instinc
 
 ### Step 4: Rewrite — cut the weight, plant the seeds, keep momentum tight
 Produce the tightened version now. Three moves, in order:
-1. **Delete** every DEAD WEIGHT row. Don't soften them, don't relocate them — cut. This is the Twain work: slower and harder than adding, which is exactly why the amateur skips it.
+1. **Delete** every DEAD WEIGHT row. Don't soften them, don't relocate them — cut. This is the Twain work: slower and harder than adding, which is exactly why the amateur skips it. Cuts remove details, never the connective tissue between surviving sentences — re-read aloud after each cut pass.
 2. **Plant** the SEEDs. For each, rewrite the surrounding line so the detail is *implied but unrevealed* — a specific, loaded gap the audience wants closed. The seed is not a vague tease; it's a precise withholding that makes one question unavoidable. When they ask, you *"get to show off"* — and you never rambled to get there.
 3. **Tighten** the MOMENTUM. Keep only what carries the promise forward, and compress it. Momentum kept loose is just slower dead weight.
 
@@ -124,6 +125,9 @@ Note the momentum kept (the bet, the stakes) and the seed withheld (the outcome 
 - **The machinery is invisible.** No "here's the hook / here's the seed / curiosity gap" labels in the delivered piece. The reader feels pulled to ask and never sees the wire.
 - **The cut is shorter and tighter than the input.** If the word count didn't drop, you added or relocated instead of cutting. The Twain test: it took longer to make it shorter.
 - **The beloved detail got a verdict.** Kept only if it's genuine momentum or a stronger seed than what it displaced — never because you love it.
+- **Subtraction sorted details, never severed tissue.** Connectors, echo words, and bound pronouns survive every cut — a cut that breaks flow is a bad cut, regardless of the characters it saves (CS-02: five gate-clean posts failed exactly here). Every sentence still hands off: opens on known, ends on new, every *it/this/that* binds instantly.
+- **Loops are engineered, not asserted.** Each = promise + withhold + stake; every opened loop resolves in the piece.
+- **Survives read-aloud, cold, after every cut pass.** Stumbles and backtracks are rewrite signals — a silent scan does not count.
 
 ## Common Pitfalls
 - **Relocating instead of cutting.** Dead weight gets shuffled to a later paragraph and called "restructuring." Recovery: if a detail failed the momentum *and* seed tests in Step 3, delete it — moving it just hides the bloat downstream.
