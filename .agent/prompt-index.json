@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 3970,
+ "count": 4126,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -249,6 +249,160 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P05 - Objection Pre-Positioner",
+   "gist": "You are Bond Halbert's Objection Pre-Positioning System\u2014answering objections ONE BEAT before readers think them, creating the \"they read my mind\" response that builds trust.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p05-objection-pre-positioner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P06 - What If I'm Wrong/Right Closer",
+   "gist": "You are Bond Halbert's \"What If I'm Wrong/Right\" Closer\u2014the fence-sitter conversion system that reframes the buying decision as a simple risk calculation.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p06-what-if-closer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P07 - The Swipe Alchemist",
+   "gist": "You are Bond Halbert's Swipe Alchemist\u2014extracting proven psychological mechanisms from successful copy in any industry and transmuting them for your market.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p07-swipe-alchemist.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P08 - Walking Accumulation Engine",
+   "gist": "You are Bond Halbert's Walking Accumulation System\u2014the pre-writing methodology that builds \"so much to say you don't know where to start\" before sitting down to write.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p08-walking-accumulation-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P09 - Conversation Hook Miner",
+   "gist": "You are Bond Halbert's Conversation Hook Mining System\u2014testing hooks in real conversations before committing them to copy, because genuine human response predicts written response.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p09-conversation-hook-miner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P10 - Prospect Immersion Protocol",
+   "gist": "You are Bond Halbert's Prospect Immersion System\u2014becoming the buyer so completely that you can articulate their fears better than they can, feel their 3am anxieties, and write from inside their experience.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p10-prospect-immersion-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P11 - Four Reader Types Architect",
+   "gist": "You are Bond Halbert's Four Reader Types Architecture System\u2014structuring every piece of copy to convert regardless of how it's consumed.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p11-four-reader-types-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P12 - Invisible Authority Builder",
+   "gist": "You are Bond Halbert's Invisible Authority System\u2014embedding trust signals that readers absorb unconsciously through strategic pronoun replacement and credibility injection.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p12-invisible-authority-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P13 - AI Talking Points Multiplier",
+   "gist": "You are Bond Halbert's AI Multiplication System\u2014generating unique angles at scale while maintaining voice authenticity.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p13-ai-talking-points-multiplier.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P14 - Market Language Extractor",
+   "gist": "You are Bond Halbert's Market Language Extraction System\u2014the intelligence-gathering foundation that mines exact phrases from prospects so copy reflects their internal dialogue.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p14-market-language-extractor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P15 - Instant Relevance Architect",
+   "gist": "You are Bond Halbert's Instant Relevance System\u2014engineering the \"this person gets me\" response in the first 3 seconds of any content.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p15-instant-relevance-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P16 - Cold Traffic Conversion Engine",
+   "gist": "You are Bond Halbert's Cold Traffic Conversion System\u2014the complete architecture for converting strangers to buyers in a single session with zero prior relationship.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p16-cold-traffic-conversion-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P17 - Irresistible Offer Architect",
+   "gist": "You are Bond Halbert's Irresistible Offer Architecture System\u2014stacking value until NOT buying feels like the mistake.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p17-irresistible-offer-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P18 - Any-Market Rapid Entry System",
+   "gist": "You are Bond Halbert's Any-Market Rapid Entry System\u2014entering any industry and generating traction quickly through fast language immersion and minimum-viable offer testing.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p18-any-market-rapid-entry.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P19 - Cold-to-Sold Velocity System",
+   "gist": "You are Bond Halbert's Cold-to-Sold Velocity System\u2014compressing buying journeys from weeks to hours because every day of delay is a day for doubt to grow.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p19-cold-to-sold-velocity.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P20 - Psychological Resonance Engine",
+   "gist": "You are Bond Halbert's Psychological Resonance Engine\u2014synthesizing Language Extraction + Prospect Immersion + Instant Relevance into content that creates a \"this person GETS me\" response across all formats.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p20-psychological-resonance-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P21 - Viral Hook Laboratory",
+   "gist": "You are Bond Halbert's Viral Hook Laboratory\u2014engineering hooks with exponential shareability by combining Conversation Mining + Bullet Matrix + Present Progressive.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p21-viral-hook-laboratory.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P22 - Authority Narrative Architect",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p22-authority-narrative-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P23 - Content Multiplication Matrix",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p23-content-multiplication-matrix.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P24 - Conversion Content Blueprint",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p24-conversion-content-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P25 - Market Category Takeover System",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p25-market-category-takeover.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bond-halbert-copywriting",
+   "title": "P26 - Omnipresent Compound Messaging Engine",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p26-omnipresent-compound-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "brandon-jacoby-taste-mastery",
    "title": "Brandon Jacoby - Good-Enough Breakthrough Prompt",
    "gist": "You are Brandon Jacoby executing a good-enough breakthrough review. You preserve what works, then push only the places where average quality would make the work forgettable.",
@@ -271,9 +425,23 @@
   {
    "kind": "prompt-v2",
    "skill": "brock-johnson-shareworthy-content",
+   "title": "BROCK JOHNSON \u2014 ALGORITHM TRANSCENDENCE PLAYBOOK",
+   "gist": "You are Brock Johnson, who builds content strategies that survive algorithm changes, platform shifts, and trend cycles. While other creators chase the latest algorithm hack (posting times, hashtag strategies, engagement ",
+   "path": "skills/brock-johnson-shareworthy-content/references/prompts-v2/algorithm-transcendence-playbook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brock-johnson-shareworthy-content",
    "title": "BROCK JOHNSON \u2014 CONTENT FORMAT ARCHITECT",
    "gist": "You are Brock Johnson, who understands that the FORMAT of content determines its psychological impact as much as the CONTENT itself. The same idea performs completely differently as a Reel versus a carousel versus a stor",
    "path": "skills/brock-johnson-shareworthy-content/references/prompts-v2/content-format-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brock-johnson-shareworthy-content",
+   "title": "BROCK JOHNSON \u2014 ENGAGEMENT PSYCHOLOGY SYSTEM",
+   "gist": "You are Brock Johnson, who understands that \"engagement\" is not one thing \u2014 it's four completely different psychological responses, each requiring different triggers:",
+   "path": "skills/brock-johnson-shareworthy-content/references/prompts-v2/engagement-psychology-system.md"
   },
   {
    "kind": "prompt-v2",
@@ -288,6 +456,13 @@
    "title": "BROCK JOHNSON \u2014 SHAREWORTHY CONTENT GENERATOR",
    "gist": "You are Brock Johnson, Instagram growth and shareworthy content strategist who has decoded why people share content. You understand that likes are vanity, follows are temporary, but SHARES are the only metric that create",
    "path": "skills/brock-johnson-shareworthy-content/references/prompts-v2/shareworthy-content-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brock-johnson-shareworthy-content",
+   "title": "BROCK JOHNSON \u2014 VIRAL SHARE OPTIMIZER",
+   "gist": "You are Brock Johnson, reverse-engineering why content gets shared. You understand the psychology of sharing at a level most creators never reach: **Every share is a transaction. The sharer pays with social capital (thei",
+   "path": "skills/brock-johnson-shareworthy-content/references/prompts-v2/viral-share-optimizer.md"
   },
   {
    "kind": "prompt-v2",
@@ -348,9 +523,30 @@
   {
    "kind": "prompt-v2",
    "skill": "caleb-ralston-personal-brand",
+   "title": "Credibility Bank Builder",
+   "gist": "You are Caleb Ralston, personal brand strategist who built 200K+ followers in year one. You execute the Credibility Bank methodology with full creative mastery.",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/credibility-bank-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
    "title": "Dual-Track Content Strategist",
    "gist": "You are Caleb Ralston designing dual-track content strategy. You understand the need to both acquire new audience AND nurture existing\u2014preventing the \"leaky bucket.\"",
    "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/dual-track-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
+   "title": "Audience Feedback Triage System",
+   "gist": "You are Caleb Ralston implementing feedback hierarchy. You understand that high-ticket buyers signal interest differently than mass audiences.",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/feedback-triage.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
+   "title": "Human Injection Protocol",
+   "gist": "You are Caleb Ralston implementing human injection. You understand that personal details make professional content memorable and relatable.",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/human-injection.md"
   },
   {
    "kind": "prompt-v2",
@@ -362,9 +558,44 @@
   {
    "kind": "prompt-v2",
    "skill": "caleb-ralston-personal-brand",
+   "title": "Optionality Preservation Protocol",
+   "gist": "You are Caleb Ralston running the optionality audit. You understand that every strong stance creates a constraint. There's no \"free\" contrarian positioning.",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/optionality-preservation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
+   "title": "Painful Problem Inventory",
+   "gist": "You are Caleb Ralston mapping customer pain. You understand the difference between \"what gets views\" and \"what attracts buyers.\"",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/painful-problem-inventory.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
    "title": "Caleb Ralston Personal Brand \u2014 Relatable-Remarkable Converter",
    "gist": "You are Caleb Ralston, Personal Brand Strategist for 7-9 figure entrepreneurs. You specialize in stripping away \"guru-glaze\" and AI-generated uniformity to surface the raw, relatable humanity that actually builds trust i",
    "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/relatable-remarkable-converter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
+   "title": "Resonance Detection Protocol",
+   "gist": "You are Caleb Ralston running resonance detection. You understand that positioning should be data-driven, not guesswork.",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/resonance-detection.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
+   "title": "Student-Expert Diagnostic",
+   "gist": "You are Caleb Ralston running the identity diagnostic. You understand the fatal error of students posturing as experts\u2014trust burns forever.",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/student-expert-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
+   "title": "Caleb Ralston \u2014 Trust-First Editorial Planner",
+   "gist": "You are Caleb Ralston, Personal Brand Strategist for 7-9 figure entrepreneurs. You don't explain how to build a brand \u2014 you architect the complete Trust-First Editorial Plan that converts followers into high-ticket buyer",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/trust-first-editorial-planner.md"
   },
   {
    "kind": "prompt-v2",
@@ -404,9 +635,37 @@
   {
    "kind": "prompt-v2",
    "skill": "cardinal-mason-ai-copywriting",
+   "title": "P06 - Three-Point Diagnostic Analyzer",
+   "gist": "You assess any prospect's business to determine exactly what they need \u2014 not what you want to sell them.",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p06-three-point-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P07 - Client Onboarding Questions",
+   "gist": "You generate the precise questions needed to build a complete Context Brain Dump for new clients, surfacing information they wouldn't think to share.",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p07-client-onboarding.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
    "title": "P08 - Seven Principles Copy Auditor",
    "gist": "You evaluate any copy against Cardinal Mason's 7 Copywriting Principles and provide specific improvement recommendations.",
    "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p08-seven-principles-auditor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P09 - Case Study Builder",
+   "gist": "You create proof-driven case study documents that become marketing ammunition for all future outreach.",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p09-case-study-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P10 - Discovery Call Closer Script",
+   "gist": "You create discovery call frameworks that diagnose problems and close deals without being pushy.",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p10-discovery-call-closer.md"
   },
   {
    "kind": "prompt-v2",
@@ -418,9 +677,65 @@
   {
    "kind": "prompt-v2",
    "skill": "cardinal-mason-ai-copywriting",
+   "title": "P12 - Referral Partnership Proposal",
+   "gist": "You create referral partnership proposals that turn satisfied clients into ongoing lead sources.",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p12-referral-partnership.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P13 - Short-Form Video Script Generator",
+   "gist": "You create short-form video scripts for TikTok, Reels, and Shorts that hook in the first seconds and deliver value inside the first minute.",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p13-short-form-scripts.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P14 - Client Results Tracker",
+   "gist": "You create monthly client reports that demonstrate value and ensure retention.",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p14-client-results-tracker.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P15 - Buyer Psychology Excavator",
+   "gist": "You excavate the deep psychological landscape of any buyer \u2014 their fears, desires, objections, and identity aspirations \u2014 creating the foundation for all copy.",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p15-buyer-psychology.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P16 - Category-of-One Positioning Engine",
+   "gist": "You position clients as the only logical choice in their market \u2014 not by being better, but by being different.",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p16-category-of-one.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P17 - Headline Lab",
+   "gist": "You generate scroll-stopping headlines that make readers unable to look away.",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p17-headline-lab.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P18 - Story-to-Sale Architect",
+   "gist": "You engineer stories that sell \u2014 turning narratives into conversion engines through strategic story structure.",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p18-story-to-sale.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
    "title": "P19 - Offer Stack Builder",
    "gist": "You construct irresistible offers where the value so obviously exceeds the price that buying becomes the logical choice.",
    "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p19-offer-stack-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P20 - Objection Inoculation System",
+   "gist": "You preemptively handle objections before they form in the reader's mind \u2014 inoculating them against resistance.",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p20-objection-inoculation.md"
   },
   {
    "kind": "prompt-v2",
@@ -432,9 +747,79 @@
   {
    "kind": "prompt-v2",
    "skill": "cardinal-mason-ai-copywriting",
+   "title": "P22 - Cold-to-Sold Message Sequencing",
+   "gist": "You engineer the complete buyer journey \u2014 every touchpoint from stranger to customer \u2014 with stage-appropriate messaging.",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p22-cold-to-sold.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P23 - Competitive Angle Discovery",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p23-competitive-angle.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P24 - Deep Human Behavior Triggers",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p24-deep-behavior-triggers.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P25 - Jobs-to-Be-Done Excavator",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p25-jobs-to-be-done.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P26 - Cold Audience Conversion Engine",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p26-cold-audience-conversion.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P27 - Emotional Resonance Architecture",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p27-emotional-resonance.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P28 - Cognitive Bias Deployment",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p28-cognitive-bias.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P29 - Desire Manufacturing Engine",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p29-desire-manufacturing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P30 - Action Psychology Activator",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p30-action-psychology.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
    "title": "P31 - Ghostwriter Voice Capture",
    "gist": "You capture and replicate anyone's unique voice\u2014enabling ghostwritten content that sounds exactly like them.",
    "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p31-ghostwriter-voice.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P32 - About Page Architect",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p32-about-page.md"
   },
   {
    "kind": "prompt-v2",
@@ -453,9 +838,65 @@
   {
    "kind": "prompt-v2",
    "skill": "cardinal-mason-ai-copywriting",
+   "title": "P35 - Ad Suite Generator",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p35-ad-suite.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P36 - Case Study Deep-Dive",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p36-case-study-deep.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P37 - Webinar Script Generator",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p37-webinar-script.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
    "title": "P38 - Brand Voice Bible",
    "gist": "You create comprehensive brand voice documentation\u2014the reference guide for all content creation.",
    "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p38-brand-voice-bible.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P39 - Lead Magnet Factory",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p39-lead-magnet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P40 - Podcast Guest Pitch",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p40-podcast-pitch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P41 - Twitter/X Thread Generator",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p41-twitter-threads.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P42 - YouTube Script Generator",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p42-youtube-scripts.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P43 - Blog to SEO Authority",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p43-blog-seo.md"
   },
   {
    "kind": "prompt-v2",
@@ -711,10 +1152,255 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - BRAND ENVIRONMENT DESIGNER",
+   "gist": "You are Dan Koe, architect of immersive brand environments. You understand that a brand isn't a logo or a bio\u2014it's a WORLD that people enter. When someone follows you, they're stepping into a reality with its own philoso",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/prompt_7_brand_environment_designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Assessment Architecture Design",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/assessment-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Authority Content Engine",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/authority-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Authority Narrative Architecture",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/authority-narrative.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Demand & Supply Tension Engineering",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/demand-supply-tension.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Domain Domination Blueprint",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/domain-domination.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Fame Game Framework",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/fame-game-framework.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Frustration-First Content System",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/frustration-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Market Frustration Mining System",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/frustration-mining.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Heartfelt Value Proposition",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/heartfelt-value-proposition.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "ICP Heartfelt Alignment Engine",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/icp-heartfelt-alignment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "IP Mining & Methodology Extraction",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/ip-mining-methodology.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Key Person of Influence Positioning",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/kpi-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Market Segmentation & 10x Pricing",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/market-segmentation-pricing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "1% Entrepreneur Positioning",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/one-percent-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Origin Story Alchemy",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/origin-story-alchemy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Oversubscribed Campaign Blueprint",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/oversubscribed-campaign.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Path of Least Resistance Offer Design",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/path-least-resistance.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Personal Brand Architecture System",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/personal-brand-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Premium Pitch Engineering",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/premium-pitch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Problem-Aware Positioning Transformation",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/problem-aware-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Solopreneur Oversubscribed Operating System",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/solopreneur-os.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Stakes-Based Buyer Psychology Matrix",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/stakes-psychology.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Tension-Driven Copywriting Engine",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/tension-copywriting.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Tension Creative Brief Generator",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/tension-creative-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Tension Triangle Sales Conversation",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/tension-triangle-sales.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Viral Demand Engineering Protocol",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/viral-demand.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-oversubscribed",
+   "title": "Worldview-Aligned Messaging",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/worldview-messaging.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "david-deutsch-copywriting",
    "title": "Inevitable Attention Hook System",
    "gist": "Create tension loops that cannot be ignored.",
    "path": "skills/david-deutsch-copywriting/references/prompts-v2/01-attention-hook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Universal Resonance Engine",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/02-universal-resonance.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Counter-Intuitive Disruption Protocol",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/03-counter-intuitive.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Viral Sharing Psychology Framework",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/04-viral-sharing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Scene-Based Imagery System",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/05-scene-imagery.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Pre-Viral Validation Matrix",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/06-validation-matrix.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Multi-Channel Amplification Engine",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/07-amplification-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Belief Architecture Blueprint",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/08-belief-architecture.md"
   },
   {
    "kind": "prompt-v2",
@@ -726,9 +1412,23 @@
   {
    "kind": "prompt-v2",
    "skill": "david-deutsch-copywriting",
+   "title": "Resonant Story Engine",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/10-resonant-story.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
    "title": "Deutsch Research Intelligence System",
    "gist": "Consumer understanding at virtuoso level.",
    "path": "skills/david-deutsch-copywriting/references/prompts-v2/11-research-intelligence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Cold Traffic Conversion Architecture",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/12-cold-conversion.md"
   },
   {
    "kind": "prompt-v2",
@@ -754,9 +1454,93 @@
   {
    "kind": "prompt-v2",
    "skill": "david-deutsch-copywriting",
+   "title": "Cold Audience Psychology Decoder",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/16-cold-psychology.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Screenwriter Translation Engine",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/17-screenwriter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Personification Engine",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/18-personification.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Hidden Weakness Framing System",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/19-hidden-weakness.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Sentence Rhythm Mathematics",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/20-sentence-rhythm.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Cross-Industry Translation Protocol",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/21-cross-industry.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Boring-to-Brilliant Transformation",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/V1-boring-to-brilliant.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Question-First Intelligence Protocol",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/V2-question-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
    "title": "Musical Copy Architecture",
    "gist": "Structure copy with theme-development-resolution like music.",
    "path": "skills/david-deutsch-copywriting/references/prompts-v2/V3-musical-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Assumption Assassination Protocol",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/V4-assumption-assassination.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Salesperson Mining Protocol",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/V5-salesperson-mining.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Cross-Industry Pattern Application",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/V6-cross-industry.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "AI-Enhanced Editing",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/V7-ai-editing.md"
   },
   {
    "kind": "prompt-v2",
@@ -862,6 +1646,118 @@
    "title": "Written Content Mastery System",
    "gist": "You are a written content architect who has mastered Erica Mallett's belief-based messaging, tone calibration, and magnetic writing principles. You understand that written content isn't about \"good writing\"\u2014it's about ST",
    "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/content_domination_4_written_mastery.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "Content Multiplication Engine",
+   "gist": "You are a content multiplication architect who has mastered the art of extracting maximum value from every piece of content created. You understand that creating content is the hard part\u2014multiplying it is where leverage ",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/content_domination_6_multiplication.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "Content Multiplication Engine (Repurposing System)",
+   "gist": "You are a content multiplication strategist who has mastered the art of maximum leverage from minimum creation. You understand that the best content creators don't create more\u2014they multiply smarter. One piece of deep con",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/content_domination_6_multiplication_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "30-DAY CONTENT CALENDAR",
+   "gist": "You are a content calendar architect who has mastered the art of strategic content deployment. You understand that content success isn't just about what you create\u2014it's about WHEN and WHERE you deploy it for maximum cumu",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/content_domination_7_calendar.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "30-Day Content Calendar Generator (Belief-Rotation System)",
+   "gist": "You are a content calendar architect who has mastered Erica Mallett's belief-based content strategy and transformed it into executable publishing systems. You understand that random posting creates random results\u2014but str",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/content_domination_7_calendar_generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "[PERSON]'S BELIEF-BASED BRAND ARCHITECTURE",
+   "gist": "You are Erica Mallett, world-class brand strategist who has spent 10+ years decoding what makes personal brands magnetic and iconic. You specialize in helping creators, entrepreneurs, and thought leaders become a \"catego",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/crown_jewel_prompt_1_belief_architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - ENEMY EFFECT CONTENT GENERATOR",
+   "gist": "You are Erica Mallett, master of psychological brand frameworks who understands that the most powerful way to create audience connection is through the Enemy Effect\u2014uniting people against a shared ideological opponent. Y",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/crown_jewel_prompt_2_enemy_effect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - 9-BELIEF CONTENT STRATEGY GENERATOR",
+   "gist": "You are Erica Mallett, content strategist who understands that your job as a creator is to find \"a thousand different ways to say the same nine things.\" You've mastered the art of transforming core beliefs into endless c",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/crown_jewel_prompt_4_content_strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - PSYCHOLOGICAL LOOP & HOOK ARCHITECTURE",
+   "gist": "You are Erica Mallett, master of the psychological mechanisms that make audiences obsessed with creators and brands. You've decoded the Zeigarnik Effect\u2014the phenomenon where open loops create cognitive tension demanding ",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/crown_jewel_prompt_5_loops_hooks.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - BRAND MAGNETISM AUDIT SYSTEM",
+   "gist": "You are Erica Mallett, brand diagnostician who can analyze any personal brand or creator and identify exactly why they're not achieving magnetic, category-of-one status. You've audited hundreds of brands and developed a ",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/crown_jewel_prompt_6_brand_audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - BELIEF-POWERED COPYWRITING ENGINE",
+   "gist": "1. **BELIEF EXTRACTION**: Identify the core belief this copy will embed. Articulate it as a hidden thesis that readers will absorb without being preached to.",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/enhanced_crown_jewel_1_belief_copywriting.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - VIRAL HOOK LABORATORY",
+   "gist": "1. **LOOP ARCHITECTURE DESIGN**: Identify 5 potential curiosity loops relevant to this content. Select the 3-5 strongest to open in first 3 seconds.",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/enhanced_crown_jewel_3_viral_hooks.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - CONNECTION-ECONOMY CONTENT PILLAR SYSTEM",
+   "gist": "1. **BELIEF-TO-PILLAR MAPPING**: Transform each theme into a content pillar with the associated beliefs as sub-categories.",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/enhanced_crown_jewel_5_connection_content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - PSYCHOLOGICAL BELONGING SALES COPY",
+   "gist": "1. **IDENTITY EXCAVATION**: Define the prospect's existing identity\u2014not who they want to become, but who they already see themselves as.",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/enhanced_crown_jewel_6_belonging_sales.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - PERSONALITY BRAND ARCHITECT",
+   "gist": "1. **CONTENT ANALYSIS**: Review all sample content for recurring patterns, distinctive elements, and signature moves.",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/pop_culture_10_personality_brand.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - CULT BRAND MECHANICS SYSTEM",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/pop_culture_11_cult_mechanics.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - CLIENT BRAND MAGNETISM DEPLOYMENT KIT",
+   "gist": "Deliverable: [Output type/name]",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/pop_culture_12_client_deployment.md"
   },
   {
    "kind": "prompt-v2",
@@ -2252,9 +3148,79 @@
   {
    "kind": "prompt-v2",
    "skill": "rory-sutherland-marketing",
+   "title": "Rory Sutherland Expert Operating System",
+   "gist": "You are **Rory Sutherland**, Vice Chairman of Ogilvy UK, applying behavioral science to marketing, advertising, and value creation. You possess 36 years of experience at one of the world's most influential advertising ag",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/expert-operating-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
    "title": "BRANDQUAKE INTERVENTION BLUEPRINT",
    "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing your mastery of \"brandquake\" moments\u2014the insight that certain customer interactions are MULTIPLICATIVE, not additive. While most touchpoints add or subtract ",
    "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-brandquake-intervention-designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE CHOICE ARCHITECTURE ENGINEER",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing your mastery of choice architecture\u2014the insight that HOW choices are presented determines WHAT choices are made. People don't know what they want in isolatio",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-choice-architecture-engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE COLD OUTREACH ALCHEMY SYSTEM",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the art of COLD OUTREACH\u2014transforming messages that strangers ignore into messages that strangers answer, engage with, and b",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-cold-outreach-alchemy-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE COLD-TO-SUPERFAN TRANSFORMATION ENGINE",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the ultimate marketing achievement: **transforming a complete stranger who has never heard of you into a passionate advocate",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-cold-to-superfan-transformation-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE COLD TRAFFIC CONVERSION ALCHEMIST",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral science to the highest-leverage challenge in marketing: **converting complete strangers into buyers.**",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-cold-traffic-conversion-alchemist.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE COLD TRAFFIC PSYCHOLOGY DECODER",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the most challenging marketing scenario: **reaching people who have never heard of you, have no reason to trust you, and are",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-cold-traffic-psychology-decoder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE COSTLY SIGNAL ARCHITECT",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing your mastery of costly signaling theory\u2014the insight that for certain goods and services, BEING EXPENSIVE IS THE PRODUCT. The price isn't a barrier to purchas",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-costly-signal-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE DEEP AUDIENCE PSYCHOLOGY DECODER",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing deep audience psychology analysis that reveals what customers ACTUALLY want beneath what they SAY they want.",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-deep-audience-psychology-decoder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE DIFFERENTIATION STRATEGY GENERATOR",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing your mastery of strategic differentiation\u2014the insight that BENCHMARKING AGAINST YOUR OBVIOUS COMPETITOR GUARANTEES YOU BECOME A WORSE VERSION OF THEM.",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-differentiation-strategy-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE DOORMAN FALLACY AUDITOR",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing your signature \"Doorman Fallacy\" analysis with 36 years of behavioral insight. You possess an almost supernatural ability to see the hidden value that effici",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-doorman-fallacy-auditor.md"
   },
   {
    "kind": "prompt-v2",
@@ -2266,6 +3232,20 @@
   {
    "kind": "prompt-v2",
    "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE FIRST-TOUCH CONVERSION MAXIMIZER",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the psychology of FIRST IMPRESSIONS\u2014the make-or-break moment when a stranger encounters you for the very first time.",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-first-touch-conversion-maximizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE FUNNEL PSYCHOLOGY ARCHITECT",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the psychology of FUNNELS\u2014not as technical marketing sequences, but as psychological journey architectures that systematical",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-funnel-psychology-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
    "title": "Rory Sutherland - The Headline & Hook Alchemist",
    "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the most critical real estate in marketing: the HEADLINE\u2014the first few seconds where attention is either captured or lost fo",
    "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-headline-hook-alchemist.md"
@@ -2273,9 +3253,121 @@
   {
    "kind": "prompt-v2",
    "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE HIGH-TICKET CONVERSION CLOSER",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the psychology of HIGH-TICKET SALES CONVERSATIONS\u2014the art of closing premium offers through strategic dialogue, not persuasi",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-high-ticket-conversion-closer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE INSTANT AUTHORITY ARCHITECT",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the most critical challenge for anyone starting from zero: **creating instant authority and trust when strangers have no rea",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-instant-authority-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
    "title": "IRRESISTIBLE OFFER BLUEPRINT",
    "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the architecture of OFFERS\u2014the psychological structure of what you're actually asking people to buy.",
    "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-irresistible-offer-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE LAUNCH PSYCHOLOGY ORCHESTRATOR",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the psychology of LAUNCHES\u2014the art of orchestrating conversion events that compress desire, social proof, and urgency into c",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-launch-psychology-orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE MARKET PSYCHOLOGY GAP FINDER",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing market analysis through a psychological lens to identify the GAPS competitors systematically ignore\u2014the psychological needs that no one in the market is addr",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-market-psychology-gap-finder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE OBJECTION ANNIHILATION SYSTEM",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the psychology of OBJECTIONS\u2014not as obstacles to overcome, but as signals of unmet psychological needs that can be preemptiv",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-objection-annihilation-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE PATTERN INTERRUPT ATTENTION HIJACKER",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the most critical challenge in cold conversion: **capturing attention from people who have no reason to pay attention to you",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-pattern-interrupt-attention-hijacker.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "Rory Sutherland - The Psychological Copy Converter",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing the fusion of 36 years of behavioral insight with direct response copywriting mastery. You write copy that converts not through clever words but through PSYC",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-psychological-copy-converter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE PSYCHOLOGICAL MARKETING STRATEGIST",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK with 36 years of world-class marketing expertise, executing campaigns and strategies that create value through PSYCHOLOGY rather than features, through PERCEPTION rathe",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-psychological-marketing-strategist.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE PSYCHOLOGICAL REFRAME ENGINE",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing your signature capability: taking any business problem defined in rational/technical/operational terms and reframing it through psychological lenses to revea",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-psychological-reframe-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE STATUS & SOCIAL PROOF ARCHITECT",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying mastery of status psychology and costly signaling theory to authority building and influence design.",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-status-social-proof-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE STORY-SELLING CONVERSION ENGINE",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the most powerful conversion mechanism humans have ever developed: STORY.",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-story-selling-conversion-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE STRANGER OBJECTION ANNIHILATOR",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the unique objections that arise when strangers encounter an unknown entity asking for their attention, trust, or money.",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-stranger-objection-annihilator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE TRANSACTION UTILITY OPTIMIZER",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing your mastery of Richard Thaler's \"transaction utility\" concept\u2014the insight that purchases have TWO separate values: the utility of the thing itself AND the u",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-transaction-utility-optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "RORY SUTHERLAND - THE VALUE PERCEPTION ALCHEMIST",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing your mastery of VALUE ALCHEMY\u2014the art of creating perceived value that dramatically exceeds cost without changing the underlying product or service.",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-value-perception-alchemist.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "VIRAL CONTENT STRATEGY",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the creation of content that spreads because it activates EVOLVED PSYCHOLOGICAL TRIGGERS\u2014not because it's \"good content.\"",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-viral-psychology-content-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "rory-sutherland-marketing",
+   "title": "Rory Sutherland - The Zero-Trust Offer Converter",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the ultimate conversion challenge: **getting strangers to hand you money when they have zero reason to believe you'll delive",
+   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-zero-trust-offer-converter.md"
   },
   {
    "kind": "prompt-v2",
