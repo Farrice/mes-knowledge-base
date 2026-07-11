@@ -1,0 +1,87 @@
+{
+  "wave": 3,
+  "total_prompts": 150,
+  "groups_completed": 9,
+  "total_refactored": 141,
+  "total_skipped": 9,
+  "fidelity_low_list": [],
+  "group_reports": [
+    {
+      "skill": "rory-sutherland-marketing",
+      "refactored": 27,
+      "skipped": [
+        "skills/rory-sutherland-marketing/references/prompts/the-psychological-copy-converter.md"
+      ],
+      "fidelity_low": [],
+      "summary": "Refactoring 27 prompts, 1 already v2."
+    },
+    {
+      "skill": "cardinal-mason-ai-copywriting",
+      "refactored": 25,
+      "skipped": [
+        "skills/cardinal-mason-ai-copywriting/references/prompts/p09-case-study-builder.md",
+        "skills/cardinal-mason-ai-copywriting/references/prompts/p10-discovery-call-closer.md",
+        "skills/cardinal-mason-ai-copywriting/references/prompts/p12-referral-partnership.md"
+      ],
+      "fidelity_low": [],
+      "summary": "Refactoring 25 prompts, 3 already v2."
+    },
+    {
+      "skill": "daniel-priestley-oversubscribed",
+      "refactored": 27,
+      "skipped": [],
+      "fidelity_low": [],
+      "summary": "Refactoring 27 prompts, 0 already v2."
+    },
+    {
+      "skill": "david-deutsch-copywriting",
+      "refactored": 21,
+      "skipped": [],
+      "fidelity_low": [],
+      "summary": "Refactoring 21 prompts, 0 already v2."
+    },
+    {
+      "skill": "bond-halbert-copywriting",
+      "refactored": 18,
+      "skipped": [
+        "skills/bond-halbert-copywriting/references/prompts/p07-swipe-alchemist.md",
+        "skills/bond-halbert-copywriting/references/prompts/p08-walking-accumulation-engine.md"
+      ],
+      "fidelity_low": [],
+      "summary": "Refactoring 18 prompts, 2 already v2."
+    },
+    {
+      "skill": "erica-mallet-brand-magnetism",
+      "refactored": 14,
+      "skipped": [
+        "skills/erica-mallet-brand-magnetism/references/prompts/content_domination_6_multiplication_engine.md"
+      ],
+      "fidelity_low": [],
+      "summary": "Refactoring 14 prompts, 1 already v2."
+    },
+    {
+      "skill": "caleb-ralston-personal-brand",
+      "refactored": 5,
+      "skipped": [
+        "skills/caleb-ralston-personal-brand/references/prompts/feedback-triage.md",
+        "skills/caleb-ralston-personal-brand/references/prompts/human-injection.md"
+      ],
+      "fidelity_low": [],
+      "summary": "Refactoring 5 prompts, 2 already v2."
+    },
+    {
+      "skill": "brock-johnson-shareworthy-content",
+      "refactored": 3,
+      "skipped": [],
+      "fidelity_low": [],
+      "summary": "Refactoring 3 prompts, 0 already v2."
+    },
+    {
+      "skill": "dan-koe-multipassionate-mastery",
+      "refactored": 1,
+      "skipped": [],
+      "fidelity_low": [],
+      "summary": "Refactoring 1 prompts, 0 already v2."
+    }
+  ]
+}

@@ -18,7 +18,18 @@ import sys
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REQUIRED_SECTIONS = ["## Output Contract", "## Output Skeleton", "## Quality Gate"]
-STUB_MARKERS = ["[Refactored to v2 structure]", "[Define expected output format]"]
+STUB_MARKERS = [
+    "[Refactored to v2 structure]",
+    "[Define expected output format]",
+    # 2026-07-11 dual-session incident: template-slop fingerprints from the
+    # rogue Haiku fleet — generic boilerplate pasted identically across files
+    # while the actual methodology was amputated.
+    'fidelity: "standard"',
+    'refactored: "20',
+    "Structured framework/system responding to input requirements",
+    "├─ Layer 1:",
+    "Captures the real practitioner system from source material",
+]
 MIN_LINES = 20
 
 

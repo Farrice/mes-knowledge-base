@@ -1,0 +1,667 @@
+{
+ "standard": "structure-pure-v2 (see _active/prompt-renaissance/04-deliverables/RUNBOOK.md)",
+ "total": 150,
+ "remaining_after_wave": 701,
+ "groups": [
+  {
+   "skill": "fareed-zakaria-writing-mastery",
+   "prompts": [
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_commercial_02_value_add_messaging.md",
+     "title": "ZAKARIA METHOD: VALUE-ADD MESSAGING ENGINE"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_commercial_03_comparative_positioning.md",
+     "title": "ZAKARIA METHOD: COMPARATIVE POSITIONING MATRIX"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_commercial_04_consumer_truth.md",
+     "title": "ZAKARIA METHOD: CONSUMER TRUTH EXCAVATION PROTOCOL"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_commercial_06_gut_brain_persuasion.md",
+     "title": "ZAKARIA METHOD: GUT-BRAIN PERSUASION BRIDGE"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_commercial_09_strategic_insight.md",
+     "title": "ZAKARIA METHOD: STRATEGIC INSIGHT & MARKET SIGNAL DECODER"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_commercial_10_viral_architecture.md",
+     "title": "ZAKARIA METHOD: VIRAL ARCHITECTURE ENGINEERING"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_02_exclamation_point.md",
+     "title": "FAREED ZAKARIA - EXCLAMATION POINT ARTICLE ARCHITECTURE CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_03_value_add.md",
+     "title": "FAREED ZAKARIA - VALUE-ADD TAKE DEVELOPMENT CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_04_video_communication.md",
+     "title": "FAREED ZAKARIA - TELEVISION & VIDEO COMMUNICATION CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_05_comparative_framework.md",
+     "title": "FAREED ZAKARIA - COMPARATIVE FRAMEWORK DEPLOYMENT CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_06_research_synthesis.md",
+     "title": "FAREED ZAKARIA - DEEP RESEARCH & SOURCE SYNTHESIS CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_07_public_intellectual.md",
+     "title": "FAREED ZAKARIA - PUBLIC INTELLECTUAL POSITIONING CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_08_longform_talk.md",
+     "title": "FAREED ZAKARIA - LONG-FORM TALK ARCHITECTURE CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_09_expert_network.md",
+     "title": "FAREED ZAKARIA - EXPERT NETWORK CULTIVATION & DEPLOYMENT CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_11_interview_architecture.md",
+     "title": "FAREED ZAKARIA - INTERVIEW QUESTION ARCHITECTURE CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_12_medium_adaptation.md",
+     "title": "FAREED ZAKARIA - MEDIUM ADAPTATION PROTOCOL CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_13_purposeful_practice.md",
+     "title": "FAREED ZAKARIA - PURPOSEFUL PRACTICE SYSTEM CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_14_authentic_voice.md",
+     "title": "FAREED ZAKARIA - AUTHENTIC VOICE CALIBRATION CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_01_one_idea_discipline.md",
+     "title": "ZAKARIA WRITER'S MASTERY: THE ONE-IDEA DISCIPLINE PROTOCOL"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_02_argument_architecture.md",
+     "title": "ZAKARIA WRITER'S MASTERY: ARGUMENT ARCHITECTURE SYSTEM"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_03_evidence_compression.md",
+     "title": "ZAKARIA WRITER'S MASTERY: EVIDENCE SELECTION & COMPRESSION ENGINE"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_04_opening_mastery.md",
+     "title": "ZAKARIA WRITER'S MASTERY: OPENING SENTENCE MASTERY"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_05_closing_resonance.md",
+     "title": "ZAKARIA WRITER'S MASTERY: CLOSING RESONANCE ARCHITECTURE"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_06_counter_argument.md",
+     "title": "ZAKARIA WRITER'S MASTERY: COUNTER-ARGUMENT INTEGRATION PROTOCOL"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_07_clarity_first.md",
+     "title": "ZAKARIA WRITER'S MASTERY: CLARITY-FIRST WRITING SYSTEM"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_08_taste_discernment.md",
+     "title": "ZAKARIA WRITER'S MASTERY: TASTE & DISCERNMENT DEVELOPMENT"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_09_reading_pipeline.md",
+     "title": "ZAKARIA WRITER'S MASTERY: READING-TO-WRITING PIPELINE"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_10_authority_voice.md",
+     "title": "ZAKARIA WRITER'S MASTERY: AUTHORITY VOICE CONSTRUCTION"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_11_narrative_arc.md",
+     "title": "ZAKARIA WRITER'S MASTERY: NARRATIVE ARC IN NON-FICTION"
+    },
+    {
+     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_12_sentence_craft.md",
+     "title": "ZAKARIA WRITER'S MASTERY: SENTENCE-LEVEL CRAFT MASTERY"
+    }
+   ]
+  },
+  {
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "prompts": [
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/ai-augmented-creation.md",
+     "title": "JIM O'SHAUGHNESSY - AI-AUGMENTED CREATION PROTOCOL"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/attention-capture-laboratory.md",
+     "title": "JIM O'SHAUGHNESSY - ATTENTION CAPTURE LABORATORY"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/behavioral-pattern-arbitrage-system.md",
+     "title": "JIM O'SHAUGHNESSY - BEHAVIORAL PATTERN ARBITRAGE SYSTEM"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/belief-phenomenon-analyzer.md",
+     "title": "JIM O'SHAUGHNESSY - CONSENSUS REALITY NAVIGATOR"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/cognitive-style-matcher.md",
+     "title": "JIM O'SHAUGHNESSY - MANY PATHS METHODOLOGY MATCHER"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/consensus-reality-positioning.md",
+     "title": "JIM O'SHAUGHNESSY - CONTRARIAN POSITIONING GENERATOR"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/cross-domain-synthesis-engine.md",
+     "title": "JIM O'SHAUGHNESSY - CROSS-DOMAIN SYNTHESIS ENGINE"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/cross-traditional-story-engine.md",
+     "title": "JIM O'SHAUGHNESSY - NARRATIVE ARCHITECTURE SYSTEM"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/cross-traditional-wisdom.md",
+     "title": "JIM O'SHAUGHNESSY - PHILOSOPHICAL SYNTHESIS ENGINE"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/encyclopedia-research-protocol.md",
+     "title": "JIM O'SHAUGHNESSY - ENCYCLOPEDIA RESEARCH PROTOCOL"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/four-acts-career-architecture.md",
+     "title": "JIM O'SHAUGHNESSY - FOUR ACTS CAREER ARCHITECTURE DESIGNER"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/four-horsemen-decision-audit.md",
+     "title": "JIM O'SHAUGHNESSY - FOUR HORSEMEN DECISION AUDIT"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/human-nature-arbitrage-analyzer.md",
+     "title": "JIM O'SHAUGHNESSY - HUMAN NATURE ARBITRAGE ANALYZER"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/human-nature-constants-decoder.md",
+     "title": "JIM O'SHAUGHNESSY - HUMAN NATURE CONSTANTS DECODER"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/market-signal-intelligence.md",
+     "title": "JIM O'SHAUGHNESSY - MARKET SIGNAL INTELLIGENCE"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/narrative-architecture-system.md",
+     "title": "JIM O'SHAUGHNESSY - NARRATIVE ARCHITECTURE SYSTEM"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/practitioner-reality-filter.md",
+     "title": "JIM O'SHAUGHNESSY - PRACTITIONER REALITY FILTER"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/pre-fall-post-fall-assessment.md",
+     "title": "JIM O'SHAUGHNESSY - PRE-FALL/POST-FALL ASSESSMENT FRAMEWORK"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/private-conversation-entry.md",
+     "title": "JIM O'SHAUGHNESSY - DEEP CUSTOMER RESONANCE ENGINE"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/saturated-intuition-calibrator.md",
+     "title": "JIM O'SHAUGHNESSY - SATURATED INTUITION CALIBRATOR"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/strategic-feedback-loop-architect.md",
+     "title": "JIM O'SHAUGHNESSY - STRATEGIC FEEDBACK LOOP ARCHITECT"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/timeless-persuasion-engine.md",
+     "title": "JIM O'SHAUGHNESSY - PSYCHOLOGICAL BUYING TRIGGER ARCHITECT"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/transformation-architecture-system.md",
+     "title": "JIM O'SHAUGHNESSY - TRANSFORMATION ARCHITECTURE SYSTEM"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/trust-architecture-system.md",
+     "title": "JIM O'SHAUGHNESSY - TRUST ARCHITECTURE SYSTEM"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/viral-engineering-protocol.md",
+     "title": "JIM O'SHAUGHNESSY - VIRAL ENGINEERING PROTOCOL"
+    },
+    {
+     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/wisdom-transmission-document.md",
+     "title": "JIM O'SHAUGHNESSY - WISDOM TRANSMISSION DOCUMENT GENERATOR"
+    }
+   ]
+  },
+  {
+   "skill": "donald-miller-culture-turnaround",
+   "prompts": [
+    {
+     "path": "skills/donald-miller-culture-turnaround/references/prompts/p01-culture-diagnosis.md",
+     "title": "Culture Turnaround Diagnosis"
+    },
+    {
+     "path": "skills/donald-miller-culture-turnaround/references/prompts/p02-peace-sound-bite-architecture.md",
+     "title": "PEACE Sound Bite Architecture"
+    },
+    {
+     "path": "skills/donald-miller-culture-turnaround/references/prompts/p03-obsessive-documentation.md",
+     "title": "Obsessive Documentation Playbook"
+    },
+    {
+     "path": "skills/donald-miller-culture-turnaround/references/prompts/p04-leader-identity-installation.md",
+     "title": "Leader Identity Installation"
+    },
+    {
+     "path": "skills/donald-miller-culture-turnaround/references/prompts/p05-stakeholder-venue-mapping.md",
+     "title": "Stakeholder Venue Mapping"
+    },
+    {
+     "path": "skills/donald-miller-culture-turnaround/references/prompts/p06-privilege-reframe.md",
+     "title": "Privilege Reframe Generator"
+    },
+    {
+     "path": "skills/donald-miller-culture-turnaround/references/prompts/p07-30-day-blueprint.md",
+     "title": "30-Day Transformation Blueprint"
+    },
+    {
+     "path": "skills/donald-miller-culture-turnaround/references/prompts/p08-past-destruction.md",
+     "title": "Past Destruction Protocol"
+    },
+    {
+     "path": "skills/donald-miller-culture-turnaround/references/prompts/p09-unsurprised-success.md",
+     "title": "Unsurprised Success Installation"
+    },
+    {
+     "path": "skills/donald-miller-culture-turnaround/references/prompts/p10-certainty-projection.md",
+     "title": "Certainty Projection System"
+    },
+    {
+     "path": "skills/donald-miller-culture-turnaround/references/prompts/p11-negativity-gravity.md",
+     "title": "Negativity Gravity Management"
+    },
+    {
+     "path": "skills/donald-miller-culture-turnaround/references/prompts/p12-causal-chain-mapping.md",
+     "title": "Identity-Behavior Causal Chain Mapping"
+    },
+    {
+     "path": "skills/donald-miller-culture-turnaround/references/prompts/p13-strategic-micromanagement.md",
+     "title": "Strategic Micromanagement Playbook"
+    },
+    {
+     "path": "skills/donald-miller-culture-turnaround/references/prompts/p14-stakeholder-activation.md",
+     "title": "Stakeholder Activation Challenge"
+    },
+    {
+     "path": "skills/donald-miller-culture-turnaround/references/prompts/p15-resistance-decoder.md",
+     "title": "Resistance Pattern Decoder"
+    },
+    {
+     "path": "skills/donald-miller-culture-turnaround/references/prompts/p16-turnaround-assessment.md",
+     "title": "Turnaround Leader Assessment"
+    },
+    {
+     "path": "skills/donald-miller-culture-turnaround/references/prompts/p17-repetition-programming.md",
+     "title": "Repetition Programming System"
+    },
+    {
+     "path": "skills/donald-miller-culture-turnaround/references/prompts/p18-identity-headlines.md",
+     "title": "Identity-Installing Headline System (Synthesis Prompt)"
+    }
+   ]
+  },
+  {
+   "skill": "futurepedia-prompt-engineering",
+   "prompts": [
+    {
+     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_01_research_notebook_architecture.md",
+     "title": "FUTUREPEDIA - RESEARCH NOTEBOOK ARCHITECTURE CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_02_source_validation_protocol.md",
+     "title": "FUTUREPEDIA - SOURCE VALIDATION PROTOCOL CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_04_custom_gem_architecture.md",
+     "title": "FUTUREPEDIA - CUSTOM GEM ARCHITECTURE CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_05_creative_use_case_discovery.md",
+     "title": "FUTUREPEDIA - CREATIVE USE CASE DISCOVERY CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_06_audio_video_optimization.md",
+     "title": "FUTUREPEDIA - AUDIO/VIDEO OVERVIEW OPTIMIZATION CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_07_deep_research_synthesis.md",
+     "title": "FUTUREPEDIA - DEEP RESEARCH SYNTHESIS CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_08_infographic_design_mastery.md",
+     "title": "FUTUREPEDIA - INFOGRAPHIC DESIGN MASTERY CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_08_studio_style_direction_mastery.md",
+     "title": "FUTUREPEDIA - STUDIO STYLE DIRECTION MASTERY CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_09_dynamic_source_scoping.md",
+     "title": "FUTUREPEDIA - DYNAMIC SOURCE SCOPING CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_09_strategic_slide_deck.md",
+     "title": "FUTUREPEDIA - STRATEGIC SLIDE DECK PRODUCTION CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_10_interactive_audio_learning.md",
+     "title": "FUTUREPEDIA - INTERACTIVE AUDIO LEARNING PROTOCOL CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_10_notebook_chat_persona_engineering.md",
+     "title": "FUTUREPEDIA - NOTEBOOK CHAT PERSONA ENGINEERING CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_11_notebook_ecosystem_architecture.md",
+     "title": "FUTUREPEDIA - NOTEBOOK ECOSYSTEM ARCHITECTURE CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_12_learning_system_design.md",
+     "title": "FUTUREPEDIA - LEARNING SYSTEM DESIGN CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_12_study_system_design.md",
+     "title": "FUTUREPEDIA - STUDY SYSTEM DESIGN CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_13_report_type_selection_strategy.md",
+     "title": "FUTUREPEDIA - REPORT TYPE SELECTION STRATEGY CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_14_error_detection_quality_assurance.md",
+     "title": "FUTUREPEDIA - ERROR DETECTION & QUALITY ASSURANCE CROWN JEWEL PROMPT"
+    }
+   ]
+  },
+  {
+   "skill": "david-mcraney-belief-change",
+   "prompts": [
+    {
+     "path": "skills/david-mcraney-belief-change/references/prompts/10_group_reasoning_optimizer.md",
+     "title": "DAVID McRANEY \u2014 GROUP REASONING OPTIMIZER"
+    },
+    {
+     "path": "skills/david-mcraney-belief-change/references/prompts/11_argument_evaluation_activator.md",
+     "title": "DAVID McRANEY \u2014 ARGUMENT EVALUATION MODE ACTIVATOR"
+    },
+    {
+     "path": "skills/david-mcraney-belief-change/references/prompts/12_crisis_state_calibrator.md",
+     "title": "DAVID McRANEY \u2014 CRISIS STATE PERSUASION CALIBRATOR"
+    },
+    {
+     "path": "skills/david-mcraney-belief-change/references/prompts/13_extreme_belief_exit_architect.md",
+     "title": "DAVID McRANEY \u2014 EXTREME BELIEF EXIT ARCHITECT"
+    },
+    {
+     "path": "skills/david-mcraney-belief-change/references/prompts/14_cross_tribal_bridge_protocol.md",
+     "title": "DAVID McRANEY \u2014 CROSS-TRIBAL BRIDGE PROTOCOL"
+    },
+    {
+     "path": "skills/david-mcraney-belief-change/references/prompts/1_belief_diagnostic_engine.md",
+     "title": "DAVID McRANEY \u2014 BELIEF DIAGNOSTIC ENGINE"
+    },
+    {
+     "path": "skills/david-mcraney-belief-change/references/prompts/2_mi_execution_system.md",
+     "title": "DAVID McRANEY \u2014 MOTIVATIONAL INTERVIEWING EXECUTION SYSTEM"
+    },
+    {
+     "path": "skills/david-mcraney-belief-change/references/prompts/3_anxiety_dissolution_protocol.md",
+     "title": "DAVID McRANEY \u2014 ANXIETY DISSOLUTION PROTOCOL"
+    },
+    {
+     "path": "skills/david-mcraney-belief-change/references/prompts/4_environment_optimization_audit.md",
+     "title": "DAVID McRANEY \u2014 ENVIRONMENT OPTIMIZATION AUDIT"
+    },
+    {
+     "path": "skills/david-mcraney-belief-change/references/prompts/5_pluralistic_ignorance_breaker.md",
+     "title": "DAVID McRANEY \u2014 PLURALISTIC IGNORANCE BREAKER"
+    },
+    {
+     "path": "skills/david-mcraney-belief-change/references/prompts/6_social_safety_net_builder.md",
+     "title": "DAVID McRANEY \u2014 SOCIAL SAFETY NET BUILDER"
+    },
+    {
+     "path": "skills/david-mcraney-belief-change/references/prompts/7_staged_persuasion_architect.md",
+     "title": "DAVID McRANEY \u2014 STAGED PERSUASION ARCHITECT"
+    },
+    {
+     "path": "skills/david-mcraney-belief-change/references/prompts/8_trust_architecture_builder.md",
+     "title": "DAVID McRANEY \u2014 TRUST ARCHITECTURE BUILDER"
+    },
+    {
+     "path": "skills/david-mcraney-belief-change/references/prompts/9_lens_prediction_management.md",
+     "title": "DAVID McRANEY \u2014 LENS PREDICTION & MANAGEMENT SYSTEM"
+    }
+   ]
+  },
+  {
+   "skill": "david-bayer-elite-communication",
+   "prompts": [
+    {
+     "path": "skills/david-bayer-elite-communication/references/prompts/crown_jewel_01_grounded_presence.md",
+     "title": "DAVID BAYER - GROUNDED PRESENCE COMMUNICATION ACTIVATOR"
+    },
+    {
+     "path": "skills/david-bayer-elite-communication/references/prompts/crown_jewel_02_approval_seeking_eliminator.md",
+     "title": "DAVID BAYER - APPROVAL-SEEKING PATTERN ELIMINATOR"
+    },
+    {
+     "path": "skills/david-bayer-elite-communication/references/prompts/crown_jewel_03_friend_coffee_frame.md",
+     "title": "DAVID BAYER - FRIEND-COFFEE FRAME DEPLOYMENT"
+    },
+    {
+     "path": "skills/david-bayer-elite-communication/references/prompts/crown_jewel_04_strategic_silence.md",
+     "title": "DAVID BAYER - STRATEGIC SILENCE MASTERY"
+    },
+    {
+     "path": "skills/david-bayer-elite-communication/references/prompts/crown_jewel_05_lived_experience.md",
+     "title": "DAVID BAYER - LIVED EXPERIENCE AUTHORITY BUILDER"
+    },
+    {
+     "path": "skills/david-bayer-elite-communication/references/prompts/crown_jewel_06_verbal_identity.md",
+     "title": "DAVID BAYER - VERBAL IDENTITY ARCHITECT"
+    },
+    {
+     "path": "skills/david-bayer-elite-communication/references/prompts/crown_jewel_07_power_auditor.md",
+     "title": "DAVID BAYER - COMMUNICATION POWER AUDITOR"
+    },
+    {
+     "path": "skills/david-bayer-elite-communication/references/prompts/expanded_cj_03_emotional_headlines.md",
+     "title": "DAVID BAYER - EMOTIONAL TRANSMISSION HEADLINE SYSTEM"
+    },
+    {
+     "path": "skills/david-bayer-elite-communication/references/prompts/expanded_cj_05_rhythm_pacing.md",
+     "title": "DAVID BAYER - STRATEGIC RHYTHM & PACING ARCHITECT"
+    },
+    {
+     "path": "skills/david-bayer-elite-communication/references/prompts/expanded_cj_07_trust_first_positioning.md",
+     "title": "DAVID BAYER - TRUST-FIRST POSITIONING SYSTEM"
+    },
+    {
+     "path": "skills/david-bayer-elite-communication/references/prompts/expanded_cj_09_complexity_assassination.md",
+     "title": "DAVID BAYER - COMPLEXITY ASSASSINATION PROTOCOL"
+    },
+    {
+     "path": "skills/david-bayer-elite-communication/references/prompts/expanded_cj_10_internal_conversation.md",
+     "title": "DAVID BAYER - INTERNAL CONVERSATION INFILTRATOR"
+    }
+   ]
+  },
+  {
+   "skill": "jeremy-miner-identity-persuasion",
+   "prompts": [
+    {
+     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/01-pre-frame-formula.md",
+     "title": "Pre-Frame Formula Generator"
+    },
+    {
+     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/02-indirect-frame.md",
+     "title": "Indirect Frame Constructor"
+    },
+    {
+     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/03-identity-types-framework.md",
+     "title": "4 Identity Types Framework Builder"
+    },
+    {
+     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/04-objection-prevention.md",
+     "title": "Objection Prevention Frame Builder"
+    },
+    {
+     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/05-reframe-flip.md",
+     "title": "Reframe Flip Generator"
+    },
+    {
+     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/06-binary-lock.md",
+     "title": "Binary Identity Lock Creator"
+    },
+    {
+     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/07-story-transfer.md",
+     "title": "Third-Person Story Transfer Script"
+    },
+    {
+     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/10-identity-positioning.md",
+     "title": "4 Identity Types Market Positioning System"
+    },
+    {
+     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/13-binary-cta.md",
+     "title": "Binary Lock CTA & Conversion Optimizer"
+    }
+   ]
+  },
+  {
+   "skill": "ethan-smith-aeo",
+   "prompts": [
+    {
+     "path": "skills/ethan-smith-aeo/references/prompts/aeo-experiment-designer.md",
+     "title": "AEO Experiment Designer"
+    },
+    {
+     "path": "skills/ethan-smith-aeo/references/prompts/aeo-misinformation-filter.md",
+     "title": "AEO Misinformation Filter"
+    },
+    {
+     "path": "skills/ethan-smith-aeo/references/prompts/aeo-question-research.md",
+     "title": "AEO Question Research Pipeline"
+    },
+    {
+     "path": "skills/ethan-smith-aeo/references/prompts/citation-landscape-mapper.md",
+     "title": "Citation Landscape Mapper"
+    },
+    {
+     "path": "skills/ethan-smith-aeo/references/prompts/help-center-weaponizer.md",
+     "title": "Help Center Weaponizer"
+    },
+    {
+     "path": "skills/ethan-smith-aeo/references/prompts/reddit-citation-strategy.md",
+     "title": "Reddit Citation Strategy"
+    },
+    {
+     "path": "skills/ethan-smith-aeo/references/prompts/share-of-voice-tracker.md",
+     "title": "Share of Voice Tracker"
+    }
+   ]
+  },
+  {
+   "skill": "jeremy-haynes-mindset-systems",
+   "prompts": [
+    {
+     "path": "skills/jeremy-haynes-mindset-systems/references/prompts/asymmetric-risk-evaluator.md",
+     "title": "Asymmetric Risk Evaluator"
+    },
+    {
+     "path": "skills/jeremy-haynes-mindset-systems/references/prompts/identity-version-builder.md",
+     "title": "Identity Version Builder"
+    },
+    {
+     "path": "skills/jeremy-haynes-mindset-systems/references/prompts/pain-leverage-audit.md",
+     "title": "Pain Leverage Audit"
+    },
+    {
+     "path": "skills/jeremy-haynes-mindset-systems/references/prompts/reasons-engine.md",
+     "title": "Reasons Engine"
+    },
+    {
+     "path": "skills/jeremy-haynes-mindset-systems/references/prompts/responsibility-expansion-map.md",
+     "title": "Responsibility Expansion Map"
+    },
+    {
+     "path": "skills/jeremy-haynes-mindset-systems/references/prompts/revenue-math-model.md",
+     "title": "Revenue Math Model"
+    },
+    {
+     "path": "skills/jeremy-haynes-mindset-systems/references/prompts/worldview-audit.md",
+     "title": "Worldview Audit"
+    }
+   ]
+  },
+  {
+   "skill": "darrel-wilson-ai-monetization",
+   "prompts": [
+    {
+     "path": "skills/darrel-wilson-ai-monetization/references/prompts/revenue-stream-stacker.md",
+     "title": "Revenue Stream Stacker"
+    },
+    {
+     "path": "skills/darrel-wilson-ai-monetization/references/prompts/rfp-opportunity-hunter.md",
+     "title": "RFP Opportunity Hunter"
+    },
+    {
+     "path": "skills/darrel-wilson-ai-monetization/references/prompts/ugly-website-prospector.md",
+     "title": "Ugly Website Prospector"
+    },
+    {
+     "path": "skills/darrel-wilson-ai-monetization/references/prompts/website-flip-system.md",
+     "title": "Website Flip System"
+    },
+    {
+     "path": "skills/darrel-wilson-ai-monetization/references/prompts/workflow-productizer.md",
+     "title": "Workflow Productizer"
+    }
+   ]
+  },
+  {
+   "skill": "dr-kriukow-humanization",
+   "prompts": [
+    {
+     "path": "skills/dr-kriukow-humanization/references/prompts/ai-humanization-pass.md",
+     "title": "Dr. Kriukow \u2014 AI Humanization Pass"
+    },
+    {
+     "path": "skills/dr-kriukow-humanization/references/prompts/structural-predictability-audit.md",
+     "title": "Dr. Kriukow \u2014 Structural Predictability Audit"
+    },
+    {
+     "path": "skills/dr-kriukow-humanization/references/prompts/writing-style-humanizer-config.md",
+     "title": "Dr. Kriukow \u2014 Writing Style Humanizer Config"
+    }
+   ]
+  },
+  {
+   "skill": "jonathan-courtney-marketing",
+   "prompts": [
+    {
+     "path": "skills/jonathan-courtney-marketing/references/prompts/01-promoter-blueprint-audit.md",
+     "title": "Jonathan Courtney \u2014 Promoter Blueprint Audit"
+    },
+    {
+     "path": "skills/jonathan-courtney-marketing/references/prompts/02-selling-event-architect.md",
+     "title": "Jonathan Courtney \u2014 Selling Event Architect"
+    }
+   ]
+  }
+ ]
+}
