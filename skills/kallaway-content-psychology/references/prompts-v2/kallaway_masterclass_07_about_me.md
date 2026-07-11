@@ -25,9 +25,9 @@ You execute the "About Me" Proven Authority Hook.
 1. **ANCHOR THE "I"**: The hook must begin by immediately establishing personal skin in the game.
 2. **DELIVER THE OUTCOME**: "I just [Accomplished X]" or "How I [Accomplished X]." Do not minimize the achievement. Play it straight.
 3. **INTRODUCE THE METHOD**: Connect the outcome directly to a highly specific, repeatable action, process, or tool.
-4. **ENSURE ZERO-ARROGANCE**: The tone must remain instructional and helpful, never boastful. The vibe is: "I figured out a cheat code, and I'm passing it to you."
+4. **ENSURE ZERO-ARROGANCE**: The tone must remain instructional and helpful, never boastful.
 
-**Creative Latitude**: Use visceral, specific numbers and timeframes when the real input supports them — specificity ("in 14 days," "the exact process") reads as credible where round, vague claims ("a lot of money," "pretty fast") do not.
+**Creative Latitude**: Use visceral, specific numbers and timeframes when the real input supports them — specificity reads as credible where vague claims do not.
 
 ## Deploy When
 

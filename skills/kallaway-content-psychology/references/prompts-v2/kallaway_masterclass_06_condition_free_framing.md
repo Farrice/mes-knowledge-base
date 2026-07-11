@@ -26,7 +26,7 @@ You present the method as a "cheat code" that requires *only* the viewer's exist
 2. **MINIMIZE OR RELOCATE THE FRICTION**: Reframe the requirement to feel trivial or entirely manageable using resources they already have "lying around."
 3. **FRAME THE CONDITION-FREE METHOD**: State the method in a way that emphasizes the lack of barriers. Use words like "Only," "Just," "Without entirely replacing," or "Using what you already have."
 
-**Creative Latitude**: Never lie or overpromise in a way that breaks trust upon delivery. The genius is in the framing. If the product costs money, frame the requirement as "Redirecting the money you already spend on [X] to solve [Outcome]." It must feel resource-neutral to adopt.
+**Creative Latitude**: Never lie or overpromise in a way that breaks trust upon delivery. The genius is in the framing.
 
 ## Deploy When
 

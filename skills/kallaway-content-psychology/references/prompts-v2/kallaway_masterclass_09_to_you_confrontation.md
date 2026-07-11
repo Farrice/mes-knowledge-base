@@ -24,7 +24,7 @@ You execute the "To You" Direct Confrontation Hook.
 
 1. **LOCK EYES**: Figuratively grab them by the shoulders via direct address. "If you are trying to [Achieve X]..."
 2. **ISSUE THE COMMAND**: "...stop doing [Common Mistake] and start doing [Direct Action Y]."
-3. **PUNCTURE THE SCROLL**: The tone is authoritative, slightly urgent, and high-utility. It is the tone of a coach intervening before a catastrophic mistake.
+3. **PUNCTURE THE SCROLL**: The tone is authoritative, slightly urgent, and high-utility.
 
 **Creative Latitude**: The "To You" hook is an intervention. If the provided input lacks tension, sharpen the stakes of the actual mistake being made — do not invent stakes that aren't real to the situation.
 

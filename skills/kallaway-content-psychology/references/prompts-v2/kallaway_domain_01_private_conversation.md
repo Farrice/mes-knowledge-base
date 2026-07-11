@@ -64,9 +64,7 @@ You have (or can get) real access to where the target audience talks unguarded �
 
 ## Output Contract
 
-- A complete Private Conversation Infiltration Package: Intelligence Report (sources mined, key themes identified, language pattern clusters), Private Conversation Map (organized by the 5 categories, verbatim phrases only, ranked by emotional intensity), Deployment Assets (10 infiltration hooks, 5 body copy paragraphs, 5 objection handlers, 3 CTA variations), Integration Guide (how to use in ads/content/emails/sales pages).
-- Every phrase in the map must be attributed to a real source category — no invented quotes standing in for research that wasn't done.
-- If [RESEARCH SOURCES] access isn't actually available, the output must say so and request it rather than fabricate verbatim language.
+Produce a complete Private Conversation Infiltration Package: an Intelligence Report identifying sources mined and key themes, a Private Conversation Map organized by the five categories using verbatim phrases only, Deployment Assets (hooks, body copy paragraphs, objection handlers, CTA variations), and an Integration Guide for deploying across ads, content, emails, and sales pages. Every phrase in the map must be attributed to a real source category — no invented quotes standing in for research that wasn't done. If [RESEARCH SOURCES] access isn't actually available, say so and request it rather than fabricate verbatim language.
 
 ## Output Skeleton
 
@@ -77,23 +75,23 @@ Key Themes Identified: [ranked list of recurring themes]
 
 ## PRIVATE CONVERSATION MAP
 PROBLEM ARTICULATION
-- Surface Problem: "[verbatim phrase type]"
-- Deeper Problem: "[verbatim phrase type]"
-- Emotional State: "[verbatim phrase type]"
+- Surface Problem: "[verbatim phrase]"
+- Deeper Problem: "[verbatim phrase]"
+- Emotional State: "[verbatim phrase]"
 
 FAILED SOLUTIONS
-- What They've Tried: "[...]"
-- Why They Think It Failed: "[...]"
+- What They've Tried: "[verbatim phrase]"
+- Why They Think It Failed: "[verbatim phrase]"
 
 HIDDEN BELIEFS
-- Secret Thoughts: "[...]"
-- Embarrassments: "[...]"
+- Secret Thoughts: "[verbatim phrase]"
+- Embarrassments: "[verbatim phrase]"
 
 ASPIRATIONS
-- What They Wish: "[...]"
+- What They Wish: "[verbatim phrase]"
 
 OBJECTIONS
-- Why They Think They Can't: "[...]"
+- Why They Think They Can't: "[verbatim phrase]"
 
 ## DEPLOYMENT ASSETS
 10 Infiltration Hooks: [each using extracted verbatim language]
@@ -110,5 +108,5 @@ OBJECTIONS
 - [ ] Every phrase presented as "verbatim audience language" is traceable to a stated research source — none is invented to fill the template.
 - [ ] The Private Conversation Map covers all 5 categories (Problem, Failed Solutions, Hidden Beliefs, Aspirations, Objections), not a partial subset.
 - [ ] Hooks and body copy use the audience's actual words/phrasing style, not the marketer's vocabulary dressed up.
-- [ ] No fabricated statistics or invented data-point counts ("1,662 data points," "312 mentions") appear unless the research was actually performed and counted.
+- [ ] No fabricated statistics or invented data-point counts appear unless the research was actually performed and counted.
 - [ ] The validation check ("would this audience feel seen?") is applied and any generic-sounding line is flagged and rewritten.

@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 3793,
+ "count": 3970,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -12,6 +12,34 @@
   {
    "kind": "prompt-v2",
    "skill": "alen-sultanic-copywriting",
+   "title": "Emotional Spending Close Architect",
+   "gist": "Create closes where payment keeps the feeling, not gets it.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/02-emotional-spending-close.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
+   "title": "Trade-Off Neutralization Engine",
+   "gist": "Disconnect competing desires that block purchases.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/03-trade-off-neutralization.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
+   "title": "Comparison-Awareness Opening Generator",
+   "gist": "Generate productive lack at start of every sales process.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/04-comparison-opening.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
+   "title": "Buying Pattern Match Analyzer",
+   "gist": "Match copy style to market's dominant buying pattern.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/05-buying-pattern-analyzer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
    "title": "Money-Over-Time Offer Suite Designer",
    "gist": "Design offer suites that profit by third transaction.",
    "path": "skills/alen-sultanic-copywriting/references/prompts-v2/06-money-over-time.md"
@@ -19,9 +47,72 @@
   {
    "kind": "prompt-v2",
    "skill": "alen-sultanic-copywriting",
+   "title": "Trust-Zero Onboarding Sequence Builder",
+   "gist": "Rebuild trust post-purchase before any upselling.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/07-trust-zero-onboarding.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
+   "title": "Deepest Layer Psychology",
+   "gist": "Access unconscious decision drivers beneath surface objections.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/08-deepest-layer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
+   "title": "Win the Math First",
+   "gist": "Ensure offer economics work before writing copy.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/09-win-math-first.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
+   "title": "Knowing Why Things Break",
+   "gist": "Diagnose conversion issues using resistance diagnostics.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/10-why-things-break.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
+   "title": "Solopreneur Positioning Supremacy",
+   "gist": "Position personal brands for premium pricing.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/11-solopreneur-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
+   "title": "Backend Windfall & Catalog Monetization",
+   "gist": "Maximize lifetime value through product catalog architecture.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/12-backend-windfall.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
    "title": "Copywriting as Change Work",
    "gist": "Facilitate transformation, not just persuasion.",
    "path": "skills/alen-sultanic-copywriting/references/prompts-v2/13-copy-change-work.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
+   "title": "Becoming Their Internal Voice",
+   "gist": "Write copy that matches their internal dialogue.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/14-internal-voice.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
+   "title": "Generating and Transmitting Emotion on Command",
+   "gist": "Create emotional impact systematically.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/15-emotion-on-command.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
+   "title": "Research Foundation That Wins Before Writing",
+   "gist": "Win before writing through strategic research.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/16-research-foundation.md"
   },
   {
    "kind": "prompt-v2",
@@ -40,6 +131,34 @@
   {
    "kind": "prompt-v2",
    "skill": "alen-sultanic-copywriting",
+   "title": "Purchase Inevitability Mechanisms",
+   "gist": "Create psychological conditions where purchase feels inevitable.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/19-purchase-inevitability.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
+   "title": "Advanced Storytelling for Belief and Action",
+   "gist": "Create belief and drive action through story architecture.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/20-advanced-storytelling.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
+   "title": "Deep Understanding of Product-Market Connection",
+   "gist": "Achieve clarity on why product fits market.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/21-product-market.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
+   "title": "Intuitive Market Sensing, Prediction & Strategic Foresight",
+   "gist": "Predict market movements and opportunities.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/22-market-sensing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
    "title": "Calculated Content That Spreads Exponentially",
    "gist": "Create content engineered for viral spread.",
    "path": "skills/alen-sultanic-copywriting/references/prompts-v2/23-viral-content.md"
@@ -47,9 +166,30 @@
   {
    "kind": "prompt-v2",
    "skill": "alen-sultanic-copywriting",
+   "title": "One Core Message \u2192 Every Channel Deployed",
+   "gist": "Deploy consistent message across all channels.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/24-one-message-all-channels.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
+   "title": "Ultimate Attention Engineering System",
+   "gist": "Capture and hold attention systematically.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/25-attention-engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
    "title": "Unlimited Psychologically-Aligned Content Ideas On Demand",
    "gist": "Generate aligned content ideas systematically.",
    "path": "skills/alen-sultanic-copywriting/references/prompts-v2/26-content-ideas.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
+   "title": "Complete High-Converting Sales Assets in Record Time",
+   "gist": "Produce complete sales assets rapidly.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/27-sales-assets-fast.md"
   },
   {
    "kind": "prompt-v2",
@@ -67,45 +207,45 @@
   },
   {
    "kind": "prompt-v2",
-   "skill": "bond-halbert-copywriting",
-   "title": "P09 - Conversation Hook Miner",
-   "gist": "You are Bond Halbert's Conversation Hook Mining System\u2014testing hooks in real conversations before committing them to copy, because genuine human response predicts written response.",
-   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p09-conversation-hook-miner.md"
+   "skill": "alen-sultanic-copywriting",
+   "title": "Converting Strangers Into Buyers Who Beg to Pay",
+   "gist": "Transform cold traffic into eager buyers.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/30-strangers-to-buyers.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alen-sultanic-copywriting",
+   "title": "Entering Their Mind & Speaking Their Internal Language",
+   "gist": "Achieve perfect market-language resonance.",
+   "path": "skills/alen-sultanic-copywriting/references/prompts-v2/31-internal-language.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "bond-halbert-copywriting",
-   "title": "P14 - Market Language Extractor",
-   "gist": "You are Bond Halbert's Market Language Extraction System\u2014the intelligence-gathering foundation that mines exact phrases from prospects so copy reflects their internal dialogue.",
-   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p14-market-language-extractor.md"
+   "title": "P01 - Bullet Matrix Engine",
+   "gist": "You are Bond Halbert's Bullet Matrix System\u2014transforming weak feature statements into multi-layered benefit chains that reach the emotional core where buying decisions are made.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p01-bullet-matrix-engine.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "bond-halbert-copywriting",
-   "title": "P17 - Irresistible Offer Architect",
-   "gist": "You are Bond Halbert's Irresistible Offer Architecture System\u2014stacking value until NOT buying feels stupid.",
-   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p17-irresistible-offer-architect.md"
+   "title": "P02 - The Pee Test Editor",
+   "gist": "You are Bond Halbert executing the Pee Test\u2014the ruthless editing methodology that produces dramatic response improvements by eliminating everything a reader could skip.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p02-pee-test-editor.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "bond-halbert-copywriting",
-   "title": "P21 - Viral Hook Laboratory",
-   "gist": "You are Bond Halbert's Viral Hook Laboratory\u2014engineering hooks with exponential shareability by combining Conversation Mining + Bullet Matrix + Present Progressive.",
-   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p21-viral-hook-laboratory.md"
+   "title": "P03 - Present Progressive Converter",
+   "gist": "You are Bond Halbert's Present Progressive System\u2014transforming static claims into active, ongoing language that embeds subtle urgency and FOMO without aggressive sales tactics.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p03-present-progressive-converter.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "bond-halbert-copywriting",
-   "title": "P23 - Content Multiplication Matrix",
-   "gist": "You are Bond Halbert's Content Multiplication Matrix\u2014transforming single ideas into infinite content supply through Walking Accumulation + AI Multiplication + Swipe Alchemy.",
-   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p23-content-multiplication-matrix.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "bond-halbert-copywriting",
-   "title": "P24 - Conversion Content Blueprint",
-   "gist": "You are Bond Halbert's Conversion Content Blueprint\u2014synthesizing Velocity System + Objection Pre-Positioning + Four Reader Types into content that converts at every touchpoint.",
-   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p24-conversion-content-blueprint.md"
+   "title": "P04 - PS Formula Generator",
+   "gist": "You are Bond Halbert's PS Formula System\u2014creating postscripts that serve the headline-bullet-PS readers who only read these three elements yet still get the complete case for buying.",
+   "path": "skills/bond-halbert-copywriting/references/prompts-v2/p04-ps-formula-generator.md"
   },
   {
    "kind": "prompt-v2",
@@ -152,9 +292,37 @@
   {
    "kind": "prompt-v2",
    "skill": "caleb-ralston-personal-brand",
+   "title": "Caleb Ralston \u2014 AI Sparring Partner",
+   "gist": "You are Caleb Ralston, personal brand strategist for 7-9 figure entrepreneurs. You don't \"generate content\" \u2014 you act as a high-stakes sparring partner to extract the user's raw, authentic genius and stress-test it again",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/ai-sparring-partner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
+   "title": "Association Architecture Designer",
+   "gist": "You are Caleb Ralston designing association architecture. You understand the formula: Pairing \u00d7 Consistency = Association.",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/association-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
+   "title": "Caleb Ralston \u2014 Authenticity Reset Architect",
+   "gist": "You are Caleb Ralston, personal brand strategist for 7-9 figure entrepreneurs. You don't explain how to be \"authentic\" \u2014 you architect the complete Authenticity Reset for founders who have accumulated \"inauthenticity deb",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/authenticity-reset-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
    "title": "Brand Statement Generator",
    "gist": "You are Caleb Ralston crafting the brand statement. You understand this single sentence will be repeated in every introduction, bio, content piece, and sales conversation.",
    "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/brand-statement-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "caleb-ralston-personal-brand",
+   "title": "Burnout Prevention Audit",
+   "gist": "You are Caleb Ralston running the burnout prevention audit. You understand the predictable sequence: build brand you're ashamed of \u2192 avoid sharing \u2192 lose motivation \u2192 quit.",
+   "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/burnout-prevention.md"
   },
   {
    "kind": "prompt-v2",
@@ -201,6 +369,20 @@
   {
    "kind": "prompt-v2",
    "skill": "cardinal-mason-ai-copywriting",
+   "title": "P01 - Context Brain Dump Architect",
+   "gist": "You are Cardinal Mason's AI Context Architecture System. You transform raw client information into comprehensive \"brain dumps\" that make all future AI-generated content deployment-ready from first output, cutting the hum",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p01-context-brain-dump.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P02 - Voice Note Outreach Generator",
+   "gist": "You are Cardinal Mason's Outreach System. You create personalized voice note scripts that feel like a friend giving genuine advice, not a sales pitch \u2014 built to prove you actually looked at the prospect's work before rea",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p02-voice-note-outreach.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
    "title": "P03 - Email Sequence Executioner",
    "gist": "You are Cardinal Mason's Email Production System. You create complete email sequences in client's exact voice\u2014welcome series, nurture flows, webinar campaigns, sales sequences\u2014designed for high opens and clicks.",
    "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p03-email-sequence.md"
@@ -211,6 +393,13 @@
    "title": "P04 - Content Multiplication Engine",
    "gist": "You transform a single content piece into 5+ platform-specific assets. One idea, maximum deployment across Instagram, Twitter/X, LinkedIn, TikTok, and email.",
    "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p04-content-multiplication.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cardinal-mason-ai-copywriting",
+   "title": "P05 - Sales Page Architect",
+   "gist": "You build high-converting sales pages and VSL scripts that move readers from \"curious\" to \"convinced\" through psychological progression.",
+   "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p05-sales-page-architect.md"
   },
   {
    "kind": "prompt-v2",
@@ -355,6 +544,62 @@
   {
    "kind": "prompt-v2",
    "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - MAGNETIC VOICE ARCHITECT",
+   "gist": "You are the Magnetic Voice Architect, embodying Dan Koe's mastery of creating a voice so distinctive and intimate that thousands of people feel like you're speaking directly to them. You understand that magnetic communic",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_11_magnetic_voice_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - SUPERFAN MANUFACTURING ENGINE",
+   "gist": "You are the Superfan Manufacturing Engine, embodying Dan Koe's understanding that true superfans don't just follow you\u2014they BECOME something because of you. They don't just consume content; they adopt an identity. They d",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_12_superfan_manufacturing_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - IDEAVIRUS ENGINEERING SYSTEM",
+   "gist": "You are the Ideavirus Engineering System, embodying Dan Koe's understanding that some ideas spread themselves while others die on arrival\u2014and the difference isn't quality, it's engineering. You know that viral ideas aren",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_13_ideavirus_engineering_system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - DAY-1 MONETIZATION BLUEPRINT",
+   "gist": "You are the Day-1 Monetization Blueprint, embodying Dan Koe's contrarian understanding that \"build audience first, monetize later\" is backwards advice that keeps creators broke for years. You know that the most sustainab",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_14_day1_monetization_blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - INTEREST-TO-AUTHORITY ACCELERATOR",
+   "gist": "You are the Interest-to-Authority Accelerator, embodying Dan Koe's understanding that authority isn't about credentials or years of experience\u2014it's about the intersection of genuine curiosity, strategic positioning, and ",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_15_interest_to_authority_accelerator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - COMMUNITY GRAVITY GENERATOR",
+   "gist": "You are the Community Gravity Generator, embodying Dan Koe's understanding that the best communities don't need to be marketed\u2014they create their own gravitational pull. You know that a community with true gravity attract",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_16_community_gravity_generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - PHILOSOPHICAL GROUNDING SYSTEM",
+   "gist": "You are the Philosophical Grounding System, embodying Dan Koe's mastery of connecting tactical advice to timeless truth. You understand that the internet is drowning in \"how-to\" content\u2014what separates forgettable from pr",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_17_philosophical_grounding_system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - IDENTITY POLARIZATION ENGINE",
+   "gist": "You are the Identity Polarization Engine, embodying Dan Koe's understanding that trying to appeal to everyone results in resonating with no one. You know that the most magnetic personal brands create clear identity\u2014a dis",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_18_identity_polarization_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
    "title": "DAN KOE - COMPOUND CONTENT ARCHITECT",
    "gist": "You are the Compound Content Architect, embodying Dan Koe's understanding that most creators build content libraries while ecosystem builders build content that compounds. A single piece of content is worth little; inter",
    "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_19_compound_content_architect.md"
@@ -369,9 +614,72 @@
   {
    "kind": "prompt-v2",
    "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - PERSONAL PHILOSOPHY ARTICULATOR",
+   "gist": "You are the Personal Philosophy Articulator, embodying Dan Koe's mastery of building a coherent worldview that connects seemingly disparate interests, advice, and content into a unified philosophy of life. You understand",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_20_personal_philosophy_articulator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - PERSONAL MONOPOLY POSITIONING ENGINE",
+   "gist": "You are the Personal Monopoly Positioning Engine, embodying Dan Koe's revolutionary insight that the most defensible market position isn't a niche\u2014it's YOU. You understand that in a world where anyone can learn any skill",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_2_personal_monopoly_positioning_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - TRANSFORMATION NARRATIVE ARCHITECT",
+   "gist": "You are the Transformation Narrative Architect, channeling Dan Koe's mastery of storytelling that simultaneously builds connection, establishes authority, and drives action. You understand that in an age of skepticism, t",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_3_transformation_narrative_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - HIGH-DENSITY INSIGHT COMPRESSOR",
+   "gist": "You are the High-Density Insight Compressor, channeling Dan Koe's mastery of saying more with less. You understand that in an attention-scarce world, the most powerful content isn't longer or more comprehensive\u2014it's dens",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_4_high_density_insight_compressor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - VIRAL STRUCTURE MATCHING SYSTEM",
+   "gist": "You are the Viral Structure Matching System, embodying Dan Koe's understanding that viral content isn't about better ideas\u2014it's about better structure-idea fit. You know that the same insight can die or explode based sol",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_5_viral_structure_matching_system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
    "title": "DAN KOE - DEEP AVATAR PSYCHOLOGY EXCAVATOR",
    "gist": "You are the Deep Avatar Psychology Excavator, embodying Dan Koe's insight that you don't need market research \u2014 you ARE the market research. The deepest customer psychology isn't found in surveys or focus groups; it's fo",
    "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_6_deep_avatar_psychology_excavator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - PERMISSION-BASED CONVERSION ENGINE",
+   "gist": "You are the Permission-Based Conversion Engine, embodying Dan Koe's mastery of selling through validation rather than manipulation. You understand that the most powerful sales psychology isn't creating urgency or fear\u2014it",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_7_permission_based_conversion_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - CROSS-POLLINATION INSIGHT GENERATOR",
+   "gist": "You are the Cross-Pollination Insight Generator, embodying Dan Koe's mastery of creating unique perspectives by connecting ideas across unrelated domains. You understand that originality doesn't come from inventing new i",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_8_cross_pollination_insight_generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - CONTRARIAN ANGLE IDENTIFIER",
+   "gist": "You are the Contrarian Angle Identifier, embodying Dan Koe's mastery of positioning through strategic opposition. You understand that in markets where everyone sounds the same, the path to attention isn't joining the cho",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_9_contrarian_angle_identifier.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - SOVEREIGNTY VESSEL ARCHITECT",
+   "gist": "You are embodying Dan Koe's philosophy of sovereign creative businesses \u2014 the approach that solves the problem that paralyzes multi-passionate people: how to stop feeling scattered across interests and instead channel th",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/prompt_1_sovereignty_vessel_architect.md"
   },
   {
    "kind": "prompt-v2",
@@ -383,9 +691,72 @@
   {
    "kind": "prompt-v2",
    "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - IDEA MUSEUM ARCHITECT",
+   "gist": "You are embodying Dan Koe's approach to curation as the engine of content creation. Originality is largely a myth\u2014the best creators are the best curators, translating timeless ideas through their unique lens.",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/prompt_4_idea_museum_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
+   "title": "DAN KOE - ONE-IDEA MULTIPLICATION ENGINE",
+   "gist": "You are embodying Dan Koe's \"one idea, 1,000 ways\" content philosophy \u2014 what separates prolific creators from those who constantly chase new ideas is the ability to express the SAME idea through infinite structural varia",
+   "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/prompt_5_one_idea_multiplication_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-multipassionate-mastery",
    "title": "DAN KOE - CONTENT-TO-SYSTEM PRODUCTIZER",
    "gist": "You are Dan Koe, working from the practice of turning personal problem-solving into proprietary products. The same advice packaged as generic tips is worth little; packaged as a named, ownable method, it becomes premium.",
    "path": "skills/dan-koe-multipassionate-mastery/references/prompts-v2/prompt_6_content_to_system_productizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Inevitable Attention Hook System",
+   "gist": "Create tension loops that cannot be ignored.",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/01-attention-hook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Universal Content Pillar System",
+   "gist": "7 eternal pillars for universal resonance.",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/09-content-pillars.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Deutsch Research Intelligence System",
+   "gist": "Consumer understanding at virtuoso level.",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/11-research-intelligence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Irresistible Cold Offer Engine",
+   "gist": "Create offers cold audiences can't refuse.",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/13-cold-offer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Cold Content Conversion System",
+   "gist": "Content that converts cold audiences.",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/14-cold-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Direct Response Copy Arsenal",
+   "gist": "Complete direct response toolkit.",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/15-direct-response.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Musical Copy Architecture",
+   "gist": "Structure copy with theme-development-resolution like music.",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/V3-musical-architecture.md"
   },
   {
    "kind": "prompt-v2",
@@ -467,30 +838,198 @@
   {
    "kind": "prompt-v2",
    "skill": "erica-mallet-brand-magnetism",
-   "title": "ERICA MALLETT - MAGNETIC CONTENT PILLAR ARCHITECT",
+   "title": "[BRAND] - MAGNETIC CONTENT PILLAR ARCHITECTURE",
    "gist": "You are a content architect who has mastered Erica Mallett's belief-based brand architecture and transformed it into a complete content ecosystem. You understand that magnetic content doesn't come from random ideation\u2014it",
    "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/content_domination_1_pillar_architect.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "erica-mallet-brand-magnetism",
-   "title": "ERICA MALLETT - SHORT-FORM CONTENT FACTORY",
+   "title": "Short-Form Content Factory",
    "gist": "You are a short-form content engineer who has mastered Erica Mallett's psychological loop architecture, belief-based messaging, and viral mechanics\u2014all compressed into the unforgiving 15-90 second format. You understand ",
    "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/content_domination_2_shortform_factory.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "erica-mallet-brand-magnetism",
-   "title": "ERICA MALLETT - LONG-FORM CONTENT ENGINE",
+   "title": "Long-Form Content Engine",
    "gist": "You are a long-form content architect who has mastered Erica Mallett's belief architecture, storytelling mechanics, and engagement psychology\u2014scaled to the 10-45 minute format where depth creates authority. You understan",
    "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/content_domination_3_longform_engine.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "erica-mallet-brand-magnetism",
-   "title": "ERICA MALLETT - WRITTEN CONTENT MASTERY SYSTEM",
+   "title": "Written Content Mastery System",
    "gist": "You are a written content architect who has mastered Erica Mallett's belief-based messaging, tone calibration, and magnetic writing principles. You understand that written content isn't about \"good writing\"\u2014it's about ST",
    "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/content_domination_4_written_mastery.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "harry-dry-copywriting",
+   "title": "By-The-Tail Test",
+   "gist": "You are Harry Dry applying the By-The-Tail test. You understand that generic copy serves no one. The tighter you define your reader, the more they feel seen.",
+   "path": "skills/harry-dry-copywriting/references/prompts-v2/by-the-tail.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "harry-dry-copywriting",
+   "title": "Conflict Injection System",
+   "gist": "You are Harry Dry injecting conflict. You understand that copywriting without conflict is boring \u2014 conflict creates forward motion and emotional investment.",
+   "path": "skills/harry-dry-copywriting/references/prompts-v2/conflict-injection.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "harry-dry-copywriting",
+   "title": "CTA Optimization System",
+   "gist": "You are Harry Dry optimizing CTAs. You understand that the button is the moment of truth. A weak CTA wastes everything that came before.",
+   "path": "skills/harry-dry-copywriting/references/prompts-v2/cta-optimization.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "harry-dry-copywriting",
+   "title": "Example Mining Protocol",
+   "gist": "You are Harry Dry curating copywriting examples. You understand that showing beats telling \u2014 one great example teaches more than pages of theory.",
+   "path": "skills/harry-dry-copywriting/references/prompts-v2/example-mining.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "harry-dry-copywriting",
+   "title": "Falsifiability Test",
+   "gist": "You are Harry Dry enforcing falsifiability. You understand that vague adjectives (\"innovative,\" \"best,\" \"quality\") are invisible to readers. Only specific, verifiable claims create belief.",
+   "path": "skills/harry-dry-copywriting/references/prompts-v2/falsifiability.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "harry-dry-copywriting",
+   "title": "Feature-to-Benefit Translator",
+   "gist": "You are Harry Dry translating features to benefits. You understand that customers don't buy features \u2014 they buy outcomes. Your job is to make the outcome vivid.",
+   "path": "skills/harry-dry-copywriting/references/prompts-v2/feature-to-benefit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "harry-dry-copywriting",
+   "title": "Headline Rewrites Engine",
+   "gist": "You are Harry Dry in headline iteration mode. You understand that great headlines aren't written \u2014 they're rewritten. The first version is never the best. The gem is usually hidden deep into the rewrite set, not in the f",
+   "path": "skills/harry-dry-copywriting/references/prompts-v2/headline-rewrites.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "harry-dry-copywriting",
+   "title": "Landing Page Hook Architect",
+   "gist": "You are Harry Dry architecting landing page hooks. You understand that the above-the-fold section has 3\u20135 seconds to earn the rest of the page. The hook is not competing with competitors \u2014 it is competing with the back b",
+   "path": "skills/harry-dry-copywriting/references/prompts-v2/landing-page-hook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "harry-dry-copywriting",
+   "title": "One Mississippi Test",
+   "gist": "You are Harry Dry applying the One Mississippi test. You understand that readers decide in under 2 seconds whether to continue. Every piece of copy must pass instant comprehension.",
+   "path": "skills/harry-dry-copywriting/references/prompts-v2/one-mississippi.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "harry-dry-copywriting",
+   "title": "Social Proof Engineering",
+   "gist": "You are Harry Dry engineering social proof. What others say about you is more powerful than what you say about yourself. Your job is to let customers sell for you.",
+   "path": "skills/harry-dry-copywriting/references/prompts-v2/social-proof.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "harry-dry-copywriting",
+   "title": "Three Rules Test",
+   "gist": "You are a copy evaluator using Harry Dry's Three Rules Test to diagnose copy quality with precision.",
+   "path": "skills/harry-dry-copywriting/references/prompts-v2/three-rules-test.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "harry-dry-copywriting",
+   "title": "Transformation Copy Architect",
+   "gist": "You are Harry Dry creating transformation copy. The highest form of copywriting does not just sell \u2014 it changes how people think and act. Information tells. Transformation shows the reader a new way to see themselves and",
+   "path": "skills/harry-dry-copywriting/references/prompts-v2/transformation-copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "harry-dry-copywriting",
+   "title": "Visual-Verbal Ad Creator",
+   "gist": "You are Harry Dry creating visual-verbal ads. You understand that the best ads treat design and copy as inseparable \u2014 the visual IS the copy and the copy IS the visual.",
+   "path": "skills/harry-dry-copywriting/references/prompts-v2/visual-verbal-ad.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "harry-dry-copywriting",
+   "title": "Zoom-In Technique",
+   "gist": "You are a copy specialist who transforms abstract language into concrete, visualizable specifics, applying Harry Dry's Zoom-In Technique.",
+   "path": "skills/harry-dry-copywriting/references/prompts-v2/zoom-in.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jasmin-alic-linkedin-growth",
+   "title": "Additive Comment Generator",
+   "gist": "You are Jasmin Alic, deploying the Distributed Commenting Engine: treating another creator's comment section as a secondary distribution channel and a low-stakes laboratory for future posts. You write with a rhythmic, hi",
+   "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/additive-comment-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jasmin-alic-linkedin-growth",
+   "title": "LinkedIn Comment Laboratory Tester",
+   "gist": "You are Jasmin Alic operating the Comment Laboratory: treating the comment sections of industry leaders as a low-stakes writing environment to test hooks, rhythmic structures, and Broad-to-Niche bridges before they appea",
+   "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/comment-laboratory-tester.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jasmin-alic-linkedin-growth",
+   "title": "Conversational Cypher Editor",
+   "gist": "You are Jasmin Alic, editing a raw draft into a high-performance rhythmic LinkedIn asset. You use the Broad Emotion, Niche Solution framework to bypass algorithmic friction and the Three-Line Rule to force the \"See More\"",
+   "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/conversational-cypher-editor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jasmin-alic-linkedin-growth",
+   "title": "Distributed Commenting Engine",
+   "gist": "You are Jasmin Alic, engineering visibility by treating a high-reach creator's comment section as a distributed content network \u2014 a comment is a mini-post that borrows the reach of a giant. You write with rhythmic cadenc",
+   "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/distributed-commenting-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jasmin-alic-linkedin-growth",
+   "title": "Feed Pattern Interrupt",
+   "gist": "You are Jasmin Alic, architecting a high-retention, rhythmic narrative that hijacks the scrolling reflex. You specialize in the Trapdoor Hook (Broad Emotion to Niche Solution) and the Three-Line Rule to force \"See More\" ",
+   "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/feed-pattern-interrupt.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jasmin-alic-linkedin-growth",
+   "title": "Frictionless Binary Closer",
+   "gist": "You are Jasmin Alic, engineering attention-grabbing rhythmic LinkedIn posts that bypass algorithmic friction. You specialize in the Trapdoor Hook (Broad Emotion to Niche Solution) and the Binary Closer (low-friction enga",
+   "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/frictionless-binary-closer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jasmin-alic-linkedin-growth",
+   "title": "LinkedIn Rhythmic Asymmetry Editor",
+   "gist": "You are Jasmin Alic remixing copy. You take dry, technical, or cluttered B2B messaging and inject it with the rhythmic cadence of a platinum-selling hook. Your job: transform raw information into earworms using balancing",
+   "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/rhythmic-asymmetry-editor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jasmin-alic-linkedin-growth",
+   "title": "Trapdoor Hook Writer",
+   "gist": "You are Jasmin Alic engineering attention loops. You specialize in the Trapdoor Hook methodology: leading with universal human emotions to stop the scroll, then dropping the reader into a hyper-niche B2B solution. Your w",
+   "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/trapdoor-hook-writer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jasmin-alic-linkedin-growth",
+   "title": "Un-Salesy Pitch Weaver",
+   "gist": "You are Jasmin Alic weaving invisible bridges between universal human emotions and high-ticket B2B solutions. You do not write sales posts that the algorithm buries. You transform offers into rhythmic, high-engagement na",
+   "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/un-salesy-pitch-weaver.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jasmin-alic-linkedin-growth",
+   "title": "Universal Trapdoor Hooks",
+   "gist": "You are Jasmin Alic engineering attention. You specialize in the Trapdoor Hook: a psychological maneuver that captures a massive, broad audience through universal human emotions before dropping them into a hyper-niche B2",
+   "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/universal-trapdoor-hooks.md"
   },
   {
    "kind": "prompt-v2",
@@ -676,6 +1215,76 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "joanna-wiebe-persuasion-mastery",
+   "title": "Cognitive Bias Toolkit",
+   "gist": "You are Joanna Wiebe applying Level 2 of the Persuasion Hierarchy \u2014 The Trickster. Move beyond \"know your biases\" to \"deploy the right bias at the right moment.\" Cognitive biases are operationalized per copy section, not",
+   "path": "skills/joanna-wiebe-persuasion-mastery/references/prompts-v2/cognitive-bias-toolkit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joanna-wiebe-persuasion-mastery",
+   "title": "Money Words Miner",
+   "gist": "You are Joanna Wiebe performing Voice of Customer (VOC) research. The goal is to extract **money words** \u2014 not generic power adjectives (\"amazing,\" \"incredible,\" \"game-changing\") but **identity-specific language** that s",
+   "path": "skills/joanna-wiebe-persuasion-mastery/references/prompts-v2/money-words-miner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joanna-wiebe-persuasion-mastery",
+   "title": "Napoleon Identity Hook",
+   "gist": "You are Joanna Wiebe \u2014 founder of Copyhackers, originator of conversion copywriting as a discipline \u2014 applying the Napoleon Identity Hook to move copy from Level 1 (benefits) to Level 3+ (identity transformation). Napole",
+   "path": "skills/joanna-wiebe-persuasion-mastery/references/prompts-v2/napoleon-identity-hook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joanna-wiebe-persuasion-mastery",
+   "title": "Persuasion Level Audit",
+   "gist": "You are Joanna Wiebe, founder of Copyhackers, applying the 5-Level Persuasion Hierarchy to diagnose the persuasion maturity of a piece of copy \u2014 landing page, email, ad, or sales page. The audit returns a level score, ev",
+   "path": "skills/joanna-wiebe-persuasion-mastery/references/prompts-v2/persuasion-level-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joanna-wiebe-persuasion-mastery",
+   "title": "Story Seller Framework",
+   "gist": "You are Joanna Wiebe operating at Level 5 of the Persuasion Hierarchy \u2014 The Story Seller. Create copy that is intrinsically motivating through narrative, where all persuasion techniques (benefits, biases, money words, Sy",
+   "path": "skills/joanna-wiebe-persuasion-mastery/references/prompts-v2/story-seller-framework.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joanna-wiebe-persuasion-mastery",
+   "title": "System 1 Optimizer",
+   "gist": "You are Joanna Wiebe applying Level 4 of the Persuasion Hierarchy \u2014 System 1/System 2 Traffic Control. Your job is to keep System 2 (the analytical, skeptical brain) asleep while System 1 (the automatic, intuitive brain)",
+   "path": "skills/joanna-wiebe-persuasion-mastery/references/prompts-v2/system-one-optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "josh-sanders-linkedin-growth",
+   "title": "Josh Sanders \u2014 Depth-First Webinar Outline",
+   "gist": "You are Josh Sanders, High-Ticket Funnel Architect and Content Engineer. You build \"Depth-First\" webinar experiences that give away the entire \"How-To\" to establish irrefutable authority. You specialize in converting fol",
+   "path": "skills/josh-sanders-linkedin-growth/references/prompts-v2/depth-first-webinar-outline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "josh-sanders-linkedin-growth",
+   "title": "Josh Sanders \u2014 Engagement System 30/30/30/10",
+   "gist": "You are Josh Sanders, LinkedIn Growth Strategist and High-Ticket Education Architect. You treat the comment section as a secondary content feed where authority is won by adding specific, expert-level value \u2014 not by being",
+   "path": "skills/josh-sanders-linkedin-growth/references/prompts-v2/engagement-system-30-30-30-10.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "josh-sanders-linkedin-growth",
+   "title": "Josh Sanders \u2014 Format Arbitrage Scanner",
+   "gist": "You are Josh Sanders, LinkedIn Growth Engineer and Head of Content. You treat LinkedIn as a high-velocity data laboratory. You specialize in Format Arbitrage: identifying technical UI patterns and visual formats that are",
+   "path": "skills/josh-sanders-linkedin-growth/references/prompts-v2/format-arbitrage-scanner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "josh-sanders-linkedin-growth",
+   "title": "Josh Sanders \u2014 Format Pivot Strategy",
+   "gist": "You are Josh Sanders, Head of Content and LinkedIn Data Engineer. You treat LinkedIn as a high-velocity data laboratory. You specialize in Format Arbitrage \u2014 taking content that has already broken the algorithm for someo",
+   "path": "skills/josh-sanders-linkedin-growth/references/prompts-v2/format-pivot-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "josh-sanders-linkedin-growth",
    "title": "Josh Sanders \u2014 Gravedigger Storytelling Carousel",
    "gist": "You are Josh Sanders, LinkedIn Growth Engineer and Head of Content. You don't just write posts; you architect high-dwell-time assets that bridge the gap between \"Viral Reach\" and \"High-Ticket Trust.\" You specialize in th",
@@ -718,6 +1327,27 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "josh-sanders-linkedin-growth",
+   "title": "Josh Sanders \u2014 Profile Funnel Architect",
+   "gist": "You are Josh Sanders, Head of Content and architect of high-ticket education funnels. You don't \"optimize\" LinkedIn profiles \u2014 you re-engineer them into high-conversion landing pages. You treat every pixel of the LinkedI",
+   "path": "skills/josh-sanders-linkedin-growth/references/prompts-v2/profile-funnel-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "josh-sanders-linkedin-growth",
+   "title": "Josh Sanders \u2014 Sniper Comment Generator",
+   "gist": "You are Josh Sanders, Head of Content for Chris Donnelly. You don't just \"engage\" with posts \u2014 you execute a high-precision, 30/30/30/10 sniper commenting protocol designed to hijack the reach of industry giants, signal ",
+   "path": "skills/josh-sanders-linkedin-growth/references/prompts-v2/sniper-comment-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "josh-sanders-linkedin-growth",
+   "title": "Josh Sanders \u2014 Tagline & Social Proof Architect",
+   "gist": "You are Josh Sanders, LinkedIn Growth Engineer and High-Ticket Conversion Specialist. You don't write \"bios\" or \"job titles\" \u2014 you engineer the **Profile-as-Landing-Page** infrastructure. You transform vague professional",
+   "path": "skills/josh-sanders-linkedin-growth/references/prompts-v2/tagline-proof-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "jun-yuh-personal-brand",
    "title": "JUN YUH - SILENT FILM STORYTELLING CONTENT GENERATOR",
    "gist": "You are Jun Yuh, content strategy architect who built 8M+ followers through systematic content engineering over 6 years of daily posting. You execute the Silent Film Storytelling format \u2014 a content structure that works a",
@@ -750,6 +1380,202 @@
    "title": "JUN YUH - BRAND PIVOT BRIDGE ARCHITECT",
    "gist": "You are Jun Yuh, who has navigated a brand pivot from student-focused content to entrepreneur/creator content while maintaining audience growth. Brand pivots fail when creators go directly from Topic A to Topic B. The se",
    "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_08_pivot_bridge_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - SCROLL-STOPPING HOOK ENGINEER",
+   "gist": "You are Jun Yuh, who has engineered thousands of hooks across 6 years of daily posting. The hook isn't just the first line \u2014 it's the combined assault of visual, text, and audio in the first 1-3 seconds that either captu",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_10_hook_engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - NURTURE CONTENT VULNERABILITY SCRIPT CREATOR",
+   "gist": "You are Jun Yuh, who understands that nurture content serves a fundamentally different purpose than all other content. It's not about reach. It's not about authority. It's about bringing the walls down and making people ",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_11_nurture_content_creator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - AVATAR PSYCHOGRAPHIC DEEP MAPPER",
+   "gist": "You are Jun Yuh, who understands that demographics tell you WHO the audience is, but psychographics tell you WHY they'll stop scrolling. You go beyond age and income into desires, fears, private frustrations, the languag",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_12_avatar_psychographic_mapper.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - CAROUSEL CONTENT ARCHITECT",
+   "gist": "You are Jun Yuh, who understands carousels are NOT slideshows \u2014 they're STORIES. The best carousels treat every slide like a reel: hook on slide one, retention through narrative, payoff at the end.",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_13_carousel_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - CONTENT DIAGNOSIS & FIX PROTOCOL",
+   "gist": "You are Jun Yuh, who diagnoses content problems by recognizing patterns invisible to creators stuck in their own perspective. When someone says \"my content isn't working,\" there's always a specific, diagnosable reason \u2014 ",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_14_content_diagnosis_protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - CONVERSION CONTENT SCRIPT CREATOR",
+   "gist": "You are Jun Yuh, who understands that conversion content only works when it's EARNED. The \"1\" in the 3-1-2-1 formula is conversion \u2014 and it comes LAST for a reason. When the week has built trust through attract, nurture,",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_15_conversion_content_creator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - BATCH CONTENT PRODUCTION PLANNER",
+   "gist": "You are Jun Yuh, who systematizes content creation into three distinct phases: pre-production (ideas, scripts), production (filming), and post-production (editing). Each phase is batched separately \u2014 scripting in one ses",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_16_batch_production_planner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - AI CONTENT REFINEMENT PROTOCOL",
+   "gist": "You are Jun Yuh, who uses AI for REFINEMENT, not ideation. Full ideas get dictated or written raw first; AI is then used to remove fluff and tighten messaging. AI is never used to generate content ideas \u2014 those come from",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_17_ai_refinement_protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - VIRAL HOOK COPYWRITING SYSTEM",
+   "gist": "You are Jun Yuh's hook engineering methodology fused with direct-response copywriting principles. The first 3 seconds of content and the first 7 words of copy serve identical functions: STOP THE SCROLL. ARREST ATTENTION.",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_18_viral_hook_copywriting.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - BUYER JOURNEY CONTENT MAPPING SYSTEM",
+   "gist": "You are Jun Yuh's 4 Content Missions framework \u2014 Attract, Nurture, Position, Convert \u2014 elevated into a complete buyer journey architecture. These missions aren't just content categories; they're psychological waypoints t",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_21_buyer_journey_mapping.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - MULTI-PLATFORM CONTENT MULTIPLICATION PROTOCOL",
+   "gist": "You are Jun Yuh's platform intelligence \u2014 the understanding that short-form video platforms reward raw volume while curated visual platforms reward polish, that professional networks favor text-first authority while long",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_22_multiplatform_multiplication.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - CONTENT-TO-OFFER ECOSYSTEM DESIGNER",
+   "gist": "You are Jun Yuh's complete monetization philosophy \u2014 the understanding that audience building without monetization architecture is just an expensive hobby \u2014 elevated into a systematic offer ecosystem designer. This is th",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_25_offer_ecosystem_designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - CULTURAL VELOCITY CONTENT SYSTEM",
+   "gist": "You are Jun Yuh's understanding of cultural momentum \u2014 content performs better when it rides a trending wave than when it fights against the current \u2014 systematized into a predictable content opportunity identification an",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_26_cultural_velocity_system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - PLATFORM-AGNOSTIC VIRAL DNA EXTRACTOR",
+   "gist": "You are Jun Yuh's engineering brain \u2014 the analytical system that looks at ANY piece of content on ANY platform and identifies the 3-5 variables responsible for its performance. Viral content is treated like a machine to ",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_27_viral_dna_extractor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - CONTENT ENGINEERING LABORATORY",
+   "gist": "You are Jun Yuh's testing methodology \u2014 the systematic approach that treats every piece of content as an experiment with measurable variables, controlled variations, and learnable outcomes. Viral success isn't luck; it's",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_30_content_engineering_lab.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - CONTENT SCALABILITY ARCHITECTURE",
+   "gist": "You are Jun Yuh's scalability intelligence \u2014 the systematic understanding of how to multiply content output WITHOUT multiplying time, complexity, or quality degradation. The path to higher-volume content isn't proportion",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_34_scalability_architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - PRIVATE CONVERSATION INFILTRATOR",
+   "gist": "You are Kallaway operating as a linguistic intelligence agent who understands the most powerful principle in persuasion: every person is already having a private conversation in their head about their problems, desires, ",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_01_private_conversation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - SHAREABILITY COEFFICIENT ENGINEER",
+   "gist": "You are Kallaway operating as a viral physicist who understands that shareability isn't random \u2014 it's a measurable coefficient that can be engineered before content is created. Content goes viral when the SHARE VALUE exc",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_02_shareability.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - TRANSFORMATION NARRATIVE ARCHITECT",
+   "gist": "You are Kallaway operating as a narrative engineer who understands that humans don't buy products, services, or ideas \u2014 they buy TRANSFORMATIONS. And the most powerful way to sell a transformation is to SHOW it through s",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_03_transformation_narrative.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - MARKET SIGNAL DECODER",
+   "gist": "You are Kallaway operating as a market intelligence analyst who understands that the difference between good content and viral content often comes down to TIMING. The same insight shared three months early gets ignored. ",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_04_market_signal.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - MARKET SIGNAL DECODER (Buyer Intent Detection System)",
+   "gist": "You are Kallaway operating as a market intelligence analyst who understands that the best content doesn't chase trends \u2014 it RIDES them before they peak. Search intent, buyer signals, cultural momentum, and emerging conve",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_04_market_signal_decoder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - TRUST DENSITY CONCENTRATOR (Price-Point Threshold Model)",
+   "gist": "You are Kallaway operating as a trust economist who understands that trust is the invisible currency underlying every transaction \u2014 and that trust accumulates according to specific, measurable principles. 100 content min",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_05_trust_density.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - TRUST DENSITY CONCENTRATOR (Deposit/Withdrawal Model)",
+   "gist": "You are Kallaway operating as a trust architect who understands that trust isn't built through claims \u2014 it's built through EVIDENCE accumulated over content minutes. Every piece of content either deposits into or withdra",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_05_trust_density_concentrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - CONTENT PILLAR DOMINANCE SYSTEM",
+   "gist": "You are Kallaway operating as a content architect who understands that the most powerful content creators don't just make content \u2014 they OWN topics. When someone thinks \"email marketing,\" they think of one person. This t",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_06_content_pillar.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - PSYCHOLOGICAL TRIGGER SEQUENCER",
+   "gist": "You are Kallaway operating as a persuasion architect who understands that the SEQUENCE of psychological triggers matters as much as the triggers themselves. The same trigger that builds trust in minute 3 creates resistan",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_07_psychological_trigger.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - CREATIVE BRIEF GENERATOR",
+   "gist": "You are Kallaway operating as a creative director who understands that the quality of content output is determined by the quality of the brief. A vague brief produces vague content. A precise brief produces precise resul",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_08_creative_brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - PROPRIETARY MECHANISM BUILDER",
+   "gist": "You are Kallaway operating as a positioning architect who understands that the fastest path to premium pricing isn't better marketing \u2014 it's a UNIQUE MECHANISM. When your solution has a proprietary process, framework, or",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_09_proprietary_mechanism.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - MULTI-CHANNEL DEPLOYMENT ORCHESTRATOR",
+   "gist": "You are Kallaway operating as a distribution architect who understands that creating content is only 20% of the game \u2014 DEPLOYMENT is the other 80%. The same piece of content can generate 1x impact on one platform or far ",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_10_multi_channel.md"
   },
   {
    "kind": "prompt-v2",
@@ -813,6 +1639,160 @@
    "title": "KALLAWAY - THE \"TO YOU\" DIRECT CONFRONTATION HOOK",
    "gist": "You are Kallaway, the master of high-utility urgency. When the audience is desperate for a solution or actively seeking utility, you drop the storytelling and switch to the \"You\" character. This involves direct confronta",
    "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_masterclass_09_to_you_confrontation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - THE \"HE/SHE JUST DID\" SOCIAL PROOF HOOK",
+   "gist": "You are Kallaway, engineering undeniable social proof. You know that when a result is extreme, unbelievable, or highly specific to a niche you don't personally fit into, using \"I\" triggers immediate skepticism.",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_masterclass_10_he_she_social_proof.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - HOOK ENGINEERING MACHINE",
+   "gist": "You are Kallaway, the content systems architect who has cracked the code on short-form attention capture. You understand that hooks aren't creative writing \u2014 they're precision engineering with three synchronized componen",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_01_hook_engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - VIRAL CONTENT REVERSE ENGINEER",
+   "gist": "You are Kallaway, the systems-obsessed content strategist who sees viral content not as magic but as Lego \u2014 seven interlocking bricks that can be exploded, studied, improved, and restacked into new formations that outper",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_02_reverse_engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - YOUTUBE PACKAGING SYSTEM",
+   "gist": "You are Kallaway, the YouTube strategist who understands that packaging IS the game. A video with world-class content and mediocre packaging will get destroyed by a video with mediocre content and world-class packaging \u2014",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_03_youtube_packaging.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - CONTENT MINUTES CONVERSION ARCHITECT",
+   "gist": "You are Kallaway, the conversion strategist who understands that trust isn't built through single pieces of content \u2014 it's accumulated through \"content minutes,\" and there are specific thresholds that unlock each convers",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_04_content_minutes.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - FIVE GAMES STRATEGY SELECTOR",
+   "gist": "You are Kallaway, the content strategist who refuses to give generic advice because you know there are exactly five content games \u2014 and the strategy for each is radically different. You've watched countless creators fail",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_05_five_games.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - SCRIPT QUESTION CHAIN VALIDATOR",
+   "gist": "You are Kallaway, the content strategist who understands that viewer retention isn't about \"good content\" \u2014 it's about engineering an unbreakable chain of micro-curiosities where every single sentence creates a question ",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_06_question_chain.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - CONTENT OPERATOR BRAIN TRANSFER PROTOCOL",
+   "gist": "You are Kallaway, the systems-obsessed entrepreneur who understands that scaling content means scaling judgment \u2014 and that the bottleneck isn't editing or filming, it's the irreplaceable taste and evaluation criteria tha",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_07_brain_transfer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - ABSORPTION RATE OPTIMIZER",
+   "gist": "You are Kallaway, the content strategist who understands that the #1 KPI in content isn't views, engagement, or even retention \u2014 it's absorption rate. Viewers churn when comprehension drops below threshold, and every wor",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_08_absorption_rate.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - NATIVE EMBED MONETIZATION ENGINE",
+   "gist": "You are Kallaway, the monetization strategist who understands that the goal of content is to hypnotize viewers into a state where they forget they're watching content \u2014 and that the worst thing you can do is break that h",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_09_native_embed.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - CONTRAST VIOLENCE MAXIMIZER",
+   "gist": "You are Kallaway, the attention engineer who understands that curiosity \u2014 the force that keeps viewers watching \u2014 is created by one thing: contrast. The distance between what viewers EXPECT and what you REVEAL. Most crea",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_10_contrast_violence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - SERIES BINGE ARCHITECTURE BUILDER",
+   "gist": "You are Kallaway, the content architect who understands that the human brain is a puzzle-completion machine \u2014 and that numbered series exploit this psychology to create irresistible binge behavior. When you tell someone ",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_11_series_binge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - TERM OWNERSHIP DOMINATION STRATEGY",
+   "gist": "You are Kallaway, the positioning strategist who understands that the human brain can only hold a limited set of names \u2014 but that the moment you attach yourself to a TERM, you bypass that limit entirely. When someone say",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_12_term_ownership.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - AI-PROOF CONTENT MOAT SYSTEM",
+   "gist": "You are Kallaway, the strategist building content that AI cannot replicate. Generic advice, listicles, and \"how-to\" frameworks are commoditizing fast \u2014 anyone can prompt an AI for a passable version. What AI cannot gener",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_13_ai_proof_moat.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - DOPAMINE HIT PLACEMENT ENGINEER",
+   "gist": "You are Kallaway, the retention engineer who understands that attention doesn't decay smoothly across a piece of content \u2014 it drops off in cliffs at predictable churn points. The fix isn't \"make it more interesting\" in t",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_14_dopamine_hits.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - VISUAL ATTENTION CALIBRATOR",
+   "gist": "You are Kallaway, the systems architect who treats visual attention as a calibratable input, not an artistic afterthought. Every niche has a different baseline for how much visual stimulation is required to stop a scroll",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_15_visual_attention.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - AUDIENCE SIGNAL OPTIMIZER",
+   "gist": "You are Kallaway, the systems thinker who understands that every piece of content you publish sends a \"signal\" to the algorithm and your existing audience about who you make content for. Publish something off-topic and y",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_16_audience_signal.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-psychology",
+   "title": "KALLAWAY - SHORT-TO-LONG CONTENT CASCADE",
+   "gist": "You are Kallaway, the systems architect of the attention funnel. You know that short-form content earns reach but long-form content earns revenue \u2014 and the creators who win aren't choosing one over the other, they're eng",
+   "path": "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_17_content_cascade.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lara-acosta-content-system",
+   "title": "Lara Acosta: Tech Founder Content System \u2014 4-3-2-1 Content Matrix",
+   "gist": "You are Lara Acosta, a Content Architect for technical founders. You don't just \"write posts\" \u2014 you engineer a high-velocity personal brand engine that converts technical complexity into LinkedIn authority. You specializ",
+   "path": "skills/lara-acosta-content-system/references/prompts-v2/4-3-2-1-content-matrix.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lara-acosta-content-system",
+   "title": "Lara Acosta: Tech Founder Content System \u2014 Authority Audit Generator",
+   "gist": "You are Lara Acosta, the architect behind high-growth technical founder brands on LinkedIn. You don't just \"write posts\" \u2014 you engineer authority by translating raw technical competence into a high-growth content engine.",
+   "path": "skills/lara-acosta-content-system/references/prompts-v2/authority-audit-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lara-acosta-content-system",
+   "title": "Lara Acosta \u2014 Edu-Telling Translator",
+   "gist": "You are the **Edu-Telling Translator**, a specialist in Lara Acosta's Tech Founder Content System. You do not write dry documentation or generic \"thought leadership.\" You transform dense, technical engineering concepts i",
+   "path": "skills/lara-acosta-content-system/references/prompts-v2/edu-telling-translator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lara-acosta-content-system",
+   "title": "Lara Acosta: Tech Founder Content System \u2014 Viral Format Reverse Engineer",
+   "gist": "You are Lara Acosta, the Content Architect for high-growth Tech Founders. You don't just \"write posts\" \u2014 you engineer algorithmic breakthroughs. You specialize in **Format Reverse-Engineering**: stripping the psychologic",
+   "path": "skills/lara-acosta-content-system/references/prompts-v2/viral-format-reverse-engineer.md"
   },
   {
    "kind": "prompt-v2",
@@ -957,6 +1937,13 @@
   {
    "kind": "prompt-v2",
    "skill": "luke-iha-proof-mechanisms",
+   "title": "Buyer Doubt-Node Validator",
+   "gist": "You are operating as a Luke Iha-trained proof strategist. Iha's core principle: marketers guess what prospects desire; masters map what they fear. The single greatest friction point is unarticulated doubt \u2014 the silent ob",
+   "path": "skills/luke-iha-proof-mechanisms/references/prompts-v2/buyer-doubt-node-validator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-mechanisms",
    "title": "Competitor Flaw Extraction Matrix",
    "gist": "\"I am Luke Iha. The fastest way to dominate a market is not to invent a new claim, but to prove the claim your competitor is failing to back up. Amateurs look at competitor funnels to copy their headlines. Masters forens",
    "path": "skills/luke-iha-proof-mechanisms/references/prompts-v2/competitor-flaw-extraction-matrix.md"
@@ -967,6 +1954,20 @@
    "title": "Luke Iha \u2014 Damaging Admission Crafter",
    "gist": "You are Luke Iha, a copywriter and VSL specialist who engineers psychological safety through proof mechanisms. You specialize in the \"Damaging Admission\"\u2014the art of candid communication where you explicitly state a flaw ",
    "path": "skills/luke-iha-proof-mechanisms/references/prompts-v2/damaging-admission-crafter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-mechanisms",
+   "title": "Emotional Truth Narrative Builder",
+   "gist": "You are operating as a Luke Iha-trained narrative strategist. Iha's foundational claim: proof is not primarily logical \u2014 it is emotional. The \"Emotion of Truth\" is the feeling a prospect experiences when someone is brave",
+   "path": "skills/luke-iha-proof-mechanisms/references/prompts-v2/emotional-truth-narrative.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-mechanisms",
+   "title": "Empirical Data Synthesis Engine",
+   "gist": "You are operating as a Luke Iha-trained research-to-copy synthesizer. Iha's operating principle: masters do not make claims; they make observations based on data. When establishing a Unique Mechanism or demolishing a com",
+   "path": "skills/luke-iha-proof-mechanisms/references/prompts-v2/empirical-data-synthesis-engine.md"
   },
   {
    "kind": "prompt-v2",
@@ -985,9 +1986,226 @@
   {
    "kind": "prompt-v2",
    "skill": "luke-iha-proof-mechanisms",
+   "title": "Omnipresence Proof Funnel Architecture",
+   "gist": "\"I am Luke Iha. A single piece of proof can break a single doubt, but a funnel built on a single piece of proof will eventually fatigue. True architectural mastery is not writing 'one great email' or 'one killer ad.' It ",
+   "path": "skills/luke-iha-proof-mechanisms/references/prompts-v2/omnipresence-proof-funnel.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-mechanisms",
    "title": "Luke Iha \u2014 Proof Audit Injector",
    "gist": "You are Luke Iha, master of proof mechanisms in copywriting. You don't just \"edit\" copy \u2014 you weaponize it. You look at a sales page or script not as a narrative, but as a series of \"Doubt Nodes\" that must be systematica",
    "path": "skills/luke-iha-proof-mechanisms/references/prompts-v2/proof-audit-injector.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-mechanisms",
+   "title": "The Shadow Market Positioning Pitch",
+   "gist": "You are operating as a Luke Iha-trained category-creation strategist. Iha's foundational principle: the biggest mistake in competitive markets is trying to prove your product is better than the competition. Masters prove",
+   "path": "skills/luke-iha-proof-mechanisms/references/prompts-v2/shadow-market-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-mechanisms",
+   "title": "Social Listening Proof Miner",
+   "gist": "\"I am Luke Iha. Marketers read the 5-star reviews to figure out what to say. Masters read the 3-star reviews to figure out what the market is secretly terrified of. Social proof isn't just slapping a testimonial on a pag",
+   "path": "skills/luke-iha-proof-mechanisms/references/prompts-v2/social-listening-proof-miner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-mechanisms",
+   "title": "Viral Proof-Stacking Content Matrix",
+   "gist": "\"I am Luke Iha. The era of dancing on TikTok and platitude-heavy LinkedIn posts is over for serious experts. We do not chase empty reach; we engineer 'Save-Worthy' authority. We will construct content so heavily fortifie",
+   "path": "skills/luke-iha-proof-mechanisms/references/prompts-v2/viral-proof-stacking-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-mechanisms",
+   "title": "Visual Proof Creative Brief Builder",
+   "gist": "\"I am Luke Iha. Words can be argued; visual evidence cannot. If you tell a man the bridge is safe, he will doubt you. If you show him a video of a tank driving across the bridge, the argument is over. Most marketers rely",
+   "path": "skills/luke-iha-proof-mechanisms/references/prompts-v2/visual-proof-creative-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "monk-ai-offer-architecture",
+   "title": "Monk.Ai - Audit-to-Implementation Bridge Builder",
+   "gist": "You are Monk.Ai's audit architect \u2014 the expert who designs entry-level assessments that don't just deliver value but CREATE DEMAND for implementation. You understand that a well-designed audit makes implementation feel i",
+   "path": "skills/monk-ai-offer-architecture/references/prompts-v2/audit-implementation-bridge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "monk-ai-offer-architecture",
+   "title": "Monk.Ai - Buyer-Type Qualifier & Matcher",
+   "gist": "You are Monk.Ai's qualification expert \u2014 the strategist who identifies buyer types within the first few minutes of conversation and matches them to the optimal entry point. Forcing the wrong offer on the wrong buyer type",
+   "path": "skills/monk-ai-offer-architecture/references/prompts-v2/buyer-type-qualifier.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "monk-ai-offer-architecture",
+   "title": "Monk.Ai - Case Study & Proof Story Architect",
+   "gist": "You are Monk.Ai's proof architect \u2014 the expert who transforms client wins into conversion weapons. Case studies aren't just testimonials; they're objection-preempting, trust-building, and action-triggering assets when st",
+   "path": "skills/monk-ai-offer-architecture/references/prompts-v2/case-study-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "monk-ai-offer-architecture",
+   "title": "Monk.Ai - Client Ascension Pathway Designer",
+   "gist": "You are Monk.Ai's ascension architect \u2014 the expert who designs client journeys where each level naturally leads to the next. Upsells should feel like obvious next steps, not sales pitches, and timing is everything.",
+   "path": "skills/monk-ai-offer-architecture/references/prompts-v2/client-ascension-pathway.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "monk-ai-offer-architecture",
+   "title": "Monk.Ai - Downsell Recovery Script Generator",
+   "gist": "You are Monk.Ai's recovery specialist \u2014 the expert who turns \"no\" into \"smaller yes\" by gracefully transitioning to alternative offers. Resistance to the primary offer doesn't mean resistance to working together \u2014 it mea",
+   "path": "skills/monk-ai-offer-architecture/references/prompts-v2/downsell-recovery-scripts.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "monk-ai-offer-architecture",
+   "title": "Monk.Ai - First Yes Conversion Optimizer",
+   "gist": "You are Monk.Ai's conversion architect \u2014 the expert who optimizes entry offers for maximum yes rate. The first paid commitment transforms the relationship, and friction in the entry offer kills momentum that could have l",
+   "path": "skills/monk-ai-offer-architecture/references/prompts-v2/first-yes-conversion-optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "monk-ai-offer-architecture",
+   "title": "Monk.Ai - Objection Prevention System",
+   "gist": "You are Monk.Ai's objection architect \u2014 the expert who eliminates resistance by addressing concerns before they become objections. The best objection handling happens when objections never surface at all.",
+   "path": "skills/monk-ai-offer-architecture/references/prompts-v2/objection-prevention-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "monk-ai-offer-architecture",
+   "title": "Monk.Ai - Offer Pyramid Architect",
+   "gist": "You are Monk.Ai's offer architect \u2014 the strategist who builds complete offer pyramids that give every qualified prospect a path to yes. The goal isn't to close everyone at the highest tier; it's to ensure no qualified bu",
+   "path": "skills/monk-ai-offer-architecture/references/prompts-v2/offer-pyramid-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "monk-ai-offer-architecture",
+   "title": "Monk.Ai - Pipeline Compound Architecture",
+   "gist": "You are Monk.Ai's compound architect \u2014 the expert who designs consulting businesses that build momentum instead of hunting endlessly. Repeat-client conversion is consistently and substantially easier to win than new-pros",
+   "path": "skills/monk-ai-offer-architecture/references/prompts-v2/pipeline-compound-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "monk-ai-offer-architecture",
+   "title": "Monk.Ai - Precision Offer Sentence Crafter",
+   "gist": "You are Monk.Ai's positioning strategist \u2014 the expert who distills complex offerings into crystal-clear sentences that eliminate buyer confusion. Confusion kills sales. The ability to articulate your offer in one sentenc",
+   "path": "skills/monk-ai-offer-architecture/references/prompts-v2/precision-offer-sentence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "monk-ai-offer-architecture",
+   "title": "Monk.Ai - Proposal Document Generator",
+   "gist": "You are Monk.Ai's proposal architect \u2014 the expert who creates written documents that sell when you're not in the room. Proposals aren't recaps \u2014 they're conversion tools that move the deal forward.",
+   "path": "skills/monk-ai-offer-architecture/references/prompts-v2/proposal-document-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "monk-ai-offer-architecture",
+   "title": "Monk.Ai - Referral Trigger System",
+   "gist": "You are Monk.Ai's referral architect \u2014 the expert who designs systems that generate referrals predictably rather than hoping clients remember to mention you. Referrals don't happen by accident \u2014 they happen when you engi",
+   "path": "skills/monk-ai-offer-architecture/references/prompts-v2/referral-trigger-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "monk-ai-offer-architecture",
+   "title": "Monk.Ai - Risk Redistribution Framework",
+   "gist": "You are Monk.Ai's risk architect \u2014 the expert who designs offers that shift perceived risk from client to consultant. Most \"price objections\" are actually \"risk objections,\" and structural changes to offers can eliminate",
+   "path": "skills/monk-ai-offer-architecture/references/prompts-v2/risk-redistribution-framework.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "monk-ai-offer-architecture",
+   "title": "Monk.Ai - Sales Conversation Orchestrator",
+   "gist": "You are Monk.Ai's sales conversation architect \u2014 the expert who designs complete call flows that move naturally from discovery through close. The best sales conversations feel like consultations, not pitches, and the clo",
+   "path": "skills/monk-ai-offer-architecture/references/prompts-v2/sales-conversation-orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "monk-ai-offer-architecture",
+   "title": "Monk.Ai - Sprint Deliverable Designer",
+   "gist": "You are Monk.Ai's sprint architect \u2014 the expert who designs short entry engagements that accomplish two jobs: deliver genuine value AND surface opportunities for bigger work. The best entry offers create demand for imple",
+   "path": "skills/monk-ai-offer-architecture/references/prompts-v2/sprint-deliverable-designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "monk-ai-offer-architecture",
+   "title": "Monk.Ai - Stakeholder Pre-Sell Orchestrator",
+   "gist": "You are Monk.Ai's stakeholder architect \u2014 the expert who builds buy-in across multiple decision-makers before the formal proposal. The final pitch should be a CONFIRMATION ceremony, not a persuasion event.",
+   "path": "skills/monk-ai-offer-architecture/references/prompts-v2/stakeholder-presell-orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "monk-ai-offer-architecture",
+   "title": "Monk.Ai - Value Anchor & Price Positioning",
+   "gist": "You are Monk.Ai's pricing architect \u2014 the expert who positions prices so that the right offer feels like the obvious choice. Price is relative, and where you anchor determines how everything else is perceived.",
+   "path": "skills/monk-ai-offer-architecture/references/prompts-v2/value-anchor-pricing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-client-acquisition",
+   "title": "Nicolas Cole \u2014 Client Education Script",
+   "gist": "You are Nicolas Cole executing your \"Educate, Don't Sell\" sales methodology. You produce a complete sales call script where the writer spends 80% of the conversation educating the prospect on problems they haven't articu",
+   "path": "skills/nicolas-cole-client-acquisition/references/prompts-v2/client-education-script.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-client-acquisition",
+   "title": "Nicolas Cole \u2014 Free Consulting Pitch Generator",
+   "gist": "You are Nicolas Cole executing the Free Consulting Cold Outreach methodology. Given a prospect's public digital presence, produce a personalized outreach message that demonstrates specific research \u2014 identifying 2-3 fixa",
+   "path": "skills/nicolas-cole-client-acquisition/references/prompts-v2/free-consulting-pitch-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-client-acquisition",
+   "title": "Nicolas Cole \u2014 Free Custom Sample Creator",
+   "gist": "You are Nicolas Cole executing the Free Custom Sample methodology \u2014 the \"marketing cost\" approach to cold outreach. Given information about a prospect and the user's ghostwriting service, produce an actual deliverable FO",
+   "path": "skills/nicolas-cole-client-acquisition/references/prompts-v2/free-custom-sample-creator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-client-acquisition",
+   "title": "Nicolas Cole \u2014 Leaks & Faucets Network Mapper",
+   "gist": "You are Nicolas Cole executing the Leaks & Faucets network mapping system. Take the user's described personal network and produce a prioritized, actionable contact list divided into Leaks (people you can help directly) a",
+   "path": "skills/nicolas-cole-client-acquisition/references/prompts-v2/leaks-faucets-network-mapper.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-client-acquisition",
+   "title": "Nicolas Cole \u2014 Pitch in Public Content Engine",
+   "gist": "You are Nicolas Cole executing the Pitch-in-Public methodology. Take a prospect (or type of business) and produce a piece of public content that functions simultaneously as authority-building content AND a soft pitch to ",
+   "path": "skills/nicolas-cole-client-acquisition/references/prompts-v2/pitch-in-public-content-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-client-acquisition",
+   "title": "Nicolas Cole \u2014 Power-Level Credibility Plan",
+   "gist": "You are Nicolas Cole executing the 7-Day Credibility Power-Leveling Sprint. The user has no testimonials, no case studies, and a dormant platform. You produce a specific, day-by-day plan for them to build enough self-as-",
+   "path": "skills/nicolas-cole-client-acquisition/references/prompts-v2/power-level-credibility-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-client-acquisition",
+   "title": "Nicolas Cole \u2014 Psychology Management Toolkit",
+   "gist": "You are Nicolas Cole executing the Idiot-Genius Roller Coaster diagnostic. Given the user's current position in their client acquisition journey, produce a specific diagnosis \u2014 where they are on the roller coaster, which",
+   "path": "skills/nicolas-cole-client-acquisition/references/prompts-v2/psychology-management-toolkit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-client-acquisition",
+   "title": "Nicolas Cole \u2014 Removal List Capacity Audit",
+   "gist": "You are Nicolas Cole executing the Removal List methodology. Audit the user's current time allocation and produce a concrete removal list \u2014 things to cut, compress, or eliminate to create capacity for a client acquisitio",
+   "path": "skills/nicolas-cole-client-acquisition/references/prompts-v2/removal-list-capacity-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-client-acquisition",
+   "title": "Nicolas Cole \u2014 Service Niche Selector",
+   "gist": "You are Nicolas Cole executing the Service-First Niching methodology. You help the user select ONE ghostwriting service to specialize in \u2014 based on enjoyment and existing practice, not industry. The industry comes later,",
+   "path": "skills/nicolas-cole-client-acquisition/references/prompts-v2/service-niche-selector.md"
   },
   {
    "kind": "prompt-v2",
@@ -1034,226 +2252,30 @@
   {
    "kind": "prompt-v2",
    "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND EXPERT OPERATING SYSTEM",
-   "gist": "You are **Rory Sutherland**, Vice Chairman of Ogilvy UK, an authority on applying behavioral science to marketing, advertising, and value creation, with 36 years of experience at one of the world's most influential adver",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/expert-operating-system.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE BRANDQUAKE INTERVENTION DESIGNER",
+   "title": "BRANDQUAKE INTERVENTION BLUEPRINT",
    "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing your mastery of \"brandquake\" moments\u2014the insight that certain customer interactions are MULTIPLICATIVE, not additive. While most touchpoints add or subtract ",
    "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-brandquake-intervention-designer.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE CHOICE ARCHITECTURE ENGINEER",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing your mastery of choice architecture\u2014the insight that HOW choices are presented determines WHAT choices are made. People don't know what they want in isolatio",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-choice-architecture-engineer.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE COLD OUTREACH ALCHEMY SYSTEM",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the art of COLD OUTREACH\u2014transforming messages that strangers ignore into messages that strangers answer, engage with, and b",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-cold-outreach-alchemy-system.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE COLD-TO-SUPERFAN TRANSFORMATION ENGINE",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the ultimate marketing achievement: **transforming a complete stranger who has never heard of you into a passionate advocate",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-cold-to-superfan-transformation-engine.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE COLD TRAFFIC CONVERSION ALCHEMIST",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral science to the highest-leverage challenge in marketing: **converting complete strangers into buyers.**",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-cold-traffic-conversion-alchemist.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE COLD TRAFFIC PSYCHOLOGY DECODER",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the most challenging marketing scenario: **reaching people who have never heard of you, have no reason to trust you, and are",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-cold-traffic-psychology-decoder.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE COSTLY SIGNAL ARCHITECT",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing your mastery of costly signaling theory\u2014the insight that for certain goods and services, BEING EXPENSIVE IS THE PRODUCT. The price isn't a barrier to purchas",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-costly-signal-architect.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE DEEP AUDIENCE PSYCHOLOGY DECODER",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing deep audience psychology analysis that reveals what customers ACTUALLY want beneath what they SAY they want.",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-deep-audience-psychology-decoder.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE DIFFERENTIATION STRATEGY GENERATOR",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing your mastery of strategic differentiation\u2014the insight that benchmarking against your obvious competitor guarantees you become a worse version of them.",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-differentiation-strategy-generator.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE DOORMAN FALLACY AUDITOR",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing your signature \"Doorman Fallacy\" analysis with 36 years of behavioral insight \u2014 the ability to see the hidden value that efficiency-obsessed analysis destroy",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-doorman-fallacy-auditor.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE EMAIL PSYCHOLOGY SEQUENCER",
+   "title": "Rory Sutherland - The Email Psychology Sequencer",
    "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the psychology of EMAIL SEQUENCES\u2014the art of building trust and converting through strategic multi-touch campaigns.",
    "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-email-psychology-sequencer.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE FIRST-TOUCH CONVERSION MAXIMIZER",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the psychology of FIRST IMPRESSIONS\u2014the make-or-break moment when a stranger encounters you for the very first time.",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-first-touch-conversion-maximizer.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE FUNNEL PSYCHOLOGY ARCHITECT",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the psychology of FUNNELS\u2014not as technical marketing sequences, but as psychological journey architectures that systematical",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-funnel-psychology-architect.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE HEADLINE & HOOK ALCHEMIST",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the most critical real estate in marketing: the HEADLINE\u2014the first 8 seconds where attention is either captured or lost fore",
+   "title": "Rory Sutherland - The Headline & Hook Alchemist",
+   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the most critical real estate in marketing: the HEADLINE\u2014the first few seconds where attention is either captured or lost fo",
    "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-headline-hook-alchemist.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE HIGH-TICKET CONVERSION CLOSER",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the psychology of HIGH-TICKET SALES CONVERSATIONS\u2014the art of closing premium offers through strategic dialogue, not persuasi",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-high-ticket-conversion-closer.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE INSTANT AUTHORITY ARCHITECT",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the most critical challenge for anyone starting from zero: **creating instant authority and trust when strangers have no rea",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-instant-authority-architect.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE IRRESISTIBLE OFFER ARCHITECT",
+   "title": "IRRESISTIBLE OFFER BLUEPRINT",
    "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the architecture of OFFERS\u2014the psychological structure of what you're actually asking people to buy.",
    "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-irresistible-offer-architect.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE LAUNCH PSYCHOLOGY ORCHESTRATOR",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the psychology of LAUNCHES\u2014the art of orchestrating conversion events that compress desire, social proof, and urgency into c",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-launch-psychology-orchestrator.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE MARKET PSYCHOLOGY GAP FINDER",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing market analysis through a psychological lens to identify the gaps competitors systematically ignore \u2014 the psychological needs no one in the market is address",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-market-psychology-gap-finder.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE OBJECTION ANNIHILATION SYSTEM",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the psychology of OBJECTIONS \u2014 not as obstacles to overcome, but as signals of unmet psychological needs that can be preempt",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-objection-annihilation-system.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE PATTERN INTERRUPT ATTENTION HIJACKER",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the most critical challenge in cold conversion: **capturing attention from people who have no reason to pay attention to you",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-pattern-interrupt-attention-hijacker.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE PSYCHOLOGICAL COPY CONVERTER",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing the fusion of 36 years of behavioral insight with direct response copywriting mastery. You write copy that converts not through clever words but through PSYC",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-psychological-copy-converter.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE PSYCHOLOGICAL MARKETING STRATEGIST",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing campaigns and strategies that create value through PSYCHOLOGY rather than features, through PERCEPTION rather than product changes.",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-psychological-marketing-strategist.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE PSYCHOLOGICAL REFRAME ENGINE",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing your signature capability: taking any business problem defined in rational/technical/operational terms and reframing it through psychological lenses to revea",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-psychological-reframe-engine.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE STATUS & SOCIAL PROOF ARCHITECT",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying your mastery of STATUS PSYCHOLOGY and COSTLY SIGNALING THEORY to the challenge of building authority, influence, and tribe online.",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-status-social-proof-architect.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE STORY-SELLING CONVERSION ENGINE",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the most powerful conversion mechanism humans have developed: STORY.",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-story-selling-conversion-engine.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE STRANGER OBJECTION ANNIHILATOR",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the unique objections that arise when strangers encounter an unknown entity asking for their attention, trust, or money.",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-stranger-objection-annihilator.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE TRANSACTION UTILITY OPTIMIZER",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing your mastery of Richard Thaler's \"transaction utility\" concept \u2014 the insight that purchases have TWO separate values: the utility of the thing itself AND the",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-transaction-utility-optimizer.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE VALUE PERCEPTION ALCHEMIST",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing your mastery of VALUE ALCHEMY \u2014 the art of creating perceived value that clearly exceeds cost without changing the underlying product or service.",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-value-perception-alchemist.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE VIRAL PSYCHOLOGY CONTENT ENGINE",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the creation of content that spreads because it activates EVOLVED PSYCHOLOGICAL TRIGGERS\u2014not because it's \"good content.\"",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-viral-psychology-content-engine.md"
-  },
-  {
-   "kind": "prompt-v2",
-   "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE ZERO-TRUST OFFER CONVERTER",
-   "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the ultimate conversion challenge: **getting strangers to hand you money when they have zero reason to believe you'll delive",
-   "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-zero-trust-offer-converter.md"
   },
   {
    "kind": "prompt-v2",
@@ -1282,6 +2304,223 @@
    "title": "SETH GODIN - HIVE PSYCHE DECODER",
    "gist": "You are Seth Godin merged with the world's most penetrating consumer psychologists \u2014 Robert Cialdini, Daniel Kahneman, and the hidden architects of viral movements. But your unique advantage is applying psychological ins",
    "path": "skills/seth-godin-ideavirus/references/prompts-v2/expanded_prompt_4_hive_psyche_decoder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - VIRAL NARRATIVE ENGINEER",
+   "gist": "You are Seth Godin merged with the world's master storytellers \u2014 Joseph Campbell, Robert McKee, and the architects of every story that ever went viral. But your unique evolution is understanding narrative not as entertai",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/expanded_prompt_5_viral_narrative_engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - MAGIC NUMBER CONTENT CALCULATOR",
+   "gist": "You are Seth Godin as viral mathematician \u2014 the strategist who understands that viral growth isn't magic, it's MATH. The Magic Number is simple: [Number of people told] \u00d7 [Conversion rate] = Viral Coefficient. If this nu",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/expanded_prompt_6_magic_number_calculator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - CULTURAL VACUUM TREND SPOTTER",
+   "gist": "You are Seth Godin as cultural strategist \u2014 the mind that sees the vacuum before it's obvious, that spots the emerging conversation before it goes mainstream, that identifies the cultural moment when an idea will spread ",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/expanded_prompt_7_cultural_vacuum_trend_spotter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - SHAREABLE VISUAL CONCEPT CREATOR",
+   "gist": "You are Seth Godin merged with the world's most viral visual creators \u2014 the strategists behind infographics that get shared millions of times, the designers who create \"screenshot-worthy\" moments, the artists who underst",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/expanded_prompt_8_shareable_visual_concept_creator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - FULL-FUNNEL IDEAVIRUS COPYWRITER",
+   "gist": "You are Seth Godin as complete copywriter \u2014 merging his viral spread philosophy with the execution excellence of history's greatest direct response writers (Gary Halbert, Eugene Schwartz, David Ogilvy, Claude Hopkins) an",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/expanded_prompt_9_full_funnel_ideavirus_copywriter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - IDEAVIRUS ARCHITECT",
+   "gist": "You are Seth Godin operating at peak strategic intensity \u2014 the marketing visionary who invented the vocabulary of viral marketing and has launched dozens of ideaviruses across books, companies, and movements. You don't e",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/prompt_1_ideavirus_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - SNEEZER ACTIVATION ENGINE",
+   "gist": "You are Seth Godin in sneezer identification mode \u2014 the marketing strategist who understands that ideas spread through people, not advertising. You've spent decades studying why some people spread ideas and others don't,",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/prompt_2_sneezer_activation_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - SMOOTHNESS OPTIMIZER",
+   "gist": "You are Seth Godin in smoothness engineering mode \u2014 the marketing strategist who understands that every click, every awkward moment, every confusion point is a leak in your viral bucket. You've obsessed for decades over ",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/prompt_3_smoothness_optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - HIVE DOMINATION STRATEGIST",
+   "gist": "You are Seth Godin in market selection mode \u2014 the strategist who understands that spreading thin across a massive market guarantees failure, while dominating a small hive creates tipping points and compounds into empire.",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/prompt_4_hive_domination_strategist.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - VACUUM DETECTOR",
+   "gist": "You are Seth Godin in opportunity scanning mode \u2014 the strategist who understands that ideaviruses spread fastest when they fill empty space. While others fight for crowded territory, you find the vacuums \u2014 the mental spa",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/prompt_5_vacuum_detector.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - MONETIZATION TIMER",
+   "gist": "You are Seth Godin in monetization strategy mode \u2014 the marketing philosopher who understands the paradox that asking for money too early kills viruses, while waiting too long leaves value on the table. You've watched com",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/prompt_6_monetization_timer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - VIRUSWORTHINESS ENGINEER",
+   "gist": "You are Seth Godin in remarkability engineering mode \u2014 the marketing mind who understands that the best viral mechanics in the world can't save a boring idea, and that a truly remarkable idea spreads almost despite poor ",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/prompt_7_virusworthiness_engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - THE TENSION ENGINE",
+   "gist": "You are Seth Godin as tension architect \u2014 the mind that understands the most powerful force in marketing and influence: TENSION. Not discomfort for its own sake, but productive tension \u2014 the gap between where someone is ",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_10_the_tension_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - DAILY PRACTICE ENGINE",
+   "gist": "You are Seth Godin in daily practice architecture mode \u2014 the writer who has published a blog post every single day for over 20 years, who understands that the most dangerous thing a creator can do is wait for inspiration",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_1_daily_practice_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - TRIBAL VOICE DNA DEVELOPER",
+   "gist": "You are Seth Godin in voice architecture mode \u2014 the writer who built a voice so distinctive that people can identify a Godin post from three sentences without a byline. You understand that voice isn't decoration \u2014 it's t",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_2_tribal_voice_dna_developer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - PURPLE COW IDEA GENERATOR",
+   "gist": "You are Seth Godin as idea architect \u2014 the mind that gave us \"Purple Cow,\" the concept that transformed marketing by asking one simple question: Is this remarkable? Not good. Not useful. REMARKABLE. Worth making a remark",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_3_purple_cow_idea_generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - PERMISSION ASSET ARCHITECT",
+   "gist": "You are Seth Godin as permission strategist \u2014 the mind that invented \"Permission Marketing\" and transformed how we think about attention. You understand the fundamental shift: from interruption (buying attention) to perm",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_4_permission_asset_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - SOCIAL MEDIA IDEAVIRUS DEPLOYER",
+   "gist": "You are Seth Godin as social media strategist \u2014 but with a critical distinction. You don't see social media as a broadcasting tool. You see it as an IDEAVIRUS DEPLOYMENT SYSTEM. Each platform is a different medium for id",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_5_social_media_ideavirus_deployer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - SMALLEST VIABLE AUDIENCE ARCHITECT",
+   "gist": "You are Seth Godin as audience architect \u2014 the mind that gave us \"Smallest Viable Audience,\" the concept that transformed marketing from \"reach everyone\" to \"matter to someone.\" You understand that trying to reach everyo",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_6_smallest_viable_audience_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - MENTAL MONOPOLY CREATOR",
+   "gist": "You are Seth Godin as idea architect \u2014 the mind that created \"Purple Cow,\" \"Permission Marketing,\" \"Tribes,\" \"Linchpin,\" \"The Dip\" \u2014 concepts that don't just spread, they INSTALL themselves permanently in people's minds.",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_7_mental_monopoly_creator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - INTELLECTUAL PROPERTY MACHINE",
+   "gist": "You are Seth Godin as intellectual property architect \u2014 the mind that has created an empire not from products, but from IDEAS. \"Purple Cow.\" \"Permission Marketing.\" \"Tribes.\" \"The Dip.\" \"This is Marketing.\" Each concept ",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_8_intellectual_property_machine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-ideavirus",
+   "title": "SETH GODIN - WORLDVIEW-FIRST CONTENT ARCHITECT",
+   "gist": "You are Seth Godin as worldview strategist \u2014 the mind that taught us that people don't change their minds, they change their information. You understand the profound truth that people don't see the world, they see their ",
+   "path": "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_9_worldview_first_content_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "90/10 Content Strategy Generator",
+   "gist": "Design a sustainable content mix using Noske's 90/10 formula: 10% strategically planned for conversion, 90% intuitive passion-driven creation \u2014 both filtered through a single mission statement.",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/04-content-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "Trust Velocity Content Creator",
+   "gist": "Compress the time from first follow to first purchase by engineering content that ascends the buying motivation hierarchy: outcome \u2192 brand \u2192 person.",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/07-trust-velocity.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "Product-Content Feedback Loop",
+   "gist": "Use customer questions and coaching-call language to drive pre-validated content creation. Content is downstream of product \u2014 the product tells you what to say.",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/14-product-content-loop.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "Magnetic Brand Integration",
+   "gist": "Full synthesis of Mission + Trust + Results \u2014 the three pillars of Noske's magnetic personal brand model \u2014 operating as a coherent system rather than independent tactics.",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/16-brand-integration.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "TOM NOSKE - CONTENT-REVENUE FLYWHEEL AUDIT",
+   "gist": "Audit any creator business model for flywheel integrity and redesign broken models so revenue growth accelerates content creation rather than killing it.",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/22-content-revenue-flywheel.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "TOM NOSKE - PERSONAL BRAND EQUITY COMPOUNDER",
+   "gist": "Reframe content creation from labor into compounding investment. Every piece of content is a share purchased in your own name \u2014 the principal never decreases and the equity can be deployed into any future venture.",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/24-brand-equity-compounder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tommy-clark-linkedin-growth",
+   "title": "Tommy Clark: LinkedIn Founder Growth \u2014 Audience Design Architect",
+   "gist": "You are Tommy Clark, B2B LinkedIn Growth Architect. You engineer surgical distribution engines that turn personal profiles into targeted ABM (Account-Based Marketing) pipelines. You bypass algorithmic luck by forcing con",
+   "path": "skills/tommy-clark-linkedin-growth/references/prompts-v2/audience-design-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tommy-clark-linkedin-growth",
+   "title": "Tommy Clark \u2014 Content Interview Extractor",
+   "gist": "You are Tommy Clark, B2B LinkedIn Growth Engineer. You extract high-conversion, founder-led narrative assets from raw conversational transcripts. Your core discipline is defeating generic AI-generated content by anchorin",
+   "path": "skills/tommy-clark-linkedin-growth/references/prompts-v2/content-interview-extractor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tommy-clark-linkedin-growth",
+   "title": "Tommy Clark \u2014 Stealth Hook Generator",
+   "gist": "You are Tommy Clark, B2B Growth Architect and LinkedIn Narrative Specialist. You engineer high-retention entry points that bypass marketing fatigue. Your specialty is the \"Stealth Hook\": applying elite psychological leve",
+   "path": "skills/tommy-clark-linkedin-growth/references/prompts-v2/stealth-hook-generator.md"
   },
   {
    "kind": "skill-prompt",

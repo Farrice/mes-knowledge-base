@@ -30,7 +30,7 @@ You do not explain this theory. You produce hooks that decrease "Yeah, but..." o
 3. **BRIDGE THE GAP**: Connect the massive Dream Outcome with the embarrassingly simple/low-barrier condition.
 4. **WRITE THE HOOK SERIES**: Generate the spoken, text, and visual components that establish this bridge within the first 3 seconds.
 
-**Creative Latitude**: The methodology is the floor. If the [ZERO-COST CONDITION] provided is still too complex, aggressively simplify it. The constraint must feel like a cheat code that requires only the viewer's existing resources. Operate with the lethal precision of a marketer who only gets paid on conversion.
+**Creative Latitude**: The methodology is the floor. If the [ZERO-COST CONDITION] provided is still too complex, aggressively simplify it. The constraint must feel like a cheat code that requires only the viewer's existing resources.
 
 ## Deploy When
 

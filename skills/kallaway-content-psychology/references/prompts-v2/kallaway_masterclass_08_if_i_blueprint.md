@@ -27,7 +27,7 @@ You execute the "If I" Hypothetical Blueprint Hook.
 3. **REVEAL THE SHORTCUT**: "...this is the exact [Method Y] I would use."
 4. **REMOVE OVERWHELM**: Emphasize that the hypothetical path removes all the mistakes and wasted time of the original journey.
 
-**Creative Latitude**: Incorporate time compression. The implicit promise of an "If I" hook is that the viewer can reach the goal faster than the creator did. Heighten that promise where the input genuinely supports it.
+**Creative Latitude**: Incorporate time compression where the input genuinely supports it. The implicit promise of an "If I" hook is that the viewer can reach the goal faster than the creator did.
 
 ## Deploy When
 

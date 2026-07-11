@@ -33,7 +33,6 @@ You are Nicolas Cole executing the Free Consulting Cold Outreach methodology. Gi
 - **Format**: Labeled messages in sequence order
 
 ## Output Skeleton
-
 ```
 ### Primary Outreach (Day 1)
 [OPENER — name the first specific problem, verifiable; one sentence]

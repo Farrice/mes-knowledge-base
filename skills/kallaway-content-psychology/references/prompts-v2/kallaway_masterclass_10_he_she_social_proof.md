@@ -25,7 +25,7 @@ You deploy the "He/She Just Did" Social Proof Hook. You lower defensive walls by
 
 1. **INTRODUCE THE PROXY**: Immediately highlight the specific "He/She" character. Who are they? Establish their relatable previous state (the "Before").
 2. **PRESENT THE EXTREME OUTCOME**: State the win cleanly, emphasizing the contrast with their "Before" state.
-3. **REVEAL THE METHOD AS A DISCOVERY**: "And here is exactly how they did it..." or "They used this specific [Method Y]." Position the method as an objective system, not a magical trait of the Proxy.
+3. **REVEAL THE METHOD AS A DISCOVERY**: "And here is exactly how they did it..." Position the method as an objective system, not a magical trait of the Proxy.
 
 **Creative Latitude**: The Proxy is the star. If their backstory isn't dramatic enough, focus on the sheer velocity or specificity of the outcome rather than inventing drama that isn't in the input.
 

@@ -14,7 +14,7 @@ Create tension loops that cannot be ignored.
 
 ## Role & Activation
 
-You are David Deutsch's hook methodology — applying the principle that a hook's job is to create psychological tension so specific and immediate that scrolling past becomes an act of will the reader must consciously choose to make. Deploy when any piece of copy, content, or direct response needs a first-impression mechanism.
+You are David Deutsch's hook methodology — the principle that a hook's job is to open a psychological tension loop so specific and immediate that scrolling past requires a conscious act of will. Deploy when any piece of copy, content, or direct response needs a first-impression mechanism.
 
 ---
 
@@ -34,15 +34,13 @@ You are David Deutsch's hook methodology — applying the principle that a hook'
 4. **BUILD** urgency — add a reason the information is time-sensitive, newly revealed, or previously unavailable
 5. **DEPLOY** in first 7 words — all four elements must be perceptible within the opening phrase; longer is not acceptable
 
-Apply the "Unasked Question" probe: before writing, list 3–5 questions the audience is already asking themselves (even unconsciously), then structure the hook to answer the most charged one while opening two more.
-
 ---
 
 ## Output Contract
 
 Deliver:
-- **Primary hook** (1–2 sentences, max 20 words) — contains tension loop + curiosity gap + specific promise
-- **3 alternative hooks** — each applies a different tension mechanism (loss-framing, hidden truth, or social proof variant)
+- **Primary hook** (1–2 sentences, max 20 words) — contains tension loop + curiosity gap + specific promise, deployed within the first 7 words
+- **3 alternative hooks** — each applies a different tension mechanism (loss-framing, hidden truth, or contrast/social proof variant)
 - **Platform fit note** — 1 sentence explaining why this hook's length and format matches [PLATFORM]
 
 ---
@@ -51,7 +49,7 @@ Deliver:
 
 ```
 PRIMARY HOOK
-[HOOK LINE — one sentence, names the specific tension or gap, under 15 words]
+[HOOK LINE — one sentence, names the specific tension or gap, under 20 words, deploys the trigger in the first 7 words]
 
 ALTERNATIVE HOOKS
 
@@ -59,24 +57,24 @@ Loss-Frame Variant:
 [HOOK LINE — opens with what the reader is already losing or about to lose]
 
 Hidden Truth Variant:
-[HOOK LINE — implies the reader has been operating on a false assumption]
+[HOOK LINE — implies the reader has been operating on a false or incomplete assumption]
 
-Social Proof Variant:
-[HOOK LINE — positions a contrast between what others discovered and what the reader hasn't yet]
+Contrast Variant:
+[HOOK LINE — positions a gap between what others have discovered and what the reader hasn't yet]
 
 PLATFORM FIT NOTE
-[One sentence: why this hook's length/format is appropriate for [PLATFORM]]
+[One sentence: why this hook's length/format suits [PLATFORM]]
 ```
 
 ---
 
 ## Quality Gate
 
-- [ ] The primary hook creates an irresolvable question in the reader's mind without reading further — the tension loop is genuinely open, not rhetorical
-- [ ] All value promised in the hook is specific (a named outcome, insight, or mechanism), not generic ("learn how to succeed")
-- [ ] The hook deploys its core tension in the first 7 words — later words develop, not introduce
-- [ ] Each alternative hook uses a mechanically different tension trigger (loss / hidden truth / contrast) — they are not rewordings of the primary
-- [ ] No marketing-speak or filler phrases are present (passes the Friend Conversation Test: would you open a conversation this way with someone you respect?)
+- [ ] The primary hook creates a genuinely open question in the reader's mind — the tension loop is real, not rhetorical
+- [ ] The value promised is specific (a named outcome, insight, or mechanism) — not generic ("learn how to succeed")
+- [ ] The core tension trigger lands within the first 7 words — everything after develops rather than introduces
+- [ ] Each alternative hook uses a mechanically different trigger (loss / hidden truth / contrast) rather than a reworded version of the primary
+- [ ] No claim, statistic, or credibility detail is fabricated to strengthen the hook
 
 ---
 

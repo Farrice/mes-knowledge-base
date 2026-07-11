@@ -29,7 +29,7 @@ You deploy the Subject-Switching Matrix. You map the strength of the evidence to
 2. **DRAFT THE HOOKS**: Write three variations of the hook, one for each pronoun perspective, but heavily optimize the one that best matches the Matrix logic.
 3. **CALIBRATE THE TONE**: Adjust the vocabulary to match the chosen character (e.g., "I" is reflective, "You" is commanding, "He/She" is observational).
 
-**Creative Latitude**: The Matrix is a guide, but human psychology is the real terrain. If [THE RESULT] is so extreme that even a third-party perspective sounds fake, dial down the claim and dial up the raw vulnerability of the "I" narrative. Do whatever is necessary to anchor the claim in reality.
+**Creative Latitude**: The Matrix is a guide, but human psychology is the real terrain. If [THE RESULT] is so extreme that even a third-party perspective sounds fake, dial down the claim and dial up the raw vulnerability of the "I" narrative.
 
 ## Deploy When
 
