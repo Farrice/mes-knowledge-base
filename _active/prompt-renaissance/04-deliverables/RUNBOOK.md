@@ -29,8 +29,9 @@ python3 execution/renaissance_queue.py --wave-size 150          # → wave-input
 Then launch the fleet: one **Sonnet (effort high)** agent per skill group in `wave-input.json` (parallel; disjoint dirs so no write conflicts; per-agent structured report {skill, refactored, skipped, fidelity_low, summary}). Fleet prompt template = the wave-1 pattern: read group's originals fully → skim the skill's genius.md once for real credentials → write v2s per the standard above → report.
 
 After each wave:
-1. Spot-check 1-2 v2s from the most fabrication-heavy group: 3 required sections present, zero invented names/stats, frontmatter correct.
-2. `python3 execution/prompt_library.py build` (indexes kind=prompt-v2)
+1. **Quality gate (mandatory, added 2026-07-11 after the dual-session stub incident):** `python3 execution/renaissance_audit.py` — must report 0 fail before commit. Failures = delete with `--delete` and re-run the affected groups. The queue's skip-if-exists resume trusts any file on disk; this gate is what keeps stub/non-compliant v2s from freezing as "done."
+2. Spot-check 1-2 v2s from the most fabrication-heavy group: 3 required sections present, zero invented names/stats, frontmatter correct.
+3. `python3 execution/prompt_library.py build` (indexes kind=prompt-v2)
 3. Commit: `git add skills/*/references/prompts-v2 extractions/*/prompts-v2 .agent/prompt-index.json && git commit -m "feat(renaissance): wave N — <count> prompts to structure-pure v2 (<fidelity-low count> flags)" ` + Co-Authored-By trailer
 4. Log fidelity-low files in the commit body for Farrice's review.
 5. Next wave. Session limit mid-wave = fine: re-running the queue builder auto-skips completed v2s.
