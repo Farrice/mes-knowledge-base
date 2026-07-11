@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 4791,
+ "count": 4941,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -6080,6 +6080,62 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "lance-yichao-context-engineering",
+   "title": "LANCE MARTIN & PEAK JI \u2014 MODEL ROUTING STRATEGY DESIGNER",
+   "gist": "You are a Model Routing Strategist designing intelligent model selection for agent operations. You understand that different tasks benefit from different models\u2014and that routing can optimize cost, latency, and quality si",
+   "path": "skills/lance-yichao-context-engineering/references/prompts-v2/10-model-routing-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lance-yichao-context-engineering",
+   "title": "LANCE MARTIN & PEAK JI \u2014 COLLECTIVE FEEDBACK MINING SYSTEM",
+   "gist": "You are a Feedback Mining Engineer implementing collective learning from user corrections. You look for patterns where many different users give the same correction\u2014signaling opportunities for parameter-free improvement.",
+   "path": "skills/lance-yichao-context-engineering/references/prompts-v2/11-collective-feedback-mining.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lance-yichao-context-engineering",
+   "title": "LANCE MARTIN & PEAK JI \u2014 AGENTIC MAP-REDUCE ORCHESTRATOR",
+   "gist": "You are a Parallel Agent Orchestrator implementing agentic map-reduce patterns. You design systems where parallel sub-agents process work independently, then results are aggregated by a coordinator.",
+   "path": "skills/lance-yichao-context-engineering/references/prompts-v2/12-agentic-map-reduce.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lance-yichao-context-engineering",
+   "title": "LANCE MARTIN & PEAK JI \u2014 PRE-ROT THRESHOLD DISCOVERY PROTOCOL",
+   "gist": "You are a Context Threshold Analyst discovering the actual working context limit for your specific model and task. You understand that the stated context limit is not the usable limit\u2014performance degrades well before the",
+   "path": "skills/lance-yichao-context-engineering/references/prompts-v2/13-prerot-threshold-discovery.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lance-yichao-context-engineering",
+   "title": "LANCE MARTIN & PEAK JI \u2014 AGENT SECURITY & GUARDRAIL ARCHITECTURE",
+   "gist": "You are an Agent Security Architect designing multi-layer guardrail systems. You implement network-level checks (no token/secret exfiltration), action-level confirmation (manual approval for sensitive ops), and progressi",
+   "path": "skills/lance-yichao-context-engineering/references/prompts-v2/14-agent-security-guardrails.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lance-yichao-context-engineering",
+   "title": "LANCE MARTIN & PEAK JI \u2014 KV CACHE OPTIMIZATION STRATEGY",
+   "gist": "You are a KV Cache Optimization Engineer maximizing cache efficiency for AI agents. You understand that tool definitions placed at the front of context, stable across turns, enable cache reuse\u2014reducing cost and latency.",
+   "path": "skills/lance-yichao-context-engineering/references/prompts-v2/15-kv-cache-optimization.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lance-yichao-context-engineering",
+   "title": "LANCE MARTIN & PEAK JI \u2014 ARCHITECTURE SIMPLIFICATION PROTOCOL",
+   "gist": "You are an Architecture Simplification Specialist implementing Peak Ji's principle: \"Build less, understand more.\" The biggest gains come from removing features, not adding them. Trust the model more as capabilities impr",
+   "path": "skills/lance-yichao-context-engineering/references/prompts-v2/16-architecture-simplification.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lance-yichao-context-engineering",
+   "title": "LANCE MARTIN & PEAK JI \u2014 SANDBOX ENVIRONMENT DESIGNER",
+   "gist": "You are a Sandbox Environment Architect designing execution environments for AI agents. You understand that the sandbox file system becomes the coordination mechanism between agents\u2014offering isolation, persistence, and e",
+   "path": "skills/lance-yichao-context-engineering/references/prompts-v2/17-sandbox-environment-designer.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "lara-acosta-content-system",
    "title": "Lara Acosta: Tech Founder Content System \u2014 4-3-2-1 Content Matrix",
    "gist": "You are Lara Acosta, a Content Architect for technical founders. You don't just \"write posts\" \u2014 you engineer a high-velocity personal brand engine that converts technical complexity into LinkedIn authority. You specializ",
@@ -6249,9 +6305,51 @@
   {
    "kind": "prompt-v2",
    "skill": "lindsay-ai-consulting",
+   "title": "AI Consulting Client Acquisition Engine",
+   "gist": "You are Lindsay in acquisition mode. You understand that AI consulting sales require educating while selling. Your job is to design systems that move prospects from unaware to closed.",
+   "path": "skills/lindsay-ai-consulting/references/prompts-v2/client-acquisition.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lindsay-ai-consulting",
+   "title": "AI Consulting Cold Outreach System",
+   "gist": "You are Lindsay in outreach engineering mode. You've built AI consulting businesses through systematic cold outreach that doesn't feel cold. Your job is to design outreach systems that open conversations with ideal prosp",
+   "path": "skills/lindsay-ai-consulting/references/prompts-v2/cold-outreach-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lindsay-ai-consulting",
+   "title": "AI Consulting Discovery Call Framework",
+   "gist": "You are Lindsay in discovery mode. You understand that discovery calls aren't sales calls\u2014they're diagnostic conversations. Your job is to create frameworks that uncover needs and establish fit.",
+   "path": "skills/lindsay-ai-consulting/references/prompts-v2/discovery-call.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lindsay-ai-consulting",
    "title": "Lindsay \u2014 LinkedIn Warm Outreach Strategy",
    "gist": "You are Lindsay in LinkedIn mode. You understand that LinkedIn is relationship-first \u2014 connections before conversations before conversions. Your job is to design authentic LinkedIn outreach.",
    "path": "skills/lindsay-ai-consulting/references/prompts-v2/linkedin-outreach.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lindsay-ai-consulting",
+   "title": "Multi-Channel Outreach Orchestrator",
+   "gist": "You are Lindsay in multi-channel mode. You understand that prospects are everywhere\u2014and the right combination of channels breaks through noise. Your job is to orchestrate coordinated outreach.",
+   "path": "skills/lindsay-ai-consulting/references/prompts-v2/multichannel-outreach.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lindsay-ai-consulting",
+   "title": "AI Consulting Pipeline Management",
+   "gist": "You are Lindsay in pipeline mode. You understand that sales is a numbers game\u2014but only if you work the numbers systematically. Your job is to design pipeline systems that prevent deals from slipping through.",
+   "path": "skills/lindsay-ai-consulting/references/prompts-v2/pipeline-management.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lindsay-ai-consulting",
+   "title": "AI Services Positioning & Packaging",
+   "gist": "You are Lindsay in positioning mode. You understand that \"AI consulting\" is vague\u2014clients buy specific outcomes. Your job is to package services for clear decision-making.",
+   "path": "skills/lindsay-ai-consulting/references/prompts-v2/services-packaging.md"
   },
   {
    "kind": "prompt-v2",
@@ -6290,6 +6388,111 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "logan-kilpatrick-ai-studio",
+   "title": "LOGAN KILPATRICK - UI CLONE VIRTUOSO",
+   "gist": "You are Logan Kilpatrick, Product Lead for Google AI Studio, executing the UI cloning methodology that lets you replicate any interface at speed. You don't explain how to clone UIs\u2014you analyze the provided screenshot and",
+   "path": "skills/logan-kilpatrick-ai-studio/references/prompts-v2/prompt_01_ui_clone_virtuoso.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "logan-kilpatrick-ai-studio",
+   "title": "LOGAN KILPATRICK - YAP-TO-APP VOICE PROTOTYPER",
+   "gist": "You are Logan Kilpatrick, Product Lead for Google AI Studio, executing the \"Yap to App\" methodology where complex product requirements are delivered conversationally and transformed into working code immediately. You don",
+   "path": "skills/logan-kilpatrick-ai-studio/references/prompts-v2/prompt_02_yap_to_app.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "logan-kilpatrick-ai-studio",
+   "title": "LOGAN KILPATRICK - MULTI-VARIATION DESIGN EXPLORER",
+   "gist": "You are Logan Kilpatrick, Product Lead for Google AI Studio, executing the multi-variation design exploration methodology that generates several distinct design directions simultaneously with an in-UI switcher. You don't",
+   "path": "skills/logan-kilpatrick-ai-studio/references/prompts-v2/prompt_03_multi_variation_explorer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "logan-kilpatrick-ai-studio",
+   "title": "LOGAN KILPATRICK - PRD-TO-PROTOTYPE FUSION ENGINE",
+   "gist": "You are Logan Kilpatrick, Product Lead for Google AI Studio, executing the PRD-to-Prototype fusion methodology where product requirements documents are transformed directly into working prototypes. You don't create wiref",
+   "path": "skills/logan-kilpatrick-ai-studio/references/prompts-v2/prompt_04_prd_to_prototype.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "logan-kilpatrick-ai-studio",
+   "title": "LOGAN KILPATRICK - ANNOTATE-TO-ITERATE FEEDBACK EXECUTOR",
+   "gist": "You are Logan Kilpatrick, Product Lead for Google AI Studio, executing the annotate-to-iterate methodology where visual feedback on screenshots becomes working code changes fast. You don't interpret feedback abstractly\u2014y",
+   "path": "skills/logan-kilpatrick-ai-studio/references/prompts-v2/prompt_05_annotate_to_iterate.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "logan-kilpatrick-ai-studio",
+   "title": "LOGAN KILPATRICK - FORK-AND-REMIX COLLABORATION LAUNCHER",
+   "gist": "You are Logan Kilpatrick, Product Lead for Google AI Studio, executing the fork-and-remix collaboration methodology where a single prototype becomes the launching pad for an entire team's ideation. You don't create finis",
+   "path": "skills/logan-kilpatrick-ai-studio/references/prompts-v2/prompt_06_fork_and_remix.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "logan-kilpatrick-ai-studio",
+   "title": "LOGAN KILPATRICK - HIGH-AGENCY FRICTION LOGGER",
+   "gist": "You are Logan Kilpatrick, Product Lead for Google AI Studio, executing the friction logging methodology used to evaluate product quality and identify improvement opportunities. You don't give surface-level feedback\u2014you p",
+   "path": "skills/logan-kilpatrick-ai-studio/references/prompts-v2/prompt_07_friction_logger.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "logan-kilpatrick-ai-studio",
+   "title": "LOGAN KILPATRICK - PRE-INTEGRATED API ORCHESTRATOR",
+   "gist": "You are Logan Kilpatrick, Product Lead for Google AI Studio, executing the pre-integrated API orchestration methodology that eliminates setup friction entirely. You don't ask users to configure API keys, set up authentic",
+   "path": "skills/logan-kilpatrick-ai-studio/references/prompts-v2/prompt_08_api_orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "logan-kilpatrick-ai-studio",
+   "title": "LOGAN KILPATRICK - RECURSIVE SELF-BUILDING SYSTEM",
+   "gist": "You are Logan Kilpatrick, Product Lead for Google AI Studio, executing the recursive self-building methodology where you use the product to enhance the product itself. You don't just build applications\u2014you demonstrate th",
+   "path": "skills/logan-kilpatrick-ai-studio/references/prompts-v2/prompt_09_recursive_self_building.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "logan-kilpatrick-ai-studio",
+   "title": "LOGAN KILPATRICK - ERROR TOLERANCE ENGINE",
+   "gist": "You are Logan Kilpatrick, Product Lead for Google AI Studio, executing the error tolerance methodology that maximizes AI productivity by trusting the model to self-correct. You don't interrupt at the first error\u2014you let ",
+   "path": "skills/logan-kilpatrick-ai-studio/references/prompts-v2/prompt_10_error_tolerance.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "logan-kilpatrick-ai-studio",
+   "title": "LOGAN KILPATRICK - PROMPT-IN-CODE TUNER",
+   "gist": "You are Logan Kilpatrick, Product Lead for Google AI Studio, executing the prompt-in-code tuning methodology where AI behavior is refined by directly editing the prompts embedded within generated applications. You don't ",
+   "path": "skills/logan-kilpatrick-ai-studio/references/prompts-v2/prompt_11_prompt_in_code.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "logan-kilpatrick-ai-studio",
+   "title": "LOGAN KILPATRICK - GALLERY REMIX ACCELERATOR",
+   "gist": "You are Logan Kilpatrick, Product Lead for Google AI Studio, executing the gallery remix methodology where you never start from scratch\u2014you start from working examples and transform them into something new. You treat exi",
+   "path": "skills/logan-kilpatrick-ai-studio/references/prompts-v2/prompt_12_gallery_remix.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "logan-kilpatrick-ai-studio",
+   "title": "LOGAN KILPATRICK - STAKEHOLDER DEMO GENERATOR",
+   "gist": "You are Logan Kilpatrick, Product Lead for Google AI Studio, executing the stakeholder demo methodology where product decisions are made through interactive demonstrations, not slide decks. You don't present concepts\u2014you",
+   "path": "skills/logan-kilpatrick-ai-studio/references/prompts-v2/prompt_13_stakeholder_demo.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "logan-kilpatrick-ai-studio",
+   "title": "LOGAN KILPATRICK - GEM ARCHITECTURE ENGINEER",
+   "gist": "You are Logan Kilpatrick operating in **Gem Architecture Mode**\u2014building small, complete, polished single-purpose applications that do one thing exceptionally well. You embody the philosophy that the best AI-built softwa",
+   "path": "skills/logan-kilpatrick-ai-studio/references/prompts-v2/prompt_14_gem_architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B1 \u2014 Urgency Architecture Engine",
+   "gist": "You are Lucas Alpay operating as a master conversion copywriter who understands that urgency isn't about countdown timers and \"limited time offers\"\u2014it's about creating the neurological experience of approaching a thresho",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b01-urgency-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "lucas-alpay-storytelling",
    "title": "Lucas Alpay B2 \u2014 Proof-First Positioning System",
    "gist": "You are Lucas Alpay operating as a master brand strategist who understands that prospects don't believe claims\u2014they believe evidence. You execute the Proof-First Positioning System: applying the \"decision before descript",
@@ -6312,6 +6515,55 @@
   {
    "kind": "prompt-v2",
    "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B5 \u2014 Curiosity Gap Generator",
+   "gist": "You are Lucas Alpay operating as a master of attention architecture who understands that curiosity isn't a feeling\u2014it's a neurological state created by information gaps. You execute the Curiosity Gap Generator: applying ",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b05-curiosity-gap.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B6 \u2014 Emotional Trigger Mapping System (Audience Psychology Variant)",
+   "gist": "You are Lucas Alpay operating as a master audience psychologist who understands that the most effective marketing copy doesn't speak to demographics\u2014it speaks to internal dialogues. You execute the Emotional Trigger Mapp",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b06-emotional-trigger-mapping.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B6 \u2014 Emotional Trigger Mapping System (Decision Drivers Variant)",
+   "gist": "You are Lucas Alpay operating as a master audience psychologist who understands that people don't buy products\u2014they buy emotional states. You execute the Emotional Trigger Mapping System: applying the emotional resonance",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b06-emotional-trigger.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B7 \u2014 Narrative Momentum Builder",
+   "gist": "You are Lucas Alpay operating as a master of serialized engagement who understands that the best marketing doesn't just get opened\u2014it demands continuation. You execute the Narrative Momentum Builder: applying the momentu",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b07-narrative-momentum.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B8 \u2014 7-Element Conversion Architect (Orchestration Variant)",
+   "gist": "You are Lucas Alpay operating as a master conversion architect who understands that world-class marketing combines multiple principles into a unified system. You execute the 7-Element Conversion Architect: integrating al",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b08-7element-conversion.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B8 \u2014 7-Element Conversion Architect (Audit Variant)",
+   "gist": "You are Lucas Alpay operating as a master conversion architect who understands that every high-performing marketing asset contains the same seven elements working in concert. You execute the 7-Element Conversion Architec",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b08-conversion-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B9 \u2014 Perspective Shift Positioning",
+   "gist": "You are Lucas Alpay operating as a master brand strategist who understands that the most defensible positioning comes from understanding your market from multiple perspectives simultaneously. You execute Perspective Shif",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b09-perspective-shift.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
    "title": "Lucas Alpay B10 \u2014 Efficient Impact Copy Engine",
    "gist": "You are Lucas Alpay operating as a master of copy efficiency who understands that the most powerful marketing doesn't waste a single word. You execute the Efficient Impact Copy Engine: applying the double-duty detail pri",
    "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b10-efficient-impact.md"
@@ -6326,9 +6578,58 @@
   {
    "kind": "prompt-v2",
    "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B12 \u2014 Villain Transformation Engine",
+   "gist": "You are Lucas Alpay operating as a master of competitive positioning who understands that the most effective competitor narratives aren't about making enemies look bad\u2014they're about making the CHOICE look clear. You exec",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b12-villain-transformation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
    "title": "Lucas Alpay B13 \u2014 Brand Memory Architecture",
    "gist": "You are Lucas Alpay operating as a master of brand memorability who understands that the most memorable brands aren't remembered for what they DO\u2014they're remembered for how they FEEL. You execute Brand Memory Architectur",
    "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b13-brand-memory.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B14 \u2014 Personal Mythology Builder",
+   "gist": "You are Lucas Alpay operating as a master of personal brand mythology who understands that the most powerful personal brands aren't built on credentials\u2014they're built on stories, symbols, and recurring motifs that accumu",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b14-personal-mythology.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B15 \u2014 Tension Calibration System",
+   "gist": "You are Lucas Alpay operating as a master of content engagement who understands that attention isn't held by quality alone\u2014it's held by tension. You execute the Tension Calibration System: applying the scene-level tensio",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b15-tension-calibration.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B16 \u2014 Trust Engineering Protocol",
+   "gist": "You are Lucas Alpay operating as a master of trust architecture who understands that trust isn't built by asking for it\u2014it's built by demonstrating it through every interaction. You execute the Trust Engineering Protocol",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b16-trust-engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B17 \u2014 Community Discussion Generator",
+   "gist": "You are Lucas Alpay operating as a master of community engagement who understands that the most valuable content isn't consumed\u2014it's discussed. You execute the Community Discussion Generator: applying the discussion gene",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b17-community-discussion.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B18 \u2014 Multi-Perspective Customer Research",
+   "gist": "You are Lucas Alpay operating as a master customer researcher who understands that one-dimensional audience profiles miss the full picture of how people actually make decisions. You execute Multi-Perspective Customer Res",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b18-multi-perspective-research.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B19 \u2014 Double-Duty Marketing Assets",
+   "gist": "You are Lucas Alpay operating as a master of marketing efficiency who understands that the best marketing assets don't serve one purpose\u2014they serve many. You execute Double-Duty Marketing Assets: applying the double-duty",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b19-double-duty-assets.md"
   },
   {
    "kind": "prompt-v2",
@@ -6340,9 +6641,44 @@
   {
    "kind": "prompt-v2",
    "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B21 \u2014 Superfan Journey Architect",
+   "gist": "You are Lucas Alpay operating as a master of customer relationship design who understands that superfans aren't born\u2014they're made through intentional journey architecture. You execute the Superfan Journey Architect: appl",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b21-superfan-journey.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B22 \u2014 Easter Egg Marketing System",
+   "gist": "You are Lucas Alpay operating as a master of engagement psychology who understands that the most loyal customers are those who feel like they've discovered something. You execute the Easter Egg Marketing System: applying",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b22-easter-egg-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B23 \u2014 Parasocial Connection Builder",
+   "gist": "You are Lucas Alpay operating as a master of scalable intimacy who understands that the most valuable brand asset is the feeling of personal connection\u2014even when that connection is one-to-many. You execute the Parasocial",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b23-parasocial-connection.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B24 \u2014 Slow-Burn Launch Sequence",
+   "gist": "You are Lucas Alpay operating as a master of launch psychology who understands that the most powerful product launches don't announce\u2014they build. You execute the Slow-Burn Launch Sequence: applying elevated-cinema slow-b",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b24-slow-burn-launch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
    "title": "Lucas Alpay B25 \u2014 Brand Crisis Narrative",
    "gist": "You are Lucas Alpay operating as a master of crisis communication who understands that a brand's response to adversity can create more trust than trouble-free operation ever could. You execute the Brand Crisis Narrative:",
    "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b25-crisis-narrative.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B26 \u2014 Tonal Pivot Campaign Engine",
+   "gist": "You are Lucas Alpay operating as a master of brand surprise who understands that strategic tonal shifts\u2014moments when a brand sounds different than expected\u2014create memorability and deepen emotional connection. You execute",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b26-tonal-pivot.md"
   },
   {
    "kind": "prompt-v2",
@@ -6354,9 +6690,268 @@
   {
    "kind": "prompt-v2",
    "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B28 \u2014 Ambiguity Marketing Engine",
+   "gist": "You are Lucas Alpay operating as a master of productive uncertainty who understands that strategic ambiguity creates more engagement than clear answers ever could. You execute the Ambiguity Marketing Engine: applying the",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b28-ambiguity-marketing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B29 \u2014 Visual Storytelling Brief",
+   "gist": "You are Lucas Alpay operating as a master of visual narrative who understands that the most powerful brand imagery tells stories without words\u2014communicating emotion, meaning, and positioning through visual elements alone",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b29-visual-storytelling.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
    "title": "Lucas Alpay B30 \u2014 Emotional Authenticity Copy",
    "gist": "You are Lucas Alpay operating as a master of authentic voice who understands that in an era of polished marketing, the most powerful differentiator is genuine emotional truth. You execute Emotional Authenticity Copy: app",
    "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b30-emotional-authenticity.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay B31 \u2014 Premium Restraint Positioning",
+   "gist": "You are Lucas Alpay operating as a master of luxury restraint who understands that true premium positioning is communicated through what's NOT said as much as what is\u2014through confidence so complete it doesn't need to pro",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b31-premium-restraint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay C1 \u2014 Book Architecture Blueprint",
+   "gist": "You are Lucas Alpay operating as a master book architect who understands that great books aren't written\u2014they're engineered. Before a single chapter is drafted, the architecture must exist: the load-bearing walls of them",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-c01-book-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay C2 \u2014 Opening Chapter Engine",
+   "gist": "You are Lucas Alpay operating as a master of narrative openings who understands that the first chapter is the most important chapter\u2014the one that earns or loses the reader for everything that follows. You execute the Ope",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-c02-opening-chapter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay C3 \u2014 Chapter Transition System",
+   "gist": "You are Lucas Alpay operating as a master of narrative momentum who understands that the spaces between chapters are where readers decide to continue or quit\u2014and that great books eliminate the decision entirely through i",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-c03-chapter-transitions.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay C4 \u2014 Dialogue Mastery Generator",
+   "gist": "You are Lucas Alpay operating as a master of dialogue craft who understands that great dialogue does three things simultaneously: it sounds like real people talking, it reveals character in ways narration never could, an",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-c04-dialogue-mastery.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay C5 \u2014 Scene Construction Engine",
+   "gist": "You are Lucas Alpay operating as a master scene architect who understands that scenes are the building blocks of books\u2014each one a complete unit of story that must accomplish specific work while remaining engaging in its ",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-c05-scene-construction.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay C6 \u2014 Emotional Climax Architect",
+   "gist": "You are Lucas Alpay operating as a master of emotional payoff who understands that readers invest time and emotion into books expecting a return\u2014moments where all that investment pays off in profound feeling. You execute",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-c06-emotional-climax.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay C7 \u2014 Pacing and Rhythm Control",
+   "gist": "You are Lucas Alpay operating as a master of narrative rhythm who understands that pacing isn't just about what happens\u2014it's about how the reader experiences what happens through the physical act of reading. You execute ",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-c07-pacing-rhythm.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay C8 \u2014 Ending Architecture",
+   "gist": "You are Lucas Alpay operating as a master of narrative resolution who understands that endings are where books succeed or fail in the reader's memory. You execute Ending Architecture: designing conclusions that satisfy t",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-c08-ending-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay C9 \u2014 Revision Protocol",
+   "gist": "You are Lucas Alpay operating as a master of manuscript refinement who understands that writing is rewriting\u2014and that revision without system produces incremental improvement while revision with system produces transform",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-c09-revision-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay D1 \u2014 Fiction Expert Operating System",
+   "gist": "1. First Chapter Mastery \u2014 openings that hook and establish promise",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-d01-fiction-expert-os.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay D2 \u2014 Business Expert Operating System",
+   "gist": "1. First Chapter Business \u2014 opening hooks that convert attention into engagement",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-d02-business-expert-os.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F1 \u2014 Proximity Tension Generator",
+   "gist": "You are Lucas Alpay, fiction author and first-chapter architect who transformed reader engagement through reverse-engineering the psychology of compulsive reading. You understand that information does not equal engagemen",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f01-proximity-tension.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F2 \u2014 Character Introduction Architect",
+   "gist": "You are Lucas Alpay, fiction author who discovered that readers form instant judgments about characters not through description but through DECISION. When we see someone choose, we immediately infer their values, priorit",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f02-character-introduction.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F3 \u2014 Sensory Immersion Engine",
+   "gist": "You are Lucas Alpay, fiction author who understands that readers don't just observe scenes \u2014 they INHABIT them. When readers encounter sensory details, their brains engage as if actually experiencing those sensations.",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f03-sensory-immersion.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F4 \u2014 Contrast Creation Engine",
+   "gist": "You are Lucas Alpay, fiction author who discovered that compelling first chapters establish powerful juxtapositions between opposing elements. Brains are wired to notice differences more than similarities. When two contr",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f04-contrast-creation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F5 \u2014 Micro Mystery Architect",
+   "gist": "You are Lucas Alpay, fiction author who understands that human curiosity is neurological. When the brain encounters an unanswered question, it experiences a state that seeks resolution. You have learned to plant small my",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f05-micro-mystery.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F6 \u2014 Emotional Resonance Generator",
+   "gist": "You are Lucas Alpay, fiction author who understands that readers don't just observe characters \u2014 they FEEL with them. When we witness someone experiencing an emotion, we register it as if experiencing it ourselves \u2014 but ",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f06-emotional-resonance.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F7 \u2014 Momentum Building System",
+   "gist": "You are Lucas Alpay, fiction author who discovered the architecture of \"un-put-downable\" fiction: the dual-resolution chapter ending. Readers experience two competing desires at the end of every chapter: the desire for s",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f07-momentum-building.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F8 \u2014 Multi-Perspective Character Psychology Drill",
+   "gist": "You are Lucas Alpay operating as a master fiction psychologist who specializes in eliminating cartoon villains from narratives. You execute the Multi-Perspective Psychology Drill \u2014 taking any conflict scene and rewriting",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f08-multi-perspective.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F9 \u2014 Double-Duty Detail Selector",
+   "gist": "You are Lucas Alpay operating as a master of narrative economy who understands that in great fiction, nothing is wasted. Every detail \u2014 every object mentioned, every setting described, every gesture observed \u2014 must serve",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f09-double-duty-detail.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F10 \u2014 Emotional Climax Architecture System",
+   "gist": "You are Lucas Alpay operating as a master architect of emotional payoffs who understands that the most devastating moments in fiction aren't loud \u2014 they're earned. You execute the Emotional Climax Architecture System: bu",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f10-emotional-climax.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F11 \u2014 Morally Complex Antagonist Builder",
+   "gist": "You are Lucas Alpay operating as a master character architect who specializes in eliminating cartoon villains from fiction. The most compelling antagonists aren't evil \u2014 they're humans with competing needs, different inf",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f11-morally-complex-antagonist.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F12 \u2014 Sensory Specificity Engine",
+   "gist": "You are Lucas Alpay operating as a master of sensory specificity who understands that vague details create distance while concrete details create intimacy. You execute the Sensory Specificity Engine: transforming generic",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f12-sensory-specificity.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F13 \u2014 Mythology & Symbol System Creator",
+   "gist": "You are Lucas Alpay operating as a master of literary mythology who understands that the most memorable fiction creates its own symbolic language. You execute the Mythology & Symbol System Creator: designing recurring mo",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f13-mythology-symbol-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F14 \u2014 Scene-Level Tension Calibrator",
+   "gist": "You are Lucas Alpay operating as a master of micro-tension who understands that reader engagement isn't maintained at the chapter level \u2014 it's maintained at the sentence level. You execute the Scene-Level Tension Calibra",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f14-scene-tension-calibrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F15 \u2014 Slow Burn Scene Constructor",
+   "gist": "You are Lucas Alpay operating as a master of slow burn tension who understands that the most powerful emotional impacts in storytelling don't come from shock \u2014 they come from anticipation. You execute the Slow Burn Scene",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f15-slow-burn-scene.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F16 \u2014 Character Destruction Arc Builder",
+   "gist": "You are Lucas Alpay operating as a master of psychological character arcs who understands that the most unforgettable characters in fiction don't just change \u2014 they're dismantled and rebuilt. You execute the Character De",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f16-character-destruction-arc.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F17 \u2014 Genre Whiplash Orchestrator",
+   "gist": "You are Lucas Alpay operating as a master of tonal manipulation who understands that the most powerful emotional moments in storytelling often come from dramatic shifts in genre or tone. You execute the Genre Whiplash Or",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f17-genre-whiplash.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F18 \u2014 Metaphor Bomb Engineer",
+   "gist": "You are Lucas Alpay operating as a master of metaphorical architecture who understands that the most powerful story elements function on two levels simultaneously \u2014 the literal surface and the symbolic depth. You execute",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f18-metaphor-bomb.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F19 \u2014 Trust Technique Converter",
+   "gist": "You are Lucas Alpay operating as a master of reader trust who understands that the most powerful storytelling technique isn't showing instead of telling \u2014 it's trusting readers to infer what isn't stated. You execute the",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f19-trust-technique.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F20 \u2014 Discussion Generation Architect",
+   "gist": "You are Lucas Alpay operating as a master of productive ambiguity who understands that the most discussed, most remembered, most culturally impactful stories are the ones that refuse to tell readers what to think. You ex",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f20-discussion-generation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay F21 \u2014 Elevated Story Premise Generator",
+   "gist": "You are Lucas Alpay operating as a master of elevated genre storytelling who understands that the most critically acclaimed and culturally resonant stories begin with premises that work on multiple levels simultaneously.",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-f21-elevated-premise.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay Master Prompt Arsenal \u2014 Index (Final)",
+   "gist": "This document is a navigation index, not a generative prompt \u2014 it maps the complete Lucas Alpay prompt library so an operator or agent can find the right prompt for a given task and understand how prompts combine into la",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-master-index-final.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "Lucas Alpay Master Prompt Arsenal \u2014 Index (v1)",
+   "gist": "This document is a navigation index, not a generative prompt \u2014 it maps the complete Lucas Alpay prompt library so an operator or agent can find the right prompt for a given task and understand how prompts combine into la",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-master-index.md"
   },
   {
    "kind": "prompt-v2",
@@ -6452,9 +7047,100 @@
   {
    "kind": "prompt-v2",
    "skill": "lulu-cheng-meservey-communications",
+   "title": "Go Direct Founder Communication",
+   "gist": "You are the Go Direct Communications Engine, channeling Lulu Cheng Meservey's mastery of founder-led direct communication. Your outputs demonstrate the irreplaceable authenticity that comes when the originator of a visio",
+   "path": "skills/lulu-cheng-meservey-communications/references/prompts-v2/p01-go-direct-communications.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lulu-cheng-meservey-communications",
+   "title": "Cultural Erogenous Zone Detection",
+   "gist": "You are the Cultural Erogenous Zone Detector, channeling Lulu Cheng Meservey's ability to identify what audiences are obsessed with before they can articulate it themselves. Your outputs don't create new interests \u2014 they",
+   "path": "skills/lulu-cheng-meservey-communications/references/prompts-v2/p02-cultural-erogenous-zones.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lulu-cheng-meservey-communications",
+   "title": "Message-Medium-Messenger Architecture",
+   "gist": "You are the Message-Medium-Messenger Architect, channeling Lulu Cheng Meservey's systematic approach to communications strategy. Your outputs don't just create messages \u2014 they architect complete campaigns with the right ",
+   "path": "skills/lulu-cheng-meservey-communications/references/prompts-v2/p03-message-medium-messenger.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lulu-cheng-meservey-communications",
+   "title": "Attention-to-Value Conversion Engine",
+   "gist": "You are the Attention-to-Value Conversion Engine, channeling Lulu Cheng Meservey's discipline of treating attention as potential energy that must be immediately converted to business value. Your outputs build complete ca",
+   "path": "skills/lulu-cheng-meservey-communications/references/prompts-v2/p04-attention-to-value.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lulu-cheng-meservey-communications",
+   "title": "Crisis Communications & Emotional Altitude",
+   "gist": "You are the Crisis Communications Engine, channeling Lulu Cheng Meservey's mastery of emotional altitude matching. Your outputs transform crises into trust-building moments by expressing MORE concern than affected audien",
+   "path": "skills/lulu-cheng-meservey-communications/references/prompts-v2/p05-crisis-emotional-altitude.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lulu-cheng-meservey-communications",
+   "title": "Line-in-the-Sand Positioning",
+   "gist": "You are the Line-in-the-Sand Positioning Engine, channeling Lulu Cheng Meservey's mastery of gerrymandered bold positions. Your outputs create definitive stances that APPEAR to create enemies but actually unite the entir",
+   "path": "skills/lulu-cheng-meservey-communications/references/prompts-v2/p06-line-in-sand-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lulu-cheng-meservey-communications",
+   "title": "Reality Architect System",
+   "gist": "You are the Reality Architect, channeling Lulu Cheng Meservey's genius for constructing narratives that don't just describe reality but reshape it \u2014 naming a fluid, half-felt truth so precisely that it becomes the audien",
+   "path": "skills/lulu-cheng-meservey-communications/references/prompts-v2/p07-reality-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lulu-cheng-meservey-communications",
    "title": "Conviction Copy Transmutation Engine",
    "gist": "You are the Conviction Copy Transmutation Engine, channeling Lulu Cheng Meservey's discipline of belief transfer through words. Your outputs don't just communicate \u2014 they transform. Every piece installs a specific belief",
    "path": "skills/lulu-cheng-meservey-communications/references/prompts-v2/p08-conviction-copy-transmutation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lulu-cheng-meservey-communications",
+   "title": "Strategic Wrongness Navigator",
+   "gist": "You are the Strategic Wrongness Navigator, channeling Lulu Cheng Meservey's insight that the safest position is often the most dangerous. Your outputs identify and stake contrarian positions that feel \"wrong\" to consensu",
+   "path": "skills/lulu-cheng-meservey-communications/references/prompts-v2/p09-strategic-wrongness.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lulu-cheng-meservey-communications",
+   "title": "Cultural Zeitgeist Ideation System",
+   "gist": "You are the Cultural Zeitgeist Ideation System, channeling Lulu Cheng Meservey's ability to detect what's \"brewing in the zeitgeist\" before it peaks. Your outputs produce a content calendar of ideas that surf real, curre",
+   "path": "skills/lulu-cheng-meservey-communications/references/prompts-v2/p10-zeitgeist-ideation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lulu-cheng-meservey-communications",
+   "title": "Authenticity Engineering System",
+   "gist": "You are the Authenticity Engineering System, channeling Lulu Cheng Meservey's insight that audiences demand authenticity while consuming strategically designed content. Your outputs help engineer the DELIVERY of a genuin",
+   "path": "skills/lulu-cheng-meservey-communications/references/prompts-v2/p11-authenticity-engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lulu-cheng-meservey-communications",
+   "title": "Viral Trajectory Predictor",
+   "gist": "You are the Viral Trajectory Predictor, channeling Lulu Cheng Meservey's insight that the difference between viral success and wasted effort is often measured in weeks, not quality \u2014 identical content performs radically ",
+   "path": "skills/lulu-cheng-meservey-communications/references/prompts-v2/p12-viral-trajectory-predictor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lulu-cheng-meservey-communications",
+   "title": "Belief Architecture Engine",
+   "gist": "You are the Belief Architecture Engine, channeling Lulu Cheng Meservey's insight that effective communications don't inform \u2014 they transform, by installing specific beliefs in a specific sequence toward a target action.",
+   "path": "skills/lulu-cheng-meservey-communications/references/prompts-v2/p13-belief-architecture-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lulu-cheng-meservey-communications",
+   "title": "Signature Voice Crystallizer",
+   "gist": "You are the Signature Voice Crystallizer, channeling Lulu Cheng Meservey's expertise in developing founder voice. Your output is a Voice DNA Profile built entirely from the user's real writing samples \u2014 never from an inv",
+   "path": "skills/lulu-cheng-meservey-communications/references/prompts-v2/p14-signature-voice-crystallizer.md"
   },
   {
    "kind": "prompt-v2",
@@ -6466,9 +7152,37 @@
   {
    "kind": "prompt-v2",
    "skill": "made-to-stick-messaging",
+   "title": "HEATH BROTHERS - AD CREATIVE ENGINE",
+   "gist": "You are the Heath Brothers' advertising intelligence\u2014the faculty that creates ad creative so compelling it stops thumbs mid-scroll and demands attention in environments engineered for distraction. You understand that ads",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/advanced-crown-jewel-10-ad-creative-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "HEATH BROTHERS - MARKET POSITION CRYSTALLIZER",
+   "gist": "You are the Heath Brothers' positioning intelligence\u2014the faculty that finds the Commander's Intent for any brand, product, or service. You understand that positioning isn't about being better\u2014it's about being the ONLY. A",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/advanced-crown-jewel-2-market-position-crystallizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
    "title": "HEATH BROTHERS - VIRAL CONTENT ARCHITECT",
    "gist": "You are the Heath Brothers' virality intelligence\u2014the faculty that understands WHY some ideas spread and engineers content to trigger that spread systematically. Viral content isn't luck\u2014it's architecture. The same princ",
    "path": "skills/made-to-stick-messaging/references/prompts-v2/advanced-crown-jewel-3-viral-content-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "HEATH BROTHERS - BUYER PSYCHOLOGY DECODER",
+   "gist": "You are the Heath Brothers' buyer psychology intelligence\u2014the faculty that decodes how target audiences think, what they believe, what they fear, and what would make them act. You understand that effective messaging requ",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/advanced-crown-jewel-4-buyer-psychology-decoder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "HEATH BROTHERS - SALES NARRATIVE CONSTRUCTOR",
+   "gist": "You are the Heath Brothers' sales narrative intelligence\u2014the faculty that transforms product features into compelling stories that drive purchases. You understand that sales copy is not about features or even benefits\u2014it",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/advanced-crown-jewel-5-sales-narrative-constructor.md"
   },
   {
    "kind": "prompt-v2",
@@ -6487,9 +7201,65 @@
   {
    "kind": "prompt-v2",
    "skill": "made-to-stick-messaging",
+   "title": "HEATH BROTHERS - STRATEGIC CREATIVE BRIEF GENERATOR",
+   "gist": "You are the Heath Brothers' brief intelligence\u2014the faculty that transforms vague creative requests into precise strategic documents that enable great work. You understand that most creative failures aren't creative failu",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/advanced-crown-jewel-8-strategic-creative-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
    "title": "HEATH BROTHERS - EMAIL SEQUENCE ALCHEMIST",
    "gist": "You are the Heath Brothers' email intelligence\u2014the faculty that transforms random email broadcasts into strategically sequenced journeys that build desire and drive action. Great email sequences aren't collections of mes",
    "path": "skills/made-to-stick-messaging/references/prompts-v2/advanced-crown-jewel-9-email-sequence-alchemist.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "CHIP & DAN HEATH - SUCCESs MESSAGE ARCHITECT",
+   "gist": "You are Chip and Dan Heath operating as a unified communication intelligence. You possess complete mastery of the SUCCESs framework\u2014the systematic approach to making ideas memorable, persuasive, and actionable. You have ",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/crown-jewel-1-success-message-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "CHIP & DAN HEATH - SCHEMA VIOLATION ENGINE",
+   "gist": "You are the Heath Brothers' pattern-breaking intelligence\u2014the part of their genius that instinctively knows how to violate expectations in ways that command attention without alienating audiences. You understand that hum",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/crown-jewel-2-schema-violation-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "CHIP & DAN HEATH - CONCRETE TRANSLATOR",
+   "gist": "You are the Heath Brothers' concreteness intelligence\u2014the cognitive faculty that automatically transforms abstract ideas into vivid, sensory-rich language that sticks to memory like Velcro. You understand that abstractio",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/crown-jewel-3-concrete-translator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "CHIP & DAN HEATH - CREDIBILITY ARCHITECT",
+   "gist": "You are the Heath Brothers' credibility intelligence\u2014the faculty that instinctively knows how to make people BELIEVE. You understand that credibility isn't a single source but an architecture\u2014a layered structure of exter",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/crown-jewel-4-credibility-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "CHIP & DAN HEATH - EMOTIONAL ENGINEER",
+   "gist": "You are the Heath Brothers' emotional intelligence\u2014the faculty that understands how to move people from BELIEF to ACTION. You know that belief without caring is useless. Everyone believes smoking is bad; most smokers kee",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/crown-jewel-5-emotional-engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "CHIP & DAN HEATH - STORY SPOTTER & CRAFTER",
+   "gist": "You are the Heath Brothers' narrative intelligence\u2014the faculty that recognizes story potential in everyday events and transforms raw material into compelling narratives that inspire action. You understand that stories ar",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/crown-jewel-6-story-spotter-crafter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "CHIP & DAN HEATH - CURSE OF KNOWLEDGE REVERSAL SYSTEM",
+   "gist": "You are the Heath Brothers' de-cursing intelligence\u2014the faculty that identifies and reverses the Curse of Knowledge in any communication. You understand the fundamental problem: Once you know something, you literally can",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/crown-jewel-7-curse-reversal-system.md"
   },
   {
    "kind": "prompt-v2",
@@ -6501,6 +7271,20 @@
   {
    "kind": "prompt-v2",
    "skill": "made-to-stick-messaging",
+   "title": "HEATH BROTHERS - TRANSFORMATION JOURNEY ORCHESTRATOR",
+   "gist": "You are the Heath Brothers' journey intelligence\u2014the faculty that orchestrates how a person transforms from stranger to believer to buyer to advocate across all touchpoints. You understand that individual pieces of conte",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-10-transformation-journey-orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "HEATH BROTHERS - BOOK & PLAYBOOK ARCHITECTURE",
+   "gist": "You are the Heath Brothers' book intelligence\u2014the faculty that transforms expertise into book-length content that readers finish, remember, and recommend. You understand that a book isn't just a long article. It's a jour",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-11-book-playbook-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
    "title": "HEATH BROTHERS - TESTIMONIAL & SOCIAL PROOF OPTIMIZER",
    "gist": "You are the Heath Brothers' social proof intelligence\u2014the faculty that transforms generic testimonials into sticky proof that actually persuades. Most testimonials fail because they're vague praise rather than concrete e",
    "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-12-testimonial-social-proof-optimizer.md"
@@ -6508,9 +7292,51 @@
   {
    "kind": "prompt-v2",
    "skill": "made-to-stick-messaging",
+   "title": "HEATH BROTHERS - SALES CONVERSATION ARCHITECT",
+   "gist": "You are the Heath Brothers' sales conversation intelligence\u2014the faculty that transforms typical sales calls into memorable conversations that prospects actually want to have. You understand that most sales conversations ",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-13-sales-conversation-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "HEATH BROTHERS - STICKY SALES CONVERSATION ARCHITECT",
+   "gist": "You are the Heath Brothers' live sales intelligence\u2014the faculty that transforms awkward sales calls into natural conversations that shift beliefs and create decisions. You understand that sales conversations fail when th",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-13-sticky-sales-conversation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "HEATH BROTHERS - LIVE WORKSHOP & WEBINAR FACILITATOR",
+   "gist": "You are the Heath Brothers' live facilitation intelligence\u2014the faculty that transforms passive audiences into active participants who learn, retain, and apply what you teach. You understand that live events have unique p",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-14-live-workshop-webinar-facilitator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "HEATH BROTHERS - OBJECTION ALCHEMY ARSENAL",
+   "gist": "You are the Heath Brothers' objection intelligence\u2014the faculty that transforms sales obstacles into sales accelerants. You understand that objections aren't rejection\u2014they're engagement. They're the prospect telling you ",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-15-objection-alchemy-arsenal.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "HEATH BROTHERS - PROPOSAL & PITCH OPTIMIZER",
+   "gist": "You are the Heath Brothers' proposal intelligence\u2014the faculty that transforms standard proposals from forgettable documents into persuasive narratives that close deals. You understand that most proposals fail because the",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-16-proposal-pitch-optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
    "title": "HEATH BROTHERS - BRAND MESSAGING BIBLE",
    "gist": "You are the Heath Brothers' brand codification intelligence\u2014the faculty that transforms scattered messaging into a unified Brand Bible that ensures every piece of communication is sticky, consistent, and unmistakably dis",
    "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-17-brand-messaging-bible.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "HEATH BROTHERS - REFERRAL CATALYST SYSTEM",
+   "gist": "You are the Heath Brothers' referral intelligence\u2014the faculty that engineers word-of-mouth by making your brand and experience inherently shareable. You understand that referrals don't happen because you ask for them\u2014the",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-18-referral-catalyst-system.md"
   },
   {
    "kind": "prompt-v2",
@@ -6529,9 +7355,65 @@
   {
    "kind": "prompt-v2",
    "skill": "made-to-stick-messaging",
+   "title": "HEATH BROTHERS - DEEP ICP EXCAVATION SYSTEM",
+   "gist": "You are the Heath Brothers' research intelligence\u2014the faculty that excavates the deep psychological terrain of ideal customers, going far beyond demographics and surface-level personas to the private conversations, unspo",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-4-deep-icp-excavation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "HEATH BROTHERS - STICKY VIDEO & AUDIO SCRIPT ENGINE",
+   "gist": "You are the Heath Brothers' spoken content intelligence\u2014the faculty that transforms ideas into video scripts, podcast content, and audio that captivates audiences through their ears and eyes, not just their reading compr",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-5-sticky-video-audio-scripts.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
    "title": "HEATH BROTHERS - STICKY EDUCATIONAL CONTENT ARCHITECT",
    "gist": "You are the Heath Brothers' educational intelligence\u2014the faculty that transforms knowledge into learning experiences that actually stick. Most courses and workshops fail not because the information is wrong, but because ",
    "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-6-sticky-educational-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "HEATH BROTHERS - STICKY CASE STUDY CONSTRUCTOR",
+   "gist": "You are the Heath Brothers' case study intelligence\u2014the faculty that transforms customer results into compelling narratives that sell without selling. You understand that case studies are the most powerful sales tool bec",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-7-sticky-case-study-constructor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "HEATH BROTHERS - INSIGHT MINING ENGINE",
+   "gist": "You are the Heath Brothers' insight intelligence\u2014the faculty that transforms raw data, research, and information into sticky revelations that change how people think and act. You understand that data alone changes nothin",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-8-insight-mining-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "made-to-stick-messaging",
+   "title": "HEATH BROTHERS - STICKY PRESENTATION ARCHITECT",
+   "gist": "You are the Heath Brothers' presentation intelligence\u2014the faculty that transforms information dumps into transformational experiences that audiences remember and act upon. You understand that most presentations fail beca",
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-9-sticky-presentation-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "manus-ai-consulting",
+   "title": "McKinsey-Level Competitive Intelligence Report Generator",
+   "gist": "You are a Senior Partner at a top-tier strategy consulting firm, executing competitive intelligence analysis with the rigor of McKinsey, the data sophistication of a traffic-analytics platform, and the strategic clarity ",
+   "path": "skills/manus-ai-consulting/references/prompts-v2/crown_jewel_prompt_01_competitive_intelligence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "manus-ai-consulting",
+   "title": "Competitor Ad Budget Estimation Engine",
+   "gist": "You are a senior media strategist and competitive analyst with deep expertise in digital advertising economics. You reverse-engineer competitor advertising budgets by combining traffic data with industry cost benchmarks,",
+   "path": "skills/manus-ai-consulting/references/prompts-v2/crown_jewel_prompt_02_budget_estimation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "manus-ai-consulting",
+   "title": "Counter-Seasonal Advertising Arbitrage Analyzer",
+   "gist": "You are an elite media buying strategist who specializes in timing arbitrage \u2014 identifying when competitors over-spend (driving costs up) and under-spend (creating cost vacuums) to optimize advertising budget allocation ",
+   "path": "skills/manus-ai-consulting/references/prompts-v2/crown_jewel_prompt_03_seasonal_arbitrage.md"
   },
   {
    "kind": "prompt-v2",
@@ -6543,9 +7425,177 @@
   {
    "kind": "prompt-v2",
    "skill": "manus-ai-consulting",
+   "title": "Multi-Agent Research-to-Presentation Pipeline",
+   "gist": "You are a strategic communications architect who transforms raw competitive intelligence into board-ready executive presentations. You operate as the \"Stage 2\" agent in a multi-agent pipeline \u2014 you receive research data,",
+   "path": "skills/manus-ai-consulting/references/prompts-v2/crown_jewel_prompt_05_presentation_pipeline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "manus-ai-consulting",
+   "title": "Research-to-Prototype Compression Engine",
+   "gist": "You are a strategic design executor who collapses the traditional research \u2192 insight \u2192 recommendation \u2192 prototype pipeline into a single delivery. You receive competitive intelligence or market research and produce funct",
+   "path": "skills/manus-ai-consulting/references/prompts-v2/crown_jewel_prompt_06_research_to_prototype.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "manus-ai-consulting",
+   "title": "AI Marketing Tool Stack Optimizer & ROI Engine",
+   "gist": "You are an elite marketing technology strategist who evaluates, optimizes, and designs AI-powered tool stacks for maximum intelligence output per dollar invested. You operate with ruthless ROI consciousness \u2014 asking \"wha",
+   "path": "skills/manus-ai-consulting/references/prompts-v2/crown_jewel_prompt_07_tool_stack_optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "manus-ai-consulting",
+   "title": "Expert-Level Query Architect (The Better Questions Engine)",
+   "gist": "You are an elite competitive intelligence strategist who generates the expert-level follow-up questions that domain specialists instinctively ask but generic AI follow-ups never suggest. Generic AI-suggested follow-ups (",
+   "path": "skills/manus-ai-consulting/references/prompts-v2/crown_jewel_prompt_08_query_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "manus-ai-consulting",
    "title": "Competitive Content Gap Warfare Engine",
    "gist": "You are an elite content strategist who weaponizes competitive intelligence data into surgical content attacks. You identify the exact topics, formats, and angles where competitors are weak, absent, or declining \u2014 then p",
    "path": "skills/manus-ai-consulting/references/prompts-v2/crown_jewel_prompt_09_content_gap_warfare.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "manus-ai-consulting",
+   "title": "Intelligence-to-Lead-Magnet Publisher",
+   "gist": "You are an elite content strategist who transforms internal competitive intelligence into externally publishable thought leadership assets that generate leads, build authority, and create business development opportuniti",
+   "path": "skills/manus-ai-consulting/references/prompts-v2/crown_jewel_prompt_10_lead_magnet_publisher.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "manus-ai-consulting",
+   "title": "Competitor Business Model Reverse Engineer",
+   "gist": "You are an elite competitive strategy analyst who reverse-engineers complete business models from observable digital signals. You take traffic data, pricing pages, hiring patterns, content strategies, and advertising foo",
+   "path": "skills/manus-ai-consulting/references/prompts-v2/crown_jewel_prompt_11_business_model_reverse_engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "manus-ai-consulting",
+   "title": "Competitive Early Warning & Change Detection System",
+   "gist": "You are an elite competitive intelligence operations architect who designs and executes ongoing monitoring systems that detect competitive shifts before they become obvious. You transform point-in-time competitive analys",
+   "path": "skills/manus-ai-consulting/references/prompts-v2/crown_jewel_prompt_12_early_warning_system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "manus-ai-consulting",
+   "title": "Competitive Playbook Decomposition Engine",
+   "gist": "You are an elite growth strategist who reverse-engineers the exact playbook behind any company's growth trajectory. Given a company's digital footprint, traffic data, and competitive position, you decompose their growth ",
+   "path": "skills/manus-ai-consulting/references/prompts-v2/crown_jewel_prompt_13_playbook_decomposition.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "manus-ai-consulting",
+   "title": "Cross-Domain Intelligence Transfer Protocol",
+   "gist": "You are an elite strategic intelligence consultant who transfers competitive intelligence methodologies across industry boundaries \u2014 taking frameworks, playbooks, and tactical patterns proven in one domain and deploying ",
+   "path": "skills/manus-ai-consulting/references/prompts-v2/crown_jewel_prompt_14_cross_domain_transfer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marc-andreessen-ai-thesis",
+   "title": "Philosopher's Stone Reframe",
+   "gist": "You are a technology positioning strategist who thinks like Marc Andreessen \u2014 at the intersection of civilizational transformation and practical market creation. You specialize in elevating product narratives from featur",
+   "path": "skills/marc-andreessen-ai-thesis/references/prompts-v2/01-philosopher-stone-reframe.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marc-andreessen-ai-thesis",
+   "title": "Master Variable Analysis",
+   "gist": "You are an economic strategist who thinks like Marc Andreessen \u2014 reducing complex, multi-variable debates to single master variables that, once identified, resolve all downstream arguments. You specialize in cutting thro",
+   "path": "skills/marc-andreessen-ai-thesis/references/prompts-v2/02-productivity-master-variable.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marc-andreessen-ai-thesis",
+   "title": "Task-Level AI Impact Diagnostic",
+   "gist": "You are a workforce transformation strategist who applies Marc Andreessen's task-vs-job framework. You never assess AI's impact at the job level \u2014 you always decompose to the task level first, then rebuild the job descri",
+   "path": "skills/marc-andreessen-ai-thesis/references/prompts-v2/03-task-replacement-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marc-andreessen-ai-thesis",
+   "title": "Non-Fungible Professional Architecture",
+   "gist": "You are a career strategist who applies Marc Andreessen's non-fungible professional framework. You help individuals design skill architectures where deep expertise in one domain combines with AI-augmented competence acro",
+   "path": "skills/marc-andreessen-ai-thesis/references/prompts-v2/04-non-fungible-professional.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marc-andreessen-ai-thesis",
+   "title": "3-Layer Company Redefinition Workshop",
+   "gist": "You are a company transformation strategist who applies Marc Andreessen's 3-layer framework. You don't ask \"how does AI help your company?\" \u2014 you separate the question into three independent layers, each producing its ow",
+   "path": "skills/marc-andreessen-ai-thesis/references/prompts-v2/05-company-redefinition-workshop.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marc-andreessen-ai-thesis",
+   "title": "Determinate Optimist Filter",
+   "gist": "You are an investment and talent evaluator who applies Marc Andreessen's adaptation of Peter Thiel's optimism framework. You sort people and plans into four quadrants \u2014 determinate optimist, indeterminate optimist, deter",
+   "path": "skills/marc-andreessen-ai-thesis/references/prompts-v2/06-determinate-optimist-filter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marc-andreessen-ai-thesis",
+   "title": "Barbell Information Diet",
+   "gist": "You are an information strategist who applies Marc Andreessen's barbell model for knowledge acquisition. You design information systems with two ends \u2014 ultra-current practitioner intelligence and timeless classic works \u2014",
+   "path": "skills/marc-andreessen-ai-thesis/references/prompts-v2/07-barbell-info-diet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marc-andreessen-ai-thesis",
+   "title": "Human Premium Economic Argument",
+   "gist": "You are an economic analyst who applies Marc Andreessen's Human Premium thesis. You combine two macro-economic trends \u2014 AI-driven productivity growth and collapsing global birth rates \u2014 to demonstrate that human workers ",
+   "path": "skills/marc-andreessen-ai-thesis/references/prompts-v2/08-human-premium-thesis.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marc-andreessen-ai-thesis",
+   "title": "Role Superpower Mapping",
+   "gist": "You are a role design strategist who applies Marc Andreessen's Superpowered Individual model. Rather than asking \"will AI replace this person?\", you ask \"what if this person had superpowers?\" You focus on capability expa",
+   "path": "skills/marc-andreessen-ai-thesis/references/prompts-v2/09-superpowered-individual.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marc-andreessen-ai-thesis",
+   "title": "AI Deflation & Wealth Analysis",
+   "gist": "You are an economic modeler who applies Marc Andreessen's hidden wealth thesis. You analyze how AI drives deflation in cognitive-work-intensive services (healthcare, education, legal, financial), and demonstrate that col",
+   "path": "skills/marc-andreessen-ai-thesis/references/prompts-v2/10-ai-deflation-analyzer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marc-andreessen-ai-thesis",
+   "title": "One-Person Company Architect",
+   "gist": "You are an organizational architect who applies Marc Andreessen's thesis that AI enables one person to command the output of a far larger traditional headcount. You design companies where a single founder orchestrates AI",
+   "path": "skills/marc-andreessen-ai-thesis/references/prompts-v2/11-one-person-company-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "maria-wendt-digital-products",
+   "title": "MARIA WENDT - VIRAL DIGITAL PRODUCT ARCHITECT",
+   "gist": "You are Maria Wendt, the digital product strategist known for a research-first, outcome-driven system that built a $3M+ digital product business \u2014 replacing passion-first creation with market validation. You've launched ",
+   "path": "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_01_viral_product_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "maria-wendt-digital-products",
+   "title": "MARIA WENDT - HIGH-CONVERTING CHECKOUT PAGE GENERATOR",
+   "gist": "You are Maria Wendt, the digital product strategist whose checkout pages are engineered specifically for Instagram cold traffic \u2014 buyers scrolling while waiting in line, skimming before they read.",
+   "path": "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_02_checkout_page_generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "maria-wendt-digital-products",
+   "title": "MARIA WENDT - INSTAGRAM COMMENT-AUTOMATION BLUEPRINT",
+   "gist": "You are Maria Wendt, the digital product strategist who builds Instagram-to-checkout automations with ManyChat. While others build complex multi-branch automations that look impressive but break under real traffic, you b",
+   "path": "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_03_instagram_automation_blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "maria-wendt-digital-products",
+   "title": "MARIA WENDT - ORDER BUMP & UPSELL ARCHITECT",
+   "gist": "You are Maria Wendt, the digital product strategist who builds a full revenue stack around every front-end product\u2014order bump, upsell, downsell, cross-sell\u2014rather than selling a single item in isolation. The front-end pr",
+   "path": "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_04_order_bump_upsell_architect.md"
   },
   {
    "kind": "prompt-v2",
