@@ -1,0 +1,249 @@
+{
+  "wave": 6,
+  "groups_completed": 10,
+  "total_refactored": 150,
+  "total_skipped": 0,
+  "fidelity_low_list": [
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "authority-content.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "portfolio-proof.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "proof-building-flywheel.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "case-study-factory.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "confidence-building.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "credibility-signals.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "discovery-audit.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "feature-outcome-translation.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "first-client.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "objection-handling.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "personal-results.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "pilot-project.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "price-anchoring.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "process-expertise.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "proposal-optimizer.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "quick-win.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "referral-request.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "risk-reversal.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "sales-conversation.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "testimonial-collection.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "value-articulation.md"
+    },
+    {
+      "skill": "ai-chris-lee-zero-testimonial-sales",
+      "file": "zero-testimonial-framework.md"
+    },
+    {
+      "skill": "andy-lo-premium-websites",
+      "file": "01-visual-direction-generator.md"
+    },
+    {
+      "skill": "andy-lo-premium-websites",
+      "file": "02-motion-design-orchestrator.md"
+    },
+    {
+      "skill": "andy-lo-premium-websites",
+      "file": "03-website-assembly-blueprint.md"
+    },
+    {
+      "skill": "andy-lo-premium-websites",
+      "file": "04-boilerplate-foundation.md"
+    },
+    {
+      "skill": "andy-lo-premium-websites",
+      "file": "05-headless-cms-wiring.md"
+    },
+    {
+      "skill": "andy-lo-premium-websites",
+      "file": "07-supabase-asset-pipeline.md"
+    },
+    {
+      "skill": "andy-lo-premium-websites",
+      "file": "08-parallax-hero-builder.md"
+    },
+    {
+      "skill": "andy-lo-premium-websites",
+      "file": "09-cinematic-personal-site.md"
+    },
+    {
+      "skill": "andy-lo-premium-websites",
+      "file": "10-agency-site-architect.md"
+    },
+    {
+      "skill": "andy-lo-premium-websites",
+      "file": "11-build-guide-generator.md"
+    },
+    {
+      "skill": "andy-lo-premium-websites",
+      "file": "12-visual-asset-factory.md"
+    },
+    {
+      "skill": "andy-lo-premium-websites",
+      "file": "13-webp-conversion-optimizer.md"
+    },
+    {
+      "skill": "andy-lo-premium-websites",
+      "file": "14-deploy-and-export.md"
+    },
+    {
+      "skill": "april-dunford-positioning",
+      "file": "01-positioning-diagnostic.md"
+    },
+    {
+      "skill": "april-dunford-positioning",
+      "file": "02-competitive-alternative-mapper.md"
+    },
+    {
+      "skill": "april-dunford-positioning",
+      "file": "03-differentiated-value-chain.md"
+    },
+    {
+      "skill": "april-dunford-positioning",
+      "file": "04-target-customer-sharpener.md"
+    },
+    {
+      "skill": "april-dunford-positioning",
+      "file": "05-market-category-selector.md"
+    },
+    {
+      "skill": "april-dunford-positioning",
+      "file": "06-sales-pitch-architect.md"
+    },
+    {
+      "skill": "april-dunford-positioning",
+      "file": "07-insight-reverse-engineer.md"
+    },
+    {
+      "skill": "april-dunford-positioning",
+      "file": "08-perfect-world-bridge.md"
+    },
+    {
+      "skill": "adam-enfroy-affiliate-marketing",
+      "file": "03-ai-article.md"
+    },
+    {
+      "skill": "adam-enfroy-affiliate-marketing",
+      "file": "10-ai-content-system.md"
+    },
+    {
+      "skill": "adam-enfroy-affiliate-marketing",
+      "file": "11-buyer-psychology.md"
+    },
+    {
+      "skill": "adam-enfroy-affiliate-marketing",
+      "file": "12-viral-hook.md"
+    },
+    {
+      "skill": "adam-enfroy-affiliate-marketing",
+      "file": "13-content-multiplication.md"
+    },
+    {
+      "skill": "adam-enfroy-affiliate-marketing",
+      "file": "content-funnel-architect.md"
+    },
+    {
+      "skill": "andrew-wilkinson-ai-entrepreneurship",
+      "file": "apex-06-implementation-sprint-commander.md"
+    },
+    {
+      "skill": "andrew-wilkinson-ai-entrepreneurship",
+      "file": "apex-07-scaling-playbook-generator.md"
+    },
+    {
+      "skill": "andrew-wilkinson-ai-entrepreneurship",
+      "file": "apex-08-ai-employee-deployment.md"
+    },
+    {
+      "skill": "andrew-wilkinson-ai-entrepreneurship",
+      "file": "apex-09-adhd-founder-productivity.md"
+    },
+    {
+      "skill": "andrew-wilkinson-ai-entrepreneurship",
+      "file": "apex-10-exit-architecture-designer.md"
+    },
+    {
+      "skill": "andrew-wilkinson-ai-entrepreneurship",
+      "file": "vibe-coding-executor.md"
+    },
+    {
+      "skill": "andreessen-horowitz-new-media",
+      "file": "01-new-media-strategy-audit.md"
+    },
+    {
+      "skill": "andreessen-horowitz-new-media",
+      "file": "02-ooda-loop-media-warfare.md"
+    },
+    {
+      "skill": "andreessen-horowitz-new-media",
+      "file": "04-joe-rogan-ceo-positioning.md"
+    },
+    {
+      "skill": "andreessen-horowitz-new-media",
+      "file": "05-flood-the-zone-crisis-protocol.md"
+    },
+    {
+      "skill": "andreessen-horowitz-new-media",
+      "file": "06-platform-native-launch-service.md"
+    }
+  ],
+  "summary": "Wave 6: 150 prompts to v2 across 10 skill groups. 60 fidelity-low."
+}
