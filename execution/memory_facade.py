@@ -75,7 +75,7 @@ elif _episodic_env:
 else:
     EPISODIC_PROJECTS = ["-" + str(ROOT).strip("/").replace("/", "-").replace(" ", "-")]
 
-ALL_SOURCES = ("sovereign", "automem", "wiki", "agents", "episodic", "solutions")
+ALL_SOURCES = ("sovereign", "automem", "wiki", "agents", "episodic", "solutions", "prompts")
 
 _STOPWORDS = {
     "a", "an", "and", "are", "as", "at", "be", "by", "for", "from", "how",
@@ -236,6 +236,48 @@ def _query_wiki(query: str, top_k: int) -> Dict[str, Any]:
         return {"results": results[:top_k], "degraded": None}
     except Exception as exc:
         return {"results": [], "degraded": f"wiki: {str(exc)[:120]}"}
+
+
+# ──────────────────────────────────────────────────────────────────
+# prompts — crown-jewel practitioner prompt registry (.agent/prompt-index.json,
+# built by prompt_library.py). Mirrors _query_wiki's shape: cheap index scan,
+# term overlap on title/skill/gist, returns pointers not content. Added
+# 2026-07-10 so Chain Step-4 loading surfaces battle-tested prompts alongside
+# memory hits (Farrice: "the structural practitioner-level execution gave me
+# outstanding outputs"). Embedded example stats inside old prompts are style,
+# never fact — the factual-grounding standard applies at deploy time.
+# ──────────────────────────────────────────────────────────────────
+PROMPT_INDEX = ROOT / ".agent" / "prompt-index.json"
+
+
+def _query_prompts(query: str, top_k: int) -> Dict[str, Any]:
+    try:
+        if not PROMPT_INDEX.exists():
+            return {"results": [], "degraded": "prompt index missing — run prompt_library.py build"}
+        index = json.loads(PROMPT_INDEX.read_text())
+        q_tokens = _tokens(query)
+        results = []
+        for e in index.get("entries", []):
+            if e.get("kind") == "legacy-prompt":
+                continue  # legacy dirs mirror the skill-prompt files — skip dupes
+            hay = " ".join([e.get("title", ""), e.get("skill", "").replace("-", " "),
+                            e.get("gist", "")])
+            score = _overlap_score(q_tokens, hay)
+            if score > 0:
+                results.append({
+                    "source": "prompts",
+                    "via": "prompt-index",
+                    "score": score,
+                    "id": Path(e.get("path", "")).stem,
+                    "pinned": False,
+                    "snippet": f"[{e.get('skill', '?')}] {e.get('title', '')[:80]} — "
+                               f"{e.get('gist', '')[:100]}",
+                    "path": e.get("path", ""),
+                })
+        results.sort(key=lambda r: r["score"], reverse=True)
+        return {"results": results[:top_k], "degraded": None}
+    except Exception as exc:
+        return {"results": [], "degraded": f"prompts: {str(exc)[:120]}"}
 
 
 # ──────────────────────────────────────────────────────────────────
@@ -400,6 +442,7 @@ def recall(
         ("agents", lambda: _query_agents(query, per_store)),
         ("episodic", lambda: _query_episodic(query, per_store)),
         ("solutions", lambda: _query_solutions(query, per_store)),
+        ("prompts", lambda: _query_prompts(query, per_store)),
     ):
         if name not in use:
             continue
