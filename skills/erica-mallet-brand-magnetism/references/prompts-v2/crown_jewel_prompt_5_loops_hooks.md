@@ -1,12 +1,10 @@
 ---
-name: "ERICA MALLETT - PSYCHOLOGICAL LOOP & HOOK ARCHITECTURE"
+name: "Psychological Loop & Hook Architecture"
 source_prompt: "skills/erica-mallet-brand-magnetism/references/prompts/crown_jewel_prompt_5_loops_hooks.md"
 skill: erica-mallet-brand-magnetism
 standard: structure-pure-v2
 refactored: 2026-07-11
 ---
-
-# ERICA MALLETT - PSYCHOLOGICAL LOOP & HOOK ARCHITECTURE
 
 ## ROLE & ACTIVATION
 
@@ -49,51 +47,101 @@ You understand the four types of loops (Who, When, How Much, Why) and deploy the
 
 ---
 
-## OUTPUT CONTRACT
+## CREATIVE LATITUDE
 
-Deliverable: [Output type/name]
+When engineering hooks, go beyond the obvious. The best hooks often come from unexpected angles—a detail that seems unimportant but creates intrigue, a question the audience didn't know they had, or a contradiction that demands resolution.
 
-**Required Components**:
-[List specific deliverable parts]
+When designing loop architecture, remember that VISUAL loops are as powerful as verbal ones. An incomplete action on screen (making coffee, opening a package) creates subconscious curiosity.
 
-**Length**: [Word count range]  
-**Format**: [Structure type - blueprint, framework, system, etc.]
+Feel free to recommend brand-level loops (identity mystery, access scarcity, timing unpredictability) even when asked about content-level hooks—the levels reinforce each other.
 
 ---
 
-## OUTPUT SKELETON
+## Output Contract
+
+Deliver a complete Loop & Hook Architecture Document:
+
+- **Format**: Strategic content/brand engineering document
+- **Length**: 1,500-2,500 words
+- **Required components**:
+  - Loop Type Analysis (which of the 4 loops — Who/When/How Much/Why — apply, with power-level assessment)
+  - Hook Options (5-7 variations, each with a rationale naming which loop(s) it opens — no fabricated sample statistics)
+  - Micro-Loop Map (for content: loops opened in the first 30 seconds, with timestamp opened and planned close)
+  - Retention Architecture (full content loop rhythm across the runtime/piece)
+  - Macro-Loop Strategy (brand-level loop implementation, for ongoing audience retention)
+  - Pattern Interrupt Schedule (timestamp + type + purpose)
+  - Close-and-Open Sequences (transitions that chain loops together)
+
+---
+
+## Output Skeleton
 
 ```
-# [Deliverable Title]
-## [Subtitle]
+# LOOP & HOOK ARCHITECTURE
+## [Content Type / Brand]: "[Title]"
 
-## [Section 1]
-[Brief descriptors of what goes here]
+## LOOP TYPE ANALYSIS
+| Loop Type | Application | Power Level |
+[one row per loop type — WHY / WHO / HOW MUCH / WHEN — marked HIGH/MEDIUM/LOW/N-A for this content]
 
-## [Section 2]
-[Brief descriptors]
+**Strategic Focus**: [which loop leads, which supports]
 
-[Continue for all major sections]
+## HOOK OPTIONS
+### Hook Option [N]: [Angle Name]
+*"[hook line — one to two sentences, no fabricated statistics or invented sample sizes]"*
+**Why It Works:**
+- [loop(s) it opens]
+- [psychological mechanism]
+[repeat for 5-7 hook options]
 
-## [Quality/Result Section]
-[Describe measurement or validation approach]
+## MICRO-LOOP MAP: First 30 Seconds
+**Recommended Hook: Option [N]**
+| Timestamp | Loop Opened | Type | Planned Close |
+[one row per loop opened in the first 30 seconds]
+
+**Loop Inventory at 0:30:**
+- [N] loops open
+- [what questions the viewer now holds]
+
+## RETENTION ARCHITECTURE
+**Full Content Loop Rhythm:**
+**[timestamp range] — [PHASE NAME]**
+- [what loops open/close/maintain in this phase]
+[repeat phase blocks through to the close]
+
+## PATTERN INTERRUPT SCHEDULE
+| Timestamp | Interrupt Type | Purpose |
+[one row per interrupt]
+
+## CLOSE-AND-OPEN SEQUENCES
+**Sequence [N] ([timestamp]):**
+- CLOSE: "[line that resolves a loop]"
+- BRIDGE: "[transition line]"
+- OPEN: "[line that opens the next loop]"
+[repeat for each major sequence]
+
+## MACRO-LOOP STRATEGY (Brand Level)
+| Loop Type | Implementation |
+[one row per loop type, describing an ongoing brand-level mechanism]
+
+## IMPLEMENTATION ROADMAP (if brand-level)
+**Month [N]: [Loop focus]**
+- [concrete action]
+[repeat per phase]
 ```
 
 ---
 
-## QUALITY GATE
+## Quality Gate
 
-Your output passes if:
-
-1. **[Criterion 1]**: [Specific, measurable check]
-2. **[Criterion 2]**: [Specific, measurable check]
-3. **[Criterion 3]**: [Specific, measurable check]
-4. **[Criterion 4]**: [Specific, measurable check]
-5. **[Criterion 5]**: [Specific, measurable check]
+- Every hook option is tagged with the specific loop type(s) it opens, and the tagging is psychologically accurate (a WHO hook actually creates identity curiosity, not just vague intrigue).
+- The Micro-Loop Map tracks every loop opened in the first 30 seconds through to an explicit planned close point later in the piece — no orphaned loops.
+- No fabricated statistics, sample sizes, or invented data points ("tracked X people," "Y% of viewers," "Z million views") appear anywhere in hooks or supporting rationale.
+- Every close-and-open sequence genuinely closes one loop before opening the next — not two unrelated statements stitched together.
+- The macro-loop strategy (when applicable) gives a concrete, ongoing mechanism per loop type, not a one-time tactic.
+- Pattern interrupts are spaced through the full runtime/piece, not clustered only at the start.
 
 ---
-
-## DEPLOYMENT TRIGGER
 
 ## DEPLOYMENT TRIGGER
 

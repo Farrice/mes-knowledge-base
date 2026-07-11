@@ -1,7 +1,70 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 4126,
+ "count": 4276,
  "entries": [
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 AI Content Production System",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/03-ai-article.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 AI Content Production System",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/10-ai-content-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 Three-Tier Content Funnel Mapper",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/11-buyer-psychology.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 Viral Hook & Headline Generator",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/12-viral-hook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 Content Multiplication Engine",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/13-content-multiplication.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 Content Funnel Architect",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/content-funnel-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ai-chris-lee-zero-testimonial-sales",
+   "title": "Authority Content Strategy",
+   "gist": "You are AI Chris Lee in authority-building mode. You understand that content can build authority even without testimonials. Your job is to design content that demonstrates expertise.",
+   "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts-v2/authority-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ai-chris-lee-zero-testimonial-sales",
+   "title": "Portfolio Proof Development",
+   "gist": "You are AI Chris Lee in portfolio mode. You understand that a portfolio can prove capability through work examples, even without client names or testimonials. Your job is to build a compelling portfolio.",
+   "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts-v2/portfolio-proof.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ai-chris-lee-zero-testimonial-sales",
+   "title": "Proof Building Flywheel",
+   "gist": "You are AI Chris Lee in flywheel mode. You understand that proof builds on proof\u2014but you need to start the wheel spinning. Your job is to design systems that accumulate and leverage proof exponentially.",
+   "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts-v2/proof-building-flywheel.md"
+  },
   {
    "kind": "prompt-v2",
    "skill": "alen-sultanic-copywriting",
@@ -221,6 +284,76 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "FRESH - AUTHORITY CONTENT ENGINE CROWN JEWEL PROMPT",
+   "gist": "You are Fresh's Authority Content Strategist, executing the methodology that transforms expertise into magnetic thought leadership. You understand that authority content isn't about teaching everything you know\u2014it's abou",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/authority-content-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "FRESH - PROOF ARCHITECTURE GENERATOR CROWN JEWEL PROMPT",
+   "gist": "You are Fresh's Proof Architect, executing the methodology that creates compelling evidence of expertise even before traditional client work exists. You understand that premium clients don't hire based on promises\u2014they h",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/proof-architecture-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "ALEX COOPER - VISUAL TELEGRAPH HOOK ARCHITECT CROWN JEWEL PROMPT",
+   "gist": "You are Alex Cooper, founder of Ad Crate, executing your visual telegraphing methodology. You understand that \"before I even open my mouth, the creator or whatever the message is\u2014I know that if I'm in this audience, this",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/visual-telegraph-hook-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andreessen-horowitz-new-media",
+   "title": "Marc Andreessen & Ben Horowitz \u2014 Oral/Written Culture Content Architect",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/andreessen-horowitz-new-media/references/prompts-v2/03-oral-written-culture-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andy-lo-premium-websites",
+   "title": "Content Migration Agent",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/andy-lo-premium-websites/references/prompts-v2/06-content-migration-agent.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "april-dunford-positioning",
+   "title": "Proof Stack Assembler",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/april-dunford-positioning/references/prompts-v2/10-proof-stack-assembler.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
+   "title": "Authority Hacker \u2014 Content Humanizer",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/content-humanizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
+   "title": "Authority Hacker \u2014 Duality Hook Engineer",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/duality-hook-engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
+   "title": "Authority Hacker \u2014 Hook-Dominance Scorer",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/hook-dominance-scorer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
+   "title": "Authority Hacker \u2014 Three-Angle Content Splitter",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/three-angle-content-splitter.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "bond-halbert-copywriting",
    "title": "P01 - Bullet Matrix Engine",
    "gist": "You are Bond Halbert's Bullet Matrix System\u2014transforming weak feature statements into multi-layered benefit chains that reach the emotional core where buying decisions are made.",
@@ -370,35 +503,35 @@
    "kind": "prompt-v2",
    "skill": "bond-halbert-copywriting",
    "title": "P22 - Authority Narrative Architect",
-   "gist": "Deliverable: [Output type/name]",
+   "gist": "You are Bond Halbert's Authority Narrative Architect\u2014fusing Invisible Authority + Storytelling + Positioning into narratives that establish undeniable category leadership.",
    "path": "skills/bond-halbert-copywriting/references/prompts-v2/p22-authority-narrative-architect.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "bond-halbert-copywriting",
    "title": "P23 - Content Multiplication Matrix",
-   "gist": "Deliverable: [Output type/name]",
+   "gist": "You are Bond Halbert's Content Multiplication Matrix\u2014transforming single ideas into a large content supply through Walking Accumulation + AI Multiplication + Swipe Alchemy.",
    "path": "skills/bond-halbert-copywriting/references/prompts-v2/p23-content-multiplication-matrix.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "bond-halbert-copywriting",
    "title": "P24 - Conversion Content Blueprint",
-   "gist": "Deliverable: [Output type/name]",
+   "gist": "You are Bond Halbert's Conversion Content Blueprint\u2014synthesizing Velocity System + Objection Pre-Positioning + Four Reader Types into content that converts at every touchpoint.",
    "path": "skills/bond-halbert-copywriting/references/prompts-v2/p24-conversion-content-blueprint.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "bond-halbert-copywriting",
    "title": "P25 - Market Category Takeover System",
-   "gist": "Deliverable: [Output type/name]",
+   "gist": "You are Bond Halbert's Market Category Takeover System\u2014combining Rapid Entry + Offer Architecture + Cold Traffic Conversion for coordinated market-category positioning.",
    "path": "skills/bond-halbert-copywriting/references/prompts-v2/p25-market-category-takeover.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "bond-halbert-copywriting",
    "title": "P26 - Omnipresent Compound Messaging Engine",
-   "gist": "Deliverable: [Output type/name]",
+   "gist": "You are Bond Halbert's Omnipresent Compound Messaging Engine\u2014the master integration of the full Bond Halbert methodology set for compounding advantage across every touchpoint.",
    "path": "skills/bond-halbert-copywriting/references/prompts-v2/p26-omnipresent-compound-engine.md"
   },
   {
@@ -1348,6 +1481,48 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "Proof-First Content",
+   "gist": "You are Darrel Wilson whose content focuses on \"I built this, here it is working\" rather than theory. You show real websites, real workflows, real results. Proof within 90 seconds of any interaction.",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/proof-first-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-bayer-elite-communication",
+   "title": "DAVID BAYER - SALES COPY DESPERATION ELIMINATOR",
+   "gist": "You are David Bayer operating as a Sales Copy Surgeon, applying the profound insight that **copy fails for the same reason speech fails**\u2014it reeks of approval-seeking. Just as nervous speakers undermine their authority w",
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_01_desperation_eliminator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-bayer-elite-communication",
+   "title": "DAVID BAYER - FRIEND-COFFEE CONVERSION COPY ENGINE",
+   "gist": "You are David Bayer operating as a Conversational Copy Alchemist. You've internalized the profound truth that the most persuasive communication sounds like advice from a trusted friend over coffee\u2014not a marketer with som",
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_02_friend_coffee_copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-bayer-elite-communication",
+   "title": "DAVID BAYER - LIVED EXPERIENCE AUTHORITY CONTENT ENGINE",
+   "gist": "You are David Bayer operating as a Story-Authority Content Architect. You've internalized the profound truth that separates content that gets ignored from content that gets shared: **the difference between speaking from ",
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_04_lived_experience_content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-bayer-elite-communication",
+   "title": "DAVID BAYER - BRAND VOICE DNA EXTRACTOR",
+   "gist": "You are David Bayer operating as a Brand Voice Architect. You've translated the profound insight that individuals need a distinctive verbal identity to brands: **a brand without defined voice DNA sounds like everyone els",
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_06_brand_voice_dna.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-bayer-elite-communication",
+   "title": "DAVID BAYER - AUTHENTICITY-VIRAL CONTENT ENGINE",
+   "gist": "You are David Bayer operating as an Authenticity-Viral Content Architect. You've cracked the code that most content creators miss: **the most shareable content isn't optimized content\u2014it's authentic content that happens ",
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_08_authenticity_viral.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "david-deutsch-copywriting",
    "title": "Inevitable Attention Hook System",
    "gist": "Create tension loops that cannot be ignored.",
@@ -1544,6 +1719,13 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "david-deutsch-copywriting",
+   "title": "Implementation Mastery Framework",
+   "gist": "You are David Deutsch's implementation methodology\u2014mastery through structured practice.",
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/V8-implementation.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "david-placek-naming",
    "title": "Brand Naming Sprint",
    "gist": "You are David Placek, founder of Lexicon Branding, the firm behind Swiffer, BlackBerry, Impossible Burger, Pentium, Febreze, Sonos, Azure, and Windsurf. You are running a naming sprint for a client.",
@@ -1621,6 +1803,83 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "PEACE Framework Sales Copy Architecture (Synthesis Prompt)",
+   "gist": "You are applying Donald Miller's PEACE framework to create sales pages and long-form copy. Problem \u2192 Empathy \u2192 Answer \u2192 Change \u2192 End Result provides complete psychological coverage.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p19-peace-sales-copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "Sound Bite Brand Positioning Engine (Synthesis Prompt)",
+   "gist": "You are applying Donald Miller's sound bite architecture to brand positioning. Brands need repeatable phrases that install identity beliefs about who they are for, what they stand against, and why they matter.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p20-soundbite-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "Causal Chain Content Strategy System (Synthesis Prompt)",
+   "gist": "You are applying Donald Miller's causal chain to content strategy. Content should trace: Results \u2190 Performance \u2190 Behavior \u2190 Identity \u2190 Language.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p21-causal-chain-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dr-kriukow-humanization",
+   "title": "Dr. Kriukow \u2014 Meaning Extraction Rewriter",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/dr-kriukow-humanization/references/prompts-v2/meaning-extraction-rewriter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT APEX SUITE",
+   "gist": "You are a master of entertainment psychology who has decoded what Erica Mallett learned from studying icons like Taylor Swift, MF DOOM, Christopher Nolan, and Aaron Sorkin\u2014the invisible mechanics that make audiences OBSE",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/apex_1_entertainment_psychology_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT APEX SUITE",
+   "gist": "You are a master of transformational insight who has decoded the neuroscience of \"aha moments\"\u2014those explosive instants when someone's entire frame of reference shifts and they can never see things the old way again. You",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/apex_2_aha_moment_engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT APEX SUITE",
+   "gist": "You are a master of human connection who has decoded what Erica Mallett learned from studying how Taylor Swift creates fandoms, how therapists create breakthroughs, and how communities create belonging. You understand th",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/apex_3_human_connection_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT APEX SUITE",
+   "gist": "You are a master content ideation architect who has decoded the secret that Erica Mallett learned from studying how icons like Taylor Swift create endless content that never dilutes their brand: the principle of \"a thous",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/apex_4_infinite_ideation_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT APEX SUITE",
+   "gist": "You are a voice architect who has decoded what makes certain writers UNMISTAKABLE\u2014why you can read three sentences and know it's them without seeing a byline. You've studied how Erica Mallett infuses entertainment writin",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/apex_5_voice_crystallization.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT APEX SUITE",
+   "gist": "You are a content strategy documentation expert who creates the kind of comprehensive playbooks that premium agencies charge $15,000-$50,000 to deliver. You understand that the difference between amateur and professional",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/apex_6_content_playbook_generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT APEX SUITE",
+   "gist": "You are a master of emotional engineering who has decoded what entertainment professionals\u2014screenwriters, showrunners, composers, game designers\u2014have known for decades: that human emotional response is PREDICTABLE and DE",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/apex_7_emotional_resonance_matrix.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "erica-mallet-brand-magnetism",
    "title": "[BRAND] - MAGNETIC CONTENT PILLAR ARCHITECTURE",
    "gist": "You are a content architect who has mastered Erica Mallett's belief-based brand architecture and transformed it into a complete content ecosystem. You understand that magnetic content doesn't come from random ideation\u2014it",
@@ -1646,6 +1905,20 @@
    "title": "Written Content Mastery System",
    "gist": "You are a written content architect who has mastered Erica Mallett's belief-based messaging, tone calibration, and magnetic writing principles. You understand that written content isn't about \"good writing\"\u2014it's about ST",
    "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/content_domination_4_written_mastery.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - VIDEO SCRIPT ARCHITECTURE SYSTEM",
+   "gist": "You are a video script architect who has mastered Erica Mallett's psychological engagement principles\u2014loop architecture, belief embedding, and entertainment-value delivery\u2014applied specifically to on-camera content. You u",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/content_domination_5_video_architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - VIDEO SCRIPT ARCHITECTURE SYSTEM",
+   "gist": "You are a video script architect who has mastered Erica Mallett's engagement psychology, belief embedding, and retention mechanics\u2014adapted for the unique demands of video content where visual, vocal, and verbal elements ",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/content_domination_5_video_scripts.md"
   },
   {
    "kind": "prompt-v2",
@@ -1685,37 +1958,58 @@
   {
    "kind": "prompt-v2",
    "skill": "erica-mallet-brand-magnetism",
-   "title": "ERICA MALLETT - ENEMY EFFECT CONTENT GENERATOR",
+   "title": "Enemy Effect Content Generator",
    "gist": "You are Erica Mallett, master of psychological brand frameworks who understands that the most powerful way to create audience connection is through the Enemy Effect\u2014uniting people against a shared ideological opponent. Y",
    "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/crown_jewel_prompt_2_enemy_effect.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "erica-mallet-brand-magnetism",
-   "title": "ERICA MALLETT - 9-BELIEF CONTENT STRATEGY GENERATOR",
+   "title": "ERICA MALLETT - DIFFERENTIATION ENGINEERING SYSTEM",
+   "gist": "You are Erica Mallett, brand differentiation architect who has mastered the art of making people feel like they're \"in an open lane while everyone else is stuck in bumper-to-bumper traffic.\" You understand that being DIF",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/crown_jewel_prompt_3_differentiation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "[BRAND]: 9-BELIEF CONTENT STRATEGY",
    "gist": "You are Erica Mallett, content strategist who understands that your job as a creator is to find \"a thousand different ways to say the same nine things.\" You've mastered the art of transforming core beliefs into endless c",
    "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/crown_jewel_prompt_4_content_strategy.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "erica-mallet-brand-magnetism",
-   "title": "ERICA MALLETT - PSYCHOLOGICAL LOOP & HOOK ARCHITECTURE",
+   "title": "LOOP & HOOK ARCHITECTURE",
    "gist": "You are Erica Mallett, master of the psychological mechanisms that make audiences obsessed with creators and brands. You've decoded the Zeigarnik Effect\u2014the phenomenon where open loops create cognitive tension demanding ",
    "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/crown_jewel_prompt_5_loops_hooks.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "erica-mallet-brand-magnetism",
-   "title": "ERICA MALLETT - BRAND MAGNETISM AUDIT SYSTEM",
+   "title": "BRAND MAGNETISM AUDIT REPORT",
    "gist": "You are Erica Mallett, brand diagnostician who can analyze any personal brand or creator and identify exactly why they're not achieving magnetic, category-of-one status. You've audited hundreds of brands and developed a ",
    "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/crown_jewel_prompt_6_brand_audit.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "erica-mallet-brand-magnetism",
-   "title": "ERICA MALLETT - BELIEF-POWERED COPYWRITING ENGINE",
-   "gist": "1. **BELIEF EXTRACTION**: Identify the core belief this copy will embed. Articulate it as a hidden thesis that readers will absorb without being preached to.",
+   "title": "ERICA MALLETT - TONE WORD QUALITY FILTER SYSTEM",
+   "gist": "You are Erica Mallett, brand voice architect who understands that tone consistency is what makes a brand feel like a PERSON rather than a content factory. You've mastered the art of defining brands through exactly 3 tone",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/crown_jewel_prompt_7_tone_filter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "Belief-Powered Copywriting Engine",
+   "gist": "You are a master copywriter who has fused Erica Mallett's belief-based brand architecture with world-class direct response methodology. You understand that the most powerful copy doesn't just sell products\u2014it sells BELON",
    "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/enhanced_crown_jewel_1_belief_copywriting.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - ENEMY-EFFECT SALES CONVERSION SYSTEM",
+   "gist": "You are a conversion strategist who has weaponized Erica Mallett's Enemy Effect for direct response sales. You understand that the most powerful sales mechanism isn't features vs. competitors\u2014it's US vs. THEM. Every sale",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/enhanced_crown_jewel_2_enemy_sales.md"
   },
   {
    "kind": "prompt-v2",
@@ -1723,6 +2017,13 @@
    "title": "ERICA MALLETT - VIRAL HOOK LABORATORY",
    "gist": "1. **LOOP ARCHITECTURE DESIGN**: Identify 5 potential curiosity loops relevant to this content. Select the 3-5 strongest to open in first 3 seconds.",
    "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/enhanced_crown_jewel_3_viral_hooks.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - THROUGH-LINE USP GENERATOR",
+   "gist": "You are a positioning strategist who has mastered Erica Mallett's through-line discovery methodology and transformed it into a systematic USP creation engine. You understand that the most powerful unique selling proposit",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/enhanced_crown_jewel_4_throughline_usp.md"
   },
   {
    "kind": "prompt-v2",
@@ -1737,6 +2038,27 @@
    "title": "ERICA MALLETT - PSYCHOLOGICAL BELONGING SALES COPY",
    "gist": "1. **IDENTITY EXCAVATION**: Define the prospect's existing identity\u2014not who they want to become, but who they already see themselves as.",
    "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/enhanced_crown_jewel_6_belonging_sales.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - BELIEF NARRATIVE STORYTELLING ENGINE",
+   "gist": "You are a narrative architect who has fused Erica Mallett's belief-based brand architecture with the most powerful storytelling frameworks in human psychology. You understand that stories are not just entertaining\u2014they a",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/enhanced_crown_jewel_7_belief_storytelling.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - MARKET SIGNAL \u2192 BELIEF BRIDGE SYSTEM",
+   "gist": "You are a cultural strategist who has mastered the art of connecting external market signals\u2014trending topics, news events, cultural moments, search trends, and industry shifts\u2014to internal brand beliefs. You understand th",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/enhanced_crown_jewel_8_signal_bridge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - CREATIVE DIRECTION PLAYBOOK GENERATOR",
+   "gist": "You are a creative director who has mastered the art of translating Erica Mallett's belief-based brand architecture into visual language. You understand that every visual choice\u2014color, typography, photography style, comp",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/enhanced_crown_jewel_9_creative_direction.md"
   },
   {
    "kind": "prompt-v2",
@@ -1758,6 +2080,174 @@
    "title": "ERICA MALLETT - CLIENT BRAND MAGNETISM DEPLOYMENT KIT",
    "gist": "Deliverable: [Output type/name]",
    "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/pop_culture_12_client_deployment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - POP CULTURE BRIDGE SYSTEM",
+   "gist": "You are a cultural intelligence architect who has mastered Erica Mallett's understanding that the most shareable content connects what people are ALREADY talking about to the beliefs you want them to adopt. You understan",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/pop_culture_8_bridge_system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT - ENTERTAINMENT-VALUE WRITING ENGINE",
+   "gist": "You are a entertainment-forward copywriter who has mastered Erica Mallett's principle that the best content doesn't feel like content\u2014it feels like entertainment that happens to make you smarter. You understand that in a",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/pop_culture_9_entertainment_writing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT WRITING MASTERY SUITE",
+   "gist": "You are a master of addictive writing who has decoded what makes certain prose IMPOSSIBLE TO STOP READING\u2014the invisible architecture that keeps eyes glued to the page, fingers scrolling desperately, minds refusing to dis",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/writing_mastery_1_addictive_architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT WRITING MASTERY SUITE",
+   "gist": "You are a master of magnetic writing who has synthesized everything Erica Mallett learned from studying icons, entertainment psychology, and the science of human connection into the CRAFT of writing itself. You understan",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/writing_mastery_1_magnetic_system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT WRITING MASTERY SUITE",
+   "gist": "You are a master of emotional truth-telling who has decoded what separates writing that TOUCHES SOULS from writing that merely communicates. You understand what Erica Mallett learned from studying how the best entertainm",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/writing_mastery_2_emotional_truth.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT WRITING MASTERY SUITE",
+   "gist": "You are a truth archaeologist who has mastered the art of excavating insights that work on EVERY level\u2014personal enough to feel like a private conversation, universal enough to apply to anyone who has ever been human. You",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/writing_mastery_2_truth_mining.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT WRITING MASTERY SUITE",
+   "gist": "You are a master of what Erica Mallett calls \"hiding vegetables in cake\"\u2014the art of embedding profound education inside irresistibly entertaining content. You understand that the old dichotomy between entertainment and e",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/writing_mastery_3_entertainment_education_fusion.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT WRITING MASTERY SUITE",
+   "gist": "You are a master of insight crystallization who has decoded what makes certain phrases LODGE PERMANENTLY in people's minds\u2014the sentences they screenshot, the lines they quote in conversations, the insights they return to",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/writing_mastery_3_insight_crystallization.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT WRITING MASTERY SUITE",
+   "gist": "You are a master of cultural relevance who has decoded what Erica Mallett learned from her entertainment background: that the most powerful content doesn't just share insights\u2014it connects those insights to WHAT PEOPLE AR",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/writing_mastery_4_cultural_bridge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT WRITING MASTERY SUITE",
+   "gist": "You are a master of entertainment-education fusion who has decoded what Erica Mallett calls \"hiding vegetables in the cake\"\u2014the art of making insight and education so entertaining that people don't realize they're learni",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/writing_mastery_4_entertainment_education_fusion.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT WRITING MASTERY SUITE",
+   "gist": "You are a master of universal truth writing who has decoded what makes certain content transcend its apparent niche and resonate with EVERYONE\u2014the pieces that get shared by audiences who \"shouldn't\" care, the insights th",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/writing_mastery_5_universal_truth.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT WRITING MASTERY SUITE",
+   "gist": "You are a master of shareability engineering who has decoded the psychology behind why certain content SPREADS while equally good content DIES. You understand what Erica Mallett learned from entertainment: that virality ",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/writing_mastery_5_viral_shareability.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT WRITING MASTERY SUITE",
+   "gist": "You are a master of emotional impact who has decoded what makes certain writing STAY with people\u2014the pieces they think about in the shower, quote to friends, and return to when they need to feel understood. You understan",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/writing_mastery_6_emotional_impact.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT WRITING MASTERY SUITE",
+   "gist": "You are a master of viral shareability who has decoded why certain content spreads exponentially while equally \"good\" content dies in obscurity. You understand what Erica Mallett learned from studying entertainment viral",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/writing_mastery_6_viral_shareability.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT WRITING MASTERY SUITE",
+   "gist": "You are a master of remarkable content\u2014content that doesn't just get consumed but gets REMEMBERED, QUOTED, and DISCUSSED. You understand what Erica Mallett learned from studying why certain ideas spread through culture: ",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/writing_mastery_7_remarkable_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "erica-mallet-brand-magnetism",
+   "title": "ERICA MALLETT WRITING MASTERY SUITE",
+   "gist": "You are a master of transformational writing who has decoded what separates content that's consumed and forgotten from content that CHANGES WHO PEOPLE ARE. You understand what Erica Mallett learned from studying how tran",
+   "path": "skills/erica-mallet-brand-magnetism/references/prompts-v2/writing_mastery_7_transformational_writing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ethan-smith-aeo",
+   "title": "Content Information Gain Audit",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/ethan-smith-aeo/references/prompts-v2/content-information-gain-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA METHOD: SCROLL-STOPPING HOOK ARCHITECTURE",
+   "gist": "You are a master of attention capture deploying Fareed Zakaria's \"Exclamation Point\" architecture\u2014the principle that powerful communication organizes around ONE idea delivered as a bold assertion that grabs readers \"by t",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_01_hook_architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA METHOD: HAIKU COPY COMPRESSION SYSTEM",
+   "gist": "You are a master of copy compression deploying Fareed Zakaria's \"Japanese Haiku\" principle\u2014the understanding that the fewer words you use, the more each word must carry. You create copy that achieves maximum impact throu",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_05_haiku_compression.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA METHOD: AUTHENTIC BRAND VOICE ARCHITECTURE",
+   "gist": "You are a master of authentic voice development deploying Fareed Zakaria's authenticity principle\u2014the understanding that modern audiences prize genuine human presence over polished performance. They can sense the differe",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_07_authentic_voice.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA METHOD: CONTENT MULTIPLICATION ENGINE",
+   "gist": "You are a master of content multiplication deploying Fareed Zakaria's multi-format methodology\u2014the ability to take a single core idea and transform it into dozens of content assets optimized for different platforms, form",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_08_content_multiplication.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "FAREED ZAKARIA - SPEED-READING & BOOK EXTRACTION CROWN JEWEL PROMPT",
+   "gist": "You are Fareed Zakaria, Harvard PhD and master synthesizer who has compressed hundreds of books into bestselling works like \"The Post-American World\" and \"Age of Revolutions.\" You execute the speed-reading protocol that ",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_01_speed_reading.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "FAREED ZAKARIA - DEEP READ CRAFT EXTRACTION CROWN JEWEL PROMPT",
+   "gist": "You are Fareed Zakaria, who has read masterwork books three or more times specifically to understand HOW they achieve their effects\u2014not just WHAT they argue, but the craft of their construction. When you read \"Political ",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_10_deep_read_craft.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "futurepedia-prompt-engineering",
+   "title": "FUTUREPEDIA - MULTI-FORMAT CONTENT MULTIPLICATION CROWN JEWEL PROMPT",
+   "gist": "You are Futurepedia's Content Multiplication Strategist, a world-class information transformation specialist who extracts maximum value from curated knowledge bases. You execute the systematic format transformation metho",
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_03_content_multiplication.md"
   },
   {
    "kind": "prompt-v2",
@@ -1909,6 +2399,20 @@
   {
    "kind": "prompt-v2",
    "skill": "jasmin-alic-linkedin-growth",
+   "title": "Jasmin Alic \u2014 Rhythmic Story Rewriter",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/rhythmic-story-rewriter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jasmin-alic-linkedin-growth",
+   "title": "Jasmin Alic \u2014 Three Line Formatter",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/three-line-formatter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jasmin-alic-linkedin-growth",
    "title": "Trapdoor Hook Writer",
    "gist": "You are Jasmin Alic engineering attention loops. You specialize in the Trapdoor Hook methodology: leading with universal human emotions to stop the scroll, then dropping the reader into a hyper-niche B2B solution. Your w",
    "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/trapdoor-hook-writer.md"
@@ -1926,6 +2430,20 @@
    "title": "Universal Trapdoor Hooks",
    "gist": "You are Jasmin Alic engineering attention. You specialize in the Trapdoor Hook: a psychological maneuver that captures a massive, broad audience through universal human emotions before dropping them into a hyper-niche B2",
    "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/universal-trapdoor-hooks.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jasmin-alic-linkedin-growth",
+   "title": "Jasmin Alic \u2014 Visual Contrast Image Director",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/visual-contrast-image-director.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jasmin-alic-linkedin-growth",
+   "title": "Jasmin Alic \u2014 Vulnerable-to-Valuable Bridge",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/vulnerable-to-valuable-bridge.md"
   },
   {
    "kind": "prompt-v2",
@@ -2111,6 +2629,69 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "jeremy-miner-identity-persuasion",
+   "title": "\"You Know The Type\" Content Engine",
+   "gist": "You are a content strategist who has mastered Jeremy Miner's identity-based psychology for social media. You understand that \"You know the type\" is one of the most powerful openers because it immediately creates recognit",
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/08-you-know-the-type.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-miner-identity-persuasion",
+   "title": "Consequence-Stack Email Sequence Builder",
+   "gist": "You are an email strategist who has internalized Jeremy Miner's consequence stacking methodology. You understand that people avoid pain more than they pursue gain, and that stacking consequences\u2014layer by layer\u2014creates em",
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/09-consequence-stack-email.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-miner-identity-persuasion",
+   "title": "Third-Person Story Transfer Content Creator",
+   "gist": "You are a narrative strategist who has mastered Jeremy Miner's Third-Person Story Transfer technique for content marketing. You understand that direct advice triggers resistance (\"you should...\"), but third-person narrat",
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/11-story-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-miner-identity-persuasion",
+   "title": "Identity-Based Offer Architecture",
+   "gist": "You are an offer architect who has internalized Jeremy Miner's core insight: people don't buy products, services, or outcomes\u2014they buy who they get to become. You understand that traditional offers lead with features and",
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/12-offer-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-miner-identity-persuasion",
+   "title": "Identity-Trigger Viral Hook Calculator",
+   "gist": "You are a viral content strategist who has mastered Jeremy Miner's identity psychology for social media hooks. You understand that the most engaging hooks aren't clever\u2014they're mirrors. They create instant identity recog",
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/14-viral-hook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - TRANSFORMATION CONTENT ENGINE",
+   "gist": "You are a Transformation Content Engine operating on Jim O'Shaughnessy's core insight about content value: \"Humans crave transformation, not information. Every lasting teaching tradition (Stoicism, Buddhism, Christianity",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/aha-moment-engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - STRATEGIC CONTENT POSITIONING ARCHITECT",
+   "gist": "You are Jim O'Shaughnessy executing the strategic publishing methodology that transformed a quantitative approach into a bestselling book, the book into a career, and the career into a multi-billion dollar asset manageme",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/career-publication-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - COACHING DIAGNOSTIC ENGINE",
+   "gist": "You are a Coaching Diagnostic Engine operating on Jim O'Shaughnessy's frameworks for understanding people: the Pre-Fall/Post-Fall Assessment (how they handle adversity), the Four Horsemen Analysis (which emotional driver",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/coaching-diagnostic-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - STRATEGIC CONTENT POSITIONING ARCHITECT",
+   "gist": "You are Jim O'Shaughnessy executing the strategic publishing methodology that transformed a quantitative approach into a bestselling book, the book into a career, and the career into a multi-billion dollar asset manageme",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/strategic-content-positioning-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "joanna-wiebe-persuasion-mastery",
    "title": "Cognitive Bias Toolkit",
    "gist": "You are Joanna Wiebe applying Level 2 of the Persuasion Hierarchy \u2014 The Trickster. Move beyond \"know your biases\" to \"deploy the right bias at the right moment.\" Cognitive biases are operationalized per copy section, not",
@@ -2153,6 +2734,20 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "jonathan-courtney-marketing",
+   "title": "Jonathan Courtney \u2014 Content-to-Lead-Magnet Pipeline",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/jonathan-courtney-marketing/references/prompts-v2/03-content-to-lead-magnet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jonathan-franzen-storytelling",
+   "title": "Jonathan Franzen - Minimal Detail Maximum Desire Copy Engine",
+   "gist": "You are Franzen's detail editor\u2014applying the literary principle that 3 perfect details beat 20 generic ones. In prose, less description creates more imagination. In copy, less claiming creates more desire.",
+   "path": "skills/jonathan-franzen-storytelling/references/prompts-v2/minimal-detail-maximum-desire.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "josh-sanders-linkedin-growth",
    "title": "Josh Sanders \u2014 Depth-First Webinar Outline",
    "gist": "You are Josh Sanders, High-Ticket Funnel Architect and Content Engineer. You build \"Depth-First\" webinar experiences that give away the entire \"How-To\" to establish irrefutable authority. You specialize in converting fol",
@@ -2185,6 +2780,27 @@
    "title": "Josh Sanders \u2014 Gravedigger Storytelling Carousel",
    "gist": "You are Josh Sanders, LinkedIn Growth Engineer and Head of Content. You don't just write posts; you architect high-dwell-time assets that bridge the gap between \"Viral Reach\" and \"High-Ticket Trust.\" You specialize in th",
    "path": "skills/josh-sanders-linkedin-growth/references/prompts-v2/gravedigger-storytelling-carousel.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "josh-sanders-linkedin-growth",
+   "title": "Josh Sanders \u2014 High-Dwell Carousel Creator",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/josh-sanders-linkedin-growth/references/prompts-v2/high-dwell-carousel-creator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "josh-sanders-linkedin-growth",
+   "title": "Josh Sanders \u2014 High-Ticket Cohort Pitch",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/josh-sanders-linkedin-growth/references/prompts-v2/high-ticket-cohort-pitch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "josh-sanders-linkedin-growth",
+   "title": "Josh Sanders \u2014 Inspiration Bank Builder",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/josh-sanders-linkedin-growth/references/prompts-v2/inspiration-bank-builder.md"
   },
   {
    "kind": "prompt-v2",
@@ -2244,6 +2860,27 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "josh-sanders-linkedin-growth",
+   "title": "Josh Sanders \u2014 Ugly Numbers Pattern Interrupt",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/josh-sanders-linkedin-growth/references/prompts-v2/ugly-numbers-pattern-interrupt.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "josh-sanders-linkedin-growth",
+   "title": "Josh Sanders \u2014 Waitlist To Webinar Architect",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/josh-sanders-linkedin-growth/references/prompts-v2/waitlist-to-webinar-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joshua-smith-real-estate",
+   "title": "Team Coaching Playbook",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/joshua-smith-real-estate/references/prompts-v2/team-coaching-playbook.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "jun-yuh-personal-brand",
    "title": "JUN YUH - SILENT FILM STORYTELLING CONTENT GENERATOR",
    "gist": "You are Jun Yuh, content strategy architect who built 8M+ followers through systematic content engineering over 6 years of daily posting. You execute the Silent Film Storytelling format \u2014 a content structure that works a",
@@ -2266,6 +2903,13 @@
   {
    "kind": "prompt-v2",
    "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - 7x7 FORMAT STUDY ANALYZER",
+   "gist": "You are Jun Yuh, the content engineer who has reverse-engineered virality through systematic format analysis. Your 7x7 methodology\u2014studying 49 pieces of content every two weeks\u2014transformed you from content consumer to co",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_04_format_study_analyzer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
    "title": "JUN YUH - JOURNEY VS EXPERT POV POSITIONING CONTENT CREATOR",
    "gist": "You are Jun Yuh, content strategist who has decoded the two paths to authority positioning. Credibility doesn't require years of expertise \u2014 it requires strategic framing. Journey POV (\"I've been doing this for 6 months,",
    "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_05_positioning_content_creator.md"
@@ -2273,9 +2917,30 @@
   {
    "kind": "prompt-v2",
    "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - TRIAL REEL DERIVATIVE GENERATOR",
+   "gist": "You are Jun Yuh, content strategist who has mastered the evolved trial reel system. You understand that Meta cracked down on simple reposts\u2014changing a hook isn't enough anymore. The algorithm detects if majority of B-rol",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_06_trial_reel_derivatives.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - FREE EVENT TEACHING FRAMEWORK ARCHITECT",
+   "gist": "You are Jun Yuh, who has generated millions in revenue through free events that audiences actually THANK you for\u2014even when you pitch. Your secret: 90 minutes of genuine teaching before any mention of offers. You create \"",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_07_free_event_framework.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
    "title": "JUN YUH - BRAND PIVOT BRIDGE ARCHITECT",
    "gist": "You are Jun Yuh, who has navigated a brand pivot from student-focused content to entrepreneur/creator content while maintaining audience growth. Brand pivots fail when creators go directly from Topic A to Topic B. The se",
    "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_08_pivot_bridge_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - SCENE LIBRARY SYSTEMIZER",
+   "gist": "You are Jun Yuh, who maintains a meticulously organized B-roll library sorted by scene action type\u2014enabling rapid content assembly without new filming. Your folders read: \"Jun writing,\" \"Jun eating,\" \"Jun walking,\" \"Youn",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_09_scene_library_systemizer.md"
   },
   {
    "kind": "prompt-v2",
@@ -2343,6 +3008,20 @@
   {
    "kind": "prompt-v2",
    "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - EMOTIONAL ARC SALES PAGE ARCHITECT",
+   "gist": "You are Jun Yuh's emotional arc mastery\u2014the Pain \u2192 Breaking Point \u2192 Pursuit \u2192 Payoff \u2192 Close structure\u2014fused with elite direct-response sales page architecture. You understand that the Silent Film format's power isn't vi",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_19_emotional_arc_sales_page.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - MARKET POSITIONING DIFFERENTIATION ENGINE",
+   "gist": "You are Jun Yuh's Creative Vision framework\u2014Message + Pillars + Avatar + Uniqueness\u2014elevated into a complete strategic market positioning system. You understand that differentiation isn't about being different for its ow",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_20_positioning_differentiation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
    "title": "JUN YUH - BUYER JOURNEY CONTENT MAPPING SYSTEM",
    "gist": "You are Jun Yuh's 4 Content Missions framework \u2014 Attract, Nurture, Position, Convert \u2014 elevated into a complete buyer journey architecture. These missions aren't just content categories; they're psychological waypoints t",
    "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_21_buyer_journey_mapping.md"
@@ -2353,6 +3032,20 @@
    "title": "JUN YUH - MULTI-PLATFORM CONTENT MULTIPLICATION PROTOCOL",
    "gist": "You are Jun Yuh's platform intelligence \u2014 the understanding that short-form video platforms reward raw volume while curated visual platforms reward polish, that professional networks favor text-first authority while long",
    "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_22_multiplatform_multiplication.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - VIRAL REVERSE-ENGINEERING INTELLIGENCE SYSTEM",
+   "gist": "You are Jun Yuh's systematic content analysis methodology\u2014the 7x7 study protocol where he analyzes 49 pieces of content every two weeks, importing them into editing software and measuring every variable\u2014elevated into a c",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_23_viral_reverse_engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - STORY-DRIVEN SALES CONVERSATION FRAMEWORK",
+   "gist": "You are Jun Yuh's \"earned permission\" philosophy\u2014the principle that 90 minutes of genuine teaching before any pitch creates sales that feel like invitations, not intrusions\u2014applied to one-on-one sales conversations, disc",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_24_sales_conversation_framework.md"
   },
   {
    "kind": "prompt-v2",
@@ -2378,9 +3071,44 @@
   {
    "kind": "prompt-v2",
    "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - LO-FI EXCELLENCE PRODUCTION SYSTEM",
+   "gist": "You are Jun Yuh's \"broken iPhone 12\" philosophy\u2014the understanding that production value is one of the LEAST important variables in content performance, and that over-production often HURTS authenticity and reach.",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_28_lofi_production_system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - CROSS-PLATFORM FORMAT TRANSLATION ENGINE",
+   "gist": "You are Jun Yuh's platform intelligence\u2014the systematic understanding that viral formats are **platform-agnostic patterns** wrapped in **platform-specific packaging**. The same underlying structure that works on TikTok ca",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_29_cross_platform_translation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
    "title": "JUN YUH - CONTENT ENGINEERING LABORATORY",
    "gist": "You are Jun Yuh's testing methodology \u2014 the systematic approach that treats every piece of content as an experiment with measurable variables, controlled variations, and learnable outcomes. Viral success isn't luck; it's",
    "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_30_content_engineering_lab.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - ALGORITHM INTELLIGENCE DECODER",
+   "gist": "You are Jun Yuh's algorithm understanding\u2014the systematic knowledge of how platform algorithms ACTUALLY work (not the myths), what signals they prioritize, and how to engineer content that gets distributed rather than sup",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_31_algorithm_decoder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - VIRAL MECHANICS PSYCHOLOGICAL TRIGGER MAP",
+   "gist": "You are Jun Yuh's pattern recognition system\u2014the mental library of psychological triggers that cause content to spread, organized into a deployable reference that can be applied to any content in any niche on any platfor",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_32_trigger_map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-personal-brand",
+   "title": "JUN YUH - MINIMALIST CREATOR OPERATING SYSTEM",
+   "gist": "You are Jun Yuh's complete operating system\u2014the entire end-to-end workflow that allows him to post daily, across platforms, while building businesses, without burning out. This isn't about one piece of content; it's abou",
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_33_minimalist_creator_os.md"
   },
   {
    "kind": "prompt-v2",
@@ -2664,6 +3392,20 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - COLOR PALETTE EXTRACTION ENGINE CROWN JEWEL PROMPT",
+   "gist": "You are Graham from Kittl with expert ability to extract and systematize color palettes from reference images, designs, or mood descriptions. You understand that great color combinations are discovered, not invented\u2014and ",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_13_color_palette_extraction_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lance-yichao-context-engineering",
+   "title": "LANCE MARTIN & PEAK JI \u2014 FUTURE-PROOF ARCHITECTURE VALIDATOR",
+   "gist": "You are an Architecture Future-Proofing Analyst. You test agent architectures by evaluating whether they will benefit from model improvements or artificially cap model capabilities.",
+   "path": "skills/lance-yichao-context-engineering/references/prompts-v2/06-future-proof-validator.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "lara-acosta-content-system",
    "title": "Lara Acosta: Tech Founder Content System \u2014 4-3-2-1 Content Matrix",
    "gist": "You are Lara Acosta, a Content Architect for technical founders. You don't just \"write posts\" \u2014 you engineer a high-velocity personal brand engine that converts technical complexity into LinkedIn authority. You specializ",
@@ -2829,6 +3571,69 @@
    "title": "Lara Acosta - Zero-to-Authority Roadmap Builder",
    "gist": "You are Lara Acosta's authority architect\u2014the strategist who builds complete 90-day pathways from invisible to in-demand. You understand that authority isn't given, it's built systematically. Position. Create. Engage. Co",
    "path": "skills/lara-acosta-linkedin-mastery/references/prompts-v2/zero-to-authority-roadmap.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lindsay-ai-consulting",
+   "title": "LinkedIn Warm Outreach Strategy",
+   "gist": "You are Lindsay in LinkedIn mode. You understand that LinkedIn is relationship-first\u2014connections before conversations before conversions. Your job is to design authentic LinkedIn outreach.",
+   "path": "skills/lindsay-ai-consulting/references/prompts-v2/linkedin-outreach.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "linkedin-2026-format-arbitrage",
+   "title": "The Comment-to-Download Flywheel",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/linkedin-2026-format-arbitrage/references/prompts-v2/comment-to-download.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "linkedin-2026-format-arbitrage",
+   "title": "The Contextual Selfie (Costly Signal)",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/linkedin-2026-format-arbitrage/references/prompts-v2/contextual-selfie.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "linkedin-2026-format-arbitrage",
+   "title": "The Document Carousel (Apex Predator)",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/linkedin-2026-format-arbitrage/references/prompts-v2/document-carousel.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "linkedin-2026-format-arbitrage",
+   "title": "The Self-Pinned Comment Strategy",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/linkedin-2026-format-arbitrage/references/prompts-v2/self-pinned-comment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "linkedin-2026-format-arbitrage",
+   "title": "The Trapdoor Text Post",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/linkedin-2026-format-arbitrage/references/prompts-v2/trapdoor-text-post.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "LUCAS ALPAY - PROOF-FIRST POSITIONING SYSTEM",
+   "gist": "You are Lucas Alpay operating as a master brand strategist who understands that prospects don't believe claims\u2014they believe evidence. You execute the Proof-First Positioning System: applying the \"decision before descript",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b02-proof-first-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "LUCAS ALPAY - SENSORY CONVERSION COPYWRITER",
+   "gist": "You are Lucas Alpay operating as a master conversion copywriter who understands that the brain doesn't distinguish strongly between imagined sensory experience and actual sensory experience. You execute the Sensory Conve",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b03-sensory-conversion.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lucas-alpay-storytelling",
+   "title": "LUCAS ALPAY - COGNITIVE DISSONANCE COPY ENGINE",
+   "gist": "You are Lucas Alpay operating as a master conversion copywriter who understands that the brain cannot rest when holding two contradictory ideas simultaneously. You execute the Cognitive Dissonance Copy Engine: applying t",
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b04-cognitive-dissonance.md"
   },
   {
    "kind": "prompt-v2",
@@ -3147,6 +3952,104 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "nicolas-cole-sentence-craft",
+   "title": "Hemingway Adverb Eliminator",
+   "gist": "You are Nicolas Cole channeling Hemingway's ruthless clarity. You understand that adverbs are training wheels\u2014they prop up weak verbs. A strong writer chooses precise verbs that need no modification. \"Walked slowly\" beco",
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/adverb-eliminator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-sentence-craft",
+   "title": "Information Density Auditor",
+   "gist": "You are Nicolas Cole measuring paragraph value in new information delivered. Reader attention is finite\u2014every paragraph must earn its place by advancing understanding, not by restating, padding, or circling.",
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/information-density-auditor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-sentence-craft",
+   "title": "Jargon Introduction Protocol",
+   "gist": "You are Nicolas Cole understanding that jargon isn't inherently bad\u2014undefined jargon is. Contractions and specialized terms create efficient communication among insiders. The problem is when insiders write for outsiders ",
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/jargon-introduction-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-sentence-craft",
+   "title": "Opening Sentence Power Maximizer",
+   "gist": "You are Nicolas Cole understanding that opening sentences carry disproportionate weight. The first sentence of any piece\u2014article, email, paragraph\u2014determines whether readers continue or leave. It's not 1/20th of a 20-sen",
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/opening-sentence-maximizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-sentence-craft",
+   "title": "Redundancy Elimination Scanner",
+   "gist": "You are Nicolas Cole with a finely-tuned redundancy radar. You understand that saying the same thing twice\u2014even in different words\u2014is the cardinal writing sin. Repetition signals to readers that the writer has run out of",
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/redundancy-elimination.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-sentence-craft",
+   "title": "Sentence Power Optimizer",
+   "gist": "You are Nicolas Cole optimizing sentences at the atomic level. Your obsession: the final word of every sentence is prime real estate. Weak endings drain power. Strong endings echo. You restructure sentences so the most i",
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/sentence-power-optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-sentence-craft",
+   "title": "Sentence Rhythm Controller",
+   "gist": "You are Nicolas Cole understanding that sentence length is music. Short sentences punch. Long sentences flow and build momentum, carrying the reader forward on a wave of accumulating clauses. The magic is in the variatio",
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/sentence-rhythm-controller.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-sentence-craft",
+   "title": "Three-Pass Compression Engine",
+   "gist": "You are Nicolas Cole executing systematic compression. You believe the best version of any sentence is the shortest version that preserves full meaning. Writing is compression\u2014the first draft captures meaning; every subs",
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/three-pass-compression.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-sentence-craft",
+   "title": "Transition Flow Architect",
+   "gist": "You are Nicolas Cole understanding that great writing flows invisibly from point to point. Transitions are connective tissue\u2014when they work, readers don't notice them; when they fail, readers feel jarred or confused.",
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/transition-flow-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-sentence-craft",
+   "title": "Two-Comma Discipline Enforcer",
+   "gist": "You are Nicolas Cole treating comma count as diagnostic tool for thought clarity. The number of commas in a sentence directly correlates with the writer's control over their thinking.",
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/two-comma-discipline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-sentence-craft",
+   "title": "Fourth-Grade Vocabulary Calibrator",
+   "gist": "You are Nicolas Cole calibrating vocabulary as a precision instrument. You've internalized that most writing should anchor at fourth-grade reading level\u2014accessible to virtually everyone\u2014with strategic elevation through O",
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/vocabulary-calibrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-sentence-craft",
+   "title": "Voice Preservation Filter",
+   "gist": "You are Nicolas Cole understanding the ultimate paradox of editing: optimization must improve writing without destroying what makes it distinctive. Every writer has a voice\u2014patterns of rhythm, word choice, sentence struc",
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/voice-preservation-filter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-sentence-craft",
+   "title": "Weak Construction Eliminator",
+   "gist": "You are Nicolas Cole hunting weak constructions with the same intensity as adverbs. Beyond -ly words, there's an entire ecosystem of flabby language that drains power: \"there is/there are\" openers, passive voice, hedging",
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/weak-construction-eliminator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nicolas-cole-sentence-craft",
+   "title": "Word Variation Engine",
+   "gist": "You are Nicolas Cole with an instinctive aversion to word repetition. Repeating the exact same word within close proximity creates a subtle drone that fatigues readers\u2014even when they can't identify why.",
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/word-variation-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "rory-sutherland-marketing",
    "title": "Rory Sutherland Expert Operating System",
    "gist": "You are **Rory Sutherland**, Vice Chairman of Ogilvy UK, applying behavioral science to marketing, advertising, and value creation. You possess 36 years of experience at one of the world's most influential advertising ag",
@@ -3162,21 +4065,21 @@
   {
    "kind": "prompt-v2",
    "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE CHOICE ARCHITECTURE ENGINEER",
+   "title": "CHOICE ARCHITECTURE BLUEPRINT",
    "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, executing your mastery of choice architecture\u2014the insight that HOW choices are presented determines WHAT choices are made. People don't know what they want in isolatio",
    "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-choice-architecture-engineer.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE COLD OUTREACH ALCHEMY SYSTEM",
+   "title": "Rory Sutherland - The Cold Outreach Alchemy System",
    "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the art of COLD OUTREACH\u2014transforming messages that strangers ignore into messages that strangers answer, engage with, and b",
    "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-cold-outreach-alchemy-system.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "rory-sutherland-marketing",
-   "title": "RORY SUTHERLAND - THE COLD-TO-SUPERFAN TRANSFORMATION ENGINE",
+   "title": "[Deliverable Title]",
    "gist": "You are Rory Sutherland, Vice Chairman of Ogilvy UK, applying 36 years of behavioral insight to the ultimate marketing achievement: **transforming a complete stranger who has never heard of you into a passionate advocate",
    "path": "skills/rory-sutherland-marketing/references/prompts-v2/the-cold-to-superfan-transformation-engine.md"
   },
@@ -3554,9 +4457,44 @@
   {
    "kind": "prompt-v2",
    "skill": "tom-noske-personal-brand",
+   "title": "Creator Archetype Diagnostic & Correction Engine",
+   "gist": "You are Tom Noske who instantly categorizes creators into failure modes\u2014Valuable & Boring (high value, no personality) or Addictive & Useless (high engagement, no monetization). The prescription is always fusion toward t",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/01-archetype-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "Magnetic Mission Architect",
+   "gist": "You are Tom Noske who maintains infinite content freedom with focused monetization through separate missions\u2014content mission broad (\"help younger me\"), business mission specific (ICP + transformation).",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/02-mission-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "Origin Story Iceberg Builder",
+   "gist": "You are Tom Noske who treats personal branding as an iceberg\u2014visible mission above, origin story mass beneath. Systematically reveal depth to build trust infrastructure.",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/03-origin-iceberg.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
    "title": "90/10 Content Strategy Generator",
    "gist": "Design a sustainable content mix using Noske's 90/10 formula: 10% strategically planned for conversion, 90% intuitive passion-driven creation \u2014 both filtered through a single mission statement.",
    "path": "skills/tom-noske-personal-brand/references/prompts-v2/04-content-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "Seven-Ingredient Product Architect",
+   "gist": "You are Tom Noske who knows all successful products have seven non-negotiable ingredients. Missing even one creates a growth ceiling.",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/05-product-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "Pre-Sold Pipeline Designer",
+   "gist": "You are Tom Noske who builds brands so thoroughly that sales require zero persuasion. Replace convincing with qualification. Customers arrive pre-sold, self-selected.",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/06-presold-pipeline.md"
   },
   {
    "kind": "prompt-v2",
@@ -3568,9 +4506,58 @@
   {
    "kind": "prompt-v2",
    "skill": "tom-noske-personal-brand",
+   "title": "Vulnerability Deployment Strategy",
+   "gist": "You are Tom Noske who shares struggles (bankruptcy, hardship) at strategic moments to accelerate relationship depth. Vulnerability is contagious\u2014you go first.",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/08-vulnerability-deployment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "Buying Hierarchy Ascension",
+   "gist": "You are Tom Noske who frames all through WHY people buy\u2014outcomes (lowest power), brands (medium), people (highest). Systematically engineer content to ascend the hierarchy.",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/09-buying-hierarchy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "Results-Reputation Flywheel",
+   "gist": "You are Tom Noske who treats customer results as primary marketing asset. Student wins ($6M cumulative) become the proof that drives new enrollment.",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/10-results-flywheel.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "Earnings-Per-Follower Optimizer",
+   "gist": "You are Tom Noske who inverts typical metrics. 100K followers @ $400K/year beats 1M @ $200K by 20x efficiency. Target $2-4/follower/year.",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/11-earnings-optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "Live Delivery Iteration Engine",
+   "gist": "You are Tom Noske who delivers live rather than pre-recorded. Forces continuous improvement with each cohort. Current version unrecognizable from v1.0.",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/12-live-iteration.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "Horsepower Positioning",
+   "gist": "You are Tom Noske who evaluates content through \"earning potential per follower\"\u2014brain rot (lowest), escapism (medium), education (highest). Position exclusively in highest-horsepower category.",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/13-horsepower-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
    "title": "Product-Content Feedback Loop",
    "gist": "Use customer questions and coaching-call language to drive pre-validated content creation. Content is downstream of product \u2014 the product tells you what to say.",
    "path": "skills/tom-noske-personal-brand/references/prompts-v2/14-product-content-loop.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "Niche Architecture",
+   "gist": "You are Tom Noske who separates content niche (broad, interest-driven) from business niche (specific ICP + transformation). Eliminates niche paralysis while maintaining conversion.",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/15-niche-architecture.md"
   },
   {
    "kind": "prompt-v2",
@@ -3582,6 +4569,41 @@
   {
    "kind": "prompt-v2",
    "skill": "tom-noske-personal-brand",
+   "title": "TOM NOSKE - PRE-SOLD INTELLIGENCE & MARKET SIGNAL DECODER",
+   "gist": "You are the Pre-Sold Intelligence & Market Signal Decoder, deploying Tom Noske's strategic framework that transforms market research from \"what do people want?\" to \"what will make people pre-sold before they ever see my ",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/17-market-signal-decoder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "TOM NOSKE - FULL-STACK MAGNETIC LAUNCH ORCHESTRATOR",
+   "gist": "You are the Full-Stack Magnetic Launch Orchestrator, deploying Tom Noske's complete methodology as an integrated system. You don't execute isolated tactics\u2014you orchestrate a FULL LAUNCH ECOSYSTEM where every element rein",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/18-launch-orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "TOM NOSKE - SMALL AUDIENCE LTV CALCULATOR",
+   "gist": "You are the Small Audience LTV Calculator, deploying Tom Noske's precision revenue math that transforms \"I hope this works\" into \"the math says I need X.\" Most small creators fail because they set prices based on feeling",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/19-ltv-calculator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "TOM NOSKE - ANTI-VOLUME PRICING DISCIPLINE",
+   "gist": "You are the Anti-Volume Pricing Discipline engine, deploying Tom Noske's core insight: small creators who try to play the volume game are \"swimming against the current.\" When you have under 10,000 followers, volume is th",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/20-anti-volume-pricing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "TOM NOSKE - WHAT/WHY FREE \u2014 HOW/NOW PAID QUADRANT",
+   "gist": "You are the Content Monetization Quadrant architect, deploying Tom Noske's four-quadrant model that eliminates the creator's #1 guilt: \"Am I giving too much away for free?\" The answer is structured, not emotional.",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/21-content-monetization-quadrant.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
    "title": "TOM NOSKE - CONTENT-REVENUE FLYWHEEL AUDIT",
    "gist": "Audit any creator business model for flywheel integrity and redesign broken models so revenue growth accelerates content creation rather than killing it.",
    "path": "skills/tom-noske-personal-brand/references/prompts-v2/22-content-revenue-flywheel.md"
@@ -3589,9 +4611,30 @@
   {
    "kind": "prompt-v2",
    "skill": "tom-noske-personal-brand",
+   "title": "TOM NOSKE - DEMAND-FIRST BUSINESS BUILDER",
+   "gist": "You are the Demand-First Business Builder, deploying Tom Noske's paradigm inversion: traditional business builds product \u2192 finds customers. Creators build audience \u2192 ask what they want \u2192 build that.",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/23-demand-first-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
    "title": "TOM NOSKE - PERSONAL BRAND EQUITY COMPOUNDER",
    "gist": "Reframe content creation from labor into compounding investment. Every piece of content is a share purchased in your own name \u2014 the principal never decreases and the equity can be deployed into any future venture.",
    "path": "skills/tom-noske-personal-brand/references/prompts-v2/24-brand-equity-compounder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "TOM NOSKE - EXPRESS ELEVATOR EFFECT MAPPER",
+   "gist": "You are the Express Elevator Effect Mapper, deploying Tom Noske's insight that a strong personal brand grants disproportionate access to rooms, relationships, and opportunities FAR above your current \"level.\"",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/25-express-elevator-mapper.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tom-noske-personal-brand",
+   "title": "TOM NOSKE - ZERO-TO-CREATOR LAUNCHPAD",
+   "gist": "You are the Zero-to-Creator Launchpad, deploying Tom Noske's \"Start With Nothing\" principle: you need zero skills, zero business plan, zero idea, and zero money to begin building a personal brand business. The only requi",
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/26-zero-to-creator.md"
   },
   {
    "kind": "prompt-v2",
@@ -3606,6 +4649,13 @@
    "title": "Tommy Clark \u2014 Content Interview Extractor",
    "gist": "You are Tommy Clark, B2B LinkedIn Growth Engineer. You extract high-conversion, founder-led narrative assets from raw conversational transcripts. Your core discipline is defeating generic AI-generated content by anchorin",
    "path": "skills/tommy-clark-linkedin-growth/references/prompts-v2/content-interview-extractor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tommy-clark-linkedin-growth",
+   "title": "Tommy Clark \u2014 How I Narrative Pivot",
+   "gist": "[ROLE: extracted from original prompt]",
+   "path": "skills/tommy-clark-linkedin-growth/references/prompts-v2/how-i-narrative-pivot.md"
   },
   {
    "kind": "prompt-v2",

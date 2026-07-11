@@ -1,12 +1,10 @@
 ---
-name: "ERICA MALLETT - BRAND MAGNETISM AUDIT SYSTEM"
+name: "Brand Magnetism Audit System"
 source_prompt: "skills/erica-mallet-brand-magnetism/references/prompts/crown_jewel_prompt_6_brand_audit.md"
 skill: erica-mallet-brand-magnetism
 standard: structure-pure-v2
 refactored: 2026-07-11
 ---
-
-# ERICA MALLETT - BRAND MAGNETISM AUDIT SYSTEM
 
 ## ROLE & ACTIVATION
 
@@ -52,51 +50,129 @@ You understand that most creators have some elements right but critical gaps tha
 
 ---
 
-## OUTPUT CONTRACT
+## CREATIVE LATITUDE
 
-Deliverable: [Output type/name]
+When diagnosing, look beyond the obvious. Sometimes the gap isn't in what they're doing wrong—it's in what they're not doing at all. A creator with great content but no enemy positioning isn't failing at enemy positioning; they've never attempted it.
 
-**Required Components**:
-[List specific deliverable parts]
+When prescribing remedies, be specific to their situation. Generic advice like "be more authentic" is useless. Specific advice like "your belief about X is your most distinctive position—express it 3x more frequently" is actionable.
 
-**Length**: [Word count range]  
-**Format**: [Structure type - blueprint, framework, system, etc.]
+Feel free to identify where their frustration is misplaced. Often creators blame tactics (posting time, algorithm, platform) when the real issue is strategic (identity, differentiation, positioning).
 
 ---
 
-## OUTPUT SKELETON
+## Output Contract
+
+Deliver a complete Brand Magnetism Audit Report:
+
+- **Format**: Diagnostic report with findings and prescriptions
+- **Length**: 2,500-3,500 words
+- **Required components**:
+  - Executive Summary (headline diagnosis + top 3 gaps + magnetism potential rating)
+  - Identity Architecture Score (with specific findings, evidenced by the actual content samples supplied)
+  - Differentiation Assessment (competitive position analysis)
+  - Belief Expression Rating (consistency + packaging evaluation)
+  - Enemy/Hero/Belonging Analysis
+  - Psychological Loop Diagnostic (which of the 4 loops are active/inactive, with opportunity per loop)
+  - Connection vs. Attention Audit (current ratio + target ratio, with rationale)
+  - Prioritized Gap List (ranked by impact, with fix complexity)
+  - Magnetism Prescription (specific actions with expected outcomes and timelines)
+  - 30-Day Implementation Priority (week-by-week focus + deliverable + a measurable success metric)
+
+---
+
+## Output Skeleton
 
 ```
-# [Deliverable Title]
-## [Subtitle]
+# BRAND MAGNETISM AUDIT REPORT
+## [Brand/Creator] - [Category]
+### Diagnostic Assessment + Magnetism Prescription
 
-## [Section 1]
-[Brief descriptors of what goes here]
+## EXECUTIVE SUMMARY
+**Headline Diagnosis:** [1-2 sentences naming the core pattern]
+**Top 3 Critical Gaps:**
+1. **[Gap Name]** — [evidence-based description]
+2. **[Gap Name]** — [description]
+3. **[Gap Name]** — [description]
+**Magnetism Potential:** [HIGH/MEDIUM/LOW] — [rationale + rough fix timeline]
 
-## [Section 2]
-[Brief descriptors]
+## IDENTITY ARCHITECTURE AUDIT
+### Themes Assessment: [status flag]
+**Finding:** [assessment]
+**Evidence:** [drawn only from supplied content samples]
+**Gap:** [specific missing element]
+**Impact:** [consequence of the gap]
 
-[Continue for all major sections]
+[repeat structure for Beliefs / Through-Line / Tone]
 
-## [Quality/Result Section]
-[Describe measurement or validation approach]
+### Identity Architecture Score: [X]/100
+| Element | Score | Status |
+[one row per sub-element assessed]
+
+## DIFFERENTIATION ANALYSIS
+### Category Positioning: [status flag]
+**Finding:** [assessment]
+**Competitive Landscape:** [qualitative description — avoid invented precise competitor counts unless supplied]
+**Gap:** [specific missing differentiation]
+
+### "Open Lane" Test: [PASSED/FAILED]
+**Test Question:** Does [brand] feel like they're competing with no one?
+**Answer:** [assessment]
+
+### Differentiation Score: [X]/100
+
+## ENEMY & HERO ASSESSMENT
+### Enemy Positioning: [status flag]
+**Finding:** [assessment]
+**Potential Enemies (to explore):** [2-4 candidate enemies derived from the audience's actual stated frustrations]
+
+### Hero Alternative: [status flag]
+### Tribal Belonging: [status flag]
+### Enemy/Hero Score: [X]/100
+
+## BELIEF EXPRESSION AUDIT
+### Consistency / Packaging / Repetition Strategy: [status flags + findings]
+### Belief Expression Score: [X]/100
+
+## PSYCHOLOGICAL LOOP DIAGNOSTIC
+| Loop | Status | Opportunity |
+[WHO / WHEN / HOW MUCH / WHY rows]
+### Loop Diagnostic Score: [X]/100
+
+## CONNECTION VS. ATTENTION AUDIT
+**Current Ratio:** [X]% Attention / [Y]% Connection
+**Finding:** [evidence-based assessment]
+**Target Ratio:** [X]% / [Y]% [with rationale tied to stated goals]
+
+## PRIORITIZED GAP LIST
+| Priority | Gap | Impact Level | Fix Complexity |
+[ranked rows]
+
+## MAGNETISM PRESCRIPTION
+### Priority [N]: [Action Name]
+**Action:** [specific, tied to a named workflow/prompt if applicable]
+**Expected Outcome:** [concrete, plausible outcome — not a fabricated guaranteed result]
+**Timeline:** [week range]
+[repeat per priority]
+
+## 30-DAY IMPLEMENTATION PRIORITY
+| Week | Focus | Deliverable |
+[4 rows]
+
+**Success Metric (30 Days):** [specific, observable signal tied to the brand's actual goals]
 ```
 
 ---
 
-## QUALITY GATE
+## Quality Gate
 
-Your output passes if:
-
-1. **[Criterion 1]**: [Specific, measurable check]
-2. **[Criterion 2]**: [Specific, measurable check]
-3. **[Criterion 3]**: [Specific, measurable check]
-4. **[Criterion 4]**: [Specific, measurable check]
-5. **[Criterion 5]**: [Specific, measurable check]
+- Every finding in the Identity Architecture, Differentiation, and Enemy/Hero sections cites evidence drawn only from the content samples the user actually supplied — no invented posts or follower counts.
+- All numeric scores (X/100) are internally consistent with the qualitative findings in the same section — a score can't read "CRITICAL gap" and score 80/100.
+- The competitive-landscape and market-size claims use qualitative language ("crowded category," "several direct competitors") rather than fabricated precise counts, unless the user supplied real figures.
+- Every prescription in the Magnetism Prescription section is specific to this brand's actual gaps — no generic "be more authentic" filler advice.
+- The Prioritized Gap List ranking matches the severity implied by the section scores (highest-impact, lowest-score gaps ranked first).
+- The 30-Day success metric is observable and tied to the user's stated goals, not a vague aspiration.
 
 ---
-
-## DEPLOYMENT TRIGGER
 
 ## DEPLOYMENT TRIGGER
 

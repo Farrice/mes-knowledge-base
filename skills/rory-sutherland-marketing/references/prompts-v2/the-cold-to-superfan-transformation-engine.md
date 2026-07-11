@@ -1,12 +1,10 @@
 ---
-name: "RORY SUTHERLAND - THE COLD-TO-SUPERFAN TRANSFORMATION ENGINE"
+name: "Rory Sutherland - The Cold-to-Superfan Transformation Engine"
 source_prompt: "skills/rory-sutherland-marketing/references/prompts/the-cold-to-superfan-transformation-engine.md"
 skill: rory-sutherland-marketing
 standard: structure-pure-v2
 refactored: 2026-07-11
 ---
-
-# RORY SUTHERLAND - THE COLD-TO-SUPERFAN TRANSFORMATION ENGINE
 
 ## ROLE & ACTIVATION
 
@@ -93,52 +91,85 @@ You produce Cold-to-Superfan Transformation Systems that turn strangers into pas
 
 ---
 
-## OUTPUT CONTRACT
+## DEPLOY WHEN
 
-Deliverable: [Output type/name]
-
-**Required Components**:
-[List specific deliverable parts]
-
-**Length**: [Word count range]  
-**Format**: [Structure type - blueprint, framework, system, etc.]
+Given [YOUR BRAND/OFFER] with [YOUR MISSION] targeting [TARGET STRANGER] through [AVAILABLE TOUCHPOINTS] currently at [CURRENT STATE] seeking [SUPERFAN VISION], produce a complete Cold-to-Superfan Transformation System that creates genuine superfans who buy, refer, defend, and promote without being asked.
 
 ---
 
-## OUTPUT SKELETON
+## Output Contract
+
+Deliver a **Cold-to-Superfan Transformation System** with these components:
+1. Superfan Definition — what a superfan believes, does, and identifies as, specific to [YOUR BRAND/OFFER] and [SUPERFAN VISION]
+2. Stage Progression Map — the 10-stage relationship progression, each stage with its required belief shift, experience, and emotion
+3. Transition Engineering — for each stage transition, what specifically moves someone forward (concrete actions, not abstractions)
+4. Touchpoint Strategy — a table mapping [AVAILABLE TOUCHPOINTS] to which stage transition each one serves
+5. Identity Architecture — the tribe's shared beliefs, language, and values, specific to this brand's actual mission
+6. Advocacy Activation Plan — stories, language, and tools that make sharing natural
+7. Measurement Framework — what to track per stage transition (metric types, not invented target percentages)
+8. Implementation Roadmap — phased priorities appropriate to [CURRENT STATE]
+
+**Length**: 2000-3000 words. **No invented target percentages, NPS scores, or "X% of engaged convert" figures** — the Measurement Framework should name what to measure at each stage, not assert numbers the user hasn't validated. Every belief/identity claim in the Identity Architecture must be grounded in [YOUR MISSION] as stated, not invented philosophy.
+
+---
+
+## Output Skeleton
 
 ```
-# [Deliverable Title]
-## [Subtitle]
+### SUPERFAN DEFINITION
+**What a superfan believes**: [bullets]
+**What a superfan DOES**: [bullets — refers, defends, creates content, etc.]
+**Identity integration**: [what identity your offer becomes part of]
+**The tribe**: [who belongs]
 
-## [Section 1]
-[Brief descriptors of what goes here]
+### STAGE PROGRESSION MAP
+**Stage N: [Prior] → [Next]**
+- *Required experience*: [...]
+- *Belief shift*: [...]
+- *Emotion*: [...]
+- *Trigger*: [...]
+[Repeat across all 10 stages, grouped/abbreviated where stages naturally compress for this offer]
 
-## [Section 2]
-[Brief descriptors]
+### TRANSITION ENGINEERING
+**[Stage] → [Stage]: The [Named Mechanism]**
+[What to actually do — content types, actions, sequencing]
+[Repeat per major transition]
 
-[Continue for all major sections]
+### TOUCHPOINT STRATEGY
+| Stage | Primary Touchpoints (from AVAILABLE TOUCHPOINTS) | Content Type |
+|-------|----------------------------------------------------|--------------|
+[rows per stage]
 
-## [Quality/Result Section]
-[Describe measurement or validation approach]
+### IDENTITY ARCHITECTURE
+**Core Philosophy**: [grounded in YOUR MISSION]
+**Tribal Language**: [terms/frameworks specific to this brand]
+**Defining Values**: [bullets]
+**Rituals and Behaviors**: [bullets]
+
+### ADVOCACY ACTIVATION PLAN
+**Give Them Stories to Tell**: [templates]
+**Give Them Language to Use**: [bullets]
+**Give Them Tools to Share**: [bullets]
+**Recognize and Reward**: [bullets]
+
+### MEASUREMENT FRAMEWORK
+| Stage Transition | What to Measure | Why It Signals Progress |
+|-------------------|------------------|--------------------------|
+[rows — no invented target numbers]
+
+### IMPLEMENTATION ROADMAP
+**Phase 1** ([timeframe]): [priorities appropriate to CURRENT STATE]
+**Phase 2** ([timeframe]): [...]
+[Continue phases as appropriate]
 ```
 
 ---
 
-## QUALITY GATE
+## Quality Gate
 
-Your output passes if:
-
-1. **[Criterion 1]**: [Specific, measurable check]
-2. **[Criterion 2]**: [Specific, measurable check]
-3. **[Criterion 3]**: [Specific, measurable check]
-4. **[Criterion 4]**: [Specific, measurable check]
-5. **[Criterion 5]**: [Specific, measurable check]
-
----
-
-## DEPLOYMENT TRIGGER
-
-## DEPLOYMENT TRIGGER
-
-Given [YOUR BRAND/OFFER] with [YOUR MISSION] targeting [TARGET STRANGER] through [AVAILABLE TOUCHPOINTS] currently at [CURRENT STATE] seeking [SUPERFAN VISION], produce a complete Cold-to-Superfan Transformation System. Include superfan definition, stage progression map, transition engineering for each stage, touchpoint strategy, identity architecture, advocacy activation plan, measurement framework, and implementation roadmap. System should create genuine superfans who buy, refer, defend, and promote without being asked.
+- [ ] The Superfan Definition is specific to this brand's real mission/offer, not generic "loyal customer" language
+- [ ] Every stage transition names a concrete mechanism (a content type, an action, an experience design) — not a restated goal
+- [ ] The Touchpoint Strategy only uses touchpoints actually listed in [AVAILABLE TOUCHPOINTS]
+- [ ] No invented NPS scores, conversion percentages, or "X% advocate" figures in the Measurement Framework — it names what to track, not fabricated targets
+- [ ] Identity Architecture traces back to [YOUR MISSION] as the user stated it, not an invented philosophy
+- [ ] The Implementation Roadmap's first phase reflects [CURRENT STATE] rather than assuming a zero-audience starting point regardless of input

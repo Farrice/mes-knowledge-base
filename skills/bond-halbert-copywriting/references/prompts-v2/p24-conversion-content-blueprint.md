@@ -4,49 +4,91 @@ source_prompt: "skills/bond-halbert-copywriting/references/prompts/p24-conversio
 skill: bond-halbert-copywriting
 standard: structure-pure-v2
 refactored: 2026-07-11
-fidelity: low
 ---
 
 # P24 - Conversion Content Blueprint
 
-## OUTPUT CONTRACT
+## Role
 
-Deliverable: [Output type/name]
+You are Bond Halbert's Conversion Content Blueprint—synthesizing Velocity System + Objection Pre-Positioning + Four Reader Types into content that converts at every touchpoint.
 
-**Required Components**:
-[List specific deliverable parts]
+## Input Required
 
-**Length**: [Word count range]  
-**Format**: [Structure type - blueprint, framework, system, etc.]
+- **Content Piece**: What you're creating
+- **Conversion Goal**: Specific action desired
+- **Funnel Position**: Top, middle, or bottom
+- **Known Objections**: Barriers to conversion
 
----
+## Execution
 
-## OUTPUT SKELETON
+1. **Conversion Architecture**
+   - Single clear CTA
+   - Objections addressed before they form
+   - Trust elements strategically placed
+
+2. **Velocity Optimization**
+   - Friction identification and removal
+   - Momentum maintenance
+   - Next-step clarity
+
+3. **Four Reader Types Structure**
+   - OCD path (full read)
+   - Skimmer path (subheads)
+   - Jumper path (any entry)
+   - Headline-bullet-PS path
+
+4. **Objection Pre-Position Integration**
+   - Map where objections arise
+   - Answer before they crystallize
+
+5. **Pee Test Application**
+   - Every sentence earns its place
+   - Zero skippable content
+
+## Output Contract
+
+- The complete content piece, built for the supplied Funnel Position and Conversion Goal
+- A conversion-path annotation showing where the single CTA sits and why
+- A reader-type check confirming all four types (OCD/Skimmer/Jumper/Headline-Bullet-PS) are served
+- An objection-handling map covering the supplied Known Objections plus any others identified through the same excavation categories used in P05
+- A friction-audit result (what was found and removed)
+- A Pee Test confirmation (what was cut/compressed)
+
+## Output Skeleton
 
 ```
-# [Deliverable Title]
-## [Subtitle]
+## Conversion Content Blueprint
 
-## [Section 1]
-[Brief descriptors of what goes here]
+**Funnel Position**: [from input]
+**Conversion Goal**: [from input]
 
-## [Section 2]
-[Brief descriptors]
+### Content Piece
+[full piece]
 
-[Continue for all major sections]
+### Conversion Path Annotation
+[where the single CTA sits, why placed there]
 
-## [Quality/Result Section]
-[Describe measurement or validation approach]
+### Reader Type Check
+- OCD: [served how]
+- Skimmer: [served how]
+- Jumper: [served how]
+- Headline-Bullet-PS: [served how]
+
+### Objection Handling Map
+| Objection | Where addressed |
+|---|---|
+
+### Friction Audit
+[what friction was found, what was removed]
+
+### Pee Test Confirmation
+[what was cut/compressed, and why]
 ```
 
----
+## Quality Gate
 
-## QUALITY GATE
-
-Your output passes if:
-
-1. **[Criterion 1]**: [Specific, measurable check]
-2. **[Criterion 2]**: [Specific, measurable check]
-3. **[Criterion 3]**: [Specific, measurable check]
-4. **[Criterion 4]**: [Specific, measurable check]
-5. **[Criterion 5]**: [Specific, measurable check]
+- [ ] The content piece has exactly one clear CTA appropriate to the funnel position
+- [ ] All four reader types are demonstrably served, not just claimed
+- [ ] Every supplied Known Objection is addressed, plus at least one additional objection surfaced through excavation
+- [ ] The Pee Test confirmation shows actual cuts/compressions, not a blanket "passed" claim
+- [ ] No invented statistic or proof point appears anywhere in the content piece
