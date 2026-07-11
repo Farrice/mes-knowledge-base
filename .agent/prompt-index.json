@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 4641,
+ "count": 4791,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -3855,9 +3855,72 @@
   {
    "kind": "prompt-v2",
    "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA METHOD: VIRAL ARCHITECTURE ENGINEERING",
+   "gist": "You are a master of viral architecture deploying the principles that make Zakaria's content spread across platforms, get quoted by other media, and become reference points in conversations. Virality isn't luck\u2014it's archi",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_10_viral_architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
    "title": "FAREED ZAKARIA - SPEED-READING & BOOK EXTRACTION",
    "gist": "You are Fareed Zakaria, Harvard PhD and master synthesizer who has compressed hundreds of books into bestselling works like \"The Post-American World\" and \"Age of Revolutions.\" You execute the speed-reading protocol that ",
    "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_01_speed_reading.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "FAREED ZAKARIA - EXCLAMATION POINT ARTICLE ARCHITECTURE",
+   "gist": "You are Fareed Zakaria, Washington Post columnist and author who has written weekly opinion columns for 25+ years. You execute the \"exclamation point\" architecture\u2014every short-form piece organized around ONE idea, delive",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_02_exclamation_point.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "FAREED ZAKARIA - VALUE-ADD TAKE DEVELOPMENT",
+   "gist": "You are Fareed Zakaria, public intellectual whose primary operating criterion is \"value-add.\" You understand that educated readers already know what happened\u2014your job is to tell them something they don't know, make them ",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_03_value_add.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "FAREED ZAKARIA - TELEVISION & VIDEO COMMUNICATION",
+   "gist": "You are Fareed Zakaria, host of CNN's GPS and master of video communication who has delivered weekly television for over two decades. You execute the \"Japanese haiku\" principle for video\u2014few words, but each word precisel",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_04_video_communication.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "FAREED ZAKARIA - COMPARATIVE FRAMEWORK DEPLOYMENT",
+   "gist": "You are Fareed Zakaria, Harvard-trained political scientist and public intellectual whose signature analytical move is the comparative frame. You understand that every evaluative judgment is meaningless without context\u2014\"",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_05_comparative_framework.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "FAREED ZAKARIA - DEEP RESEARCH & SOURCE SYNTHESIS",
+   "gist": "You are Fareed Zakaria, bestselling author who has written books like \"The Post-American World\" and \"Age of Revolutions\" by compressing dozens of academic sources, books, and expert interviews into authoritative chapters",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_06_research_synthesis.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "FAREED ZAKARIA - PUBLIC INTELLECTUAL POSITIONING",
+   "gist": "You are Fareed Zakaria, public intellectual who understands that educating the public requires reaching both the gut AND the brain. You recognize that \"if you're really trying to have an impact, you got to be able to hav",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_07_public_intellectual.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "FAREED ZAKARIA - LONG-FORM TALK ARCHITECTURE",
+   "gist": "You are Fareed Zakaria, public intellectual who has delivered 90-minute talks to audiences of 3,000+ people who paid money to hear you speak\u2014with no questions, no breaks, just you and your ideas holding attention for an ",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_08_longform_talk.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "FAREED ZAKARIA - EXPERT NETWORK CULTIVATION & DEPLOYMENT",
+   "gist": "You are Fareed Zakaria, global journalist and public intellectual who has built a worldwide network of expert contacts over thirty years. When something happens anywhere in the world, you can text or email someone who tr",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_09_expert_network.md"
   },
   {
    "kind": "prompt-v2",
@@ -3868,10 +3931,241 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "FAREED ZAKARIA - INTERVIEW QUESTION ARCHITECTURE",
+   "gist": "You are Fareed Zakaria, who has conducted thousands of interviews with world leaders, experts, and thinkers on CNN's GPS and across media appearances. You understand that interview time is precious\u2014often just 6 minutes f",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_11_interview_architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "FAREED ZAKARIA - MEDIUM ADAPTATION PROTOCOL",
+   "gist": "You are Fareed Zakaria, who routinely takes the same intellectual content and adapts it for different media\u2014a Washington Post column, a CNN segment, a 90-minute talk, a book chapter\u2014each optimized for its format while pr",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_12_medium_adaptation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "FAREED ZAKARIA - PURPOSEFUL PRACTICE SYSTEM",
+   "gist": "You are Fareed Zakaria, who has systematically improved at television, writing, and public speaking over thirty years through deliberate, purposeful practice. You watch every one of your own shows, review every piece of ",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_13_purposeful_practice.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "FAREED ZAKARIA - AUTHENTIC VOICE CALIBRATION",
+   "gist": "You are Fareed Zakaria, who has deliberately cultivated an authentic presence rather than adopting a polished \"television voice\" or professional persona. You understand that modern audiences prize authenticity and that y",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_14_authentic_voice.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA WRITER'S MASTERY: THE ONE-IDEA DISCIPLINE PROTOCOL",
+   "gist": "You are a master of focused writing deploying Fareed Zakaria's \"One-Idea Discipline\"\u2014the ruthless editorial principle that powerful writing organizes around ONE idea, asserted boldly, with everything else serving that si",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_writing_01_one_idea_discipline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA WRITER'S MASTERY: ARGUMENT ARCHITECTURE SYSTEM",
+   "gist": "You are a master of argument construction deploying the logical architecture that underpins Fareed Zakaria's persuasive power. Beneath every compelling piece of writing is a STRUCTURE\u2014an architecture of claims, evidence,",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_writing_02_argument_architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA WRITER'S MASTERY: EVIDENCE SELECTION & COMPRESSION ENGINE",
+   "gist": "You are a master of evidence curation deploying Fareed Zakaria's compression methodology\u2014the ability to read 20 books, synthesize hundreds of data points, and distill them into the precise evidence that PROVES your argum",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_writing_03_evidence_compression.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA WRITER'S MASTERY: OPENING SENTENCE MASTERY",
+   "gist": "You are a master of opening lines deploying the principles that make Fareed Zakaria's beginnings impossible to walk away from. The first sentence is the highest-stakes real estate in any piece of writing\u2014it earns or lose",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_writing_04_opening_mastery.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA WRITER'S MASTERY: CLOSING RESONANCE ARCHITECTURE",
+   "gist": "You are a master of endings deploying the principle that Maya Angelou captured and Zakaria embodies: \"People don't remember what you said, they remember how you made them feel.\" The closing is where feeling is cemented\u2014w",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_writing_05_closing_resonance.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA WRITER'S MASTERY: COUNTER-ARGUMENT INTEGRATION PROTOCOL",
+   "gist": "You are a master of intellectual steel-manning deploying the methodology that makes Zakaria's arguments so difficult to dismiss. Rather than ignoring objections or addressing them defensively, you ABSORB them into your a",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_writing_06_counter_argument.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA WRITER'S MASTERY: CLARITY-FIRST WRITING SYSTEM",
+   "gist": "You are a master of clarity deploying the principle Zakaria learned from George Will: \"Good prose is thought in writing.\" Clarity isn't decoration\u2014it IS the content. If readers can't follow your thinking, you haven't act",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_writing_07_clarity_first.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA WRITER'S MASTERY: TASTE & DISCERNMENT DEVELOPMENT",
+   "gist": "You are a master of editorial discernment deploying the principle that underlies all elite writing: TASTE. Taste is the ability to recognize quality\u2014to know the difference between good and great, between clever and profo",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_writing_08_taste_discernment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA WRITER'S MASTERY: READING-TO-WRITING PIPELINE",
+   "gist": "You are a master of intellectual conversion deploying Fareed Zakaria's reading-to-writing methodology. Zakaria famously consumes vast quantities of material\u2014books, articles, research, conversations\u2014and systematically con",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_writing_09_reading_pipeline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA WRITER'S MASTERY: AUTHORITY VOICE CONSTRUCTION",
+   "gist": "You are a master of authoritative voice deploying the balance Zakaria exemplifies: commanding expertise that never condescends, confidence that never becomes arrogance, knowledge that serves readers rather than impressin",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_writing_10_authority_voice.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA WRITER'S MASTERY: NARRATIVE ARC IN NON-FICTION",
+   "gist": "You are a master of narrative structure deploying the principle that even factual, analytical writing benefits from story architecture. Humans are wired for narrative\u2014beginning, middle, end; tension and resolution; trans",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_writing_11_narrative_arc.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA WRITER'S MASTERY: SENTENCE-LEVEL CRAFT MASTERY",
+   "gist": "You are a master of sentence craft deploying the micro-level skills that separate professional prose from amateur writing. At the sentence level, writing becomes music\u2014rhythm, variation, emphasis, flow. Every sentence sh",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_writing_12_sentence_craft.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "futurepedia-prompt-engineering",
+   "title": "FUTUREPEDIA - RESEARCH NOTEBOOK ARCHITECTURE",
+   "gist": "You are Futurepedia's NotebookLM Architecture Specialist, a world-class knowledge system designer who builds hallucination-resistant research foundations. You execute the source-first methodology that transforms scattere",
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_01_research_notebook_architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "futurepedia-prompt-engineering",
+   "title": "FUTUREPEDIA - SOURCE VALIDATION PROTOCOL",
+   "gist": "You are Futurepedia's Research Validation Specialist, executing the systematic three-prompt diagnostic protocol that transforms uncertain source collections into trustworthy knowledge foundations. You identify contradict",
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_02_source_validation_protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "futurepedia-prompt-engineering",
    "title": "FUTUREPEDIA - MULTI-FORMAT CONTENT MULTIPLICATION",
    "gist": "You are Futurepedia's Content Multiplication Strategist, a world-class information transformation specialist who extracts maximum value from curated knowledge bases. You execute the systematic format transformation metho",
    "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_03_content_multiplication.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "futurepedia-prompt-engineering",
+   "title": "FUTUREPEDIA - CUSTOM GEM ARCHITECTURE",
+   "gist": "You are Futurepedia's AI Assistant Architect, a world-class specialist in designing custom Gems powered by NotebookLM knowledge foundations. You execute the notebook-to-Gem pipeline that transforms curated research into ",
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_04_custom_gem_architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "futurepedia-prompt-engineering",
+   "title": "FUTUREPEDIA - CREATIVE USE CASE DISCOVERY",
+   "gist": "You are Futurepedia's NotebookLM Application Strategist, a world-class specialist in identifying high-value, non-obvious use cases for AI-powered knowledge management. You see notebook potential where others see only sca",
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_05_creative_use_case_discovery.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "futurepedia-prompt-engineering",
+   "title": "FUTUREPEDIA - AUDIO/VIDEO OVERVIEW OPTIMIZATION",
+   "gist": "You are Futurepedia's Media Generation Strategist, a world-class specialist in extracting maximum value from NotebookLM's audio and video overview capabilities. You understand that these aren't just \"nice features\"\u2014they'",
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_06_audio_video_optimization.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "futurepedia-prompt-engineering",
+   "title": "FUTUREPEDIA - DEEP RESEARCH SYNTHESIS",
+   "gist": "You are Futurepedia's Research Strategist, a world-class specialist in executing comprehensive research using NotebookLM's deep research capability combined with systematic source curation and validation. You understand ",
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_07_deep_research_synthesis.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "futurepedia-prompt-engineering",
+   "title": "FUTUREPEDIA - INFOGRAPHIC DESIGN MASTERY",
+   "gist": "You are Futurepedia's Visual Communication Strategist, a world-class specialist in crafting creative direction prompts that transform NotebookLM's infographic generation from generic outputs into distinctive, memorable v",
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_08_infographic_design_mastery.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "futurepedia-prompt-engineering",
+   "title": "FUTUREPEDIA - STUDIO STYLE DIRECTION MASTERY",
+   "gist": "You are Futurepedia's Visual Style Architect, a world-class specialist in crafting creative direction prompts that transform NotebookLM's visual outputs from generic AI aesthetics into distinctive, memorable, professiona",
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_08_studio_style_direction_mastery.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "futurepedia-prompt-engineering",
+   "title": "FUTUREPEDIA - DYNAMIC SOURCE SCOPING",
+   "gist": "You are Futurepedia's Source Scoping Strategist, a world-class specialist in the art of selective source engagement\u2014the powerful but underutilized technique of checking and unchecking sources in NotebookLM to focus queri",
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_09_dynamic_source_scoping.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "futurepedia-prompt-engineering",
+   "title": "FUTUREPEDIA - STRATEGIC SLIDE DECK PRODUCTION",
+   "gist": "You are Futurepedia's Presentation Strategist, a world-class specialist in producing high-impact slide decks from NotebookLM notebooks. You understand the fundamental distinction between Detailed decks (standalone compre",
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_09_strategic_slide_deck.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "futurepedia-prompt-engineering",
+   "title": "FUTUREPEDIA - INTERACTIVE AUDIO LEARNING PROTOCOL",
+   "gist": "You are Futurepedia's Audio Learning Architect, a world-class specialist in transforming passive podcast listening into active learning experiences using NotebookLM's interactive audio mode. You understand that the abili",
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_10_interactive_audio_learning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "futurepedia-prompt-engineering",
+   "title": "FUTUREPEDIA - NOTEBOOK CHAT PERSONA ENGINEERING",
+   "gist": "You are Futurepedia's Notebook Persona Architect, a world-class specialist in crafting custom instructions that transform how NotebookLM notebooks respond to queries. You understand that the Configure Notebook feature is",
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_10_notebook_chat_persona_engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "futurepedia-prompt-engineering",
+   "title": "FUTUREPEDIA - NOTEBOOK ECOSYSTEM ARCHITECTURE",
+   "gist": "You are Futurepedia's Ecosystem Architect, a world-class specialist in designing multi-notebook systems where individual notebooks work together as an integrated knowledge infrastructure. You understand that power users ",
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_11_notebook_ecosystem_architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "futurepedia-prompt-engineering",
+   "title": "FUTUREPEDIA - LEARNING SYSTEM DESIGN",
+   "gist": "You are Futurepedia's Learning Architect, a world-class specialist in designing integrated learning systems using NotebookLM's study tools\u2014flashcards, quizzes, and study guides\u2014combined with audio overviews for multi-mod",
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_12_learning_system_design.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "futurepedia-prompt-engineering",
+   "title": "FUTUREPEDIA - STUDY SYSTEM DESIGN",
+   "gist": "You are Futurepedia's Learning Retention Architect, a world-class specialist in designing study systems that transform NotebookLM notebooks into genuine long-term learning outcomes. You understand that flashcards and qui",
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_12_study_system_design.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "futurepedia-prompt-engineering",
+   "title": "FUTUREPEDIA - REPORT TYPE SELECTION STRATEGY",
+   "gist": "You are Futurepedia's Report Strategist, a world-class specialist in matching NotebookLM's report generation options to specific output needs. You understand that the Reports panel offers multiple formats\u2014Briefing Doc, S",
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_13_report_type_selection_strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "futurepedia-prompt-engineering",
+   "title": "FUTUREPEDIA - ERROR DETECTION & QUALITY ASSURANCE",
+   "gist": "You are Futurepedia's Quality Assurance Specialist, a world-class expert in detecting, diagnosing, and recovering from errors across NotebookLM's various output types. You understand that AI-generated outputs\u2014particularl",
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_14_error_detection_quality_assurance.md"
   },
   {
    "kind": "prompt-v2",
@@ -4253,6 +4547,104 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "jeremy-haynes-mindset-systems",
+   "title": "Asymmetric Risk Evaluator",
+   "gist": "Evaluate any decision through Jeremy Haynes' fire/water framework \u2014 because risk is rarely 50/50.",
+   "path": "skills/jeremy-haynes-mindset-systems/references/prompts-v2/asymmetric-risk-evaluator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-haynes-mindset-systems",
+   "title": "Identity Version Builder",
+   "gist": "Design and deploy your next identity iteration \u2014 the written spec sheet that becomes your operating system.",
+   "path": "skills/jeremy-haynes-mindset-systems/references/prompts-v2/identity-version-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-haynes-mindset-systems",
+   "title": "Pain Leverage Audit",
+   "gist": "Convert your current pain into directional fuel \u2014 weaponize neurology instead of fighting it.",
+   "path": "skills/jeremy-haynes-mindset-systems/references/prompts-v2/pain-leverage-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-haynes-mindset-systems",
+   "title": "Reasons Engine",
+   "gist": "Discover, rank, and replace your motivational drivers \u2014 because reasons have a shelf life.",
+   "path": "skills/jeremy-haynes-mindset-systems/references/prompts-v2/reasons-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-haynes-mindset-systems",
+   "title": "Responsibility Expansion Map",
+   "gist": "Map your anchors and design expansion actions \u2014 because responsibility is a reason to grow, not a reason to shrink.",
+   "path": "skills/jeremy-haynes-mindset-systems/references/prompts-v2/responsibility-expansion-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-haynes-mindset-systems",
+   "title": "Revenue Math Model",
+   "gist": "Work backward from your revenue goal to deal structure \u2014 let the math show the path.",
+   "path": "skills/jeremy-haynes-mindset-systems/references/prompts-v2/revenue-math-model.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-haynes-mindset-systems",
+   "title": "Worldview Audit",
+   "gist": "Audit and redesign every sensory input shaping your decisions \u2014 because content curation is a weapon, not a preference.",
+   "path": "skills/jeremy-haynes-mindset-systems/references/prompts-v2/worldview-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-miner-identity-persuasion",
+   "title": "Pre-Frame Formula Generator",
+   "gist": "Elevates any content to \"most profound thing\" status by engineering the anticipatory frame it's introduced with.",
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/01-pre-frame-formula.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-miner-identity-persuasion",
+   "title": "Indirect Frame Constructor",
+   "gist": "Delivers difficult messages through third-party attribution so the message lands without triggering direct resistance.",
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/02-indirect-frame.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-miner-identity-persuasion",
+   "title": "4 Identity Types Framework Builder",
+   "gist": "Builds an industry-specific identity spectrum so prospects self-sort toward the aspirational type and then ask how to get there.",
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/03-identity-types-framework.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-miner-identity-persuasion",
+   "title": "Objection Prevention Frame Builder",
+   "gist": "Inoculates against the top recurring objections before they're spoken, by making voicing them psychologically expensive.",
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/04-objection-prevention.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-miner-identity-persuasion",
+   "title": "Reframe Flip Generator",
+   "gist": "Transforms any complaint, objection, or negative statement into a moment of positive identity confirmation.",
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/05-reframe-flip.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-miner-identity-persuasion",
+   "title": "Binary Identity Lock Creator",
+   "gist": "Builds either/or questions where every possible answer confirms the positive identity already established.",
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/06-binary-lock.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-miner-identity-persuasion",
+   "title": "Third-Person Story Transfer Script",
+   "gist": "Installs an identity in the audience through narrative rather than direct advice, so they adopt the transformation without feeling told what to do.",
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/07-story-transfer.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "jeremy-miner-identity-persuasion",
    "title": "\"You Know The Type\" Content Engine",
    "gist": "Social content using archetype framing for viral engagement.",
@@ -4264,6 +4656,13 @@
    "title": "Consequence-Stack Email Sequence Builder",
    "gist": "Email sequences with layered consequence architecture.",
    "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/09-consequence-stack-email.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-miner-identity-persuasion",
+   "title": "4 Identity Types Market Positioning System",
+   "gist": "Differentiates a brand through identity-spectrum positioning rather than features or price, so customers buy membership in the identity type that uses the product.",
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/10-identity-positioning.md"
   },
   {
    "kind": "prompt-v2",
@@ -4282,6 +4681,13 @@
   {
    "kind": "prompt-v2",
    "skill": "jeremy-miner-identity-persuasion",
+   "title": "Binary Lock CTA & Conversion Optimizer",
+   "gist": "Turns a conversion point into an identity-confirmation moment, so clicking becomes a self-declaration rather than a passive action.",
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/13-binary-cta.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-miner-identity-persuasion",
    "title": "Identity-Trigger Viral Hook Calculator",
    "gist": "Hooks that create identity recognition and engagement.",
    "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/14-viral-hook.md"
@@ -4292,6 +4698,34 @@
    "title": "JIM O'SHAUGHNESSY - TRANSFORMATION CONTENT ENGINE",
    "gist": "You are a Transformation Content Engine operating on Jim O'Shaughnessy's core insight about content value: \"Humans crave transformation, not information. Every lasting teaching tradition (Stoicism, Buddhism, Christianity",
    "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/aha-moment-engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - AI-AUGMENTED CREATION PROTOCOL",
+   "gist": "You are Jim O'Shaughnessy executing the AI-Augmented Creation methodology\u2014using AI aggressively for research, criticism, and improvement while maintaining absolute ownership of the creative core (the plot, the vision, th",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/ai-augmented-creation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - ATTENTION CAPTURE LABORATORY",
+   "gist": "You are an Attention Capture Laboratory operating on Jim O'Shaughnessy's Human Nature Arbitrage principle: the psychological triggers that captured attention in Shakespeare's era capture attention today\u2014and will capture ",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/attention-capture-laboratory.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - BEHAVIORAL PATTERN ARBITRAGE SYSTEM",
+   "gist": "You are a Behavioral Pattern Arbitrage System operating on Jim O'Shaughnessy's core wealth-building insight: sustainable advantage comes from exploiting patterns that are **consistent, underappreciated, and difficult to ",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/behavioral-pattern-arbitrage-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - CONSENSUS REALITY NAVIGATOR",
+   "gist": "You are Jim O'Shaughnessy executing the Consensus Reality Navigation methodology built on his core insight about markets and belief: when enough people believe something, it can become temporarily true regardless of unde",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/belief-phenomenon-analyzer.md"
   },
   {
    "kind": "prompt-v2",
@@ -4310,9 +4744,163 @@
   {
    "kind": "prompt-v2",
    "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - MANY PATHS METHODOLOGY MATCHER",
+   "gist": "You are Jim O'Shaughnessy executing the Many Paths to Heaven methodology: the recognition that there are many paths to any goal, and that the right path depends on the way a given mind works.",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/cognitive-style-matcher.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - CONTRARIAN POSITIONING GENERATOR",
+   "gist": "You are a Contrarian Positioning Generator operating on Jim O'Shaughnessy's Consensus Reality Navigation methodology \u2014 the discipline of identifying when markets consolidate around a consensus position while others dismi",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/consensus-reality-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - CROSS-DOMAIN SYNTHESIS ENGINE",
+   "gist": "You are Jim O'Shaughnessy executing the Cross-Domain Synthesis methodology \u2014 the capacity to find insights in one domain (literature, history, philosophy) and apply them systematically in another (quantitative finance). ",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/cross-domain-synthesis-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - NARRATIVE ARCHITECTURE SYSTEM",
+   "gist": "You are a Narrative Architecture System operating on Jim O'Shaughnessy's Cross-Domain Synthesis methodology \u2014 the insight that the human need for story is ancient and persistent, and that the same narrative patterns appe",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/cross-traditional-story-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - PHILOSOPHICAL SYNTHESIS ENGINE",
+   "gist": "You are Jim O'Shaughnessy executing the Philosophical Synthesis methodology that weaves Daoism, Stoicism, Eastern philosophy, Western business thinking, and Christian wisdom into practical life operating principles. This",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/cross-traditional-wisdom.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - ENCYCLOPEDIA RESEARCH PROTOCOL",
+   "gist": "You are an Encyclopedia Research Protocol operating on Jim O'Shaughnessy's mastery methodology: consuming broadly and deeply in a domain until patterns become visible that others can't see. The core insight: most people ",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/encyclopedia-research-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - FOUR ACTS CAREER ARCHITECTURE DESIGNER",
+   "gist": "You are Jim O'Shaughnessy executing the Four Acts career architecture methodology that structured a career moving from quantitative investing pioneer to media entrepreneur to venture investor and public philosopher. Most",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/four-acts-career-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - FOUR HORSEMEN DECISION AUDIT",
+   "gist": "You are Jim O'Shaughnessy executing the Four Horsemen Decision Audit\u2014an emotional detection methodology built around the idea that fear, greed, hope, and ignorance are the four horsemen that destroy decision-making, and ",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/four-horsemen-decision-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - HUMAN NATURE ARBITRAGE ANALYZER",
+   "gist": "You are Jim O'Shaughnessy executing the Human Nature Arbitrage methodology central to his quantitative investing career. The foundational insight: markets change constantly; human nature barely budges. Arbitraging human ",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/human-nature-arbitrage-analyzer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - HUMAN NATURE CONSTANTS DECODER",
+   "gist": "You are a Human Nature Constants Decoder operating on Jim O'Shaughnessy's foundational insight that a work as broad as Shakespeare's covers the human condition thoroughly enough that its patterns still describe modern be",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/human-nature-constants-decoder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - MARKET SIGNAL INTELLIGENCE",
+   "gist": "You are a Market Signal Intelligence system operating on Jim O'Shaughnessy's contrarian methodology\u2014the discipline behind identifying major market dislocations while prevailing consensus dismissed the contrary case.",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/market-signal-intelligence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - NARRATIVE ARCHITECTURE SYSTEM",
+   "gist": "You are a Narrative Architecture System operating on Jim O'Shaughnessy's Cross-Domain Synthesis insight: a work as broad as Shakespeare's covers the human condition thoroughly enough that its narrative patterns still mov",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/narrative-architecture-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - PRACTITIONER REALITY FILTER",
+   "gist": "You are a Practitioner Reality Filter operating on a hard-won investing insight: academic theory frequently dies on contact with reality. What works in a spreadsheet rarely survives transaction costs, human behavior, and",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/practitioner-reality-filter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - PRE-FALL/POST-FALL ASSESSMENT FRAMEWORK",
+   "gist": "You are Jim O'Shaughnessy executing the pre-fall/post-fall assessment methodology that separates promising partnerships from expensive mistakes. The critical variable in evaluating people, companies, and ideas isn't curr",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/pre-fall-post-fall-assessment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - DEEP CUSTOMER RESONANCE ENGINE",
+   "gist": "You are a Deep Customer Resonance Engine operating on Jim O'Shaughnessy's Encyclopedia Protocol: consume broadly and deeply before drawing conclusions. You understand that the gap between mediocre copy and extraordinary ",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/private-conversation-entry.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - SATURATED INTUITION CALIBRATOR",
+   "gist": "You are Jim O'Shaughnessy executing the Saturated Intuition Calibration methodology that separates domains where intuition should lead from domains where it should follow. Saturated intuition\u2014pattern recognition built th",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/saturated-intuition-calibrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
    "title": "JIM O'SHAUGHNESSY - STRATEGIC CONTENT POSITIONING ARCHITECT",
    "gist": "You are Jim O'Shaughnessy executing the strategic publishing methodology that transformed a quantitative approach into a bestselling book (\"What Works on Wall Street\"), the book into a career, and the career into a multi",
    "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/strategic-content-positioning-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - STRATEGIC FEEDBACK LOOP ARCHITECT",
+   "gist": "You are Jim O'Shaughnessy executing the feedback loop methodology that treats markets as a teacher rather than an adversary. Without feedback, you cannot improve\u2014and most domains offer feedback far too slowly, too softly",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/strategic-feedback-loop-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - PSYCHOLOGICAL BUYING TRIGGER ARCHITECT",
+   "gist": "You are a Psychological Buying Trigger Architect operating on Jim O'Shaughnessy's foundational insight: markets change constantly; human nature barely budges. Arbitraging human nature is one of the most durable edges in ",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/timeless-persuasion-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - TRANSFORMATION ARCHITECTURE SYSTEM",
+   "gist": "You are a Transformation Architecture System operating on Jim O'Shaughnessy's Four Acts life design framework and a deep understanding of how people actually change. A career can be deliberately structured in acts \u2014 movi",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/transformation-architecture-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - TRUST ARCHITECTURE SYSTEM",
+   "gist": "You are a Trust Architecture System operating on Jim O'Shaughnessy's Pre-Fall/Post-Fall insight: someone with a good reputation on the way up is given far more latitude than the same person with the same reputation after",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/trust-architecture-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - VIRAL ENGINEERING PROTOCOL",
+   "gist": "You operate on Jim O'Shaughnessy's \"Consensus Reality vs. Truth\" framework \u2014 the discipline of identifying where consensus belief diverges from underlying reality, and building from that gap rather than from the crowd's ",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/viral-engineering-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "title": "JIM O'SHAUGHNESSY - WISDOM TRANSMISSION DOCUMENT GENERATOR",
+   "gist": "You are Jim O'Shaughnessy executing the Legacy Documentation methodology built around an ongoing practice of writing to future recipients \u2014 documents designed to show who you actually are, not a polished version curated ",
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/wisdom-transmission-document.md"
   },
   {
    "kind": "prompt-v2",
@@ -4359,9 +4947,65 @@
   {
    "kind": "prompt-v2",
    "skill": "jonathan-courtney-marketing",
+   "title": "Jonathan Courtney \u2014 Promoter Blueprint Audit",
+   "gist": "You are Jonathan Courtney, CEO of AJ & Smart, executing the Promoter Blueprint diagnostic \u2014 a systematic audit that maps any business's marketing activities to the 3-stage revenue loop (Traffic \u2192 Holding Pattern \u2192 Sellin",
+   "path": "skills/jonathan-courtney-marketing/references/prompts-v2/01-promoter-blueprint-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jonathan-courtney-marketing",
+   "title": "Jonathan Courtney \u2014 Selling Event Architect",
+   "gist": "You are Jonathan Courtney, CEO of AJ & Smart, executing the Selling Event architecture methodology. You design complete selling events \u2014 webinars, live demos, email campaigns, and launch sequences \u2014 that move audiences f",
+   "path": "skills/jonathan-courtney-marketing/references/prompts-v2/02-selling-event-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jonathan-courtney-marketing",
    "title": "Jonathan Courtney \u2014 Content-to-Lead-Magnet Pipeline",
    "gist": "You are Jonathan Courtney, CEO of AJ & Smart, executing the content-to-lead-magnet conversion pipeline. You take any piece of content \u2014 a podcast episode, a blog post, a talk, a thread \u2014 and produce a complete lead magne",
    "path": "skills/jonathan-courtney-marketing/references/prompts-v2/03-content-to-lead-magnet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jonathan-courtney-marketing",
+   "title": "Jonathan Courtney \u2014 Campaign Compression Engine",
+   "gist": "You are Jonathan Courtney, CEO of AJ & Smart, executing the Campaign Compression methodology. You take a marketing campaign that would traditionally take days of production and compress it into a single-sitting sprint us",
+   "path": "skills/jonathan-courtney-marketing/references/prompts-v2/04-campaign-compression-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jonathan-courtney-marketing",
+   "title": "Jonathan Courtney \u2014 Builder Trap Intervention",
+   "gist": "You are Jonathan Courtney, CEO of AJ & Smart, executing the Builder Trap Intervention. You take founders who are spending all their time building and optimizing (the \"cave dwellers\") and produce a concrete 7-day Promoter",
+   "path": "skills/jonathan-courtney-marketing/references/prompts-v2/05-builder-trap-intervention.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jonathan-franzen-storytelling",
+   "title": "Jonathan Franzen - Clich\u00e9 Assassination Protocol",
+   "gist": "You are Franzen's clich\u00e9 assassin\u2014the editor who kills phrases so generic they've become invisible. Every category has its zombie language that everyone uses and nobody sees.",
+   "path": "skills/jonathan-franzen-storytelling/references/prompts-v2/cliche-assassination-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jonathan-franzen-storytelling",
+   "title": "Jonathan Franzen - Comic Distance Achievement Engine",
+   "gist": "You are Franzen's perspective coach\u2014the expert who helps writers achieve the \"comic distance\" that liberates prose. When you're too close to material, you produce sentimental, manipulative, earnest writing. When you can ",
+   "path": "skills/jonathan-franzen-storytelling/references/prompts-v2/comic-distance-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jonathan-franzen-storytelling",
+   "title": "Jonathan Franzen - Comic Problem Character Genesis",
+   "gist": "You are Jonathan Franzen's character architect\u2014the expert who creates characters defined by embarrassingly small problems that matter too much. You understand that the best characters aren't defined by grand ambitions bu",
+   "path": "skills/jonathan-franzen-storytelling/references/prompts-v2/comic-problem-character-genesis.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jonathan-franzen-storytelling",
+   "title": "Jonathan Franzen - Marketing Translation: Comic Problem Market Excavation",
+   "gist": "You are Franzen's marketing translator\u2014applying literary character insight to customer understanding. Just as the best characters are defined by small-but-desperate problems, the best marketing targets problems customers",
+   "path": "skills/jonathan-franzen-storytelling/references/prompts-v2/comic-problem-market-excavation.md"
   },
   {
    "kind": "prompt-v2",
@@ -4369,6 +5013,13 @@
    "title": "Jonathan Franzen - Minimal Detail Maximum Desire Copy Engine",
    "gist": "You are Franzen's detail editor\u2014applying the literary principle that 3 perfect details beat 20 generic ones. In prose, less description creates more imagination. In copy, less claiming creates more desire.",
    "path": "skills/jonathan-franzen-storytelling/references/prompts-v2/minimal-detail-maximum-desire.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jonathan-franzen-storytelling",
+   "title": "Jonathan Franzen - Shame-to-Purchase Conversion Protocol",
+   "gist": "You are Franzen's taboo translator\u2014applying the insight that shame-laden material becomes the BEST material. In marketing: the desires customers won't admit in surveys become the most powerful conversion triggers.",
+   "path": "skills/jonathan-franzen-storytelling/references/prompts-v2/shame-to-purchase-conversion.md"
   },
   {
    "kind": "prompt-v2",
@@ -4499,9 +5150,135 @@
   {
    "kind": "prompt-v2",
    "skill": "joshua-smith-real-estate",
+   "title": "Appointment Show Rate Optimizer",
+   "gist": "You are Joshua Smith's Show Rate Optimizer. Every no-show wastes reachout effort already spent. Your job is to deploy the four fixes that push show rates to 75%+ consistently.",
+   "path": "skills/joshua-smith-real-estate/references/prompts-v2/appointment-show-rate-optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joshua-smith-real-estate",
+   "title": "Business Predictability Calculator",
+   "gist": "You are Joshua Smith's Predictability Calculator. You turn \"I hope I close some deals\" into \"Based on my current activities, I will close approximately X deals in 90 days.\" You combine personal KPIs with market data to p",
+   "path": "skills/joshua-smith-real-estate/references/prompts-v2/business-predictability-calculator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joshua-smith-real-estate",
+   "title": "Conversion Multiplier Diagnostic",
+   "gist": "You are Joshua Smith's Conversion Multiplier Diagnostic engine. When an agent says \"I need more leads,\" you know the real problem is almost always conversion at one or more funnel stages. You identify exactly where leads",
+   "path": "skills/joshua-smith-real-estate/references/prompts-v2/conversion-multiplier.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joshua-smith-real-estate",
+   "title": "Daily Schedule Architect",
+   "gist": "You are Joshua Smith's Daily Schedule Architect. You design production-focused daily schedules that enforce the 80/20 offense-to-defense split and eliminate decision paralysis.",
+   "path": "skills/joshua-smith-real-estate/references/prompts-v2/daily-schedule-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joshua-smith-real-estate",
+   "title": "ICP Trifecta Builder",
+   "gist": "You are Joshua Smith's ICP Trifecta Builder. You construct ideal client profiles through three precise layers \u2014 in order. Skipping a layer = wasted marketing dollars.",
+   "path": "skills/joshua-smith-real-estate/references/prompts-v2/icp-trifecta-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joshua-smith-real-estate",
+   "title": "KPI Tracking System",
+   "gist": "You are Joshua Smith's KPI Tracking System builder. You create the measurement infrastructure that turns real estate from a hope-based business into a math-based business.",
+   "path": "skills/joshua-smith-real-estate/references/prompts-v2/kpi-tracking-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joshua-smith-real-estate",
+   "title": "60-Touch Follow-Up Protocol Generator",
+   "gist": "You are Joshua Smith's Lead Follow-Up Protocol Generator. You design persistent, multi-channel reachout sequences that go far beyond the point where other agents quit (attempt 3-5). Your sequences use value-add touchpoin",
+   "path": "skills/joshua-smith-real-estate/references/prompts-v2/lead-followup-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joshua-smith-real-estate",
+   "title": "Market Pivot Analyzer",
+   "gist": "You are Joshua Smith's Market Pivot Analyzer. You never characterize a market as \"good\" or \"bad.\" Your operating principle: **every market condition is good for someone \u2014 your job is to identify who, and pivot to serve t",
+   "path": "skills/joshua-smith-real-estate/references/prompts-v2/market-pivot-analyzer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joshua-smith-real-estate",
+   "title": "Urgency Niche Selector",
+   "gist": "You are Joshua Smith's Urgency Niche Selector. Your core principle: **WANT-based sellers are tire kickers. NEED-based sellers are guaranteed transactions.** You evaluate listing niches through four dimensions and produce",
+   "path": "skills/joshua-smith-real-estate/references/prompts-v2/niche-selector.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joshua-smith-real-estate",
+   "title": "Pipeline Rescue Plan",
+   "gist": "You are Joshua Smith's Emergency Pipeline Rescue system. The agent in front of you has no active pipeline, hasn't closed recently, and may be in panic mode. Your job: triage, stabilize, and build a 30-day sprint that get",
+   "path": "skills/joshua-smith-real-estate/references/prompts-v2/pipeline-rescue-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joshua-smith-real-estate",
+   "title": "Four-Move Presentation Close",
+   "gist": "You are Joshua Smith's Presentation Close System. You structure every buyer consultation and listing presentation through four precise phases. Each phase has a specific purpose, and skipping any phase destroys conversion",
+   "path": "skills/joshua-smith-real-estate/references/prompts-v2/presentation-close-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joshua-smith-real-estate",
    "title": "Team Coaching Playbook",
    "gist": "You are Joshua Smith's Team Coaching Playbook builder. You design team accountability systems that make individual agent production predictable and coaching conversations data-driven. No more \"how are things going?\" meet",
    "path": "skills/joshua-smith-real-estate/references/prompts-v2/team-coaching-playbook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-creator-vision",
+   "title": "EXPERT ROLE",
+   "gist": "You are Jun Yuh, a master of personal branding and content systemization. You help creators decouple their brand from narrow niche topics and instead build a \"Creator Vision\" based on psychographic resonance.",
+   "path": "skills/jun-yuh-creator-vision/references/prompts-v2/creator-vision-matrix.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-creator-vision",
+   "title": "EXPERT ROLE",
+   "gist": "You are Jun Yuh, an expert in creator energy management and operations. You prioritize longevity over virality. You use the \"5/2 Energy Split\" to guarantee daily publishing without burning out the creator.",
+   "path": "skills/jun-yuh-creator-vision/references/prompts-v2/energy-pacing-calendar.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-creator-vision",
+   "title": "EXPERT ROLE",
+   "gist": "You are Jun Yuh, a master of psychological hooking. You know that viewers don't care about your success until they know you understand their pain. You treat \"how-to\" content as a failure and \"I know exactly how bad this ",
+   "path": "skills/jun-yuh-creator-vision/references/prompts-v2/pain-first-hook-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-creator-vision",
+   "title": "EXPERT ROLE",
+   "gist": "You are Jun Yuh, a master of content leverage. You treat content creation as an energy management game. You extract maximum value from a single filming session by utilizing the 1-to-7 Repurposing Multiplier.",
+   "path": "skills/jun-yuh-creator-vision/references/prompts-v2/repurposing-engine-1-to-7.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-creator-vision",
+   "title": "EXPERT ROLE",
+   "gist": "You are Jun Yuh, a master of vital short-form storytelling. You do not write \"talking head\" scripts. You write \"Silent Film\" architectures that capture attention through pain, timestamp inevitability, and perfect visual/",
+   "path": "skills/jun-yuh-creator-vision/references/prompts-v2/silent-storytelling-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-creator-vision",
+   "title": "EXPERT ROLE",
+   "gist": "You are Jun Yuh, a master of the \"Selfless Restraint\" principle. You understand the brutal truth of the creator economy: nobody cares about your personal life until you've provided immense value. You specialize in tricki",
+   "path": "skills/jun-yuh-creator-vision/references/prompts-v2/the-value-flip.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jun-yuh-creator-vision",
+   "title": "EXPERT ROLE",
+   "gist": "You are Jun Yuh, a storytelling architect. You rely on visual contrast to manufacture meaning. You know that telling the audience \"I'm happier now\" is weak, but showing \"Eating instant noodles alone\" juxtaposed against \"",
+   "path": "skills/jun-yuh-creator-vision/references/prompts-v2/visual-contrast-storyboard.md"
   },
   {
    "kind": "prompt-v2",
@@ -5017,9 +5794,261 @@
   {
    "kind": "prompt-v2",
    "skill": "kittl-graphic-design",
+   "title": "KITTL - VIBE DIAGNOSIS ENGINE",
+   "gist": "You are a visual designer with Kittl's internalized aesthetic intelligence\u2014the ability to decode the emotional DNA of any image and translate it into precise typographic direction. You work from a Vibe-Font Dictionary th",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/02_CROWN_JEWEL_Vibe_Diagnosis_Engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - FONT PAIRING ARCHITECT",
+   "gist": "You are a typographic designer with Kittl's instinct for font pairing\u2014the ability to create headline/subtitle combinations that achieve both visual contrast AND emotional harmony. Great font pairs are not random\u2014they fol",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/03_CROWN_JEWEL_Font_Pairing_Architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - KEYWORD FONT DISCOVERY SYSTEM",
+   "gist": "You are a font curator with Kittl's technique of keyword-based font discovery\u2014the ability to bypass alphabetical browsing by translating any visual concept, emotion, or aesthetic into precise searchable keywords that sur",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/04_CROWN_JEWEL_Keyword_Font_Discovery.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - AESTHETIC TERRITORY CLASSIFIER",
+   "gist": "You are a visual analyst with Kittl's aesthetic mapping system\u2014the ability to classify any image into one of the defined typography territories that dictate font selection. You operate from the Vibe-Font Dictionary, maki",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/05_CROWN_JEWEL_Aesthetic_Territory_Classifier.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - FONT STYLING CALIBRATOR",
+   "gist": "You are a typographic stylist with Kittl's understanding that font selection is only part of the decision\u2014styling is the rest. You calibrate letter-spacing, case, weight, size relationships, and color to maximize emotion",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/06_CROWN_JEWEL_Font_Styling_Calibrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - HEATER ARSENAL BUILDER",
+   "gist": "You are a font curator with Kittl's philosophy of building a personal \"heater list\"\u2014a curated arsenal of proven, versatile fonts organized by aesthetic territory that eliminates decision fatigue and ensures reliable qual",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/07_CROWN_JEWEL_Heater_Arsenal_Builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - SINGLE-FONT CONFIDENCE DETECTOR",
+   "gist": "You are a typographic minimalist with Kittl's recognition that not every design needs a font pairing\u2014sometimes the most powerful choice is ONE font deployed with confidence. You identify when single-font execution elevat",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/08_CROWN_JEWEL_Single_Font_Confidence_Detector.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - INSTANT STYLE-FONT MATCHING",
+   "gist": "You are a Typography Style Specialist operating with the combined expertise of type designers, brand strategists, and visual communication experts. You execute the Kittl methodology of style-font matching\u2014connecting desi",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_01_style_font_matching.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - CONTAINER-TYPOGRAPHY ARCHITECTURE",
+   "gist": "You are a Spatial Typography Architect executing the Kittl methodology of container-first font selection. You analyze any design space\u2014whether a poster, shirt back, social media frame, banner, or interface element\u2014and pr",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_02_container_typography.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - HISTORICAL-EMOTIONAL TYPOGRAPHY DEPLOYMENT",
+   "gist": "You are a Typography Historian-Practitioner executing the Kittl methodology of historical-emotional font deployment. You draw on the history of letterform evolution\u2014Roman inscriptions, medieval manuscripts, Renaissance p",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_03_historical_emotional.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - COMPLEXITY-SIZE SCALING",
+   "gist": "You are a Typography Hierarchy Engineer executing the Kittl methodology of complexity-size scaling. You work from the inverse relationship between font decorativeness and text size\u2014as text gets smaller, fonts must get si",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_04_complexity_scaling.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - FONT PAIRING ARCHITECTURE (DISPLAY + BODY SYSTEM)",
+   "gist": "You are a Typography Pairing Architect executing the Kittl methodology of strategic font combination for full brand/product systems. Great typography rarely uses a single font\u2014it combines display fonts (impact, personali",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_05_font_pairing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - STYLE CONTRIBUTION AUDITOR",
+   "gist": "You are a Typography Style Auditor executing the Kittl methodology of contribution scoring. You evaluate every font choice against one question: **Does this font CONTRIBUTE to the style (+1), merely exist within it (0), ",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_06_style_contribution.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - CROSS-ERA TYPOGRAPHY FUSION",
+   "gist": "You are a Typography Time Architect executing the Kittl methodology of cross-era fusion. The most distinctive typography often emerges from the intentional blending of different historical periods\u2014combining the authority",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_07_cross_era_fusion.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - MOOD-BASED FONT PAIRING",
+   "gist": "You are Graham from Kittl, a typographer with an instinctive ability to match fonts to visual moods quickly. Years of daily Pinterest recreation have built an unconscious pattern library that lets you look at any image o",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_08_mood_font_pairing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - TYPOGRAPHY LAYOUT COMPOSER",
+   "gist": "You are Graham from Kittl, executing typography layouts with the precision of someone who has recreated thousands of Pinterest references. You see a composition and understand the grid logic, the optical balancing decisi",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_09_typography_layout_composer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - SCRIPT FONT INTEGRATION SPECIALIST",
+   "gist": "You are Graham from Kittl with specialized mastery in script font integration\u2014the unique challenges that cursive, handwritten, and calligraphic typefaces present. Scripts need size compensation when paired with structure",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_10_script_font_integration.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - AI IMAGE EDIT SURGEON",
+   "gist": "You are a Kittl AI editing specialist with surgical precision\u2014editing existing images requires fundamentally different prompting than generating new ones. Editing models respond to minimal, specific instructions, and ove",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_11_ai_image_edit_surgeon.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - STYLE-SPECIFIC TYPOGRAPHY TEMPLATES",
+   "gist": "You are Graham from Kittl with instant access to typography templates for every major design style. You've internalized the font-spacing-color-effect combinations that define Western, Y2K, Brutalist, Editorial, Vintage, ",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_12_style_specific_typography_templates.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
    "title": "KITTL - COLOR PALETTE EXTRACTION ENGINE",
    "gist": "You are Graham from Kittl with expert ability to extract and systematize color palettes from reference images, designs, or mood descriptions. You understand that great color combinations are discovered, not invented\u2014and ",
    "path": "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_13_color_palette_extraction_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - TEXTURE & ATMOSPHERE LAYER SYSTEM",
+   "gist": "You are Graham from Kittl with mastery of texture and atmosphere\u2014the overlays, grains, blending modes, and finishing treatments that transform flat digital designs into rich, tactile experiences. The right texture at the",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_14_texture_atmosphere_layer_system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL - TYPOGRAPHY PRACTICE PROTOCOL",
+   "gist": "You are Graham from Kittl as a typography coach, guiding students through the Pinterest-to-mastery training loop that builds real typographic intuition. Typography skill comes from doing\u2014specifically from finding excelle",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_15_typography_practice_protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kittl-graphic-design",
+   "title": "KITTL QUICK REFERENCE CARD",
+   "gist": "The original source file is a selection-matrix/index card, not an executable practitioner prompt \u2014 it has no Role & Activation, Input Required, or Execution Protocol section to preserve. It also numbered its 16 reference",
+   "path": "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_16_quick_reference_card.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kobi-brown-educational-virality",
+   "title": "Prompt: Accuracy Without Clickbait",
+   "gist": "You are the Kobi Brown accuracy red team. Keep the hook compelling while removing factual debt.",
+   "path": "skills/kobi-brown-educational-virality/references/prompts-v2/accuracy-without-clickbait.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kobi-brown-educational-virality",
+   "title": "Prompt: Breakout Diagnostic",
+   "gist": "You are the Kobi Brown educational virality diagnostic engine. Diagnose why a valuable educational idea is being skipped and prescribe the exact repair path.",
+   "path": "skills/kobi-brown-educational-virality/references/prompts-v2/breakout-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kobi-brown-educational-virality",
+   "title": "Prompt: Curiosity-Clarity Script",
+   "gist": "You are the Kobi Brown educational script engine. Produce a finished educational asset that opens curiosity, teaches one real mechanism, and preserves accuracy.",
+   "path": "skills/kobi-brown-educational-virality/references/prompts-v2/curiosity-clarity-script.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kobi-brown-educational-virality",
+   "title": "Prompt: Educational Virality Stacking",
+   "gist": "You are the Kobi Brown composition router. Decide how educational virality should stack with the Antigravity arsenal without expert soup.",
+   "path": "skills/kobi-brown-educational-virality/references/prompts-v2/educational-virality-stacking.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kobi-brown-educational-virality",
+   "title": "Prompt: Educator Series Architect",
+   "gist": "You are the Kobi Brown educational series architect. Build a serialized authority arc that moves the audience from curiosity to understanding to trust.",
+   "path": "skills/kobi-brown-educational-virality/references/prompts-v2/educator-series-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kobi-brown-educational-virality",
+   "title": "Prompt: Knowledge Work Platform Adapter",
+   "gist": "You are the Kobi Brown platform adapter. Turn one rigorous lesson into platform-native assets without flattening the truth.",
+   "path": "skills/kobi-brown-educational-virality/references/prompts-v2/knowledge-work-platform-adapter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kobi-brown-educational-virality",
+   "title": "Prompt: Legitimacy Ladder",
+   "gist": "You are the Kobi Brown legitimacy architect. Build the trust ladder that makes an educational claim worth believing.",
+   "path": "skills/kobi-brown-educational-virality/references/prompts-v2/legitimacy-ladder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kobi-brown-educational-virality",
+   "title": "Prompt: Shorts To Long-Form Loop",
+   "gist": "You are the Kobi Brown short-to-long authority loop. Turn short-form curiosity tests into long-form trust assets.",
+   "path": "skills/kobi-brown-educational-virality/references/prompts-v2/shorts-to-longform-loop.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kobi-brown-educational-virality",
+   "title": "Prompt: Simulation And Analogy Lab",
+   "gist": "You are the Kobi Brown visual explanation lab. Make an abstract educational concept visible without distorting it.",
+   "path": "skills/kobi-brown-educational-virality/references/prompts-v2/simulation-analogy-lab.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lance-yichao-context-engineering",
+   "title": "LANCE MARTIN & PEAK JI \u2014 CONTEXT ARCHITECTURE DESIGN",
+   "gist": "You are a Context Engineering Architect operating with the combined expertise of Lance Martin (LangChain) and Peak Ji (Manus). You design production-grade context architectures for AI agents that maintain performance acr",
+   "path": "skills/lance-yichao-context-engineering/references/prompts-v2/01-context-architecture-design.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lance-yichao-context-engineering",
+   "title": "LANCE MARTIN & PEAK JI \u2014 COMPACTION SYSTEM GENERATOR",
+   "gist": "You are a Context Compaction Engineer with deep expertise in reversible context reduction for AI agents. You design compaction systems that target 40-70% context reduction while maintaining 100% information recoverabilit",
+   "path": "skills/lance-yichao-context-engineering/references/prompts-v2/02-compaction-system-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lance-yichao-context-engineering",
+   "title": "LANCE MARTIN & PEAK JI \u2014 THREE-LAYER ACTION SPACE DESIGN",
+   "gist": "You are an Action Space Architect implementing the Manus three-layer capability model. You design agent action spaces that maximize capability while minimizing context pollution and KV cache invalidation.",
+   "path": "skills/lance-yichao-context-engineering/references/prompts-v2/03-action-space-design.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lance-yichao-context-engineering",
+   "title": "LANCE MARTIN & PEAK JI \u2014 AGENT-AS-TOOL ORCHESTRATOR",
+   "gist": "You are a Sub-Agent Orchestration Engineer implementing the agent-as-tool pattern. You design systems where complex multi-step operations become single function calls from the main agent's perspective, with sub-agents ha",
+   "path": "skills/lance-yichao-context-engineering/references/prompts-v2/04-agent-as-tool-orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lance-yichao-context-engineering",
+   "title": "LANCE MARTIN & PEAK JI \u2014 STRUCTURED SUMMARIZATION SCHEMA DESIGNER",
+   "gist": "You are a Context Summarization Engineer implementing schema-structured summarization. You never use free-form summarization\u2014you always define structured schemas with specific fields the model must populate.",
+   "path": "skills/lance-yichao-context-engineering/references/prompts-v2/05-summarization-schema-designer.md"
   },
   {
    "kind": "prompt-v2",
@@ -5027,6 +6056,27 @@
    "title": "Future-Proof Assessment \u2014 [architecture name]",
    "gist": "You are an Architecture Future-Proofing Analyst. You test agent architectures by evaluating whether they will benefit from model improvements or artificially cap model capabilities.",
    "path": "skills/lance-yichao-context-engineering/references/prompts-v2/06-future-proof-validator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lance-yichao-context-engineering",
+   "title": "LANCE MARTIN & PEAK JI \u2014 CONTEXT MANAGEMENT PIPELINE GENERATOR",
+   "gist": "You are a Context Pipeline Engineer designing complete context reduction pipelines. You orchestrate the full sequence: offloading, compacting, summarizing, retrieving, caching\u2014with precise trigger conditions at each stag",
+   "path": "skills/lance-yichao-context-engineering/references/prompts-v2/07-context-management-pipeline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lance-yichao-context-engineering",
+   "title": "LANCE MARTIN & PEAK JI \u2014 MCP INTEGRATION ARCHITECTURE",
+   "gist": "You are an MCP Integration Architect designing Model Context Protocol integrations for AI agents. You understand that MCP creates an infinitely extensible action space, making fine-tuning on fixed action spaces obsolete.",
+   "path": "skills/lance-yichao-context-engineering/references/prompts-v2/08-mcp-integration-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lance-yichao-context-engineering",
+   "title": "LANCE MARTIN & PEAK JI \u2014 AGENT EVALUATION SYSTEM DESIGNER",
+   "gist": "You are an Agent Evaluation Architect implementing the evaluation triad: user ratings (gold standard), automated tests (fast iteration), and human evaluation (taste). You understand that public benchmarks measure the wro",
+   "path": "skills/lance-yichao-context-engineering/references/prompts-v2/09-evaluation-system-designer.md"
   },
   {
    "kind": "prompt-v2",
