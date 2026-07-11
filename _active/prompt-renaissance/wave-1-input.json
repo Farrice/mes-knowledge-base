@@ -1,0 +1,676 @@
+{
+ "standard": "structure-pure-v2",
+ "total": 150,
+ "groups": [
+  {
+   "skill": "rory-sutherland-marketing",
+   "prompts": [
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-brandquake-intervention-designer.md",
+     "title": "RORY SUTHERLAND - THE BRANDQUAKE INTERVENTION DESIGNER"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-email-psychology-sequencer.md",
+     "title": "RORY SUTHERLAND - THE EMAIL PSYCHOLOGY SEQUENCER"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-headline-hook-alchemist.md",
+     "title": "RORY SUTHERLAND - THE HEADLINE & HOOK ALCHEMIST"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-irresistible-offer-architect.md",
+     "title": "RORY SUTHERLAND - THE IRRESISTIBLE OFFER ARCHITECT"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-psychological-copy-converter.md",
+     "title": "RORY SUTHERLAND - THE PSYCHOLOGICAL COPY CONVERTER"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-status-social-proof-architect.md",
+     "title": "RORY SUTHERLAND - THE STATUS & SOCIAL PROOF ARCHITECT"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-viral-psychology-content-engine.md",
+     "title": "RORY SUTHERLAND - THE VIRAL PSYCHOLOGY CONTENT ENGINE"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-zero-trust-offer-converter.md",
+     "title": "RORY SUTHERLAND - THE ZERO-TRUST OFFER CONVERTER"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/expert-operating-system.md",
+     "title": "RORY SUTHERLAND EXPERT OPERATING SYSTEM"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-choice-architecture-engineer.md",
+     "title": "RORY SUTHERLAND - THE CHOICE ARCHITECTURE ENGINEER"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-cold-outreach-alchemy-system.md",
+     "title": "RORY SUTHERLAND - THE COLD OUTREACH ALCHEMY SYSTEM"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-cold-to-superfan-transformation-engine.md",
+     "title": "RORY SUTHERLAND - THE COLD-TO-SUPERFAN TRANSFORMATION ENGINE"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-cold-traffic-conversion-alchemist.md",
+     "title": "RORY SUTHERLAND - THE COLD TRAFFIC CONVERSION ALCHEMIST"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-cold-traffic-psychology-decoder.md",
+     "title": "RORY SUTHERLAND - THE COLD TRAFFIC PSYCHOLOGY DECODER"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-costly-signal-architect.md",
+     "title": "RORY SUTHERLAND - THE COSTLY SIGNAL ARCHITECT"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-deep-audience-psychology-decoder.md",
+     "title": "RORY SUTHERLAND - THE DEEP AUDIENCE PSYCHOLOGY DECODER"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-differentiation-strategy-generator.md",
+     "title": "RORY SUTHERLAND - THE DIFFERENTIATION STRATEGY GENERATOR"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-doorman-fallacy-auditor.md",
+     "title": "RORY SUTHERLAND - THE DOORMAN FALLACY AUDITOR"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-first-touch-conversion-maximizer.md",
+     "title": "RORY SUTHERLAND - THE FIRST-TOUCH CONVERSION MAXIMIZER"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-funnel-psychology-architect.md",
+     "title": "RORY SUTHERLAND - THE FUNNEL PSYCHOLOGY ARCHITECT"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-high-ticket-conversion-closer.md",
+     "title": "RORY SUTHERLAND - THE HIGH-TICKET CONVERSION CLOSER"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-instant-authority-architect.md",
+     "title": "RORY SUTHERLAND - THE INSTANT AUTHORITY ARCHITECT"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-launch-psychology-orchestrator.md",
+     "title": "RORY SUTHERLAND - THE LAUNCH PSYCHOLOGY ORCHESTRATOR"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-market-psychology-gap-finder.md",
+     "title": "RORY SUTHERLAND - THE MARKET PSYCHOLOGY GAP FINDER"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-objection-annihilation-system.md",
+     "title": "RORY SUTHERLAND - THE OBJECTION ANNIHILATION SYSTEM"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-pattern-interrupt-attention-hijacker.md",
+     "title": "RORY SUTHERLAND - THE PATTERN INTERRUPT ATTENTION HIJACKER"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-psychological-marketing-strategist.md",
+     "title": "RORY SUTHERLAND - THE PSYCHOLOGICAL MARKETING STRATEGIST"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-psychological-reframe-engine.md",
+     "title": "RORY SUTHERLAND - THE PSYCHOLOGICAL REFRAME ENGINE"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-story-selling-conversion-engine.md",
+     "title": "RORY SUTHERLAND - THE STORY-SELLING CONVERSION ENGINE"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-stranger-objection-annihilator.md",
+     "title": "RORY SUTHERLAND - THE STRANGER OBJECTION ANNIHILATOR"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-transaction-utility-optimizer.md",
+     "title": "RORY SUTHERLAND - THE TRANSACTION UTILITY OPTIMIZER"
+    },
+    {
+     "path": "skills/rory-sutherland-marketing/references/prompts/the-value-perception-alchemist.md",
+     "title": "RORY SUTHERLAND - THE VALUE PERCEPTION ALCHEMIST"
+    }
+   ]
+  },
+  {
+   "skill": "jason-fladlien-marketing",
+   "prompts": [
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/agitation-without-anxiety.md",
+     "title": "Jason Fladlien \u2014 Agitation Without Anxiety"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/biological-survival-pitching.md",
+     "title": "SYSTEM COMMAND: ACTIVATE JASON FLADLIEN VIRTUOSO MODE"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/high-status-content-matrix.md",
+     "title": "Jason Fladlien \u2014 High-Status Content Matrix"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/how-do-you-know-elicitation.md",
+     "title": "Jason Fladlien \u2014 How Do You Know Elicitation"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/invisible-identity-recoding.md",
+     "title": "THE SUBTRACTIVE IDENTITY RE-CODE: THE FLADLIEN CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/invisible-selling-mechanics.md",
+     "title": "Jason Fladlien \u2014 Invisible Selling Mechanics"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/limiting-belief-destruction.md",
+     "title": "Jason Fladlien \u2014 Limiting Belief Destruction"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/micro-commitment-funnel-architecture.md",
+     "title": "PROMPT: THE INERTIA-BREAKER ARCHITECT (FLADLIEN-MODALITY)"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/objection-preemption-sequence.md",
+     "title": "Jason Fladlien \u2014 Objection Preemption Sequence"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/procrastination-alchemy-emails.md",
+     "title": "PROMPT: THE FLADLIEN ALCHEMY \u2014 TRANSMUTING INERTIA INTO GOLD"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/radical-candor-framing.md",
+     "title": "Jason Fladlien \u2014 Radical Candor Framing"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/radical-candor-launch-strategy.md",
+     "title": "ACTIVATE: THE FLADLIEN TRUTH-BOMB PROTOCOL"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/schema-breaking-copy.md",
+     "title": "Jason Fladlien \u2014 Schema Breaking Copy"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/stoic-marketer-content-pillars.md",
+     "title": "SYSTEM ACTIVATE: THE STOIC-MARKETER VORTEX (FLADLIEN-ANTIGRAVITY 9.0)"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/success-by-subtraction.md",
+     "title": "Jason Fladlien \u2014 Success By Subtraction"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/the-fladlien-bonus-stack.md",
+     "title": "Jason Fladlien \u2014 The Fladlien Bonus Stack"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/the-pattern-interrupt-hook.md",
+     "title": "Jason Fladlien \u2014 The Pattern Interrupt Hook"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/the-zoom-out-frame.md",
+     "title": "Jason Fladlien \u2014 The Zoom Out Frame"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/time-tense-fluidity.md",
+     "title": "Jason Fladlien \u2014 Time Tense Fluidity"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/utility-of-the-negative.md",
+     "title": "Jason Fladlien \u2014 Utility Of The Negative"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/virtuoso-mandate-test.md",
+     "title": "Jason Fladlien \u2014 High-Status Marketing & Closing \u2014 Virtuoso Mandate Test"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/webinar-pitch-architecture.md",
+     "title": "Jason Fladlien \u2014 Webinar Pitch Architecture"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/conversational-hypnosis-sales-letter.md",
+     "title": "THE INERTIA BREAKER: VIRTUOSO CONVERSATIONAL HYPNOSIS ARCHITECT"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/frictionless-onboarding-design.md",
+     "title": "THE ANTIGRAVITY ONBOARDING ARCHITECT: SUCCESS BY SUBTRACTION"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/future-pull-offer-creation.md",
+     "title": "THE IDENTITY-TRANSMUTATION ENGINE: THE FUTURE-PULL MASTER PROTOCOL"
+    },
+    {
+     "path": "skills/jason-fladlien-marketing/references/prompts/guru-to-the-guru-branding.md",
+     "title": "THE SOVEREIGN PURPOSE PROTOCOL: GURU-TO-THE-GURU POSITIONING"
+    }
+   ]
+  },
+  {
+   "skill": "lara-acosta-linkedin-mastery",
+   "prompts": [
+    {
+     "path": "skills/lara-acosta-linkedin-mastery/references/prompts/4-3-2-1-content-calendar.md",
+     "title": "Lara Acosta - 4-3-2-1 Content Calendar Builder"
+    },
+    {
+     "path": "skills/lara-acosta-linkedin-mastery/references/prompts/authority-acceleration-engine.md",
+     "title": "Lara Acosta - Authority Acceleration Engine"
+    },
+    {
+     "path": "skills/lara-acosta-linkedin-mastery/references/prompts/client-attraction-content.md",
+     "title": "Lara Acosta - Client Attraction Content System"
+    },
+    {
+     "path": "skills/lara-acosta-linkedin-mastery/references/prompts/content-pillar-excavator.md",
+     "title": "Lara Acosta - Content Pillar Excavator"
+    },
+    {
+     "path": "skills/lara-acosta-linkedin-mastery/references/prompts/dual-persona-content-engineer.md",
+     "title": "Lara Acosta - Dual-Persona Content Engineer"
+    },
+    {
+     "path": "skills/lara-acosta-linkedin-mastery/references/prompts/format-emulation-engine.md",
+     "title": "Lara Acosta - Format Emulation Engine"
+    },
+    {
+     "path": "skills/lara-acosta-linkedin-mastery/references/prompts/founders-first-30-posts.md",
+     "title": "Lara Acosta - The Founder's First 30 Posts"
+    },
+    {
+     "path": "skills/lara-acosta-linkedin-mastery/references/prompts/ghostwriter-voice-deployment.md",
+     "title": "Lara Acosta - Ghostwriter Voice Deployment"
+    },
+    {
+     "path": "skills/lara-acosta-linkedin-mastery/references/prompts/lead-magnet-architect.md",
+     "title": "Lara Acosta - Lead Magnet Architect"
+    },
+    {
+     "path": "skills/lara-acosta-linkedin-mastery/references/prompts/linkedin-algorithm-optimizer.md",
+     "title": "Lara Acosta - LinkedIn Algorithm Optimizer"
+    },
+    {
+     "path": "skills/lara-acosta-linkedin-mastery/references/prompts/linkedin-hook-engineer.md",
+     "title": "Lara Acosta - LinkedIn Hook Engineer"
+    },
+    {
+     "path": "skills/lara-acosta-linkedin-mastery/references/prompts/linkedin-positioning-architect.md",
+     "title": "Lara Acosta - LinkedIn Positioning Architect"
+    },
+    {
+     "path": "skills/lara-acosta-linkedin-mastery/references/prompts/social-proof-archaeologist.md",
+     "title": "Lara Acosta - Social Proof Archaeologist"
+    },
+    {
+     "path": "skills/lara-acosta-linkedin-mastery/references/prompts/storytelling-authority-bridge.md",
+     "title": "Lara Acosta - Storytelling-to-Authority Bridge (SLAY Framework)"
+    },
+    {
+     "path": "skills/lara-acosta-linkedin-mastery/references/prompts/strategy-session-facilitator.md",
+     "title": "Lara Acosta - Strategy Session Facilitator"
+    },
+    {
+     "path": "skills/lara-acosta-linkedin-mastery/references/prompts/voice-extraction-engine.md",
+     "title": "Lara Acosta - Voice Extraction Engine"
+    },
+    {
+     "path": "skills/lara-acosta-linkedin-mastery/references/prompts/zero-to-authority-roadmap.md",
+     "title": "Lara Acosta - Zero-to-Authority Roadmap Builder"
+    }
+   ]
+  },
+  {
+   "skill": "cardinal-mason-ai-copywriting",
+   "prompts": [
+    {
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p03-email-sequence.md",
+     "title": "P03 - Email Sequence Executioner"
+    },
+    {
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p04-content-multiplication.md",
+     "title": "P04 - Content Multiplication Engine"
+    },
+    {
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p08-seven-principles-auditor.md",
+     "title": "P08 - Seven Principles Copy Auditor"
+    },
+    {
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p11-ai-to-human-refiner.md",
+     "title": "P11 - AI-to-Human Copy Refiner"
+    },
+    {
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p19-offer-stack-builder.md",
+     "title": "P19 - Offer Stack Builder"
+    },
+    {
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p21-viral-content.md",
+     "title": "P21 - Viral Content Architecture"
+    },
+    {
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p31-ghostwriter-voice.md",
+     "title": "P31 - Ghostwriter Voice Capture"
+    },
+    {
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p33-linkedin-domination.md",
+     "title": "P33 - LinkedIn Domination System"
+    },
+    {
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p34-email-newsletter.md",
+     "title": "P34 - Email Newsletter Generator"
+    },
+    {
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p38-brand-voice-bible.md",
+     "title": "P38 - Brand Voice Bible"
+    },
+    {
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p44-course-scripts.md",
+     "title": "P44 - Course/Content Scripts"
+    },
+    {
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p45-authority-pr.md",
+     "title": "P45 - Authority PR Copy"
+    }
+   ]
+  },
+  {
+   "skill": "david-placek-naming",
+   "prompts": [
+    {
+     "path": "skills/david-placek-naming/references/prompts/brand-naming-sprint.md",
+     "title": "Brand Naming Sprint"
+    },
+    {
+     "path": "skills/david-placek-naming/references/prompts/category-escape-content.md",
+     "title": "Category Escape Content"
+    },
+    {
+     "path": "skills/david-placek-naming/references/prompts/content-comfort-trap.md",
+     "title": "Content Comfort Trap Audit"
+    },
+    {
+     "path": "skills/david-placek-naming/references/prompts/divergent-content-sprint.md",
+     "title": "Divergent Content Sprint"
+    },
+    {
+     "path": "skills/david-placek-naming/references/prompts/proof-of-concept-presenter.md",
+     "title": "Proof-of-Concept Presenter"
+    },
+    {
+     "path": "skills/david-placek-naming/references/prompts/sonic-hook-engineer.md",
+     "title": "Sonic Hook Engineer"
+    },
+    {
+     "path": "skills/david-placek-naming/references/prompts/comfort-trap-audit.md",
+     "title": "Comfort Trap Audit"
+    },
+    {
+     "path": "skills/david-placek-naming/references/prompts/creative-team-velocity.md",
+     "title": "Creative Team Velocity"
+    },
+    {
+     "path": "skills/david-placek-naming/references/prompts/name-your-framework.md",
+     "title": "Name Your Framework"
+    },
+    {
+     "path": "skills/david-placek-naming/references/prompts/rename-decision-framework.md",
+     "title": "Rename Decision Framework"
+    },
+    {
+     "path": "skills/david-placek-naming/references/prompts/sound-symbolism-scorer.md",
+     "title": "Sound Symbolism Scorer"
+    }
+   ]
+  },
+  {
+   "skill": "dai-media-consumer-posture",
+   "prompts": [
+    {
+     "path": "skills/dai-media-consumer-posture/references/prompts/anti-groupthink-viral.md",
+     "title": "Anti-Groupthink Viral Engineering"
+    },
+    {
+     "path": "skills/dai-media-consumer-posture/references/prompts/consumer-gap-diagnostic.md",
+     "title": "Consumer Posture Gap Diagnostic"
+    },
+    {
+     "path": "skills/dai-media-consumer-posture/references/prompts/consumer-posture-generator.md",
+     "title": "Consumer Posture Generator"
+    },
+    {
+     "path": "skills/dai-media-consumer-posture/references/prompts/emotional-outcome-sales.md",
+     "title": "Emotional Outcome Sales Architecture"
+    },
+    {
+     "path": "skills/dai-media-consumer-posture/references/prompts/force-multiplier-system.md",
+     "title": "Force Multiplier System"
+    },
+    {
+     "path": "skills/dai-media-consumer-posture/references/prompts/individual-consumer-finder.md",
+     "title": "Individual Consumer Finder"
+    },
+    {
+     "path": "skills/dai-media-consumer-posture/references/prompts/internal-world-storytelling.md",
+     "title": "Internal World Storytelling System"
+    },
+    {
+     "path": "skills/dai-media-consumer-posture/references/prompts/row-method-creative.md",
+     "title": "Row Method Creative Direction"
+    },
+    {
+     "path": "skills/dai-media-consumer-posture/references/prompts/signal-intelligence-decoder.md",
+     "title": "Signal Intelligence Decoder"
+    }
+   ]
+  },
+  {
+   "skill": "alen-sultanic-copywriting",
+   "prompts": [
+    {
+     "path": "skills/alen-sultanic-copywriting/references/prompts/01-four-needs-positioning.md",
+     "title": "Four Needs Offer Positioning System"
+    },
+    {
+     "path": "skills/alen-sultanic-copywriting/references/prompts/06-money-over-time.md",
+     "title": "Money-Over-Time Offer Suite Designer"
+    },
+    {
+     "path": "skills/alen-sultanic-copywriting/references/prompts/13-copy-change-work.md",
+     "title": "Copywriting as Change Work"
+    },
+    {
+     "path": "skills/alen-sultanic-copywriting/references/prompts/17-avatar-mastery.md",
+     "title": "Multi-Dimensional Avatar Mastery"
+    },
+    {
+     "path": "skills/alen-sultanic-copywriting/references/prompts/18-systematic-offer.md",
+     "title": "Systematic Offer Creation"
+    },
+    {
+     "path": "skills/alen-sultanic-copywriting/references/prompts/23-viral-content.md",
+     "title": "Calculated Content That Spreads Exponentially"
+    },
+    {
+     "path": "skills/alen-sultanic-copywriting/references/prompts/26-content-ideas.md",
+     "title": "Unlimited Psychologically-Aligned Content Ideas On Demand"
+    },
+    {
+     "path": "skills/alen-sultanic-copywriting/references/prompts/28-email-sequences.md",
+     "title": "Psychology-Driven Email Sequences That Convert"
+    },
+    {
+     "path": "skills/alen-sultanic-copywriting/references/prompts/29-brand-architecture.md",
+     "title": "Complete Positioning, Voice & Brand Architecture System"
+    }
+   ]
+  },
+  {
+   "skill": "caleb-ralston-personal-brand",
+   "prompts": [
+    {
+     "path": "skills/caleb-ralston-personal-brand/references/prompts/brand-statement-generator.md",
+     "title": "Brand Statement Generator"
+    },
+    {
+     "path": "skills/caleb-ralston-personal-brand/references/prompts/cold-audience-optimizer.md",
+     "title": "Cold Audience Content Optimizer"
+    },
+    {
+     "path": "skills/caleb-ralston-personal-brand/references/prompts/content-authenticity-audit.md",
+     "title": "Caleb Ralston \u2014 Content Authenticity Audit"
+    },
+    {
+     "path": "skills/caleb-ralston-personal-brand/references/prompts/contrarian-positioning.md",
+     "title": "Contrarian Positioning Extractor"
+    },
+    {
+     "path": "skills/caleb-ralston-personal-brand/references/prompts/dual-track-content.md",
+     "title": "Dual-Track Content Strategist"
+    },
+    {
+     "path": "skills/caleb-ralston-personal-brand/references/prompts/luxury-exclusion.md",
+     "title": "Luxury Brand Exclusion Protocol"
+    },
+    {
+     "path": "skills/caleb-ralston-personal-brand/references/prompts/relatable-remarkable-converter.md",
+     "title": "Caleb Ralston Personal Brand \u2014 Relatable-Remarkable Converter"
+    }
+   ]
+  },
+  {
+   "skill": "nicolas-cole-digital-products",
+   "prompts": [
+    {
+     "path": "skills/nicolas-cole-digital-products/references/prompts/context-repackaging-engine.md",
+     "title": "Nicolas Cole \u2014 Context Repackaging Engine"
+    },
+    {
+     "path": "skills/nicolas-cole-digital-products/references/prompts/expectation-audit.md",
+     "title": "Nicolas Cole \u2014 Expectation Audit"
+    },
+    {
+     "path": "skills/nicolas-cole-digital-products/references/prompts/pricing-psychology-optimizer.md",
+     "title": "Nicolas Cole \u2014 Pricing Psychology Optimizer"
+    },
+    {
+     "path": "skills/nicolas-cole-digital-products/references/prompts/product-progression-planner.md",
+     "title": "Nicolas Cole \u2014 Product Progression Planner"
+    },
+    {
+     "path": "skills/nicolas-cole-digital-products/references/prompts/product-scope-architect.md",
+     "title": "Nicolas Cole \u2014 Product Scope Architect"
+    },
+    {
+     "path": "skills/nicolas-cole-digital-products/references/prompts/product-vehicle-selector.md",
+     "title": "Nicolas Cole \u2014 Product Vehicle Selector"
+    }
+   ]
+  },
+  {
+   "skill": "bond-halbert-copywriting",
+   "prompts": [
+    {
+     "path": "skills/bond-halbert-copywriting/references/prompts/p09-conversation-hook-miner.md",
+     "title": "P09 - Conversation Hook Miner"
+    },
+    {
+     "path": "skills/bond-halbert-copywriting/references/prompts/p14-market-language-extractor.md",
+     "title": "P14 - Market Language Extractor"
+    },
+    {
+     "path": "skills/bond-halbert-copywriting/references/prompts/p17-irresistible-offer-architect.md",
+     "title": "P17 - Irresistible Offer Architect"
+    },
+    {
+     "path": "skills/bond-halbert-copywriting/references/prompts/p21-viral-hook-laboratory.md",
+     "title": "P21 - Viral Hook Laboratory"
+    },
+    {
+     "path": "skills/bond-halbert-copywriting/references/prompts/p23-content-multiplication-matrix.md",
+     "title": "P23 - Content Multiplication Matrix"
+    },
+    {
+     "path": "skills/bond-halbert-copywriting/references/prompts/p24-conversion-content-blueprint.md",
+     "title": "P24 - Conversion Content Blueprint"
+    }
+   ]
+  },
+  {
+   "skill": "dan-koe-multipassionate-mastery",
+   "prompts": [
+    {
+     "path": "skills/dan-koe-multipassionate-mastery/references/prompts/advanced_prompt_10_content_to_commerce_bridge_builder.md",
+     "title": "DAN KOE - CONTENT-TO-COMMERCE BRIDGE BUILDER"
+    },
+    {
+     "path": "skills/dan-koe-multipassionate-mastery/references/prompts/advanced_prompt_19_compound_content_architect.md",
+     "title": "DAN KOE - COMPOUND CONTENT ARCHITECT"
+    },
+    {
+     "path": "skills/dan-koe-multipassionate-mastery/references/prompts/advanced_prompt_1_counter_intuitive_hook_architect.md",
+     "title": "DAN KOE - COUNTER-INTUITIVE HOOK ARCHITECT"
+    },
+    {
+     "path": "skills/dan-koe-multipassionate-mastery/references/prompts/advanced_prompt_6_deep_avatar_psychology_excavator.md",
+     "title": "DAN KOE - DEEP AVATAR PSYCHOLOGY EXCAVATOR"
+    },
+    {
+     "path": "skills/dan-koe-multipassionate-mastery/references/prompts/prompt_2_past_self_avatar_generator.md",
+     "title": "DAN KOE - PAST-SELF AVATAR GENERATOR"
+    },
+    {
+     "path": "skills/dan-koe-multipassionate-mastery/references/prompts/prompt_6_content_to_system_productizer.md",
+     "title": "DAN KOE - CONTENT-TO-SYSTEM PRODUCTIZER"
+    }
+   ]
+  },
+  {
+   "skill": "lara-acosta-linkedin-growth",
+   "prompts": [
+    {
+     "path": "skills/lara-acosta-linkedin-growth/references/prompts/humble-brag-architect.md",
+     "title": "Lara Acosta \u2014 The Humble Brag Architect"
+    },
+    {
+     "path": "skills/lara-acosta-linkedin-growth/references/prompts/linkedin-f-shape-formatter.md",
+     "title": "Lara Acosta \u2014 The F-Shape Formatter"
+    },
+    {
+     "path": "skills/lara-acosta-linkedin-growth/references/prompts/slay-post-generator.md",
+     "title": "Lara Acosta \u2014 The SLAY Post Generator"
+    }
+   ]
+  },
+  {
+   "skill": "brandon-jacoby-taste-mastery",
+   "prompts": [
+    {
+     "path": "skills/brandon-jacoby-taste-mastery/references/prompts/good-enough-breakthrough.md",
+     "title": "Brandon Jacoby - Good-Enough Breakthrough Prompt"
+    },
+    {
+     "path": "skills/brandon-jacoby-taste-mastery/references/prompts/system-taste-elevation.md",
+     "title": "Brandon Jacoby - System Taste Elevation Prompt"
+    },
+    {
+     "path": "skills/brandon-jacoby-taste-mastery/references/prompts/taste-master-persona.md",
+     "title": "Brandon Jacoby - Taste Master Persona Prompt"
+    }
+   ]
+  },
+  {
+   "skill": "brock-johnson-shareworthy-content",
+   "prompts": [
+    {
+     "path": "skills/brock-johnson-shareworthy-content/references/prompts/content-format-architect.md",
+     "title": "BROCK JOHNSON \u2014 CONTENT FORMAT ARCHITECT"
+    },
+    {
+     "path": "skills/brock-johnson-shareworthy-content/references/prompts/hook-science-engineer.md",
+     "title": "BROCK JOHNSON \u2014 HOOK SCIENCE ENGINEER"
+    },
+    {
+     "path": "skills/brock-johnson-shareworthy-content/references/prompts/shareworthy-content-generator.md",
+     "title": "BROCK JOHNSON \u2014 SHAREWORTHY CONTENT GENERATOR"
+    }
+   ]
+  }
+ ]
+}
