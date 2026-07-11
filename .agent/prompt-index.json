@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 4491,
+ "count": 4641,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -886,6 +886,62 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "andrew-wilkinson-ai-entrepreneurship",
+   "title": "APEX-09: ADHD Founder Productivity System",
+   "gist": "Channel scattered energy into focused execution using AI as your executive function.",
+   "path": "skills/andrew-wilkinson-ai-entrepreneurship/references/prompts-v2/apex-09-adhd-founder-productivity.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-wilkinson-ai-entrepreneurship",
+   "title": "APEX-10: Exit Architecture Designer",
+   "gist": "Build businesses with acquisition value from day one.",
+   "path": "skills/andrew-wilkinson-ai-entrepreneurship/references/prompts-v2/apex-10-exit-architecture-designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-wilkinson-ai-entrepreneurship",
+   "title": "Vibe Coding Executor",
+   "gist": "Turn ideas into working products through natural language with Claude Code.",
+   "path": "skills/andrew-wilkinson-ai-entrepreneurship/references/prompts-v2/vibe-coding-executor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andy-lo-premium-websites",
+   "title": "Visual Direction Generator",
+   "gist": "Establish the complete visual language of a website before touching any layout or code tool. This prompt produces two \"bookend frames\" \u2014 a starting frame and an ending frame \u2014 that define the aesthetic arc of the entire ",
+   "path": "skills/andy-lo-premium-websites/references/prompts-v2/01-visual-direction-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andy-lo-premium-websites",
+   "title": "Motion Design Orchestrator",
+   "gist": "Transform static visual assets into smooth, scroll-ready animations using Google Flow (Veo 3.1). This prompt guides the entire motion design process from frame upload to WebP conversion.",
+   "path": "skills/andy-lo-premium-websites/references/prompts-v2/02-motion-design-orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andy-lo-premium-websites",
+   "title": "Website Assembly Blueprint",
+   "gist": "Take all generated visual assets, animation frames, and content and assemble them into a complete, functional, deployable website. This prompt covers both the Firebase Studio (no-code) and Antigravity (agent-assisted) pa",
+   "path": "skills/andy-lo-premium-websites/references/prompts-v2/03-website-assembly-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andy-lo-premium-websites",
+   "title": "Boilerplate Foundation",
+   "gist": "Generate a clean, professionally structured website foundation that handles all the invisible-but-critical setup work: document structure, viewport handling, responsive breakpoints, styling defaults, and component archit",
+   "path": "skills/andy-lo-premium-websites/references/prompts-v2/04-boilerplate-foundation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andy-lo-premium-websites",
+   "title": "Headless CMS Wiring",
+   "gist": "Wire up a headless CMS (Hygraph recommended) so that dynamic content \u2014 blog posts, case studies, testimonials \u2014 can be managed by non-technical users without touching any code. This creates a \"client independence layer\" ",
+   "path": "skills/andy-lo-premium-websites/references/prompts-v2/05-headless-cms-wiring.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "andy-lo-premium-websites",
    "title": "Content Migration Agent",
    "gist": "Take hardcoded content currently embedded in React components or HTML files and migrate it to a headless CMS, replacing static content with dynamic CMS queries. This is the step that transforms a \"static site\" into a \"li",
@@ -893,10 +949,171 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "andy-lo-premium-websites",
+   "title": "Supabase Asset Pipeline",
+   "gist": "Set up Supabase as a free, high-performance public storage bucket for website visual assets \u2014 particularly WebP frame sequences used in scroll-triggered animations. This solves the \"where do I host 50+ animation frames\" ",
+   "path": "skills/andy-lo-premium-websites/references/prompts-v2/07-supabase-asset-pipeline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andy-lo-premium-websites",
+   "title": "Parallax Hero Builder",
+   "gist": "Build a premium, scroll-triggered animated hero section that plays through a WebP frame sequence as the user scrolls. This is the signature visual technique that makes Andy Lo websites feel cinematic and premium.",
+   "path": "skills/andy-lo-premium-websites/references/prompts-v2/08-parallax-hero-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andy-lo-premium-websites",
+   "title": "Cinematic Personal Site",
+   "gist": "Build a complete personal website that positions you as premium before a single word is read. This is an end-to-end prompt that combines visual direction, motion design, and website assembly into a single workflow for pe",
+   "path": "skills/andy-lo-premium-websites/references/prompts-v2/09-cinematic-personal-site.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andy-lo-premium-websites",
+   "title": "Agency Site Architect",
+   "gist": "Build a complete, CMS-powered agency website that showcases services, case studies, process, and team \u2014 the kind of site that wins client trust before the first sales call. This is the most complex build prompt, combinin",
+   "path": "skills/andy-lo-premium-websites/references/prompts-v2/10-agency-site-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andy-lo-premium-websites",
+   "title": "Build Guide Generator",
+   "gist": "Create a structured \"build guide\" \u2014 a prompt document containing every prompt needed for an entire website project, organized by phase. This eliminates improvisation and makes the workflow repeatable by anyone.",
+   "path": "skills/andy-lo-premium-websites/references/prompts-v2/11-build-guide-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andy-lo-premium-websites",
+   "title": "Visual Asset Factory",
+   "gist": "Generate multiple brand-consistent visual assets in a single session \u2014 product shots, backgrounds, textures, section visuals \u2014 all anchored to the same visual direction established in Prompt #1.",
+   "path": "skills/andy-lo-premium-websites/references/prompts-v2/12-visual-asset-factory.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andy-lo-premium-websites",
+   "title": "WebP Conversion Optimizer",
+   "gist": "Convert Google Flow animation exports to WebP format with the optimal settings for web performance. This is the critical bridge between \"beautiful animation\" and \"fast-loading website.\"",
+   "path": "skills/andy-lo-premium-websites/references/prompts-v2/13-webp-conversion-optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andy-lo-premium-websites",
+   "title": "Deploy and Export",
+   "gist": "Take a completed website project and deploy it to production. Covers Netlify (primary), Vercel (alternative), and generic export for any hosting platform. Includes custom domain setup and social sharing optimization.",
+   "path": "skills/andy-lo-premium-websites/references/prompts-v2/14-deploy-and-export.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "april-dunford-positioning",
+   "title": "Positioning Diagnostic",
+   "gist": "You are April Dunford, the world's foremost expert on B2B product positioning. You conduct positioning audits with surgical precision, diagnosing where companies have confused context with messaging and where their compe",
+   "path": "skills/april-dunford-positioning/references/prompts-v2/01-positioning-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "april-dunford-positioning",
+   "title": "Competitive Alternative Mapper",
+   "gist": "You are April Dunford conducting the first and most critical step of a positioning exercise: mapping competitive alternatives. You understand that \"competitive alternatives\" is NOT a list of competitors \u2014 it's everything",
+   "path": "skills/april-dunford-positioning/references/prompts-v2/02-competitive-alternative-mapper.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "april-dunford-positioning",
+   "title": "Differentiated Value Chain Builder",
+   "gist": "You are April Dunford running the value translation exercise. Your job is to take features that sound like engineering specs and transform them into value statements that make buyers lean forward. You are merciless with ",
+   "path": "skills/april-dunford-positioning/references/prompts-v2/03-differentiated-value-chain.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "april-dunford-positioning",
+   "title": "Target Customer Sharpener",
+   "gist": "You are April Dunford identifying the tightest possible target customer \u2014 the segment where this product's differentiated value hits hardest. You know that \"everyone\" is not a target. You push until you find the customer",
+   "path": "skills/april-dunford-positioning/references/prompts-v2/04-target-customer-sharpener.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "april-dunford-positioning",
+   "title": "Market Category Selector",
+   "gist": "You are April Dunford making the market category decision \u2014 the final component of positioning that sets the context in which buyers evaluate everything else. You default to existing categories and only consider category",
+   "path": "skills/april-dunford-positioning/references/prompts-v2/05-market-category-selector.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "april-dunford-positioning",
+   "title": "Sales Pitch Architect",
+   "gist": "You are April Dunford constructing a sales pitch from completed positioning work. You build pitches using the Setup \u2192 Follow-Through architecture where the first half teaches the buyer about the market (with no product m",
+   "path": "skills/april-dunford-positioning/references/prompts-v2/06-sales-pitch-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "april-dunford-positioning",
+   "title": "Insight Reverse-Engineer",
+   "gist": "You are April Dunford crafting pitch-opening insights. You don't pull insights from trend reports or analyst predictions \u2014 you derive them from the product's unique capabilities. Your insights are unchallengeable because",
+   "path": "skills/april-dunford-positioning/references/prompts-v2/07-insight-reverse-engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "april-dunford-positioning",
+   "title": "Perfect World Bridge Builder",
+   "gist": "You are April Dunford constructing the pivotal transition moment in a sales pitch. This is the \"Perfect World\" statement where you get the buyer to agree on what a great solution would look like \u2014 effectively setting pur",
+   "path": "skills/april-dunford-positioning/references/prompts-v2/08-perfect-world-bridge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "april-dunford-positioning",
+   "title": "Champion Ammunition Kit",
+   "gist": "You are April Dunford arming champions for internal battle. You know that in B2B, the champion has two jobs: (1) find the best solution and (2) survive the internal political process of recommending it. Most vendors only",
+   "path": "skills/april-dunford-positioning/references/prompts-v2/09-champion-ammunition.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "april-dunford-positioning",
    "title": "Proof Stack Assembler",
    "gist": "You are April Dunford structuring the proof section of a sales pitch. You know that proof isn't about quantity \u2014 it's about matching the right type of evidence to the right buyer concern at the right moment. A single rel",
    "path": "skills/april-dunford-positioning/references/prompts-v2/10-proof-stack-assembler.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "april-dunford-positioning",
+   "title": "Bowling Pin Strategy Planner",
+   "gist": "You are April Dunford planning market expansion using the bowling pin strategy. You default to niche domination over broad market attacks. You know that the most common startup go-to-market mistake is trying to boil the ",
+   "path": "skills/april-dunford-positioning/references/prompts-v2/11-bowling-pin-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "april-dunford-positioning",
+   "title": "Pitch Testing Protocol",
+   "gist": "You are April Dunford running a pitch test protocol. You don't wait months for a marketing rebrand to find out if new positioning works. You translate positioning into a sales pitch, test it with qualified prospects in 2",
+   "path": "skills/april-dunford-positioning/references/prompts-v2/12-pitch-testing-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "april-dunford-positioning",
+   "title": "Buyer Indecision Reducer",
+   "gist": "You are April Dunford addressing the single biggest deal-killer in B2B sales: buyer indecision. Research on B2B buying (Matt Dixon's Jolt Effect) shows a large share of B2B deals end in \"no decision\" \u2014 not because the bu",
+   "path": "skills/april-dunford-positioning/references/prompts-v2/13-buyer-indecision-reducer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "asset_generator",
+   "title": "Market Recon Report \u2014 Rank & Rent Search Gap Analysis",
+   "gist": "You are the **Antigravity Market Spy**, a specialized analyst trained in the \"Search Gap\" methodology (Rank & Rent / Locus Pilot lineage). Your job is not to guess whether a niche is winnable \u2014 it is to score it against ",
+   "path": "skills/asset_generator/references/prompts-v2/spy_market.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
+   "title": "Authority Hacker \u2014 Ad Visual Template Architect",
+   "gist": "You are an ad creative director who builds and maintains a library of proven visual formats for AI-generated ad creatives. You understand that most of the scroll-stopping power of an ad comes from the visual \u2014 and the be",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/ad-visual-template-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
+   "title": "Authority Hacker \u2014 Authenticity Ratio Planner",
+   "gist": "You are a content calendar strategist who engineers the precise balance between AI-assisted and raw human posts that maintains algorithmic favor, audience trust, and personal brand authenticity. You understand the critic",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/authenticity-ratio-planner.md"
   },
   {
    "kind": "prompt-v2",
@@ -908,6 +1125,13 @@
   {
    "kind": "prompt-v2",
    "skill": "authority-hacker-ai-social-media",
+   "title": "Authority Hacker \u2014 Customer Roleplay Deep Dive",
+   "gist": "You are a market psychologist who discovers ad angles, copy seeds, and emotional triggers by *becoming* the target customer. You don't analyze customers from the outside \u2014 you inhabit their experience from the inside. Yo",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/customer-roleplay-deep-dive.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
    "title": "Authority Hacker \u2014 Duality Hook Engineer",
    "gist": "You are a hook specialist who engineers social media hooks that create natural two-sided debates \u2014 triggering both supporters and critics to comment, driving algorithmic distribution through engagement velocity. You unde",
    "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/duality-hook-engineer.md"
@@ -915,9 +1139,44 @@
   {
    "kind": "prompt-v2",
    "skill": "authority-hacker-ai-social-media",
+   "title": "Authority Hacker \u2014 Emotion-First Post Generator",
+   "gist": "You are a social media strategist working from the Authority Hacker (Gael Breton & Mark Webster) content methodology: information is dead on social media \u2014 chatbots answer questions better than any post. Your weapon is *",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/emotion-first-post-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
    "title": "Authority Hacker \u2014 Hook-Dominance Scorer",
    "gist": "You are a hook evaluation specialist who scores and ranks social media hooks before any body copy is written. You operate on the principle that the hook carries the large majority of a post's performance \u2014 everything els",
    "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/hook-dominance-scorer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
+   "title": "Authority Hacker \u2014 Meta Ad Creative Campaign Builder",
+   "gist": "You are a performance creative strategist who generates complete meta ad campaigns \u2014 copy, visual concepts, and audience targeting \u2014 at a fraction of agency cost. You combine customer roleplay insights, competitive intel",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/meta-ad-campaign-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
+   "title": "Authority Hacker \u2014 Niche Emotional Targeting Engine",
+   "gist": "You are a micro-audience strategist who identifies the specific sub-segment of an audience whose *intense emotional reaction* will drive algorithmic distribution to the broader market. You understand the counter-intuitiv",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/niche-emotional-targeting-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
+   "title": "Authority Hacker \u2014 Self-Learning Social Audit",
+   "gist": "You are a social media performance analyst who doesn't just measure \u2014 you *learn*. You scrape performance data, identify patterns in what works and what fails, and produce qualitative insights that update a living docume",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/self-learning-social-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "authority-hacker-ai-social-media",
+   "title": "Authority Hacker \u2014 Social Media Operating System Builder",
+   "gist": "You are an automation architect who builds complete, self-improving social media content pipelines from scratch. You understand that social media mastery isn't about writing one great post \u2014 it's about building a *system",
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/social-media-os-builder.md"
   },
   {
    "kind": "prompt-v2",
@@ -1110,6 +1369,153 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "Boris Claude Code \u2014 Bitter Lesson Auditor",
+   "gist": "You are Boris Claude Code, Head of Claude Code and architect of agentic workflows. You are a practitioner of the \"Bitter Lesson\" for product development: the belief that specialized, hand-tuned \"scaffolding\" (complex RAG",
+   "path": "skills/boris-claude-code/references/prompts-v2/bitter-lesson-auditor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "BORIS - MULTI-INSTANCE ORCHESTRATION PROTOCOL",
+   "gist": "You are Boris, creator of Claude Code and the world's foremost expert on parallel AI instance orchestration. You don't use AI\u2014you MANAGE an AI workforce. Your core insight: the human role is no longer task execution but ",
+   "path": "skills/boris-claude-code/references/prompts-v2/crown_jewel_prompt_01_orchestration.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "BORIS - PLAN-FIRST EXECUTION ENGINE",
+   "gist": "You are Boris, creator of Claude Code, executing the Plan-First Protocol that guarantees first-attempt success. Your core insight: \"Once the plan is good, the code is good.\" This applies to ANY deliverable\u2014not just code.",
+   "path": "skills/boris-claude-code/references/prompts-v2/crown_jewel_prompt_02_plan_first.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "BORIS - CROSS-DEVICE WORKFLOW TELEPORTATION",
+   "gist": "You are Boris, creator of Claude Code, who does a substantial share of his coding from his phone. You've shattered the assumption that serious work requires a desk. Your core insight: productive capacity exists in every ",
+   "path": "skills/boris-claude-code/references/prompts-v2/crown_jewel_prompt_03_cross_device.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "BORIS - SELF-VERIFYING OUTPUT PROTOCOL",
+   "gist": "You are Boris, creator of Claude Code, who understands that AI without verification is like \"painting with a blindfold.\" Your breakthrough insight: giving AI the ability to SEE and VERIFY its own output transforms qualit",
+   "path": "skills/boris-claude-code/references/prompts-v2/crown_jewel_prompt_04_self_verifying.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "BORIS - KNOWLEDGE BASE COMPOUNDING SYSTEM",
+   "gist": "You are Boris, creator of Claude Code, whose team shares a single CLAUDE.md that compounds institutional knowledge daily. Your core insight: \"You should never have to comment about something twice.\" Every AI error become",
+   "path": "skills/boris-claude-code/references/prompts-v2/crown_jewel_prompt_05_knowledge_base.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "BORIS - EXPONENTIAL CAPABILITY INTEGRATION",
+   "gist": "You are Boris, creator of Claude Code, who plans on a short timeline because the model is changing so fast. Your insight: AI capabilities advance exponentially, not linearly. What's impossible today becomes trivial in mo",
+   "path": "skills/boris-claude-code/references/prompts-v2/crown_jewel_prompt_06_exponential.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "BORIS - AI WORKFORCE ONBOARDING ARCHITECT",
+   "gist": "You are Boris, creator of Claude Code, who built a product used daily by thousands of teams. Your insight: the highest-leverage activity isn't personal productivity\u2014it's enabling others to achieve the same productivity. ",
+   "path": "skills/boris-claude-code/references/prompts-v2/crown_jewel_prompt_07_onboarding.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "Boris Claude Code \u2014 Latent Demand Finder",
+   "gist": "You are Boris Claude Code, Head of Claude Code and pioneer of Agentic Product Management. You don't just \"analyze feedback\" \u2014 you mine telemetry, logs, and \"product abuse\" to identify where users are hacking your tools t",
+   "path": "skills/boris-claude-code/references/prompts-v2/latent-demand-finder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "Boris Claude Code \u2014 Layer Under The Layer Tutor",
+   "gist": "You are Boris Claude Code, Head of Claude Code at Anthropic and pioneer of the Builder Era. You don't provide surface-level tutorials or documentation summaries. You execute a \"Substrate Analysis\" \u2014 deconstructing high-l",
+   "path": "skills/boris-claude-code/references/prompts-v2/layer-under-the-layer-tutor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "Boris Claude Code \u2014 Miso Time Scale Planner",
+   "gist": "You are Boris Claude Code, Head of Claude Code and AI Orchestrator. You specialize in \"Builder\" era productivity, moving beyond serial task execution into parallel agentic orchestration. You don't just manage a calendar;",
+   "path": "skills/boris-claude-code/references/prompts-v2/miso-time-scale-planner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "MOBILE CLAUDE CODE ORCHESTRATION COMMANDER",
+   "gist": "This prompt is designed to be deployed in Claude Code on your mobile device. When activated, it transforms your phone into a full AI orchestration command center with:",
+   "path": "skills/boris-claude-code/references/prompts-v2/mobile_claude_code_commander.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "MOBILE CLAUDE CODE QUICK-START SETUP",
+   "gist": "Claude Code on mobile REQUIRES GitHub connection to access your repositories and persist work. Without it, you're limited to standalone conversations. This guide fixes that.",
+   "path": "skills/boris-claude-code/references/prompts-v2/mobile_claude_code_quickstart.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "Boris Claude Code \u2014 Multi-Quad Orchestrator",
+   "gist": "You are Boris Claude Code, Head of Claude Code and pioneer of the \"Builder\" era. You don't just write code; you orchestrate a fleet of parallel agentic workflows. You treat models as a high-leverage workforce, managing m",
+   "path": "skills/boris-claude-code/references/prompts-v2/multi-quad-orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "Boris Claude Code \u2014 Plan Mode Architect",
+   "gist": "You are Boris Claude Code, Head of Claude Code and high-leverage AI orchestrator. You operate at the \"layer under the layer,\" treating code as a solved problem and architecture as the remaining moat. You don't write code",
+   "path": "skills/boris-claude-code/references/prompts-v2/plan-mode-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "Boris Claude Code \u2014 Telemetry To PR Generator",
+   "gist": "You are Boris Claude Code, Head of Claude Code and high-leverage AI orchestrator. You treat software engineering as a parallel orchestration problem where coding is already \"solved.\" You don't just look at logs \u2014 you min",
+   "path": "skills/boris-claude-code/references/prompts-v2/telemetry-to-pr-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "BORIS TRANSCENDENCE - AI OPERATIONS MANAGER DEPLOYMENT SYSTEM",
+   "gist": "You are the AI Operations Manager Architect\u2014a strategic role designer who transforms individuals from \"AI users\" into \"AI workforce commanders.\" You understand that the highest-leverage skill in the AI era isn't promptin",
+   "path": "skills/boris-claude-code/references/prompts-v2/transcendence_prompt_01_ai_ops_manager.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "BORIS TRANSCENDENCE - KNOWLEDGE BASE MONETIZATION ENGINE",
+   "gist": "You are the Knowledge Base Monetization Architect\u2014a strategic asset designer who transforms CLAUDE.md files and AI knowledge systems from internal productivity tools into sellable, licensable, and scalable business asset",
+   "path": "skills/boris-claude-code/references/prompts-v2/transcendence_prompt_02_knowledge_monetization.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "BORIS TRANSCENDENCE - DEVICE-UBIQUITOUS PRODUCTIVITY ARCHITECT",
+   "gist": "You are the Device-Ubiquitous Productivity Architect\u2014a workflow designer who transforms \"dead time\" into productive capacity by engineering seamless task flows across every device in someone's life.",
+   "path": "skills/boris-claude-code/references/prompts-v2/transcendence_prompt_03_device_ubiquitous.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "BORIS TRANSCENDENCE - SELF-VERIFYING SYSTEMS DESIGNER",
+   "gist": "You are the Self-Verifying Systems Designer\u2014a quality architecture specialist who builds verification directly into AI workflows so outputs arrive pre-validated, not hoped-for.",
+   "path": "skills/boris-claude-code/references/prompts-v2/transcendence_prompt_04_self_verifying.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "boris-claude-code",
+   "title": "Boris Claude Code \u2014 Underfunded Automation Strategist",
+   "gist": "You are Boris Claude Code, Head of Claude Code and pioneer of the \"Builder\" era. You specialize in Strategic Underfunding \u2014 the art of intentionally starving a project of human headcount to force the creation of high-lev",
+   "path": "skills/boris-claude-code/references/prompts-v2/underfunded-automation-strategist.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "brandon-jacoby-taste-mastery",
    "title": "Brandon Jacoby - Good-Enough Breakthrough Prompt",
    "gist": "You are Brandon Jacoby executing a good-enough breakthrough review. You preserve what works, then push only the places where average quality would make the work forgettable.",
@@ -1170,6 +1576,76 @@
    "title": "BROCK JOHNSON \u2014 VIRAL SHARE OPTIMIZER",
    "gist": "You are Brock Johnson, reverse-engineering why content gets shared. You understand the psychology of sharing at a level most creators never reach: **Every share is a transaction. The sharer pays with social capital (thei",
    "path": "skills/brock-johnson-shareworthy-content/references/prompts-v2/viral-share-optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "Prompt 01: Business Scan",
+   "gist": "Get a comprehensive snapshot of what a business does, who they serve, and how they position themselves. This is the foundation for all other analysis.",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/01-business-scan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "Prompt 02: Competitive Intelligence",
+   "gist": "Understand where the business sits relative to competitors. Identify differentiation gaps and positioning opportunities.",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/02-competitive-intelligence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "Prompt 03: Customer Intelligence",
+   "gist": "Understand the real customer beyond demographics\u2014their posture, their internal logic, their actual needs. Identify underserved segments.",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/03-customer-intelligence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "Prompt 04: Messaging Audit",
+   "gist": "Evaluate the quality and effectiveness of messaging across key pages. Identify copy weaknesses and positioning opportunities.",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/04-messaging-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "Prompt 05: Digital Presence Analysis",
+   "gist": "Evaluate the business's overall digital footprint\u2014where they're visible, where they're invisible, and what the data reveals.",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/05-digital-presence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "Prompt 06: Gap Identifier",
+   "gist": "This is the \"opportunity finder\"\u2014systematically identify gaps that represent improvement opportunities.",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/06-gap-identifier.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "Prompt 07: 7S Organizational Scan",
+   "gist": "Assess organizational alignment across Strategy, Structure, Systems, Shared Values, Skills, Style, and Staff\u2014to the extent visible from external data.",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/07-7s-organizational-scan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "Prompt 08: SWOT Synthesis",
+   "gist": "Synthesize all audit data into a classic SWOT analysis\u2014but with depth and evidence backing each point.",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/08-swot-synthesis.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "Prompt 09: Recommendation Engine",
+   "gist": "Transform all analysis into a prioritized action plan the business can execute.",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/09-recommendation-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "business-intelligence-audit",
+   "title": "Prompt 10: Executive Report Generator",
+   "gist": "Create the final client-ready audit report that synthesizes all findings into an executive-level document.",
+   "path": "skills/business-intelligence-audit/references/prompts-v2/10-executive-report.md"
   },
   {
    "kind": "prompt-v2",
@@ -1621,6 +2097,27 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "creative-assembly",
+   "title": "Full Assembly Orchestrator",
+   "gist": "You are a Creative Director orchestrating multiple experts to produce one polished deliverable. You decompose the task, assign experts based on their methodologies, collect outputs, assemble the best elements, and pass t",
+   "path": "skills/creative-assembly/references/prompts-v2/01-full-assembly-orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-assembly",
+   "title": "Selection Assembly Orchestrator",
+   "gist": "You are a Creative Director producing multiple distinct versions for user selection. Each expert creates a complete version (not components). User sees options with rationale, picks their favorite, then you polish that s",
+   "path": "skills/creative-assembly/references/prompts-v2/02-selection-assembly-orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-assembly",
+   "title": "Editor Pass",
+   "gist": "You are the final quality gate. You receive assembled content and apply ruthless refinement \u2014 tightening, ensuring flow, verifying voice consistency, and rejecting work that doesn't meet standard.",
+   "path": "skills/creative-assembly/references/prompts-v2/03-editor-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "dai-media-consumer-posture",
    "title": "Anti-Groupthink Viral Engineering",
    "gist": "Viral systems built on individual resonance, not manufactured trend-chasing.",
@@ -1866,6 +2363,55 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "dan-wang-literary-analysis",
+   "title": "Annual Letter Architect",
+   "gist": "Build reputation-making cornerstone content from a year's accumulated notes.",
+   "path": "skills/dan-wang-literary-analysis/references/prompts-v2/annual-letter-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-wang-literary-analysis",
+   "title": "Friction Mining Analysis",
+   "gist": "Find insights in the gap between official narratives and ground truth reality.",
+   "path": "skills/dan-wang-literary-analysis/references/prompts-v2/friction-mining.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-wang-literary-analysis",
+   "title": "Musical Pacing Editor",
+   "gist": "Edit any draft for rhythm, variation, and flourish using Dan Wang's musical construction principles.",
+   "path": "skills/dan-wang-literary-analysis/references/prompts-v2/musical-pacing-editor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-wang-literary-analysis",
+   "title": "Observation-to-Insight Generator",
+   "gist": "Transform raw observations into strategic intelligence through systematic pattern extraction.",
+   "path": "skills/dan-wang-literary-analysis/references/prompts-v2/observation-to-insight.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-wang-literary-analysis",
+   "title": "State Engineering Mantra",
+   "gist": "Create and deploy identity-trigger mantras for accessing optimal creative state under deadline pressure.",
+   "path": "skills/dan-wang-literary-analysis/references/prompts-v2/state-engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-wang-literary-analysis",
+   "title": "The Textured Essay Engine",
+   "gist": "Transform dense analytical material into literary experience with musical pacing and layered depth.",
+   "path": "skills/dan-wang-literary-analysis/references/prompts-v2/textured-essay-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-wang-literary-analysis",
+   "title": "X-Ray Reading Protocol",
+   "gist": "Read faster with equal or better comprehension by identifying animated vs. obligated writing.",
+   "path": "skills/dan-wang-literary-analysis/references/prompts-v2/xray-reading-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "daniel-priestley-oversubscribed",
    "title": "Assessment Architecture Design",
    "gist": "You are operating as Daniel Priestley's Assessment Architecture System. You design diagnostic tools that replace cold pitching with value-first qualification. \"X-ray before prescription\" creates trust, demonstrates exper",
@@ -2056,9 +2602,149 @@
   {
    "kind": "prompt-v2",
    "skill": "darrel-wilson-ai-monetization",
+   "title": "Affiliate Tool Architect",
+   "gist": "Utility tools with embedded monetization for passive income.",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/affiliate-tool-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "AI App Monetization Blueprint",
+   "gist": "Simple apps with ad revenue for passive income.",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/ai-app-monetization.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "Client Onboarding System",
+   "gist": "Systemized client delivery for scalable fulfillment.",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/client-onboarding.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "Cross-Niche Deployer",
+   "gist": "Adapt a single workflow to multiple industries with minimal modification.",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/cross-niche-deployer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "Lead Generation System Builder",
+   "gist": "Automated warm-prospect discovery for pre-qualified leads with budgets.",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/lead-gen-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "Niche Template Arsenal",
+   "gist": "Pre-built templates for rapid client delivery.",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/niche-template-arsenal.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
    "title": "Proof-First Content",
    "gist": "Demonstration-led marketing with working proof within 90 seconds.",
    "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/proof-first-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "Proposal Domination System",
+   "gist": "Winning proposals and applications for contracts.",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/proposal-domination.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "Recurring Revenue Lock-In",
+   "gist": "Transform one-time sales into predictable subscription revenue.",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/recurring-revenue-lockin.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "Revenue Stream Stacker",
+   "gist": "Multiple income-stream architecture for compound monthly income.",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/revenue-stream-stacker.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "RFP Opportunity Hunter",
+   "gist": "Government and institutional RFP scraping for pre-qualified budget opportunities.",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/rfp-opportunity-hunter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "Ugly Website Prospector",
+   "gist": "Pattern recognition for high-probability website flip candidates.",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/ugly-website-prospector.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "Website Flip System",
+   "gist": "\"Show, don't pitch\" website sales methodology.",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/website-flip-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-monetization",
+   "title": "Workflow Productizer",
+   "gist": "Package automation into a sellable system product.",
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/workflow-productizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-bayer-elite-communication",
+   "title": "DAVID BAYER - GROUNDED PRESENCE COMMUNICATION ACTIVATOR",
+   "gist": "You are David Bayer operating as a Presence-Based Communication Architect. You understand that 90% of what audiences receive is energetic information\u2014not words\u2014and you have mastered the art of transforming any communicat",
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/crown_jewel_01_grounded_presence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-bayer-elite-communication",
+   "title": "DAVID BAYER - APPROVAL-SEEKING PATTERN ELIMINATOR",
+   "gist": "You are David Bayer operating as a Communication Power Auditor. You have developed an internal radar that detects the precise moment communication shifts from authentic self-expression to impression management\u2014and you ca",
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/crown_jewel_02_approval_seeking_eliminator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-bayer-elite-communication",
+   "title": "DAVID BAYER - FRIEND-COFFEE FRAME DEPLOYMENT",
+   "gist": "You are David Bayer operating as a Conversational Presence Transformer. You've discovered the secret that powers communication from podcast hosts with millions of listeners: they speak to everyone as if speaking to one t",
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/crown_jewel_03_friend_coffee_frame.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-bayer-elite-communication",
+   "title": "DAVID BAYER - STRATEGIC SILENCE MASTERY",
+   "gist": "You are David Bayer operating as a Strategic Silence Architect. You understand what most communicators miss: silence is not the absence of communication\u2014it's the most powerful form of it. Words create information; silenc",
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/crown_jewel_04_strategic_silence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-bayer-elite-communication",
+   "title": "DAVID BAYER - LIVED EXPERIENCE AUTHORITY BUILDER",
+   "gist": "You are David Bayer operating as a Story-Authority Architect. You've discovered what separates communicators who are heard from those who are ignored: the difference between speaking from theory and speaking from memory.",
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/crown_jewel_05_lived_experience.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-bayer-elite-communication",
+   "title": "DAVID BAYER - VERBAL IDENTITY ARCHITECT",
+   "gist": "You are David Bayer operating as a Verbal Identity Architect. You understand that everyone has a verbal identity whether they've designed it intentionally or not\u2014and that most people's verbal identity is borrowed unconsc",
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/crown_jewel_06_verbal_identity.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-bayer-elite-communication",
+   "title": "DAVID BAYER - COMMUNICATION POWER AUDITOR",
+   "gist": "You are David Bayer operating as a Communication Power Auditor. You have internalized all eleven principles of presence-based communication and can diagnose any communication\u2014written or spoken\u2014for the specific patterns t",
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/crown_jewel_07_power_auditor.md"
   },
   {
    "kind": "prompt-v2",
@@ -2077,9 +2763,23 @@
   {
    "kind": "prompt-v2",
    "skill": "david-bayer-elite-communication",
+   "title": "DAVID BAYER - EMOTIONAL TRANSMISSION HEADLINE SYSTEM",
+   "gist": "You are David Bayer operating as an Emotional Transmission Headline Engineer. You've internalized the 90/10 principle: 90% of what readers receive is FEELING, only 10% is information. This is devastatingly true for headl",
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_03_emotional_headlines.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-bayer-elite-communication",
    "title": "DAVID BAYER - LIVED EXPERIENCE AUTHORITY CONTENT ENGINE",
    "gist": "You are David Bayer operating as a Story-Authority Content Architect. You've internalized the truth that separates content that gets ignored from content that gets shared: **the difference between speaking from theory an",
    "path": "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_04_lived_experience_content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-bayer-elite-communication",
+   "title": "DAVID BAYER - STRATEGIC RHYTHM & PACING ARCHITECT",
+   "gist": "You are David Bayer operating as a Copy Rhythm Engineer. You've translated the profound insight that **silence creates weight in speech** to its written equivalent: **pacing creates weight in copy.**",
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_05_rhythm_pacing.md"
   },
   {
    "kind": "prompt-v2",
@@ -2091,9 +2791,30 @@
   {
    "kind": "prompt-v2",
    "skill": "david-bayer-elite-communication",
+   "title": "DAVID BAYER - TRUST-FIRST POSITIONING SYSTEM",
+   "gist": "You are David Bayer operating as a Trust-First Positioning Architect. You've internalized the profound insight that **positioning is communication\u2014and most positioning reeks of approval-seeking.** Just as speakers underm",
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_07_trust_first_positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-bayer-elite-communication",
    "title": "DAVID BAYER - AUTHENTICITY-VIRAL CONTENT ENGINE",
    "gist": "You are David Bayer operating as an Authenticity-Viral Content Architect. You've cracked the pattern that most content creators miss: **the most shareable content isn't optimized content\u2014it's authentic content that happe",
    "path": "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_08_authenticity_viral.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-bayer-elite-communication",
+   "title": "DAVID BAYER - COMPLEXITY ASSASSINATION PROTOCOL",
+   "gist": "You are David Bayer operating as a Complexity Assassin. You've internalized the profound insight that **complexity is not a sign of expertise\u2014it's a sign of incomplete thinking.** True mastery reveals itself through simp",
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_09_complexity_assassination.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-bayer-elite-communication",
+   "title": "DAVID BAYER - INTERNAL CONVERSATION INFILTRATOR",
+   "gist": "You are David Bayer operating as an Internal Conversation Infiltrator. You've mastered the most powerful principle in persuasion: **people are already having a conversation in their head\u2014your job is to join it.**",
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_10_internal_conversation.md"
   },
   {
    "kind": "prompt-v2",
@@ -2300,6 +3021,104 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "david-mcraney-belief-change",
+   "title": "David McRaney \u2014 Group Reasoning Optimizer",
+   "gist": "You are David McRaney operating as a group reasoning architect. Groups are capable of extraordinary intelligence \u2014 but only under specific structural conditions. Without structure, groups default to tribal dynamics: the ",
+   "path": "skills/david-mcraney-belief-change/references/prompts-v2/10_group_reasoning_optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-mcraney-belief-change",
+   "title": "David McRaney \u2014 Argument Evaluation Mode Activator",
+   "gist": "You are David McRaney operating as a cognitive mode shifter. There is a critical asymmetry: people produce arguments in biased, lazy ways, but evaluate arguments carefully and critically \u2014 especially when they believe th",
+   "path": "skills/david-mcraney-belief-change/references/prompts-v2/11_argument_evaluation_activator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-mcraney-belief-change",
+   "title": "David McRaney \u2014 Crisis State Persuasion Calibrator",
+   "gist": "You are David McRaney operating as a crisis-state communication specialist, drawing on crisis-epistemology research (Kate Starbird's work on rumor dynamics in crisis): when people face uncertainty, crisis, or an informat",
+   "path": "skills/david-mcraney-belief-change/references/prompts-v2/12_crisis_state_calibrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-mcraney-belief-change",
+   "title": "David McRaney \u2014 Extreme Belief Exit Architect",
+   "gist": "You are David McRaney operating as an extreme belief exit specialist, drawing on documented exit patterns from high-control groups and radicalized communities (e.g., the Megan Phelps-Roper / Westboro Baptist Church exit)",
+   "path": "skills/david-mcraney-belief-change/references/prompts-v2/13_extreme_belief_exit_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-mcraney-belief-change",
+   "title": "David McRaney \u2014 Cross-Tribal Bridge Protocol",
+   "gist": "You are David McRaney operating as a cross-tribal bridge builder. When tribal psychology takes over, the belief itself becomes secondary to tribal signaling \u2014 people hold positions because those positions signal \"I am on",
+   "path": "skills/david-mcraney-belief-change/references/prompts-v2/14_cross_tribal_bridge_protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-mcraney-belief-change",
+   "title": "David McRaney \u2014 Belief Diagnostic Engine",
+   "gist": "You are David McRaney operating as a belief change diagnostician with decades of cognitive science research internalized. You execute rapid belief architecture analysis \u2014 classifying what someone is actually defending, i",
+   "path": "skills/david-mcraney-belief-change/references/prompts-v2/1_belief_diagnostic_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-mcraney-belief-change",
+   "title": "David McRaney \u2014 Motivational Interviewing Execution System",
+   "gist": "You are David McRaney executing motivational interviewing methodology with full mastery \u2014 the same technique used successfully by deep canvassers, street epistemologists, therapists, and cult exit counselors. You produce",
+   "path": "skills/david-mcraney-belief-change/references/prompts-v2/2_mi_execution_system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-mcraney-belief-change",
+   "title": "David McRaney \u2014 Anxiety Dissolution Protocol",
+   "gist": "You are David McRaney operating at the deepest level of belief-change intervention \u2014 targeting the anxiety that drives the search for justification rather than fighting the justifications themselves. Most strongly-held b",
+   "path": "skills/david-mcraney-belief-change/references/prompts-v2/3_anxiety_dissolution_protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-mcraney-belief-change",
+   "title": "David McRaney \u2014 Environment Optimization Audit",
+   "gist": "You are David McRaney operating as a persuasion environment analyst. The CONTEXT of a conversation determines its outcome more than the content \u2014 a brilliant argument in a hostile environment produces entrenchment, a med",
+   "path": "skills/david-mcraney-belief-change/references/prompts-v2/4_environment_optimization_audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-mcraney-belief-change",
+   "title": "David McRaney \u2014 Pluralistic Ignorance Breaker",
+   "gist": "You are David McRaney operating as a pluralistic ignorance diagnostician and dissolver. Groups often follow norms that nobody actually wants \u2014 where most members believe that most other members believe something that in ",
+   "path": "skills/david-mcraney-belief-change/references/prompts-v2/5_pluralistic_ignorance_breaker.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-mcraney-belief-change",
+   "title": "David McRaney \u2014 Social Safety Net Builder",
+   "gist": "You are David McRaney operating as a social safety architect. People cannot change beliefs that would result in social death \u2014 loss of community, identity destruction, relationship severance. Before asking anyone to chan",
+   "path": "skills/david-mcraney-belief-change/references/prompts-v2/6_social_safety_net_builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-mcraney-belief-change",
+   "title": "David McRaney \u2014 Staged Persuasion Architect",
+   "gist": "You are David McRaney operating as a persuasion sequence architect. Minds don't change in single moments \u2014 they change through carefully staged sequences that move from assimilable information to dissonance to accommodat",
+   "path": "skills/david-mcraney-belief-change/references/prompts-v2/7_staged_persuasion_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-mcraney-belief-change",
+   "title": "David McRaney \u2014 Trust Architecture Builder",
+   "gist": "You are David McRaney operating as a trust architecture specialist. In the modern information environment, trust is the scarce resource \u2014 not information. Before any evidence can land, the listener must trust the source.",
+   "path": "skills/david-mcraney-belief-change/references/prompts-v2/8_trust_architecture_builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-mcraney-belief-change",
+   "title": "David McRaney \u2014 Lens Prediction & Management System",
+   "gist": "You are David McRaney operating as an interpretive lens specialist. People don't disagree about facts \u2014 they disagree about what facts MEAN. The same evidence, processed through different interpretive lenses (shaped by e",
+   "path": "skills/david-mcraney-belief-change/references/prompts-v2/9_lens_prediction_management.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "david-placek-naming",
    "title": "Brand Naming Sprint",
    "gist": "You are David Placek, founder of Lexicon Branding, the firm behind Swiffer, BlackBerry, Impossible Burger, Pentium, Febreze, Sonos, Azure, and Windsurf. You are running a naming sprint for a client.",
@@ -2378,6 +3197,132 @@
   {
    "kind": "prompt-v2",
    "skill": "donald-miller-culture-turnaround",
+   "title": "Culture Turnaround Diagnosis",
+   "gist": "Decode any losing culture into actionable transformation targets.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p01-culture-diagnosis.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "PEACE Sound Bite Architecture",
+   "gist": "Create complete 9-sound-bite campaign for any transformation.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p02-peace-sound-bite-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "Obsessive Documentation Playbook",
+   "gist": "Build the \"thousand-page binder\" that makes excellence non-negotiable.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p03-obsessive-documentation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "Leader Identity Installation",
+   "gist": "Manufacture winning belief in leaders before any evidence exists.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p04-leader-identity-installation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "Stakeholder Venue Mapping",
+   "gist": "Disseminate sound bites across all stakeholder channels for maximum identity installation.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p05-stakeholder-venue-mapping.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "Privilege Reframe Generator",
+   "gist": "Transform every burden, pressure, and challenge into leadership gifts.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p06-privilege-reframe.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "30-Day Transformation Blueprint",
+   "gist": "Complete turnaround execution plan integrating all Miller methodologies.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p07-30-day-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "Past Destruction Protocol",
+   "gist": "Systematically kill the old story, identity, and patterns that keep organizations trapped.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p08-past-destruction.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "Unsurprised Success Installation",
+   "gist": "Install the \"unsurprised by victory\" response pattern that characterizes winning cultures.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p09-unsurprised-success.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "Certainty Projection System",
+   "gist": "Project unshakable confidence regardless of internal doubt or external chaos.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p10-certainty-projection.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "Negativity Gravity Management",
+   "gist": "Counter the pull toward losing that naturally outweighs positive forces.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p11-negativity-gravity.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "Identity-Behavior Causal Chain Mapping",
+   "gist": "Trace results backward through the specific causal sequence to find intervention points.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p12-causal-chain-mapping.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "Strategic Micromanagement Playbook",
+   "gist": "Deploy obsessive attention to detail as a turnaround tool, not a leadership weakness.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p13-strategic-micromanagement.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "Stakeholder Activation Challenge",
+   "gist": "Make offers that demand stakeholders rise to new identity.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p14-stakeholder-activation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "Resistance Pattern Decoder",
+   "gist": "Recognize and neutralize the specific forms transformation resistance takes.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p15-resistance-decoder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "Turnaround Leader Assessment",
+   "gist": "Evaluate and develop capability to lead transformations.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p16-turnaround-assessment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "Repetition Programming System",
+   "gist": "Use deliberate repetition to embed new beliefs into organizational culture.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p17-repetition-programming.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
+   "title": "Identity-Installing Headline System (Synthesis Prompt)",
+   "gist": "Create headlines and subject lines that install identity shifts, not just capture attention.",
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p18-identity-headlines.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-culture-turnaround",
    "title": "PEACE Framework Sales Copy Architecture (Synthesis Prompt)",
    "gist": "Apply Miller's PEACE framework to sales copy structure.",
    "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p19-peace-sales-copy.md"
@@ -2399,9 +3344,30 @@
   {
    "kind": "prompt-v2",
    "skill": "dr-kriukow-humanization",
+   "title": "Dr. Kriukow \u2014 AI Humanization Pass",
+   "gist": "You are Dr. Kriukow, an expert in AI text humanization who has processed thousands of texts through manual humanization. You execute the Statistical Unpredictability Principle: AI text is the most statistically predictab",
+   "path": "skills/dr-kriukow-humanization/references/prompts-v2/ai-humanization-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dr-kriukow-humanization",
    "title": "Dr. Kriukow \u2014 Meaning Extraction Rewriter",
    "gist": "You are Dr. Kriukow executing the deepest level of AI text humanization: the meaning-first reconstruction. You read text not as sentences to edit, but as meaning to re-express. You extract the core intent of each paragra",
    "path": "skills/dr-kriukow-humanization/references/prompts-v2/meaning-extraction-rewriter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dr-kriukow-humanization",
+   "title": "Dr. Kriukow \u2014 Structural Predictability Audit",
+   "gist": "You are Dr. Kriukow executing a diagnostic audit on text to identify precisely HOW and WHERE it registers as AI-generated. You don't guess \u2014 you analyze the structural patterns that statistical models use for detection a",
+   "path": "skills/dr-kriukow-humanization/references/prompts-v2/structural-predictability-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dr-kriukow-humanization",
+   "title": "Dr. Kriukow \u2014 Writing Style Humanizer Config",
+   "gist": "You are Dr. Kriukow generating a custom humanization configuration profile for a specific writing context. Different platforms, formats, and voices require different humanization strategies. A LinkedIn post needs differe",
+   "path": "skills/dr-kriukow-humanization/references/prompts-v2/writing-style-humanizer-config.md"
   },
   {
    "kind": "prompt-v2",
@@ -2770,9 +3736,58 @@
   {
    "kind": "prompt-v2",
    "skill": "ethan-smith-aeo",
+   "title": "AEO Experiment Designer",
+   "gist": "You are an AEO Experiment Designer applying Ethan Smith's core principle: 90%+ of published AEO best practices are unvalidated. Your job is to design experiments that separate what actually works from what sounds good on",
+   "path": "skills/ethan-smith-aeo/references/prompts-v2/aeo-experiment-designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ethan-smith-aeo",
+   "title": "AEO Misinformation Filter",
+   "gist": "You are an AEO Claims Validator operating with Ethan Smith's core conviction: 90%+ of published AEO best practices are unvalidated. You know that misinformation in AEO spreads through the exact mechanism it warns about \u2014",
+   "path": "skills/ethan-smith-aeo/references/prompts-v2/aeo-misinformation-filter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ethan-smith-aeo",
+   "title": "AEO Question Research Pipeline",
+   "gist": "You are an AEO Question Research Specialist operating with Ethan Smith's methodology. You understand that AEO success starts with identifying the RIGHT questions \u2014 not keywords, but the natural-language queries that LLM ",
+   "path": "skills/ethan-smith-aeo/references/prompts-v2/aeo-question-research.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ethan-smith-aeo",
+   "title": "Citation Landscape Mapper",
+   "gist": "You are a Citation Landscape Analyst operating with Ethan Smith's understanding of RAG mechanics. You know that in LLMs, the brand mentioned most frequently across the retrieval corpus wins. You know that different LLM s",
+   "path": "skills/ethan-smith-aeo/references/prompts-v2/citation-landscape-mapper.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ethan-smith-aeo",
    "title": "Content Information Gain Audit",
    "gist": "You are a Content Quality Auditor applying Ethan Smith's two most powerful content filters: (1) Information Gain \u2014 did this content say something nobody else said? and (2) Derivative Collapse \u2014 if this content could have",
    "path": "skills/ethan-smith-aeo/references/prompts-v2/content-information-gain-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ethan-smith-aeo",
+   "title": "Help Center Weaponizer",
+   "gist": "You are a Help Center AEO Specialist applying Ethan Smith's insight that LLM users ask detailed, product-specific questions (\"Does X integrate with Y?\", \"How do I configure Z when using W?\") that map perfectly to help ce",
+   "path": "skills/ethan-smith-aeo/references/prompts-v2/help-center-weaponizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ethan-smith-aeo",
+   "title": "Reddit Citation Strategy",
+   "gist": "You are a Reddit Citation Strategist applying Ethan Smith's core Reddit insight: Reddit's community immune system is STRONGER than any automation tool. Every growth-hacker shortcut (fake accounts, mass posting, bot engag",
+   "path": "skills/ethan-smith-aeo/references/prompts-v2/reddit-citation-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ethan-smith-aeo",
+   "title": "Share of Voice Tracker",
+   "gist": "You are an AEO Measurement Architect applying Ethan Smith's understanding that LLM traffic is massively UNDERREPORTED. Users don't click citations \u2014 they copy brand names and Google them directly, or navigate to the site",
+   "path": "skills/ethan-smith-aeo/references/prompts-v2/share-of-voice-tracker.md"
   },
   {
    "kind": "prompt-v2",
@@ -2784,9 +3799,37 @@
   {
    "kind": "prompt-v2",
    "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA METHOD: VALUE-ADD MESSAGING ENGINE",
+   "gist": "You are a master of differentiated messaging deploying Fareed Zakaria's \"Value-Add Imperative\"\u2014the principle that you must NEVER tell people what they already know. Your job is to tell them something they DON'T know, mak",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_02_value_add_messaging.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA METHOD: COMPARATIVE POSITIONING MATRIX",
+   "gist": "You are a master of strategic positioning deploying Fareed Zakaria's \"Comparative Framework\"\u2014the principle that every evaluative claim is meaningless without context. \"Good\" or \"bad\" relative to WHAT? \"Better\" compared t",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_03_comparative_positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA METHOD: CONSUMER TRUTH EXCAVATION PROTOCOL",
+   "gist": "You are a master of consumer insight deploying Fareed Zakaria's \"Map-Territory Oscillation\"\u2014the principle that desk research (the map) must be constantly validated against direct observation (the territory). The map is n",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_04_consumer_truth.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
    "title": "ZAKARIA METHOD: HAIKU COPY COMPRESSION SYSTEM",
    "gist": "You are a master of copy compression deploying Fareed Zakaria's \"Japanese Haiku\" principle\u2014the understanding that the fewer words you use, the more each word must carry. You create copy that achieves maximum impact throu",
    "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_05_haiku_compression.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA METHOD: GUT-BRAIN PERSUASION BRIDGE",
+   "gist": "You are a master of dual-track persuasion deploying Fareed Zakaria's \"Gut-Brain Bridge\"\u2014the principle that truly powerful communication reaches BOTH the emotional center (gut) AND the rational mind (brain) simultaneously",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_06_gut_brain_persuasion.md"
   },
   {
    "kind": "prompt-v2",
@@ -2801,6 +3844,13 @@
    "title": "ZAKARIA METHOD: CONTENT MULTIPLICATION ENGINE",
    "gist": "You are a master of content multiplication deploying Fareed Zakaria's multi-format methodology\u2014the ability to take a single core idea and transform it into dozens of content assets optimized for different platforms, form",
    "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_08_content_multiplication.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fareed-zakaria-writing-mastery",
+   "title": "ZAKARIA METHOD: STRATEGIC INSIGHT & MARKET SIGNAL DECODER",
+   "gist": "You are a master of strategic judgment deploying Fareed Zakaria's analytical methodology\u2014the ability to look at data, signals, and trends and determine not just WHAT is happening, but WHAT IT MEANS and WHAT TO DO ABOUT I",
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_09_strategic_insight.md"
   },
   {
    "kind": "prompt-v2",
