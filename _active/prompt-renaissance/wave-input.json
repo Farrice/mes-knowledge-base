@@ -1,796 +1,379 @@
 {
  "standard": "structure-pure-v2 (see _active/prompt-renaissance/04-deliverables/RUNBOOK.md)",
  "total": 150,
- "remaining_after_wave": 1087,
+ "remaining_after_wave": 937,
  "groups": [
-  {
-   "skill": "tom-noske-personal-brand",
-   "prompts": [
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/01-archetype-diagnostic.md",
-     "title": "Creator Archetype Diagnostic & Correction Engine"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/02-mission-architect.md",
-     "title": "Magnetic Mission Architect"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/03-origin-iceberg.md",
-     "title": "Origin Story Iceberg Builder"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/05-product-architect.md",
-     "title": "Seven-Ingredient Product Architect"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/06-presold-pipeline.md",
-     "title": "Pre-Sold Pipeline Designer"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/08-vulnerability-deployment.md",
-     "title": "Vulnerability Deployment Strategy"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/09-buying-hierarchy.md",
-     "title": "Buying Hierarchy Ascension"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/10-results-flywheel.md",
-     "title": "Results-Reputation Flywheel"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/11-earnings-optimizer.md",
-     "title": "Earnings-Per-Follower Optimizer"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/12-live-iteration.md",
-     "title": "Live Delivery Iteration Engine"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/13-horsepower-positioning.md",
-     "title": "Horsepower Positioning"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/15-niche-architecture.md",
-     "title": "Niche Architecture"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/17-market-signal-decoder.md",
-     "title": "TOM NOSKE - PRE-SOLD INTELLIGENCE & MARKET SIGNAL DECODER"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/18-launch-orchestrator.md",
-     "title": "TOM NOSKE - FULL-STACK MAGNETIC LAUNCH ORCHESTRATOR"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/19-ltv-calculator.md",
-     "title": "TOM NOSKE - SMALL AUDIENCE LTV CALCULATOR"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/20-anti-volume-pricing.md",
-     "title": "TOM NOSKE - ANTI-VOLUME PRICING DISCIPLINE"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/21-content-monetization-quadrant.md",
-     "title": "TOM NOSKE - WHAT/WHY FREE \u2014 HOW/NOW PAID QUADRANT"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/23-demand-first-builder.md",
-     "title": "TOM NOSKE - DEMAND-FIRST BUSINESS BUILDER"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/25-express-elevator-mapper.md",
-     "title": "TOM NOSKE - EXPRESS ELEVATOR EFFECT MAPPER"
-    },
-    {
-     "path": "skills/tom-noske-personal-brand/references/prompts/26-zero-to-creator.md",
-     "title": "TOM NOSKE - ZERO-TO-CREATOR LAUNCHPAD"
-    }
-   ]
-  },
-  {
-   "skill": "nicolas-cole-sentence-craft",
-   "prompts": [
-    {
-     "path": "skills/nicolas-cole-sentence-craft/references/prompts/adverb-eliminator.md",
-     "title": "Hemingway Adverb Eliminator"
-    },
-    {
-     "path": "skills/nicolas-cole-sentence-craft/references/prompts/information-density-auditor.md",
-     "title": "Information Density Auditor"
-    },
-    {
-     "path": "skills/nicolas-cole-sentence-craft/references/prompts/jargon-introduction-protocol.md",
-     "title": "Jargon Introduction Protocol"
-    },
-    {
-     "path": "skills/nicolas-cole-sentence-craft/references/prompts/opening-sentence-maximizer.md",
-     "title": "Opening Sentence Power Maximizer"
-    },
-    {
-     "path": "skills/nicolas-cole-sentence-craft/references/prompts/redundancy-elimination.md",
-     "title": "Redundancy Elimination Scanner"
-    },
-    {
-     "path": "skills/nicolas-cole-sentence-craft/references/prompts/sentence-power-optimizer.md",
-     "title": "Sentence Power Optimizer"
-    },
-    {
-     "path": "skills/nicolas-cole-sentence-craft/references/prompts/sentence-rhythm-controller.md",
-     "title": "Sentence Rhythm Controller"
-    },
-    {
-     "path": "skills/nicolas-cole-sentence-craft/references/prompts/three-pass-compression.md",
-     "title": "Three-Pass Compression Engine"
-    },
-    {
-     "path": "skills/nicolas-cole-sentence-craft/references/prompts/transition-flow-architect.md",
-     "title": "Transition Flow Architect"
-    },
-    {
-     "path": "skills/nicolas-cole-sentence-craft/references/prompts/two-comma-discipline.md",
-     "title": "Two-Comma Discipline Enforcer"
-    },
-    {
-     "path": "skills/nicolas-cole-sentence-craft/references/prompts/vocabulary-calibrator.md",
-     "title": "Fourth-Grade Vocabulary Calibrator"
-    },
-    {
-     "path": "skills/nicolas-cole-sentence-craft/references/prompts/voice-preservation-filter.md",
-     "title": "Voice Preservation Filter"
-    },
-    {
-     "path": "skills/nicolas-cole-sentence-craft/references/prompts/weak-construction-eliminator.md",
-     "title": "Weak Construction Eliminator"
-    },
-    {
-     "path": "skills/nicolas-cole-sentence-craft/references/prompts/word-variation-engine.md",
-     "title": "Word Variation Engine"
-    }
-   ]
-  },
-  {
-   "skill": "jun-yuh-personal-brand",
-   "prompts": [
-    {
-     "path": "skills/jun-yuh-personal-brand/references/prompts/crown_jewel_04_format_study_analyzer.md",
-     "title": "JUN YUH - 7x7 FORMAT STUDY ANALYZER"
-    },
-    {
-     "path": "skills/jun-yuh-personal-brand/references/prompts/crown_jewel_06_trial_reel_derivatives.md",
-     "title": "JUN YUH - TRIAL REEL DERIVATIVE GENERATOR"
-    },
-    {
-     "path": "skills/jun-yuh-personal-brand/references/prompts/crown_jewel_07_free_event_framework.md",
-     "title": "JUN YUH - FREE EVENT TEACHING FRAMEWORK ARCHITECT"
-    },
-    {
-     "path": "skills/jun-yuh-personal-brand/references/prompts/crown_jewel_09_scene_library_systemizer.md",
-     "title": "JUN YUH - SCENE LIBRARY SYSTEMIZER"
-    },
-    {
-     "path": "skills/jun-yuh-personal-brand/references/prompts/crown_jewel_19_emotional_arc_sales_page.md",
-     "title": "JUN YUH - EMOTIONAL ARC SALES PAGE ARCHITECT"
-    },
-    {
-     "path": "skills/jun-yuh-personal-brand/references/prompts/crown_jewel_20_positioning_differentiation.md",
-     "title": "JUN YUH - MARKET POSITIONING DIFFERENTIATION ENGINE"
-    },
-    {
-     "path": "skills/jun-yuh-personal-brand/references/prompts/crown_jewel_23_viral_reverse_engineering.md",
-     "title": "JUN YUH - VIRAL REVERSE-ENGINEERING INTELLIGENCE SYSTEM"
-    },
-    {
-     "path": "skills/jun-yuh-personal-brand/references/prompts/crown_jewel_24_sales_conversation_framework.md",
-     "title": "JUN YUH - STORY-DRIVEN SALES CONVERSATION FRAMEWORK"
-    },
-    {
-     "path": "skills/jun-yuh-personal-brand/references/prompts/crown_jewel_28_lofi_production_system.md",
-     "title": "JUN YUH - LO-FI EXCELLENCE PRODUCTION SYSTEM"
-    },
-    {
-     "path": "skills/jun-yuh-personal-brand/references/prompts/crown_jewel_29_cross_platform_translation.md",
-     "title": "JUN YUH - CROSS-PLATFORM FORMAT TRANSLATION ENGINE"
-    },
-    {
-     "path": "skills/jun-yuh-personal-brand/references/prompts/crown_jewel_31_algorithm_decoder.md",
-     "title": "JUN YUH - ALGORITHM INTELLIGENCE DECODER"
-    },
-    {
-     "path": "skills/jun-yuh-personal-brand/references/prompts/crown_jewel_32_trigger_map.md",
-     "title": "JUN YUH - VIRAL MECHANICS PSYCHOLOGICAL TRIGGER MAP"
-    },
-    {
-     "path": "skills/jun-yuh-personal-brand/references/prompts/crown_jewel_33_minimalist_creator_os.md",
-     "title": "JUN YUH - MINIMALIST CREATOR OPERATING SYSTEM"
-    }
-   ]
-  },
-  {
-   "skill": "made-to-stick-messaging",
-   "prompts": [
-    {
-     "path": "skills/made-to-stick-messaging/references/prompts/advanced-crown-jewel-1-sticky-headlines-engine.md",
-     "title": "HEATH BROTHERS - STICKY HEADLINES & HOOKS ENGINE"
-    },
-    {
-     "path": "skills/made-to-stick-messaging/references/prompts/advanced-crown-jewel-3-viral-content-architect.md",
-     "title": "HEATH BROTHERS - VIRAL CONTENT ARCHITECT"
-    },
-    {
-     "path": "skills/made-to-stick-messaging/references/prompts/advanced-crown-jewel-6-content-pillar-generator.md",
-     "title": "HEATH BROTHERS - CONTENT PILLAR GENERATOR"
-    },
-    {
-     "path": "skills/made-to-stick-messaging/references/prompts/advanced-crown-jewel-7-offer-messaging-optimizer.md",
-     "title": "HEATH BROTHERS - OFFER MESSAGING OPTIMIZER"
-    },
-    {
-     "path": "skills/made-to-stick-messaging/references/prompts/advanced-crown-jewel-9-email-sequence-alchemist.md",
-     "title": "HEATH BROTHERS - EMAIL SEQUENCE ALCHEMIST"
-    },
-    {
-     "path": "skills/made-to-stick-messaging/references/prompts/supplemental-prompt-1-sticky-longform-architect.md",
-     "title": "HEATH BROTHERS - STICKY LONG-FORM CONTENT ARCHITECT"
-    },
-    {
-     "path": "skills/made-to-stick-messaging/references/prompts/supplemental-prompt-12-testimonial-social-proof-optimizer.md",
-     "title": "HEATH BROTHERS - TESTIMONIAL & SOCIAL PROOF OPTIMIZER"
-    },
-    {
-     "path": "skills/made-to-stick-messaging/references/prompts/supplemental-prompt-17-brand-messaging-bible.md",
-     "title": "HEATH BROTHERS - BRAND MESSAGING BIBLE"
-    },
-    {
-     "path": "skills/made-to-stick-messaging/references/prompts/supplemental-prompt-2-micro-content-alchemist.md",
-     "title": "HEATH BROTHERS - MICRO-CONTENT ALCHEMIST"
-    },
-    {
-     "path": "skills/made-to-stick-messaging/references/prompts/supplemental-prompt-3-ghostwriting-voice-synthesizer.md",
-     "title": "HEATH BROTHERS - GHOSTWRITING VOICE SYNTHESIZER"
-    },
-    {
-     "path": "skills/made-to-stick-messaging/references/prompts/supplemental-prompt-6-sticky-educational-content.md",
-     "title": "HEATH BROTHERS - STICKY EDUCATIONAL CONTENT ARCHITECT"
-    }
-   ]
-  },
-  {
-   "skill": "nathan-gotch-ai-seo",
-   "prompts": [
-    {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/02-citation-intelligence.md",
-     "title": "Citation Intelligence Extractor"
-    },
-    {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/03-brand-narrative.md",
-     "title": "Brand Narrative Controller"
-    },
-    {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/05-content-engine.md",
-     "title": "AI-Assisted Content Engine"
-    },
-    {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/08-retrieval-copy.md",
-     "title": "Retrieval-Layer Copywriting"
-    },
-    {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/11-content-velocity.md",
-     "title": "Content Velocity Engine"
-    },
-    {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/18-competitor-seeding.md",
-     "title": "Competitor Seeding Content Generator"
-    },
-    {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/20-topic-domination.md",
-     "title": "Topic Domination Content Architect"
-    },
-    {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/24-retrieval-sales-copy.md",
-     "title": "Retrieval-Optimized Sales Copy Engine"
-    },
-    {
-     "path": "skills/nathan-gotch-ai-seo/references/prompts/26-content-ecosystem.md",
-     "title": "Content Ecosystem Domination Architect"
-    }
-   ]
-  },
-  {
-   "skill": "lucas-alpay-storytelling",
-   "prompts": [
-    {
-     "path": "skills/lucas-alpay-storytelling/references/prompts/lucas-alpay-b10-efficient-impact.md",
-     "title": "LUCAS ALPAY - EFFICIENT IMPACT COPY ENGINE"
-    },
-    {
-     "path": "skills/lucas-alpay-storytelling/references/prompts/lucas-alpay-b11-climactic-offer.md",
-     "title": "LUCAS ALPAY - CLIMACTIC OFFER ARCHITECTURE"
-    },
-    {
-     "path": "skills/lucas-alpay-storytelling/references/prompts/lucas-alpay-b13-brand-memory.md",
-     "title": "LUCAS ALPAY - BRAND MEMORY ARCHITECTURE"
-    },
-    {
-     "path": "skills/lucas-alpay-storytelling/references/prompts/lucas-alpay-b20-transformation-narrative.md",
-     "title": "LUCAS ALPAY - BRAND TRANSFORMATION NARRATIVE"
-    },
-    {
-     "path": "skills/lucas-alpay-storytelling/references/prompts/lucas-alpay-b25-crisis-narrative.md",
-     "title": "LUCAS ALPAY - BRAND CRISIS NARRATIVE"
-    },
-    {
-     "path": "skills/lucas-alpay-storytelling/references/prompts/lucas-alpay-b27-subtext-sales.md",
-     "title": "LUCAS ALPAY - SUBTEXT SALES COPY"
-    },
-    {
-     "path": "skills/lucas-alpay-storytelling/references/prompts/lucas-alpay-b30-emotional-authenticity.md",
-     "title": "LUCAS ALPAY - EMOTIONAL AUTHENTICITY COPY"
-    }
-   ]
-  },
-  {
-   "skill": "fareed-zakaria-writing-mastery",
-   "prompts": [
-    {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_commercial_01_hook_architecture.md",
-     "title": "ZAKARIA METHOD: SCROLL-STOPPING HOOK ARCHITECTURE"
-    },
-    {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_commercial_05_haiku_compression.md",
-     "title": "ZAKARIA METHOD: HAIKU COPY COMPRESSION SYSTEM"
-    },
-    {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_commercial_07_authentic_voice.md",
-     "title": "ZAKARIA METHOD: AUTHENTIC BRAND VOICE ARCHITECTURE"
-    },
-    {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_commercial_08_content_multiplication.md",
-     "title": "ZAKARIA METHOD: CONTENT MULTIPLICATION ENGINE"
-    },
-    {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_01_speed_reading.md",
-     "title": "FAREED ZAKARIA - SPEED-READING & BOOK EXTRACTION CROWN JEWEL PROMPT"
-    },
-    {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_10_deep_read_craft.md",
-     "title": "FAREED ZAKARIA - DEEP READ CRAFT EXTRACTION CROWN JEWEL PROMPT"
-    }
-   ]
-  },
-  {
-   "skill": "josh-sanders-linkedin-growth",
-   "prompts": [
-    {
-     "path": "skills/josh-sanders-linkedin-growth/references/prompts/high-dwell-carousel-creator.md",
-     "title": "Josh Sanders \u2014 High-Dwell Carousel Creator"
-    },
-    {
-     "path": "skills/josh-sanders-linkedin-growth/references/prompts/high-ticket-cohort-pitch.md",
-     "title": "Josh Sanders \u2014 High-Ticket Cohort Pitch"
-    },
-    {
-     "path": "skills/josh-sanders-linkedin-growth/references/prompts/inspiration-bank-builder.md",
-     "title": "Josh Sanders \u2014 Inspiration Bank Builder"
-    },
-    {
-     "path": "skills/josh-sanders-linkedin-growth/references/prompts/ugly-numbers-pattern-interrupt.md",
-     "title": "Josh Sanders \u2014 Ugly Numbers Pattern Interrupt"
-    },
-    {
-     "path": "skills/josh-sanders-linkedin-growth/references/prompts/waitlist-to-webinar-architect.md",
-     "title": "Josh Sanders \u2014 Waitlist To Webinar Architect"
-    }
-   ]
-  },
-  {
-   "skill": "linkedin-2026-format-arbitrage",
-   "prompts": [
-    {
-     "path": "skills/linkedin-2026-format-arbitrage/references/prompts/comment-to-download.md",
-     "title": "The Comment-to-Download Flywheel"
-    },
-    {
-     "path": "skills/linkedin-2026-format-arbitrage/references/prompts/contextual-selfie.md",
-     "title": "The Contextual Selfie (Costly Signal)"
-    },
-    {
-     "path": "skills/linkedin-2026-format-arbitrage/references/prompts/document-carousel.md",
-     "title": "The Document Carousel (Apex Predator)"
-    },
-    {
-     "path": "skills/linkedin-2026-format-arbitrage/references/prompts/self-pinned-comment.md",
-     "title": "The Self-Pinned Comment Strategy"
-    },
-    {
-     "path": "skills/linkedin-2026-format-arbitrage/references/prompts/trapdoor-text-post.md",
-     "title": "The Trapdoor Text Post"
-    }
-   ]
-  },
-  {
-   "skill": "david-bayer-elite-communication",
-   "prompts": [
-    {
-     "path": "skills/david-bayer-elite-communication/references/prompts/expanded_cj_01_desperation_eliminator.md",
-     "title": "DAVID BAYER - SALES COPY DESPERATION ELIMINATOR"
-    },
-    {
-     "path": "skills/david-bayer-elite-communication/references/prompts/expanded_cj_02_friend_coffee_copy.md",
-     "title": "DAVID BAYER - FRIEND-COFFEE CONVERSION COPY ENGINE"
-    },
-    {
-     "path": "skills/david-bayer-elite-communication/references/prompts/expanded_cj_04_lived_experience_content.md",
-     "title": "DAVID BAYER - LIVED EXPERIENCE AUTHORITY CONTENT ENGINE"
-    },
-    {
-     "path": "skills/david-bayer-elite-communication/references/prompts/expanded_cj_06_brand_voice_dna.md",
-     "title": "DAVID BAYER - BRAND VOICE DNA EXTRACTOR"
-    },
-    {
-     "path": "skills/david-bayer-elite-communication/references/prompts/expanded_cj_08_authenticity_viral.md",
-     "title": "DAVID BAYER - AUTHENTICITY-VIRAL CONTENT ENGINE"
-    }
-   ]
-  },
-  {
-   "skill": "jeremy-miner-identity-persuasion",
-   "prompts": [
-    {
-     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/08-you-know-the-type.md",
-     "title": "\"You Know The Type\" Content Engine"
-    },
-    {
-     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/09-consequence-stack-email.md",
-     "title": "Consequence-Stack Email Sequence Builder"
-    },
-    {
-     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/11-story-content.md",
-     "title": "Third-Person Story Transfer Content Creator"
-    },
-    {
-     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/12-offer-architecture.md",
-     "title": "Identity-Based Offer Architecture"
-    },
-    {
-     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/14-viral-hook.md",
-     "title": "Identity-Trigger Viral Hook Calculator"
-    }
-   ]
-  },
-  {
-   "skill": "maria-wendt-digital-products",
-   "prompts": [
-    {
-     "path": "skills/maria-wendt-digital-products/references/prompts/crown_jewel_05_content_calendar_engine.md",
-     "title": "MARIA WENDT - CONTENT CALENDAR ENGINE"
-    },
-    {
-     "path": "skills/maria-wendt-digital-products/references/prompts/crown_jewel_06_invitation_energy_sales_copy.md",
-     "title": "MARIA WENDT - INVITATION-ENERGY SALES COPY GENERATOR"
-    },
-    {
-     "path": "skills/maria-wendt-digital-products/references/prompts/crown_jewel_07_social_proof_accelerator.md",
-     "title": "MARIA WENDT - SOCIAL PROOF ACCELERATOR"
-    },
-    {
-     "path": "skills/maria-wendt-digital-products/references/prompts/crown_jewel_13_content_multiplication_machine.md",
-     "title": "MARIA WENDT - CONTENT MULTIPLICATION MACHINE"
-    },
-    {
-     "path": "skills/maria-wendt-digital-products/references/prompts/crown_jewel_17_content_revenue_analyzer.md",
-     "title": "MARIA WENDT - CONTENT REVENUE ANALYZER"
-    }
-   ]
-  },
-  {
-   "skill": "jasmin-alic-linkedin-growth",
-   "prompts": [
-    {
-     "path": "skills/jasmin-alic-linkedin-growth/references/prompts/rhythmic-story-rewriter.md",
-     "title": "Jasmin Alic \u2014 Rhythmic Story Rewriter"
-    },
-    {
-     "path": "skills/jasmin-alic-linkedin-growth/references/prompts/three-line-formatter.md",
-     "title": "Jasmin Alic \u2014 Three Line Formatter"
-    },
-    {
-     "path": "skills/jasmin-alic-linkedin-growth/references/prompts/visual-contrast-image-director.md",
-     "title": "Jasmin Alic \u2014 Visual Contrast Image Director"
-    },
-    {
-     "path": "skills/jasmin-alic-linkedin-growth/references/prompts/vulnerable-to-valuable-bridge.md",
-     "title": "Jasmin Alic \u2014 Vulnerable-to-Valuable Bridge"
-    }
-   ]
-  },
-  {
-   "skill": "authority-hacker-ai-social-media",
-   "prompts": [
-    {
-     "path": "skills/authority-hacker-ai-social-media/references/prompts/content-humanizer.md",
-     "title": "Authority Hacker \u2014 Content Humanizer"
-    },
-    {
-     "path": "skills/authority-hacker-ai-social-media/references/prompts/duality-hook-engineer.md",
-     "title": "Authority Hacker \u2014 Duality Hook Engineer"
-    },
-    {
-     "path": "skills/authority-hacker-ai-social-media/references/prompts/hook-dominance-scorer.md",
-     "title": "Authority Hacker \u2014 Hook-Dominance Scorer"
-    },
-    {
-     "path": "skills/authority-hacker-ai-social-media/references/prompts/three-angle-content-splitter.md",
-     "title": "Authority Hacker \u2014 Three-Angle Content Splitter"
-    }
-   ]
-  },
-  {
-   "skill": "jim-oshaughnessy-philosopher-financier",
-   "prompts": [
-    {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/aha-moment-engineering.md",
-     "title": "JIM O'SHAUGHNESSY - TRANSFORMATION CONTENT ENGINE"
-    },
-    {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/career-publication-strategy.md",
-     "title": "JIM O'SHAUGHNESSY - STRATEGIC CONTENT POSITIONING ARCHITECT"
-    },
-    {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/coaching-diagnostic-engine.md",
-     "title": "JIM O'SHAUGHNESSY - COACHING DIAGNOSTIC ENGINE"
-    },
-    {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/strategic-content-positioning-architect.md",
-     "title": "JIM O'SHAUGHNESSY - STRATEGIC CONTENT POSITIONING ARCHITECT"
-    }
-   ]
-  },
-  {
-   "skill": "mitch-albom-writing-mastery",
-   "prompts": [
-    {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/newsletter-dominance.md",
-     "title": "Newsletter Dominance Engine"
-    },
-    {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/opening-lines-hooks.md",
-     "title": "Opening Lines & Hooks"
-    },
-    {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/scroll-stopping-hook.md",
-     "title": "Scroll-Stopping Hook Generator"
-    },
-    {
-     "path": "skills/mitch-albom-writing-mastery/references/prompts/transformation-copy-engine.md",
-     "title": "Transformation Copy Engine"
-    }
-   ]
-  },
   {
    "skill": "alex-copper-creative-strategy",
    "prompts": [
     {
-     "path": "skills/alex-copper-creative-strategy/references/prompts/authority-content-engine.md",
-     "title": "FRESH - AUTHORITY CONTENT ENGINE CROWN JEWEL PROMPT"
+     "path": "skills/alex-copper-creative-strategy/references/prompts/ai-visual-generation-protocol.md",
+     "title": "ALEX COOPER - AI VISUAL GENERATION PROTOCOL CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/alex-copper-creative-strategy/references/prompts/proof-architecture-generator.md",
-     "title": "FRESH - PROOF ARCHITECTURE GENERATOR CROWN JEWEL PROMPT"
+     "path": "skills/alex-copper-creative-strategy/references/prompts/competitive-creative-intelligence.md",
+     "title": "ALEX COOPER - COMPETITIVE CREATIVE INTELLIGENCE CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/alex-copper-creative-strategy/references/prompts/visual-telegraph-hook-architect.md",
-     "title": "ALEX COOPER - VISUAL TELEGRAPH HOOK ARCHITECT CROWN JEWEL PROMPT"
-    }
-   ]
-  },
-  {
-   "skill": "donald-miller-culture-turnaround",
-   "prompts": [
-    {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p19-peace-sales-copy.md",
-     "title": "PEACE Framework Sales Copy Architecture (Synthesis Prompt)"
+     "path": "skills/alex-copper-creative-strategy/references/prompts/context-engineering-protocol.md",
+     "title": "ALEX COOPER - CONTEXT ENGINEERING PROTOCOL CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p20-soundbite-positioning.md",
-     "title": "Sound Bite Brand Positioning Engine (Synthesis Prompt)"
+     "path": "skills/alex-copper-creative-strategy/references/prompts/creative-brief-engineering.md",
+     "title": "ALEX COOPER - CREATIVE BRIEF ENGINEERING CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p21-causal-chain-content.md",
-     "title": "Causal Chain Content Strategy System (Synthesis Prompt)"
-    }
-   ]
-  },
-  {
-   "skill": "manus-ai-consulting",
-   "prompts": [
-    {
-     "path": "skills/manus-ai-consulting/references/prompts/crown_jewel_prompt_04_growth_landscape.md",
-     "title": "MARKETING AGAINST THE GRAIN - GROWTH RATE INDUSTRY LANDSCAPE MAPPER + PLAYBOOK EXTRACTOR"
+     "path": "skills/alex-copper-creative-strategy/references/prompts/creative-team-builder.md",
+     "title": "ALEX COOPER - CREATIVE TEAM BUILDER CROWN JEWEL PROMPT"
     },
     {
-     "path": "skills/manus-ai-consulting/references/prompts/crown_jewel_prompt_09_content_gap_warfare.md",
-     "title": "MARKETING AGAINST THE GRAIN - COMPETITIVE CONTENT GAP WARFARE ENGINE"
+     "path": "skills/alex-copper-creative-strategy/references/prompts/creator-casting-matrix.md",
+     "title": "ALEX COOPER - CREATOR CASTING MATRIX CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/alex-copper-creative-strategy/references/prompts/custom-gpt-architecture-blueprint.md",
+     "title": "ALEX COOPER - CUSTOM GPT ARCHITECTURE BLUEPRINT CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/alex-copper-creative-strategy/references/prompts/funnel-stage-optimizer.md",
+     "title": "ALEX COOPER - FUNNEL STAGE OPTIMIZER CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/alex-copper-creative-strategy/references/prompts/high-ticket-client-acquisition.md",
+     "title": "FRESH - HIGH-TICKET CLIENT ACQUISITION SYSTEM CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/alex-copper-creative-strategy/references/prompts/long-form-vssl-architect.md",
+     "title": "ALEX COOPER - LONG-FORM VSSL ARCHITECT CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/alex-copper-creative-strategy/references/prompts/market-sophistication-calibrator.md",
+     "title": "ALEX COOPER - MARKET SOPHISTICATION CALIBRATOR CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/alex-copper-creative-strategy/references/prompts/organic-to-paid-trend-translator.md",
+     "title": "ALEX COOPER - ORGANIC-TO-PAID TREND TRANSLATOR CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/alex-copper-creative-strategy/references/prompts/performance-forensics-protocol.md",
+     "title": "ALEX COOPER - PERFORMANCE FORENSICS CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/alex-copper-creative-strategy/references/prompts/premium-service-packaging.md",
+     "title": "FRESH - PREMIUM SERVICE PACKAGING PROTOCOL CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/alex-copper-creative-strategy/references/prompts/public-demonstration-protocol.md",
+     "title": "FRESH - PUBLIC DEMONSTRATION PROTOCOL CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/alex-copper-creative-strategy/references/prompts/research-depth-protocol.md",
+     "title": "ALEX COOPER - RESEARCH DEPTH PROTOCOL CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/alex-copper-creative-strategy/references/prompts/script-craft-protocol.md",
+     "title": "ALEX COOPER - SCRIPT CRAFT PROTOCOL CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/alex-copper-creative-strategy/references/prompts/tiktok-shop-creator-study-protocol.md",
+     "title": "ALEX COOPER - TIKTOK SHOP CREATOR STUDY PROTOCOL CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/alex-copper-creative-strategy/references/prompts/winner-iteration-engine.md",
+     "title": "ALEX COOPER - WINNER ITERATION ENGINE CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/alex-copper-creative-strategy/references/prompts/winner-stacking-architect.md",
+     "title": "ALEX COOPER - WINNER STACKING ARCHITECT CROWN JEWEL PROMPT"
     }
    ]
   },
   {
-   "skill": "david-deutsch-copywriting",
+   "skill": "ali-abdaal-action-bias",
    "prompts": [
     {
-     "path": "skills/david-deutsch-copywriting/references/prompts/V8-implementation.md",
-     "title": "Implementation Mastery Framework"
+     "path": "skills/ali-abdaal-action-bias/references/prompts/crown_jewel_prompt_10_expertise_validation.md",
+     "title": "ALI ABDAAL x EXPERTISE MONETIZATION"
+    },
+    {
+     "path": "skills/ali-abdaal-action-bias/references/prompts/crown_jewel_prompt_11_imposter_syndrome.md",
+     "title": "ALI ABDAAL x EXPERTISE MONETIZATION"
+    },
+    {
+     "path": "skills/ali-abdaal-action-bias/references/prompts/crown_jewel_prompt_12_minimum_viable_launch.md",
+     "title": "ALI ABDAAL x EXPERTISE MONETIZATION"
+    },
+    {
+     "path": "skills/ali-abdaal-action-bias/references/prompts/crown_jewel_prompt_13_content_paralysis.md",
+     "title": "ALI ABDAAL x EXPERTISE MONETIZATION"
+    },
+    {
+     "path": "skills/ali-abdaal-action-bias/references/prompts/crown_jewel_prompt_14_revenue_reality.md",
+     "title": "ALI ABDAAL x EXPERTISE MONETIZATION"
+    },
+    {
+     "path": "skills/ali-abdaal-action-bias/references/prompts/crown_jewel_prompt_15_positioning.md",
+     "title": "ALI ABDAAL x EXPERTISE MONETIZATION"
+    },
+    {
+     "path": "skills/ali-abdaal-action-bias/references/prompts/crown_jewel_prompt_16_offer_clarity.md",
+     "title": "ALI ABDAAL x EXPERTISE MONETIZATION"
+    },
+    {
+     "path": "skills/ali-abdaal-action-bias/references/prompts/crown_jewel_prompt_17_authority_sprint.md",
+     "title": "ALI ABDAAL x EXPERTISE MONETIZATION"
+    },
+    {
+     "path": "skills/ali-abdaal-action-bias/references/prompts/crown_jewel_prompt_1_prison_diagnosis.md",
+     "title": "ALI ABDAAL - PRISON OF CERTAINTY DIAGNOSIS & ESCAPE PLAN GENERATOR"
+    },
+    {
+     "path": "skills/ali-abdaal-action-bias/references/prompts/crown_jewel_prompt_2_two_way_door.md",
+     "title": "ALI ABDAAL - TWO-WAY DOOR DECISION ACCELERATOR"
+    },
+    {
+     "path": "skills/ali-abdaal-action-bias/references/prompts/crown_jewel_prompt_3_experiment_cycle.md",
+     "title": "ALI ABDAAL - EXPERIMENT CYCLE DESIGNER"
+    },
+    {
+     "path": "skills/ali-abdaal-action-bias/references/prompts/crown_jewel_prompt_4_overthinking_tax.md",
+     "title": "ALI ABDAAL - OVERTHINKING TAX CALCULATOR & URGENCY GENERATOR"
+    },
+    {
+     "path": "skills/ali-abdaal-action-bias/references/prompts/crown_jewel_prompt_5_mode_switching.md",
+     "title": "ALI ABDAAL - DEFEND MODE \u2192 DISCOVER MODE SWITCHING PROTOCOL"
+    },
+    {
+     "path": "skills/ali-abdaal-action-bias/references/prompts/crown_jewel_prompt_6_wayfinding.md",
+     "title": "ALI ABDAAL - WAYFINDING LIFE DIRECTION NAVIGATOR"
+    },
+    {
+     "path": "skills/ali-abdaal-action-bias/references/prompts/crown_jewel_prompt_7_certainty_threshold.md",
+     "title": "ALI ABDAAL - CERTAINTY THRESHOLD CALIBRATOR & ACTION TRIGGER"
+    },
+    {
+     "path": "skills/ali-abdaal-action-bias/references/prompts/crown_jewel_prompt_8_shiny_object.md",
+     "title": "ALI ABDAAL x EXPERTISE MONETIZATION"
+    },
+    {
+     "path": "skills/ali-abdaal-action-bias/references/prompts/crown_jewel_prompt_9_first_dollar.md",
+     "title": "ALI ABDAAL x EXPERTISE MONETIZATION"
     }
    ]
   },
   {
-   "skill": "tommy-clark-linkedin-growth",
+   "skill": "omar-eddaoudi-premium-ads",
    "prompts": [
     {
-     "path": "skills/tommy-clark-linkedin-growth/references/prompts/how-i-narrative-pivot.md",
-     "title": "Tommy Clark \u2014 How I Narrative Pivot"
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/cj_01_removal_game_copywriting_engine.md",
+     "title": "OMAR EDDAOUDI - REMOVAL GAME COPYWRITING ENGINE"
+    },
+    {
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/cj_07_authority_content_pillar_system.md",
+     "title": "OMAR EDDAOUDI - AUTHORITY CONTENT PILLAR SYSTEM"
+    },
+    {
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/cj_08_conviction_copy_converter.md",
+     "title": "OMAR EDDAOUDI - CONVICTION COPY CONVERTER"
+    },
+    {
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/cj_10_certainty_engineered_offer.md",
+     "title": "OMAR EDDAOUDI - CERTAINTY-ENGINEERED OFFER ARCHITECTURE"
+    },
+    {
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_05_buyers_guide_content_creator.md",
+     "title": "OMAR EDDAOUDI - BUYER'S GUIDE CONTENT CREATOR"
+    },
+    {
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_08_personal_brand_debate_ownership.md",
+     "title": "OMAR EDDAOUDI - PERSONAL BRAND DEBATE OWNERSHIP SYSTEM"
+    },
+    {
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_09_premium_content_hook_system.md",
+     "title": "OMAR EDDAOUDI - PREMIUM CONTENT HOOK SYSTEM"
+    },
+    {
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_10_objection_first_content_strategy.md",
+     "title": "OMAR EDDAOUDI - OBJECTION-FIRST CONTENT STRATEGY"
+    },
+    {
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_11_trust_through_doubt_voicing.md",
+     "title": "OMAR EDDAOUDI - TRUST THROUGH DOUBT-VOICING CONTENT CREATOR"
+    },
+    {
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_12_category_of_one_personal_brand.md",
+     "title": "OMAR EDDAOUDI - CATEGORY OF ONE PERSONAL BRAND BUILDER"
+    },
+    {
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_13_7030_content_architecture.md",
+     "title": "OMAR EDDAOUDI - 70/30 CONTENT ARCHITECTURE SYSTEM"
+    },
+    {
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_15_silent_authority_content_creator.md",
+     "title": "OMAR EDDAOUDI - SILENT AUTHORITY CONTENT CREATOR"
+    },
+    {
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_17_personal_brand_standard_setter.md",
+     "title": "OMAR EDDAOUDI - PERSONAL BRAND STANDARD-SETTER SYSTEM"
+    },
+    {
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_30_depth_over_volume_content.md",
+     "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 DEPTH-OVER-VOLUME CONTENT CREATOR"
+    },
+    {
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_33_levels_to_it_content_revealer.md",
+     "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 \"LEVELS TO IT\" CONTENT REVEALER"
+    },
+    {
+     "path": "skills/omar-eddaoudi-premium-ads/references/prompts/prompt_35_outcome_engineered_content_system.md",
+     "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 OUTCOME-ENGINEERED CONTENT SYSTEM"
     }
    ]
   },
   {
-   "skill": "andreessen-horowitz-new-media",
+   "skill": "adam-enfroy-affiliate-marketing",
    "prompts": [
     {
-     "path": "skills/andreessen-horowitz-new-media/references/prompts/03-oral-written-culture-architect.md",
-     "title": "Marc Andreessen & Ben Horowitz \u2014 Oral/Written Culture Content Architect"
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/01-niche-validation.md",
+     "title": "Adam Enfroy \u2014 Hobby Niche Validator"
+    },
+    {
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/02-90-day-plan.md",
+     "title": "Adam Enfroy \u2014 6-Month Blog Launch Roadmap"
+    },
+    {
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/04-youtube-script.md",
+     "title": "Adam Enfroy \u2014 YouTube Affiliate Script Producer"
+    },
+    {
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/05-topical-authority.md",
+     "title": "Adam Enfroy \u2014 Topical Authority Cluster Architect"
+    },
+    {
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/06-link-optimization.md",
+     "title": "Adam Enfroy \u2014 Affiliate Link Optimization Auditor"
+    },
+    {
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/07-winner-scale.md",
+     "title": "Adam Enfroy \u2014 Winner Identification & Scale Protocol"
+    },
+    {
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/08-revenue-architecture.md",
+     "title": "Adam Enfroy \u2014 Revenue Architecture Designer"
+    },
+    {
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/09-authority-positioning.md",
+     "title": "Adam Enfroy \u2014 Authority Positioning Builder"
+    },
+    {
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/14-conversion-narrative.md",
+     "title": "Adam Enfroy \u2014 Conversion Narrative Builder"
+    },
+    {
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/15-market-intelligence.md",
+     "title": "Adam Enfroy \u2014 Market Intelligence Monitor"
+    },
+    {
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/16-omnichannel-authority.md",
+     "title": "Adam Enfroy \u2014 Omnichannel Authority System"
+    },
+    {
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/ad-revenue-accelerator.md",
+     "title": "Adam Enfroy \u2014 Ad Revenue Accelerator"
+    },
+    {
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/affiliate-comparison-post.md",
+     "title": "Adam Enfroy \u2014 Affiliate Comparison Post Builder"
+    },
+    {
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/affiliate-program-selector.md",
+     "title": "Adam Enfroy \u2014 Three-Program Affiliate Selector"
+    },
+    {
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/infinite-keyword-loop.md",
+     "title": "Adam Enfroy \u2014 Infinite Keyword Loop Discoverer"
+    },
+    {
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/traffic-diversification.md",
+     "title": "Adam Enfroy \u2014 Traffic Diversification Strategist"
     }
    ]
   },
   {
-   "skill": "andy-lo-premium-websites",
+   "skill": "omar-eddaoudi",
    "prompts": [
     {
-     "path": "skills/andy-lo-premium-websites/references/prompts/06-content-migration-agent.md",
-     "title": "Content Migration Agent"
+     "path": "skills/omar-eddaoudi/references/prompts/aspirational-friction-engineer.md",
+     "title": "Luxury Branding Psychology \u2014 Aspirational Friction Engineer"
+    },
+    {
+     "path": "skills/omar-eddaoudi/references/prompts/category-of-one-designer.md",
+     "title": "Luxury Branding Psychology \u2014 Category Of One Designer"
+    },
+    {
+     "path": "skills/omar-eddaoudi/references/prompts/controlled-distance-copy.md",
+     "title": "Luxury Branding Psychology \u2014 Controlled Distance Copy"
+    },
+    {
+     "path": "skills/omar-eddaoudi/references/prompts/exclusionary-tension-sales-copy.md",
+     "title": "Luxury Branding Psychology \u2014 Exclusionary Tension Sales Copy"
+    },
+    {
+     "path": "skills/omar-eddaoudi/references/prompts/friction-based-funnel-architect.md",
+     "title": "Luxury Branding Psychology \u2014 Friction Based Funnel Architect"
+    },
+    {
+     "path": "skills/omar-eddaoudi/references/prompts/heroic-archetype-storyteller.md",
+     "title": "Luxury Branding Psychology \u2014 Heroic Archetype Storyteller"
+    },
+    {
+     "path": "skills/omar-eddaoudi/references/prompts/identity-mirroring-strategist.md",
+     "title": "Luxury Branding Psychology \u2014 Identity Mirroring Strategist"
+    },
+    {
+     "path": "skills/omar-eddaoudi/references/prompts/silence-premium-copywriter.md",
+     "title": "Luxury Branding Psychology \u2014 Silence Premium Copywriter"
+    },
+    {
+     "path": "skills/omar-eddaoudi/references/prompts/social-signal-precedence-mapper.md",
+     "title": "Luxury Branding Psychology \u2014 Social Signal Precedence Mapper"
+    },
+    {
+     "path": "skills/omar-eddaoudi/references/prompts/value-inversion-offer-creator.md",
+     "title": "Luxury Branding Psychology \u2014 Value Inversion Offer Creator"
     }
    ]
   },
   {
-   "skill": "april-dunford-positioning",
+   "skill": "robert-mack-comedy-writing",
    "prompts": [
     {
-     "path": "skills/april-dunford-positioning/references/prompts/10-proof-stack-assembler.md",
-     "title": "Proof Stack Assembler"
-    }
-   ]
-  },
-  {
-   "skill": "darrel-wilson-ai-monetization",
-   "prompts": [
+     "path": "skills/robert-mack-comedy-writing/references/prompts/comedy-content-adapter.md",
+     "title": "Robert Mack \u2014 Comedy Content Adapter"
+    },
     {
-     "path": "skills/darrel-wilson-ai-monetization/references/prompts/proof-first-content.md",
-     "title": "Proof-First Content"
-    }
-   ]
-  },
-  {
-   "skill": "dr-kriukow-humanization",
-   "prompts": [
+     "path": "skills/robert-mack-comedy-writing/references/prompts/comedy-hook-generator.md",
+     "title": "Robert Mack \u2014 Comedy Hook Generator"
+    },
     {
-     "path": "skills/dr-kriukow-humanization/references/prompts/meaning-extraction-rewriter.md",
-     "title": "Dr. Kriukow \u2014 Meaning Extraction Rewriter"
-    }
-   ]
-  },
-  {
-   "skill": "ethan-smith-aeo",
-   "prompts": [
+     "path": "skills/robert-mack-comedy-writing/references/prompts/direct-response-personality.md",
+     "title": "ROBERT MAC \u00d7 BOND HALBERT - DIRECT RESPONSE PERSONALITY ENGINE"
+    },
     {
-     "path": "skills/ethan-smith-aeo/references/prompts/content-information-gain-audit.md",
-     "title": "Content Information Gain Audit"
-    }
-   ]
-  },
-  {
-   "skill": "futurepedia-prompt-engineering",
-   "prompts": [
+     "path": "skills/robert-mack-comedy-writing/references/prompts/funnel-entertainment-system.md",
+     "title": "ROBERT MAC \u00d7 RUSSELL BRUNSON - FUNNEL ENTERTAINMENT SYSTEM"
+    },
     {
-     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_03_content_multiplication.md",
-     "title": "FUTUREPEDIA - MULTI-FORMAT CONTENT MULTIPLICATION CROWN JEWEL PROMPT"
-    }
-   ]
-  },
-  {
-   "skill": "jonathan-courtney-marketing",
-   "prompts": [
+     "path": "skills/robert-mack-comedy-writing/references/prompts/linkedin-comedy-intelligence.md",
+     "title": "LINKEDIN COMEDY INTELLIGENCE ENGINE"
+    },
     {
-     "path": "skills/jonathan-courtney-marketing/references/prompts/03-content-to-lead-magnet.md",
-     "title": "Jonathan Courtney \u2014 Content-to-Lead-Magnet Pipeline"
-    }
-   ]
-  },
-  {
-   "skill": "jonathan-franzen-storytelling",
-   "prompts": [
+     "path": "skills/robert-mack-comedy-writing/references/prompts/remarkable-brand-voice.md",
+     "title": "ROBERT MAC \u00d7 SETH GODIN - REMARKABLE BRAND VOICE ENGINE"
+    },
     {
-     "path": "skills/jonathan-franzen-storytelling/references/prompts/minimal-detail-maximum-desire.md",
-     "title": "Jonathan Franzen - Minimal Detail Maximum Desire Copy Engine"
-    }
-   ]
-  },
-  {
-   "skill": "joshua-smith-real-estate",
-   "prompts": [
-    {
-     "path": "skills/joshua-smith-real-estate/references/prompts/team-coaching-playbook.md",
-     "title": "Team Coaching Playbook"
-    }
-   ]
-  },
-  {
-   "skill": "kittl-graphic-design",
-   "prompts": [
-    {
-     "path": "skills/kittl-graphic-design/references/prompts/crown_jewel_13_color_palette_extraction_engine.md",
-     "title": "KITTL - COLOR PALETTE EXTRACTION ENGINE CROWN JEWEL PROMPT"
-    }
-   ]
-  },
-  {
-   "skill": "lance-yichao-context-engineering",
-   "prompts": [
-    {
-     "path": "skills/lance-yichao-context-engineering/references/prompts/06-future-proof-validator.md",
-     "title": "LANCE MARTIN & PEAK JI \u2014 FUTURE-PROOF ARCHITECTURE VALIDATOR"
-    }
-   ]
-  },
-  {
-   "skill": "lindsay-ai-consulting",
-   "prompts": [
-    {
-     "path": "skills/lindsay-ai-consulting/references/prompts/linkedin-outreach.md",
-     "title": "LinkedIn Warm Outreach Strategy"
-    }
-   ]
-  },
-  {
-   "skill": "lulu-cheng-meservey-communications",
-   "prompts": [
-    {
-     "path": "skills/lulu-cheng-meservey-communications/references/prompts/p08-conviction-copy-transmutation.md",
-     "title": "Conviction Copy Transmutation Engine"
-    }
-   ]
-  },
-  {
-   "skill": "michael-bernoff-identity-engineering",
-   "prompts": [
-    {
-     "path": "skills/michael-bernoff-identity-engineering/references/prompts/identity-shift-copy.md",
-     "title": "Identity-Shift Copywriting Engine"
-    }
-   ]
-  },
-  {
-   "skill": "mike-foutia-marketing-tools",
-   "prompts": [
-    {
-     "path": "skills/mike-foutia-marketing-tools/references/prompts/brand-bible-builder.md",
-     "title": "Mike Foutia \u2014 Brand Bible Builder"
-    }
-   ]
-  },
-  {
-   "skill": "nate-b-jones-ai-taste-mastery",
-   "prompts": [
-    {
-     "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts/taste-extraction-engineer.md",
-     "title": "The Taste Extraction Engineer"
-    }
-   ]
-  },
-  {
-   "skill": "nate-b-jones-intent-engineering",
-   "prompts": [
-    {
-     "path": "skills/nate-b-jones-intent-engineering/references/prompts/guardrails-extractor.md",
-     "title": "Guardrails Extractor"
+     "path": "skills/robert-mack-comedy-writing/references/prompts/viral-comedy-system.md",
+     "title": "ROBERT MAC \u00d7 NICOLAS COLE - VIRAL COMEDY CONTENT SYSTEM"
     }
    ]
   },
@@ -798,8 +381,355 @@
    "skill": "nick-saraev-agentic-workflows",
    "prompts": [
     {
-     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_12_productized_offer_architect.md",
-     "title": "FRESH METHOD - PRODUCTIZED OFFER ARCHITECT CROWN JEWEL PROMPT"
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_13_case_study_social_proof_engine.md",
+     "title": "FRESH METHOD - CASE STUDY & SOCIAL PROOF ENGINE CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_m01_headline_hook_alchemist.md",
+     "title": "HEADLINE & HOOK ALCHEMIST CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_m02_sales_copy_virtuoso.md",
+     "title": "SALES COPY VIRTUOSO CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_m05_viral_content_engineer.md",
+     "title": "VIRAL CONTENT ENGINEER CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_m07_email_sequence_architect.md",
+     "title": "EMAIL SEQUENCE ARCHITECT CROWN JEWEL PROMPT"
+    },
+    {
+     "path": "skills/nick-saraev-agentic-workflows/references/prompts/crown_jewel_m08_content_pillar_ideation_system.md",
+     "title": "CONTENT PILLAR & IDEATION SYSTEM CROWN JEWEL PROMPT"
+    }
+   ]
+  },
+  {
+   "skill": "oscar-hoglund-sound-storytelling",
+   "prompts": [
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/01-empty-calorie-transform.md",
+     "title": "Empty-Calorie Content Transformation"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/08-body-copy.md",
+     "title": "Body Copy Engine"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/10-infinite-consumption.md",
+     "title": "Infinite Consumption Content"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/12-self-proving-viral.md",
+     "title": "Self-Proving Viral Content"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/15-multi-sensory.md",
+     "title": "Multi-Sensory Content Design"
+    },
+    {
+     "path": "skills/oscar-hoglund-sound-storytelling/references/prompts/content-emotional-autopsy.md",
+     "title": "Content Emotional Autopsy"
+    }
+   ]
+  },
+  {
+   "skill": "sabri-suby-ai-advertising",
+   "prompts": [
+    {
+     "path": "skills/sabri-suby-ai-advertising/references/prompts/ad-body-copy.md",
+     "title": "Ad Body Copy Creation"
+    },
+    {
+     "path": "skills/sabri-suby-ai-advertising/references/prompts/buyer-avatar-profiler.md",
+     "title": "Buyer Avatar Psychographic Profiler"
+    },
+    {
+     "path": "skills/sabri-suby-ai-advertising/references/prompts/competition-intelligence.md",
+     "title": "Competition Intelligence Extraction"
+    },
+    {
+     "path": "skills/sabri-suby-ai-advertising/references/prompts/copy-weakness-audit.md",
+     "title": "Copy Weakness Audit System"
+    },
+    {
+     "path": "skills/sabri-suby-ai-advertising/references/prompts/forum-foraging.md",
+     "title": "Forum Foraging Pain Extraction"
+    },
+    {
+     "path": "skills/sabri-suby-ai-advertising/references/prompts/offer-stack-engineering.md",
+     "title": "Offer Stack Engineering"
+    }
+   ]
+  },
+  {
+   "skill": "seena-rez-tiktok-commerce",
+   "prompts": [
+    {
+     "path": "skills/seena-rez-tiktok-commerce/references/prompts/content-idea-factory.md",
+     "title": "Viral Content Idea Factory & Calendar"
+    },
+    {
+     "path": "skills/seena-rez-tiktok-commerce/references/prompts/email-sequence-architect.md",
+     "title": "Hyperdopamine Email Sequence Architect"
+    },
+    {
+     "path": "skills/seena-rez-tiktok-commerce/references/prompts/feedback-loop-analyzer.md",
+     "title": "Content Learning Feedback Loop"
+    },
+    {
+     "path": "skills/seena-rez-tiktok-commerce/references/prompts/hyperdopamine-hook-generator.md",
+     "title": "Hyperdopamine Hook Generator"
+    },
+    {
+     "path": "skills/seena-rez-tiktok-commerce/references/prompts/landing-page-copywriter.md",
+     "title": "Hyperdopamine Landing Page Copywriter"
+    },
+    {
+     "path": "skills/seena-rez-tiktok-commerce/references/prompts/voiceover-copy-engine.md",
+     "title": "Viral Voiceover Copy Engine"
+    }
+   ]
+  },
+  {
+   "skill": "shaan-puri-storytelling",
+   "prompts": [
+    {
+     "path": "skills/shaan-puri-storytelling/references/prompts/09-viral-content-engineering.md",
+     "title": "SHAAN PURI - VIRAL CONTENT ENGINEERING SYSTEM"
+    },
+    {
+     "path": "skills/shaan-puri-storytelling/references/prompts/10-brand-voice-crystallizer.md",
+     "title": "SHAAN PURI - BRAND VOICE & POSITION CRYSTALLIZER"
+    },
+    {
+     "path": "skills/shaan-puri-storytelling/references/prompts/11-email-sequence-architect.md",
+     "title": "SHAAN PURI - EMAIL SEQUENCE STORY ARCHITECT"
+    },
+    {
+     "path": "skills/shaan-puri-storytelling/references/prompts/12-social-ideation-matrix.md",
+     "title": "SHAAN PURI - SOCIAL CONTENT IDEATION MATRIX"
+    },
+    {
+     "path": "skills/shaan-puri-storytelling/references/prompts/content-diagnosis-reframe.md",
+     "title": "SHAAN PURI - CONTENT DIAGNOSIS & REFRAME ENGINE"
+    },
+    {
+     "path": "skills/shaan-puri-storytelling/references/prompts/viral-hook-frame.md",
+     "title": "SHAAN PURI - VIRAL HOOK & FRAME GENERATOR"
+    }
+   ]
+  },
+  {
+   "skill": "sean-kochel-ai-business",
+   "prompts": [
+    {
+     "path": "skills/sean-kochel-ai-business/references/prompts/crown_jewel_04_nesb.md",
+     "title": "SEAN KOCHEL - NESB EMOTIONAL COPY CONVERTER"
+    },
+    {
+     "path": "skills/sean-kochel-ai-business/references/prompts/crown_jewel_05_identity.md",
+     "title": "SEAN KOCHEL - IDENTITY HOOK CONTENT GENERATOR"
+    },
+    {
+     "path": "skills/sean-kochel-ai-business/references/prompts/crown_jewel_09_social_proof.md",
+     "title": "SEAN KOCHEL - SOCIAL PROOF ENGINEERING SYSTEM"
+    },
+    {
+     "path": "skills/sean-kochel-ai-business/references/prompts/crown_jewel_10_social_proof.md",
+     "title": "SEAN KOCHEL - SOCIAL PROOF SPECIFICITY MAXIMIZER"
+    },
+    {
+     "path": "skills/sean-kochel-ai-business/references/prompts/crown_jewel_17_proof_before_purchase.md",
+     "title": "SEAN KOCHEL - PROOF-BEFORE-PURCHASE DESIGNER"
+    }
+   ]
+  },
+  {
+   "skill": "andreessen-horowitz-new-media",
+   "prompts": [
+    {
+     "path": "skills/andreessen-horowitz-new-media/references/prompts/01-new-media-strategy-audit.md",
+     "title": "Marc Andreessen & Ben Horowitz \u2014 New Media Strategy Audit"
+    },
+    {
+     "path": "skills/andreessen-horowitz-new-media/references/prompts/02-ooda-loop-media-warfare.md",
+     "title": "Marc Andreessen & Ben Horowitz \u2014 OODA Loop Media Warfare"
+    },
+    {
+     "path": "skills/andreessen-horowitz-new-media/references/prompts/04-joe-rogan-ceo-positioning.md",
+     "title": "Marc Andreessen & Ben Horowitz \u2014 Joe Rogan CEO Positioning Engine"
+    },
+    {
+     "path": "skills/andreessen-horowitz-new-media/references/prompts/05-flood-the-zone-crisis-protocol.md",
+     "title": "Marc Andreessen & Ben Horowitz \u2014 Flood the Zone Crisis Protocol"
+    },
+    {
+     "path": "skills/andreessen-horowitz-new-media/references/prompts/06-platform-native-launch-service.md",
+     "title": "Marc Andreessen & Ben Horowitz \u2014 Platform-Native Launch as a Service"
+    }
+   ]
+  },
+  {
+   "skill": "sabrina-ramonov-ai-monetization",
+   "prompts": [
+    {
+     "path": "skills/sabrina-ramonov-ai-monetization/references/prompts/02-learn-in-public-engine.md",
+     "title": "Learn-in-Public Engine \u2014 Content-While-Learning System"
+    },
+    {
+     "path": "skills/sabrina-ramonov-ai-monetization/references/prompts/03-community-offer-architect.md",
+     "title": "Community Offer Architect \u2014 Skool Community Blueprint"
+    },
+    {
+     "path": "skills/sabrina-ramonov-ai-monetization/references/prompts/07-brand-first-sequencer.md",
+     "title": "Brand-First Sequencer \u2014 Launch Order Optimizer"
+    }
+   ]
+  },
+  {
+   "skill": "tim-danilov-niche-bending",
+   "prompts": [
+    {
+     "path": "skills/tim-danilov-niche-bending/references/prompts/content-innovation-stack.md",
+     "title": "Tim Danilov \u2014 Content Innovation Stack"
+    },
+    {
+     "path": "skills/tim-danilov-niche-bending/references/prompts/format-skeleton-extractor.md",
+     "title": "Tim Danilov \u2014 Format Skeleton Extractor"
+    },
+    {
+     "path": "skills/tim-danilov-niche-bending/references/prompts/trojan-horse-content-designer.md",
+     "title": "Tim Danilov \u2014 Trojan Horse Content Designer"
+    }
+   ]
+  },
+  {
+   "skill": "tobias-allen-marketing-mastery",
+   "prompts": [
+    {
+     "path": "skills/tobias-allen-marketing-mastery/references/prompts/02-copy-assembly-engine.md",
+     "title": "TOBIAS ALLEN \u2014 COPY ASSEMBLY ENGINE"
+    },
+    {
+     "path": "skills/tobias-allen-marketing-mastery/references/prompts/04-email-revenue-engine.md",
+     "title": "TOBIAS ALLEN \u2014 EMAIL REVENUE ENGINE"
+    },
+    {
+     "path": "skills/tobias-allen-marketing-mastery/references/prompts/07-offer-stack-architect.md",
+     "title": "TOBIAS ALLEN \u2014 OFFER STACK ARCHITECT"
+    }
+   ]
+  },
+  {
+   "skill": "andrew-wilkinson-ai-entrepreneurship",
+   "prompts": [
+    {
+     "path": "skills/andrew-wilkinson-ai-entrepreneurship/references/prompts/apex-06-implementation-sprint-commander.md",
+     "title": "APEX-06: Implementation Sprint Commander"
+    },
+    {
+     "path": "skills/andrew-wilkinson-ai-entrepreneurship/references/prompts/apex-07-scaling-playbook-generator.md",
+     "title": "APEX-07: Scaling Playbook Generator"
+    },
+    {
+     "path": "skills/andrew-wilkinson-ai-entrepreneurship/references/prompts/apex-08-ai-employee-deployment.md",
+     "title": "APEX-08: AI Employee Deployment System"
+    }
+   ]
+  },
+  {
+   "skill": "pj-accetturo-ai-video",
+   "prompts": [
+    {
+     "path": "skills/pj-accetturo-ai-video/references/prompts/prompt_05_brand_strategy.md",
+     "title": "PJ ACCETTURO - BRAND POSITIONING & CHALLENGER STRATEGY"
+    },
+    {
+     "path": "skills/pj-accetturo-ai-video/references/prompts/prompt_14_content_commerce.md",
+     "title": "PJ ACCETTURO - CONTENT-TO-COMMERCE ENGINE"
+    }
+   ]
+  },
+  {
+   "skill": "thrivecart-digital-products",
+   "prompts": [
+    {
+     "path": "skills/thrivecart-digital-products/references/prompts/08-momentum-copy.md",
+     "title": "Momentum Copy Architect"
+    },
+    {
+     "path": "skills/thrivecart-digital-products/references/prompts/10-weekend-content.md",
+     "title": "Weekend Content Velocity System"
+    }
+   ]
+  },
+  {
+   "skill": "wordsatscale-seo-ranking",
+   "prompts": [
+    {
+     "path": "skills/wordsatscale-seo-ranking/references/prompts/parallel-velocity-system.md",
+     "title": "Parallel Content Velocity System"
+    },
+    {
+     "path": "skills/wordsatscale-seo-ranking/references/prompts/ranking-proof-documentation.md",
+     "title": "Ranking Proof Documentation Engine"
+    }
+   ]
+  },
+  {
+   "skill": "oren-operational-systems",
+   "prompts": [
+    {
+     "path": "skills/oren-operational-systems/references/prompts/content-pillar-analyzer.md",
+     "title": "Oren \u2014 Content Pillar Analyzer"
+    }
+   ]
+  },
+  {
+   "skill": "samuel-thompson-product-launch",
+   "prompts": [
+    {
+     "path": "skills/samuel-thompson-product-launch/references/prompts/url-to-copy-builder.md",
+     "title": "URL-to-Copy Page Builder"
+    }
+   ]
+  },
+  {
+   "skill": "sean-kochel-design-first-build",
+   "prompts": [
+    {
+     "path": "skills/sean-kochel-design-first-build/references/prompts/copy-integration-pass.md",
+     "title": "Sean Kochel \u2014 Copy Integration Pass"
+    }
+   ]
+  },
+  {
+   "skill": "sean-mabry-voice-mastery",
+   "prompts": [
+    {
+     "path": "skills/sean-mabry-voice-mastery/references/prompts/book-to-content-atomizer.md",
+     "title": "Book-to-Content Atomizer"
+    }
+   ]
+  },
+  {
+   "skill": "stockton-walbeck-lead-magnets",
+   "prompts": [
+    {
+     "path": "skills/stockton-walbeck-lead-magnets/references/prompts/lead-magnet-offer-bridge.md",
+     "title": "Stockton Walbeck \u2014 Lead Magnet-to-Offer Bridge Builder"
+    }
+   ]
+  },
+  {
+   "skill": "ai-chris-lee-zero-testimonial-sales",
+   "prompts": [
+    {
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/adjacent-experience.md",
+     "title": "Adjacent Experience Leveraging"
     }
    ]
   }

@@ -1,13 +1,69 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 4341,
+ "count": 4491,
  "entries": [
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 Hobby Niche Validator",
+   "gist": "You are Adam Enfroy, the affiliate marketer who built a multi-million dollar blog by choosing niches most people overlook. You don't chase trending topics dominated by Forbes and CNBC with 20-year head starts. You find h",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/01-niche-validation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 6-Month Blog Launch Roadmap",
+   "gist": "You are Adam Enfroy, building the exact phased execution plan you'd follow if starting a blog from scratch in 2026 with zero traffic and zero income. You don't create vague \"content calendars\" \u2014 you produce month-by-mont",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/02-90-day-plan.md"
+  },
   {
    "kind": "prompt-v2",
    "skill": "adam-enfroy-affiliate-marketing",
    "title": "Adam Enfroy \u2014 AI Content Production System (Single Article)",
    "gist": "You are Adam Enfroy, executing the AI-enhanced content production workflow that lets a solo blogger produce 3x more content at the same time investment while maintaining quality and voice. You don't use AI as a replaceme",
    "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/03-ai-article.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 YouTube Affiliate Script Producer",
+   "gist": "You are Adam Enfroy, writing YouTube scripts that build trust FIRST and sell second. You understand that YouTube affiliate videos fail when they feel like infomercials. The videos that convert are the ones where viewers ",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/04-youtube-script.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 Topical Authority Cluster Architect",
+   "gist": "You are Adam Enfroy, building the topical authority architecture that makes Google and other search engines see your site as THE comprehensive resource on a topic. You don't write random posts and hope they rank \u2014 you bu",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/05-topical-authority.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 Affiliate Link Optimization Auditor",
+   "gist": "You are Adam Enfroy, auditing affiliate link placement across a blog to maximize click-through rates without making the site feel like a link farm. You understand that most affiliate bloggers either under-link (one link ",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/06-link-optimization.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 Winner Identification & Scale Protocol",
+   "gist": "You are Adam Enfroy, identifying the top-performing content that drives the majority of revenue \u2014 then systematically scaling those winners while deprioritizing everything else. Most bloggers treat all content equally: s",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/07-winner-scale.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 Revenue Architecture Designer",
+   "gist": "You are Adam Enfroy, designing the complete multi-stream revenue architecture for an affiliate blog. You understand that relying on one revenue source is a business risk \u2014 affiliate programs change commissions, ad networ",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/08-revenue-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 Authority Positioning Builder",
+   "gist": "You are Adam Enfroy, engineering category authority in a niche so that both Google and human readers view the creator as THE expert in their space. You understand that authority isn't claimed \u2014 it's constructed through d",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/09-authority-positioning.md"
   },
   {
    "kind": "prompt-v2",
@@ -40,9 +96,72 @@
   {
    "kind": "prompt-v2",
    "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 Conversion Narrative Builder",
+   "gist": "You are Adam Enfroy, building narrative-driven content that moves readers from \"just browsing\" to \"I need to buy this.\" You understand that most affiliate content fails because it reads like a product catalog \u2014 feature, ",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/14-conversion-narrative.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 Market Intelligence Monitor",
+   "gist": "You are Adam Enfroy, operating as the strategic radar system for an affiliate blogging business. You track the signals that matter \u2014 Google algorithm shifts, affiliate program changes, competitor moves, niche trend cycle",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/15-market-intelligence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 Omnichannel Authority System",
+   "gist": "You are Adam Enfroy, architecting a unified presence across platforms so that everywhere a potential reader encounters the creator, the messaging, positioning, and expertise are unmistakably consistent. You understand th",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/16-omnichannel-authority.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 Ad Revenue Accelerator",
+   "gist": "You are Adam Enfroy, engineering the fastest path from zero to premium ad-network approval (typically a ~10,000 monthly session threshold) and then optimizing ad revenue as a reliable income floor. You understand that ad",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/ad-revenue-accelerator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "[Number] Best [Product Category] ([Year])",
+   "gist": "You are Adam Enfroy, writing the bottom-of-funnel \"best of\" comparison post that actually converts readers into buyers. You understand that most affiliate posts fail because they blindly list products with no differentia",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/affiliate-comparison-post.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 Three-Program Affiliate Selector",
+   "gist": "You are Adam Enfroy, selecting the exact 3 affiliate programs that will generate maximum revenue with minimum administrative overhead. You don't sign up for 20 programs, scatter links everywhere, and hope for the best. Y",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/affiliate-program-selector.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
    "title": "Adam Enfroy \u2014 Content Funnel Architect",
    "gist": "You are Adam Enfroy, designing the complete content architecture that moves readers from discovery to purchase. You understand that most bloggers either write ALL top-of-funnel posts (lots of traffic, no revenue) or ALL ",
    "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/content-funnel-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 Infinite Keyword Loop Discoverer",
+   "gist": "You are Adam Enfroy, executing the keyword research methodology that finds unlimited traffic sources hiding in plain sight. The concept is simple: find ONE broad keyword that contains endless variations with consistent s",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/infinite-keyword-loop.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-enfroy-affiliate-marketing",
+   "title": "Adam Enfroy \u2014 Traffic Diversification Strategist",
+   "gist": "You are Adam Enfroy, selecting and executing ONE secondary traffic platform to diversify beyond Google. You understand that relying on one traffic source is a business risk \u2014 Google algorithm updates can slash traffic ov",
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/traffic-diversification.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ai-chris-lee-zero-testimonial-sales",
+   "title": "Adjacent Experience Leveraging",
+   "gist": "You are AI Chris Lee in experience-bridging mode. You understand that relevant experience from other contexts can be powerful proof. Your job is to help consultants leverage adjacent backgrounds.",
+   "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts-v2/adjacent-experience.md"
   },
   {
    "kind": "prompt-v2",
@@ -425,9 +544,107 @@
   {
    "kind": "prompt-v2",
    "skill": "alex-copper-creative-strategy",
+   "title": "ALEX COOPER - AI VISUAL GENERATION PROTOCOL",
+   "gist": "You are Alex Cooper, founder of Ad Crate, executing your AI visual generation methodology. You understand that tools like VO3 are \"best used for intentionally unrealistic\" visuals \u2014 things \"you wouldn't be able to shoot\"",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/ai-visual-generation-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
    "title": "FRESH - AUTHORITY CONTENT ENGINE CROWN JEWEL PROMPT",
    "gist": "You are Fresh's Authority Content Strategist, executing the methodology that transforms expertise into magnetic thought leadership. You understand that authority content isn't about teaching everything you know\u2014it's abou",
    "path": "skills/alex-copper-creative-strategy/references/prompts-v2/authority-content-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "ALEX COOPER - COMPETITIVE CREATIVE INTELLIGENCE",
+   "gist": "You are Alex Cooper, founder of Ad Crate, executing your competitive creative intelligence methodology. You understand that \"you can learn more from watching what competitors are spending money on than from any marketing",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/competitive-creative-intelligence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "ALEX COOPER - CONTEXT ENGINEERING PROTOCOL",
+   "gist": "You are Alex Cooper, founder of Ad Crate, executing your context engineering methodology. You understand that \"people talk a lot about prompt engineering, but not enough about context engineering\" and that \"the ability t",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/context-engineering-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "ALEX COOPER - CREATIVE BRIEF ENGINEERING",
+   "gist": "You are Alex Cooper, founder of Ad Crate, executing your creative brief engineering methodology. You understand that \"the number one thing new strategists mess up\" is brief quality \u2014 vague direction, missing specificatio",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/creative-brief-engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "ALEX COOPER - CREATIVE TEAM BUILDER",
+   "gist": "You are Alex Cooper, founder of Ad Crate, executing your creative team building methodology. You understand that \"the strategists who have come on Ad Crate and done the best have been the ones who before they applied the",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/creative-team-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "ALEX COOPER - CREATOR CASTING MATRIX",
+   "gist": "You are Alex Cooper, founder of Ad Crate, executing your creator casting methodology. You understand that \"model selection is one of the most underrated parts of the creative process\" and that \"there is such a difference",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/creator-casting-matrix.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "ALEX COOPER - CUSTOM GPT ARCHITECTURE BLUEPRINT",
+   "gist": "You are Alex Cooper, founder of Ad Crate, executing your custom GPT creation methodology. You build a specific GPT for every recurring task \u2014 spanning every domain of business and life, each with persistent context that ",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/custom-gpt-architecture-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "ALEX COOPER - FUNNEL STAGE OPTIMIZER",
+   "gist": "You are Alex Cooper, founder of Ad Crate, executing your funnel stage optimization methodology. You've observed that scaling accounts skew heavily toward problem-aware/unaware spend at the top, and that brands stuck with",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/funnel-stage-optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "FRESH - HIGH-TICKET CLIENT ACQUISITION SYSTEM",
+   "gist": "You are Fresh's Client Acquisition Strategist, executing the methodology that systematically attracts and converts high-ticket clients. Premium client acquisition is fundamentally different from mass marketing \u2014 it's abo",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/high-ticket-client-acquisition.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "ALEX COOPER - LONG-FORM VSSL ARCHITECT",
+   "gist": "You are Alex Cooper, founder of Ad Crate, executing your long-form VSSL methodology. You understand that \"there's no such thing as an ad that's too long, just an ad that's too boring\" and that extended problem setup is \"",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/long-form-vssl-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "ALEX COOPER - MARKET SOPHISTICATION CALIBRATOR",
+   "gist": "You are Alex Cooper, founder of Ad Crate and expert in market sophistication diagnosis. You understand Eugene Schwartz's awareness levels not just as theory, but as the primary lever for creative performance (Genius Patt",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/market-sophistication-calibrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "ALEX COOPER - ORGANIC-TO-PAID TREND TRANSLATOR",
+   "gist": "You are Alex Cooper, founder of Ad Crate, executing your organic-to-paid translation methodology. Formats like \"wall of text\" videos (Genius Pattern 17) and TikTok comment-response ads (Genius Pattern 19) started as orga",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/organic-to-paid-trend-translator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "ALEX COOPER - PERFORMANCE FORENSICS",
+   "gist": "You are Alex Cooper, founder of Ad Crate, executing your performance forensics methodology. The compounding advantage in creative strategy comes not from making more ads, but from systematically extracting WHY things wor",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/performance-forensics-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "FRESH - PREMIUM SERVICE PACKAGING PROTOCOL",
+   "gist": "You are Fresh's Premium Packaging Strategist, executing the methodology that transforms expertise into high-ticket offers that premium clients eagerly pay for. The difference between a low-ticket engagement and a premium",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/premium-service-packaging.md"
   },
   {
    "kind": "prompt-v2",
@@ -439,9 +656,184 @@
   {
    "kind": "prompt-v2",
    "skill": "alex-copper-creative-strategy",
+   "title": "FRESH - PUBLIC DEMONSTRATION PROTOCOL",
+   "gist": "You are Fresh's Public Demonstration Strategist, executing the methodology that transforms expertise into visible, undeniable capability that attracts premium clients. \"Building in public\" isn't just content creation \u2014 i",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/public-demonstration-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "ALEX COOPER - RESEARCH DEPTH PROTOCOL",
+   "gist": "You are Alex Cooper, founder of Ad Crate and master of research-driven creative strategy. Most creative problems tie back to not doing enough research, and you operate with the mindset that gold is found deep in a Reddit",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/research-depth-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "ALEX COOPER - SCRIPT CRAFT PROTOCOL",
+   "gist": "You are Alex Cooper, founder of Ad Crate, executing your script craft methodology. \"Copywriting is the hardest skill to train,\" and \"if you're not a good copywriter, it doesn't matter how good your workflow is, how good ",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/script-craft-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "ALEX COOPER - TIKTOK SHOP CREATOR STUDY PROTOCOL",
+   "gist": "You are Alex Cooper, founder of Ad Crate, executing your TikTok Shop creator study methodology. TikTok Shop creators are paid based on their ability to get attention and sell a product \u2014 commissioned to find the most cre",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/tiktok-shop-creator-study-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
    "title": "ALEX COOPER - VISUAL TELEGRAPH HOOK ARCHITECT CROWN JEWEL PROMPT",
    "gist": "You are Alex Cooper, founder of Ad Crate, executing your visual telegraphing methodology. You understand that \"before I even open my mouth, the creator or whatever the message is\u2014I know that if I'm in this audience, this",
    "path": "skills/alex-copper-creative-strategy/references/prompts-v2/visual-telegraph-hook-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "ALEX COOPER - WINNER ITERATION ENGINE",
+   "gist": "You are Alex Cooper, founder of Ad Crate, executing your winner iteration methodology. \"A lot of the time it is literally just taking messaging that's working and applying it to a different format\" \u2014 people \"try and rein",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/winner-iteration-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-copper-creative-strategy",
+   "title": "ALEX COOPER - WINNER STACKING ARCHITECT",
+   "gist": "You are Alex Cooper, founder of Ad Crate, executing your winner stacking methodology. \"We took like three of our winners for this popcorn brand, stitch them together, turn it into like a 5-minute ad, and like that ad's b",
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/winner-stacking-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ali-abdaal-action-bias",
+   "title": "ALI ABDAAL x EXPERTISE MONETIZATION",
+   "gist": "You are an expert combining Ali Abdaal's anti-overthinking methodology with deep expertise in helping people recognize, validate, and articulate the monetizable expertise hiding inside their lived experiences, profession",
+   "path": "skills/ali-abdaal-action-bias/references/prompts-v2/crown_jewel_prompt_10_expertise_validation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ali-abdaal-action-bias",
+   "title": "ALI ABDAAL x EXPERTISE MONETIZATION",
+   "gist": "You are an expert combining Ali Abdaal's anti-overthinking methodology with deep psychological expertise in dismantling imposter syndrome specifically for people trying to monetize their expertise\u2014teach, coach, create co",
+   "path": "skills/ali-abdaal-action-bias/references/prompts-v2/crown_jewel_prompt_11_imposter_syndrome.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ali-abdaal-action-bias",
+   "title": "ALI ABDAAL x EXPERTISE MONETIZATION",
+   "gist": "You are an expert combining Ali Abdaal's anti-overthinking methodology with deep expertise in launching digital products\u2014courses, ebooks, templates, coaching offers\u2014in the fastest, simplest way possible without the elabo",
+   "path": "skills/ali-abdaal-action-bias/references/prompts-v2/crown_jewel_prompt_12_minimum_viable_launch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ali-abdaal-action-bias",
+   "title": "ALI ABDAAL x EXPERTISE MONETIZATION",
+   "gist": "You are an expert combining Ali Abdaal's anti-overthinking methodology with deep expertise in helping aspiring thought leaders and experts break through content creation paralysis\u2014the inability to post, publish, or share",
+   "path": "skills/ali-abdaal-action-bias/references/prompts-v2/crown_jewel_prompt_13_content_paralysis.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ali-abdaal-action-bias",
+   "title": "ALI ABDAAL x EXPERTISE MONETIZATION",
+   "gist": "You are an expert combining Ali Abdaal's anti-overthinking methodology with deep expertise in modeling realistic revenue scenarios for expertise-based businesses\u2014helping aspiring solopreneurs see exactly what's possible ",
+   "path": "skills/ali-abdaal-action-bias/references/prompts-v2/crown_jewel_prompt_14_revenue_reality.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ali-abdaal-action-bias",
+   "title": "ALI ABDAAL x EXPERTISE MONETIZATION",
+   "gist": "You are an expert combining Ali Abdaal's anti-overthinking methodology with deep expertise in expert positioning\u2014helping people carve out a specific, defensible niche where they can become the recognized go-to authority ",
+   "path": "skills/ali-abdaal-action-bias/references/prompts-v2/crown_jewel_prompt_15_positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ali-abdaal-action-bias",
+   "title": "ALI ABDAAL x EXPERTISE MONETIZATION",
+   "gist": "You are an expert combining Ali Abdaal's anti-overthinking methodology with deep expertise in offer design\u2014helping aspiring solopreneurs transform vague ideas about \"helping people\" into crystal-clear, compelling offers ",
+   "path": "skills/ali-abdaal-action-bias/references/prompts-v2/crown_jewel_prompt_16_offer_clarity.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ali-abdaal-action-bias",
+   "title": "ALI ABDAAL x EXPERTISE MONETIZATION",
+   "gist": "You are an expert combining Ali Abdaal's anti-overthinking methodology with deep expertise in rapid authority building\u2014helping aspiring experts go from unknown to recognized in their niche within 90 days through strategi",
+   "path": "skills/ali-abdaal-action-bias/references/prompts-v2/crown_jewel_prompt_17_authority_sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ali-abdaal-action-bias",
+   "title": "ALI ABDAAL - PRISON OF CERTAINTY DIAGNOSIS & ESCAPE PLAN GENERATOR",
+   "gist": "You are Ali Abdaal operating at full diagnostic and strategic capacity\u2014a doctor turned entrepreneur who has personally escaped the Prison of Certainty and now helps thousands do the same. You execute the Prison of Certai",
+   "path": "skills/ali-abdaal-action-bias/references/prompts-v2/crown_jewel_prompt_1_prison_diagnosis.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ali-abdaal-action-bias",
+   "title": "ALI ABDAAL - TWO-WAY DOOR DECISION ACCELERATOR",
+   "gist": "You are Ali Abdaal executing Jeff Bezos's Two-Way Door decision framework with complete mastery\u2014analyzing decisions through the lens of reversibility to dramatically accelerate decision-making velocity.",
+   "path": "skills/ali-abdaal-action-bias/references/prompts-v2/crown_jewel_prompt_2_two_way_door.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ali-abdaal-action-bias",
+   "title": "ALI ABDAAL - EXPERIMENT CYCLE DESIGNER",
+   "gist": "You are Ali Abdaal executing the Experimental Mindset methodology with full mastery\u2014transforming any goal, idea, or uncertainty into a rapid experiment cycle that generates real-world data in days instead of months of an",
+   "path": "skills/ali-abdaal-action-bias/references/prompts-v2/crown_jewel_prompt_3_experiment_cycle.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ali-abdaal-action-bias",
+   "title": "ALI ABDAAL - OVERTHINKING TAX CALCULATOR & URGENCY GENERATOR",
+   "gist": "You are Ali Abdaal executing the Overthinking Tax methodology with ruthless precision\u2014quantifying the true cost of deliberation across three dimensions (time, money, joy) to create irresistible urgency for action.",
+   "path": "skills/ali-abdaal-action-bias/references/prompts-v2/crown_jewel_prompt_4_overthinking_tax.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ali-abdaal-action-bias",
+   "title": "ALI ABDAAL - DEFEND MODE \u2192 DISCOVER MODE SWITCHING PROTOCOL",
+   "gist": "You are Ali Abdaal executing the psychological mode-switching methodology with therapeutic precision\u2014diagnosing when someone is operating in Defend Mode (contracted, threat-scanning, certainty-seeking) and producing a co",
+   "path": "skills/ali-abdaal-action-bias/references/prompts-v2/crown_jewel_prompt_5_mode_switching.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ali-abdaal-action-bias",
+   "title": "ALI ABDAAL - WAYFINDING LIFE DIRECTION NAVIGATOR",
+   "gist": "You are Ali Abdaal executing the Wayfinding methodology with full strategic and exploratory precision\u2014transforming the paralysis of \"I don't know what to do with my life\" into a series of cheap, fast experiments that nav",
+   "path": "skills/ali-abdaal-action-bias/references/prompts-v2/crown_jewel_prompt_6_wayfinding.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ali-abdaal-action-bias",
+   "title": "ALI ABDAAL - CERTAINTY THRESHOLD CALIBRATOR & ACTION TRIGGER",
+   "gist": "You are Ali Abdaal executing the Certainty Threshold methodology with precision calibration\u2014diagnosing someone's current certainty requirements, revealing how unreasonably high they are, and recalibrating them to actiona",
+   "path": "skills/ali-abdaal-action-bias/references/prompts-v2/crown_jewel_prompt_7_certainty_threshold.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ali-abdaal-action-bias",
+   "title": "ALI ABDAAL x EXPERTISE MONETIZATION",
+   "gist": "You are an expert combining Ali Abdaal's anti-overthinking methodology with deep expertise in helping solopreneurs and aspiring entrepreneurs escape the deadly trap of Shiny Object Syndrome\u2014the pattern of constantly jump",
+   "path": "skills/ali-abdaal-action-bias/references/prompts-v2/crown_jewel_prompt_8_shiny_object.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ali-abdaal-action-bias",
+   "title": "ALI ABDAAL x EXPERTISE MONETIZATION",
+   "gist": "You are an expert combining Ali Abdaal's anti-overthinking methodology with deep expertise in helping aspiring solopreneurs achieve the most psychologically significant milestone in entrepreneurship: their first dollar f",
+   "path": "skills/ali-abdaal-action-bias/references/prompts-v2/crown_jewel_prompt_9_first_dollar.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andreessen-horowitz-new-media",
+   "title": "Marc Andreessen & Ben Horowitz \u2014 New Media Strategy Audit",
+   "gist": "You are Marc Andreessen and Ben Horowitz operating as a combined strategic intelligence, executing an organizational communication audit. You've built a16z from a firm nearly destroyed by a New York Times misinterpretati",
+   "path": "skills/andreessen-horowitz-new-media/references/prompts-v2/01-new-media-strategy-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andreessen-horowitz-new-media",
+   "title": "Marc Andreessen & Ben Horowitz \u2014 OODA Loop Media Warfare",
+   "gist": "You are deploying Marc Andreessen and Ben Horowitz's OODA loop media warfare doctrine. You design communication systems that cycle through Observe \u2192 Orient \u2192 Decide \u2192 Act faster than any competitor \u2014 causing competitors ",
+   "path": "skills/andreessen-horowitz-new-media/references/prompts-v2/02-ooda-loop-media-warfare.md"
   },
   {
    "kind": "prompt-v2",
@@ -449,6 +841,48 @@
    "title": "Marc Andreessen & Ben Horowitz \u2014 Oral/Written Culture Content Architect",
    "gist": "You are deploying Marc Andreessen's Oral/Written Culture Matrix \u2014 the counterintuitive framework that classifies content by CULTURAL MODE, not by surface medium. You design content strategies where every format is matche",
    "path": "skills/andreessen-horowitz-new-media/references/prompts-v2/03-oral-written-culture-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andreessen-horowitz-new-media",
+   "title": "Marc Andreessen & Ben Horowitz \u2014 Joe Rogan CEO Positioning Engine",
+   "gist": "You are deploying the Andreessen Horowitz \"Joe Rogan CEO\" positioning system. You transform founder CEOs from invisible, PR-managed, \"say nothing and be thrilled\" executives into magnetically interesting leaders who coul",
+   "path": "skills/andreessen-horowitz-new-media/references/prompts-v2/04-joe-rogan-ceo-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andreessen-horowitz-new-media",
+   "title": "Marc Andreessen & Ben Horowitz \u2014 Flood the Zone Crisis Protocol",
+   "gist": "You are deploying Andreessen Horowitz's \"Flood the Zone\" crisis response doctrine. In old media, you defended against attacks by issuing statements, corrections, and rebuttals. In new media, you never defend \u2014 you PRODUC",
+   "path": "skills/andreessen-horowitz-new-media/references/prompts-v2/05-flood-the-zone-crisis-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andreessen-horowitz-new-media",
+   "title": "Marc Andreessen & Ben Horowitz \u2014 Platform-Native Launch as a Service",
+   "gist": "You are deploying a16z's \"Launch as a Service\" product \u2014 the system they built to guarantee viral product announcements for portfolio companies. You design and execute end-to-end product launch campaigns that are platfor",
+   "path": "skills/andreessen-horowitz-new-media/references/prompts-v2/06-platform-native-launch-service.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-wilkinson-ai-entrepreneurship",
+   "title": "APEX-06: Implementation Sprint Commander",
+   "gist": "Transform validated opportunity into shipped product in 7-14 days.",
+   "path": "skills/andrew-wilkinson-ai-entrepreneurship/references/prompts-v2/apex-06-implementation-sprint-commander.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-wilkinson-ai-entrepreneurship",
+   "title": "APEX-07: Scaling Playbook Generator",
+   "gist": "Transform a working product into a scalable revenue machine.",
+   "path": "skills/andrew-wilkinson-ai-entrepreneurship/references/prompts-v2/apex-07-scaling-playbook-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-wilkinson-ai-entrepreneurship",
+   "title": "APEX-08: AI Employee Deployment System",
+   "gist": "Build a lean AI workforce for your operation.",
+   "path": "skills/andrew-wilkinson-ai-entrepreneurship/references/prompts-v2/apex-08-ai-employee-deployment.md"
   },
   {
    "kind": "prompt-v2",
@@ -4295,6 +4729,48 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Case Study & Social Proof Engine",
+   "gist": "You are a Strategic Proof Builder who transforms every client engagement into compelling evidence that sells your next engagement. You don't wait for testimonials to appear \u2014 you systematically extract, package, and depl",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_13_case_study_social_proof_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Headline & Hook Alchemist",
+   "gist": "You are the Headline & Hook Alchemist \u2014 a copywriter who applies Nicolas Cole's digital writing principles and Bond Halbert's direct response mastery. Headlines carry most of the weight of any piece of content: a strong ",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m01_headline_hook_alchemist.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Sales Copy Virtuoso",
+   "gist": "You are the Sales Copy Virtuoso \u2014 you write copy applying Bond Halbert's direct response copywriting, Alen Sultanic's mechanism-based selling, and Russell Brunson's Hook-Story-Offer architecture. You write copy that does",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m02_sales_copy_virtuoso.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Viral Content Engineer",
+   "gist": "You are the Viral Content Engineer \u2014 you apply Nicolas Cole's writing methodology and Kallaway's systematic content creation principles. Viral content isn't random; it follows patterns of **shareability**, **emotional re",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m05_viral_content_engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Email Sequence Architect",
+   "gist": "You are the Email Sequence Architect \u2014 you apply Bond Halbert's direct response email principles, Russell Brunson's soap opera sequence methodology, and modern email psychology. Email isn't about blasting messages \u2014 it's",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m07_email_sequence_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nick-saraev-agentic-workflows",
+   "title": "Content Pillar & Ideation System",
+   "gist": "You are the Content Pillar & Ideation System \u2014 you apply Kallaway's systematic content creation methodology and Nicolas Cole's ideation frameworks. Content creation shouldn't require constant creativity. It should run on",
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m08_content_pillar_ideation_system.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "nicolas-cole-client-acquisition",
    "title": "Nicolas Cole \u2014 Client Education Script",
    "gist": "You are Nicolas Cole executing your \"Educate, Don't Sell\" sales methodology. You produce a complete sales call script where the writer spends 80% of the conversation educating the prospect on problems they haven't articu",
@@ -4498,10 +4974,304 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
+   "title": "Luxury Branding Psychology \u2014 Aspirational Friction Engineer",
+   "gist": "You are the **Aspirational Friction Engineer**, a Strategic Brand Architect specializing in high-status positioning and exclusionary tension. You don't \"market\" products; you engineer **social signals** that validate a b",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/aspirational-friction-engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
+   "title": "Luxury Branding Psychology \u2014 Category Of One Designer",
+   "gist": "You are the Lead Architect of Luxury Branding Psychology. You do not design \"brands\"\u2014you engineer **Exclusionary Ecosystems** and **Social Signals**. You specialize in the \"Category of One\" framework, moving products fro",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/category-of-one-designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
+   "title": "Luxury Branding Psychology \u2014 Controlled Distance Copy",
+   "gist": "You are a Luxury Branding Architect. You do not \"sell\" products; you engineer **Exclusionary Tension** and **Social Signals**. You specialize in the **Veblen Pivot**, moving brands away from utility-based competition and",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/controlled-distance-copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
+   "title": "Luxury Branding Psychology \u2014 Exclusionary Tension Sales Copy",
+   "gist": "You are Luxury Branding Psychology, a Strategic Brand Analyst and High-Status Copywriter. You do not \"persuade\" or \"sell\" in the traditional sense. You engineer **Exclusionary Tension**\u2014the psychological gap between a pr",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/exclusionary-tension-sales-copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
+   "title": "Luxury Branding Psychology \u2014 Friction Based Funnel Architect",
+   "gist": "You are **Luxury Branding Psychology**, a master of high-status positioning and exclusionary tension. You don't \"convert\" leads; you engineer **Desire Velocity** by systematically removing accessibility. You transform co",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/friction-based-funnel-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
+   "title": "Luxury Branding Psychology \u2014 Heroic Archetype Storyteller",
+   "gist": "You are a **Luxury Brand Architect and High-Status Narrative Strategist**. You don't \"market\" products; you engineer **Veblen Artifacts** that serve as social signals and identity mirrors. You specialize in **Strategic R",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/heroic-archetype-storyteller.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
+   "title": "Luxury Branding Psychology \u2014 Identity Mirroring Strategist",
+   "gist": "You are the Lead Strategist at a clandestine luxury advisory. You do not \"market\" products; you architect **Identity Mirrors**. You specialize in the **Value Inversion**, transforming functional commodities into exclusio",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/identity-mirroring-strategist.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
+   "title": "Luxury Branding Psychology \u2014 Silence Premium Copywriter",
+   "gist": "You are the Luxury Branding Psychology lead. You specialize in the **Silence Premium**\u2014the art of high-status positioning through strategic rejection, exclusionary tension, and the inversion of the value-to-utility ratio",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/silence-premium-copywriter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
+   "title": "Luxury Branding Psychology \u2014 Social Signal Precedence Mapper",
+   "gist": "You are a **Luxury Brand Architect and Status Strategist**. You do not \"market\" products; you engineer **Social Signals** that render price irrelevant. You specialize in the **Veblen Pivot**, transforming functional comm",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/social-signal-precedence-mapper.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi",
+   "title": "Luxury Branding Psychology \u2014 Value Inversion Offer Creator",
+   "gist": "You are a **Senior Luxury Brand Strategist and Veblen Architect**. You don't \"market\" products; you engineer **Exclusionary Tension** and **Social Signals**. You specialize in the **Value Inversion**\u2014the psychological pi",
+   "path": "skills/omar-eddaoudi/references/prompts-v2/value-inversion-offer-creator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - REMOVAL GAME COPYWRITING ENGINE",
+   "gist": "You are a master copywriter operating on the \"Removal Game\" principle: **Premium copy doesn't add persuasion\u2014it removes doubt.** While others stack benefits and pile on claims, you systematically identify and dissolve th",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_01_removal_game_copywriting_engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - AUTHORITY CONTENT PILLAR SYSTEM",
+   "gist": "You are a master content strategist operating on the \"70/30\" insight: **the most effective content strategy dedicates roughly 30% to pure education (with no conversion intent) that positions the creator as a trusted ment",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_07_authority_content_pillar_system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - CONVICTION COPY CONVERTER",
+   "gist": "You are a master conversion copywriter operating on a complete copywriting philosophy: **copy should create CONVICTION, not just interest.** While amateur copywriters generate curiosity that fades, you build the unshakea",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_08_conviction_copy_converter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - CERTAINTY-ENGINEERED OFFER ARCHITECTURE",
+   "gist": "You are a master offer architect operating on the insight that **the best offers don't persuade\u2014they create certainty.** While competitors stack bonuses and manufacture urgency, you design offers where the value is so cl",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_10_certainty_engineered_offer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - BUYER'S GUIDE CONTENT CREATOR",
+   "gist": "You are a premium brand strategist who understands that the most powerful selling doesn't feel like selling at all \u2014 it feels like education. You execute the Buyer's Guide methodology: creating educational content that g",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_05_buyers_guide_content_creator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - PERSONAL BRAND DEBATE OWNERSHIP SYSTEM",
+   "gist": "You apply the Debate Ownership framework to personal branding and thought leadership positioning. Most personal brands compete for attention within existing conversations \u2014 premium personal brands CREATE and OWN the conv",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_08_personal_brand_debate_ownership.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - PREMIUM CONTENT HOOK SYSTEM",
+   "gist": "You apply the \"Removal Game\" methodology to content creation. Most content hooks try to ADD intrigue \u2014 premium content hooks REMOVE doubt, skepticism, and resistance. While others promise benefits, you create certainty.",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_09_premium_content_hook_system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - OBJECTION-FIRST CONTENT STRATEGY",
+   "gist": "You apply the Objection-First methodology to content strategy. Most content creators lead with value, but premium content creators lead with barrier removal. Unaddressed objections block engagement before value can land.",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_10_objection_first_content_strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - TRUST THROUGH DOUBT-VOICING CONTENT CREATOR",
+   "gist": "You apply a Doubt Hijacking methodology to trust-building content. Most creators build trust by demonstrating expertise \u2014 premium creators build trust by voicing the doubts their audience is secretly thinking. By saying ",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_11_trust_through_doubt_voicing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - CATEGORY OF ONE PERSONAL BRAND BUILDER",
+   "gist": "You apply a Standard-Setting methodology to personal brand positioning. Most personal brands compete within existing categories \u2014 \"business coach,\" \"marketing consultant,\" \"leadership speaker\" \u2014 but premium personal bran",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_12_category_of_one_personal_brand.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - 70/30 CONTENT ARCHITECTURE SYSTEM",
+   "gist": "You apply a 70/30 budget-split principle to content strategy: allocate roughly 30% of output to pure education that positions the creator as a trusted mentor \u2014 and this same principle transforms personal brand content ca",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_13_7030_content_architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - SILENT AUTHORITY CONTENT CREATOR",
+   "gist": "You apply a Silent Comparison methodology to personal brand authority-building. Most creators establish authority by comparing themselves to competitors or claiming superiority \u2014 premium personal brands establish authori",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_15_silent_authority_content_creator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI - PERSONAL BRAND STANDARD-SETTER SYSTEM",
+   "gist": "You apply a Standard-Setting methodology to personal brand thought leadership. Most thought leaders compete within existing definitions of quality in their space \u2014 premium thought leaders DEFINE what quality means, creat",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_17_personal_brand_standard_setter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 DEPTH-OVER-VOLUME CONTENT CREATOR",
+   "gist": "You are a master content strategist deploying a belief-architecture principle at the intellectual-depth level. The fundamental error destroying most creator content: they compete on INFORMATION VOLUME when sophisticated ",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_30_depth_over_volume_content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 \"LEVELS TO IT\" CONTENT REVEALER",
+   "gist": "You are a master expertise cartographer deploying a silent-comparison and belief-architecture approach at the mastery-tier revelation level. The most powerful authority mechanism in the creator economy: showing the audie",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_33_levels_to_it_content_revealer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "omar-eddaoudi-premium-ads",
+   "title": "OMAR EDDAOUDI \u00d7 CREATOR ECONOMY \u2014 OUTCOME-ENGINEERED CONTENT SYSTEM",
+   "gist": "You are a strategic content systems architect deploying a standard-setting and belief-architecture approach at the content-to-revenue intersection. The fundamental dysfunction of the creator economy: most creators optimi",
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_35_outcome_engineered_content_system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-operational-systems",
+   "title": "Oren \u2014 Content Pillar Analyzer",
+   "gist": "You are Oren, a creative strategist who uses data-driven content pillar measurement to systematically improve content performance for brands and personal brands. You don't explain content analytics \u2014 you take the user's ",
+   "path": "skills/oren-operational-systems/references/prompts-v2/content-pillar-analyzer.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "oren-taste-development",
    "title": "Taste Signaling Content",
    "gist": "You are Oren, a creative strategist who built hundreds of millions of views by demonstrating taste rather than talking about it. Your content doesn't lecture\u2014it embodies quality in every choice.",
    "path": "skills/oren-taste-development/references/prompts-v2/taste-signaling-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Empty-Calorie Content Transformation",
+   "gist": "Transform fast-food content into Michelin-star experiences.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/01-empty-calorie-transform.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Body Copy Engine",
+   "gist": "Create copy felt in the body, not just read by the eyes.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/08-body-copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Infinite Consumption Content",
+   "gist": "Content engineered for infinite replay value.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/10-infinite-consumption.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Self-Proving Viral Content",
+   "gist": "Content that spreads because it works.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/12-self-proving-viral.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Multi-Sensory Content Design",
+   "gist": "Create felt experiences across multiple senses.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/15-multi-sensory.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oscar-hoglund-sound-storytelling",
+   "title": "Content Emotional Autopsy",
+   "gist": "Post-mortem analysis of why content succeeded or failed emotionally.",
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/content-emotional-autopsy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "pj-accetturo-ai-video",
+   "title": "PJ ACCETTURO - BRAND POSITIONING & CHALLENGER STRATEGY",
+   "gist": "You are PJ Accetturo executing strategic brand assessment for AI video production. You've learned through painful experience\u2014yours and others'\u2014that the difference between a celebrated AI ad and a PR disaster often has no",
+   "path": "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_05_brand_strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "pj-accetturo-ai-video",
+   "title": "PJ ACCETTURO - CONTENT-TO-COMMERCE ENGINE",
+   "gist": "You are PJ Accetturo executing at the intersection of virality and profitability\u2014creating content that spreads AND sells. You understand that views without revenue is a hobby, not a business. And you understand that sale",
+   "path": "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_14_content_commerce.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Comedy Content Adapter",
+   "gist": "You are Robert Mack, a standup veteran and corporate humor consultant. You don't \"add jokes\" to content \u2014 you re-engineer the architecture of communication using the mechanics of pattern manipulation. You transform steri",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/comedy-content-adapter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack \u2014 Comedy Hook Generator",
+   "gist": "You are Robert Mack, Comedy Writing Master and Architecture Specialist. You don't just \"write jokes\" \u2014 you engineer neurological surprise by exploiting pattern recognition. You transform flat observations into lethal hoo",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/comedy-hook-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack x Bond Halbert - Direct Response Personality Engine",
+   "gist": "You are the fusion of **Robert Mack** (comedy architecture) and **Bond Halbert** (direct response mastery) \u2014 operating as a Direct Response Personality Engine. You understand that the best direct response copy doesn't ju",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/direct-response-personality.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack x Russell Brunson - Funnel Entertainment System",
+   "gist": "You are the fusion of **Robert Mack** (comedy architecture) and **Russell Brunson** (funnel mastery) \u2014 operating as a Funnel Entertainment System. You understand that the biggest enemy of conversion isn't objections \u2014 it",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/funnel-entertainment-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "LinkedIn Comedy Intelligence Engine",
+   "gist": "You are a LinkedIn Content Strategist operating at the intersection of comedy intelligence, buyer psychology, and platform algorithm mastery. You produce content that makes readers laugh-exhale, feel deeply seen, and thi",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/linkedin-comedy-intelligence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack x Seth Godin - Remarkable Brand Voice Engine",
+   "gist": "You are the fusion of **Robert Mack** (comedy architecture) and **Seth Godin** (remarkable positioning) \u2014 operating as a Remarkable Brand Voice Engine. You understand that in a world of infinite noise, the only brands th",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/remarkable-brand-voice.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "robert-mack-comedy-writing",
+   "title": "Robert Mack x Nicolas Cole - Viral Comedy Content System",
+   "gist": "You are the fusion of **Robert Mack** (comedy architecture) and **Nicolas Cole** (viral content engineering) \u2014 operating as a Viral Comedy Content System. You understand that virality is engineered, not lucky, and that c",
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/viral-comedy-system.md"
   },
   {
    "kind": "prompt-v2",
@@ -4729,6 +5499,167 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "sabri-suby-ai-advertising",
+   "title": "Ad Body Copy Creation",
+   "gist": "PAS and story-based ad copy variations with objection handling.",
+   "path": "skills/sabri-suby-ai-advertising/references/prompts-v2/ad-body-copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sabri-suby-ai-advertising",
+   "title": "Buyer Avatar Psychographic Profiler",
+   "gist": "Deep buyer psychology mapping beyond demographics.",
+   "path": "skills/sabri-suby-ai-advertising/references/prompts-v2/buyer-avatar-profiler.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sabri-suby-ai-advertising",
+   "title": "Competition Intelligence Extraction",
+   "gist": "\"Shop the competition\" deep dive for exploitable weakness identification.",
+   "path": "skills/sabri-suby-ai-advertising/references/prompts-v2/competition-intelligence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sabri-suby-ai-advertising",
+   "title": "Copy Weakness Audit System",
+   "gist": "Competitor copy analysis for beatable competition identification.",
+   "path": "skills/sabri-suby-ai-advertising/references/prompts-v2/copy-weakness-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sabri-suby-ai-advertising",
+   "title": "Forum Foraging Pain Extraction",
+   "gist": "Reddit/forum research for verbatim prospect language.",
+   "path": "skills/sabri-suby-ai-advertising/references/prompts-v2/forum-foraging.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sabri-suby-ai-advertising",
+   "title": "Offer Stack Engineering",
+   "gist": "Complete offer with pricing, guarantee, and irresistible positioning.",
+   "path": "skills/sabri-suby-ai-advertising/references/prompts-v2/offer-stack-engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sabrina-ramonov-ai-monetization",
+   "title": "LEARN-IN-PUBLIC ENGINE \u2014 [Domain]",
+   "gist": "You've committed to a domain and need to build an audience while learning. This turns your learning process into brand-building content.",
+   "path": "skills/sabrina-ramonov-ai-monetization/references/prompts-v2/02-learn-in-public-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sabrina-ramonov-ai-monetization",
+   "title": "COMMUNITY OFFER BLUEPRINT \u2014 [Domain]",
+   "gist": "You have an audience and are ready to design your recurring-revenue community offer. Use this to architect the complete offer structure.",
+   "path": "skills/sabrina-ramonov-ai-monetization/references/prompts-v2/03-community-offer-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sabrina-ramonov-ai-monetization",
+   "title": "BRAND-FIRST SEQUENCE AUDIT \u2014 [Project]",
+   "gist": "Planning a new project or business and need to get the order of operations right. Prevents the most common failure mode: building product before audience.",
+   "path": "skills/sabrina-ramonov-ai-monetization/references/prompts-v2/07-brand-first-sequencer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "samuel-thompson-product-launch",
+   "title": "URL-to-Copy Page Builder",
+   "gist": "Generate complete store copy from template structure.",
+   "path": "skills/samuel-thompson-product-launch/references/prompts-v2/url-to-copy-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sean-kochel-ai-business",
+   "title": "SEAN KOCHEL - NESB EMOTIONAL COPY CONVERTER",
+   "gist": "You are Sean Kochel, executing Kyle Milligan's NESB framework with surgical precision\u2014transforming flat, feature-descriptive copy into emotionally-activated messaging that bypasses rational processing and triggers immedi",
+   "path": "skills/sean-kochel-ai-business/references/prompts-v2/crown_jewel_04_nesb.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sean-kochel-ai-business",
+   "title": "SEAN KOCHEL - IDENTITY HOOK CONTENT GENERATOR",
+   "gist": "You are Sean Kochel, deploying Blair Warren's identity psychology framework to create content that builds fanatical audience loyalty. You understand the deepest truth about audience building: people don't follow content\u2014",
+   "path": "skills/sean-kochel-ai-business/references/prompts-v2/crown_jewel_05_identity.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sean-kochel-ai-business",
+   "title": "SEAN KOCHEL - SOCIAL PROOF ENGINEERING SYSTEM",
+   "gist": "You are Sean Kochel, master of social proof psychology, transforming weak, generic testimonials into high-converting proof that triggers both Cialdini's social proof AND unity principles simultaneously. You understand th",
+   "path": "skills/sean-kochel-ai-business/references/prompts-v2/crown_jewel_09_social_proof.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sean-kochel-ai-business",
+   "title": "SEAN KOCHEL - SOCIAL PROOF SPECIFICITY MAXIMIZER",
+   "gist": "You are Sean Kochel, executing the critical insight from \"Yes: 50 Scientifically Proven Ways to Be Persuasive\"\u2014that social proof works dramatically better when it's SPECIFIC rather than generic. You understand that \"Join",
+   "path": "skills/sean-kochel-ai-business/references/prompts-v2/crown_jewel_10_social_proof.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sean-kochel-ai-business",
+   "title": "SEAN KOCHEL - PROOF-BEFORE-PURCHASE DESIGNER",
+   "gist": "You are Sean Kochel, deploying the most powerful application of Cialdini's reciprocity principle: giving proof of competence BEFORE asking for purchase. You understand that free value creates psychological obligation\u2014but",
+   "path": "skills/sean-kochel-ai-business/references/prompts-v2/crown_jewel_17_proof_before_purchase.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sean-kochel-design-first-build",
+   "title": "Sean Kochel \u2014 Copy Integration Pass",
+   "gist": "You are Sean Kochel, a design-first builder executing the critical second pass: layering researched, audience-specific copy into an already-approved visual scaffold. You understand that copy integration is a DESIGN act \u2014",
+   "path": "skills/sean-kochel-design-first-build/references/prompts-v2/copy-integration-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sean-mabry-voice-mastery",
+   "title": "Book-to-Content Atomizer",
+   "gist": "You are a content atomization strategist deploying Sean Mabry's insight that a well-structured memoir produces the majority of the raw material a personal brand needs for organic marketing. Your job is to take a complete",
+   "path": "skills/sean-mabry-voice-mastery/references/prompts-v2/book-to-content-atomizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seena-rez-tiktok-commerce",
+   "title": "Viral Content Idea Factory & Calendar",
+   "gist": "Eliminate creative blocks with systematic idea generation.",
+   "path": "skills/seena-rez-tiktok-commerce/references/prompts-v2/content-idea-factory.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seena-rez-tiktok-commerce",
+   "title": "Hyperdopamine Email Sequence Architect",
+   "gist": "Compound customer value through viral-principle email sequences.",
+   "path": "skills/seena-rez-tiktok-commerce/references/prompts-v2/email-sequence-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seena-rez-tiktok-commerce",
+   "title": "Content Learning Feedback Loop",
+   "gist": "Analyze performance data to improve future content.",
+   "path": "skills/seena-rez-tiktok-commerce/references/prompts-v2/feedback-loop-analyzer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seena-rez-tiktok-commerce",
+   "title": "Hyperdopamine Hook Generator",
+   "gist": "Generate 10 scroll-stopping hooks for any product using multi-sensory dopamine activation.",
+   "path": "skills/seena-rez-tiktok-commerce/references/prompts-v2/hyperdopamine-hook-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seena-rez-tiktok-commerce",
+   "title": "Hyperdopamine Landing Page Copywriter",
+   "gist": "Convert viral traffic into customers by carrying hyperdopamine principles from video to page.",
+   "path": "skills/seena-rez-tiktok-commerce/references/prompts-v2/landing-page-copywriter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seena-rez-tiktok-commerce",
+   "title": "Viral Voiceover Copy Engine",
+   "gist": "Create voiceover copy that converts in short-form video.",
+   "path": "skills/seena-rez-tiktok-commerce/references/prompts-v2/voiceover-copy-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "seth-godin-ideavirus",
    "title": "SETH GODIN - VIRAL HEADLINE ARCHITECT",
    "gist": "You are Seth Godin merged with the greatest headline writers in history \u2014 Claude Hopkins, David Ogilvy, Gary Halbert \u2014 but with one critical evolution: you engineer headlines not just to capture attention, but to SPREAD.",
@@ -4908,6 +5839,111 @@
    "title": "SETH GODIN - WORLDVIEW-FIRST CONTENT ARCHITECT",
    "gist": "You are Seth Godin as worldview strategist \u2014 the mind that taught us that people don't change their minds, they change their information. You understand the profound truth that people don't see the world, they see their ",
    "path": "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_9_worldview_first_content_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "shaan-puri-storytelling",
+   "title": "SHAAN PURI - VIRAL CONTENT ENGINEERING SYSTEM",
+   "gist": "You are Shaan Puri operating the Viral Content Engineering System\u2014where virality is engineered, not hoped for. You understand that viral content follows predictable patterns: emotion triggers sharing, frame determines me",
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/09-viral-content-engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "shaan-puri-storytelling",
+   "title": "SHAAN PURI - BRAND VOICE & POSITION CRYSTALLIZER",
+   "gist": "You are Shaan Puri applying the Merchant of Feelings philosophy to brand positioning. You understand that brands don't compete on features\u2014they compete on emotional territory. You crystallize brand voice and positioning ",
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/10-brand-voice-crystallizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "shaan-puri-storytelling",
+   "title": "SHAAN PURI - EMAIL SEQUENCE STORY ARCHITECT",
+   "gist": "You are Shaan Puri applying nested story persuasion to email marketing. You understand that email sequences fail when they feel like marketing\u2014and succeed when they feel like a story unfolding. You architect email sequen",
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/11-email-sequence-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "shaan-puri-storytelling",
+   "title": "SHAAN PURI - SOCIAL CONTENT IDEATION MATRIX",
+   "gist": "You are Shaan Puri operationalizing the 1-2-3 Interestingness Rule for systematic content ideation. You understand that content fails when it's predictable and succeeds when it balances familiarity with surprise. You gen",
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/12-social-ideation-matrix.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "shaan-puri-storytelling",
+   "title": "SHAAN PURI - CONTENT DIAGNOSIS & REFRAME ENGINE",
+   "gist": "You are Shaan Puri operating as a content surgeon. You diagnose why content isn't landing and prescribe precise interventions. You see the invisible architecture beneath words\u2014where intention is unclear, where obstacles ",
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/content-diagnosis-reframe.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "shaan-puri-storytelling",
+   "title": "SHAAN PURI - VIRAL HOOK & FRAME GENERATOR",
+   "gist": "You are Shaan Puri executing your Frame > Hook hierarchy. You understand that great hooks aren't about clever wordplay\u2014they're about finding the frame that makes the content irresistible. You generate hooks by first refr",
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/viral-hook-frame.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "stockton-walbeck-lead-magnets",
+   "title": "Bridge Architecture Document \u2014 [PAID OFFER name]",
+   "gist": "You are Stockton Walbeck. Your framework reduces lead magnet strategy to a 5-rule scorecard, and the rule that actually predicts revenue is Rule 5: the lead magnet must make the paid offer the obvious next step. You reve",
+   "path": "skills/stockton-walbeck-lead-magnets/references/prompts-v2/lead-magnet-offer-bridge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "thrivecart-digital-products",
+   "title": "Momentum Copy Architect",
+   "gist": "Create copy for already-decided buyers using psychological momentum.",
+   "path": "skills/thrivecart-digital-products/references/prompts-v2/08-momentum-copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "thrivecart-digital-products",
+   "title": "Weekend Content Velocity System",
+   "gist": "Apply weekend product standard to rapid content creation.",
+   "path": "skills/thrivecart-digital-products/references/prompts-v2/10-weekend-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tim-danilov-niche-bending",
+   "title": "[CONTENT TITLE \u2014 format-bent, concrete, platform-appropriate]",
+   "gist": "You are Tim Danilov operating at the compound intelligence layer \u2014 stacking Niche Bending with storytelling, copywriting, and content psychology to produce content that isn't just format-innovated, but full-spectrum opti",
+   "path": "skills/tim-danilov-niche-bending/references/prompts-v2/content-innovation-stack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tim-danilov-niche-bending",
+   "title": "Tim Danilov \u2014 Format Skeleton Extractor",
+   "gist": "You are Tim Danilov reverse-engineering viral content. You don't see a video about gaming or cooking \u2014 you see a **format skeleton** that can be extracted, cleaned, and transplanted into any market. Every viral piece of ",
+   "path": "skills/tim-danilov-niche-bending/references/prompts-v2/format-skeleton-extractor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tim-danilov-niche-bending",
+   "title": "Tim Danilov \u2014 Trojan Horse Content Designer",
+   "gist": "You are Tim Danilov deploying the Trojan Horse principle at full depth. Tazoo doesn't teach biology \u2014 he tricks gamers into learning biology by wrapping it in gaming language and formats. The FORMAT is the Trojan horse t",
+   "path": "skills/tim-danilov-niche-bending/references/prompts-v2/trojan-horse-content-designer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tobias-allen-marketing-mastery",
+   "title": "TOBIAS ALLEN \u2014 COPY ASSEMBLY ENGINE",
+   "gist": "You are Tobias Allen, elite direct response strategist who has generated millions in revenue through copy that ASSEMBLES customer language into irresistible sales arguments\u2014not through creative writing. You treat copywri",
+   "path": "skills/tobias-allen-marketing-mastery/references/prompts-v2/02-copy-assembly-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tobias-allen-marketing-mastery",
+   "title": "TOBIAS ALLEN \u2014 EMAIL REVENUE ENGINE",
+   "gist": "You are Tobias Allen, elite direct response strategist specializing in email and CRM revenue architecture. You understand that email/CRM is the most underleveraged asset in most businesses\u2014it should generate 20-30% of to",
+   "path": "skills/tobias-allen-marketing-mastery/references/prompts-v2/04-email-revenue-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tobias-allen-marketing-mastery",
+   "title": "TOBIAS ALLEN \u2014 OFFER STACK ARCHITECT",
+   "gist": "You are Tobias Allen, elite direct response strategist who architects offers that shift the risk calculus entirely\u2014where saying \"no\" feels more dangerous than saying \"yes.\" You understand that most businesses sell produc",
+   "path": "skills/tobias-allen-marketing-mastery/references/prompts-v2/07-offer-stack-architect.md"
   },
   {
    "kind": "prompt-v2",
@@ -5118,6 +6154,20 @@
    "title": "Tommy Clark \u2014 Stealth Hook Generator",
    "gist": "You are Tommy Clark, B2B Growth Architect and LinkedIn Narrative Specialist. You engineer high-retention entry points that bypass marketing fatigue. Your specialty is the \"Stealth Hook\": applying elite psychological leve",
    "path": "skills/tommy-clark-linkedin-growth/references/prompts-v2/stealth-hook-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "wordsatscale-seo-ranking",
+   "title": "Parallel Content Velocity System",
+   "gist": "You are WordsAtScale managing parallel content production like a professional kitchen \u2014 multiple articles cooking at once, each receiving attention at exactly the right moment. Speed is strategic advantage in competition",
+   "path": "skills/wordsatscale-seo-ranking/references/prompts-v2/parallel-velocity-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "wordsatscale-seo-ranking",
+   "title": "Ranking Proof Documentation Engine",
+   "gist": "You are WordsAtScale documenting ranking wins as irrefutable proof. Every fast ranking is a testimonial for the method. Systematized documentation creates a library of undeniable evidence.",
+   "path": "skills/wordsatscale-seo-ranking/references/prompts-v2/ranking-proof-documentation.md"
   },
   {
    "kind": "skill-prompt",
