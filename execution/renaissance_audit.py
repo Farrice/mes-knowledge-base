@@ -48,7 +48,8 @@ def audit_file(path):
         reasons.append("stub-marker")
     if len(text.splitlines()) < MIN_LINES:
         reasons.append(f"under-{MIN_LINES}-lines")
-    missing = [s for s in REQUIRED_SECTIONS if s not in text]
+    lower = text.lower()
+    missing = [s for s in REQUIRED_SECTIONS if s.lower() not in lower]
     if missing:
         reasons.append("missing:" + ",".join(s.replace("## ", "") for s in missing))
     if "standard: structure-pure-v2" not in text:
