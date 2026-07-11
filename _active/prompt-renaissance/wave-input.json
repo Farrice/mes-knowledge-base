@@ -1,665 +1,655 @@
 {
  "standard": "structure-pure-v2 (see _active/prompt-renaissance/04-deliverables/RUNBOOK.md)",
  "total": 150,
- "remaining_after_wave": 701,
+ "remaining_after_wave": 982,
  "groups": [
   {
-   "skill": "fareed-zakaria-writing-mastery",
+   "skill": "erica-mallet-brand-magnetism",
    "prompts": [
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_commercial_02_value_add_messaging.md",
-     "title": "ZAKARIA METHOD: VALUE-ADD MESSAGING ENGINE"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/content_domination_1_pillar_architect.md",
+     "title": "ERICA MALLETT - MAGNETIC CONTENT PILLAR ARCHITECT"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_commercial_03_comparative_positioning.md",
-     "title": "ZAKARIA METHOD: COMPARATIVE POSITIONING MATRIX"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/content_domination_2_shortform_factory.md",
+     "title": "ERICA MALLETT - SHORT-FORM CONTENT FACTORY"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_commercial_04_consumer_truth.md",
-     "title": "ZAKARIA METHOD: CONSUMER TRUTH EXCAVATION PROTOCOL"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/content_domination_3_longform_engine.md",
+     "title": "ERICA MALLETT - LONG-FORM CONTENT ENGINE"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_commercial_06_gut_brain_persuasion.md",
-     "title": "ZAKARIA METHOD: GUT-BRAIN PERSUASION BRIDGE"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/content_domination_4_written_mastery.md",
+     "title": "ERICA MALLETT - WRITTEN CONTENT MASTERY SYSTEM"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_commercial_09_strategic_insight.md",
-     "title": "ZAKARIA METHOD: STRATEGIC INSIGHT & MARKET SIGNAL DECODER"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/content_domination_6_multiplication.md",
+     "title": "ERICA MALLETT - CONTENT MULTIPLICATION ENGINE"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_commercial_10_viral_architecture.md",
-     "title": "ZAKARIA METHOD: VIRAL ARCHITECTURE ENGINEERING"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/content_domination_6_multiplication_engine.md",
+     "title": "ERICA MALLETT - CONTENT MULTIPLICATION ENGINE"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_02_exclamation_point.md",
-     "title": "FAREED ZAKARIA - EXCLAMATION POINT ARTICLE ARCHITECTURE CROWN JEWEL PROMPT"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/content_domination_7_calendar.md",
+     "title": "ERICA MALLETT - 30-DAY CONTENT CALENDAR GENERATOR"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_03_value_add.md",
-     "title": "FAREED ZAKARIA - VALUE-ADD TAKE DEVELOPMENT CROWN JEWEL PROMPT"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/content_domination_7_calendar_generator.md",
+     "title": "ERICA MALLETT - 30-DAY CONTENT CALENDAR GENERATOR"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_04_video_communication.md",
-     "title": "FAREED ZAKARIA - TELEVISION & VIDEO COMMUNICATION CROWN JEWEL PROMPT"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/crown_jewel_prompt_1_belief_architecture.md",
+     "title": "ERICA MALLETT - BELIEF-BASED BRAND ARCHITECTURE"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_05_comparative_framework.md",
-     "title": "FAREED ZAKARIA - COMPARATIVE FRAMEWORK DEPLOYMENT CROWN JEWEL PROMPT"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/crown_jewel_prompt_2_enemy_effect.md",
+     "title": "ERICA MALLETT - ENEMY EFFECT CONTENT GENERATOR"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_06_research_synthesis.md",
-     "title": "FAREED ZAKARIA - DEEP RESEARCH & SOURCE SYNTHESIS CROWN JEWEL PROMPT"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/crown_jewel_prompt_4_content_strategy.md",
+     "title": "ERICA MALLETT - 9-BELIEF CONTENT STRATEGY GENERATOR"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_07_public_intellectual.md",
-     "title": "FAREED ZAKARIA - PUBLIC INTELLECTUAL POSITIONING CROWN JEWEL PROMPT"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/crown_jewel_prompt_5_loops_hooks.md",
+     "title": "ERICA MALLETT - PSYCHOLOGICAL LOOP & HOOK ARCHITECTURE"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_08_longform_talk.md",
-     "title": "FAREED ZAKARIA - LONG-FORM TALK ARCHITECTURE CROWN JEWEL PROMPT"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/crown_jewel_prompt_6_brand_audit.md",
+     "title": "ERICA MALLETT - BRAND MAGNETISM AUDIT SYSTEM"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_09_expert_network.md",
-     "title": "FAREED ZAKARIA - EXPERT NETWORK CULTIVATION & DEPLOYMENT CROWN JEWEL PROMPT"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/enhanced_crown_jewel_1_belief_copywriting.md",
+     "title": "ERICA MALLETT - BELIEF-POWERED COPYWRITING ENGINE"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_11_interview_architecture.md",
-     "title": "FAREED ZAKARIA - INTERVIEW QUESTION ARCHITECTURE CROWN JEWEL PROMPT"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/enhanced_crown_jewel_3_viral_hooks.md",
+     "title": "ERICA MALLETT - VIRAL HOOK LABORATORY"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_12_medium_adaptation.md",
-     "title": "FAREED ZAKARIA - MEDIUM ADAPTATION PROTOCOL CROWN JEWEL PROMPT"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/enhanced_crown_jewel_5_connection_content.md",
+     "title": "ERICA MALLETT - CONNECTION-ECONOMY CONTENT PILLAR SYSTEM"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_13_purposeful_practice.md",
-     "title": "FAREED ZAKARIA - PURPOSEFUL PRACTICE SYSTEM CROWN JEWEL PROMPT"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/enhanced_crown_jewel_6_belonging_sales.md",
+     "title": "ERICA MALLETT - PSYCHOLOGICAL BELONGING SALES COPY"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_prompt_14_authentic_voice.md",
-     "title": "FAREED ZAKARIA - AUTHENTIC VOICE CALIBRATION CROWN JEWEL PROMPT"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/apex_1_entertainment_psychology_engine.md",
+     "title": "ERICA MALLETT APEX SUITE"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_01_one_idea_discipline.md",
-     "title": "ZAKARIA WRITER'S MASTERY: THE ONE-IDEA DISCIPLINE PROTOCOL"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/apex_2_aha_moment_engineering.md",
+     "title": "ERICA MALLETT APEX SUITE"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_02_argument_architecture.md",
-     "title": "ZAKARIA WRITER'S MASTERY: ARGUMENT ARCHITECTURE SYSTEM"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/apex_3_human_connection_engine.md",
+     "title": "ERICA MALLETT APEX SUITE"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_03_evidence_compression.md",
-     "title": "ZAKARIA WRITER'S MASTERY: EVIDENCE SELECTION & COMPRESSION ENGINE"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/apex_4_infinite_ideation_engine.md",
+     "title": "ERICA MALLETT APEX SUITE"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_04_opening_mastery.md",
-     "title": "ZAKARIA WRITER'S MASTERY: OPENING SENTENCE MASTERY"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/apex_5_voice_crystallization.md",
+     "title": "ERICA MALLETT APEX SUITE"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_05_closing_resonance.md",
-     "title": "ZAKARIA WRITER'S MASTERY: CLOSING RESONANCE ARCHITECTURE"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/apex_6_content_playbook_generator.md",
+     "title": "ERICA MALLETT APEX SUITE"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_06_counter_argument.md",
-     "title": "ZAKARIA WRITER'S MASTERY: COUNTER-ARGUMENT INTEGRATION PROTOCOL"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/apex_7_emotional_resonance_matrix.md",
+     "title": "ERICA MALLETT APEX SUITE"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_07_clarity_first.md",
-     "title": "ZAKARIA WRITER'S MASTERY: CLARITY-FIRST WRITING SYSTEM"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/content_domination_5_video_architecture.md",
+     "title": "ERICA MALLETT - VIDEO SCRIPT ARCHITECTURE SYSTEM"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_08_taste_discernment.md",
-     "title": "ZAKARIA WRITER'S MASTERY: TASTE & DISCERNMENT DEVELOPMENT"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/content_domination_5_video_scripts.md",
+     "title": "ERICA MALLETT - VIDEO SCRIPT ARCHITECTURE SYSTEM"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_09_reading_pipeline.md",
-     "title": "ZAKARIA WRITER'S MASTERY: READING-TO-WRITING PIPELINE"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/crown_jewel_prompt_3_differentiation.md",
+     "title": "ERICA MALLETT - DIFFERENTIATION ENGINEERING SYSTEM"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_10_authority_voice.md",
-     "title": "ZAKARIA WRITER'S MASTERY: AUTHORITY VOICE CONSTRUCTION"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/crown_jewel_prompt_7_tone_filter.md",
+     "title": "ERICA MALLETT - TONE WORD QUALITY FILTER SYSTEM"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_11_narrative_arc.md",
-     "title": "ZAKARIA WRITER'S MASTERY: NARRATIVE ARC IN NON-FICTION"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/enhanced_crown_jewel_2_enemy_sales.md",
+     "title": "ERICA MALLETT - ENEMY-EFFECT SALES CONVERSION SYSTEM"
     },
     {
-     "path": "skills/fareed-zakaria-writing-mastery/references/prompts/zakaria_writing_12_sentence_craft.md",
-     "title": "ZAKARIA WRITER'S MASTERY: SENTENCE-LEVEL CRAFT MASTERY"
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/enhanced_crown_jewel_4_throughline_usp.md",
+     "title": "ERICA MALLETT - THROUGH-LINE USP GENERATOR"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/enhanced_crown_jewel_7_belief_storytelling.md",
+     "title": "ERICA MALLETT - BELIEF NARRATIVE STORYTELLING ENGINE"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/enhanced_crown_jewel_8_signal_bridge.md",
+     "title": "ERICA MALLETT - MARKET SIGNAL \u2192 BELIEF BRIDGE SYSTEM"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/enhanced_crown_jewel_9_creative_direction.md",
+     "title": "ERICA MALLETT - CREATIVE DIRECTION PLAYBOOK GENERATOR"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/pop_culture_8_bridge_system.md",
+     "title": "ERICA MALLETT - POP CULTURE BRIDGE SYSTEM"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/pop_culture_9_entertainment_writing.md",
+     "title": "ERICA MALLETT - ENTERTAINMENT-VALUE WRITING ENGINE"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/writing_mastery_1_addictive_architecture.md",
+     "title": "ERICA MALLETT WRITING MASTERY SUITE"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/writing_mastery_1_magnetic_system.md",
+     "title": "ERICA MALLETT WRITING MASTERY SUITE"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/writing_mastery_2_emotional_truth.md",
+     "title": "ERICA MALLETT WRITING MASTERY SUITE"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/writing_mastery_2_truth_mining.md",
+     "title": "ERICA MALLETT WRITING MASTERY SUITE"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/writing_mastery_3_entertainment_education_fusion.md",
+     "title": "ERICA MALLETT WRITING MASTERY SUITE"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/writing_mastery_3_insight_crystallization.md",
+     "title": "ERICA MALLETT WRITING MASTERY SUITE"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/writing_mastery_4_cultural_bridge.md",
+     "title": "ERICA MALLETT WRITING MASTERY SUITE"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/writing_mastery_4_entertainment_education_fusion.md",
+     "title": "ERICA MALLETT WRITING MASTERY SUITE"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/writing_mastery_5_universal_truth.md",
+     "title": "ERICA MALLETT WRITING MASTERY SUITE"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/writing_mastery_5_viral_shareability.md",
+     "title": "ERICA MALLETT WRITING MASTERY SUITE"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/writing_mastery_6_emotional_impact.md",
+     "title": "ERICA MALLETT WRITING MASTERY SUITE"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/writing_mastery_6_viral_shareability.md",
+     "title": "ERICA MALLETT WRITING MASTERY SUITE"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/writing_mastery_7_remarkable_engine.md",
+     "title": "ERICA MALLETT WRITING MASTERY SUITE"
+    },
+    {
+     "path": "skills/erica-mallet-brand-magnetism/references/prompts/writing_mastery_7_transformational_writing.md",
+     "title": "ERICA MALLETT WRITING MASTERY SUITE"
     }
    ]
   },
   {
-   "skill": "jim-oshaughnessy-philosopher-financier",
+   "skill": "daniel-priestley-oversubscribed",
    "prompts": [
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/ai-augmented-creation.md",
-     "title": "JIM O'SHAUGHNESSY - AI-AUGMENTED CREATION PROTOCOL"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/authority-content.md",
+     "title": "Authority Content Engine"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/attention-capture-laboratory.md",
-     "title": "JIM O'SHAUGHNESSY - ATTENTION CAPTURE LABORATORY"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/frustration-content.md",
+     "title": "Frustration-First Content System"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/behavioral-pattern-arbitrage-system.md",
-     "title": "JIM O'SHAUGHNESSY - BEHAVIORAL PATTERN ARBITRAGE SYSTEM"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/ip-mining-methodology.md",
+     "title": "IP Mining & Methodology Extraction"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/belief-phenomenon-analyzer.md",
-     "title": "JIM O'SHAUGHNESSY - CONSENSUS REALITY NAVIGATOR"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/path-least-resistance.md",
+     "title": "Path of Least Resistance Offer Design"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/cognitive-style-matcher.md",
-     "title": "JIM O'SHAUGHNESSY - MANY PATHS METHODOLOGY MATCHER"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/personal-brand-architecture.md",
+     "title": "Personal Brand Architecture System"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/consensus-reality-positioning.md",
-     "title": "JIM O'SHAUGHNESSY - CONTRARIAN POSITIONING GENERATOR"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/tension-copywriting.md",
+     "title": "Tension-Driven Copywriting Engine"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/cross-domain-synthesis-engine.md",
-     "title": "JIM O'SHAUGHNESSY - CROSS-DOMAIN SYNTHESIS ENGINE"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/assessment-architecture.md",
+     "title": "Assessment Architecture Design"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/cross-traditional-story-engine.md",
-     "title": "JIM O'SHAUGHNESSY - NARRATIVE ARCHITECTURE SYSTEM"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/authority-narrative.md",
+     "title": "Authority Narrative Architecture"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/cross-traditional-wisdom.md",
-     "title": "JIM O'SHAUGHNESSY - PHILOSOPHICAL SYNTHESIS ENGINE"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/demand-supply-tension.md",
+     "title": "Demand & Supply Tension Engineering"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/encyclopedia-research-protocol.md",
-     "title": "JIM O'SHAUGHNESSY - ENCYCLOPEDIA RESEARCH PROTOCOL"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/domain-domination.md",
+     "title": "Domain Domination Blueprint"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/four-acts-career-architecture.md",
-     "title": "JIM O'SHAUGHNESSY - FOUR ACTS CAREER ARCHITECTURE DESIGNER"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/fame-game-framework.md",
+     "title": "Fame Game Framework"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/four-horsemen-decision-audit.md",
-     "title": "JIM O'SHAUGHNESSY - FOUR HORSEMEN DECISION AUDIT"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/frustration-mining.md",
+     "title": "Market Frustration Mining System"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/human-nature-arbitrage-analyzer.md",
-     "title": "JIM O'SHAUGHNESSY - HUMAN NATURE ARBITRAGE ANALYZER"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/heartfelt-value-proposition.md",
+     "title": "Heartfelt Value Proposition"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/human-nature-constants-decoder.md",
-     "title": "JIM O'SHAUGHNESSY - HUMAN NATURE CONSTANTS DECODER"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/icp-heartfelt-alignment.md",
+     "title": "ICP Heartfelt Alignment Engine"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/market-signal-intelligence.md",
-     "title": "JIM O'SHAUGHNESSY - MARKET SIGNAL INTELLIGENCE"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/kpi-positioning.md",
+     "title": "Key Person of Influence Positioning"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/narrative-architecture-system.md",
-     "title": "JIM O'SHAUGHNESSY - NARRATIVE ARCHITECTURE SYSTEM"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/market-segmentation-pricing.md",
+     "title": "Market Segmentation & 10x Pricing"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/practitioner-reality-filter.md",
-     "title": "JIM O'SHAUGHNESSY - PRACTITIONER REALITY FILTER"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/one-percent-positioning.md",
+     "title": "1% Entrepreneur Positioning"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/pre-fall-post-fall-assessment.md",
-     "title": "JIM O'SHAUGHNESSY - PRE-FALL/POST-FALL ASSESSMENT FRAMEWORK"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/origin-story-alchemy.md",
+     "title": "Origin Story Alchemy"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/private-conversation-entry.md",
-     "title": "JIM O'SHAUGHNESSY - DEEP CUSTOMER RESONANCE ENGINE"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/oversubscribed-campaign.md",
+     "title": "Oversubscribed Campaign Blueprint"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/saturated-intuition-calibrator.md",
-     "title": "JIM O'SHAUGHNESSY - SATURATED INTUITION CALIBRATOR"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/premium-pitch.md",
+     "title": "Premium Pitch Engineering"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/strategic-feedback-loop-architect.md",
-     "title": "JIM O'SHAUGHNESSY - STRATEGIC FEEDBACK LOOP ARCHITECT"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/problem-aware-positioning.md",
+     "title": "Problem-Aware Positioning Transformation"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/timeless-persuasion-engine.md",
-     "title": "JIM O'SHAUGHNESSY - PSYCHOLOGICAL BUYING TRIGGER ARCHITECT"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/solopreneur-os.md",
+     "title": "Solopreneur Oversubscribed Operating System"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/transformation-architecture-system.md",
-     "title": "JIM O'SHAUGHNESSY - TRANSFORMATION ARCHITECTURE SYSTEM"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/stakes-psychology.md",
+     "title": "Stakes-Based Buyer Psychology Matrix"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/trust-architecture-system.md",
-     "title": "JIM O'SHAUGHNESSY - TRUST ARCHITECTURE SYSTEM"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/tension-creative-brief.md",
+     "title": "Tension Creative Brief Generator"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/viral-engineering-protocol.md",
-     "title": "JIM O'SHAUGHNESSY - VIRAL ENGINEERING PROTOCOL"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/tension-triangle-sales.md",
+     "title": "Tension Triangle Sales Conversation"
     },
     {
-     "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts/wisdom-transmission-document.md",
-     "title": "JIM O'SHAUGHNESSY - WISDOM TRANSMISSION DOCUMENT GENERATOR"
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/viral-demand.md",
+     "title": "Viral Demand Engineering Protocol"
+    },
+    {
+     "path": "skills/daniel-priestley-oversubscribed/references/prompts/worldview-messaging.md",
+     "title": "Worldview-Aligned Messaging"
     }
    ]
   },
   {
-   "skill": "donald-miller-culture-turnaround",
+   "skill": "ai-chris-lee-zero-testimonial-sales",
    "prompts": [
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p01-culture-diagnosis.md",
-     "title": "Culture Turnaround Diagnosis"
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/authority-content.md",
+     "title": "Authority Content Strategy"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p02-peace-sound-bite-architecture.md",
-     "title": "PEACE Sound Bite Architecture"
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/portfolio-proof.md",
+     "title": "Portfolio Proof Development"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p03-obsessive-documentation.md",
-     "title": "Obsessive Documentation Playbook"
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/proof-building-flywheel.md",
+     "title": "Proof Building Flywheel"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p04-leader-identity-installation.md",
-     "title": "Leader Identity Installation"
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/case-study-factory.md",
+     "title": "Case Study Creation Factory"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p05-stakeholder-venue-mapping.md",
-     "title": "Stakeholder Venue Mapping"
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/confidence-building.md",
+     "title": "Confidence Building Protocol"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p06-privilege-reframe.md",
-     "title": "Privilege Reframe Generator"
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/credibility-signals.md",
+     "title": "Credibility Signal Amplifier"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p07-30-day-blueprint.md",
-     "title": "30-Day Transformation Blueprint"
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/discovery-audit.md",
+     "title": "Discovery Audit Framework"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p08-past-destruction.md",
-     "title": "Past Destruction Protocol"
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/feature-outcome-translation.md",
+     "title": "Feature-to-Outcome Translation Engine"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p09-unsurprised-success.md",
-     "title": "Unsurprised Success Installation"
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/first-client.md",
+     "title": "First Client Strategy"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p10-certainty-projection.md",
-     "title": "Certainty Projection System"
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/objection-handling.md",
+     "title": "Objection Handling Playbook"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p11-negativity-gravity.md",
-     "title": "Negativity Gravity Management"
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/personal-results.md",
+     "title": "Personal Results Documentation"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p12-causal-chain-mapping.md",
-     "title": "Identity-Behavior Causal Chain Mapping"
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/pilot-project.md",
+     "title": "Pilot Project Designer"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p13-strategic-micromanagement.md",
-     "title": "Strategic Micromanagement Playbook"
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/price-anchoring.md",
+     "title": "Price Anchoring Strategy"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p14-stakeholder-activation.md",
-     "title": "Stakeholder Activation Challenge"
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/process-expertise.md",
+     "title": "Process Expertise Demonstration"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p15-resistance-decoder.md",
-     "title": "Resistance Pattern Decoder"
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/proposal-optimizer.md",
+     "title": "Proposal Structure Optimizer"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p16-turnaround-assessment.md",
-     "title": "Turnaround Leader Assessment"
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/quick-win.md",
+     "title": "Quick Win Identification System"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p17-repetition-programming.md",
-     "title": "Repetition Programming System"
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/referral-request.md",
+     "title": "Referral Request Framework"
     },
     {
-     "path": "skills/donald-miller-culture-turnaround/references/prompts/p18-identity-headlines.md",
-     "title": "Identity-Installing Headline System (Synthesis Prompt)"
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/risk-reversal.md",
+     "title": "Risk Reversal Architecture"
+    },
+    {
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/sales-conversation.md",
+     "title": "Sales Conversation Flow Design"
+    },
+    {
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/testimonial-collection.md",
+     "title": "Testimonial Collection System"
+    },
+    {
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/value-articulation.md",
+     "title": "AI Services Value Articulation System"
+    },
+    {
+     "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts/zero-testimonial-framework.md",
+     "title": "Zero-Testimonial Sales Framework"
     }
    ]
   },
   {
-   "skill": "futurepedia-prompt-engineering",
+   "skill": "david-deutsch-copywriting",
    "prompts": [
     {
-     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_01_research_notebook_architecture.md",
-     "title": "FUTUREPEDIA - RESEARCH NOTEBOOK ARCHITECTURE CROWN JEWEL PROMPT"
+     "path": "skills/david-deutsch-copywriting/references/prompts/02-universal-resonance.md",
+     "title": "Universal Resonance Engine"
     },
     {
-     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_02_source_validation_protocol.md",
-     "title": "FUTUREPEDIA - SOURCE VALIDATION PROTOCOL CROWN JEWEL PROMPT"
+     "path": "skills/david-deutsch-copywriting/references/prompts/03-counter-intuitive.md",
+     "title": "Counter-Intuitive Disruption Protocol"
     },
     {
-     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_04_custom_gem_architecture.md",
-     "title": "FUTUREPEDIA - CUSTOM GEM ARCHITECTURE CROWN JEWEL PROMPT"
+     "path": "skills/david-deutsch-copywriting/references/prompts/04-viral-sharing.md",
+     "title": "Viral Sharing Psychology Framework"
     },
     {
-     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_05_creative_use_case_discovery.md",
-     "title": "FUTUREPEDIA - CREATIVE USE CASE DISCOVERY CROWN JEWEL PROMPT"
+     "path": "skills/david-deutsch-copywriting/references/prompts/05-scene-imagery.md",
+     "title": "Scene-Based Imagery System"
     },
     {
-     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_06_audio_video_optimization.md",
-     "title": "FUTUREPEDIA - AUDIO/VIDEO OVERVIEW OPTIMIZATION CROWN JEWEL PROMPT"
+     "path": "skills/david-deutsch-copywriting/references/prompts/06-validation-matrix.md",
+     "title": "Pre-Viral Validation Matrix"
     },
     {
-     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_07_deep_research_synthesis.md",
-     "title": "FUTUREPEDIA - DEEP RESEARCH SYNTHESIS CROWN JEWEL PROMPT"
+     "path": "skills/david-deutsch-copywriting/references/prompts/07-amplification-engine.md",
+     "title": "Multi-Channel Amplification Engine"
     },
     {
-     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_08_infographic_design_mastery.md",
-     "title": "FUTUREPEDIA - INFOGRAPHIC DESIGN MASTERY CROWN JEWEL PROMPT"
+     "path": "skills/david-deutsch-copywriting/references/prompts/08-belief-architecture.md",
+     "title": "Belief Architecture Blueprint"
     },
     {
-     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_08_studio_style_direction_mastery.md",
-     "title": "FUTUREPEDIA - STUDIO STYLE DIRECTION MASTERY CROWN JEWEL PROMPT"
+     "path": "skills/david-deutsch-copywriting/references/prompts/10-resonant-story.md",
+     "title": "Resonant Story Engine"
     },
     {
-     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_09_dynamic_source_scoping.md",
-     "title": "FUTUREPEDIA - DYNAMIC SOURCE SCOPING CROWN JEWEL PROMPT"
+     "path": "skills/david-deutsch-copywriting/references/prompts/12-cold-conversion.md",
+     "title": "Cold Traffic Conversion Architecture"
     },
     {
-     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_09_strategic_slide_deck.md",
-     "title": "FUTUREPEDIA - STRATEGIC SLIDE DECK PRODUCTION CROWN JEWEL PROMPT"
+     "path": "skills/david-deutsch-copywriting/references/prompts/16-cold-psychology.md",
+     "title": "Cold Audience Psychology Decoder"
     },
     {
-     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_10_interactive_audio_learning.md",
-     "title": "FUTUREPEDIA - INTERACTIVE AUDIO LEARNING PROTOCOL CROWN JEWEL PROMPT"
+     "path": "skills/david-deutsch-copywriting/references/prompts/17-screenwriter.md",
+     "title": "Screenwriter Translation Engine"
     },
     {
-     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_10_notebook_chat_persona_engineering.md",
-     "title": "FUTUREPEDIA - NOTEBOOK CHAT PERSONA ENGINEERING CROWN JEWEL PROMPT"
+     "path": "skills/david-deutsch-copywriting/references/prompts/18-personification.md",
+     "title": "Personification Engine"
     },
     {
-     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_11_notebook_ecosystem_architecture.md",
-     "title": "FUTUREPEDIA - NOTEBOOK ECOSYSTEM ARCHITECTURE CROWN JEWEL PROMPT"
+     "path": "skills/david-deutsch-copywriting/references/prompts/19-hidden-weakness.md",
+     "title": "Hidden Weakness Framing System"
     },
     {
-     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_12_learning_system_design.md",
-     "title": "FUTUREPEDIA - LEARNING SYSTEM DESIGN CROWN JEWEL PROMPT"
+     "path": "skills/david-deutsch-copywriting/references/prompts/20-sentence-rhythm.md",
+     "title": "Sentence Rhythm Mathematics"
     },
     {
-     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_12_study_system_design.md",
-     "title": "FUTUREPEDIA - STUDY SYSTEM DESIGN CROWN JEWEL PROMPT"
+     "path": "skills/david-deutsch-copywriting/references/prompts/21-cross-industry.md",
+     "title": "Cross-Industry Translation Protocol"
     },
     {
-     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_13_report_type_selection_strategy.md",
-     "title": "FUTUREPEDIA - REPORT TYPE SELECTION STRATEGY CROWN JEWEL PROMPT"
+     "path": "skills/david-deutsch-copywriting/references/prompts/V1-boring-to-brilliant.md",
+     "title": "Boring-to-Brilliant Transformation"
     },
     {
-     "path": "skills/futurepedia-prompt-engineering/references/prompts/prompt_14_error_detection_quality_assurance.md",
-     "title": "FUTUREPEDIA - ERROR DETECTION & QUALITY ASSURANCE CROWN JEWEL PROMPT"
+     "path": "skills/david-deutsch-copywriting/references/prompts/V2-question-protocol.md",
+     "title": "Question-First Intelligence Protocol"
+    },
+    {
+     "path": "skills/david-deutsch-copywriting/references/prompts/V4-assumption-assassination.md",
+     "title": "Assumption Assassination Protocol"
+    },
+    {
+     "path": "skills/david-deutsch-copywriting/references/prompts/V5-salesperson-mining.md",
+     "title": "Salesperson Mining Protocol"
+    },
+    {
+     "path": "skills/david-deutsch-copywriting/references/prompts/V6-cross-industry.md",
+     "title": "Cross-Industry Pattern Application"
+    },
+    {
+     "path": "skills/david-deutsch-copywriting/references/prompts/V7-ai-editing.md",
+     "title": "AI-Enhanced Editing"
     }
    ]
   },
   {
-   "skill": "david-mcraney-belief-change",
+   "skill": "cardinal-mason-ai-copywriting",
    "prompts": [
     {
-     "path": "skills/david-mcraney-belief-change/references/prompts/10_group_reasoning_optimizer.md",
-     "title": "DAVID McRANEY \u2014 GROUP REASONING OPTIMIZER"
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p23-competitive-angle.md",
+     "title": "P23 - Competitive Angle Discovery"
     },
     {
-     "path": "skills/david-mcraney-belief-change/references/prompts/11_argument_evaluation_activator.md",
-     "title": "DAVID McRANEY \u2014 ARGUMENT EVALUATION MODE ACTIVATOR"
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p24-deep-behavior-triggers.md",
+     "title": "P24 - Deep Human Behavior Triggers"
     },
     {
-     "path": "skills/david-mcraney-belief-change/references/prompts/12_crisis_state_calibrator.md",
-     "title": "DAVID McRANEY \u2014 CRISIS STATE PERSUASION CALIBRATOR"
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p25-jobs-to-be-done.md",
+     "title": "P25 - Jobs-to-Be-Done Excavator"
     },
     {
-     "path": "skills/david-mcraney-belief-change/references/prompts/13_extreme_belief_exit_architect.md",
-     "title": "DAVID McRANEY \u2014 EXTREME BELIEF EXIT ARCHITECT"
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p26-cold-audience-conversion.md",
+     "title": "P26 - Cold Audience Conversion Engine"
     },
     {
-     "path": "skills/david-mcraney-belief-change/references/prompts/14_cross_tribal_bridge_protocol.md",
-     "title": "DAVID McRANEY \u2014 CROSS-TRIBAL BRIDGE PROTOCOL"
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p27-emotional-resonance.md",
+     "title": "P27 - Emotional Resonance Architecture"
     },
     {
-     "path": "skills/david-mcraney-belief-change/references/prompts/1_belief_diagnostic_engine.md",
-     "title": "DAVID McRANEY \u2014 BELIEF DIAGNOSTIC ENGINE"
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p28-cognitive-bias.md",
+     "title": "P28 - Cognitive Bias Deployment"
     },
     {
-     "path": "skills/david-mcraney-belief-change/references/prompts/2_mi_execution_system.md",
-     "title": "DAVID McRANEY \u2014 MOTIVATIONAL INTERVIEWING EXECUTION SYSTEM"
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p29-desire-manufacturing.md",
+     "title": "P29 - Desire Manufacturing Engine"
     },
     {
-     "path": "skills/david-mcraney-belief-change/references/prompts/3_anxiety_dissolution_protocol.md",
-     "title": "DAVID McRANEY \u2014 ANXIETY DISSOLUTION PROTOCOL"
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p30-action-psychology.md",
+     "title": "P30 - Action Psychology Activator"
     },
     {
-     "path": "skills/david-mcraney-belief-change/references/prompts/4_environment_optimization_audit.md",
-     "title": "DAVID McRANEY \u2014 ENVIRONMENT OPTIMIZATION AUDIT"
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p32-about-page.md",
+     "title": "P32 - About Page Architect"
     },
     {
-     "path": "skills/david-mcraney-belief-change/references/prompts/5_pluralistic_ignorance_breaker.md",
-     "title": "DAVID McRANEY \u2014 PLURALISTIC IGNORANCE BREAKER"
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p35-ad-suite.md",
+     "title": "P35 - Ad Suite Generator"
     },
     {
-     "path": "skills/david-mcraney-belief-change/references/prompts/6_social_safety_net_builder.md",
-     "title": "DAVID McRANEY \u2014 SOCIAL SAFETY NET BUILDER"
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p36-case-study-deep.md",
+     "title": "P36 - Case Study Deep-Dive"
     },
     {
-     "path": "skills/david-mcraney-belief-change/references/prompts/7_staged_persuasion_architect.md",
-     "title": "DAVID McRANEY \u2014 STAGED PERSUASION ARCHITECT"
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p37-webinar-script.md",
+     "title": "P37 - Webinar Script Generator"
     },
     {
-     "path": "skills/david-mcraney-belief-change/references/prompts/8_trust_architecture_builder.md",
-     "title": "DAVID McRANEY \u2014 TRUST ARCHITECTURE BUILDER"
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p39-lead-magnet.md",
+     "title": "P39 - Lead Magnet Factory"
     },
     {
-     "path": "skills/david-mcraney-belief-change/references/prompts/9_lens_prediction_management.md",
-     "title": "DAVID McRANEY \u2014 LENS PREDICTION & MANAGEMENT SYSTEM"
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p40-podcast-pitch.md",
+     "title": "P40 - Podcast Guest Pitch"
+    },
+    {
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p41-twitter-threads.md",
+     "title": "P41 - Twitter/X Thread Generator"
+    },
+    {
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p42-youtube-scripts.md",
+     "title": "P42 - YouTube Script Generator"
+    },
+    {
+     "path": "skills/cardinal-mason-ai-copywriting/references/prompts/p43-blog-seo.md",
+     "title": "P43 - Blog to SEO Authority"
     }
    ]
   },
   {
-   "skill": "david-bayer-elite-communication",
+   "skill": "adam-enfroy-affiliate-marketing",
    "prompts": [
     {
-     "path": "skills/david-bayer-elite-communication/references/prompts/crown_jewel_01_grounded_presence.md",
-     "title": "DAVID BAYER - GROUNDED PRESENCE COMMUNICATION ACTIVATOR"
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/03-ai-article.md",
+     "title": "Adam Enfroy \u2014 AI Content Production System"
     },
     {
-     "path": "skills/david-bayer-elite-communication/references/prompts/crown_jewel_02_approval_seeking_eliminator.md",
-     "title": "DAVID BAYER - APPROVAL-SEEKING PATTERN ELIMINATOR"
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/10-ai-content-system.md",
+     "title": "Adam Enfroy \u2014 AI Content Production System"
     },
     {
-     "path": "skills/david-bayer-elite-communication/references/prompts/crown_jewel_03_friend_coffee_frame.md",
-     "title": "DAVID BAYER - FRIEND-COFFEE FRAME DEPLOYMENT"
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/11-buyer-psychology.md",
+     "title": "Adam Enfroy \u2014 Three-Tier Content Funnel Mapper"
     },
     {
-     "path": "skills/david-bayer-elite-communication/references/prompts/crown_jewel_04_strategic_silence.md",
-     "title": "DAVID BAYER - STRATEGIC SILENCE MASTERY"
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/12-viral-hook.md",
+     "title": "Adam Enfroy \u2014 Viral Hook & Headline Generator"
     },
     {
-     "path": "skills/david-bayer-elite-communication/references/prompts/crown_jewel_05_lived_experience.md",
-     "title": "DAVID BAYER - LIVED EXPERIENCE AUTHORITY BUILDER"
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/13-content-multiplication.md",
+     "title": "Adam Enfroy \u2014 Content Multiplication Engine"
     },
     {
-     "path": "skills/david-bayer-elite-communication/references/prompts/crown_jewel_06_verbal_identity.md",
-     "title": "DAVID BAYER - VERBAL IDENTITY ARCHITECT"
-    },
-    {
-     "path": "skills/david-bayer-elite-communication/references/prompts/crown_jewel_07_power_auditor.md",
-     "title": "DAVID BAYER - COMMUNICATION POWER AUDITOR"
-    },
-    {
-     "path": "skills/david-bayer-elite-communication/references/prompts/expanded_cj_03_emotional_headlines.md",
-     "title": "DAVID BAYER - EMOTIONAL TRANSMISSION HEADLINE SYSTEM"
-    },
-    {
-     "path": "skills/david-bayer-elite-communication/references/prompts/expanded_cj_05_rhythm_pacing.md",
-     "title": "DAVID BAYER - STRATEGIC RHYTHM & PACING ARCHITECT"
-    },
-    {
-     "path": "skills/david-bayer-elite-communication/references/prompts/expanded_cj_07_trust_first_positioning.md",
-     "title": "DAVID BAYER - TRUST-FIRST POSITIONING SYSTEM"
-    },
-    {
-     "path": "skills/david-bayer-elite-communication/references/prompts/expanded_cj_09_complexity_assassination.md",
-     "title": "DAVID BAYER - COMPLEXITY ASSASSINATION PROTOCOL"
-    },
-    {
-     "path": "skills/david-bayer-elite-communication/references/prompts/expanded_cj_10_internal_conversation.md",
-     "title": "DAVID BAYER - INTERNAL CONVERSATION INFILTRATOR"
+     "path": "skills/adam-enfroy-affiliate-marketing/references/prompts/content-funnel-architect.md",
+     "title": "Adam Enfroy \u2014 Content Funnel Architect"
     }
    ]
   },
   {
-   "skill": "jeremy-miner-identity-persuasion",
+   "skill": "brock-johnson-shareworthy-content",
    "prompts": [
     {
-     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/01-pre-frame-formula.md",
-     "title": "Pre-Frame Formula Generator"
+     "path": "skills/brock-johnson-shareworthy-content/references/prompts/algorithm-transcendence-playbook.md",
+     "title": "BROCK JOHNSON \u2014 ALGORITHM TRANSCENDENCE PLAYBOOK"
     },
     {
-     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/02-indirect-frame.md",
-     "title": "Indirect Frame Constructor"
+     "path": "skills/brock-johnson-shareworthy-content/references/prompts/engagement-psychology-system.md",
+     "title": "BROCK JOHNSON \u2014 ENGAGEMENT PSYCHOLOGY SYSTEM"
     },
     {
-     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/03-identity-types-framework.md",
-     "title": "4 Identity Types Framework Builder"
-    },
-    {
-     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/04-objection-prevention.md",
-     "title": "Objection Prevention Frame Builder"
-    },
-    {
-     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/05-reframe-flip.md",
-     "title": "Reframe Flip Generator"
-    },
-    {
-     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/06-binary-lock.md",
-     "title": "Binary Identity Lock Creator"
-    },
-    {
-     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/07-story-transfer.md",
-     "title": "Third-Person Story Transfer Script"
-    },
-    {
-     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/10-identity-positioning.md",
-     "title": "4 Identity Types Market Positioning System"
-    },
-    {
-     "path": "skills/jeremy-miner-identity-persuasion/references/prompts/13-binary-cta.md",
-     "title": "Binary Lock CTA & Conversion Optimizer"
+     "path": "skills/brock-johnson-shareworthy-content/references/prompts/viral-share-optimizer.md",
+     "title": "BROCK JOHNSON \u2014 VIRAL SHARE OPTIMIZER"
     }
    ]
   },
   {
-   "skill": "ethan-smith-aeo",
+   "skill": "lucas-alpay-storytelling",
    "prompts": [
     {
-     "path": "skills/ethan-smith-aeo/references/prompts/aeo-experiment-designer.md",
-     "title": "AEO Experiment Designer"
+     "path": "skills/lucas-alpay-storytelling/references/prompts/lucas-alpay-b02-proof-first-positioning.md",
+     "title": "LUCAS ALPAY - PROOF-FIRST POSITIONING SYSTEM"
     },
     {
-     "path": "skills/ethan-smith-aeo/references/prompts/aeo-misinformation-filter.md",
-     "title": "AEO Misinformation Filter"
+     "path": "skills/lucas-alpay-storytelling/references/prompts/lucas-alpay-b03-sensory-conversion.md",
+     "title": "LUCAS ALPAY - SENSORY CONVERSION COPYWRITER"
     },
     {
-     "path": "skills/ethan-smith-aeo/references/prompts/aeo-question-research.md",
-     "title": "AEO Question Research Pipeline"
-    },
-    {
-     "path": "skills/ethan-smith-aeo/references/prompts/citation-landscape-mapper.md",
-     "title": "Citation Landscape Mapper"
-    },
-    {
-     "path": "skills/ethan-smith-aeo/references/prompts/help-center-weaponizer.md",
-     "title": "Help Center Weaponizer"
-    },
-    {
-     "path": "skills/ethan-smith-aeo/references/prompts/reddit-citation-strategy.md",
-     "title": "Reddit Citation Strategy"
-    },
-    {
-     "path": "skills/ethan-smith-aeo/references/prompts/share-of-voice-tracker.md",
-     "title": "Share of Voice Tracker"
+     "path": "skills/lucas-alpay-storytelling/references/prompts/lucas-alpay-b04-cognitive-dissonance.md",
+     "title": "LUCAS ALPAY - COGNITIVE DISSONANCE COPY ENGINE"
     }
    ]
   },
   {
-   "skill": "jeremy-haynes-mindset-systems",
+   "skill": "dan-koe-multipassionate-mastery",
    "prompts": [
     {
-     "path": "skills/jeremy-haynes-mindset-systems/references/prompts/asymmetric-risk-evaluator.md",
-     "title": "Asymmetric Risk Evaluator"
-    },
-    {
-     "path": "skills/jeremy-haynes-mindset-systems/references/prompts/identity-version-builder.md",
-     "title": "Identity Version Builder"
-    },
-    {
-     "path": "skills/jeremy-haynes-mindset-systems/references/prompts/pain-leverage-audit.md",
-     "title": "Pain Leverage Audit"
-    },
-    {
-     "path": "skills/jeremy-haynes-mindset-systems/references/prompts/reasons-engine.md",
-     "title": "Reasons Engine"
-    },
-    {
-     "path": "skills/jeremy-haynes-mindset-systems/references/prompts/responsibility-expansion-map.md",
-     "title": "Responsibility Expansion Map"
-    },
-    {
-     "path": "skills/jeremy-haynes-mindset-systems/references/prompts/revenue-math-model.md",
-     "title": "Revenue Math Model"
-    },
-    {
-     "path": "skills/jeremy-haynes-mindset-systems/references/prompts/worldview-audit.md",
-     "title": "Worldview Audit"
+     "path": "skills/dan-koe-multipassionate-mastery/references/prompts/prompt_7_brand_environment_designer.md",
+     "title": "DAN KOE - BRAND ENVIRONMENT DESIGNER"
     }
    ]
   },
   {
-   "skill": "darrel-wilson-ai-monetization",
+   "skill": "alex-copper-creative-strategy",
    "prompts": [
     {
-     "path": "skills/darrel-wilson-ai-monetization/references/prompts/revenue-stream-stacker.md",
-     "title": "Revenue Stream Stacker"
-    },
-    {
-     "path": "skills/darrel-wilson-ai-monetization/references/prompts/rfp-opportunity-hunter.md",
-     "title": "RFP Opportunity Hunter"
-    },
-    {
-     "path": "skills/darrel-wilson-ai-monetization/references/prompts/ugly-website-prospector.md",
-     "title": "Ugly Website Prospector"
-    },
-    {
-     "path": "skills/darrel-wilson-ai-monetization/references/prompts/website-flip-system.md",
-     "title": "Website Flip System"
-    },
-    {
-     "path": "skills/darrel-wilson-ai-monetization/references/prompts/workflow-productizer.md",
-     "title": "Workflow Productizer"
-    }
-   ]
-  },
-  {
-   "skill": "dr-kriukow-humanization",
-   "prompts": [
-    {
-     "path": "skills/dr-kriukow-humanization/references/prompts/ai-humanization-pass.md",
-     "title": "Dr. Kriukow \u2014 AI Humanization Pass"
-    },
-    {
-     "path": "skills/dr-kriukow-humanization/references/prompts/structural-predictability-audit.md",
-     "title": "Dr. Kriukow \u2014 Structural Predictability Audit"
-    },
-    {
-     "path": "skills/dr-kriukow-humanization/references/prompts/writing-style-humanizer-config.md",
-     "title": "Dr. Kriukow \u2014 Writing Style Humanizer Config"
-    }
-   ]
-  },
-  {
-   "skill": "jonathan-courtney-marketing",
-   "prompts": [
-    {
-     "path": "skills/jonathan-courtney-marketing/references/prompts/01-promoter-blueprint-audit.md",
-     "title": "Jonathan Courtney \u2014 Promoter Blueprint Audit"
-    },
-    {
-     "path": "skills/jonathan-courtney-marketing/references/prompts/02-selling-event-architect.md",
-     "title": "Jonathan Courtney \u2014 Selling Event Architect"
+     "path": "skills/alex-copper-creative-strategy/references/prompts/ad-account-audit-protocol.md",
+     "title": "ALEX COOPER - AD ACCOUNT AUDIT PROTOCOL CROWN JEWEL PROMPT"
     }
    ]
   }

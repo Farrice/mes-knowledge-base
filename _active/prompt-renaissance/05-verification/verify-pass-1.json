@@ -1,0 +1,1026 @@
+{
+ "regenerated": [
+  {
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/01-niche-validation.md",
+   "reason": "Methodology loss: only Phase 1 of 5 kept, Phases 2-5 (search volume, competition, monetization, verdict) deleted; generic boilerplate Output Contract/Skeleton"
+  },
+  {
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/02-90-day-plan.md",
+   "reason": "Methodology loss: only Month 1 of 6 kept, Months 2-6 and revenue milestone table deleted; generic boilerplate Output Contract/Skeleton"
+  },
+  {
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/04-youtube-script.md",
+   "reason": "Truncated to single phase/section (confirmed via structural grep); generic boilerplate Output Contract present"
+  },
+  {
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/05-topical-authority.md",
+   "reason": "Truncated to single phase/section; generic boilerplate Output Contract present"
+  },
+  {
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/06-link-optimization.md",
+   "reason": "Truncated to single phase/section; generic boilerplate Output Contract present"
+  },
+  {
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/07-winner-scale.md",
+   "reason": "Truncated to single phase/section; generic boilerplate Output Contract present"
+  },
+  {
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/08-revenue-architecture.md",
+   "reason": "Truncated to single phase/section; generic boilerplate Output Contract present"
+  },
+  {
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/09-authority-positioning.md",
+   "reason": "Truncated to single phase/section; generic boilerplate Output Contract present"
+  },
+  {
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/14-conversion-narrative.md",
+   "reason": "Truncated to single phase/section; generic boilerplate Output Contract present"
+  },
+  {
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/15-market-intelligence.md",
+   "reason": "Truncated to single phase/section; generic boilerplate Output Contract present"
+  },
+  {
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/16-omnichannel-authority.md",
+   "reason": "Truncated to single phase/section; generic boilerplate Output Contract present"
+  },
+  {
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/ad-revenue-accelerator.md",
+   "reason": "Truncated to single phase/section; generic boilerplate Output Contract present"
+  },
+  {
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/affiliate-comparison-post.md",
+   "reason": "Truncated to single phase/section; generic boilerplate Output Contract present"
+  },
+  {
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/affiliate-program-selector.md",
+   "reason": "Truncated to single phase/section; generic boilerplate Output Contract present"
+  },
+  {
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/infinite-keyword-loop.md",
+   "reason": "Truncated to single phase/section; generic boilerplate Output Contract present"
+  },
+  {
+   "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/traffic-diversification.md",
+   "reason": "Truncated to single phase/section; generic boilerplate Output Contract present"
+  },
+  {
+   "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts-v2/adjacent-experience.md",
+   "reason": "Methodology loss: dropped the 'Experience Categories' decision framework (four transfer types) present in original; generic boilerplate Output Contract/Skeleton replaces specific Output Deliverable"
+  },
+  {
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/authority-content-engine.md",
+   "reason": "generic-boilerplate: Core Methodology and Execution Protocol are unfilled placeholders ([Core framework...], [Step with decision rule...]) instead of the real 6-step protocol present in original"
+  },
+  {
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/proof-architecture-generator.md",
+   "reason": "generic-boilerplate: same placeholder Core Methodology/Execution Protocol pattern; real 8-step protocol from original discarded"
+  },
+  {
+   "path": "skills/alex-copper-creative-strategy/references/prompts-v2/visual-telegraph-hook-architect.md",
+   "reason": "generic-boilerplate: placeholder Execution Protocol; real 6-step visual hook methodology from original discarded, only dumped truncated as unstructured 'Source Material'"
+  },
+  {
+   "path": "skills/andreessen-horowitz-new-media/references/prompts-v2/03-oral-written-culture-architect.md",
+   "reason": "generic-boilerplate + truncation: Role/Core Methodology/Execution Protocol are unfilled placeholders; the 5-step platform-culture matrix methodology is dumped as truncated raw source material instead of being restructured"
+  },
+  {
+   "path": "skills/andy-lo-premium-websites/references/prompts-v2/06-content-migration-agent.md",
+   "reason": "generic-boilerplate + truncation: Role/Execution Protocol are placeholders; real 5-phase migration protocol only appears as a truncated raw dump cut mid-list"
+  },
+  {
+   "path": "skills/april-dunford-positioning/references/prompts-v2/10-proof-stack-assembler.md",
+   "reason": "generic-boilerplate + truncation: Role/Execution Protocol are placeholders; real 5-step proof methodology dumped as truncated raw source material, table cut mid-row"
+  },
+  {
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/content-humanizer.md",
+   "reason": "generic-boilerplate + truncation: Role/Execution Protocol are placeholders; real AI-tell-detection methodology dumped as truncated raw source material"
+  },
+  {
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/duality-hook-engineer.md",
+   "reason": "generic-boilerplate + truncation: Role/Execution Protocol are placeholders; real tension-mining methodology dumped as truncated raw source material"
+  },
+  {
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/hook-dominance-scorer.md",
+   "reason": "generic-boilerplate + truncation: Role/Execution Protocol are placeholders; real 4-dimension scoring methodology dumped as truncated raw source material, step 4 cut mid-sentence"
+  },
+  {
+   "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/three-angle-content-splitter.md",
+   "reason": "generic-boilerplate + truncation: Role/Execution Protocol are placeholders; real three-angle methodology dumped as truncated raw source material cut mid-sentence"
+  },
+  {
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_01_desperation_eliminator.md",
+   "reason": "generic-template: Core Methodology/Execution Protocol are literal bracket placeholders, file cuts off mid-sentence in the dumped Source Material appendix"
+  },
+  {
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_02_friend_coffee_copy.md",
+   "reason": "generic-template: same placeholder Core Methodology/Execution Protocol pattern, truncated mid-sentence in appendix"
+  },
+  {
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_04_lived_experience_content.md",
+   "reason": "generic-template: same placeholder Core Methodology/Execution Protocol pattern, truncated mid-sentence in appendix"
+  },
+  {
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_06_brand_voice_dna.md",
+   "reason": "generic-template: same placeholder Core Methodology/Execution Protocol pattern, truncated mid-sentence in appendix"
+  },
+  {
+   "path": "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_08_authenticity_viral.md",
+   "reason": "generic-template: same placeholder Core Methodology/Execution Protocol pattern, truncated mid-sentence in appendix"
+  },
+  {
+   "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/proof-first-content.md",
+   "reason": "generic-template: top-level Core Methodology/Execution Protocol are bracket placeholders; real method only exists dumped raw in a Source Material appendix, not in the structured sections"
+  },
+  {
+   "path": "skills/david-deutsch-copywriting/references/prompts-v2/V8-implementation.md",
+   "reason": "generic-template: identical placeholder Core Methodology/Execution Protocol pattern seen across the batch's defective cluster"
+  },
+  {
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p19-peace-sales-copy.md",
+   "reason": "generic-template: placeholder Core Methodology/Execution Protocol, real content only in raw Source Material dump"
+  },
+  {
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p20-soundbite-positioning.md",
+   "reason": "generic-template: placeholder Core Methodology/Execution Protocol, real content only in raw Source Material dump"
+  },
+  {
+   "path": "skills/donald-miller-culture-turnaround/references/prompts-v2/p21-causal-chain-content.md",
+   "reason": "generic-template: placeholder Core Methodology/Execution Protocol, real content only in raw Source Material dump"
+  },
+  {
+   "path": "skills/dr-kriukow-humanization/references/prompts-v2/meaning-extraction-rewriter.md",
+   "reason": "generic-template: placeholder Core Methodology/Execution Protocol, real content only in raw Source Material dump"
+  },
+  {
+   "path": "skills/ethan-smith-aeo/references/prompts-v2/content-information-gain-audit.md",
+   "reason": "Core Methodology / Execution Protocol are literal unfilled placeholder brackets, and the appended 'Source Material' is truncated mid-sentence ('Before ev') with a fake truncation note instead of actual content \u2014 total methodology loss."
+  },
+  {
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_01_hook_architecture.md",
+   "reason": "Core Methodology and Execution Protocol are unfilled [BRACKET] placeholders; appended Source Material cuts off mid-sentence ('What do') \u2014 all 7 execution architectures and phases lost."
+  },
+  {
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_05_haiku_compression.md",
+   "reason": "Same broken generic template: Core Methodology and Execution Protocol are literal placeholder brackets, not extracted content."
+  },
+  {
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_07_authentic_voice.md",
+   "reason": "Same broken generic template: Core Methodology and Execution Protocol are literal placeholder brackets, not extracted content."
+  },
+  {
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_08_content_multiplication.md",
+   "reason": "Same broken generic template: Core Methodology and Execution Protocol are literal placeholder brackets, not extracted content."
+  },
+  {
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_01_speed_reading.md",
+   "reason": "Same broken generic template: Core Methodology and Execution Protocol are literal placeholder brackets, not extracted content."
+  },
+  {
+   "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_10_deep_read_craft.md",
+   "reason": "Same broken generic template: Core Methodology and Execution Protocol are literal placeholder brackets, not extracted content."
+  },
+  {
+   "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_03_content_multiplication.md",
+   "reason": "Same broken generic template: Core Methodology and Execution Protocol are literal placeholder brackets, not extracted content."
+  },
+  {
+   "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/rhythmic-story-rewriter.md",
+   "reason": "Core Methodology/Execution Protocol are unfilled placeholder brackets; appended Source Material cuts off mid-step-3 ('Rewrite the body text using') \u2014 later steps and all techniques lost."
+  },
+  {
+   "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/three-line-formatter.md",
+   "reason": "Core Methodology/Execution Protocol are unfilled placeholder brackets; appended Source Material truncated mid-sentence in step 4 ('MUST end before the platform truncates the text') \u2014 remaining steps (5-7) and full methodology lost."
+  },
+  {
+   "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/visual-contrast-image-director.md",
+   "reason": "Core Methodology/Execution Protocol are unfilled placeholder brackets; appended Source Material truncated mid-word in Phase 1 ('high-contr') \u2014 Phases 2-4 and full methodology lost."
+  },
+  {
+   "path": "skills/jasmin-alic-linkedin-growth/references/prompts-v2/vulnerable-to-valuable-bridge.md",
+   "reason": "Core Methodology/Execution Protocol are unfilled placeholder brackets; appended Source Material truncated mid-sentence in step 2 ('creates an open loop a') \u2014 steps 3-5 and full methodology lost."
+  },
+  {
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/08-you-know-the-type.md",
+   "reason": "Core Methodology/Execution Protocol/Deploy When are literal unfilled placeholders; Source Material appendix truncated mid-word ('conspirat')"
+  },
+  {
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/09-consequence-stack-email.md",
+   "reason": "Core Methodology/Execution Protocol are unfilled placeholders; Source Material truncated mid-sentence in Execution Protocol step 1"
+  },
+  {
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/11-story-content.md",
+   "reason": "Core Methodology/Execution Protocol are unfilled placeholders; Source Material truncated mid-word ('In')"
+  },
+  {
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/12-offer-architecture.md",
+   "reason": "Core Methodology/Execution Protocol are unfilled placeholders; Source Material truncated mid-word ('coach')"
+  },
+  {
+   "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/14-viral-hook.md",
+   "reason": "Core Methodology/Execution Protocol are unfilled placeholders; Source Material truncated mid-sentence in Execution Protocol step 1"
+  },
+  {
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/aha-moment-engineering.md",
+   "reason": "Core Methodology/Execution Protocol are unfilled placeholders; Source Material truncated mid-word ('saf')"
+  },
+  {
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/career-publication-strategy.md",
+   "reason": "Core Methodology/Execution Protocol are unfilled placeholders; Source Material truncated mid-sentence in Input Required"
+  },
+  {
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/coaching-diagnostic-engine.md",
+   "reason": "Core Methodology/Execution Protocol are unfilled placeholders; Source Material truncated mid-word ('how')"
+  },
+  {
+   "path": "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/strategic-content-positioning-architect.md",
+   "reason": "Core Methodology/Execution Protocol are unfilled placeholders; Source Material massively truncated (318\u219295 lines), cut mid-word ('gatekeep')"
+  },
+  {
+   "path": "skills/jonathan-courtney-marketing/references/prompts-v2/03-content-to-lead-magnet.md",
+   "reason": "Role/Core Methodology/Execution Protocol are unfilled placeholders; Source Material truncated mid-sentence in format list"
+  },
+  {
+   "path": "skills/jonathan-franzen-storytelling/references/prompts-v2/minimal-detail-maximum-desire.md",
+   "reason": "Core Methodology/Execution Protocol are unfilled placeholders; Source Material truncated mid-sentence in Output Deliverable"
+  },
+  {
+   "path": "skills/josh-sanders-linkedin-growth/references/prompts-v2/high-dwell-carousel-creator.md",
+   "reason": "Role/Core Methodology/Execution Protocol are unfilled placeholders; Source Material truncated mid-sentence in Slide 1 execution step"
+  },
+  {
+   "path": "skills/josh-sanders-linkedin-growth/references/prompts-v2/high-ticket-cohort-pitch.md",
+   "reason": "Role/Core Methodology/Execution Protocol are unfilled placeholders; Source Material truncated mid-sentence ('implementation')"
+  },
+  {
+   "path": "skills/josh-sanders-linkedin-growth/references/prompts-v2/inspiration-bank-builder.md",
+   "reason": "Role/Core Methodology/Execution Protocol are unfilled placeholders; Source Material truncated mid-word ('F')"
+  },
+  {
+   "path": "skills/josh-sanders-linkedin-growth/references/prompts-v2/ugly-numbers-pattern-interrupt.md",
+   "reason": "Role/Core Methodology/Execution Protocol are unfilled placeholders; Source Material truncated mid-sentence ('followed b')"
+  },
+  {
+   "path": "skills/josh-sanders-linkedin-growth/references/prompts-v2/waitlist-to-webinar-architect.md",
+   "reason": "Role/Core Methodology/Execution Protocol are unfilled placeholders; Source Material truncated mid-word ('Exclu')"
+  },
+  {
+   "path": "skills/joshua-smith-real-estate/references/prompts-v2/team-coaching-playbook.md",
+   "reason": "Role/Core Methodology/Execution Protocol are unfilled placeholders; Source Material truncated mid-sentence in System diagnostic"
+  },
+  {
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_04_format_study_analyzer.md",
+   "reason": "generic template with literal placeholder text ('[Core framework and decision rules extracted from original]') left in place of methodology, plus verbatim source dump truncated mid-sentence at INPUT REQUIRED"
+  },
+  {
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_06_trial_reel_derivatives.md",
+   "reason": "same generic-template corruption; methodology replaced with bracket placeholders, source paste cut off mid-word ('NUMB')"
+  },
+  {
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_07_free_event_framework.md",
+   "reason": "same generic-template corruption; Execution Protocol reduced to '1' with nothing after it, truncated mid-sentence"
+  },
+  {
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_09_scene_library_systemizer.md",
+   "reason": "same generic-template corruption; methodology stripped to bracket placeholders, truncated mid-sentence in B-roll list"
+  },
+  {
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_19_emotional_arc_sales_page.md",
+   "reason": "same generic-template corruption; methodology stripped to bracket placeholders, truncated mid-sentence in TARGET AVATAR input"
+  },
+  {
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_20_positioning_differentiation.md",
+   "reason": "same generic-template corruption; methodology stripped to bracket placeholders, truncated mid-word in competitors input"
+  },
+  {
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_23_viral_reverse_engineering.md",
+   "reason": "same generic-template corruption; methodology stripped to bracket placeholders, truncated mid-word ('CRE')"
+  },
+  {
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_24_sales_conversation_framework.md",
+   "reason": "same generic-template corruption; methodology stripped to bracket placeholders, truncated mid-sentence in price point input"
+  },
+  {
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_28_lofi_production_system.md",
+   "reason": "same generic-template corruption; methodology stripped to bracket placeholders, truncated mid-sentence in time constraint input"
+  },
+  {
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_29_cross_platform_translation.md",
+   "reason": "same generic-template corruption; methodology stripped to bracket placeholders, truncated mid-sentence in INPUT REQUIRED"
+  },
+  {
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_31_algorithm_decoder.md",
+   "reason": "same generic-template corruption; methodology stripped to bracket placeholders, truncated mid-sentence in content type input"
+  },
+  {
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_32_trigger_map.md",
+   "reason": "same generic-template corruption; methodology stripped to bracket placeholders, truncated mid-sentence in content type input"
+  },
+  {
+   "path": "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_33_minimalist_creator_os.md",
+   "reason": "same generic-template corruption; methodology stripped to bracket placeholders, truncated mid-sentence in content goals input"
+  },
+  {
+   "path": "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_13_color_palette_extraction_engine.md",
+   "reason": "Generic boilerplate: Output Skeleton/Quality Gate/Execution Protocol are literal unfilled template placeholders (\"[Core framework and decision rules extracted from original]\", \"[SPECIFICATION 1]\", \"[Step with decision rule or framework application]\") not specific to this prompt's color-palette-extraction deliverable, and the appended \"Source Material (Preserved Methodology)\" section is truncated mid-step (cuts off after \"Accent\" with no completion) followed by a lazy stub note instead of actual preserved content."
+  },
+  {
+   "path": "skills/lance-yichao-context-engineering/references/prompts-v2/06-future-proof-validator.md",
+   "reason": "generic bracket-placeholder template (Core Methodology/Execution Protocol are unfilled brackets, not extracted content) plus a verbatim raw-source dump appended and truncated mid-sentence"
+  },
+  {
+   "path": "skills/lindsay-ai-consulting/references/prompts-v2/linkedin-outreach.md",
+   "reason": "same defective generic bracket template (methodology deleted) plus verbatim source dump truncated mid-word at 'Out'"
+  },
+  {
+   "path": "skills/linkedin-2026-format-arbitrage/references/prompts-v2/comment-to-download.md",
+   "reason": "generic bracket template with role/methodology deleted, raw source appended and truncated mid-sentence"
+  },
+  {
+   "path": "skills/linkedin-2026-format-arbitrage/references/prompts-v2/contextual-selfie.md",
+   "reason": "same defective generic bracket-template mode confirmed via grep (Core Methodology/Source Material placeholders)"
+  },
+  {
+   "path": "skills/linkedin-2026-format-arbitrage/references/prompts-v2/document-carousel.md",
+   "reason": "same defective generic bracket-template mode confirmed via grep (Core Methodology/Source Material placeholders)"
+  },
+  {
+   "path": "skills/linkedin-2026-format-arbitrage/references/prompts-v2/self-pinned-comment.md",
+   "reason": "same defective generic bracket-template mode confirmed via grep (Core Methodology/Source Material placeholders)"
+  },
+  {
+   "path": "skills/linkedin-2026-format-arbitrage/references/prompts-v2/trapdoor-text-post.md",
+   "reason": "same defective generic bracket-template mode confirmed via grep (Core Methodology/Source Material placeholders)"
+  },
+  {
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b10-efficient-impact.md",
+   "reason": "truncated mid-sentence in Role section; Execution Protocol stops at Phase 1 of 5; generic non-specific Output Contract/Skeleton/Quality Gate replace the original's specific output spec"
+  },
+  {
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b11-climactic-offer.md",
+   "reason": "truncated mid-sentence in Role section; Execution Protocol stops at Phase 1 of multiple; generic boilerplate Output Contract/Skeleton/Quality Gate"
+  },
+  {
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b13-brand-memory.md",
+   "reason": "truncated methodology (only sensory-channel list survives) plus generic boilerplate Output Contract/Skeleton/Quality Gate replacing the original's specific spec"
+  },
+  {
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b20-transformation-narrative.md",
+   "reason": "truncated methodology (cuts mid-list) plus generic boilerplate Output Contract/Skeleton/Quality Gate"
+  },
+  {
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b25-crisis-narrative.md",
+   "reason": "truncated methodology (cuts mid-list) plus generic boilerplate Output Contract/Skeleton/Quality Gate"
+  },
+  {
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b27-subtext-sales.md",
+   "reason": "truncated after Phase 1 of Execution Protocol plus generic boilerplate Output Contract/Skeleton/Quality Gate"
+  },
+  {
+   "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b30-emotional-authenticity.md",
+   "reason": "truncated after Phase 1 of Execution Protocol plus generic boilerplate Output Contract/Skeleton/Quality Gate"
+  },
+  {
+   "path": "skills/lulu-cheng-meservey-communications/references/prompts-v2/p08-conviction-copy-transmutation.md",
+   "reason": "truncated mid-sentence in parameters list; Execution Protocol is literally the placeholder text '[Methodology preserved from original]' with zero actual methodology"
+  },
+  {
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/advanced-crown-jewel-1-sticky-headlines-engine.md",
+   "reason": "Truncation (activation statement and Step 6 cut mid-word/sentence) plus entire Core Methodology (Sticky Headline Formula + Six Headline Architectures) deleted, not just examples"
+  },
+  {
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/advanced-crown-jewel-3-viral-content-architect.md",
+   "reason": "Truncation (activation statement and Step 4 cut mid-word) plus Core Methodology (Six Viral Architectures) and Steps 5-6 of protocol deleted"
+  },
+  {
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/advanced-crown-jewel-6-content-pillar-generator.md",
+   "reason": "Truncation (activation statement and Step 5 cut mid-word); Core Methodology section entirely absent"
+  },
+  {
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/advanced-crown-jewel-7-offer-messaging-optimizer.md",
+   "reason": "Generic Output Contract/Skeleton replaces specific Output Deliverable; SUCCESs-principle methodology context stripped along with all named terminology grounding"
+  },
+  {
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/advanced-crown-jewel-9-email-sequence-alchemist.md",
+   "reason": "Truncation (activation statement and Step 6 'Sequence Cohesion Check' cut to a dangling dash) plus Core Methodology deleted"
+  },
+  {
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-1-sticky-longform-architect.md",
+   "reason": "Truncation (activation statement and Step 6 emotional throughline cut mid-list) plus Core Methodology deleted"
+  },
+  {
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-12-testimonial-social-proof-optimizer.md",
+   "reason": "Truncation (activation statement cut mid-sentence, Step 6 'Objection Mapping' cut mid-word) plus methodology context deleted"
+  },
+  {
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-17-brand-messaging-bible.md",
+   "reason": "Truncation (activation statement cut mid-sentence: 'It captures the worldview, the voice, t'); methodology context deleted"
+  },
+  {
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-2-micro-content-alchemist.md",
+   "reason": "Truncation (activation statement and Step 6 'Relief (I'm not al' cut mid-word) plus Core Methodology deleted"
+  },
+  {
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-3-ghostwriting-voice-synthesizer.md",
+   "reason": "Truncation (activation statement and Step 5 'at their emoti' cut mid-word) plus methodology context deleted"
+  },
+  {
+   "path": "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-6-sticky-educational-content.md",
+   "reason": "Truncation (activation statement cut mid-sentence, Step 7 'Identity Reinforcement' cut to bare 'I') plus methodology context deleted"
+  },
+  {
+   "path": "skills/manus-ai-consulting/references/prompts-v2/crown_jewel_prompt_04_growth_landscape.md",
+   "reason": "Truncation: activation statement cut mid-sentence ('You don't explain growth analysis methodology\u2014') and Step 6 'STRATEGI' cut mid-word"
+  },
+  {
+   "path": "skills/manus-ai-consulting/references/prompts-v2/crown_jewel_prompt_09_content_gap_warfare.md",
+   "reason": "Truncation: activation statement cut mid-sentence and Step 3 priority-scoring matrix cut mid-word ('Priority')"
+  },
+  {
+   "path": "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_05_content_calendar_engine.md",
+   "reason": "Truncation: activation statement cut mid-sentence ('but you've built SYSTEMS that make right happen eve')"
+  },
+  {
+   "path": "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_06_invitation_energy_sales_copy.md",
+   "reason": "Truncation: activation statement cut mid-sentence ('Your copy never begs. It never manipulates.')"
+  },
+  {
+   "path": "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_07_social_proof_accelerator.md",
+   "reason": "Truncation: activation statement cut mid-sentence ('You climb the effort ladder... You've')"
+  },
+  {
+   "path": "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_13_content_multiplication_machine.md",
+   "reason": "Truncation: activation statement cut mid-sentence ('And most importantly, y')"
+  },
+  {
+   "path": "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_17_content_revenue_analyzer.md",
+   "reason": "Truncation: activation statement cut mid-sentence ('This intelligence changes EVERYTHING')"
+  },
+  {
+   "path": "skills/michael-bernoff-identity-engineering/references/prompts-v2/identity-shift-copy.md",
+   "reason": "Core Identity Copy Framework (3-level Problem/Solution/Identity-Aware model, the persona's signature technique) deleted entirely, not just before/after examples"
+  },
+  {
+   "path": "skills/mike-foutia-marketing-tools/references/prompts-v2/brand-bible-builder.md",
+   "reason": "Truncation mid-sentence in Step 3 ('the before state)') plus Steps 4-6 (Competitive Landscape, Ad & Content Context Layer, and the AI Instruction Block explicitly called 'the most critical section') deleted entirely"
+  },
+  {
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/newsletter-dominance.md",
+   "reason": "Input Required section replaced with unfilled literal placeholder '[INPUT_PARAMETER]: [description]' instead of the four real params; Newsletter Principles methodology and specific Output structure also dropped for generic boilerplate"
+  },
+  {
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/opening-lines-hooks.md",
+   "reason": "Input Required section replaced with unfilled literal placeholder '[INPUT_PARAMETER]: [description]' instead of the four real params; Opening Line Types taxonomy dropped along with specific Output structure"
+  },
+  {
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/scroll-stopping-hook.md",
+   "reason": "Input Required section replaced with unfilled literal placeholder '[INPUT_PARAMETER]: [description]' instead of the five real params; specific Hook Suite Package output replaced by generic boilerplate"
+  },
+  {
+   "path": "skills/mitch-albom-writing-mastery/references/prompts-v2/transformation-copy-engine.md",
+   "reason": "Input Required section replaced with unfilled literal placeholder '[INPUT_PARAMETER]: [description]' instead of the five real params; specific Transformation Copy Package output replaced by generic boilerplate"
+  },
+  {
+   "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts-v2/taste-extraction-engineer.md",
+   "reason": "methodology loss: dropped Extraction Technologies section (Preference Forcing Function, Micro-Decision Microscope, Irritation Inventory named techniques with steps) and replaced specific Output Deliverable with generic boilerplate"
+  },
+  {
+   "path": "skills/nate-b-jones-intent-engineering/references/prompts-v2/guardrails-extractor.md",
+   "reason": "specific input fields ([TASK_DESCRIPTION]/[AGENT_CAPABILITIES]/[DOMAIN]) collapsed to generic [INPUT_PARAMETER]; specific markdown output skeleton (Preservation Rules/Priority Hierarchies/Social/Timing checklist) replaced with generic non-deliverable-specific boilerplate"
+  },
+  {
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/02-citation-intelligence.md",
+   "reason": "corrupted headers ('& Activation' fragment, orphan 'Protocol' line) plus specific Output Deliverable list replaced by generic boilerplate"
+  },
+  {
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/03-brand-narrative.md",
+   "reason": "same header corruption + generic boilerplate pattern as 02-citation-intelligence"
+  },
+  {
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/05-content-engine.md",
+   "reason": "same header corruption + generic boilerplate pattern as 02-citation-intelligence"
+  },
+  {
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/08-retrieval-copy.md",
+   "reason": "same header corruption + generic boilerplate pattern as 02-citation-intelligence"
+  },
+  {
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/11-content-velocity.md",
+   "reason": "same header corruption + generic boilerplate pattern as 02-citation-intelligence"
+  },
+  {
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/18-competitor-seeding.md",
+   "reason": "same header corruption + generic boilerplate pattern as 02-citation-intelligence"
+  },
+  {
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/20-topic-domination.md",
+   "reason": "same header corruption + generic boilerplate pattern as 02-citation-intelligence"
+  },
+  {
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/24-retrieval-sales-copy.md",
+   "reason": "same header corruption + generic boilerplate pattern as 02-citation-intelligence"
+  },
+  {
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/26-content-ecosystem.md",
+   "reason": "same header corruption + generic boilerplate pattern as 02-citation-intelligence"
+  },
+  {
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_12_productized_offer_architect.md",
+   "reason": "core-insight paragraph truncated mid-sentence; original 492 lines of phased methodology collapsed to 6 generic bullets plus boilerplate Output Contract/Skeleton/Quality Gate"
+  },
+  {
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_13_case_study_social_proof_engine.md",
+   "reason": "core-insight paragraph truncated mid-sentence; original 391 lines of methodology reduced to generic boilerplate"
+  },
+  {
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m01_headline_hook_alchemist.md",
+   "reason": "core-insight paragraph truncated mid-sentence; original 437 lines of methodology reduced to generic boilerplate"
+  },
+  {
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m02_sales_copy_virtuoso.md",
+   "reason": "core-insight paragraph truncated mid-sentence; original 541 lines of methodology reduced to generic boilerplate"
+  },
+  {
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m05_viral_content_engineer.md",
+   "reason": "core-insight paragraph truncated mid-sentence ('...You engineer these elements syst'); original 873-line methodology (Phase 2 Hook Engineering onward) entirely dropped, replaced with generic boilerplate"
+  },
+  {
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m07_email_sequence_architect.md",
+   "reason": "core-insight paragraph truncated mid-sentence; original 773 lines of methodology reduced to generic boilerplate"
+  },
+  {
+   "path": "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m08_content_pillar_ideation_system.md",
+   "reason": "core-insight paragraph truncated mid-sentence; original 608 lines of methodology reduced to generic boilerplate"
+  },
+  {
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/adverb-eliminator.md",
+   "reason": "Core Methodology/Input Required/Execution Protocol are unfilled generic template brackets ([Core framework...], [SPECIFICATION 1], [Step with decision rule...]); appended verbatim source dump truncated mid-table"
+  },
+  {
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/information-density-auditor.md",
+   "reason": "Same generic-placeholder primary sections as adverb-eliminator; source dump truncated mid-sentence"
+  },
+  {
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/jargon-introduction-protocol.md",
+   "reason": "Same generic-placeholder primary sections; source dump truncated mid-table cell"
+  },
+  {
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/opening-sentence-maximizer.md",
+   "reason": "Same generic-placeholder primary sections; source dump truncated mid-sentence"
+  },
+  {
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/redundancy-elimination.md",
+   "reason": "Same generic-placeholder primary sections; source dump truncated"
+  },
+  {
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/sentence-power-optimizer.md",
+   "reason": "Same generic-placeholder primary sections; source dump truncated mid-word"
+  },
+  {
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/sentence-rhythm-controller.md",
+   "reason": "Same generic-placeholder primary sections; source dump truncated mid-word"
+  },
+  {
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/three-pass-compression.md",
+   "reason": "Same generic-placeholder primary sections; source dump truncated mid-header (\"## Quali\")"
+  },
+  {
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/transition-flow-architect.md",
+   "reason": "Same generic-placeholder primary sections; source dump truncated mid-table cell"
+  },
+  {
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/two-comma-discipline.md",
+   "reason": "Same generic-placeholder primary sections; source dump truncated mid-line"
+  },
+  {
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/vocabulary-calibrator.md",
+   "reason": "Same generic-placeholder primary sections; source dump truncated mid-line"
+  },
+  {
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/voice-preservation-filter.md",
+   "reason": "Same generic-placeholder primary sections; source dump truncated mid-sentence"
+  },
+  {
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/weak-construction-eliminator.md",
+   "reason": "Same generic-placeholder primary sections; source dump truncated mid-word"
+  },
+  {
+   "path": "skills/nicolas-cole-sentence-craft/references/prompts-v2/word-variation-engine.md",
+   "reason": "Same generic-placeholder primary sections; source dump truncated mid-table"
+  },
+  {
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_01_removal_game_copywriting_engine.md",
+   "reason": "Truncated mid-sentence (\"When you write, y\"); 4-layer Removal Architecture and 5-step Deployment Protocol entirely dropped; Output Contract/Skeleton/Quality Gate are generic boilerplate not specific to this prompt"
+  },
+  {
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_07_authority_content_pillar_system.md",
+   "reason": "Truncated mid-sentence (\"Your conversion cont\"); identical generic boilerplate Output Contract/Skeleton/Quality Gate as cj_01"
+  },
+  {
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_08_conviction_copy_converter.md",
+   "reason": "Truncated mid-sentence (\"When you\"); methodology from 893-line original reduced to same generic boilerplate template"
+  },
+  {
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_10_certainty_engineered_offer.md",
+   "reason": "Truncated mid-sentence (\"...than th\"); methodology from 724-line original reduced to same generic boilerplate template"
+  },
+  {
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_05_buyers_guide_content_creator.md",
+   "reason": "Truncated mid-sentence (\"Your creative instincts reco\"); same generic boilerplate template as rest of batch"
+  },
+  {
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_08_personal_brand_debate_ownership.md",
+   "reason": "Truncated mid-sentence; same generic boilerplate template, methodology from 418-line original dropped"
+  },
+  {
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_09_premium_content_hook_system.md",
+   "reason": "Truncated mid-sentence (\"What doubt is preventi\"); same generic boilerplate template"
+  },
+  {
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_10_objection_first_content_strategy.md",
+   "reason": "Truncated mid-sentence (\"Your creative instincts\"); same generic boilerplate template"
+  },
+  {
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_11_trust_through_doubt_voicing.md",
+   "reason": "Truncated mid-sentence (\"Your creative instinc\"); same generic boilerplate template"
+  },
+  {
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_12_category_of_one_personal_brand.md",
+   "reason": "Truncated mid-sentence (\"Your creative instinc\"); same generic boilerplate template"
+  },
+  {
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_13_7030_content_architecture.md",
+   "reason": "Truncated mid-sentence (\"...sell without trust\u2014\"); same generic boilerplate template"
+  },
+  {
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_15_silent_authority_content_creator.md",
+   "reason": "Truncated mid-sentence (\"When you e\"); same generic boilerplate template"
+  },
+  {
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_17_personal_brand_standard_setter.md",
+   "reason": "Truncated mid-sentence (\"...before competition even be\"); same generic boilerplate template"
+  },
+  {
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_30_depth_over_volume_content.md",
+   "reason": "Truncated mid-sentence (\"The signal of mastery isn't\"); same generic boilerplate template, 286-line original gutted to 57 lines"
+  },
+  {
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_33_levels_to_it_content_revealer.md",
+   "reason": "Truncated mid-sentence (\"instantly establishes\"); same generic boilerplate template, 269-line original gutted to 53 lines"
+  },
+  {
+   "path": "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_35_outcome_engineered_content_system.md",
+   "reason": "Truncated mid-sentence (\"...three qualified $10K client inquiries outperfor\"); same generic boilerplate template, 277-line original gutted to 54 lines"
+  },
+  {
+   "path": "skills/omar-eddaoudi/references/prompts-v2/aspirational-friction-engineer.md",
+   "reason": "mid-sentence truncation ('Focus on where it c') and only Phase 1 of 3 execution phases survives"
+  },
+  {
+   "path": "skills/omar-eddaoudi/references/prompts-v2/category-of-one-designer.md",
+   "reason": "execution protocol cut to Phase 1 only; original has Phases 2-4 (Distance Engineering, Identity Mirroring, Final Edit) entirely dropped"
+  },
+  {
+   "path": "skills/omar-eddaoudi/references/prompts-v2/controlled-distance-copy.md",
+   "reason": "mid-sentence truncation ('We are currentl') plus methodology loss vs original's multi-phase protocol"
+  },
+  {
+   "path": "skills/omar-eddaoudi/references/prompts-v2/exclusionary-tension-sales-copy.md",
+   "reason": "execution protocol cut to Phase 1 only; Phases 2-4 (Distance Engineering, Archetypal Mirroring, Final Polish) dropped"
+  },
+  {
+   "path": "skills/omar-eddaoudi/references/prompts-v2/friction-based-funnel-architect.md",
+   "reason": "execution protocol cut to Phase 1 only; Phases 2-3 (Friction Protocol, Identity Mirroring) dropped"
+  },
+  {
+   "path": "skills/omar-eddaoudi/references/prompts-v2/heroic-archetype-storyteller.md",
+   "reason": "mid-sentence truncation ('Detail the application process or') cutting Phase 5"
+  },
+  {
+   "path": "skills/omar-eddaoudi/references/prompts-v2/identity-mirroring-strategist.md",
+   "reason": "execution protocol cut to step 1 only; steps 2-4 (Distance Engineering, Identity Mapping, Aesthetic Coldness) dropped"
+  },
+  {
+   "path": "skills/omar-eddaoudi/references/prompts-v2/silence-premium-copywriter.md",
+   "reason": "mid-sentence truncation ('Request an In')"
+  },
+  {
+   "path": "skills/omar-eddaoudi/references/prompts-v2/social-signal-precedence-mapper.md",
+   "reason": "execution protocol cut to step 1 only; steps 2-5 (Gravedigger's Detail, Signal Precedence Mapping, Friction Design, Archetypal Mirroring) dropped"
+  },
+  {
+   "path": "skills/omar-eddaoudi/references/prompts-v2/value-inversion-offer-creator.md",
+   "reason": "execution protocol cut to Phase 1 only; Phases 2-4 (Distance Engineering, Identity Mirroring, Veblen Pivot Pricing) dropped"
+  },
+  {
+   "path": "skills/oren-operational-systems/references/prompts-v2/content-pillar-analyzer.md",
+   "reason": "mid-sentence truncation ('MAINTAIN \u2014 Performing steadily \u2192 chan') cutting the Decision Matrix short of its full set of recommendation categories"
+  },
+  {
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/01-empty-calorie-transform.md",
+   "reason": "corrupted headers: orphaned '& Activation' and 'Protocol' text fragments (broken '## Role & Activation' / '## Execution Protocol' headers), not valid structure-pure markdown"
+  },
+  {
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/08-body-copy.md",
+   "reason": "same header corruption pattern: orphaned '& Activation' and 'Protocol' fragments"
+  },
+  {
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/10-infinite-consumption.md",
+   "reason": "same header corruption pattern: orphaned '& Activation' and 'Protocol' fragments"
+  },
+  {
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/12-self-proving-viral.md",
+   "reason": "same header corruption pattern: orphaned '& Activation' and 'Protocol' fragments"
+  },
+  {
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/15-multi-sensory.md",
+   "reason": "same header corruption pattern: orphaned '& Activation' and 'Protocol' fragments"
+  },
+  {
+   "path": "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/content-emotional-autopsy.md",
+   "reason": "unfilled generic placeholder '[INPUT_PARAMETER]: [description]' and truncated to Step 1 of 3 (Execution Analysis, Diagnosis phases missing)"
+  },
+  {
+   "path": "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_05_brand_strategy.md",
+   "reason": "mid-sentence truncation ('get celebrated for t') and entire Output Deliverable spec (Risk Assessment Matrix, Go/No-Go framework) replaced with generic boilerplate"
+  },
+  {
+   "path": "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_14_content_commerce.md",
+   "reason": "mid-sentence truncation ('You architect conte') and role/execution content severely thinned vs 564-line original"
+  },
+  {
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/comedy-content-adapter.md",
+   "reason": "mid-sentence truncation at end of execution step 5 ('the body o')"
+  },
+  {
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/comedy-hook-generator.md",
+   "reason": "mid-sentence truncation at execution step 3 ('Not a cheap car,')"
+  },
+  {
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/direct-response-personality.md",
+   "reason": "mid-sentence truncation in role section plus Phase 2 (Mac Personality Integration) and Phase 3 (Conversion Optimization) entirely dropped from a 3-phase original protocol"
+  },
+  {
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/funnel-entertainment-system.md",
+   "reason": "mid-sentence truncation in role/activation section ('building value through stories that entertain')"
+  },
+  {
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/linkedin-comedy-intelligence.md",
+   "reason": "mid-sentence truncation in role section ('LinkedIn posts that are algorithm-')"
+  },
+  {
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/remarkable-brand-voice.md",
+   "reason": "mid-sentence truncation in role/activation section ('turns every touchpoint')"
+  },
+  {
+   "path": "skills/robert-mack-comedy-writing/references/prompts-v2/viral-comedy-system.md",
+   "reason": "mid-sentence truncation in role/activation section ('and landi')"
+  },
+  {
+   "path": "skills/sabri-suby-ai-advertising/references/prompts-v2/ad-body-copy.md",
+   "reason": "generic boilerplate: Output Contract/Skeleton/Quality Gate are template placeholders ('Foundation layer: methodology overview', 'Decision framework: decision gates') with zero reference to PAS structure, objection embedding, CTA, or headline pairing that the original's Output Deliverable specified; also has a corrupted header ('& Activation' instead of 'Role & Activation') and a stray duplicated 'Protocol' line"
+  },
+  {
+   "path": "skills/sabri-suby-ai-advertising/references/prompts-v2/buyer-avatar-profiler.md",
+   "reason": "identical generic boilerplate Output Contract/Skeleton/Quality Gate template as ad-body-copy.md, disconnected from this prompt's actual deliverable (demographics/psychographics/day-in-the-life/identity-language); same '& Activation' header corruption and duplicated 'Protocol' line"
+  },
+  {
+   "path": "skills/sabri-suby-ai-advertising/references/prompts-v2/competition-intelligence.md",
+   "reason": "same generic boilerplate Output Contract/Skeleton/Quality Gate template reused verbatim across the sabri-suby-ai-advertising batch, not specific to this prompt's deliverable"
+  },
+  {
+   "path": "skills/sabri-suby-ai-advertising/references/prompts-v2/copy-weakness-audit.md",
+   "reason": "same generic boilerplate Output Contract/Skeleton/Quality Gate template reused verbatim, not specific to this prompt's deliverable"
+  },
+  {
+   "path": "skills/sabri-suby-ai-advertising/references/prompts-v2/forum-foraging.md",
+   "reason": "same generic boilerplate Output Contract/Skeleton/Quality Gate template reused verbatim, not specific to this prompt's deliverable"
+  },
+  {
+   "path": "skills/sabri-suby-ai-advertising/references/prompts-v2/offer-stack-engineering.md",
+   "reason": "same generic boilerplate Output Contract/Skeleton/Quality Gate template reused verbatim, not specific to this prompt's deliverable"
+  },
+  {
+   "path": "skills/sabrina-ramonov-ai-monetization/references/prompts-v2/02-learn-in-public-engine.md",
+   "reason": "Execution Protocol is literal unfilled placeholder '[Methodology preserved from original]'; Input Required is generic '[INPUT_PARAMETER]'; original's full 4-part deliverable (calendar, format menu, guardrails, flywheel) entirely lost"
+  },
+  {
+   "path": "skills/sabrina-ramonov-ai-monetization/references/prompts-v2/03-community-offer-architect.md",
+   "reason": "Same defect: Execution Protocol is literal placeholder '[Methodology preserved from original]', all 4-pillar/pricing/launch/churn methodology deleted"
+  },
+  {
+   "path": "skills/sabrina-ramonov-ai-monetization/references/prompts-v2/07-brand-first-sequencer.md",
+   "reason": "Same defect: Execution Protocol is literal placeholder '[Methodology preserved from original]', sequence-audit/5-phase methodology deleted"
+  },
+  {
+   "path": "skills/samuel-thompson-product-launch/references/prompts-v2/url-to-copy-builder.md",
+   "reason": "Input Required genericized to '[INPUT_PARAMETER]' losing 5 specific fields; Output Skeleton is generic boilerplate replacing the deliverable-specific section list (hero, benefits strip, FAQ, guarantee, CTA)"
+  },
+  {
+   "path": "skills/sean-kochel-ai-business/references/prompts-v2/crown_jewel_04_nesb.md",
+   "reason": "Truncation: role/activation cut mid-sentence after 'you '; Execution Protocol step 8 cut mid-sentence ('combine 2-3 NESB'), step 9 (RECOMMEND PRIMARY DEPLOYMENT) missing entirely"
+  },
+  {
+   "path": "skills/sean-kochel-ai-business/references/prompts-v2/crown_jewel_05_identity.md",
+   "reason": "Truncation: role/activation cut mid-word ('you PROD'); Execution Protocol step 8 cut mid-sentence ('Develop'), step 9 (STRUCTURE CONTENT CALENDAR) missing"
+  },
+  {
+   "path": "skills/sean-kochel-ai-business/references/prompts-v2/crown_jewel_09_social_proof.md",
+   "reason": "Truncation: role/activation cut mid-word ('believab'), entire third paragraph of role framing dropped"
+  },
+  {
+   "path": "skills/sean-kochel-ai-business/references/prompts-v2/crown_jewel_10_social_proof.md",
+   "reason": "Truncation: role/activation cut mid-word ('multiple upgrade'), entire third paragraph of role framing dropped"
+  },
+  {
+   "path": "skills/sean-kochel-ai-business/references/prompts-v2/crown_jewel_17_proof_before_purchase.md",
+   "reason": "Truncation: role/activation cut mid-word ('value dem'), entire third paragraph of role framing dropped"
+  },
+  {
+   "path": "skills/sean-kochel-design-first-build/references/prompts-v2/copy-integration-pass.md",
+   "reason": "Truncation: Execution Protocol step 4 cut mid-word ('have f'), losing the tension-point definition and full step content"
+  },
+  {
+   "path": "skills/sean-mabry-voice-mastery/references/prompts-v2/book-to-content-atomizer.md",
+   "reason": "Severe truncation: only Step 1 of a 5-step protocol retained (Steps 2-5 platform formatting, calendar mapping, voice check, inventory all deleted); Input Required genericized to placeholder losing all 4 required fields"
+  },
+  {
+   "path": "skills/seena-rez-tiktok-commerce/references/prompts-v2/content-idea-factory.md",
+   "reason": "Generic Output Skeleton replaced deliverable-specific Output list (hook bank, trigger categorization, calendar, testing schedule); corrupted header artifacts ('& Activation', stray 'Protocol' line) indicate botched edit"
+  },
+  {
+   "path": "skills/seena-rez-tiktok-commerce/references/prompts-v2/email-sequence-architect.md",
+   "reason": "Generic Output Skeleton replaced deliverable-specific Output list (5-7 email sequence, hooks, CTA progression, timing); same header corruption artifacts"
+  },
+  {
+   "path": "skills/seena-rez-tiktok-commerce/references/prompts-v2/feedback-loop-analyzer.md",
+   "reason": "Generic Output Skeleton replaced deliverable-specific Output list (winner/loser patterns, hook ranking, prescriptions); same header corruption artifacts"
+  },
+  {
+   "path": "skills/seena-rez-tiktok-commerce/references/prompts-v2/hyperdopamine-hook-generator.md",
+   "reason": "Input Required genericized to '[INPUT_PARAMETER]' losing 4 specific fields; detailed per-hook Output Format (Visual/Audio/Timing/Strangeness Rating/Sourcing Notes) replaced by generic boilerplate skeleton"
+  },
+  {
+   "path": "skills/seena-rez-tiktok-commerce/references/prompts-v2/landing-page-copywriter.md",
+   "reason": "Generic Output Skeleton replaced deliverable-specific Output list (headline match, authority stack, proof section, urgency CTA); same header corruption artifacts"
+  },
+  {
+   "path": "skills/seena-rez-tiktok-commerce/references/prompts-v2/voiceover-copy-engine.md",
+   "reason": "Generic Output Skeleton replaced deliverable-specific Output list (timestamped script, word count, pattern-interrupt markers, CTA variations); same header corruption artifacts"
+  },
+  {
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/09-viral-content-engineering.md",
+   "reason": "generic boilerplate Output Contract/Skeleton (identical templated 'Deliverable: Actionable strategy... Foundation layer: methodology overview' text) not specific to this prompt's deliverable"
+  },
+  {
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/10-brand-voice-crystallizer.md",
+   "reason": "same generic boilerplate Output Contract/Skeleton template, not specific to deliverable"
+  },
+  {
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/11-email-sequence-architect.md",
+   "reason": "same generic boilerplate Output Contract/Skeleton template, not specific to deliverable"
+  },
+  {
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/12-social-ideation-matrix.md",
+   "reason": "same generic boilerplate Output Contract/Skeleton template, not specific to deliverable"
+  },
+  {
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/content-diagnosis-reframe.md",
+   "reason": "same generic boilerplate Output Contract/Skeleton template, not specific to deliverable"
+  },
+  {
+   "path": "skills/shaan-puri-storytelling/references/prompts-v2/viral-hook-frame.md",
+   "reason": "same generic boilerplate Output Contract/Skeleton template, not specific to deliverable"
+  },
+  {
+   "path": "skills/stockton-walbeck-lead-magnets/references/prompts-v2/lead-magnet-offer-bridge.md",
+   "reason": "generic boilerplate Output Contract/Skeleton (same templated text as other regenerate cases) plus dropped 'Creative Latitude' methodology guidance from original"
+  },
+  {
+   "path": "skills/thrivecart-digital-products/references/prompts-v2/08-momentum-copy.md",
+   "reason": "generic boilerplate Output Contract/Skeleton plus mangled 'Role & Activation' header truncated to '& Activation'"
+  },
+  {
+   "path": "skills/thrivecart-digital-products/references/prompts-v2/10-weekend-content.md",
+   "reason": "generic boilerplate Output Contract/Skeleton plus mangled 'Role & Activation' header truncated to '& Activation'"
+  },
+  {
+   "path": "skills/tim-danilov-niche-bending/references/prompts-v2/content-innovation-stack.md",
+   "reason": "mid-sentence truncation in Execution Protocol ('Build the comment catalyst (what makes some') plus generic boilerplate Output Contract/Skeleton"
+  },
+  {
+   "path": "skills/tim-danilov-niche-bending/references/prompts-v2/format-skeleton-extractor.md",
+   "reason": "mid-word truncation in Execution Protocol ('These are format-specific, n') plus generic boilerplate Output Contract/Skeleton"
+  },
+  {
+   "path": "skills/tim-danilov-niche-bending/references/prompts-v2/trojan-horse-content-designer.md",
+   "reason": "mid-word truncation in Execution Protocol ('wait, I'm actually learni') plus generic boilerplate Output Contract/Skeleton"
+  },
+  {
+   "path": "skills/tobias-allen-marketing-mastery/references/prompts-v2/02-copy-assembly-engine.md",
+   "reason": "Mid-sentence truncation at line 13 ('The research doe'); entire Page Assembly Phase (headline/lead/problem-agitation/solution/benefits/proof/objections/offer/CTA components) missing; Output Contract/Skeleton generic boilerplate not specific to sales-page assembly"
+  },
+  {
+   "path": "skills/tobias-allen-marketing-mastery/references/prompts-v2/04-email-revenue-engine.md",
+   "reason": "Mid-sentence truncation at line 13; Phases 2-5 (Customer Journey Mapping, Automation Architecture with 4 named flows, Broadcast Strategy, Revenue Optimization) entirely missing; generic Output Contract boilerplate"
+  },
+  {
+   "path": "skills/tobias-allen-marketing-mastery/references/prompts-v2/07-offer-stack-architect.md",
+   "reason": "Mid-sentence truncation at line 13 ('you start by'); stops after Phase 1 of what was a multi-phase offer design methodology; generic Output Contract boilerplate"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/01-archetype-diagnostic.md",
+   "reason": "Generic template: Execution Protocol replaced with bracket placeholders '[Step with decision rule or framework application]'; real methodology only dumped verbatim as unintegrated 'Source Material' appendix"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/02-mission-architect.md",
+   "reason": "Same generic-template defect: bracketed placeholder Execution Protocol/Core Methodology, real steps only in raw appended Source Material dump"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/03-origin-iceberg.md",
+   "reason": "Same generic-template defect: '[Core framework and decision rules extracted from original]' placeholder, methodology not integrated into structured sections"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/05-product-architect.md",
+   "reason": "Same generic-template defect: bracketed placeholder Execution Protocol, methodology only in unintegrated Source Material appendix"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/06-presold-pipeline.md",
+   "reason": "Same generic-template defect: bracketed placeholder Execution Protocol, methodology only in unintegrated Source Material appendix"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/08-vulnerability-deployment.md",
+   "reason": "Same generic-template defect: bracketed placeholder Execution Protocol, methodology only in unintegrated Source Material appendix"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/09-buying-hierarchy.md",
+   "reason": "Same generic-template defect: bracketed placeholder Execution Protocol, methodology only in unintegrated Source Material appendix"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/10-results-flywheel.md",
+   "reason": "Same generic-template defect: bracketed placeholder Execution Protocol, methodology only in unintegrated Source Material appendix"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/11-earnings-optimizer.md",
+   "reason": "Same generic-template defect: bracketed placeholder Execution Protocol, methodology only in unintegrated Source Material appendix"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/12-live-iteration.md",
+   "reason": "Same generic-template defect: bracketed placeholder Execution Protocol, methodology only in unintegrated Source Material appendix"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/13-horsepower-positioning.md",
+   "reason": "Same generic-template defect: bracketed placeholder Execution Protocol, methodology only in unintegrated Source Material appendix"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/15-niche-architecture.md",
+   "reason": "Same generic-template defect: bracketed placeholder Execution Protocol, methodology only in unintegrated Source Material appendix"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/17-market-signal-decoder.md",
+   "reason": "Same generic-template defect: bracketed placeholder Execution Protocol, methodology only in unintegrated Source Material appendix"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/18-launch-orchestrator.md",
+   "reason": "Generic-template defect plus the appended Source Material dump itself is truncated mid-phase ('PHASE 4: LAUNCH (Week 0)\\n\u251c\u2500\u2500 Mag'), losing the synthesis methodology entirely"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/19-ltv-calculator.md",
+   "reason": "Same generic-template defect: bracketed placeholder Execution Protocol, methodology only in unintegrated Source Material appendix"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/20-anti-volume-pricing.md",
+   "reason": "Same generic-template defect: bracketed placeholder Execution Protocol, methodology only in unintegrated Source Material appendix"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/21-content-monetization-quadrant.md",
+   "reason": "Same generic-template defect: bracketed placeholder Execution Protocol, methodology only in unintegrated Source Material appendix"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/23-demand-first-builder.md",
+   "reason": "Same generic-template defect: bracketed placeholder Execution Protocol, methodology only in unintegrated Source Material appendix"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/25-express-elevator-mapper.md",
+   "reason": "Same generic-template defect: bracketed placeholder Execution Protocol, methodology only in unintegrated Source Material appendix"
+  },
+  {
+   "path": "skills/tom-noske-personal-brand/references/prompts-v2/26-zero-to-creator.md",
+   "reason": "Same generic-template defect: bracketed placeholder Execution Protocol, methodology only in unintegrated Source Material appendix"
+  },
+  {
+   "path": "skills/tommy-clark-linkedin-growth/references/prompts-v2/how-i-narrative-pivot.md",
+   "reason": "Generic-template defect (bracketed placeholders for Role/Methodology/Execution) plus the appended Source Material dump is itself truncated mid-sentence ('Avo')"
+  },
+  {
+   "path": "skills/wordsatscale-seo-ranking/references/prompts-v2/parallel-velocity-system.md",
+   "reason": "Truncated after Step 1 of 4; Steps 2-4 (Workflow Structure, Minute-by-Minute Plan, Quality Control), Required Input specifics, Output section, and Success Metric all missing; generic Output Contract boilerplate"
+  },
+  {
+   "path": "skills/wordsatscale-seo-ranking/references/prompts-v2/ranking-proof-documentation.md",
+   "reason": "Truncated after Step 1; remaining protocol steps and Output Deliverable missing; generic Output Contract boilerplate not specific to ranking-proof documentation"
+  }
+ ],
+ "fidelity_low_candidates": [],
+ "checked": 573
+}

@@ -1,0 +1,997 @@
+{
+ "batches": [
+  [
+   {
+    "skill": "adam-enfroy-affiliate-marketing",
+    "files": [
+     "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/01-niche-validation.md",
+     "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/02-90-day-plan.md",
+     "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/04-youtube-script.md",
+     "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/05-topical-authority.md",
+     "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/06-link-optimization.md",
+     "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/07-winner-scale.md",
+     "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/08-revenue-architecture.md",
+     "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/09-authority-positioning.md",
+     "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/14-conversion-narrative.md",
+     "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/15-market-intelligence.md",
+     "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/16-omnichannel-authority.md",
+     "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/ad-revenue-accelerator.md",
+     "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/affiliate-comparison-post.md",
+     "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/affiliate-program-selector.md",
+     "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/infinite-keyword-loop.md",
+     "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/traffic-diversification.md"
+    ]
+   },
+   {
+    "skill": "ai-chris-lee-zero-testimonial-sales",
+    "files": [
+     "skills/ai-chris-lee-zero-testimonial-sales/references/prompts-v2/adjacent-experience.md"
+    ]
+   },
+   {
+    "skill": "alen-sultanic-copywriting",
+    "files": [
+     "skills/alen-sultanic-copywriting/references/prompts-v2/02-emotional-spending-close.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/03-trade-off-neutralization.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/04-comparison-opening.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/05-buying-pattern-analyzer.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/07-trust-zero-onboarding.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/08-deepest-layer.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/09-win-math-first.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/10-why-things-break.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/11-solopreneur-positioning.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/12-backend-windfall.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/14-internal-voice.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/15-emotion-on-command.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/16-research-foundation.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/19-purchase-inevitability.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/20-advanced-storytelling.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/21-product-market.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/22-market-sensing.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/24-one-message-all-channels.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/25-attention-engineering.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/27-sales-assets-fast.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/30-strangers-to-buyers.md",
+     "skills/alen-sultanic-copywriting/references/prompts-v2/31-internal-language.md"
+    ]
+   }
+  ],
+  [
+   {
+    "skill": "alex-copper-creative-strategy",
+    "files": [
+     "skills/alex-copper-creative-strategy/references/prompts-v2/authority-content-engine.md",
+     "skills/alex-copper-creative-strategy/references/prompts-v2/proof-architecture-generator.md",
+     "skills/alex-copper-creative-strategy/references/prompts-v2/visual-telegraph-hook-architect.md"
+    ]
+   },
+   {
+    "skill": "andreessen-horowitz-new-media",
+    "files": [
+     "skills/andreessen-horowitz-new-media/references/prompts-v2/03-oral-written-culture-architect.md"
+    ]
+   },
+   {
+    "skill": "andy-lo-premium-websites",
+    "files": [
+     "skills/andy-lo-premium-websites/references/prompts-v2/06-content-migration-agent.md"
+    ]
+   },
+   {
+    "skill": "april-dunford-positioning",
+    "files": [
+     "skills/april-dunford-positioning/references/prompts-v2/10-proof-stack-assembler.md"
+    ]
+   },
+   {
+    "skill": "authority-hacker-ai-social-media",
+    "files": [
+     "skills/authority-hacker-ai-social-media/references/prompts-v2/content-humanizer.md",
+     "skills/authority-hacker-ai-social-media/references/prompts-v2/duality-hook-engineer.md",
+     "skills/authority-hacker-ai-social-media/references/prompts-v2/hook-dominance-scorer.md",
+     "skills/authority-hacker-ai-social-media/references/prompts-v2/three-angle-content-splitter.md"
+    ]
+   },
+   {
+    "skill": "bond-halbert-copywriting",
+    "files": [
+     "skills/bond-halbert-copywriting/references/prompts-v2/p01-bullet-matrix-engine.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p02-pee-test-editor.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p03-present-progressive-converter.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p04-ps-formula-generator.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p05-objection-pre-positioner.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p06-what-if-closer.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p07-swipe-alchemist.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p08-walking-accumulation-engine.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p09-conversation-hook-miner.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p10-prospect-immersion-protocol.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p11-four-reader-types-architect.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p12-invisible-authority-builder.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p13-ai-talking-points-multiplier.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p14-market-language-extractor.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p15-instant-relevance-architect.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p16-cold-traffic-conversion-engine.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p17-irresistible-offer-architect.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p18-any-market-rapid-entry.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p19-cold-to-sold-velocity.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p20-psychological-resonance-engine.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p21-viral-hook-laboratory.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p22-authority-narrative-architect.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p23-content-multiplication-matrix.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p24-conversion-content-blueprint.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p25-market-category-takeover.md",
+     "skills/bond-halbert-copywriting/references/prompts-v2/p26-omnipresent-compound-engine.md"
+    ]
+   }
+  ],
+  [
+   {
+    "skill": "caleb-ralston-personal-brand",
+    "files": [
+     "skills/caleb-ralston-personal-brand/references/prompts-v2/ai-sparring-partner.md",
+     "skills/caleb-ralston-personal-brand/references/prompts-v2/association-architecture.md",
+     "skills/caleb-ralston-personal-brand/references/prompts-v2/authenticity-reset-architect.md",
+     "skills/caleb-ralston-personal-brand/references/prompts-v2/burnout-prevention.md",
+     "skills/caleb-ralston-personal-brand/references/prompts-v2/credibility-bank-builder.md",
+     "skills/caleb-ralston-personal-brand/references/prompts-v2/feedback-triage.md",
+     "skills/caleb-ralston-personal-brand/references/prompts-v2/human-injection.md",
+     "skills/caleb-ralston-personal-brand/references/prompts-v2/optionality-preservation.md",
+     "skills/caleb-ralston-personal-brand/references/prompts-v2/painful-problem-inventory.md",
+     "skills/caleb-ralston-personal-brand/references/prompts-v2/resonance-detection.md",
+     "skills/caleb-ralston-personal-brand/references/prompts-v2/student-expert-diagnostic.md",
+     "skills/caleb-ralston-personal-brand/references/prompts-v2/trust-first-editorial-planner.md"
+    ]
+   },
+   {
+    "skill": "cardinal-mason-ai-copywriting",
+    "files": [
+     "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p01-context-brain-dump.md",
+     "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p02-voice-note-outreach.md",
+     "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p05-sales-page-architect.md",
+     "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p06-three-point-diagnostic.md",
+     "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p07-client-onboarding.md",
+     "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p09-case-study-builder.md",
+     "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p10-discovery-call-closer.md",
+     "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p12-referral-partnership.md",
+     "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p13-short-form-scripts.md",
+     "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p14-client-results-tracker.md",
+     "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p15-buyer-psychology.md",
+     "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p16-category-of-one.md",
+     "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p17-headline-lab.md",
+     "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p18-story-to-sale.md",
+     "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p20-objection-inoculation.md",
+     "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p22-cold-to-sold.md"
+    ]
+   }
+  ],
+  [
+   {
+    "skill": "dan-koe-multipassionate-mastery",
+    "files": [
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_11_magnetic_voice_architect.md",
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_12_superfan_manufacturing_engine.md",
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_13_ideavirus_engineering_system.md",
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_14_day1_monetization_blueprint.md",
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_15_interest_to_authority_accelerator.md",
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_16_community_gravity_generator.md",
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_17_philosophical_grounding_system.md",
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_18_identity_polarization_engine.md",
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_20_personal_philosophy_articulator.md",
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_2_personal_monopoly_positioning_engine.md",
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_3_transformation_narrative_architect.md",
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_4_high_density_insight_compressor.md",
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_5_viral_structure_matching_system.md",
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_7_permission_based_conversion_engine.md",
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_8_cross_pollination_insight_generator.md",
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/advanced_prompt_9_contrarian_angle_identifier.md",
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/prompt_1_sovereignty_vessel_architect.md",
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/prompt_4_idea_museum_architect.md",
+     "skills/dan-koe-multipassionate-mastery/references/prompts-v2/prompt_5_one_idea_multiplication_engine.md"
+    ]
+   },
+   {
+    "skill": "darrel-wilson-ai-monetization",
+    "files": [
+     "skills/darrel-wilson-ai-monetization/references/prompts-v2/proof-first-content.md"
+    ]
+   },
+   {
+    "skill": "david-bayer-elite-communication",
+    "files": [
+     "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_01_desperation_eliminator.md",
+     "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_02_friend_coffee_copy.md",
+     "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_04_lived_experience_content.md",
+     "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_06_brand_voice_dna.md",
+     "skills/david-bayer-elite-communication/references/prompts-v2/expanded_cj_08_authenticity_viral.md"
+    ]
+   },
+   {
+    "skill": "david-deutsch-copywriting",
+    "files": [
+     "skills/david-deutsch-copywriting/references/prompts-v2/01-attention-hook.md",
+     "skills/david-deutsch-copywriting/references/prompts-v2/09-content-pillars.md",
+     "skills/david-deutsch-copywriting/references/prompts-v2/11-research-intelligence.md",
+     "skills/david-deutsch-copywriting/references/prompts-v2/13-cold-offer.md",
+     "skills/david-deutsch-copywriting/references/prompts-v2/14-cold-content.md",
+     "skills/david-deutsch-copywriting/references/prompts-v2/15-direct-response.md",
+     "skills/david-deutsch-copywriting/references/prompts-v2/V3-musical-architecture.md",
+     "skills/david-deutsch-copywriting/references/prompts-v2/V8-implementation.md"
+    ]
+   },
+   {
+    "skill": "donald-miller-culture-turnaround",
+    "files": [
+     "skills/donald-miller-culture-turnaround/references/prompts-v2/p19-peace-sales-copy.md",
+     "skills/donald-miller-culture-turnaround/references/prompts-v2/p20-soundbite-positioning.md",
+     "skills/donald-miller-culture-turnaround/references/prompts-v2/p21-causal-chain-content.md"
+    ]
+   },
+   {
+    "skill": "dr-kriukow-humanization",
+    "files": [
+     "skills/dr-kriukow-humanization/references/prompts-v2/meaning-extraction-rewriter.md"
+    ]
+   },
+   {
+    "skill": "erica-mallet-brand-magnetism",
+    "files": [
+     "skills/erica-mallet-brand-magnetism/references/prompts-v2/pop_culture_10_personality_brand.md",
+     "skills/erica-mallet-brand-magnetism/references/prompts-v2/pop_culture_11_cult_mechanics.md",
+     "skills/erica-mallet-brand-magnetism/references/prompts-v2/pop_culture_12_client_deployment.md"
+    ]
+   }
+  ],
+  [
+   {
+    "skill": "ethan-smith-aeo",
+    "files": [
+     "skills/ethan-smith-aeo/references/prompts-v2/content-information-gain-audit.md"
+    ]
+   },
+   {
+    "skill": "fareed-zakaria-writing-mastery",
+    "files": [
+     "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_01_hook_architecture.md",
+     "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_05_haiku_compression.md",
+     "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_07_authentic_voice.md",
+     "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_commercial_08_content_multiplication.md",
+     "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_01_speed_reading.md",
+     "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_prompt_10_deep_read_craft.md"
+    ]
+   },
+   {
+    "skill": "futurepedia-prompt-engineering",
+    "files": [
+     "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_03_content_multiplication.md"
+    ]
+   },
+   {
+    "skill": "harry-dry-copywriting",
+    "files": [
+     "skills/harry-dry-copywriting/references/prompts-v2/by-the-tail.md",
+     "skills/harry-dry-copywriting/references/prompts-v2/conflict-injection.md",
+     "skills/harry-dry-copywriting/references/prompts-v2/cta-optimization.md",
+     "skills/harry-dry-copywriting/references/prompts-v2/example-mining.md",
+     "skills/harry-dry-copywriting/references/prompts-v2/falsifiability.md",
+     "skills/harry-dry-copywriting/references/prompts-v2/feature-to-benefit.md",
+     "skills/harry-dry-copywriting/references/prompts-v2/headline-rewrites.md",
+     "skills/harry-dry-copywriting/references/prompts-v2/landing-page-hook.md",
+     "skills/harry-dry-copywriting/references/prompts-v2/one-mississippi.md",
+     "skills/harry-dry-copywriting/references/prompts-v2/social-proof.md",
+     "skills/harry-dry-copywriting/references/prompts-v2/three-rules-test.md",
+     "skills/harry-dry-copywriting/references/prompts-v2/transformation-copy.md",
+     "skills/harry-dry-copywriting/references/prompts-v2/visual-verbal-ad.md",
+     "skills/harry-dry-copywriting/references/prompts-v2/zoom-in.md"
+    ]
+   },
+   {
+    "skill": "jasmin-alic-linkedin-growth",
+    "files": [
+     "skills/jasmin-alic-linkedin-growth/references/prompts-v2/additive-comment-generator.md",
+     "skills/jasmin-alic-linkedin-growth/references/prompts-v2/comment-laboratory-tester.md",
+     "skills/jasmin-alic-linkedin-growth/references/prompts-v2/conversational-cypher-editor.md",
+     "skills/jasmin-alic-linkedin-growth/references/prompts-v2/distributed-commenting-engine.md",
+     "skills/jasmin-alic-linkedin-growth/references/prompts-v2/feed-pattern-interrupt.md",
+     "skills/jasmin-alic-linkedin-growth/references/prompts-v2/frictionless-binary-closer.md",
+     "skills/jasmin-alic-linkedin-growth/references/prompts-v2/rhythmic-asymmetry-editor.md",
+     "skills/jasmin-alic-linkedin-growth/references/prompts-v2/rhythmic-story-rewriter.md",
+     "skills/jasmin-alic-linkedin-growth/references/prompts-v2/three-line-formatter.md",
+     "skills/jasmin-alic-linkedin-growth/references/prompts-v2/trapdoor-hook-writer.md",
+     "skills/jasmin-alic-linkedin-growth/references/prompts-v2/un-salesy-pitch-weaver.md",
+     "skills/jasmin-alic-linkedin-growth/references/prompts-v2/universal-trapdoor-hooks.md",
+     "skills/jasmin-alic-linkedin-growth/references/prompts-v2/visual-contrast-image-director.md",
+     "skills/jasmin-alic-linkedin-growth/references/prompts-v2/vulnerable-to-valuable-bridge.md"
+    ]
+   }
+  ],
+  [
+   {
+    "skill": "jeremy-miner-identity-persuasion",
+    "files": [
+     "skills/jeremy-miner-identity-persuasion/references/prompts-v2/08-you-know-the-type.md",
+     "skills/jeremy-miner-identity-persuasion/references/prompts-v2/09-consequence-stack-email.md",
+     "skills/jeremy-miner-identity-persuasion/references/prompts-v2/11-story-content.md",
+     "skills/jeremy-miner-identity-persuasion/references/prompts-v2/12-offer-architecture.md",
+     "skills/jeremy-miner-identity-persuasion/references/prompts-v2/14-viral-hook.md"
+    ]
+   },
+   {
+    "skill": "jim-oshaughnessy-philosopher-financier",
+    "files": [
+     "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/aha-moment-engineering.md",
+     "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/career-publication-strategy.md",
+     "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/coaching-diagnostic-engine.md",
+     "skills/jim-oshaughnessy-philosopher-financier/references/prompts-v2/strategic-content-positioning-architect.md"
+    ]
+   },
+   {
+    "skill": "joanna-wiebe-persuasion-mastery",
+    "files": [
+     "skills/joanna-wiebe-persuasion-mastery/references/prompts-v2/cognitive-bias-toolkit.md",
+     "skills/joanna-wiebe-persuasion-mastery/references/prompts-v2/money-words-miner.md",
+     "skills/joanna-wiebe-persuasion-mastery/references/prompts-v2/napoleon-identity-hook.md",
+     "skills/joanna-wiebe-persuasion-mastery/references/prompts-v2/persuasion-level-audit.md",
+     "skills/joanna-wiebe-persuasion-mastery/references/prompts-v2/story-seller-framework.md",
+     "skills/joanna-wiebe-persuasion-mastery/references/prompts-v2/system-one-optimizer.md"
+    ]
+   },
+   {
+    "skill": "jonathan-courtney-marketing",
+    "files": [
+     "skills/jonathan-courtney-marketing/references/prompts-v2/03-content-to-lead-magnet.md"
+    ]
+   },
+   {
+    "skill": "jonathan-franzen-storytelling",
+    "files": [
+     "skills/jonathan-franzen-storytelling/references/prompts-v2/minimal-detail-maximum-desire.md"
+    ]
+   },
+   {
+    "skill": "josh-sanders-linkedin-growth",
+    "files": [
+     "skills/josh-sanders-linkedin-growth/references/prompts-v2/depth-first-webinar-outline.md",
+     "skills/josh-sanders-linkedin-growth/references/prompts-v2/engagement-system-30-30-30-10.md",
+     "skills/josh-sanders-linkedin-growth/references/prompts-v2/format-arbitrage-scanner.md",
+     "skills/josh-sanders-linkedin-growth/references/prompts-v2/format-pivot-strategy.md",
+     "skills/josh-sanders-linkedin-growth/references/prompts-v2/gravedigger-storytelling-carousel.md",
+     "skills/josh-sanders-linkedin-growth/references/prompts-v2/high-dwell-carousel-creator.md",
+     "skills/josh-sanders-linkedin-growth/references/prompts-v2/high-ticket-cohort-pitch.md",
+     "skills/josh-sanders-linkedin-growth/references/prompts-v2/inspiration-bank-builder.md",
+     "skills/josh-sanders-linkedin-growth/references/prompts-v2/internal-voice-readability-checker.md",
+     "skills/josh-sanders-linkedin-growth/references/prompts-v2/line-paragraph-line-hook-writer.md",
+     "skills/josh-sanders-linkedin-growth/references/prompts-v2/newsletter-bridge-quiz-creator.md",
+     "skills/josh-sanders-linkedin-growth/references/prompts-v2/outlier-content-engineer.md",
+     "skills/josh-sanders-linkedin-growth/references/prompts-v2/pre-validated-content-hacker.md",
+     "skills/josh-sanders-linkedin-growth/references/prompts-v2/profile-funnel-architect.md",
+     "skills/josh-sanders-linkedin-growth/references/prompts-v2/sniper-comment-generator.md",
+     "skills/josh-sanders-linkedin-growth/references/prompts-v2/tagline-proof-generator.md",
+     "skills/josh-sanders-linkedin-growth/references/prompts-v2/ugly-numbers-pattern-interrupt.md",
+     "skills/josh-sanders-linkedin-growth/references/prompts-v2/waitlist-to-webinar-architect.md"
+    ]
+   },
+   {
+    "skill": "joshua-smith-real-estate",
+    "files": [
+     "skills/joshua-smith-real-estate/references/prompts-v2/team-coaching-playbook.md"
+    ]
+   }
+  ],
+  [
+   {
+    "skill": "jun-yuh-personal-brand",
+    "files": [
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_01_silent_film_generator.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_02_weekly_calendar_architect.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_03_creative_vision_blueprint.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_04_format_study_analyzer.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_05_positioning_content_creator.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_06_trial_reel_derivatives.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_07_free_event_framework.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_08_pivot_bridge_architect.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_09_scene_library_systemizer.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_10_hook_engineer.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_11_nurture_content_creator.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_12_avatar_psychographic_mapper.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_13_carousel_architect.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_14_content_diagnosis_protocol.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_15_conversion_content_creator.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_16_batch_production_planner.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_17_ai_refinement_protocol.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_18_viral_hook_copywriting.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_19_emotional_arc_sales_page.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_20_positioning_differentiation.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_21_buyer_journey_mapping.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_22_multiplatform_multiplication.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_23_viral_reverse_engineering.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_24_sales_conversation_framework.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_25_offer_ecosystem_designer.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_26_cultural_velocity_system.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_27_viral_dna_extractor.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_28_lofi_production_system.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_29_cross_platform_translation.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_30_content_engineering_lab.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_31_algorithm_decoder.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_32_trigger_map.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_33_minimalist_creator_os.md",
+     "skills/jun-yuh-personal-brand/references/prompts-v2/crown_jewel_34_scalability_architecture.md"
+    ]
+   }
+  ],
+  [
+   {
+    "skill": "kallaway-content-psychology",
+    "files": [
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_01_private_conversation.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_02_shareability.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_03_transformation_narrative.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_04_market_signal.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_04_market_signal_decoder.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_05_trust_density.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_05_trust_density_concentrator.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_06_content_pillar.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_07_psychological_trigger.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_08_creative_brief.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_09_proprietary_mechanism.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_domain_10_multi_channel.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_masterclass_01_constraint_free_bridge.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_masterclass_02_latent_desire_mirror.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_masterclass_03_subject_switching_matrix.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_masterclass_04_puzzle_completion.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_masterclass_05_relatability_filter.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_masterclass_06_condition_free_framing.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_masterclass_07_about_me.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_masterclass_08_if_i_blueprint.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_masterclass_09_to_you_confrontation.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_masterclass_10_he_she_social_proof.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_01_hook_engineering.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_02_reverse_engineer.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_03_youtube_packaging.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_04_content_minutes.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_05_five_games.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_06_question_chain.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_07_brain_transfer.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_08_absorption_rate.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_09_native_embed.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_10_contrast_violence.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_11_series_binge.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_12_term_ownership.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_13_ai_proof_moat.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_14_dopamine_hits.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_15_visual_attention.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_16_audience_signal.md",
+     "skills/kallaway-content-psychology/references/prompts-v2/kallaway_prompt_17_content_cascade.md"
+    ]
+   },
+   {
+    "skill": "kittl-graphic-design",
+    "files": [
+     "skills/kittl-graphic-design/references/prompts-v2/crown_jewel_13_color_palette_extraction_engine.md"
+    ]
+   }
+  ],
+  [
+   {
+    "skill": "lance-yichao-context-engineering",
+    "files": [
+     "skills/lance-yichao-context-engineering/references/prompts-v2/06-future-proof-validator.md"
+    ]
+   },
+   {
+    "skill": "lara-acosta-content-system",
+    "files": [
+     "skills/lara-acosta-content-system/references/prompts-v2/4-3-2-1-content-matrix.md",
+     "skills/lara-acosta-content-system/references/prompts-v2/authority-audit-generator.md",
+     "skills/lara-acosta-content-system/references/prompts-v2/edu-telling-translator.md",
+     "skills/lara-acosta-content-system/references/prompts-v2/viral-format-reverse-engineer.md"
+    ]
+   },
+   {
+    "skill": "lindsay-ai-consulting",
+    "files": [
+     "skills/lindsay-ai-consulting/references/prompts-v2/linkedin-outreach.md"
+    ]
+   },
+   {
+    "skill": "linkedin-2026-format-arbitrage",
+    "files": [
+     "skills/linkedin-2026-format-arbitrage/references/prompts-v2/comment-to-download.md",
+     "skills/linkedin-2026-format-arbitrage/references/prompts-v2/contextual-selfie.md",
+     "skills/linkedin-2026-format-arbitrage/references/prompts-v2/document-carousel.md",
+     "skills/linkedin-2026-format-arbitrage/references/prompts-v2/self-pinned-comment.md",
+     "skills/linkedin-2026-format-arbitrage/references/prompts-v2/trapdoor-text-post.md"
+    ]
+   },
+   {
+    "skill": "lucas-alpay-storytelling",
+    "files": [
+     "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b10-efficient-impact.md",
+     "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b11-climactic-offer.md",
+     "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b13-brand-memory.md",
+     "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b20-transformation-narrative.md",
+     "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b25-crisis-narrative.md",
+     "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b27-subtext-sales.md",
+     "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-b30-emotional-authenticity.md"
+    ]
+   },
+   {
+    "skill": "luke-iha-proof-mechanisms",
+    "files": [
+     "skills/luke-iha-proof-mechanisms/references/prompts-v2/buyer-doubt-node-validator.md",
+     "skills/luke-iha-proof-mechanisms/references/prompts-v2/competitor-flaw-extraction-matrix.md",
+     "skills/luke-iha-proof-mechanisms/references/prompts-v2/damaging-admission-crafter.md",
+     "skills/luke-iha-proof-mechanisms/references/prompts-v2/emotional-truth-narrative.md",
+     "skills/luke-iha-proof-mechanisms/references/prompts-v2/empirical-data-synthesis-engine.md",
+     "skills/luke-iha-proof-mechanisms/references/prompts-v2/end-to-end-vsl-architect.md",
+     "skills/luke-iha-proof-mechanisms/references/prompts-v2/jargon-flurry-generator.md",
+     "skills/luke-iha-proof-mechanisms/references/prompts-v2/omnipresence-proof-funnel.md",
+     "skills/luke-iha-proof-mechanisms/references/prompts-v2/proof-audit-injector.md",
+     "skills/luke-iha-proof-mechanisms/references/prompts-v2/shadow-market-positioning.md",
+     "skills/luke-iha-proof-mechanisms/references/prompts-v2/social-listening-proof-miner.md",
+     "skills/luke-iha-proof-mechanisms/references/prompts-v2/viral-proof-stacking-content.md",
+     "skills/luke-iha-proof-mechanisms/references/prompts-v2/visual-proof-creative-brief.md"
+    ]
+   },
+   {
+    "skill": "lulu-cheng-meservey-communications",
+    "files": [
+     "skills/lulu-cheng-meservey-communications/references/prompts-v2/p08-conviction-copy-transmutation.md"
+    ]
+   }
+  ],
+  [
+   {
+    "skill": "made-to-stick-messaging",
+    "files": [
+     "skills/made-to-stick-messaging/references/prompts-v2/advanced-crown-jewel-1-sticky-headlines-engine.md",
+     "skills/made-to-stick-messaging/references/prompts-v2/advanced-crown-jewel-3-viral-content-architect.md",
+     "skills/made-to-stick-messaging/references/prompts-v2/advanced-crown-jewel-6-content-pillar-generator.md",
+     "skills/made-to-stick-messaging/references/prompts-v2/advanced-crown-jewel-7-offer-messaging-optimizer.md",
+     "skills/made-to-stick-messaging/references/prompts-v2/advanced-crown-jewel-9-email-sequence-alchemist.md",
+     "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-1-sticky-longform-architect.md",
+     "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-12-testimonial-social-proof-optimizer.md",
+     "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-17-brand-messaging-bible.md",
+     "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-2-micro-content-alchemist.md",
+     "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-3-ghostwriting-voice-synthesizer.md",
+     "skills/made-to-stick-messaging/references/prompts-v2/supplemental-prompt-6-sticky-educational-content.md"
+    ]
+   },
+   {
+    "skill": "manus-ai-consulting",
+    "files": [
+     "skills/manus-ai-consulting/references/prompts-v2/crown_jewel_prompt_04_growth_landscape.md",
+     "skills/manus-ai-consulting/references/prompts-v2/crown_jewel_prompt_09_content_gap_warfare.md"
+    ]
+   },
+   {
+    "skill": "maria-wendt-digital-products",
+    "files": [
+     "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_05_content_calendar_engine.md",
+     "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_06_invitation_energy_sales_copy.md",
+     "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_07_social_proof_accelerator.md",
+     "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_13_content_multiplication_machine.md",
+     "skills/maria-wendt-digital-products/references/prompts-v2/crown_jewel_17_content_revenue_analyzer.md"
+    ]
+   },
+   {
+    "skill": "michael-bernoff-identity-engineering",
+    "files": [
+     "skills/michael-bernoff-identity-engineering/references/prompts-v2/identity-shift-copy.md"
+    ]
+   },
+   {
+    "skill": "mike-foutia-marketing-tools",
+    "files": [
+     "skills/mike-foutia-marketing-tools/references/prompts-v2/brand-bible-builder.md"
+    ]
+   },
+   {
+    "skill": "mitch-albom-writing-mastery",
+    "files": [
+     "skills/mitch-albom-writing-mastery/references/prompts-v2/newsletter-dominance.md",
+     "skills/mitch-albom-writing-mastery/references/prompts-v2/opening-lines-hooks.md",
+     "skills/mitch-albom-writing-mastery/references/prompts-v2/scroll-stopping-hook.md",
+     "skills/mitch-albom-writing-mastery/references/prompts-v2/transformation-copy-engine.md"
+    ]
+   }
+  ],
+  [
+   {
+    "skill": "monk-ai-offer-architecture",
+    "files": [
+     "skills/monk-ai-offer-architecture/references/prompts-v2/audit-implementation-bridge.md",
+     "skills/monk-ai-offer-architecture/references/prompts-v2/buyer-type-qualifier.md",
+     "skills/monk-ai-offer-architecture/references/prompts-v2/case-study-architect.md",
+     "skills/monk-ai-offer-architecture/references/prompts-v2/client-ascension-pathway.md",
+     "skills/monk-ai-offer-architecture/references/prompts-v2/downsell-recovery-scripts.md",
+     "skills/monk-ai-offer-architecture/references/prompts-v2/first-yes-conversion-optimizer.md",
+     "skills/monk-ai-offer-architecture/references/prompts-v2/objection-prevention-system.md",
+     "skills/monk-ai-offer-architecture/references/prompts-v2/offer-pyramid-architect.md",
+     "skills/monk-ai-offer-architecture/references/prompts-v2/pipeline-compound-architecture.md",
+     "skills/monk-ai-offer-architecture/references/prompts-v2/precision-offer-sentence.md",
+     "skills/monk-ai-offer-architecture/references/prompts-v2/proposal-document-generator.md",
+     "skills/monk-ai-offer-architecture/references/prompts-v2/referral-trigger-system.md",
+     "skills/monk-ai-offer-architecture/references/prompts-v2/risk-redistribution-framework.md",
+     "skills/monk-ai-offer-architecture/references/prompts-v2/sales-conversation-orchestrator.md",
+     "skills/monk-ai-offer-architecture/references/prompts-v2/sprint-deliverable-designer.md",
+     "skills/monk-ai-offer-architecture/references/prompts-v2/stakeholder-presell-orchestrator.md",
+     "skills/monk-ai-offer-architecture/references/prompts-v2/value-anchor-pricing.md"
+    ]
+   },
+   {
+    "skill": "nate-b-jones-ai-taste-mastery",
+    "files": [
+     "skills/nate-b-jones-ai-taste-mastery/references/prompts-v2/taste-extraction-engineer.md"
+    ]
+   },
+   {
+    "skill": "nate-b-jones-intent-engineering",
+    "files": [
+     "skills/nate-b-jones-intent-engineering/references/prompts-v2/guardrails-extractor.md"
+    ]
+   },
+   {
+    "skill": "nathan-gotch-ai-seo",
+    "files": [
+     "skills/nathan-gotch-ai-seo/references/prompts-v2/02-citation-intelligence.md",
+     "skills/nathan-gotch-ai-seo/references/prompts-v2/03-brand-narrative.md",
+     "skills/nathan-gotch-ai-seo/references/prompts-v2/05-content-engine.md",
+     "skills/nathan-gotch-ai-seo/references/prompts-v2/08-retrieval-copy.md",
+     "skills/nathan-gotch-ai-seo/references/prompts-v2/11-content-velocity.md",
+     "skills/nathan-gotch-ai-seo/references/prompts-v2/18-competitor-seeding.md",
+     "skills/nathan-gotch-ai-seo/references/prompts-v2/20-topic-domination.md",
+     "skills/nathan-gotch-ai-seo/references/prompts-v2/24-retrieval-sales-copy.md",
+     "skills/nathan-gotch-ai-seo/references/prompts-v2/26-content-ecosystem.md"
+    ]
+   },
+   {
+    "skill": "nick-saraev-agentic-workflows",
+    "files": [
+     "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_12_productized_offer_architect.md",
+     "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_13_case_study_social_proof_engine.md",
+     "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m01_headline_hook_alchemist.md",
+     "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m02_sales_copy_virtuoso.md",
+     "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m05_viral_content_engineer.md",
+     "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m07_email_sequence_architect.md",
+     "skills/nick-saraev-agentic-workflows/references/prompts-v2/crown_jewel_m08_content_pillar_ideation_system.md"
+    ]
+   }
+  ],
+  [
+   {
+    "skill": "nicolas-cole-client-acquisition",
+    "files": [
+     "skills/nicolas-cole-client-acquisition/references/prompts-v2/client-education-script.md",
+     "skills/nicolas-cole-client-acquisition/references/prompts-v2/free-consulting-pitch-generator.md",
+     "skills/nicolas-cole-client-acquisition/references/prompts-v2/free-custom-sample-creator.md",
+     "skills/nicolas-cole-client-acquisition/references/prompts-v2/leaks-faucets-network-mapper.md",
+     "skills/nicolas-cole-client-acquisition/references/prompts-v2/pitch-in-public-content-engine.md",
+     "skills/nicolas-cole-client-acquisition/references/prompts-v2/power-level-credibility-plan.md",
+     "skills/nicolas-cole-client-acquisition/references/prompts-v2/psychology-management-toolkit.md",
+     "skills/nicolas-cole-client-acquisition/references/prompts-v2/removal-list-capacity-audit.md",
+     "skills/nicolas-cole-client-acquisition/references/prompts-v2/service-niche-selector.md"
+    ]
+   },
+   {
+    "skill": "nicolas-cole-sentence-craft",
+    "files": [
+     "skills/nicolas-cole-sentence-craft/references/prompts-v2/adverb-eliminator.md",
+     "skills/nicolas-cole-sentence-craft/references/prompts-v2/information-density-auditor.md",
+     "skills/nicolas-cole-sentence-craft/references/prompts-v2/jargon-introduction-protocol.md",
+     "skills/nicolas-cole-sentence-craft/references/prompts-v2/opening-sentence-maximizer.md",
+     "skills/nicolas-cole-sentence-craft/references/prompts-v2/redundancy-elimination.md",
+     "skills/nicolas-cole-sentence-craft/references/prompts-v2/sentence-power-optimizer.md",
+     "skills/nicolas-cole-sentence-craft/references/prompts-v2/sentence-rhythm-controller.md",
+     "skills/nicolas-cole-sentence-craft/references/prompts-v2/three-pass-compression.md",
+     "skills/nicolas-cole-sentence-craft/references/prompts-v2/transition-flow-architect.md",
+     "skills/nicolas-cole-sentence-craft/references/prompts-v2/two-comma-discipline.md",
+     "skills/nicolas-cole-sentence-craft/references/prompts-v2/vocabulary-calibrator.md",
+     "skills/nicolas-cole-sentence-craft/references/prompts-v2/voice-preservation-filter.md",
+     "skills/nicolas-cole-sentence-craft/references/prompts-v2/weak-construction-eliminator.md",
+     "skills/nicolas-cole-sentence-craft/references/prompts-v2/word-variation-engine.md"
+    ]
+   },
+   {
+    "skill": "omar-eddaoudi-premium-ads",
+    "files": [
+     "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_01_removal_game_copywriting_engine.md",
+     "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_07_authority_content_pillar_system.md",
+     "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_08_conviction_copy_converter.md",
+     "skills/omar-eddaoudi-premium-ads/references/prompts-v2/cj_10_certainty_engineered_offer.md",
+     "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_05_buyers_guide_content_creator.md",
+     "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_08_personal_brand_debate_ownership.md",
+     "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_09_premium_content_hook_system.md",
+     "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_10_objection_first_content_strategy.md",
+     "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_11_trust_through_doubt_voicing.md",
+     "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_12_category_of_one_personal_brand.md",
+     "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_13_7030_content_architecture.md",
+     "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_15_silent_authority_content_creator.md",
+     "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_17_personal_brand_standard_setter.md",
+     "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_30_depth_over_volume_content.md",
+     "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_33_levels_to_it_content_revealer.md",
+     "skills/omar-eddaoudi-premium-ads/references/prompts-v2/prompt_35_outcome_engineered_content_system.md"
+    ]
+   }
+  ],
+  [
+   {
+    "skill": "omar-eddaoudi",
+    "files": [
+     "skills/omar-eddaoudi/references/prompts-v2/aspirational-friction-engineer.md",
+     "skills/omar-eddaoudi/references/prompts-v2/category-of-one-designer.md",
+     "skills/omar-eddaoudi/references/prompts-v2/controlled-distance-copy.md",
+     "skills/omar-eddaoudi/references/prompts-v2/exclusionary-tension-sales-copy.md",
+     "skills/omar-eddaoudi/references/prompts-v2/friction-based-funnel-architect.md",
+     "skills/omar-eddaoudi/references/prompts-v2/heroic-archetype-storyteller.md",
+     "skills/omar-eddaoudi/references/prompts-v2/identity-mirroring-strategist.md",
+     "skills/omar-eddaoudi/references/prompts-v2/silence-premium-copywriter.md",
+     "skills/omar-eddaoudi/references/prompts-v2/social-signal-precedence-mapper.md",
+     "skills/omar-eddaoudi/references/prompts-v2/value-inversion-offer-creator.md"
+    ]
+   },
+   {
+    "skill": "oren-operational-systems",
+    "files": [
+     "skills/oren-operational-systems/references/prompts-v2/content-pillar-analyzer.md"
+    ]
+   },
+   {
+    "skill": "oren-taste-development",
+    "files": [
+     "skills/oren-taste-development/references/prompts-v2/taste-signaling-content.md"
+    ]
+   },
+   {
+    "skill": "oscar-hoglund-sound-storytelling",
+    "files": [
+     "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/01-empty-calorie-transform.md",
+     "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/08-body-copy.md",
+     "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/10-infinite-consumption.md",
+     "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/12-self-proving-viral.md",
+     "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/15-multi-sensory.md",
+     "skills/oscar-hoglund-sound-storytelling/references/prompts-v2/content-emotional-autopsy.md"
+    ]
+   },
+   {
+    "skill": "pj-accetturo-ai-video",
+    "files": [
+     "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_05_brand_strategy.md",
+     "skills/pj-accetturo-ai-video/references/prompts-v2/prompt_14_content_commerce.md"
+    ]
+   },
+   {
+    "skill": "robert-mack-comedy-writing",
+    "files": [
+     "skills/robert-mack-comedy-writing/references/prompts-v2/comedy-content-adapter.md",
+     "skills/robert-mack-comedy-writing/references/prompts-v2/comedy-hook-generator.md",
+     "skills/robert-mack-comedy-writing/references/prompts-v2/direct-response-personality.md",
+     "skills/robert-mack-comedy-writing/references/prompts-v2/funnel-entertainment-system.md",
+     "skills/robert-mack-comedy-writing/references/prompts-v2/linkedin-comedy-intelligence.md",
+     "skills/robert-mack-comedy-writing/references/prompts-v2/remarkable-brand-voice.md",
+     "skills/robert-mack-comedy-writing/references/prompts-v2/viral-comedy-system.md"
+    ]
+   }
+  ],
+  [
+   {
+    "skill": "rory-sutherland-marketing",
+    "files": [
+     "skills/rory-sutherland-marketing/references/prompts-v2/expert-operating-system.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-brandquake-intervention-designer.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-choice-architecture-engineer.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-cold-outreach-alchemy-system.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-cold-to-superfan-transformation-engine.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-cold-traffic-conversion-alchemist.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-cold-traffic-psychology-decoder.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-costly-signal-architect.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-deep-audience-psychology-decoder.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-differentiation-strategy-generator.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-doorman-fallacy-auditor.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-email-psychology-sequencer.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-first-touch-conversion-maximizer.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-funnel-psychology-architect.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-headline-hook-alchemist.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-high-ticket-conversion-closer.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-instant-authority-architect.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-irresistible-offer-architect.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-launch-psychology-orchestrator.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-market-psychology-gap-finder.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-objection-annihilation-system.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-pattern-interrupt-attention-hijacker.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-psychological-copy-converter.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-psychological-marketing-strategist.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-psychological-reframe-engine.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-status-social-proof-architect.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-story-selling-conversion-engine.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-stranger-objection-annihilator.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-transaction-utility-optimizer.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-value-perception-alchemist.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-viral-psychology-content-engine.md",
+     "skills/rory-sutherland-marketing/references/prompts-v2/the-zero-trust-offer-converter.md"
+    ]
+   },
+   {
+    "skill": "sabri-suby-ai-advertising",
+    "files": [
+     "skills/sabri-suby-ai-advertising/references/prompts-v2/ad-body-copy.md",
+     "skills/sabri-suby-ai-advertising/references/prompts-v2/buyer-avatar-profiler.md",
+     "skills/sabri-suby-ai-advertising/references/prompts-v2/competition-intelligence.md",
+     "skills/sabri-suby-ai-advertising/references/prompts-v2/copy-weakness-audit.md",
+     "skills/sabri-suby-ai-advertising/references/prompts-v2/forum-foraging.md",
+     "skills/sabri-suby-ai-advertising/references/prompts-v2/offer-stack-engineering.md"
+    ]
+   }
+  ],
+  [
+   {
+    "skill": "sabrina-ramonov-ai-monetization",
+    "files": [
+     "skills/sabrina-ramonov-ai-monetization/references/prompts-v2/02-learn-in-public-engine.md",
+     "skills/sabrina-ramonov-ai-monetization/references/prompts-v2/03-community-offer-architect.md",
+     "skills/sabrina-ramonov-ai-monetization/references/prompts-v2/07-brand-first-sequencer.md"
+    ]
+   },
+   {
+    "skill": "samuel-thompson-product-launch",
+    "files": [
+     "skills/samuel-thompson-product-launch/references/prompts-v2/url-to-copy-builder.md"
+    ]
+   },
+   {
+    "skill": "sean-kochel-ai-business",
+    "files": [
+     "skills/sean-kochel-ai-business/references/prompts-v2/crown_jewel_04_nesb.md",
+     "skills/sean-kochel-ai-business/references/prompts-v2/crown_jewel_05_identity.md",
+     "skills/sean-kochel-ai-business/references/prompts-v2/crown_jewel_09_social_proof.md",
+     "skills/sean-kochel-ai-business/references/prompts-v2/crown_jewel_10_social_proof.md",
+     "skills/sean-kochel-ai-business/references/prompts-v2/crown_jewel_17_proof_before_purchase.md"
+    ]
+   },
+   {
+    "skill": "sean-kochel-design-first-build",
+    "files": [
+     "skills/sean-kochel-design-first-build/references/prompts-v2/copy-integration-pass.md"
+    ]
+   },
+   {
+    "skill": "sean-mabry-voice-mastery",
+    "files": [
+     "skills/sean-mabry-voice-mastery/references/prompts-v2/book-to-content-atomizer.md"
+    ]
+   },
+   {
+    "skill": "seena-rez-tiktok-commerce",
+    "files": [
+     "skills/seena-rez-tiktok-commerce/references/prompts-v2/content-idea-factory.md",
+     "skills/seena-rez-tiktok-commerce/references/prompts-v2/email-sequence-architect.md",
+     "skills/seena-rez-tiktok-commerce/references/prompts-v2/feedback-loop-analyzer.md",
+     "skills/seena-rez-tiktok-commerce/references/prompts-v2/hyperdopamine-hook-generator.md",
+     "skills/seena-rez-tiktok-commerce/references/prompts-v2/landing-page-copywriter.md",
+     "skills/seena-rez-tiktok-commerce/references/prompts-v2/voiceover-copy-engine.md"
+    ]
+   }
+  ],
+  [
+   {
+    "skill": "seth-godin-ideavirus",
+    "files": [
+     "skills/seth-godin-ideavirus/references/prompts-v2/expanded_prompt_1_viral_headline_architect.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/expanded_prompt_2_sneezer_bait_content_engine.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/expanded_prompt_3_vacuum_filling_position_generator.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/expanded_prompt_4_hive_psyche_decoder.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/expanded_prompt_5_viral_narrative_engineer.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/expanded_prompt_6_magic_number_calculator.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/expanded_prompt_7_cultural_vacuum_trend_spotter.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/expanded_prompt_8_shareable_visual_concept_creator.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/expanded_prompt_9_full_funnel_ideavirus_copywriter.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/prompt_1_ideavirus_architect.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/prompt_2_sneezer_activation_engine.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/prompt_3_smoothness_optimizer.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/prompt_4_hive_domination_strategist.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/prompt_5_vacuum_detector.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/prompt_6_monetization_timer.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/prompt_7_virusworthiness_engineer.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_10_the_tension_engine.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_1_daily_practice_engine.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_2_tribal_voice_dna_developer.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_3_purple_cow_idea_generator.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_4_permission_asset_architect.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_5_social_media_ideavirus_deployer.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_6_smallest_viable_audience_architect.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_7_mental_monopoly_creator.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_8_intellectual_property_machine.md",
+     "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_9_worldview_first_content_architect.md"
+    ]
+   },
+   {
+    "skill": "shaan-puri-storytelling",
+    "files": [
+     "skills/shaan-puri-storytelling/references/prompts-v2/09-viral-content-engineering.md",
+     "skills/shaan-puri-storytelling/references/prompts-v2/10-brand-voice-crystallizer.md",
+     "skills/shaan-puri-storytelling/references/prompts-v2/11-email-sequence-architect.md",
+     "skills/shaan-puri-storytelling/references/prompts-v2/12-social-ideation-matrix.md",
+     "skills/shaan-puri-storytelling/references/prompts-v2/content-diagnosis-reframe.md",
+     "skills/shaan-puri-storytelling/references/prompts-v2/viral-hook-frame.md"
+    ]
+   },
+   {
+    "skill": "stockton-walbeck-lead-magnets",
+    "files": [
+     "skills/stockton-walbeck-lead-magnets/references/prompts-v2/lead-magnet-offer-bridge.md"
+    ]
+   },
+   {
+    "skill": "thrivecart-digital-products",
+    "files": [
+     "skills/thrivecart-digital-products/references/prompts-v2/08-momentum-copy.md",
+     "skills/thrivecart-digital-products/references/prompts-v2/10-weekend-content.md"
+    ]
+   },
+   {
+    "skill": "tim-danilov-niche-bending",
+    "files": [
+     "skills/tim-danilov-niche-bending/references/prompts-v2/content-innovation-stack.md",
+     "skills/tim-danilov-niche-bending/references/prompts-v2/format-skeleton-extractor.md",
+     "skills/tim-danilov-niche-bending/references/prompts-v2/trojan-horse-content-designer.md"
+    ]
+   }
+  ],
+  [
+   {
+    "skill": "tobias-allen-marketing-mastery",
+    "files": [
+     "skills/tobias-allen-marketing-mastery/references/prompts-v2/02-copy-assembly-engine.md",
+     "skills/tobias-allen-marketing-mastery/references/prompts-v2/04-email-revenue-engine.md",
+     "skills/tobias-allen-marketing-mastery/references/prompts-v2/07-offer-stack-architect.md"
+    ]
+   },
+   {
+    "skill": "tom-noske-personal-brand",
+    "files": [
+     "skills/tom-noske-personal-brand/references/prompts-v2/01-archetype-diagnostic.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/02-mission-architect.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/03-origin-iceberg.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/04-content-strategy.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/05-product-architect.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/06-presold-pipeline.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/07-trust-velocity.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/08-vulnerability-deployment.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/09-buying-hierarchy.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/10-results-flywheel.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/11-earnings-optimizer.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/12-live-iteration.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/13-horsepower-positioning.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/14-product-content-loop.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/15-niche-architecture.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/16-brand-integration.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/17-market-signal-decoder.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/18-launch-orchestrator.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/19-ltv-calculator.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/20-anti-volume-pricing.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/21-content-monetization-quadrant.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/22-content-revenue-flywheel.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/23-demand-first-builder.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/24-brand-equity-compounder.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/25-express-elevator-mapper.md",
+     "skills/tom-noske-personal-brand/references/prompts-v2/26-zero-to-creator.md"
+    ]
+   },
+   {
+    "skill": "tommy-clark-linkedin-growth",
+    "files": [
+     "skills/tommy-clark-linkedin-growth/references/prompts-v2/audience-design-architect.md",
+     "skills/tommy-clark-linkedin-growth/references/prompts-v2/content-interview-extractor.md",
+     "skills/tommy-clark-linkedin-growth/references/prompts-v2/how-i-narrative-pivot.md",
+     "skills/tommy-clark-linkedin-growth/references/prompts-v2/stealth-hook-generator.md"
+    ]
+   },
+   {
+    "skill": "wordsatscale-seo-ranking",
+    "files": [
+     "skills/wordsatscale-seo-ranking/references/prompts-v2/parallel-velocity-system.md",
+     "skills/wordsatscale-seo-ranking/references/prompts-v2/ranking-proof-documentation.md"
+    ]
+   }
+  ]
+ ]
+}
