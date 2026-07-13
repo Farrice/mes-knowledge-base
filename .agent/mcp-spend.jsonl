@@ -76,3 +76,12 @@
 {"ts": "2026-07-09T03:40:40.660897+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "6384d03d-e639-4824-aba0-b7e300f32930"}
 {"ts": "2026-07-09T03:40:48.548409+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "6384d03d-e639-4824-aba0-b7e300f32930"}
 {"ts": "2026-07-09T03:40:55.844282+00:00", "tool": "mcp__recall__get_document_content", "service": "recall", "billable": true, "session_id": "6384d03d-e639-4824-aba0-b7e300f32930"}
+{"ts": "2026-07-13T16:26:24.104382+00:00", "tool": "mcp__claude_ai_Higgsfield__balance", "service": "higgsfield", "billable": false, "session_id": "dfdcc772-8dfd-4bca-9a66-2c73e398cdbb"}
+{"ts": "2026-07-13T16:26:25.445949+00:00", "tool": "mcp__claude_ai_Higgsfield__get_workflow_instructions", "service": "higgsfield", "billable": false, "session_id": "dfdcc772-8dfd-4bca-9a66-2c73e398cdbb"}
+{"ts": "2026-07-13T16:27:16.930213+00:00", "tool": "mcp__claude_ai_Higgsfield__media_import_url", "service": "higgsfield", "billable": false, "session_id": "dfdcc772-8dfd-4bca-9a66-2c73e398cdbb"}
+{"ts": "2026-07-13T16:27:42.777039+00:00", "tool": "mcp__claude_ai_Higgsfield__show_marketing_studio", "service": "higgsfield", "billable": false, "session_id": "dfdcc772-8dfd-4bca-9a66-2c73e398cdbb"}
+{"ts": "2026-07-13T16:28:19.847695+00:00", "tool": "mcp__claude_ai_Higgsfield__generate_video", "service": "higgsfield", "billable": true, "session_id": "dfdcc772-8dfd-4bca-9a66-2c73e398cdbb"}
+{"ts": "2026-07-13T16:29:13.029670+00:00", "tool": "mcp__claude_ai_Higgsfield__models_explore", "service": "higgsfield", "billable": false, "session_id": "dfdcc772-8dfd-4bca-9a66-2c73e398cdbb"}
+{"ts": "2026-07-13T16:29:30.305443+00:00", "tool": "mcp__claude_ai_Higgsfield__generate_video", "service": "higgsfield", "billable": true, "session_id": "dfdcc772-8dfd-4bca-9a66-2c73e398cdbb"}
+{"ts": "2026-07-13T16:29:53.612555+00:00", "tool": "mcp__claude_ai_Higgsfield__generate_video", "service": "higgsfield", "billable": true, "session_id": "dfdcc772-8dfd-4bca-9a66-2c73e398cdbb"}
+{"ts": "2026-07-13T16:30:14.700464+00:00", "tool": "mcp__claude_ai_Higgsfield__generate_video", "service": "higgsfield", "billable": true, "session_id": "dfdcc772-8dfd-4bca-9a66-2c73e398cdbb"}

@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 5614,
+ "count": 5786,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -3399,6 +3399,559 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "chase-hughes-conversational-influence",
+   "title": "Chase Hughes \u2014 Story-Archetype Priming Narrative",
+   "gist": "You are working from Chase Hughes's claim, drawn from his trial-consulting practice and rooted in Jung/Campbell folk-narrative tradition: **roughly 7-12 story archetypes are wired into human cognition older than language",
+   "path": "skills/chase-hughes-conversational-influence/references/prompts-v2/archetype-priming-narrative.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chase-hughes-conversational-influence",
+   "title": "Chase Hughes \u2014 Camera-Angle Perspective Shift",
+   "gist": "You are running Chase Hughes's perspective-shift protocol. Hughes treats \"stuck\" emotional states \u2014 PTSD, chronic regret, decision paralysis, flat content, looping conflict \u2014 as **camera-zoom problems, not content proble",
+   "path": "skills/chase-hughes-conversational-influence/references/prompts-v2/camera-angle-perspective-shift.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chase-hughes-conversational-influence",
+   "title": "Chase Hughes \u2014 Composite 5-Axis Influence Audit",
+   "gist": "You are running all five Chase Hughes conversational-influence techniques as a single composite audit against a finished or in-progress artifact. This is the final gate before publishing or sending high-stakes persuasive",
+   "path": "skills/chase-hughes-conversational-influence/references/prompts-v2/composite-influence-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chase-hughes-conversational-influence",
+   "title": "Chase Hughes \u2014 Two-Question Empathy Ladder Fear Decode",
+   "gist": "You are running Chase Hughes's two-question decode \u2014 the technique he taught his daughter starting at age 9, using nothing more elaborate than bumper stickers in a parking lot. Hughes's claim: you can decode any human in",
+   "path": "skills/chase-hughes-conversational-influence/references/prompts-v2/empathy-ladder-fear-decode.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chase-hughes-conversational-influence",
+   "title": "Chase Hughes \u2014 Engineered Self-Conclusion Construction",
+   "gist": "You are working from Chase Hughes's core trial-consulting mechanic, extracted from his Unlearn podcast appearance: **\"anything that comes from within our own mind, we cannot resist.\"** Hughes doesn't win juries by arguin",
+   "path": "skills/chase-hughes-conversational-influence/references/prompts-v2/engineered-self-conclusion.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chase-hughes-conversational-influence",
+   "title": "Chase Hughes \u2014 Two-Ideas-No-String Manipulation Audit",
+   "gist": "You are running Chase Hughes's manipulation-detection technique: ideas placed close together without an explicit causal connector trigger the brain's pattern-completion machinery \u2014 the audience builds the connection itse",
+   "path": "skills/chase-hughes-conversational-influence/references/prompts-v2/two-ideas-manipulation-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cheri-tree-bank-buyology",
+   "title": "Cheri Tree \u2014 B.A.N.K. Lead Magnet Generator",
+   "gist": "You are designing lead magnets on Cheri Tree's B.A.N.K. system. A lead magnet in this system does exactly one of two jobs: it **attracts** a specific code (pulls in the buyer type who resonates with that asset's framing)",
+   "path": "skills/cheri-tree-bank-buyology/references/prompts-v2/bank-lead-magnet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cheri-tree-bank-buyology",
+   "title": "Cheri Tree \u2014 B.A.N.K. Self-Code Diagnostic",
+   "gist": "You are working the B.A.N.K. buyer-code method built from Cheri Tree's *Why They Buy*: selling and communicating is not a single-script guessing game, it is code translation. A person's B.A.N.K. code is an **ordered stac",
+   "path": "skills/cheri-tree-bank-buyology/references/prompts-v2/bank-self-code-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cheri-tree-bank-buyology",
+   "title": "Cheri Tree \u2014 Business Asset Deployment Planner",
+   "gist": "You are orchestrating the whole B.A.N.K. OS on Cheri Tree's system \u2014 this is the deployment layer that sits above the individual asset-generating workflows. Genius pattern **BANKify the System**: B.A.N.K. is not a sales-",
+   "path": "skills/cheri-tree-bank-buyology/references/prompts-v2/business-asset-deployment-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cheri-tree-bank-buyology",
+   "title": "Cheri Tree \u2014 Code-Based ICP and Avatar Generator",
+   "gist": "You are building customer strategy on Cheri Tree's B.A.N.K. system. Genius pattern **Values Beat Demographics**: age, income, title, and industry are secondary \u2014 buying behavior follows value hierarchy, so ICPs and avata",
+   "path": "skills/cheri-tree-bank-buyology/references/prompts-v2/code-based-icp-avatars.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cheri-tree-bank-buyology",
+   "title": "Cheri Tree \u2014 CRM Segmentation Playbook",
+   "gist": "You are BANKifying a CRM on Cheri Tree's system. Hidden knowledge: **CRM is where B.A.N.K. becomes compounding** \u2014 if code insight stays in the seller's head, it disappears after the call; if it's stored and routed, the ",
+   "path": "skills/cheri-tree-bank-buyology/references/prompts-v2/crm-segmentation-playbook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cheri-tree-bank-buyology",
+   "title": "Cheri Tree \u2014 Email and DM Sequence Generator",
+   "gist": "You are writing a B.A.N.K.-segmented email or DM sequence on Cheri Tree's system. The rule that governs this deliverable: each sequence must change angle, proof, pacing, and CTA by code \u2014 a nurture sequence that just swa",
+   "path": "skills/cheri-tree-bank-buyology/references/prompts-v2/email-dm-sequence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cheri-tree-bank-buyology",
+   "title": "Cheri Tree \u2014 Forensic Code Profile",
+   "gist": "You are running forensic B.A.N.K. code diagnosis \u2014 the field method for when direct value-ranking is impossible and the only evidence is public material: LinkedIn, website copy, bios, emails, posts, call transcripts. Gen",
+   "path": "skills/cheri-tree-bank-buyology/references/prompts-v2/forensic-code-profile.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cheri-tree-bank-buyology",
+   "title": "Cheri Tree \u2014 Power Script Generator",
+   "gist": "You are writing a B.A.N.K. Power Script on Cheri Tree's system. Genius pattern **Sequence Creates Meaning**: the same proof points feel entirely different depending on whether credibility, emotion, or logic comes first \u2014",
+   "path": "skills/cheri-tree-bank-buyology/references/prompts-v2/power-script.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cheri-tree-bank-buyology",
+   "title": "Cheri Tree \u2014 Prospect Code Cracker",
+   "gist": "You are running live B.A.N.K. code diagnosis on a prospect using Cheri Tree's *Why They Buy* method. Genius pattern **Code Before Pitch**: a pitch delivered before code diagnosis is a guess, not a strategy. The first 90 ",
+   "path": "skills/cheri-tree-bank-buyology/references/prompts-v2/prospect-code-cracker.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cheri-tree-bank-buyology",
+   "title": "Cheri Tree \u2014 Sales Call Prep and Objection Handling",
+   "gist": "You are building a B.A.N.K.-aware sales call plan on Cheri Tree's system. The plan must help the seller deliver the right presentation for this specific prospect's code \u2014 not hand them a generic script to memorize. Hidde",
+   "path": "skills/cheri-tree-bank-buyology/references/prompts-v2/sales-call-prep.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cheri-tree-bank-buyology",
+   "title": "Cheri Tree \u2014 Segmented Funnel and Landing Page Generator",
+   "gist": "You are building a B.A.N.K.-segmented funnel on Cheri Tree's system. Genius pattern **One Offer, Four Doorways**: one offer can have four entry paths through the decision journey \u2014 keep the offer constant (same price, sa",
+   "path": "skills/cheri-tree-bank-buyology/references/prompts-v2/segmented-funnel-landing-page.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cheri-tree-bank-buyology",
+   "title": "Cheri Tree \u2014 Social Content Generator by Code",
+   "gist": "You are producing B.A.N.K.-coded social content on Cheri Tree's system. The standard here: content should **attract or reveal** code, not merely mention it. A post that name-drops \"safety\" once for a Blueprint audience h",
+   "path": "skills/cheri-tree-bank-buyology/references/prompts-v2/social-content-by-code.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chief-of-staff-os",
+   "title": "Chief of Staff \u2014 Anytime Dump & Detangle",
+   "gist": "You are the Chief of Staff acting as pressure valve, not counsel-in-session. This command",
+   "path": "skills/chief-of-staff-os/references/prompts-v2/anytime-dump-detangle.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chief-of-staff-os",
+   "title": "Chief of Staff \u2014 Daily Micro Briefing",
+   "gist": "You are the Chief of Staff \u2014 the standing CEO/CFO/COO/Chairman/Mentor counsel for the",
+   "path": "skills/chief-of-staff-os/references/prompts-v2/daily-micro-briefing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chief-of-staff-os",
+   "title": "Chief of Staff \u2014 Onboarding Interview",
+   "gist": "You are the Chief of Staff, running your one-time first session with a new operator. This",
+   "path": "skills/chief-of-staff-os/references/prompts-v2/onboarding-interview.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chief-of-staff-os",
+   "title": "State of the Union \u2014 [DATE]",
+   "gist": "You are the Chief of Staff producing a read-only status report. This is not a session \u2014 no",
+   "path": "skills/chief-of-staff-os/references/prompts-v2/state-of-the-union.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chief-of-staff-os",
+   "title": "Chief of Staff \u2014 Weekly Board Session",
+   "gist": "You are the Chief of Staff convening the weekly board \u2014 the four seats (CEO, CFO, COO,",
+   "path": "skills/chief-of-staff-os/references/prompts-v2/weekly-board-session.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chris-cimorelli-copywriting",
+   "title": "Chris Cimorelli \u2014 Back-End Upsell Promotion",
+   "gist": "You are Chris Cimorelli, Agora's top-performing newsletter promo copywriter for 7+ consecutive years, executing a **back-end monetization promo**. This is where the real money is made \u2014 converting warm subscribers into $",
+   "path": "skills/chris-cimorelli-copywriting/references/prompts-v2/back-end-upsell-promotion.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chris-cimorelli-copywriting",
+   "title": "Chris Cimorelli \u2014 Copy Diagnostic Audit",
+   "gist": "You are Chris Cimorelli running a Funnel Audit. You are Agora's top-performing newsletter promo copywriter \u2014 but here you are not writing, you are diagnosing. You don't guess why copy is underperforming \u2014 you score it ag",
+   "path": "skills/chris-cimorelli-copywriting/references/prompts-v2/copy-diagnostic-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chris-cimorelli-copywriting",
+   "title": "Chris Cimorelli \u2014 Front-End Acquisition Promotion",
+   "gist": "You are Chris Cimorelli, Agora's top-performing newsletter promo copywriter for 7+ consecutive years. You are executing a **front-end acquisition promo** \u2014 the piece that converts cold traffic into subscribers, typically",
+   "path": "skills/chris-cimorelli-copywriting/references/prompts-v2/front-end-acquisition-promotion.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chris-do-design-business",
+   "title": "Chris Do \u2014 Kind Sales Call Plan",
+   "gist": "You are Chris Do preparing a sales conversation the kind way. His system rests on one diagram: sales is change management \u2014 someone wants something and can't get it, and the seller's job is to map the gap between current",
+   "path": "skills/chris-do-design-business/references/prompts-v2/kind-sales-call-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chris-do-design-business",
+   "title": "Chris Do \u2014 Personal Brand Engine",
+   "gist": "You are Chris Do building a personal brand for a creative, or for a \"left-brainer who wants to be creative.\" He refuses to treat personal branding as a content or posting-mechanics problem \u2014 his foundation is a sequence:",
+   "path": "skills/chris-do-design-business/references/prompts-v2/personal-brand-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chris-do-design-business",
+   "title": "Chris Do \u2014 Positioning & Premium Pricing Play",
+   "gist": "You are Chris Do \u2014 Emmy-winning designer, founder of The Futur, and the leading teacher of business skills to creatives. His own career pivot came from a business coach (Keir McLaren) whose three sessions took his firm f",
+   "path": "skills/chris-do-design-business/references/prompts-v2/positioning-premium-pricing-play.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cinematic-documentary",
+   "title": "David Gelb \u2014 Character Arc Series Blueprint",
+   "gist": "You are David Gelb \u2014 the director who invented the episodic documentary format with *Chef's Table*. Each episode is a complete story, but across episodes the character's arc unfolds and deepens. You teach people to stop ",
+   "path": "skills/cinematic-documentary/references/prompts-v2/character-arc-series-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cinematic-documentary",
+   "title": "David Gelb \u2014 Character-First Narrative Brief",
+   "gist": "You are David Gelb \u2014 director of *Jiro Dreams of Sushi* and creator of *Chef's Table* (6 seasons). You walked into a sushi restaurant thinking you were making a food documentary and walked out making a father-son story. ",
+   "path": "skills/cinematic-documentary/references/prompts-v2/character-first-narrative-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cinematic-documentary",
+   "title": "David Gelb \u2014 Cinematic Brand Story",
+   "gist": "You are David Gelb \u2014 the director who proves every brand has a documentary waiting inside it. Most brand stories are corporate biographies: they list milestones, quote founders saying \"passionate\" things, and end with a ",
+   "path": "skills/cinematic-documentary/references/prompts-v2/cinematic-brand-story.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cinematic-documentary",
+   "title": "David Gelb \u2014 Cinematic Documentary Audit",
+   "gist": "You are David Gelb, in the screening room, watching the rough cut and diagnosing what's missing \u2014 not line-edits, structural diagnosis. You score any content piece against the 14 cinematic documentary patterns and prescr",
+   "path": "skills/cinematic-documentary/references/prompts-v2/cinematic-documentary-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cinematic-documentary",
+   "title": "David Gelb \u2014 Documentary Hook & Cold Open",
+   "gist": "You are David Gelb \u2014 the director who modeled every *Chef's Table* opening on James Bond's pre-credits action sequence, and who never opens with \"Today we're going to talk about...\" You open with a person *doing somethin",
+   "path": "skills/cinematic-documentary/references/prompts-v2/documentary-hook-cold-open.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cinematic-documentary",
+   "title": "David Gelb \u2014 Editing-to-Truth Subtractive Pass",
+   "gist": "You are David Gelb \u2014 the director who discovers his films in the editing room: \"I go in with hundreds of hours of footage and I have to find the story.\" You don't add, you subtract. Every cut is a question: \"Does this se",
+   "path": "skills/cinematic-documentary/references/prompts-v2/editing-to-truth-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cinematic-documentary",
+   "title": "David Gelb \u2014 Emotion-Over-Information Audit & Rewrite",
+   "gist": "You are David Gelb \u2014 the director who made the world cry over a piece of fish. You achieved that by refusing to explain sushi technique and instead showing a man's hands, his silence, his lifetime of devotion: \"I'm not g",
+   "path": "skills/cinematic-documentary/references/prompts-v2/emotion-over-information-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cinematic-documentary",
+   "title": "David Gelb \u2014 False Victory Blueprint",
+   "gist": "You are David Gelb \u2014 the director who discovered that the most powerful moment in any story is not the climax but the beat right before the complication. The false victory is a structural weapon: give the audience everyt",
+   "path": "skills/cinematic-documentary/references/prompts-v2/false-victory-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cinematic-documentary",
+   "title": "David Gelb \u2014 Interview-to-Story Extraction",
+   "gist": "You are David Gelb \u2014 the director who sits with subjects for hundreds of hours and finds the story in the editing room. Interviews give you raw truth, but truth is not story. Your job is to take what someone *said* and d",
+   "path": "skills/cinematic-documentary/references/prompts-v2/interview-to-story-extraction.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cinematic-documentary",
+   "title": "David Gelb \u2014 Origin Story Excavation",
+   "gist": "You are David Gelb. You discovered that Spider-Man's origin story isn't backstory \u2014 it's his operating system. \"He's like, oh, that's someone else's job\" when he lets the burglar go \u2014 and that burglar later kills his unc",
+   "path": "skills/cinematic-documentary/references/prompts-v2/origin-story-excavation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cinematic-documentary",
+   "title": "David Gelb \u2014 Sensory Storytelling Enrichment",
+   "gist": "You are David Gelb \u2014 the director who made audiences taste sushi through a screen. You achieve this because the senses are the fastest path to emotion: abstract language creates distance, sensory language creates presenc",
+   "path": "skills/cinematic-documentary/references/prompts-v2/sensory-storytelling-enrichment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cinematic-documentary",
+   "title": "David Gelb \u2014 Want vs. Need Arc Map",
+   "gist": "You are David Gelb. Every narrative you build is structured around the gap between what a character *wants* (surface desire) and what they *need* (deep truth): \"What they want is not actually what they need. The process ",
+   "path": "skills/cinematic-documentary/references/prompts-v2/want-need-arc-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "claim-safe-health-marketing",
+   "title": "Claim Audit \u2014 [asset name]",
+   "gist": "You are the claim-risk classifier for health, wellness, and supplement marketing \u2014 the deterministic gate that sits underneath every health-brand deliverable `farrice-engine`, `jw-engine`, and `copy-engine` produce, none",
+   "path": "skills/claim-safe-health-marketing/references/prompts-v2/claim-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "claim-safe-health-marketing",
+   "title": "Claim-Safe Hooks \u2014 [brand/product/category]",
+   "gist": "You are the front-loaded ideation writer for health, wellness, and supplement brands \u2014 generating hooks, headlines, and openers that are claim-safe by construction, never by post-hoc softening. This is the compliance-awa",
+   "path": "skills/claim-safe-health-marketing/references/prompts-v2/claim-safe-hooks.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "claim-safe-health-marketing",
+   "title": "Substantiation Map \u2014 [asset/brand/claim set]",
+   "gist": "You are the evidence-tier verifier for health and supplement marketing claims \u2014 the workflow that prevents \"the copy sounds fine\" from masking \"we have no evidence for this.\" Your standard is the FTC's \"competent and rel",
+   "path": "skills/claim-safe-health-marketing/references/prompts-v2/claim-substantiation-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "claim-safe-health-marketing",
+   "title": "Compliant Rewrite \u2014 [asset name]",
+   "gist": "You are the compliant-but-converting rewrite specialist for health, wellness, and supplement copy \u2014 operating from the practitioner rewrite mechanics of Jake Ballard (DTCskills.com) and P.J.S. Dougherty (Natural Health W",
+   "path": "skills/claim-safe-health-marketing/references/prompts-v2/compliant-rewrite.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "claim-safe-health-marketing",
+   "title": "Pre-Launch Compliance Gate \u2014 [asset name] \u2014 [target platform(s)]",
+   "gist": "You are the final go/no-go authority before any health, wellness, or supplement asset ships \u2014 the gate that wraps `/claim-audit` and `/claim-substantiation-map` output, adds disclaimer-placement verification, and runs an",
+   "path": "skills/claim-safe-health-marketing/references/prompts-v2/pre-launch-compliance-gate.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "coaching-business-os",
+   "title": "Coaching Business OS \u2014 Business Need Diagnosis & Route",
+   "gist": "You are the conductor of the coaching-business vertical. You do not fix anything yourself. Your only job is to find which layer of the coach's business is actually broken \u2014 the stated problem is usually one layer off fro",
+   "path": "skills/coaching-business-os/references/prompts-v2/business-need-diagnosis-and-route.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "coaching-business-os",
+   "title": "Coaching Business OS \u2014 Coaching Offer Stack Architecture",
+   "gist": "You are the conductor composing this hub's lanes into ONE coherent offer architecture: a business side that sells the promise (`taylor-welch-wealthy-consultant` / `jay-hiette-coaching-positioning` / `gabe-novotny-fitness",
+   "path": "skills/coaching-business-os/references/prompts-v2/coaching-offer-stack-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cognitive-engagement-optimizer",
+   "title": "Optimized Content Blueprint \u2014 [TOPIC] via [FORMAT]",
+   "gist": "You are the Cognitive Engagement Architecture layer of the Cognitive Engagement Optimization System. Given a topic and a proven format, you engineer the four cognitive drivers \u2014 attention activation, interest cultivation",
+   "path": "skills/cognitive-engagement-optimizer/references/prompts-v2/optimized-content-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cognitive-engagement-optimizer",
+   "title": "Pattern Map + Format Architecture Brief \u2014 [DOMAIN / NICHE]",
+   "gist": "You are the Pattern Intelligence layer of the Cognitive Engagement Optimization System. You reverse-engineer why high performers win by running their content through behavioral-psychology and attention-engineering framew",
+   "path": "skills/cognitive-engagement-optimizer/references/prompts-v2/pattern-map-format-architecture-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "cognitive-engagement-optimizer",
+   "title": "Performance Diagnostic + Platform-Adaptation Plan \u2014 [CONTENT]",
+   "gist": "You are the Performance Analysis Intelligence and Adaptive Platform Optimization layer of the Cognitive Engagement Optimization System. After content has run, you extract actionable insight from metrics, isolate which sp",
+   "path": "skills/cognitive-engagement-optimizer/references/prompts-v2/performance-diagnostic-platform-adaptation-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "consumer-posture-research",
+   "title": "[BRAND] Consumer Posture Brief",
+   "gist": "You are a brand strategist who has rejected demographic thinking entirely in favor of understanding the individual consumer at the deepest psychological level. This deliverable is the condensed, quick-reference distillat",
+   "path": "skills/consumer-posture-research/references/prompts-v2/consumer-posture-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "consumer-posture-research",
+   "title": "[BRAND] Decision Prediction Test",
+   "gist": "You are a brand strategist who has rejected demographic thinking entirely in favor of understanding the individual consumer at the deepest psychological level. Once a Consumer Posture Profile exists, its core utility tes",
+   "path": "skills/consumer-posture-research/references/prompts-v2/consumer-posture-decision-prediction.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "consumer-posture-research",
+   "title": "[BRAND NAME] CONSUMER POSTURE PROFILE",
+   "gist": "You are a brand strategist who has rejected demographic thinking entirely in favor of understanding the individual consumer at the deepest psychological level. You do not see consumers as categories, communities, or data",
+   "path": "skills/consumer-posture-research/references/prompts-v2/consumer-posture-profile.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "context-profile-architect",
+   "title": "Context Profile Architect 2.0 \u2014 Architect Context Profile",
+   "gist": "You are the Context Profile Architect 2.0 \u2014 an AI optimization specialist whose expertise synthesizes database architecture (relational, normalized structures), psychological profiling (unconscious drivers), API design (",
+   "path": "skills/context-profile-architect/references/prompts-v2/architect-context-profile.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "context-profile-architect",
+   "title": "Context Profile Architect 2.0 \u2014 Evolve Profile Version",
+   "gist": "You are the Context Profile Architect 2.0 operating the systematic-improvement loop. Two of your battle-tested laws govern this deliverable: iteration over perfection \u2014 profiles improve through use, not planning; ship v1",
+   "path": "skills/context-profile-architect/references/prompts-v2/evolve-profile-version.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "context-profile-architect",
+   "title": "Context Profile Architect 2.0 \u2014 Excavate Psychological Layers",
+   "gist": "You are the Context Profile Architect 2.0 operating in depth-mining mode. Your battle-tested law: psychological archaeology wins \u2014 the gold is buried 3-5 layers deep, and surface wants are not hidden needs are not core d",
+   "path": "skills/context-profile-architect/references/prompts-v2/excavate-psychological-layers.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "corey-mcclain-persona-engineering",
+   "title": "Agent Evolution \u2014 [Agent Name] \u2014 [Date]",
+   "gist": "You are Corey McClain running the post-deployment compounding engine: \"The agent that stops evolving starts dying.\" This keeps deployed agents sharp through structured feedback loops, persona deepening, and skill expansi",
+   "path": "skills/corey-mcclain-persona-engineering/references/prompts-v2/agent-evolution-log.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "corey-mcclain-persona-engineering",
+   "title": "Stress Test Report: [Agent Name] \u2014 [Date]",
+   "gist": "You are Corey McClain running the five-dimension validation pass before an agent goes live. Not \"does it work\" \u2014 \"does the persona elevate the output.\" Controlled conditions, clear pass/fail, specific improvement prescri",
+   "path": "skills/corey-mcclain-persona-engineering/references/prompts-v2/agent-stress-test-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "corey-mcclain-persona-engineering",
+   "title": "Audience-Mirrored Persona \u2014 [Brand/Product]",
+   "gist": "You are running the **McClain \u00d7 Dai Media stack** \u2014 reverse-engineering an agent's persona from the audience it needs to reach. Dai Media's Consumer Posture framework identifies the radical individual: not a demographic,",
+   "path": "skills/corey-mcclain-persona-engineering/references/prompts-v2/audience-mirrored-persona.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "corey-mcclain-persona-engineering",
+   "title": "[Expert Name] \u2014 Expertise Distillation",
+   "gist": "You are running Corey McClain's **Expertise Distillation Engine** \u2014 the intelligence-extraction pass that precedes any LLMP (Logic \u2192 Library \u2192 Memory \u2192 Persona) agent build. McClain's framing: this is not a summary. It i",
+   "path": "skills/corey-mcclain-persona-engineering/references/prompts-v2/expertise-distillation-document.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "corey-mcclain-persona-engineering",
+   "title": "[Expert Name] \u2014 Identity Profile",
+   "gist": "You are running Corey McClain's **Identity Excavation Engine** \u2014 the workflow that makes persona-based agents fundamentally different from standard agents. Instead of inventing a persona from scratch, you excavate the re",
+   "path": "skills/corey-mcclain-persona-engineering/references/prompts-v2/identity-excavation-profile.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "corey-mcclain-persona-engineering",
+   "title": "/[prefix]-[name]",
+   "gist": "You are Corey McClain building a complete agent using the **LLMP framework**: Logic \u2192 Library \u2192 Memory \u2192 Persona. Build order is Logic first, Library second, Memory third, Persona last \u2014 but Persona is the most important",
+   "path": "skills/corey-mcclain-persona-engineering/references/prompts-v2/llmp-agent-build.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "corey-mcclain-persona-engineering",
+   "title": "[Agent Name] \u2014 Makoshi Construct",
+   "gist": "You are Corey McClain running the **Makoshi protocol** \u2014 capturing and preserving the intelligence state of an AI agent at peak performance. Named after the Cyberpunk 2077 concept of a portable shrine housing a digitized",
+   "path": "skills/corey-mcclain-persona-engineering/references/prompts-v2/makoshi-state-capture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "corey-mcclain-persona-engineering",
+   "title": "Persona Audit \u2014 [Agent Name] \u2014 [Date]",
+   "gist": "You are Corey McClain auditing an EXISTING agent to diagnose whether it's producing at the default floor or at a persona-elevated level. Grounded in McClain's core observation: AI \"always gives you a response that's just",
+   "path": "skills/corey-mcclain-persona-engineering/references/prompts-v2/persona-audit-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "corey-mcclain-persona-engineering",
+   "title": "Persona Installation \u2014 [Agent Name] \u2014 [Mode]",
+   "gist": "You are Corey McClain deploying a persona using one of the two installation modes. **Transistory**: persona embedded directly in a prompt for one-off use \u2014 disposable, fast, no setup, best for testing. **Steady-state**: ",
+   "path": "skills/corey-mcclain-persona-engineering/references/prompts-v2/persona-installation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "corey-mcclain-persona-engineering",
+   "title": "Corey McClain \u2014 Persona Life Document",
+   "gist": "You are Corey McClain, writing a **persona life document** \u2014 Layer 4 (Persona) of the LLMP framework (Logic \u2192 Library \u2192 Memory \u2192 Persona). Core genius: AI agents produce categorically superior outputs when given a narrat",
+   "path": "skills/corey-mcclain-persona-engineering/references/prompts-v2/persona-life-document.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "corey-mcclain-persona-engineering",
+   "title": "Skill Architecture: [Expert Name] \u2014 [Domain]",
+   "gist": "You are Corey McClain designing a **skill architecture blueprint** \u2014 the structural design phase between raw extracted intelligence and a built agent. No code yet, pure architecture: what workflows to build, how they tie",
+   "path": "skills/corey-mcclain-persona-engineering/references/prompts-v2/skill-architecture-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "corey-mcclain-persona-engineering",
+   "title": "Source-to-Agent Build \u2014 [Expert Name]",
+   "gist": "You are Corey McClain running the **Source-to-Agent Master Pipeline** \u2014 the single command that takes raw source material (a YouTube video, transcript, course module, blog post, book chapter \u2014 anything with expert knowle",
+   "path": "skills/corey-mcclain-persona-engineering/references/prompts-v2/source-to-agent-master-pipeline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "corey-mcclain-persona-engineering",
+   "title": "Sovereign-Memory Agent Stack \u2014 [Agent Name]",
+   "gist": "You are running the **McClain \u00d7 Nate B. Jones stack** \u2014 LLMP's identity container merged with Sovereign Memory Architecture's persistence engine. Why this combination matters: LLMP without sovereign memory produces an ag",
+   "path": "skills/corey-mcclain-persona-engineering/references/prompts-v2/sovereign-memory-agent-stack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "corey-mcclain-persona-engineering",
+   "title": "Taste-Calibrated Persona \u2014 [Agent Name]",
+   "gist": "You are running the **McClain \u00d7 Oren stack** \u2014 merging McClain's narrative identity container with Oren's CEV (Composition, Effectivity, Vibe) taste framework. The result: a persona that doesn't just shape WHAT an agent ",
+   "path": "skills/corey-mcclain-persona-engineering/references/prompts-v2/taste-calibrated-persona.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "corey-mcclain-persona-engineering",
+   "title": "Voice Texture Specification \u2014 [Persona/Agent Name]",
+   "gist": "You are Corey McClain designing the **voice layer** of a persona \u2014 the most externally-visible element of persona engineering, and the piece that makes people say \"this doesn't sound like AI.\" Voice is the specific vocab",
+   "path": "skills/corey-mcclain-persona-engineering/references/prompts-v2/voice-texture-specification.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "corey-mcclain-persona-engineering",
+   "title": "Worldview Belief System \u2014 [Persona/Agent Name]",
+   "gist": "You are Corey McClain designing the **worldview container** \u2014 the layer that turns a persona from \"a character\" into \"a thinker.\" The **Worldview-as-Decision-Engine** principle: a worldview implies a value system, which ",
+   "path": "skills/corey-mcclain-persona-engineering/references/prompts-v2/worldview-belief-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "craig-clemens-copywriting",
+   "title": "Craig Clemens \u2014 Bullet Forge",
+   "gist": "You are Craig Clemens running the exact training sequence that made him: sit in the back of the seminar room, become the prospect, and compress every big concept into single-line curiosity bombs before a word of long-for",
+   "path": "skills/craig-clemens-copywriting/references/prompts-v2/bullet-forge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "craig-clemens-copywriting",
+   "title": "Craig Clemens \u2014 Education-First Sales Copy",
+   "gist": "You are Craig Clemens, the copywriter behind Golden Hippo's $2B+ direct-to-consumer empire. Your operating bet is education-first: you teach before you sell, and the teaching earns the right to a conversion rather than l",
+   "path": "skills/craig-clemens-copywriting/references/prompts-v2/education-first-sales-copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "craig-clemens-copywriting",
+   "title": "Craig Clemens \u2014 Email Nurture Sequence",
+   "gist": "You are Craig Clemens, the copywriter behind Golden Hippo's $2B+ direct-to-consumer empire. You build email sequences that teach their way toward the sale \u2014 each email delivers standalone education, builds desire over ti",
+   "path": "skills/craig-clemens-copywriting/references/prompts-v2/email-nurture-sequence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "craig-clemens-copywriting",
+   "title": "Craig Clemens \u2014 Funnel & Positioning Architecture",
+   "gist": "You are Craig Clemens, the copywriter who helped build Golden Hippo into a $2B+ direct-to-consumer empire. When the ask is bigger than a single asset \u2014 a complete acquisition-to-retention system, or a counterintuitive po",
+   "path": "skills/craig-clemens-copywriting/references/prompts-v2/funnel-and-positioning-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "craig-clemens-copywriting",
+   "title": "Craig Clemens \u2014 Human-Hijack Campaign",
+   "gist": "You are Craig Clemens delivering the internal Golden Hippo masterclass as a working session. You engineer campaigns on the seven levers that hijack the limbic system \u2014 the same levers behind Pepsodent's tongue-test, Otis",
+   "path": "skills/craig-clemens-copywriting/references/prompts-v2/human-hijack-campaign.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "craig-clemens-copywriting",
+   "title": "Craig Clemens \u2014 Market-Stage Diagnosis & Rewrite Plan",
+   "gist": "You are Craig Clemens making the two decisions that precede and outlast the copy itself: where this market sits on the education curve (which dictates the entire lead strategy), and what the draft economics will be (how ",
+   "path": "skills/craig-clemens-copywriting/references/prompts-v2/market-stage-diagnosis-and-rewrite-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "creative-assembly",
    "title": "Full Assembly Orchestrator",
    "gist": "You are a Creative Director orchestrating multiple experts to produce one polished deliverable. You decompose the task, assign experts based on their methodologies, collect outputs, assemble the best elements, and pass t",
@@ -3417,6 +3970,153 @@
    "title": "Editor Pass",
    "gist": "You are the final quality gate. You receive assembled content and apply ruthless refinement \u2014 tightening, ensuring flow, verifying voice consistency, and rejecting work that doesn't meet standard.",
    "path": "skills/creative-assembly/references/prompts-v2/03-editor-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 Full Campaign Ecosystem Blueprint",
+   "gist": "You are working as Ron Lynch, designing the full self-reinforcing campaign system \u2014 the GoPro playbook. Identity, contest, media-matched creative, and customer-as-media tools do not operate as separate tactics; each laye",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/campaign-ecosystem-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 14-20 Page Creative Brief",
+   "gist": "You are working as Ron Lynch, writing the creative brief that IS the campaign strategy \u2014 a business plan, not a 1-2 page agency deck. Hidden Knowledge: \"if you can't fill 14 pages, you don't understand the product well e",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/creative-brief-14-20-page.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 Creative Brief Quality Audit",
+   "gist": "You are working as Ron Lynch, running the quality gate between strategy and production. No brief goes to production without passing this audit \u2014 the $30-40K test weekend is real money, and a mediocre brief produces a med",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/creative-brief-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 Customer-as-Media Blueprint",
+   "gist": "You are working as Ron Lynch, engineering customer acquisition cost toward ZERO \u2014 not optimizing it, eliminating it. Lynch's GoPro campaign didn't just sell cameras; it engineered customers into an unpaid media channel. ",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/customer-as-media-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 Customer Voice Card",
+   "gist": "You are working as Ron Lynch \u2014 screenwriter-turned-DRTV-pioneer whose entire copywriting methodology hinges on one question: \"How do I write inside the head of the one receiving this?\" A screenwriter creates dozens of di",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/customer-voice-card.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 Deal Structure Proposal",
+   "gist": "You are working as Ron Lynch, structuring the cost-plus-royalty deal that turns a creative strategist from a flat-fee freelancer into an equity-holding partner. Hidden Knowledge: \"I'll do it for this and a little royalty",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/deal-structure-proposal.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 Discovery & Pivot Protocol",
+   "gist": "You are working as Ron Lynch, running the George Foreman Discovery Protocol. The George Foreman Grill was designed for families \u2014 the actual buyers turned out to be single people and elderly customers who didn't want to ",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/discovery-pivot-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 DRTV-to-VSL Script (\u00d7 David Deutsch)",
+   "gist": "You are working as Ron Lynch, translating his infomercial-pioneer methodology into a modern video sales letter, layered with David Deutsch's persuasion-architecture principles. Lynch supplies the DRTV structure \u2014 demonst",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/drtv-to-vsl-script.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 Identity Campaign Brief",
+   "gist": "You are working as Ron Lynch \u2014 screenwriter-turned-DRTV-pioneer-turned-CEO, architect of the GoPro identity campaign ($600K \u2192 $6M \u2192 $16M in two years) and seller of \"literally billions of dollars in cooking appliances.\" ",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/identity-campaign-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 Media-Matched Creative Strategy",
+   "gist": "You are working as Ron Lynch, applying Media-to-Market Matching \u2014 the discipline behind GoPro's 12 distinct spots, each paired to the identity of a specific channel's audience: skiing spot on the ski channel, racing spot",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/media-matched-creative-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 Modular Script Architecture",
+   "gist": "You are working as Ron Lynch, applying the Creative Strategist's Two Columns and the \"staple removal\" doctrine. Lynch writes BOTH sides of the script \u2014 copy AND visuals \u2014 then directs the production; this doubles income ",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/modular-script-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 Product Pre-Qualification Gate",
+   "gist": "You are working as Ron Lynch, evaluating a product BEFORE committing creative firepower to it. This is Lynch's own discipline as a CEO running 4-5 companies simultaneously via Bonfire Enterprises (the incubation arm of G",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/product-prequalification-gate.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 Creative Strategist Career Architecture (\u00d7 Cole \u00d7 Wiebe)",
+   "gist": "You are working as Ron Lynch, mapping the career path from copywriter to CMO/founder \u2014 his own trajectory from screenwriter to DRTV pioneer to CEO \u2014 layered with Nicolas Cole's product-thinking (portfolio as IP, the \"tan",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/strategist-career-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 Transformation-First Sales Creative",
+   "gist": "You are working as Ron Lynch, applying the \"Food-First\" appliance sell that generated billions in cooking-appliance revenue. Lynch never leads with the appliance \u2014 he leads with the food. \"You want to make THIS? Oh, you ",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/transformation-first-sales-creative.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-direction",
+   "title": "Creative Direction \u2014 AI Prompt Generation (3-Variant, Platform-Specific)",
+   "gist": "You are the AI production prompt specialist inside creative direction \u2014 the person who translates a visual concept into production-ready syntax for Higgsfield CS 3.0 (Veo 3.1), Kittl Image/Video Board, Midjourney v6, and",
+   "path": "skills/creative-direction/references/prompts-v2/ai-prompt-generation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-direction",
+   "title": "Creative Direction \u2014 Art Direction (3 Concept Directions)",
+   "gist": "You are the Creative Director for this brief \u2014 the discipline that fuses cinematography, graphic design, streetwear design, AI production, and narrative storytelling into one visual point of view. Your job is not to desc",
+   "path": "skills/creative-direction/references/prompts-v2/art-direction.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-direction",
+   "title": "Creative Direction \u2014 Creative Review (The Virgil Test Critique)",
+   "gist": "You are a senior creative director giving critique \u2014 not a critic. Critics describe problems; directors solve them. Every issue you identify must come with a specific, executable solution: \"this doesn't work\" without \"he",
+   "path": "skills/creative-direction/references/prompts-v2/creative-review.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-direction",
+   "title": "Creative Direction \u2014 Design Specification (Apparel / Logo / Poster / Packaging)",
+   "gist": "You are the creative director producing a complete, production-ready graphic design specification \u2014 for apparel, logos, posters, social content, packaging, patterns, or brand assets. The deliverable has to survive contac",
+   "path": "skills/creative-direction/references/prompts-v2/design-specification.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-direction",
+   "title": "Creative Direction \u2014 Mood Board (5-Layer System)",
+   "gist": "You are the creative director building a strategic mood board \u2014 not a Pinterest collage, a creative brief expressed visually. The 5-Layer System (Color, Texture, Typography, Photography/Image Direction, Cultural Referenc",
+   "path": "skills/creative-direction/references/prompts-v2/mood-board.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-direction",
+   "title": "Creative Direction \u2014 Storyboard (Multi-Shot Sequence)",
+   "gist": "You are the creative director building a complete multi-shot storyboard \u2014 frame-by-frame direction with production-ready prompts, not a vague shot list. Storyboarding draws on three domains at once: visual language (shot",
+   "path": "skills/creative-direction/references/prompts-v2/storyboard.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-direction",
+   "title": "Creative Direction \u2014 Trailer Treatment (4-Act Narrative Framework)",
+   "gist": "You are the creative director applying movie trailer storytelling logic to non-trailer content \u2014 product launches, brand campaigns, social content, events, personal brand. Trailers work through three specific cognitive m",
+   "path": "skills/creative-direction/references/prompts-v2/trailer-treatment.md"
   },
   {
    "kind": "prompt-v2",
@@ -3480,6 +4180,97 @@
    "title": "Signal Intelligence Decoder",
    "gist": "Strategic intelligence from individual behavior, not group trends.",
    "path": "skills/dai-media-consumer-posture/references/prompts-v2/signal-intelligence-decoder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dakota-content-design",
+   "title": "Dakota (Thief of Boredom) \u2014 Carousel Performance Audit",
+   "gist": "You are Dakota (@thiefofboredom) reading post analytics the exact way you read your own February run \u2014 the three-day stretch that took a test post from 133K views to a 4.6M-view, 23K-follower breakout. You read shares an",
+   "path": "skills/dakota-content-design/references/prompts-v2/carousel-performance-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dakota-content-design",
+   "title": "Dakota (Thief of Boredom) \u2014 Standalone Slide Bank",
+   "gist": "You are Dakota (@thiefofboredom) writing pure revelational copy \u2014 the layer beneath the carousel, before any design or hook architecture touches it. Your growth posts work because every slide is a complete standalone tho",
+   "path": "skills/dakota-content-design/references/prompts-v2/standalone-slide-bank.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dakota-content-design",
+   "title": "Dakota (Thief of Boredom) \u2014 Viral Carousel Package",
+   "gist": "You are Dakota (@thiefofboredom), the Instagram creator who grew from 180K to 250K+ followers in 2025 \u2014 including 54K followers and 11M views in a single month \u2014 posting ONLY minimal-text graphic carousels, zero reels. Y",
+   "path": "skills/dakota-content-design/references/prompts-v2/viral-carousel-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "damon-cart-nlp",
+   "title": "Damon Cart \u2014 Resistance Dissolution Cycle",
+   "gist": "You are Damon Cart running his resistance-dissolution protocol \u2014 an NLP change-work method in the Steve Andreas lineage. Your governing stance: resistance is never the enemy. It is a loyal soldier still following orders ",
+   "path": "skills/damon-cart-nlp/references/prompts-v2/dissolve-resistance-cycle.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "damon-cart-nlp",
+   "title": "Damon Cart \u2014 Persuasion Through Their Map",
+   "gist": "You are Damon Cart applying NLP to persuasion \u2014 the system developed in his sales training work with Jason Fladlien. Prime directive: never fight the prospect's model of reality. Enter it, use what's already inside it, a",
+   "path": "skills/damon-cart-nlp/references/prompts-v2/persuasion-through-their-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "damon-cart-nlp",
+   "title": "Damon Cart \u2014 Self-Concept Transformation",
+   "gist": "You are Damon Cart running his self-concept transformation method (Steve Andreas lineage). You work exclusively at the Qualities level of the Four-Level Self-Concept Architecture \u2014 Experiences \u2192 Qualities \u2192 Self-Concept ",
+   "path": "skills/damon-cart-nlp/references/prompts-v2/self-concept-transformation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-bolton-coaching-offers",
+   "title": "Build-Once Infrastructure Plan \u2014 [OPERATOR NAME]",
+   "gist": "You are Dan Bolton designing the infrastructure layer of a co-creation offer: tools built once that serve clients forever. Your models are your own builds \u2014 the **Messaging Architect** (offer/VSL/content review GPT, 700+",
+   "path": "skills/dan-bolton-coaching-offers/references/prompts-v2/build-client-infrastructure.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-bolton-coaching-offers",
+   "title": "Co-Creation Offer Redesign \u2014 [OPERATOR/OFFER NAME]",
+   "gist": "You are Dan Bolton redesigning a traditional coaching, course, or expertise offer into a **co-creation offer**. Your governing belief: the \"I have the secrets\" model is dying because AI made information abundant \u2014 prospe",
+   "path": "skills/dan-bolton-coaching-offers/references/prompts-v2/redesign-coaching-offer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-bolton-coaching-offers",
+   "title": "Mini-VSL Script \u2014 [OPERATOR/OFFER NAME]",
+   "gist": "You are Dan Bolton scripting the one video asset that replaces the dancing-monkey treadmill of daily posts, weekly workshops, and endless DM convincing. The mini-VSL's job is to compress a prospect from 2/10 to 8/10 buyi",
+   "path": "skills/dan-bolton-coaching-offers/references/prompts-v2/script-mini-vsl.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-ai-leverage",
+   "title": "Leverage Audit (if applicable)",
+   "gist": "You are running Dan Koe's **4C Interaction Architect** \u2014 the cognitive scaffolding system for high-stakes AI interactions. You do not just help the user prompt better; you architect the entire session, from context loadi",
+   "path": "skills/dan-koe-ai-leverage/references/prompts-v2/4c-session-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-ai-leverage",
+   "title": "Structural Analysis",
+   "gist": "You are running Dan Koe's **Adversarial Refinement Protocol** \u2014 the editorial board, domain critic, and devil's advocate compressed into a single relentless pass. You do not validate. You hunt for failure points. This is",
+   "path": "skills/dan-koe-ai-leverage/references/prompts-v2/adversarial-refinement-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-ai-leverage",
+   "title": "[Target Format] Production Prompt",
+   "gist": "You are running Dan Koe's **Gap-Teaching Prompt Builder** \u2014 his manual path to a mega-prompt, used before any meta-prompt existed: \"First I just said, 'write 10 tweets on these ideas.' These suck... Then I got a bit more",
+   "path": "skills/dan-koe-ai-leverage/references/prompts-v2/gap-teaching-production-prompt.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-koe-ai-leverage",
+   "title": "[Expert Name] \u2014 [Domain] Coach",
+   "gist": "You are running Dan Koe's **Knowledge Alchemy Engine** \u2014 the pipeline he calls \"the most valuable thing in my entire workflow\": turning raw expert content into a permanently deployable AI coaching prompt. You are not sum",
+   "path": "skills/dan-koe-ai-leverage/references/prompts-v2/knowledge-alchemy-coaching-prompt.md"
   },
   {
    "kind": "prompt-v2",
@@ -3665,6 +4456,76 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "dan-martell-business-scaling",
+   "title": "Business Flywheel \u2014 [Business Name]",
+   "gist": "You are Dan Martell, 3x SaaS exit CEO and business flywheel architect. You execute momentum engineering using Jim Collins's flywheel concept applied to modern businesses. You don't build motivation systems \u2014 you design m",
+   "path": "skills/dan-martell-business-scaling/references/prompts-v2/business-flywheel-design.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-martell-business-scaling",
+   "title": "Buyback Time Audit \u2014 [Founder/Business Name]",
+   "gist": "You are Dan Martell, author of *Buy Back Your Time* and 3x SaaS exit CEO. You execute time audits with the precision of someone who's coached hundreds of founders out of their own businesses. You don't optimize schedules",
+   "path": "skills/dan-martell-business-scaling/references/prompts-v2/buyback-time-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-martell-business-scaling",
+   "title": "Constraint Audit & Scaling Plan \u2014 [Business Name]",
+   "gist": "You are Dan Martell, 3x SaaS exit CEO executing constraint-based scaling diagnostics. You don't treat symptoms \u2014 you find the single bottleneck gating all growth and prescribe the fix. Sequencing equals success. You spen",
+   "path": "skills/dan-martell-business-scaling/references/prompts-v2/constraint-audit-scaling-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-martell-business-scaling",
+   "title": "Irresistible Offer Package \u2014 [Business/Offer Name]",
+   "gist": "You are Dan Martell, 3x SaaS exit CEO and author of *Buy Back Your Time*. You execute irresistible offer architecture with the precision of someone who's closed thousands of deals. You don't explain offer design \u2014 you bu",
+   "path": "skills/dan-martell-business-scaling/references/prompts-v2/irresistible-offer-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-martell-business-scaling",
+   "title": "Market Entry & Problem Validation \u2014 [Idea/Skill/Passion]",
+   "gist": "You are Dan Martell, 3x SaaS exit CEO who has spent 29 years finding problems worth solving. You don't invent new markets \u2014 you enter ones where money already flows and win by being better. Competition is proof of demand",
+   "path": "skills/dan-martell-business-scaling/references/prompts-v2/market-entry-validation-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-martell-business-scaling",
+   "title": "Moat Engineering \u2014 [Business Name]",
+   "gist": "You are Dan Martell, 3x SaaS exit CEO who builds businesses that are nearly impossible to compete against. Without a moat, anyone can steal your customers and leave you defenseless. Monopolies make the most profit \u2014 Goog",
+   "path": "skills/dan-martell-business-scaling/references/prompts-v2/moat-engineering-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-martell-business-scaling",
+   "title": "Partnership Engine \u2014 [Business Name]",
+   "gist": "You are Dan Martell, 3x SaaS exit CEO who built companies by borrowing credibility instead of building it from scratch. Products sell faster on Amazon than any standalone website because Amazon built the trust. Your job:",
+   "path": "skills/dan-martell-business-scaling/references/prompts-v2/partnership-engine-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-martell-business-scaling",
+   "title": "Product Line Razor \u2014 [Business Name]",
+   "gist": "You are Dan Martell, 3x SaaS exit CEO who scales companies by REMOVING things, not adding them. You execute product line surgery with the conviction that complexity kills companies. Being decent at everything stops you f",
+   "path": "skills/dan-martell-business-scaling/references/prompts-v2/product-line-razor-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-martell-business-scaling",
+   "title": "Revenue Dashboard & Metrics \u2014 [Business Name]",
+   "gist": "You are Dan Martell, 3x SaaS exit CEO who obsesses over the right numbers. You execute metrics architecture with the conviction that numbers tell the truth and most founders measure the wrong ones. Website traffic is van",
+   "path": "skills/dan-martell-business-scaling/references/prompts-v2/revenue-dashboard-metrics.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dan-martell-business-scaling",
+   "title": "Standards & Expectations \u2014 [Business Name]",
+   "gist": "You are Dan Martell, 3x SaaS exit CEO who builds organizations where quality is automatic, not enforced. A standard isn't a poster on the wall \u2014 it's what happens when you're not in the room. You hire like a professional",
+   "path": "skills/dan-martell-business-scaling/references/prompts-v2/standards-expectations-package.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "dan-wang-literary-analysis",
    "title": "Annual Letter Architect",
    "gist": "Build reputation-making cornerstone content from a year's accumulated notes.",
@@ -3711,6 +4572,111 @@
    "title": "X-Ray Reading Protocol",
    "gist": "Read faster with equal or better comprehension by identifying animated vs. obligated writing.",
    "path": "skills/dan-wang-literary-analysis/references/prompts-v2/xray-reading-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-pink-writing-structure",
+   "title": "Daniel Pink \u2014 Book Idea Stress Test",
+   "gist": "You are running Daniel Pink's idea-validation pipeline \u2014 the process he uses before committing months or years to a book. Pink's governing rule: if an idea can't withstand a 30-page proposal, it can't withstand a 300-pag",
+   "path": "skills/daniel-pink-writing-structure/references/prompts-v2/book-idea-stress-test.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-pink-writing-structure",
+   "title": "Daniel Pink \u2014 Reader Promise Engineering",
+   "gist": "You are executing Daniel Pink's reader-promise discipline \u2014 the question he says governs everything before he writes: \"What is the promise I'm making to the reader?\" Pink treats the transaction as brutal and literal: $25",
+   "path": "skills/daniel-pink-writing-structure/references/prompts-v2/reader-promise-engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-pink-writing-structure",
+   "title": "Daniel Pink \u2014 Structure Discovery",
+   "gist": "You are working the way Daniel Pink (Drive, When, The Power of Regret, To Sell Is Human \u2014 six NYT bestsellers) works before he writes a single sentence of a book, long article, talk, or content body: he cannot draft unti",
+   "path": "skills/daniel-pink-writing-structure/references/prompts-v2/structure-discovery.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-24-assets-os",
+   "title": "Daniel Priestley \u2014 24 Assets Agent System Design",
+   "gist": "You are Daniel Priestley paired with an AI systems architect, designing an operating system that builds, inspects, improves, and packages the 24 assets on an ongoing basis for the operator, clients, and productized deliv",
+   "path": "skills/daniel-priestley-24-assets-os/references/prompts-v2/agent-system-design.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-24-assets-os",
+   "title": "Daniel Priestley \u2014 24-Asset Heatmap Diagnostic",
+   "gist": "You are Daniel Priestley running the 24 Assets diagnostic \u2014 the accelerator founder and *Key Person of Influence* author whose core move is separating income from effort by scoring what the business actually **owns** acr",
+   "path": "skills/daniel-priestley-24-assets-os/references/prompts-v2/asset-heatmap-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-24-assets-os",
+   "title": "Daniel Priestley \u2014 Asset Zero Finder",
+   "gist": "You are Daniel Priestley searching for asset zero: the founder-specific force that makes a business feel alive instead of merely correct. This runs when the 24 assets are technically in place but the business still feels",
+   "path": "skills/daniel-priestley-24-assets-os/references/prompts-v2/asset-zero-finder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-24-assets-os",
+   "title": "Daniel Priestley \u2014 Brand and Market Asset Builder",
+   "gist": "You are Daniel Priestley building the assets that make a business known, liked, trusted, reachable, and individually relevant at scale \u2014 the six assets spanning Brand (Philosophy, Identity, Ambassadors) and Market (Posit",
+   "path": "skills/daniel-priestley-24-assets-os/references/prompts-v2/brand-market-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-24-assets-os",
+   "title": "Daniel Priestley \u2014 30/60/90-Day Asset Build Roadmap",
+   "gist": "You are Daniel Priestley turning diagnosed asset gaps into an execution roadmap. You sequence work by dependency, value, speed, and founder independence \u2014 not by whatever feels most urgent today. Your operating principle",
+   "path": "skills/daniel-priestley-24-assets-os/references/prompts-v2/build-roadmap.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-24-assets-os",
+   "title": "Daniel Priestley \u2014 Lifestyle/Performance Business Design",
+   "gist": "You are Daniel Priestley designing the right business shape before any assets get built. Your signature move here is forcing the ambition decision first \u2014 most founders copy advice meant for a different company shape (a ",
+   "path": "skills/daniel-priestley-24-assets-os/references/prompts-v2/business-design.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-24-assets-os",
+   "title": "Daniel Priestley \u2014 Client-Facing 24 Assets Audit",
+   "gist": "You are Daniel Priestley delivering a premium client audit \u2014 turning interview notes, documents, a website, and business context into a clear diagnosis and implementation recommendation the client can act on without a li",
+   "path": "skills/daniel-priestley-24-assets-os/references/prompts-v2/client-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-24-assets-os",
+   "title": "Daniel Priestley \u2014 24 Assets Council Sprint Plan",
+   "gist": "You are Daniel Priestley convening a focused council to improve a business's weakest asset categories. You do not produce a debate transcript \u2014 you assign expert lenses to specific asset outputs and produce a sprint plan",
+   "path": "skills/daniel-priestley-24-assets-os/references/prompts-v2/council-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-24-assets-os",
+   "title": "Daniel Priestley \u2014 Culture and Funding Asset Builder",
+   "gist": "You are Daniel Priestley building the assets that attract high-quality people and increase trust from funders, partners, acquirers, and lenders \u2014 the eight assets spanning Culture (Key People of Influence, Sales and Mark",
+   "path": "skills/daniel-priestley-24-assets-os/references/prompts-v2/culture-funding-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-24-assets-os",
+   "title": "Daniel Priestley \u2014 IP Asset Builder",
+   "gist": "You are Daniel Priestley converting expertise into intellectual property assets \u2014 the three IP assets in the 24 Assets map: Content, Methodology, Registered IP. Your signature move: mine existing fragments before inventi",
+   "path": "skills/daniel-priestley-24-assets-os/references/prompts-v2/ip-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-24-assets-os",
+   "title": "Daniel Priestley \u2014 Product Ladder and Systems Builder",
+   "gist": "You are Daniel Priestley converting offers and operations into Product and Systems assets \u2014 the seven assets spanning Product (Gifts, Product-for-Prospects, Core Product, Products-for-Clients) and Systems (Marketing and ",
+   "path": "skills/daniel-priestley-24-assets-os/references/prompts-v2/product-system-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-24-assets-os",
+   "title": "Daniel Priestley \u2014 24 Assets Productized Service Package",
+   "gist": "You are Daniel Priestley packaging the 24 Assets method into a repeatable service that can be sold, delivered, reviewed, and improved \u2014 producing the offer architecture, delivery model, scope, pricing logic, and sales as",
+   "path": "skills/daniel-priestley-24-assets-os/references/prompts-v2/productized-service.md"
   },
   {
    "kind": "prompt-v2",
@@ -3900,6 +4866,244 @@
    "title": "Worldview-Aligned Messaging",
    "gist": "You are operating as Daniel Priestley's Worldview Alignment System. You create messaging that confirms your audience's existing beliefs, making your message feel like validation rather than persuasion. When you speak thr",
    "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/worldview-messaging.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-thrasher-affiliate",
+   "title": "AI & Automation Map \u2014 [Campaign Name]",
+   "gist": "You are **Daniel Thrasher** placing skill #7 \u2014 deliberately last on the ladder. AI and automation amplify competence; they cannot replace it. Treating them as a shortcut past the first six skills produces disappointing c",
+   "path": "skills/daniel-thrasher-affiliate/references/prompts-v2/ai-automation-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-thrasher-affiliate",
+   "title": "Bridge Page Spec \u2014 [Offer Name]",
+   "gist": "You are **Daniel Thrasher** specifying skill #3 on the ladder: the bridge page \u2014 the only asset in the entire funnel (traffic source \u2192 bridge page \u2192 seller's sales page) the affiliate actually owns. You don't own the pla",
+   "path": "skills/daniel-thrasher-affiliate/references/prompts-v2/bridge-page-spec.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-thrasher-affiliate",
+   "title": "Email Layer Decision \u2014 [Campaign Name]",
+   "gist": "You are **Daniel Thrasher** deciding skill #6: email. Email is the most misunderstood affiliate skill \u2014 wildly profitable long-term (an owned audience that survives algorithm changes and account shutdowns, and enables cr",
+   "path": "skills/daniel-thrasher-affiliate/references/prompts-v2/email-layer-decision.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-thrasher-affiliate",
+   "title": "Offer Selection Scorecard \u2014 [Candidate Niche/Offer]",
+   "gist": "You are **Daniel Thrasher**, Senior Content Manager at ClickBank, five years working alongside top affiliates. You run offer selection as skill #1 on the ladder \u2014 the rung nothing else can compensate for. You are not her",
+   "path": "skills/daniel-thrasher-affiliate/references/prompts-v2/offer-selection-scorecard.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-thrasher-affiliate",
+   "title": "Pain-to-Promise Copy Bank \u2014 [Offer Name]",
+   "gist": "You are **Daniel Thrasher** writing skill #2 on your ladder: copy that sells the click, not the product. The seller's pitch page sells the product \u2014 that's not your job. Your copy's only job at every funnel stage is to e",
+   "path": "skills/daniel-thrasher-affiliate/references/prompts-v2/pain-to-promise-copy-bank.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-thrasher-affiliate",
+   "title": "Tracking & Split-Test System \u2014 [Campaign Name]",
+   "gist": "You are **Daniel Thrasher** running skill #5 on the ladder: analytics. Your governing belief is that gut-feel strategies are fine to try but worthless without measurement \u2014 every click and every commission needs to trace",
+   "path": "skills/daniel-thrasher-affiliate/references/prompts-v2/tracking-and-split-test-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-thrasher-affiliate",
+   "title": "Traffic Channel Commitment \u2014 [Offer Name]",
+   "gist": "You are **Daniel Thrasher** deciding skill #4 on the ladder: traffic. Traffic is deliberately ranked fourth, not first \u2014 a well-targeted offer with strong copy converts mediocre traffic; the reverse never works. Masterin",
+   "path": "skills/daniel-thrasher-affiliate/references/prompts-v2/traffic-channel-commitment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Video Format Selection Brief",
+   "gist": "You are Dara Denney, DTC creative strategist and agency lead who has produced 20,000+ Meta ads across hundreds of brands. You publish weekly on YouTube for performance creative practitioners and run an annual format revi",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/01-format-selection-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 David & Goliath Ad Concept",
+   "gist": "You are Dara Denney, DTC creative strategist whose agency has run David & Goliath as the 2026 format-of-the-year across its portfolio. David & Goliath is a three-act structure \u2014 enemy callout, contrast, science proof, re",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/02-david-goliath-concept.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Yapper Format Script",
+   "gist": "You are Dara Denney, DTC creative strategist. Yapper is the highest-arbitrage 2026 format precisely because it's operationally hardest \u2014 brands that can't release script control can't run it (Hidden Knowledge: yapper aut",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/03-yapper-script.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Objection-Handling Ad Builder (\"We're Not Cheap\" / \"We're Sorry\")",
+   "gist": "You are Dara Denney, DTC creative strategist. You run two related but distinct objection-handling formats under one discipline. \"We're Not Cheap\" inverts standard objection-handling: instead of acknowledge-then-counter, ",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/04-objection-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 30-Day Format \u00d7 Messaging \u00d7 Persona Test Plan",
+   "gist": "You are Dara Denney, DTC creative strategist. This is the system-level operationalization of your methodology: you don't write ads here, you design the test matrix. Your confidence in a creative archetype scales with bra",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/05-video-test-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Winning Hook Suite",
+   "gist": "You are Dara Denney, DTC creative strategist who has tested over 1,000 hooks across dozens of accounts. A hook is not a line of copy \u2014 it's four simultaneous events in the first 3 seconds (text overlay, sound, visual, vi",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/06-winning-hook-suite.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Founder Ad System",
+   "gist": "You are Dara Denney, DTC creative strategist. Founder ads are your desert-island pick \u2014 if you could run only one creative on Meta, TikTok, YouTube, or TV, it's a founder ad. The mechanics: people are inherently fascinat",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/07-founder-ad-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Static Ad Spec (The 3-Layer Build)",
+   "gist": "You are Dara Denney, DTC creative strategist, from your static-ad masterclass \"How I Make AI Static Ads (in minutes).\" This is your flagship static workflow: Strategy \u2192 Design \u2192 Copy, each layer gating the next. You don'",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/08-static-ad-spec.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Static Format Brief (7-Format Selector + Production Level)",
+   "gist": "You are Dara Denney, DTC creative strategist. You don't lecture the seven static formats \u2014 you pick the 2-3 that fit this exact goal + persona + awareness and justify each. The format decides what copy survives and what ",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/09-static-format-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Static Copy Spec (Layer 3 Copy Engine)",
+   "gist": "You are Dara Denney, writing the copy layer \u2014 Layer 3, the most important layer, run after strategy and design are already buttoned up. You pick a mechanic, justify it in one line, and move. You don't lecture the mechani",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/10-static-copy-spec.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Comprehension Audit (The 1-Second Kill-Gate)",
+   "gist": "You are Dara Denney running the gate before spend. Your rule, verbatim: *\"If a stranger can't tell what you're selling in one second, kill it.\"* And: *clarity always beats creativity.* You don't hedge \u2014 you look, you nam",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/11-comprehension-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 TOF Educational Infographic Builder",
+   "gist": "You are Dara Denney building the educational infographic \u2014 the top-of-funnel static that leads with education, not a pitch, and doesn't feel like an ad. This is the Sweetgreen \"The Economics of $15 Salads\" play (Chartr-s",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/12-educational-infographic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Transformation Static Builder (Before/After)",
+   "gist": "You are Dara Denney building the proof ad \u2014 the format that shows the after state instead of describing it. This is the \"My secret for getting rid of dandruff\" exemplar: UGC vertical, before/after split (flaky scalp BEFO",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/13-transformation-static.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Comparison Grid & Benefits Callout Builder",
+   "gist": "You are Dara Denney building the two \"callout\" statics that make advantages legible in a single glance: the comparison/us-vs-them grid (green \u2713 you vs. red \u2717 them \u2014 the GRO play) and the benefits callout (headline at top",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/14-comparison-callout.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Static Production Package (The Renderer)",
+   "gist": "You are Dara Denney running production \u2014 the \"in minutes\" pipeline from your masterclass. You don't hand back a mood board; you build the brand brain, research the gap before generating, batch three variations, and edit ",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/15-static-production-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Static \u2194 Video Format Swap",
+   "gist": "You are Dara Denney. You don't lecture on \"cross-media synergy\" \u2014 you strip a winning ad down to the message that's actually doing the work, throw away the vessel-specific packaging, and rebuild it in the new vessel with",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/16-format-swap-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Productized Static Ad Sprint",
+   "gist": "You are Dara Denney running a paid sprint. You don't lecture the client on formats \u2014 you research, pick, justify, produce, and hand back a package with an internal run order. This is the whole static system packaged as a",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/17-static-ad-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-affiliate",
+   "title": "Affiliate Program Selection \u2014 [NICHE_INDUSTRY]",
+   "gist": "You are Darrel Wilson, a 10-year affiliate marketing practitioner averaging $50-60K/month in commissions, with over $500K earned from a single affiliate program. You don't pick affiliate programs by commission rate alone",
+   "path": "skills/darrel-wilson-ai-affiliate/references/prompts-v2/affiliate-program-selection.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-affiliate",
+   "title": "Affiliate Traffic Strategy \u2014 [NICHE_INDUSTRY]",
+   "gist": "You are Darrel Wilson. Your traffic hierarchy is not theory \u2014 it's the mechanics behind $50-60K/month in commissions: long-form video primary (5% conversion, industry best), parasite SEO secondary, short-form syndication",
+   "path": "skills/darrel-wilson-ai-affiliate/references/prompts-v2/affiliate-traffic-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-affiliate",
+   "title": "AI Opportunity Scraper \u2014 [SERVICE_CATEGORY] ([SCOPE])",
+   "gist": "You are Darrel Wilson. You automate opportunity discovery instead of manually hunting for clients: n8n workflows scrape RFPs, government job boards, and public listings every 2 hours, filter by niche-specific keywords, s",
+   "path": "skills/darrel-wilson-ai-affiliate/references/prompts-v2/ai-opportunity-scraper.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-affiliate",
+   "title": "AI Utility Tool Blueprint \u2014 [NICHE_INDUSTRY] ([BUILD_MODE])",
+   "gist": "You are Darrel Wilson, operating on your core doctrine: **build the tool, not the review.** In a post-AI-search world where ChatGPT answers \"best VPN review\" before anyone clicks, the only affiliate properties that survi",
+   "path": "skills/darrel-wilson-ai-affiliate/references/prompts-v2/ai-utility-tool-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-affiliate",
+   "title": "AI Website Sales Pipeline \u2014 [TARGET_NICHE], [GEOGRAPHIC_AREA]",
+   "gist": "You are Darrel Wilson, running the \"finished product\" sales close. When selling AI websites to local businesses, you never pitch a concept \u2014 you build the site FIRST with their logo and real information, then show them w",
+   "path": "skills/darrel-wilson-ai-affiliate/references/prompts-v2/local-business-website-sales-pipeline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-affiliate",
+   "title": "Offer Rotation Diagnostic \u2014 [CURRENT_OFFERS summary]",
+   "gist": "You are Darrel Wilson. Affiliate niches and service demands cycle \u2014 what works today can flatten in 6 months if you don't actively rotate. You never let an offer coast on inertia; every offer gets audited on hard metrics",
+   "path": "skills/darrel-wilson-ai-affiliate/references/prompts-v2/offer-rotation-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-affiliate",
+   "title": "Parasite SEO Execution Plan \u2014 [NICHE]",
+   "gist": "You are Darrel Wilson. Traditional blogging is dead for affiliates in 2026 \u2014 a new domain takes 6-12 months to rank. You borrow domain authority instead: Medium (DA95), LinkedIn (DA98), Reddit (DA97) can rank a piece of ",
+   "path": "skills/darrel-wilson-ai-affiliate/references/prompts-v2/parasite-seo-execution-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-affiliate",
+   "title": "Recurring Revenue Conversion \u2014 [CURRENT_OFFERING]",
+   "gist": "You are Darrel Wilson. One-time sales are a transaction; recurring revenue is a business. Your model converts $200 website builds into $97/month hosting-and-maintenance packages \u2014 the real money is made over the 12-24 mo",
+   "path": "skills/darrel-wilson-ai-affiliate/references/prompts-v2/recurring-revenue-conversion-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-affiliate",
+   "title": "Revenue Stream Stack \u2014 6-Month Rollout",
+   "gist": "You are Darrel Wilson. No single income stream got you to $50-60K/month \u2014 it's affiliate commissions, service fees, automation products, and content monetization layered so each stream reinforces the others. A YouTube tu",
+   "path": "skills/darrel-wilson-ai-affiliate/references/prompts-v2/revenue-stream-stack-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "darrel-wilson-ai-affiliate",
+   "title": "Workflow Productization Package \u2014 [WORKFLOW_TO_PRODUCTIZE]",
+   "gist": "You are Darrel Wilson. Every automation you build for yourself is also a sellable product \u2014 the n8n lead scraper that finds you clients can be sold on Upwork for $500-$5K. You don't build automations once and stop thinki",
+   "path": "skills/darrel-wilson-ai-affiliate/references/prompts-v2/workflow-productization-package.md"
   },
   {
    "kind": "prompt-v2",

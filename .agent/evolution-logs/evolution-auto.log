@@ -813,3 +813,114 @@
     }
   ]
 }
+{
+  "run_at": "2026-07-12T07:07:41.707281",
+  "ran": [
+    {
+      "daily": {
+        "cycle": "daily",
+        "report_path": "/Users/farricecain/Google Antigravity/evolution_store/traces/daily_evolution_2026-07-12.md",
+        "traces_24h": 2,
+        "routing_decisions_24h": 2,
+        "queued_phase2": 3,
+        "queued_binding_reviews": 0,
+        "auto_evolve_eligible": 0,
+        "human_review_required": 3,
+        "routing_learning": {
+          "cycle": "routing_learning",
+          "nudged": {
+            "satori-graphics": 1.16,
+            "supercomputer": 0.55,
+            "jason-fladlien-marketing": 0.89,
+            "nate-b-jones-orchestration-intelligence": 0.89,
+            "claim-safe-health-marketing": 1.0,
+            "design-md": 0.5,
+            "nate-b-jones-auto-improvement-loops": 0.84,
+            "self-evolving-systems": 0.74,
+            "chief-of-staff-os": 1.06,
+            "brand-operating-system": 0.59,
+            "david-placek-naming": 0.5,
+            "seena-rez-tiktok-commerce": 1.16,
+            "paul-harding-lyric-prose": 1.11,
+            "mark-kashef-agent-orchestration": 1.11,
+            "writing-depth-layer": 1.11,
+            "darrel-wilson-ai-monetization": 0.89,
+            "darrel-wilson-ai-affiliate": 0.89,
+            "dara-denney-meta-ads": 1.46,
+            "extract-mastery": 0.91,
+            "nate-b-jones-context-engineering": 0.69,
+            "doc-coauthoring": 0.64,
+            "donald-miller-cognitive-load": 1.08,
+            "higgsfield-creative-studio": 0.95,
+            "luke-iha-unaware-ads": 0.95,
+            "marketing-studio-director": 0.95,
+            "nate-b-jones-intent-engineering": 0.95,
+            "wright-thompson-mastery": 0.95,
+            "cardinal-mason-ai-copywriting": 1.05,
+            "voice-os": 0.75,
+            "daniel-priestley-oversubscribed": 0.95,
+            "tom-noske-personal-brand": 1.05,
+            "stefan-georgi-dopamine-copy": 0.95,
+            "ai-chris-lee-zero-testimonial-sales": 0.95,
+            "omar-eddaoudi-premium-ads": 1.05,
+            "marc-andreessen-ai-thesis": 1.05,
+            "lance-yichao-context-engineering": 0.95,
+            "jeremy-miner-identity-persuasion": 0.95,
+            "michael-bernoff-identity-engineering": 1.05,
+            "corey-mcclain-persona-engineering": 0.9,
+            "pj-accetturo-ai-video": 1.05,
+            "omar-eddaoudi-scaling-ops": 0.95,
+            "ben-watkins-storytelling": 1.06
+          },
+          "candidates_appended": 0,
+          "quality_finalizes_counted": 1,
+          "router_report_card_backstop": {
+            "written": false,
+            "reason": "fresh",
+            "age_hours": 72.1
+          }
+        }
+      },
+      "catchup": true,
+      "hours_since_last_run": 44.5
+    }
+  ],
+  "skipped": [
+    {
+      "cycle": "weekly",
+      "last_run": "2026-07-09T07:00:05.025778",
+      "reason": "not_due_yet",
+      "days_remaining": 3.99
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-07-10T07:00:05.446528",
+      "reason": "not_due_yet",
+      "days_remaining": 27.99
+    }
+  ]
+}
+{
+  "run_at": "2026-07-13T07:06:35.790033",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-07-12T07:07:41.965641",
+      "reason": "not_due_yet",
+      "days_remaining": 0.0
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-07-09T07:00:05.025778",
+      "reason": "not_due_yet",
+      "days_remaining": 3.0
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-07-10T07:00:05.446528",
+      "reason": "not_due_yet",
+      "days_remaining": 27.0
+    }
+  ]
+}

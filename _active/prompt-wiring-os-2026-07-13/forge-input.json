@@ -1,406 +1,396 @@
 {
  "standard": "born-v2 (directives/prompt-forging-spec.md)",
  "total_skills": 25,
- "remaining_after_wave": 212,
+ "remaining_after_wave": 187,
  "skills": [
   {
-   "skill": "ai-carousel-content-engine",
-   "skill_md": "skills/ai-carousel-content-engine/SKILL.md",
-   "genius_md": "skills/ai-carousel-content-engine/genius.md",
+   "skill": "chase-hughes-conversational-influence",
+   "skill_md": "skills/chase-hughes-conversational-influence/SKILL.md",
+   "genius_md": "skills/chase-hughes-conversational-influence/genius.md",
    "workflows": [
-    "skills/ai-carousel-content-engine/workflows/01-ai-carousel-engine.md",
-    "skills/ai-carousel-content-engine/workflows/02-article-to-carousel.md",
-    "skills/ai-carousel-content-engine/workflows/03-carousel-copy-forge.md",
-    "skills/ai-carousel-content-engine/workflows/04-carousel-design-prompt.md",
-    "skills/ai-carousel-content-engine/workflows/05-carousel-style-match.md",
-    "skills/ai-carousel-content-engine/workflows/06-carousel-review.md",
-    "skills/ai-carousel-content-engine/workflows/07-carousel-publish-pack.md"
+    "skills/chase-hughes-conversational-influence/workflows/hughes-archetype-prime.md",
+    "skills/chase-hughes-conversational-influence/workflows/hughes-camera-angle.md",
+    "skills/chase-hughes-conversational-influence/workflows/hughes-empathy-ladder.md",
+    "skills/chase-hughes-conversational-influence/workflows/hughes-feel-clever.md",
+    "skills/chase-hughes-conversational-influence/workflows/hughes-influence-audit.md",
+    "skills/chase-hughes-conversational-influence/workflows/hughes-two-ideas-detector.md"
    ],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "alan-aragon-nutrition",
-   "skill_md": "skills/alan-aragon-nutrition/SKILL.md",
-   "genius_md": "skills/alan-aragon-nutrition/genius.md",
+   "skill": "cheri-tree-bank-buyology",
+   "skill_md": "skills/cheri-tree-bank-buyology/SKILL.md",
+   "genius_md": "skills/cheri-tree-bank-buyology/genius.md",
    "workflows": [
-    "skills/alan-aragon-nutrition/workflows/01-build-transformation-program.md",
-    "skills/alan-aragon-nutrition/workflows/02-bust-nutrition-claim.md",
-    "skills/alan-aragon-nutrition/workflows/03-rescue-stalled-progress.md"
+    "skills/cheri-tree-bank-buyology/workflows/01-code-intake-self-assessment.md",
+    "skills/cheri-tree-bank-buyology/workflows/02-prospect-code-cracker.md",
+    "skills/cheri-tree-bank-buyology/workflows/03-forensic-profile-from-social-and-copy.md",
+    "skills/cheri-tree-bank-buyology/workflows/04-code-based-icp-avatar-generator.md",
+    "skills/cheri-tree-bank-buyology/workflows/05-bank-lead-magnet-generator.md",
+    "skills/cheri-tree-bank-buyology/workflows/06-segmented-funnel-landing-page-generator.md",
+    "skills/cheri-tree-bank-buyology/workflows/07-power-script-generator.md",
+    "skills/cheri-tree-bank-buyology/workflows/08-email-dm-sequence-generator.md",
+    "skills/cheri-tree-bank-buyology/workflows/09-social-content-generator-by-code.md",
+    "skills/cheri-tree-bank-buyology/workflows/10-sales-call-prep-objection-handling.md",
+    "skills/cheri-tree-bank-buyology/workflows/11-crm-segmentation-playbook.md",
+    "skills/cheri-tree-bank-buyology/workflows/12-business-asset-deployment-planner.md"
    ],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "alex-content-science",
-   "skill_md": "skills/alex-content-science/SKILL.md",
-   "genius_md": "skills/alex-content-science/genius.md",
+   "skill": "chief-of-staff-os",
+   "skill_md": "skills/chief-of-staff-os/SKILL.md",
+   "genius_md": "skills/chief-of-staff-os/genius.md",
    "workflows": [
-    "skills/alex-content-science/workflows/01-detail-stack-breakdown.md",
-    "skills/alex-content-science/workflows/02-principle-extraction-engine.md",
-    "skills/alex-content-science/workflows/03-content-remix-lab.md",
-    "skills/alex-content-science/workflows/04-sheep-cycle-diagnostic.md",
-    "skills/alex-content-science/workflows/05-cross-niche-format-scanner.md",
-    "skills/alex-content-science/workflows/06-analogy-engineering.md",
-    "skills/alex-content-science/workflows/07-competitor-intel-system.md"
+    "skills/chief-of-staff-os/workflows/cos-daily.md",
+    "skills/chief-of-staff-os/workflows/cos-dump.md",
+    "skills/chief-of-staff-os/workflows/cos-status.md",
+    "skills/chief-of-staff-os/workflows/cos-weekly.md"
    ],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "alex-hormozi-business",
-   "skill_md": "skills/alex-hormozi-business/SKILL.md",
-   "genius_md": "skills/alex-hormozi-business/genius.md",
+   "skill": "chris-cimorelli-copywriting",
+   "skill_md": "skills/chris-cimorelli-copywriting/SKILL.md",
+   "genius_md": "skills/chris-cimorelli-copywriting/genius.md",
    "workflows": [
-    "skills/alex-hormozi-business/workflows/01-engineer-money-model.md",
-    "skills/alex-hormozi-business/workflows/02-architect-grand-slam-offer.md",
-    "skills/alex-hormozi-business/workflows/03-force-strategic-focus.md"
+    "skills/chris-cimorelli-copywriting/workflows/01-front-end-promotion.md",
+    "skills/chris-cimorelli-copywriting/workflows/01-front-end-promotion.v1-backup.md",
+    "skills/chris-cimorelli-copywriting/workflows/01-front-end-promotion.variant.md",
+    "skills/chris-cimorelli-copywriting/workflows/02-back-end-promotion.md",
+    "skills/chris-cimorelli-copywriting/workflows/03-copy-diagnostic.md"
    ],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "alex-m-smith-natural-strategy",
-   "skill_md": "skills/alex-m-smith-natural-strategy/SKILL.md",
-   "genius_md": "skills/alex-m-smith-natural-strategy/genius.md",
+   "skill": "chris-do-design-business",
+   "skill_md": "skills/chris-do-design-business/SKILL.md",
+   "genius_md": "skills/chris-do-design-business/genius.md",
    "workflows": [
-    "skills/alex-m-smith-natural-strategy/workflows/01-natural-strategist-audit.md",
-    "skills/alex-m-smith-natural-strategy/workflows/02-sacred-truth-inventory.md",
-    "skills/alex-m-smith-natural-strategy/workflows/03-supply-side-audit.md",
-    "skills/alex-m-smith-natural-strategy/workflows/04-big-fat-thing.md",
-    "skills/alex-m-smith-natural-strategy/workflows/05-value-creation-audit.md"
+    "skills/chris-do-design-business/workflows/01-position-and-price-premium.md",
+    "skills/chris-do-design-business/workflows/02-run-kind-sales-call.md",
+    "skills/chris-do-design-business/workflows/03-build-personal-brand-engine.md"
    ],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "alex-myatt-creative-engine",
-   "skill_md": "skills/alex-myatt-creative-engine/SKILL.md",
-   "genius_md": "skills/alex-myatt-creative-engine/genius.md",
+   "skill": "cinematic-documentary",
+   "skill_md": "skills/cinematic-documentary/SKILL.md",
+   "genius_md": "skills/cinematic-documentary/genius.md",
    "workflows": [
-    "skills/alex-myatt-creative-engine/workflows/01-ces-creative-engine.md",
-    "skills/alex-myatt-creative-engine/workflows/02-content-grid-build.md",
-    "skills/alex-myatt-creative-engine/workflows/03-andromeda-diversification-audit.md",
-    "skills/alex-myatt-creative-engine/workflows/04-ivoc-mining-sprint.md",
-    "skills/alex-myatt-creative-engine/workflows/05-vacation-test-batch-review.md",
-    "skills/alex-myatt-creative-engine/workflows/06-five-step-wealth-decomposition.md",
-    "skills/alex-myatt-creative-engine/workflows/07-care-square-client-audit.md",
-    "skills/alex-myatt-creative-engine/workflows/08-land-and-expand-pitch.md",
-    "skills/alex-myatt-creative-engine/workflows/09-three-s-calendar-audit.md",
-    "skills/alex-myatt-creative-engine/workflows/10-myatt-x-luke-iha-strategy-to-execution.md",
-    "skills/alex-myatt-creative-engine/workflows/11-myatt-x-vicious-hooks-diversity-multiplied.md",
-    "skills/alex-myatt-creative-engine/workflows/12-myatt-x-saraev-ai-augmented-ces.md"
+    "skills/cinematic-documentary/workflows/bond-cold-open.md",
+    "skills/cinematic-documentary/workflows/character-arc-series.md",
+    "skills/cinematic-documentary/workflows/character-first-inversion.md",
+    "skills/cinematic-documentary/workflows/cinematic-brand-story.md",
+    "skills/cinematic-documentary/workflows/documentary-hook.md",
+    "skills/cinematic-documentary/workflows/editing-to-truth.md",
+    "skills/cinematic-documentary/workflows/emotion-over-information.md",
+    "skills/cinematic-documentary/workflows/false-victory-architecture.md",
+    "skills/cinematic-documentary/workflows/gelb-audit.md",
+    "skills/cinematic-documentary/workflows/interview-to-story.md",
+    "skills/cinematic-documentary/workflows/origin-story-excavation.md",
+    "skills/cinematic-documentary/workflows/sensory-storytelling.md",
+    "skills/cinematic-documentary/workflows/want-vs-need-mapper.md"
    ],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "alex-suzuki-digital-product-revenue-os",
-   "skill_md": "skills/alex-suzuki-digital-product-revenue-os/SKILL.md",
-   "genius_md": "skills/alex-suzuki-digital-product-revenue-os/genius.md",
+   "skill": "claim-safe-health-marketing",
+   "skill_md": "skills/claim-safe-health-marketing/SKILL.md",
+   "genius_md": "skills/claim-safe-health-marketing/genius.md",
    "workflows": [
-    "skills/alex-suzuki-digital-product-revenue-os/workflows/01-revenue-os-orchestrator.md",
-    "skills/alex-suzuki-digital-product-revenue-os/workflows/02-tweet-to-sale-engine.md",
-    "skills/alex-suzuki-digital-product-revenue-os/workflows/03-product-funnel-builder.md",
-    "skills/alex-suzuki-digital-product-revenue-os/workflows/04-cross-platform-launch-adapter.md",
-    "skills/alex-suzuki-digital-product-revenue-os/workflows/05-launch-debugger.md",
-    "skills/alex-suzuki-digital-product-revenue-os/workflows/06-proof-and-authority-bank.md",
-    "skills/alex-suzuki-digital-product-revenue-os/workflows/07-digital-product-sprint.md",
-    "skills/alex-suzuki-digital-product-revenue-os/workflows/08-audience-quality-router.md",
-    "skills/alex-suzuki-digital-product-revenue-os/workflows/09-comment-dm-conversion-system.md",
-    "skills/alex-suzuki-digital-product-revenue-os/workflows/10-behavior-proof-lab.md",
-    "skills/alex-suzuki-digital-product-revenue-os/workflows/11-post-engineering-lab.md",
-    "skills/alex-suzuki-digital-product-revenue-os/workflows/12-platform-revenue-engine.md",
-    "skills/alex-suzuki-digital-product-revenue-os/workflows/13-portfolio-scale-engine.md",
-    "skills/alex-suzuki-digital-product-revenue-os/workflows/14-product-offer-sourcing.md",
-    "skills/alex-suzuki-digital-product-revenue-os/workflows/15-automation-engine.md",
-    "skills/alex-suzuki-digital-product-revenue-os/workflows/16-flash-launch.md",
-    "skills/alex-suzuki-digital-product-revenue-os/workflows/17-coldstart-revenue-engine.md"
+    "skills/claim-safe-health-marketing/workflows/01-claim-audit.md",
+    "skills/claim-safe-health-marketing/workflows/02-compliant-rewrite.md",
+    "skills/claim-safe-health-marketing/workflows/03-claim-substantiation-map.md",
+    "skills/claim-safe-health-marketing/workflows/04-pre-launch-compliance-gate.md",
+    "skills/claim-safe-health-marketing/workflows/05-claim-safe-hooks.md"
    ],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "algorithmic-art",
-   "skill_md": "skills/algorithmic-art/SKILL.md",
+   "skill": "coaching-business-os",
+   "skill_md": "skills/coaching-business-os/SKILL.md",
+   "genius_md": "skills/coaching-business-os/genius.md",
+   "workflows": [
+    "skills/coaching-business-os/workflows/01-diagnose-and-route-business-need.md",
+    "skills/coaching-business-os/workflows/02-design-coaching-offer-stack.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "cognitive-engagement-optimizer",
+   "skill_md": "skills/cognitive-engagement-optimizer/SKILL.md",
+   "genius_md": "skills/cognitive-engagement-optimizer/genius.md",
+   "workflows": [
+    "skills/cognitive-engagement-optimizer/workflows/01-decode-engagement-patterns.md",
+    "skills/cognitive-engagement-optimizer/workflows/02-engineer-engagement-drivers.md",
+    "skills/cognitive-engagement-optimizer/workflows/03-optimize-performance-platform.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "consumer-posture-research",
+   "skill_md": "skills/consumer-posture-research/SKILL.md",
    "genius_md": null,
    "workflows": [],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "andrew-dun-vibe-consulting",
-   "skill_md": "skills/andrew-dun-vibe-consulting/SKILL.md",
-   "genius_md": "skills/andrew-dun-vibe-consulting/genius.md",
+   "skill": "context-profile-architect",
+   "skill_md": "skills/context-profile-architect/SKILL.md",
+   "genius_md": "skills/context-profile-architect/genius.md",
    "workflows": [
-    "skills/andrew-dun-vibe-consulting/workflows/01-diagnostic-discovery-sprint.md",
-    "skills/andrew-dun-vibe-consulting/workflows/02-process-mapping-engine.md",
-    "skills/andrew-dun-vibe-consulting/workflows/03-roi-quantification-calculator.md",
-    "skills/andrew-dun-vibe-consulting/workflows/04-opportunity-matrix-builder.md",
-    "skills/andrew-dun-vibe-consulting/workflows/05-diagnostic-presentation-architect.md",
-    "skills/andrew-dun-vibe-consulting/workflows/06-implementation-partnership-blueprint.md",
-    "skills/andrew-dun-vibe-consulting/workflows/07-change-management-playbook.md",
-    "skills/andrew-dun-vibe-consulting/workflows/08-advisory-retainer-builder.md",
-    "skills/andrew-dun-vibe-consulting/workflows/09-first-client-engine.md",
-    "skills/andrew-dun-vibe-consulting/workflows/10-consulting-to-saas.md",
-    "skills/andrew-dun-vibe-consulting/workflows/11-industry-vertical-playbook.md",
-    "skills/andrew-dun-vibe-consulting/workflows/12-proposal-sow-architect.md",
-    "skills/andrew-dun-vibe-consulting/workflows/13-ai-readiness-scorecard.md",
-    "skills/andrew-dun-vibe-consulting/workflows/14-consulting-pipeline-dashboard.md",
-    "skills/andrew-dun-vibe-consulting/workflows/15-value-demonstration-engine.md"
+    "skills/context-profile-architect/workflows/01-architect-context-profile.md",
+    "skills/context-profile-architect/workflows/02-excavate-psychological-layers.md",
+    "skills/context-profile-architect/workflows/03-evolve-profile-version.md"
    ],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "andrew-lane-design-systems",
-   "skill_md": "skills/andrew-lane-design-systems/SKILL.md",
-   "genius_md": "skills/andrew-lane-design-systems/genius.md",
+   "skill": "corey-mcclain-persona-engineering",
+   "skill_md": "skills/corey-mcclain-persona-engineering/SKILL.md",
+   "genius_md": "skills/corey-mcclain-persona-engineering/genius.md",
    "workflows": [
-    "skills/andrew-lane-design-systems/workflows/01-build-vibe-foundation.md",
-    "skills/andrew-lane-design-systems/workflows/02-extract-brand-layers.md",
-    "skills/andrew-lane-design-systems/workflows/03-split-brand-decisions.md"
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-agent-assemble.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-agent-evolve.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-agent-stress-test.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-backstory-engine.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-dai-audience-persona.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-expertise-distill.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-identity-excavate.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-llmp-architect.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-makoshi-capture.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-nate-full-agent.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-oren-taste-persona.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-persona-audit.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-persona-forge.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-persona-from-source.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-skill-architect.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-source-to-agent.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-steady-state-install.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-transistory-install.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-voice-texture.md",
+    "skills/corey-mcclain-persona-engineering/workflows/mcclain-worldview-container.md"
    ],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "andrew-stanton-audience-engineering",
-   "skill_md": "skills/andrew-stanton-audience-engineering/SKILL.md",
-   "genius_md": "skills/andrew-stanton-audience-engineering/genius.md",
+   "skill": "craig-clemens-copywriting",
+   "skill_md": "skills/craig-clemens-copywriting/SKILL.md",
+   "genius_md": "skills/craig-clemens-copywriting/genius.md",
    "workflows": [
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-30sec-arc.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-anticipation-uncertainty.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-brain-trust.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-brand-origin.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-change-engine.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-clamp-audit.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-dialogue-aloud.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-entertainment-filter.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-fit-the-dinosaur.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-invoke-wonder.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-just-write-the-sentence.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-opposites-engine.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-premise-sentence.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-produce.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-root-not-symptom.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-sales-arc.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-series-escalation.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-spine.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-surprising-inevitable.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-telling-over-content.md",
-    "skills/andrew-stanton-audience-engineering/workflows/stanton-uncover-dont-invent.md"
+    "skills/craig-clemens-copywriting/workflows/01-write-education-first-sales-copy.md",
+    "skills/craig-clemens-copywriting/workflows/02-build-email-nurture-sequence.md",
+    "skills/craig-clemens-copywriting/workflows/03-architect-funnel-and-positioning.md",
+    "skills/craig-clemens-copywriting/workflows/04-engineer-human-hijack-campaign.md",
+    "skills/craig-clemens-copywriting/workflows/05-run-bullet-forge.md",
+    "skills/craig-clemens-copywriting/workflows/06-diagnose-market-stage-and-rewrite-plan.md"
    ],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "andy-galpin-training-intelligence",
-   "skill_md": "skills/andy-galpin-training-intelligence/SKILL.md",
-   "genius_md": "skills/andy-galpin-training-intelligence/genius.md",
+   "skill": "creative-campaign-strategy",
+   "skill_md": "skills/creative-campaign-strategy/SKILL.md",
+   "genius_md": "skills/creative-campaign-strategy/genius.md",
    "workflows": [
-    "skills/andy-galpin-training-intelligence/workflows/01-diagnose-limiter-program.md",
-    "skills/andy-galpin-training-intelligence/workflows/02-rehab-return-to-performance.md",
-    "skills/andy-galpin-training-intelligence/workflows/03-holistic-program-consult.md",
-    "skills/andy-galpin-training-intelligence/workflows/04-strength-power-hypertrophy-program.md"
+    "skills/creative-campaign-strategy/workflows/lynch-brief-audit.md",
+    "skills/creative-campaign-strategy/workflows/lynch-campaign-ecosystem.md",
+    "skills/creative-campaign-strategy/workflows/lynch-counter-identity.md",
+    "skills/creative-campaign-strategy/workflows/lynch-creative-brief.md",
+    "skills/creative-campaign-strategy/workflows/lynch-customer-media.md",
+    "skills/creative-campaign-strategy/workflows/lynch-customer-voice-mine.md",
+    "skills/creative-campaign-strategy/workflows/lynch-deal-structure.md",
+    "skills/creative-campaign-strategy/workflows/lynch-discovery-protocol.md",
+    "skills/creative-campaign-strategy/workflows/lynch-drtv-vsl.md",
+    "skills/creative-campaign-strategy/workflows/lynch-identity-campaign.md",
+    "skills/creative-campaign-strategy/workflows/lynch-identity-posture.md",
+    "skills/creative-campaign-strategy/workflows/lynch-media-match.md",
+    "skills/creative-campaign-strategy/workflows/lynch-modular-script.md",
+    "skills/creative-campaign-strategy/workflows/lynch-perception-identity.md",
+    "skills/creative-campaign-strategy/workflows/lynch-product-prequalify.md",
+    "skills/creative-campaign-strategy/workflows/lynch-strategist-career.md",
+    "skills/creative-campaign-strategy/workflows/lynch-transformation-sell.md"
    ],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "ash-maurya-founder-systems",
-   "skill_md": "skills/ash-maurya-founder-systems/SKILL.md",
-   "genius_md": "skills/ash-maurya-founder-systems/genius.md",
-   "workflows": [
-    "skills/ash-maurya-founder-systems/workflows/01-lean-canvas-diagnostic.md",
-    "skills/ash-maurya-founder-systems/workflows/02-problem-first-validation.md",
-    "skills/ash-maurya-founder-systems/workflows/03-business-model-risk-map.md",
-    "skills/ash-maurya-founder-systems/workflows/04-traction-first-roadmap.md",
-    "skills/ash-maurya-founder-systems/workflows/05-demo-sell-build-sprint.md",
-    "skills/ash-maurya-founder-systems/workflows/06-customer-interview-design.md",
-    "skills/ash-maurya-founder-systems/workflows/07-learning-velocity-scorecard.md",
-    "skills/ash-maurya-founder-systems/workflows/08-offer-assumption-test.md",
-    "skills/ash-maurya-founder-systems/workflows/09-founder-systems-war-room.md",
-    "skills/ash-maurya-founder-systems/workflows/10-productized-service-validation.md",
-    "skills/ash-maurya-founder-systems/workflows/11-dan-martell-scale-handshake.md",
-    "skills/ash-maurya-founder-systems/workflows/12-daniel-priestley-asset-handshake.md",
-    "skills/ash-maurya-founder-systems/workflows/13-buying-insight-interview.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "ash-maurya-lean-metrics",
-   "skill_md": "skills/ash-maurya-lean-metrics/SKILL.md",
-   "genius_md": "skills/ash-maurya-lean-metrics/genius.md",
-   "workflows": [
-    "skills/ash-maurya-lean-metrics/workflows/01-find-traction-metric.md",
-    "skills/ash-maurya-lean-metrics/workflows/02-validate-business-model.md",
-    "skills/ash-maurya-lean-metrics/workflows/03-design-unfair-advantage.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "attention-hijack-hooks",
-   "skill_md": "skills/attention-hijack-hooks/SKILL.md",
-   "genius_md": "skills/attention-hijack-hooks/genius.md",
-   "workflows": [
-    "skills/attention-hijack-hooks/workflows/01-signal-anchor-scan.md",
-    "skills/attention-hijack-hooks/workflows/02-hookable-elements-extractor.md",
-    "skills/attention-hijack-hooks/workflows/03-four-format-hook-generator.md",
-    "skills/attention-hijack-hooks/workflows/04-platform-fit-gate.md",
-    "skills/attention-hijack-hooks/workflows/05-content-bridge.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "ben-watkins-storytelling",
-   "skill_md": "skills/ben-watkins-storytelling/SKILL.md",
-   "genius_md": "skills/ben-watkins-storytelling/genius.md",
-   "workflows": [
-    "skills/ben-watkins-storytelling/workflows/bw-anatomy-audit.md",
-    "skills/ben-watkins-storytelling/workflows/bw-audience-as-character.md",
-    "skills/ben-watkins-storytelling/workflows/bw-brand-world.md",
-    "skills/ben-watkins-storytelling/workflows/bw-but-therefore.md",
-    "skills/ben-watkins-storytelling/workflows/bw-call-by-name.md",
-    "skills/ben-watkins-storytelling/workflows/bw-character-canvas.md",
-    "skills/ben-watkins-storytelling/workflows/bw-dream-anatomy.md",
-    "skills/ben-watkins-storytelling/workflows/bw-elevate.md",
-    "skills/ben-watkins-storytelling/workflows/bw-hook-forge.md",
-    "skills/ben-watkins-storytelling/workflows/bw-log-line.md",
-    "skills/ben-watkins-storytelling/workflows/bw-north-star.md",
-    "skills/ben-watkins-storytelling/workflows/bw-pitch-room.md",
-    "skills/ben-watkins-storytelling/workflows/bw-proof-story.md",
-    "skills/ben-watkins-storytelling/workflows/bw-spoken-story.md",
-    "skills/ben-watkins-storytelling/workflows/bw-story-anatomy.md",
-    "skills/ben-watkins-storytelling/workflows/bw-story-selling-system.md",
-    "skills/ben-watkins-storytelling/workflows/bw-subtraction.md",
-    "skills/ben-watkins-storytelling/workflows/bw-three-c.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "benjamin-hardy-identity",
-   "skill_md": "skills/benjamin-hardy-identity/SKILL.md",
-   "genius_md": "skills/benjamin-hardy-identity/genius.md",
-   "workflows": [
-    "skills/benjamin-hardy-identity/workflows/01-architect-impossible-goal.md",
-    "skills/benjamin-hardy-identity/workflows/02-raise-the-floor.md",
-    "skills/benjamin-hardy-identity/workflows/03-operate-from-future-self.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "bill-browder-high-stakes-narrative",
-   "skill_md": "skills/bill-browder-high-stakes-narrative/SKILL.md",
-   "genius_md": "skills/bill-browder-high-stakes-narrative/genius.md",
-   "workflows": [
-    "skills/bill-browder-high-stakes-narrative/workflows/browder-cause-campaign.md",
-    "skills/bill-browder-high-stakes-narrative/workflows/browder-cliffhang-spine.md",
-    "skills/bill-browder-high-stakes-narrative/workflows/browder-dig-below-surface.md",
-    "skills/bill-browder-high-stakes-narrative/workflows/browder-drama-excavation.md",
-    "skills/bill-browder-high-stakes-narrative/workflows/browder-founder-warstory.md",
-    "skills/bill-browder-high-stakes-narrative/workflows/browder-high-stakes-vsl.md",
-    "skills/bill-browder-high-stakes-narrative/workflows/browder-investigative-content.md",
-    "skills/bill-browder-high-stakes-narrative/workflows/browder-mini-book-outliner.md",
-    "skills/bill-browder-high-stakes-narrative/workflows/browder-next-sentence-test.md",
-    "skills/bill-browder-high-stakes-narrative/workflows/browder-place-as-character.md",
-    "skills/bill-browder-high-stakes-narrative/workflows/browder-show-then-nail.md",
-    "skills/bill-browder-high-stakes-narrative/workflows/browder-stakes-architecture.md",
-    "skills/bill-browder-high-stakes-narrative/workflows/browder-villain-evidence.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "bitbranding-fashion-shopify",
-   "skill_md": "skills/bitbranding-fashion-shopify/SKILL.md",
-   "genius_md": "skills/bitbranding-fashion-shopify/genius.md",
-   "workflows": [
-    "skills/bitbranding-fashion-shopify/workflows/01-premium-reference-collection-audit.md",
-    "skills/bitbranding-fashion-shopify/workflows/02-free-stack-horizon-rebuild-plan.md",
-    "skills/bitbranding-fashion-shopify/workflows/03-fashion-product-card-optimizer.md",
-    "skills/bitbranding-fashion-shopify/workflows/04-collection-content-seo-stack.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "brad-bonanno-explainer-architecture",
-   "skill_md": "skills/brad-bonanno-explainer-architecture/SKILL.md",
-   "genius_md": "skills/brad-bonanno-explainer-architecture/genius.md",
-   "workflows": [
-    "skills/brad-bonanno-explainer-architecture/workflows/01-pause-test-audit.md",
-    "skills/brad-bonanno-explainer-architecture/workflows/02-matrix-moment-architect.md",
-    "skills/brad-bonanno-explainer-architecture/workflows/03-trust-anchor-infographic-brief.md",
-    "skills/brad-bonanno-explainer-architecture/workflows/04-compound-cliffhanger-closer.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "brand-guidelines",
-   "skill_md": "skills/brand-guidelines/SKILL.md",
-   "genius_md": null,
+   "skill": "creative-direction",
+   "skill_md": "skills/creative-direction/SKILL.md",
+   "genius_md": "skills/creative-direction/genius.md",
    "workflows": [],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "brand-operating-system",
-   "skill_md": "skills/brand-operating-system/SKILL.md",
-   "genius_md": "skills/brand-operating-system/genius.md",
+   "skill": "dakota-content-design",
+   "skill_md": "skills/dakota-content-design/SKILL.md",
+   "genius_md": "skills/dakota-content-design/genius.md",
    "workflows": [
-    "skills/brand-operating-system/workflows/01-discover.md",
-    "skills/brand-operating-system/workflows/02-foundation.md",
-    "skills/brand-operating-system/workflows/03-visual.md",
-    "skills/brand-operating-system/workflows/04-briefs.md",
-    "skills/brand-operating-system/workflows/05-marketing.md",
-    "skills/brand-operating-system/workflows/06-ai-handoff.md",
-    "skills/brand-operating-system/workflows/07-wrap.md"
+    "skills/dakota-content-design/workflows/01-design-viral-carousel.md",
+    "skills/dakota-content-design/workflows/02-write-standalone-slides.md",
+    "skills/dakota-content-design/workflows/03-audit-carousel-performance.md"
    ],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "brendan-kane-viral-strategy",
-   "skill_md": "skills/brendan-kane-viral-strategy/SKILL.md",
-   "genius_md": "skills/brendan-kane-viral-strategy/genius.md",
+   "skill": "damon-cart-nlp",
+   "skill_md": "skills/damon-cart-nlp/SKILL.md",
+   "genius_md": "skills/damon-cart-nlp/genius.md",
    "workflows": [
-    "skills/brendan-kane-viral-strategy/workflows/01-research-viral-formats.md",
-    "skills/brendan-kane-viral-strategy/workflows/02-generate-hook-driven-ideas.md",
-    "skills/brendan-kane-viral-strategy/workflows/03-engineer-viral-story.md"
+    "skills/damon-cart-nlp/workflows/01-dissolve-resistance.md",
+    "skills/damon-cart-nlp/workflows/02-transform-self-concept.md",
+    "skills/damon-cart-nlp/workflows/03-persuade-through-their-map.md"
    ],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "canvas-design",
-   "skill_md": "skills/canvas-design/SKILL.md",
-   "genius_md": null,
-   "workflows": [],
+   "skill": "dan-bolton-coaching-offers",
+   "skill_md": "skills/dan-bolton-coaching-offers/SKILL.md",
+   "genius_md": "skills/dan-bolton-coaching-offers/genius.md",
+   "workflows": [
+    "skills/dan-bolton-coaching-offers/workflows/01-redesign-coaching-offer.md",
+    "skills/dan-bolton-coaching-offers/workflows/02-build-client-infrastructure.md",
+    "skills/dan-bolton-coaching-offers/workflows/03-script-mini-vsl.md"
+   ],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "chase-hughes-context-engineering",
-   "skill_md": "skills/chase-hughes-context-engineering/SKILL.md",
-   "genius_md": "skills/chase-hughes-context-engineering/genius.md",
+   "skill": "dan-koe-ai-leverage",
+   "skill_md": "skills/dan-koe-ai-leverage/SKILL.md",
+   "genius_md": "skills/dan-koe-ai-leverage/genius.md",
    "workflows": [
-    "skills/chase-hughes-context-engineering/workflows/ce-build.md",
-    "skills/chase-hughes-context-engineering/workflows/ce-defend.md",
-    "skills/chase-hughes-context-engineering/workflows/ce-design.md",
-    "skills/chase-hughes-context-engineering/workflows/ce-followability.md",
-    "skills/chase-hughes-context-engineering/workflows/ce-honesty.md",
-    "skills/chase-hughes-context-engineering/workflows/ce-offer.md",
-    "skills/chase-hughes-context-engineering/workflows/ce-pcp.md",
-    "skills/chase-hughes-context-engineering/workflows/ce-read.md",
-    "skills/chase-hughes-context-engineering/workflows/ce-source-code.md",
-    "skills/chase-hughes-context-engineering/workflows/ce-write.md"
+    "skills/dan-koe-ai-leverage/workflows/01-knowledge-alchemy-engine.md",
+    "skills/dan-koe-ai-leverage/workflows/02-adversarial-refinement-protocol.md",
+    "skills/dan-koe-ai-leverage/workflows/03-4c-interaction-architect.md",
+    "skills/dan-koe-ai-leverage/workflows/04-gap-teaching-prompt-builder.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "dan-martell-business-scaling",
+   "skill_md": "skills/dan-martell-business-scaling/SKILL.md",
+   "genius_md": "skills/dan-martell-business-scaling/genius.md",
+   "workflows": [
+    "skills/dan-martell-business-scaling/workflows/01-irresistible-offer-architect.md",
+    "skills/dan-martell-business-scaling/workflows/02-constraint-audit.md",
+    "skills/dan-martell-business-scaling/workflows/03-buyback-audit.md",
+    "skills/dan-martell-business-scaling/workflows/04-flywheel-designer.md",
+    "skills/dan-martell-business-scaling/workflows/05-market-entry-validation.md",
+    "skills/dan-martell-business-scaling/workflows/06-product-line-razor.md",
+    "skills/dan-martell-business-scaling/workflows/07-partnership-engine.md",
+    "skills/dan-martell-business-scaling/workflows/08-standards-expectations.md",
+    "skills/dan-martell-business-scaling/workflows/09-revenue-dashboard.md",
+    "skills/dan-martell-business-scaling/workflows/10-moat-engineer.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "daniel-pink-writing-structure",
+   "skill_md": "skills/daniel-pink-writing-structure/SKILL.md",
+   "genius_md": "skills/daniel-pink-writing-structure/genius.md",
+   "workflows": [
+    "skills/daniel-pink-writing-structure/workflows/01-discover-structure.md",
+    "skills/daniel-pink-writing-structure/workflows/02-test-book-idea.md",
+    "skills/daniel-pink-writing-structure/workflows/03-engineer-reader-promise.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "daniel-priestley-24-assets-os",
+   "skill_md": "skills/daniel-priestley-24-assets-os/SKILL.md",
+   "genius_md": "skills/daniel-priestley-24-assets-os/genius.md",
+   "workflows": [
+    "skills/daniel-priestley-24-assets-os/workflows/24-assets-agent-system-design.md",
+    "skills/daniel-priestley-24-assets-os/workflows/24-assets-brand-market-builder.md",
+    "skills/daniel-priestley-24-assets-os/workflows/24-assets-build-roadmap.md",
+    "skills/daniel-priestley-24-assets-os/workflows/24-assets-business-design.md",
+    "skills/daniel-priestley-24-assets-os/workflows/24-assets-client-audit.md",
+    "skills/daniel-priestley-24-assets-os/workflows/24-assets-council-sprint.md",
+    "skills/daniel-priestley-24-assets-os/workflows/24-assets-culture-funding-builder.md",
+    "skills/daniel-priestley-24-assets-os/workflows/24-assets-heatmap-diagnostic.md",
+    "skills/daniel-priestley-24-assets-os/workflows/24-assets-ip-builder.md",
+    "skills/daniel-priestley-24-assets-os/workflows/24-assets-product-system-builder.md",
+    "skills/daniel-priestley-24-assets-os/workflows/24-assets-productized-service.md",
+    "skills/daniel-priestley-24-assets-os/workflows/24-assets-zero-finder.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "daniel-thrasher-affiliate",
+   "skill_md": "skills/daniel-thrasher-affiliate/SKILL.md",
+   "genius_md": "skills/daniel-thrasher-affiliate/genius.md",
+   "workflows": [
+    "skills/daniel-thrasher-affiliate/workflows/01-select-offer.md",
+    "skills/daniel-thrasher-affiliate/workflows/02-build-campaign.md",
+    "skills/daniel-thrasher-affiliate/workflows/03-optimize-and-scale.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "dara-denney-meta-ads",
+   "skill_md": "skills/dara-denney-meta-ads/SKILL.md",
+   "genius_md": "skills/dara-denney-meta-ads/genius.md",
+   "workflows": [
+    "skills/dara-denney-meta-ads/workflows/01-format-selection.md",
+    "skills/dara-denney-meta-ads/workflows/02-david-goliath.md",
+    "skills/dara-denney-meta-ads/workflows/03-yapper-script.md",
+    "skills/dara-denney-meta-ads/workflows/04-objection-engine.md",
+    "skills/dara-denney-meta-ads/workflows/05-test-plan.md",
+    "skills/dara-denney-meta-ads/workflows/06-winning-hooks.md",
+    "skills/dara-denney-meta-ads/workflows/07-founder-ad.md",
+    "skills/dara-denney-meta-ads/workflows/08-static-engine.md",
+    "skills/dara-denney-meta-ads/workflows/09-static-format.md",
+    "skills/dara-denney-meta-ads/workflows/10-static-copy.md",
+    "skills/dara-denney-meta-ads/workflows/11-comprehension-audit.md",
+    "skills/dara-denney-meta-ads/workflows/12-educational-infographic.md",
+    "skills/dara-denney-meta-ads/workflows/13-transformation-static.md",
+    "skills/dara-denney-meta-ads/workflows/14-comparison-callout.md",
+    "skills/dara-denney-meta-ads/workflows/15-static-production.md",
+    "skills/dara-denney-meta-ads/workflows/16-format-swap.md",
+    "skills/dara-denney-meta-ads/workflows/17-static-ad-sprint.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "darrel-wilson-ai-affiliate",
+   "skill_md": "skills/darrel-wilson-ai-affiliate/SKILL.md",
+   "genius_md": "skills/darrel-wilson-ai-affiliate/genius.md",
+   "workflows": [
+    "skills/darrel-wilson-ai-affiliate/workflows/affiliate-program-selector.md",
+    "skills/darrel-wilson-ai-affiliate/workflows/affiliate-traffic-engine.md",
+    "skills/darrel-wilson-ai-affiliate/workflows/ai-app-revenue-builder.md",
+    "skills/darrel-wilson-ai-affiliate/workflows/ai-lead-gen-system.md",
+    "skills/darrel-wilson-ai-affiliate/workflows/ai-utility-site-builder.md",
+    "skills/darrel-wilson-ai-affiliate/workflows/ai-website-sales-pipeline.md",
+    "skills/darrel-wilson-ai-affiliate/workflows/offer-cycle-rotation.md",
+    "skills/darrel-wilson-ai-affiliate/workflows/parasite-seo-playbook.md",
+    "skills/darrel-wilson-ai-affiliate/workflows/recurring-revenue-converter.md",
+    "skills/darrel-wilson-ai-affiliate/workflows/revenue-stream-stacker.md",
+    "skills/darrel-wilson-ai-affiliate/workflows/rfp-opportunity-hunter.md",
+    "skills/darrel-wilson-ai-affiliate/workflows/workflow-productizer.md"
    ],
    "archived": false,
    "existing_v2_failing": []
