@@ -37,7 +37,19 @@ Required body sections (same standard as the Renaissance, audit-enforced):
    (Exception: generative-prose prompts may carry prose *instructions* in the skeleton — never
    sample copy presented as output.)
 6. **## Quality Gate** — 3-6 checkable yes/no criteria distilled from what the expert would check.
-7. **Deploy When** — trigger scenarios.
+7. **Creative Latitude** (required for creative deliverables; optional for pure diagnostics) —
+   names exactly where the model should push beyond the skeleton: angles, voice, unexpected
+   connections, taste calls. This section is load-bearing, not decoration.
+8. **Deploy When** — trigger scenarios.
+
+**HIGH FLOOR, UNLIMITED CEILING (Farrice 2026-07-13, binding design principle):** the Output
+Contract and Skeleton are a FLOOR — they make the deliverable's shape, completeness, and honesty
+deterministic so no run ever comes back malformed, padded, or fabricated. They must NEVER cap the
+ceiling: no prompt may constrain word choice, argument, angle, or creative leaps beyond what the
+expert's own methodology demands. Quality Gate items check for floor violations (missing
+components, fabrication, genericism) — never for "followed the template exactly." A v2 prompt that
+reads like a fill-in-the-blanks form has failed this spec even if it passes the audit; a v2 prompt
+that produces remarkable, surprising work inside a reliable shape is the standard.
 
 **FIDELITY RULE (unchanged):** never invent methodology to fill gaps. Thin source → forge fewer,
 deeper prompts and/or mark `fidelity: low` and report it. A skill with 3 honest prompts beats one
