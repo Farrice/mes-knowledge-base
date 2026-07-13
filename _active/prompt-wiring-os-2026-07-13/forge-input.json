@@ -1,418 +1,385 @@
 {
  "standard": "born-v2 (directives/prompt-forging-spec.md)",
  "total_skills": 25,
- "remaining_after_wave": 62,
+ "remaining_after_wave": 37,
  "skills": [
   {
-   "skill": "nate-b-jones-context-engineering",
-   "skill_md": "skills/nate-b-jones-context-engineering/SKILL.md",
-   "genius_md": "skills/nate-b-jones-context-engineering/genius.md",
+   "skill": "persuasion-story-code",
+   "skill_md": "skills/persuasion-story-code/SKILL.md",
+   "genius_md": "skills/persuasion-story-code/genius.md",
    "workflows": [
-    "skills/nate-b-jones-context-engineering/workflows/context-bloat-diagnostic.md",
-    "skills/nate-b-jones-context-engineering/workflows/context-compression-sprint.md",
-    "skills/nate-b-jones-context-engineering/workflows/memory-crisis-strategic-intelligence.md",
-    "skills/nate-b-jones-context-engineering/workflows/semantic-context-retrieval-system.md",
-    "skills/nate-b-jones-context-engineering/workflows/sovereign-memory-architecture-blueprint.md",
-    "skills/nate-b-jones-context-engineering/workflows/tool-router-agent-blueprint.md"
+    "skills/persuasion-story-code/workflows/story-code-content-engine.md",
+    "skills/persuasion-story-code/workflows/story-code-conversational-story.md",
+    "skills/persuasion-story-code/workflows/story-code-conversion-stack.md",
+    "skills/persuasion-story-code/workflows/story-code-diagnostic.md",
+    "skills/persuasion-story-code/workflows/story-code-entrepreneur-message.md",
+    "skills/persuasion-story-code/workflows/story-code-proof-case-study.md",
+    "skills/persuasion-story-code/workflows/story-code-sales-story.md",
+    "skills/persuasion-story-code/workflows/story-code-social-stack.md",
+    "skills/persuasion-story-code/workflows/story-code-story-audit.md",
+    "skills/persuasion-story-code/workflows/story-code-story-bank.md",
+    "skills/persuasion-story-code/workflows/story-code-video-script.md",
+    "skills/persuasion-story-code/workflows/story-code-video-stack.md"
    ],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "nate-b-jones-orchestration-intelligence",
-   "skill_md": "skills/nate-b-jones-orchestration-intelligence/SKILL.md",
-   "genius_md": "skills/nate-b-jones-orchestration-intelligence/genius.md",
+   "skill": "phil-m-jones-conversational-influence",
+   "skill_md": "skills/phil-m-jones-conversational-influence/SKILL.md",
+   "genius_md": "skills/phil-m-jones-conversational-influence/genius.md",
    "workflows": [
-    "skills/nate-b-jones-orchestration-intelligence/workflows/01-orchestration-architecture-blueprint.md",
-    "skills/nate-b-jones-orchestration-intelligence/workflows/02-harness-design-audit.md",
-    "skills/nate-b-jones-orchestration-intelligence/workflows/03-domain-verifiability-mapper.md",
-    "skills/nate-b-jones-orchestration-intelligence/workflows/04-sniff-check-protocol-builder.md",
-    "skills/nate-b-jones-orchestration-intelligence/workflows/05-bloat-to-depth-optimizer.md",
-    "skills/nate-b-jones-orchestration-intelligence/workflows/06-orchestration-telemetry-feedback.md",
-    "skills/nate-b-jones-orchestration-intelligence/workflows/07-worker-isolation-merge-design.md",
-    "skills/nate-b-jones-orchestration-intelligence/workflows/bloat-to-depth-optimizer.md",
-    "skills/nate-b-jones-orchestration-intelligence/workflows/domain-verifiability-mapper.md",
-    "skills/nate-b-jones-orchestration-intelligence/workflows/harness-design-audit.md",
-    "skills/nate-b-jones-orchestration-intelligence/workflows/orchestration-architecture-blueprint.md",
-    "skills/nate-b-jones-orchestration-intelligence/workflows/sniff-check-protocol-builder.md"
+    "skills/phil-m-jones-conversational-influence/workflows/01-decision-moment-map.md",
+    "skills/phil-m-jones-conversational-influence/workflows/02-magic-words-selector.md",
+    "skills/phil-m-jones-conversational-influence/workflows/03-permission-based-opener.md",
+    "skills/phil-m-jones-conversational-influence/workflows/04-mental-picture-builder.md",
+    "skills/phil-m-jones-conversational-influence/workflows/05-objection-softener.md",
+    "skills/phil-m-jones-conversational-influence/workflows/06-maybe-to-yes-bridge.md",
+    "skills/phil-m-jones-conversational-influence/workflows/07-choice-architecture-script.md",
+    "skills/phil-m-jones-conversational-influence/workflows/08-follow-up-momentum-engine.md",
+    "skills/phil-m-jones-conversational-influence/workflows/09-confident-ask-builder.md",
+    "skills/phil-m-jones-conversational-influence/workflows/10-sales-conversation-playbook.md",
+    "skills/phil-m-jones-conversational-influence/workflows/11-conversion-copy-phrase-injector.md",
+    "skills/phil-m-jones-conversational-influence/workflows/12-belief-safe-influence-audit.md",
+    "skills/phil-m-jones-conversational-influence/workflows/13-content-hook-conversation-engine.md"
    ],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "nba-betting-edge",
-   "skill_md": "skills/nba-betting-edge/SKILL.md",
-   "genius_md": "skills/nba-betting-edge/genius.md",
-   "workflows": [
-    "skills/nba-betting-edge/workflows/bankroll-strategy-position-sizing.md",
-    "skills/nba-betting-edge/workflows/game-day-research-picks.md",
-    "skills/nba-betting-edge/workflows/performance-review-calibration.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "new-media-ghostwriting",
-   "skill_md": "skills/new-media-ghostwriting/SKILL.md",
+   "skill": "pptx",
+   "skill_md": "skills/pptx/SKILL.md",
    "genius_md": null,
+   "workflows": [],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "prediction-market-ai-event-analysis",
+   "skill_md": "skills/prediction-market-ai-event-analysis/SKILL.md",
+   "genius_md": "skills/prediction-market-ai-event-analysis/genius.md",
    "workflows": [
-    "skills/new-media-ghostwriting/workflows/01-voice-to-media-empire.md"
+    "skills/prediction-market-ai-event-analysis/workflows/edge-validation-sizing.md",
+    "skills/prediction-market-ai-event-analysis/workflows/multi-model-ensemble.md",
+    "skills/prediction-market-ai-event-analysis/workflows/odds-discrepancy-scanner.md"
    ],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "new-media-kingmaker",
-   "skill_md": "skills/new-media-kingmaker/SKILL.md",
+   "skill": "prediction-market-making",
+   "skill_md": "skills/prediction-market-making/SKILL.md",
+   "genius_md": "skills/prediction-market-making/genius.md",
+   "workflows": [
+    "skills/prediction-market-making/workflows/adverse-selection-defense.md",
+    "skills/prediction-market-making/workflows/market-selection-spread.md",
+    "skills/prediction-market-making/workflows/reward-optimization.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "prediction-market-risk-management",
+   "skill_md": "skills/prediction-market-risk-management/SKILL.md",
+   "genius_md": "skills/prediction-market-risk-management/genius.md",
+   "workflows": [
+    "skills/prediction-market-risk-management/workflows/kill-switch-protocol.md",
+    "skills/prediction-market-risk-management/workflows/portfolio-risk-audit.md",
+    "skills/prediction-market-risk-management/workflows/position-sizing.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "prediction-market-weather-trading",
+   "skill_md": "skills/prediction-market-weather-trading/SKILL.md",
+   "genius_md": "skills/prediction-market-weather-trading/genius.md",
+   "workflows": [
+    "skills/prediction-market-weather-trading/workflows/calibration-review.md",
+    "skills/prediction-market-weather-trading/workflows/market-forecast-edge.md",
+    "skills/prediction-market-weather-trading/workflows/trade-execution-plan.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "product-design-build",
+   "skill_md": "skills/product-design-build/SKILL.md",
+   "genius_md": "skills/product-design-build/genius.md",
+   "workflows": [
+    "skills/product-design-build/workflows/01-component-build.md",
+    "skills/product-design-build/workflows/02-page-build.md",
+    "skills/product-design-build/workflows/03-preview-iterate.md",
+    "skills/product-design-build/workflows/04-design-system-deploy.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "prosperity-coach-system",
+   "skill_md": "skills/prosperity-coach-system/SKILL.md",
+   "genius_md": "skills/prosperity-coach-system/genius.md",
+   "workflows": [
+    "skills/prosperity-coach-system/workflows/01-diagnose-and-unblock.md",
+    "skills/prosperity-coach-system/workflows/02-stack-and-integrate-factors.md",
+    "skills/prosperity-coach-system/workflows/03-run-30-day-journey.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "rafa-conde-fourth-wall-experience-os",
+   "skill_md": "skills/rafa-conde-fourth-wall-experience-os/SKILL.md",
+   "genius_md": "skills/rafa-conde-fourth-wall-experience-os/genius.md",
+   "workflows": [
+    "skills/rafa-conde-fourth-wall-experience-os/workflows/fourth-wall-agent-workflow.md",
+    "skills/rafa-conde-fourth-wall-experience-os/workflows/fourth-wall-client-experience.md",
+    "skills/rafa-conde-fourth-wall-experience-os/workflows/fourth-wall-concept-forge.md",
+    "skills/rafa-conde-fourth-wall-experience-os/workflows/fourth-wall-content-engine.md",
+    "skills/rafa-conde-fourth-wall-experience-os/workflows/fourth-wall-council.md",
+    "skills/rafa-conde-fourth-wall-experience-os/workflows/fourth-wall-diagnostic.md",
+    "skills/rafa-conde-fourth-wall-experience-os/workflows/fourth-wall-domain-transfer.md",
+    "skills/rafa-conde-fourth-wall-experience-os/workflows/fourth-wall-launch-experience.md",
+    "skills/rafa-conde-fourth-wall-experience-os/workflows/fourth-wall-live-presentation.md",
+    "skills/rafa-conde-fourth-wall-experience-os/workflows/fourth-wall-product-moment.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "rafa-conde-memorable-product-design",
+   "skill_md": "skills/rafa-conde-memorable-product-design/SKILL.md",
+   "genius_md": "skills/rafa-conde-memorable-product-design/genius.md",
+   "workflows": [
+    "skills/rafa-conde-memorable-product-design/workflows/conde-agent-experience-design.md",
+    "skills/rafa-conde-memorable-product-design/workflows/conde-creative-council.md",
+    "skills/rafa-conde-memorable-product-design/workflows/conde-creative-thinking-sprint.md",
+    "skills/rafa-conde-memorable-product-design/workflows/conde-delight-moment-map.md",
+    "skills/rafa-conde-memorable-product-design/workflows/conde-design-residue-audit.md",
+    "skills/rafa-conde-memorable-product-design/workflows/conde-emotional-onboarding.md",
+    "skills/rafa-conde-memorable-product-design/workflows/conde-feeling-first-brief.md",
+    "skills/rafa-conde-memorable-product-design/workflows/conde-memorable-feature-ad.md",
+    "skills/rafa-conde-memorable-product-design/workflows/conde-memorable-product-launch.md",
+    "skills/rafa-conde-memorable-product-design/workflows/conde-prototype-the-feeling.md",
+    "skills/rafa-conde-memorable-product-design/workflows/conde-single-purpose-app-scope.md",
+    "skills/rafa-conde-memorable-product-design/workflows/conde-tactile-detail-pass.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "react-components",
+   "skill_md": "skills/react-components/SKILL.md",
    "genius_md": null,
-   "workflows": [
-    "skills/new-media-kingmaker/workflows/01-kingmaker-sprint.md",
-    "skills/new-media-kingmaker/workflows/02-narrative-warfare.md",
-    "skills/new-media-kingmaker/workflows/03-platform-launch.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "nick-saraev-bottleneck-thinking",
-   "skill_md": "skills/nick-saraev-bottleneck-thinking/SKILL.md",
-   "genius_md": "skills/nick-saraev-bottleneck-thinking/genius.md",
-   "workflows": [
-    "skills/nick-saraev-bottleneck-thinking/workflows/01-business-bottleneck-diagnostic.md",
-    "skills/nick-saraev-bottleneck-thinking/workflows/02-revenue-tier-growth-playbook.md",
-    "skills/nick-saraev-bottleneck-thinking/workflows/03-flywheel-sprint-planner.md",
-    "skills/nick-saraev-bottleneck-thinking/workflows/04-consulting-diagnostic-frameworks.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "nicolas-cole-edan-writing-mechanics",
-   "skill_md": "skills/nicolas-cole-edan-writing-mechanics/SKILL.md",
-   "genius_md": "skills/nicolas-cole-edan-writing-mechanics/genius.md",
-   "workflows": [
-    "skills/nicolas-cole-edan-writing-mechanics/workflows/01-edan-block-map.md",
-    "skills/nicolas-cole-edan-writing-mechanics/workflows/02-edan-balance-audit.md",
-    "skills/nicolas-cole-edan-writing-mechanics/workflows/03-description-upgrade.md",
-    "skills/nicolas-cole-edan-writing-mechanics/workflows/04-action-weight-test.md",
-    "skills/nicolas-cole-edan-writing-mechanics/workflows/05-narration-pov-forge.md",
-    "skills/nicolas-cole-edan-writing-mechanics/workflows/06-edan-opener-builder.md",
-    "skills/nicolas-cole-edan-writing-mechanics/workflows/07-deliberate-practice-loop.md",
-    "skills/nicolas-cole-edan-writing-mechanics/workflows/08-source-study-deconstruction.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "nicolas-cole-newsletter-flywheel",
-   "skill_md": "skills/nicolas-cole-newsletter-flywheel/SKILL.md",
-   "genius_md": "skills/nicolas-cole-newsletter-flywheel/genius.md",
-   "workflows": [
-    "skills/nicolas-cole-newsletter-flywheel/workflows/01-newsletter-flywheel.md",
-    "skills/nicolas-cole-newsletter-flywheel/workflows/02-tangible-faucet.md",
-    "skills/nicolas-cole-newsletter-flywheel/workflows/03-book-never-ends.md",
-    "skills/nicolas-cole-newsletter-flywheel/workflows/04-newsletter-biz-model.md",
-    "skills/nicolas-cole-newsletter-flywheel/workflows/05-substack-launch.md",
-    "skills/nicolas-cole-newsletter-flywheel/workflows/06-trend-to-newsletter.md",
-    "skills/nicolas-cole-newsletter-flywheel/workflows/07-newsletter-monetize.md",
-    "skills/nicolas-cole-newsletter-flywheel/workflows/08-prompt-as-product.md",
-    "skills/nicolas-cole-newsletter-flywheel/workflows/09-newsletter-service-pack.md",
-    "skills/nicolas-cole-newsletter-flywheel/workflows/10-newsletter-ideation.md",
-    "skills/nicolas-cole-newsletter-flywheel/workflows/11-solopreneur-10k-post.md",
-    "skills/nicolas-cole-newsletter-flywheel/workflows/12-newsletter-social-proof.md",
-    "skills/nicolas-cole-newsletter-flywheel/workflows/13-newsletter-review-cycle.md",
-    "skills/nicolas-cole-newsletter-flywheel/workflows/14-newsletter-to-product.md",
-    "skills/nicolas-cole-newsletter-flywheel/workflows/15-newsletter-churn-diagnostic.md",
-    "skills/nicolas-cole-newsletter-flywheel/workflows/16-content-series-plan.md",
-    "skills/nicolas-cole-newsletter-flywheel/workflows/17-newsletter-growth-audit.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "nicolas-cole-niche-positioning",
-   "skill_md": "skills/nicolas-cole-niche-positioning/SKILL.md",
-   "genius_md": "skills/nicolas-cole-niche-positioning/genius.md",
-   "workflows": [
-    "skills/nicolas-cole-niche-positioning/workflows/01-specificity-drill-v1-baseline.md",
-    "skills/nicolas-cole-niche-positioning/workflows/01-specificity-drill.md",
-    "skills/nicolas-cole-niche-positioning/workflows/02-category-of-one.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "nicolas-cole-nonfiction-value-architecture",
-   "skill_md": "skills/nicolas-cole-nonfiction-value-architecture/SKILL.md",
-   "genius_md": "skills/nicolas-cole-nonfiction-value-architecture/genius.md",
-   "workflows": [
-    "skills/nicolas-cole-nonfiction-value-architecture/workflows/01-value-spotlight-map.md",
-    "skills/nicolas-cole-nonfiction-value-architecture/workflows/02-ten-value-expander.md",
-    "skills/nicolas-cole-nonfiction-value-architecture/workflows/03-specificity-ladder.md",
-    "skills/nicolas-cole-nonfiction-value-architecture/workflows/04-subhead-skim-test.md",
-    "skills/nicolas-cole-nonfiction-value-architecture/workflows/05-nonfiction-outline-architect.md",
-    "skills/nicolas-cole-nonfiction-value-architecture/workflows/06-reader-value-audit.md",
-    "skills/nicolas-cole-nonfiction-value-architecture/workflows/07-value-stack-remix.md",
-    "skills/nicolas-cole-nonfiction-value-architecture/workflows/08-newsletter-value-draft.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "nicolas-cole-sales-education-messaging",
-   "skill_md": "skills/nicolas-cole-sales-education-messaging/SKILL.md",
-   "genius_md": "skills/nicolas-cole-sales-education-messaging/genius.md",
-   "workflows": [
-    "skills/nicolas-cole-sales-education-messaging/workflows/01-sales-education-map.md",
-    "skills/nicolas-cole-sales-education-messaging/workflows/02-buyer-belief-ladder.md",
-    "skills/nicolas-cole-sales-education-messaging/workflows/03-problem-articulation-script.md",
-    "skills/nicolas-cole-sales-education-messaging/workflows/04-positioning-message-bridge.md",
-    "skills/nicolas-cole-sales-education-messaging/workflows/05-objection-education-loop.md",
-    "skills/nicolas-cole-sales-education-messaging/workflows/06-say-these-words-script.md",
-    "skills/nicolas-cole-sales-education-messaging/workflows/07-sales-page-education-audit.md",
-    "skills/nicolas-cole-sales-education-messaging/workflows/08-offer-education-sequence.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "nir-eyal-habit-design",
-   "skill_md": "skills/nir-eyal-habit-design/SKILL.md",
-   "genius_md": "skills/nir-eyal-habit-design/genius.md",
-   "workflows": [
-    "skills/nir-eyal-habit-design/workflows/01-design-client-habit-system.md",
-    "skills/nir-eyal-habit-design/workflows/02-break-distraction-pattern.md",
-    "skills/nir-eyal-habit-design/workflows/03-engineer-program-adherence.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "noah-hawley-storytelling-mastery",
-   "skill_md": "skills/noah-hawley-storytelling-mastery/SKILL.md",
-   "genius_md": "skills/noah-hawley-storytelling-mastery/genius.md",
-   "workflows": [
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-adapt-mode.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-campaign-coherence.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-coherence-cut.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-comedy-horror.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-constraint-engine.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-content-season.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-cross-genre.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-ending-first.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-imagination.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-moral-mirror.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-moral-spectrum.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-pitch-tone.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-room-debug.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-short-form-tension.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-take-for-granted.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-theme-engine.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-tonal-arc.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-true-frame.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-velocity-draft.md",
-    "skills/noah-hawley-storytelling-mastery/workflows/hawley-voice-bible.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "ocean-vuong-perceptual-writing",
-   "skill_md": "skills/ocean-vuong-perceptual-writing/SKILL.md",
-   "genius_md": "skills/ocean-vuong-perceptual-writing/genius.md",
-   "workflows": [
-    "skills/ocean-vuong-perceptual-writing/workflows/anti-homogenization-audit.md",
-    "skills/ocean-vuong-perceptual-writing/workflows/cliche-rescue-protocol.md",
-    "skills/ocean-vuong-perceptual-writing/workflows/estrangement-engine.md",
-    "skills/ocean-vuong-perceptual-writing/workflows/haunted-copy.md",
-    "skills/ocean-vuong-perceptual-writing/workflows/haunted-narrative.md",
-    "skills/ocean-vuong-perceptual-writing/workflows/haunted-social.md",
-    "skills/ocean-vuong-perceptual-writing/workflows/haunting-engine.md",
-    "skills/ocean-vuong-perceptual-writing/workflows/haunting-residue-audit.md",
-    "skills/ocean-vuong-perceptual-writing/workflows/ocean-brand-estrangement.md",
-    "skills/ocean-vuong-perceptual-writing/workflows/ocean-content-anti-slop.md",
-    "skills/ocean-vuong-perceptual-writing/workflows/ocean-perceptual-copy.md",
-    "skills/ocean-vuong-perceptual-writing/workflows/perceptual-content-engine.md",
-    "skills/ocean-vuong-perceptual-writing/workflows/poietic-threshold-writer.md",
-    "skills/ocean-vuong-perceptual-writing/workflows/recognition-workshop.md",
-    "skills/ocean-vuong-perceptual-writing/workflows/species-test-protocol.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "omar-eddaoudi-scaling-ops",
-   "skill_md": "skills/omar-eddaoudi-scaling-ops/SKILL.md",
-   "genius_md": "skills/omar-eddaoudi-scaling-ops/genius.md",
-   "workflows": [
-    "skills/omar-eddaoudi-scaling-ops/workflows/01-profit-architecture.md",
-    "skills/omar-eddaoudi-scaling-ops/workflows/02-research-stack.md",
-    "skills/omar-eddaoudi-scaling-ops/workflows/03-avatar-trigger-map.md",
-    "skills/omar-eddaoudi-scaling-ops/workflows/04-static-composition.md",
-    "skills/omar-eddaoudi-scaling-ops/workflows/05-ad-teardown.md",
-    "skills/omar-eddaoudi-scaling-ops/workflows/06-white-space-map.md",
-    "skills/omar-eddaoudi-scaling-ops/workflows/07-launch-portfolio.md",
-    "skills/omar-eddaoudi-scaling-ops/workflows/08-pyramid-audit.md",
-    "skills/omar-eddaoudi-scaling-ops/workflows/09-lara-visual-stack.md",
-    "skills/omar-eddaoudi-scaling-ops/workflows/10-kallaway-pattern-interrupt.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "omar-eltakrori",
-   "skill_md": "skills/omar-eltakrori/SKILL.md",
-   "genius_md": "skills/omar-eltakrori/genius.md",
-   "workflows": [
-    "skills/omar-eltakrori/workflows/belief-shift-architect.md",
-    "skills/omar-eltakrori/workflows/challenge-model.md",
-    "skills/omar-eltakrori/workflows/felt-need-titler.md",
-    "skills/omar-eltakrori/workflows/framework-creation.md",
-    "skills/omar-eltakrori/workflows/long-form-authority.md",
-    "skills/omar-eltakrori/workflows/micro-famous.md",
-    "skills/omar-eltakrori/workflows/mindset-over-tactics.md",
-    "skills/omar-eltakrori/workflows/objective-by-context.md",
-    "skills/omar-eltakrori/workflows/offer-packaging-engine.md",
-    "skills/omar-eltakrori/workflows/over-teaching-audit.md",
-    "skills/omar-eltakrori/workflows/personal-brand-blueprint.md",
-    "skills/omar-eltakrori/workflows/receptive-soil-filter.md",
-    "skills/omar-eltakrori/workflows/teach-to-sell-engine.md",
-    "skills/omar-eltakrori/workflows/teaching-business-os.md",
-    "skills/omar-eltakrori/workflows/uncopyable-content-engine.md",
-    "skills/omar-eltakrori/workflows/what-not-how.md",
-    "skills/omar-eltakrori/workflows/what-people-buy.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "oren-brand-archetypes",
-   "skill_md": "skills/oren-brand-archetypes/SKILL.md",
-   "genius_md": "skills/oren-brand-archetypes/genius.md",
    "workflows": [],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "oren-content-team-architecture",
-   "skill_md": "skills/oren-content-team-architecture/SKILL.md",
-   "genius_md": "skills/oren-content-team-architecture/genius.md",
+   "skill": "reid-hoffman-ai-strategy",
+   "skill_md": "skills/reid-hoffman-ai-strategy/SKILL.md",
+   "genius_md": "skills/reid-hoffman-ai-strategy/genius.md",
    "workflows": [
-    "skills/oren-content-team-architecture/workflows/oren-agentic-commerce.md",
-    "skills/oren-content-team-architecture/workflows/oren-brand-media-blueprint.md",
-    "skills/oren-content-team-architecture/workflows/oren-content-flywheel.md",
-    "skills/oren-content-team-architecture/workflows/oren-content-team-audit.md",
-    "skills/oren-content-team-architecture/workflows/oren-creator-network.md",
-    "skills/oren-content-team-architecture/workflows/oren-founder-content.md",
-    "skills/oren-content-team-architecture/workflows/oren-hook-stack-2026.md",
-    "skills/oren-content-team-architecture/workflows/oren-insight-toolkit.md",
-    "skills/oren-content-team-architecture/workflows/oren-media-org-diagnostic.md",
-    "skills/oren-content-team-architecture/workflows/oren-paid-organic-bridge.md",
-    "skills/oren-content-team-architecture/workflows/oren-pod-architect.md",
-    "skills/oren-content-team-architecture/workflows/oren-pod-cadence.md",
-    "skills/oren-content-team-architecture/workflows/oren-production-elevation.md",
-    "skills/oren-content-team-architecture/workflows/oren-scale-media-machine.md",
-    "skills/oren-content-team-architecture/workflows/oren-signature-series.md"
+    "skills/reid-hoffman-ai-strategy/workflows/01-diagnose-sin-engine.md",
+    "skills/reid-hoffman-ai-strategy/workflows/02-stress-test-ai-bet.md",
+    "skills/reid-hoffman-ai-strategy/workflows/03-design-agent-field.md"
    ],
    "archived": false,
    "existing_v2_failing": []
   },
   {
-   "skill": "oren-one-person-ai-marketer",
-   "skill_md": "skills/oren-one-person-ai-marketer/SKILL.md",
-   "genius_md": "skills/oren-one-person-ai-marketer/genius.md",
-   "workflows": [
-    "skills/oren-one-person-ai-marketer/workflows/01-weekly-os-installer.md",
-    "skills/oren-one-person-ai-marketer/workflows/02-brand-voice-machine-builder.md",
-    "skills/oren-one-person-ai-marketer/workflows/03-anti-slop-output-classifier.md",
-    "skills/oren-one-person-ai-marketer/workflows/04-strategic-framework-injection.md",
-    "skills/oren-one-person-ai-marketer/workflows/05-word-of-mouth-virality-audit.md",
-    "skills/oren-one-person-ai-marketer/workflows/06-completion-moment-referral-engine.md",
-    "skills/oren-one-person-ai-marketer/workflows/07-monthly-messages-cycle.md",
-    "skills/oren-one-person-ai-marketer/workflows/08-info-release-mechanism-aeo.md",
-    "skills/oren-one-person-ai-marketer/workflows/09-in-house-performance-block.md",
-    "skills/oren-one-person-ai-marketer/workflows/10-ai-influencer-ops-back-office.md",
-    "skills/oren-one-person-ai-marketer/workflows/11-claude-operator-legend-builder.md",
-    "skills/oren-one-person-ai-marketer/workflows/12-six-skill-activation-chain.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "packy-mccormick-writing",
-   "skill_md": "skills/packy-mccormick-writing/SKILL.md",
-   "genius_md": "skills/packy-mccormick-writing/genius.md",
-   "workflows": [
-    "skills/packy-mccormick-writing/workflows/01-write-deep-dive.md",
-    "skills/packy-mccormick-writing/workflows/02-package-and-name-idea.md",
-    "skills/packy-mccormick-writing/workflows/03-develop-writing-voice.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "pat-flynn-passive-income",
-   "skill_md": "skills/pat-flynn-passive-income/SKILL.md",
-   "genius_md": "skills/pat-flynn-passive-income/genius.md",
-   "workflows": [
-    "skills/pat-flynn-passive-income/workflows/01-architect-income-stream.md",
-    "skills/pat-flynn-passive-income/workflows/02-validate-with-one-person.md",
-    "skills/pat-flynn-passive-income/workflows/03-audit-affiliate-ethics.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "patrick-dang-online-business",
-   "skill_md": "skills/patrick-dang-online-business/SKILL.md",
-   "genius_md": "skills/patrick-dang-online-business/genius.md",
-   "workflows": [
-    "skills/patrick-dang-online-business/workflows/01-audit-skills-into-offer.md",
-    "skills/patrick-dang-online-business/workflows/02-build-brand-engine.md",
-    "skills/patrick-dang-online-business/workflows/03-convert-followers-to-clients.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "patrick-debois-cdlc",
-   "skill_md": "skills/patrick-debois-cdlc/SKILL.md",
-   "genius_md": "skills/patrick-debois-cdlc/genius.md",
-   "workflows": [
-    "skills/patrick-debois-cdlc/workflows/01-cdlc-audit.md",
-    "skills/patrick-debois-cdlc/workflows/02-context-evals.md",
-    "skills/patrick-debois-cdlc/workflows/03-context-library.md",
-    "skills/patrick-debois-cdlc/workflows/04-context-observe.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "paul-harding-lyric-prose",
-   "skill_md": "skills/paul-harding-lyric-prose/SKILL.md",
-   "genius_md": "skills/paul-harding-lyric-prose/genius.md",
-   "workflows": [
-    "skills/paul-harding-lyric-prose/workflows/harding-brand-sensory.md",
-    "skills/paul-harding-lyric-prose/workflows/harding-cadence.md",
-    "skills/paul-harding-lyric-prose/workflows/harding-counterpoint.md",
-    "skills/paul-harding-lyric-prose/workflows/harding-distill.md",
-    "skills/paul-harding-lyric-prose/workflows/harding-improv-draft.md",
-    "skills/paul-harding-lyric-prose/workflows/harding-perception-content.md",
-    "skills/paul-harding-lyric-prose/workflows/harding-perception-engine.md",
-    "skills/paul-harding-lyric-prose/workflows/harding-perceptual-copy.md",
-    "skills/paul-harding-lyric-prose/workflows/harding-precision-wonder.md",
-    "skills/paul-harding-lyric-prose/workflows/harding-recognition-audit.md",
-    "skills/paul-harding-lyric-prose/workflows/harding-then-what.md",
-    "skills/paul-harding-lyric-prose/workflows/harding-two-things.md"
-   ],
-   "archived": false,
-   "existing_v2_failing": []
-  },
-  {
-   "skill": "pdf",
-   "skill_md": "skills/pdf/SKILL.md",
+   "skill": "remotion-video-creation",
+   "skill_md": "skills/remotion-video-creation/SKILL.md",
    "genius_md": null,
    "workflows": [],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "robert-greene-power-mastery",
+   "skill_md": "skills/robert-greene-power-mastery/SKILL.md",
+   "genius_md": "skills/robert-greene-power-mastery/genius.md",
+   "workflows": [
+    "skills/robert-greene-power-mastery/workflows/01-map-power-dynamics.md",
+    "skills/robert-greene-power-mastery/workflows/02-engineer-strategic-presence.md",
+    "skills/robert-greene-power-mastery/workflows/03-design-mastery-path.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "ross-minchev-digital-products",
+   "skill_md": "skills/ross-minchev-digital-products/SKILL.md",
+   "genius_md": "skills/ross-minchev-digital-products/genius.md",
+   "workflows": [
+    "skills/ross-minchev-digital-products/workflows/01-drill-micro-niche.md",
+    "skills/ross-minchev-digital-products/workflows/02-create-digital-product.md",
+    "skills/ross-minchev-digital-products/workflows/03-monetize-and-launch.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "russell-brunson-funnels",
+   "skill_md": "skills/russell-brunson-funnels/SKILL.md",
+   "genius_md": "skills/russell-brunson-funnels/genius.md",
+   "workflows": [
+    "skills/russell-brunson-funnels/workflows/01-architect-hook-story-offer.md",
+    "skills/russell-brunson-funnels/workflows/02-engineer-identity-movement.md",
+    "skills/russell-brunson-funnels/workflows/03-extract-timeless-principles.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "sam-parr-copywriting-mechanics",
+   "skill_md": "skills/sam-parr-copywriting-mechanics/SKILL.md",
+   "genius_md": "skills/sam-parr-copywriting-mechanics/genius.md",
+   "workflows": [
+    "skills/sam-parr-copywriting-mechanics/workflows/aida-reader-state-map.md",
+    "skills/sam-parr-copywriting-mechanics/workflows/copywork-hour-sprint.md",
+    "skills/sam-parr-copywriting-mechanics/workflows/copywork-rule-extraction.md",
+    "skills/sam-parr-copywriting-mechanics/workflows/curiosity-gap-repair.md",
+    "skills/sam-parr-copywriting-mechanics/workflows/headline-gravity-lab.md",
+    "skills/sam-parr-copywriting-mechanics/workflows/headline-proof-rewrite.md",
+    "skills/sam-parr-copywriting-mechanics/workflows/humor-fit-check.md",
+    "skills/sam-parr-copywriting-mechanics/workflows/objection-by-detail-pass.md",
+    "skills/sam-parr-copywriting-mechanics/workflows/proof-object-builder.md",
+    "skills/sam-parr-copywriting-mechanics/workflows/rhythm-slippery-slope-pass.md",
+    "skills/sam-parr-copywriting-mechanics/workflows/story-desire-objection-pass.md",
+    "skills/sam-parr-copywriting-mechanics/workflows/story-desire-pass.md",
+    "skills/sam-parr-copywriting-mechanics/workflows/visual-proof-translation.md",
+    "skills/sam-parr-copywriting-mechanics/workflows/weak-ad-rescue.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "sam-parr-copywriting",
+   "skill_md": "skills/sam-parr-copywriting/SKILL.md",
+   "genius_md": "skills/sam-parr-copywriting/genius.md",
+   "workflows": [
+    "skills/sam-parr-copywriting/workflows/ad-rewrite.md",
+    "skills/sam-parr-copywriting/workflows/niche.md",
+    "skills/sam-parr-copywriting/workflows/objection.md",
+    "skills/sam-parr-copywriting/workflows/punch-hook.md",
+    "skills/sam-parr-copywriting/workflows/rhythm-edit.md",
+    "skills/sam-parr-copywriting/workflows/shortform-to-ad.md",
+    "skills/sam-parr-copywriting/workflows/shortform.md",
+    "skills/sam-parr-copywriting/workflows/story-ad.md",
+    "skills/sam-parr-copywriting/workflows/swipe-twist.md",
+    "skills/sam-parr-copywriting/workflows/tangible.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "sam-parr-taste-acquisition",
+   "skill_md": "skills/sam-parr-taste-acquisition/SKILL.md",
+   "genius_md": "skills/sam-parr-taste-acquisition/genius.md",
+   "workflows": [
+    "skills/sam-parr-taste-acquisition/workflows/blind-copy-sprint.md",
+    "skills/sam-parr-taste-acquisition/workflows/brand-aesthetic-language.md",
+    "skills/sam-parr-taste-acquisition/workflows/creative-lineage-sprint.md",
+    "skills/sam-parr-taste-acquisition/workflows/history-lineage-map.md",
+    "skills/sam-parr-taste-acquisition/workflows/naming-taste-engine.md",
+    "skills/sam-parr-taste-acquisition/workflows/rule-extraction-engine.md",
+    "skills/sam-parr-taste-acquisition/workflows/taste-acquisition-roadmap.md",
+    "skills/sam-parr-taste-acquisition/workflows/taste-cev-diagnostic.md",
+    "skills/sam-parr-taste-acquisition/workflows/taste-identity-declaration.md",
+    "skills/sam-parr-taste-acquisition/workflows/taste-moat-business-case.md",
+    "skills/sam-parr-taste-acquisition/workflows/taste-stage-audit.md",
+    "skills/sam-parr-taste-acquisition/workflows/web-design-taste-sprint.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "sarah-levinger-ad-psychology",
+   "skill_md": "skills/sarah-levinger-ad-psychology/SKILL.md",
+   "genius_md": "skills/sarah-levinger-ad-psychology/genius.md",
+   "workflows": [
+    "skills/sarah-levinger-ad-psychology/workflows/01-script-micro-movie.md",
+    "skills/sarah-levinger-ad-psychology/workflows/02-match-avatar-structure.md",
+    "skills/sarah-levinger-ad-psychology/workflows/03-optimize-product-placement.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "satori-graphics",
+   "skill_md": "skills/satori-graphics/SKILL.md",
+   "genius_md": "skills/satori-graphics/genius.md",
+   "workflows": [
+    "skills/satori-graphics/workflows/01-lift-audit.md",
+    "skills/satori-graphics/workflows/02-movement-ladder.md",
+    "skills/satori-graphics/workflows/03-grid-select.md",
+    "skills/satori-graphics/workflows/04-why-before-what.md",
+    "skills/satori-graphics/workflows/05-logo-concept.md",
+    "skills/satori-graphics/workflows/06-logo-presentation.md",
+    "skills/satori-graphics/workflows/07-predictive-empathy.md",
+    "skills/satori-graphics/workflows/08-memory-encoding.md",
+    "skills/satori-graphics/workflows/09-anti-ai-slop.md",
+    "skills/satori-graphics/workflows/10-flip-test.md",
+    "skills/satori-graphics/workflows/11-listing-frame.md",
+    "skills/satori-graphics/workflows/12-poster-think.md",
+    "skills/satori-graphics/workflows/13-design-md-grid.md",
+    "skills/satori-graphics/workflows/14-brand-audit.md",
+    "skills/satori-graphics/workflows/15-comms-brief.md",
+    "skills/satori-graphics/workflows/16-concept.md",
+    "skills/satori-graphics/workflows/17-strategic-color.md",
+    "skills/satori-graphics/workflows/18-perception-gap.md",
+    "skills/satori-graphics/workflows/19-feeling-calibrate.md",
+    "skills/satori-graphics/workflows/20-design-think.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "sean-dollwet-kdp-publishing",
+   "skill_md": "skills/sean-dollwet-kdp-publishing/SKILL.md",
+   "genius_md": "skills/sean-dollwet-kdp-publishing/genius.md",
+   "workflows": [
+    "skills/sean-dollwet-kdp-publishing/workflows/01-validate-book-topic.md",
+    "skills/sean-dollwet-kdp-publishing/workflows/02-produce-publishable-book.md",
+    "skills/sean-dollwet-kdp-publishing/workflows/03-launch-and-multiply.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "sean-macintyre-persuasion-philosophy",
+   "skill_md": "skills/sean-macintyre-persuasion-philosophy/SKILL.md",
+   "genius_md": "skills/sean-macintyre-persuasion-philosophy/genius.md",
+   "workflows": [
+    "skills/sean-macintyre-persuasion-philosophy/workflows/01-armor-diagnose.md",
+    "skills/sean-macintyre-persuasion-philosophy/workflows/02-mechanism-test.md",
+    "skills/sean-macintyre-persuasion-philosophy/workflows/03-cross-pollinate.md",
+    "skills/sean-macintyre-persuasion-philosophy/workflows/04-genealogy-attack.md",
+    "skills/sean-macintyre-persuasion-philosophy/workflows/05-bullet-from-winner.md",
+    "skills/sean-macintyre-persuasion-philosophy/workflows/06-litotes-line.md",
+    "skills/sean-macintyre-persuasion-philosophy/workflows/07-adherence-protocol.md",
+    "skills/sean-macintyre-persuasion-philosophy/workflows/08-guru-audit.md",
+    "skills/sean-macintyre-persuasion-philosophy/workflows/09-hole-frame.md",
+    "skills/sean-macintyre-persuasion-philosophy/workflows/10-armor-iha-proof.md",
+    "skills/sean-macintyre-persuasion-philosophy/workflows/11-deutsch-wright-residue.md",
+    "skills/sean-macintyre-persuasion-philosophy/workflows/12-local-maxima-flywheel.md",
+    "skills/sean-macintyre-persuasion-philosophy/workflows/13-three-vector-idea-forge.md",
+    "skills/sean-macintyre-persuasion-philosophy/workflows/14-classical-rhetoric-deploy.md",
+    "skills/sean-macintyre-persuasion-philosophy/workflows/15-post-hook-architecture.md",
+    "skills/sean-macintyre-persuasion-philosophy/workflows/16-shiny-prediction-engine.md",
+    "skills/sean-macintyre-persuasion-philosophy/workflows/17-fifty-year-architecture.md"
+   ],
+   "archived": false,
+   "existing_v2_failing": []
+  },
+  {
+   "skill": "self-evolving-systems",
+   "skill_md": "skills/self-evolving-systems/SKILL.md",
+   "genius_md": "skills/self-evolving-systems/genius.md",
+   "workflows": [
+    "skills/self-evolving-systems/workflows/trajectory-ratchet.md"
+   ],
    "archived": false,
    "existing_v2_failing": []
   }
