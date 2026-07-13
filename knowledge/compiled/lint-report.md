@@ -1,12 +1,17 @@
 # Wiki Lint Report
-*Generated: 2026-07-06 | 45 issues found*
+*Generated: 2026-07-13 | 51 issues found*
 
-**Errors**: 22 | **Warnings**: 11 | **Info**: 12
+**Errors**: 28 | **Warnings**: 11 | **Info**: 12
 
 ---
 
-## ERROR (22)
+## ERROR (28)
 
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/agentic-os-v2-agentic-os/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/customer-lang-research/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/agentic-os-v1-skills-upgrade/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/brad-bonanno/visual-context.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [visual-context](../extractions/wargame-source/visual-context.md) points to nonexistent file
 - **[dead_link]** `knowledge/index.md` — Link [backward-dissolution-principle](knowledge/synthesis/backward-dissolution-principle.md) points to nonexistent file
 - **[dead_link]** `knowledge/index.md` — Link [constraint-as-creative-input](knowledge/synthesis/constraint-as-creative-input.md) points to nonexistent file
 - **[dead_link]** `knowledge/index.md` — Link [dwell-time-narrative-gravity](knowledge/synthesis/dwell-time-narrative-gravity.md) points to nonexistent file
@@ -23,6 +28,7 @@
 - **[dead_link]** `knowledge/index.md` — Link [the-3-percent-disruption-principle](knowledge/synthesis/the-3-percent-disruption-principle.md) points to nonexistent file
 - **[dead_link]** `knowledge/index.md` — Link [the-persuasion-stack](knowledge/synthesis/the-persuasion-stack.md) points to nonexistent file
 - **[dead_link]** `knowledge/index.md` — Link [universal-proof-architecture](knowledge/synthesis/universal-proof-architecture.md) points to nonexistent file
+- **[dead_link]** `knowledge/index.md` — Link [evolved-alex-suzuki-digital-product-revenue-os-2026-07-06](knowledge/patterns/evolved-alex-suzuki-digital-product-revenue-os-2026-07-06.md) points to nonexistent file
 - **[dead_link]** `extractions/creative-direction/progressive-disclosure-patterns.md` — Link [FORMS.md](FORMS.md) points to nonexistent file
 - **[dead_link]** `extractions/creative-direction/progressive-disclosure-patterns.md` — Link [REFERENCE.md](REFERENCE.md) points to nonexistent file
 - **[dead_link]** `extractions/creative-direction/progressive-disclosure-patterns.md` — Link [EXAMPLES.md](EXAMPLES.md) points to nonexistent file
@@ -54,10 +60,10 @@
 - **[contradiction_zone]** `domain:research` — 16 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:general` — 28 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:systems` — 22 files contain strong assertions — review for consistency
-- **[contradiction_zone]** `domain:brand` — 24 files contain strong assertions — review for consistency
+- **[contradiction_zone]** `domain:brand` — 23 files contain strong assertions — review for consistency
 - **[contradiction_zone]** `domain:sales` — 7 files contain strong assertions — review for consistency
-- **[very_stale]** `multiple` — 168 files are >90 days old — candidates for archive
-- **[missing_frontmatter]** `multiple` — 465/515 files lack YAML frontmatter — limits metadata queries
+- **[very_stale]** `multiple` — 180 files are >90 days old — candidates for archive
+- **[missing_frontmatter]** `multiple` — 479/530 files lack YAML frontmatter — limits metadata queries
 
 ---
 
