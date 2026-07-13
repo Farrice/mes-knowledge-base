@@ -1,0 +1,78 @@
+<title>Antigravity Pulse</title>
+<style>
+:root {
+  --ground:#f7f7f9; --panel:#ffffff; --ink:#1c1e28; --muted:#6a6d80; --line:#e3e4ec;
+  --accent:#5b6ee1; --ok:#3fa96c; --warn:#d99a2b; --crit:#c4554d;
+  --mono:"SF Mono",Menlo,Consolas,monospace;
+  --display:"Avenir Next",Seravek,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme: dark) { :root {
+  --ground:#12141d; --panel:#191c28; --ink:#e8e9f0; --muted:#8b8fa8; --line:#272b3b;
+  --accent:#7c8cf0; --ok:#4dbd7f; --warn:#e3ad45; --crit:#d96a61;
+} }
+:root[data-theme="dark"] {
+  --ground:#12141d; --panel:#191c28; --ink:#e8e9f0; --muted:#8b8fa8; --line:#272b3b;
+  --accent:#7c8cf0; --ok:#4dbd7f; --warn:#e3ad45; --crit:#d96a61;
+}
+:root[data-theme="light"] {
+  --ground:#f7f7f9; --panel:#ffffff; --ink:#1c1e28; --muted:#6a6d80; --line:#e3e4ec;
+  --accent:#5b6ee1; --ok:#3fa96c; --warn:#d99a2b; --crit:#c4554d;
+}
+body { background:var(--ground); color:var(--ink); font:15px/1.5 -apple-system,"Segoe UI",sans-serif;
+  margin:0; padding:32px 24px; }
+.wrap { max-width:960px; margin:0 auto; display:flex; flex-direction:column; gap:20px; }
+header { display:flex; justify-content:space-between; align-items:baseline; gap:12px; flex-wrap:wrap; }
+h1 { font-family:var(--display); font-size:22px; font-weight:600; margin:0; letter-spacing:-.01em; }
+h1 b { color:var(--accent); font-weight:600; }
+.stamp { color:var(--muted); font-family:var(--mono); font-size:12px; }
+.sprint { background:var(--panel); border:1px solid var(--accent); border-radius:8px; padding:12px 16px;
+  display:flex; gap:12px; align-items:baseline; flex-wrap:wrap; }
+.sprint-tag { font-family:var(--mono); font-size:11px; letter-spacing:.08em; color:var(--accent); }
+.tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:12px; }
+.tile { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:14px 16px; }
+.tile .n { font-family:var(--mono); font-size:26px; font-variant-numeric:tabular-nums; }
+.tile .l { color:var(--muted); font-size:12px; letter-spacing:.04em; text-transform:uppercase; }
+section { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px 18px; }
+h2 { font-family:var(--display); font-size:13px; letter-spacing:.06em; text-transform:uppercase;
+  color:var(--muted); margin:0 0 10px; }
+table { width:100%; border-collapse:collapse; font-size:14px; }
+td, th { text-align:left; padding:7px 10px 7px 0; border-top:1px solid var(--line); vertical-align:top; }
+tr:first-child td { border-top:none; }
+.mono { font-family:var(--mono); font-size:12.5px; color:var(--muted); }
+.pill { font-family:var(--mono); font-size:11px; padding:2px 8px; border-radius:999px; white-space:nowrap; }
+.pill.ok { background:color-mix(in srgb,var(--ok) 15%,transparent); color:var(--ok); }
+.pill.warn { background:color-mix(in srgb,var(--warn) 18%,transparent); color:var(--warn); }
+.pill.crit { background:color-mix(in srgb,var(--crit) 16%,transparent); color:var(--crit); }
+.pill.muted { background:color-mix(in srgb,var(--muted) 14%,transparent); color:var(--muted); }
+.empty { color:var(--muted); font-style:italic; }
+pre { overflow-x:auto; font-family:var(--mono); font-size:12px; color:var(--muted); margin:0; }
+</style>
+<div class="wrap">
+<header><h1><b>Antigravity</b> Pulse</h1><div class="stamp">2026-07-13 16:34 · <span class="pill ok">tree: single driver</span></div></header>
+<div class="sprint"><span class="sprint-tag">ACTIVE SPRINT</span><strong>Collect $5K/mo from Path A — claim-safe content for funded health/performance brands</strong><span class="muted">goal: revenue-5k-incumbency</span></div>
+<div class="tiles">
+  <div class="tile"><div class="n">3</div><div class="l">missions live</div></div>
+  <div class="tile"><div class="n">2</div><div class="l">waiting on Farrice</div></div>
+  <div class="tile"><div class="n">5</div><div class="l">outcomes due</div></div>
+  <div class="tile"><div class="n">3</div><div class="l">taste verdicts banked</div></div>
+</div>
+<section><h2>⚑ Waiting on you</h2><table><tr><td>Fidelity-low review — 40 renaissance-era flags (28 nathan-gotch: re-watch decision)</td><td class='mono'>system-leverage</td><td>solo + jam</td><td><span class="pill warn">compiled</span></td></tr>
+<tr><td>Shoot Kandi Keeper video from production sheet</td><td class='mono'>revenue-5k-incumbency</td><td>human (Farrice)</td><td><span class="pill warn">compiled</span></td></tr></table></section>
+<section><h2>Missions — live</h2><table><tr><td>Maestro layer — /go v2, doctrine, session lock, pulse board, /voice-over</td><td class='mono'>system-leverage</td><td>solo (system build)</td><td><span class="pill warn">running</span></td></tr>
+<tr><td>Fidelity-low review — 40 renaissance-era flags (28 nathan-gotch: re-watch decision)</td><td class='mono'>system-leverage</td><td>solo + jam</td><td><span class="pill warn">compiled</span></td></tr>
+<tr><td>Shoot Kandi Keeper video from production sheet</td><td class='mono'>revenue-5k-incumbency</td><td>human (Farrice)</td><td><span class="pill warn">compiled</span></td></tr></table></section>
+<section><h2>Recently closed</h2><table><tr><td>Prompt Wiring OS — hook + pointers + forging gate + 1,650 born-v2 backfill + verification</td><td class='mono'>system-leverage</td><td>fleet + proof-first + verify-fleet</td><td><span class="pill ok">done</span></td></tr>
+<tr><td>MyBPM Week-1 hero video (Kandi Keeper)</td><td class='mono'>revenue-5k-incumbency</td><td>solo + jam stage</td><td><span class="pill ok">done</span></td></tr></table></section>
+<section><h2>Threads (handoff store)</h2><pre>1. swarm-apex  (2026-07-13)
+2. prompts-v2  (2026-07-13)
+3. andrew-stanton-audience-engineering  (2026-07-13)
+4. chief-of-staff-os  (2026-07-11)
+5. cooz-war-funnel  (2026-07-11)
+6. context-engineering-os  (2026-07-11)
+7. farrice-final-10  (2026-07-11)
+8. directives  (2026-07-10)
+9. health-performance-geo-daily-brief  (2026-07-10)
+10. harness-apex  (2026-07-09)
+11. trendscale-trial  (2026-07-09)
+12. none  (2026-07-09)</pre></section>
+</div>

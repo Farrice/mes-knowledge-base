@@ -1,53 +1,60 @@
 ---
-description: Anti-bottleneck front door — compile a messy thought into a run packet, route it to a conductor, run it, deliver with steering
+description: The Maestro front door — compile any raw thought into a goal-aligned Mission Card, orchestrate it per doctrine, run it, deliver with steering
 ---
 
-# /go - Anti-Bottleneck Front Door
+# /go - The Maestro Front Door (v2, 2026-07-13)
 
 `/go "<messy thought>"` turns an underspecified thought into a routed, executed
-deliverable in one pass. It exists because Farrice is the bottleneck when the
-system asks HIM to sharpen intent instead of writing the assumptions and moving.
-`/go` never returns a bare clarifying question when it can propose an answer
-instead.
+deliverable in one pass — now compiled against Farrice's standing goals and the
+orchestration doctrine (`directives/orchestration-doctrine.md`). `/go` never
+returns a bare clarifying question when it can propose an answer instead.
 
-## Stage 0 — INTENT COMPILE (silent)
+## Stage 0 — MISSION COMPILE (silent)
 
 1. DICE-score the raw thought per CLAUDE.md Step 1 (Deliverable, Audience,
    Context/constraints, End state, Specific language). 1 point each, 1-5 total.
-2. Score >= 3: skip questions, write the RUN PACKET below, and proceed.
-3. Score <= 2: ONE question round, asking only about the DICE dimensions
-   actually missing — never re-ask something inferable from context or prior
-   session state.
-4. Write the RUN PACKET, then proceed (don't wait for sign-off unless the next
-   step is destructive/paid/external per the Chain's normal rules):
+2. Score >= 3: skip questions, write the MISSION CARD below, and proceed.
+   Score <= 2: ONE question round, only the DICE dimensions actually missing.
+3. **Goal spine**: read `.agent/cos/goals.json` — name the goal this mission
+   serves in the card. No match = `ORPHAN ⚑` flag (one line, compass never
+   cage, then execute fully). While a SPRINT is active in goals.json, surface it.
+4. **Pattern**: pick the PRIMARY orchestration shape from the doctrine's
+   Pattern Table — solo / solo+jam / fleet / proof-first / council / wargame /
+   swarm / verify-fleet / wayfinder — with a one-line reason.
+5. **Tier**: classify blast radius per doctrine (T1 auto-run · T2 wait ·
+   T3 always wait). Standing grants elevate T2→T1 for their scope only.
 
 ```
-RUN PACKET
-Assuming: deliverable=<X>, audience=<Y>, done=<Z> — correct me or I proceed.
-Outcomes (>=2): <outcome A> / <outcome B>
-Constraints: <voice, budget, deadline, format>
-Taste refs: <named skill/expert/rubric anchor if one applies>
-Budget note: <$0 default | cost-gated API flagged>
+MISSION CARD
+Intent: <sharpened one-liner>            Serves: <goal-id | ORPHAN ⚑>
+Pattern: <doctrine row> — <one-line reason>
+Loads: <experts/skills + the v2 prompts whose contracts govern output>
+Gates: <audit / prose / verify / jam / voice — whichever will fire>
+Tier: <T1 auto | T2 waiting | T3 waiting>   Cost: <$0 | flagged>
 ```
+
+T1: card is shown as the mission starts. T2/T3: card waits for the nod.
 
 ## Stage 1 — ROUTE
 
-Match the packet's deliverable shape to exactly one conductor. Running two
-conductors requires the packet to name two genuinely separate deliverables —
-don't split one ask into a mini-mission.
+Hand the mission to exactly one conductor. Running two conductors requires two
+genuinely separate deliverables — don't split one ask into a mini-mission.
 
-| Packet shape | Conductor |
+| Mission shape | Conductor |
 |---|---|
-| Single content/copy piece | `/create` |
+| Single content/copy piece | `/create` (+ v2 prompt contract + voice layer if Farrice-named) |
 | Multi-deliverable mission | `/supercomputer` |
 | Campaign (multi-asset, multi-platform) | `/jw-engine` |
+| Fleet-shaped work (10+ units / 3+ workstreams) | Workflow engine per doctrine (scout → agents → gate) |
+| Decision with real tradeoffs | `/convene` |
+| Plan-for-cheaper-executor | `/wargame-run` |
 | Full-auto, gates explicitly suppressed | `/autopilot` |
 | System/harness repair or audit | `/system-audit` |
-| Research question | `execution/research.py` |
+| Research question | `execution/research.py` / `/swarm` |
+| Voice overlay on expert-pure output | `/voice-over` |
 
 If two rows plausibly match, name the fork in one line and pick the stronger
-match. Never default to `/autopilot` as a catch-all — that habit is exactly
-what made routing feel arbitrary before.
+match. Never default to `/autopilot` as a catch-all.
 
 ## Stage 2 — RUN
 
@@ -56,6 +63,15 @@ conductor run its own sequence: Chain Steps 3-6 for content conductors,
 `/autopilot`'s own Intent Lock -> Trace -> Execution Decision -> Verify -> Run
 Receipt for gate-suppressed work. `/go` stages the engine; it does not
 re-implement what the conductor already owns.
+
+## Stage 2.5 — LOG (deterministic, both ends)
+
+At compile AND at close, append one line to `.agent/missions.jsonl`:
+```json
+{"ts":"<iso>","mission":"<intent one-liner>","serves":"<goal-id|orphan>","pattern":"<row>","tier":"T1|T2|T3","status":"compiled|running|done|stopped","outcome":"<one line at close>"}
+```
+The pulse dashboard (`/pulse-board`) and COS read from this log — an unlogged
+mission is invisible to the operator console.
 
 ## Stage 3 — DELIVER + Next-Prompts
 

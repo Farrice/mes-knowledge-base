@@ -51,6 +51,13 @@ def candidates(include_extractions: bool):
 
 
 def main() -> int:
+    # One-driver-per-tree guard (orchestration doctrine Law 5)
+    import os as _os, subprocess as _sp
+    _lock = _sp.run(["python3", _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), "session_lock.py"),
+                     "check", _os.environ.get("SESSION_LOCK_TOKEN", "")], capture_output=True, text=True)
+    if _lock.returncode != 0:
+        print(_lock.stdout.strip() or "BLOCKED by session lock")
+        return 1
     ap = argparse.ArgumentParser()
     ap.add_argument("--wave-size", type=int, default=150)
     ap.add_argument("--include-extractions", action="store_true",

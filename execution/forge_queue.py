@@ -62,6 +62,14 @@ def skill_inventory(skill_dir):
 
 
 def main():
+    # One-driver-per-tree guard (orchestration doctrine Law 5)
+    import subprocess as _sp
+    _lock = _sp.run(["python3", os.path.join(ROOT, "execution", "session_lock.py"), "check",
+                     os.environ.get("SESSION_LOCK_TOKEN", "")], capture_output=True, text=True)
+    if _lock.returncode != 0:
+        print(_lock.stdout.strip() or "BLOCKED by session lock")
+        print("claim it first: python3 execution/session_lock.py claim \"<mission>\"  (export SESSION_LOCK_TOKEN=<token>)")
+        raise SystemExit(1)
     ap = argparse.ArgumentParser()
     ap.add_argument("--status", action="store_true")
     ap.add_argument("--wave-size", type=int, default=0, help="number of SKILLS per wave")

@@ -72,6 +72,8 @@ python3 execution/forge_gate.py status
 
 Review new entries in `.agent/jam/taste-ledger.jsonl` since last closeout. For any **dial that has repeated across 2+ jams** (e.g. "natural spoken phrasing over formal," "density-per-beat"), promote it into the Quality Gates of the affected domain's v2 prompts (`skills/<skill>/references/prompts-v2/`) as ONE checkable criterion — then re-run `python3 execution/renaissance_audit.py` + `python3 execution/prompt_library.py build` + `python3 execution/wire_prompt_pointers.py --write`. One-off verdicts stay in the ledger; only repeated taste becomes law. Skip silently if no new entries.
 
+**EMBODIMENT PURITY GUARD (Farrice 2026-07-13, binding):** taste dials promote ONLY into prompts for Farrice-owned deliverables (his brand, his clients' work he directs, system output). NEVER into an extracted expert's embodiment — Role & Activation framing, the expert's methodology, voice texture, or signature moves stay THE EXPERT'S. The intent of every extraction is replicate-then-surpass the expert's own flavor; Farrice's taste applies as a separate overlay (`/voice-over`), never baked into the expert. When in doubt, the dial stays in the ledger.
+
 ### 6. Close
 
 One-paragraph summary: what closed, what drained, what drifted. Then:
