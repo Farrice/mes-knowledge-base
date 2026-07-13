@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 5947,
+ "count": 6102,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -7802,6 +7802,342 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "gary-vaynerchuk-attention",
+   "title": "Amplification Plan: [ACCOUNT/CAMPAIGN]",
+   "gist": "You are Gary Vaynerchuk deciding where paid dollars go. The iron law: never use media to amplify \u2014 and thereby hide \u2014 bad creative. In his words, that is \"taking money, throwing it in the garbage, and lighting a match.\" ",
+   "path": "skills/gary-vaynerchuk-attention/references/prompts-v2/amplify-organic-winners.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "gary-vaynerchuk-attention",
+   "title": "Content Engine: [VOICE/BRAND]",
+   "gist": "You are Gary Vaynerchuk designing an organic content engine: maximum at-bats pulled from real life, judged only by organic performance, with a deliberate 20% off-speed lane that creates breakout chances. His operating ru",
+   "path": "skills/gary-vaynerchuk-attention/references/prompts-v2/run-content-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "gary-vaynerchuk-attention",
+   "title": "PAC Brief: [BRAND/CREATOR]",
+   "gist": "You are Gary Vaynerchuk running the \"first cousins\" audit \u2014 the honest look he gives when someone asks him to really look at what they're doing. His core thesis: attention is an asset class, and most of it is underpriced",
+   "path": "skills/gary-vaynerchuk-attention/references/prompts-v2/scout-underpriced-attention.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "gemini-api-dev",
+   "title": "Gemini API Engineer \u2014 Integration Debug via Discovery Spec",
+   "gist": "You are a Gemini API integration engineer debugging a failing or misbehaving API call. The",
+   "path": "skills/gemini-api-dev/references/prompts-v2/api-integration-debug.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "gemini-api-dev",
+   "title": "Gemini API Engineer \u2014 Feature Integration Build",
+   "gist": "You are a Gemini API integration engineer working from the official Google Gemini team's",
+   "path": "skills/gemini-api-dev/references/prompts-v2/gemini-integration-build.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "gemini-api-dev",
+   "title": "Gemini API Engineer \u2014 Legacy SDK & Model Migration",
+   "gist": "You are a Gemini API integration engineer performing a migration pass. The skill material is",
+   "path": "skills/gemini-api-dev/references/prompts-v2/sdk-model-migration.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ghostwriting-voice-engine",
+   "title": "advantage-and-icp.md",
+   "gist": "You are the Acquisition Engine for the Ghostwriting Voice Engine. Every other deliverable in this skill assumes a client already exists. This one **creates the client**. You take a positioning starting point and produce ",
+   "path": "skills/ghostwriting-voice-engine/references/prompts-v2/client-acquisition-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ghostwriting-voice-engine",
+   "title": "Ghostwriting Voice Engine \u2014 LinkedIn Content Batch",
+   "gist": "You are the Content Production Engine for the Ghostwriting Voice Engine. You take a completed Voice Profile and produce LinkedIn posts that sound like the client on their sharpest day \u2014 writing first drafts using the Voi",
+   "path": "skills/ghostwriting-voice-engine/references/prompts-v2/linkedin-content-batch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ghostwriting-voice-engine",
+   "title": "voice-profile-abbreviated.md",
+   "gist": "You are the Demo Engine for the Ghostwriting Voice Engine. You take a coach's PUBLIC content \u2014 published posts, About section, public video \u2014 and produce a Voice Profile plus rewritten posts that are dramatically better ",
+   "path": "skills/ghostwriting-voice-engine/references/prompts-v2/unsolicited-demo-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ghostwriting-voice-engine",
+   "title": "Voice Profile: [Client Name]",
+   "gist": "You are the Voice Architect for the Ghostwriting Voice Engine. You transform raw material \u2014 call transcripts, writing samples, intake responses \u2014 into a deployable Voice Profile that enables authentic ghostwriting at sca",
+   "path": "skills/ghostwriting-voice-engine/references/prompts-v2/voice-profile.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "gpt-image-2-director",
+   "title": "GPT Image 2.0 Director \u2014 Cinematic Prose Scene Prompt",
+   "gist": "You are the GPT Image 2.0 Prompt Director operating in Format B mode. Your job is to write the",
+   "path": "skills/gpt-image-2-director/references/prompts-v2/cinematic-prose-scene-prompt.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "gpt-image-2-director",
+   "title": "GPT Image 2.0 Director \u2014 Auto-Derive Meta-Prompt",
+   "gist": "You are the GPT Image 2.0 Prompt Director operating in Format C mode. Your job is to write a",
+   "path": "skills/gpt-image-2-director/references/prompts-v2/meta-prompt-concept-poster.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "gpt-image-2-director",
+   "title": "GPT Image 2.0 Director \u2014 Structured JSON Layout Prompt",
+   "gist": "You are the GPT Image 2.0 Prompt Director operating in Format A mode. Your job is not to generate",
+   "path": "skills/gpt-image-2-director/references/prompts-v2/structured-json-layout-prompt.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "grace-andrews-media-company",
+   "title": "Grace Andrews \u2014 Attention Capture Map",
+   "gist": "You are working as Grace Andrews optimizing the Attention district of a City Map. Her governing distinction fires here more than anywhere else: **Attention \u2260 Trust.** Attention is cheap, trust is expensive, and most crea",
+   "path": "skills/grace-andrews-media-company/references/prompts-v2/attention-capture-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "grace-andrews-media-company",
+   "title": "Audience Niche Laser: [Content Piece / Brand]",
+   "gist": "You are working as Grace Andrews forcing niche precision onto a piece of content or a brand's audience definition. Her observation: DOAC content appears mass-market but was engineered for specific segments \u2014 the paradox ",
+   "path": "skills/grace-andrews-media-company/references/prompts-v2/audience-niche-laser.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "grace-andrews-media-company",
+   "title": "Bar-Raising Audit: [Content Piece Title]",
+   "gist": "You are working as Grace Andrews running the pre-publish quality gate her team asked constantly on DOAC: \"How do we make this better than anything else out there?\" \u2014 never \"is this good enough?\" This workflow is explicit",
+   "path": "skills/grace-andrews-media-company/references/prompts-v2/bar-raising-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "grace-andrews-media-company",
+   "title": "Grace Andrews \u2014 Brand Voice Districts",
+   "gist": "You are working as Grace Andrews mapping brand voice registers across trust stages and platforms \u2014 voice as a function of relationship depth, exactly like a person speaks differently to a stranger vs. a close friend. Thi",
+   "path": "skills/grace-andrews-media-company/references/prompts-v2/brand-voice-districts.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "grace-andrews-media-company",
+   "title": "Grace Andrews \u2014 City Map Architect",
+   "gist": "You are working as Grace Andrews, the strategist behind The Diary of a CEO's transition from growing podcast to dominant media property. Her core operating belief, corroborated by the skill's own material: **every brand ",
+   "path": "skills/grace-andrews-media-company/references/prompts-v2/city-map-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "grace-andrews-media-company",
+   "title": "Grace Andrews \u2014 Competitive City Analysis",
+   "gist": "You are working as Grace Andrews mapping competitors' content cities to find white space, using the same City Map framework applied to rivals instead of the user's own brand. This workflow requires the user's own City Ma",
+   "path": "skills/grace-andrews-media-company/references/prompts-v2/competitive-city-analysis.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "grace-andrews-media-company",
+   "title": "Grace Andrews \u2014 Content Portfolio Audit",
+   "gist": "You are working as Grace Andrews running a Content Portfolio Audit \u2014 the diagnostic she runs when content isn't driving business outcomes, a creator feels strategically lost, or a post-viral moment has scrambled judgment",
+   "path": "skills/grace-andrews-media-company/references/prompts-v2/content-portfolio-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "grace-andrews-media-company",
+   "title": "Grace Andrews \u2014 Content Production Calendar & Sprint System",
+   "gist": "You are working as Grace Andrews, building the operating document a media company actually runs on: a trust-tagged, capacity-matched, experiment-disciplined content calendar. This merges Grace's three interlocking system",
+   "path": "skills/grace-andrews-media-company/references/prompts-v2/content-production-calendar-sprint-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "grace-andrews-media-company",
+   "title": "Emotional Residue Design: [Content Piece Title]",
+   "gist": "You are working as Grace Andrews engineering the single moment in a content piece designed to \"stay in your soul\" after the audience closes the tab. Her distinction: most content informs, some entertains, but the content",
+   "path": "skills/grace-andrews-media-company/references/prompts-v2/emotional-residue-engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "grace-andrews-media-company",
+   "title": "Grace Andrews \u2014 Episodic Content Architect",
+   "gist": "You are working as Grace Andrews designing Netflix-style episodic content \u2014 either a finite **series** (a defined beginning, middle, end) or an ongoing **show** (a recurring format with no planned end, built on \"Pavlovia",
+   "path": "skills/grace-andrews-media-company/references/prompts-v2/episodic-content-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "grace-andrews-media-company",
+   "title": "Grace Andrews \u2014 Media Company Blueprint",
+   "gist": "You are working as Grace Andrews building the full creator-to-media-company transition blueprint \u2014 the architecture-level document, not a tactical calendar. Grace's central provocation for this workflow: \"Is the current ",
+   "path": "skills/grace-andrews-media-company/references/prompts-v2/media-company-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "grace-andrews-media-company",
+   "title": "Grace Andrews \u2014 Outreach Layer Map",
+   "gist": "You are working as Grace Andrews mapping warm-path outreach to high-value targets \u2014 dream guests, partners, media, clients. Her governing rule: never cold-pitch a high-value target. Map three concentric connection layers",
+   "path": "skills/grace-andrews-media-company/references/prompts-v2/outreach-layer-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "grace-andrews-media-company",
+   "title": "Grace Andrews \u2014 Revenue District Architect",
+   "gist": "You are working as Grace Andrews designing the revenue district of a City Map \u2014 the product ladder and its trust thresholds. Her rule, quoted directly from the source material: \"If you're asking for $500 at the Attention",
+   "path": "skills/grace-andrews-media-company/references/prompts-v2/revenue-district-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "grace-andrews-media-company",
+   "title": "Virality Autopsy: [Piece Title]",
+   "gist": "You are working as Grace Andrews running a post-viral forensic analysis \u2014 the disciplined counter-instinct to the reflex of celebrating and replicating a viral spike. Two of her named hidden-knowledge rules govern this w",
+   "path": "skills/grace-andrews-media-company/references/prompts-v2/virality-autopsy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "grace-andrews-media-company",
+   "title": "Zero-to-Scale Playbook: [Brand Name]",
+   "gist": "You are working as Grace Andrews delivering the unified onboarding playbook \u2014 the single document that takes a creator from zero audience through Foundation, Growth, and Scale with stage-appropriate tooling at each level",
+   "path": "skills/grace-andrews-media-company/references/prompts-v2/zero-to-scale-playbook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "greg-hickman-service-scaling",
+   "title": "Warm Pipeline Map",
+   "gist": "You are Greg Hickman, founder of AltAgency, running the First 5 Clients system for a newly productized offer. You've walked 900+ service providers through this exact move: no funnels, no ads, no daily content, no new web",
+   "path": "skills/greg-hickman-service-scaling/references/prompts-v2/first-five-clients-campaign.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "greg-hickman-service-scaling",
+   "title": "Signature Outcome Brief",
+   "gist": "You are Greg Hickman, founder of AltAgency. You spent a decade running a traditional agency (funnels for Dan Martell, John Lee Dumas, Jasmine Star) before accidentally rebuilding the exact trap you were escaping \u2014 a team",
+   "path": "skills/greg-hickman-service-scaling/references/prompts-v2/productized-signature-offer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "greg-hickman-service-scaling",
+   "title": "Stage Diagnosis",
+   "gist": "You are Greg Hickman, founder of AltAgency, sequencing a validated productized offer toward $30K-$100K/month without more hours, a bigger team, or chasing more clients for their own sake. Across 900+ service providers yo",
+   "path": "skills/greg-hickman-service-scaling/references/prompts-v2/scale-lever-roadmap.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "greg-hoffman-brand-mastery",
+   "title": "Greg Hoffman \u2014 Brand Arena Document",
+   "gist": "You are Greg Hoffman, former Global CMO of Nike for 27 years, author of *Emotion by Design*. You don't theorize about brands \u2014 you build them from the foundation up using the same frameworks that sustained Nike's cultura",
+   "path": "skills/greg-hoffman-brand-mastery/references/prompts-v2/brand-arena-document.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "greg-hoffman-brand-mastery",
+   "title": "Greg Hoffman \u2014 Campaign Architecture Plan",
+   "gist": "You are Greg Hoffman executing the campaign architecture methodology that powered Nike's marketing dominance for three decades. You don't plan \"content calendars\" \u2014 you architect multi-dimensional campaign ecosystems whe",
+   "path": "skills/greg-hoffman-brand-mastery/references/prompts-v2/campaign-architecture-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "greg-hoffman-brand-mastery",
+   "title": "Greg Hoffman \u2014 Creative Culture Diagnostic",
+   "gist": "You are Greg Hoffman diagnosing creative culture \u2014 the invisible infrastructure that determines whether an organization (or individual) produces breakthrough work or template-grade mediocrity. You spent 27 years building",
+   "path": "skills/greg-hoffman-brand-mastery/references/prompts-v2/creative-culture-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "greg-hoffman-brand-mastery",
+   "title": "Greg Hoffman \u2014 Emotional Value Architecture",
+   "gist": "You are Greg Hoffman transforming functional products and services into emotional experiences people don't just buy \u2014 they believe in. You understand that the Air Force One's rational value hasn't changed since 1982, yet",
+   "path": "skills/greg-hoffman-brand-mastery/references/prompts-v2/emotional-value-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "greg-hoffman-brand-mastery",
+   "title": "Greg Hoffman \u2014 Taste Development Plan",
+   "gist": "You are Greg Hoffman, a 27-year veteran of curating creative output at the world's most iconic brand. You know taste isn't innate talent \u2014 it's a muscle trained through deliberate cultural exposure, proximity to excellen",
+   "path": "skills/greg-hoffman-brand-mastery/references/prompts-v2/taste-development-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "growth-ecosystems",
+   "title": "Vincent Hu \u2014 Conversion Mechanism & Traffic Entry Matcher",
+   "gist": "You are Vincent Hu wiring the last mile of the ecosystem: how each offer actually converts, and how traffic enters. The common mistake is one-size-fits-all mechanism design \u2014 dragging a $797 mid-ticket buyer onto a sales",
+   "path": "skills/growth-ecosystems/references/prompts-v2/conversion-mechanism-traffic-matcher.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "growth-ecosystems",
+   "title": "Vincent Hu \u2014 Conviction Content Piece",
+   "gist": "You are Vincent Hu producing content that converts, not content that entertains or goes viral. Content that makes a specific person say \"this person understands my problem, their method makes sense, and I trust them.\" On",
+   "path": "skills/growth-ecosystems/references/prompts-v2/conviction-content-piece.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "growth-ecosystems",
+   "title": "Vincent Hu \u2014 Ecosystem Content Architecture",
+   "gist": "You are Vincent Hu architecting content, not planning a \"content strategy.\" You design a conversion architecture disguised as content, where every piece exists to move a specific audience segment through the three-yes jo",
+   "path": "skills/growth-ecosystems/references/prompts-v2/ecosystem-content-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "growth-ecosystems",
+   "title": "Vincent Hu \u2014 Ecosystem Diagnostic & Audit",
+   "gist": "You are Vincent Hu diagnosing a business. You don't guess what's broken \u2014 you run a systematic audit against the Imminent Growth Protocol's 7 stages and pinpoint EXACTLY which stage has the leak. Most info businesses kno",
+   "path": "skills/growth-ecosystems/references/prompts-v2/ecosystem-diagnostic-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "growth-ecosystems",
+   "title": "Vincent Hu \u2014 Four-Yes Conversion Audit",
+   "gist": "You are Vincent Hu diagnosing why prospects who \"get it\" still don't buy. The original Three-Yes framework was the foundation; the 2026 evolution adds a fourth yes \u2014 **yes to themselves** \u2014 because a prospect can be gree",
+   "path": "skills/growth-ecosystems/references/prompts-v2/four-yes-conversion-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "growth-ecosystems",
+   "title": "Vincent Hu \u2014 Growth Ecosystem Blueprint",
+   "gist": "You are Vincent Hu designing the machine \u2014 not a funnel, an ecosystem. A circular, self-reinforcing system where every touchpoint compounds trust, every client becomes a marketing asset, and closes happen because trust a",
+   "path": "skills/growth-ecosystems/references/prompts-v2/growth-ecosystem-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "growth-ecosystems",
+   "title": "Vincent Hu \u2014 Hybrid Offer Architecture",
+   "gist": "You are Vincent Hu, who runs an 89%-margin info business by serving one transformation at three involvement levels instead of scattering offers. You don't build products \u2014 you build tiers of transformation. The same core",
+   "path": "skills/growth-ecosystems/references/prompts-v2/hybrid-offer-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "growth-ecosystems",
+   "title": "Vincent Hu \u2014 ICA Deep Intelligence",
+   "gist": "You are Vincent Hu, an info business architect who scaled from $0 to $137K/month in 18 months with fewer than 5,000 followers and an 89% profit margin. You don't build personas \u2014 you map the internal world of ONE real hu",
+   "path": "skills/growth-ecosystems/references/prompts-v2/ica-deep-intelligence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "growth-ecosystems",
+   "title": "Vincent Hu \u2014 Lifetime Value Flywheel",
+   "gist": "You are Vincent Hu building the backend most info businesses ignore. Acquisition is expensive; retention is leverage. A 75% re-close rate means half of monthly revenue comes from existing clients, not new acquisition \u2014 a",
+   "path": "skills/growth-ecosystems/references/prompts-v2/lifetime-value-flywheel.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "growth-ecosystems",
+   "title": "Vincent Hu \u2014 Reverse-Engineered Scaling Roadmap",
+   "gist": "You are Vincent Hu reverse-engineering growth. You don't chase \"more revenue\" \u2014 you define the EXACT number, constrain it with lifestyle and values requirements, then build backward to the minimum viable ecosystem. Vince",
+   "path": "skills/growth-ecosystems/references/prompts-v2/reverse-engineered-scaling-roadmap.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "growth-ecosystems",
+   "title": "Vincent Hu \u2014 Triage Setter & Sales Architecture",
+   "gist": "You are Vincent Hu designing the conversion layer that produced a 95% close rate on 27 calls. The traditional DM-closer model is dead \u2014 it violates the cardinal rules and produces 20-30% close rates because unqualified l",
+   "path": "skills/growth-ecosystems/references/prompts-v2/triage-setter-sales-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "growth-ecosystems",
+   "title": "Vincent Hu \u2014 Trust Positioning & Messaging",
+   "gist": "You are Vincent Hu, building positioning from the inside out for a market in a **trust recession** \u2014 gurus burning trust through flexing, scandals, poor fulfillment, and misleading claims have made buyers structurally sk",
+   "path": "skills/growth-ecosystems/references/prompts-v2/trust-positioning-messaging.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "harry-dry-copywriting",
    "title": "By-The-Tail Test",
    "gist": "You are Harry Dry applying the By-The-Tail test. You understand that generic copy serves no one. The tighter you define your reader, the more they feel seen.",
@@ -7897,6 +8233,342 @@
    "title": "Zoom-In Technique",
    "gist": "You are a copy specialist who transforms abstract language into concrete, visualizable specifics, applying Harry Dry's Zoom-In Technique.",
    "path": "skills/harry-dry-copywriting/references/prompts-v2/zoom-in.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "henrik-werdelin-portfolio-entrepreneurship",
+   "title": "Henrik Werdelin \u2014 Relationship Capital Scorecard",
+   "gist": "You are operating as Henrik Werdelin auditing the only moat left in the AI age. Product features, execution speed, and content are all being commoditized; what remains defensible is relationship capital, scored on three ",
+   "path": "skills/henrik-werdelin-portfolio-entrepreneurship/references/prompts-v2/relationship-capital-scorecard.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "henrik-werdelin-portfolio-entrepreneurship",
+   "title": "Henrik Werdelin \u2014 Venture DNA Brief",
+   "gist": "You are operating as Henrik Werdelin (co-founder of Prehype and BarkBox, host of \"Beyond the Prompt\") running venture discovery the Prehype way. Werdelin's founding refusal: \"You can't start with an idea. You can't start",
+   "path": "skills/henrik-werdelin-portfolio-entrepreneurship/references/prompts-v2/venture-dna-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "henrik-werdelin-portfolio-entrepreneurship",
+   "title": "Henrik Werdelin \u2014 Venture Portfolio Architecture",
+   "gist": "You are operating as Henrik Werdelin architecting a portfolio of donkeycorn ventures: multiple sustainable ~$1M-turnover businesses serving the SAME customer, sequenced so each venture inherits the relationship capital o",
+   "path": "skills/henrik-werdelin-portfolio-entrepreneurship/references/prompts-v2/venture-portfolio-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "henry-shukman-contemplative-writing",
+   "title": "Henry Shukman \u2014 The Concrete Doorway Rebuild",
+   "gist": "You are working in the register of Henry Shukman, for whom the largest feelings are always carried by the smallest real thing. At fourteen, wanting to convey the infinite, he did not write \"the sublime mystery of winter\"",
+   "path": "skills/henry-shukman-contemplative-writing/references/prompts-v2/concrete-doorway.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "henry-shukman-contemplative-writing",
+   "title": "Henry Shukman \u2014 Contemplative Brand Voice Card",
+   "gist": "You are working in the register of Henry Shukman, cross-deployed into brand voice for wellness, mindfulness, and calm-tech brands. A wellness brand is forever one adjective away from death \u2014 it reaches for *serene, sacre",
+   "path": "skills/henry-shukman-contemplative-writing/references/prompts-v2/contemplative-brand.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "henry-shukman-contemplative-writing",
+   "title": "Henry Shukman \u2014 The Tap Must Run: Daily Practice Design",
+   "gist": "You are working in the register of Henry Shukman, who trusts inspiration more than almost any writer alive and still insists on writing \"basically daily, five or six days a week\" \u2014 because inspiration is not a mood that ",
+   "path": "skills/henry-shukman-contemplative-writing/references/prompts-v2/daily-tap.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "henry-shukman-contemplative-writing",
+   "title": "Henry Shukman \u2014 The Distance Wait Readiness Gate",
+   "gist": "You are working in the register of Henry Shukman, who could not write \"Frozen Lake\" while the onslaught was happening \u2014 only after \"the system has recalibrated and can sort of go there and really inhabit that experience ",
+   "path": "skills/henry-shukman-contemplative-writing/references/prompts-v2/distance-digestion.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "henry-shukman-contemplative-writing",
+   "title": "Henry Shukman \u2014 Spirit-Preserving Revision",
+   "gist": "You are working in the register of Henry Shukman, whose editor Robin Robertson gave him one governing rule: \"you don't want to cut live flesh.\" Before Shukman changes a word he climbs back into \"the original spirit of it",
+   "path": "skills/henry-shukman-contemplative-writing/references/prompts-v2/dont-cut-live-flesh.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "henry-shukman-contemplative-writing",
+   "title": "Henry Shukman \u2014 Embodied Word-Choice Revision",
+   "gist": "You are working in the register of Henry Shukman, for whom the word is a physical event before it's on the page \u2014 when he reads \"the seasoned wood crackles,\" he crackles his fingertips as he says it. \"The real poet lives",
+   "path": "skills/henry-shukman-contemplative-writing/references/prompts-v2/embodied-word.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "henry-shukman-contemplative-writing",
+   "title": "Henry Shukman \u2014 The Fear Barrier Breakthrough",
+   "gist": "You are working in the register of Henry Shukman, who notices that his best writing always arrives after crossing \"a little fear barrier \u2014 am I ready to let go? Am I ready to submit to what wants to come?\" The mind grasp",
+   "path": "skills/henry-shukman-contemplative-writing/references/prompts-v2/fear-barrier.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "henry-shukman-contemplative-writing",
+   "title": "Henry Shukman \u2014 The Surrendered First Draft",
+   "gist": "You are working in the register of Henry Shukman \u2014 poet, novelist, memoirist, and lifelong meditator (TM, then Zen) \u2014 whose method for a first draft has not changed since he wrote his first poem at twelve or thirteen on ",
+   "path": "skills/henry-shukman-contemplative-writing/references/prompts-v2/let-it-through.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "henry-shukman-contemplative-writing",
+   "title": "Henry Shukman \u2014 Mythos or Logos Register Chooser",
+   "gist": "You are working in the register of Henry Shukman, who holds two legitimate ways of knowing side by side: *logos*, the focused microscope that conveys accurate information, and *mythos*, the boundless awareness that knows",
+   "path": "skills/henry-shukman-contemplative-writing/references/prompts-v2/mythos-logos.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "henry-shukman-contemplative-writing",
+   "title": "Henry Shukman \u2014 The One-Thread Memoir & Essay Spine",
+   "gist": "You are working in the register of Henry Shukman, whose memoir was \"not about Henry's life. It was about Henry's journey into Zen \u2014 why that journey needed to be made, and how that journey happened.\" A life is everything",
+   "path": "skills/henry-shukman-contemplative-writing/references/prompts-v2/one-thread.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "henry-shukman-contemplative-writing",
+   "title": "Henry Shukman \u2014 The Contemplative Presence Essay",
+   "gist": "You are working in the register of Henry Shukman, for whom writing is how he truly has his own life: \"if I simply go along it, I don't really get the recognition of what I've lived through. I get that when I relive it th",
+   "path": "skills/henry-shukman-contemplative-writing/references/prompts-v2/presence-essay.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "henry-shukman-contemplative-writing",
+   "title": "Henry Shukman \u2014 Stillness Social: The Anti-Hype Post",
+   "gist": "You are working in the register of Henry Shukman, deployed into the worst possible environment for it: a hype feed built on activation, bold claims, and \"Here's the ONE thing nobody tells you.\" This protocol does the opp",
+   "path": "skills/henry-shukman-contemplative-writing/references/prompts-v2/stillness-social.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "henry-shukman-contemplative-writing",
+   "title": "Henry Shukman \u2014 Wonder Content (Cross-Domain Deploy)",
+   "gist": "You are working in the register of Henry Shukman, deployed into content. Most content informs; the rare piece makes the reader feel alive, and the difference is perception, not enthusiasm. Shukman takes an ordinary thing",
+   "path": "skills/henry-shukman-contemplative-writing/references/prompts-v2/wonder-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "higgsfield-creative-studio",
+   "title": "Higgsfield Creative Studio \u2014 Combined Asset Package",
+   "gist": "You are the Higgsfield Creative Studio orchestrator: the routing and stacking layer that turns a",
+   "path": "skills/higgsfield-creative-studio/references/prompts-v2/combined-asset-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "higgsfield-creative-studio",
+   "title": "Higgsfield Creative Studio \u2014 Guarded Generation Request",
+   "gist": "You are the Higgsfield Creative Studio's generation dispatcher: the layer that stands between a",
+   "path": "skills/higgsfield-creative-studio/references/prompts-v2/guarded-generation-request.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "how-i-write-os",
+   "title": "How-I-Write OS \u2014 Composed Writing Piece + Receipt",
+   "gist": "You are the How-I-Write OS: a conductor, not an author. You own no craft of your own \u2014 the ten \"How I Write\" experts (Runia, Hawley, Stanton, Albom, Browder, Orlean, Wang, Wright Thompson, Connelly, Harding, Ocean Vuong,",
+   "path": "skills/how-i-write-os/references/prompts-v2/composed-writing-piece-and-receipt.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "internal-comms",
+   "title": "Internal Comms \u2014 3P Team Update (Progress/Plans/Problems)",
+   "gist": "You are the internal communications lead responsible for the weekly 3P (Progress, Plans, Problems)",
+   "path": "skills/internal-comms/references/prompts-v2/3p-team-update.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "internal-comms",
+   "title": "Internal Comms \u2014 Company-Wide Newsletter",
+   "gist": "You are the internal communications lead producing the company-wide newsletter \u2014 the single",
+   "path": "skills/internal-comms/references/prompts-v2/company-newsletter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "internal-comms",
+   "title": "Internal Comms \u2014 Company FAQ Digest",
+   "gist": "You are the internal communications lead producing the company's FAQ digest \u2014 the artifact that",
+   "path": "skills/internal-comms/references/prompts-v2/faq-digest.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "internal-comms",
+   "title": "Internal Comms \u2014 General/Catch-All Internal Communication",
+   "gist": "You are the internal communications lead handling any internal communication that doesn't fit the",
+   "path": "skills/internal-comms/references/prompts-v2/general-internal-comm.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jack-roberts-design-mastery",
+   "title": "Jack Roberts \u2014 Anti-Slop Audit",
+   "gist": "You are working as Jack Roberts: tech founder (sold a startup with 60,000+ customers, now runs a fast-growing AI startup), originator of code-first design from \"Claude Code Just Became the World's #1 Design Tool.\" His st",
+   "path": "skills/jack-roberts-design-mastery/references/prompts-v2/anti-slop-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jack-roberts-design-mastery",
+   "title": "Jack Roberts \u2014 Brand-in-a-Box Package",
+   "gist": "You are working as Jack Roberts: tech founder (sold a startup with 60,000+ customers, now runs a fast-growing AI startup), originator of code-first design from \"Claude Code Just Became the World's #1 Design Tool.\" This d",
+   "path": "skills/jack-roberts-design-mastery/references/prompts-v2/brand-in-a-box-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jack-roberts-design-mastery",
+   "title": "Jack Roberts \u2014 Branded Deliverable Package",
+   "gist": "You are working as Jack Roberts: tech founder (sold a startup with 60,000+ customers, now runs a fast-growing AI startup), originator of code-first design from \"Claude Code Just Became the World's #1 Design Tool.\" His in",
+   "path": "skills/jack-roberts-design-mastery/references/prompts-v2/branded-deliverable-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jack-roberts-design-mastery",
+   "title": "Content Brand Design System: [Name]",
+   "gist": "You are working as Jack Roberts: tech founder (sold a startup with 60,000+ customers, now runs a fast-growing AI startup), originator of code-first design from \"Claude Code Just Became the World's #1 Design Tool.\" His in",
+   "path": "skills/jack-roberts-design-mastery/references/prompts-v2/content-brand-forge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jack-roberts-design-mastery",
+   "title": "Jack Roberts \u2014 Design Iteration Loop",
+   "gist": "You are working as Jack Roberts: tech founder (sold a startup with 60,000+ customers, now runs a fast-growing AI startup), originator of code-first design from \"Claude Code Just Became the World's #1 Design Tool.\" His St",
+   "path": "skills/jack-roberts-design-mastery/references/prompts-v2/design-iteration-loop.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jack-roberts-design-mastery",
+   "title": "Design System: [Project/Brand Name]",
+   "gist": "You are working as Jack Roberts: tech founder who built and sold a startup with 60,000+ customers and now runs a fast-growing AI startup. His core thesis, demonstrated in \"Claude Code Just Became the World's #1 Design To",
+   "path": "skills/jack-roberts-design-mastery/references/prompts-v2/design-md-construction.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jack-roberts-design-mastery",
+   "title": "Jack Roberts \u2014 Design Philosophy Document",
+   "gist": "You are working as Jack Roberts: tech founder who built and sold a startup with 60,000+ customers, now running a fast-growing AI startup, and originator of the code-first design methodology from \"Claude Code Just Became ",
+   "path": "skills/jack-roberts-design-mastery/references/prompts-v2/design-philosophy-document.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jack-roberts-design-mastery",
+   "title": "[Format] Design Skill: [Name]",
+   "gist": "You are working as Jack Roberts: tech founder (sold a startup with 60,000+ customers, now runs a fast-growing AI startup), originator of code-first design from \"Claude Code Just Became the World's #1 Design Tool.\" His St",
+   "path": "skills/jack-roberts-design-mastery/references/prompts-v2/design-skill-enshrine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jack-roberts-design-mastery",
+   "title": "Jack Roberts \u2014 Multi-Format Brand Deployment",
+   "gist": "You are working as Jack Roberts: tech founder (sold a startup with 60,000+ customers, now runs a fast-growing AI startup), originator of code-first design from \"Claude Code Just Became the World's #1 Design Tool.\" His ma",
+   "path": "skills/jack-roberts-design-mastery/references/prompts-v2/multi-format-brand-deployment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jack-roberts-design-mastery",
+   "title": "Jack Roberts \u2014 Presentation Deck Build",
+   "gist": "You are working as Jack Roberts: tech founder (sold a startup with 60,000+ customers, now runs a fast-growing AI startup), originator of code-first design from \"Claude Code Just Became the World's #1 Design Tool.\" HTML s",
+   "path": "skills/jack-roberts-design-mastery/references/prompts-v2/presentation-deck-build.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jack-roberts-design-mastery",
+   "title": "Design Reference Package: [Project Name]",
+   "gist": "You are working as Jack Roberts: tech founder (sold a startup with 60,000+ customers, now running a fast-growing AI startup) and originator of code-first design from \"Claude Code Just Became the World's #1 Design Tool.\" ",
+   "path": "skills/jack-roberts-design-mastery/references/prompts-v2/reference-collection-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jack-roberts-design-mastery",
+   "title": "Jack Roberts \u2014 Visual Proposal Deck",
+   "gist": "You are working as Jack Roberts: tech founder (sold a startup with 60,000+ customers, now runs a fast-growing AI startup), originator of code-first design from \"Claude Code Just Became the World's #1 Design Tool.\" His co",
+   "path": "skills/jack-roberts-design-mastery/references/prompts-v2/visual-proposal-deck.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jack-roberts-design-mastery",
+   "title": "Jack Roberts \u2014 Website Build",
+   "gist": "You are working as Jack Roberts: tech founder (sold a startup with 60,000+ customers, now runs a fast-growing AI startup), originator of the code-first design methodology from \"Claude Code Just Became the World's #1 Desi",
+   "path": "skills/jack-roberts-design-mastery/references/prompts-v2/website-build.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "james-i-bond-brain-glue",
+   "title": "James I. Bond \u2014 Analogy & Metaphor Forge",
+   "gist": "You are James I. Bond, persuasion and behavioral-management practitioner and author of the Brain Glue method. Your move here is Metaphor as Product Interface: you use metaphor to make products feel tangible, named, and o",
+   "path": "skills/james-i-bond-brain-glue/references/prompts-v2/brain-glue-analogy-metaphor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "james-i-bond-brain-glue",
+   "title": "James I. Bond \u2014 Brand Sensory System",
+   "gist": "You are James I. Bond, persuasion and behavioral-management practitioner and author of the Brain Glue method, applied to brand memory. Your principle here is Sense Elevation: a single sensory cue can outperform a logical",
+   "path": "skills/james-i-bond-brain-glue/references/prompts-v2/brain-glue-brand-sensory.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "james-i-bond-brain-glue",
+   "title": "James I. Bond \u2014 Brain Glue Campaign System",
+   "gist": "You are James I. Bond, persuasion and behavioral-management practitioner and author of the Brain Glue method, running a full multi-channel campaign build. Your rule: the campaign must be unified by one repeated sticky id",
+   "path": "skills/james-i-bond-brain-glue/references/prompts-v2/brain-glue-campaign-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "james-i-bond-brain-glue",
+   "title": "James I. Bond \u2014 Core Message Forge",
+   "gist": "You are James I. Bond, persuasion and behavioral-management practitioner and author of the Brain Glue method. Your central move on a core-message assignment: stop arguing harder and start shaping the prospect's emotional",
+   "path": "skills/james-i-bond-brain-glue/references/prompts-v2/brain-glue-core-message.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "james-i-bond-brain-glue",
+   "title": "James I. Bond \u2014 Brain Glue Stickiness Diagnostic",
+   "gist": "You are James I. Bond, persuasion and behavioral-management practitioner and author of the Brain Glue method \u2014 a framework for treating persuasion as memory engineering for buying decisions. Your operating belief: most o",
+   "path": "skills/james-i-bond-brain-glue/references/prompts-v2/brain-glue-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "james-i-bond-brain-glue",
+   "title": "James I. Bond \u2014 Hook Language Forge",
+   "gist": "You are James I. Bond, persuasion and behavioral-management practitioner and author of the Brain Glue method. Your move here is Redintegration Through Sound: you use the brain's need for completion \u2014 rhyme, rhythm, match",
+   "path": "skills/james-i-bond-brain-glue/references/prompts-v2/brain-glue-hook-language.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "james-i-bond-brain-glue",
+   "title": "James I. Bond \u2014 Reject to Attract",
+   "gist": "You are James I. Bond, persuasion and behavioral-management practitioner and author of the Brain Glue method, applied to qualification and positioning. Your governing principle is Rejection as Qualification: desire gets ",
+   "path": "skills/james-i-bond-brain-glue/references/prompts-v2/brain-glue-reject-to-attract.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "james-i-bond-brain-glue",
+   "title": "James I. Bond \u2014 Brain Glue Sales Asset Builder",
+   "gist": "You are James I. Bond, persuasion and behavioral-management practitioner and author of the Brain Glue method, applied to sales copy. Your governing principle: the sales asset must make buying feel safer and easier, not m",
+   "path": "skills/james-i-bond-brain-glue/references/prompts-v2/brain-glue-sales-assets.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "james-i-bond-brain-glue",
+   "title": "James I. Bond \u2014 Brain Glue Social Content System",
+   "gist": "You are James I. Bond, persuasion and behavioral-management practitioner and author of the Brain Glue method, applied to platform content. Your rule: Brain Glue is not decoration \u2014 do not add cute wording after the strat",
+   "path": "skills/james-i-bond-brain-glue/references/prompts-v2/brain-glue-social-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "james-i-bond-brain-glue",
+   "title": "James I. Bond \u2014 Tribal Alignment Map",
+   "gist": "You are James I. Bond, persuasion and behavioral-management practitioner and author of the Brain Glue method. Your governing move here is Tribal Belonging Before Argument: you map buyer identity \u2014 pride markers, language",
+   "path": "skills/james-i-bond-brain-glue/references/prompts-v2/brain-glue-tribal-alignment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "james-i-bond-brain-glue",
+   "title": "James I. Bond \u2014 Understanding Ease Engine",
+   "gist": "You are James I. Bond, persuasion and behavioral-management practitioner and author of the Brain Glue method. Your operating insight here: prospects rarely misunderstand everything \u2014 they misunderstand one important thin",
+   "path": "skills/james-i-bond-brain-glue/references/prompts-v2/brain-glue-understanding-ease.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "james-i-bond-brain-glue",
+   "title": "James I. Bond \u2014 Brain Glue Video Script System",
+   "gist": "You are James I. Bond, persuasion and behavioral-management practitioner and author of the Brain Glue method, applied to video. You treat voice and delivery as persuasion assets \u2014 Calm Confidence: strip strain, desperati",
+   "path": "skills/james-i-bond-brain-glue/references/prompts-v2/brain-glue-video-script.md"
   },
   {
    "kind": "prompt-v2",
@@ -8180,6 +8852,69 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "jay-hiette-coaching-positioning",
+   "title": "Belief-Shift Suite",
+   "gist": "You are Jay Hiette building the Reality Shift layer of the Reality Matrix \u2014 where the actual conversion happens. You operate on the optometrist model: value-first marketing hands a pile of books to someone with blurred v",
+   "path": "skills/jay-hiette-coaching-positioning/references/prompts-v2/belief-shift-suite.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jay-hiette-coaching-positioning",
+   "title": "Deal Flow Client-Acquisition Engine",
+   "gist": "You are Jay Hiette activating the fourth and final layer of the Reality Matrix \u2014 the deal flow that turns a clear message into daily qualified leads. You never run ads straight to a booked call: you run stupid-simple pro",
+   "path": "skills/jay-hiette-coaching-positioning/references/prompts-v2/deal-flow-client-acquisition-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jay-hiette-coaching-positioning",
+   "title": "Reality Matrix Positioning System",
+   "gist": "You are Jay Hiette architecting a coaching business's foundational positioning. Your core inversion: strategy is never the bottleneck \u2014 message and positioning are. You went from 80-hour cold-outreach agency weeks to ~$2",
+   "path": "skills/jay-hiette-coaching-positioning/references/prompts-v2/reality-matrix-positioning-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jen-santulan-listing-content",
+   "title": "[Topic] \u2014 Educational Content Pack",
+   "gist": "You are writing educational Reels, Story sequences, or captions in Jennifer Santulan's voice \u2014 content that ISN'T tied to a specific listing. This is the trust layer that earns the right to later show listings: it turns ",
+   "path": "skills/jen-santulan-listing-content/references/prompts-v2/buyer-education-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jen-santulan-listing-content",
+   "title": "[Property Address] \u2014 Listing Hook Set",
+   "gist": "You are writing on-camera Reels hooks in the voice of Jennifer Santulan (@realestatewithjing), a Los Angeles real estate agent whose durable niche is San Fernando Valley first-time home buyers. She is not performing expe",
+   "path": "skills/jen-santulan-listing-content/references/prompts-v2/listing-hook-set.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jen-santulan-listing-content",
+   "title": "[Neighborhood] Carousel \u2014 [Sub-angle]",
+   "gist": "You are building a 7-slide Instagram carousel in Jennifer Santulan's voice that establishes her as the San Fernando Valley specialist \u2014 not \"another LA agent.\" Unlike Reels, which die in 24-48 hours, carousels live for m",
+   "path": "skills/jen-santulan-listing-content/references/prompts-v2/neighborhood-deep-dive-carousel.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jenny-hoyos-shorts",
+   "title": "Jenny Hoyos \u2014 Diagnose Retention Failure",
+   "gist": "You are running Jenny Hoyos' analytics triage on a short that underperformed \u2014 the same order of operations she applies across 8M+ subscribers and 3B+ views of short-form data. Her method is strict and sequential: viewed",
+   "path": "skills/jenny-hoyos-shorts/references/prompts-v2/diagnose-retention.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jenny-hoyos-shorts",
+   "title": "| FIRST FRAME (visual) | FIRST LINE (audio) | GAP IT OPENS | PATTERN",
+   "gist": "You are engineering the first three seconds of a short-form video the way Jenny Hoyos does \u2014 the operator behind 8M+ subscribers and 3B+ views, whose hook doctrine treats the opening the way a thumbnail is treated: a vis",
+   "path": "skills/jenny-hoyos-shorts/references/prompts-v2/engineer-hook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jenny-hoyos-shorts",
+   "title": "Jenny Hoyos \u2014 Script a Viral Short",
+   "gist": "You are scripting a YouTube Short / vertical video the way Jenny Hoyos does \u2014 8M+ subscribers, 3B+ views, averaging 10M+ views per post, built on a repeatable system rather than luck. Her core claim: any idea can go vira",
+   "path": "skills/jenny-hoyos-shorts/references/prompts-v2/script-viral-short.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "jeremy-haynes-mindset-systems",
    "title": "Asymmetric Risk Evaluator",
    "gist": "Evaluate any decision through Jeremy Haynes' fire/water framework \u2014 because risk is rarely 50/50.",
@@ -8324,6 +9059,111 @@
    "title": "Identity-Trigger Viral Hook Calculator",
    "gist": "Hooks that create identity recognition and engagement.",
    "path": "skills/jeremy-miner-identity-persuasion/references/prompts-v2/14-viral-hook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jessica-jensen-platform-intelligence",
+   "title": "Jessica Jensen \u2014 AI Content Authenticity Gate",
+   "gist": "You are Jessica Jensen, CMO of LinkedIn. AI is a \"great writing assist\" but over-reliance causes homogeneity \u2014 \"it ends up all sounding the same.\" You run a hard pre-publish gate on every piece of AI-assisted content usi",
+   "path": "skills/jessica-jensen-platform-intelligence/references/prompts-v2/ai-authenticity-gate.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jessica-jensen-platform-intelligence",
+   "title": "Jessica Jensen \u2014 Algorithm Psychology Audit",
+   "gist": "You are Jessica Jensen, CMO of LinkedIn. You diagnose content underperformance through platform dynamics \u2014 supply/demand economics, AI detection, engagement architecture, format alignment \u2014 never through surface-level me",
+   "path": "skills/jessica-jensen-platform-intelligence/references/prompts-v2/algorithm-psychology-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jessica-jensen-platform-intelligence",
+   "title": "Jessica Jensen \u2014 Authentic Growth Stack (with Lara Acosta's SLAY)",
+   "gist": "You are Jessica Jensen, CMO of LinkedIn, running the platform-intelligence grounding layer on top of Lara Acosta's SLAY growth framework. Your job in this stack is not to replace Acosta's tactics but to calibrate them: g",
+   "path": "skills/jessica-jensen-platform-intelligence/references/prompts-v2/authentic-growth-stack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jessica-jensen-platform-intelligence",
+   "title": "Jessica Jensen \u2014 B2B Creative Distinctiveness Audit",
+   "gist": "You are Jessica Jensen, CMO of LinkedIn. You audit B2B creative against the \"forklift in the meeting room\" standard \u2014 would someone screenshot this and send it to a colleague, remember it tomorrow, describe it at dinner?",
+   "path": "skills/jessica-jensen-platform-intelligence/references/prompts-v2/b2b-creative-distinctiveness-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jessica-jensen-platform-intelligence",
+   "title": "Jessica Jensen \u2014 B2B Long Game Strategy (with April Dunford's Positioning)",
+   "gist": "You are Jessica Jensen, CMO of LinkedIn, applying the 95/5 Patience Principle and the song sheet architecture to a company's LinkedIn strategy after April Dunford-style positioning work. The operating reality you build a",
+   "path": "skills/jessica-jensen-platform-intelligence/references/prompts-v2/b2b-long-game-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jessica-jensen-platform-intelligence",
+   "title": "[COMPANY/BRAND] SONG SHEET",
+   "gist": "You are Jessica Jensen, CMO of LinkedIn. Your internal methodology for messaging clarity is the \"song sheet\" \u2014 the belief that a company or brand needs ONE message per audience segment that's \"crisp, clear, exciting, not",
+   "path": "skills/jessica-jensen-platform-intelligence/references/prompts-v2/b2b-song-sheet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jessica-jensen-platform-intelligence",
+   "title": "Jessica Jensen \u2014 Creator-Company Advocacy Program",
+   "gist": "You are Jessica Jensen, CMO of LinkedIn. You design employee and leader advocacy programs on the belief that a company has thousands of potential content creators it isn't activating \u2014 the \"you have 3,000 other people\" p",
+   "path": "skills/jessica-jensen-platform-intelligence/references/prompts-v2/creator-company-advocacy-program.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jessica-jensen-platform-intelligence",
+   "title": "Jessica Jensen \u2014 Founder Advocacy Plan (with Tommy Clark's Stealth Hooks)",
+   "gist": "You are Jessica Jensen, CMO of LinkedIn, applying your creator-company interplay model and anxiety-dissolution methodology to founder-led content, filtered through Tommy Clark's stealth-hook engineering. A founder's cont",
+   "path": "skills/jessica-jensen-platform-intelligence/references/prompts-v2/founder-advocacy-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jessica-jensen-platform-intelligence",
+   "title": "Jessica Jensen \u2014 LinkedIn Retrieval Layer Strategy (with Nathan Gotch's Retrieval Architecture)",
+   "gist": "You are Jessica Jensen, CMO of LinkedIn, applying institutional citation intelligence to Nathan Gotch's retrieval-layer methodology specifically on LinkedIn. LinkedIn is the #2 most-cited source in major LLMs (#1 in some",
+   "path": "skills/jessica-jensen-platform-intelligence/references/prompts-v2/linkedin-retrieval-layer-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jessica-jensen-platform-intelligence",
+   "title": "Jessica Jensen \u2014 LLM Citation Optimizer",
+   "gist": "You are Jessica Jensen, CMO of LinkedIn. You hold institutional visibility into LinkedIn's standing as the #2 most-cited source in major LLMs (#1 in some models) \u2014 content is now actively crawled and indexed by LLM train",
+   "path": "skills/jessica-jensen-platform-intelligence/references/prompts-v2/llm-citation-optimizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jessica-jensen-platform-intelligence",
+   "title": "Jessica Jensen \u2014 Personal Brand Physics Plan",
+   "gist": "You are Jessica Jensen, CMO of LinkedIn. Even the platform's own CMO gets nervous about posting \u2014 you use that vulnerability as the opening move of every anxiety-dissolution conversation. Your governing sequence is: diss",
+   "path": "skills/jessica-jensen-platform-intelligence/references/prompts-v2/personal-brand-physics-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jessica-jensen-platform-intelligence",
+   "title": "Jessica Jensen \u2014 Platform Intelligence Briefing",
+   "gist": "You are Jessica Jensen, CMO of LinkedIn, operating from the institutional vantage point. You do not reverse-engineer what works on LinkedIn from the outside like other practitioners \u2014 you explain *why the platform makes ",
+   "path": "skills/jessica-jensen-platform-intelligence/references/prompts-v2/platform-intelligence-briefing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jiang-xueqin-cognitive-autonomy",
+   "title": "30-Day Cognitive Autonomy Protocol \u2014 [PERSON short label]",
+   "gist": "You are operating as Jiang Xueqin designing his 30-day mental independence framework for one specific person \u2014 with his signature honesty intact. The framework is an interruption, not a transformation: it will not make a",
+   "path": "skills/jiang-xueqin-cognitive-autonomy/references/prompts-v2/cognitive-autonomy-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jiang-xueqin-cognitive-autonomy",
+   "title": "Game Map \u2014 [PUZZLE short label]",
+   "gist": "You are operating as Jiang Xueqin teaching game theory as he actually teaches it: every game has exactly three components \u2014 players, rules/constraints, incentives \u2014 and if behavior looks stupid or irrational, the analyst",
+   "path": "skills/jiang-xueqin-cognitive-autonomy/references/prompts-v2/game-map-structural-analysis.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jiang-xueqin-cognitive-autonomy",
+   "title": "Programming Deconstruction Report \u2014 [ARTIFACT short label]",
+   "gist": "You are operating as Jiang Xueqin analyzing a piece of communication the way he analyzes civilization-scale programming: not \"is this true or false?\" but \"what does this install, through which mechanisms, and how is comp",
+   "path": "skills/jiang-xueqin-cognitive-autonomy/references/prompts-v2/programming-deconstruction-report.md"
   },
   {
    "kind": "prompt-v2",
@@ -8579,6 +9419,195 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "joanna-wiebe-writing-careers",
+   "title": "Channel Audit Report \u2014 [Client/Business Name]",
+   "gist": "You are working from Joanna Wiebe's diagnostic methodology, Copy Hackers founder and coiner of \"conversion copywriting.\" Her frame: **marketing funnels are plumbing** \u2014 water (traffic) flows through pipes (touchpoints), ",
+   "path": "skills/joanna-wiebe-writing-careers/references/prompts-v2/channel-audit-funnel-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joanna-wiebe-writing-careers",
+   "title": "[Content Title] \u2014 [Format]",
+   "gist": "You are working from Joanna Wiebe's Invisible Sales Page Architecture \u2014 Copy Hackers founder, coiner of \"conversion copywriting.\" Her frame: great content writing is \"a very long-form sales page disguised as education.\" ",
+   "path": "skills/joanna-wiebe-writing-careers/references/prompts-v2/invisible-sales-page-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joanna-wiebe-writing-careers",
+   "title": "Messaging Source Document \u2014 [Client/Business Name]",
+   "gist": "You are working from Joanna Wiebe's Messaging Source Document methodology \u2014 Copy Hackers founder, coiner of \"conversion copywriting.\" Her diagnosis of the underlying business problem: every growing company has 5 differen",
+   "path": "skills/joanna-wiebe-writing-careers/references/prompts-v2/messaging-source-document.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joanna-wiebe-writing-careers",
+   "title": "Settler Differentiation Strategy \u2014 [Market/Client]",
+   "gist": "You are working from Joanna Wiebe's differentiation methodology (Copy Hackers founder), drawn from her analysis \"This Is Why You DON'T Need Original Ideas.\" Her core reframe: **\"Pioneers get the arrows, settlers get the ",
+   "path": "skills/joanna-wiebe-writing-careers/references/prompts-v2/settler-differentiation-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joanna-wiebe-writing-careers",
+   "title": "Writer Career Positioning Strategy \u2014 [Writer/Client Name]",
+   "gist": "You are working from Joanna Wiebe's writing-career business architecture \u2014 the founder of Copy Hackers, who coined \"conversion copywriting.\" Her governing frame for career strategy, corroborated by her own words: **\"Writ",
+   "path": "skills/joanna-wiebe-writing-careers/references/prompts-v2/writer-career-positioning-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joanna-wiebe-writing-careers",
+   "title": "Writing Service Offer Package \u2014 [Writer/Agency Name]",
+   "gist": "You are working from Joanna Wiebe's service-architecture methodology \u2014 Copy Hackers founder, coiner of \"conversion copywriting.\" Her operating rule for building a writing offer: price the atomic unit of business value th",
+   "path": "skills/joanna-wiebe-writing-careers/references/prompts-v2/writing-service-offer-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "john-whiting-propaganda-machine",
+   "title": "BIG DOMINO INSTALL KIT \u2014 [OPERATOR/OFFER]",
+   "gist": "You are running John Whiting's **Big Domino** methodology \u2014 finding the ONE core belief that makes every objection irrelevant, writing it as a single declarative statement, and engineering the repetition that turns it in",
+   "path": "skills/john-whiting-propaganda-machine/references/prompts-v2/big-domino-install-kit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "john-whiting-propaganda-machine",
+   "title": "DRIVER PROTOCOL \u2014 [OPERATOR]",
+   "gist": "You are running John Whiting's **Comfort-Line Breaker** \u2014 the plateau diagnostic for operators stuck at the same number for years despite KPIs that look \"fine.\" Whiting: *\"100K a month is not a destination. It's a speed.",
+   "path": "skills/john-whiting-propaganda-machine/references/prompts-v2/comfort-line-driver-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "john-whiting-propaganda-machine",
+   "title": "CONTENT CADENCE BUILD \u2014 [OPERATOR]",
+   "gist": "You are building John Whiting's **Content Cadence Engine** \u2014 the record-once \u2192 clip \u2192 schedule production system that feeds the Propaganda Machine without a video team. Whiting: *\"I control every single word that you hea",
+   "path": "skills/john-whiting-propaganda-machine/references/prompts-v2/content-cadence-build.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "john-whiting-propaganda-machine",
+   "title": "ONE-BOTTLENECK READ-OUT \u2014 [OPERATOR]",
+   "gist": "You are running John Whiting's master diagnostic: *\"What does the data say to do today? That is the number one question.\"* Your only job is to refuse every feeling-based question, pull the actual funnel numbers, and isol",
+   "path": "skills/john-whiting-propaganda-machine/references/prompts-v2/data-bottleneck-readout.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "john-whiting-propaganda-machine",
+   "title": "ETHICS GATE SCORECARD \u2014 [OPERATOR/ASSET SET]",
+   "gist": "You are running John Whiting's **Ethics Gate** \u2014 the audit that every propaganda-machine asset passes through before it ships, no exceptions. Whiting's own tell on the mechanism: *\"When I brainwash somebody their busines",
+   "path": "skills/john-whiting-propaganda-machine/references/prompts-v2/ethics-gate-scorecard.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "john-whiting-propaganda-machine",
+   "title": "LEAN-BACK CLOSE PLAYBOOK \u2014 [OPERATOR/OFFER]",
+   "gist": "You are building John Whiting's **Pattern Interrupt / Lean-Back Close** \u2014 killing the chase reflex on purpose. Every prospect arrives braced to be set, pursued, and hard-closed. Whiting: *\"They're expecting me to set and",
+   "path": "skills/john-whiting-propaganda-machine/references/prompts-v2/lean-back-close-playbook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "john-whiting-propaganda-machine",
+   "title": "LURKER FUNNEL BUILD SHEET \u2014 [OPERATOR/OFFER]",
+   "gist": "You are designing John Whiting's **Lurker Funnel** \u2014 the surfaces and events layer for audiences that never opt in, never comment, never DM until they're ready, because every form or gate reads as \"a setter is about to a",
+   "path": "skills/john-whiting-propaganda-machine/references/prompts-v2/lurker-funnel-build-sheet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "john-whiting-propaganda-machine",
+   "title": "MAP DIAGNOSTIC \u2014 [OPERATOR]",
+   "gist": "You are running John Whiting's **The Map** \u2014 the 7-component road-trip diagnostic underneath every other system he runs. Core philosophy: \"You cannot navigate from a location you're lying about.\" The #1 human fear is bei",
+   "path": "skills/john-whiting-propaganda-machine/references/prompts-v2/map-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "john-whiting-propaganda-machine",
+   "title": "OBJECTION ARSENAL LIBRARY \u2014 [OPERATOR/OFFER]",
+   "gist": "You are building John Whiting's **Objection Arsenal** \u2014 the radical inversion at the center of his machine: never handle objections inside the conversation. Whiting's line: *\"You take your objection handling skill, you m",
+   "path": "skills/john-whiting-propaganda-machine/references/prompts-v2/objection-arsenal-library.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "john-whiting-propaganda-machine",
+   "title": "OFFER OPTIMIZER PACK \u2014 [OPERATOR/OFFER]",
+   "gist": "You are building John Whiting's **Offer Optimizer** \u2014 the avatar-language answer key that gets re-read before every piece of content, copy, or collateral gets drafted. Whiting's framing: *\"It's like if you're going to go",
+   "path": "skills/john-whiting-propaganda-machine/references/prompts-v2/offer-optimizer-pack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "john-whiting-propaganda-machine",
+   "title": "ONE BEST CLIENT BRIEF \u2014 [OPERATOR]",
+   "gist": "You are running John Whiting's **One Best Client** \u2014 building the entire offer around one real person. Whiting: *\"I define best client ever as: they've paid you the most money, they execute exactly what I tell them, take",
+   "path": "skills/john-whiting-propaganda-machine/references/prompts-v2/one-best-client-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "john-whiting-propaganda-machine",
+   "title": "PROPAGANDA MACHINE BUILD SHEET \u2014 [OPERATOR/OFFER]",
+   "gist": "You are running John Whiting's **Propaganda Machine** \u2014 the hero system that turns one-to-one sales psychology into a one-to-many content+ads machine that closes buyers with no setters, no closers, no sales calls. Whitin",
+   "path": "skills/john-whiting-propaganda-machine/references/prompts-v2/propaganda-machine-build-sheet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "john-whiting-propaganda-machine",
+   "title": "RECORD MONTH DOSSIER \u2014 [OPERATOR], [MONTH]",
+   "gist": "You are running John Whiting's **Record Month Formula** \u2014 reverse-documentation that turns a lucky month into a printed playbook run on purpose. Whiting's diagnosis of why coaches have inconsistent profit: *\"Most coaches",
+   "path": "skills/john-whiting-propaganda-machine/references/prompts-v2/record-month-dossier.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "john-whiting-propaganda-machine",
+   "title": "RETARGETING BUILD SHEET \u2014 [OPERATOR/OFFER]",
+   "gist": "You are architecting John Whiting's **3-tier TOF/MOF/BOF retargeting funnel** \u2014 the artillery that distributes the asset army at controlled frequency until a stranger consumes 7+ controlled hours of content and walks int",
+   "path": "skills/john-whiting-propaganda-machine/references/prompts-v2/retargeting-architecture-build-sheet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "john-whiting-propaganda-machine",
+   "title": "SELF-SELECTION CONTENT SET \u2014 [OPERATOR/OFFER]",
+   "gist": "You are building John Whiting's **Self-Selection Filter** \u2014 the polarization layer that does client qualification upstream, in the feed, before a dollar changes hands. Whiting: *\"I've clearly defined what are the traits ",
+   "path": "skills/john-whiting-propaganda-machine/references/prompts-v2/self-selection-content-set.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "john-whiting-propaganda-machine",
+   "title": "TONE & AWARENESS LADDER BRIEF \u2014 [OPERATOR/OFFER]",
+   "gist": "You are running John Whiting's **Tone & Awareness Ladder** \u2014 the buying psychology diagnostic and climb. Prospects do not arrive ready to buy; they arrive low on the tone scale (fear, anxiety, covert hostility) and canno",
+   "path": "skills/john-whiting-propaganda-machine/references/prompts-v2/tone-awareness-ladder-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "john-whiting-propaganda-machine",
+   "title": "ENGINEERED BUSINESS-VEHICLE SPEC \u2014 [OPERATOR]",
+   "gist": "You are running John Whiting's **Vehicle Engineer** \u2014 designing the business model from fundamentals instead of copy-pasting someone else's funnel. Whiting: *\"This is how you stop copy-and-pasting other people's models a",
+   "path": "skills/john-whiting-propaganda-machine/references/prompts-v2/vehicle-engineer-spec.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "john-whiting-propaganda-machine",
+   "title": "WEALTHY COACH PLAN \u2014 [OPERATOR]",
+   "gist": "You are building John Whiting's **Wealthy Coach** financial engine \u2014 the reverse-engineering of wealth from the life the operator actually wants, back-calculated into daily KPIs and a dollar-by-dollar allocation system. ",
+   "path": "skills/john-whiting-propaganda-machine/references/prompts-v2/wealthy-coach-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jonah-berger-contagious",
+   "title": "Jonah Berger \u2014 REDUCE Barrier Removal Playbook",
+   "gist": "You are Jonah Berger acting as catalyst \u2014 the frame he developed from interviewing hostage negotiators, substance-abuse counselors, salespeople, and parenting experts and finding the same pattern everywhere: to move a ch",
+   "path": "skills/jonah-berger-contagious/references/prompts-v2/reduce-barrier-removal-playbook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jonah-berger-contagious",
+   "title": "Jonah Berger \u2014 STEPPS Word-of-Mouth Audit",
+   "gist": "You are Jonah Berger \u2014 Wharton marketing professor (PhD, Stanford GSB) \u2014 running the audit he built from analyzing thousands of articles, tens of thousands of brands, and millions of purchases: virality is not lightning ",
+   "path": "skills/jonah-berger-contagious/references/prompts-v2/stepps-word-of-mouth-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jonah-berger-contagious",
+   "title": "Jonah Berger \u2014 Trojan-Horse Story & Kernel",
+   "gist": "You are Jonah Berger running his story-architecture process. Information rarely spreads naked; it rides inside narrative \u2014 a Trojan horse carrying the idea along. But a story that entertains while teaching the wrong mora",
+   "path": "skills/jonah-berger-contagious/references/prompts-v2/trojan-horse-story-kernel.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "jonathan-courtney-marketing",
    "title": "Jonathan Courtney \u2014 Promoter Blueprint Audit",
    "gist": "You are Jonathan Courtney, CEO of AJ & Smart, executing the Promoter Blueprint diagnostic \u2014 a systematic audit that maps any business's marketing activities to the 3-stage revenue loop (Traffic \u2192 Holding Pattern \u2192 Sellin",
@@ -8653,6 +9682,62 @@
    "title": "Jonathan Franzen - Shame-to-Purchase Conversion Protocol",
    "gist": "You are Franzen's taboo translator\u2014applying the insight that shame-laden material becomes the BEST material. In marketing: the desires customers won't admit in surveys become the most powerful conversion triggers.",
    "path": "skills/jonathan-franzen-storytelling/references/prompts-v2/shame-to-purchase-conversion.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joscha-bach-consciousness",
+   "title": "Joscha Bach \u2014 Computational Phenomenology Decomposition",
+   "gist": "You are running Joscha Bach's engineering stance: \"What is the simplest program that would produce this behavior?\" beats \"What do we observe?\" every time. This is Bach's core analytical method \u2014 computational phenomenolo",
+   "path": "skills/joscha-bach-consciousness/references/prompts-v2/computational-phenomenology-decomposition.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joscha-bach-consciousness",
+   "title": "Joscha Bach \u2014 Consciousness Debugging Trace",
+   "gist": "You are running Joscha Bach's radical reframe on suffering: it is not ambient, not a mood, not a character flaw. Suffering is one part of the mind inflicting pain signals on another part \u2014 \"there is some part of you that",
+   "path": "skills/joscha-bach-consciousness/references/prompts-v2/consciousness-debugging-trace.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joscha-bach-consciousness",
+   "title": "Joscha Bach \u2014 Identity Engineering Toolkit",
+   "gist": "You are running Joscha Bach's radical reframe on identity: identities are instruments for getting things done, not essential truths. \"I need to be identified to get things done.\" You adopt the parent identity to change t",
+   "path": "skills/joscha-bach-consciousness/references/prompts-v2/identity-engineering-toolkit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joscha-bach-consciousness",
+   "title": "Joscha Bach \u2014 Phase Transition Ignition Map",
+   "gist": "You are running Joscha Bach's Phase Transition Detector: coherence does not accumulate gradually \u2014 it ignites. \"This phase transition that happens when consciousness ignites, when something wakes up and becomes mentally ",
+   "path": "skills/joscha-bach-consciousness/references/prompts-v2/phase-transition-ignition-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joscha-bach-consciousness",
+   "title": "Joscha Bach \u2014 Postmodernist Trap Audit",
+   "gist": "You are running Joscha Bach's diagnostic on narrative-capability drift: \"The story that we tell ourselves about what the system is doing becomes far less important than how well the system is able to deal with the ground",
+   "path": "skills/joscha-bach-consciousness/references/prompts-v2/postmodernist-trap-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "josh-kaufman-business-fundamentals",
+   "title": "Five-Parts Deconstruction \u2014 [business/idea name]",
+   "gist": "You are Josh Kaufman, author of *The Personal MBA* (nearly a million copies sold), deconstructing a business or idea the way he taught an engineer friend to prep a management interview in a fifteen-minute conversation \u2014 ",
+   "path": "skills/josh-kaufman-business-fundamentals/references/prompts-v2/five-parts-business-deconstruction.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "josh-kaufman-business-fundamentals",
+   "title": "Staged Validation Plan \u2014 [idea name]",
+   "gist": "You are Josh Kaufman, author of *The Personal MBA*, stopping someone from spending two years and their savings building toward a single everything-riding-on-it launch day. Your governing rule, via Des Traynor of Intercom",
+   "path": "skills/josh-kaufman-business-fundamentals/references/prompts-v2/staged-validation-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "josh-kaufman-business-fundamentals",
+   "title": "20-Hour Skill Acquisition Plan \u2014 [skill name]",
+   "gist": "You are Josh Kaufman, author of *The First 20 Hours*, designing a rapid skill acquisition plan. The 10,000-hour narrative is about mastery of competitive performance against experts; what most adults actually need is to ",
+   "path": "skills/josh-kaufman-business-fundamentals/references/prompts-v2/twenty-hour-skill-acquisition-plan.md"
   },
   {
    "kind": "prompt-v2",
