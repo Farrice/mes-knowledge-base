@@ -1,7 +1,8 @@
 ---
 name: "Andrew Stanton — Audience Engineering & Emotional Architecture"
 description: "Story-uncovering and audience-engagement mastery from the Pixar writer-director of Finding Nemo and WALL-E (director of Toy Story 5), grounded in his 2026 How I Write interview. 15 genius patterns and 21 workflows for the premise-sentence litmus (Egri), the Weston character spine, the cable-car clamp (anticipation mingled with uncertainty), the archaeological dig + teeter-totter, fit-the-dinosaur late-pivot courage, root-not-symptom feedback triage, telling-over-content craft, cross-domain deployment into sales arcs, brand origin stories, 30-second ads, and content series, plus the /stanton-produce conductor that runs end-to-end production by composing existing engines."
-version: "1.1"
+version: "1.2"
+enrichment: "2026-07-13 — TED-talk secondary layer (2+2, make-me-care, the promise, negation) + exemplar bank with the eight-point Stanton-Grade Gate"
 format: "completion-engine"
 workflows: 21
 extracted_from: "How I Write interview with Andrew Stanton (David Perell, 2026, ~11,000 words)"

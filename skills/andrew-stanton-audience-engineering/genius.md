@@ -173,7 +173,7 @@ If a workflow's output can't answer 1–3, stop and return to them before produc
 
 ## Anti-Patterns
 
-Run before delivering. Flag and fix any of these.
+Run before delivering. Flag and fix any of these. Then run the **eight-point Stanton-Grade Gate** in `references/exemplars.md` — the embodiment check that separates mechanically-correct from Pixar-grade — and name which exemplar's rubric anchors the piece matches.
 
 - **The forced premise/spine.** Manufacturing a theme or wiring because you ran out of patience. → Keep digging; a forced premise is a false one.
 - **Whistling on the steps of Carnegie Hall.** Talking the work instead of writing the bad sentence. → Just write the sentence; it'll be bad; rewrite.
@@ -196,3 +196,8 @@ Run before delivering. Flag and fix any of these.
 - **Positioning**: Story-uncovering + audience-engagement layer. Distinct from Hawley (season architecture), Roth (scene/line), Pressfield (universal physics), Puri (viral compression — *cited by Stanton in-source*, explicitly stackable), Runia (story-vs-topic gate), Miller (brand frame), Albom (premium prose). Whitespace spine = the premise-sentence dig, the teeter-totter, fit-the-dinosaur late-pivot courage, the clamp/beach-ball engagement audit, root-not-symptom diagnosis, telling-over-content craft.
 - **Grounding note**: Built from the *actual* Perell interview, NOT Stanton's well-known 2012 TED talk ("Clues to a Great Story"). The TED "2+2 / make-me-care / define-by-negation" framing was deliberately set aside in favor of the richer process material in this source.
 - **Hypotheses to test**: (1) Does the premise-sentence litmus sharpen Parallax editions over topic-first drafting? (2) Does the clamp-audit lift LinkedIn/short-form retention? (3) Does "fit the dinosaur" rescue stalled client drafts better than incremental edits? Benchmark next cycle.
+
+### 2026-07-13 — Enrichment pass (raw-intent-bridge run)
+- **Added `references/ted-talk-layer.md`** — the 2012 TED talk fetched as a LABELED secondary source (`extractions/andrew-stanton-ted/transcript.txt`). Cross-validates six patterns across two sources 14 years apart (spine, clamp, change, wonder, theme-under-surface, use-what-you-know) and adds five the interview only brushed: punchline-first (T1), Make Me Care (T2), the Promise/slingshot (T3), the full 2+2 theory (T4), guidelines-not-rules + define-by-negation + conditional likability (T5). Primary grounding remains the Perell interview; on emphasis conflicts the interview wins.
+- **Added `references/exemplars.md`** — the ground-truth bank per `docs/solutions/2026-07-07-transcript-only-extraction-generic-output.md` (rules without exemplars = structure without heartbeat). Four session-proven exemplars (clamp-audit on P1-1, portfolio escalation find, MyBPM 30-sec arc, Resonance negation manifesto) annotated against the rubric, one anti-exemplar (polished-but-flat), and the **eight-point Stanton-Grade Gate** now referenced from § Anti-Patterns so every workflow's Quality Gate inherits it. Bank grows on every felt PASS.
+- **Deliberate non-action**: no frame extraction on the interview video — it is two people at a table; Stanton's on-screen artifacts are his films, so the WATCH prescription's intent is served by film-moment exemplars + the TED layer. Marked here so it reads as a decision, not a gap.
