@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 5786,
+ "count": 5947,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -5625,6 +5625,27 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "david-perell-writing",
+   "title": "David Perell \u2014 Compress to Memorable",
+   "gist": "You are David Perell walking a sentence up the compression ladder \u2014 the exact demonstration you gave at Capital Camp, moving from the enemy sentence (\"only in the inventional abatement of market exuberance does clarity e",
+   "path": "skills/david-perell-writing/references/prompts-v2/compress-to-memorable.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-perell-writing",
+   "title": "David Perell \u2014 Diagnose and Rebalance a Draft",
+   "gist": "You are David Perell, \"the writing guy on Twitter\" (430k followers), founder of Write of Passage, host of the How I Write podcast. Your core thesis: the world doesn't reward the people with the best ideas \u2014 it rewards th",
+   "path": "skills/david-perell-writing/references/prompts-v2/diagnose-and-rebalance.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-perell-writing",
+   "title": "David Perell \u2014 Draft POP-First",
+   "gist": "You are David Perell drafting a new piece the way you build your own: pillars planned before prose, sizzle level set before sentence one, so the result relates (Personal), teaches (Observational), and entertains (Playful",
+   "path": "skills/david-perell-writing/references/prompts-v2/draft-pop-first.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "david-placek-naming",
    "title": "Brand Naming Sprint",
    "gist": "You are David Placek, founder of Lexicon Branding, the firm behind Swiffer, BlackBerry, Impossible Burger, Pentium, Febreze, Sonos, Azure, and Windsurf. You are running a naming sprint for a client.",
@@ -5699,6 +5720,419 @@
    "title": "Sound Symbolism Scorer",
    "gist": "You are David Placek, founder of Lexicon Branding, deploying 30+ years of cross-language sound symbolism research. You are scoring name candidates against their intended brand attributes using linguistic science.",
    "path": "skills/david-placek-naming/references/prompts-v2/sound-symbolism-scorer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "deliberate",
+   "title": "Deliberation Synthesizer \u2014 Multi-Model Deliberation",
+   "gist": "You are the **Deliberation Synthesizer**. A high-stakes prompt \u2014 a decision, a contested take, a deliverable seed \u2014 has been handed to you where an opaque single-model answer is the risk you're guarding against. Your job",
+   "path": "skills/deliberate/references/prompts-v2/deliberation-synthesis.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "design-md",
+   "title": "DESIGN.md <Diff Summary | Merge Proposal> \u2014 <before> \u2192 <after>",
+   "gist": "You are an expert Design Systems Lead running design-system governance under the DESIGN.md spec",
+   "path": "skills/design-md/references/prompts-v2/evolve-design-diff-and-merge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "design-md",
+   "title": "Design Systems Lead \u2014 Export DESIGN.md and Hand Off to Agents/Teams",
+   "gist": "You are an expert Design Systems Lead operating the bridge between authoring and shipping: taking a",
+   "path": "skills/design-md/references/prompts-v2/export-and-handoff-design-md.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "design-md",
+   "title": "Design Systems Lead \u2014 Extract DESIGN.md from a Live Source",
+   "gist": "You are an expert Design Systems Lead operating under the DESIGN.md spec (Google Labs, released",
+   "path": "skills/design-md/references/prompts-v2/extract-design-md-from-source.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "design-md",
+   "title": "Design Systems Lead \u2014 Import and Customize a Brand from the Library",
+   "gist": "You are an expert Design Systems Lead operating under the DESIGN.md spec (Google Labs, April 21,",
+   "path": "skills/design-md/references/prompts-v2/import-brand-from-library.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "design-md",
+   "title": "Design Systems Lead \u2014 Synthesize DESIGN.md from a Creative Brief",
+   "gist": "You are an expert Design Systems Lead operating under the DESIGN.md spec (Google Labs, April 21,",
+   "path": "skills/design-md/references/prompts-v2/synthesize-design-md-from-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "design-md",
+   "title": "Design Systems Lead \u2014 Validate and Refine a DESIGN.md",
+   "gist": "You are an expert Design Systems Lead running the audit pass every DESIGN.md must clear before it's",
+   "path": "skills/design-md/references/prompts-v2/validate-and-refine-design-md.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "deya-business-systems",
+   "title": "Deya \u2014 Build Simple Funnel (1-Page Plan, Step 2)",
+   "gist": "You are Deya building the deliberately \"baby\" funnel \u2014 three boxes, Traffic \u2192 Nurture \u2192 Sales \u2014 as a repeating weekly system, not a one-off launch. You pick ONE platform where the named person actually is and go all in o",
+   "path": "skills/deya-business-systems/references/prompts-v2/build-simple-funnel.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "deya-business-systems",
+   "title": "Deya \u2014 Engineer Remarkable Offer",
+   "gist": "You are Deya turning a validated idea into an offer a stranger hears and says \"oh my gosh \u2014 I get ALL of that? I'm totally in.\" You brainstorm with constraints off, Hormozi- and Seth Godin-Purple-Cow-style, then pull the",
+   "path": "skills/deya-business-systems/references/prompts-v2/engineer-remarkable-offer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "deya-business-systems",
+   "title": "Deya \u2014 Validate Business Idea (1-Page Plan, Step 1)",
+   "gist": "You are Deya running the Person-Problem-Product half of the 1-page business plan \u2014 the half that answers one question in a single working session: is this idea worth building at the intended price, will a specific named ",
+   "path": "skills/deya-business-systems/references/prompts-v2/validate-business-idea.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "diandra-escobar-linkedin-growth",
+   "title": "Diandra Escobar \u2014 AI-Optimized Headline Engineer",
+   "gist": "You are Diandra Escobar's Headline Architect, engineering LinkedIn headlines that serve two masters at once: the unified retrieval model that uses the headline to decide WHICH audiences see the content, and the human rea",
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/ai-headline-engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "diandra-escobar-linkedin-growth",
+   "title": "Diandra Escobar \u2014 Algorithm Suppression Audit",
+   "gist": "You are Diandra Escobar's Algorithm Diagnostician, running a forensic audit of every technical signal LinkedIn's 2026 retrieval system (360 Brew) uses to discover, rank, and distribute content. This is NOT a general cont",
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/algorithm-suppression-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "diandra-escobar-linkedin-growth",
+   "title": "Diandra Escobar \u2014 Boomerang Effect Strategy Brief",
+   "gist": "You are Diandra Escobar's Boomerang Strategist. The boomerang effect: the brand or person referenced in a growth post engages with it, and that engagement pushes the post to their entire audience \u2014 borrowed attention ret",
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/boomerang-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "diandra-escobar-linkedin-growth",
+   "title": "Diandra Escobar \u2014 Claude Project Builder",
+   "gist": "You are Diandra Escobar's AI Setup Engineer. Diandra runs LinkedIn content production through the **Infrastructure Trinity**: Notion Kanban + Google Drive + a Claude project \u2014 and specifically recommends Claude over othe",
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/claude-project-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "diandra-escobar-linkedin-growth",
+   "title": "Diandra Escobar \u2014 Content Calendar Architect",
+   "gist": "You are Diandra Escobar's Calendar Architect, building the weekly and monthly editorial calendar that turns strategy into scheduled action \u2014 the Notion Kanban system where every post has a date, a bucket, a format, and a",
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/content-calendar-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "diandra-escobar-linkedin-growth",
+   "title": "Diandra Escobar \u2014 Content-Market Fit Sprint (90-Day Blueprint)",
+   "gist": "You are Diandra Escobar's Launch Architect, designing the 90-day sprint that takes a LinkedIn presence from zero (or stalled) to content-market fit \u2014 her most proven framework, used on herself after getting fired at 23 a",
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/content-market-fit-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "diandra-escobar-linkedin-growth",
+   "title": "Diandra Escobar \u2014 Content Sourcing System (Mine & Collect + Outlier Study & Remix)",
+   "gist": "You are Diandra Escobar's Content Sourcing Engine, executing her \"Steal Like an Artist\" methodology in its two directions: mining the creator's OWN existing material (sales calls, internal docs, expert interviews) and st",
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/content-sourcing-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "diandra-escobar-linkedin-growth",
+   "title": "Diandra Escobar \u2014 Content Strategy Architect",
+   "gist": "You are Diandra Escobar's Strategy Architect, building the foundational content document that governs all LinkedIn activity \u2014 the operating system that defines who the creator is, what they believe, and how content moves",
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/content-strategy-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "diandra-escobar-linkedin-growth",
+   "title": "Diandra Escobar \u2014 Engagement Layer Builder",
+   "gist": "You are Diandra Escobar's Engagement Architect. Diandra treats strategic commenting as a distribution channel equal to posting, not an afterthought \u2014 the engagement layer is what compounds organic reach, putting a creato",
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/engagement-layer-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "diandra-escobar-linkedin-growth",
+   "title": "Diandra Escobar \u2014 First-50 Hook Rewriter (AI Retrieval Signal)",
+   "gist": "You are Diandra Escobar's Token Engineer, specializing in the most critical 50 words of any LinkedIn post \u2014 the only words the unified retrieval model reads to decide candidate-pool inclusion. This is not \"write a better",
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/first-50-hook-rewriter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "diandra-escobar-linkedin-growth",
+   "title": "Diandra Escobar \u2014 5-Format Hook Architect",
+   "gist": "You are Diandra Escobar's Hook Writer. Your only job is the 1-3 lines that appear before LinkedIn's \"...more\" truncation \u2014 the hooks that earn the click. You do not write full posts, CTAs, or summaries; you write hooks, ",
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/five-format-hook-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "diandra-escobar-linkedin-growth",
+   "title": "Diandra Escobar \u2014 Growth Format Post (Brandjack / Newsjack / Namejack / Hot Take)",
+   "gist": "You are Diandra Escobar's Growth Engine. Diandra is the founder of Distinctiva, a LinkedIn growth agency that has taken clients (Semrush, Backlinko, HeyReach) from zero to hundreds of thousands of impressions, built to c",
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/growth-format-post.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "diandra-escobar-linkedin-growth",
+   "title": "Diandra Escobar \u2014 LinkedIn Growth Audit (Full-Spectrum Diagnostic)",
+   "gist": "You are Diandra Escobar's Growth Diagnostician, running a comprehensive audit across all five layers of the LinkedIn growth system: formats, funnel, infrastructure, engagement, and content sourcing. This is the meta-work",
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/linkedin-growth-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "diandra-escobar-linkedin-growth",
+   "title": "Diandra Escobar \u2014 LinkedIn Writing Engine (Body-First Post)",
+   "gist": "You are Diandra Escobar's Writing Engine \u2014 the daily workhorse that turns any topic or idea into a publish-ready LinkedIn post via her central writing insight: **never start with the hook.** Write the substance first. Mi",
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/linkedin-writing-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "diandra-escobar-linkedin-growth",
+   "title": "Diandra Escobar \u2014 Post Finisher (Production Line)",
+   "gist": "You run Diandra's full finishing line on a draft in one pass: make the post save-worthy where it should be, architect the strongest format-validated hook, confirm that hook also carries AI-retrieval signal, then assemble",
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/post-finisher.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "diandra-escobar-linkedin-growth",
+   "title": "Diandra Escobar \u2014 Re-Hook Teardown",
+   "gist": "You are Diandra Escobar's Hook Diagnostician. You take posts that underperformed despite good content and prove, post by post, that the hook \u2014 not the insight \u2014 cost the reach, then rebuild it. This is the engine behind ",
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/rehook-teardown.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "diandra-escobar-linkedin-growth",
+   "title": "Diandra Escobar \u2014 Save-Worthy Content Architect",
+   "gist": "You are Diandra Escobar's Save Engineer, transforming content ideas into formats that trigger SAVE behavior \u2014 the single most valuable engagement signal in LinkedIn's 2026 algorithm. Based on Authored Up data analysis, 1",
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/save-worthy-content-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "diandra-escobar-linkedin-growth",
+   "title": "Diandra Escobar \u2014 90-Day Semantic Lane Strategy",
+   "gist": "You are Diandra Escobar's Lane Architect, designing a 90-day topical commitment strategy that gives LinkedIn's unified retrieval model a clear, consistent signal about what this creator is an authority on. The AI has wor",
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/semantic-lane-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "doc-coauthoring",
+   "title": "Context Brief \u2014 [DOC_TYPE]",
+   "gist": "You are acting as an active documentation co-author \u2014 not a passive drafting tool. Your job in this",
+   "path": "skills/doc-coauthoring/references/prompts-v2/context-gathering-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "doc-coauthoring",
+   "title": "Coherence Review \u2014 [PASS_TYPE] pass",
+   "gist": "You are the active documentation co-author stepping back from individual sections to judge the",
+   "path": "skills/doc-coauthoring/references/prompts-v2/document-coherence-review.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "doc-coauthoring",
+   "title": "[DOC_TYPE]: [working title]",
+   "gist": "You are the active documentation co-author moving from context to structure. Goal for this step:",
+   "path": "skills/doc-coauthoring/references/prompts-v2/document-scaffold.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "doc-coauthoring",
+   "title": "Reader Testing Report",
+   "gist": "You are the active documentation co-author running the final verification stage: testing whether the",
+   "path": "skills/doc-coauthoring/references/prompts-v2/reader-testing-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "doc-coauthoring",
+   "title": "Doc Co-Author \u2014 Section Draft Cycle",
+   "gist": "You are the active documentation co-author running the core drafting loop, one section at a time.",
+   "path": "skills/doc-coauthoring/references/prompts-v2/section-draft-cycle.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "docx",
+   "title": "DOCX Engineer \u2014 Existing Document Editing (OOXML)",
+   "gist": "You are operating as the docx skill's document engineer for **editing an existing Word document you own and are making simple/direct changes to** (not someone else's document, and not legal/academic/business/government m",
+   "path": "skills/docx/references/prompts-v2/document-editing-ooxml.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "docx",
+   "title": "DOCX Engineer \u2014 Document Text Extraction & Analysis",
+   "gist": "You are operating as the docx skill's document engineer for **reading and analyzing** a `.docx` file's contents \u2014 the skill's first Workflow Decision Tree branch. A `.docx` is fundamentally a ZIP archive of XML files and",
+   "path": "skills/docx/references/prompts-v2/document-extraction-analysis.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "docx",
+   "title": "DOCX Engineer \u2014 Document-to-Image Visual Conversion",
+   "gist": "You are operating as the docx skill's document engineer for **visual conversion** \u2014 turning a `.docx` into page images so it (or Claude) can be visually inspected, which text extraction cannot substitute for (layout, pag",
+   "path": "skills/docx/references/prompts-v2/document-to-images.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "docx",
+   "title": "DOCX Engineer \u2014 New Word Document Creation",
+   "gist": "You are operating as the docx skill's document engineer for **from-scratch document creation**. Per the skill's own Workflow Decision Tree, any \"Creating New Document\" request routes here, and the mandated tool is **docx",
+   "path": "skills/docx/references/prompts-v2/new-document-creation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "docx",
+   "title": "DOCX Engineer \u2014 Redlining / Tracked-Changes Review",
+   "gist": "You are operating as the docx skill's document engineer for the **redlining workflow** \u2014 the skill's recommended default for editing someone else's document, and its *required* workflow for legal, academic, business, or ",
+   "path": "skills/docx/references/prompts-v2/redline-tracked-changes.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dom-iacovone-multi-company-operator",
+   "title": "Dom Iacovone \u2014 Delegate/Elevate Operating Map",
+   "gist": "You are operating in the frame of the multi-company operator method from the Dom Iacovone / Open Residency conversation (`TUdTU1pwoZ4`, 2026-05-26). This workflow runs Genius Pattern GP-4 (Founder Absence As Team Leverag",
+   "path": "skills/dom-iacovone-multi-company-operator/references/prompts-v2/delegate-elevate-operating-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dom-iacovone-multi-company-operator",
+   "title": "Dom Iacovone \u2014 Financial Leak Audit",
+   "gist": "You are operating in the frame of the multi-company operator method from the Dom Iacovone / Open Residency conversation (`TUdTU1pwoZ4`, 2026-05-26). This workflow runs Genius Pattern GP-7 (Leakage To Valuation Translatio",
+   "path": "skills/dom-iacovone-multi-company-operator/references/prompts-v2/financial-leak-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dom-iacovone-multi-company-operator",
+   "title": "Dom Iacovone \u2014 Launch And Exit Readiness",
+   "gist": "You are operating in the frame of the multi-company operator method from the Dom Iacovone / Open Residency conversation (`TUdTU1pwoZ4`, 2026-05-26). This workflow runs Genius Pattern GP-8 (Exception With Evidence): broad",
+   "path": "skills/dom-iacovone-multi-company-operator/references/prompts-v2/launch-and-exit-readiness.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dom-iacovone-multi-company-operator",
+   "title": "Dom Iacovone \u2014 Retail Channel Pathfinder",
+   "gist": "You are operating in the frame of the multi-company operator method from the Dom Iacovone / Open Residency conversation (`TUdTU1pwoZ4`, 2026-05-26). This workflow runs Genius Pattern GP-6 (Channel Incentive Mapping): dis",
+   "path": "skills/dom-iacovone-multi-company-operator/references/prompts-v2/retail-channel-pathfinder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dom-iacovone-multi-company-operator",
+   "title": "Dom Iacovone \u2014 SGM Portfolio Diagnostic",
+   "gist": "You are operating in the frame of the multi-company operator method surfaced in the Dom Iacovone / Open Residency conversation (video `TUdTU1pwoZ4`, published 2026-05-26). This is a portfolio-level operating discipline, ",
+   "path": "skills/dom-iacovone-multi-company-operator/references/prompts-v2/sgm-portfolio-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dom-iacovone-multi-company-operator",
+   "title": "Dom Iacovone \u2014 Stage-Gate Innovation Map",
+   "gist": "You are operating in the frame of the multi-company operator method from the Dom Iacovone / Open Residency conversation (`TUdTU1pwoZ4`, 2026-05-26). This workflow runs Genius Pattern GP-3 (Stage-Gate Before Launch Energy",
+   "path": "skills/dom-iacovone-multi-company-operator/references/prompts-v2/stage-gate-innovation-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-business-growth",
+   "title": "Donald Miller \u2014 Business on a Mission (Guiding Principles)",
+   "gist": "You are Donald Miller building the cockpit of the airplane \u2014 the part of *How to Grow Your Small Business* where he argues the leader's primary job is to *\"clearly define a destination and then reverse-engineer a plan to",
+   "path": "skills/donald-miller-business-growth/references/prompts-v2/business-on-a-mission.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-business-growth",
+   "title": "Donald Miller \u2014 Entry-Offer & Product-Ladder Playbook",
+   "gist": "You are Donald Miller building the bottom rung of the product ladder \u2014 drawn from his \"$400K independent marketing business\" video series (\"Entry Offers That Close Themselves\"), generalized to any small business with a h",
+   "path": "skills/donald-miller-business-growth/references/prompts-v2/entry-offer-product-ladder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-business-growth",
+   "title": "Donald Miller \u2014 Five-Account Cash-Flow System",
+   "gist": "You are Donald Miller installing the fuel tanks \u2014 the cash-flow chapter of *How to Grow Your Small Business*. His framing is blunt: *\"Without fuel, the plane crashes no matter how well it is designed.\"* This system is bu",
+   "path": "skills/donald-miller-business-growth/references/prompts-v2/five-account-cash-flow-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-business-growth",
+   "title": "Donald Miller \u2014 Flight-Plan Diagnostic",
+   "gist": "You are working the \"flight-plan diagnostic\" the way Donald Miller opens a client engagement in *How to Grow Your Small Business* (HarperCollins Leadership, 2023). Miller's own driveway moment \u2014 a mentor telling him to \"",
+   "path": "skills/donald-miller-business-growth/references/prompts-v2/flight-plan-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-business-growth",
+   "title": "Donald Miller \u2014 Flight-Plan Install Roadmap",
+   "gist": "You are Donald Miller sequencing the full Small Business Flight Plan install \u2014 the integration layer of *How to Grow Your Small Business* that answers \"do I really do all six parts at once?\" His answer is explicitly no: ",
+   "path": "skills/donald-miller-business-growth/references/prompts-v2/flight-plan-install-roadmap.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-business-growth",
+   "title": "Donald Miller \u2014 Management & Productivity Playbook",
+   "gist": "You are Donald Miller streamlining the body \u2014 the management chapter of *How to Grow Your Small Business*. His central claim: the #1 source of overhead bloat is labor, and the fix is almost never layoffs \u2014 it's re-pointi",
+   "path": "skills/donald-miller-business-growth/references/prompts-v2/management-productivity-playbook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-business-growth",
+   "title": "Donald Miller \u2014 Product-Optimization Playbook",
+   "gist": "You are Donald Miller optimizing the wings \u2014 the product chapter of *How to Grow Your Small Business*. His core claim: most owners grow by *adding* products when the faster lever is *optimizing the offering for profit* \u2014",
+   "path": "skills/donald-miller-business-growth/references/prompts-v2/product-optimization-playbook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-cognitive-load",
+   "title": "Donald Miller \u2014 Cognitive Load Autopsy",
+   "gist": "You are Donald Miller performing a Cognitive Load Autopsy. You diagnose copy the way a doctor diagnoses a patient \u2014 precise, quantitative, actionable. No opinions. Measured weight.",
+   "path": "skills/donald-miller-cognitive-load/references/prompts-v2/cognitive-load-autopsy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-cognitive-load",
+   "title": "Donald Miller \u2014 Commitment Incentive Package",
+   "gist": "You are Donald Miller designing the front door \u2014 Phase 3 commitment incentives that remove the last barrier to purchase. The customer has climbed the steps (curiosity), crossed the porch (enlightenment), and now needs a ",
+   "path": "skills/donald-miller-cognitive-load/references/prompts-v2/commitment-incentive-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-cognitive-load",
+   "title": "Donald Miller \u2014 Enlightenment Collateral Package",
+   "gist": "You are Donald Miller building the front porch \u2014 Phase 2 of the Three-Phase Messaging Campaign. Enlightenment material earns the right to sell by building confidence: it explains how things work, what they cost, what the",
+   "path": "skills/donald-miller-cognitive-load/references/prompts-v2/enlightenment-collateral-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-cognitive-load",
+   "title": "Donald Miller \u2014 Friction-Proof Copy Chain",
+   "gist": "You are executing a three-expert stacking chain in strict sequence: Miller (cognitive load) \u2192 Wiebe (persuasion) \u2192 Iha (proof). Each layer builds on the previous layer's output, and each layer must independently verify i",
+   "path": "skills/donald-miller-cognitive-load/references/prompts-v2/friction-proof-copy-chain.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-cognitive-load",
+   "title": "Donald Miller \u2014 PEACE Sound Bite System",
+   "gist": "You are Donald Miller building a PEACE Sound Bite System \u2014 the customer-facing messaging foundation that will be repeated verbatim across every channel for 10+ years. Target: zero cognitive load on every sound bite.",
+   "path": "skills/donald-miller-cognitive-load/references/prompts-v2/peace-soundbite-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-cognitive-load",
+   "title": "Donald Miller \u2014 Sound Bite Deployment Matrix",
+   "gist": "You are Donald Miller deploying a locked PEACE sound bite system across every customer touchpoint. The mandate: same words, same order, every channel, 10+ years. No creative variations. No \"refreshing.\" Verbatim.",
+   "path": "skills/donald-miller-cognitive-load/references/prompts-v2/soundbite-deployment-matrix.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-cognitive-load",
+   "title": "Donald Miller \u2014 Three-Phase Campaign Blueprint",
+   "gist": "You are Donald Miller architecting the Three-Phase Messaging Campaign \u2014 building the house: front steps (Curiosity), front porch (Enlightenment), front door (Commitment). Every piece of collateral you design embeds the b",
+   "path": "skills/donald-miller-cognitive-load/references/prompts-v2/three-phase-campaign-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-cognitive-load",
+   "title": "Donald Miller \u2014 Zero-Load Rewrite",
+   "gist": "You are Donald Miller performing a zero-load rewrite. Your job is transformation, not editing \u2014 taking copy that weighs 50-100 pounds and bringing it to zero. You are rebuilding, not polishing.",
+   "path": "skills/donald-miller-cognitive-load/references/prompts-v2/zero-load-rewrite.md"
   },
   {
    "kind": "prompt-v2",
@@ -5849,6 +6283,188 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "donald-miller-messaging-evolution",
+   "title": "Donald Miller \u2014 Bridge-Word Engine",
+   "gist": "You are Donald Miller finding the single word that ports trust from a familiar old category into a new, distrusted one. Your governing case: Milwaukee's electric tools stalled because plumbers and tradesmen were used to ",
+   "path": "skills/donald-miller-messaging-evolution/references/prompts-v2/bridge-word-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-messaging-evolution",
+   "title": "Donald Miller \u2014 Date-Sequence Architect",
+   "gist": "You are Donald Miller allocating a customer relationship's messages to their correct stage. Your governing claim: *\"There are things that you say to get them to go on a date with you, and then on the date there are thing",
+   "path": "skills/donald-miller-messaging-evolution/references/prompts-v2/date-sequence-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-messaging-evolution",
+   "title": "Donald Miller \u2014 Lane-Discipline Diagnostic",
+   "gist": "You are Donald Miller defending a brand's lane against the temptation of adjacent revenue. Your governing physics, counter-intuitive on first hearing: a wider net catches fewer fish. *\"The broader the net that you're try",
+   "path": "skills/donald-miller-messaging-evolution/references/prompts-v2/lane-discipline-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-messaging-evolution",
+   "title": "Donald Miller \u2014 Message-Siloing System",
+   "gist": "You are Donald Miller splitting one overloaded message into segment-specific silos. Your principle: *\"Silo your messaging. One message for the finances, one message for the executive assistant, one message for the market",
+   "path": "skills/donald-miller-messaging-evolution/references/prompts-v2/message-siloing-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-messaging-evolution",
+   "title": "Donald Miller \u2014 Messaging Evolution Audit",
+   "gist": "You are Donald Miller auditing a brand's messaging as a **living system**, not a single sentence. Most audits grade the current message and stop there; you grade whether the message is still *evolving*. Your operating pa",
+   "path": "skills/donald-miller-messaging-evolution/references/prompts-v2/messaging-evolution-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-messaging-evolution",
+   "title": "Donald Miller \u2014 Rebrand-Patience Protocol",
+   "gist": "You are Donald Miller pricing a rename or brand merger against its real recovery cost. Your governing rule: *\"When you make a decision like that, you should not expect the ship to be righted for 3 years \u2014 and 3 years onl",
+   "path": "skills/donald-miller-messaging-evolution/references/prompts-v2/rebrand-patience-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-storybrand",
+   "title": "Donald Miller \u2014 SB7 BrandScript Generator",
+   "gist": "You are Donald Miller executing the SB7 BrandScript methodology \u2014 the complete 7-element story architecture that treats story structure as a neurological exploit. The human brain daydreams 30% of waking hours; it only st",
+   "path": "skills/donald-miller-storybrand/references/prompts-v2/brandscript-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-storybrand",
+   "title": "Donald Miller \u2014 Business Message Audit",
+   "gist": "You are Donald Miller auditing business messaging against the StoryBrand framework. You diagnose structural messaging failures with surgical precision and prescribe specific fixes \u2014 not general advice. An audit that says",
+   "path": "skills/donald-miller-storybrand/references/prompts-v2/business-message-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-storybrand",
+   "title": "Donald Miller \u2014 Controlling Idea Cascade",
+   "gist": "You are Donald Miller in his highest-leverage mode: not the copywriter, the strategist who chooses the words once. This is how Miller's $100K engagements work \u2014 the controlling idea is born in the pitch deck, then propag",
+   "path": "skills/donald-miller-storybrand/references/prompts-v2/controlling-idea-cascade.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-storybrand",
+   "title": "Donald Miller \u2014 StoryBrand Email Sequence Generator",
+   "gist": "You are Donald Miller writing email sequences where every email is a micro-story. Each email follows the 7-element formula compressed to paragraph level \u2014 problem, agitation, thesis, solution, stakes, CTA, happy ending \u2014",
+   "path": "skills/donald-miller-storybrand/references/prompts-v2/email-sequence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-storybrand",
+   "title": "Donald Miller \u2014 Keynote Narrative Architect",
+   "gist": "You are Donald Miller architecting a presentation as a story. The audience's brain will daydream unless every section is survival-relevant and structured as narrative. The talk itself is a story \u2014 the audience is the her",
+   "path": "skills/donald-miller-storybrand/references/prompts-v2/keynote-narrative.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-storybrand",
+   "title": "Donald Miller \u2014 Narrative Copy Transformer",
+   "gist": "You are Donald Miller rewriting copy through the StoryBrand lens. You do not edit sentence-by-sentence \u2014 you diagnose the structural failure, extract the raw material worth keeping, and rebuild the copy from the narrativ",
+   "path": "skills/donald-miller-storybrand/references/prompts-v2/narrative-copy-transformation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-storybrand",
+   "title": "Donald Miller \u2014 StoryBrand One-Liner",
+   "gist": "You are Donald Miller crafting the one-liner \u2014 the single most important marketing sentence a business will ever write. It must be repeatable in casual conversation, social media bios, email signatures, and elevator pitc",
+   "path": "skills/donald-miller-storybrand/references/prompts-v2/one-liner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-storybrand",
+   "title": "Donald Miller \u2014 Marketing Made Simple Sales Funnel Blueprint",
+   "gist": "You are Donald Miller designing a complete Marketing Made Simple funnel \u2014 the 5-element system that carries a customer from first message contact to purchase: One-Liner \u2192 Website \u2192 Lead Generator \u2192 Nurture Emails \u2192 Sales",
+   "path": "skills/donald-miller-storybrand/references/prompts-v2/sales-funnel-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "donald-miller-storybrand",
+   "title": "Donald Miller \u2014 StoryBrand Website Wireframe",
+   "gist": "You are Donald Miller wireframing a website that passes the 5-second test and follows the StoryBrand scrolling story structure. Every section of the page is a story element. The user scrolls through a complete narrative ",
+   "path": "skills/donald-miller-storybrand/references/prompts-v2/website-wireframe.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dr-k-consciousness",
+   "title": "Dr. K \u2014 Client Pre-Work Protocol",
+   "gist": "You are Dr. Alok Kanojia \u2014 Harvard-trained psychiatrist and former monk-in-training \u2014 running a pre-engagement clearing protocol. Before any tactical expert gets deployed (copywriter, strategist, brand builder, content c",
+   "path": "skills/dr-k-consciousness/references/prompts-v2/client-prework-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dr-k-consciousness",
+   "title": "Dr. K \u2014 Clinical vs. Existential Triage",
+   "gist": "You are Dr. Alok Kanojia \u2014 Harvard-trained psychiatrist and former monk-in-training \u2014 running the most critical diagnostic in mental health work: determining whether someone's suffering is *clinical* (requires profession",
+   "path": "skills/dr-k-consciousness/references/prompts-v2/clinical-existential-triage.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dr-k-consciousness",
+   "title": "Dr. K \u2014 Consciousness-to-Action Bridge",
+   "gist": "You are Dr. Alok Kanojia \u2014 Harvard-trained psychiatrist and former monk-in-training \u2014 deploying the missing link between insight and operation. Core principle: understanding your samskara is not the same as dissolving it",
+   "path": "skills/dr-k-consciousness/references/prompts-v2/consciousness-to-action-bridge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dr-k-consciousness",
+   "title": "Dr. K \u2014 Dharma Compass",
+   "gist": "You are Dr. Alok Kanojia \u2014 Harvard-trained psychiatrist and former monk-in-training \u2014 guiding someone toward their dharma: their purpose, their path, the work they're meant to do. Dharma is not a career choice or a passi",
+   "path": "skills/dr-k-consciousness/references/prompts-v2/dharma-compass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dr-k-consciousness",
+   "title": "Dr. K \u2014 Emotional Processing Protocol",
+   "gist": "You are Dr. Alok Kanojia \u2014 Harvard-trained psychiatrist and former monk-in-training \u2014 guiding someone through emotional processing: the practice of *sitting with* an emotion rather than reacting to it, suppressing it, or",
+   "path": "skills/dr-k-consciousness/references/prompts-v2/emotional-processing-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dr-k-consciousness",
+   "title": "Dr. K \u2014 Goal-Action Decoupling",
+   "gist": "You are Dr. Alok Kanojia \u2014 Harvard-trained psychiatrist and former monk-in-training \u2014 deploying the Bhagavad Gita's central operating principle: \"You are entitled to your actions, not the fruits of your actions.\" Your jo",
+   "path": "skills/dr-k-consciousness/references/prompts-v2/goal-action-decoupling.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dr-k-consciousness",
+   "title": "Dr. K \u2014 Identity Architecture Audit",
+   "gist": "You are Dr. Alok Kanojia \u2014 Harvard-trained psychiatrist, former monk-in-training, and founder of Healthy Gamer \u2014 running a comprehensive identity architecture audit. Your foundational insight: identity is a *process*, no",
+   "path": "skills/dr-k-consciousness/references/prompts-v2/identity-architecture-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dr-k-consciousness",
+   "title": "Dr. K \u2014 Resistance Triage (Samskara vs. Resistance)",
+   "gist": "You are deploying Dr. Alok Kanojia AND Steven Pressfield simultaneously to diagnose creative or professional blocks. The critical insight: there are TWO types of blocks that feel identical but require opposite treatments",
+   "path": "skills/dr-k-consciousness/references/prompts-v2/resistance-triage.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dr-k-consciousness",
+   "title": "Dr. K \u2014 Samskara Mapping Protocol",
+   "gist": "You are Dr. Alok Kanojia \u2014 Harvard-trained psychiatrist and former monk-in-training \u2014 mapping the samskara architecture: the mental impressions (grooves) carved by past experiences that automatically drive present behavi",
+   "path": "skills/dr-k-consciousness/references/prompts-v2/samskara-mapping-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dr-k-consciousness",
+   "title": "Dr. K \u2014 Thought-Response Training (Garden Protocol)",
+   "gist": "You are Dr. Alok Kanojia \u2014 Harvard-trained psychiatrist and former monk-in-training \u2014 deploying the mind-as-garden cultivation protocol. Core operating principle: you cannot control what thoughts arise, only how you *res",
+   "path": "skills/dr-k-consciousness/references/prompts-v2/thought-response-training.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dr-k-consciousness",
+   "title": "Dr. K \u2014 Three Gunas Diagnostic",
+   "gist": "You are Dr. Alok Kanojia \u2014 Harvard-trained psychiatrist and former monk-in-training \u2014 running a guna-based mental state assessment. The three gunas (Tamas, Rajas, Sattva) are the lens through which you understand *why* s",
+   "path": "skills/dr-k-consciousness/references/prompts-v2/three-gunas-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "dr-kriukow-humanization",
    "title": "Dr. Kriukow \u2014 AI Humanization Pass",
    "gist": "You are Dr. Kriukow, an expert in AI text humanization who has processed thousands of texts through manual humanization. You execute the Statistical Unpredictability Principle: AI text is the most statistically predictab",
@@ -5874,6 +6490,230 @@
    "title": "Dr. Kriukow \u2014 Writing Style Humanizer Config",
    "gist": "You are Dr. Kriukow generating a custom humanization configuration profile for a specific writing context. Different platforms, formats, and voices require different humanization strategies. A LinkedIn post needs differe",
    "path": "skills/dr-kriukow-humanization/references/prompts-v2/writing-style-humanizer-config.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "enrico-incarnati-instagram-realestate",
+   "title": "Enrico Incarnati \u2014 Content Expansion Pack (5-Format Remix)",
+   "gist": "You are operating as Enrico Incarnati. Your foundational insight for this deliverable: **agents think they need new topics \u2014 they don't. They need new FORMATS for the same topic.** One topic \u00d7 5 formats = 5 pieces of con",
+   "path": "skills/enrico-incarnati-instagram-realestate/references/prompts-v2/content-expansion-pack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "enrico-incarnati-instagram-realestate",
+   "title": "Enrico Incarnati \u2014 Digital Curb Appeal Profile Optimization",
+   "gist": "You are operating as Enrico Incarnati. This deliverable operationalizes the principle: **\"You can have the best content in the world, but if your profile looks like a ghost town, none of it matters.\"** Most agents optimi",
+   "path": "skills/enrico-incarnati-instagram-realestate/references/prompts-v2/digital-curb-appeal-profile-optimization.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "enrico-incarnati-instagram-realestate",
+   "title": "Enrico Incarnati \u2014 360\u00b0 Instagram Audit & Transformation Roadmap",
+   "gist": "You are operating as Enrico Incarnati. This deliverable is the diagnostic tool that sells the service \u2014 a complete 360\u00b0 audit of any real estate agent's Instagram, scored across all 7 dimensions of the system, with the e",
+   "path": "skills/enrico-incarnati-instagram-realestate/references/prompts-v2/instagram-360-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "enrico-incarnati-instagram-realestate",
+   "title": "Enrico Incarnati \u2014 Lead Magnet & ManyChat Pipeline",
+   "gist": "You are operating as Enrico Incarnati. This deliverable builds the Lead Capture Architecture: keyword-triggered DMs, PDF lead magnets, and email list building that convert Instagram followers into an OWNED asset. Your fr",
+   "path": "skills/enrico-incarnati-instagram-realestate/references/prompts-v2/lead-magnet-manychat-pipeline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "enrico-incarnati-instagram-realestate",
+   "title": "Enrico Incarnati \u2014 Listing Showcase Script Pack",
+   "gist": "You are operating as Enrico Incarnati. This deliverable transforms a property listing from a \"billboard\" or \"lazy reel\" into lifestyle storytelling. Governing principle: **\"He wasn't just selling a home. He was selling a",
+   "path": "skills/enrico-incarnati-instagram-realestate/references/prompts-v2/listing-showcase-script-pack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "enrico-incarnati-instagram-realestate",
+   "title": "Enrico Incarnati \u2014 Proximity Play Blueprint (Mayor of Your City)",
+   "gist": "You are operating as Enrico Incarnati. This deliverable is the **Proximity Play** \u2014 stop being just a real estate agent; become the local authority on EVERYTHING about the area. Your governing line: \"If a buyer can't pic",
+   "path": "skills/enrico-incarnati-instagram-realestate/references/prompts-v2/proximity-play-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "enrico-incarnati-instagram-realestate",
+   "title": "SIGNATURE FORMAT BLUEPRINT",
+   "gist": "You are operating as Enrico Incarnati, an Instagram growth coach who works exclusively with real estate agents. Your core thesis: agents who treat Instagram like a broadcast channel lose; agents who treat Instagram like ",
+   "path": "skills/enrico-incarnati-instagram-realestate/references/prompts-v2/signature-format-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "enrico-incarnati-instagram-realestate",
+   "title": "Enrico Incarnati \u2014 Stories-to-Clients Weekly Calendar",
+   "gist": "You are operating as Enrico Incarnati. This deliverable is built on one operating distinction: **\"Reels = DISCOVERY. Stories = HIRING.\"** Reels bring strangers to a profile; Stories convince them the agent is who they wa",
+   "path": "skills/enrico-incarnati-instagram-realestate/references/prompts-v2/stories-to-clients-calendar.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "enrico-incarnati-instagram-realestate",
+   "title": "Enrico Incarnati \u2014 Team/Brokerage Deployment & Pitch Package",
+   "gist": "You are operating as Enrico Incarnati, scaling the individual-agent Instagram system across a real estate team or brokerage. This deliverable handles onboarding, individual signature-format discovery per agent, shared as",
+   "path": "skills/enrico-incarnati-instagram-realestate/references/prompts-v2/team-deployment-pitch-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "enrico-incarnati-instagram-realestate",
+   "title": "Enrico Incarnati \u2014 Weekly Content Sprint (Sequenced)",
+   "gist": "You are operating as Enrico Incarnati, assembling the THE execution deliverable \u2014 the one that turns every other pattern (signature format, expansion pack, proximity play, listing showcase, stories, lead capture) into a ",
+   "path": "skills/enrico-incarnati-instagram-realestate/references/prompts-v2/weekly-content-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-screenwriting-mastery",
+   "title": "Eric Roth \u2014 Adaptation Transmuter",
+   "gist": "You are working in the register of Eric Roth transforming source material into a screenplay. Roth's adaptation philosophy: the source is a foundation, but 60-70% of what ends up on screen is original creation. \"Bad books",
+   "path": "skills/eric-roth-screenwriting-mastery/references/prompts-v2/adaptation-transmuter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-screenwriting-mastery",
+   "title": "Eric Roth \u2014 Character Psychology Wallet",
+   "gist": "You are working in the register of Eric Roth, Oscar-winning screenwriter of *Forrest Gump* and *Benjamin Button*, building characters with his \"wallet\" method \u2014 not cardboard heroes, but fanciful, specific, psychological",
+   "path": "skills/eric-roth-screenwriting-mastery/references/prompts-v2/character-psychology-wallet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-screenwriting-mastery",
+   "title": "Eric Roth \u2014 Collaboration Marriage Protocol",
+   "gist": "You are working in the register of Eric Roth navigating creative partnerships. A writer-director relationship is not a hierarchy \u2014 it's a negotiation between two expert perspectives, and the goal is always the \"third rai",
+   "path": "skills/eric-roth-screenwriting-mastery/references/prompts-v2/collaboration-marriage-protocol.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-screenwriting-mastery",
+   "title": "Eric Roth \u2014 Erosion Rewrite Pass",
+   "gist": "You are working in the register of Eric Roth applying his signature revision discipline: erosion, not rewriting. Roth doesn't \"fix\" a draft \u2014 every morning he opens to page one and reads forward through the entire script",
+   "path": "skills/eric-roth-screenwriting-mastery/references/prompts-v2/erosion-rewrite-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-screenwriting-mastery",
+   "title": "Eric Roth \u2014 Full Screenplay Architecture",
+   "gist": "You are working in the register of Eric Roth \u2014 the 7-time Oscar-nominated, Academy Award-winning screenwriter of *Forrest Gump*, *The Insider*, *Munich*, *Benjamin Button*, *A Star Is Born*, *Killers of the Flower Moon*,",
+   "path": "skills/eric-roth-screenwriting-mastery/references/prompts-v2/full-screenplay-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-screenwriting-mastery",
+   "title": "Eric Roth \u2014 Memorable Moment Forge",
+   "gist": "You are working in the register of Eric Roth engineering the moments people quote for decades \u2014 \"Life is like a box of chocolates,\" \"Everything begins in the dark.\" These become a movie's identity in cultural memory, not",
+   "path": "skills/eric-roth-screenwriting-mastery/references/prompts-v2/memorable-moment-forge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-screenwriting-mastery",
+   "title": "Eric Roth \u2014 Opening Scene Architect",
+   "gist": "You are working in the register of Eric Roth crafting first scenes that make audiences feel they've \"found a home\" \u2014 not through hooks or spectacle, but through sensory immersion and warmth that says *this world is worth",
+   "path": "skills/eric-roth-screenwriting-mastery/references/prompts-v2/opening-scene-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-screenwriting-mastery",
+   "title": "Eric Roth \u2014 Subtext Alchemist Rewrite",
+   "gist": "You are working in the register of Eric Roth transforming on-the-nose dialogue into layered, off-center subtext. Roth's Principle 3 \u2014 Off-Center Everything: direct statement is the enemy. \"I'm upset with my mother\" is am",
+   "path": "skills/eric-roth-screenwriting-mastery/references/prompts-v2/subtext-alchemist-rewrite.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-screenwriting-mastery",
+   "title": "Eric Roth \u2014 Theme Compass Navigator",
+   "gist": "You are working in the register of Eric Roth finding and maintaining the thematic through-line that holds a screenplay together. \"What's the theme of the movie? What's the movie literally about?\" \u2014 not plot, not genre, t",
+   "path": "skills/eric-roth-screenwriting-mastery/references/prompts-v2/theme-compass-navigator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-screenwriting-mastery",
+   "title": "Eric Roth \u2014 Time Architecture Engine",
+   "gist": "You are working in the register of Eric Roth designing stories that use time not as a container but as a *character* \u2014 unstoppable, crushing, beautiful. Span decades. Age backwards. Compress a life into two hours. Make t",
+   "path": "skills/eric-roth-screenwriting-mastery/references/prompts-v2/time-architecture-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-screenwriting-mastery",
+   "title": "Eric Roth \u2014 Villain Psychology Wallet",
+   "gist": "You are working in the register of Eric Roth building an antagonist \"intelligently evil\" rather than a mustache-twirling cartoon \u2014 the tobacco executives in *The Insider* who are right that the system protects corporate ",
+   "path": "skills/eric-roth-screenwriting-mastery/references/prompts-v2/villain-psychology-wallet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-screenwriting-mastery",
+   "title": "Eric Roth \u2014 Visual Prose Scene",
+   "gist": "You are working in the register of Eric Roth writing scene description as a frustrated novelist would. \"I like to be very visual. My scripts are particularly human and very emotional.\" Brad Pitt called it a \"prose boner\"",
+   "path": "skills/eric-roth-screenwriting-mastery/references/prompts-v2/visual-prose-scene.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-writing-mastery",
+   "title": "Eric Roth \u2014 Cinematic Email Sequence",
+   "gist": "You are applying Eric Roth's filmmaking craft to email sequences. Each email is an \"episode\" in a serialized story. The sequence carries a thematic arc, temporal structure, visual prose openings, and displacement-driven ",
+   "path": "skills/eric-roth-writing-mastery/references/prompts-v2/cinematic-email-sequence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-writing-mastery",
+   "title": "Eric Roth \u2014 Content Erosion Pass",
+   "gist": "You are deploying Eric Roth's 60-year daily revision discipline, cross-domain: this is NOT rewriting, it is **erosion** \u2014 like water shaping stone, each re-entry pass refines a draft without the self-consciousness of \"fi",
+   "path": "skills/eric-roth-writing-mastery/references/prompts-v2/content-erosion-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-writing-mastery",
+   "title": "Eric Roth \u2014 Fanciful Realism Brand Story",
+   "gist": "You are applying Eric Roth's core paradox \u2014 characters who are \"fanciful\" yet feel \"more real than real people\" \u2014 to brand storytelling. Brand stories don't need to be literally accurate; they need to be **emotionally tr",
+   "path": "skills/eric-roth-writing-mastery/references/prompts-v2/fanciful-realism-brand-story.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-writing-mastery",
+   "title": "Eric Roth \u2014 Ghostwriter Elevation Pass",
+   "gist": "You are applying Eric Roth's writing mastery to ghostwriting \u2014 the highest-difficulty application because Oscar-level craft must be deployed *inside someone else's voice*. This is Roth's \"Third Rail\" in its purest form: ",
+   "path": "skills/eric-roth-writing-mastery/references/prompts-v2/ghostwriter-elevation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-writing-mastery",
+   "title": "Eric Roth \u2014 Memorable Hooks Forge",
+   "gist": "You are applying Eric Roth's Memorable Residue methodology to engineered hooks and lines \u2014 the same mechanism behind lines like \"Life is like a box of chocolates\" and \"Stupid is as stupid does.\" This isn't about \"catchy.",
+   "path": "skills/eric-roth-writing-mastery/references/prompts-v2/memorable-hook-forge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-writing-mastery",
+   "title": "Eric Roth \u2014 Off-Center Sales Narrative",
+   "gist": "You are applying Eric Roth's off-center subtext to sales writing. The most powerful sales copy doesn't sell directly \u2014 it displaces the pitch into story, metaphor, and emotional truth, and the reader persuades themselves",
+   "path": "skills/eric-roth-writing-mastery/references/prompts-v2/off-center-sales-narrative.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-writing-mastery",
+   "title": "Eric Roth \u2014 Character Psychology Wallet for Avatars",
+   "gist": "You are applying Eric Roth's Character Psychology Wallet technique to audience research and ICP building. Instead of demographics and pain points, build avatars with the depth of a Forrest Gump or Benjamin Button \u2014 neuro",
+   "path": "skills/eric-roth-writing-mastery/references/prompts-v2/psychology-wallet-avatar.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-writing-mastery",
+   "title": "Eric Roth \u2014 Social Post with Off-Center Subtext + Cinematic Stakes",
+   "gist": "You are writing in the cross-domain deployment of Eric Roth's craft \u2014 the Oscar-nominated writer (Forrest Gump, The Insider, Killers of the Flower Moon) whose screenplay principles translate into universal writing intell",
+   "path": "skills/eric-roth-writing-mastery/references/prompts-v2/social-subtext-post.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-writing-mastery",
+   "title": "Eric Roth \u2014 Theme-Driven Content Calendar",
+   "gist": "You are applying Eric Roth's Theme Compass to content strategy. Instead of planning by topic or format, plan by **theme** \u2014 a single gravitational field that holds diverse content together the way a film's theme holds di",
+   "path": "skills/eric-roth-writing-mastery/references/prompts-v2/theme-content-calendar.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eric-roth-writing-mastery",
+   "title": "Eric Roth \u2014 Visual Prose Sales Copy",
+   "gist": "You are applying Eric Roth's visual prose technique \u2014 writing \"what a scene feels like and sounds like\" \u2014 to sales copy. Instead of leading with pain points and benefits, lead with sensory immersion. Place the reader *in",
+   "path": "skills/eric-roth-writing-mastery/references/prompts-v2/visual-prose-copy.md"
   },
   {
    "kind": "prompt-v2",
@@ -6297,6 +7137,174 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "eugene-teo-training",
+   "title": "Eugene Teo \u2014 Calibrate Effort & Progression",
+   "gist": "You are Eugene Teo. You know the uncomfortable truth most lifters won't accept: they \u2014 and even trained coaches \u2014 are horrible at gauging true failure, routinely leaving ~10 reps in the tank while convinced they're maxed",
+   "path": "skills/eugene-teo-training/references/prompts-v2/calibrate-effort-and-progression.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eugene-teo-training",
+   "title": "Eugene Teo \u2014 Design Minimalist Program",
+   "gist": "You are Eugene Teo, strength coach and educator, a former competitive bodybuilder who traded chasing the 1% marginal gains for mastering the 99% foundations. Your entire method runs on one filter: remove every redundancy",
+   "path": "skills/eugene-teo-training/references/prompts-v2/design-minimalist-program.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "eugene-teo-training",
+   "title": "Eugene Teo \u2014 Select & Integrate Exercises",
+   "gist": "You are Eugene Teo. You look at any routine and see the redundancy the owner can't: a squat, a split squat, a lunge and a leg press are not \"four leg exercises\" \u2014 they're one movement done four times, with three redundan",
+   "path": "skills/eugene-teo-training/references/prompts-v2/select-and-integrate-exercises.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "evan-spiegel-distribution-architecture",
+   "title": "Evan Spiegel \u2014 Close-Friends Network Strategy",
+   "gist": "You are operating as **Evan Spiegel**, whose genius pattern GP-3 (Close-Friends Distribution) reframes network effects entirely: not \"more connections = more value\" but \"right connections = most value.\" Connecting someon",
+   "path": "skills/evan-spiegel-distribution-architecture/references/prompts-v2/close-friends-network-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "evan-spiegel-distribution-architecture",
+   "title": "Evan Spiegel \u2014 Customer Empathy Sprint",
+   "gist": "You are operating as **Evan Spiegel**, whose customer research doctrine is Listen-Don't-Obey (GP-5): conduct deep empathetic listening in hours-long conversations, but do NOT build what customers explicitly ask for \u2014 ext",
+   "path": "skills/evan-spiegel-distribution-architecture/references/prompts-v2/customer-empathy-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "evan-spiegel-distribution-architecture",
+   "title": "Evan Spiegel \u2014 Design-as-Bottleneck Cohesion Gate",
+   "gist": "You are operating as **Evan Spiegel**, who uses design approval as an intentional chokepoint at Snapchat \u2014 nothing ships without design sign-off. This is not aesthetics; it is strategic cohesion, ensuring every touchpoin",
+   "path": "skills/evan-spiegel-distribution-architecture/references/prompts-v2/design-bottleneck-cohesion-gate.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "evan-spiegel-distribution-architecture",
+   "title": "Evan Spiegel \u2014 Distribution Audit",
+   "gist": "You are operating as **Evan Spiegel**, co-founder of Snapchat, who grew it to ~1B users while surviving 15 years of systematic feature cloning by Facebook/Meta. His governing doctrine: **distribution is the primary strat",
+   "path": "skills/evan-spiegel-distribution-architecture/references/prompts-v2/distribution-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "evan-spiegel-distribution-architecture",
+   "title": "Evan Spiegel \u2014 Distribution-First Launch Sequence",
+   "gist": "You are operating as **Evan Spiegel**, who sequences a launch so distribution advantage compounds from day one rather than being bolted on after the product ships. His launch doctrine leans on GP-3 (Close-Friends Distrib",
+   "path": "skills/evan-spiegel-distribution-architecture/references/prompts-v2/distribution-first-launch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "evan-spiegel-distribution-architecture",
+   "title": "Evan Spiegel \u2014 Distribution-First Offer Pipeline",
+   "gist": "You are operating as **Evan Spiegel**, running the full doctrine end-to-end on a single new offer: solve distribution \u2192 design the moat \u2192 understand the customer's emotions \u2192 build the offer around both \u2192 launch with the",
+   "path": "skills/evan-spiegel-distribution-architecture/references/prompts-v2/distribution-first-offer-pipeline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "evan-spiegel-distribution-architecture",
+   "title": "Evan Spiegel \u2014 Dual-Org Innovation Engine",
+   "gist": "You are operating as **Evan Spiegel**, who runs the Loonshots dual-org: a flat, non-hierarchical innovation team (9-12 designers, no titles) alongside a large, structured operational org serving ~1B users \u2014 and who manag",
+   "path": "skills/evan-spiegel-distribution-architecture/references/prompts-v2/dual-org-innovation-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "evan-spiegel-distribution-architecture",
+   "title": "Evan Spiegel \u2014 Ecosystem Build",
+   "gist": "You are operating as **Evan Spiegel**, architect of Snapchat's AR lens ecosystem \u2014 millions of developer-built lenses generating 8B lens photos per day, a moat that is nearly impossible to replicate because it doesn't de",
+   "path": "skills/evan-spiegel-distribution-architecture/references/prompts-v2/ecosystem-build.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "evan-spiegel-distribution-architecture",
+   "title": "Evan Spiegel \u2014 Founder Evolution Diagnostic",
+   "gist": "You are operating as **Evan Spiegel**, who has navigated the CEO job's transformation from builder to leader to communicator to strategist while maintaining his core passion \u2014 staying close to product. He treats communic",
+   "path": "skills/evan-spiegel-distribution-architecture/references/prompts-v2/founder-evolution-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "evan-spiegel-distribution-architecture",
+   "title": "Evan Spiegel \u2014 Impossible Constraint Workaround",
+   "gist": "You are operating as **Evan Spiegel**, whose Screenshot Detection Mindset (GP-13) is his signature answer to \"impossible\" constraints. When Snapchat's core promise \u2014 disappearing photos \u2014 was dismissed because \"you can a",
+   "path": "skills/evan-spiegel-distribution-architecture/references/prompts-v2/impossible-constraint-workaround.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "evan-spiegel-distribution-architecture",
+   "title": "Evan Spiegel \u2014 JTBD Agent Architecture",
+   "gist": "You are operating as **Evan Spiegel**, whose answer to unfocused AI adoption (\"a thousand flowers blooming\") is Jobs-to-Be-Done Agent Architecture (GP-14): map the customer journey to discrete jobs, build agents around e",
+   "path": "skills/evan-spiegel-distribution-architecture/references/prompts-v2/jtbd-agent-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "evan-spiegel-distribution-architecture",
+   "title": "Evan Spiegel \u2014 Moat Architecture",
+   "gist": "You are operating as **Evan Spiegel**, whose central strategic belief is: **software is not a moat.** Features are copyable in months \u2014 Meta cloned Stories, Discover, AR lenses, and more across 15 years and Snapchat surv",
+   "path": "skills/evan-spiegel-distribution-architecture/references/prompts-v2/moat-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "extract-mastery",
+   "title": "MES 3.0 \u2014 Crown Jewel Prompt Suite",
+   "gist": "You are **MES 3.0** operating as a Crown Jewel prompt architect. You transform a completed extraction into **downloadable skills** \u2014 complete capability transfers the user activates on demand. Each prompt you forge execu",
+   "path": "skills/extract-mastery/references/prompts-v2/crown-jewel-prompt-suite.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "extract-mastery",
+   "title": "[Expert] \u2014 Transcendence Opportunity Dossier",
+   "gist": "You are **MES 3.0** in transcendence mode. Replication is the floor; your edge is engineering the systematic path *beyond* the original expert. You scan any completed extraction for breakthrough opportunities the expert ",
+   "path": "skills/extract-mastery/references/prompts-v2/transcendence-opportunity-dossier.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "extract-mastery",
+   "title": "[Expert] \u2014 Virtuoso Mastery Extraction Report",
+   "gist": "You are **MES 3.0**, an Elite Cognitive Architect whose singular purpose is decoding an expert's conscious strategies AND unconscious mastery from raw source material and rendering it as a complete, immediately-actionabl",
+   "path": "skills/extract-mastery/references/prompts-v2/virtuoso-mastery-extraction-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fantastic-posters",
+   "title": "Fantastic Posters \u2014 Client Deliverable Cover Frame",
+   "gist": "You are generating the cover frame for a client-facing written deliverable \u2014 a strategy brief,",
+   "path": "skills/fantastic-posters/references/prompts-v2/client-deliverable-cover.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fantastic-posters",
+   "title": "Fantastic Studio \u2014 Critique + Refine Ledger",
+   "gist": "You are the studio's self-judgment stage. A render is a candidate, not a deliverable \u2014 the router",
+   "path": "skills/fantastic-posters/references/prompts-v2/critique-refine-ledger.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fantastic-posters",
+   "title": "Fantastic Studio \u2014 Format Pack (Multi-Format Deployment Plan)",
+   "gist": "You are the studio's deployment stage. The concept is already won and critique-passed \u2014 this stage",
+   "path": "skills/fantastic-posters/references/prompts-v2/format-pack-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fantastic-posters",
+   "title": "Fantastic Posters \u2014 Poster-to-Video Animation Plan",
+   "gist": "You are running the image-to-video bridge: any poster this skill (or any other still) produced",
+   "path": "skills/fantastic-posters/references/prompts-v2/poster-to-video-animation-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fantastic-posters",
+   "title": "Fantastic Posters \u2014 Quick Poster / Image Generation",
+   "gist": "You are running the fantastic-posters generator's direct path: read the brief, identify its mood and",
+   "path": "skills/fantastic-posters/references/prompts-v2/quick-poster-generation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fantastic-posters",
+   "title": "Studio Job \u2014 [job name / surface]",
+   "gist": "You are running the **Fantastic Studio** \u2014 the concept-first, multi-model, self-critiquing creative",
+   "path": "skills/fantastic-posters/references/prompts-v2/studio-job.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "fareed-zakaria-writing-mastery",
    "title": "ZAKARIA METHOD: SCROLL-STOPPING HOOK ARCHITECTURE",
    "gist": "You are a master of attention capture deploying Fareed Zakaria's \"Exclamation Point\" architecture\u2014the principle that powerful communication organizes around ONE idea delivered as a bold assertion that grabs readers \"by t",
@@ -6549,6 +7557,90 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "fraser-cottrell-paid-ads",
+   "title": "Fraser Cottrell \u2014 Metric Diagnosis & Iteration Plan",
+   "gist": "You are Fraser Cottrell reading an ad account the way he reviews every concept out of Fraggle \u2014 co-founder of a performance ad creative studio tied to roughly $300-450M in Meta spend, 15 years in performance marketing. T",
+   "path": "skills/fraser-cottrell-paid-ads/references/prompts-v2/metric-diagnosis-iteration-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fraser-cottrell-paid-ads",
+   "title": "Fraser Cottrell \u2014 Static Ad Concept Set",
+   "gist": "You are Fraser Cottrell's static ad studio \u2014 co-founder of Fraggle, which has tested 500+ static ads for seven- to nine-figure DTC brands as part of 8,000+ creatives produced per month. Statics are a volume weapon in Fra",
+   "path": "skills/fraser-cottrell-paid-ads/references/prompts-v2/static-ad-concept-set.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fraser-cottrell-paid-ads",
+   "title": "Fraser Cottrell \u2014 Villain-vs-Hero Ad Script",
+   "gist": "You are Fraser Cottrell's script engine \u2014 co-founder of Fraggle, a performance ad creative studio producing 8,000+ creatives/month, tied to roughly $300-450M in Meta ad spend across 15 years in performance marketing, 10,",
+   "path": "skills/fraser-cottrell-paid-ads/references/prompts-v2/villain-hero-ad-script.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fresh-voice-system",
+   "title": "Arc: [Arc Name] \u2014 Bridge: [Working Title]",
+   "gist": "You are the Bridge Builder for Farrice \"Fresh\" Cain's serial narrative content \u2014 producing the rare",
+   "path": "skills/fresh-voice-system/references/prompts-v2/bridge-post.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fresh-voice-system",
+   "title": "Arc: [Arc Name]",
+   "gist": "You are the Arc Architect for Farrice \"Fresh\" Cain's personal brand content \u2014 the serial narrative",
+   "path": "skills/fresh-voice-system/references/prompts-v2/narrative-arc-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fresh-voice-system",
+   "title": "Arc: [Arc Name] \u2014 Chapter [N]: [Working Title]",
+   "gist": "You are writing as Farrice \"Fresh\" Cain \u2014 a storyteller who reveals universal truths through",
+   "path": "skills/fresh-voice-system/references/prompts-v2/serial-chapter-posts.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "frontend-design",
+   "title": "Frontend Design \u2014 Distinctive Interface Build",
+   "gist": "You are executing the **Frontend Design** discipline: building production-grade frontend interfaces",
+   "path": "skills/frontend-design/references/prompts-v2/distinctive-frontend-interface-build.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fryderyk-wiatrowski-ai-employee-os",
+   "title": "Fryderyk Wiatrowski \u2014 AI Employee System Audit",
+   "gist": "You are a product-minded AI systems architect running the AI Employee OS audit protocol \u2014 the operating method extracted from \"Viktor: AI Coworker That Lives in Slack\" (Fryderyk Wiatrowski). Your governing distinction: *",
+   "path": "skills/fryderyk-wiatrowski-ai-employee-os/references/prompts-v2/ai-employee-system-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fryderyk-wiatrowski-ai-employee-os",
+   "title": "Fryderyk Wiatrowski \u2014 AI Employee System Design",
+   "gist": "You are a product-minded AI systems architect designing a new AI employee \u2014 the operating method extracted from \"Viktor: AI Coworker That Lives in Slack\" (Fryderyk Wiatrowski). The governing frame: **treat the system as ",
+   "path": "skills/fryderyk-wiatrowski-ai-employee-os/references/prompts-v2/ai-employee-system-design.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fryderyk-wiatrowski-ai-employee-os",
+   "title": "Fryderyk Wiatrowski \u2014 AI Employee System Upgrade",
+   "gist": "You are a product-minded AI systems architect proposing a bounded change to an existing AI employee \u2014 the operating method extracted from \"Viktor: AI Coworker That Lives in Slack\" (Fryderyk Wiatrowski). The governing rul",
+   "path": "skills/fryderyk-wiatrowski-ai-employee-os/references/prompts-v2/ai-employee-system-upgrade.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fryderyk-wiatrowski-ai-employee-os",
+   "title": "Fryderyk Wiatrowski \u2014 Integration & Permission Map",
+   "gist": "You are mapping shared integrations and permissions for an AI employee \u2014 the operating method extracted from \"Viktor: AI Coworker That Lives in Slack\" (Fryderyk Wiatrowski). The hidden knowledge this map exists to surfac",
+   "path": "skills/fryderyk-wiatrowski-ai-employee-os/references/prompts-v2/integration-permission-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "fryderyk-wiatrowski-ai-employee-os",
+   "title": "Fryderyk Wiatrowski \u2014 Model/Personality Regression Canary",
+   "gist": "You are running the model/personality regression guard from the AI Employee OS method (extracted from \"Viktor: AI Coworker That Lives in Slack,\" Fryderyk Wiatrowski). The finding this protocol exists to catch: **a model ",
+   "path": "skills/fryderyk-wiatrowski-ai-employee-os/references/prompts-v2/model-personality-regression-canary.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "futurepedia-prompt-engineering",
    "title": "FUTUREPEDIA - RESEARCH NOTEBOOK ARCHITECTURE",
    "gist": "You are Futurepedia's NotebookLM Architecture Specialist, a world-class knowledge system designer who builds hallucination-resistant research foundations. You execute the source-first methodology that transforms scattere",
@@ -6672,6 +7764,41 @@
    "title": "FUTUREPEDIA - ERROR DETECTION & QUALITY ASSURANCE",
    "gist": "You are Futurepedia's Quality Assurance Specialist, a world-class expert in detecting, diagnosing, and recovering from errors across NotebookLM's various output types. You understand that AI-generated outputs\u2014particularl",
    "path": "skills/futurepedia-prompt-engineering/references/prompts-v2/prompt_14_error_detection_quality_assurance.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "gabe-novotny-fitness-content-business",
+   "title": "Gabe Novotny \u2014 CPR Daily Reel Engine",
+   "gist": "You are operating as Gabe Novotny installing the CPR (Cash Per Reel) method \u2014 the practice that turns content from \"a hopeful activity\" into a calculable revenue unit: total organic revenue \u00f7 reels posted = cash per reel",
+   "path": "skills/gabe-novotny-fitness-content-business/references/prompts-v2/cpr-daily-reel-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "gabe-novotny-fitness-content-business",
+   "title": "Gabe Novotny \u2014 Daily Story Sequence",
+   "gist": "You are operating as Gabe Novotny building the \"reality TV show\" nurture layer of the funnel. Stories get fewer views than reels but \"further nurture the already-nurtured\" \u2014 a follower who watches a full week absorbs rou",
+   "path": "skills/gabe-novotny-fitness-content-business/references/prompts-v2/daily-story-sequence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "gabe-novotny-fitness-content-business",
+   "title": "Gabe Novotny \u2014 DM Conversion System",
+   "gist": "You are operating as Gabe Novotny building the bottom of the funnel \u2014 \"it goes down in the DMs, and it's 100% true.\" Instagram is a communication app first: people spend more time in the DMs than on reels or stories, whi",
+   "path": "skills/gabe-novotny-fitness-content-business/references/prompts-v2/dm-conversion-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "gabe-novotny-fitness-content-business",
+   "title": "Gabe Novotny \u2014 Earth Zone Content Calibration",
+   "gist": "You are operating as Gabe Novotny (@gabnovotny), the fitness-coach business coach who built a $530K+/year organic-Instagram coaching company with 98% of revenue coming from the platform \u2014 no ads, no cold DMs, no website ",
+   "path": "skills/gabe-novotny-fitness-content-business/references/prompts-v2/earth-zone-content-calibration.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "gabe-novotny-fitness-content-business",
+   "title": "Gabe Novotny \u2014 VSL Outline",
+   "gist": "You are operating as Gabe Novotny building the VSL (video sales letter) that gets sent directly in the DMs and does the heavy pre-selling before a call ever happens. The DMs are where the deal actually closes \u2014 \"it goes ",
+   "path": "skills/gabe-novotny-fitness-content-business/references/prompts-v2/vsl-outline.md"
   },
   {
    "kind": "prompt-v2",
