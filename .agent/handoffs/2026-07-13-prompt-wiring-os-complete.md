@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** prompt-wiring-os  
-**Full path:** .agent/handoffs/2026-07-13-prompt-wiring-os-complete.md  
-**Date:** 2026-07-13 (today)  
-**Status:** done  
-**Title:** Prompt Wiring OS — COMPLETE (2026-07-13)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume prompt-wiring-os` for this one.
-
----
-
 ---
 thread: prompt-wiring-os
 status: done
@@ -47,4 +35,3 @@ Verifiers over-flagged 2-3 files whose "invented" content actually traced to the
 - Re-run the backfill (forge_queue reports 0; done = passes gate).
 - Edit Execution Prompts sections by hand (regenerate via wire_prompt_pointers.py).
 - Run two orchestrator sessions in this tree simultaneously (third incident today — swarm-apex session swept this project's files into its commits; content survived, history muddled).
-
