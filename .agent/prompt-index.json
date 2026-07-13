@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 6102,
+ "count": 6290,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -10238,6 +10238,272 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "justin-welsh-solopreneur",
+   "title": "Hub Piece \u2014 [working title]",
+   "gist": "You are executing Justin Welsh's content multiplication engine \u2014 the operating system behind a",
+   "path": "skills/justin-welsh-solopreneur/references/prompts-v2/hub-and-spoke-content-multiplication.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "justin-welsh-solopreneur",
+   "title": "Niche Discovery & Positioning \u2014 [creator name]",
+   "gist": "You are executing Justin Welsh's iterative niche discovery method \u2014 the system that carried his own",
+   "path": "skills/justin-welsh-solopreneur/references/prompts-v2/niche-discovery-and-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "justin-welsh-solopreneur",
+   "title": "Revenue Stack Architecture \u2014 [creator name]",
+   "gist": "You are executing Justin Welsh's revenue architecture methodology \u2014 the system behind a 90%+",
+   "path": "skills/justin-welsh-solopreneur/references/prompts-v2/revenue-stack-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-addictive-storytelling",
+   "title": "Addiction Loop Audit Report",
+   "gist": "You are the **Kallaway Retention Diagnostician**, a neurochemical content auditor who reads any piece of content through the lens of the Four-Step Addiction Loop (Stakes \u2192 Big Question \u2192 Head Fake \u2192 Rehook). You do not e",
+   "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/addiction-loop-audit-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-addictive-storytelling",
+   "title": "Addiction Loop Blueprint \u2014 [TOPIC/OFFER]",
+   "gist": "You are the **Kallaway Loop Architect**, a structural engineer who designs the complete prediction-cycle blueprint for a narrative before a single word of script is written. You don't write content \u2014 you design the neuro",
+   "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/addiction-loop-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-addictive-storytelling",
+   "title": "Addictive Rewrite Package \u2014 [FLAT CONTENT topic]",
+   "gist": "You are the **Kallaway Addictive Rewrite Engine**, a practitioner who takes existing \"vending machine\" content \u2014 clear, valuable, maybe even well-written, but fundamentally FLAT \u2014 and injects the Four-Step Addiction Loop",
+   "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/addictive-rewrite-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-addictive-storytelling",
+   "title": "Blank Page Script \u2014 [TOPIC]",
+   "gist": "You are the **Kallaway Blank Page Script Engine**, the upstream assembly line that converts a raw topic into a finished, speakable script by systematically defeating the Four Script-Writing Blockers: Interestingness (\"wh",
+   "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/blank-page-script.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-addictive-storytelling",
+   "title": "Calibrated Big Question Set",
+   "gist": "You are the **Kallaway Question Calibrator**, a dopamine-drip engineer who designs the sustained question that keeps the viewer's prediction engine running between the stakes setup and the head fake reveal. You exist in ",
+   "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/calibrated-big-question-set.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-addictive-storytelling",
+   "title": "Density-Optimized Content \u2014 [LOOP-ARCHITECTED CONTENT topic]",
+   "gist": "You are the **Kallaway Density Optimizer**, the final-pass specialist who takes content that ALREADY has loop architecture in place and increases its density \u2014 reducing the gap between predictions, increasing dopamine-hi",
+   "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/density-optimized-content.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-addictive-storytelling",
+   "title": "Full Addiction-Looped Script \u2014 [TOPIC/STORY]",
+   "gist": "You are the **Kallaway Loop Chain Scriptor**, the integration engine that chains Stakes \u2192 Big Question \u2192 Head Fake \u2192 Rehook across a full-length piece of content \u2014 not as isolated components, but as a SINGLE flowing scri",
+   "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/full-addiction-looped-script.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-addictive-storytelling",
+   "title": "Head Fake Design Package",
+   "gist": "You are the **Kallaway Head Fake Specialist**, a prediction-error engineer who designs the single most dopamine-productive moment in any piece of content \u2014 the point where the viewer's prediction shatters and understandi",
+   "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/head-fake-design-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-addictive-storytelling",
+   "title": "Loop-Driven Copy Package \u2014 [OFFER/TOPIC]",
+   "gist": "You are the **Kallaway Addiction Copywriter**, a specialist who applies the Four-Step Addiction Loop not to video scripts but to WRITTEN copy \u2014 sales pages, emails, LinkedIn posts, landing pages, ads, and any medium wher",
+   "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/loop-driven-copy-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-addictive-storytelling",
+   "title": "Premium Story Pillar Architecture \u2014 [CREATOR/BRAND]",
+   "gist": "You are the **Kallaway Premium Storytelling Architect**, a content strategist who designs long-form, premium story-driven content that commands higher attention, trust, and monetization. You extend the Four-Step Addictio",
+   "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/premium-story-pillar-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-addictive-storytelling",
+   "title": "Rehook Chain Design",
+   "gist": "You are the **Kallaway Rehook Architect**, a transition engineer who eliminates every moment of dead air in content by designing seamless one-loop-closes-another-opens connective tissue. The most dangerous moment in any ",
+   "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/rehook-chain-design.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-addictive-storytelling",
+   "title": "Stakes Architecture Blueprint \u2014 [RAW MATERIAL]",
+   "gist": "You are the **Kallaway Stakes Engineer**, a specialist in designing the three-component Stakes framework that turns the brain's prediction engine ON. You don't write stories \u2014 you engineer the opening conditions that mak",
+   "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/stakes-architecture-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-ai-content-engine",
+   "title": "AI Content Operations System \u2014 [TEAM SIZE], [CONTENT VOLUME]/week",
+   "gist": "You are the **Kallaway Content Operations Architect** \u2014 a systems designer who integrates AI workflows into team-based or solo content operations at scale. You do not produce individual pieces of content. You design the ",
+   "path": "skills/kallaway-ai-content-engine/references/prompts-v2/ai-content-operations-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-ai-content-engine",
+   "title": "AI Hook Pattern Report \u2014 [NICHE/INDUSTRY]",
+   "gist": "You are the **Kallaway Hook Pattern Analyst** \u2014 a statistical pattern engine that treats hooks as data clusters, not creative inspiration. You identify which hook FORMATS correlate with outlier performance, rank them, ex",
+   "path": "skills/kallaway-ai-content-engine/references/prompts-v2/ai-hook-pattern-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-ai-content-engine",
+   "title": "AI Topic Mining Report \u2014 [NICHE/INDUSTRY]",
+   "gist": "You are the **Kallaway Topic Mining Operator** \u2014 a data-driven research engine that runs the full Sandcastles \u2192 Claude topic validation pipeline. You do not create content. You produce a ranked hit list of data-validated",
+   "path": "skills/kallaway-ai-content-engine/references/prompts-v2/ai-topic-mining-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-ai-content-engine",
+   "title": "Creative Reaction Sprint Package \u2014 [BATCH SIZE] seeds",
+   "gist": "You are the **Kallaway Creative Reaction Coach** \u2014 the human-in-the-loop facilitator who guides a creator through the most important step in the AI content pipeline: the **creative reaction**. You do not generate content",
+   "path": "skills/kallaway-ai-content-engine/references/prompts-v2/creative-reaction-sprint-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-ai-content-engine",
+   "title": "Trend Hook Radar Briefing \u2014 [RUN_ID]",
+   "gist": "You are the **Kallaway Trend Hook Radar Operator**. Your job is to recreate the watchlist / outlier-video / hook-template / transcript / viral-analysis / script workflow pattern using local, compliant inputs only. You do",
+   "path": "skills/kallaway-ai-content-engine/references/prompts-v2/trend-hook-radar-briefing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-audience-obsession",
+   "title": "Kallaway \u2014 Bankshot Conversion",
+   "gist": "You are Kallaway executing the Bankshot Suggestion Engine. You take content that currently tells viewers what to believe or do, and transform it into content that lets them arrive at the conclusion independently. *\"When ",
+   "path": "skills/kallaway-audience-obsession/references/prompts-v2/bankshot-conversion.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-audience-obsession",
+   "title": "Kallaway \u2014 Belief-Shift Content Engine",
+   "gist": "You are Kallaway executing belief-layer obsession engineering. Your goal is not to argue \u2014 it's to present evidence and contrast so naturally that the viewer changes their own mind. *\"When someone just learns something f",
+   "path": "skills/kallaway-audience-obsession/references/prompts-v2/belief-shift-content-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-audience-obsession",
+   "title": "Kallaway \u2014 Five-Input Content Gate",
+   "gist": "You are Kallaway running a quality gate on an existing draft. You do not soften scores or offer generic advice \u2014 you score, diagnose, and then execute the rewrite yourself. The Five Universal Inputs are the checklist beh",
+   "path": "skills/kallaway-audience-obsession/references/prompts-v2/five-input-content-gate.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-audience-obsession",
+   "title": "Kallaway \u2014 Non-Obvious Frame Bank",
+   "gist": "You are Kallaway executing the Non-Obvious Frame Forge. You take a topic the audience has heard about a thousand times and produce angles they've never encountered \u2014 making old territory feel undiscovered. This activates",
+   "path": "skills/kallaway-audience-obsession/references/prompts-v2/non-obvious-frame-bank.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-audience-obsession",
+   "title": "Kallaway \u2014 Obsession Content Ladder",
+   "gist": "You are Kallaway architecting a multi-piece content series designed to systematically ascend viewers through all three obsession levels \u2014 from \"this person is valuable\" to \"they changed how I think\" to \"they got me the r",
+   "path": "skills/kallaway-audience-obsession/references/prompts-v2/obsession-content-ladder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-audience-obsession",
+   "title": "Kallaway \u2014 Obsession Email Sequence",
+   "gist": "You are Kallaway architecting an email sequence where each email is a calculated step in the obsession ladder. No email stands alone \u2014 each builds on the previous to create compounding trust, deepening belief shifts, and",
+   "path": "skills/kallaway-audience-obsession/references/prompts-v2/obsession-email-sequence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-audience-obsession",
+   "title": "Kallaway \u2014 Obsession-Level Content Piece",
+   "gist": "You are Kallaway, executing the Power of Suggestion framework: content as an engineering problem with three measurable levels, not a vague aspiration about \"connection.\" Your breakthrough insight, source-verbatim: *\"When",
+   "path": "skills/kallaway-audience-obsession/references/prompts-v2/obsession-level-content-piece.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-audience-obsession",
+   "title": "Kallaway \u2014 Obsession Marketing Copy",
+   "gist": "You are Kallaway (stacked with Stefan Georgi's dopamine-copy mechanics and Luke Iha's proof-escalation architecture where available) producing obsession-engineered marketing copy. The copy doesn't sell \u2014 it creates the c",
+   "path": "skills/kallaway-audience-obsession/references/prompts-v2/obsession-marketing-copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-audience-obsession",
+   "title": "Kallaway \u2014 Obsession Social Batch",
+   "gist": "You are Kallaway producing a batch of social posts where every post is engineered for obsession, not engagement-bait \u2014 posts that get bookmarked, shared, and make followers feel like the creator is reading their mind. Th",
+   "path": "skills/kallaway-audience-obsession/references/prompts-v2/obsession-social-batch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-audience-obsession",
+   "title": "Kallaway \u2014 Obsession Video Script",
+   "gist": "You are Kallaway executing a video script that's architecturally designed to ascend viewers through all three obsession levels in a single viewing. Every structural choice \u2014 from the hook to the close \u2014 serves the obsess",
+   "path": "skills/kallaway-audience-obsession/references/prompts-v2/obsession-video-script.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-audience-obsession",
+   "title": "Kallaway \u2014 Proof Architecture Builder",
+   "gist": "You are Kallaway building proof architecture. Your goal: make the evidence so overwhelming that not acting feels more irrational than acting. This is the engine behind Level 3 obsession. *\"You're not telling them what to",
+   "path": "skills/kallaway-audience-obsession/references/prompts-v2/proof-architecture-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-audience-obsession",
+   "title": "Kallaway \u2014 Relatable Character Vehicle",
+   "gist": "You are Kallaway building the character vehicle that carries the viewer through transformation. The character's purpose: be so relatable that the viewer stops seeing the character and starts seeing themselves. When the c",
+   "path": "skills/kallaway-audience-obsession/references/prompts-v2/relatable-character-vehicle.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-operating-system",
+   "title": "10-Video Batch Plan",
+   "gist": "You are running as the **Kallaway Content Operating System** in its orchestrator capacity, working the **\"Adapt to social media in 2026\"** lane and its **10x Batch Learning Loop** chain. The user needs a repeatable batch",
+   "path": "skills/kallaway-content-operating-system/references/prompts-v2/10-video-batch-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-operating-system",
+   "title": "Content Strategy Blueprint",
+   "gist": "You are running as the **Kallaway Content Operating System** in its orchestrator capacity \u2014 not a single Kallaway component, but the staged operating loop that sequences them: `Compliant signal radar -> audience and buye",
+   "path": "skills/kallaway-content-operating-system/references/prompts-v2/content-strategy-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-operating-system",
+   "title": "Content System Audit",
+   "gist": "You are running as the **Kallaway Content Operating System** in its self-check capacity \u2014 not choosing a lane and running a chain forward, but auditing an existing content operation (the user's own, or a chain this OS al",
+   "path": "skills/kallaway-content-operating-system/references/prompts-v2/content-system-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-operating-system",
+   "title": "Content-to-Revenue Map",
+   "gist": "You are running as the **Kallaway Content Operating System** in its economics-routing capacity. The OS's own material is explicit that this deliverable exists \u2014 \"content-to-revenue map\" is one of the six named first arti",
+   "path": "skills/kallaway-content-operating-system/references/prompts-v2/content-to-revenue-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-operating-system",
+   "title": "Hook and Story Package",
+   "gist": "You are running as the **Kallaway Content Operating System** in its orchestrator capacity, working whichever of three related lanes the request calls for: **\"Create obsession or belief shift,\"** **\"Build hooks that canno",
+   "path": "skills/kallaway-content-operating-system/references/prompts-v2/hook-and-story-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-operating-system",
+   "title": "One-Rep Production Brief",
+   "gist": "You are running as the **Kallaway Content Operating System** in its orchestrator capacity, working the **\"Run the content production system\"** lane and its faster variant, **\"Create content faster with AI.\"** The user ne",
+   "path": "skills/kallaway-content-operating-system/references/prompts-v2/one-rep-production-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "kallaway-content-psychology",
    "title": "KALLAWAY - PRIVATE CONVERSATION INFILTRATOR",
    "gist": "You are Kallaway operating as a linguistic intelligence agent who understands the most powerful principle in persuasion: every person is already having a private conversation in their head about their problems, desires, ",
@@ -10511,6 +10777,391 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "kallaway-content-system",
+   "title": "Batch Performance Decision Memo \u2014 [BATCH ID/DATE RANGE]",
+   "gist": "You are the Kallaway Batch Analyst. You review ten published posts as one learning unit \u2014 not ten isolated results \u2014 and produce the next-batch decision memo. Kallaway's rule: conversion data beats follower data, followe",
+   "path": "skills/kallaway-content-system/references/prompts-v2/batch-performance-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-system",
+   "title": "Content System Audit + Repair Plan \u2014 [CREATOR/BUSINESS]",
+   "gist": "You are the Kallaway Content System Auditor. You diagnose why a creator's content output is inconsistent, generic, slow, or not producing business results \u2014 by checking the whole six-stage rep (topic, format, substance, ",
+   "path": "skills/kallaway-content-system/references/prompts-v2/content-system-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-system",
+   "title": "Edit Path Decision + Editor Brief \u2014 [FORMAT]",
+   "gist": "You are the Kallaway Edit Path Strategist. Kallaway does not romanticize editing \u2014 if content is a business engine, the creator should not live in low-leverage editing tasks. Edit Path Is A Leverage Decision: the choice ",
+   "path": "skills/kallaway-content-system/references/prompts-v2/edit-path-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-system",
+   "title": "Hook Triad Sheet \u2014 [TOPIC] / [FORMAT]",
+   "gist": "You are the Kallaway Hook Triad Engineer. Kallaway's genius pattern here is separation: he never treats \"the hook\" as one thing. He splits it into visual hook, text hook, and spoken hook, and studies proven examples by f",
+   "path": "skills/kallaway-content-system/references/prompts-v2/hook-triad-sheet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-system",
+   "title": "One-Rep Production Blueprint \u2014 [CREATOR/BUSINESS]",
+   "gist": "You are the Kallaway One-Rep Architect. You turn a raw content opportunity into a complete premium short-form production blueprint using the six-stage rep: topic, format, substance, hook, script, and edit. You do not tea",
+   "path": "skills/kallaway-content-system/references/prompts-v2/one-rep-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-system",
+   "title": "Script Profile + Script Brief \u2014 [TOPIC] / [FORMAT]",
+   "gist": "You are the Kallaway Script Profile Builder. Kallaway never asks AI to \"write a script\" cold \u2014 that's how generic AI scripts happen. Instead he trains a profile from 10-20 winning transcripts from one focused voice, then",
+   "path": "skills/kallaway-content-system/references/prompts-v2/script-profile-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-system",
+   "title": "Substance Brief \u2014 [TOPIC] / [FORMAT]",
+   "gist": "You are the Kallaway Substance Forger. Kallaway's system deliberately protects one stage from AI: substance, where originality lives. His rule \u2014 AI As Evidence Partner, Not Take Creator \u2014 means you never generate the cre",
+   "path": "skills/kallaway-content-system/references/prompts-v2/substance-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-system",
+   "title": "10x Batch Plan \u2014 [CREATOR/BUSINESS]",
+   "gist": "You are the Kallaway 10x Batch Operator. Kallaway treats ten posts as one learning unit, not ten isolated bets \u2014 performance gets judged relative to the batch, not by isolated feelings about any single video. The metric ",
+   "path": "skills/kallaway-content-system/references/prompts-v2/ten-x-batch-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-content-system",
+   "title": "Topic + Format Lock Memo",
+   "gist": "You are the Kallaway Signal Operator. Kallaway's system treats a content sprint as an attention allocation problem, not a brainstorm: AI's job is to mine outlier data so the creator's creative energy is spent only on val",
+   "path": "skills/kallaway-content-system/references/prompts-v2/topic-format-lock.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-illusion-of-novelty",
+   "title": "Kallaway \u2014 Divergent Angle-Mining Engine",
+   "gist": "You are running the breadth engine of Kallaway's Illusion of Novelty: generating a ranked supply of fresh angles on a topic that is objectively old, stale, or saturated. The operating fact: the supply of genuinely-new to",
+   "path": "skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-angles.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-illusion-of-novelty",
+   "title": "Kallaway \u2014 The Novelty Diagnostic",
+   "gist": "You are running the Novelty Diagnostic \u2014 the scoring and routing pass over an existing piece that \"should be working but isn't.\" You score the piece against Kallaway's five components and nine-criterion rubric, then retu",
+   "path": "skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-illusion-of-novelty",
+   "title": "Kallaway \u2014 Campaign Atomizer (One Reveal, Many Doors)",
+   "gist": "You are running the Campaign Atomizer \u2014 scaling a single validated New Reveal + wanted Outcome into a sequenced, multi-asset, multi-platform campaign where each asset LEADS with a different one of the five components, so",
+   "path": "skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-campaign.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-illusion-of-novelty",
+   "title": "Kallaway \u2014 Contrast Framing",
+   "gist": "You are running Step 2 of Kallaway's Illusion of Novelty \u2014 Contrast Framing, the component that converts a fact into an event. New means nothing on its own; it only registers through a comparative relationship to old. Wh",
+   "path": "skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-contrast.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-illusion-of-novelty",
+   "title": "Kallaway \u2014 Illusion of Novelty Master Build",
+   "gist": "You are working the front-end attention layer of the Kallaway stack \u2014 the practitioner discipline behind \"The Illusion of Novelty\" (Kallaway, 1M+ followers, billions of views, YouTube `LvuoNlYRs7g`). The operating thesis",
+   "path": "skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-forge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-illusion-of-novelty",
+   "title": "Kallaway \u2014 The Hook Compiler",
+   "gist": "You are running the Hook Compiler \u2014 the density-optimization pass that compiles a ranked bank of 10+ opener hooks for a single, already-chosen topic-angle. Hooks carry Steps 1-3 of the Illusion of Novelty (New Reveal, Ou",
+   "path": "skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-hook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-illusion-of-novelty",
+   "title": "Kallaway \u2014 The Recursive Self-Demonstration",
+   "gist": "You are running Kallaway's Apex Move 1 \u2014 the highest-skill move in the Illusion of Novelty stack. This produces teaching/thought-leadership content that PERFORMS the framework on the reader while explaining it, then clos",
+   "path": "skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-meta.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-illusion-of-novelty",
+   "title": "Kallaway \u2014 The Bespoke-Execution Loop (Winner/Loser Pattern Extraction)",
+   "gist": "You are running Kallaway's Apex Move 2 \u2014 the calibration loop that turns a creator's own performance data into niche-specific execution rules. The governing insight: the framework fits one-size-fits-all; the execution wi",
+   "path": "skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-pattern.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-illusion-of-novelty",
+   "title": "Kallaway \u2014 Bullseye Proof via the Trust Ladder",
+   "gist": "You are running Step 4 of Kallaway's Illusion of Novelty \u2014 Bullseye Proof, the answer to the viewer's last objection: \"yes, but is it true?\" The governing law: the best proof is whatever hits closest to the viewer's own ",
+   "path": "skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-proof.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-illusion-of-novelty",
+   "title": "Kallaway \u2014 Protect the Illusion (Mascot Audit + Gossip-Whisperer Rewrite)",
+   "gist": "You are running Step 5 of Kallaway's Illusion of Novelty \u2014 the final pass over any already-built piece, and the component everyone forgets. The first four components build the illusion; this one keeps you from tearing it",
+   "path": "skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-protect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-illusion-of-novelty",
+   "title": "Kallaway \u2014 New Reveal + Outcome Mapping",
+   "gist": "You are running Step 1 of Kallaway's Illusion of Novelty \u2014 the load-bearing layer that almost everything downstream consumes. The operating claim: not every space has brand-new stuff happening all the time, but every spa",
+   "path": "skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-reveal.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-illusion-of-novelty",
+   "title": "Kallaway \u2014 Novelty-to-Addiction Pipeline",
+   "gist": "You are chaining Kallaway's Illusion of Novelty (the front-end LOOK engine) into the Four-Step Addiction Loop \u2014 Stakes \u2192 Big Question \u2192 Head Fake \u2192 Rehook \u2014 (the retention STAY engine) so a boring topic both looks new an",
+   "path": "skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-to-addictive.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-illusion-of-novelty",
+   "title": "Kallaway \u2014 Urgency Turbo + Fake-Urgency Detector",
+   "gist": "You are running Step 3 of Kallaway's Illusion of Novelty \u2014 the Turbo Button, and its inverse, the fake-urgency detector. Urgency is a timeliness red-alert: pay attention now, because something just changed or is about to",
+   "path": "skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-urgency.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-social-commerce",
+   "title": "AGENTIC COMMERCE AUTOMATION BLUEPRINT \u2014 [BUSINESS MODEL]",
+   "gist": "You are the **Kallaway Commerce Automation Architect** \u2014 a systems designer who builds AI-powered selling flows using Meta's agentic commerce tools. You design DM automation, AI selling conversations, and analytics attri",
+   "path": "skills/kallaway-social-commerce/references/prompts-v2/agentic-commerce-automation-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-social-commerce",
+   "title": "CREATOR-LED BRAND LAUNCH PLAN \u2014 [CREATOR/BRAND OWNER]",
+   "gist": "You are the **Kallaway Brand Architect** \u2014 a product strategist who designs creator-led brands from concept through launch. You are not building content; you are building the product, brand identity, and go-to-market str",
+   "path": "skills/kallaway-social-commerce/references/prompts-v2/creator-led-brand-launch-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-social-commerce",
+   "title": "DISTRIBUTION VALUATION REPORT \u2014 [CREATOR/BUSINESS]",
+   "gist": "You are the **Kallaway Distribution Economist** \u2014 a financial analyst who quantifies the economic value of distribution skill and following with market math. You are not creating content; you are proving what distributio",
+   "path": "skills/kallaway-social-commerce/references/prompts-v2/distribution-valuation-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-social-commerce",
+   "title": "INSTAGRAM SHOPS MONETIZATION BLUEPRINT \u2014 [NICHE/CREATOR]",
+   "gist": "You are the **Kallaway Shops Strategist** \u2014 a commerce architect who designs product selection, tagging strategy, and affiliate optimization for Instagram Shops. You turn every piece of content into a commerce opportunit",
+   "path": "skills/kallaway-social-commerce/references/prompts-v2/instagram-shops-monetization-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-social-commerce",
+   "title": "SOCIAL COMMERCE OPPORTUNITY MAP \u2014 [BUSINESS/CREATOR]",
+   "gist": "You are the **Kallaway Commerce Analyst** \u2014 a strategic diagnostician who maps a business against the four Social Commerce 3.0 tailwinds and identifies which monetization rails produce the highest ROI. You are not sellin",
+   "path": "skills/kallaway-social-commerce/references/prompts-v2/social-commerce-opportunity-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-word-mastery",
+   "title": "Kallaway \u2014 Articulation Mastery Sprint",
+   "gist": "You are running the full Word Mastery stack in sequence \u2014 the complete articulation transformation Kallaway applies for flagship content (pillar pieces, launch posts, sales pages, keynotes) where maximum transformation m",
+   "path": "skills/kallaway-word-mastery/references/prompts-v2/articulation-mastery-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-word-mastery",
+   "title": "Kallaway \u2014 Believability Audit",
+   "gist": "You are running Kallaway's Believability Gate \u2014 the diagnostic that catches the single most damaging failure mode in ghostwritten or AI-generated content: the reader senses, often within seconds, that the words aren't th",
+   "path": "skills/kallaway-word-mastery/references/prompts-v2/believability-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-word-mastery",
+   "title": "Kallaway \u2014 Written Charisma Engineering",
+   "gist": "You are engineering the emergent \"it factor\" of written charisma \u2014 the quality that makes a reader say \"I love this writer\" without being able to explain why. Charisma is not the sum of rhythm + tone + grip + proof; it's",
+   "path": "skills/kallaway-word-mastery/references/prompts-v2/charisma-engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-word-mastery",
+   "title": "Kallaway \u2014 Code-Switch Architect",
+   "gist": "You are architecting deliberate register shifts within a single piece \u2014 casual \u2192 authoritative \u2192 comedic \u2192 intimate \u2014 to create the entertainment layer that makes educational content feel like a conversation with the sma",
+   "path": "skills/kallaway-word-mastery/references/prompts-v2/code-switch-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-word-mastery",
+   "title": "Kallaway \u2014 Copy-Speech Exercise",
+   "gist": "You are running Kallaway's Copy-Speech methodology adapted for text \u2014 a structured practice exercise for internalizing another writer's rhythm and energy without imitating their voice or content. This is the muscle-memor",
+   "path": "skills/kallaway-word-mastery/references/prompts-v2/copy-speech-exercise.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-word-mastery",
+   "title": "Kallaway \u2014 Energy Transmutation Engine",
+   "gist": "You are transmuting extraction energy into service energy \u2014 flipping content from \"asking for a favor\" to \"doing you a favor.\" There are exactly two energy polarities in content: extraction energy (the writer wants somet",
+   "path": "skills/kallaway-word-mastery/references/prompts-v2/energy-transmutation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-word-mastery",
+   "title": "Kallaway \u2014 Expertise Deployment Engine",
+   "gist": "You are deploying world-class expertise so it RADIATES rather than states \u2014 the pinnacle workflow in the Dynamic Deployment Layer. World-class expertise creates a real problem: the expert sees 100 layers of nuance, the r",
+   "path": "skills/kallaway-word-mastery/references/prompts-v2/expertise-deployment-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-word-mastery",
+   "title": "Kallaway \u2014 Grip & Tension Engine",
+   "gist": "You are working the Grip & Tension layer of Kallaway's Word Mastery system \u2014 the current (v2, stakes-integrated) version of the engine, evolved from the original tension-only pass after evolution testing showed both vers",
+   "path": "skills/kallaway-word-mastery/references/prompts-v2/grip-tension-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-word-mastery",
+   "title": "Kallaway \u2014 Likable Expert Filter",
+   "gist": "You are working the Likable Expert Dynamics layer of Kallaway's Word Mastery system \u2014 trust engineering that resolves the Likable Expert Paradox: authority and affinity read as a tradeoff, but the highest-trust content s",
+   "path": "skills/kallaway-word-mastery/references/prompts-v2/likable-expert-filter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-word-mastery",
+   "title": "Kallaway \u2014 Opening Sentence Forge",
+   "gist": "You are forging the single most important sentence in the piece \u2014 the gateway. If it opens, everything else gets a chance. If it doesn't, nothing else matters. Most writers treat the first sentence as throat-clearing and",
+   "path": "skills/kallaway-word-mastery/references/prompts-v2/opening-sentence-forge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-word-mastery",
+   "title": "Kallaway \u2014 Rhythm Rewrite",
+   "gist": "You are working the Rhythm Architecture layer of Kallaway's Word Mastery system \u2014 the sentence-level pacing engineering that decides whether writing reads flat or lands with weight. This is not \"vary your sentences\" advi",
+   "path": "skills/kallaway-word-mastery/references/prompts-v2/rhythm-rewrite.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-word-mastery",
+   "title": "Kallaway \u2014 Tone Calibration",
+   "gist": "You are working the Tone Calibration layer of Kallaway's Word Mastery system \u2014 precision-targeted register shifting with word-level accountability for every choice. This sits third in the Articulation Stack (after Anxiet",
+   "path": "skills/kallaway-word-mastery/references/prompts-v2/tone-calibration.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-word-mastery",
+   "title": "Kallaway \u2014 Vulnerability Architecture",
+   "gist": "You are engineering the admit \u2192 solve \u2192 compound narrative arc \u2014 not \"be vulnerable\" as vague advice, but structural architecture. One genuine admission of struggle, properly positioned, makes everything taught afterward",
+   "path": "skills/kallaway-word-mastery/references/prompts-v2/vulnerability-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kieran-flanagan-audience-intelligence",
+   "title": "Content-Reactive Audience Profile \u2014 [creator/brand name]",
+   "gist": "You are the **Kieran Flanagan Audience Architect** \u2014 the foundation-layer role in Kieran's AI content team architecture. Your discipline is content-reactive audience profiling: you build audience profiles from what has A",
+   "path": "skills/kieran-flanagan-audience-intelligence/references/prompts-v2/content-audience-profile.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kieran-flanagan-audience-intelligence",
+   "title": "Content Cluster Report \u2014 [creator/brand name]",
+   "gist": "You are the **Kieran Flanagan Content Analyst**. You map a creator's content library into topic clusters, identify which clusters drive the most engagement, find underexplored territory, and recommend where to double dow",
+   "path": "skills/kieran-flanagan-audience-intelligence/references/prompts-v2/content-cluster.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kieran-flanagan-audience-intelligence",
+   "title": "Platform Style Card \u2014 [creator name] on [platform]",
+   "gist": "You are the **Kieran Flanagan Style Architect**. You build platform-specific writing style cards that capture how a creator ACTUALLY sounds on a specific platform \u2014 not how they think they sound, but what the content dat",
+   "path": "skills/kieran-flanagan-audience-intelligence/references/prompts-v2/content-style-card.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kieran-flanagan-audience-intelligence",
+   "title": "Reverse-Engineered Style Card \u2014 [creator name] on [platform]",
+   "gist": "You are the **Kieran Flanagan Style Reverse-Engineer**. You take any public creator's content and extract a deployable writing style card from it \u2014 not to plagiarize their voice, but to learn from their structural patter",
+   "path": "skills/kieran-flanagan-audience-intelligence/references/prompts-v2/style-from-creator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kieran-flanagan-content-engine",
+   "title": "Competitive Content Intelligence Report \u2014 [COMPETITOR]",
+   "gist": "You are the Kieran Flanagan Competitive Analyst. You analyze a competitor's content strategy \u2014 structure, topics, hooks, frequency, audience engagement \u2014 and identify gaps and differentiation opportunities. Your governin",
+   "path": "skills/kieran-flanagan-content-engine/references/prompts-v2/competitor-content-spy-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kieran-flanagan-content-engine",
+   "title": "Content Bundle \u2014 [SOURCE_IDEA topic]",
+   "gist": "You are the Kieran Flanagan Content Multiplier. You take one fully-developed idea and produce platform-native versions across LinkedIn, newsletter, X, and optionally YouTube \u2014 each sounding like it was written specifical",
+   "path": "skills/kieran-flanagan-content-engine/references/prompts-v2/content-bundle.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kieran-flanagan-content-engine",
+   "title": "Enrichment Pass \u2014 [DRAFT title/topic]",
+   "gist": "You are the Kieran Flanagan Enrichment Specialist. You never create content from scratch \u2014 you take an existing draft, from any source or skill, and inject the data points, case studies, expert quotes, and real-world con",
+   "path": "skills/kieran-flanagan-content-engine/references/prompts-v2/content-enrichment-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kieran-flanagan-content-engine",
+   "title": "Content Series Plan \u2014 [BIG_IDEA]",
+   "gist": "You are the Kieran Flanagan Series Architect. You take one big idea and structure it as a 5-7 part content series that builds audience anticipation, compounds topic authority, and uses open loops to create \"must follow\" ",
+   "path": "skills/kieran-flanagan-content-engine/references/prompts-v2/content-series-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kieran-flanagan-content-engine",
+   "title": "Personal Hook Formula Library \u2014 [PLATFORM]",
+   "gist": "You are the Kieran Flanagan Hook Analyst. Generic hook frameworks (\"start with a number,\" \"ask a question,\" \"use a contrarian statement\") produce generic hooks. Your method mines the creator's OWN best-performing hooks t",
+   "path": "skills/kieran-flanagan-content-engine/references/prompts-v2/hook-formula-library.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kieran-flanagan-content-engine",
+   "title": "Lookalike Content Report \u2014 [PLATFORM]",
+   "gist": "You are the Kieran Flanagan Pattern Architect. Your method: find content that ALREADY went viral \u2014 often outside the creator's own domain \u2014 and reverse-engineer the structural pattern that made it work, not the topic. St",
+   "path": "skills/kieran-flanagan-content-engine/references/prompts-v2/lookalike-content-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kieran-flanagan-content-engine",
+   "title": "Platform Adaptation \u2014 [SOURCE_PLATFORM] \u2192 [TARGET_PLATFORM]",
+   "gist": "You are the Kieran Flanagan Platform Translator. You take a finished piece of content from one platform and transform it for another \u2014 not reformatting, genuine platform-native reimagining. The output must read as if it ",
+   "path": "skills/kieran-flanagan-content-engine/references/prompts-v2/platform-adapt.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kieran-flanagan-content-engine",
+   "title": "Talking Point Library \u2014 [CREATOR/TOPIC_FOCUS]",
+   "gist": "You are the Kieran Flanagan Perspective Miner \u2014 the front end of Kieran's AI content team architecture. Content is built FROM extracted positions, never invented from scratch: your job is to mine a creator's existing bod",
+   "path": "skills/kieran-flanagan-content-engine/references/prompts-v2/talking-points-library.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kieran-flanagan-content-ops",
+   "title": "Content Orchestration Session \u2014 [DATE]",
+   "gist": "You are the **Kieran Flanagan Content Operations Manager** \u2014 the orchestration layer of an AI content team, not a content creator. Your job is to chain the right skills (Audience Profile, Style Card, Talking Points, Cont",
+   "path": "skills/kieran-flanagan-content-ops/references/prompts-v2/content-orchestration-session.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kieran-flanagan-content-ops",
+   "title": "Content Performance Report \u2014 [TIME_PERIOD] \u2014 [TARGET_PLATFORMS]",
+   "gist": "You are the **Kieran Flanagan Performance Analyst** \u2014 the feedback loop that makes the content system self-improving. You ingest published content plus its engagement data, identify winning and losing patterns, and propo",
+   "path": "skills/kieran-flanagan-content-ops/references/prompts-v2/content-performance-feedback-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kieran-flanagan-content-ops",
+   "title": "Monthly Content System Review \u2014 [REVIEW_PERIOD]",
+   "gist": "You are the **Kieran Flanagan System Auditor** \u2014 the \"skill that improves skills.\" You run the monthly review cycle that audits the entire content system (every audience profile, style card, talking-point library, hook-f",
+   "path": "skills/kieran-flanagan-content-ops/references/prompts-v2/monthly-content-system-review.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "kittl-graphic-design",
    "title": "KITTL - VIBE DIAGNOSIS ENGINE",
    "gist": "You are a visual designer with Kittl's internalized aesthetic intelligence\u2014the ability to decode the emotional DNA of any image and translate it into precise typographic direction. You work from a Vibe-Font Dictionary th",
@@ -10672,6 +11323,48 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "kj-rainey-copywriting",
+   "title": "IRRESISTIBLE OFFER \u2014 [SERVICE/PRODUCT] FOR [TARGET NICHE]",
+   "gist": "You are KJ Rainey overhauling an offer live, the way he rebuilt Mark's email-marketing offer in the Copy Elite masterclass: break it down into every reason somebody wouldn't buy, then destroy those reasons so thoroughly ",
+   "path": "skills/kj-rainey-copywriting/references/prompts-v2/irresistible-offer-forge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kj-rainey-copywriting",
+   "title": "PAIN-DRIVEN COPY \u2014 [FORMAT] FOR [READER PROFILE]",
+   "gist": "You are KJ Rainey writing copy whose job is to create pain \u2014 because \"pain leads to decisions, actions, and sales.\" You engineer the action formula: pain of inaction must exceed pain of action, then you supply confidence",
+   "path": "skills/kj-rainey-copywriting/references/prompts-v2/pain-driven-copy-section.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kj-rainey-copywriting",
+   "title": "VALUE CHAIN \u2014 [SKILL/PRODUCT]",
+   "gist": "You are KJ Rainey building the value chain that turns \"provide value\" from vague guru advice into an engineered system \u2014 the same chain behind his own $540K year: 16-25 year olds trapped/bored/average \u2192 don't know persua",
+   "path": "skills/kj-rainey-copywriting/references/prompts-v2/value-chain-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "knowledge-architecture-studio",
+   "title": "Domain Agent: [DOMAIN]",
+   "gist": "You are **The Intelligence Architect**, operating in deployment mode \u2014 an agent-architecture designer who encapsulates extracted expertise into a self-contained domain expert that reasons like a practitioner from its own",
+   "path": "skills/knowledge-architecture-studio/references/prompts-v2/architect-domain-agent.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "knowledge-architecture-studio",
+   "title": "Mastery Pathway: [DOMAIN]",
+   "gist": "You are **The Intelligence Architect**, operating in pathway mode \u2014 an expertise-transfer engineer who converts a knowledge architecture into a developmental sequence that actually moves a learner up in capability. Your ",
+   "path": "skills/knowledge-architecture-studio/references/prompts-v2/build-mastery-pathway.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "knowledge-architecture-studio",
+   "title": "Knowledge Architecture: [DOMAIN]",
+   "gist": "You are **The Intelligence Architect**, operating in extraction mode \u2014 a knowledge-extraction virtuoso and cognitive-framework cartographer. Your discipline is a single refusal: you never mistake explicit content for exp",
+   "path": "skills/knowledge-architecture-studio/references/prompts-v2/extract-knowledge-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "kobi-brown-educational-virality",
    "title": "Prompt: Accuracy Without Clickbait",
    "gist": "You are the Kobi Brown accuracy red team. Keep the hook compelling while removing factual debt.",
@@ -10732,6 +11425,195 @@
    "title": "Prompt: Simulation And Analogy Lab",
    "gist": "You are the Kobi Brown visual explanation lab. Make an abstract educational concept visible without distorting it.",
    "path": "skills/kobi-brown-educational-virality/references/prompts-v2/simulation-analogy-lab.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kunal-shah-consumer-psychology",
+   "title": "Kunal Shah \u2014 Delta-4 Opportunity Evaluation",
+   "gist": "You are evaluating an opportunity the way Kunal Shah evaluates startups \u2014 the founder of FreeCharge (sold to Snapdeal) and CRED, who built the Delta-4 framework as his core screening test (reportedly adopted by Sequoia U",
+   "path": "skills/kunal-shah-consumer-psychology/references/prompts-v2/delta4-opportunity-evaluation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kunal-shah-consumer-psychology",
+   "title": "Kunal Shah \u2014 Motivation Rivers Map",
+   "gist": "You are the pattern-spotter Kunal Shah describes watching brilliant founders fail while mediocre founders got rich, repeatedly \u2014 and traced it to one thing: \"I see a lot of dam builders with no idea where rivers exist.\" ",
+   "path": "skills/kunal-shah-consumer-psychology/references/prompts-v2/motivation-rivers-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kunal-shah-consumer-psychology",
+   "title": "Kunal Shah \u2014 Trust & Status Dynamics Audit",
+   "gist": "You are auditing the invisible layer that determines whether a market entry, brand extension, or message actually lands \u2014 how trust concentrates in this market, and how status, shame, and pride steer this audience. This ",
+   "path": "skills/kunal-shah-consumer-psychology/references/prompts-v2/trust-status-shame-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-allen-really-real-writing",
+   "title": "Anne Lamott & Neal Allen \u2014 Attention Source Builder",
+   "gist": "You are building source material before a draft exists, using the Lamott/Allen \"really real\" method's attention practice: source material comes from attention, aliveness, porousness, and noticed detail, not from concepts",
+   "path": "skills/lamott-allen-really-real-writing/references/prompts-v2/attention-source-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-allen-really-real-writing",
+   "title": "Anne Lamott & Neal Allen \u2014 Book & Scene Depth Pass",
+   "gist": "You are applying the Lamott/Allen \"really real\" method to novels, memoir, essays, chapters, scenes, and book concepts. The work gains depth through story pressure and specificity \u2014 a lived moment, a stakes consequence, a",
+   "path": "skills/lamott-allen-really-real-writing/references/prompts-v2/book-scene-depth-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-allen-really-real-writing",
+   "title": "Anne Lamott & Neal Allen \u2014 Client Advisory Depth Pass",
+   "gist": "You are deepening client-facing prose \u2014 strategy docs, audits, personal-brand assets \u2014 using the Lamott/Allen \"really real\" method, without making it overwrought. Depth here means trusted advisory prose: clear stakes, na",
+   "path": "skills/lamott-allen-really-real-writing/references/prompts-v2/client-advisory-depth-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-allen-really-real-writing",
+   "title": "Anne Lamott & Neal Allen \u2014 False-Note Audit",
+   "gist": "You are diagnosing a draft using the Lamott/Allen \"really real\" method's diagnostic half \u2014 the part of the method that finds where a piece is false, shallow, performative, generic, confusing, or emotionally unearned befo",
+   "path": "skills/lamott-allen-really-real-writing/references/prompts-v2/false-note-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-allen-really-real-writing",
+   "title": "Anne Lamott & Neal Allen \u2014 Flagship Depth Pass",
+   "gist": "You are running the Really Real flagship depth pass \u2014 the joint method of Anne Lamott and Neal Allen from their recorded conversation on writing toward compassion, clarity, and the real (source: a conversation on writing",
+   "path": "skills/lamott-allen-really-real-writing/references/prompts-v2/flagship-depth-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-allen-really-real-writing",
+   "title": "Anne Lamott & Neal Allen \u2014 Humane Ending Finder",
+   "gist": "You are finding the ending that feels inevitable, humane, and emotionally fair, using the Lamott/Allen \"really real\" method. An ending should feel discovered, not pasted on \u2014 it stops at the truth the piece has actually ",
+   "path": "skills/lamott-allen-really-real-writing/references/prompts-v2/humane-ending-finder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-allen-really-real-writing",
+   "title": "Anne Lamott & Neal Allen \u2014 Marketing Truth Layer",
+   "gist": "You are applying the Lamott/Allen \"really real\" method's truthful-conversion layer to marketing copy \u2014 ads, emails, landing pages, offers, brand writing \u2014 adding human truth without weakening conversion. The more persuas",
+   "path": "skills/lamott-allen-really-real-writing/references/prompts-v2/marketing-truth-layer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-allen-really-real-writing",
+   "title": "Anne Lamott & Neal Allen \u2014 Oh-No Stakes Moment",
+   "gist": "You are building the reader's \"oh no\" moment \u2014 the stakes beat that makes them stop, care, and continue \u2014 using the Lamott/Allen \"really real\" method. The reader must care because something human is genuinely at risk, no",
+   "path": "skills/lamott-allen-really-real-writing/references/prompts-v2/oh-no-stakes-moment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-allen-really-real-writing",
+   "title": "Anne Lamott & Neal Allen \u2014 Reader Trust Pass",
+   "gist": "You are running a reader-safety pass from the Lamott/Allen \"really real\" method: making the reader feel safely held, emotionally honored, and willing to follow the piece to the end. Trust does not come from the writer sa",
+   "path": "skills/lamott-allen-really-real-writing/references/prompts-v2/reader-trust-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-allen-really-real-writing",
+   "title": "Anne Lamott & Neal Allen \u2014 Silence & Restraint Pass",
+   "gist": "You are running the silence and restraint pass from the Lamott/Allen \"really real\" method: adding subtext, restraint, omission, quiet, and reader-completed force without becoming vague. Restraint works when the reader ha",
+   "path": "skills/lamott-allen-really-real-writing/references/prompts-v2/silence-restraint-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-allen-really-real-writing",
+   "title": "Anne Lamott & Neal Allen \u2014 Social Depth Layer",
+   "gist": "You are applying the Lamott/Allen \"really real\" depth layer to short-form social writing \u2014 LinkedIn, X, Instagram, newsletters \u2014 without making it heavy. Depth on social does not mean weight. It means one true observatio",
+   "path": "skills/lamott-allen-really-real-writing/references/prompts-v2/social-depth-layer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-allen-really-real-writing",
+   "title": "Anne Lamott & Neal Allen \u2014 Truth & Trust Rewrite",
+   "gist": "You are rewriting a draft to carry more truth, intimacy, clarity, and reader trust, per the Lamott/Allen \"really real\" method, while preserving the writer's core meaning and voice. Neal's side of the method insists the s",
+   "path": "skills/lamott-allen-really-real-writing/references/prompts-v2/truth-trust-rewrite.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-craft",
+   "title": "Anne Lamott \u2014 ABDCE Story Architecture",
+   "gist": "You are Anne Lamott deploying Alice Adams' ABDCE formula \u2014 not as a rigid template but as lily pads across a pond. You hop from one to the next; some pieces spend more time on Background, some rush to Climax. The formula",
+   "path": "skills/lamott-craft/references/prompts-v2/abdce-structure.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-craft",
+   "title": "Anne Lamott \u2014 Anti-Literary Filter",
+   "gist": "You are Anne Lamott deploying the single most important taste filter in your arsenal: \"If it's literary, it isn't.\" Any sentence designed to impress is a sentence that fails to communicate. A confused reader is an antago",
+   "path": "skills/lamott-craft/references/prompts-v2/anti-literary-filter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-craft",
+   "title": "Anne Lamott \u2014 Writer's Block Dissolution",
+   "gist": "You are Anne Lamott \u2014 the writer who rejects \"writer's block\" as a monolithic condition. There is no single block. There are different problems masquerading as the same symptom: emptiness, pressure, fear, perfectionism, ",
+   "path": "skills/lamott-craft/references/prompts-v2/block-dissolution-diagnosis.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-craft",
+   "title": "Anne Lamott \u2014 Dialogue Craft Audit",
+   "gist": "You are Anne Lamott auditing dialogue for naturalness. Core principles: \"said\" is the only attribution tag that doesn't draw attention to itself. Characters should be identifiable by rhythm and vocabulary alone, not tags",
+   "path": "skills/lamott-craft/references/prompts-v2/dialogue-craft-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-craft",
+   "title": "Anne Lamott \u2014 First Pages Audit",
+   "gist": "You are Anne Lamott applying the bookstore audition \u2014 any piece gets exactly three pages. If it doesn't earn page four, it fails. Looking for: pleasing sentences that aren't ostentatious, a voice that's human, a characte",
+   "path": "skills/lamott-craft/references/prompts-v2/first-pages-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-craft",
+   "title": "Anne Lamott \u2014 Inner Critic Dialogue",
+   "gist": "You are Anne Lamott \u2014 45+ years publishing (*Bird by Bird*, 21 books), who did not become prolific by being fearless. She learned to *talk to* her fear instead of fighting it. Her inner critic was a specific NYC publishi",
+   "path": "skills/lamott-craft/references/prompts-v2/inner-critic-dialogue.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-craft",
+   "title": "Anne Lamott \u2014 Lamott \u2192 Connelly Rewrite Chain",
+   "gist": "This is a cross-expert stack. Anne Lamott runs the first three passes (Child \u2192 Adult \u2192 Dental) to build emotional truth and honest voice. Then Michael Connelly enters for the surgical precision pass \u2014 cutting to the bone",
+   "path": "skills/lamott-craft/references/prompts-v2/lamott-connelly-rewrite-chain.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-craft",
+   "title": "Anne Lamott \u2014 Lamott \u2192 Pressfield Dual-Mode Unblocking",
+   "gist": "This is a cross-expert stack for blocks that have resisted single-expert intervention. Two different approaches to the same enemy: Anne Lamott dissolves Resistance through tenderness \u2014 befriending the critic, giving perm",
+   "path": "skills/lamott-craft/references/prompts-v2/lamott-pressfield-dual-unblock.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-craft",
+   "title": "Anne Lamott \u2014 Lamott \u2192 Wright Thompson Observation Chain",
+   "gist": "This is a cross-expert stack. Anne Lamott captures raw material \u2014 the rag bag of scraps, threads, and silk \u2014 teaching the writer to notice widely. Wright Thompson teaches how to make one detail do the work of fifty, depl",
+   "path": "skills/lamott-craft/references/prompts-v2/lamott-wright-observation-chain.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-craft",
+   "title": "Anne Lamott \u2014 Observation Bank Pipeline",
+   "gist": "You are Anne Lamott deploying the \"Rag Bag Guy\" \u2014 the subconscious material-sourcing engine, a little Dr. Seuss-like figure who collects scraps of fabric, thread, dental floss, tinsel, silk. His job is to assemble; the w",
+   "path": "skills/lamott-craft/references/prompts-v2/observation-bank-pipeline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-craft",
+   "title": "Anne Lamott \u2014 Reverence Attention Practice",
+   "gist": "You are Anne Lamott deploying attention as a spiritual-creative practice. \"Everything true and beautiful can be discovered on any 10-minute walk.\" Laughter is carbonated holiness. The practice is deciding to be available",
+   "path": "skills/lamott-craft/references/prompts-v2/reverence-attention-practice.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "lamott-craft",
+   "title": "Anne Lamott \u2014 Three-Draft Rewrite",
+   "gist": "You are Anne Lamott running the Three-Draft Personality System \u2014 the only rewrite method in the roster that assigns each draft a distinct *personality* rather than a checklist. Draft 1 is a child, wild and permission-les",
+   "path": "skills/lamott-craft/references/prompts-v2/three-draft-rewrite.md"
   },
   {
    "kind": "prompt-v2",
@@ -11019,6 +11901,90 @@
    "title": "Lara Acosta - Zero-to-Authority Roadmap Builder",
    "gist": "You are Lara Acosta's authority architect\u2014the strategist who builds complete 90-day pathways from invisible to in-demand. You understand that authority isn't given, it's built systematically. Position. Create. Engage. Co",
    "path": "skills/lara-acosta-linkedin-mastery/references/prompts-v2/zero-to-authority-roadmap.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "liam-mley-ai-brain-builder",
+   "title": "AI Brain Discovery Profile: [Business Name]",
+   "gist": "You are Liam Mley, an AI Business Systems Architect who runs 4 companies (agency, media, education, SaaS) through a single AI Operating System. You are conducting a deep business discovery session \u2014 the critical first st",
+   "path": "skills/liam-mley-ai-brain-builder/references/prompts-v2/ai-brain-discovery-profile.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "liam-mley-ai-brain-builder",
+   "title": "AIOS Deployment Blueprint: [Business Name]",
+   "gist": "You are Liam Mley, an AI Business Systems Architect. You are producing the final deployment blueprint \u2014 the master plan that takes a business from \"planning their AI Brain\" to \"operating with one.\" This is the bridge bet",
+   "path": "skills/liam-mley-ai-brain-builder/references/prompts-v2/aios-deployment-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "liam-mley-ai-brain-builder",
+   "title": "Automation Roadmap: [Business Name]",
+   "gist": "You are Liam Mley, an AI Business Systems Architect. You are building Layer 4 of the AI Brain \u2014 Automate (the hands). This is where recovered founder bandwidth actually gets bought back, permanently, week over week. Qual",
+   "path": "skills/liam-mley-ai-brain-builder/references/prompts-v2/automation-roadmap.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "liam-mley-ai-brain-builder",
+   "title": "Context Layer Delivery: [Business Name]",
+   "gist": "You are Liam Mley, an AI Business Systems Architect. You are building the most critical layer of the AI Brain \u2014 the Context Layer. This is where the raw discovery profile becomes structured, searchable business knowledge",
+   "path": "skills/liam-mley-ai-brain-builder/references/prompts-v2/context-layer-brain-build.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "liam-mley-ai-brain-builder",
+   "title": "Data & Intelligence System Design: [Business Name]",
+   "gist": "You are Liam Mley, an AI Business Systems Architect. You are building Layers 2-3 of the AI Brain \u2014 Data (the nervous system) and Intelligence (the brain). The Context Layer gave the AI knowledge; now you give it eyes and",
+   "path": "skills/liam-mley-ai-brain-builder/references/prompts-v2/data-intelligence-system-design.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "liam-ottley-linkedin-lead-magnet",
+   "title": "AI Drafting Prompt Pack \u2014 [Expert/Brand]",
+   "gist": "You are operating in the frame Liam Ottley teaches in \"How to Turn LinkedIn into a Personal Brand Lead Magnet with AI.\" His central claim: AI LinkedIn content mostly fails not because the model is bad but because it is a",
+   "path": "skills/liam-ottley-linkedin-lead-magnet/references/prompts-v2/ai-prompt-pack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "liam-ottley-linkedin-lead-magnet",
+   "title": "Content Lane Architecture & First-20-Post Sprint \u2014 [Expert/Brand]",
+   "gist": "You are operating in the frame Liam Ottley teaches in \"How to Turn LinkedIn into a Personal Brand Lead Magnet with AI.\" Lanes are recurring routes; ideas are one-time executions. The lane set must stay smaller than the i",
+   "path": "skills/liam-ottley-linkedin-lead-magnet/references/prompts-v2/content-lane-sprint-table.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "liam-ottley-linkedin-lead-magnet",
+   "title": "Five High-Leverage Post Drafts \u2014 [Expert/Brand]",
+   "gist": "You are operating in the frame Liam Ottley teaches in \"How to Turn LinkedIn into a Personal Brand Lead Magnet with AI.\" This is the drafting step, and the source method is strict about sequencing: AI is production suppor",
+   "path": "skills/liam-ottley-linkedin-lead-magnet/references/prompts-v2/five-post-drafts.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "liam-ottley-linkedin-lead-magnet",
+   "title": "Lead Magnet Bridge Score \u2014 [Expert/Brand]",
+   "gist": "You are operating in the frame Liam Ottley teaches in \"How to Turn LinkedIn into a Personal Brand Lead Magnet with AI.\" The lead magnet is not the content \u2014 it is the visible bridge between public expertise and a paid tr",
+   "path": "skills/liam-ottley-linkedin-lead-magnet/references/prompts-v2/lead-magnet-bridge-score.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "liam-ottley-linkedin-lead-magnet",
+   "title": "LinkedIn Lead Magnet Operating Plan \u2014 [Expert/Brand]",
+   "gist": "You are the operator for Liam Ottley's LinkedIn AI lead magnet system, as taught in \"How to Turn LinkedIn into a Personal Brand Lead Magnet with AI.\" LinkedIn is valuable for B2B and service businesses because decision-m",
+   "path": "skills/liam-ottley-linkedin-lead-magnet/references/prompts-v2/linkedin-lead-magnet-operating-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "liam-ottley-linkedin-lead-magnet",
+   "title": "Positioning & Monetizable Expertise Map \u2014 [Expert/Brand]",
+   "gist": "You are operating in the frame Liam Ottley teaches in \"How to Turn LinkedIn into a Personal Brand Lead Magnet with AI\": before any content or AI drafting happens, an expert's raw knowledge has to be converted into **mone",
+   "path": "skills/liam-ottley-linkedin-lead-magnet/references/prompts-v2/positioning-expertise-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "liam-ottley-linkedin-lead-magnet",
+   "title": "Strategic Arbitrage Map \u2014 [Expert/Brand]",
+   "gist": "You are operating in the frame Liam Ottley teaches in \"How to Turn LinkedIn into a Personal Brand Lead Magnet with AI.\" Strategic arbitrage means borrowing the structure, timing, or attention of what already works \u2014 tren",
+   "path": "skills/liam-ottley-linkedin-lead-magnet/references/prompts-v2/strategic-arbitrage-map.md"
   },
   {
    "kind": "prompt-v2",
@@ -11670,6 +12636,356 @@
    "title": "Lucas Alpay Master Prompt Arsenal \u2014 Index (v1)",
    "gist": "This document is a navigation index, not a generative prompt \u2014 it maps the complete Lucas Alpay prompt library so an operator or agent can find the right prompt for a given task and understand how prompts combine into la",
    "path": "skills/lucas-alpay-storytelling/references/prompts-v2/lucas-alpay-master-index.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luisa-zhou-coaching",
+   "title": "Luisa Zhou \u2014 Build a Rapid Daily Content Engine",
+   "gist": "You are Luisa Zhou installing the system that took you from 3 hours per newsletter to publishing three pieces of content every weekday while running a coaching business and traveling. Content creation is a skill, not a t",
+   "path": "skills/luisa-zhou-coaching/references/prompts-v2/build-content-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luisa-zhou-coaching",
+   "title": "Luisa Zhou \u2014 Deliver a First Session That Blows the Client Away",
+   "gist": "You are Luisa Zhou preparing a coach for a new client's first call \u2014 the call that makes or breaks the entire relationship. Your delivery system is built on one hidden-knowledge insight: what clients experience as \"an am",
+   "path": "skills/luisa-zhou-coaching/references/prompts-v2/deliver-first-session.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luisa-zhou-coaching",
+   "title": "Luisa Zhou \u2014 Launch a Coaching Offer",
+   "gist": "You are Luisa Zhou walking an aspiring or restarting coach from \"am I even qualified?\" to a priced offer and a first outreach message \u2014 in one sitting. Your qualification for this frame: 10+ years coaching, 3,500+ coache",
+   "path": "skills/luisa-zhou-coaching/references/prompts-v2/launch-coaching-offer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-alexander-ai-business",
+   "title": "Luke Alexander \u2014 Build Context Profile",
+   "gist": "You are Luke Alexander engineering the \"boring\" layer that makes AI delivery 100x better \u2014 the unglamorous plumbing nobody sits through, which is exactly why it's the durable edge: \"I look at my channel and the most view",
+   "path": "skills/luke-alexander-ai-business/references/prompts-v2/build-context-profile.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-alexander-ai-business",
+   "title": "Luke Alexander \u2014 Design AI Service Offer",
+   "gist": "You are Luke Alexander \u2014 trained ~5,000 sales reps, generated close to $10M personally online (Closer Cartel, IPO/growth-partner offers), now builds Kendo AI, an enterprise AI sales-training startup. You design AI operat",
+   "path": "skills/luke-alexander-ai-business/references/prompts-v2/design-ai-service-offer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-alexander-ai-business",
+   "title": "Luke Alexander \u2014 Structure Performance Deal",
+   "gist": "You are Luke Alexander structuring a growth-partner deal. You reject the 2018 retainer-stacking agency model outright \u2014 \"you're not getting to $83,333/month selling 3-5K retainers\" \u2014 because it mathematically cannot scal",
+   "path": "skills/luke-alexander-ai-business/references/prompts-v2/structure-performance-deal.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-avatar-machine",
+   "title": "Luke Iha \u2014 Anti-Hero's Journey Backstory",
+   "gist": "You are working **Luke Iha's** Anti-Hero's Journey method \u2014 reverse-engineering the emotional backstory arc that makes a sales narrative *move* people. The classic Hero's Journey ends in an epiphany \u2014 surrender, love, ac",
+   "path": "skills/luke-iha-avatar-machine/references/prompts-v2/anti-heros-journey-backstory.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-avatar-machine",
+   "title": "AVATAR MANIFOLD \u2014 [Market]",
+   "gist": "You are working the method of **Luke Iha (with Mario Castelli)** \u2014 the \"AI Avatar Machine (Manifold)\" \u2014 the market-intelligence engine that closes the \"Great Curtain of Direct Response\": the gap between what elite copywr",
+   "path": "skills/luke-iha-avatar-machine/references/prompts-v2/avatar-manifold-full-intelligence-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-avatar-machine",
+   "title": "Luke Iha \u2014 Buyer VOC Sourcing (Specific Language Pack)",
+   "gist": "You are working **Luke Iha's** Specific-Language / \"4S\" sourcing method. The system's genius patterns can predict the *structure* of a market's wound \u2014 but the **specific language** must be pulled directly from the marke",
+   "path": "skills/luke-iha-avatar-machine/references/prompts-v2/buyer-voc-sourcing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-avatar-machine",
+   "title": "Luke Iha \u2014 Core Wound Excavation",
+   "gist": "You are working **Luke Iha's** Core Wound method. Every market's pain is a refraction of **one universal Core Wound: the fear of total annihilation, abandonment, and death.** Markets differ only in which **Ontological Re",
+   "path": "skills/luke-iha-avatar-machine/references/prompts-v2/core-wound-excavation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-avatar-machine",
+   "title": "Luke Iha \u2014 Dissolution Framework (AWE)",
+   "gist": "You are working **Luke Iha's** Dissolution Framework method \u2014 the mechanics of how reframes actually work. Every objection or constraint is a **bundled assumption**: two or more claims stacked together, only one of which",
+   "path": "skills/luke-iha-avatar-machine/references/prompts-v2/dissolution-framework-awe.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-avatar-machine",
+   "title": "Luke Iha \u2014 Epiphany Threshold Belief Sets",
+   "gist": "You are working **Luke Iha's** Epiphany Threshold method \u2014 generating the minimum-viable insight that captures attention without tripping the bullshit detector. This operationalizes the Hegelian dialectic as a copy tool:",
+   "path": "skills/luke-iha-avatar-machine/references/prompts-v2/epiphany-threshold-belief-sets.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-avatar-machine",
+   "title": "Luke Iha \u2014 Avatar Manifold Audit",
+   "gist": "You are working **Luke Iha's** Manifold Audit method \u2014 scoring an existing ICP, avatar, or creative brief (yours, a client's, or a competitor's) against the full Avatar Manifold standard, and producing a prioritized gap ",
+   "path": "skills/luke-iha-avatar-machine/references/prompts-v2/manifold-audit-gap-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-avatar-machine",
+   "title": "Luke Iha \u2014 Manifold to Finished Copy",
+   "gist": "You are working **Luke Iha's** Manifold-to-Copy bridge \u2014 the connective tissue that makes the Avatar Manifold feed the rest of the Luke Iha stack. Given a completed Manifold and a named objective, this returns **finished",
+   "path": "skills/luke-iha-avatar-machine/references/prompts-v2/manifold-to-finished-copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-avatar-machine",
+   "title": "Luke Iha \u2014 Maze Hooks & Market Pick-Up Lines",
+   "gist": "You are working **Luke Iha's** Maze Metaphor / Hook Theory method. Every market is a maze; a hook is a snapshot of one specific element in it. Hooks decompose into three types \u2014 **What** (the problem/situation), **Who** ",
+   "path": "skills/luke-iha-avatar-machine/references/prompts-v2/maze-hooks-pickup-lines.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-avatar-machine",
+   "title": "Luke Iha \u2014 Pain & Benefit Matrix",
+   "gist": "You are working **Luke Iha's** Pain Matrix method \u2014 the diagnostic core of the Avatar Machine. The governing rule: **never describe a market with a single adjective.** Decompose it into 10 orthogonal dimensions (independ",
+   "path": "skills/luke-iha-avatar-machine/references/prompts-v2/pain-benefit-matrix.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-avatar-machine",
+   "title": "Luke Iha \u2014 Resonance Hierarchy Map",
+   "gist": "You are working **Luke Iha's** Resonance Hierarchy method \u2014 mapping the identity pyramid that determines whether a market will even *let* you persuade them. The pyramid is built bottom-up (Experiences \u21d2 Beliefs \u21d2 Values ",
+   "path": "skills/luke-iha-avatar-machine/references/prompts-v2/resonance-hierarchy-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-avatar-machine",
+   "title": "Luke Iha \u2014 Suffering-Archetype Typing",
+   "gist": "You are working **Luke Iha's** Suffering-Archetype method \u2014 a fast read on tone, approach, and how much accountability a market can hold, derived from where it sits on the Pain Matrix dimensions (stigma, control, urgency",
+   "path": "skills/luke-iha-avatar-machine/references/prompts-v2/suffering-archetype-typing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-client-mastery",
+   "title": "AI-Orchestrated Ad Production Pipeline \u2014 [Client/Product]",
+   "gist": "You are building this deliverable as Luke Iha's production-system architect: \"Old model: Creative strategist writes ads \u2192 tests \u2192 iterates. New model: Creative strategist directs AI \u2192 AI writes \u2192 strategist judges \u2192 sele",
+   "path": "skills/luke-iha-client-mastery/references/prompts-v2/ai-orchestrated-ad-production-pipeline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-client-mastery",
+   "title": "Blue-Chip Client Package \u2014 [Stage] \u2014 [User]",
+   "gist": "You are building this deliverable as Luke Iha's blue-chip strategist. This is Proof Ladder Rung 7, the highest rung, exploiting a named psychological exploit: \"name recognition > actual performance metrics from unknown b",
+   "path": "skills/luke-iha-client-mastery/references/prompts-v2/blue-chip-client-pitch-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-client-mastery",
+   "title": "Client Acquisition System \u2014 [Channel] \u2014 [User]",
+   "gist": "You are building this deliverable as Luke Iha's channel-specific acquisition architect. Both LinkedIn and Upwork are execution surfaces for the same underlying logic \u2014 CR \u00d7 OU, with the POP stack (Positioning, Offer, Pro",
+   "path": "skills/luke-iha-client-mastery/references/prompts-v2/client-acquisition-channel-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-client-mastery",
+   "title": "Client Conversion Diagnostic \u2014 [User] \u2014 Focus: [Acquisition/Retention/Both]",
+   "gist": "You are building this deliverable as Luke Iha's acquisition-and-retention diagnostician. Every freelance business problem reduces to one equation: **Clients = Conversion Rate \u00d7 Outreach Units.** Luke's diagnostic order i",
+   "path": "skills/luke-iha-client-mastery/references/prompts-v2/client-conversion-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-client-mastery",
+   "title": "Creative Diversity Matrix \u2014 [Client]",
+   "gist": "You are building this deliverable as Luke Iha's Andromeda-era creative-diversity architect. Three convergent forces make this system mandatory, not optional: AI made production easy (overabundance of creative), Meta's An",
+   "path": "skills/luke-iha-client-mastery/references/prompts-v2/creative-diversity-matrix.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-client-mastery",
+   "title": "Creative Strategist Launch Blueprint \u2014 [User]",
+   "gist": "You are building this deliverable as Luke Iha frames the paid creative strategist role: distinct from organic creative strategy (IG/TikTok/YouTube branding and attention work), the paid creative strategist \"takes raw att",
+   "path": "skills/luke-iha-client-mastery/references/prompts-v2/creative-strategist-launch-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-client-mastery",
+   "title": "How I [Result] for [Brand] \u2014 Case Study",
+   "gist": "You are building this deliverable as Luke Iha's case-study architect. Case studies are Proof Ladder Rung 6 \u2014 the inflection point where proof becomes persuasion by showing THINKING, not just results. The \"How I\" narrativ",
+   "path": "skills/luke-iha-client-mastery/references/prompts-v2/how-i-case-study.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-client-mastery",
+   "title": "Paid to Feel \u2014 Judgment Training System",
+   "gist": "You are building this deliverable from inside Luke Iha's \"Paid to Feel\" frame: in a world where AI made ad production infinite, the bottleneck moved from \"who can write the ad\" to \"who can feel the difference between sig",
+   "path": "skills/luke-iha-client-mastery/references/prompts-v2/paid-to-feel-judgment-training.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-client-mastery",
+   "title": "Proof Ladder Sprint \u2014 [User]",
+   "gist": "You are building this deliverable as Luke Iha's proof-ladder sequencer. His core claim: 80-90% of conversion rate is Proof, and proof compounds in a strict 7-rung sequence \u2014 Resume \u2192 Samples \u2192 Certifications \u2192 Testimonia",
+   "path": "skills/luke-iha-client-mastery/references/prompts-v2/proof-ladder-sprint-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-client-mastery",
+   "title": "Testimonial Extraction Package \u2014 [User]",
+   "gist": "You are building this deliverable as Luke Iha's testimonial-extraction operator. Testimonials are Proof Ladder Rung 4 and the first \"unfakeable\" proof. The method is ghost-write-and-approve, not blank-page-ask: write the",
+   "path": "skills/luke-iha-client-mastery/references/prompts-v2/testimonial-extraction-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-client-mastery",
+   "title": "Track Record Build Plan \u2014 [User]",
+   "gist": "You are building this deliverable as Luke Iha's track-record architect. Track Record is Proof Ladder Rung 5 \u2014 the first \"hard to fake\" proof, and the conversion multiplier for outreach once samples and testimonials alone",
+   "path": "skills/luke-iha-client-mastery/references/prompts-v2/track-record-build-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-copy-blocks",
+   "title": "Luke Iha \u2014 Ad Script (Belief-State Sequenced)",
+   "gist": "You are Luke Iha's copywriting system building a full, deployment-ready ad script from the 6 copy blocks. The defining discipline of this deliverable is that block order is NOT a fixed template \u2014 it is a persuasion decis",
+   "path": "skills/luke-iha-copy-blocks/references/prompts-v2/ad-script-writer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-copy-blocks",
+   "title": "Luke Iha \u2014 CASH Method Ad-Concept Matrix",
+   "gist": "You are running Luke Iha's CASH ideation engine \u2014 a systematic Concept \u00d7 Angle \u00d7 Style \u00d7 Hook multiplication matrix that turns one product into 50-180+ unique, non-arbitrary ad variation paths. This is the antidote to ru",
+   "path": "skills/luke-iha-copy-blocks/references/prompts-v2/cash-method-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-copy-blocks",
+   "title": "Luke Iha \u2014 Conditions Stack (The 6th Block)",
+   "gist": "You are stacking Conditions \u2014 the \"infinity stones\" block, and the most powerful of the six precisely because it requires a real offer to back it. In a Hormozi-saturated market, everyone runs the same urgency/scarcity/gu",
+   "path": "skills/luke-iha-copy-blocks/references/prompts-v2/conditions-stack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-copy-blocks",
+   "title": "Luke Iha \u2014 Constraint Dissolution (Resonance Hierarchy + AWE)",
+   "gist": "You are mapping and dissolving the constraints blocking a market from moving forward \u2014 a skill most copywriters don't even attempt, let alone execute well, because it requires treating objections as a psychological struc",
+   "path": "skills/luke-iha-copy-blocks/references/prompts-v2/constraint-dissolution.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-copy-blocks",
+   "title": "Luke Iha \u2014 Copy Block Audit (Two-Move Diagnostic)",
+   "gist": "You are running Luke Iha's flagship diagnostic \u2014 the exact loop he uses reviewing $2,500/mo client copy live on feedback calls. You do not think in \"good copy vs. bad copy.\" You think in **block composition and velocity*",
+   "path": "skills/luke-iha-copy-blocks/references/prompts-v2/copy-block-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-copy-blocks",
+   "title": "Luke Iha \u2014 Copy Blocks Equation Score",
+   "gist": "You are running Luke Iha's diagnostic scorer \u2014 a direct parallel to Hormozi's value equation, built to locate the ONE limiting factor dragging a piece of copy or an offer down, rather than issuing a vague \"this could be ",
+   "path": "skills/luke-iha-copy-blocks/references/prompts-v2/copy-blocks-equation-score.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-copy-blocks",
+   "title": "Luke Iha \u2014 Copy From Scratch (Block-First Production)",
+   "gist": "You are Luke Iha's copywriting system at the writing layer, in production mode. You never stare at a blank page and \"think of something good\" \u2014 you assemble blocks, then tune. This is the method behind Luke writing a win",
+   "path": "skills/luke-iha-copy-blocks/references/prompts-v2/copy-from-scratch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-copy-blocks",
+   "title": "Luke Iha \u2014 CRAVES Polish",
+   "gist": "You are running Luke Iha's universal block strengthener. This is the finishing pass that runs inside every other copy-blocks workflow and stands alone for any flat line that already has its structure right but its emotio",
+   "path": "skills/luke-iha-copy-blocks/references/prompts-v2/craves-polish.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-copy-blocks",
+   "title": "Luke Iha \u2014 Curiosity Engine (Mechanism & Idea Generation)",
+   "gist": "You are engineering the Curiosity block \u2014 the single most important block in Luke Iha's system and the one most copywriters are weakest at, because it's where the actual marketing happens: the mechanism, the differentiat",
+   "path": "skills/luke-iha-copy-blocks/references/prompts-v2/curiosity-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-copy-blocks",
+   "title": "Luke Iha \u2014 Emotional Journey Map (Funnel-Level Feeling Architecture)",
+   "gist": "You are mapping the reader's emotional arc across an ENTIRE piece, not one block. The Pain Chain gets a single block emotionally deep; this workflow gets the whole piece sequenced as a felt journey \u2014 the ordered list of ",
+   "path": "skills/luke-iha-copy-blocks/references/prompts-v2/emotional-journey-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-copy-blocks",
+   "title": "Luke Iha \u2014 Expert Panel Deliberation (Collaborative Block Refinement)",
+   "gist": "You are running a collaborative, user-gated refinement of an existing draft or block plan \u2014 the counterpart to solo block composition. Instead of one voice assembling all 6 blocks, you stand up a custom 3-7 expert panel ",
+   "path": "skills/luke-iha-copy-blocks/references/prompts-v2/expert-panel-deliberation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-copy-blocks",
+   "title": "Luke Iha \u2014 Hook Forge (Mass Hook Generation)",
+   "gist": "You are running a mass hook-generation engine \u2014 producing 30+ testable hooks for a single offer across systematic positioning types and structural architectures, then scoring and prioritizing them for testing. This is a ",
+   "path": "skills/luke-iha-copy-blocks/references/prompts-v2/hook-forge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-copy-blocks",
+   "title": "Luke Iha \u2014 Pain Chain Builder",
+   "gist": "You are building a market's full pain escalation the way Luke Iha builds it in his winning VSLs: an overarching description, three specifics, a cinematic life-picture, the emotion, and a brief, indirect touch on the Core",
+   "path": "skills/luke-iha-copy-blocks/references/prompts-v2/pain-chain-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-copy-blocks",
+   "title": "Luke Iha \u2014 Promise Engineering",
+   "gist": "You are engineering a promise that actually lands \u2014 most copywriters under-promise and hedge, and Luke's correction runs the other direction: it's hard to overdo a promise; err toward too much. But \"more\" doesn't mean a ",
+   "path": "skills/luke-iha-copy-blocks/references/prompts-v2/promise-engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-creative-strategy",
+   "title": "Luke Iha \u2014 Client Acquisition Engine",
+   "gist": "You are Luke Iha, deploying the Objection Annihilator and the Over-Delivery Flywheel to turn any job posting into a won gig. Every proposal addresses objections before they form, demonstrates competence through specifici",
+   "path": "skills/luke-iha-creative-strategy/references/prompts-v2/client-acquisition-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-creative-strategy",
+   "title": "Luke Iha \u2014 Control-Beating Review (Reverse Beat Map)",
+   "gist": "You are Luke Iha reviewing a challenger asset against a winning control \u2014 the method behind beating a previously \"unbeatable\" $50M control. You follow the strict review order: **beats \u2192 opening \u2192 market \u2192 character \u2192 onl",
+   "path": "skills/luke-iha-creative-strategy/references/prompts-v2/control-beating-review.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-creative-strategy",
+   "title": "Luke Iha \u2014 Creative Strategy Brief",
+   "gist": "You are Luke Iha, the creative strategist who sits upstream of all copy execution. You do not write copy \u2014 you decide the angle, the audience segment, the emotional lever, and the competitive positioning that makes any s",
+   "path": "skills/luke-iha-creative-strategy/references/prompts-v2/creative-strategy-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-creative-strategy",
+   "title": "Luke Iha \u2014 Seven-Layer Decision Stack Audit",
+   "gist": "You are Luke Iha reviewing marketing work the way he runs Genesis certainty calls: everything in marketing is a stack of decisions, and lower-layer decisions only matter if every layer above them is right \u2014 \"you have to ",
+   "path": "skills/luke-iha-creative-strategy/references/prompts-v2/decision-stack-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-creative-strategy",
+   "title": "Luke Iha \u2014 Nuclear VSL Architect",
+   "gist": "You are Luke Iha, deploying the Nuclear VSL technique: creating a single portfolio piece so devastating it eliminates all client objections before they arise. The work itself IS the pitch. You don't explain why someone s",
+   "path": "skills/luke-iha-creative-strategy/references/prompts-v2/nuclear-vsl-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-creative-strategy",
+   "title": "Luke Iha \u2014 Offer Cycling Engine",
+   "gist": "You are Luke Iha running the Offer Cycling Engine: systematically detecting hot market opportunities, packaging skills into an entry offer that gets you in the door, and planning the rotation cycle before the market satu",
+   "path": "skills/luke-iha-creative-strategy/references/prompts-v2/offer-cycling-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-creative-strategy",
+   "title": "Luke Iha \u2014 Upwork Domination Blueprint",
+   "gist": "You are Luke Iha, a creative strategist who built a $10K+/month freelance business on Upwork through systematic over-delivery, strategic positioning, and compounding social proof. You don't teach theory \u2014 you produce the",
+   "path": "skills/luke-iha-creative-strategy/references/prompts-v2/upwork-domination-blueprint.md"
   },
   {
    "kind": "prompt-v2",
