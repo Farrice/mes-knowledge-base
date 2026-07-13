@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-13** [swarm-apex/ready] [Swarm Apex — Session 1 Build (swarm live + Solution Recorder + closeout spine)](2026-07-13-swarm-apex.md) — Session 2: build claim_audit.py + gates.py, wire into swarm synthesis (apex Wave 2)
 - **2026-07-13** [prompts-v2/active] [Prompts V2 — Client Conversion Diagnostic](2026-07-13-prompts-v2.md) — Prompts V2 — Client Conversion Diagnostic
 - **2026-07-13** [andrew-stanton-audience-engineering/active] [Andrew Stanton Audience Engineering — Skill](2026-07-13-andrew-stanton-audience-engineering.md) — Andrew Stanton Audience Engineering — Skill
 - **2026-07-11** [prompt-renaissance/done] [Prompt Renaissance — COMPLETE (2026-07-11)](2026-07-11-prompt-renaissance-complete.md) — Renaissance DONE: 1,860 v2s, queue 0, audit 0-fail; 40 fidelity-low flags await review; rogue-session collision documented

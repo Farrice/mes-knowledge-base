@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** swarm-apex  
-**Full path:** .agent/handoffs/2026-07-13-swarm-apex.md  
-**Date:** 2026-07-13 (today)  
-**Status:** ready  
-**Title:** Swarm Apex — Session 1 Build (swarm live + Solution Recorder + closeout spine)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume swarm-apex` for this one.
-
----
-
 ---
 thread: swarm-apex
 status: ready
@@ -59,4 +47,3 @@ pin: true
 - Two-window concurrency: GOLDEN RULE — one tool per working tree; the finalize latch reads the newest ledger (4h freshness guard added, but don't run Codex + Claude Code simultaneously)
 - Named-brand redline work carries defamation exposure if a flag is wrong — every flag must be citation-anchored; private delivery only; no legal review yet obtained
 - Perplexity API is dead (never propose paid credits); research patterns use WebSearch only
-

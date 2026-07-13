@@ -1,0 +1,30 @@
+{
+  "applied_at": "2026-07-13T21:00:07+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/repair-input.json",
+      "to": "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/01-source/repair-input.json"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/verify-full.json",
+      "to": "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/01-source/verify-full.json"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/verify-sample.json",
+      "to": "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/01-source/verify-sample.json"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/repair-input.json",
+    "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/verify-full.json",
+    "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/verify-sample.json"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13",
+  "project_slug": "prompt-wiring-os-2026-07-13",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-13.sh",
+  "rewrites": {},
+  "skipped": [],
+  "version": 1
+}

@@ -480,6 +480,24 @@
       "moved_at": "2026-07-09T17:05:23+00:00",
       "project": "pmf-ofm-options-2026-07-07"
     },
+    "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/repair-input.json": {
+      "current": "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/01-source/repair-input.json",
+      "lifecycle": "source",
+      "moved_at": "2026-07-13T21:00:07+00:00",
+      "project": "prompt-wiring-os-2026-07-13"
+    },
+    "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/verify-full.json": {
+      "current": "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/01-source/verify-full.json",
+      "lifecycle": "source",
+      "moved_at": "2026-07-13T21:00:07+00:00",
+      "project": "prompt-wiring-os-2026-07-13"
+    },
+    "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/verify-sample.json": {
+      "current": "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/01-source/verify-sample.json",
+      "lifecycle": "source",
+      "moved_at": "2026-07-13T21:00:07+00:00",
+      "project": "prompt-wiring-os-2026-07-13"
+    },
     "/Users/farricecain/Google Antigravity/_active/strategic-clarity/01-strategic-identity-and-expertise-map.md": {
       "current": "/Users/farricecain/Google Antigravity/_active/strategic-clarity/04-deliverables/01-strategic-identity-and-expertise-map.md",
       "lifecycle": "deliverable",
@@ -1465,6 +1483,6 @@
       "project": "proj"
     }
   },
-  "updated_at": "2026-07-09T17:05:27+00:00",
+  "updated_at": "2026-07-13T21:00:07+00:00",
   "version": 1
 }
