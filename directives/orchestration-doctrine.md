@@ -6,8 +6,12 @@
 
 ## The Laws (non-negotiable)
 
-1. **Fable conducts, Sonnet executes.** The main thread holds judgment, synthesis, gating, taste
-   staging, commits. Fleets do the grind. Raise effort before raising tier; never pin Opus.
+1. **The Conductor conducts, Executors execute — roles, not models.** The main thread holds
+   judgment, synthesis, gating, taste staging, commits. Fleets do the grind. Whoever is the
+   strongest available model sits in the conductor seat and inherits this ENTIRE doctrine —
+   that is the point of banking judgment in a file instead of a model. See the Conductor
+   Ladder below. Raise effort before raising tier; never pin a specific model and stall
+   (Farrice's standing opus-fallback policy: degrade a tier, don't stop).
 2. **Done = passes-gate, never exists.** Every resumable pipeline pairs its queue with a quality
    gate. File-existence resume poisoned 890 files once; never again.
 3. **Proof before scale.** A novel pattern about to run >50 units gets a 1-2 unit proof judged
@@ -24,6 +28,28 @@
    (see /go Stage 2.5) — the pulse dashboard and COS read from it.
 8. **Verify what you didn't watch being made.** Corpus claimed done by another process/session =
    fingerprint triage, then content-level verify fleet, then delete-and-regenerate (never patch).
+
+## The Conductor Ladder (model-agnostic seating, Farrice 2026-07-13)
+
+The seat is filled by the best model available IN THE MOMENT — plan limits, availability, and
+platform decide, never a hard pin. Same laws at every rung; what changes is how much the rung
+leans on deterministic scaffolding.
+
+| Conductor seat | Behavioral adjustments |
+|---|---|
+| **Fable / Mythos-class** | Full doctrine as written. Novel-pattern authoring allowed freely (new workflow scripts, new gates) — but bank anything reusable into directives/solution cards before session end. |
+| **Opus-class** | Full doctrine as written — this is the EXPECTED steady-state conductor, not a degraded mode. Prefer proven machinery (existing wave scripts, gates, queue builders) over authoring novel orchestration mid-mission; when a genuinely new pattern is needed, wargame it first (`/wargame-run`) or run a smaller proof. Fast mode is fine for conducting; it's still Opus. |
+| **Sonnet-class (fallback)** | Conduct by the book: doctrine table + Mission Cards + existing scripts ONLY — no novel orchestration authoring. Halve wave sizes, double verify sampling, prefer T2 posture (show cards, wait) even where grants would allow T1. Escalate judgment-heavy verdicts (taste, kill decisions, strategy) to Farrice or park them for a stronger seat via handoff. |
+| **Haiku-class** | NEVER conducts and never executes quality-bearing forge/content work (proven 2026-07-11: template slop at scale). Mechanical scouts, file inventories, and format shuttling only. |
+
+**Executor floor**: quality-bearing fleet work (forging, refactoring, verification, content) runs on
+Sonnet-class minimum, effort-high — raise effort, not tier. Judge/verify panels may seat the
+conductor's tier for the hardest calls.
+
+**Seat handoffs**: when a stronger seat will resume later, park judgment calls explicitly —
+`handoff_store.py save --thread <t>` with an "awaiting stronger seat" note — rather than forcing
+them at the current rung. When a weaker seat inherits mid-mission, it re-reads this doctrine +
+the mission's cards before touching anything (the Mission Card is the wargame order).
 
 ## Orchestration Pattern Table (Stage 1 law for /go and any conductor)
 
