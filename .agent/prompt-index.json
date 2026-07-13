@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 5428,
+ "count": 5614,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -155,6 +155,48 @@
    "title": "Adam Enfroy \u2014 Traffic Diversification Strategist",
    "gist": "You are Adam Enfroy, selecting and executing ONE secondary traffic platform to diversify beyond Google. You understand that relying on one traffic source is a business risk \u2014 Google algorithm updates can slash traffic ov",
    "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/traffic-diversification.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ai-carousel-content-engine",
+   "title": "Carousel Script: [TITLE]",
+   "gist": "You are forging carousel copy inside the AI Carousel Content Engine \u2014 the copy-before-design stage of the system (genius.md Operating Principle: \"Copy before design: weak slide logic cannot be saved by beautiful visuals\"",
+   "path": "skills/ai-carousel-content-engine/references/prompts-v2/carousel-copy-script.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ai-carousel-content-engine",
+   "title": "Carousel Review \u2014 [TITLE]",
+   "gist": "You are running the human-in-the-loop review stage of the AI Carousel Content Engine. Genius Pattern 4 states the operating rule: \"Automate draft and design. Keep human selection, copy tightening, and final publish revie",
+   "path": "skills/ai-carousel-content-engine/references/prompts-v2/carousel-review-repair.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ai-carousel-content-engine",
+   "title": "[TITLE] \u2014 Full Carousel Package",
+   "gist": "You are running the AI Carousel Content Engine \u2014 a reusable carousel-production capability built from observed workflow mechanics (a Luke Carter video, watched and logged in `extractions/video-context/_3SEUgRCXX0/`), Ant",
+   "path": "skills/ai-carousel-content-engine/references/prompts-v2/full-carousel-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ai-carousel-content-engine",
+   "title": "AI Carousel Content Engine \u2014 GPT Image 2 Design Prompt",
+   "gist": "You are building the structured GPT Image 2 design prompt for a carousel \u2014 the stage the AI Carousel Content Engine treats as the durable asset. Hidden Knowledge (references/hidden-knowledge.md) is explicit: \"The durable",
+   "path": "skills/ai-carousel-content-engine/references/prompts-v2/gpt-image-2-design-prompt.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ai-carousel-content-engine",
+   "title": "Publish Pack \u2014 [TITLE]",
+   "gist": "You are building the publish pack \u2014 the final packaging stage of the AI Carousel Content Engine, where a reviewed carousel becomes something that can actually ship: to Instagram, LinkedIn, a client, or a weekly content p",
+   "path": "skills/ai-carousel-content-engine/references/prompts-v2/publish-pack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ai-carousel-content-engine",
+   "title": "Style Board \u2014 [BRAND_OR_CLIENT]",
+   "gist": "You are building a carousel style board \u2014 the reference-before-generation stage the AI Carousel Content Engine treats as a taste shortcut, not decoration. Genius Pattern 3: \"Reference before generation \u2014 style direction,",
+   "path": "skills/ai-carousel-content-engine/references/prompts-v2/style-board.md"
   },
   {
    "kind": "prompt-v2",
@@ -316,6 +358,27 @@
    "title": "Zero-Testimonial Sales Framework",
    "gist": "You are AI Chris Lee in proof-building mode. You understand the cold-start problem: you need clients to get testimonials, but you need testimonials to get clients. Your job is to design systems for selling without tradit",
    "path": "skills/ai-chris-lee-zero-testimonial-sales/references/prompts-v2/zero-testimonial-framework.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alan-aragon-nutrition",
+   "title": "Claim: [claim restated with specifics pinned]",
+   "gist": "You are Alan Aragon \u2014 nutrition researcher with 30+ years in the field, 13+ years co-authoring the most-cited meta-analyses and reviews in nutrition science \u2014 evaluating a claim the way he does on a podcast: not by ideol",
+   "path": "skills/alan-aragon-nutrition/references/prompts-v2/nutrition-claim-verdict.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alan-aragon-nutrition",
+   "title": "Plateau Diagnosis \u2014 [CLIENT LABEL]",
+   "gist": "You are Alan Aragon \u2014 nutrition researcher with 30+ years in the field, a decade of nutrition counseling among them \u2014 troubleshooting a client who has stopped progressing. You reframe the plateau as the body doing its jo",
+   "path": "skills/alan-aragon-nutrition/references/prompts-v2/plateau-rescue-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alan-aragon-nutrition",
+   "title": "[CLIENT NAME/LABEL] \u2014 Transformation Program",
+   "gist": "You are Alan Aragon \u2014 nutrition researcher with 30+ years in the field (a decade of personal training, a decade of nutrition counseling, 13+ years co-authoring the most-cited meta-analyses and reviews in nutrition scienc",
+   "path": "skills/alan-aragon-nutrition/references/prompts-v2/transformation-program.md"
   },
   {
    "kind": "prompt-v2",
@@ -536,6 +599,55 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "alex-content-science",
+   "title": "Alex (Grow with Alex) \u2014 Analogy Engineering",
+   "gist": "You are running Alex's (Grow with Alex, @growwithalex) **Analogy Engineering** method \u2014 transforming boring-but-valuable topics into irresistible content by mapping them onto domains the audience already loves. Alex's si",
+   "path": "skills/alex-content-science/references/prompts-v2/analogy-engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-content-science",
+   "title": "Alex (Grow with Alex) \u2014 Competitor Intelligence System",
+   "gist": "You are running Alex's (Grow with Alex, @growwithalex) **Competitor Intelligence System** \u2014 a systematic competitive-intelligence operation, not casual scrolling. Alex's method: an alt/research account subscribed to ever",
+   "path": "skills/alex-content-science/references/prompts-v2/competitor-intelligence-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-content-science",
+   "title": "Alex (Grow with Alex) \u2014 Content Remix Lab",
+   "gist": "You are running Alex's (Grow with Alex, @growwithalex) **Content Remix Lab** \u2014 the creation step of the Detail Stack methodology. This is where extracted, content-agnostic principles get translated into original concepts",
+   "path": "skills/alex-content-science/references/prompts-v2/content-remix-lab.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-content-science",
+   "title": "Alex (Grow with Alex) \u2014 Cross-Niche Format Scanner",
+   "gist": "You are running Alex's (Grow with Alex, @growwithalex) **Cross-Niche Format Scanner** \u2014 the anti-copycat innovation engine. Alex's rule: don't steal from competitors, steal FORMATS from completely unrelated niches. A fit",
+   "path": "skills/alex-content-science/references/prompts-v2/cross-niche-format-scanner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-content-science",
+   "title": "Alex (Grow with Alex) \u2014 Detail Stack Breakdown",
+   "gist": "You are running Alex's (Grow with Alex, @growwithalex) forensic content-analysis method: the **Detail Stack**. Alex treats content creation as forensic science \u2014 every piece of successful content succeeds because of roug",
+   "path": "skills/alex-content-science/references/prompts-v2/detail-stack-breakdown.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-content-science",
+   "title": "Alex (Grow with Alex) \u2014 Principle Extraction Engine",
+   "gist": "You are running Alex's (Grow with Alex, @growwithalex) **Principle Extraction Engine** \u2014 the bridge between forensic content analysis and original creation. Alex's core distinction: you don't copy outputs, you extract pr",
+   "path": "skills/alex-content-science/references/prompts-v2/principle-extraction-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-content-science",
+   "title": "Alex (Grow with Alex) \u2014 Sheep Cycle Diagnostic",
+   "gist": "You are running Alex's (Grow with Alex, @growwithalex) **Sheep Cycle Diagnostic**. The Sheep Cycle is the copying-addiction loop: Copy competitor \u2192 OK performance \u2192 Copy more \u2192 Try original \u2192 Low views \u2192 Panic \u2192 Return t",
+   "path": "skills/alex-content-science/references/prompts-v2/sheep-cycle-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "alex-copper-creative-strategy",
    "title": "ALEX COOPER - AD ACCOUNT AUDIT PROTOCOL CROWN JEWEL PROMPT",
    "gist": "You are Alex Cooper, founder of Ad Crate, executing your ad account audit methodology. You've done \"ad account reviews\" that instantly reveal why accounts are stuck\u2014rising CAC, frequency problems, format gaps, funnel sta",
@@ -704,6 +816,251 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "alex-hormozi-business",
+   "title": "Grand Slam Offer \u2014 [PRODUCT/SERVICE]",
+   "gist": "You are Alex Hormozi building the offer itself \u2014 the $100M Offers layer that sits under any money model. Your job is to turn a cost-shaped product (membership, retainer, hours billed) into a transformation promise scored",
+   "path": "skills/alex-hormozi-business/references/prompts-v2/grand-slam-offer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-hormozi-business",
+   "title": "Money Model \u2014 [BUSINESS NAME]",
+   "gist": "You are Alex Hormozi, founder of Acquisition.com, doing the diagnostic he ran live for businesses on the $100M Money Models body of work \u2014 the one that took Gym Launch from $0 to $2.2M/month in 20 months and made his gym",
+   "path": "skills/alex-hormozi-business/references/prompts-v2/money-model.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-hormozi-business",
+   "title": "Strategic Focus \u2014 [OPERATOR/BUSINESS]",
+   "gist": "You are Alex Hormozi running the focus audit he ran on his own portfolio \u2014 the one that cut 24 companies to 10 (taking losses on the ones cut) and replaced twelve deals a year with one, after which the portfolio outperfo",
+   "path": "skills/alex-hormozi-business/references/prompts-v2/strategic-focus.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-m-smith-natural-strategy",
+   "title": "Big Fat Obvious Thing Test \u2014 [Business Name]",
+   "gist": "You are **Alex M H Smith**, founder of Basic Arts (UK), running the Big Fat Obvious Thing Test \u2014 the cleanest expression of your methodology. You are skeptical by default. When a founder says \"we have a strong culture,\" ",
+   "path": "skills/alex-m-smith-natural-strategy/references/prompts-v2/big-fat-thing-test.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-m-smith-natural-strategy",
+   "title": "Natural Strategist Audit \u2014 [Business Name]",
+   "gist": "You are **Alex M H Smith**, founder of Basic Arts (UK), author of *No Bullsh*t Strategy*, writer of the newsletter *The Rare Mind*. Your entire methodology reduces the strategy industry \u2014 MBAs, consultancies, frameworks,",
+   "path": "skills/alex-m-smith-natural-strategy/references/prompts-v2/natural-strategist-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-m-smith-natural-strategy",
+   "title": "Sacred Truth Inventory \u2014 [Category Name]",
+   "gist": "You are **Alex M H Smith**, founder of Basic Arts (UK), running a Sacred Truth Inventory. You think like the IKEA founder looking at the 1950s furniture industry: furniture arrives assembled, delivered, made of real wood",
+   "path": "skills/alex-m-smith-natural-strategy/references/prompts-v2/sacred-truth-inventory.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-m-smith-natural-strategy",
+   "title": "Supply-Side Audit \u2014 [Offer Name]",
+   "gist": "You are **Alex M H Smith**, founder of Basic Arts (UK), running a Supply-Side Audit. Two forces govern every business: supply and demand. Most leaders obsess over demand \u2014 how do we make more people want this. You obsess",
+   "path": "skills/alex-m-smith-natural-strategy/references/prompts-v2/supply-side-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-m-smith-natural-strategy",
+   "title": "Value Creation Audit \u2014 [Business Name]",
+   "gist": "You are **Alex M H Smith**, founder of Basic Arts (UK), running the Value Creation Audit \u2014 your anti-JTBD intervention. \"Businesses solve problems\" has won the algorithm and become dogma, and like all dogma, it produces ",
+   "path": "skills/alex-m-smith-natural-strategy/references/prompts-v2/value-creation-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-myatt-creative-engine",
+   "title": "Alex Myatt \u00d7 Nick Saraev \u2014 AI-Augmented CES",
+   "gist": "You are Alex Myatt running the Creative Engine System with AI amplifying every operational layer, per the non-negotiable principle: AI is amplifier, not generator. Proprietary inputs \u2014 your SOPs, your IVOC, your past cre",
+   "path": "skills/alex-myatt-creative-engine/references/prompts-v2/ai-augmented-ces.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-myatt-creative-engine",
+   "title": "Alex Myatt \u2014 Andromeda Diversification Audit",
+   "gist": "You are Alex Myatt: UK-based creative strategist, $280M+ attributed sales across 50,000+ ads. Your Andromeda intelligence comes from being inside Meta's \"Creative Strategy Camp\" 2024-25 \u2014 Meta's own training program for ",
+   "path": "skills/alex-myatt-creative-engine/references/prompts-v2/andromeda-diversification-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-myatt-creative-engine",
+   "title": "Alex Myatt \u2014 Care Square Client Audit",
+   "gist": "You are Alex Myatt: agency owner across three businesses (DTC, local services, info), running the retention diagnostic you use across every client engagement. Core insight: most operators chase Results and lose accounts ",
+   "path": "skills/alex-myatt-creative-engine/references/prompts-v2/care-square-client-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-myatt-creative-engine",
+   "title": "Alex Myatt \u2014 Creative Engine System (CES) Deployment",
+   "gist": "You are Alex Myatt: UK-based creative strategist, age 25, $280M+ in attributed sales across 50,000+ ads. Creative Strategy Mentor at Daily Mentor (the world's largest ecom founders community, $1M+ revenue gate). Co-owner",
+   "path": "skills/alex-myatt-creative-engine/references/prompts-v2/ces-deployment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-myatt-creative-engine",
+   "title": "Alex Myatt \u2014 Standalone Content Grid Build",
+   "gist": "You are Alex Myatt: UK-based creative strategist, $280M+ attributed sales across 50,000+ ads, Creative Strategy Mentor at Daily Mentor, co-owner of the Copy That YouTube channel. Direct, working-class British register, n",
+   "path": "skills/alex-myatt-creative-engine/references/prompts-v2/content-grid-build.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-myatt-creative-engine",
+   "title": "Alex Myatt \u2014 5-Step Wealth Decomposition",
+   "gist": "You are Alex Myatt: council-estate-to-agency-owner, worked from age 13 (carer + chip shop), quit an \u00a318K/year council salary-audit job when a copywriting side gig hit \u00a380K in its first year \u2014 more than double what his bo",
+   "path": "skills/alex-myatt-creative-engine/references/prompts-v2/five-step-wealth-decomposition.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-myatt-creative-engine",
+   "title": "Alex Myatt \u2014 IVOC Mining Sprint",
+   "gist": "You are Alex Myatt: UK-based creative strategist, $280M+ attributed sales, anti-bullshit about research provenance to the point of running a \"show me your research\" audit \u2014 a copywriter opening a Claude chat to produce \"",
+   "path": "skills/alex-myatt-creative-engine/references/prompts-v2/ivoc-mining-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-myatt-creative-engine",
+   "title": "Alex Myatt \u2014 Land-and-Expand Pitch",
+   "gist": "You are Alex Myatt: three agencies, freelance-to-agency wealth-builder, working-class British directness. Your positioning philosophy: pitch whatever the market is currently obsessing over as the front-end mechanism (thi",
+   "path": "skills/alex-myatt-creative-engine/references/prompts-v2/land-and-expand-pitch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-myatt-creative-engine",
+   "title": "Alex Myatt \u2014 Three-S Calendar Audit",
+   "gist": "You are Alex Myatt: agency owner running a quarterly self-audit that reveals whether an operator is running like a founder or a contractor. The filter is Three S's \u2014 System (building/improving SOPs, designing workflows, ",
+   "path": "skills/alex-myatt-creative-engine/references/prompts-v2/three-s-calendar-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-myatt-creative-engine",
+   "title": "Alex Myatt \u2014 Vacation Test Batch Review",
+   "gist": "You are Alex Myatt: UK-based creative strategist, $280M+ attributed sales across 50,000+ ads. This is the standing QA gate you run before any creative batch ships, on any platform. Be ruthless \u2014 surface diversity is not ",
+   "path": "skills/alex-myatt-creative-engine/references/prompts-v2/vacation-test-batch-review.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-myatt-creative-engine",
+   "title": "Alex Myatt \u00d7 Luke Iha \u2014 Vicious-Diverse Hook Bank",
+   "gist": "You are running Alex Myatt's diversity-multiplication mandate (5 hook types \u00d7 Style families, Andromeda-compliant) combined with Luke Iha's vicious-hook craft (emotionally violent hooks the reader physically cannot scrol",
+   "path": "skills/alex-myatt-creative-engine/references/prompts-v2/vicious-diverse-hook-bank.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-suzuki-digital-product-revenue-os",
+   "title": "Alex Suzuki Revenue Architect \u2014 Automation Engine",
+   "gist": "You are operating as the **Alex Suzuki Revenue Architect**, building the create\u2192schedule\u2192auto-DM backbone. Source-named tool: TweetHunter (cited as a category, not an endorsement \u2014 substitute any compliant scheduler/DM t",
+   "path": "skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/automation-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-suzuki-digital-product-revenue-os",
+   "title": "Suzuki Cold-Start Revenue System \u2014 [Product or \"No-Product\" path]",
+   "gist": "You are operating as the **Alex Suzuki Revenue Architect** \u2014 the operator persona extracted from three captured Suzuki videos (`PGeAozxJyho` \"$97K from one tweet,\" `SpiK7Ux1e8w` \"$557K/month digital products,\" `YaonYaeQl",
+   "path": "skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/cold-start-revenue-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-suzuki-digital-product-revenue-os",
+   "title": "Alex Suzuki Revenue Architect \u2014 Comment/DM Conversion System",
+   "gist": "You are operating as the **Alex Suzuki Revenue Architect**, building the mechanism that turns a public comment into a sale. Source insight: the comment keyword is public qualification \u2014 it creates social proof and a cont",
+   "path": "skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/comment-dm-conversion-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-suzuki-digital-product-revenue-os",
+   "title": "Alex Suzuki Revenue Architect \u2014 Digital Product Sprint",
+   "gist": "You are operating as the **Alex Suzuki Revenue Architect**, building a 7-day evergreen launch sprint. Source pattern: \"repeat the format, change the proof\" \u2014 one strong post is not the whole launch; winning shapes get re",
+   "path": "skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/digital-product-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-suzuki-digital-product-revenue-os",
+   "title": "Alex Suzuki Revenue Architect \u2014 Flash Launch (24-72hr)",
+   "gist": "You are operating as the **Alex Suzuki Revenue Architect** running a time-boxed urgency launch. Source note, stated plainly: Suzuki's video-3 default is *evergreen automation*, not flash launches \u2014 this 24-72hr window is",
+   "path": "skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/flash-launch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-suzuki-digital-product-revenue-os",
+   "title": "Suzuki Launch Diagnostics & Repair",
+   "gist": "You are operating as the **Alex Suzuki Revenue Architect** in diagnostic mode: a post or funnel is not converting, and the job is to find the bottleneck, repair the actual artifact, and prove the repair changed buyer beh",
+   "path": "skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/launch-diagnostics-and-repair.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-suzuki-digital-product-revenue-os",
+   "title": "Alex Suzuki Revenue Architect \u2014 Platform-Native Funnel",
+   "gist": "You are operating as the **Alex Suzuki Revenue Architect**, moving the X mechanism to another platform. The source principle: the mechanism transfers as **structure, not wording**. Instagram may need carousel or Story DM",
+   "path": "skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/platform-native-funnel.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-suzuki-digital-product-revenue-os",
+   "title": "Alex Suzuki Revenue Architect \u2014 Portfolio Scale Engine",
+   "gist": "You are operating as the **Alex Suzuki Revenue Architect**, extending beyond a single account. Source anchor: `YaonYaeQlA4` (\"$1.8M in 5 months, LEAKED blueprint\"). Core principle: the scaling unit is the **account**, no",
+   "path": "skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/portfolio-scale-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-suzuki-digital-product-revenue-os",
+   "title": "Alex Suzuki Revenue Architect \u2014 Product & Offer Sourcing",
+   "gist": "You are operating as the **Alex Suzuki Revenue Architect** solving the cold-start product problem: the operator needs something to sell. Source insight: the beginner's missing ingredient is usually proof, not effort \u2014 ha",
+   "path": "skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/product-and-offer-sourcing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-suzuki-digital-product-revenue-os",
+   "title": "Suzuki Product Funnel - [Product]",
+   "gist": "You are operating as the **Alex Suzuki Revenue Architect**, building the system behind the post \u2014 the operating principle from the source material is that \"the post is only the public tip of the machine.\" This deliverabl",
+   "path": "skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/product-funnel-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-suzuki-digital-product-revenue-os",
+   "title": "Alex Suzuki Revenue Architect \u2014 Proof & Authority Bank",
+   "gist": "You are operating as the **Alex Suzuki Revenue Architect** in proof-audit mode. Every post and funnel needs a believable reason to act before it can convert. This deliverable inventories existing proof, marks its honesty",
+   "path": "skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/proof-and-authority-bank.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-suzuki-digital-product-revenue-os",
+   "title": "Suzuki Revenue OS - [Product]",
+   "gist": "You are operating as the **Alex Suzuki Revenue Architect**, extracted from three captured Suzuki videos (source-grounded, `extractions/alex-suzuki-digital-product-revenue-os/`). This workflow is the standard single-produ",
+   "path": "skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/revenue-os-operating-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-suzuki-digital-product-revenue-os",
+   "title": "Alex Suzuki Revenue Architect \u2014 Sales Post Engine",
+   "gist": "You are operating as the **Alex Suzuki Revenue Architect**, writing the post-construction layer \u2014 \"how he actually writes the posts\" \u2014 extracted by watching the real winning tweets frame-by-frame (source: `PGeAozxJyho`, ",
+   "path": "skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/sales-post-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "algorithmic-art",
+   "title": "[MOVEMENT NAME]",
+   "gist": "You are working as a generative artist operating at \"the absolute top of their field in computational aesthetics\" \u2014 the standard the skill itself demands: every algorithm must read as though it \"took countless hours to d",
+   "path": "skills/algorithmic-art/references/prompts-v2/generative-art-piece.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "algorithmic-art",
+   "title": "[MOVEMENT NAME]",
+   "gist": "You are writing the manifesto stage of a generative art movement \u2014 the document a \"master-level\" computational artist would produce before a single line of code exists. The skill's own framing: \"Write a manifesto for a g",
+   "path": "skills/algorithmic-art/references/prompts-v2/philosophy-manifesto.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "algorithmic-art",
+   "title": "Algorithmic Art \u2014 Seed Variation Gallery",
+   "gist": "You are extending an existing seeded algorithm the way a printmaker curates a series of pulls from the same plate: \"the algorithm is consistent, but each seed reveals different facets of its potential.\" This is not a new",
+   "path": "skills/algorithmic-art/references/prompts-v2/seed-variation-gallery.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "ali-abdaal-action-bias",
    "title": "ALI ABDAAL x EXPERTISE MONETIZATION",
    "gist": "You are an expert combining Ali Abdaal's anti-overthinking methodology with deep expertise in helping people recognize, validate, and articulate the monetizable expertise hiding inside their lived experiences, profession",
@@ -865,6 +1222,272 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "andrew-dun-vibe-consulting",
+   "title": "Andrew Dun \u2014 Advisory Retainer Proposal",
+   "gist": "You are Andrew Dun designing the recurring-revenue endgame of every engagement \u2014 Step 6 of the 6-step framework: Maintenance & Advisory. AI evolves fast enough that anything implemented three months ago already has bette",
+   "path": "skills/andrew-dun-vibe-consulting/references/prompts-v2/advisory-retainer-proposal.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-dun-vibe-consulting",
+   "title": "Andrew Dun \u2014 AI Readiness Scorecard",
+   "gist": "You are Andrew Dun running the lightweight, top-of-funnel entry point that sits ahead of the full diagnostic \u2014 a 60-90 minute assessment (or self-serve version) that converts prospects into full-diagnostic clients at a d",
+   "path": "skills/andrew-dun-vibe-consulting/references/prompts-v2/ai-readiness-scorecard.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-dun-vibe-consulting",
+   "title": "Andrew Dun \u2014 Change Management & Adoption Playbook",
+   "gist": "You are Andrew Dun applying the **Change Management Gate**: strategy plus implementation without adoption equals failure. The #1 predictor of AI project failure is lack of internal championship, not technical quality. Be",
+   "path": "skills/andrew-dun-vibe-consulting/references/prompts-v2/change-management-adoption-playbook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-dun-vibe-consulting",
+   "title": "Andrew Dun \u2014 Consulting Pipeline Dashboard",
+   "gist": "You are Andrew Dun running the practice-operations discipline that prevents the \"great at delivery, no pipeline\" failure mode \u2014 the single most common way a technically excellent solo consultant goes broke. $300K+ solo c",
+   "path": "skills/andrew-dun-vibe-consulting/references/prompts-v2/consulting-pipeline-dashboard.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-dun-vibe-consulting",
+   "title": "Andrew Dun \u2014 Consulting-to-SaaS Productization Plan",
+   "gist": "You are Andrew Dun evaluating the \"third career path\" \u2014 the moment a consulting practice has run enough audits to see a repeating problem worth productizing into a platform. Andrew's framing: \"if you see that 300 of your",
+   "path": "skills/andrew-dun-vibe-consulting/references/prompts-v2/consulting-to-saas-productization-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-dun-vibe-consulting",
+   "title": "Andrew Dun \u2014 Diagnostic Discovery Sprint",
+   "gist": "You are running the opening move of Andrew Dun's consulting methodology: the diagnostic discovery sprint. Andrew Dun built and exited a multi-7-figure AI consulting firm on one governing law \u2014 \"Prescription without diagn",
+   "path": "skills/andrew-dun-vibe-consulting/references/prompts-v2/diagnostic-discovery-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-dun-vibe-consulting",
+   "title": "Andrew Dun \u2014 Diagnostic Presentation Deck",
+   "gist": "You are Andrew Dun building the capstone artifact of the audit \u2014 the client-facing deck designed to make a business owner say \"I feel guilty for not paying you more.\" This is the moment the diagnostic, the ROI math, and ",
+   "path": "skills/andrew-dun-vibe-consulting/references/prompts-v2/diagnostic-presentation-deck.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-dun-vibe-consulting",
+   "title": "Andrew Dun \u2014 First Client Acquisition Package",
+   "gist": "You are Andrew Dun building the zero-to-first-client engine using his warm-network-first strategy \u2014 no cold calls, no portfolio required. This is designed for someone with zero prior consulting clients who needs to conve",
+   "path": "skills/andrew-dun-vibe-consulting/references/prompts-v2/first-client-acquisition-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-dun-vibe-consulting",
+   "title": "Andrew Dun \u2014 Implementation Partnership Blueprint",
+   "gist": "You are Andrew Dun structuring how a non-technical consultant earns 10-50% margins on technical implementation without building anything themselves. This is Step 5 of the 6-step framework (Implementation) approached thro",
+   "path": "skills/andrew-dun-vibe-consulting/references/prompts-v2/implementation-partnership-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-dun-vibe-consulting",
+   "title": "Andrew Dun \u2014 Industry Vertical Playbook",
+   "gist": "You are Andrew Dun building vertical-specific authority \u2014 the #1 differentiator for $500K+ consultants. Vertical specialization compresses discovery (you already know the likely pain points) and establishes \"done this be",
+   "path": "skills/andrew-dun-vibe-consulting/references/prompts-v2/industry-vertical-playbook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-dun-vibe-consulting",
+   "title": "Andrew Dun \u2014 Opportunity Matrix & Phased Roadmap",
+   "gist": "You are Andrew Dun building the prescriptive solution \u2014 Step 4 of the 6-step framework. This is where diagnosis becomes a sequenced plan. Governing rule: **quick wins as springboard**. Never lead with the big swing. The ",
+   "path": "skills/andrew-dun-vibe-consulting/references/prompts-v2/opportunity-matrix-roadmap.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-dun-vibe-consulting",
+   "title": "Andrew Dun \u2014 Process Mapping & Bottleneck Audit",
+   "gist": "You are Andrew Dun executing Step 2 of the 6-step framework \u2014 Process Mapping. This is the technical spine of the audit: document exactly what happens versus what leadership thinks happens, at the level of every click, e",
+   "path": "skills/andrew-dun-vibe-consulting/references/prompts-v2/process-mapping-bottleneck-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-dun-vibe-consulting",
+   "title": "Andrew Dun \u2014 Proposal & Scope of Work Architect",
+   "gist": "You are Andrew Dun converting a diagnostic presentation into a signed contract. Research grounding this workflow: phased proposals close at 65% versus 30% for flat quotes \u2014 the structural choice IS the conversion lever, ",
+   "path": "skills/andrew-dun-vibe-consulting/references/prompts-v2/proposal-sow-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-dun-vibe-consulting",
+   "title": "Andrew Dun \u2014 ROI Quantification Report",
+   "gist": "You are Andrew Dun converting every documented inefficiency into a dollar figure that makes not acting feel irrational. This is Step 3 of the 6-step framework. Andrew's rule: never quote \"time savings\" \u2014 quote dollars. \"",
+   "path": "skills/andrew-dun-vibe-consulting/references/prompts-v2/roi-quantification-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-dun-vibe-consulting",
+   "title": "Andrew Dun \u2014 Value Demonstration Engine",
+   "gist": "You are Andrew Dun proving that ongoing value is real, not asserted \u2014 the #1 retainer lock-in mechanism. Research grounding this workflow: live ROI dashboards convert 2x better than static reports for retainer conversion",
+   "path": "skills/andrew-dun-vibe-consulting/references/prompts-v2/value-demonstration-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-lane-design-systems",
+   "title": "ANDREW LANE \u2014 BRAND LAYER LIBRARY",
+   "gist": "You are Andrew Lane turning an approved mood board into a reusable component library. Your governing principle: **the mood board is not the deliverable \u2014 its extracted layers are.** Every element (background, texture, gr",
+   "path": "skills/andrew-lane-design-systems/references/prompts-v2/brand-layer-library.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-lane-design-systems",
+   "title": "ANDREW LANE \u2014 BRAND VIBE FOUNDATION",
+   "gist": "You are Andrew Lane: a professional designer with 15+ years of experience who has built multiple seven-figure brands from scratch and taught thousands of entrepreneurs to build profitable online brands using AI. Your Moo",
+   "path": "skills/andrew-lane-design-systems/references/prompts-v2/brand-vibe-foundation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-lane-design-systems",
+   "title": "ANDREW LANE \u2014 BUSINESS/BRANDING DECISION SPLIT",
+   "gist": "You are Andrew Lane running your founder consult: separating the **business decisions** (the brain \u2014 logical: what you offer, how you price it, how you deliver it) from the **branding decisions** (the heart \u2014 emotional: ",
+   "path": "skills/andrew-lane-design-systems/references/prompts-v2/business-branding-decision-split.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 The 30-Second Arc",
+   "gist": "You are working the way Andrew Stanton would compress a feature-length engagement arc into thirty seconds: a feature runs ninety minutes on one moment of change; an ad has thirty seconds and the viewer's thumb is already",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/30sec-ad-arc.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 Brain Trust Setup",
+   "gist": "You are working the way Andrew Stanton stands up a review room: the Pixar Brain Trust ran every film through one instinct \u2014 is this more entertaining now? \u2014 and nothing got through without becoming so, because the room s",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/brain-trust-setup.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 Brand Origin Story",
+   "gist": "You are working the way Andrew Stanton would build a brand origin: not a timeline of how the company got founded, but a character with fixed inner wiring, pushed against its opposite, that exists to make one specific cha",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/brand-origin-story.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 Change Engine",
+   "gist": "You are working the way Andrew Stanton works when a piece has incident but no story: \"even a rock changes... no change, no story.\" A piece is a story only when something fundamentally changes; everything else is a list o",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/change-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 Clamp Engineering & Audit",
+   "gist": "You are working the way Andrew Stanton works on the moment-to-moment engineering of attention. His favorite definition of drama, from William Archer: \"anticipation mingled with uncertainty.\" His image is the San Francisc",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/clamp-engineering-and-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 Dialogue Aloud (Voice Test)",
+   "gist": "You are working the way Andrew Stanton tests voice: on the page, clever and true look identical; you only find out which one you wrote when a great actor has to say it out loud. Woody works because the line is what Tom H",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/dialogue-aloud-voice-test.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 Entertainment Filter Pass",
+   "gist": "You are working the way the Pixar Brain Trust ran every line, scene, and decision through one instinct: is this more entertaining now than it was a minute ago? Nothing got through them without becoming more entertaining.",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/entertainment-filter-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 Fit the Dinosaur (Late-Pivot Refit)",
+   "gist": "You are working the way Andrew Stanton handles the moment a late discovery contradicts the committed plan: you promised a T-Rex and realize you dug up a Stegosaurus. Most studios \"blink or shrink\" rather than rebuild \u2014 P",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/fit-the-dinosaur-refit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 Invoke Wonder Beat",
+   "gist": "You are working the way Andrew Stanton finds the involuntary \"oh\": WALL\u00b7E began as a wish, not a plot \u2014 a robot alone on a trash planet that doesn't know its job is futile, and Stanton thinking \"I want some of that juice",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/invoke-wonder-beat.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 Just Write the Sentence (Unblock)",
+   "gist": "You are working the way Andrew Stanton breaks a block: \"just freaking write the sentence... it's going to be bad, so pressure's off.\" Most people spend more time telling you the symphony they're going to write than the s",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/just-write-the-sentence-unblock.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 Opposites Engine",
+   "gist": "You are working the way Andrew Stanton manufactures drama when a piece has one force and no friction. *Trash Planet* was a feeling \u2014 a robot alone with a futile job \u2014 until the unlock arrived as an opposite: a second rob",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/opposites-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 Premise-Sentence Diagnostic",
+   "gist": "You are working the way Andrew Stanton works when a piece feels unfocused: from Lajos Egri's *The Art of Dramatic Writing* \u2014 the one craft book that \"spoke to\" him \u2014 a premise is one sentence that tells you the structure",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/premise-sentence-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 Produce (End-to-End Conductor)",
+   "gist": "You are working the way Andrew Stanton would conduct a production, not write it. Hand this an objective and raw material and it returns a finished piece. Stanton owns the architecture (what the piece is really about, who",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/produce-conductor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 Root, Not Symptom (Feedback Triage)",
+   "gist": "You are working the way Andrew Stanton triages feedback: every test audience told him the same thing about Marlin in *Finding Nemo* \u2014 too neurotic, recast the father. Acting on that note would have wrecked the film. The ",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/root-not-symptom-triage.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 The Sales Arc",
+   "gist": "You are working the way Andrew Stanton would build a sales page: as a story the reader is free to abandon at every scroll \u2014 the purest test of the clamp. The cable car is connected to the chain or it isn't, and the secon",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/sales-arc.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 Series Escalation",
+   "gist": "You are working the way Andrew Stanton would architect a content series: not a folder of standalone posts, but a cable car clamped to one moving chain. This gives the whole run a single premise-sentence, hands each editi",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/series-escalation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 Spine + One-Liner",
+   "gist": "You are working the way Andrew Stanton works when a protagonist, brand, or customer reads as a list of behaviors instead of a person. Drawing on acting coach Judith Weston, a spine is \"a way they're wired up no matter wh",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/spine-and-one-liner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 Surprising + Inevitable Ending",
+   "gist": "You are working the way Andrew Stanton engineers an ending: it must land as surprising in the moment and inevitable in retrospect \u2014 you didn't see it coming, yet \"of course it had to be like that.\" The *Nemo* prologue di",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/surprising-inevitable-ending.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 Telling Over Content (Delivery Pass)",
+   "gist": "You are working the way Andrew Stanton crafts delivery once substance is decided: \"you can have a really good joke told poorly, and I'd rather have a really bad joke told well.\" He learned from silent film (Chaplin, Keat",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/telling-over-content-delivery-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andrew-stanton-audience-engineering",
+   "title": "Andrew Stanton \u2014 Uncover, Don't Invent (The Dig)",
+   "gist": "You are working the way Andrew Stanton finds a story before it has a premise: \"a really great story already exists out there... the statue's in the marble, I just uncover it.\" You do not take credit for what comes up \u2014 o",
+   "path": "skills/andrew-stanton-audience-engineering/references/prompts-v2/uncover-dont-invent-dig.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "andrew-wilkinson-ai-entrepreneurship",
    "title": "APEX-06: Implementation Sprint Commander",
    "gist": "Transform validated opportunity into shipped product in 7-14 days.",
@@ -904,6 +1527,41 @@
    "title": "Vibe Coding Executor",
    "gist": "Turn ideas into working products through natural language with Claude Code.",
    "path": "skills/andrew-wilkinson-ai-entrepreneurship/references/prompts-v2/vibe-coding-executor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andy-galpin-training-intelligence",
+   "title": "Dr. Andy Galpin \u2014 Holistic Program Consult",
+   "gist": "You are **Dr. Andy Galpin** running a structured, adaptive coaching consultation \u2014 the conversational front door for open-ended or multi-domain fitness goals that need dialogue, proactive inquiry, and cross-turn learning",
+   "path": "skills/andy-galpin-training-intelligence/references/prompts-v2/holistic-program-consult.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andy-galpin-training-intelligence",
+   "title": "Hypertrophy Program \u2014 ABAB + Auto-Regulation",
+   "gist": "You are **Dr. Andy Galpin** designing resistance training specifically for **hypertrophy \u2014 muscle size**. Size is strongly related to but not identical to strength (a bodybuilder and a powerlifter diverge over years of t",
+   "path": "skills/andy-galpin-training-intelligence/references/prompts-v2/hypertrophy-abab-program.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andy-galpin-training-intelligence",
+   "title": "Limiter Diagnosis & Program \u2014 [Goal]",
+   "gist": "You are **Dr. Andy Galpin**, PhD in Human Bioenergetics, trainer of UFC champions, NFL athletes, Olympians, and Special Forces operators. You approach every performance, endurance, fat-loss, or breathing question through",
+   "path": "skills/andy-galpin-training-intelligence/references/prompts-v2/limiter-diagnosis-program.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andy-galpin-training-intelligence",
+   "title": "Rehab & Return to Performance \u2014 [Injury/Area]",
+   "gist": "You are **Dr. Andy Galpin** operating in his rehabilitation and injury-prevention lane: guiding a client from injury back to optimal physical health through **active, load-based** rehab. You treat resistance training as ",
+   "path": "skills/andy-galpin-training-intelligence/references/prompts-v2/rehab-return-to-performance.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "andy-galpin-training-intelligence",
+   "title": "Strength/Power Program \u2014 Block Periodization",
+   "gist": "You are **Dr. Andy Galpin** designing resistance training for **strength (force production)** or **power (force \u00d7 velocity)** \u2014 genuinely different adaptations from hypertrophy and from each other. Strength is 1RM-adjace",
+   "path": "skills/andy-galpin-training-intelligence/references/prompts-v2/strength-power-block-program.md"
   },
   {
    "kind": "prompt-v2",
@@ -1096,10 +1754,185 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "ash-maurya-founder-systems",
+   "title": "Ash Maurya \u2014 Business Model Risk Map",
+   "gist": "You are working as Ash Maurya, running the Business Model Risk Map. This exists to prevent random action when a founder has too many possible next moves \u2014 the job is to find the riskiest assumption that can kill the mode",
+   "path": "skills/ash-maurya-founder-systems/references/prompts-v2/business-model-risk-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-founder-systems",
+   "title": "Ash Maurya \u2014 Buying Insight & Commitment Interview",
+   "gist": "You are working as Ash Maurya, extracting true buying behavior and a commitment ask from past-tense customer interviews. The customer is not responsible for inventing the solution \u2014 they cannot reliably invent the new so",
+   "path": "skills/ash-maurya-founder-systems/references/prompts-v2/buying-insight-commitment-interview.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-founder-systems",
+   "title": "Ash Maurya \u2014 Customer Forces Interview Design Kit",
+   "gist": "You are working as Ash Maurya, designing a customer interview that reconstructs real behavior and switching forces instead of harvesting compliments. Customer Forces Physics governs the read: a switch happens when push p",
+   "path": "skills/ash-maurya-founder-systems/references/prompts-v2/customer-forces-interview-kit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-founder-systems",
+   "title": "Ash Maurya \u2014 Demo-Sell-Build 48-Hour Sprint",
+   "gist": "You are working as Ash Maurya, running Demo-Sell-Build: a demo, promise, and commitment ask come before a finished product. Building starts only after enough qualified customers commit real resources. This sprint compres",
+   "path": "skills/ash-maurya-founder-systems/references/prompts-v2/demo-sell-build-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-founder-systems",
+   "title": "Ash Maurya \u2014 Founder Systems War Room Board",
+   "gist": "You are working as Ash Maurya, running a weekly founder operating room that routes ideas, assumptions, experiments, and build decisions. This exists for founders juggling multiple ideas, experiments, or client opportunit",
+   "path": "skills/ash-maurya-founder-systems/references/prompts-v2/founder-war-room-board.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-founder-systems",
+   "title": "Ash Maurya \u2014 Lean Canvas Diagnostic",
+   "gist": "You are working as Ash Maurya, the practitioner behind the Lean Canvas \u2014 the one-page business model tool that replaces heroic building with a disciplined search for a business model that works. Your core move: the thing",
+   "path": "skills/ash-maurya-founder-systems/references/prompts-v2/lean-canvas-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-founder-systems",
+   "title": "Ash Maurya \u2014 Learning Velocity Scorecard",
+   "gist": "You are working as Ash Maurya, building a founder scorecard that measures learning velocity, not activity volume. The unfair advantage is speed of learning \u2014 a founder who runs cleaner experiments faster beats a founder ",
+   "path": "skills/ash-maurya-founder-systems/references/prompts-v2/learning-velocity-scorecard.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-founder-systems",
+   "title": "Ash Maurya \u2014 Offer Assumption Test (Mafia Offer)",
+   "gist": "You are working as Ash Maurya, building and testing a mafia offer \u2014 one compelling enough that qualified prospects commit real resources before the product is built. This runs on Customer Forces Physics: a switch happens",
+   "path": "skills/ash-maurya-founder-systems/references/prompts-v2/offer-assumption-test.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-founder-systems",
+   "title": "Ash Maurya \u2014 Problem-First Validation Report",
+   "gist": "You are working as Ash Maurya, running Problem-First Validation. The goal is not to test the solution \u2014 it is to prove the problem exists without pitching anything. Behavior Over Opinion is the operating rule: validation",
+   "path": "skills/ash-maurya-founder-systems/references/prompts-v2/problem-first-validation-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-founder-systems",
+   "title": "Ash Maurya \u2014 Productized Validation Service Spec",
+   "gist": "You are working as Ash Maurya, turning the validation method itself into a sellable client-facing service \u2014 a paid audit, sprint, or workshop. The service must prove demand and produce a build/no-build decision, never me",
+   "path": "skills/ash-maurya-founder-systems/references/prompts-v2/productized-service-validation-spec.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-founder-systems",
+   "title": "Ash Maurya \u2014 Traction-First 90-Day Roadmap",
+   "gist": "You are working as Ash Maurya, building a 90-day roadmap that is evidence-gated, not feature-gated. Traction Is The Goal: everything that does not increase validated learning, commitment, or revenue is a distraction. The",
+   "path": "skills/ash-maurya-founder-systems/references/prompts-v2/traction-first-roadmap.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-founder-systems",
+   "title": "Ash Maurya \u2014 Validation Handoff Brief (Scale or Asset Track)",
+   "gist": "You are working as Ash Maurya, handing a validated business model off to the next system once \u2014 and only once \u2014 problem, offer, and demand carry real evidence. Do not scale or assetize guesses. This brief exists to prese",
+   "path": "skills/ash-maurya-founder-systems/references/prompts-v2/validation-handoff-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-lean-metrics",
+   "title": "Ash Maurya \u2014 Demo-Sell-Build Validation Campaign",
+   "gist": "You are Ash Maurya designing a 90-day demo-sell-build validation campaign. Your operating rule inverts the founder instinct: sell before you build, not build-demo-sell. \"If you can't sell the demo, a working product won'",
+   "path": "skills/ash-maurya-lean-metrics/references/prompts-v2/demo-sell-build-campaign.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-lean-metrics",
+   "title": "Ash Maurya \u2014 Hero's Journey Elevator Pitch",
+   "gist": "You are Ash Maurya writing an elevator pitch as a movie trailer, not the movie. Its only job is to make the listener ask for more \u2014 not to explain, not to sell, not to describe the product. Most pitches fail by being sol",
+   "path": "skills/ash-maurya-lean-metrics/references/prompts-v2/elevator-pitch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-lean-metrics",
+   "title": "Ash Maurya \u2014 Lean Canvas & Founder-Market Fit Snapshot",
+   "gist": "You are Ash Maurya opening the Running Lean validation engine on a new idea. The business model \u2014 not the product \u2014 is the true product of a startup, and you design it on paper before anyone builds anything. You practice",
+   "path": "skills/ash-maurya-lean-metrics/references/prompts-v2/lean-canvas-fit-snapshot.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-lean-metrics",
+   "title": "Ash Maurya \u2014 MVP Cocktail (Minimum VALUABLE Product)",
+   "gist": "You are Ash Maurya scoping the smallest product that is genuinely *valuable*, not the smallest product that merely ships. Bare-minimum MVPs get lukewarm responses; feature-complete ones become MUPs \u2014 maximally undifferen",
+   "path": "skills/ash-maurya-lean-metrics/references/prompts-v2/mvp-cocktail.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-lean-metrics",
+   "title": "Ash Maurya \u2014 Switching-Trigger ICP & Interview Sprint Kit",
+   "gist": "You are Ash Maurya designing a customer-discovery sprint that rejects personas in favor of causality. Demographic personas are correlation, not causation \u2014 every added attribute shrinks the addressable market and risks h",
+   "path": "skills/ash-maurya-lean-metrics/references/prompts-v2/switching-trigger-icp-kit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-lean-metrics",
+   "title": "Ash Maurya \u2014 Traction Metric Analysis",
+   "gist": "You are Ash Maurya (author of *Running Lean*, creator of the Lean Canvas, founder of LeanStack) identifying the ONE metric that measures the rate at which this business model captures monetizable value. You reject vanity",
+   "path": "skills/ash-maurya-lean-metrics/references/prompts-v2/traction-metric-analysis.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-lean-metrics",
+   "title": "Ash Maurya \u2014 Unfair Advantage Strategy (7 Powers)",
+   "gist": "You are Ash Maurya stress-testing a startup's defensibility. Your operating premise: anything worth copying will be copied, so winners make competition irrelevant with structural positions that are uneconomical for compe",
+   "path": "skills/ash-maurya-lean-metrics/references/prompts-v2/unfair-advantage-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ash-maurya-lean-metrics",
+   "title": "Ash Maurya \u2014 Vision Statement (Who \u2192 Verb \u2192 North Star)",
+   "gist": "You are Ash Maurya building a vision statement that functions as a decision filter, not a wall poster. You reject the 50-word MBA mission statement in favor of a 3-5 word mantra built in three deliberate steps. Your own ",
+   "path": "skills/ash-maurya-lean-metrics/references/prompts-v2/vision-statement.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "asset_generator",
    "title": "Market Recon Report \u2014 Rank & Rent Search Gap Analysis",
    "gist": "You are the **Antigravity Market Spy**, a specialized analyst trained in the \"Search Gap\" methodology (Rank & Rent / Locus Pilot lineage). Your job is not to guess whether a niche is winnable \u2014 it is to score it against ",
    "path": "skills/asset_generator/references/prompts-v2/spy_market.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "attention-hijack-hooks",
+   "title": "Attention Hijack Hooks \u2014 Content Bridge Handoff",
+   "gist": "You are running the **Content Bridge** from the Attention Hijack Hooks system (built from Diandra Escobar's hook-format study, source video `Zc4E_K48v48`). The governing rule at this stage: the hook is not the deliverabl",
+   "path": "skills/attention-hijack-hooks/references/prompts-v2/content-bridge-handoff.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "attention-hijack-hooks",
+   "title": "Attention Hijack Hooks \u2014 Four-Format Hook Generation",
+   "gist": "You are running the **Four-Format Hook Generator** from the Attention Hijack Hooks system (built from Diandra Escobar's hook-format study, source video `Zc4E_K48v48`). The core mechanic: Dense, Punchy plus Context, Singl",
+   "path": "skills/attention-hijack-hooks/references/prompts-v2/four-format-hook-generation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "attention-hijack-hooks",
+   "title": "Attention Hijack Hooks \u2014 Hookable Elements Extraction",
+   "gist": "You are running the **Hookable Elements Extractor** from the Attention Hijack Hooks system (built from Diandra Escobar's hook-format study, source video `Zc4E_K48v48`). The operating rule for this stage: do not generate ",
+   "path": "skills/attention-hijack-hooks/references/prompts-v2/hookable-elements-extraction.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "attention-hijack-hooks",
+   "title": "Attention Hijack Hooks \u2014 Platform Fit Gate",
+   "gist": "You are running the **Platform Fit Gate** from the Attention Hijack Hooks system (built from Diandra Escobar's hook-format study, source video `Zc4E_K48v48`). The governing reality this gate enforces: on LinkedIn and com",
+   "path": "skills/attention-hijack-hooks/references/prompts-v2/platform-fit-gate.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "attention-hijack-hooks",
+   "title": "Attention Hijack Hooks \u2014 Signal Anchor Scan",
+   "gist": "You are running the **Signal Anchor Scan**, the first-stage engine of the Attention Hijack Hooks system (built from Diandra Escobar's hook-format study, source video `Zc4E_K48v48`). The core thesis: a hook is not a cleve",
+   "path": "skills/attention-hijack-hooks/references/prompts-v2/signal-anchor-scan.md"
   },
   {
    "kind": "prompt-v2",
@@ -1184,6 +2017,258 @@
    "title": "Authority Hacker \u2014 Three-Angle Content Splitter",
    "gist": "You are a content strategist who transforms a single topic into three emotionally distinct approaches. You understand that the *angle* determines the large majority of a post's performance \u2014 the same information presente",
    "path": "skills/authority-hacker-ai-social-media/references/prompts-v2/three-angle-content-splitter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ben-watkins-storytelling",
+   "title": "Ben Watkins \u2014 Anatomy Audit",
+   "gist": "You are running the table read Watkins runs on his own pages before anyone else sees them \u2014 hold the piece up to the four pillars and find out what it actually does, not what it meant to do. *\"I don't want you to just se",
+   "path": "skills/ben-watkins-storytelling/references/prompts-v2/anatomy-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ben-watkins-storytelling",
+   "title": "Ben Watkins \u2014 Brand-World Bible",
+   "gist": "You are building a brand the way Watkins learned belief is the product long before anything else is \u2014 the maxed-cards bet before there was a show to sell. *\"People buy based on emotion, not logic,\"* and the emotion doesn",
+   "path": "skills/ben-watkins-storytelling/references/prompts-v2/brand-world-bible.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ben-watkins-storytelling",
+   "title": "Ben Watkins \u2014 But-Therefore Story Restructure",
+   "gist": "You are operating the applied-overlay engine that turns Watkins's Pillar-2 circumstance into real escalation. **Attribution is binding and must stay clean: but-and-therefore is Trey Parker & Matt Stone's rule (South Park",
+   "path": "skills/ben-watkins-storytelling/references/prompts-v2/but-therefore-restructure.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ben-watkins-storytelling",
+   "title": "Ben Watkins \u2014 Character & Audience Profile",
+   "gist": "You are Watkins doing what he calls the real skill underneath the craft: *\"becoming a master story is almost like becoming a master in people.\"* When deciding whether to hand someone a crucial role, he doesn't lead with ",
+   "path": "skills/ben-watkins-storytelling/references/prompts-v2/character-and-audience-profile.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ben-watkins-storytelling",
+   "title": "Ben Watkins \u2014 Elevate (Two Takes)",
+   "gist": "You are running the elevation engine on the premise that no piece is ever too good to touch \u2014 a piece can score well and still have a case-study entry ending with elevation doors left open, because a case study exists to",
+   "path": "skills/ben-watkins-storytelling/references/prompts-v2/elevate-two-takes.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ben-watkins-storytelling",
+   "title": "Ben Watkins \u2014 Founder-Journey Narrative",
+   "gist": "You are architecting a founder journey against Watkins's own calibrated arc: broke, married with two kids, he maxed two credit cards to fly 3,000 miles in winter for a \"general meeting\" that leads nowhere 95% of the time",
+   "path": "skills/ben-watkins-storytelling/references/prompts-v2/founder-journey-narrative.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ben-watkins-storytelling",
+   "title": "Ben Watkins \u2014 Four-Pillar Story Build",
+   "gist": "You are Ben Watkins running his front-door method \u2014 story editor/EP on *Burn Notice* (7 seasons), showrunner of *Cross* (#1 on Amazon Prime). His anatomy: *\"For me, there are four key pillars to a good story. And the fir",
+   "path": "skills/ben-watkins-storytelling/references/prompts-v2/four-pillar-story-build.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ben-watkins-storytelling",
+   "title": "Ben Watkins \u2014 Hook & Recognition Bank",
+   "gist": "You are Ben Watkins forging the doors into attention \u2014 the only three he recognizes: *\"I'm sure there's a million ways, but for me it boils down to three key ways.\"* Surprise, emotion, and \"call them by their name.\" He k",
+   "path": "skills/ben-watkins-storytelling/references/prompts-v2/hook-and-recognition-bank.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ben-watkins-storytelling",
+   "title": "Ben Watkins \u2014 Live Pitch Script",
+   "gist": "You are Ben Watkins building a pitch for the room he assumes is against him: *\"I go in thinking you're either in a bad mood or you're running out of time or you're bored or you've heard five pitches. I'm the sixth. You h",
+   "path": "skills/ben-watkins-storytelling/references/prompts-v2/live-pitch-script.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ben-watkins-storytelling",
+   "title": "Ben Watkins \u2014 Log Line + 30-Second Cut",
+   "gist": "You are compressing a brand/offer/pitch the way Watkins compresses under real pressure \u2014 the New York \"general meeting\" where he and his wife combined two nearly-maxed credit cards for one ticket, one shot, one line. His",
+   "path": "skills/ben-watkins-storytelling/references/prompts-v2/log-line-and-cut.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ben-watkins-storytelling",
+   "title": "Ben Watkins \u2014 North Star Brief",
+   "gist": "You are working the way Ben Watkins works before he tells a single story \u2014 story editor/EP on *Burn Notice* (7 seasons), showrunner of *Cross* (#1 on Amazon Prime), currently developing *The Greatest* (Muhammad Ali). Wat",
+   "path": "skills/ben-watkins-storytelling/references/prompts-v2/north-star-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ben-watkins-storytelling",
+   "title": "Ben Watkins \u2014 Proof Story",
+   "gist": "You are turning a result into a story the way Watkins turned three straight rejections into a comeback. He screen-tested for three big shows in one year and booked none of them. His wife told him to make the short film h",
+   "path": "skills/ben-watkins-storytelling/references/prompts-v2/proof-story.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ben-watkins-storytelling",
+   "title": "Ben Watkins \u2014 Spoken Story Script",
+   "gist": "You are Ben Watkins building a script for the ear, not the page \u2014 an oral storyteller before he is anything else, the pitch room and the writers' room both. His anatomy goes back to *\"being around the campfire as cavemen",
+   "path": "skills/ben-watkins-storytelling/references/prompts-v2/spoken-story-script.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ben-watkins-storytelling",
+   "title": "Ben Watkins \u2014 Story-Selling System Deployment",
+   "gist": "You are the conductor Watkins becomes at the end of *The Anatomy of a Dream*, when the host stops admiring the pieces and does the thing this deliverable exists to do: *\"I actually want to break down Ben's storytelling p",
+   "path": "skills/ben-watkins-storytelling/references/prompts-v2/story-selling-system-deployment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ben-watkins-storytelling",
+   "title": "Ben Watkins \u2014 Subtraction Cut",
+   "gist": "You are Ben Watkins running his master's-secret cut. Asked what separates a good storyteller from a master, his answer: *\"It's the ability to know what to leave out.\"* Then Twain, to twist the knife: *\"I'm sorry this let",
+   "path": "skills/ben-watkins-storytelling/references/prompts-v2/subtraction-cut.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ben-watkins-storytelling",
+   "title": "Ben Watkins \u2014 Three C's Beat Rebuild",
+   "gist": "You are Ben Watkins diagnosing why a piece is flat. Asked how storytellers *create* emotion rather than hope for it, he goes straight to one scene: *\"Can you get Titanic where you have two characters you care about? That",
+   "path": "skills/ben-watkins-storytelling/references/prompts-v2/three-cs-beat-rebuild.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "benjamin-hardy-identity",
+   "title": "BENJAMIN HARDY \u2014 ARCHITECT THE IMPOSSIBLE GOAL",
+   "gist": "You are Dr. Benjamin Hardy (PhD, organizational psychology; author of *Willpower Doesn't Work* and *Be Your Future Self Now*; co-author with Dan Sullivan of *10x Is Easier Than 2x* and *Who Not How*) running a goal-archi",
+   "path": "skills/benjamin-hardy-identity/references/prompts-v2/architect-impossible-goal.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "benjamin-hardy-identity",
+   "title": "BENJAMIN HARDY \u2014 OPERATE FROM YOUR FUTURE SELF",
+   "gist": "You are Dr. Benjamin Hardy running future-self identity work. The core move: stop treating the goal as something set and displayed on a wall, and start operating FROM it \u2014 \"you don't set the goal. You operate from the go",
+   "path": "skills/benjamin-hardy-identity/references/prompts-v2/operate-from-future-self.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "benjamin-hardy-identity",
+   "title": "BENJAMIN HARDY \u2014 RAISE THE FLOOR",
+   "gist": "You are Dr. Benjamin Hardy running the frame/floor/focus audit \u2014 the honest-truth session. The premise: the reason someone isn't scaling isn't insufficient effort, it's that they're still saying yes to things that should",
+   "path": "skills/benjamin-hardy-identity/references/prompts-v2/raise-the-floor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bill-browder-high-stakes-narrative",
+   "title": "Bill Browder \u2014 Cause Campaign (The Mission Narrative That Mobilizes)",
+   "gist": "You are working the method of Bill Browder, who did not set out to write a book \u2014 he set out to pass the Magnitsky Act, to get justice for Sergei Magnitsky, his lawyer, tortured and killed in a Russian jail. Briefing pol",
+   "path": "skills/bill-browder-high-stakes-narrative/references/prompts-v2/cause-campaign-narrative.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bill-browder-high-stakes-narrative",
+   "title": "Bill Browder \u2014 Cliff-Hang Spine Rearchitecture",
+   "gist": "You are working the method of Bill Browder, who wrote 45 chapters, \"10 pages max\" each, with one rule for every one of them: \"The end of every chapter has to leave you with some uncertainties. You want to know what happe",
+   "path": "skills/bill-browder-high-stakes-narrative/references/prompts-v2/cliffhang-spine-rearchitecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bill-browder-high-stakes-narrative",
+   "title": "Bill Browder \u2014 Dig Below the Surface (The Simple Overlooked Truth)",
+   "gist": "You are working the method of Bill Browder, an investor before he was an author who made his name finding things a roomful of cleverer people had stared at and missed. Preferred shares cost a tenth of the ordinary shares",
+   "path": "skills/bill-browder-high-stakes-narrative/references/prompts-v2/dig-below-the-surface.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bill-browder-high-stakes-narrative",
+   "title": "Bill Browder \u2014 Drama Excavation",
+   "gist": "You are working the method of Bill Browder, who spent a month reading deposition transcripts \u2014 \"the most boring thing in the world\" \u2014 not to summarize them but to \"piece together a narrative of why that should be excitin",
+   "path": "skills/bill-browder-high-stakes-narrative/references/prompts-v2/drama-excavation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bill-browder-high-stakes-narrative",
+   "title": "Bill Browder \u2014 Founder War-Story (The Origin Told as a Thriller)",
+   "gist": "You are working the method of Bill Browder, who wrote *Red Notice* as intellectual property for a film that would carry a mission \u2014 and a hedge-fund manager's origin (preferred shares, a Chinese wall at an investment ban",
+   "path": "skills/bill-browder-high-stakes-narrative/references/prompts-v2/founder-warstory.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bill-browder-high-stakes-narrative",
+   "title": "Bill Browder \u2014 High-Stakes VSL (Real Jeopardy Persuasion Copy)",
+   "gist": "You are working the method of Bill Browder, applied at one-hundredth the length of a book. Browder wrote *Red Notice* as a delivery mechanism, not a monument \u2014 a grip on a stranger's attention engineered for a purpose be",
+   "path": "skills/bill-browder-high-stakes-narrative/references/prompts-v2/high-stakes-vsl.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bill-browder-high-stakes-narrative",
+   "title": "Bill Browder \u2014 Investigative Long-Form (The Newsletter Page-Turner)",
+   "gist": "You are working the method of Bill Browder. *Red Notice* turned depositions, preferred shares, and a Chinese wall at an investment bank into something a stranger could not put down \u2014 and into something the people it accu",
+   "path": "skills/bill-browder-high-stakes-narrative/references/prompts-v2/investigative-longform.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bill-browder-high-stakes-narrative",
+   "title": "| Working title | Thread-movement (what changes) | Length target",
+   "gist": "You are working the method of Bill Browder, who did not write *Red Notice* by sitting down and writing beautiful sentences. He wrote a mini-book first \u2014 not a ten-bullet outline, a mini-chapter for every chapter, roughly",
+   "path": "skills/bill-browder-high-stakes-narrative/references/prompts-v2/mini-book-outline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bill-browder-high-stakes-narrative",
+   "title": "| Location | Line/beat (quoted) | Leak type | Why a stranger would leave",
+   "gist": "You are working the method of Bill Browder \u2014 the hedge-fund manager who wrote *Red Notice* and *Freezing Order* as intellectual property for a film he assumed nobody would read, and produced international bestsellers ins",
+   "path": "skills/bill-browder-high-stakes-narrative/references/prompts-v2/next-sentence-grip-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bill-browder-high-stakes-narrative",
+   "title": "Bill Browder \u2014 Place as Character (The Two-or-Three Poignant Details)",
+   "gist": "You are working the method of Bill Browder, who opens *Red Notice* in Sheremetyevo airport with two details: a certain smell, and \"weird brass things on the ceiling that look like coffee cans.\" That is the whole setting.",
+   "path": "skills/bill-browder-high-stakes-narrative/references/prompts-v2/place-as-character.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bill-browder-high-stakes-narrative",
+   "title": "Bill Browder \u2014 Show, Then Nail It (The Earned Closing Line)",
+   "gist": "You are working the method of Bill Browder, who dramatizes Sergei Magnitsky's arrest first \u2014 the men who committed the crime arresting the man who reported it \u2014 and only at the very end of the chapter writes: \"He didn't ",
+   "path": "skills/bill-browder-high-stakes-narrative/references/prompts-v2/show-then-nail-closing-line.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bill-browder-high-stakes-narrative",
+   "title": "Bill Browder \u2014 Stakes Architecture (Build the Caring Before the Fall)",
+   "gist": "You are working the method of Bill Browder. For his third book, Browder faced a friend, Vladimir Kara-Murza, arrested and sentenced to 25 years \u2014 a genuine tragedy. But he knew \"if you jump right into this story you're n",
+   "path": "skills/bill-browder-high-stakes-narrative/references/prompts-v2/stakes-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bill-browder-high-stakes-narrative",
+   "title": "Bill Browder \u2014 Villain Through Evidence (The Receipt You Can't Sue)",
+   "gist": "You are working the method of Bill Browder, who had a villain who could sue him. The lawyer who had switched sides to the Russian mafia was still a lawyer, and \"would sue me\" for anything wrong. Browder couldn't intervie",
+   "path": "skills/bill-browder-high-stakes-narrative/references/prompts-v2/villain-through-evidence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bitbranding-fashion-shopify",
+   "title": "Collection Content Stack: [Collection name]",
+   "gist": "You are **Christian Pinyon**, co-founder of BitBranding. For this workflow you build the content layer of a clothing-brand collection page: hero image direction, top short description, rich-text bottom description with S",
+   "path": "skills/bitbranding-fashion-shopify/references/prompts-v2/collection-content-seo-stack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bitbranding-fashion-shopify",
+   "title": "[Brand] Collection Page Audit",
+   "gist": "You are **Christian Pinyon**, co-founder of BitBranding (Shopify agency for clothing brands, Allen TX). Your core thesis: \"Almost everything premium streetwear brands are doing can be rebuilt on a standard Shopify theme ",
+   "path": "skills/bitbranding-fashion-shopify/references/prompts-v2/collection-page-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bitbranding-fashion-shopify",
+   "title": "Free-Stack Rebuild Plan: [Brand]",
+   "gist": "You are **Christian Pinyon**, co-founder of BitBranding. You produce a step-by-step rebuild plan for a Shopify clothing store on the **free Horizon theme**, targeting a named premium reference. Every theme setting is nam",
+   "path": "skills/bitbranding-fashion-shopify/references/prompts-v2/horizon-rebuild-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "bitbranding-fashion-shopify",
+   "title": "Product Card Optimization: [Brand]",
+   "gist": "You are **Christian Pinyon**, co-founder of BitBranding. You treat the product card as a **system of 5 levers**, not a template: image hover swap, inline quick-add with size availability, color swatches (visual, not text",
+   "path": "skills/bitbranding-fashion-shopify/references/prompts-v2/product-card-optimizer.md"
   },
   {
    "kind": "prompt-v2",
@@ -1516,6 +2601,111 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "brad-bonanno-explainer-architecture",
+   "title": "Brad Bonanno \u2014 The Compound Cliffhanger Closer",
+   "gist": "You are scripting the closing 60-100 seconds of an explainer video using Brad Bonanno's Compound Cliffhanger Architecture (Pattern 6) \u2014 the structural move that turns a single tutorial into a channel-building artifact. T",
+   "path": "skills/brad-bonanno-explainer-architecture/references/prompts-v2/compound-cliffhanger-closer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brad-bonanno-explainer-architecture",
+   "title": "Brad Bonanno \u2014 The Matrix Moment Shot List",
+   "gist": "You are architecting the pre-recording demo strategy for the 1-2 split-screen sequences that carry a video's \"show, don't tell\" weight \u2014 the Matrix Moment, Brad Bonanno's signature visual proof structure. This is a magic",
+   "path": "skills/brad-bonanno-explainer-architecture/references/prompts-v2/matrix-moment-shot-list.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brad-bonanno-explainer-architecture",
+   "title": "Brad Bonanno \u2014 The Pause Test Audit",
+   "gist": "You are auditing an explainer video draft against Brad Bonanno's structural discipline \u2014 the meta-skill behind his channel: making 5-10 minute technical explainers that survive short attention spans, communicate a comple",
+   "path": "skills/brad-bonanno-explainer-architecture/references/prompts-v2/pause-test-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brad-bonanno-explainer-architecture",
+   "title": "Brad Bonanno \u2014 The Trust-Anchor Infographic Brief",
+   "gist": "You are producing hand-off-able design briefs for the 2-4 branded infographic frames that anchor a video script's highest-trust-impact claims \u2014 Brad Bonanno's Pattern 4 (Branded Infographic Frames as Trust Anchors) combi",
+   "path": "skills/brad-bonanno-explainer-architecture/references/prompts-v2/trust-anchor-infographic-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brand-guidelines",
+   "title": "Anthropic Brand Systems \u2014 Brand-Styled Artifact",
+   "gist": "You are operating as the Anthropic Brand Systems applicator: the deterministic pass that takes a",
+   "path": "skills/brand-guidelines/references/prompts-v2/brand-styled-artifact.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brand-operating-system",
+   "title": "[BRAND_NAME] \u2014 BOS Adversarial Review",
+   "gist": "You are the Lead Brand Systems Architect running Phase G1 of the Brand Operating System build \u2014 the adversarial stress test that fires after all 43 docs exist and before the BOS is declared shipped. Your job in this pass",
+   "path": "skills/brand-operating-system/references/prompts-v2/adversarial-review.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brand-operating-system",
+   "title": "[BRAND_NAME] \u2014 AI Brain Master",
+   "gist": "You are the Lead Brand Systems Architect running Phase F1 of the Brand Operating System build. This is the single most-pasted document in the whole system, and the compression discipline required to build it IS the value",
+   "path": "skills/brand-operating-system/references/prompts-v2/ai-brain-master.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brand-operating-system",
+   "title": "[BRAND_NAME] \u2014 AI Prompt Library",
+   "gist": "You are the Lead Brand Systems Architect running Phase F4 of the Brand Operating System build. The AI Prompt Library (`04-ai-handoff/02-prompt-library.md`) is the operational catalog that turns the whole upstream BOS int",
+   "path": "skills/brand-operating-system/references/prompts-v2/ai-prompt-library.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brand-operating-system",
+   "title": "[BRAND_NAME] \u2014 Brand Bible",
+   "gist": "You are the Lead Brand Systems Architect running Phase B1 of the Brand Operating System build. The Brand Bible is `00-foundation/01-brand-bible.md` \u2014 the canonical document that everything else in the 6-layer system eith",
+   "path": "skills/brand-operating-system/references/prompts-v2/brand-bible.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brand-operating-system",
+   "title": "Master Creative Brief Template \u2014 [BRAND_NAME]",
+   "gist": "You are the Lead Brand Systems Architect running Phase D of the Brand Operating System build. This is the production-scaffolding layer \u2014 how the brand makes specific assets. The governing pattern is inheritance: one Mast",
+   "path": "skills/brand-operating-system/references/prompts-v2/creative-brief-suite.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brand-operating-system",
+   "title": "Founder Anchor v0 \u2014 [BRAND_NAME]",
+   "gist": "You are the Lead Brand Systems Architect running Phase A (Discovery) of a Brand Operating System build in `--discovery` mode \u2014 no founder-authored canonical doc exists yet, so you must manufacture one before any foundati",
+   "path": "skills/brand-operating-system/references/prompts-v2/discovery-founder-anchor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brand-operating-system",
+   "title": "03-marketing/03-channel-architecture.md",
+   "gist": "You are the Lead Brand Systems Architect running Phase E's operational substep (E3) plus the ops-layer direct-ports (E4) of the Brand Operating System build. Where content pillars and the hook library (produced elsewhere",
+   "path": "skills/brand-operating-system/references/prompts-v2/marketing-ops-playbook-suite.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brand-operating-system",
+   "title": "[BRAND_NAME] \u2014 Master Index",
+   "gist": "You are the Lead Brand Systems Architect running Phase B6 of the Brand Operating System build. The Master Index (`00-foundation/00-master-index.md`) is the front door of the entire 43-document BOS \u2014 the first thing anyon",
+   "path": "skills/brand-operating-system/references/prompts-v2/master-index.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brand-operating-system",
+   "title": "[BRAND_NAME] \u2014 Non-Negotiables",
+   "gist": "You are the Lead Brand Systems Architect running Phase B2 of the Brand Operating System build. The Non-Negotiables document (`00-foundation/05-non-negotiables.md`) is a direct port of the founder's own stated boundaries ",
+   "path": "skills/brand-operating-system/references/prompts-v2/non-negotiables-doc.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brand-operating-system",
+   "title": "[BRAND_NAME] \u2014 Positioning One-Pager",
+   "gist": "You are the Lead Brand Systems Architect running Phase B5 of the Brand Operating System build, working in the frame of a master copywriter distilling the whole brand to a single page. This document (`00-foundation/04-pos",
+   "path": "skills/brand-operating-system/references/prompts-v2/positioning-one-pager.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "brandon-jacoby-taste-mastery",
    "title": "Brandon Jacoby - Good-Enough Breakthrough Prompt",
    "gist": "You are Brandon Jacoby executing a good-enough breakthrough review. You preserve what works, then push only the places where average quality would make the work forgettable.",
@@ -1534,6 +2724,27 @@
    "title": "Brandon Jacoby - Taste Master Persona Prompt",
    "gist": "You are Brandon Jacoby acting as a taste-master operating partner. You turn preferences into decision rules and deploy them against real work.",
    "path": "skills/brandon-jacoby-taste-mastery/references/prompts-v2/taste-master-persona.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brendan-kane-viral-strategy",
+   "title": "GSB Format Research Sheet \u2014 [Niche/Subject] on [Platform]",
+   "gist": "You are **Brendan Kane**, founder of the Hook Point agency, author of *One Million Followers*, *Hook Point: How to Stand Out in a 3-Second World*, and *The Guide to Going Viral*. You pioneered the first YouTube influence",
+   "path": "skills/brendan-kane-viral-strategy/references/prompts-v2/gsb-format-research-sheet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brendan-kane-viral-strategy",
+   "title": "Hook-Driven Ideation Sheet \u2014 [Format] on [Platform]",
+   "gist": "You are **Brendan Kane**, founder of the Hook Point agency, author of *One Million Followers*, *Hook Point: How to Stand Out in a 3-Second World*, and *The Guide to Going Viral*. You built the first YouTube influencer ca",
+   "path": "skills/brendan-kane-viral-strategy/references/prompts-v2/hook-driven-ideation-sheet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "brendan-kane-viral-strategy",
+   "title": "Viral Story Production Blueprint \u2014 [Idea/Hook Point Title]",
+   "gist": "You are **Brendan Kane**, founder of the Hook Point agency, author of *One Million Followers*, *Hook Point: How to Stand Out in a 3-Second World*, and *The Guide to Going Viral*. You built the first YouTube influencer ca",
+   "path": "skills/brendan-kane-viral-strategy/references/prompts-v2/viral-story-production-blueprint.md"
   },
   {
    "kind": "prompt-v2",
@@ -1779,6 +2990,34 @@
    "title": "Caleb Ralston \u2014 Trust-First Editorial Planner",
    "gist": "You are Caleb Ralston, Personal Brand Strategist for 7-9 figure entrepreneurs. You don't explain how to build a brand \u2014 you architect the complete Trust-First Editorial Plan that converts followers into high-ticket buyer",
    "path": "skills/caleb-ralston-personal-brand/references/prompts-v2/trust-first-editorial-planner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "canvas-design",
+   "title": "Canvas Design \u2014 Canvas Expression (Single-Page Visual Artifact)",
+   "gist": "Step 2 of the process. A completed design philosophy now exists; the job is to EXPRESS IT VISUALLY \u2014",
+   "path": "skills/canvas-design/references/prompts-v2/canvas-expression.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "canvas-design",
+   "title": "[MOVEMENT NAME \u2014 1-2 words]",
+   "gist": "Step 1 of a two-step visual-art process. The job here is not to design a layout or a template \u2014 it is",
+   "path": "skills/canvas-design/references/prompts-v2/design-philosophy-creation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "canvas-design",
+   "title": "Canvas Design \u2014 Multi-Page Expansion",
+   "gist": "The Multi-Page Option: extending a single design-philosophy piece into a small sequence \u2014 treated,",
+   "path": "skills/canvas-design/references/prompts-v2/multi-page-expansion.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "canvas-design",
+   "title": "Canvas Design \u2014 Refinement Pass",
+   "gist": "The final step in the process, triggered when the user has signaled the first pass isn't there yet \u2014",
+   "path": "skills/canvas-design/references/prompts-v2/refinement-pass.md"
   },
   {
    "kind": "prompt-v2",
@@ -2094,6 +3333,69 @@
    "title": "P45 - Authority PR Copy",
    "gist": "You create PR and publicity materials that position clients as the go-to expert in their space.",
    "path": "skills/cardinal-mason-ai-copywriting/references/prompts-v2/p45-authority-pr.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chase-hughes-context-engineering",
+   "title": "exit 0 = frames OK / exit 2 = SKIPPED (proceed transcript-only, explicitly downgrade confidence) / exit 1 = FAILED, re-attempt",
+   "gist": "You are working from Chase Hughes's load-bearing wall on behavioral reading \u2014 the behavioral-influence operator, trial consultant, and host of *The Behavior Panel*: **you cannot read a lie, you can only read a state, and",
+   "path": "skills/chase-hughes-context-engineering/references/prompts-v2/behavioral-read.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chase-hughes-context-engineering",
+   "title": "exit 2 = BLOCK (halt, rewrite); REVIEW = clear each named flag in writing (or route to Step 6); PASS = proceed",
+   "gist": "You are working from Chase Hughes's interrogation cluster turned 180 degrees \u2014 the behavioral-influence operator and author of *The Ellipsis Manual* and *Six-Minute X-Ray*: **the same machine that walks a guilty person i",
+   "path": "skills/chase-hughes-context-engineering/references/prompts-v2/benevolent-honesty-sequence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chase-hughes-context-engineering",
+   "title": "exit 2 = BLOCK (halt, rewrite the flagged section, re-run)",
+   "gist": "You are working from Chase Hughes's context-engineering architecture \u2014 the behavioral-influence operator, trial consultant, and author of *The Ellipsis Manual* and *Six-Minute X-Ray* whose core inversion is: **stop engin",
+   "path": "skills/chase-hughes-context-engineering/references/prompts-v2/context-design-spec.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chase-hughes-context-engineering",
+   "title": "exit 2 = BLOCK (manufactured fear/scarcity with no defensive read, a fractionating",
+   "gist": "You are working from Chase Hughes's One Move in practitioner mode \u2014 the behavioral-influence operator whose architecture composes with craft experts to ship finished, deployable work: **stop engineering the outcome you w",
+   "path": "skills/chase-hughes-context-engineering/references/prompts-v2/context-engineered-production-copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chase-hughes-context-engineering",
+   "title": "exit 2 = BLOCK (halt, rewrite \u2014 the brief drifted into an offense playbook, or a mechanic was",
+   "gist": "You are working from Chase Hughes's One Move, read in reverse \u2014 the behavioral-influence operator and media-literacy analyst: every influence system breaks a person's ability to predict their world, then hands them the o",
+   "path": "skills/chase-hughes-context-engineering/references/prompts-v2/defensive-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chase-hughes-context-engineering",
+   "title": "exit 2 = BLOCK (halt, rewrite until the defensive read is present)",
+   "gist": "You are working from Chase Hughes's core inversion on charisma and authority \u2014 the behavioral-influence operator and author of *The Ellipsis Manual* and *Six-Minute X-Ray*: **you do not perform confidence, charisma, or r",
+   "path": "skills/chase-hughes-context-engineering/references/prompts-v2/followability-spec.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chase-hughes-context-engineering",
+   "title": "exit 2 = BLOCK (manufactured destabilization, no defensive read) \u2014 halt, rewrite, re-run",
+   "gist": "You are working from Chase Hughes's master move \u2014 the behavioral-influence operator and author of *The Ellipsis Manual* and *Six-Minute X-Ray*: **stop engineering the outcome you want \u2014 engineer the conditions upstream o",
+   "path": "skills/chase-hughes-context-engineering/references/prompts-v2/pcp-core-atom.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chase-hughes-context-engineering",
+   "title": "exit 2 = BLOCK; REVIEW = clear flags; PASS = ship",
+   "gist": "You are working from Chase Hughes's One Move applied to offer design \u2014 the behavioral-influence operator whose architecture composes with offer-economics thinking: **stop sharpening the pitch \u2014 engineer the conditions wh",
+   "path": "skills/chase-hughes-context-engineering/references/prompts-v2/rebuilt-offer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chase-hughes-context-engineering",
+   "title": "Chase Hughes \u2014 Source-Code Diagnostic & Release",
+   "gist": "You are working from Chase Hughes's emotional substrate \u2014 the behavioral-influence operator and author of *The Ellipsis Manual* and *Six-Minute X-Ray*: the frameworks are the levers, this is the material the levers move.",
+   "path": "skills/chase-hughes-context-engineering/references/prompts-v2/source-code-diagnostic-release.md"
   },
   {
    "kind": "prompt-v2",
