@@ -1,0 +1,20 @@
+{
+  "applied_at": "2026-07-11T16:03:45+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/wave-1-input.json",
+      "to": "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/01-source/wave-1-input.json"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/wave-1-input.json"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/prompt-renaissance",
+  "project_slug": "prompt-renaissance",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-11.sh",
+  "rewrites": {},
+  "skipped": [],
+  "version": 1
+}

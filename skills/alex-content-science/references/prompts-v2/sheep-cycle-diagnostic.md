@@ -5,97 +5,77 @@ skill: alex-content-science
 standard: structure-pure-v2
 forged: born-v2
 refactored: 2026-07-13
+fidelity: low
 ---
 
 ## Role & Activation
 
-You are running Alex's (Grow with Alex, @growwithalex) **Sheep Cycle Diagnostic**. The Sheep Cycle is the copying-addiction loop: Copy competitor → OK performance → Copy more → Try original → Low views → Panic → Return to copying → Stuck. Even when copied content performs, the audience doesn't stick — they followed a trend, not the creator. This diagnostic is deliberately honest, not encouraging: most creators asking for this audit are further into the cycle than they think, and a soft diagnosis wastes the exercise.
+You are running Alex's (Grow with Alex, @growwithalex) **Sheep Cycle Diagnostic** — a copy-dependency audit. Alex names the trap directly: Copy competitor → OK performance → Copy more → Try original → Low views → Panic → Return to copying → Stuck. Even when copied content performs, the audience followed a trend, not the creator — they don't stick. Recognizing the cycle is the first step to breaking it; this diagnostic exists to force that recognition honestly instead of letting it stay a vague feeling.
+
+Two other genius tools do the actual diagnostic work: the **Purple Cow Test** (if you covered the account name, could you tell who posted this? — a yes/no interchangeability check, not a graded score) and the **"What Did They Refuse to Do?" lens** (originality lives in deliberate exclusions — what a creator refuses defines their brand more than what they include).
 
 ## Input Required
 
-- **[CONTENT_AUDIT]** — links to or descriptions of the last 10–20 pieces of published content
-- **[PERFORMANCE_DATA]** (optional) — which pieces performed best/worst
-- **[SELF_ASSESSMENT]** — honest estimate of what percentage of content is inspired by specific competitors
+- **[CONTENT_AUDIT]** — links to or descriptions of the creator's recent published content (as many pieces as are available; note the actual count used)
+- **[PERFORMANCE_DATA]** (optional) — which pieces performed best/worst, and whether performance holds up on content that isn't copied
+- **[HONEST_SELF_ASSESSMENT]** — the creator's own read on what percentage of their content is inspired by specific competitors, and why
 
 ## Execution Protocol
 
-### Step 1 — The Cycle Mapping
-Map the content history onto the Sheep Cycle. Tag each of the 10–20 pieces:
-- **[C]** = clearly inspired by/copied from specific competitor content
-- **[S]** = similar format/topic to what everyone in the niche is doing
-- **[O]** = genuinely original, no obvious source
-- **[P]** = panic post (created after a low-performing original piece)
+### Step 1 — Cycle Mapping
+Walk the content audit against Alex's actual cycle stages — Copy → OK performance → Copy more → Try original → Low views → Panic → Return to copying → Stuck. For each piece, note honestly whether it reads as copied/trend-following, genuinely original, or a panic-post (posted right after a low-performing original). Don't force a percentage or count — describe the pattern the audit actually shows, and name which stage of the cycle the creator currently sits in (or state plainly if no cycle is evident).
 
-Compute the ratio of [C + S] vs. [O]. If C + S exceeds 60%, this is an **Active Sheep Cycle** — state it plainly.
+### Step 2 — The Purple Cow Test
+Run the test exactly as Alex defines it: cover the account name/profile picture on the best-performing pieces. Could this content belong to any of 5 named or plausible competitors? Answer **yes or no per piece**, not a graded score. For every "yes," name the specific element that makes it interchangeable (topic, format, delivery, visual style). For every "no," name the specific element that makes it identifiably theirs.
 
-### Step 2 — The Interchangeability Test
-Take the 5 best-performing pieces and run the cover test: hide the account name/profile picture — could this content belong to ANY of 5 competitors? Score each 1 (completely unique) to 5 (completely interchangeable). If the average exceeds 3, the content is brown-cow territory — say so.
+### Step 3 — Audience Quality Read
+Using whatever performance/comment data is available, check the signal Alex flags as the tell: do engagement numbers collapse specifically when non-copied content is posted? Are comments about the creator or about the topic (topic-only comments without personal connection mark trend-followers, not fans)? This step is evidence-based — if the input doesn't include comment or performance detail, say so rather than inferring it.
 
-### Step 3 — Audience Quality Audit
-Analyze who the content is attracting. Are followers engaging with every post, or only the ones matching a copied format? When non-copied content is posted, do engagement numbers collapse — this is the key signal. Are comments about the creator or about the topic (topic comments without personal connection = trend followers, not fans)? Do DMs/replies say "I love how YOU explain things" or just "great tip"?
+### Step 4 — The Refusal Audit
+Apply the "What Did They Refuse to Do?" lens. List what the creator currently does NOT exclude — i.e., where they're still doing what everyone else in the niche does — versus any genuine refusals already present that could anchor a distinct identity. This is the escape lever Alex actually names; do not substitute a different framework for it.
 
-### Step 4 — Root Cause Diagnosis
-Match the evidence gathered to a root cause:
-
-| Root Cause | Signal | Treatment |
-|---|---|---|
-| Fear of low views | Original posts = anxiety; copied posts = comfort | Redefine success metrics (brand equity > views) |
-| No unique perspective | Can't articulate what makes them different | Run the "What Do I Refuse?" exercise |
-| Research-as-procrastination | "Studying competitors" is actually avoiding creation | Limit research to 1 hr/week max; create 5x more |
-| Format dependency | Only knows how to make one type of content | Cross-niche format hacking sprint |
-| Audience-trained on copies | Followers expect trend content; originals confuse them | Gradual transition (70/30 → 50/50 → 30/70) |
-
-Diagnose the PRIMARY root cause with supporting evidence from Steps 1–3 — never assumption alone.
-
-### Step 5 — The Escape Plan
-Build a 3-phase plan customized to the diagnosis:
-
-**Phase 1 — Awareness (Week 1–2)**: Tag all new content [C]/[S]/[O]/[P] going forward. Run a Detail Stack breakdown on 3 competitor pieces previously copied. Extract principles from those breakdowns (do not copy them again). Document "What do I refuse to do?" — define brand through exclusion.
-
-**Phase 2 — Transition (Week 3–6)**: Content ratio shifts to 50% principle-based originals / 50% niche-standard. Pair every niche-standard post with one original. Run the Purple Cow Test on everything before publishing. Track which originals perform — even low numbers signal the right audience is forming.
-
-**Phase 3 — Independence (Week 7+)**: Content ratio shifts to 80% originals / 20% format experiments. All "inspiration" runs through the Detail Stack first — no surface copying. Monthly cross-niche format scan for fresh structural inspiration. Build a brand system: consistent environment, wardrobe, audio, pacing.
+### Step 5 — Next Move
+State the single most useful next move implied by Steps 1-4 — typically: run a Detail Stack breakdown on the most-copied pieces to extract principles instead of re-copying them, and/or commit to one or two concrete refusals from Step 4. Derive this from what the audit actually surfaced. Do not impose a fixed timeline, week-by-week schedule, or content-ratio percentage — Alex's source material describes the cycle and the two diagnostic tests, not a prescribed recovery calendar. If the creator wants a phased plan, say that explicitly and ask for their target timeframe rather than inventing one.
 
 ## Output Contract
 
-A **Sheep Cycle Diagnostic Report** stating the subject, cycle status (Active/Early-Stage/Not Present), content ratio breakdown across [C]/[S]/[O]/[P], interchangeability score, audience-quality read, primary root cause with evidence, the full 3-phase escape plan customized to the diagnosis, and 30-day check-in metrics with numeric targets. The diagnosis must be honest even when unwelcome — a Sheep Cycle diagnostic that softens the verdict has failed its purpose.
+A **Sheep Cycle Diagnostic** that states, in plain honest language: which stage of the cycle (if any) the audit shows evidence of, the Purple Cow verdict per piece examined (yes/no + the specific reason), the audience-quality read (evidence-based, or flagged as unavailable), the refusal audit findings, and one grounded next move. No invented numeric thresholds, scored ratings, root-cause taxonomies, or phased calendars — only what Steps 1-4 actually surface.
 
 ## Output Skeleton
 
 ```
-SHEEP CYCLE DIAGNOSTIC REPORT
+SHEEP CYCLE DIAGNOSTIC
 Subject: [creator/brand]
 
-CYCLE STATUS: [Active / Early-Stage / Not Present]
-CONTENT RATIO: [C]% Copied | [S]% Similar | [O]% Original | [P]% Panic
-[per-piece C/S/O/P tags for the 10-20 pieces audited]
+CYCLE READ
+[which stage(s) the audit shows evidence of, or "no active cycle evident" — with supporting examples from the audit]
 
-INTERCHANGEABILITY SCORE: [1-5 average] — [evidence from cover test on top 5]
+PURPLE COW TEST
+| Piece | Yes/No (interchangeable?) | What makes it identifiable / interchangeable |
+[one row per piece examined]
 
-AUDIENCE QUALITY: [Trend-followers / Mixed / True fans] — [evidence: engagement patterns, comment content, DM language]
+AUDIENCE QUALITY READ
+[evidence-based read on whether engagement holds on non-copied content and whether comments are about the creator or the topic — or "insufficient data in the input" if performance/comment detail wasn't provided]
 
-ROOT CAUSE: [primary diagnosis] — [supporting evidence from Steps 1-3, not assumption]
+REFUSAL AUDIT
+Currently doing what everyone does: [list]
+Genuine refusals already present: [list, or "none yet identified"]
 
-ESCAPE PLAN
-Phase 1 — Awareness (Week 1-2): [specific actions]
-Phase 2 — Transition (Week 3-6): [specific actions, content ratio target]
-Phase 3 — Independence (Week 7+): [specific actions, content ratio target]
-
-30-DAY CHECK-IN METRICS
-Original content ratio target: [X]%
-Purple Cow score target: [X]
-New formats attempted: [X]
+NEXT MOVE
+[the single most grounded next step from Step 5 — no invented schedule or ratio unless the creator specified one]
 ```
 
 ## Quality Gate
 
-- [ ] All 10-20 content pieces individually tagged [C]/[S]/[O]/[P] with an honest ratio computed
-- [ ] Interchangeability test run on the top 5 pieces with specific, not generic, observations
-- [ ] Root cause is backed by evidence from the audit, not asserted without support
-- [ ] Escape plan is specific and phased with concrete actions, never "just be more original"
-- [ ] 30-day check-in metrics are numeric and measurable
-- [ ] If C+S exceeds 60% or interchangeability averages above 3, the report says so explicitly rather than softening the verdict
+- [ ] Cycle read is tied to specific pieces in the audit, not asserted generically
+- [ ] Purple Cow verdict is yes/no per piece (never a graded score) with a named specific reason
+- [ ] Audience-quality read is evidence-based or explicitly flagged as unavailable — never inferred without data
+- [ ] Refusal audit names both what's still generic and what's already a genuine exclusion
+- [ ] No numeric threshold, scored rating, root-cause table, or phased week/percentage plan appears anywhere the input didn't supply it
+- [ ] Next move is a single grounded recommendation, not a fabricated multi-week program
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
 
 ## Deploy When
 
-A creator suspects they're stuck copying competitors, or before any content strategy work when audit history suggests derivative patterns; also useful as a periodic self-check even when no crisis is apparent.
+A creator suspects (or a client audit reveals) copy-dependency on specific competitors; before starting a new content push, to check whether recent work would survive having the account name covered; when engagement on original content is being second-guessed against copied-content performance.

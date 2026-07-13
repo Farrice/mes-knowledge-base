@@ -1,0 +1,90 @@
+{
+  "adName": "Puravita_BatteryYouCantSee_CutA_9x16",
+  "crossfadeFrames": 0,
+  "clips": [
+    {
+      "id": "H1",
+      "path": "assets/clips/H1.mp4",
+      "label": "H1 — Hook 1 (battery analogy, phone on nightstand)",
+      "trimInSeconds": 0,
+      "trimOutSeconds": null,
+      "targetDurationSeconds": 5
+    },
+    {
+      "id": "B1",
+      "path": "assets/clips/B1.mp4",
+      "label": "B1 — Felt problem (running dim)",
+      "trimInSeconds": 0,
+      "trimOutSeconds": null,
+      "targetDurationSeconds": 20
+    },
+    {
+      "id": "B2",
+      "path": "assets/clips/B2.mp4",
+      "label": "B2 — Hidden battery (600+ reactions)",
+      "trimInSeconds": 0,
+      "trimOutSeconds": null,
+      "targetDurationSeconds": 20
+    },
+    {
+      "id": "B3",
+      "path": "assets/clips/B3.mp4",
+      "label": "B3 — Why the test missed it (Huberman/Attia)",
+      "trimInSeconds": 0,
+      "trimOutSeconds": null,
+      "targetDurationSeconds": 26
+    },
+    {
+      "id": "B4",
+      "path": "assets/clips/B4.mp4",
+      "label": "B4 — The answer, product enters (12 forms)",
+      "trimInSeconds": 0,
+      "trimOutSeconds": null,
+      "targetDurationSeconds": 15
+    },
+    {
+      "id": "B5",
+      "path": "assets/clips/B5.mp4",
+      "label": "B5 — Close, CTA (start the 90-day)",
+      "trimInSeconds": 0,
+      "trimOutSeconds": null,
+      "targetDurationSeconds": 26
+    }
+  ],
+  "vo": [
+    {
+      "path": "assets/audio/puravita-hookA-vo.mp3",
+      "offsetSeconds": 0,
+      "volumeDb": 0
+    }
+  ],
+  "captions": [
+    { "text": "The battery you can't see.", "startSeconds": 0.5, "endSeconds": 4.5 },
+    { "text": "You're running dim.", "startSeconds": 20.0, "endSeconds": 24.5 },
+    { "text": "The battery you can't see.", "startSeconds": 25.5, "endSeconds": 30.0 },
+    { "text": "The test sees under 1%.", "startSeconds": 53.0, "endSeconds": 58.0 },
+    { "text": "Twelve forms. One battery.", "startSeconds": 81.0, "endSeconds": 85.5 },
+    { "text": "Start the 90-day today.", "startSeconds": 107.5, "endSeconds": 111.5 }
+  ],
+  "accentWords": ["5%", "over 600 reactions", "under 1%", "twelve forms", "90-day"],
+  "music": {
+    "path": "assets/music/puravita-bed.mp3",
+    "volumeDb": -18,
+    "duckWindows": [],
+    "silenceWindows": [{ "startSeconds": 108, "endSeconds": 116 }]
+  },
+  "theme": {
+    "fontFamily": "'Inter Tight','Inter',-apple-system,'Segoe UI',sans-serif",
+    "textColor": "#F1EFE8",
+    "accentColor": "#8FAE86",
+    "backgroundColor": "#1B1D19",
+    "brandLabel": "Puravita",
+    "captionBottomOffset": 420
+  },
+  "endCard": {
+    "productImage": "assets/images/puravita-bottle.png",
+    "offerLine": "Start the 90-Day Today",
+    "guaranteeLine": "Six to Eight Weeks to Recharge — Give It the Runway",
+    "holdSeconds": 4
+  }
+}

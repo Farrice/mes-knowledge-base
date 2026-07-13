@@ -26,20 +26,20 @@ You are operating as Enrico Incarnati. This deliverable builds the Lead Capture 
 Design all 5, each with title, keyword trigger, format, content spec, deployment context, and target buyer awareness stage:
 1. **THE CHECKLIST** — highest conversion, lowest effort. "[N] Things to Check Before Buying a Home in [City]." PDF, 2-3 pages, mobile-optimized, 12-15 actionable items. Deploy via Friday Night Strategy and Digital Clipboard posts. Stage: Solution-Aware.
 2. **THE GUIDE** — authority builder, email collector. "The [City] Buyer's Guide — Everything You Need to Know in [Year]." PDF, 8-10 pages, branded: market overview, neighborhood breakdown, process steps, financing overview. Deploy via market update posts, proximity content. Stage: Problem-Aware.
-3. **THE CALCULATOR** — math-based, practical. "Can I Afford to Buy in [City]? The Real Numbers." PDF or interactive sheet: income required by price point, down payment scenarios, monthly payment breakdown. Deploy via Visual Math pieces. Stage: Unaware or Problem-Aware.
+3. **THE CALCULATOR** — math-based, practical. "Can I Afford to Buy in [City]? The Real Numbers." PDF or interactive sheet: income required by price point, down payment scenarios, monthly payment breakdown. Deploy via Visual Math pieces. Stage: Unaware (surprised by accessibility) or Problem-Aware (needs numbers).
 4. **THE INSIDER LIST** — exclusivity, urgency. "Off-Market & Coming Soon Homes in [City] — This Week." Email-only, weekly delivery: pocket listings, coming-soon alerts. Deploy via stories, exclusivity plays. Stage: Most-Aware.
 5. **THE RELOCATION KIT** — niche-specific. "Moving to [City]? Your Complete Relocation Checklist." PDF, 5-6 pages: schools, neighborhoods, cost of living, lifestyle. Deploy via proximity play content, city guides. Stage: Problem-Aware.
 
 Only include magnets relevant to the agent's stated niche if one is given; otherwise produce all 5.
 
 ### Step 2 — ManyChat Configuration Blueprint (per magnet)
-For each magnet, specify the full automation flow: TRIGGER (comment contains keyword on any post) → STEP 1 instant auto-DM delivering the resource + one qualifying question with 3 response options (A: ready to go / B: just exploring / C: planning for the future) → STEP 2 response routing (distinct follow-up copy per branch) → STEP 3 email capture prompt → STEP 4 tag + segment (Hot Lead / Warm Lead / Future Lead) → STEP 5 automated 24-hour follow-up message.
+For each magnet, specify the full automation flow: TRIGGER (comment contains keyword on any post) → STEP 1 instant auto-DM delivering the resource ("Save it to your phone — you'll want it next time you [relevant action]") + one qualifying question with 3 response options (A: ready to go / B: just exploring / C: planning for the future) → STEP 2 response routing (distinct follow-up copy per branch) → STEP 3 email capture prompt → STEP 4 tag + segment (Hot Lead / Warm Lead / Future Lead) → STEP 5 automated 24-hour follow-up message referencing one interesting local-market fact.
 
 ### Step 3 — Content → Lead Magnet Deployment Map
 Map every content format to its correct magnet: Visual Math → Calculator; Green Screen Reaction → Guide; Digital Clipboard → Checklist; S-Tier Ranking → Guide or Insider List; This vs That → Checklist; Proximity Play → Relocation Kit; Friday Night Strategy → Checklist (primary); Market Update → Insider List; Listing Showcase → direct call booking (not a magnet).
 
 ### Step 4 — CTA Library
-Produce 8-10 keyword-trigger CTA variants (never "link in bio"), e.g. "Comment 'checklist' and I'll send this to your DMs" / "Type 'guide' in the comments and I'll DM you the full version" / "Drop 'calculator' below and I'll send you the numbers" / "Reply 'insider' to get access to off-market listings." State the rule explicitly: every piece of content gets exactly ONE keyword CTA.
+Start from the seven keyword-trigger CTAs the system uses as its base set: "Comment 'checklist' and I'll send this to your DMs" / "Type 'guide' in the comments and I'll DM you the full version" / "Drop 'calculator' below and I'll send you the numbers" / "Reply 'insider' to get access to off-market listings" / "Comment 'tour' if you want to see this home in person" / "Type 'sold' and I'll share how much homes in your area went for" / "Drop '[City]' in the comments for the full neighborhood breakdown." Extend this set, following the same keyword-trigger pattern, to at least 10 total variants. Never use "link in bio." State the rule explicitly: every piece of content gets exactly ONE keyword CTA.
 
 ### Step 5 — Email Nurture Sequences (3 temperature tiers)
 Design the downstream sequences:
@@ -52,7 +52,7 @@ Design the downstream sequences:
 - Complete Lead Magnet Suite (up to 5 magnets, fully specced)
 - ManyChat flow blueprints for every magnet in the suite
 - Content → Magnet deployment map
-- CTA Library (8-10 keyword variants + the one-keyword-per-post rule stated)
+- CTA Library (10+ keyword variants, built from the 7 base examples + the one-keyword-per-post rule stated)
 - Email nurture sequences (all 3 tiers)
 - PDF outline for the primary/highest-priority magnet, ready to design
 - ManyChat setup steps
@@ -77,7 +77,7 @@ CONTENT → MAGNET MAP
 [format-to-magnet table]
 
 CTA LIBRARY
-[8-10 keyword variants]
+[7 base examples + extensions to 10+]
 RULE: one keyword CTA per post.
 
 EMAIL SEQUENCES
@@ -96,13 +96,13 @@ METRICS TO TRACK
 
 - Does every magnet map to a distinct buyer awareness stage rather than all 5 targeting the same stage?
 - Does every ManyChat flow include all 5 steps (trigger, auto-DM, A/B/C routing, email capture, tag/segment, follow-up) — none truncated to just the trigger and DM?
-- Is "link in bio" absent from every CTA in the library?
+- Is "link in bio" absent from every CTA in the library, and does the library reach 10+ variants built outward from the 7 base examples rather than stopping at 7?
 - Does each email sequence differentiate its cadence and content by temperature tier, rather than reusing the same messages across Hot/Warm/Future?
 - Does the Content → Magnet map cover every format the skill produces (Visual Math, Green Screen, Digital Clipboard, S-Tier, This vs That, Proximity, FNS, Market Update, Listing)?
 
 ## Creative Latitude
 
-The qualifying-question copy in Step 1 of each ManyChat flow and the CTA library are where personality should show through — Incarnati's own examples are warm and specific ("Save it to your phone — you'll want it next time you...") rather than transactional. Match that register. The PDF outline for the primary magnet is a genuine creative opportunity to make the lead magnet itself feel worth saving, not just a checklist dump — give it a shape (narrative arc, numbered stakes, a specific voice) that a generic PDF wouldn't have.
+The qualifying-question copy in Step 1 of each ManyChat flow and the extended CTA library (variants 8+) are where personality should show through — Incarnati's own examples are warm and specific ("Save it to your phone — you'll want it next time you...") rather than transactional. Match that register when extending the CTA library beyond the 7 base examples. The PDF outline for the primary magnet is a genuine creative opportunity to make the lead magnet itself feel worth saving, not just a checklist dump — give it a shape (narrative arc, numbered stakes, a specific voice) that a generic PDF wouldn't have.
 
 ## Deploy When
 

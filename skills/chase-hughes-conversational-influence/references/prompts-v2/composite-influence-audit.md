@@ -1,5 +1,5 @@
 ---
-name: "Chase Hughes — Composite 5-Axis Influence Audit"
+name: "Chase Hughes — Composite Influence Audit"
 source_prompt: born-v2
 skill: chase-hughes-conversational-influence
 standard: structure-pure-v2
@@ -9,71 +9,72 @@ refactored: 2026-07-13
 
 ## Role & Activation
 
-You are running all five Chase Hughes conversational-influence techniques as a single composite audit against a finished or in-progress artifact. This is the final gate before publishing or sending high-stakes persuasive work — copy, courtroom arguments, founder narratives, premium-offer pages, sensitive client communications. The output replaces "this feels off" with a precise, axis-by-axis diagnosis and a prescribed rewrite for each failure — the difference between editing for vibes and editing for conversion.
+You are running all five Chase Hughes conversational-influence patterns as a single composite audit against a finished or in-progress artifact — copy, ad, sales page, content piece, courtroom argument, pitch, profile, founder origin, or conflict situation. Hughes's own quality bar, stated once and applied everywhere: **the audience cannot point to where you persuaded them, because the conclusion appeared inside their own mind.** If they can name the moment you closed them, the persuasion was visible — and visible persuasion triggers resistance. This audit surfaces exactly where that visibility is leaking, axis by axis, and prescribes the rewrite for each leak.
 
 ## Input Required
 
-- `[ARTIFACT]` — the full text to audit, pasted or fetched in full (summary is insufficient for audit-grade analysis)
-- `[ARTIFACT TYPE]` — copy, ad, sales page, content piece, courtroom argument, pitch, profile, founder origin, conflict situation
-- `[STAKES]` — what happens if this ships unaudited (revenue, reputation, legal exposure, relationship)
+- `[ARTIFACT]` — the full text to audit, pasted or fetched in full (audit-grade analysis requires the actual artifact, not a summary)
+- `[CONTEXT]` — what the artifact is for, who it's addressed to, and what stakes ride on it landing
 
 ## Execution Protocol
 
-Run each of the five axes below in sequence against the full artifact. Score each 1-10.
+Walk the artifact against each of the five patterns in turn. For each axis, use the tier description below to name where the artifact currently sits — do not invent a numeric score; name the tier and say why.
 
 ### Axis 1 — Engineered Self-Conclusion (Pattern 4)
 
-For each persuasive moment: is the conclusion stated explicitly, or engineered through component placement? Flag connector words ("therefore," "this is why," "what this means is…") that close the gap for the audience.
+- **Acceptable**: the conclusion is stated and the audience is asked to agree
+- **Good**: the conclusion is implied via one example, but still gestured at explicitly
+- **Hughes-grade**: two components are placed close together; the conclusion is never stated; the audience produces it spontaneously
 
-**Score**: 10 = no conclusions stated, all emerge from component placement. 1 = every conclusion stated, every connection explicit.
-**Prescribed rewrite if low**: For each stated conclusion, identify the two components that could replace it; stage them; cut the explicit conclusion.
+For each persuasive moment, check for connector words ("therefore," "this is why," "what this means is…") that close the gap for the audience instead of leaving it open.
+**If not Hughes-grade**: identify the two components that could replace the stated conclusion, stage them, cut the explicit conclusion. (See `/hughes-feel-clever`.)
 
 ### Axis 2 — Archetype Priming (Pattern 5)
 
-For any narrative element (origin story, case study, testimonial, opening anecdote): is an archetype primed via environmental components, or named directly? Is the resolution stated or left to complete itself?
+- **Acceptable**: story metaphors are used decoratively, with no real archetype structure
+- **Good**: an archetype is named explicitly ("this is a David and Goliath story")
+- **Hughes-grade**: archetype components are primed; the archetype is never named; the audience advocates for the resolution on its own
 
-**Score**: 10 = archetype emerges from components, never named. 1 = archetype labeled and resolution stated.
-**Prescribed rewrite if low**: Identify the archetype being (or that could be) primed; build a 3-5 component inventory specific to the actor; replace named-archetype language with primed-component language.
+For any narrative element (origin story, case study, testimonial, scene-setting), check whether the construction explains itself or performs itself.
+**If not Hughes-grade**: identify which archetype the narrative is or could be priming, build a small inventory of environmental components specific to the actor, replace named-archetype language with primed-component language. (See `/hughes-archetype-prime`.)
 
 ### Axis 3 — Empathy Specificity (Pattern 1)
 
-Wherever the artifact addresses the audience: is it via specific fears, or generic pain points/demographic descriptors ("busy entrepreneurs," "high-performers," "scaling founders")?
+- **Acceptable**: surface judgment only ("they're annoying," "busy entrepreneurs")
+- **Good**: some perspective-taking attempt, still generic
+- **Hughes-grade**: the two-question ladder has clearly been run; a specific fear is named, not a generic pain point
 
-**Score**: 10 = audience addressed via a specific fear producing recognition. 1 = audience described via demographics or status labels.
-**Prescribed rewrite if low**: Run the empathy-ladder decode on the audience to surface the actual fear; replace demographic language with fear-specific recognition language.
+Check whether demographic or status descriptors are doing the work that a fear hypothesis should be doing.
+**If not Hughes-grade**: run the two-question ladder ("What does this person want me to think about them?" → "What would they be afraid of if that were true?") on the audience and replace demographic language with the resulting fear-specific language. (See `/hughes-empathy-ladder`.)
 
 ### Axis 4 — Manipulation Ethics (Pattern 3)
 
-Run the two-ideas-no-string detector across the artifact: are there adjacent claims with no explicit connector engineering inferences the author would not defend if challenged directly?
+- **Acceptable**: misses obvious claim pairs placed close together with no explicit connector
+- **Good**: catches some manipulative pairs, but only after the fact
+- **Hughes-grade**: every adjacent claim pair with an implied-but-unstated connection has been identified in real time, and the implication is true, supported, and defensible if the author were challenged on it directly
 
-**Score**: 10 = every implied connection is true, supported, defensible if surfaced. 1 = the artifact engineers inferences via proximity the author would not defend directly.
-**Prescribed rewrite if low**: For each manipulative pair — add an explicit connector if true, cut one claim if unsupported, or restructure to break proximity.
+For each adjacent claim pair with no explicit causal connector, ask whether the implied connection is legitimate inference-work or an unsupported nudge.
+**If not Hughes-grade**: for each manipulative pair, either add an explicit connector (if the implication is true), cut one of the two claims (if unsupported), or restructure to break the proximity. (See `/hughes-two-ideas-detector`.)
 
 ### Axis 5 — Camera Angle (Pattern 2)
 
-For the artifact as a whole: what zoom level is the camera at? Is it appropriate for the persuasive goal, or stuck at a fiber-level zoom when it needs room/building-level, or vice versa?
+- **Acceptable**: the artifact stays at its default zoom throughout
+- **Good**: multiple perspectives are acknowledged intellectually, but the zoom doesn't actually move
+- **Hughes-grade**: the zoom level fits the persuasive goal, and the camera moves deliberately at the moments that need it
 
-**Score**: 10 = camera at the right altitude, moves deliberately when needed. 1 = camera locked at a zoom making the artifact feel claustrophobic (too zoomed-in) or weightless (too zoomed-out).
-**Prescribed rewrite if low**: Identify the right zoom for the goal; restage opening, closing, or transition moments at the appropriate altitude.
+Check whether the artifact is locked at a fiber-level zoom (single moment, single client, single anecdote) when the goal needs a room- or building-level altitude, or vice versa.
+**If not Hughes-grade**: identify the zoom level the goal actually needs, and restage the opening, closing, or a key transition at that altitude. (See `/hughes-camera-angle`.)
 
-### Composite Score and Verdict
+### Final Pass — Apply the Single Quality Bar
 
-Average the five axis scores. Apply:
-
-| Composite | Verdict | Recommended Action |
-|---|---|---|
-| 9.0+ | Hughes-grade | Ship. The persuasion is invisible. |
-| 7.5-8.9 | Strong but visible in places | Ship with named edits to the lowest-scoring axis only. |
-| 6.0-7.4 | Mid-tier — leverage left on the table | Run prescribed rewrites for the two lowest axes before shipping. |
-| <6.0 | Below Hughes-grade | Hold. Run prescribed rewrites for every axis below 7. Re-audit. |
-
-**Veto rule**: any single axis scoring below 4 vetoes the artifact regardless of composite — a single hard fail compromises the whole piece.
+Set the five tier findings aside and apply Hughes's actual test directly to the artifact as a whole: **could the audience point to the exact moment they were persuaded?** If yes, name that moment. If no, say so. This is the real pass/fail — the five axes exist to locate *where* a "yes" answer is coming from, not to be averaged into one.
 
 ## Output Contract
 
-- All five axes scored 1-10 with specific findings (not generic commentary) and a prescribed rewrite for any axis scoring below 7
-- Composite score, verdict tier, veto flags
-- One concrete recommended next action
+- Per-axis finding: which tier the artifact currently sits at, with the specific textual evidence
+- Per-axis prescribed rewrite for any axis not at Hughes-grade, pointing to the matching practitioner workflow
+- The final single-bar verdict: can the audience name the moment they were persuaded — yes or no, with the moment named if yes
+- A ranked list (not scored) of which 1-2 axes would move the artifact furthest if fixed first
 
 ## Output Skeleton
 
@@ -81,49 +82,47 @@ Average the five axis scores. Apply:
 ARTIFACT AUDITED:
 [type / context / length]
 
-AXIS 1 — Engineered Self-Conclusion: [score]/10
-- Findings: [specific instances, quoted or closely paraphrased]
-- Prescribed rewrite: [if needed]
+AXIS 1 — Engineered Self-Conclusion: [Acceptable / Good / Hughes-grade]
+- Evidence: [specific lines/moments]
+- Prescribed rewrite: [if not Hughes-grade]
 
-AXIS 2 — Archetype Priming: [score]/10
-- Findings: [...]
+AXIS 2 — Archetype Priming: [Acceptable / Good / Hughes-grade]
+- Evidence: [...]
 - Prescribed rewrite: [...]
 
-AXIS 3 — Empathy Specificity: [score]/10
-- Findings: [...]
+AXIS 3 — Empathy Specificity: [Acceptable / Good / Hughes-grade]
+- Evidence: [...]
 - Prescribed rewrite: [...]
 
-AXIS 4 — Manipulation Ethics: [score]/10
-- Findings: [...]
+AXIS 4 — Manipulation Ethics: [Acceptable / Good / Hughes-grade]
+- Evidence: [...]
 - Prescribed rewrite: [...]
 
-AXIS 5 — Camera Angle: [score]/10
-- Findings: [...]
+AXIS 5 — Camera Angle: [Acceptable / Good / Hughes-grade]
+- Evidence: [...]
 - Prescribed rewrite: [...]
 
-COMPOSITE: [score]/10
-VERDICT: [Hughes-grade / Strong / Mid-tier / Below-grade]
-VETO FLAGS: [any axis below 4, or "none"]
+FINAL QUALITY BAR:
+- Could the audience name the moment they were persuaded? [yes / no]
+- If yes: [name the exact moment]
 
-RECOMMENDED ACTION: [specific next step — ship / edit named axes / hold and rewrite]
+PRIORITY FIX (1-2 axes, ranked by leverage, not score):
+1. [axis] — [why fixing this one moves the artifact furthest]
+2. [axis] — [...]
 ```
 
 ## Quality Gate
 
-- Does every axis carry specific findings tied to actual passages in `[ARTIFACT]`, not generic restatements of the rubric?
-- Does every axis scoring below 7 carry a prescribed rewrite, not just a low number?
-- Is the composite score a genuine average of the five axes (not a gut-feel override)?
-- Is the veto rule applied correctly — any axis below 4 flags the artifact regardless of composite?
-- Is the recommended action concrete (name the axes to fix, not "polish it more")?
-
-## Creative Latitude
-
-This is a diagnostic deliverable — floor is precision and honesty of scoring, not stylistic flourish. The judgment calls that matter: distinguishing a genuinely borderline score (6 vs 7) requires re-reading the axis definition, not defaulting to the middle; and the findings language should be specific enough that someone else re-reading the artifact could find the exact passage being flagged. Do not soften scores to avoid an uncomfortable verdict — a Hughes-grade audit is only useful if the score reflects what's actually on the page.
+- Is every axis finding backed by specific textual evidence, not a vibe judgment?
+- Are all five axes evaluated against the three named tiers only — no numeric scores, percentages, or invented thresholds anywhere in the output?
+- Is the final verdict the single stated Hughes bar (can the audience name the moment), kept separate from and not averaged out of the five axis findings?
+- Does the priority fix name genuine leverage reasoning, not just "the lowest axis"?
+- Does every "not Hughes-grade" axis carry a prescribed rewrite tied to its matching practitioner workflow?
 
 ## Deploy When
 
-- Final-pass review on copy, content, or argument with measurable stakes
-- A draft "feels off" and you can't name why — the composite audit usually surfaces the structural issue
+- Final-pass review on copy, content, or an argument that has measurable stakes
+- A draft "feels off" and you can't name why
 - Diagnosing why a competitor's persuasive content is outperforming yours
-- Building a pre-publish quality gate for high-leverage work
-- Auditing a back catalog for places where Hughes-grade rewrites would compound
+- Building a pre-publish quality gate for high-leverage persuasive work
+- Auditing back-catalog content for places a Hughes-grade rewrite would compound

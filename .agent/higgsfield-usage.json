@@ -4,7 +4,7 @@
   "account": {
     "email": "farrice.cain@gmail.com",
     "plan": "ultimate",
-    "current_balance_credits": 1200.0,
+    "current_balance_credits": 728.76,
     "last_refreshed_at": null
   },
   "limits": {
@@ -25,12 +25,15 @@
   "state": {
     "session_id": "20260505T200512Z",
     "session_start_balance_credits": 1200.0,
-    "session_spent_credits": 0.0,
+    "session_spent_credits": 308.0,
     "today_date": "2026-07-13",
     "today_start_balance_credits": 1200.0,
-    "today_spent_credits": 0.0,
+    "today_spent_credits": 308.0,
     "consecutive_failures": 0,
-    "recent_call_timestamps": [],
+    "recent_call_timestamps": [
+      "2026-07-13T16:54:24Z",
+      "2026-07-13T16:58:36Z"
+    ],
     "halt_reason": null
   },
   "estimates": {
@@ -51,5 +54,45 @@
     "job_display": 0.0,
     "prompt_only": 0.0
   },
-  "runs": []
+  "runs": [
+    {
+      "timestamp": "2026-07-13T16:39:03Z",
+      "channel": "mcp",
+      "operation": "video",
+      "status": "success",
+      "estimated_credits": 150.0,
+      "actual_credits": 150.0,
+      "count": 1,
+      "job_id": null,
+      "output_url": null,
+      "mode": null,
+      "notes": null
+    },
+    {
+      "timestamp": "2026-07-13T16:54:24Z",
+      "channel": "mcp",
+      "operation": "video",
+      "status": "success",
+      "estimated_credits": 150.0,
+      "actual_credits": 150.0,
+      "count": 1,
+      "job_id": null,
+      "output_url": null,
+      "mode": null,
+      "notes": null
+    },
+    {
+      "timestamp": "2026-07-13T16:58:36Z",
+      "channel": "mcp",
+      "operation": "image",
+      "status": "success",
+      "estimated_credits": 8.0,
+      "actual_credits": 8.0,
+      "count": 4,
+      "job_id": null,
+      "output_url": null,
+      "mode": null,
+      "notes": null
+    }
+  ]
 }

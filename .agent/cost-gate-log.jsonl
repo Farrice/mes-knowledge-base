@@ -87,3 +87,4 @@
 {"ts": "2026-07-09T02:01:56.406601+00:00", "event": "check", "service": "gemini-deep-research", "decision": "approved", "request": "cd \"/Users/farricecain/Google Antigravity\" && python3 -m py_compile execution/deep_research_client.py && python3 -c \"\nimport sys, json\nsys.path.insert(0, 'execu"}
 {"ts": "2026-07-09T02:10:14Z", "service": "gemini-deep-research", "type": "quota", "request": "", "status": "success", "estimated_cost_usd": 0.0, "actual_cost_usd": 0.5, "output_path": "", "project": ""}
 {"ts": "2026-07-10T00:41:47.159446+00:00", "event": "check", "service": "higgsfield-cinema", "decision": "needs_approval", "request": ""}
+{"ts": "2026-07-13T19:48:10.122306+00:00", "event": "check", "service": "perplexity-research", "decision": "needs_approval", "request": "cd \"/Users/farricecain/Google Antigravity\" && grep -rn \"0.75-1.50\\|sonar-deep-research\\|cost note\" skills/grace-andrews-media-company/ | head -20"}

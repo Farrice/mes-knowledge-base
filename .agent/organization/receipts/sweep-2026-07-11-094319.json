@@ -1,0 +1,15 @@
+{
+  "auto_moved": 3,
+  "needs_judgment": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/wave-input.json",
+      "project": "prompt-renaissance",
+      "reason": "pinned/control referrer"
+    }
+  ],
+  "projects_touched": [
+    "prompt-renaissance"
+  ],
+  "since_minutes": 720,
+  "swept_at": "2026-07-11T16:43:19+00:00"
+}

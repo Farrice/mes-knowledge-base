@@ -1,0 +1,146 @@
+{
+  "ad": "Puravita Magnesium Complex - The Battery You Can't See",
+  "format": "9:16, 1080x1920",
+  "pdp": "https://shoppuravita.com/products/puravita%C2%AE-magnesium-complex",
+  "prompt_pack": "PURAVITA-PROMPT-PACK.md",
+  "edit_order": {
+    "cut_a": ["H1", "B1", "B2", "B3", "B4", "B5"],
+    "cut_b": ["H3", "B1", "B2", "B3", "B4", "B5"],
+    "cut_c": ["H4", "B1", "B2", "B3", "B4", "B5"],
+    "first_send_teasers": ["TEASER1", "TEASER2", "TEASER3"]
+  },
+  "clips": [
+    {
+      "id": "H1",
+      "beat": "Hook 1, battery analogy",
+      "duration_s": 7,
+      "aspect": "9:16",
+      "primary_model": "Veo 3.1",
+      "fallback_model": "Kling 3.0",
+      "start_frame": "assets/images/H1_start.png",
+      "expected_asset": "assets/clips/H1.mp4",
+      "vo_verbatim": "Your phone warns you when it drops to five percent. Your body never does.",
+      "on_screen_text": "The battery you can't see."
+    },
+    {
+      "id": "H3",
+      "beat": "Hook 3, partner-POV (on-camera narrator)",
+      "duration_s": 7,
+      "aspect": "9:16",
+      "primary_model": "Kling 2.6/3.0 Omni",
+      "fallback_model": "Veo 3.1",
+      "start_frame": "assets/images/H3_start.png",
+      "expected_asset": "assets/clips/H3.mp4",
+      "vo_verbatim": "My wife says she misses me. I'm sitting right next to her.",
+      "on_screen_text": "I'm sitting right next to her."
+    },
+    {
+      "id": "H4",
+      "beat": "Hook 4, loud control",
+      "duration_s": 9,
+      "aspect": "9:16",
+      "primary_model": "Veo 3.1",
+      "fallback_model": "Kling 3.0",
+      "start_frame": "assets/images/H4_stillA.png;assets/images/H4_stillB.png;assets/images/H4_stillC.png",
+      "expected_asset": "assets/clips/H4.mp4",
+      "vo_verbatim": "Stop blaming your age. You sleep a full night and still wake up tired. The blood test that cleared you was never built to catch why.",
+      "on_screen_text": "STOP BLAMING YOUR AGE / 8 HOURS. STILL TIRED / (lab report checkmark, no text)"
+    },
+    {
+      "id": "B1",
+      "beat": "Felt problem",
+      "duration_s": 14,
+      "aspect": "9:16",
+      "primary_model": "Veo 3.1",
+      "fallback_model": "Kling 3.0",
+      "start_frame": "assets/images/B1_start.png",
+      "expected_asset": "assets/clips/B1.mp4",
+      "vo_verbatim": "So you do everything right. Eight hours down, and you wake up like you never slept. The coffee stops working by ten. Your wife asks if you're okay, and you say you're fine, because you do not have a better word for it. You are running dim, and you have been for a while.",
+      "on_screen_text": "You're running dim."
+    },
+    {
+      "id": "B2",
+      "beat": "Hidden battery",
+      "duration_s": 14,
+      "aspect": "9:16",
+      "primary_model": "Veo 3.1",
+      "fallback_model": "Kling 3.0",
+      "start_frame": "assets/images/B2_start.png",
+      "expected_asset": "assets/clips/B2.mp4",
+      "vo_verbatim": "There is a battery inside you that you have never seen. It runs hundreds of quiet jobs you never notice, day and night. Magnesium powers over six hundred reactions in your body. When it runs low, nothing alarms you. No five percent warning. Everything just runs at half power. And you call it getting older.",
+      "on_screen_text": "The battery you can't see."
+    },
+    {
+      "id": "B3",
+      "beat": "Why the test missed it",
+      "duration_s": 14,
+      "aspect": "9:16",
+      "primary_model": "Veo 3.1",
+      "fallback_model": "Kling 3.0",
+      "start_frame": "assets/images/B3_start.png",
+      "expected_asset": "assets/clips/B3.mp4",
+      "vo_verbatim": "You're thinking your bloodwork was fine. It was. And it told you almost nothing. A standard blood test sees under one percent of the magnesium in your body. The other ninety-nine percent sits in bone and muscle, off the panel. Your number reads normal while the part that actually runs you reads low. Huberman points people to magnesium before sleep. Attia takes close to a gram a day. They are not guessing.",
+      "on_screen_text": "The test sees under 1%."
+    },
+    {
+      "id": "B4",
+      "beat": "The answer, product enters",
+      "duration_s": 11,
+      "aspect": "9:16",
+      "primary_model": "Veo 3.1",
+      "fallback_model": "Seedance v1.5 Pro / Kling 3.0",
+      "start_frame": "assets/images/B4_start.png",
+      "expected_asset": "assets/clips/B4.mp4",
+      "vo_verbatim": "So a single cheap form of magnesium was never enough. Your body uses a different form in different places, and one pill covers one of them. Puravita carries all twelve. You are refilling the battery the chart cannot even see.",
+      "on_screen_text": "Twelve forms. One battery."
+    },
+    {
+      "id": "B5",
+      "beat": "Close, CTA",
+      "duration_s": 14,
+      "aspect": "9:16",
+      "primary_model": "Veo 3.1",
+      "fallback_model": "Seedance v1.5 Pro / Kling 3.0",
+      "start_frame": "assets/images/B5_start.png",
+      "expected_asset": "assets/clips/B5.mp4",
+      "vo_verbatim": "The label asks for six to eight weeks. That is how long a real recharge takes. So do not grab the small bottle and quit in week two. Start the ninety-day, and give it the runway. And somewhere around week six, you wake up before the alarm, and your wife looks at you over the coffee the way she used to. That is the battery coming back. Start the ninety-day today.",
+      "on_screen_text": "Start the 90-day today."
+    },
+    {
+      "id": "TEASER1",
+      "beat": "Hook 1 teaser (first send)",
+      "duration_s": 12,
+      "aspect": "9:16",
+      "primary_model": "Veo 3.1",
+      "fallback_model": "Seedance v1.5 Pro / Kling 3.0",
+      "start_frame": "assets/images/TEASER1_start.png",
+      "expected_asset": "assets/clips/TEASER1.mp4",
+      "vo_verbatim": "Your phone warns you when it drops to five percent. Your body never does. There is a battery inside you that you have never seen. Start the ninety-day today.",
+      "on_screen_text": "The battery you can't see."
+    },
+    {
+      "id": "TEASER2",
+      "beat": "Hook 3 teaser (first send)",
+      "duration_s": 12,
+      "aspect": "9:16",
+      "primary_model": "Kling 2.6/3.0 Omni (narrator beat) + Veo 3.1 (b-roll close)",
+      "fallback_model": "Veo 3.1 whole-clip",
+      "start_frame": "assets/images/TEASER2_stillA.png;assets/images/TEASER2_stillB.png",
+      "expected_asset": "assets/clips/TEASER2.mp4",
+      "vo_verbatim": "My wife says she misses me. I'm sitting right next to her. There is a battery inside you that you have never seen. Start the ninety-day today.",
+      "on_screen_text": "I'm sitting right next to her."
+    },
+    {
+      "id": "TEASER3",
+      "beat": "Hook 4 teaser (first send)",
+      "duration_s": 14,
+      "aspect": "9:16",
+      "primary_model": "Veo 3.1",
+      "fallback_model": "Kling 3.0 (b-roll) / Seedance v1.5 Pro (bottle beat)",
+      "start_frame": "assets/images/TEASER3_stillA.png;assets/images/TEASER3_stillB.png;assets/images/TEASER3_stillC.png",
+      "expected_asset": "assets/clips/TEASER3.mp4",
+      "vo_verbatim": "Stop blaming your age. You sleep a full night and still wake up tired. The blood test that cleared you was never built to catch why. No five percent warning. Start the ninety-day today.",
+      "on_screen_text": "Stop blaming your age."
+    }
+  ]
+}

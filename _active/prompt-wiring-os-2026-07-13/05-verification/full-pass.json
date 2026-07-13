@@ -1,0 +1,139 @@
+{
+ "batches_reported": 74,
+ "batches_expected": 74,
+ "checked": 1464,
+ "regenerate": [
+  {
+   "path": "skills/oren-brand-archetypes/references/prompts-v2/archetype-content-architecture.md",
+   "reason": "Invents granular sub-methodology and numeric targets not traceable to genius.md/SKILL.md: fabricated measurement targets (branded search +20%/90-days, paid ad CPA -15%/90-days), a fabricated '30%+ community-sourced within 6 months' target for the 5-step Seed/Attract/Activate/Curate/Scale Community Engine (named steps not in source), a 4-rung Aspiration Ladder with invented quoted 'sharing mechanics' per rung, a 5-category Utility Landscape Map, a 4-variable Niche Audience Math formula, and a specific '80%+ entertainment / <=20% promotion' ratio and 'minimum 6 episodes' rule -- none of which appear in genius.md, which only describes each archetype in a few qualitative sentences."
+  },
+  {
+   "path": "skills/oren-brand-archetypes/references/prompts-v2/archetype-revenue-bridge.md",
+   "reason": "Invented methodology not traceable to skill material: skill has no workflows/ directory (only genius.md + SKILL.md), and genius.md contains only the 5 one-line funnel mechanics per archetype \u2014 the prompt fabricates a detailed '4-Layer Conversion Architecture' with named metrics, a per-archetype 'price psychology' rating (HIGH/MID-HIGH/LOW-MID), specific revenue-timeline month ranges (e.g. Oracle 1-3mo/6-12mo, Performer 3-6mo/12-18mo, World Builder 6-12mo/18-24mo), and a 5-metric dashboard with archetype-specific named metrics (e.g. 'Expertise perception score (survey)', 'Omnipresence score') \u2014 none of this granular framework appears anywhere in genius.md or SKILL.md."
+  },
+  {
+   "path": "skills/oren-brand-archetypes/references/prompts-v2/brand-architect-package.md",
+   "reason": "Phase 4 ('Archetype Diagnostic & Fit-Scoring') invents a numeric weighted-scoring rubric \u2014 Resource Fit 30%, Consumer Fit 25%, Competitive Differentiation 20%, Brand DNA Alignment 15%, Revenue Pathway Clarity 10%, 'Weighted Score = sum of (dimension score \u00d7 weight)' \u2014 that appears nowhere in genius.md or in this skill's own archetype-diagnostic.md prompt-v2 file (the actual sourced diagnostic uses qualitative elimination against a Requires/Risk-Level table plus qualifying questions, never a percentage-weighted score). This is a fabricated scoring methodology grafted onto the archetype-selection process, matching the known 'numeric 1-10/percentage scoring system grafted onto a qualitative framework' violation pattern. The Output Contract, Skeleton, and Quality Gate all repeat the invented weighted matrix as if it were the source's real method."
+  },
+  {
+   "path": "skills/oren-brand-archetypes/references/prompts-v2/two-account-architecture.md",
+   "reason": "genius.md's Pattern 4 (Two-Account Method) is a 6-line concept with one exemplar (Kreiss); the v2 prompt invents a full day-by-day weekly content matrix (Mon-Sun x Founder/Brand specific content types), a 5-platform tactical table (LinkedIn/Instagram/TikTok/YouTube/X with per-platform founder vs. brand strategies), and specific numeric targets ('3-5x reach') not traceable to genius.md, SKILL.md, or any workflow file (this skill has no workflows/ directory at all) -- matches the 'one-paragraph concept ballooned into a branching system with day-by-day sequences' violation pattern."
+  },
+  {
+   "path": "skills/alex-content-science/references/prompts-v2/sheep-cycle-diagnostic.md",
+   "reason": "Ballooned genius.md's one-paragraph Sheep Cycle loop + binary Purple Cow test into an invented 5-step protocol: a fabricated numeric threshold (\"C+S exceeds 60%\" = Active Cycle), the Purple Cow binary test turned into a 1-5 interchangeability score with a >3 threshold, an invented 5-row Root Cause/Signal/Treatment table not present anywhere in genius.md, and a fabricated 3-phase week-by-week Escape Plan (Week 1-2 / 3-6 / 7+) with specific content-ratio percentages (70/30\u219250/50\u219230/70, then 80/20) \u2014 none of this traces to the source material, which only describes the Sheep Cycle as a recognition trap and the Purple Cow Test as a yes/no interchangeability check."
+  },
+  {
+   "path": "skills/alex-m-smith-natural-strategy/references/prompts-v2/supply-side-audit.md",
+   "reason": "Invents a 4-dimension 1-10 'Commodity Risk Score' (Substitutability/Skill democratization/Pricing pressure/Differentiation specificity) with a composite average and a 7+ threshold verdict -- no numeric scoring system for this workflow exists in genius.md or SKILL.md. Also invents a 5-trap taxonomy (Execution/Feature/Quality/Service/Speed Trap) not named anywhere in the source material (genius.md only has a generic 'Best Practice as Trap' idea, not this specific taxonomy)."
+  },
+  {
+   "path": "skills/ash-maurya-founder-systems/references/prompts-v2/traction-first-roadmap.md",
+   "reason": "Invents a specific numeric threshold ('validate at least 30% high problem intensity \u2014 Gate 1') not present anywhere in genius.md, and fabricates a granular week-by-week 12-week schedule (specific actions per week 1-12) that goes well beyond genius.md's actual content, which only describes 3 sequential phases with no week-level breakdown or numeric gate thresholds."
+  },
+  {
+   "path": "skills/chase-hughes-conversational-influence/references/prompts-v2/camera-angle-perspective-shift.md",
+   "reason": "Step 2 presents a 5-type 'Lock' taxonomy (recency/identity/audience/trauma/pride lock) explicitly labeled 'Common locks from the source material' -- but genius.md's Pattern 2 contains no such taxonomy at all. This is a false sourcing claim for an invented framework."
+  },
+  {
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/deal-structure-proposal.md",
+   "reason": "Invents specific granular strategy-fee dollar tiers by career level ($5,000-$15,000 / $15,000-$35,000 / $25,000-$50,000+) and a full negotiation decision-tree script table -- none of these specific dollar breakdowns appear in genius.md or SKILL.md, which only state a general '$30-40K test weekend' and '1-5% royalty' range with no fee-tier ladder."
+  },
+  {
+   "path": "skills/darrel-wilson-ai-affiliate/references/prompts-v2/recurring-revenue-conversion-package.md",
+   "reason": "Invents specific monthly-price ranges for wrapper types beyond what genius.md covers (only hosting/maintenance at $97/month is sourced; n8n workflow $97-497/month, AI micro-app $9.99-29.99/month, content retainer $500-2000/month, and advisory $500-1500/month are fabricated), and fabricates an unsourced 'Reduces churn by 40-60%' statistic for the annual lock-in discount retention lever."
+  },
+  {
+   "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/calibrated-big-question-set.md",
+   "reason": "Invents a numeric 1-10 'Goldilocks Score' scale (1-4 too vague / 5-7 sweet spot / 8-10 too specific) for Big Question specificity -- genius.md's Pattern 5 describes only a qualitative three-zone calibration (too vague / sweet spot / too specific) with no numeric 1-10 scoring system attached."
+  },
+  {
+   "path": "skills/kieran-flanagan-content-ops/references/prompts-v2/content-orchestration-session.md",
+   "reason": "Phase 0 invents an entire 'Constraint Pulse Diagnostics' system naming 5 specific constraints (Idea Supply, Structural Monotony, Tonal Flatline, Proof Poverty, Approval Bottleneck) with specific numeric thresholds (>60% repeat themes, >50% same patterns, >3 pieces lacking enrichment, >15 checkpoints/week) -- none of this diagnostic framework or its thresholds exist anywhere in genius.md, which only has 3 patterns (Orchestrator Pattern, Feedback Loop, Separation of Execution/Optimization) and general hidden-knowledge notes."
+  },
+  {
+   "path": "skills/oren-content-team-architecture/references/prompts-v2/pod-operating-rhythm.md",
+   "reason": "The '10-Asset Standard' invents a 5/3/1/1 concept breakdown (5 organic / 3 ad / 1 founder / 1 external) plus invented stage-flex ratios (7/3, 5/5, 3/7) -- this directly contradicts genius.md Pattern 6, which explicitly states the standard split is 5 for the ad account and 5 for organic social (a 5/5 split), with no stage-based flex percentages given anywhere in the source."
+  },
+  {
+   "path": "skills/sam-parr-taste-acquisition/references/prompts-v2/taste-acquisition-roadmap.md",
+   "reason": "Invents an entire 'Taste Transfer Architecture' / 'Phase 0.5' system built on '5 Perceptual Primitives That Transfer Across Domains' (Contrast Sensitivity, Proportion Awareness, Rhythm Detection, Coherence Intuition, Tension-Resolution Sense) plus a scored timeline-compression system (15-day/20-day/30-day sprints by transfer level) -- none of this exists anywhere in genius.md, which contains only the 4-step Decide\u2192Copy\u2192Rules\u2192History system and a single '3-5 months' claim, with no concept of cross-domain perceptual primitives or transfer-based timeline compression."
+  },
+  {
+   "path": "skills/vince-nijhof-dtc-operator-system/references/prompts-v2/omni-channel-readiness.md",
+   "reason": "Invents specific per-channel revenue thresholds (Google/YouTube ~$5M+, Amazon $5M+, AppLovin $10M+, TikTok Shop $10M+, TV $20M+, Retail $20M+) presented as Vince's methodology -- genius.md and SKILL.md only establish a single documented threshold ('Meta-only up to roughly $10M') and a channel ORDER (Meta \u2192 Google/YouTube \u2192 Amazon \u2192 AppLovin \u2192 TikTok Shop \u2192 TV \u2192 Retail.com \u2192 Physical) with no per-channel dollar triggers attached in the source."
+  },
+  {
+   "path": "skills/chase-hughes-conversational-influence/references/prompts-v2/composite-influence-audit.md",
+   "reason": "Invents a 1-10 numeric scoring system across 5 axes plus composite verdict tiers (9.0+/7.5-8.9/6.0-7.4/<6.0) and a veto-below-4 rule; genius.md's 5 Hughes patterns carry no scoring mechanism at all \u2014 the entire audit apparatus (axis scores, composite average, verdict table) is grafted on, not traceable to source."
+  },
+  {
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/discovery-pivot-protocol.md",
+   "reason": "Genius.md's George Foreman Discovery Protocol (GP-12) is a simple 'launch with hypothesis, monitor actual buyers, pivot if different' principle; the prompt invents a 6-data-source collection table and a 7-dimension match-score system with specific numeric thresholds (7/7 confirmed, 5-7/3-4/0-2 paths) that appear nowhere in the source material."
+  },
+  {
+   "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/density-optimized-content.md",
+   "reason": "Source (genius.md Pattern 8) gives one benchmark only (no gap >25s video / 2 sentences copy / 1 paragraph long-form); the prompt invents a full A+/A/B/C/D density-grade system with specific percentage-coverage cutoffs and separate per-format benchmark tables (short-form video, sales copy, email, presentation) not present anywhere in the source."
+  },
+  {
+   "path": "skills/prediction-market-risk-management/references/prompts-v2/kill-switch-system-design.md",
+   "reason": "States RED-level recovery requires 'minimum 2 days paper trading' but genius.md's Gradual Scaling Protocol explicitly requires 2-4 weeks minimum for the Paper phase \u2014 a direct numeric contradiction of the source in a financial risk-management system; also introduces a 24-hour cooldown and 7-day cooling period not traceable to the source material."
+  },
+  {
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/product-prequalification-gate.md",
+   "reason": "Invents specific numeric thresholds absent from genius.md's HK-10 (3-Question Pre-Qualification is stated qualitatively) -- \u2265\"60% margin for DRTV, \u226570% for digital\", \"$30-60 CAC\", and a \"$19.99-$99.99\" impulse price band appear nowhere in the source material. Fabricated methodology grafted onto a real framework."
+  },
+  {
+   "path": "skills/dr-k-consciousness/references/prompts-v2/identity-architecture-audit.md",
+   "reason": "Invents two numeric 1-10 scoring systems (\"Permanence Illusion Score\", \"Dissolution Readiness Score\") not present anywhere in genius.md -- source treats identity fusion/readiness qualitatively via activation questions and function probes, never as numeric scales. Classic scoring-system-grafted-onto-qualitative-framework violation."
+  },
+  {
+   "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/rehook-chain-design.md",
+   "reason": "Invents a numeric \"Momentum (1-10)\" score for transitions and a 6-type \"Rehook Type\" taxonomy (Complication/Deeper Question/Consequence/Contrast/Next Chapter/Reframe) that don't exist in genius.md -- Pattern 7 describes transitions qualitatively (Danger Zones, relay-race binary) and Pattern 8 uses a time-based gap metric (25s/2 sentences), never a 1-10 momentum score or typed rehook categories."
+  },
+  {
+   "path": "skills/nate-b-jones-context-engineering/references/prompts-v2/sovereign-memory-architecture-blueprint.md",
+   "reason": "Invented decay-tier methodology not in genius.md: source only specifies two thresholds (below 0.3 flagged for review, below 0.1 archived to cold storage) and a single 'pin' override; v2 fabricates a 4-tier system (ACTIVE \u22653.0, DORMANT 1.0-3.0, ARCHIVE <0.3, COLD <0.1), an invented nightly/monthly/quarterly decay schedule, and invented override functions boost()/demote() with no traceable source."
+  },
+  {
+   "path": "skills/nate-b-jones-orchestration-intelligence/references/prompts-v2/worker-isolation-merge-design.md",
+   "reason": "Phase 3 step 3 invents a specific '>70% overlap' deduplication threshold presented as an authoritative rule; no such number appears anywhere in genius.md or SKILL.md (source only supports general dedup/merge-layer concepts, not this figure) \u2014 a fabricated specific quantification in an otherwise well-grounded document."
+  },
+  {
+   "path": "skills/andrew-dun-vibe-consulting/references/prompts-v2/change-management-adoption-playbook.md",
+   "reason": "FALSE ALARM ON FIRST PASS, RETRACTED \u2014 verified against workflows/07-change-management-playbook.md and the v2 prompt is a faithful line-for-line restructuring of the source workflow (4-phase training architecture, all numeric intervention triggers, champion scoring table all present verbatim in source). No regeneration needed."
+  },
+  {
+   "path": "skills/cinematic-documentary/references/prompts-v2/sensory-storytelling-enrichment.md",
+   "reason": "Invents a five-sense 'sensory mining' framework with quantified thresholds (70%+ concrete ratio, 50% reduction target) and a 'Gelb Detail' naming convention not present in genius.md \u2014 Gelb's actual pattern (Emotion Over Information / 'the egg sushi moment') is qualitative, not a metrics-driven sensory-channel audit."
+  },
+  {
+   "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/save-worthy-content-architect.md",
+   "reason": "genius.md Pattern 16 (Save Economy) is a single short paragraph; the v2 prompt balloons it into 6 named 'save triggers' and 5 lettered 'Format Architectures' (A-E) each with detailed step-by-step structures, none traceable to the source material."
+  },
+  {
+   "path": "skills/liam-mley-ai-brain-builder/references/prompts-v2/aios-deployment-blueprint.md",
+   "reason": "Invents a detailed Track A/B/C deployment system with specific hour-per-week thresholds and a day-by-day 7-Day Sprint breakdown (Day 0/1-2/3-4/5/6/7) plus specific review cadences (15min/1hr/2hr) \u2014 none of this granularity exists in genius.md, which only vaguely mentions '7-day sprints for major initiatives.'"
+  },
+  {
+   "path": "skills/theme-factory/references/prompts-v2/custom-theme-creation.md",
+   "reason": "Invents a rigid, fixed-order '4-role skeleton' (base/darkest-first \u2192 primary accent \u2192 secondary accent \u2192 text) and presents it as the structure common to all 10 existing theme files. Checking the actual theme files (arctic-frost, desert-rose, sunset-boulevard, tech-innovation, etc.) shows the real color-role ordering varies significantly \u2014 several themes lead with a bright accent color and place the dark color last as text/contrast, the opposite of the claimed rule. Only the count (4 colors + 1 font family in 2 weights) is genuinely consistent; the specific ordered hierarchy is a grafted-on framework not traceable to the source material. Already flagged 'fidelity: low' in its own frontmatter."
+  },
+  {
+   "path": "skills/growth-ecosystems/references/prompts-v2/hybrid-offer-architecture.md",
+   "reason": "placeholder \u2014 will finalize after full batch review"
+  },
+  {
+   "path": "skills/luke-iha-proof-ladder/references/prompts-v2/proof-braid-rewrite.md",
+   "reason": "Invents two extra 'braiding formulas' (Logic Weave, Visual Weave) not present in the skill's own bounded list of exactly 5 named Braiding Formulas (Stat/Story/Demo/Authority/Admission Braid) in references/proof-ladder-framework.md \u2014 an unsourced expansion of a named, bounded framework, the same violation shape as the '16-site list where source names only 5' example."
+  },
+  {
+   "path": "skills/bitbranding-fashion-shopify/references/prompts-v2/product-card-optimizer.md",
+   "reason": "Invents a brand-profile priority-order taxonomy (streetwear/drop-culture, activewear, luxury denim, basics/essentials, print/graphic-tees, each with a specific 5-component ranking) that is not traceable to genius.md, which is sourced from a single YouTube tutorial covering only one brand (Represent, streetwear/luxury). Also grafts a numeric 0-10-per-component / composite-/50 scoring system onto a source that treats the '5-component system' qualitatively (score each, never optimize one at a time) with no numeric rubric of this kind anywhere in the skill material."
+  },
+  {
+   "path": "skills/evan-spiegel-distribution-architecture/references/prompts-v2/impossible-constraint-workaround.md",
+   "reason": "Invents a '10+ side-channels' quantity requirement and a '48-hour prototype spike' timeline with reliability/difficulty grading not traceable to genius.md (GP-13 Screenshot Detection Mindset only describes the technique qualitatively; GP-7's '10x' figure is about weekly ideation cadence, a different mechanic, not side-channel count)."
+  }
+ ]
+}

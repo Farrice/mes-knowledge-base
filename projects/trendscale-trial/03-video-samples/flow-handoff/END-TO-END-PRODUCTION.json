@@ -1,0 +1,94 @@
+{
+  "$schema_note": "Portable end-to-end AI video ad production spec. Feed to any capable agent platform (Manus, Genspark, Claude, custom). The agent must execute clips in order, obey every constraint, and run the qa_gate on every take before accepting. Asset files referenced live alongside this file in assets/stills/.",
+  "project": {
+    "name": "JCKED — The Locked Vault (Hook 3 teaser + full cut)",
+    "purpose": "Cold-traffic Meta ad, mechanism-led education. Strategy: stalled fat loss reframed as a lock-and-key problem, not a discipline problem.",
+    "deliverable": { "aspect": "9:16", "resolution": "1080x1920", "fps": 30, "teaser_length_s": 14, "full_cut_length_s": 80 },
+    "definition_of_done": "A finished MP4 a DTC brand could launch today: graded, film-grain unified, burned captions in Inter Tight, one consistent VO voice, music bed ducked under VO, silence on the final CTA, final product close-up uses REAL photography (end card), zero AI text artifacts at freeze-frame."
+  },
+  "assets": {
+    "product_photo": { "file": "assets/stills/jcked-bottle-pdp.png", "source": "https://jcked.com/products/liquid-l-carnitine-4000mg", "rule": "This photo IS the product. Attach as reference on every product-visible generation. Never allow a model to redraw, restyle, or re-typeset the label. Never generate an extreme close-up of label text; the end card handles close-ups with this real photo." },
+    "narrator_ref": { "file": "assets/stills/NARRATOR-CHATGPT.png", "rule": "Canonical narrator identity: same face, dark crewneck, neutral kitchen, warm side light, navy shadow. Attach as character reference on every narrator clip. Describe by appearance and delivery only; never use age words." },
+    "start_frames": {
+      "vault_gate": "assets/stills/TEASER-H3-gate.png",
+      "key_lock": "assets/stills/B2-key-lock.png",
+      "vault_open_bottle": "assets/stills/B4-vault-bottle.png"
+    }
+  },
+  "model_routing": {
+    "talking_human_with_dialogue": { "primary": "kling-3.0 (or Kling 2.6 Omni)", "fallback": "veo-3.1 text-to-video + character ingredient", "never": "image-to-video for on-camera speech (dialogue suppression risk)" },
+    "cinematic_broll": { "primary": "veo-3.1 Quality via Flow, Frames-to-Video with start frame", "fallback": "seedance / kling for image-to-video label fidelity" },
+    "stills_and_text_in_scene": { "primary": "gpt-image-2 / nano-banana-class", "rule": "All in-scene readable text is baked into stills, never rendered by video models" },
+    "settings_that_are_not_optional": ["Quality tier, never Fast/Turbo", "9:16 explicit", "2 takes per clip, keep the better", "start frame attached where specified"]
+  },
+  "brand_constraints_hard": [
+    "No before/after bodies, no scales, no doctors or lab coats, no urgency stingers",
+    "Dose language: 'top of the studied range', never 'the clinical dose'",
+    "Palette locked: dark navy + matte steel + amber accents; editorial restraint, not gym-bro",
+    "No on-screen text or subtitles in any generation (captions are burned in post)",
+    "VO lines are verbatim; one word changed = reject"
+  ],
+  "audio_strategy": {
+    "vo": "ALL non-dialogue clips generate SILENT (ambient/SFX only). One VO voice records the full script (ElevenLabs or equivalent: calm, declarative, lightly conspiratorial, measured pace) and is laid over in the edit so the voice is identical across every clip.",
+    "dialogue_clips": "Narrator hooks may use native model dialogue; if voice varies between takes, mute and use the recorded VO with lip-sync tooling.",
+    "music": "Sparse low pulse at -18 dB under VO; full silence under the final CTA line.",
+    "loudness_target": "-14 LUFS integrated, -1 dBTP"
+  },
+  "clips": [
+    {
+      "id": "H3", "role": "hook (teaser beat 1)", "duration_s": 8, "audio": "SILENT + ambient", "start_frame": "vault_gate",
+      "vo_verbatim": "One enzyme decides whether your stored fat gets burned or stays locked away. It has a name, and most men never hear it.",
+      "on_screen_text_for_edit": "One enzyme decides.",
+      "prompt": "[00:00-00:08] Slow controlled dolly push toward a closed steel vault gate glowing dim amber at center frame in a dark navy cell, bare matte-steel walls receding into shadow, the small lock plate engraved CPT-1 sharpening as the camera nears. Cool navy ambient light, one warm amber source behind the gate. Ambient noise: low room tone, one faint heavy metallic tick. The corridor is empty, no people, no hands. Matte steel free of glare and reflections. NO SUBTITLES. No captions. No on-screen text. 9:16.",
+      "negatives": ["people", "hands", "readable text beyond CPT-1", "reflections", "daylight drift"]
+    },
+    {
+      "id": "B2", "role": "mechanism (teaser beat 2)", "duration_s": 8, "audio": "SILENT + SFX", "start_frame": "key_lock",
+      "vo_verbatim": "(VO continues over this beat in edit)",
+      "on_screen_text_for_edit": "37 trials. Up to 4,000mg.",
+      "prompt": "[00:00-00:04] Locked-off macro: a brass key seated in a heavy matte-steel lock engraved CPT-1 on a dark vault door, warm amber light catching the key's teeth against deep navy shadow. The key rotates slowly by itself, untouched, as if unlocked from within. [00:04-00:08] A razor-thin line of warm light spills from the door seam and widens to a glowing slit as the door cracks open millimeters. Ambient noise: metal-on-metal friction, a low creak. Empty of people and hands throughout. Matte steel free of glare and reflections. NO SUBTITLES. No captions. No on-screen text. 9:16.",
+      "negatives": ["hands", "people", "extra keys", "glare", "reflections"]
+    },
+    {
+      "id": "B4", "role": "reveal (teaser beat 3)", "duration_s": 10, "audio": "SILENT + low pulse", "start_frame": "vault_open_bottle", "product_reference": true,
+      "vo_verbatim": "(VO close + CTA laid in edit)",
+      "on_screen_text_for_edit": "365-day money-back guarantee",
+      "prompt": "Using the provided bottle photo for the product, keep the label exactly as shown, never restyled. [00:00-00:05] Wide composed shot: a heavy steel vault door stands fully open onto warm amber light, the JCKED bottle centered alone on a dark matte pedestal in the doorway, empty space around it. The camera begins one slow hero dolly push toward the bottle. [00:05-00:10] The push settles with the bottle at medium distance, label square to camera and readable, the vault interior glowing warm behind it. Ambient noise: low ambient tone, a sparse low pulse rising, then near-silence. No people, no candy, no floating objects, no reflections. NO SUBTITLES. No captions. No on-screen text. 9:16.",
+      "negatives": ["label close-up", "restyled label", "candy", "ribbons", "particles orbiting product", "people"]
+    },
+    {
+      "id": "H1", "role": "optional talking hook (Variant A)", "duration_s": 8, "audio": "NATIVE DIALOGUE", "character_reference": "narrator_ref", "mode": "text-to-video + character ingredient (NOT image-to-video)",
+      "dialogue_verbatim": "You can do everything right and still carry the same fat for years. The effort was never the problem. That fat is locked.",
+      "on_screen_text_for_edit": "That fat is locked.",
+      "prompt": "Using the provided image for the narrator: same face, dark crewneck, neutral kitchen, warm light on one side of his face, deep navy shadow on the other. Phone-native handheld take at eye level, authentic micro-shake, natural pore texture, no plastic skin sheen. He stands still, hands at his sides, and says to camera, calm and level, no smile: 'You can do everything right and still carry the same fat for years. The effort was never the problem. That fat is locked.' On the last word, hard cut to a closed amber-lit steel vault gate filling the frame. Ambient noise: quiet kitchen room tone under his voice only, no music. NO SUBTITLES. No captions. No on-screen text. 9:16.",
+      "negatives": ["smile", "beauty-filter skin", "studio lighting", "subtitles", "logo on clothing"]
+    },
+    {
+      "id": "H4", "role": "optional talking hook (Variant C)", "duration_s": 8, "audio": "NATIVE DIALOGUE", "character_reference": "narrator_ref", "mode": "text-to-video + character ingredient",
+      "dialogue_verbatim": "You took the right supplement at the wrong dose. Five hundred milligrams. The research that worked went up to four thousand.",
+      "on_screen_text_for_edit": "Right supplement. Wrong dose. 500mg.",
+      "prompt": "Using the provided image for the narrator: same face, dark crewneck, same kitchen, warm light on one side of his face, a touch more contrast and pace. Phone-native handheld take at eye level. He leans slightly forward and says to camera with more edge, flat, no smile: 'You took the right supplement at the wrong dose. Five hundred milligrams. The research that worked went up to four thousand.' Hard cut on the last word to two brass keys side by side on dark steel: a short stub key and a full-length key, camera pushing onto the full-length key. Ambient noise: kitchen tone under his voice, quiet studio tone on the key beat, no music. NO SUBTITLES. No captions. No on-screen text. 9:16.",
+      "negatives": ["smile", "plastic skin", "subtitles", "key engravings rendered as text close-up"]
+    }
+  ],
+  "finishing_pass_required": {
+    "note": "THIS is what makes it look paid-for. Raw generations are not the deliverable.",
+    "steps": [
+      "Assemble hard cuts per clip order; trim dead frames",
+      "One unifying color grade across all clips (match to the navy/amber reference still)",
+      "Add 2-3% film grain uniformly so clips from different models read as one camera",
+      "Burn captions: Inter Tight, bottom third above 350px safe area, max 6 words per cue, amber color ONLY on 'CPT-1' and dose numbers",
+      "Lay single recorded VO across the full cut; duck music -18dB under VO; hard silence under final CTA line",
+      "END CARD (final 3s): the REAL product photo on dark pedestal composition, offer line 'First bottle $49.95', guarantee line '365-day money-back guarantee' — this replaces any generated label close-up",
+      "Loudness normalize -14 LUFS / -1 dBTP; export H.264 1080x1920 30fps"
+    ]
+  },
+  "qa_gate_every_take": [
+    "No burned-in text or subtitles anywhere",
+    "Label matches the real photo at its largest on-screen size; CPT-1 spelled correctly",
+    "Nothing in frame the prompt did not name (people, hands, candy, particles)",
+    "Palette holds navy+amber; no daylight or teal drift versus the other clips",
+    "One steady camera move; no end-of-clip freeze, shimmer, or morph",
+    "Narrator identical to reference across takes (face, wardrobe, kitchen)"
+  ]
+}

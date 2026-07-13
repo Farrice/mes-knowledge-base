@@ -1,0 +1,33 @@
+{
+  "applied_at": "2026-07-11T16:43:18+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/WAVE-4-SUMMARY.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/04-deliverables/WAVE-4-SUMMARY.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/wave-4-final-report.json",
+      "to": "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/01-source/wave-4-final-report.json"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/wave-4-report.json",
+      "to": "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/01-source/wave-4-report.json"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/WAVE-4-SUMMARY.md",
+    "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/wave-4-final-report.json",
+    "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/wave-4-report.json"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/prompt-renaissance",
+  "project_slug": "prompt-renaissance",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-11.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/01-source/wave-4-final-report.json": 2,
+    "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/04-deliverables/WAVE-4-SUMMARY.md": 1
+  },
+  "skipped": [],
+  "version": 1
+}

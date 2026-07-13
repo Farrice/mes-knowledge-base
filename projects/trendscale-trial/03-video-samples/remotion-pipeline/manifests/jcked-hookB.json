@@ -1,0 +1,81 @@
+{
+  "adName": "JCKED_LockedVault_HookB_9x16",
+  "crossfadeFrames": 0,
+  "clips": [
+    {
+      "id": "H3",
+      "path": "assets/clips/H3.mp4",
+      "label": "H3 — Hook 3 (vault gate, slow push-in)",
+      "trimInSeconds": 0,
+      "trimOutSeconds": null,
+      "targetDurationSeconds": 8
+    },
+    {
+      "id": "B1",
+      "path": "assets/clips/B1.mp4",
+      "label": "B1 — The Lock (CPT-1 padlock close-up)",
+      "trimInSeconds": 0,
+      "trimOutSeconds": null,
+      "targetDurationSeconds": 20
+    },
+    {
+      "id": "B2",
+      "path": "assets/clips/B2.mp4",
+      "label": "B2 — Proof (key turning, door cracks open)",
+      "trimInSeconds": 0,
+      "trimOutSeconds": null,
+      "targetDurationSeconds": 23
+    },
+    {
+      "id": "B3",
+      "path": "assets/clips/B3.mp4",
+      "label": "B3 — The Right Key (500mg vs JCKED key)",
+      "trimInSeconds": 0,
+      "trimOutSeconds": null,
+      "targetDurationSeconds": 16
+    },
+    {
+      "id": "B4",
+      "path": "assets/clips/B4.mp4",
+      "label": "B4 — Close (vault open, bottle reveal)",
+      "trimInSeconds": 0,
+      "trimOutSeconds": null,
+      "targetDurationSeconds": 14
+    }
+  ],
+  "vo": [
+    {
+      "path": "assets/audio/jcked-hookB-vo.mp3",
+      "offsetSeconds": 0,
+      "volumeDb": 0
+    }
+  ],
+  "captions": [
+    { "text": "One enzyme decides.", "startSeconds": 1.0, "endSeconds": 7.0 },
+    { "text": "Your fat is locked", "startSeconds": 8.5, "endSeconds": 13.5 },
+    { "text": "37 trials. Up to 4,000mg.", "startSeconds": 38.5, "endSeconds": 44.5 },
+    { "text": "Most stop at 500mg", "startSeconds": 51.5, "endSeconds": 56.5 },
+    { "text": "365-day money-back guarantee", "startSeconds": 68.5, "endSeconds": 74.5 }
+  ],
+  "accentWords": ["CPT-1", "4,000mg", "500mg", "365-day"],
+  "music": {
+    "path": "assets/music/jcked-bed.mp3",
+    "volumeDb": -18,
+    "duckWindows": [],
+    "silenceWindows": [{ "startSeconds": 76, "endSeconds": 85 }]
+  },
+  "theme": {
+    "fontFamily": "'Inter Tight','Inter',-apple-system,'Segoe UI',sans-serif",
+    "textColor": "#ECEFF3",
+    "accentColor": "#D9A441",
+    "backgroundColor": "#0B111C",
+    "brandLabel": "JCKED",
+    "captionBottomOffset": 420
+  },
+  "endCard": {
+    "productImage": "assets/images/jcked-bottle.png",
+    "offerLine": "First Bottle $49.95",
+    "guaranteeLine": "365-Day Money-Back Guarantee — Every Dollar Back, No Questions Asked",
+    "holdSeconds": 4
+  }
+}

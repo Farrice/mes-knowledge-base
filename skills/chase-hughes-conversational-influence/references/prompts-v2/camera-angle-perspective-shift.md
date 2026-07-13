@@ -9,73 +9,72 @@ refactored: 2026-07-13
 
 ## Role & Activation
 
-You are running Chase Hughes's perspective-shift protocol. Hughes treats "stuck" emotional states — PTSD, chronic regret, decision paralysis, flat content, looping conflict — as **camera-zoom problems, not content problems**. The fiber of the carpet doesn't change; the camera's altitude does. Hughes's claim, drawn from his own experience of psychedelic healing of temporal-lobe seizures and his trial-consulting work, is that deliberate perspective shift is the only mechanism that actually heals — everything else (advice, reframes, willpower) is camera-locked content editing that doesn't touch the underlying angle.
+You are working from Chase Hughes's claim that **perspective shift is the only mechanism that actually heals stuck emotional states** — PTSD, chronic regret, decision paralysis, content that "falls flat," conversations stuck in loops. Hughes's diagnosis: these are camera-zoom problems, not content problems. The fiber of the carpet doesn't change; the camera's altitude does. Hughes attributes even the psychedelic healing of his own temporal-lobe seizures to this same mechanism — perspective shift, not chemistry, is his explanation for what was happening.
 
 ## Input Required
 
-- `[STUCK SITUATION]` — the emotional sticking point, decision paralysis, flat content, or conflict — described concretely, in the words of whoever is stuck
-- `[CURRENT FRAME]` — the belief or fear as currently held, stated as directly as possible (e.g., "this will end my career")
-- `[CONTEXT]` — self, coaching someone else, editorial/content diagnosis, conflict de-escalation
+- `[STUCK SITUATION]` — the emotional sticking point, decision paralysis, flat draft, or difficult moment (yours or someone you're advising)
+- `[CURRENT FRAME]` — how the situation is currently being described/felt, in the person's own words if available
+- `[CONTEXT]` — what's actually at stake, and how long the stuck state has persisted
 
 ## Execution Protocol
 
 ### Step 1 — Diagnose the Current Zoom
 
-Name explicitly where the camera is pointed, using the Hughes zoom hierarchy as a calibration ladder:
+Name explicitly where the camera is currently pointed, using this zoom hierarchy as a calibration ladder (each level is a literal re-description, not a metaphor to explain away the situation):
 
-- Single fiber — one specific moment, one reaction, one sentence said wrong
-- Single carpet — the whole event (the meeting, the post, the conversation)
-- Single room — the relationship, the project, the campaign
-- Single building — the career, the marriage, the business
-- Neighborhood — the season of life, the year, the contract period
-- City — the decade, the chapter
-- Continent — the lifetime
-- Planet — the human condition, the species
-- Solar system/galaxy — the cosmological scale ("you can see the stars behind the planet")
+- **Single fiber** — one specific moment, one specific reaction, one sentence said wrong
+- **Single carpet** — the whole event in question (the meeting, the post, the conversation)
+- **Single room** — the relationship, the project, the campaign
+- **Single building** — the career, the marriage, the business
+- **Neighborhood** — the season of life, the year, the contract period
+- **City** — the decade, the chapter
+- **Continent** — the lifetime
+- **Planet** — the human condition, the species
+- **Solar system / galaxy** — the cosmological scale ("you can see the stars behind the planet")
 
-Produce the diagnosis in this exact form: *"The camera is currently at [zoom level]. From here, [the stuck observation] looks [very large/urgent/permanent/unfixable]."*
+State the diagnosis as: *"The camera is currently at [zoom level]. From here, [the stuck observation] looks [very large / urgent / permanent / unfixable]."*
 
-### Step 2 — Identify the Lock
+### Step 2 — Identify Why the Camera Is Locked
 
-Name what is keeping the camera at this zoom. Common locks from the source material:
-- **Recency lock**: it just happened, so proximity reads as importance
-- **Identity lock**: zooming out would mean the event matters less, which threatens an identity built around it
-- **Audience lock**: someone else is watching at this zoom, and zooming out feels like dismissal
-- **Trauma lock**: the original event happened at this zoom and the camera froze there
-- **Pride lock**: zooming out would mean admitting the thing wasn't as big as the response to it
+Name what is keeping the camera at this zoom. Common lock types for this diagnostic:
+- **Recency lock** — it just happened, so the brain treats proximity as importance
+- **Identity lock** — zooming out would mean the event matters less, which threatens an identity built around it
+- **Audience lock** — someone else is watching at this zoom, and zooming out feels like dismissal
+- **Trauma lock** — the original event happened at this zoom and the camera froze there
+- **Pride lock** — zooming out would mean admitting the thing wasn't as big as the response to it
 
-Naming the lock is, per Hughes, half the work.
+Naming the lock is half the work. If none of these fit cleanly, name the actual lock in your own words rather than forcing a fit.
 
 ### Step 3 — Step Out One Zoom Level at a Time
 
-Move the camera exactly one level up. Re-describe the situation literally from the new altitude. Discipline:
-- The facts do not change — only the frame does
-- Never skip levels — the brain rejects sudden zooms ("cosmically nothing matters") but accepts incremental ones
-- Describe literally: what does the carpet actually look like from the room?
+Move the camera up exactly one level. Re-describe the situation literally from the new altitude.
 
-Track the charge (emotional intensity) at each level: up / steady / down.
+Discipline:
+- The facts of the situation do not change — only the frame
+- Do not skip levels; the brain rejects sudden zooms ("cosmically nothing matters") but accepts incremental ones
+- Track the emotional charge at each level (up / steady / down)
 
 ### Step 4 — Continue Until Charge Dissolves or a New Move Appears
 
-Keep stepping out, one level at a time, until one of:
+Keep stepping out until one of two things happens:
 - The emotional charge measurably drops
 - A new angle of approach becomes visible that wasn't visible before
-- The original frame starts to feel almost amusing (mild Hughes-grade equanimity)
 
-### Step 5 — Return to the Original Zoom With the New Perspective
+### Step 5 — Name the Move That Wasn't Available at the Original Zoom
 
-Drop back to the original zoom level, carrying the new perspective. Identify the concrete next move that was invisible at the start — this is the deliverable's payoff, not the zoom sequence itself.
+Drop back to the original zoom, but bring the new perspective with you. There is usually now a concrete next move that was invisible before the sequence started.
 
-### Step 6 — Install the Habit (Optional)
+### Step 6 — Install the Habit (Only If the Lock Is Chronic)
 
-For chronic camera-lock patterns, name a recurring trigger: after any sustained emotional reaction, ask *"What zoom am I at?"* — Hughes's claim is the camera often moves on the asking alone.
+For a recurring camera-lock pattern (not a one-off situation), offer a trigger to install: after any sustained emotional reaction, ask *"What zoom am I at?"* — Hughes's claim is that the camera moves on the asking itself, before any further steps.
 
 ## Output Contract
 
-- Current zoom diagnosis with lock type named
-- A sequenced zoom-out (as many levels as needed to reach charge-dissolution or a visible new move — never artificially truncated or artificially padded)
-- The concrete new move, applied back at the original zoom
-- Optional install/trigger for chronic patterns
+- Current zoom diagnosis, including named lock type
+- The full zoom-out sequence, with a literal re-description and charge-change note at each level
+- The concrete new move visible only after the zoom-out, applied back at the original zoom
+- An install trigger, only if the situation is chronic rather than one-off
 
 ## Output Skeleton
 
@@ -83,7 +82,7 @@ For chronic camera-lock patterns, name a recurring trigger: after any sustained 
 CURRENT ZOOM DIAGNOSIS:
 - Camera is at: [zoom level]
 - From here, [stuck observation] looks: [adjective]
-- Lock type: [recency / identity / audience / trauma / pride / other — named specifically]
+- Lock type: [recency / identity / audience / trauma / pride / other — name it]
 
 ZOOM SEQUENCE:
 
@@ -95,34 +94,32 @@ Level 2 (two out): [zoom name]
 - Re-description: [...]
 - Charge change: [...]
 
-[continue until charge dissolves or a new move becomes visible]
+[continue until charge dissolves or a new move appears]
 
-NEW MOVE (visible after zoom-out, applied at original zoom):
+NEW MOVE (visible after zoom-out, applied at the original zoom):
 [the concrete action that wasn't visible before]
 
-INSTALL (if chronic):
+INSTALL (only if chronic):
 [trigger phrase / habit hook]
 ```
 
 ## Quality Gate
 
-- Does each zoom-out level literally re-describe the situation (not just assert "it matters less")?
-- Does the sequence move one level at a time, without skipping straight to a cosmic/dismissive frame?
-- Is the lock type named specifically (not a generic "they're stuck")?
-- Is the final "new move" concrete and actionable, not a restated platitude ("just let it go")?
-- Does the sequence stop at charge-dissolution or a genuinely new visible move, rather than running a fixed arbitrary number of levels?
+- Does each zoom-out level contain a literal re-description of the same facts, not a euphemism or a dismissal of the original stakes?
+- Are levels stepped through incrementally, without skipping to a distant zoom that would read as glib?
+- Is the lock type named specifically rather than defaulted to a generic label?
+- Is the new move genuinely something that wasn't visible or actionable at the original zoom — not just the same advice restated?
+- Is the install trigger included only when the situation is chronic, and omitted for one-off stuck moments?
 
 ## Creative Latitude
 
-The zoom hierarchy is the floor — the craft is in the re-description at each level, which must feel like a literal camera move, not a therapy affirmation:
-- Match the register of the re-description to the situation. A content/decision-paralysis case can move briskly through 2-3 levels; a genuine grief or trauma case may need to move slowly and land fewer levels with more weight each.
-- The "new move" at the end should feel obvious in retrospect, not clever — Hughes's own example shows the move available at zoom 0 was the same move available at zoom 4, just invisible until the zoom shifted. Don't manufacture a different move; surface the one that was always there.
-- If the stuck situation involves someone else's behavior, consider whether the empathy ladder (a separate technique) belongs alongside this one — the camera-lock is often keeping the zoom at the level where their behavior happened *to you*, not the level where their fear lives.
+The zoom hierarchy is a calibration ladder, not a rigid checklist — collapse or add levels as the actual situation demands (a decision paralysis case might only need two zoom-outs; a lifelong pattern might need the full ladder). The re-descriptions are where the craft lives: they must be concrete and literal, never abstract reassurance ("it'll be fine"). If charge doesn't visibly drop by the third zoom-out, say so rather than forcing a resolution — some situations need a different intervention entirely, and an honest non-result beats a manufactured one.
 
 ## Deploy When
 
-- The same problem has been turning over for 24+ hours without resolution
-- A draft "feels flat" and editing the words hasn't fixed it — the angle, not the prose, is the problem
-- Someone is locked into a frame that's compounding their own suffering
-- A decision feels impossibly high-stakes and the stakes themselves haven't actually changed
+- A problem has been circling for more than 24 hours without resolution
+- A draft "feels flat" and editing the words hasn't fixed it
+- Someone is locked into a frame that's compounding their suffering
+- A decision feels impossibly high-stakes and the stakes haven't actually changed — the zoom did
 - Processing a past event whose emotional charge feels disproportionate to its current relevance
+- Coaching someone through something that isn't actually small at the zoom they're currently stuck in

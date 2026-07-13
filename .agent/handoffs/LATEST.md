@@ -1,28 +1,28 @@
 # Latest Handoff
 
-**Thread:** andrew-stanton-audience-engineering  
-**Full path:** .agent/handoffs/2026-07-13-andrew-stanton-audience-engineering.md  
+**Thread:** prompts-v2  
+**Full path:** .agent/handoffs/2026-07-13-prompts-v2.md  
 **Date:** 2026-07-13 (today)  
 **Status:** active  
-**Title:** Andrew Stanton Audience Engineering — Skill
+**Title:** Prompts V2 — Client Conversion Diagnostic
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume andrew-stanton-audience-engineering` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume prompts-v2` for this one.
 
 ---
-thread: andrew-stanton-audience-engineering
+
+---
+thread: prompts-v2
 status: active
-resume_hint: Andrew Stanton Audience Engineering — Skill
+resume_hint: Prompts V2 — Client Conversion Diagnostic
 branch: main
 pin: true
 ---
 
-# Andrew Stanton Audience Engineering — Skill
+# Prompts V2 — Client Conversion Diagnostic
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
 
-**Artifacts:** /Users/farricecain/Google Antigravity/skills/andrew-stanton-audience-engineering/references/ted-talk-layer.md, /Users/farricecain/Google Antigravity/skills/andrew-stanton-audience-engineering/references/exemplars.md, /Users/farricecain/Google Antigravity/skills/andrew-stanton-audience-engineering/genius.md, /Users/farricecain/Google Antigravity/skills/andrew-stanton-audience-engineering/SKILL.md
+**Artifacts:** /Users/farricecain/Google Antigravity/skills/luke-iha-client-mastery/references/prompts-v2/creative-diversity-matrix.md, /Users/farricecain/Google Antigravity/skills/luke-iha-copy-blocks/references/prompts-v2/expert-panel-deliberation.md, /Users/farricecain/Google Antigravity/skills/luke-iha-copy-blocks/references/prompts-v2/conditions-stack.md, /Users/farricecain/Google Antigravity/skills/luke-iha-copy-blocks/references/prompts-v2/copy-blocks-equation-score.md, /Users/farricecain/Google Antigravity/skills/luke-iha-client-mastery/references/prompts-v2/client-conversion-diagnostic.md
 
-**Retrieve:** `/resume andrew-stanton-audience-engineering`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
+**Retrieve:** `/resume prompts-v2`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
 

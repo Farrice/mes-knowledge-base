@@ -1,0 +1,22 @@
+{
+ "batches": 8,
+ "checked": 165,
+ "regenerate": [
+  {
+   "path": "skills/enrico-incarnati-instagram-realestate/references/prompts-v2/digital-curb-appeal-profile-optimization.md",
+   "reason": "Fabricated stat: Friday Night Strategy script line 'Seriously \u2014 #7 alone has saved my clients $15K+' invents a specific dollar-savings claim not present anywhere in genius.md's Pattern 6 source material (which only has 'check these 12 things... reply checklist')."
+  },
+  {
+   "path": "skills/jack-roberts-design-mastery/references/prompts-v2/reference-collection-package.md",
+   "reason": "Invented methodology: Step 2 Source Mining lists ~16 specific tool/site names (Awwwards, Lapa.ninja, saaspages.xyz, Land-book.com, Slidesgo, SlidesCarnival, Speaker Deck, Brand New, BP&O, Dieline, Logo Design Love, Dribbble, Behance, Pinterest, UI Patterns, Mobbin, Refero Design) \u2014 only Midjourney, Godly.website, 25.dev, Canva, and Google Images are traceable to genius.md; the rest is training-memory forging of a resource list never mentioned by the source."
+  },
+  {
+   "path": "skills/story-compass/references/prompts-v2/story-test-diagnostic.md",
+   "reason": "Invented framework: genius.md describes Runia's Story Test as a binary pass/fail diagnostic, but the v2 prompt adds an untraceable numeric 1-10 scoring system with PASS/SOFT FAIL/HARD FAIL thresholds and a 'Content Type Failure Patterns' table (LinkedIn/YouTube/Newsletter/Sales pages/Podcasts) that appears nowhere in genius.md or SKILL.md."
+  },
+  {
+   "path": "skills/enrico-incarnati-instagram-realestate/references/prompts-v2/lead-magnet-manychat-pipeline.md",
+   "reason": "Invented methodology: genius.md's Pattern 7 (ManyChat Lead Engine) is a one-paragraph concept (comment keyword \u2192 auto-DM \u2192 collect email); the v2 prompt fabricates a much larger system wholesale \u2014 5 named lead magnets with page counts and buyer-awareness-stage mapping, a 5-step ManyChat flow with A/B/C branching and Hot/Warm/Future tagging, and 3-tier day-by-day email nurture sequences (Day 0/1/3/7/14 etc.) \u2014 none of which is traceable to the skill's source material."
+  }
+ ]
+}

@@ -1,0 +1,117 @@
+{
+  "ad_name": "JCKED — The Locked Vault (Liquid L-Carnitine 4000mg)",
+  "aspect": "9:16",
+  "resolution": "1080x1920",
+  "clips": [
+    {
+      "id": "H1",
+      "beat": "Hook 1 (Variant A)",
+      "duration": 8,
+      "primary_model": "Kling 2.6/3.0 Omni",
+      "fallback_model": "Veo 3.1",
+      "start_frame": "assets/clips/H1.mp4",
+      "vo_verbatim": "You can do everything right and still carry the same fat for years. The effort was never the problem. That fat is locked.",
+      "on_screen_text": "That fat is locked."
+    },
+    {
+      "id": "H2",
+      "beat": "Hook 2 (bench, built not cut)",
+      "duration": 7,
+      "primary_model": "Kling 2.6/3.0 Omni",
+      "fallback_model": "Veo 3.1",
+      "start_frame": "assets/clips/H2.mp4",
+      "vo_verbatim": "You train. The fat sits there. Same gut you have fought since you turned thirty-five, and it will not move.",
+      "on_screen_text": "It will not move."
+    },
+    {
+      "id": "H3",
+      "beat": "Hook 3 (Variant B, vault only)",
+      "duration": 8,
+      "primary_model": "Veo 3.1",
+      "fallback_model": "Kling 3.0",
+      "start_frame": "assets/clips/H3.mp4",
+      "vo_verbatim": "One enzyme decides whether your stored fat gets burned or stays locked away. It has a name, and most men never hear it.",
+      "on_screen_text": "One enzyme decides."
+    },
+    {
+      "id": "H4",
+      "beat": "Hook 4 (Variant C)",
+      "duration": 7,
+      "primary_model": "Kling 2.6/3.0 Omni",
+      "fallback_model": "Veo 3.1",
+      "start_frame": "assets/clips/H4.mp4",
+      "vo_verbatim": "You took the right supplement at the wrong dose. Five hundred milligrams. The research that worked went up to four thousand.",
+      "on_screen_text": "Right supplement. Wrong dose. 500mg."
+    },
+    {
+      "id": "B1",
+      "beat": "Body: the lock (shared)",
+      "duration": 20,
+      "primary_model": "Veo 3.1",
+      "fallback_model": "Kling 3.0",
+      "start_frame": "assets/clips/B1.mp4",
+      "vo_verbatim": "That fat is locked behind one door. The lock is an enzyme called CPT-1, and it sits between your stored fat and where it gets burned. Without the key, the door does not open, and the fat stays where it is. The one key that fits is a nutrient called L-carnitine.",
+      "on_screen_text": "Your fat is locked"
+    },
+    {
+      "id": "B2",
+      "beat": "Body: proof (shared)",
+      "duration": 23,
+      "primary_model": "Veo 3.1",
+      "fallback_model": "Kling 3.0",
+      "start_frame": "assets/clips/B2.mp4",
+      "vo_verbatim": "This is the rate-limiting step of fat burning, confirmed in 2023. A review of thirty-seven trials and more than two thousand people found the doses that worked ran up to four thousand milligrams a day, the top of the studied range. Even in men near seventy, the door still opened, and fat burning went up about twenty percent.",
+      "on_screen_text": "37 trials. Up to 4,000mg."
+    },
+    {
+      "id": "B3",
+      "beat": "Body: the right key (shared)",
+      "duration": 16,
+      "primary_model": "Veo 3.1",
+      "fallback_model": "Kling 3.0 / Seedance v1.5 Pro",
+      "start_frame": "assets/clips/B3.mp4",
+      "vo_verbatim": "Most carnitine products stop near five hundred milligrams. A fraction of a key. That is why the bottle in your cabinet never moved anything. JCKED carries the real dose, the size the studies used. It is the key, cut to your lock.",
+      "on_screen_text": "Most stop at 500mg"
+    },
+    {
+      "id": "B4",
+      "beat": "Body: close, bottle reveal (shared)",
+      "duration": 14,
+      "primary_model": "Veo 3.1",
+      "fallback_model": "Kling 3.0",
+      "start_frame": "assets/clips/B4.mp4",
+      "vo_verbatim": "First bottle is forty-nine ninety-five, backed by a full year. Three hundred sixty-five days to get every dollar back, even if the bottle is empty, no questions asked. The lock has a key now. Go open it.",
+      "on_screen_text": "365-day money-back guarantee"
+    },
+    {
+      "id": "TEASER-H1",
+      "beat": "Hook-teaser 1 (12-15s, first send)",
+      "duration": 14,
+      "primary_model": "Kling 3.0 Omni (multi-shot storyboard)",
+      "fallback_model": "Veo 3.1 (Scene Builder chain)",
+      "start_frame": "assets/clips/TEASER-H1.mp4",
+      "vo_verbatim": "You can do everything right and still carry the same fat for years. The effort was never the problem. That fat is locked.",
+      "on_screen_text": "That fat is locked."
+    },
+    {
+      "id": "TEASER-H3",
+      "beat": "Hook-teaser 3 (12-15s, first send, VO only)",
+      "duration": 14,
+      "primary_model": "Veo 3.1 (Scene Builder chain)",
+      "fallback_model": "Kling 3.0 (storyboard)",
+      "start_frame": "assets/clips/TEASER-H3.mp4",
+      "vo_verbatim": "One enzyme decides whether your stored fat gets burned or stays locked away. It has a name, and most men never hear it.",
+      "on_screen_text": "One enzyme decides."
+    },
+    {
+      "id": "TEASER-H4",
+      "beat": "Hook-teaser 4 (12-15s, first send)",
+      "duration": 14,
+      "primary_model": "Kling 3.0 Omni (multi-shot storyboard)",
+      "fallback_model": "Veo 3.1 (Scene Builder chain)",
+      "start_frame": "assets/clips/TEASER-H4.mp4",
+      "vo_verbatim": "You took the right supplement at the wrong dose. Five hundred milligrams. The research that worked went up to four thousand.",
+      "on_screen_text": "Right supplement. Wrong dose. 500mg."
+    }
+  ]
+}
