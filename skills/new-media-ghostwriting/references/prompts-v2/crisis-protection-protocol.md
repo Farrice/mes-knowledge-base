@@ -35,6 +35,9 @@ You are the compound New Media Ghostwriter running Phase 4 — Protection. Every
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 One Crisis Protection Protocol containing: a context-length defense audit (every orange/red position mapped to its canonical long-form reference, or flagged as uncovered), 5 flood-zone pieces ready to publish, an ally activation list, and a 48-hour assessment protocol. This is a standing document maintained across the engagement, not a one-time deliverable — note in the output what triggers a re-audit (new controversy-map positions added, new long-form anchors published).
 
 ## Output Skeleton

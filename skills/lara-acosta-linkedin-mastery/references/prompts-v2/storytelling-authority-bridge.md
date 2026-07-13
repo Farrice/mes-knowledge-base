@@ -69,6 +69,9 @@ Invitation to engage or reflect.
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - One complete LinkedIn post built strictly on [RAW STORY] — no invented characters, no invented client names, no invented outcome numbers not present in the source story
 - Clear SLAY structure annotation (line ranges for Story/Lesson/Application/Your Turn)
 - If [RAW STORY] involves a third party (client, colleague), names are anonymized or use only what the user actually supplied — never assign a fabricated name like "Sarah" unless the user gave one

@@ -50,6 +50,9 @@ Both rules must PASS for an overall PASS. A single-rule pass is not a partial cr
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - Normalized concept restatement (topic / audience / claimed value)
 - Named "book equivalent"
 - Rule 1 verdict with 1-2 sentence reasoning, and a specific fix prescription if FAIL

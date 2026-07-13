@@ -40,6 +40,9 @@ Core insight: Contrarian = genuinely held different belief. Controversial = trig
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - Complete two-column table built from the submitted OBSERVATIONS and YOUR_BELIEFS inputs
 - Ranked list of contrarian positions (top 3-5), ranked by conviction + differentiation + relevance
 - A conviction assessment per selected position (why it's genuinely held, not manufactured)

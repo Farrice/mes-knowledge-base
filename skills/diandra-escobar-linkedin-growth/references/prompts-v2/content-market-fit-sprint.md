@@ -48,6 +48,9 @@ Document the winning formula (topics, formats, hooks, buckets). Convert sprint m
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 A **.md Sprint Blueprint**: (1) Week 0 checklist (infrastructure + obscurity reframe + commitment contract), (2) Phase 2 plan (posts 1-20: weekly guidance, format rules, engagement minimums, lever diagnosis mechanics, compound sequencing, velocity checkpoints), (3) Phase 3 plan (posts 21-40: voice-finding + format escalation), (4) Phase 4 plan (posts 41-60: repurposing engine + conversion introduction), (5) Phase 5 transition plan, (6) Milestone tracker with per-phase exit criteria, (7) 90-day week-by-week calendar skeleton.
 
 ## Output Skeleton

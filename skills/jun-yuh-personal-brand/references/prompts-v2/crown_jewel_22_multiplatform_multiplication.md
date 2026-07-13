@@ -79,6 +79,9 @@ Assemble the complete asset package: all platform versions written/scripted, for
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Multi-Platform Content Package: Source Content Analysis, then one full Transformation section per platform listed in [TARGET PLATFORMS]
 - Each platform transformation includes: platform personality note, transformation approach, complete copy/script, format notes, hashtag/keyword recommendations, and CTA
 - A Publishing Sequence table (day, platform, content type, cross-promo link)

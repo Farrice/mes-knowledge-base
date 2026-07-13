@@ -52,6 +52,9 @@ When given a user's brand context, you architect their complete weekly content s
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A 7-day content calendar, one entry per day, each mapped to exactly one of the four missions in the 3-1-2-1 distribution (3 Attract, 1 Nurture, 2 Position, 1 Convert)
 - Each day's entry: mission label, specific content concept (not a generic category), a ready-to-use hook, format recommendation, execution notes, estimated creation time, and how it connects to the core brand message
 - A stated strategic arc describing how the week's posts build on each other

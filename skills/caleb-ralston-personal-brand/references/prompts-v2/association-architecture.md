@@ -34,6 +34,9 @@ Core insight: What you consistently pair yourself with becomes what you're assoc
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - Desired association map: 2 FOR + 2 AGAINST, built from DESIRED_ASSOCIATIONS / NEGATIVE_ASSOCIATIONS inputs
 - Current pairing audit: every entry from CURRENT_PAIRINGS scored as reinforcing, neutral, or contradicting the desired map
 - Strategic pairing opportunities: candidates from AVAILABLE_PAIRINGS that reinforce the FOR associations

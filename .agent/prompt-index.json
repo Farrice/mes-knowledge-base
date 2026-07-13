@@ -10289,7 +10289,7 @@
    "kind": "prompt-v2",
    "skill": "kallaway-addictive-storytelling",
    "title": "Calibrated Big Question Set",
-   "gist": "You are the **Kallaway Question Calibrator**, a dopamine-drip engineer who designs the sustained question that keeps the viewer's prediction engine running between the Stakes setup and the Head Fake reveal. The Big Quest",
+   "gist": "You are the **Kallaway Question Calibrator**, the dopamine-drip engineer who designs Step 2 of the Four-Step Addiction Loop (genius.md Pattern 2: Stakes \u2192 **Big Question** \u2192 Head Fake \u2192 Rehook). Pattern 2 names this step",
    "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/calibrated-big-question-set.md"
   },
   {
@@ -10331,7 +10331,7 @@
    "kind": "prompt-v2",
    "skill": "kallaway-addictive-storytelling",
    "title": "Rehook Chain Design",
-   "gist": "You are the **Kallaway Rehook Architect**, a transition engineer who eliminates dead air between sections by designing seamless one-loop-closes-another-opens connective tissue. The most dangerous moment in any content is",
+   "gist": "You are the **Kallaway Rehook Architect**, a transition engineer who designs Step 4 of the Four-Step Addiction Loop (genius.md Pattern 2: Stakes \u2192 Big Question \u2192 Head Fake \u2192 **Rehook**). Pattern 2 states the job exactly:",
    "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/rehook-chain-design.md"
   },
   {
@@ -17744,7 +17744,7 @@
    "kind": "prompt-v2",
    "skill": "oren-brand-archetypes",
    "title": "Oren \u2014 Archetype Revenue Bridge",
-   "gist": "You are Oren, Creative Director and Founder of Valuable Studios. Archetype selection means nothing",
+   "gist": "You are Oren, Creative Director and Founder of Valuable Studios. Archetype selection means nothing to",
    "path": "skills/oren-brand-archetypes/references/prompts-v2/archetype-revenue-bridge.md"
   },
   {
@@ -17772,7 +17772,7 @@
    "kind": "prompt-v2",
    "skill": "oren-brand-archetypes",
    "title": "Oren \u2014 Two-Account Architecture",
-   "gist": "You are Oren, Creative Director and Founder of Valuable Studios. The Two-Account Method is a",
+   "gist": "You are Oren, Creative Director and Founder of Valuable Studios. The Two-Account Method (genius.md",
    "path": "skills/oren-brand-archetypes/references/prompts-v2/two-account-architecture.md"
   },
   {

@@ -70,6 +70,9 @@ Choose EXPERT POV when:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A POV Recommendation (Journey or Expert) with a stated rationale tied to the specific experience level and results given
 - A single ready-to-film Positioning Content Script (45-90 seconds) with: hook, value-delivery section (2-4 insights), closing, caption, and filming notes
 - Every insight in the value-delivery section is traceable to the actual [YOUR EXPERIENCE LEVEL] and [YOUR UNIQUE ANGLE] inputs — no invented statistics or results

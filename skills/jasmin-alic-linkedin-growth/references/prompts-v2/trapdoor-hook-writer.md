@@ -45,6 +45,9 @@ End with a binary (Yes/No) or low-friction choice question. The question must re
 - Any post where the first instinct is to start with the product or the data.
 
 ## Output Contract
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 1. **The LinkedIn Post** — fully formatted for mobile display, including the three-line hook, body, mid-post tag, and CTA.
 2. **Logic Breakdown** — a table mapping each structural element to its implementation and the psychological trigger it activates.
 

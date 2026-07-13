@@ -40,6 +40,9 @@ End with a binary (Yes/No) or low-friction question based on the *emotion* of th
 You are authorized to strip all corporate fluff and "professionalism" in favor of raw, rhythmic clarity. If a technical term kills the flow, replace it with a rhythmic aphorism that conveys the same meaning.
 
 ## Output Contract
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 1. **The Remixed Post** — a complete, ready-to-publish LinkedIn text block.
 2. **The Comment Laboratory** — 3 high-value "additive" comments to leave on other people's posts, designed to drive traffic back to the remixed post.
 

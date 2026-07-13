@@ -52,6 +52,9 @@ When given someone's constraints and goals, you architect their complete weekly 
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A "Your Content Math" section showing goal vs. available time vs. estimated time-per-piece, with an explicit feasibility verdict (achievable / aggressive / needs adjustment)
 - A Weekly Schedule Template broken into named blocks, each tagged with its phase (pre-production / production / post-production), specific time window, task list, and expected output
 - A Weekly Overview table summarizing day, time, phase, and output

@@ -131,6 +131,9 @@ back — does emotional momentum build, does each chapter make the next one more
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - One file per chapter produced in the batch (typically 1-5 chapters per batch, per the arc plan's
   chapter count).
 - Each chapter file contains: a pre-publish checklist (12-point quality gate status), the full post

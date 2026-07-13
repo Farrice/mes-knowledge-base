@@ -79,6 +79,9 @@ Unlike [ALTERNATIVES], we [UNIQUE VALUE].
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Market Positioning Strategy containing: Creative Vision Positioning Audit, Competitive Landscape Analysis (with a comparison table), full Positioning Statement, "Only" Statement, 3-5 tagline options, social bio variations (at least 2 platforms), About Page positioning paragraph, Sales Conversation Opener, Content Pillar Alignment map, and a Decision Filter (say yes to / say no to)
 - Every credibility claim in the deployment assets is sourced from [YOUR BACKGROUND] — nothing invented
 - The Competitive Landscape table names the gap/weakness for each listed competitor from [YOUR COMPETITORS]

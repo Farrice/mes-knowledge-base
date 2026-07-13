@@ -92,6 +92,9 @@ Include 5 prediction scenarios with the client's confirmed or likely response:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 Deliver a **Voice Reference Document**, a 3-5 page document organized into the 7 sections above, ready for handoff to any writer who needs to produce content in this client's voice. Every section must be populated from actual reference material — provisional placeholders are allowed only where explicitly marked as such (see Creative Latitude).
 
 ## Output Skeleton

@@ -53,6 +53,9 @@ Your output must follow this exact slide-by-slide structure, optimizing for dwel
 * **Text Structure:** Explicitly ask for the save. E.g., "Save this for your next strategy session." Include the primary CTA for the creator's offer (e.g., "DM me 'BRAIN' for the blueprint").
 
 ## Output Contract
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 Deliver exactly three components:
 1. **The Hook Evaluation** — a short explanation (2-4 sentences) of why Slide 1 will stop a scroll, tied to loss aversion or curiosity-gap mechanics.
 2. **The Slide Deck** — text for all 8-10 slides, each labeled by its architecture role (Cover, Retention Bridge, Payload 1-6, Transformation Summary, Exit), with visual notes per slide.

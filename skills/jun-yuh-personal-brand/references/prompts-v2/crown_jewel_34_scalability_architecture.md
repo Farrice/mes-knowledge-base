@@ -74,6 +74,9 @@ What can be automated: scheduling, cross-posting, captions/transcription (AI), s
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Content Scalability Blueprint: Current State Analysis (what's happening now and why it doesn't scale linearly), Target State Definition (the scaling math showing how the target is achievable within stated time, not by working proportionally more hours), a Multiplication System diagram/breakdown showing how one core idea becomes N pieces, a Weekly Multiplication Workflow (day-by-day, matched to [RESOURCES]), an Output Breakdown table, a Template Library (one template per target format), a Quality Control section (the 80% Rule applied to this person's tiers), a Derivative Expansion Protocol, Implementation Phases (staged ramp-up), and Automation Recommendations (real, named tools where genuinely applicable — never fabricated tool claims)
 - The scaling math is shown explicitly: current hours/piece vs. target hours/piece, demonstrating the plan doesn't silently require more total hours than [RESOURCES] allows
 - No fabricated aggregate performance claim ("3-10x output," "50% reduction in blank-page moments") is presented as a guaranteed outcome — framed instead as what the multiplication logic makes possible

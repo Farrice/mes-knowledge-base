@@ -90,6 +90,9 @@ Set up simple tracking:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 Deliver a **Mode-Split Action Plan** with these components:
 1. Task classification table (workhorse vs. deep work vs. recharge) — every listed task assigned a category
 2. Speed benchmarks for each workhorse task, each with a current time and a 10-minute reduction target

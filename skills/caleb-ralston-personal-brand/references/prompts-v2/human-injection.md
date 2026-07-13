@@ -49,6 +49,9 @@ Core insight: Don't hide who you are to seem more "professional." The personal e
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - 2-3 authentic personal elements selected from PERSONAL_INTERESTS / PERSONALITY_TRAITS (never manufactured)
 - Natural integration points identified within CURRENT_CONTENT formats
 - Content ideas that combine the personal element with PROFESSIONAL_NICHE expertise

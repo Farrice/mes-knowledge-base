@@ -66,6 +66,9 @@ Throat-clearing openers to cut entirely (start with the actual point instead): "
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Refined Version of the content, matched to [TARGET LENGTH] and [CONTENT FORMAT]
 - A Before/After Comparison table covering: hook, hedge-word count, throat-clearing word count, total word count, punchiest line, and closing line
 - Refinement Notes explaining what changed and why, tied to specific edits made

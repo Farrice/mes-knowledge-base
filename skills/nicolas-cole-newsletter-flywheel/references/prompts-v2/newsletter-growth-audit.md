@@ -71,6 +71,9 @@ Month 3 — Scale: evaluate paid acquisition (if budget allows), launch a "best 
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - Acquisition audit table with identified biggest-gap channel
 - 5 signup-promise variations, asset-led not topic-led
 - Channel-specific tactics for every ACTIVE channel supplied (not every possible channel)

@@ -81,6 +81,9 @@ Sequencing principle: start with what can be delivered NOW, build complexity ove
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Content-to-Offer Ecosystem containing: Value Stack Architecture (tiers sized to this audience/price comfort), one full offer definition per tier being built (transformation, format, price, what's included, who it's for, time investment, capacity), a Content-to-Offer Pathway Map, a Revenue Model Projection (clearly labeled as estimates), a Content Calendar Integration table, and a 90-Day Implementation Roadmap
 - Revenue projections use realistic, labeled estimate ranges tied to [YOUR AUDIENCE SIZE] — never a fabricated precise total presented as a guaranteed outcome
 - Tier count and complexity match [YOUR AUDIENCE SIZE] and [YOUR AVAILABLE TIME] — a small audience gets a simplified stack, not a forced 5-tier build

@@ -72,6 +72,9 @@ Things that break authenticity:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - One complete post in the subject's voice, using only the signature phrases/patterns present in [VOICE PROFILE] — no invented phrases attributed to them
 - Any stat, claim, or "I've worked with N founders"-style line must come from real input (POSITIONING/BRIEF), never fabricated to sound more impressive
 - A voice verification table mapping each profile marker to where it shows up in the post

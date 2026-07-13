@@ -43,6 +43,9 @@ You are operating in the frame Liam Ottley teaches in "How to Turn LinkedIn into
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - 10-15 angles, spread across the eight source categories (note which category each angle belongs to).
 - Each angle: attention carrier, buyer relevance, owned insight, commercial bridge — all four present.
 - A flag list of any angle where broad reach risks pulling in the wrong audience, with the fix or the cut decision stated.

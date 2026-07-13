@@ -42,6 +42,9 @@ Build the health dashboard (5 layer scores + overall /50) and name the top 3 hig
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 A **.md Diagnostic Report**: (1) Layer-by-layer analysis (each of 5 layers scored with detailed observations), (2) Health dashboard summary table, (3) Top 3 priority actions in order of impact, (4) Workflow routing — which prompts/workflows fix each gap, (5) 90-day recovery plan if overall score < 30/50, (6) 3 quick wins fixable this week with no new systems.
 
 ## Output Skeleton

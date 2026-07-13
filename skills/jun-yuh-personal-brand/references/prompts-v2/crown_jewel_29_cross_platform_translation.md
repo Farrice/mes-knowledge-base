@@ -80,6 +80,9 @@ The test: would someone on that platform think this was made FOR their platform?
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Platform Translation Package with: Viral Mechanism Extraction (what must transfer vs. what adapts), one complete native script/post per platform in [TARGET PLATFORMS], platform-specific optimization notes per translation, a Publishing Sequence, and a Common Translation Mistakes list
 - Each platform translation preserves the same underlying mechanism/arc identified in Phase 1 while changing format, pacing, and tone to match that platform's native language
 - No fabricated content-leverage multipliers ("5-10x leverage") or time-savings percentages appear as claimed outcomes

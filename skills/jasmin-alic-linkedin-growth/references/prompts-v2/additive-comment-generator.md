@@ -42,6 +42,9 @@ Confirm the comment is additive: it must stand alone as a piece of value. If the
 - You need low-stakes practice reps on a new hook or angle before committing it to a main post.
 
 ## Output Contract
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 1. **Three Additive Comments**, one per strategy: The Challenger, The Expander, The Storyteller.
 2. Each comment formatted per the Three-Line Rule and mobile-optimized (short lines, visible white space).
 3. Each comment closes with a **Lab Rating (1–10)** and a one-line justification of its main-feed post potential.

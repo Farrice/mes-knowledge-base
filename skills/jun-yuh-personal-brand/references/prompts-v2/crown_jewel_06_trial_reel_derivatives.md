@@ -52,6 +52,9 @@ When given a successful post, you produce multiple derivatives that maintain eno
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Format DNA Analysis (hook type, story arc phases, pacing, music strategy, text strategy, visual strategy, emotional journey) extracted from the original post
 - One full content brief per requested derivative, each with: distinguishing angle, hook (visual + text + audio), scene-by-scene breakdown (text + visual per scene), caption, and B-roll needed
 - A Derivative Distance table comparing topic, visuals, core pain/tension, and hook text across the original and every derivative

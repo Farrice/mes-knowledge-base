@@ -70,6 +70,9 @@ You execute roadmap building: creating complete journey maps from zero to recogn
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A 3-phase, 90-day roadmap (Foundation/Momentum/Authority) broken into weekly action blocks
 - Phase-end metrics stated as achievable ranges (not guaranteed targets) tied to [RESOURCES]/[STARTING POINT], not generic numbers copied regardless of input
 - A stall-point protocol section addressing the 2-3 most common places people quit (per Hidden Knowledge #4: most quit around day 60)

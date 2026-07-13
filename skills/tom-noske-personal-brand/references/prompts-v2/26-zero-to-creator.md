@@ -107,6 +107,9 @@ The job is taking the audience from #2 to #3 using #1.
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 Deliver a Zero-to-Creator Launch Plan:
 - Fear-neutralization framework personalized to [FEARS]
 - Starting-point identification (expertise-based or document-your-escape), reasoned from [SKILLS] and [INTERESTS]

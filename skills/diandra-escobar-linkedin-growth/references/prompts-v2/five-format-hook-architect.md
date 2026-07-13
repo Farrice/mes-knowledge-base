@@ -68,6 +68,9 @@ Text-only: Dense or Punchy+Context (hook carries everything). Strong media (imag
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 8-10 hooks spread across the 4 formats with rotated sub-variants, each individually validated, plus a top-3 recommendation.
 
 ## Output Skeleton

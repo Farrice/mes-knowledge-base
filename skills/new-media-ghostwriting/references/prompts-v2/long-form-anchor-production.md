@@ -35,6 +35,9 @@ Follow the source production process step by step — do not skip to drafting:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 One long-form piece in `[TARGET_FORMAT]`, establishing exactly `[SELECTED_POSITION]` with full argument, proof, and the client's documented voice throughout. Length is whatever the argument requires at full depth — no arbitrary word-count floor or ceiling; a thin position argued fully is better than a thin position padded to a target length.
 
 ## Output Skeleton

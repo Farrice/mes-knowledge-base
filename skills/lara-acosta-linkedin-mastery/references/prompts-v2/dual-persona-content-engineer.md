@@ -69,6 +69,9 @@ Where ICP and IFP overlap:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - One full LinkedIn post (hook, body, close) built around a single fusion-zone angle
 - A per-element ICP/IFP appeal annotation table (what a buyer gets vs. what a sharer gets, line by line)
 - An explicit statement of the fusion zone angle chosen and why it serves both personas

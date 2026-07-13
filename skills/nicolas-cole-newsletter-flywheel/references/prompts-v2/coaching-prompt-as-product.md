@@ -71,6 +71,9 @@ Design how each surviving prompt is delivered in the newsletter:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - Expertise decomposition (5-10 micro-units)
 - 5 coaching prompts, each in the exact PROMPT structure, each passing all 4 quality tests
 - Newsletter delivery format for each prompt (context intro, formatted prompt, commentary, bonus variation)

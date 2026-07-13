@@ -65,6 +65,9 @@ All four formats below borrow an existing attention source (a brand, a news even
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 A single **.md Post Package** containing: (1) Format declared + pre-flight gate result, (2) Assessment scorecard (format-specific), (3) 3 angle options / the "So What?" ladder / position sharpening before-after (format-specific — Hot Take shows sharpening, not 3 angles), (4) The complete publish-ready post (hook + body + CTA), word count in the 150-350 range per format ceiling above, (5) Visual brief (1 sentence), (6) Boomerang notes if applicable, (7) Bucket classification (GROWTH confirmed).
 
 ## Output Skeleton

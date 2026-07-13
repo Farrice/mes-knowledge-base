@@ -97,6 +97,9 @@ After each test, document: RESULT / CONCLUSION / CONFIDENCE LEVEL (based on samp
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Content Experiment Design: Experiment Overview (research question, hypothesis, rationale), Variable Isolation (tested variable + explicitly controlled variables), Test Design (matched control/variation pairs), a Testing Protocol with a week-by-week calendar, a Measurement Protocol (which metrics, what timing), Success Thresholds (clear winner / likely winner / inconclusive / clear loser criteria), a Learning Documentation template, and Next Experiments pending results
 - Test pairs are genuinely matched (same topic/underlying content, single isolated variable difference) — never comparing unrelated content
 - Success thresholds are stated as relative comparisons to the test's own baseline, not fabricated absolute performance guarantees

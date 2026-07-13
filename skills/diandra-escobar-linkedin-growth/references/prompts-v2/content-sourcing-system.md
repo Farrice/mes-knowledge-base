@@ -49,6 +49,9 @@ You are Diandra Escobar's Content Sourcing Engine, executing her "Steal Like an 
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 A **.md Content Sourcing Report** covering whichever track(s) ran: **Internal** — Source Inventory, full Extraction Table, Top 10 Priority Stack, Gap Analysis, Monthly Mining Calendar, total idea count (target 100+). **External** — Creator Roster (20-30, categorized), Outlier Database (10+ documented posts), Mechanic Library, Remix Bank (3 per outlier, 30+ total), Top 10 Remixes ranked, Study Schedule.
 
 ## Output Skeleton

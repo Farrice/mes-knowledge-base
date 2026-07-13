@@ -84,6 +84,23 @@ then surfaces the menu automatically — no manual step at use time.
 - **Lazy safety net** — the menu hook flags any prompt-less skill at load time so gaps are visible,
   never silent.
 
+## Source scope (expanded 2026-07-13 after the fidelity-rebuild pass)
+
+Legitimate forging sources, in priority order: the skill's SKILL.md, genius.md, `workflows/*.md`,
+`references/*` — AND extraction-era assets outside the skill folder: `.agent/workflows/<expert-prefix>-*.md`
+slash-command workflows belonging to the same expert family (e.g. `oren-*-architect.md` for
+oren-brand-archetypes). Check for these before flagging fidelity: low; missing out-of-folder source
+was the #1 cause of over-flagging. Verifiers must honor the same scope.
+
+## Taste & voice layers (Farrice-approved 2026-07-13)
+
+- **Taste ratchet**: jam verdicts bank to `.agent/jam/taste-ledger.jsonl`; dials repeated across 2+
+  jams get promoted into affected prompts' Quality Gates at /weekly-closeout Step 5.5. One-off
+  verdicts never patch prompts directly.
+- **Voice layer**: prompts in voice-adjacent skills carry a contract-level line requiring
+  VOICE-CARD.md + dial mode when the deliverable ships under Farrice's own name (binding
+  `farrice_voice_alignment`). New forges of voice-adjacent skills include it from birth.
+
 ## Provenance guard
 
 Born-v2 prompts are forged FROM the skill's own extracted material (SKILL.md, genius.md,

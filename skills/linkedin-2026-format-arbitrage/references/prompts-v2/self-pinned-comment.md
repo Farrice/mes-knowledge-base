@@ -35,6 +35,9 @@ When generating this comment, choose ONE of the following archetypes based on th
 * Do not use generic questions like "What do you think?" Use highly specific questions: "Where does your system break down first?"
 
 ## Output Contract
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 Deliver exactly two components:
 1. **Archetype Selection** — one line naming which of the 3 archetypes was chosen and why, tied to the source post type (carousel/educational, selfie/story, or trapdoor text post).
 2. **Pinned Comment Text** — the exact comment text, filled to the chosen archetype's pattern, ending in a specific question or clear instruction (never a generic "thoughts?").

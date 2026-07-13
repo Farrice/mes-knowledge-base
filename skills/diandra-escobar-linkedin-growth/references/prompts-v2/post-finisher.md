@@ -53,6 +53,9 @@ Output the finished post with receipts explaining every choice.
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 The finished, publish-ready post plus a receipts block explaining bucket, register, media, the hook's format/validation/gap, the save architecture used (if any), the AI signal status, and a why-this-works rationale.
 
 ## Output Skeleton

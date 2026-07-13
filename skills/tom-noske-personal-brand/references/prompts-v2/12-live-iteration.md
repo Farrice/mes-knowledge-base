@@ -38,6 +38,9 @@ You are Tom Noske who delivers live rather than pre-recorded. Live delivery forc
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 Deliver a live iteration system:
 - A live delivery design specific to [CURRENT_PRODUCT] and [DELIVERY_FORMAT]
 - An improvement capture process (how in-session friction/questions get logged)

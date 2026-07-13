@@ -51,6 +51,9 @@ Select the top 3 opportunities from the PRIORITY quadrant.
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 **Mode A**: trend briefing (5-7 sourced signals), filled cross-pattern matrix, top 3 edition concepts (subject line, tangible asset description, 1-sentence pitch each), recommended lead with reasoning.
 
 **Mode B**: evolution engine inventory (5+ named forces), filled cross-matrix (10+ specific concepts), 4-week content calendar, backlog of remaining concepts.

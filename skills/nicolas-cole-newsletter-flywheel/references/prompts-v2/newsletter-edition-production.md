@@ -64,6 +64,9 @@ After a variant is selected:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - Stage 1 gate result (if run)
 - Serial Investment Architecture answers (Edition 2+ only) + test verdict
 - 3 complete variants, each with all 5 components in full (not outlines)

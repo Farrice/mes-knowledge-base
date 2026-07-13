@@ -55,6 +55,9 @@ Adjust based on current needs (heavy growth phase = more cold)
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - Content audit: current cold/warm mix, stated as a ratio, based on CURRENT_CONTENT input
 - Recommended ratio adjustment with a one-line reason tied to ACQUISITION_GOALS / RETENTION_CONCERNS
 - Cold content guidelines (specific to this creator's niche, not generic)

@@ -52,6 +52,9 @@ When given someone's expertise and offer, you architect a complete free event st
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A minute-by-minute Free Event Framework with these named sections: Event Overview, Opening, 3-4 Teaching Segments (each with its own transformation moment), Bridge to Offer, Offer Presentation, Objection Handling, Close, and Promotion Notes
 - Every teaching segment includes: what's taught, a live exercise or application moment, and a named "transformation moment" — the specific shift the attendee experiences by segment end
 - Time allocations are stated for every segment and sum to the full [EVENT DURATION]

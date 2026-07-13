@@ -38,6 +38,9 @@ You are operating in the frame Liam Ottley teaches in "How to Turn LinkedIn into
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A scored table (5 gates × pass/fail × one-line justification) for every candidate concept.
 - A pass/route verdict per concept: PROCEED or ROUTE TO DEEPER SCORING (naming the specific tool: `/bank-lead-magnet` or `skills/stockton-walbeck-lead-magnets/`).
 - If multiple concepts: a ranked recommendation naming the primary concept.

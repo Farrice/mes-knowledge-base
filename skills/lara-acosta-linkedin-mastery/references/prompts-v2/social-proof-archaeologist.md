@@ -100,6 +100,9 @@ Ask for each category:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - All 6 proof categories addressed, populated only with proof points the person actually supplied via the excavation prompts — never invented on their behalf
 - Each real proof point rated 1-5 (★) for strength
 - Explicit GAP markers for any category with no real supplied proof, paired with a gap-filling action (not a filler proof point)

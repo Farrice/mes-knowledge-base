@@ -43,6 +43,9 @@ End with a statement or a low-stakes question that invites the audience to view 
 You are encouraged to use industry-specific jargon and "insider" shorthand to build immediate tribal credibility. Adapt the rhythm to the vibe of the anchor creator — punchier for "hustle" creators, more sophisticated for "C-suite" voices.
 
 ## Output Contract
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 1. **A "Strike Plan"** of 3 distinct comment archetypes: The Expander, The Challenger, The Humanizer — each ready to paste.
 2. **Comment Laboratory Notes** — 1–2 short forward-looking notes on which comment angle is worth expanding into a full post or newsletter line.
 

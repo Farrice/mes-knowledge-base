@@ -52,6 +52,9 @@ When given someone's current positioning and desired new direction, you architec
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A 90-Day Pivot Strategy containing: Pivot Distance Assessment, Bridge Story narrative, 4-Phase structure with per-phase content-mix percentages, a week-by-week content calendar, one full direct-address announcement script, metrics to monitor, and contingency guidance
 - The Bridge Story is derived only from [YOUR WHY] and [OVERLAP ELEMENTS] — no invented backstory
 - The week-by-week calendar spans the full stated timeline (default 12 weeks if 90 days is chosen) and shows the shifting balance from old to new direction

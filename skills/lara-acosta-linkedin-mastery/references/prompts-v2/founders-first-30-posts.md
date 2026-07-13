@@ -91,6 +91,9 @@ You execute content generation: producing 30 posts covering all content types an
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - 30 complete posts (hook + body + close), each tagged: post number, type, pillar, suggested publish day
 - Distribution matches 12 Educational / 9 Story / 6 Opinion / 3 Promotional
 - Every story post and every stat referenced comes from [STORY ELEMENTS]/[EXPERTISE AREAS]/real input — never an invented client name, invented dollar figure, or invented percentage improvement

@@ -47,6 +47,9 @@ Core insight: Students learning in public build brands on authenticity. Experts 
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - An honest assessment of ACHIEVEMENTS and PUBLIC_WS against the Expert/Student signal lists
 - A Student or Expert determination, with the deciding evidence named
 - A content strategy matched to the correct identity (document-the-journey vs. teach-from-results)

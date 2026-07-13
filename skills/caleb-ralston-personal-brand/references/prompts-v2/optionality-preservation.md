@@ -42,6 +42,9 @@ For each public position:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A position inventory covering every entry in CURRENT_POSITIONS and PLANNED_POSITIONS
 - A Prison Test sustainability assessment per position (5-year, 10-year, opportunities closed, hill-worth-dying-on verdict)
 - Named intentional vs. accidental constraints

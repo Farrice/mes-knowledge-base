@@ -64,6 +64,9 @@ When an ICP replies to your comment with genuine interest:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 **Deliverables:**
 1. Named Target List: accounts categorized by the four 30/30/30/10 buckets with the specific objective per bucket stated
 2. Comment Angle Matrix: for each bucket, 2–3 psychological angles (e.g., Contrarian Depth, Gravedigger Bridge, Ugly Number Hook) with example sentence starters

@@ -91,6 +91,9 @@ The WHAT changes for people.
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - 3 named pillars, each with a one-line description mapped to DO/BELIEVE/ENABLE
 - 15 topics per pillar (45+ total), each tagged by content type (E/S/O/P)
 - A hook angle (not a full hook) for each topic — the one-line reason it would stop a scroll

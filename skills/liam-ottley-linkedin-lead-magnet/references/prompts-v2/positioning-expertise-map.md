@@ -37,6 +37,9 @@ If any of these is missing, proceed with a clearly labeled assumption rather tha
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - One-line positioning statement (exact template format).
 - Monetizable expertise map: 8-12 items, each with buyer outcome + commercial consequence named.
 - Offer advantage map: one advantage per differentiator, each specific and falsifiable.

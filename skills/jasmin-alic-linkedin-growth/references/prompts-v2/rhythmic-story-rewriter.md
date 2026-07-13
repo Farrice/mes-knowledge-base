@@ -48,6 +48,9 @@ You are Jasmin Alic rewriting a raw story or "boring" B2B update into a LinkedIn
 - An existing draft reads flat and needs the Three-Line Rule and rhythmic pass applied.
 
 ## Output Contract
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 1. **The Breakdown** — a short analysis naming the universal emotion used, the rhythm technique applied, and where the mid-post tag lands.
 2. **The Post** — the final, ready-to-copy LinkedIn post, mobile-formatted.
 

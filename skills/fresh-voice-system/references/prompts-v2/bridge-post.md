@@ -84,6 +84,9 @@ checks:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - One bridge post file containing: a pre-publish checklist (serial narrative gate + bridge-specific
   gate, both explicitly marked passed), an offer-details section (what/CTA/tone), the full post
   content ready to copy/paste to LinkedIn, and an Internal Notes section covering open-loop status

@@ -50,6 +50,9 @@ This prompt is the systematic version of the Trapdoor methodology — designed f
 - Creating a systematic hook-generation process for a content team working across multiple niches.
 
 ## Output Contract
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 1. **The Emotional Architecture** — a table mapping the niche pain to its universal emotional mirror, with 3 candidate Line 1 hooks rated by broad appeal.
 2. **The Three-Line Hook Set** — 3 complete hook architectures (Line 1 + White Space + Line 3 cliffhanger) for the same niche, each pulling a different emotion.
 3. **The Full LinkedIn Post** — one complete post using the strongest hook architecture, containing: three-line hook, narrative bridge, rhythmic body, mid-post tag, frictionless close.

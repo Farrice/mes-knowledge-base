@@ -42,6 +42,9 @@ Core insight: High-ticket buyers rarely comment publicly—they DM, email, or te
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A buyer-signal definition specific to OFFER_TYPE and BUSINESS_MODEL
 - Every entry from FEEDBACK_SOURCES mapped to its correct tier in the 5-tier hierarchy
 - A tracking mechanism per tier, scoped to the sources the user actually has access to

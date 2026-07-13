@@ -79,6 +79,9 @@ Isolate the replicable structure: what can be copied exactly, what needs adaptat
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Viral Intelligence Report with these named sections: Hook Deconstruction, Story Arc Map, Emotional Trajectory, Technical Measurements, Psychological Triggers Activated, Replicable Format Template, Niche Adaptation (3-5 angles), Implementation Checklist
 - Performance data appears ONLY as supplied in [PERFORMANCE METRICS] — no invented benchmark comparisons, "X times normal" multipliers, or predicted lift percentages
 - The Replicable Format Template is stripped of the source piece's specific content — pure structure with time markers

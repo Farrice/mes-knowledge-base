@@ -70,5 +70,5 @@ The agent will dynamically list skills, but common ones include:
 
 - Skills are located in: `/Users/farricecain/Google Antigravity/skills/`
 - Each skill contains a `SKILL.md` with overview and prompt library
-- Prompts are typically in `references/prompts/` within each skill
+- Execution prompts live in `references/prompts-v2/` (structure-pure v2 — honor each prompt's Output Contract/Skeleton/Quality Gate). Legacy `references/prompts/` originals exist for some skills; v2 is authoritative when both are present
 - If a skill hasn't been created yet, suggest using `/convert-extraction` first

@@ -56,6 +56,9 @@ Write the full profile spec so a niche visitor knows in 3 seconds what you do an
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - **Profile Spec**: headline, banner copy, about section (written out in full), featured-link architecture + capture flow with named CRM fields
 - **Content System**: pillar map, 10 finished example posts (2 per type, all five types covered), lead magnet specs (2-3), AI production loop instructions (if applicable), weekly posting schedule sized to the stated time budget
 - **Email Pack**: cadence rules + 3 finished plain-text emails (story, case-study, invitation)

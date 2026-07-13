@@ -91,6 +91,9 @@ Generate 10 ready-to-use prompts calibrated to this creator's system, following 
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 A **.md Claude Project Setup Kit**: (1) Complete instructions template, copy-paste ready, (2) Knowledge base file checklist with descriptions, (3) 10 ready-to-use example prompts, (4) Calibration protocol (step-by-step), (5) Monthly maintenance schedule.
 
 ## Output Skeleton

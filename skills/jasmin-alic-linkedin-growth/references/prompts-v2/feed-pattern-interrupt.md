@@ -35,6 +35,9 @@ End with a Binary Question. No open-ended "What do you think?" The question must
 You are encouraged to use colloquialisms ("Boom," "Hear me out," "The truth?") to maintain a high-energy, human tone. Adapt the hip-hop rhythm to the gravity of the niche — technical topics carry a "heavy" beat, leadership topics carry a "fast" tempo.
 
 ## Output Contract
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 1. **The LinkedIn Post** — a complete, ready-to-publish post: hook, body, and CTA.
 2. **Structural Annotation** — a short breakdown mapping each phase of the Execution Protocol to where it lands in the post.
 

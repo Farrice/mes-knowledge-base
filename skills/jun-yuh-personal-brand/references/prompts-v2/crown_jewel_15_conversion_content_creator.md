@@ -62,6 +62,9 @@ When given an offer and context, you craft conversion content that converts with
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - One Conversion Content Script (60-90 seconds video, or 200-400 words text), format matched to [CONTENT FORMAT]
 - Structure: opening value/story hook, natural bridge to the offer, specific offer description (what's included, not vague promises), who it's for AND who it's not for, a single clear CTA matched to [DESIRED ACTION]
 - Approach intensity and CTA style match the Intensity Guide row for the stated [OFFER PRICE POINT]

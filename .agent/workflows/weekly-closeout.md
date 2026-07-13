@@ -68,6 +68,10 @@ python3 execution/forge_gate.py status
 - **REVIEW-tier pass**: present up to 5 REVIEW-tier skills for archive judgment (`skill_auditor.py archive --tier REVIEW --names <approved> --annotate --apply`).
 - **Extraction telemetry** (informational only — extractions are never gated): report the last extraction's production-use count from `forge_gate.py status`.
 
+### 5.5. Taste Ratchet (~3 min — Farrice-approved 2026-07-13)
+
+Review new entries in `.agent/jam/taste-ledger.jsonl` since last closeout. For any **dial that has repeated across 2+ jams** (e.g. "natural spoken phrasing over formal," "density-per-beat"), promote it into the Quality Gates of the affected domain's v2 prompts (`skills/<skill>/references/prompts-v2/`) as ONE checkable criterion — then re-run `python3 execution/renaissance_audit.py` + `python3 execution/prompt_library.py build` + `python3 execution/wire_prompt_pointers.py --write`. One-off verdicts stay in the ledger; only repeated taste becomes law. Skip silently if no new entries.
+
 ### 6. Close
 
 One-paragraph summary: what closed, what drained, what drifted. Then:

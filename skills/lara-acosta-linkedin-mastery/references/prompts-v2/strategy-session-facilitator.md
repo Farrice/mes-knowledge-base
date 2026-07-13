@@ -100,6 +100,9 @@ Framework application:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - The full 5-module question sequence with timing, delivered before any synthesis happens
 - Per-question "listen for" guidance and a probe to use if the answer is shallow or too broad
 - A module-by-module synthesis step that restates back what was heard, inviting confirmation

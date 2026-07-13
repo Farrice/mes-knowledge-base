@@ -39,6 +39,9 @@ Provide the Notion Kanban structure: Column pipeline (Ideas → Needs Draft → 
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 A **.md Editorial Calendar**: (1) 4-week calendar table (all posts mapped: date, bucket, format, north star, topic), (2) Bucket audit confirming ratio compliance, (3) North star coverage check, (4) Format distribution check, (5) Notion Kanban setup guide (columns, properties, views), (6) Content bank starter — 10+ topic ideas categorized by bucket for future weeks.
 
 ## Output Skeleton

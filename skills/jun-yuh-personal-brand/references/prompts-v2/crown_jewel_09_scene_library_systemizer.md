@@ -52,6 +52,9 @@ When given someone's content style and life context, you architect their persona
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A complete Scene Library System with: Folder Architecture (tree diagram), Naming Convention, Master Scene Categories (grouped by type, each with 4-6 specific shots), Priority Shot List for a single filming session, Gap Analysis Checklist, and Storage Recommendations
 - The folder architecture reflects the user's stated [YOUR CONTENT STYLE], [YOUR CONTENT PILLARS], [YOUR DAILY ENVIRONMENTS], and [EMOTIONAL TONES NEEDED] — not a generic template applied unchanged
 - Every category in Master Scene Categories includes concrete, filmable shot descriptions (angle, action, mood) — not abstract labels

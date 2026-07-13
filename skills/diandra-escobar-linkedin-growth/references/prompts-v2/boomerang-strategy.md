@@ -55,6 +55,9 @@ Predict and prepare for each likely response type:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 A **.md Boomerang Strategy Brief**: (1) Viability Score with per-dimension breakdown and go/no-go, (2) Subject Response Prediction with handling notes per type, (3) Post Optimization Notes — specific edits to the draft, (4) Tag Strategy recommendation with reasoning, (5) Timing recommendation, (6) Post-Publication Checklist (2-hour protocol), (7) Capture Plan for future authority content.
 
 ## Output Skeleton

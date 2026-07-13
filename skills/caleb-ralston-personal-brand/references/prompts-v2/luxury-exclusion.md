@@ -48,6 +48,9 @@ Core insight: Clearly communicating who your brand is NOT for creates exclusivit
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - Ideal customer profile, one paragraph, built from IDEAL_CUSTOMER + BRAND_VALUES inputs
 - Explicit exclusion statements across the 4 categories (mindset, behavior, values, commitment), each filled from COMMON_MISFITS / NON-CUSTOMER inputs
 - Exclusion language that reads as firm, not cruel — ready to drop into copy

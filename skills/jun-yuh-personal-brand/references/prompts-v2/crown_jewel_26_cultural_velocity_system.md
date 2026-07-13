@@ -82,6 +82,9 @@ Produce complete trend-aligned content: a hook optimized for trend discovery, a 
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Cultural Velocity Content Package: Trend Analysis (what's happening, why it's trending, velocity assessment, opportunity window), Relevance Mapping (connection type + authenticity check), 3-5 Content Angles with hooks, a full script/post for the top 1-2 angles, hashtag/discoverability notes, and a timing + deployment strategy
 - The Relevance Mapping explicitly states whether the trend passes the Authentic Connection Test — and if it's a weak/forced connection, says so rather than manufacturing enthusiasm
 - Timing recommendations match the trend's classified velocity (Phase 1) and the stated [TIMING URGENCY]

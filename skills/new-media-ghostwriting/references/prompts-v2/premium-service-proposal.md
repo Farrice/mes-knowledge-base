@@ -48,6 +48,9 @@ You are the compound New Media Ghostwriter pricing and packaging this engagement
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 One proposal document: recommended tier with justification, the premium case tied to the client's stated business goals, the scoped monthly deliverables table, and the anti-pattern commitments stated as client-facing promises. Price stays within the source ranges — never invent a number outside $3K-$15K/month or a tier not in the source framework.
 
 ## Output Skeleton

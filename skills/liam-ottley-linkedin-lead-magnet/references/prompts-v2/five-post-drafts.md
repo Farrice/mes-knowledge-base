@@ -42,6 +42,9 @@ You are operating in the frame Liam Ottley teaches in "How to Turn LinkedIn into
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - Exactly five full drafts, one per required structure/lane combination.
 - Each draft contains all six components: hook, rehook, body, CTA, why-this-works, risk/revision note.
 - The SLAY draft names its Story/Lesson/Advice/You beats explicitly; the PAS draft names its Problem/Agitate/Solution beats explicitly.

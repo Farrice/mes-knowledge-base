@@ -61,6 +61,9 @@ When given underperforming content, you diagnose exactly why it's not working an
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Content Diagnosis Report with: Overall Diagnosis (primary/secondary/tertiary issues with confidence ratings), Hook Analysis, Avatar Alignment Assessment, Mission/Execution Assessment, Format Fit Evaluation, Value/Transformation Assessment, and (if relevant to the format) Technical Checklist
 - A Priority-Ranked Fixes section ordering remediation by impact (CRITICAL / HIGH / MEDIUM), each fix concrete and immediately actionable
 - A Rewritten Content Approach showing the specific new hook/angle/structure recommended

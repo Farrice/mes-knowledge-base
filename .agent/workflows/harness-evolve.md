@@ -50,3 +50,9 @@ For each iteration:
 2. **Change log** — every modification with rationale
 3. **Performance delta** — before/after scores on the search set
 4. **Generalization check** — performance on 2-3 examples not in the search set
+
+---
+
+## Prompt Coherence Guard (2026-07-13 — spec: `directives/prompt-forging-spec.md`)
+
+If the skill being modified has `references/prompts-v2/`, its execution prompts were forged FROM the workflow/genius material this run may have just changed. Before closing out: reconcile any prompt whose Execution Protocol no longer matches the evolved methodology (edit the v2 file, or re-forge it per spec), then re-run the wiring trio — `python3 execution/renaissance_audit.py` (0 fail) → `python3 execution/prompt_library.py build` → `python3 execution/wire_prompt_pointers.py --write`. An evolved skill with stale prompts silently desyncs the deterministic layer.

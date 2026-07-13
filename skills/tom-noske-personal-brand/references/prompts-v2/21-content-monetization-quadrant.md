@@ -92,6 +92,9 @@ Free content builds authority by giving away the complete WHAT and WHY — the k
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 Deliver a Content Monetization Blueprint:
 - Content audit with quadrant classification for every item in [CURRENT CONTENT]
 - Revenue leak identification (free How/Now)

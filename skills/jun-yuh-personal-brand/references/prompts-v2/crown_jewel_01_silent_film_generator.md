@@ -52,6 +52,9 @@ When given a transformation story, you produce a complete Silent Film content pa
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A scene-by-scene Silent Film production blueprint, 8-12 scenes, designed for a 45-90 second final video
 - Each scene specifies: visual direction, exact on-screen text, duration in seconds, B-roll type (static/dynamic), and any music cue
 - One explicit time anchor placed in the opening frame

@@ -71,6 +71,9 @@ Fill the Voice Profile with every section populated from Phases 2-4. Write 3 exa
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 Completed Voice Profile document. All fields specific to this person — no field readable as describing multiple people. Every claim traceable to a transcript moment or content sample. Must include: Voice Summary, all 6 Voice DNA components, all 4 Spectrum positions with evidence, full Belief Map (5 elements), Reasoning Architecture (Phase 3.5), Signature Elements Library, DO/DON'T guardrails, 4-5 Voice Drift Warnings, 3 example sentence pairs, 1 test paragraph that passes the Voice Consistency Checklist, confidence notes per section, and a Path indicator (A or B) with data-gap notes if Path B. Does NOT include content strategy, content pillars, posting schedules, rhetorical elevation devices, or platform-specific adaptations — those belong to the content-production deliverable.
 
 ## Output Skeleton

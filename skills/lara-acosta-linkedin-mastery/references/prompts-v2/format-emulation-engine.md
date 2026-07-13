@@ -100,6 +100,9 @@ What changed: [the thing]
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A structural breakdown of the input [VIRAL POST]: format type, numbered structure elements, psychological mapping
 - One emulated post applying that exact structure to [YOUR TOPIC], using only facts/numbers supplied in inputs — never a fabricated result to fill a structural beat
 - A verification checklist confirming each structural beat from the original survived in the emulation

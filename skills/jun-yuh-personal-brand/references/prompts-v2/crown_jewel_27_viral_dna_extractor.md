@@ -65,6 +65,9 @@ Produce: an exact formula/template for replication, a variable-substitution guid
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Viral DNA Report: 12-Variable Analysis (each variable scored/assessed with a brief justification), Performance Attribution (primary/secondary/tertiary drivers, clearly labeled as analytical estimates), Transferability Assessment, a Replication Blueprint/Formula, Niche Adaptation examples, Failure Points to Avoid, and Platform Adaptation Notes
 - Any performance metric cited is either directly from [PERFORMANCE DATA] as supplied, or the analysis proceeds qualitatively without inventing numbers
 - Variable scores/weights are presented as the analyst's calibrated judgment, never as a measured/validated statistic unless the user supplied benchmark data

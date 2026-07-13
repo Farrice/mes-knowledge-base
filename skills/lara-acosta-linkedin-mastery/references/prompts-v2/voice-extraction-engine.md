@@ -89,6 +89,9 @@ You execute voice extraction: analyzing samples to create deployable voice profi
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A 5-dimension analysis, each dimension's findings quoted or paraphrased directly from the actual [WRITING SAMPLES]/[SPEAKING SAMPLES]/[INTERVIEW RESPONSES] supplied — never invented for a hypothetical person
 - A signature phrase library containing only phrases that actually appear in the samples (or, for Option B, phrases the person stated they'd want to use)
 - Do/Don't writing guidelines derived from the analysis

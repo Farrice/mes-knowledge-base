@@ -64,6 +64,9 @@ Generate a prioritized list of adjustments using this branching logic:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - Rule 1 and Rule 2 status, with Faucet Health Score shown as a calculated percentage
 - Metric diagnosis table, populated only for symptoms actually present in the supplied metrics
 - Domain evolution scan with 3+ named upcoming shifts

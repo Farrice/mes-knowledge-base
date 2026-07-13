@@ -48,6 +48,9 @@ Each post maps to a specific anxiety or aspiration of the newly connected ICP se
 - A founder who is posting consistently but attracting the wrong followers or engagement from peers rather than buyers
 
 ## Output Contract
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - **Format**: A 30-day Audience Design Blueprint in structured Markdown
 - **Sections**: ICP definitions + Boolean search strings, Hub account list with rationale and comment angles, 20/5 daily execution protocol with connection note template, 5-post Narrative Funnel mapped to ICP pain points, success signal definitions (what "working" looks like by week)
 - **Length**: Full tactical guide suitable for handoff to a founder or ghostwriter — no placeholder sections

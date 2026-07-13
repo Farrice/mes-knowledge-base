@@ -63,6 +63,9 @@ When given a topic and format, you engineer a complete hook arsenal ready for im
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Hook Arsenal of 15-20 hooks, grouped under the hook-type taxonomy headers (use the types that fit the topic; not every type needs entries)
 - Each hook includes: hook text/script, type classification, visual recommendation, audio/music note if relevant, best format, and a one-line "why it works" psychology note
 - If [CONTENT FORMAT] includes carousel, at least 2-3 dedicated Carousel Cover hooks (large-text/small-text pairing) are included

@@ -53,6 +53,9 @@ Map the outputs to a weekly schedule:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - 3 LinkedIn posts, ready to publish, formatted per their distinct structures
 - Case study snapshot (only if services are offered) — real metrics only, no fabricated figures
 - Weekly content calendar showing newsletter + LinkedIn working together

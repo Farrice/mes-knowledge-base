@@ -79,6 +79,9 @@ Produce section-by-section sales page copy: headline + subheadline, opening hook
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A full sales page in five acts (Pain, Breaking Point, Pursuit/Solution, Payoff/Proof, Close/Invitation), each act's copy purpose stated alongside the copy itself
 - Headline + subheadline options (2-3 variants)
 - Objection handling woven in for every objection listed in [OBJECTIONS]

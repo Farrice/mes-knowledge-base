@@ -43,6 +43,9 @@ Assemble according to `[OUTPUT MODE]`:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 Demo Package with four components: `voice-profile-abbreviated` (confidence-graded profile + disclaimer section), `demo-package` (before/after content, format per output mode), `dm-script` (outreach and both modes only — the exact sequence to send), `source-posts` (the original collected posts as reference). Never send the package unsolicited — the outreach sequence always opens with a permission request before the payload.
 
 ## Output Skeleton

@@ -70,6 +70,9 @@ Close the post with a conversion architecture that moves followers from content 
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 **Deliverables:**
 1. Outlier Physics deconstruction: Trigger, Hook Physics, and Engagement Signal identified
 2. Format Pivot decision with justification for chosen format type

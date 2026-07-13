@@ -78,6 +78,9 @@ Design content that maximizes the primary signal, triggers secondary signals, av
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - An Algorithm Intelligence Report with these named sections: How the Algorithm Works (mechanics), Signal Hierarchy (ranked tiers, not invented exact percentages), Distribution Triggers, Distribution Killers, Optimal Content Engineering, Timing Guidance, Common Myths Debunked, Pre-Post Checklist, and a Performance Diagnosis tied to [YOUR CURRENT PERFORMANCE]
 - Signal importance is expressed as relative tiers (Primary / Secondary / Supporting) rather than fabricated exact percentage weights
 - Every recommendation ties back to [PLATFORM], [YOUR CONTENT TYPE], or [YOUR GOAL] as supplied — not generic advice that would apply to any platform

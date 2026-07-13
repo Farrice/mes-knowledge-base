@@ -52,6 +52,9 @@ For each platform the client will actually use, write a platform voice card: how
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 One Media Architecture Blueprint containing: the completed culture platform map with per-platform voice cards, the four-part content city (Grand Central Station / Content Lines / Trust Pathways / Revenue District), an explicit written-first pipeline statement, and the LinkedIn power-base design (profile direction, post-mix, cadence, revenue bridge). Every element must trace back to something in the Voice Intelligence Document — no platform strategy invented independent of the client's actual voice and controversy map.
 
 ## Output Skeleton

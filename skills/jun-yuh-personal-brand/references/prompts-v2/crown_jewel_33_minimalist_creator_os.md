@@ -68,6 +68,9 @@ Build systems for: idea drought (emergency idea bank), missed days (buffer conte
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Minimalist Creator Operating System with: a Weekly Rhythm (time-blocked, summing to [YOUR TIME BUDGET]), one workflow section per pillar (Ideation, Creation, Publishing, Engagement, Iteration), a minimal Tool Stack, Emergency Protocols, and Checklists (batch day, daily, weekly review)
 - The Weekly Rhythm's total hours match [YOUR TIME BUDGET] and are scheduled around [YOUR LIFE CONSTRAINTS] as stated (specific days/times respect the constraints given, not generic placement)
 - Every pillar section addresses [YOUR BIGGEST FRICTION POINTS] directly — at least one Emergency Protocol maps to each stated friction point

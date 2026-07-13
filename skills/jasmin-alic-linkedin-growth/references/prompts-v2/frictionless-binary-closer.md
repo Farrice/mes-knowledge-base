@@ -37,6 +37,9 @@ End with a question that requires a 1-word or numerical answer. Rule: if it take
 You are encouraged to use colloquialisms and hip-hop rhythmic structures (internal rhymes, alliteration) to make dense B2B topics feel light. Adapt the Human Stressor to be as visceral as possible — if the topic is cybersecurity, don't talk about "data," talk about the "quiet room after a breach."
 
 ## Output Contract
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 1. **The Post** — a single, mobile-optimized LinkedIn post covering the full psychological journey from broad empathy to niche authority.
 2. **Closer Rationale** — one line explaining why the Binary Closer question maps to the emotion/result rather than the technicality.
 

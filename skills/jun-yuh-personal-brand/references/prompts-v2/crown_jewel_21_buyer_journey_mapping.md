@@ -81,6 +81,9 @@ Produce a complete ecosystem: weekly content calendar with mission assignments, 
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Content-to-Conversion Ecosystem containing: Buyer Journey Map (awareness stages → missions), Mission Breakdown with content ideas per mission (5+ ideas per mission, topic-level not finished scripts), Weekly Content Calendar with mission assignments, per-platform deployment sections for each stated platform, a Platform Deployment Matrix, a Gap Analysis diagnosing the stated [YOUR CURRENT GAPS], and a 30-Day Implementation Plan
 - Content ideas are original angles grounded in [YOUR OFFER] and [YOUR AVATAR] — not fabricated specific dollar results, follower counts, or client names presented as real
 - No invented aggregate performance statistics ("3-5x higher conversion," "40% reduction in time-to-purchase") — these are structural/psychological claims about the framework, not measured outcomes for this specific plan

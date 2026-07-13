@@ -85,6 +85,9 @@ Compile the complete inventory: a numbered table mapping each atom to its source
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 Deliver a **Content Atomization Package** with exactly these components:
 
 1. **Chapter-by-chapter atom extraction inventory** — every chapter run through the Step 1 atom types, with a count per type.

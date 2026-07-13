@@ -52,6 +52,9 @@ The cliffhanger that triggers "Read More" must feel like an unfinished thought �
 - Reviewing a week's content batch to ensure no two posts open with the same lever
 
 ## Output Contract
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - **Format**: Comparison table with the "Standard Marketing Hook" baseline vs. 3–5 distinct Stealth Hook variants
 - **Per-variant elements**: The Hook (lines 1–3), the psychological lever used and why it works, the Read-More Trigger (what specifically creates the unresolved tension)
 - **Optional addendum**: A sample body opening (3–5 lines) for the strongest variant, showing how the hook hands off to the narrative

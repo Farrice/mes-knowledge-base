@@ -54,6 +54,9 @@ When given basic audience information, you map the complete psychological terrai
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - One Avatar Psychographic Profile document covering: Avatar Identity Summary, Core Desires (surface vs. deep), Hidden Fears (public-facing vs. private), Current Frustrations (about their situation, about advice received, about the industry), Internal Language (self-talk phrases, late-night searches, the loop they're stuck in), Content Consumption Habits (described by category/type, not fabricated specific real names unless the user supplied them), Dream Transformation (external + identity-level), Objections to the Solution, Triggers That Make Them Act, and a "Day in Their Life" narrative
 - Every claim in the profile is either derived from the stated inputs or explicitly flagged as an inference ("likely," "probably") — nothing presented as researched fact that wasn't supplied
 - Content-consumption habits describe category and type (e.g. "productivity-focused business podcasts," "creator income-transparency content") rather than inventing specific named creators/shows unless [WHAT YOU KNOW ABOUT THEM] supplied real ones

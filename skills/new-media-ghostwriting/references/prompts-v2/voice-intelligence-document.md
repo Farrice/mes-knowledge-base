@@ -48,6 +48,9 @@ You are the compound New Media Ghostwriter opening Phase 1 of a premium ghostwri
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 One Voice Intelligence Document with these components, all present:
 1. Voice profile (rhythm, vocabulary, story structure, humor, conviction phrases) — each claim backed by a source quote or transcript fragment, not asserted in the abstract
 2. Joe Rogan Test score (1-10) with per-question justification

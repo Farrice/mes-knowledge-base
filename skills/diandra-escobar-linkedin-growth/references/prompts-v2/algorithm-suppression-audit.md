@@ -46,6 +46,9 @@ Sum all 6 layers (/60). Classify: 50-60 🟢 Algorithm-Optimized (minor tweaks);
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 A **.md Algorithm Suppression Report**: (1) Scorecard — all 6 layers scored with suppression risk indicators, (2) Root cause analysis — the #1 reason the algorithm is deprioritizing this account, (3) Fix prescriptions ordered by impact, (4) 3 quick wins executable before the next post, (5) Workflow routing per gap, (6) 30-day recovery timeline.
 
 ## Output Skeleton

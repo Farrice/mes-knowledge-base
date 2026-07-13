@@ -39,6 +39,9 @@ This is crucial for the 2026 algorithm. You must structure the DM response.
 * **DM Script requirement:** Deliver the link, then ask a qualifying question. (e.g., "Here's the blueprint: [Link]. Quick question: What's the biggest bottleneck in your coaching business right now?")
 
 ## Output Contract
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 Deliver exactly three components, in this order:
 1. **The Post Text** — ready to paste into the LinkedIn feed. Follows the 1-3-1 structure (1 hook, 3 tease concepts, 1 soft CTA). No links or external CTAs in the post body.
 2. **The Asset Title** — one compelling name for the PDF/guide being offered, framed as a deliverable outcome, not a generic label ("guide," "resource").

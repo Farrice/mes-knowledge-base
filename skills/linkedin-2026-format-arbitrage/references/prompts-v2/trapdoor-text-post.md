@@ -40,6 +40,9 @@ Your output MUST rigidly adhere to these structural constraints:
 * **Mechanism:** The question must be *easy* to answer (yes/no, or a simple A/B choice) but invite elaboration.
 
 ## Output Contract
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 Deliver exactly two components:
 1. **The Post Text** — exactly as it should be pasted into LinkedIn, following the HLCP structure: 3-line trapdoor, 3-beat payload, closing prompt.
 2. **The Trapdoor Analysis** — a 2-sentence explanation of why the first 3 lines force the "see more" click, naming the specific mechanism used (pattern interrupt, jarring statistic, or contrarian claim).

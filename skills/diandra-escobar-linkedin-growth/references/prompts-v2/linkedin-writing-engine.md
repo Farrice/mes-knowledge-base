@@ -53,6 +53,9 @@ Never mismatch bucket and CTA:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 A **.md Post**: (1) Intent declaration (bucket + primary metric), (2) The body (150-300 words), (3) 5 hook candidates mined from the body with reasoning, (4) The final assembled post (hook + body + CTA), publish-ready, (5) Visual brief (1 sentence), (6) North star alignment note, (7) Format recommendation (text/carousel/image+text).
 
 ## Output Skeleton

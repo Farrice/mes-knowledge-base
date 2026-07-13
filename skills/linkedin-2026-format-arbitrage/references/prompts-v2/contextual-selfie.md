@@ -38,6 +38,9 @@ Provide the strategic first comment to drive Early Velocity.
 * **Content:** A behind-the-scenes detail about the photo itself, or a soft CTA for a lead magnet.
 
 ## Output Contract
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 Deliver exactly three components:
 1. **Photo Instructions** — a directive block describing the required image (setting, objects visible, posture, what's on the screen). Must specify anti-stock-photo cues, not stage direction for a polished shot.
 2. **Post Text** — hook / evidence / selfie-pivot / re-frame structure, formatted with single-sentence paragraphs.

@@ -75,6 +75,9 @@ Produce a complete call script with: opening framework, discovery question seque
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A complete Sales Conversation Framework with named phases: Pre-Call Preparation, Opening, Discovery/Diagnosis, Value Delivery/Teaching, Bridge to Offer, Offer Presentation, Objection Handling (one response per item in [KEY OBJECTIONS]), Close, Post-Call Follow-Up
 - Phase time allocations sum to [CALL DURATION] and scale proportionally if a shorter/longer call variant is requested
 - Discovery includes a structured question sequence (situation → problem excavation → impact → previous attempts → desire → decision)

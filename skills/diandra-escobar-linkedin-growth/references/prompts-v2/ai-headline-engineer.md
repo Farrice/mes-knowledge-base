@@ -46,6 +46,9 @@ Present the top 2 candidates: Primary (why AI loves it — specific semantic sig
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 A **.md Headline Engineering Report**: (1) Current headline diagnosis (dual-filter breakdown), (2) Keyword map (full semantic field), (3) 5 candidates, each on a different architectural pattern, (4) Scoring matrix (all 5 on both filters), (5) Primary + secondary recommendation with reasoning, (6) Implementation note (headline changes take 7-14 days for the AI to re-index).
 
 ## Output Skeleton

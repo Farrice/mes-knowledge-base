@@ -63,6 +63,9 @@ Classify the churn based on the evidence gathered, using the correct template fo
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - Churn classified into exactly one of the four types, with the classification stated up front
 - Evidence section showing the edition-level churn map findings, survey classification, and faucet test replay results
 - Root cause diagnosis using the matched template above

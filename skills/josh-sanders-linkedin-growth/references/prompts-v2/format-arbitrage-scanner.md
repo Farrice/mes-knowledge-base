@@ -68,6 +68,9 @@ Provide the exact posting schedule and engagement allocation for the 7-day sprin
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 **Deliverables:**
 1. Technical Anatomy breakdown for each Outlier Sample (Visual Container, UI Trigger, Engagement Asymmetry)
 2. Hook Physics Audit with Read-Aloud pass result and at least 3 hook variations for the arbitraged format

@@ -52,6 +52,9 @@ The most valuable part of the deliverable — what the client would never see th
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 A client-facing **.md report** (per the deployment kit template): (1) Header — client/brand, date, # posts analyzed, (2) The headline finding, one line (e.g. "Your content is working. Your hooks are leaking reach."), (3) Per-post teardown (original hook → failure mode → buried gap → 3 rebuilds → the pick, + original metrics if provided), (4) Cross-post pattern diagnosis (the repeated failure + the one habit to change), (5) The 30-second fix — the single highest-leverage change stated as a rule the client can apply tomorrow, (6) Soft next step (never a hard pitch mid-deliverable).
 
 ## Output Skeleton

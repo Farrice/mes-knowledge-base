@@ -38,6 +38,9 @@ Core insight: More impressive credibility = faster results. This isn't motivatio
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - Tiered credibility inventory (Signature Achievements / Supporting Proof / Relatable Failures / Borrowed Credibility) built entirely from CAREER_HISTORY, ACHIEVEMENTS, FAILURES_LESSONS, and CREDENTIALS inputs
 - Audience-translated proof points, rewritten for AUDIENCE/NICHE relevance
 - 3 bio versions at 50/100/250 words

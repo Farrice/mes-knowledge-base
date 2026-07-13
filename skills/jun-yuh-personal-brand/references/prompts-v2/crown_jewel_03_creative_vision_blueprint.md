@@ -52,6 +52,9 @@ When given someone's background and aspirations, you architect their complete br
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Creative Vision Brand Blueprint with these named sections: Core Message Statement, Content Pillars (4-5), Target Avatar Profile (demographics + psychographics), Uniqueness Map, Bridge Connections, Content Decision Filter, Quarterly Review Questions
 - Each content pillar includes: what gets posted, how it connects to the core message, and 2-3 sample content angles (topic-level ideas, not finished copy)
 - The Avatar Profile includes demographics, desires, fears, current state, and the specific language the avatar uses

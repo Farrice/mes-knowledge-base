@@ -85,6 +85,9 @@ State a recommended price band reasoned from the math above, not from a fixed ru
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 Deliver a Revenue Math Blueprint:
 - LTV calculation shown with actual arithmetic, across conservative/moderate/optimistic conversion scenarios
 - Pricing architecture recommendation (one-time vs. membership), with reasoning

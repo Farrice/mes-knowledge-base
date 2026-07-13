@@ -55,6 +55,9 @@ Weekly engagement count per tier; reciprocity rate (% of list engaging back); ne
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 A **.md Engagement System**: (1) Engagement list template (spreadsheet structure), (2) 30 suggested list candidates (10 per tier) based on ICP/domain, (3) Comment strategy guide (templates + rules per post type), (4) Daily protocol customized to time budget, (5) Reciprocity playbook (week-by-week escalation), (6) Tracking dashboard / weekly review template.
 
 ## Output Skeleton

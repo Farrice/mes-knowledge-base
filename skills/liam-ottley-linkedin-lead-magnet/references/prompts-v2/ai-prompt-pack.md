@@ -41,6 +41,9 @@ You are operating in the frame Liam Ottley teaches in "How to Turn LinkedIn into
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - Nine complete, pasteable prompts in the exact source sequence — no fewer, no reordering.
 - Each prompt is self-contained: usable independently, with its own context-loading instructions.
 - Prompts 4-6 explicitly enforce the hooks-before-drafts sequencing.

@@ -58,6 +58,9 @@ Rank the surviving candidates by faucet strength (test pass rate + repeatability
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - Self-consumption audit findings (2-3 answers)
 - 5-7 candidate assets from the taxonomy, each with its faucet-test results shown individually
 - Infinite repeatability findings for surviving candidates

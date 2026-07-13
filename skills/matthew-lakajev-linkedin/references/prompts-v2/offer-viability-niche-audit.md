@@ -53,6 +53,9 @@ Name the harvesting sources used or recommended (their apps, subreddits/forums, 
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - **Viability Scorecard**: 4 variables scored 0-10 with named evidence, multiplied total, verdict GO / PIVOT (+rewritten offer statement) / KILL (+nearest viable category with a named working example)
 - **Niche Definition**: one seller-of-one sentence + the three identity layers named explicitly + "I am one of you" note (or its absence flagged)
 - **Language Bank**: functional / technical / cultural lists with glosses + harvesting sources named per list

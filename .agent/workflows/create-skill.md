@@ -291,3 +291,9 @@ Format:
 | **Best for** | Extending Claude's behavior | Multi-step processes | Expert knowledge deployment |
 | **Standard** | Agent Skills (agentskills.io) | Antigravity custom | Completion Engine v2.0 |
 | **Create with** | This workflow (Steps 2-7) | This workflow (Steps 8-10) | `/extract` or `/convert-extraction` |
+
+---
+
+## Prompt Forging pointer (2026-07-13)
+
+The expert-knowledge paths already route to gated workflows (/extract, /convert-extraction). If the **completion-engine branch** of this workflow is used directly to create a `skills/<name>/` skill: the Prompt Forging Gate applies — born-v2 execution prompts per `directives/prompt-forging-spec.md` + the wiring trio (audit → prompt_library build → wire_prompt_pointers) before registration. `.claude/skills/` utility skills are exempt.

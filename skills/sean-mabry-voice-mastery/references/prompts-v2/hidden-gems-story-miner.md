@@ -80,6 +80,9 @@ Organize into two clear banks:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 Deliver a **Hidden Gems Story Bank** with these components:
 1. Complete story detection inventory — every flagged story from the source material, not just the ones that pass the filter
 2. Filtered hidden gems with all three dimension scores shown

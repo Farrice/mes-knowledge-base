@@ -77,6 +77,9 @@ The 3 pillars you'll own:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - All 6 layers filled: Identity Statement (1 sentence), Elevator Pitch (1 paragraph), Social Proof Stack (5-7 points), Unfair Advantage Map (3-5 items), Authority Bio (3-5 sentences), Content Pillars (3, with 10 topics each)
 - Every proof point in the Social Proof Stack and every claim in the Authority Bio sourced strictly from [BACKGROUND]/[TRANSFORMATIONS]/[EXPERTISE] — no invented client names, no invented revenue figures, no invented follower counts
 - Where the input doesn't supply a strong proof point for a category, the output says so explicitly (e.g., "[NEEDS REAL PROOF — no outcome data supplied]") rather than filling the gap with a plausible-sounding fabrication

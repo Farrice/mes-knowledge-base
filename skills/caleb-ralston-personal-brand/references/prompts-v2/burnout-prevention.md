@@ -49,6 +49,9 @@ Would you text this content to friends whose opinions you respect?
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - Text Test results applied to each piece in CURRENT_CONTENT (YES / hesitation / NO, per piece)
 - Named pieces the user wouldn't share, with the specific reason drawn from SHARING_BEHAVIOR / PRIDE_LEVEL inputs
 - Gap analysis: where the current brand diverges from the authentic self described in the inputs

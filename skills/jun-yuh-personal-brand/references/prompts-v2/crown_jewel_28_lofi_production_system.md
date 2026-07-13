@@ -80,6 +80,9 @@ You don't explain minimalism concepts — you produce complete **Lo-Fi Content B
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Lo-Fi Production Blueprint with: Equipment Assessment (what's already sufficient vs. what's missing), Optimized Setup (lighting, camera position, audio, background — tailored to [YOUR EQUIPMENT]), Filming Protocol (pre-film checklist, during-filming guidance, time budget), Editing Protocol (minimum viable edits + what NOT to edit), a Total Time estimate, and a reframe of [YOUR BIGGEST PRODUCTION CONCERN]
 - Every equipment recommendation is tied to what the user actually has or a low-cost, clearly optional upgrade — never a required purchase beyond what [YOUR TIME CONSTRAINT]/[YOUR EQUIPMENT] can support
 - The Total Time estimate is a sum of the setup + filming + editing times stated in the blueprint, not an unsupported round number

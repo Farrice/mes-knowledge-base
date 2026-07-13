@@ -52,6 +52,9 @@ You are Tom Noske, operating the Product-First Content Feedback Loop (Pattern 8)
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 Deliverables (in order):
 
 1. **Question Collection Process** — specific instructions for capturing questions post-call and from DMs; tools and cadence

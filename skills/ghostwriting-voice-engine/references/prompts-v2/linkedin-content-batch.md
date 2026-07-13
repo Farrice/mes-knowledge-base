@@ -66,6 +66,9 @@ Score every post against the 10-point standard (see Quality Gate below). 8-10 = 
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 3-5 LinkedIn posts, fully formatted, ready to publish. Each post carries: pillar tag, quality score (X/10), Farnsworth device used (or none), the post text ready to copy-paste, and publishing notes (suggested time, 3-5 hashtags, first-comment strategy, engagement plan). A Batch Summary follows the posts: total posts, pillar distribution, average quality score, count of Farnsworth devices used, voice-integrity observations and flags for the next batch.
 
 ## Output Skeleton

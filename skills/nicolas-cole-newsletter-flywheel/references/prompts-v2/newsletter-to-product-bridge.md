@@ -65,6 +65,9 @@ Break-even reference points:
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - Product seed analysis (top clusters from actual engagement data)
 - Product design: name, vehicle, price (with $350 ceiling check), spine (3-4 modules), bonus
 - Funnel architecture: demonstration loop, bridge edition template, CTA stack

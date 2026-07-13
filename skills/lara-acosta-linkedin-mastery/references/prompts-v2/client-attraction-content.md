@@ -81,6 +81,9 @@ Make the decision feel safe.
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - One post (hook + body + CTA) per buyer stage — 4 posts minimum, tagged Problem-Aware / Solution-Aware / Decision-Stage / Trust-Building
 - Each post's CTA matches its stage on the content-to-client mapping table (engage → lead magnet → DM → application)
 - A weekly content mix recommendation showing which day covers which stage

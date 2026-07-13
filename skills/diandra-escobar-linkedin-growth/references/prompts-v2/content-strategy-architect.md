@@ -55,6 +55,9 @@ Recommend by capacity: Minimum viable 3x/week (Mon/Wed/Fri); Growth mode 5x/week
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 A **.md Strategy Document**: (1) Positioning Block (one-liner + "who is this person" answer + competitive differentiation), (2) 3-5 Content North Stars each with 3 example post topics, (3) 4-Bucket Architecture with stage-calibrated ratios and bucket definitions, (4) Format Strategy per bucket, (5) Posting Cadence with weekly bucket assignments, (6) 90-Day Phase Plan (priorities for weeks 1-4, 5-8, 9-12).
 
 ## Output Skeleton

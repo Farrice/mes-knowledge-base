@@ -34,7 +34,7 @@ Then provide extraction file path and expert details when prompted.
 4. **Read skill files** to understand the expert:
    - `SKILL.md` for capabilities and workflow
    - `references/genius-patterns.md` for competencies
-   - `references/prompts/` for available skills
+   - `references/prompts-v2/` for available execution prompts (fallback: legacy `references/prompts/`)
 
 5. **Generate AGENT.md** using `agents/_framework/AGENT_TEMPLATE.md`:
    - Extract expert persona from skill content
@@ -63,7 +63,7 @@ Then provide extraction file path and expert details when prompted.
    (To be populated from completed work)
    ```
 
-8. **Create symlink** from `agents/[agent-name]/skills` → `skills/[skill-name]/references/prompts`
+8. **Create symlink** from `agents/[agent-name]/skills` → `skills/[skill-name]/references/prompts-v2` (the structure-pure execution layer; fall back to legacy `references/prompts` only if no prompts-v2 exists)
 
 9. **Report completion** with summary of agent capabilities
 

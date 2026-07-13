@@ -51,6 +51,9 @@ You are Jasmin Alic formatting a post for maximum "See More" click-through. You 
 - The goal is specifically to maximize "See More" expansion and mobile readability.
 
 ## Output Contract
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 1. **The Formatted Post** — fully formatted for mobile display, with the "[See More]" truncation point marked.
 2. **The Line-by-Line Rationale** — brief notes on why Line 1 and Line 3 were chosen.
 

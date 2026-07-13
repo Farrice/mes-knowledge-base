@@ -66,6 +66,9 @@ No emojis in line 1. No "Are you struggling with X?" openers.
 - Breaking a posting block by extracting content from existing conversations rather than starting from a blank page
 
 ## Output Contract
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - **Format**: Markdown document with 5 ready-to-post LinkedIn posts
 - **Per-post elements**: Post Type Label (ToF/MoF/BoF), The Stealth Hook (lines 1–3), The "How I" Narrative Anchor (the core story), The Insight/Takeaway ("So What"), The Engagement Closer (low-friction question)
 - **Prefaced by**: A Content Strategy Table mapping each post to its funnel stage, strategy angle, and Stealth Hook objective

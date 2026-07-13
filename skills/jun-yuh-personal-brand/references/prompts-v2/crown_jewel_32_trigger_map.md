@@ -71,6 +71,9 @@ For each selected trigger, define: how to open with it (hook formula), how to de
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Trigger Deployment Map with: Primary Triggers selected for [CONTENT GOAL] (with the "why" tied to audience psychology), Hook Formulas for each selected trigger, a Content Structure section (e.g., carousel slide-by-slide or scene-by-scene) applying the triggers to [CONTENT TYPE] and [NICHE], a Trigger Stack Analysis of the produced example, and Failure Modes to avoid
 - Every selected trigger includes a concrete hook formula AND at least one example applied to [NICHE] — not just the trigger name
 - The Trigger Stack Analysis lists which triggers are present and why, without assigning fabricated percentage contributions to virality

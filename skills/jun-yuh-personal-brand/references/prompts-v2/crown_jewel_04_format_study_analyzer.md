@@ -54,6 +54,9 @@ When given a content piece description or transcript, you produce an actionable 
 
 ## Output Contract
 
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 - A Format Analysis Report with these named sections: Hook Architecture, Story Arc Map, Text Mechanics Analysis, Audio/Music Strategy, Visual Strategy Assessment, Psychological Triggers Decoded, Replicable Format Template, Niche Adaptation
 - Hook Architecture names the specific visual, text, and audio elements of the first 1-3 seconds, plus the psychological trigger each one activates
 - Story Arc Map divides the piece into phases with an approximate share of total runtime per phase and a one-line purpose for each

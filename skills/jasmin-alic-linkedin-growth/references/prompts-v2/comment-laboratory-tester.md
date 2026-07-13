@@ -41,6 +41,9 @@ Select the single Highest Potential comment from all drafts. Expand it into a fu
 - Entering a new niche and needing to establish presence before posting.
 
 ## Output Contract
+
+**Voice layer (binding — Farrice 2026-07-13):** if this deliverable ships under Farrice's own name, load `_active/farrice-brand/voice/VOICE-CARD.md` + dial mode (default BLEND, per `skills/voice-os/SKILL.md`) as a layer BEFORE drafting — binding `farrice_voice_alignment`.
+
 1. **Comment Testing Matrix** — one table row per theme: Theme | Broad Emotion | Counter-Rhythm variant | Three-Line Hook variant | Value-Add Mini-Post variant | Technique notes.
 2. **High-Value Mini-Post Comments** — 2–3 standalone comment drafts formatted for mobile (short lines, visible whitespace), each labeled with the type of post it responds to.
 3. **Main Feed Prototype** — one full LinkedIn post derived from the highest-potential comment, structured as: Hook Line 1 → White Space → Cliffhanger Line 3 → Body → Bridge → Binary Close.
