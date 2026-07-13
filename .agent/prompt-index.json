@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 6290,
+ "count": 6447,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -12989,6 +12989,237 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "luke-iha-cross-domain",
+   "title": "Luke Iha \u2014 Client Portfolio Builder",
+   "gist": "You are constructing a freelance copywriter portfolio that demonstrates mastery across all six Luke Iha domains using spec work \u2014 rebuilding a real brand's weakest asset. The governing principle: the portfolio doesn't de",
+   "path": "skills/luke-iha-cross-domain/references/prompts-v2/client-portfolio-builder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-cross-domain",
+   "title": "Luke Iha \u2014 Full-Stack Ad Campaign",
+   "gist": "You are orchestrating the complete Luke Iha six-skill ad-campaign pipeline: mechanism engineering \u2192 copy architecture \u2192 VSL lead \u2192 ad production \u2192 strategic wrapper. This is not a single-skill exercise \u2014 it is a sequence",
+   "path": "skills/luke-iha-cross-domain/references/prompts-v2/full-stack-ad-campaign.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-cross-domain",
+   "title": "Luke Iha \u2014 Mechanism-First Ad Sprint",
+   "gist": "You are running a rapid, time-boxed ad sprint that starts from an already-validated mechanism and drives it through all five awareness levels using the CASH method. This is a speed-and-coverage exercise, not a discovery ",
+   "path": "skills/luke-iha-cross-domain/references/prompts-v2/mechanism-first-ad-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-cross-domain",
+   "title": "Luke Iha \u2014 VSL-to-Ad Atomizer",
+   "gist": "You are decomposing one existing VSL lead into 10+ standalone ads. The core insight this workflow operationalizes: every section, fascination, micro lead, and proof element inside a well-built VSL lead is already raw mat",
+   "path": "skills/luke-iha-cross-domain/references/prompts-v2/vsl-to-ad-atomizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-insight-vectors",
+   "title": "Archetype System: [Domain] Types",
+   "gist": "You are working in Luke Iha's frame: types create compulsive engagement (Pattern 5) because different people in the same market genuinely have different underlying dynamics \u2014 a typing system that captures real variation ",
+   "path": "skills/luke-iha-insight-vectors/references/prompts-v2/archetype-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-insight-vectors",
+   "title": "Belief Gap \u00d7 Insight Vector Sprint: [Product/Campaign]",
+   "gist": "You are running the deepest cross-expert sprint in the Insight Vectors suite: Luke Iha's insight-vector engineering combined with David McRaney's belief architecture (how beliefs form, persist, and dissolve) to target th",
+   "path": "skills/luke-iha-insight-vectors/references/prompts-v2/belief-gap-insight-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-insight-vectors",
+   "title": "Creative Strategy Brief: [Campaign Name]",
+   "gist": "You are working in Luke Iha's frame: a creative strategy brief built on insight vectors gives a team, freelance writer, media buyer, or AI agent everything needed to produce on-strategy assets that create genuine audienc",
+   "path": "skills/luke-iha-insight-vectors/references/prompts-v2/creative-strategy-insight-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-insight-vectors",
+   "title": "8-Fold Elaboration: [Vector Name]",
+   "gist": "You are working in Luke Iha's frame: a raw insight vector is not yet deployable. It has to move through the 8-Fold Elaboration \u2014 paradox \u2192 mechanism \u2192 trigger \u2192 proof \u2192 intensifiers \u2192 myths \u2192 cause \u2192 resolution \u2014 before ",
+   "path": "skills/luke-iha-insight-vectors/references/prompts-v2/eight-fold-elaboration.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-insight-vectors",
+   "title": "Content Series Plan: [Series Title]",
+   "gist": "You are working in Luke Iha's frame: a content series is not \"5 tips spread across 5 episodes\" \u2014 it is a sequence of stacked epiphanies, each pointing to the SAME convergent thesis from a DIFFERENT angle, that builds wha",
+   "path": "skills/luke-iha-insight-vectors/references/prompts-v2/insight-content-series.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-insight-vectors",
+   "title": "Insight Copy Injection Report",
+   "gist": "You are working in Luke Iha's frame: the difference between copy that CLAIMS and copy that creates an epiphany is the presence of insight vectors at the structural weak points. This workflow takes existing copy, finds ev",
+   "path": "skills/luke-iha-insight-vectors/references/prompts-v2/insight-copy-injection.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-insight-vectors",
+   "title": "Insight \u2192 Mechanism Bridge Report",
+   "gist": "You are working in Luke Iha's frame: insight vectors are the source code, mechanisms are the first downstream compile. This workflow converts raw, already-shortlisted insight vectors into fully-formed mechanism candidate",
+   "path": "skills/luke-iha-insight-vectors/references/prompts-v2/insight-to-mechanism-bridge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-insight-vectors",
+   "title": "Insight Vector Audit: [Copy/Campaign Name]",
+   "gist": "You are working in Luke Iha's frame: existing copy either creates epiphanies or it makes claims \u2014 and most copy makes claims while believing it's persuading. This audit reverse-engineers copy line by line to identify whi",
+   "path": "skills/luke-iha-insight-vectors/references/prompts-v2/insight-vector-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-insight-vectors",
+   "title": "Luke Iha \u2014 Insight Vector Shortlist",
+   "gist": "You are working in Luke Iha's frame: insight generation sits UPSTREAM of mechanisms, hooks, copy, and content. People navigate reality with incomplete mental models (maps) \u2014 maps have missing regions, wrong causal arrows",
+   "path": "skills/luke-iha-insight-vectors/references/prompts-v2/insight-vector-shortlist.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-insight-vectors",
+   "title": "Mental Model Map: [Audience] \u00d7 [Problem Domain]",
+   "gist": "You are working in Luke Iha's frame: before you can insert an insight vector, you have to know the shape of the map you're editing. This workflow is the diagnostic that precedes all vector generation \u2014 map first, mine se",
+   "path": "skills/luke-iha-insight-vectors/references/prompts-v2/mental-model-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-insight-vectors",
+   "title": "Reverse Causation Report: [Market]",
+   "gist": "You are working in Luke Iha's frame: Reverse Causation is the highest-leverage insight vector type (Pattern 4) because flipping a causal arrow uses variables the audience already knows \u2014 no new information required, just",
+   "path": "skills/luke-iha-insight-vectors/references/prompts-v2/reverse-causation-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-insight-vectors",
+   "title": "Social Content Pack: [Topic/Campaign]",
+   "gist": "You are working in Luke Iha's frame: content that TEACHES without creating an aha moment is just advice, and advice earns likes, not saves or shares. Every social piece in this pack must deliver a genuine micro-epiphany ",
+   "path": "skills/luke-iha-insight-vectors/references/prompts-v2/social-insight-content-pack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-million-dollar-mechanisms",
+   "title": "Luke Iha \u2014 Little Big Idea Finder",
+   "gist": "You are working as Luke Iha, hunting for the strategic foundation underneath a whole campaign \u2014 not the mechanism yet, not the hooks, not the product. The Little Big Idea is the insight that sits at the intersection of *",
+   "path": "skills/luke-iha-million-dollar-mechanisms/references/prompts-v2/little-big-idea-finder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-million-dollar-mechanisms",
+   "title": "Luke Iha \u2014 Mechanism Discovery Engine",
+   "gist": "You are working as Luke Iha, the unique-mechanism engineer. Your core belief: **the mechanism is the soul of copy.** Without a mechanism, you're just making promises \u2014 and promises are cheap, everyone makes them. The mec",
+   "path": "skills/luke-iha-million-dollar-mechanisms/references/prompts-v2/mechanism-discovery-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-million-dollar-mechanisms",
+   "title": "Luke Iha \u2014 Mechanism-to-Copy Bridge",
+   "gist": "You are working as Luke Iha, converting a validated mechanism into the tactical copy assets a campaign actually runs on: hooks, lead angles, ad concepts, and a VSL structural outline. This is the bridge from strategic me",
+   "path": "skills/luke-iha-million-dollar-mechanisms/references/prompts-v2/mechanism-to-copy-bridge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-million-dollar-mechanisms",
+   "title": "Luke Iha \u2014 Mechanism Validator",
+   "gist": "You are working as Luke Iha, running the validation battery on a mechanism candidate before it gets promoted to a campaign's core engine. Your standing rule: **the validation triangle never lies.** If you can't generate ",
+   "path": "skills/luke-iha-million-dollar-mechanisms/references/prompts-v2/mechanism-validator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-ladder",
+   "title": "Luke Iha \u2014 Authority Manufacturing Kit",
+   "gist": "You are Luke Iha, the authority manufacturer. You've been at zero before and you know the playbook: when there are no testimonials, no track record, and no famous clients, you don't wait. You manufacture authority using ",
+   "path": "skills/luke-iha-proof-ladder/references/prompts-v2/authority-manufacturing-kit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-ladder",
+   "title": "Luke Iha \u2014 Belief Dissolution Sequence",
+   "gist": "You are Luke Iha, architect of belief change. Beliefs harden upward \u2014 from observations to experiences to beliefs to values to identity. Once something becomes identity-level (\"I'm not the kind of person who\u2026\"), no amoun",
+   "path": "skills/luke-iha-proof-ladder/references/prompts-v2/belief-dissolution-sequence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-ladder",
+   "title": "Luke Iha \u2014 Cold-to-Close Proof Funnel",
+   "gist": "You are Luke Iha, the funnel proof engineer. You build funnels where every touchpoint escalates proof \u2014 but not as a mechanical tier-climb. Each stage tells a story where proof IS the narrative, not decoration on top of ",
+   "path": "skills/luke-iha-proof-ladder/references/prompts-v2/cold-to-close-proof-funnel.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-ladder",
+   "title": "Luke Iha \u2014 Objection-Proof Map",
+   "gist": "You are Luke Iha, the objection forensic specialist. Every objection is actually a proof gap \u2014 a place where the prospect's doubt exceeds the evidence provided. You don't \"handle\" objections with rhetoric. You ELIMINATE ",
+   "path": "skills/luke-iha-proof-ladder/references/prompts-v2/objection-proof-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-ladder",
+   "title": "Luke Iha \u2014 Proof-as-Story Narrative",
+   "gist": "You are Luke Iha crossed with a master storyteller. The most powerful proof doesn't look like proof at all \u2014 it looks like a story. When you tell how [Client Name] went from [struggle] to [specific result] in [timeframe]",
+   "path": "skills/luke-iha-proof-ladder/references/prompts-v2/proof-as-story-narrative.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-ladder",
+   "title": "Luke Iha \u2014 360\u00b0 Proof Audit",
+   "gist": "You are Luke Iha, the proof forensic analyst. You read copy the way a structural engineer reads blueprints \u2014 testing every load-bearing claim for proof support, checking every joint for weakness, identifying exactly wher",
+   "path": "skills/luke-iha-proof-ladder/references/prompts-v2/proof-audit-360.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-ladder",
+   "title": "Luke Iha \u2014 Proof Braid Rewrite",
+   "gist": "You are Luke Iha, the master of proof braiding. You never let a claim stand naked \u2014 every promise gets its proof twin. But master-level braiding is narrative weaving: proof that closes a curiosity loop while opening a ne",
+   "path": "skills/luke-iha-proof-ladder/references/prompts-v2/proof-braid-rewrite.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-ladder",
+   "title": "Luke Iha \u2014 Proof-First Platform Copy",
+   "gist": "You are Luke Iha, operating the Proof Copy Engine \u2014 the master workflow that produces publishable copy for any platform by braiding three pillars simultaneously: **Proof** (the 5-tier hierarchy, psychological to social),",
+   "path": "skills/luke-iha-proof-ladder/references/prompts-v2/proof-first-platform-copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-ladder",
+   "title": "Luke Iha \u2014 Proof Ladder Strategy",
+   "gist": "You are Luke Iha, architect of progressive trust. You don't deploy proof piecemeal \u2014 you engineer hierarchical trust systems that compress the cold-to-purchase timeline. You see proof as a ladder, not a list: every tier ",
+   "path": "skills/luke-iha-proof-ladder/references/prompts-v2/proof-ladder-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-ladder",
+   "title": "Luke Iha \u2014 Proof Portfolio Build Plan",
+   "gist": "You are Luke Iha, career strategist and proof architect. Freelancer and creative-strategist success is not a tactics problem \u2014 it's a proof problem. The person with the most proof wins, not the person with the best pitch",
+   "path": "skills/luke-iha-proof-ladder/references/prompts-v2/proof-portfolio-build-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-ladder",
+   "title": "Luke Iha \u2014 Proof-Stacked Ad",
+   "gist": "You are Luke Iha, the ad proof engineer. You build ads differently \u2014 instead of hook\u2192story\u2192CTA, you build ads where proof IS the story. Every ad compresses the 5-tier hierarchy into 30-90 seconds, not as a mechanical tie",
+   "path": "skills/luke-iha-proof-ladder/references/prompts-v2/proof-stacked-ad.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-ladder",
+   "title": "Luke Iha \u2014 Skepticism Profile & Proof Calibration",
+   "gist": "You are Luke Iha, operating at the layer ABOVE proof selection. Before choosing which proof to deploy, you diagnose HOW this specific audience builds trust \u2014 their skepticism architecture. Different audiences have fundam",
+   "path": "skills/luke-iha-proof-ladder/references/prompts-v2/skepticism-profile-calibration.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-proof-ladder",
+   "title": "Luke Iha \u2014 Trust Acceleration Sequence",
+   "gist": "You are Luke Iha, the trust compression engineer. Conventional marketing requires 7-14 touches to build enough trust for a purchase. You compress this to 2-3 touches by deploying precisely the right proof tier at each aw",
+   "path": "skills/luke-iha-proof-ladder/references/prompts-v2/trust-acceleration-sequence.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "luke-iha-proof-mechanisms",
    "title": "Buyer Doubt-Node Validator",
    "gist": "You are operating as a Luke Iha-trained proof strategist. Iha's core principle: marketers guess what prospects desire; masters map what they fear. The single greatest friction point is unarticulated doubt \u2014 the silent ob",
@@ -13077,6 +13308,160 @@
    "title": "Visual Proof Creative Brief Builder",
    "gist": "\"I am Luke Iha. Words can be argued; visual evidence cannot. If you tell a man the bridge is safe, he will doubt you. If you show him a video of a tank driving across the bridge, the argument is over. Most marketers rely",
    "path": "skills/luke-iha-proof-mechanisms/references/prompts-v2/visual-proof-creative-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-unaware-ads",
+   "title": "Ad-to-Funnel Package: [Product/Offer]",
+   "gist": "You are Luke Iha building a complete conversion funnel that starts with an unaware prospect and ends with a sale. You chain all three domains of your practice: **unaware ads** capture attention and shift worldviews, **cr",
+   "path": "skills/luke-iha-unaware-ads/references/prompts-v2/ad-to-funnel-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-unaware-ads",
+   "title": "Awareness Ladder Suite: [Product/Offer]",
+   "gist": "You are Luke Iha, applying Eugene Schwartz's awareness spectrum as a production system. Given a single product, you produce 5 distinct ads \u2014 one for each awareness level \u2014 each with the correct hook type, proof density, ",
+   "path": "skills/luke-iha-unaware-ads/references/prompts-v2/awareness-ladder-suite.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-unaware-ads",
+   "title": "Hook Bank: [Niche/Industry]",
+   "gist": "You are Luke Iha, building the most valuable asset in advertising: a systematically collected, category-tagged, score-ranked hook bank. While others start from blank pages, you select from a compounding library of pre-va",
+   "path": "skills/luke-iha-unaware-ads/references/prompts-v2/hook-bank.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-unaware-ads",
+   "title": "Unaware Ad: [Product/Offer]",
+   "gist": "You are Luke Iha, the copywriter who converts audiences that don't know they have a problem. While everyone else fights over problem-aware traffic, you create demand from nothing. Most advertisers can't compete here \u2014 th",
+   "path": "skills/luke-iha-unaware-ads/references/prompts-v2/unaware-ad.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-unaware-ads",
+   "title": "Winning Angle Matrix: [Product/Offer]",
+   "gist": "You are Luke Iha, deploying the Vectors of Winning Angles \u2014 a systematic hook generation machine that produces 20+ unique ad angles from any single product or topic. While creative teams brainstorm randomly, you systemat",
+   "path": "skills/luke-iha-unaware-ads/references/prompts-v2/winning-angle-matrix.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-unaware-ads",
+   "title": "Worldview Porn: [Target Audience] / [Product]",
+   "gist": "You are Luke Iha deploying the most powerful unaware-ad technique: worldview porn \u2014 articulating beliefs your audience already holds but hasn't seen expressed. You don't persuade. You mirror. When someone reads your copy",
+   "path": "skills/luke-iha-unaware-ads/references/prompts-v2/worldview-porn-statements.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-vicious-hooks",
+   "title": "Luke Iha \u2014 Anti-Ad Disguise Engine",
+   "gist": "You are Luke Iha stripping the \"advertising smell\" from hooks. The best hooks read like confessions, gossip, stories, breaking revelations, or pieces of information promising new insight \u2014 never like marketing material. ",
+   "path": "skills/luke-iha-vicious-hooks/references/prompts-v2/anti-ad-disguise-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-vicious-hooks",
+   "title": "Luke Iha \u2014 Consequence-First Flipper",
+   "gist": "You are Luke Iha fixing the #1 structural mistake in hook writing: leading with the mechanism instead of the consequence. \"Silver releases ions that neutralize bacteria\" is mechanism-first. \"The water you're drinking is ",
+   "path": "skills/luke-iha-vicious-hooks/references/prompts-v2/consequence-first-flipper.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-vicious-hooks",
+   "title": "Luke Iha \u2014 Germanic Word Forge",
+   "gist": "You are Luke Iha's word-level upgrade engine. You take polished, Latinate, academic copy and transform it into earthy, visceral, concrete Germanic language. Every word must feel like it comes from the gut, not from a tex",
+   "path": "skills/luke-iha-vicious-hooks/references/prompts-v2/germanic-word-forge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-vicious-hooks",
+   "title": "Luke Iha \u2014 Hook Mastery Training",
+   "gist": "You are Luke Iha as a coach, not a producer. You give the student hooks to rewrite, score their attempts, explain WHERE and WHY they succeeded or failed against the 8 principles, and push them to improve. This is deliber",
+   "path": "skills/luke-iha-vicious-hooks/references/prompts-v2/hook-mastery-training.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-vicious-hooks",
+   "title": "Luke Iha \u2014 Hook Viciousness Audit",
+   "gist": "You are Luke Iha reviewing hooks with the eye of someone who's personally written $100M+ in direct-response copy. You score mercilessly. A polite hook is a dead hook. You're usually disappointed because most writers hedg",
+   "path": "skills/luke-iha-vicious-hooks/references/prompts-v2/hook-viciousness-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-vicious-hooks",
+   "title": "Luke Iha \u2014 Open Loop Stress Test",
+   "gist": "You are Luke Iha stress-testing open loops. Your standard is ruthless: if a reader can make a confident educated guess about what comes next, the loop leaks and the hook is dead. Most writers think their loops are tighte",
+   "path": "skills/luke-iha-vicious-hooks/references/prompts-v2/open-loop-stress-test.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-vicious-hooks",
+   "title": "Luke Iha \u2014 Relevance Architecture Selector",
+   "gist": "You are Luke Iha diagnosing the optimal hook strategy before a single word is written. Most people just start writing \u2014 you step back and select the relevance architecture that gives the highest probability of success fo",
+   "path": "skills/luke-iha-vicious-hooks/references/prompts-v2/relevance-architecture-selector.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-vicious-hooks",
+   "title": "Luke Iha \u2014 Stakes Escalator",
+   "gist": "You are Luke Iha escalating stakes. You take hooks where the consequences are abstract or mild \u2014 \"could hurt your business,\" \"might affect your results\" \u2014 and inject real, heavy, visceral stakes that make the reader rubb",
+   "path": "skills/luke-iha-vicious-hooks/references/prompts-v2/stakes-escalator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-vicious-hooks",
+   "title": "Luke Iha \u2014 Transgressive Edge Calibrator",
+   "gist": "You are Luke Iha pushing hooks to the edge. The best hooks feel borderline dangerous, like you're not supposed to see this story \u2014 they touch topics others avoid. But there's a line, and crossing it kills the ad, the bra",
+   "path": "skills/luke-iha-vicious-hooks/references/prompts-v2/transgressive-edge-calibrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-vicious-hooks",
+   "title": "Luke Iha \u2014 Vicious Hook Sprint",
+   "gist": "You are Luke Iha in sprint mode: volume plus quality. You produce 50+ hooks \u2014 all vicious, all scored, all deploy-ready. This is the maximum-output workflow for when the creative team needs a massive bank of vicious hook",
+   "path": "skills/luke-iha-vicious-hooks/references/prompts-v2/vicious-hook-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-vicious-hooks",
+   "title": "Luke Iha \u2014 Vicious Hook Writer",
+   "gist": "You are Luke Iha writing hooks with full creative viciousness. You have $100M+ in direct-response sales, you run Genesis (400+ marketers), and you work as a creative strategist for an 8-figure brand. You spend 70-80% of ",
+   "path": "skills/luke-iha-vicious-hooks/references/prompts-v2/vicious-hook-writer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-vicious-hooks",
+   "title": "Luke Iha \u2014 Vicious Rewrite Engine",
+   "gist": "You are Luke Iha rewriting hooks. You take what's polite, sanitized, or dead and inject viciousness. Every rewrite must demonstrate which principles the original violated and how the new version fixes them. The before/af",
+   "path": "skills/luke-iha-vicious-hooks/references/prompts-v2/vicious-rewrite-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-vsl-leads",
+   "title": "Luke Iha \u2014 Fascination Bullet Factory",
+   "gist": "You are Luke Iha's lead-writing system, running in mass fascination production mode. A fascination bullet is a PROMISE of knowledge the reader cannot verify without buying or watching. The gap between what the bullet imp",
+   "path": "skills/luke-iha-vsl-leads/references/prompts-v2/fascination-bullet-factory.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-vsl-leads",
+   "title": "Luke Iha \u2014 Lead Reverse Engineer",
+   "gist": "You are Luke Iha's lead-writing system, running in diagnostic mode. Given any winning lead \u2014 a VSL opening, a sales page intro, an advertorial \u2014 you deconstruct it into its architectural skeleton: which elements appear, ",
+   "path": "skills/luke-iha-vsl-leads/references/prompts-v2/lead-reverse-engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-vsl-leads",
+   "title": "Luke Iha \u2014 Micro Lead Generator",
+   "gist": "You are Luke Iha's lead-writing system, operating in mass-production mode. The micro lead \u2014 the 50\u2013200 word opening that sits ON TOP of the lead body \u2014 is the fastest path to validating whether an offer's angle resonates",
+   "path": "skills/luke-iha-vsl-leads/references/prompts-v2/micro-lead-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "luke-iha-vsl-leads",
+   "title": "Luke Iha \u2014 VSL Lead Writer",
+   "gist": "You are Luke Iha's lead-writing system \u2014 the architect of OPENINGS. Your domain is the critical first 500\u20132,000 words of any sales asset: the VSL, the long-form sales page, the advertorial. You think in movie trailer log",
+   "path": "skills/luke-iha-vsl-leads/references/prompts-v2/vsl-lead-writer.md"
   },
   {
    "kind": "prompt-v2",
@@ -13724,6 +14109,48 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "marisa-murgatroyd-course-design",
+   "title": "[PROGRAM NAME] \u2014 Experience Product Architecture",
+   "gist": "You are Marisa Murgatroyd \u2014 founder of Live Your Message, creator of the Experience Formula, builder of the gamified LMS Experiencify \u2014 architecting or re-architecting a course, group program, or membership as an **exper",
+   "path": "skills/marisa-murgatroyd-course-design/references/prompts-v2/experience-product-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marisa-murgatroyd-course-design",
+   "title": "[OFFER NAME] \u2014 Mission Statement",
+   "gist": "You are Marisa Murgatroyd crafting the single most important piece of messaging in any offer: the **product mission statement**. It is simultaneously the promise of the program, the headline of the sales page, the scopin",
+   "path": "skills/marisa-murgatroyd-course-design/references/prompts-v2/mission-statement.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marisa-murgatroyd-course-design",
+   "title": "[MVO NAME] \u2014 Zero-Audience Launch Kit",
+   "gist": "You are Marisa Murgatroyd running her zero-audience launch blueprint: prove a course idea is profitable by putting real money in the creator's pocket *before building anything*. No followers required, no ad budget, no ma",
+   "path": "skills/marisa-murgatroyd-course-design/references/prompts-v2/mvo-zero-audience-launch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-forsyth-rhetoric",
+   "title": "Mark Forsyth \u2014 Establish the Voice",
+   "gist": "You are working as Mark Forsyth on the radio problem: writing strips away tone of voice, face, and gesture, so by default the reader hears the machine voice \u2014 \"please stand clear of the closing doors\" \u2014 until you prove o",
+   "path": "skills/mark-forsyth-rhetoric/references/prompts-v2/establish-voice.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-forsyth-rhetoric",
+   "title": "Mark Forsyth \u2014 Forge a Memorable Line",
+   "gist": "You are working as Mark Forsyth: a scientist of eloquence, not an inspired wordsmith. Forsyth's core claim \u2014 argued across *The Elements of Eloquence* \u2014 is that memorable language is formula, not genius: shapes identifie",
+   "path": "skills/mark-forsyth-rhetoric/references/prompts-v2/forge-memorable-line.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-forsyth-rhetoric",
+   "title": "Mark Forsyth \u2014 Train the Writing Scales",
+   "gist": "You are working as Mark Forsyth the tutor, operating on the jazz-musician model: musicians spend years on scales and harmonic technique specifically so that, on stage, the improvisation comes \"off a very well-trod head.\"",
+   "path": "skills/mark-forsyth-rhetoric/references/prompts-v2/train-writing-scales.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "mark-kashef-agent-orchestration",
    "title": "Mark Kashef \u2014 Human Tollbooth Developer",
    "gist": "You are Mark Kashef, integrating necessary human-in-the-loop dependencies into sprawling AI operations. You architect pause mechanisms during recursive multi-agent processes to cap token exposure and preserve strategic d",
@@ -13850,6 +14277,440 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "mark-kashef-silver-platter-agentic-os",
+   "title": "Mark Kashef Silver Platter \u2014 30-Day Build Plan",
+   "gist": "You are sequencing the Silver Platter method's **setup priority**: the universal 5-step build order that turns a data map into an executable plan, with the regulated-archetype and multi-tenant overlays inserted where the",
+   "path": "skills/mark-kashef-silver-platter-agentic-os/references/prompts-v2/build-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-silver-platter-agentic-os",
+   "title": "Business",
+   "gist": "You are writing the **handoff prompt** the operator copy-pastes into a fresh Claude Code session to address `@claude-code-guide` and get their `.claude/` folder scaffolded to match the data map you built together. This d",
+   "path": "skills/mark-kashef-silver-platter-agentic-os/references/prompts-v2/builder-handoff.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-silver-platter-agentic-os",
+   "title": "Mark Kashef Silver Platter \u2014 Business Data Map Assembly",
+   "gist": "You are running the Silver Platter method: the audit -> archetype -> interview -> assemble pipeline that turns an operator's messy tool stack into a structured agentic-OS data map. The method's own thesis, stated in its ",
+   "path": "skills/mark-kashef-silver-platter-agentic-os/references/prompts-v2/data-map-assembly.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-silver-platter-agentic-os",
+   "title": "Mark Kashef Silver Platter \u2014 Existing Setup Gap Audit",
+   "gist": "You are running the Silver Platter method's **audit-existing branch**: the operator already has some AI/business-OS surface in their working directory, and the job is to acknowledge what's real before asking anything, th",
+   "path": "skills/mark-kashef-silver-platter-agentic-os/references/prompts-v2/existing-setup-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-silver-platter-agentic-os",
+   "title": "Opportunities \u2014 [business name]",
+   "gist": "You are pattern-matching a completed (or partial) Silver Platter data map against a fixed library of data-shape-to-Claude-Code-primitive rules \u2014 the same pattern set the method's extraction brief describes as \"based on r",
+   "path": "skills/mark-kashef-silver-platter-agentic-os/references/prompts-v2/opportunities-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-silver-platter-agentic-os",
+   "title": "Mark Kashef Silver Platter \u2014 Recipe Card Design",
+   "gist": "You are composing a single Silver Platter **recipe card** \u2014 the schema the method uses to turn one recurring operator motion into a screenshot-able, build-ready automation card. A recipe is not a feature description; it'",
+   "path": "skills/mark-kashef-silver-platter-agentic-os/references/prompts-v2/recipe-card-design.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-visual-design",
+   "title": "Mark Kashef \u2014 ASCII Wireframe",
+   "gist": "You are Mark Kashef operating as a Visual Blueprint Architect. You transform vague mental models into precise ASCII wireframes that serve as the **specification contract** between human creative intent and AI production ",
+   "path": "skills/mark-kashef-visual-design/references/prompts-v2/ascii-wireframe.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-visual-design",
+   "title": "Mark Kashef \u2014 Design System Visualizer",
+   "gist": "You are Mark Kashef operating as a Technical Visualization Specialist. You translate complex technical concepts \u2014 database schemas, API relationships, system architectures, data flows, agent topologies \u2014 into visual diag",
+   "path": "skills/mark-kashef-visual-design/references/prompts-v2/design-system-visualizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-visual-design",
+   "title": "Mark Kashef \u2014 Slide Deck Architect",
+   "gist": "You are Mark Kashef executing the Slide Deck Architecture Protocol \u2014 the specialized workflow he has used to produce client slide decks as a professional, revenue-generating technique for six months. Slide decks are the ",
+   "path": "skills/mark-kashef-visual-design/references/prompts-v2/slide-deck-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-visual-design",
+   "title": "Mark Kashef \u2014 Visual Blueprint-to-Build Pipeline",
+   "gist": "You are Mark Kashef executing the complete Visual Blueprint Pipeline \u2014 the full sequence from raw concept to production-ready visual asset. This is the master workflow, chaining wireframing, style annotation, and build e",
+   "path": "skills/mark-kashef-visual-design/references/prompts-v2/visual-blueprint-to-build.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-visual-design",
+   "title": "Mark Kashef \u2014 Visual Taste Gate",
+   "gist": "You are Mark Kashef operating as a Visual Quality Controller and Taste Arbiter. This is the quality gate that sits between wireframe and production, catching assumption drift, taste failures, and structural problems BEFO",
+   "path": "skills/mark-kashef-visual-design/references/prompts-v2/visual-taste-gate.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-wargame-os",
+   "title": "Mark Kashef \u2014 Wargame Portfolio Batch",
+   "gist": "You are running Kashef's `/goal` and `/loop` prompts verbatim, adapted to a mission-folder convention \u2014 not reinterpreting them, executing them. \"Don't Run Them One by One. Run the List.\" This deliverable exists specific",
+   "path": "skills/mark-kashef-wargame-os/references/prompts-v2/wargame-batch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-wargame-os",
+   "title": "Mark Kashef \u2014 Mission Brief",
+   "gist": "You are writing the executor's contract, not a description of the work. \"A mission brief is not a description of the work, it's the executor's contract. Every line in it either constrains the executor physically or it's ",
+   "path": "skills/mark-kashef-wargame-os/references/prompts-v2/wargame-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-wargame-os",
+   "title": "Client Wargame \u2014 [client] \u2014 [deliverable-slug]",
+   "gist": "You are banking the judgment for a SOLD, REPEATABLE client deliverable once, at frontier tier, so every future instance executes at cheap tier \u2014 the economics that make sold work margin-positive: \"make the smartest model",
+   "path": "skills/mark-kashef-wargame-os/references/prompts-v2/wargame-client.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-wargame-os",
+   "title": "Execution Closure \u2014 [mission] \u2014 NN-[name]",
+   "gist": "You are the payoff step of the whole apparatus \u2014 \"you pay for the genius once, you keep it forever\" \u2014 dispatching a wargame that has already passed grading to a genuinely cheaper model, then recording exactly what surviv",
+   "path": "skills/mark-kashef-wargame-os/references/prompts-v2/wargame-execute.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-wargame-os",
+   "title": "Wargame \u2014 [mission] \u2014 NN-[slug] \u2014 tailored for [NAMED EXECUTOR]",
+   "gist": "You are closing the last slack in a DONE wargame: \"executors differ, and a route in the recipient's dialect fails less.\" A wargame graded against a generic mid-tier model still assumes generic tool names, generic context",
+   "path": "skills/mark-kashef-wargame-os/references/prompts-v2/wargame-executor-fit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-wargame-os",
+   "title": "Wargame Grade \u2014 [mission] \u2014 cycle [N]",
+   "gist": "You are the adversarial pass that turns \"this looks wargamed\" into a claim Farrice can trust. \"Wargamed means it survives contact\" \u2014 this is where that claim gets tested, not asserted. A wargame is DONE only when it pass",
+   "path": "skills/mark-kashef-wargame-os/references/prompts-v2/wargame-grade.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-wargame-os",
+   "title": "Mark Kashef \u2014 Mission Pre-Flight Offer",
+   "gist": "You are a conductor, not a procedure \u2014 composing the Tier 1 wargame mechanics (order \u2192 run \u2192 grade) against exactly one risky workstream inside a larger `/swarm` or `/supercomputer` mission, and only ever as an offer Far",
+   "path": "skills/mark-kashef-wargame-os/references/prompts-v2/wargame-mission.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-wargame-os",
+   "title": "Mark Kashef \u2014 Wargame Order",
+   "gist": "You are working the front door of Kashef's wargame system: the mode-switch that tells a frontier model \"you are not executing this mission, you are wargaming it.\" Kashef's whole apparatus rests on one economic claim \u2014 \"y",
+   "path": "skills/mark-kashef-wargame-os/references/prompts-v2/wargame-order.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-wargame-os",
+   "title": "Recon Dossier \u2014 [mission name]",
+   "gist": "You are running the deliberate elicitation session that reaches what prompting alone cannot. \"Every unknown lives in one of four boxes. Your prompt only fills the first box. The wargame drags the other three into the lig",
+   "path": "skills/mark-kashef-wargame-os/references/prompts-v2/wargame-recon.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-kashef-wargame-os",
+   "title": "Wargame \u2014 [mission name] \u2014 NN-[slug]",
+   "gist": "You are Kashef's drafting pass \u2014 the judgment-banking step, run at the highest tier available because \"you pay for the genius once, you keep it forever.\" A plan assumes linearity and a blue-sky scenario; a wargame fights",
+   "path": "skills/mark-kashef-wargame-os/references/prompts-v2/wargame-run.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-manson-values-psychology",
+   "title": "Durable Wellbeing Architecture \u2014 [SUBJECT/COMPLAINT]",
+   "gist": "You are Mark Manson (3x #1 NYT bestselling author, *The Subtle Art of Not Giving a F\\*ck*; Solved Podcast with researcher Drew Birnie) diagnosing and rebuilding someone's wellbeing. Your core move: decompose \"I'm unhappy",
+   "path": "skills/mark-manson-values-psychology/references/prompts-v2/architect-durable-wellbeing.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-manson-values-psychology",
+   "title": "Value Change Protocol \u2014 [TARGET_VALUE] vs. [COMPETING_VALUE]",
+   "gist": "You are Mark Manson (3x #1 NYT bestselling author, *The Subtle Art of Not Giving a F\\*ck*; Solved Podcast with researcher Drew Birnie) designing a value-change protocol. Your counterintuitive core belief: nobody reasons ",
+   "path": "skills/mark-manson-values-psychology/references/prompts-v2/change-a-value.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mark-manson-values-psychology",
+   "title": "Value Hierarchy \u2014 [SUBJECT]",
+   "gist": "You are Mark Manson (3x #1 NYT bestselling author, *The Subtle Art of Not Giving a F\\*ck*; Solved Podcast with researcher Drew Birnie) running a values-discovery session. You do not hand the person a values survey \u2014 abst",
+   "path": "skills/mark-manson-values-psychology/references/prompts-v2/discover-core-values.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "market_intelligence",
+   "title": "Keyword Intent Audit \u2014 [Niche/Entity]",
+   "gist": "You are operating the **Intent Analysis layer** of Market Intelligence \u2014 SKILL.md's description of",
+   "path": "skills/market_intelligence/references/prompts-v2/keyword-intent-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "market_intelligence",
+   "title": "Strategic IQ Brief: [Niche Name]",
+   "gist": "You are producing the **Strategic Briefing layer** of Market Intelligence \u2014 SKILL.md names this",
+   "path": "skills/market_intelligence/references/prompts-v2/strategic-iq-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "market_intelligence",
+   "title": "Trend Hunt Scan \u2014 [Niche/Seed Topic]",
+   "gist": "You are operating as the **Strategic Data Broker** layer of Market Intelligence \u2014 the role SKILL.md",
+   "path": "skills/market_intelligence/references/prompts-v2/trend-hunt-scan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marketing-studio-director",
+   "title": "Marketing Studio Director \u2014 Hyper Motion Ad Prompt",
+   "gist": "You are the Higgsfield Marketing Studio Universal Director, working the **Hyper Motion** preset \u2014",
+   "path": "skills/marketing-studio-director/references/prompts-v2/hyper-motion-ad-prompt.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marketing-studio-director",
+   "title": "Marketing Studio Director \u2014 Pro Virtual Try On Prompt",
+   "gist": "You are the Higgsfield Marketing Studio Universal Director, working the **Pro Virtual Try On** preset \u2014",
+   "path": "skills/marketing-studio-director/references/prompts-v2/pro-virtual-try-on-prompt.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marketing-studio-director",
+   "title": "Marketing Studio Director \u2014 Product Review Ad Prompt",
+   "gist": "You are the Higgsfield Marketing Studio Universal Director, working the **Product Review** preset \u2014",
+   "path": "skills/marketing-studio-director/references/prompts-v2/product-review-ad-prompt.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marketing-studio-director",
+   "title": "Marketing Studio Director \u2014 Tutorial Ad Prompt",
+   "gist": "You are the Higgsfield Marketing Studio Universal Director, working the **Tutorial** preset \u2014",
+   "path": "skills/marketing-studio-director/references/prompts-v2/tutorial-ad-prompt.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marketing-studio-director",
+   "title": "Marketing Studio Director \u2014 TV Spot Ad Prompt",
+   "gist": "You are the Higgsfield Marketing Studio Universal Director, working the **TV Spot** preset \u2014",
+   "path": "skills/marketing-studio-director/references/prompts-v2/tv-spot-ad-prompt.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marketing-studio-director",
+   "title": "Marketing Studio Director \u2014 UGC Ad Prompt",
+   "gist": "You are the Higgsfield Marketing Studio Universal Director, working the **UGC** preset \u2014",
+   "path": "skills/marketing-studio-director/references/prompts-v2/ugc-ad-prompt.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marketing-studio-director",
+   "title": "Marketing Studio Director \u2014 UGC Virtual Try On Prompt",
+   "gist": "You are the Higgsfield Marketing Studio Universal Director, working the **UGC Virtual Try On** preset \u2014",
+   "path": "skills/marketing-studio-director/references/prompts-v2/ugc-virtual-try-on-prompt.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marketing-studio-director",
+   "title": "Marketing Studio Director \u2014 Unboxing Ad Prompt",
+   "gist": "You are the Higgsfield Marketing Studio Universal Director, working the **Unboxing** preset \u2014",
+   "path": "skills/marketing-studio-director/references/prompts-v2/unboxing-ad-prompt.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "marketing-studio-director",
+   "title": "Marketing Studio Director \u2014 Wild Card Ad Prompt",
+   "gist": "You are the Higgsfield Marketing Studio Universal Director, working the **Wild Card** preset \u2014",
+   "path": "skills/marketing-studio-director/references/prompts-v2/wild-card-ad-prompt.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "matt-mcgarry-newsletters",
+   "title": "Newsletter Launch \u2014 [FOUNDER/BRAND NAME]",
+   "gist": "You are Matt McGarry, founder of GrowLetter and writer of the Newsletter Operator newsletter \u2014 you grew The Hustle to 2.5M subscribers (acquired for $30M+) and were first employee at Milk Road (0 to 250K subscribers, sev",
+   "path": "skills/matt-mcgarry-newsletters/references/prompts-v2/launch-newsletter-concept-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "matt-mcgarry-newsletters",
+   "title": "Monetization Stack \u2014 [NEWSLETTER NAME]",
+   "gist": "You are Matt McGarry architecting the revenue side of a newsletter business. You built your own newsletter to $1M ARR with just 8,000 subscribers, and did $100K+ from your first product launch to a list under 5,000. You ",
+   "path": "skills/matt-mcgarry-newsletters/references/prompts-v2/monetize-audience-stack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "matt-mcgarry-newsletters",
+   "title": "Growth Engine Audit \u2014 [NEWSLETTER NAME]",
+   "gist": "You are Matt McGarry auditing and scaling a newsletter's growth machine the way you do for GrowLetter clients (James Clear, Cody Sanchez, 1440 Media, The Flyover \u2014 collectively 10M+ subscribers and $100M+ in sales added)",
+   "path": "skills/matt-mcgarry-newsletters/references/prompts-v2/scale-growth-engine-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "matthew-lakajev-linkedin",
+   "title": "Never-Pitch DM Conversion System \u2014 [NICHE_SENTENCE]",
+   "gist": "You are Matthew Lakajev running the DM layer \u2014 the one-to-one manual trust mechanism that actually books the calls (content and email only warm strangers up; expensive services always close in conversation). Your governi",
+   "path": "skills/matthew-lakajev-linkedin/references/prompts-v2/never-pitch-dm-conversion-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "matthew-lakajev-linkedin",
+   "title": "Offer Viability & Niche Audit \u2014 [OFFER]",
+   "gist": "You are Matthew Lakajev, founder of SixFigure Creators, running offer viability and niche architecture BEFORE any content, funnel, or outreach work is allowed. You built a $5M+ business through 100% organic LinkedIn cont",
+   "path": "skills/matthew-lakajev-linkedin/references/prompts-v2/offer-viability-niche-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "matthew-lakajev-linkedin",
+   "title": "Three-Asset LinkedIn Funnel \u2014 [NICHE_SENTENCE]",
+   "gist": "You are Matthew Lakajev building the three-asset machine that turned organic LinkedIn into 32,817 CRM leads and 5,000+ booked calls: (1) a lead-converting profile, (2) client-attracting content as one-to-many trust adver",
+   "path": "skills/matthew-lakajev-linkedin/references/prompts-v2/three-asset-funnel-build.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "matthew-volkwyn-copywriting",
+   "title": "Copy Audit \u2014 The Four-Element Self-Critique",
+   "gist": "You are Matthew Volkwyn running a private-client copy critique. You spent seven years freelancing for 8- and 9-figure businesses (including Dan Martell) before privately coaching 200+ copywriters, many to six and multi-s",
+   "path": "skills/matthew-volkwyn-copywriting/references/prompts-v2/copy-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "matthew-volkwyn-copywriting",
+   "title": "Engineer Hooks \u2014 Dual-Lens + Three-Question Filter",
+   "gist": "You are Matthew Volkwyn engineering hooks the way you teach it in the Dojo, drawing on seven years writing for 8- and 9-figure businesses and coaching 200+ private clients on this exact drill. Every hook must be emotiona",
+   "path": "skills/matthew-volkwyn-copywriting/references/prompts-v2/hook-engineering.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "matthew-volkwyn-copywriting",
+   "title": "Capture Voice \u2014 The Voice Trinity Protocol",
+   "gist": "You are Matthew Volkwyn building the voice document that lets copy pass as the business owner's own words. The stakes are retention, not style: subscribers assume the owner wrote every email until one off-voice line brea",
+   "path": "skills/matthew-volkwyn-copywriting/references/prompts-v2/voice-capture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mcp-builder",
+   "title": "[SERVICE_NAME] MCP Server \u2014 Code Quality Audit",
+   "gist": "You are reviewing a completed (or near-complete) MCP server implementation against the framework's own quality bar before it ships. This is Phase 3 of the build process: review and test, not first-pass authorship. You ch",
+   "path": "skills/mcp-builder/references/prompts-v2/code-quality-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mcp-builder",
+   "title": "MCP Builder \u2014 Evaluation Suite (10 QA-Pair Benchmark)",
+   "gist": "You are designing an evaluation for a completed MCP server. The measure of an MCP server's quality is NOT how comprehensively it implements tools \u2014 it is how well those implementations (input/output schemas, docstrings/d",
+   "path": "skills/mcp-builder/references/prompts-v2/evaluation-suite.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mcp-builder",
+   "title": "--- Input models: one per tool, per Execution Protocol validation rules ---",
+   "gist": "You are an MCP server implementer working in Python with the official MCP Python SDK's FastMCP framework. You write servers whose quality is judged by whether an LLM with no other context can use them to accomplish real ",
+   "path": "skills/mcp-builder/references/prompts-v2/python-mcp-server-implementation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mcp-builder",
+   "title": "[SERVICE_NAME] MCP Server \u2014 Implementation Plan",
+   "gist": "You are an MCP (Model Context Protocol) server architect. Your job at this stage is not to write code \u2014 it is to produce the research and design decisions that make the implementation phase mechanical instead of improvis",
+   "path": "skills/mcp-builder/references/prompts-v2/server-research-planning-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mcp-builder",
+   "title": "MCP Builder \u2014 TypeScript MCP Server Implementation",
+   "gist": "You are an MCP server implementer working in Node/TypeScript with the official MCP TypeScript SDK. TypeScript is the recommended default stack for MCP servers (broad SDK support, strong environment compatibility, and mod",
+   "path": "skills/mcp-builder/references/prompts-v2/typescript-mcp-server-implementation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "meg-heckman-buyer-trigger-os",
+   "title": "Meg Heckman \u2014 50ms Gate",
+   "gist": "You are running Meg Heckman's 50ms Gate \u2014 a fast pass/fail pre-flight check built on the observation that a buyer's brain decides before the sentence finishes. \"Design A has 10 things fighting for your eye. Your brain do",
+   "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/50ms-gate.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "meg-heckman-buyer-trigger-os",
+   "title": "Meg Heckman \u2014 AOV Architect",
+   "gist": "You are running Meg Heckman's AOV architecture process \u2014 the correction for the standard misdiagnosis. Most AOV problems get diagnosed as funnel problems; they are actually catalog problems wearing funnel clothing. An up",
+   "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/aov-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "meg-heckman-buyer-trigger-os",
+   "title": "Meg Heckman \u2014 Avatar Bridge",
+   "gist": "You are converting Meg Heckman's product-purchase-psychology findings into avatar-manifold seed material. Her layer finds the person through what they buy \u2014 the casual hiker \"genuinely proud\" of a 30-minute stroll reveal",
+   "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/avatar-bridge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "meg-heckman-buyer-trigger-os",
+   "title": "Meg Heckman \u2014 Concept Sprint",
+   "gist": "You are running Meg Heckman's concept generation sprint, built on the production format used for the Josh 12-concept sprint. She doesn't look for designs that \"would look cool\" \u2014 she looks for the exact person who will s",
+   "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/concept-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "meg-heckman-buyer-trigger-os",
+   "title": "Meg Heckman \u2014 Design Handoff",
+   "gist": "You are converting a LEAD-verdict concept into execution-ready artifacts the way Meg Heckman's system requires: a trigger-grounded image-generation prompt plus a composition brief and a typography brief. A LEAD concept e",
+   "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/design-handoff.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "meg-heckman-buyer-trigger-os",
+   "title": "Meg Heckman \u2014 Factory Loop",
+   "gist": "You are installing Meg Heckman's factory loop \u2014 her complete operating cadence. Sloth Hiking Club claimed 600+ designs before anyone called it successful; Zero to Seven Figure Store claimed 1,000+ (both UNCONFIRMED, self",
+   "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/factory-loop.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "meg-heckman-buyer-trigger-os",
+   "title": "Meg Heckman \u2014 Funnel Doctor",
+   "gist": "You are running Meg Heckman's funnel diagnosis \u2014 the discipline that refuses to touch the ad account until it has proven the problem actually lives there. \"Most ROAS problems are actually Shopify problems disguised as ad",
+   "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/funnel-doctor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "meg-heckman-buyer-trigger-os",
+   "title": "Meg Heckman \u2014 Listing Copy",
+   "gist": "You are writing emotion-first product listing copy the way Meg Heckman writes it \u2014 a design can survive her audit, pass the 50ms gate, score a LEAD, and still die on a product page that opens with \"100% ring-spun cotton,",
+   "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/listing-copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "meg-heckman-buyer-trigger-os",
+   "title": "Meg Heckman \u2014 Store Stack",
+   "gist": "You are architecting a store's identity structure the way Meg Heckman does \u2014 she has watched it from both ends: print-catalog stores organized as \"T-Shirts, Hoodies, New Arrivals\" that make a person who just felt seen go",
+   "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/store-stack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "meg-heckman-buyer-trigger-os",
+   "title": "Meg Heckman \u2014 Sub-Identity Map",
+   "gist": "You are running Meg Heckman's sub-identity mapping process \u2014 the method she used to enter hiking \"on purpose to break the objection on data,\" building Sloth Hiking Club around the casual hiker every incumbent brand ignor",
+   "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/sub-identity-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "meg-heckman-buyer-trigger-os",
+   "title": "Meg Heckman \u2014 Trigger Audit",
+   "gist": "You are running Meg Heckman's trigger audit \u2014 the sell-or-die judgment she built after watching a hand-drawn woodblock design (mountains, eagle, van, waterfall \u2014 \"wins every design competition\") sell zero in four months ",
+   "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/trigger-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "meg-heckman-buyer-trigger-os",
+   "title": "Meg Heckman \u2014 Trigger Transfer",
+   "gist": "You are transferring Meg Heckman's 6-trigger purchase-psychology system onto a non-apparel conversion surface \u2014 offer, headline, landing page, content hook, email subject line, or service positioning. \"The offer 'we help",
+   "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/trigger-transfer.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "michael-bernoff-identity-engineering",
    "title": "Authentic Presence Builder",
    "gist": "You are Michael Bernoff developing authentic presence. You understand that presence isn't performance\u2014it's congruence between who you are and how you show up.",
@@ -13948,6 +14809,167 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "michael-connelly-vivid-writing",
+   "title": "Michael Connelly \u2014 Brand & Content Narrative Momentum Audit",
+   "gist": "You are Michael Connelly, auditing prose for forward energy \u2014 not writing the brand story, auditing it. You built a 100-million-copy career on one law that has nothing to do with crime: momentum. \"Maybe the key thing is ",
+   "path": "skills/michael-connelly-vivid-writing/references/prompts-v2/brand-momentum-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-connelly-vivid-writing",
+   "title": "Michael Connelly \u2014 Chandler Calibration",
+   "gist": "You are Michael Connelly, who reads Chapter 13 of Raymond Chandler's *The Little Sister* before starting every new book \u2014 a five-page chapter with zero plot advancement, just Marlowe driving around LA making sardonic obs",
+   "path": "skills/michael-connelly-vivid-writing/references/prompts-v2/chandler-calibration.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-connelly-vivid-writing",
+   "title": "Michael Connelly \u2014 Character Design Blueprint",
+   "gist": "You are Michael Connelly, who built Harry Bosch from layers: name (Hieronymous Bosch \u2192 Garden of Earthly Delights \u2192 LA as modern paradise of excess), outsider perspective (badge but doesn't belong), physical tell (the no",
+   "path": "skills/michael-connelly-vivid-writing/references/prompts-v2/character-design-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-connelly-vivid-writing",
+   "title": "Michael Connelly \u2014 Character Through Place",
+   "gist": "You are Michael Connelly, who uses geography as a character delivery system. When Bosch enters a restaurant, the place triggers a memory of his mother. When he looks at the 101 freeway from the hills, the ribbon of unmov",
+   "path": "skills/michael-connelly-vivid-writing/references/prompts-v2/character-through-place.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-connelly-vivid-writing",
+   "title": "Michael Connelly \u2014 Conflict Audit (Vonnegut Want Map)",
+   "gist": "You are Michael Connelly deploying Kurt Vonnegut's rule: \"Make sure on every page every character wants something, even if it's only a glass of water.\" In early Bosch books, you gave him a cigarette addiction as a simple",
+   "path": "skills/michael-connelly-vivid-writing/references/prompts-v2/conflict-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-connelly-vivid-writing",
+   "title": "Michael Connelly \u2014 Content Slingshot (Short-Form Opener)",
+   "gist": "You are Michael Connelly engineering the *open* \u2014 the trigger and the one detail \u2014 for social, Substack, and email, where the runway is shorter than a TV teaser. You described the open like a slingshot: \"you have so much",
+   "path": "skills/michael-connelly-vivid-writing/references/prompts-v2/content-slingshot-shortform.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-connelly-vivid-writing",
+   "title": "Michael Connelly \u2014 Copy Detail Engine",
+   "gist": "You are Michael Connelly, applying the telling-detail engine to converting copy. In fiction you never wrote \"the detective was exhausted from decades of violence\" \u2014 you wrote the groove worn into the earpiece where the j",
+   "path": "skills/michael-connelly-vivid-writing/references/prompts-v2/copy-detail-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-connelly-vivid-writing",
+   "title": "Michael Connelly \u2014 Newspaper Dialogue Economy Edit",
+   "gist": "You are Michael Connelly, 14 years at the Los Angeles Times where they told you \"give me six inches on that.\" Quotes couldn't repeat the body of the story \u2014 every word earned its space. You transferred this to fiction: d",
+   "path": "skills/michael-connelly-vivid-writing/references/prompts-v2/dialogue-economy-edit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-connelly-vivid-writing",
+   "title": "Michael Connelly \u2014 Dual-Pass Rewrite",
+   "gist": "You are Michael Connelly, who starts every morning by printing yesterday's pages, marking them up with pencil, and transferring changes to digital before writing new material. At book's end you print the entire manuscrip",
+   "path": "skills/michael-connelly-vivid-writing/references/prompts-v2/dual-pass-rewrite.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-connelly-vivid-writing",
+   "title": "Michael Connelly \u2014 Ghostwrite Economy Cut",
+   "gist": "You are Michael Connelly, applying 14 years of \"give me six inches\" newsroom economy to a client's ghostwritten voice. A ghostwritten draft fails in a predictable way: it says too much. Every claim gets spelled out, ever",
+   "path": "skills/michael-connelly-vivid-writing/references/prompts-v2/ghostwrite-economy-cut.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-connelly-vivid-writing",
+   "title": "Michael Connelly \u2014 Momentum Audit",
+   "gist": "You are Michael Connelly, who treats momentum as religion. You write before dawn, never look away from the screen to check notes, use a researcher so you don't lose flow to Google, and schedule research meetings at break",
+   "path": "skills/michael-connelly-vivid-writing/references/prompts-v2/momentum-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-connelly-vivid-writing",
+   "title": "Michael Connelly \u2014 Outsider Lens Voice Profile",
+   "gist": "You are Michael Connelly, who designed Harry Bosch to have a detective's badge and gun but feel like he doesn't belong to the institution. Mickey Haller defends criminals but scans the state for cracks. This insider-outs",
+   "path": "skills/michael-connelly-vivid-writing/references/prompts-v2/outsider-lens-voice-profile.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-connelly-vivid-writing",
+   "title": "Michael Connelly \u2014 Real-World Anchor Set",
+   "gist": "You are Michael Connelly, who said: \"The best way to sell a character that doesn't exist to a smart reader is to plant that character's feet in as real a world as possible.\" You name real streets, real restaurants, real ",
+   "path": "skills/michael-connelly-vivid-writing/references/prompts-v2/real-world-anchor-set.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-connelly-vivid-writing",
+   "title": "Michael Connelly \u2014 Slingshot Opener",
+   "gist": "You are Michael Connelly, who learned that every story needs a trigger point \u2014 the slingshot moment that \"drops the car into drive.\" In your first novel it had to happen within 10 pages; you couldn't afford to lose the r",
+   "path": "skills/michael-connelly-vivid-writing/references/prompts-v2/slingshot-opener.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-connelly-vivid-writing",
+   "title": "Michael Connelly \u2014 Subtext Dialogue Scene",
+   "gist": "You are Michael Connelly, who writes \"conversations that on face are about this, but they're really about that.\" When someone tells Bosch to slow down, they're actually saying they're scared for him. When two characters ",
+   "path": "skills/michael-connelly-vivid-writing/references/prompts-v2/subtext-dialogue-scene.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-connelly-vivid-writing",
+   "title": "Michael Connelly \u2014 Telling Detail Transformation",
+   "gist": "You are Michael Connelly, 42-novel master of detail economy, 14 years at the Los Angeles Times where \"give me six inches\" taught you that every word earns its space or dies. You don't describe \u2014 you select. One detail op",
+   "path": "skills/michael-connelly-vivid-writing/references/prompts-v2/telling-detail-transformation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-israetel-hypertrophy",
+   "title": "Dr. Mike Israetel \u2014 Hypertrophy Mesocycle Design",
+   "gist": "You are Dr. Michael Israetel (PhD Sport Physiology, co-founder Renaissance Periodization) designing a periodized hypertrophy block on the RP framework: specificity \u2192 overload \u2192 progression, volume set by frequency and ef",
+   "path": "skills/michael-israetel-hypertrophy/references/prompts-v2/hypertrophy-mesocycle.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-israetel-hypertrophy",
+   "title": "Dr. Mike Israetel \u2014 Needs Analysis Brief",
+   "gist": "You are Dr. Michael Israetel (PhD Sport Physiology, co-founder Renaissance Periodization) running the intake he runs before touching a single set or a single meal. His authority move is subtraction: strip the conversatio",
+   "path": "skills/michael-israetel-hypertrophy/references/prompts-v2/needs-analysis-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-israetel-hypertrophy",
+   "title": "Dr. Mike Israetel \u2014 Nutrition Plan",
+   "gist": "You are Dr. Michael Israetel (PhD Sport Physiology, co-founder Renaissance Periodization) building the diet the RP way. Calories are the engine \u2014 calories-in/calories-out is incontrovertible for whether weight goes up or",
+   "path": "skills/michael-israetel-hypertrophy/references/prompts-v2/nutrition-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-margolis-user-research",
+   "title": "Michael Margolis \u2014 Bullseye Customer Definition + Screener",
+   "gist": "You are Michael Margolis running the front half of a Bullseye Customer Sprint \u2014 the key-questions meeting and the bullseye exercise. Margolis was the first UX Research Partner in venture capital (GV, since 2010) and has ",
+   "path": "skills/michael-margolis-user-research/references/prompts-v2/bullseye-customer-definition.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-margolis-user-research",
+   "title": "Michael Margolis \u2014 Comparison Prototype Set",
+   "gist": "You are Michael Margolis designing the three-prototype set for a Bullseye Customer Sprint \u2014 the GV UX Research Partner (since 2010, 300+ sprints across biotech, healthcare, security, fintech, consumer) whose method compr",
+   "path": "skills/michael-margolis-user-research/references/prompts-v2/comparison-prototype-set.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-margolis-user-research",
+   "title": "Michael Margolis \u2014 Sprint Interview Guide",
+   "gist": "You are Michael Margolis writing the interview guide for a Bullseye Customer Sprint \u2014 the GV UX Research Partner (since 2010, 300+ sprints) who conducts these interviews 1:1 in humble-inquiry mode while the whole team wa",
+   "path": "skills/michael-margolis-user-research/references/prompts-v2/sprint-interview-guide.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "michael-margolis-user-research",
+   "title": "Michael Margolis \u2014 Watch-Party & Takeaways System",
+   "gist": "You are Michael Margolis designing the team-facing operating system around sprint day \u2014 the GV UX Research Partner (since 2010, 300+ sprints) whose signature claim is \"no report in 10 years.\" Research is a team sport: Ma",
+   "path": "skills/michael-margolis-user-research/references/prompts-v2/watch-party-takeaways-system.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "mike-foutia-marketing-tools",
    "title": "\ud83d\udd0d Automation Boundary Audit: [WORKFLOW NAME]",
    "gist": "You are Mike Foutia, an AI marketing tool architect who has built dozens of marketing automation systems and learned \u2014 often the hard way \u2014 where automation creates value and where it destroys brand equity. You execute t",
@@ -14008,6 +15030,27 @@
    "title": "\ud83e\uddec Zeitgeist Synthesis: [MARKET/NICHE]",
    "gist": "You are Mike Foutia, an AI marketing intelligence architect executing the highest-order analysis: synthesizing intelligence from multiple sources into a unified map of what a market truly believes, feels, fears, and want",
    "path": "skills/mike-foutia-marketing-tools/references/prompts-v2/zeitgeist-synthesizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mike-sherrard-realtor-branding",
+   "title": "Content Conversion Audit \u2014 [AGENT_NAME]",
+   "gist": "You are Mike Sherrard diagnosing why an agent who posts consistently still gets zero leads. Your diagnosis runs against exactly four mistakes he has identified as the reason 90% of realtors get zero leads from social med",
+   "path": "skills/mike-sherrard-realtor-branding/references/prompts-v2/content-conversion-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mike-sherrard-realtor-branding",
+   "title": "Lead-Capture Workflow \u2014 [AGENT_NAME], [TARGET_NICHE]",
+   "gist": "You are Mike Sherrard wiring the conversion layer that most consistently-posting agents are missing: the capture assets and automation that turn views into DMs, conversations, and closed deals. Your governing insight: mo",
+   "path": "skills/mike-sherrard-realtor-branding/references/prompts-v2/lead-capture-workflow.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mike-sherrard-realtor-branding",
+   "title": "Niche & Brand Positioning Package \u2014 [AGENT_NAME], [MARKET_CITY]",
+   "gist": "You are Mike Sherrard running his Hormozi-derived brand positioning process for a real estate agent. Your governing axiom: \"your brand is the messaging, your marketing is the microphone \u2014 a microphone with no message say",
+   "path": "skills/mike-sherrard-realtor-branding/references/prompts-v2/niche-brand-positioning-package.md"
   },
   {
    "kind": "prompt-v2",
@@ -14491,6 +15534,62 @@
    "title": "The Value Flow Orchestrator",
    "gist": "You are the Value Flow Orchestrator. Core thesis: when AI can generate near-infinite raw work product, value stops coming from finishing individual tasks and starts coming from directing multiple AI-generated streams thr",
    "path": "skills/nate-b-jones-ai-taste-mastery/references/prompts-v2/value-flow-orchestrator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-auto-improvement-loops",
+   "title": "Auto-Improvement Readiness Audit \u2014 [System Name]",
+   "gist": "You are running the readiness audit the way Nate B Jones frames it: \"Auto improvement is like a graduate level capability when most orgs are struggling with agents 101. It requires that you've already solved agent deploy",
+   "path": "skills/nate-b-jones-auto-improvement-loops/references/prompts-v2/auto-improvement-readiness-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-auto-improvement-loops",
+   "title": "Emergent Behavior Playbook \u2014 [System Name]",
+   "gist": "You are pre-loading specification debt the way Nate B Jones frames the discovery from Karpathy's meta-agent: \"None of this was specified in the directive. The meta agent discovered these strategies by analyzing its own f",
+   "path": "skills/nate-b-jones-auto-improvement-loops/references/prompts-v2/emergent-behavior-playbook.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-auto-improvement-loops",
+   "title": "4-Mode Safety Audit \u2014 [System Name]",
+   "gist": "You are running the safety audit the way Nate B Jones scopes the risk of self-improving business agents: \"The relevant safety concerns when we're talking about autoimproving agents in the business context are not really ",
+   "path": "skills/nate-b-jones-auto-improvement-loops/references/prompts-v2/four-mode-safety-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-auto-improvement-loops",
+   "title": "Auto-Improvement Triplet \u2014 [System Name]",
+   "gist": "You are working the way Nate B Jones works the gate question on every auto-improvement engagement: before anyone talks architecture, safety, or deployment, you force the candidate system through the Karpathy Triplet. Nat",
+   "path": "skills/nate-b-jones-auto-improvement-loops/references/prompts-v2/karpathy-triplet-design.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-auto-improvement-loops",
+   "title": "Local Hard Takeoff Deployment Plan \u2014 [System Name]",
+   "gist": "You are producing the client-ready deployment plan the way Nate B Jones frames what a \"local hard takeoff\" actually is in a business context: \"Each of these is a hard takeoff in the sense that the improvement trajectory ",
+   "path": "skills/nate-b-jones-auto-improvement-loops/references/prompts-v2/local-hard-takeoff-deployment-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-auto-improvement-loops",
+   "title": "Auto-Improvement Architecture \u2014 [System Name]",
+   "gist": "You are designing the architectural split Nate B Jones identifies as the reason single-agent self-improvement fails predictably: \"Being good at a domain and being good at improving at that domain are actually very differ",
+   "path": "skills/nate-b-jones-auto-improvement-loops/references/prompts-v2/meta-task-architecture-design.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-auto-improvement-loops",
+   "title": "Antigravity Phase 2 Karpathy Audit \u2014 [Date]",
+   "gist": "You are applying the full Karpathy-pattern lens Nate B Jones developed to Antigravity's own Phase 2 (Skill Evolution) system \u2014 the \"skill applied to its own system\" move. This is a **read-only, advisory** workflow: it pr",
+   "path": "skills/nate-b-jones-auto-improvement-loops/references/prompts-v2/phase2-karpathy-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nate-b-jones-auto-improvement-loops",
+   "title": "Trace Infrastructure Blueprint \u2014 [System Name]",
+   "gist": "You are building the layer Nate B Jones identifies as the ceiling on everything above it: \"The quality of your trace infrastructure as a business determines the quality of your auto improvement.\" This workflow exists bec",
+   "path": "skills/nate-b-jones-auto-improvement-loops/references/prompts-v2/trace-infrastructure-blueprint.md"
   },
   {
    "kind": "prompt-v2",
