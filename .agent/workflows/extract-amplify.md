@@ -157,3 +157,13 @@ Present the Amplification Report. The user decides:
 - `/extract-vision` — the vision document tells amplify what "more" means
 - `/extract` — amplify is the natural follow-up to any standard extraction
 - `/extract-forge` — forge has amplification built in; use this standalone when revisiting older extractions
+
+---
+
+## Prompt Forging Gate (MANDATORY since 2026-07-13 — spec: `directives/prompt-forging-spec.md`)
+
+Any skill this workflow creates, converts, or enriches ships with its execution layer — no exceptions:
+1. **Born-v2 prompts**: one structure-pure v2 prompt per distinct deliverable (typically 4-10) in `skills/<skill>/references/prompts-v2/` — Role & Activation (real credentials only), Input Required, Execution Protocol at full depth FROM THE EXTRACTED MATERIAL (never training memory), Output Contract, Output Skeleton (placeholders only), Quality Gate, Deploy When. Fidelity rule: thin source → fewer/deeper prompts, flag `fidelity: low`, never invent.
+2. **Wire (all four)**: `python3 execution/renaissance_audit.py` (0 fail) → `python3 execution/prompt_library.py build` → `python3 execution/wire_prompt_pointers.py --write` → `Execution prompt:` cross-ref line under each workflow's output step.
+
+A skill without prompts is half-finished work — do not register or close out without this gate passing. The load-time menu hook (`execution/hooks/prompt_menu_hook.py`) flags violations at every future load.

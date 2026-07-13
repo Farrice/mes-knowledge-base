@@ -134,6 +134,21 @@ mkdir -p skills/[skill-name]/workflows skills/[skill-name]/references agents/[ex
    - Stacking guide (which workflows pair with which experts)
    - Quick reference
 
+### Phase 5.5: Forge Execution Prompts (MANDATORY — spec: `directives/prompt-forging-spec.md`)
+
+One **born-v2 structure-pure prompt** per distinct deliverable (typically 4-10), written to
+`skills/[skill-name]/references/prompts-v2/`: Role & Activation (real credentials only), Input
+Required `[BRACKET]`s, Execution Protocol at full depth FROM THE EXTRACTED MATERIAL (never
+training memory — see the transcript-only-extraction solution card), Output Contract, Output
+Skeleton (placeholders only), Quality Gate, Deploy When. Fidelity rule applies: thin source →
+fewer/deeper prompts, flag `fidelity: low`, never invent.
+
+Then wire (all four, non-optional):
+1. `python3 execution/renaissance_audit.py` → 0 fail
+2. `python3 execution/prompt_library.py build`
+3. `python3 execution/wire_prompt_pointers.py --write`
+4. `Execution prompt: references/prompts-v2/<file>.md` line under each workflow's output step
+
 ### Phase 6: Registration
 
 1. **Create agent file**: `agents/[expert-name]/AGENT.md`

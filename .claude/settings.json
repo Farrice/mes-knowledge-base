@@ -95,6 +95,16 @@
             "timeout": 5
           }
         ]
+      },
+      {
+        "matcher": "Read",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/prompt_menu_hook.py\"",
+            "timeout": 5
+          }
+        ]
       }
     ],
     "Stop": [

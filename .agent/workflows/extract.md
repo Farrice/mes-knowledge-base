@@ -85,6 +85,12 @@ Each workflow MUST: load genius context, produce a specific deliverable, mirror 
 #### 5e. Write SKILL.md
 Use completion engine format with frontmatter (name, description, version: "2.0", format: "completion-engine", workflows count), expert context, workflow table, and quick reference.
 
+### 5.5. Forge Execution Prompts (MANDATORY — spec: `directives/prompt-forging-spec.md`)
+// turbo
+A skill without its execution prompts is half-finished. For each distinct deliverable the skill produces (derived from its workflows; typically 4-10):
+- Write a **born-v2 structure-pure prompt** to `skills/[skill-name]/references/prompts-v2/` — Role & Activation (real credentials only), Input Required `[BRACKET]`s, Execution Protocol at full methodology depth FROM THE EXTRACTED MATERIAL (never training memory), Output Contract, Output Skeleton (placeholders only), Quality Gate, Deploy When. Fidelity rule: thin source → fewer/deeper prompts, never invented filler.
+- Wire: `python3 execution/renaissance_audit.py` (must be 0 fail) → `python3 execution/prompt_library.py build` → `python3 execution/wire_prompt_pointers.py --write` → add `Execution prompt: references/prompts-v2/<file>.md` under each workflow's output step.
+
 ### 6. Create Agent Files
 // turbo
 - `agents/[expert-name]/AGENT.md` — standard agent template
