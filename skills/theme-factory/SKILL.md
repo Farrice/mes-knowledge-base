@@ -65,6 +65,6 @@ To handle cases where none of the existing themes work for an artifact, create a
 2 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Theme Factory — Apply Existing Theme** — `skills/theme-factory/references/prompts-v2/apply-existing-theme.md`
-- **[Theme Name — two words, evocative]** — `skills/theme-factory/references/prompts-v2/custom-theme-creation.md`
+- **Theme Factory — Custom Theme Creation** — `skills/theme-factory/references/prompts-v2/custom-theme-creation.md`
 
 <!-- END:execution-prompts -->

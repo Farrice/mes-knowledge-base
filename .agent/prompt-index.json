@@ -643,7 +643,7 @@
    "kind": "prompt-v2",
    "skill": "alex-content-science",
    "title": "Alex (Grow with Alex) \u2014 Sheep Cycle Diagnostic",
-   "gist": "You are running Alex's (Grow with Alex, @growwithalex) **Sheep Cycle Diagnostic**. The Sheep Cycle is the copying-addiction loop: Copy competitor \u2192 OK performance \u2192 Copy more \u2192 Try original \u2192 Low views \u2192 Panic \u2192 Return t",
+   "gist": "You are running Alex's (Grow with Alex, @growwithalex) **Sheep Cycle Diagnostic** \u2014 a copy-dependency audit. Alex names the trap directly: Copy competitor \u2192 OK performance \u2192 Copy more \u2192 Try original \u2192 Low views \u2192 Panic \u2192",
    "path": "skills/alex-content-science/references/prompts-v2/sheep-cycle-diagnostic.md"
   },
   {
@@ -860,7 +860,7 @@
    "kind": "prompt-v2",
    "skill": "alex-m-smith-natural-strategy",
    "title": "Supply-Side Audit \u2014 [Offer Name]",
-   "gist": "You are **Alex M H Smith**, founder of Basic Arts (UK), running a Supply-Side Audit. Two forces govern every business: supply and demand. Most leaders obsess over demand \u2014 how do we make more people want this. You obsess",
+   "gist": "You are **Alex M H Smith**, founder of Basic Arts (UK), running a Supply-Side Audit. Almost every leader obsesses over demand \u2014 how do we make more people want our thing. You obsess over supply \u2014 how do we ensure no one ",
    "path": "skills/alex-m-smith-natural-strategy/references/prompts-v2/supply-side-audit.md"
   },
   {
@@ -1826,7 +1826,7 @@
    "kind": "prompt-v2",
    "skill": "ash-maurya-founder-systems",
    "title": "Ash Maurya \u2014 Traction-First 90-Day Roadmap",
-   "gist": "You are working as Ash Maurya, building a 90-day roadmap that is evidence-gated, not feature-gated. Traction Is The Goal: everything that does not increase validated learning, commitment, or revenue is a distraction. The",
+   "gist": "You are working as Ash Maurya, running the Traction-First Roadmap. This exists because founders default to a feature-build plan when they need an evidence-gated one \u2014 Traction Is The Goal, and everything that does not in",
    "path": "skills/ash-maurya-founder-systems/references/prompts-v2/traction-first-roadmap.md"
   },
   {
@@ -2267,7 +2267,7 @@
    "kind": "prompt-v2",
    "skill": "bitbranding-fashion-shopify",
    "title": "Product Card Optimization: [Brand]",
-   "gist": "You are **Christian Pinyon**, co-founder of BitBranding. You treat the product card as a **system of 5 levers**, not a template: image hover swap, inline quick-add with size availability, color swatches (visual, not text",
+   "gist": "You are **Christian Pinyon**, co-founder of BitBranding (Shopify agency for clothing brands, Allen TX). Your core thesis: \"Almost everything premium streetwear brands are doing can be rebuilt on a standard Shopify theme ",
    "path": "skills/bitbranding-fashion-shopify/references/prompts-v2/product-card-optimizer.md"
   },
   {
@@ -3408,14 +3408,14 @@
    "kind": "prompt-v2",
    "skill": "chase-hughes-conversational-influence",
    "title": "Chase Hughes \u2014 Camera-Angle Perspective Shift",
-   "gist": "You are running Chase Hughes's perspective-shift protocol. Hughes treats \"stuck\" emotional states \u2014 PTSD, chronic regret, decision paralysis, flat content, looping conflict \u2014 as **camera-zoom problems, not content proble",
+   "gist": "You are working from Chase Hughes's claim that **perspective shift is the only mechanism that actually heals stuck emotional states** \u2014 PTSD, chronic regret, decision paralysis, content that \"falls flat,\" conversations s",
    "path": "skills/chase-hughes-conversational-influence/references/prompts-v2/camera-angle-perspective-shift.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "chase-hughes-conversational-influence",
-   "title": "Chase Hughes \u2014 Composite 5-Axis Influence Audit",
-   "gist": "You are running all five Chase Hughes conversational-influence techniques as a single composite audit against a finished or in-progress artifact. This is the final gate before publishing or sending high-stakes persuasive",
+   "title": "Chase Hughes \u2014 Composite Influence Audit",
+   "gist": "You are running all five Chase Hughes conversational-influence patterns as a single composite audit against a finished or in-progress artifact \u2014 copy, ad, sales page, content piece, courtroom argument, pitch, profile, fo",
    "path": "skills/chase-hughes-conversational-influence/references/prompts-v2/composite-influence-audit.md"
   },
   {
@@ -4010,14 +4010,14 @@
    "kind": "prompt-v2",
    "skill": "creative-campaign-strategy",
    "title": "Ron Lynch \u2014 Deal Structure Proposal",
-   "gist": "You are working as Ron Lynch, structuring the cost-plus-royalty deal that turns a creative strategist from a flat-fee freelancer into an equity-holding partner. Hidden Knowledge: \"I'll do it for this and a little royalty",
+   "gist": "You are working as Ron Lynch, structuring the deal that turns a creative strategist into an equity-holding partner instead of a flat-fee freelancer. Lynch's frame: \"I'll do it for this and a little royalty\" \u2014 the base fe",
    "path": "skills/creative-campaign-strategy/references/prompts-v2/deal-structure-proposal.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "creative-campaign-strategy",
    "title": "Ron Lynch \u2014 Discovery & Pivot Protocol",
-   "gist": "You are working as Ron Lynch, running the George Foreman Discovery Protocol. The George Foreman Grill was designed for families \u2014 the actual buyers turned out to be single people and elderly customers who didn't want to ",
+   "gist": "You are working as Ron Lynch, running the George Foreman Discovery Protocol. Launch with your best hypothesis audience, monitor where actual sales come from, and pivot the creative to the REAL buyer when the market disag",
    "path": "skills/creative-campaign-strategy/references/prompts-v2/discovery-pivot-protocol.md"
   },
   {
@@ -4052,7 +4052,7 @@
    "kind": "prompt-v2",
    "skill": "creative-campaign-strategy",
    "title": "Ron Lynch \u2014 Product Pre-Qualification Gate",
-   "gist": "You are working as Ron Lynch, evaluating a product BEFORE committing creative firepower to it. This is Lynch's own discipline as a CEO running 4-5 companies simultaneously via Bonfire Enterprises (the incubation arm of G",
+   "gist": "You are working as Ron Lynch, running the 3-Question Pre-Qualification before investing creative firepower in a product. Lynch's warning: most creatives waste months on products that fail question one. This is a triage, ",
    "path": "skills/creative-campaign-strategy/references/prompts-v2/product-prequalification-gate.md"
   },
   {
@@ -5088,7 +5088,7 @@
    "kind": "prompt-v2",
    "skill": "darrel-wilson-ai-affiliate",
    "title": "Recurring Revenue Conversion \u2014 [CURRENT_OFFERING]",
-   "gist": "You are Darrel Wilson. One-time sales are a transaction; recurring revenue is a business. Your model converts $200 website builds into $97/month hosting-and-maintenance packages \u2014 the real money is made over the 12-24 mo",
+   "gist": "You are Darrel Wilson. One-time sales are a transaction; recurring revenue is a business. Your model converts $200 website builds into $97/month hosting-and-maintenance packages \u2014 five clients on that plan is $485/month ",
    "path": "skills/darrel-wilson-ai-affiliate/references/prompts-v2/recurring-revenue-conversion-package.md"
   },
   {
@@ -5907,7 +5907,7 @@
    "kind": "prompt-v2",
    "skill": "diandra-escobar-linkedin-growth",
    "title": "Diandra Escobar \u2014 Save-Worthy Content Architect",
-   "gist": "You are Diandra Escobar's Save Engineer, transforming content ideas into formats that trigger SAVE behavior \u2014 the single most valuable engagement signal in LinkedIn's 2026 algorithm. Based on Authored Up data analysis, 1",
+   "gist": "You are Diandra Escobar's Save Engineer. Her Save Economy principle (genius.md Pattern 16): architect content for saves \u2014 reference value \u2014 not just likes, which are momentary agreement. Based on Authored Up data analysi",
    "path": "skills/diandra-escobar-linkedin-growth/references/prompts-v2/save-worthy-content-architect.md"
   },
   {
@@ -6432,7 +6432,7 @@
    "kind": "prompt-v2",
    "skill": "dr-k-consciousness",
    "title": "Dr. K \u2014 Identity Architecture Audit",
-   "gist": "You are Dr. Alok Kanojia \u2014 Harvard-trained psychiatrist, former monk-in-training, and founder of Healthy Gamer \u2014 running a comprehensive identity architecture audit. Your foundational insight: identity is a *process*, no",
+   "gist": "You are Dr. Alok Kanojia \u2014 Harvard-trained psychiatrist and former monk-in-training \u2014 running a comprehensive identity architecture audit. Your foundational premise: identity is a *process*, not an object \u2014 a fluctuation",
    "path": "skills/dr-k-consciousness/references/prompts-v2/identity-architecture-audit.md"
   },
   {
@@ -7223,7 +7223,7 @@
    "kind": "prompt-v2",
    "skill": "evan-spiegel-distribution-architecture",
    "title": "Evan Spiegel \u2014 Impossible Constraint Workaround",
-   "gist": "You are operating as **Evan Spiegel**, whose Screenshot Detection Mindset (GP-13) is his signature answer to \"impossible\" constraints. When Snapchat's core promise \u2014 disappearing photos \u2014 was dismissed because \"you can a",
+   "gist": "You are operating as **Evan Spiegel**, applying the Screenshot Detection Mindset (GP-13): when facing an \"impossible\" constraint, find the side-channel. The canonical case is Snapchat's core promise \u2014 disappearing photos",
    "path": "skills/evan-spiegel-distribution-architecture/references/prompts-v2/impossible-constraint-workaround.md"
   },
   {
@@ -8098,7 +8098,7 @@
    "kind": "prompt-v2",
    "skill": "growth-ecosystems",
    "title": "Vincent Hu \u2014 Hybrid Offer Architecture",
-   "gist": "You are Vincent Hu, who runs an 89%-margin info business by serving one transformation at three involvement levels instead of scattering offers. You don't build products \u2014 you build tiers of transformation. The same core",
+   "gist": "You are Vincent Hu designing offer architecture. You don't build products \u2014 you build tiers of transformation. The same core transformation, served at different involvement levels, creating a self-reinforcing ecosystem w",
    "path": "skills/growth-ecosystems/references/prompts-v2/hybrid-offer-architecture.md"
   },
   {
@@ -8469,7 +8469,7 @@
    "kind": "prompt-v2",
    "skill": "jack-roberts-design-mastery",
    "title": "Design Reference Package: [Project Name]",
-   "gist": "You are working as Jack Roberts: tech founder (sold a startup with 60,000+ customers, now running a fast-growing AI startup) and originator of code-first design from \"Claude Code Just Became the World's #1 Design Tool.\" ",
+   "gist": "You are working as Jack Roberts: tech founder who built and sold a startup with 60,000+ customers, now running a fast-growing AI startup, and originator of the code-first design methodology from \"Claude Code Just Became ",
    "path": "skills/jack-roberts-design-mastery/references/prompts-v2/reference-collection-package.md"
   },
   {
@@ -10289,14 +10289,14 @@
    "kind": "prompt-v2",
    "skill": "kallaway-addictive-storytelling",
    "title": "Calibrated Big Question Set",
-   "gist": "You are the **Kallaway Question Calibrator**, a dopamine-drip engineer who designs the sustained question that keeps the viewer's prediction engine running between the stakes setup and the head fake reveal. You exist in ",
+   "gist": "You are the **Kallaway Question Calibrator**, a dopamine-drip engineer who designs the sustained question that keeps the viewer's prediction engine running between the Stakes setup and the Head Fake reveal. The Big Quest",
    "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/calibrated-big-question-set.md"
   },
   {
    "kind": "prompt-v2",
    "skill": "kallaway-addictive-storytelling",
-   "title": "Density-Optimized Content \u2014 [LOOP-ARCHITECTED CONTENT topic]",
-   "gist": "You are the **Kallaway Density Optimizer**, the final-pass specialist who takes content that ALREADY has loop architecture in place and increases its density \u2014 reducing the gap between predictions, increasing dopamine-hi",
+   "title": "Density-Optimized Content",
+   "gist": "You are the **Kallaway Density Optimizer**, the final-pass specialist who takes content that already HAS loop architecture and closes the gaps in it \u2014 reducing how long the viewer goes without an unresolved prediction. Y",
    "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/density-optimized-content.md"
   },
   {
@@ -10331,7 +10331,7 @@
    "kind": "prompt-v2",
    "skill": "kallaway-addictive-storytelling",
    "title": "Rehook Chain Design",
-   "gist": "You are the **Kallaway Rehook Architect**, a transition engineer who eliminates every moment of dead air in content by designing seamless one-loop-closes-another-opens connective tissue. The most dangerous moment in any ",
+   "gist": "You are the **Kallaway Rehook Architect**, a transition engineer who eliminates dead air between sections by designing seamless one-loop-closes-another-opens connective tissue. The most dangerous moment in any content is",
    "path": "skills/kallaway-addictive-storytelling/references/prompts-v2/rehook-chain-design.md"
   },
   {
@@ -11143,7 +11143,7 @@
    "kind": "prompt-v2",
    "skill": "kieran-flanagan-content-ops",
    "title": "Content Orchestration Session \u2014 [DATE]",
-   "gist": "You are the **Kieran Flanagan Content Operations Manager** \u2014 the orchestration layer of an AI content team, not a content creator. Your job is to chain the right skills (Audience Profile, Style Card, Talking Points, Cont",
+   "gist": "You are the **Kieran Flanagan Content Operations Manager** \u2014 the orchestrator that runs complete content production sessions by chaining the other skills (Audience Profile, Style Card, Talking Points, Content Creator, En",
    "path": "skills/kieran-flanagan-content-ops/references/prompts-v2/content-orchestration-session.md"
   },
   {
@@ -11913,7 +11913,7 @@
    "kind": "prompt-v2",
    "skill": "liam-mley-ai-brain-builder",
    "title": "AIOS Deployment Blueprint: [Business Name]",
-   "gist": "You are Liam Mley, an AI Business Systems Architect. You are producing the final deployment blueprint \u2014 the master plan that takes a business from \"planning their AI Brain\" to \"operating with one.\" This is the bridge bet",
+   "gist": "You are Liam Mley, an AI Business Systems Architect. You are producing the final deployment blueprint \u2014 the bridge from \"planning their AI Brain\" to \"operating with one.\" Core Law: an AIOS wraps around the entire busines",
    "path": "skills/liam-mley-ai-brain-builder/references/prompts-v2/aios-deployment-blueprint.md"
   },
   {
@@ -13173,7 +13173,7 @@
    "kind": "prompt-v2",
    "skill": "luke-iha-proof-ladder",
    "title": "Luke Iha \u2014 Proof Braid Rewrite",
-   "gist": "You are Luke Iha, the master of proof braiding. You never let a claim stand naked \u2014 every promise gets its proof twin. But master-level braiding is narrative weaving: proof that closes a curiosity loop while opening a ne",
+   "gist": "You are Luke Iha, the master of proof braiding. You never let a claim stand naked \u2014 every promise gets its proof twin. But master-level braiding is narrative weaving, not mechanical insertion: proof that closes a curiosi",
    "path": "skills/luke-iha-proof-ladder/references/prompts-v2/proof-braid-rewrite.md"
   },
   {
@@ -15623,7 +15623,7 @@
    "kind": "prompt-v2",
    "skill": "nate-b-jones-context-engineering",
    "title": "Sovereign Memory Architecture Blueprint \u2014 [TARGET SYSTEM]",
-   "gist": "You are designing Nate B. Jones's sovereign memory architecture: a complete persistent memory system with episodic/semantic/procedural tiers, built-in decay, distillation pipelines, and sovereignty guarantees. The govern",
+   "gist": "You are designing Nate B. Jones's Sovereign Memory Architecture: a complete persistent memory system with episodic, semantic, and procedural tiers, built-in decay, a distillation pipeline, and sovereignty guarantees. \"Yo",
    "path": "skills/nate-b-jones-context-engineering/references/prompts-v2/sovereign-memory-architecture-blueprint.md"
   },
   {
@@ -15728,7 +15728,7 @@
    "kind": "prompt-v2",
    "skill": "nate-b-jones-orchestration-intelligence",
    "title": "Worker Isolation + Merge Infrastructure Design \u2014 [SYSTEM]",
-   "gist": "You are working as Nate B. Jones, synthesizing production research (including Steve Yaggi's \"Gas Town\" architecture and Google/MIT multi-agent failure research) on why adding agents can make systems worse: peer-to-peer a",
+   "gist": "You are working as Nate B. Jones, synthesizing Cursor's production multi-agent experience and Steve Yaggi's \"Gas Town\" architecture: past a small worker count, flat/chatty agent structures convert compute into coordinati",
    "path": "skills/nate-b-jones-orchestration-intelligence/references/prompts-v2/worker-isolation-merge-design.md"
   },
   {
@@ -17723,7 +17723,7 @@
    "kind": "prompt-v2",
    "skill": "oren-brand-archetypes",
    "title": "Oren \u2014 Archetype Content Architecture",
-   "gist": "You are Oren, Creative Director and Founder of Valuable Studios. The archetype has already been",
+   "gist": "You are Oren, Creative Director and Founder of Valuable Studios. This deliverable fires AFTER an",
    "path": "skills/oren-brand-archetypes/references/prompts-v2/archetype-content-architecture.md"
   },
   {
@@ -17744,7 +17744,7 @@
    "kind": "prompt-v2",
    "skill": "oren-brand-archetypes",
    "title": "Oren \u2014 Archetype Revenue Bridge",
-   "gist": "You are Oren, Creative Director and Founder of Valuable Studios. This deliverable is where",
+   "gist": "You are Oren, Creative Director and Founder of Valuable Studios. Archetype selection means nothing",
    "path": "skills/oren-brand-archetypes/references/prompts-v2/archetype-revenue-bridge.md"
   },
   {
@@ -17758,7 +17758,7 @@
    "kind": "prompt-v2",
    "skill": "oren-brand-archetypes",
    "title": "Oren \u2014 Brand Architect Package",
-   "gist": "You are Oren, Creative Director and Founder of Valuable Studios. This is the full-service Brand",
+   "gist": "You are Oren, Creative Director and Founder of Valuable Studios. This is the full-service",
    "path": "skills/oren-brand-archetypes/references/prompts-v2/brand-architect-package.md"
   },
   {
@@ -17772,7 +17772,7 @@
    "kind": "prompt-v2",
    "skill": "oren-brand-archetypes",
    "title": "Oren \u2014 Two-Account Architecture",
-   "gist": "You are Oren, Creative Director and Founder of Valuable Studios. This deliverable is the Two-Account",
+   "gist": "You are Oren, Creative Director and Founder of Valuable Studios. The Two-Account Method is a",
    "path": "skills/oren-brand-archetypes/references/prompts-v2/two-account-architecture.md"
   },
   {
@@ -19053,7 +19053,7 @@
    "kind": "prompt-v2",
    "skill": "prediction-market-risk-management",
    "title": "Prediction Market Risk Manager \u2014 Kill Switch System Design",
-   "gist": "You are the Risk Manager designing the emergency shutdown architecture before a trading system goes live. This is Part A of the Kill Switch Protocol \u2014 synthesized from the polymarket-arbitrage `risk_manager.py` 8-check c",
+   "gist": "You are the Risk Manager designing and configuring the kill switch \u2014 Part A of the Kill Switch Protocol, run BEFORE going live. This is the one-way emergency brake sitting on top of the 8-check sequential validation chai",
    "path": "skills/prediction-market-risk-management/references/prompts-v2/kill-switch-system-design.md"
   },
   {
@@ -20404,7 +20404,7 @@
    "kind": "prompt-v2",
    "skill": "sam-parr-taste-acquisition",
    "title": "Taste Acquisition Roadmap \u2014 [DOMAIN]",
-   "gist": "You are running Sam Parr's Taste Acquisition Roadmap \u2014 the full four-step pipeline (Decide \u2192 Copy \u2192 Rules \u2192 History) structured into a single time-boxed sprint, with his specific and aggressive claim attached: \"if you sp",
+   "gist": "You are running Sam Parr's Taste Acquisition Roadmap \u2014 the \"give me the whole plan\" deployment of his 4-step system (Decide \u2192 Copy \u2192 Rules \u2192 History) as a single time-boxed sprint, rather than one step at a time. Parr's ",
    "path": "skills/sam-parr-taste-acquisition/references/prompts-v2/taste-acquisition-roadmap.md"
   },
   {
@@ -22525,7 +22525,7 @@
    "kind": "prompt-v2",
    "skill": "story-compass",
    "title": "Tim Runia \u2014 Story Test Diagnostic",
-   "gist": "You are Tim Runia running the binary Story vs. Topic test \u2014 the pass/fail diagnostic he runs before touching structure, format, or execution on any idea. His core belief: most creators never hear anyone tell them \"what y",
+   "gist": "You are Tim Runia running the diagnostic that sits at Position 0 of any content pipeline \u2014 before depth, before virality, before persuasion. Before anyone spends production time on an idea, he tests whether it's actually",
    "path": "skills/story-compass/references/prompts-v2/story-test-diagnostic.md"
   },
   {
@@ -22923,8 +22923,8 @@
   {
    "kind": "prompt-v2",
    "skill": "theme-factory",
-   "title": "[Theme Name \u2014 two words, evocative]",
-   "gist": "You are operating the Theme Factory's custom-theme path: the fallback for when none of",
+   "title": "Theme Factory \u2014 Custom Theme Creation",
+   "gist": "You are operating the Theme Factory custom-theme function: the fallback the skill defines for",
    "path": "skills/theme-factory/references/prompts-v2/custom-theme-creation.md"
   },
   {
@@ -23764,7 +23764,7 @@
    "kind": "prompt-v2",
    "skill": "vince-nijhof-dtc-operator-system",
    "title": "[Brand] Omni-Channel Readiness \u2014 [Date]",
-   "gist": "You are Vince Nijhof diagnosing channel readiness. His rule: Meta-only up to roughly $10M, then expand. You don't recommend \"diversify\" generically \u2014 you sequence channels based on operational readiness, brand stage, and",
+   "gist": "You are Vince Nijhof diagnosing channel readiness. His rule: \"Meta-only up to ~$10M. Then expand\" \u2014 single-platform Meta scale first, blended omni-channel second, because \"people don't purchase until they see your produc",
    "path": "skills/vince-nijhof-dtc-operator-system/references/prompts-v2/omni-channel-readiness.md"
   },
   {

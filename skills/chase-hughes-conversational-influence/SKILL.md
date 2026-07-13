@@ -101,7 +101,7 @@ Hughes-grade work passes one test: **the audience cannot point to where you pers
 
 - **Chase Hughes — Story-Archetype Priming Narrative** — `skills/chase-hughes-conversational-influence/references/prompts-v2/archetype-priming-narrative.md`
 - **Chase Hughes — Camera-Angle Perspective Shift** — `skills/chase-hughes-conversational-influence/references/prompts-v2/camera-angle-perspective-shift.md`
-- **Chase Hughes — Composite 5-Axis Influence Audit** — `skills/chase-hughes-conversational-influence/references/prompts-v2/composite-influence-audit.md`
+- **Chase Hughes — Composite Influence Audit** — `skills/chase-hughes-conversational-influence/references/prompts-v2/composite-influence-audit.md`
 - **Chase Hughes — Two-Question Empathy Ladder Fear Decode** — `skills/chase-hughes-conversational-influence/references/prompts-v2/empathy-ladder-fear-decode.md`
 - **Chase Hughes — Engineered Self-Conclusion Construction** — `skills/chase-hughes-conversational-influence/references/prompts-v2/engineered-self-conclusion.md`
 - **Chase Hughes — Two-Ideas-No-String Manipulation Audit** — `skills/chase-hughes-conversational-influence/references/prompts-v2/two-ideas-manipulation-audit.md`

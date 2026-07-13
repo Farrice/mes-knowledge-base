@@ -105,7 +105,7 @@ skills/kallaway-addictive-storytelling/
 - **Addictive Rewrite Package — [FLAT CONTENT topic]** — `skills/kallaway-addictive-storytelling/references/prompts-v2/addictive-rewrite-package.md`
 - **Blank Page Script — [TOPIC]** — `skills/kallaway-addictive-storytelling/references/prompts-v2/blank-page-script.md`
 - **Calibrated Big Question Set** — `skills/kallaway-addictive-storytelling/references/prompts-v2/calibrated-big-question-set.md`
-- **Density-Optimized Content — [LOOP-ARCHITECTED CONTENT topic]** — `skills/kallaway-addictive-storytelling/references/prompts-v2/density-optimized-content.md`
+- **Density-Optimized Content** — `skills/kallaway-addictive-storytelling/references/prompts-v2/density-optimized-content.md`
 - **Full Addiction-Looped Script — [TOPIC/STORY]** — `skills/kallaway-addictive-storytelling/references/prompts-v2/full-addiction-looped-script.md`
 - **Head Fake Design Package** — `skills/kallaway-addictive-storytelling/references/prompts-v2/head-fake-design-package.md`
 - **Loop-Driven Copy Package — [OFFER/TOPIC]** — `skills/kallaway-addictive-storytelling/references/prompts-v2/loop-driven-copy-package.md`
