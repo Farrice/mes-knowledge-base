@@ -1,8 +1,8 @@
 # Operator Guide Library — Master Index
 
-> One scannable guide per meaningful session: **operator guides** when a session shipped capability (skills, workflows, execution scripts), **session briefs** when it was lighter work worth a snapshot. Filed automatically by the end-session closeout spine (`execution/end_session_closeout.py` → `session-guide` step) — never memory-dependent. Format exemplar: [docs/ROOT-CORE-OPERATOR-GUIDE.md](../docs/ROOT-CORE-OPERATOR-GUIDE.md).
+> One scannable guide per meaningful session: **operator guides** when a session shipped capability (skills, workflows, execution scripts), **session briefs** when it was lighter work worth a snapshot. Filed automatically by the end-session closeout spine (`execution/end_session_closeout.py` → `session-guide` step) — never memory-dependent. Format contract: [FORMAT.md](FORMAT.md) (exemplar: [docs/ROOT-CORE-OPERATOR-GUIDE.md](../docs/ROOT-CORE-OPERATOR-GUIDE.md) + the ⚡10-line payload block and command table).
 
-**How to use this index:** scan the use-case table for what you need right now, or the chronology to refresh a session. Each guide answers: what we built, how to invoke it, when to reach for it (and when NOT to), a worked example, and the honest edges.
+**How to use this index:** scan the use-case table for what you need right now, or the chronology to refresh a session. Every guide opens with a ⚡10-line payload (30-second refresh) and a command table.
 
 ---
 
@@ -15,28 +15,48 @@
 | Diagnose a published book that isn't selling | [KDP Operator OS](2026-07-13-kdp-operator-os.md) |
 | Resume the Book One pilot / run the cold niche-hunt | [KDP Operator OS](2026-07-13-kdp-operator-os.md) |
 | Look up frame-verified KDP economics (pricing, outsourcing, royalty math) | [KDP Operator OS](2026-07-13-kdp-operator-os.md) |
-| Know when to stack my own skills onto a book vs run Dollwet-native | [KDP Operator OS](2026-07-13-kdp-operator-os.md) |
 | **Orchestration / missions** | |
 | Turn a messy thought into a routed, goal-aligned mission with one command | [Maestro Layer](2026-07-13-maestro-layer.md) |
 | Know which model conducts vs executes, and how much autonomy a mission gets | [Maestro Layer](2026-07-13-maestro-layer.md) |
+| Run parallel expert trajectories or fan-out research unattended | [Swarm + Frontier Loops](2026-07-13-swarm-and-frontier-loops.md) |
+| Decide between /swarm, /go, and a plain Agent dispatch | [Swarm + Frontier Loops](2026-07-13-swarm-and-frontier-loops.md) |
+| Diagnose routing drift without rebuilding the router | [Swarm + Frontier Loops](2026-07-13-swarm-and-frontier-loops.md) |
+| Bank frontier judgment before a cheap model executes a mission | [Wargame OS](2026-07-13-wargame-os.md) |
+| Wargame repeatable client work once, execute per-instance cheap | [Wargame OS](2026-07-13-wargame-os.md) |
 | Run a long autonomous wave loop without colliding with another session | [Maestro Layer](2026-07-13-maestro-layer.md) |
 | Chart decisions on a foggy multi-session effort | [Root-Core Operator Guide](../docs/ROOT-CORE-OPERATOR-GUIDE.md) |
 | Verify a deliverable on Voice and Brief as separate axes | [Root-Core Operator Guide](../docs/ROOT-CORE-OPERATOR-GUIDE.md) |
+| **Writing craft** | |
+| Compose a finished piece across the ten writing masters | [How-I-Write OS](2026-07-13-how-i-write-os.md) |
+| Find the right writing sub-command without memorizing ~137 | [How-I-Write OS](2026-07-13-how-i-write-os.md) |
+| Make anything under my name sound like me (dial mode, voice pass) | [Voice OS](2026-07-13-voice-os.md) |
+| Log a felt verdict on a line / recompile my voice card | [Voice OS](2026-07-13-voice-os.md) |
+| Make a finished-but-flat draft actually land / fix one hollow spot | [Writing Depth Layer](2026-07-13-writing-depth-layer.md) |
+| Break a story or content arc by theme, not plot / plan a season | [Noah Hawley Extraction](2026-06-09-noah-hawley-extraction.md) |
+| Pitch an idea live to a decision-maker / get the subtraction cut | [Ben Watkins Extraction](2026-07-05-ben-watkins-extraction.md) |
+| Make a boring/saturated topic feel new (20+ angles) | [Kallaway Novelty](2026-06-18-kallaway-novelty.md) |
 | **Content / LinkedIn** | |
 | Run end-to-end content production through the Stanton conductor | [Stanton + LinkedIn Launch](2026-07-13-stanton-linkedin-launch.md) |
-| Execute or resume the Receipt Arc posting sequence (14 posts + loop lines) | [Stanton + LinkedIn Launch](2026-07-13-stanton-linkedin-launch.md) |
+| Execute or resume the Receipt Arc posting sequence | [Stanton + LinkedIn Launch](2026-07-13-stanton-linkedin-launch.md) |
 | Decide Stanton vs ghostwrite/parallax/copy-engine for a content job | [Stanton + LinkedIn Launch](2026-07-13-stanton-linkedin-launch.md) |
-| Put my voice (or a brand's) over expert-pure output without touching the original | [Maestro Layer](2026-07-13-maestro-layer.md) |
+| **Marketing / offers / ads** | |
+| Point one engine at any content/offer/launch objective | [Propaganda Engine](2026-06-14-propaganda-engine.md) |
+| Fix an offer that isn't selling / convert by teaching not pitching | [Omar Eltakrori OS](2026-06-14-omar-eltakrori-teach-grow-rich.md) |
+| Judge whether a design/product will sell / run a merch brand | [Meg Heckman Buyer-Trigger OS](2026-06-10-meg-heckman-buyer-trigger-os.md) |
+| Produce a Meta static ad from brand + persona / sell a static sprint | [Dara Static Engine](2026-07-13-dara-static-engine.md) |
+| Engineer conditions so the action feels self-chosen (ethics-gated) | [Context Engineering OS](2026-07-13-context-engineering-os.md) |
 | **Visuals / image / video** | |
-| Run an AI image/video mission where characters or products stay consistent | [Joey Cinema OS](2026-07-13-joey-cinema-os.md) |
-| Lock a client product (MyBPM/Jen/TrendScale) for product-grade AI visuals | [Joey Cinema OS](2026-07-13-joey-cinema-os.md) |
-| Fix a drifting or bloated generation prompt | [Joey Cinema OS](2026-07-13-joey-cinema-os.md) |
-| Know which image model lane to use (faces vs typography vs posters) | [Joey Cinema OS](2026-07-13-joey-cinema-os.md) |
-| **Prompts / system plumbing** | |
+| Run an AI image/video mission with consistent characters/products | [Joey Cinema OS](2026-07-13-joey-cinema-os.md) |
+| Lock a client product for product-grade AI visuals | [Joey Cinema OS](2026-07-13-joey-cinema-os.md) |
+| Generate a client-facing visual / pick the right image engine lane | [Fantastic Studio](2026-07-13-fantastic-studio.md) |
+| Get N genuinely different visual directions, not three tints | [Fantastic Studio](2026-07-13-fantastic-studio.md) |
+| **Knowledge / prompts / personal ops** | |
+| Turn messy logs/extractions into a glanceable knowledge library | [Simon Library OS](2026-07-13-simon-library-os.md) |
+| Build a grounded AI advisor that refuses when its KB is empty | [Simon Library OS](2026-07-13-simon-library-os.md) |
 | Find the right execution prompt for a deliverable | [Prompt Wiring OS](2026-07-13-prompt-wiring-os.md) |
-| Know what a born-v2 structure-pure prompt guarantees me | [Prompt Wiring OS](2026-07-13-prompt-wiring-os.md) |
-| Rebuild/re-wire the prompt index after changing prompts (correct order) | [Prompt Wiring OS](2026-07-13-prompt-wiring-os.md) |
-| Verify prompt quality before committing (0-fail gate) | [Prompt Wiring OS](2026-07-13-prompt-wiring-os.md) |
+| Rebuild/re-wire the prompt index (correct order, 0-fail gate) | [Prompt Wiring OS](2026-07-13-prompt-wiring-os.md) |
+| Run my daily 2-min briefing or weekly board session | [Chief of Staff OS](2026-07-13-chief-of-staff-os.md) |
+| Throw a tangled thought at the system at any hour (/dump) | [Chief of Staff OS](2026-07-13-chief-of-staff-os.md) |
 
 ---
 
@@ -49,7 +69,23 @@
 - 2026-07-13 — [Prompt Wiring OS](2026-07-13-prompt-wiring-os.md) — every skill ships deterministic execution prompts, auto-surfaced
 - 2026-07-13 — [Joey Cinema OS](2026-07-13-joey-cinema-os.md) — consistency layer for AI image/video; locks beat prompts
 - 2026-07-13 — [Stanton + LinkedIn Launch](2026-07-13-stanton-linkedin-launch.md) — conductor shipped; Receipt Arc sequenced, gate caught two spoilers
-- 2026-07-10 — [Root-Core Operator Guide](../docs/ROOT-CORE-OPERATOR-GUIDE.md) — wayfinder-work, two-axis-verify, operator-school, orchestration primitive (the format exemplar)
+- 2026-07-13 — [Wargame OS](2026-07-13-wargame-os.md) — failure-maps bank frontier judgment; cheap executors run routes blind
+- 2026-07-13 — [Swarm + Frontier Loops](2026-07-13-swarm-and-frontier-loops.md) — one /swarm conductor, plan-gate then unattended; router learns
+- 2026-07-13 — [Voice OS](2026-07-13-voice-os.md) — VOICE-CARD plus MIRROR/BLEND/STRETCH/OFF dial and felt-verdict ratchet loop
+- 2026-07-13 — [Chief of Staff OS](2026-07-13-chief-of-staff-os.md) — /cos daily brief, weekly board, /dump detangle capture valve
+- 2026-07-13 — [How-I-Write OS](2026-07-13-how-i-write-os.md) — /how-i-write conductor map: smallest stack, one body voice
+- 2026-07-13 — [Fantastic Studio](2026-07-13-fantastic-studio.md) — concept-first image pipeline; never hand generators a bare prompt
+- 2026-07-13 — [Dara Static Engine](2026-07-13-dara-static-engine.md) — 17-workflow static-ad craft engine, render-wired, one-second kill gate
+- 2026-07-13 — [Context Engineering OS](2026-07-13-context-engineering-os.md) — engineer conditions not outcomes; deterministic ethics gate enforced
+- 2026-07-13 — [Simon Library OS](2026-07-13-simon-library-os.md) — AI-as-librarian second brain: 12 workflows, Notion five-database hub
+- 2026-07-13 — [Writing Depth Layer](2026-07-13-writing-depth-layer.md) — explicit-only /deepen conductor composing craft roster onto hollow drafts
+- 2026-07-10 — [Root-Core Operator Guide](../docs/ROOT-CORE-OPERATOR-GUIDE.md) — wayfinder-work, two-axis-verify, operator-school (the format exemplar)
+- 2026-07-05 — [Ben Watkins Extraction](2026-07-05-ben-watkins-extraction.md) — pitch-room live selling plus the subtraction master's cut
+- 2026-06-18 — [Kallaway Novelty](2026-06-18-kallaway-novelty.md) — manufacture the feeling of novelty from dead topics, honestly
+- 2026-06-14 — [Omar Eltakrori OS](2026-06-14-omar-eltakrori-teach-grow-rich.md) — 17 /oe-* workflows: teaching sells, feeling over information
+- 2026-06-14 — [Propaganda Engine](2026-06-14-propaganda-engine.md) — point Whiting's machine at any objective, ethics-gated
+- 2026-06-10 — [Meg Heckman Buyer-Trigger OS](2026-06-10-meg-heckman-buyer-trigger-os.md) — 13 commands, 6 triggers: the product is the conversion
+- 2026-06-09 — [Noah Hawley Extraction](2026-06-09-noah-hawley-extraction.md) — showrunner architecture layer: theme-first, ending-first, above the roster
 
 ---
 

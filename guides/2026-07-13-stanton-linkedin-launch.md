@@ -9,6 +9,32 @@ status: enriched
 
 > The Stanton enrichment session shipped a conductor (`/stanton-produce`), a proof run (the Receipt Arc launch sequence for LinkedIn), and rewrote both dedicated Stanton guides. This is the **library entry point**, not the depth doc — the full leverage map lives in `skills/andrew-stanton-audience-engineering/USER-GUIDE.md` (how to use it) and `OPERATORS-GUIDE.md` (how the system runs it underneath you). Read those before extending anything. Commits: `17d613950` (guides), `301b25dc2` (launch sequence).
 
+## ⚡ If you only read 10 lines
+
+- Conductor: `/stanton-produce — objective: …; material: <path>` — Runia story gate → Stanton architecture → routed production engine → clamp-audit → 8-point Stanton-Grade Gate → finalize.
+- One flat draft? `/stanton-clamp-audit` alone — the cheapest quality lift in the system.
+- Stanton already fires inside all six wired engines (linkedin-daily, parallax, copy-engine, …) — invoke directly only when the architecture or the audit IS the job.
+- Stack order never inverts: **Runia → Hawley → Stanton → Roth**.
+- Doctrine line: a content batch is a hidden series — `/stanton-series-escalation` re-orders by the change each post delivers, never by topic pillar.
+- Receipt Arc: 14 posts, weekdays 5/5/4 across three weeks, ladder order; only slots 1 and 14 are immovable; newsjacks may swap 12 ↔ 13, nothing else moves.
+- Ship rule: your PASS/FAIL/FIX verdict per body FIRST → post → paste the loop line as the FIRST COMMENT → finale bookend on post 14. If a FIX changes a body, re-read its loop line.
+- P3-1 and P3-2 are the closest pair — if either draws a FAIL, cut one, never both.
+- First live `/stanton-produce` run: 8.33/10 finalize, gate 8/8 with two catches — one proof, not a track record.
+- First thing to run: the verdict pass on `_active/linkedin-launch/04-content-os/REVIEW-clean-posts.md` — it's the open loop blocking the whole sequence.
+
+## Command table
+
+| Command | Produces | Reach for it when |
+|---|---|---|
+| `/stanton-produce` | Finished piece/sequence with the full gate stack run | Launches, multi-post arcs, "make this raw material ship-ready" |
+| `/stanton-clamp-audit` | Attention-drop audit on one draft | Clean-but-flat draft nobody would finish |
+| `/stanton-series-escalation` | A batch re-ordered into an escalating series | Posts filed by topic pillar hiding a ladder |
+| `story-compass` (Runia) | Is-there-a-story-at-all verdict | Before Stanton, when the story itself is in doubt |
+| `_active/linkedin-launch/content-os/launch-sequence-stanton.md` | Ladder table + 13 loop lines + finale bookend + watch-items | Executing or resuming the Receipt Arc mid-sequence |
+| `_active/linkedin-launch/04-content-os/REVIEW-clean-posts.md` | The 14 post bodies awaiting verdicts | The PASS/FAIL/FIX verdict pass |
+| `skills/andrew-stanton-audience-engineering/USER-GUIDE.md` | 20-workflow situation table, five proven plays, quick-start recipes | Learning to use the skill |
+| `skills/andrew-stanton-audience-engineering/OPERATORS-GUIDE.md` | Deployment map, quality system, failure modes → fixes | Understanding or extending how the system runs it |
+
 ---
 
 ## The mental model (read this once, everything else follows)

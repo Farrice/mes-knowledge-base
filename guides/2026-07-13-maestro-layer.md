@@ -9,6 +9,31 @@ status: enriched
 
 > One session, five pieces: `/go` v2 with Mission Cards, the orchestration doctrine (Conductor Ladder + pattern table + autonomy tiers), a physical session lock, the `/pulse-board` operator console, and `/voice-over`. Plus one binding guard on the taste ratchet. Sources: `directives/orchestration-doctrine.md` · `.agent/workflows/go.md` · handoff pin `.agent/handoffs/2026-07-13-maestro-os.md`. Standing rule: **extend, never rebuild** any of these.
 
+## ⚡ If you only read 10 lines
+
+- Default entry for any substantive ask: `/go "<messy thought>"` — compiles a Mission Card (intent, Serves goal, pattern, loads, gates, tier) before anything runs.
+- DICE score >= 3 = zero questions; <= 2 = ONE round on only the missing dimensions; no goal match = `ORPHAN ⚑` flag line, then full execution (compass, never cage).
+- Blast radius: T1 auto-runs, T2/T3 wait for your nod; T3 (destructive, ships AS Farrice) ALWAYS waits — standing grants elevate T2→T1 only, never T3.
+- Conductor Ladder: strongest available model conducts, never a hard pin; Sonnet conducts by-the-book with halved waves and doubled verify sampling; Haiku NEVER conducts.
+- Doctrine core: done = passes-gate, never file-exists; proof before scale (>50 units of a novel pattern = 1–2 unit proof judged first); deterministic-first.
+- Before ANY long autonomous run: `python3 execution/session_lock.py claim "<mission>"` — queue builders refuse to build waves without a valid token; stale locks (45 min no heartbeat) are claimable.
+- `/pulse-board` = one-glance console (waiting missions, taste verdicts, outcomes due, handoffs, lock status) — it reads logs; missing data means fix Stage 2.5 logging, not the board.
+- `/voice-over <file>` overlays Farrice/brand voice on expert-pure output — non-destructive sibling `<name>.voiced.md`, default dial BLEND.
+- Embodiment Purity Guard (binding): taste dials promote ONLY into Farrice-owned deliverable prompts, NEVER into an extracted expert's embodiment.
+- Resume the arc: `/resume maestro-os` — three verdicts were waiting at handoff (PMF Card-2, fidelity-flag review, Kandi shoot).
+
+## Command table
+
+| Command | Produces | Reach for it when |
+|---|---|---|
+| `/go "<messy thought>"` | Mission Card → one conductor → logged mission → Next-Prompts close | Default entry; anything where you'd otherwise be picking a door |
+| `/pulse-board` | Republished HTML console from deterministic logs (`pulse_dashboard.py` + Artifact) | Session open, verdict-collection prep, lost the thread |
+| `/voice-over <file>` (`--dial MIRROR/BLEND/STRETCH`, `--context <brand>`) | Side-by-side `.voiced.md` overlay, prose-gated | Expert-pure draft must ship in your (or a brand's) voice |
+| `python3 execution/session_lock.py claim "<mission>"` | Heartbeated lock token at `.agent/session.lock` | Before any long autonomous run (waves, fleets, backfills) |
+| `python3 execution/session_lock.py heartbeat / check / release / status` | Renew, verify, free, or inspect the lock | Between waves; diagnosing a `BLOCKED` |
+| `directives/orchestration-doctrine.md` | The 8 laws + Conductor Ladder + blast-radius tiers (read, not run) | Conducting, or judging whether a session's caution is the ladder working |
+| `/resume maestro-os` | Reloads the pinned handoff incl. waiting verdicts | Picking the arc back up |
+
 ---
 
 ## The mental model (read this once, everything else follows)

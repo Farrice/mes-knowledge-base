@@ -9,6 +9,37 @@ status: enriched
 
 > Today's forge session took `sean-dollwet-kdp-publishing` from a v2 chat-export skill (3 workflows) to a v3.0 mastery-tier system: 10 workflows across 3 tiers, a 22-pattern genius file, 4 frame-verified references, 7 execution prompts, and a `/kdp-engine` front door — extracted by 5 parallel agents from 5 WATCHED videos (transcripts + 488 frames, every number frame-verified). The business goal it serves: $3–5k/mo in publishing revenue, which at the honest median of $300–400/mo per book means a portfolio of 8–12 books. Skill: `skills/sean-dollwet-kdp-publishing/` · pilot handoff: `.agent/handoffs/2026-07-13-kdp-book-one-pilot.md`.
 
+## ⚡ If you only read 10 lines
+
+- First thing to run: `/kdp-engine` — bare invocation starts the pilot's cold niche-hunt (5–10 topics, ranked verdict table, ONE recommended GO).
+- Doctrine: demand before creation — never write first; find proof buyers already exist, then build a better book on the proven topic.
+- GO gate: 3+ books from different authors under 80,000 BSR on page one, paperback, cited with ASIN/BSR/author. 80k BSR ≈ $500/month per format.
+- Red-flag inversion: a book ranking #1–2 for its own keyword while not selling = no demand — kill the topic.
+- Book spec: 30,000 words standard (10,000–15,000 OK for a first book), ship in ≤1 week; AI drafts ONE ~1,250-word subchapter at a time, human humanizes.
+- Title = exact searched keyword + flair; subtitle stacks 3–4 concrete benefits; title is irreversible post-publish.
+- Launch: ebook $0.99 / paperback $5.99–$6.99; hard gate = 15 reviews before ANY marketing; ads start $3–5/day as a diagnostic; 90-day sprint to 50–100 reviews.
+- Money math: $300–400/mo/book median, 8–12 books to $3–5k/mo; $1,000/mo on one book is the learning milestone, the rest is duplication.
+- The hunt requires LIVE Amazon BSR data (DS Amazon Quick View or Playwright) — workflow 01's quality gate bans fabricated ranks outright.
+- Surpass-stack handoffs are OPTIONS the operator picks per book, never mandatory — never on validation-stage sprint books.
+
+## Command table
+
+| Command | Produces | Reach for it when |
+|---|---|---|
+| `/kdp-engine` | State-routed dispatch to the right workflow; bare = pilot cold niche-hunt | Any KDP intent, unless you already know the exact workflow |
+| Workflow 01 hunt-and-validate | GO/NO-GO demand verdict per topic (BSR gate, soft-underbelly scan, red-flag check) | Topic hunch — always first |
+| Workflow 02 book-blueprint | Outline, engineered title/subtitle, book spec, cover direction | A topic has a GO |
+| Workflow 03 produce-manuscript | Humanized, copyright-eligible manuscript via the 5-prompt chain | Blueprint approved |
+| Workflow 04 launch-90 | 30-day honeymoon plan → 15-review gate → pricing → diagnostic ads → review sprint | Manuscript done |
+| Workflow 05 book-doctor | 8-mistake checklist + fix-or-reposition verdict | Published book, not selling |
+| Workflow 06 organic-engine | 7-type TikTok plan (1 page = 1 video, clone the winner 10×) | Proven book wants free traffic |
+| Workflow 07 outsource-desk | Vendor briefs with real prices | Buying a step instead of DIY |
+| Workflow 08 multiply-formats | Audiobook → translations → bundles → wide plan | Proven book, ready to multiply |
+| Workflow 09 portfolio-command | Per-book P&L board + allocation plan + exit-readiness scorecard | Multiple books live |
+| Workflow 10 surpass-stack | Optional arsenal-handoff map per book | Competitive/premium niches, taste-bearing flagships |
+| `references/prompt-chain.md` | The verbatim 5-prompt production chain | Running production by hand |
+| `references/price-sheet.md` | Every frame-verified number on one page | Any pricing, outsource, or royalty question |
+
 ---
 
 ## The mental model (read this once, everything else follows)

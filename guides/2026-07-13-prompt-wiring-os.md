@@ -9,6 +9,32 @@ status: enriched
 
 > The session that closed the gap between having ~1,860 refactored crown-jewel prompts and actually *using* them. Every skill now carries verified born-v2 execution prompts, every SKILL.md points at them, a hook surfaces them the moment a skill loads, and every future extraction ships them by gate. Spec: `directives/prompt-forging-spec.md` · proof of why it matters: `_active/prompt-wiring-os-2026-07-13/proof/JUDGMENT.md` · final commit `64fe0e151`.
 
+## ⚡ If you only read 10 lines
+
+- Find a prompt: `python3 execution/prompt_library.py search "<deliverable>" --top 10` — ~7,000 prompts across 360 skills/extractions, keyword-ranked, $0, instant.
+- Doctrine line: improvisation is where degradation lives — a matched v2 prompt's Output Contract is a FLOOR (shape, completeness, honesty), never a ceiling on creativity.
+- After ANY prompt change the order is fixed: `prompt_library.py build` FIRST → `wire_prompt_pointers.py --write` → `renaissance_audit.py` at 0 fail → commit. Reversed order wires stale data.
+- Hard rule: **0 audit fails before any commit that touched prompts** (currently 3,523 audited, 0 fail). Existence is not done-ness.
+- Never re-run the backfill: 1,650 born-v2 prompts across 237 skills are DONE; `python3 execution/forge_queue.py --status` returns 0. Renaissance (~1,860 v2s) is also done.
+- Never hand-edit SKILL.md pointer blocks — regenerated wholesale by `wire_prompt_pointers.py --write`; hand edits get overwritten.
+- The menu hook injects each loaded skill's prompt menu automatically; a shapeless deliverable from a skill you know carries prompts is a miss — call it.
+- Fidelity rule: prompts forge only from the skill's own extracted material, never training memory; thin source = fewer, deeper prompts, not padded ones.
+- Every extraction now ships its execution layer by gate (Step 5.5 `/extract`, Phase 5.5 `/extract-forge`) — an extraction PR without prompts-v2 is incomplete.
+- The one open human task: 40 fidelity-low flags await review (28 nathan-gotch-ai-seo, 3 alex-copper, 5 oscar-hoglund, 2 thrivecart, 1 kittl, 1 samuel-thompson).
+
+## Command table
+
+| Command | Produces | Reach for it when |
+|---|---|---|
+| `python3 execution/prompt_library.py search "proof ladder" --top 10` | Ranked matches with path, skill, kind, opening gist | You know the deliverable but not which expert owns it |
+| `python3 execution/prompt_library.py build` | Rebuilt `.agent/prompt-index.json` | FIRST step after any prompt change; fresh forges are invisible until rebuild |
+| `python3 execution/prompt_library.py stats` | Index coverage numbers | Checking library health |
+| `python3 execution/prompt_library.py orphans` | Prompts nothing points at | Hunting wiring gaps |
+| `wire_prompt_pointers.py --write` | Regenerated SKILL.md pointer blocks | SECOND — always after the index rebuild |
+| `python3 execution/renaissance_audit.py` | Structural audit report over every v2 file | Before any prompt-touching commit (must read 0 fail) |
+| `python3 execution/renaissance_audit.py --delete` | Deletes failures so the queue re-includes their originals | Cleaning hollow files after a failed audit |
+| `python3 execution/forge_queue.py --status` | Backfill queue count (should be 0) | Verifying the backfill stays closed |
+
 ---
 
 ## The mental model (read this once, everything else follows)

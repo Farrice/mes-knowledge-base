@@ -9,6 +9,36 @@ status: enriched
 
 > Forge extraction from Joey (Noisy Group / Control World) — the filmmaker who built a fully AI-generated K-pop group and gave the pipeline away. Shipped: three production skills installed **verbatim**, one judgment layer (`skills/joey-cinema-os/`), and 12 `/jcin-*` workflows. Blind-pass PASS (EVAL-035), heartbeat 6/6. Spine: `skills/joey-cinema-os/SKILL.md` · judgment: `skills/joey-cinema-os/genius.md` · sources archived: `extractions/joey-cinema*/`.
 
+## ⚡ If you only read 10 lines
+
+- The pipeline is strict: **CANON → STILLS → MOTION** (story-bible-builder → banana-pro-director → cinema-worldbuilder-pro) — layers never do each other's jobs; don't skip, don't combine.
+- First thing to run on any multi-asset/multi-shot mission: `/jcin-pipeline <mission>` — asset inventory → build checkpoints → costed shot plan for approval BEFORE anything paid runs.
+- Budget physics: ~117 credits per 13s 1080p Seedance gen, 200–300 per studio piece, 5–6k for a music video.
+- LOCKED BLOCKS are LOCKED: never paraphrase the flat-grade close, cinema stack, Capture Realism, or FOV degree ladder; never rewrite end-position negation blocks into positive phrasing.
+- Never add lighting to a flat gray reference plate — 18% gray beats white; lighting is applied exactly once, in scene plates, last.
+- GPT-2 trap: Higgsfield GPT-2 = face-fidelity king; OpenAI GPT Image 2 (`gpt-image-2-director`) = layout/typography king, weak faces — never conflate.
+- Higgsfield MCP is the native surface (`@tag` grammar works); Fal wrappers take no @tags (strip to prose descriptors); fal seedance-1080p is HARD-BLOCKED.
+- Products: `/jcin-product-lock` (the KY method) — real documentation beats vibe prompts; gaps marked `[TBD]`, never invented; brand-neutral language even for the client's own marks.
+- Seedance prompts: 280–400 words single-shot, FOV in degrees not millimeters ("47° holds, 50mm drifts"), diegetic audio only.
+- Iteration physics: past ~3 failed iterations on one prompt, stop patching — Reset Ritual via `/jcin-prompt-doctor`; the honest win is 8–10 takes → 2–3.
+
+## Command table
+
+| Command | Produces | Reach for it when |
+|---|---|---|
+| `/jcin-pipeline` | Conducted mission: bible → locks → plates → costed shot plan → shot prompts | More than one asset or shot, or unsure which layer |
+| `/jcin-world-canon` | Story/world/brand bible | Multi-scene world before any scenes |
+| `/jcin-character-lock` | Face lock → outfit base → 3-panel sheet | New recurring character |
+| `/jcin-scene-shot` | Scene plate + matching Seedance shot prompt | One shot in a built world |
+| `/jcin-product-lock` | Product identity lock (hero, turnaround, palette + avoid-row) | A product must hold identity across a set |
+| `/jcin-outfit-engine` | Outfit builds and two-ref swaps | Wardrobe on a locked character |
+| `/jcin-prompt-doctor` | Reset-Ritual prompt repair | A prompt is drifting or bloated |
+| `/jcin-shot-plan` | Credit-costed shot plan on its own | Budgeting before generation |
+| `/jcin-voice-lock` | Voice/persona payloads for prompt slots | Character voice work |
+| `/jcin-story-15s` | 3-shot / 15-second micro-story | Short-form beat design |
+| `/jcin-ad-world` | Branded-world ad system (locked product + avatars) | Ad set that must hold identity |
+| `/jcin-studio-bridge` | fantastic-studio / creative_router wiring run | Routing studio stages through Joey's grammars |
+
 ---
 
 ## The mental model (read this once, everything else follows)
