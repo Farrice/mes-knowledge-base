@@ -67,6 +67,31 @@ GOLDEN: list[tuple[str, str]] = [
     ),
     # ---- MUST fire: repeatability lane ----
     ("we lost the magic from the previous session import, the revision got worse", "repeatability-spine"),
+    # ---- Must NOT fire: explicit workflow invocation + deliverable mission ----
+    # 2026-07-13 root cause: an /extract-forge mission carrying "orchestrate"
+    # (broad surface) + "not doing" (substring problem term, from "we're not
+    # doing 12 separate workflows!") routed to /autopilot as a broken-system
+    # complaint. The broad front-door branch checked neither deliverable/content
+    # context nor explicit slash-invocation.
+    (
+        "run /extract-forge on this youtube video and /watch https://www.youtube.com/watch?v=abc "
+        "I believe we have this expert in our arsenal already. We'll make sure we orchestrate it "
+        "properly through the right channels to the right models. We'll also make it smart, where "
+        "the prompts, the skills, the workflows, everything that's created is at the highest level "
+        "and a unified system. We're not doing 12 separate workflows for every single video!",
+        "",
+    ),
+    (
+        "run /kdp-engine and orchestrate the book pipeline through the right models for this niche",
+        "",
+    ),
+    # ---- MUST still fire: genuine router complaints (incl. the fix request itself) ----
+    (
+        "fully look into why the control router is mismatching and misfiring on the wrong thing, "
+        "patch that and fix it permanently",
+        "system-audit",
+    ),
+    ("autopilot is broken, everything it suggests is wrong and useless", "autopilot"),
 ]
 
 # Golden set for routing_enforcer.match_bindings — the OTHER misfire surface.

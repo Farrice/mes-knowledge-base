@@ -330,6 +330,22 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
     """
 
     q = normalize(strip_explicit_invocation_artifacts(prompt))
+    # Explicit slash-workflow invocation ("run /extract-forge …", "… and /watch <url>"):
+    # the user is deliberately DRIVING the control plane, not complaining about it
+    # (2026-07-13 misfire: an /extract-forge mission carrying "orchestrate" + "we're
+    # not doing 12 separate workflows" routed to /autopilot as a broken-system
+    # complaint). This only suppresses the broad-front-door and general-distress
+    # branches — anchored complaints ("the router keeps misfiring, fix it") still
+    # fire via anchored_match even when a slash command is present. URL paths
+    # (youtube.com/watch) don't match: the slash must follow start-of-text or
+    # whitespace, optionally led by an invocation verb.
+    explicit_workflow_invoke = bool(
+        re.search(r"(?:^|\s)(?:run|use|execute|invoke)\s+/[a-z][a-z0-9-]{2,}\b", q)
+        or re.search(r"(?:^|\s)/[a-z][a-z0-9-]{2,}(?=\s|$)", q)
+    )
+    concrete_deliverable = any(
+        re.search(rf"\b{re.escape(term)}\b", q) for term in DELIVERABLE_VERBS
+    )
     anchor_hits = _word_hits(q, STRONG_ANCHOR_TERMS)
     if HOOK_SYSTEM_RE.search(q):
         anchor_hits.append("hook+system-verb")
@@ -430,6 +446,12 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
         any(term in q for term in broad_front_door_surfaces)
         and any(term in q for term in broad_front_door_problems)
         and not action_hits
+        # 2026-07-13 guards: a deliverable-laden mission ("create", "make",
+        # "write") or an explicit /workflow invocation is work being driven,
+        # not a system being reported broken — parity with weak_aggregate_match.
+        and not concrete_deliverable
+        and not content_context
+        and not explicit_workflow_invoke
         and "codex" not in q
         and "hook" not in q
         and "hooks" not in q
@@ -458,7 +480,6 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
     )
     selective_language_complaint = "selective language" in q and (problem_hits or "linked" in q or "linking" in q)
     general_distress = any(term in q for term in GENERAL_DISTRESS_TERMS)
-    concrete_deliverable = any(re.search(rf"\b{re.escape(term)}\b", q) for term in DELIVERABLE_VERBS)
 
     # Tiered shape match (2026-07-08): a strong anchor + any problem/action
     # evidence fires; weak surface terms alone need aggregate evidence (2+
@@ -508,7 +529,7 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
             ),
         }
 
-    if general_distress and not concrete_deliverable:
+    if general_distress and not concrete_deliverable and not explicit_workflow_invoke:
         return {
             "route": "autopilot",
             "lane": "system-failure",

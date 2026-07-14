@@ -524,8 +524,19 @@ def main():
     # --- skip conditions (quiet on trivial) ---
     low = prompt.lower()
 
-    # 1. Already invoking a command/skill explicitly — routing is moot.
-    if prompt.startswith("/") or prompt.startswith("@"):
+    # 0. Background-task notifications / system turns are not user prompts —
+    #    classifying them produced noise overrides (2026-07-13: task-notification
+    #    turns matched 'router'/'misfire'/'parallel agents' from status text).
+    if prompt.startswith("[SYSTEM NOTIFICATION") or "<task-notification>" in prompt:
+        sys.exit(0)
+
+    # 1. Already invoking a command/skill explicitly — routing is moot. Covers
+    #    bare "/cmd", "@cmd", and verb-led invocations ("run /extract-forge …").
+    if (
+        prompt.startswith("/")
+        or prompt.startswith("@")
+        or re.match(r"(?i)^\s*(?:run|use|execute|invoke)\s+/[a-z][a-z0-9-]{2,}\b", prompt)
+    ):
         sys.exit(0)
     # 2. Too short to route meaningfully (greetings, "yes", "go ahead", "thanks").
     if len(prompt) < 18 or len(prompt.split()) < 3:
