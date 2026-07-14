@@ -46,28 +46,43 @@ tr:first-child td { border-top:none; }
 .pill.muted { background:color-mix(in srgb,var(--muted) 14%,transparent); color:var(--muted); }
 .empty { color:var(--muted); font-style:italic; }
 pre { overflow-x:auto; font-family:var(--mono); font-size:12px; color:var(--muted); margin:0; }
+.chips { display:flex; gap:8px; flex-wrap:wrap; }
+.chip { font-family:var(--mono); font-size:12px; padding:4px 12px; border-radius:999px;
+  border:1px solid var(--line); background:var(--panel); color:var(--muted); cursor:pointer; }
+.chip.active { border-color:var(--accent); color:var(--accent); }
+.tog { cursor:pointer; user-select:none; }
+.tog::before { content:"▾ "; color:var(--accent); }
+section.closed .tog::before { content:"▸ "; }
+section.closed table, section.closed pre { display:none; }
 </style>
 <div class="wrap">
-<header><h1><b>Antigravity</b> Pulse</h1><div class="stamp">2026-07-13 17:01 · <span class="pill ok">tree: single driver</span></div></header>
-<div class="sprint"><span class="sprint-tag">ACTIVE SPRINT</span><strong>Collect $5K/mo from Path A — claim-safe content for funded health/performance brands</strong><span class="muted">goal: revenue-5k-incumbency</span></div>
+<header><h1><b>Antigravity</b> Pulse</h1><div class="stamp">2026-07-13 17:13 · <span class="pill ok">tree: single driver</span></div></header>
+<div class="sprint"><span class="sprint-tag">ACTIVE SPRINT</span><strong>Collect $5K/mo from Path A — claim-safe content for funded health/performance brands</strong><span class="pill warn">29 days left</span><span class="muted">goal: revenue-5k-incumbency</span></div>
 <div class="tiles">
   <div class="tile"><div class="n">4</div><div class="l">missions live</div></div>
   <div class="tile"><div class="n">3</div><div class="l">waiting on Farrice</div></div>
   <div class="tile"><div class="n">5</div><div class="l">outcomes due</div></div>
   <div class="tile"><div class="n">3</div><div class="l">taste verdicts banked</div></div>
+  <div class="tile"><div class="n" style="color:var(--ok)">3510/3510</div><div class="l">v2 corpus pass</div></div>
 </div>
-<section><h2>⚑ Waiting on you</h2><table><tr><td>Fidelity-low review — 40 renaissance-era flags (28 nathan-gotch: re-watch decision)</td><td class='mono'>system-leverage</td><td>solo + jam</td><td><span class="pill warn">compiled</span></td></tr>
-<tr><td>Shoot Kandi Keeper video from production sheet</td><td class='mono'>revenue-5k-incumbency</td><td>human (Farrice)</td><td><span class="pill warn">compiled</span></td></tr>
-<tr><td>PMF Product/Offer/Cash fit evaluation</td><td class='mono'>revenue-5k-incumbency</td><td>surface-not-regenerate</td><td><span class="pill warn">compiled</span></td></tr></table></section>
-<section><h2>Missions — live</h2><table><tr><td>Maestro layer — /go v2, doctrine, session lock, pulse board, /voice-over</td><td class='mono'>system-leverage</td><td>solo (system build)</td><td><span class="pill warn">running</span></td></tr>
-<tr><td>Fidelity-low review — 40 renaissance-era flags (28 nathan-gotch: re-watch decision)</td><td class='mono'>system-leverage</td><td>solo + jam</td><td><span class="pill warn">compiled</span></td></tr>
-<tr><td>Shoot Kandi Keeper video from production sheet</td><td class='mono'>revenue-5k-incumbency</td><td>human (Farrice)</td><td><span class="pill warn">compiled</span></td></tr>
-<tr><td>PMF Product/Offer/Cash fit evaluation</td><td class='mono'>revenue-5k-incumbency</td><td>surface-not-regenerate</td><td><span class="pill warn">compiled</span></td></tr></table></section>
-<section><h2>Recently closed</h2><table><tr><td>Prompt Wiring OS — hook + pointers + forging gate + 1,650 born-v2 backfill + verification</td><td class='mono'>system-leverage</td><td>fleet + proof-first + verify-fleet</td><td><span class="pill ok">done</span></td></tr>
-<tr><td>MyBPM Week-1 hero video (Kandi Keeper)</td><td class='mono'>revenue-5k-incumbency</td><td>solo + jam stage</td><td><span class="pill ok">done</span></td></tr>
-<tr><td>Maestro stress test — 3 live Mission Cards</td><td class='mono'>system-leverage</td><td>solo (system exercise)</td><td><span class="pill ok">done</span></td></tr>
-<tr><td>Conductor Ladder into constitutions (CLAUDE/GEMINI/AGENTS/rules) + compiler bless</td><td class='mono'>system-leverage</td><td>solo (system build)</td><td><span class="pill ok">done</span></td></tr></table></section>
-<section><h2>Threads (handoff store)</h2><pre>1. swarm-apex  (2026-07-13)
+<div class="chips"><button class="chip active" data-f="all">all</button><button class="chip" data-f="revenue-5k-incumbency">revenue-5k-incumbency</button><button class="chip" data-f="system-leverage">system-leverage</button></div>
+<section><h2 class="tog">⚑ Waiting on you</h2><table class="f"><tr data-goal="system-leverage"><td>Fidelity-low review — 40 renaissance-era flags (28 nathan-gotch: re-watch decision)</td><td class='mono'>system-leverage</td><td>solo + jam</td><td><span class="pill warn">compiled</span></td></tr>
+<tr data-goal="revenue-5k-incumbency"><td>Shoot Kandi Keeper video from production sheet</td><td class='mono'>revenue-5k-incumbency</td><td>human (Farrice)</td><td><span class="pill warn">compiled</span></td></tr>
+<tr data-goal="revenue-5k-incumbency"><td>PMF Product/Offer/Cash fit evaluation</td><td class='mono'>revenue-5k-incumbency</td><td>surface-not-regenerate</td><td><span class="pill warn">compiled</span></td></tr></table></section>
+<section><h2 class="tog">Missions — live</h2><table class="f"><tr data-goal="system-leverage"><td>Maestro layer — /go v2, doctrine, session lock, pulse board, /voice-over</td><td class='mono'>system-leverage</td><td>solo (system build)</td><td><span class="pill warn">running</span></td></tr>
+<tr data-goal="system-leverage"><td>Fidelity-low review — 40 renaissance-era flags (28 nathan-gotch: re-watch decision)</td><td class='mono'>system-leverage</td><td>solo + jam</td><td><span class="pill warn">compiled</span></td></tr>
+<tr data-goal="revenue-5k-incumbency"><td>Shoot Kandi Keeper video from production sheet</td><td class='mono'>revenue-5k-incumbency</td><td>human (Farrice)</td><td><span class="pill warn">compiled</span></td></tr>
+<tr data-goal="revenue-5k-incumbency"><td>PMF Product/Offer/Cash fit evaluation</td><td class='mono'>revenue-5k-incumbency</td><td>surface-not-regenerate</td><td><span class="pill warn">compiled</span></td></tr></table></section>
+<section><h2 class="tog">Recently closed</h2><table class="f"><tr data-goal="system-leverage"><td>Prompt Wiring OS — hook + pointers + forging gate + 1,650 born-v2 backfill + verification</td><td class='mono'>system-leverage</td><td>fleet + proof-first + verify-fleet</td><td><span class="pill ok">done</span></td></tr>
+<tr data-goal="revenue-5k-incumbency"><td>MyBPM Week-1 hero video (Kandi Keeper)</td><td class='mono'>revenue-5k-incumbency</td><td>solo + jam stage</td><td><span class="pill ok">done</span></td></tr>
+<tr data-goal="system-leverage"><td>Maestro stress test — 3 live Mission Cards</td><td class='mono'>system-leverage</td><td>solo (system exercise)</td><td><span class="pill ok">done</span></td></tr>
+<tr data-goal="system-leverage"><td>Conductor Ladder into constitutions (CLAUDE/GEMINI/AGENTS/rules) + compiler bless</td><td class='mono'>system-leverage</td><td>solo (system build)</td><td><span class="pill ok">done</span></td></tr></table></section>
+<section><h2 class="tog">Outcomes due (5)</h2><pre>- [2026-06-27] Anne Lamott + Neal Allen Really Real Writing package
+- [2026-06-28] Kobi Brown / AstroKobi educational-virality re-forge: re-sourced the r
+- [2026-06-28] LinkedIn Week 1 Health Performance AI Search Client Attraction V3 high | expected: V3 receives Farrice taste approval or a concrete taste delta, then becomes publish-ready Week 1 LinkedIn content.
+- [2026-07-04] Novelty Engine flagship — AI-as-buyer wellness LinkedIn post (live-res
+- [2026-07-05] LinkedIn Week 1 Health Performance AI Search Client Attraction V2 publ | expected: publishable LinkedIn packet that attracts audit requests and first client conversations</pre></section>
+<section><h2 class="tog">Threads (handoff store)</h2><pre>1. swarm-apex  (2026-07-13)
 2. prompts-v2  (2026-07-13)
 3. andrew-stanton-audience-engineering  (2026-07-13)
 4. chief-of-staff-os  (2026-07-11)
@@ -80,3 +95,14 @@ pre { overflow-x:auto; font-family:var(--mono); font-size:12px; color:var(--mute
 11. trendscale-trial  (2026-07-09)
 12. none  (2026-07-09)</pre></section>
 </div>
+<script>
+document.querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => {
+  document.querySelectorAll(".chip").forEach(x => x.classList.remove("active"));
+  c.classList.add("active");
+  const f = c.dataset.f;
+  document.querySelectorAll("table.f tr[data-goal]").forEach(r =>
+    r.style.display = (f === "all" || r.dataset.goal === f) ? "" : "none");
+}));
+document.querySelectorAll(".tog").forEach(h => h.addEventListener("click", () =>
+  h.closest("section").classList.toggle("closed")));
+</script>
