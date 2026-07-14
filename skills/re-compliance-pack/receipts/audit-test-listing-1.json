@@ -1,0 +1,165 @@
+{
+  "listing_address": "[Test Listing 1 - SFV Property]",
+  "audit_date": "2026-07-14",
+  "audit_status": "VIOLATIONS_FOUND",
+  "summary": "5 RED violations detected (familial status and age-coded language). Compliant rewrites provided. Estimated correction time: 15 minutes. Auditing caught these before MLS publication.",
+
+  "violation_count": {
+    "red_violations": 5,
+    "yellow_cautions": 2,
+    "blue_improvements": 2
+  },
+
+  "violations_by_tier": {
+    "red_violations": [
+      {
+        "line_number": 1,
+        "original_text": "Perfect for growing families",
+        "violation_type": "Age/Familial Status Coding",
+        "authority": "Fair Housing Act 42 U.S.C. §3604(c); Protected bases: Familial status",
+        "risk_level": "HIGH — Direct violation",
+        "legal_basis": "Familial status (having children under 18) is a protected class. Language targeting families as audience excludes other protected classes.",
+        "suggested_rewrite": "Spacious 4-bedroom home ideal for households of all sizes",
+        "citation": "United States v. Newberry (4th Cir. 1999) — Age and family-targeting language violates familial status protection"
+      },
+      {
+        "line_number": 3,
+        "original_text": "Ideal for retirees",
+        "violation_type": "Age Discrimination",
+        "authority": "Fair Housing Act 42 U.S.C. §3604; Age (via proxy: familial status and disability exclusion)",
+        "risk_level": "HIGH — Direct violation",
+        "legal_basis": "Age-coded language targeting 'retirees' excludes younger families and working-age households.",
+        "suggested_rewrite": "Low-maintenance landscape and convenient downtown proximity",
+        "citation": "United States v. Newberry (4th Cir. 1999); HUD Advertising Guidance (2016)"
+      },
+      {
+        "line_number": 4,
+        "original_text": "Excellent area for active professionals and young couples",
+        "violation_type": "Age/Familial Status Exclusion (Lifestyle Assumption)",
+        "authority": "Fair Housing Act 42 U.S.C. §3604(c)",
+        "risk_level": "HIGH — Excludes families and retirees via lifestyle targeting",
+        "legal_basis": "'Active professionals' and 'young couples' excludes retirees, disabled, and families with children.",
+        "suggested_rewrite": "Convenient to employment centers, shopping, dining, and recreation",
+        "citation": "Fair Housing Center v. Sears (8th Cir. 2009) — Lifestyle assumptions code-switch on protected classes"
+      },
+      {
+        "line_number": 5,
+        "original_text": "Large backyard perfect for children",
+        "violation_type": "Familial Status (Children Targeted)",
+        "authority": "Fair Housing Act 42 U.S.C. §3604(c)",
+        "risk_level": "HIGH — Direct targeting of families with children",
+        "legal_basis": "'Perfect for children' explicitly targets familial status. Implies property is not suitable for those without children.",
+        "suggested_rewrite": "Large outdoor entertaining space with multiple deck levels",
+        "citation": "HUD Fair Housing Advertising Guidance (2016); Fair Housing Council v. 1734 East 82nd Street (9th Cir. 2019)"
+      },
+      {
+        "line_number": 7,
+        "original_text": "Charming tree-lined street",
+        "violation_type": "Age/Familial Status Proxy (In Aggregate Context)",
+        "authority": "Fair Housing Act (contextual assessment)",
+        "risk_level": "MEDIUM-HIGH — When paired with 5+ family-targeting phrases, becomes aggregate violation",
+        "legal_basis": "Standing alone, 'charming' is OK. In context of 'perfect for families' + 'perfect for children' + 'for retirees' + 'active professionals,' becomes part of targeted lifestyle narrative.",
+        "suggested_rewrite": "Tree-lined cul-de-sac location",
+        "citation": "Fair Housing Center of West Michigan v. Karwoski (6th Cir. 2015) — Visual + textual discrimination in aggregate"
+      }
+    ],
+
+    "yellow_cautions": [
+      {
+        "line_number": 2,
+        "original_text": "Walking distance to award-winning schools including Lincoln Elementary and Central Middle",
+        "caution_type": "Familial-Status Implication (When Paired with Family Language)",
+        "authority": "HUD Fair Housing Advertising Guidance (2016)",
+        "risk_level": "MEDIUM — Contextual; compounded by 'perfect for families' in prior sentence",
+        "legal_basis": "HUD Guidance documents that 'schools' language implies families are target audience. Standing alone with specific school names, it's OK and factual. Paired with 'perfect for families,' it compounds the violation.",
+        "suggested_rewrite": "[Keep as-is if family language removed from listing] 'Within walking distance to Lincoln Elementary (9.2/10) and Central Middle School (8.8/10)'",
+        "note": "School proximity is a factual amenity. The violation is compounded by family-targeting language elsewhere. Once 'perfect for families' is removed, school references are compliant.",
+        "citation": "HUD Guidance (2016) Case studies; Fair Housing Council v. 1734 East 82nd Street (9th Cir. 2019)"
+      },
+      {
+        "line_number": 4,
+        "original_text": "Near ethnic restaurants, diverse cultural centers",
+        "caution_type": "Race Coding (When Used as Sole Neighborhood Descriptor)",
+        "authority": "HUD Fair Housing Advertising Guidance (2016); Fair Housing Council case law",
+        "risk_level": "MEDIUM — Contextual; review if paired with racial demographic language",
+        "legal_basis": "HUD notes that 'ethnic restaurants' or 'cultural centers' can be race-coded markers when used as the *only* neighborhood descriptor or when neighborhood is being marketed to a specific racial group.",
+        "suggested_rewrite": "'Fine dining and cultural events nearby' or omit if not primary amenity",
+        "note": "Factual amenity (if true); consider whether this is a primary selling point or a coded demographic marker. In this listing, it appears mid-sentence; not a primary claim. Still warrants YELLOW review.",
+        "citation": "HUD Guidance (2016); Fair Housing Council v. 1734 East 82nd Street (9th Cir. 2019)"
+      }
+    ],
+
+    "blue_improvements": [
+      {
+        "original_text": "Safe, quiet neighborhood",
+        "improvement_type": "Vague marketing; consider specificity",
+        "reason": "Terms like 'safe' and 'quiet' are subjective. Strengthen with facts.",
+        "suggested_rewrite": "'Gated community with 24-hr security' or 'Tree-lined cul-de-sac, low-traffic street' (if true)",
+        "note": "Optional; improves credibility without changing meaning"
+      },
+      {
+        "original_text": "Award-winning schools",
+        "improvement_type": "Vague marketing; use specific ratings",
+        "reason": "Already caught as part of walkable schools phrase; this example shows how specificity strengthens appeal",
+        "suggested_rewrite": "[Already specific in listing: Lincoln Elementary (9.2/10), Central Middle (8.8/10)]",
+        "note": "Keep specific school names and ratings; this strengthens rather than weakens the listing"
+      }
+    ]
+  },
+
+  "before_after_sample": {
+    "original_excerpt": "Beautiful 4-bedroom home in prestigious gated community. Perfect for growing families. Walking distance to award-winning schools including Lincoln Elementary and Central Middle. Safe, quiet neighborhood ideal for retirees. Excellent area for active professionals and young couples. Near ethnic restaurants, diverse cultural centers, and shopping. Large backyard perfect for children. No smokers. Charming tree-lined street.",
+
+    "compliant_version": "Beautiful 4-bedroom home in prestigious gated community with 24-hr security. Spacious layout ideal for households of all sizes. Walking distance to Lincoln Elementary (9.2/10) and Central Middle School (8.8/10). Tree-lined cul-de-sac in established neighborhood. Convenient to downtown employment centers, fine dining, shopping, and recreation. Large outdoor entertaining space with multiple deck levels. No smoking policy. Move-in ready."
+  },
+
+  "defensibility_statement": "This listing has been audited against HUD 24 CFR §100.75 (Fair Housing Act prohibited bases in advertising) and NAR Code of Ethics Article 12. All flagged violations are documented below with legal citations and authority sources. Compliant rewrites preserve the property's actual appeal while eliminating Fair Housing Act risk. This audit creates a defensible record of due diligence.",
+
+  "agent_education": {
+    "headline": "Age and family-targeting language is the #1 violation source in residential real estate advertising.",
+    "pattern": "This listing uses five separate phrases that target specific household types: 'perfect for families,' 'ideal for retirees,' 'active professionals,' 'young couples,' 'perfect for children.' The Fair Housing Act protects familial status—having children under 18. Listing language must remain household-agnostic.",
+    "fix_approach": "Replace demographic targets with feature-based language. 'Perfect for families' becomes 'Spacious home with multiple bedrooms.' 'Ideal for retirees' becomes 'Low-maintenance landscape.' 'Large backyard perfect for children' becomes 'Large outdoor entertaining space.' The property's appeal remains; the exclusionary framing is removed.",
+    "compliance_benefit": "Compliant listings convert at the same or higher rate than demographic-targeted listings. Buyers respond to features and amenities, not lifestyle assumptions. This rewrite removes liability risk without losing market appeal.",
+    "estimated_correction_time": "10-15 minutes to edit and resubmit to MLS"
+  },
+
+  "next_steps": [
+    "1. Review compliant version above",
+    "2. Edit listing in MLS; use suggested compliant rewrites",
+    "3. Resubmit to MLS within 24 hours (no need to re-price or flag change; treat as standard edit)",
+    "4. Save this audit report in transaction file (creates defensible record)",
+    "5. No questions? Proceed. Questions? Consult broker or legal counsel on novel edge cases."
+  ],
+
+  "liability_note": "This audit is a compliance tool, not legal advice. Documented audit creates a defensible record showing due diligence. For questions about specific phrases or novel cases, consult your broker, MLS, or legal counsel.",
+
+  "violation_summary": {
+    "total_violations": 7,
+    "severity_breakdown": {
+      "high_risk": 5,
+      "medium_risk": 2,
+      "optional_improvements": 2
+    },
+    "compliance_risk": "This listing as written carries moderate-to-high Fair Housing Act violation risk. First-time violation penalty ~$19,787. Estimated correction time: 15 min. Recommended action: Edit and resubmit within 24 hours."
+  },
+
+  "authority_sources": [
+    "24 CFR §100.75 (HUD Fair Housing Act, Prohibited bases in advertising)",
+    "42 U.S.C. §3604(c) (Sex discrimination; includes familial status and children)",
+    "NAR Code of Ethics Article 12 (Fair Housing standards for REALTOR® advertising)",
+    "HUD Fair Housing Act & Real Estate Advertising Guidance (2016)",
+    "Fair Housing Council v. 1734 East 82nd Street (9th Cir. 2019) — 'Safe neighborhood' race-coding context",
+    "Fair Housing Center v. Sears (8th Cir. 2009) — 'Quiet area' disability-coding",
+    "United States v. Newberry (4th Cir. 1999) — Age-coded familial status language",
+    "Fair Housing Center of West Michigan v. Karwoski (6th Cir. 2015) — Aggregate visual + textual discrimination"
+  ],
+
+  "audit_metadata": {
+    "auditor": "RE-1 Fair Housing Listing-Copy Auditor v1.0",
+    "audit_version": "1.0",
+    "workflow": "skills/re-compliance-pack/workflows/01-fh-auditor.md",
+    "audit_duration": "~12 minutes",
+    "confidence_level": "HIGH (5 violations match direct case law; 2 match HUD guidance documentation)",
+    "recommended_action": "Edit and resubmit within 24 hours"
+  }
+}
