@@ -29,7 +29,7 @@ CLIENT INTAKE → VOICE CAPTURE CALL → VOICE PROCESSING → CONTENT PRODUCTION
 
 Collect ALL of the following before scheduling the call:
 
-1. **Intake form** -- `_active/offers/intake-form-questions.md`
+1. **Intake form** -- `_active/farrice-brand/offers/intake-form-questions.md`
    - Business basics (niche, ICA, offer)
    - Content goals (growth? leads? authority?)
    - LinkedIn current state (follower count, posting frequency, what's worked)
@@ -49,7 +49,7 @@ Do NOT schedule the call until all boxes are checked:
 - [ ] Intake form completed (no blank fields in required sections)
 - [ ] At least 1 content sample provided (link or text)
 - [ ] Call time confirmed with recording consent
-- [ ] Call script reviewed -- `_active/offers/call-script.md`
+- [ ] Call script reviewed -- `_active/farrice-brand/offers/call-script.md`
 - [ ] Client directory created: `_active/clients/[client-name]/`
 - [ ] Intake saved to: `_active/clients/[client-name]/intake.md`
 
@@ -59,7 +59,7 @@ Do NOT schedule the call until all boxes are checked:
 
 ### Call Execution
 
-**Reference**: `_active/offers/call-script.md` (pull up during the call)
+**Reference**: `_active/farrice-brand/offers/call-script.md` (pull up during the call)
 
 **Core rules:**
 - **Record everything** (Zoom/Otter.ai -- get explicit consent)
@@ -108,7 +108,7 @@ Save post-call notes to: `_active/clients/[client-name]/call-notes.md`
 - Content samples from intake
 
 **Output**:
-- Completed Voice Profile using template at `_active/offers/voice-profile-template.md`
+- Completed Voice Profile using template at `_active/farrice-brand/offers/voice-profile-template.md`
 - Saved to: `_active/clients/[client-name]/voice-profile.md`
 
 ### Expert Ensemble
@@ -256,7 +256,7 @@ Prove the system works using public content. Create before/after demos that serv
 ### Process
 
 **Skill reference**: `skills/ghostwriting-voice-engine/` -- Read `genius.md`, execute `workflows/03-unsolicited-demo.md`
-**Step-by-step guide**: `_active/offers/demo-workflow.md`
+**Step-by-step guide**: `_active/farrice-brand/offers/demo-workflow.md`
 
 **Input**: Coach's public LinkedIn content (3-5 recent posts minimum)
 **Output**: Before/after package saved to `_active/demos/[coach-name]/demo.md`
@@ -299,11 +299,11 @@ These files are referenced throughout this directive. Create them as needed:
 
 | Template | Path | Status |
 |----------|------|--------|
-| Intake form questions | `_active/offers/intake-form-questions.md` | EXISTS |
-| Call script | `_active/offers/call-script.md` | EXISTS |
-| Voice profile template | `_active/offers/voice-profile-template.md` | EXISTS |
-| Demo workflow guide | `_active/offers/demo-workflow.md` | EXISTS |
-| Before/After template | `_active/offers/before-after-template.md` | EXISTS |
+| Intake form questions | `_active/farrice-brand/offers/intake-form-questions.md` | EXISTS |
+| Call script | `_active/farrice-brand/offers/call-script.md` | EXISTS |
+| Voice profile template | `_active/farrice-brand/offers/voice-profile-template.md` | EXISTS |
+| Demo workflow guide | `_active/farrice-brand/offers/demo-workflow.md` | EXISTS |
+| Before/After template | `_active/farrice-brand/offers/before-after-template.md` | EXISTS |
 
 ---
 

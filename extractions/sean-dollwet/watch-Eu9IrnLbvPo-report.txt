@@ -1,0 +1,817 @@
+[watch] working dir: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo
+[watch] checking metadata/captions via yt-dlp…
+WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Eu9IrnLbvPo
+[youtube] Eu9IrnLbvPo: Downloading webpage
+[youtube] Eu9IrnLbvPo: Downloading android vr player API JSON
+[info] Eu9IrnLbvPo: Downloading subtitles: en-orig, en
+[info] Eu9IrnLbvPo: Downloading 1 format(s): 399+251
+[info] Writing video subtitles to: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/download/video.en-orig.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/download/video.en-orig.vtt
+[download]    1.00KiB at  783.69KiB/s (00:00:00)[download]    3.00KiB at    1.92MiB/s (00:00:00)[download]    7.00KiB at    3.36MiB/s (00:00:00)[download]   15.00KiB at    6.52MiB/s (00:00:00)[download]   31.00KiB at    7.26MiB/s (00:00:00)[download]   63.00KiB at    6.55MiB/s (00:00:00)[download]  127.00KiB at    5.22MiB/s (00:00:00)[download]  218.00KiB at    4.84MiB/s (00:00:00)[download] 100% of  218.00KiB in 00:00:00 at 1.88MiB/s
+[info] Writing video subtitles to: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/download/video.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/download/video.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at  Unknown B/s (00:00:00)[download]   63.00KiB at   24.00MiB/s (00:00:00)[download]  127.00KiB at    6.94MiB/s (00:00:00)[download]  218.00KiB at    7.92MiB/s (00:00:00)[download] 100% of  218.00KiB in 00:00:00 at 1.94MiB/s
+[info] Writing video metadata as JSON to: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/download/video.info.json
+[SubtitlesConvertor] Converting subtitles
+[SubtitlesConvertor] Subtitle file for vtt is already in the requested format
+[SubtitlesConvertor] Subtitle file for vtt is already in the requested format
+[watch] downloading video via yt-dlp…
+WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+[youtube] Extracting URL: https://www.youtube.com/watch?v=Eu9IrnLbvPo
+[youtube] Eu9IrnLbvPo: Downloading webpage
+[youtube] Eu9IrnLbvPo: Downloading android vr player API JSON
+[info] Eu9IrnLbvPo: Downloading subtitles: en-orig, en
+[info] Eu9IrnLbvPo: Downloading 1 format(s): 398+251
+Deleting existing file /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/download/video.en-orig.vtt
+[info] Writing video subtitles to: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/download/video.en-orig.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/download/video.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    1.45MiB/s (00:00:00)[download]    7.00KiB at    3.08MiB/s (00:00:00)[download]   15.00KiB at    6.16MiB/s (00:00:00)[download]   31.00KiB at    6.51MiB/s (00:00:00)[download]   63.00KiB at    4.64MiB/s (00:00:00)[download]  127.00KiB at    2.84MiB/s (00:00:00)[download]  218.00KiB at    3.42MiB/s (00:00:00)[download] 100% of  218.00KiB in 00:00:00 at 1.61MiB/s
+Deleting existing file /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/download/video.en.vtt
+[info] Writing video subtitles to: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/download/video.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/download/video.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at   14.58MiB/s (00:00:00)[download]   31.00KiB at   24.28MiB/s (00:00:00)[download]   63.00KiB at   31.39MiB/s (00:00:00)[download]  127.00KiB at    8.51MiB/s (00:00:00)[download]  218.00KiB at    9.19MiB/s (00:00:00)[download] 100% of  218.00KiB in 00:00:00 at 2.25MiB/s
+[info] Writing video metadata as JSON to: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/download/video.info.json
+[SubtitlesConvertor] Converting subtitles
+[SubtitlesConvertor] Subtitle file for vtt is already in the requested format
+[SubtitlesConvertor] Subtitle file for vtt is already in the requested format
+[download] Destination: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/download/video.f398.mp4
+[download]   0.0% of   42.73MiB at  307.97KiB/s ETA 02:22[download]   0.0% of   42.73MiB at  846.02KiB/s ETA 00:51[download]   0.0% of   42.73MiB at    1.85MiB/s ETA 00:23[download]   0.0% of   42.73MiB at    3.80MiB/s ETA 00:11[download]   0.1% of   42.73MiB at    3.91MiB/s ETA 00:10[download]   0.1% of   42.73MiB at    7.66MiB/s ETA 00:05[download]   0.3% of   42.73MiB at    4.90MiB/s ETA 00:08[download]   0.6% of   42.73MiB at    6.58MiB/s ETA 00:06[download]   1.2% of   42.73MiB at    7.16MiB/s ETA 00:05[download]   2.3% of   42.73MiB at   10.06MiB/s ETA 00:04[download]   4.7% of   42.73MiB at   13.81MiB/s ETA 00:02[download]   9.4% of   42.73MiB at    7.98MiB/s ETA 00:04[download]  18.7% of   42.73MiB at   11.65MiB/s ETA 00:02[download]  23.2% of   42.73MiB at    7.09MiB/s ETA 00:04[download]  23.2% of   42.73MiB at  Unknown B/s ETA Unknown[download]  23.2% of   42.73MiB at    2.92MiB/s ETA 00:11  [download]  23.2% of   42.73MiB at    5.78MiB/s ETA 00:05[download]  23.2% of   42.73MiB at   11.10MiB/s ETA 00:02[download]  23.2% of   42.73MiB at   20.78MiB/s ETA 00:01[download]  23.3% of   42.73MiB at   38.55MiB/s ETA 00:00[download]  23.4% of   42.73MiB at  751.41KiB/s ETA 00:44[download]  23.7% of   42.73MiB at    1.45MiB/s ETA 00:22[download]  24.3% of   42.73MiB at    2.84MiB/s ETA 00:11[download]  25.5% of   42.73MiB at    5.25MiB/s ETA 00:06[download]  27.8% of   42.73MiB at    9.45MiB/s ETA 00:03[download]  32.5% of   42.73MiB at   13.06MiB/s ETA 00:02[download]  41.9% of   42.73MiB at   15.67MiB/s ETA 00:01[download]  45.5% of   42.73MiB at   17.17MiB/s ETA 00:01[download]  45.5% of   42.73MiB at  Unknown B/s ETA Unknown[download]  45.5% of   42.73MiB at  Unknown B/s ETA Unknown[download]  45.5% of   42.73MiB at  Unknown B/s ETA Unknown[download]  45.5% of   42.73MiB at  Unknown B/s ETA Unknown[download]  45.6% of   42.73MiB at  Unknown B/s ETA Unknown[download]  45.6% of   42.73MiB at   35.87MiB/s ETA 00:00  [download]  45.8% of   42.73MiB at   32.84MiB/s ETA 00:00[download]  46.1% of   42.73MiB at   39.57MiB/s ETA 00:00[download]  46.7% of   42.73MiB at   36.92MiB/s ETA 00:00[download]  47.8% of   42.73MiB at    8.24MiB/s ETA 00:02[download]  50.2% of   42.73MiB at   12.50MiB/s ETA 00:01[download]  54.9% of   42.73MiB at    8.75MiB/s ETA 00:02[download]  64.2% of   42.73MiB at   11.12MiB/s ETA 00:01[download]  68.3% of   42.73MiB at   12.25MiB/s ETA 00:01[download]  68.3% of   42.73MiB at  Unknown B/s ETA Unknown[download]  68.3% of   42.73MiB at  Unknown B/s ETA Unknown[download]  68.3% of   42.73MiB at  Unknown B/s ETA Unknown[download]  68.3% of   42.73MiB at   13.55MiB/s ETA 00:01  [download]  68.3% of   42.73MiB at   20.18MiB/s ETA 00:00[download]  68.4% of   42.73MiB at   14.19MiB/s ETA 00:00[download]  68.5% of   42.73MiB at   12.73MiB/s ETA 00:01[download]  68.8% of   42.73MiB at   13.86MiB/s ETA 00:00[download]  69.4% of   42.73MiB at   15.19MiB/s ETA 00:00[download]  70.6% of   42.73MiB at    5.45MiB/s ETA 00:02[download]  72.9% of   42.73MiB at   10.19MiB/s ETA 00:01[download]  77.6% of   42.73MiB at   12.01MiB/s ETA 00:00[download]  87.0% of   42.73MiB at   12.14MiB/s ETA 00:00[download]  91.2% of   42.73MiB at   13.73MiB/s ETA 00:00[download]  91.2% of   42.73MiB at  Unknown B/s ETA Unknown[download]  91.2% of   42.73MiB at  Unknown B/s ETA Unknown[download]  91.2% of   42.73MiB at  Unknown B/s ETA Unknown[download]  91.2% of   42.73MiB at  Unknown B/s ETA Unknown[download]  91.2% of   42.73MiB at   14.42MiB/s ETA 00:00  [download]  91.3% of   42.73MiB at   25.97MiB/s ETA 00:00[download]  91.5% of   42.73MiB at   27.88MiB/s ETA 00:00[download]  91.7% of   42.73MiB at   32.32MiB/s ETA 00:00[download]  92.3% of   42.73MiB at   35.12MiB/s ETA 00:00[download]  93.5% of   42.73MiB at   36.69MiB/s ETA 00:00[download]  95.8% of   42.73MiB at    7.91MiB/s ETA 00:00[download] 100.0% of   42.73MiB at   12.23MiB/s ETA 00:00[download] 100% of   42.73MiB in 00:00:04 at 10.32MiB/s  
+[download] Destination: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/download/video.f251.webm
+[download]   0.0% of   19.07MiB at  Unknown B/s ETA Unknown[download]   0.0% of   19.07MiB at  Unknown B/s ETA Unknown[download]   0.0% of   19.07MiB at  Unknown B/s ETA Unknown[download]   0.1% of   19.07MiB at   14.15MiB/s ETA 00:01  [download]   0.2% of   19.07MiB at   24.40MiB/s ETA 00:00[download]   0.3% of   19.07MiB at   42.72MiB/s ETA 00:00[download]   0.7% of   19.07MiB at   36.99MiB/s ETA 00:00[download]   1.3% of   19.07MiB at   39.88MiB/s ETA 00:00[download]   2.6% of   19.07MiB at   38.37MiB/s ETA 00:00[download]   5.2% of   19.07MiB at   38.89MiB/s ETA 00:00[download]  10.5% of   19.07MiB at   42.88MiB/s ETA 00:00[download]  21.0% of   19.07MiB at    8.61MiB/s ETA 00:01[download]  41.9% of   19.07MiB at   12.55MiB/s ETA 00:00[download]  52.2% of   19.07MiB at   14.46MiB/s ETA 00:00[download]  52.2% of   19.07MiB at  Unknown B/s ETA Unknown[download]  52.2% of   19.07MiB at  Unknown B/s ETA Unknown[download]  52.2% of   19.07MiB at    6.64MiB/s ETA 00:01  [download]  52.3% of   19.07MiB at   10.80MiB/s ETA 00:00[download]  52.4% of   19.07MiB at   18.03MiB/s ETA 00:00[download]  52.5% of   19.07MiB at   30.00MiB/s ETA 00:00[download]  52.9% of   19.07MiB at   46.89MiB/s ETA 00:00[download]  53.5% of   19.07MiB at   42.92MiB/s ETA 00:00[download]  54.8% of   19.07MiB at   45.95MiB/s ETA 00:00[download]  57.4% of   19.07MiB at   47.14MiB/s ETA 00:00[download]  62.7% of   19.07MiB at   52.74MiB/s ETA 00:00[download]  73.2% of   19.07MiB at   28.55MiB/s ETA 00:00[download]  94.2% of   19.07MiB at   21.29MiB/s ETA 00:00[download] 100.0% of   19.07MiB at   21.23MiB/s ETA 00:00[download] 100% of   19.07MiB in 00:00:01 at 12.00MiB/s  
+[Merger] Merging formats into "/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/download/video.mp4"
+Deleting original file /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/download/video.f398.mp4 (pass -k to keep)
+Deleting original file /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/download/video.f251.webm (pass -k to keep)
+[watch] extracting scene-aware frames over full 1165.0s (target 100, cap 100)…
+
+# watch: video report
+
+- **Source:** https://www.youtube.com/watch?v=Eu9IrnLbvPo
+- **Title:** 8 Mistakes That Stop Beginners From Selling eBooks Online
+- **Uploader:** Sean Dollwet
+- **Duration:** 19:25 (1165.0s)
+- **Resolution:** 1280x720 (av1)
+- **Detail:** balanced
+- **Frames:** 100 selected from 127 candidates (scene, 4 near-duplicates dropped, full range, budget 100, cap 100)
+- **Frame size:** max 512px wide, max 1998px tall
+- **Transcript:** 631 segments (via captions)
+
+> **Warning:** This is a 19-minute video. Frame coverage is sparse at this length under `balanced` detail — its cap spreads thin across the full clip. For better results, re-run with `--start HH:MM:SS --end HH:MM:SS` to zoom into a section, or use `--detail token-burner` to keep every scene-change frame across the whole video.
+
+## Frames
+
+Frames live at: `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames`
+
+**Read each frame path below with the Read tool to view the image.** Frames are in chronological order; `t=MM:SS` is the absolute timestamp in the source video.
+
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0001.jpg` (t=00:00, reason=first-frame)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0002.jpg` (t=00:08, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0003.jpg` (t=00:13, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0006.jpg` (t=00:44, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0007.jpg` (t=00:47, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0008.jpg` (t=00:49, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0009.jpg` (t=00:50, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0011.jpg` (t=00:53, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0012.jpg` (t=00:55, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0013.jpg` (t=00:59, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0014.jpg` (t=01:04, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0017.jpg` (t=02:10, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0018.jpg` (t=02:17, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0019.jpg` (t=02:23, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0020.jpg` (t=02:27, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0021.jpg` (t=02:42, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0023.jpg` (t=02:53, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0024.jpg` (t=03:06, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0025.jpg` (t=03:15, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0026.jpg` (t=03:22, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0028.jpg` (t=03:44, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0029.jpg` (t=04:16, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0030.jpg` (t=04:32, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0031.jpg` (t=04:43, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0033.jpg` (t=04:56, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0034.jpg` (t=04:59, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0035.jpg` (t=05:05, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0036.jpg` (t=05:05, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0038.jpg` (t=05:05, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0039.jpg` (t=05:06, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0040.jpg` (t=05:06, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0041.jpg` (t=05:06, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0042.jpg` (t=05:07, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0044.jpg` (t=05:13, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0045.jpg` (t=05:14, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0046.jpg` (t=05:16, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0047.jpg` (t=05:22, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0049.jpg` (t=05:33, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0050.jpg` (t=05:34, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0051.jpg` (t=05:35, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0052.jpg` (t=05:35, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0054.jpg` (t=05:35, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0055.jpg` (t=05:36, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0056.jpg` (t=05:36, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0057.jpg` (t=05:37, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0058.jpg` (t=05:43, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0060.jpg` (t=05:58, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0061.jpg` (t=06:15, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0062.jpg` (t=06:43, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0063.jpg` (t=06:53, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0065.jpg` (t=07:36, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0066.jpg` (t=07:43, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0067.jpg` (t=08:03, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0068.jpg` (t=08:19, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0070.jpg` (t=08:46, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0071.jpg` (t=08:55, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0072.jpg` (t=09:03, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0073.jpg` (t=09:26, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0075.jpg` (t=09:39, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0077.jpg` (t=10:21, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0078.jpg` (t=10:51, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0079.jpg` (t=11:04, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0080.jpg` (t=11:07, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0082.jpg` (t=11:16, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0083.jpg` (t=11:20, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0084.jpg` (t=11:41, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0085.jpg` (t=11:56, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0087.jpg` (t=12:09, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0088.jpg` (t=12:17, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0089.jpg` (t=12:21, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0090.jpg` (t=12:26, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0091.jpg` (t=12:33, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0093.jpg` (t=12:59, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0094.jpg` (t=13:04, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0095.jpg` (t=13:08, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0096.jpg` (t=13:38, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0098.jpg` (t=13:54, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0099.jpg` (t=14:06, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0100.jpg` (t=14:10, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0101.jpg` (t=14:27, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0103.jpg` (t=15:14, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0104.jpg` (t=15:41, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0105.jpg` (t=15:51, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0106.jpg` (t=16:07, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0108.jpg` (t=16:30, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0109.jpg` (t=16:42, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0110.jpg` (t=16:43, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0111.jpg` (t=16:48, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0112.jpg` (t=16:53, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0114.jpg` (t=17:55, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0115.jpg` (t=17:59, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0116.jpg` (t=18:04, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0117.jpg` (t=18:35, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0119.jpg` (t=18:41, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0120.jpg` (t=18:41, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0121.jpg` (t=18:42, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0122.jpg` (t=18:43, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0124.jpg` (t=18:48, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0125.jpg` (t=18:50, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo/frames/frame_0127.jpg` (t=19:10, reason=scene-change)
+
+## Transcript
+
+_Source: captions._
+
+```
+[00:01] A lot of beginners create an ebook, and then wonder why no one is buying it. It
+[00:03] then wonder why no one is buying it. It can feel discouraging when you put in
+[00:05] can feel discouraging when you put in the time and money and still get no
+[00:07] the time and money and still get no sales. So, in this video, I'm going to
+[00:09] sales. So, in this video, I'm going to break down the common mistakes that stop
+[00:10] break down the common mistakes that stop beginners from selling ebooks online.
+[00:12] beginners from selling ebooks online. I'll show you what those mistakes are,
+[00:14] I'll show you what those mistakes are, why they hurt your sales, and what to do
+[00:17] why they hurt your sales, and what to do instead so you can sell the right way.
+[00:18] instead so you can sell the right way. Now, if you're new to the channel, my
+[00:19] Now, if you're new to the channel, my name is Sean, and I've made over $2
+[00:21] name is Sean, and I've made over $2 million selling ebooks online, and I've
+[00:24] million selling ebooks online, and I've been doing this for years. I've seen how
+[00:25] been doing this for years. I've seen how this business has changed over time,
+[00:27] this business has changed over time, what still works, and what beginners
+[00:29] what still works, and what beginners should focus on today. Now, before we
+[00:31] should focus on today. Now, before we jump into the actual content of the
+[00:32] jump into the actual content of the video though, I do have to let you know
+[00:34] video though, I do have to let you know that most people who start a business
+[00:35] that most people who start a business fail, and that's completely normal. And
+[00:37] fail, and that's completely normal. And although publishing ebooks is an amazing
+[00:39] although publishing ebooks is an amazing business model, it's still a real
+[00:41] business model, it's still a real business, which means you can absolutely
+[00:42] business, which means you can absolutely fail if you do it the wrong way. That's
+[00:44] fail if you do it the wrong way. That's exactly why I make these videos to help
+[00:46] exactly why I make these videos to help you avoid the mistakes and give you the
+[00:48] you avoid the mistakes and give you the highest chance of success. And for those
+[00:50] highest chance of success. And for those who want even more guidance, that's why
+[00:51] who want even more guidance, that's why we have our mentorship program, where we
+[00:53] we have our mentorship program, where we go even further and help guide you
+[00:55] go even further and help guide you step-by-step throughout the process to
+[00:56] step-by-step throughout the process to give you the best chance to succeed. You
+[00:58] give you the best chance to succeed. You can click the link in the description
+[01:00] can click the link in the description and the pinned comment below to learn
+[01:01] and the pinned comment below to learn more about that. But with that being
+[01:02] more about that. But with that being said, let's jump into the video. All
+[01:04] said, let's jump into the video. All right, mistake number one is watching
+[01:06] right, mistake number one is watching too many videos and still not taking
+[01:08] too many videos and still not taking action. So, I think this is a mistake
+[01:09] action. So, I think this is a mistake that a lot of people make, but they
+[01:10] that a lot of people make, but they don't realize that they're doing this.
+[01:12] don't realize that they're doing this. Sometimes I see people saying in the
+[01:13] Sometimes I see people saying in the comments, "Oh, I've been publishing
+[01:15] comments, "Oh, I've been publishing ebooks for a year, and I haven't made a
+[01:17] ebooks for a year, and I haven't made a single sale." But when you actually look
+[01:19] single sale." But when you actually look closer, they weren't actually publishing
+[01:20] closer, they weren't actually publishing ebooks for a year. Most of the time,
+[01:22] ebooks for a year. Most of the time, what's actually happening is they spent
+[01:24] what's actually happening is they spent a year watching videos about publishing
+[01:27] a year watching videos about publishing ebooks, then maybe they made one quick
+[01:29] ebooks, then maybe they made one quick ebook, which took a couple hours,
+[01:31] ebook, which took a couple hours, uploaded, did nothing, and then spent
+[01:33] uploaded, did nothing, and then spent the rest of the year watching videos,
+[01:35] the rest of the year watching videos, and they're like, "Oh, why am I not
+[01:36] and they're like, "Oh, why am I not making any sales?" So, watching videos
+[01:38] making any sales?" So, watching videos about a business and doing the actual
+[01:40] about a business and doing the actual business itself is not the same thing. I
+[01:42] business itself is not the same thing. I get that you want to watch videos to
+[01:43] get that you want to watch videos to learn, and obviously, you know, I want
+[01:45] learn, and obviously, you know, I want you to watch my videos as well, because
+[01:47] you to watch my videos as well, because that's how I make money. But eventually,
+[01:48] that's how I make money. But eventually, you have to start implementing what
+[01:50] you have to start implementing what you're learning. You have to start
+[01:51] you're learning. You have to start taking action. And the truth is, nobody
+[01:53] taking action. And the truth is, nobody ever feels 100% ready. Most people learn
+[01:56] ever feels 100% ready. Most people learn by putting a book out, seeing what
+[01:58] by putting a book out, seeing what happens, and then they go and improve
+[02:00] happens, and then they go and improve from there. You learn way more by
+[02:01] from there. You learn way more by actually doing it than watching videos.
+[02:03] actually doing it than watching videos. Your first book might not do well.
+[02:05] Your first book might not do well. Actually, it's probably not going to do
+[02:06] Actually, it's probably not going to do well, and that's completely fine. That's
+[02:08] well, and that's completely fine. That's like super normal. The goal is to get
+[02:10] like super normal. The goal is to get experience by publishing it,
+[02:12] experience by publishing it, understanding what the market actually
+[02:13] understanding what the market actually wants, and improve with every single
+[02:15] wants, and improve with every single book you make from there. Now, most
+[02:17] book you make from there. Now, most people who are actually taking action,
+[02:18] people who are actually taking action, you know, publishing ebooks, but are
+[02:20] you know, publishing ebooks, but are still not making sales, they are usually
+[02:21] still not making sales, they are usually making the second mistake, which is
+[02:23] making the second mistake, which is writing the book you want instead of the
+[02:25] writing the book you want instead of the book people want. I see this all the
+[02:27] book people want. I see this all the time. Someone spends three or more
+[02:29] time. Someone spends three or more months writing a book on a topic that
+[02:31] months writing a book on a topic that they love, that they're passionate
+[02:32] they love, that they're passionate about, and then they go and publish it,
+[02:34] about, and then they go and publish it, and then wonders why nobody's buying.
+[02:36] and then wonders why nobody's buying. The problem isn't the writing itself.
+[02:38] The problem isn't the writing itself. It's that they never checked if anybody
+[02:39] It's that they never checked if anybody wanted the book before they started.
+[02:42] wanted the book before they started. Now, before we talk about that a little
+[02:43] Now, before we talk about that a little bit more in depth, a quick side note is
+[02:45] bit more in depth, a quick side note is that you should be publishing your
+[02:46] that you should be publishing your ebooks on a platform where millions of
+[02:48] ebooks on a platform where millions of readers are looking to buy a book. And
+[02:50] readers are looking to buy a book. And my favorite for that is Amazon, because
+[02:52] my favorite for that is Amazon, because Amazon controls 74% of the US book
+[02:55] Amazon controls 74% of the US book market. It's not even close. The second
+[02:57] market. It's not even close. The second biggest one is Apple at 11%. I think
+[02:59] biggest one is Apple at 11%. I think it's actually lower than that at this
+[03:01] it's actually lower than that at this point. Amazon just dominates the book
+[03:03] point. Amazon just dominates the book markets. If you're trying to sell books,
+[03:04] markets. If you're trying to sell books, you should be selling on Amazon. And by
+[03:06] you should be selling on Amazon. And by selling on Amazon, Amazon uses a
+[03:08] selling on Amazon, Amazon uses a print-on-demand model, which means you
+[03:10] print-on-demand model, which means you can create the content once, upload it,
+[03:12] can create the content once, upload it, and you can publish it in multiple
+[03:14] and you can publish it in multiple formats, like ebook, paperback,
+[03:16] formats, like ebook, paperback, hardcover, audio. And because it's
+[03:18] hardcover, audio. And because it's print-on-demand, you don't have no
+[03:20] print-on-demand, you don't have no inventory, you don't have anything.
+[03:21] inventory, you don't have anything. Amazon prints it and ship it to the
+[03:23] Amazon prints it and ship it to the customer only after you make a sale. So,
+[03:25] customer only after you make a sale. So, this is how you have the most
+[03:27] this is how you have the most minimalistic, simplest business model,
+[03:29] minimalistic, simplest business model, in my opinion, because you don't have to
+[03:30] in my opinion, because you don't have to deal with inventory, no shipping and
+[03:32] deal with inventory, no shipping and handling, not even customer service,
+[03:34] handling, not even customer service, because you're leveraging Amazon and the
+[03:35] because you're leveraging Amazon and the print-on-demand business model. So,
+[03:37] print-on-demand business model. So, you're not risking any time or money,
+[03:39] you're not risking any time or money, once again, figuring out all these other
+[03:40] once again, figuring out all these other things that you normally have to do in
+[03:42] things that you normally have to do in other businesses. And it also has the
+[03:44] other businesses. And it also has the biggest built-in buyer traffic that you
+[03:46] biggest built-in buyer traffic that you can tap into out of all the websites,
+[03:48] can tap into out of all the websites, all the platforms that you can think of.
+[03:50] all the platforms that you can think of. Millions of people already searching for
+[03:52] Millions of people already searching for books on Amazon every single day, and
+[03:55] books on Amazon every single day, and you can tap into that, right? Yes, there
+[03:57] you can tap into that, right? Yes, there are millions of people on Instagram,
+[03:58] are millions of people on Instagram, TikTok, but they're just scrolling.
+[04:00] TikTok, but they're just scrolling. They're not looking to buy. Compared to
+[04:02] They're not looking to buy. Compared to that, everyone on Amazon are looking to
+[04:03] that, everyone on Amazon are looking to buy something. That buyer intent is
+[04:06] buy something. That buyer intent is huge. Amazon ships to over 19 countries
+[04:08] huge. Amazon ships to over 19 countries with over 19 different marketplaces, and
+[04:10] with over 19 different marketplaces, and in my opinion, it's way better than
+[04:12] in my opinion, it's way better than selling on your own website or
+[04:13] selling on your own website or marketplaces with little organic
+[04:14] marketplaces with little organic traffic. So, going back to the second
+[04:16] traffic. So, going back to the second mistake of not checking demand. Well, if
+[04:18] mistake of not checking demand. Well, if you're wondering, "How do you exactly
+[04:20] you're wondering, "How do you exactly check if people even want a book on this
+[04:22] check if people even want a book on this topic before you write it?" Well, you do
+[04:24] topic before you write it?" Well, you do that with Amazon. Because I do recommend
+[04:26] that with Amazon. Because I do recommend selling your books on Amazon, why not
+[04:28] selling your books on Amazon, why not check the store that you're going to be
+[04:29] check the store that you're going to be selling at, right? Even if you sell on
+[04:31] selling at, right? Even if you sell on your own website, if the book topic is
+[04:33] your own website, if the book topic is selling well on Amazon, most likely
+[04:35] selling well on Amazon, most likely it'll sell everywhere else, even if you
+[04:36] it'll sell everywhere else, even if you choose not to sell on Amazon, which I
+[04:38] choose not to sell on Amazon, which I wouldn't understand why you would not do
+[04:40] wouldn't understand why you would not do that, but at least you can use the
+[04:41] that, but at least you can use the platform for research. So, this is how
+[04:43] platform for research. So, this is how you validate your topic. Super easy. You
+[04:46] you validate your topic. Super easy. You go to Amazon, and then you change this
+[04:47] go to Amazon, and then you change this to books,
+[04:49] to books, and what you want to do is to download
+[04:50] and what you want to do is to download this free Chrome plugin called DS Amazon
+[04:52] this free Chrome plugin called DS Amazon Quick View. Completely free, and by
+[04:55] Quick View. Completely free, and by doing so, you'll see this number right
+[04:57] doing so, you'll see this number right here, which is called the best sellers
+[04:58] here, which is called the best sellers rank. So, I typed in a random topic that
+[05:01] rank. So, I typed in a random topic that I wanted to check if it's profitable or
+[05:02] I wanted to check if it's profitable or not, so I typed in decluttering, and
+[05:04] not, so I typed in decluttering, and these are the search results that we
+[05:05] these are the search results that we got. With the DS Amazon Quick View
+[05:07] got. With the DS Amazon Quick View plugin, you can see the best sellers
+[05:08] plugin, you can see the best sellers rank right here, and what you want to
+[05:10] rank right here, and what you want to look for are books below 80,000 BSR,
+[05:13] look for are books below 80,000 BSR, because anything below 80,000 is selling
+[05:15] because anything below 80,000 is selling pretty well. So, if you see multiple
+[05:17] pretty well. So, if you see multiple books like this one and this one below
+[05:19] books like this one and this one below 80,000, that is a good sign. Obviously,
+[05:21] 80,000, that is a good sign. Obviously, you know, poorly executed books have a
+[05:23] you know, poorly executed books have a higher BSR. It's not selling a lot, but
+[05:26] higher BSR. It's not selling a lot, but that doesn't mean that decluttering is
+[05:27] that doesn't mean that decluttering is not profitable. It just means that these
+[05:29] not profitable. It just means that these books are not that attractive, because
+[05:31] books are not that attractive, because the book cover is not nice, maybe it
+[05:33] the book cover is not nice, maybe it doesn't have a lot of reviews, right?
+[05:35] doesn't have a lot of reviews, right? So, it's not the topic, it's the book.
+[05:37] So, it's not the topic, it's the book. If you see a lot of books below 80,000
+[05:39] If you see a lot of books below 80,000 BSR like these ones, again, the topic
+[05:41] BSR like these ones, again, the topic itself should be profitable. So, that is
+[05:43] itself should be profitable. So, that is how you can check the demand of the
+[05:45] how you can check the demand of the topic before you start writing, which is
+[05:47] topic before you start writing, which is super important. But, there's another
+[05:48] super important. But, there's another mistake that beginners are making even
+[05:50] mistake that beginners are making even after choosing a topic with demand. And
+[05:53] after choosing a topic with demand. And that is mistake number three, using
+[05:54] that is mistake number three, using fancy titles instead of using searchable
+[05:57] fancy titles instead of using searchable keywords. So, a clever title feels good
+[05:59] keywords. So, a clever title feels good to write, yes, but Amazon is not a
+[06:01] to write, yes, but Amazon is not a bookstore where someone browses a shelf
+[06:04] bookstore where someone browses a shelf and picks up whatever looks interesting.
+[06:05] and picks up whatever looks interesting. Amazon actually is a search engine. So,
+[06:07] Amazon actually is a search engine. So, if your title doesn't contain the words
+[06:09] if your title doesn't contain the words your buyers actually typing, your book
+[06:11] your buyers actually typing, your book has a much lower chance of showing up
+[06:13] has a much lower chance of showing up when they search for something. So, as
+[06:15] when they search for something. So, as an example, this book right here, as you
+[06:17] an example, this book right here, as you can see, uses the title The Money Tree.
+[06:19] can see, uses the title The Money Tree. You know, that sounds fancy, it's cool,
+[06:21] You know, that sounds fancy, it's cool, but no customer will go to Amazon and
+[06:23] but no customer will go to Amazon and type the word The Money Tree if they're
+[06:25] type the word The Money Tree if they're looking for finance books. So, sometimes
+[06:27] looking for finance books. So, sometimes you can use fancy titles if it's backed
+[06:29] you can use fancy titles if it's backed up, you know, by a subtitle that has
+[06:31] up, you know, by a subtitle that has those keywords. So, you can put keywords
+[06:33] those keywords. So, you can put keywords in the subtitle instead of the title if
+[06:35] in the subtitle instead of the title if you really want like a fancy title. But,
+[06:37] you really want like a fancy title. But, in this case, Growing Financially Savvy
+[06:39] in this case, Growing Financially Savvy Kids, I don't think has a lot of search
+[06:41] Kids, I don't think has a lot of search volume as well. Like, you know, as an
+[06:42] volume as well. Like, you know, as an example, if a customer really wants a
+[06:45] example, if a customer really wants a book on teaching kids about money,
+[06:46] book on teaching kids about money, they'll probably search for something
+[06:48] they'll probably search for something like a book about money for kids,
+[06:50] like a book about money for kids, raising financially smart kids, those
+[06:52] raising financially smart kids, those kind of phrases. So, I do see maybe some
+[06:54] kind of phrases. So, I do see maybe some people will search for Growing
+[06:56] people will search for Growing Financially Savvy Kids, but not a lot.
+[06:58] Financially Savvy Kids, but not a lot. And for that reason, as you can see,
+[06:59] And for that reason, as you can see, this book isn't making that much sales.
+[07:01] this book isn't making that much sales. But, compared to that, this is a keyword
+[07:03] But, compared to that, this is a keyword optimized title example here. As you can
+[07:05] optimized title example here. As you can see, this book is making over $1,000 a
+[07:07] see, this book is making over $1,000 a month in royalty because it's doing $45
+[07:10] month in royalty because it's doing $45 per day. If you're wondering where I get
+[07:11] per day. If you're wondering where I get this data, it's from a tool called
+[07:13] this data, it's from a tool called BookBeam. It is a paid tool, but it does
+[07:15] BookBeam. It is a paid tool, but it does tell you like how much the book is
+[07:17] tell you like how much the book is making in actual royalties, not just the
+[07:18] making in actual royalties, not just the BSR, which you can see from DS Amazon
+[07:20] BSR, which you can see from DS Amazon Quick View. If you do want to check out
+[07:22] Quick View. If you do want to check out BookBeam, I'll leave a link in the
+[07:23] BookBeam, I'll leave a link in the description below. So, for this book,
+[07:24] description below. So, for this book, you can see that the title is Money
+[07:26] you can see that the title is Money Skills for Kids, which is a good keyword
+[07:28] Skills for Kids, which is a good keyword because parents are most likely using
+[07:29] because parents are most likely using this phrase to search for a book on
+[07:32] this phrase to search for a book on Amazon. So, because this book is titled
+[07:35] Amazon. So, because this book is titled the same, so when a customer search for
+[07:37] the same, so when a customer search for Money Skills for Kids, this book has a
+[07:39] Money Skills for Kids, this book has a higher chance of showing up because it's
+[07:40] higher chance of showing up because it's a match. That is how the Amazon
+[07:42] a match. That is how the Amazon algorithm works. And also the subtitle
+[07:44] algorithm works. And also the subtitle is good as well. The subtitle explains
+[07:46] is good as well. The subtitle explains what this book is about. So, it's a
+[07:48] what this book is about. So, it's a beginner's guide to earning, saving, and
+[07:49] beginner's guide to earning, saving, and spending wisely. Everything twins should
+[07:52] spending wisely. Everything twins should know about personal finance. So,
+[07:53] know about personal finance. So, generally you want to add couple
+[07:54] generally you want to add couple keywords in the title and the subtitle
+[07:56] keywords in the title and the subtitle and then use the rest of the word count
+[07:58] and then use the rest of the word count to sell the book, which is exactly what
+[08:00] to sell the book, which is exactly what this book is doing. So, this is a
+[08:01] this book is doing. So, this is a really, really good title structure. So,
+[08:03] really, really good title structure. So, we covered mistake when it comes to
+[08:04] we covered mistake when it comes to researching book topics, mistake when it
+[08:06] researching book topics, mistake when it comes to creating book titles. The next
+[08:08] comes to creating book titles. The next is in the writing phase. And everyone
+[08:10] is in the writing phase. And everyone knows that AI is getting better and
+[08:12] knows that AI is getting better and better and a lot of people are using AI
+[08:14] better and a lot of people are using AI to write books. It definitely helps you
+[08:15] to write books. It definitely helps you write books fast, but the next mistake
+[08:17] write books fast, but the next mistake beginners make is using AI the wrong
+[08:19] beginners make is using AI the wrong way. Because not every AI tool is built
+[08:22] way. Because not every AI tool is built for the same task. Some are better for
+[08:23] for the same task. Some are better for writing, some are better for images, and
+[08:25] writing, some are better for images, and some are better for other parts of the
+[08:27] some are better for other parts of the book creation process. So, if you're
+[08:28] book creation process. So, if you're using the wrong tool for the job, the
+[08:30] using the wrong tool for the job, the quality usually will not be as good. So,
+[08:32] quality usually will not be as good. So, AI is absolutely amazing. I love AI and
+[08:34] AI is absolutely amazing. I love AI and it can absolutely help you move faster,
+[08:36] it can absolutely help you move faster, but you still need to use the right
+[08:37] but you still need to use the right tool, edit the output. You want to
+[08:39] tool, edit the output. You want to improve the content, not just copy
+[08:40] improve the content, not just copy paste, and make sure the final book is
+[08:42] paste, and make sure the final book is actually valuable for the customer. And
+[08:44] actually valuable for the customer. And that's the part a lot of people skip.
+[08:45] that's the part a lot of people skip. Because again, if you're trying to sell
+[08:47] Because again, if you're trying to sell on Amazon, which I think is the best
+[08:49] on Amazon, which I think is the best beginner-friendly place because you can
+[08:50] beginner-friendly place because you can tap into, you know, a huge audience or
+[08:53] tap into, you know, a huge audience or customer base that Amazon has, you can
+[08:55] customer base that Amazon has, you can also sell on your own website if you
+[08:56] also sell on your own website if you really want to, but that's more like a
+[08:58] really want to, but that's more like a level two platform and not level one.
+[09:00] level two platform and not level one. Level one is the most beginner-friendly,
+[09:02] Level one is the most beginner-friendly, which is Amazon. And if you are going to
+[09:04] which is Amazon. And if you are going to sell on Amazon, it's important to
+[09:05] sell on Amazon, it's important to understand Amazon's algorithm. So,
+[09:07] understand Amazon's algorithm. So, Amazon's algorithm favors quality and
+[09:09] Amazon's algorithm favors quality and engagement. If you use AI the wrong way
+[09:12] engagement. If you use AI the wrong way and you create low-quality books, it's
+[09:14] and you create low-quality books, it's just going to lead to bad reviews, which
+[09:15] just going to lead to bad reviews, which leads to less sales. So, creating
+[09:17] leads to less sales. So, creating high-quality books is basically
+[09:18] high-quality books is basically mandatory. It's essential, right?
+[09:20] mandatory. It's essential, right? Because it builds long-term brands,
+[09:22] Because it builds long-term brands, long-term sales, getting good reviews,
+[09:24] long-term sales, getting good reviews, which are all very important. So, here's
+[09:26] which are all very important. So, here's an example of a low-quality AI book. If
+[09:28] an example of a low-quality AI book. If you look at the book cover, it looks
+[09:29] you look at the book cover, it looks very obvious that it was made by AI. You
+[09:31] very obvious that it was made by AI. You can even spot weird-looking people in
+[09:33] can even spot weird-looking people in the background or strange details, which
+[09:35] the background or strange details, which is usually a red flag. People are
+[09:37] is usually a red flag. People are catching onto this very quick nowadays.
+[09:39] catching onto this very quick nowadays. Then if you click on read standpoint,
+[09:40] Then if you click on read standpoint, you look inside, the formatting looks
+[09:42] you look inside, the formatting looks off. It's not the best formatting over
+[09:44] off. It's not the best formatting over here, not, you know, very good spacing.
+[09:46] here, not, you know, very good spacing. The text feels like it was copied from
+[09:47] The text feels like it was copied from ChatGPT, pasted in without much editing.
+[09:50] ChatGPT, pasted in without much editing. There's even an image near the bottom
+[09:51] There's even an image near the bottom that looks fully AI generated. Now, I'm
+[09:53] that looks fully AI generated. Now, I'm not saying AI itself is a problem, but
+[09:55] not saying AI itself is a problem, but the real issue is that the book looks
+[09:57] the real issue is that the book looks rushed and low quality, right? If you
+[09:59] rushed and low quality, right? If you take your time using AI properly, you
+[10:01] take your time using AI properly, you can create an amazing book with AI much
+[10:03] can create an amazing book with AI much faster than before. But if you're just
+[10:05] faster than before. But if you're just pumping out low-quality AI books like
+[10:06] pumping out low-quality AI books like this, that is definitely not the right
+[10:08] this, that is definitely not the right way to publish books and make money. It
+[10:10] way to publish books and make money. It also leads to bad reviews. These are
+[10:11] also leads to bad reviews. These are some reviews for that book that I showed
+[10:13] some reviews for that book that I showed you, and people are saying that the
+[10:14] you, and people are saying that the content feels made up, it looks cheap,
+[10:17] content feels made up, it looks cheap, it doesn't have enough real images, and
+[10:18] it doesn't have enough real images, and it just screams low quality. So, there
+[10:21] it just screams low quality. So, there are a lot of AI tools that's coming out
+[10:22] are a lot of AI tools that's coming out right now, but I really haven't seen one
+[10:24] right now, but I really haven't seen one that's built specifically for writing
+[10:25] that's built specifically for writing books. So, after being in this
+[10:27] books. So, after being in this publishing space for over a decade, I
+[10:29] publishing space for over a decade, I decided to create an AI tool that helps
+[10:31] decided to create an AI tool that helps you write a high-quality book that
+[10:32] you write a high-quality book that actually solves a real problem for the
+[10:34] actually solves a real problem for the reader. Which brings me to the sponsor
+[10:36] reader. Which brings me to the sponsor of this video, coauthor.ai, my AI book
+[10:39] of this video, coauthor.ai, my AI book writing software built specifically for
+[10:41] writing software built specifically for creating high-quality books. It's not
+[10:43] creating high-quality books. It's not just ChatGPT with a fancy label.
+[10:45] just ChatGPT with a fancy label. Coauthor is built for serious
+[10:46] Coauthor is built for serious publishers. It helps you go from idea to
+[10:48] publishers. It helps you go from idea to fully structured high-quality nonfiction
+[10:50] fully structured high-quality nonfiction manuscript way faster without the fluff,
+[10:53] manuscript way faster without the fluff, repetition, or generic writing most AI
+[10:55] repetition, or generic writing most AI tools produce. Inside Coauthor, you can
+[10:57] tools produce. Inside Coauthor, you can generate detailed outlines, write
+[10:59] generate detailed outlines, write chapter by chapter with guided
+[11:00] chapter by chapter with guided structure, strengthen your hooks,
+[11:02] structure, strengthen your hooks, improve clarity, and make sure your book
+[11:04] improve clarity, and make sure your book actually delivers transformation, not
+[11:06] actually delivers transformation, not just information. It's designed to help
+[11:08] just information. It's designed to help you write better nonfiction books in a
+[11:10] you write better nonfiction books in a fraction of the time while still keeping
+[11:12] fraction of the time while still keeping your unique voice. So, if you want to
+[11:13] your unique voice. So, if you want to publish faster, create higher-quality
+[11:15] publish faster, create higher-quality books, and build a real publishing
+[11:16] books, and build a real publishing business, the link to Coauthor is in the
+[11:18] business, the link to Coauthor is in the description below. So, right now, a lot
+[11:20] description below. So, right now, a lot of people on YouTube are still pushing
+[11:22] of people on YouTube are still pushing kind of a misleading strategy or
+[11:24] kind of a misleading strategy or misleading information in my opinion,
+[11:25] misleading information in my opinion, where they will show you one book that's
+[11:28] where they will show you one book that's making a lot of money, and then they go
+[11:29] making a lot of money, and then they go and tell you that you can recreate the
+[11:31] and tell you that you can recreate the same thing with AI within minutes. But
+[11:33] same thing with AI within minutes. But if you look at the actual book that
+[11:35] if you look at the actual book that they're recreating, the quality is
+[11:36] they're recreating, the quality is nowhere near the example book that's
+[11:38] nowhere near the example book that's actually making money. So I think that
+[11:40] actually making money. So I think that is slightly misleading, but then they go
+[11:42] is slightly misleading, but then they go and make it sound like if one book makes
+[11:44] and make it sound like if one book makes $100 per month, 10 books will
+[11:46] $100 per month, 10 books will automatically make you $1,000 per month
+[11:48] automatically make you $1,000 per month because 100 * 10. And you can just keep
+[11:50] because 100 * 10. And you can just keep repeating that. But in reality, that's
+[11:51] repeating that. But in reality, that's not how the publishing business works.
+[11:53] not how the publishing business works. If your book is low quality, people will
+[11:55] If your book is low quality, people will leave bad reviews. And once Amazon sees
+[11:57] leave bad reviews. And once Amazon sees that readers are not happy with the book
+[11:59] that readers are not happy with the book that they're buying from you, it becomes
+[12:01] that they're buying from you, it becomes much less likely to keep pushing it on
+[12:03] much less likely to keep pushing it on page one. So that's mistake number five,
+[12:05] page one. So that's mistake number five, focusing on creating more books instead
+[12:07] focusing on creating more books instead of creating a better book. So there's
+[12:09] of creating a better book. So there's this random pen name that I found here
+[12:11] this random pen name that I found here that has 141 books under his name. And
+[12:14] that has 141 books under his name. And I'm not trying to hate on this person or
+[12:16] I'm not trying to hate on this person or anything like that, but he has 140
+[12:18] anything like that, but he has 140 books, all poorly made covers, zero
+[12:20] books, all poorly made covers, zero reviews. And this is something that you
+[12:22] reviews. And this is something that you just don't want to do. You don't want to
+[12:23] just don't want to do. You don't want to chase the volume, you want to kind of
+[12:24] chase the volume, you want to kind of focus on quality. On the other hand,
+[12:26] focus on quality. On the other hand, there is a pen name like this one right
+[12:28] there is a pen name like this one right here that just has couple books because
+[12:30] here that just has couple books because he focused on creating high-quality
+[12:31] he focused on creating high-quality books. So as you can see, he only has
+[12:33] books. So as you can see, he only has eight books total, but just looking at
+[12:35] eight books total, but just looking at the book covers, you can tell that, you
+[12:36] the book covers, you can tell that, you know, they're professionally done. And
+[12:38] know, they're professionally done. And using a tool like Kitty Spy, I can see
+[12:40] using a tool like Kitty Spy, I can see how much these books are making. And you
+[12:42] how much these books are making. And you can see that just from the paperback,
+[12:43] can see that just from the paperback, he's doing $16,000 per month. If you add
+[12:45] he's doing $16,000 per month. If you add the other sources like hardcover, which
+[12:47] the other sources like hardcover, which is another 2,400, audiobook, 4,500, and
+[12:50] is another 2,400, audiobook, 4,500, and Kindle doing another 1,500 or so, these
+[12:53] Kindle doing another 1,500 or so, these eight books, or actually it's about six
+[12:55] eight books, or actually it's about six books, is doing around $24,000 a month
+[12:58] books, is doing around $24,000 a month if my math is correct, which I think is
+[12:59] if my math is correct, which I think is pretty good and it shows how you want to
+[13:01] pretty good and it shows how you want to focus on quality more than just chasing
+[13:03] focus on quality more than just chasing volume. All right, mistake number six is
+[13:05] volume. All right, mistake number six is trying to save money by creating a book
+[13:06] trying to save money by creating a book cover that looks cheap. So let me ask
+[13:09] cover that looks cheap. So let me ask you a quick question, which one of these
+[13:10] you a quick question, which one of these books would you most likely buy? If you
+[13:12] books would you most likely buy? If you line up these three books, most people
+[13:14] line up these three books, most people will pick the one on the right first.
+[13:16] will pick the one on the right first. And they'll probably make that decision
+[13:17] And they'll probably make that decision pretty quickly. They're not reading
+[13:18] pretty quickly. They're not reading descriptions, they're not checking
+[13:20] descriptions, they're not checking reviews, they're just literally reacting
+[13:22] reviews, they're just literally reacting to the book cover. So books get judged
+[13:24] to the book cover. So books get judged by the cover every single day on Amazon.
+[13:26] by the cover every single day on Amazon. And if your book cover looks cheap,
+[13:27] And if your book cover looks cheap, looks DIY, it's going to struggle
+[13:29] looks DIY, it's going to struggle sitting next to a clean professional
+[13:31] sitting next to a clean professional design. Your book might be amazing, your
+[13:33] design. Your book might be amazing, your content inside might be great, but the
+[13:35] content inside might be great, but the cover is what gets people to click in
+[13:36] cover is what gets people to click in the first place. So, how do you create a
+[13:38] the first place. So, how do you create a high-quality book cover? Well, you can
+[13:40] high-quality book cover? Well, you can outsource your book cover. It can start
+[13:42] outsource your book cover. It can start for as low as $10 to $20. It doesn't
+[13:44] for as low as $10 to $20. It doesn't have to be super expensive. Now,
+[13:46] have to be super expensive. Now, Co-author.ai can create stunning book
+[13:48] Co-author.ai can create stunning book covers as well, so you don't have to
+[13:49] covers as well, so you don't have to outsource it. You can save this money,
+[13:51] outsource it. You can save this money, get Co-author, and create a beautiful
+[13:52] get Co-author, and create a beautiful book as well. But what you want to focus
+[13:54] book as well. But what you want to focus on is to make your book cover stand out
+[13:56] on is to make your book cover stand out from the competition. You don't want to
+[13:57] from the competition. You don't want to just rip off a design that exists and
+[13:59] just rip off a design that exists and make a same version, right? You want to
+[14:00] make a same version, right? You want to create something that stands out.
+[14:02] create something that stands out. Because a high-quality book cover
+[14:03] Because a high-quality book cover significantly impacts your sales.
+[14:05] significantly impacts your sales. Another common mistake beginners make is
+[14:07] Another common mistake beginners make is publishing a book without any plan to
+[14:09] publishing a book without any plan to get reviews. So, there's actually a
+[14:10] get reviews. So, there's actually a thing called the 30-day honeymoon period
+[14:12] thing called the 30-day honeymoon period on Amazon, and a lot of people don't
+[14:14] on Amazon, and a lot of people don't really know about it. Basically, when
+[14:16] really know about it. Basically, when new books get published, they get a
+[14:17] new books get published, they get a little extra attention from Amazon in
+[14:19] little extra attention from Amazon in the first 30 days after launch. So,
+[14:21] the first 30 days after launch. So, that's your chance to prove that the
+[14:22] that's your chance to prove that the book deserves to be shown more. And I
+[14:24] book deserves to be shown more. And I see people mess this up all the time.
+[14:26] see people mess this up all the time. They think all they have to do is create
+[14:28] They think all they have to do is create a book, upload it to a website, and do
+[14:30] a book, upload it to a website, and do nothing. When creating a book is just
+[14:32] nothing. When creating a book is just half the business, right? The other half
+[14:34] half the business, right? The other half is marketing the product, which is
+[14:35] is marketing the product, which is applicable in not just publishing, but
+[14:37] applicable in not just publishing, but basically in every single business. You
+[14:39] basically in every single business. You got to market your product. You got to
+[14:40] got to market your product. You got to tell people about your product. Or else,
+[14:42] tell people about your product. Or else, how would people even know, you know,
+[14:44] how would people even know, you know, what you are selling? So, that's another
+[14:45] what you are selling? So, that's another reason why, you know, a lot of these
+[14:47] reason why, you know, a lot of these YouTube videos, they tell you that you
+[14:49] YouTube videos, they tell you that you can just upload to a website, do
+[14:51] can just upload to a website, do nothing, and make sales. And yes, you
+[14:52] nothing, and make sales. And yes, you can actually make couple sales here and
+[14:54] can actually make couple sales here and there, but couple sales here and there
+[14:56] there, but couple sales here and there is not going to make you 10K per month.
+[14:57] is not going to make you 10K per month. If 10K per month is your goal, then you
+[14:59] If 10K per month is your goal, then you got to do a little bit more yourself as
+[15:01] got to do a little bit more yourself as well. So, here's the first 30-day plan
+[15:03] well. So, here's the first 30-day plan that you can follow. You want to aim for
+[15:05] that you can follow. You want to aim for 10 to 15 reviews early, within the first
+[15:07] 10 to 15 reviews early, within the first month or so. Not because reviews
+[15:09] month or so. Not because reviews magically fix everything, but because
+[15:11] magically fix everything, but because they remove the hesitation for the
+[15:12] they remove the hesitation for the buyer. The easiest way is to start with
+[15:14] buyer. The easiest way is to start with people you already have access to, like
+[15:16] people you already have access to, like Facebook groups, social media groups. If
+[15:18] Facebook groups, social media groups. If you know people who are interested in
+[15:19] you know people who are interested in your niche, you can pass out a free
+[15:21] your niche, you can pass out a free copy, ask for an honest review. Now, I
+[15:23] copy, ask for an honest review. Now, I wouldn't go super close to your friends
+[15:24] wouldn't go super close to your friends and family because Amazon doesn't allow
+[15:26] and family because Amazon doesn't allow that, but if you got acquaintances, you
+[15:28] that, but if you got acquaintances, you know, if you know people who are maybe a
+[15:30] know, if you know people who are maybe a friend of a friend, then you can
+[15:31] friend of a friend, then you can definitely do that. The easiest way to
+[15:33] definitely do that. The easiest way to get reviews though is using sites like
+[15:34] get reviews though is using sites like Book Reverb, Book Bounty. I talk about
+[15:36] Book Reverb, Book Bounty. I talk about this a lot on my other videos. If you're
+[15:38] this a lot on my other videos. If you're interested, I'll leave a link to some of
+[15:39] interested, I'll leave a link to some of those videos in the description below.
+[15:41] those videos in the description below. Next is you want to run Amazon ads. You
+[15:43] Next is you want to run Amazon ads. You don't need a huge budget here. You can
+[15:45] don't need a huge budget here. You can start with just $3 to $5 a day just to
+[15:46] start with just $3 to $5 a day just to test the waters and based on the data,
+[15:48] test the waters and based on the data, you want to fix what's happening, right?
+[15:50] you want to fix what's happening, right? So, if you get a lot of impressions, but
+[15:52] So, if you get a lot of impressions, but you're not getting clicks, that means
+[15:54] you're not getting clicks, that means people are seeing your ad, but they're
+[15:55] people are seeing your ad, but they're not clicking on the book because your
+[15:56] not clicking on the book because your book doesn't look nice, which means your
+[15:59] book doesn't look nice, which means your book cover, title, reviews, one of those
+[16:01] book cover, title, reviews, one of those things are not as good and you want to
+[16:02] things are not as good and you want to improve it. So, that's how you can run
+[16:04] improve it. So, that's how you can run ads to get data and then go back and
+[16:06] ads to get data and then go back and improve your product. But, if your ads
+[16:07] improve your product. But, if your ads are converting, then you can spend more
+[16:09] are converting, then you can spend more and that's how you can scale. You also
+[16:11] and that's how you can scale. You also want to price your book lower. So, in
+[16:12] want to price your book lower. So, in the beginning, your focus is not to make
+[16:14] the beginning, your focus is not to make money, but to sell as many copies, pick
+[16:17] money, but to sell as many copies, pick up as many reviews, and pick up social
+[16:18] up as many reviews, and pick up social proof. So, you can price your paperback
+[16:20] proof. So, you can price your paperback around $5.99, $6.99, your ebook around
+[16:23] around $5.99, $6.99, your ebook around $0.99. That is a good starting point,
+[16:25] $0.99. That is a good starting point, but once you start making sales, once
+[16:27] but once you start making sales, once you start collecting reviews, then you
+[16:28] you start collecting reviews, then you can start increasing your price higher.
+[16:30] can start increasing your price higher. So, I'll leave a link to two of these
+[16:31] So, I'll leave a link to two of these videos. The left one is how to get
+[16:33] videos. The left one is how to get hundreds of book reviews on Amazon KDP
+[16:35] hundreds of book reviews on Amazon KDP talking about the two best methods, and
+[16:37] talking about the two best methods, and the one on the right is a full beginner
+[16:38] the one on the right is a full beginner Amazon Ads tutorial for Amazon KDP. And
+[16:41] Amazon Ads tutorial for Amazon KDP. And by the way, Amazon KDP, if you're
+[16:43] by the way, Amazon KDP, if you're wondering what that is, it's just a
+[16:44] wondering what that is, it's just a program that you use to get your book up
+[16:46] program that you use to get your book up on Amazon. And if you want the fastest
+[16:48] on Amazon. And if you want the fastest way to achieve success in publishing
+[16:50] way to achieve success in publishing ebooks, you should be investing in
+[16:51] ebooks, you should be investing in yourself, which is mistake number eight,
+[16:54] yourself, which is mistake number eight, not investing in learning skills that
+[16:55] not investing in learning skills that help you grow. When I started, I was
+[16:57] help you grow. When I started, I was honestly scared to invest money into an
+[16:59] honestly scared to invest money into an online course. So, I did what most
+[17:01] online course. So, I did what most people do. I watched tons of YouTube
+[17:02] people do. I watched tons of YouTube videos, but I kept jumping from one
+[17:04] videos, but I kept jumping from one tutorial to another tutorial and nothing
+[17:06] tutorial to another tutorial and nothing really explained the business model
+[17:08] really explained the business model well. So, I wasted a lot of time and
+[17:10] well. So, I wasted a lot of time and eventually I invested into a ebook
+[17:13] eventually I invested into a ebook publishing course and I published one
+[17:15] publishing course and I published one book following the course, and when I
+[17:16] book following the course, and when I made my first dollar, I hired a coach
+[17:19] made my first dollar, I hired a coach who was uh the creator of the course for
+[17:21] who was uh the creator of the course for one-on-one mentorship, and I paid him
+[17:23] one-on-one mentorship, and I paid him $6,000. So, after I made my first dollar
+[17:26] $6,000. So, after I made my first dollar online doing this business, I paid him
+[17:27] online doing this business, I paid him 6K for 10 sessions. So, one session, 1
+[17:30] 6K for 10 sessions. So, one session, 1 hour, was $600, which I think that is a
+[17:32] hour, was $600, which I think that is a little too much. I think that's going
+[17:34] little too much. I think that's going all in a little bit too much, but maybe
+[17:35] all in a little bit too much, but maybe start with a course. Even though the
+[17:37] start with a course. Even though the one-on-one coaching, you know, saved me
+[17:38] one-on-one coaching, you know, saved me a lot of time, a lot of money from a lot
+[17:40] a lot of time, a lot of money from a lot of dumb mistakes, and I end up making a
+[17:42] of dumb mistakes, and I end up making a lot of money from doing this business, I
+[17:44] lot of money from doing this business, I don't think it's an absolute requirement
+[17:45] don't think it's an absolute requirement for people to, you know, go all in like
+[17:48] for people to, you know, go all in like how I did. But at least, you know, start
+[17:49] how I did. But at least, you know, start with a simple course that is a
+[17:51] with a simple course that is a structured program that you can follow
+[17:53] structured program that you can follow one step at a time. So, for me,
+[17:55] one step at a time. So, for me, investing in myself led to my first 10K
+[17:57] investing in myself led to my first 10K month in about 10 months, which I
+[17:59] month in about 10 months, which I eventually sold that account for
+[18:01] eventually sold that account for $820,000 after a couple years.
+[18:03] $820,000 after a couple years. Obviously, results vary. Results cannot
+[18:05] Obviously, results vary. Results cannot be guaranteed. But for me, the shortcut
+[18:07] be guaranteed. But for me, the shortcut was getting the right guidance. So, that
+[18:09] was getting the right guidance. So, that is what I recommend. Obviously, I do
+[18:11] is what I recommend. Obviously, I do have a course, but this is not me
+[18:12] have a course, but this is not me saying, you know, you got to join my
+[18:13] saying, you know, you got to join my course or anything like that. join
+[18:15] course or anything like that. join someone else's course if you relate to
+[18:16] someone else's course if you relate to them more. But the point is, I do think
+[18:19] them more. But the point is, I do think investing in a structured, step-by-step
+[18:21] investing in a structured, step-by-step program is way better than hopping
+[18:22] program is way better than hopping around different YouTube video tutorials
+[18:24] around different YouTube video tutorials because everyone has different
+[18:25] because everyone has different approaches, you know, so it gets
+[18:27] approaches, you know, so it gets confusing if you just keep watching
+[18:28] confusing if you just keep watching videos. And also, it'll help if you have
+[18:30] videos. And also, it'll help if you have a coach that can actually see your books
+[18:33] a coach that can actually see your books and then tell you exactly what mistakes
+[18:34] and then tell you exactly what mistakes you're making, which is what we do in,
+[18:36] you're making, which is what we do in, you know, my program called Road to
+[18:37] you know, my program called Road to Hero. We have a coach, you get
+[18:39] Hero. We have a coach, you get one-on-one sessions, and a full
+[18:41] one-on-one sessions, and a full structured course, plus group coaching
+[18:43] structured course, plus group coaching and a community. So, you have a lot of
+[18:44] and a community. So, you have a lot of touch points where you can actually get
+[18:46] touch points where you can actually get direct feedback on what you're doing
+[18:47] direct feedback on what you're doing wrong, and then, you know, how you can
+[18:49] wrong, and then, you know, how you can improve it from there. So, if you want
+[18:50] improve it from there. So, if you want to learn more about that, again, the
+[18:51] to learn more about that, again, the link is in the description. But once
+[18:53] link is in the description. But once again, this is not me trying to pitch
+[18:54] again, this is not me trying to pitch you my course. You know, if you relate
+[18:56] you my course. You know, if you relate to somebody else, you can. But I do
+[18:58] to somebody else, you can. But I do recommend investing in something. All
+[19:00] recommend investing in something. All right, those were the biggest mistakes
+[19:01] right, those were the biggest mistakes beginners make when it comes to starting
+[19:03] beginners make when it comes to starting a book publishing business. If you
+[19:05] a book publishing business. If you enjoyed this video, leave a like,
+[19:06] enjoyed this video, leave a like, subscribe. Thanks for watching until the
+[19:08] subscribe. Thanks for watching until the end, and I'll see you in the next one.
+```
+
+---
+_Work dir: `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-Eu9IrnLbvPo` — delete when done._

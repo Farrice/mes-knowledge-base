@@ -47,6 +47,15 @@ MEMLINK_RE = re.compile(r"\]\(([\w./-]+\.md)\)")
 # Noise filters: template/example paths, globs, placeholders.
 NOISE = re.compile(r"[<>{}*$\[\]]|/name/|/<|example|<expert|<skill|\.\.\.")
 
+# Runtime artifacts: created on first use, gitignored secrets, rotating logs.
+# Their absence is normal, not a loss signal. Annotated "(planned" / "(not yet"
+# pointers are also skipped via the annotation check in scan_file.
+RUNTIME_ALLOWLIST = re.compile(
+    r"^(\.agent/(browser-actions-log|hermes-usage|knowledge-cache|citation-integrity)"
+    r"|config/gws/client_secret\.json"
+    r"|\.claude/(backups|plans)/)"
+)
+
 
 def _existing(path_str: str) -> bool:
     return (ROOT / path_str).exists()
@@ -62,7 +71,12 @@ def scan_file(fp: Path, memory_mode: bool) -> list:
     seen = set()
     for m in PATH_RE.finditer(text):
         cited = m.group(1).rstrip(".")
-        if cited in seen or NOISE.search(cited):
+        if cited in seen or NOISE.search(cited) or RUNTIME_ALLOWLIST.match(cited):
+            continue
+        # Pointers annotated as planned/expired/not-yet are acknowledged absences.
+        tail = text[m.end():m.end() + 40]
+        if re.match(r"[`')\s]*\((?:planned|not yet|ephemeral)", tail):
+            seen.add(cited)
             continue
         seen.add(cited)
         if not _existing(cited):

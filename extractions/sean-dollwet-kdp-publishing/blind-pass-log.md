@@ -1,0 +1,5 @@
+# Blind-Pass Log — sean-dollwet-kdp-publishing
+
+Recorded by `execution/blind_pass.py` per `directives/embodiment-standard.md` Blind-Pass Protocol.
+
+- 2026-07-13T22:30:24 — **PASS** — eval: EVAL-036 — generated: `.tmp/blind-pass-sample-launch-90.md` — reference: `extractions/sean-dollwet-kdp-publishing/reference-corpus/sales-stuck-fix.md` — corpus: 2 piece(s) — Model-judged (Fable, conductor). Generated: launch-90 plan for hypothetical decluttering book by fresh agent loading ONLY shipped skill files. References: brutal-kdp-advice.md + sales-stuck-fix.md (2 unseen video transcripts, provenance-verified). What held: complete sequencing law (publish->15 reviews->market->multiply), verbatim FB script + door-close quote, Book Reverb $6 / Book Bounty $25 triangulation w/ verified distinction, diagnostic ad reads + kill rule, honest $300-400/mo anchor, time-or-money framing throughout; adapted budget math + niche video concepts rather than templating. Gap: written register denser than his spoken corpus (expected). A-tier promotion awaits Farrice-judged pass.

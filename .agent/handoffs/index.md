@@ -2,6 +2,9 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-13** [kdp-engine/ready] [KDP Book One Pilot — cold niche-hunt → first book through /kdp-engine](2026-07-13-kdp-book-one-pilot.md) — /kdp-engine cold niche-hunt → Book One
+- **2026-07-13** [directives/active] [Directives — Ai Slop Ban Bank](2026-07-13-directives.md) — Directives — Ai Slop Ban Bank
+- **2026-07-13** [sean-dollwet/active] [Sean Dollwet — Deep Notes Eu9Irnlbvpo](2026-07-13-sean-dollwet.md) — Sean Dollwet — Deep Notes Eu9Irnlbvpo
 - **2026-07-13** [codex-parity/ready] [Codex Parity — Live-Fire Hooks + Cross-Platform Harness Repair (CLI 0.144.3, A/B Proof)](2026-07-13-codex-parity.md) — Jam: felt verdict on take-a vs take-b, then re-run A/B under new AGENTS.md voice rule
 - **2026-07-13** [trendscale-trial/done] [TrendScale Creative Strategist Trial — Package Polish + Loom Rework (JCKED + Puravita)](2026-07-13-trendscale-trial.md) — Record the ~1.5-min Loom from the teleprompter Google Doc, then send briefs+Loom and WhatsApp (778) 322-4478
 - **2026-07-13** [farrice-engine/ready] [Farrice Engine — Go-To-Market Layer + Week-25 Content Set](2026-07-13-farrice-engine.md) — Publish the Week-25 flagship article + run the 10-comment plan + DM the Gainful teardown

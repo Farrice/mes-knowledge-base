@@ -65,7 +65,7 @@
 6. Auto-fixes deterministic patterns (em dash → ellipsis where Farrice's rule applies)
 7. Surfaces ambiguous cases for user decision
 
-**Implementation**: Edit `.agent/workflows/writers-room.md` to add Phase 5. Build `execution/voice_rule_check.py` that loads memory feedback files and greps draft against extracted rules. Test with next creative-domain task.
+**Implementation**: Edit `.agent/workflows/writers-room.md` to add Phase 5. Build `execution/voice_rule_check.py (planned tool — not yet built)` that loads memory feedback files and greps draft against extracted rules. Test with next creative-domain task.
 
 **Status**: Pending. Captured here for next session implementation.
 

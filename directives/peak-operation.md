@@ -30,7 +30,7 @@ Every strong outcome today followed the same five-beat shape. Reproduce the shap
 | Deep research | `execution/research.py` (receipt-carrying), Gemini→Perplexity→floor |
 | System repair | `/system-audit`; control-plane complaints route here before expert matching |
 
-The benchmark recipe for content quality remains: scaffold × parallel-depth × expert-lens × voice-rules × dual-QA (`feedback_content-quality-pipeline-recipe.md`; exemplar `_active/linkedin-launch/ai-boom-content-package.md`). One author writes the body; hooks à la carte; more experts ≠ better voice.
+The benchmark recipe for content quality remains: scaffold × parallel-depth × expert-lens × voice-rules × dual-QA (`feedback_content-quality-pipeline-recipe.md`; exemplar `_active/linkedin-launch/04-content-os/ai-boom-content-package.md`). One author writes the body; hooks à la carte; more experts ≠ better voice.
 
 ## 3. Model economics post-Fable
 

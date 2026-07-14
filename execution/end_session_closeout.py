@@ -23,9 +23,9 @@ Design rules (match memory_facade.py's degraded-reporting principle):
 Usage:
     python3 execution/end_session_closeout.py run [--slug S] [--degraded] [--dry-run]
 
-Steps (in order): resolve-handoff, closeout-intelligence, memory-bridge,
-cos-journal, archive-session-state, artifact-sweep, friction-nudge,
-finalize-debt-nudge, solution-cards.
+Steps (in order): commit-gate, resolve-handoff, closeout-intelligence,
+memory-bridge, cos-journal, archive-session-state, artifact-sweep,
+friction-nudge, finalize-debt-nudge, solution-cards.
 """
 from __future__ import annotations
 
@@ -359,6 +359,37 @@ def step_archive_session_state(ctx: Dict[str, Any], degraded: bool, dry_run: boo
         return "FAIL", f"{type(e).__name__}: {e}"
 
 
+def step_commit_gate(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
+    """Commit gate (Farrice policy 2026-07-13, all-work-on-main): no session ends
+    with silent uncommitted changes. Auto-commits the working tree with a session
+    label (the post-commit hook then auto-pushes). Decline explicitly with
+    END_SESSION_NO_AUTOCOMMIT=1 — the decline is logged, never silent. Born from
+    docs/solutions/2026-07-13-divergent-branch-work-silently-lost.md."""
+    import os
+    try:
+        r = subprocess.run(["git", "status", "--porcelain"], cwd=ROOT,
+                           capture_output=True, text=True, timeout=15)
+        dirty = [l for l in r.stdout.splitlines() if l.strip()]
+        if not dirty:
+            return "SKIP", "working tree clean — nothing to commit"
+        if os.environ.get("END_SESSION_NO_AUTOCOMMIT") == "1":
+            return "OK", f"DECLINED (env): {len(dirty)} changed files left uncommitted — logged, not silent"
+        if dry_run:
+            return "OK", f"[dry-run] would auto-commit {len(dirty)} changed files"
+        subprocess.run(["git", "add", "-A"], cwd=ROOT, capture_output=True, timeout=30)
+        msg = (f"chore(session): end-session commit gate — {datetime.now().date().isoformat()}\n\n"
+               "Auto-committed by the closeout spine so no work is left uncommitted\n"
+               "(all-work-on-main policy, 2026-07-13).\n\n"
+               "Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>")
+        c = subprocess.run(["git", "commit", "-m", msg], cwd=ROOT,
+                           capture_output=True, text=True, timeout=60)
+        if c.returncode == 0:
+            return "OK", f"auto-committed {len(dirty)} changed files (post-commit hook pushes to origin)"
+        return "FAIL", f"git commit failed: {(c.stderr or c.stdout)[:120]}"
+    except Exception as e:
+        return "FAIL", f"{type(e).__name__}: {e}"
+
+
 def step_friction_nudge(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
     if not FRICTION_LEDGER.exists():
         return "SKIP", "no friction ledger found"
@@ -484,6 +515,7 @@ def step_artifact_sweep(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> T
 def run(slug: str, degraded: bool, dry_run: bool) -> int:
     ctx: Dict[str, Any] = {}
     steps = [
+        ("commit-gate", lambda: step_commit_gate(ctx, degraded, dry_run)),
         ("resolve-handoff", lambda: step_resolve_handoff(ctx, degraded, dry_run)),
         ("closeout-intelligence", lambda: step_closeout_intelligence(ctx, degraded, dry_run)),
         ("memory-bridge", lambda: step_memory_bridge(ctx, degraded, dry_run)),

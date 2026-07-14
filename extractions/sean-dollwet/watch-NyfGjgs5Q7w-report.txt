@@ -1,0 +1,817 @@
+[watch] working dir: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w
+[watch] checking metadata/captions via yt-dlp…
+WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+[youtube] Extracting URL: https://www.youtube.com/watch?v=NyfGjgs5Q7w
+[youtube] NyfGjgs5Q7w: Downloading webpage
+[youtube] NyfGjgs5Q7w: Downloading android vr player API JSON
+[info] NyfGjgs5Q7w: Downloading subtitles: en-orig, en
+[info] NyfGjgs5Q7w: Downloading 1 format(s): 399+251
+[info] Writing video subtitles to: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/download/video.en-orig.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/download/video.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at   21.53MiB/s (00:00:00)[download]   63.00KiB at    3.09MiB/s (00:00:00)[download]  127.00KiB at    2.98MiB/s (00:00:00)[download]  217.72KiB at    3.95MiB/s (00:00:00)[download] 100% of  217.72KiB in 00:00:00 at 1.65MiB/s
+[info] Writing video subtitles to: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/download/video.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/download/video.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at    9.63MiB/s (00:00:00)[download]   31.00KiB at   14.23MiB/s (00:00:00)[download]   63.00KiB at    9.52MiB/s (00:00:00)[download]  127.00KiB at    5.48MiB/s (00:00:00)[download]  217.72KiB at    6.22MiB/s (00:00:00)[download] 100% of  217.72KiB in 00:00:00 at 1.90MiB/s
+[info] Writing video metadata as JSON to: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/download/video.info.json
+[SubtitlesConvertor] Converting subtitles
+[SubtitlesConvertor] Subtitle file for vtt is already in the requested format
+[SubtitlesConvertor] Subtitle file for vtt is already in the requested format
+[watch] downloading video via yt-dlp…
+WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+[youtube] Extracting URL: https://www.youtube.com/watch?v=NyfGjgs5Q7w
+[youtube] NyfGjgs5Q7w: Downloading webpage
+[youtube] NyfGjgs5Q7w: Downloading android vr player API JSON
+[info] NyfGjgs5Q7w: Downloading subtitles: en-orig, en
+[info] NyfGjgs5Q7w: Downloading 1 format(s): 398+251
+Deleting existing file /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/download/video.en-orig.vtt
+[info] Writing video subtitles to: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/download/video.en-orig.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/download/video.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    2.13MiB/s (00:00:00)[download]    7.00KiB at    4.42MiB/s (00:00:00)[download]   15.00KiB at    7.60MiB/s (00:00:00)[download]   31.00KiB at    4.15MiB/s (00:00:00)[download]   63.00KiB at    4.74MiB/s (00:00:00)[download]  127.00KiB at    4.02MiB/s (00:00:00)[download]  217.72KiB at    4.29MiB/s (00:00:00)[download] 100% of  217.72KiB in 00:00:00 at 1.81MiB/s
+Deleting existing file /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/download/video.en.vtt
+[info] Writing video subtitles to: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/download/video.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/download/video.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at    7.48MiB/s (00:00:00)[download]   31.00KiB at    7.37MiB/s (00:00:00)[download]   63.00KiB at    9.95MiB/s (00:00:00)[download]  127.00KiB at   12.68MiB/s (00:00:00)[download]  217.72KiB at    6.72MiB/s (00:00:00)[download] 100% of  217.72KiB in 00:00:00 at 1.63MiB/s
+[info] Writing video metadata as JSON to: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/download/video.info.json
+[SubtitlesConvertor] Converting subtitles
+[SubtitlesConvertor] Subtitle file for vtt is already in the requested format
+[SubtitlesConvertor] Subtitle file for vtt is already in the requested format
+[download] Destination: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/download/video.f398.mp4
+[download]   0.0% of   50.60MiB at  132.68KiB/s ETA 06:31[download]   0.0% of   50.60MiB at  376.61KiB/s ETA 02:17[download]   0.0% of   50.60MiB at  853.99KiB/s ETA 01:00[download]   0.0% of   50.60MiB at    1.74MiB/s ETA 00:29[download]   0.1% of   50.60MiB at  509.66KiB/s ETA 01:41[download]   0.1% of   50.60MiB at  553.12KiB/s ETA 01:33[download]   0.2% of   50.60MiB at  759.07KiB/s ETA 01:08[download]   0.5% of   50.60MiB at    1.05MiB/s ETA 00:48[download]   1.0% of   50.60MiB at    1.62MiB/s ETA 00:31[download]   2.0% of   50.60MiB at    2.40MiB/s ETA 00:20[download]   4.0% of   50.60MiB at    3.73MiB/s ETA 00:13[download]   7.9% of   50.60MiB at    6.38MiB/s ETA 00:07[download]  15.8% of   50.60MiB at   10.69MiB/s ETA 00:03[download]  19.6% of   50.60MiB at   12.37MiB/s ETA 00:03[download]  19.6% of   50.60MiB at  281.78KiB/s ETA 02:28[download]  19.6% of   50.60MiB at  788.06KiB/s ETA 00:52[download]  19.6% of   50.60MiB at    1.73MiB/s ETA 00:23[download]  19.6% of   50.60MiB at    3.61MiB/s ETA 00:11[download]  19.7% of   50.60MiB at    5.47MiB/s ETA 00:07[download]  19.7% of   50.60MiB at    6.31MiB/s ETA 00:06[download]  19.9% of   50.60MiB at    1.79MiB/s ETA 00:22[download]  20.1% of   50.60MiB at    2.84MiB/s ETA 00:14[download]  20.6% of   50.60MiB at    4.78MiB/s ETA 00:08[download]  21.6% of   50.60MiB at    6.93MiB/s ETA 00:05[download]  23.6% of   50.60MiB at    8.54MiB/s ETA 00:04[download]  27.5% of   50.60MiB at    9.33MiB/s ETA 00:03[download]  35.4% of   50.60MiB at   10.28MiB/s ETA 00:03[download]  39.0% of   50.60MiB at   10.97MiB/s ETA 00:02[download]  39.0% of   50.60MiB at  Unknown B/s ETA Unknown[download]  39.0% of   50.60MiB at  Unknown B/s ETA Unknown[download]  39.0% of   50.60MiB at  Unknown B/s ETA Unknown[download]  39.0% of   50.60MiB at  Unknown B/s ETA Unknown[download]  39.0% of   50.60MiB at  Unknown B/s ETA Unknown[download]  39.1% of   50.60MiB at   54.69MiB/s ETA 00:00  [download]  39.2% of   50.60MiB at   40.68MiB/s ETA 00:00[download]  39.5% of   50.60MiB at   47.87MiB/s ETA 00:00[download]  40.0% of   50.60MiB at   52.81MiB/s ETA 00:00[download]  40.9% of   50.60MiB at   38.79MiB/s ETA 00:00[download]  42.9% of   50.60MiB at   41.86MiB/s ETA 00:00[download]  46.9% of   50.60MiB at   35.83MiB/s ETA 00:00[download]  54.8% of   50.60MiB at   26.37MiB/s ETA 00:00[download]  58.5% of   50.60MiB at   25.82MiB/s ETA 00:00[download]  58.5% of   50.60MiB at  242.40KiB/s ETA 01:28[download]  58.5% of   50.60MiB at  672.02KiB/s ETA 00:32[download]  58.5% of   50.60MiB at    1.47MiB/s ETA 00:14[download]  58.5% of   50.60MiB at    3.03MiB/s ETA 00:06[download]  58.5% of   50.60MiB at    4.72MiB/s ETA 00:04[download]  58.6% of   50.60MiB at    6.45MiB/s ETA 00:03[download]  58.7% of   50.60MiB at    4.83MiB/s ETA 00:04[download]  58.9% of   50.60MiB at    5.65MiB/s ETA 00:03[download]  59.4% of   50.60MiB at    4.34MiB/s ETA 00:04[download]  60.4% of   50.60MiB at    4.48MiB/s ETA 00:04[download]  62.4% of   50.60MiB at    5.77MiB/s ETA 00:03[download]  66.4% of   50.60MiB at    6.68MiB/s ETA 00:02[download]  74.3% of   50.60MiB at    7.68MiB/s ETA 00:01[download]  77.3% of   50.60MiB at    7.80MiB/s ETA 00:01[download]  77.3% of   50.60MiB at  935.60KiB/s ETA 00:12[download]  77.3% of   50.60MiB at    2.08MiB/s ETA 00:05[download]  77.3% of   50.60MiB at    4.33MiB/s ETA 00:02[download]  77.3% of   50.60MiB at    8.43MiB/s ETA 00:01[download]  77.4% of   50.60MiB at   11.97MiB/s ETA 00:00[download]  77.4% of   50.60MiB at   13.45MiB/s ETA 00:00[download]  77.6% of   50.60MiB at   10.87MiB/s ETA 00:01[download]  77.8% of   50.60MiB at    9.61MiB/s ETA 00:01[download]  78.3% of   50.60MiB at    9.31MiB/s ETA 00:01[download]  79.3% of   50.60MiB at    4.86MiB/s ETA 00:02[download]  81.3% of   50.60MiB at    6.35MiB/s ETA 00:01[download]  85.2% of   50.60MiB at    7.57MiB/s ETA 00:00[download]  93.1% of   50.60MiB at    8.04MiB/s ETA 00:00[download]  97.0% of   50.60MiB at    8.85MiB/s ETA 00:00[download]  97.0% of   50.60MiB at  Unknown B/s ETA Unknown[download]  97.0% of   50.60MiB at  Unknown B/s ETA Unknown[download]  97.0% of   50.60MiB at    5.49MiB/s ETA 00:00  [download]  97.0% of   50.60MiB at    9.12MiB/s ETA 00:00[download]  97.0% of   50.60MiB at   13.07MiB/s ETA 00:00[download]  97.1% of   50.60MiB at    8.51MiB/s ETA 00:00[download]  97.2% of   50.60MiB at    9.33MiB/s ETA 00:00[download]  97.4% of   50.60MiB at   10.94MiB/s ETA 00:00[download]  97.9% of   50.60MiB at   15.62MiB/s ETA 00:00[download]  98.9% of   50.60MiB at   18.13MiB/s ETA 00:00[download] 100.0% of   50.60MiB at   18.74MiB/s ETA 00:00[download] 100% of   50.60MiB in 00:00:05 at 9.20MiB/s   
+[download] Destination: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/download/video.f251.webm
+[download]   0.0% of   19.38MiB at  Unknown B/s ETA Unknown[download]   0.0% of   19.38MiB at  Unknown B/s ETA Unknown[download]   0.0% of   19.38MiB at    5.62MiB/s ETA 00:03  [download]   0.1% of   19.38MiB at    9.62MiB/s ETA 00:02[download]   0.2% of   19.38MiB at   16.73MiB/s ETA 00:01[download]   0.3% of   19.38MiB at   23.21MiB/s ETA 00:00[download]   0.6% of   19.38MiB at   20.49MiB/s ETA 00:00[download]   1.3% of   19.38MiB at   17.14MiB/s ETA 00:01[download]   2.6% of   19.38MiB at   19.27MiB/s ETA 00:00[download]   5.2% of   19.38MiB at   14.01MiB/s ETA 00:01[download]  10.3% of   19.38MiB at   15.98MiB/s ETA 00:01[download]  20.6% of   19.38MiB at   18.19MiB/s ETA 00:00[download]  41.3% of   19.38MiB at   20.53MiB/s ETA 00:00[download]  50.9% of   19.38MiB at   21.27MiB/s ETA 00:00[download]  50.9% of   19.38MiB at  Unknown B/s ETA Unknown[download]  51.0% of   19.38MiB at  Unknown B/s ETA Unknown[download]  51.0% of   19.38MiB at  Unknown B/s ETA Unknown[download]  51.0% of   19.38MiB at  Unknown B/s ETA Unknown[download]  51.1% of   19.38MiB at   26.63MiB/s ETA 00:00  [download]  51.3% of   19.38MiB at   27.82MiB/s ETA 00:00[download]  51.6% of   19.38MiB at   22.45MiB/s ETA 00:00[download]  52.2% of   19.38MiB at    4.15MiB/s ETA 00:02[download]  53.5% of   19.38MiB at    7.30MiB/s ETA 00:01[download]  56.1% of   19.38MiB at   11.47MiB/s ETA 00:00[download]  61.3% of   19.38MiB at   16.06MiB/s ETA 00:00[download]  71.6% of   19.38MiB at   20.30MiB/s ETA 00:00[download]  92.2% of   19.38MiB at   23.54MiB/s ETA 00:00[download] 100.0% of   19.38MiB at   23.01MiB/s ETA 00:00[download] 100% of   19.38MiB in 00:00:01 at 17.58MiB/s  
+[Merger] Merging formats into "/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/download/video.mp4"
+Deleting original file /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/download/video.f398.mp4 (pass -k to keep)
+Deleting original file /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/download/video.f251.webm (pass -k to keep)
+[watch] extracting scene-aware frames over full 1176.0s (target 100, cap 100)…
+
+# watch: video report
+
+- **Source:** https://www.youtube.com/watch?v=NyfGjgs5Q7w
+- **Title:** The Last Big Online Business Opportunity For A Decade (Don't Miss It)
+- **Uploader:** Sean Dollwet
+- **Duration:** 19:36 (1176.0s)
+- **Resolution:** 1280x720 (av1)
+- **Detail:** balanced
+- **Frames:** 100 selected from 137 candidates (scene, 2 near-duplicates dropped, full range, budget 100, cap 100)
+- **Frame size:** max 512px wide, max 1998px tall
+- **Transcript:** 631 segments (via captions)
+
+> **Warning:** This is a 19-minute video. Frame coverage is sparse at this length under `balanced` detail — its cap spreads thin across the full clip. For better results, re-run with `--start HH:MM:SS --end HH:MM:SS` to zoom into a section, or use `--detail token-burner` to keep every scene-change frame across the whole video.
+
+## Frames
+
+Frames live at: `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames`
+
+**Read each frame path below with the Read tool to view the image.** Frames are in chronological order; `t=MM:SS` is the absolute timestamp in the source video.
+
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0001.jpg` (t=00:00, reason=first-frame)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0003.jpg` (t=00:16, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0005.jpg` (t=00:31, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0006.jpg` (t=00:34, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0007.jpg` (t=00:38, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0009.jpg` (t=01:03, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0010.jpg` (t=01:08, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0011.jpg` (t=01:11, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0013.jpg` (t=01:30, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0014.jpg` (t=01:35, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0016.jpg` (t=01:53, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0017.jpg` (t=02:12, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0018.jpg` (t=02:16, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0020.jpg` (t=02:25, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0021.jpg` (t=02:36, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0022.jpg` (t=02:43, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0025.jpg` (t=03:06, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0026.jpg` (t=03:06, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0027.jpg` (t=03:07, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0029.jpg` (t=03:09, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0030.jpg` (t=03:10, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0031.jpg` (t=03:11, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0033.jpg` (t=03:12, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0034.jpg` (t=03:13, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0035.jpg` (t=04:01, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0037.jpg` (t=04:09, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0038.jpg` (t=04:39, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0040.jpg` (t=05:16, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0041.jpg` (t=05:20, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0042.jpg` (t=05:26, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0044.jpg` (t=05:35, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0045.jpg` (t=05:41, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0046.jpg` (t=06:06, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0048.jpg` (t=06:33, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0049.jpg` (t=06:37, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0050.jpg` (t=06:54, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0052.jpg` (t=07:23, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0053.jpg` (t=07:26, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0054.jpg` (t=07:37, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0056.jpg` (t=08:01, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0057.jpg` (t=08:03, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0058.jpg` (t=08:05, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0060.jpg` (t=08:17, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0061.jpg` (t=08:49, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0063.jpg` (t=09:09, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0064.jpg` (t=09:14, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0065.jpg` (t=09:18, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0067.jpg` (t=09:33, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0068.jpg` (t=09:35, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0069.jpg` (t=09:37, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0071.jpg` (t=09:49, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0072.jpg` (t=10:39, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0073.jpg` (t=10:46, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0075.jpg` (t=10:49, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0076.jpg` (t=11:00, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0077.jpg` (t=11:03, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0079.jpg` (t=11:35, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0080.jpg` (t=11:36, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0082.jpg` (t=11:39, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0083.jpg` (t=11:42, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0084.jpg` (t=11:44, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0086.jpg` (t=12:13, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0087.jpg` (t=12:32, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0088.jpg` (t=12:48, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0090.jpg` (t=13:03, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0091.jpg` (t=13:26, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0092.jpg` (t=13:30, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0094.jpg` (t=13:40, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0095.jpg` (t=13:42, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0096.jpg` (t=14:37, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0098.jpg` (t=14:54, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0099.jpg` (t=14:58, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0100.jpg` (t=15:03, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0102.jpg` (t=15:10, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0103.jpg` (t=15:11, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0105.jpg` (t=15:16, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0106.jpg` (t=15:19, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0107.jpg` (t=15:23, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0109.jpg` (t=15:35, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0110.jpg` (t=15:42, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0111.jpg` (t=15:43, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0113.jpg` (t=15:45, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0114.jpg` (t=15:57, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0115.jpg` (t=16:34, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0117.jpg` (t=16:41, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0118.jpg` (t=16:45, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0119.jpg` (t=16:45, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0121.jpg` (t=16:59, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0122.jpg` (t=17:06, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0123.jpg` (t=17:32, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0125.jpg` (t=17:48, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0126.jpg` (t=17:52, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0128.jpg` (t=18:40, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0129.jpg` (t=18:43, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0130.jpg` (t=18:51, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0132.jpg` (t=18:56, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0133.jpg` (t=18:58, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0134.jpg` (t=18:59, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0136.jpg` (t=19:18, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w/frames/frame_0137.jpg` (t=19:31, reason=scene-change)
+
+## Transcript
+
+_Source: captions._
+
+```
+[00:02] So right now there's a window open in one specific online business model that
+[00:04] one specific online business model that has never existed before in the history
+[00:06] has never existed before in the history of the internet. And in the next 12 to
+[00:08] of the internet. And in the next 12 to 18 months that window is going to
+[00:10] 18 months that window is going to completely close. Two huge things are
+[00:12] completely close. Two huge things are happening at the exact same time and
+[00:14] happening at the exact same time and almost no one is catching on to this. So
+[00:16] almost no one is catching on to this. So by the end of this video I'm going to
+[00:17] by the end of this video I'm going to walk you through what is actually
+[00:19] walk you through what is actually happening, why this might be the best
+[00:21] happening, why this might be the best online business opportunity you will see
+[00:23] online business opportunity you will see this decade and the exact moves you can
+[00:25] this decade and the exact moves you can make right now before everyone else
+[00:27] make right now before everyone else catches on to it. A few years from now,
+[00:29] catches on to it. A few years from now, most people are going to look back at
+[00:30] most people are going to look back at this moment the same way early YouTubers
+[00:33] this moment the same way early YouTubers looked back at 2012 or the way early
+[00:35] looked back at 2012 or the way early Amazon FBA sellers looked back at 2015.
+[00:37] Amazon FBA sellers looked back at 2015. Some people got in early and built real
+[00:39] Some people got in early and built real businesses. Everyone else watched it
+[00:41] businesses. Everyone else watched it happen from the sidelines. So, before we
+[00:43] happen from the sidelines. So, before we dive in, I think it's important for you
+[00:45] dive in, I think it's important for you to know who I am and why I'm even
+[00:47] to know who I am and why I'm even talking about this. My name is Sean and
+[00:48] talking about this. My name is Sean and I was $40,000 in depth at age 22. I had
+[00:51] I was $40,000 in depth at age 22. I had no college degree. I had no particular
+[00:53] no college degree. I had no particular skills. I had already failed at multiple
+[00:56] skills. I had already failed at multiple businesses for four years straight. At
+[00:57] businesses for four years straight. At that point, I was basically out of
+[00:59] that point, I was basically out of options. Then I stumbled into the online
+[01:01] options. Then I stumbled into the online business I'm about to share with you
+[01:02] business I'm about to share with you here. Fast forward a few years, I became
+[01:04] here. Fast forward a few years, I became a millionaire by age 26 from doing this
+[01:06] a millionaire by age 26 from doing this exact business. Not from teaching it,
+[01:08] exact business. Not from teaching it, actually doing the business model
+[01:10] actually doing the business model myself. And I still do this business
+[01:11] myself. And I still do this business model to this day. I've been doing it
+[01:13] model to this day. I've been doing it for a while. But there's something huge
+[01:15] for a while. But there's something huge happening right now that I think will
+[01:16] happening right now that I think will not last for a long time. But before I
+[01:18] not last for a long time. But before I get into the actual opportunity here, I
+[01:20] get into the actual opportunity here, I have to actually tell you what this
+[01:22] have to actually tell you what this business even is. because obviously if
+[01:23] business even is. because obviously if you never heard of it, the rest of this
+[01:25] you never heard of it, the rest of this video isn't going to make any sense. All
+[01:26] video isn't going to make any sense. All right, so the business model I'm talking
+[01:28] right, so the business model I'm talking about is called KDP. It stands for
+[01:30] about is called KDP. It stands for Kindle Direct Publishing, and this is
+[01:32] Kindle Direct Publishing, and this is Amazon's self-publishing platform. And
+[01:33] Amazon's self-publishing platform. And basically, what it lets you do is
+[01:35] basically, what it lets you do is publish books on Amazon without needing
+[01:37] publish books on Amazon without needing a publisher, without needing a literary
+[01:39] a publisher, without needing a literary agent, without needing any of that
+[01:41] agent, without needing any of that traditional publishing stuff. So, here's
+[01:42] traditional publishing stuff. So, here's how it actually works. You upload a book
+[01:45] how it actually works. You upload a book file on Amazon, which is just a simple
+[01:47] file on Amazon, which is just a simple PDF file. You can then sell that as a
+[01:49] PDF file. You can then sell that as a ebook, paperback, hard cover, even as an
+[01:52] ebook, paperback, hard cover, even as an audio book. And when someone buys it,
+[01:54] audio book. And when someone buys it, Amazon prints the book, ships it over to
+[01:56] Amazon prints the book, ships it over to the customer, handles the customer
+[01:58] the customer, handles the customer service if anything goes wrong, and then
+[02:00] service if anything goes wrong, and then sends you a royalty check every single
+[02:02] sends you a royalty check every single month. You never touch a single book.
+[02:04] month. You never touch a single book. You never deal with a single customer.
+[02:06] You never deal with a single customer. You never ship anything anywhere. Amazon
+[02:08] You never ship anything anywhere. Amazon does everything for you. Compare that to
+[02:10] does everything for you. Compare that to other online businesses you've probably
+[02:11] other online businesses you've probably heard of, like drop shipping. You're
+[02:13] heard of, like drop shipping. You're dealing with suppliers and customer
+[02:14] dealing with suppliers and customer complaints all the time. Running an
+[02:16] complaints all the time. Running an agency, you're managing clients and
+[02:18] agency, you're managing clients and employees, which is a huge headache.
+[02:19] employees, which is a huge headache. With faceless YouTube channels, you're
+[02:21] With faceless YouTube channels, you're on the algorithm hamster wheel, grinding
+[02:23] on the algorithm hamster wheel, grinding out content forever. But with Amazon
+[02:25] out content forever. But with Amazon KDP, it is the most hands-off thing that
+[02:27] KDP, it is the most hands-off thing that I've ever seen. The thing that actually
+[02:28] I've ever seen. The thing that actually makes KDP different from every other
+[02:30] makes KDP different from every other digital business is who brings the
+[02:32] digital business is who brings the customers. With most online businesses,
+[02:34] customers. With most online businesses, you have to bring the traffic yourself.
+[02:36] you have to bring the traffic yourself. You're running ads, building an
+[02:38] You're running ads, building an audience, growing a YouTube channel,
+[02:40] audience, growing a YouTube channel, posting on TikTok every day. That's
+[02:41] posting on TikTok every day. That's basically your full-time job. But with
+[02:43] basically your full-time job. But with KDP, Amazon brings the buyers. There are
+[02:46] KDP, Amazon brings the buyers. There are hundreds of millions of people on Amazon
+[02:48] hundreds of millions of people on Amazon every single day searching for books.
+[02:49] every single day searching for books. Your job is to simply put a book in
+[02:51] Your job is to simply put a book in front of them that they want to buy.
+[02:53] front of them that they want to buy. That is it. You don't need an audience.
+[02:54] That is it. You don't need an audience. You don't need to run ads. Although it
+[02:56] You don't need to run ads. Although it is recommended, it's not required. You
+[02:58] is recommended, it's not required. You don't need to show your face anywhere.
+[03:00] don't need to show your face anywhere. And the books we're talking about aren't
+[03:01] And the books we're talking about aren't novels. Nobody's writing the next
+[03:03] novels. Nobody's writing the next Stephen King novel here. We're talking
+[03:05] Stephen King novel here. We're talking about practical books that people
+[03:06] about practical books that people actually search for and buy every day.
+[03:08] actually search for and buy every day. We're talking how-to guides, cookbooks,
+[03:11] We're talking how-to guides, cookbooks, journals, kids books, coloring books,
+[03:13] journals, kids books, coloring books, stuff that solves a problem or fits a
+[03:15] stuff that solves a problem or fits a niche. And you don't even have to be a
+[03:17] niche. And you don't even have to be a writer or designer to actually start
+[03:18] writer or designer to actually start creating books. There are so many ways
+[03:20] creating books. There are so many ways to create amazing books with the help of
+[03:21] to create amazing books with the help of AI or just outsourcing the whole
+[03:23] AI or just outsourcing the whole process, which I talk about often on
+[03:25] process, which I talk about often on this channel. I personally published a
+[03:26] this channel. I personally published a ton of books. I've never written a
+[03:28] ton of books. I've never written a single one myself. I'm actually born and
+[03:30] single one myself. I'm actually born and raised in Japan. English is my second
+[03:32] raised in Japan. English is my second language. So, I suck at writing. I mess
+[03:34] language. So, I suck at writing. I mess up my grammar all the time. And yet, I
+[03:35] up my grammar all the time. And yet, I was able to become very successful
+[03:37] was able to become very successful publishing books on Amazon. And here's
+[03:39] publishing books on Amazon. And here's the part where it gets pretty cool. A
+[03:40] the part where it gets pretty cool. A single book that ranks well on Amazon
+[03:42] single book that ranks well on Amazon can pay you anywhere from a few hundred
+[03:44] can pay you anywhere from a few hundred bucks a month to a few thousand a month
+[03:46] bucks a month to a few thousand a month for months or years after you publish
+[03:48] for months or years after you publish it. That's because this book now has
+[03:50] it. That's because this book now has digital real estate on Amazon. As we
+[03:52] digital real estate on Amazon. As we know, Amazon's probably not going
+[03:54] know, Amazon's probably not going anywhere, right? Amazon's the biggest
+[03:55] anywhere, right? Amazon's the biggest online retail store in the world, and
+[03:57] online retail store in the world, and they keep expanding. So, I always
+[03:59] they keep expanding. So, I always compare this to digital real estate, and
+[04:01] compare this to digital real estate, and we have students making four, five, even
+[04:03] we have students making four, five, even six figures in a month. So, we have
+[04:05] six figures in a month. So, we have multiple students who made over $100,000
+[04:07] multiple students who made over $100,000 in a single month. With that being said,
+[04:09] in a single month. With that being said, though, I do have to give a very clear
+[04:11] though, I do have to give a very clear disclaimer that I'm not promising anyone
+[04:13] disclaimer that I'm not promising anyone specific numbers, right? This is
+[04:14] specific numbers, right? This is definitely not a guarantee of any sorts.
+[04:17] definitely not a guarantee of any sorts. These aren't average results as well,
+[04:18] These aren't average results as well, right? Those are just numbers that we
+[04:20] right? Those are just numbers that we see on our side and what our students
+[04:22] see on our side and what our students have shared with us. But, this is a real
+[04:23] have shared with us. But, this is a real business. Your results definitely
+[04:25] business. Your results definitely depends on the work you put in. Please
+[04:27] depends on the work you put in. Please understand this because I don't want to
+[04:28] understand this because I don't want to be associated with all these hype side
+[04:30] be associated with all these hype side hustle ideas YouTube gurus out there
+[04:32] hustle ideas YouTube gurus out there making crazy income claims. This is a
+[04:34] making crazy income claims. This is a real business, so it takes real work.
+[04:36] real business, so it takes real work. But I truly believe it's one of the best
+[04:38] But I truly believe it's one of the best business models out there. And again,
+[04:39] business models out there. And again, the model itself is truly unique
+[04:41] the model itself is truly unique compared to everything else because once
+[04:43] compared to everything else because once a book is up in ranking, it can keep
+[04:45] a book is up in ranking, it can keep paying you for a very long time. I have
+[04:47] paying you for a very long time. I have many books that I've published and
+[04:48] many books that I've published and completely forgot about it. Didn't touch
+[04:50] completely forgot about it. Didn't touch it at all for years and it still pays me
+[04:52] it at all for years and it still pays me every single month. I'm not optimizing
+[04:54] every single month. I'm not optimizing the book. I'm not even running ads to
+[04:56] the book. I'm not even running ads to these books. I'm not even thinking about
+[04:58] these books. I'm not even thinking about it. I completely forgot about it for
+[04:59] it. I completely forgot about it for years. It still pays me. And that's
+[05:01] years. It still pays me. And that's actually a pretty common story that you
+[05:03] actually a pretty common story that you hear in this space. Once again, no
+[05:05] hear in this space. Once again, no guarantees though. All right, so now
+[05:06] guarantees though. All right, so now that you know what KDP is, let me show
+[05:08] that you know what KDP is, let me show you why right now is such a unique and
+[05:10] you why right now is such a unique and rare moment in this business. So there
+[05:12] rare moment in this business. So there are three massive shifts happening at
+[05:14] are three massive shifts happening at the exact same time in this market. And
+[05:15] the exact same time in this market. And when you put them on top of each other,
+[05:17] when you put them on top of each other, you get one of the rarest setup I've
+[05:19] you get one of the rarest setup I've seen in any business. So the first shift
+[05:21] seen in any business. So the first shift is that the barrier to entry for making
+[05:23] is that the barrier to entry for making a really high quality book has basically
+[05:25] a really high quality book has basically disappeared. 5 years ago, if I wanted to
+[05:27] disappeared. 5 years ago, if I wanted to compete on Amazon as a publisher, you
+[05:29] compete on Amazon as a publisher, you basically had two options. Either you
+[05:31] basically had two options. Either you were a great writer yourself and you can
+[05:32] were a great writer yourself and you can spend months crafting a book, writing
+[05:34] spend months crafting a book, writing the book yourself, or you had to pay
+[05:36] the book yourself, or you had to pay ghostriters, cover designers, editors,
+[05:38] ghostriters, cover designers, editors, basically the whole team to create a
+[05:40] basically the whole team to create a book for you. And the cost to do that,
+[05:42] book for you. And the cost to do that, we're talking thousands of dollars per
+[05:44] we're talking thousands of dollars per book and months of work before you even
+[05:46] book and months of work before you even saw a dollar back. And that was normal
+[05:48] saw a dollar back. And that was normal back then. That's actually how I've
+[05:49] back then. That's actually how I've started as well. But today, things are
+[05:51] started as well. But today, things are just completely different. With the
+[05:53] just completely different. With the right AI tools, you can put together a
+[05:54] right AI tools, you can put together a book that's actually better than most of
+[05:56] book that's actually better than most of the top ranking books in a niche. It has
+[05:58] the top ranking books in a niche. It has a better cover, better title, more
+[06:00] a better cover, better title, more current content structured the way
+[06:02] current content structured the way readers want it today, and it costs a
+[06:04] readers want it today, and it costs a tiny fraction of what it used to. So, if
+[06:06] tiny fraction of what it used to. So, if you look at these covers here, the left
+[06:08] you look at these covers here, the left one is one of the top books in this
+[06:10] one is one of the top books in this niche on Amazon, and the right is a book
+[06:12] niche on Amazon, and the right is a book that I put together with the help of AI
+[06:14] that I put together with the help of AI in a fraction of the time. In my
+[06:15] in a fraction of the time. In my personal opinion, I think the cover is
+[06:17] personal opinion, I think the cover is way cleaner, the title hooks harder, and
+[06:19] way cleaner, the title hooks harder, and the content is also higher quality.
+[06:21] the content is also higher quality. Here's another example of a bestselling
+[06:23] Here's another example of a bestselling book on Amazon on the left, and this is
+[06:25] book on Amazon on the left, and this is a book that I created with the help of
+[06:26] a book that I created with the help of AI on the right. I think the cover on
+[06:28] AI on the right. I think the cover on the right looks better. It's more on
+[06:29] the right looks better. It's more on trend. And I credited this literally
+[06:31] trend. And I credited this literally within minutes using AI. You can also
+[06:33] within minutes using AI. You can also create book covers inspired by
+[06:35] create book covers inspired by best-selling books on Amazon, like this
+[06:37] best-selling books on Amazon, like this one from Coco. If you don't know who
+[06:38] one from Coco. If you don't know who Kokoro is, they're basically the biggest
+[06:40] Kokoro is, they're basically the biggest coloring book brand on Amazon right now.
+[06:42] coloring book brand on Amazon right now. And you can use AI to model their design
+[06:44] And you can use AI to model their design and come up with our own version of it.
+[06:46] and come up with our own version of it. So, this can give you a clean cover
+[06:47] So, this can give you a clean cover design that's more in line with what's
+[06:49] design that's more in line with what's already working in the market. And the
+[06:51] already working in the market. And the same idea applies to basically every
+[06:52] same idea applies to basically every other aspect of publishing as well.
+[06:54] other aspect of publishing as well. Obviously, we're not trying to rip off
+[06:55] Obviously, we're not trying to rip off other books. We're just getting ideas
+[06:57] other books. We're just getting ideas from them because obviously they're a
+[06:58] from them because obviously they're a bestseller for a reason. You know,
+[07:00] bestseller for a reason. You know, whatever they're doing is working. So,
+[07:01] whatever they're doing is working. So, we take those elements and we create our
+[07:03] we take those elements and we create our version of it. So, as you can see, AI is
+[07:05] version of it. So, as you can see, AI is making this process so much easier, so
+[07:07] making this process so much easier, so much faster. The barrier to entry is a
+[07:09] much faster. The barrier to entry is a lot lower now. So, the skill barrier to
+[07:11] lot lower now. So, the skill barrier to enter into these niches, the protected
+[07:13] enter into these niches, the protected existing publishers, they're basically
+[07:15] existing publishers, they're basically gone. Anyone with the right tools and
+[07:17] gone. Anyone with the right tools and the right process can step in and start
+[07:18] the right process can step in and start competing. Now, here's where it gets
+[07:20] competing. Now, here's where it gets interesting. While the barrier to entry
+[07:22] interesting. While the barrier to entry has been going down a lot, the demand
+[07:24] has been going down a lot, the demand has actually been going up. A lot of
+[07:26] has actually been going up. A lot of people think just because we're dealing
+[07:27] people think just because we're dealing with books, somehow people don't read
+[07:28] with books, somehow people don't read books anymore. People think that
+[07:30] books anymore. People think that everyone just, you know, watches YouTube
+[07:31] everyone just, you know, watches YouTube videos or ask AI to get answers and no
+[07:33] videos or ask AI to get answers and no one actually reads books. However,
+[07:35] one actually reads books. However, that's not actually the case. Amazon
+[07:37] that's not actually the case. Amazon literally publishes how much authors are
+[07:39] literally publishes how much authors are earning from using the KDP platform on
+[07:42] earning from using the KDP platform on their website every single month. And
+[07:43] their website every single month. And every single month since I started,
+[07:46] every single month since I started, those numbers keep going up. So
+[07:48] those numbers keep going up. So obviously, if books aren't selling, then
+[07:50] obviously, if books aren't selling, then authors aren't making money. So, the
+[07:52] authors aren't making money. So, the fact that this number keeps going up
+[07:55] fact that this number keeps going up means that books are selling more than
+[07:57] means that books are selling more than ever, which means more customers are
+[07:58] ever, which means more customers are buying books on the Amazon platform.
+[08:00] buying books on the Amazon platform. Audiobook sales are growing every single
+[08:02] Audiobook sales are growing every single year. Ebook sales are going strong. New
+[08:05] year. Ebook sales are going strong. New niches are popping up that didn't even
+[08:06] niches are popping up that didn't even exist a few years ago. Like, there are a
+[08:08] exist a few years ago. Like, there are a ton of new niches popping up constantly.
+[08:10] ton of new niches popping up constantly. Manifestation journals, AI prompt books,
+[08:13] Manifestation journals, AI prompt books, specific niche cookbooks. The market
+[08:15] specific niche cookbooks. The market keeps getting bigger and bigger. So, if
+[08:17] keeps getting bigger and bigger. So, if you think about it, the barrier to entry
+[08:19] you think about it, the barrier to entry has dropped, but the market is
+[08:20] has dropped, but the market is expanding. And those two things
+[08:22] expanding. And those two things happening at the exact same time is
+[08:24] happening at the exact same time is genuinely rare. It almost never happens
+[08:26] genuinely rare. It almost never happens in any market. However, there's one more
+[08:28] in any market. However, there's one more shift that's happening. And this one
+[08:30] shift that's happening. And this one almost no one is talking about, but it's
+[08:32] almost no one is talking about, but it's actually the most important, I think.
+[08:33] actually the most important, I think. And no one's talking about it because no
+[08:35] And no one's talking about it because no one knows that this is happening. I
+[08:36] one knows that this is happening. I think I'm the only one on YouTube that
+[08:38] think I'm the only one on YouTube that knows that this is happening because
+[08:40] knows that this is happening because I've been making videos on Amazon KDP
+[08:42] I've been making videos on Amazon KDP for years at this point. I've been
+[08:44] for years at this point. I've been analyzing my own YouTube analytics for
+[08:46] analyzing my own YouTube analytics for years and I see firsthand that this is
+[08:49] years and I see firsthand that this is happening. and that is that the KDP hype
+[08:51] happening. and that is that the KDP hype on YouTube is completely dead. Now, a
+[08:53] on YouTube is completely dead. Now, a few years ago when I started YouTube,
+[08:55] few years ago when I started YouTube, KDP was popping, right? When I post on
+[08:56] KDP was popping, right? When I post on YouTube, I get a lot of views. You know,
+[08:58] YouTube, I get a lot of views. You know, it was pretty nice, not going to lie. It
+[09:00] it was pretty nice, not going to lie. It was way, way easier. I would make a
+[09:02] was way, way easier. I would make a crappier version of the video and it
+[09:03] crappier version of the video and it would get way more views than what I'm
+[09:05] would get way more views than what I'm getting right now. Like, I'm not
+[09:06] getting right now. Like, I'm not exaggerating here. Go look at YouTube
+[09:08] exaggerating here. Go look at YouTube right now. You can go look at my own
+[09:09] right now. You can go look at my own YouTube channel and you can look at
+[09:11] YouTube channel and you can look at views that I'm getting on my recent
+[09:13] views that I'm getting on my recent videos versus views that I got on videos
+[09:15] videos versus views that I got on videos from years ago. It's a fraction of what
+[09:17] from years ago. It's a fraction of what it used to be. So, the KDP hype is gone,
+[09:19] it used to be. So, the KDP hype is gone, right? The trend has passed. All the
+[09:21] right? The trend has passed. All the hyped up side hustle channels talking
+[09:23] hyped up side hustle channels talking about the next best business models,
+[09:25] about the next best business models, they're all talking about like AI
+[09:27] they're all talking about like AI businesses now. So, the hype crowd, the
+[09:29] businesses now. So, the hype crowd, the people who chase whatever the next hot
+[09:31] people who chase whatever the next hot online business is, they've all moved on
+[09:32] online business is, they've all moved on to that. Now, everyone's talking about
+[09:34] to that. Now, everyone's talking about AI agents, faceless YouTube channels,
+[09:37] AI agents, faceless YouTube channels, e-commerce, whatever the new shiny
+[09:38] e-commerce, whatever the new shiny object that happens to be that month.
+[09:40] object that happens to be that month. Now, obviously, you know, for me, as
+[09:42] Now, obviously, you know, for me, as someone who makes KDP videos, KDP
+[09:44] someone who makes KDP videos, KDP content on YouTube, this kind of sucks.
+[09:46] content on YouTube, this kind of sucks. It's a lot harder to grow YouTube
+[09:48] It's a lot harder to grow YouTube channels in this space. But if you're a
+[09:50] channels in this space. But if you're a publisher actually doing this business,
+[09:52] publisher actually doing this business, obviously this is the best news you
+[09:53] obviously this is the best news you could possibly hear because here's what
+[09:55] could possibly hear because here's what it means, right? Fewer new people are
+[09:57] it means, right? Fewer new people are entering KDP. The people chasing the
+[09:59] entering KDP. The people chasing the get-rich quick dream have already left
+[10:01] get-rich quick dream have already left to the next thing. So the flood of new
+[10:03] to the next thing. So the flood of new publishers that used to pour in every
+[10:04] publishers that used to pour in every month that has slowed way down.
+[10:06] month that has slowed way down. Meanwhile, readers don't care what's
+[10:08] Meanwhile, readers don't care what's trending on YouTube. Like readers don't
+[10:10] trending on YouTube. Like readers don't know about the KDP business model,
+[10:12] know about the KDP business model, right? Like the readers who are buying
+[10:13] right? Like the readers who are buying books on Amazon do not even know that
+[10:16] books on Amazon do not even know that the KDP business model exists. They
+[10:18] the KDP business model exists. They don't know that you could just publish a
+[10:19] don't know that you could just publish a simple book on Amazon without going
+[10:21] simple book on Amazon without going through traditional companies and start
+[10:23] through traditional companies and start making money that way. Like they don't
+[10:24] making money that way. Like they don't know that. So they're still on Amazon
+[10:25] know that. So they're still on Amazon every single day buying more books than
+[10:28] every single day buying more books than ever, which data backs up. So you got
+[10:30] ever, which data backs up. So you got demand at all-time highs. You got AI
+[10:32] demand at all-time highs. You got AI making it easier than ever to come in
+[10:33] making it easier than ever to come in with a high quality product. And you got
+[10:35] with a high quality product. And you got fewer competitors entering the space
+[10:37] fewer competitors entering the space than there have been in years. So demand
+[10:39] than there have been in years. So demand up, barrier down, competition shrinking.
+[10:42] up, barrier down, competition shrinking. That's not just a good market. That is a
+[10:44] That's not just a good market. That is a once in a decade setup. So this
+[10:46] once in a decade setup. So this imbalance is the whole opportunity that
+[10:48] imbalance is the whole opportunity that we're talking about here. Three forces
+[10:50] we're talking about here. Three forces lining up at the exact same time. And
+[10:52] lining up at the exact same time. And these kinds of setup are where real
+[10:53] these kinds of setup are where real money gets made in any market. So I
+[10:55] money gets made in any market. So I already know what some of you are
+[10:56] already know what some of you are thinking. You're thinking, "Okay, Sean,
+[10:58] thinking. You're thinking, "Okay, Sean, this sounds great, but the top books in
+[11:00] this sounds great, but the top books in these niches already have thousands of
+[11:02] these niches already have thousands of reviews. How am I supposed to compete
+[11:04] reviews. How am I supposed to compete with a book that has thousands of
+[11:05] with a book that has thousands of reviews on it?" Well, that is the most
+[11:07] reviews on it?" Well, that is the most important part of this whole video. So,
+[11:08] important part of this whole video. So, let's get into that. Reviews are
+[11:10] let's get into that. Reviews are definitely powerful. I'm not going to
+[11:11] definitely powerful. I'm not going to pretend that they're not. But reviews
+[11:13] pretend that they're not. But reviews are not bulletproof. Reviews only
+[11:15] are not bulletproof. Reviews only protect the book when the rest of the
+[11:17] protect the book when the rest of the book is also strong. What do I mean by
+[11:19] book is also strong. What do I mean by that? Well, if a book has 3,000 reviews,
+[11:22] that? Well, if a book has 3,000 reviews, but the cover looks like it was designed
+[11:23] but the cover looks like it was designed in 2002. The title is super generic and
+[11:26] in 2002. The title is super generic and the content hasn't been refreshed in
+[11:28] the content hasn't been refreshed in years, that book has weak spots. And
+[11:31] years, that book has weak spots. And weak spots can be exploited. Because
+[11:32] weak spots can be exploited. Because here's how people actually shop on
+[11:34] here's how people actually shop on Amazon. They search for something, they
+[11:36] Amazon. They search for something, they start scrolling, then they look at the
+[11:38] start scrolling, then they look at the book cover first, then they read the
+[11:40] book cover first, then they read the title, then they check the look inside
+[11:42] title, then they check the look inside preview to see the actual content. So,
+[11:44] preview to see the actual content. So, if your cover looks more modern, your
+[11:46] if your cover looks more modern, your title hooks harder, and your content is
+[11:49] title hooks harder, and your content is more on trend with what people want
+[11:50] more on trend with what people want today, a good percentage of buyers will
+[11:52] today, a good percentage of buyers will pick your book over the older one, even
+[11:54] pick your book over the older one, even with the big review gap. And it happens
+[11:56] with the big review gap. And it happens every single time. You probably have
+[11:58] every single time. You probably have done it as well. You don't always buy
+[11:59] done it as well. You don't always buy products on Amazon that has the most
+[12:01] products on Amazon that has the most review. You probably buy products on
+[12:03] review. You probably buy products on Amazon that you personally think looks
+[12:05] Amazon that you personally think looks the best as long as it has enough
+[12:07] the best as long as it has enough reviews where you can trust that
+[12:09] reviews where you can trust that product. It doesn't have to have the
+[12:10] product. It doesn't have to have the most amount of reviews in that [music]
+[12:12] most amount of reviews in that [music] market. So that is how you compete. You
+[12:14] market. So that is how you compete. You outproduct books that have lots of
+[12:16] outproduct books that have lots of reviews but weak everything else. But
+[12:18] reviews but weak everything else. But here's where it gets interesting and
+[12:19] here's where it gets interesting and this is the part most people miss. Once
+[12:21] this is the part most people miss. Once you come in with a higher quality book
+[12:23] you come in with a higher quality book and you stack up a lot of reviews, now
+[12:26] and you stack up a lot of reviews, now you got both, right? You got the modern
+[12:28] you got both, right? You got the modern ontrend product and you got a lot of
+[12:30] ontrend product and you got a lot of social proof. And that's the combination
+[12:32] social proof. And that's the combination no one can compete with. And that's the
+[12:34] no one can compete with. And that's the reason why publishers who come in after
+[12:36] reason why publishers who come in after you cannot pull the same trick on you.
+[12:38] you cannot pull the same trick on you. Sure, they might have AI tools as well.
+[12:40] Sure, they might have AI tools as well. Sure, they might be able to put together
+[12:41] Sure, they might be able to put together a highquality book, but they can't
+[12:43] a highquality book, but they can't compete with a book that's both
+[12:45] compete with a book that's both highquality and has thousands of
+[12:47] highquality and has thousands of reviews. There's no weak spot to attack.
+[12:49] reviews. There's no weak spot to attack. The door closes behind you. So, the
+[12:51] The door closes behind you. So, the formula is pretty simple. AI gives you
+[12:53] formula is pretty simple. AI gives you the quality. Speed gives you the
+[12:55] the quality. Speed gives you the reviews. Together, they give you a mode
+[12:57] reviews. Together, they give you a mode that's really hard to beat. Now, if
+[12:59] that's really hard to beat. Now, if you're watching this and you're like,
+[12:59] you're watching this and you're like, "If this is so obvious, why isn't
+[13:02] "If this is so obvious, why isn't everyone doing it already?" Well, that's
+[13:03] everyone doing it already?" Well, that's literally the whole point, right? It's
+[13:05] literally the whole point, right? It's not obvious. Again, the KDP trend has
+[13:07] not obvious. Again, the KDP trend has passed. No one's really talking about
+[13:08] passed. No one's really talking about Amazon KDP anymore. Everyone's talking
+[13:10] Amazon KDP anymore. Everyone's talking about AI stuff now. So, it's not really
+[13:12] about AI stuff now. So, it's not really a obvious trend. Also, this is something
+[13:14] a obvious trend. Also, this is something that I'm seeing. I'm seeing the trend
+[13:15] that I'm seeing. I'm seeing the trend shifting because I've been studying my
+[13:17] shifting because I've been studying my YouTube analytics basically, you know,
+[13:19] YouTube analytics basically, you know, five times a day for years. So, I'm very
+[13:21] five times a day for years. So, I'm very much in the we of this and I see the
+[13:23] much in the we of this and I see the changes happening, but I think no one
+[13:24] changes happening, but I think no one else actually knows that this is
+[13:25] else actually knows that this is happening. Also, most people are still
+[13:27] happening. Also, most people are still not using AI in any serious way. Most
+[13:30] not using AI in any serious way. Most people who want to start an online
+[13:31] people who want to start an online business have no idea KDP even exists.
+[13:34] business have no idea KDP even exists. The ones who do know about KDP are still
+[13:37] The ones who do know about KDP are still trying to do it the old way, writing
+[13:38] trying to do it the old way, writing books themselves or paying ghostriters
+[13:41] books themselves or paying ghostriters thousands of dollars. And they have no
+[13:42] thousands of dollars. And they have no idea what's possible with the tools that
+[13:44] idea what's possible with the tools that exist today. And that gap between what
+[13:46] exist today. And that gap between what is actually possible right now and what
+[13:48] is actually possible right now and what most people are actually doing, that gap
+[13:50] most people are actually doing, that gap is your entire window of opportunity.
+[13:52] is your entire window of opportunity. But this gap is not going to stay open
+[13:54] But this gap is not going to stay open just like with any other opportunity. In
+[13:57] just like with any other opportunity. In the next 12 to 18 months, awareness
+[13:59] the next 12 to 18 months, awareness catches up. AI tools become mainstream,
+[14:01] catches up. AI tools become mainstream, right? Some big YouTuber makes a viral
+[14:03] right? Some big YouTuber makes a viral video about KDP, people start talking
+[14:05] video about KDP, people start talking about how KDP is still great because
+[14:07] about how KDP is still great because once someone starts making money on KDP,
+[14:09] once someone starts making money on KDP, they'll start telling others like, "Oh
+[14:11] they'll start telling others like, "Oh my god, I made money from this. It still
+[14:13] my god, I made money from this. It still works. It's great." And then others will
+[14:14] works. It's great." And then others will hear that and they're like, "Oh, okay.
+[14:15] hear that and they're like, "Oh, okay. Let me try it." So, I think the hype
+[14:17] Let me try it." So, I think the hype will come back and suddenly everyone's
+[14:19] will come back and suddenly everyone's trying this again. But to get to that
+[14:20] trying this again. But to get to that point is going to take a while. So that
+[14:22] point is going to take a while. So that is why I say 12 to 18 months is the
+[14:24] is why I say 12 to 18 months is the opportunity window. And remember what we
+[14:26] opportunity window. And remember what we just talked about. By that point, the
+[14:28] just talked about. By that point, the people who started this year will
+[14:29] people who started this year will already have highquality books with
+[14:31] already have highquality books with thousands of reviews stacked up. So
+[14:32] thousands of reviews stacked up. So there's no opening left, no weak spots
+[14:35] there's no opening left, no weak spots to exploit. The door is shut. So even if
+[14:37] to exploit. The door is shut. So even if a lot of people come in to KDP after
+[14:39] a lot of people come in to KDP after you, you know, they can't compete with
+[14:41] you, you know, they can't compete with you. Your book is ranked and solidified
+[14:43] you. Your book is ranked and solidified on Amazon. So the window is open right
+[14:45] on Amazon. So the window is open right now because of the timing. Quality is
+[14:47] now because of the timing. Quality is what gets you through it. But if you
+[14:48] what gets you through it. But if you wait, the timing is gone and quality
+[14:51] wait, the timing is gone and quality alone won't save you. All right, so
+[14:52] alone won't save you. All right, so let's get into the actual playbook.
+[14:54] let's get into the actual playbook. Here's exactly how to take advantage of
+[14:56] Here's exactly how to take advantage of this step by step. The first thing you
+[14:57] this step by step. The first thing you need to do is find niches where there's
+[14:59] need to do is find niches where there's real consistent demand, but the top
+[15:01] real consistent demand, but the top ranking books are weak. So, what I look
+[15:03] ranking books are weak. So, what I look for is what I call the soft underbelly
+[15:05] for is what I call the soft underbelly of KDP. These are niches with steady
+[15:07] of KDP. These are niches with steady buyers, but where the top books have
+[15:10] buyers, but where the top books have outdated covers, generic titles, content
+[15:12] outdated covers, generic titles, content that haven't been touched in years, or
+[15:14] that haven't been touched in years, or surprisingly low review counts. So, if
+[15:16] surprisingly low review counts. So, if you find a niche where the top books
+[15:18] you find a niche where the top books have under 300 reviews, outdated covers,
+[15:20] have under 300 reviews, outdated covers, or content that's clearly behind the
+[15:22] or content that's clearly behind the times, that's the easiest target you can
+[15:24] times, that's the easiest target you can find. But even niches where the top
+[15:26] find. But even niches where the top books have a lot of reviews can be
+[15:28] books have a lot of reviews can be cracked. You can attack those if those
+[15:30] cracked. You can attack those if those books look old and out of trend. So,
+[15:32] books look old and out of trend. So, step two is where most people completely
+[15:34] step two is where most people completely mess up. What people usually do is open
+[15:36] mess up. What people usually do is open up Chady and they just type in, "Write
+[15:38] up Chady and they just type in, "Write me a book about this topic." Then, Chady
+[15:40] me a book about this topic." Then, Chady gives them something super generic and
+[15:41] gives them something super generic and soulless. They then slap a crappy AI
+[15:44] soulless. They then slap a crappy AI generated cover on it. they hit publish
+[15:46] generated cover on it. they hit publish and then wonder why their book is doing
+[15:47] and then wonder why their book is doing nothing on Amazon. That's not how you
+[15:49] nothing on Amazon. That's not how you want to do things. As I mentioned many
+[15:51] want to do things. As I mentioned many times throughout this video, you have to
+[15:53] times throughout this video, you have to create high quality books. We're not
+[15:55] create high quality books. We're not just cranking out crappy AI slop.
+[15:56] just cranking out crappy AI slop. Generic AI input gives you generic AI
+[15:59] Generic AI input gives you generic AI output. And generic books do not beat
+[16:01] output. And generic books do not beat the top of a niche, no matter how easy
+[16:03] the top of a niche, no matter how easy they were to crank out. The whole reason
+[16:05] they were to crank out. The whole reason this opportunity exists is because you
+[16:07] this opportunity exists is because you can compete on quality. So, if you're
+[16:09] can compete on quality. So, if you're going to skip the quality part, you
+[16:10] going to skip the quality part, you might as well not even do this. This is
+[16:12] might as well not even do this. This is the exact problem we kept running into
+[16:13] the exact problem we kept running into when we were doing this ourselves, which
+[16:15] when we were doing this ourselves, which is why we ended up building co-author.
+[16:17] is why we ended up building co-author. Co-author.ai is my own AI bookw writing
+[16:20] Co-author.ai is my own AI bookw writing software. It's built specifically for
+[16:21] software. It's built specifically for Amazon KDP. It handles the trend
+[16:23] Amazon KDP. It handles the trend research. It structures books the way
+[16:25] research. It structures books the way readers actually want them today. And it
+[16:27] readers actually want them today. And it produces output at a quality level that
+[16:29] produces output at a quality level that generic AI tools just can't match.
+[16:31] generic AI tools just can't match. That's how you actually make sure your
+[16:32] That's how you actually make sure your book wins on cover, title, and content,
+[16:35] book wins on cover, title, and content, which are the three things you need to
+[16:37] which are the three things you need to beat older books with more reviews. If
+[16:39] beat older books with more reviews. If you want to check it out, I'll leave a
+[16:40] you want to check it out, I'll leave a link in the description below. So once
+[16:41] link in the description below. So once you create the book, step three is what
+[16:43] you create the book, step three is what locks the door behind you. You need to
+[16:45] locks the door behind you. You need to get reviews fast in the first 90 days
+[16:48] get reviews fast in the first 90 days because Amazon's algorithm rewards books
+[16:50] because Amazon's algorithm rewards books that build momentum quickly and the
+[16:51] that build momentum quickly and the first 90 days are when that window is
+[16:53] first 90 days are when that window is wide open. So there are different
+[16:55] wide open. So there are different effective ways to get reviews, but these
+[16:56] effective ways to get reviews, but these are the two platforms that I use mainly.
+[16:58] are the two platforms that I use mainly. The first one is Book Bounty, which is a
+[17:00] The first one is Book Bounty, which is a simple and affordable way to get real
+[17:01] simple and affordable way to get real reviews. The second one is called Book
+[17:03] reviews. The second one is called Book Reverb, which is another great way to
+[17:04] Reverb, which is another great way to get reviews fast. And they just expanded
+[17:06] get reviews fast. And they just expanded into audiobook reviews, too. So, your
+[17:08] into audiobook reviews, too. So, your goal in the first couple months is to
+[17:09] goal in the first couple months is to stack 50 to 100 honest reviews. Once you
+[17:12] stack 50 to 100 honest reviews. Once you cross the line, the Amazon algorithm
+[17:14] cross the line, the Amazon algorithm starts pushing your book to more buyers
+[17:16] starts pushing your book to more buyers organically. Obviously, it's not like,
+[17:17] organically. Obviously, it's not like, you know, once you hit 50 or 100, your
+[17:19] you know, once you hit 50 or 100, your book will magically start taking off. It
+[17:21] book will magically start taking off. It depends on if all the other factors are
+[17:23] depends on if all the other factors are great, like the book cover, title, all
+[17:24] great, like the book cover, title, all that that we talked about. However,
+[17:26] that that we talked about. However, aiming for 50 to 100 reviews is
+[17:28] aiming for 50 to 100 reviews is definitely a good benchmark. And often
+[17:29] definitely a good benchmark. And often times, that's where the snowball really
+[17:31] times, that's where the snowball really starts rolling. And step number four,
+[17:33] starts rolling. And step number four, don't stop at just one book. The window
+[17:35] don't stop at just one book. The window I've been talking about is open across a
+[17:37] I've been talking about is open across a bunch of niches right now, not just one.
+[17:39] bunch of niches right now, not just one. So, the publishers who plant their flag
+[17:41] So, the publishers who plant their flag in two, three, even five different
+[17:43] in two, three, even five different niches in the next 6 months are the ones
+[17:45] niches in the next 6 months are the ones who are going to be compounding for
+[17:47] who are going to be compounding for years. Because one book is cool, but a
+[17:49] years. Because one book is cool, but a portfolio of books is a real business.
+[17:51] portfolio of books is a real business. That's the difference between trying
+[17:53] That's the difference between trying this out and actually building something
+[17:54] this out and actually building something that pays you for a long time. All
+[17:56] that pays you for a long time. All right, so let me bring this whole thing
+[17:57] right, so let me bring this whole thing together. Once again, demand on Amazon
+[17:59] together. Once again, demand on Amazon is at all-time highs. The barrier to
+[18:02] is at all-time highs. The barrier to making a quality book has collapsed.
+[18:04] making a quality book has collapsed. Older books in big niches have lots of
+[18:06] Older books in big niches have lots of reviews, but their covers, titles, and
+[18:08] reviews, but their covers, titles, and content are weak, which means they're
+[18:10] content are weak, which means they're actually beatable right now if you bring
+[18:12] actually beatable right now if you bring a higher quality book. Most people
+[18:14] a higher quality book. Most people aren't paying attention because the
+[18:15] aren't paying attention because the YouTube hype has died off. The
+[18:17] YouTube hype has died off. The publishers who move on this in the next
+[18:19] publishers who move on this in the next 6 months are going to own their niches
+[18:20] 6 months are going to own their niches for years. Because by the time the hype
+[18:22] for years. Because by the time the hype comes back, which I'm confident it will,
+[18:24] comes back, which I'm confident it will, those publishers will have both quality
+[18:27] those publishers will have both quality and thousands of reviews. And that is a
+[18:29] and thousands of reviews. And that is a very hard combination to compete with.
+[18:31] very hard combination to compete with. The window is right open right now, but
+[18:33] The window is right open right now, but it's not going to stay open forever. If
+[18:35] it's not going to stay open forever. If you want the exact tool we use to make
+[18:36] you want the exact tool we use to make these books faster and at a higher
+[18:38] these books faster and at a higher quality than anything else out there,
+[18:39] quality than anything else out there, you can check out co-author.ai in the
+[18:41] you can check out co-author.ai in the description below. And if you want us to
+[18:43] description below. And if you want us to actually walk you through this whole
+[18:44] actually walk you through this whole thing step by step, help you pick the
+[18:46] thing step by step, help you pick the right niches, launch your books the
+[18:48] right niches, launch your books the right way, and build out your portfolio
+[18:49] right way, and build out your portfolio so you're not guessing, that is exactly
+[18:51] so you're not guessing, that is exactly what we do inside our mentorship program
+[18:53] what we do inside our mentorship program called Road to Hero. I will also leave a
+[18:55] called Road to Hero. I will also leave a link to Road to Hero in the description
+[18:56] link to Road to Hero in the description if you want to learn more and see if
+[18:58] if you want to learn more and see if it's a good fit. However, I do
+[18:59] it's a good fit. However, I do understand that you probably literally
+[19:01] understand that you probably literally just learned about KDP in this video and
+[19:03] just learned about KDP in this video and you know, jumping into a coaching
+[19:04] you know, jumping into a coaching program might be too big of a jump.
+[19:06] program might be too big of a jump. Obviously, if you want to, we're not
+[19:07] Obviously, if you want to, we're not going to stop you. But if you want to
+[19:09] going to stop you. But if you want to research a little bit more about KDP,
+[19:11] research a little bit more about KDP, I'll leave a link to this video, which
+[19:12] I'll leave a link to this video, which is a complete overview of how Amazon KDP
+[19:14] is a complete overview of how Amazon KDP works as a business model, so you can
+[19:16] works as a business model, so you can get a better idea of what to expect. So,
+[19:18] get a better idea of what to expect. So, if you enjoyed this video, if this video
+[19:20] if you enjoyed this video, if this video opened your eyes on what's possible with
+[19:22] opened your eyes on what's possible with digital publishing, let me know by
+[19:23] digital publishing, let me know by leaving a like and subscribing. I'll be
+[19:25] leaving a like and subscribing. I'll be dropping more videos on Amazon KDP
+[19:27] dropping more videos on Amazon KDP strategies every single week. Thanks for
+[19:28] strategies every single week. Thanks for watching until the end and I'll see you
+[19:30] watching until the end and I'll see you in the next one.
+```
+
+---
+_Work dir: `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-NyfGjgs5Q7w` — delete when done._

@@ -5202,6 +5202,156 @@
             "ensemble": true,
             "compound_pairing": "nate-b-jones-context-engineering + corey-mcclain-persona-engineering + david-bayer-elite-communication",
             "feedback": "fb_20260714_032212_1f66"
+        },
+        {
+            "routing_id": "rt_20260714_042611_ac6d",
+            "timestamp": "2026-07-14T04:26:11.697614+00:00",
+            "session_id": "085d3918-6379-4389-8d36-a939854e85e6",
+            "request_summary": "run /go I want you to analyze this session. This was all created by Opus 4.8. I wanted to make sure that everything was built as intended and nothing is done to a low standard, in that it actually mee",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-vsl-leads",
+            "experts_deployed": [
+                "luke-iha-vsl-leads",
+                "kallaway-illusion-of-novelty",
+                "dara-denney-meta-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-vsl-leads",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-vsl-leads + kallaway-illusion-of-novelty + dara-denney-meta-ads",
+            "feedback": "fb_20260714_043035_2b22"
+        },
+        {
+            "routing_id": "rt_20260714_044752_5424",
+            "timestamp": "2026-07-14T04:47:52.684021+00:00",
+            "session_id": "436c8b3e-f36a-46bb-a207-b4378ad335f4",
+            "request_summary": "<task-notification>\n<task-id>a0fb8444dee716422</task-id>\n<tool-use-id>toolu_019FoA6MN4ZkfKddRgKH41aE</tool-use-id>\n<output-file>/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/436c8b3e-f",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-copy-blocks",
+            "experts_deployed": [
+                "luke-iha-copy-blocks",
+                "alex-content-science",
+                "sky-tan-format-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-copy-blocks",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-copy-blocks + alex-content-science + sky-tan-format-engine",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260714_044824_b1a6",
+            "timestamp": "2026-07-14T04:48:24.146737+00:00",
+            "session_id": "436c8b3e-f36a-46bb-a207-b4378ad335f4",
+            "request_summary": "<task-notification>\n<task-id>ab281eb010c3e84ac</task-id>\n<tool-use-id>toolu_01WqHYwRzse4nKH37c38aM4i</tool-use-id>\n<output-file>/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/436c8b3e-f",
+            "intent_score": 0,
+            "domain_detected": "jason-fladlien-marketing",
+            "experts_deployed": [
+                "jason-fladlien-marketing",
+                "luke-iha-vsl-leads",
+                "sean-dollwet-kdp-publishing"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jason-fladlien-marketing",
+            "ensemble": true,
+            "compound_pairing": "jason-fladlien-marketing + luke-iha-vsl-leads + sean-dollwet-kdp-publishing",
+            "feedback": "fb_20260714_045858_7f12"
+        },
+        {
+            "routing_id": "rt_20260714_051139_6279",
+            "timestamp": "2026-07-14T05:11:39.703094+00:00",
+            "session_id": "436c8b3e-f36a-46bb-a207-b4378ad335f4",
+            "request_summary": "<task-notification>\n<task-id>acea59b17be5afd5a</task-id>\n<tool-use-id>toolu_018b3WdvGxLvtr6nJXGiUAye</tool-use-id>\n<output-file>/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/436c8b3e-f",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-avatar-machine",
+            "experts_deployed": [
+                "luke-iha-avatar-machine",
+                "sean-dollwet-kdp-publishing",
+                "dara-denney-meta-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-avatar-machine",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-avatar-machine + sean-dollwet-kdp-publishing + dara-denney-meta-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260714_051252_b6f3",
+            "timestamp": "2026-07-14T05:12:52.413944+00:00",
+            "session_id": "436c8b3e-f36a-46bb-a207-b4378ad335f4",
+            "request_summary": "<task-notification>\n<task-id>a9fd6a1a445e7173c</task-id>\n<tool-use-id>toolu_0179t5SNT3FStcRKsF9p7SwE</tool-use-id>\n<output-file>/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/436c8b3e-f",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "sean-dollwet-kdp-publishing",
+                "fantastic-posters"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + sean-dollwet-kdp-publishing + fantastic-posters",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260714_051843_d2c7",
+            "timestamp": "2026-07-14T05:18:43.770918+00:00",
+            "session_id": "436c8b3e-f36a-46bb-a207-b4378ad335f4",
+            "request_summary": "<task-notification>\n<task-id>aa15275747689df5e</task-id>\n<tool-use-id>toolu_01RquGybeNhuH4P8YVLZbFz3</tool-use-id>\n<output-file>/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/436c8b3e-f",
+            "intent_score": 0,
+            "domain_detected": "sean-dollwet-kdp-publishing",
+            "experts_deployed": [
+                "sean-dollwet-kdp-publishing",
+                "deliberate",
+                "mark-kashef-wargame-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "sean-dollwet-kdp-publishing",
+            "ensemble": true,
+            "compound_pairing": "sean-dollwet-kdp-publishing + deliberate + mark-kashef-wargame-os",
+            "feedback": "fb_20260714_051943_6761"
+        },
+        {
+            "routing_id": "rt_20260714_052459_9bd9",
+            "timestamp": "2026-07-14T05:24:59.813409+00:00",
+            "session_id": "085d3918-6379-4389-8d36-a939854e85e6",
+            "request_summary": "Deepen: commit the restored kallaway-illusion package + classifier + ban bank now, message: \"restore: recover divergent-branch novelty engine + slop enforcement (40da44cda) + July-standard enrichment\"",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "claim-safe-health-marketing",
+                "kallaway-illusion-of-novelty"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + claim-safe-health-marketing + kallaway-illusion-of-novelty",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260714_053053_4356",
+            "timestamp": "2026-07-14T05:30:53.133634+00:00",
+            "session_id": "",
+            "request_summary": "Sean Dollwet — Amazon KDP operator-system mastery extraction (forge, 5 videos watched + frame-verified): skill v3.0 with 10 unified workflows, /kdp-engine front door, genius.md 22 patterns, 7 born-v2 ",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "sean-dollwet"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -5465,12 +5615,39 @@
             "rating": "auto_miss",
             "correction": "joey-cinema-os",
             "notes": "expert skill 'joey-cinema-os' loaded not matching suggestion ['nate-b-jones-context-engineering', 'corey-mcclain-persona-engineering', 'david-bayer-elite-communication']"
+        },
+        {
+            "feedback_id": "fb_20260714_043035_2b22",
+            "timestamp": "2026-07-14T04:30:35.312559+00:00",
+            "session_id": "085d3918-6379-4389-8d36-a939854e85e6",
+            "routing_id": "rt_20260714_042611_ac6d",
+            "rating": "auto_match",
+            "correction": "kallaway-illusion-of-novelty",
+            "notes": "expert skill 'kallaway-illusion-of-novelty' loaded matching suggestion ['luke-iha-vsl-leads', 'kallaway-illusion-of-novelty', 'dara-denney-meta-ads']"
+        },
+        {
+            "feedback_id": "fb_20260714_045858_7f12",
+            "timestamp": "2026-07-14T04:58:58.624588+00:00",
+            "session_id": "436c8b3e-f36a-46bb-a207-b4378ad335f4",
+            "routing_id": "rt_20260714_044824_b1a6",
+            "rating": "auto_match",
+            "correction": "sean-dollwet-kdp-publishing",
+            "notes": "expert skill 'sean-dollwet-kdp-publishing' loaded matching suggestion ['jason-fladlien-marketing', 'luke-iha-vsl-leads', 'sean-dollwet-kdp-publishing']"
+        },
+        {
+            "feedback_id": "fb_20260714_051943_6761",
+            "timestamp": "2026-07-14T05:19:43.766776+00:00",
+            "session_id": "436c8b3e-f36a-46bb-a207-b4378ad335f4",
+            "routing_id": "rt_20260714_051843_d2c7",
+            "rating": "auto_match",
+            "correction": "sean-dollwet-kdp-publishing",
+            "notes": "expert skill 'sean-dollwet-kdp-publishing' loaded matching suggestion ['sean-dollwet-kdp-publishing', 'deliberate', 'mark-kashef-wargame-os']"
         }
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 289,
-            "total_feedback": 29,
+            "total_routings": 297,
+            "total_feedback": 32,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
@@ -5482,24 +5659,24 @@
                 "Creative": 8,
                 "Legal Consult Prep": 1,
                 "Content": 36,
-                "Extraction": 7,
+                "Extraction": 8,
                 "Research": 5,
                 "stefan-georgi-dopamine-copy": 7,
-                "supercomputer": 16,
+                "supercomputer": 18,
                 "design-md": 13,
                 "david-placek-naming": 5,
                 "nicolas-cole-niche-positioning": 5,
                 "brand-operating-system": 10,
                 "how-i-write-os": 10,
                 "nate-b-jones-auto-improvement-loops": 1,
-                "jason-fladlien-marketing": 5,
+                "jason-fladlien-marketing": 6,
                 "paul-james-ai-automation": 1,
                 "nicolas-cole-digital-products": 1,
                 "nate-b-jones-context-engineering": 30,
                 "omar-eltakrori": 1,
-                "luke-iha-copy-blocks": 11,
+                "luke-iha-copy-blocks": 12,
                 "extract-mastery": 2,
-                "luke-iha-avatar-machine": 3,
+                "luke-iha-avatar-machine": 4,
                 "skill-creator": 1,
                 "higgsfield-creative-studio": 1,
                 "voice-os": 7,
@@ -5507,7 +5684,7 @@
                 "nate-b-jones-intent-engineering": 1,
                 "strength-conditioning-os": 2,
                 "ai-chris-lee-zero-testimonial-sales": 1,
-                "luke-iha-vsl-leads": 1,
+                "luke-iha-vsl-leads": 2,
                 "dr-kriukow-humanization": 1,
                 "mcp-builder": 1,
                 "pptx": 4,
@@ -5521,7 +5698,8 @@
                 "dan-martell-business-scaling": 1,
                 "corey-mcclain-persona-engineering": 1,
                 "fantastic-posters": 1,
-                "joey-cinema-os": 2
+                "joey-cinema-os": 2,
+                "sean-dollwet-kdp-publishing": 1
             },
             "expert_counts": {
                 "system-audit": 19,
@@ -5546,11 +5724,11 @@
                 "master-copywriter": 3,
                 "ben-watkins": 1,
                 "stefan-georgi-dopamine-copy": 15,
-                "luke-iha-copy-blocks": 18,
+                "luke-iha-copy-blocks": 19,
                 "how-i-write-os": 19,
                 "system-architecture": 7,
-                "supercomputer": 21,
-                "jason-fladlien-marketing": 7,
+                "supercomputer": 23,
+                "jason-fladlien-marketing": 8,
                 "design-md": 22,
                 "simon-intellectual-library-os": 1,
                 "pptx": 7,
@@ -5558,7 +5736,7 @@
                 "brand-operating-system": 23,
                 "nicolas-cole-niche-positioning": 11,
                 "prediction-market-making": 1,
-                "deliberate": 9,
+                "deliberate": 10,
                 "mark-kashef-ai-councils": 1,
                 "gpt-image-2-director": 9,
                 "marketing-studio-director": 12,
@@ -5579,7 +5757,7 @@
                 "nate-b-jones-ai-taste-mastery": 1,
                 "tobias-allen": 1,
                 "system-orchestrator": 3,
-                "claim-safe-health-marketing": 1,
+                "claim-safe-health-marketing": 2,
                 "omar-eddaoudi-scaling-ops": 6,
                 "nicolas-cole-digital-products": 1,
                 "test-expert": 2,
@@ -5590,7 +5768,7 @@
                 "none": 2,
                 "alan-aragon-nutrition": 1,
                 "nate-b-jones-context-engineering": 34,
-                "luke-iha-avatar-machine": 4,
+                "luke-iha-avatar-machine": 5,
                 "alex-suzuki": 2,
                 "darrel-wilson-ai-monetization": 1,
                 "darrel-wilson-ai-affiliate": 1,
@@ -5598,7 +5776,7 @@
                 "farrice-master-context-synthesis": 1,
                 "omar-eltakrori": 1,
                 "donald-miller-culture-turnaround": 3,
-                "mark-kashef-wargame-os": 1,
+                "mark-kashef-wargame-os": 2,
                 "asset_generator": 1,
                 "dan-wang-literary-analysis": 1,
                 "oren-john": 1,
@@ -5609,7 +5787,7 @@
                 "voice-os": 12,
                 "dara-denney": 2,
                 "corey-mcclain-persona-engineering": 26,
-                "luke-iha-vsl-leads": 2,
+                "luke-iha-vsl-leads": 4,
                 "cooz-voice-profile": 3,
                 "market_intelligence": 1,
                 "gemini-api-dev": 3,
@@ -5621,8 +5799,8 @@
                 "icp-deep-canvasser": 1,
                 "donald-miller-cognitive-load": 1,
                 "luke-iha-unaware-ads": 1,
-                "dara-denney-meta-ads": 4,
-                "fantastic-posters": 6,
+                "dara-denney-meta-ads": 6,
+                "fantastic-posters": 7,
                 "nate-b-jones-intent-engineering": 1,
                 "evan-spiegel-distribution-architecture": 2,
                 "chase-hughes-context-engineering": 2,
@@ -5651,7 +5829,7 @@
                 "luke-iha-proof-ladder": 1,
                 "mitch-albom-writing-mastery": 1,
                 "theme-factory": 1,
-                "kallaway-illusion-of-novelty": 1,
+                "kallaway-illusion-of-novelty": 3,
                 "cinematic-documentary": 1,
                 "research-engine": 1,
                 "web-artifacts-builder": 1,
@@ -5667,10 +5845,14 @@
                 "banana-pro-director": 1,
                 "cinema-worldbuilder-pro": 2,
                 "story-bible-builder": 1,
-                "joey-noisy-group": 1
+                "joey-noisy-group": 1,
+                "alex-content-science": 1,
+                "sky-tan-format-engine": 1,
+                "sean-dollwet-kdp-publishing": 4,
+                "sean-dollwet": 1
             },
             "tier_counts": {
-                "0": 289,
+                "0": 297,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -5678,12 +5860,12 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 154,
-                "finalize-auto": 135
+                "hybrid": 161,
+                "finalize-auto": 136
             },
-            "ensemble_count": 203,
+            "ensemble_count": 211,
             "auto_miss_count": 25,
-            "auto_match_count": 4
+            "auto_match_count": 7
         }
     }
 }

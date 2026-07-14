@@ -1,12 +1,12 @@
 # Knowledge Briefing
-*Generated: 2026-07-13 | 583 sources | 2,459,712 words*
+*Generated: 2026-07-13 | 591 sources | 2,487,068 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 4,045 words — `knowledge/index.md`
-- **log** (general) — 11,302 words — `knowledge/log.md`
+- **index** (content) — 4,100 words — `knowledge/index.md`
+- **log** (general) — 11,328 words — `knowledge/log.md`
 - **VISION** (systems) — 648 words — `extractions/joey-cinema/VISION.md`
 - **notion-cinema-claude-skills-v3** (seo) — 2,211 words — `extractions/joey-cinema/notion-cinema-claude-skills-v3.md`
 - **skill-files-analysis** (screenwriting) — 8,609 words — `extractions/joey-cinema/skill-files-analysis.md`
@@ -20,10 +20,10 @@
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 190 | nicolas-cole |
-| copywriting | 92 | luke-iha |
+| content | 194 | nicolas-cole |
+| copywriting | 94 | luke-iha |
 | general | 82 | nick-saraev |
-| strategy | 51 | april-dunford |
+| strategy | 53 | april-dunford |
 | screenwriting | 47 | connelly |
 | brand | 37 | oren-john |
 | systems | 32 | nick-saraev |

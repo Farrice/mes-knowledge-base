@@ -2,7 +2,7 @@
 
 > **Status as of 2026-04-23**: NotebookLM's Pro-tier output features (Mind Maps, Audio Overviews, Infographics) are NOT exposed by the current Chrome-automation integration. The `notebooklm_client.py` wrapper supports query operations only.
 >
-> **This directive documents when to generate these outputs manually in the browser.** Extending the automation is a future-phase decision — see plan `.claude/plans/i-think-all-the-buzzing-blum.md`.
+> **This directive documents when to generate these outputs manually in the browser.** Extending the automation is a future-phase decision — see plan `.claude/plans/i-think-all-the-buzzing-blum.md (ephemeral plan-mode artifact, expired)`.
 
 ---
 

@@ -29,7 +29,7 @@ Triggered by: a worked-example improvement, a new universal token, a structural 
 1. Update `templates/brand-operating-system-v1/<file>` directly.
 2. Update `templates/brand-operating-system-v1/TOKENS.md` if the change adds/renames a token.
 3. **Back-apply to Resonance** — `projects/andrea-dj/brand-operating-system/<file>` gets the same change. Otherwise template + reference diverge.
-4. If the change affects the structural skeleton (new section, reordered sections, new file), bump skill version (v1 → v2) and document in `skills/brand-operating-system/CHANGELOG.md`.
+4. If the change affects the structural skeleton (new section, reordered sections, new file), bump skill version (v1 → v2) and document in `skills/brand-operating-system/CHANGELOG.md (not yet created — start it on the next BOS change)`.
 5. If back-application to Resonance is intentionally skipped (e.g., Resonance has a unique constraint), note the divergence in `projects/andrea-dj/brand-operating-system/05-ops/01-change-log.md` AND in this directive's "Known Divergences" section below.
 
 ### When Resonance amends (founder-driven)
@@ -64,7 +64,7 @@ Triggered by: a new agent/skill becomes available and improves a phase, a qualit
 **Patch version (v1.1.0 → v1.1.1)**: Typo fixes, link corrections, doc clarifications.
 
 Track in:
-- Skill changelog: `skills/brand-operating-system/CHANGELOG.md`
+- Skill changelog: `skills/brand-operating-system/CHANGELOG.md (not yet created — start it on the next BOS change)`
 - Live BOS changelogs: each `projects/<client>/brand-operating-system/05-ops/01-change-log.md`
 
 ---

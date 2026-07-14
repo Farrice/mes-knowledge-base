@@ -14,15 +14,19 @@ Sean Dollwet failed at e-commerce, blogging, affiliate marketing, and MLMs for f
 1. **Demand-first topic validation** — BSR-threshold analysis (sub-80k ≈ $500/mo), keyword competition reads, and the ranking-without-sales red flag that distinguishes empty niches from opportunities
 2. **Title/subtitle engineering** — pain-point-driven, benefit-stacked, keyword-loaded titles that sell from the search page; hard rule that non-fiction clarity beats artsy every time
 3. **AI-assisted book production** — outline math (8×3×1,250 words), subchapter-at-a-time drafting, and the human-elevation pass that separates real books from the AI-slop flood
-4. **Review acquisition & launch** — Book Reverb/Book Bounty dual-platform campaigns inside KDP rules, 10-review marketing floor, $3/day Amazon ads with profit-gated scaling
+4. **Review acquisition & launch** — Book Reverb/Book Bounty dual-platform campaigns inside KDP rules, 15-review marketing floor, 50-100 reviews by day 90 (the door-close moat), $3-5/day Amazon ads run as diagnostic data with profit-gated scaling
 5. **Format multiplication & catalog exit** — ebook → paperback → audiobook → translations → bundles → wide distribution, with pen-name catalogs built as sellable equity
+6. **Organic short-form engine** — the 7-type book-video taxonomy (faceless-first), volume-game posting, winner-repetition cloning, 1-page-=-1-video content math, TikTok → IG → YouTube repurposing, TikTok Shop graduation
+7. **Market-timing & niche targeting** — the 3-shift window thesis, soft-underbelly scans (top books under 300 reviews / dated covers / stale content), multi-niche flag-planting while the window is open
 
 ## Available Skills
 
-- `skills/sean-dollwet-kdp-publishing/` — SKILL.md (system overview + quick reference), genius.md (10 genius patterns + hidden knowledge)
-  - `workflows/01-validate-book-topic.md` — GO/NO-GO demand verdicts with BSR evidence
-  - `workflows/02-produce-publishable-book.md` — title package, outline, draft plan, cover direction
-  - `workflows/03-launch-and-multiply.md` — reviews, ads, format roadmap, exit posture
+- `skills/sean-dollwet-kdp-publishing/` — SKILL.md v3.0 (system overview + quick reference + stacking guide), genius.md (22 genius patterns, 13 hidden-knowledge insights, Hall-of-Fame exemplars, quality rubric)
+  - Tier 1: `01-hunt-and-validate` (GO/NO-GO demand verdict) · `02-book-blueprint` (outline, title, spec, cover direction) · `03-produce-manuscript` (5-prompt chain + humanize loop) · `04-launch-90` (honeymoon + 90-day review sprint)
+  - Tier 2: `05-book-doctor` (stalled-book diagnostic) · `06-organic-engine` (short-form system) · `07-outsource-desk` (time-or-money briefs) · `08-multiply-formats` (format sequence)
+  - Tier 3: `09-portfolio-command` (multi-niche P&L + exit prep) · `10-surpass-stack` (optional arsenal handoffs)
+  - References: `window-thesis` · `prompt-chain` (verbatim production chain) · `price-sheet` (full economics) · `organic-taxonomy`
+  - Front door: `.agent/workflows/kdp-engine.md` (`/kdp-engine`)
 
 ## Decision Framework
 

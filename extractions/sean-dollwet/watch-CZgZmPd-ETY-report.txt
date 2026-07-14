@@ -1,0 +1,675 @@
+[watch] working dir: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY
+[watch] checking metadata/captions via yt-dlp…
+WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+[youtube] Extracting URL: https://www.youtube.com/watch?v=CZgZmPd-ETY
+[youtube] CZgZmPd-ETY: Downloading webpage
+[youtube] CZgZmPd-ETY: Downloading android vr player API JSON
+[info] CZgZmPd-ETY: Downloading subtitles: en-orig, en
+[info] CZgZmPd-ETY: Downloading 1 format(s): 399+251
+[info] Writing video subtitles to: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/download/video.en-orig.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/download/video.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at  Unknown B/s (00:00:00)[download]   31.00KiB at    7.23MiB/s (00:00:00)[download]   63.00KiB at    7.69MiB/s (00:00:00)[download]  127.00KiB at    3.26MiB/s (00:00:00)[download]  170.20KiB at    3.81MiB/s (00:00:00)[download] 100% of  170.20KiB in 00:00:00 at 1.47MiB/s
+[info] Writing video subtitles to: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/download/video.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/download/video.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at   10.31MiB/s (00:00:00)[download]   31.00KiB at   19.03MiB/s (00:00:00)[download]   63.00KiB at   11.85MiB/s (00:00:00)[download]  127.00KiB at   11.17MiB/s (00:00:00)[download]  170.20KiB at    5.72MiB/s (00:00:00)[download] 100% of  170.20KiB in 00:00:00 at 1.75MiB/s
+[info] Writing video metadata as JSON to: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/download/video.info.json
+[SubtitlesConvertor] Converting subtitles
+[SubtitlesConvertor] Subtitle file for vtt is already in the requested format
+[SubtitlesConvertor] Subtitle file for vtt is already in the requested format
+[watch] downloading video via yt-dlp…
+WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+[youtube] Extracting URL: https://www.youtube.com/watch?v=CZgZmPd-ETY
+[youtube] CZgZmPd-ETY: Downloading webpage
+[youtube] CZgZmPd-ETY: Downloading android vr player API JSON
+[info] CZgZmPd-ETY: Downloading subtitles: en-orig, en
+[info] CZgZmPd-ETY: Downloading 1 format(s): 398+251
+Deleting existing file /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/download/video.en-orig.vtt
+[info] Writing video subtitles to: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/download/video.en-orig.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/download/video.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at    1.46MiB/s (00:00:00)[download]   15.00KiB at    1.72MiB/s (00:00:00)[download]   31.00KiB at    1.62MiB/s (00:00:00)[download]   63.00KiB at    1.50MiB/s (00:00:00)[download]  127.00KiB at    1.48MiB/s (00:00:00)[download]  170.20KiB at    1.23MiB/s (00:00:00)[download] 100% of  170.20KiB in 00:00:00 at 826.55KiB/s
+Deleting existing file /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/download/video.en.vtt
+[info] Writing video subtitles to: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/download/video.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/download/video.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at  Unknown B/s (00:00:00)[download]   15.00KiB at   13.88MiB/s (00:00:00)[download]   31.00KiB at    5.99MiB/s (00:00:00)[download]   63.00KiB at    2.36MiB/s (00:00:00)[download]  127.00KiB at    1.83MiB/s (00:00:00)[download]  170.20KiB at    1.70MiB/s (00:00:00)[download] 100% of  170.20KiB in 00:00:00 at 877.55KiB/s
+[info] Writing video metadata as JSON to: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/download/video.info.json
+[SubtitlesConvertor] Converting subtitles
+[SubtitlesConvertor] Subtitle file for vtt is already in the requested format
+[SubtitlesConvertor] Subtitle file for vtt is already in the requested format
+[download] Destination: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/download/video.f398.mp4
+[download]   0.0% of   57.46MiB at  646.77KiB/s ETA 01:31[download]   0.0% of   57.46MiB at    1.62MiB/s ETA 00:35[download]   0.0% of   57.46MiB at    3.51MiB/s ETA 00:16[download]   0.0% of   57.46MiB at    7.10MiB/s ETA 00:08[download]   0.1% of   57.46MiB at   13.88MiB/s ETA 00:04[download]   0.1% of   57.46MiB at    3.07MiB/s ETA 00:18[download]   0.2% of   57.46MiB at    3.65MiB/s ETA 00:15[download]   0.4% of   57.46MiB at    2.81MiB/s ETA 00:20[download]   0.9% of   57.46MiB at    4.04MiB/s ETA 00:14[download]   1.7% of   57.46MiB at    4.84MiB/s ETA 00:11[download]   3.5% of   57.46MiB at    4.67MiB/s ETA 00:11[download]   7.0% of   57.46MiB at    5.92MiB/s ETA 00:09[download]  13.9% of   57.46MiB at    6.04MiB/s ETA 00:08[download]  16.8% of   57.46MiB at    6.33MiB/s ETA 00:07[download]  16.8% of   57.46MiB at  302.23KiB/s ETA 02:42[download]  16.8% of   57.46MiB at  816.59KiB/s ETA 00:59[download]  16.8% of   57.46MiB at    1.79MiB/s ETA 00:26[download]  16.9% of   57.46MiB at    3.62MiB/s ETA 00:13[download]  16.9% of   57.46MiB at    3.90MiB/s ETA 00:12[download]  16.9% of   57.46MiB at    4.28MiB/s ETA 00:11[download]  17.0% of   57.46MiB at    4.42MiB/s ETA 00:10[download]  17.3% of   57.46MiB at    4.45MiB/s ETA 00:10[download]  17.7% of   57.46MiB at    2.61MiB/s ETA 00:18[download]  18.6% of   57.46MiB at    4.10MiB/s ETA 00:11[download]  20.3% of   57.46MiB at    5.49MiB/s ETA 00:08[download]  23.8% of   57.46MiB at    5.77MiB/s ETA 00:07[download]  30.8% of   57.46MiB at    7.10MiB/s ETA 00:05[download]  33.6% of   57.46MiB at    7.62MiB/s ETA 00:05[download]  33.6% of   57.46MiB at  Unknown B/s ETA Unknown[download]  33.6% of   57.46MiB at  Unknown B/s ETA Unknown[download]  33.6% of   57.46MiB at  Unknown B/s ETA Unknown[download]  33.6% of   57.46MiB at  Unknown B/s ETA Unknown[download]  33.7% of   57.46MiB at   28.34MiB/s ETA 00:01  [download]  33.7% of   57.46MiB at   15.40MiB/s ETA 00:02[download]  33.8% of   57.46MiB at   14.47MiB/s ETA 00:02[download]  34.0% of   57.46MiB at   13.82MiB/s ETA 00:02[download]  34.5% of   57.46MiB at   13.76MiB/s ETA 00:02[download]  35.4% of   57.46MiB at   12.06MiB/s ETA 00:03[download]  37.1% of   57.46MiB at   13.50MiB/s ETA 00:02[download]  40.6% of   57.46MiB at   12.10MiB/s ETA 00:02[download]  47.5% of   57.46MiB at    9.29MiB/s ETA 00:03[download]  50.7% of   57.46MiB at    9.46MiB/s ETA 00:02[download]  50.7% of   57.46MiB at  599.96KiB/s ETA 00:48[download]  50.7% of   57.46MiB at    1.34MiB/s ETA 00:21[download]  50.7% of   57.46MiB at    2.73MiB/s ETA 00:10[download]  50.7% of   57.46MiB at    5.28MiB/s ETA 00:05[download]  50.7% of   57.46MiB at    9.91MiB/s ETA 00:02[download]  50.8% of   57.46MiB at   17.52MiB/s ETA 00:01[download]  50.9% of   57.46MiB at   11.60MiB/s ETA 00:02[download]  51.1% of   57.46MiB at   13.00MiB/s ETA 00:02[download]  51.6% of   57.46MiB at   13.87MiB/s ETA 00:02[download]  52.4% of   57.46MiB at   14.27MiB/s ETA 00:01[download]  54.2% of   57.46MiB at   14.17MiB/s ETA 00:01[download]  57.7% of   57.46MiB at    7.69MiB/s ETA 00:03[download]  64.6% of   57.46MiB at    9.46MiB/s ETA 00:02[download]  67.5% of   57.46MiB at   10.10MiB/s ETA 00:01[download]  67.5% of   57.46MiB at  Unknown B/s ETA Unknown[download]  67.5% of   57.46MiB at  Unknown B/s ETA Unknown[download]  67.5% of   57.46MiB at  Unknown B/s ETA Unknown[download]  67.6% of   57.46MiB at  Unknown B/s ETA Unknown[download]  67.6% of   57.46MiB at  Unknown B/s ETA Unknown[download]  67.6% of   57.46MiB at   27.94MiB/s ETA 00:00  [download]  67.8% of   57.46MiB at   26.90MiB/s ETA 00:00[download]  68.0% of   57.46MiB at   17.98MiB/s ETA 00:01[download]  68.4% of   57.46MiB at   15.73MiB/s ETA 00:01[download]  69.3% of   57.46MiB at   14.94MiB/s ETA 00:01[download]  71.0% of   57.46MiB at    9.46MiB/s ETA 00:01[download]  74.5% of   57.46MiB at   12.12MiB/s ETA 00:01[download]  81.5% of   57.46MiB at   10.95MiB/s ETA 00:00[download]  84.7% of   57.46MiB at   12.15MiB/s ETA 00:00[download]  84.7% of   57.46MiB at  Unknown B/s ETA Unknown[download]  84.7% of   57.46MiB at  Unknown B/s ETA Unknown[download]  84.7% of   57.46MiB at  Unknown B/s ETA Unknown[download]  84.8% of   57.46MiB at  Unknown B/s ETA Unknown[download]  84.8% of   57.46MiB at  Unknown B/s ETA Unknown[download]  84.8% of   57.46MiB at   26.63MiB/s ETA 00:00  [download]  84.9% of   57.46MiB at   40.39MiB/s ETA 00:00[download]  85.2% of   57.46MiB at   22.07MiB/s ETA 00:00[download]  85.6% of   57.46MiB at   23.20MiB/s ETA 00:00[download]  86.5% of   57.46MiB at   22.01MiB/s ETA 00:00[download]  88.2% of   57.46MiB at   16.48MiB/s ETA 00:00[download]  91.7% of   57.46MiB at   17.40MiB/s ETA 00:00[download]  98.7% of   57.46MiB at   19.73MiB/s ETA 00:00[download] 100.0% of   57.46MiB at   20.00MiB/s ETA 00:00[download] 100% of   57.46MiB in 00:00:07 at 7.95MiB/s   
+[download] Destination: /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/download/video.f251.webm
+[download]   0.0% of   15.54MiB at  Unknown B/s ETA Unknown[download]   0.0% of   15.54MiB at  Unknown B/s ETA Unknown[download]   0.0% of   15.54MiB at  Unknown B/s ETA Unknown[download]   0.1% of   15.54MiB at  Unknown B/s ETA Unknown[download]   0.2% of   15.54MiB at  Unknown B/s ETA Unknown[download]   0.4% of   15.54MiB at   55.67MiB/s ETA 00:00  [download]   0.8% of   15.54MiB at   50.87MiB/s ETA 00:00[download]   1.6% of   15.54MiB at   31.65MiB/s ETA 00:00[download]   3.2% of   15.54MiB at   26.84MiB/s ETA 00:00[download]   6.4% of   15.54MiB at   23.84MiB/s ETA 00:00[download]  12.9% of   15.54MiB at   23.04MiB/s ETA 00:00[download]  25.7% of   15.54MiB at   23.28MiB/s ETA 00:00[download]  51.5% of   15.54MiB at   10.00MiB/s ETA 00:00[download]  63.0% of   15.54MiB at   11.00MiB/s ETA 00:00[download]  63.0% of   15.54MiB at  Unknown B/s ETA Unknown[download]  63.0% of   15.54MiB at  Unknown B/s ETA Unknown[download]  63.0% of   15.54MiB at  Unknown B/s ETA Unknown[download]  63.1% of   15.54MiB at  Unknown B/s ETA Unknown[download]  63.2% of   15.54MiB at  Unknown B/s ETA Unknown[download]  63.4% of   15.54MiB at   57.65MiB/s ETA 00:00  [download]  63.8% of   15.54MiB at   81.43MiB/s ETA 00:00[download]  64.6% of   15.54MiB at    1.30MiB/s ETA 00:04[download]  66.2% of   15.54MiB at    2.47MiB/s ETA 00:02[download]  69.4% of   15.54MiB at    4.49MiB/s ETA 00:01[download]  75.8% of   15.54MiB at    7.59MiB/s ETA 00:00[download]  88.7% of   15.54MiB at   11.71MiB/s ETA 00:00[download] 100.0% of   15.54MiB at   10.42MiB/s ETA 00:00[download] 100% of   15.54MiB in 00:00:02 at 7.70MiB/s   
+[Merger] Merging formats into "/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/download/video.mp4"
+Deleting original file /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/download/video.f251.webm (pass -k to keep)
+Deleting original file /Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/download/video.f398.mp4 (pass -k to keep)
+[watch] extracting scene-aware frames over full 941.5s (target 100, cap 100)…
+
+# watch: video report
+
+- **Source:** https://www.youtube.com/watch?v=CZgZmPd-ETY
+- **Title:** How to Sell More Books on Amazon KDP WITHOUT Paid Ads
+- **Uploader:** Sean Dollwet
+- **Duration:** 15:41 (941.5s)
+- **Resolution:** 1280x720 (av1)
+- **Detail:** balanced
+- **Frames:** 100 selected from 112 candidates (scene, 1 near-duplicate dropped, full range, budget 100, cap 100)
+- **Frame size:** max 512px wide, max 1998px tall
+- **Transcript:** 489 segments (via captions)
+
+> **Warning:** This is a 15-minute video. Frame coverage is sparse at this length under `balanced` detail — its cap spreads thin across the full clip. For better results, re-run with `--start HH:MM:SS --end HH:MM:SS` to zoom into a section, or use `--detail token-burner` to keep every scene-change frame across the whole video.
+
+## Frames
+
+Frames live at: `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames`
+
+**Read each frame path below with the Read tool to view the image.** Frames are in chronological order; `t=MM:SS` is the absolute timestamp in the source video.
+
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0001.jpg` (t=00:00, reason=first-frame)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0002.jpg` (t=00:05, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0003.jpg` (t=00:11, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0005.jpg` (t=00:25, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0006.jpg` (t=00:30, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0008.jpg` (t=00:47, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0009.jpg` (t=00:53, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0010.jpg` (t=01:21, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0011.jpg` (t=01:30, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0012.jpg` (t=01:30, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0013.jpg` (t=01:34, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0014.jpg` (t=01:36, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0015.jpg` (t=01:38, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0016.jpg` (t=01:40, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0018.jpg` (t=02:02, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0019.jpg` (t=02:08, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0020.jpg` (t=02:24, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0021.jpg` (t=02:37, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0022.jpg` (t=02:49, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0023.jpg` (t=02:59, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0024.jpg` (t=02:59, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0025.jpg` (t=02:59, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0026.jpg` (t=03:14, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0028.jpg` (t=03:19, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0029.jpg` (t=03:21, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0030.jpg` (t=03:27, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0031.jpg` (t=03:27, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0032.jpg` (t=03:34, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0033.jpg` (t=03:40, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0034.jpg` (t=04:03, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0035.jpg` (t=04:05, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0036.jpg` (t=04:05, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0038.jpg` (t=04:06, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0039.jpg` (t=04:20, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0040.jpg` (t=04:22, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0041.jpg` (t=04:33, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0042.jpg` (t=04:33, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0043.jpg` (t=04:33, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0044.jpg` (t=04:36, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0045.jpg` (t=04:46, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0046.jpg` (t=04:58, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0048.jpg` (t=05:14, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0049.jpg` (t=05:33, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0050.jpg` (t=05:44, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0051.jpg` (t=06:00, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0052.jpg` (t=06:14, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0053.jpg` (t=06:19, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0054.jpg` (t=06:21, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0055.jpg` (t=06:21, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0056.jpg` (t=06:24, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0058.jpg` (t=06:25, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0059.jpg` (t=06:28, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0060.jpg` (t=06:28, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0061.jpg` (t=06:29, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0062.jpg` (t=06:29, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0063.jpg` (t=06:53, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0064.jpg` (t=07:03, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0065.jpg` (t=07:06, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0066.jpg` (t=07:07, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0068.jpg` (t=07:16, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0069.jpg` (t=07:28, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0070.jpg` (t=07:29, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0071.jpg` (t=07:31, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0072.jpg` (t=07:39, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0073.jpg` (t=07:44, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0074.jpg` (t=07:49, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0075.jpg` (t=07:57, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0076.jpg` (t=07:58, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0078.jpg` (t=08:00, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0079.jpg` (t=08:20, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0080.jpg` (t=08:37, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0081.jpg` (t=08:43, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0082.jpg` (t=09:17, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0083.jpg` (t=09:35, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0084.jpg` (t=09:57, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0085.jpg` (t=10:31, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0086.jpg` (t=10:59, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0088.jpg` (t=11:49, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0089.jpg` (t=12:02, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0090.jpg` (t=12:06, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0091.jpg` (t=12:12, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0092.jpg` (t=12:17, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0093.jpg` (t=12:22, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0094.jpg` (t=12:59, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0095.jpg` (t=13:03, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0096.jpg` (t=13:39, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0098.jpg` (t=13:58, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0099.jpg` (t=14:12, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0100.jpg` (t=14:17, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0101.jpg` (t=14:21, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0102.jpg` (t=14:26, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0103.jpg` (t=14:31, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0104.jpg` (t=14:33, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0105.jpg` (t=14:43, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0106.jpg` (t=14:48, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0108.jpg` (t=15:02, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0109.jpg` (t=15:08, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0110.jpg` (t=15:11, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0111.jpg` (t=15:13, reason=scene-change)
+- `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY/frames/frame_0112.jpg` (t=15:26, reason=scene-change)
+
+## Transcript
+
+_Source: captions._
+
+```
+[00:01] In this video, I'll show you how to sell more books on Amazon KDP using free
+[00:03] more books on Amazon KDP using free strategies. So, if you're just starting
+[00:05] strategies. So, if you're just starting out and you don't have a budget for paid
+[00:06] out and you don't have a budget for paid ads, these are effective strategies you
+[00:08] ads, these are effective strategies you can do right now to increase your sales.
+[00:10] can do right now to increase your sales. Now, if you're new to the channel, my
+[00:11] Now, if you're new to the channel, my name is Shawn. I've been self-publishing
+[00:13] name is Shawn. I've been self-publishing for a very long time. I became a
+[00:15] for a very long time. I became a self-made millionaire from actually
+[00:16] self-made millionaire from actually doing Amazon KDP before I started
+[00:18] doing Amazon KDP before I started teaching it on YouTube. So, essentially,
+[00:20] teaching it on YouTube. So, essentially, I made all that money just from doing
+[00:21] I made all that money just from doing the business. I am still working on my
+[00:23] the business. I am still working on my own Amazon KDP account to this day. So,
+[00:25] own Amazon KDP account to this day. So, if you want no-BS publishing advice from
+[00:27] if you want no-BS publishing advice from someone who's actually doing it, then
+[00:28] someone who's actually doing it, then make sure to subscribe. So, marketing is
+[00:30] make sure to subscribe. So, marketing is all about getting eyeballs to your book.
+[00:32] all about getting eyeballs to your book. If no one knows or sees your book, you
+[00:34] If no one knows or sees your book, you won't make any sales. When you run paid
+[00:36] won't make any sales. When you run paid ads like Amazon ads, you're literally
+[00:38] ads like Amazon ads, you're literally paying Amazon to put your book in front
+[00:40] paying Amazon to put your book in front of a lot of people. So, you're paying to
+[00:42] of a lot of people. So, you're paying to get a lot more eyeballs, and that'll
+[00:44] get a lot more eyeballs, and that'll directly translate to sales. Now, I
+[00:46] directly translate to sales. Now, I personally think running ads, especially
+[00:48] personally think running ads, especially Amazon ads, is the most direct and
+[00:50] Amazon ads, is the most direct and fastest way to start getting more sales.
+[00:53] fastest way to start getting more sales. However, I do understand that if you're
+[00:54] However, I do understand that if you're just getting started, you might not have
+[00:56] just getting started, you might not have the budget for it. Typically, the budget
+[00:59] the budget for it. Typically, the budget required is a lot cheaper than you
+[01:00] required is a lot cheaper than you think. A lot of people somehow think you
+[01:02] think. A lot of people somehow think you got to, you know, have thousands of
+[01:03] got to, you know, have thousands of dollars to spend on Amazon ads when
+[01:05] dollars to spend on Amazon ads when you're just getting started. When the
+[01:07] you're just getting started. When the reality is, you really just need couple
+[01:09] reality is, you really just need couple bucks a day, right? Like three to five
+[01:10] bucks a day, right? Like three to five bucks a day is all you need to start
+[01:12] bucks a day is all you need to start testing ads, and once you're making more
+[01:14] testing ads, and once you're making more than you spend, then you start spending
+[01:16] than you spend, then you start spending more because you're obviously going to
+[01:18] more because you're obviously going to make more back, right? So, that's how
+[01:19] make more back, right? So, that's how ads work. But, if you don't even have
+[01:22] ads work. But, if you don't even have three to five bucks a day, or you really
+[01:24] three to five bucks a day, or you really hate ads, you just want to do everything
+[01:25] hate ads, you just want to do everything for free, whatever the reason that is,
+[01:27] for free, whatever the reason that is, this is how you can sell more books
+[01:29] this is how you can sell more books without paid ads. Now, if you watch, you
+[01:31] without paid ads. Now, if you watch, you know, other videos on YouTube, people
+[01:32] know, other videos on YouTube, people will tell you a lot of different things,
+[01:34] will tell you a lot of different things, right? Do podcast appearance, start
+[01:36] right? Do podcast appearance, start writing on Substack, start blogging by
+[01:38] writing on Substack, start blogging by creating a website and a blog. People
+[01:40] creating a website and a blog. People will tell you all kinds of things, but
+[01:42] will tell you all kinds of things, but most of those are basically useless.
+[01:44] most of those are basically useless. It's a complete waste of time. I'm all
+[01:46] It's a complete waste of time. I'm all about being efficient and shortcutting
+[01:48] about being efficient and shortcutting my path to making money as much as
+[01:50] my path to making money as much as possible. So, if you're going to do free
+[01:52] possible. So, if you're going to do free marketing methods, the most direct and
+[01:55] marketing methods, the most direct and the fastest path to make money doing
+[01:57] the fastest path to make money doing that is social media marketing,
+[01:59] that is social media marketing, specifically posting short-form content.
+[02:01] specifically posting short-form content. And that could be on TikTok, that could
+[02:03] And that could be on TikTok, that could be on YouTube, on Instagram, but in
+[02:05] be on YouTube, on Instagram, but in general, TikTok is the most effective by
+[02:07] general, TikTok is the most effective by far. Once again, even with social media
+[02:09] far. Once again, even with social media marketing, most likely it's going to
+[02:11] marketing, most likely it's going to take longer than if you just, you know,
+[02:13] take longer than if you just, you know, ran paid ads. But that's a trade-off,
+[02:15] ran paid ads. But that's a trade-off, right? You're saving money by investing
+[02:17] right? You're saving money by investing a lot more time creating these
+[02:19] a lot more time creating these short-form content, posting it. It's
+[02:21] short-form content, posting it. It's going to be work, but it's going to be
+[02:22] going to be work, but it's going to be free for you, right? Or would you rather
+[02:25] free for you, right? Or would you rather save time and just pay money to run ads,
+[02:27] save time and just pay money to run ads, which will save you a lot of time, but
+[02:29] which will save you a lot of time, but you're, you know, investing money. So,
+[02:30] you're, you know, investing money. So, which do you want, right? You have to
+[02:32] which do you want, right? You have to decide that yourself. You know, the
+[02:34] decide that yourself. You know, the answer, honestly, if you want to really
+[02:35] answer, honestly, if you want to really scale your business to big levels, doing
+[02:37] scale your business to big levels, doing both is the answer because social media
+[02:39] both is the answer because social media marketing is amazing, ads is amazing.
+[02:41] marketing is amazing, ads is amazing. So, doing both is the end goal, but if
+[02:43] So, doing both is the end goal, but if you have to start with one, that is your
+[02:45] you have to start with one, that is your choice. But in terms of social media
+[02:47] choice. But in terms of social media marketing, how do you exactly do it?
+[02:49] marketing, how do you exactly do it? Well, let me show you some real examples
+[02:50] Well, let me show you some real examples here. So, this is Mindful Minds
+[02:52] here. So, this is Mindful Minds Co-publishing. He is Ashley one of our
+[02:54] Co-publishing. He is Ashley one of our coaches in the Road to Hero program. So,
+[02:56] coaches in the Road to Hero program. So, if you do join Road to Hero, you might,
+[02:57] if you do join Road to Hero, you might, you know, interact with him. But
+[02:59] you know, interact with him. But Jonathan over here is a TikTok expert.
+[03:01] Jonathan over here is a TikTok expert. He makes a lot of money from TikTok. A
+[03:03] He makes a lot of money from TikTok. A couple things I want to point out here
+[03:05] couple things I want to point out here is that Jonathan makes tens of thousands
+[03:07] is that Jonathan makes tens of thousands of dollars a month selling these books
+[03:09] of dollars a month selling these books on Amazon, but also on TikTok Shop,
+[03:12] on Amazon, but also on TikTok Shop, which is another platform you can sell
+[03:13] which is another platform you can sell on. However, if you look at the average
+[03:15] on. However, if you look at the average views that he's getting, it's just a
+[03:16] views that he's getting, it's just a couple hundred views per video for the
+[03:18] couple hundred views per video for the most part, right? You know, if you sort
+[03:20] most part, right? You know, if you sort by popular here, yes, he does have
+[03:22] by popular here, yes, he does have videos that's doing, you know, millions
+[03:24] videos that's doing, you know, millions of views, right? Definitely boosted a
+[03:26] of views, right? Definitely boosted a lot of sales. But on average, he's doing
+[03:28] lot of sales. But on average, he's doing a couple hundred views per video, or
+[03:30] a couple hundred views per video, or sometimes maybe thousands here, right?
+[03:32] sometimes maybe thousands here, right? So, you just never know which video does
+[03:33] So, you just never know which video does well. But he's making tens of thousands
+[03:35] well. But he's making tens of thousands of dollars a month. I think last time I
+[03:37] of dollars a month. I think last time I asked him, he was doing like 40K a month
+[03:39] asked him, he was doing like 40K a month or something like that. So, that's point
+[03:41] or something like that. So, that's point number one is that, you know, most of
+[03:43] number one is that, you know, most of your videos probably will not get a lot
+[03:45] your videos probably will not get a lot of views. So, it's a volume game when it
+[03:46] of views. So, it's a volume game when it comes to short-form content. You know,
+[03:48] comes to short-form content. You know, obviously, once one video does well, you
+[03:50] obviously, once one video does well, you want to kind of repeat the formula as
+[03:52] want to kind of repeat the formula as much as possible, but you just want to
+[03:54] much as possible, but you just want to keep testing new things and keep posting
+[03:56] keep testing new things and keep posting multiple videos every single day. The
+[03:57] multiple videos every single day. The next point I want to make is that
+[03:59] next point I want to make is that although Jonathan has videos where he's
+[04:01] although Jonathan has videos where he's showing his face like this, most videos
+[04:03] showing his face like this, most videos that went viral are ones where he's not
+[04:07] that went viral are ones where he's not even showing his face. It's simply
+[04:09] even showing his face. It's simply showing the book cover, showing the
+[04:11] showing the book cover, showing the interior, you know, with a cool
+[04:13] interior, you know, with a cool background music, some text, 4.7 million
+[04:16] background music, some text, 4.7 million views. Got a lot of sales doing this,
+[04:19] views. Got a lot of sales doing this, right? The second highest viewed, I
+[04:21] right? The second highest viewed, I think. It's not the second highest, but
+[04:22] think. It's not the second highest, but this is almost a million views. Same
+[04:24] this is almost a million views. Same thing.
+[04:25] thing. Just a simple bureau of the sky going
+[04:27] Just a simple bureau of the sky going into the book cover, almost 1 million
+[04:29] into the book cover, almost 1 million views. This one over here, exact same
+[04:31] views. This one over here, exact same one. I think what happened is this video
+[04:33] one. I think what happened is this video worked well, so he just recreated it and
+[04:35] worked well, so he just recreated it and it worked well again, right? So, it's
+[04:37] it worked well again, right? So, it's just sky bureau going into probably the
+[04:40] just sky bureau going into probably the book once again.
+[04:42] book once again. Yep, same thing with the text. 1 million
+[04:45] Yep, same thing with the text. 1 million views, right? Got a lot of sales. So,
+[04:47] views, right? Got a lot of sales. So, the video itself is not that hard to
+[04:49] the video itself is not that hard to create, but obviously, you got to show
+[04:51] create, but obviously, you got to show up every day. You got to take these
+[04:53] up every day. You got to take these videos, right? And you have to post it
+[04:55] videos, right? And you have to post it every day, you know, although you can
+[04:56] every day, you know, although you can schedule these. So, that is work and
+[04:59] schedule these. So, that is work and that's the trade-off compared paid ads,
+[05:01] that's the trade-off compared paid ads, but you don't have to show your face.
+[05:02] but you don't have to show your face. You don't have to do these crazy videos,
+[05:04] You don't have to do these crazy videos, you know, simple is best. And this is
+[05:06] you know, simple is best. And this is actually what you want to do is once you
+[05:08] actually what you want to do is once you have a video that's working, you want to
+[05:09] have a video that's working, you want to keep repurposing it more and more and
+[05:11] keep repurposing it more and more and more, right? Keep recreating similar
+[05:12] more, right? Keep recreating similar ones. So, if you sort by popular over
+[05:15] ones. So, if you sort by popular over here, most of Jonathan's viral videos
+[05:18] here, most of Jonathan's viral videos are ones where he's sitting down filming
+[05:20] are ones where he's sitting down filming himself with a book cover showing, you
+[05:22] himself with a book cover showing, you know, cleverly in the corner over here
+[05:24] know, cleverly in the corner over here with a text. I think this is like a
+[05:25] with a text. I think this is like a 10-20 second bureau. That is it, right?
+[05:27] 10-20 second bureau. That is it, right? And it worked well, so he made multiple
+[05:30] And it worked well, so he made multiple versions of it like more than, what is
+[05:32] versions of it like more than, what is this, like more than 10, I think,
+[05:34] this, like more than 10, I think, overall. And many of them did really
+[05:36] overall. And many of them did really well. He has multiple sky versions over
+[05:38] well. He has multiple sky versions over here. He has multiple showing the book
+[05:40] here. He has multiple showing the book interior versions over here. So, every
+[05:42] interior versions over here. So, every single one of these videos are extremely
+[05:44] single one of these videos are extremely simple to create, right? And inside Road
+[05:46] simple to create, right? And inside Road to Hero, I actually have a whole Tik Tok
+[05:48] to Hero, I actually have a whole Tik Tok module where I show you how to come up
+[05:50] module where I show you how to come up with these text, you know, in the
+[05:51] with these text, you know, in the captions with AI super quickly,
+[05:54] captions with AI super quickly, unlimited ideas with AI, how to film it,
+[05:56] unlimited ideas with AI, how to film it, you know, how to do the research,
+[05:58] you know, how to do the research, essentially everything you need to know
+[05:59] essentially everything you need to know here. But the basic concept is you post
+[06:01] here. But the basic concept is you post a lot of content, you test out what
+[06:03] a lot of content, you test out what works, and then once you find what
+[06:05] works, and then once you find what works, then you go and try to recreate
+[06:07] works, then you go and try to recreate it as much as possible, and you still
+[06:09] it as much as possible, and you still test new ideas. So, let's say you're not
+[06:11] test new ideas. So, let's say you're not in a non-fiction, you know, book niche,
+[06:13] in a non-fiction, you know, book niche, and you're in coloring books as an
+[06:14] and you're in coloring books as an example. Well, what you want to do is to
+[06:16] example. Well, what you want to do is to find other brands in the coloring book
+[06:18] find other brands in the coloring book space and just model what they're doing.
+[06:20] space and just model what they're doing. So, this is Coco Real, probably the most
+[06:22] So, this is Coco Real, probably the most successful publishing brand at the
+[06:24] successful publishing brand at the moment, and these are the videos that
+[06:26] moment, and these are the videos that they post, right? So, essentially, the
+[06:28] they post, right? So, essentially, the ones that work are the ones where
+[06:29] ones that work are the ones where they're just coloring, you know, the
+[06:31] they're just coloring, you know, the pages here and showcase the interior of
+[06:33] pages here and showcase the interior of their book. Now, this takes a lot more
+[06:35] their book. Now, this takes a lot more work because you obviously have to color
+[06:37] work because you obviously have to color it in, make these videos. I got students
+[06:40] it in, make these videos. I got students in the coloring book space that
+[06:41] in the coloring book space that outsource this entire process, so they
+[06:43] outsource this entire process, so they hire someone that can, you know, color
+[06:44] hire someone that can, you know, color it in, bought these Ohuhu markers, sent
+[06:46] it in, bought these Ohuhu markers, sent it to the illustrator, and they filmed
+[06:48] it to the illustrator, and they filmed these videos, and my students post it on
+[06:51] these videos, and my students post it on their account. So, it is definitely
+[06:53] their account. So, it is definitely possible to outsource, but that's going
+[06:54] possible to outsource, but that's going to cost money, and you know, we're
+[06:55] to cost money, and you know, we're talking about free marketing strategies.
+[06:57] talking about free marketing strategies. So, if you want to do coloring books,
+[06:58] So, if you want to do coloring books, you probably have to do it yourself, but
+[07:00] you probably have to do it yourself, but not every single video has to be like
+[07:01] not every single video has to be like this, right? Colored in. You can always
+[07:03] this, right? Colored in. You can always just do a flip through video or
+[07:05] just do a flip through video or something a lot simpler, too. But what I
+[07:07] something a lot simpler, too. But what I want to show you here is the fact that
+[07:08] want to show you here is the fact that they're doing Tik Tok. Yes, Tik Tok is
+[07:10] they're doing Tik Tok. Yes, Tik Tok is the first place that you should, you
+[07:11] the first place that you should, you know, definitely focus on, but you can
+[07:13] know, definitely focus on, but you can repurpose the same videos on Instagram,
+[07:16] repurpose the same videos on Instagram, and they get less views, I think. I'm
+[07:18] and they get less views, I think. I'm not sure, but typically with Instagram
+[07:20] not sure, but typically with Instagram you get less views than Tik Tok, you
+[07:22] you get less views than Tik Tok, you know, from my experience, from
+[07:23] know, from my experience, from Jonathan's experience, from, you know,
+[07:24] Jonathan's experience, from, you know, our students' experience, right? But you
+[07:25] our students' experience, right? But you still get something, so you still can
+[07:27] still get something, so you still can pick up some sales there, and you can
+[07:29] pick up some sales there, and you can repurpose it on YouTube as well, which
+[07:31] repurpose it on YouTube as well, which you can see here. And for some reason
+[07:32] you can see here. And for some reason Coco Real does really well on YouTube.
+[07:35] Coco Real does really well on YouTube. So, if you're doing coloring books,
+[07:36] So, if you're doing coloring books, maybe YouTube works as well, but that is
+[07:38] maybe YouTube works as well, but that is another way to pick up even more sales.
+[07:40] another way to pick up even more sales. So, their social media marketing
+[07:42] So, their social media marketing strategy is crazy. They have a whole
+[07:44] strategy is crazy. They have a whole team, you know, it's a lot of work for
+[07:46] team, you know, it's a lot of work for them, but if you can make it work, you
+[07:47] them, but if you can make it work, you can make a lot of sales. By the way, I
+[07:49] can make a lot of sales. By the way, I just want to say that I'm not hating on
+[07:50] just want to say that I'm not hating on social media marketing. Clearly, I
+[07:52] social media marketing. Clearly, I believe in social media marketing
+[07:53] believe in social media marketing because I'm here posting YouTube content
+[07:56] because I'm here posting YouTube content every single week, right? I am going
+[07:57] every single week, right? I am going heavy on YouTube long-form content
+[07:59] heavy on YouTube long-form content because it works, you know, it's working
+[08:01] because it works, you know, it's working really well for me. So, social media
+[08:03] really well for me. So, social media works, but when it comes to publishing
+[08:05] works, but when it comes to publishing books on Amazon, it really depends on
+[08:07] books on Amazon, it really depends on what you want to do. Like, if you're
+[08:08] what you want to do. Like, if you're watching this video right now, and if
+[08:10] watching this video right now, and if you want to do the same thing but for
+[08:11] you want to do the same thing but for your books, which means making videos
+[08:14] your books, which means making videos constantly every single week like how
+[08:16] constantly every single week like how I'm doing with my YouTube videos, right?
+[08:18] I'm doing with my YouTube videos, right? Although I'm promoting a different
+[08:19] Although I'm promoting a different product. Again, you're going to be doing
+[08:20] product. Again, you're going to be doing the same thing. So, if you want to do
+[08:22] the same thing. So, if you want to do that, if you're cool with doing that,
+[08:23] that, if you're cool with doing that, investing a lot of time, then social
+[08:24] investing a lot of time, then social media marketing is amazing. But, if you
+[08:26] media marketing is amazing. But, if you don't want to invest that, as is
+[08:28] don't want to invest that, as is available. So, again, it's a trade-off.
+[08:30] available. So, again, it's a trade-off. But, once again, inside Road to Hero, we
+[08:32] But, once again, inside Road to Hero, we do show you the most efficient way to
+[08:33] do show you the most efficient way to create simple videos that converts with
+[08:36] create simple videos that converts with the help of AI. So, if you're interested
+[08:38] the help of AI. So, if you're interested in learning more about Road to Hero
+[08:39] in learning more about Road to Hero because we cover both paid ads and
+[08:41] because we cover both paid ads and organic marketing like this, you can
+[08:43] organic marketing like this, you can check out the first link in the
+[08:44] check out the first link in the description. But, that is how you can
+[08:45] description. But, that is how you can repurpose your content in different
+[08:47] repurpose your content in different platforms, TikTok, Instagram, YouTube,
+[08:50] platforms, TikTok, Instagram, YouTube, very effective. So, now I want to show
+[08:52] very effective. So, now I want to show you different types of videos you can
+[08:53] you different types of videos you can create just to give you more ideas. You
+[08:55] create just to give you more ideas. You know, essentially, there are unlimited
+[08:57] know, essentially, there are unlimited ideas and different videos you can
+[08:58] ideas and different videos you can create, but the best thing you can do is
+[09:00] create, but the best thing you can do is to find videos that are getting a lot of
+[09:02] to find videos that are getting a lot of views in your niche. So, find other
+[09:05] views in your niche. So, find other TikTok pages that are doing well
+[09:07] TikTok pages that are doing well promoting a book similar to yours. And
+[09:10] promoting a book similar to yours. And you just basically model those videos.
+[09:12] you just basically model those videos. Don't just rip it off, but you know,
+[09:13] Don't just rip it off, but you know, make something similar because if it's
+[09:15] make something similar because if it's working for them, it must work for you,
+[09:16] working for them, it must work for you, too. So, the first video type, I call
+[09:19] too. So, the first video type, I call this the ASMR style because you're not
+[09:21] this the ASMR style because you're not talking, right? It's very calming,
+[09:22] talking, right? It's very calming, essentially just a background music with
+[09:24] essentially just a background music with a text with, you know, book cover
+[09:26] a text with, you know, book cover showcase. Here, you can film yourself or
+[09:28] showcase. Here, you can film yourself or you can just be behind the camera
+[09:30] you can just be behind the camera showing the book, but as you can see,
+[09:31] showing the book, but as you can see, like 30 seconds of this, okay? So, that
+[09:34] like 30 seconds of this, okay? So, that is one style. The next video type is
+[09:36] is one style. The next video type is just a simple talking head video like
+[09:39] just a simple talking head video like how I'm doing with this YouTube video.
+[09:40] how I'm doing with this YouTube video. But, you know, talking about a topic and
+[09:42] But, you know, talking about a topic and then you pitch a book, right? This
+[09:44] then you pitch a book, right? This author right here, it might not be
+[09:46] author right here, it might not be showing in this video, but he does have
+[09:48] showing in this video, but he does have a book on I think it's a spiritual
+[09:50] a book on I think it's a spiritual topic, right? Inner work. And he usually
+[09:52] topic, right? Inner work. And he usually pitches that in the video after talking
+[09:54] pitches that in the video after talking about, you know, one concept inside the
+[09:56] about, you know, one concept inside the book. The next one is just simply
+[09:58] book. The next one is just simply showing your book cover or your book
+[10:00] showing your book cover or your book interiors. I call this a book showcase
+[10:02] interiors. I call this a book showcase videos. But, this is by far my favorite
+[10:04] videos. But, this is by far my favorite from all the analyzing, you know, TikTok
+[10:07] from all the analyzing, you know, TikTok videos that I've seen, this video type
+[10:09] videos that I've seen, this video type performs the best. Literally just
+[10:10] performs the best. Literally just showing your book behind the camera. And
+[10:12] showing your book behind the camera. And for whatever reason, it converts really
+[10:14] for whatever reason, it converts really well. So, this one, as we know, Mom and
+[10:17] well. So, this one, as we know, Mom and Dad, I want to hear your story, you
+[10:18] Dad, I want to hear your story, you know, it blew up couple years back,
+[10:20] know, it blew up couple years back, still doing extremely well. Jeffrey, you
+[10:22] still doing extremely well. Jeffrey, you know, the the author is a legend over
+[10:24] know, the the author is a legend over here, right? And it's just a simple
+[10:25] here, right? And it's just a simple showing the book cover, talking about
+[10:27] showing the book cover, talking about it, you know, and that is it. 10 million
+[10:29] it, you know, and that is it. 10 million views, crazy stuff. The next one is also
+[10:32] views, crazy stuff. The next one is also from here your story, and this is the
+[10:34] from here your story, and this is the book flipping or the, you know, the
+[10:35] book flipping or the, you know, the interior showing. And this also is my
+[10:38] interior showing. And this also is my favorite, right? So, you know, showing
+[10:39] favorite, right? So, you know, showing the book cover, showing the interior,
+[10:41] the book cover, showing the interior, maybe a combination of both. The easiest
+[10:43] maybe a combination of both. The easiest video to create, as you can see, no
+[10:45] video to create, as you can see, no editing, nothing. You just turn on the
+[10:46] editing, nothing. You just turn on the camera, start flipping, and you talk
+[10:48] camera, start flipping, and you talk about it. You're not even doing the
+[10:49] about it. You're not even doing the exercises, right? You're just, you know,
+[10:51] exercises, right? You're just, you know, going over each prompts here. And this
+[10:54] going over each prompts here. And this video got, I believe, millions of views,
+[10:56] video got, I believe, millions of views, and I'm sure it generated a lot of
+[10:58] and I'm sure it generated a lot of sales. This is also a good one. This is
+[11:00] sales. This is also a good one. This is just reading one page. So, you know,
+[11:03] just reading one page. So, you know, this is a crazy part, right? You can
+[11:04] this is a crazy part, right? You can flip through the entire book, show the
+[11:05] flip through the entire book, show the entire pages, but the next video you can
+[11:07] entire pages, but the next video you can just work on one page, right? And one
+[11:10] just work on one page, right? And one page is one video. And she's not even
+[11:12] page is one video. And she's not even doing the exercises, she's just like
+[11:14] doing the exercises, she's just like literally reading the text out loud and
+[11:15] literally reading the text out loud and going over. And this video got 70
+[11:17] going over. And this video got 70 million views. 70 million views. Imagine
+[11:21] million views. 70 million views. Imagine the amount of sales it generated, right?
+[11:23] the amount of sales it generated, right? And this is from the Shadow Work
+[11:24] And this is from the Shadow Work Journal. It was the number one
+[11:25] Journal. It was the number one best-selling book, I think, 3 years ago,
+[11:27] best-selling book, I think, 3 years ago, 4 years ago, I forgot. So, it definitely
+[11:29] 4 years ago, I forgot. So, it definitely does work. And by the way, if you got a
+[11:31] does work. And by the way, if you got a 100-page book, one page is one video.
+[11:34] 100-page book, one page is one video. That means you can create 100 videos
+[11:36] That means you can create 100 videos from one book. And the thing is, with
+[11:38] from one book. And the thing is, with social media, you can make similar
+[11:40] social media, you can make similar videos over and over and over. So, once
+[11:42] videos over and over and over. So, once you go, you know, make those 100 videos,
+[11:44] you go, you know, make those 100 videos, you can just start over from page one
+[11:46] you can just start over from page one and just start making, you know, 100
+[11:47] and just start making, you know, 100 videos from start again. So, you
+[11:49] videos from start again. So, you essentially got unlimited content. Next
+[11:51] essentially got unlimited content. Next one is the coloring page book. We've
+[11:53] one is the coloring page book. We've seen this already, but it's just
+[11:55] seen this already, but it's just coloring in the page that you have
+[11:57] coloring in the page that you have inside. It's a little bit more work, but
+[11:59] inside. It's a little bit more work, but it looks really nice and it performs
+[12:01] it looks really nice and it performs really well. So, as you can see, you
+[12:03] really well. So, as you can see, you know, these videos aren't that hard to
+[12:05] know, these videos aren't that hard to create. You can just order a book, you
+[12:07] create. You can just order a book, you know, and you can just flip through it,
+[12:08] know, and you can just flip through it, show the book cover, you know, there are
+[12:09] show the book cover, you know, there are a lot of simple video ideas to create.
+[12:11] a lot of simple video ideas to create. But, for whatever reason, if you really,
+[12:13] But, for whatever reason, if you really, really don't want to show yourself, show
+[12:16] really don't want to show yourself, show the book, have everything purely done
+[12:19] the book, have everything purely done online with perhaps using AI, then these
+[12:22] online with perhaps using AI, then these are some AI TikTok examples, okay? So,
+[12:25] are some AI TikTok examples, okay? So, this is a carousel video. So, it's a
+[12:28] this is a carousel video. So, it's a auto scrolling video different images
+[12:30] auto scrolling video different images over here, and it is from a children's
+[12:33] over here, and it is from a children's book brand, Hayden Fox Media, and it's
+[12:35] book brand, Hayden Fox Media, and it's simple as 10 responsibilities for your
+[12:37] simple as 10 responsibilities for your kid that should take on by age 10.
+[12:40] kid that should take on by age 10. Personal hygiene, Midjourney generated
+[12:42] Personal hygiene, Midjourney generated image with a text, AI generated image
+[12:44] image with a text, AI generated image with a text, and basically 10 of those,
+[12:46] with a text, and basically 10 of those, right? And it goes all the way until the
+[12:48] right? And it goes all the way until the end. And maybe it has a call to action
+[12:50] end. And maybe it has a call to action over here. Now, the call to action is
+[12:52] over here. Now, the call to action is just to, you know, comment. But, you see
+[12:54] just to, you know, comment. But, you see the amount of saves and engagement.
+[12:56] the amount of saves and engagement. Like, isn't that crazy? 34,000 saves.
+[12:58] Like, isn't that crazy? 34,000 saves. And he has a link in the bio, so, you
+[13:00] And he has a link in the bio, so, you know, gets a lot of sales spillover from
+[13:02] know, gets a lot of sales spillover from there. All right, so hopefully that gave
+[13:04] there. All right, so hopefully that gave you some ideas on how you can get
+[13:05] you some ideas on how you can get started with social media marketing,
+[13:07] started with social media marketing, which is by far the most effective free
+[13:09] which is by far the most effective free marketing strategy to start selling your
+[13:11] marketing strategy to start selling your book. By the way, if you're wondering,
+[13:13] book. By the way, if you're wondering, how can you go from TikTok to, you know,
+[13:15] how can you go from TikTok to, you know, selling books on Amazon? Well, if you go
+[13:17] selling books on Amazon? Well, if you go viral on social media, people will
+[13:19] viral on social media, people will automatically look up the book on
+[13:21] automatically look up the book on Amazon, so you get a lot of spillovers
+[13:22] Amazon, so you get a lot of spillovers without ever mentioning that the book is
+[13:24] without ever mentioning that the book is on Amazon. I've seen this happen
+[13:26] on Amazon. I've seen this happen multiple times, so that definitely
+[13:27] multiple times, so that definitely happens. But once you have enough
+[13:29] happens. But once you have enough followers, you can do a link in bio and
+[13:31] followers, you can do a link in bio and link to Amazon, or you can create your
+[13:33] link to Amazon, or you can create your own website and you can, you know, link
+[13:35] own website and you can, you know, link to Amazon from there. However way you
+[13:37] to Amazon from there. However way you want to do it, you can definitely do it.
+[13:38] want to do it, you can definitely do it. You can also sell your books on TikTok
+[13:40] You can also sell your books on TikTok Shop, which is a more advanced strategy
+[13:42] Shop, which is a more advanced strategy and it's definitely not free. But if you
+[13:44] and it's definitely not free. But if you start getting good at social media
+[13:45] start getting good at social media marketing and you have proven video
+[13:47] marketing and you have proven video templates that every time you make a
+[13:48] templates that every time you make a video like this, you know, you're
+[13:49] video like this, you know, you're getting a lot of views, and if you get
+[13:51] getting a lot of views, and if you get consistent views from social media
+[13:52] consistent views from social media marketing, your next move definitely
+[13:54] marketing, your next move definitely should be TikTok Shop because you can
+[13:56] should be TikTok Shop because you can make a lot of money from TikTok Shop.
+[13:57] make a lot of money from TikTok Shop. And TikTok Shop and Amazon KDP goes hand
+[14:00] And TikTok Shop and Amazon KDP goes hand in hand, it goes really well together.
+[14:02] in hand, it goes really well together. So, if you're curious about how that
+[14:03] So, if you're curious about how that works, I do have this video right here
+[14:05] works, I do have this video right here on TikTok Shop for Amazon KDP. We'll put
+[14:08] on TikTok Shop for Amazon KDP. We'll put it up somewhere on the screen, so you
+[14:09] it up somewhere on the screen, so you can go and watch that video next. Now,
+[14:11] can go and watch that video next. Now, if you do want to work with us, work
+[14:13] if you do want to work with us, work with me and my team of coaches,
+[14:14] with me and my team of coaches, including Jonathan, as you saw earlier
+[14:16] including Jonathan, as you saw earlier here, and have us help you implement the
+[14:19] here, and have us help you implement the Road to Hero method into your publishing
+[14:20] Road to Hero method into your publishing business, which has a track record of
+[14:22] business, which has a track record of scaling people to four, five, or even
+[14:24] scaling people to four, five, or even six figures per month and has over 520
+[14:27] six figures per month and has over 520 Trustpilot reviews with over 4.9 average
+[14:30] Trustpilot reviews with over 4.9 average rating, then you can go to the first
+[14:31] rating, then you can go to the first link in the description below. There's a
+[14:33] link in the description below. There's a short video that you can watch on how
+[14:35] short video that you can watch on how this works, and if everything sounds
+[14:36] this works, and if everything sounds good, you can book a call. It's a free
+[14:38] good, you can book a call. It's a free 30-minute strategy session, you talk to
+[14:40] 30-minute strategy session, you talk to one of our coaches, not sales reps, and
+[14:42] one of our coaches, not sales reps, and we can basically see if this program is
+[14:44] we can basically see if this program is a fit for you. We don't accept everybody
+[14:46] a fit for you. We don't accept everybody because this is a coaching program, we
+[14:47] because this is a coaching program, we work very closely with you, which means
+[14:49] work very closely with you, which means it takes a lot of time from us as well.
+[14:51] it takes a lot of time from us as well. So, we don't just accept everyone
+[14:53] So, we don't just accept everyone because we want to make sure that we can
+[14:54] because we want to make sure that we can actually help you and also, you know,
+[14:56] actually help you and also, you know, you are a coachable person, right? We
+[14:58] you are a coachable person, right? We don't work with someone who's a probably
+[14:59] don't work with someone who's a probably going to be a headache and not the best
+[15:01] going to be a headache and not the best attitude. I also want to, you know, give
+[15:02] attitude. I also want to, you know, give a very clear disclaimer that this is not
+[15:05] a very clear disclaimer that this is not a get-rich-quick scheme. Amazon KDP is a
+[15:07] a get-rich-quick scheme. Amazon KDP is a real business, we have a lot of success
+[15:09] real business, we have a lot of success stories, you know, inside our program,
+[15:11] stories, you know, inside our program, but obviously results aren't guaranteed.
+[15:13] but obviously results aren't guaranteed. It'll take a lot of work and commitment
+[15:15] It'll take a lot of work and commitment from your side, but if you're willing to
+[15:16] from your side, but if you're willing to put in the work, I generally believe
+[15:18] put in the work, I generally believe that this is the best coaching program
+[15:20] that this is the best coaching program out there. So, with that being said,
+[15:21] out there. So, with that being said, thank you so much for watching. If you
+[15:23] thank you so much for watching. If you enjoyed the video, leave a like,
+[15:24] enjoyed the video, leave a like, subscribe, and I'll see you guys in the
+[15:25] subscribe, and I'll see you guys in the next one.
+```
+
+---
+_Work dir: `/Users/farricecain/Google Antigravity/extractions/sean-dollwet/watch-CZgZmPd-ETY` — delete when done._
