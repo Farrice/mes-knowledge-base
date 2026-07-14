@@ -1,0 +1,18 @@
+{
+  "auto_moved": 0,
+  "needs_judgment": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/forge-input.json",
+      "project": "prompt-wiring-os-2026-07-13",
+      "reason": "pinned/control referrer"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/forge-wave.js",
+      "project": "prompt-wiring-os-2026-07-13",
+      "reason": "low confidence 0.5"
+    }
+  ],
+  "projects_touched": [],
+  "since_minutes": 720,
+  "swept_at": "2026-07-14T01:32:57+00:00"
+}

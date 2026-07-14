@@ -1,33 +1,33 @@
 # Knowledge Briefing
-*Generated: 2026-07-12 | 572 sources | 2,435,227 words*
+*Generated: 2026-07-13 | 583 sources | 2,459,712 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 4,011 words — `knowledge/index.md`
-- **log** (general) — 11,075 words — `knowledge/log.md`
-- **cognitive-bias-toolkit** (copywriting) — 689 words — `extractions/joanna-wiebe-persuasion-mastery/prompts-v2/cognitive-bias-toolkit.md`
-- **money-words-miner** (brand) — 645 words — `extractions/joanna-wiebe-persuasion-mastery/prompts-v2/money-words-miner.md`
-- **napoleon-identity-hook** (copywriting) — 723 words — `extractions/joanna-wiebe-persuasion-mastery/prompts-v2/napoleon-identity-hook.md`
-- **persuasion-level-audit** (copywriting) — 576 words — `extractions/joanna-wiebe-persuasion-mastery/prompts-v2/persuasion-level-audit.md`
-- **story-seller-framework** (copywriting) — 776 words — `extractions/joanna-wiebe-persuasion-mastery/prompts-v2/story-seller-framework.md`
-- **system-one-optimizer** (copywriting [connelly]) — 598 words — `extractions/joanna-wiebe-persuasion-mastery/prompts-v2/system-one-optimizer.md`
-- **01-promoter-blueprint-audit** (strategy) — 853 words — `extractions/jonathan-courtney/prompts-v2/01-promoter-blueprint-audit.md`
-- **02-selling-event-architect** (general [jason-fladlien]) — 847 words — `extractions/jonathan-courtney/prompts-v2/02-selling-event-architect.md`
+- **index** (content) — 4,045 words — `knowledge/index.md`
+- **log** (general) — 11,302 words — `knowledge/log.md`
+- **VISION** (systems) — 648 words — `extractions/joey-cinema/VISION.md`
+- **notion-cinema-claude-skills-v3** (seo) — 2,211 words — `extractions/joey-cinema/notion-cinema-claude-skills-v3.md`
+- **skill-files-analysis** (screenwriting) — 8,609 words — `extractions/joey-cinema/skill-files-analysis.md`
+- **blind-pass-generated-3panel** (screenwriting) — 1,090 words — `extractions/joey-cinema-os/blind-pass-generated-3panel.md`
+- **blind-pass-log** (screenwriting) — 87 words — `extractions/joey-cinema-os/blind-pass-log.md`
+- **extraction-report** (content) — 1,960 words — `extractions/joey-cinema-os/extraction-report.md`
+- **joey-3panel-sheet-amber-pvc-raincoat** (screenwriting) — 892 words — `extractions/joey-cinema-os/reference-corpus/joey-3panel-sheet-amber-pvc-raincoat.md`
+- **joey-character-prompt-and-seedance-prompt** (copywriting) — 453 words — `extractions/joey-cinema-os/reference-corpus/joey-character-prompt-and-seedance-prompt.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 186 | nicolas-cole |
-| copywriting | 91 | luke-iha |
+| content | 190 | nicolas-cole |
+| copywriting | 92 | luke-iha |
 | general | 82 | nick-saraev |
 | strategy | 51 | april-dunford |
-| screenwriting | 43 | connelly |
+| screenwriting | 47 | connelly |
 | brand | 37 | oren-john |
-| systems | 31 | nick-saraev |
-| seo | 22 | nathan-gotch |
+| systems | 32 | nick-saraev |
+| seo | 23 | nathan-gotch |
 | research | 19 | dai-media |
 | sales | 10 | dai-media |
 

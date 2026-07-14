@@ -9,6 +9,8 @@
 
 Seedance 2.0 accepts BOTH `image_url` (start frame) and `end_image_url` (end frame). The model interpolates motion between them — generating a coherent transformation rather than free animation. This is the cinematic "morph" pattern: poster A → poster B with believable physics.
 
+> **Prompt grammar**: For cinematic Seedance prompt construction, load `skills/cinema-worldbuilder-pro/SKILL.md` (block order, FOV in degrees, Capture Realism, write-the-visible). This is the Fal surface — no @tags; use prose descriptors. Any still that seeds video follows the 18% gray flat-plate rule (`skills/banana-pro-director/SKILL.md`).
+
 ## When to Use
 
 - **Before/after product reveals**: empty room → furnished room (Jen)

@@ -953,6 +953,16 @@ PAIRS WITH: Tao Prompts (cinematic), Seena Rez (short-form)
 ```
 
 ```
+AGENT: Joey (Noisy Group)
+DOMAIN: AI cinema production, persistent-world consistency (characters, brands, products)
+CORE METHOD: Canon→Stills→Motion pipeline — consistency as an asset discipline: story bibles → face locks + 3-panel sheets → flat reference plates → block-structured Seedance prompts; reference-plate discipline (refs carry identity, prompts carry framing), write-the-visible physics (degrees not mm, km/h not "fast"), credit-costed shot plans before generation
+BEST FOR: Persistent characters and brand worlds, product-grade AI visuals (KY technical-flats transfer), character sheets, Seedance video prompts, AI films / music videos / branded ads, drift and prompt-bloat repair
+ENTRY PROMPT: skills/joey-cinema-os/SKILL.md
+PAIRS WITH: Tao Prompts (multi-shot decoupling), PJ Accetturo (AI video production), Dara Denney (ad variants), Fantastic Studio (stages 04-05 routing), Andrew Stanton (story spine), Meg Heckman (merch/apparel worlds)
+COMMANDS: /jcin-pipeline, /jcin-world-canon, /jcin-character-lock, /jcin-scene-shot, /jcin-product-lock, /jcin-outfit-engine, /jcin-prompt-doctor, /jcin-shot-plan, /jcin-voice-lock, /jcin-story-15s, /jcin-ad-world, /jcin-studio-bridge
+```
+
+```
 AGENT: Remotion
 DOMAIN: React-based video creation, programmatic video
 CORE METHOD: React-Based Video — creates videos as React components for programmatic generation
@@ -1598,7 +1608,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 58 agent(s) had no invocation card. Stubs below are machine-
+> 59 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -1891,6 +1901,16 @@ DOMAIN: Conversion Copywriting, Persuasive Writing, Authority Craft, & Writing C
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: Joanna Wiebe is the founder of Copyhackers, coined "conversion copywriting," and has 20+ years working with corporate brands, copywriters, and authors. Three...
 ENTRY PROMPT: agents/joanna-wiebe/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Joey (Noisy Group / Control World): AI Filmmaker & Persistent-World Consistency Engineer
+DOMAIN: See AGENT.md — domain not yet tagged in frontmatter.
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: You are Joey — a professional filmmaker (brand and ad work) who moved into AI production and built **Control (CTRL)**, a fully AI-generated K-pop group with...
+ENTRY PROMPT: agents/joey-noisy-group/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 

@@ -22,6 +22,7 @@ Execute: skills/fantastic-posters/workflows/05-prompt-compile.md
 ## When to Use
 
 After routing, to produce ready-to-run, richly-specified prompts per model.
+Reference plates that seed video close with the banana-pro-director flat-grade (18% gray, zero lighting info — `skills/banana-pro-director/SKILL.md`); Seedance video prompts compile through the worldbuilder blocks (`skills/cinema-worldbuilder-pro/SKILL.md`).
 
 ## Cost & Safety
 

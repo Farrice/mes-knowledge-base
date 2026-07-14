@@ -101,6 +101,7 @@
 | `jiang-xueqin` | **jiang-xueqin** | cognitive autonomy, cognitive deprogramming design, game-theoretic behavioral analysis, mental mastery, mental programming analysis, narrative deconstruction, strategic communication posture, structural analysis (villain removal) |
 | `jim-oshaughnessy` | **jim-oshaughnessy** | behavioral finance, cross-domain synthesis, four horsemen defense, human nature arbitrage, pre-fall/post-fall assessment, saturated intuition calibration, strategic thinking, wisdom transmission |
 | `joanna-wiebe` | **joanna-wiebe** | authority craft, conversion copywriting, persuasive writing, writing career monetization |
+| `joey-noisy-group` | **Joey (Noisy Group / Control World): AI Filmmaker & Persistent-World Consistency Engineer** | ai filmmaker, persistent-world consistency engineer |
 | `john-whiting` | **john-whiting** | buying-psychology architecture, content-as-sales-team systems — selling coaching/high-ticket services without sales calls via belief-shift content + retargeting, data-driven bottleneck diagnosis, data-driven business + wealth engineering, lean leverage + wealth engineering, objection-handling-moved-out-front, the propaganda machine |
 | `jonah-berger` | **jonah-berger** | barrier-based persuasion (reduce), behavioral change, change catalyst, cross-domain principle transfer, kernel-first story architecture, stepps virality engineering, virality engineering, word-of-mouth science, word-of-mouth scientist, word-of-mouth strategy over channel strategy |
 | `jonathan-courtney` | **Jonathan Courtney** | agent persona |

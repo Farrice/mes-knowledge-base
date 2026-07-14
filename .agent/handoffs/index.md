@@ -2,6 +2,13 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-13** [codex-parity/ready] [Codex Parity — Live-Fire Hooks + Cross-Platform Harness Repair (CLI 0.144.3, A/B Proof)](2026-07-13-codex-parity.md) — Jam: felt verdict on take-a vs take-b, then re-run A/B under new AGENTS.md voice rule
+- **2026-07-13** [trendscale-trial/done] [TrendScale Creative Strategist Trial — Package Polish + Loom Rework (JCKED + Puravita)](2026-07-13-trendscale-trial.md) — Record the ~1.5-min Loom from the teleprompter Google Doc, then send briefs+Loom and WhatsApp (778) 322-4478
+- **2026-07-13** [farrice-engine/ready] [Farrice Engine — Go-To-Market Layer + Week-25 Content Set](2026-07-13-farrice-engine.md) — Publish the Week-25 flagship article + run the 10-comment plan + DM the Gainful teardown
+- **2026-07-13** [joey-cinema-os/ready] [Joey Cinema OS — Forge Extraction + Install (3 skills + /jcin-* pipeline)](2026-07-13-joey-cinema-os.md) — First live run: /jcin-product-lock on MyBPM hero product via Higgsfield MCP, costed via /jcin-shot-plan
+- **2026-07-13** [joey-cinema-v2/active] [Joey Cinema V2 — Visual Context](2026-07-13-joey-cinema-v2.md) — Joey Cinema V2 — Visual Context
+- **2026-07-13** [stanton-extraction-deploy/ready] [Andrew Stanton Extraction — Forge + Deploy + Enrich (skill, /stanton-produce, 6-engine wiring, Receipt Arc)](2026-07-13-stanton-extraction-deploy.md) — Collect PASS/FAIL/FIX on REVIEW-clean-posts.md, fold FIXes via /stanton-clamp-audit, post Receipt Arc slot 1
+- **2026-07-13** [stanton-produce/active] [Receipt Arc launch sequence — 14-post Stanton-produced LinkedIn launch order + 13 hand-off loop lines + finale bookend](2026-07-13-stanton-produce.md) — Receipt Arc launch sequence — 14-post Stanton-produced LinkedIn launch order + 13 hand-off loop lines + finale bookend
 - **2026-07-13** [maestro-os/ready] [Antigravity Harness — Maestro OS v1 (Renaissance + Wiring + Conductor Ladder)](2026-07-13-maestro-os.md) — Fresh session: verify menu hook live, run portability research, /cos weekly + /weekly-closeout, collect 3 waiting verdicts
 - **2026-07-13** [prompt-wiring-os/done] [Prompt Wiring OS — COMPLETE (2026-07-13)](2026-07-13-prompt-wiring-os-complete.md) — Prompt Wiring OS DONE: menu hook + 356 SKILL.md pointers + forging gate in 7 extraction workflows + 1,650 born-v2 across 237 skills, 100% verified; proof JUDGMENT + MyBPM merge-take jam waiting
 - **2026-07-13** [swarm-apex/ready] [Swarm Apex — Session 1 Build (swarm live + Solution Recorder + closeout spine)](2026-07-13-swarm-apex.md) — Session 2: build claim_audit.py + gates.py, wire into swarm synthesis (apex Wave 2)

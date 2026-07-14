@@ -1,64 +1,60 @@
 # Latest Handoff
 
-**Thread:** maestro-os  
-**Full path:** .agent/handoffs/2026-07-13-maestro-os.md  
+**Thread:** codex-parity  
+**Full path:** .agent/handoffs/2026-07-13-codex-parity.md  
 **Date:** 2026-07-13 (today)  
 **Status:** ready  
-**Title:** Antigravity Harness — Maestro OS v1 (Renaissance + Wiring + Conductor Ladder)
+**Title:** Codex Parity — Live-Fire Hooks + Cross-Platform Harness Repair (CLI 0.144.3, A/B Proof)
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume maestro-os` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume codex-parity` for this one.
 
 ---
-thread: maestro-os
+
+---
+thread: codex-parity
 status: ready
-resume_hint: Fresh session: verify menu hook live, run portability research, /cos weekly + /weekly-closeout, collect 3 waiting verdicts
-unfinished: Menu-hook live verify · portability research · 2 rituals · PMF/fidelity/Kandi verdicts
+resume_hint: Jam: felt verdict on take-a vs take-b, then re-run A/B under new AGENTS.md voice rule
+unfinished: Jam verdict; A/B re-run; Farrice-only: Gemini credits + Copilot MCP re-auth
 branch: main
 pin: true
 ---
 
-# Antigravity Harness — Maestro OS v1 (Renaissance + Wiring + Conductor Ladder)
+# Codex Parity — Live-Fire Hooks + Cross-Platform Harness Repair (CLI 0.144.3, A/B Proof)
 
 ## Purpose
-- **Next session should do:** (1) verify `prompt_menu_hook` fires live on the first SKILL.md read (it was wired mid-session; hooks load at startup), (2) run the compiled portability-research mission — do Codex/Gemini now support hooks or fleet orchestration worth wiring into the Conductor Ladder, (3) `/cos weekly` + `/weekly-closeout` (taste-ratchet Step 5.5 fires for the first time; 29 days left on the $5K sprint), (4) collect Farrice verdicts: PMF Card-2 (§5 surface vs on-record override), 40 renaissance-era fidelity-low flags (28 nathan-gotch → source re-watch decision), Kandi Keeper shoot scheduling.
-- **Not in scope:** re-running the Renaissance (queue 0), re-running the born-v2 backfill (queue 0), rebuilding any Maestro piece — extend only.
+- **Next session should do:** run the jam — Farrice's felt verdict on the two golden-brief takes — then re-run the A/B on Codex to confirm the voice-card gap closed; relay the two Farrice-only fixes below.
+- **Not in scope:** re-verifying the hook layer (live-fire receipts exist), rebuilding the raw-intent bridge, anything against the Gemini CLI (dead platform, EOL'd 2026-06-18).
 
 ## Load First
-- `.agent/handoffs/LATEST.md` — this handoff via /resume
-- `directives/orchestration-doctrine.md` — the Conductor Ladder + pattern table + tiers (canonical conducting law; in all 4 constitutions)
-- `.agent/workflows/go.md` — /go v2 Mission Card spec (goal spine, T1/T2/T3, missions log)
-- `.agent/missions.jsonl` — 3 missions WAITING on Farrice (PMF card, fidelity review, Kandi shoot)
-- `_active/prompt-wiring-os-2026-07-13/proof/JUDGMENT.md` — the A/B proof + jam record
-- `_active/mybpm-merch-os-run-1/04-deliverables/week1-hero-video.md` — FINAL shoot-ready hero asset
+- `_active/codex-parity-2026-07-13/proof/JUDGMENT.md` — the A/B scorecard + the one actionable gap (voice card), already patched
+- `_active/codex-parity-2026-07-13/proof/take-a-claude-code.md` + `take-b-codex.md` — the jam material
+- `docs/solutions/2026-07-13-codex-hooks-config-present-not-firing.md` — live-fire verification method; read before ANY "is X wired?" question
+- `AGENTS.md` §"Hooks on Codex" + §"Voice layer" — the rewritten constitution sections the re-run tests
+- `.agent/handoffs/2026-07-13-codex-parity.md` — full mission record (what shipped, do-NOTs)
 
 ## Current State
-- **Objective:** world-class harness operation — deterministic floor, uncapped ceiling, model-agnostic conducting.
-- **What is already done:** Prompt Renaissance COMPLETE (1,860 v2s) · Prompt Wiring OS COMPLETE (menu hook + 356 SKILL.md pointer sections + forging gate in ALL skill-producing extraction workflows + 1,650 born-v2 across 237 skills, 100% content-verified, 2.3% caught+repaired) · Maestro layer LIVE (/go v2 Mission Cards, orchestration doctrine + Conductor Ladder in CLAUDE/GEMINI/AGENTS/rules + compiler blessed, session_lock.py wired into both queue builders, pulse board v2 interactive at stable artifact URL, /voice-over, taste ratchet w/ Embodiment Purity Guard) · MyBPM hero video FINAL (jam-approved) · smoke suite 8/8.
-- **What is uncertain or stale:** menu hook live-fire (needs fresh session) · whether Codex/Gemini capabilities changed recently (research mission) · nathan-gotch skill quality (whole skill flagged thin).
-- **Latest proof/receipt:** commit `55eb47f2e` on origin/main; audit 3,510/3,510 pass; forge+renaissance queues 0; platform compiler "In sync".
+- **Objective:** Codex↔Claude Code output parity, operator-console visibility for both platforms.
+- **What is already done:** CLI 0.133.0→0.144.3 (0.133 was a total outage vs gpt-5.6-sol); full hook chain live-fire verified on Codex (shell→`Bash` matcher; native file reads fire nothing); JCC SessionStart fixed (`hookEventName` required by Codex, patched in 3 copies); AGENTS.md/CODEX.md/GEMINI.md rewritten to verified reality + re-blessed; `raw_intent_run_packet.py` now compiles Mission Cards (goal spine + `.agent/missions.jsonl`, `platform: codex`); routing 'wiring' misfire fixed (27/27 golden); gemini_deep = depleted Google prepay credits (billing, not code); solution card saved.
+- **What is uncertain or stale:** take-b was generated BEFORE the AGENTS.md voice-card rule — the re-run is the test; Codex memories DB error (`no such table: jobs`) unexplained but cosmetic; Copilot MCP token expired.
+- **Latest proof/receipt:** live-fire probe output (all hooks Completed), `verify_control_intent.py` 27/27, `verify_raw_intent_run_packet.py` green, `verify_google_operator_core.py` PASS, both takes pass `prose_classifier.py`.
 
 ## Suggested Skills / Workflows
-- `/resume maestro-os` — reload this thread by name
-- `/go "<anything>"` — Mission Cards are live; card 2 pattern (binding-conflict surfacing) is the reference behavior
-- `/pulse-board` — regenerate + republish the operator console (same URL)
-- `/voice-over <file>` — Farrice-voice/brand overlay on expert-pure output
-- `/cos weekly` then `/weekly-closeout` — the two overdue rituals
+- `/resume codex-parity` — surfaces this thread with the full mission record
+- `/jam` protocol (memory: project_jam-protocol.md) — two takes → gut verdict → taste ledger
+- `/voice-ratchet` — bank the felt verdict silently in-session after the jam
 
 ## Exact Next Prompt
 ```text
-/resume maestro-os — then: 1) Read any SKILL.md and confirm the execution-prompt menu injects live. 2) /go "portability research: do Codex and Gemini CLI now support hooks or fleet orchestration worth wiring into the Conductor Ladder?" 3) Surface the 3 missions waiting on my verdict from the pulse board.
+/resume codex-parity — jam time: show me take-a and take-b side by side from _active/codex-parity-2026-07-13/proof/, take my gut verdict, bank it via voice-ratchet, then re-run the same golden brief on Codex (codex exec, read-only) and tell me if the voice-card rule in AGENTS.md closed the texture gap.
 ```
 
 ## Acceptance Criteria
-- Menu hook confirmed firing in a live session (or bug filed + fixed)
-- Portability research returns receipts (not training memory) with a wire/don't-wire recommendation per platform
-- The 3 waiting missions have Farrice verdicts logged to missions.jsonl
-- /cos weekly + /weekly-closeout run (taste ratchet's first pass reported)
+- Farrice's verdict recorded against both takes (taste ledger entry)
+- Fresh Codex take generated under the new AGENTS.md; side-by-side delta named (texture anchors present/absent)
+- Verdict + delta noted on the codex-parity thread handoff
 
 ## Risk Notes
-- One-driver-per-tree: claim `session_lock.py` before any long autonomous run — three collisions this arc; the lock is now physical, use it.
-- Embodiment Purity Guard is binding: Farrice taste never bakes into extracted experts' flavor.
-- PMF Card-2 carries a live Incumbency Rule conflict — surface §5, don't run a re-score without his on-record override.
+- Farrice-only, cannot be done by an agent: Gemini prepay credits top-up at ai.studio/projects (research floor is $0 Tavily meanwhile) · GitHub Copilot MCP re-auth on Codex (or remove the server)
+- GOLDEN RULE: no live Codex session while Claude Code drives this tree — `codex exec` probes are fine, interactive Codex is not
+- Never edit `.codex/hooks.json` directly (trust-hash invalidation silently kills all hooks); change target scripts instead
 

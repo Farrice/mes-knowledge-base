@@ -46,6 +46,25 @@ Do not treat `GEMINI.md` or `CLAUDE.md` as primary routing authority in Codex. U
 - Closeout steering uses `execution/contextual_next_prompts.py` and the `/steering-compass` contract to produce 3 Next Prompts: Use Now, Harden, and Expand. Each prompt should explain when to use it, why it is recommended, the copy-paste prompt, expected output, quality bar, skip condition, and suggested skills/workflows.
 - Focused transfer handoffs use `/handoff`; whole-session closeouts use `/end-session`. `/handoff` may create a disposable OS-temp handoff for another session, branch, tool, or agent, while `/end-session` captures session intelligence and continuity evidence.
 
+## Deterministic Hook Layer (verified live-fire 2026-07-13, Codex CLI 0.144.3)
+
+`.codex/hooks.json` → `.codex/tools/codex_hook_runner.py` fires PHYSICALLY in this workspace — these gates are real on Codex, not advisory:
+
+| Event (verified firing) | Handlers | Behavior |
+|---|---|---|
+| SessionStart | plugin hooks (JCC orchestrator, watch setup) | context injection |
+| UserPromptSubmit | skill-router, session-ledger prompt | routing warnings + skill suggestions injected |
+| PreToolUse (shell → `Bash` matcher) | cost-gate, dangerous-git, active-tool-lock | HARD BLOCK on gated spend / dangerous git; concurrent-tool warn |
+| PostToolUse (shell) | session-ledger posttool | debt tracking |
+| Stop | session-ledger stop | finalize-debt check |
+
+Facts that keep this table honest:
+- Codex maps its shell tool onto the `Bash` matcher — every shell command passes the same gates as Claude Code. Work WITH a firing gate, never around it.
+- **Native (non-shell) file reads fire NO tool hooks.** The Claude-side execution-prompt menu injection does not exist here — on skill load, read the SKILL.md "Execution Prompts" section and honor the matching v2 prompt contract yourself.
+- Hook output contract is stricter than Claude Code: `hookSpecificOutput` REQUIRES `hookEventName` or Codex marks the hook Failed (root-caused 2026-07-13, JCC SessionStart).
+- Editing `.codex/hooks.json` invalidates per-hook trust hashes in `~/.codex/config.toml` — after any edit, hooks silently stop until re-trusted in Codex Desktop. Prefer changing the TARGET scripts (hook_runner targets) over the hooks.json wiring.
+- Keep the CLI current (`npm install -g @openai/codex@latest`): 0.133.0 hard-failed against gpt-5.6-sol; 0.144.3 verified working. Subagents + per-thread runtime routing available since 0.116.0/0.137.0 — real Codex subagents remain approval-gated per run.
+
 ## Skill Systems
 
 Use skill systems for end-to-end work that should run as a connected process, not as one isolated skill call and not as a giant mega-skill.

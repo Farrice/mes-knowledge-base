@@ -297,6 +297,52 @@ def verification_plan(chosen_route: str, mode: str, virtuoso: dict[str, Any]) ->
     return checks
 
 
+def _goal_spine(intent_text: str) -> dict[str, str]:
+    """Match the intent to a standing goal in .agent/cos/goals.json (maestro
+    parity with /go Stage 0). Compass, never cage: an ORPHAN flag is one line
+    of visibility, execution always proceeds."""
+    goals_path = ROOT / ".agent" / "cos" / "goals.json"
+    try:
+        goals = json.loads(goals_path.read_text()).get("goals", [])
+    except (OSError, ValueError):
+        return {"serves": "unknown", "note": "goals.json unreadable"}
+    q = normalize(intent_text)
+    for goal in goals:
+        if goal.get("status") != "active":
+            continue
+        for thread in goal.get("threads", []):
+            if thread and thread.replace("-", " ") in q:
+                return {"serves": goal["id"], "note": f"thread match: {thread}"}
+    for goal in goals:
+        if goal.get("status") != "active":
+            continue
+        tokens = [t for t in re.findall(r"[a-z]{4,}", normalize(goal.get("target", ""))) if t in q]
+        if len(tokens) >= 2:
+            return {"serves": goal["id"], "note": f"target match: {', '.join(tokens[:3])}"}
+    return {"serves": "orphan", "note": "no active goal matched — flag only, execute fully"}
+
+
+def _log_mission(packet: dict[str, Any]) -> None:
+    """Append the compiled mission to .agent/missions.jsonl so /pulse-board and
+    COS see Codex missions too (cross-platform operator-console parity)."""
+    import datetime
+    line = {
+        "ts": datetime.datetime.now().astimezone().isoformat(timespec="seconds"),
+        "mission": packet["raw_intent"][:160],
+        "serves": packet["mission_card"]["serves"],
+        "pattern": f"codex-bridge/{packet['chosen_route']}",
+        "tier": packet["mission_card"]["tier"],
+        "status": "compiled",
+        "outcome": "",
+        "platform": "codex",
+    }
+    try:
+        with open(ROOT / ".agent" / "missions.jsonl", "a") as fh:
+            fh.write(json.dumps(line, ensure_ascii=False) + "\n")
+    except OSError:
+        pass  # logging must never block a packet compile
+
+
 def build_packet(raw_intent: str, mode: str = "auto") -> dict[str, Any]:
     if mode not in MODE_CHOICES:
         raise ValueError(f"mode must be one of {', '.join(MODE_CHOICES)}")
@@ -346,6 +392,10 @@ def build_packet(raw_intent: str, mode: str = "auto") -> dict[str, Any]:
         "first_safe_action": operator_run_prompt(chosen_route, intent_text, mode),
         "verification_plan": verification_plan(chosen_route, mode, virtuoso),
         "operator_run_prompt": operator_run_prompt(chosen_route, intent_text, mode),
+        "mission_card": {
+            **_goal_spine(intent_text),
+            "tier": "T2 waiting" if launchpad["questions_that_change_execution"] else "T1 auto",
+        },
         "plugin_packaging_verdict": plugin_packaging_verdict(),
         "virtuoso_trace": {
             "primary_route": virtuoso.get("primary_route"),
@@ -364,9 +414,11 @@ def fmt_list(values: list[Any]) -> str:
 
 
 def render_plain(packet: dict[str, Any]) -> str:
+    card = packet.get("mission_card", {})
     lines = [
         "## Raw Intent Run Packet",
         f"- **Mode**: {packet['mode']}",
+        f"- **Serves**: {card.get('serves', '?')} ({card.get('note', '')}) · **Tier**: {card.get('tier', '?')}",
         f"- **Chosen route**: /{packet['chosen_route']} ({packet['route_owner']})",
         f"- **Predicted need**: {packet['predicted_need']}",
         f"- **Center**: {packet['center']}",
@@ -420,6 +472,7 @@ def main() -> int:
     args = parser.parse_args()
 
     packet = build_packet(" ".join(args.intent), mode=args.mode)
+    _log_mission(packet)
     if args.json:
         print(json.dumps(packet, indent=2, ensure_ascii=False))
     else:

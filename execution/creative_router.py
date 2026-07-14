@@ -74,7 +74,7 @@ RULES = [
                      r"\bon[- ]?body\b", r"\bugc\s+(photo|still)\b", r"\btalent\b"],
         "service": "higgsfield-soul",
         "reason": "Photoreal / people / character → Higgsfield Soul 2.0 (best photoreal + face consistency)",
-        "notes": "People and product heroes route here, not fal-poster. Attach a character ref for consistency. Nano Banana as fallback if Soul over-stylizes.",
+        "notes": "One-off people shots and product heroes route here, not fal-poster. Attach a character ref for consistency. Character BUILDS (face lock, outfit base, character sheet, persistent characters) → load skills/banana-pro-director/SKILL.md: Banana Pro (Nano Banana) is the build default, Higgsfield GPT-2 the fidelity escalation (≠ OpenAI GPT Image 2 / gpt-image-2-director), Soul the two-step iteration path.",
     },
 
     # ─── Quick concept images / cheap iteration (Nano Banana Pro) ───
@@ -110,7 +110,7 @@ RULES = [
                      r"\bcinema\s+studio\b", r"\bdolly\b", r"\bcrane\s+shot\b"],
         "service": "higgsfield-cinema",
         "reason": "Cinematic single-shot → Higgsfield Cinema Studio 3.5",
-        "notes": "5-10s clips. For longer/multi-shot, prefer Kling.",
+        "notes": "5-10s clips. For longer/multi-shot, prefer Kling. Cinematic prompt construction → skills/cinema-worldbuilder-pro/SKILL.md (block grammar, FOV degrees, Capture Realism).",
     },
 
     # ─── Premium cinema-grade (Veo 3.1 — uses Google Ultra quota) ───
@@ -128,7 +128,7 @@ RULES = [
                      r"\b5[- ]?second\b", r"\b8[- ]?second\b"],
         "service": "fal-seedance-720p",
         "reason": "Short cinematic clip → Seedance 720p (cheaper than Cinema Studio for single shots)",
-        "notes": "Audio NOT consistent across multi-clip stitches — use single-take only",
+        "notes": "Audio NOT consistent across multi-clip stitches — use single-take only. Seedance prompt construction → skills/cinema-worldbuilder-pro/SKILL.md (Fal surface = no @tags, use prose descriptors).",
     },
 
     # ─── Virality check ───

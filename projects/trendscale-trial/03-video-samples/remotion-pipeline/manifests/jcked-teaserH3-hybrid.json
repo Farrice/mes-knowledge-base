@@ -1,0 +1,33 @@
+{
+  "adName": "JCKED_TeaserH3_hybrid",
+  "crossfadeFrames": 0,
+  "clips": [
+    {
+      "id": "TeaserH3",
+      "path": "assets/clips/TEASER-H3-higgsfield-v2-restrained.mp4",
+      "label": "Teaser H3 — hero push (vault reveal, trimmed before label close-up corrupts)",
+      "trimInSeconds": 0,
+      "trimOutSeconds": 12.0,
+      "targetDurationSeconds": 12.0
+    }
+  ],
+  "vo": [],
+  "captions": [
+    { "text": "One enzyme decides.", "startSeconds": 0, "endSeconds": 4.0 }
+  ],
+  "accentWords": ["365-day", "$49.95"],
+  "theme": {
+    "fontFamily": "'Inter Tight','Inter',-apple-system,'Segoe UI',sans-serif",
+    "textColor": "#ECEFF3",
+    "accentColor": "#D9A441",
+    "backgroundColor": "#0B111C",
+    "brandLabel": "JCKED",
+    "captionBottomOffset": 420
+  },
+  "endCard": {
+    "productImage": "assets/images/jcked-bottle-cutout.png",
+    "offerLine": "First bottle $49.95",
+    "guaranteeLine": "365-day money-back guarantee",
+    "holdSeconds": 3
+  }
+}

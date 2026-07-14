@@ -1,5 +1,7 @@
 # GEMINI.md — Antigravity System (Rebuilt 2026-06-09)
 
+> **Platform status (verified 2026-07-13):** Google shut down the Gemini CLI and consumer Code Assist on **2026-06-18** (enterprise-only afterward; successor is Google's own "Antigravity CLI"). This constitution serves the surviving Gemini surfaces — the Gemini app, AI Studio, and API. Never wire hooks, subagents, or harness automation against the Gemini CLI; it is a dead platform for this workspace.
+
 ## Environment
 - `.env` at root = `NOTION_API_KEY`
 - Python deps: `python-dotenv`, `requests` (no requirements.txt)

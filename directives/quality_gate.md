@@ -101,8 +101,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-07-11 (chain_runner finalize for prompt-renaissance) |
-| **Activation Count** | 590 |
-| **30-Day Review Date** | 2026-08-10 |
+| **Last Activated** | 2026-07-13 (chain_runner finalize for joey-cinema-os) |
+| **Activation Count** | 598 |
+| **30-Day Review Date** | 2026-08-12 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

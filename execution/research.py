@@ -145,8 +145,11 @@ def _try_gemini(query: str, depth: str, task_context: str
     except BEE as e:  # type: ignore
         return None, EngineAttempt(GE.GEMINI_DEEP, AO.SKIPPED, detail=f"budget: {str(e)[:60]}")
     except Exception as e:
+        # Keep the real reason in the receipt — an opaque "RuntimeError" hid a
+        # depleted-prepay-credits 429 for days (found 2026-07-13).
         return None, EngineAttempt(GE.GEMINI_DEEP, AO.FAILED,
-                                   detail=f"{type(e).__name__}", duration_seconds=round(time.monotonic() - t0, 1))
+                                   detail=f"{type(e).__name__}: {str(e)[:110]}",
+                                   duration_seconds=round(time.monotonic() - t0, 1))
     dur = round(time.monotonic() - t0, 1)
     ok, reason = validate_engine_text(dr.text, dr.citations)
     if getattr(dr, "status", "") == "failed" or not ok:

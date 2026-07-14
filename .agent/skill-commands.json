@@ -105,6 +105,10 @@
       "skill": "authority-hacker-ai-social-media"
     },
     {
+      "command": "/banana-pro",
+      "skill": "banana-pro-director"
+    },
+    {
       "command": "/ben-watkins",
       "skill": "ben-watkins-storytelling"
     },
@@ -191,6 +195,10 @@
     {
       "command": "/chris-do",
       "skill": "chris-do-design-business"
+    },
+    {
+      "command": "/cinema-worldbuilder",
+      "skill": "cinema-worldbuilder-pro"
     },
     {
       "command": "/cinematic-documentary",
@@ -543,6 +551,10 @@
     {
       "command": "/joanna-wiebe-writing-careers",
       "skill": "joanna-wiebe-writing-careers"
+    },
+    {
+      "command": "/joey-cinema",
+      "skill": "joey-cinema-os"
     },
     {
       "command": "/john-whiting",
@@ -1279,6 +1291,10 @@
     {
       "command": "/stockton-walbeck",
       "skill": "stockton-walbeck-lead-magnets"
+    },
+    {
+      "command": "/story-bible",
+      "skill": "story-bible-builder"
     },
     {
       "command": "/story-compass",

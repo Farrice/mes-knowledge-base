@@ -22,6 +22,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from control_intent import classify_control_intent  # noqa: E402
+from routing_enforcer import match_bindings  # noqa: E402
 
 # (prompt, expected_route) — expected_route "" means "must NOT fire".
 GOLDEN: list[tuple[str, str]] = [
@@ -68,6 +69,42 @@ GOLDEN: list[tuple[str, str]] = [
     ("we lost the magic from the previous session import, the revision got worse", "repeatability-spine"),
 ]
 
+# Golden set for routing_enforcer.match_bindings — the OTHER misfire surface.
+# (text, binding_id_expected) — "" means "no binding may fire on this text".
+# 2026-07-13 root cause: operator_system_audit fired on bare "wiring"/"chained"
+# substrings, hitting research missions and finalize notes that merely
+# mentioned wiring as a build aspiration, not a control-plane complaint.
+BINDINGS_GOLDEN: list[tuple[str, str]] = [
+    # ---- Must NOT fire: research / build-aspiration language ----
+    (
+        "portability research: do Codex and Gemini CLI now support hooks or "
+        "fleet orchestration worth wiring into the ladder?",
+        "",
+    ),
+    (
+        "Portability research brief: Codex CLI + Gemini CLI hooks/fleet "
+        "orchestration state, with Conductor Ladder wiring recommendations",
+        "",
+    ),
+    ("draft a post about how neurons are chained into circuits", ""),
+    # ---- MUST fire: real control-plane complaints ----
+    (
+        "Codex is blocking hooks and routing wrong defaults; match Claude Code "
+        "without breaking my workspace",
+        "operator_system_audit",
+    ),
+    (
+        "do a full audit or check and repair on things that are not wired or "
+        "should not be wired together",
+        "operator_system_audit",
+    ),
+    (
+        "routes are being handcuffed and chained together for no reason",
+        "operator_system_audit",
+    ),
+    ("the hook wiring is broken, defaults are wrong", "operator_system_audit"),
+]
+
 
 def main() -> int:
     failures = []
@@ -76,13 +113,30 @@ def main() -> int:
         got = result["route"]
         if got != expected:
             failures.append((prompt, expected, got, result["evidence"]))
-    if failures:
-        print(f"FAIL — {len(failures)}/{len(GOLDEN)} golden cases regressed:")
-        for prompt, expected, got, evidence in failures:
-            print(f"  expected={expected or '-'} got={got or '-'} ev={evidence[:5]}")
-            print(f"    prompt: {prompt}")
+    binding_failures = []
+    for text, expected_id in BINDINGS_GOLDEN:
+        hits = match_bindings(text)
+        got_ids = [h["binding_id"] for h in hits]
+        if expected_id and expected_id not in got_ids:
+            binding_failures.append((text, expected_id, got_ids))
+        elif not expected_id and got_ids:
+            binding_failures.append((text, "-", got_ids))
+    if failures or binding_failures:
+        if failures:
+            print(f"FAIL — {len(failures)}/{len(GOLDEN)} classifier golden cases regressed:")
+            for prompt, expected, got, evidence in failures:
+                print(f"  expected={expected or '-'} got={got or '-'} ev={evidence[:5]}")
+                print(f"    prompt: {prompt}")
+        if binding_failures:
+            print(f"FAIL — {len(binding_failures)}/{len(BINDINGS_GOLDEN)} bindings golden cases regressed:")
+            for text, expected, got in binding_failures:
+                print(f"  expected={expected} got={got or '-'}")
+                print(f"    text: {text}")
         return 1
-    print(f"PASS — {len(GOLDEN)}/{len(GOLDEN)} control-intent golden cases hold.")
+    print(
+        f"PASS — {len(GOLDEN)}/{len(GOLDEN)} classifier + "
+        f"{len(BINDINGS_GOLDEN)}/{len(BINDINGS_GOLDEN)} bindings golden cases hold."
+    )
     return 0
 
 

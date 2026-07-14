@@ -34,11 +34,21 @@ A 3-layer expert-orchestration OS owned by Farrice: JARVIS routing → <!-- COUN
 
 <!-- BEGIN:solution-recorder -->**Step 6.5 — Solution Recorder (binding, 2026-07-07):** cracked a non-trivial problem (any domain)? Run `python3 execution/solution_recorder.py draft --slug <slug> --problem "<signature>"`, fill the card, `save` it to `docs/solutions/` before moving on — a solved problem without a card is unfinished work. Check `docs/solutions/index.md` before re-solving anything familiar. Finalize is latched to this: open fresh learning debt makes `chain_runner.py finalize` refuse until you pass `--learning <card>` (validated card clears the debt) or `--skip-learning` (proceeds, logged to `evolution_store/learning_latch_overrides.jsonl`).<!-- END:solution-recorder -->
 
-## No hooks on Codex — run gates manually
-Claude Code enforces these physically; here YOU are the hook:
-- **Cost gate** before any paid API (Fal, Seedance, Kling, deep-research): `python3 execution/cost_gate.py check --service <id>`. Denied = stop and surface.
+## Hooks on Codex — live and physical (verified by live-fire probe 2026-07-13, Codex CLI 0.144.3)
+`.codex/hooks.json` fires deterministically in this workspace. Verified firing events:
+- **SessionStart** (plugin hooks) · **UserPromptSubmit** ×3 (skill-router, session-ledger prompt) · **PreToolUse on shell** ×3 (cost-gate, dangerous-git, active-tool-lock) · **PostToolUse on shell** (session-ledger) · **Stop** (session-ledger finalize check).
+- Codex maps its shell tool to the `Bash` matcher, so every shell command passes the same physical gates as Claude Code. When a gate fires, work WITH it — never around it.
+- Codex hook-output contract is STRICTER than Claude Code: `hookSpecificOutput` requires `hookEventName` or the hook is marked Failed (root-caused 2026-07-13 on the JCC SessionStart hook).
+
+**Coverage gaps — here YOU are still the hook:**
+- **Native file reads do NOT fire tool hooks** (only shell commands do). The Claude-side execution-prompt menu injection has no Codex equivalent — when you load a skill, READ its "Execution Prompts" section in SKILL.md and honor the matching v2 prompt contract yourself.
+- **Cost gate** still deserves a manual pre-check before any paid API (Fal, Seedance, Kling, deep-research): `python3 execution/cost_gate.py check --service <id>`. Denied = stop and surface. (The PreToolUse hook backstops this, but only for shell-invoked spends.)
 - **Finalize debt**: produced an artifact with an expert skill loaded → Step 6 is mandatory before ending.
 - **Routing bindings**: check `directives/routing-bindings.md` when a route feels ambiguous.
+- **Keep the CLI current**: `npm install -g @openai/codex@latest`. A stale CLI can hard-fail against current models (0.133.0 could not run gpt-5.6-sol at all; fixed by 0.144.3, 2026-07-13).
+
+## Voice layer (binding — mirrors CLAUDE.md `farrice_voice_alignment`; gap proven by A/B 2026-07-13)
+Anything shipping in Farrice's own voice (posts, editions, Notes, emails, DMs, bios): read `_active/farrice-brand/voice/VOICE-CARD.md` and apply the dial mode (default BLEND — "better version of me," never blanket mimicry) BEFORE the content workflow runs. The 2026-07-13 golden-brief A/B showed Codex output loses his texture exactly when this load is skipped.
 
 ## Persistent Per-Exchange Steering
 Every meaningful final answer should end with useful steering and an Operator

@@ -8,6 +8,8 @@ Every real Higgsfield generation must pass through `execution/higgsfield_budget_
 
 Prompt-only ideation, creative briefs, and prompt packages are free and do not need approval.
 
+The Joey cinema skills (`banana-pro-director`, `cinema-worldbuilder-pro`, `story-bible-builder`, `joey-cinema-os`) are prompt-only — their job ends at the code block and they are never gated. Executing their prompts through Higgsfield MCP/CLI or Fal wrappers remains guarded unchanged.
+
 ## Current Baseline
 
 - Account: `farrice.cain@gmail.com`

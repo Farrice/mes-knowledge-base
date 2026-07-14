@@ -14,6 +14,8 @@
 | Seedance 480p | Budget option for quick experiments ($0.13/s vs $0.30/s) |
 | Seedance 1080p | **HARD-BLOCKED** — too expensive (~$10 single call) |
 
+> **Prompt grammar**: For cinematic Seedance prompt construction, load `skills/cinema-worldbuilder-pro/SKILL.md` (block order, FOV in degrees, Capture Realism, write-the-visible). Fal surface = no @tags; use prose descriptors. Any still that seeds video follows the 18% gray flat-plate rule (`skills/banana-pro-director/SKILL.md`).
+
 ## Use-Case Presets (within $2 Kling / $3 Seedance-720p ceilings)
 
 ### My.BPM product reveal

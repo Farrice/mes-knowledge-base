@@ -28,6 +28,12 @@ export function resolveManifest(manifestPath, rootDir) {
     return { ...clip, resolvedExists: exists };
   });
 
+  manifest.overlays = (manifest.overlays || []).map((o, i) => {
+    const exists = resolveOne(o.path);
+    if (!exists) missing.push(`overlay[${i}]: ${o.path}`);
+    return { ...o, resolvedExists: exists };
+  });
+
   manifest.vo = (manifest.vo || []).map((v, i) => {
     const exists = resolveOne(v.path);
     if (!exists) missing.push(`vo[${i}]: ${v.path}`);

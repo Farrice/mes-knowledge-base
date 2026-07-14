@@ -444,3 +444,19 @@
 - `[2026-07-09 17:34]` **finalize** | TrendScale video-samples production system: 00-PLAN (send strategy + recruiter reply) + JCKED video  | general | higgsfield-creative-studio — composite:7.25 status:Needs Improvement
 - `[2026-07-09 17:57]` **finalize** | Wave 2 Verifier Layer shipped: claim_audit.py, anchor_verify.py, gates.py, blind_pass.py + skill_aud | strategy | system-audit — composite:8.67 status:Keep
 - `[2026-07-13 16:06]` **lint** | Lint scan — 51 issues (28 errors, 11 warnings) — Files scanned: 530
+- `[2026-07-13 14:03]` **finalize** | Prompt Wiring OS: closed the skills-without-execution-prompts gap end-to-end — load-time menu hook,  | general | system-orchestration — composite:9.0 status:Keep
+- `[2026-07-13 17:26]` **finalize** | Portability research brief: Codex CLI + Gemini CLI hooks/fleet orchestration state as of 2026-07, wi | research | research-engine — composite:7.0 status:Needs Improvement
+- `[2026-07-13 18:12]` **finalize** | Receipt Arc launch sequence — 14-post Stanton-produced LinkedIn launch order + 13 hand-off loop line | general | andrew-stanton — composite:8.33 status:Keep
+- `[2026-07-13 18:19]` **finalize** | Today I asked my AI system to verify its own automation.
+
+On paper, it looked clean. The config exis | general | voice-os — composite:5.67 status:Needs Improvement
+- `[2026-07-13 18:20]` **finalize** | Today I asked my AI system to verify its own automation.
+
+On paper, it looked clean. The config exis | general | voice-os — composite:7.33 status:Needs Improvement
+- `[2026-07-13 18:21]` **finalize** | Today I asked my AI system to verify itself.
+
+The first live probe found a dead Codex layer.
+
+Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 status:Keep
+- `[2026-07-13 18:30]` **finalize** | Codex parity mission: routing misfire fix + gemini_deep diagnosis + Codex CLI upgrade/live-fire hook | strategy | system-orchestration — composite:8.33 status:Keep
+- `[2026-07-13 19:46]` **finalize** | Joey (Noisy Group) — cinema-grade AI production OS: forge extraction (12 workflows, 8 born-v2 prompt | general | joey-noisy-group — composite:8.33 status:Keep

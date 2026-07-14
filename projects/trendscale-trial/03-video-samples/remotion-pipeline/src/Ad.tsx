@@ -102,10 +102,26 @@ const EndCardSchema = z.object({
   backgroundColor: z.string().optional(),
 });
 
+// Image composited ABOVE the clip track for a time window — built for the
+// one thing generative video cannot be trusted with: the real product (label
+// must be pixel-exact, so it comes from a real PNG, never from the model).
+const OverlaySchema = z.object({
+  path: z.string(),
+  startSeconds: z.number(),
+  endSeconds: z.number(),
+  xPercent: z.number().default(50), // overlay center, % of frame width
+  yPercent: z.number().default(50), // overlay center, % of frame height
+  widthPercent: z.number().default(26), // image width, % of frame width
+  glow: z.boolean().default(true), // accent radial behind the image — also masks the covered region's edges
+  fadeInSeconds: z.number().default(0.4),
+  resolvedExists: z.boolean().default(true),
+});
+
 export const AdManifestSchema = z.object({
   adName: z.string(),
   crossfadeFrames: z.number().int().min(0).default(0),
   clips: z.array(ClipSchema).min(1),
+  overlays: z.array(OverlaySchema).default([]),
   vo: z.array(VoTrackSchema).default([]),
   captions: z.array(CaptionCueSchema).default([]),
   accentWords: z.array(z.string()).default([]),
@@ -302,6 +318,61 @@ const ClipVisual: React.FC<{ clip: Clip; theme: Theme }> = ({ clip, theme }) => 
   );
 };
 
+const OverlayImage: React.FC<{
+  overlay: z.infer<typeof OverlaySchema>;
+  theme: Theme;
+}> = ({ overlay, theme }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const fadeFrames = Math.max(1, Math.round(overlay.fadeInSeconds * fps));
+  const opacity = interpolate(frame, [0, fadeFrames], [0, 1], {
+    extrapolateRight: "clamp",
+    easing: Easing.out(Easing.cubic),
+  });
+  const scale = interpolate(frame, [0, fadeFrames], [0.92, 1], {
+    extrapolateRight: "clamp",
+    easing: Easing.out(Easing.cubic),
+  });
+  const imgWidth = WIDTH * (overlay.widthPercent / 100);
+
+  return (
+    <AbsoluteFill>
+      <div
+        style={{
+          position: "absolute",
+          left: `${overlay.xPercent}%`,
+          top: `${overlay.yPercent}%`,
+          transform: `translate(-50%, -50%) scale(${scale})`,
+          opacity,
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        {overlay.glow && (
+          <div
+            style={{
+              position: "absolute",
+              width: imgWidth * 2.4,
+              height: imgWidth * 2.4,
+              borderRadius: "50%",
+              background: `radial-gradient(circle, ${theme.accentColor}40 0%, ${theme.accentColor}18 40%, transparent 68%)`,
+            }}
+          />
+        )}
+        <Img
+          src={staticFile(normalizeAssetPath(overlay.path))}
+          style={{
+            width: imgWidth,
+            position: "relative",
+            filter: "drop-shadow(0 18px 40px rgba(0,0,0,0.55))",
+          }}
+        />
+      </div>
+    </AbsoluteFill>
+  );
+};
+
 const CaptionCard: React.FC<{
   text: string;
   accentWords: string[];
@@ -350,10 +421,30 @@ const EndCard: React.FC<{
       }}
     >
       {endCard.productImageExists ? (
-        <Img
-          src={staticFile(normalizeAssetPath(endCard.productImage))}
-          style={{ maxWidth: "52%", maxHeight: "48%", objectFit: "contain" }}
-        />
+        <div
+          style={{
+            position: "relative",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "100%",
+            maxHeight: "48%",
+          }}
+        >
+          <div
+            style={{
+              position: "absolute",
+              width: 720,
+              height: 720,
+              borderRadius: "50%",
+              background: `radial-gradient(circle, ${theme.accentColor}33 0%, ${theme.accentColor}14 40%, transparent 70%)`,
+            }}
+          />
+          <Img
+            src={staticFile(normalizeAssetPath(endCard.productImage))}
+            style={{ maxWidth: "52%", maxHeight: "100%", objectFit: "contain", position: "relative" }}
+          />
+        </div>
       ) : (
         <div
           style={{
@@ -514,6 +605,23 @@ export const Ad: React.FC<AdManifest> = (props) => {
           ))}
         </TransitionSeries>
       )}
+
+      {/* --- Overlay track (real product image over generated footage) --- */}
+      {props.overlays
+        .filter((o) => o.resolvedExists)
+        .map((o, i) => (
+          <Sequence
+            key={`overlay-${i}`}
+            from={Math.round(o.startSeconds * fps)}
+            durationInFrames={Math.max(
+              1,
+              Math.round((o.endSeconds - o.startSeconds) * fps)
+            )}
+            premountFor={fps}
+          >
+            <OverlayImage overlay={o} theme={props.theme} />
+          </Sequence>
+        ))}
 
       {/* --- Captions track (burned-in, bottom-third, safe-area aware) --- */}
       {props.captions.map((cue, i) => {

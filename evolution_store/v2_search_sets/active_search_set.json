@@ -2307,8 +2307,64 @@
         "gaming_flag": false
       },
       "notes": "Retry after known intent_alignment mismatch; artifact satisfies automation prompt output shape | platform: codex | Verification: JSONL PASS, export PASS, grounding PASS, content_finish WARN, claim_risk WATCH, Drive disabled"
+    },
+    {
+      "trace_id": "20260713_181953",
+      "timestamp": "2026-07-13T18:19:53.779483",
+      "schema_version": "v3",
+      "component": "voice-os",
+      "expert": "voice-os",
+      "workflow": "system-audit",
+      "quality": {
+        "composite": 5.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 4.0,
+        "adversarial_resilience": 9.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Voice OS BLEND; 150 words; prose classifier CLEAN 0/10 | platform: codex | Verification: PASS | Anchor: Anchor 9 - expert would sign it unchanged"
+    },
+    {
+      "trace_id": "20260713_182021",
+      "timestamp": "2026-07-13T18:20:21.208742",
+      "schema_version": "v3",
+      "component": "voice-os",
+      "expert": "voice-os",
+      "workflow": "system-audit",
+      "quality": {
+        "composite": 7.33,
+        "intent_alignment": 9.0,
+        "expert_standard": 4.0,
+        "adversarial_resilience": 9.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Retry after correcting score scale and exact rubric anchor; Voice OS BLEND; 150 words; prose classifier CLEAN 0/10 | platform: codex | Verification: PASS | Anchor: Anchor 9 \u2014 expert would sign it unchanged"
     }
   ],
-  "total_cases": 81,
-  "last_updated": "2026-07-09T06:38:34.985285"
+  "total_cases": 83,
+  "last_updated": "2026-07-13T18:20:21.209975"
 }

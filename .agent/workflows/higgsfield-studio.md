@@ -19,6 +19,7 @@ Build a cohesive prompt package or guarded Higgsfield generation workflow for GP
 3. Load source prompt directors as needed:
    - `skills/gpt-image-2-director/SKILL.md`
    - `skills/marketing-studio-director/SKILL.md`
+   - Persistent character / world production path: `skills/story-bible-builder/SKILL.md` (canon) → `skills/banana-pro-director/SKILL.md` (face lock → outfit base → 3-panel sheet → scene plates) → `skills/cinema-worldbuilder-pro/SKILL.md` (block-structured Seedance shot prompts). Front door: `/jcin-pipeline`. Higgsfield GPT-2 (faces) ≠ OpenAI GPT Image 2 (`gpt-image-2-director`, layout/text).
 4. Add strategy or QA layers only when they materially improve the request:
    - `skills/luke-iha-creative-strategy/SKILL.md`
    - `skills/luke-iha-copy-blocks/SKILL.md`

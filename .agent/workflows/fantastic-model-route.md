@@ -22,6 +22,7 @@ Execute: skills/fantastic-posters/workflows/04-model-route.md
 ## When to Use
 
 After divergence, to pick the best instrument per direction and estimate spend.
+When a direction routes to Higgsfield photoreal people, `skills/banana-pro-director/SKILL.md` is the compile grammar at the next stage (Banana Pro default, Higgsfield GPT-2 escalation — not OpenAI GPT Image 2).
 
 ## Cost & Safety
 

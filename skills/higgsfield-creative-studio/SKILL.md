@@ -30,8 +30,12 @@ Choose the path from the user's request:
 |---|---|---|
 | GPT Image 2 prompt, key visual, poster, landing page mockup, infographic, product frame, storyboard still, character sheet | `gpt-image-2-director` | Finished GPT Image 2 prompt in the correct source-skill format |
 | Higgsfield, Marketing Studio, UGC, Tutorial, Unboxing, Hyper Motion, Product Review, TV Spot, Wild Card, Virtual Try On, video ad prompt | `marketing-studio-director` | Finished Marketing Studio paragraph plus generation link |
+| Photoreal character build, face lock, character sheet, outfit swap, persistent character | `skills/banana-pro-director/SKILL.md` | Higgsfield still prompt in Banana Pro grammar (18% gray flat plates, Mode 0→1→2A order) |
+| Seedance cinematic video prompt | `skills/cinema-worldbuilder-pro/SKILL.md` | Block-structured Seedance prompt (@tags on Higgsfield surface only) |
 | Full ad asset system, still-to-video pack, campaign creative kit, prompt stack | This skill + both source skills as needed | Strategy notes, still prompt, video prompt, QA checklist |
 | User asks to actually render/generate/show result | This skill + Higgsfield MCP/CLI bridge | Guarded preview/final generation with logged credit use |
+
+Disambiguation: Higgsfield GPT-2 (face-fidelity image model, credit-heavy — banana-pro-director's escalation path) ≠ OpenAI GPT Image 2 (`gpt-image-2-director` — layout/typography king, weak faces).
 
 ## Tool Routing
 

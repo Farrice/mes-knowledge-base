@@ -103,3 +103,5 @@
 {"ts": "2026-07-13T16:57:56.134928+00:00", "tool": "mcp__claude_ai_Higgsfield__job_status", "service": "higgsfield", "billable": false, "session_id": "dfdcc772-8dfd-4bca-9a66-2c73e398cdbb"}
 {"ts": "2026-07-13T16:58:06.448698+00:00", "tool": "mcp__claude_ai_Higgsfield__job_status", "service": "higgsfield", "billable": false, "session_id": "dfdcc772-8dfd-4bca-9a66-2c73e398cdbb"}
 {"ts": "2026-07-13T16:58:07.590535+00:00", "tool": "mcp__claude_ai_Higgsfield__job_status", "service": "higgsfield", "billable": false, "session_id": "dfdcc772-8dfd-4bca-9a66-2c73e398cdbb"}
+{"ts": "2026-07-13T21:06:06.349223+00:00", "tool": "mcp__claude_ai_Higgsfield__remove_background", "service": "higgsfield", "billable": true, "session_id": "dfdcc772-8dfd-4bca-9a66-2c73e398cdbb"}
+{"ts": "2026-07-13T21:06:14.854203+00:00", "tool": "mcp__claude_ai_Higgsfield__job_status", "service": "higgsfield", "billable": false, "session_id": "dfdcc772-8dfd-4bca-9a66-2c73e398cdbb"}

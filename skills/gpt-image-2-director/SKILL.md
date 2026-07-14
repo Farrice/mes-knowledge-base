@@ -14,7 +14,7 @@ GPT Image 2.0's actual strengths drive how its prompts should be written. Know t
 - **Prompt following is its #1 strength.** It will honor granular layout instructions — "top-left panel shows X, mid-right shows Y, 8 icons in a row labeled A, B, C..." — in a way other models can't. This is why the JSON format works so well: it tells the model exactly where things go.
 - **Text rendering is best-in-class.** Multi-line paragraphs, mixed scripts (CJK + Latin), small UI labels, serif vs sans, numeric data in tables — all sharp and legible.
 - **Design and UI mockups are its sweet spot.** Website landing pages, social feeds, magazine covers, infographics, exploded product diagrams, exam papers — things with real information density.
-- **Cinematic photorealism is its weakness.** Human faces often go plasticky. Lean into stylized, illustrated, or editorial aesthetics rather than hyperreal skin. When realism is requested, frame it as film photography (grain, flash, 35mm) rather than as "photorealistic."
+- **Cinematic photorealism is its weakness.** Human faces often go plasticky. Lean into stylized, illustrated, or editorial aesthetics rather than hyperreal skin. When realism is requested, frame it as film photography (grain, flash, 35mm) rather than as "photorealistic." For photoreal faces / persistent characters on Higgsfield → `skills/banana-pro-director/SKILL.md` (note: Higgsfield's GPT-2 image model is a different model from this skill's OpenAI GPT Image 2).
 
 Your prompts should lean into the strengths: information density, layout precision, text, and design systems.
 

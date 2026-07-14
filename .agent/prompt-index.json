@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7078,
+ "count": 7086,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -9458,6 +9458,62 @@
    "title": "Writing Service Offer Package \u2014 [Writer/Agency Name]",
    "gist": "You are working from Joanna Wiebe's service-architecture methodology \u2014 Copy Hackers founder, coiner of \"conversion copywriting.\" Her operating rule for building a writing offer: price the atomic unit of business value th",
    "path": "skills/joanna-wiebe-writing-careers/references/prompts-v2/writing-service-offer-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joey-cinema-os",
+   "title": "Joey \u2014 Character Identity Lock Package",
+   "gist": "You are running Joey's STILLS identity layer (Noisy Group / Control World \u2014 the builder of Control (CTRL), whose locked characters hold identity across full music videos). The discipline: **references carry identity, pro",
+   "path": "skills/joey-cinema-os/references/prompts-v2/character-identity-lock.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joey-cinema-os",
+   "title": "Joey \u2014 15-Second 3-Shot Story",
+   "gist": "You are building Joey's contest-format micro-story (Noisy Group / Control World). His brief is one sentence: *\"What's a story that you can tell in 15 seconds that grabs the attention, gives an emotional payoff, and leave",
+   "path": "skills/joey-cinema-os/references/prompts-v2/micro-story-15s.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joey-cinema-os",
+   "title": "Joey \u2014 Product Identity Lock Package",
+   "gist": "You are running the KY transfer of Joey's identity discipline (KY \u2014 formally trained fashion designer, Control World Fashion Design Director, who imports real fashion-industry documentation into the AI pipeline). Joey's ",
+   "path": "skills/joey-cinema-os/references/prompts-v2/product-identity-lock.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joey-cinema-os",
+   "title": "Joey \u2014 Prompt Diagnosis & Repair",
+   "gist": "You are running Joey's repair discipline (Noisy Group / Control World). His move is never \"add another clause\" \u2014 past ~3 failed iterations the instruction is the opposite: \"cut it, reset it, let the prompt breathe,\" then",
+   "path": "skills/joey-cinema-os/references/prompts-v2/prompt-repair.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joey-cinema-os",
+   "title": "Joey \u2014 Cinematic Scene Plate",
+   "gist": "You are writing a Banana Pro Mode 3 scene plate in Joey's cinema-prose register (Noisy Group / Control World) \u2014 a still that reads as if a cinematographer locked off and grabbed a photo on the same camera package mid-tak",
+   "path": "skills/joey-cinema-os/references/prompts-v2/scene-plate.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joey-cinema-os",
+   "title": "Joey \u2014 Seedance Shot Prompt",
+   "gist": "You are writing a block-structured Seedance video prompt in Joey's MOTION grammar (Noisy Group / Control World \u2014 his locked characters hold identity across full published music videos). Seedance is a physics engine, not ",
+   "path": "skills/joey-cinema-os/references/prompts-v2/seedance-shot.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joey-cinema-os",
+   "title": "Joey \u2014 Credit-Costed Shot Plan",
+   "gist": "You are running Joey's Cost Before Generate discipline (Noisy Group / Control World \u2014 a working filmmaker whose production economics are published numbers, not vibes). Iteration is filming takes, and takes are the budget",
+   "path": "skills/joey-cinema-os/references/prompts-v2/shot-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "joey-cinema-os",
+   "title": "Joey \u2014 Story/World/Brand Bible",
+   "gist": "You are running Joey's CANON layer (Noisy Group / Control World \u2014 professional filmmaker who built Control (CTRL), a fully AI-generated K-pop group with published music videos, and gave the pipeline away as free Claude s",
+   "path": "skills/joey-cinema-os/references/prompts-v2/world-bible.md"
   },
   {
    "kind": "prompt-v2",

@@ -1,0 +1,74 @@
+{
+  "adName": "JCKED_TeaserH3_v3",
+  "crossfadeFrames": 0,
+  "clips": [
+    {
+      "id": "B1-door",
+      "path": "assets/clips/TEASER-H3-higgsfield-v2-restrained.mp4",
+      "label": "Beat 1 \u2014 corridor approach",
+      "trimInSeconds": 0,
+      "trimOutSeconds": 2.5,
+      "targetDurationSeconds": 2.5
+    },
+    {
+      "id": "B2-key",
+      "path": "assets/clips/TEASER-H3-higgsfield-v2-restrained.mp4",
+      "label": "Beat 2 \u2014 key turn close-up",
+      "trimInSeconds": 5.0,
+      "trimOutSeconds": 7.0,
+      "targetDurationSeconds": 2.0
+    },
+    {
+      "id": "B3-reveal",
+      "path": "assets/clips/TEASER-H3-higgsfield-v2-restrained.mp4",
+      "label": "Beat 3 \u2014 vault reveal (cut before the push enlarges the generated bottle)",
+      "trimInSeconds": 9.4,
+      "trimOutSeconds": 10.8,
+      "targetDurationSeconds": 1.4
+    }
+  ],
+  "overlays": [
+    {
+      "path": "assets/images/jcked-bottle-cutout.png",
+      "startSeconds": 4.5,
+      "endSeconds": 5.9,
+      "xPercent": 50,
+      "yPercent": 40.5,
+      "widthPercent": 78,
+      "glow": true,
+      "fadeInSeconds": 0.3
+    }
+  ],
+  "vo": [],
+  "captions": [
+    {
+      "text": "One enzyme decides.",
+      "startSeconds": 0.2,
+      "endSeconds": 2.3
+    },
+    {
+      "text": "4,000mg unlocks it.",
+      "startSeconds": 2.7,
+      "endSeconds": 4.4
+    }
+  ],
+  "accentWords": [
+    "4,000mg",
+    "365-day",
+    "$49.95"
+  ],
+  "theme": {
+    "fontFamily": "'Inter Tight','Inter',-apple-system,'Segoe UI',sans-serif",
+    "textColor": "#ECEFF3",
+    "accentColor": "#D9A441",
+    "backgroundColor": "#0B111C",
+    "brandLabel": "JCKED",
+    "captionBottomOffset": 420
+  },
+  "endCard": {
+    "productImage": "assets/images/jcked-bottle-cutout.png",
+    "offerLine": "First bottle $49.95",
+    "guaranteeLine": "365-day money-back guarantee",
+    "holdSeconds": 3
+  }
+}

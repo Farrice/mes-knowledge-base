@@ -32,7 +32,8 @@
 | `asset_generator` | **Rank & Rent Asset Generator** | a complete system for identifying low-competition local niches, generating high-fidelity html assets with elevated copy and visuals, elevated) | 0 | 1 |
 | `attention-hijack-hooks` | **Attention Hijack Hooks** | universal attention-anchor and hook intelligence system for brandjacking, newsjacking, namejacking | 5 | 0 |
 | `authority-hacker-ai-social-media` | **Authority Hacker: AI Social Media Mastery** | deploy ai as a social media co-pilot that packages human insight into emotion..., ai social media mastery | 3 | 12 |
-| `ben-watkins-storytelling` | **Ben Watkins — Commercial Storytelling & The Pitch Room** | grounded in his 2026 anatomy of a dream interview, 14 workflows for the four pillars (attention → feel → teach → leave wanting), the 3 c's titanic stack | 14 | 0 |
+| `banana-pro-director` | **banana-pro-director** | higgsfield image prompt director for banana pro, soul cinema, and gpt-2, (1) single-image character outfit — banana pro or soul cinema two-step, (3) cinematic scene plates with or without characters | 0 | 0 |
+| `ben-watkins-storytelling` | **Ben Watkins — Commercial Storytelling & The Pitch Room** | grounded in his 2026 anatomy of a dream interview, 18 workflows for the four pillars (attention → feel → teach → leave wanting), the 3 c's titanic stack | 18 | 0 |
 | `benjamin-hardy-identity` | **benjamin-hardy-identity** | 10x-is-easier-than-2x goal architecture, frame/floor/focus elimination, and operating from your future self instead of toward it | 3 | 0 |
 | `bill-browder-high-stakes-narrative` | **Bill Browder — High-Stakes Narrative Nonfiction** | weaponized readability from the hedge-fund manager who turned depositions, preferred shares, and a murdered lawyer into international bestsellers (red notice | 13 | 0 |
 | `bitbranding-fashion-shopify` | **bitbranding-fashion-shopify** | christian pinyon (bitbranding) — fashion dtc shopify execution, free-tier-fluent, gap-honest, mobile-first, fashion shopify execution | 4 | 0 |
@@ -54,6 +55,7 @@
 | `chief-of-staff-os` | **Chief of Staff OS** | front door /cos, the counsel holds context so farrice doesn't have to | 4 | 0 |
 | `chris-cimorelli-copywriting` | **Chris Cimorelli — Financial Direct Response Copywriting** | 3% instead of 1%+, for non-financial dr campaigns use bond-halbert-copywriting, for sentence-level dopamine copy use stefan-georgi-dopamine-copy | 5 | 0 |
 | `chris-do-design-business` | **chris-do-design-business** | positioning by reframing the dominant competitor, premium/value-based pricing, selling without being salesy (sales = serve/ask/listen/empathize/summarize) | 3 | 0 |
+| `cinema-worldbuilder-pro` | **cinema-worldbuilder-pro** | user-defined element tags (e, @sol_ref, @berlin_plate) instead of image indices, diegetic audio only, no music, no lyrics | 0 | 0 |
 | `cinematic-documentary` | **cinematic-documentary** | cinematic documentary × character architecture × narrative direction, emotion over information ("find the egg sushi"), audience treated as parallel character on transformation arc | 13 | 0 |
 | `claim-safe-health-marketing` | **Claim-Safe Health Marketing** | regulatory compliance, health/supplement marketing, ftc/fda/dshea claim substantiation | 5 | 0 |
 | `coaching-business-os` | **coaching-business-os** | positioning, content monetization, client acquisition | 2 | 0 |
@@ -75,7 +77,7 @@
 | `dan-wang-literary-analysis` | **Dan Wang Literary Analysis** | 13 patterns made executable across friction-mapping (the official story vs, use when writing a long-form essay (1, for tighter argument architecture in shorter business pieces use fareed-zakaria | 13 | 7 |
 | `daniel-pink-writing-structure` | **daniel-pink-writing-structure** | daniel pink's non-fiction writing system — structure discovery before drafting, the proposal-as-stress-test idea validation pipeline, fresh-yet-familiar positioning | 3 | 0 |
 | `daniel-priestley-24-assets-os` | **Daniel Priestley: 24 Assets OS** | daniel priestley's 24 assets method for building digital, scalable, valuable businesses through ip | 12 | 0 |
-| `daniel-priestley-oversubscribed` | **Daniel Priestley: Oversubscribed Mastery** | 27 genius patterns and 27 crown jewel prompts for entrepreneurial domination, oversubscribed mastery | 7 | 27 |
+| `daniel-priestley-oversubscribed` | **Daniel Priestley: Oversubscribed Mastery** | 27 genius patterns and 27 crown jewel prompts for entrepreneurial domination, oversubscribed mastery | 9 | 27 |
 | `daniel-thrasher-affiliate` | **Daniel Thrasher — Affiliate Campaign Skills** | 5 years with top affiliates), campaign/funnel model, distinct from enfroy's blog-authority model, affiliate campaign skills | 3 | 0 |
 | `dara-denney-meta-ads` | **dara-denney-meta-ads** | dtc-meta-ads, dtc creative strategy for meta ads — video + static, engine for performance creative built on dara denney's agency methodology | 17 | 0 |
 | `darrel-wilson-ai-affiliate` | **darrel-wilson-ai-affiliate** | ai-augmented affiliate marketing, digital revenue systems, $50-60k/month in commissions backs the methodology | 12 | 0 |
@@ -132,7 +134,7 @@
 | `jack-roberts-design-mastery` | **Jack Roberts: Design Mastery** | code-first design system that codifies visual excellence into reusable design, design mastery | 15 | 0 |
 | `james-i-bond-brain-glue` | **James I. Bond — Brain Glue** | deploy brain glue stickiness across offers, sales copy, social content | 12 | 0 |
 | `jasmin-alic-linkedin-growth` | **Jasmin Alic: LinkedIn Organic Growth** | for mid/late-stage linkedin (5k+ followers) use lara-acosta-linkedin-mastery, for ghostwriting linkedin copy at scale use new-media-ghostwriting, linkedin organic growth | 4 | 14 |
-| `jason-fladlien-marketing` | **jason-fladlien-marketing** | high-status marketing × persuasion physics × incomparable offer engineering, don't add ten tactics), fear-first conversion (get them to run out of reasons to say no) | 30 | 26 |
+| `jason-fladlien-marketing` | **jason-fladlien-marketing** | high-status marketing × persuasion physics × incomparable offer engineering, don't add ten tactics), fear-first conversion (get them to run out of reasons to say no) | 31 | 26 |
 | `jay-hiette-coaching-positioning` | **jay-hiette-coaching-positioning** | contrarian message architecture ("people think x, which causes y, but the truth is z") | 3 | 0 |
 | `jen-santulan-listing-content` | **jen-santulan-listing-content** | real estate social media (la / san fernando valley specialist), user is producing instagram content for jen santulan's real-estate practice o..., specifically not for generic real-estate marketing — jen's voice (warm, enthu... | 3 | 0 |
 | `jenny-hoyos-shorts` | **jenny-hoyos-shorts** | immediate start, rising action, anticipation | 3 | 0 |
@@ -143,6 +145,7 @@
 | `jim-oshaughnessy-philosopher-financier` | **Jim O'Shaughnessy: Philosopher-Financier Skill** | the philosopher-financier framework - synthesizing quantitative rigor with hu..., philosopher-financier skill | 5 | 30 |
 | `joanna-wiebe-persuasion-mastery` | **Joanna Wiebe — Persuasion Mastery** | from sentence-level command to trigger deployment by funnel stage, from story architecture to commanding the room, persuasion mastery | 11 | 6 |
 | `joanna-wiebe-writing-careers` | **Joanna Wiebe — Writing Career Monetization** | for ai-leveraged copywriting business use cardinal-mason-ai-copywriting, writing career monetization | 6 | 0 |
+| `joey-cinema-os` | **joey-cinema-os** | joey (noisy group / control world) — cinema-grade ai production os, persistent-world ai production | 12 | 0 |
 | `john-whiting-propaganda-machine` | **john-whiting-propaganda-machine** | john whiting's content-closes-the-sale system, carries a mandatory ethics gate, the propaganda machine | 19 | 0 |
 | `jonah-berger-contagious` | **jonah-berger-contagious** | wharton research applied: engineer sharing instead of hoping for luck, contagious & the catalyst | 3 | 0 |
 | `jonathan-courtney-marketing` | **Jonathan Courtney — CEO Marketing Strategy** | ceo marketing strategy using the promoter blueprint — traffic, holding pattern, and selling events with ai-assisted campaign compression | 2 | 5 |
@@ -158,7 +161,7 @@
 | `kallaway-ai-content-engine` | **kallaway-ai-content-engine** | ai-augmented content production infrastructure, outlier mining, hook clustering | 5 | 0 |
 | `kallaway-audience-obsession` | **Kallaway Audience Obsession** | kallaway's power of suggestion framework for engineering audience obsession t..., audience obsession engineering | 12 | 0 |
 | `kallaway-content-operating-system` | **Kallaway Content Operating System** | format, substance, script | 1 | 0 |
-| `kallaway-content-psychology` | **Kallaway Content Psychology** | engineer viral content using neurochemical precision, pattern validation, buyer psychology | 9 | 39 |
+| `kallaway-content-psychology` | **Kallaway Content Psychology** | engineer viral content using neurochemical precision, pattern validation, buyer psychology | 10 | 39 |
 | `kallaway-content-system` | **Kallaway Content System** | end-to-end ai-enabled content production system: validated topics, format locking, substance | 9 | 0 |
 | `kallaway-illusion-of-novelty` | **kallaway-illusion-of-novelty** | perception engineering — manufactured novelty (the front-end attention layer), the front-end perception layer of the kallaway stack, stacks into addictive-storytelling for retention | 13 | 0 |
 | `kallaway-social-commerce` | **kallaway-social-commerce** | social commerce × distribution economics × monetization infrastructure, monetizes content distribution at social commerce 3, skill.md | 5 | 0 |
@@ -312,7 +315,7 @@
 | `semantic-document-library-os` | **Semantic Document Library OS** | ai/automation - semantic work primitives, agent-readable knowledge systems, document architecture | 6 | 0 |
 | `seth-godin-brand` | **seth-godin-brand** | brand architecture × trust engineering × marketing operations, covers brand promise architecture, trust engineering | 10 | 0 |
 | `seth-godin-ideavirus` | **Seth Godin — Ideavirus Mastery** | complete viral marketing and idea propagation system from seth godin's unleas..., ideavirus mastery | 6 | 26 |
-| `seth-godin-philosophy` | **Seth Godin — Strategic Philosophy** | complete operating philosophy for overcoming resistance, shipping creative work, and doing what matters for people who care | 7 | 0 |
+| `seth-godin-philosophy` | **Seth Godin — Strategic Philosophy** | complete operating philosophy for overcoming resistance, shipping creative work, and doing what matters for people who care | 8 | 0 |
 | `shaan-puri-storytelling` | **Shaan Puri Storytelling Mastery** | storytelling and audience building frameworks for emotion-first content that... | 6 | 16 |
 | `shan-hanif-audience-monetization` | **Shan Hanif: Audience Monetization** | turn unqualified linkedin leads into a high-profit digital product backend wh..., audience monetization | 2 | 4 |
 | `sharran-srivatsaa-scaling` | **sharran-srivatsaa-scaling** | business scaling, decision-making, constraint theory | 7 | 0 |
@@ -328,6 +331,7 @@
 | `steven-young-consciousness` | **steven-young-consciousness** | engineer oblique intentions that deliver goals as side effects, hermetic consciousness engineering | 3 | 0 |
 | `stitch-loop` | **stitch-loop** | teaches agents to iteratively build websites using stitch with an autonomous... | 0 | 0 |
 | `stockton-walbeck-lead-magnets` | **Stockton Walbeck — Lead Magnet Mastery** | lead magnet strategy using the 4-type taxonomy and 5-rule scorecard from 100+..., lead magnet mastery | 3 | 5 |
+| `story-bible-builder` | **story-bible-builder** | output is a ready-to-install skill | 0 | 0 |
 | `story-compass` | **story-compass** | story diagnosis × narrative architecture × pre-creation compass, compresses any idea into one gps sentence "i wanted ___, but ___, until ___, " binary story-vs-topic test (all three present = story | 13 | 0 |
 | `strength-conditioning-os` | **strength-conditioning-os** | conductor hub for the strength-&-conditioning / fitness coaching package, the coaching conductor | 2 | 0 |
 | `sunny-lenarduzzi-youtube` | **sunny-lenarduzzi-youtube** | hyper-targeted audience, the code framework (client, differentiation | 3 | 0 |
