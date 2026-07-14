@@ -10,6 +10,11 @@
 > stack — it manufactures the *feeling* of novelty for topics that are objectively
 > old, boring, or saturated. Cross-links to all six existing Kallaway skills
 > (see Stacking Map). Separate, not isolated.
+>
+> **PRIMARY SOURCE OF TRUTH:** Kallaway's own framework doc — `references/illusion-of-novelty-doc.md`
+> (the free PDF he releases with the video, which he explicitly says to "save as a skill"). This
+> genius.md operationalizes and extends that doc; where they ever diverge, **the source doc wins.**
+> The canonical audit instrument is `references/gut-check-scorecard.md`.
 
 ---
 
@@ -106,6 +111,35 @@ The first four components *build* the illusion. This one is about **not tearing 
 - **Gossip Whisperer:** "Okay… so not that many people know about this yet…" → feels like a secret, a peek behind a curtain they shouldn't have gotten → intrigue.
 
 The whisper wins *every single time, and it's not close.* **People are trained to distrust and dismiss any tone that feels salesy.** Lower the voice, and "you're not selling them on something — you're *sharing* something *with* them."
+
+**Canonical mascot-killers — cut every one (source doc, Section 6):** "this is really just…" · "as you probably know…" · "this has been around forever, but…" · "to be fair, this isn't new…" Plus the false-modesty family: "I'm no expert but…", "you've probably heard this…". *The single most devastating and most common mistake in the framework.*
+
+---
+
+## Canonical Assembly — Ordering, Modes & the Blank-Page Workflow (from the source doc)
+
+**The ordering principle (a strong default):** gossip-whisper opener → reveal + outcomes → contrast → urgency (if real) → bullseye proof. You can rearrange components — **just make sure the reveal + contrast land early, in the hook zone (first ~3–5 lines).** Proof and protection live in the body and the delivery.
+
+**The three operating modes** (how the source doc tells users to deploy it — each maps to a workflow):
+| Mode | What it does | Workflow |
+|---|---|---|
+| **Gut Check** | Score an existing hook/script against the Scorecard, name the weak components, rewrite weak lines side-by-side | `/novelty-audit` |
+| **Co-Writer** | Walk the framework questions in order and build the script from the answers (*the answers ARE the script*) | `/novelty-forge` |
+| **Pattern Analyst** | Compare your winners vs. losers through the 5 components; extract the framings that worked | `/novelty-pattern` |
+
+**The three standing rules (the honesty spine, Kallaway's own words):** (1) never let backstage language into a draft — no admitting an idea is old (mascot rule); (2) never write fake urgency; (3) never use template lines word-for-word. In Gut Check, always show the score table FIRST. The canonical kickoff prompt lives in `references/illusion-of-novelty-doc.md`.
+
+**The blank-page writing workflow (8 steps — `/novelty-forge` runs this):**
+1. Who is my exact viewer, and what outcome do they want most? (Sets Outcome Mapping + locates the proof bullseye.)
+2. What's my new angle? Brainstorm **3–5 candidate angles**; pick the one with the strongest outcome connection.
+3. What does my audience already believe that my angle is a TRUE opposite of?
+4. Urgency check — did something recently change? Is a window closing? Both no → skip, no exceptions.
+5. Climb the trust ladder — closest-to-home proof; push cold → warm → bullseye.
+6. Draft the **hook zone first** — whisper opener + reveal + outcome + contrast in the first 3–5 lines.
+7. Sweep for mascots — delete every hedge and every Town Crier line.
+8. Read it out loud — short sentences, spoken rhythm, secret-not-press-release.
+
+**The 4 questions before writing anything (Quick Reference):** (1) What's my new angle? (2) What outcome does my viewer want, and how does the angle connect? (3) What do they already believe that I can contrast against? (4) What's my closest-to-home proof?
 
 ---
 
@@ -219,6 +253,8 @@ Before producing, answer:
 ---
 
 ## Quality Rubric (score every output; ≥8 must name its anchor)
+
+> **Primary instrument: the canonical Gut-Check Scorecard** (`references/gut-check-scorecard.md` — Kallaway's own 0–2-per-component /10 scale + the Illusion Integrity pass/fail override + the 3-question sanity test). Run that first for the go/no-go. The 9 criteria below are the *deeper* rubric — they add what the source scorecard doesn't grade explicitly (hook density, domain fit, the standalone honesty veto). Reconciliation note: per the canonical scorecard, an **honest urgency skip earns 1 of 2 points** (a piece with no real window honestly caps at 9/10 — that is correct, not a deficiency); only *fake* urgency scores 0.
 
 1. **Three-Question Pass** — does the output earn YES on Relevant, Novel, Interesting? (Name which component delivers each. Missing any = fail.)
 2. **Hook Density** — does the opener carry ≥2 components (New Reveal + Outcome minimum) in ≤2 lines? Single-job hook = cap at 5.

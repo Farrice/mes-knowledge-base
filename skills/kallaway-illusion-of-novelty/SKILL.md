@@ -3,8 +3,8 @@ name: kallaway-illusion-of-novelty
 description: Manufactures the FEELING of novelty for boring, old, or saturated topics so any of them earns attention in any domain. Kallaway's 5-component Illusion of Novelty engine — New Reveal + Outcome Mapping, Contrast Framing, Urgency (optional turbo), Bullseye Proof (Trust Ladder), Protect the Illusion (don't-show-the-mascot + gossip-whisperer) — made domain-agnostic for social, marketing, copywriting, ghostwriting, and storytelling. Use when a topic is "too boring/saturated to make interesting," when a hook won't stop the scroll, when content is accurate but ignored, when an old idea needs to feel new, or when entering a stale niche. The front-end perception layer of the Kallaway stack; stacks into addictive-storytelling for retention.
 expert: Kallaway
 domain: Perception Engineering — Manufactured Novelty (the front-end attention layer)
-version: "1.0"
-workflows: 13
+version: "1.1"
+workflows: 14
 ---
 
 # Kallaway — The Illusion of Novelty
@@ -17,6 +17,9 @@ Perception Engineering — the manufacture of perceived novelty, relevance, and 
 ## Core Thesis
 Addictive content earns YES on three viewer questions — **Relevant** ("do I care?"), **Novel** ("is this new?"), **Interesting** ("am I intrigued?"). Relevance is free (call them out). Novelty and intrigue are the work — and for boring categories they must be *manufactured*. The five components each defeat a specific brain default to win those two. Load [genius.md](genius.md) before any workflow.
 
+## Canonical Source
+Kallaway's own framework doc is included verbatim at [references/illusion-of-novelty-doc.md](references/illusion-of-novelty-doc.md) — the free PDF he releases with the video, which he explicitly says to "feed into any AI model and/or save it as a skill." This skill *is* that. It is the **primary source of truth**: where any workflow or genius.md ever diverges from it, the doc wins. The canonical audit instrument is [references/gut-check-scorecard.md](references/gut-check-scorecard.md) (Section 8, lifted out). Everything here operationalizes and extends the doc — it does not replace it.
+
 ## The Five Components (the engine)
 1. **New Reveal + Outcome Mapping** — make an old thing feel new (new angle/frame/name/finding) and tie it to a wanted outcome. *The new reveal makes them look; the outcome mapping makes them stay.*
 2. **Contrast Framing** — position the new reveal against the held belief as a true opposite; the gap ("I might be wrong") produces intrigue.
@@ -26,7 +29,12 @@ Addictive content earns YES on three viewer questions — **Relevant** ("do I ca
 
 Plus two apex moves: the **recursive self-demonstration** (`/novelty-meta`) and the **winner/loser pattern-extraction loop** (`/novelty-pattern`) — "one-size framework, bespoke execution."
 
-## Workflows (13)
+## Workflows (14)
+
+### ★ Front Door — the conductor
+| Workflow | Slash Command | What It Does |
+|----------|--------------|-------------|
+| `novelty-engine` | `/novelty-engine` | **End-to-end content engine.** Orchestrates all 13 workflows below + the cross-skill Kallaway stacks, grounded in LIVE research (Phase 0.5), gated by the Gut-Check scorecard with closed-loop repair. Use this to build finished content; everything below is its subroutine. Modes: SINGLE · CAMPAIGN · BATCH. |
 
 ### Tier 1 — Foundation (the core engine)
 | Workflow | Slash Command | What It Does |
@@ -53,6 +61,15 @@ Plus two apex moves: the **recursive self-demonstration** (`/novelty-meta`) and 
 | `novelty-campaign` | `/novelty-campaign` | Scale one angle into a multi-asset / multi-platform campaign |
 | `novelty-meta` | `/novelty-meta` | The recursive self-demo + fourth-wall apex move (teaching content) |
 
+## The Three Operating Modes (from the canonical doc)
+Kallaway's doc tells users to load it and pick a **mode**. Each maps to one workflow:
+
+| Mode | What it does | Workflow |
+|---|---|---|
+| **Gut Check** | Score an existing hook/script against the Gut-Check Scorecard, name the weak components, rewrite weak lines side-by-side | `/novelty-audit` |
+| **Co-Writer** | Walk the framework questions in order; the answers become the script | `/novelty-forge` |
+| **Pattern Analyst** | Compare winners vs. losers through the 5 components; extract the framings that worked | `/novelty-pattern` |
+
 ## Stacking Guide (separate, not isolated)
 This skill is the FRONT END. It hands off across the Kallaway stack and beyond:
 
@@ -74,6 +91,8 @@ This skill is the FRONT END. It hands off across the Kallaway stack and beyond:
 - `/novelty-forge` → `/novelty-campaign` → `/novelty-pattern` (build → scale → calibrate)
 
 ## Quality Rubric (full version in [genius.md](genius.md))
+> **Primary instrument: the canonical Gut-Check Scorecard** ([references/gut-check-scorecard.md](references/gut-check-scorecard.md)) — Kallaway's own 0–2-per-component /10 scale + the Illusion Integrity pass/fail override + the 3-question sanity test. Run it first for the go/no-go (an honest urgency skip earns 1 of 2 points, so a piece with no real window honestly caps at 9/10 — that is correct). The 9 criteria below are the *deeper* rubric, adding what the scorecard doesn't grade explicitly (hook density, domain fit, the standalone honesty veto).
+
 1. **Three-Question Pass** — earns YES on Relevant, Novel, Interesting (name which component delivers each)
 2. **Hook Density** — opener carries ≥2 components in ≤2 lines
 3. **Contrast Integrity** — anchored to the avatar's *actual* held belief as a true opposite
@@ -90,11 +109,16 @@ skills/kallaway-illusion-of-novelty/
 ├── SKILL.md                          ← You are here
 ├── genius.md                         ← IP anchor (12 patterns, 2 apex moves, 3 exemplars, 7 moves, 9-criterion rubric)
 ├── references/
+│   ├── illusion-of-novelty-doc.md    ← CANONICAL SOURCE (Kallaway's own framework PDF; primary truth)
+│   ├── gut-check-scorecard.md        ← Canonical audit instrument (0–2/component /10 + Integrity override)
+│   ├── research-grounding-stack.md   ← LIVE-research tool stack (our Sandcastles equivalent; powers /novelty-engine Phase 0.5 + 8)
+│   ├── orchestration-blueprint.md    ← /novelty-engine wiring map (phase routing, mode logic, QA gate rule, fan-out posture)
 │   ├── five-components.md            ← Structural quick-reference (templates per component)
 │   ├── trust-ladder.md               ← Step 4 deep reference (rungs, self-identification, climb honestly)
 │   ├── cross-domain-adaptations.md   ← THE domain-agnostic matrix (5 components × 10 asset types)
 │   └── source-quotes.md              ← Verbatim Kallaway anchors by component
 └── workflows/
+    ├── novelty-engine.md             ← ★ FRONT DOOR — end-to-end conductor (orchestrates all below + live research)
     ├── novelty-forge.md              ← Tier 1
     ├── novelty-reveal.md             ← Tier 1
     ├── novelty-contrast.md           ← Tier 1
@@ -116,12 +140,13 @@ skills/kallaway-illusion-of-novelty/
 
 ## Execution Prompts (structure-pure v2)
 
-13 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+14 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Kallaway — Divergent Angle-Mining Engine** — `skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-angles.md`
 - **Kallaway — The Novelty Diagnostic** — `skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-audit.md`
 - **Kallaway — Campaign Atomizer (One Reveal, Many Doors)** — `skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-campaign.md`
 - **Kallaway — Contrast Framing** — `skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-contrast.md`
+- **Kallaway — The Novelty Engine (End-to-End Conductor)** — `skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-engine.md`
 - **Kallaway — Illusion of Novelty Master Build** — `skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-forge.md`
 - **Kallaway — The Hook Compiler** — `skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-hook.md`
 - **Kallaway — The Recursive Self-Demonstration** — `skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-meta.md`

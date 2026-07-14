@@ -22,6 +22,7 @@ If those are unanswerable, the draft was built without an avatar. Stop and route
 ## Skill Acquisition
 
 - **Always:** `../genius.md` (mascot rule, gossip-whisperer, Hidden Knowledge bullets on false modesty and structural whisper, anti-pattern list).
+- **The broader AI-slop floor:** `directives/ai-slop-ban-bank.md` — the canonical 64-entry cliché/trope bank (this workflow's mascot + town-crier families live in it, alongside openers/connectives/closers/MOVES). Deterministically enforced by `execution/prose_classifier.py`; run `python3 execution/prose_classifier.py check <draft>` after this scrub to auto-catch the phrase-level tells (reveal-leadins, em-dash overuse, contrast-reveal, question-close).
 - **Stacks with (load when scrubbing tone heavily):** `../../kallaway-word-mastery/workflows/tone-calibration-engine.md` — the Gossip Whisperer is a named tone target there; hand the scrubbed draft over for a full register sweep on long-form. And `../../kallaway-word-mastery/workflows/believability-audit.md` — mascot-reveal scrubbing is the structural twin of its believability pass; run it after this when claims density is high.
 - **Upstream:** `./novelty-forge.md` produced the draft. This workflow never re-builds components; it only protects what forge built. If the audit finds the *contrast* or *proof* is broken (not just hedged), kick back to forge — protection cannot fix a missing component.
 
@@ -32,6 +33,18 @@ Run three parts in order. Part A finds the leaks; Part B fixes the volume; Part 
 ### PART A — The Mascot-Reveal Audit
 
 A mascot reveal is any line that tells the brain "this isn't actually new / isn't actually a big deal / you already know this." It collapses the open loop the first four components built. Scan the draft for the five leak families below. For each hit: quote the exact phrase, name the family, write the committed replacement.
+
+**This scan IS the canonical Illusion Integrity check — a PASS/FAIL that overrides everything** (`../references/gut-check-scorecard.md` Override 1; `../references/illusion-of-novelty-doc.md` Section 6 and Section 8). A piece can score a perfect 10 on the five components and still FAIL here: any *single* mascot line voids the build. The rule is binary — find the line, cut it, re-score. There is no partial credit and no "mostly clean."
+
+**Canonical mascot-killer phrase list (scan for these verbatim first — `../references/illusion-of-novelty-doc.md` Section 6).** These four are the exact strings Kallaway names; cut every one:
+- "this is really just…"
+- "as you probably know…"
+- "this has been around forever, but…"
+- "to be fair, this isn't new…"
+
+The false-modesty family below extends the same rule ("I'm no expert but…", "you've probably heard this…") — same mechanism, same cut.
+
+> The source doc names this leak as *"the single most devastating and most common mistake in the entire framework"* (`../references/illusion-of-novelty-doc.md` Section 6). Scan for it as if it is the only failure mode that can void an otherwise-perfect piece, because it is.
 
 | Leak family | What it sounds like | Why it kills the illusion |
 |---|---|---|
@@ -50,6 +63,8 @@ A mascot reveal is any line that tells the brain "this isn't actually new / isn'
 ### PART B — The Gossip-Whisperer Rewrite
 
 Same information, opposite trust outcome depending on register. Convert every Town Crier line into a Gossip Whisperer line. Scan for the salesy tells: ALL-CAPS, exclamation points, "HUGE / massive / game-changer / this changes everything," "you NEED to," "pay attention NOW," billboard declaratives that announce instead of confide.
+
+This is Half 2 of canonical Component 5 (`../references/illusion-of-novelty-doc.md` Section 6). The source frames it as one fact, two deliveries — Town Crier ("HUGE NEWS, everyone needs to hear this, this changes EVERYTHING") vs. Gossip Whisper ("Okay so… most people have no idea about this yet, but…") — and the verdict is settled: announce like a billboard and the brain gets suspicious because that is what ads sound like; lower the voice and it reads as true, exclusive, more valuable. You are not selling the idea to them; you are sharing it with them.
 
 **The conversion.** A town crier *announces from a stage*; a gossip whisperer *leans in and lets you behind a curtain you weren't supposed to see*. Lower the voice. Under-claim the magnitude in the words while over-delivering the substance underneath. Lowercase conspiratorial energy beats uppercase urgency.
 
@@ -123,8 +138,8 @@ Return three artifacts:
 
 ## Quality Gate
 
-Score against `../genius.md` rubric. This workflow lives or dies on two criteria:
-- **Criterion 6 — Illusion Intact:** zero mascot reveals after the pass. One surviving hedge / false-modesty / "everyone knows" = automatic ≤5. The whole point of the workflow is reaching zero.
+Run the canonical **Illusion Integrity check** first (`../references/gut-check-scorecard.md` Override 1): mascot showing anywhere = FAIL, no matter how high the component score; Town-Crier delivery = rewrite those lines. That binary gate is the go/no-go for this pass. Then score against `../genius.md` rubric, which this workflow lives or dies on two criteria of:
+- **Criterion 6 — Illusion Intact:** zero mascot reveals after the pass. One surviving hedge / false-modesty / "everyone knows" = automatic ≤5 (and a canonical Integrity FAIL). The whole point of the workflow is reaching zero.
 - **Criterion 7 — Whisper Test:** delivery reads as secret-sharing, not billboard. Any surviving salesy register = cap at 6 regardless of substance.
 
 Anti-patterns this pass must eliminate: hedging, false modesty, "you've probably heard this," "this is just X that's existed forever," town-crier / exclamation-point sales tone. Anti-patterns it must NOT introduce: do not "fix" a hedge by inventing a bolder fact; do not whisper a claim into something untrue.

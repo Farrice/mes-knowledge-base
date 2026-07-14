@@ -26,13 +26,17 @@ Answer before running:
 
 ## Execution
 
+This is Kallaway's **PATTERN ANALYST mode** — the third of the three operating modes in the canonical source doc (`../references/illusion-of-novelty-doc.md` Section 10; mode map in `../genius.md`). You paste performance data and compare winners vs. losers *through the five components* to surface the framings that worked for THIS account.
+
 ### 1 — Assemble the data set (tool-agnostic)
 
 The method does not depend on any single tool. Three valid sources, in order of convenience:
 
-- **sandcastles.ai CSV export.** Pull the channel, set the date range to **only the period the framework was in use**, sort by the performance metric from Pre-Flight Q3, hit Export → CSV (transcript + social data per row).
-- **Sandcastles Claude MCP.** Same data, queried live — Claude pulls transcripts and metrics directly via the data pipe; no manual export.
+- **sandcastles.ai CSV export (the canonical reference implementation).** The source doc's exact procedure (Section 10): select the channel → set the date range to **only the period the framework was in use** → sort by **most views** (or the metric from Pre-Flight Q3) → deep-analyze every video in the set (**Analyze** per-video, or **Bulk Analyze**). That reveals each script's **Storytelling Sections** — toggle them with the **bulleted-line icon in the upper-right of the transcript box** — which pre-sections each piece roughly to the five components for you. Then export → CSV (transcript + social data per row) and drag into Claude.
+- **Sandcastles Claude MCP.** Same data, queried live — the Sandcastles MCP plugin pipes transcripts and metrics directly into Claude; no manual export.
 - **Manual paste.** A table the creator builds by hand: one row per piece = `{date, hook (verbatim first 2 lines), full transcript or script, metric value, format}`. Slower, fully portable, works for any platform including email and ads.
+
+**Always upload the framework doc alongside the data** (`../references/illusion-of-novelty-doc.md`) so the AI scores *within* the framework instead of inventing its own criteria — this is a canonical instruction, not a nicety (Section 10, step 3).
 
 Minimum viable set: **10 in-window pieces.** Below that, you are reading variance. Quarantine any piece flagged in Pre-Flight Q2 (confounded reach) — note it, exclude it from ranking.
 
@@ -56,15 +60,17 @@ Over a clean in-window set, winners' sections should map closer to the five comp
 
 ### 4 — Pattern extraction (the exact prompt to run)
 
-Feed the sectioned data and `../genius.md` (or the framework doc) into an LLM. AI beats humans at this specific task — pattern-detection across many documents is arguably its strongest capability. Run this prompt (vary the wording, never the structure):
+Feed the sectioned data and the framework doc (`../references/illusion-of-novelty-doc.md`; `../genius.md` for the deeper lens) into an LLM. AI beats humans at this specific task — pattern-detection across many documents is arguably its strongest capability. Run this prompt (vary the wording, never the structure):
 
-> *"I am giving you N of my own [videos / posts / emails], split into WINNERS and LOSERS, each with the verbatim transcript and its performance metric. I am also giving you the framework doc they were written against (five components: New Reveal, Outcome Mapping, Contrast Framing, Urgency, Bullseye Proof, Protect the Illusion). Find the pattern in the storytelling of the WINNERS that is different from ALL the losers — go component by component: how do the winners open their New Reveal differently, how do they anchor Contrast, do they use real Urgency or skip it, what rung of the Trust Ladder do their proofs sit on, what is their delivery register. Tell me the exact words, sentence structures, and topics that recur in winners and are absent in losers. Then give me very specific instructions for what to do, and what to stop doing, moving forward. Quote real lines from my transcripts as evidence — do not generalize without a quote."*
+> *"I am giving you N of my own [videos / posts / emails], split into WINNERS and LOSERS, each with the verbatim transcript and its performance metric. I am also giving you the framework doc they were written against (five components: New Reveal, Outcome Mapping, Contrast Framing, Urgency, Bullseye Proof, Protect the Illusion). Analyze these N videos and help me understand the patterns that worked in the winning scripts that were different in the losing ones — go component by component: the exact reveal wording, the contrast structure, whether/how urgency was used, which Trust-Ladder rung the proof sat on, and the overall delivery energy. Tell me the exact words, sentence structures, and topics that recur in winners and are absent in losers. Then give me very specific instructions for what to do, and what to stop doing, moving forward. Quote real lines from my transcripts as evidence — do not generalize without a quote."*
 
-The two load-bearing constraints in that prompt: **(a) map to components** (so the output is structural, not vibes), and **(b) demand verbatim quotes as evidence** (so the rules are grounded in what the creator actually wrote, not invented). An unquoted "rule" is a hallucination — reject it.
+The canonical analysis ask (Section 10) is the spine of that prompt — *"Analyze these N videos and help me understand the patterns that worked in the winning scripts that were different in the losing ones"* — and the **per-component lens** the doc names is non-negotiable: for every piece, read (1) the **exact reveal wording**, (2) the **contrast structure**, (3) **urgency usage** (real / skipped / faked), (4) the **Trust-Ladder rung** the proof sat on, (5) the **delivery energy** (whisper vs. town crier). The two load-bearing constraints: **(a) map to components** (so the output is structural, not vibes), and **(b) demand verbatim quotes as evidence** (so the rules are grounded in what the creator actually wrote, not invented). An unquoted "rule" is a hallucination — reject it.
 
 ### 5 — Output the niche-specific execution ruleset
 
-Convert the extracted patterns into a usable ruleset, split into DOUBLE DOWN and STOP, every rule tagged to a component and backed by a quoted line:
+The canonical output is a **triad** (`../references/illusion-of-novelty-doc.md` Section 10): (1) **winning patterns as repeatable rules for YOU**, (2) **losing patterns to stop**, (3) **2–3 concrete recommendations for the next batch.** The findings should read at the resolution of the doc's example shape — e.g. *"your 2 winners both opened with a 'most people don't know' whisper + a contrast against the industry default; your 8 losers opened with the outcome only, no contrast"* — specific words and structures, never vague themes.
+
+Convert the extracted patterns into a usable ruleset matching that triad — DOUBLE DOWN (1) and STOP (2) below, the 3–5 next-batch directives (3) under Output Requirements — every rule tagged to a component and backed by a quoted line:
 
 - **Winning words / phrases** — the recurring openers, verbs, and frames in the winners.
 - **Winning sentence structures** — e.g. "winners front-load the outcome before the reveal; losers bury it."

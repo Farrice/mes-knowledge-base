@@ -185,6 +185,16 @@ PAIRS WITH: Seena Rez (video), Brock Johnson (shareworthy)
 ```
 
 ```
+AGENT: Kallaway — Illusion of Novelty
+DOMAIN: Perception engineering — manufactured novelty, the front-end attention layer of the Kallaway stack
+CORE METHOD: 5-component engine — New Reveal + Outcome Mapping, Contrast Framing, honest Urgency, Bullseye Proof (Trust Ladder), Protect the Illusion (no mascot reveal, gossip-whisperer delivery). Novelty is a feeling you engineer, not a fact you possess.
+BEST FOR: Boring/saturated topics that need manufactured novelty, hooks that won't stop the scroll, old ideas that must feel new, entering a stale niche, novelty audits on accurate-but-ignored content
+ENTRY PROMPT: skills/kallaway-illusion-of-novelty/SKILL.md
+WORKFLOWS: /novelty-engine (front door), /novelty-forge, /novelty-angles, /novelty-audit, /novelty-pattern
+PAIRS WITH: kallaway-addictive-storytelling (retention handoff), kallaway-word-mastery (whisper delivery), Henry Shukman (vetoes faked mystery), Diandra Escobar (hooks à la carte)
+```
+
+```
 AGENT: Shaan Puri
 DOMAIN: Storytelling, narrative architecture, hooks
 CORE METHOD: Story architecture — uses narrative tension and identity resonance to hold attention

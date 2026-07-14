@@ -1,10 +1,12 @@
 ---
-description: Diagnose why an existing piece isn't landing — score it against the five components + 9-criterion rubric and return a prioritized, routed fix list.
+description: Diagnose why an existing piece isn't landing — score it against the canonical Gut-Check Scorecard (0–2 per component /10) plus the optional 9-criterion deep layer, then return a prioritized, routed fix list.
 ---
 
-# /novelty-audit — The Novelty Diagnostic
+# /novelty-audit — The Novelty Diagnostic (Kallaway's GUT CHECK mode)
 
-Takes any EXISTING piece (a hook, post, script, email, page) that feels flat or under-performs and returns a compact scorecard plus the 1–3 highest-leverage fixes, each routed to the workflow that repairs it. Fire this when something "should be working but isn't," when a draft reads boring on a topic you know is good, or before a rewrite so you cut the right cable instead of redoing the whole thing.
+This is Kallaway's **GUT CHECK** mode — the source doc's first operating mode (`../references/illusion-of-novelty-doc.md` §0, Overview): paste an existing piece, score it against the canonical Scorecard, name which of the five components are missing/weak, and rewrite the weak lines side-by-side with the originals. The primary scoring instrument is the **canonical Gut-Check Scorecard** (`../references/gut-check-scorecard.md`); this workflow runs it.
+
+Takes any EXISTING piece (a hook, post, script, email, page) that feels flat or under-performs and returns a compact scorecard plus the 1–2 highest-leverage fixes, each routed to the workflow that repairs it. Fire this when something "should be working but isn't," when a draft reads boring on a topic you know is good, or before a rewrite so you cut the right cable instead of redoing the whole thing.
 
 ## Pre-Flight Gate
 
@@ -19,7 +21,9 @@ If the requester cannot supply the avatar and held belief, run that gap first (r
 
 ## Skill Acquisition
 
-- **Always:** `../genius.md` — the five components, the Trust Ladder, the nine rubric criteria with their anchors, and the anti-pattern list (the spine of the scoring).
+- **Primary instrument:** `../references/gut-check-scorecard.md` — Kallaway's own 0–2-per-component /10 table, the Illusion Integrity pass/fail override, the 3-question sanity test, and the canonical output order. This is the go/no-go. Run it first, every time.
+- **Canonical source-of-truth:** `../references/illusion-of-novelty-doc.md` — when anything here disagrees with that doc, the doc wins.
+- **Always:** `../genius.md` — the five components, the Trust Ladder, the nine rubric criteria with their anchors, and the anti-pattern list (the OPTIONAL deeper layer, subordinate to the scorecard — use it for depth on *why* a 1 is a 1, not as the primary score).
 - **The repair workflows you'll route to** (read on demand once you know the failure zone, not all upfront):
   - `./novelty-reveal.md` — fixes a missing or weak New Reveal + Outcome Mapping
   - `./novelty-contrast.md` — fixes a missing, strawman, or unrelated Contrast
@@ -31,49 +35,58 @@ If the requester cannot supply the avatar and held belief, run that gap first (r
 
 ## Execution
 
-Run five passes, in order. Each pass writes one block of the scorecard. Resist the urge to start rewriting mid-audit; diagnose fully, then route.
+Run the passes in order. Pass 1 IS the audit — the canonical Gut-Check Scorecard produces the go/no-go number. Passes 2–3 are overrides that can veto a high score. Pass 4 is an OPTIONAL deeper layer. Resist the urge to start rewriting mid-audit; diagnose fully, then route.
 
-### Pass 1 — The Three-Question Scan (does it earn YES on all three?)
+### Pass 1 — The Canonical Gut-Check Scorecard (PRIMARY — 0–2 per component, /10)
 
-For each of the three viewer questions, mark YES/NO and name the component that delivers it. A NO anywhere is the loudest signal of where the piece dies.
+This is the primary scoring instrument. Score each of the five components 0/1/2 against the canonical table (`../references/gut-check-scorecard.md`, lifted from source doc §8). Quote the line that carries each component, or note its absence. Sum for a /10.
+
+| # | Component | 0 points | 1 point | 2 points |
+|---|-----------|----------|---------|----------|
+| 1 | **New Reveal** | topic presented as-is; nothing framed as new/changed | something framed as new, but vague or buried late | clear reveal of a new thing OR new angle, in the hook zone |
+| 2 | **Outcome Mapping** | reveal not tied to anything the viewer wants | outcome implied but generic ("this is great") | reveal explicitly tied to a specific outcome the viewer wants |
+| 3 | **Contrast Framing** | no old belief referenced | old way mentioned, but not a true opposite / not next to the new angle | old belief and new angle in the same breath, true opposites |
+| 4 | **Urgency** | FAKE urgency present (worse than none — flag it) | no urgency, and none was genuinely available (fine — take the point) | genuine recency or closing window, with a "when" |
+| 5 | **Bullseye Proof** | no proof at all | cold third-party proof only (study/stat) | warm-crowd or bullseye proof — someone the viewer sees themselves in |
+
+**The counter-intuitive Urgency rule (do not get this wrong):** an **honest skip earns 1 point, not 0.** A piece with no genuine urgency window caps at **9/10 — and that is correct, not a defect.** Only **FAKE/bolted-on urgency scores 0** (it is worse than none). Never dock a piece for honestly skipping urgency, and never coach inventing a window to chase the 10th point.
+
+Score reading (`../references/gut-check-scorecard.md`): **9–10 + Integrity PASS** = ship (9 is the honest ceiling with no real urgency window) · **6–8** = one or two components carrying 1s, route each to its repair workflow · **≤5, or any Integrity FAIL** = under-built/leaking, rebuild the failing zone before polishing.
+
+### Pass 2 — Illusion Integrity check (PASS/FAIL — overrides the number)
+
+A high score means nothing if the illusion leaks. Two binary gates (source doc §6 / §8):
+
+- **Mascot showing?** Does ANY line hedge, downplay, or admit the idea is old — "this is really just…", "as you probably know…", "this has been around forever, but…", "to be fair, this isn't new…", or the false-modesty family ("I'm no expert but…", "you've probably heard this…")? → **FAIL.** Locate the exact line, cut it, re-score. The single most common silent killer is a mascot reveal sitting inside an otherwise solid piece — hunt for it specifically.
+- **Town Crier delivery?** Does it announce like a billboard ("HUGE NEWS, this changes EVERYTHING") instead of whispering a secret? → flag those lines for a register rewrite (gossip-whisperer).
+
+### Pass 3 — The 3-Question Sanity Test (the final gut check)
+
+Would the *target viewer* say YES to all three (source doc §1)? Any NO points straight at the weak component and confirms the score.
 
 | Question | YES if… | Delivered by |
 |---|---|---|
 | **Relevant** — "do I care?" | the avatar is named or their situation is called out | usually the call-out / Outcome Mapping |
-| **Novel** — "is this new to me?" | something has been *revealed* as changed/different | New Reveal (Step 1) |
-| **Interesting** — "am I intrigued?" | a *gap* opens between held belief and the new reality | Contrast Framing (Step 2) |
+| **Novel** — "is this new to me?" | something has been *revealed* as changed/different | New Reveal (component 1) |
+| **Interesting** — "am I intrigued?" | a *gap* opens between held belief and the new reality | Contrast Framing (component 3) |
 
-Relevance is the cheap one and is almost never the true failure. If Novel or Interesting is a NO, you've found the zone before you even score the rubric.
+Relevance is the cheap one and is almost never the true failure. If Novel or Interesting is a NO, that is the zone — and it should already show as a 0/1 in Pass 1.
 
-### Pass 2 — Five-Component Presence-and-Quality Check
+### Pass 4 — (OPTIONAL deeper layer) The 9-Criterion Rubric
 
-For each component, mark **STRONG / WEAK / MISSING** and write the one-line reason. Quote the actual line from the piece that carries it (or note its absence).
-
-| # | Component | STRONG looks like | WEAK / MISSING tell |
-|---|---|---|---|
-| 1 | New Reveal + Outcome | a changed aspect named AND tied to a wanted result, ≤2 lines | reveal with no outcome (gets scrolled), or outcome with no genuine new angle (boring) |
-| 2 | Contrast Framing | new angle sits directly against the avatar's *actual* held belief, true opposite | naked new claim (no anchor), or contrast paired to an unrelated/strawman belief = confusion |
-| 3 | Urgency | a REAL "just changed / about to close" window | bolted-on fake deadline (trust-burning) — or honestly absent (mark **HONEST SKIP**, not a defect) |
-| 4 | Bullseye Proof | proof close to the viewer's life (mimic example, or the creator's own result) | third-party study only (bottom rung), or no proof at all |
-| 5 | Protect the Illusion | committed storyline + gossip-whisperer tone | a mascot reveal (hedge / false modesty / "everyone knows this"), or town-crier billboard tone |
-
-The single most common silent killer here is a Component-5 mascot reveal sitting inside an otherwise solid piece — false modesty ("you've probably heard this"), or a hedge that admits the angle is old. It collapses the loop the first four components built. Hunt for it specifically.
-
-### Pass 3 — Score the 9-Criterion Rubric
-
-Score each criterion and **name the anchor** for any score ≥8 (per the rubric rule; if you can't name it, lower the score). Carry the automatic caps and vetoes exactly as written in `../genius.md`:
+Subordinate to the scorecard. Run this only when an operator wants depth on *why* a component scored a 1, or when the go/no-go is borderline (6–8). It adds what the canonical scorecard doesn't grade explicitly — hook *density*, *domain fit*, and the standalone honesty veto. Score each, **name the anchor** for any score ≥8 (if you can't name it, lower the score), and carry the caps from `../genius.md`:
 
 1. **Three-Question Pass** — all three YES? Missing any = fail.
 2. **Hook Density** — opener carries ≥2 components (New Reveal + Outcome min) in ≤2 lines? Single-job hook = cap at 5.
 3. **Contrast Integrity** — anchored to the *actual* held belief as a *true opposite*? Strawman/unrelated = confusion = fail.
-4. **Urgency Honesty** — if used, is the window real? Fake/bolted-on = automatic ≤4.
+4. **Urgency Honesty** — if used, is the window real? Fake/bolted-on = automatic ≤4. (Honest skip is *not* docked — mirrors the scorecard's 1-point rule.)
 5. **Trust-Ladder Height** — bullseye 9–10 · warm crowd 6–7 · third-party only 5 · no proof = fail. No fabricated proof.
 6. **Illusion Intact** — zero mascot reveals? One mascot reveal = automatic ≤5.
 7. **Whisper Test** — gossip-whisperer not town-crier? Salesy register = cap at 6.
 8. **Honesty Spine** — facts true even though novelty is manufactured? Any fabricated fact = automatic fail.
 9. **Domain Fit** — execution adapted to the real asset/platform/vertical? Generic slop = cap at 6.
 
-### Pass 4 — Zone Diagnosis
+### Pass 5 — Zone Diagnosis
 
 Collapse the findings into the **primary failure zone** — the one place the most attention is lost. Pieces usually fail in exactly one zone; fix that first.
 
@@ -83,50 +96,54 @@ Collapse the findings into the **primary failure zone** — the one place the mo
 | **BODY** | hooks but isn't believed; doubt sets in | 4 | strong opener, third-party-only or absent proof, low Trust-Ladder height |
 | **DELIVERY** | believable but feels off / salesy / deflated | 5 | a mascot reveal present, or town-crier tone; Whisper Test fails |
 
-If Pass 1 says the piece is novel and intriguing yet still doesn't hold attention *past* the hook, the failure is retention, not novelty — note "out of scope: hand to `/addiction-loop-architect`" rather than forcing a novelty fix.
+If Pass 3 says the piece is novel and intriguing yet still doesn't hold attention *past* the hook, the failure is retention, not novelty — note "out of scope: hand to `/addiction-loop-architect`" rather than forcing a novelty fix.
 
-### Pass 5 — Prioritized, Routed Fix List
+### Pass 6 — The 1–2 Highest-Leverage Fixes + Side-by-Side Rewrites
 
-Pick the **1–3 highest-leverage fixes**, ordered by attention recovered per edit. Route each to its repair workflow. One fix per cable; do not prescribe a full rewrite when a single component is the leak.
+The canonical instruction (`../references/gut-check-scorecard.md`, "How to deliver an audit"): after the score table and the Integrity verdict, give the **1–2 highest-leverage fixes ONLY** — not a laundry list — then rewrite the weak *lines* **side-by-side** with the originals. **Do NOT rewrite the whole script.** Fix the biggest leaks first; one fix per cable. Route each weak component to its repair workflow.
 
-| If the leak is… | Fix | Route to |
+| If the leak is… (the component scoring 0/1) | Fix | Route to |
 |---|---|---|
-| weak/missing New Reveal or Outcome | re-mine the angle, retie to a wanted result | `./novelty-reveal.md` |
-| naked claim / strawman contrast | anchor the new angle to the real held belief | `./novelty-contrast.md` |
-| fake urgency (or a real window left unused) | replace with honest window or confirm the skip | `./novelty-urgency.md` |
-| third-party-only / no proof | climb the Trust Ladder toward the viewer | `./novelty-proof.md` |
-| mascot reveal / town-crier tone | scrub the hedge, drop the voice to a whisper | `./novelty-protect.md` |
+| weak/missing New Reveal or Outcome (rows 1–2) | re-mine the angle, retie to a wanted result | `./novelty-reveal.md` |
+| naked claim / strawman contrast (row 3) | anchor the new angle to the real held belief | `./novelty-contrast.md` |
+| fake urgency (or a real window left unused) (row 4) | replace with honest window or confirm the skip | `./novelty-urgency.md` |
+| third-party-only / no proof (row 5) | climb the Trust Ladder toward the viewer | `./novelty-proof.md` |
+| mascot reveal / town-crier tone (Integrity FAIL) | scrub the hedge, drop the voice to a whisper | `./novelty-protect.md` |
 
-**Sequencing rule:** fix the HOOK zone before BODY before DELIVERY — a piece nobody looks at can't be saved by better proof. Stop at the top 3; the long tail rarely moves the number.
+**Sequencing rule:** fix the HOOK zone before BODY before DELIVERY — a piece nobody looks at can't be saved by better proof. Stop at the top 2; the long tail rarely moves the number.
 
 ### Worked mini-example (fresh topic: gutter cleaning)
 
 **Sample post audited (deliberately flat):**
 > "Cleaning your gutters is important for protecting your home. Clogged gutters can cause water damage over time, so it's a good idea to clean them at least twice a year. Most people don't realize how big a problem this can become. Call us today to book a cleaning — limited slots available this week!"
 
-**Pass 1 — Three Questions:**
-- Relevant? Weak-YES. "Your home" gestures at the avatar but never calls out *who* (no specific homeowner situation).
-- Novel? **NO.** "Cleaning gutters is important / twice a year" is the thing every homeowner has heard 10,000 times. Nothing revealed as changed.
-- Interesting? **NO.** No gap opened — no held belief is challenged.
+**Pass 1 — Gut-Check Scorecard (0–2 each):**
+- 1 New Reveal — **0.** Restates common knowledge ("important / twice a year"); nothing framed as new or changed.
+- 2 Outcome Mapping — **1.** Outcome is implied but generic ("protect your home"), not tied to a specific wanted result.
+- 3 Contrast Framing — **0.** "Most people don't realize…" gestures at a gap but anchors to nothing the reader actively believes — no true opposite.
+- 4 Urgency — **0.** "Limited slots available this week!" is a bolted-on sales deadline with no real basis. FAKE urgency scores 0 (worse than an honest skip).
+- 5 Bullseye Proof — **0.** No example, no mimic, not even a study.
+- **Total: 1/10.**
 
-**Pass 2 — Components:**
-- New Reveal + Outcome — **MISSING.** Restates common knowledge; no new aspect, no specific wanted outcome beyond vague "protect your home."
-- Contrast — **MISSING.** "Most people don't realize how big a problem this can become" gestures at contrast but anchors to nothing the reader actively believes.
-- Urgency — **WEAK / FAKE.** "Limited slots available this week!" is a bolted-on sales deadline with no real basis. Trust-burning.
-- Bullseye Proof — **MISSING.** No example, no mimic, not even a study.
-- Protect the Illusion — **TOWN-CRIER.** The exclamation-point CTA reads as a billboard; nothing whispered.
+**Pass 2 — Illusion Integrity:** No mascot reveal (nothing was built to leak), but the exclamation-point CTA is pure **Town Crier** → flag for register rewrite. Verdict: integrity not FAILED on the mascot gate, but the delivery line needs the whisper.
 
-**Pass 3 — Rubric (abbrev.):** Three-Question Pass = **fail** (two NOs). Hook Density = 2 (single-job, restates the obvious). Contrast Integrity = 2. Urgency Honesty = **3** (bolted-on deadline, automatic ≤4). Trust-Ladder = **fail** (no proof). Illusion Intact = 7 (no mascot reveal, just nothing built). Whisper Test = 4 (salesy CTA caps it). Honesty Spine = pass (facts aren't false, just stale). Domain Fit = 5 (generic).
+**Pass 3 — 3-Question Sanity Test:** Relevant? weak-YES ("your home" gestures but never names *who*). Novel? **NO.** Interesting? **NO.** Two NOs confirm the 0s in rows 1 and 3.
 
-**Pass 4 — Zone:** Primary failure = **HOOK.** The piece never earns the LOOK; proof and tone are downstream problems that don't matter until something new is revealed.
+**Zone (Pass 5):** Primary failure = **HOOK.** The piece never earns the LOOK; proof and tone are downstream problems that don't matter until something new is revealed.
 
-**Pass 5 — Prioritized fix list:**
-1. **HOOK → `./novelty-reveal.md`** (highest leverage): mine a real new angle. e.g. *"There's a reason your gutters clog again six weeks after a cleaning — and it's not the leaves. It's the* pitch *of the gutter, and almost nobody checks it."* New aspect = pitch/slope, outcome = stops the re-clog cycle. Honest if true of the avatar's roofs.
-2. **HOOK → `./novelty-contrast.md`**: anchor it to the held belief. *"You've been told gutters just need a twice-a-year clean. For a third of homes, twice a year does nothing — because the water never reaches the downspout in the first place."*
-3. **BODY → `./novelty-proof.md`**: climb the ladder. Replace nothing-proof with a mimic: *"Had a homeowner on [your street type] who'd paid for cleanings for years and still got basement water — turned out two runs were pitched backward. One adjustment, dry basement through the whole rainy season."*
-4. **Cut entirely:** the fake "limited slots this week" — flag to `./novelty-urgency.md`, which will confirm there's no honest window here and the correct move is to skip urgency, not fake it.
+**Pass 6 — The 1–2 highest-leverage fixes (canonical: top 2 only, side-by-side):**
 
-Net: three routed edits convert a flat fail into a piece that earns Novel + Interesting and lands honest proof — without a from-scratch rewrite.
+*Fix 1 — HOOK → `./novelty-reveal.md` + `./novelty-contrast.md`* (rows 1–3, the leaks recovering the most attention): mine a real new angle and anchor it to the held belief.
+- Original: *"Cleaning your gutters is important for protecting your home… clean them at least twice a year."*
+- Rewrite: *"You've been told gutters just need a twice-a-year clean. For a third of homes, twice a year does nothing — because your gutters are pitched wrong and the water never reaches the downspout."* (New aspect = pitch/slope; outcome = stops the re-clog cycle; anchored to the held belief as a true opposite. Honest if true of the avatar's roofs.)
+
+*Fix 2 — BODY → `./novelty-proof.md`* (row 5): replace nothing-proof with a viewer-mimic.
+- Original: *(no proof)*
+- Rewrite: *"Had a homeowner on [your street type] who'd paid for cleanings for years and still got basement water — turned out two runs were pitched backward. One adjustment, dry basement all rainy season."*
+
+**CUT/FLAG:** the fake "limited slots this week" — route to `./novelty-urgency.md`, which confirms there's no honest window here, so the correct move is to skip urgency (worth 1 point), not fake it (worth 0).
+
+Net: two routed fixes plus one cut convert a 1/10 flat fail into a piece that earns Novel + Interesting and lands honest proof — without a from-scratch rewrite. The score moves toward 8/10 (with an honest urgency skip capping the ceiling at 9, which is correct).
 
 ## Content-Type Adaptations
 
@@ -145,43 +162,47 @@ The audit *logic* is constant; what shifts is where each component is expected t
 
 ## Output Requirements
 
-Return a single compact artifact, in this shape:
+Follow the **canonical output order** (`../references/gut-check-scorecard.md`, "How to deliver an audit"): **(1) score table FIRST**, before any commentary; (2) Illusion Integrity verdict; (3) the **1–2 highest-leverage fixes only**; (4) **side-by-side rewrites** of the weak lines. Never rewrite the whole script. Return a single compact artifact, in this shape:
 
 ```
-NOVELTY AUDIT — [piece title / first line]
+NOVELTY AUDIT (Gut Check) — [piece title / first line]
 Avatar: [who] · Held belief: [the "old"] · Wanted outcome: [the result] · Honest urgency window: [yes/no]
 
-THREE-QUESTION SCAN
-  Relevant: YES/NO  ·  Novel: YES/NO  ·  Interesting: YES/NO   → [one-line read]
+1) GUT-CHECK SCORECARD (0–2 each)
+   1 New Reveal       [0/1/2] — [quoted line or absence]
+   2 Outcome Mapping  [0/1/2] — [reason]
+   3 Contrast Framing [0/1/2] — [reason]
+   4 Urgency          [0/1/2] — [REAL / honest-skip=1 / FAKE=0]
+   5 Bullseye Proof   [0/1/2] — [rung reached]
+   ── TOTAL: [n]/10  (9 = honest ceiling if no real urgency window)
 
-COMPONENT CHECK (STRONG / WEAK / MISSING)
-  1 New Reveal+Outcome: [status] — [reason + quoted line]
-  2 Contrast:            [status] — [reason]
-  3 Urgency:             [status / HONEST SKIP] — [reason]
-  4 Bullseye Proof:      [status] — [rung reached]
-  5 Protect Illusion:    [status] — [mascot reveal? tone?]
+2) ILLUSION INTEGRITY: PASS / FAIL
+   Mascot line(s): [quoted, or "none"]   Town-Crier line(s): [quoted, or "none"]
+   3-question sanity: Relevant [Y/N] · Novel [Y/N] · Interesting [Y/N]
 
-RUBRIC (1–10; anchor named for any ≥8; caps/vetoes applied)
-  1 Three-Question … 6 Illusion … 9 Domain Fit  → composite [n]/10
+   PRIMARY FAILURE ZONE: HOOK / BODY / DELIVERY — [why]
 
-PRIMARY FAILURE ZONE: HOOK / BODY / DELIVERY — [why]
+3) THE 1–2 HIGHEST-LEVERAGE FIXES (sequenced HOOK→BODY→DELIVERY)
+   Fix 1 → [route: ./novelty-*.md] — [what to change]
+   Fix 2 → [route: ./novelty-*.md] — [what to change]   (only if it moves the number)
+   CUT/FLAG: [anything to delete, e.g. fake urgency]
 
-PRIORITIZED FIXES (top 1–3, sequenced HOOK→BODY→DELIVERY)
-  1. [leak] → [route: ./novelty-*.md] — [the specific fix, with a sample line]
-  2. …
-  3. …
-  CUT/FLAG: [anything to delete, e.g. fake urgency]
+4) SIDE-BY-SIDE REWRITES (weak lines only)
+   Original: "[…]"
+   Rewrite:  "[…]"
 ```
 
-Keep it scannable — a scorecard, not an essay. The fix list is the payload; the operator should be able to fire the routed workflows immediately.
+Optionally append the 9-criterion deeper layer (Pass 4) when the score is borderline (6–8) or an operator asks *why* a component scored a 1 — never lead with it. Keep it scannable — a scorecard, not an essay. The fix list is the payload; the operator should be able to fire the routed workflows immediately.
 
 ## Quality Gate
 
-This audit itself must satisfy `../genius.md`:
+This audit itself must satisfy the canonical scorecard (`../references/gut-check-scorecard.md`) and `../genius.md`:
 
-- **Contrast Integrity (rubric #3):** grade the piece against the avatar's *actual* held belief — if you scored Contrast against a belief you assumed rather than verified, the audit is invalid. Re-run the Pre-Flight Gate.
-- **Urgency Honesty (#4) + caps:** apply the automatic ≤4 for any bolted-on urgency you find, and do NOT dock a piece for *correctly skipping* urgency when no honest window exists.
-- **Trust-Ladder + Illusion + Whisper (#5–#7):** apply the caps exactly — one mascot reveal = ≤5, salesy register = cap 6, no proof = fail. Don't soften them to be polite about a draft.
+- **Scorecard ran first:** the 0–2-per-component /10 table is the score, delivered before any commentary. If you led with prose or the 9-criterion rubric, the audit is out of order — re-issue it.
+- **Contrast scored against the REAL belief (scorecard row 3 / rubric #3):** grade the piece against the avatar's *actual* held belief — if you scored Contrast against a belief you assumed rather than verified, the audit is invalid. Re-run the Pre-Flight Gate.
+- **Urgency rule applied correctly (scorecard row 4):** FAKE urgency = 0; honest skip = **1** (caps the piece at 9/10, which is correct). Do NOT dock a piece for *correctly skipping* urgency when no honest window exists. In the deeper layer this mirrors rubric #4's automatic ≤4 for bolted-on urgency.
+- **Both overrides applied:** Illusion Integrity (any mascot line = FAIL, locate-and-cut; town-crier = rewrite) and the 3-question sanity test ran, and either can veto a high number.
+- **Deeper-layer caps (only if Pass 4 was run):** one mascot reveal = ≤5, salesy register = cap 6, no proof = fail. Don't soften them to be polite about a draft.
 - **Anti-patterns scanned:** explicitly check for fake urgency, fabricated proof, mascot reveals (hedge / false modesty / "everyone knows this"), town-crier tone, naked claims, strawman contrast, single-job hooks, generic slop.
 
 **HONESTY SPINE (non-negotiable):** the illusion is of NOVELTY only. When you propose fixes, every suggested reveal, urgency window, and proof example must be REAL for the actual topic and avatar — never fabricate a study, a deadline, or a customer to make the rewrite hit harder. An audit that fixes a flat piece by inventing facts has failed worse than the piece it was repairing.

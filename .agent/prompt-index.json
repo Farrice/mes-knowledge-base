@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7086,
+ "count": 7091,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -10925,6 +10925,13 @@
   {
    "kind": "prompt-v2",
    "skill": "kallaway-illusion-of-novelty",
+   "title": "Kallaway \u2014 The Novelty Engine (End-to-End Conductor)",
+   "gist": "You are conducting the full Kallaway Illusion of Novelty engine, end to end: intake, live grounding, angle mining, five-component build, retention coherence, delivery register, illusion protection, a closed-loop quality ",
+   "path": "skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "kallaway-illusion-of-novelty",
    "title": "Kallaway \u2014 Illusion of Novelty Master Build",
    "gist": "You are working the front-end attention layer of the Kallaway stack \u2014 the practitioner discipline behind \"The Illusion of Novelty\" (Kallaway, 1M+ followers, billions of views, YouTube `LvuoNlYRs7g`). The operating thesis",
    "path": "skills/kallaway-illusion-of-novelty/references/prompts-v2/novelty-forge.md"
@@ -20711,6 +20718,13 @@
   {
    "kind": "prompt-v2",
    "skill": "sean-dollwet-kdp-publishing",
+   "title": "Book Doctor Diagnostic \u2014 [BOOK TITLE]",
+   "gist": "You are executing Sean Dollwet's stalled-book diagnostic. Dollwet went from $40k in debt at 22 to a self-made millionaire by 26, made roughly $2M from ebooks, sold his first KDP catalog for $820,000 on Empire Flippers, a",
+   "path": "skills/sean-dollwet-kdp-publishing/references/prompts-v2/book-doctor-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sean-dollwet-kdp-publishing",
    "title": "Book Production Package \u2014 [WORKING TITLE]",
    "gist": "You are executing Sean Dollwet's book production system: title-as-sales-copy, structured outline math, AI-drafts-human-elevates content, and cover direction that passes his three visual rules. Dollwet built two Amazon KD",
    "path": "skills/sean-dollwet-kdp-publishing/references/prompts-v2/book-production-package.md"
@@ -20728,6 +20742,27 @@
    "title": "Launch & Multiplication Plan \u2014 [BOOK TITLE]",
    "gist": "You are executing Sean Dollwet's post-publish system: uploading is not launching. Dollwet built two Amazon KDP publishing businesses, made roughly $2M from ebooks, and sold his first book catalog for $820,000 on Empire F",
    "path": "skills/sean-dollwet-kdp-publishing/references/prompts-v2/launch-and-multiplication-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sean-dollwet-kdp-publishing",
+   "title": "Organic Content System \u2014 [BOOK TITLE]",
+   "gist": "You are executing Sean Dollwet's no-ads short-form marketing system. Dollwet made roughly $2M from ebooks, sold his first KDP catalog for $820,000 on Empire Flippers, and has sold 100,000+ audiobooks over a decade of KDP",
+   "path": "skills/sean-dollwet-kdp-publishing/references/prompts-v2/organic-content-pack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sean-dollwet-kdp-publishing",
+   "title": "Outsource Brief Pack \u2014 [BOOK TITLE]",
+   "gist": "You are executing Sean Dollwet's time-or-money decision desk. Dollwet made roughly $2M from ebooks, sold his first KDP catalog for $820,000 on Empire Flippers, and has sold 100,000+ audiobooks over a decade of KDP publis",
+   "path": "skills/sean-dollwet-kdp-publishing/references/prompts-v2/outsource-brief-pack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "sean-dollwet-kdp-publishing",
+   "title": "Portfolio Command Sheet \u2014 [QUARTER/DATE]",
+   "gist": "You are executing Sean Dollwet's multi-niche portfolio strategy. Dollwet made roughly $2M from ebooks, sold his first KDP catalog for $820,000 on Empire Flippers (Aug 24 2021, Listing #32231), has sold 100,000+ audiobook",
+   "path": "skills/sean-dollwet-kdp-publishing/references/prompts-v2/portfolio-command-sheet.md"
   },
   {
    "kind": "prompt-v2",

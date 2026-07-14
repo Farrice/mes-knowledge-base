@@ -1,33 +1,30 @@
 ---
-description: Conductor alias for the Kallaway novelty workflow family
+description: "Make a boring or saturated topic feel new and produce a finished content asset with honest proof: research, angle, build, retention, delivery, QA, scaling, and calibration"
 ---
 
-# /novelty-engine - Novelty Workflow Conductor
+# /novelty-engine
 
-Use this as the end-to-end conductor for turning a topic into a novelty-backed
-content asset, campaign angle, hook bank, audit, or retention-ready asset.
+The end-to-end Novelty Content Engine — the conductor that turns ANY need into ship-ready content by orchestrating all 13 /novelty-* workflows plus the cross-skill Kallaway stacks, grounded in LIVE research (the Sandcastles-equivalent).
 
-## Execution
+## Trigger
+`/novelty-engine`
 
-1. Load `skills/kallaway-illusion-of-novelty/SKILL.md`.
-2. Load `skills/kallaway-illusion-of-novelty/genius.md`.
-3. Choose the existing workflow by job:
-   - full asset: `.agent/workflows/novelty-forge.md`
-   - angle mining: `.agent/workflows/novelty-angles.md`
-   - hook bank: `.agent/workflows/novelty-hook.md`
-   - diagnostic: `.agent/workflows/novelty-audit.md`
-   - retention handoff: `.agent/workflows/novelty-to-addictive.md`
-   - campaign scaleout: `.agent/workflows/novelty-campaign.md`
-   - calibration: `.agent/workflows/novelty-pattern.md`
-4. Read the selected workflow and execute that path.
+## Workflow
+`skills/kallaway-illusion-of-novelty/workflows/novelty-engine.md`
 
-## Default
+## Quick Use
+Provide:
+1. The need — topic, ASSET/platform, GOAL (reach / saves / DMs / conversion / authority)
+2. Mode — SINGLE (one asset) · CAMPAIGN (one reveal → many platforms) · BATCH (N test variants)
+3. Audience/avatar (held belief + wanted outcome), if known — else the engine runs the avatar load
 
-If the user simply asks for the novelty engine, default to
-`.agent/workflows/novelty-forge.md` first, then recommend the next workflow only
-when the output naturally needs retention, campaign, or calibration work.
+## Pipeline
+0 Intake & Ground → 0.5 LIVE Research (trend + verified facts + what's-working) → 1 Angle → 2 Build the 5 components (single coherent author) → 3 Make it stick (close loops, retention) → 4 Voice & delivery (whisper) → 5 Protect → 6 QA GATE (Gut-Check scorecard, closed-loop repair) → 7 Scale (campaign) → 8 Calibrate (real pattern data)
 
-## Boundary
+## Output
+Finished content + component map + filled Gut-Check scorecard (≥9 + Integrity PASS) + coherence proof + sourced honesty table.
 
-This is a conductor over existing workflows. It must not become a competing
-router, super-skill, or `.claude` command generator.
+## Stacks With
+→ `/novelty-forge` (single-pass 5-component builder it calls in Phase 2)
+→ `kallaway-audience-obsession` (avatar) · `kallaway-word-mastery` (delivery) · `kallaway-addictive-storytelling` (retention)
+→ research stack: `/hunt-trends`, Perplexity, `execution/research.py`, Apify, `/novelty-pattern` (see `references/research-grounding-stack.md`)

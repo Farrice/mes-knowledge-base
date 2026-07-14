@@ -4,6 +4,8 @@ description: Flagship end-to-end engine — runs all 5 Illusion-of-Novelty compo
 
 # /novelty-forge — The Illusion of Novelty Master Build
 
+**This is Kallaway's CO-WRITER mode** (`../references/illusion-of-novelty-doc.md`, Overview): you give it a topic, it walks the framework questions in order, and *the answers ARE the script*. The build below is the canonical 8-step blank-page workflow (doc Section 9) operationalized into a full asset plus a component map.
+
 Takes a topic (especially a boring, old, or saturated one), an asset type, and an avatar, runs the full five-component pipeline, and returns a finished, fully-engineered asset with a line-by-line component map. Fire this when someone needs the whole thing built — not a single lever. The granular workflows (`./novelty-reveal.md`, `./novelty-contrast.md`, `./novelty-urgency.md`, `./novelty-proof.md`, `./novelty-protect.md`) are the deep-dives for each step; reach for those when one component needs surgery.
 
 ## Pre-Flight Gate
@@ -34,6 +36,10 @@ One round, then move. For deep avatar work, load `kallaway-audience-obsession` r
 
 Walk the pipeline in order. Each numbered step has a move, a diagnostic, and a template marked *vary, never verbatim*. A fresh fully-worked example threads through all of them — vertical: **commercial gutter cleaning** (a maximally dull, saturated, low-status category). Avatar: a homeowner who owns a two-story house, hates ladders, and got a $9,000 water-damage repair bill last year.
 
+**Maps to the canonical 8-step blank-page workflow** (`../references/illusion-of-novelty-doc.md` Section 9 — *the answers become the script*). The pipeline below folds those 8 steps in; it does not run a second pass. The mapping: Step 0 Pre-Flight covers canonical steps 1 (viewer + outcome) + 3 (held belief) + 4 (urgency check) + 5 (trust-ladder rung), so they are decided before a line is written; pipeline Step 1 runs canonical step 2 (brainstorm 3–5 candidate angles, pick the strongest outcome connection); Step 6 below runs canonical step 6 (**draft the hook zone first**) followed by 7 (sweep for mascots) and 8 (read it out loud). Do not re-answer Pre-Flight questions mid-build.
+
+**Canonical ordering principle** (`../references/illusion-of-novelty-doc.md` Section 7): gossip-whisper opener → reveal + outcomes → contrast → urgency (if real) → bullseye proof. You may rearrange components for the asset — but **reveal + contrast must land EARLY, in the hook zone (the first ~3–5 lines)**. Never bury reveal or contrast in the body; a build that opens on the outcome alone, with the contrast pushed late, is the most common losing pattern (doc Section 10).
+
 ### Step 0 — Lock the Pre-Flight answers
 Write the six answers as a header block. For the gutter example:
 - Path: **B** (gutters are old; the angle is the product).
@@ -45,6 +51,8 @@ Write the six answers as a header block. For the gutter example:
 
 ### Step 1 — New Reveal + Outcome Mapping
 **Move.** Reveal that *something has changed* about the old topic, then tie that change to the wanted outcome. Path A: reveal the new thing exists. Path B (default): reveal a new **aspect, frame, name, update, or finding** — a new door into the old room, not a new room. Naming the mechanism is the cheapest novelty lever there is; coining a proprietary name for the angle is itself a New Reveal.
+
+**Brainstorm 3–5 candidate angles first, then pick one** (`../references/illusion-of-novelty-doc.md` Section 9, step 2). Do not lock the first angle that surfaces. List 3–5 candidate reveals for the topic, then select the single one with the **strongest connection to the wanted outcome** from Pre-Flight Q3 — strength of outcome tie, not novelty in the abstract, is the selection rule. For the gutter avatar, candidates might run: (a) *timing window beats frequency*; (b) *gutter material changes the clog rate*; (c) *the downspout, not the trough, is the real failure point*; (d) *a $40 service vs. a $9k bill is a calendar problem, not a labor problem*. (a) ties most directly to "never pay for water damage again" → it wins.
 
 **Formula:** `reveal new aspect of the thing + tie it to an outcome the viewer wants`.
 
@@ -95,7 +103,9 @@ Write the six answers as a header block. For the gutter example:
 **5b — The Gossip Whisperer.** Delivery tone. Town Crier ("HUGE NEWS, this changes everything, pay attention NOW") triggers sales-resistance and dies in 2026. Gossip Whisperer ("okay, so not many people have caught onto this yet…") feels like a secret and pulls them in. In text this shows up as lowercase energy, conspiratorial framing ("here's the part nobody mentions"), under-claiming the magnitude while over-delivering the substance, and zero exclamation-point sales tone. Whisper to be believed.
 
 ### Step 6 — Assemble + Component Map
-Stitch the surviving steps into one continuous asset in the requested format (see the Adaptations table — the *order and density* of components shift by asset). Then produce a component map: each line of the finished piece labeled with the job it does.
+**Draft the hook zone FIRST** (`../references/illusion-of-novelty-doc.md` Section 9, step 6). Do not write top-to-bottom. Build the opening ~3–5 lines before anything else: gossip-whisper opener, then the New Reveal + Outcome, then the Contrast — so the recalibration gap is open before the body argues anything. The hook zone is where the piece lives or dies; write it under a real constraint, not as a byproduct of the body. Then stitch the surviving steps into one continuous asset in the requested format (see the Adaptations table — the *order and density* of components shift by asset, but reveal + contrast stay in the hook zone). Then produce a component map: each line of the finished piece labeled with the job it does.
+
+**Final polish — read it out loud** (`../references/illusion-of-novelty-doc.md` Section 9, step 8). Before shipping, read the assembled asset aloud once. Short sentences, spoken rhythm, the cadence of sharing a secret rather than reading a press release. Anything that sounds announced, listy, or stiff gets rewritten to the spoken register; this is also the last pass to catch any Town Crier line the mascot sweep missed.
 
 **Gutter finished asset (short-form script, pre-freeze season):**
 > *"Most people clean their gutters in October, after the leaves drop — and that's exactly the timing that floods their ceiling. Turns out the month matters more than how often you do it, and the clog that costs you a $9,000 repair forms in the three weeks before your first hard freeze, not in the fall. Here's the part barely anyone's caught onto: once that clog ices over, you're not cleaning gutters anymore, you're replacing them — so the window's tighter than people think. Two houses down, same two-story build as yours, the owner kept doing the October clean and ate an eleven-grand drywall job two winters running. He moved his service to that pre-freeze window. Bone dry ever since."*
@@ -135,7 +145,7 @@ Return three artifacts:
 
 ## Quality Gate
 
-Score the output against the `../genius.md` rubric. Cite anchors for any dimension scored ≥8.
+**Score with the canonical Gut-Check Scorecard first** (`../references/gut-check-scorecard.md` — 0–2 per component for a /10, then the two overrides). It is the go/no-go instrument: an honest urgency skip earns 1 point (so a piece with no real window honestly caps at 9/10 — correct, not a defect); only *fake* urgency scores 0; any Illusion-Integrity FAIL (a mascot line, or Town Crier delivery) overrides the number regardless of total. Then run the supplementary checks below from the `../genius.md` rubric for depth on *why* a component scored a 1. Cite anchors for any dimension scored ≥8.
 - **Three-Question Pass** — name which component delivers Relevant, Novel, Interesting; missing any = fail.
 - **Hook Density** — opener carries ≥2 components (Reveal + Outcome minimum) in ≤2 lines; single-job hook caps at 5.
 - **Contrast Integrity** — anchored to the avatar's *actual* held belief as a true opposite; strawman/unrelated = confusion = fail.

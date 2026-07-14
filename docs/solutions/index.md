@@ -3,6 +3,9 @@
 One line per card: date · name · problem_signature.
 
 - 2026-07-13 · codex-hooks-config-present-not-firing · harness looks fully wired (hooks trusted+enabled, verifiers green) but is silently broken at runtime — stale CLI hard-fails the model, a hook fails anonymously every session, config state was treated as proof
+- 2026-07-13 · deterministic-backstop-for-taste-rules · Taste/style rules stored as memory-or-doc-only kept shipping violations — three posts passed CLEAN while carrying the exact banned tells
+- 2026-07-13 · Divergent-Branch Work Silently Lost · session work committed on a divergent branch line never reached main; weeks later the working tree silently lacks files that memory, CLAUDE.md, and other docs still cite as live
+- 2026-07-13 · novelty-scorecard-lane-blind-to-coherence · Kallaway Gut-Check scorecard rated two versions of the same post 10/10 while the human ranked them apart — the deciding axis lives outside all five scored components
 - 2026-07-08 · Agent-Authored Plan JSON Crashes a Mutating Apply Mid-Run · an agent writes a plan/config JSON that a strict deterministic tool consumes; missing keys crash the tool AFTER it has started mutating (files moved, rewrites unrun, no receipt) — the tree ends up in a half-applied state that later runs misread as "source missing"
 - 2026-07-08 · Control-Intent Classifier Overfires on Domain-Ambiguous Vocabulary · system-audit keeps firing as owner "for no apparent reason" on both Claude Code and Codex — content/client prompts mentioning "hook", "chain", "agent", "default" plus everyday words ("why", "issue", "wrong") get hijacked into control-plane repair
 - 2026-07-08 · Verbatim Proof Inventory Gate for Multi-Agent Content Builds · agents writing social-proof copy silently alter or invent testimonials ("Allison/Sammy" altered quotes, fabricated "Sarah" example) — paraphrase and placeholder quotes ship looking verbatim
