@@ -5352,6 +5352,40 @@
             "ensemble": true,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260714_055627_ac42",
+            "timestamp": "2026-07-14T05:56:27.115197+00:00",
+            "session_id": "",
+            "request_summary": "Operator Guide Library — guides/ + INDEX.md + deterministic session-guide spine step + 5 backfilled session guides (Maestro, Prompt Wiring, Joey Cinema, Stanton, KDP)",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "none"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "end-session",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260714_055652_fc1c",
+            "timestamp": "2026-07-14T05:56:52.771038+00:00",
+            "session_id": "",
+            "request_summary": "Receipt Arc novelty campaign pass — 14-post diagnostic + campaign map",
+            "intent_score": 9,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "kallaway"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "novelty-campaign",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -5655,16 +5689,16 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 297,
+            "total_routings": 299,
             "total_feedback": 33,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 44,
+                "System": 45,
                 "Client Work": 13,
                 "Analysis": 4,
-                "Strategy": 17,
+                "Strategy": 18,
                 "Creative": 8,
                 "Legal Consult Prep": 1,
                 "Content": 36,
@@ -5774,7 +5808,7 @@
                 "collective-genius-council": 1,
                 "mark-kashef": 1,
                 "chase-hughes-conversational-influence": 2,
-                "none": 2,
+                "none": 3,
                 "alan-aragon-nutrition": 1,
                 "nate-b-jones-context-engineering": 34,
                 "luke-iha-avatar-machine": 5,
@@ -5858,10 +5892,11 @@
                 "alex-content-science": 1,
                 "sky-tan-format-engine": 1,
                 "sean-dollwet-kdp-publishing": 4,
-                "sean-dollwet": 1
+                "sean-dollwet": 1,
+                "kallaway": 1
             },
             "tier_counts": {
-                "0": 297,
+                "0": 299,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -5870,9 +5905,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 161,
-                "finalize-auto": 136
+                "finalize-auto": 138
             },
-            "ensemble_count": 211,
+            "ensemble_count": 213,
             "auto_miss_count": 25,
             "auto_match_count": 8
         }

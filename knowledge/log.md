@@ -461,3 +461,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-13 18:30]` **finalize** | Codex parity mission: routing misfire fix + gemini_deep diagnosis + Codex CLI upgrade/live-fire hook | strategy | system-orchestration — composite:8.33 status:Keep
 - `[2026-07-13 19:46]` **finalize** | Joey (Noisy Group) — cinema-grade AI production OS: forge extraction (12 workflows, 8 born-v2 prompt | general | joey-noisy-group — composite:8.33 status:Keep
 - `[2026-07-13 22:30]` **finalize** | Sean Dollwet — Amazon KDP operator-system mastery extraction (forge, 5 videos watched + frame-verifi | general | sean-dollwet — composite:8.67 status:Keep
+- `[2026-07-13 22:56]` **finalize** | Operator Guide Library — guides/ + INDEX.md + deterministic session-guide spine step + 5 backfilled  | general | none — composite:8.33 status:Keep
+- `[2026-07-13 22:56]` **finalize** | Receipt Arc novelty campaign pass — 14-post diagnostic + campaign map | general | kallaway — composite:8.67 status:Keep

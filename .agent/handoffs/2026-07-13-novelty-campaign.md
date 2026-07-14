@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** novelty-campaign  
-**Full path:** .agent/handoffs/2026-07-13-novelty-campaign.md  
-**Date:** 2026-07-13 (today)  
-**Status:** active  
-**Title:** Receipt Arc novelty campaign pass — 14-post diagnostic + campaign map
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume novelty-campaign` for this one.
-
----
-
 ---
 thread: novelty-campaign
 status: active
@@ -23,4 +11,3 @@ pin: true
 **Next session focus**: Resume the `novelty-campaign` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (novelty-campaign)._
-

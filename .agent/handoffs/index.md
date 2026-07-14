@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-13** [novelty-campaign/active] [Receipt Arc novelty campaign pass — 14-post diagnostic + campaign map](2026-07-13-novelty-campaign.md) — Receipt Arc novelty campaign pass — 14-post diagnostic + campaign map
 - **2026-07-13** [kdp-engine/ready] [KDP Book One Pilot — cold niche-hunt → first book through /kdp-engine](2026-07-13-kdp-book-one-pilot.md) — /kdp-engine cold niche-hunt → Book One
 - **2026-07-13** [directives/active] [Directives — Ai Slop Ban Bank](2026-07-13-directives.md) — Directives — Ai Slop Ban Bank
 - **2026-07-13** [sean-dollwet/active] [Sean Dollwet — Deep Notes Eu9Irnlbvpo](2026-07-13-sean-dollwet.md) — Sean Dollwet — Deep Notes Eu9Irnlbvpo

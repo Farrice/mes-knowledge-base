@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-13T22:30:53.415972",
+  "generated": "2026-07-13T22:56:53.037074",
   "total_files": 591,
-  "total_words": 2487068,
-  "total_tokens_est": 3307800,
+  "total_words": 2487170,
+  "total_tokens_est": 3307936,
   "stale_files_30d": 433,
   "domains": {
     "content": 194,
@@ -1925,11 +1925,11 @@
       "parent": "knowledge",
       "domain": "content",
       "expert": null,
-      "word_count": 4100,
-      "modified": "2026-07-13T19:46:05.310189",
+      "word_count": 4152,
+      "modified": "2026-07-13T22:56:27.412394",
       "age_days": 0,
-      "size_bytes": 67945,
-      "content_hash": "867aa7ad",
+      "size_bytes": 68862,
+      "content_hash": "969ec26d",
       "has_frontmatter": false
     },
     {
@@ -1938,10 +1938,10 @@
       "parent": "knowledge",
       "domain": "general",
       "expert": null,
-      "word_count": 11328,
-      "modified": "2026-07-13T22:30:53.155139",
+      "word_count": 11378,
+      "modified": "2026-07-13T22:56:52.794035",
       "age_days": 0,
-      "size_bytes": 88998,
+      "size_bytes": 89349,
       "content_hash": "5a51f947",
       "has_frontmatter": false
     },
