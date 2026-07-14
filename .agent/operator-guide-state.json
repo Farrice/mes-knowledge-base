@@ -1,6 +1,6 @@
 {
-  "last_synced_commit": "e2fe22d4bd10211f2148955586d94997a1784762",
-  "last_synced_at": "2026-07-10T18:17:53Z",
+  "last_synced_commit": "0309409675fc017db3d4e7232c7773930222eb81",
+  "last_synced_at": "2026-07-14T05:55:54Z",
   "guide": "docs/ROOT-CORE-OPERATOR-GUIDE.md",
   "synced_hashes": {
     "directives/external-skills-registry.md": "229f5dcc6249b805b6323adb6c1b96aeeccb6a2a",
@@ -38,6 +38,7 @@
     "skills/ben-watkins-storytelling/workflows/bw-anatomy-audit.md": "0e24f7c1ec4920f9b7963369217cdf2603449043",
     "skills/ben-watkins-storytelling/workflows/bw-dream-anatomy.md": "30cc1fbafc24c1e0c89370224a1d0ff4522261a4",
     "skills/ben-watkins-storytelling/workflows/bw-elevate.md": "006700958d8316c7af15b10eb3b0371361199cc3",
-    "skills/ben-watkins-storytelling/workflows/bw-spoken-story.md": "09136c8c2861186f53f22fe6ef8127e999e0cdc7"
+    "skills/ben-watkins-storytelling/workflows/bw-spoken-story.md": "09136c8c2861186f53f22fe6ef8127e999e0cdc7",
+    ".agent/workflows/end-session.md": "357a9bfa586143c62939de2db4b7e3f14c294843"
   }
 }

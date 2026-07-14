@@ -5334,7 +5334,7 @@
             "workflow_used": "supercomputer",
             "ensemble": true,
             "compound_pairing": "supercomputer + claim-safe-health-marketing + kallaway-illusion-of-novelty",
-            "feedback": null
+            "feedback": "fb_20260714_054848_2766"
         },
         {
             "routing_id": "rt_20260714_053053_4356",
@@ -5642,12 +5642,21 @@
             "rating": "auto_match",
             "correction": "sean-dollwet-kdp-publishing",
             "notes": "expert skill 'sean-dollwet-kdp-publishing' loaded matching suggestion ['sean-dollwet-kdp-publishing', 'deliberate', 'mark-kashef-wargame-os']"
+        },
+        {
+            "feedback_id": "fb_20260714_054848_2766",
+            "timestamp": "2026-07-14T05:48:48.191034+00:00",
+            "session_id": "085d3918-6379-4389-8d36-a939854e85e6",
+            "routing_id": "rt_20260714_052459_9bd9",
+            "rating": "auto_match",
+            "correction": "kallaway-illusion-of-novelty",
+            "notes": "expert skill 'kallaway-illusion-of-novelty' loaded matching suggestion ['supercomputer', 'claim-safe-health-marketing', 'kallaway-illusion-of-novelty']"
         }
     ],
     "monthly_summary": {
         "2026-07": {
             "total_routings": 297,
-            "total_feedback": 32,
+            "total_feedback": 33,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
@@ -5865,7 +5874,7 @@
             },
             "ensemble_count": 211,
             "auto_miss_count": 25,
-            "auto_match_count": 7
+            "auto_match_count": 8
         }
     }
 }

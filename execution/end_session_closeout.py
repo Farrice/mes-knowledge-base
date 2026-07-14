@@ -50,6 +50,8 @@ MEMORY_LEDGER = SESSIONS_DIR / "end-session-memory-ledger.jsonl"
 SESSION_STATE = AGENT / "session-state.md"
 FRICTION_LEDGER = AGENT / "friction-ledger.jsonl"
 COS_DIR = AGENT / "cos"
+GUIDES_DIR = ROOT / "guides"
+GUIDES_INDEX = GUIDES_DIR / "INDEX.md"
 
 DEGRADED_STALE_HOURS = 12
 
@@ -508,6 +510,88 @@ def step_artifact_sweep(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> T
         return "FAIL", f"{type(e).__name__}: {e}"
 
 
+def step_session_guide(ctx: Dict[str, Any], degraded: bool, dry_run: bool, slug: str) -> Tuple[str, str]:
+    """Operator-guide library (Farrice 2026-07-13, binding): every meaningful
+    session files a scannable document in guides/ — a full OPERATOR GUIDE when
+    the session shipped operator assets (skills/workflows/execution/directives),
+    a SESSION BRIEF otherwise. This deterministic half writes a stub so coverage
+    never depends on the model remembering (AI-memory-dependent observability is
+    banned); the /end-session model half enriches the stub to the
+    docs/ROOT-CORE-OPERATOR-GUIDE.md format (the Matt Pocock exemplar: mental
+    model up top, per-capability sections — what it is / when to reach for it /
+    when NOT to / worked examples / honest edges) and updates guides/INDEX.md."""
+    try:
+        today = datetime.now().date().isoformat()
+        guide_path = GUIDES_DIR / f"{today}-{slug}.md"
+        rel = guide_path.relative_to(ROOT)
+        if guide_path.exists():
+            if "status: stub" in guide_path.read_text(encoding="utf-8"):
+                return "OK", f"stub awaiting enrichment: {rel} — enrich to full guide + update guides/INDEX.md"
+            return "OK", f"session guide filed: {rel}"
+
+        # Tier detection: operator assets changed since the last guide-sync stamp?
+        assets: list = []
+        try:
+            r = subprocess.run(
+                [sys.executable, str(EXEC / "operator_guide_sync.py"), "check"],
+                capture_output=True, text=True, timeout=30, cwd=str(ROOT),
+            )
+            if r.returncode == 1:
+                for ln in (r.stdout or "").splitlines():
+                    t = ln.strip()
+                    if t.startswith("- "):
+                        assets.append(t[2:])
+        except Exception:
+            pass
+
+        content = ctx.get("content") or {}
+        if not assets and not content:
+            return "SKIP", "conversational session — no guide or brief needed"
+
+        tier = "operator-guide" if assets else "session-brief"
+        if dry_run:
+            return "OK", f"[dry-run] would write {tier} stub → {rel}"
+
+        GUIDES_DIR.mkdir(exist_ok=True)
+        title = content.get("title") or slug.replace("-", " ").title()
+        completed = content.get("completed") or ""
+        remaining = content.get("remaining") or ""
+        asset_lines = "\n".join(f"- `{a}`" for a in assets[:40]) or "- (none detected)"
+        stub = (
+            f"---\n"
+            f"date: {today}\n"
+            f"session: {slug}\n"
+            f"tier: {tier}\n"
+            f"status: stub  # written deterministically by end_session_closeout.py — ENRICH to the\n"
+            f"              # docs/ROOT-CORE-OPERATOR-GUIDE.md format, then set status: enriched\n"
+            f"---\n\n"
+            f"# {title} — What We Built {today} and How to Use It\n\n"
+            f"> STUB — auto-filed by the closeout spine so this session is never uncovered.\n"
+            f"> Enrich: mental model up top, then per-capability sections (what it is / when to\n"
+            f"> reach for it / when NOT to / worked example / honest edges). Update guides/INDEX.md.\n\n"
+            f"## Session snapshot\n\n"
+            f"- **Completed:** {completed or '(see session state archive)'}\n"
+            f"- **Remaining:** {remaining or '(none recorded)'}\n\n"
+            f"## Operator assets changed this cycle ({len(assets)})\n\n{asset_lines}\n"
+        )
+        guide_path.write_text(stub, encoding="utf-8")
+
+        if GUIDES_INDEX.exists():
+            idx = GUIDES_INDEX.read_text(encoding="utf-8")
+            marker = "## Pending enrichment"
+            line = f"- [{today} — {title}]({guide_path.name}) — {tier} stub, needs enrichment"
+            if guide_path.name not in idx:
+                if marker in idx:
+                    idx = idx.replace(marker, f"{marker}\n{line}", 1)
+                else:
+                    idx = idx.rstrip() + f"\n\n{marker}\n{line}\n"
+                GUIDES_INDEX.write_text(idx, encoding="utf-8")
+
+        return "OK", f"{tier} STUB written → {rel} — enrich before closing (exemplar: docs/ROOT-CORE-OPERATOR-GUIDE.md)"
+    except Exception as e:
+        return "FAIL", f"{type(e).__name__}: {e}"
+
+
 # ─────────────────────────────────────────────────────────────
 # spine runner
 # ─────────────────────────────────────────────────────────────
@@ -521,6 +605,7 @@ def run(slug: str, degraded: bool, dry_run: bool) -> int:
         ("memory-bridge", lambda: step_memory_bridge(ctx, degraded, dry_run)),
         ("cos-journal", lambda: step_cos_journal(ctx, degraded, dry_run)),
         ("archive-session-state", lambda: step_archive_session_state(ctx, degraded, dry_run, slug)),
+        ("session-guide", lambda: step_session_guide(ctx, degraded, dry_run, slug)),
         ("artifact-sweep", lambda: step_artifact_sweep(ctx, degraded, dry_run)),
         ("friction-nudge", lambda: step_friction_nudge(ctx, degraded, dry_run)),
         ("finalize-debt-nudge", lambda: step_finalize_debt_nudge(ctx, degraded, dry_run)),
