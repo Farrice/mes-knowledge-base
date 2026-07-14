@@ -227,15 +227,15 @@ Keep front doors and high-use control routes hot:
 - `/burst`
 - `/tweak`
 
-Keep the broad migrated command library cold behind `execution/command_menu.py`, `execution/workflow_router.py`, and targeted skill loads. The extraction core is intentionally hot because source work is a daily operator surface and must be deployable without remembering cold-wrapper paths. A command wrapper existing on disk does not mean Codex should preload or advertise it as the first route.
+Hot and cold are routing and context-loading states, not filesystem placement. Keep the broad migrated command library logically cold behind `execution/command_menu.py`, `execution/workflow_router.py`, and targeted skill loads. The extraction core is intentionally hot because source work is a daily operator surface and must be deployable without remembering wrapper paths. A command wrapper existing in the single canonical live wrapper tree does not mean Codex should preload or advertise it as the first route.
 
 `/buyer-trigger-os` is intentionally hot as a thin launcher for `skills/meg-heckman-buyer-trigger-os/`. It must enforce source-trace default and research-trace default, and must not become a duplicate, cheaper implementation of the Meg OS. Current buyer insights, trend-backed concepts, purchase intent research, and social-listening claims must route through `execution/buyer_trigger_research.py` or an equivalent source-led research package before recommendation. The default lane is public/free; paid/quota tools remain approval-gated.
 
 The daily operator command kit (`/session-calibrate`, `/project-coordinate`, `/project-onboard`, `/align`, `/devil`, `/burst`, `/tweak`) is intentionally hot because these commands are small steering utilities used to make ordinary sessions more aligned, coordinated, critique-ready, variant-rich, and easier to improve. Keep their shared policy in `semantic_libraries/antigravity/primitives/daily-operator-command-kit.md`.
 
 `/convene`, `/kimi-swarm`, `/council`, `/roundtable`, `/strike`,
-`/deploy-council`, `/jcc-deploy`, and `/campaign` are deployable workflow
-surfaces with cold source-command wrappers by default. Do not hot-promote them
+`/deploy-council`, `/jcc-deploy`, and `/campaign` are deployable, on-demand workflow
+surfaces by default. Their wrappers remain in the canonical single tree, but the routes stay logically cold. Do not hot-promote them
 unless later proof shows frequent direct use, clean routing behavior, and no
 expert-soup or super-router drift.
 
@@ -249,16 +249,17 @@ operator-approved direct-response mechanics front door. It is bounded to
 headline gravity, proof-first rescue, curiosity gaps, rhythm, story desire,
 objections, humor fit, and copywork. It does not replace `/copywriting-agent`,
 `/high-taste-writing-os`, or `/publishable-copy-gate`, and it must preserve a
-behavior-changing before/after proof standard. It is the only approved
-dual-mode command wrapper in this workspace: the cold wrapper preserves
-recoverable deployability, while the hot wrapper keeps the direct-response
-front door available.
+behavior-changing before/after proof standard. Its wrapper remains physically
+live for recoverable deployability while the route is intentionally hot for
+direct-response work.
 
-The live Codex skill surface is intentionally small. `.agents/skills/` should
-hold only the hot control-plane command wrappers plus native utility skills
-that are genuinely useful as direct Codex skills. Cold migrated wrappers live
-under `.agents/cold-skills/source-command-wrappers/` as recoverable quarantine,
-not deletion. The executable arsenal remains `.agent/workflows/`.
+The advertised and preloaded Codex skill surface is intentionally small. The
+workspace keeps one single canonical live wrapper tree under `.agents/skills/`
+so every source command remains explicitly discoverable. Only hot control-plane
+front doors should be advertised or loaded by default; other wrappers are
+logically cold and load only after router, menu, or direct invocation. Do not
+reintroduce a second quarantine tree. The executable arsenal remains
+`.agent/workflows/`.
 
 Run the live-surface audit after bridge or skill-surface changes:
 
@@ -273,14 +274,13 @@ Claude slash commands are represented for compatibility as `.claude/commands/<co
 Codex-active command execution uses:
 
 - `.agent/workflows/<command>.md`
-- hot `.agents/skills/source-command-<command>/SKILL.md` wrappers
+- `.agents/skills/source-command-<command>/SKILL.md` wrappers, with hotness controlled by routing policy
 
 When a workflow should be command-invokable, `.agent/workflows/` remains the
-executable source of truth. A missing cold `source-command-*` skill wrapper is
-not a migration failure when the workflow exists and the wrapper is quarantined
-under `.agents/cold-skills/source-command-wrappers/`. Load the workflow through
-`execution/command_menu.py`, `execution/workflow_router.py`, or the direct
-workflow file instead of re-expanding the live skill surface.
+executable source of truth. A non-hot `source-command-*` wrapper remains in the
+single live tree for explicit discovery but must not be preloaded or promoted as
+a default route. Load it through `execution/command_menu.py`,
+`execution/workflow_router.py`, direct invocation, or the workflow file.
 
 ## Subagent Boundary
 

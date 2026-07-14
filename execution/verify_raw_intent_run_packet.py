@@ -93,6 +93,22 @@ def main() -> int:
     require(system["chosen_route"] == "source-to-skill-system", "system fixture should choose /source-to-skill-system")
     require({"autopilot", "virtuoso"} <= set(system["support_gates"]), "system fixture missing Autopilot/Virtuoso support")
 
+    global_reconcile = raw_intent_run_packet.build_packet(
+        "Reconcile routing and hot/cold policy for global Codex access to Google Antigravity, then build the plugin manifest",
+        mode="system",
+    )
+    assert_packet_shape(global_reconcile)
+    require(global_reconcile["chosen_route"] == "system-audit", "global reconciliation must start at /system-audit")
+    require("source-to-skill-system" in global_reconcile["support_gates"], "global reconciliation missing builder handoff")
+
+    global_build = raw_intent_run_packet.build_packet(
+        "Implement a global skill manifest and personal plugin for Google Antigravity",
+        mode="system",
+    )
+    assert_packet_shape(global_build)
+    require(global_build["chosen_route"] == "source-to-skill-system", "pure global packaging must use /source-to-skill-system")
+    require("system-audit" in global_build["support_gates"], "global build missing audit support gate")
+
     regression = raw_intent_run_packet.build_packet(
         "Be my world-class prompt engineer and virtuoso for entrepreneurial tasks because I do not know how to ask Codex",
         mode="auto",
@@ -166,6 +182,8 @@ def main() -> int:
     print("- revenue fixture routes toward revenue/offer work")
     print("- creative fixture exposes quality gates")
     print("- system fixture routes to /source-to-skill-system with Autopilot/Virtuoso support")
+    print("- Antigravity global-access reconciliation routes to /system-audit before builder handoff")
+    print("- pure Antigravity global manifest packaging routes to /source-to-skill-system")
     print("- prompt-engineer/virtuoso wording does not misroute into unrelated creative-writing routes")
     print("- slash, colon, and source-command prefix forms strip before route/action generation")
     print("- JSON and plain CLIs render valid packets")

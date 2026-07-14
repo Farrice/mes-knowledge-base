@@ -11,6 +11,8 @@ from __future__ import annotations
 import re
 from typing import Any
 
+from antigravity_global_access import classify_global_access_intent
+
 
 # Tiered evidence (2026-07-08 misfire fix): in THIS workspace "hook", "skill",
 # "agent", "chain", "default" are content-craft vocabulary first and system
@@ -330,6 +332,15 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
     """
 
     q = normalize(strip_explicit_invocation_artifacts(prompt))
+    global_access = classify_global_access_intent(q)
+    if global_access["matched"]:
+        return {
+            "route": global_access["route"],
+            "lane": global_access["lane"],
+            "reason": global_access["reason"],
+            "evidence": global_access["evidence"],
+            "confidence": global_access["confidence"],
+        }
     # Explicit slash-workflow invocation ("run /extract-forge …", "… and /watch <url>"):
     # the user is deliberately DRIVING the control plane, not complaining about it
     # (2026-07-13 misfire: an /extract-forge mission carrying "orchestrate" + "we're
