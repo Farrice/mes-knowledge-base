@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** maestro-os  
-**Full path:** .agent/handoffs/2026-07-13-maestro-os.md  
-**Date:** 2026-07-13 (today)  
-**Status:** ready  
-**Title:** Antigravity Harness — Maestro OS v1 (Renaissance + Wiring + Conductor Ladder)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume maestro-os` for this one.
-
----
-
 ---
 thread: maestro-os
 status: ready
@@ -61,4 +49,3 @@ pin: true
 - One-driver-per-tree: claim `session_lock.py` before any long autonomous run — three collisions this arc; the lock is now physical, use it.
 - Embodiment Purity Guard is binding: Farrice taste never bakes into extracted experts' flavor.
 - PMF Card-2 carries a live Incumbency Rule conflict — surface §5, don't run a re-score without his on-record override.
-

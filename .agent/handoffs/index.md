@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-13** [maestro-os/ready] [Antigravity Harness — Maestro OS v1 (Renaissance + Wiring + Conductor Ladder)](2026-07-13-maestro-os.md) — Fresh session: verify menu hook live, run portability research, /cos weekly + /weekly-closeout, collect 3 waiting verdicts
 - **2026-07-13** [prompt-wiring-os/done] [Prompt Wiring OS — COMPLETE (2026-07-13)](2026-07-13-prompt-wiring-os-complete.md) — Prompt Wiring OS DONE: menu hook + 356 SKILL.md pointers + forging gate in 7 extraction workflows + 1,650 born-v2 across 237 skills, 100% verified; proof JUDGMENT + MyBPM merge-take jam waiting
 - **2026-07-13** [swarm-apex/ready] [Swarm Apex — Session 1 Build (swarm live + Solution Recorder + closeout spine)](2026-07-13-swarm-apex.md) — Session 2: build claim_audit.py + gates.py, wire into swarm synthesis (apex Wave 2)
 - **2026-07-13** [prompts-v2/active] [Prompts V2 — Client Conversion Diagnostic](2026-07-13-prompts-v2.md) — Prompts V2 — Client Conversion Diagnostic
