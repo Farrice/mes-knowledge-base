@@ -1,0 +1,15 @@
+{
+  "title": "Publish Copy V4: Health Performance AI Search Week 1",
+  "artifact_type": "content_packet",
+  "created": "2026-06-22",
+  "owner_workflow": "content-sprint",
+  "owner_skill": "lara-acosta-linkedin-mastery",
+  "codex_preflight": "PASS",
+  "codex_repair": "LinkedIn content packet override added to .codex/tools/codex_orchestration_preflight.py",
+  "verification": {
+    "content_finish_gate": "CLEAN",
+    "prose_classifier": "CLEAN",
+    "grounding_guard": "PASS"
+  },
+  "publishing_boundary": "No live engine result claims, outreach, posting, or automated connection requests were performed."
+}
