@@ -5386,6 +5386,154 @@
             "ensemble": true,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260714_055912_f9e3",
+            "timestamp": "2026-07-14T05:59:12.377121+00:00",
+            "session_id": "436c8b3e-f36a-46bb-a207-b4378ad335f4",
+            "request_summary": "And remember, I want the guides to be similar to this ROOT-CORE-OPERATOR-GUIDE.md that we've made. And a lot of depth. It's condensed as nice and like information density, actionable things and insigh",
+            "intent_score": 0,
+            "domain_detected": "simon-intellectual-library-os",
+            "experts_deployed": [
+                "simon-intellectual-library-os",
+                "nicolas-cole-niche-positioning",
+                "henry-shukman-contemplative-writing"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "simon-intellectual-library-os",
+            "ensemble": true,
+            "compound_pairing": "simon-intellectual-library-os + nicolas-cole-niche-positioning + henry-shukman-contemplative-writing",
+            "feedback": "fb_20260714_060440_8416"
+        },
+        {
+            "routing_id": "rt_20260714_161531_2fe2",
+            "timestamp": "2026-07-14T16:15:31.634265+00:00",
+            "session_id": "019f6169-35f1-7ba3-abc0-c3cc76061c6f",
+            "request_summary": "Automation: Health Performance GEO Daily Brief\nAutomation ID: health-performance-geo-daily-brief\nAutomation memory: $CODEX_HOME/automations/health-performance-geo-daily-brief/memory.md\nLast run: 2026-",
+            "intent_score": 0,
+            "domain_detected": "chief-of-staff-os",
+            "experts_deployed": [
+                "chief-of-staff-os",
+                "fresh-voice-system",
+                "luke-iha-creative-strategy"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "chief-of-staff-os",
+            "ensemble": true,
+            "compound_pairing": "chief-of-staff-os + fresh-voice-system + luke-iha-creative-strategy",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260714_194826_2a53",
+            "timestamp": "2026-07-14T19:48:26.486044+00:00",
+            "session_id": "",
+            "request_summary": "Intelligence brief: Top 10 premium niches for packaged Claude Code skills 2026 — synthesized from 169 swarm findings, 3 sections cited inline",
+            "intent_score": 7,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "market-intelligence"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "swarm-research",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260714_201305_2cd7",
+            "timestamp": "2026-07-14T20:13:05.594084+00:00",
+            "session_id": "",
+            "request_summary": "Strategic Intelligence Report: Claude-skills digital product business — 3-swarm deep research (424 findings, receipts REAL), top-10 market ranking, SOP-verified product candidates across 4 verticals, ",
+            "intent_score": 9,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "deep-research"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "deep-research",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260714_234221_8525",
+            "timestamp": "2026-07-14T23:42:21.047067+00:00",
+            "session_id": "e8017b17-1ecc-4b21-95d0-1c8ce5517a3c",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "jen-santulan-listing-content",
+            "experts_deployed": [
+                "jen-santulan-listing-content",
+                "david-bayer-elite-communication",
+                "corey-mcclain-persona-engineering"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jen-santulan-listing-content",
+            "ensemble": true,
+            "compound_pairing": "jen-santulan-listing-content + david-bayer-elite-communication + corey-mcclain-persona-engineering",
+            "feedback": "fb_20260714_234349_c8f2"
+        },
+        {
+            "routing_id": "rt_20260714_234357_e04b",
+            "timestamp": "2026-07-14T23:43:57.383485+00:00",
+            "session_id": "228202df-401f-494d-9d70-c2217e249441",
+            "request_summary": "run /go and /raw-intent-bridge I just thought about it through our entire process. I've only been using extractions, but I want to have another form of prompt generation skills that could take raw int",
+            "intent_score": 0,
+            "domain_detected": "creative-direction",
+            "experts_deployed": [
+                "creative-direction",
+                "wright-thompson-mastery",
+                "luke-iha-insight-vectors"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "creative-direction",
+            "ensemble": true,
+            "compound_pairing": "creative-direction + wright-thompson-mastery + luke-iha-insight-vectors",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260714_234441_8335",
+            "timestamp": "2026-07-14T23:44:41.334653+00:00",
+            "session_id": "228202df-401f-494d-9d70-c2217e249441",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "jen-santulan-listing-content",
+            "experts_deployed": [
+                "jen-santulan-listing-content",
+                "david-bayer-elite-communication",
+                "corey-mcclain-persona-engineering"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jen-santulan-listing-content",
+            "ensemble": true,
+            "compound_pairing": "jen-santulan-listing-content + david-bayer-elite-communication + corey-mcclain-persona-engineering",
+            "feedback": "fb_20260714_234548_3fb2"
+        },
+        {
+            "routing_id": "rt_20260714_234601_f320",
+            "timestamp": "2026-07-14T23:46:01.526636+00:00",
+            "session_id": "e8017b17-1ecc-4b21-95d0-1c8ce5517a3c",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "jen-santulan-listing-content",
+            "experts_deployed": [
+                "jen-santulan-listing-content",
+                "david-bayer-elite-communication",
+                "corey-mcclain-persona-engineering"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jen-santulan-listing-content",
+            "ensemble": true,
+            "compound_pairing": "jen-santulan-listing-content + david-bayer-elite-communication + corey-mcclain-persona-engineering",
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -5685,12 +5833,39 @@
             "rating": "auto_match",
             "correction": "kallaway-illusion-of-novelty",
             "notes": "expert skill 'kallaway-illusion-of-novelty' loaded matching suggestion ['supercomputer', 'claim-safe-health-marketing', 'kallaway-illusion-of-novelty']"
+        },
+        {
+            "feedback_id": "fb_20260714_060440_8416",
+            "timestamp": "2026-07-14T06:04:40.115172+00:00",
+            "session_id": "436c8b3e-f36a-46bb-a207-b4378ad335f4",
+            "routing_id": "rt_20260714_055912_f9e3",
+            "rating": "auto_miss",
+            "correction": "noah-hawley-storytelling-mastery",
+            "notes": "expert skill 'noah-hawley-storytelling-mastery' loaded not matching suggestion ['simon-intellectual-library-os', 'nicolas-cole-niche-positioning', 'henry-shukman-contemplative-writing']"
+        },
+        {
+            "feedback_id": "fb_20260714_234349_c8f2",
+            "timestamp": "2026-07-14T23:43:49.888617+00:00",
+            "session_id": "e8017b17-1ecc-4b21-95d0-1c8ce5517a3c",
+            "routing_id": "rt_20260714_234221_8525",
+            "rating": "auto_match",
+            "correction": "jen-santulan-listing-content",
+            "notes": "expert skill 'jen-santulan-listing-content' loaded matching suggestion ['jen-santulan-listing-content', 'david-bayer-elite-communication', 'corey-mcclain-persona-engineering']"
+        },
+        {
+            "feedback_id": "fb_20260714_234548_3fb2",
+            "timestamp": "2026-07-14T23:45:48.925651+00:00",
+            "session_id": "228202df-401f-494d-9d70-c2217e249441",
+            "routing_id": "rt_20260714_234441_8335",
+            "rating": "auto_miss",
+            "correction": "skill-creator",
+            "notes": "expert skill 'skill-creator' loaded not matching suggestion ['jen-santulan-listing-content', 'david-bayer-elite-communication', 'corey-mcclain-persona-engineering']"
         }
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 299,
-            "total_feedback": 33,
+            "total_routings": 307,
+            "total_feedback": 36,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
@@ -5703,7 +5878,7 @@
                 "Legal Consult Prep": 1,
                 "Content": 36,
                 "Extraction": 8,
-                "Research": 5,
+                "Research": 7,
                 "stefan-georgi-dopamine-copy": 7,
                 "supercomputer": 18,
                 "design-md": 13,
@@ -5742,7 +5917,11 @@
                 "corey-mcclain-persona-engineering": 1,
                 "fantastic-posters": 1,
                 "joey-cinema-os": 2,
-                "sean-dollwet-kdp-publishing": 1
+                "sean-dollwet-kdp-publishing": 1,
+                "simon-intellectual-library-os": 1,
+                "chief-of-staff-os": 1,
+                "jen-santulan-listing-content": 3,
+                "creative-direction": 1
             },
             "expert_counts": {
                 "system-audit": 19,
@@ -5750,16 +5929,16 @@
                 "nicolas-cole": 1,
                 "source-to-skill-system": 1,
                 "founder-voice": 1,
-                "chief-of-staff-os": 10,
+                "chief-of-staff-os": 11,
                 "david-placek": 2,
                 "David Placek": 1,
-                "jen-santulan-listing-content": 14,
+                "jen-santulan-listing-content": 17,
                 "jen-santulan": 3,
                 "health-performance-geo-client-acquisition-engine": 7,
-                "deep-research": 6,
+                "deep-research": 7,
                 "nate-b-jones-orchestration-intelligence": 4,
                 "source-command-mission": 1,
-                "creative-direction": 6,
+                "creative-direction": 7,
                 "oren-operational-systems": 3,
                 "satori-graphics": 4,
                 "creative-director": 1,
@@ -5773,11 +5952,11 @@
                 "supercomputer": 23,
                 "jason-fladlien-marketing": 8,
                 "design-md": 22,
-                "simon-intellectual-library-os": 1,
+                "simon-intellectual-library-os": 2,
                 "pptx": 7,
                 "david-placek-naming": 8,
                 "brand-operating-system": 23,
-                "nicolas-cole-niche-positioning": 11,
+                "nicolas-cole-niche-positioning": 12,
                 "prediction-market-making": 1,
                 "deliberate": 10,
                 "mark-kashef-ai-councils": 1,
@@ -5789,7 +5968,7 @@
                 "nate-b-jones-auto-improvement-loops": 4,
                 "self-evolving-systems": 3,
                 "internal-comms": 2,
-                "wright-thompson-mastery": 7,
+                "wright-thompson-mastery": 8,
                 "alex-suzuki-digital-product-revenue-os": 2,
                 "paul-harding-lyric-prose": 2,
                 "paul-james-ai-automation": 1,
@@ -5829,7 +6008,7 @@
                 "extract-mastery": 3,
                 "voice-os": 12,
                 "dara-denney": 2,
-                "corey-mcclain-persona-engineering": 26,
+                "corey-mcclain-persona-engineering": 29,
                 "luke-iha-vsl-leads": 4,
                 "cooz-voice-profile": 3,
                 "market_intelligence": 1,
@@ -5851,12 +6030,12 @@
                 "daniel-priestley-oversubscribed": 1,
                 "ai-chris-lee-zero-testimonial-sales": 2,
                 "adam-enfroy-affiliate-marketing": 1,
-                "david-bayer-elite-communication": 8,
+                "david-bayer-elite-communication": 11,
                 "lance-yichao-context-engineering": 1,
                 "jeremy-miner-identity-persuasion": 1,
                 "oren-one-person-ai-marketer": 1,
                 "system-orchestration": 3,
-                "luke-iha-insight-vectors": 5,
+                "luke-iha-insight-vectors": 6,
                 "story-compass": 3,
                 "dr-kriukow-humanization": 1,
                 "susan-orlean-narrative-nonfiction": 1,
@@ -5893,10 +6072,14 @@
                 "sky-tan-format-engine": 1,
                 "sean-dollwet-kdp-publishing": 4,
                 "sean-dollwet": 1,
-                "kallaway": 1
+                "kallaway": 1,
+                "henry-shukman-contemplative-writing": 1,
+                "fresh-voice-system": 1,
+                "luke-iha-creative-strategy": 1,
+                "market-intelligence": 1
             },
             "tier_counts": {
-                "0": 299,
+                "0": 307,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -5904,12 +6087,12 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 161,
-                "finalize-auto": 138
+                "hybrid": 167,
+                "finalize-auto": 140
             },
-            "ensemble_count": 213,
-            "auto_miss_count": 25,
-            "auto_match_count": 8
+            "ensemble_count": 220,
+            "auto_miss_count": 27,
+            "auto_match_count": 9
         }
     }
 }

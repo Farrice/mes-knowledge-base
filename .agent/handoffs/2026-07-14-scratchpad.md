@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** scratchpad  
-**Full path:** .agent/handoffs/2026-07-14-scratchpad.md  
-**Date:** 2026-07-14 (today)  
-**Status:** active  
-**Title:** Scratchpad — Deep Research Swarm Tiered.Workflow
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume scratchpad` for this one.
-
----
-
 ---
 thread: scratchpad
 status: active
@@ -25,4 +13,3 @@ pin: true
 **Artifacts:** /private/tmp/claude-501/-Users-farricecain-Google-Antigravity/e8017b17-1ecc-4b21-95d0-1c8ce5517a3c/scratchpad/deep-research-swarm-tiered.workflow.js
 
 **Retrieve:** `/resume scratchpad`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
-

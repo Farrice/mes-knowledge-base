@@ -463,3 +463,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-13 22:30]` **finalize** | Sean Dollwet — Amazon KDP operator-system mastery extraction (forge, 5 videos watched + frame-verifi | general | sean-dollwet — composite:8.67 status:Keep
 - `[2026-07-13 22:56]` **finalize** | Operator Guide Library — guides/ + INDEX.md + deterministic session-guide spine step + 5 backfilled  | general | none — composite:8.33 status:Keep
 - `[2026-07-13 22:56]` **finalize** | Receipt Arc novelty campaign pass — 14-post diagnostic + campaign map | general | kallaway — composite:8.67 status:Keep
+- `[2026-07-14 12:48]` **finalize** | Intelligence brief: Top 10 premium niches for packaged Claude Code skills 2026 — synthesized from 16 | general | market-intelligence — composite:7.0 status:Needs Improvement
+- `[2026-07-14 13:13]` **finalize** | Strategic Intelligence Report: Claude-skills digital product business — 3-swarm deep research (424 f | research | deep-research — composite:8.67 status:Keep

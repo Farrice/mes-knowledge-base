@@ -2790,6 +2790,16 @@
     "status": ""
   },
   {
+    "name": "re-compliance-pack",
+    "directory": "re-compliance-pack",
+    "description": "Real Estate Compliance Skill Pack \u2014 Fair Housing auditor for MLS listings, follow-up cadence execution, and CMA disclosure formatting. Encodes HUD Fair Housing Act standards, NAR SOPs, and TRID compliance. Use when reviewing real estate listings for advertising violations, structuring transaction workflows, or documenting compliance. Lead skill RE-1 runs against live MLS remarks to catch banned words, protected-class implications, and compliance risks before publication.",
+    "when_to_use": "",
+    "mtime": 1784072666.6867814,
+    "slash": "/re-compliance-pack",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "react:components",
     "directory": "react-components",
     "description": "Converts Stitch designs into modular Vite and React components using system-level networking and AST-based validation.",

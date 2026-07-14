@@ -1,5 +1,5 @@
 # Knowledge Index
-*591 sources | 2,487,170 words | Updated: 2026-07-13*
+*592 sources | 2,489,947 words | Updated: 2026-07-14*
 
 ---
 
@@ -314,7 +314,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 11,378 words
+- [log](log.md) — 11,432 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words
@@ -382,7 +382,7 @@
 - [ocr-notes](../extractions/video-context/3iR3kHxCwfo/ocr-notes.md) — 20 words
 - [ocr-notes](../extractions/video-context/a7VjpIqq8Xk/ocr-notes.md) — 20 words
 
-## Strategy (53 files)
+## Strategy (54 files)
 
 - [Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI](extractions/inbox/Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI.md) — 54,665 words (stale)
 - [Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2](extractions/inbox/Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2.md) — 29,981 words (stale)
@@ -398,6 +398,7 @@
 - [dj-event-matchmaking-research](../research_outputs/dj-event-matchmaking-research.md) — 3,290 words
 - [extraction-report](../extractions/omar-eltakrori/extraction-report.md) — 2,954 words (stale)
 - [DESIGN](design-libraries/brands/raycast/DESIGN.md) — 2,821 words
+- [2026-07-14-claude-skills-business-deep-research](../research_outputs/2026-07-14-claude-skills-business-deep-research.md) — 2,723 words
 - [extraction-report](../extractions/niche-bending/extraction-report.md) [april-dunford] — 2,664 words (stale)
 - [00-research-dossier](../research_outputs/prediction-market-arb/00-research-dossier.md) — 2,229 words
 - [polymarket-arbitrage-source](../extractions/prediction-market-trading/raw-sources/polymarket-arbitrage-source.md) — 2,171 words (stale)
@@ -416,7 +417,7 @@
 - [dwa-edgecase-3-research-2026-06-13](../research_outputs/dwa-edgecase-3-research-2026-06-13.md) — 950 words
 - [brand-bible-builder](../extractions/mike-foutia-marketing-tools/prompts/brand-bible-builder.md) — 929 words (stale)
 - [01-promoter-blueprint-audit](../extractions/jonathan-courtney/prompts/01-promoter-blueprint-audit.md) — 922 words (stale)
-- [homerun-extraction](../extractions/prediction-market-trading/homerun-extraction.md) — 915 words
+- [homerun-extraction](../extractions/prediction-market-trading/homerun-extraction.md) — 915 words (stale)
 - [brand-bible-builder](../extractions/mike-foutia-marketing-tools/prompts-v2/brand-bible-builder.md) — 889 words
 - [04-joe-rogan-ceo-positioning](../extractions/marc-andreessen-ben-horowitz/prompts-v2/04-joe-rogan-ceo-positioning.md) [april-dunford] — 887 words
 - [02-n-order-opportunity-scanner](../extractions/sherwin-wu/prompts/02-n-order-opportunity-scanner.md) — 883 words (stale)

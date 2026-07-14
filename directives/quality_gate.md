@@ -101,8 +101,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-07-13 (chain_runner finalize for kallaway-illusion-of-novelty) |
-| **Activation Count** | 601 |
-| **30-Day Review Date** | 2026-08-12 |
+| **Last Activated** | 2026-07-14 (chain_runner finalize for deep-research) |
+| **Activation Count** | 603 |
+| **30-Day Review Date** | 2026-08-13 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*
