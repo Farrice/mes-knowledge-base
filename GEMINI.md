@@ -148,3 +148,5 @@ For substantial closeouts also answer two questions explicitly:
 When it fits, build the closeout from `python3 execution/contextual_next_prompts.py --objective "[current objective]"` before finalizing. Skip steering only when Farrice explicitly asks for a terse answer, a higher-priority instruction requires silence, or a special tool action requires no extra text.
 
 ## VERIFY: ANTIGRAVITY-GEMINI-7X4K (Updated 2026-06-11)
+
+- **Orchestration seating + pattern + autonomy tier -> `directives/orchestration-doctrine.md`** (Conductor Ladder: strongest available model conducts — Fable/Mythos, Opus steady-state, Sonnet by-the-book; `/go` compiles Mission Cards; session lock before long autonomous runs)

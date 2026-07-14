@@ -105,3 +105,5 @@ LinkedIn → Lara Acosta (`skills/lara-acosta-*`) · copywriting → Luke Iha / 
 6. **Do not edit `skills/`, `directives/`, `execution/`, hooks, or indexes casually** — production infrastructure shared with Claude Code.
 
 ## VERIFY: ANTIGRAVITY-CODEX-3J8R (Created 2026-06-11)
+
+- **Orchestration seating + pattern + autonomy tier -> `directives/orchestration-doctrine.md`** (Conductor Ladder: strongest available model conducts — Fable/Mythos, Opus steady-state, Sonnet by-the-book; `/go` compiles Mission Cards; session lock before long autonomous runs)

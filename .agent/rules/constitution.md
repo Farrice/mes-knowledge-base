@@ -29,3 +29,5 @@ Claude Code enforces cost/finalize/routing via hooks. They DO NOT fire in this I
 5. Never edit `skills/`, `directives/`, `execution/` casually — they are production infrastructure shared with Claude Code.
 
 ## VERIFY: ANTIGRAVITY-IDE-9Q2M (Created 2026-06-11)
+
+- **Orchestration seating + pattern + autonomy tier -> `directives/orchestration-doctrine.md`** (Conductor Ladder: strongest available model conducts — Fable/Mythos, Opus steady-state, Sonnet by-the-book; `/go` compiles Mission Cards; session lock before long autonomous runs)
