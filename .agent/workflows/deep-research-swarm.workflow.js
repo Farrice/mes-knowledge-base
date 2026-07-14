@@ -156,7 +156,9 @@ while (wave < maxExtraWaves) {
 // ── Phase: Verify (adversarial) ──────────────────────────────────────────
 phase('Verify')
 const checkN = DEPTH === 'quick' ? 0 : DEPTH === 'standard' ? 4 : 8
-const claims = findings.filter((f) => ['statistic', 'data'].includes(f.finding_type)).slice(0, checkN)
+// finding_type is free-form from agents ('market_size', 'pricing_data', ...) — a strict
+// ['statistic','data'] whitelist matched nothing and silently skipped Verify at every depth.
+const claims = findings.filter((f) => /stat|data|size|pricing|revenue|market|benchmark/i.test(f.finding_type || '')).slice(0, checkN)
 if (claims.length) {
   const verdicts = await parallel(
     claims.map((f, i) => () =>
