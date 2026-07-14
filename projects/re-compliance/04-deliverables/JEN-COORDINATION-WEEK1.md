@@ -44,11 +44,14 @@ Jen shares 5-10 past listings (listings that have closed or are no longer active
 
 ## Week 1 Checklist
 
-### Mon 7/14 (Today)
+### Mon 7/14 (Today) ✓ COMPLETE
 - [x] Build RE-1 skill (SKILL.md, genius.md, workflow)
-- [x] Create HUD Word/Phrase List reference
-- [x] Build test audit (audit-test-listing-1.json)
-- [ ] **Request listings from Jen** (send this doc)
+- [x] Create HUD Word/Phrase List reference (24 CFR §100.75 canonical)
+- [x] Build complete test audit suite (audit-test-listing-1.json through 6)
+- [x] Create JEN-LISTING-INTAKE-TEMPLATE.md (simple submission format)
+- [x] Create RECEIPT-VALIDATION-CHECKLIST.md (comprehensive QA gate)
+- [x] Create JEN-EMAIL-TEMPLATE.md (ready-to-send request)
+- [ ] **Send listings request to Jen** (use JEN-EMAIL-TEMPLATE.md)
 
 ### Tue 7/15
 - [ ] Receive Jen's listings
@@ -129,16 +132,39 @@ For website/LinkedIn, we'll show:
 
 ```
 projects/re-compliance/
-├── JEN-COORDINATION-WEEK1.md (this file)
-├── receipts/ (generated audits)
-│   ├── jen-listing-001-audit.json
-│   ├── jen-listing-002-audit.json
-│   ├── ...
-│   └── jen-listing-010-audit.json
-├── screenshots/ (visual before/after samples)
-│   ├── listing-001-before-after.png
-│   └── ...
-└── summary.md (compiled receipt data for website)
+├── 04-deliverables/ (coordination docs)
+│   ├── JEN-COORDINATION-WEEK1.md (this file)
+│   ├── JEN-LISTING-INTAKE-TEMPLATE.md (copy-paste template for Jen)
+│   ├── RECEIPT-VALIDATION-CHECKLIST.md (QA gate, ≥95% confidence)
+│   ├── JEN-EMAIL-TEMPLATE.md (ready-to-send request)
+│   ├── receipts/ (generated audits — Jen's real listings, Tue–Wed)
+│   │   ├── jen-listing-001-audit.json
+│   │   ├── jen-listing-002-audit.json
+│   │   ├── ...
+│   │   └── jen-listing-010-audit.json
+│   ├── screenshots/ (visual before/after samples, Wed–Thu)
+│   │   ├── listing-001-before-after.png
+│   │   └── ...
+│   └── summary.md (compiled receipt data for website, Thu)
+
+skills/re-compliance-pack/ (LIVE SKILL, v1.0)
+├── SKILL.md (skill metadata, 3 skills, authority sources)
+├── genius.md (deep knowledge, HUD/NAR standards, case law)
+├── workflows/
+│   └── 01-fh-auditor.md (operational audit workflow)
+├── references/
+│   ├── hud-standards/
+│   │   ├── hud-word-phrase-list.md (canonical HUD list, 24 CFR §100.75)
+│   │   └── nar-article-12.md (coming)
+│   ├── case-law-citations.md (coming)
+│   └── test-listings.md (6 training examples)
+└── receipts/ (test audit suite, production-ready examples)
+    ├── audit-test-listing-1.json (5 RED, 2 YELLOW — high violation)
+    ├── audit-test-listing-2.json (2 RED, 2 YELLOW — moderate)
+    ├── audit-test-listing-3.json (0 violations — PASS compliant baseline)
+    ├── audit-test-listing-4.json (1 RED, 3 YELLOW — dog-whistle codes)
+    ├── audit-test-listing-5.json (2 RED, 1 YELLOW — disability discrimination, HIGH_RISK)
+    └── audit-test-listing-6.json (2 RED, 2 YELLOW — national origin targeting, CRITICAL)
 ```
 
 ---
@@ -187,11 +213,18 @@ Each receipt becomes a social-proof element:
 
 ## Status
 
-- [ ] Awaiting Jen's listings
-- [ ] Proceed with audits once received
-- [ ] Target: 10 receipts by Wed 7/16
+**Week 1 Monday (7/14) — PREP COMPLETE ✓**
+- [x] RE-1 skill fully built and tested
+- [x] Test audit suite complete (6 receipts: 1 high-violation, 1 moderate, 1 compliant, 1 dog-whistle, 2 critical)
+- [x] Intake template created (easy for Jen to submit listings)
+- [x] QA checklist created (≥95% confidence gate)
+- [x] Email template ready (copy-paste to send to Jen)
+- [ ] Listings request sent to Jen (waiting on Tue 7/15 response)
+
+**Next**: Jen submits listings Tue 7/15 morning → Audits run Tue/Wed → Receipts packaged Thu → Final QA Fri → Week 2 launch
 
 **Contact**: Farrice  
-**Skill Location**: `skills/re-compliance-pack/`  
-**Test Audit**: `skills/re-compliance-pack/receipts/audit-test-listing-1.json`
+**Skill Location**: `skills/re-compliance-pack/` (LIVE, v1.0)  
+**Test Audits**: `skills/re-compliance-pack/receipts/` (audit-test-listing-1.json through 6)  
+**Preparation Docs**: `projects/re-compliance/04-deliverables/` (intake template, QA checklist, email template)
 
