@@ -1,0 +1,66 @@
+{
+  "listing_address": "[Test Listing 3 - Compliant Property]",
+  "audit_date": "2026-07-14",
+  "audit_status": "PASS",
+  "summary": "No Fair Housing Act violations detected. Compliant listing with factual amenities and household-neutral language. Ready for MLS publication.",
+
+  "violation_count": {
+    "red_violations": 0,
+    "yellow_cautions": 0,
+    "blue_improvements": 0
+  },
+
+  "violations_by_tier": {
+    "red_violations": [],
+    "yellow_cautions": [],
+    "blue_improvements": []
+  },
+
+  "before_after_sample": {
+    "original_excerpt": "Spacious 4-bedroom home in established residential neighborhood. Walking distance to Lincoln Elementary (9.2/10) and Central Middle School (8.8/10). Tree-lined cul-de-sac with parks nearby. Low-maintenance landscaping. Recently renovated kitchen and bathrooms. Convenient to downtown employment centers. Multiple deck levels for entertaining. Move-in ready.",
+    "compliant_version": "[No changes required — listing is compliant as written.]"
+  },
+
+  "defensibility_statement": "This listing has been audited against HUD 24 CFR §100.75 (Fair Housing Act prohibited bases in advertising) and NAR Code of Ethics Article 12. No violations were detected. This audit confirms compliance with Fair Housing standards and creates a defensible record.",
+
+  "agent_education": {
+    "headline": "This is a model compliant listing — feature-based, household-neutral, factual.",
+    "pattern": "The listing avoids demographic targets entirely. It describes actual property features (spacious, renovated, multiple decks, proximity to schools/employment) without lifestyle assumptions. All amenities are stated factually (specific school ratings, tree-lined cul-de-sac, parks nearby) rather than targeting a particular household type.",
+    "fix_approach": "[No fix needed.] This listing exemplifies best practices: specificity, factual amenities, household-neutral language.",
+    "compliance_benefit": "This listing is fully compliant with Fair Housing Act standards and maximizes appeal across all household types. Buyers see the property itself, not marketing assumptions.",
+    "estimated_correction_time": "0 minutes — ready to publish"
+  },
+
+  "next_steps": [
+    "1. Publish listing to MLS as-is",
+    "2. Save this audit report in transaction file (creates defensible record)",
+    "3. Use as template for future listings"
+  ],
+
+  "liability_note": "This audit confirms compliance. No legal concerns identified. For questions or novel cases, consult your broker or legal counsel.",
+
+  "violation_summary": {
+    "total_violations": 0,
+    "severity_breakdown": {
+      "high_risk": 0,
+      "medium_risk": 0,
+      "optional_improvements": 0
+    },
+    "compliance_risk": "No compliance risk identified. Listing is publication-ready."
+  },
+
+  "authority_sources": [
+    "24 CFR §100.75 (HUD Fair Housing Act, Prohibited bases in advertising)",
+    "NAR Code of Ethics Article 12 (Fair Housing standards for REALTOR® advertising)",
+    "HUD Fair Housing Act & Real Estate Advertising Guidance (2016)"
+  ],
+
+  "audit_metadata": {
+    "auditor": "RE-1 Fair Housing Listing-Copy Auditor v1.0",
+    "audit_version": "1.0",
+    "workflow": "skills/re-compliance-pack/workflows/01-fh-auditor.md",
+    "audit_duration": "~5 minutes",
+    "confidence_level": "HIGH (no violations detected; listing follows best practices)",
+    "recommended_action": "Publish as-is; use as compliance template"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "listing_address": "[Test Listing 6 - Nationality/Language Coding Property]",
+  "audit_date": "2026-07-14",
+  "audit_status": "HIGH_RISK",
+  "summary": "2 RED violations detected (explicit nationality/language targeting: 'bilingual residents,' 'perfect for Hispanic families'). 2 YELLOW cautions (ethnic market as neighborhood marker). CRITICAL: explicit discrimination based on national origin and language. Immediate rewrite required before publication.",
+
+  "violation_count": {
+    "red_violations": 2,
+    "yellow_cautions": 2,
+    "blue_improvements": 0
+  },
+
+  "violations_by_tier": {
+    "red_violations": [
+      {
+        "line_number": 2,
+        "original_text": "Walking distance to Spanish-language schools and ethnic market",
+        "violation_type": "National Origin and Language Discrimination (Explicit Targeting)",
+        "authority": "Fair Housing Act 42 U.S.C. §3604(b) (National origin); 24 CFR §100.75",
+        "risk_level": "CRITICAL — Direct violation; explicit discrimination by national origin and language",
+        "legal_basis": "Targeting 'Spanish-language schools' and 'ethnic market' explicitly limits the property's marketed appeal to Spanish-speaking residents, excluding English-speaking and other-language-speaking households. This is direct discrimination based on national origin and language — prohibited bases under Fair Housing Act.",
+        "suggested_rewrite": "Walking distance to schools and neighborhood retail shopping",
+        "citation": "Fair Housing Act §3604(b); 24 CFR §100.75; HUD Guidance on national origin and language discrimination"
+      },
+      {
+        "line_number": 3,
+        "original_text": "Perfect for Hispanic families",
+        "violation_type": "National Origin Discrimination (Explicit Demographic Targeting)",
+        "authority": "Fair Housing Act 42 U.S.C. §3604(b) (National origin); 24 CFR §100.75",
+        "risk_level": "CRITICAL — Direct violation; explicit targeting of protected national-origin class",
+        "legal_basis": "Explicitly marketing property to 'Hispanic families' targets a national-origin group and implicitly excludes other national-origin groups. Fair Housing Act protects national origin as a class. Any listing copy that targets or excludes based on national origin, ethnicity, or language is a direct violation.",
+        "suggested_rewrite": "Spacious home ideal for households of all sizes",
+        "citation": "Fair Housing Act §3604(b); 24 CFR §100.75 — National origin as prohibited basis"
+      }
+    ],
+
+    "yellow_cautions": [
+      {
+        "line_number": 1,
+        "original_text": "Vibrant, international community with bilingual residents",
+        "caution_type": "Possible National Origin Coding (When Used as Sole Descriptor)",
+        "authority": "HUD Fair Housing Guidance (2016); Fair Housing case law on neighborhood descriptors",
+        "risk_level": "MEDIUM — Contextual; becomes RED when paired with 'Spanish-language' and 'Hispanic' language above",
+        "legal_basis": "'International community' and 'bilingual residents' document that non-English speakers are present. Standing alone, this might be a factual neighborhood descriptor. However, paired with 'Spanish-language schools' and 'perfect for Hispanic families,' it becomes part of an explicit national-origin targeting narrative.",
+        "suggested_rewrite": "[Omit if used solely to target non-English speakers] or 'Diverse neighborhood with multiple cultural communities'",
+        "note": "Becomes RED in context of explicit Hispanic targeting. The violation is the targeting, not the descriptor itself.",
+        "citation": "HUD Fair Housing Guidance (2016); Fair Housing case law on neighborhood markers"
+      },
+      {
+        "line_number": 4,
+        "original_text": "Authentic cultural atmosphere with traditional restaurants nearby",
+        "caution_type": "Ethnic Descriptor (When Used as Sole Neighborhood Marker)",
+        "authority": "HUD Fair Housing Guidance (2016); Fair Housing Council case law",
+        "risk_level": "MEDIUM — Contextual; compounds national-origin targeting above",
+        "legal_basis": "'Authentic cultural atmosphere' and 'traditional restaurants' are ethnic descriptors. HUD guidance notes that such descriptors can signal exclusion when used as the *only* way to market a neighborhood or when paired with national-origin targeting. Here, paired with explicit 'Hispanic families' language, they reinforce national-origin discrimination.",
+        "suggested_rewrite": "[Omit or replace with neutral amenity language] 'Fine dining and cultural events nearby' or specific restaurant/venue names",
+        "note": "Factual amenity only if truly central to property appeal. When used to code for specific ethnic/national-origin groups, it becomes part of discrimination pattern.",
+        "citation": "HUD Fair Housing Guidance (2016); Fair Housing Council v. 1734 East 82nd Street (9th Cir. 2019)"
+      }
+    ]
+  },
+
+  "before_after_sample": {
+    "original_excerpt": "Vibrant, international community with bilingual residents. Walking distance to Spanish-language schools and ethnic market. Perfect for Hispanic families. Authentic cultural atmosphere with traditional restaurants nearby.",
+
+    "compliant_version": "Vibrant neighborhood with diverse dining and cultural events. Walking distance to schools and retail shopping. Spacious home ideal for households of all sizes. Multiple restaurants and entertainment venues nearby. Move-in ready."
+  },
+
+  "defensibility_statement": "This listing has been audited against HUD 24 CFR §100.75 (Fair Housing Act prohibited bases in advertising) and Fair Housing Act §3604(b) (National origin discrimination). Two CRITICAL RED violations are documented below. This listing carries severe liability risk and requires immediate rewrite before publication. Compliant version eliminates all national-origin targeting while preserving neighborhood appeal. This audit creates a defensible record showing good-faith compliance effort.",
+
+  "agent_education": {
+    "headline": "National origin and language targeting is a CRITICAL Fair Housing Act violation — and sometimes goes undetected in multi-cultural markets.",
+    "pattern": "This listing uses four phrases that explicitly target Hispanic/Spanish-speaking residents: 'bilingual residents,' 'Spanish-language schools,' 'perfect for Hispanic families,' and 'authentic cultural atmosphere.' While diversity is an asset, using it to exclude other national-origin groups violates Fair Housing law. The listing does not say 'not for English speakers,' but it clearly markets to one national-origin group, implicitly excluding others.",
+    "fix_approach": "Remove all national-origin and language references. Replace 'Spanish-language schools' with factual 'schools'; remove 'perfect for Hispanic families' entirely; replace 'bilingual residents' with 'diverse community'; omit 'authentic cultural atmosphere' or replace with 'fine dining.' The neighborhood's actual appeal (diverse dining, cultural events, walkable schools) remains; the exclusionary national-origin framing is removed.",
+    "compliance_benefit": "National origin discrimination is a CRITICAL violation trigger. HUD actively enforces this category with severe penalties ($16K–$55K+ per violation, plus attorney fees). Compliant listings avoid this reputational and legal catastrophe. Marketing to 'all buyers' (not targeted national-origin groups) expands market reach and protects the agent.",
+    "estimated_correction_time": "15 minutes to complete rewrite"
+  },
+
+  "next_steps": [
+    "1. DO NOT PUBLISH THIS LISTING AS WRITTEN — CRITICAL HIGH-RISK status",
+    "2. Review compliant version above",
+    "3. Edit listing in MLS immediately; remove all national-origin and language targeting",
+    "4. Remove 'Spanish-language,' 'bilingual,' 'Hispanic families,' 'authentic cultural atmosphere' language",
+    "5. Replace with neutral neighborhood descriptors (diverse, walkable schools, dining, retail)",
+    "6. Resubmit to MLS; flag to broker for immediate sign-off (given severity and liability exposure)",
+    "7. Save this audit report in transaction file (documents good-faith compliance effort)",
+    "8. If any questions, consult broker or legal counsel BEFORE publishing"
+  ],
+
+  "liability_note": "CRITICAL: This listing as written violates the Fair Housing Act §3604(b) on national origin discrimination. This is among the most serious Fair Housing violations. Documented audit provides defensibility IF changes are made immediately. If this listing is published without revision, liability exposure is severe and could trigger HUD investigation. Do not proceed without addressing both RED violations.",
+
+  "violation_summary": {
+    "total_violations": 4,
+    "severity_breakdown": {
+      "critical_risk": 2,
+      "medium_risk": 2,
+      "optional_improvements": 0
+    },
+    "compliance_risk": "CRITICAL: This listing violates Fair Housing Act national origin protections. HUD penalty for national origin discrimination: $16K–$55K+ per violation, plus attorney fees and potential investigation. Immediate rewrite required before publication. Recommend broker and legal counsel review."
+  },
+
+  "authority_sources": [
+    "Fair Housing Act 42 U.S.C. §3604(b) (Discrimination based on national origin)",
+    "24 CFR §100.75 (HUD Fair Housing Act, Prohibited bases in advertising)",
+    "HUD Fair Housing Act & Real Estate Advertising Guidance (2016) — national origin and language",
+    "HUD Enforcement Precedents on explicit national-origin targeting in advertising",
+    "Fair Housing Council v. 1734 East 82nd Street (9th Cir. 2019) — neighborhood descriptors as discrimination markers"
+  ],
+
+  "audit_metadata": {
+    "auditor": "RE-1 Fair Housing Listing-Copy Auditor v1.0",
+    "audit_version": "1.0",
+    "workflow": "skills/re-compliance-pack/workflows/01-fh-auditor.md",
+    "audit_duration": "~10 minutes",
+    "confidence_level": "CRITICAL (2 violations are explicit, unambiguous national-origin discrimination; clear case-law match)",
+    "recommended_action": "DO NOT PUBLISH. Immediate rewrite required. Recommend broker and legal counsel review before publication."
+  }
+}

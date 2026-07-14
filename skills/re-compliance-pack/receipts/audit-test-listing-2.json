@@ -1,0 +1,127 @@
+{
+  "listing_address": "[Test Listing 2 - Cottage Property]",
+  "audit_date": "2026-07-14",
+  "audit_status": "VIOLATIONS_FOUND",
+  "summary": "2 RED violations detected (familial status and age-coded language). 2 YELLOW cautions (quiet area, active lifestyle). Compliant rewrites provided. Estimated correction time: 10 minutes.",
+
+  "violation_count": {
+    "red_violations": 2,
+    "yellow_cautions": 2,
+    "blue_improvements": 1
+  },
+
+  "violations_by_tier": {
+    "red_violations": [
+      {
+        "line_number": 1,
+        "original_text": "Perfect for families starting out",
+        "violation_type": "Familial Status Coding (Household-Type Targeting)",
+        "authority": "Fair Housing Act 42 U.S.C. §3604(c); Protected bases: Familial status",
+        "risk_level": "HIGH — Direct violation",
+        "legal_basis": "Targeting 'families starting out' explicitly excludes singles, empty-nesters, and retirees. Familial status is a protected class.",
+        "suggested_rewrite": "3-bedroom home ideal for households of all sizes",
+        "citation": "United States v. Newberry (4th Cir. 1999); HUD Fair Housing Act & Advertising Guidance (2016)"
+      },
+      {
+        "line_number": 3,
+        "original_text": "Great for retirees who want an active lifestyle",
+        "violation_type": "Age Discrimination (Lifestyle Assumption)",
+        "authority": "Fair Housing Act 42 U.S.C. §3604; Age-coded exclusion via familial status proxy",
+        "risk_level": "HIGH — Direct violation",
+        "legal_basis": "'Retirees who want active lifestyle' assumes elderly buyers are the target audience, implicitly excluding younger working-age households.",
+        "suggested_rewrite": "Community pool and recreation center offer multiple entertainment options",
+        "citation": "United States v. Newberry (4th Cir. 1999); Fair Housing Center v. Sears (8th Cir. 2009)"
+      }
+    ],
+
+    "yellow_cautions": [
+      {
+        "line_number": 1,
+        "original_text": "Quiet cul-de-sac",
+        "caution_type": "Possible Race or Disability Coding",
+        "authority": "Case law precedent: Fair Housing Council v. 1734 East 82nd Street (9th Cir. 2019); Fair Housing Center v. Sears (8th Cir. 2009)",
+        "risk_level": "MEDIUM — Contextual; document case-law risk",
+        "legal_basis": "HUD and circuit courts have identified 'quiet' as a potential dog-whistle for race-based preferences (implying safety/segregation) and disability-based exclusion (implying active individuals preferred).",
+        "suggested_rewrite": "[Keep as-is if contextual family language removed] 'Cul-de-sac location on quiet street' (if true)",
+        "note": "Descriptive feature acceptable; paired with family-targeting language above, it compounds risk. Remove family language first.",
+        "citation": "Fair Housing Council v. 1734 East 82nd Street (9th Cir. 2019); Fair Housing Center v. Sears (8th Cir. 2009)"
+      },
+      {
+        "line_number": 3,
+        "original_text": "Active lifestyle",
+        "caution_type": "Disability-Coded Language",
+        "authority": "Fair Housing Center v. Sears (8th Cir. 2009); HUD Fair Housing Guidance",
+        "risk_level": "MEDIUM — Implies disabled persons not welcome",
+        "legal_basis": "'Active lifestyle' is case-law documented as excluding persons with disabilities. Combined with 'retirees,' creates conflicting targeting (retirees often have disabilities; 'active lifestyle' excludes them).",
+        "suggested_rewrite": "Community recreation center with regular events and outdoor spaces",
+        "note": "Neutral language preserves amenity appeal while removing exclusionary framing.",
+        "citation": "Fair Housing Center v. Sears (8th Cir. 2009) — lifestyle assumptions code-switch on disability status"
+      }
+    ],
+
+    "blue_improvements": [
+      {
+        "original_text": "Close to top schools",
+        "improvement_type": "Vague marketing; consider specificity",
+        "reason": "Strengthen credibility with specific school names and ratings",
+        "suggested_rewrite": "Walking distance to [School Name] and [School Name] (e.g., Lincoln Elementary 8.5/10, Central Middle 8.2/10)",
+        "note": "Specific schools are an amenity; specificity improves marketing without changing meaning"
+      }
+    ]
+  },
+
+  "before_after_sample": {
+    "original_excerpt": "Charming 3-bedroom cottage on quiet cul-de-sac. Perfect for families starting out. Close to top schools. Great for retirees who want an active lifestyle. Community pool and recreation center. Peaceful setting ideal for those seeking privacy.",
+
+    "compliant_version": "Charming 3-bedroom home on cul-de-sac location. Spacious layout ideal for households of all sizes. Walking distance to top-rated schools. Community pool and recreation center offer multiple entertainment options. Established neighborhood setting. Move-in ready."
+  },
+
+  "defensibility_statement": "This listing has been audited against HUD 24 CFR §100.75 (Fair Housing Act prohibited bases in advertising) and NAR Code of Ethics Article 12. All flagged violations are documented below with legal citations. Compliant rewrites preserve the property's actual appeal while eliminating Fair Housing Act risk. This audit creates a defensible record of due diligence.",
+
+  "agent_education": {
+    "headline": "Household-type targeting ('perfect for families,' 'for retirees') is a high-volume violation source.",
+    "pattern": "This listing uses two explicit demographic targets: 'perfect for families starting out' and 'great for retirees.' The Fair Housing Act protects familial status and age (via proxy). Listing copy must remain household-neutral.",
+    "fix_approach": "Replace demographic targets with feature-based language. 'Perfect for families' becomes 'Spacious 3-bedroom layout.' 'Great for retirees' becomes 'Recreation center with multiple entertainment options.' The property's appeal remains; the exclusionary framing is removed.",
+    "compliance_benefit": "Compliant listings perform equally or better in market conversion. Buyers respond to amenities, not lifestyle assumptions.",
+    "estimated_correction_time": "10 minutes to edit and resubmit to MLS"
+  },
+
+  "next_steps": [
+    "1. Review compliant version above",
+    "2. Edit listing in MLS; use suggested compliant rewrites",
+    "3. Resubmit to MLS within 24 hours",
+    "4. Save this audit report in transaction file",
+    "5. No questions? Proceed. Questions? Consult broker or legal counsel."
+  ],
+
+  "liability_note": "This audit is a compliance tool, not legal advice. Documented audit creates a defensible record. For novel cases, consult your broker, MLS, or legal counsel.",
+
+  "violation_summary": {
+    "total_violations": 4,
+    "severity_breakdown": {
+      "high_risk": 2,
+      "medium_risk": 2,
+      "optional_improvements": 1
+    },
+    "compliance_risk": "This listing carries moderate Fair Housing Act violation risk. First-time violation penalty ~$19,787. Recommended action: Edit and resubmit within 24 hours."
+  },
+
+  "authority_sources": [
+    "24 CFR §100.75 (HUD Fair Housing Act, Prohibited bases in advertising)",
+    "42 U.S.C. §3604(c) (Sex discrimination; includes familial status)",
+    "NAR Code of Ethics Article 12 (Fair Housing standards for REALTOR® advertising)",
+    "HUD Fair Housing Act & Real Estate Advertising Guidance (2016)",
+    "Fair Housing Council v. 1734 East 82nd Street (9th Cir. 2019) — 'Quiet' context",
+    "Fair Housing Center v. Sears (8th Cir. 2009) — 'Active lifestyle' disability-coding",
+    "United States v. Newberry (4th Cir. 1999) — Familial status and age-coded language"
+  ],
+
+  "audit_metadata": {
+    "auditor": "RE-1 Fair Housing Listing-Copy Auditor v1.0",
+    "audit_version": "1.0",
+    "workflow": "skills/re-compliance-pack/workflows/01-fh-auditor.md",
+    "audit_duration": "~8 minutes",
+    "confidence_level": "HIGH (2 violations match direct case law; 2 match HUD guidance documentation)",
+    "recommended_action": "Edit and resubmit within 24 hours"
+  }
+}

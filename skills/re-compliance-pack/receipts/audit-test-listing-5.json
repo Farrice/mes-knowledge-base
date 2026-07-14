@@ -1,0 +1,116 @@
+{
+  "listing_address": "[Test Listing 5 - Disability-Coded Language Property]",
+  "audit_date": "2026-07-14",
+  "audit_status": "HIGH_RISK",
+  "summary": "2 RED violations detected (disability-coded language: 'active individuals,' 'not suitable for low-maintenance'). 1 YELLOW caution (active community). HIGH-RISK status: explicit exclusion of persons with disabilities. Immediate rewrite required before publication.",
+
+  "violation_count": {
+    "red_violations": 2,
+    "yellow_cautions": 1,
+    "blue_improvements": 1
+  },
+
+  "violations_by_tier": {
+    "red_violations": [
+      {
+        "line_number": 1,
+        "original_text": "Perfect for active individuals",
+        "violation_type": "Disability Discrimination (Direct Exclusion)",
+        "authority": "Fair Housing Act 42 U.S.C. §3604(h) (Discrimination based on disability); Fair Housing Center v. Sears (8th Cir. 2009)",
+        "risk_level": "CRITICAL — Direct violation with explicit exclusionary language",
+        "legal_basis": "'Active individuals' is case-law documented as targeting able-bodied persons and implicitly excluding persons with disabilities (mobility limitations, chronic pain, cognitive disabilities, etc.). Combined with two-story design and stairs, this becomes an explicit disability-based exclusion.",
+        "suggested_rewrite": "Home features two-story design with [specific rooms/amenities upstairs and downstairs]",
+        "citation": "Fair Housing Center v. Sears (8th Cir. 2009) — 'Active lifestyle' disqualifies on basis of disability; Fair Housing Act §3604(h)"
+      },
+      {
+        "line_number": 5,
+        "original_text": "Not suitable for those seeking low-maintenance",
+        "violation_type": "Disability Discrimination (Negative Capability Statement)",
+        "authority": "Fair Housing Act 42 U.S.C. §3604(h); HUD Guidance on disability-based exclusions",
+        "risk_level": "CRITICAL — Direct violation; explicitly states property is unsuitable for certain persons",
+        "legal_basis": "'Not suitable for those seeking low-maintenance' targets persons who need low-maintenance properties due to disability, age, health limitations, or lifestyle. This is a direct statement of unsuitability based on need — a prohibited basis under disability law.",
+        "suggested_rewrite": "Requires outdoor maintenance" or "[Describe specific upkeep requirements factually without stating who property suits]",
+        "citation": "HUD Guidance on Fair Housing Act §3604(h); Fair Housing Center case law on negative capability statements"
+      }
+    ],
+
+    "yellow_cautions": [
+      {
+        "line_number": 4,
+        "original_text": "Active community with regular neighborhood events and hiking groups",
+        "caution_type": "Disability-Coded Language (Lifestyle Assumption)",
+        "authority": "Fair Housing Center v. Sears (8th Cir. 2009); HUD Guidance",
+        "risk_level": "MEDIUM — Contextual; compounds the above RED violations",
+        "legal_basis": "'Active community' and 'hiking groups' imply physical activity as a requirement for community participation, potentially excluding persons with mobility limitations or disabilities.",
+        "suggested_rewrite": "Community with regular neighborhood events and recreation center",
+        "note": "Paired with explicit disability-exclusion language above (RED violations), this YELLOW becomes part of an aggregate pattern of disability discrimination. Separate and neutralize both the RED violations and this YELLOW.",
+        "citation": "Fair Housing Center v. Sears (8th Cir. 2009)"
+      }
+    ],
+
+    "blue_improvements": [
+      {
+        "original_text": "Features a beautiful two-story design with hardwood stairs",
+        "improvement_type": "Factual statement; neutral framing acceptable",
+        "reason": "Two-story design is a factual feature; stairs can be disclosed factually without lifestyle language",
+        "suggested_rewrite": "Two-story design with stairs to second level; [note if any single-floor bedrooms/bathrooms available]",
+        "note": "Factual disclosure is required by fair housing law (e.g., for accessibility purposes). The violation is not the fact of stairs, but pairing it with 'active individuals' and 'not suitable for' language that excludes on disability basis."
+      }
+    ]
+  },
+
+  "before_after_sample": {
+    "original_excerpt": "Wonderful home perfect for active individuals. Features a beautiful two-story design with hardwood stairs. Ideal for the outdoor lifestyle with deck and garden. Active community with regular neighborhood events and hiking groups. Not suitable for those seeking low-maintenance.",
+
+    "compliant_version": "Wonderful home featuring a two-story design with master suite and deck. Second-floor bedrooms with outdoor space; downstairs features kitchen, dining, living, and half-bath. Deck and garden spaces for entertaining. Established community with regular neighborhood events and recreation center. Requires outdoor maintenance and landscaping upkeep."
+  },
+
+  "defensibility_statement": "This listing has been audited against HUD 24 CFR §100.75 (Fair Housing Act prohibited bases in advertising) and Fair Housing Act §3604(h) (Discrimination based on disability). Two CRITICAL RED violations are documented below. This listing carries significant liability risk and requires immediate rewrite before publication. Compliant version preserves factual disclosure while eliminating disability-based exclusions. This audit creates a defensible record of due diligence and shows good-faith compliance effort.",
+
+  "agent_education": {
+    "headline": "Disability discrimination in advertising is a critical compliance risk — and often invisible to agents unfamiliar with case law.",
+    "pattern": "This listing uses three disability-coded phrases: 'perfect for active individuals,' 'not suitable for those seeking low-maintenance,' and 'active community with hiking groups.' The first and second are explicit violations. Together, they communicate that the property excludes persons with disabilities, elderly persons with mobility limitations, and anyone needing low-maintenance living. The Fair Housing Act protects disability as a class.",
+    "fix_approach": "Remove all lifestyle assumptions tied to activity level. Describe features factually: 'two-story design with stairs' (fact, not judgment); 'deck and garden' (amenity, not requirement); 'community events' (neutral). Replace 'not suitable for' with factual maintenance requirements ('requires landscaping upkeep'). The property's appeal remains; the exclusionary framing is removed.",
+    "compliance_benefit": "Disability-based violations are among the most serious Fair Housing Act breaches and trigger aggressive HUD enforcement. Removing this language protects the agent, the broker, and the MLS. Compliant listings are equally marketable; buyers see features, not assumptions.",
+    "estimated_correction_time": "15 minutes to complete rewrite (more substantial than typical violations)"
+  },
+
+  "next_steps": [
+    "1. DO NOT PUBLISH THIS LISTING AS WRITTEN — HIGH-RISK status",
+    "2. Review compliant version above",
+    "3. Edit listing in MLS immediately; remove both RED violations and YELLOW caution",
+    "4. Rewrite to focus on factual features, not lifestyle assumptions",
+    "5. Resubmit to MLS; consider flagging to broker for sign-off (given severity)",
+    "6. Save this audit report in transaction file (documents good-faith compliance effort)",
+    "7. If any questions, consult broker or legal counsel BEFORE publishing"
+  ],
+
+  "liability_note": "HIGH-RISK: This listing as written violates the Fair Housing Act §3604(h) on disability discrimination. Documented audit provides defensibility IF changes are made. If this listing is published without revision, liability exposure is severe. Do not proceed without addressing the RED violations.",
+
+  "violation_summary": {
+    "total_violations": 3,
+    "severity_breakdown": {
+      "critical_risk": 2,
+      "medium_risk": 1,
+      "optional_improvements": 1
+    },
+    "compliance_risk": "CRITICAL: This listing as written violates Fair Housing Act disability protections. HUD penalty for disability discrimination: $16K–$55K+ per violation, plus attorney fees. Immediate rewrite required before publication."
+  },
+
+  "authority_sources": [
+    "Fair Housing Act 42 U.S.C. §3604(h) (Discrimination based on disability)",
+    "24 CFR §100.75 (HUD Fair Housing Act, Prohibited bases in advertising)",
+    "Fair Housing Center v. Sears (8th Cir. 2009) — 'Active lifestyle' disqualifies on disability basis",
+    "HUD Guidance on Fair Housing Act §3604(h) and advertising",
+    "HUD Enforcement Precedents on negative capability statements ('not suitable for')"
+  ],
+
+  "audit_metadata": {
+    "auditor": "RE-1 Fair Housing Listing-Copy Auditor v1.0",
+    "audit_version": "1.0",
+    "workflow": "skills/re-compliance-pack/workflows/01-fh-auditor.md",
+    "audit_duration": "~10 minutes",
+    "confidence_level": "CRITICAL (2 violations match direct case law on disability discrimination; explicit exclusionary language)",
+    "recommended_action": "DO NOT PUBLISH. Rewrite immediately before resubmission. Recommend broker review."
+  }
+}

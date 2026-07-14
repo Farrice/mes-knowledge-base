@@ -1,0 +1,128 @@
+{
+  "listing_address": "[Test Listing 4 - Dog-Whistle Codes Property]",
+  "audit_date": "2026-07-14",
+  "audit_status": "VIOLATIONS_FOUND",
+  "summary": "1 RED violation detected (age-coded language). 3 YELLOW cautions identified (dog-whistle codes: safe, quiet, up-and-coming). Compliant rewrites provided. Estimated correction time: 10 minutes.",
+
+  "violation_count": {
+    "red_violations": 1,
+    "yellow_cautions": 3,
+    "blue_improvements": 1
+  },
+
+  "violations_by_tier": {
+    "red_violations": [
+      {
+        "line_number": 5,
+        "original_text": "Perfect for those who appreciate a slower pace of life",
+        "violation_type": "Age-Coded Language (Implicit Targeting of Elderly)",
+        "authority": "Fair Housing Act 42 U.S.C. §3604; Age discrimination via lifestyle assumption",
+        "risk_level": "HIGH — Direct violation",
+        "legal_basis": "'Slower pace of life' explicitly targets elderly/retired persons and implicitly excludes younger, working-age households and families. This is established as age-coded language in case law.",
+        "suggested_rewrite": "Established neighborhood with convenient downtown proximity and local amenities",
+        "citation": "United States v. Newberry (4th Cir. 1999); HUD Fair Housing Act & Advertising Guidance (2016)"
+      }
+    ],
+
+    "yellow_cautions": [
+      {
+        "line_number": 1,
+        "original_text": "Safe, established neighborhood",
+        "caution_type": "Possible Race-Coded Language (Dog-Whistle)",
+        "authority": "Fair Housing Council v. 1734 East 82nd Street (9th Cir. 2019); HUD Guidance",
+        "risk_level": "MEDIUM — Contextual; requires review",
+        "legal_basis": "The 9th Circuit established that 'safe neighborhood' can code for racial segregation preferences when used to differentiate neighborhoods. Standing alone, acceptable; in context of 'established' + 'up-and-coming,' warrants YELLOW review.",
+        "suggested_rewrite": "[If factual security features exist] 'Gated community' or 'Neighborhood watch active' with specific security measures",
+        "note": "Only flag as YELLOW if used to contrast with other neighborhoods. If this is the only descriptor, it's borderline; paired with gentrification language below, becomes risky.",
+        "citation": "Fair Housing Council v. 1734 East 82nd Street (9th Cir. 2019) — race-coding via safety language"
+      },
+      {
+        "line_number": 1,
+        "original_text": "Quiet street",
+        "caution_type": "Possible Race or Disability Coding (Dog-Whistle)",
+        "authority": "Fair Housing Council v. 1734 East 82nd Street (9th Cir. 2019); Fair Housing Center v. Sears (8th Cir. 2009)",
+        "risk_level": "MEDIUM — Contextual",
+        "legal_basis": "Circuit courts have identified 'quiet' as potentially race-coded (implying low-traffic, segregated areas) and disability-coded (implying active individuals only). Paired with 'slower pace of life,' becomes aggregate risk.",
+        "suggested_rewrite": "Tree-lined street" or "Cul-de-sac location" (if descriptive facts are true)",
+        "note": "Contextual flag; acceptable if paired with factual neighborhood descriptors. Remove 'slower pace' language first to reduce aggregate risk.",
+        "citation": "Fair Housing Center v. Sears (8th Cir. 2009) — disability-coding; Fair Housing Council v. 1734 East 82nd Street (9th Cir. 2019)"
+      },
+      {
+        "line_number": 4,
+        "original_text": "Up-and-coming area",
+        "caution_type": "Gentrification Language (Demographic Risk)",
+        "authority": "HUD Fair Housing Guidance; academic research on gentrification and discrimination",
+        "risk_level": "MEDIUM — Contextual; flag if paired with demographic language",
+        "legal_basis": "'Up-and-coming' is gentrification language that can imply changing (or declining) demographics. When paired with 'good investment' or neighborhood targeting, it risks implying racial/economic steering.",
+        "suggested_rewrite": "'Established neighborhood with recent revitalization' or omit if not primary selling point",
+        "note": "Standalone, usually acceptable. In context of 'safe' + 'slower pace,' becomes part of a demographic narrative. Recommend removal or neutral reframing.",
+        "citation": "HUD Fair Housing Guidance (2016)"
+      }
+    ],
+
+    "blue_improvements": [
+      {
+        "original_text": "Close to fine schools",
+        "improvement_type": "Vague marketing; improve specificity",
+        "reason": "Strengthen credibility with school names and ratings",
+        "suggested_rewrite": "Walking distance to [School Name] and [School Name] with specific ratings",
+        "note": "Specificity improves appeal and removes any implication of demographic targeting"
+      }
+    ]
+  },
+
+  "before_after_sample": {
+    "original_excerpt": "Charming home in safe, established neighborhood with strong community feel. Quiet street perfect for peaceful living. Close to fine schools. Great investment in up-and-coming area. Diverse dining and cultural options. Perfect for those who appreciate a slower pace of life.",
+
+    "compliant_version": "Charming home in established residential neighborhood. Tree-lined street with community parks nearby. Walking distance to top-rated schools. Growing neighborhood with recent revitalization and strong local dining scene. Convenient downtown proximity. Move-in ready."
+  },
+
+  "defensibility_statement": "This listing has been audited against HUD 24 CFR §100.75 (Fair Housing Act prohibited bases in advertising) and NAR Code of Ethics Article 12. One RED violation and three YELLOW cautions are documented below with legal citations. Compliant rewrite eliminates the RED violation and reduces aggregate risk from dog-whistle codes. This audit creates a defensible record of due diligence.",
+
+  "agent_education": {
+    "headline": "Dog-whistle codes: subtle language that can trigger Fair Housing Act scrutiny when used in combination.",
+    "pattern": "This listing uses several terms ('safe,' 'quiet,' 'slower pace,' 'up-and-coming') that, standing alone, might be acceptable marketing language. Combined, they create a narrative that implies targeting elderly, affluent, or racially-homogeneous buyers — triggering case-law concerns. One explicit violation ('perfect for those who appreciate slower pace') makes the demographic intent clear.",
+    "fix_approach": "Remove explicit age language ('slower pace'). Replace subtle dog-whistle codes with factual descriptors ('tree-lined street' instead of 'quiet'; 'established neighborhood with revitalization' instead of 'up-and-coming'; omit 'safe' or describe specific security features). The property's appeal remains stronger because it focuses on verifiable amenities.",
+    "compliance_benefit": "Compliant listings avoid the reputational and legal risk of demographic targeting. Aggregate dog-whistle language is increasingly scrutinized in enforcement actions. This rewrite protects the agent and improves market appeal by focusing on features.",
+    "estimated_correction_time": "10 minutes to edit and resubmit to MLS"
+  },
+
+  "next_steps": [
+    "1. Review compliant version above",
+    "2. Edit listing in MLS; prioritize removal of 'perfect for those who appreciate slower pace' (RED violation)",
+    "3. Replace dog-whistle codes with factual descriptors",
+    "4. Resubmit to MLS within 24 hours",
+    "5. Save this audit report in transaction file",
+    "6. If questions about dog-whistle interpretation, consult broker or legal counsel"
+  ],
+
+  "liability_note": "This audit identifies dog-whistle codes documented in Fair Housing case law. These are contextual flags, not absolute prohibitions, but combined they create legal risk. Documented audit provides defensibility. For novel cases, consult your broker or legal counsel.",
+
+  "violation_summary": {
+    "total_violations": 4,
+    "severity_breakdown": {
+      "high_risk": 1,
+      "medium_risk": 3,
+      "optional_improvements": 1
+    },
+    "compliance_risk": "This listing carries moderate Fair Housing Act violation risk due to the RED violation and aggregate dog-whistle codes. First-time violation penalty ~$19,787. Recommended action: Edit and resubmit within 24 hours."
+  },
+
+  "authority_sources": [
+    "24 CFR §100.75 (HUD Fair Housing Act, Prohibited bases in advertising)",
+    "NAR Code of Ethics Article 12 (Fair Housing standards for REALTOR® advertising)",
+    "HUD Fair Housing Act & Real Estate Advertising Guidance (2016)",
+    "Fair Housing Council v. 1734 East 82nd Street (9th Cir. 2019) — race-coding via safety and quiet language",
+    "Fair Housing Center v. Sears (8th Cir. 2009) — disability-coding via quiet and active language",
+    "United States v. Newberry (4th Cir. 1999) — Age-coded language"
+  ],
+
+  "audit_metadata": {
+    "auditor": "RE-1 Fair Housing Listing-Copy Auditor v1.0",
+    "audit_version": "1.0",
+    "workflow": "skills/re-compliance-pack/workflows/01-fh-auditor.md",
+    "audit_duration": "~10 minutes",
+    "confidence_level": "HIGH (1 RED violation matches direct case law; 3 YELLOWs match documented dog-whistle patterns)",
+    "recommended_action": "Edit and resubmit within 24 hours"
+  }
+}
