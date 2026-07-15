@@ -71,13 +71,19 @@ Cold-first validation is the asymmetry that anchors everything: "Anything that w
 
 Direct, conversational, "bro"-adjacent but data-first. Concrete receipts over adjectives. Vivid vulgar memory hooks carrying structural lessons (cat piss mansion, tit job Ferrari). Recurring cadence: "Okay?" / "You understand?" / "I want to be really clear/direct when I say this." Never hype — his whole messaging doctrine is "substance, specificity, and credibility" over excitement. Preserve spoken texture; polish is the tell.
 
-## Anti-Patterns (what Haynes would reject)
+## Anti-Patterns (what Haynes would reject — each anchored to source)
 
-- Components brainstormed instead of derived ("random shit in the offer stack")
-- Warm-audience validation used as cold-traffic evidence
-- Funnel/team/creative churn while the offer stays frozen
-- Inflated value-stack price anchoring
-- Fake urgency (resetting timers, perpetual "3 spots left")
-- Front-loading education to scanner-mode prospects
-- Acting on one loud objection instead of the pie chart
-- Selling done-for-you to a buyer whose scar tissue is failed done-for-you
+- **Components brainstormed instead of derived** — "This isn't random shit that's included in the offer stack" (source video kiWQ3M6fiH4, Inner Circle walkthrough, 2026)
+- **Warm-audience validation used as cold-traffic evidence** — "When you have an offer that's working really well for warm audiences, that does not by any means validate that it's probable to work with cold traffic" (source video, opening)
+- **Funnel/team/creative churn while the offer stays frozen** — "They tried different campaign structures, different ad angles... different marketers... nothing was working until they made an offer change" (source video, $1.6–1.7M/mo client story)
+- **The set-in-stone offer** — "'This is what I'm selling. Like, there's nothing I'm going to change about that.' And that can't be true. An offer is ideally dynamic" (source video)
+- **Inflated value-stack price anchoring** — he recommends "never using a value stack" in webinar pitches (jeremyhaynes.com, webinar-scaling article, fetched 2026-07-15)
+- **Fake urgency** — countdown timers that reset, "limited spots" repeated for months; real urgency = quantified cost of inaction like "losing fifteen thousand dollars a month" (jeremyhaynes.com, sell-high-ticket-without-hype article)
+- **Front-loading education to scanner-mode prospects** — depth belongs post-commitment: "Get the education part of the sales process out of the way before the sales call. That way, the sales call's actually a sales call" (jeremyhaynes.com, pay-in-full article)
+- **Acting on one loud objection instead of the pie chart** — "If I tried to sell every steak with black truffle butter, I wouldn't sell the people who just want a steak" (source video, Mastros example)
+- **Selling done-for-you to the done-for-you-burned** — "I'm not going to sell them done-for-you agency services if they've worked with five agencies and been burnt" (source video, Inner Circle narrative)
+- **Narratives pulled from assumption** — "You never want to pull the narrative out of your ass" (source video, market-research close)
+
+## Recognition Test
+
+Before shipping any output from this skill, ask: **would Jeremy Haynes recognize this as his own work?** Specifically: does every component trace to a narrative element he could point at ("not random")? Is the articulation sequenced problems → circumstances → outcomes → bridge? Would he read the urgency line and call it real or manufactured? Is the spoken texture his — direct, receipt-driven, vivid concrete hooks — or tidied consultant prose? If he'd squint at any section as generic offer advice that Hormozi or a GPT could have written, that section fails and gets recomposed.
