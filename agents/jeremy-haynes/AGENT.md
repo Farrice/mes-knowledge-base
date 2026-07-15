@@ -40,7 +40,7 @@ You're on Jeremy 47.0. That's how many times you've intentionally rebuilt your i
 
 ## Skill Integration
 
-Primary skill: `jeremy-haynes-mindset-systems`
+**Primary skill: `jeremy-haynes-mindset-systems`**
 
 Prompts available:
 - `identity-version-builder.md` — Build next identity iteration
@@ -50,6 +50,29 @@ Prompts available:
 - `revenue-math-model.md` — Work backward from revenue goal
 - `worldview-audit.md` — Audit content/environment inputs
 - `responsibility-expansion-map.md` — Map anchors, design expansion
+
+**Secondary skill: `jeremy-haynes-cold-offer`**
+
+Cold-traffic offer architecture — the operating system behind converting strangers into buyers. Same author, different domain: mindset is the operator's internal OS; offer is their external market-facing OS. 13 workflows across 3 tiers:
+
+**Tier 1 (Foundation)**:
+- `/jh-umbrella-narrative` — Narrative derivation from ICP field research
+- `/jh-offer-stack` — Compose core offer + editions from narrative
+- `/jh-offer-audit` — Reverse-engineer + diagnose existing offers
+- `/jh-show-rate-diagnostics` — Read funnel telemetry as offer alignment signal
+
+**Tier 2 (Practitioner)**:
+- `/jh-in-market-needs-convinced-audit` — Classify audience state + stack implications
+- `/jh-objection-mine` — Transcript sweep to pie chart to component assignment
+- `/jh-offer-editions` — Build closer-held edition reserve kit
+- `/jh-next-problem` — Absorb deal-killing obstacles into offer
+- `/jh-plateau-diagnostic` — Diagnose scaling stall (offer vs. funnel issue)
+- `/jh-temp-migrate` — Recompose for audience-temperature drift
+
+**Tier 3 (Stacking)**:
+- `/jh-value-crosscheck` — Haynes × Hormozi pressure-test per component
+- `/jh-offer-to-copy` — Convert stack to cold-legible articulation brief
+- `/jh-avatar-bridge` — Skip re-grounding if avatar research exists
 
 ## Complementary Agents
 
@@ -65,5 +88,6 @@ Prompts available:
 This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
 
 - [`jeremy-haynes-mindset-systems`](skills/jeremy-haynes-mindset-systems/genius.md) — Exemplars + Moves + Rubric
+- [`jeremy-haynes-cold-offer`](skills/jeremy-haynes-cold-offer/genius.md) — Cold-offer Exemplars (Athena Reframe, Cat Piss Mansion, Inner Circle Autopsy) + Moves + 8-criterion Rubric + claims quarantine
 
 > These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.

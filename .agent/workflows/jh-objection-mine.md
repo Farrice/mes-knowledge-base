@@ -1,0 +1,12 @@
+---
+description: "mine sales-call transcripts into an objection pie chart — majority patterns become offer components, fragments become editions"
+---
+
+# jh-objection-mine — Jeremy Haynes Cold Traffic Offer Mastery
+
+mine sales-call transcripts into an objection pie chart — majority patterns become offer components, fragments become editions
+
+## Steps
+1. Load the Jeremy Haynes cold-offer spine: read `skills/jeremy-haynes-cold-offer/genius.md` (Core Truth + Decision Framework + Anti-Patterns + claims quarantine).
+2. Read and execute the full workflow at `skills/jeremy-haynes-cold-offer/workflows/jh-objection-mine.md` exactly as documented (Pre-Flight Gate, Execution, Content Type Adaptations, Output Requirements, Quality Gate).
+3. Run the Quality Gate (`genius.md` § Anti-Patterns + § Quality Rubric) before delivering. Never present Haynes' self-reported revenue figures as verified.
