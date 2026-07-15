@@ -1,0 +1,18 @@
+{
+  "_comment": "TEMPLATE. The real .mcp.json is gitignored (it holds the literal APIFY_TOKEN). Do NOT copy this by hand — run `bash execution/apify_setup.sh`, which generates .mcp.json from .env and keeps the actor list in sync with execution/apify_client.py (the single source of truth). This file exists only so the expected shape is committed and reviewable.",
+  "mcpServers": {
+    "apify": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@apify/actors-mcp-server",
+        "--tools",
+        "trudax/reddit-scraper-lite,apify/instagram-scraper,clockworks/free-tiktok-scraper,apidojo/youtube-scraper,junglee/amazon-scraper,compass/crawler-google-places,apify/rag-web-browser,harvestapi/linkedin-post-search,harvestapi/linkedin-profile-scraper,apidojo/tweet-scraper,curious_coder/threads-scraper,apify/facebook-posts-scraper"
+      ],
+      "env": {
+        "APIFY_TOKEN": "apify_api_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+      }
+    }
+  }
+}
