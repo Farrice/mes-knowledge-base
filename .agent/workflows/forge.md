@@ -42,18 +42,23 @@ exemplar / skill) and WANTS-axis (prompt / workflow / skill / agent / plugin) �
   ground (prompt_library search + skill match + Recall; no corpus → receipts-backed grounding
   sprint or `fidelity: low`) → forge 8 sections per `directives/prompt-forging-spec.md` → audit →
   fixtures → place in owning skill's prompts-v2 → wiring trio.
-- **Workflow Forge (Wave 2)** — interim: `/create-skill` Step 1 → Workflow Command branch, with
-  the forge spine (F1 grounding + F5 cold-start proof + F7 fixtures) as the contract.
+- **Workflow Forge (LIVE)** — run `references/prompts-v2/workflow-forge.md`: lane confirmation
+  (orchestration, not new expertise) → house-style exemplar reads → process contract from real
+  loop evidence → `.agent/workflows/<name>.md` with gates inline + fixtures → registration.
 - **Skill Forge (Stage 1 LIVE)** — bare concept → run `references/prompts-v2/grounding-sprint.md`:
   negative check (owning skill exists? route to it) → multi-modal source hunt → receipts-backed
   corpus at `extractions/grounding/` → readiness verdict (FORGE-READY / THIN / NO-BUILD /
   ROUTE-EXISTING) → existing `/extract-forge` pipeline runs on the corpus. New stage, existing
   machinery.
-- **Agent Forge (Wave 2)** — skill exists → `/create-agent`; no skill → Skill Forge first, then
-  promote. From-scratch personas without corpus are prohibited (provenance guard).
-- **Plugin Forge (DEFERRED)** — packaging stays deferred per standing decision. Lift requires
-  Farrice's explicit approval + cold-start proof pass. Until then: report the boundary, build
-  nothing.
+- **Agent Forge (LIVE)** — run `references/prompts-v2/agent-forge.md`: corpus check → owning
+  skill exists → promote per `/create-agent` mechanics (persona from corpus verbatim, off-scope
+  refusal block, agents/ never .claude/agents/); no corpus → SKILL-FIRST stop, never a costume
+  persona.
+- **Plugin Forge (ENGINE READY — packaging HARD-GATED)** — engine:
+  `references/prompts-v2/plugin-forge.md`. Requires a VERBATIM operator lift token (scope named)
+  + all four lift-plan fixtures passing in a single run (`references/plugin-forge-lift-plan.md`).
+  Without both: the engine outputs the fixture checklist and builds nothing. Marketplace needs
+  its own explicit token beyond local-only.
 
 ## Gates (every lane)
 

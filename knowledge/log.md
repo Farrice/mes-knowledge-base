@@ -471,3 +471,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-15 06:39]` **finalize** | Retry after weakest-section check: 2026-07-15 Health Performance GEO daily brief fully follows autom | general | health-performance-geo — composite:6.67 status:Needs Improvement
 - `[2026-07-15 08:13]` **finalize** | Forge OS Wave 2 + live run + lift check: grounding-sprint and dialect-probe engines shipped with pas | general | forge-os — composite:8.67 status:Keep
 - `[2026-07-15 08:42]` **finalize** | Jeremy Haynes Cold Traffic Offer Mastery extraction — 8-step methodology, 13 workflows, 10 execution | general | jeremy-haynes — composite:8.0 status:Keep
+- `[2026-07-15 08:51]` **finalize** | Jeremy Haynes — Cold Traffic Offer Mastery extraction (forge): skills/jeremy-haynes-cold-offer, 13 w | general | jeremy-haynes — composite:8.33 status:Keep

@@ -5750,6 +5750,23 @@
             "ensemble": true,
             "compound_pairing": "luke-iha-cross-domain + seena-rez-tiktok-commerce + andrew-stanton-audience-engineering",
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_155107_58d6",
+            "timestamp": "2026-07-15T15:51:07.191366+00:00",
+            "session_id": "",
+            "request_summary": "Jeremy Haynes — Cold Traffic Offer Mastery extraction (forge): skills/jeremy-haynes-cold-offer, 13 workflows, 10 born-v2 prompts, agent expansion",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "jeremy-haynes"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -6116,7 +6133,7 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 319,
+            "total_routings": 320,
             "total_feedback": 40,
             "positive_count": 0,
             "negative_count": 0,
@@ -6129,7 +6146,7 @@
                 "Creative": 8,
                 "Legal Consult Prep": 1,
                 "Content": 38,
-                "Extraction": 9,
+                "Extraction": 10,
                 "Research": 7,
                 "stefan-georgi-dopamine-copy": 7,
                 "supercomputer": 18,
@@ -6333,12 +6350,12 @@
                 "market-intelligence": 1,
                 "forge-os": 3,
                 "health-performance-geo": 2,
-                "jeremy-haynes": 1,
+                "jeremy-haynes": 2,
                 "luke-iha-cross-domain": 1,
                 "seena-rez-tiktok-commerce": 1
             },
             "tier_counts": {
-                "0": 319,
+                "0": 320,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -6347,7 +6364,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 173,
-                "finalize-auto": 146
+                "finalize-auto": 147
             },
             "ensemble_count": 229,
             "auto_miss_count": 31,

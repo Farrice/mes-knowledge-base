@@ -1,29 +1,29 @@
 # Knowledge Briefing
-*Generated: 2026-07-15 | 596 sources | 2,512,546 words*
+*Generated: 2026-07-15 | 600 sources | 2,525,131 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 4,218 words — `knowledge/index.md`
-- **log** (general) — 11,594 words — `knowledge/log.md`
+- **index** (content) — 4,233 words — `knowledge/index.md`
+- **log** (general) — 11,618 words — `knowledge/log.md`
 - **sober-daytime-event-marketing-corpus** (strategy) — 1,555 words — `extractions/grounding/sober-daytime-event-marketing-corpus.md`
 - **enrichment-cold-offer-corpus** (copywriting) — 1,297 words — `extractions/jeremy-haynes/enrichment-cold-offer-corpus.md`
 - **extraction-report-cold-offer** (content) — 3,888 words — `extractions/jeremy-haynes/extraction-report-cold-offer.md`
 - **visual-context** (content) — 15,631 words — `extractions/jeremy-haynes/visual-context.md`
-- **2026-07-14-claude-skills-business-deep-research** (strategy) — 2,723 words — `research_outputs/2026-07-14-claude-skills-business-deep-research.md`
-- **VISION** (systems) — 648 words — `extractions/joey-cinema/VISION.md`
-- **notion-cinema-claude-skills-v3** (seo) — 2,211 words — `extractions/joey-cinema/notion-cinema-claude-skills-v3.md`
-- **skill-files-analysis** (screenwriting) — 8,609 words — `extractions/joey-cinema/skill-files-analysis.md`
+- **blind-pass-generated-offer-stack** (content [nicolas-cole]) — 952 words — `extractions/jeremy-haynes-cold-offer/blind-pass-generated-offer-stack.md`
+- **blind-pass-log** (general) — 75 words — `extractions/jeremy-haynes-cold-offer/blind-pass-log.md`
+- **warm-audience-flywheel** (content) — 4,149 words — `extractions/jeremy-haynes-cold-offer/reference-corpus/warm-audience-flywheel.md`
+- **webinars-scale-high-ticket** (strategy [jason-fladlien]) — 7,370 words — `extractions/jeremy-haynes-cold-offer/reference-corpus/webinars-scale-high-ticket.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 196 | nicolas-cole |
+| content | 198 | nicolas-cole |
 | copywriting | 95 | luke-iha |
-| general | 82 | nick-saraev |
-| strategy | 55 | april-dunford |
+| general | 83 | nick-saraev |
+| strategy | 56 | april-dunford |
 | screenwriting | 47 | connelly |
 | brand | 37 | oren-john |
 | systems | 32 | nick-saraev |

@@ -17,10 +17,10 @@ description: The Forge — cornerstone generation suite. Raw intent → producti
 | Lane | Input | Output | Engine | Status |
 |------|-------|--------|--------|--------|
 | **Prompt Forge** | raw concept | one born-v2 structure-pure prompt + fixture | `references/prompts-v2/prompt-forge.md` | **LIVE (Wave 1)** |
-| **Workflow Forge** | raw concept / repeated manual loop | `.agent/workflows/<name>.md` command with gates + verification | spec below; interim route: `/create-skill` Step 1 → Workflow Command branch | Wave 2 |
+| **Workflow Forge** | raw concept / repeated manual loop | `.agent/workflows/<name>.md` command with gates + verification | `references/prompts-v2/workflow-forge.md` | **LIVE (Wave 2)** |
 | **Skill Forge** | raw concept (no source required) | full skill (SKILL.md + genius + workflows + v2 prompts) | Stage 1: `references/prompts-v2/grounding-sprint.md` (receipts-backed corpus) → existing `/extract-forge` pipeline | **Stage 1 LIVE (Wave 2)** |
-| **Agent Forge** | raw concept or existing skill | `agents/<name>/` AGENT.md + memory + card | interim route: `/create-agent` (skill-promotion path); from-scratch path adds Skill Forge first | Wave 2 |
-| **Plugin Forge** | skill / prompt-set / workflow family | installable plugin (plugin-dev toolchain) | **DEFERRED** — standing decision; lifts only on explicit Farrice approval + cold-start proof | Wave 3 |
+| **Agent Forge** | raw concept or existing skill | `agents/<name>/` AGENT.md + memory + card | `references/prompts-v2/agent-forge.md` (promotion mechanics per `/create-agent`; no-corpus → SKILL-FIRST stop) | **LIVE (Wave 2)** |
+| **Plugin Forge** | skill / prompt-set / workflow family | installable plugin (plugin-dev toolchain) | `references/prompts-v2/plugin-forge.md` — **HARD-GATED**: builds nothing without a verbatim operator lift token + 4/4 lift-plan fixtures in one run | **ENGINE READY · packaging gated (Wave 3)** |
 
 **Routing honesty (never rebuild):** if the intent arrives WITH an artifact, the Forge front door
 routes to the existing crown jewels — source material → `/extract-forge` or `/source-to-skill-system`;
@@ -104,11 +104,14 @@ After changing this skill or its prompts: `python3 execution/renaissance_audit.p
 
 ## Execution Prompts (structure-pure v2)
 
-4 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+7 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
+- **Agent Forge — Concept or Skill → `agents/<name>/` Deployable Agent** — `skills/forge-os/references/prompts-v2/agent-forge.md`
 - **Dialect Probe — New Model → One Dialect Card** — `skills/forge-os/references/prompts-v2/dialect-probe.md`
 - **Grounding Sprint — Skill Forge Stage 1** — `skills/forge-os/references/prompts-v2/grounding-sprint.md`
 - **Forge Front Door — Translation Card + Lane Decision** — `skills/forge-os/references/prompts-v2/intent-translation-card.md`
+- **Plugin Forge — Proven Asset Family → Installable Plugin** — `skills/forge-os/references/prompts-v2/plugin-forge.md`
 - **Prompt Forge — Bare Concept → Structure-Pure v2 Prompt** — `skills/forge-os/references/prompts-v2/prompt-forge.md`
+- **Workflow Forge — Bare Concept / Manual Loop → `.agent/workflows/<name>.md`** — `skills/forge-os/references/prompts-v2/workflow-forge.md`
 
 <!-- END:execution-prompts -->

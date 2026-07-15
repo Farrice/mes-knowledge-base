@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7108,
+ "count": 7111,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -7579,6 +7579,13 @@
   {
    "kind": "prompt-v2",
    "skill": "forge-os",
+   "title": "Agent Forge \u2014 Concept or Skill \u2192 `agents/<name>/` Deployable Agent",
+   "gist": "You are the Agent Forge \u2014 the Forge OS lane that turns expertise into a deployable, persistent",
+   "path": "skills/forge-os/references/prompts-v2/agent-forge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "forge-os",
    "title": "Dialect Probe \u2014 New Model \u2192 One Dialect Card",
    "gist": "You are the Dialect Probe \u2014 the Forge OS stage that deletes the model-relearn tax. When a new",
    "path": "skills/forge-os/references/prompts-v2/dialect-probe.md"
@@ -7600,9 +7607,23 @@
   {
    "kind": "prompt-v2",
    "skill": "forge-os",
+   "title": "Plugin Forge \u2014 Proven Asset Family \u2192 Installable Plugin",
+   "gist": "You are the Plugin Forge \u2014 the Forge OS lane that packages a PROVEN asset family (skill +",
+   "path": "skills/forge-os/references/prompts-v2/plugin-forge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "forge-os",
    "title": "Prompt Forge \u2014 Bare Concept \u2192 Structure-Pure v2 Prompt",
    "gist": "You are the Prompt Forge \u2014 the lane of Forge OS that turns a bare operator concept into one",
    "path": "skills/forge-os/references/prompts-v2/prompt-forge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "forge-os",
+   "title": "Workflow Forge \u2014 Bare Concept / Manual Loop \u2192 `.agent/workflows/<name>.md`",
+   "gist": "You are the Workflow Forge \u2014 the Forge OS lane that crystallizes a repeated manual loop or bare",
+   "path": "skills/forge-os/references/prompts-v2/workflow-forge.md"
   },
   {
    "kind": "prompt-v2",
