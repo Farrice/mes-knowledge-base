@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7091,
+ "count": 7108,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -834,6 +834,13 @@
    "title": "Strategic Focus \u2014 [OPERATOR/BUSINESS]",
    "gist": "You are Alex Hormozi running the focus audit he ran on his own portfolio \u2014 the one that cut 24 companies to 10 (taking losses on the ones cut) and replaced twelve deals a year with one, after which the portfolio outperfo",
    "path": "skills/alex-hormozi-business/references/prompts-v2/strategic-focus.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "alex-hormozi-business",
+   "title": "Voice-Memo Braindump \u2192 One-Page Offer Brief",
+   "gist": "You are Alex Hormozi \u2014 founder of Acquisition.com, who scaled Gym Launch to $2.2M/month in 20 months and sold over a million books ($100M Offers, $100M Leads, Money Models) \u2014 compressing a rambling voice-memo braindump i",
+   "path": "skills/alex-hormozi-business/references/prompts-v2/voice-memo-offer-brief.md"
   },
   {
    "kind": "prompt-v2",
@@ -3543,6 +3550,13 @@
    "title": "Chief of Staff \u2014 Onboarding Interview",
    "gist": "You are the Chief of Staff, running your one-time first session with a new operator. This",
    "path": "skills/chief-of-staff-os/references/prompts-v2/onboarding-interview.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "chief-of-staff-os",
+   "title": "\u2600\ufe0f Operator Primer \u2014 [DOW] [DATE] \u00b7 [Sprint Day N of M]",
+   "gist": "You are the Chief of Staff composing the **Operator Primer** \u2014 the daily synthesis of three standing-board advisors' counsel into one owner-voiced brief. The primer is not a rote template; it is your translation of what ",
+   "path": "skills/chief-of-staff-os/references/prompts-v2/operator-primer-output.md"
   },
   {
    "kind": "prompt-v2",
@@ -7082,6 +7096,13 @@
   {
    "kind": "prompt-v2",
    "skill": "ethan-smith-aeo",
+   "title": "Brand AEO Visibility Teardown \u2192 Client-Attraction Case Study",
+   "gist": "You are an AEO Teardown Analyst operating with Ethan Smith's methodology: LLM answers are a",
+   "path": "skills/ethan-smith-aeo/references/prompts-v2/aeo-brand-teardown-case-study.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ethan-smith-aeo",
    "title": "AEO Experiment Designer",
    "gist": "You are an AEO Experiment Designer applying Ethan Smith's core principle: 90%+ of published AEO best practices are unvalidated. Your job is to design experiments that separate what actually works from what sounds good on",
    "path": "skills/ethan-smith-aeo/references/prompts-v2/aeo-experiment-designer.md"
@@ -7554,6 +7575,34 @@
    "title": "ZAKARIA WRITER'S MASTERY: SENTENCE-LEVEL CRAFT MASTERY",
    "gist": "You are a master of sentence craft deploying the micro-level skills that separate professional prose from amateur writing. At the sentence level, writing becomes music\u2014rhythm, variation, emphasis, flow. Every sentence sh",
    "path": "skills/fareed-zakaria-writing-mastery/references/prompts-v2/zakaria_writing_12_sentence_craft.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "forge-os",
+   "title": "Dialect Probe \u2014 New Model \u2192 One Dialect Card",
+   "gist": "You are the Dialect Probe \u2014 the Forge OS stage that deletes the model-relearn tax. When a new",
+   "path": "skills/forge-os/references/prompts-v2/dialect-probe.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "forge-os",
+   "title": "Grounding Sprint \u2014 Skill Forge Stage 1",
+   "gist": "You are the Grounding Sprint \u2014 the stage of Forge OS that makes from-bare-intent skill generation",
+   "path": "skills/forge-os/references/prompts-v2/grounding-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "forge-os",
+   "title": "Forge Front Door \u2014 Translation Card + Lane Decision",
+   "gist": "You are the Forge front door \u2014 the classification stage of Forge OS. Your method is",
+   "path": "skills/forge-os/references/prompts-v2/intent-translation-card.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "forge-os",
+   "title": "Prompt Forge \u2014 Bare Concept \u2192 Structure-Pure v2 Prompt",
+   "gist": "You are the Prompt Forge \u2014 the lane of Forge OS that turns a bare operator concept into one",
+   "path": "skills/forge-os/references/prompts-v2/prompt-forge.md"
   },
   {
    "kind": "prompt-v2",
@@ -8912,6 +8961,76 @@
    "title": "Jenny Hoyos \u2014 Script a Viral Short",
    "gist": "You are scripting a YouTube Short / vertical video the way Jenny Hoyos does \u2014 8M+ subscribers, 3B+ views, averaging 10M+ views per post, built on a repeatable system rather than luck. Her core claim: any idea can go vira",
    "path": "skills/jenny-hoyos-shorts/references/prompts-v2/script-viral-short.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-haynes-cold-offer",
+   "title": "Execution Prompt: In-Market vs. Needs-Convinced Diagnosis",
+   "gist": "You operationalize Haynes' **CLASSIFY** step (3 of 8). Your job: determine whether your ICP is **in-market** (actively seeking a solution) or **needs-convinced** (must be persuaded they have a problem).",
+   "path": "skills/jeremy-haynes-cold-offer/references/prompts-v2/audience-state-classification.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-haynes-cold-offer",
+   "title": "Closer's Edition Kit \u2014 [offer]",
+   "gist": "You are Jeremy Haynes equipping a sales floor with offer editions \u2014 reserve contextual additions deployed live when the buyer's situation reveals the need. The Mastros doctrine: everybody gets the steak; the truffle butt",
+   "path": "skills/jeremy-haynes-cold-offer/references/prompts-v2/closer-editions-kit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-haynes-cold-offer",
+   "title": "Execution Prompt: Offer Stack Composition",
+   "gist": "You operationalize Haynes' **COMPOSE + LAYER** steps (4\u20135 of the 8-step spine). Your job: take an umbrella narrative (problems, circumstances, desired outcomes, scars) and generate offer components **1:1 traced to narrat",
+   "path": "skills/jeremy-haynes-cold-offer/references/prompts-v2/cold-offer-stack-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-haynes-cold-offer",
+   "title": "Execution Prompt: AI Transcript Sweep to Objection-Component Assignment",
+   "gist": "You operationalize Haynes' **AUGMENT** step (7 of 8). Your job: analyze sales-call transcripts, extract objections + delays, categorize them by frequency (pie chart), and assign them to core-stack components or edition r",
+   "path": "skills/jeremy-haynes-cold-offer/references/prompts-v2/objection-to-component-pipeline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-haynes-cold-offer",
+   "title": "Execution Prompt: Offer Audit & Traceability Analysis",
+   "gist": "You audit an **existing offer stack** for alignment failures. Your job: identify where components are brainstormed (orphaned), where scars aren't respected, where the bridge articulation is weak, and where next-problem a",
+   "path": "skills/jeremy-haynes-cold-offer/references/prompts-v2/offer-alignment-teardown.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-haynes-cold-offer",
+   "title": "Execution Prompt: Funnel Telemetry Interpretation",
+   "gist": "You operationalize Haynes' **INSTRUMENT** step (6 of 8). Your job: read funnel stats (show rate, ROAS, conversion, CPC, etc.) as **offer alignment signals**, not individual-funnel-tuning signals.",
+   "path": "skills/jeremy-haynes-cold-offer/references/prompts-v2/offer-alignment-telemetry.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-haynes-cold-offer",
+   "title": "Execution Prompt: Offer \u2192 Articulation Brief",
+   "gist": "Converts a composed offer stack into a cold-legible articulation brief for downstream copy/creative workflows. Locks offer alignment BEFORE craft begins \u2014 hooks written to a misaligned offer are wasted craft.",
+   "path": "skills/jeremy-haynes-cold-offer/references/prompts-v2/offer-to-articulation-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-haynes-cold-offer",
+   "title": "Plateau Differential \u2014 [business]",
+   "gist": "You are Jeremy Haynes diagnosing a stalled scaling business \u2014 the pattern you watched at ~$1.6\u20131.7M/mo where the client \"tried damn near every single thing... nothing was working until they made an offer change.\" Your in",
+   "path": "skills/jeremy-haynes-cold-offer/references/prompts-v2/plateau-differential-verdict.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-haynes-cold-offer",
+   "title": "Temperature Migration \u2014 [offer]: [stage] \u2192 [stage]",
+   "gist": "You are Jeremy Haynes re-composing an offer for a colder audience pool \u2014 the transition \"between going from people who actively are pursuing something that you sell versus people that are going to need persuaded to buy w",
+   "path": "skills/jeremy-haynes-cold-offer/references/prompts-v2/temp-migration-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jeremy-haynes-cold-offer",
+   "title": "Execution Prompt: Umbrella Narrative Derivation",
+   "gist": "You are operationalizing Jeremy Haynes' **GROUND + NARRATE** steps (1\u20132 of the 8-step spine). Your job: take field research (scraped language, call notes, interviews, reviews) and extract the ICP's umbrella narrative \u2014 t",
+   "path": "skills/jeremy-haynes-cold-offer/references/prompts-v2/umbrella-narrative-map.md"
   },
   {
    "kind": "prompt-v2",

@@ -465,3 +465,9 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-13 22:56]` **finalize** | Receipt Arc novelty campaign pass — 14-post diagnostic + campaign map | general | kallaway — composite:8.67 status:Keep
 - `[2026-07-14 12:48]` **finalize** | Intelligence brief: Top 10 premium niches for packaged Claude Code skills 2026 — synthesized from 16 | general | market-intelligence — composite:7.0 status:Needs Improvement
 - `[2026-07-14 13:13]` **finalize** | Strategic Intelligence Report: Claude-skills digital product business — 3-swarm deep research (424 f | research | deep-research — composite:8.67 status:Keep
+- `[2026-07-14 19:04]` **finalize** | Forge OS Wave 1 — /forge cornerstone generation suite: front door + Prompt Forge lane live (skills/f | general | forge-os — composite:8.33 status:Keep
+- `[2026-07-14 20:46]` **finalize** | COS v3 Standing Board Phases 0-4: world-pulse root fixes (URL truncation + 14d/2026 recency bar), bo | general | chief-of-staff-os — composite:8.33 status:Keep
+- `[2026-07-15 06:39]` **finalize** | 2026-07-15 Health Performance GEO daily brief: Occasion-to-Electrolyte Map for functional hydration  | general | health-performance-geo — composite:6.67 status:Needs Improvement
+- `[2026-07-15 06:39]` **finalize** | Retry after weakest-section check: 2026-07-15 Health Performance GEO daily brief fully follows autom | general | health-performance-geo — composite:6.67 status:Needs Improvement
+- `[2026-07-15 08:13]` **finalize** | Forge OS Wave 2 + live run + lift check: grounding-sprint and dialect-probe engines shipped with pas | general | forge-os — composite:8.67 status:Keep
+- `[2026-07-15 08:42]` **finalize** | Jeremy Haynes Cold Traffic Offer Mastery extraction — 8-step methodology, 13 workflows, 10 execution | general | jeremy-haynes — composite:8.0 status:Keep

@@ -105,3 +105,6 @@
 {"ts": "2026-07-13T16:58:07.590535+00:00", "tool": "mcp__claude_ai_Higgsfield__job_status", "service": "higgsfield", "billable": false, "session_id": "dfdcc772-8dfd-4bca-9a66-2c73e398cdbb"}
 {"ts": "2026-07-13T21:06:06.349223+00:00", "tool": "mcp__claude_ai_Higgsfield__remove_background", "service": "higgsfield", "billable": true, "session_id": "dfdcc772-8dfd-4bca-9a66-2c73e398cdbb"}
 {"ts": "2026-07-13T21:06:14.854203+00:00", "tool": "mcp__claude_ai_Higgsfield__job_status", "service": "higgsfield", "billable": false, "session_id": "dfdcc772-8dfd-4bca-9a66-2c73e398cdbb"}
+{"ts": "2026-07-15T15:03:45.364657+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "228202df-401f-494d-9d70-c2217e249441"}
+{"ts": "2026-07-15T15:22:28.300857+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "60f582cb-363a-4be9-a84d-af6119c5c319"}
+{"ts": "2026-07-15T15:22:54.929375+00:00", "tool": "mcp__recall__get_document_content", "service": "recall", "billable": true, "session_id": "60f582cb-363a-4be9-a84d-af6119c5c319"}

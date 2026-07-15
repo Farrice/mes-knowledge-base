@@ -81,19 +81,26 @@ def load_env_vars() -> dict:
 # ---------------------------------------------------------------------------
 
 def tavily_search(query: str, max_results: int = 6,
-                  env: Optional[dict] = None) -> List[Dict]:
+                  env: Optional[dict] = None, days: Optional[int] = None,
+                  topic: Optional[str] = None) -> List[Dict]:
     """Run one Tavily search. Returns raw results [{content,url,title}]. Never
-    raises — on any failure returns [] so the floor degrades, never breaks."""
+    raises — on any failure returns [] so the floor degrades, never breaks.
+    `days` + `topic="news"` enable Tavily's recency filter (news index only)."""
     env = env or load_env_vars()
     tk = env.get("TAVILY_API_KEY")
     if not tk:
         return []
     try:
         import requests
+        payload = {"api_key": tk, "query": query, "max_results": max_results,
+                   "search_depth": "advanced"}
+        if topic:
+            payload["topic"] = topic
+        if days:
+            payload["days"] = days
         r = requests.post(
             "https://api.tavily.com/search",
-            json={"api_key": tk, "query": query, "max_results": max_results,
-                  "search_depth": "advanced"},
+            json=payload,
             timeout=40,
         )
         if not r.ok:

@@ -16,3 +16,8 @@
 - Python scripts in `execution/` call **Gemini** (not Anthropic) — their params are fine.
 - Claude Code harness handles model config. You do not call Anthropic API from scripts.
 - For current model IDs/pricing/params, consult the `claude-api` skill — never answer from memory.
+- **Model Dialect Cards** (`directives/model-dialects/<model>.md`, via `/forge dialect <model>`):
+  probe-evidenced quirks + DO/DON'T per model. Read the card before writing prompts, gates, or
+  sub-agent dispatches pinned to that model. First card: `claude-haiku-4-5.md` (2026-07-15 —
+  headline: inline instructions silently override standing rules; restate binding rules inside
+  the task block).

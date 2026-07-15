@@ -160,7 +160,10 @@ def gather_items(interests: list, goals: dict, max_items: int) -> tuple:
         query = f"{hints[0]} {month_year}"
         results = []
         seen = set()
-        for res in tavily_search(query, max_results=5, env=env):
+        # Recency bar (Farrice 2026-07-14): news index, last 14 days only —
+        # a "pulse" that surfaces 2025 content is noise, not signal.
+        for res in tavily_search(query, max_results=5, env=env,
+                                 days=14, topic="news"):
             url = (res.get("url") or "").strip()
             title = re.sub(r"\s+", " ", (res.get("title") or "").strip())
             content = re.sub(r"\s+", " ", (res.get("content") or "").strip())

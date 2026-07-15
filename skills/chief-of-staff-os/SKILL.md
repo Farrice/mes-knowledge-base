@@ -92,11 +92,12 @@ Every daily Operator Primer runs through `execution/cos_primer_gate.py check`:
 
 ## Execution Prompts (structure-pure v2)
 
-6 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate.
+6 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Chief of Staff — Anytime Dump & Detangle** — `skills/chief-of-staff-os/references/prompts-v2/anytime-dump-detangle.md`
-- **Chief of Staff — Operator Primer Output** — `skills/chief-of-staff-os/references/prompts-v2/operator-primer-output.md` (defines Operator Primer format)
+- **Chief of Staff — Daily Micro Briefing** — `skills/chief-of-staff-os/references/prompts-v2/daily-micro-briefing.md`
 - **Chief of Staff — Onboarding Interview** — `skills/chief-of-staff-os/references/prompts-v2/onboarding-interview.md`
+- **☀️ Operator Primer — [DOW] [DATE] · [Sprint Day N of M]** — `skills/chief-of-staff-os/references/prompts-v2/operator-primer-output.md`
 - **State of the Union — [DATE]** — `skills/chief-of-staff-os/references/prompts-v2/state-of-the-union.md`
 - **Chief of Staff — Weekly Board Session** — `skills/chief-of-staff-os/references/prompts-v2/weekly-board-session.md`
 

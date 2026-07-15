@@ -1,28 +1,28 @@
 # Latest Handoff
 
-**Thread:** scratchpad  
-**Full path:** .agent/handoffs/2026-07-14-scratchpad.md  
-**Date:** 2026-07-14 (today)  
+**Thread:** jeremy-haynes-cold-offer  
+**Full path:** .agent/handoffs/2026-07-15-jeremy-haynes-cold-offer.md  
+**Date:** 2026-07-15 (today)  
 **Status:** active  
-**Title:** Scratchpad — Deep Research Swarm Tiered.Workflow
+**Title:** Jeremy Haynes Cold Offer — Genius
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume scratchpad` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume jeremy-haynes-cold-offer` for this one.
 
 ---
-thread: scratchpad
+
+---
+thread: jeremy-haynes-cold-offer
 status: active
-resume_hint: Scratchpad — Deep Research Swarm Tiered.Workflow
+resume_hint: Jeremy Haynes Cold Offer — Genius
 branch: main
 pin: true
 ---
 
-# Scratchpad — Deep Research Swarm Tiered.Workflow
+# Jeremy Haynes Cold Offer — Genius
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
 
-**Artifacts:** /private/tmp/claude-501/-Users-farricecain-Google-Antigravity/e8017b17-1ecc-4b21-95d0-1c8ce5517a3c/scratchpad/deep-research-swarm-tiered.workflow.js
+**Artifacts:** /Users/farricecain/Google Antigravity/skills/jeremy-haynes-cold-offer/references/prompts-v2/offer-articulation-brief.md, /Users/farricecain/Google Antigravity/skills/jeremy-haynes-cold-offer/workflows/jh-avatar-bridge.md, /Users/farricecain/Google Antigravity/skills/jeremy-haynes-cold-offer/workflows/jh-offer-to-copy.md, /Users/farricecain/Google Antigravity/SKILL_INDEX.md, /Users/farricecain/Google Antigravity/skills/jeremy-haynes-cold-offer/genius.md
 
-**Retrieve:** `/resume scratchpad`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
+**Retrieve:** `/resume jeremy-haynes-cold-offer`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
 

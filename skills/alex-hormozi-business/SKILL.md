@@ -33,10 +33,11 @@ Alex Hormozi is the founder of Acquisition.com, scaled Gym Launch to $2.2M/month
 
 ## Execution Prompts (structure-pure v2)
 
-3 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+4 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Grand Slam Offer — [PRODUCT/SERVICE]** — `skills/alex-hormozi-business/references/prompts-v2/grand-slam-offer.md`
 - **Money Model — [BUSINESS NAME]** — `skills/alex-hormozi-business/references/prompts-v2/money-model.md`
 - **Strategic Focus — [OPERATOR/BUSINESS]** — `skills/alex-hormozi-business/references/prompts-v2/strategic-focus.md`
+- **Voice-Memo Braindump → One-Page Offer Brief** — `skills/alex-hormozi-business/references/prompts-v2/voice-memo-offer-brief.md`
 
 <!-- END:execution-prompts -->

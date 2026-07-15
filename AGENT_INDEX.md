@@ -95,7 +95,7 @@
 | `jason-fladlien` | **Jason Fladlien** | agent profile, brand strategy, copywriting, market research, marketing psychology, offer design, sales/closing, skill stacking |
 | `jay-hiette` | **jay-hiette** | belief-shifting messaging, coaching positioning architect, coaching-business deal flow, compounding acquisition design, contrarian message engineering, identity-led content systems, online coaching positioning, reality matrix architecture, symptom-language copywriting |
 | `jenny-hoyos` | **jenny-hoyos** | format and niche strategy, hook engineering, production economics, retention diagnosis, short-form viral storytelling (youtube shorts / vertical video), viral short scripting |
-| `jeremy-haynes` | **Jeremy Haynes** | agent |
+| `jeremy-haynes` | **Jeremy Haynes** | cold-traffic offer architecture (umbrella narrative, offer stacks, in-market vs. needs-convinced migration, objection-mined dynamic augmentation, closer edition kits), mindset systems engineering (identity versioning, dynamic motivation, revenue math, pain leverage) |
 | `jeremy-miner` | **Jeremy Miner: Identity-Based Persuasion Master** | frame/deframe/reframe engineering, gap building architecture, identity frame engineering, identity-based persuasion master, indirect framing, objection prevention, pre-frame architecture, reframe mastery, tonality mastery |
 | `jessica-jensen` | **Jessica Jensen** | agent configuration |
 | `jiang-xueqin` | **jiang-xueqin** | cognitive autonomy, cognitive deprogramming design, game-theoretic behavioral analysis, mental mastery, mental programming analysis, narrative deconstruction, strategic communication posture, structural analysis (villain removal) |

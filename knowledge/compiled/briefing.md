@@ -1,29 +1,29 @@
 # Knowledge Briefing
-*Generated: 2026-07-14 | 592 sources | 2,489,947 words*
+*Generated: 2026-07-15 | 596 sources | 2,512,546 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 4,152 words — `knowledge/index.md`
-- **log** (general) — 11,432 words — `knowledge/log.md`
+- **index** (content) — 4,218 words — `knowledge/index.md`
+- **log** (general) — 11,594 words — `knowledge/log.md`
+- **sober-daytime-event-marketing-corpus** (strategy) — 1,555 words — `extractions/grounding/sober-daytime-event-marketing-corpus.md`
+- **enrichment-cold-offer-corpus** (copywriting) — 1,297 words — `extractions/jeremy-haynes/enrichment-cold-offer-corpus.md`
+- **extraction-report-cold-offer** (content) — 3,888 words — `extractions/jeremy-haynes/extraction-report-cold-offer.md`
+- **visual-context** (content) — 15,631 words — `extractions/jeremy-haynes/visual-context.md`
+- **2026-07-14-claude-skills-business-deep-research** (strategy) — 2,723 words — `research_outputs/2026-07-14-claude-skills-business-deep-research.md`
 - **VISION** (systems) — 648 words — `extractions/joey-cinema/VISION.md`
 - **notion-cinema-claude-skills-v3** (seo) — 2,211 words — `extractions/joey-cinema/notion-cinema-claude-skills-v3.md`
 - **skill-files-analysis** (screenwriting) — 8,609 words — `extractions/joey-cinema/skill-files-analysis.md`
-- **blind-pass-generated-3panel** (screenwriting) — 1,090 words — `extractions/joey-cinema-os/blind-pass-generated-3panel.md`
-- **blind-pass-log** (screenwriting) — 87 words — `extractions/joey-cinema-os/blind-pass-log.md`
-- **extraction-report** (content) — 1,960 words — `extractions/joey-cinema-os/extraction-report.md`
-- **joey-3panel-sheet-amber-pvc-raincoat** (screenwriting) — 892 words — `extractions/joey-cinema-os/reference-corpus/joey-3panel-sheet-amber-pvc-raincoat.md`
-- **joey-character-prompt-and-seedance-prompt** (copywriting) — 453 words — `extractions/joey-cinema-os/reference-corpus/joey-character-prompt-and-seedance-prompt.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 194 | nicolas-cole |
-| copywriting | 94 | luke-iha |
+| content | 196 | nicolas-cole |
+| copywriting | 95 | luke-iha |
 | general | 82 | nick-saraev |
-| strategy | 54 | april-dunford |
+| strategy | 55 | april-dunford |
 | screenwriting | 47 | connelly |
 | brand | 37 | oren-john |
 | systems | 32 | nick-saraev |

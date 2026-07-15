@@ -100,3 +100,4 @@
 ---
 
 ## Pending enrichment
+- [2026-07-14 — Scratchpad — Deep Research Swarm Tiered.Workflow](2026-07-14-.md) — operator-guide stub, needs enrichment

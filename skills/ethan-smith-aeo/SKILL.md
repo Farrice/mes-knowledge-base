@@ -26,8 +26,9 @@ workflows: 3
 
 ## Execution Prompts (structure-pure v2)
 
-8 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+9 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
+- **Brand AEO Visibility Teardown → Client-Attraction Case Study** — `skills/ethan-smith-aeo/references/prompts-v2/aeo-brand-teardown-case-study.md`
 - **AEO Experiment Designer** — `skills/ethan-smith-aeo/references/prompts-v2/aeo-experiment-designer.md`
 - **AEO Misinformation Filter** — `skills/ethan-smith-aeo/references/prompts-v2/aeo-misinformation-filter.md`
 - **AEO Question Research Pipeline** — `skills/ethan-smith-aeo/references/prompts-v2/aeo-question-research.md`

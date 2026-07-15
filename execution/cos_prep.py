@@ -163,6 +163,13 @@ def gather_outer_loop() -> dict:
         result["due_count"] = len(due)
         if due:
             result["oldest_due"] = due[0].get("check_in_date", "")
+            # Actual items, not just a count (Farrice 2026-07-14): a due list
+            # he can't see is a due list he can't close.
+            result["due_items"] = [
+                {"deliverable": o.get("deliverable", ""),
+                 "check_in_date": o.get("check_in_date", "")}
+                for o in due[:5]
+            ]
         result["lifetime_revenue"] = d.get("total_revenue", 0.0)
     except Exception:
         pass
@@ -188,6 +195,13 @@ def render_outer_loop(loop: dict) -> list:
     if loop.get("due_count"):
         oldest = f" (oldest: {loop['oldest_due']})" if loop.get("oldest_due") else ""
         lines.append(f"- {loop['due_count']} outcome check-in{'s' if loop['due_count'] != 1 else ''} overdue{oldest}")
+    for item in loop.get("due_items", []):
+        name = item.get("deliverable", "")
+        short = name if len(name) <= 60 else name[:57] + "…"
+        lines.append(
+            f"  - [{item.get('check_in_date', '')}] {short}\n"
+            f"    ↳ close: `python3 execution/revenue_tracker.py log \"{name}\" "
+            f"--revenue <$> --outcome \"<what happened, or 'dead: reason'>\"`")
     if loop.get("never_logged"):
         lines.append(f"- {loop['never_logged']} deliverable{'s' if loop['never_logged'] != 1 else ''} shipped, never logged")
     lines.append(f"- Lifetime revenue collected: ${loop.get('lifetime_revenue', 0):,.2f}")
@@ -277,10 +291,18 @@ def render_evolution(evo: dict) -> list:
 
 def render_world_pulse(pulse: dict) -> list:
     """≤8-line brief section for world pulse (top 5 items: headline + one-line
-    why + source). Silent no-op (empty list) if no sourced items — the brief
-    renders fine without the section, and no item is ever shown unsourced."""
+    why + source). Silent no-op (empty list) if the pulse never ran — but when
+    a pulse file EXISTS and zero items cleared the recency bar, say so honestly
+    (Farrice 2026-07-14: never pad, never silently omit what was attempted)."""
     items = (pulse or {}).get("items", [])
     if not items:
+        if (pulse or {}).get("none_cleared"):
+            lines = ["", "## 🌍 World pulse — nothing cleared the bar today",
+                     "- Items were found but none passed the recency bar "
+                     "(≤14 days, current-year) — stale pulse is noise, not signal."]
+            if pulse.get("path"):
+                lines.append(f"- Raw (ungated): [{pulse['path']}]({pulse['path']})")
+            return lines
         return []
     lines = ["", "## 🌍 World pulse"]
     for item in items[:5]:
@@ -391,26 +413,92 @@ def gather_world_pulse() -> dict:
         if status_m and status_m.group(1).strip().startswith("DEGRADED"):
             return {}
         items = []
+        rejected_stale = 0
         for m in re.finditer(r"^## \d+\. (.+?)$", text, re.MULTILINE):
             title = m.group(1).strip()
             start = m.end()
             next_match = re.search(r"^## ", text[start:], re.MULTILINE)
             end = start + next_match.start() if next_match else len(text)
             block = text[start:end]
-            src_match = re.search(r"\*\*Sources?:\*\* .*?(https?://\S+)", block)
+            src_match = re.search(r"\*\*Sources?:\*\* .*?(https?://[^\s)]+)", block)
             if not src_match:
                 continue  # unsourced item never reaches the brief
             why_match = re.search(r"\*\*Why it matters:\*\* (.+?)(?:\n|$)", block)
-            items.append({
+            what_match = re.search(r"\*\*What happened:\*\* (.+?)(?:\n|$)", block)
+            item = {
                 "title": title,
                 "why": why_match.group(1).strip() if why_match else "",
-                "url": src_match.group(1).strip(),
-            })
+                "what": what_match.group(1).strip() if what_match else "",
+                "url": src_match.group(1).strip().rstrip(".,;"),
+            }
+            if _pulse_item_stale(item):
+                rejected_stale += 1
+                continue  # recency bar (Farrice 2026-07-14): stale pulse = noise
+            items.append(item)
+        path = str(pulse_file.relative_to(REPO_ROOT))
         if not items:
+            if rejected_stale:
+                return {"items": [], "path": path, "none_cleared": True}
             return {}
-        return {"items": items[:8], "path": str(pulse_file.relative_to(REPO_ROOT))}
+        return {"items": items[:8], "path": path}
     except Exception:
         return {}
+
+
+# Domains trusted enough to carry a dated-but-older item when it also touches
+# an active goal (the ONLY exception to the recency bar). Tune freely.
+CREDIBLE_PULSE_DOMAINS = (
+    "anthropic.com", "claude.com", "openai.com", "support.claude.com",
+    "linkedin.com", "substack.com",
+)
+
+
+def _pulse_item_stale(item: dict) -> bool:
+    """Recency bar (Farrice 2026-07-14): a pulse item must read CURRENT —
+    published within ~2 weeks, current-year. Deterministic heuristics only:
+    - any pre-current-year token (2010-2025) in title/what/url with no
+      current-year token alongside → stale
+    - a detectable full date older than 14 days → stale
+    - no date signal at all → passes (upstream engines already filter to 14d)
+    Exception: credible domain AND the item text touches an active goal id."""
+    current_year = int(_today()[:4])
+    text = " ".join([item.get("title", ""), item.get("what", ""),
+                     item.get("why", ""), item.get("url", "")])
+    years = {int(y) for y in re.findall(r"\b(20[12]\d)\b", text)}
+    stale = False
+    if years and max(years) < current_year:
+        stale = True
+    # Explicit ISO or "Month D, YYYY" dates older than 14 days
+    dates = []
+    for iso in re.findall(r"\b(\d{4}-\d{2}-\d{2})\b", text):
+        dates.append(iso)
+    for mon, day, year in re.findall(
+            r"\b(January|February|March|April|May|June|July|August|September|"
+            r"October|November|December)\s+(\d{1,2}),\s*(\d{4})\b", text):
+        try:
+            dates.append(datetime.strptime(f"{mon} {day} {year}", "%B %d %Y")
+                         .date().isoformat())
+        except ValueError:
+            pass
+    if dates:
+        newest = max(dates)
+        cutoff = (datetime.now().date() - timedelta(days=14)).isoformat()
+        if newest < cutoff:
+            stale = True
+    if not stale:
+        return False
+    # Exception path: credible source AND goal-relevant (both required)
+    url = item.get("url", "")
+    if any(dom in url for dom in CREDIBLE_PULSE_DOMAINS):
+        try:
+            goal_ids = [g.get("id", "") for g in load_goals()]
+            low = text.lower()
+            if any(gid and gid.replace("-", " ") in low.replace("-", " ")
+                   for gid in goal_ids):
+                return False
+        except Exception:
+            pass
+    return True
 
 
 # ── question generation (v2: thread-connecting, archetype rotation) ───────────────────────────────────────────
@@ -675,7 +763,9 @@ def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions
     provenance line. He should never have to ask where a line came from."""
     today = _today()
     weekday = datetime.now().strftime("%A")
-    lines = [f"# Morning Brief — {today} ({weekday})", ""]
+    lines = ["<!-- cos:v3-data-appendix — raw data bundle for the Standing Board; "
+             "the session composes the Operator Primer on top of this -->",
+             f"# Morning Brief — {today} ({weekday})", ""]
     streak = state.get("streak", 0)
     lines.append(f"**Streak:** {streak} · **Board:** {weekly_line}")
     if goals:

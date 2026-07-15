@@ -2363,8 +2363,64 @@
         "gaming_flag": false
       },
       "notes": "Retry after correcting score scale and exact rubric anchor; Voice OS BLEND; 150 words; prose classifier CLEAN 0/10 | platform: codex | Verification: PASS | Anchor: Anchor 9 \u2014 expert would sign it unchanged"
+    },
+    {
+      "trace_id": "20260715_063927",
+      "timestamp": "2026-07-15T06:39:27.332239",
+      "schema_version": "v3",
+      "component": "claim-safe-health-marketing",
+      "expert": "health-performance-geo",
+      "workflow": "health-performance-geo-daily-brief",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Selected fresh functional hydration lane; saved daily brief; appended 3 JSONL rows; Google Drive export disabled | platform: codex | Verification: PASS with content_finish_gate WARN for required structured brief format | Anchor: V4 High-Taste Output OS"
+    },
+    {
+      "trace_id": "20260715_063939",
+      "timestamp": "2026-07-15T06:39:39.138377",
+      "schema_version": "v3",
+      "component": "claim-safe-health-marketing",
+      "expert": "health-performance-geo",
+      "workflow": "health-performance-geo-daily-brief",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Retry required by finalize rule after local checks; artifact already revised after content gate; JSONL/export/grounding/claim-risk PASS; content_finish WARN only for prose_classifier parallel blocks due required section format; Notion/DNS may fail in restricted network | platform: codex | Verification: PASS_LOCAL_PARTIAL_FINALIZE | Anchor: V4 High-Taste Output OS"
     }
   ],
-  "total_cases": 83,
-  "last_updated": "2026-07-13T18:20:21.209975"
+  "total_cases": 85,
+  "last_updated": "2026-07-15T06:39:39.139376"
 }

@@ -142,7 +142,15 @@ def _research_with_deep_engine(interests: dict) -> list:
         for query in selected_queries:
             try:
                 print(f"  Researching: {query}", file=sys.stderr)
-                result = engine.research(query, depth="standard")
+                # Recency bar (Farrice 2026-07-14): the pulse is only useful
+                # current — constrain every query to the last two weeks.
+                recency_query = (
+                    f"{query} — latest developments from the past 14 days "
+                    f"(as of {_today()}). Only include items published in the "
+                    f"last two weeks; exclude 2025-or-older content and "
+                    f"undated evergreen pieces."
+                )
+                result = engine.research(recency_query, depth="standard")
 
                 # Extract findings and format as pulse items
                 if result.findings:
@@ -161,7 +169,7 @@ def _research_with_deep_engine(interests: dict) -> list:
                             "title": f"[{interest_label}] {title_text}",
                             "what": finding.excerpt if finding.excerpt else finding.claim,
                             "why": f"Relevant to {query.split(':')[0].strip()} — affects your goals/threads",
-                            "sources": [f"{finding.source_domain} ({finding.source_url[:50]}...)"],
+                            "sources": [f"{finding.source_domain} ({finding.source_url})"],
                             "action": f"Source: {finding.source_url}",
                         })
             except Exception as e:

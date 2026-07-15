@@ -2,6 +2,9 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-15** [jeremy-haynes-cold-offer/active] [Jeremy Haynes Cold Offer — Genius](2026-07-15-jeremy-haynes-cold-offer.md) — Jeremy Haynes Cold Offer — Genius
+- **2026-07-15** [health-performance-geo-daily-brief/active] [Retry after weakest-section check: 2026-07-15 Health Performance GEO daily brief fully follows automation prompt, saves local brief, appends JSONL, keeps Drive disabled, and verifies functional hydration Occasion-to-Electrolyte Map](2026-07-15-health-performance-geo-daily-brief.md) — Retry after weakest-section check: 2026-07-15 Health Performance GEO daily brief fully follows automation prompt, saves local brief, appends JSONL, keeps Drive disabled, and verifies functional hydration Occasion-to-Electrolyte Map
+- **2026-07-14** [solutions/active] [Solutions — Cold Start Probe Anneals New Engine Prompts](2026-07-14-solutions.md) — Solutions — Cold Start Probe Anneals New Engine Prompts
 - **2026-07-14** [scratchpad/active] [Scratchpad — Deep Research Swarm Tiered.Workflow](2026-07-14-scratchpad.md) — Scratchpad — Deep Research Swarm Tiered.Workflow
 - **2026-07-13** [novelty-campaign/active] [Receipt Arc novelty campaign pass — 14-post diagnostic + campaign map](2026-07-13-novelty-campaign.md) — Receipt Arc novelty campaign pass — 14-post diagnostic + campaign map
 - **2026-07-13** [kdp-engine/ready] [KDP Book One Pilot — cold niche-hunt → first book through /kdp-engine](2026-07-13-kdp-book-one-pilot.md) — /kdp-engine cold niche-hunt → Book One
