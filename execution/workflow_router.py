@@ -442,6 +442,17 @@ CONTROL_ROUTE_KEYWORDS = {
         "roundtable",
         "deliberate",
     ],
+    "assemble": [
+        "assemble",
+        "assemble an expert panel",
+        "expert assembly",
+        "hybrid panel",
+        "bespoke personas",
+        "synthesized expert",
+        "domain coverage",
+        "thin coverage",
+        "coverage gaps",
+    ],
     "expert-composition-governor": [
         "full arsenal",
         "too many experts",

@@ -108,6 +108,7 @@
 | `ethan-smith-aeo` | **Ethan Smith — AEO (Answer Engine Optimization)** | answer engine optimization — rag citation mechanics, experimental methodology, aeo strategy architecture | 3 | 8 |
 | `eugene-teo-training` | **Eugene Teo — Minimalist Strength Training** | strength, mobility, endurance) in under 2 hours a week by removing redundancy | 3 | 0 |
 | `evan-spiegel-distribution-architecture` | **evan-spiegel-distribution-architecture** | distribution-first product strategy × defensible moats × founder evolution, methodology covers defensible distribution moats, "make don't think" velocity | 13 | 0 |
+| `expert-assembly-os` | **Expert Assembly OS** | hybrid expert panel system — roster selection + bespoke persona synthesis + m... | 0 | 0 |
 | `extract-mastery` | **MES 3.0 — Mastery Extraction & Expert Replication** | forges it into copy-paste-deployable crown jewel prompts, and designs the pathway to surpass the original expert within 30 days, mastery extraction & expert replication | 3 | 0 |
 | `fantastic-posters` | **fantastic-posters** | 0 + kling v3 pro, image-to-video bridge — any poster output becomes a video input frame | 14 | 0 |
 | `fareed-zakaria-writing-mastery` | **Fareed Zakaria: Writing Mastery** | for memoir / narrative-personal work use lamott-craft, writing mastery | 5 | 36 |

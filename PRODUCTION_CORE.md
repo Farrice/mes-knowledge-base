@@ -26,6 +26,7 @@
 | Entry | Use for |
 |---|---|
 | `/convene` (presets: /council /roundtable /strike /campaign /deploy) | Multi-expert deliberation |
+| `/assemble` (sub: /panel-sync) | Hybrid expert panel — roster + bespoke composite personas → deliberation → tiered roadmap; the "I don't know this domain" door |
 | `/deep-research` → `execution/research.py` | All generic research (Receipt-carrying) |
 | Diandra Escobar · Kallaway | LinkedIn algorithm / content psychology |
 | Nicolas Cole (newsletter-flywheel, digital-products) | Newsletter engine, productization |
