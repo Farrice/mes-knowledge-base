@@ -755,10 +755,11 @@ The Creative Director agent at `agents/creative-director/AGENT.md` orchestrates 
 
 ---
 
-## 🔧 System & Skill Management (32)
+## 🔧 System & Skill Management (33)
 | Command | What It Does |
 |---------|-------------|
 | `/add-notebook` | Register a new NotebookLM notebook for RAG integration |
+| `/fixture-replay` | Replay a skill's golden fixtures against the current model and report drift deterministically (Forge OS compliance backstop; log: `.agent/fixture-replay-log.jsonl`) |
 | `/forge` | Cornerstone generation door — raw intent → production-grade prompt / workflow / skill / agent / plugin (Forge OS: one front door, five lanes, born-instrumented + model-dialect adaptive + portable) |
 | `/convert-extraction` | Convert MES 3.0 extractions to completion-engine skills |
 | `/convert-prompt` | Convert external prompts into completion-engine skills |

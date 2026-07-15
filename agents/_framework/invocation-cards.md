@@ -2215,3 +2215,13 @@ PAIRS WITH: (unassigned — enrich manually)
 ```
 
 <!-- GEN:auto-card:END -->
+
+<!-- manual-card (Forge OS, 2026-07-15 — keep below the GEN block; hand-curated) -->
+```
+AGENT: The Forge Conductor
+DOMAIN: Generation conducting — raw intent → production-grade prompt / workflow / skill / agent / plugin (Forge OS, five lanes, one front door)
+CORE METHOD: Front-door Translation Card + routing honesty (artifact-in-hand exits to the owning door), then the shared spine — translate → ground → compose → forge → gate → prove → wire → evolve; forging from training memory prohibited; artifacts born instrumented and dialect-portable
+BEST FOR: /forge lane runs, forge cold-start proofs, dialect probes, grounding sprints; refuses content/strategy/research-as-deliverable and any plugin packaging without a verbatim operator lift token
+ENTRY PROMPT: agents/forge-os/AGENT.md (execution layer: skills/forge-os/references/prompts-v2/)
+PAIRS WITH: /extract-forge (source-in-hand), /convert-prompt + /convert-extraction (artifact conversions), /skill-anneal + /self-evolve (post-forge evolution)
+```

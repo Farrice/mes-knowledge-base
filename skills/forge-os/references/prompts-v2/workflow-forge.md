@@ -50,11 +50,14 @@ spine: grounded, gated, proven, wired, born instrumented.
    their gates inline · boundaries (what the workflow must never do) · a Verification section
    naming the deterministic checks that prove a run completed honestly.
 5. **Born instrumented.** Include 2 golden fixtures at the bottom (a realistic invocation → the
-   expected artifacts/receipts a completed run must show). These feed fixture replay.
-6. **Wire.** Register in `SLASH_COMMANDS.md` (correct section, update the count) · confirm no
-   name collision with the ~1,900 existing commands BEFORE writing (`grep -ri "<name>"
-   SLASH_COMMANDS.md .agent/workflows/`) · if dispatched by a conductor who declared it runs
-   registration, report `deferred-to-conductor` instead.
+   expected artifacts/receipts a completed run must show). Replayability spec: every bound
+   countable, every component nameable — a fixture a replay conductor couldn't score
+   mechanically is decoration, not instrumentation. If the workflow produces run telemetry, it
+   logs to `.agent/<name>-log.jsonl`, append-only (house convention) — name the path in the file.
+6. **Wire.** Register in `SLASH_COMMANDS.md` (correct section, increment that SECTION's header
+   count) · confirm no name collision with the ~1,900 existing commands BEFORE writing
+   (`grep -ri "<name>" SLASH_COMMANDS.md .agent/workflows/`) · if dispatched by a conductor who
+   declared it runs registration, report `deferred-to-conductor` instead.
 
 ## Output Contract
 

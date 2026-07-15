@@ -29,14 +29,21 @@ NEVER in `.claude/agents/` (operator's explicit rule).
 ## Execution Protocol
 
 1. **Corpus check (the fork).** If [SOURCE SKILL] is given, verify it exists and read its
-   SKILL.md + genius.md. If "none": run the Grounding Gate (`prompt_library.py search` + `ls
+   SKILL.md + genius.md if present (system-OS skills often have no genius.md — SKILL.md + its
+   v2 prompts are then the full corpus; say so in the receipt). If "none": run the Grounding
+   Gate (`prompt_library.py search` + `ls
    skills/` + DOMAIN_REGISTRY.md). Found an owning skill → promote it (Step 2). Found nothing →
    STOP: return verdict SKILL-FIRST naming the Grounding Sprint as the prerequisite
    (`/forge skill <concept>`); an agent without a corpus is never forged.
 2. **Read the house convention.** Read `.agent/workflows/create-agent.md` in full and follow its
-   mechanics exactly: directory layout (`agents/<name>/`), AGENT.md template source, memory
-   scaffold (`memory/context.md`), and the prompts-v2 symlink so the agent's execution layer is
-   the skill's deterministic prompts, not paraphrases of them.
+   mechanics: directory layout (`agents/<name>/`), AGENT.md template source, memory scaffold
+   (`memory/context.md`), and the prompts-v2 symlink so the agent's execution layer is the
+   skill's deterministic prompts, not paraphrases of them. Reconciliation rule: where the
+   convention file shows legacy paths (`references/prompts/`, `genius-patterns.md`) or older
+   agents lack the symlink, the MODERN layout is canonical — symlink to
+   `references/prompts-v2/`, skip files that don't exist, and note each reconciliation in the
+   receipt. Template frontmatter written for human experts (`credentials`) gets the skill's own
+   documented thesis for system-OS agents — never invented authority.
 3. **Compose the persona from corpus only.** Voice, priorities, decision rules, and refusals in
    AGENT.md come from genius.md / SKILL.md verbatim material — quote signature moves, don't
    summarize them into slop. [SCOPE] becomes an explicit "dispatch me for / do NOT dispatch me
@@ -44,11 +51,13 @@ NEVER in `.claude/agents/` (operator's explicit rule).
 4. **Wire the loading contract.** AGENT.md must state its own context plan (which files it loads
    at Tier 1 vs Tier 2, per the Context Engine) and point at the skill's v2 prompt menu as its
    output layer.
-5. **Born instrumented.** Include 2 golden fixtures in AGENT.md (a realistic dispatch → expected
-   behavior shape, including one OFF-scope dispatch it must refuse or redirect).
-6. **Register.** Invocation card entry if the framework expects one (check
-   `agents/_framework/invocation-cards.md`), plus the forge receipt. Conductor-runs-wiring mode
-   applies as in the other lanes.
+5. **Born instrumented.** Include 2–3 golden fixtures in AGENT.md (a realistic dispatch →
+   expected behavior shape, including one OFF-scope dispatch it must refuse or redirect).
+6. **Register.** Produce a ready-to-paste invocation card entry (match the format in
+   `agents/_framework/invocation-cards.md`) whenever the agent should be routable by ensemble
+   selection — the conductor decides placement. Conductor-runs-wiring mode: if the dispatching
+   conductor declared it runs registration, hand over the card text and report
+   `deferred-to-conductor` instead of editing shared framework files yourself.
 
 ## Output Contract
 
