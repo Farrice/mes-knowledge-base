@@ -6044,6 +6044,23 @@
             "ensemble": true,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_173055_ee05",
+            "timestamp": "2026-07-15T17:30:55.160178+00:00",
+            "session_id": "",
+            "request_summary": "System Health & Debt Control loop: health_metrics.py collector + launchd 06:15 + System Vitals brief section + pending-review drift ledger + divergence alarm empty-absorb detector; recovered 10 lost f",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "go",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -6419,13 +6436,13 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 335,
+            "total_routings": 336,
             "total_feedback": 41,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 50,
+                "System": 51,
                 "Client Work": 13,
                 "Analysis": 5,
                 "Strategy": 18,
@@ -6646,10 +6663,11 @@
                 "tommy-clark": 1,
                 "sharran-srivatsaa-scaling": 1,
                 "ali-abdaal-action-bias": 1,
-                "jeremy-haynes-cold-offer": 1
+                "jeremy-haynes-cold-offer": 1,
+                "system": 1
             },
             "tier_counts": {
-                "0": 335,
+                "0": 336,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -6658,9 +6676,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 184,
-                "finalize-auto": 151
+                "finalize-auto": 152
             },
-            "ensemble_count": 242,
+            "ensemble_count": 243,
             "auto_miss_count": 32,
             "auto_match_count": 9
         }

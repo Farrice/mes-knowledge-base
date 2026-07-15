@@ -1,12 +1,12 @@
 # Knowledge Briefing
-*Generated: 2026-07-15 | 607 sources | 2,533,265 words*
+*Generated: 2026-07-15 | 611 sources | 2,539,349 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
 - **index** (content) — 4,290 words — `knowledge/index.md`
-- **log** (general) — 11,721 words — `knowledge/log.md`
+- **log** (general) — 11,748 words — `knowledge/log.md`
 - **pricing-psychology-for-handmade-goods-sellers-corpus** (research) — 1,441 words — `extractions/grounding/pricing-psychology-for-handmade-goods-sellers-corpus.md`
 - **sober-daytime-event-marketing-corpus** (strategy) — 1,555 words — `extractions/grounding/sober-daytime-event-marketing-corpus.md`
 - **enrichment-cold-offer-corpus** (copywriting) — 1,297 words — `extractions/jeremy-haynes/enrichment-cold-offer-corpus.md`
@@ -25,9 +25,9 @@
 | general | 83 | nick-saraev |
 | strategy | 56 | april-dunford |
 | screenwriting | 47 | connelly |
-| brand | 37 | oren-john |
-| systems | 32 | nick-saraev |
-| seo | 23 | nathan-gotch |
+| brand | 38 | oren-john |
+| systems | 33 | nick-saraev |
+| seo | 25 | nathan-gotch |
 | research | 22 | dai-media |
 | sales | 10 | dai-media |
 

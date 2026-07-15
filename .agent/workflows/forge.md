@@ -64,8 +64,12 @@ exemplar / skill) and WANTS-axis (prompt / workflow / skill / agent / plugin) �
 
 `renaissance_audit.py` 0-fail → `prompt_library.py build` → `wire_prompt_pointers.py --write` →
 live cold-start proof (fresh context, real fixture) before registration → blind-pass vs the best
-in-library artifact of the same class for any top-1% claim → register (SLASH_COMMANDS.md, cards).
-Existence ≠ done; audit-pass + proof = done.
+in-library artifact of the same class for any top-1% claim → **register via the generators, never
+hand-edits**: `python3 execution/sync_registries.py` (indexes + per-skill shims + expert
+front-door commands — `/[expert-name]` = persona + full arsenal) then
+`python3 execution/generate_slash_commands.py` (menu). A forged artifact that is fireable but
+absent from the menu, or an expert whose front door doesn't list the new asset, is a registration
+failure. Existence ≠ done; audit-pass + proof + generated registration = done.
 
 ## Evolution & Portability (inherited spines)
 

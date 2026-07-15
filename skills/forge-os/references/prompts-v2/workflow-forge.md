@@ -54,10 +54,13 @@ spine: grounded, gated, proven, wired, born instrumented.
    countable, every component nameable — a fixture a replay conductor couldn't score
    mechanically is decoration, not instrumentation. If the workflow produces run telemetry, it
    logs to `.agent/<name>-log.jsonl`, append-only (house convention) — name the path in the file.
-6. **Wire.** Register in `SLASH_COMMANDS.md` (correct section, increment that SECTION's header
-   count) · confirm no name collision with the ~1,900 existing commands BEFORE writing
-   (`grep -ri "<name>" SLASH_COMMANDS.md .agent/workflows/`) · if dispatched by a conductor who
-   declared it runs registration, report `deferred-to-conductor` instead.
+6. **Wire.** Confirm no name collision with the ~2,100 existing commands BEFORE writing
+   (`grep -ri "<name>" SLASH_COMMANDS.md .agent/workflows/ .claude/commands/` — expert front-door
+   slugs are reserved names) · then register via the GENERATOR, never a hand-added row:
+   `python3 execution/generate_slash_commands.py` (rebuilds the AUTO-INDEX; a workflow that is
+   fireable but absent from the menu is a registration failure — 2026-07-15 found 1,192 such
+   strays) · if dispatched by a conductor who declared it runs registration, report
+   `deferred-to-conductor` instead.
 
 ## Output Contract
 

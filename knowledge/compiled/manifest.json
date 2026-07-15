@@ -1,18 +1,18 @@
 {
-  "generated": "2026-07-15T10:16:24.668271",
-  "total_files": 607,
-  "total_words": 2533265,
-  "total_tokens_est": 3369242,
-  "stale_files_30d": 450,
+  "generated": "2026-07-15T10:30:55.522206",
+  "total_files": 611,
+  "total_words": 2539349,
+  "total_tokens_est": 3377334,
+  "stale_files_30d": 454,
   "domains": {
     "content": 202,
     "copywriting": 95,
     "general": 83,
     "strategy": 56,
     "screenwriting": 47,
-    "brand": 37,
-    "systems": 32,
-    "seo": 23,
+    "brand": 38,
+    "systems": 33,
+    "seo": 25,
     "research": 22,
     "sales": 10
   },
@@ -1926,10 +1926,10 @@
       "domain": "content",
       "expert": null,
       "word_count": 4290,
-      "modified": "2026-07-15T10:16:00.405615",
+      "modified": "2026-07-15T10:16:24.676326",
       "age_days": 0,
       "size_bytes": 71180,
-      "content_hash": "d3f8f5f1",
+      "content_hash": "c48e4147",
       "has_frontmatter": false
     },
     {
@@ -1938,10 +1938,10 @@
       "parent": "knowledge",
       "domain": "general",
       "expert": null,
-      "word_count": 11721,
-      "modified": "2026-07-15T10:16:24.414053",
+      "word_count": 11748,
+      "modified": "2026-07-15T10:30:55.197034",
       "age_days": 0,
-      "size_bytes": 91954,
+      "size_bytes": 92143,
       "content_hash": "5a51f947",
       "has_frontmatter": false
     },
@@ -2083,7 +2083,7 @@
       "expert": "dai-media",
       "word_count": 499,
       "modified": "2026-04-13T10:18:27.551101",
-      "age_days": 92,
+      "age_days": 93,
       "size_bytes": 3948,
       "content_hash": "53061992",
       "has_frontmatter": true
@@ -2096,7 +2096,7 @@
       "expert": "lara-acosta",
       "word_count": 339,
       "modified": "2026-04-13T10:17:31.927913",
-      "age_days": 92,
+      "age_days": 93,
       "size_bytes": 2840,
       "content_hash": "6c5f82d2",
       "has_frontmatter": true
@@ -2122,7 +2122,7 @@
       "expert": "luke-iha",
       "word_count": 629,
       "modified": "2026-04-13T10:16:31.620776",
-      "age_days": 92,
+      "age_days": 93,
       "size_bytes": 4997,
       "content_hash": "a8af83d6",
       "has_frontmatter": true
@@ -2148,7 +2148,7 @@
       "expert": "luke-iha",
       "word_count": 671,
       "modified": "2026-04-13T10:17:28.784032",
-      "age_days": 92,
+      "age_days": 93,
       "size_bytes": 4593,
       "content_hash": "b136324b",
       "has_frontmatter": true
@@ -7900,6 +7900,19 @@
       "has_frontmatter": false
     },
     {
+      "path": "research_outputs/research-brief-karpathy-wiki-antigravity.md",
+      "name": "research-brief-karpathy-wiki-antigravity",
+      "parent": "research_outputs",
+      "domain": "seo",
+      "expert": null,
+      "word_count": 921,
+      "modified": "2026-04-13T07:12:28.369341",
+      "age_days": 93,
+      "size_bytes": 6626,
+      "content_hash": "0c0e636f",
+      "has_frontmatter": false
+    },
+    {
       "path": "research_outputs/research-integrity-audit.md",
       "name": "research-integrity-audit",
       "parent": "research_outputs",
@@ -7910,6 +7923,45 @@
       "age_days": 6,
       "size_bytes": 29385,
       "content_hash": "d9cf759f",
+      "has_frontmatter": false
+    },
+    {
+      "path": "research_outputs/research-karpathy-wiki-architecture.md",
+      "name": "research-karpathy-wiki-architecture",
+      "parent": "research_outputs",
+      "domain": "seo",
+      "expert": null,
+      "word_count": 1879,
+      "modified": "2026-04-13T07:09:55.786505",
+      "age_days": 93,
+      "size_bytes": 16007,
+      "content_hash": "0c41bc8f",
+      "has_frontmatter": false
+    },
+    {
+      "path": "research_outputs/research-llm-wiki-deployment.md",
+      "name": "research-llm-wiki-deployment",
+      "parent": "research_outputs",
+      "domain": "brand",
+      "expert": null,
+      "word_count": 1839,
+      "modified": "2026-04-13T07:10:58.717209",
+      "age_days": 93,
+      "size_bytes": 14512,
+      "content_hash": "516d30f4",
+      "has_frontmatter": false
+    },
+    {
+      "path": "research_outputs/research-notion-second-brain.md",
+      "name": "research-notion-second-brain",
+      "parent": "research_outputs",
+      "domain": "systems",
+      "expert": null,
+      "word_count": 1418,
+      "modified": "2026-04-13T07:10:13.502046",
+      "age_days": 93,
+      "size_bytes": 11447,
+      "content_hash": "9c64497b",
       "has_frontmatter": false
     },
     {

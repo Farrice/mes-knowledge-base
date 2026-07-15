@@ -1,5 +1,5 @@
 # Knowledge Index
-*607 sources | 2,533,265 words | Updated: 2026-07-15*
+*611 sources | 2,539,349 words | Updated: 2026-07-15*
 
 ---
 
@@ -323,7 +323,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 11,721 words
+- [log](log.md) — 11,748 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words
@@ -501,7 +501,7 @@
 - [frame-notes](../extractions/video-context/Zc4E_K48v48/frame-notes.md) — 18 words
 - [ocr-notes](../extractions/video-context/Zc4E_K48v48/ocr-notes.md) — 18 words
 
-## Brand (37 files)
+## Brand (38 files)
 
 - [Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated](extractions/inbox/Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated.md) [dai-media] — 69,583 words (stale)
 - [Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out](extractions/inbox/Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out.md) — 63,227 words (stale)
@@ -521,6 +521,7 @@
 - [kb-visual-language-cinematography](creative-direction/guides/kb-visual-language-cinematography.md) — 2,212 words (stale)
 - [kb-streetwear-design-mastery](creative-direction/guides/kb-streetwear-design-mastery.md) — 2,092 words (stale)
 - [kb-creative-direction-art-direction](creative-direction/guides/kb-creative-direction-art-direction.md) — 1,878 words (stale)
+- [research-llm-wiki-deployment](../research_outputs/research-llm-wiki-deployment.md) — 1,839 words (stale)
 - [DESIGN](design-libraries/brands/pinterest/DESIGN.md) — 1,789 words
 - [INDEX](design-libraries/INDEX.md) — 1,578 words
 - [heath_brothers](../research_outputs/ai_authority_architect_agents/heath_brothers.md) — 1,508 words
@@ -541,7 +542,7 @@
 - [quality-rubric](../extractions/meg-heckman/codex-prior-art/skill/references/quality-rubric.md) — 261 words
 - [OPPORTUNITIES](../extractions/mark-kashef-perfect-agentic-os-kit/source_assets/examples/marco_ecommerce/OPPORTUNITIES.md) [nick-saraev] — 229 words
 
-## Systems (32 files)
+## Systems (33 files)
 
 - [Claude-💎💰🧑🏽_💻 JING ! Darrel Wilson ! This New AI Automation Is Replacing Freelancers in 2026](extractions/inbox/Claude-💎💰🧑🏽_💻 JING ! Darrel Wilson ! This New AI Automation Is Replacing Freelancers in 2026.md) — 50,355 words (stale)
 - [video-context-ledger](../extractions/video-context/-WCNwxz3uoM/video-context-ledger.md) — 28,024 words
@@ -553,6 +554,7 @@
 - [kb-ai-prompting-production](creative-direction/guides/kb-ai-prompting-production.md) — 2,273 words (stale)
 - [DESIGN](design-libraries/brands/replicate/DESIGN.md) — 2,164 words
 - [dai_media](../research_outputs/ai_authority_architect_agents/dai_media.md) [dai-media] — 1,774 words
+- [research-notion-second-brain](../research_outputs/research-notion-second-brain.md) — 1,418 words (stale)
 - [extraction-report](../extractions/nick-saraev-bottleneck-thinking/extraction-report.md) [nick-saraev] — 1,279 words (stale)
 - [04-context-architecture-builder](../extractions/sherwin-wu/prompts/04-context-architecture-builder.md) — 1,182 words (stale)
 - [Guide_4_Node_Workflows_Pipeline](creative-direction/guides/Guide_4_Node_Workflows_Pipeline.md) — 1,172 words (stale)
@@ -576,15 +578,17 @@
 - [banana-squad-spawn](../extractions/mark-kashef-banana-squad/prompts/banana-squad-spawn.md) [nick-saraev] — 277 words (stale)
 - [critique-loop-optimizer](../extractions/mark-kashef-banana-squad/prompts/critique-loop-optimizer.md) — 267 words (stale)
 
-## Seo (23 files)
+## Seo (25 files)
 
 - [ethan-smith-aeo-extraction-report](../extractions/ethan-smith/ethan-smith-aeo-extraction-report.md) [nathan-gotch] — 3,441 words (stale)
 - [human_values_collective_profile](../research_outputs/human_values_collective_profile.md) — 2,767 words (stale)
 - [notion-cinema-claude-skills-v3](../extractions/joey-cinema/notion-cinema-claude-skills-v3.md) — 2,211 words
+- [research-karpathy-wiki-architecture](../research_outputs/research-karpathy-wiki-architecture.md) — 1,879 words (stale)
 - [ai_chris_lee](../research_outputs/ai_authority_architect_agents/ai_chris_lee.md) — 1,534 words
 - [extraction_report](../extractions/matthew-berman/extraction_report.md) — 1,163 words (stale)
 - [sample-002](expert-benchmarks/seo/sample-002.md) [nathan-gotch] — 1,119 words (stale)
 - [long-context-memory-strategies-2026-05-25](../research_outputs/long-context-memory-strategies-2026-05-25.md) — 1,025 words
+- [research-brief-karpathy-wiki-antigravity](../research_outputs/research-brief-karpathy-wiki-antigravity.md) — 921 words (stale)
 - [virgil_abloh_streetwear](../extractions/creative-direction/virgil_abloh_streetwear.md) — 801 words (stale)
 - [sample-003](expert-benchmarks/seo/sample-003.md) [nathan-gotch] — 736 words (stale)
 - [design_styles_vocabulary](../extractions/creative-direction/design_styles_vocabulary.md) — 708 words (stale)
