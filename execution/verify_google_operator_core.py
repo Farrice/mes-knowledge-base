@@ -33,6 +33,8 @@ PROBES = [
     ("Codex hooks are not firing", "system-audit"),
     ("Codex explains and plans instead of executing safe local next actions", "system-audit"),
     ("Codex is failing across split workspaces with global/workspace drift and not-firing hooks", "system-audit"),
+    ("Implement the Google Antigravity global access layer in Codex, reconcile routing and hot/cold policy first, then package the skill manifest as a personal plugin without context rot.", "system-audit"),
+    ("Implement a global skill manifest and personal plugin for Google Antigravity.", "source-to-skill-system"),
     ("execution bias repair with parallel agents", "system-audit"),
     ("Why do I have to be so deterministic with you in Codex compared to Claude Code?", "system-audit"),
     ("The pre-flight things did not kick in and I had to iterate 5 to 6 times.", "system-audit"),

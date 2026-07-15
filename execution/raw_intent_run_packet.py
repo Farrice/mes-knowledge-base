@@ -23,6 +23,7 @@ if str(EXECUTION) not in sys.path:
 
 import co_creative_launchpad  # type: ignore  # noqa: E402
 import virtuoso_orchestration  # type: ignore  # noqa: E402
+from antigravity_global_access import classify_global_access_intent  # noqa: E402
 
 
 MODE_CHOICES = ("auto", "revenue", "creative", "system")
@@ -116,6 +117,9 @@ def is_bridge_intent(raw_intent: str) -> bool:
 
 def route_for_packet(raw_intent: str, mode: str, virtuoso: dict[str, Any]) -> str:
     q = normalize(raw_intent)
+    global_access = classify_global_access_intent(raw_intent)
+    if global_access["matched"]:
+        return str(global_access["route"])
     route = str(virtuoso.get("primary_route") or "autopilot")
     if route == "raw-intent-bridge":
         route = "system-audit" if any(term in q for term in ("audit", "repair", "broken", "not working")) else "autopilot"
@@ -136,7 +140,11 @@ def route_for_packet(raw_intent: str, mode: str, virtuoso: dict[str, Any]) -> st
     return route
 
 
-def support_for_packet(chosen_route: str, virtuoso: dict[str, Any]) -> list[str]:
+def support_for_packet(
+    chosen_route: str,
+    virtuoso: dict[str, Any],
+    required_support: list[str] | None = None,
+) -> list[str]:
     gates = [gate for gate in virtuoso.get("support_gates", []) if gate and gate != chosen_route]
     if chosen_route == "source-to-skill-system":
         ordered = [
@@ -160,7 +168,7 @@ def support_for_packet(chosen_route: str, virtuoso: dict[str, Any]) -> list[str]
         ordered = ["orchestrate", "routing-intelligence", "knowledge-librarian"]
 
     merged: list[str] = []
-    for gate in ordered + gates:
+    for gate in (required_support or []) + ordered + gates:
         if gate and gate != chosen_route and gate not in merged:
             merged.append(gate)
     return merged
@@ -354,7 +362,12 @@ def build_packet(raw_intent: str, mode: str = "auto") -> dict[str, Any]:
     )
     chosen_route = route_for_packet(intent_text, mode, virtuoso)
     lane = str(virtuoso.get("preflight_summary", {}).get("lane") or "general")
-    support_gates = support_for_packet(chosen_route, virtuoso)
+    global_access = classify_global_access_intent(intent_text)
+    support_gates = support_for_packet(
+        chosen_route,
+        virtuoso,
+        list(global_access.get("support_gates") or []),
+    )
     launchpad = co_creative_launchpad.build_launchpad(
         intent_text,
         route=chosen_route,
@@ -397,6 +410,7 @@ def build_packet(raw_intent: str, mode: str = "auto") -> dict[str, Any]:
             "tier": "T2 waiting" if launchpad["questions_that_change_execution"] else "T1 auto",
         },
         "plugin_packaging_verdict": plugin_packaging_verdict(),
+        "global_access_trace": global_access,
         "virtuoso_trace": {
             "primary_route": virtuoso.get("primary_route"),
             "owner": virtuoso.get("owner"),
