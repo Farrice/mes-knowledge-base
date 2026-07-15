@@ -1,9 +1,10 @@
 ---
-title: Jeremy Haynes Cold Traffic Offer Mastery — Extract-Forge Deployment
+name: Jeremy Haynes Cold Traffic Offer Mastery — Extract-Forge Deployment
+problem_signature: a needed expert capability (cold-traffic offer architecture at the mechanism level) has no owner in the harness — build it via extract-forge with claims quarantined rather than composing adjacent experts
+domain: system
+tags: [extraction, extract-forge, cold-traffic, offers, jeremy-haynes]
 date: 2026-07-15
-problem: Missing cold-traffic offer architecture at the mechanism level in harness
-category: extraction
-status: deployed
+status: active
 author: farrice-cain
 ---
 

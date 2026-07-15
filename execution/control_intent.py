@@ -512,6 +512,30 @@ def classify_control_intent(prompt: str) -> dict[str, Any]:
         and not explicit_command_invoke
     )
 
+    # Read-only health/status ask (2026-07-15): "health check" / "harness
+    # status" with ZERO problem language is a status QUESTION, not a failure
+    # complaint — /health-check owns it per its own workflow contract ("use
+    # /health-check for explicit status and health questions"). Without this
+    # guard the harness+check anchor fired system-audit@93 and outranked the
+    # governor's correct health-check pick (caught by two verifiers).
+    health_status_ask = (
+        (
+            ("health" in q and ("check" in q or "status" in q or "vitals" in q))
+            or "harness status" in q
+        )
+        and not problem_hits
+        and not general_distress
+        and not any(term in q for term in ("repair", "fix", "audit", "broken"))
+    )
+    if health_status_ask:
+        return {
+            "route": "health-check",
+            "lane": "status",
+            "reason": "Explicit read-only health/status question routes to /health-check, not control-plane repair.",
+            "evidence": [t for t in ("health", "check", "status", "harness", "vitals") if t in q][:4],
+            "confidence": 92,
+        }
+
     if (
         repair_status_review
         or source_command_control

@@ -193,9 +193,65 @@ def collect_metrics(deep: bool = False) -> dict:
 
     m["pending_review"] = _pending_counts()
 
+    # Governance / constitution files — the ones injected into or steering
+    # every session. Growth here is context debt at its most expensive.
+    gov_files = ["CLAUDE.md", "CODEX.md", "AGENTS.md", "GEMINI.md",
+                 "SLASH_COMMANDS.md", "SKILL_INDEX.md", "AGENT_INDEX.md",
+                 "DOMAIN_REGISTRY.md", "PRODUCTION_CORE.md", "FARRICE-MASTER-CONTEXT.md"]
+    m["governance"] = {f: _file_size(REPO_ROOT / f) for f in gov_files if (REPO_ROOT / f).exists()}
+    child_claudes = [p for p in REPO_ROOT.rglob("CLAUDE.md")
+                     if p != REPO_ROOT / "CLAUDE.md" and "node_modules" not in str(p)]
+    agent_mds = list((REPO_ROOT / "agents").glob("*/AGENT.md"))
+    m["governance"]["child_claude_md"] = {"count": len(child_claudes),
+                                          "bytes": sum(_file_size(p) for p in child_claudes)}
+    m["governance"]["agent_md"] = {"count": len(agent_mds),
+                                   "bytes": sum(_file_size(p) for p in agent_mds),
+                                   "largest": max(((_file_size(p), p.parent.name) for p in agent_mds),
+                                                  default=(0, ""))[1]}
+
+    # Self-healing launchd jobs: log-file age is fired-evidence. A launchd
+    # job whose log stopped moving is a dead loop wearing a loaded label.
+    m["launchd"] = _launchd_evidence()
+
+    # Verifier fleet: freshness + failing count from the last full run.
+    try:
+        fleet = json.loads((HEALTH / "verify-fleet.json").read_text())
+        m["verify_fleet"] = {
+            "ts": fleet.get("ts", ""),
+            "age_days": round((datetime.now() - datetime.fromisoformat(fleet["ts"])).total_seconds() / 86400, 1),
+            "failing": len(fleet.get("failing", [])),
+            "total": fleet.get("total", 0),
+        }
+    except Exception:
+        m["verify_fleet"] = {"ts": "", "age_days": -1, "failing": -1, "total": 0}
+
     if deep:
         m["deep_scan"] = _deep_scan()
     return m
+
+
+def _launchd_evidence() -> dict:
+    """Per com.antigravity.* job: cadence (from StartCalendarInterval) and
+    log-age in days. Read-only; missing plist dir or plistlib failure
+    degrades to {}."""
+    import plistlib
+    jobs = {}
+    try:
+        for pl in sorted((Path.home() / "Library" / "LaunchAgents").glob("com.antigravity.*.plist")):
+            try:
+                data = plistlib.loads(pl.read_bytes())
+                cal = data.get("StartCalendarInterval", {}) or {}
+                weekly = "Weekday" in (cal if isinstance(cal, dict) else (cal[0] if cal else {}))
+                log = data.get("StandardOutPath", "")
+                age = -1.0
+                if log and Path(log).exists():
+                    age = round((datetime.now().timestamp() - Path(log).stat().st_mtime) / 86400, 1)
+                jobs[data.get("Label", pl.stem)] = {"weekly": weekly, "log_age_days": age}
+            except Exception:
+                jobs[pl.stem] = {"weekly": False, "log_age_days": -1.0}
+    except Exception:
+        pass
+    return jobs
 
 
 def _pending_counts() -> dict:
@@ -242,7 +298,12 @@ def _deep_scan() -> dict:
             stale_dirs.append(p.name)
     scan["active_dirs_fully_stale_90d"] = stale_dirs
 
-    # Orphan verifiers: verify_*.py never mentioned outside execution/.
+    # Orphan verifiers: verify_*.py referenced NOWHERE — docs, configs, OR
+    # code (a verifier invoked by another script is wired, not orphaned; the
+    # md-only haystack over-counted 46 when the true number was 23,
+    # 2026-07-15). verify_fleet.py runs them all regardless — "orphan" now
+    # means "no owner documents/invokes it", a retirement signal, not a
+    # never-fires signal.
     verify_names = [p.name for p in (REPO_ROOT / "execution").glob("verify_*.py")]
     haystack = ""
     for d in ("directives", ".agent/workflows", "docs", ".claude"):
@@ -256,7 +317,23 @@ def _deep_scan() -> dict:
             haystack += p.read_text(errors="ignore")
         except Exception:
             pass
-    orphans = [v for v in verify_names if v not in haystack]
+    for p in REPO_ROOT.glob("*.md"):
+        try:
+            haystack += p.read_text(errors="ignore")
+        except Exception:
+            pass
+    for p in (REPO_ROOT / "execution").rglob("*.py"):
+        if not p.name.startswith("verify_"):
+            try:
+                haystack += p.read_text(errors="ignore")
+            except Exception:
+                pass
+    for p in (Path.home() / "Library" / "LaunchAgents").glob("com.antigravity.*.plist"):
+        try:
+            haystack += p.read_text(errors="ignore")
+        except Exception:
+            pass
+    orphans = [v for v in verify_names if v not in haystack and v != "verify_fleet.py"]
     scan["orphan_verify_scripts"] = {"count": len(orphans), "sample": orphans[:10]}
     return scan
 
@@ -309,6 +386,36 @@ def evaluate_flags(m: dict, history: list) -> list:
     if orphans.get("count", 0) > 20:
         flag(f"{orphans['count']} verify_*.py scripts referenced nowhere — dead verifiers "
              f"can't catch anything (2026-07-14 incident class); wire or propose-archive them")
+
+    gov = m.get("governance", {})
+    if gov.get("CLAUDE.md", 0) > 20_000:
+        flag(f"CLAUDE.md at {gov['CLAUDE.md']/1e3:.0f}KB (injected every session) — "
+             f"compress per claude-md-optimization playbook; rules preserved, tokens back")
+    if gov.get("SLASH_COMMANDS.md", 0) > 350_000:
+        flag(f"SLASH_COMMANDS.md at {gov['SLASH_COMMANDS.md']/1e3:.0f}KB — index bloat; "
+             f"trim descriptions or split before it degrades routing loads")
+    agent_md = gov.get("agent_md", {})
+    if agent_md.get("bytes", 0) > 3_000_000:
+        flag(f"agents/*/AGENT.md total {agent_md['bytes']/1e6:.1f}MB across {agent_md['count']} agents "
+             f"(largest: {agent_md.get('largest','')}) — persona bloat raises Tier-3 load cost")
+
+    for label, j in m.get("launchd", {}).items():
+        limit = 9 if j.get("weekly") else 2
+        age = j.get("log_age_days", -1)
+        if age < 0:
+            flag(f"launchd {label}: no log evidence at all — job may never have run; "
+                 f"`launchctl list {label}` to confirm")
+        elif age > limit:
+            flag(f"launchd {label}: log silent {age:.0f}d (cadence allows {limit}) — "
+                 f"self-healing loop may be dark; check its log + `launchctl list {label}`")
+
+    vf = m.get("verify_fleet", {})
+    if vf.get("failing", 0) > 0:
+        flag(f"verifier fleet: {vf['failing']}/{vf['total']} failing (run {vf['ts'][:10]}) — "
+             f"each is a contract the system claims to hold; triage in weekly closeout")
+    elif vf.get("age_days", -1) > 8 or vf.get("failing") == -1:
+        flag("verifier fleet has no fresh run (>8d or never) — "
+             "`python3 execution/verify_fleet.py` on the Sunday train")
 
     # Trend flags need a comparable entry ≥28d old.
     old = next((h for h in history

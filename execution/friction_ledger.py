@@ -28,6 +28,10 @@ ALLOWED_KINDS = {
     "user-struggle",
     "retrieval-failure",
     "stuck-verifier",
+    # 2026-07-15: real friction/v2 entries (Apify actor deaths, pointer
+    # drift) were written with this kind on 2026-07-07 — the reader enum
+    # lagged its own writers and crashed every consumer of the ledger.
+    "tooling-fault",
 }
 
 
