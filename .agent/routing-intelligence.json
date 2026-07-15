@@ -5767,6 +5767,116 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_155425_634f",
+            "timestamp": "2026-07-15T15:54:25.438187+00:00",
+            "session_id": "",
+            "request_summary": "Forge OS suite completion — all five lanes production-ready: workflow-forge + agent-forge native engines shipped with passed cold-start proofs (/fixture-replay workflow forged and registered; Forge Co",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "forge-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "forge",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_161541_33a3",
+            "timestamp": "2026-07-15T16:15:41.766394+00:00",
+            "session_id": "60f582cb-363a-4be9-a84d-af6119c5c319",
+            "request_summary": "I saw you mentioned that the forge conflicted with your extraction was that due to the other session I was running while you where working here? or is that an issue we need to address and fix now and ",
+            "intent_score": 0,
+            "domain_detected": "docx",
+            "experts_deployed": [
+                "docx",
+                "forge-os",
+                "pptx"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "docx",
+            "ensemble": true,
+            "compound_pairing": "docx + forge-os + pptx",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_161619_295b",
+            "timestamp": "2026-07-15T16:16:19.377591+00:00",
+            "session_id": "228202df-401f-494d-9d70-c2217e249441",
+            "request_summary": "so what is still needed to be done?",
+            "intent_score": 0,
+            "domain_detected": "strength-conditioning-os",
+            "experts_deployed": [
+                "strength-conditioning-os",
+                "higgsfield-creative-studio",
+                "mark-kashef-wargame-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "strength-conditioning-os",
+            "ensemble": true,
+            "compound_pairing": "strength-conditioning-os + higgsfield-creative-studio + mark-kashef-wargame-os",
+            "feedback": "fb_20260715_162152_bbcc"
+        },
+        {
+            "routing_id": "rt_20260715_162014_b4ec",
+            "timestamp": "2026-07-15T16:20:14.687858+00:00",
+            "session_id": "verify-hook-parity",
+            "request_summary": "Write converting copy from scratch for a supplement brand using Luke Iha copy blocks.",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-copy-blocks",
+            "experts_deployed": [
+                "luke-iha-copy-blocks",
+                "stefan-georgi-dopamine-copy",
+                "luke-iha-vicious-hooks"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-copy-blocks",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-copy-blocks + stefan-georgi-dopamine-copy + luke-iha-vicious-hooks",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_162454_3e0a",
+            "timestamp": "2026-07-15T16:24:54.304764+00:00",
+            "session_id": "",
+            "request_summary": "Tommy Clark 2026 LinkedIn strategy — forge+amplify expansion: Three-Moat System, TLA engine, data/physical moats (4 workflows, 4 born-v2 prompts, source ledger)",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "tommy-clark"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_162543_b417",
+            "timestamp": "2026-07-15T16:25:43.212333+00:00",
+            "session_id": "60f582cb-363a-4be9-a84d-af6119c5c319",
+            "request_summary": "explain to me simply so I can make the right decision on the findings and insights you just gave me",
+            "intent_score": 0,
+            "domain_detected": "sharran-srivatsaa-scaling",
+            "experts_deployed": [
+                "sharran-srivatsaa-scaling",
+                "ali-abdaal-action-bias",
+                "luke-iha-insight-vectors"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "sharran-srivatsaa-scaling",
+            "ensemble": true,
+            "compound_pairing": "sharran-srivatsaa-scaling + ali-abdaal-action-bias + luke-iha-insight-vectors",
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -6129,24 +6239,33 @@
             "rating": "auto_miss",
             "correction": "jeremy-haynes-cold-offer",
             "notes": "expert skill 'jeremy-haynes-cold-offer' loaded not matching suggestion ['jen-santulan-listing-content', 'david-bayer-elite-communication', 'corey-mcclain-persona-engineering']"
+        },
+        {
+            "feedback_id": "fb_20260715_162152_bbcc",
+            "timestamp": "2026-07-15T16:21:52.547124+00:00",
+            "session_id": "228202df-401f-494d-9d70-c2217e249441",
+            "routing_id": "rt_20260715_161619_295b",
+            "rating": "auto_miss",
+            "correction": "ethan-smith-aeo",
+            "notes": "expert skill 'ethan-smith-aeo' loaded not matching suggestion ['strength-conditioning-os', 'higgsfield-creative-studio', 'mark-kashef-wargame-os']"
         }
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 320,
-            "total_feedback": 40,
+            "total_routings": 326,
+            "total_feedback": 41,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 48,
+                "System": 49,
                 "Client Work": 13,
                 "Analysis": 4,
                 "Strategy": 18,
                 "Creative": 8,
                 "Legal Consult Prep": 1,
                 "Content": 38,
-                "Extraction": 10,
+                "Extraction": 11,
                 "Research": 7,
                 "stefan-georgi-dopamine-copy": 7,
                 "supercomputer": 18,
@@ -6161,7 +6280,7 @@
                 "nicolas-cole-digital-products": 1,
                 "nate-b-jones-context-engineering": 30,
                 "omar-eltakrori": 1,
-                "luke-iha-copy-blocks": 13,
+                "luke-iha-copy-blocks": 14,
                 "extract-mastery": 2,
                 "luke-iha-avatar-machine": 4,
                 "skill-creator": 1,
@@ -6169,7 +6288,7 @@
                 "voice-os": 7,
                 "marketing-studio-director": 1,
                 "nate-b-jones-intent-engineering": 1,
-                "strength-conditioning-os": 2,
+                "strength-conditioning-os": 3,
                 "ai-chris-lee-zero-testimonial-sales": 1,
                 "luke-iha-vsl-leads": 2,
                 "dr-kriukow-humanization": 1,
@@ -6192,11 +6311,13 @@
                 "jen-santulan-listing-content": 5,
                 "creative-direction": 1,
                 "forge-os": 1,
-                "luke-iha-cross-domain": 1
+                "luke-iha-cross-domain": 1,
+                "docx": 1,
+                "sharran-srivatsaa-scaling": 1
             },
             "expert_counts": {
                 "system-audit": 19,
-                "strength-conditioning-os": 12,
+                "strength-conditioning-os": 13,
                 "nicolas-cole": 1,
                 "source-to-skill-system": 1,
                 "founder-voice": 1,
@@ -6216,15 +6337,15 @@
                 "john-whiting": 2,
                 "master-copywriter": 3,
                 "ben-watkins": 1,
-                "stefan-georgi-dopamine-copy": 15,
-                "luke-iha-copy-blocks": 20,
+                "stefan-georgi-dopamine-copy": 16,
+                "luke-iha-copy-blocks": 21,
                 "how-i-write-os": 19,
                 "system-architecture": 7,
                 "supercomputer": 23,
                 "jason-fladlien-marketing": 8,
                 "design-md": 22,
                 "simon-intellectual-library-os": 2,
-                "pptx": 7,
+                "pptx": 8,
                 "david-placek-naming": 8,
                 "brand-operating-system": 23,
                 "nicolas-cole-niche-positioning": 12,
@@ -6235,7 +6356,7 @@
                 "marketing-studio-director": 12,
                 "webapp-testing": 2,
                 "joscha-bach-consciousness": 2,
-                "higgsfield-creative-studio": 6,
+                "higgsfield-creative-studio": 7,
                 "nate-b-jones-auto-improvement-loops": 4,
                 "self-evolving-systems": 3,
                 "internal-comms": 2,
@@ -6269,13 +6390,13 @@
                 "farrice-master-context-synthesis": 1,
                 "omar-eltakrori": 1,
                 "donald-miller-culture-turnaround": 3,
-                "mark-kashef-wargame-os": 2,
+                "mark-kashef-wargame-os": 3,
                 "asset_generator": 1,
                 "dan-wang-literary-analysis": 1,
                 "oren-john": 1,
                 "jiang-xueqin-cognitive-autonomy": 1,
                 "henrik-werdelin-portfolio-entrepreneurship": 1,
-                "luke-iha-vicious-hooks": 6,
+                "luke-iha-vicious-hooks": 7,
                 "extract-mastery": 3,
                 "voice-os": 12,
                 "dara-denney": 2,
@@ -6306,7 +6427,7 @@
                 "jeremy-miner-identity-persuasion": 1,
                 "oren-one-person-ai-marketer": 1,
                 "system-orchestration": 3,
-                "luke-iha-insight-vectors": 7,
+                "luke-iha-insight-vectors": 8,
                 "story-compass": 3,
                 "dr-kriukow-humanization": 1,
                 "susan-orlean-narrative-nonfiction": 1,
@@ -6348,14 +6469,18 @@
                 "fresh-voice-system": 2,
                 "luke-iha-creative-strategy": 2,
                 "market-intelligence": 1,
-                "forge-os": 3,
+                "forge-os": 5,
                 "health-performance-geo": 2,
                 "jeremy-haynes": 2,
                 "luke-iha-cross-domain": 1,
-                "seena-rez-tiktok-commerce": 1
+                "seena-rez-tiktok-commerce": 1,
+                "docx": 1,
+                "tommy-clark": 1,
+                "sharran-srivatsaa-scaling": 1,
+                "ali-abdaal-action-bias": 1
             },
             "tier_counts": {
-                "0": 320,
+                "0": 326,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -6363,11 +6488,11 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 173,
-                "finalize-auto": 147
+                "hybrid": 177,
+                "finalize-auto": 149
             },
-            "ensemble_count": 229,
-            "auto_miss_count": 31,
+            "ensemble_count": 234,
+            "auto_miss_count": 32,
             "auto_match_count": 9
         }
     }

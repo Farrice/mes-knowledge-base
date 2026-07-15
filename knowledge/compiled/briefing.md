@@ -1,12 +1,12 @@
 # Knowledge Briefing
-*Generated: 2026-07-15 | 600 sources | 2,525,131 words*
+*Generated: 2026-07-15 | 604 sources | 2,527,058 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 4,233 words — `knowledge/index.md`
-- **log** (general) — 11,618 words — `knowledge/log.md`
+- **index** (content) — 4,255 words — `knowledge/index.md`
+- **log** (general) — 11,669 words — `knowledge/log.md`
 - **sober-daytime-event-marketing-corpus** (strategy) — 1,555 words — `extractions/grounding/sober-daytime-event-marketing-corpus.md`
 - **enrichment-cold-offer-corpus** (copywriting) — 1,297 words — `extractions/jeremy-haynes/enrichment-cold-offer-corpus.md`
 - **extraction-report-cold-offer** (content) — 3,888 words — `extractions/jeremy-haynes/extraction-report-cold-offer.md`
@@ -20,7 +20,7 @@
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 198 | nicolas-cole |
+| content | 202 | nicolas-cole |
 | copywriting | 95 | luke-iha |
 | general | 83 | nick-saraev |
 | strategy | 56 | april-dunford |

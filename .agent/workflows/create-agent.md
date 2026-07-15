@@ -33,12 +33,12 @@ Then provide extraction file path and expert details when prompted.
 
 4. **Read skill files** to understand the expert:
    - `SKILL.md` for capabilities and workflow
-   - `references/genius-patterns.md` for competencies
+   - `genius.md` (if present) for patterns and competencies — system-OS skills may have no genius.md; SKILL.md + v2 prompts are then the corpus
    - `references/prompts-v2/` for available execution prompts (fallback: legacy `references/prompts/`)
 
 5. **Generate AGENT.md** using `agents/_framework/AGENT_TEMPLATE.md`:
    - Extract expert persona from skill content
-   - List core competencies from genius patterns
+   - List core competencies from genius.md patterns (or from SKILL.md + v2 prompts when no genius.md exists)
    - Map available skills from prompts
    - Create decision framework from implementation
    - Define approval gates for high-stakes actions
@@ -85,7 +85,7 @@ Agent: Creating expert agent from seena-rez-tiktok-commerce skill...
 Location: agents/seena-rez/
 - AGENT.md (persona, capabilities, decision framework)
 - memory/context.md (empty, ready for project context)
-- skills/ → skills/seena-rez-tiktok-commerce/references/prompts/
+- skills/ → skills/seena-rez-tiktok-commerce/references/prompts-v2/
 
 To invoke: "@seena-rez" or describe viral content / TikTok commerce work
 ```

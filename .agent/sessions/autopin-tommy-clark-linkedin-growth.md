@@ -1,23 +1,3 @@
-# Latest Handoff
-
-**Thread:** tommy-clark-linkedin-growth  
-**Full path:** .agent/handoffs/2026-07-15-tommy-clark-linkedin-growth.md  
-**Date:** 2026-07-15 (today)  
-**Status:** active  
-**Title:** Tommy Clark Linkedin Growth — Blind Pass Sample Uncopyable Filter
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume tommy-clark-linkedin-growth` for this one.
-
----
-
----
-thread: tommy-clark-linkedin-growth
-status: active
-resume_hint: Tommy Clark Linkedin Growth — Blind Pass Sample Uncopyable Filter
-branch: main
-pin: true
----
-
 # Tommy Clark Linkedin Growth — Blind Pass Sample Uncopyable Filter
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
@@ -25,4 +5,3 @@ pin: true
 **Artifacts:** /Users/farricecain/Google Antigravity/skills/tommy-clark-linkedin-growth/references/prompts-v2/physical-moat-shot-list.md, /Users/farricecain/Google Antigravity/skills/tommy-clark-linkedin-growth/SKILL.md, /Users/farricecain/Google Antigravity/skills/tommy-clark-linkedin-growth/references/source-ledger.md, /Users/farricecain/Google Antigravity/skills/tommy-clark-linkedin-growth/genius.md, /Users/farricecain/Google Antigravity/extractions/tommy-clark-linkedin-growth/blind-pass-sample-uncopyable-filter.md
 
 **Retrieve:** `/resume tommy-clark-linkedin-growth`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
-

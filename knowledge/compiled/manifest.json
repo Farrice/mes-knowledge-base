@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-15T08:51:07.490493",
-  "total_files": 600,
-  "total_words": 2525131,
-  "total_tokens_est": 3358424,
+  "generated": "2026-07-15T09:24:54.601941",
+  "total_files": 604,
+  "total_words": 2527058,
+  "total_tokens_est": 3360987,
   "stale_files_30d": 450,
   "domains": {
-    "content": 198,
+    "content": 202,
     "copywriting": 95,
     "general": 83,
     "strategy": 56,
@@ -1925,11 +1925,11 @@
       "parent": "knowledge",
       "domain": "content",
       "expert": null,
-      "word_count": 4233,
-      "modified": "2026-07-15T08:42:52.736740",
+      "word_count": 4255,
+      "modified": "2026-07-15T08:54:25.756141",
       "age_days": 0,
-      "size_bytes": 69879,
-      "content_hash": "a5821923",
+      "size_bytes": 70392,
+      "content_hash": "98050f57",
       "has_frontmatter": false
     },
     {
@@ -1938,10 +1938,10 @@
       "parent": "knowledge",
       "domain": "general",
       "expert": null,
-      "word_count": 11618,
-      "modified": "2026-07-15T08:51:07.214787",
+      "word_count": 11669,
+      "modified": "2026-07-15T09:24:54.329908",
       "age_days": 0,
-      "size_bytes": 91179,
+      "size_bytes": 91567,
       "content_hash": "5a51f947",
       "has_frontmatter": false
     },
@@ -3279,7 +3279,7 @@
       "expert": null,
       "word_count": 2395,
       "modified": "2026-03-09T09:14:26.273416",
-      "age_days": 127,
+      "age_days": 128,
       "size_bytes": 16605,
       "content_hash": "a01f97f3",
       "has_frontmatter": false
@@ -4033,7 +4033,7 @@
       "expert": "kallaway",
       "word_count": 1957,
       "modified": "2026-03-05T09:10:22.563905",
-      "age_days": 131,
+      "age_days": 132,
       "size_bytes": 12864,
       "content_hash": "797f1ee7",
       "has_frontmatter": false
@@ -4553,7 +4553,7 @@
       "expert": "nick-saraev",
       "word_count": 886,
       "modified": "2026-02-22T09:02:57.780466",
-      "age_days": 142,
+      "age_days": 143,
       "size_bytes": 6254,
       "content_hash": "f8a421d6",
       "has_frontmatter": false
@@ -6691,6 +6691,19 @@
       "has_frontmatter": false
     },
     {
+      "path": "extractions/tommy-clark/amplification-report-2026-07-15.md",
+      "name": "amplification-report-2026-07-15",
+      "parent": "tommy-clark",
+      "domain": "content",
+      "expert": null,
+      "word_count": 732,
+      "modified": "2026-07-15T09:13:19.287939",
+      "age_days": 0,
+      "size_bytes": 5353,
+      "content_hash": "568b5f32",
+      "has_frontmatter": false
+    },
+    {
       "path": "extractions/tommy-clark/extraction-report.md",
       "name": "extraction-report",
       "parent": "tommy-clark",
@@ -6701,6 +6714,45 @@
       "age_days": 139,
       "size_bytes": 8618,
       "content_hash": "a1ce0379",
+      "has_frontmatter": false
+    },
+    {
+      "path": "extractions/tommy-clark/visual-context.md",
+      "name": "visual-context",
+      "parent": "tommy-clark",
+      "domain": "content",
+      "expert": null,
+      "word_count": 463,
+      "modified": "2026-07-15T09:12:42.967539",
+      "age_days": 0,
+      "size_bytes": 3145,
+      "content_hash": "589ad88a",
+      "has_frontmatter": false
+    },
+    {
+      "path": "extractions/tommy-clark-linkedin-growth/blind-pass-log.md",
+      "name": "blind-pass-log",
+      "parent": "tommy-clark-linkedin-growth",
+      "domain": "content",
+      "expert": null,
+      "word_count": 75,
+      "modified": "2026-07-15T09:24:20.212716",
+      "age_days": 0,
+      "size_bytes": 867,
+      "content_hash": "facf60db",
+      "has_frontmatter": false
+    },
+    {
+      "path": "extractions/tommy-clark-linkedin-growth/blind-pass-sample-uncopyable-filter.md",
+      "name": "blind-pass-sample-uncopyable-filter",
+      "parent": "tommy-clark-linkedin-growth",
+      "domain": "content",
+      "expert": null,
+      "word_count": 584,
+      "modified": "2026-07-15T09:24:09.542232",
+      "age_days": 0,
+      "size_bytes": 3891,
+      "content_hash": "07b1aff9",
       "has_frontmatter": false
     },
     {

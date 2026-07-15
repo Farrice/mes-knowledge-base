@@ -92,6 +92,43 @@ LLM traffic is massively underreported. Users don't click citations — they cop
 
 ---
 
+## Decision Framework
+
+> Consolidated from the per-pattern Tests (Core Patterns 1-12) and Quality Tests above — no new methodology. Run these diagnostic questions before executing any AEO workflow; every question must have an answer.
+
+1. **Historical analogue** (Pattern 1 / The 2007 Test): What did this look like in 2007/2012/2018? If the historical version got nuked, this one will too. Invest only in what persists.
+2. **Frequency vs. rank** (Pattern 2): Am I optimizing for one page or for frequency across the entire citation landscape?
+3. **Pie check** (Pattern 3): Is this new channel growing the pie, or truly cannibalizing? (Almost always: growing the pie.)
+4. **Platform applause** (Pattern 4 / Platform Applause Test): Would the platform applaud or punish this if they saw it? If punish, it has a half-life.
+5. **Sole-citation opportunity** (Pattern 5): Does this question have a definitive existing answer anywhere? If not, we own it by default.
+6. **The one page** (Pattern 6): If we could only publish ONE page this month, which topic would generate the most value? Spend 20x on that one, not 1x on 20.
+7. **Authenticity survival** (Pattern 7): Would this comment survive if I posted it from my real, named account?
+8. **Control group** (Pattern 8 / Control Group Test): Did we use a control group? Can we reproduce this result? If not, it's anecdotal.
+9. **Multi-surface tracking** (Pattern 9): Are we tracking share of voice across 3+ LLM surfaces, not just one?
+10. **Information gain** (Pattern 10 / Information Gain Test): What does this content say that NO existing result says? If nothing — it's wasted.
+11. **Help center coverage** (Pattern 11): If someone asked an LLM a specific question about our product, would our help center be cited?
+12. **True attribution** (Pattern 12): Are we measuring AEO impact through post-conversion surveys AND branded search correlation, not just referral tracking?
+13. **Citation landscape count** (Citation Landscape Test): How many sources currently mention us for this query? 0-1 = massive opportunity; 10+ = fighting for incremental share.
+14. **Lead weighting** (WebFlow 6x Test): Are we treating LLM-sourced leads the same as Google leads? They convert 6x higher — weight ROI accordingly.
+
+## Anti-Patterns
+
+> Consolidated from the Core Patterns, the Anti-Exemplar, and the Score-4 rubric rows above — no new methodology. Flag and fix any of these before delivery.
+
+- **Manipulation with a half-life** (Pattern 4): any tactic the platform would build an algorithm to stop. It works temporarily, then destroys you.
+- **Single-rank optimization** (Pattern 2 / Anti-Exemplar): optimizing for one #1 Google position instead of citation frequency across the retrieval corpus.
+- **Derivative content** (Pattern 10 / Anti-Exemplar): content too similar to existing results gets flagged as typicality and ignored. No information gain = invisible.
+- **The 2018 "Ultimate Guide" play** (Anti-Exemplar): keyword-stuffed broad-keyword posts, generic advice, paraphrased competitor content, aggressive link building. Briefly ranks, then falls off; never cited by LLMs.
+- **Inauthentic community presence** (Pattern 7): fake accounts, marketing copy, or "best-in-class" fluff on Reddit — the community immune system is stronger than any automation.
+- **Anecdote-driven strategy** (Pattern 8): acting on published "best practices" without a control group or reproduction. Unvalidated hypotheses.
+- **Single-surface blindness** (Pattern 9 / rubric): optimizing and tracking only one LLM surface when citation overlap diverges (ChatGPT ~35% vs. Google; Perplexity ~70%).
+- **Referral-click measurement** (Pattern 12): judging AEO by tracked clicks only — LLM users copy brand names and arrive via branded search or direct.
+- **Flat lead weighting** (WebFlow 6x Test): treating LLM-sourced leads the same as Google leads despite the 6x conversion premium.
+- **Broad-keyword-only coverage** (rubric, Longtail Query Ownership Score 4): addressing only high-volume keywords with many existing answers while ignoring unowned tail questions.
+- **Generic corporate voice** (rubric, Authenticity Signal Score 4): content that feels generic, corporate, or disingenuous — fails the Reddit Authenticity Protocol test.
+
+---
+
 ## Hall of Fame Exemplars
 
 *   **Exemplar 1: The Definitive Guide to [Niche Product Feature] Troubleshooting**

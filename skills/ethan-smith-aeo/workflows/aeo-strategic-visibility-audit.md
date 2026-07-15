@@ -86,4 +86,4 @@ A single document containing:
 5.  **Historical Analogue Check**: Does the strategy avoid "AI content spam" tactics that trigger the platform's immune response?
 
 
-> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
+> **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference the **Signature Moves** and the **Authenticity Signal** rubric criterion in `genius.md` for tonal accuracy.

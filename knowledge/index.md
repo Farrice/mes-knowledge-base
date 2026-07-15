@@ -1,9 +1,9 @@
 # Knowledge Index
-*600 sources | 2,525,131 words | Updated: 2026-07-15*
+*604 sources | 2,527,058 words | Updated: 2026-07-15*
 
 ---
 
-## Content (198 files)
+## Content (202 files)
 
 - [video-context-ledger](../extractions/video-context/3iR3kHxCwfo/video-context-ledger.md) — 75,408 words
 - [Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them](extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md) — 60,850 words (stale)
@@ -21,7 +21,7 @@
 - [mes-extraction](../extractions/wargame-source/mes-extraction.md) — 4,604 words
 - [visual-context](../extractions/brad-bonanno/visual-context.md) — 4,497 words
 - [extraction-report](../extractions/dr-k/extraction-report.md) — 4,451 words (stale)
-- [index](index.md) — 4,233 words
+- [index](index.md) — 4,255 words
 - [warm-audience-flywheel](../extractions/jeremy-haynes-cold-offer/reference-corpus/warm-audience-flywheel.md) — 4,149 words
 - [deep-notes-qn6VasGSexI](../extractions/sean-dollwet/deep-notes-qn6VasGSexI.md) — 4,118 words
 - [mastery-extraction](../extractions/meg-heckman/mastery-extraction.md) — 4,112 words
@@ -147,6 +147,7 @@
 - [03-content-to-lead-magnet](../extractions/jonathan-courtney/prompts-v2/03-content-to-lead-magnet.md) — 741 words
 - [VISION](../extractions/dara-denney/static-ads-masterclass/VISION.md) — 737 words
 - [sample-004](expert-benchmarks/content-strategy/sample-004.md) — 733 words (stale)
+- [amplification-report-2026-07-15](../extractions/tommy-clark/amplification-report-2026-07-15.md) — 732 words
 - [scriptwriter-reframe-test](../extractions/sam-goddard-media-scaling/prompts/scriptwriter-reframe-test.md) — 727 words (stale)
 - [tiktok-trend-scraper](../extractions/mike-foutia-marketing-tools/prompts-v2/tiktok-trend-scraper.md) — 726 words
 - [04-proposed-workflows](../extractions/chase-hughes/_forge-output/04-proposed-workflows.md) [april-dunford] — 719 words
@@ -160,6 +161,7 @@
 - [creative-brief-generator](../extractions/mike-foutia-marketing-tools/prompts-v2/creative-brief-generator.md) — 658 words
 - [gopro-scaling-blueprint](../extractions/sam-goddard-media-scaling/prompts/gopro-scaling-blueprint.md) — 654 words (stale)
 - [dwell-time-narrative-gravity](synthesis/dwell-time-narrative-gravity.md) [kallaway] — 608 words (stale)
+- [blind-pass-sample-uncopyable-filter](../extractions/tommy-clark-linkedin-growth/blind-pass-sample-uncopyable-filter.md) — 584 words
 - [research](../extractions/nick-saraev-cold-outreach/research.md) [nick-saraev] — 577 words (stale)
 - [scriptwriter-reframe-test](../extractions/sam-goddard-media-scaling/prompts-v2/scriptwriter-reframe-test.md) — 561 words
 - [kittl_flows_advanced](../extractions/creative-direction/kittl_flows_advanced.md) — 560 words (stale)
@@ -168,6 +170,7 @@
 - [source-ledger](../extractions/kobi-brown-educational-virality/source-ledger.md) — 501 words
 - [visual-capitalist-infographic](../extractions/mark-kashef-banana-squad/prompts-v2/visual-capitalist-infographic.md) — 483 words
 - [extraction-brief](../extractions/mark-kashef-perfect-agentic-os-kit/extraction-brief.md) [nick-saraev] — 463 words
+- [visual-context](../extractions/tommy-clark/visual-context.md) — 463 words
 - [evidence-map](../extractions/video-context/ohKt066uFhg/evidence-map.md) — 459 words
 - [critique-loop-optimizer](../extractions/mark-kashef-banana-squad/prompts-v2/critique-loop-optimizer.md) — 414 words
 - [uncertainty-report](../extractions/kobi-brown-educational-virality/uncertainty-report.md) — 409 words
@@ -203,6 +206,7 @@
 - [source-notes](../extractions/rafa-conde/source-notes.md) — 121 words
 - [visual-notes](../extractions/kobi-brown-educational-virality/visual-notes.md) — 84 words
 - [context](../extractions/meg-heckman/codex-prior-art/agent/memory/context.md) — 75 words
+- [blind-pass-log](../extractions/tommy-clark-linkedin-growth/blind-pass-log.md) — 75 words
 
 ## Copywriting (95 files)
 
@@ -319,7 +323,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 11,618 words
+- [log](log.md) — 11,669 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words

@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-15** [tommy-clark-linkedin-growth/active] [Tommy Clark Linkedin Growth — Blind Pass Sample Uncopyable Filter](2026-07-15-tommy-clark-linkedin-growth.md) — Tommy Clark Linkedin Growth — Blind Pass Sample Uncopyable Filter
 - **2026-07-15** [jeremy-haynes-cold-offer/active] [Jeremy Haynes Cold Offer — Genius](2026-07-15-jeremy-haynes-cold-offer.md) — Jeremy Haynes Cold Offer — Genius
 - **2026-07-15** [health-performance-geo-daily-brief/active] [Retry after weakest-section check: 2026-07-15 Health Performance GEO daily brief fully follows automation prompt, saves local brief, appends JSONL, keeps Drive disabled, and verifies functional hydration Occasion-to-Electrolyte Map](2026-07-15-health-performance-geo-daily-brief.md) — Retry after weakest-section check: 2026-07-15 Health Performance GEO daily brief fully follows automation prompt, saves local brief, appends JSONL, keeps Drive disabled, and verifies functional hydration Occasion-to-Electrolyte Map
 - **2026-07-14** [solutions/active] [Solutions — Cold Start Probe Anneals New Engine Prompts](2026-07-14-solutions.md) — Solutions — Cold Start Probe Anneals New Engine Prompts
