@@ -1,15 +1,15 @@
 ---
 name: cos
-description: "/cos — Chief of Staff OS: daily 2-min micro briefing + weekly board session + on-demand status. Asks Farrice tailored questions (JJ, family, health, mindset, creative, goals), captures raw thoughts into semantic memory same-day, keeps goals top-of-mind. Auto-routes daily/weekly/status."
+description: "/cos — Chief of Staff OS v3 (The Standing Board). Daily: 3 advisors (cast by situation fit) dispatch in parallel, synthesized into Operator Primer (gate-checked, ≤2 retries). Weekly: all 5 seats + wildcards through /convene (Diverge → Deliberate → Synthesize) on focal question → 3 commitments. Auto-routes daily/weekly/status. Ledger compounds memory + accountability."
 expert: Chief of Staff OS
-domains: system, personal, goals, memory, briefing
+domains: system, personal, goals, memory, briefing, standing-board
 ---
 
-# /cos
+# /cos — The Standing Board
 
 > **Skill**: `chief-of-staff-os`
-> **Routing**: run `python3 execution/cos_prep.py status`, then route per the table in SKILL.md
-> (first_run → onboarding · daily not done → cos-daily · weekly due → offer cos-weekly · else cos-status).
-> Explicit: `/cos daily` · `/cos weekly` · `/cos status`.
+> **Routing**: run `python3 execution/cos_prep.py status`, then route per SKILL.md routing table
+> (first_run → onboarding · daily_done:false → cos-daily · weekly_due:true → offer cos-weekly · else → cos-status).
+> Explicit: `/cos daily` · `/cos weekly` · `/cos status` · `/dump` (anytime capture).
 
-Read and execute `skills/chief-of-staff-os/SKILL.md` — load `genius.md` before any workflow.
+**Read `skills/chief-of-staff-os/SKILL.md` first** — it describes the Standing Board charter, seats, workflows, and the Operator Primer format. Load `genius.md` before any session. All state under `.agent/cos/` (private, deterministic, leveraging live data).
