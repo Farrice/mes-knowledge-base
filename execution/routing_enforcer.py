@@ -1090,6 +1090,7 @@ BINDINGS = [
         "mandatory_workflow_any_of": [
             "convene", "collective-genius-council", "council", "roundtable",
             "strike", "campaign", "deploy", "jcc-deploy",
+            "assemble", "expert-assembly", "panel-sync",
         ],
         "forbidden_workflows": ["parallel-swarm"],
         "reason": (

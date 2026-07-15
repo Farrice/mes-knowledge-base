@@ -40,6 +40,12 @@ SKIP = {
 
 DEFAULT_TIMEOUT = 90
 
+# Per-script timeout overrides — verifiers that legitimately need longer than
+# the fleet default (e.g. dozens of router probes, each rebuilding the index).
+SLOW = {
+    "verify_system_control_plane.py": 240,
+}
+
 
 def run_fleet(timeout: int, only: str = "") -> int:
     scripts = sorted((REPO_ROOT / "execution").glob("verify_*.py"))
@@ -52,9 +58,10 @@ def run_fleet(timeout: int, only: str = "") -> int:
             print(f"SKIP  {s.name} ({SKIP[s.name]})")
             continue
         t0 = time.time()
+        script_timeout = max(timeout, SLOW.get(s.name, 0))
         try:
             r = subprocess.run([sys.executable, str(s)], cwd=REPO_ROOT,
-                               capture_output=True, text=True, timeout=timeout)
+                               capture_output=True, text=True, timeout=script_timeout)
             secs = round(time.time() - t0, 1)
             if r.returncode == 0:
                 status, detail = "PASS", ""
@@ -62,7 +69,7 @@ def run_fleet(timeout: int, only: str = "") -> int:
                 status = "FAIL"
                 detail = (r.stdout + r.stderr).strip().splitlines()[-1][:200] if (r.stdout or r.stderr) else ""
         except subprocess.TimeoutExpired:
-            secs, status, detail = timeout, "TIMEOUT", f">{timeout}s"
+            secs, status, detail = script_timeout, "TIMEOUT", f">{script_timeout}s"
         except Exception as e:  # noqa: BLE001
             secs, status, detail = round(time.time() - t0, 1), "CRASH", str(e)[:200]
         results.append({"script": s.name, "status": status, "detail": detail, "secs": secs})
