@@ -16,7 +16,7 @@ status: enriched
 - `/panel-sync "<follow-up>"` — reloads the pinned panel, same voices, new question. Never re-assemble for a follow-up.
 - Roster-covered work with no roadmap need → `/convene` (lighter). Pure fact-gathering → `/deep-research`.
 - Check the cast before trusting it: `python3 execution/panel_cast.py "<task>" --domains "a,b,c"` — coverage is keyword-scored and can misjudge; override by re-running with sharper domain phrases.
-- Personas carry ZERO fabricated stats (deterministic gate: `python3 execution/persona_stat_lint.py <file>`); their authority is methodology + worldview. Facts still come from `research.py`, never from a persona.
+- Bespoke personas are RESEARCH-GROUNDED (live practitioner research → receipt sidecar → adversarial mastery verify → `persona_receipt_check.py` floor) and carry zero fabricated stats (`persona_stat_lint.py`). Facts in outputs still come from `research.py`, never from a persona.
 - Your job in the output = decide the FORKS. The panel preserves real disagreement; "do both carefully" is the mush option.
 - Standout persona? `.tmp/assemble/<slug>/keep-candidates.md` → graduate via `/mcclain-persona-forge` Step 7 → `/mcclain-agent-assemble`.
 - Cost shape: ~15-17 subagents/run, Sonnet on grind, your session model only on converge+synthesize. Doctrine: one panel per real decision, not per curiosity.
@@ -60,15 +60,15 @@ status: enriched
 - One panel run ≈ 1.2M subagent tokens (Sonnet-weighted). Not a per-curiosity tool.
 - Plugin packaging deferred until real-usage proof (JCC structure is the reference when it happens).
 
-## Capability: bespoke persona forge + lint gate
+## Capability: GROUNDED persona forge + Mastery Floor
 
-**What it is.** Per thin domain, one agent reads `references/persona-synthesis-prompt.md` (compressed McClain Steps 1-4+6), writes a full persona document to disk, and runs `persona_stat_lint.py` on it — regenerating on FLAG (max 2, then methodology-only strip). The lint verdict is the CLI's, never the model's own claim.
+**What it is.** Per thin domain: a hybrid research pass FIRST (4 quick `research.py` queries — practitioner thinking, named methodologies, current debates, what changed in 12-24 months; auto-escalates to standard depth on thin signal), then the persona is synthesized FROM those findings — McClain persona-from-source at runtime: invent the person, never the practice. Each persona ships with a research receipt sidecar (`<persona>.receipt.md`: ≥3 source URLs, current-practice notes; real practitioner names live in the receipt, never in the persona). Three gates, all external to the forging model: `persona_stat_lint.py` (no fabricated credentials), an adversarial mastery-verifier agent (tries to REFUTE currency, spot-checks receipt URLs, writes CURRENT/STALE into the receipt), and `persona_receipt_check.py` (deterministic Mastery Floor). A seat that fails the floor carries a visible [MASTERY FLAG] in every output — confidence is never silently borrowed.
 
 **When to reach for it standalone.** Any time you want a rich composite lens without a full panel — write the persona spec by hand into an agent using the same reference prompt, lint the output, load it into whatever workflow you're running.
 
 **When NOT to.** If a real extracted expert covers the domain, load them — a genius.md beats any invention.
 
-**Honest edge.** The lint catches quantified fabrications and real-company attributions; it cannot catch a subtly wrong qualitative claim. Personas propose, `research.py` verifies.
+**Honest edges.** The lint catches quantified fabrications; the mastery verifier catches stale/unsupported practice (first live run caught cross-platform 'duplicate suppression' as undocumented folk theory). Neither makes in-deliberation claims automatically true — facts in outputs still pass the grounding guard. Grounded forge adds ~2 agents + 4 research queries per bespoke slot (~2-6 min each); the floor is the point, don't skip it to save minutes.
 
 ## Capability: opt-in keep (panel → roster)
 

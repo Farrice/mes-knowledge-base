@@ -27,7 +27,7 @@ Optional args:
 
 1. **Scope** — extract 2–4 critical required domains from the task (auto or supplied).
 2. **Cast** — `panel_cast.py` detects roster coverage per domain (strong/thin/absent), seats 3–5 panelists: roster experts for strong domains, bespoke synthesis slots for thin/absent.
-3. **Forge** — synthesize full bespoke personas (500–1000 word narratives) per McClain protocol (Steps 1–4 + 6: identity, backstory, worldview, voice, signature methodology); `persona_stat_lint.py` gates out fabricated stats; regenerate on FLAG (max 1 retry).
+3. **Forge (GROUNDED — Mastery Floor)** — per bespoke slot: hybrid research pass first (4 quick `research.py` queries on current practitioner thinking/methodologies/debates/recent shifts, auto-escalating to standard depth on thin signal) → persona synthesized FROM the findings (invent the person, never the practice) + research receipt sidecar (≥3 source URLs, real practitioner names live in the receipt, never the persona) → `persona_stat_lint.py` (no fabricated credentials) → SEPARATE adversarial mastery verifier (refutes currency, writes CURRENT/STALE into the receipt) → `persona_receipt_check.py` deterministic floor. Floor fails → seated with a visible [MASTERY FLAG], never silently.
 4. **Ground** — anti-echo-chamber pass: 3-5 DISCONFIRMING queries via `research.py --depth quick` seed a Claims Grounding Table before any panelist speaks (skipped for Creative tasks or `skip_ground: true`).
 5. **Diverge** — all 3–5 panelists (roster + bespoke) give independent takes, unanchored; Farrice's own lens included as the Function Owner.
 6. **Deliberate** — 2 rounds of genuine cross-talk: panelists build on, challenge, cross-pollinate each other. Contradictions **preserved** in "forks" for your decision.

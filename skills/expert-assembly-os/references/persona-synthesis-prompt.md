@@ -120,3 +120,54 @@ Make it credible through specificity, not numbers.
 ## Integration
 
 Embedded in `expert-assembly.workflow.js` Phase 3 (Forge). Output linted by `persona_stat_lint.py`; if flagged, regenerate (1 retry). Never ship flagged personas.
+
+---
+
+## GROUNDED FORGE (Mastery Floor — Farrice 2026-07-15, binding for every bespoke seat)
+
+Bespoke personas are distilled from LIVE PRACTITIONER RESEARCH, never latent knowledge alone. Before synthesizing, the forge agent runs the hybrid research pass and writes a receipt sidecar. The panel seats a grounded persona only when the full Mastery Floor clears; anything less is seated WITH A VISIBLE FLAG in the outcome, never silently.
+
+### Step G1 — Hybrid research pass (before any synthesis)
+
+Run these via `python3 execution/research.py "<q>" --depth quick`:
+1. `how do top practitioners in {domain_needed} actually think and decide — current methods`
+2. `named methodologies / frameworks in {domain_needed} and their tradeoffs`
+3. `what do {domain_needed} practitioners currently debate or disagree about — failure modes`
+4. `what changed in {domain_needed} best practice in the last 12-24 months`
+
+**Escalation rule**: if the quick pass returns thin signal (fewer than 3 usable sources across queries), escalate to `--depth standard` on the two most important queries before synthesizing. Never synthesize from an empty pass.
+
+### Step G2 — Receipt sidecar (required)
+
+Write `<persona-file>.receipt.md` next to the persona:
+
+```markdown
+# Research Receipt — <persona name> (<domain_needed>)
+As-of: <today's date> · current-practice window checked: last 12-24 months
+
+## Sources studied (min 3, real URLs)
+- <URL> — <one line: what this taught the composite>
+...
+
+## Current-practice notes
+- <what is CURRENT vs what the field has moved away from>
+
+## Distilled-from (practitioner patterns, names stay OUT of the persona)
+- <real practitioners/communities whose public thinking informed the composite>
+
+Mastery-Verify: <CURRENT|STALE|UNSUPPORTED — written by the verifier agent, never self-assigned>
+```
+
+The persona itself stays a clean anonymous composite (no real names inside it). Truth lives in the receipt.
+
+### Step G3 — Synthesis FROM findings
+
+The persona's signature_methodology, worldview, heuristics, and current-practice stances must be traceable to the receipt. Invent the PERSON, never the PRACTICE.
+
+### Step G4 — Mastery Floor gates (in order)
+
+1. `python3 execution/persona_stat_lint.py <persona.md>` — no fabricated credentials.
+2. Adversarial mastery verify — a SEPARATE agent reads persona + receipt and tries to REFUTE currency ("is anything here out-of-practice? does it reflect the debates the research found?"). It writes `Mastery-Verify: CURRENT|STALE|UNSUPPORTED` into the receipt with line evidence. STALE/UNSUPPORTED → one regeneration with the evidence injected.
+3. `python3 execution/persona_receipt_check.py <persona.md>` — deterministic floor: receipt exists, ≥3 source URLs, recency marker, methodology traceable, verdict recorded as CURRENT.
+
+Floor clears → seat normally. Floor fails after retry → seat with `[MASTERY FLAG: <reason>]` beside the panelist in every output, so confidence is never silently borrowed.

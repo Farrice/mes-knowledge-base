@@ -6319,6 +6319,25 @@
             "ensemble": true,
             "compound_pairing": "luke-iha-copy-blocks + wright-thompson-mastery + luke-iha-unaware-ads",
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_233313_45a4",
+            "timestamp": "2026-07-15T23:33:13.863510+00:00",
+            "session_id": "bd0106ec-d663-4cb7-b679-896dc0046237",
+            "request_summary": "help me understand if I am articulating this correctly in my understanding of LLMs and how to compress and express certain nuanced depth and insights from the hundreds of millions of knowledge and dat",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-avatar-machine",
+            "experts_deployed": [
+                "luke-iha-avatar-machine",
+                "corey-mcclain-persona-engineering",
+                "deliberate"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-avatar-machine",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-avatar-machine + corey-mcclain-persona-engineering + deliberate",
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -6703,7 +6722,7 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 350,
+            "total_routings": 351,
             "total_feedback": 42,
             "positive_count": 0,
             "negative_count": 0,
@@ -6733,7 +6752,7 @@
                 "omar-eltakrori": 1,
                 "luke-iha-copy-blocks": 21,
                 "extract-mastery": 3,
-                "luke-iha-avatar-machine": 4,
+                "luke-iha-avatar-machine": 5,
                 "skill-creator": 1,
                 "higgsfield-creative-studio": 1,
                 "voice-os": 7,
@@ -6802,7 +6821,7 @@
                 "brand-operating-system": 23,
                 "nicolas-cole-niche-positioning": 13,
                 "prediction-market-making": 1,
-                "deliberate": 10,
+                "deliberate": 11,
                 "mark-kashef-ai-councils": 1,
                 "gpt-image-2-director": 11,
                 "marketing-studio-director": 12,
@@ -6834,7 +6853,7 @@
                 "none": 4,
                 "alan-aragon-nutrition": 1,
                 "nate-b-jones-context-engineering": 34,
-                "luke-iha-avatar-machine": 5,
+                "luke-iha-avatar-machine": 6,
                 "alex-suzuki": 2,
                 "darrel-wilson-ai-monetization": 1,
                 "darrel-wilson-ai-affiliate": 1,
@@ -6852,7 +6871,7 @@
                 "extract-mastery": 4,
                 "voice-os": 12,
                 "dara-denney": 2,
-                "corey-mcclain-persona-engineering": 37,
+                "corey-mcclain-persona-engineering": 38,
                 "luke-iha-vsl-leads": 4,
                 "cooz-voice-profile": 3,
                 "market_intelligence": 1,
@@ -6937,7 +6956,7 @@
                 "creative-assembly": 1
             },
             "tier_counts": {
-                "0": 350,
+                "0": 351,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -6945,10 +6964,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 194,
+                "hybrid": 195,
                 "finalize-auto": 156
             },
-            "ensemble_count": 254,
+            "ensemble_count": 255,
             "auto_miss_count": 32,
             "auto_match_count": 10
         }

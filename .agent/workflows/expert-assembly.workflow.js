@@ -113,29 +113,43 @@ const coverage = (plan && plan.coverage) || []
 const requiredDomains = (plan && plan.required_domains) || domains
 log(`Cast: ${plan.roster_seats} roster seats, ${plan.bespoke_seats} bespoke slots; coverage: ${coverage.map(c => `${c.domain}=${c.status}`).join(', ')}`)
 
-// ── Forge (synthesize bespoke personas; agent writes file + runs the REAL lint) ─
-// The lint verdict must come from execution/persona_stat_lint.py (deterministic),
-// never from the model grading itself (AI-memory-dependent observability is banned).
+// ── Forge (GROUNDED: research → synthesize-from-findings → lint → mastery verify) ─
+// Mastery Floor (Farrice 2026-07-15): bespoke personas are distilled from LIVE
+// practitioner research, never latent knowledge alone. All verdicts come from
+// deterministic gates (persona_stat_lint.py, persona_receipt_check.py) plus a
+// SEPARATE adversarial verifier agent — never the forging model grading itself.
 phase('Forge')
 const FORGE_SCHEMA = {
   type: 'object', required: ['name', 'persona_file', 'lint_verdict'],
   properties: { name: { type: 'string' }, persona_file: { type: 'string' },
-    lint_verdict: { type: 'string' }, signature_methodology: { type: 'string' } },
+    lint_verdict: { type: 'string' }, signature_methodology: { type: 'string' },
+    receipt_file: { type: 'string' }, sources_studied: { type: 'number' } },
+}
+const MASTERY_SCHEMA = {
+  type: 'object', required: ['mastery_verdict', 'receipt_check'],
+  properties: { mastery_verdict: { type: 'string' }, receipt_check: { type: 'string' },
+    evidence: { type: 'string' } },
 }
 const panelDir = `${ROOT}/.tmp/assemble/${SLUG}`
 const bespokePersonas = {} // keyed by domain_needed so each slot gets ITS persona
 const forgedList = (await parallel(
   bespokeSlots.map((slot) => () =>
     agent(
-      `Synthesize a COMPOSITE PERSONA for an expert panel seat.\n\nDomain needed: ${slot.domain_needed}\nWhy the roster is thin: ${slot.why_thin}\nPanel task: ${TASK}\n\nRead ${ROOT}/skills/expert-assembly-os/references/persona-synthesis-prompt.md and follow its contract: identity foundation, backstory with contradictions/struggles, 3-5 worldview convictions with operational implications, voice DNA, 3-5 operational heuristics, NAMED signature methodology, then a 500-1000 word narrative. Constraints: NO fabricated statistics (%, $, millions, tenure-at-named-company claims, real company names, attributions). The literal words "composite persona" must appear in the opening line.\n\nSide effects (you have tools — do these yourself):\n1. mkdir -p ${panelDir}/personas\n2. Write the complete persona document to ${panelDir}/personas/<name-slug>.md\n3. Run: python3 ${ROOT}/execution/persona_stat_lint.py <that file>\n4. If FLAG: fix the flagged lines IN THE FILE and re-run the lint (max 2 retries; after that strip credentials to methodology-only until it passes).\n5. Return JSON {name, persona_file (absolute path), lint_verdict (the lint's FINAL printed verdict — relay it exactly), signature_methodology}.`,
+      `GROUNDED FORGE: synthesize a research-grounded COMPOSITE PERSONA for an expert panel seat.\n\nDomain needed: ${slot.domain_needed}\nWhy the roster is thin: ${slot.why_thin}\nPanel task: ${TASK}\n\nRead ${ROOT}/skills/expert-assembly-os/references/persona-synthesis-prompt.md and follow BOTH the base contract AND the GROUNDED FORGE section (Steps G1-G3) exactly:\n\n1. RESEARCH FIRST (Step G1): run the 4 hybrid queries via \`python3 ${ROOT}/execution/research.py "<q>" --depth quick\` (practitioner thinking, named methodologies, current debates/failure modes, what changed in 12-24 months). If fewer than 3 usable sources come back, escalate the two most important queries to --depth standard. Never synthesize from an empty pass.\n2. mkdir -p ${panelDir}/personas, then write the persona to ${panelDir}/personas/<name-slug>.md — identity, backstory with contradictions, 3-5 worldview convictions, voice DNA, 3-5 heuristics, NAMED signature methodology, 500-1000 word narrative. The persona's PRACTICE must be traceable to your research (invent the person, never the practice). NO fabricated statistics or real company/person names inside the persona; "composite persona" must appear in the opening line.\n3. Write the receipt sidecar ${panelDir}/personas/<name-slug>.receipt.md per the Step G2 schema: As-of line, >=3 source URLs each with what-it-taught, current-practice notes, distilled-from practitioner patterns (real names live HERE, never in the persona). Leave the final line exactly: "Mastery-Verify: PENDING" (a separate verifier owns that verdict — do NOT self-assign it).\n4. Run: python3 ${ROOT}/execution/persona_stat_lint.py <persona file> — if FLAG, fix the flagged lines and re-run (max 2 retries, then strip credentials to methodology-only).\n5. Return JSON {name, persona_file (absolute), receipt_file (absolute), lint_verdict (the lint's FINAL printed verdict, relayed exactly), signature_methodology, sources_studied (count of receipt URLs)}.`,
       { label: `forge:${slot.domain_needed}`, phase: 'Forge', schema: FORGE_SCHEMA, model: 'sonnet' }
     ).then((r) => (r ? { domain_needed: slot.domain_needed, slot_reason: slot.why_thin, ...r } : null))
+     .then((f) => f && f.persona_file ? agent(
+      `You are the MASTERY VERIFIER — adversarial, independent of the forge. Your job is to REFUTE, not to approve.\n\nRead:\n1. The persona: ${f.persona_file}\n2. Its research receipt: ${f.receipt_file || f.persona_file.replace(/\\.md$/, '.receipt.md')}\n\nTry to refute CURRENCY and GROUNDING: Is any stance, heuristic, or methodology out-of-practice given the receipt's current-practice notes? Does the persona claim practice patterns the receipt's sources don't support? Would a current top practitioner in "${f.domain_needed}" wince at anything here? Spot-check one receipt source URL if needed (WebFetch).\n\nThen (you have tools):\n1. Edit the receipt's final line from "Mastery-Verify: PENDING" to exactly "Mastery-Verify: CURRENT" (survives refutation) or "Mastery-Verify: STALE" / "Mastery-Verify: UNSUPPORTED" (with a one-line reason appended after it).\n2. Run: python3 ${ROOT}/execution/persona_receipt_check.py ${f.persona_file}\n3. Return JSON {mastery_verdict (CURRENT|STALE|UNSUPPORTED), receipt_check (the checker's printed verdict line, relayed exactly), evidence (your sharpest refutation finding, or what survived)}.`,
+      { label: `verify:${f.domain_needed}`, phase: 'Forge', schema: MASTERY_SCHEMA, model: 'sonnet', effort: 'high' }
+    ).then((v) => ({ ...f, mastery_verdict: (v && v.mastery_verdict) || 'UNVERIFIED', receipt_check: (v && v.receipt_check) || 'UNRUN', mastery_evidence: (v && v.evidence) || '' })) : f)
   )
 )).filter(Boolean)
 for (const f of forgedList) bespokePersonas[f.domain_needed] = f
-const unlinted = forgedList.filter((f) => f.lint_verdict !== 'PASS')
+const unlinted = forgedList.filter((f) => f.lint_verdict !== 'PASS' && !String(f.lint_verdict || '').includes('PASS'))
+const notCurrent = forgedList.filter((f) => f.mastery_verdict !== 'CURRENT')
 if (unlinted.length) log(`⚠ ${unlinted.length} persona(s) closed without lint PASS — flagged in outcome`)
-log(`Forge complete: ${forgedList.length} bespoke personas synthesized: ${forgedList.map(f => f.name).join(', ') || 'none'}`)
+if (notCurrent.length) log(`⚠ MASTERY FLAG on ${notCurrent.length} persona(s): ${notCurrent.map(f => `${f.name}=${f.mastery_verdict}`).join(', ')} — seated with visible flag`)
+log(`Forge complete: ${forgedList.length} grounded persona(s): ${forgedList.map(f => `${f.name} (${f.sources_studied || '?'} sources, ${f.mastery_verdict})`).join(', ') || 'none'}`)
 
 // ── Merge panel: each bespoke seat gets ITS OWN persona (matched by domain) ──
 const fullPanel = panel.map((m) => {
@@ -148,6 +162,8 @@ const fullPanel = panel.map((m) => {
         core_method: personaData.signature_methodology || m.core_method,
         lint_verdict: personaData.lint_verdict,
         persona_file: personaData.persona_file, // absolute; written at Forge time
+        receipt_file: personaData.receipt_file || null,
+        mastery_verdict: personaData.mastery_verdict || 'UNVERIFIED',
       }
     }
   }
@@ -203,7 +219,7 @@ const outcome = await agent(
     `Forks for Farrice: ${(converge.forks || []).join(' | ')}\n\nPanel moves:\n${valid.map((t) => `- ${t.name}: ${t.the_move}`).join('\n')}\n\n` +
     `Write a COMPLETE roadmap per this schema (all sections non-empty, no placeholders):\n\n` +
     `## 1. PANEL (Labeled Roster vs Bespoke)\n` +
-    `List each panelist with domain and methodology. Mark all synthetic personas [Bespoke Composite]. Include Farrice as Function Owner.\n\n` +
+    `List each panelist with domain and methodology. Mark all synthetic personas [Bespoke Composite — research-grounded, receipt on file]. Panel state:\n${fullPanel.map((m) => `  - ${m.name || `[${m.slot}]`} [${m.slot}${m.bespoke ? ` · Composite · mastery=${m.mastery_verdict || 'UNVERIFIED'}` : m.is_user ? ' · Function Owner' : ' · Roster'}]`).join('\n')}\nAny panelist whose mastery is not CURRENT must carry a visible [MASTERY FLAG: <verdict>] in this section — never hide it. Include Farrice as Function Owner.\n\n` +
     `## 2. CLAIMS GROUNDING TABLE\n` +
     `If the deliverable contains factual claims (statistics, market data, methodology attributions): table with | Claim | Source | Confidence |. If no claims, write "No factual claims in synthesis."\n\n` +
     `## 3. SYNTHESIS\n` +
@@ -267,6 +283,9 @@ const panelJSON = {
     core_method: m.core_method || null,
     covers_domain: m.covers_domain || null,
     genius_path: m.genius_path || null,
+    persona_file: m.persona_file || null,
+    receipt_file: m.receipt_file || null,
+    mastery_verdict: m.mastery_verdict || null,
     is_user: m.is_user || false,
   })),
   coverage: coverage.map(c => ({ domain: c.domain, status: c.status, best_card: c.best_card })),
