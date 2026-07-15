@@ -210,6 +210,63 @@ def render_outer_loop(loop: dict) -> list:
     return lines
 
 
+def gather_system_vitals() -> dict:
+    """System-health signal for the '🩺 System Vitals' brief section. Reads the
+    pre-computed .agent/health/latest.json written by health_metrics.py
+    (launchd com.antigravity.health-metrics, daily 06:15 — 30 min before this
+    runs). Missing/broken snapshot degrades to a staleness warning rather than
+    an empty dict — a DEAD health collector is itself the #1 health finding
+    (the guard lives in the consumer so it fires even when the collector
+    can't). Diagnostic, never a gate (Compass-not-Cage)."""
+    latest = REPO_ROOT / ".agent" / "health" / "latest.json"
+    try:
+        m = json.loads(latest.read_text())
+        age_h = (datetime.now() - datetime.fromisoformat(m["ts"])).total_seconds() / 3600
+        if age_h > 48:
+            return {"dead_collector_days": round(age_h / 24, 1)}
+        ci = m.get("context_injection", {})
+        return {
+            "date": m.get("date", "?"),
+            "deep": bool(m.get("deep")),
+            "flags": m.get("flags", []),
+            "pending": m.get("pending_review", {}).get("pending", 0),
+            "ctx_kb": round(ci.get("total_bytes", 0) / 1e3),
+            "tmp_mb": round(m.get("tmp", {}).get("bytes", 0) / 1e6),
+            "skills": m.get("assets", {}).get("skills", 0),
+            "deep_path": f".agent/health/{m.get('date')}-deep.json" if m.get("deep") else "",
+        }
+    except Exception:
+        return {"dead_collector_days": -1}
+
+
+def render_system_vitals(vitals: dict) -> list:
+    """≤8-line brief section. Green day = one line. Flag day = one line per
+    flag (each already carries its tradeoff). Never renders empty-but-padded;
+    never blocks anything."""
+    if not vitals:
+        return []
+    lines = ["", "## 🩺 System Vitals"]
+    dead = vitals.get("dead_collector_days")
+    if dead is not None:
+        since = "has never run" if dead == -1 else f"hasn't run in {dead}d"
+        lines.append(f"- ⚠️ health collector {since} — check `launchctl list "
+                     f"com.antigravity.health-metrics`; a dark health loop hides every other problem")
+        return lines
+    if not vitals.get("flags") and not vitals.get("pending"):
+        lines.append(f"- ✅ all green — ctx {vitals['ctx_kb']}KB · .tmp {vitals['tmp_mb']}MB · "
+                     f"{vitals['skills']} skills · 0 pending removals "
+                     f"([latest.json](.agent/health/latest.json))")
+        return lines
+    for fl in vitals.get("flags", [])[:6]:
+        lines.append(f"- ⚑ {fl}")
+    if vitals.get("pending"):
+        lines.append(f"- 🗂 {vitals['pending']} removal proposal(s) awaiting your yes — "
+                     f"[pending-review.md](.agent/health/pending-review.md); nothing moves without it")
+    if vitals.get("deep_path"):
+        lines.append(f"- Sunday deep report: [{vitals['deep_path']}]({vitals['deep_path']})")
+    return lines
+
+
 def gather_evolution() -> dict:
     """Nightly evolution-report signal for the '\U0001f9ec Evolution' brief
     section. Reads the newest evolution_store/traces/daily_evolution_*.md,
@@ -757,7 +814,8 @@ def generate_questions(staleness, due_goals, loops, weekly_due, today) -> list:
 
 
 def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions, weekly_line,
-                 outer_loop=None, evolution=None, world_pulse=None, loops_src="") -> str:
+                 outer_loop=None, evolution=None, world_pulse=None, loops_src="",
+                 system_vitals=None) -> str:
     """Self-contained brief (Farrice, 2026-07-08, binding): every section names
     its source as a clickable repo-relative link, every question carries a
     provenance line. He should never have to ask where a line came from."""

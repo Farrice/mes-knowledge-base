@@ -1,12 +1,13 @@
 # Knowledge Briefing
-*Generated: 2026-07-15 | 604 sources | 2,527,058 words*
+*Generated: 2026-07-15 | 607 sources | 2,533,265 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 4,255 words — `knowledge/index.md`
-- **log** (general) — 11,669 words — `knowledge/log.md`
+- **index** (content) — 4,290 words — `knowledge/index.md`
+- **log** (general) — 11,721 words — `knowledge/log.md`
+- **pricing-psychology-for-handmade-goods-sellers-corpus** (research) — 1,441 words — `extractions/grounding/pricing-psychology-for-handmade-goods-sellers-corpus.md`
 - **sober-daytime-event-marketing-corpus** (strategy) — 1,555 words — `extractions/grounding/sober-daytime-event-marketing-corpus.md`
 - **enrichment-cold-offer-corpus** (copywriting) — 1,297 words — `extractions/jeremy-haynes/enrichment-cold-offer-corpus.md`
 - **extraction-report-cold-offer** (content) — 3,888 words — `extractions/jeremy-haynes/extraction-report-cold-offer.md`
@@ -14,7 +15,6 @@
 - **blind-pass-generated-offer-stack** (content [nicolas-cole]) — 952 words — `extractions/jeremy-haynes-cold-offer/blind-pass-generated-offer-stack.md`
 - **blind-pass-log** (general) — 75 words — `extractions/jeremy-haynes-cold-offer/blind-pass-log.md`
 - **warm-audience-flywheel** (content) — 4,149 words — `extractions/jeremy-haynes-cold-offer/reference-corpus/warm-audience-flywheel.md`
-- **webinars-scale-high-ticket** (strategy [jason-fladlien]) — 7,370 words — `extractions/jeremy-haynes-cold-offer/reference-corpus/webinars-scale-high-ticket.md`
 
 ## Domain Coverage
 
@@ -28,7 +28,7 @@
 | brand | 37 | oren-john |
 | systems | 32 | nick-saraev |
 | seo | 23 | nathan-gotch |
-| research | 19 | dai-media |
+| research | 22 | dai-media |
 | sales | 10 | dai-media |
 
 ## Deepest Knowledge Sources (by word count)

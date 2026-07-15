@@ -1,0 +1,4 @@
+Snapshot written: /Users/farricecain/Google Antigravity/.agent/health/2026-07-15.json (3 flag(s))
+  ⚑ .tmp at 1,172MB / 4,159 files — scratch with no cleanup; classify-then-sweep reclaims disk, costs one review pass
+  ⚑ 28 remote branches — content-audit then prune keeps divergence checks fast; audit first, ours-merges make 'merged' untrustworthy
+  ⚑ _active/ holds 717 files >60d old — archive candidates accrue in pending-review; approving keeps _active meaning 'active'

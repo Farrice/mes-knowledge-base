@@ -1,5 +1,5 @@
 # Knowledge Index
-*604 sources | 2,527,058 words | Updated: 2026-07-15*
+*607 sources | 2,533,265 words | Updated: 2026-07-15*
 
 ---
 
@@ -21,7 +21,7 @@
 - [mes-extraction](../extractions/wargame-source/mes-extraction.md) — 4,604 words
 - [visual-context](../extractions/brad-bonanno/visual-context.md) — 4,497 words
 - [extraction-report](../extractions/dr-k/extraction-report.md) — 4,451 words (stale)
-- [index](index.md) — 4,255 words
+- [index](index.md) — 4,290 words
 - [warm-audience-flywheel](../extractions/jeremy-haynes-cold-offer/reference-corpus/warm-audience-flywheel.md) — 4,149 words
 - [deep-notes-qn6VasGSexI](../extractions/sean-dollwet/deep-notes-qn6VasGSexI.md) — 4,118 words
 - [mastery-extraction](../extractions/meg-heckman/mastery-extraction.md) — 4,112 words
@@ -323,7 +323,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 11,669 words
+- [log](log.md) — 11,721 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words
@@ -602,10 +602,11 @@
 - [nano_banana_notes](../extractions/creative-direction/nano_banana_notes.md) — 311 words (stale)
 - [sample-001](expert-benchmarks/seo/sample-001.md) [nathan-gotch] — 120 words (stale)
 
-## Research (19 files)
+## Research (22 files)
 
 - [Guide_2_Creative_Directors_Playbook](creative-direction/guides/Guide_2_Creative_Directors_Playbook.md) — 49,000 words (stale)
 - [ai-event-analysis-extraction](../extractions/prediction-market-trading/ai-event-analysis-extraction.md) — 9,247 words (stale)
+- [kimi-2.6-vs-antigravity-orchestration](../research_outputs/kimi-2.6-vs-antigravity-orchestration.md) — 3,681 words
 - [research-integrity-audit](../research_outputs/research-integrity-audit.md) — 3,469 words
 - [pattern-inventory-and-delta](../extractions/agentic-os-integration/pattern-inventory-and-delta.md) [nick-saraev] — 2,506 words
 - [red_team_validation](../research_outputs/ai-brain-build-validation/red_team_validation.md) — 2,220 words (stale)
@@ -613,9 +614,11 @@
 - [setup_priority_template](../extractions/mark-kashef-perfect-agentic-os-kit/source_assets/references/setup_priority_template.md) [nick-saraev] — 1,699 words
 - [meg-heckman-buyer-trigger-os-harvest](../extractions/meg-heckman/video-context-7MNa2YTPGs4/meg-heckman-buyer-trigger-os-harvest.md) — 1,517 words
 - [kallaway](../research_outputs/ai_authority_architect_agents/kallaway.md) [kallaway] — 1,506 words
+- [pricing-psychology-for-handmade-goods-sellers-corpus](../extractions/grounding/pricing-psychology-for-handmade-goods-sellers-corpus.md) — 1,441 words
 - [tom_noske](../research_outputs/ai_authority_architect_agents/tom_noske.md) — 1,406 words
 - [jim_oshaughnessy](../research_outputs/ai_authority_architect_agents/jim_oshaughnessy.md) [nicolas-cole] — 1,397 words
 - [alen_sultanic](../research_outputs/ai_authority_architect_agents/alen_sultanic.md) — 1,270 words
+- [agi-definition-analysis](../research_outputs/agi-definition-analysis.md) — 998 words
 - [trailer_comprehensive_notes](../extractions/creative-direction/trailer_comprehensive_notes.md) — 905 words (stale)
 - [vision](../extractions/meg-heckman/vision.md) — 773 words
 - [sample-001](expert-benchmarks/sales-psychology/sample-001.md) [dai-media] — 718 words (stale)

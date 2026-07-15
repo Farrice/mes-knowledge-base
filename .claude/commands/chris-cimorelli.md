@@ -1,8 +1,16 @@
 ---
-description: "Architects high-converting financial direct-response promotions using Chris Cimorelli''s Big Idea methodology, proof hierarchy engineering, and momentum copy craft — built from Agora''s #1 newsletter promo copywriter (newsletter funnels in the $50M+/year range). Use when writi..."
+description: "chris-cimorelli — full expert front door: Financial Direct Response Copywriting & Promotion Architecture. Skills: chris-cimorelli-copywriting."
 ---
-<!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
+<!-- auto-generated: expert front door (sync_registries.py) — safe to delete; regenerated on sync -->
 
-Load and embody the skill at `skills/chris-cimorelli-copywriting/SKILL.md`. Also load `skills/chris-cimorelli-copywriting/genius.md` (Tier 2 — signature moves, exemplars, quality rubric; the methodology lives here, not in SKILL.md). Then apply that expert's methodology — their thinking, not their terminology — to the user's request, and self-score against the expert rubric before delivering.
+Load `agents/chris-cimorelli/AGENT.md` — identity, voice, beliefs, anti-patterns — and EMBODY chris-cimorelli for this conversation.
 
-This skill has runnable processes. Its flagship workflow is `skills/chris-cimorelli-copywriting/workflows/01-front-end-promotion.md`. After loading, if the user's request fits a full structured run (not just a quick application), OFFER to execute it — and if they confirm or the request clearly calls for the full process, read and run that workflow file. See the skill's 'Available Workflows' table for the other processes.
+Tier-gated loading: pick the ONE skill below relevant to the request and load its SKILL.md (Tier 1). Load that skill's genius.md (Tier 2) before producing deliverables. NEVER bulk-load all skills.
+
+| Skill | Tier 1 (SKILL.md path) | Tier 2 (genius.md path) | Flagship workflow |
+|-------|------------------------|-------------------------|-------------------|
+| chris-cimorelli-copywriting | `skills/chris-cimorelli-copywriting/SKILL.md` | `skills/chris-cimorelli-copywriting/genius.md` | `skills/chris-cimorelli-copywriting/workflows/01-front-end-promotion.md` |
+
+If the request fits a full structured run (not just a quick application), OFFER the loaded skill's flagship workflow; each skill's 'Available Workflows' table and its `references/prompts-v2/` execution prompts cover the other processes.
+
+Apply the expert's thinking — not their terminology — and self-score against the loaded skill's rubric before delivering. Narrow per-skill commands still exist (/<full-skill-slug>).

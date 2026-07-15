@@ -21,10 +21,6 @@
       "skill": "alen-sultanic-copywriting"
     },
     {
-      "command": "/alex-content",
-      "skill": "alex-content-science"
-    },
-    {
       "command": "/alex-copper-creative-strategy",
       "skill": "alex-copper-creative-strategy"
     },
@@ -209,20 +205,8 @@
       "skill": "claim-safe-health-marketing"
     },
     {
-      "command": "/coaching-business",
-      "skill": "coaching-business-os"
-    },
-    {
-      "command": "/cognitive-engagement",
-      "skill": "cognitive-engagement-optimizer"
-    },
-    {
       "command": "/consumer-posture",
       "skill": "consumer-posture-research"
-    },
-    {
-      "command": "/context-profile",
-      "skill": "context-profile-architect"
     },
     {
       "command": "/corey-mcclain-persona-engineering",
@@ -405,20 +389,12 @@
       "skill": "evan-spiegel-distribution-architecture"
     },
     {
-      "command": "/extract-mastery",
-      "skill": "extract-mastery"
-    },
-    {
       "command": "/fantastic-posters",
       "skill": "fantastic-posters"
     },
     {
       "command": "/fareed-zakaria-writing-mastery",
       "skill": "fareed-zakaria-writing-mastery"
-    },
-    {
-      "command": "/forge-os",
-      "skill": "forge-os"
     },
     {
       "command": "/fraser-cottrell-paid-ads",
@@ -663,10 +639,6 @@
     {
       "command": "/kj-rainey-copywriting",
       "skill": "kj-rainey-copywriting"
-    },
-    {
-      "command": "/knowledge-architecture",
-      "skill": "knowledge-architecture-studio"
     },
     {
       "command": "/kobi-brown-educational-virality",
@@ -1001,10 +973,6 @@
       "skill": "omar-eddaoudi-scaling-ops"
     },
     {
-      "command": "/omar-eltakrori",
-      "skill": "omar-eltakrori"
-    },
-    {
       "command": "/oren-brand",
       "skill": "oren-brand-archetypes"
     },
@@ -1027,10 +995,6 @@
     {
       "command": "/oren-repositioning",
       "skill": "oren-repositioning"
-    },
-    {
-      "command": "/oren-taste",
-      "skill": "oren-taste-development"
     },
     {
       "command": "/oscar-hoglund-sound-storytelling",
@@ -1189,10 +1153,6 @@
       "skill": "sarah-levinger-ad-psychology"
     },
     {
-      "command": "/satori-graphics",
-      "skill": "satori-graphics"
-    },
-    {
       "command": "/sean-dollwet-kdp-publishing",
       "skill": "sean-dollwet-kdp-publishing"
     },
@@ -1303,10 +1263,6 @@
     {
       "command": "/story-compass",
       "skill": "story-compass"
-    },
-    {
-      "command": "/strength-conditioning",
-      "skill": "strength-conditioning-os"
     },
     {
       "command": "/sunny-lenarduzzi-youtube",
@@ -1434,11 +1390,203 @@
     }
   ],
   "experts": {
+    "adam-enfroy": {
+      "command": "/adam-enfroy",
+      "skills": [
+        "adam-enfroy-affiliate-marketing"
+      ]
+    },
+    "ai-chris-lee": {
+      "command": "/ai-chris-lee",
+      "skills": [
+        "ai-chris-lee-zero-testimonial-sales"
+      ]
+    },
+    "alan-aragon": {
+      "command": "/alan-aragon",
+      "skills": [
+        "alan-aragon-nutrition"
+      ]
+    },
+    "alen-sultanic": {
+      "command": "/alen-sultanic",
+      "skills": [
+        "alen-sultanic-copywriting"
+      ]
+    },
+    "alex-content-science": {
+      "command": "/alex-content-science",
+      "skills": [
+        "alex-content-science"
+      ]
+    },
+    "alex-copper": {
+      "command": "/alex-copper",
+      "skills": [
+        "alex-copper-creative-strategy"
+      ]
+    },
+    "alex-hormozi": {
+      "command": "/alex-hormozi",
+      "skills": [
+        "alex-hormozi-business"
+      ]
+    },
+    "alex-m-smith": {
+      "command": "/alex-m-smith",
+      "skills": [
+        "alex-m-smith-natural-strategy"
+      ]
+    },
+    "alex-myatt": {
+      "command": "/alex-myatt",
+      "skills": [
+        "alex-myatt-creative-engine"
+      ]
+    },
+    "alex-suzuki": {
+      "command": "/alex-suzuki",
+      "skills": [
+        "alex-suzuki-digital-product-revenue-os"
+      ]
+    },
+    "alex-suzuki-revenue-architect": {
+      "command": "/alex-suzuki-revenue-architect",
+      "skills": []
+    },
+    "ali-abdaal": {
+      "command": "/ali-abdaal",
+      "skills": [
+        "ali-abdaal-action-bias"
+      ]
+    },
+    "andrew-dun": {
+      "command": "/andrew-dun",
+      "skills": [
+        "andrew-dun-vibe-consulting"
+      ]
+    },
+    "andrew-lane": {
+      "command": "/andrew-lane",
+      "skills": [
+        "andrew-lane-design-systems"
+      ]
+    },
+    "andrew-stanton": {
+      "command": "/andrew-stanton",
+      "skills": [
+        "andrew-stanton-audience-engineering"
+      ]
+    },
+    "andrew-wilkinson": {
+      "command": "/andrew-wilkinson",
+      "skills": [
+        "andrew-wilkinson-ai-entrepreneurship"
+      ]
+    },
+    "andy-galpin": {
+      "command": "/andy-galpin",
+      "skills": [
+        "andy-galpin-training-intelligence"
+      ]
+    },
+    "andy-lo": {
+      "command": "/andy-lo",
+      "skills": [
+        "andy-lo-premium-websites"
+      ]
+    },
+    "anne-lamott": {
+      "command": "/anne-lamott",
+      "skills": []
+    },
+    "anne-lamott-neal-allen": {
+      "command": "/anne-lamott-neal-allen",
+      "skills": []
+    },
+    "april-dunford": {
+      "command": "/april-dunford",
+      "skills": [
+        "april-dunford-positioning"
+      ]
+    },
     "ash-maurya": {
       "command": "/ash-maurya",
       "skills": [
         "ash-maurya-founder-systems",
         "ash-maurya-lean-metrics"
+      ]
+    },
+    "authority-hacker": {
+      "command": "/authority-hacker",
+      "skills": [
+        "authority-hacker-ai-social-media"
+      ]
+    },
+    "ben-watkins": {
+      "command": "/ben-watkins",
+      "skills": [
+        "ben-watkins-storytelling"
+      ]
+    },
+    "benjamin-hardy": {
+      "command": "/benjamin-hardy",
+      "skills": [
+        "benjamin-hardy-identity"
+      ]
+    },
+    "bill-browder": {
+      "command": "/bill-browder",
+      "skills": [
+        "bill-browder-high-stakes-narrative"
+      ]
+    },
+    "bitbranding": {
+      "command": "/bitbranding",
+      "skills": [
+        "bitbranding-fashion-shopify"
+      ]
+    },
+    "bond-halbert": {
+      "command": "/bond-halbert",
+      "skills": [
+        "bond-halbert-copywriting"
+      ]
+    },
+    "boris": {
+      "command": "/boris",
+      "skills": [
+        "boris-claude-code"
+      ]
+    },
+    "brad-bonanno": {
+      "command": "/brad-bonanno",
+      "skills": [
+        "brad-bonanno-explainer-architecture"
+      ]
+    },
+    "brendan-kane": {
+      "command": "/brendan-kane",
+      "skills": [
+        "brendan-kane-viral-strategy"
+      ]
+    },
+    "brock-johnson": {
+      "command": "/brock-johnson",
+      "skills": [
+        "brock-johnson-shareworthy-content"
+      ]
+    },
+    "caleb-ralston": {
+      "command": "/caleb-ralston",
+      "skills": [
+        "caleb-ralston-personal-brand"
+      ]
+    },
+    "cardinal-mason": {
+      "command": "/cardinal-mason",
+      "skills": [
+        "cardinal-mason-ai-copywriting"
       ]
     },
     "chase-hughes": {
@@ -1448,11 +1596,97 @@
         "chase-hughes-conversational-influence"
       ]
     },
+    "chris-cimorelli": {
+      "command": "/chris-cimorelli",
+      "skills": [
+        "chris-cimorelli-copywriting"
+      ]
+    },
+    "chris-do": {
+      "command": "/chris-do",
+      "skills": [
+        "chris-do-design-business"
+      ]
+    },
+    "coaching-business-os": {
+      "command": "/coaching-business-os",
+      "skills": [
+        "coaching-business-os"
+      ]
+    },
+    "cognitive-engagement-optimizer": {
+      "command": "/cognitive-engagement-optimizer",
+      "skills": [
+        "cognitive-engagement-optimizer"
+      ]
+    },
+    "context-profile-architect": {
+      "command": "/context-profile-architect",
+      "skills": [
+        "context-profile-architect"
+      ]
+    },
+    "corey-mcclain": {
+      "command": "/corey-mcclain",
+      "skills": [
+        "corey-mcclain-persona-engineering"
+      ]
+    },
+    "craig-clemens": {
+      "command": "/craig-clemens",
+      "skills": [
+        "craig-clemens-copywriting"
+      ]
+    },
+    "creative-director": {
+      "command": "/creative-director",
+      "skills": []
+    },
+    "dai-media": {
+      "command": "/dai-media",
+      "skills": [
+        "dai-media-consumer-posture"
+      ]
+    },
+    "dakota-thiefofboredom": {
+      "command": "/dakota-thiefofboredom",
+      "skills": []
+    },
+    "damon-cart": {
+      "command": "/damon-cart",
+      "skills": [
+        "damon-cart-nlp"
+      ]
+    },
+    "dan-bolton": {
+      "command": "/dan-bolton",
+      "skills": [
+        "dan-bolton-coaching-offers"
+      ]
+    },
     "dan-koe": {
       "command": "/dan-koe",
       "skills": [
         "dan-koe-ai-leverage",
         "dan-koe-multipassionate-mastery"
+      ]
+    },
+    "dan-martell": {
+      "command": "/dan-martell",
+      "skills": [
+        "dan-martell-business-scaling"
+      ]
+    },
+    "dan-wang": {
+      "command": "/dan-wang",
+      "skills": [
+        "dan-wang-literary-analysis"
+      ]
+    },
+    "daniel-pink": {
+      "command": "/daniel-pink",
+      "skills": [
+        "daniel-pink-writing-structure"
       ]
     },
     "daniel-priestley": {
@@ -1462,11 +1696,73 @@
         "daniel-priestley-oversubscribed"
       ]
     },
+    "daniel-thrasher": {
+      "command": "/daniel-thrasher",
+      "skills": [
+        "daniel-thrasher-affiliate"
+      ]
+    },
+    "danny-yeung": {
+      "command": "/danny-yeung",
+      "skills": []
+    },
+    "dara-denney": {
+      "command": "/dara-denney",
+      "skills": [
+        "dara-denney-meta-ads"
+      ]
+    },
     "darrel-wilson": {
       "command": "/darrel-wilson",
       "skills": [
         "darrel-wilson-ai-affiliate",
         "darrel-wilson-ai-monetization"
+      ]
+    },
+    "david-bayer": {
+      "command": "/david-bayer",
+      "skills": [
+        "david-bayer-elite-communication"
+      ]
+    },
+    "david-deutsch": {
+      "command": "/david-deutsch",
+      "skills": [
+        "david-deutsch-copywriting"
+      ]
+    },
+    "david-gelb": {
+      "command": "/david-gelb",
+      "skills": []
+    },
+    "david-mcraney": {
+      "command": "/david-mcraney",
+      "skills": [
+        "david-mcraney-belief-change"
+      ]
+    },
+    "david-perell": {
+      "command": "/david-perell",
+      "skills": [
+        "david-perell-writing"
+      ]
+    },
+    "david-placek": {
+      "command": "/david-placek",
+      "skills": [
+        "david-placek-naming"
+      ]
+    },
+    "deya": {
+      "command": "/deya",
+      "skills": [
+        "deya-business-systems"
+      ]
+    },
+    "diandra-escobar": {
+      "command": "/diandra-escobar",
+      "skills": [
+        "diandra-escobar-linkedin-growth"
       ]
     },
     "donald-miller": {
@@ -1479,11 +1775,153 @@
         "donald-miller-storybrand"
       ]
     },
+    "dr-k": {
+      "command": "/dr-k",
+      "skills": [
+        "dr-k-consciousness"
+      ]
+    },
+    "dr-kriukow": {
+      "command": "/dr-kriukow",
+      "skills": [
+        "dr-kriukow-humanization"
+      ]
+    },
     "eric-roth": {
       "command": "/eric-roth",
       "skills": [
         "eric-roth-screenwriting-mastery",
         "eric-roth-writing-mastery"
+      ]
+    },
+    "erica-mallet": {
+      "command": "/erica-mallet",
+      "skills": [
+        "erica-mallet-brand-magnetism"
+      ]
+    },
+    "ethan-smith": {
+      "command": "/ethan-smith",
+      "skills": [
+        "ethan-smith-aeo"
+      ]
+    },
+    "eugene-teo": {
+      "command": "/eugene-teo",
+      "skills": [
+        "eugene-teo-training"
+      ]
+    },
+    "evan-spiegel": {
+      "command": "/evan-spiegel",
+      "skills": [
+        "evan-spiegel-distribution-architecture"
+      ]
+    },
+    "extract-mastery": {
+      "command": "/extract-mastery",
+      "skills": [
+        "extract-mastery"
+      ]
+    },
+    "fareed-zakaria": {
+      "command": "/fareed-zakaria",
+      "skills": [
+        "fareed-zakaria-writing-mastery"
+      ]
+    },
+    "forge-os": {
+      "command": "/forge-os",
+      "skills": [
+        "forge-os"
+      ]
+    },
+    "fraser-cottrell": {
+      "command": "/fraser-cottrell",
+      "skills": [
+        "fraser-cottrell-paid-ads"
+      ]
+    },
+    "futurepedia": {
+      "command": "/futurepedia",
+      "skills": [
+        "futurepedia-prompt-engineering"
+      ]
+    },
+    "gabe-novotny": {
+      "command": "/gabe-novotny",
+      "skills": [
+        "gabe-novotny-fitness-content-business"
+      ]
+    },
+    "gary-vaynerchuk": {
+      "command": "/gary-vaynerchuk",
+      "skills": [
+        "gary-vaynerchuk-attention"
+      ]
+    },
+    "grace-andrews": {
+      "command": "/grace-andrews",
+      "skills": [
+        "grace-andrews-media-company"
+      ]
+    },
+    "greg-hickman": {
+      "command": "/greg-hickman",
+      "skills": [
+        "greg-hickman-service-scaling"
+      ]
+    },
+    "greg-hoffman": {
+      "command": "/greg-hoffman",
+      "skills": [
+        "greg-hoffman-brand-mastery"
+      ]
+    },
+    "harry-dry": {
+      "command": "/harry-dry",
+      "skills": [
+        "harry-dry-copywriting"
+      ]
+    },
+    "heath-brothers": {
+      "command": "/heath-brothers",
+      "skills": []
+    },
+    "henrik-werdelin": {
+      "command": "/henrik-werdelin",
+      "skills": [
+        "henrik-werdelin-portfolio-entrepreneurship"
+      ]
+    },
+    "henry-shukman": {
+      "command": "/henry-shukman",
+      "skills": [
+        "henry-shukman-contemplative-writing"
+      ]
+    },
+    "jasmin-alic": {
+      "command": "/jasmin-alic",
+      "skills": [
+        "jasmin-alic-linkedin-growth"
+      ]
+    },
+    "jason-fladlien": {
+      "command": "/jason-fladlien",
+      "skills": [
+        "jason-fladlien-marketing"
+      ]
+    },
+    "jay-hiette": {
+      "command": "/jay-hiette",
+      "skills": [
+        "jay-hiette-coaching-positioning"
+      ]
+    },
+    "jenny-hoyos": {
+      "command": "/jenny-hoyos",
+      "skills": [
+        "jenny-hoyos-shorts"
       ]
     },
     "jeremy-haynes": {
@@ -1493,6 +1931,30 @@
         "jeremy-haynes-mindset-systems"
       ]
     },
+    "jeremy-miner": {
+      "command": "/jeremy-miner",
+      "skills": [
+        "jeremy-miner-identity-persuasion"
+      ]
+    },
+    "jessica-jensen": {
+      "command": "/jessica-jensen",
+      "skills": [
+        "jessica-jensen-platform-intelligence"
+      ]
+    },
+    "jiang-xueqin": {
+      "command": "/jiang-xueqin",
+      "skills": [
+        "jiang-xueqin-cognitive-autonomy"
+      ]
+    },
+    "jim-oshaughnessy": {
+      "command": "/jim-oshaughnessy",
+      "skills": [
+        "jim-oshaughnessy-philosopher-financier"
+      ]
+    },
     "joanna-wiebe": {
       "command": "/joanna-wiebe",
       "skills": [
@@ -1500,11 +1962,69 @@
         "joanna-wiebe-writing-careers"
       ]
     },
+    "joey-noisy-group": {
+      "command": "/joey-noisy-group",
+      "skills": []
+    },
+    "john-whiting": {
+      "command": "/john-whiting",
+      "skills": [
+        "john-whiting-propaganda-machine"
+      ]
+    },
+    "jonah-berger": {
+      "command": "/jonah-berger",
+      "skills": [
+        "jonah-berger-contagious"
+      ]
+    },
+    "jonathan-courtney": {
+      "command": "/jonathan-courtney",
+      "skills": [
+        "jonathan-courtney-marketing"
+      ]
+    },
+    "jonathan-franzen": {
+      "command": "/jonathan-franzen",
+      "skills": [
+        "jonathan-franzen-storytelling"
+      ]
+    },
+    "joscha-bach": {
+      "command": "/joscha-bach",
+      "skills": [
+        "joscha-bach-consciousness"
+      ]
+    },
+    "josh-kaufman": {
+      "command": "/josh-kaufman",
+      "skills": [
+        "josh-kaufman-business-fundamentals"
+      ]
+    },
+    "josh-sanders": {
+      "command": "/josh-sanders",
+      "skills": [
+        "josh-sanders-linkedin-growth"
+      ]
+    },
+    "joshua-smith": {
+      "command": "/joshua-smith",
+      "skills": [
+        "joshua-smith-real-estate"
+      ]
+    },
     "jun-yuh": {
       "command": "/jun-yuh",
       "skills": [
         "jun-yuh-creator-vision",
         "jun-yuh-personal-brand"
+      ]
+    },
+    "justin-welsh": {
+      "command": "/justin-welsh",
+      "skills": [
+        "justin-welsh-solopreneur"
       ]
     },
     "kallaway": {
@@ -1529,12 +2049,90 @@
         "kieran-flanagan-content-ops"
       ]
     },
+    "kittl": {
+      "command": "/kittl",
+      "skills": [
+        "kittl-graphic-design"
+      ]
+    },
+    "kj-rainey": {
+      "command": "/kj-rainey",
+      "skills": [
+        "kj-rainey-copywriting"
+      ]
+    },
+    "knowledge-architecture-studio": {
+      "command": "/knowledge-architecture-studio",
+      "skills": [
+        "knowledge-architecture-studio"
+      ]
+    },
+    "kobi-brown": {
+      "command": "/kobi-brown",
+      "skills": [
+        "kobi-brown-educational-virality"
+      ]
+    },
+    "kunal-shah": {
+      "command": "/kunal-shah",
+      "skills": [
+        "kunal-shah-consumer-psychology"
+      ]
+    },
+    "lamott-allen": {
+      "command": "/lamott-allen",
+      "skills": [
+        "lamott-allen-really-real-writing"
+      ]
+    },
+    "lance-yichao": {
+      "command": "/lance-yichao",
+      "skills": [
+        "lance-yichao-context-engineering"
+      ]
+    },
     "lara-acosta": {
       "command": "/lara-acosta",
       "skills": [
         "lara-acosta-content-system",
         "lara-acosta-linkedin-growth",
         "lara-acosta-linkedin-mastery"
+      ]
+    },
+    "liam-mley": {
+      "command": "/liam-mley",
+      "skills": [
+        "liam-mley-ai-brain-builder"
+      ]
+    },
+    "lindsay": {
+      "command": "/lindsay",
+      "skills": [
+        "lindsay-ai-consulting"
+      ]
+    },
+    "logan-kilpatrick": {
+      "command": "/logan-kilpatrick",
+      "skills": [
+        "logan-kilpatrick-ai-studio"
+      ]
+    },
+    "lucas-alpay": {
+      "command": "/lucas-alpay",
+      "skills": [
+        "lucas-alpay-storytelling"
+      ]
+    },
+    "luisa-zhou": {
+      "command": "/luisa-zhou",
+      "skills": [
+        "luisa-zhou-coaching"
+      ]
+    },
+    "luke-alexander": {
+      "command": "/luke-alexander",
+      "skills": [
+        "luke-alexander-ai-business"
       ]
     },
     "luke-iha": {
@@ -1554,6 +2152,42 @@
         "luke-iha-vsl-leads"
       ]
     },
+    "lulu-cheng-meservey": {
+      "command": "/lulu-cheng-meservey",
+      "skills": [
+        "lulu-cheng-meservey-communications"
+      ]
+    },
+    "manus-ai": {
+      "command": "/manus-ai",
+      "skills": [
+        "manus-ai-consulting"
+      ]
+    },
+    "marc-andreessen": {
+      "command": "/marc-andreessen",
+      "skills": [
+        "marc-andreessen-ai-thesis"
+      ]
+    },
+    "maria-wendt": {
+      "command": "/maria-wendt",
+      "skills": [
+        "maria-wendt-digital-products"
+      ]
+    },
+    "marisa-murgatroyd": {
+      "command": "/marisa-murgatroyd",
+      "skills": [
+        "marisa-murgatroyd-course-design"
+      ]
+    },
+    "mark-forsyth": {
+      "command": "/mark-forsyth",
+      "skills": [
+        "mark-forsyth-rhetoric"
+      ]
+    },
     "mark-kashef": {
       "command": "/mark-kashef",
       "skills": [
@@ -1566,6 +2200,84 @@
         "mark-kashef-wargame-os"
       ]
     },
+    "mark-manson": {
+      "command": "/mark-manson",
+      "skills": [
+        "mark-manson-values-psychology"
+      ]
+    },
+    "matt-mcgarry": {
+      "command": "/matt-mcgarry",
+      "skills": [
+        "matt-mcgarry-newsletters"
+      ]
+    },
+    "matthew-lakajev": {
+      "command": "/matthew-lakajev",
+      "skills": [
+        "matthew-lakajev-linkedin"
+      ]
+    },
+    "matthew-volkwyn": {
+      "command": "/matthew-volkwyn",
+      "skills": [
+        "matthew-volkwyn-copywriting"
+      ]
+    },
+    "meg-heckman": {
+      "command": "/meg-heckman",
+      "skills": [
+        "meg-heckman-buyer-trigger-os"
+      ]
+    },
+    "michael-bernoff": {
+      "command": "/michael-bernoff",
+      "skills": [
+        "michael-bernoff-identity-engineering"
+      ]
+    },
+    "michael-connelly": {
+      "command": "/michael-connelly",
+      "skills": [
+        "michael-connelly-vivid-writing"
+      ]
+    },
+    "michael-israetel": {
+      "command": "/michael-israetel",
+      "skills": [
+        "michael-israetel-hypertrophy"
+      ]
+    },
+    "michael-margolis": {
+      "command": "/michael-margolis",
+      "skills": [
+        "michael-margolis-user-research"
+      ]
+    },
+    "mike-foutia": {
+      "command": "/mike-foutia",
+      "skills": [
+        "mike-foutia-marketing-tools"
+      ]
+    },
+    "mike-sherrard": {
+      "command": "/mike-sherrard",
+      "skills": [
+        "mike-sherrard-realtor-branding"
+      ]
+    },
+    "mitch-albom": {
+      "command": "/mitch-albom",
+      "skills": [
+        "mitch-albom-writing-mastery"
+      ]
+    },
+    "monk-ai": {
+      "command": "/monk-ai",
+      "skills": [
+        "monk-ai-offer-architecture"
+      ]
+    },
     "nate-b-jones": {
       "command": "/nate-b-jones",
       "skills": [
@@ -1576,6 +2288,18 @@
         "nate-b-jones-intent-engineering",
         "nate-b-jones-orchestration-intelligence",
         "nate-b-jones-trust-architecture"
+      ]
+    },
+    "nate-herk": {
+      "command": "/nate-herk",
+      "skills": [
+        "nate-herk-client-acquisition"
+      ]
+    },
+    "nathan-gotch": {
+      "command": "/nathan-gotch",
+      "skills": [
+        "nathan-gotch-ai-seo"
       ]
     },
     "nick-saraev": {
@@ -1598,12 +2322,180 @@
         "nicolas-cole-sentence-craft"
       ]
     },
+    "nir-eyal": {
+      "command": "/nir-eyal",
+      "skills": [
+        "nir-eyal-habit-design"
+      ]
+    },
+    "noah-hawley": {
+      "command": "/noah-hawley",
+      "skills": [
+        "noah-hawley-storytelling-mastery"
+      ]
+    },
+    "ocean-vuong": {
+      "command": "/ocean-vuong",
+      "skills": [
+        "ocean-vuong-perceptual-writing"
+      ]
+    },
     "omar-eddaoudi": {
       "command": "/omar-eddaoudi",
       "skills": [
         "omar-eddaoudi",
         "omar-eddaoudi-premium-ads",
         "omar-eddaoudi-scaling-ops"
+      ]
+    },
+    "omar-eltakrori": {
+      "command": "/omar-eltakrori",
+      "skills": [
+        "omar-eltakrori"
+      ]
+    },
+    "operator-autopilot": {
+      "command": "/operator-autopilot",
+      "skills": []
+    },
+    "oren-taste-development": {
+      "command": "/oren-taste-development",
+      "skills": [
+        "oren-taste-development"
+      ]
+    },
+    "oscar-hoglund": {
+      "command": "/oscar-hoglund",
+      "skills": [
+        "oscar-hoglund-sound-storytelling"
+      ]
+    },
+    "packy-mccormick": {
+      "command": "/packy-mccormick",
+      "skills": [
+        "packy-mccormick-writing"
+      ]
+    },
+    "pat-flynn": {
+      "command": "/pat-flynn",
+      "skills": [
+        "pat-flynn-passive-income"
+      ]
+    },
+    "patrick-dang": {
+      "command": "/patrick-dang",
+      "skills": [
+        "patrick-dang-online-business"
+      ]
+    },
+    "patrick-debois": {
+      "command": "/patrick-debois",
+      "skills": [
+        "patrick-debois-cdlc"
+      ]
+    },
+    "paul-harding": {
+      "command": "/paul-harding",
+      "skills": [
+        "paul-harding-lyric-prose"
+      ]
+    },
+    "paul-james": {
+      "command": "/paul-james",
+      "skills": [
+        "paul-james-ai-automation"
+      ]
+    },
+    "pj-accetturo": {
+      "command": "/pj-accetturo",
+      "skills": [
+        "pj-accetturo-ai-video"
+      ]
+    },
+    "prediction-market-strategist": {
+      "command": "/prediction-market-strategist",
+      "skills": []
+    },
+    "prosperity-coach": {
+      "command": "/prosperity-coach",
+      "skills": [
+        "prosperity-coach-system"
+      ]
+    },
+    "rachel-woods": {
+      "command": "/rachel-woods",
+      "skills": [
+        "rachel-woods-ai-operations"
+      ]
+    },
+    "reid-hoffman": {
+      "command": "/reid-hoffman",
+      "skills": [
+        "reid-hoffman-ai-strategy"
+      ]
+    },
+    "remotion": {
+      "command": "/remotion",
+      "skills": [
+        "remotion-video-creation"
+      ]
+    },
+    "robert-greene": {
+      "command": "/robert-greene",
+      "skills": [
+        "robert-greene-power-mastery"
+      ]
+    },
+    "robert-mack": {
+      "command": "/robert-mack",
+      "skills": [
+        "robert-mack-comedy-writing"
+      ]
+    },
+    "ron-lynch": {
+      "command": "/ron-lynch",
+      "skills": []
+    },
+    "rory-sutherland": {
+      "command": "/rory-sutherland",
+      "skills": [
+        "rory-sutherland-marketing"
+      ]
+    },
+    "ross-mckay": {
+      "command": "/ross-mckay",
+      "skills": [
+        "ross-mckay-premium-at-scale"
+      ]
+    },
+    "ross-minchev": {
+      "command": "/ross-minchev",
+      "skills": [
+        "ross-minchev-digital-products"
+      ]
+    },
+    "russell-brunson": {
+      "command": "/russell-brunson",
+      "skills": [
+        "russell-brunson-funnels"
+      ]
+    },
+    "sabri-suby": {
+      "command": "/sabri-suby",
+      "skills": [
+        "sabri-suby-ai-advertising"
+      ]
+    },
+    "sabrina-ramonov": {
+      "command": "/sabrina-ramonov",
+      "skills": [
+        "sabrina-ramonov-ai-monetization"
+      ]
+    },
+    "sam-goddard": {
+      "command": "/sam-goddard",
+      "skills": [
+        "sam-goddard-media-scaling"
       ]
     },
     "sam-parr": {
@@ -1614,11 +2506,47 @@
         "sam-parr-taste-acquisition"
       ]
     },
+    "samuel-thompson": {
+      "command": "/samuel-thompson",
+      "skills": [
+        "samuel-thompson-product-launch"
+      ]
+    },
+    "sarah-levinger": {
+      "command": "/sarah-levinger",
+      "skills": [
+        "sarah-levinger-ad-psychology"
+      ]
+    },
+    "satori-graphics": {
+      "command": "/satori-graphics",
+      "skills": [
+        "satori-graphics"
+      ]
+    },
+    "sean-dollwet": {
+      "command": "/sean-dollwet",
+      "skills": [
+        "sean-dollwet-kdp-publishing"
+      ]
+    },
     "sean-kochel": {
       "command": "/sean-kochel",
       "skills": [
         "sean-kochel-ai-business",
         "sean-kochel-design-first-build"
+      ]
+    },
+    "sean-macintyre": {
+      "command": "/sean-macintyre",
+      "skills": [
+        "sean-macintyre-persuasion-philosophy"
+      ]
+    },
+    "seena-rez": {
+      "command": "/seena-rez",
+      "skills": [
+        "seena-rez-tiktok-commerce"
       ]
     },
     "seth-godin": {
@@ -1629,11 +2557,195 @@
         "seth-godin-philosophy"
       ]
     },
+    "shaan-puri": {
+      "command": "/shaan-puri",
+      "skills": [
+        "shaan-puri-storytelling"
+      ]
+    },
+    "shan-hanif": {
+      "command": "/shan-hanif",
+      "skills": [
+        "shan-hanif-audience-monetization"
+      ]
+    },
+    "sherwin-wu": {
+      "command": "/sherwin-wu",
+      "skills": [
+        "sherwin-wu-ai-engineering"
+      ]
+    },
+    "simon-better-creating": {
+      "command": "/simon-better-creating",
+      "skills": []
+    },
+    "sinem-gunel": {
+      "command": "/sinem-gunel",
+      "skills": []
+    },
+    "sky-tan": {
+      "command": "/sky-tan",
+      "skills": [
+        "sky-tan-format-engine"
+      ]
+    },
+    "soowei": {
+      "command": "/soowei",
+      "skills": [
+        "soowei-consulting-leverage"
+      ]
+    },
+    "steven-kotler": {
+      "command": "/steven-kotler",
+      "skills": [
+        "steven-kotler-flow-performance"
+      ]
+    },
+    "steven-pressfield": {
+      "command": "/steven-pressfield",
+      "skills": [
+        "steven-pressfield-narrative-mastery"
+      ]
+    },
+    "steven-young": {
+      "command": "/steven-young",
+      "skills": [
+        "steven-young-consciousness"
+      ]
+    },
+    "stockton-walbeck": {
+      "command": "/stockton-walbeck",
+      "skills": [
+        "stockton-walbeck-lead-magnets"
+      ]
+    },
+    "strength-conditioning-os": {
+      "command": "/strength-conditioning-os",
+      "skills": [
+        "strength-conditioning-os"
+      ]
+    },
+    "sunny-lenarduzzi": {
+      "command": "/sunny-lenarduzzi",
+      "skills": [
+        "sunny-lenarduzzi-youtube"
+      ]
+    },
+    "susan-orlean": {
+      "command": "/susan-orlean",
+      "skills": [
+        "susan-orlean-narrative-nonfiction"
+      ]
+    },
+    "taki-moore": {
+      "command": "/taki-moore",
+      "skills": [
+        "taki-moore-lifestyle-business"
+      ]
+    },
+    "tao-prompts": {
+      "command": "/tao-prompts",
+      "skills": [
+        "tao-prompts-ai-video"
+      ]
+    },
+    "taylor-welch": {
+      "command": "/taylor-welch",
+      "skills": [
+        "taylor-welch-wealthy-consultant"
+      ]
+    },
+    "tess-barclay": {
+      "command": "/tess-barclay",
+      "skills": [
+        "tess-barclay-social-content"
+      ]
+    },
+    "thrivecart": {
+      "command": "/thrivecart",
+      "skills": [
+        "thrivecart-digital-products"
+      ]
+    },
+    "tim-danilov": {
+      "command": "/tim-danilov",
+      "skills": [
+        "tim-danilov-niche-bending"
+      ]
+    },
+    "tim-runia": {
+      "command": "/tim-runia",
+      "skills": []
+    },
+    "tobi-lutke": {
+      "command": "/tobi-lutke",
+      "skills": [
+        "tobi-lutke-business-leadership"
+      ]
+    },
+    "tobias-allen": {
+      "command": "/tobias-allen",
+      "skills": [
+        "tobias-allen-marketing-mastery"
+      ]
+    },
     "tom-noske": {
       "command": "/tom-noske",
       "skills": [
         "tom-noske-content-creation",
         "tom-noske-personal-brand"
+      ]
+    },
+    "tom-segura": {
+      "command": "/tom-segura",
+      "skills": [
+        "tom-segura-comedy-storytelling"
+      ]
+    },
+    "tommy-clark": {
+      "command": "/tommy-clark",
+      "skills": [
+        "tommy-clark-linkedin-growth"
+      ]
+    },
+    "tyler-denk": {
+      "command": "/tyler-denk",
+      "skills": [
+        "tyler-denk-audience-monetization"
+      ]
+    },
+    "vince-nijhof": {
+      "command": "/vince-nijhof",
+      "skills": [
+        "vince-nijhof-dtc-operator-system"
+      ]
+    },
+    "vincent-hu": {
+      "command": "/vincent-hu",
+      "skills": []
+    },
+    "ward-farnsworth": {
+      "command": "/ward-farnsworth",
+      "skills": [
+        "ward-farnsworth-rhetorical-mastery"
+      ]
+    },
+    "wordsatscale": {
+      "command": "/wordsatscale",
+      "skills": [
+        "wordsatscale-seo-ranking"
+      ]
+    },
+    "wright-thompson": {
+      "command": "/wright-thompson",
+      "skills": [
+        "wright-thompson-mastery"
+      ]
+    },
+    "yuri-elkaim": {
+      "command": "/yuri-elkaim",
+      "skills": [
+        "yuri-elkaim-health-coaching-business"
       ]
     }
   }

@@ -1,8 +1,16 @@
 ---
-description: "Damon Cart's NLP change-work system — resistance dissolution through values integration, self-concept transformation grounded in real experience, and persuasion that enters (never fights) the prospect's model of reality. Identity-level change without affirmations or willpower."
+description: "damon-cart — full expert front door: NLP change-work — resistance dissolution, self-concept transformation, persuasion through the prospect's model of reality. Skills: damon-cart-nlp."
 ---
-<!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
+<!-- auto-generated: expert front door (sync_registries.py) — safe to delete; regenerated on sync -->
 
-Load and embody the skill at `skills/damon-cart-nlp/SKILL.md`. Also load `skills/damon-cart-nlp/genius.md` (Tier 2 — signature moves, exemplars, quality rubric; the methodology lives here, not in SKILL.md). Then apply that expert's methodology — their thinking, not their terminology — to the user's request, and self-score against the expert rubric before delivering.
+Load `agents/damon-cart/AGENT.md` — identity, voice, beliefs, anti-patterns — and EMBODY damon-cart for this conversation.
 
-This skill has runnable processes. Its flagship workflow is `skills/damon-cart-nlp/workflows/01-dissolve-resistance.md`. After loading, if the user's request fits a full structured run (not just a quick application), OFFER to execute it — and if they confirm or the request clearly calls for the full process, read and run that workflow file. See the skill's 'Available Workflows' table for the other processes.
+Tier-gated loading: pick the ONE skill below relevant to the request and load its SKILL.md (Tier 1). Load that skill's genius.md (Tier 2) before producing deliverables. NEVER bulk-load all skills.
+
+| Skill | Tier 1 (SKILL.md path) | Tier 2 (genius.md path) | Flagship workflow |
+|-------|------------------------|-------------------------|-------------------|
+| damon-cart-nlp | `skills/damon-cart-nlp/SKILL.md` | `skills/damon-cart-nlp/genius.md` | `skills/damon-cart-nlp/workflows/01-dissolve-resistance.md` |
+
+If the request fits a full structured run (not just a quick application), OFFER the loaded skill's flagship workflow; each skill's 'Available Workflows' table and its `references/prompts-v2/` execution prompts cover the other processes.
+
+Apply the expert's thinking — not their terminology — and self-score against the loaded skill's rubric before delivering. Narrow per-skill commands still exist (/<full-skill-slug>).

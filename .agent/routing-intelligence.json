@@ -6010,6 +6010,40 @@
             "ensemble": true,
             "compound_pairing": "extract-mastery + forge-os + jeremy-haynes-cold-offer",
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_171600_f31b",
+            "timestamp": "2026-07-15T17:16:00.116126+00:00",
+            "session_id": "",
+            "request_summary": "DWA 14-Day Ship Sprint offer audit — 26-jh-offer-audit-ship-sprint.md, composite 7.75, 3 ranked fixes, tickets 0005/0006 fed",
+            "intent_score": 9,
+            "domain_detected": "Analysis",
+            "experts_deployed": [
+                "jeremy-haynes"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "jh-offer-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_171624_02a6",
+            "timestamp": "2026-07-15T17:16:24.390039+00:00",
+            "session_id": "",
+            "request_summary": "Expert Front-Door System — /[expert-name] = full arsenal (persona + all skills, tier-gated); 222 experts backfilled; generators wired into extract/extract-forge/forge-os registration",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "none"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "orchestrated-build",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -6385,15 +6419,15 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 333,
+            "total_routings": 335,
             "total_feedback": 41,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 49,
+                "System": 50,
                 "Client Work": 13,
-                "Analysis": 4,
+                "Analysis": 5,
                 "Strategy": 18,
                 "Creative": 8,
                 "Legal Consult Prep": 1,
@@ -6513,7 +6547,7 @@
                 "collective-genius-council": 1,
                 "mark-kashef": 1,
                 "chase-hughes-conversational-influence": 4,
-                "none": 3,
+                "none": 4,
                 "alan-aragon-nutrition": 1,
                 "nate-b-jones-context-engineering": 34,
                 "luke-iha-avatar-machine": 5,
@@ -6605,7 +6639,7 @@
                 "market-intelligence": 1,
                 "forge-os": 6,
                 "health-performance-geo": 2,
-                "jeremy-haynes": 2,
+                "jeremy-haynes": 3,
                 "luke-iha-cross-domain": 1,
                 "seena-rez-tiktok-commerce": 1,
                 "docx": 1,
@@ -6615,7 +6649,7 @@
                 "jeremy-haynes-cold-offer": 1
             },
             "tier_counts": {
-                "0": 333,
+                "0": 335,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -6624,9 +6658,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 184,
-                "finalize-auto": 149
+                "finalize-auto": 151
             },
-            "ensemble_count": 241,
+            "ensemble_count": 242,
             "auto_miss_count": 32,
             "auto_match_count": 9
         }

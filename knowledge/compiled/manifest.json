@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-15T09:24:54.601941",
-  "total_files": 604,
-  "total_words": 2527058,
-  "total_tokens_est": 3360987,
+  "generated": "2026-07-15T10:16:24.668271",
+  "total_files": 607,
+  "total_words": 2533265,
+  "total_tokens_est": 3369242,
   "stale_files_30d": 450,
   "domains": {
     "content": 202,
@@ -13,7 +13,7 @@
     "brand": 37,
     "systems": 32,
     "seo": 23,
-    "research": 19,
+    "research": 22,
     "sales": 10
   },
   "experts": {
@@ -1925,11 +1925,11 @@
       "parent": "knowledge",
       "domain": "content",
       "expert": null,
-      "word_count": 4255,
-      "modified": "2026-07-15T08:54:25.756141",
+      "word_count": 4290,
+      "modified": "2026-07-15T10:16:00.405615",
       "age_days": 0,
-      "size_bytes": 70392,
-      "content_hash": "98050f57",
+      "size_bytes": 71180,
+      "content_hash": "d3f8f5f1",
       "has_frontmatter": false
     },
     {
@@ -1938,10 +1938,10 @@
       "parent": "knowledge",
       "domain": "general",
       "expert": null,
-      "word_count": 11669,
-      "modified": "2026-07-15T09:24:54.329908",
+      "word_count": 11721,
+      "modified": "2026-07-15T10:16:24.414053",
       "age_days": 0,
-      "size_bytes": 91567,
+      "size_bytes": 91954,
       "content_hash": "5a51f947",
       "has_frontmatter": false
     },
@@ -2018,7 +2018,7 @@
       "expert": "luke-iha",
       "word_count": 608,
       "modified": "2026-04-13T10:13:53.409441",
-      "age_days": 92,
+      "age_days": 93,
       "size_bytes": 4659,
       "content_hash": "743b0ba8",
       "has_frontmatter": true
@@ -2031,7 +2031,7 @@
       "expert": "nicolas-cole",
       "word_count": 668,
       "modified": "2026-04-13T10:14:24.112031",
-      "age_days": 92,
+      "age_days": 93,
       "size_bytes": 4950,
       "content_hash": "cc3b5ed0",
       "has_frontmatter": true
@@ -2044,7 +2044,7 @@
       "expert": "kallaway",
       "word_count": 608,
       "modified": "2026-04-13T10:15:39.541375",
-      "age_days": 92,
+      "age_days": 93,
       "size_bytes": 4654,
       "content_hash": "4bdb6753",
       "has_frontmatter": true
@@ -2135,7 +2135,7 @@
       "expert": "luke-iha",
       "word_count": 687,
       "modified": "2026-04-13T10:16:04.882881",
-      "age_days": 92,
+      "age_days": 93,
       "size_bytes": 4951,
       "content_hash": "aa3e6f61",
       "has_frontmatter": true
@@ -2213,7 +2213,7 @@
       "expert": "luke-iha",
       "word_count": 715,
       "modified": "2026-04-13T10:14:56.824445",
-      "age_days": 92,
+      "age_days": 93,
       "size_bytes": 5421,
       "content_hash": "b9bc8b61",
       "has_frontmatter": true
@@ -2330,7 +2330,7 @@
       "expert": null,
       "word_count": 983,
       "modified": "2026-02-22T09:52:39.969238",
-      "age_days": 142,
+      "age_days": 143,
       "size_bytes": 6802,
       "content_hash": "dd0359f1",
       "has_frontmatter": false
@@ -2655,7 +2655,7 @@
       "expert": null,
       "word_count": 3092,
       "modified": "2026-03-06T09:43:26.450494",
-      "age_days": 130,
+      "age_days": 131,
       "size_bytes": 21783,
       "content_hash": "24eff331",
       "has_frontmatter": false
@@ -3347,6 +3347,19 @@
       "age_days": 116,
       "size_bytes": 25439,
       "content_hash": "abf9d91a",
+      "has_frontmatter": false
+    },
+    {
+      "path": "extractions/grounding/pricing-psychology-for-handmade-goods-sellers-corpus.md",
+      "name": "pricing-psychology-for-handmade-goods-sellers-corpus",
+      "parent": "grounding",
+      "domain": "research",
+      "expert": null,
+      "word_count": 1441,
+      "modified": "2026-07-15T09:29:50.061925",
+      "age_days": 0,
+      "size_bytes": 10827,
+      "content_hash": "9b1ff3d2",
       "has_frontmatter": false
     },
     {
@@ -4215,7 +4228,7 @@
       "expert": null,
       "word_count": 2832,
       "modified": "2026-03-06T10:12:15.808743",
-      "age_days": 130,
+      "age_days": 131,
       "size_bytes": 19346,
       "content_hash": "11953e75",
       "has_frontmatter": false
@@ -7393,6 +7406,19 @@
       "has_frontmatter": false
     },
     {
+      "path": "research_outputs/agi-definition-analysis.md",
+      "name": "agi-definition-analysis",
+      "parent": "research_outputs",
+      "domain": "research",
+      "expert": null,
+      "word_count": 998,
+      "modified": "2026-07-15T10:12:11.542783",
+      "age_days": 0,
+      "size_bytes": 6454,
+      "content_hash": "3c858e1c",
+      "has_frontmatter": false
+    },
+    {
       "path": "research_outputs/ai-brain-build-validation/red_team_validation.md",
       "name": "red_team_validation",
       "parent": "ai-brain-build-validation",
@@ -7832,6 +7858,19 @@
       "age_days": 106,
       "size_bytes": 19419,
       "content_hash": "f05a4508",
+      "has_frontmatter": false
+    },
+    {
+      "path": "research_outputs/kimi-2.6-vs-antigravity-orchestration.md",
+      "name": "kimi-2.6-vs-antigravity-orchestration",
+      "parent": "research_outputs",
+      "domain": "research",
+      "expert": null,
+      "word_count": 3681,
+      "modified": "2026-07-15T10:12:11.470875",
+      "age_days": 0,
+      "size_bytes": 29103,
+      "content_hash": "38272bc0",
       "has_frontmatter": false
     },
     {

@@ -474,3 +474,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-15 08:51]` **finalize** | Jeremy Haynes — Cold Traffic Offer Mastery extraction (forge): skills/jeremy-haynes-cold-offer, 13 w | general | jeremy-haynes — composite:8.33 status:Keep
 - `[2026-07-15 08:54]` **finalize** | Forge OS suite completion — all five lanes production-ready: workflow-forge + agent-forge native eng | general | forge-os — composite:9.0 status:Keep
 - `[2026-07-15 09:24]` **finalize** | Tommy Clark 2026 LinkedIn strategy — forge+amplify expansion: Three-Moat System, TLA engine, data/ph | content | tommy-clark — composite:8.33 status:Keep
+- `[2026-07-15 10:16]` **finalize** | DWA 14-Day Ship Sprint offer audit — 26-jh-offer-audit-ship-sprint.md, composite 7.75, 3 ranked fixe | general | jeremy-haynes — composite:8.33 status:Keep
+- `[2026-07-15 10:16]` **finalize** | Expert Front-Door System — /[expert-name] = full arsenal (persona + all skills, tier-gated); 222 exp | general | none — composite:8.33 status:Keep
