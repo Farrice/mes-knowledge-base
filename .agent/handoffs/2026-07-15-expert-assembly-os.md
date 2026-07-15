@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** expert-assembly-os  
-**Full path:** .agent/handoffs/2026-07-15-expert-assembly-os.md  
-**Date:** 2026-07-15 (today)  
-**Status:** ready  
-**Title:** Expert Assembly OS — Build v1 Shipped (hybrid casting + /assemble + /panel-sync)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume expert-assembly-os` for this one.
-
----
-
 ---
 thread: expert-assembly-os
 status: ready
@@ -56,4 +44,3 @@ pin: true
 - Two live sessions co-edited this tree today (GOLDEN RULE: one tool per working tree) — check `git status` is clean before starting.
 - Personas are composites: never let a persona-originated "fact" ship without research.py grounding.
 - Runs cost ~1.2M subagent tokens — one panel per real decision.
-

@@ -6281,6 +6281,44 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_190901_9d9a",
+            "timestamp": "2026-07-15T19:09:01.419842+00:00",
+            "session_id": "bd0106ec-d663-4cb7-b679-896dc0046237",
+            "request_summary": "Check E2E workflow run wf_b0c91bb5-606 (Expert Assembly sailing test); validate artifacts (panel.json, lint-PASS personas, outcome.md sections + grounding verdict, digest, pinned thread), then finaliz",
+            "intent_score": 0,
+            "domain_detected": "dara-denney-meta-ads",
+            "experts_deployed": [
+                "dara-denney-meta-ads",
+                "expert-assembly-os",
+                "creative-assembly"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "dara-denney-meta-ads",
+            "ensemble": true,
+            "compound_pairing": "dara-denney-meta-ads + expert-assembly-os + creative-assembly",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_194023_7b0b",
+            "timestamp": "2026-07-15T19:40:23.135528+00:00",
+            "session_id": "bd0106ec-d663-4cb7-b679-896dc0046237",
+            "request_summary": "give me the root core operators guide to what we built here so I know how to operate and deploy it at the highest levels and what it can and cannot do. then run /end-session",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-copy-blocks",
+            "experts_deployed": [
+                "luke-iha-copy-blocks",
+                "wright-thompson-mastery",
+                "luke-iha-unaware-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-copy-blocks",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-copy-blocks + wright-thompson-mastery + luke-iha-unaware-ads",
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -6665,7 +6703,7 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 348,
+            "total_routings": 350,
             "total_feedback": 42,
             "positive_count": 0,
             "negative_count": 0,
@@ -6693,7 +6731,7 @@
                 "nicolas-cole-digital-products": 1,
                 "nate-b-jones-context-engineering": 30,
                 "omar-eltakrori": 1,
-                "luke-iha-copy-blocks": 20,
+                "luke-iha-copy-blocks": 21,
                 "extract-mastery": 3,
                 "luke-iha-avatar-machine": 4,
                 "skill-creator": 1,
@@ -6709,7 +6747,7 @@
                 "pptx": 4,
                 "kallaway-social-commerce": 1,
                 "story-compass": 1,
-                "dara-denney-meta-ads": 1,
+                "dara-denney-meta-ads": 2,
                 "chase-hughes-context-engineering": 1,
                 "luke-iha-insight-vectors": 1,
                 "wright-thompson-mastery": 1,
@@ -6752,7 +6790,7 @@
                 "master-copywriter": 3,
                 "ben-watkins": 1,
                 "stefan-georgi-dopamine-copy": 20,
-                "luke-iha-copy-blocks": 27,
+                "luke-iha-copy-blocks": 28,
                 "how-i-write-os": 21,
                 "system-architecture": 7,
                 "supercomputer": 23,
@@ -6774,7 +6812,7 @@
                 "nate-b-jones-auto-improvement-loops": 4,
                 "self-evolving-systems": 3,
                 "internal-comms": 2,
-                "wright-thompson-mastery": 8,
+                "wright-thompson-mastery": 9,
                 "alex-suzuki-digital-product-revenue-os": 3,
                 "paul-harding-lyric-prose": 2,
                 "paul-james-ai-automation": 1,
@@ -6826,8 +6864,8 @@
                 "alex-myatt-creative-engine": 1,
                 "icp-deep-canvasser": 1,
                 "donald-miller-cognitive-load": 1,
-                "luke-iha-unaware-ads": 1,
-                "dara-denney-meta-ads": 9,
+                "luke-iha-unaware-ads": 2,
+                "dara-denney-meta-ads": 10,
                 "fantastic-posters": 7,
                 "nate-b-jones-intent-engineering": 1,
                 "evan-spiegel-distribution-architecture": 2,
@@ -6894,10 +6932,12 @@
                 "ali-abdaal-action-bias": 1,
                 "jeremy-haynes-cold-offer": 1,
                 "system": 2,
-                "panel_cast": 1
+                "panel_cast": 1,
+                "expert-assembly-os": 1,
+                "creative-assembly": 1
             },
             "tier_counts": {
-                "0": 348,
+                "0": 350,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -6905,10 +6945,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 192,
+                "hybrid": 194,
                 "finalize-auto": 156
             },
-            "ensemble_count": 252,
+            "ensemble_count": 254,
             "auto_miss_count": 32,
             "auto_match_count": 10
         }

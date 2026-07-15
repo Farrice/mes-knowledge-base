@@ -16,6 +16,10 @@
 | Resume the Book One pilot / run the cold niche-hunt | [KDP Operator OS](2026-07-13-kdp-operator-os.md) |
 | Look up frame-verified KDP economics (pricing, outsourcing, royalty math) | [KDP Operator OS](2026-07-13-kdp-operator-os.md) |
 | **Orchestration / missions** | |
+| Summon a world-class expert panel for a domain I don't know | [Expert Assembly OS](2026-07-15-expert-assembly-os.md) |
+| Get a tiered roadmap (strategic/tactical/operational) with observable criteria | [Expert Assembly OS](2026-07-15-expert-assembly-os.md) |
+| Reconvene the same panel on a follow-up question | [Expert Assembly OS](2026-07-15-expert-assembly-os.md) |
+| Forge a composite persona without fabricated credentials | [Expert Assembly OS](2026-07-15-expert-assembly-os.md) |
 | Turn a messy thought into a routed, goal-aligned mission with one command | [Maestro Layer](2026-07-13-maestro-layer.md) |
 | Know which model conducts vs executes, and how much autonomy a mission gets | [Maestro Layer](2026-07-13-maestro-layer.md) |
 | Run parallel expert trajectories or fan-out research unattended | [Swarm + Frontier Loops](2026-07-13-swarm-and-frontier-loops.md) |
@@ -64,6 +68,7 @@
 
 *(newest first)*
 
+- 2026-07-15 — [Expert Assembly OS](2026-07-15-expert-assembly-os.md) — hybrid panel: roster + forged composites (no fake stats), tiered roadmap, /panel-sync persistence
 - 2026-07-13 — [KDP Operator OS](2026-07-13-kdp-operator-os.md) — demand-first publishing engine, 10 workflows, honest medians
 - 2026-07-13 — [Maestro Layer](2026-07-13-maestro-layer.md) — one podium, one card, pattern choice as system property
 - 2026-07-13 — [Prompt Wiring OS](2026-07-13-prompt-wiring-os.md) — every skill ships deterministic execution prompts, auto-surfaced
