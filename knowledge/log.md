@@ -477,3 +477,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-15 10:16]` **finalize** | DWA 14-Day Ship Sprint offer audit — 26-jh-offer-audit-ship-sprint.md, composite 7.75, 3 ranked fixe | general | jeremy-haynes — composite:8.33 status:Keep
 - `[2026-07-15 10:16]` **finalize** | Expert Front-Door System — /[expert-name] = full arsenal (persona + all skills, tier-gated); 222 exp | general | none — composite:8.33 status:Keep
 - `[2026-07-15 10:30]` **finalize** | System Health & Debt Control loop: health_metrics.py collector + launchd 06:15 + System Vitals brief | general | system — composite:8.67 status:Keep
+- `[2026-07-15 11:19]` **finalize** | DWA presale page — 3 audit fixes applied (credential section, day-0-at-checkout, insurance frame + c | general | jeremy-haynes — composite:8.33 status:Keep

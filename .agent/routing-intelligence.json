@@ -6061,6 +6061,42 @@
             "ensemble": true,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_181434_3cfd",
+            "timestamp": "2026-07-15T18:14:34.402429+00:00",
+            "session_id": "60f582cb-363a-4be9-a84d-af6119c5c319",
+            "request_summary": "Apply the 3 DWA audit fixes to the presale page so ticket 0006 can flip to GO",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-copy-blocks",
+            "experts_deployed": [
+                "luke-iha-copy-blocks",
+                "theme-factory",
+                "kallaway-word-mastery"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-copy-blocks",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-copy-blocks + theme-factory + kallaway-word-mastery",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_181917_7678",
+            "timestamp": "2026-07-15T18:19:17.193257+00:00",
+            "session_id": "",
+            "request_summary": "DWA presale page — 3 audit fixes applied (credential section, day-0-at-checkout, insurance frame + concrete friction copy) + em-dash voice-law pass on public copy",
+            "intent_score": 9,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jeremy-haynes"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "jh-offer-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -6436,7 +6472,7 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 336,
+            "total_routings": 338,
             "total_feedback": 41,
             "positive_count": 0,
             "negative_count": 0,
@@ -6448,7 +6484,7 @@
                 "Strategy": 18,
                 "Creative": 8,
                 "Legal Consult Prep": 1,
-                "Content": 38,
+                "Content": 39,
                 "Extraction": 11,
                 "Research": 7,
                 "stefan-georgi-dopamine-copy": 7,
@@ -6464,7 +6500,7 @@
                 "nicolas-cole-digital-products": 1,
                 "nate-b-jones-context-engineering": 30,
                 "omar-eltakrori": 1,
-                "luke-iha-copy-blocks": 16,
+                "luke-iha-copy-blocks": 17,
                 "extract-mastery": 3,
                 "luke-iha-avatar-machine": 4,
                 "skill-creator": 1,
@@ -6523,7 +6559,7 @@
                 "master-copywriter": 3,
                 "ben-watkins": 1,
                 "stefan-georgi-dopamine-copy": 17,
-                "luke-iha-copy-blocks": 23,
+                "luke-iha-copy-blocks": 24,
                 "how-i-write-os": 19,
                 "system-architecture": 7,
                 "supercomputer": 23,
@@ -6627,12 +6663,12 @@
                 "oren-brand-archetypes": 1,
                 "luke-iha-proof-ladder": 1,
                 "mitch-albom-writing-mastery": 1,
-                "theme-factory": 1,
+                "theme-factory": 2,
                 "kallaway-illusion-of-novelty": 3,
                 "cinematic-documentary": 1,
                 "research-engine": 1,
                 "web-artifacts-builder": 1,
-                "kallaway-word-mastery": 1,
+                "kallaway-word-mastery": 2,
                 "mike-foutia-marketing-tools": 1,
                 "andrew-stanton-audience-engineering": 2,
                 "new-media-kingmaker": 1,
@@ -6656,7 +6692,7 @@
                 "market-intelligence": 1,
                 "forge-os": 6,
                 "health-performance-geo": 2,
-                "jeremy-haynes": 3,
+                "jeremy-haynes": 4,
                 "luke-iha-cross-domain": 1,
                 "seena-rez-tiktok-commerce": 1,
                 "docx": 1,
@@ -6667,7 +6703,7 @@
                 "system": 1
             },
             "tier_counts": {
-                "0": 336,
+                "0": 338,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -6675,10 +6711,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 184,
-                "finalize-auto": 152
+                "hybrid": 185,
+                "finalize-auto": 153
             },
-            "ensemble_count": 243,
+            "ensemble_count": 244,
             "auto_miss_count": 32,
             "auto_match_count": 9
         }

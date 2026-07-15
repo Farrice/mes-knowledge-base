@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** jh-offer-audit  
-**Full path:** .agent/handoffs/2026-07-15-jh-offer-audit.md  
-**Date:** 2026-07-15 (today)  
-**Status:** active  
-**Title:** DWA presale page — 3 audit fixes applied (credential section, day-0-at-checkout, insurance frame + concrete friction copy) + em-dash voice-law pass on public copy
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume jh-offer-audit` for this one.
-
----
-
 ---
 thread: jh-offer-audit
 status: active
@@ -23,4 +11,3 @@ pin: true
 **Next session focus**: Resume the `jh-offer-audit` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (jh-offer-audit)._
-
