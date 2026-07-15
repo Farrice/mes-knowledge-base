@@ -123,3 +123,6 @@ projects/andrea-dj/launch/03-visual-variants/_archive/
 projects/andrea-dj/launch/03-visual-variants/variant-b-hero-shots-v3/
 projects/andrea-dj/launch/03-visual-variants/variant-c-hero-shots-v3/
 .agent/active-tool.lock
+
+# Large local archives (never commit — .git bloat; raw sources live in sovereign.db / original services)
+_archive/*.tar.gz
