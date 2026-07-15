@@ -1,3 +1,12 @@
+---
+name: Success-Without-Sources Blocks the Healthy Fallback
+problem_signature: a paid/primary research leg reports SUCCESS while producing zero sourced output — the dispatcher tests "returned without raising" instead of "cleared the provenance floor," so the healthy $0 fallback never fires and placeholder or citation-empty output ships wearing a success receipt
+domain: research
+tags: [research-dispatcher, fallback-chain, phantom-success, provenance-floor, citation-drift, placeholder-artifacts]
+date: 2026-07-08
+status: active
+---
+
 # Success-Without-Sources Blocks the Healthy Fallback
 
 **Date:** 2026-07-08 · **Domain:** research infrastructure / dispatcher design · **Severity:** high (silent quality collapse + wasted spend)

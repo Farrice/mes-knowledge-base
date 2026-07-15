@@ -1,3 +1,13 @@
+---
+name: External Skill System Merge via Adopt/Adapt/Skip Map
+problem_signature: a premium external skill source ships a major new version with genuinely superior structures — blind-merge installs stale/deprecated skills and misses renames while fork-and-own breaks the updater and creates permanent drift
+domain: system
+tags: [external-skills, merge-map, adopt-adapt-skip, matt-pocock, composition-over-forking, skills-update]
+date: 2026-07-10
+status: active
+session: matt-pocock-v1-1-extract-forge
+---
+
 # Solution Card — Merging a Premium External Skill System Without Forking or Blind-Installing
 
 **Date**: 2026-07-10 · **Session**: Matt Pocock v1.1 extract-forge · **Domain**: system / harness

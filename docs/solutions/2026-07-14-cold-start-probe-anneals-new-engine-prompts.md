@@ -1,3 +1,13 @@
+---
+name: Cold-Start Probe Anneals New Engine Prompts
+problem_signature: a freshly forged engine prompt (one other agents will execute) passes the deterministic structure audit while carrying hidden ambiguities only a cold reader hits — dangling references, undefined jargon, contradictory placement instructions the author can't see because they had full context
+domain: system
+tags: [forge-os, prompt-forging, cold-start, poc-gate, usability-test, annealing]
+date: 2026-07-14
+status: active
+session: forge-os-wave-1-poc
+---
+
 # Cold-Start Probe Run Anneals a Brand-New Engine Prompt Same-Session
 
 **Date**: 2026-07-14 · **Domain**: system / prompt forging · **Origin**: Forge OS Wave 1 PoC

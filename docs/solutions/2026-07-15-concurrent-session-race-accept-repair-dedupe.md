@@ -1,3 +1,13 @@
+---
+name: Concurrent Session Racing a Live Forge — Accept, Repair, Dedupe
+problem_signature: files change mid-build that the conducting session never wrote — context-aware rewrites dropping audit-required sections, net-new wrappers pointing at workflows that don't exist, duplicate prompts for one deliverable — because a second live session is writing the same working tree
+domain: system
+tags: [golden-rule, concurrent-sessions, session-lock, merge-discipline, extract-forge, renaissance-audit]
+date: 2026-07-15
+status: active
+session: jeremy-haynes-cold-offer-forge
+---
+
 # Concurrent Session Racing a Live Forge: Accept → Repair → Dedupe, Never Revert
 
 **Date**: 2026-07-15 (attribution corrected same day) · **Domain**: system / extraction forging · **Origin**: jeremy-haynes-cold-offer forge session

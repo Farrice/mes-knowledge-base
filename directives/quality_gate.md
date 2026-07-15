@@ -101,8 +101,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-07-15 (chain_runner finalize for jeremy-haynes-cold-offer) |
-| **Activation Count** | 616 |
+| **Last Activated** | 2026-07-15 (chain_runner finalize for expert-assembly-os) |
+| **Activation Count** | 617 |
 | **30-Day Review Date** | 2026-08-14 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

@@ -1,0 +1,16 @@
+{
+  "ts": "2026-07-15T11:33:50",
+  "total": 1,
+  "counts": {
+    "PASS": 1
+  },
+  "failing": [],
+  "results": [
+    {
+      "script": "verify_activation_governor.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.7
+    }
+  ]
+}

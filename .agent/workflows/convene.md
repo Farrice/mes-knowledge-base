@@ -44,5 +44,6 @@ This command fronts the reliable engine. Execute it by invoking the **Workflow t
    + one distilled line appended to the growing `knowledge/council-rubric.md`.
 
 ## When NOT to use
+- Thin domain coverage + roadmap synthesis → `/assemble` (hybrid roster + bespoke personas + tiered roadmap).
 - Pure fact-gathering → `/deep-research` (the research swarm).
 - Single-expert, clear task → invoke that expert/skill directly.

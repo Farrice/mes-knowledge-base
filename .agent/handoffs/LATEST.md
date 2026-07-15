@@ -1,26 +1,28 @@
 # Latest Handoff
 
-**Thread:** jh-offer-audit  
-**Full path:** .agent/handoffs/2026-07-15-jh-offer-audit.md  
+**Thread:** solutions  
+**Full path:** .agent/handoffs/2026-07-15-solutions.md  
 **Date:** 2026-07-15 (today)  
 **Status:** active  
-**Title:** DWA presale page — 3 audit fixes applied (credential section, day-0-at-checkout, insurance frame + concrete friction copy) + em-dash voice-law pass on public copy
+**Title:** Solutions — Expert Assembly Os Hybrid Casting
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume jh-offer-audit` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume solutions` for this one.
 
 ---
-thread: jh-offer-audit
+
+---
+thread: solutions
 status: active
-resume_hint: DWA presale page — 3 audit fixes applied (credential section, day-0-at-checkout, insurance frame + concrete friction copy) + em-dash voice-law pass on public copy
+resume_hint: Solutions — Expert Assembly Os Hybrid Casting
 branch: main
 pin: true
 ---
 
-# DWA presale page — 3 audit fixes applied (credential section, day-0-at-checkout, insurance frame + concrete friction copy) + em-dash voice-law pass on public copy
+# Solutions — Expert Assembly Os Hybrid Casting
 
-**Next session focus**: Resume the `jh-offer-audit` work-stream — see the deliverable above.
+**Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
 
-_Auto-pinned by chain_runner.finalize (jh-offer-audit)._
+**Artifacts:** /tmp/test_persona_clean.md, /Users/farricecain/Google Antigravity/skills/expert-assembly-os/SKILL.md, /Users/farricecain/Google Antigravity/execution/workflow_router.py, /Users/farricecain/Google Antigravity/directives/routing-bindings.md, /Users/farricecain/Google Antigravity/docs/solutions/2026-07-15-expert-assembly-os-hybrid-casting.md
+
+**Retrieve:** `/resume solutions`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
 

@@ -1,3 +1,13 @@
+---
+name: Bounded Freeze Override via Receipt Excavation
+problem_signature: the user pushes against a standing strategic freeze/binding to revive a "dead" or unproven idea — blocking treats the pull as pure sabotage-pattern, building fresh repeats the documented redirect loop, and no one has excavated buried receipts (money that actually moved) before ruling
+domain: system
+tags: [strategy, freeze-override, receipt-excavation, falsifiability, decision-architecture, path-decision, dead-idea-revival]
+date: 2026-07-07
+status: active
+session: alignment-architect-launch
+---
+
 # Solution Card — Bounded Freeze Override via Receipt Excavation
 
 **Date:** 2026-07-07 · **Domain:** strategy / decision architecture · **Session:** Alignment Architect launch

@@ -1,3 +1,13 @@
+---
+name: Brief to Finished AI Video Ad, Production-Grade
+problem_signature: a written ad brief/script must become launch-ready video with consistent characters and exact product labels across many AI-generated clips — one-model/one-prompt approaches produce inconsistent voices, drifting faces, garbled labels, and burned-in subtitle bugs
+domain: creative
+tags: [ai-video, multi-model-relay, remotion, storyboard, silent-vo, veo, kling, production-pipeline, trendscale]
+date: 2026-07-11
+status: active
+session: trendscale-trial
+---
+
 # Solution Card — Brief → Finished AI Video Ad, Production-Grade (2026-07-11)
 
 **Problem:** A written ad brief/script must become finished, realistic, launch-ready video, with consistent characters and exact product labels across many AI-generated clips, assembled hands-off so the operator only applies taste. One-model/one-prompt approaches produce inconsistent voices, drifting faces, garbled labels, and burned-in subtitle bugs.

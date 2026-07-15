@@ -1,3 +1,13 @@
+---
+name: Concurrent Writer Poisons a Skip-If-Exists Queue
+problem_signature: a resumable batch pipeline that treats file existence as "done" gets poisoned by a second uncoordinated writer — garbage files (template slop, truncation, re-wrapped stubs) pass the naive structural gate and freeze as done forever, silently compounding quality loss
+domain: system
+tags: [batch-pipeline, skip-if-exists, queue-poisoning, quality-gate, golden-rule, provenance-fingerprinting, verify-fleet]
+date: 2026-07-11
+status: active
+session: prompt-renaissance-waves-2-13
+---
+
 # Solution Card — Concurrent Writer Poisons a Skip-If-Exists Queue; Deterministic Quality Gate + Content Verify Fleet Recovers It
 
 **Date:** 2026-07-11

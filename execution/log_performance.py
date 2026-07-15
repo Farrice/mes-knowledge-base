@@ -60,6 +60,41 @@ PERFORMANCE_DB_ID = os.getenv(
     '31f49875a89781dbb599dee5e7961b5c'
 )
 
+# Local-first mirror (2026-07-15). session_log_registrar and
+# activation_governor were written against get_local_performance_entries /
+# get_sync_summary, but no local store ever existed — the registrar
+# import-crashed on every run and skill-evolution "local history" was
+# permanently zero. Every log_output call now lands here FIRST; Notion is the
+# sync target, not the source of truth.
+LOCAL_LOG_PATH = Path(__file__).parent.parent / '.agent' / 'performance-log.jsonl'
+
+
+def _append_local(entry: dict) -> None:
+    LOCAL_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+    with LOCAL_LOG_PATH.open('a') as f:
+        f.write(json.dumps(entry, ensure_ascii=False) + '\n')
+
+
+def get_local_performance_entries() -> list:
+    """All locally-mirrored performance entries (oldest first)."""
+    try:
+        return [json.loads(l) for l in LOCAL_LOG_PATH.read_text().splitlines() if l.strip()]
+    except FileNotFoundError:
+        return []
+
+
+def get_sync_summary() -> dict:
+    """Counts by Notion-sync state for the local mirror."""
+    entries = get_local_performance_entries()
+    by = lambda s: sum(1 for e in entries if e.get('sync') == s)  # noqa: E731
+    return {
+        'total': len(entries),
+        'remote_synced': by('synced'),
+        'pending': by('pending'),
+        'sync_failed': by('failed'),
+        'local_first': len(entries),
+    }
+
 
 def log_output(
     output: str,
@@ -106,7 +141,26 @@ def log_output(
     if experiment_tag:
         props['Experiment Tag'] = api.rich_text(experiment_tag)
 
-    return api.create_page(PERFORMANCE_DB_ID, props)
+    local_entry = {
+        'date': date.today().isoformat(),
+        'output': output, 'agent': agent, 'skill': skill, 'workflow': workflow,
+        'task_type': task_type, 'quality_score': quality_score,
+        'user_rating': user_rating, 'intent_alignment': intent_alignment,
+        'expert_standard': expert_standard,
+        'adversarial_resilience': adversarial_resilience,
+        'status': status, 'notes': notes, 'experiment_tag': experiment_tag,
+    }
+    try:
+        page = api.create_page(PERFORMANCE_DB_ID, props)
+        local_entry['sync'] = 'synced'
+        _append_local(local_entry)
+        return page
+    except Exception:
+        # Notion down/misconfigured must never lose the entry — mirror it
+        # locally as failed, then surface the original error to the caller.
+        local_entry['sync'] = 'failed'
+        _append_local(local_entry)
+        raise
 
 
 def get_baseline(

@@ -1,3 +1,13 @@
+---
+name: AI-Video Product-Label Morphing Fixed by Real-Image Composite
+problem_signature: generative video (Higgsfield/Veo) morphs and misspells a real product label, and the corrupted close-up IS the product reveal — trimming around it can't work; the render reads unshippable (garbled label, generic lag, poor edit)
+domain: creative
+tags: [ai-video, product-label, remotion, overlays, compositing, paid-ads, ffmpeg, trendscale]
+date: 2026-07-13
+status: active
+session: trendscale-trial
+---
+
 # AI-video product-label morphing → deterministic real-image composite
 
 **Date:** 2026-07-13 · **Domain:** video production / paid ads · **Thread:** trendscale-trial

@@ -89,3 +89,4 @@
 {"ts": "2026-07-10T00:41:47.159446+00:00", "event": "check", "service": "higgsfield-cinema", "decision": "needs_approval", "request": ""}
 {"ts": "2026-07-13T19:48:10.122306+00:00", "event": "check", "service": "perplexity-research", "decision": "needs_approval", "request": "cd \"/Users/farricecain/Google Antigravity\" && grep -rn \"0.75-1.50\\|sonar-deep-research\\|cost note\" skills/grace-andrews-media-company/ | head -20"}
 {"ts": "2026-07-15T03:18:41.122449+00:00", "event": "check", "service": "gemini-deep-research", "decision": "approved", "request": "cd \"/Users/farricecain/Google Antigravity\" && echo \"===parallel_swarm header + budget constants===\"; sed -n '1,80p' execution/parallel_swarm.py | grep -nE \"DECO"}
+{"ts": "2026-07-15T18:23:44.355380+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}

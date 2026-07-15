@@ -6097,6 +6097,99 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_182336_33e1",
+            "timestamp": "2026-07-15T18:23:36.680440+00:00",
+            "session_id": "bd0106ec-d663-4cb7-b679-896dc0046237",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "jen-santulan-listing-content",
+            "experts_deployed": [
+                "jen-santulan-listing-content",
+                "david-bayer-elite-communication",
+                "corey-mcclain-persona-engineering"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jen-santulan-listing-content",
+            "ensemble": true,
+            "compound_pairing": "jen-santulan-listing-content + david-bayer-elite-communication + corey-mcclain-persona-engineering",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_182343_7bea",
+            "timestamp": "2026-07-15T18:23:43.878939+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "how-i-write-os",
+            "experts_deployed": [
+                "how-i-write-os",
+                "gpt-image-2-director",
+                "dara-denney-meta-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "how-i-write-os",
+            "ensemble": true,
+            "compound_pairing": "how-i-write-os + gpt-image-2-director + dara-denney-meta-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_182344_cbf9",
+            "timestamp": "2026-07-15T18:23:44.977799+00:00",
+            "session_id": "bd0106ec-d663-4cb7-b679-896dc0046237",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "jen-santulan-listing-content",
+            "experts_deployed": [
+                "jen-santulan-listing-content",
+                "david-bayer-elite-communication",
+                "corey-mcclain-persona-engineering"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jen-santulan-listing-content",
+            "ensemble": true,
+            "compound_pairing": "jen-santulan-listing-content + david-bayer-elite-communication + corey-mcclain-persona-engineering",
+            "feedback": "fb_20260715_182737_fe76"
+        },
+        {
+            "routing_id": "rt_20260715_182531_492f",
+            "timestamp": "2026-07-15T18:25:31.379102+00:00",
+            "session_id": "verify-hook-parity",
+            "request_summary": "Write converting copy from scratch for a supplement brand using Luke Iha copy blocks.",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-copy-blocks",
+            "experts_deployed": [
+                "luke-iha-copy-blocks",
+                "stefan-georgi-dopamine-copy",
+                "luke-iha-vicious-hooks"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-copy-blocks",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-copy-blocks + stefan-georgi-dopamine-copy + luke-iha-vicious-hooks",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_183350_633e",
+            "timestamp": "2026-07-15T18:33:50.730534+00:00",
+            "session_id": "",
+            "request_summary": "Expert Assembly OS Phase 0–3 complete: hybrid casting + bespoke personas + roadmap synthesis + routing integration",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "panel_cast"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "expert-assembly",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -6468,17 +6561,26 @@
             "rating": "auto_miss",
             "correction": "ethan-smith-aeo",
             "notes": "expert skill 'ethan-smith-aeo' loaded not matching suggestion ['strength-conditioning-os', 'higgsfield-creative-studio', 'mark-kashef-wargame-os']"
+        },
+        {
+            "feedback_id": "fb_20260715_182737_fe76",
+            "timestamp": "2026-07-15T18:27:37.000393+00:00",
+            "session_id": "bd0106ec-d663-4cb7-b679-896dc0046237",
+            "routing_id": "rt_20260715_182344_cbf9",
+            "rating": "auto_match",
+            "correction": "corey-mcclain-persona-engineering",
+            "notes": "expert skill 'corey-mcclain-persona-engineering' loaded matching suggestion ['jen-santulan-listing-content', 'david-bayer-elite-communication', 'corey-mcclain-persona-engineering']"
         }
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 338,
-            "total_feedback": 41,
+            "total_routings": 343,
+            "total_feedback": 42,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 51,
+                "System": 52,
                 "Client Work": 13,
                 "Analysis": 5,
                 "Strategy": 18,
@@ -6493,14 +6595,14 @@
                 "david-placek-naming": 5,
                 "nicolas-cole-niche-positioning": 5,
                 "brand-operating-system": 10,
-                "how-i-write-os": 10,
+                "how-i-write-os": 11,
                 "nate-b-jones-auto-improvement-loops": 1,
                 "jason-fladlien-marketing": 6,
                 "paul-james-ai-automation": 1,
                 "nicolas-cole-digital-products": 1,
                 "nate-b-jones-context-engineering": 30,
                 "omar-eltakrori": 1,
-                "luke-iha-copy-blocks": 17,
+                "luke-iha-copy-blocks": 18,
                 "extract-mastery": 3,
                 "luke-iha-avatar-machine": 4,
                 "skill-creator": 1,
@@ -6528,7 +6630,7 @@
                 "sean-dollwet-kdp-publishing": 1,
                 "simon-intellectual-library-os": 1,
                 "chief-of-staff-os": 2,
-                "jen-santulan-listing-content": 8,
+                "jen-santulan-listing-content": 10,
                 "creative-direction": 1,
                 "forge-os": 1,
                 "luke-iha-cross-domain": 1,
@@ -6545,7 +6647,7 @@
                 "chief-of-staff-os": 13,
                 "david-placek": 2,
                 "David Placek": 1,
-                "jen-santulan-listing-content": 22,
+                "jen-santulan-listing-content": 24,
                 "jen-santulan": 3,
                 "health-performance-geo-client-acquisition-engine": 7,
                 "deep-research": 7,
@@ -6558,9 +6660,9 @@
                 "john-whiting": 2,
                 "master-copywriter": 3,
                 "ben-watkins": 1,
-                "stefan-georgi-dopamine-copy": 17,
-                "luke-iha-copy-blocks": 24,
-                "how-i-write-os": 19,
+                "stefan-georgi-dopamine-copy": 18,
+                "luke-iha-copy-blocks": 25,
+                "how-i-write-os": 20,
                 "system-architecture": 7,
                 "supercomputer": 23,
                 "jason-fladlien-marketing": 8,
@@ -6573,7 +6675,7 @@
                 "prediction-market-making": 1,
                 "deliberate": 10,
                 "mark-kashef-ai-councils": 1,
-                "gpt-image-2-director": 9,
+                "gpt-image-2-director": 10,
                 "marketing-studio-director": 12,
                 "webapp-testing": 2,
                 "joscha-bach-consciousness": 2,
@@ -6617,11 +6719,11 @@
                 "oren-john": 1,
                 "jiang-xueqin-cognitive-autonomy": 1,
                 "henrik-werdelin-portfolio-entrepreneurship": 1,
-                "luke-iha-vicious-hooks": 8,
+                "luke-iha-vicious-hooks": 9,
                 "extract-mastery": 4,
                 "voice-os": 12,
                 "dara-denney": 2,
-                "corey-mcclain-persona-engineering": 34,
+                "corey-mcclain-persona-engineering": 36,
                 "luke-iha-vsl-leads": 4,
                 "cooz-voice-profile": 3,
                 "market_intelligence": 1,
@@ -6634,7 +6736,7 @@
                 "icp-deep-canvasser": 1,
                 "donald-miller-cognitive-load": 1,
                 "luke-iha-unaware-ads": 1,
-                "dara-denney-meta-ads": 7,
+                "dara-denney-meta-ads": 8,
                 "fantastic-posters": 7,
                 "nate-b-jones-intent-engineering": 1,
                 "evan-spiegel-distribution-architecture": 2,
@@ -6643,7 +6745,7 @@
                 "daniel-priestley-oversubscribed": 1,
                 "ai-chris-lee-zero-testimonial-sales": 2,
                 "adam-enfroy-affiliate-marketing": 1,
-                "david-bayer-elite-communication": 16,
+                "david-bayer-elite-communication": 18,
                 "lance-yichao-context-engineering": 1,
                 "jeremy-miner-identity-persuasion": 1,
                 "oren-one-person-ai-marketer": 1,
@@ -6700,10 +6802,11 @@
                 "sharran-srivatsaa-scaling": 1,
                 "ali-abdaal-action-bias": 1,
                 "jeremy-haynes-cold-offer": 1,
-                "system": 1
+                "system": 1,
+                "panel_cast": 1
             },
             "tier_counts": {
-                "0": 338,
+                "0": 343,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -6711,12 +6814,12 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 185,
-                "finalize-auto": 153
+                "hybrid": 189,
+                "finalize-auto": 154
             },
-            "ensemble_count": 244,
+            "ensemble_count": 248,
             "auto_miss_count": 32,
-            "auto_match_count": 9
+            "auto_match_count": 10
         }
     }
 }

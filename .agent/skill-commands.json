@@ -389,6 +389,10 @@
       "skill": "evan-spiegel-distribution-architecture"
     },
     {
+      "command": "/expert-assembly",
+      "skill": "expert-assembly-os"
+    },
+    {
       "command": "/fantastic-posters",
       "skill": "fantastic-posters"
     },

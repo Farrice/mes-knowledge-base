@@ -718,7 +718,12 @@ def search_workflows(query, top_n=10):
         CONTROL_PLANE_ROUTES = {
             "autopilot", "system-audit", "orchestrate", "self-evolve",
             "skill-anneal", "source-to-skill-system", "routing-intelligence",
-            "end-session", "mission", "repeatability-spine"
+            "end-session", "mission", "repeatability-spine",
+            # health-check is control-plane too — omitting it filtered the
+            # governed #1 route out of its own query class (health/status
+            # queries misrouted to /system-audit, caught by two verifiers
+            # 2026-07-15).
+            "health-check",
         }
         wf_to_score = [
             wf for wf in index
