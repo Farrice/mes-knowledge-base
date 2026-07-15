@@ -1,20 +1,20 @@
 {"ts": "2026-06-01T14:27:12Z", "label": ".tmp/teardown/teardown-kajabi/linkedin-post.md", "verdict": "FAIL", "fails": ["10 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md", "\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": ["A 745-char line \u2014 break dense paragraphs for mobile dwell time."]}
-{"ts": "2026-06-01T14:27:12Z", "label": ".tmp/teardown/teardown-skool/linkedin-post.md", "verdict": "FAIL", "fails": ["6 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md", "Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3", "LinkedIn hook is 22 words (\u226414 for the mobile cutoff) \u2014 Lara Acosta"], "warns": ["A 565-char line \u2014 break dense paragraphs for mobile dwell time."]}
 {"ts": "2026-06-01T14:27:12Z", "label": ".tmp/teardown/teardown-masterclass/linkedin-post.md", "verdict": "FAIL", "fails": ["6 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md", "LinkedIn hook is 24 words (\u226414 for the mobile cutoff) \u2014 Lara Acosta"], "warns": ["A 383-char line \u2014 break dense paragraphs for mobile dwell time."]}
+{"ts": "2026-06-01T14:27:12Z", "label": ".tmp/teardown/teardown-skool/linkedin-post.md", "verdict": "FAIL", "fails": ["6 em-dashes (max 2) \u2014 feedback_ai-writing-tells.md", "Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3", "LinkedIn hook is 22 words (\u226414 for the mobile cutoff) \u2014 Lara Acosta"], "warns": ["A 565-char line \u2014 break dense paragraphs for mobile dwell time."]}
 {"ts": "2026-06-01T14:27:13Z", "label": ".tmp/teardown/teardown-kajabi/linkedin-post-v3.md", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('they \u2026 they \u2026 they') \u2014 feedback_ai-structural-tells.md #3", "LinkedIn hook is 19 words (\u226414 for the mobile cutoff) \u2014 Lara Acosta"], "warns": []}
-{"ts": "2026-06-01T14:27:13Z", "label": ".tmp/teardown/teardown-skool/linkedin-post-v3.md", "verdict": "FAIL", "fails": ["LinkedIn hook is 17 words (\u226414 for the mobile cutoff) \u2014 Lara Acosta"], "warns": []}
 {"ts": "2026-06-01T14:27:13Z", "label": ".tmp/teardown/teardown-masterclass/linkedin-post-v3.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-06-01T14:27:13Z", "label": ".tmp/teardown/teardown-skool/linkedin-post-v3.md", "verdict": "FAIL", "fails": ["LinkedIn hook is 17 words (\u226414 for the mobile cutoff) \u2014 Lara Acosta"], "warns": []}
 {"ts": "2026-06-01T14:27:48Z", "label": ".tmp/teardown/teardown-kajabi/linkedin-post-v3.md", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('they \u2026 they \u2026 they') \u2014 feedback_ai-structural-tells.md #3", "LinkedIn hook is 19 words (\u226414 for the mobile cutoff) \u2014 Lara Acosta"], "warns": []}
-{"ts": "2026-06-01T14:27:48Z", "label": ".tmp/teardown/teardown-skool/linkedin-post-v3.md", "verdict": "FAIL", "fails": ["LinkedIn hook is 17 words (\u226414 for the mobile cutoff) \u2014 Lara Acosta"], "warns": []}
 {"ts": "2026-06-01T14:27:48Z", "label": ".tmp/teardown/teardown-masterclass/linkedin-post-v3.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-06-01T14:27:48Z", "label": ".tmp/teardown/teardown-skool/linkedin-post-v3.md", "verdict": "FAIL", "fails": ["LinkedIn hook is 17 words (\u226414 for the mobile cutoff) \u2014 Lara Acosta"], "warns": []}
 {"ts": "2026-06-01T14:28:20Z", "label": ".tmp/teardown/teardown-masterclass/linkedin-post-v3.md", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-06-01T14:29:42Z", "label": ".tmp/teardown/teardown-kajabi/linkedin-post-v3.md", "verdict": "CLEAN", "fails": [], "warns": []}
-{"ts": "2026-06-01T14:29:42Z", "label": ".tmp/teardown/teardown-skool/linkedin-post-v3.md", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-06-01T14:29:42Z", "label": ".tmp/teardown/teardown-masterclass/linkedin-post-v3.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-06-01T14:29:42Z", "label": ".tmp/teardown/teardown-skool/linkedin-post-v3.md", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-06-01T14:30:29Z", "label": ".tmp/teardown/teardown-kajabi/linkedin-post.md", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-06-01T22:41:52Z", "label": ".tmp/teardown/teardown-kajabi/linkedin-post-v3.md", "verdict": "CLEAN", "fails": [], "warns": []}
-{"ts": "2026-06-01T22:41:52Z", "label": ".tmp/teardown/teardown-skool/linkedin-post-v3.md", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-06-01T22:41:52Z", "label": ".tmp/teardown/teardown-masterclass/linkedin-post-v3.md", "verdict": "CLEAN", "fails": [], "warns": []}
+{"ts": "2026-06-01T22:41:52Z", "label": ".tmp/teardown/teardown-skool/linkedin-post-v3.md", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-06-01T22:53:00Z", "label": "kajabi", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3"], "warns": []}
 {"ts": "2026-06-01T22:55:04Z", "label": "kajabi", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-06-23T16:11:47Z", "label": "source-to-search-trust-layer-review", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('skills \u2026 skills \u2026 skills') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
@@ -22,14 +22,14 @@
 {"ts": "2026-06-23T16:13:12Z", "label": "source-to-search-trust-layer-review", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-06-23T16:14:08Z", "label": "source-to-search-trust-layer-review", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-06-23T16:14:31Z", "label": "source-to-search-trust-layer-review", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
-{"ts": "2026-06-23T16:37:29Z", "label": "source-to-search-offer-insert", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-06-23T16:37:29Z", "label": "glp-1-movement-receipt", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('if \u2026 if \u2026 if') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-06-23T16:37:29Z", "label": "source-to-search-offer-insert", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-06-23T16:38:07Z", "label": "glp-1-movement-receipt", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('does \u2026 does \u2026 does') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-06-23T16:38:07Z", "label": "source-to-search-offer-insert", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-06-23T16:38:30Z", "label": "glp-1-movement-receipt", "verdict": "CLEAN", "fails": [], "warns": []}
 {"ts": "2026-06-23T16:38:30Z", "label": "source-to-search-offer-insert", "verdict": "CLEAN", "fails": [], "warns": []}
-{"ts": "2026-06-23T16:39:42Z", "label": "source-to-search-adversarial-review", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-06-23T16:39:42Z", "label": "glp-1-movement-receipt", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-06-23T16:39:42Z", "label": "source-to-search-adversarial-review", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-06-23T16:39:42Z", "label": "source-to-search-offer-insert", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-06-23T19:06:05Z", "label": "glp1-audit-sample", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-06-23T19:06:05Z", "label": "linkedin-content-system", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d72 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('they \u2026 they \u2026 they') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
@@ -37,8 +37,8 @@
 {"ts": "2026-06-23T19:07:22Z", "label": "glp1-audit-sample", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-06-23T19:07:22Z", "label": "linkedin-content-system", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('pillar \u2026 pillar \u2026 pillar') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-06-23T19:08:11Z", "label": "linkedin-content-system", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('no \u2026 no \u2026 no') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
-{"ts": "2026-06-23T19:08:35Z", "label": "linkedin-content-system", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-06-23T19:08:35Z", "label": "glp1-audit-sample", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-06-23T19:08:35Z", "label": "linkedin-content-system", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-06-23T22:03:20Z", "label": "high-taste-os-smoke", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('no \u2026 no \u2026 no') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-06-23T22:03:42Z", "label": "high-taste-os-smoke", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-06-23T22:04:18Z", "label": "high-taste-os-smoke-final", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
@@ -163,7 +163,19 @@
 {"ts": "2026-07-09T13:37:25Z", "label": "health-performance-geo-2026-07-09", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('what \u2026 what \u2026 what') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-09T13:37:44Z", "label": "health-performance-geo-2026-07-09", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('slide \u2026 slide \u2026 slide') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-09T13:37:59Z", "label": "health-performance-geo-2026-07-09", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-14T14:19:08Z", "label": "_active/health-performance-ip-library/daily/2026-07-14-health-performance-geo-brief.md", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d75 \u2014 feedback_ai-structural-tells.md #1", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-07-14T14:23:44Z", "label": "_active/health-performance-ip-library/daily/2026-07-14-health-performance-geo-brief.md", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d72 \u2014 feedback_ai-structural-tells.md #1"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-14T14:24:12Z", "label": "_active/health-performance-ip-library/daily/2026-07-14-health-performance-geo-brief.md", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-14T14:24:46Z", "label": "_active/health-performance-ip-library/daily/2026-07-14-health-performance-geo-brief.md", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d72 \u2014 feedback_ai-structural-tells.md #1", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-07-14T14:25:18Z", "label": "_active/health-performance-ip-library/daily/2026-07-14-health-performance-geo-brief.md", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-15T13:36:42Z", "label": "health-performance-geo-2026-07-15", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d74 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('is \u2026 is \u2026 is') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
 {"ts": "2026-07-15T13:37:51Z", "label": "health-performance-geo-2026-07-15", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('slide \u2026 slide \u2026 slide') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
 {"ts": "2026-07-15T13:38:59Z", "label": "health-performance-geo-2026-07-15", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-15T13:39:17Z", "label": "health-performance-geo-2026-07-15", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-15T14:20:23Z", "label": "2026-07-15 health performance GEO brief", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d72 \u2014 feedback_ai-structural-tells.md #1", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-07-15T14:24:34Z", "label": "2026-07-15 health performance GEO brief", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-15T14:25:14Z", "label": "2026-07-15 health performance GEO brief", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-15T14:26:48Z", "label": "2026-07-15 health performance GEO brief", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('additional \u2026 additional \u2026 additional') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-07-15T14:27:14Z", "label": "2026-07-15 health performance GEO brief", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-15T14:27:50Z", "label": "2026-07-15 health performance GEO brief", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-15T14:28:42Z", "label": "2026-07-15 health performance GEO brief", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
