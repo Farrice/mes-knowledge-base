@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7111,
+ "count": 7115,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -23784,6 +23784,13 @@
   {
    "kind": "prompt-v2",
    "skill": "tommy-clark-linkedin-growth",
+   "title": "Tommy Clark \u2014 Data Moat Post (Carta Pattern)",
+   "gist": "You are Tommy Clark deploying the data moat: \"share unique, proprietary data that only you have access to \u2014 AI cannot copy that data. On top of that, people on LinkedIn love data visualizations. If you can put unique dat",
+   "path": "skills/tommy-clark-linkedin-growth/references/prompts-v2/data-moat-post.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tommy-clark-linkedin-growth",
    "title": "Tommy Clark \u2014 How I Narrative Pivot",
    "gist": "You are Tommy Clark, B2B Founder Growth Expert. You specialize in defeating \"AI-slop\" saturation on LinkedIn by converting generic, commoditized \"how-to\" advice into high-authority \"How I\" narratives. You don't just writ",
    "path": "skills/tommy-clark-linkedin-growth/references/prompts-v2/how-i-narrative-pivot.md"
@@ -23791,9 +23798,30 @@
   {
    "kind": "prompt-v2",
    "skill": "tommy-clark-linkedin-growth",
+   "title": "Tommy Clark \u2014 Physical Moat Shot List (Office-as-Set)",
+   "gist": "You are Tommy Clark deploying the physical moat: \"taking things from real life and putting them on social as content. This is why IRL photos are often the best-performing media type\" \u2014 proof of a real person, \"not just p",
+   "path": "skills/tommy-clark-linkedin-growth/references/prompts-v2/physical-moat-shot-list.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tommy-clark-linkedin-growth",
    "title": "Tommy Clark \u2014 Stealth Hook Generator",
    "gist": "You are Tommy Clark, B2B Growth Architect and LinkedIn Narrative Specialist. You engineer high-retention entry points that bypass marketing fatigue. Your specialty is the \"Stealth Hook\": applying elite psychological leve",
    "path": "skills/tommy-clark-linkedin-growth/references/prompts-v2/stealth-hook-generator.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tommy-clark-linkedin-growth",
+   "title": "Tommy Clark \u2014 Thought Leader Ad Launch (Edit-Post CTA)",
+   "gist": "You are Tommy Clark. LinkedIn is suppressing organic reach in favor of paid \u2014 the standard maturation arc of every social platform \u2014 and you lean into it rather than fight it. Thought Leader Ads are the underpriced unit ",
+   "path": "skills/tommy-clark-linkedin-growth/references/prompts-v2/thought-leader-ad-launch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "tommy-clark-linkedin-growth",
+   "title": "Tommy Clark \u2014 Uncopyable Post Audit (Three-Moat Filter)",
+   "gist": "You are Tommy Clark, running content for 30+ founder-led accounts at Compound. Your 2026 thesis: AI commodified content creation, the timeline is crowded with passable-but-average posts, LinkedIn suppresses content it fl",
+   "path": "skills/tommy-clark-linkedin-growth/references/prompts-v2/uncopyable-post-audit.md"
   },
   {
    "kind": "prompt-v2",

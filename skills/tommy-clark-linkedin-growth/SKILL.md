@@ -1,22 +1,42 @@
 ---
 name: "Tommy Clark: LinkedIn Founder Growth"
 description: "Design high-conversion LinkedIn workflows tailored for B2B founders using Stealth Hooks, Audience Design, and 'How I' narratives."
-version: "2.0"
+version: "3.0"
 format: "completion-engine"
-workflows: 2
+workflows: 6
 routing: long-tail
 ---
 
 # Tommy Clark: LinkedIn Founder Growth
 
-He treats LinkedIn organic growth as a fully engineered B2B pipeline, rejecting the spray-and-pray approach of traditional content creation in favor of surgical "audience design" combined with an optimized "content interview" asset generation timeline.
+He treats LinkedIn organic growth as a fully engineered B2B pipeline, rejecting the spray-and-pray approach of traditional content creation in favor of surgical "audience design" combined with an optimized "content interview" asset generation timeline. **v3.0 (2026-07-15)**: expanded with his 2026 strategy — the Three-Moat System (narrative/data/physical — "uncopyable by AI"), Thought Leader Ad lean-in with the edit-post CTA hack, and the narrative relevance filter. Source: "The NEW LinkedIn Strategy Dominating in 2026" (`extractions/tommy-clark/transcript-2026-linkedin-strategy.txt` + `visual-context.md`).
 
 ## Available Workflows
+
+### Tier 1 — Foundation
 
 | # | Workflow | Produces | Use When |
 |---|---------|----------|----------|
 | founder | [Founder Narrative Extraction System](workflows/founder-narrative-extraction-system.md) | 5-Post 'How I' Narrative Content Library | When you need to convert raw founder expertise into high-authority content without manual writing or generic AI outputs. |
 | high | [High-Visibility Growth Engine](workflows/high-visibility-growth-engine.md) | Daily LinkedIn Growth & Engagement Playbook | When you need to ensure your content reaches a specific target audience and achieves high click-through rates via psychological triggers. |
+| uncopyable | [Uncopyable Post Filter](workflows/uncopyable-post-filter.md) | Three-Moat audit + rewrite of any post | Final filter on every 2026-era LinkedIn post — is this narrative-, data-, or physically-moated against AI slop? |
+| tla | [Thought Leader Ad Engine](workflows/thought-leader-ad-engine.md) | Organic-to-paid amplification plan | An organic winner attracted real ICP and you want controlled paid distribution (Apollo list + edit-post CTA + $30/day ramp). |
+
+### Tier 2 — Practitioner
+
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| data | [Data Moat Visualization](workflows/data-moat-visualization.md) | Proprietary-data chart post (Carta pattern) | The account has data nobody else can publish and needs an authority lane built on it. |
+| physical | [Physical Moat Library](workflows/physical-moat-library.md) | IRL capture system + 30-day shot list | The feed is text-only, or IRL spend (events, office, stunts) isn't being converted into social artifacts. |
+
+## Stacking Guide
+
+- `uncopyable-post-filter` × **prose_classifier.py** — slop-ban catches AI phrasing; the moat filter catches AI substance. Run both on LinkedIn deliverables.
+- `uncopyable-post-filter` × **farrice-engine / ghostwrite / writers-room** — three-moat gate before any LinkedIn delivery (Farrice's or clients').
+- `thought-leader-ad-engine` × **liam-linkedin-lead-magnet** — organic winner → PS-line lead magnet → boosted to Apollo-built ICP list.
+- `data-moat-visualization` × **dataviz** — Antigravity produces the Carta-grade chart itself, not just the spec.
+- `physical-moat-library` × **linkedin-2026-format-arbitrage/contextual-selfie** — physical moat = costly signaling; two sources, same mechanism.
+- `physical-moat-library` × **jen-santulan-listing-content** — real estate content is born-physical; shoot the operator at the property.
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
@@ -26,11 +46,15 @@ He treats LinkedIn organic growth as a fully engineered B2B pipeline, rejecting 
 
 ## Execution Prompts (structure-pure v2)
 
-4 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+8 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Tommy Clark: LinkedIn Founder Growth — Audience Design Architect** — `skills/tommy-clark-linkedin-growth/references/prompts-v2/audience-design-architect.md`
 - **Tommy Clark — Content Interview Extractor** — `skills/tommy-clark-linkedin-growth/references/prompts-v2/content-interview-extractor.md`
+- **Tommy Clark — Data Moat Post (Carta Pattern)** — `skills/tommy-clark-linkedin-growth/references/prompts-v2/data-moat-post.md`
 - **Tommy Clark — How I Narrative Pivot** — `skills/tommy-clark-linkedin-growth/references/prompts-v2/how-i-narrative-pivot.md`
+- **Tommy Clark — Physical Moat Shot List (Office-as-Set)** — `skills/tommy-clark-linkedin-growth/references/prompts-v2/physical-moat-shot-list.md`
 - **Tommy Clark — Stealth Hook Generator** — `skills/tommy-clark-linkedin-growth/references/prompts-v2/stealth-hook-generator.md`
+- **Tommy Clark — Thought Leader Ad Launch (Edit-Post CTA)** — `skills/tommy-clark-linkedin-growth/references/prompts-v2/thought-leader-ad-launch.md`
+- **Tommy Clark — Uncopyable Post Audit (Three-Moat Filter)** — `skills/tommy-clark-linkedin-growth/references/prompts-v2/uncopyable-post-audit.md`
 
 <!-- END:execution-prompts -->

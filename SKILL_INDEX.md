@@ -352,7 +352,7 @@
 | `tom-noske-content-creation` | **Tom Noske - Content Creation Methodology** | authenticity-first content creation: zone of genius format diagnosis, energy auditing, quantity-driven skill acquisition | 8 | 0 |
 | `tom-noske-personal-brand` | **Tom Noske Personal Brand** | mission clarity, and trust infrastructure | 4 | 26 |
 | `tom-segura-comedy-storytelling` | **Tom Segura: Observational Comedy & Storytelling Craft** | the upstream craft robert mack's mechanics assume you already have, observational comedy & storytelling craft | 12 | 0 |
-| `tommy-clark-linkedin-growth` | **Tommy Clark: LinkedIn Founder Growth** | audience design, and 'how i' narratives, linkedin founder growth | 2 | 4 |
+| `tommy-clark-linkedin-growth` | **Tommy Clark: LinkedIn Founder Growth** | audience design, 'how i' narratives, three-moat system (narrative/data/physical), thought leader ads, linkedin founder growth | 6 | 8 |
 | `tyler-denk-audience-monetization` | **Antigravity Expert: Tyler Denk (Audience Monetization)** | beehiiv ceo tyler denk's system for audience acquisition, founder-led marketing, and high-ticket b2b monetization | 2 | 4 |
 | `velocity-scaling` | **velocity-scaling** | velocity scaling × dtc subscription × celebrity partnership × infrastructure pivot, speed itself becomes the moat, danny yeung | 18 | 0 |
 | `vince-nijhof-dtc-operator-system` | **vince-nijhof-dtc-operator-system** | dtc-operator-system, $20m/month dtc operator's playbook — paid-ads-first, ai-native | 14 | 0 |

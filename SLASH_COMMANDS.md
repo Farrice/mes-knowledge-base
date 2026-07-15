@@ -2795,6 +2795,10 @@ Every command that exists on disk but isn't already grouped in a curated section
 | `/tom-noske-personal-brand` | Magnetic personal brand system - $2-4/follower earnings through archetype correction, mission clarity, and trust infrastructure |
 | `/tom-segura` | The practitioner's pipeline for observational/storytelling comedy — find material with the 'that's a thing' antenna, install the story 'way in' (stakes), dig past the obvious complaint, play the absurd straight, and edit long-to-tight. T... |
 | `/tommy-clark` | Design high-conversion LinkedIn workflows tailored for B2B founders using Stealth Hooks, Audience Design, and 'How I' narratives. |
+| `/tc-uncopyable-filter` | Tommy Clark Three-Moat filter — audit any LinkedIn post for narrative/data/physical moats and inject the cheapest one missing. |
+| `/tc-tla-engine` | Tommy Clark Thought Leader Ad engine — boost ICP-proven organic winners via Apollo company lists and the edit-post PS-line CTA. |
+| `/tc-data-moat` | Tommy Clark data moat — mine proprietary data and spec a Carta-pattern one-claim chart post built for dark-social forwarding. |
+| `/tc-physical-moat` | Tommy Clark physical moat — install the office-as-set capture system, event photo rules, and a 30-day shot list. |
 | `/tool-router-design` | Dynamic tool selection architecture to eliminate prompt bloat |
 | `/two-axis-verify` | Two-axis deliverable review — Voice ∥ Brief — run as parallel subagents and reported side by side, never merged. Use before delivery on any taste-bearing or client-facing deliverable. |
 | `/two-brain-trap` | Diagnose the Influencer trap vs. Educator trap, prescribe the corrective layer-mix |

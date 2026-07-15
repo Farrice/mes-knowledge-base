@@ -52,7 +52,7 @@ Review every opening line. Apply **Negativity Bias**, **Specific Numbers**, or *
 - **Remove "Marketing Breath"**: Delete words like "leveraging," "synergy," "game-changer," or "in today's fast-paced world."
 - **Readability Check**: Force a 6th-8th grade reading level. Use short, punchy paragraphs.
 
-## Output Contract
+## Output Requirements
 A single Markdown document containing:
 1. **Content Strategy Table**: A summary of the 5 posts, their funnel stage, and the "Stealth Hook" objective for each.
 2. **5 Ready-to-Publish Posts**: Each post must include:

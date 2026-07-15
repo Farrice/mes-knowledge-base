@@ -85,7 +85,7 @@ Posts optimized only for individual engagement plateau at reads. Posts engineere
 2.  **Day 2-4: MoF (Middle of Funnel)**: "How I" stories focusing on specific methodology pivots and "Industry-Wonky" jargon.
 3.  **Day 5: BoF (Bottom of Funnel)**: A high-signal case study or "Manual Handover" (e.g., a Loom of the process).
 
-## Output Contract
+## Output Requirements
 The user receives a **"30-Day High-Visibility Growth Playbook"** containing:
 1.  **The Extraction Map**: 3 Boolean search strings and 6 identified Hub accounts.
 2.  **The 20/5 Protocol**: Exact connection request scripts and commenting templates.

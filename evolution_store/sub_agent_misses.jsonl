@@ -39,3 +39,4 @@
 {"timestamp": "2026-07-08T19:11:36.489154", "workflow": "deep-research", "skill": "deep-research", "expert": "unified-research-engine", "task_type": "System", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-07-14T12:48:27.723298", "workflow": "swarm-research", "skill": "market-intelligence", "expert": "market-intelligence", "task_type": "Research", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-07-15T08:42:53.906934", "workflow": "extract-forge", "skill": "jeremy-haynes-cold-offer", "expert": "jeremy-haynes", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-07-15T09:24:55.413606", "workflow": "extract-forge", "skill": "tommy-clark-linkedin-growth", "expert": "tommy-clark", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
