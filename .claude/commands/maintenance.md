@@ -1,5 +1,5 @@
 ---
-description: "Weekly Intelligence Check. Auto-check Phase 2-4 activation, agent health, research pulse, gap analysis. Returns a summary report with recommended actions."
+description: "(alias) → /weekly-closeout"
 ---
 
-Read and execute the workflow at `.agent/workflows/maintenance.md` — Weekly Intelligence Check. Auto-check Phase 2-4 activation, agent health, research pulse, gap analysis. Returns a summary report with recommended actions.
+Read and execute the workflow at `.agent/workflows/maintenance.md` — superseded 2026-07-15, redirects to /weekly-closeout Step 1.5

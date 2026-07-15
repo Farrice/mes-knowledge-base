@@ -861,6 +861,8 @@ def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions
         lines.extend(render_outer_loop(outer_loop))
     if evolution:
         lines.extend(render_evolution(evolution))
+    if system_vitals:
+        lines.extend(render_system_vitals(system_vitals))
     lines.append("")
     n_words = {3: "three", 4: "four", 5: "five"}
     lines.append(f"## Your {n_words.get(len(questions), len(questions))} questions")
@@ -934,9 +936,10 @@ def cmd_prep(force: bool, dry_run: bool, date_str: str = None) -> int:
                                       world_path=world_pulse.get("path", ""))
     outer_loop = gather_outer_loop()
     evolution = gather_evolution()
+    system_vitals = gather_system_vitals()
     brief = render_brief(state, goals, due_goals, revenue_due, threads, loops,
                          questions, weekly_line, outer_loop, evolution, world_pulse,
-                         loops_src=loops_src)
+                         loops_src=loops_src, system_vitals=system_vitals)
 
     if dry_run:
         print(brief)

@@ -32,6 +32,12 @@ health-check
 
 ## Steps
 
+### 0. System Vitals (deterministic collector, 2026-07-15)
+```bash
+python3 execution/health_metrics.py flags --latest
+```
+Latest daily snapshot + drift flags (context weight, .tmp, ledgers, branches, hook drift, pending removals). If the snapshot is >48h stale, that IS the finding — the collector's launchd job is dark (`launchctl list com.antigravity.health-metrics`). Trends: `python3 execution/health_metrics.py trend --metric <dotted.path> --days 30`.
+
 ### 1. Run the Health Check Script
 ```bash
 python3 execution/harness_status.py --plain

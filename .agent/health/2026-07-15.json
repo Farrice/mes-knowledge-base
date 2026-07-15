@@ -1,15 +1,15 @@
 {
-  "ts": "2026-07-15T10:15:48",
+  "ts": "2026-07-15T10:25:38",
   "date": "2026-07-15",
   "deep": false,
   "context_injection": {
     "claude_md_bytes": 17232,
-    "memory_md_bytes": 17988,
-    "memory_md_entries": 125,
+    "memory_md_bytes": 18225,
+    "memory_md_entries": 126,
     "master_context_bytes": 18497,
-    "total_bytes": 53717,
-    "memory_dir_files": 127,
-    "memory_dir_bytes": 385232
+    "total_bytes": 53954,
+    "memory_dir_files": 128,
+    "memory_dir_bytes": 387254
   },
   "assets": {
     "skills": 364,
@@ -22,19 +22,19 @@
     "solution_cards": 28
   },
   "tmp": {
-    "bytes": 1171578217,
-    "files": 4159
+    "bytes": 20224124,
+    "files": 136
   },
   "ledgers": {
-    "observe_log_bytes": 1022828,
+    "observe_log_bytes": 1023339,
     "steering_observe_bytes": 3804,
     "missions_bytes": 11644,
-    "content_finish_bytes": 38400
+    "content_finish_bytes": 53596
   },
   "git": {
-    "remote_branches": 28,
-    "stashes": 2,
-    "dirty_files": 201
+    "remote_branches": 2,
+    "stashes": 0,
+    "dirty_files": 13
   },
   "active_stale_files_60d": 717,
   "hooks_config": {
@@ -48,12 +48,10 @@
   },
   "pending_review": {
     "pending": 0,
-    "approved": 0,
+    "approved": 1,
     "rejected": 0
   },
   "flags": [
-    ".tmp at 1,172MB / 4,159 files \u2014 scratch with no cleanup; classify-then-sweep reclaims disk, costs one review pass",
-    "28 remote branches \u2014 content-audit then prune keeps divergence checks fast; audit first, ours-merges make 'merged' untrustworthy",
     "_active/ holds 717 files >60d old \u2014 archive candidates accrue in pending-review; approving keeps _active meaning 'active'"
   ]
 }

@@ -21,6 +21,20 @@ python3 execution/evolution_orchestrator.py status
 
 Report what ran (daily/weekly/monthly) in one line. (The launchd agent `com.antigravity.evolution-auto` also runs this daily at 07:00 — this step is the catch-up + visibility pass.)
 
+### 1.5. System Health Review (~3 min — absorbed /system-pulse + /maintenance, 2026-07-15)
+
+```bash
+// turbo
+python3 execution/health_metrics.py flags --latest
+python3 execution/protocol_tracker.py audit
+python3 execution/log_performance.py baseline
+```
+
+- **Vitals + flags**: the daily collector (`launchd com.antigravity.health-metrics`, 06:15) already surfaced today's flags in the Morning Brief — here, review the **Sunday deep snapshot** (`.agent/health/<date>-deep.json`): dead-skill candidates, fully-stale `_active/` dirs, orphan verify scripts. Trend check when suspicious: `python3 execution/health_metrics.py trend --metric context_injection.total_bytes --days 60`.
+- **Pending removals**: walk `.agent/health/pending-review.md` `status: pending` blocks with Farrice — approve/reject each (approved → execute the archive/prune, flip status; rejected → flip status, note why). **Nothing executes without his yes.**
+- **Protocol + baseline**: flag zombie critical protocols (quality_gate, feedback-ratchet, session-state, intent-pipeline) and any skill regression >1.0 below rolling average (`python3 execution/gap_analysis.py recommendations` + `python3 execution/pattern_propagation.py scan` for evolution/cross-pollination candidates — feeds Step 4's queue decision).
+- **Loop self-check**: `python3 execution/health_metrics.py verify` — a dead health loop hides every other problem.
+
 ### 2. Revenue outcome drain (~10 min, 5 questions max)
 
 ```bash
