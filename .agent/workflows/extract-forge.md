@@ -151,15 +151,21 @@ Then wire (all four, non-optional):
 
 ### Phase 6: Registration
 
-1. **Create agent file**: `agents/[expert-name]/AGENT.md`
+1. **Create agent file**: `agents/[expert-name]/AGENT.md` (expansion if the expert already exists)
 2. **Create slash command wrappers**: One `.agent/workflows/[prefix]-[name].md` per workflow
-3. **Register** in `AGENT_INDEX.md` and `SKILL_INDEX.md`
+3. **Run the generators** (never hand-edit the registries) — refreshes `AGENT_INDEX.md` + `SKILL_INDEX.md`, mints the per-skill shim, creates/refreshes the **expert front-door command** (`/[expert-name]` = persona + full arsenal, tier-gated), and rebuilds the menu:
+
+```bash
+// turbo
+python3 execution/sync_registries.py
+python3 execution/generate_slash_commands.py
+```
 
 ### Phase 7: Verification
 
 1. **Structural check**: Confirm all files exist
 2. **Content quality spot-check**: Read 2-3 workflows for practitioner-grade quality
-3. **Slash command check**: Confirm wrappers correctly reference full workflows
+3. **Slash command check**: Confirm wrappers correctly reference full workflows; confirm `.claude/commands/[expert-name].md` front door lists the new skill AND the new commands appear in `SLASH_COMMANDS.md` (fireable-but-not-in-menu = registration failure)
 4. **Embodiment + blind-pass check** (`directives/embodiment-standard.md` — instrumented, Wave 2). Run this exact sequence:
 
    ```bash

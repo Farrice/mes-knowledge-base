@@ -1,5 +1,5 @@
 ---
-description: "Farrice's standing CEO/CFO/counsel — daily 2-min micro briefing + weekly board session that asks HIM tailored questions (JJ, Jen/family, health, mindset, creative, goals), captures raw thoughts into semantic memory same-day, and keeps goals/commitments top-of-mind. Front door..."
+description: "COS v3 — The Standing Board. Farrice's five functional seats (CEO/CFO/COO/Chairman/Mentor) staffed by named experts + 1 rotating specialist cast daily. Daily: 3 advisors dispatch in parallel, synthesized into Operator Primer (bounded, gate-checked, ≤2 retries). Weekly: all 5 +..."
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 

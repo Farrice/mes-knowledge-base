@@ -52,7 +52,7 @@
 | `chase-hughes-context-engineering` | **chase-hughes-context-engineering** | context engineering × behavioral influence × brainwashing architecture × interrogation × behavioral reading × cognitive defense, build the perfect recipient first, standalone operating layer (/ce-design, /ce-build) and a chain step-3 | 10 | 0 |
 | `chase-hughes-conversational-influence` | **chase-hughes-conversational-influence** | behavioral influence × courtroom persuasion × cognitive defense × media literacy, conviction lands, they never know they were guided) | 6 | 0 |
 | `cheri-tree-bank-buyology` | **Cheri Tree - Why They Buy B.A.N.K. OS** | bank buyology for buyer-code diagnosis, icps avatars and lead magnets, funnels scripts crm and social content | 12 | 0 |
-| `chief-of-staff-os` | **Chief of Staff OS** | front door /cos, the counsel holds context so farrice doesn't have to | 4 | 0 |
+| `chief-of-staff-os` | **Chief of Staff OS** | cos v3 — the standing board, state: `, agent/cos/` (deterministic, private) | 4 | 0 |
 | `chris-cimorelli-copywriting` | **Chris Cimorelli — Financial Direct Response Copywriting** | 3% instead of 1%+, for non-financial dr campaigns use bond-halbert-copywriting, for sentence-level dopamine copy use stefan-georgi-dopamine-copy | 5 | 0 |
 | `chris-do-design-business` | **chris-do-design-business** | positioning by reframing the dominant competitor, premium/value-based pricing, selling without being salesy (sales = serve/ask/listen/empathize/summarize) | 3 | 0 |
 | `cinema-worldbuilder-pro` | **cinema-worldbuilder-pro** | user-defined element tags (e, @sol_ref, @berlin_plate) instead of image indices, diegetic audio only, no music, no lyrics | 0 | 0 |
@@ -111,6 +111,7 @@
 | `extract-mastery` | **MES 3.0 — Mastery Extraction & Expert Replication** | forges it into copy-paste-deployable crown jewel prompts, and designs the pathway to surpass the original expert within 30 days, mastery extraction & expert replication | 3 | 0 |
 | `fantastic-posters` | **fantastic-posters** | 0 + kling v3 pro, image-to-video bridge — any poster output becomes a video input frame | 14 | 0 |
 | `fareed-zakaria-writing-mastery` | **Fareed Zakaria: Writing Mastery** | for memoir / narrative-personal work use lamott-craft, writing mastery | 5 | 36 |
+| `forge-os` | **forge-os** | the forge — cornerstone generation suite, model-dialect adaptive and platform-portable, extends the existing generators | 0 | 0 |
 | `fraser-cottrell-paid-ads` | **fraser-cottrell-paid-ads** | villain-vs-hero script architecture, and the 6-format static ad library, validated across ~$300-450m in managed meta spend and 8 | 3 | 0 |
 | `fresh-voice-system` | **Fresh Voice System** | combines voice dna (tone, comedy, rhythm) with serial storytelling architecture (arc design | 3 | 0 |
 | `frontend-design` | **frontend-design** | create distinctive, production-grade frontend interfaces with high design quality, use this skill when the user asks to build web components | 0 | 0 |
@@ -138,7 +139,7 @@
 | `jay-hiette-coaching-positioning` | **jay-hiette-coaching-positioning** | contrarian message architecture ("people think x, which causes y, but the truth is z") | 3 | 0 |
 | `jen-santulan-listing-content` | **jen-santulan-listing-content** | real estate social media (la / san fernando valley specialist), user is producing instagram content for jen santulan's real-estate practice o..., specifically not for generic real-estate marketing — jen's voice (warm, enthu... | 3 | 0 |
 | `jenny-hoyos-shorts` | **jenny-hoyos-shorts** | immediate start, rising action, anticipation | 3 | 0 |
-| `jeremy-haynes-cold-offer` | **Jeremy Haynes — Cold Traffic Offer Mastery** | cold-traffic offer architecture at the mechanism level — offers composed from ICP's umbrella narrative, re-composed across audience-temperature stages, kept alive by objection-mined dynamic augmentation | 13 | 10 |
+| `jeremy-haynes-cold-offer` | **jeremy-haynes-cold-offer** | and kept alive by objection-mined dynamic augmentation, use for offer builds, offer audits | 13 | 0 |
 | `jeremy-haynes-mindset-systems` | **Jeremy Haynes Mindset Systems** | mindset engineering systems for entrepreneurs — identity versioning, dynamic motivation, pain leverage | 3 | 7 |
 | `jeremy-miner-identity-persuasion` | **Jeremy Miner - Identity-Based Persuasion & Psychological Framing** | sales psychology, identity persuasion, behavioral influence | 11 | 14 |
 | `jessica-jensen-platform-intelligence` | **Jessica Jensen — LinkedIn Platform Intelligence** | platform strategy, b2b marketing, personal branding | 12 | 0 |
@@ -288,6 +289,7 @@
 | `rachel-woods-ai-operations` | **Rachel Woods: AI Operations Mastery** | transform any business into an ai-first operation using process decomposition, the craft cycle, and competitive ai edge identification | 3 | 7 |
 | `rafa-conde-fourth-wall-experience-os` | **Rafa Conde: Fourth-Wall Experience OS** | fourth-wall experience design for products, content, launches | 10 | 0 |
 | `rafa-conde-memorable-product-design` | **Rafa Conde: Memorable Product Design** | feeling-led product memorability for software, prototypes, launches | 12 | 0 |
+| `re-compliance-pack` | **re-compliance-pack** | real estate compliance (fair housing, transaction management, disclosure) | 1 | 0 |
 | `react-components` | **react:components** | converts stitch designs into modular vite and react components using system-l... | 0 | 0 |
 | `reid-hoffman-ai-strategy` | **reid-hoffman-ai-strategy** | single-player-to-multiplayer agent field design, different-angle market entry, and measure-then-intervene governance | 3 | 0 |
 | `remotion-video-creation` | **remotion-best-practices** | best practices for remotion - video creation in react | 0 | 0 |
@@ -352,7 +354,7 @@
 | `tom-noske-content-creation` | **Tom Noske - Content Creation Methodology** | authenticity-first content creation: zone of genius format diagnosis, energy auditing, quantity-driven skill acquisition | 8 | 0 |
 | `tom-noske-personal-brand` | **Tom Noske Personal Brand** | mission clarity, and trust infrastructure | 4 | 26 |
 | `tom-segura-comedy-storytelling` | **Tom Segura: Observational Comedy & Storytelling Craft** | the upstream craft robert mack's mechanics assume you already have, observational comedy & storytelling craft | 12 | 0 |
-| `tommy-clark-linkedin-growth` | **Tommy Clark: LinkedIn Founder Growth** | audience design, 'how i' narratives, three-moat system (narrative/data/physical), thought leader ads, linkedin founder growth | 6 | 8 |
+| `tommy-clark-linkedin-growth` | **Tommy Clark: LinkedIn Founder Growth** | audience design, and 'how i' narratives, linkedin founder growth | 6 | 4 |
 | `tyler-denk-audience-monetization` | **Antigravity Expert: Tyler Denk (Audience Monetization)** | beehiiv ceo tyler denk's system for audience acquisition, founder-led marketing, and high-ticket b2b monetization | 2 | 4 |
 | `velocity-scaling` | **velocity-scaling** | velocity scaling × dtc subscription × celebrity partnership × infrastructure pivot, speed itself becomes the moat, danny yeung | 18 | 0 |
 | `vince-nijhof-dtc-operator-system` | **vince-nijhof-dtc-operator-system** | dtc-operator-system, $20m/month dtc operator's playbook — paid-ads-first, ai-native | 14 | 0 |

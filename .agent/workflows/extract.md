@@ -96,9 +96,16 @@ A skill without its execution prompts is half-finished. For each distinct delive
 - `agents/[expert-name]/AGENT.md` — standard agent template
 - `agents/[expert-name]/memory/context.md` — initialize with activation date
 
-### 7. Register
+### 7. Register (generators, not hand-edits)
 // turbo
-Add to `AGENT_INDEX.md` and `SKILL_INDEX.md`.
+Run BOTH generators — they refresh `AGENT_INDEX.md` + `SKILL_INDEX.md`, mint the per-skill command shim, create/refresh the **expert front-door command** (`/[expert-name]` = AGENT.md persona + every skill they own, tier-gated), and put everything in the menu:
+
+```bash
+python3 execution/sync_registries.py
+python3 execution/generate_slash_commands.py
+```
+
+Verify: `.claude/commands/[expert-name].md` exists and lists the new skill; the skill's commands appear in `SLASH_COMMANDS.md` (`grep`). A skill that is fireable but absent from the menu is a registration failure — the 2026-07-15 audit found 1,192 accumulated strays from skipping this.
 
 ### 8. CHECKPOINT 2: Quality Verification (embodiment, not eyeball — instrumented, Wave 2)
 

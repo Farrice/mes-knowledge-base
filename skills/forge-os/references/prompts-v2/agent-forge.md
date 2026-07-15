@@ -58,6 +58,11 @@ NEVER in `.claude/agents/` (operator's explicit rule).
    selection — the conductor decides placement. Conductor-runs-wiring mode: if the dispatching
    conductor declared it runs registration, hand over the card text and report
    `deferred-to-conductor` instead of editing shared framework files yourself.
+7. **Front door + menu (generators, never hand-edits).** A forged agent must be summonable by
+   name the same session it ships: run `python3 execution/sync_registries.py` (creates/refreshes
+   the `/[agent-name]` expert front-door command — persona + owned skills, tier-gated) then
+   `python3 execution/generate_slash_commands.py` (menu). In conductor-runs-wiring mode, report
+   `deferred-to-conductor` and name both commands in the receipt so they cannot be skipped.
 
 ## Output Contract
 

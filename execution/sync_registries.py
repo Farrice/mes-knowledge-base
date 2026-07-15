@@ -22,6 +22,10 @@ COMMANDS_DIR = os.path.join(".claude", "commands")
 # Sentinel that marks a command file as one WE generated. Any file lacking this
 # marker is treated as foreign (hand-written workflow shim) and never modified.
 GEN_MARKER = "<!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->"
+# Sentinel that marks a command file as an EXPERT front door we generated.
+# Distinct from GEN_MARKER so ownership stays auditable; sync treats either
+# marker as "ours" when (re)writing an expert front-door command.
+EXPERT_MARKER = "<!-- auto-generated: expert front door (sync_registries.py) — safe to delete; regenerated on sync -->"
 
 
 def read_file(path):
@@ -564,24 +568,64 @@ def _discover_skill_slugs():
     return slugs
 
 
+def _discover_expert_groups():
+    """Map each expert -> the skill slugs that belong to it.
+
+    An expert is every agents/<slug>/ directory containing an AGENT.md (same
+    filter as sync_agents). A skill belongs to an expert when its slug IS the
+    expert slug or starts with "<expert-slug>-". If a skill matches multiple
+    expert prefixes, the LONGEST prefix wins (with a warning). Experts with
+    zero matched skills still appear — they get persona-only front doors.
+    Deterministic and stable: same tree -> same mapping every run.
+    """
+    experts = []
+    for item in sorted(os.listdir(AGENTS_DIR)):
+        if item.startswith("_") or item.startswith("."):
+            continue
+        agent_path = os.path.join(AGENTS_DIR, item)
+        if not os.path.isdir(agent_path):
+            continue
+        if not os.path.isfile(os.path.join(agent_path, "AGENT.md")):
+            continue
+        experts.append(item)
+
+    groups = {e: [] for e in experts}
+    for s in _discover_skill_slugs():
+        matches = [e for e in experts if s == e or s.startswith(e + "-")]
+        if not matches:
+            continue
+        winner = max(matches, key=len)
+        if len(matches) > 1:
+            others = ", ".join(sorted(m for m in matches if m != winner))
+            print(
+                f"⚠️  Skill '{s}' matches multiple expert prefixes ({others}) — "
+                f"assigned to longest: '{winner}'."
+            )
+        groups[winner].append(s)
+    return groups
+
+
 def _short_name(slug):
     """First two hyphen-tokens, e.g. david-bayer-elite-communication -> david-bayer."""
     parts = slug.split("-")
     return "-".join(parts[:2]) if len(parts) >= 2 else slug
 
 
-def compute_command_names(slugs):
+def compute_command_names(slugs, reserved=None):
     """Map each skill slug -> the command name to use.
 
     Short (2-token) name where that short is unique across all skills; full slug
     where the short collides (e.g. the 12 luke-iha-* skills keep their full slugs).
-    Deterministic and stable: same input -> same output every run.
+    A short name in `reserved` (expert front-door slugs) also demotes to the full
+    slug — /jeremy-haynes must resolve to the expert front door, never a skill
+    shim. Deterministic and stable: same input -> same output every run.
     """
+    reserved = reserved or set()
     short_counts = Counter(_short_name(s) for s in slugs)
     names = {}
     for s in slugs:
         short = _short_name(s)
-        names[s] = short if short_counts[short] == 1 else s
+        names[s] = short if short_counts[short] == 1 and short not in reserved else s
     return names
 
 
@@ -662,25 +706,114 @@ def render_skill_command(slug, command_name):
     )
 
 
-def sync_skill_commands():
+def render_expert_command(agent_slug, skill_slugs):
+    """Build the byte-exact front-door command content for an expert.
+
+    One command per agents/<slug>/ persona: loads AGENT.md (identity, voice,
+    beliefs, anti-patterns) and surfaces the expert's full skill portfolio with
+    the tier-gated loading rule, so /<expert> is the wide front door while
+    /<full-skill-slug> stays the narrow per-skill path. Experts with no matched
+    skills get a persona-only variant (embody AGENT.md, no skill table).
+    """
+    fm, body = extract_frontmatter_and_content(os.path.join(AGENTS_DIR, agent_slug, "AGENT.md"))
+    name = extract_agent_name(fm, body, agent_slug)
+    role = fm.get("role") or fm.get("description") or _card_domain(fm, body)
+    if role.startswith("See AGENT.md"):
+        role = f"expert persona for {name}"
+    role = role.replace("\n", " ").strip().rstrip(".")
+    if len(role) > 280:
+        role = role[:277].rstrip() + "..."
+    desc = f"{name} — full expert front door: {role}."
+    if skill_slugs:
+        desc += f" Skills: {', '.join(skill_slugs)}."
+    desc = desc.replace('"', "'")
+
+    lines = [
+        "---",
+        f'description: "{desc}"',
+        "---",
+        EXPERT_MARKER,
+        "",
+        f"Load `agents/{agent_slug}/AGENT.md` — identity, voice, beliefs, anti-patterns — "
+        f"and EMBODY {name} for this conversation.",
+    ]
+
+    if not skill_slugs:
+        lines += [
+            "",
+            "This is a persona-only front door (no skill directories match this expert). "
+            "Apply the expert's thinking — their thinking, not their terminology — to the "
+            "user's request, and self-score against the persona's own standards before delivering.",
+        ]
+        return "\n".join(lines) + "\n"
+
+    lines += [
+        "",
+        "Tier-gated loading: pick the ONE skill below relevant to the request and load its "
+        "SKILL.md (Tier 1). Load that skill's genius.md (Tier 2) before producing "
+        "deliverables. NEVER bulk-load all skills.",
+        "",
+        "| Skill | Tier 1 (SKILL.md path) | Tier 2 (genius.md path) | Flagship workflow |",
+        "|-------|------------------------|-------------------------|-------------------|",
+    ]
+    for s in skill_slugs[:12]:
+        sfm, _ = extract_frontmatter_and_content(os.path.join(SKILLS_DIR, s, "SKILL.md"))
+        has_genius = os.path.isfile(os.path.join(SKILLS_DIR, s, "genius.md"))
+        genius_cell = f"`skills/{s}/genius.md`" if has_genius else "(none)"
+        primary_wf = _detect_primary_workflow(s, sfm)
+        wf_cell = f"`skills/{s}/workflows/{primary_wf}.md`" if primary_wf else "(none)"
+        lines.append(f"| {s} | `skills/{s}/SKILL.md` | {genius_cell} | {wf_cell} |")
+    if len(skill_slugs) > 12:
+        rest = ", ".join(skill_slugs[12:])
+        lines += [
+            "",
+            f"Additional skills (same loading rule; paths follow the pattern above): {rest}.",
+        ]
+    lines += [
+        "",
+        "If the request fits a full structured run (not just a quick application), OFFER the "
+        "loaded skill's flagship workflow; each skill's 'Available Workflows' table and its "
+        "`references/prompts-v2/` execution prompts cover the other processes.",
+        "",
+        "Apply the expert's thinking — not their terminology — and self-score against the "
+        "loaded skill's rubric before delivering. Narrow per-skill commands still exist "
+        "(/<full-skill-slug>).",
+    ]
+    return "\n".join(lines) + "\n"
+
+
+def sync_skill_commands(reserved=None, subsumed=None, check=False):
     """Write one .claude/commands/<name>.md per skill that lacks a command.
 
     Clobber-safe + idempotent:
       - never touches a file we did not author (no GEN_MARKER -> skip as foreign)
       - never overwrites an existing workflow/skill command name
       - re-running converges to a fixed point (rewrites only on real change)
+      - short names in `reserved` (expert slugs) demote to full slugs
+      - skills whose FULL slug is in `subsumed` (expert front doors in scope)
+        emit no separate shim — the front door subsumes the exact name
+      - check=True reports would-create/would-change/orphans and writes NOTHING
     """
-    print("Syncing skill command shims...")
-    os.makedirs(COMMANDS_DIR, exist_ok=True)
+    reserved = reserved or set()
+    subsumed = subsumed or set()
+    if check:
+        print("Checking skill command shims (--check — no writes)...")
+    else:
+        print("Syncing skill command shims...")
+        os.makedirs(COMMANDS_DIR, exist_ok=True)
 
     slugs = _discover_skill_slugs()
-    names = compute_command_names(slugs)
+    names = compute_command_names(slugs, reserved=reserved)
     existing = _existing_command_basenames()
 
-    created = refreshed = unchanged = skipped_foreign = collided = 0
+    created = refreshed = unchanged = skipped_foreign = collided = subsumed_count = 0
     manifest = []
 
     for slug in slugs:
+        if slug in subsumed:
+            # The expert front door owns this exact name — no per-skill shim.
+            subsumed_count += 1
+            continue
         name = names[slug]
         cmd_path = os.path.join(COMMANDS_DIR, f"{name}.md")
         new_content = render_skill_command(slug, name)
@@ -689,8 +822,9 @@ def sync_skill_commands():
             current = read_file(cmd_path)
             if GEN_MARKER in current:
                 if current != new_content:
-                    with open(cmd_path, "w", encoding="utf-8") as f:
-                        f.write(new_content)
+                    if not check:
+                        with open(cmd_path, "w", encoding="utf-8") as f:
+                            f.write(new_content)
                     refreshed += 1
                 else:
                     unchanged += 1
@@ -701,31 +835,147 @@ def sync_skill_commands():
                 collided += 1
             continue
 
-        with open(cmd_path, "w", encoding="utf-8") as f:
-            f.write(new_content)
+        if not check:
+            with open(cmd_path, "w", encoding="utf-8") as f:
+                f.write(new_content)
         created += 1
         manifest.append((f"/{name}", slug))
 
-    # Write a machine-readable manifest of skill->command for the router + docs.
-    manifest_path = os.path.join(".agent", "skill-commands.json")
-    os.makedirs(".agent", exist_ok=True)
-    import json as _json
-    with open(manifest_path, "w", encoding="utf-8") as f:
-        _json.dump(
-            {"commands": [{"command": c, "skill": s} for c, s in sorted(manifest)]},
-            f, indent=2,
-        )
+    if not check:
+        # Write a machine-readable manifest of skill->command for the router + docs.
+        manifest_path = os.path.join(".agent", "skill-commands.json")
+        os.makedirs(".agent", exist_ok=True)
+        import json as _json
+        with open(manifest_path, "w", encoding="utf-8") as f:
+            _json.dump(
+                {"commands": [{"command": c, "skill": s} for c, s in sorted(manifest)]},
+                f, indent=2,
+            )
 
-    print(
-        f"✅ Skill commands: {created} created, {refreshed} refreshed, "
-        f"{unchanged} unchanged, {skipped_foreign} foreign-skipped "
-        f"(name already owned by a workflow/hand-written command)."
-    )
-    if collided:
+    if check:
+        short_counts = Counter(_short_name(s) for s in slugs)
+        demoted = sorted(
+            s for s in slugs
+            if _short_name(s) != s and _short_name(s) in reserved
+            and short_counts[_short_name(s)] == 1
+        )
+        would_names = {names[s] for s in slugs if s not in subsumed}
+        orphans = sorted(
+            base for base in existing
+            if base not in would_names and base not in subsumed
+            and GEN_MARKER in read_file(os.path.join(COMMANDS_DIR, f"{base}.md"))
+        )
+        print(
+            f"🔎 Skill commands (--check): {created} would-create, {refreshed} would-change, "
+            f"{unchanged} unchanged, {skipped_foreign} foreign-skipped, "
+            f"{subsumed_count} subsumed by expert front doors, {len(orphans)} orphan shim(s)."
+        )
+        if demoted:
+            print(
+                f"   ⚠️  {len(demoted)} short name(s) demoted to full slug "
+                f"(reserved by an expert): " + ", ".join(demoted)
+            )
+        if orphans:
+            print("   ⚠️  Orphan generated shim(s) no longer produced by sync: " + ", ".join(orphans))
+    else:
+        print(
+            f"✅ Skill commands: {created} created, {refreshed} refreshed, "
+            f"{unchanged} unchanged, {skipped_foreign} foreign-skipped "
+            f"(name already owned by a workflow/hand-written command), "
+            f"{subsumed_count} subsumed by expert front doors."
+        )
+    if collided and not check:
         print(
             f"   ℹ️  {collided} skill(s) could not get a command because the name is "
             f"already taken by a workflow. Those skills remain reachable by name / /find-skill."
         )
+
+
+def sync_expert_commands(expert_groups, scope="all", check=False):
+    """Write one .claude/commands/<expert_slug>.md front door per expert.
+
+    Ownership rule: a name is ours to (re)write only if the file is absent OR
+    carries GEN_MARKER or EXPERT_MARKER — reclaiming stale skill shims (e.g.
+    the old jeremy-haynes.md) while never touching hand-written workflow shims.
+    Byte-diff idempotent like sync_skill_commands: writes only on real change.
+    scope="multi" limits front doors to experts with >=2 matched skills;
+    scope="all" covers every expert incl. persona-only. check=True reports
+    would-create/would-change/orphans and writes NOTHING (no manifest either).
+    """
+    if check:
+        print(f"Checking expert front-door commands (--check — no writes, scope: {scope})...")
+    else:
+        print(f"Syncing expert front-door commands (scope: {scope})...")
+        os.makedirs(COMMANDS_DIR, exist_ok=True)
+
+    scoped = {
+        slug: skills for slug, skills in expert_groups.items()
+        if scope == "all" or len(skills) >= 2
+    }
+
+    created = refreshed = unchanged = skipped_foreign = 0
+    experts_manifest = {}
+
+    for slug in sorted(scoped):
+        skills = scoped[slug]
+        cmd_path = os.path.join(COMMANDS_DIR, f"{slug}.md")
+        new_content = render_expert_command(slug, skills)
+
+        if os.path.exists(cmd_path):
+            current = read_file(cmd_path)
+            if GEN_MARKER not in current and EXPERT_MARKER not in current:
+                # Foreign file (hand-written workflow shim) owns this name.
+                skipped_foreign += 1
+                continue
+            if current != new_content:
+                if not check:
+                    with open(cmd_path, "w", encoding="utf-8") as f:
+                        f.write(new_content)
+                refreshed += 1
+            else:
+                unchanged += 1
+        else:
+            if not check:
+                with open(cmd_path, "w", encoding="utf-8") as f:
+                    f.write(new_content)
+            created += 1
+        experts_manifest[slug] = {"command": f"/{slug}", "skills": skills}
+
+    if check:
+        orphans = sorted(
+            base for base in _existing_command_basenames()
+            if base not in scoped
+            and EXPERT_MARKER in read_file(os.path.join(COMMANDS_DIR, f"{base}.md"))
+        )
+        print(
+            f"🔎 Expert front doors (--check): {len(scoped)} expert(s) in scope — "
+            f"{created} would-create, {refreshed} would-change, {unchanged} unchanged, "
+            f"{skipped_foreign} foreign-skipped, {len(orphans)} orphan front door(s)."
+        )
+        if orphans:
+            print("   ⚠️  Orphan expert front door(s) with no in-scope expert: " + ", ".join(orphans))
+        return
+
+    # Extend the skill-command manifest with the expert front-door map.
+    manifest_path = os.path.join(".agent", "skill-commands.json")
+    os.makedirs(".agent", exist_ok=True)
+    import json as _json
+    data = {}
+    if os.path.isfile(manifest_path):
+        try:
+            with open(manifest_path, "r", encoding="utf-8") as f:
+                data = _json.load(f)
+        except Exception:
+            data = {}
+    data["experts"] = experts_manifest
+    with open(manifest_path, "w", encoding="utf-8") as f:
+        _json.dump(data, f, indent=2)
+
+    print(
+        f"✅ Expert front doors: {created} created, {refreshed} refreshed, "
+        f"{unchanged} unchanged, {skipped_foreign} foreign-skipped "
+        f"(name already owned by a workflow/hand-written command)."
+    )
 
 
 def sync_slash_commands_index():
@@ -763,16 +1013,45 @@ if __name__ == "__main__":
         action="store_true",
         help="Refresh AGENT_INDEX.md and SKILL_INDEX.md without touching .claude command shims.",
     )
+    parser.add_argument(
+        "--check",
+        action="store_true",
+        help="Full dry-run: report would-create/would-change/orphan counts and collision "
+             "warnings for skill + expert command shims. Writes NOTHING.",
+    )
+    parser.add_argument(
+        "--experts-scope",
+        choices=["multi", "all"],
+        default="all",
+        help="Which experts get front-door commands: 'multi' = only experts with >=2 "
+             "matched skills; 'all' (default) = every expert incl. persona-only.",
+    )
     args = parser.parse_args()
 
     if not os.path.exists(SKILLS_DIR) or not os.path.exists(AGENTS_DIR):
         print("Run this from the workspace root.")
         exit(1)
 
+    if args.check:
+        expert_groups = _discover_expert_groups()
+        front_doors = {
+            slug for slug, skills in expert_groups.items()
+            if args.experts_scope == "all" or len(skills) >= 2
+        }
+        sync_skill_commands(reserved=set(expert_groups), subsumed=front_doors, check=True)
+        sync_expert_commands(expert_groups, scope=args.experts_scope, check=True)
+        sys.exit(0)
+
     sync_agents()
     sync_skills()
     sync_invocation_cards()
     if not args.indexes_only:
-        sync_skill_commands()
+        expert_groups = _discover_expert_groups()
+        front_doors = {
+            slug for slug, skills in expert_groups.items()
+            if args.experts_scope == "all" or len(skills) >= 2
+        }
+        sync_skill_commands(reserved=set(expert_groups), subsumed=front_doors)
+        sync_expert_commands(expert_groups, scope=args.experts_scope)
     print("\n📚 Regenerating command index...")
     sync_slash_commands_index()

@@ -1618,7 +1618,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 59 agent(s) had no invocation card. Stubs below are machine-
+> 60 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -1881,6 +1881,16 @@ DOMAIN: See AGENT.md — domain not yet tagged in frontmatter.
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: Fareed Zakaria is a world-class public intellectual, journalist, and author who has mastered the art of making complex global ideas accessible without dumbin...
 ENTRY PROMPT: agents/fareed-zakaria/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: The Forge Conductor (Forge OS)
+DOMAIN: Generation conducting — raw intent → production-grade prompt / workflow / skill / agent / plugin through one front door, five lanes, one shared spine
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: Dispatch this agent to run any Forge OS lane end-to-end: it classifies intent at the front door, routes to the right lane or the existing owning generator, e...
+ENTRY PROMPT: agents/forge-os/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 
@@ -2215,13 +2225,3 @@ PAIRS WITH: (unassigned — enrich manually)
 ```
 
 <!-- GEN:auto-card:END -->
-
-<!-- manual-card (Forge OS, 2026-07-15 — keep below the GEN block; hand-curated) -->
-```
-AGENT: The Forge Conductor
-DOMAIN: Generation conducting — raw intent → production-grade prompt / workflow / skill / agent / plugin (Forge OS, five lanes, one front door)
-CORE METHOD: Front-door Translation Card + routing honesty (artifact-in-hand exits to the owning door), then the shared spine — translate → ground → compose → forge → gate → prove → wire → evolve; forging from training memory prohibited; artifacts born instrumented and dialect-portable
-BEST FOR: /forge lane runs, forge cold-start proofs, dialect probes, grounding sprints; refuses content/strategy/research-as-deliverable and any plugin packaging without a verbatim operator lift token
-ENTRY PROMPT: agents/forge-os/AGENT.md (execution layer: skills/forge-os/references/prompts-v2/)
-PAIRS WITH: /extract-forge (source-in-hand), /convert-prompt + /convert-extraction (artifact conversions), /skill-anneal + /self-evolve (post-forge evolution)
-```

@@ -19,7 +19,7 @@ description: The Forge — cornerstone generation suite. Raw intent → producti
 | **Prompt Forge** | raw concept | one born-v2 structure-pure prompt + fixture | `references/prompts-v2/prompt-forge.md` | **LIVE (Wave 1)** |
 | **Workflow Forge** | raw concept / repeated manual loop | `.agent/workflows/<name>.md` command with gates + verification | `references/prompts-v2/workflow-forge.md` | **LIVE (Wave 2)** |
 | **Skill Forge** | raw concept (no source required) | full skill (SKILL.md + genius + workflows + v2 prompts) | Stage 1: `references/prompts-v2/grounding-sprint.md` (receipts-backed corpus) → existing `/extract-forge` pipeline | **Stage 1 LIVE (Wave 2)** |
-| **Agent Forge** | raw concept or existing skill | `agents/<name>/` AGENT.md + memory + card | `references/prompts-v2/agent-forge.md` (promotion mechanics per `/create-agent`; no-corpus → SKILL-FIRST stop) | **LIVE (Wave 2)** |
+| **Agent Forge** | raw concept or existing skill | `agents/<name>/` AGENT.md + memory + card + `/[name]` front-door command (via sync_registries + generate_slash_commands) | `references/prompts-v2/agent-forge.md` (promotion mechanics per `/create-agent`; no-corpus → SKILL-FIRST stop) | **LIVE (Wave 2)** |
 | **Plugin Forge** | skill / prompt-set / workflow family | installable plugin (plugin-dev toolchain) | `references/prompts-v2/plugin-forge.md` — **HARD-GATED**: builds nothing without a verbatim operator lift token + 4/4 lift-plan fixtures in one run | **ENGINE READY · packaging gated (Wave 3)** |
 
 **Routing honesty (never rebuild):** if the intent arrives WITH an artifact, the Forge front door

@@ -1,28 +1,28 @@
 # Latest Handoff
 
-**Thread:** tommy-clark-linkedin-growth  
-**Full path:** .agent/handoffs/2026-07-15-tommy-clark-linkedin-growth.md  
+**Thread:** system-health-check-framework  
+**Full path:** .agent/handoffs/2026-07-15-system-health-check-framework.md  
 **Date:** 2026-07-15 (today)  
 **Status:** active  
-**Title:** Tommy Clark Linkedin Growth — Blind Pass Sample Uncopyable Filter
+**Title:** System Health Check Framework — P1 Fixes
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume tommy-clark-linkedin-growth` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume system-health-check-framework` for this one.
 
 ---
-thread: tommy-clark-linkedin-growth
+
+---
+thread: system-health-check-framework
 status: active
-resume_hint: Tommy Clark Linkedin Growth — Blind Pass Sample Uncopyable Filter
+resume_hint: System Health Check Framework — P1 Fixes
 branch: main
 pin: true
 ---
 
-# Tommy Clark Linkedin Growth — Blind Pass Sample Uncopyable Filter
+# System Health Check Framework — P1 Fixes
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
 
-**Artifacts:** /Users/farricecain/Google Antigravity/skills/tommy-clark-linkedin-growth/references/prompts-v2/physical-moat-shot-list.md, /Users/farricecain/Google Antigravity/skills/tommy-clark-linkedin-growth/SKILL.md, /Users/farricecain/Google Antigravity/skills/tommy-clark-linkedin-growth/references/source-ledger.md, /Users/farricecain/Google Antigravity/skills/tommy-clark-linkedin-growth/genius.md, /Users/farricecain/Google Antigravity/extractions/tommy-clark-linkedin-growth/blind-pass-sample-uncopyable-filter.md
+**Artifacts:** /Users/farricecain/Google Antigravity/_active/system-health-check-framework/FRAMEWORK.md, /Users/farricecain/Google Antigravity/_active/system-health-check-framework/01-diagnosis/FINDINGS.md, /Users/farricecain/Google Antigravity/_active/system-health-check-framework/02-action-plan/P1_FIXES.md
 
-**Retrieve:** `/resume tommy-clark-linkedin-growth`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
+**Retrieve:** `/resume system-health-check-framework`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
 
