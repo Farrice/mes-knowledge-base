@@ -1,14 +1,14 @@
 {
-  "generated": "2026-07-15T11:33:51.067505",
-  "total_files": 611,
-  "total_words": 2539428,
-  "total_tokens_est": 3377439,
+  "generated": "2026-07-15T11:58:17.291340",
+  "total_files": 613,
+  "total_words": 2540479,
+  "total_tokens_est": 3378837,
   "stale_files_30d": 454,
   "domains": {
     "content": 202,
     "copywriting": 95,
     "general": 83,
-    "strategy": 56,
+    "strategy": 58,
     "screenwriting": 47,
     "brand": 38,
     "systems": 33,
@@ -45,6 +45,32 @@
       "age_days": 128,
       "size_bytes": 4987,
       "content_hash": "0920ab86",
+      "has_frontmatter": false
+    },
+    {
+      "path": "knowledge/assembly-rubric.md",
+      "name": "assembly-rubric",
+      "parent": "knowledge",
+      "domain": "strategy",
+      "expert": null,
+      "word_count": 45,
+      "modified": "2026-07-15T11:52:53.287578",
+      "age_days": 0,
+      "size_bytes": 438,
+      "content_hash": "07045036",
+      "has_frontmatter": false
+    },
+    {
+      "path": "knowledge/assembly-sessions/2026-07-15-competitive-sailing-rigging-optimization-for-a-3.md",
+      "name": "2026-07-15-competitive-sailing-rigging-optimization-for-a-3",
+      "parent": "assembly-sessions",
+      "domain": "strategy",
+      "expert": null,
+      "word_count": 944,
+      "modified": "2026-07-15T11:52:45.849516",
+      "age_days": 0,
+      "size_bytes": 5772,
+      "content_hash": "60141e4e",
       "has_frontmatter": false
     },
     {
@@ -1925,11 +1951,11 @@
       "parent": "knowledge",
       "domain": "content",
       "expert": null,
-      "word_count": 4314,
-      "modified": "2026-07-15T11:19:17.500716",
+      "word_count": 4324,
+      "modified": "2026-07-15T11:56:37.802427",
       "age_days": 0,
-      "size_bytes": 71656,
-      "content_hash": "8b8946ad",
+      "size_bytes": 71869,
+      "content_hash": "4c1c48ae",
       "has_frontmatter": false
     },
     {
@@ -1938,10 +1964,10 @@
       "parent": "knowledge",
       "domain": "general",
       "expert": null,
-      "word_count": 11803,
-      "modified": "2026-07-15T11:33:50.755776",
+      "word_count": 11855,
+      "modified": "2026-07-15T11:58:16.981730",
       "age_days": 0,
-      "size_bytes": 92536,
+      "size_bytes": 92941,
       "content_hash": "5a51f947",
       "has_frontmatter": false
     },
@@ -2226,7 +2252,7 @@
       "expert": "dai-media",
       "word_count": 4015,
       "modified": "2026-05-04T11:52:08.869713",
-      "age_days": 71,
+      "age_days": 72,
       "size_bytes": 35206,
       "content_hash": "1d1fae21",
       "has_frontmatter": false
@@ -4098,7 +4124,7 @@
       "expert": "kieran-flanagan",
       "word_count": 2108,
       "modified": "2026-03-18T11:44:31.088305",
-      "age_days": 118,
+      "age_days": 119,
       "size_bytes": 14945,
       "content_hash": "e35f29be",
       "has_frontmatter": false
@@ -5645,7 +5671,7 @@
       "expert": null,
       "word_count": 2954,
       "modified": "2026-03-20T11:55:44.079692",
-      "age_days": 116,
+      "age_days": 117,
       "size_bytes": 18961,
       "content_hash": "23e315b5",
       "has_frontmatter": false
@@ -7257,7 +7283,7 @@
       "expert": null,
       "word_count": 525,
       "modified": "2026-07-07T11:55:15.565271",
-      "age_days": 7,
+      "age_days": 8,
       "size_bytes": 3824,
       "content_hash": "03981fcd",
       "has_frontmatter": false
@@ -7283,7 +7309,7 @@
       "expert": null,
       "word_count": 2380,
       "modified": "2026-07-07T11:56:41.729408",
-      "age_days": 7,
+      "age_days": 8,
       "size_bytes": 14539,
       "content_hash": "9aaed909",
       "has_frontmatter": false
@@ -7309,7 +7335,7 @@
       "expert": null,
       "word_count": 678,
       "modified": "2026-07-07T11:54:40.122419",
-      "age_days": 7,
+      "age_days": 8,
       "size_bytes": 4822,
       "content_hash": "e7702045",
       "has_frontmatter": false
@@ -7322,7 +7348,7 @@
       "expert": null,
       "word_count": 3121,
       "modified": "2026-07-07T11:57:30.516316",
-      "age_days": 7,
+      "age_days": 8,
       "size_bytes": 20615,
       "content_hash": "c7691f9e",
       "has_frontmatter": false

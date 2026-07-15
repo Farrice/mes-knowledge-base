@@ -1,5 +1,5 @@
 # Knowledge Index
-*611 sources | 2,539,428 words | Updated: 2026-07-15*
+*613 sources | 2,540,479 words | Updated: 2026-07-15*
 
 ---
 
@@ -21,7 +21,7 @@
 - [mes-extraction](../extractions/wargame-source/mes-extraction.md) — 4,604 words
 - [visual-context](../extractions/brad-bonanno/visual-context.md) — 4,497 words
 - [extraction-report](../extractions/dr-k/extraction-report.md) — 4,451 words (stale)
-- [index](index.md) — 4,314 words
+- [index](index.md) — 4,324 words
 - [warm-audience-flywheel](../extractions/jeremy-haynes-cold-offer/reference-corpus/warm-audience-flywheel.md) — 4,149 words
 - [deep-notes-qn6VasGSexI](../extractions/sean-dollwet/deep-notes-qn6VasGSexI.md) — 4,118 words
 - [mastery-extraction](../extractions/meg-heckman/mastery-extraction.md) — 4,112 words
@@ -323,7 +323,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 11,803 words
+- [log](log.md) — 11,855 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words
@@ -392,7 +392,7 @@
 - [ocr-notes](../extractions/video-context/3iR3kHxCwfo/ocr-notes.md) — 20 words
 - [ocr-notes](../extractions/video-context/a7VjpIqq8Xk/ocr-notes.md) — 20 words
 
-## Strategy (56 files)
+## Strategy (58 files)
 
 - [Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI](extractions/inbox/Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI.md) — 54,665 words (stale)
 - [Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2](extractions/inbox/Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2.md) — 29,981 words (stale)
@@ -427,6 +427,7 @@
 - [pain-to-tool-architect](../extractions/mike-foutia-marketing-tools/prompts/pain-to-tool-architect.md) — 1,024 words (stale)
 - [01-new-media-strategy-audit](../extractions/marc-andreessen-ben-horowitz/prompts/01-new-media-strategy-audit.md) — 1,012 words (stale)
 - [dwa-edgecase-3-research-2026-06-13](../research_outputs/dwa-edgecase-3-research-2026-06-13.md) — 950 words
+- [2026-07-15-competitive-sailing-rigging-optimization-for-a-3](assembly-sessions/2026-07-15-competitive-sailing-rigging-optimization-for-a-3.md) — 944 words
 - [brand-bible-builder](../extractions/mike-foutia-marketing-tools/prompts/brand-bible-builder.md) — 929 words (stale)
 - [01-promoter-blueprint-audit](../extractions/jonathan-courtney/prompts/01-promoter-blueprint-audit.md) — 922 words (stale)
 - [homerun-extraction](../extractions/prediction-market-trading/homerun-extraction.md) — 915 words (stale)
@@ -450,6 +451,7 @@
 - [guide_research_creative_direction](../extractions/creative-direction/guide_research_creative_direction.md) — 543 words (stale)
 - [sample-001](expert-benchmarks/brand-strategy/sample-001.md) [oren-john] — 448 words (stale)
 - [product-design-scoring](../extractions/meg-heckman/codex-prior-art/skill/workflows/product-design-scoring.md) — 200 words
+- [assembly-rubric](assembly-rubric.md) — 45 words
 
 ## Screenwriting (47 files)
 

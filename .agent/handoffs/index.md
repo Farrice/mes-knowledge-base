@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-15** [assemble-competitive-sailing-rigging-optimization-for-a-3/active] [Panel Session — competitive sailing rigging optimization for a 30-foot racing sloop](2026-07-15-assemble-competitive-sailing-rigging-optimization-for-a-3.md) — Expert Assembly panel: competitive sailing rigging optimization for a 30-foot racing sloop
 - **2026-07-15** [solutions/active] [Solutions — Expert Assembly Os Hybrid Casting](2026-07-15-solutions.md) — Solutions — Expert Assembly Os Hybrid Casting
 - **2026-07-15** [jh-offer-audit/active] [DWA presale page — 3 audit fixes applied (credential section, day-0-at-checkout, insurance frame + concrete friction copy) + em-dash voice-law pass on public copy](2026-07-15-jh-offer-audit.md) — DWA presale page — 3 audit fixes applied (credential section, day-0-at-checkout, insurance frame + concrete friction copy) + em-dash voice-law pass on public copy
 - **2026-07-15** [system-health-check-framework/active] [System Health Check Framework — P1 Fixes](2026-07-15-system-health-check-framework.md) — System Health Check Framework — P1 Fixes

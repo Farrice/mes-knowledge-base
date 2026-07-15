@@ -1020,6 +1020,16 @@
     "status": ""
   },
   {
+    "name": "Expert Assembly OS",
+    "directory": "expert-assembly-os",
+    "description": "Hybrid expert panel system \u2014 roster selection + bespoke persona synthesis + multi-round deliberation + tiered implementation roadmap for any domain.",
+    "when_to_use": "- **Any unfamiliar domain**: \"I don't know this space; I need world-class thinking.\"\n- **Complex multi-perspective work**: Requires 3\u20135 distinct lenses colliding.\n- **Roadmap + synthesis deliverables**: Task needs both analysis AND a tiered execution plan.\n- **Composite credentials acceptable**: When fabricated stats are poisonous, synthesized methodology is gold.",
+    "mtime": 1784140029.8446367,
+    "slash": "/expert-assembly-os",
+    "routing": "long-tail",
+    "status": "active"
+  },
+  {
     "name": "MES 3.0 \u2014 Mastery Extraction & Expert Replication",
     "directory": "extract-mastery",
     "description": "Battle-tested methodology that decodes any expert's conscious AND unconscious mastery from source material, forges it into copy-paste-deployable Crown Jewel prompts, and designs the pathway to surpass the original expert within 30 days.",

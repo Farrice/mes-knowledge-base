@@ -1,16 +1,540 @@
 {
-  "ts": "2026-07-15T11:33:50",
-  "total": 1,
+  "ts": "2026-07-15T11:52:56",
+  "total": 83,
   "counts": {
-    "PASS": 1
+    "PASS": 51,
+    "FAIL": 27,
+    "SKIP": 4,
+    "TIMEOUT": 1
   },
-  "failing": [],
+  "failing": [
+    "verify_agent_arsenal_routing.py",
+    "verify_agentic_engineering_loop_contract.py",
+    "verify_artifact_router.py",
+    "verify_attention_hijack_hooks.py",
+    "verify_automation_cohesion_standard.py",
+    "verify_behavior_changing_extraction_contract.py",
+    "verify_buyer_trigger_research_contract.py",
+    "verify_codex_indexes.py",
+    "verify_contextual_next_prompts.py",
+    "verify_convene.py",
+    "verify_deep_research_os.py",
+    "verify_end_session_intelligence.py",
+    "verify_farrice_content_os.py",
+    "verify_global_steering_closeout.py",
+    "verify_goal_loop_maintenance_contract.py",
+    "verify_high_taste_writing_os.py",
+    "verify_intent_memory_contract.py",
+    "verify_kimi_swarm.py",
+    "verify_mission_activation_contract.py",
+    "verify_mission_package_handoff.py",
+    "verify_protocol_lifecycle.py",
+    "verify_repeatability_spine.py",
+    "verify_skill_evolution_local_first.py",
+    "verify_steering_compass.py",
+    "verify_system.py",
+    "verify_system_cohesion_spine.py",
+    "verify_system_control_plane.py",
+    "verify_tiered_agent_routing.py"
+  ],
   "results": [
     {
       "script": "verify_activation_governor.py",
       "status": "PASS",
       "detail": "",
       "secs": 0.7
+    },
+    {
+      "script": "verify_agent_arsenal_routing.py",
+      "status": "FAIL",
+      "detail": "- antigravity-orchestrator agent missing recommended stack behavior",
+      "secs": 1.4
+    },
+    {
+      "script": "verify_agentic_engineering_loop_contract.py",
+      "status": "FAIL",
+      "detail": "- source evidence missing: extractions/video-context/PzVV4X37ihg/analysis.md",
+      "secs": 3.8
+    },
+    {
+      "script": "verify_antigravity_global_access.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 2.0
+    },
+    {
+      "script": "verify_artifact_router.py",
+      "status": "FAIL",
+      "detail": "- hybrid morning route should carry Content domain",
+      "secs": 40.4
+    },
+    {
+      "script": "verify_attention_hijack_hooks.py",
+      "status": "FAIL",
+      "detail": "- missing subagent: .claude/agents/attention-hijack-hook-auditor.md",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_automation_cohesion_standard.py",
+      "status": "FAIL",
+      "detail": "- hybrid-morning-signal-radar: missing automation.toml",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_autopilot_routing.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 47.0
+    },
+    {
+      "script": "verify_autopilot_runtime_preflight.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 32.0
+    },
+    {
+      "script": "verify_behavior_changing_extraction_contract.py",
+      "status": "FAIL",
+      "detail": "- missing sam proof lab: _active/sam-parr-copywriting-os/06-before-after-proof-lab.md",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_buyer_trigger_research_contract.py",
+      "status": "FAIL",
+      "detail": "- missing file: /Users/farricecain/Google Antigravity/skills/meg-heckman-buyer-trigger-os/workflows/research-backed-trigger-run.md",
+      "secs": 0.4
+    },
+    {
+      "script": "verify_codex_authority.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_codex_claude_parity.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 3.6
+    },
+    {
+      "script": "verify_codex_dynamic_workflow.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.2
+    },
+    {
+      "script": "verify_codex_indexes.py",
+      "status": "FAIL",
+      "detail": "- missing output: semantic_libraries/antigravity/indexes/codex-subagent-candidates.md",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_contextual_next_prompts.py",
+      "status": "FAIL",
+      "detail": "AssertionError: Missing snippet in semantic_libraries/antigravity/primitives/collaborative-steering-compass.md: **Prompt:**",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_control_intent.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_convene.py",
+      "status": "FAIL",
+      "detail": "AssertionError: missing file: .agents/cold-skills/source-command-wrappers/source-command-convene/SKILL.md",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_cos_primer_gate.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.3
+    },
+    {
+      "script": "verify_deep_research_os.py",
+      "status": "FAIL",
+      "detail": "AssertionError: missing file: .agents/cold-skills/source-command-wrappers/source-command-deep-research-os/SKILL.md",
+      "secs": 0.1
+    },
+    {
+      "script": "verify_end_session_intelligence.py",
+      "status": "FAIL",
+      "detail": "AssertionError: end-session workflow missing: routing-feedback-inbox.jsonl, verify_end_session_intelligence.py",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_expert_composition_standard.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 3.7
+    },
+    {
+      "script": "verify_extraction_command_surface.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 4.1
+    },
+    {
+      "script": "verify_farrice_content_os.py",
+      "status": "FAIL",
+      "detail": "- codex skill missing workflow command template",
+      "secs": 2.8
+    },
+    {
+      "script": "verify_fleet.py",
+      "status": "SKIP",
+      "reason": "the runner itself \u2014 recursing would deadlock",
+      "secs": 0
+    },
+    {
+      "script": "verify_global_autopilot_source_truth.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_global_execution_bias_bridge.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.2
+    },
+    {
+      "script": "verify_global_steering_closeout.py",
+      "status": "FAIL",
+      "detail": "AssertionError: Missing global snippet: Close with steering by default: 3 Next Prompts using Use Now, Harden, and Expand.",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_global_steering_persistence.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.1
+    },
+    {
+      "script": "verify_goal_loop_maintenance_contract.py",
+      "status": "FAIL",
+      "detail": "- source evidence missing: extractions/video-context/5xrjO38WUYY/video-context-ledger.md",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_google_operator_core.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 7.5
+    },
+    {
+      "script": "verify_health_performance_geo_prompt.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_high_taste_os.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.5
+    },
+    {
+      "script": "verify_high_taste_writing_os.py",
+      "status": "FAIL",
+      "detail": "- routing query did not surface /high-taste-writing-os: copy is structurally sound but not compelling",
+      "secs": 2.7
+    },
+    {
+      "script": "verify_intent_memory_contract.py",
+      "status": "FAIL",
+      "detail": "- .agent/workflows/autopilot.md missing term: execution/intent_memory.py verify",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_kimi_swarm.py",
+      "status": "FAIL",
+      "detail": "AssertionError: missing file: .agent/workflows/kimi-swarm.md",
+      "secs": 0.1
+    },
+    {
+      "script": "verify_markdown_readability_guard.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_memory_stack.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 3.3
+    },
+    {
+      "script": "verify_mission_activation_contract.py",
+      "status": "FAIL",
+      "detail": "Reply with the number or command name to run it, or ask for alternatives in a narrower domain.",
+      "secs": 1.4
+    },
+    {
+      "script": "verify_mission_package_handoff.py",
+      "status": "FAIL",
+      "detail": "- cold-start routing: cold-start Vibe Tax deployment query did not surface /vibe-tax-deploy",
+      "secs": 1.1
+    },
+    {
+      "script": "verify_operator_cockpit.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 48.1
+    },
+    {
+      "script": "verify_operator_core_ai_employee_os.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 1.7
+    },
+    {
+      "script": "verify_operator_core_end_session.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 10.6
+    },
+    {
+      "script": "verify_operator_core_expert_composition_governor.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 12.8
+    },
+    {
+      "script": "verify_operator_core_extraction_governor_agent.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 10.8
+    },
+    {
+      "script": "verify_operator_core_fast_proof.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 15.5
+    },
+    {
+      "script": "verify_operator_core_health_check.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 8.9
+    },
+    {
+      "script": "verify_operator_core_knowledge_librarian.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 9.0
+    },
+    {
+      "script": "verify_operator_core_orchestrate.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 9.0
+    },
+    {
+      "script": "verify_operator_core_repeatability_spine.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 9.0
+    },
+    {
+      "script": "verify_operator_core_routing_intelligence.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 8.8
+    },
+    {
+      "script": "verify_operator_core_self_evolve.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 9.0
+    },
+    {
+      "script": "verify_operator_core_skill_anneal.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 9.0
+    },
+    {
+      "script": "verify_operator_core_source_to_skill_system.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 12.7
+    },
+    {
+      "script": "verify_operator_core_status.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.1
+    },
+    {
+      "script": "verify_operator_core_system_audit.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 8.9
+    },
+    {
+      "script": "verify_operator_lesson.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.9
+    },
+    {
+      "script": "verify_performance_evidence_gate.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.2
+    },
+    {
+      "script": "verify_plugin_readiness_stdout.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.1
+    },
+    {
+      "script": "verify_proof_ledger.py",
+      "status": "SKIP",
+      "reason": "per-artifact checker (requires --draft/--ledger); fires per-deliverable, not standalone",
+      "secs": 0
+    },
+    {
+      "script": "verify_protocol_lifecycle.py",
+      "status": "FAIL",
+      "detail": "AssertionError: missing lifecycle fields: cold_source_only_protocols, deprecated_protocols, dormant_protocols, healthy_protocols, lifecycle_counts, overdue_protocols",
+      "secs": 0.1
+    },
+    {
+      "script": "verify_raw_intent_bridge_command.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 5.7
+    },
+    {
+      "script": "verify_raw_intent_global_skill.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 5.7
+    },
+    {
+      "script": "verify_raw_intent_run_packet.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 17.4
+    },
+    {
+      "script": "verify_recall_mcp_auth.py",
+      "status": "SKIP",
+      "reason": "needs live `codex mcp list` outside sandbox",
+      "secs": 0
+    },
+    {
+      "script": "verify_recurring_ops_dry_run.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.4
+    },
+    {
+      "script": "verify_repeatability_spine.py",
+      "status": "FAIL",
+      "detail": "AssertionError: publishable copy gate missing text: Preservation Lock, strongest voice/proof/tension",
+      "secs": 0.1
+    },
+    {
+      "script": "verify_savant_control_room.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 29.2
+    },
+    {
+      "script": "verify_session_state_freshness_loop.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_skill_evolution_candidate_freshness.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_skill_evolution_candidates.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.1
+    },
+    {
+      "script": "verify_skill_evolution_local_first.py",
+      "status": "FAIL",
+      "detail": "AssertionError: expected local history for luke-iha-client-mastery, got 0",
+      "secs": 0.6
+    },
+    {
+      "script": "verify_skill_system_contract.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 4.0
+    },
+    {
+      "script": "verify_steering_compass.py",
+      "status": "FAIL",
+      "detail": "AssertionError: Missing required file: .agents/cold-skills/source-command-wrappers/source-command-steering-compass/SKILL.md",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_steering_compass_quality.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.7
+    },
+    {
+      "script": "verify_subagent_approval_language.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.7
+    },
+    {
+      "script": "verify_subagent_readiness.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_system.py",
+      "status": "FAIL",
+      "detail": "- Create missing workflow files or remove stale entries from SLASH_COMMANDS.md",
+      "secs": 0.2
+    },
+    {
+      "script": "verify_system_cohesion_spine.py",
+      "status": "FAIL",
+      "detail": "- .agent/workflows/autopilot.md missing term: next move",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_system_control_plane.py",
+      "status": "TIMEOUT",
+      "detail": ">90s",
+      "secs": 90
+    },
+    {
+      "script": "verify_tiered_agent_routing.py",
+      "status": "FAIL",
+      "detail": "AttributeError: module 'routing_audit' has no attribute 'build_tiered_routing_report'",
+      "secs": 0.0
+    },
+    {
+      "script": "verify_video_context_source_package.py",
+      "status": "SKIP",
+      "reason": "per-artifact checker (requires package arg); fires per-extraction, not standalone",
+      "secs": 0
+    },
+    {
+      "script": "verify_virtuoso_orchestration.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 15.0
     }
   ]
 }

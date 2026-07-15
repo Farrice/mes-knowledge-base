@@ -479,3 +479,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-15 10:30]` **finalize** | System Health & Debt Control loop: health_metrics.py collector + launchd 06:15 + System Vitals brief | general | system — composite:8.67 status:Keep
 - `[2026-07-15 11:19]` **finalize** | DWA presale page — 3 audit fixes applied (credential section, day-0-at-checkout, insurance frame + c | general | jeremy-haynes — composite:8.33 status:Keep
 - `[2026-07-15 11:33]` **finalize** | Expert Assembly OS Phase 0–3 complete: hybrid casting + bespoke personas + roadmap synthesis + routi | general | panel_cast — composite:8.33 status:Keep
+- `[2026-07-15 11:56]` **finalize** | Expert Assembly OS (/assemble): recovered Farrice's original GENIUS-LEVEL EXPERT ASSEMBLY lineage (v | general | corey-mcclain-persona-engineering — composite:8.67 status:Keep
+- `[2026-07-15 11:58]` **finalize** | Health loop v2: verify_fleet runner (83 verifiers on Sunday train) exposing 37 broken contracts; 5 p | general | system — composite:8.33 status:Keep

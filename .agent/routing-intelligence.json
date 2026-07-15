@@ -6190,6 +6190,97 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_183811_e64f",
+            "timestamp": "2026-07-15T18:38:11.480590+00:00",
+            "session_id": "verify-hook-parity",
+            "request_summary": "Write converting copy from scratch for a supplement brand using Luke Iha copy blocks.",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-copy-blocks",
+            "experts_deployed": [
+                "luke-iha-copy-blocks",
+                "stefan-georgi-dopamine-copy",
+                "luke-iha-vicious-hooks"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-copy-blocks",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-copy-blocks + stefan-georgi-dopamine-copy + luke-iha-vicious-hooks",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_184632_b629",
+            "timestamp": "2026-07-15T18:46:32.015798+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "how-i-write-os",
+            "experts_deployed": [
+                "how-i-write-os",
+                "gpt-image-2-director",
+                "dara-denney-meta-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "how-i-write-os",
+            "ensemble": true,
+            "compound_pairing": "how-i-write-os + gpt-image-2-director + dara-denney-meta-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_184648_9460",
+            "timestamp": "2026-07-15T18:46:48.733549+00:00",
+            "session_id": "verify-hook-parity",
+            "request_summary": "Write converting copy from scratch for a supplement brand using Luke Iha copy blocks.",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-copy-blocks",
+            "experts_deployed": [
+                "luke-iha-copy-blocks",
+                "stefan-georgi-dopamine-copy",
+                "luke-iha-vicious-hooks"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-copy-blocks",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-copy-blocks + stefan-georgi-dopamine-copy + luke-iha-vicious-hooks",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_185637_7c54",
+            "timestamp": "2026-07-15T18:56:37.499322+00:00",
+            "session_id": "",
+            "request_summary": "Expert Assembly OS (/assemble): recovered Farrice's original GENIUS-LEVEL EXPERT ASSEMBLY lineage (v1-v4+Virtuoso) from claude-export archive; built hybrid casting (panel_cast.py coverage detection: r",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "corey-mcclain-persona-engineering"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "assemble",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260715_185816_843b",
+            "timestamp": "2026-07-15T18:58:16.962892+00:00",
+            "session_id": "",
+            "request_summary": "Health loop v2: verify_fleet runner (83 verifiers on Sunday train) exposing 37 broken contracts; 5 production fixes (log_performance local mirror, control_intent status lane, router control-plane sets",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "go",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -6574,13 +6665,13 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 343,
+            "total_routings": 348,
             "total_feedback": 42,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 52,
+                "System": 54,
                 "Client Work": 13,
                 "Analysis": 5,
                 "Strategy": 18,
@@ -6595,14 +6686,14 @@
                 "david-placek-naming": 5,
                 "nicolas-cole-niche-positioning": 5,
                 "brand-operating-system": 10,
-                "how-i-write-os": 11,
+                "how-i-write-os": 12,
                 "nate-b-jones-auto-improvement-loops": 1,
                 "jason-fladlien-marketing": 6,
                 "paul-james-ai-automation": 1,
                 "nicolas-cole-digital-products": 1,
                 "nate-b-jones-context-engineering": 30,
                 "omar-eltakrori": 1,
-                "luke-iha-copy-blocks": 18,
+                "luke-iha-copy-blocks": 20,
                 "extract-mastery": 3,
                 "luke-iha-avatar-machine": 4,
                 "skill-creator": 1,
@@ -6660,9 +6751,9 @@
                 "john-whiting": 2,
                 "master-copywriter": 3,
                 "ben-watkins": 1,
-                "stefan-georgi-dopamine-copy": 18,
-                "luke-iha-copy-blocks": 25,
-                "how-i-write-os": 20,
+                "stefan-georgi-dopamine-copy": 20,
+                "luke-iha-copy-blocks": 27,
+                "how-i-write-os": 21,
                 "system-architecture": 7,
                 "supercomputer": 23,
                 "jason-fladlien-marketing": 8,
@@ -6675,7 +6766,7 @@
                 "prediction-market-making": 1,
                 "deliberate": 10,
                 "mark-kashef-ai-councils": 1,
-                "gpt-image-2-director": 10,
+                "gpt-image-2-director": 11,
                 "marketing-studio-director": 12,
                 "webapp-testing": 2,
                 "joscha-bach-consciousness": 2,
@@ -6719,11 +6810,11 @@
                 "oren-john": 1,
                 "jiang-xueqin-cognitive-autonomy": 1,
                 "henrik-werdelin-portfolio-entrepreneurship": 1,
-                "luke-iha-vicious-hooks": 9,
+                "luke-iha-vicious-hooks": 11,
                 "extract-mastery": 4,
                 "voice-os": 12,
                 "dara-denney": 2,
-                "corey-mcclain-persona-engineering": 36,
+                "corey-mcclain-persona-engineering": 37,
                 "luke-iha-vsl-leads": 4,
                 "cooz-voice-profile": 3,
                 "market_intelligence": 1,
@@ -6736,7 +6827,7 @@
                 "icp-deep-canvasser": 1,
                 "donald-miller-cognitive-load": 1,
                 "luke-iha-unaware-ads": 1,
-                "dara-denney-meta-ads": 8,
+                "dara-denney-meta-ads": 9,
                 "fantastic-posters": 7,
                 "nate-b-jones-intent-engineering": 1,
                 "evan-spiegel-distribution-architecture": 2,
@@ -6802,11 +6893,11 @@
                 "sharran-srivatsaa-scaling": 1,
                 "ali-abdaal-action-bias": 1,
                 "jeremy-haynes-cold-offer": 1,
-                "system": 1,
+                "system": 2,
                 "panel_cast": 1
             },
             "tier_counts": {
-                "0": 343,
+                "0": 348,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -6814,10 +6905,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 189,
-                "finalize-auto": 154
+                "hybrid": 192,
+                "finalize-auto": 156
             },
-            "ensemble_count": 248,
+            "ensemble_count": 252,
             "auto_miss_count": 32,
             "auto_match_count": 10
         }

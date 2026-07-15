@@ -16,7 +16,9 @@ export const meta = {
 let _A = args
 if (typeof _A === 'string') { try { _A = JSON.parse(_A) } catch (e) { _A = {} } }
 const TASK = (_A && _A.task) || 'Design optimal rigging configuration for racing yacht in varying sea states'
-const SUPPLIED_DOMAINS = ((_A && _A.domains) || '').split(',').map(d => d.trim()).filter(Boolean)
+const _rawDomains = (_A && _A.domains) || []
+const SUPPLIED_DOMAINS = (Array.isArray(_rawDomains) ? _rawDomains : String(_rawDomains).split(','))
+  .map(d => String(d).trim()).filter(Boolean)
 const MODE = (_A && _A.mode) || 'panel'
 const ROOT = '/Users/farricecain/Google Antigravity'
 const SLUG = TASK.toLowerCase().replace(/[^a-z0-9]+/g, '-').slice(0, 48).replace(/^-+|-+$/g, '')
@@ -87,7 +89,7 @@ function divergePrompt(m, task) {
     return `You are **Farrice's own lens** (taste + alignment + Anti-Guru filter; inductive cross-domain pattern-thinker).\n\n## Task\n${task}\n\nGive the take only YOU would: where does the obvious expert move feel performative/misaligned? What cross-domain pattern (gaming, spirituality, systems) reframes this? What makes it feel REAL, not just optimized?\nReturn JSON {take, signature_angle, the_move} — the_move = your single sharpest contribution.`
   }
   const bespoke = m.bespoke ? ` [Composite Synthesis: ${m.domain_needed}]` : ''
-  return `You are **${m.name}**${bespoke}.\n${m.bespoke ? `Your methodology foundation: See your full context in ${m.persona_file}\n\n` : `Your method: ${m.core_method}\nYour lens: ${m.lens}\n\n`}## Task\n${task}\n\nGive YOUR distinctive take — the angle only you, through your method, would see. Be unmistakably yourself, not comprehensive. If you'd lean on a fact/number, ground it (\`python3 execution/research.py "<q>" --depth quick\`) or flag it as an assumption.\nReturn JSON {take, signature_angle, the_move} where the_move is your single sharpest, most STEALABLE contribution.`
+  return `You are **${m.name}**${bespoke}.\n${m.bespoke ? `First READ your full persona document and EMBODY it completely — worldview, heuristics, voice, contradictions: ${m.persona_file}\n\n` : `Your method: ${m.core_method}\nYour lens: ${m.lens}\n\n`}## Task\n${task}\n\nGive YOUR distinctive take — the angle only you, through your method, would see. Be unmistakably yourself, not comprehensive. If you'd lean on a fact/number, ground it (\`python3 execution/research.py "<q>" --depth quick\`) or flag it as an assumption.\nReturn JSON {take, signature_angle, the_move} where the_move is your single sharpest, most STEALABLE contribution.`
 }
 
 // ── Scope (extract required domains) ──────────────────────────────────────
@@ -95,7 +97,7 @@ phase('Scope')
 const domains = SUPPLIED_DOMAINS.length > 0 ? SUPPLIED_DOMAINS :
   await agent(
     `Extract 2–4 required critical domains from this task: "${TASK}". Return JSON {domains: ["domain1", "domain2", ...]} — domains are single keywords or two-word phrases, lowercase.`,
-    { label: 'scope-domains', phase: 'Scope' }
+    { label: 'scope-domains', phase: 'Scope', model: 'sonnet', effort: 'low' }
   ).then(r => (r && r.domains) || [TASK])
 log(`Scope: ${domains.length} required domains — ${domains.join(', ')}`)
 
@@ -103,7 +105,7 @@ log(`Scope: ${domains.length} required domains — ${domains.join(', ')}`)
 phase('Cast')
 const plan = await agent(
   bash(`python3 execution/panel_cast.py ${JSON.stringify(TASK)} --domains "${domains.join(',')}" --mode ${JSON.stringify(MODE)}`),
-  { label: 'cast', phase: 'Cast', schema: PANEL_SCHEMA }
+  { label: 'cast', phase: 'Cast', schema: PANEL_SCHEMA, model: 'sonnet', effort: 'low' }
 )
 const panel = (plan && plan.panel) || []
 const bespokeSlots = (plan && plan.bespoke_slots) || []
@@ -111,66 +113,41 @@ const coverage = (plan && plan.coverage) || []
 const requiredDomains = (plan && plan.required_domains) || domains
 log(`Cast: ${plan.roster_seats} roster seats, ${plan.bespoke_seats} bespoke slots; coverage: ${coverage.map(c => `${c.domain}=${c.status}`).join(', ')}`)
 
-// ── Forge (synthesize bespoke personas, stat_lint gate) ────────────────────
+// ── Forge (synthesize bespoke personas; agent writes file + runs the REAL lint) ─
+// The lint verdict must come from execution/persona_stat_lint.py (deterministic),
+// never from the model grading itself (AI-memory-dependent observability is banned).
 phase('Forge')
-const bespokePersonas = {}
-for (const slot of bespokeSlots) {
-  log(`Forging: ${slot.domain_needed}...`)
-  let persona = null
-  let attempt = 0
-  const maxAttempts = 2
-
-  while (!persona && attempt < maxAttempts) {
-    attempt++
-    const synth = await agent(
-      `Synthesize a COMPOSITE PERSONA for this expert domain:\n\nDomain needed: ${slot.domain_needed}\nWhy thin: ${slot.why_thin}\nConstraints: NO fabricated statistics (%, $, millions, tenure claims, real company names, attributions). Authority from methodology specificity + worldview + narrative coherence, not false credentials. Label: clearly [Composite Synthesis].\n\nOutput JSON {identity, backstory, worldview, voice, messy_details, narrative} where narrative is a 500–1000 word bio/methodology statement. Must include: (1) Identity foundation; (2) Backstory with contradictions/struggles; (3) Named signature methodology; (4) Worldview convictions; (5) Voice DNA; (6) Messy details that make her real.\n\nThen: (7) Run stat_lint locally (you have the gate logic): scan narrative for $, %, real companies, fake attributions. (8) Return stat_lint_check: 'PASS' or 'FLAG', and stat_lint_issues array with specifics if FLAG.`,
-      { label: `forge:${slot.domain_needed}`, phase: 'Forge', schema: PERSONA_SCHEMA }
-    )
-
-    // Check stat_lint result
-    if (synth && synth.stat_lint_check === 'PASS') {
-      persona = synth
-      persona.domain_needed = slot.domain_needed
-      persona.bespoke = true
-      persona.slot_reason = slot.why_thin
-      log(`Forged: ${persona.identity.name} (attempt ${attempt}) — stat_lint PASS`)
-    } else if (attempt < maxAttempts) {
-      log(`Attempt ${attempt} flagged (issues: ${(synth && synth.stat_lint_issues || []).join('; ')}), regenerating...`)
-    } else {
-      // Fallback: strip to method-only
-      const fallback = synth || {}
-      persona = {
-        identity: { name: `[Method-only ${slot.domain_needed}]` },
-        worldview: fallback.worldview || {},
-        narrative: `This synthesis failed the fabrication gate twice. Authority: ${fallback.methodology || 'to be defined'}`,
-        domain_needed: slot.domain_needed,
-        bespoke: true,
-        fallback: true,
-        slot_reason: slot.why_thin,
-      }
-      log(`Forged (fallback): ${persona.identity.name} — method-only after max attempts`)
-    }
-  }
-
-  if (persona) {
-    const personaName = persona.identity.name || `[${slot.domain_needed}]`
-    bespokePersonas[personaName] = persona
-  }
+const FORGE_SCHEMA = {
+  type: 'object', required: ['name', 'persona_file', 'lint_verdict'],
+  properties: { name: { type: 'string' }, persona_file: { type: 'string' },
+    lint_verdict: { type: 'string' }, signature_methodology: { type: 'string' } },
 }
-log(`Forge complete: ${Object.keys(bespokePersonas).length} bespoke personas synthesized`)
+const panelDir = `${ROOT}/.tmp/assemble/${SLUG}`
+const bespokePersonas = {} // keyed by domain_needed so each slot gets ITS persona
+const forgedList = (await parallel(
+  bespokeSlots.map((slot) => () =>
+    agent(
+      `Synthesize a COMPOSITE PERSONA for an expert panel seat.\n\nDomain needed: ${slot.domain_needed}\nWhy the roster is thin: ${slot.why_thin}\nPanel task: ${TASK}\n\nRead ${ROOT}/skills/expert-assembly-os/references/persona-synthesis-prompt.md and follow its contract: identity foundation, backstory with contradictions/struggles, 3-5 worldview convictions with operational implications, voice DNA, 3-5 operational heuristics, NAMED signature methodology, then a 500-1000 word narrative. Constraints: NO fabricated statistics (%, $, millions, tenure-at-named-company claims, real company names, attributions). The literal words "composite persona" must appear in the opening line.\n\nSide effects (you have tools — do these yourself):\n1. mkdir -p ${panelDir}/personas\n2. Write the complete persona document to ${panelDir}/personas/<name-slug>.md\n3. Run: python3 ${ROOT}/execution/persona_stat_lint.py <that file>\n4. If FLAG: fix the flagged lines IN THE FILE and re-run the lint (max 2 retries; after that strip credentials to methodology-only until it passes).\n5. Return JSON {name, persona_file (absolute path), lint_verdict (the lint's FINAL printed verdict — relay it exactly), signature_methodology}.`,
+      { label: `forge:${slot.domain_needed}`, phase: 'Forge', schema: FORGE_SCHEMA, model: 'sonnet' }
+    ).then((r) => (r ? { domain_needed: slot.domain_needed, slot_reason: slot.why_thin, ...r } : null))
+  )
+)).filter(Boolean)
+for (const f of forgedList) bespokePersonas[f.domain_needed] = f
+const unlinted = forgedList.filter((f) => f.lint_verdict !== 'PASS')
+if (unlinted.length) log(`⚠ ${unlinted.length} persona(s) closed without lint PASS — flagged in outcome`)
+log(`Forge complete: ${forgedList.length} bespoke personas synthesized: ${forgedList.map(f => f.name).join(', ') || 'none'}`)
 
-// ── Merge panel: mark bespoke, add names/personas ───────────────────────────
+// ── Merge panel: each bespoke seat gets ITS OWN persona (matched by domain) ──
 const fullPanel = panel.map((m) => {
   if (m.bespoke) {
-    // Find the corresponding synthesized persona
-    const personas = Object.entries(bespokePersonas)
-    const [personaName, personaData] = personas[0] || [null, null]
+    const personaData = bespokePersonas[m.domain_needed]
     if (personaData) {
       return {
         ...m,
-        name: personaData.identity.name,
-        persona_data: personaData,
-        persona_file: `.tmp/assemble/${SLUG}/personas/${personaData.identity.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}.md`,
+        name: personaData.name,
+        core_method: personaData.signature_methodology || m.core_method,
+        lint_verdict: personaData.lint_verdict,
+        persona_file: personaData.persona_file, // absolute; written at Forge time
       }
     }
   }
@@ -184,12 +161,13 @@ log(`Panel finalized: ${rosterMembers.length} roster + ${bespokeMembers.length} 
 phase('Diverge')
 const takes = await parallel(
   fullPanel.map((m) => () =>
-    agent(divergePrompt(m, TASK), { label: m.name, phase: 'Diverge', schema: TAKE_SCHEMA })
+    agent(divergePrompt(m, TASK), { label: m.name, phase: 'Diverge', schema: TAKE_SCHEMA, model: 'sonnet' })
       .then((r) => (r ? {
         name: m.name,
         bespoke: m.bespoke,
         domain: m.covers_domain || m.domain_needed || 'composite',
         genius_path: m.genius_path,
+        persona_file: m.persona_file,
         ...r
       } : null))
   )
@@ -203,9 +181,10 @@ const otherTakes = (self) => valid.filter((t) => t.name !== self).map((t) => `**
 const roundA = await parallel(
   valid.map((m) => () =>
     agent(
-      (m.genius_path ? `First read your genius file for voice + signature moves: ${ROOT}/${m.genius_path}\n\n` : '') +
+      (m.bespoke && m.persona_file ? `First re-read your persona document and stay fully in character: ${m.persona_file}\n\n`
+        : (m.genius_path ? `First read your genius file for voice + signature moves: ${ROOT}/${m.genius_path}\n\n` : '')) +
         `You are **${m.name}** in panel deliberation on: ${TASK}\n\nYour own opening move: ${m.the_move}\n\nThe OTHER panel members said:\n${otherTakes(m.name)}\n\nNow DELIBERATE — respond as yourself: where do you BUILD on someone, where do you CHALLENGE (name the real disagreement, don't smooth it over), and where do two of these ideas CROSS-POLLINATE into something none of you said alone? Then give your revised move if it changed.\nReturn JSON {response, build_on, challenge, cross_pollinate, revised_move}.`,
-      { label: `deliberate:${m.name}`, phase: 'Deliberate', schema: RESP_SCHEMA }
+      { label: `deliberate:${m.name}`, phase: 'Deliberate', schema: RESP_SCHEMA, model: 'sonnet' }
     ).then((r) => (r ? { name: m.name, ...r } : null))
   )
 )
@@ -269,7 +248,7 @@ const learn = await agent(
     `STEP 2: write the digest to ${ROOT}/knowledge/assembly-sessions/<date>-${SLUG}.md (create dir).\n` +
     `STEP 3: APPEND one distilled line to ${ROOT}/knowledge/assembly-rubric.md in the form: "- **<principle name>** (<date>, ${SLUG}): <one-line model> — from <domain A> × <domain B>." Read-then-append; never overwrite existing lines.\n` +
     `Return the digest text + confirm both file paths written.`,
-  { label: 'learn', phase: 'Learn' }
+  { label: 'learn', phase: 'Learn', model: 'sonnet' }
 )
 log(`Learning digest written`)
 
@@ -294,18 +273,19 @@ const panelJSON = {
   seats_total: plan.seats_total,
   roster_seats: plan.roster_seats,
   bespoke_seats: plan.bespoke_seats,
-  synthesized_at: new Date().toISOString(),
+  // timestamp stamped by the close-persist agent via `date` — Date.now()/new Date()
+  // are unavailable in Workflow scripts (they break resume).
+  synthesized_at: 'STAMP_WITH_DATE_CMD',
 }
 
-// Write panel.json (root of .tmp/assemble/<slug>/)
-const panelDir = `${ROOT}/.tmp/assemble/${SLUG}`
+// Write panel.json (personas were already written to disk at Forge time).
 await agent(
-  `Create the directory structure and write panel metadata.\n\n` +
-    `STEP 1: Create dirs: mkdir -p "${panelDir}/personas"\n` +
-    `STEP 2: Write panel.json:\n${JSON.stringify(panelJSON, null, 2)}\nto file: ${panelDir}/panel.json\n\n` +
-    `STEP 3: For each bespoke persona, write a .md file to ${panelDir}/personas/<name>.md with full narrative (500+ words, labeled [Composite Synthesis], include methodology, worldview, voice).\n\n` +
-    `Return JSON {dirs_created: true, panel_json_written: true, persona_files_written: <count>}.`,
-  { label: 'close-persist', phase: 'Close' }
+  `Persist the panel metadata.\n\n` +
+    `STEP 1: Run \`date -u +%Y-%m-%dT%H:%M:%SZ\` and substitute the result for "STAMP_WITH_DATE_CMD" in the JSON below.\n` +
+    `STEP 2: Write the JSON to ${panelDir}/panel.json (dir exists from Forge):\n${JSON.stringify(panelJSON, null, 2)}\n\n` +
+    `STEP 3: Run \`ls ${panelDir}/personas/\` and confirm each bespoke persona file exists.\n` +
+    `Return JSON {panel_json_written: true, persona_files_found: <count>}.`,
+  { label: 'close-persist', phase: 'Close', model: 'sonnet', effort: 'low' }
 )
 
 // Pin session for /panel-sync
@@ -327,8 +307,9 @@ await agent(
     `- Outcome: ${panelDir}/outcome.md\n` +
     `- Learning: knowledge/assembly-sessions/*-${SLUG}.md\n\n` +
     `## Resume This Panel\n` +
-    `Run \`/panel-sync ${SLUG}\` to reload and reconvene the same voices.\n`,
-  { label: 'close-pin', phase: 'Close' }
+    `Run \`/panel-sync ${SLUG}\` to reload and reconvene the same voices.\n\n` +
+    `THEN register it in the durable handoff store so /resume can find it by thread: run \`python3 ${ROOT}/execution/handoff_store.py save ${ROOT}/.agent/handoffs/assemble-${SLUG}.md --thread assemble-${SLUG} --pin --hint "Expert Assembly panel: ${TASK.replace(/"/g, "'").slice(0, 90)}" --overwrite\` and report its output.`,
+  { label: 'close-pin', phase: 'Close', model: 'sonnet', effort: 'low' }
 )
 
 log(`Panel pinned to .agent/handoffs/assemble-${SLUG}.md`)

@@ -1,20 +1,20 @@
 # Knowledge Briefing
-*Generated: 2026-07-15 | 611 sources | 2,539,428 words*
+*Generated: 2026-07-15 | 613 sources | 2,540,479 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 4,314 words — `knowledge/index.md`
-- **log** (general) — 11,803 words — `knowledge/log.md`
+- **assembly-rubric** (strategy) — 45 words — `knowledge/assembly-rubric.md`
+- **2026-07-15-competitive-sailing-rigging-optimization-for-a-3** (strategy) — 944 words — `knowledge/assembly-sessions/2026-07-15-competitive-sailing-rigging-optimization-for-a-3.md`
+- **index** (content) — 4,324 words — `knowledge/index.md`
+- **log** (general) — 11,855 words — `knowledge/log.md`
 - **pricing-psychology-for-handmade-goods-sellers-corpus** (research) — 1,441 words — `extractions/grounding/pricing-psychology-for-handmade-goods-sellers-corpus.md`
 - **sober-daytime-event-marketing-corpus** (strategy) — 1,555 words — `extractions/grounding/sober-daytime-event-marketing-corpus.md`
 - **enrichment-cold-offer-corpus** (copywriting) — 1,297 words — `extractions/jeremy-haynes/enrichment-cold-offer-corpus.md`
 - **extraction-report-cold-offer** (content) — 3,888 words — `extractions/jeremy-haynes/extraction-report-cold-offer.md`
 - **visual-context** (content) — 15,631 words — `extractions/jeremy-haynes/visual-context.md`
 - **blind-pass-generated-offer-stack** (content [nicolas-cole]) — 952 words — `extractions/jeremy-haynes-cold-offer/blind-pass-generated-offer-stack.md`
-- **blind-pass-log** (general) — 75 words — `extractions/jeremy-haynes-cold-offer/blind-pass-log.md`
-- **warm-audience-flywheel** (content) — 4,149 words — `extractions/jeremy-haynes-cold-offer/reference-corpus/warm-audience-flywheel.md`
 
 ## Domain Coverage
 
@@ -23,7 +23,7 @@
 | content | 202 | nicolas-cole |
 | copywriting | 95 | luke-iha |
 | general | 83 | nick-saraev |
-| strategy | 56 | april-dunford |
+| strategy | 58 | april-dunford |
 | screenwriting | 47 | connelly |
 | brand | 38 | oren-john |
 | systems | 33 | nick-saraev |
