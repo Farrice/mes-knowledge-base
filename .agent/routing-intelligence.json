@@ -6338,6 +6338,61 @@
             "ensemble": true,
             "compound_pairing": "luke-iha-avatar-machine + corey-mcclain-persona-engineering + deliberate",
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260716_041849_e81a",
+            "timestamp": "2026-07-16T04:18:49.552048+00:00",
+            "session_id": "",
+            "request_summary": "Oren John — Identity Brand Marketing OS, mastery extraction (forge): 14-workflow oren-identity-brand-os skill + /oren-identity front door + live Farrice driver diagnostic",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "oren-john"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260716_145135_6fbc",
+            "timestamp": "2026-07-16T14:51:35.088959+00:00",
+            "session_id": "e2b943c7-2f46-459a-bd9d-db6cb0b08946",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "jen-santulan-listing-content",
+            "experts_deployed": [
+                "jen-santulan-listing-content",
+                "supercomputer",
+                "deliberate"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jen-santulan-listing-content",
+            "ensemble": true,
+            "compound_pairing": "jen-santulan-listing-content + supercomputer + deliberate",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260716_145201_2305",
+            "timestamp": "2026-07-16T14:52:01.782259+00:00",
+            "session_id": "e2b943c7-2f46-459a-bd9d-db6cb0b08946",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "jen-santulan-listing-content",
+            "experts_deployed": [
+                "jen-santulan-listing-content",
+                "supercomputer",
+                "deliberate"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jen-santulan-listing-content",
+            "ensemble": true,
+            "compound_pairing": "jen-santulan-listing-content + supercomputer + deliberate",
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -6722,7 +6777,7 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 351,
+            "total_routings": 354,
             "total_feedback": 42,
             "positive_count": 0,
             "negative_count": 0,
@@ -6735,7 +6790,7 @@
                 "Creative": 8,
                 "Legal Consult Prep": 1,
                 "Content": 39,
-                "Extraction": 11,
+                "Extraction": 12,
                 "Research": 7,
                 "stefan-georgi-dopamine-copy": 7,
                 "supercomputer": 18,
@@ -6778,7 +6833,7 @@
                 "sean-dollwet-kdp-publishing": 1,
                 "simon-intellectual-library-os": 1,
                 "chief-of-staff-os": 2,
-                "jen-santulan-listing-content": 10,
+                "jen-santulan-listing-content": 12,
                 "creative-direction": 1,
                 "forge-os": 1,
                 "luke-iha-cross-domain": 1,
@@ -6795,7 +6850,7 @@
                 "chief-of-staff-os": 13,
                 "david-placek": 2,
                 "David Placek": 1,
-                "jen-santulan-listing-content": 24,
+                "jen-santulan-listing-content": 26,
                 "jen-santulan": 3,
                 "health-performance-geo-client-acquisition-engine": 7,
                 "deep-research": 7,
@@ -6812,7 +6867,7 @@
                 "luke-iha-copy-blocks": 28,
                 "how-i-write-os": 21,
                 "system-architecture": 7,
-                "supercomputer": 23,
+                "supercomputer": 25,
                 "jason-fladlien-marketing": 8,
                 "design-md": 22,
                 "simon-intellectual-library-os": 2,
@@ -6821,7 +6876,7 @@
                 "brand-operating-system": 23,
                 "nicolas-cole-niche-positioning": 13,
                 "prediction-market-making": 1,
-                "deliberate": 11,
+                "deliberate": 13,
                 "mark-kashef-ai-councils": 1,
                 "gpt-image-2-director": 11,
                 "marketing-studio-director": 12,
@@ -6864,7 +6919,7 @@
                 "mark-kashef-wargame-os": 3,
                 "asset_generator": 1,
                 "dan-wang-literary-analysis": 1,
-                "oren-john": 1,
+                "oren-john": 2,
                 "jiang-xueqin-cognitive-autonomy": 1,
                 "henrik-werdelin-portfolio-entrepreneurship": 1,
                 "luke-iha-vicious-hooks": 11,
@@ -6956,7 +7011,7 @@
                 "creative-assembly": 1
             },
             "tier_counts": {
-                "0": 351,
+                "0": 354,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -6964,10 +7019,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 195,
-                "finalize-auto": 156
+                "hybrid": 197,
+                "finalize-auto": 157
             },
-            "ensemble_count": 255,
+            "ensemble_count": 258,
             "auto_miss_count": 32,
             "auto_match_count": 10
         }

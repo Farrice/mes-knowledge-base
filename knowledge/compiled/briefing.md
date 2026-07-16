@@ -1,5 +1,5 @@
 # Knowledge Briefing
-*Generated: 2026-07-15 | 613 sources | 2,540,479 words*
+*Generated: 2026-07-15 | 631 sources | 2,596,788 words*
 
 ---
 
@@ -8,7 +8,7 @@
 - **assembly-rubric** (strategy) — 45 words — `knowledge/assembly-rubric.md`
 - **2026-07-15-competitive-sailing-rigging-optimization-for-a-3** (strategy) — 944 words — `knowledge/assembly-sessions/2026-07-15-competitive-sailing-rigging-optimization-for-a-3.md`
 - **index** (content) — 4,324 words — `knowledge/index.md`
-- **log** (general) — 11,855 words — `knowledge/log.md`
+- **log** (general) — 11,879 words — `knowledge/log.md`
 - **pricing-psychology-for-handmade-goods-sellers-corpus** (research) — 1,441 words — `extractions/grounding/pricing-psychology-for-handmade-goods-sellers-corpus.md`
 - **sober-daytime-event-marketing-corpus** (strategy) — 1,555 words — `extractions/grounding/sober-daytime-event-marketing-corpus.md`
 - **enrichment-cold-offer-corpus** (copywriting) — 1,297 words — `extractions/jeremy-haynes/enrichment-cold-offer-corpus.md`
@@ -20,12 +20,12 @@
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 202 | nicolas-cole |
-| copywriting | 95 | luke-iha |
+| content | 206 | nicolas-cole |
+| copywriting | 96 | luke-iha |
 | general | 83 | nick-saraev |
-| strategy | 58 | april-dunford |
+| strategy | 61 | april-dunford |
+| brand | 48 | oren-john |
 | screenwriting | 47 | connelly |
-| brand | 38 | oren-john |
 | systems | 33 | nick-saraev |
 | seo | 25 | nathan-gotch |
 | research | 22 | dai-media |

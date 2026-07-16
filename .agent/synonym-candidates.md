@@ -18,3 +18,8 @@ generalizes (vs. being a one-off), and hand-adds it to `SYNONYMS` if so.
 ## 2026-07-09
 
 - `deep-research` -> `deep-research` (manual load, 2026-07-08T19:11:36.489154)
+
+## 2026-07-16
+
+- `extract-forge` -> `jeremy-haynes-cold-offer` (manual load, 2026-07-15T08:42:53.906934)
+- `extract-forge` -> `tommy-clark-linkedin-growth` (manual load, 2026-07-15T09:24:55.413606)

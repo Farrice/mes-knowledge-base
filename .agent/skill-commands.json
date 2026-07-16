@@ -985,6 +985,10 @@
       "skill": "oren-content-team-architecture"
     },
     {
+      "command": "/oren-identity",
+      "skill": "oren-identity-brand-os"
+    },
+    {
       "command": "/oren-luxury",
       "skill": "oren-luxury-psychology"
     },

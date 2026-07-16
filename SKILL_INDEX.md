@@ -264,6 +264,7 @@
 | `omar-eltakrori` | **Omar Eltakrori — Personal Brand Business Architect** | from $34k/year to multi-seven-figures, personal brand business architect | 17 | 0 |
 | `oren-brand-archetypes` | **Oren — Brand Social Media Archetypes** | diagnose and select the optimal content archetype for any brand, run resource-reality audits, facilitate archetype selection workshops | 0 | 0 |
 | `oren-content-team-architecture` | **Oren — Content-Team Architecture** | design, pod system, operating cadence | 15 | 0 |
+| `oren-identity-brand-os` | **Oren — Identity Brand OS** | identity-first brand marketing from zero to cult following to 1, 000 true fans to scale, for any creator or founder | 14 | 0 |
 | `oren-luxury-psychology` | **Oren — Luxury Psychology & Premium Market Positioning** | oren's luxury psychology — insider codes, connoisseurship ladders, premium positioning against established luxury incumbents | 3 | 9 |
 | `oren-one-person-ai-marketer` | **Oren — The One-Person AI Marketing Machine** | the activation layer for the other six oren skills, do not use for general ai-as-thinking-partner work (use dan-koe-ai-leverage), for agentic/no-code automation pipelines (use nick-saraev-agentic-workflows) | 12 | 0 |
 | `oren-operational-systems` | **Oren — Operational Systems** | operational infrastructure, creative workflows, and scalable systems for world-class creative execution — reference repos | 3 | 7 |

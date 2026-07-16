@@ -2,6 +2,8 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-16** [oren-identity-os/blocked] [Handoff — Oren Identity Brand OS (forge complete, commit pending)](2026-07-16-oren-identity-brand-os-forge.md) — Oren Identity Brand OS — 14-wf skill live; push needs Farrice call (public repo + verbatim transcripts)
+- **2026-07-15** [oren-john-identity-marketing/active] [Oren John Identity Marketing — Arsenal Map](2026-07-15-oren-john-identity-marketing.md) — Oren John Identity Marketing — Arsenal Map
 - **2026-07-15** [tommy-clark-2026/ready] [Tommy Clark LinkedIn OS — 2026 Three-Moat Expansion (forge+amplify)](2026-07-15-tommy-clark-2026-expansion.md) — Farrice judges blind-pass side-by-side for A-tier, then run /tc-uncopyable-filter on linkedin-launch drafts
 - **2026-07-15** [cold-offer-frontdoor/ready] [Cold-Offer OS — Forge + Expert Front Doors (DWA Ship Sprint Audit + Presale Fixes)](2026-07-15-cold-offer-frontdoor.md) — Farrice's felt verdict on the fixed presale page → spec Day-0 form → set [DATE] → lock name+price (ticket 0005)
 - **2026-07-15** [expert-assembly-os/ready] [Expert Assembly OS — Build v1 Shipped (hybrid casting + /assemble + /panel-sync)](2026-07-15-expert-assembly-os.md) — E2E-test /panel-sync reload on the pinned sailing panel, then MyBPM Week 1 /assemble run

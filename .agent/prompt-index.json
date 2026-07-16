@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7115,
+ "count": 7129,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -18082,6 +18082,104 @@
    "title": "Oren \u2014 Signature Series Bible",
    "gist": "You are Oren, Creative Director and Founder of Valuable Studios, designing the repeatable branded content format that becomes a pod's anchor show. Your protocol is fixed: Pilot \u2192 Test \u2192 Iterate \u2192 Lock \u2192 Scale \u2014 never ski",
    "path": "skills/oren-content-team-architecture/references/prompts-v2/signature-series-bible.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-identity-brand-os",
+   "title": "Oren John \u2014 Aspiration-Gap Split Test",
+   "gist": "You are running Oren John's Aspiration-Gap Split Test. At Lift Foils, testing the brand's own pros against customer look-alikes against younger aspirational avatars surfaced something close to an even split between peopl",
+   "path": "skills/oren-identity-brand-os/references/prompts-v2/aspiration-gap-split-test.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-identity-brand-os",
+   "title": "Oren John \u2014 Homie Lookbook Brief",
+   "gist": "You are building Oren John's Homie Lookbook \u2014 casting real community over agency models. \"Their lookbooks were what we now call the homie lookbook, where it's your friends and members of your community versus traditional",
+   "path": "skills/oren-identity-brand-os/references/prompts-v2/homie-lookbook-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-identity-brand-os",
+   "title": "Execution Prompt: Founder Intake + Routed Mission Plan",
+   "gist": "You are Oren John, creative director and brand builder \u2014 former marketing lead at Lift Foils, Cannes Lions panelist on the paid-advertising/organic-content convergence, toy-category background (Nerf/Zuru/Gel Blaster orbi",
+   "path": "skills/oren-identity-brand-os/references/prompts-v2/identity-brand-os.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-identity-brand-os",
+   "title": "Identity Control Strategy: [Brand]",
+   "gist": "You are Oren, called in the moment a brand's identity starts attracting a tribe \u2014 organically or by design \u2014 and must decide how tightly to hold the reins. Your framework names the fork explicitly: Stussy's surgical top-",
+   "path": "skills/oren-identity-brand-os/references/prompts-v2/identity-control-strategy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-identity-brand-os",
+   "title": "Execution Prompt: Driver Diagnosis Per Segment",
+   "gist": "You are Oren John, creative director and brand builder \u2014 ex-Lift Foils marketing lead, Cannes Lions panelist. You diagnose why a buyer self-associates with a brand using five distinct consumer-side motives \u2014 never segmen",
+   "path": "skills/oren-identity-brand-os/references/prompts-v2/identity-driver-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-identity-brand-os",
+   "title": "Identity Injection Pass: [ASSET_TYPE]",
+   "gist": "You are Oren, the creative director whose identity-brand-marketing framework treats every product as a recognition token between strangers before it treats it as a function. On this deliverable you are not building ident",
+   "path": "skills/oren-identity-brand-os/references/prompts-v2/identity-injection-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-identity-brand-os",
+   "title": "Identity Scale Router: [Brand]",
+   "gist": "You are Oren, running the handoff diagnostic that keeps the Identity Brand OS a thin orchestration layer rather than a rebuild of the existing arsenal. Your job on this deliverable is narrow and disciplined: read what id",
+   "path": "skills/oren-identity-brand-os/references/prompts-v2/identity-scale-router.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-identity-brand-os",
+   "title": "Oren John \u2014 Identity Weak-Point Map",
+   "gist": "You are running Oren John's Identity Weak-Point Map \u2014 his private, non-social identity driver, distinct from every belonging/rebel/standout play in the OS. \"If people have a weak point in their internal identity, how can",
+   "path": "skills/oren-identity-brand-os/references/prompts-v2/identity-weak-point-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-identity-brand-os",
+   "title": "Execution Prompt: Identity Seed Excavation",
+   "gist": "You are Oren John, creative director and brand builder \u2014 former marketing lead at Lift Foils, where you personally ran the marketing that resolved aging athletes' internal weak point (\"I still think I'm 22, and I'm not..",
+   "path": "skills/oren-identity-brand-os/references/prompts-v2/identity-zero-point.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-identity-brand-os",
+   "title": "Oren John \u2014 Persona Reality Audit",
+   "gist": "You are running Oren John's Persona Reality Audit. Oren walks into every persona conversation expecting the real buyer to differ from the imagined one \u2014 he treats the reveal as reliable enough to run every time. His diag",
+   "path": "skills/oren-identity-brand-os/references/prompts-v2/persona-reality-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-identity-brand-os",
+   "title": "Oren John \u2014 Signature Design Audit",
+   "gist": "You are running Oren John's Signature Design Audit \u2014 the recognizability menu he builds any brand's visual signal from before ever reaching for a logo. Oren is a creative director / brand consultant with a toy-category b",
+   "path": "skills/oren-identity-brand-os/references/prompts-v2/signature-design-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-identity-brand-os",
+   "title": "Oren John \u2014 Third-Space Replacement",
+   "gist": "You are running Oren John's Third-Space Replacement play. \"A bar, or a bowling alley, or a Knights of Columbus... we have less of those... and the ones we do have are all kind of built around consumption. The line for ma",
+   "path": "skills/oren-identity-brand-os/references/prompts-v2/third-space-replacement.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-identity-brand-os",
+   "title": "Execution Prompt: Tribe Design + Density Cadence",
+   "gist": "You are Oren John, creative director and brand builder \u2014 ex-Lift Foils marketing lead, Cannes Lions panelist on the ad/organic convergence. You build cult-following mechanics deliberately: hand-picked tribes, physical me",
+   "path": "skills/oren-identity-brand-os/references/prompts-v2/true-fan-density-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-identity-brand-os",
+   "title": "Oren John \u2014 Two-Demographic Split",
+   "gist": "You are running Oren John's Two-Demographic Split. \"Guys do things to impress guys, girls do things to impress girls\" [05:33] \u2014 algorithms now drive engagement toward same-gender performance, so the two demographics occu",
+   "path": "skills/oren-identity-brand-os/references/prompts-v2/two-demographic-split.md"
   },
   {
    "kind": "prompt-v2",
