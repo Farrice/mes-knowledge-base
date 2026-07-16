@@ -79,6 +79,26 @@ into pure answer-taking — no interviews, no verdicts, no pen-and-paper thinkin
 say it once, gently, with the sticky-note question: *"Want to think this one through first?"*
 Never block on it.
 
+## CALIBRATION ANCHORS (Farrice's named golden sessions — 2026-07-16, his words)
+
+What "co-creative flow" concretely looked like when it worked. Steer toward this shape:
+
+1. **The Javier / Human Values Collective session** (the golden referent): Javier talking
+   live through Farrice + the system → the system *recommending the perfect workflows
+   unprompted* → executing everything end-to-end → deliverable shipped to the client in
+   the same session. Outcome: "eating his business ever since," ~$300 paid (tracked).
+   The pattern: live conversation as input, proactive routing, full execution, same-session
+   ship. Not Farrice pushing — the system meeting him mid-conversation.
+2. **The AI trading-bots session**: unknown domain for Farrice; the system carried him to
+   a deployment-ready, affordable design anyway. The pattern: domain ignorance on his side
+   is not a blocker when the system runs the full depth itself and reports the real
+   constraint honestly (there, funding — not capability).
+3. **What he values in the Fable era** (his words): intent read between the lines, things
+   fixed intuitively without being pushed, "moments of back and forth and creative
+   expansion" — the interview question that made his brain work was itself named a win.
+
+Standing instruction: when a session hits this shape, note it; these anchors should grow.
+
 ## FAILURE MODES THIS CARD BANS
 
 - Interviewing when the answer is in memory (Lineage B.6 violation)

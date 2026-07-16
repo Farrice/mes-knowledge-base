@@ -6751,6 +6751,44 @@
             "ensemble": true,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260716_234933_09ce",
+            "timestamp": "2026-07-16T23:49:33.468973+00:00",
+            "session_id": "50debd00-35ee-4c2d-a8d7-721668b79b73",
+            "request_summary": "lets build all 4. And to answer your question, I'm trying to recall the session, but I guess one of the times that I felt like the system worked so well together and was able to accomplish things was ",
+            "intent_score": 0,
+            "domain_detected": "nicolas-cole-niche-positioning",
+            "experts_deployed": [
+                "nicolas-cole-niche-positioning",
+                "dan-koe-ai-leverage",
+                "wright-thompson-mastery"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nicolas-cole-niche-positioning",
+            "ensemble": true,
+            "compound_pairing": "nicolas-cole-niche-positioning + dan-koe-ai-leverage + wright-thompson-mastery",
+            "feedback": "fb_20260716_235037_ef1e"
+        },
+        {
+            "routing_id": "rt_20260716_235113_73d8",
+            "timestamp": "2026-07-16T23:51:13.674470+00:00",
+            "session_id": "50debd00-35ee-4c2d-a8d7-721668b79b73",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "jen-santulan-listing-content",
+            "experts_deployed": [
+                "jen-santulan-listing-content",
+                "supercomputer",
+                "deliberate"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jen-santulan-listing-content",
+            "ensemble": true,
+            "compound_pairing": "jen-santulan-listing-content + supercomputer + deliberate",
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -7158,12 +7196,21 @@
             "rating": "auto_miss",
             "correction": "adam-sandler-second-brain-gtm",
             "notes": "expert skill 'adam-sandler-second-brain-gtm' loaded not matching suggestion ['jason-fladlien-marketing', 'luke-iha-creative-strategy', 'andrew-dun-vibe-consulting']"
+        },
+        {
+            "feedback_id": "fb_20260716_235037_ef1e",
+            "timestamp": "2026-07-16T23:50:37.649398+00:00",
+            "session_id": "50debd00-35ee-4c2d-a8d7-721668b79b73",
+            "routing_id": "rt_20260716_234933_09ce",
+            "rating": "auto_miss",
+            "correction": "geoff-woods-ai-thought-partner",
+            "notes": "expert skill 'geoff-woods-ai-thought-partner' loaded not matching suggestion ['nicolas-cole-niche-positioning', 'dan-koe-ai-leverage', 'wright-thompson-mastery']"
         }
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 374,
-            "total_feedback": 45,
+            "total_routings": 376,
+            "total_feedback": 46,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
@@ -7181,7 +7228,7 @@
                 "supercomputer": 18,
                 "design-md": 13,
                 "david-placek-naming": 5,
-                "nicolas-cole-niche-positioning": 5,
+                "nicolas-cole-niche-positioning": 6,
                 "brand-operating-system": 10,
                 "how-i-write-os": 12,
                 "nate-b-jones-auto-improvement-loops": 1,
@@ -7218,7 +7265,7 @@
                 "sean-dollwet-kdp-publishing": 1,
                 "simon-intellectual-library-os": 1,
                 "chief-of-staff-os": 2,
-                "jen-santulan-listing-content": 17,
+                "jen-santulan-listing-content": 18,
                 "creative-direction": 1,
                 "forge-os": 1,
                 "luke-iha-cross-domain": 1,
@@ -7236,7 +7283,7 @@
                 "chief-of-staff-os": 13,
                 "david-placek": 2,
                 "David Placek": 1,
-                "jen-santulan-listing-content": 31,
+                "jen-santulan-listing-content": 32,
                 "jen-santulan": 3,
                 "health-performance-geo-client-acquisition-engine": 7,
                 "deep-research": 7,
@@ -7253,16 +7300,16 @@
                 "luke-iha-copy-blocks": 29,
                 "how-i-write-os": 21,
                 "system-architecture": 7,
-                "supercomputer": 30,
+                "supercomputer": 31,
                 "jason-fladlien-marketing": 9,
                 "design-md": 22,
                 "simon-intellectual-library-os": 2,
                 "pptx": 8,
                 "david-placek-naming": 8,
                 "brand-operating-system": 23,
-                "nicolas-cole-niche-positioning": 14,
+                "nicolas-cole-niche-positioning": 15,
                 "prediction-market-making": 1,
-                "deliberate": 18,
+                "deliberate": 19,
                 "mark-kashef-ai-councils": 1,
                 "gpt-image-2-director": 11,
                 "marketing-studio-director": 12,
@@ -7272,7 +7319,7 @@
                 "nate-b-jones-auto-improvement-loops": 4,
                 "self-evolving-systems": 3,
                 "internal-comms": 2,
-                "wright-thompson-mastery": 9,
+                "wright-thompson-mastery": 10,
                 "alex-suzuki-digital-product-revenue-os": 3,
                 "paul-harding-lyric-prose": 2,
                 "paul-james-ai-automation": 1,
@@ -7403,10 +7450,11 @@
                 "jenny-hoyos": 2,
                 "adam-sandler": 2,
                 "andrew-dun-vibe-consulting": 1,
-                "geoff-woods": 1
+                "geoff-woods": 1,
+                "dan-koe-ai-leverage": 1
             },
             "tier_counts": {
-                "0": 374,
+                "0": 376,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -7414,11 +7462,11 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 206,
+                "hybrid": 208,
                 "finalize-auto": 168
             },
-            "ensemble_count": 273,
-            "auto_miss_count": 35,
+            "ensemble_count": 275,
+            "auto_miss_count": 36,
             "auto_match_count": 10
         }
     }
