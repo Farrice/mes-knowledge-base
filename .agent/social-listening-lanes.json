@@ -1,0 +1,174 @@
+{
+  "lanes": {
+    "farrice-brand": {
+      "name": "Farrice Brand & Content",
+      "platforms": ["linkedin", "threads", "substack"],
+      "description": "Monitor Farrice's own voice, memoirs, thought leadership, and audience engagement",
+      "monitoring_targets": [
+        {
+          "type": "creator",
+          "value": "farrice-cain LinkedIn author",
+          "platform": "linkedin",
+          "actor": "sc-tiktok",
+          "actor_mode": "search",
+          "note": "LinkedIn profile + activity (via flexible search)"
+        },
+        {
+          "type": "hashtag",
+          "value": "dontworryaboutit",
+          "platform": "threads",
+          "actor": "sc-tiktok",
+          "actor_mode": "hashtag",
+          "note": "Threads campaign hashtag (via flexible search)"
+        },
+        {
+          "type": "niche",
+          "value": "invisible expert positioning LinkedIn",
+          "platform": "linkedin",
+          "actor": "sc-tiktok",
+          "actor_mode": "search",
+          "note": "Authority positioning discussions (via search)"
+        }
+      ],
+      "schedule": {
+        "day_of_week": "monday",
+        "time": "09:00"
+      },
+      "pulse_budget_allocation": 1.5,
+      "depth": "standard",
+      "cost_ceiling": 0.50,
+      "enabled": true
+    },
+    "myBPM": {
+      "name": "MyBPM Streetwear Brand",
+      "platforms": ["tiktok", "instagram", "threads"],
+      "description": "Monitor streetwear niche, brand mentions, trend tracking, competitor activity",
+      "monitoring_targets": [
+        {
+          "type": "hashtag",
+          "value": "streetwear",
+          "platform": "tiktok",
+          "actor": "sc-tiktok-hashtag",
+          "note": "Main streetwear hashtag activity"
+        },
+        {
+          "type": "hashtag",
+          "value": "streetweardrops",
+          "platform": "tiktok",
+          "actor": "sc-tiktok",
+          "actor_mode": "hashtag",
+          "note": "Drops announcements and buzz"
+        },
+        {
+          "type": "niche",
+          "value": "streetwear fashion trends Instagram",
+          "platform": "instagram",
+          "actor": "sc-tiktok",
+          "actor_mode": "search",
+          "note": "IG streetwear community sentiment and style evolution (via search)"
+        },
+        {
+          "type": "niche",
+          "value": "streetwear hype drops culture",
+          "platform": "tiktok",
+          "actor": "sc-tiktok",
+          "actor_mode": "search",
+          "note": "Streetwear community sentiment and hype tracking"
+        }
+      ],
+      "schedule": {
+        "day_of_week": "wednesday",
+        "time": "10:00"
+      },
+      "pulse_budget_allocation": 1.5,
+      "depth": "standard",
+      "cost_ceiling": 0.50,
+      "enabled": true
+    },
+    "jen": {
+      "name": "Jen Santulan — FTHB Real Estate",
+      "platforms": ["instagram", "tiktok", "youtube"],
+      "description": "First-time home buyer niche, SFV real estate insights, market trends, audience sentiment",
+      "monitoring_targets": [
+        {
+          "type": "creator",
+          "value": "jen-santulan",
+          "platform": "instagram",
+          "actor": "instagram",
+          "actor_mode": "positional",
+          "note": "Jen's Instagram profile + engagement metrics"
+        },
+        {
+          "type": "hashtag",
+          "value": "firsttimehomebuyer",
+          "platform": "tiktok",
+          "actor": "sc-tiktok-hashtag",
+          "note": "FTHB niche trends and pain points"
+        },
+        {
+          "type": "niche",
+          "value": "San Fernando Valley real estate market sentiment",
+          "platform": "tiktok",
+          "actor": "sc-tiktok",
+          "actor_mode": "search",
+          "note": "SFV real estate discussions and buyer sentiment"
+        },
+        {
+          "type": "niche",
+          "value": "Los Angeles first-time home buyer advice",
+          "platform": "youtube",
+          "actor": "sc-youtube-channels",
+          "note": "YouTube creators in FTHB + LA real estate space"
+        }
+      ],
+      "schedule": {
+        "day_of_week": "tuesday",
+        "time": "14:00"
+      },
+      "pulse_budget_allocation": 1.5,
+      "depth": "standard",
+      "cost_ceiling": 0.50,
+      "enabled": true
+    },
+    "client-templates": {
+      "name": "Client/Prospect Niches (On-Demand Only)",
+      "platforms": ["varies"],
+      "description": "Template for ad-hoc client/prospect niche monitoring. Disable by default; enable per engagement",
+      "monitoring_targets": [
+        {
+          "type": "niche",
+          "value": "[CLIENT_NICHE_QUERY]",
+          "platform": "[varies]",
+          "actor": "[actor_to_be_selected]",
+          "note": "On-demand per client engagement"
+        }
+      ],
+      "schedule": {
+        "day_of_week": null,
+        "time": null
+      },
+      "pulse_budget_allocation": 0.5,
+      "depth": "quick",
+      "cost_ceiling": 0.25,
+      "enabled": false
+    }
+  },
+  "global_settings": {
+    "pulse_total_budget_monthly": 5.0,
+    "global_budget_monthly": 29.0,
+    "soft_warn_pct": 70,
+    "hard_stop_pct": 90,
+    "timezone": "America/Los_Angeles",
+    "output_dir": ".agent/cos/",
+    "ledger_file": ".agent/apify-usage.json",
+    "run_log": ".agent/social-listening-runs.jsonl"
+  },
+  "notes": {
+    "scheduling": "Pulse runs are scheduled weekly per lane, staggered across the week (Mon/Tue/Wed) to smooth budget consumption and prevent Tuesday budget overruns.",
+    "actor_selection": "Each lane specifies preferred actors for its monitoring targets. Selection respects pay_per_event cost model and $0.25-0.50 per-run ceiling.",
+    "pulse_vs_listen": "Pulse = recurring, scheduled, weekly. SocialListen = on-demand, ad-hoc, immediate. Both use the same Apify wrapper and budget ledger.",
+    "transcript_enrichment": "Transcript actors (sc-youtube-transcripts, sc-tiktok-transcripts) available but NOT in default pulse lanes (they're higher-cost). Enabled on-demand via /social-listen --transcripts.",
+    "client_lanes": "Client/prospect monitoring only enabled on-demand during active engagements. Template provided; populate with client query + actor selection.",
+    "budget_allocation": "Each lane allocated a sub-quota within $5/mo pulse budget. If pulse_budget_allocation exceeds remaining pulse budget, that run skips gracefully (returns pulse_skipped status, no failure, no retry)."
+  }
+}

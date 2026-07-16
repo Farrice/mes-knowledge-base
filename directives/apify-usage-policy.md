@@ -43,21 +43,75 @@ Apify provides scraping, social listening, and structured data extraction that *
 
 ---
 
-## The 7 Approved Actors
+## The 17 Approved Actors (as of 2026-07-16)
 
-These are the only actors loaded in `.mcp.json` and `execution/apify_client.py`. Adding new actors requires editing both files.
+These are the only actors loaded in `.mcp.json` and `execution/apify_client.py`. Adding new actors requires editing both files. **Both files must stay in sync** — `.mcp.json` (--tools list) and `execution/apify_client.py` (ACTORS dict).
 
-| Actor key | Apify ID | Purpose | Cost class |
-|---|---|---|---|
-| `reddit` | `trudax/reddit-scraper-lite` | Reddit posts/comments/subreddits | Cheap (~$0.001/result) |
-| `instagram` | `apify/instagram-scraper` | IG profiles, posts, hashtags | Cheap (~$0.0005/result) |
-| `tiktok` | `clockworks/free-tiktok-scraper` | TikTok hashtags, profiles | Medium (~$0.004/result) |
-| `youtube` | `apidojo/youtube-scraper` | YouTube videos + transcripts | Medium (~$0.005/result) |
-| `amazon` | `junglee/amazon-scraper` | Amazon products, reviews | Cheap-Medium (~$0.0015/result) |
-| `maps` | `compass/crawler-google-places` | Google Maps places, reviews | Medium (~$0.007/result) |
-| `web` | `apify/rag-web-browser` | JS-rendered page fetch | Cheap (~$0.003/result) |
+### Original 7 Actors (per_result pricing)
 
-**Why these specific actors**: Best cost/quality ratio in their category as of 2026-04-06. Reddit-scraper-lite is the cheapest reliable Reddit option. Instagram-scraper is the cheapest at $0.50/1k. No expensive enterprise actors are loaded — even if an agent tries to call something else, the MCP server simply doesn't have it.
+| Actor key | Apify ID | Purpose | Cost/result | Model |
+|---|---|---|---|---|
+| `reddit` | `trudax/reddit-scraper-lite` | Reddit posts/comments/subreddits | ~$0.001 | per_result |
+| `instagram` | `apify/instagram-scraper` | IG profiles, posts, hashtags | ~$0.0005 | per_result |
+| `tiktok` | `clockworks/free-tiktok-scraper` | TikTok hashtags, profiles | ~$0.004 | per_result |
+| `youtube` | `apidojo/youtube-scraper` | YouTube videos + transcripts | ~$0.005 | per_result |
+| `amazon` | `junglee/amazon-scraper` | Amazon products, reviews | ~$0.0015 | per_result |
+| `maps` | `compass/crawler-google-places` | Google Maps places, reviews | ~$0.007 | per_result |
+| `web` | `apify/rag-web-browser` | JS-rendered page fetch | ~$0.003 | per_result |
+
+### New 10 Scrape Creators Actors (pay_per_event pricing, added 2026-07-16)
+
+**Note**: These actors use **pay_per_event pricing** — cost is NOT per result, but per API call / per run. The actual cost is read from the Apify run response (`usageTotalUsd`) by the wrapper. See [Pay-Per-Event Pricing](#pay-per-event-pricing) section below.
+
+| Actor key | Apify ID | Purpose | Ceiling | Model |
+|---|---|---|---|---|
+| `sc-tiktok` | `scrape-creators/best-tiktok-scraper` | TikTok search/trending/profile/hashtag/video | $0.25 | pay_per_event |
+| `sc-tiktok-video` | `scrape-creators/best-tiktok-video-scraper` | TikTok video-specific scrape | $0.25 | pay_per_event |
+| `sc-tiktok-profile` | `scrape-creators/best-tiktok-profile-scraper` | TikTok profile data | $0.25 | pay_per_event |
+| `sc-tiktok-hashtag` | `scrape-creators/best-tiktok-hashtag-scraper` | TikTok hashtag scrape | $0.25 | pay_per_event |
+| `sc-tiktok-transcripts` | `scrape-creators/best-tiktok-transcripts-scraper` | TikTok video transcripts (if available) | $0.25 | pay_per_event |
+| `sc-tiktok-followers` | `scrape-creators/best-tiktok-followers-scraper` | TikTok follower data | $0.25 | pay_per_event |
+| `sc-tiktok-following` | `scrape-creators/best-tiktok-following-scraper` | TikTok following data | $0.25 | pay_per_event |
+| `sc-youtube-transcripts` | `scrape-creators/best-youtube-transcripts-scraper` | YouTube video transcripts (rich source of insight) | $0.25 | pay_per_event |
+| `sc-youtube-channels` | `scrape-creators/best-youtube-channels-scraper` | YouTube channel metadata | $0.25 | pay_per_event |
+| `sc-youtube-comments` | `scrape-creators/best-youtube-comments-scraper` | YouTube video comments | $0.25 | pay_per_event |
+
+**Why these actors**: Best enrichment option for social listening. Scrape Creators actors are mission-built for consistent structured data from TikTok and YouTube — superior to generic scrapers. Transcripts are especially valuable for research (direct voice, not interpreted). No fallback to cheaper actors — use these for their category or reroute to Perplexity.
+
+---
+
+## Pay-Per-Event Pricing (NEW — 2026-07-16)
+
+**Scrape Creators actors do NOT charge per result.** Instead, they charge per run (a "pay-per-event" model). The actual cost depends on request complexity, not result count.
+
+### How It Works (for workflows)
+
+1. **Actual cost is read from Apify response**: The wrapper (`execution/apify_client.py`) extracts `usageTotalUsd` from the Apify run object after completion.
+2. **Per-run ceiling enforced**: Default $0.25 per run (override with `--max-cost` or `--allow-expensive` flag).
+3. **Cost is logged immediately**: Every run is logged to `.agent/apify-usage.json` with actual cost, not estimate.
+4. **No estimate, no surprise**: Since cost is unknown beforehand, use the ceiling ($0.25) as a safety limit.
+
+### In Python (execution/apify_client.py)
+
+```python
+result = run_actor(
+    "sc-tiktok",
+    {"searchTerm": "fitness"},
+    limit=20,
+    max_cost=0.25,           # Per-run ceiling
+    allow_expensive=False     # Fail if run exceeds ceiling
+)
+```
+
+If actual cost > $0.25, the run is rejected and returns `{"status": "cost_ceiling_exceeded", "fallback": true}`. Workflow must reroute to Perplexity or Tavily.
+
+### In Workflows (via `/social-listen` or pulse scripts)
+
+```bash
+python execution/apify_client.py sc-tiktok --search "fitness tips" --limit 20 --max-cost 0.50
+```
+
+Override the per-run ceiling with `--max-cost` (still respects $29/mo global budget).
 
 ---
 

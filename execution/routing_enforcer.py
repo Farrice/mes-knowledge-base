@@ -1039,6 +1039,33 @@ BINDINGS = [
         ),
     },
     {
+        # Social listening & audience intelligence (2026-07-16) — Apify-first pipeline.
+        # Mirrors CLAUDE.md row "Social/audience/trend listening" in mandatory routing table.
+        # Update both together when modifying signals or workflows.
+        "id": "social_listening_apify_first",
+        "signal_phrases": [
+            "what's happening in", "what is happening in",
+            "audience sentiment", "creator analysis", "#hashtag trends",
+            "social listening", "social sentiment", "social trends",
+            "creator trends", "trending in", "what's trending",
+            "community sentiment", "niche trends",
+        ],
+        "mandatory_workflow_any_of": ["social-listen", "social-pulse"],
+        "forbidden_workflows": [
+            "deep-research", "deep-research-swarm", "research-topic",
+            "web-research",
+        ],
+        "reason": (
+            "Social/audience/trend listening queries require the Apify-first pipeline "
+            "(/social-listen for on-demand, /social-pulse for recurring weekly). "
+            "Generic deep-research workflows miss the extraction layer needed to capture "
+            "raw creator data, hashtag volume, and sentiment signals before synthesis. "
+            "Apify actors (Scrape Creators, hashtag actors, transcript pullers) provide "
+            "the primary extraction; Perplexity synthesis follows. Skipping Apify routes "
+            "to generic web search, missing the social-specific data layer."
+        ),
+    },
+    {
         # Placed LAST so domain-specific bindings (avatar, copy, parallax, BOS)
         # take precedence. This is the catch-all for GENERIC research that would
         # otherwise be answered from training memory instead of grounded in truth.
@@ -1054,6 +1081,8 @@ BINDINGS = [
             "avatar", "manifold", "icp", "cold start copy", "cold-start copy",
             "converting copy", "vsl", "sales page", "brand operating system",
             "parallax", "refine", "audit", "polish",
+            "what's happening", "social listening", "audience sentiment", "creator analysis",
+            "hashtag trends", "social sentiment",
         ],
         "mandatory_workflow_any_of": ["deep-research", "deep-research-swarm",
                                        "deep-research-gemini", "research-swarm"],

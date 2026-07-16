@@ -177,12 +177,14 @@ APIFY_TOKEN=apify_api_xxxxxxxxxxxxxxxxxxxx
 set -a; source .env; set +a
 claude mcp add apify -s project --env APIFY_TOKEN="$APIFY_TOKEN" -- \
   npx -y @apify/actors-mcp-server \
-  --tools apify/rag-web-browser,trudax/reddit-scraper-lite,apify/instagram-scraper,clockworks/free-tiktok-scraper,apidojo/youtube-scraper,junglee/amazon-scraper,compass/crawler-google-places
+  --tools apify/rag-web-browser,trudax/reddit-scraper-lite,apify/instagram-scraper,clockworks/free-tiktok-scraper,apidojo/youtube-scraper,junglee/amazon-scraper,compass/crawler-google-places,scrape-creators/best-tiktok-scraper,scrape-creators/best-tiktok-video-scraper,scrape-creators/best-tiktok-profile-scraper,scrape-creators/best-tiktok-hashtag-scraper,scrape-creators/best-tiktok-transcripts-scraper,scrape-creators/best-tiktok-followers-scraper,scrape-creators/best-tiktok-following-scraper,scrape-creators/best-youtube-transcripts-scraper,scrape-creators/best-youtube-channels-scraper,scrape-creators/best-youtube-comments-scraper
 ```
 
-This installs only the 7 curated actors. **No expensive enterprise actors are loaded** — even if Claude tries to call something else, the MCP server doesn't have it.
+This installs 17 curated actors: **7 original (per_result pricing) + 10 new Scrape Creators (pay_per_event pricing as of 2026-07-16)**. No expensive enterprise actors are loaded — even if Claude tries to call something else, the MCP server doesn't have it.
 
-### The 7 Curated Actors
+### All 17 Approved Actors (per apify-usage-policy.md)
+
+#### Original 7 (per_result pricing)
 
 | Actor | Purpose | Cost class |
 |---|---|---|
@@ -193,6 +195,21 @@ This installs only the 7 curated actors. **No expensive enterprise actors are lo
 | `apidojo/youtube-scraper` | YouTube + transcripts | Medium |
 | `junglee/amazon-scraper` | Amazon products/reviews | Cheap-Medium |
 | `compass/crawler-google-places` | Google Maps places | Medium |
+
+#### New 10 Scrape Creators (pay_per_event pricing)
+
+| Actor | Purpose | Cost model |
+|---|---|---|
+| `scrape-creators/best-tiktok-scraper` | TikTok search/trending/profile/hashtag/video | Pay-per-event |
+| `scrape-creators/best-tiktok-video-scraper` | TikTok video-specific | Pay-per-event |
+| `scrape-creators/best-tiktok-profile-scraper` | TikTok profile data | Pay-per-event |
+| `scrape-creators/best-tiktok-hashtag-scraper` | TikTok hashtag scrape | Pay-per-event |
+| `scrape-creators/best-tiktok-transcripts-scraper` | TikTok video transcripts | Pay-per-event |
+| `scrape-creators/best-tiktok-followers-scraper` | TikTok follower data | Pay-per-event |
+| `scrape-creators/best-tiktok-following-scraper` | TikTok following data | Pay-per-event |
+| `scrape-creators/best-youtube-transcripts-scraper` | YouTube video transcripts | Pay-per-event |
+| `scrape-creators/best-youtube-channels-scraper` | YouTube channel data | Pay-per-event |
+| `scrape-creators/best-youtube-comments-scraper` | YouTube comments | Pay-per-event |
 
 ### Python Wrapper (for Gemini + workflows)
 
