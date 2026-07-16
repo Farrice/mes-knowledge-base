@@ -3,7 +3,7 @@
 Owner: Health Performance GEO Client Acquisition Engine
 Mode: generate + enrich
 Intent score: 5
-Google Drive export: disabled
+Google Drive export: FAILED (connector error, retried 3x; see Google Drive export status line below)
 
 CONTEXT GAPS: none of the referenced context files were missing in this checkout, but two of the five live at different paths than the ones named in the automation prompt (a known drift from the `linkedin-launch` tree restructure noted in the 2026-07-15 brief). `MARKET-ICP-DOSSIER-2026-06.md` and `CONTENT-DOMINATION-RESEARCH.md` were loaded from `_active/linkedin-launch/01-research/`, not `_active/linkedin-launch/research/`. `SERVICE_LADDER.md` was loaded from `_active/health-performance-ip-library/04-deliverables/`, not the library root. The V4 golden sample and repeatability packet loaded at their named paths with no drift. `_active/linkedin-launch/daily/brand-radar-2026-W25.md` exists but is generated from data dated 2026-06-15, roughly a month stale; used only for format-pattern texture, never as a live signal. WebFetch (deep page fetch) returned HTTP 403 on every attempt this run, a proxy-level restriction, not a source-access failure; WebSearch worked normally and every claim below is sourced from WebSearch result synthesis of named, reputable outlets rather than a fetched primary document, which is called out per claim in the Proof Spine.
 
@@ -27,7 +27,7 @@ Why this is more useful than the other researched signals: the IM8/General Catal
 
 Source/proof posture: VERIFIED covers the original 2025 FDA warning letter to WHOOP, the June 2026 enforcement drop reported independently by StatNews and MedTech Dive, the November 2025 class-action filing, and the wearable activity-intensity error-rate figures from the peer-reviewed umbrella review. LIKELY covers the specific Bloomberg anxiety-spiral findings (ER visits, orthorexia-like behavior, 20-30x/day checking), sourced this run from a secondary blog summary of Bloomberg's reporting rather than a fetched primary Bloomberg article, since WebFetch was down all run. UNCONFIRMED covers whether any named brand is currently cited by a specific AI engine for this angle, and whether any individual reader in this brief has a diagnosable anxiety condition.
 
-Google Drive export status: disabled, as required.
+Google Drive export status: FAILED. Google Drive export was approved by Farrice on 2026-07-16 (mid-session, after this brief's original draft) and the automation's Hard Boundaries and Local Storage sections were updated the same day to make it a standing, automatic step (target: `Daily Briefs` folder, Drive folder ID `11pHojFQgW9MOMeDTRwdE-lrJ49eJsnPI`, inside `Farrice — GEO-SEO Health Brand Launch (2026-06-23)`). The export attempt for this brief hit a Google Drive connector internal error on 5 consecutive attempts (including 2 trivial one-line test docs, ruling out a content/size cause), so this is a live connector-level failure, not a content problem. Per the new spec, this is reported honestly rather than silently skipped or claimed as done; the local git brief and PR #22 remain authoritative for 2026-07-16, and the export should be retried on the next scheduled run or on request.
 
 Open risk: the Bloomberg-sourced anxiety statistics rest on a secondary summary, not the primary article. Treat the specific numbers (20-30x/day, "unnecessary ER visits") as directionally real but not independently re-verified this run, and do not present them as a direct Bloomberg quote in any public-ready copy without re-checking the primary source first.
 
@@ -252,7 +252,7 @@ Acceptance checks:
 - At least eight non-GLP-1 angle candidates considered: PASS, 11 of 12 scanned candidates were non-GLP-1.
 - GLP-1 was not selected by default: PASS. No live cross-category GLP-1 event surfaced today strong enough to center; the one GLP-1-adjacent candidate (an FTC telehealth precedent) was discarded as background-only.
 - Winning angle names buyer pressure, market pressure, and service opportunity: PASS.
-- Google Drive export disabled: PASS.
+- Google Drive export attempted and outcome reported honestly: PASS (outcome: FAILED, connector error, see Google Drive export status line above; this does not block finalize per the updated acceptance check).
 
 Angle scan before selection (12 candidates, repetition penalty applied):
 

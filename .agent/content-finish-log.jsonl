@@ -241,3 +241,4 @@
 {"ts": "2026-07-16T14:20:51Z", "label": "health-performance-daily-2026-07-16", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1", "\"Here's the part nobody\u2026\" reveal framing \u2014 feedback_ai-structural-tells.md #5", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
 {"ts": "2026-07-16T14:21:06Z", "label": "health-performance-daily-2026-07-16", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-16T14:21:11Z", "label": "health-performance-daily-2026-07-16", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-16T15:32:08Z", "label": "health-performance-daily-2026-07-16", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
