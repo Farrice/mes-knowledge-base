@@ -135,6 +135,9 @@ def new_usage() -> dict:
         "hard_stop_pct": HARD_STOP_PCT,
         "spent_dollars": 0.0,
         "runs": [],
+        # Pulse sub-ledger (added 2026-07-16)
+        "pulse_budget_dollars": 5.0,  # $5/mo dedicated to pulse
+        "pulse_spent_dollars": 0.0,   # Pulse runs only
     }
 
 
@@ -187,7 +190,8 @@ def run_actor(
     run_input: dict,
     max_results: int,
     max_cost: float = 0.25,
-    allow_expensive: bool = False
+    allow_expensive: bool = False,
+    pulse_mode: bool = False
 ) -> dict:
     """
     Runs an Apify actor with budget guard.
@@ -199,6 +203,7 @@ def run_actor(
         max_results: Result limit (for per_result pricing estimates)
         max_cost: Per-run cost ceiling (default $0.25). Override with allow_expensive.
         allow_expensive: If True, bypass per-run ceiling (still checks monthly budget).
+        pulse_mode: If True, use pulse sub-budget ($5/mo) and skip (not fail) on exhaustion.
     """
     if actor_key not in ACTORS:
         return {
@@ -223,26 +228,45 @@ def run_actor(
     projected_spent = usage["spent_dollars"] + estimated
     projected_pct = projected_spent / usage["plan_dollars"]
 
-    # Hard stop — would this push us past 90%?
-    if state == "red" or projected_pct >= HARD_STOP_PCT:
-        WARN_FLAG.write_text(f"red:{now_iso()}")
-        return fallback_response(
-            f"Apify monthly cap (${PLAN_DOLLARS:.2f}) would be exceeded. "
-            f"Current: ${usage['spent_dollars']:.2f}, projected: ${projected_spent:.2f}."
-        )
+    # Pulse mode budget check (separate sub-budget)
+    if pulse_mode:
+        pulse_projected = usage.get("pulse_spent_dollars", 0.0) + estimated
+        pulse_budget = usage.get("pulse_budget_dollars", 5.0)
 
-    # Yellow — set warn flag, still allow
-    if state == "yellow":
-        WARN_FLAG.write_text(f"yellow:{now_iso()}")
-        sys.stderr.write(
-            f"WARNING: Apify budget at "
-            f"{usage['spent_dollars'] / usage['plan_dollars'] * 100:.0f}% "
-            f"(${usage['spent_dollars']:.2f}/${PLAN_DOLLARS:.2f}). "
-            f"Prefer cheap actors (reddit, instagram, web).\n"
-        )
+        # For pulse: skip (not fail) if pulse sub-budget exhausted OR global yellow/red
+        if state in ("red", "yellow") or pulse_projected >= pulse_budget:
+            return {
+                "status": "pulse_skipped",
+                "fallback": True,
+                "reason": "pulse_budget_or_global_threshold",
+                "message": (
+                    f"Pulse run skipped: global state={state}, "
+                    f"pulse spent ${usage.get('pulse_spent_dollars', 0.0):.2f}/${pulse_budget:.2f}. "
+                    f"This is normal — pulse gracefully skips when budget is tight."
+                ),
+                "items": [],
+            }
     else:
-        if WARN_FLAG.exists():
-            WARN_FLAG.unlink()
+        # Normal mode — hard stop at red/90%
+        if state == "red" or projected_pct >= HARD_STOP_PCT:
+            WARN_FLAG.write_text(f"red:{now_iso()}")
+            return fallback_response(
+                f"Apify monthly cap (${PLAN_DOLLARS:.2f}) would be exceeded. "
+                f"Current: ${usage['spent_dollars']:.2f}, projected: ${projected_spent:.2f}."
+            )
+
+        # Yellow — set warn flag, still allow
+        if state == "yellow":
+            WARN_FLAG.write_text(f"yellow:{now_iso()}")
+            sys.stderr.write(
+                f"WARNING: Apify budget at "
+                f"{usage['spent_dollars'] / usage['plan_dollars'] * 100:.0f}% "
+                f"(${usage['spent_dollars']:.2f}/${PLAN_DOLLARS:.2f}). "
+                f"Prefer cheap actors (reddit, instagram, web).\n"
+            )
+        else:
+            if WARN_FLAG.exists():
+                WARN_FLAG.unlink()
 
     token = os.environ.get("APIFY_TOKEN", "")
     if not token:
@@ -297,13 +321,20 @@ def run_actor(
 
     # Log to usage file
     usage["spent_dollars"] = round(usage["spent_dollars"] + actual_cost, 4)
-    usage["runs"].append({
+    if pulse_mode:
+        usage["pulse_spent_dollars"] = round(usage.get("pulse_spent_dollars", 0.0) + actual_cost, 4)
+
+    run_record = {
         "ts": now_iso(),
         "actor": actor_key,
         "results": actual_count,
         "cost": round(actual_cost, 4),
         "pricing_model": pricing_model,
-    })
+    }
+    if pulse_mode:
+        run_record["pulse"] = True
+    usage["runs"].append(run_record)
+
     if len(usage["runs"]) > 200:
         usage["runs"] = usage["runs"][-200:]
     save_usage(usage)
@@ -377,6 +408,12 @@ def cmd_budget_status(_args=None):
     usage = load_usage()
     pct = usage["spent_dollars"] / usage["plan_dollars"] * 100
     state = budget_state(usage)
+
+    # Pulse info
+    pulse_budget = usage.get("pulse_budget_dollars", 5.0)
+    pulse_spent = usage.get("pulse_spent_dollars", 0.0)
+    pulse_pct = (pulse_spent / pulse_budget * 100) if pulse_budget > 0 else 0
+
     print(json.dumps({
         "month": usage["month"],
         "plan_dollars": usage["plan_dollars"],
@@ -387,6 +424,11 @@ def cmd_budget_status(_args=None):
         "soft_warn_at": round(usage["plan_dollars"] * SOFT_WARN_PCT, 2),
         "hard_stop_at": round(usage["plan_dollars"] * HARD_STOP_PCT, 2),
         "run_count": len(usage["runs"]),
+        # Pulse sub-ledger (added 2026-07-16)
+        "pulse_budget_dollars": pulse_budget,
+        "pulse_spent_dollars": round(pulse_spent, 4),
+        "pulse_remaining_dollars": round(pulse_budget - pulse_spent, 4),
+        "pulse_percent_used": round(pulse_pct, 1),
         "last_runs": usage["runs"][-5:],
     }, indent=2))
 
@@ -396,6 +438,26 @@ def cmd_budget_reset(_args=None):
     if WARN_FLAG.exists():
         WARN_FLAG.unlink()
     print(json.dumps({"status": "reset", "month": current_month()}))
+
+
+def cmd_pulse_budget_status(_args=None):
+    """Show pulse sub-budget status."""
+    usage = load_usage()
+    pulse_budget = usage.get("pulse_budget_dollars", 5.0)
+    pulse_spent = usage.get("pulse_spent_dollars", 0.0)
+    pulse_pct = (pulse_spent / pulse_budget * 100) if pulse_budget > 0 else 0
+
+    print(json.dumps({
+        "month": usage["month"],
+        "pulse_budget_dollars": pulse_budget,
+        "pulse_spent_dollars": round(pulse_spent, 4),
+        "pulse_remaining_dollars": round(pulse_budget - pulse_spent, 4),
+        "pulse_percent_used": round(pulse_pct, 1),
+        "global_state": budget_state(usage),
+        "global_spent": round(usage["spent_dollars"], 4),
+        "global_remaining": round(usage["plan_dollars"] - usage["spent_dollars"], 4),
+        "pulse_runs": [r for r in usage.get("runs", []) if r.get("pulse", False)],
+    }, indent=2))
 
 
 def cmd_reddit(args):
@@ -767,7 +829,8 @@ def main():
     p = argparse.ArgumentParser(prog="apify_client.py")
     sub = p.add_subparsers(dest="cmd", required=True)
 
-    sub.add_parser("budget-status", help="Show current month budget")
+    sub.add_parser("budget-status", help="Show current month budget (with pulse sub-ledger)")
+    sub.add_parser("pulse-budget-status", help="Show pulse sub-budget status only")
     sub.add_parser("budget-reset", help="Manually reset budget (use sparingly)")
 
     # Original 7 actors (per_result pricing)
@@ -862,8 +925,9 @@ def main():
     args = p.parse_args()
 
     handlers = {
-        "budget-status": cmd_budget_status,
-        "budget-reset":  cmd_budget_reset,
+        "budget-status":       cmd_budget_status,
+        "pulse-budget-status": cmd_pulse_budget_status,
+        "budget-reset":        cmd_budget_reset,
         "reddit":        cmd_reddit,
         "instagram":     cmd_instagram,
         "tiktok":        cmd_tiktok,
