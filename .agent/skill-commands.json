@@ -5,6 +5,10 @@
       "skill": "adam-enfroy-affiliate-marketing"
     },
     {
+      "command": "/adam-sandler-second-brain-gtm",
+      "skill": "adam-sandler-second-brain-gtm"
+    },
+    {
       "command": "/ai-carousel",
       "skill": "ai-carousel-content-engine"
     },
@@ -1402,6 +1406,12 @@
       "command": "/adam-enfroy",
       "skills": [
         "adam-enfroy-affiliate-marketing"
+      ]
+    },
+    "adam-sandler": {
+      "command": "/adam-sandler",
+      "skills": [
+        "adam-sandler-second-brain-gtm"
       ]
     },
     "ai-chris-lee": {

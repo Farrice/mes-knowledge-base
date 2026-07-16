@@ -1618,11 +1618,21 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 60 agent(s) had no invocation card. Stubs below are machine-
+> 61 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
 > stop regenerating it here.
+
+<!-- GEN:auto-card -->
+```
+AGENT: Adam Sandler (The Viable Edge)
+DOMAIN: Go-to-market and delivery packaging for AI second-brain / knowledge-base services (sell-side)
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: This agent embodies Adam Sandler of The Viable Edge — the practitioner who figured out that the knowledge base is not a thing you build, it's a thing you *se...
+ENTRY PROMPT: agents/adam-sandler/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
 
 <!-- GEN:auto-card -->
 ```

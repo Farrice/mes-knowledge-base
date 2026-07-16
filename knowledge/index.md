@@ -1,9 +1,9 @@
 # Knowledge Index
-*645 sources | 2,633,057 words | Updated: 2026-07-16*
+*651 sources | 2,645,403 words | Updated: 2026-07-16*
 
 ---
 
-## Content (215 files)
+## Content (219 files)
 
 - [video-context-ledger](../extractions/video-context/3iR3kHxCwfo/video-context-ledger.md) — 75,408 words
 - [Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them](extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md) — 60,850 words (stale)
@@ -23,7 +23,7 @@
 - [extraction-report](../extractions/ocean-vuong/extraction-report.md) — 4,861 words (stale)
 - [the-7-levels-of-brand-building](../extractions/oren-identity-brand-os/reference-corpus/the-7-levels-of-brand-building.md) [oren-john] — 4,671 words
 - [mes-extraction](../extractions/wargame-source/mes-extraction.md) — 4,604 words
-- [index](index.md) — 4,498 words
+- [index](index.md) — 4,534 words
 - [visual-context](../extractions/brad-bonanno/visual-context.md) — 4,497 words
 - [extraction-report](../extractions/dr-k/extraction-report.md) — 4,451 words (stale)
 - [visual-context](../extractions/ryan-doser/visual-context.md) — 4,260 words
@@ -42,6 +42,7 @@
 - [substack-brandjack-trends-april-2026](../research_outputs/substack-brandjack-trends-april-2026.md) — 3,555 words (stale)
 - [deep-notes-vhuo0A7Oy74](../extractions/sean-dollwet/deep-notes-vhuo0A7Oy74.md) — 3,548 words
 - [2026-07-07-claim-safe-content-landscape](../research_outputs/2026-07-07-claim-safe-content-landscape.md) — 3,450 words
+- [piece-2-how-to-scope-ai-projects](../extractions/adam-sandler-second-brain-gtm/reference-corpus/piece-2-how-to-scope-ai-projects.md) — 3,401 words
 - [extraction-report](../extractions/oren/extraction-report.md) [oren-john] — 3,351 words (stale)
 - [DESIGN](design-libraries/brands/linear-app/DESIGN.md) — 3,342 words
 - [deep-notes-CZgZmPd-ETY](../extractions/sean-dollwet/deep-notes-CZgZmPd-ETY.md) — 3,286 words
@@ -103,6 +104,7 @@
 - [writing-career-monetization-extraction](../extractions/joanna-wiebe/writing-career-monetization-extraction.md) [april-dunford] — 1,853 words (stale)
 - [extraction-report](../extractions/mark-kashef-visual-design/extraction-report.md) — 1,787 words (stale)
 - [2026-linkedin-playbook-extraction](../extractions/lara-acosta/2026-linkedin-playbook-extraction.md) [lara-acosta] — 1,770 words (stale)
+- [piece-1-what-is-marketing-context-engineering](../extractions/adam-sandler-second-brain-gtm/reference-corpus/piece-1-what-is-marketing-context-engineering.md) — 1,766 words
 - [extraction-report](../extractions/sam-goddard-media-scaling/extraction-report.md) — 1,761 words (stale)
 - [tom-noske-v2-extraction-report](../extractions/tom-noske/tom-noske-v2-extraction-report.md) — 1,698 words (stale)
 - [companion-brand-archetypes](../extractions/oren-john-identity-marketing/companion-brand-archetypes.md) [oren-john] — 1,670 words
@@ -111,6 +113,7 @@
 - [nicolas_cole](../research_outputs/ai_authority_architect_agents/nicolas_cole.md) [nicolas-cole] — 1,598 words
 - [system-prompt](mes-3.0/system-prompt.md) — 1,560 words (stale)
 - [2026-04-25-substack-notes-craft-perplexity](../research_outputs/2026-04-25-substack-notes-craft-perplexity.md) — 1,533 words
+- [blind-pass-generated-2026-07-16](../extractions/jenny-hoyos-shorts/blind-pass-generated-2026-07-16.md) — 1,531 words
 - [extraction-report](../extractions/Jun Yuh/extraction-report.md) — 1,463 words (stale)
 - [nathan_gotch](../research_outputs/ai_authority_architect_agents/nathan_gotch.md) [nicolas-cole] — 1,434 words
 - [extraction-report](../extractions/dan-martell/extraction-report.md) — 1,391 words (stale)
@@ -156,6 +159,7 @@
 - [amplification-report-2026-07-15](../extractions/tommy-clark/amplification-report-2026-07-15.md) — 732 words
 - [scriptwriter-reframe-test](../extractions/sam-goddard-media-scaling/prompts/scriptwriter-reframe-test.md) — 727 words (stale)
 - [tiktok-trend-scraper](../extractions/mike-foutia-marketing-tools/prompts-v2/tiktok-trend-scraper.md) — 726 words
+- [BONUS-pricing-offer-page](../extractions/adam-sandler-second-brain-gtm/reference-corpus/BONUS-pricing-offer-page.md) — 719 words
 - [04-proposed-workflows](../extractions/chase-hughes/_forge-output/04-proposed-workflows.md) [april-dunford] — 719 words
 - [extraction-report](../extractions/kallaway-content-system/extraction-report.md) [kallaway] — 715 words
 - [attention-arbitrage-calculator](../extractions/sam-goddard-media-scaling/prompts/attention-arbitrage-calculator.md) — 713 words (stale)
@@ -206,6 +210,7 @@
 - [streetwear-dna](../extractions/creative-direction/streetwear-dna.md) — 212 words (stale)
 - [sample-001](expert-benchmarks/linkedin/sample-001.md) [lara-acosta] — 210 words (stale)
 - [validation-report](../extractions/lara-acosta/validation-report.md) [lara-acosta] — 204 words (stale)
+- [blind-pass-log](../extractions/jenny-hoyos-shorts/blind-pass-log.md) — 200 words
 - [sample-002](expert-benchmarks/linkedin/sample-002.md) [lara-acosta] — 198 words (stale)
 - [short-burrito-chipotle](../extractions/jenny-hoyos/reference-corpus/short-burrito-chipotle.md) — 196 words
 - [short-burrito-chipotle](../extractions/jenny-hoyos-shorts/reference-corpus/short-burrito-chipotle.md) — 196 words
@@ -216,7 +221,6 @@
 - [short-strawberries](../extractions/jenny-hoyos-shorts/reference-corpus/short-strawberries.md) — 178 words
 - [validation-report](../extractions/ross-mckay/validation-report.md) [april-dunford] — 167 words (stale)
 - [source-notes](../extractions/rafa-conde/source-notes.md) — 121 words
-- [blind-pass-log](../extractions/jenny-hoyos-shorts/blind-pass-log.md) — 101 words
 - [visual-notes](../extractions/kobi-brown-educational-virality/visual-notes.md) — 84 words
 - [context](../extractions/meg-heckman/codex-prior-art/agent/memory/context.md) — 75 words
 - [blind-pass-log](../extractions/tommy-clark-linkedin-growth/blind-pass-log.md) — 75 words
@@ -337,7 +341,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 12,005 words
+- [log](log.md) — 12,139 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words
@@ -406,7 +410,7 @@
 - [ocr-notes](../extractions/video-context/3iR3kHxCwfo/ocr-notes.md) — 20 words
 - [ocr-notes](../extractions/video-context/a7VjpIqq8Xk/ocr-notes.md) — 20 words
 
-## Strategy (64 files)
+## Strategy (65 files)
 
 - [Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI](extractions/inbox/Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI.md) — 54,665 words (stale)
 - [Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2](extractions/inbox/Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2.md) — 29,981 words (stale)
@@ -439,6 +443,7 @@
 - [visual-context](../extractions/oren-john-identity-marketing/visual-context.md) [oren-john] — 1,550 words
 - [extraction-report](../extractions/luke-iha/video-6-offer-cycling/extraction-report.md) [luke-iha] — 1,385 words (stale)
 - [adam_enfroy](../research_outputs/ai_authority_architect_agents/adam_enfroy.md) [nicolas-cole] — 1,351 words
+- [2026-07-16-re-convene-with-material-new-evidence-update-the](assembly-sessions/2026-07-16-re-convene-with-material-new-evidence-update-the.md) [dai-media] — 1,349 words
 - [lulu_cheng](../research_outputs/ai_authority_architect_agents/lulu_cheng.md) [april-dunford] — 1,237 words
 - [seth_godin](../research_outputs/ai_authority_architect_agents/seth_godin.md) — 1,174 words
 - [alex_copper](../research_outputs/ai_authority_architect_agents/alex_copper.md) [april-dunford] — 1,166 words
@@ -471,7 +476,7 @@
 - [guide_research_creative_direction](../extractions/creative-direction/guide_research_creative_direction.md) — 543 words (stale)
 - [sample-001](expert-benchmarks/brand-strategy/sample-001.md) [oren-john] — 448 words (stale)
 - [product-design-scoring](../extractions/meg-heckman/codex-prior-art/skill/workflows/product-design-scoring.md) — 200 words
-- [assembly-rubric](assembly-rubric.md) — 101 words
+- [assembly-rubric](assembly-rubric.md) — 145 words
 
 ## Screenwriting (48 files)
 
@@ -575,13 +580,14 @@
 - [OPPORTUNITIES](../extractions/mark-kashef-perfect-agentic-os-kit/source_assets/examples/marco_ecommerce/OPPORTUNITIES.md) [nick-saraev] — 229 words
 - [blind-pass-log](../extractions/oren-identity-brand-os/blind-pass-log.md) [oren-john] — 90 words
 
-## Systems (34 files)
+## Systems (35 files)
 
 - [Claude-💎💰🧑🏽_💻 JING ! Darrel Wilson ! This New AI Automation Is Replacing Freelancers in 2026](extractions/inbox/Claude-💎💰🧑🏽_💻 JING ! Darrel Wilson ! This New AI Automation Is Replacing Freelancers in 2026.md) — 50,355 words (stale)
 - [video-context-ledger](../extractions/video-context/-WCNwxz3uoM/video-context-ledger.md) — 28,024 words
 - [DESIGN](design-libraries/brands/voltagent/DESIGN.md) — 3,928 words
 - [karpathy-loop-mes-extraction](../extractions/nate-b-jones/karpathy-loop-mes-extraction.md) — 3,568 words
 - [polymarket-agents-source](../extractions/prediction-market-trading/raw-sources/polymarket-agents-source.md) — 3,492 words (stale)
+- [piece-3-hermes-orchestrator-claude-code](../extractions/adam-sandler-second-brain-gtm/reference-corpus/piece-3-hermes-orchestrator-claude-code.md) — 3,267 words
 - [extraction-report](../extractions/andy-lo/extraction-report.md) — 2,917 words (stale)
 - [DESIGN](design-libraries/brands/zapier/DESIGN.md) — 2,897 words
 - [kb-ai-prompting-production](creative-direction/guides/kb-ai-prompting-production.md) — 2,273 words (stale)

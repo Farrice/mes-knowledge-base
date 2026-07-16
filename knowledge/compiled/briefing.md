@@ -1,32 +1,32 @@
 # Knowledge Briefing
-*Generated: 2026-07-16 | 645 sources | 2,633,057 words*
+*Generated: 2026-07-16 | 651 sources | 2,645,403 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **assembly-rubric** (strategy) — 101 words — `knowledge/assembly-rubric.md`
-- **2026-07-15-competitive-sailing-rigging-optimization-for-a-3** (strategy) — 944 words — `knowledge/assembly-sessions/2026-07-15-competitive-sailing-rigging-optimization-for-a-3.md`
+- **assembly-rubric** (strategy) — 145 words — `knowledge/assembly-rubric.md`
 - **2026-07-16-pressure-test-whether-farrice-cain-should-pivot** (strategy [april-dunford]) — 1,565 words — `knowledge/assembly-sessions/2026-07-16-pressure-test-whether-farrice-cain-should-pivot.md`
-- **index** (content) — 4,498 words — `knowledge/index.md`
-- **log** (general) — 12,005 words — `knowledge/log.md`
+- **2026-07-16-re-convene-with-material-new-evidence-update-the** (strategy [dai-media]) — 1,349 words — `knowledge/assembly-sessions/2026-07-16-re-convene-with-material-new-evidence-update-the.md`
+- **index** (content) — 4,534 words — `knowledge/index.md`
+- **log** (general) — 12,139 words — `knowledge/log.md`
+- **BONUS-pricing-offer-page** (content) — 719 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/BONUS-pricing-offer-page.md`
+- **piece-1-what-is-marketing-context-engineering** (content) — 1,766 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/piece-1-what-is-marketing-context-engineering.md`
+- **piece-2-how-to-scope-ai-projects** (content) — 3,401 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/piece-2-how-to-scope-ai-projects.md`
+- **piece-3-hermes-orchestrator-claude-code** (systems) — 3,267 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/piece-3-hermes-orchestrator-claude-code.md`
 - **blind-pass-log** (systems) — 60 words — `extractions/jenny-hoyos/blind-pass-log.md`
-- **mes-deep-delta-2026-07-16** (screenwriting) — 5,183 words — `extractions/jenny-hoyos/mes-deep-delta-2026-07-16.md`
-- **short-burrito-chipotle** (content) — 196 words — `extractions/jenny-hoyos/reference-corpus/short-burrito-chipotle.md`
-- **short-secret-room** (content) — 239 words — `extractions/jenny-hoyos/reference-corpus/short-secret-room.md`
-- **short-strawberries** (content) — 178 words — `extractions/jenny-hoyos/reference-corpus/short-strawberries.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 215 | nicolas-cole |
+| content | 219 | nicolas-cole |
 | copywriting | 96 | luke-iha |
 | general | 83 | nick-saraev |
-| strategy | 64 | april-dunford |
+| strategy | 65 | april-dunford |
 | screenwriting | 48 | connelly |
 | brand | 48 | oren-john |
-| systems | 34 | nick-saraev |
+| systems | 35 | nick-saraev |
 | seo | 25 | nathan-gotch |
 | research | 22 | dai-media |
 | sales | 10 | dai-media |

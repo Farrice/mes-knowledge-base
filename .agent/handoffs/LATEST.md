@@ -1,28 +1,26 @@
 # Latest Handoff
 
-**Thread:** workflows  
-**Full path:** .agent/handoffs/2026-07-16-workflows.md  
+**Thread:** ghostwrite  
+**Full path:** .agent/handoffs/2026-07-16-ghostwrite.md  
 **Date:** 2026-07-16 (today)  
 **Status:** active  
-**Title:** Workflows — 07 Lens Niche Blueprint
+**Title:** Dated-receipt LinkedIn post — 3 takes (stealth-hook / interiority / compressed), timestamp-only register, verified commit receipts
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume workflows` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume ghostwrite` for this one.
 
 ---
-thread: workflows
+
+---
+thread: ghostwrite
 status: active
-resume_hint: Workflows — 07 Lens Niche Blueprint
+resume_hint: Dated-receipt LinkedIn post — 3 takes (stealth-hook / interiority / compressed), timestamp-only register, verified commit receipts
 branch: main
 pin: true
 ---
 
-# Workflows — 07 Lens Niche Blueprint
+# Dated-receipt LinkedIn post — 3 takes (stealth-hook / interiority / compressed), timestamp-only register, verified commit receipts
 
-**Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
+**Next session focus**: Resume the `ghostwrite` work-stream — see the deliverable above.
 
-**Artifacts:** /Users/farricecain/Google Antigravity/skills/jenny-hoyos-shorts/workflows/06-loop-rewatch-engineer.md, /Users/farricecain/Google Antigravity/skills/jenny-hoyos-shorts/genius.md, /Users/farricecain/Google Antigravity/skills/jenny-hoyos-shorts/references/prompts-v2/loop-rewatch-engineer.md, /Users/farricecain/Google Antigravity/skills/jenny-hoyos-shorts/workflows/12-text-platform-transfer.md, /Users/farricecain/Google Antigravity/skills/jenny-hoyos-shorts/workflows/07-lens-niche-blueprint.md
-
-**Retrieve:** `/resume workflows`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
+_Auto-pinned by chain_runner.finalize (ghostwrite)._
 

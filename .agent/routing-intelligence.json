@@ -6592,6 +6592,129 @@
             "ensemble": true,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260716_183621_7db3",
+            "timestamp": "2026-07-16T18:36:21.310236+00:00",
+            "session_id": "",
+            "request_summary": "Adam Sandler (The Viable Edge) — Second-Brain GTM forge: new 8-workflow sell-side skill + agent + 8 born-v2 prompts",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "adam-sandler"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260716_183638_0acc",
+            "timestamp": "2026-07-16T18:36:38.336352+00:00",
+            "session_id": "",
+            "request_summary": "Panel re-convene with Adam Sandler evidence — MODIFY verdict: no pivot, audit SKU into money sprint, two-tier day-60 gate, adjacent-markets as derivation instrument",
+            "intent_score": 9,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "expert-assembly-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "assemble",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260716_183813_0c8e",
+            "timestamp": "2026-07-16T18:38:13.499924+00:00",
+            "session_id": "d2d770d5-24bd-4485-b60c-4e2f6925b49b",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "jen-santulan-listing-content",
+            "experts_deployed": [
+                "jen-santulan-listing-content",
+                "supercomputer",
+                "deliberate"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jen-santulan-listing-content",
+            "ensemble": true,
+            "compound_pairing": "jen-santulan-listing-content + supercomputer + deliberate",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260716_184830_04fc",
+            "timestamp": "2026-07-16T18:48:30.347212+00:00",
+            "session_id": "",
+            "request_summary": "Social Listening Head build spec — Apify Scrape Creators (10 actors) shaped via /raw-intent-bridge + question round; decisions locked (all actors, 3 heads, 4 lanes, budget guards); pinned handoff for ",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "none"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "raw-intent-bridge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260716_184909_ef86",
+            "timestamp": "2026-07-16T18:49:09.902474+00:00",
+            "session_id": "a9d8e93d-78e2-4cff-8c3e-c2547b1e4070",
+            "request_summary": "lets run all 3 next moves you recommended, or should we do something else this session before closing out?",
+            "intent_score": 0,
+            "domain_detected": "jason-fladlien-marketing",
+            "experts_deployed": [
+                "jason-fladlien-marketing",
+                "luke-iha-creative-strategy",
+                "andrew-dun-vibe-consulting"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jason-fladlien-marketing",
+            "ensemble": true,
+            "compound_pairing": "jason-fladlien-marketing + luke-iha-creative-strategy + andrew-dun-vibe-consulting",
+            "feedback": "fb_20260716_185422_971b"
+        },
+        {
+            "routing_id": "rt_20260716_190126_8a7c",
+            "timestamp": "2026-07-16T19:01:26.464232+00:00",
+            "session_id": "",
+            "request_summary": "Second-Brain Foundation Audit package — contact-first: offer one-pager + Josh&Katie/Andrea DM asks + run-on-yes runbook (nothing pre-built, nothing sent)",
+            "intent_score": 9,
+            "domain_detected": "Client Work",
+            "experts_deployed": [
+                "adam-sandler"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "ve-audit-offer",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260716_190128_6d2e",
+            "timestamp": "2026-07-16T19:01:28.529526+00:00",
+            "session_id": "",
+            "request_summary": "Dated-receipt LinkedIn post — 3 takes (stealth-hook / interiority / compressed), timestamp-only register, verified commit receipts",
+            "intent_score": 9,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "tommy-clark"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "ghostwrite",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -6990,24 +7113,33 @@
             "rating": "auto_miss",
             "correction": "jenny-hoyos-shorts",
             "notes": "expert skill 'jenny-hoyos-shorts' loaded not matching suggestion ['jen-santulan-listing-content', 'supercomputer', 'deliberate']"
+        },
+        {
+            "feedback_id": "fb_20260716_185422_971b",
+            "timestamp": "2026-07-16T18:54:22.742110+00:00",
+            "session_id": "a9d8e93d-78e2-4cff-8c3e-c2547b1e4070",
+            "routing_id": "rt_20260716_184909_ef86",
+            "rating": "auto_miss",
+            "correction": "adam-sandler-second-brain-gtm",
+            "notes": "expert skill 'adam-sandler-second-brain-gtm' loaded not matching suggestion ['jason-fladlien-marketing', 'luke-iha-creative-strategy', 'andrew-dun-vibe-consulting']"
         }
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 365,
-            "total_feedback": 44,
+            "total_routings": 372,
+            "total_feedback": 45,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 54,
-                "Client Work": 13,
+                "System": 55,
+                "Client Work": 14,
                 "Analysis": 6,
-                "Strategy": 19,
+                "Strategy": 20,
                 "Creative": 8,
                 "Legal Consult Prep": 1,
-                "Content": 39,
-                "Extraction": 15,
+                "Content": 40,
+                "Extraction": 16,
                 "Research": 7,
                 "stefan-georgi-dopamine-copy": 7,
                 "supercomputer": 18,
@@ -7017,7 +7149,7 @@
                 "brand-operating-system": 10,
                 "how-i-write-os": 12,
                 "nate-b-jones-auto-improvement-loops": 1,
-                "jason-fladlien-marketing": 6,
+                "jason-fladlien-marketing": 7,
                 "paul-james-ai-automation": 1,
                 "nicolas-cole-digital-products": 1,
                 "nate-b-jones-context-engineering": 30,
@@ -7050,7 +7182,7 @@
                 "sean-dollwet-kdp-publishing": 1,
                 "simon-intellectual-library-os": 1,
                 "chief-of-staff-os": 2,
-                "jen-santulan-listing-content": 15,
+                "jen-santulan-listing-content": 16,
                 "creative-direction": 1,
                 "forge-os": 1,
                 "luke-iha-cross-domain": 1,
@@ -7068,7 +7200,7 @@
                 "chief-of-staff-os": 13,
                 "david-placek": 2,
                 "David Placek": 1,
-                "jen-santulan-listing-content": 29,
+                "jen-santulan-listing-content": 30,
                 "jen-santulan": 3,
                 "health-performance-geo-client-acquisition-engine": 7,
                 "deep-research": 7,
@@ -7085,8 +7217,8 @@
                 "luke-iha-copy-blocks": 29,
                 "how-i-write-os": 21,
                 "system-architecture": 7,
-                "supercomputer": 28,
-                "jason-fladlien-marketing": 8,
+                "supercomputer": 29,
+                "jason-fladlien-marketing": 9,
                 "design-md": 22,
                 "simon-intellectual-library-os": 2,
                 "pptx": 8,
@@ -7094,7 +7226,7 @@
                 "brand-operating-system": 23,
                 "nicolas-cole-niche-positioning": 14,
                 "prediction-market-making": 1,
-                "deliberate": 16,
+                "deliberate": 17,
                 "mark-kashef-ai-councils": 1,
                 "gpt-image-2-director": 11,
                 "marketing-studio-director": 12,
@@ -7123,7 +7255,7 @@
                 "collective-genius-council": 1,
                 "mark-kashef": 1,
                 "chase-hughes-conversational-influence": 4,
-                "none": 4,
+                "none": 5,
                 "alan-aragon-nutrition": 1,
                 "nate-b-jones-context-engineering": 34,
                 "luke-iha-avatar-machine": 6,
@@ -7211,7 +7343,7 @@
                 "kallaway": 1,
                 "henry-shukman-contemplative-writing": 1,
                 "fresh-voice-system": 2,
-                "luke-iha-creative-strategy": 2,
+                "luke-iha-creative-strategy": 3,
                 "market-intelligence": 1,
                 "forge-os": 7,
                 "health-performance-geo": 2,
@@ -7219,23 +7351,25 @@
                 "luke-iha-cross-domain": 1,
                 "seena-rez-tiktok-commerce": 1,
                 "docx": 1,
-                "tommy-clark": 1,
+                "tommy-clark": 2,
                 "sharran-srivatsaa-scaling": 1,
                 "ali-abdaal-action-bias": 1,
                 "jeremy-haynes-cold-offer": 1,
                 "system": 3,
                 "panel_cast": 1,
-                "expert-assembly-os": 2,
+                "expert-assembly-os": 3,
                 "creative-assembly": 1,
                 "swarm-commander": 1,
                 "kieran-flanagan": 1,
                 "lara-acosta-linkedin-growth": 1,
                 "liam-mley-ai-brain-builder": 1,
                 "dan-bolton-coaching-offers": 1,
-                "jenny-hoyos": 2
+                "jenny-hoyos": 2,
+                "adam-sandler": 2,
+                "andrew-dun-vibe-consulting": 1
             },
             "tier_counts": {
-                "0": 365,
+                "0": 372,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -7243,11 +7377,11 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 203,
-                "finalize-auto": 162
+                "hybrid": 205,
+                "finalize-auto": 167
             },
-            "ensemble_count": 267,
-            "auto_miss_count": 34,
+            "ensemble_count": 271,
+            "auto_miss_count": 35,
             "auto_match_count": 10
         }
     }

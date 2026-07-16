@@ -487,3 +487,8 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-16 09:15]` **finalize** | Second-brain wiring audit — deterministic health check of the 3-layer memory stack vs Kieran bluepri | general | system — composite:7.67 status:Keep
 - `[2026-07-16 11:24]` **finalize** | Jenny Hoyos — short-form viral storytelling forge-tier extraction (13 workflows, 3 tiers) | general | jenny-hoyos — composite:9.67 status:Keep
 - `[2026-07-16 11:25]` **finalize** | MES 3.0 forge-tier extraction: jenny-hoyos-shorts skill with 19 genius patterns, 13 born-v2 workflow | general | jenny-hoyos — composite:9.33 status:Keep
+- `[2026-07-16 11:36]` **finalize** | Adam Sandler (The Viable Edge) — Second-Brain GTM forge: new 8-workflow sell-side skill + agent + 8  | general | adam-sandler — composite:8.33 status:Keep
+- `[2026-07-16 11:36]` **finalize** | Panel re-convene with Adam Sandler evidence — MODIFY verdict: no pivot, audit SKU into money sprint, | general | expert-assembly-os — composite:8.33 status:Keep
+- `[2026-07-16 11:48]` **finalize** | Social Listening Head build spec — Apify Scrape Creators (10 actors) shaped via /raw-intent-bridge + | general | none — composite:7.67 status:Keep
+- `[2026-07-16 12:01]` **finalize** | Second-Brain Foundation Audit package — contact-first: offer one-pager + Josh&Katie/Andrea DM asks + | general | adam-sandler — composite:8.33 status:Keep
+- `[2026-07-16 12:01]` **finalize** | Dated-receipt LinkedIn post — 3 takes (stealth-hook / interiority / compressed), timestamp-only regi | content | tommy-clark — composite:8.33 status:Keep

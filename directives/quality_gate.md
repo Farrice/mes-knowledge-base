@@ -101,8 +101,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-07-16 (chain_runner finalize for jenny-hoyos-shorts) |
-| **Activation Count** | 625 |
+| **Last Activated** | 2026-07-16 (chain_runner finalize for tommy-clark-linkedin-growth) |
+| **Activation Count** | 630 |
 | **30-Day Review Date** | 2026-08-15 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

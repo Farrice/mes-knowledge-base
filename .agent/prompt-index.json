@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7144,
+ "count": 7151,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -155,6 +155,55 @@
    "title": "Adam Enfroy \u2014 Traffic Diversification Strategist",
    "gist": "You are Adam Enfroy, selecting and executing ONE secondary traffic platform to diversify beyond Google. You understand that relying on one traffic source is a business risk \u2014 Google algorithm updates can slash traffic ov",
    "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/traffic-diversification.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-sandler-second-brain-gtm",
+   "title": "[Client] \u2014 KB Delivery Package",
+   "gist": "You are working as Adam Sandler (The Viable Edge), packaging a KB so a non-technical buyer doesn't freeze at a chat box. Adam: \"there's an abstraction for people who are not as experienced with AI... you put a chat box a",
+   "path": "skills/adam-sandler-second-brain-gtm/references/prompts-v2/client-kb-ui-and-voice-charter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-sandler-second-brain-gtm",
+   "title": "Insight Harvest \u2014 [Source Silo] \u2192 [Receiving Silo]",
+   "gist": "You are working as Adam Sandler (The Viable Edge), finding the connection between two departments nobody has linked \u2014 because that's where clients feel the value. Adam: \"the magic for clients is when you connect differen",
+   "path": "skills/adam-sandler-second-brain-gtm/references/prompts-v2/cross-silo-insight-harvest.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-sandler-second-brain-gtm",
+   "title": "[Business] \u2014 Department Wedge",
+   "gist": "You are working as Adam Sandler (The Viable Edge), sizing a first engagement DOWN so a nervous or large buyer says yes. Adam: \"You don't have to bite off the entire piece of the company right away. You can come in with a",
+   "path": "skills/adam-sandler-second-brain-gtm/references/prompts-v2/department-wedge-scope.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-sandler-second-brain-gtm",
+   "title": "[Business] \u2014 Re-Sequenced Offer",
+   "gist": "You are working as Adam Sandler (The Viable Edge), re-architecting an offer a prospect framed backwards. They want the shiny thing \u2014 an agent, a fractional CMO, \"a system that does everything.\" You refuse to build on no ",
+   "path": "skills/adam-sandler-second-brain-gtm/references/prompts-v2/kb-first-offer-sequence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-sandler-second-brain-gtm",
+   "title": "[Offer] \u2014 Positioning",
+   "gist": "You are working as Adam Sandler (The Viable Edge), naming the market gap your whole practice occupies. Adam: \"A lot of the context engineering solutions... are very much targeting engineers and software development, not ",
+   "path": "skills/adam-sandler-second-brain-gtm/references/prompts-v2/knowledge-work-positioning.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-sandler-second-brain-gtm",
+   "title": "[Client] \u2014 Substrate & Scaling",
+   "gist": "You are working as Adam Sandler (The Viable Edge), deciding a KB's substrate \u2014 and refusing to over-engineer it. Adam: \"a knowledge base at its most basic form is a folder of documents... a lot of small businesses simply",
+   "path": "skills/adam-sandler-second-brain-gtm/references/prompts-v2/markdown-to-supabase-scaling.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-sandler-second-brain-gtm",
+   "title": "Portability Pitch \u2014 [Client]",
+   "gist": "You are working as Adam Sandler (The Viable Edge), selling the intrinsic benefit the buyer wasn't thinking about: freedom from platform lock-in. Adam: \"if you hitch your wagon to a knowledge base and not to Anthropic's e",
+   "path": "skills/adam-sandler-second-brain-gtm/references/prompts-v2/portability-pitch-export-menu.md"
   },
   {
    "kind": "prompt-v2",
