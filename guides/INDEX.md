@@ -44,6 +44,8 @@
 | Execute or resume the Receipt Arc posting sequence | [Stanton + LinkedIn Launch](2026-07-13-stanton-linkedin-launch.md) |
 | Decide Stanton vs ghostwrite/parallax/copy-engine for a content job | [Stanton + LinkedIn Launch](2026-07-13-stanton-linkedin-launch.md) |
 | **Marketing / offers / ads** | |
+| Build or audit an offer for COLD traffic / diagnose "offer vs funnel" | [Cold-Offer OS + Front Doors](2026-07-15-cold-offer-frontdoor.md) |
+| Summon any expert whole by name (/jeremy-haynes, /lara-acosta) | [Cold-Offer OS + Front Doors](2026-07-15-cold-offer-frontdoor.md) |
 | Point one engine at any content/offer/launch objective | [Propaganda Engine](2026-06-14-propaganda-engine.md) |
 | Fix an offer that isn't selling / convert by teaching not pitching | [Omar Eltakrori OS](2026-06-14-omar-eltakrori-teach-grow-rich.md) |
 | Judge whether a design/product will sell / run a merch brand | [Meg Heckman Buyer-Trigger OS](2026-06-10-meg-heckman-buyer-trigger-os.md) |
@@ -68,6 +70,7 @@
 
 *(newest first)*
 
+- 2026-07-15 — [Cold-Offer OS + Expert Front Doors](2026-07-15-cold-offer-frontdoor.md) — Haynes cold-traffic offer skill (13 wf); /[expert-name] = full arsenal for all 222 experts; generators-only registration; DWA presale audited + fixed
 - 2026-07-15 — [Expert Assembly OS](2026-07-15-expert-assembly-os.md) — hybrid panel: roster + forged composites (no fake stats), tiered roadmap, /panel-sync persistence
 - 2026-07-13 — [KDP Operator OS](2026-07-13-kdp-operator-os.md) — demand-first publishing engine, 10 workflows, honest medians
 - 2026-07-13 — [Maestro Layer](2026-07-13-maestro-layer.md) — one podium, one card, pattern choice as system property
