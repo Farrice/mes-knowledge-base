@@ -139,7 +139,7 @@
 | `jason-fladlien-marketing` | **jason-fladlien-marketing** | high-status marketing × persuasion physics × incomparable offer engineering, don't add ten tactics), fear-first conversion (get them to run out of reasons to say no) | 31 | 26 |
 | `jay-hiette-coaching-positioning` | **jay-hiette-coaching-positioning** | contrarian message architecture ("people think x, which causes y, but the truth is z") | 3 | 0 |
 | `jen-santulan-listing-content` | **jen-santulan-listing-content** | real estate social media (la / san fernando valley specialist), user is producing instagram content for jen santulan's real-estate practice o..., specifically not for generic real-estate marketing — jen's voice (warm, enthu... | 3 | 0 |
-| `jenny-hoyos-shorts` | **jenny-hoyos-shorts** | immediate start, rising action, anticipation | 3 | 0 |
+| `jenny-hoyos-shorts` | **jenny-hoyos-shorts** | immediate start, rising action, anticipation | 13 | 0 |
 | `jeremy-haynes-cold-offer` | **jeremy-haynes-cold-offer** | and kept alive by objection-mined dynamic augmentation, use for offer builds, offer audits | 13 | 0 |
 | `jeremy-haynes-mindset-systems` | **Jeremy Haynes Mindset Systems** | mindset engineering systems for entrepreneurs — identity versioning, dynamic motivation, pain leverage | 3 | 7 |
 | `jeremy-miner-identity-persuasion` | **Jeremy Miner - Identity-Based Persuasion & Psychological Framing** | sales psychology, identity persuasion, behavioral influence | 11 | 14 |

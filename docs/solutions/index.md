@@ -2,6 +2,7 @@
 
 One line per card: date · name · problem_signature.
 
+- 2026-07-16 · Approve Path Silently Drops Memories on Invalid Category · memory_review approve prints "✓ Approved → memory None" and stamps the row approved while store_memory rejected the distiller's category and wrote nothing — human-approved lessons vanish; fix = alias-map foreign categories + raise on None before status commit, verify via direct sqlite SELECT
 - 2026-07-16 · Sparse Frames → Focused /watch Zoom → Mid-Build Schema Drop · long-video extractions under-sample the demo/slides segment where the on-screen system's real schema lives, so workflows paraphrase what the speaker said about the screen instead of what it showed; fix = focused watch.py zoom on the local file + conductor decodes frames into schema language + SendMessage drop to the running builder
 - 2026-07-15 · Concurrent Session Racing a Live Forge — Accept, Repair, Dedupe · files change mid-build that the conducting session never wrote — context-aware rewrites dropping audit-required sections, net-new wrappers pointing at workflows that don't exist, duplicate prompts for one deliverable — because a second live session is writing the same working tree
 - 2026-07-15 · Ours-Merge Absorbs Silently Drop Branch Content · a divergence alarm answered with `git merge -s ours` (or a "content recovered file-wise" absorb that missed files) silences the alarm while discarding branch content; ancestry-based checks then report 0-ahead and the loss becomes invisible
