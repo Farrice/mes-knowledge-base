@@ -122,6 +122,7 @@
 | `gabe-novotny-fitness-content-business` | **gabe-novotny-fitness-content-business** | the cpr (cash per reel) method, fitness content business os | 3 | 0 |
 | `gary-vaynerchuk-attention` | **gary-vaynerchuk-attention** | run a document-don't-create organic content engine, and amplify only proven organic winners, ai + pop culture era | 3 | 0 |
 | `gemini-api-dev` | **gemini-api-dev** | use this skill when building applications with gemini models, gemini api, working with multimodal content (text | 0 | 0 |
+| `geoff-woods-ai-thought-partner` | **geoff-woods-ai-thought-partner** | ai leverage / strategic thinking / operator-ai collaboration, solving a high-stakes problem with ai as a partner instead of a tool, buildin..., communicate via crit | 12 | 0 |
 | `ghostwriting-voice-engine` | **Ghostwriting Voice Engine** | combines 5 expert methodologies: lara acosta (voice extraction), mitch albom (character embodiment), erica mallet (voice crystallization) | 4 | 0 |
 | `gpt-image-2-director` | **gpt-image-2-director** | gpt image 2, 0 prompt director, converts plain-text concepts into production-ready prompts for gpt image 2 | 0 | 0 |
 | `grace-andrews-media-company` | **Grace Andrews — Media Company Architecture** | content-driven brand architecture: city model transit strategy, trust pathway engineering, consistency × experimentation growth formula | 18 | 0 |

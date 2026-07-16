@@ -86,6 +86,7 @@
 | `futurepedia` | **Futurepedia: Prompt Engineering Virtuoso** | context extraction interview, expert discovery protocol, expert framework extraction, meta-prompt synthesis, plan abandonment prevention, prompt engineering virtuoso |
 | `gabe-novotny` | **gabe-novotny** | content systems, cpr revenue engineering, dm frame control and conversion, dm sales, earth zone content calibration, fitness coaching business — organic instagram monetization, fitness content business architect, high-margin offer backing, nurture architecture |
 | `gary-vaynerchuk` | **gary-vaynerchuk** | attention arbitrage, attention strategy, attention trader, builder mindset coaching, jab/right-hook conversion architecture, organic content strategy, organic social, paid amplification, personal branding, pop-culture strategy |
+| `geoff-woods` | **geoff-woods** | 20/80 targeting, adversarial persona rotation, ai boards of advisors, ai leverage / strategic thought partnership / ai-driven leadership, crit prompt architecture, stakeholder simulation, tacit-knowledge extraction, the interview inversion, thought-leader retention |
 | `grace-andrews` | **Grace Andrews** | media company brand architect |
 | `greg-hickman` | **greg-hickman** | agency scaling, leveraged delivery design, leveraged offers, prototype pre-selling, scale-lever sequencing, service productization, signature outcome extraction, warm-pipeline client acquisition |
 | `greg-hoffman` | **Agent: Greg Hoffman** | greg hoffman |

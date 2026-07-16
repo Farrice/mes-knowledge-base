@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-16** [prompts-v2/active] [Prompts V2 — Simulate Room](2026-07-16-prompts-v2.md) — Prompts V2 — Simulate Room
 - **2026-07-16** [ghostwrite/active] [Dated-receipt LinkedIn post — 3 takes (stealth-hook / interiority / compressed), timestamp-only register, verified commit receipts](2026-07-16-ghostwrite.md) — Dated-receipt LinkedIn post — 3 takes (stealth-hook / interiority / compressed), timestamp-only register, verified commit receipts
 - **2026-07-16** [social-listening-head-spec/active] [Social Listening Head — Build Spec (SHAPED, READY TO EXECUTE)](2026-07-16-social-listening-head-spec.md) — Date shaped: 2026-07-16 · Shaped via: /raw-intent-bridge + one question round (Farrice answered all)
 - **2026-07-16** [assemble/active] [Panel re-convene with Adam Sandler evidence — MODIFY verdict: no pivot, audit SKU into money sprint, two-tier day-60 gate, adjacent-markets as derivation instrument](2026-07-16-assemble.md) — Panel re-convene with Adam Sandler evidence — MODIFY verdict: no pivot, audit SKU into money sprint, two-tier day-60 gate, adjacent-markets as derivation instrument

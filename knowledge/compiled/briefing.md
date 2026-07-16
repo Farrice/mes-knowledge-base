@@ -1,5 +1,5 @@
 # Knowledge Briefing
-*Generated: 2026-07-16 | 651 sources | 2,645,403 words*
+*Generated: 2026-07-16 | 654 sources | 2,677,951 words*
 
 ---
 
@@ -9,22 +9,22 @@
 - **2026-07-16-pressure-test-whether-farrice-cain-should-pivot** (strategy [april-dunford]) — 1,565 words — `knowledge/assembly-sessions/2026-07-16-pressure-test-whether-farrice-cain-should-pivot.md`
 - **2026-07-16-re-convene-with-material-new-evidence-update-the** (strategy [dai-media]) — 1,349 words — `knowledge/assembly-sessions/2026-07-16-re-convene-with-material-new-evidence-update-the.md`
 - **index** (content) — 4,534 words — `knowledge/index.md`
-- **log** (general) — 12,139 words — `knowledge/log.md`
+- **log** (general) — 12,167 words — `knowledge/log.md`
 - **BONUS-pricing-offer-page** (content) — 719 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/BONUS-pricing-offer-page.md`
 - **piece-1-what-is-marketing-context-engineering** (content) — 1,766 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/piece-1-what-is-marketing-context-engineering.md`
 - **piece-2-how-to-scope-ai-projects** (content) — 3,401 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/piece-2-how-to-scope-ai-projects.md`
 - **piece-3-hermes-orchestrator-claude-code** (systems) — 3,267 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/piece-3-hermes-orchestrator-claude-code.md`
-- **blind-pass-log** (systems) — 60 words — `extractions/jenny-hoyos/blind-pass-log.md`
+- **amplification-report** (screenwriting) — 3,114 words — `extractions/geoff-woods/amplification-report.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 219 | nicolas-cole |
+| content | 220 | nicolas-cole |
 | copywriting | 96 | luke-iha |
 | general | 83 | nick-saraev |
-| strategy | 65 | april-dunford |
-| screenwriting | 48 | connelly |
+| strategy | 66 | april-dunford |
+| screenwriting | 49 | connelly |
 | brand | 48 | oren-john |
 | systems | 35 | nick-saraev |
 | seo | 25 | nathan-gotch |

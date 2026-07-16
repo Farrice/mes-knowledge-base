@@ -1,7 +1,7 @@
-# Prompts V2 — Client Conversion Diagnostic
+# Prompts V2 — Simulate Room
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
 
-**Artifacts:** /Users/farricecain/Google Antigravity/skills/luke-iha-client-mastery/references/prompts-v2/creative-diversity-matrix.md, /Users/farricecain/Google Antigravity/skills/luke-iha-copy-blocks/references/prompts-v2/expert-panel-deliberation.md, /Users/farricecain/Google Antigravity/skills/luke-iha-copy-blocks/references/prompts-v2/conditions-stack.md, /Users/farricecain/Google Antigravity/skills/luke-iha-copy-blocks/references/prompts-v2/copy-blocks-equation-score.md, /Users/farricecain/Google Antigravity/skills/luke-iha-client-mastery/references/prompts-v2/client-conversion-diagnostic.md
+**Artifacts:** /Users/farricecain/Google Antigravity/skills/geoff-woods-ai-thought-partner/workflows/11-forge-brief.md, /Users/farricecain/Google Antigravity/skills/geoff-woods-ai-thought-partner/workflows/07-simulate-room.md, /Users/farricecain/Google Antigravity/skills/geoff-woods-ai-thought-partner/references/prompts-v2/twenty-percent.md, /Users/farricecain/Google Antigravity/skills/geoff-woods-ai-thought-partner/references/prompts-v2/forge-brief.md, /Users/farricecain/Google Antigravity/skills/geoff-woods-ai-thought-partner/references/prompts-v2/simulate-room.md
 
 **Retrieve:** `/resume prompts-v2`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).

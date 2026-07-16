@@ -1618,7 +1618,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 61 agent(s) had no invocation card. Stubs below are machine-
+> 62 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -1901,6 +1901,16 @@ DOMAIN: Generation conducting — raw intent → production-grade prompt / workf
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: Dispatch this agent to run any Forge OS lane end-to-end: it classifies intent at the front door, routes to the right lane or the existing owning generator, e...
 ENTRY PROMPT: agents/forge-os/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Geoff Woods
+DOMAIN: AI leverage / strategic thought partnership / AI-driven leadership
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: Geoff Woods is the founder of AI Leadership and author of the #1 bestseller *The AI-Driven Leader*. He co-founded the training and consulting company behind...
+ENTRY PROMPT: agents/geoff-woods/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 

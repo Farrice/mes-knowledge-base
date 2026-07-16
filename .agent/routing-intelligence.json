@@ -6734,6 +6734,23 @@
             "ensemble": true,
             "compound_pairing": "jen-santulan-listing-content + supercomputer + deliberate",
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260716_230154_6ce2",
+            "timestamp": "2026-07-16T23:01:54.051260+00:00",
+            "session_id": "",
+            "request_summary": "Geoff Woods forge-tier extraction: AI Thought Partner OS — 12 /gw-* workflows (3 tiers), 12 born-v2 prompts, agent persona, front door, PLUS always-on CO-CREATION-CARD operator layer wired as CLAUDE.m",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "geoff-woods"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -7145,7 +7162,7 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 373,
+            "total_routings": 374,
             "total_feedback": 45,
             "positive_count": 0,
             "negative_count": 0,
@@ -7158,7 +7175,7 @@
                 "Creative": 8,
                 "Legal Consult Prep": 1,
                 "Content": 40,
-                "Extraction": 16,
+                "Extraction": 17,
                 "Research": 7,
                 "stefan-georgi-dopamine-copy": 7,
                 "supercomputer": 18,
@@ -7385,10 +7402,11 @@
                 "dan-bolton-coaching-offers": 1,
                 "jenny-hoyos": 2,
                 "adam-sandler": 2,
-                "andrew-dun-vibe-consulting": 1
+                "andrew-dun-vibe-consulting": 1,
+                "geoff-woods": 1
             },
             "tier_counts": {
-                "0": 373,
+                "0": 374,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -7397,9 +7415,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 206,
-                "finalize-auto": 167
+                "finalize-auto": 168
             },
-            "ensemble_count": 272,
+            "ensemble_count": 273,
             "auto_miss_count": 35,
             "auto_match_count": 10
         }

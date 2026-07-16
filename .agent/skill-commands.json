@@ -437,6 +437,10 @@
       "skill": "gemini-api-dev"
     },
     {
+      "command": "/geoff-woods-ai-thought-partner",
+      "skill": "geoff-woods-ai-thought-partner"
+    },
+    {
       "command": "/ghostwriting-voice",
       "skill": "ghostwriting-voice-engine"
     },
@@ -1876,6 +1880,12 @@
       "command": "/gary-vaynerchuk",
       "skills": [
         "gary-vaynerchuk-attention"
+      ]
+    },
+    "geoff-woods": {
+      "command": "/geoff-woods",
+      "skills": [
+        "geoff-woods-ai-thought-partner"
       ]
     },
     "grace-andrews": {

@@ -1,12 +1,13 @@
 # Knowledge Index
-*651 sources | 2,645,403 words | Updated: 2026-07-16*
+*654 sources | 2,677,951 words | Updated: 2026-07-16*
 
 ---
 
-## Content (219 files)
+## Content (220 files)
 
 - [video-context-ledger](../extractions/video-context/3iR3kHxCwfo/video-context-ledger.md) — 75,408 words
 - [Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them](extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md) — 60,850 words (stale)
+- [visual-context](../extractions/geoff-woods/visual-context.md) — 27,999 words
 - [visual-context](../extractions/jeremy-haynes/visual-context.md) — 15,631 words
 - [visual-context](../extractions/second-brain-seller/visual-context.md) — 13,695 words
 - [Claude-💎💎💎 Seena Rez ! $1.8m tiktok dropshipping in 30 days (showing you my actual viral videos and ho.2](extractions/inbox/Claude-💎💎💎 Seena Rez ! $1.8m tiktok dropshipping in 30 days (showing you my actual viral videos and ho.2.md) — 12,387 words (stale)
@@ -341,7 +342,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 12,139 words
+- [log](log.md) — 12,167 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words
@@ -410,7 +411,7 @@
 - [ocr-notes](../extractions/video-context/3iR3kHxCwfo/ocr-notes.md) — 20 words
 - [ocr-notes](../extractions/video-context/a7VjpIqq8Xk/ocr-notes.md) — 20 words
 
-## Strategy (65 files)
+## Strategy (66 files)
 
 - [Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI](extractions/inbox/Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI.md) — 54,665 words (stale)
 - [Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2](extractions/inbox/Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2.md) — 29,981 words (stale)
@@ -441,6 +442,7 @@
 - [2026-07-16-pressure-test-whether-farrice-cain-should-pivot](assembly-sessions/2026-07-16-pressure-test-whether-farrice-cain-should-pivot.md) [april-dunford] — 1,565 words
 - [sober-daytime-event-marketing-corpus](../extractions/grounding/sober-daytime-event-marketing-corpus.md) — 1,555 words
 - [visual-context](../extractions/oren-john-identity-marketing/visual-context.md) [oren-john] — 1,550 words
+- [vision](../extractions/geoff-woods/vision.md) — 1,407 words
 - [extraction-report](../extractions/luke-iha/video-6-offer-cycling/extraction-report.md) [luke-iha] — 1,385 words (stale)
 - [adam_enfroy](../research_outputs/ai_authority_architect_agents/adam_enfroy.md) [nicolas-cole] — 1,351 words
 - [2026-07-16-re-convene-with-material-new-evidence-update-the](assembly-sessions/2026-07-16-re-convene-with-material-new-evidence-update-the.md) [dai-media] — 1,349 words
@@ -478,7 +480,7 @@
 - [product-design-scoring](../extractions/meg-heckman/codex-prior-art/skill/workflows/product-design-scoring.md) — 200 words
 - [assembly-rubric](assembly-rubric.md) — 145 words
 
-## Screenwriting (48 files)
+## Screenwriting (49 files)
 
 - [Claude-💎💎 Shaan Puri's Storytelling Formula](extractions/inbox/Claude-💎💎 Shaan Puri's Storytelling Formula.md) — 50,755 words (stale)
 - [Claude-💎💎🧑🏽_💻 Oscar Hoglund ! The Impact of Sound in Your Storytelling w! CEO of Epedemic Sound](extractions/inbox/Claude-💎💎🧑🏽_💻 Oscar Hoglund ! The Impact of Sound in Your Storytelling w! CEO of Epedemic Sound.md) — 50,452 words (stale)
@@ -487,6 +489,7 @@
 - [mes-deep-delta-2026-07-16](../extractions/jenny-hoyos/mes-deep-delta-2026-07-16.md) — 5,183 words
 - [extraction-report](../extractions/steven-pressfield/extraction-report.md) [pressfield] — 3,943 words (stale)
 - [DESIGN](design-libraries/brands/clay/DESIGN.md) — 3,119 words
+- [amplification-report](../extractions/geoff-woods/amplification-report.md) — 3,114 words
 - [storybrand-extraction](../extractions/donald-miller/storybrand-extraction.md) — 2,395 words (stale)
 - [extraction-report](../extractions/yann-martel/extraction-report.md) — 2,006 words
 - [kb-trailer-storytelling-narrative](creative-direction/guides/kb-trailer-storytelling-narrative.md) — 1,977 words (stale)

@@ -1,26 +1,28 @@
 # Latest Handoff
 
-**Thread:** ghostwrite  
-**Full path:** .agent/handoffs/2026-07-16-ghostwrite.md  
+**Thread:** prompts-v2  
+**Full path:** .agent/handoffs/2026-07-16-prompts-v2.md  
 **Date:** 2026-07-16 (today)  
 **Status:** active  
-**Title:** Dated-receipt LinkedIn post — 3 takes (stealth-hook / interiority / compressed), timestamp-only register, verified commit receipts
+**Title:** Prompts V2 — Simulate Room
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume ghostwrite` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume prompts-v2` for this one.
 
 ---
-thread: ghostwrite
+
+---
+thread: prompts-v2
 status: active
-resume_hint: Dated-receipt LinkedIn post — 3 takes (stealth-hook / interiority / compressed), timestamp-only register, verified commit receipts
+resume_hint: Prompts V2 — Simulate Room
 branch: main
 pin: true
 ---
 
-# Dated-receipt LinkedIn post — 3 takes (stealth-hook / interiority / compressed), timestamp-only register, verified commit receipts
+# Prompts V2 — Simulate Room
 
-**Next session focus**: Resume the `ghostwrite` work-stream — see the deliverable above.
+**Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
 
-_Auto-pinned by chain_runner.finalize (ghostwrite)._
+**Artifacts:** /Users/farricecain/Google Antigravity/skills/geoff-woods-ai-thought-partner/workflows/11-forge-brief.md, /Users/farricecain/Google Antigravity/skills/geoff-woods-ai-thought-partner/workflows/07-simulate-room.md, /Users/farricecain/Google Antigravity/skills/geoff-woods-ai-thought-partner/references/prompts-v2/twenty-percent.md, /Users/farricecain/Google Antigravity/skills/geoff-woods-ai-thought-partner/references/prompts-v2/forge-brief.md, /Users/farricecain/Google Antigravity/skills/geoff-woods-ai-thought-partner/references/prompts-v2/simulate-room.md
+
+**Retrieve:** `/resume prompts-v2`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
 

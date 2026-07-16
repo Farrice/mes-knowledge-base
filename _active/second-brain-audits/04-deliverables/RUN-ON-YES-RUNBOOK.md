@@ -64,4 +64,4 @@ Ask for access, not perfection. Expect mess — do not pre-tidy their story.
 ## 5. Where the output lands
 - Josh: `_active/josh-katie-fitness/second-brain-audit/`
 - Andrea: `projects/andrea-dj/second-brain-audit/`
-- Log the outcome (delivered / build-scope accepted / declined) back in this folder's `INDEX.md` status line and the weekly board (Stockton's sprint ledger — warm audit → build-scope conversion).
+- Log the outcome (delivered / build-scope accepted / declined) back in this folder's `../INDEX.md` status line and the weekly board (Stockton's sprint ledger — warm audit → build-scope conversion).

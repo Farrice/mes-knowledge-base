@@ -1,0 +1,29 @@
+{
+  "applied_at": "2026-07-16T22:40:01+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/second-brain-audits/00-OFFER-ONE-PAGER.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/second-brain-audits/04-deliverables/00-OFFER-ONE-PAGER.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/second-brain-audits/RUN-ON-YES-RUNBOOK.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/second-brain-audits/04-deliverables/RUN-ON-YES-RUNBOOK.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/second-brain-audits/00-OFFER-ONE-PAGER.md",
+    "/Users/farricecain/Google Antigravity/_active/second-brain-audits/RUN-ON-YES-RUNBOOK.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/second-brain-audits",
+  "project_slug": "second-brain-audits",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-16.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.agent/sessions/observe-log.jsonl": 1,
+    "/Users/farricecain/Google Antigravity/_active/second-brain-audits/04-deliverables/RUN-ON-YES-RUNBOOK.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/second-brain-audits/INDEX.md": 2
+  },
+  "skipped": [],
+  "version": 1
+}

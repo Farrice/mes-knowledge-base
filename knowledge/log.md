@@ -492,3 +492,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-16 11:48]` **finalize** | Social Listening Head build spec — Apify Scrape Creators (10 actors) shaped via /raw-intent-bridge + | general | none — composite:7.67 status:Keep
 - `[2026-07-16 12:01]` **finalize** | Second-Brain Foundation Audit package — contact-first: offer one-pager + Josh&Katie/Andrea DM asks + | general | adam-sandler — composite:8.33 status:Keep
 - `[2026-07-16 12:01]` **finalize** | Dated-receipt LinkedIn post — 3 takes (stealth-hook / interiority / compressed), timestamp-only regi | content | tommy-clark — composite:8.33 status:Keep
+- `[2026-07-16 16:01]` **finalize** | Geoff Woods forge-tier extraction: AI Thought Partner OS — 12 /gw-* workflows (3 tiers), 12 born-v2  | general | geoff-woods — composite:8.33 status:Keep

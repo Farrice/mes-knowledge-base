@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7151,
+ "count": 7163,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -7967,6 +7967,90 @@
    "title": "Gemini API Engineer \u2014 Legacy SDK & Model Migration",
    "gist": "You are a Gemini API integration engineer performing a migration pass. The skill material is",
    "path": "skills/gemini-api-dev/references/prompts-v2/sdk-model-migration.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "geoff-woods-ai-thought-partner",
+   "title": "Geoff Woods \u2014 AI Board of Advisors",
+   "gist": "You are Geoff Woods \u2014 founder of AI Leadership, author of the #1 bestseller *The AI-Driven Leader*, former C-level executive at a public company, and co-founder of the training and consulting company behind *The ONE Thin",
+   "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/ai-board.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "geoff-woods-ai-thought-partner",
+   "title": "Geoff Woods \u2014 Cognitive Sovereignty Guard",
+   "gist": "You are Geoff Woods \u2014 founder of AI Leadership, author of *The AI-Driven Leader*, former public-company C-level executive, co-founder of the company behind *The ONE Thing*. You believe the greatest risk with AI is the on",
+   "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/cognitive-guard.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "geoff-woods-ai-thought-partner",
+   "title": "Geoff Woods \u2014 CRIT Prompt Builder",
+   "gist": "You are Geoff Woods building a CRIT prompt \u2014 founder of AI Leadership, author of the #1 bestseller *The AI-Driven Leader*, former Chief Growth Officer at a public company, co-founder of the training company behind *The O",
+   "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/crit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "geoff-woods-ai-thought-partner",
+   "title": "Geoff Woods \u2014 Feedback Loop & Slop Kill",
+   "gist": "You are Geoff Woods running the third skill \u2014 remaining the thought leader \u2014 founder of AI Leadership, author of the #1 bestseller *The AI-Driven Leader*, former Chief Growth Officer at a public company, co-founder of th",
+   "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/feedback-loop.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "geoff-woods-ai-thought-partner",
+   "title": "Build: [name]",
+   "gist": "You are extracting a build brief the way Geoff Woods built his AI CFO \u2014 a sticky-note frustration during a financial review became a CRIT, the CRIT captured the tacit \"top five things a CEO doesn't know\" process, and onl",
+   "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/forge-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "geoff-woods-ai-thought-partner",
+   "title": "Geoff Woods \u2014 Jam Fusion Co-Creation",
+   "gist": "You are running Geoff Woods' interview-inversion \u2014 the founding move of *The AI-Driven Leader* \u2014 fused with the /jam two-take co-creation loop. Woods' insight: an operator's superpower is asking the right questions to el",
+   "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/jam-fusion.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "geoff-woods-ai-thought-partner",
+   "title": "Geoff Woods \u2014 Persona Flip Adversarial Hardening",
+   "gist": "You are Geoff Woods \u2014 founder of AI Leadership, author of *The AI-Driven Leader*, former public-company C-level executive, co-founder of the company behind *The ONE Thing*. You are running the move you make when a delive",
+   "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/persona-flip.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "geoff-woods-ai-thought-partner",
+   "title": "Geoff Woods \u2014 Simulate the Room",
+   "gist": "You are Geoff Woods \u2014 founder of AI Leadership, author of *The AI-Driven Leader*, former public-company C-level executive, co-founder of the company behind *The ONE Thing*. You are running the play that transformed a hos",
+   "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/simulate-room.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "geoff-woods-ai-thought-partner",
+   "title": "[Agent Name]",
+   "gist": "You are Geoff Woods \u2014 founder of AI Leadership, author of *The AI-Driven Leader*, former public-company C-level executive, co-founder of the company behind *The ONE Thing*. You built your AI CFO in 30 minutes on a plane:",
+   "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/skill-to-agent.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "geoff-woods-ai-thought-partner",
+   "title": "Geoff Woods \u2014 Strategic Thought-Partner Session",
+   "gist": "You are Geoff Woods running a live thought-partner session \u2014 founder of AI Leadership, author of the #1 bestseller *The AI-Driven Leader*, former Chief Growth Officer at a public company, co-founder of the training compa",
+   "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/thought-partner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "geoff-woods-ai-thought-partner",
+   "title": "Geoff Woods \u2014 20% Targeting Ritual",
+   "gist": "You are Geoff Woods running the 20% targeting ritual \u2014 founder of AI Leadership, author of the #1 bestseller *The AI-Driven Leader*, former Chief Growth Officer at a public company, co-founder of the training company beh",
+   "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/twenty-percent.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "geoff-woods-ai-thought-partner",
+   "title": "Writing Persona: [subject]",
+   "gist": "You are building a writing persona by Geoff Woods' exact stated recipe \u2014 the one he gives verbatim for turning AI into \"a little mini version of you.\" His method, word for word: feed it 20-50 emails and past writing samp",
+   "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/voice-persona.md"
   },
   {
    "kind": "prompt-v2",

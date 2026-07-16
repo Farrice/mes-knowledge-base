@@ -498,6 +498,18 @@
       "moved_at": "2026-07-13T21:00:07+00:00",
       "project": "prompt-wiring-os-2026-07-13"
     },
+    "/Users/farricecain/Google Antigravity/_active/second-brain-audits/00-OFFER-ONE-PAGER.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/second-brain-audits/04-deliverables/00-OFFER-ONE-PAGER.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-16T22:40:01+00:00",
+      "project": "second-brain-audits"
+    },
+    "/Users/farricecain/Google Antigravity/_active/second-brain-audits/RUN-ON-YES-RUNBOOK.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/second-brain-audits/04-deliverables/RUN-ON-YES-RUNBOOK.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-16T22:40:01+00:00",
+      "project": "second-brain-audits"
+    },
     "/Users/farricecain/Google Antigravity/_active/strategic-clarity/01-strategic-identity-and-expertise-map.md": {
       "current": "/Users/farricecain/Google Antigravity/_active/strategic-clarity/04-deliverables/01-strategic-identity-and-expertise-map.md",
       "lifecycle": "deliverable",
@@ -1483,6 +1495,6 @@
       "project": "proj"
     }
   },
-  "updated_at": "2026-07-15T18:45:00+00:00",
+  "updated_at": "2026-07-16T22:40:01+00:00",
   "version": 1
 }
