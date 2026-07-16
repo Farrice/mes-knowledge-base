@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** tommy-clark-2026  
-**Full path:** .agent/handoffs/2026-07-15-tommy-clark-2026-expansion.md  
-**Date:** 2026-07-15 (today)  
-**Status:** ready  
-**Title:** Tommy Clark LinkedIn OS — 2026 Three-Moat Expansion (forge+amplify)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume tommy-clark-2026` for this one.
-
----
-
 ---
 thread: tommy-clark-2026
 status: ready
@@ -59,4 +47,3 @@ Read extractions/tommy-clark-linkedin-growth/blind-pass-sample-uncopyable-filter
 - Source is a single 3,614-word video — fidelity-sized to 4 workflows deliberately; don't inflate beyond source
 - TLA mechanics (PS-line survives boost; no-CTA-button objectives) are platform behaviors subject to change — re-verify before spending client budget
 - Concurrent-tool caution: working tree had pre-existing modifications from other tooling (ethan-smith-aeo, directives) — left uncommitted on purpose; GOLDEN RULE applies
-
