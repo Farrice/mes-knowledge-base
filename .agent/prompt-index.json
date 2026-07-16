@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7133,
+ "count": 7143,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -8965,6 +8965,34 @@
   {
    "kind": "prompt-v2",
    "skill": "jenny-hoyos-shorts",
+   "title": "Jenny Hoyos \u2014 AI Ideation Brain",
+   "gist": "You are building Jenny Hoyos' \"50-page brain upload\" as a deployable system. Her stated leverage comes from context, not clever prompts: she wrote a full SOP covering her entire pipeline \u2014 ideation \u2192 scripting \u2192 filming ",
+   "path": "skills/jenny-hoyos-shorts/references/prompts-v2/ai-ideation-brain.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jenny-hoyos-shorts",
+   "title": "Jenny Hoyos \u2014 Anything-Viral Brief",
+   "gist": "You are Jenny Hoyos taking her stated claim literally \u2014 \"I'm the girl that can make anything go viral\" \u2014 and applying it to any product, brand, offer, or boring topic. The move is not to make the thing louder; it's to fi",
+   "path": "skills/jenny-hoyos-shorts/references/prompts-v2/anything-viral-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jenny-hoyos-shorts",
+   "title": "Jenny Hoyos \u2014 Cast the Characters",
+   "gist": "You are casting a short the way Jenny Hoyos does \u2014 where characters multiply resonance points and capture two demographics at once (*\"the kid watches for me and adults watch for my mom's point of view\"*). The core is the",
+   "path": "skills/jenny-hoyos-shorts/references/prompts-v2/character-cast-director.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jenny-hoyos-shorts",
+   "title": "Jenny Hoyos \u2014 Creator Business Engine",
+   "gist": "You are applying Jenny Hoyos' creator-economics playbook to a channel or brand and returning a monetization roadmap staged by audience size. Hoyos runs a deliberate revenue architecture: she reports moving from 100% ad r",
+   "path": "skills/jenny-hoyos-shorts/references/prompts-v2/creator-business-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jenny-hoyos-shorts",
    "title": "Jenny Hoyos \u2014 Diagnose Retention Failure",
    "gist": "You are running Jenny Hoyos' analytics triage on a short that underperformed \u2014 the same order of operations she applies across 8M+ subscribers and 3B+ views of short-form data. Her method is strict and sequential: viewed",
    "path": "skills/jenny-hoyos-shorts/references/prompts-v2/diagnose-retention.md"
@@ -8979,9 +9007,51 @@
   {
    "kind": "prompt-v2",
    "skill": "jenny-hoyos-shorts",
+   "title": "Jenny Hoyos \u2014 Lens-as-Niche Blueprint",
+   "gist": "You are designing a durable niche the way Jenny Hoyos does \u2014 as a *lens*, not a topic. She pivoted from finance topics to *\"doing things from the lens of a cheapskate, so I could do whatever it was as long as it was from",
+   "path": "skills/jenny-hoyos-shorts/references/prompts-v2/lens-niche-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jenny-hoyos-shorts",
+   "title": "Jenny Hoyos \u2014 Architect the Long-Form Umbrella",
+   "gist": "You are architecting long-form the way Jenny Hoyos frames it \u2014 not as a compressed movie but as *a bunch of shorts stitched under one theme with a B-plot*. A short is one moment; the channel travels A\u2192Z; and a long-form ",
+   "path": "skills/jenny-hoyos-shorts/references/prompts-v2/longform-umbrella-architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jenny-hoyos-shorts",
+   "title": "Jenny Hoyos \u2014 Engineer the Loop and Rewatch",
+   "gist": "You are engineering the back half of a short the way Jenny Hoyos does \u2014 treating the ending as a design problem, not an afterthought. Her doctrine: *\"unlike a long form where the video ends and that's the end \u2014 it's not ",
+   "path": "skills/jenny-hoyos-shorts/references/prompts-v2/loop-rewatch-engineer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jenny-hoyos-shorts",
    "title": "Jenny Hoyos \u2014 Script a Viral Short",
    "gist": "You are scripting a YouTube Short / vertical video the way Jenny Hoyos does \u2014 8M+ subscribers, 3B+ views, averaging 10M+ views per post, built on a repeatable system rather than luck. Her core claim: any idea can go vira",
    "path": "skills/jenny-hoyos-shorts/references/prompts-v2/script-viral-short.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jenny-hoyos-shorts",
+   "title": "Jenny Hoyos \u2014 Text-Platform Transfer",
+   "gist": "You are transferring Jenny Hoyos' short-form video mechanics onto text-first platforms \u2014 LinkedIn posts, Substack Notes, X. This is a cross-domain transfer, not her native domain: her evidence base is short-form video, a",
+   "path": "skills/jenny-hoyos-shorts/references/prompts-v2/text-platform-transfer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jenny-hoyos-shorts",
+   "title": "Jenny Hoyos \u2014 Viral Idea Ladder",
+   "gist": "You are generating short-form video ideas the way Jenny Hoyos does \u2014 the operator behind 8M+ subscribers and billions of views, who grew 0\u21928M in three years and treats idea selection as the single biggest lever in shorts",
+   "path": "skills/jenny-hoyos-shorts/references/prompts-v2/viral-idea-ladder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jenny-hoyos-shorts",
+   "title": "Jenny Hoyos \u2014 Engineer a Visual Analogy",
+   "gist": "You are staging an abstract concept the way Jenny Hoyos opens an educational short \u2014 with a physical analogy the camera can show, not a voice explaining. In her VIRAL framework the \"V\" (Visual shock) for educational idea",
+   "path": "skills/jenny-hoyos-shorts/references/prompts-v2/visual-analogy-engineer.md"
   },
   {
    "kind": "prompt-v2",

@@ -83,12 +83,22 @@ def approve(fid: str, pin: bool = True) -> dict:
         "source_memory_ids": json.loads(fr.get("source_memory_ids") or "[]"),
     })
 
+    # The distiller judge emits categories outside memory_store.VALID_CATEGORIES
+    # (e.g. 'principle'); normalize instead of dropping the approved memory.
+    CATEGORY_ALIASES = {"principle": "insight", "lesson": "insight", "heuristic": "pattern"}
+    category = CATEGORY_ALIASES.get(fr["proposed_category"], fr["proposed_category"])
+
     memory_id = store_memory(
         tier=fr["proposed_tier"],
-        category=fr["proposed_category"],
+        category=category,
         content=fr["proposed_content"],
         metadata=metadata,
     )
+    if memory_id is None:
+        raise SystemExit(
+            f"store_memory rejected tier={fr['proposed_tier']!r} category={category!r} "
+            f"for {fid} — row left pending, nothing written"
+        )
 
     if pin:
         pin_memory(memory_id)

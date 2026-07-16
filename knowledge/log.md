@@ -485,3 +485,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-16 09:14]` **finalize** | Kieran Flanagan — Second Brains deep-tier expansion (forge, fidelity-scoped): 4 net-new workflows +  | general | kieran-flanagan — composite:8.33 status:Keep
 - `[2026-07-16 09:14]` **finalize** | LinkedIn pivot pressure-test — 5-seat expert panel (assemble): no-pivot verdict, 5 preserved forks,  | general | expert-assembly-os — composite:8.33 status:Keep
 - `[2026-07-16 09:15]` **finalize** | Second-brain wiring audit — deterministic health check of the 3-layer memory stack vs Kieran bluepri | general | system — composite:7.67 status:Keep
+- `[2026-07-16 11:24]` **finalize** | Jenny Hoyos — short-form viral storytelling forge-tier extraction (13 workflows, 3 tiers) | general | jenny-hoyos — composite:9.67 status:Keep
+- `[2026-07-16 11:25]` **finalize** | MES 3.0 forge-tier extraction: jenny-hoyos-shorts skill with 19 genius patterns, 13 born-v2 workflow | general | jenny-hoyos — composite:9.33 status:Keep

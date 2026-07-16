@@ -26,3 +26,5 @@
 {"ts": "2026-07-16T03:52:38.402139+00:00", "session_id": "e2b943c7-2f46-459a-bd9d-db6cb0b08946", "exchange": 4, "event": "next-moves-missing", "chars": 1188}
 {"ts": "2026-07-16T03:55:55.100189+00:00", "session_id": "e2b943c7-2f46-459a-bd9d-db6cb0b08946", "exchange": 5, "event": "next-moves-missing", "chars": 872}
 {"ts": "2026-07-16T04:05:29.144136+00:00", "session_id": "e2b943c7-2f46-459a-bd9d-db6cb0b08946", "exchange": 7, "event": "next-moves-missing", "chars": 743}
+{"ts": "2026-07-16T18:06:40.363772+00:00", "session_id": "85aed300-b402-4812-a41b-fc9d2a4a5ec1", "exchange": 1, "event": "next-moves-missing", "chars": 1323}
+{"ts": "2026-07-16T18:17:07.744139+00:00", "session_id": "a9d8e93d-78e2-4cff-8c3e-c2547b1e4070", "exchange": 10, "event": "next-moves-missing", "chars": 461}

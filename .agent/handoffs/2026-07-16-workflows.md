@@ -1,15 +1,15 @@
 ---
 thread: workflows
 status: active
-resume_hint: Workflows — Library Ingest Triage
+resume_hint: Workflows — 07 Lens Niche Blueprint
 branch: main
 pin: true
 ---
 
-# Workflows — Library Ingest Triage
+# Workflows — 07 Lens Niche Blueprint
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
 
-**Artifacts:** /Users/farricecain/Google Antigravity/extractions/kieran-flanagan-second-brain/extraction-notes.md, /Users/farricecain/Google Antigravity/skills/simon-intellectual-library-os/workflows/library-brain-ladder.md, /Users/farricecain/Google Antigravity/skills/simon-intellectual-library-os/workflows/library-ingest-triage.md
+**Artifacts:** /Users/farricecain/Google Antigravity/skills/jenny-hoyos-shorts/workflows/06-loop-rewatch-engineer.md, /Users/farricecain/Google Antigravity/skills/jenny-hoyos-shorts/genius.md, /Users/farricecain/Google Antigravity/skills/jenny-hoyos-shorts/references/prompts-v2/loop-rewatch-engineer.md, /Users/farricecain/Google Antigravity/skills/jenny-hoyos-shorts/workflows/12-text-platform-transfer.md, /Users/farricecain/Google Antigravity/skills/jenny-hoyos-shorts/workflows/07-lens-niche-blueprint.md
 
 **Retrieve:** `/resume workflows`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).

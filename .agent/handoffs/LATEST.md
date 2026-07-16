@@ -1,26 +1,28 @@
 # Latest Handoff
 
-**Thread:** assemble  
-**Full path:** .agent/handoffs/2026-07-16-assemble.md  
+**Thread:** workflows  
+**Full path:** .agent/handoffs/2026-07-16-workflows.md  
 **Date:** 2026-07-16 (today)  
 **Status:** active  
-**Title:** LinkedIn pivot pressure-test — 5-seat expert panel (assemble): no-pivot verdict, 5 preserved forks, tiered roadmap, dated-receipt anchor-post architecture
+**Title:** Workflows — 07 Lens Niche Blueprint
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume assemble` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume workflows` for this one.
 
 ---
-thread: assemble
+
+---
+thread: workflows
 status: active
-resume_hint: LinkedIn pivot pressure-test — 5-seat expert panel (assemble): no-pivot verdict, 5 preserved forks, tiered roadmap, dated-receipt anchor-post architecture
+resume_hint: Workflows — 07 Lens Niche Blueprint
 branch: main
 pin: true
 ---
 
-# LinkedIn pivot pressure-test — 5-seat expert panel (assemble): no-pivot verdict, 5 preserved forks, tiered roadmap, dated-receipt anchor-post architecture
+# Workflows — 07 Lens Niche Blueprint
 
-**Next session focus**: Resume the `assemble` work-stream — see the deliverable above.
+**Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
 
-_Auto-pinned by chain_runner.finalize (assemble)._
+**Artifacts:** /Users/farricecain/Google Antigravity/skills/jenny-hoyos-shorts/workflows/06-loop-rewatch-engineer.md, /Users/farricecain/Google Antigravity/skills/jenny-hoyos-shorts/genius.md, /Users/farricecain/Google Antigravity/skills/jenny-hoyos-shorts/references/prompts-v2/loop-rewatch-engineer.md, /Users/farricecain/Google Antigravity/skills/jenny-hoyos-shorts/workflows/12-text-platform-transfer.md, /Users/farricecain/Google Antigravity/skills/jenny-hoyos-shorts/workflows/07-lens-niche-blueprint.md
+
+**Retrieve:** `/resume workflows`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
 

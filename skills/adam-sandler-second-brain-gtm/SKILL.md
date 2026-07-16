@@ -1,0 +1,36 @@
+---
+name: "Adam Sandler — Second-Brain GTM (The Viable Edge)"
+description: "Sell, sequence, scope, scale, and package AI second-brain / knowledge-base engagements for non-technical small businesses — the go-to-market and delivery layer on top of the KB build stack"
+version: "1.0"
+format: "completion-engine"
+workflows: 8
+source: "Ryan Doser 'AI Rabbit Holes' interview — 'He Sells AI Second Brains to Businesses (For $1000s)', 2026-07-14, 32:51"
+credentials: "Founder, The Viable Edge (viableedge.com); marketing background, 20+ years in the workforce, non-engineer building AI knowledge systems for founders, agencies, and marketing leaders"
+---
+
+# Adam Sandler — Second-Brain GTM (The Viable Edge)
+
+> **Disambiguation**: Adam Sandler of **The Viable Edge** (viableedge.com) — AI knowledge-base practitioner. **Not the actor.**
+
+Adam is the first practitioner in the system who treats the knowledge base as an **offer to sell**, not just an artifact to build. Born from repeated client failure — *"the information needed to power this workflow was not easily accessible"* — he inverted the offer: the KB becomes step 1A, the paid entry point, the trust-builder, and the thing that guarantees the next engagement. This skill owns the **go-to-market and delivery-packaging layer**: audit-first entry, department-scale wedge, provider-portability sales language, markdown-first scaling, cross-silo insight harvest, branded client UI, and the anti-slop voice charter. It **stacks on** the build machinery (Simon, Liam Mley) — it never rebuilds it.
+
+**Recognition test**: an Adam move sells a KB to a non-technical buyer and makes a folder of markdown feel like a $1000s product. If the deliverable teaches ingest/retrieve/tier mechanics, that's the build stack, not Adam.
+
+## Available Workflows
+
+| # | Workflow | Produces | Use When |
+|---|---------|----------|----------|
+| 01 | [ve-audit-offer](workflows/01-ve-audit-offer.md) | Paid KB audit: spine → 7-datapoint schema → on-fire/outdated/disconnected findings → scoped build proposal | Entry engagement with any prospect — the billable first step |
+| 02 | [ve-kb-first-sequencing](workflows/02-ve-kb-first-sequencing.md) | Re-sequenced offer architecture (KB step 1A, agents on top) + recurring-relationship math | Prospect asks for an agent/automation before a KB exists |
+| 03 | [ve-department-wedge](workflows/03-ve-department-wedge.md) | Department/team KB entry scope + deferred hierarchy/integration growth path | Buyer is nervous, large, or you want a manageable trust-building first bite |
+| 04 | [ve-portability-pitch](workflows/04-ve-portability-pitch.md) | Unshackle/AI-readiness pitch script + the 7-surface export menu as demo-able proof | Buyer questions lock-in or "why not just use ChatGPT" |
+| 05 | [ve-insight-harvest](workflows/05-ve-insight-harvest.md) | Cross-silo insight harvest as a named recurring deliverable (source silo → receiving silo → intelligence) | Client has data trapped in one department that another could use |
+| 06 | [ve-scaling-path](workflows/06-ve-scaling-path.md) | Markdown-first build spec + named Supabase migration gate + scrappy-connector plan | Scoping the substrate; deciding stack; a source has no API |
+| 07 | [ve-client-ui-layer](workflows/07-ve-client-ui-layer.md) | Branded clickable KB UI spec (markdown browser + graph-narrator) + the anti-slop voice charter | Delivery upgrade — abstracting the chat box, packaging as a product |
+| 08 | [ve-knowledge-work-positioning](workflows/08-ve-knowledge-work-positioning.md) | Positioning statement in the knowledge-work whitespace vs engineer-targeted tooling | Differentiating the offer / building the sales page or pitch |
+
+## Quick Reference
+- **Genius Context**: [genius.md](genius.md)
+- **Offer sequence**: 01 (audit) → 02 (sequence KB-first) → 03 (right-size) → deliver via 06 (scaling) + 07 (UI/voice) → grow via 05 (harvest) → all wrapped in 04 (portability) + 08 (positioning).
+- **Stacks with**: Simon Intellectual Library OS (build backbone: `/library-retrieval-audit`, `/library-brain-ladder`, `/library-ingest-triage`), Liam Mley AI Brain Builder (discovery + substrate install), April Dunford / Nicolas Cole (positioning), Oren anti-slop classifier + `prose_classifier.py` (voice charter enforcement).
+- **First-audit candidates**: Jen Santulan, Andrea/Resonance, Josh & Katie — real small-biz clients with messy context.
