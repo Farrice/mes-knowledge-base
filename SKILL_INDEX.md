@@ -7,6 +7,7 @@
 | Skill Slug | Expert Name | Domain/Keywords | Workflows | Legacy Prompts |
 |------------|-------------|-----------------|-----------|----------------|
 | `adam-enfroy-affiliate-marketing` | **Adam Enfroy — Affiliate Marketing** | 0 affiliate marketing system from adam enfroy, written-content-only strategy — no video required, affiliate marketing | 8 | 22 |
+| `adam-sandler-second-brain-gtm` | **Adam Sandler — Second-Brain GTM (The Viable Edge)** | sequence, second-brain gtm (the viable edge) | 8 | 0 |
 | `ai-carousel-content-engine` | **AI Carousel Content Engine** | social carousels, gpt image 2 prompts, content repurposing | 7 | 0 |
 | `ai-chris-lee-zero-testimonial-sales` | **AI Chris Lee — Zero Testimonial Sales Mastery** | for full ai consulting practice ops use andrew-dun-vibe-consulting, zero testimonial sales mastery | 4 | 23 |
 | `alan-aragon-nutrition` | **alan-aragon-nutrition** | evidence-based nutrition, body composition, flexible dieting | 3 | 0 |
@@ -139,7 +140,7 @@
 | `jason-fladlien-marketing` | **jason-fladlien-marketing** | high-status marketing × persuasion physics × incomparable offer engineering, don't add ten tactics), fear-first conversion (get them to run out of reasons to say no) | 31 | 26 |
 | `jay-hiette-coaching-positioning` | **jay-hiette-coaching-positioning** | contrarian message architecture ("people think x, which causes y, but the truth is z") | 3 | 0 |
 | `jen-santulan-listing-content` | **jen-santulan-listing-content** | real estate social media (la / san fernando valley specialist), user is producing instagram content for jen santulan's real-estate practice o..., specifically not for generic real-estate marketing — jen's voice (warm, enthu... | 3 | 0 |
-| `jenny-hoyos-shorts` | **jenny-hoyos-shorts** | immediate start, rising action, anticipation | 13 | 0 |
+| `jenny-hoyos-shorts` | **jenny-hoyos-shorts** | short-form viral storytelling, scripting youtube shorts / vertical video, engineering hooks, diagnosing rete..., immediate start | 13 | 0 |
 | `jeremy-haynes-cold-offer` | **jeremy-haynes-cold-offer** | and kept alive by objection-mined dynamic augmentation, use for offer builds, offer audits | 13 | 0 |
 | `jeremy-haynes-mindset-systems` | **Jeremy Haynes Mindset Systems** | mindset engineering systems for entrepreneurs — identity versioning, dynamic motivation, pain leverage | 3 | 7 |
 | `jeremy-miner-identity-persuasion` | **Jeremy Miner - Identity-Based Persuasion & Psychological Framing** | sales psychology, identity persuasion, behavioral influence | 11 | 14 |

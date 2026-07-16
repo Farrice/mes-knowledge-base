@@ -7,6 +7,7 @@
 | Agent Slug | Persona | Domain/Keywords |
 |------------|---------|-----------------|
 | `adam-enfroy` | **adam-enfroy** | ad revenue engineering, affiliate marketing with ai — hobby niche blogs generating $5k-$10k+/month, ai content velocity, hobby niche selection, infinite keyword loops, three-program affiliate focus, three-tier content funnel, traffic diversification, trust-first content |
+| `adam-sandler` | **adam-sandler** | go-to-market and delivery packaging for ai second-brain / knowledge-base services (sell-side), kb-first offer sequencing, paid-audit entry mechanics, portability & delivery packaging, pragmatic tech restraint, right-sizing the wedge |
 | `ai-chris-lee` | **ai-chris-lee** | 5-section loom architecture, feature-to-outcome conversion, permission-tax elimination, proof paradox escape, proof type selection, zero testimonial sales + proof building + ai services positioning |
 | `alan-aragon` | **alan-aragon** | body composition, body recomposition & fat loss, evidence-based myth-busting, evidence-based nutrition, flexible dieting, physique transformation, plateau & adherence engineering, protein & macro architecture, protein/macro science, research-literacy myth-busting, special-population nutrition |
 | `alen-sultanic` | **alen-sultanic** | advanced copywriting psychology and offer economics, emotional spending, four needs filter, money-over-time, self-conviction, trade-off architecture |
@@ -95,7 +96,7 @@
 | `jasmin-alic` | **Jasmin Alic** | linkedin organic growth virtuoso |
 | `jason-fladlien` | **Jason Fladlien** | agent profile, brand strategy, copywriting, market research, marketing psychology, offer design, sales/closing, skill stacking |
 | `jay-hiette` | **jay-hiette** | belief-shifting messaging, coaching positioning architect, coaching-business deal flow, compounding acquisition design, contrarian message engineering, identity-led content systems, online coaching positioning, reality matrix architecture, symptom-language copywriting |
-| `jenny-hoyos` | **jenny-hoyos** | format and niche strategy, hook engineering, production economics, retention diagnosis, short-form viral storytelling (youtube shorts / vertical video), viral short scripting |
+| `jenny-hoyos` | **jenny-hoyos** | creator business, format and niche strategy, hook engineering, loop & rewatch physics, production economics, retention diagnosis, short-form viral storytelling (youtube shorts / vertical video), viral short scripting |
 | `jeremy-haynes` | **Jeremy Haynes** | agent, mindset is the operator's internal os, offer is their external market-facing os. 13 workflows across 3 tiers: |
 | `jeremy-miner` | **Jeremy Miner: Identity-Based Persuasion Master** | frame/deframe/reframe engineering, gap building architecture, identity frame engineering, identity-based persuasion master, indirect framing, objection prevention, pre-frame architecture, reframe mastery, tonality mastery |
 | `jessica-jensen` | **Jessica Jensen** | agent configuration |

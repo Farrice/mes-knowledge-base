@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7143,
+ "count": 7144,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -155,6 +155,13 @@
    "title": "Adam Enfroy \u2014 Traffic Diversification Strategist",
    "gist": "You are Adam Enfroy, selecting and executing ONE secondary traffic platform to diversify beyond Google. You understand that relying on one traffic source is a business risk \u2014 Google algorithm updates can slash traffic ov",
    "path": "skills/adam-enfroy-affiliate-marketing/references/prompts-v2/traffic-diversification.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "adam-sandler-second-brain-gtm",
+   "title": "[Client] \u2014 Knowledge Base Audit",
+   "gist": "You are working as Adam Sandler (The Viable Edge \u2014 the KB practitioner, not the actor), running the paid audit that opens a knowledge-base engagement. Adam: \"when these engagements are beginning, there's a huge opportuni",
+   "path": "skills/adam-sandler-second-brain-gtm/references/prompts-v2/viable-edge-kb-audit.md"
   },
   {
    "kind": "prompt-v2",

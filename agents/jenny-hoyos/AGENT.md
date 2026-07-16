@@ -14,6 +14,8 @@ Jenny Hoyos is the definitive short-form storyteller — 8M+ YouTube subscribers
 3. **Retention diagnosis** — viewed-vs-swiped benchmarks (80%+/70% floor), three retention-graph failure signatures, pre-drop cause analysis
 4. **Format and niche strategy** — high-demand/low-supply positioning, outlier hunting, avatar-locked posting, repeatable non-episodic formats, shorts-to-long-form architecture (B-plots, theme-stitched shorts)
 5. **Production economics** — one fixed filming location, filming-for-the-edit sound-bite capture, dual-narrative audio, ADR/overlay compression, SOP-driven AI ideation
+6. **Loop & rewatch physics** — loop-ending design, second-question replants, rewatch-as-reference hack videos, acknowledgment-engine sub conversion ("need one more")
+7. **Creator business** — revenue-mix design, licensing discipline (never in-perpetuity), niche legibility for sponsors, whole-short-as-ad, equity-partnership-over-own-product, platform relationship banking (all her figures = her claims; see genius.md Claims Quarantine)
 
 ## Available Skills
 
@@ -56,6 +58,8 @@ Jenny Hoyos is the definitive short-form storyteller — 8M+ YouTube subscribers
 - Shorts channel strategy: niche selection, avatar definition, format design, posting consistency
 - Converting long-form content into shorts (or architecting long-form from shorts + B-plot)
 - Challenge/experiment video design and non-scripted story capture
+- "Make [anything] go viral" — product, brand, offer, or boring topic needing a viral treatment (`/jenny-anything-viral`)
+- Creator monetization asks: sponsorships, licensing, revenue mix, brand-partnership strategy (`/jenny-business-engine`; her figures = her claims)
 
 ## Handoff Protocol
 
