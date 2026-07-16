@@ -87,10 +87,24 @@ The AIOS must be accessible conversationally from a phone — not just from an I
 
 ---
 
+## The Second-Brain Substrate Bridge (Kieran Flanagan)
+
+The Context Layer (Workflow 02) is a rich *static* BRAIN.md. It becomes an *asset that compounds* only when it ingests, enriches, and gets smarter with use. Kieran Flanagan's second-brain build is the substrate that makes it live — and it stacks cleanly under liam-mley's discovery.
+
+**The install = Business DNA → writing logic → Simon substrate.** Kieran's 5 building blocks:
+1. **Vault** — a folder of plain-text/Markdown files ("that's where your knowledge lives and that's what the AI system is writing to").
+2. **An AI that can read it** — Claude Code / Codex / Claude project on an existing folder ("Create a new project → use an existing folder you already work from").
+3. **Two folders** — `raw/` (store) + `wiki/` (AI-written intelligence). = Simon's substrate; add `outputs/` for the loop.
+4. **The writing logic (THE customization surface)** — "What do you want the AI to look for in all those files?" The 5 default signals (verbatim): **blockers · updated experiments · decisions made · places people struggle to hit goals · clear articulations of opportunity that can accelerate the business.** Each becomes a typed folder (`<project>/<type>/*.md`) with a metadata contract (blocker → owner/age/severity/next; decision → decision/reasoning/dependants/date). **Tune the signals to the Business DNA** — that tuning IS the bespoke value; the 8-dimension discovery already surfaces it.
+5. **Connectors + the habit** — Slack/Docs auto-ingest + a scheduled/ritual ingest trigger ("get into the habit of continually updating it cuz it gets better the more that you use it"). The habit is the retention mechanism, not optional.
+
+**Why it matters for founders**: a static Context Layer that never ingests is the exact "storage, not a brain" failure Kieran rejects ("most people are connecting to Claude or OpenAI and starting from scratch each and every time"). The substrate is what turns the AIOS Context Layer from a document into the compounding asset the whole 5-layer promise rests on. → Workflow 05; team/company tiers via Simon's `/library-brain-ladder`; pre-sale audit of a prospect's setup via `/library-retrieval-audit`.
+
 ## Skill Stacking Reference
 
 | Expert | What They Add to AI Brain Builds |
 |--------|----------------------------------|
+| **Simon (Intellectual Library OS)** | The self-improving raw/wiki substrate + ingest triage + brain ladder that makes the Context Layer compound (Workflow 05) |
 | **Nick Saraev** | Self-Annealing automations, DO Framework for objective clarity |
 | **Nate B Jones** | Intent documents for context layer quality, disambiguation loops |
 | **Paul James** | Productizing the AI Brain service, pricing, recurring revenue |

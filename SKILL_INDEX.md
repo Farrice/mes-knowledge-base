@@ -183,7 +183,7 @@
 | `lara-acosta-content-system` | **Lara Acosta: Tech Founder Content System** | a framework mapping technical knowledge and saas building into a viral, story-driven linkedin content matrix, tech founder content system | 4 | 4 |
 | `lara-acosta-linkedin-growth` | **Lara Acosta — LinkedIn Audience Mastery** | master-level b2b personal branding on linkedin, linkedin audience mastery | 6 | 3 |
 | `lara-acosta-linkedin-mastery` | **Lara Acosta - LinkedIn Content Mastery** | lara acosta's linkedin personal brand system — content engine, ghostwriting voice scaling, $1m revenue bridge | 9 | 17 |
-| `liam-mley-ai-brain-builder` | **Liam Mley — AI Brain Builder** | build a complete ai operating system for any business — from discovery to dep..., ai brain builder | 4 | 0 |
+| `liam-mley-ai-brain-builder` | **Liam Mley — AI Brain Builder** | build a complete ai operating system for any business — from discovery to dep..., ai brain builder | 5 | 0 |
 | `liam-ottley-linkedin-lead-magnet` | **Liam Ottley - LinkedIn AI Lead Magnet System** | strategic arbitrage, post structures, offer bridge | 1 | 0 |
 | `lindsay-ai-consulting` | **Lindsay — AI Consulting Sales Mastery** | complete client acquisition system for ai automation consultants from lindsay..., ai consulting sales mastery | 3 | 7 |
 | `linkedin-2026-format-arbitrage` | **LinkedIn 2026 Format Arbitrage** | niche bending and 2026 format arbitrage for linkedin | 2 | 5 |
@@ -325,7 +325,7 @@
 | `shan-hanif-audience-monetization` | **Shan Hanif: Audience Monetization** | turn unqualified linkedin leads into a high-profit digital product backend wh..., audience monetization | 2 | 4 |
 | `sharran-srivatsaa-scaling` | **sharran-srivatsaa-scaling** | business scaling, decision-making, constraint theory | 7 | 0 |
 | `sherwin-wu-ai-engineering` | **Sherwin Wu: AI Engineering Leadership** | platform-level ai engineering strategy, agent fleet management, deployment diagnostics | 4 | 7 |
-| `simon-intellectual-library-os` | **Simon (Better Creating) — Intellectual Library OS (Grounded Advisors & Self-Improving Knowledge Bases)** | core inversion: the ai is the librarian, humans only capture and curate, intellectual library os | 12 | 0 |
+| `simon-intellectual-library-os` | **Simon (Better Creating) — Intellectual Library OS (Grounded Advisors & Self-Improving Knowledge Bases)** | core inversion: the ai is the librarian, humans only capture and curate, intellectual library os | 15 | 0 |
 | `skill-creator` | **skill-creator** | guide for creating effective skills | 1 | 0 |
 | `sky-tan-format-engine` | **Sky Tan - Format Engine** | core thesis: formats get views, expertise gets sales, format engine | 12 | 0 |
 | `slack-gif-creator` | **slack-gif-creator** | knowledge and utilities for creating animated gifs optimized for slack, provides constraints, validation tools, and animation concepts | 0 | 0 |

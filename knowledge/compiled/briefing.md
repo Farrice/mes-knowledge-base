@@ -1,29 +1,29 @@
 # Knowledge Briefing
-*Generated: 2026-07-15 | 631 sources | 2,596,788 words*
+*Generated: 2026-07-16 | 634 sources | 2,610,828 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **assembly-rubric** (strategy) — 45 words — `knowledge/assembly-rubric.md`
+- **assembly-rubric** (strategy) — 101 words — `knowledge/assembly-rubric.md`
 - **2026-07-15-competitive-sailing-rigging-optimization-for-a-3** (strategy) — 944 words — `knowledge/assembly-sessions/2026-07-15-competitive-sailing-rigging-optimization-for-a-3.md`
-- **index** (content) — 4,324 words — `knowledge/index.md`
-- **log** (general) — 11,879 words — `knowledge/log.md`
+- **2026-07-16-pressure-test-whether-farrice-cain-should-pivot** (strategy [april-dunford]) — 1,565 words — `knowledge/assembly-sessions/2026-07-16-pressure-test-whether-farrice-cain-should-pivot.md`
+- **index** (content) — 4,448 words — `knowledge/index.md`
+- **log** (general) — 11,929 words — `knowledge/log.md`
 - **pricing-psychology-for-handmade-goods-sellers-corpus** (research) — 1,441 words — `extractions/grounding/pricing-psychology-for-handmade-goods-sellers-corpus.md`
-- **sober-daytime-event-marketing-corpus** (strategy) — 1,555 words — `extractions/grounding/sober-daytime-event-marketing-corpus.md`
-- **enrichment-cold-offer-corpus** (copywriting) — 1,297 words — `extractions/jeremy-haynes/enrichment-cold-offer-corpus.md`
-- **extraction-report-cold-offer** (content) — 3,888 words — `extractions/jeremy-haynes/extraction-report-cold-offer.md`
-- **visual-context** (content) — 15,631 words — `extractions/jeremy-haynes/visual-context.md`
-- **blind-pass-generated-offer-stack** (content [nicolas-cole]) — 952 words — `extractions/jeremy-haynes-cold-offer/blind-pass-generated-offer-stack.md`
+- **extraction-notes** (strategy [kieran-flanagan]) — 3,028 words — `extractions/kieran-flanagan-second-brain/extraction-notes.md`
+- **visual-context** (content [kieran-flanagan]) — 9,217 words — `extractions/kieran-flanagan-second-brain/visual-context.md`
+- **blind-pass-candidate-driver-diagnostic** (brand [oren-john]) — 1,298 words — `extractions/oren-identity-brand-os/blind-pass-candidate-driver-diagnostic.md`
+- **blind-pass-log** (brand [oren-john]) — 90 words — `extractions/oren-identity-brand-os/blind-pass-log.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 206 | nicolas-cole |
+| content | 207 | nicolas-cole |
 | copywriting | 96 | luke-iha |
 | general | 83 | nick-saraev |
-| strategy | 61 | april-dunford |
+| strategy | 63 | april-dunford |
 | brand | 48 | oren-john |
 | screenwriting | 47 | connelly |
 | systems | 33 | nick-saraev |

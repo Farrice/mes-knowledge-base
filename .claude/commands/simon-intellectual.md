@@ -1,5 +1,5 @@
 ---
-description: "Knowledge architecture from the builder of Agent OS (Notion) and Cowork OS (Claude) — the layer that governs how extracted knowledge is STORED, ORGANIZED, MADE GLANCEABLE, and KEPT SELF-IMPROVING. Core inversion: the AI is the librarian; humans only capture and curate. 15 geni..."
+description: "Knowledge architecture from the builder of Agent OS (Notion) and Cowork OS (Claude) — the layer that governs how extracted knowledge is STORED, ORGANIZED, MADE GLANCEABLE, and KEPT SELF-IMPROVING. Core inversion: the AI is the librarian; humans only capture and curate. 18 geni..."
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 

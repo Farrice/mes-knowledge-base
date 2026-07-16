@@ -51,6 +51,31 @@ Scale rule: no RAG, no vector store, no plugins below ~100 articles / ~400k word
 1. Contradictions between entries · 2. Broken backlinks / orphaned references · 3. Source provenance (unsourced claims) · 4. Raw coverage (unprocessed items) · 5. Stale entries (>90 days, no longer relevant) · 6. Writing-rule violations (anti-AI style) · 7. **Suggested new entries + undrawn connections — "this is probably where the real value is."**
 Two phases: report first, then action menu. Run monthly per KB; stagger KBs across days for cost.
 
+## Second-Brain Expansion (Kieran Flanagan — "You Need a Second Brain," 2026)
+
+Three net-new patterns layered onto the Simon substrate. Same conviction (AI is the librarian; retrieval + evolution beat storage + search), sharpened at three points Simon's original didn't name.
+
+### The Brain Ladder (personal → team → company)
+A second brain is not one artifact — it is three graduated tiers, and the unsolved frontier is the boundary logic between them. Kieran: "the hard thing that no one has figured out... is how do you build a system that easily helps you navigate between your personal brain, your team brain, and your company brain." Each tier changes three variables:
+- **Personal** — access: you only · formality: fast, Untested OK · contribution: dump freely. "Mapped to all of the work that you do."
+- **Team** — access: colleagues read+write · formality: shared schema, dup/conflict handling · contribution: co-authored (source per entry matters). "as applicable to your colleague as they are to you."
+- **Company** — access: gated · formality: curated, provenance-clean · contribution: promotion-only. The **moat**: "how companies will likely differentiate themselves... their raw intelligence... that no one else has is really their asset."
+**Sequencing law**: "start with my personal brain," prove the loop, then graduate. Never architect team/company first. The net-new object is the **promote/inherit protocol**: what graduates up (validated, non-private, durable), what only inherits down (lower tiers READ higher tiers, never write). Company tier hands to liam-mley (it IS an AIOS Context Layer + contribution governance). → `/library-brain-ladder`.
+
+### Confidence-Gated Ingest Triage (the review lane)
+Ingest is not a silent auto-write — it is a triaged review lane. The model proposes; **confidence routes each proposal into a lane**; the human only accepts / re-routes / skips. From the demo ("Cortex"):
+- **Lanes**: Recommended (≥85, one-click accept — badges `HIGH · 92%`) / Needs Review (55-84, human reads the diff) / Skipped (<55 or no clean target — logged, never lost).
+- **Every card is TYPED** with a metadata contract, written to a per-project **typed folder** (`<project>/<type>/<slug>.md`): blocker (`ai-sdr/blockers/randomisation-audit-sales-approval.md`) → owner · age · severity · next; decision (`ai-sdr/decisions/*.md`) → decision · reasoning · dependants · date; experiment → status · result · what-it-updates; priority → why-now · depends-on · suggested-action.
+- Controls: Skip · Edit routing · Accept. This is the deterministic gate that prevents the silent-write decay ("the AI writes something slightly wrong, you save it back, the next answer quietly builds on a mistake"). → `/library-ingest-triage`.
+
+### Retrieval-vs-Storage Diagnostic (the compounding test)
+A sell-side instrument scoring any existing/prospective "second brain" on four axes — separating storage+search ("a filing cabinet with a chatbot") from retrieval+evolution ("a brain that compounds"):
+1. **Connection** (surfaces links you'd never make) — maps to health-check stage 7 · 2. **Contradiction** (flags conflicts) — stage 1 · 3. **Freshness** (tracked on every source, up to date daily) — stage 5 + ingest freshness pass · 4. **Provenance** (where every idea originated) — 6-property Source + stage 3.
+Score 0-2 each; run the **graph-retrieval test** (a knowledge-graph-ranked priority view with **Brief me / Pre-mortem** query buttons and priority cards carrying WHY NOW / DEPENDS ON / SUGGESTED ACTION) — storage-only systems can't produce it. Distinct from `/library-health-check` (that audits YOUR KB for maintenance; this audits SOMEONE ELSE's for sale). Each failing axis routes to its fix workflow (gap = scope). The sell-side one-liner (closing slide, verbatim): **"The gap widens every week. The people building these systems now create an asset that compounds daily. Everyone else starts from zero every time they open a new chat window."** → `/library-retrieval-audit`.
+
+### Why-now framing (Kieran's market wedge)
+Karpathy's LLM-wiki post ("20 million views," set off "the number one craze in AI") = the detonator. Dalio's 1980s decision journal (a "$150 billion fund," decades of manual effort) = the elite precedent gated by maintenance cost. Forte's 500k-copy *Building a Second Brain*, retrofitted to AI = latent demand. **The unlock**: "AI has removed the maintenance to ingest and enrich and keep track" — what was a fund's luxury is now a solo default. The enemy: "most people are connecting to Claude or OpenAI and starting from scratch each and every time."
+
 ## Decision Framework (his reflexive order of operations)
 
 1. **Plan-lock before build** — "let's make a plan for what that will be"; build only after the plan is agreed.

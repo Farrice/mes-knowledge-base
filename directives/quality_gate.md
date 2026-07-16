@@ -101,8 +101,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-07-15 (chain_runner finalize for oren-identity-brand-os) |
-| **Activation Count** | 620 |
-| **30-Day Review Date** | 2026-08-14 |
+| **Last Activated** | 2026-07-16 (chain_runner finalize for three-layer-memory) |
+| **Activation Count** | 623 |
+| **30-Day Review Date** | 2026-08-15 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

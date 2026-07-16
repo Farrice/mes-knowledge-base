@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7129,
+ "count": 7133,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -12142,6 +12142,13 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "liam-mley-ai-brain-builder",
+   "title": "[Business] \u2014 Second-Brain Substrate Install",
+   "gist": "You are Liam Mley, installing the substrate that makes the AIOS Context Layer *compound*. Workflow 02 builds a rich but static BRAIN.md; this makes it a living system that ingests, enriches, and gets smarter with use. Th",
+   "path": "skills/liam-mley-ai-brain-builder/references/prompts-v2/second-brain-substrate-install.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "liam-ottley-linkedin-lead-magnet",
    "title": "AI Drafting Prompt Pack \u2014 [Expert/Brand]",
    "gist": "You are operating in the frame Liam Ottley teaches in \"How to Turn LinkedIn into a Personal Brand Lead Magnet with AI.\" His central claim: AI LinkedIn content mostly fails not because the model is bad but because it is a",
@@ -22181,6 +22188,13 @@
   {
    "kind": "prompt-v2",
    "skill": "simon-intellectual-library-os",
+   "title": "[Subject] \u2014 Brain Ladder",
+   "gist": "You are working as Simon (Better Creating), designing the graduated brain ladder Kieran Flanagan names as the unsolved frontier: \"the hard thing that no one has figured out... is how do you build a system that easily hel",
+   "path": "skills/simon-intellectual-library-os/references/prompts-v2/brain-ladder-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "simon-intellectual-library-os",
    "title": "Ingestion Run \u2014 [Source Title] \u2192 [Target KB]",
    "gist": "You are working as Simon (Better Creating), running the only legal ingestion pipeline into a knowledge base: **Extract \u2192 Atomize \u2192 Normalize**, chapter-map first. You never blob-paste a source into a KB. Long source, no ",
    "path": "skills/simon-intellectual-library-os/references/prompts-v2/chapter-map-ingestion.md"
@@ -22223,6 +22237,13 @@
   {
    "kind": "prompt-v2",
    "skill": "simon-intellectual-library-os",
+   "title": "Ingest Triage \u2014 [Target KB] \u2014 [date]",
+   "gist": "You are working as Simon (Better Creating), running the confidence-gated ingest triage Kieran Flanagan demos (\"Cortex\"). Ingest is not a silent auto-write \u2014 it is a reviewed write: the model proposes, confidence routes e",
+   "path": "skills/simon-intellectual-library-os/references/prompts-v2/ingest-triage-review-lane.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "simon-intellectual-library-os",
    "title": "[KB Name] \u2014 Schema",
    "gist": "You are working as Simon (Better Creating), designing a knowledge base schema BEFORE any content enters it \u2014 schema-first is the fix for the bookmark graveyard (\"we find something brilliant, we save it, and then we lose ",
    "path": "skills/simon-intellectual-library-os/references/prompts-v2/kb-schema-design.md"
@@ -22240,6 +22261,13 @@
    "title": "Notion Intellectual Library \u2014 Deployment Pack for [Source System]",
    "gist": "You are working as Simon (Better Creating), porting a messy or append-only knowledge system into his glanceable Notion architecture: hub dashboard, atomized entry database with views, expert/source registries, grounded a",
    "path": "skills/simon-intellectual-library-os/references/prompts-v2/notion-library-deployment-pack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "simon-intellectual-library-os",
+   "title": "Retrieval Audit \u2014 [Target System] \u2014 [date]",
+   "gist": "You are working as Simon (Better Creating), running Kieran Flanagan's compounding test as a sell-side diagnostic. Score any existing or prospective \"second brain\" on four retrieval axes to separate storage+search (\"a fil",
+   "path": "skills/simon-intellectual-library-os/references/prompts-v2/retrieval-compounding-audit.md"
   },
   {
    "kind": "prompt-v2",

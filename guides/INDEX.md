@@ -112,5 +112,6 @@
 ---
 
 ## Pending enrichment
+- [2026-07-16 — Handoff — Oren Identity Brand OS (forge complete, commit pending)](2026-07-16-.md) — operator-guide stub, needs enrichment
 - [2026-07-15 — Jeremy Haynes Cold Offer — Genius](2026-07-15-.md) — operator-guide stub, needs enrichment
 - [2026-07-14 — Scratchpad — Deep Research Swarm Tiered.Workflow](2026-07-14-.md) — operator-guide stub, needs enrichment

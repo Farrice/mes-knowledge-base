@@ -71,6 +71,17 @@ This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and
 
 > These sections set the quality ceiling for all output. The Context Engine loads them at Tier 1+ automatically.
 
+## Expansion Note — Second Brains (2026-07-16, 2nd source)
+
+Second source extracted: **"If You Use AI for Work, You Need a Second Brain"** (Marketing Against the Grain, 20:24, [nTiMbqFwv4c](https://www.youtube.com/watch?v=nTiMbqFwv4c)). Adds a **domain above content ops** — personal AI operating systems / self-improving knowledge bases as work infrastructure.
+
+This material did NOT land in the three `kieran-flanagan-*` content skills — it stacks onto the knowledge-architecture experts, where it belongs:
+- **`simon-intellectual-library-os`** — 3 net-new workflows: `/library-brain-ladder` (personal→team→company tiers + promote/inherit protocol), `/library-ingest-triage` (confidence-gated Recommended/Needs-Review/Skipped review lane, typed cards), `/library-retrieval-audit` (sell-side connection/contradiction/freshness/provenance compounding test). Enriched genius.md §Second-Brain Expansion.
+- **`liam-mley-ai-brain-builder`** — Workflow 05 `05-second-brain-substrate-install` (Business DNA → Kieran's writing-logic recipe → Simon substrate = the sellable business install).
+- Extraction notes: `extractions/kieran-flanagan-second-brain/extraction-notes.md`.
+
+Kieran's second-brain thesis in one line (verbatim): "The people building these systems now create an asset that compounds daily. Everyone else starts from zero every time they open a new chat window." Route second-brain / knowledge-architecture requests to the Simon + liam-mley skills above, not the content skills.
+
 ## Memory Reference
 
 This agent's persistent context is stored in `memory/context.md`. Update it when:
