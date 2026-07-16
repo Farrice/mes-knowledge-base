@@ -101,6 +101,22 @@ Oren is a Creative Strategist and Taste Development Authority who built hundreds
 | `oren-claude-operator-legend` | Positioning + organizational armor as "the Claude operator" |
 | `oren-six-skill-activation` | Sequence all 6 Oren strategy skills into the AI-execution layer |
 
+### Skill 6: `oren-identity-brand-os` (Identity-First Brand Marketing — Zero → Cult Following → 1,000 True Fans → Scale)
+
+**Route here for**: Building a public identity BEFORE any archetype/content decision; diagnosing which of the **Five Identity Drivers** (Belonging / Better-than-the-others / Rebel / Standout / Subculture-pride — consumer-side self-association motives, NOT the Oracle/Performer/etc. content archetypes) a brand activates per segment; engineering true-fan density (tribe, chapters, homie lookbooks, third-space hosting); auditing visual signature; split-testing aspiration avatars; and gating every play through the mirror-test ethics check. Thin orchestration — routes archetype selection, repositioning, team scaling, luxury positioning, and taste QC out to Skills 1–5 + `oren-brand-archetypes`. AI-clone / identity-capture is out of scope (route to `oren-brand-voice-machine`).
+
+| Prompt | Use Case |
+|--------|----------|
+| `identity-brand-os` | Founder intake → stage diagnosis (zero/launching/scaling) → routed mission plan (front door) |
+| `identity-zero-point` | Excavate a public identity from origin/place/obsessions/weak points before any archetype decision |
+| `identity-driver-diagnostic` | Diagnose primary + secondary Identity Driver per segment, with receipts |
+| `true-fan-density-engine` | 1,000-true-fans protocol: tribe, chapters, homie-lookbook proof loop, third-space host, depth-over-reach |
+| `signature-design-audit` | Colorway/form/pattern/tag/iconography menu + color ownership + logo-vs-subtlety axis |
+| `persona-reality-audit` | Actual-vs-imagined buyer gap; wrong-person diagnosis before any targeting decision |
+| `aspiration-gap-split-test` | See-myself vs see-aspiration avatar test + split-audience landing-page routing |
+| `identity-control-strategy` | Top-down (Stussy) vs bottom-up (Lo Life) tribe-control fork + mirror-test gate |
+| `identity-scale-router` | Scale thresholds + handoff map into content-team / luxury / build-bos / one-person-ai-marketer |
+
 ---
 
 ## When to Invoke This Agent
