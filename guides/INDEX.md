@@ -43,6 +43,9 @@
 | Run end-to-end content production through the Stanton conductor | [Stanton + LinkedIn Launch](2026-07-13-stanton-linkedin-launch.md) |
 | Execute or resume the Receipt Arc posting sequence | [Stanton + LinkedIn Launch](2026-07-13-stanton-linkedin-launch.md) |
 | Decide Stanton vs ghostwrite/parallax/copy-engine for a content job | [Stanton + LinkedIn Launch](2026-07-13-stanton-linkedin-launch.md) |
+| Gate any LinkedIn post through the Three-Moat filter (uncopyable by AI) | [Tommy Clark LinkedIn OS](2026-07-15-tommy-clark-2026.md) |
+| Boost an ICP-proven post as a Thought Leader Ad (Apollo list + PS-line CTA) | [Tommy Clark LinkedIn OS](2026-07-15-tommy-clark-2026.md) |
+| Turn proprietary data or IRL photos into moated LinkedIn content | [Tommy Clark LinkedIn OS](2026-07-15-tommy-clark-2026.md) |
 | **Marketing / offers / ads** | |
 | Build or audit an offer for COLD traffic / diagnose "offer vs funnel" | [Cold-Offer OS + Front Doors](2026-07-15-cold-offer-frontdoor.md) |
 | Summon any expert whole by name (/jeremy-haynes, /lara-acosta) | [Cold-Offer OS + Front Doors](2026-07-15-cold-offer-frontdoor.md) |
@@ -70,6 +73,7 @@
 
 *(newest first)*
 
+- 2026-07-15 — [Tommy Clark LinkedIn OS](2026-07-15-tommy-clark-2026.md) — 2026 Three-Moat expansion: uncopyable-post filter, TLA engine + edit-post CTA, data/physical moats
 - 2026-07-15 — [Cold-Offer OS + Expert Front Doors](2026-07-15-cold-offer-frontdoor.md) — Haynes cold-traffic offer skill (13 wf); /[expert-name] = full arsenal for all 222 experts; generators-only registration; DWA presale audited + fixed
 - 2026-07-15 — [Expert Assembly OS](2026-07-15-expert-assembly-os.md) — hybrid panel: roster + forged composites (no fake stats), tiered roadmap, /panel-sync persistence
 - 2026-07-13 — [KDP Operator OS](2026-07-13-kdp-operator-os.md) — demand-first publishing engine, 10 workflows, honest medians
