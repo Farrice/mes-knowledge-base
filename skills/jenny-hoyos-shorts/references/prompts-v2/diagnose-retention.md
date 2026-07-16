@@ -22,6 +22,9 @@ You are running Jenny Hoyos' analytics triage on a short that underperformed —
 
 ## Execution Protocol
 
+### Phase 0 — Hard-Stuck Screen (channel-wide, before single-video triage)
+- If the symptom is *every* recent video plateauing at the same low ceiling (e.g. ~100 views each), diagnose the channel before the upload. Two Hoyos rules: (1) **same avatar** — don't change your niche unless you mean to; videos that each target a different audience leave YouTube with nobody to send them to ("who am I supposed to send this out to?"). Confirm every recent post appeals to the same viewer. (2) **Sample size before verdict** — she wouldn't call a format dead until at least 20, maybe 100, videos have targeted that same audience; below that, "it's not working" is premature. Only once the channel is avatar-consistent and past the sample floor do you run the per-video order below.
+
 ### Phase 1 — Hook Verdict (Viewed-vs-Swiped)
 - Apply the benchmarks exactly: ≥80% = strong hook (85%+ = mega-viral territory); 70-80% = passable; below 70% = the hook is the confirmed primary failure.
 - If the hook fails: stop the deep-dive here. State the diagnosis and note that the fix routes to hook engineering rather than a body/retention rewrite. Still record any secondary issues that are visible, but the hook is fixed first — do not proceed to full graph triage as if it were the main problem.
@@ -32,7 +35,8 @@ Classify the retention curve into exactly one of Jenny's three failure types (na
 - **A. Early exodus** — a big loss in the first seconds beyond what swipe data already explains: topic/avatar mismatch, or the video didn't immediately start (a context preamble crept in). Check whether recent uploads broke avatar consistency — algorithm is audience; mixed-niche posting sends the video to nobody in particular.
 - **B. Point drops** — one or more distinct cliffs. For each cliff, scrub 2-5 seconds *before* the drop and name the actual trigger there, not at the drop itself. Check specifically for: conclusional language ("finally"), dread language ("this is going to take a while"), the answer/payoff leaking early, a confusing too-fast passage, or a promise-payoff mismatch. If two cliffs exist, test whether they share one cause alluded to twice.
 - **C. Slow slope** — no cliffs, just steady decay: a progression failure. The viewer can't feel the end approaching. Check for: a missing progression mechanism (no timer/checklist/counter), "and then" linear beats with no but/so conflict, uniform pacing (no fast open, no slow-suspense reveal), or audio that merely describes visible action instead of running dual narrative.
-- Verify the length-adjusted retention floor: videos under 60s should hold roughly 100%+; videos over 30s should hold at least roughly 90%. Flag if the video falls short of its length-adjusted floor even without a dramatic cliff.
+- Verify against Hoyos' **retention benchmarks by length** (her targets, self-reported, not externally measured): sub-30s videos should exceed **100%** (over-100 = rewatch, the goal), never below a **95%** floor; ~45s videos should hold **95-100%**; 60s videos should aim for **100% in the first million views**. Flag any video short of its length band even absent a dramatic cliff.
+- **Loop/rewatch check**: if retention reads *above* 100%, that's rewatch, not a bug — verify the ending loops (flows back into the hook) or plants a second unanswered question forcing replay. If a strong video is stuck *at* 100% and you want the over-100 lift, the missing lever is usually loop-ending design — name that as the fix, not a hook or progression problem.
 
 ### Phase 3 — Prescribe Fixes
 - For each confirmed failure, write the fix in Hoyos terms with an exact timestamp — concrete rewrites and edits, not abstract advice. Example shape: "0:19 — replace 'and then we add the sauce' with a conflict beat ('but the sauce is way too thick, so...')"; "0:00-0:08 — add ingredient checklist overlay"; "0:33 — cut 'finally'; hold the reveal 3 more seconds in slow-mo."
@@ -51,6 +55,8 @@ Deliver, in order:
 ## Output Skeleton
 
 ```
+HARD-STUCK SCREEN (if whole channel plateaus): avatar-consistent [yes/no] | past 20-100 video sample floor [yes/no] -> [proceed to per-video triage | fix channel first]
+
 HOOK VERDICT: [PASS >=80% | PASSABLE 70-80% | FAIL <70%]  ([X]% viewed-vs-swiped)
 Reason: [one line]
 [If FAIL: stop here on body analysis -- route to hook engineering]
@@ -76,7 +82,9 @@ Metric to watch on next upload: [named metric]
 
 ## Quality Gate
 
+- [ ] Hard-stuck screen run first when the whole channel plateaus (avatar consistency + 20-100 video sample floor) before single-video triage
 - [ ] Hook judged solely on viewed-vs-swiped before any body analysis begins
+- [ ] Retention scored against her length benchmarks (sub-30s >100%/floor 95%; 45s 95-100%; 60s aim 100% first million); above-100% read as rewatch and traced to loop-ending design, not flagged as error
 - [ ] Every point-drop cause is identified from *before* the drop, never at it
 - [ ] Graph is classified into exactly one primary signature (A/B/C), with a named secondary only if genuinely present
 - [ ] Every fix is timestamped and written as an in-line rewrite, not described abstractly

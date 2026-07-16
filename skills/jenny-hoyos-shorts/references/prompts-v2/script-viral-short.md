@@ -26,6 +26,7 @@ You are scripting a YouTube Short / vertical video the way Jenny Hoyos does — 
 - Restate the idea as a question. Test it against Jenny's strongest question-shaped formats: "Is it possible to ___?", "What happens if ___?", "What tier is ___?", or an equivalent open question a stranger would genuinely want answered. If it can't be phrased this way, sharpen or replace it — no curiosity gap means no video.
 - Run the you-before-me check: does the idea revolve around the viewer's value (their fears, dreams, curiosity) rather than the creator's experience? Reword until the viewer's payoff leads the frame, not the creator's story.
 - Check beat count: can the answer be reached in roughly five beats and one continuous moment (A→B→C, not a compressed movie)? If not, propose the split — a series of standalone shorts, or a long-form video with a B-plot — before proceeding to script.
+- If the idea is a **challenge**, shrink it to the smallest resolvable problem. A challenge is just any problem you want to resolve — the smallest one works so long as it has a visual hook at the start, progression throughout, and twists. The best short-form challenges span ~10 minutes of real time (an hour max), never days; a multi-day idea can't compress to three sentences per day without summary-speak — route it to long-form, never a shorts series.
 - Check demand/supply: flag if this idea competes head-on with A++ creators in a saturated lane (niche math: a B-level creator in a C-level niche beats an A-level creator fighting the giants), and suggest the niche-down twist if so.
 
 ### Phase 2 — Build the VIRAL Skeleton
@@ -34,14 +35,16 @@ Storyboard all five letters as five boxes before writing a single line of script
 - **I — Immediate start**: write line 1 so the video opens within ~2 seconds of peak action, with zero context, motivation setup, or preamble — unlike a movie, a short does not earn its opening.
 - **R — Rising action**: state the question/problem and the reason to care (stakes, time pressure, fear, dream) in one breath.
 - **A — Anticipation**: lay out 2-4 but/so beats. Every connective is "but" (conflict/surprise) or "so" (consequence) — zero "and then." Progression must be constant but non-linear; the viewer should never be able to predict the next beat. Drip hints and partial reveals — never the answer early.
-- **L — Lasting payoff**: write the ending so the answer to the opening question is the literal final word spoken (ask "what's 2+2?" and the last word of the video is "four"). Any CTA is placed *before* the answer — viewers leave the instant they hear it, so nothing viewer-facing follows the payoff.
+- **L — Lasting payoff + loop-ending**: write the ending so the answer to the opening question is the literal final word spoken (ask "what's 2+2?" and the last word of the video is "four"); any CTA is placed *before* the answer, since viewers leave the instant they hear it. Then engineer the loop — a short doesn't end, it re-plays: storyboard the last 2 seconds against the first 2 so the tail either flows seamlessly back into the hook OR plants a fresh unanswered question ("wait, but what about ___?") that resolves only on replay. A rewatch is how a sub-30s video breaks 100% retention. Cold-opening the ending is the fallback when a clean loop is impossible.
 
 ### Phase 3 — Production Layer
 - Choose one visible progression mechanism matched to the format (on-screen timer, checklist with checkmarks, method counter, first/second/third language) and note exactly where it appears on screen and from what timestamp. A slow continuous slope on the retention graph is the signature of a missing mechanism.
+- Hold the runtime to the channel's standard band (Hoyos claims a 35-45s sweet spot). The scroll is a rhythm; a length that deviates wildly from what the audience is used to (a 15s or 90s outlier) breaks the feed cadence and, she believes, suppresses the algorithmic push to that viewer. Treat any off-band length as a rhythm break requiring justification.
 - Mark pacing as a rollercoaster with a slow reveal: first 10-15s fast and dense (front-load the strongest material), middle at medium pace, and the 3-5 seconds before the reveal deliberately slowed — a suspense line, slow motion, or a cut back to the creator's face before the result. Never so fast that the viewer is confused — confusion, not boredom, is the top hidden kill switch.
 - Cast characters if available: one aspirational force + one relatable/opposite reaction (the cookie-and-cream pairing — Jenny does the cool/messy aspirational thing, her mom reacts with relatable exasperation). Insert reaction beats as comprehension pauses after dense lines, not as dead air.
 - Add the dual-narrative pass: anywhere audio would merely describe visible action ("announce, then do"), replace it with a complementary story line, or note it for overlay/ADR in post — audio and video should never say the same thing at the same time. One wasted second in a 30-second short costs exponentially more than in long-form.
 - Sweep for banned language: "finally," "sit back," "this is going to take a while," or any other conclusional/dread phrasing mid-video — these trigger the swipe.
+- Add a **delivery note**: every line is read with "something's about to happen" energy — suspense and imminence in the voice, never robotic or flat. The same script read flat vs. suspenseful produces opposite retention; you could be saying nothing, but if you sound like something's about to happen, viewers are instantly hooked. Vocal performance is a first-class retention lever, equal to the script.
 
 ## Output Contract
 
@@ -51,9 +54,11 @@ Deliver, in order:
 3. **Full script** — timestamped (0:00-0:XX), two columns: VISUAL / AUDIO, with but/so connectives marked inline
 4. **Progression mechanism** — named, with the on-screen timestamp it appears and disappears
 5. **Pacing map** — fast / medium / slow zones with the slow-reveal moment marked
-6. **Edit notes** — overlay/ADR/gen-fill cleanup points, with special attention to the hook frame
+6. **Loop design** — how the last 2 seconds flow into the hook OR the second question forcing a rewatch (or the cold-open-ending fallback)
+7. **Delivery note** — one line of vocal direction ("something's about to happen" energy, never flat)
+8. **Edit notes** — overlay/ADR/gen-fill cleanup points, with special attention to the hook frame
 
-Length bound: script covers the stated target length (default 30-45s); do not pad beyond the beat count the idea earns.
+Length bound: script covers the stated target length (default 30-45s) and sits in the channel's standard band; do not pad beyond the beat count the idea earns.
 
 ## Output Skeleton
 
@@ -80,6 +85,9 @@ Fast   [0:00-0:XX]: [what's front-loaded]
 Medium [0:XX-0:XX]: [what happens]
 Slow   [0:XX-0:XX]: [suspense device before reveal]
 
+LOOP DESIGN: [tail flows into hook | second question forcing rewatch | cold-open fallback]
+DELIVERY NOTE: [vocal direction -- "something's about to happen" energy]
+
 EDIT NOTES
 - [timestamp]: [overlay/ADR/gen-fill note]
 - [timestamp]: [hook-frame cleanup note]
@@ -92,6 +100,8 @@ EDIT NOTES
 - [ ] Zero "and then" connectives; at least 2 real conflict/consequence beats per 30 seconds
 - [ ] Viewer benefit ("you") stated before any first-person framing
 - [ ] The answer is the literal last word spoken; any CTA sits before it, nothing trails after
+- [ ] The ending loops (into the hook or a second question) or cold-opens; no flat-dead terminus
+- [ ] Runtime sits in the channel's standard band (her band: 35-45s); delivery note carries "something's about to happen" energy
 - [ ] A visible progression mechanism is named and placed; no conclusional/dread language survives
 
 ## Creative Latitude

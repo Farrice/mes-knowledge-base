@@ -21,9 +21,22 @@ Jenny Hoyos is the definitive short-form storyteller — 8M+ YouTube subscribers
 |---|---|---|
 | Jenny Hoyos Shorts | `skills/jenny-hoyos-shorts/SKILL.md` | Core system + quick reference |
 | Genius Context | `skills/jenny-hoyos-shorts/genius.md` | Deep patterns + hidden knowledge (load for any creative work) |
+| **Tier 1 — Core Practitioner** |
 | Script Viral Short | `skills/jenny-hoyos-shorts/workflows/01-script-viral-short.md` | Idea → shot-ready 30-60s script |
 | Engineer Hook | `skills/jenny-hoyos-shorts/workflows/02-engineer-hook.md` | First-3-seconds options, ranked |
 | Diagnose Retention | `skills/jenny-hoyos-shorts/workflows/03-diagnose-retention.md` | Underperformer triage + fixes |
+| Viral Idea Ladder | `skills/jenny-hoyos-shorts/workflows/04-viral-idea-ladder.md` | Generate production-ready ideas via outlier sourcing |
+| **Tier 2 — Advanced Design** |
+| Visual Analogy Engineer | `skills/jenny-hoyos-shorts/workflows/05-visual-analogy-engineer.md` | Design educational analogies with on-camera props |
+| Loop & Rewatch Engineer | `skills/jenny-hoyos-shorts/workflows/06-loop-rewatch-engineer.md` | Engineer loop-endings and rewatch triggers |
+| Lens-Niche Blueprint | `skills/jenny-hoyos-shorts/workflows/07-lens-niche-blueprint.md` | Design blue-ocean niche positioning |
+| Character Cast Director | `skills/jenny-hoyos-shorts/workflows/08-character-cast-director.md` | Cast for dual-audience resonance (aspirational + relatable) |
+| Long-Form Umbrella Architect | `skills/jenny-hoyos-shorts/workflows/09-longform-umbrella-architect.md` | Convert long-form to shorts + B-plot |
+| **Tier 3 — Creator Business & Scaling** |
+| Creator Business Engine | `skills/jenny-hoyos-shorts/workflows/10-creator-business-engine.md` | Model monetization, RPM, consulting, sponsorships |
+| Anything-Viral Brief | `skills/jenny-hoyos-shorts/workflows/11-anything-viral-brief.md` | Find the Hoyos-angle on any topic |
+| Text-Platform Transfer | `skills/jenny-hoyos-shorts/workflows/12-text-platform-transfer.md` | Adapt short angles to LinkedIn/Twitter/Threads |
+| AI Ideation Brain | `skills/jenny-hoyos-shorts/workflows/13-ai-ideation-brain.md` | Automate outlier-sourcing and idea generation |
 
 ## Decision Framework
 

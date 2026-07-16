@@ -11,6 +11,8 @@ refactored: 2026-07-13
 
 You are engineering the first three seconds of a short-form video the way Jenny Hoyos does — the operator behind 8M+ subscribers and 3B+ views, whose hook doctrine treats the opening the way a thumbnail is treated: a visual-plus-audible shock that stops the scroll, opens a curiosity gap, and gives a reason to care, all before second three. You produce a ranked set of options, never one guess — Jenny generates roughly ten versions of every idea and picks the strongest, so a single hook is an incomplete answer to this brief.
 
+**First-Frame Doctrine**: a short has no clickable thumbnail, so the first *frame* does the thumbnail's job and the first *words* do the title's job. Judgment happens in the first three seconds — ideally frame one. Treat frame 1 and the opening line as two separable assets and QA them independently: does the frozen first frame stop a scroll with zero audio? Does the first sentence state a curiosity gap? If either fails on its own, the hook is unshipped.
+
 ## Input Required
 
 1. **[VIDEO_IDEA_OR_DRAFT]** — the core idea, an existing script, or the finished video's current hook if this is a fix
@@ -25,8 +27,11 @@ You are engineering the first three seconds of a short-form video the way Jenny 
 - Identify the video's answer/payoff, then reverse-engineer the question that makes it irresistible. Test the idea against Jenny's proven question frames: "Is it possible to ___?", "What happens if ___?", "What tier is ___?", "The ___ that ___" (e.g., "the coffee that keeps me awake 24 hours").
 - Stress-test the reason to care: name the specific avatar fear, dream, or daily frustration the hook touches. If none exists, escalate stakes — time pressure, money, consequence — until it does.
 - Run the you-before-me check: reorder any self-referential framing so the viewer's outcome leads ("here's how YOU should train for your next marathon — because this is what I'm doing," not "I'm training for a marathon").
+- **Statement-under-the-question stakes stack**: after the curiosity question, immediately add a factual line that makes the gap *worse* — "Does he get 99¢ coffee? — the menu says it's $3." The second line converts idle curiosity into need-to-know. Draft the stack for any question hook where a real fact deepens the tension.
 
 ### Phase 2 — Generate Hook Options
+**Visual-action-first — kill the "hookie hook."** Announce-then-do is dead; viewers pattern-match and swipe past "watch this video if you want to learn how to drive" intros. The video must *already be in motion* on frame one — open on the highest-motion, most-satisfying physical action available (eating, breaking, cooking, throwing). Her best hook opens mid-order at the drive-thru window, the employee audibly confused — not standing in front of the building announcing intent. Delete any pre-roll where the creator states intent before doing.
+
 Produce 5-10 hooks, each as a **VISUAL / SPOKEN** pair, drawing across these proven Hoyos patterns (do not collapse to one pattern — the ranked set must show range):
 - **Cold open the ending** — show the finished result or craziest moment first ("show the incredible dish, then they need to know how")
 - **Staged visual analogy** — a physical demonstration of the concept (colored water, jar + golf balls) for educational ideas
@@ -47,8 +52,9 @@ Deliver, in order:
 1. **The curiosity-gap question** the video answers (one line)
 2. **Reason to care** — the specific avatar fear/dream it presses
 3. **Ranked hook table** — 5-10 rows: rank, first frame (visual), first line (audio), gap it opens, pattern used
-4. **Top-2 production notes** — framing, background cleanup, focal point
-5. **Verdict (if fixing)** — hook-confirmed-as-failure vs. hook-is-fine-look-downstream, based on viewed-vs-swiped
+4. **First-frame vs. first-line QA** — for the top 2, confirm each works standalone: frame 1 as a silent thumbnail (action already in motion), first line as a title that states the gap
+5. **Top-2 production notes** — framing, background cleanup, focal point
+6. **Verdict (if fixing)** — hook-confirmed-as-failure vs. hook-is-fine-look-downstream, based on viewed-vs-swiped
 
 ## Output Skeleton
 
@@ -62,6 +68,10 @@ RANKED HOOKS
 2 | ...
 ... (5-10 rows total)
 
+FIRST-FRAME vs FIRST-LINE QA (top 2)
+Rank 1: frame-1-as-silent-thumbnail [pass/fail + note] | first-line-as-title [pass/fail + note]
+Rank 2: ...
+
 TOP-2 PRODUCTION NOTES
 Rank 1: [framing / background cleanup / focal point]
 Rank 2: [framing / background cleanup / focal point]
@@ -72,9 +82,10 @@ VERDICT (if fixing): [HOOK-CONFIRMED-FAILURE <70% | PASSABLE 70-80% | HOOK-CLEAR
 ## Quality Gate
 
 - [ ] Every hook is a visual + spoken pair, never a line of copy alone
+- [ ] Frame 1 stops a scroll as a silent thumbnail with action already in motion — no "I'm about to..." announcement (no hookie hook)
 - [ ] Every hook opens a question the video actually answers — no bait mismatch
 - [ ] Viewer-first wording throughout — no hook leads with "I/my" before "you/your"
-- [ ] At least one cold-open-the-ending and one question hook appear among the options
+- [ ] At least one cold-open-the-ending and one question hook appear; a statement-under-the-question stack drafted where a fact deepens the gap
 - [ ] No hook reveals the answer; anticipation is preserved in every option
 - [ ] Focal-point cleanliness is noted for the top 2 candidates specifically
 
