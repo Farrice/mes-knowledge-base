@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** cold-offer-frontdoor  
-**Full path:** .agent/handoffs/2026-07-15-cold-offer-frontdoor.md  
-**Date:** 2026-07-15 (today)  
-**Status:** ready  
-**Title:** Cold-Offer OS — Forge + Expert Front Doors (DWA Ship Sprint Audit + Presale Fixes)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume cold-offer-frontdoor` for this one.
-
----
-
 ---
 thread: cold-offer-frontdoor
 status: ready
@@ -61,4 +49,3 @@ Read _active/dwa-threads-engine-2026-07-05/04-deliverables/24-ship-sprint-presal
 - Compliance is load-bearing: zero income claims anywhere in DWA public copy — the quarantined phrase (mechanism priced by what other clients pay) must never reach Threads.
 - Haynes' self-reported revenue figures stay quarantined (source-receipts.md) in any deliverable.
 - Multiple live sessions on this tree earlier today — the SessionStart alarm now warns; if files change unexplained, apply the accept→repair→dedupe card, never revert.
-

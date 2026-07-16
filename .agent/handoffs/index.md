@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-15** [cold-offer-frontdoor/ready] [Cold-Offer OS — Forge + Expert Front Doors (DWA Ship Sprint Audit + Presale Fixes)](2026-07-15-cold-offer-frontdoor.md) — Farrice's felt verdict on the fixed presale page → spec Day-0 form → set [DATE] → lock name+price (ticket 0005)
 - **2026-07-15** [expert-assembly-os/ready] [Expert Assembly OS — Build v1 Shipped (hybrid casting + /assemble + /panel-sync)](2026-07-15-expert-assembly-os.md) — E2E-test /panel-sync reload on the pinned sailing panel, then MyBPM Week 1 /assemble run
 - **2026-07-15** [assemble-competitive-sailing-rigging-optimization-for-a-3/active] [Panel Session — competitive sailing rigging optimization for a 30-foot racing sloop](2026-07-15-assemble-competitive-sailing-rigging-optimization-for-a-3.md) — Expert Assembly panel: competitive sailing rigging optimization for a 30-foot racing sloop
 - **2026-07-15** [solutions/active] [Solutions — Expert Assembly Os Hybrid Casting](2026-07-15-solutions.md) — Solutions — Expert Assembly Os Hybrid Casting
