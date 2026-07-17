@@ -1,3 +1,11 @@
+---
+thread: solutions
+status: active
+resume_hint: Solutions — Cwd Flatten Space Bug Dead Alarm
+branch: main
+pin: true
+---
+
 # Solutions — Cwd Flatten Space Bug Dead Alarm
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.

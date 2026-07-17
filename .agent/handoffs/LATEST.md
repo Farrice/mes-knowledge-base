@@ -1,26 +1,28 @@
 # Latest Handoff
 
-**Thread:** godin-marketing-mind  
-**Full path:** .agent/handoffs/2026-07-17-godin-marketing-mind.md  
+**Thread:** solutions  
+**Full path:** .agent/handoffs/2026-07-17-solutions.md  
 **Date:** 2026-07-17 (today)  
 **Status:** active  
-**Title:** Pick-Yourself Plan on the three warm-intro asks (hiding structure named as one-more-improvement-first; unit = 1 spoken ask + 1 send-ready MIRROR-register DM tonight; attachment removed via gift-frame + zero-invisible + catastrophe-chain audit) + amplify picks 14/15 built (smock ritual -> personal-brand-role, cranky-Tuesday diagnostic + becoming mechanism -> consistency-protocol, with honest correction that the surgeon test already existed)
+**Title:** Solutions — Cwd Flatten Space Bug Dead Alarm
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume godin-marketing-mind` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume solutions` for this one.
 
 ---
-thread: godin-marketing-mind
+
+---
+thread: solutions
 status: active
-resume_hint: Pick-Yourself Plan on the three warm-intro asks (hiding structure named as one-more-improvement-first; unit = 1 spoken ask + 1 send-ready MIRROR-register DM tonight; attachment removed via gift-frame + zero-invisible + catastrophe-chain audit) + amplify picks 14/15 built (smock ritual -> personal-brand-role, cranky-Tuesday diagnostic + becoming mechanism -> consistency-protocol, with honest correction that the surgeon test already existed)
+resume_hint: Solutions — Cwd Flatten Space Bug Dead Alarm
 branch: main
 pin: true
 ---
 
-# Pick-Yourself Plan on the three warm-intro asks (hiding structure named as one-more-improvement-first; unit = 1 spoken ask + 1 send-ready MIRROR-register DM tonight; attachment removed via gift-frame + zero-invisible + catastrophe-chain audit) + amplify picks 14/15 built (smock ritual -> personal-brand-role, cranky-Tuesday diagnostic + becoming mechanism -> consistency-protocol, with honest correction that the surgeon test already existed)
+# Solutions — Cwd Flatten Space Bug Dead Alarm
 
-**Next session focus**: Resume the `godin-marketing-mind` work-stream — see the deliverable above.
+**Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
 
-_Auto-pinned by chain_runner.finalize (gmind-pick-yourself)._
+**Artifacts:** /Users/farricecain/Google Antigravity/directives/merge-discipline.md, /Users/farricecain/Google Antigravity/execution/hooks/concurrent_session_alarm.py, /Users/farricecain/Google Antigravity/execution/verify_session_lock_gate.py, /Users/farricecain/Google Antigravity/docs/solutions/2026-07-17-cwd-flatten-space-bug-dead-alarm.md
+
+**Retrieve:** `/resume solutions`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
 

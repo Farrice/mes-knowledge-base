@@ -92,3 +92,4 @@
 {"ts": "2026-07-15T18:23:44.355380+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
 {"ts": "2026-07-15T18:46:32.380575+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
 {"ts": "2026-07-17T00:20:49.252727+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
+{"ts": "2026-07-17T21:49:57.062260+00:00", "event": "check", "service": "fal-poster", "decision": "denied", "request": "cd \"/Users/farricecain/Google Antigravity\" && for f in execution/knowledge_compiler.py execution/memory_facade.py execution/generate_image.py execution/episodic"}

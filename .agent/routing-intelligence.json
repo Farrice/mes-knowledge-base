@@ -7280,6 +7280,23 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260717_220107_dbac",
+            "timestamp": "2026-07-17T22:01:07.406150+00:00",
+            "session_id": "",
+            "request_summary": "Frontier Elevation Program: 8-wave blueprint approved (evidence from 2 survey agents + Opus architect); Wave 0 concurrency firewall shipped (merge-discipline directive, lock-gated kickoffs, dead-alarm",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "go",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -7727,13 +7744,13 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 403,
+            "total_routings": 404,
             "total_feedback": 49,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 58,
+                "System": 59,
                 "Client Work": 14,
                 "Analysis": 6,
                 "Strategy": 22,
@@ -7798,7 +7815,7 @@
                 "henry-shukman-contemplative-writing": 1
             },
             "expert_counts": {
-                "system-audit": 19,
+                "system-audit": 20,
                 "strength-conditioning-os": 13,
                 "nicolas-cole": 1,
                 "source-to-skill-system": 1,
@@ -7985,7 +8002,7 @@
                 "youtube-video-context-analysis": 1
             },
             "tier_counts": {
-                "0": 403,
+                "0": 404,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -7994,9 +8011,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 224,
-                "finalize-auto": 179
+                "finalize-auto": 180
             },
-            "ensemble_count": 295,
+            "ensemble_count": 296,
             "auto_miss_count": 38,
             "auto_match_count": 11
         }
