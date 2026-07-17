@@ -1,5 +1,5 @@
 # Knowledge Briefing
-*Generated: 2026-07-16 | 654 sources | 2,677,951 words*
+*Generated: 2026-07-16 | 663 sources | 2,689,749 words*
 
 ---
 
@@ -8,8 +8,8 @@
 - **assembly-rubric** (strategy) — 145 words — `knowledge/assembly-rubric.md`
 - **2026-07-16-pressure-test-whether-farrice-cain-should-pivot** (strategy [april-dunford]) — 1,565 words — `knowledge/assembly-sessions/2026-07-16-pressure-test-whether-farrice-cain-should-pivot.md`
 - **2026-07-16-re-convene-with-material-new-evidence-update-the** (strategy [dai-media]) — 1,349 words — `knowledge/assembly-sessions/2026-07-16-re-convene-with-material-new-evidence-update-the.md`
-- **index** (content) — 4,534 words — `knowledge/index.md`
-- **log** (general) — 12,167 words — `knowledge/log.md`
+- **index** (content) — 4,580 words — `knowledge/index.md`
+- **log** (general) — 12,272 words — `knowledge/log.md`
 - **BONUS-pricing-offer-page** (content) — 719 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/BONUS-pricing-offer-page.md`
 - **piece-1-what-is-marketing-context-engineering** (content) — 1,766 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/piece-1-what-is-marketing-context-engineering.md`
 - **piece-2-how-to-scope-ai-projects** (content) — 3,401 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/piece-2-how-to-scope-ai-projects.md`
@@ -20,10 +20,10 @@
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 220 | nicolas-cole |
-| copywriting | 96 | luke-iha |
+| content | 227 | nicolas-cole |
+| copywriting | 97 | luke-iha |
 | general | 83 | nick-saraev |
-| strategy | 66 | april-dunford |
+| strategy | 67 | april-dunford |
 | screenwriting | 49 | connelly |
 | brand | 48 | oren-john |
 | systems | 35 | nick-saraev |

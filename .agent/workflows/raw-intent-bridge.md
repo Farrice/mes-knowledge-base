@@ -13,6 +13,12 @@ where the route, proof, and first safe action should be made explicit.
 This is a command surface for the local companion layer, not a separate plugin
 and not a competing router.
 
+> **Lane note (2026-07-16)**: In Claude Code sessions, `/go`
+> (`.agent/workflows/go.md`, the Maestro front door v2) supersedes this
+> command — type `/go` there. `/raw-intent-bridge` remains the Codex
+> companion surface. Its Stage 0 Vision Translation is canonical and now
+> also lives in /go's Mission Card as the Felt-standard line.
+
 ## Invocation Contract
 
 Accepted forms are equivalent:

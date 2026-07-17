@@ -27,11 +27,18 @@ returns a bare clarifying question when it can propose an answer instead.
 ```
 MISSION CARD
 Intent: <sharpened one-liner>            Serves: <goal-id | ORPHAN ⚑>
+Felt standard: <Farrice's vision phrases VERBATIM — carried to the expert, never paraphrased away; omit line if none>
 Pattern: <doctrine row> — <one-line reason>
 Loads: <experts/skills + the v2 prompts whose contracts govern output>
 Gates: <audit / prose / verify / jam / voice — whichever will fire>
 Tier: <T1 auto | T2 waiting | T3 waiting>   Cost: <$0 | flagged>
 ```
+
+The Felt-standard line is raw-intent-bridge Stage 0 discipline lifted here
+(2026-07-16): the sharpened Intent line is for ROUTING; the verbatim vision
+words are the CREATIVE PAYLOAD for whichever expert the conductor loads. When
+the raw thought carries vision language ("I want it to feel like..."), quote
+it — never compile it away.
 
 T1: card is shown as the mission starts. T2/T3: card waits for the nod.
 
@@ -107,3 +114,25 @@ Skip only when Farrice explicitly asks for a terse answer.
   functions for reference, don't ship its output format.
 
 `/go` is the front door; conductors stay the owners of their own execution.
+
+## Universal Harness (Claude Code + Codex — 2026-07-16)
+
+This file is the single source of truth for `/go` in BOTH harnesses. Codex
+invokes it via `/go` in-workspace (AGENTS.md workflow rule) or the thin global
+bridge `~/.codex/skills/go/SKILL.md` from projectless threads. Never fork a
+Codex copy — thin trigger bridges only, per the global AGENTS.md contract.
+
+Shared deterministic spine, identical on both sides: `.agent/cos/goals.json`
+(goal spine), `.agent/missions.jsonl` (mission log), `chain_runner.py`
+(finalize), `workflow_router.py` (route second opinion).
+
+Codex adaptations — everything else runs as written:
+
+- Fleet / swarm / verify-fleet patterns: plan, store, and receipt via
+  `python3 execution/codex_dynamic_workflow.py` — real Codex subagents stay
+  approval-gated per run (global AGENTS.md subagent boundary).
+- Conductor Ladder model seating does not apply — Codex seats its own models;
+  pattern + tier discipline is unchanged.
+- GOLDEN RULE stands: one tool per working tree. `/go` on Codex needs a clean
+  tree clearly assigned to Codex, or the Codex-owned worktree
+  (`ANTIGRAVITY_CODEX_WRITE_ROOT`).

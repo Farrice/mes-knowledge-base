@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7167,
+ "count": 7177,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -22128,6 +22128,76 @@
    "title": "SETH GODIN - WORLDVIEW-FIRST CONTENT ARCHITECT",
    "gist": "You are Seth Godin as worldview strategist \u2014 the mind that taught us that people don't change their minds, they change their information. You understand the profound truth that people don't see the world, they see their ",
    "path": "skills/seth-godin-ideavirus/references/prompts-v2/thought_leadership_9_worldview_first_content_architect.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-marketing-mind",
+   "title": "Seth Godin \u2014 Client Portfolio Audit",
+   "gist": "You are working from Seth Godin's client-selection methodology as extracted from the Mel Robbins Podcast interview (2026-07-16). Godin's frame: a client roster isn't a revenue list, it's a calendar the operator signed wi",
+   "path": "skills/seth-godin-marketing-mind/references/prompts-v2/client-portfolio-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-marketing-mind",
+   "title": "Seth Godin \u2014 Farrice Application Map",
+   "gist": "You are working from Seth Godin's operating principles as extracted from the Mel Robbins Podcast interview (2026-07-16), applied at runtime to Farrice's actual surfaces. The rest of the skill trains the lens; this prompt",
+   "path": "skills/seth-godin-marketing-mind/references/prompts-v2/farrice-application-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-marketing-mind",
+   "title": "Seth Godin \u2014 Fear Experiment",
+   "gist": "You are working from Seth Godin's fear-isolation method, extracted from the Mel Robbins Podcast interview (2026-07-16, `extractions/seth-godin-marketing-mind/`). A stalled launch or avoided outreach is never a motivation",
+   "path": "skills/seth-godin-marketing-mind/references/prompts-v2/fear-experiment.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-marketing-mind",
+   "title": "Seth Godin \u2014 Godin Lens Session",
+   "gist": "You are working from Seth Godin's live reasoning sequence, extracted from the Mel Robbins Podcast interview (2026-07-16, `extractions/seth-godin-marketing-mind/`). Godin never answers the question as asked. He runs a fix",
+   "path": "skills/seth-godin-marketing-mind/references/prompts-v2/godin-lens-session.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-marketing-mind",
+   "title": "Seth Godin \u2014 Hire-Yourself Audit",
+   "gist": "You are working from Seth Godin's operator-burnout diagnosis as extracted from the Mel Robbins Podcast interview (2026-07-16). Godin's frame: 90-hour weeks aren't a motivation problem, they're a structural one. His mecha",
+   "path": "skills/seth-godin-marketing-mind/references/prompts-v2/hire-yourself-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-marketing-mind",
+   "title": "Seth Godin \u2014 Positioning Card",
+   "gist": "You are working from Seth Godin's two-question positioning method, extracted from the Mel Robbins Podcast interview (2026-07-16, `extractions/seth-godin-marketing-mind/`). Godin runs the same reset on granola, perfection",
+   "path": "skills/seth-godin-marketing-mind/references/prompts-v2/positioning-card.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-marketing-mind",
+   "title": "Seth Godin \u2014 Premise Audit Report",
+   "gist": "You are working from Seth Godin's premise-diagnosis method, extracted from the Mel Robbins Podcast interview (2026-07-16, `extractions/seth-godin-marketing-mind/`). Most questions arrive broken. Someone asks \"how do I sh",
+   "path": "skills/seth-godin-marketing-mind/references/prompts-v2/premise-audit-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-marketing-mind",
+   "title": "Seth Godin \u2014 Quit-or-Dip Memo",
+   "gist": "You are working from Seth Godin's quit-decision methodology as extracted from the Mel Robbins Podcast interview (2026-07-16). Godin's frame: quit decisions get made on shame or sunk cost almost never on evidence. His met",
+   "path": "skills/seth-godin-marketing-mind/references/prompts-v2/quit-or-dip-memo.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-marketing-mind",
+   "title": "Seth Godin \u2014 Tension Map",
+   "gist": "You are working from Seth Godin's story-tension-relief mechanism, extracted from the Mel Robbins Podcast interview (2026-07-16, `extractions/seth-godin-marketing-mind/`). Familiarity doesn't sell. A plan built on \"show u",
+   "path": "skills/seth-godin-marketing-mind/references/prompts-v2/tension-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-marketing-mind",
+   "title": "Seth Godin \u2014 Three Plans",
+   "gist": "You are working from Seth Godin's decision-forcing methodology as extracted from the Mel Robbins Podcast interview (2026-07-16). Godin's frame: one plan gets defended, three plans get thought through. *\"A friend of mine ",
+   "path": "skills/seth-godin-marketing-mind/references/prompts-v2/three-plans.md"
   },
   {
    "kind": "prompt-v2",

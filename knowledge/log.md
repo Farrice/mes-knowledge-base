@@ -493,3 +493,7 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-16 12:01]` **finalize** | Second-Brain Foundation Audit package — contact-first: offer one-pager + Josh&Katie/Andrea DM asks + | general | adam-sandler — composite:8.33 status:Keep
 - `[2026-07-16 12:01]` **finalize** | Dated-receipt LinkedIn post — 3 takes (stealth-hook / interiority / compressed), timestamp-only regi | content | tommy-clark — composite:8.33 status:Keep
 - `[2026-07-16 16:01]` **finalize** | Geoff Woods forge-tier extraction: AI Thought Partner OS — 12 /gw-* workflows (3 tiers), 12 born-v2  | general | geoff-woods — composite:8.33 status:Keep
+- `[2026-07-16 17:21]` **finalize** | Universal /go — Maestro front door now cross-harness: felt-standard line lifted into Mission Card, U | general | none — composite:7.67 status:Keep
+- `[2026-07-16 17:26]` **finalize** | LinkedIn post via /jenny-text-transfer — Invisible Expert ring-light loss scene, Farrice voice BLEND | general | jenny-hoyos — composite:8.67 status:Keep
+- `[2026-07-16 17:26]` **finalize** | Authority Flywheel viral treatment via /jenny-anything-viral — Voice-Memo Flip flagship + 3 ranked h | general | jenny-hoyos — composite:8.67 status:Keep
+- `[2026-07-16 17:33]` **finalize** | Seth Godin Marketing Mind — 4th Godin layer forged from Mel Robbins interview (released 2026-07-16): | general | seth-godin — composite:8.33 status:Keep

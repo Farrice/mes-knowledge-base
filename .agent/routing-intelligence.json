@@ -6789,6 +6789,131 @@
             "ensemble": true,
             "compound_pairing": "jen-santulan-listing-content + supercomputer + deliberate",
             "feedback": "fb_20260716_235756_93a5"
+        },
+        {
+            "routing_id": "rt_20260717_000237_c31c",
+            "timestamp": "2026-07-17T00:02:37.193750+00:00",
+            "session_id": "63fafe65-e3af-4d50-873c-2b1566e6d6e0",
+            "request_summary": "given the explanation you gave me with raw intent as a compiler and not a conductor, do you feel that I should have raw intent and go separate, or turn it into one thing and merge them into each other",
+            "intent_score": 0,
+            "domain_detected": "jason-fladlien-marketing",
+            "experts_deployed": [
+                "jason-fladlien-marketing",
+                "forge-os",
+                "wright-thompson-mastery"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jason-fladlien-marketing",
+            "ensemble": true,
+            "compound_pairing": "jason-fladlien-marketing + forge-os + wright-thompson-mastery",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260717_001956_6ec7",
+            "timestamp": "2026-07-17T00:19:56.229633+00:00",
+            "session_id": "85aed300-b402-4812-a41b-fc9d2a4a5ec1",
+            "request_summary": "Next Moves\n\nDeepen: Judge the blind pass: read extractions/jenny-hoyos-shorts/blind-pass-generated-2026-07-16.md against the reference-corpus shorts and give the felt verdict — A-tier or name what giv",
+            "intent_score": 0,
+            "domain_detected": "voice-os",
+            "experts_deployed": [
+                "voice-os",
+                "jenny-hoyos-shorts",
+                "dan-wang-literary-analysis"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "voice-os",
+            "ensemble": true,
+            "compound_pairing": "voice-os + jenny-hoyos-shorts + dan-wang-literary-analysis",
+            "feedback": "fb_20260717_002114_1bad"
+        },
+        {
+            "routing_id": "rt_20260717_002048_a622",
+            "timestamp": "2026-07-17T00:20:48.886785+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "dara-denney-meta-ads",
+            "experts_deployed": [
+                "dara-denney-meta-ads",
+                "gpt-image-2-director",
+                "how-i-write-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "dara-denney-meta-ads",
+            "ensemble": true,
+            "compound_pairing": "dara-denney-meta-ads + gpt-image-2-director + how-i-write-os",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260717_002107_ec4b",
+            "timestamp": "2026-07-17T00:21:07.746168+00:00",
+            "session_id": "",
+            "request_summary": "Universal /go — Maestro front door now cross-harness: felt-standard line lifted into Mission Card, Universal Harness section in go.md, repo AGENTS.md front door refreshed to v2, raw-intent-bridge lane",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "none"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "go",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260717_002606_564b",
+            "timestamp": "2026-07-17T00:26:06.162561+00:00",
+            "session_id": "",
+            "request_summary": "LinkedIn post via /jenny-text-transfer — Invisible Expert ring-light loss scene, Farrice voice BLEND",
+            "intent_score": 9,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jenny-hoyos"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "12-text-platform-transfer",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260717_002621_59da",
+            "timestamp": "2026-07-17T00:26:21.336157+00:00",
+            "session_id": "",
+            "request_summary": "Authority Flywheel viral treatment via /jenny-anything-viral — Voice-Memo Flip flagship + 3 ranked hooks, wellness-brand beachhead",
+            "intent_score": 9,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "jenny-hoyos"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "11-anything-viral-brief",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260717_003338_593e",
+            "timestamp": "2026-07-17T00:33:38.637445+00:00",
+            "session_id": "",
+            "request_summary": "Seth Godin Marketing Mind — 4th Godin layer forged from Mel Robbins interview (released 2026-07-16): 14 workflows (/godin-lens flagship thinking-partner + 13 /gmind-*), 10 born-v2 prompts wired, agent",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "seth-godin"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -7214,24 +7339,33 @@
             "rating": "auto_miss",
             "correction": "geoff-woods-ai-thought-partner",
             "notes": "expert skill 'geoff-woods-ai-thought-partner' loaded not matching suggestion ['jen-santulan-listing-content', 'supercomputer', 'deliberate']"
+        },
+        {
+            "feedback_id": "fb_20260717_002114_1bad",
+            "timestamp": "2026-07-17T00:21:14.220766+00:00",
+            "session_id": "85aed300-b402-4812-a41b-fc9d2a4a5ec1",
+            "routing_id": "rt_20260717_001956_6ec7",
+            "rating": "auto_match",
+            "correction": "jenny-hoyos-shorts",
+            "notes": "expert skill 'jenny-hoyos-shorts' loaded matching suggestion ['voice-os', 'jenny-hoyos-shorts', 'dan-wang-literary-analysis']"
         }
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 376,
-            "total_feedback": 47,
+            "total_routings": 383,
+            "total_feedback": 48,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 55,
+                "System": 56,
                 "Client Work": 14,
                 "Analysis": 6,
-                "Strategy": 20,
+                "Strategy": 21,
                 "Creative": 8,
                 "Legal Consult Prep": 1,
-                "Content": 40,
-                "Extraction": 17,
+                "Content": 41,
+                "Extraction": 18,
                 "Research": 7,
                 "stefan-georgi-dopamine-copy": 7,
                 "supercomputer": 18,
@@ -7241,7 +7375,7 @@
                 "brand-operating-system": 10,
                 "how-i-write-os": 12,
                 "nate-b-jones-auto-improvement-loops": 1,
-                "jason-fladlien-marketing": 7,
+                "jason-fladlien-marketing": 8,
                 "paul-james-ai-automation": 1,
                 "nicolas-cole-digital-products": 1,
                 "nate-b-jones-context-engineering": 30,
@@ -7251,7 +7385,7 @@
                 "luke-iha-avatar-machine": 5,
                 "skill-creator": 1,
                 "higgsfield-creative-studio": 1,
-                "voice-os": 7,
+                "voice-os": 8,
                 "marketing-studio-director": 1,
                 "nate-b-jones-intent-engineering": 1,
                 "strength-conditioning-os": 3,
@@ -7262,7 +7396,7 @@
                 "pptx": 4,
                 "kallaway-social-commerce": 1,
                 "story-compass": 1,
-                "dara-denney-meta-ads": 2,
+                "dara-denney-meta-ads": 3,
                 "chase-hughes-context-engineering": 1,
                 "luke-iha-insight-vectors": 1,
                 "wright-thompson-mastery": 1,
@@ -7307,10 +7441,10 @@
                 "ben-watkins": 1,
                 "stefan-georgi-dopamine-copy": 20,
                 "luke-iha-copy-blocks": 29,
-                "how-i-write-os": 21,
+                "how-i-write-os": 22,
                 "system-architecture": 7,
                 "supercomputer": 31,
-                "jason-fladlien-marketing": 9,
+                "jason-fladlien-marketing": 10,
                 "design-md": 22,
                 "simon-intellectual-library-os": 2,
                 "pptx": 8,
@@ -7320,7 +7454,7 @@
                 "prediction-market-making": 1,
                 "deliberate": 19,
                 "mark-kashef-ai-councils": 1,
-                "gpt-image-2-director": 11,
+                "gpt-image-2-director": 12,
                 "marketing-studio-director": 12,
                 "webapp-testing": 2,
                 "joscha-bach-consciousness": 2,
@@ -7328,7 +7462,7 @@
                 "nate-b-jones-auto-improvement-loops": 4,
                 "self-evolving-systems": 3,
                 "internal-comms": 2,
-                "wright-thompson-mastery": 10,
+                "wright-thompson-mastery": 11,
                 "alex-suzuki-digital-product-revenue-os": 3,
                 "paul-harding-lyric-prose": 2,
                 "paul-james-ai-automation": 1,
@@ -7347,7 +7481,7 @@
                 "collective-genius-council": 1,
                 "mark-kashef": 1,
                 "chase-hughes-conversational-influence": 4,
-                "none": 5,
+                "none": 6,
                 "alan-aragon-nutrition": 1,
                 "nate-b-jones-context-engineering": 34,
                 "luke-iha-avatar-machine": 6,
@@ -7360,13 +7494,13 @@
                 "donald-miller-culture-turnaround": 3,
                 "mark-kashef-wargame-os": 3,
                 "asset_generator": 1,
-                "dan-wang-literary-analysis": 1,
+                "dan-wang-literary-analysis": 2,
                 "oren-john": 2,
                 "jiang-xueqin-cognitive-autonomy": 1,
                 "henrik-werdelin-portfolio-entrepreneurship": 1,
                 "luke-iha-vicious-hooks": 11,
                 "extract-mastery": 4,
-                "voice-os": 12,
+                "voice-os": 13,
                 "dara-denney": 2,
                 "corey-mcclain-persona-engineering": 38,
                 "luke-iha-vsl-leads": 5,
@@ -7381,7 +7515,7 @@
                 "icp-deep-canvasser": 1,
                 "donald-miller-cognitive-load": 1,
                 "luke-iha-unaware-ads": 2,
-                "dara-denney-meta-ads": 10,
+                "dara-denney-meta-ads": 11,
                 "fantastic-posters": 7,
                 "nate-b-jones-intent-engineering": 1,
                 "evan-spiegel-distribution-architecture": 2,
@@ -7437,7 +7571,7 @@
                 "fresh-voice-system": 2,
                 "luke-iha-creative-strategy": 3,
                 "market-intelligence": 1,
-                "forge-os": 7,
+                "forge-os": 8,
                 "health-performance-geo": 2,
                 "jeremy-haynes": 4,
                 "luke-iha-cross-domain": 1,
@@ -7456,14 +7590,16 @@
                 "lara-acosta-linkedin-growth": 1,
                 "liam-mley-ai-brain-builder": 1,
                 "dan-bolton-coaching-offers": 1,
-                "jenny-hoyos": 2,
+                "jenny-hoyos": 4,
                 "adam-sandler": 2,
                 "andrew-dun-vibe-consulting": 1,
                 "geoff-woods": 1,
-                "dan-koe-ai-leverage": 1
+                "dan-koe-ai-leverage": 1,
+                "jenny-hoyos-shorts": 1,
+                "seth-godin": 1
             },
             "tier_counts": {
-                "0": 376,
+                "0": 383,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -7471,12 +7607,12 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 208,
-                "finalize-auto": 168
+                "hybrid": 211,
+                "finalize-auto": 172
             },
-            "ensemble_count": 275,
+            "ensemble_count": 281,
             "auto_miss_count": 37,
-            "auto_match_count": 10
+            "auto_match_count": 11
         }
     }
 }

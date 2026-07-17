@@ -322,6 +322,7 @@
 | `semantic-document-library-os` | **Semantic Document Library OS** | ai/automation - semantic work primitives, agent-readable knowledge systems, document architecture | 6 | 0 |
 | `seth-godin-brand` | **seth-godin-brand** | brand architecture × trust engineering × marketing operations, covers brand promise architecture, trust engineering | 10 | 0 |
 | `seth-godin-ideavirus` | **Seth Godin — Ideavirus Mastery** | complete viral marketing and idea propagation system from seth godin's unleas..., ideavirus mastery | 6 | 26 |
+| `seth-godin-marketing-mind` | **seth-godin-marketing-mind** | strategic marketing reasoning × premise interrogation × business-model diagnosis, extracted from his mel robbins interview (released 2026-07-16), the 4th godin layer | 14 | 0 |
 | `seth-godin-philosophy` | **Seth Godin — Strategic Philosophy** | complete operating philosophy for overcoming resistance, shipping creative work, and doing what matters for people who care | 8 | 0 |
 | `shaan-puri-storytelling` | **Shaan Puri Storytelling Mastery** | storytelling and audience building frameworks for emotion-first content that... | 6 | 16 |
 | `shan-hanif-audience-monetization` | **Shan Hanif: Audience Monetization** | turn unqualified linkedin leads into a high-profit digital product backend wh..., audience monetization | 2 | 4 |
