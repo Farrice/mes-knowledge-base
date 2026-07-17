@@ -6914,6 +6914,25 @@
             "ensemble": true,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260717_004217_a935",
+            "timestamp": "2026-07-17T00:42:17.880926+00:00",
+            "session_id": "9b1d8dcc-3449-4562-a0bd-a9d059f7e32f",
+            "request_summary": "Next Moves\n\nDeepen: /godin-lens my Authority Flywheel pricing — should the entry tier be $2K or is that the wrong question? (live PARTNER session, it will interview you)\nAdjacent: Build the top 2 ampl",
+            "intent_score": 0,
+            "domain_detected": "nicolas-cole-digital-products",
+            "experts_deployed": [
+                "nicolas-cole-digital-products",
+                "internal-comms",
+                "monk-ai-offer-architecture"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nicolas-cole-digital-products",
+            "ensemble": true,
+            "compound_pairing": "nicolas-cole-digital-products + internal-comms + monk-ai-offer-architecture",
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -7352,7 +7371,7 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 383,
+            "total_routings": 384,
             "total_feedback": 48,
             "positive_count": 0,
             "negative_count": 0,
@@ -7377,7 +7396,7 @@
                 "nate-b-jones-auto-improvement-loops": 1,
                 "jason-fladlien-marketing": 8,
                 "paul-james-ai-automation": 1,
-                "nicolas-cole-digital-products": 1,
+                "nicolas-cole-digital-products": 2,
                 "nate-b-jones-context-engineering": 30,
                 "omar-eltakrori": 1,
                 "luke-iha-copy-blocks": 22,
@@ -7461,7 +7480,7 @@
                 "higgsfield-creative-studio": 7,
                 "nate-b-jones-auto-improvement-loops": 4,
                 "self-evolving-systems": 3,
-                "internal-comms": 2,
+                "internal-comms": 3,
                 "wright-thompson-mastery": 11,
                 "alex-suzuki-digital-product-revenue-os": 3,
                 "paul-harding-lyric-prose": 2,
@@ -7475,7 +7494,7 @@
                 "system-orchestrator": 3,
                 "claim-safe-health-marketing": 3,
                 "omar-eddaoudi-scaling-ops": 6,
-                "nicolas-cole-digital-products": 1,
+                "nicolas-cole-digital-products": 2,
                 "test-expert": 2,
                 "t": 3,
                 "collective-genius-council": 1,
@@ -7596,10 +7615,11 @@
                 "geoff-woods": 1,
                 "dan-koe-ai-leverage": 1,
                 "jenny-hoyos-shorts": 1,
-                "seth-godin": 1
+                "seth-godin": 1,
+                "monk-ai-offer-architecture": 1
             },
             "tier_counts": {
-                "0": 383,
+                "0": 384,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -7607,10 +7627,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 211,
+                "hybrid": 212,
                 "finalize-auto": 172
             },
-            "ensemble_count": 281,
+            "ensemble_count": 282,
             "auto_miss_count": 37,
             "auto_match_count": 11
         }

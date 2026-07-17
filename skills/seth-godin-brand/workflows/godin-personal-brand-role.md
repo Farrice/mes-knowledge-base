@@ -104,6 +104,19 @@ For every piece of personal content, ask:
 3. How much brand equity lives in the PERSON vs. the ENTITY?
 4. Is there a transition plan if the personal brand becomes too big/small?
 
+### Step 5.5: The Employee/Career Variant (added 2026-07-16, Mel Robbins interview)
+
+The ROLE logic extends past founders and creators. Run this variant when the person is a W2 employee or a non-founder freelancer building a career, not a company:
+
+> "Whether or not you're getting a paycheck, you're still marketing. You're still telling a story to your coworkers, to your boss. Every time you go to a meeting and you open your mouth, people have an expectation of what they're going to hear from you. You have a personal brand, even if you don't have a personal ad campaign."
+
+**The career promise audit**:
+1. **What do people expect when you open your mouth in a meeting?** That expectation IS the brand — audit it before designing anything.
+2. **The shortage test** — "There is a shortage of people who make promises and keep them. There is a shortage of people who light up a room every time they walk into it." Which shortage are you filling? A promise kept consistently at work outcompetes talent: "you might not currently be as skilled as some people, you might not be as privileged as some people, but what we get to do is market this story and inhabit it."
+3. **The linchpin bar** — "The goal is to be somewhere we would miss if you were gone." Honest check: would this company actually miss you? If phoning it in, the brand being built is "replaceable."
+4. **The bad-boss exit clause** — "if you have a job where your boss doesn't deserve that from you, you should go get another job." The linchpin standard is conditional on a boss worth keeping promises to; staying linchpin-grade for an undeserving boss is not loyalty, it's mispriced inventory.
+5. **Who's it for / what's it for, per deliverable** — run the two questions on the next presentation or project exactly as a founder would on an offer.
+
 ### Step 6: Personal Brand Role Output
 
 ```
@@ -135,6 +148,12 @@ SCALE ASSESSMENT:
 - Current stage fit: [yes/no + why]
 - Exit protocol: [if person/brand separate]
 - Equity split: [% in person vs. entity]
+
+EMPLOYEE/CAREER VARIANT (when applicable):
+- Meeting expectation today: [what people currently expect when you speak]
+- Shortage filled: [promises-kept / lights-up-the-room / neither yet]
+- Linchpin verdict: [would they miss you — honest yes/no + evidence]
+- Boss worth it: [yes / no → the exit clause applies]
 ```
 
 ---
@@ -147,6 +166,7 @@ SCALE ASSESSMENT:
 | Authenticity Firewall | Red/green lines defined and specific |
 | Human Advantage | At least 3 surface-area assets mapped |
 | Exit Protocol | Transition plan exists |
+| Career Variant (if W2/freelancer) | Linchpin verdict is evidence-based, not aspirational; boss-worth-it clause answered |
 
 ---
 

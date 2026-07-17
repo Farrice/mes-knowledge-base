@@ -71,6 +71,21 @@ This is the most counterintuitive move in business: actively choosing NOT to ser
 
 Customers scoring below 8/15 are diluting your future.
 
+### Step 3.5: The Freelancer Better-Clients Ladder (added 2026-07-16, Mel Robbins interview)
+
+The Gajist model assumes subscriber/business scale. A freelancer can't have fewer, better subscribers — they need a CLIENT ladder. When the business is one person doing the work, run this instead of forcing Step 1's frame:
+
+> "How do you get ahead if you're a freelancer? It's simple. Get better clients. Better clients challenge you more, pay you more, talk about you more. You can't have more clients, cuz you're a freelancer. But you can have better clients."
+
+**The ladder**:
+1. **The Chip Kidd standard** — name what "top of the ladder" looks like in your craft. Chip Kidd designs roughly thirty book covers a year (as Godin tells it), and "No one goes to Chip and argues with him about typography." Whose position is that in your field?
+2. **The migration rule** — "you don't get to be that by doing a good job for bad clients. You do that by showing up where freelancers for good clients show up, doing work that freelancers for good clients do." List where those rooms are; doing great work for the wrong clients builds a reputation among the wrong clients.
+3. **The price direction** — moving up the ladder "doesn't mean you're cheaper." Better clients pay more; cheaper is the down-ladder signal.
+4. **The time guard** — "if you're a freelancer, guard your time like gold, cuz you don't get it back." Every hour on a bad-fit client is the asset spent; no leverage exists to earn it back.
+5. **The dead-zone warning** — do not solve freelancer ceiling by hiring: "don't imagine you can hire 30 versions of you, but who work cheaper. Not going to happen." Ladder up or become an entrepreneur deliberately; the in-between is the 8-to-30-person dead zone.
+
+**Output**: current rung → next rung (named client types) → the two rooms to show up in this quarter.
+
 ### Step 4: The "Less Famous, More Trusted" Flip
 
 > Godin: "The answer isn't how do I get more famous? The answer is how do I get less famous and more trusted?"
@@ -124,6 +139,7 @@ FAME VS. TRUST REBALANCE:
 |-----------|-----------------|
 | Gajist Number | Specific, justified quality cap defined |
 | Customer Selection | Clear criteria for who to serve and who to stop pursuing |
+| Freelancer Ladder (if solo operator) | Next rung named as client types + two rooms identified; no hire-30-cheaper-versions plans |
 | Fame/Trust Audit | At least 2 fame-only activities identified for cutting |
 | "Enough" Definition | Concrete numbers, not vague aspirations |
 
