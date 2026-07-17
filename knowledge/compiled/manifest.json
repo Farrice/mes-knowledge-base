@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-17T14:05:39.198496",
+  "generated": "2026-07-17T14:19:46.896198",
   "total_files": 667,
-  "total_words": 2695308,
-  "total_tokens_est": 3584759,
+  "total_words": 2695337,
+  "total_tokens_est": 3584798,
   "stale_files_30d": 454,
   "domains": {
     "content": 230,
@@ -1977,11 +1977,11 @@
       "parent": "knowledge",
       "domain": "content",
       "expert": null,
-      "word_count": 4610,
-      "modified": "2026-07-17T08:30:06.988906",
+      "word_count": 4615,
+      "modified": "2026-07-17T14:05:39.208100",
       "age_days": 0,
-      "size_bytes": 78118,
-      "content_hash": "fa3d3e27",
+      "size_bytes": 78231,
+      "content_hash": "cde6dc13",
       "has_frontmatter": false
     },
     {
@@ -1990,10 +1990,10 @@
       "parent": "knowledge",
       "domain": "general",
       "expert": null,
-      "word_count": 12450,
-      "modified": "2026-07-17T14:05:38.899950",
+      "word_count": 12474,
+      "modified": "2026-07-17T14:19:46.496075",
       "age_days": 0,
-      "size_bytes": 97483,
+      "size_bytes": 97676,
       "content_hash": "5a51f947",
       "has_frontmatter": false
     },
@@ -7959,7 +7959,7 @@
       "expert": null,
       "word_count": 2746,
       "modified": "2026-03-12T14:12:13.287972",
-      "age_days": 126,
+      "age_days": 127,
       "size_bytes": 19145,
       "content_hash": "2d2260d8",
       "has_frontmatter": false
@@ -8063,7 +8063,7 @@
       "expert": null,
       "word_count": 3820,
       "modified": "2026-04-24T14:07:05.531556",
-      "age_days": 83,
+      "age_days": 84,
       "size_bytes": 36113,
       "content_hash": "62310740",
       "has_frontmatter": false
@@ -8167,7 +8167,7 @@
       "expert": "nicolas-cole",
       "word_count": 1351,
       "modified": "2026-06-02T14:17:45.727903",
-      "age_days": 44,
+      "age_days": 45,
       "size_bytes": 10534,
       "content_hash": "813836bd",
       "has_frontmatter": false
@@ -8180,7 +8180,7 @@
       "expert": null,
       "word_count": 1534,
       "modified": "2026-06-02T14:18:20.512710",
-      "age_days": 44,
+      "age_days": 45,
       "size_bytes": 10962,
       "content_hash": "8efecb80",
       "has_frontmatter": false
@@ -8193,7 +8193,7 @@
       "expert": null,
       "word_count": 1270,
       "modified": "2026-06-02T14:15:42.499308",
-      "age_days": 44,
+      "age_days": 45,
       "size_bytes": 9504,
       "content_hash": "147b3c91",
       "has_frontmatter": false
@@ -8206,7 +8206,7 @@
       "expert": "april-dunford",
       "word_count": 1166,
       "modified": "2026-06-02T14:17:44.810997",
-      "age_days": 44,
+      "age_days": 45,
       "size_bytes": 8398,
       "content_hash": "03e2265a",
       "has_frontmatter": false
@@ -8219,7 +8219,7 @@
       "expert": null,
       "word_count": 1388,
       "modified": "2026-06-02T14:16:49.620376",
-      "age_days": 44,
+      "age_days": 45,
       "size_bytes": 9619,
       "content_hash": "238b0089",
       "has_frontmatter": false
@@ -8232,7 +8232,7 @@
       "expert": "dai-media",
       "word_count": 1774,
       "modified": "2026-06-02T14:16:08.545966",
-      "age_days": 44,
+      "age_days": 45,
       "size_bytes": 12354,
       "content_hash": "e3474b65",
       "has_frontmatter": false

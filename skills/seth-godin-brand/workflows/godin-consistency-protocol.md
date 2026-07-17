@@ -39,6 +39,14 @@ Godin's position: "Authenticity is a crock. Authenticity is overrated. Authentic
 
 If the answer is no — why would your customers want authentic inconsistency from you?
 
+**The Cranky-Tuesday Exchange (added 2026-07-17, Mel Robbins interview Part 2)** — the live diagnostic version, run it on the operator:
+
+> "Did you ever have a day this year where you were just really off, a little cranky, not your best?" ... "When you were like that and you got behind the microphone to record an episode, were you authentically cranky and subpar, or did you show up as the consistently magical version of Mel Robbins that you're capable of?"
+
+Everyone answers "I showed up consistently" — which ends the authenticity argument with their own behavior. Follow with the scope note: *"authenticity is for your best friend, maybe for someone in your family... what everyone else wants from you is for you to make the story of you true."* And the excuse ban: *"you don't get to use the get out of jail free card of I was just being authentic. That's social media talk for I was being a jerk."*
+
+**The becoming mechanism** — consistency compounds into identity: *"We become what we do. If you want to be a truthful person, start telling the truth and you'll become a truthful person."* Burnout guardrail (cross-ref `/godin-personal-brand-role` smock ritual): never install a consistent role diametric with who the operator wants to be.
+
 ### Step 2: The George Clooney Model
 
 > "George Clooney doesn't say 'George Clooney would never say that' because he's not George Clooney. He's an actor."

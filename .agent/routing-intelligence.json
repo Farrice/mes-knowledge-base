@@ -7244,6 +7244,42 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260717_211718_7b99",
+            "timestamp": "2026-07-17T21:17:18.623280+00:00",
+            "session_id": "9b1d8dcc-3449-4562-a0bd-a9d059f7e32f",
+            "request_summary": "Next Moves\n\nDeepen: /gmind-pick-yourself the three warm-intro asks — I've been waiting to feel ready to send them (part 2's flagship move pointed at the sprint's live blocker)\nAdjacent: Build amplify ",
+            "intent_score": 0,
+            "domain_detected": "henry-shukman-contemplative-writing",
+            "experts_deployed": [
+                "henry-shukman-contemplative-writing",
+                "dara-denney-meta-ads",
+                "joey-cinema-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "henry-shukman-contemplative-writing",
+            "ensemble": true,
+            "compound_pairing": "henry-shukman-contemplative-writing + dara-denney-meta-ads + joey-cinema-os",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260717_211946_2d70",
+            "timestamp": "2026-07-17T21:19:46.481594+00:00",
+            "session_id": "",
+            "request_summary": "Pick-Yourself Plan on the three warm-intro asks (hiding structure named as one-more-improvement-first; unit = 1 spoken ask + 1 send-ready MIRROR-register DM tonight; attachment removed via gift-frame ",
+            "intent_score": 9,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "seth-godin"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "gmind-pick-yourself",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -7691,7 +7727,7 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 401,
+            "total_routings": 403,
             "total_feedback": 49,
             "positive_count": 0,
             "negative_count": 0,
@@ -7700,7 +7736,7 @@
                 "System": 58,
                 "Client Work": 14,
                 "Analysis": 6,
-                "Strategy": 21,
+                "Strategy": 22,
                 "Creative": 8,
                 "Legal Consult Prep": 1,
                 "Content": 42,
@@ -7758,7 +7794,8 @@
                 "lara-acosta-linkedin-mastery": 1,
                 "dai-media-consumer-posture": 2,
                 "paul-harding-lyric-prose": 4,
-                "youtube-video-context-analysis": 1
+                "youtube-video-context-analysis": 1,
+                "henry-shukman-contemplative-writing": 1
             },
             "expert_counts": {
                 "system-audit": 19,
@@ -7858,7 +7895,7 @@
                 "icp-deep-canvasser": 1,
                 "donald-miller-cognitive-load": 1,
                 "luke-iha-unaware-ads": 2,
-                "dara-denney-meta-ads": 15,
+                "dara-denney-meta-ads": 16,
                 "fantastic-posters": 8,
                 "nate-b-jones-intent-engineering": 1,
                 "evan-spiegel-distribution-architecture": 2,
@@ -7900,7 +7937,7 @@
                 "Lara Acosta: Tech Founder Content System": 1,
                 "dan-martell-business-scaling": 1,
                 "luisa-zhou-coaching": 1,
-                "joey-cinema-os": 4,
+                "joey-cinema-os": 5,
                 "banana-pro-director": 1,
                 "cinema-worldbuilder-pro": 2,
                 "story-bible-builder": 2,
@@ -7910,7 +7947,7 @@
                 "sean-dollwet-kdp-publishing": 4,
                 "sean-dollwet": 1,
                 "kallaway": 1,
-                "henry-shukman-contemplative-writing": 1,
+                "henry-shukman-contemplative-writing": 2,
                 "fresh-voice-system": 4,
                 "luke-iha-creative-strategy": 4,
                 "market-intelligence": 1,
@@ -7939,7 +7976,7 @@
                 "geoff-woods": 1,
                 "dan-koe-ai-leverage": 1,
                 "jenny-hoyos-shorts": 2,
-                "seth-godin": 2,
+                "seth-godin": 3,
                 "monk-ai-offer-architecture": 1,
                 "lara-acosta-linkedin-mastery": 1,
                 "lamott-allen-really-real-writing": 2,
@@ -7948,7 +7985,7 @@
                 "youtube-video-context-analysis": 1
             },
             "tier_counts": {
-                "0": 401,
+                "0": 403,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -7956,10 +7993,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 223,
-                "finalize-auto": 178
+                "hybrid": 224,
+                "finalize-auto": 179
             },
-            "ensemble_count": 294,
+            "ensemble_count": 295,
             "auto_miss_count": 38,
             "auto_match_count": 11
         }

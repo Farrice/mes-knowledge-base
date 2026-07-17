@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** godin-marketing-mind  
-**Full path:** .agent/handoffs/2026-07-17-godin-marketing-mind.md  
-**Date:** 2026-07-17 (today)  
-**Status:** active  
-**Title:** Pick-Yourself Plan on the three warm-intro asks (hiding structure named as one-more-improvement-first; unit = 1 spoken ask + 1 send-ready MIRROR-register DM tonight; attachment removed via gift-frame + zero-invisible + catastrophe-chain audit) + amplify picks 14/15 built (smock ritual -> personal-brand-role, cranky-Tuesday diagnostic + becoming mechanism -> consistency-protocol, with honest correction that the surgeon test already existed)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume godin-marketing-mind` for this one.
-
----
-
 ---
 thread: godin-marketing-mind
 status: active
@@ -23,4 +11,3 @@ pin: true
 **Next session focus**: Resume the `godin-marketing-mind` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (gmind-pick-yourself)._
-

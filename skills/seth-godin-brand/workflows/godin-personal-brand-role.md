@@ -32,6 +32,12 @@ Define the ROLE a personal brand plays — distinct from the person behind it. A
 2. **Role Purpose**: What does this role exist to do for the audience?
 3. **Role Boundaries**: What topics/behaviors are IN the role vs. OUT of the role?
 
+**The Smock Ritual (added 2026-07-17, Mel Robbins interview Part 2)** — give the role a physical on/off switch:
+
+> "When I go to work walking there with my dog, I'm Seth Godin, small s, small g. But when I get to work and I put on this smock, I am the person who's written 10,000 blog posts and 20 bestsellers. That's a role I play and my job is to play it consistently."
+
+Design the operator's smock — a garment, a location, a ritual act that marks role-on/role-off. Then install the daily practice: *"if I was playing the role of the best version of me, what would that be like? And at first, it feels really odd to play the role of you, but pretty quickly you can live into it."* Guardrail, verbatim: *"you should not adopt a consistent role that is diametric with who you want to be. That will burn you out. That will break you. Don't do that."*
+
 | Element | The Person (private) | The Role (public) |
 |---------|---------------------|-------------------|
 | Mood | Variable | Consistent |
