@@ -7098,6 +7098,25 @@
             "ensemble": true,
             "compound_pairing": "paul-harding-lyric-prose + deliberate + dara-denney-meta-ads",
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260717_151152_433c",
+            "timestamp": "2026-07-17T15:11:52.124295+00:00",
+            "session_id": "62d25167-13a8-4f03-a24f-4f10ed498188",
+            "request_summary": "run /go and /watch and /extract on this video and produce Workflow skills and enhancements and enrichment, but also a complete OS for this framework that Daniel Priestley gives us. I think it's truly ",
+            "intent_score": 0,
+            "domain_detected": "dai-media-consumer-posture",
+            "experts_deployed": [
+                "dai-media-consumer-posture",
+                "brad-bonanno-explainer-architecture",
+                "luke-iha-insight-vectors"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "dai-media-consumer-posture",
+            "ensemble": true,
+            "compound_pairing": "dai-media-consumer-posture + brad-bonanno-explainer-architecture + luke-iha-insight-vectors",
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -7536,7 +7555,7 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 393,
+            "total_routings": 394,
             "total_feedback": 48,
             "positive_count": 0,
             "negative_count": 0,
@@ -7601,7 +7620,7 @@
                 "story-bible-builder": 1,
                 "lara-acosta-linkedin-growth": 1,
                 "lara-acosta-linkedin-mastery": 1,
-                "dai-media-consumer-posture": 1,
+                "dai-media-consumer-posture": 2,
                 "paul-harding-lyric-prose": 1
             },
             "expert_counts": {
@@ -7716,7 +7735,7 @@
                 "jeremy-miner-identity-persuasion": 1,
                 "oren-one-person-ai-marketer": 2,
                 "system-orchestration": 3,
-                "luke-iha-insight-vectors": 8,
+                "luke-iha-insight-vectors": 9,
                 "story-compass": 3,
                 "dr-kriukow-humanization": 1,
                 "susan-orlean-narrative-nonfiction": 2,
@@ -7726,7 +7745,7 @@
                 "boris-claude-code": 4,
                 "kallaway-social-commerce": 1,
                 "kallaway-addictive-storytelling": 1,
-                "brad-bonanno-explainer-architecture": 1,
+                "brad-bonanno-explainer-architecture": 2,
                 "enrico-incarnati-instagram-realestate": 1,
                 "oren-brand-archetypes": 1,
                 "luke-iha-proof-ladder": 1,
@@ -7787,10 +7806,10 @@
                 "monk-ai-offer-architecture": 1,
                 "lara-acosta-linkedin-mastery": 1,
                 "lamott-allen-really-real-writing": 2,
-                "dai-media-consumer-posture": 1
+                "dai-media-consumer-posture": 2
             },
             "tier_counts": {
-                "0": 393,
+                "0": 394,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -7798,10 +7817,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 218,
+                "hybrid": 219,
                 "finalize-auto": 175
             },
-            "ensemble_count": 289,
+            "ensemble_count": 290,
             "auto_miss_count": 37,
             "auto_match_count": 11
         }
