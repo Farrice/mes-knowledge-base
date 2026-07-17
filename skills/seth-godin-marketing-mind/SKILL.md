@@ -1,6 +1,6 @@
 ---
 name: seth-godin-marketing-mind
-description: Operationalizes HOW Seth Godin thinks — the strategic reasoning sequence he runs on every question, extracted from his Mel Robbins interview (released 2026-07-16). The 4th Godin layer, above the frameworks — trap detection in questions, premise replacement ("answer a different question"), fuzzy-word splitting (entrepreneur/freelancer, decision/outcome, hobby/business), the who's-it-for reset with exclusion clauses and sufficiency numbers, "compared to what?" metric interrogation, and emotion-to-experiment conversion. Flagship /godin-lens is a thinking-partner mode: bring any marketing/positioning/business problem and it gets reasoned through the way Godin reasons, training the operator's judgment. Use when a strategy question feels like it has a trap in it, when positioning claims "everyone," when a freelancer is burning out doing every job, when a quit-vs-persist decision looms, when fear is stalling a launch, or when metrics anxiety is driving decisions. Does NOT cover brand promise architecture or AI-era marketing (route to seth-godin-brand), spread mechanics (seth-godin-ideavirus), or resistance/shipping depth (seth-godin-philosophy).
+description: Operationalizes HOW Seth Godin thinks — the strategic reasoning sequence he runs on every question, extracted from his two-part Mel Robbins interview (released 2026-07-16). The 4th Godin layer, above the frameworks — trap detection in questions (five families incl. waiting-for-permission), premise replacement ("answer a different question"), fuzzy-word splitting (entrepreneur/freelancer, decision/outcome, hobby/business, problem/situation, but/and, the three qualities), the who's-it-for reset with exclusion clauses and sufficiency numbers, "compared to what?" metric interrogation, emotion-to-experiment conversion, pick-yourself unit design, and "merely ship it" (never "just ship it") shipping discipline. Flagship /godin-lens is a thinking-partner mode: bring any marketing/positioning/business problem and it gets reasoned through the way Godin reasons, training the operator's judgment. Use when a strategy question feels like it has a trap in it, when positioning claims "everyone," when a freelancer is burning out doing every job, when a quit-vs-persist decision looms, when fear or perfectionism is stalling a launch, when someone has been waiting for permission ("they won't let me," "once I'm invited"), or when metrics anxiety is driving decisions. Does NOT cover brand promise architecture or AI-era marketing (route to seth-godin-brand), spread mechanics (seth-godin-ideavirus), or resistance/shipping depth (seth-godin-philosophy).
 expert: Seth Godin
 domain: Strategic marketing reasoning × premise interrogation × business-model diagnosis
 ---
@@ -8,7 +8,7 @@ domain: Strategic marketing reasoning × premise interrogation × business-model
 # Seth Godin — Marketing Mind (Strategic Reasoning Layer)
 
 > **Agent**: seth-godin | **Domain**: Strategic Reasoning + Premise Interrogation + Business Diagnosis
-> **Source**: Mel Robbins Podcast × Seth Godin, released 2026-07-16 (`extractions/seth-godin-marketing-mind/`)
+> **Source**: Mel Robbins Podcast × Seth Godin, released 2026-07-16 in TWO parts — Part 1 (marketing/business mind) + Part 2 (self-leadership/creating mind: pick yourself, but→and, merely-ship-it) (`extractions/seth-godin-marketing-mind/`)
 > **Genius Patterns**: [`genius.md`](genius.md)
 > **Position in the Godin stack**: 4th layer — the reasoning mind above seth-godin-brand (frameworks), seth-godin-ideavirus (spread), seth-godin-philosophy (shipping)
 
@@ -51,7 +51,8 @@ The existing Godin trio captures his conclusions. This skill captures his proces
 | 9 | [09-quit-or-dip](workflows/09-quit-or-dip.md) | `/gmind-quit-or-dip` | Quit-or-Dip Memo — dip/slope classification + sunk-costs-as-gift + decision test |
 | 10 | [10-three-plans](workflows/10-three-plans.md) | `/gmind-three-plans` | Three Plans — completely different scales/models, whole-brain rule |
 | 11 | [11-criticism-protocol](workflows/11-criticism-protocol.md) | `/gmind-criticism-protocol` | Criticism Response — enrollment check, it's-not-for-you, boundary design |
-| 12 | [12-ship-check](workflows/12-ship-check.md) | `/gmind-ship-check` | Ship Verdict — meeting-spec test, how-dare-you-hold-it-back |
+| 12 | [12-ship-check](workflows/12-ship-check.md) | `/gmind-ship-check` | Ship Verdict — three qualities, "merely ship it," how-dare-you-hold-it-back |
+| 15 | [15-pick-yourself](workflows/15-pick-yourself.md) | `/gmind-pick-yourself` | Pick-Yourself Plan — hiding structure named, PDF-to-20-class unit shipped as a gift (Part 2) |
 
 ### Tier 3 — Application & Stacking
 
@@ -78,6 +79,7 @@ The existing Godin trio captures his conclusions. This skill captures his proces
 | Defending one plan too hard | `10-three-plans` |
 | A bad review ruined the week | `11-criticism-protocol` |
 | "It's not ready yet" | `12-ship-check` |
+| "They won't let me" / waiting to be invited / sitting on it for years | `15-pick-yourself` |
 | "Apply this to my actual projects" | `13-farrice-map` |
 | Needs brand/viral/shipping depth instead | `14-godin-stack` |
 
@@ -109,13 +111,14 @@ Would Godin recognize this output as his — or as someone using his vocabulary?
 
 ## Execution Prompts (structure-pure v2)
 
-10 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+11 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Seth Godin — Client Portfolio Audit** — `skills/seth-godin-marketing-mind/references/prompts-v2/client-portfolio-audit.md`
 - **Seth Godin — Farrice Application Map** — `skills/seth-godin-marketing-mind/references/prompts-v2/farrice-application-map.md`
 - **Seth Godin — Fear Experiment** — `skills/seth-godin-marketing-mind/references/prompts-v2/fear-experiment.md`
 - **Seth Godin — Godin Lens Session** — `skills/seth-godin-marketing-mind/references/prompts-v2/godin-lens-session.md`
 - **Seth Godin — Hire-Yourself Audit** — `skills/seth-godin-marketing-mind/references/prompts-v2/hire-yourself-audit.md`
+- **Seth Godin — Pick-Yourself Plan** — `skills/seth-godin-marketing-mind/references/prompts-v2/pick-yourself-plan.md`
 - **Seth Godin — Positioning Card** — `skills/seth-godin-marketing-mind/references/prompts-v2/positioning-card.md`
 - **Seth Godin — Premise Audit Report** — `skills/seth-godin-marketing-mind/references/prompts-v2/premise-audit-report.md`
 - **Seth Godin — Quit-or-Dip Memo** — `skills/seth-godin-marketing-mind/references/prompts-v2/quit-or-dip-memo.md`

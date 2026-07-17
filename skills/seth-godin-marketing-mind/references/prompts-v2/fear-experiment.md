@@ -38,6 +38,9 @@ Audit [CURRENT OPENER] for whether it can be answered with a flat no. Godin's Gi
 ### Step 6 — Set the Fear Posture
 Close with the standing instruction, not a promise of relief: *"We should name the fear. We cannot make it go away, but we can dance with it. Well, guess what? Transacting with strangers is going to trigger fear. It's the shadow, it's the same thing, two sides of the same coin. Do not deny it, do not pretend it's going to go away, it's real."* The experiment doesn't cure the fear — it runs alongside it. Flag any plan that depends on the fear disappearing first as a substitute activity in disguise.
 
+### Step 5.5 — Two Defusal Designs (Part 2)
+When the experiment still won't run, apply either or both: (1) **Name the catastrophe chain aloud** — *"I will make a mistake. It will cause me shame. I will be ostracized from my community. I will be alone. And then I will die"* — the two-second absurdity is the defusal (*"lipstick on your teeth is going to cause you to be dead"*); (2) **Zero-invisible launch design** — structure it so a silent result stays private, per the 1973 museum exemplar: *"if no one comes, no one will know that no one came"* (then 5,000 people in line). Assumed-name on-ramp allowed, with the 100-day name-it check.
+
 ## Output Contract
 
 Deliver exactly these components, in this order:

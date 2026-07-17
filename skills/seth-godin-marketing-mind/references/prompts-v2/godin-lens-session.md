@@ -32,6 +32,7 @@ Scan [THE PROBLEM] for which of the four trap families is doing invisible work:
 | Hustle-through | "work harder," "do more," "push through" | *"That zone of eight people or 18 people or 30 people... Don't fall into that zone."* |
 | Outcome-judgment | "it failed, so...," "it worked, so..." | *"They're completely unrelated. If you buy a lottery ticket and win the lottery, you made a bad decision."* |
 | Founder-centrality | "my personal brand," "being authentic everywhere" | *"If you're showing up saying, 'I am authentically me, please punch me in the face'... It should be about the customer."* |
+| Waiting-for-permission | "they won't let me," "once I'm invited," "when I'm ready" | *"No one's forcing you to not wait. You're choosing to wait... Congratulations. You've built a perfect place to hide."* |
 
 If a trap is present: name it first, in one line, before anything else — no cushioning, no "great question, but." If no trap fits cleanly, say so; a forced trap is worse than none. Then locate the six-months-from-now question — what the operator will actually be blocked by once the asked question is solved (the granola move: asked about Saturday's farmers market, answered about supply chains and how you want to spend your day).
 

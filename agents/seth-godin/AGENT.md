@@ -93,6 +93,7 @@ A fourth layer, **strategic reasoning** (seth-godin-marketing-mind, extracted fr
 | Ship Check | 12-ship-check.md | "It's not ready yet" |
 | Farrice Map | 13-farrice-map.md | Fan a principle across Farrice's active projects |
 | Godin Stack | 14-godin-stack.md | Route into brand/ideavirus/philosophy depth |
+| Pick Yourself (Part 2) | 15-pick-yourself.md | "They won't let me" / waiting-for-permission → smallest shippable unit as a gift |
 
 ## Activation Triggers
 

@@ -1,26 +1,26 @@
 # Knowledge Briefing
-*Generated: 2026-07-17 | 666 sources | 2,692,913 words*
+*Generated: 2026-07-17 | 667 sources | 2,695,308 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **assembly-rubric** (strategy) — 145 words — `knowledge/assembly-rubric.md`
-- **2026-07-16-pressure-test-whether-farrice-cain-should-pivot** (strategy [april-dunford]) — 1,565 words — `knowledge/assembly-sessions/2026-07-16-pressure-test-whether-farrice-cain-should-pivot.md`
-- **2026-07-16-re-convene-with-material-new-evidence-update-the** (strategy [dai-media]) — 1,349 words — `knowledge/assembly-sessions/2026-07-16-re-convene-with-material-new-evidence-update-the.md`
 - **index** (content) — 4,610 words — `knowledge/index.md`
-- **log** (general) — 12,425 words — `knowledge/log.md`
-- **BONUS-pricing-offer-page** (content) — 719 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/BONUS-pricing-offer-page.md`
-- **piece-1-what-is-marketing-context-engineering** (content) — 1,766 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/piece-1-what-is-marketing-context-engineering.md`
-- **piece-2-how-to-scope-ai-projects** (content) — 3,401 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/piece-2-how-to-scope-ai-projects.md`
-- **piece-3-hermes-orchestrator-claude-code** (systems) — 3,267 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/piece-3-hermes-orchestrator-claude-code.md`
+- **log** (general) — 12,450 words — `knowledge/log.md`
 - **extraction-report** (content) — 607 words — `extractions/daniel-priestley-sll-engine/extraction-report.md`
+- **visual-context** (content) — 390 words — `extractions/daniel-priestley-sll-engine/visual-context.md`
+- **amplification-report** (screenwriting) — 3,114 words — `extractions/geoff-woods/amplification-report.md`
+- **vision** (strategy) — 1,407 words — `extractions/geoff-woods/vision.md`
+- **visual-context** (content) — 27,999 words — `extractions/geoff-woods/visual-context.md`
+- **blind-pass-generated-v2-2026-07-16** (content [lara-acosta]) — 1,408 words — `extractions/jenny-hoyos-shorts/blind-pass-generated-v2-2026-07-16.md`
+- **blind-pass-log** (content) — 276 words — `extractions/jenny-hoyos-shorts/blind-pass-log.md`
+- **amplification-report** (content) — 2,596 words — `extractions/seth-godin-marketing-mind/amplification-report.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 229 | nicolas-cole |
+| content | 230 | nicolas-cole |
 | copywriting | 97 | luke-iha |
 | general | 83 | nick-saraev |
 | strategy | 67 | april-dunford |

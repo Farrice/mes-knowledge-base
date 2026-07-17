@@ -30,6 +30,7 @@ Read the question for which of the four trap families is doing invisible work:
 - **Hustle trap** — the question assumes more effort, more hours, more clients is the fix. *"There's a dead zone in between there... that zone of eight people or 18 people or 30 people where you're doing all the jobs, you're not getting paid enough, you're too busy to do anything, and you're stressed out of your mind."*
 - **Outcome-judgment trap** — the question judges a choice by how it turned out. *"Did it turn out well?" "Yeah." "That's what everybody says. They're completely unrelated."*
 - **Founder-centrality trap** — the question assumes the person has to be the face, the maker, the one answering every review. *"I am authentically me, please punch me in the face... it should be about the customer."*
+- **Waiting-for-permission trap** (Part 2) — the question assumes someone else authorizes the start: a publisher, a platform, a boss, an audience threshold, "feeling ready." *"No one's forcing you to not wait. You're choosing to wait. What a safe, lovely place to hang out... Congratulations. You've built a perfect place to hide."* Route rich cases to `/gmind-pick-yourself`.
 
 Do not proceed until one trap family is named. If none fits cleanly, say so — a forced trap is worse than no trap.
 

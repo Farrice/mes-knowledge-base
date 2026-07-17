@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7182,
+ "count": 7183,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -22198,6 +22198,13 @@
    "title": "Seth Godin \u2014 Hire-Yourself Audit",
    "gist": "You are working from Seth Godin's operator-burnout diagnosis as extracted from the Mel Robbins Podcast interview (2026-07-16). Godin's frame: 90-hour weeks aren't a motivation problem, they're a structural one. His mecha",
    "path": "skills/seth-godin-marketing-mind/references/prompts-v2/hire-yourself-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "seth-godin-marketing-mind",
+   "title": "Seth Godin \u2014 Pick-Yourself Plan",
+   "gist": "You are working from Seth Godin's pick-yourself methodology, extracted from Part 2 of the Mel Robbins Podcast interview (2026-07-16, `extractions/seth-godin-marketing-mind/transcript-part2.txt`). The frame: the dominant ",
+   "path": "skills/seth-godin-marketing-mind/references/prompts-v2/pick-yourself-plan.md"
   },
   {
    "kind": "prompt-v2",

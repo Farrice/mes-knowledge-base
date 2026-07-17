@@ -1,5 +1,5 @@
 ---
-description: "Operationalizes HOW Seth Godin thinks — the strategic reasoning sequence he runs on every question, extracted from his Mel Robbins interview (released 2026-07-16). The 4th Godin layer, above the frameworks — trap detection in questions, premise replacement ('answer a different..."
+description: "Operationalizes HOW Seth Godin thinks — the strategic reasoning sequence he runs on every question, extracted from his two-part Mel Robbins interview (released 2026-07-16). The 4th Godin layer, above the frameworks — trap detection in questions (five families incl. waiting-for..."
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 

@@ -43,6 +43,11 @@ Build a version of the isolated interaction that can run this week, using the sa
 
 Audit the Current Opener for whether it can be answered with a flat no. Godin's Girl Scout case: *"I've trained thousands of Girl Scouts how to sell Girl Scout cookies... these 9-year-olds would yell, 'Want to buy some Girl Scout cookies?' And everyone's going to the supermarket, so they just would walk right by."* His redesign replaced the ask with a question everyone already has an answer to: *"What's your favorite kind of Girl Scout cookie?' It turns out everyone has an answer to that question... Their sales went through the roof cuz they got over the hard part of the interaction."* Rewrite the operator's opener the same way — find a question that invites an answer instead of a verdict, so engagement happens before commitment is requested.
 
+### Step 5.5: Two Defusal Designs (Part 2 additions)
+
+- **Name the catastrophe chain out loud.** The full progression, at speed: *"I will make a mistake. It will cause me shame. I will be ostracized from my community. I will be alone. And then I will die. And so we can do that whole progression in less than two seconds."* Have the operator say their version aloud; the absurdity is the defusal — *"it's so absurd that lipstick on your teeth is going to cause you to be dead."*
+- **Zero-invisible launch design** (the mom exemplar): his mother, nervous before her 1973 museum event — *"what if no one comes?... Well, if no one comes, no one will know that no one came."* Next day: 5,000 people in line. Redesign the experiment so a silent result stays private while a win compounds publicly. The design isn't cowardice; it's what made holding the event possible at all. On-ramp variant: run it under an assumed name — *"after 100 days, you'll want to put your name on it."*
+
 ### Step 6: Set the Fear Posture
 
 Close with the standing instruction, not a promise of relief: *"We should name the fear. We cannot make it go away, but we can dance with it. Well, guess what? Transacting with strangers is going to trigger fear. It's the shadow, it's the same thing, two sides of the same coin. Do not deny it, do not pretend it's going to go away, it's real."* The experiment doesn't cure the fear — it runs alongside it. Flag any plan that depends on the fear disappearing first as a substitute activity in disguise.

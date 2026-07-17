@@ -1,9 +1,9 @@
 # Knowledge Index
-*666 sources | 2,692,913 words | Updated: 2026-07-17*
+*667 sources | 2,695,308 words | Updated: 2026-07-17*
 
 ---
 
-## Content (229 files)
+## Content (230 files)
 
 - [video-context-ledger](../extractions/video-context/3iR3kHxCwfo/video-context-ledger.md) — 75,408 words
 - [Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them](extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md) — 60,850 words (stale)
@@ -72,13 +72,13 @@
 - [extraction-report](../extractions/rachel-woods/extraction-report.md) — 2,678 words (stale)
 - [visual-context](../extractions/joey-cinema-v1/visual-context.md) — 2,655 words
 - [extraction-report](../extractions/sherwin-wu/extraction-report.md) — 2,605 words (stale)
+- [amplification-report](../extractions/seth-godin-marketing-mind/amplification-report.md) — 2,596 words
 - [turbokvant-context-engineering-extraction](../extractions/nate-b-jones/turbokvant-context-engineering-extraction.md) [nick-saraev] — 2,586 words (stale)
 - [extraction-report](../extractions/alex-content-science/extraction-report.md) [oren-john] — 2,540 words (stale)
 - [2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the](council-sessions/2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the.md) [lara-acosta] — 2,537 words
 - [master_playbook_draft](creative-direction/guides/master_playbook_draft.md) — 2,474 words (stale)
 - [DESIGN](design-libraries/brands/ollama/DESIGN.md) — 2,427 words
 - [word-mastery-extraction](../extractions/kallaway/word-mastery-extraction.md) [kallaway] — 2,363 words (stale)
-- [amplification-report](../extractions/seth-godin-marketing-mind/amplification-report.md) — 2,333 words
 - [extraction-report](../extractions/jonathan-courtney/extraction-report.md) — 2,301 words (stale)
 - [extraction-report](../extractions/sean-mabry/extraction-report.md) — 2,294 words (stale)
 - [DESIGN](design-libraries/brands/elevenlabs/DESIGN.md) — 2,289 words
@@ -88,6 +88,7 @@
 - [extraction-report](../extractions/nicolas-cole-client-acquisition/extraction-report.md) [nicolas-cole] — 2,147 words (stale)
 - [linkedin-algorithm-2026](frameworks/linkedin-algorithm-2026.md) — 2,127 words (stale)
 - [extraction-report](../extractions/kieran-flanagan/extraction-report.md) [kieran-flanagan] — 2,108 words (stale)
+- [extraction-report-part2](../extractions/seth-godin-marketing-mind/extraction-report-part2.md) — 2,107 words
 - [oren-systems-extraction-report](../extractions/oren/oren-systems-extraction-report.md) [oren-john] — 2,106 words (stale)
 - [extraction-report](../extractions/darrel-wilson-affiliate-marketing/extraction-report.md) — 2,083 words (stale)
 - [ghostwriting_niche_selection](../research_outputs/ghostwriting_niche_selection.md) [nicolas-cole] — 2,069 words
@@ -352,7 +353,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 12,425 words
+- [log](log.md) — 12,450 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words

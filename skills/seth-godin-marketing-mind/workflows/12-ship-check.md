@@ -34,6 +34,15 @@ State the reframe as delivered — pressure, not comfort: *"If what you're offer
 
 Spec isn't a vague standard — it's the answer to who's-it-for and what's-it-for, already defined. If those two questions have specific answers (cross-reference `/gmind-two-questions`), spec is knowable, and the test is binary: does this thing do the job it was built to do for the person it was built for? *"How dare you take this thing that isn't perfect but is meeting spec, that is good enough."* Meeting spec and being perfect are different bars — only the first one is required to ship.
 
+### Step 3.5: The Three Qualities + "Merely Ship It" (Part 2)
+
+Split "quality" before it does hidden work — it means three different things:
+1. **Meets spec** — *"a 1984 Toyota Camry, it does exactly what it's supposed to do all the time."* Detroit 1969 needed rubber mallets to fit the parts; *"In Japan, everything fit together like a watch."* And the cap: *"that doesn't mean you want to be better than the spec. That's a waste. Just meets spec."*
+2. **Luxury** — *"a Rolls-Royce is a more quality car than a Camry. No, it's just more luxurious."* A positioning choice, not a bar to clear.
+3. **Zero-defect** — *"the kind we use as an excuse to be a perfectionist... The point of perfectionism is not to make it better. It's to keep you from shipping it."* Proofs: *"no one has ever published a perfect book ever"*; one word in The Great Gatsby could still be improved; the Let Them Theory shipped with ~117 typos and *"the deliverable of the book is not an error."*
+
+Then the correction that governs this whole workflow's tone: *"I have never said just ship it. I say merely ship it. They're different. Just ship it means this is junk... Merely ship it means this has met spec. Here, I made this."* The verdict language below is merely-ship, never just-ship. Closing rule: *"What's the spec? The minute that is met, it's gone... If you don't like the spec, make a better spec."*
+
 ### Step 4: Risk Calibration
 
 Size the actual downside of shipping something that turns out not to work: *"If it doesn't work, a few people discovered it didn't work. You're not doing surgery, it's okay. Go make it better. If it does work, go do the new thing."* Most withheld work is being protected from a risk that doesn't match its actual stakes — a flyer, a draft, a menu item is reversible. Naming the real (usually small) cost of a miss is often what unsticks the ship decision on its own.

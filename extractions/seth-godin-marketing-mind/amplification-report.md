@@ -130,4 +130,16 @@ Priority-ordered. Conservative: no BUILD recommendations — every MISSED/LATENT
 | 10 | Log Creative Application lane ideas | LOG-ONLY | — | Especially the upstream-premise-gate idea, which the extraction-report already flagged independently — converging signal, still flag-only |
 | 11 | Log fresh-source candidate | LOG-ONLY | — | "Disposable software" blog post — future seth-godin-brand cycle, not this one |
 
+## Part-2 Shelf Addendum (2026-07-16, after `cWZI2RyI9wM` gap-diff — Farrice picks)
+
+Status note: actions #1 and #5 above were BUILT 2026-07-16 (Farrice-approved). Part 2 was absorbed into seth-godin-marketing-mind (Patterns 13-18, workflow 15-pick-yourself, upgrades to 01/02/04/06/12 — see `extraction-report-part2.md`). New trio-upgrade candidates from Part 2, shelved:
+
+| # | Action | Tag | Target | Source anchor |
+|---|---|---|---|---|
+| 12 | Resistance-as-compass anchor | UPDATE | `seth-godin-philosophy/01-resistance-breakthrough.md` | "If you don't feel resistance, it might not be important enough... Thanks for letting me know I'm on the verge of doing something important." |
+| 13 | Fuel-choice + name-it-aloud anchors | UPDATE | `seth-godin-philosophy/05-status-trap-escape.md` | "when we choose our fuel, we choose the life we're living"; "$400 for sneakers I could buy for 50... say these things out loud" |
+| 14 | The smock ritual + best-version-role practice | UPDATE | `seth-godin-brand/godin-personal-brand-role.md` | "when I put on this smock, I am the person who's written 10,000 blog posts... a role I play and my job is to play it consistently"; "if I was playing the role of the best version of me, what would that be like?" |
+| 15 | Surgeon test + flat authenticity verdict | UPDATE | `seth-godin-brand/godin-consistency-protocol.md` | "Authenticity is a crock... you don't want the surgeon to do an authentic job. You want them to do a consistently amazing job." |
+| 16 | "We become what we do" + but/and mechanism | GENIUS-ADD | `seth-godin-philosophy/genius.md` | "We become what we do... start telling the truth and you'll become a truthful person"; the vacation-rain but/and split |
+
 **When building the new layer**: verify at implementation time that `08-client-portfolio.md` actually carries Chip Kidd + "guard your time like gold" + the McDonald's/Danny Meyer contrast — architecture.md describes this correctly but the file doesn't exist yet to confirm against.

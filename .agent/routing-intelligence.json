@@ -7151,6 +7151,99 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260717_162650_10d7",
+            "timestamp": "2026-07-17T16:26:50.302380+00:00",
+            "session_id": "62d25167-13a8-4f03-a24f-4f10ed498188",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "paul-harding-lyric-prose",
+            "experts_deployed": [
+                "paul-harding-lyric-prose",
+                "deliberate",
+                "dara-denney-meta-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "paul-harding-lyric-prose",
+            "ensemble": true,
+            "compound_pairing": "paul-harding-lyric-prose + deliberate + dara-denney-meta-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260717_162832_ad89",
+            "timestamp": "2026-07-17T16:28:32.023072+00:00",
+            "session_id": "62d25167-13a8-4f03-a24f-4f10ed498188",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "paul-harding-lyric-prose",
+            "experts_deployed": [
+                "paul-harding-lyric-prose",
+                "deliberate",
+                "dara-denney-meta-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "paul-harding-lyric-prose",
+            "ensemble": true,
+            "compound_pairing": "paul-harding-lyric-prose + deliberate + dara-denney-meta-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260717_162834_a173",
+            "timestamp": "2026-07-17T16:28:34.369970+00:00",
+            "session_id": "62d25167-13a8-4f03-a24f-4f10ed498188",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "paul-harding-lyric-prose",
+            "experts_deployed": [
+                "paul-harding-lyric-prose",
+                "deliberate",
+                "dara-denney-meta-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "paul-harding-lyric-prose",
+            "ensemble": true,
+            "compound_pairing": "paul-harding-lyric-prose + deliberate + dara-denney-meta-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260717_205737_37ee",
+            "timestamp": "2026-07-17T20:57:37.277113+00:00",
+            "session_id": "9b1d8dcc-3449-4562-a0bd-a9d059f7e32f",
+            "request_summary": "run /go I found this video, and I feel like this is the other half of the interview. I guess I never realized they released it in parts. I'd like to add this to the extraction and run our workflows ad",
+            "intent_score": 0,
+            "domain_detected": "youtube-video-context-analysis",
+            "experts_deployed": [
+                "youtube-video-context-analysis",
+                "joey-cinema-os",
+                "fantastic-posters"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "youtube-video-context-analysis",
+            "ensemble": true,
+            "compound_pairing": "youtube-video-context-analysis + joey-cinema-os + fantastic-posters",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260717_210538_3a2b",
+            "timestamp": "2026-07-17T21:05:38.885244+00:00",
+            "session_id": "",
+            "request_summary": "Part-2 Mel Robbins x Godin expansion of seth-godin-marketing-mind: gap-diff extraction (6 new patterns 13-18, 4 new anti-patterns incl. the merely-ship-it correction), new workflow 15-pick-yourself + ",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "seth-godin"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "go",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -7598,7 +7691,7 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 396,
+            "total_routings": 401,
             "total_feedback": 49,
             "positive_count": 0,
             "negative_count": 0,
@@ -7611,7 +7704,7 @@
                 "Creative": 8,
                 "Legal Consult Prep": 1,
                 "Content": 42,
-                "Extraction": 19,
+                "Extraction": 20,
                 "Research": 8,
                 "stefan-georgi-dopamine-copy": 7,
                 "supercomputer": 18,
@@ -7664,7 +7757,8 @@
                 "lara-acosta-linkedin-growth": 1,
                 "lara-acosta-linkedin-mastery": 1,
                 "dai-media-consumer-posture": 2,
-                "paul-harding-lyric-prose": 1
+                "paul-harding-lyric-prose": 4,
+                "youtube-video-context-analysis": 1
             },
             "expert_counts": {
                 "system-audit": 19,
@@ -7701,7 +7795,7 @@
                 "brand-operating-system": 23,
                 "nicolas-cole-niche-positioning": 15,
                 "prediction-market-making": 1,
-                "deliberate": 20,
+                "deliberate": 23,
                 "mark-kashef-ai-councils": 1,
                 "gpt-image-2-director": 12,
                 "marketing-studio-director": 12,
@@ -7713,7 +7807,7 @@
                 "internal-comms": 3,
                 "wright-thompson-mastery": 12,
                 "alex-suzuki-digital-product-revenue-os": 3,
-                "paul-harding-lyric-prose": 3,
+                "paul-harding-lyric-prose": 6,
                 "paul-james-ai-automation": 1,
                 "lamott-craft": 2,
                 "synthesis-engine": 1,
@@ -7764,8 +7858,8 @@
                 "icp-deep-canvasser": 1,
                 "donald-miller-cognitive-load": 1,
                 "luke-iha-unaware-ads": 2,
-                "dara-denney-meta-ads": 12,
-                "fantastic-posters": 7,
+                "dara-denney-meta-ads": 15,
+                "fantastic-posters": 8,
                 "nate-b-jones-intent-engineering": 1,
                 "evan-spiegel-distribution-architecture": 2,
                 "chase-hughes-context-engineering": 2,
@@ -7806,7 +7900,7 @@
                 "Lara Acosta: Tech Founder Content System": 1,
                 "dan-martell-business-scaling": 1,
                 "luisa-zhou-coaching": 1,
-                "joey-cinema-os": 3,
+                "joey-cinema-os": 4,
                 "banana-pro-director": 1,
                 "cinema-worldbuilder-pro": 2,
                 "story-bible-builder": 2,
@@ -7845,15 +7939,16 @@
                 "geoff-woods": 1,
                 "dan-koe-ai-leverage": 1,
                 "jenny-hoyos-shorts": 2,
-                "seth-godin": 1,
+                "seth-godin": 2,
                 "monk-ai-offer-architecture": 1,
                 "lara-acosta-linkedin-mastery": 1,
                 "lamott-allen-really-real-writing": 2,
                 "dai-media-consumer-posture": 2,
-                "daniel-priestley": 1
+                "daniel-priestley": 1,
+                "youtube-video-context-analysis": 1
             },
             "tier_counts": {
-                "0": 396,
+                "0": 401,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -7861,10 +7956,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 219,
-                "finalize-auto": 177
+                "hybrid": 223,
+                "finalize-auto": 178
             },
-            "ensemble_count": 290,
+            "ensemble_count": 294,
             "auto_miss_count": 38,
             "auto_match_count": 11
         }
