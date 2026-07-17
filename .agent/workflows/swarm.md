@@ -58,6 +58,10 @@ skipped, only the wait is.
 
 ### 3. Launch (on "go")
 
+**Claim the tree first** (merge-discipline.md Law 0): `python3 execution/session_lock.py
+claim "swarm: <slug>"` — a fresh foreign lock blocks the launch, not the plan. Workers
+write only to their printed `outDir` under `.tmp/` (Law 1); the conductor merges serially.
+
 Fire the printed `scriptPath` with the printed `args` via the native Workflow tool,
 `run_in_background` (unattended — no babysitting, no manual polling).
 

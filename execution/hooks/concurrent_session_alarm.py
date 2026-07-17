@@ -16,6 +16,7 @@ Tunables via env: CONCURRENT_ALARM_WINDOW_MIN (default 10).
 """
 import json
 import os
+import re
 import sys
 import time
 
@@ -30,10 +31,11 @@ def main():
     own_id = payload.get("session_id", "")
     cwd = payload.get("cwd") or os.environ.get("CLAUDE_PROJECT_DIR") or os.getcwd()
 
-    flat = cwd.replace("/", "-")
+    # Claude Code flattens EVERY non-alphanumeric char to '-' (paths with spaces
+    # included) — plain '/'-replacement made this alarm silently dead on this project
+    # ("Google Antigravity" has a space). Found by the Wave 0 fixture, 2026-07-17.
+    flat = re.sub(r"[^A-Za-z0-9]", "-", cwd)
     proj_dir = os.path.expanduser(os.path.join("~/.claude/projects", flat))
-    if not os.path.isdir(proj_dir):
-        return
 
     now = time.time()
     fresh = []
@@ -52,25 +54,37 @@ def main():
             if age_min <= WINDOW_MIN:
                 fresh.append((sid, age_min))
     except OSError:
-        return
+        pass  # missing transcript dir must not skip the lock check below
 
-    if not fresh:
-        return
-
-    fresh.sort(key=lambda t: t[1])
-    listing = ", ".join(f"{sid[:8]}… ({age:.0f}m ago)" for sid, age in fresh[:4])
-
-    # session_lock status (informational)
+    # session_lock status — checked regardless of sibling transcripts: a fresh foreign
+    # lock with NO fresh sibling means a non-Claude driver (Codex, launchd overnight
+    # runner) may hold the tree (merge-discipline.md Law 0).
     lock_line = "session_lock: no lock claimed"
+    lock_fresh = False
     lock_path = os.path.join(cwd, ".agent", "session.lock")
     try:
         d = json.load(open(lock_path))
         hb_age = (now - d.get("heartbeat", 0)) / 60.0
-        state = "FRESH" if hb_age < 45 else "stale"
+        lock_fresh = hb_age < 45
+        state = "FRESH" if lock_fresh else "stale"
         lock_line = (f"session_lock: {state} lock held — mission '{d.get('mission', '?')}' "
                      f"(heartbeat {hb_age:.0f}m ago)")
     except (OSError, ValueError):
         pass
+
+    if not fresh:
+        if lock_fresh:
+            print(
+                f"⚠ SESSION LOCK ALARM (deterministic, from concurrent_session_alarm.py): "
+                f"a FRESH lock exists on this tree with no fresh Claude sibling — likely a "
+                f"Codex session or an autonomous run. {lock_line}. Do NOT start build/forge/"
+                f"multi-file work until `python3 execution/session_lock.py check` is clear "
+                f"or Farrice confirms the holder is done (directives/merge-discipline.md)."
+            )
+        return
+
+    fresh.sort(key=lambda t: t[1])
+    listing = ", ".join(f"{sid[:8]}… ({age:.0f}m ago)" for sid, age in fresh[:4])
 
     print(
         f"⚠ CONCURRENT SESSION ALARM (deterministic, from concurrent_session_alarm.py): "

@@ -31,6 +31,18 @@ This is the "do it all" command. One invocation, one conversation, one complete 
 
 ## Pipeline
 
+### Phase 0: Claim the Tree (mandatory — merge-discipline.md Law 0, Wave 0 2026-07-17)
+
+A forge is a full-session multi-file build — exactly the shape the 2026-07-15 forge race
+corrupted. Before anything else:
+
+```bash
+python3 execution/session_lock.py claim "extract-forge: <expert-name>"
+```
+
+BLOCKED (fresh foreign lock) = do not forge; coordinate with Farrice or move to a
+worktree. Heartbeat the printed token between phases; release at Phase 8.
+
 ### Phase 1: Source Acquisition
 
 1. **If YouTube URL**: Fetch transcript AND visual context **in parallel**

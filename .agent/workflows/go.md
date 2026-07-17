@@ -65,6 +65,12 @@ match. Never default to `/autopilot` as a catch-all.
 
 ## Stage 2 — RUN
 
+**Lock gate (merge-discipline.md Law 0, Wave 0 2026-07-17):** if the routed pattern is
+fleet / swarm / verify-fleet / wargame-batch, or the mission is a long autonomous run,
+claim the tree before handing off: `python3 execution/session_lock.py claim "<mission>"`
+(heartbeat between waves, release at close). BLOCKED on a fresh foreign lock = surface it
+and wait — never run two drivers on one tree. Solo/content conductors skip the claim.
+
 Hand the RUN PACKET to the chosen conductor as its intent input, then let the
 conductor run its own sequence: Chain Steps 3-6 for content conductors,
 `/autopilot`'s own Intent Lock -> Trace -> Execution Decision -> Verify -> Run
