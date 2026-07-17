@@ -103,6 +103,11 @@ Identical scripts produce opposite retention based on *how they're spoken*. *"Th
 **Execute**: Deliver every line with imminent-event energy — suspense in the voice, never flat narration. Treat vocal performance as a first-class retention lever equal to the script.
 **Success Metric**: Read-aloud test — does the delivery alone imply "something's about to happen"?
 
+### Pattern: Kid-Plain Diction (corpus-derived, blind-pass ratchet 2026-07-16)
+Her published scripts are plain declaratives a 10-year-old would say — "Chipotle is known for their burritos, but they're so overpriced"; "I'm using wrapping paper for the walls because my budget's $0 and we don't have paint." The humor lives in the *situation* (wrapping-paper walls, a cheesecake trap for grandma), never in the sentence. Across the 3-short reference corpus there is at most ONE flourish line per video ("If you know, you know"). Copywriter-clever one-liners are the #1 tell that a script is imitation, not Jenny (this exact gap failed the first blind pass).
+**Execute**: After drafting, run the quotability sweep: any line that would work as a standalone caption or ad headline gets rewritten plainer. Budget: max one flourish per short. Make the situation funnier, not the phrasing.
+**Success Metric**: ≤1 quotable one-liner per script; every other line passes the "would a 10-year-old say it exactly this way?" test.
+
 ## Hidden Knowledge
 
 ### Insight: Every Second Is Exponential
@@ -183,7 +188,7 @@ Score each 0-2. Anchors: 0 = absent, 1 = present but weak, 2 = exemplary.
 8. **Character resonance** — ≥1 named, trait-distinct character; dual-demographic seat where broad reach is the goal.
 9. **Signature twist** — an outlier idea is stamped with the recognizable creator lens, not copied raw.
 10. **Relatability tier** — for a broad swing, the premise is universal human experience, not quirky-funny.
-11. **Delivery** — read aloud, the voice implies "something's about to happen"; no robotic flatness.
+11. **Delivery & diction** — read aloud, the voice implies "something's about to happen"; no robotic flatness. Diction is kid-plain: ≤1 flourish line per short; humor lives in the situation, never the sentence.
 12. **Confusion sweep** — no beat where a stranger would be lost (the top hidden kill switch).
 
 **Scoring**: <18/24 = not ready to ship. A single 0 on #1, #2, or #6 is a **hard block** regardless of total.

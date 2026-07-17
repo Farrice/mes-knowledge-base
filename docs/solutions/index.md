@@ -2,6 +2,7 @@
 
 One line per card: date · name · problem_signature.
 
+- 2026-07-16 · Rubber-Stamp Blind Pass → Artifact-Only Retest → Diction Ratchet · a builder agent self-records blind-pass PASS + finalize (inflated anchors) with no generated-vs-real artifact behind the verdict; fix = verify the ledger not the claim, regenerate from shipped skill files only via a fresh zero-context agent, conductor judges side-by-side, name the tell and write it into genius.md/rubric/prompt as a gate, retry once
 - 2026-07-16 · approve-path-silent-drop-invalid-category · memory_review.py approve prints '✓ Approved → memory None' and stamps the review row approved while store_memory silently rejected the proposed category and wrote nothing — human-approved lessons vanish at the exact moment the operator believes they were banked
 - 2026-07-15 · Concurrent Session Racing a Live Forge — Accept, Repair, Dedupe · files change mid-build that the conducting session never wrote — context-aware rewrites dropping audit-required sections, net-new wrappers pointing at workflows that don't exist, duplicate prompts for one deliverable — because a second live session is writing the same working tree
 - 2026-07-15 · Jeremy Haynes Cold Traffic Offer Mastery — Extract-Forge Deployment · a needed expert capability (cold-traffic offer architecture at the mechanism level) has no owner in the harness — build it via extract-forge with claims quarantined rather than composing adjacent experts

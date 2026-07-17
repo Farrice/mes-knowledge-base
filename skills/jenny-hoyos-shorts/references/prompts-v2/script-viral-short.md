@@ -103,6 +103,7 @@ EDIT NOTES
 - [ ] The ending loops (into the hook or a second question) or cold-opens; no flat-dead terminus
 - [ ] Runtime sits in the channel's standard band (her band: 35-45s); delivery note carries "something's about to happen" energy
 - [ ] A visible progression mechanism is named and placed; no conclusional/dread language survives
+- [ ] Kid-plain diction: ≤1 flourish/quotable line per script; humor lives in the situation, never the sentence; every other line passes "would a 10-year-old say it exactly this way?"
 
 ## Creative Latitude
 
