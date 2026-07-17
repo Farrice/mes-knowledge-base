@@ -21,3 +21,4 @@ Append-only. New rows go at the bottom of the table. Format: `date | verdict | l
 | 2026-05-05 | RULE-CHANGE | Generic question closes ("What's your version?" / "Who was it actually for?") | Banned system-wide. "Asking questions is good, but it feels cheap now." Optimizes for comment-count over recognition. | pov-anchors.md anchor #4, taste-pass calibration session |
 
 *Append new verdicts below this line.*
+| 2026-07-16 | FAIL | Watch what happens the next time you sit down to fix it. / First, the blank page. Second, the cringe. Third, the tab closes. | Whole-post 'you'-framed dictation register: 'people don't like being yelled at or dictated to anymore' — wants I-story arcs, friend-on-shoulder, reader-as-hero/writer-as-guide, felt relatability (his words, 2026-07-16) | ring-light LinkedIn post v1, deliverables/linkedin/2026-07-16-jenny-transfer-post.md |
