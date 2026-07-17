@@ -1,12 +1,12 @@
 ---
 thread: 12-text-platform-transfer
 status: active
-resume_hint: LinkedIn post via /jenny-text-transfer — Invisible Expert ring-light loss scene, Farrice voice BLEND
+resume_hint: Ring-light LinkedIn post v2 — I-narrative arc rewrite per Farrice's hero/guide direction
 branch: main
 pin: true
 ---
 
-# LinkedIn post via /jenny-text-transfer — Invisible Expert ring-light loss scene, Farrice voice BLEND
+# Ring-light LinkedIn post v2 — I-narrative arc rewrite per Farrice's hero/guide direction
 
 **Next session focus**: Resume the `12-text-platform-transfer` work-stream — see the deliverable above.
 

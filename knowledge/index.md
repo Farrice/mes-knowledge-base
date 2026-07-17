@@ -1,5 +1,5 @@
 # Knowledge Index
-*663 sources | 2,689,749 words | Updated: 2026-07-16*
+*664 sources | 2,691,819 words | Updated: 2026-07-16*
 
 ---
 
@@ -25,7 +25,7 @@
 - [extraction-report](../extractions/ocean-vuong/extraction-report.md) — 4,861 words (stale)
 - [the-7-levels-of-brand-building](../extractions/oren-identity-brand-os/reference-corpus/the-7-levels-of-brand-building.md) [oren-john] — 4,671 words
 - [mes-extraction](../extractions/wargame-source/mes-extraction.md) — 4,604 words
-- [index](index.md) — 4,580 words
+- [index](index.md) — 4,595 words
 - [visual-context](../extractions/brad-bonanno/visual-context.md) — 4,497 words
 - [extraction-report](../extractions/dr-k/extraction-report.md) — 4,451 words (stale)
 - [visual-context](../extractions/ryan-doser/visual-context.md) — 4,260 words
@@ -350,7 +350,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 12,272 words
+- [log](log.md) — 12,343 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words
@@ -489,7 +489,7 @@
 - [product-design-scoring](../extractions/meg-heckman/codex-prior-art/skill/workflows/product-design-scoring.md) — 200 words
 - [assembly-rubric](assembly-rubric.md) — 145 words
 
-## Screenwriting (49 files)
+## Screenwriting (50 files)
 
 - [Claude-💎💎 Shaan Puri's Storytelling Formula](extractions/inbox/Claude-💎💎 Shaan Puri's Storytelling Formula.md) — 50,755 words (stale)
 - [Claude-💎💎🧑🏽_💻 Oscar Hoglund ! The Impact of Sound in Your Storytelling w! CEO of Epedemic Sound](extractions/inbox/Claude-💎💎🧑🏽_💻 Oscar Hoglund ! The Impact of Sound in Your Storytelling w! CEO of Epedemic Sound.md) — 50,452 words (stale)
@@ -501,6 +501,7 @@
 - [amplification-report](../extractions/geoff-woods/amplification-report.md) — 3,114 words
 - [storybrand-extraction](../extractions/donald-miller/storybrand-extraction.md) — 2,395 words (stale)
 - [extraction-report](../extractions/yann-martel/extraction-report.md) — 2,006 words
+- [2026-07-16-platform-narrative-temperature](../research_outputs/2026-07-16-platform-narrative-temperature.md) — 1,984 words
 - [kb-trailer-storytelling-narrative](creative-direction/guides/kb-trailer-storytelling-narrative.md) — 1,977 words (stale)
 - [shaan_puri](../research_outputs/ai_authority_architect_agents/shaan_puri.md) [april-dunford] — 1,593 words
 - [Guide_1_Visual_Language_Encyclopedia](creative-direction/guides/Guide_1_Visual_Language_Encyclopedia.md) — 1,572 words (stale)

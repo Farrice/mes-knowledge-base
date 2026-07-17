@@ -1,26 +1,26 @@
 # Latest Handoff
 
-**Thread:** godin-marketing-mind  
-**Full path:** .agent/handoffs/2026-07-16-godin-marketing-mind.md  
+**Thread:** 12-text-platform-transfer  
+**Full path:** .agent/handoffs/2026-07-16-12-text-platform-transfer.md  
 **Date:** 2026-07-16 (today)  
 **Status:** active  
-**Title:** Seth Godin Marketing Mind — 4th Godin layer forged from Mel Robbins interview (released 2026-07-16): 14 workflows (/godin-lens flagship thinking-partner + 13 /gmind-*), 10 born-v2 prompts wired, agent extended, registries synced, amplification report vs trio delivered, heartbeat 6/6, blind-pass EVAL-044 PASS (self-judged), PoC lens session on live Farrice LinkedIn-launch problem PASSED its quality gate
+**Title:** Ring-light LinkedIn post v2 — I-narrative arc rewrite per Farrice's hero/guide direction
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume godin-marketing-mind` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume 12-text-platform-transfer` for this one.
 
 ---
-thread: godin-marketing-mind
+
+---
+thread: 12-text-platform-transfer
 status: active
-resume_hint: Seth Godin Marketing Mind — 4th Godin layer forged from Mel Robbins interview (released 2026-07-16): 14 workflows (/godin-lens flagship thinking-partner + 13 /gmind-*), 10 born-v2 prompts wired, agent extended, registries synced, amplification report vs trio delivered, heartbeat 6/6, blind-pass EVAL-044 PASS (self-judged), PoC lens session on live Farrice LinkedIn-launch problem PASSED its quality gate
+resume_hint: Ring-light LinkedIn post v2 — I-narrative arc rewrite per Farrice's hero/guide direction
 branch: main
 pin: true
 ---
 
-# Seth Godin Marketing Mind — 4th Godin layer forged from Mel Robbins interview (released 2026-07-16): 14 workflows (/godin-lens flagship thinking-partner + 13 /gmind-*), 10 born-v2 prompts wired, agent extended, registries synced, amplification report vs trio delivered, heartbeat 6/6, blind-pass EVAL-044 PASS (self-judged), PoC lens session on live Farrice LinkedIn-launch problem PASSED its quality gate
+# Ring-light LinkedIn post v2 — I-narrative arc rewrite per Farrice's hero/guide direction
 
-**Next session focus**: Resume the `godin-marketing-mind` work-stream — see the deliverable above.
+**Next session focus**: Resume the `12-text-platform-transfer` work-stream — see the deliverable above.
 
-_Auto-pinned by chain_runner.finalize (extract-forge)._
+_Auto-pinned by chain_runner.finalize (12-text-platform-transfer)._
 

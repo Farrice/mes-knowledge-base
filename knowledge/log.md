@@ -497,3 +497,6 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-16 17:26]` **finalize** | LinkedIn post via /jenny-text-transfer — Invisible Expert ring-light loss scene, Farrice voice BLEND | general | jenny-hoyos — composite:8.67 status:Keep
 - `[2026-07-16 17:26]` **finalize** | Authority Flywheel viral treatment via /jenny-anything-viral — Voice-Memo Flip flagship + 3 ranked h | general | jenny-hoyos — composite:8.67 status:Keep
 - `[2026-07-16 17:33]` **finalize** | Seth Godin Marketing Mind — 4th Godin layer forged from Mel Robbins interview (released 2026-07-16): | general | seth-godin — composite:8.33 status:Keep
+- `[2026-07-16 17:52]` **finalize** | Universal /go live-fire: native Codex slash registration added (~/.codex/prompts/go.md) + read-only  | general | none — composite:8.0 status:Keep
+- `[2026-07-16 17:58]` **finalize** | Ring-light LinkedIn post v2 — I-narrative arc rewrite per Farrice's hero/guide direction | general | jenny-hoyos — composite:8.33 status:Keep
+- `[2026-07-16 18:17]` **finalize** | Platform Narrative Temperature — receipt-carrying research + PLATFORM-NARRATIVE-CARD v1.0 + wiring i | general | jenny-hoyos — composite:8.33 status:Keep

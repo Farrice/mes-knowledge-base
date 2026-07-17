@@ -23,3 +23,7 @@ generalizes (vs. being a one-off), and hand-adds it to `SYNONYMS` if so.
 
 - `extract-forge` -> `jeremy-haynes-cold-offer` (manual load, 2026-07-15T08:42:53.906934)
 - `extract-forge` -> `tommy-clark-linkedin-growth` (manual load, 2026-07-15T09:24:55.413606)
+
+## 2026-07-17
+
+- `extract-forge` -> `jenny-hoyos-shorts` (manual load, 2026-07-16T11:24:56.930175)
