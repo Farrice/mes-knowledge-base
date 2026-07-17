@@ -12,7 +12,7 @@ You are transferring Jenny Hoyos' short-form video mechanics onto text-first pla
 ## Input Required
 
 1. **The idea / topic** — what the post is about (raw is fine)
-2. **Platform** — LinkedIn / Substack Note / X (governs length and cadence)
+2. **Platform** — LinkedIn / Substack Note / X (governs length and cadence). Read `_active/farrice-brand/voice/PLATFORM-NARRATIVE-CARD.md` for the surface's three dials: POV-mode, arc length, polish. The dials override defaults — X inverts to info-first (no arc); Notes want a micro-I-beat; LinkedIn/newsletter take the full arc.
 3. **Audience + avatar** — who's scrolling; what they fear, want, recognize
 4. **Voice constraints** — if this ships under Farrice's name, load VOICE-CARD.md + dial mode first
 5. **Goal** — the single action or feeling the post is built to produce
@@ -24,6 +24,9 @@ The opening line does the job Hoyos gives the first *frame*: it stops the scroll
 
 ### Phase 2 — Kill the Hookie Hook
 Never announce what the post will do — Hoyos' anti-pattern transferred. No "Here's what I learned about X," no "A thread on how to Y." Already be *in* the story or the claim. The written equivalent of her drive-thru open is starting mid-scene or mid-argument, not narrating your intent to start.
+
+### Phase 2.5 — I-Narrative Arc (Farrice-Voice Deliverables, REQUIRED — confirmed 2026-07-16 felt verdict)
+When the post ships under Farrice's name, the POV is an I-story arc, not second-person dictation. "You"-framed "watch what happens when you..." posts read as being yelled at; an I-arc earns the same insight through confession, then hands it over. Run these beats in order: (1) open in HIS verified scene (public-safe, never fabricate an incident), (2) confess the reflex/excuses as his own, (3) the turn/realization, (4) hand the quest to the reader in the last third with one concrete small action, (5) close on the reader winning, not on him. Register: talk to the reader like a closer friend with a hand on the shoulder — reader is the hero, writer is the guide holding the receipt. This flips the POV only; the Hoyos mechanics below (first-line-as-first-frame, but/so, loop-back) all still run.
 
 ### Phase 3 — But/So Beats in Prose
 Kill "and then." Every sentence-to-sentence move connects through conflict ("but that broke everything") or consequence ("so I had to..."). Linear recounting is retention poison in text exactly as in video. Audit every connective; rewrite "and then" as "but" or "so." Progression must be non-linear — the reader can't predict the next line.
@@ -77,3 +80,5 @@ Execution prompt: references/prompts-v2/text-platform-transfer.md — honor its 
 - [ ] Zero "and then" connectives; but/so beats carry the progression
 - [ ] A visible progression device (numbered steps / count) is present and no conclusional language survives
 - [ ] The answer is the last line; any CTA sits before it; the close loops or plants a reread
+- [ ] POV check: I-arc with reader-as-hero handoff; no whole-post second-person dictation (EXCEPTION: X compiles to info-first per PLATFORM-NARRATIVE-CARD §2 — the arc's lesson as a numbered breakdown, story surviving only as a receipt line)
+- [ ] Platform dials honored: POV-mode / arc length / polish match the PLATFORM-NARRATIVE-CARD row for the target surface

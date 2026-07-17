@@ -27,6 +27,9 @@ The opening line does the job of Hoyos' first frame: stop the scroll before anyo
 ### Phase 2 — Kill the Hookie Hook
 Never announce what the post will do (her anti-pattern transferred). No "Here's what I learned," no "A thread on how to Y." Already be in the story or the claim — the written equivalent of her drive-thru open is starting mid-scene or mid-argument.
 
+### Phase 2.5 — I-Narrative Arc (Farrice-Voice, REQUIRED — confirmed 2026-07-16 felt verdict)
+When the post ships under Farrice's name, the POV is an I-story arc, not second-person dictation — "you"-framed dictation reads as being yelled at. Run these beats in order: (1) open in HIS verified scene (public-safe, never fabricate an incident), (2) confess the reflex/excuses as his own, (3) the turn/realization, (4) hand the quest to the reader in the last third with one concrete small action, (5) close on the reader winning, not on him. Register: talk to the reader like a closer friend with a hand on the shoulder — reader is the hero, writer is the guide with the receipt. Flip the POV only; the mechanics below (first-line frame, but/so, loop-back) all still run.
+
 ### Phase 3 — But/So Beats in Prose
 Kill "and then." Every line-to-line move connects through conflict ("but that broke everything") or consequence ("so I had to..."). Linear recounting is retention poison in text as in video. Audit every connective; progression must be non-linear — the reader can't predict the next line.
 
@@ -77,6 +80,7 @@ HAND-OFFS: [/lara-acosta | /nicolas-cole | /farrice-engine | /ghostwrite]
 - [ ] Zero "and then"; but/so beats carry the progression
 - [ ] A visible progression device is present; no conclusional language survives
 - [ ] The answer is the last line; any CTA before it; the close loops or plants a reread
+- [ ] POV check: I-arc with reader-as-hero handoff; no whole-post second-person dictation
 
 ## Creative Latitude
 
