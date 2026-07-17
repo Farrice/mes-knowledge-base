@@ -22,7 +22,9 @@ I said that for years.
 
 What I finally saw took the shame out of it. I explained hard things to clients every single day, across the table, in their language. The wall was somewhere else. I knew the work too well to say it small anymore. Every year of mastery buries the plain version deeper.
 
-So I stopped typing and started talking. A client talked to me about her work for forty minutes. I turned twenty seconds of it into a post. Her DMs opened up within a week. She never learned to write. She stopped needing to.
+The plain version still came out every time I talked. Across a table, no performance, just me explaining the thing to one person.
+
+So I stopped typing and started talking. Then I tried it on a client, who talked about her work for forty minutes, the way she'd never write it. Buried in those forty minutes were twenty seconds where she said the thing plain. I turned those twenty seconds into a post. Her DMs opened up within a week. She never learned to write. She stopped needing to.
 
 If you're the best one in your building while a stranger with a ring light books the clients you should have, hear this the way I needed to hear it: nothing is wrong with you. You know the thing so well you can't say it small anymore. That's the whole problem. It has a fix.
 

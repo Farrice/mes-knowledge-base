@@ -28,7 +28,8 @@ Runs as a scheduled cloud routine (1st + 15th monthly) AND on demand via `/platf
    - **Source inventory** (all receipts; note any tool/quota gaps honestly)
    ≤1,800 words. Density over completeness.
 5. Commit the report to main with message `chore(pulse): platform narrative pulse YYYY-MM-DD — <movement one-liner>` and push. Never edit the card, the voice card, or any workflow — report + proposals only.
-6. In-session runs additionally: surface the movement summary inline and offer the ratification prompt ("apply patches 1,3" → conductor edits the card + bumps its version).
+6. **Drive library export**: create a Google Doc of the report via the Google Drive MCP `create_file` — title `Platform Pulse — YYYY-MM-DD`, parentId `1ojcfIQpS_Cecs_C0nRLV3fi0yHgOzFB8` ("Platform Pulse Library" folder, https://drive.google.com/drive/folders/1ojcfIQpS_Cecs_C0nRLV3fi0yHgOzFB8), contentMimeType `text/markdown`, textContent = the full report. Phone-readable library; repo copy stays canonical. Drive tool unavailable → note it and continue, never block.
+7. In-session runs additionally: surface the movement summary inline and offer the ratification prompt ("apply patches 1,3" → conductor edits the card + bumps its version).
 
 ## Failure honesty
 
