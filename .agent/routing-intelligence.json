@@ -6788,7 +6788,7 @@
             "workflow_used": "jen-santulan-listing-content",
             "ensemble": true,
             "compound_pairing": "jen-santulan-listing-content + supercomputer + deliberate",
-            "feedback": null
+            "feedback": "fb_20260716_235756_93a5"
         }
     ],
     "feedback_log": [
@@ -7205,12 +7205,21 @@
             "rating": "auto_miss",
             "correction": "geoff-woods-ai-thought-partner",
             "notes": "expert skill 'geoff-woods-ai-thought-partner' loaded not matching suggestion ['nicolas-cole-niche-positioning', 'dan-koe-ai-leverage', 'wright-thompson-mastery']"
+        },
+        {
+            "feedback_id": "fb_20260716_235756_93a5",
+            "timestamp": "2026-07-16T23:57:56.654667+00:00",
+            "session_id": "50debd00-35ee-4c2d-a8d7-721668b79b73",
+            "routing_id": "rt_20260716_235113_73d8",
+            "rating": "auto_miss",
+            "correction": "geoff-woods-ai-thought-partner",
+            "notes": "expert skill 'geoff-woods-ai-thought-partner' loaded not matching suggestion ['jen-santulan-listing-content', 'supercomputer', 'deliberate']"
         }
     ],
     "monthly_summary": {
         "2026-07": {
             "total_routings": 376,
-            "total_feedback": 46,
+            "total_feedback": 47,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
@@ -7466,7 +7475,7 @@
                 "finalize-auto": 168
             },
             "ensemble_count": 275,
-            "auto_miss_count": 36,
+            "auto_miss_count": 37,
             "auto_match_count": 10
         }
     }

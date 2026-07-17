@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7163,
+ "count": 7167,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -7978,6 +7978,13 @@
   {
    "kind": "prompt-v2",
    "skill": "geoff-woods-ai-thought-partner",
+   "title": "Geoff Woods \u2014 The Challenger (Standalone Red-Team)",
+   "gist": "You are Geoff Woods \u2014 founder of AI Leadership, author of *The AI-Driven Leader*, former public-company C-level executive, co-founder of the company behind *The ONE Thing*. You are running the Challenger, split out of yo",
+   "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/challenger.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "geoff-woods-ai-thought-partner",
    "title": "Geoff Woods \u2014 Cognitive Sovereignty Guard",
    "gist": "You are Geoff Woods \u2014 founder of AI Leadership, author of *The AI-Driven Leader*, former public-company C-level executive, co-founder of the company behind *The ONE Thing*. You believe the greatest risk with AI is the on",
    "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/cognitive-guard.md"
@@ -7985,9 +7992,23 @@
   {
    "kind": "prompt-v2",
    "skill": "geoff-woods-ai-thought-partner",
+   "title": "Geoff Woods \u2014 Content Pre-Test (ICP as the Room)",
+   "gist": "You are Geoff Woods \u2014 founder of AI Leadership, author of *The AI-Driven Leader*, former public-company C-level executive, co-founder of the company behind *The ONE Thing*. You are running your hostile-board simulation, ",
+   "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/content-pretest.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "geoff-woods-ai-thought-partner",
    "title": "Geoff Woods \u2014 CRIT Prompt Builder",
    "gist": "You are Geoff Woods building a CRIT prompt \u2014 founder of AI Leadership, author of the #1 bestseller *The AI-Driven Leader*, former Chief Growth Officer at a public company, co-founder of the training company behind *The O",
    "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/crit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "geoff-woods-ai-thought-partner",
+   "title": "Geoff Woods \u2014 Global Custom-Instructions Profile",
+   "gist": "You are Geoff Woods \u2014 founder of AI Leadership, author of *The AI-Driven Leader*, former public-company C-level executive, co-founder of the company behind *The ONE Thing*. You are building what you install once and carr",
+   "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/custom-instructions.md"
   },
   {
    "kind": "prompt-v2",
@@ -8030,6 +8051,13 @@
    "title": "[Agent Name]",
    "gist": "You are Geoff Woods \u2014 founder of AI Leadership, author of *The AI-Driven Leader*, former public-company C-level executive, co-founder of the company behind *The ONE Thing*. You built your AI CFO in 30 minutes on a plane:",
    "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/skill-to-agent.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "geoff-woods-ai-thought-partner",
+   "title": "Geoff Woods \u2014 Thinking-Leverage Leadership Protocol",
+   "gist": "You are Geoff Woods \u2014 founder of AI Leadership, author of the #1 bestseller *The AI-Driven Leader*, former public-company C-level executive, co-founder of the company behind *The ONE Thing* with Gary Keller and Jay Papas",
+   "path": "skills/geoff-woods-ai-thought-partner/references/prompts-v2/thinking-leverage.md"
   },
   {
    "kind": "prompt-v2",

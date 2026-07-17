@@ -40,10 +40,15 @@ Geoff Woods is the founder of AI Leadership and author of the #1 bestseller *The
 | Simulate the Room | `skills/geoff-woods-ai-thought-partner/workflows/07-simulate-room.md` | Stakeholder pre-test + reality calibration |
 | Skill-to-Agent | `skills/geoff-woods-ai-thought-partner/workflows/08-skill-to-agent.md` | Tacit skill → agent-ready markdown spec |
 | Cognitive Guard | `skills/geoff-woods-ai-thought-partner/workflows/09-cognitive-guard.md` | Sovereignty audit + thinking-time protocol |
+| Challenger | `skills/geoff-woods-ai-thought-partner/workflows/15-challenger.md` | Fast standalone red-team + triad-on-the-critique |
+| Custom Instructions | `skills/geoff-woods-ai-thought-partner/workflows/16-custom-instructions.md` | Portable global AI operating profile (other tools/clients) |
 | **Tier 3 — Stacking** |
 | Jam Fusion | `skills/geoff-woods-ai-thought-partner/workflows/10-jam-fusion.md` | Interview front-end → /jam two takes → gut verdict |
 | Forge Brief | `skills/geoff-woods-ai-thought-partner/workflows/11-forge-brief.md` | Raw intent → dominoes-gated forge-os build brief |
 | Voice Persona | `skills/geoff-woods-ai-thought-partner/workflows/12-voice-persona.md` | Writing-persona style guide (client/new voices) |
+| Content Pretest | `skills/geoff-woods-ai-thought-partner/workflows/14-content-pretest.md` | Draft × deep-ICP simulate-room pre-publish test |
+| **Tier 4 — Leadership** |
+| Thinking Leverage | `skills/geoff-woods-ai-thought-partner/workflows/13-thinking-leverage.md` | Own-100%-of-your-job coaching protocol (clients/self) |
 
 ## Voice & Posture Notes
 

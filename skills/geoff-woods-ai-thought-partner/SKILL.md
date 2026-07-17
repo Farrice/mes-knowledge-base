@@ -3,10 +3,10 @@ name: geoff-woods-ai-thought-partner
 description: Geoff Woods' AI-as-strategic-thought-partner system — the Three Skills (target the 20%, communicate via CRIT, remain the thought leader), the Interview Inversion (AI asks YOU questions), the Feedback Triad refinement loop, stakeholder simulation with reality calibration, AI boards of advisors, and the cognitive-sovereignty guard. Plus Tier O: the always-on CO-CREATION-CARD operator layer that makes the thought-partner posture this workspace's default.
 domain: AI leverage / strategic thinking / operator-AI collaboration
 when_to_use: Solving a high-stakes problem with AI as a partner instead of a tool, building CRIT prompts, prioritizing via 20/80, iterating drafts past "the bad answer", pre-testing deliverables against simulated stakeholders, building an AI board, converting tacit skills into agent-ready markdown, guarding against cognitive decay, co-creation session design
-version: "1.0"
+version: "1.1"
 format: completion-engine
-workflows: 12
-tiers: 3 + operator layer
+workflows: 16
+tiers: 4 + operator layer
 source: BigDeal by Codie Sanchez interview 2026-07-15 (12,732-word transcript + 100-frame visual context); forge-tier extraction 2026-07-16
 ---
 
@@ -16,7 +16,7 @@ Geoff Woods is the founder of AI Leadership and author of the #1 bestseller *The
 
 ## Available Workflows
 
-Slash commands: `/gw-crit` `/gw-thought-partner` `/gw-20-percent` `/gw-feedback-loop` `/gw-ai-board` `/gw-persona-flip` `/gw-simulate-room` `/gw-skill-to-agent` `/gw-cognitive-guard` `/gw-jam-fusion` `/gw-forge-brief` `/gw-voice-persona` (wrappers in `.agent/workflows/`, numbered to match the tables below).
+Slash commands: `/gw-crit` `/gw-thought-partner` `/gw-20-percent` `/gw-feedback-loop` `/gw-ai-board` `/gw-persona-flip` `/gw-simulate-room` `/gw-skill-to-agent` `/gw-cognitive-guard` `/gw-jam-fusion` `/gw-forge-brief` `/gw-voice-persona` `/gw-thinking-leverage` `/gw-content-pretest` `/gw-challenger` `/gw-custom-instructions` (wrappers in `.agent/workflows/`, numbered to match the tables below).
 
 ### Tier 1 — Foundation (Core Methodology)
 
@@ -36,6 +36,8 @@ Slash commands: `/gw-crit` `/gw-thought-partner` `/gw-20-percent` `/gw-feedback-
 | `workflows/07-simulate-room.md` | Pre-test a deliverable against real stakeholders | Personality profiles → simulated room reactions → adjustments → mandatory reality-calibration loop |
 | `workflows/08-skill-to-agent.md` | Convert a tacit skill/process to an agent spec | Dominoes-gated, interview-extracted markdown an agent can run without you |
 | `workflows/09-cognitive-guard.md` | Audit and protect thinking strength | Cognitive-sovereignty audit ("can I still fly?") + thinking-time-chair protocol |
+| `workflows/15-challenger.md` | Fast standalone red-team on anything | The Challenger split from persona-flip: cracks/biases/assumptions + triad-on-the-critique, no plateau or audience needed |
+| `workflows/16-custom-instructions.md` | Build a portable global AI operating profile | Interview-built master profile → paste-ready blocks per tool (ChatGPT/Claude/Copilot); workspace already carries this via Tier O |
 
 ### Tier 3 — Stacking (Cross-Expert Chains)
 
@@ -44,6 +46,13 @@ Slash commands: `/gw-crit` `/gw-thought-partner` `/gw-20-percent` `/gw-feedback-
 | `workflows/10-jam-fusion.md` | Co-create taste-bearing work | Woods interview front-end → /jam two takes side-by-side → gut verdict → triad on the winner |
 | `workflows/11-forge-brief.md` | Turn raw intent into a forge-ready build brief | Dominoes-gated CRIT interview → markdown build brief + forge-os lane recommendation |
 | `workflows/12-voice-persona.md` | Build a writing persona from samples | His exact recipe (20-50 samples → interview → markdown voice file), reconciled with voice-os for client voices |
+| `workflows/14-content-pretest.md` | Pre-test a draft against a deep-ICP profile | simulate-room engine with an ICP loaded as the reader → per-section reactions, the exact drop-point line, identity triggers → calibration loop vs. real engagement |
+
+### Tier 4 — Leadership (The AI-Driven Leader layer)
+
+| Workflow | Command Intent | Produces |
+|---|---|---|
+| `workflows/13-thinking-leverage.md` | Coach a person (report/client/self) to own 100% of their job | "Show me your plan" one-on-one: they rank their own 20%, you help them see what they don't see; superpowers→20% match; networks-not-hierarchy org frame |
 
 ### Tier O — Operator Layer (always-on)
 
@@ -61,6 +70,7 @@ Slash commands: `/gw-crit` `/gw-thought-partner` `/gw-20-percent` `/gw-feedback-
 | `/nate-b-jones-intent-engineering` | The interview output should become a durable intent doc for agents |
 | `/cos` | 20% targeting feeds the daily brief / weekly board |
 | `/wargame-brief` · `/convene` | The simulated room should escalate to a full council or wargame |
+| `icp-deep-canvasser` | Pre-test content against the real reader: load a deep-ICP profile into simulate-room as the stakeholder (`/gw-content-pretest`) |
 
 ## Quick Reference
 
@@ -80,17 +90,21 @@ Slash commands: `/gw-crit` `/gw-thought-partner` `/gw-20-percent` `/gw-feedback-
 
 ## Execution Prompts (structure-pure v2)
 
-12 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+16 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Geoff Woods — AI Board of Advisors** — `skills/geoff-woods-ai-thought-partner/references/prompts-v2/ai-board.md`
+- **Geoff Woods — The Challenger (Standalone Red-Team)** — `skills/geoff-woods-ai-thought-partner/references/prompts-v2/challenger.md`
 - **Geoff Woods — Cognitive Sovereignty Guard** — `skills/geoff-woods-ai-thought-partner/references/prompts-v2/cognitive-guard.md`
+- **Geoff Woods — Content Pre-Test (ICP as the Room)** — `skills/geoff-woods-ai-thought-partner/references/prompts-v2/content-pretest.md`
 - **Geoff Woods — CRIT Prompt Builder** — `skills/geoff-woods-ai-thought-partner/references/prompts-v2/crit.md`
+- **Geoff Woods — Global Custom-Instructions Profile** — `skills/geoff-woods-ai-thought-partner/references/prompts-v2/custom-instructions.md`
 - **Geoff Woods — Feedback Loop & Slop Kill** — `skills/geoff-woods-ai-thought-partner/references/prompts-v2/feedback-loop.md`
 - **Build: [name]** — `skills/geoff-woods-ai-thought-partner/references/prompts-v2/forge-brief.md`
 - **Geoff Woods — Jam Fusion Co-Creation** — `skills/geoff-woods-ai-thought-partner/references/prompts-v2/jam-fusion.md`
 - **Geoff Woods — Persona Flip Adversarial Hardening** — `skills/geoff-woods-ai-thought-partner/references/prompts-v2/persona-flip.md`
 - **Geoff Woods — Simulate the Room** — `skills/geoff-woods-ai-thought-partner/references/prompts-v2/simulate-room.md`
 - **[Agent Name]** — `skills/geoff-woods-ai-thought-partner/references/prompts-v2/skill-to-agent.md`
+- **Geoff Woods — Thinking-Leverage Leadership Protocol** — `skills/geoff-woods-ai-thought-partner/references/prompts-v2/thinking-leverage.md`
 - **Geoff Woods — Strategic Thought-Partner Session** — `skills/geoff-woods-ai-thought-partner/references/prompts-v2/thought-partner.md`
 - **Geoff Woods — 20% Targeting Ritual** — `skills/geoff-woods-ai-thought-partner/references/prompts-v2/twenty-percent.md`
 - **Writing Persona: [subject]** — `skills/geoff-woods-ai-thought-partner/references/prompts-v2/voice-persona.md`
