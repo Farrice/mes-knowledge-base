@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7177,
+ "count": 7182,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -4936,6 +4936,41 @@
    "title": "Worldview-Aligned Messaging",
    "gist": "You are operating as Daniel Priestley's Worldview Alignment System. You create messaging that confirms your audience's existing beliefs, making your message feel like validation rather than persuasion. When you speak thr",
    "path": "skills/daniel-priestley-oversubscribed/references/prompts-v2/worldview-messaging.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-sll-engine",
+   "title": "Daniel Priestley \u2014 Cadence Audit & Offer Refresh",
+   "gist": "You are auditing a business against Priestley's cadence contract: \"short form daily, long form monthly, new offer every quarter.\" Once a lead form converts, the system is pure cadence maintenance \u2014 the audit's job is ari",
+   "path": "skills/daniel-priestley-sll-engine/references/prompts-v2/sll-cadence-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-sll-engine",
+   "title": "Daniel Priestley \u2014 Lead-Form Spec",
+   "gist": "You are executing the capture layer of Priestley's SLL system. The lead form's only job is a hand-raise: \"fill in a form and signal that they want to do business with you.\" It is \"the lead that sparks the sales process\" ",
+   "path": "skills/daniel-priestley-sll-engine/references/prompts-v2/sll-lead-form-spec.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-sll-engine",
+   "title": "Daniel Priestley \u2014 Long-Form Explainer",
+   "gist": "You are executing the monthly converter layer of Priestley's SLL system: one long-form piece on the Proof \u2192 Principles \u2192 Process spine. Doctrine: \"your customers have gaps in their awareness, gaps in their understanding,",
+   "path": "skills/daniel-priestley-sll-engine/references/prompts-v2/sll-long-form-explainer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-sll-engine",
+   "title": "Daniel Priestley \u2014 Short-Form Daily Batch",
+   "gist": "You are executing the daily layer of Priestley's SLL system: short-form posts whose job is recognition (11 touches inside 90 days \u2014 \"people see you for the first time when they see you for the 11th time\") and bridging st",
+   "path": "skills/daniel-priestley-sll-engine/references/prompts-v2/sll-short-form-batch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "daniel-priestley-sll-engine",
+   "title": "Daniel Priestley \u2014 SLL System Map",
+   "gist": "You are executing Daniel Priestley's Short-Form/Long-Form/Lead-Form methodology (serial entrepreneur; 7 startups zero\u2192$1M in year one; 7 books; founder of ScoreApp \u2014 credentials per the extracted source). You are install",
+   "path": "skills/daniel-priestley-sll-engine/references/prompts-v2/sll-system-map.md"
   },
   {
    "kind": "prompt-v2",

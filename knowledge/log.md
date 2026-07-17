@@ -500,3 +500,6 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-16 17:52]` **finalize** | Universal /go live-fire: native Codex slash registration added (~/.codex/prompts/go.md) + read-only  | general | none — composite:8.0 status:Keep
 - `[2026-07-16 17:58]` **finalize** | Ring-light LinkedIn post v2 — I-narrative arc rewrite per Farrice's hero/guide direction | general | jenny-hoyos — composite:8.33 status:Keep
 - `[2026-07-16 18:17]` **finalize** | Platform Narrative Temperature — receipt-carrying research + PLATFORM-NARRATIVE-CARD v1.0 + wiring i | general | jenny-hoyos — composite:8.33 status:Keep
+- `[2026-07-17 08:29]` **finalize** | Daniel Priestley — SLL Engine (Short-Form/Long-Form/Lead-Form) extraction: skill + 5 workflows + 5 b | general | daniel-priestley — composite:8.33 status:Keep
+- `[2026-07-17 08:30]` **finalize** | /ideate Expansion Lab — collaborative ideation OS (mechanism-driven divergence, novelty bar, idea le | general | none — composite:8.33 status:Keep
+- `[2026-07-17 08:30]` **ingest** | Daniel Priestley — SLL Engine (Short-Form/Long-Form/Lead-Form) extraction | social-media-lead-generation | daniel-priestley — 5 workflows, 9 genius patterns, watched source; third Priestley system alongside oversubscribed + 24-assets

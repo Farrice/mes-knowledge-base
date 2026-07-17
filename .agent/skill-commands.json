@@ -277,6 +277,10 @@
       "skill": "daniel-priestley-oversubscribed"
     },
     {
+      "command": "/daniel-priestley-sll-engine",
+      "skill": "daniel-priestley-sll-engine"
+    },
+    {
       "command": "/daniel-thrasher-affiliate",
       "skill": "daniel-thrasher-affiliate"
     },
@@ -1719,7 +1723,8 @@
       "command": "/daniel-priestley",
       "skills": [
         "daniel-priestley-24-assets-os",
-        "daniel-priestley-oversubscribed"
+        "daniel-priestley-oversubscribed",
+        "daniel-priestley-sll-engine"
       ]
     },
     "daniel-thrasher": {

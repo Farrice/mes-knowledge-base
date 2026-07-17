@@ -1,0 +1,458 @@
+[watch] working dir: /private/tmp/claude-501/-Users-farricecain-Google-Antigravity/62d25167-13a8-4f03-a24f-4f10ed498188/scratchpad/priestley-watch
+[watch] checking metadata/captions via yt-dlp…
+WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from PyPi; Use that to update.
+         To suppress this warning, add --no-update to your command/config.
+[youtube] Extracting URL: https://www.youtube.com/watch?v=0qsK4rwMVLY
+[youtube] 0qsK4rwMVLY: Downloading webpage
+[youtube] 0qsK4rwMVLY: Downloading android vr player API JSON
+[info] 0qsK4rwMVLY: Downloading subtitles: en-orig, en
+[info] 0qsK4rwMVLY: Downloading 1 format(s): 399+251
+[info] Writing video subtitles to: /private/tmp/claude-501/-Users-farricecain-Google-Antigravity/62d25167-13a8-4f03-a24f-4f10ed498188/scratchpad/priestley-watch/download/video.en-orig.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /private/tmp/claude-501/-Users-farricecain-Google-Antigravity/62d25167-13a8-4f03-a24f-4f10ed498188/scratchpad/priestley-watch/download/video.en-orig.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at  Unknown B/s (00:00:00)[download]    7.00KiB at    6.56MiB/s (00:00:00)[download]   15.00KiB at   11.45MiB/s (00:00:00)[download]   31.00KiB at    6.94MiB/s (00:00:00)[download]   63.00KiB at    3.07MiB/s (00:00:00)[download]  127.00KiB at    3.38MiB/s (00:00:00)[download]  139.62KiB at    3.31MiB/s (00:00:00)[download] 100% of  139.62KiB in 00:00:00 at 1.16MiB/s
+[info] Writing video subtitles to: /private/tmp/claude-501/-Users-farricecain-Google-Antigravity/62d25167-13a8-4f03-a24f-4f10ed498188/scratchpad/priestley-watch/download/video.en.vtt
+WARNING: The extractor specified to use impersonation for this download, but no impersonate target is available. If you encounter errors, then see  https://github.com/yt-dlp/yt-dlp#impersonation  for information on installing the required dependencies
+[download] Destination: /private/tmp/claude-501/-Users-farricecain-Google-Antigravity/62d25167-13a8-4f03-a24f-4f10ed498188/scratchpad/priestley-watch/download/video.en.vtt
+[download]    1.00KiB at  Unknown B/s (00:00:00)[download]    3.00KiB at    2.90MiB/s (00:00:00)[download]    7.00KiB at    5.11MiB/s (00:00:00)[download]   15.00KiB at    8.77MiB/s (00:00:00)[download]   31.00KiB at   14.91MiB/s (00:00:00)[download]   63.00KiB at   11.51MiB/s (00:00:00)[download]  127.00KiB at    6.15MiB/s (00:00:00)[download]  139.62KiB at    6.52MiB/s (00:00:00)[download] 100% of  139.62KiB in 00:00:00 at 1.47MiB/s
+[info] Writing video metadata as JSON to: /private/tmp/claude-501/-Users-farricecain-Google-Antigravity/62d25167-13a8-4f03-a24f-4f10ed498188/scratchpad/priestley-watch/download/video.info.json
+[SubtitlesConvertor] Converting subtitles
+[SubtitlesConvertor] Subtitle file for vtt is already in the requested format
+[SubtitlesConvertor] Subtitle file for vtt is already in the requested format
+
+# watch: video report
+
+- **Source:** https://www.youtube.com/watch?v=0qsK4rwMVLY
+- **Title:** Make $1,500 an Hour With This 3 Step System
+- **Uploader:** ScoreApp
+- **Duration:** 12:57 (777.0s)
+- **Detail:** transcript
+- **Frames:** skipped (transcript detail)
+- **Transcript:** 411 segments (via captions)
+
+## Frames
+
+_No frames extracted._
+
+## Transcript
+
+_Source: captions._
+
+```
+[00:02] My businesses make about $1,500 per hour, 24 hours a day, 365 days a year,
+[00:06] hour, 24 hours a day, 365 days a year, regardless of what I'm doing. And that
+[00:08] regardless of what I'm doing. And that is not an accident. That is because we
+[00:09] is not an accident. That is because we have nailed our marketing approach. Our
+[00:11] have nailed our marketing approach. Our marketing and sales approach is in line
+[00:13] marketing and sales approach is in line with the technology trends of today. And
+[00:15] with the technology trends of today. And today, in this video, I want to share
+[00:17] today, in this video, I want to share with you what is the most important
+[00:19] with you what is the most important simple marketing approach that I'm using
+[00:21] simple marketing approach that I'm using across all of my products and services
+[00:23] across all of my products and services globally. If we haven't met yet, I'm
+[00:25] globally. If we haven't met yet, I'm Daniel Priestley. For the last 20 years,
+[00:26] Daniel Priestley. For the last 20 years, I've been building and scaling multiple
+[00:28] I've been building and scaling multiple startups. I've had seven startups that
+[00:30] startups. I've had seven startups that have gone zero to a million in their
+[00:31] have gone zero to a million in their first 12 months. I've had multiple
+[00:33] first 12 months. I've had multiple businesses go north of 10 million. I've
+[00:35] businesses go north of 10 million. I've built companies, sold companies,
+[00:36] built companies, sold companies, &gt;&gt; [music]
+[00:36] &gt;&gt; [music] &gt;&gt; I've bought companies, I've spun out new
+[00:38] &gt;&gt; I've bought companies, I've spun out new businesses from existing businesses.
+[00:40] businesses from existing businesses. I've written seven books on
+[00:41] I've written seven books on entrepreneurship. All of that is to say
+[00:43] entrepreneurship. All of that is to say that I spend a lot of time thinking
+[00:44] that I spend a lot of time thinking about this stuff. The first thing that I
+[00:46] about this stuff. The first thing that I need you to know is how social media has
+[00:48] need you to know is how social media has changed over the last few years, and
+[00:49] changed over the last few years, and it's significant. See, if we go back in
+[00:51] it's significant. See, if we go back in time before 2015, all the attention was
+[00:54] time before 2015, all the attention was on social media, and the feed that you
+[00:57] on social media, and the feed that you would see was chronological.
+[01:00] would see was chronological. That meant that if you posted something
+[01:01] That meant that if you posted something regularly, you had more chance of being
+[01:03] regularly, you had more chance of being seen in the feed. But here's the one big
+[01:06] seen in the feed. But here's the one big thing from prior to 2015. 90% of the
+[01:08] thing from prior to 2015. 90% of the people who would see the posts that you
+[01:10] people who would see the posts that you put on social media were your existing
+[01:12] put on social media were your existing followers that you'd met in the real
+[01:14] followers that you'd met in the real world, and you deliberately followed
+[01:16] world, and you deliberately followed each other. [music] So, you would follow
+[01:17] each other. [music] So, you would follow someone on social media because you knew
+[01:19] someone on social media because you knew who they were, and then and only then
+[01:21] who they were, and then and only then did you see what they were posting, and
+[01:23] did you see what they were posting, and you saw it in a chronological order.
+[01:25] you saw it in a chronological order. Then, the next era was called
+[01:27] Then, the next era was called engagement-based sorting.
+[01:33] This was all about seeing things that people were posting based upon the
+[01:35] people were posting based upon the engagement. So, once again, you would
+[01:36] engagement. So, once again, you would have a collection of followers, people
+[01:38] have a collection of followers, people that you had followed or connected with
+[01:39] that you had followed or connected with on social media, but the way that the
+[01:41] on social media, but the way that the algorithm would sort your feed was
+[01:43] algorithm would sort your feed was through engagement. [music] So, things
+[01:44] through engagement. [music] So, things that had lots of likes or lots of watch
+[01:46] that had lots of likes or lots of watch time or lots of comments would go to the
+[01:48] time or lots of comments would go to the top, and things that didn't get much
+[01:50] top, and things that didn't get much engagement, that would fall down to the
+[01:51] engagement, that would fall down to the bottom. Once we got into 2020, we
+[01:54] bottom. Once we got into 2020, we started to see the beginnings of
+[01:56] started to see the beginnings of hyper-targeted sorting and also the
+[01:58] hyper-targeted sorting and also the beginnings of AI sorting.
+[02:00] beginnings of AI sorting. &gt;&gt; [music]
+[02:00] &gt;&gt; [music] &gt;&gt; Now, what this meant is that on some
+[02:02] &gt;&gt; Now, what this meant is that on some platforms like TikTok, rather than
+[02:04] platforms like TikTok, rather than having to have an audience or a group of
+[02:06] having to have an audience or a group of followers or subscribers,
+[02:08] followers or subscribers, the AI algorithm would pump out your
+[02:10] the AI algorithm would pump out your content based on what was trending. And
+[02:13] content based on what was trending. And a big part of this hyper-targeting and a
+[02:15] a big part of this hyper-targeting and a big part of this AI sorting was all
+[02:17] big part of this AI sorting was all about trending topics.
+[02:24] What it would do is it would figure out what each person was interested in as
+[02:26] what each person was interested in as far as trending topics were concerned,
+[02:28] far as trending topics were concerned, and it would bring things from all over
+[02:29] and it would bring things from all over the world, and it would try and find the
+[02:31] the world, and it would try and find the trending topics that you were going to
+[02:33] trending topics that you were going to be interested in.
+[02:33] be interested in. &gt;&gt; [music]
+[02:33] &gt;&gt; [music] &gt;&gt; Now, from 2025 onwards, we are now into
+[02:36] &gt;&gt; Now, from 2025 onwards, we are now into what we call the recommendation engine.
+[02:39] what we call the recommendation engine. The recommendation engine is a powerful
+[02:41] The recommendation engine is a powerful AI that looks at every single piece of
+[02:43] AI that looks at every single piece of content, and it matchmakes that piece of
+[02:45] content, and it matchmakes that piece of content with the person who should be
+[02:47] content with the person who should be seeing it. Someone in Brisbane,
+[02:48] seeing it. Someone in Brisbane, Australia, could make a piece of content
+[02:50] Australia, could make a piece of content that is absolutely perfect for someone
+[02:52] that is absolutely perfect for someone in Boston, USA, and the recommendation
+[02:55] in Boston, USA, and the recommendation engine will figure out that that piece
+[02:56] engine will figure out that that piece of content from Brisbane needs to be in
+[02:58] of content from Brisbane needs to be in front of that person who's in Boston.
+[03:00] front of that person who's in Boston. This is a magical piece of technology
+[03:02] This is a magical piece of technology that will change humanity. The fact that
+[03:04] that will change humanity. The fact that the AI recommendation engine is
+[03:05] the AI recommendation engine is matchmaking people, no matter where they
+[03:07] matchmaking people, no matter where they are on the planet, is wild. And what
+[03:09] are on the planet, is wild. And what this does for your business is equally
+[03:11] this does for your business is equally incredible. Imagine it like this.
+[03:12] incredible. Imagine it like this. Imagine you had a magical telephone, and
+[03:14] Imagine you had a magical telephone, and if you pick up that telephone, it will
+[03:16] if you pick up that telephone, it will literally connect you with someone who
+[03:18] literally connect you with someone who wants to buy from you. Wouldn't that be
+[03:19] wants to buy from you. Wouldn't that be incredible? How often would you pick up
+[03:21] incredible? How often would you pick up the phone? You'd probably pick up the
+[03:22] the phone? You'd probably pick up the phone non-stop and generate a ton of new
+[03:24] phone non-stop and generate a ton of new business. Maybe you would even hire
+[03:26] business. Maybe you would even hire someone whose only job was to pick up
+[03:28] someone whose only job was to pick up [music] the phone and talk to the people
+[03:29] [music] the phone and talk to the people on the other end of the phone. That's
+[03:31] on the other end of the phone. That's kind of what the recommendation engine
+[03:32] kind of what the recommendation engine is doing. It is connecting you with the
+[03:34] is doing. It is connecting you with the person who wants to know what your
+[03:36] person who wants to know what your business does, and what problem you
+[03:37] business does, and what problem you solve, and what outcomes you deliver.
+[03:39] solve, and what outcomes you deliver. It's connecting you with the person
+[03:41] It's connecting you with the person anywhere in the world who's interested
+[03:42] anywhere in the world who's interested in what you do. I would go so far as to
+[03:44] in what you do. I would go so far as to say the recommendation engine is the
+[03:46] say the recommendation engine is the most powerful AI on the planet, and that
+[03:48] most powerful AI on the planet, and that large language models are second most
+[03:50] large language models are second most powerful. I know it doesn't feel like
+[03:52] powerful. I know it doesn't feel like that, because the recommendation engine
+[03:53] that, because the recommendation engine is invisible to you
+[03:55] is invisible to you &gt;&gt; [music]
+[03:55] &gt;&gt; [music] &gt;&gt; and the LLMs are the things that you see
+[03:56] &gt;&gt; and the LLMs are the things that you see and interact with personally, but the
+[03:58] and interact with personally, but the recommendation engine is directing
+[04:00] recommendation engine is directing traffic, it's directing attention, it's
+[04:02] traffic, it's directing attention, it's changing the nature of politics, it's
+[04:04] changing the nature of politics, it's changing [music] consumer behavior, and
+[04:06] changing [music] consumer behavior, and it's doing it all invisibly. Your
+[04:08] it's doing it all invisibly. Your business depends upon [clears throat]
+[04:09] business depends upon [clears throat] you tapping into that recommendation
+[04:11] you tapping into that recommendation engine. So, I want to give you a simple
+[04:13] engine. So, I want to give you a simple strategy as to how you're going to tap
+[04:14] strategy as to how you're going to tap into the recommendation engine, and I've
+[04:16] into the recommendation engine, and I've been testing this over the last 12
+[04:17] been testing this over the last 12 months, and oh my goodness, this has
+[04:20] months, and oh my goodness, this has supercharged marketing. Quick
+[04:22] supercharged marketing. Quick interruption, if you want to understand
+[04:23] interruption, if you want to understand my marketing strategy in detail, come
+[04:25] my marketing strategy in detail, come along to a live environment with other
+[04:27] along to a live environment with other entrepreneurs. We're going to go through
+[04:28] entrepreneurs. We're going to go through and I'll talk you through in more detail
+[04:30] and I'll talk you through in more detail about how I do my marketing. I'm running
+[04:32] about how I do my marketing. I'm running a live workshop, and we're going to go
+[04:34] a live workshop, and we're going to go through step-by-step my entire strategy.
+[04:36] through step-by-step my entire strategy. You'll see behind the curtain, you'll be
+[04:37] You'll see behind the curtain, you'll be able to copy what I'm doing and get the
+[04:39] able to copy what I'm doing and get the same results. There'll be a link
+[04:40] same results. There'll be a link somewhere in the description below, and
+[04:42] somewhere in the description below, and you'll be able to click the link, book
+[04:43] you'll be able to click the link, book in, and I'll see you at the live
+[04:44] in, and I'll see you at the live workshop. Now, let's get back to the
+[04:46] workshop. Now, let's get back to the video. So, the strategy is called
+[04:47] video. So, the strategy is called short-form, long-form, lead-form.
+[04:49] short-form, long-form, lead-form. Short-form content that leads into
+[04:51] Short-form content that leads into long-form content that then directs
+[04:53] long-form content that then directs people to fill in a form and signal that
+[04:55] people to fill in a form and signal that they're interested in working [music]
+[04:56] they're interested in working [music] with you. And here's how it's going to
+[04:57] with you. And here's how it's going to work. Every single day, you're going to
+[04:59] work. Every single day, you're going to post something that is a short post, and
+[05:01] post something that is a short post, and I'm going to tell you what to post, but
+[05:03] I'm going to tell you what to post, but it's going to be a short post every
+[05:04] it's going to be a short post every single day. That short post is then
+[05:06] single day. That short post is then going to get people to click on a piece
+[05:08] going to get people to click on a piece of long-form content, and that long-form
+[05:10] of long-form content, and that long-form content is going to educate people as to
+[05:12] content is going to educate people as to what to do next, and then that is going
+[05:14] what to do next, and then that is going to tell people to click onto a lead
+[05:15] to tell people to click onto a lead form, where they're going to literally
+[05:17] form, where they're going to literally fill in a form and signal that they want
+[05:18] fill in a form and signal that they want to do business with you. And all of this
+[05:20] to do business with you. And all of this sits on top of the rails of the
+[05:22] sits on top of the rails of the recommendation engine. So, it's going to
+[05:23] recommendation engine. So, it's going to expand faster than you know what to do
+[05:25] expand faster than you know what to do with. So, let's look at short-form
+[05:27] with. So, let's look at short-form content. There are four things that I
+[05:29] content. There are four things that I want you to post about when it comes to
+[05:30] want you to post about when it comes to short-form content. Short-form content,
+[05:32] short-form content. Short-form content, I want you to talk about the pain
+[05:35] I want you to talk about the pain that your customer would experience if
+[05:37] that your customer would experience if they don't buy from you.
+[05:38] they don't buy from you.
+[05:38] &gt;&gt; [music] &gt;&gt; All right? So, this is the pain that
+[05:39] &gt;&gt; All right? So, this is the pain that they're currently experiencing, cuz they
+[05:41] they're currently experiencing, cuz they don't have your product or service.
+[05:43] don't have your product or service. Let's say you help people with their
+[05:45] Let's say you help people with their advertising, the pain is that they don't
+[05:47] advertising, the pain is that they don't have enough customers. The pain is that
+[05:48] have enough customers. The pain is that their revenues are flat. The pain is
+[05:51] their revenues are flat. The pain is that they're talking to the wrong
+[05:52] that they're talking to the wrong people. The [music] pain is that they're
+[05:53] people. The [music] pain is that they're sitting around waiting for a referral
+[05:55] sitting around waiting for a referral that never comes. So, all of that is the
+[05:58] that never comes. So, all of that is the pain point that people might be able
+[05:59] pain point that people might be able [music] to relate to. The next thing I
+[06:01] [music] to relate to. The next thing I want you to talk about is the opposite
+[06:02] want you to talk about is the opposite of that, which is the prize.
+[06:04] of that, which is the prize. The prize is what would be on the other
+[06:06] The prize is what would be on the other side. What would happen [music] if
+[06:07] side. What would happen [music] if people did buy from you? What would be
+[06:09] people did buy from you? What would be the joyful celebration that they would
+[06:11] the joyful celebration that they would have if [music] everything worked
+[06:13] have if [music] everything worked because they bought from you? That's the
+[06:15] because they bought from you? That's the prize. What is it that they want to get
+[06:16] prize. What is it that they want to get to? The third thing is the problem.
+[06:23] And the problem is what has stopped them in the past from getting the results
+[06:25] in the past from getting the results that they want. [music] Why is it they
+[06:26] that they want. [music] Why is it they haven't been able to do this? So, let's
+[06:28] haven't been able to do this? So, let's say your business does something in the
+[06:29] say your business does something in the health and fitness space cuz it's easy
+[06:31] health and fitness space cuz it's easy to understand. The pain would be the
+[06:33] to understand. The pain would be the pain that you experience by not having
+[06:35] pain that you experience by not having the health or the fitness that you want.
+[06:37] the health or the fitness that you want. The prize would be what would it feel
+[06:38] The prize would be what would it feel like to have the health and fitness, and
+[06:40] like to have the health and fitness, and the problem is what's stopping you from
+[06:42] the problem is what's stopping you from getting the health and fitness. The
+[06:43] getting the health and fitness. The fourth thing is called news.
+[06:47] fourth thing is called news. Now, the recommendation engine is always
+[06:49] Now, the recommendation engine is always looking for trending news, and anything
+[06:51] looking for trending news, and anything you can do to connect [music] what you
+[06:53] you can do to connect [music] what you do to something that's trending in the
+[06:55] do to something that's trending in the news is going to give you a turbo
+[06:56] news is going to give you a turbo charge. So, I want you to think about
+[06:58] charge. So, I want you to think about pain, prize, problem, and then the news
+[07:01] pain, prize, problem, and then the news is going to give you the extra turbo
+[07:03] is going to give you the extra turbo charge. So, you could talk about pain
+[07:05] charge. So, you could talk about pain that's in the news, prize that's in the
+[07:06] that's in the news, prize that's in the news, problem that's in the news, or
+[07:08] news, problem that's in the news, or just news stories that relate to what it
+[07:10] just news stories that relate to what it is that you do. Now, you need to do
+[07:12] is that you do. Now, you need to do short-form content daily.
+[07:14] short-form content daily. And the reason for that is cuz people
+[07:16] And the reason for that is cuz people see you for the first time when they see
+[07:18] see you for the first time when they see you for the 11th time,
+[07:19] you for the 11th time, &gt;&gt; [music]
+[07:19] &gt;&gt; [music] &gt;&gt; which means that if you're posting
+[07:21] &gt;&gt; which means that if you're posting anything less than daily, you're not
+[07:23] anything less than daily, you're not being seen enough for people to
+[07:24] being seen enough for people to recognize who you are and what you do.
+[07:26] recognize who you are and what you do. Remember that people are just scrolling,
+[07:27] Remember that people are just scrolling, scrolling, scrolling. Humans consume 200
+[07:30] scrolling, scrolling. Humans consume 200 billion short-form videos per day. It's
+[07:32] billion short-form videos per day. It's a lot of short-form videos. If they're
+[07:34] a lot of short-form videos. If they're scrolling, scrolling, scrolling, it all
+[07:36] scrolling, scrolling, scrolling, it all turns into noise. They have to be able
+[07:38] turns into noise. They have to be able to see you 11 times within 90 days in
+[07:40] to see you 11 times within 90 days in order to even recognize that you exist.
+[07:42] order to even recognize that you exist. So, you need to post daily [music] on
+[07:44] So, you need to post daily [music] on this short-form content. This short-form
+[07:46] this short-form content. This short-form content is going to invite people to
+[07:48] content is going to invite people to check out a piece of long-form content.
+[07:50] check out a piece of long-form content. You might ask people to comment a word
+[07:52] You might ask people to comment a word and you will send them the long-form
+[07:53] and you will send them the long-form content, or you might just direct them
+[07:55] content, or you might just direct them to check out a piece of long-form
+[07:56] to check out a piece of long-form content [music] that is pinned to the
+[07:58] content [music] that is pinned to the top of your channel. What are you going
+[07:59] top of your channel. What are you going to cover in long-form content? There's
+[08:00] to cover in long-form content? There's three main [music] things. Number one is
+[08:02] three main [music] things. Number one is called a proof story.
+[08:09] A proof story is a story that proves you know what you're talking about. Or it
+[08:11] know what you're talking about. Or it could be a statistic or a fact or some
+[08:13] could be a statistic or a fact or some research that proves that there is
+[08:15] research that proves that there is something worth paying attention to. So,
+[08:17] something worth paying attention to. So, you might say, I helped someone lose 20
+[08:20] you might say, I helped someone lose 20 kilos of body fat. Or you might say, I
+[08:22] kilos of body fat. Or you might say, I helped one of my clients go from 2
+[08:24] helped one of my clients go from 2 million to 5 million of revenue in under
+[08:26] million to 5 million of revenue in under 2 years. So, a proof story is something
+[08:28] 2 years. So, a proof story is something that proves you must know something
+[08:30] that proves you must know something worth talking about. Underneath a proof
+[08:32] worth talking about. Underneath a proof story
+[08:33] story is the success principles.
+[08:40] And the principles are the three to five things that made [music] that proof
+[08:41] things that made [music] that proof story possible. So, for example, if
+[08:43] story possible. So, for example, if you're talking about health and
+[08:44] you're talking about health and wellness, you might talk about diet,
+[08:46] wellness, you might talk about diet, exercise, and mindset. So, these [music]
+[08:48] exercise, and mindset. So, these [music] are the big principles that make the
+[08:49] are the big principles that make the proof story possible.
+[08:51] proof story possible. And the third thing is the process
+[08:56] And the third thing is the process that you use to engage with your
+[08:57] that you use to engage with your clients. So, you might say, I do
+[08:59] clients. So, you might say, I do coaching or I do accountability or I use
+[09:02] coaching or I do accountability or I use software or I do this, that, and the
+[09:03] software or I do this, that, and the other. Whatever is the process that you
+[09:05] other. Whatever is the process that you take people [music] through. So, proof,
+[09:07] take people [music] through. So, proof, principles, process. And all of that
+[09:10] principles, process. And all of that gets covered in a long form piece of
+[09:11] gets covered in a long form piece of content. Now, in a long form piece of
+[09:13] content. Now, in a long form piece of content, you're explaining to people
+[09:16] content, you're explaining to people that it's possible to get a new result.
+[09:18] that it's possible to get a new result. I want you to keep in mind, your
+[09:19] I want you to keep in mind, your customers, they have gaps in their
+[09:21] customers, they have gaps in their awareness, they have gaps in their
+[09:22] awareness, they have gaps in their understanding, and if you can close
+[09:24] understanding, and if you can close those gaps, they're more likely to buy
+[09:25] those gaps, they're more likely to buy from you. So, don't assume that they're
+[09:27] from you. So, don't assume that they're mind readers, create long-form explainer
+[09:29] mind readers, create long-form explainer content that explains step-by-step how
+[09:31] content that explains step-by-step how something is done. And if people watch
+[09:33] something is done. And if people watch that explainer content, give Give a call
+[09:35] that explainer content, give Give a call to action to fill in a form. Short form,
+[09:38] to action to fill in a form. Short form, long form, lead form. [music] The lead
+[09:40] long form, lead form. [music] The lead form is going to contain a special
+[09:42] form is going to contain a special offer, a product for prospects, or a
+[09:44] offer, a product for prospects, or a promotion. So, a special offer is some
+[09:47] promotion. So, a special offer is some sort of special offer that's currently
+[09:48] sort of special offer that's currently running. Maybe it's a discount, maybe
+[09:50] running. Maybe it's a discount, maybe it's a limited-time offer, maybe it's a
+[09:51] it's a limited-time offer, maybe it's a new launch campaign. There is a special
+[09:54] new launch campaign. There is a special offer that people can engage with.
+[09:56] offer that people can engage with. A product for prospects is an easy first
+[09:58] A product for prospects is an easy first step to working with you. It could be an
+[10:00] step to working with you. It could be an introduction workshop, an online
+[10:01] introduction workshop, an online assessment, filling in a wait list,
+[10:04] assessment, filling in a wait list, joining a discussion group, any of those
+[10:05] joining a discussion group, any of those things are good product for prospects. A
+[10:07] things are good product for prospects. A promotion is some sort of thing that's
+[10:09] promotion is some sort of thing that's happening for a limited amount of time
+[10:11] happening for a limited amount of time that people can engage with, and it's
+[10:12] that people can engage with, and it's going to have an end date.
+[10:14] going to have an end date.
+[10:14] &gt;&gt; [music] &gt;&gt; Any offers, product for prospects, or
+[10:16] &gt;&gt; Any offers, product for prospects, or promotions are great reasons for people
+[10:18] promotions are great reasons for people to fill in this lead form. Now, the way
+[10:20] to fill in this lead form. Now, the way you want to make this super clear for
+[10:21] you want to make this super clear for people is to make sure that the top of
+[10:23] people is to make sure that the top of the lead form has a hook that explains
+[10:26] the lead form has a hook that explains what's going on.
+[10:27] what's going on. It restates your value proposition, so
+[10:29] It restates your value proposition, so people understand if I do this, I will
+[10:31] people understand if I do this, I will get this. It states your credibility.
+[10:38] So, it could be customer testimonials, it could be your qualifications, it
+[10:40] it could be your qualifications, it could be research linked to what you do.
+[10:43] could be research linked to what you do. And it has a clear call to action
+[10:45] And it has a clear call to action telling people to fill in this form in
+[10:47] telling people to fill in this form in order to get started. Now, the lead
+[10:49] order to get started. Now, the lead form, it's very, very easy for you to do
+[10:51] form, it's very, very easy for you to do all of that on ScoreApp. In fact, all of
+[10:53] all of that on ScoreApp. In fact, all of that thinking is built into the AI tools
+[10:56] that thinking is built into the AI tools on ScoreApp and all the templates on
+[10:57] on ScoreApp and all the templates on ScoreApp. So, if you don't currently
+[10:59] ScoreApp. So, if you don't currently have lead forms with your offers and
+[11:01] have lead forms with your offers and your promotions and your product for
+[11:02] your promotions and your product for prospects, just use scoreapp.com to
+[11:04] prospects, just use scoreapp.com to create all of those lead forms. Now,
+[11:06] create all of those lead forms. Now, once you've got a great lead form and
+[11:08] once you've got a great lead form and that lead form converts, you just do
+[11:10] that lead form converts, you just do short form every single day, a new piece
+[11:13] short form every single day, a new piece of long form every single month, and at
+[11:15] of long form every single month, and at least a new offer every single 90 days.
+[11:18] least a new offer every single 90 days. So, the cadence is short form daily,
+[11:19] So, the cadence is short form daily, long form monthly, new offer every
+[11:22] long form monthly, new offer every quarter. Now, the beauty of this is
+[11:24] quarter. Now, the beauty of this is [music] that embedded in all of the
+[11:26] [music] that embedded in all of the things that I've asked you to do is all
+[11:28] things that I've asked you to do is all the information that the AI needs in
+[11:30] the information that the AI needs in order to fuel the recommendation engine
+[11:32] order to fuel the recommendation engine and put that content in front of the
+[11:34] and put that content in front of the right people. Because when you're
+[11:36] right people. Because when you're talking about your pain, your prize,
+[11:37] talking about your pain, your prize, your problem, and the news, it will
+[11:39] your problem, and the news, it will figure out who's interested in solving
+[11:41] figure out who's interested in solving that problem, who's interested in
+[11:43] that problem, who's interested in getting rid of that pain, who's
+[11:44] getting rid of that pain, who's interested in getting that prize, and it
+[11:46] interested in getting that prize, and it will put that short-form content in
+[11:48] will put that short-form content in front of that person. When they engage
+[11:50] front of that person. When they engage with that content, it'll direct people
+[11:51] with that content, it'll direct people over to the long-form content that
+[11:53] over to the long-form content that educates and entertains them and tells
+[11:55] educates and entertains them and tells them and explains to them what it is
+[11:57] them and explains to them what it is they need to do next, and then it
+[11:59] they need to do next, and then it captures the details so that you can
+[12:00] captures the details so that you can talk to those people. From here, you've
+[12:03] talk to those people. From here, you've got your sales process. You've often
+[12:05] got your sales process. You've often heard me talk about laps, leads,
+[12:06] heard me talk about laps, leads, appointments, presentations, and sales.
+[12:08] appointments, presentations, and sales. This lead form is the lead that sparks
+[12:10] This lead form is the lead that sparks the sales process. So, there you have
+[12:12] the sales process. So, there you have it, a really simple strategy that I'm
+[12:14] it, a really simple strategy that I'm using across all of my businesses. Every
+[12:17] using across all of my businesses. Every single one of my businesses is in
+[12:18] single one of my businesses is in double-digit growth right now because of
+[12:20] double-digit growth right now because of short-form, long-form, lead form.
+[12:22] short-form, long-form, lead form. &gt;&gt; [music]
+[12:22] &gt;&gt; [music] &gt;&gt; We are doing this all the time. You can
+[12:24] &gt;&gt; We are doing this all the time. You can check out all the different channels
+[12:25] check out all the different channels that I'm involved in. You can look at my
+[12:26] that I'm involved in. You can look at my social media. You will see examples of
+[12:28] social media. You will see examples of short-form, long-form, lead form
+[12:30] short-form, long-form, lead form happening constantly all the time on all
+[12:32] happening constantly all the time on all of my social media, and it's working.
+[12:34] of my social media, and it's working. Thousands upon thousands of [music]
+[12:36] Thousands upon thousands of [music] warm, qualified leads every single month
+[12:39] warm, qualified leads every single month coming in for all the different
+[12:40] coming in for all the different businesses because of this simple
+[12:42] businesses because of this simple approach: [music] short-form, long-form,
+[12:44] approach: [music] short-form, long-form, lead form. I want you to implement this
+[12:46] lead form. I want you to implement this in your business. Okay, if you've
+[12:47] in your business. Okay, if you've enjoyed this video, come and join me for
+[12:49] enjoyed this video, come and join me for the live workshop that I mentioned
+[12:50] the live workshop that I mentioned earlier, and I'll see you there. Give
+[12:52] earlier, and I'll see you there. Give this video a like, give the channel a
+[12:54] this video a like, give the channel a subscribe, leave a comment, and I'll see
+[12:56] subscribe, leave a comment, and I'll see you soon. All the best.
+```
+
+---
+_Work dir: `/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/62d25167-13a8-4f03-a24f-4f10ed498188/scratchpad/priestley-watch` — delete when done._

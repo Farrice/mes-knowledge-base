@@ -1,5 +1,5 @@
 ---
-description: "daniel-priestley — full expert front door: Oversubscribed methodology, demand engineering, Key Person of Influence. Skills: daniel-priestley-24-assets-os, daniel-priestley-oversubscribed."
+description: "daniel-priestley — full expert front door: Oversubscribed methodology, demand engineering, Key Person of Influence. Skills: daniel-priestley-24-assets-os, daniel-priestley-oversubscribed, daniel-priestley-sll-engine."
 ---
 <!-- auto-generated: expert front door (sync_registries.py) — safe to delete; regenerated on sync -->
 
@@ -11,6 +11,7 @@ Tier-gated loading: pick the ONE skill below relevant to the request and load it
 |-------|------------------------|-------------------------|-------------------|
 | daniel-priestley-24-assets-os | `skills/daniel-priestley-24-assets-os/SKILL.md` | `skills/daniel-priestley-24-assets-os/genius.md` | `skills/daniel-priestley-24-assets-os/workflows/24-assets-heatmap-diagnostic.md` |
 | daniel-priestley-oversubscribed | `skills/daniel-priestley-oversubscribed/SKILL.md` | `skills/daniel-priestley-oversubscribed/genius.md` | `skills/daniel-priestley-oversubscribed/workflows/kpi-brand-authority-blueprint.md` |
+| daniel-priestley-sll-engine | `skills/daniel-priestley-sll-engine/SKILL.md` | `skills/daniel-priestley-sll-engine/genius.md` | `skills/daniel-priestley-sll-engine/workflows/01-sll-system-map.md` |
 
 If the request fits a full structured run (not just a quick application), OFFER the loaded skill's flagship workflow; each skill's 'Available Workflows' table and its `references/prompts-v2/` execution prompts cover the other processes.
 

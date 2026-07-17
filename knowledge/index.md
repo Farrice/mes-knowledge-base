@@ -1,9 +1,9 @@
 # Knowledge Index
-*664 sources | 2,691,819 words | Updated: 2026-07-16*
+*666 sources | 2,692,913 words | Updated: 2026-07-17*
 
 ---
 
-## Content (227 files)
+## Content (229 files)
 
 - [video-context-ledger](../extractions/video-context/3iR3kHxCwfo/video-context-ledger.md) — 75,408 words
 - [Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them](extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md) — 60,850 words (stale)
@@ -24,8 +24,8 @@
 - [extraction-report](../extractions/seth-godin-marketing-mind/extraction-report.md) — 5,284 words
 - [extraction-report](../extractions/ocean-vuong/extraction-report.md) — 4,861 words (stale)
 - [the-7-levels-of-brand-building](../extractions/oren-identity-brand-os/reference-corpus/the-7-levels-of-brand-building.md) [oren-john] — 4,671 words
+- [index](index.md) — 4,610 words
 - [mes-extraction](../extractions/wargame-source/mes-extraction.md) — 4,604 words
-- [index](index.md) — 4,595 words
 - [visual-context](../extractions/brad-bonanno/visual-context.md) — 4,497 words
 - [extraction-report](../extractions/dr-k/extraction-report.md) — 4,451 words (stale)
 - [visual-context](../extractions/ryan-doser/visual-context.md) — 4,260 words
@@ -176,6 +176,7 @@
 - [creative-brief-generator](../extractions/mike-foutia-marketing-tools/prompts-v2/creative-brief-generator.md) — 658 words
 - [gopro-scaling-blueprint](../extractions/sam-goddard-media-scaling/prompts/gopro-scaling-blueprint.md) — 654 words (stale)
 - [dwell-time-narrative-gravity](synthesis/dwell-time-narrative-gravity.md) [kallaway] — 608 words (stale)
+- [extraction-report](../extractions/daniel-priestley-sll-engine/extraction-report.md) — 607 words
 - [blind-pass-sample-uncopyable-filter](../extractions/tommy-clark-linkedin-growth/blind-pass-sample-uncopyable-filter.md) — 584 words
 - [research](../extractions/nick-saraev-cold-outreach/research.md) [nick-saraev] — 577 words (stale)
 - [scriptwriter-reframe-test](../extractions/sam-goddard-media-scaling/prompts-v2/scriptwriter-reframe-test.md) — 561 words
@@ -191,6 +192,7 @@
 - [uncertainty-report](../extractions/kobi-brown-educational-virality/uncertainty-report.md) — 409 words
 - [validation-report](../extractions/mark-kashef-perfect-agentic-os-kit/validation-report.md) [nick-saraev] — 398 words
 - [source-to-skill-brief](../extractions/video-context/Zc4E_K48v48/source-to-skill-brief.md) — 394 words
+- [visual-context](../extractions/daniel-priestley-sll-engine/visual-context.md) — 390 words
 - [fourth-wall-experience-os](../extractions/rafa-conde/amplifications/fourth-wall-experience-os.md) — 370 words
 - [analysis](../extractions/video-context/3iR3kHxCwfo/analysis.md) — 366 words
 - [progressive-disclosure-patterns](../extractions/creative-direction/progressive-disclosure-patterns.md) — 364 words (stale)
@@ -350,7 +352,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 12,343 words
+- [log](log.md) — 12,425 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words

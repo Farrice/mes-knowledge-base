@@ -7116,6 +7116,40 @@
             "workflow_used": "dai-media-consumer-posture",
             "ensemble": true,
             "compound_pairing": "dai-media-consumer-posture + brad-bonanno-explainer-architecture + luke-iha-insight-vectors",
+            "feedback": "fb_20260717_151506_47dc"
+        },
+        {
+            "routing_id": "rt_20260717_152954_4b70",
+            "timestamp": "2026-07-17T15:29:54.078433+00:00",
+            "session_id": "",
+            "request_summary": "Daniel Priestley — SLL Engine (Short-Form/Long-Form/Lead-Form) extraction: skill + 5 workflows + 5 born-v2 prompts + watched-source provenance",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "daniel-priestley"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260717_153005_467e",
+            "timestamp": "2026-07-17T15:30:05.180772+00:00",
+            "session_id": "",
+            "request_summary": "/ideate Expansion Lab — collaborative ideation OS (mechanism-driven divergence, novelty bar, idea ledger, routes to /jam and production engines)",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "none"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "ideate",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ],
@@ -7551,24 +7585,33 @@
             "rating": "auto_match",
             "correction": "jenny-hoyos-shorts",
             "notes": "expert skill 'jenny-hoyos-shorts' loaded matching suggestion ['voice-os', 'jenny-hoyos-shorts', 'dan-wang-literary-analysis']"
+        },
+        {
+            "feedback_id": "fb_20260717_151506_47dc",
+            "timestamp": "2026-07-17T15:15:06.900222+00:00",
+            "session_id": "62d25167-13a8-4f03-a24f-4f10ed498188",
+            "routing_id": "rt_20260717_151152_433c",
+            "rating": "auto_miss",
+            "correction": "daniel-priestley-24-assets-os",
+            "notes": "expert skill 'daniel-priestley-24-assets-os' loaded not matching suggestion ['dai-media-consumer-posture', 'brad-bonanno-explainer-architecture', 'luke-iha-insight-vectors']"
         }
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 394,
-            "total_feedback": 48,
+            "total_routings": 396,
+            "total_feedback": 49,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 57,
+                "System": 58,
                 "Client Work": 14,
                 "Analysis": 6,
                 "Strategy": 21,
                 "Creative": 8,
                 "Legal Consult Prep": 1,
                 "Content": 42,
-                "Extraction": 18,
+                "Extraction": 19,
                 "Research": 8,
                 "stefan-georgi-dopamine-copy": 7,
                 "supercomputer": 18,
@@ -7687,7 +7730,7 @@
                 "collective-genius-council": 1,
                 "mark-kashef": 1,
                 "chase-hughes-conversational-influence": 4,
-                "none": 7,
+                "none": 8,
                 "alan-aragon-nutrition": 1,
                 "nate-b-jones-context-engineering": 34,
                 "luke-iha-avatar-machine": 7,
@@ -7806,10 +7849,11 @@
                 "monk-ai-offer-architecture": 1,
                 "lara-acosta-linkedin-mastery": 1,
                 "lamott-allen-really-real-writing": 2,
-                "dai-media-consumer-posture": 2
+                "dai-media-consumer-posture": 2,
+                "daniel-priestley": 1
             },
             "tier_counts": {
-                "0": 394,
+                "0": 396,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -7818,10 +7862,10 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 219,
-                "finalize-auto": 175
+                "finalize-auto": 177
             },
             "ensemble_count": 290,
-            "auto_miss_count": 37,
+            "auto_miss_count": 38,
             "auto_match_count": 11
         }
     }

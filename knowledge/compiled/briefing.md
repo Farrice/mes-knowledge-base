@@ -1,5 +1,5 @@
 # Knowledge Briefing
-*Generated: 2026-07-16 | 664 sources | 2,691,819 words*
+*Generated: 2026-07-17 | 666 sources | 2,692,913 words*
 
 ---
 
@@ -8,19 +8,19 @@
 - **assembly-rubric** (strategy) — 145 words — `knowledge/assembly-rubric.md`
 - **2026-07-16-pressure-test-whether-farrice-cain-should-pivot** (strategy [april-dunford]) — 1,565 words — `knowledge/assembly-sessions/2026-07-16-pressure-test-whether-farrice-cain-should-pivot.md`
 - **2026-07-16-re-convene-with-material-new-evidence-update-the** (strategy [dai-media]) — 1,349 words — `knowledge/assembly-sessions/2026-07-16-re-convene-with-material-new-evidence-update-the.md`
-- **index** (content) — 4,595 words — `knowledge/index.md`
-- **log** (general) — 12,343 words — `knowledge/log.md`
+- **index** (content) — 4,610 words — `knowledge/index.md`
+- **log** (general) — 12,425 words — `knowledge/log.md`
 - **BONUS-pricing-offer-page** (content) — 719 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/BONUS-pricing-offer-page.md`
 - **piece-1-what-is-marketing-context-engineering** (content) — 1,766 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/piece-1-what-is-marketing-context-engineering.md`
 - **piece-2-how-to-scope-ai-projects** (content) — 3,401 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/piece-2-how-to-scope-ai-projects.md`
 - **piece-3-hermes-orchestrator-claude-code** (systems) — 3,267 words — `extractions/adam-sandler-second-brain-gtm/reference-corpus/piece-3-hermes-orchestrator-claude-code.md`
-- **amplification-report** (screenwriting) — 3,114 words — `extractions/geoff-woods/amplification-report.md`
+- **extraction-report** (content) — 607 words — `extractions/daniel-priestley-sll-engine/extraction-report.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 227 | nicolas-cole |
+| content | 229 | nicolas-cole |
 | copywriting | 97 | luke-iha |
 | general | 83 | nick-saraev |
 | strategy | 67 | april-dunford |
