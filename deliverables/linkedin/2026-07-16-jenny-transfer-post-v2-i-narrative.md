@@ -18,17 +18,17 @@ Results don't speak. They whisper, to the twelve people who already knew you.
 
 So every few months I sat down to write about my work. I typed a sentence, read it back, and heard it as bragging or obvious. Deleted it. Closed the tab. Told myself tomorrow.
 
-Tomorrow said that for years.
+I said that for years.
 
-What I finally saw took the shame out of it. I explained hard things to clients every single day, across the table, in their language. The wall was somewhere else. I knew the work too well to say it small anymore. Mastery buries the plain version of a thing under everything you learn after it.
+What I finally saw took the shame out of it. I explained hard things to clients every single day, across the table, in their language. The wall was somewhere else. I knew the work too well to say it small anymore. Every year of mastery buries the plain version deeper.
 
-So I stopped typing and started talking. A client once talked to me about her work for forty minutes. I turned twenty seconds of it into a post. Her DMs opened up within a week. She never learned to write. She stopped needing to.
+So I stopped typing and started talking. A client talked to me about her work for forty minutes. I turned twenty seconds of it into a post. Her DMs opened up within a week. She never learned to write. She stopped needing to.
 
 If you're the best one in your building while a stranger with a ring light books the clients you should have, hear this the way I needed to hear it: nothing is wrong with you. You know the thing so well you can't say it small anymore. That's the whole problem. It has a fix.
 
 Say it out loud once, to one person, this week.
 
-Somewhere out there a person is typing their exact problem into a search bar at 11pm. It took me eighteen years to be findable. They deserve to find you faster.
+Right now someone is typing their exact problem into a search bar at 11pm. It took me eighteen years to be findable. They deserve to find you faster.
 
 ---
 
