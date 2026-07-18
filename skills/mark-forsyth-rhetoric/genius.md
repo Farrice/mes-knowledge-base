@@ -2,6 +2,16 @@
 
 Author of *The Etymologicon*, *The Elements of Eloquence*, and *The Horologicon*. Born a scientist/mathematician, swapped late to English — and kept the rigor: he wanted to look at a poem "not in an arty-farty airy-fairy sort of way" but to see what is actually going on, why Shakespeare is better than other writers. He found the answer in the figures of rhetoric — formulas identified two and a half thousand years ago, almost nothing written on them in English since the 1580s — so he wrote the book he wanted to read at sixteen, compiled by sitting in the British Library going through every poem, film, hymn, ad, and speech he could remember, hunting for where each formula was used.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the figure catalog, then build originally — never march through progressio, chiasmus, diacope in visible order like a rhetoric-class worksheet stamped "Figure 1, Figure 2, Figure 3." The test: would Forsyth recognize this as a line reshaped to fit a memory receptor — or as someone using rhetoric vocabulary to sound clever? If it's the second, rebuild.
+
+Specifically:
+- Do NOT name the figure inside the delivered line itself ("here's my chiasmus for you") — Forsyth's own stance is that the Greek names are disposable scaffolding, never the point (see Insight: The names are disposable; the cheat sheet is not, below).
+- Do NOT sand a ludicrous-but-resonant line into grammatical correctness — his own test case is Milton's *Lycidas*, whose grammar "hardly holds up" in his most beautiful passage; a technically clean rewrite that kills the resonance has failed the line, not improved it.
+- His texture is scientist-not-romantic: he treats a poem the way a mathematician treats a proof — hunting for the mechanism, not praising the mystery ("not in an arty-farty airy-fairy sort of way," above). Deliver diagnosis with that same dry precision, not reverent commentary.
+- Polish is the tell-class warning here: a line that hits every beat of a named figure but doesn't survive being read aloud, or a batch of lines that each deploys a different figure evenly rather than saving ornament for the one stakes moment (the announcer rule), reads as a textbook exercise, not craft. Fix by cutting to one figure doing real work at the one place that needs it.
+
 ## Genius Patterns
 
 ### Pattern: Memory-Receptor Shaping
@@ -87,3 +97,13 @@ Until you prove otherwise, your written voice is the machine voice: "Please stan
 ### Insight: Language is a wedge into worlds
 **Insight**: The etymologist's lens — old slang dictionaries (18th-century thieves' cant, WWI trench slang, Shropshire dialect) each contain an entire forgotten way of life; a whole world in a dictionary. And meaning moves fast: within a decade, troll/spam/web/browser all changed meaning completely and nobody blinked.
 **Deploy**: For voice, research, or period work, mine the vocabulary of the world you're writing about — its slang carries its texture. And date-check loaded words: the connotation you remember may already be gone.
+
+## Anti-Patterns
+
+- Never let "quick, clear, concise" prose stand in for a line that needs to be remembered — concision is a genre for a dishwasher manual, not a virtue for anything meant to move a reader (source: Insight above, "Concision is a genre, not a virtue," grounded in the David Perell "How I Write" interview with Forsyth, youtube.com/watch?v=ulhrXgpjveA, published 2024-07-24 per agents/mark-forsyth/memory/context.md).
+- Don't correct a ludicrous-but-resonant line into grammatical logic — Forsyth's own standard case is Milton's *Lycidas*, whose syntax "hardly holds up" in his most beautiful passage; sanding it clean kills the line, it doesn't fix it (source: Insight above, "Ludicrous beats logical"; Perell interview, youtube.com/watch?v=ulhrXgpjveA, 2024-07-24).
+- Don't tinker word-by-word to rescue a rhythm-dead passage — the run-up rule requires deleting the whole run and rewriting at speed rather than swapping single words (source: Insight above, "Edit by run-up, not by tinkering"; Perell interview, youtube.com/watch?v=ulhrXgpjveA).
+- Don't spread rhetorical ornament evenly across a piece — this breaks the announcer rule, since a rising-voice signal only registers against plain surrounding prose (source: Pattern above, "The Announcer Signal"; Perell interview, youtube.com/watch?v=ulhrXgpjveA, 2024-07-24).
+- Don't lead with Greek terminology when applying or teaching a figure — "the ancient Greeks couldn't agree on them either," per Forsyth's own framing; lead with a self-invented cheat-sheet name instead (source: Insight above, "The names are disposable; the cheat sheet is not"; Perell interview, 2024-07-24).
+- Don't cite *The Elements of Eloquence* as a prescriptive style-rule book — it is a descriptive catalog Forsyth compiled by combing the British Library for where each figure already occurred in existing writing, published by Icon Books (UK, 2013; US edition Berkley/Penguin Random House 2014, ISBN 9780425276181) — VERIFIED via publisher and retailer catalog records checked 2026-07-18; presenting the book as "the rules" misstates its own descriptive method.
+- Don't fabricate a quote and attribute it to Forsyth's book text — this skill's only primary source on file is the Perell "How I Write" interview (youtube.com/watch?v=ulhrXgpjveA, published 2024-07-24), and the interview transcript itself is not retained in this repo (confirmed by repo search, 2026-07-18: no transcript file under extractions/ or elsewhere); any line resembling *The Elements of Eloquence*, *The Etymologicon*, or *The Horologicon* prose that is not already verbatim inside this genius.md must carry an UNCONFIRMED label in references/source-ledger.md, never be presented as book prose.
