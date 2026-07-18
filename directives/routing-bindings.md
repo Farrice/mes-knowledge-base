@@ -5,6 +5,16 @@
 > on every explicit workflow invocation and injects violations as context; `finalize()` runs the
 > post-hoc check. Machine source of truth: `execution/routing_enforcer.py BINDINGS`.
 > **Update BINDINGS and this table together.**
+>
+> **ENFORCEMENT TRIAL (Wave 2 flip, 2026-07-17 → 2026-07-24, Farrice-approved):** while
+> `.agent/routing-enforce-trial.json` is `active` and unexpired, explicit domain-binding
+> violations **BLOCK the prompt** instead of warning. Compass-not-cage preserved three ways:
+> (1) documented override — resend with `!route` in the prompt (allowed + logged);
+> (2) revert flag — set `active:false` in the trial file, no code change, and the trial
+> auto-expires at `ends`; (3) the fuzzy `control_intent_classifier` binding is EXEMPT
+> (warn-only always) — it false-positived on a legitimate `/resume` the day of the flip.
+> Every blocked/override/warned_exempt event lands in
+> `.agent/sessions/routing-enforce-log.jsonl` for the week-1 review in `/weekly-closeout`.
 
 If the task matches a domain below, deploy the bound workflow **even if the user names a different one**. System wins; explain the override in one sentence. Origin: 2026-04-21 session degraded to 6/10 because `writers-room` was used instead of `/parallax`.
 

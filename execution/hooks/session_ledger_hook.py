@@ -111,6 +111,43 @@ def _is_expert_skill(name: str) -> bool:
     return (SKILLS_DIR / name / "genius.md").exists()
 
 
+ROUTING_TRIAL_FILE = Path(__file__).resolve().parents[2] / ".agent" / "routing-enforce-trial.json"
+ROUTING_ENFORCE_LOG = SESSIONS_DIR / "routing-enforce-log.jsonl"
+
+
+def _routing_enforce_trial() -> dict | None:
+    """Active, unexpired Wave-2 routing-enforcement trial, else None.
+
+    The trial file IS the flip switch: active:false (or deleting the file, or
+    passing its 'ends' date) reverts to warn-only with no code change.
+    """
+    try:
+        t = json.loads(ROUTING_TRIAL_FILE.read_text())
+        if not t.get("active"):
+            return None
+        if datetime.now().strftime("%Y-%m-%d") > str(t.get("ends", "9999-12-31")):
+            return None  # trial auto-expires; weekly review decides permanence
+        return t
+    except (OSError, ValueError):
+        return None
+
+
+def _log_routing_enforce(ledger: dict, binding, chosen, v: dict, action: str) -> None:
+    try:
+        ROUTING_ENFORCE_LOG.parent.mkdir(parents=True, exist_ok=True)
+        with ROUTING_ENFORCE_LOG.open("a") as f:
+            f.write(json.dumps({
+                "ts": datetime.now().isoformat(),
+                "session_id": ledger.get("session_id"),
+                "binding": binding,
+                "chosen_workflow": chosen,
+                "mandatory_workflow": v.get("mandatory_workflow"),
+                "action": action,
+            }) + "\n")
+    except OSError:
+        pass
+
+
 def _reconcile_routing_feedback(ledger: dict, loaded_dir: str) -> bool:
     """Close the suggest -> load -> outcome loop (Wave 3, 2026-07).
 
@@ -236,23 +273,57 @@ def handle_prompt(payload: dict) -> None:
     except Exception:
         pass
 
-    # Explicit workflow invocation -> debt + routing warn.
+    # Explicit workflow invocation -> debt + routing check (warn or enforce).
     m = re.match(r"^[/@]([a-z0-9][a-z0-9-]+)\b\s*(.*)", prompt, re.IGNORECASE | re.DOTALL)
     if m:
         name, remainder = m.group(1).lower(), m.group(2)
         if name in _qualifying_workflows():
             _add_debt(ledger, "qualifying_workflow", name)
-        # Routing warn (NEVER blocks — 2026-05-23 false-halt precedent).
+        # Routing check. Default = warn-only (2026-05-23 false-halt precedent).
+        # Wave 2 flip (2026-07-17, Farrice-approved graduated enforcement): while
+        # .agent/routing-enforce-trial.json is active and unexpired, EXPLICIT
+        # domain-binding violations block with a documented override token.
+        # The fuzzy control_intent_classifier binding stays warn-only always —
+        # it false-positived on /resume the very day of the flip (exempt list).
         try:
             sys.path.insert(0, str(REPO_ROOT / "execution"))
             from routing_enforcer import check_routing
             v = check_routing(remainder or prompt, name)
             if not v.get("valid"):
-                context_lines.append(
+                trial = _routing_enforce_trial()
+                binding = v.get("binding_matched")
+                warn_line = (
                     "ROUTING WARNING (deterministic, routing_enforcer binding "
-                    f"'{v.get('binding_matched')}'): {v.get('violation_reason')}"
+                    f"'{binding}'): {v.get('violation_reason')}"
                     + (f" {v.get('advisory')}" if v.get("advisory") else "")
                 )
+                if not trial or binding in trial.get("exempt_bindings", []):
+                    context_lines.append(warn_line)
+                    if trial:
+                        _log_routing_enforce(ledger, binding, name, v, "warned_exempt")
+                else:
+                    token = trial.get("override_token", "!route")
+                    if token.lower() in prompt.lower():
+                        _log_routing_enforce(ledger, binding, name, v, "override")
+                        context_lines.append(
+                            f"ROUTING OVERRIDE logged ({token}) — binding '{binding}' "
+                            f"wanted {v.get('mandatory_workflow')}; proceeding with /{name}."
+                        )
+                    else:
+                        _log_routing_enforce(ledger, binding, name, v, "blocked")
+                        _save(ledger)
+                        print(json.dumps({"decision": "block", "reason": (
+                            f"ROUTING BINDING ENFORCED (trial to {trial.get('ends')}, "
+                            f"routing_enforcer binding '{binding}'): "
+                            f"{v.get('violation_reason')} "
+                            f"Mandatory route: {v.get('mandatory_workflow')}. "
+                            f"To proceed with /{name} anyway, resend with '{token}' in the "
+                            f"prompt (logged override — compass, not cage). Trial revert: "
+                            f"set active:false in .agent/routing-enforce-trial.json."
+                        )}))
+                        sys.exit(0)
+        except SystemExit:
+            raise
         except Exception:
             pass
 
