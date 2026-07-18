@@ -1,0 +1,22 @@
+# PROVENANCE — skills/luke-iha-proof-ladder repair (2026-07-18)
+
+Anchor → source file + location. All sources read in full for this repair; sizes confirmed via `wc -c` before any "source absent" claim was made (per ENVELOPE Rule 2).
+
+| Anchor (genius.md location) | Source File | Bytes (`wc -c`) | Location in Source | Verification Method |
+|---|---|---|---|---|
+| AN-1, AN-6 quotes ("why would anyone believe you...", "it's just dumb...") | `extractions/luke-iha/transcript.txt` | 32,648 | Single continuous paragraph, ~1/3 through the "Ladder of Proof" video, in the "your proof is coupled to your skill" segment | Direct substring search (`grep -F`) against full file read |
+| AN-8 quote ("certification junkies") | `extractions/luke-iha/transcript.txt` | 32,648 | Single continuous paragraph, certifications rung of the 7-rung client-acquisition ladder | Direct substring search against full file read |
+| AN-9 quote ("dumb excuses... I had a client... I'm afraid") | `extractions/luke-iha/transcript.txt` | 32,648 | Single continuous paragraph, testimonials rung ("this is where people start running into their own mental...") | Direct substring search against full file read |
+| Verbatim Exemplar 1 ("Most people struggle to get clients...") | `extractions/luke-iha/transcript.txt` | 32,648 | Same paragraph as AN-1, opening of the proof segment | Direct substring search against full file read |
+| AN-2 quote ("best marketers don't just throw proof at people randomly...") | `extractions/luke-iha/video-1-proof-mechanisms/transcript.txt` | 22,022 | Single continuous paragraph, closing "final thoughts" section, after the 22-type walkthrough | Direct substring search against full file read |
+| AN-3 quote ("If you say Harvard or Stanford...") | `extractions/luke-iha/video-1-proof-mechanisms/transcript.txt` | 22,022 | Single continuous paragraph, Proof Point #12 (Studies & Research), "pro tip" aside on contextualizing authority | Direct substring search against full file read |
+| AN-4 quote ("more specific testimonials beat vague ones...") | `extractions/luke-iha/video-1-proof-mechanisms/transcript.txt` | 22,022 | Single continuous paragraph, Proof Point #20 (Testimonials and Reviews) | Direct substring search against full file read |
+| AN-7 quote ("match your promise to your proof... $47 Stripe payment...") | `extractions/luke-iha/video-1-proof-mechanisms/transcript.txt` | 22,022 | Single continuous paragraph, "Rule number one" of the four preface rules | Direct substring search against full file read |
+| Verbatim Exemplar 2 ("The harder your proof is to fake, the stronger it is...") | `extractions/luke-iha/video-1-proof-mechanisms/transcript.txt` | 22,022 | Single continuous paragraph, "Rule number two" of the four preface rules | Direct substring search against full file read |
+| Verbatim Exemplar 3 ("Proof is not convincing people to buy...") | `extractions/luke-iha/video-1-proof-mechanisms/transcript.txt` | 22,022 | Single continuous paragraph, closing sentence of the entire video | Direct substring search against full file read |
+| AN-5 (Price Before Proof) | — | — | No source located | UNCONFIRMED — searched both transcripts above (`grep -i "price"` and manual read), no matching quote found; labeled UNCONFIRMED in genius.md and source-ledger.md rather than anchored |
+| 5-Tier table naming discrepancy (flagged, not fixed) | `extractions/luke-iha/video-1-proof-mechanisms/transcript.txt` (verbatim 5-category order) vs. pre-existing `genius.md` table (different order/naming) | 22,022 | "Category number one... psychological proof... Category number five, social proof" (verbatim category walkthrough near end of transcript) | Direct read; cross-checked against `references/proof-ladder-framework.md` which uses the matching (correct) order |
+| Confirmed absent: `video-8-proof-ladder/transcript.txt` | `extractions/luke-iha/video-8-proof-ladder/` (directory) | n/a | Directory contains only `extraction-report.md` (17,119 bytes) | `find`/`ls -la` directory listing — confirmed no `transcript.txt` present before treating video-8's raw source as absent |
+
+## Duplicate File Note
+`extractions/luke-iha/transcript.txt` and `extractions/luke-iha-creative-strategist/transcript.txt` are byte-identical (confirmed via `diff`, both 32,648 bytes) — same underlying "Ladder of Proof" video, filed under two extraction folders. Citations in this repair use the `extractions/luke-iha/transcript.txt` path since that folder's naming matches this skill's domain (proof ladder).
