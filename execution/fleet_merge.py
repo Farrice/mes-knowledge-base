@@ -71,6 +71,11 @@ def main() -> int:
             continue
         if rel.name == "PROVENANCE.md":
             target = dst / "references" / f"PROVENANCE-{today}.md"
+        elif rel == Path("source-ledger.md"):
+            # Placement quirk (jay-hiette/jonathan-courtney, 2026-07-18): workers
+            # sometimes deliver the ledger flat at the root; the auditor only
+            # looks in references/.
+            target = dst / "references" / "source-ledger.md"
         else:
             target = dst / rel
         if args.dry_run:

@@ -1,5 +1,15 @@
 # Jay Hiette — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist. Absorb the belief-shift lens, then build originally — if the output visibly stamps "Reality Matrix Step 1, Step 2, Step 3" or labels a paragraph "here's the symptom language," you have failed. The recognition test: would Jay recognize this as a message that actually shifts what someone believes is possible — or as content using belief-shift vocabulary without shifting anything? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce the frame. Jay never says "now I'm using symptom language" mid-copy — he just writes "every time you walk in the kitchen, you overeat" and lets it land. Naming the technique on the page kills it.
+- Do NOT let a contrarian claim float free of a mechanism. "People think X, the truth is Z" without a named, visualized mechanism behind Z is just an opinion — his own bar is that the claim needs a visible engine ("NEAT drives total expenditure more than workouts"), not swagger.
+- His texture is blunt, first-person, hustle-honest: self-deprecating about the 80-hour agency years and the cold outreach he used to run, specific about dollar figures (EUR 8K in 3 weeks, $500 spend → $14K in 2 weeks, 290 → 23,000 followers in a month), never vague about outcomes. Round numbers and hand-wavy "great results" are the tell that the belief-shift lens wasn't actually applied.
+- Polish is the tell-class warning here too: an over-produced, jargon-heavy "positioning statement" is exactly the content Jay says people "scroll past." If it doesn't pass his own 3-second stranger-reads-the-bio test, it has failed on his terms, not just a generic quality bar.
+
 ## Genius Patterns
 
 ### Pattern: The Optometrist Model (Prescription Before Content)
@@ -51,6 +61,17 @@ The strongest hooks contain a self-contradiction the brain must resolve: "why it
 The sequencing rule that governs everything: get the dream client, vision assets, and reality-shift message crystal clear BEFORE integrating ads and scaling systems. Ads amplify whatever exists — amplifying a blurry message just buys more invisibility.
 **Execute**: Gate any ad spend or funnel build behind a completed Reality Matrix (workflows 01 and 02 before 03). If conversion stalls, debug message and positioning first, strategy last.
 **Success Metric**: Ad dollars compound instead of leak; no "traffic but no clients" plateau.
+
+## Anti-Patterns (Sourced)
+
+Each entry is a failure mode Jay names explicitly in the source transcripts — not inferred. Both source videos were pasted verbatim into a claude.ai extraction conversation and are recoverable at `_archive/claude-export-2026-07-01.tar.gz` (see `references/source-ledger.md` for the full chain).
+
+- **Answering "no clients" with "post more content"** — Jay calls this the default guru advice and rejects it outright: "most gurus on the internet will tell you the complete opposite. They'll tell you to post more organic content or you're not trying hard enough or you're not good enough at what you do, which is complete BS" (Jay Hiette, "Exactly How I Built a $200k Per Year (Profit) Consulting Business," YouTube transcript pasted into claude.ai 2026-02-04, `claude-export/normalized/conversations/8e18a4b6-fae7-4f41-9fe5-133a1613b3a1.md`) — the fix is message and positioning, never volume.
+- **Treating follower count as the health metric** — his own proof pair: "he had 800,000 followers and he just wasn't converting clients... Yip... had a few hundred followers and was able to make €8,000 in a few weeks" (same source, 2026-02-04) — audit message clarity before recommending more reach.
+- **Naming the problem instead of the felt symptom** — "When you call out a problem, gaining body fat, lack of leads, people just scroll because they don't even know if they own that problem yet... Instead, describe the moment that they can't ignore. Every time you walk in the kitchen, you overeat" (same source, 2026-02-04) — problem labels get scrolled past; only time-stamped, felt moments stop the scroll.
+- **Running ads straight to a booked call** — "we're not running ads directly to a book call, etc. We're just simply getting people to follow you" (same source, 2026-02-04) — his entire deal-flow system exists specifically to avoid this.
+- **Scaling ads or strategy before the message is fixed** — "the key thing you want to focus on is getting clear with the foundations and the message before you integrate the ads, the scaling, and all of the other steps" (same source, 2026-02-04) — foundations gate spend, never the reverse.
+- **Copying other creators to fit in** — from the companion video: "You copy others to try to fit in. And when you finish this video, you will learn exactly how to stand out" (Jay Hiette, "Why Identity-Led Content Is Taking Over," YouTube transcript pasted into claude.ai 2026-02-22, `claude-export/normalized/conversations/a54b5e3f-2b1a-4dca-87fd-272df45486a6.md`) — copying suppresses the authentic-story signal that actually converts.
 
 ## Hidden Knowledge
 
