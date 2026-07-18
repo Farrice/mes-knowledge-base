@@ -2,6 +2,16 @@
 
 Source: two Sherrard masterclasses — "Alex Hormozi's Personal Branding Strategy for Real Estate Agents" (Hormozi's $100M Brand framework applied to realtors) and "Why 90% of Realtors Get ZERO Leads From Social Media." Sherrard's lane is the intersection: brand strategy from the Hormozi playbook, executed through agent-specific content and conversion mechanics.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then build originally for the agent's actual niche and market — a mechanically stamped "here's Pattern 1: Message Before Microphone, here's Pattern 2..." output is failure. The test: would Sherrard recognize this as a realtor who has internalized the four-criteria filter and the HVC structure — or as someone reciting his slide deck back at him? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which genius patterns you applied unless asked. Run the niche test, the HVC structure, the first-three-photos audit silently, then hand back the finished artifact.
+- Do NOT label sections "here's the hook," "here's the value block," "here's the CTA." Write the actual hook, deliver the actual value, wire the actual call to action — the labels are for you, never for the deliverable.
+- Sherrard's texture is a direct-response operator's, not a branding theorist's: every pattern resolves to a script, a DM keyword, a description template, or a scored checklist — never an abstract principle left unexecuted. A deliverable that stops at "define your niche message" is unfinished; his own worked examples always land on the concrete artifact (real search phrases, a price band, an HVC script, a ManyChat keyword).
+- Polish is the tell-class warning: a beautifully worded brand statement with no four-criteria scoring behind it, no real search phrases, and no lead-capture asset wired to it is exactly the "message with no microphone" failure Sherrard names — reject it on sight, no matter how well it reads.
+
 ## Genius Patterns
 
 ### Pattern: Message Before Microphone
@@ -53,6 +63,18 @@ Brand consistency across every profile — Facebook, Instagram, YouTube, LinkedI
 "You only get one name, so invest accordingly." Brand is the only lever that simultaneously lowers customer acquisition cost (clients come to you free; ads convert higher), raises lifetime value (a nurtured client becomes roughly seven deals over a career, per Sherrard, vs. one commission check), and extends retention (repeat + referral). Growing by sevens instead of ones is the difference between a job and a scalable business.
 **Execute**: Treat brand spend (design, content systems, niche research) as the highest-ROI line item, not a vanity cost. Frame every brand decision against the 7-deal LTV math, not the next closing.
 **Success Metric**: Repeat/referral share of closed deals rises year over year; inbound (free) leads grow relative to paid.
+
+## Anti-Patterns (Sourced)
+
+The four "mistakes" Sherrard diagnoses (and their Hormozi-side counterparts) are refusals, not just gaps — the model should treat each as a hard stop, not a stylistic preference. Every item below is a verbatim or near-verbatim quote from the raw transcript, anchored to source file, timestamp, and the date the conversation carrying that transcript was captured in the claude.ai export.
+
+- **Never post for views instead of clients.** Sherrard's mistake #1, verbatim: "posting for views instead of posting for clients" (source: `90pct-zero-leads.md`, transcript timestamp 0:59–1:01; claude.ai conversation captured 2025-06-20).
+- **Don't chase agent-facing content** (trends, dances, "life of a realtor" jargon) — it recruits other realtors, not clients. Verbatim diagnostic: "the only other people that are following them are other realtors" (source: `90pct-zero-leads.md`, transcript timestamp 1:04–1:09; captured 2025-06-20).
+- **Never ship a market stat without context.** Sherrard's mistake #2, verbatim: "a lot of agents are sharing facts with no context" (source: `90pct-zero-leads.md`, transcript timestamp 3:58–4:02; captured 2025-06-20).
+- **Don't publish content with no Hook-Value-CTA structure.** Sherrard's mistake #3, verbatim: "mistake number three is going to be no structure" (source: `90pct-zero-leads.md`, transcript timestamp 7:06–7:10; captured 2025-06-20).
+- **Never let the grid be listings-only.** Sherrard's mistake #4, verbatim: "the average agent only posts listings and no human connection" (source: `90pct-zero-leads.md`, transcript timestamp 10:56–11:03; captured 2025-06-20).
+- **Don't build a brand that tries to speak to everyone.** Hormozi's no-one-audience warning, verbatim: "if you're trying to speak to everyone, you end up connecting with no one" (source: `hormozi-25k-branding.md`, transcript timestamp 17:12–17:18; captured 2025-10-29).
+- **Never validate a niche on vibes.** Verbatim rejection criteria: "you don't want to choose a niche who doesn't have the money to actually purchase frequent properties, who is not easy to target and is shrinking" (source: `hormozi-25k-branding.md`, transcript timestamp 7:36–7:45; captured 2025-10-29).
 
 ## Hidden Knowledge
 
