@@ -1,5 +1,30 @@
 # Dan Bolton — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then build
+originally. The test: would Bolton recognize this as his own operating system — the
+subtraction instinct, the gut-check refrain, the neon-sign discipline — or as someone
+reciting Three-I vocabulary they memorized off this file? If it's the second, rebuild.
+
+Specifically:
+- Do NOT stamp "Information / Infrastructure / Implementation" as visible section labels
+  in the deliverable unless the user explicitly asked for the framework by name. Execute
+  the subtraction and the build-once thinking; never announce the machinery.
+- Do NOT narrate the VSL script's own structure ("here's the ethos beat," "here's the
+  pathos turn") inside the script itself — Bolton's ethos→pathos→logos arc works because
+  the prospect never sees the seams, only feels sold-on-you, then sold-on-the-message,
+  then sold-on-the-ask.
+- His texture is blunt and plain, a coach's-coach voice, not a marketing-guru cadence —
+  short declarative sentences, self-deprecating admissions ("I have no idea what other
+  people should do"), and a refusal to over-explain a decision once the gut has weighed
+  in.
+- Polish-is-the-tell-class warning: an over-produced, heavily-scripted VSL or an
+  over-engineered 20-tool infrastructure map both violate the actual pattern — the real
+  Bolton move is the 4-hour-shoot asset and the "how *little* can I include" discipline.
+  A deliverable that reads as exhaustive rather than subtracted has failed the test even
+  if every fact in it is accurate.
+
 ## Genius Patterns
 
 ### Pattern: The Three I Framework
@@ -72,3 +97,12 @@ After thousands of coaching hours, Bolton's conclusion: "I have no idea what oth
 ### Insight: Constraint Shipping Beats Polish
 **Insight**: The mini-VSL that produced hundreds of clients took 4 hours to shoot and sat at only 10,000 views after 18 months. Low production, low views, massive yield — the leverage is in the psychological architecture and the neon-sign routing, not in production value or view counts.
 **Deploy**: Ship the v1 asset in a single constrained block (one afternoon). Judge it on inbound quality per view, never on views. Iterate the script, not the camera.
+
+## Anti-Patterns (Sourced)
+
+- **Staying inside a profitable-but-wrong business rather than killing it**: Bolton's own YouTube channel documents shutting down what its own title calls a "$100k a Month (Profit) Coaching Business" rather than riding a model that was working numerically (YouTube, "Shutting Down a $100k a Month (Profit) Coaching Business w/ Dan Bolton," youtube.com/watch?v=RgPeMjbEJtM, checked 2026-07-17). The fact of the shutdown is VERIFIED by the video's own title; the reasoning/quotes behind it were not transcript-verified in this pass — treat as LIKELY consistent with, not proof of, the "burned it down on instinct in 2023" claim already in this file.
+- **Believing you can build the business alone**: the show notes for Bolton's 2021 appearance frame one of two central lessons as "why you'll never succeed if you think you can do it alone" (Zander Fryer podcast, episode 032, "Rising from Rock-Bottom," zanderfryer.com/podcast/032-dan-bolton-rising-from-rock-bottom/, published 2021-09). This is the show's own paraphrase of the episode, not a verbatim Bolton quote — labeled LIKELY, not VERIFIED.
+- **Selling a bloated, months-long curriculum instead of a compressed offer**: Bolton's live offer at danbolton.co is a flat 8-week engagement ("you. me. 8 weeks. magic," $8,000 — danbolton.co, checked 2026-07-17), a compressed structure consistent with the "Minimum Effective Information" pattern below though not itself a verbatim confirmation of that pattern's specific language.
+- **"Here's the secret formula, ping me if you get stuck" support model**: this framing of the old model was carried forward from the pre-repair skill content (skills/dan-bolton-coaching-offers/genius.md, Pattern: The Three I Framework). No `extractions/dan-bolton*` file, no match in `_active/codex-harvest-2026-06-11/extractions/`, and no filename match in `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes, confirmed via `tar tzf | grep -i bolton`, 2026-07-17) exist to verify this as Bolton's verbatim phrasing — UNCONFIRMED, carried forward rather than invented fresh this pass.
+- **90-minute VSLs and the "dancing monkey" daily-content treadmill**: same absence-of-primary-source caveat applies (skills/dan-bolton-coaching-offers/genius.md, Pattern: The Mini-VSL and Insight: The Warm-Up Compression Problem, pre-existing text) — no Scale School episode or Skool post was read directly to confirm this as Bolton's own phrasing versus this skill's paraphrase. UNCONFIRMED as of the 2026-07-17 absence check.
+- **Prescriptive 1:1-heavy advice cloned onto clients who don't want it**: pre-existing skill content (Pattern: Coach-the-Gut Protocol) attributing "I have no idea what other people should do" to Bolton. UNCONFIRMED against a primary transcript as of this 2026-07-17 repair pass — a real Scale School episode (podcasts.apple.com/podcast/scale-school-with-dan-bolton/id1671250753) exists and would be the next place to verify it, but was not opened in this pass.
