@@ -1,36 +1,55 @@
-# Handoff — Frontier Elevation, Day One (2026-07-17)
+---
+thread: frontier-elevation-day-one
+status: active
+resume_hint: W3 L3 done + W2 flip live; Farrice-gated: grading redesign ratification + seed reviews
+branch: main
+pin: true
+---
 
-**Pin**: frontier-elevation-day-one · **Resume with**: `/resume frontier-elevation`
+# Handoff — Frontier Elevation, Day Two (2026-07-17 evening)
+
+**Pin**: frontier-elevation-day-two · **Resume with**: `/resume frontier-elevation`
 
 ## What shipped this session (all committed + pushed, local == remote)
-- 8-wave program approved: `_active/frontier-elevation-2026-07-17/PLAN.md` (canonical).
-- **Wave 0** concurrency firewall: merge-discipline.md, lock-gated kickoffs, dead-alarm
-  space-bug fix, fixture 12/12 + **fleet_write_guard.py** (Law 1 hook-enforced, 4/4 PoC).
-- **Wave 1** judge ARMED: 35/35 `calibrated_by_human` (8 Farrice ratifications,
-  EVAL-031/033/035/038/039/042/043/044). 30 seed candidates + REVIEW-PROTOCOL banked
-  for depth passes.
-- **Wave 3 Lanes 1+2 COMPLETE**: all 25 PRODUCTION_CORE + revenue cluster (claim-safe,
-  galpin, israetel, teo, aragon, jeremy-haynes) at 6/6 heartbeat. 5 Opus adversarial
-  verifies, ALL CLEAN. Legacy fabrications exposed + labeled, never papered over.
-- 5 fleet failure shapes carded: `docs/solutions/2026-07-17-repair-fleet-poc-three-failure-shapes.md`
-  (+ cwd-flatten card). Foreign second conductor raced this tree — reconciled, zero loss.
-- Two finalizes at 9.0 (anchors named). Mission log current in `.agent/missions.jsonl`.
+- **Wave 3 Lane 3 COMPLETE**: 17 active-project skills to 6/6 heartbeat (meg-heckman,
+  how-i-write-os, jh-mindset, nba-betting-edge, 4× prediction-market, omar-eltakrori,
+  linkedin-2026-format-arbitrage, both Priestleys, joshua-smith, jasmin-alic,
+  new-media-ghostwriting [was 6/6 failing, no genius.md], fresh-voice-system,
+  ghostwriting-voice-engine [redo of a hollow batch-3 delivery]).
+  17-worker Sonnet fleet, sentinel-guarded, serial gate merges, zero quarantine violations.
+- **Opus adversarial verify** (4 samples, 49 anchors): ZERO fabrications; 3 minor
+  violations found + fixed + independently confirmed (false-absence HK-8/Gambot label,
+  dropped-word "verbatim" blockquote, wrong-file citation). 2 new failure shapes carded
+  in docs/solutions/2026-07-17-repair-fleet-poc-three-failure-shapes.md (hollow
+  delivery; shape-3 recurrence as lazy-UNCONFIRMED).
+- **Wave 2 step 1 LIVE**: routing BINDINGS enforce flip. Switch =
+  `.agent/routing-enforce-trial.json` (active, ends 2026-07-24, auto-expires).
+  Override `!route` (logged); `control_intent_classifier` EXEMPT (false-positived on
+  this session's own /resume). Ledger: `.agent/sessions/routing-enforce-log.jsonl`.
+  Fixtures 3/3, golden set 24/24 + 7/7. Revert = active:false, no code change.
+- **Wave 2 step 2 PROPOSAL**: grading-loop redesign at
+  `_active/frontier-elevation-2026-07-17/04-deliverables/GRADING-LOOP-REDESIGN.md` —
+  verdict-first (SHIP/MARGINAL/FAIL), cite-the-precedent-by-EVAL-ID (machine-checked),
+  producer-never-grades-alone, felt-verdicts compound the eval set. AWAITING FARRICE.
+  (The finalize this session tripped the inflation guardrail on its own 9s — live proof
+  of the redesign's thesis.)
+- Finalize 9.0 (anchor named), Notion logged, mission log current.
 
 ## Next up (in order)
-1. **W3 Lane 3**: active-project skills through the same fleet pattern (sentinel +
-   session lock + ENVELOPE.md at `.tmp/wave3-batch2/ENVELOPE.md` — reuse it).
-2. **W3 Lane 4**: long tail via `renaissance_queue.py` — designed as W7 overnight work.
-3. **W2**: graduated enforcement flip (routing BINDINGS → blind-pass → finalize debt →
-   steering; 1-week trials, revert flags) + **grading-loop redesign** (Farrice's felt
-   hypothesis: rubric machinery predates strong models — rework, don't just enforce).
-4. **Source re-acquisition queue**: video 412qINvYIKk (vsl-leads ~40% unsourced layer),
-   Georgi "(New) AI Copywriting Masterclass", Diandra primary video, Cole
-   Two-Rules/Tangible-Faucet source.
-5. Then W4 (mission contracts) → W5 (kernel/distro + compiler v2, ownership/productize)
-   → W6 (/make any-domain) → W7 (AFK + Google Drive sync via gws).
+1. **Farrice**: ratify/edit GRADING-LOOP-REDESIGN.md (3 open questions at bottom) +
+   the 3×20-min seed reviews (30 candidates banked) → then R1 implementation.
+2. **W3 Lane 4**: long tail (~280 skills) as overnight Sonnet fleet work (W7 synergy);
+   census first — some of the "324 failing" is instrument error, re-run after repairs.
+3. **W2 week-1 review** (due 2026-07-24, in /weekly-closeout): read
+   routing-enforce-log.jsonl, false-positive scan, decide permanence → then flip #2
+   (blind-pass latch).
+4. Source re-acquisition queue unchanged (video 412qINvYIKk, Georgi masterclass,
+   Diandra primary, Cole Two-Rules).
 
 ## Standing rules (do not relearn)
 Fable conducts only · Opus judges · Sonnet executes volume. Workers: quarantine writes,
-git read-only, absence claims must be file-verified. Deterministic gate arbitrates every
-merge; worker summaries are routing hints, never evidence. Never rebuild the
-audit-strong list.
+git read-only, absence claims file-verified — AND delivery dirs checked non-empty before
+merge (hollow-delivery shape). UNCONFIRMED labels get spot-checked by the verifier
+(lazy-UNCONFIRMED = false-absence). Deterministic gate arbitrates merges; worker
+summaries are routing hints. Push races with sibling sessions on this shared tree are
+benign when rev-list shows 0/0 — verify, don't force.

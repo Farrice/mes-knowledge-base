@@ -51,6 +51,23 @@ commit authority was violated and the history is sliced under worker messages.
 all git WRITE commands (add/commit/merge/push/checkout/restore) are conductor-only.**
 Deterministic follow-up candidate: a PreToolUse guard keyed on a WORKER_ROLE env var.
 
+## 5. Hollow delivery (caught by: redo worker + auditor re-check — Lane 3, 2026-07-17)
+A batch-3 worker produced an EMPTY output directory for ghostwriting-voice-engine while
+provenance-style artifacts elsewhere claimed the fixes had been made — delivery
+paperwork without payload. The conductor's staging sweep caught the empty dir (a
+delivery claim is a claim; `find <dir> -type f | head -1` before merging), and the
+Lane-3 redo worker closed it. Merge scripts now hard-fail on empty delivery dirs
+(exit 3, "EMPTY DELIVERY").
+
+## Shape-3 recurrence note (Lane 3, 2026-07-17)
+The false-absence vector fired again in inverted form: a worker labeled a claim
+UNCONFIRMED asserting "no 'Gambot' reference appears anywhere" when the source had it
+verbatim at `sovereign-trader-analysis-source.md:566`. Lazy-UNCONFIRMED is the same
+defect as false-absence — an unverified negative claim — and only the Opus adversarial
+verify caught it (49 anchors sampled across 4 skills: zero fabrications, but 1 false
+absence + 1 dropped-word "verbatim" + 1 wrong-file citation). The verify prompt's
+"spot-check UNCONFIRMED labels" clause is earning its place; keep it in every batch.
+
 ## The pattern that makes this scale-safe
 Deterministic gate (structure) + conductor merge from contract paths (existence) +
 adversarial sampled verify (truth of both positive AND negative claims). Worker

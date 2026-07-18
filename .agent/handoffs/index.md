@@ -2,8 +2,8 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-17** [frontier-elevation-day-one/active] [Handoff — Frontier Elevation, Day Two (2026-07-17 evening)](2026-07-17-frontier-elevation-day-one.md) — W3 L3 done + W2 flip live; Farrice-gated: grading redesign ratification + seed reviews
 - **2026-07-17** [scratchpad/active] [Scratchpad — Source Ledger](2026-07-17-scratchpad.md) — Scratchpad — Source Ledger
-- **2026-07-17** [frontier-elevation-day-one/active] [Handoff — Frontier Elevation, Day One (2026-07-17)](2026-07-17-frontier-elevation-day-one.md) — Pin: frontier-elevation-day-one · Resume with: /resume frontier-elevation
 - **2026-07-17** [solutions/active] [Solutions — Cwd Flatten Space Bug Dead Alarm](2026-07-17-solutions.md) — Solutions — Cwd Flatten Space Bug Dead Alarm
 - **2026-07-17** [godin-marketing-mind/active] [Pick-Yourself Plan on the three warm-intro asks (hiding structure named as one-more-improvement-first; unit = 1 spoken ask + 1 send-ready MIRROR-register DM tonight; attachment removed via gift-frame + zero-invisible + catastrophe-chain audit) + amplify picks 14/15 built (smock ritual -> personal-brand-role, cranky-Tuesday diagnostic + becoming mechanism -> consistency-protocol, with honest correction that the surgeon test already existed)](2026-07-17-godin-marketing-mind.md) — Pick-Yourself Plan on the three warm-intro asks (hiding structure named as one-more-improvement-first; unit = 1 spoken ask + 1 send-ready MIRROR-register DM tonight; attachment removed via gift-frame + zero-invisible + catastrophe-chain audit) + amplify picks 14/15 built (smock ritual -> personal-brand-role, cranky-Tuesday diagnostic + becoming mechanism -> consistency-protocol, with honest correction that the surgeon test already existed)
 - **2026-07-17** [references/active] [References — Source Ledger](2026-07-17-references.md) — References — Source Ledger

@@ -7540,6 +7540,23 @@
             "ensemble": true,
             "compound_pairing": "paul-harding-lyric-prose + deliberate + dara-denney-meta-ads",
             "feedback": "fb_20260718_033940_9b48"
+        },
+        {
+            "routing_id": "rt_20260718_040237_421b",
+            "timestamp": "2026-07-18T04:02:37.891088+00:00",
+            "session_id": "",
+            "request_summary": "Wave 3 Lane 3 complete: 17 active-project skills repaired to 6/6 heartbeat via 17-worker Sonnet fleet (sentinel-guarded, serial gate merges, zero quarantine violations); 4-sample Opus adversarial veri",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "wave3-repair-fleet",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -8023,13 +8040,13 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 417,
+            "total_routings": 418,
             "total_feedback": 53,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 61,
+                "System": 62,
                 "Client Work": 14,
                 "Analysis": 6,
                 "Strategy": 22,
@@ -8098,7 +8115,7 @@
                 "new-media-ghostwriting": 1
             },
             "expert_counts": {
-                "system-audit": 22,
+                "system-audit": 23,
                 "strength-conditioning-os": 13,
                 "nicolas-cole": 1,
                 "source-to-skill-system": 1,
@@ -8290,7 +8307,7 @@
                 "new-media-ghostwriting": 1
             },
             "tier_counts": {
-                "0": 417,
+                "0": 418,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -8299,9 +8316,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 235,
-                "finalize-auto": 182
+                "finalize-auto": 183
             },
-            "ensemble_count": 309,
+            "ensemble_count": 310,
             "auto_miss_count": 42,
             "auto_match_count": 11
         }
