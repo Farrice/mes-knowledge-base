@@ -4,12 +4,24 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These twenty patterns are intuition primitives, not a checklist to march through in order. Absorb them, then rewrite ruthlessly — if the output visibly enumerates "Pattern 1 applied, Pattern 3 applied," it has already failed. Run the recognition test before shipping: would Harry Dry recognize this as copy he'd actually publish on Marketing Examples, or does it read like someone using his vocabulary — "three rules," "zoom-in," "dirty water" — without earning it? If it's the second, rebuild.
+
+Specifically:
+- Do NOT narrate which gates or patterns were applied unless the user explicitly asked for a diagnostic breakdown — Harry ships the line, not the worksheet.
+- Do NOT stop at draft one. His own floor is 10–25 rewrites before evaluation even begins (Pattern 13, "dirty water"); a first pass that already reads clean is usually generic, not good.
+- His texture is spoken and concrete, never academic: he points at "1,000 songs in your pocket" and Volkswagen's "Lemon," not at abstractions like "value proposition" or "synergistic strategies." If the output reaches for a business-school noun where a physical object would do, that's the tell — zoom in further (Pattern 2).
+- Polish is the tell-class warning: copy that sounds impressively composed but that a competitor could sign without lying (Pattern 5) has failed regardless of how clean the sentences scan. Run the Competitor Logo Swap before calling anything done.
+
 ## Genius Patterns
 
 ## Pattern 1: The Three Rules Test
 Every sentence passes through a three-gate filter: visualization, falsifiability, uniqueness.
 
 **Executable:** (1) Can I literally picture this? (2) Could this be proved true or false? (3) Could a competitor sign this? Three yeses = deploy. Any no = rewrite.
+
+**Real deploy:** "1,000 songs in your pocket" clears all three gates; "unparalleled growth and maximized ROI" clears none.
 
 ---
 
@@ -32,6 +44,8 @@ Eliminate persuasion through assertion. Replace with persuasion through evidence
 
 **Executable:** For every benefit claim, identify something external you can point to: a chart, a quote, a number. If you can't point to it, don't say it.
 
+**Real deploy:** a Falsifiability Filter worked example turns "Intuitive interface that your team will love" into "NPS of 72. Industry average is 31. They don't just use it—they recommend it." — the number does the pointing.
+
 ---
 
 ## Pattern 5: The Uniqueness Test
@@ -53,6 +67,8 @@ Pair opposites to create memorability and tension.
 
 **Executable:** Identify two contrasting elements. Place in direct proximity. Supermodels/dads. London/Ohio. Forever/2 months.
 
+**Real deploy:** a worked EV-truck line pairs the contrast directly — "Tougher than an F-150. Faster than a 911. This shouldn't be possible. It's electric."
+
 ---
 
 ## Pattern 8: Visual-Verbal Synthesis
@@ -60,12 +76,16 @@ Never separate copywriting from design.
 
 **Executable:** Write in the exact environment where it will be consumed. Newsletter copy in ConvertKit. Ads in Figma. Never isolated Word docs.
 
+**Real deploy:** "1,000 songs in your pocket" was composed at real ad dimensions, not drafted blind in a Word doc first — the layout is part of the sentence.
+
 ---
 
 ## Pattern 9: The Conflict Injection Method
 Structure every piece around implicit "but"—conflict creates narrative momentum.
 
 **Executable:** Before writing, identify conflict: Before/After, Problem/Solution, Common Approach/Our Approach.
+
+**Real deploy:** a finance-app worked example collapses the whole conflict into one Before/After line — "You don't have a spending problem. You have a visibility problem."
 
 ---
 
@@ -88,6 +108,8 @@ Constrain paragraphs to two lines maximum.
 
 **Executable:** Any paragraph exceeding two lines gets split or trimmed. Three lines = not clear enough. Simplify.
 
+**Real deploy:** a newsletter opener holds the whole stat in two lines — "I reviewed 47 landing pages this month. 39 had this mistake."
+
 ---
 
 ## Pattern 13: The 20-Rewrite Standard
@@ -102,12 +124,16 @@ Open with immediate specificity—exact time, physical location, sensory details
 
 **Executable:** Start with literal current moment: time on clock, what you see, physical sensation. Ground reader in YOUR reality.
 
+**Real deploy:** "It's 11:43 p.m. and I almost made the same mistake again." — exact clock time, immediate stakes, zero preamble.
+
 ---
 
 ## Pattern 15: The Enemy Identification
 Position products by defining what they're against.
 
 **Executable:** Identify your enemy: Type A (different approach), Type B (different belief), Type C (direct competitor). Build around contrast.
+
+**Real deploy:** Type C, named directly — "Banks track your spending to sell you credit cards. We track it to help you avoid them."
 
 ---
 
@@ -123,6 +149,8 @@ Great ads succeed with minimal elements—ideally one.
 
 **Executable:** After creating ad, try removing each element. Can it work with just headline? Just image? Fewer elements = stronger elements.
 
+**Real deploy:** The Economist's "management trainee, aged 42" — one line, no image required, full career-trajectory transformation.
+
 ---
 
 ## Pattern 18: The Feedback Versioning System
@@ -137,6 +165,8 @@ Start with verifiable facts, build narrative around them.
 
 **Executable:** Before writing, gather 3-5 specific facts. These become anchors. All narrative emerges from these pegs.
 
+**Real deploy:** a law-firm credibility stack strings the anchors end to end — "127 years of combined experience. 4,200+ cases to verdict or settlement. $847 million in total recoveries."
+
 ---
 
 ## Pattern 20: The Garden Walk Test
@@ -150,7 +180,7 @@ Step away, return with fresh eyes.
 Quality doesn't come from writing well initially—it comes from writing badly long enough that the "dirty water" clears. This removes perfectionism paralysis. First drafts are intentionally loose.
 
 ## The Belief Prerequisite
-Only writes well about things he genuinely believes. Marketing Examples succeeded because he actually believed marketers should learn from examples. Without authentic conviction, words ring hollow regardless of technique.
+Only writes well about things he genuinely believes. Marketing Examples succeeded because he actually believed marketers should learn from examples. Without authentic conviction, words ring hollow regardless of technique. His own reference shelf proves it: Volkswagen's "Lemon," Apple's "1000 songs in your pocket," The Economist's red banners — ads he actually believed in before he ever taught them.
 
 ## The Design-First Reality
 Though teaching "copywriting," actually practices "copy-design"—words never exist without visual context. This is why his work has coherence others can't replicate through words alone.
@@ -159,16 +189,31 @@ Though teaching "copywriting," actually practices "copy-design"—words never ex
 "Simple" style is actually extremely precise—every word placement, every rhythm, every line break is deliberate. The simplicity is the result of complexity, not the absence of it.
 
 ## The Conflict Addiction
-Can't write without tension. Even in casual newsletters, manufactures conflict (mom won't let me wear shorts) because narrative requires opposition. Does this automatically.
+Can't write without tension. Even in casual newsletters, manufactures conflict ("mom won't let me wear shorts") because narrative requires opposition. Does this automatically.
 
 ## The Experience Debt
 Deeply believes AI and copywriting formulas fail because they lack lived experience. "You can't write about New York if you've never been" extends to all subjects—authentic copy requires authentic experience.
 
 ## The Compound Effect
-Three rules applied separately are good. Three rules applied simultaneously create exponential impact. The compound quality ceiling is what most never approach.
+Three rules applied separately are good. Three rules applied simultaneously create exponential impact. The compound quality ceiling is what most never approach. "1,000 songs in your pocket" is the compound case — visualization, falsifiability, and uniqueness all firing on one line; most copy reaches one gate and stalls.
 
 ## The Reference Collection Habit
-Constantly collects 3/3 ads—copy that passes all three rules. This personal reference library informs intuition and raises standards over time.
+Constantly collects 3/3 ads—copy that passes all three rules. This personal reference library informs intuition and raises standards over time. His named shelf: Volkswagen's "Lemon," Apple's "1000 songs in your pocket," The Economist's red banners.
+
+---
+
+## Anti-Patterns
+
+Harry's own diagnostic language for what fails — every item below is a direct or lightly-trimmed verbatim quote from the extraction transcript, cited by line, not a paraphrase invented for this section.
+
+- **No Opposition** — the flattest failure mode: copy that names no enemy and simply exists. Harry's flatness diagnosis: "No problem it solves. No wrong approach it corrects. It just... exists." (source: knowledge/extractions/inbox/Claude-💎💎💰 Harry Dry ! Learn Copywriting in 76 Minutes.md, line 1398). Never ship a line without a named opposition — pair with Pattern 15 (Enemy Identification).
+- **No Real Enemy (Vague Villain)** — naming a feeling without naming its cause. Harry's flatness diagnosis on a "take control" headline: "you don't have control, but doesn't name what took control away. Banks? Bad habits? The economy? It's vague." (source: knowledge/extractions/inbox/Claude-💎💎💰 Harry Dry ! Learn Copywriting in 76 Minutes.md, line 1538). Don't let the enemy stay unnamed — Type A/B/C it (Pattern 15).
+- **Feature List Masquerading as Story** — enumerating capabilities and calling it a narrative. Harry's diagnosis of "Track spending, set goals, build habits": "is a feature list. There's no narrative tension." (source: knowledge/extractions/inbox/Claude-💎💎💰 Harry Dry ! Learn Copywriting in 76 Minutes.md, line 1540). Never mistake a bullet list for a Before/After arc (Pattern 9).
+- **"Journey" Language Deflates Stakes** — corporate euphemism standing in for a real promise. Harry's diagnosis of "Journey to financial wellness": "is the language of someone who doesn't want to make a real promise. It removes urgency." (source: knowledge/extractions/inbox/Claude-💎💎💰 Harry Dry ! Learn Copywriting in 76 Minutes.md, line 1542). Don't hide behind "journey," "solution," or "empower" — name the actual promise.
+- **Talking Instead of Pointing** — asserting a benefit with nothing external to point at. Executable rule, verbatim: "If you can't point to it, don't say it." (source: knowledge/extractions/inbox/Claude-💎💎💰 Harry Dry ! Learn Copywriting in 76 Minutes.md, line 176). Never publish a claim without a chart, quote, number, or comparison behind it (Pattern 4).
+- **Writing Copy Outside Its Native Environment** — drafting in an isolated Word doc instead of the layout readers will actually see. Verbatim rule: "Write copy in the exact environment where it will be consumed... Never in isolated Word docs." (source: knowledge/extractions/inbox/Claude-💎💎💰 Harry Dry ! Learn Copywriting in 76 Minutes.md, line 220). Don't separate the words from the pixels they'll live in (Pattern 8).
+- **Judging the Draft Before the Rewrite Minimum** — scoring quality before hitting the iteration floor. Verbatim rule: "Don't evaluate quality until minimum is reached." Early drafts are what Harry calls "dirty water" (source: knowledge/extractions/inbox/Claude-💎💎💰 Harry Dry ! Learn Copywriting in 76 Minutes.md, line 275). Never grade draft one — set a 10–25 rewrite floor first (Pattern 13).
+- **Copying the Structure Instead of Extracting the Principle** — lifting a swipe-file ad's shape rather than its mechanism. Verbatim rule, referencing the iPod line: "don't copy the structure—extract the principle (metonymy, concreteness) and apply it fresh." (source: knowledge/extractions/inbox/Claude-💎💎💰 Harry Dry ! Learn Copywriting in 76 Minutes.md, line 2175). Don't template a legend — decompose it (Pattern 16).
 
 ---
 
