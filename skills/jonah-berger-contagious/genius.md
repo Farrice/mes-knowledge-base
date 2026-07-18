@@ -1,6 +1,16 @@
 # Jonah Berger — Genius Context
 
-Source: Berger's long-form interview on word-of-mouth science, Contagious, and The Catalyst (Valuetainment, "How Marketers Create Billion Dollar Trends"). Patterns below are his stated methodology, in his logic, stripped of interviewer noise.
+Source: Berger's long-form interview on word-of-mouth science, Contagious, and The Catalyst (Valuetainment, "How Marketers Create Billion Dollar Trends"). Patterns below are his stated methodology, in his logic, stripped of interviewer noise. **Provenance caveat (2026-07-18 repair pass)**: no primary transcript file for this interview could be located anywhere in this repo — see `references/source-ledger.md` for the full search record (extractions/, codex-harvest, claude-export tarball, all checked by content, not just filename). The STEPPS/REDUCE framework content below is consistent with Berger's real, publicly documented books (*Contagious*, 2013; *The Catalyst*, 2020) — labeled LIKELY, not VERIFIED, in the absence of a checkable primary source.
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then build originally — never output "Social Currency: ✓, Triggers: ✓, Emotion: ✓" as a scorecard unless the workflow explicitly asks for a scored audit. The test: would Berger recognize this as an engineered STEPPS/REDUCE analysis grounded in his actual research logic — or does it read like someone using virality vocabulary as decoration? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce the machinery. Berger's own delivery names the driver once, then moves straight to the mechanism and the evidence (purchase data, NYT most-emailed analysis, hostage-negotiation transfer) — never a labeled subheading parade.
+- Do NOT push harder when a REDUCE diagnosis is what's called for. His signature move is the inversion: stop asking "how do I persuade them," start asking "why haven't they changed already" and go find the specific parking brake (Reactance, Endowment, Distance, Uncertainty, Corroborating evidence).
+- His texture is a researcher who has seen the data, not a guru with slogans — counter-intuitive claims get grounded in a study or a number ("only 10% of word of mouth is online," "millions of purchases"), and platitudes get interrogated ("that's interesting, but who needs it?"). Confident hand-waving without a mechanism is the tell that breaks the voice.
+- Never let one glowing testimonial stand in for corroborating evidence — his own framework treats a single credible source as dismissible ("that's just you"); the fix is concentration of independent sources, not louder repetition of one.
 
 ## Genius Patterns
 
@@ -53,6 +63,18 @@ New = unknown = frozen. The old thing's flaws are at least familiar. Freemium (D
 One person says you have a tail, you laugh; five people say it, you turn around. One advocate — however credible — is dismissible as "that's just you" (the translation problem). Multiple similar sources, concentrated in time, are not.
 **Execute**: For big asks, orchestrate several independent proof points from people similar to the target, landing close together — not one glowing testimonial repeated louder.
 **Success Metric**: The target hears the same message from 3+ sources they identify with, within a short window.
+
+## Anti-Patterns
+
+Each item names the failure mode a Pattern above exists to prevent, cross-referenced to its section in this file (verifiable in-repo, since no external transcript file could be located — see `references/source-ledger.md`); book-year citations mark where the underlying framework is independently checkable public record, not primary-source verified.
+
+- **Never treat STEPPS as a checklist to stamp, not a diagnosis to run** — "Social Currency: ✓, Triggers: ✓" recitals with no actual redesign is the exact failure the "Virality Is a Recipe, Not Lightning" pattern (source: genius.md, above) warns against; the framework is diagnostic, from *Contagious* (2013) — LIKELY, no primary transcript on file.
+- **Never write social currency copy that flatters the brand instead of the sharer** — the "Social Currency" pattern (source: genius.md, above) is explicit that almost everyone gets this backwards by asking how *they* look instead of how the customer looks; per *Contagious* (2013) — LIKELY.
+- **Never chase a clever uncued campaign over a boring, frequent trigger** — the "Triggers" pattern (source: genius.md, above) states plainly that uncued campaigns die in a week while cue-linked ones compound; per *Contagious* (2013) — LIKELY.
+- **Never ship content built for "mild interest"** — the "High-Arousal Emotion" pattern (source: genius.md, above) requires a named, activating emotion (awe/anger/anxiety/inspiration), not neutral information; per *Contagious* (2013) — LIKELY.
+- **Never let a story entertain without carrying the kernel** — the "Kernel Comes Before the Story" pattern (source: genius.md, above) treats a memorable-but-brandless ad as a documented failure mode (the Blendtec contrast case); interview attribution (Valuetainment) — UNCONFIRMED, no transcript file found in this repo.
+- **Never push harder on a stalled prospect instead of diagnosing the barrier** — the "Catalysts Ask Why Haven't They Changed" pattern (source: genius.md, above) makes "what else can I say?" the explicitly banned question; per *The Catalyst* (2020) — LIKELY.
+- **Never rest a big ask on one glowing testimonial** — the "Corroborating Evidence" pattern (source: genius.md, above) calls a single advocate dismissible as "that's just you," requiring concentrated independent sources instead; per *The Catalyst* (2020) — LIKELY.
 
 ## Hidden Knowledge
 
