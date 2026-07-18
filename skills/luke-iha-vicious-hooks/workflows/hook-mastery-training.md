@@ -48,7 +48,7 @@ Student writes 3 original hooks from scratch for the given niche. Full scoring a
 
 ### Phase 6: Coaching Report
 
-## Output Contract
+## Output Schema
 ```
 ## Hook Mastery Training Report
 

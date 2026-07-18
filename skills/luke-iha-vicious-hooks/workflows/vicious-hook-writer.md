@@ -97,7 +97,7 @@ Score each hook on the 6-criterion rubric (5 original + Identity Resonance):
 - **7 (Good)**: Hook names a specific behavior or thought the reader recognizes as their own. Creates a "that's me" moment.
 - **10 (Savant)**: Hook describes a private experience so precisely the reader checks if someone is watching them. The "how did they know?" reaction. Feels like the hook was written by someone who lived inside their head for a week.
 
-## Output Contract
+## Output Schema
 ```
 ## Vicious Hook Output: [Product Name]
 

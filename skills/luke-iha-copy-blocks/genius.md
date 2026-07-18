@@ -2,7 +2,9 @@
 
 > **v2.0 — Director's Cut.** Rebuilt from the complete two-day Copy Blocks foundational training (Genesis / Luke Iha + Mario Castelli). This is the **atomic integration spine** of Luke Iha's 11-skill system: the grammar every ad, VSL, email, and page is built from, plus the diagnostic loop and composition tools that bind the other skills together.
 
-## How to Use This Skill (Opus Calibration)
+## How to Use This Skill (Model Calibration)
+
+> Renamed from "Opus Calibration" 2026-07-17 (skill-repair pass) — same section, expert-appropriate heading, texture + polish-warning added below to close the gap against the `ben-watkins-storytelling/genius.md` calibration-section standard.
 
 The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Luke Iha recognize this as block-velocity copy — or as someone enumerating block names? If unsure, the answer is the second — rewrite.
 
@@ -13,6 +15,10 @@ Specifically:
 - The reader should feel velocity, never see blocks
 
 **Throw away the ladder** (Wittgenstein, via Luke): these frameworks are a ladder you climb to reach intuition, then kick away. The goal is a copywriter who throws the jab without thinking "now I deploy the epiphany-threshold tool." Mastery = the architecture goes invisible. Checklist execution surfaces the architecture and kills the copy.
+
+**This expert's texture.** Luke teaches systematic-but-spoken — "80% science, 20% art" (Core Philosophy above), delivered live off a whiteboard across a two-day Genesis certainty-call, not read off slides. His own copy is caveman-plain 95% of the time, with a deliberate "Jargon Flurry" — 1-2 sentences of dense, unexplained technical language dropped only at the mechanism reveal (`extractions/luke-iha/video-1-proof-mechanisms/extraction-report.md`, "The Jargon Flurry") — then straight back to plain talk. He is direct and terse in teaching mode ("This is the number one thing," repeated three times before he explains why — `extractions/luke-iha-creative-strategist/transcript.txt`, opening), not academic or hedged.
+
+**Polish is the tell.** If every sentence in an output has the same measured, workshopped cadence, that's the checklist talking, not Luke. Copy Velocity (see `## Copy Velocity` below) is a RHYTHM property, not a content checklist — real block-velocity copy has variable sentence length, occasional fragments, and a pace that speeds up and slows down. A draft that reads evenly smooth end-to-end has failed velocity even if every block is technically present.
 
 ---
 
@@ -127,6 +133,8 @@ $$\text{Value} = \frac{\text{Promise} \times \text{Proof} \times \text{Curiosity
 
 Prospect stands in **Pain Land**, wants the **Promised Land** across the canyon. The **helicopter = Curiosity** (the vehicle). The **pilot = Proof** (they won't board unless they trust the pilot). Their **baggage = Constraints** (must be dropped to board). A **stick of dynamite counting down = Conditions/urgency** (board now or it blows). Every block has a role in getting them across.
 
+*(Provenance note: this teaching frame comes from the Director's Cut two-day training — no transcript is on file for it, so treat the metaphor itself as UNCONFIRMED provenance (see `references/source-ledger.md`). The results it's built to explain are independently grounded: Luke Iha, "$100M+ generated with VSLs" — `extractions/luke-iha/video-8-proof-ladder/extraction-report.md`.)*
+
 ---
 
 ## Hall of Fame Exemplars
@@ -161,7 +169,7 @@ Prospect stands in **Pain Land**, wants the **Promised Land** across the canyon.
 ## Decision Framework (Pre-Flight)
 
 Before producing, answer:
-1. **Market reality** — what's the dominant **Core Wound** and **Core Transformation**? Where's the **identity ceiling** for the promise?
+1. **Market reality** — what's the dominant **Core Wound** and **Core Transformation**? Where's the **identity ceiling** for the promise? (Reference point used above: copywriter-market ceiling ≈ $10–20k/mo — see Promise section.)
 2. **Pain dimension** — psychological or physiological? (Determines whether you re-trigger pain via story or just acknowledge it.)
 3. **Awareness/constraints** — what are the Big Three ratios and the top identity/value constraints to *work around* (not challenge)?
 4. **The Idea** — which Curiosity Quadrant cell is the play? What's the Evocative Name for the mechanism?
@@ -171,11 +179,11 @@ Before producing, answer:
 ## Anti-Patterns (Quality Gate)
 
 - ❌ **Visible architecture** — block names, "CASH," CRAVES, or the Quadrant surfacing in customer-facing copy.
-- ❌ **Sequential blocks** — P→PR→PF→CTA in rigid order. Interleave.
+- ❌ **Sequential blocks** — P→PR→PF→CTA in rigid order. Interleave. *(Source: `extractions/luke-iha/video-4-copy-blocks/extraction-report.md`, HK4 — "Beginners use blocks in order: Pain → Promise → Proof → CTA. Experts interleave them.")*
 - ❌ **Direct core-wound callout** — "Do you feel invisible?" Weave indirectly with softening.
-- ❌ **Challenging identity/values head-on** — work around them; only play with experience-interpretation.
-- ❌ **Claim bigger than proof** — drains the belief bank.
-- ❌ **Over-proofing** — 27 studies past the point of trust reads as desperation.
+- ❌ **Challenging identity/values head-on** — work around them; only play with experience-interpretation. *(Source: `extractions/luke-iha/video-8-proof-ladder/extraction-report.md`, GP3 "Belief Hardening & Backward Dissolution" — "Once something becomes part of identity... it's nearly impervious to data... Dissolution must work backward.")*
+- ❌ **Claim bigger than proof** — drains the belief bank. *(Source: `extractions/luke-iha/video-8-proof-ladder/extraction-report.md`, GP4 "The Proof Balance Scale" — "Never let the claim side outweigh the proof side.")*
+- ❌ **Over-proofing** — 27 studies past the point of trust reads as desperation. *(Source: `extractions/luke-iha/extraction-report.md`, Hidden Knowledge "Proof is About Safety, Not Convincing" — "The core purpose of proof isn't to bludgeon the prospect into agreement. It's to make them feel safe taking the leap.")*
 - ❌ **Promise to the edge of belief instead of identity** — triggers the BS detector.
 - ❌ **Generic mechanism name** — "hidden root" usable in any market = no specificity, no curiosity. (Magnet test: too far apart = no tension; name must create knowing-but-not-knowing.)
 - ❌ **Conditions naked** — relying on guarantee/urgency alone in a saturated market.
@@ -184,11 +192,11 @@ Before producing, answer:
 
 ## Quality Rubric
 
-> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading. Each dimension scores 1–10, anchored at 4 (acceptable) / 7 (good) / 10 (savant) — name the matching anchor before assigning ≥8, per `directives/quality_gate.md` calibration.
 
 ## Patterns from claude.ai export — Collaborative Copywriting & Marketing Maestro
 
-Two net-new capabilities harvested from a collaborative-copy custom-instruction prompt. Both add a *layer above* the solo block-composition engine: block composition stays the same; these change *who reasons* about the blocks and *how the feeling is sequenced* across the whole piece.
+Two net-new capabilities harvested from a collaborative-copy custom-instruction prompt (claude.ai export, folded in 2026-07-01 — see Evolution Log below; this source prompt sits outside the `extractions/` ground-truth set for this repair pass, so treat the claimed origin as UNCONFIRMED per `references/source-ledger.md`). Both add a *layer above* the solo block-composition engine: block composition stays the same; these change *who reasons* about the blocks and *how the feeling is sequenced* across the whole piece.
 
 - **Panel-to-Block Mapping.** *Execute:* Instead of one author assembling all 6 blocks, stand up a 3-7 expert panel tailored to *this* objective and assign each expert the block(s) they own (psychology→Pain/Constraints, idea→Curiosity, proof-craft→Proof, voice→AI-tell removal across all). One expert is the **spine-keeper** who owns coherence + velocity and can *veto* any block rewrite that breaks the single-author heartbeat. *Success Metric:* every weak block has a dedicated owner, every critique arrives as a rewritten line (not an opinion), and the final draft reads as ONE coherent voice — not concatenated fragments (the Frankenstein failure). → `expert-panel-deliberation`.
 - **User-Gated Deliberation Loop.** *Execute:* Run refinement one block at a time as a stop-and-check dialogue: owning expert diagnoses (weakest CRAVES dimension) → rewrites as copy → one cross-lens dissent → spine-keeper adjudicates with a stated reason → present before/after → **wait for the user** before the next block. Collaboration is a checkpointed loop, not a one-shot dump. *Success Metric:* no round proceeds without a user decision; the deliberation ledger shows real dissent and reasoned verdicts, not rubber-stamps.
@@ -214,11 +222,11 @@ Two net-new capabilities harvested from a collaborative-copy custom-instruction 
 
 ## Evolution Log
 
-> Tracks all evolution attempts — kept AND discarded. Each entry documents a hypothesis, result, and lesson.
+> Tracks all evolution attempts — kept AND discarded. Each entry documents a hypothesis, result, and lesson. 4 entries below span 2026-04-09 to 2026-07-01.
 
 ### 2026-04-09 — Belief-State Sequencing (ad-script-writer)
 - **Hypothesis**: Adding a Belief-State Sequencing phase that maps reader psychology at each block transition — diagnosing what the reader believes and what they need next — will produce sequences tailored to specific audiences rather than generic template order.
-- **Result**: KEPT — Score improved from 5.3 to 8.3 (+3.0)
+- **Result**: KEPT — Score improved from 5.3 to 8.3 (+3.0) on the skill's 1–10 rubric scale (see Quality Rubric above)
 - **Change**: Added Phase 3.5 (Belief-State Sequencing) with Entry State Diagnosis, decision logic for block transitions based on reader psychology, and Belief-State Map output. Replaced fixed template order with adaptive sequencing.
 - **Benchmark scores**: Current [6, 5, 5] → Variant [9, 8, 8]
 - **Lesson**: The original ad-script-writer had a fixed 7-step template that produced the same sequence regardless of audience. For identity-resistant audiences (like the Invisible Expert ICP), standard Pain-first sequences trigger defensive rejection. Conditions-first sequencing — qualifying the reader through recognition before surfacing pain — bypasses identity-level resistance. The key insight: block ORDER is a persuasion decision, not a formatting decision.

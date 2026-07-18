@@ -47,7 +47,7 @@ For each pushed hook, run through:
 
 **If any check fails** → pull back one layer.
 
-## Output Contract
+## Output Schema
 ```
 ## Transgressive Edge Report
 

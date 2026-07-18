@@ -62,7 +62,7 @@ Score every hook on the 5-criterion rubric:
 - **Tier C (Rework)**: Score 20-29 — potential but needs rewriting
 - **Tier D (Archive)**: Below 20 — save for future remix
 
-## Output Contract
+## Output Schema
 ```
 ## Vicious Hook Sprint: [Product Name]
 

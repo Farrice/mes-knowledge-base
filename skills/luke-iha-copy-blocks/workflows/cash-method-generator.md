@@ -88,7 +88,7 @@ Hook types to deploy:
 - **Contrarian hooks**: Contradict common belief
 - **Story hooks**: Open with narrative
 
-## PHASE 7: MATRIX OUTPUT
+## PHASE 7: OUTPUT FORMAT (CASH Matrix)
 
 Deliver the complete CASH matrix:
 

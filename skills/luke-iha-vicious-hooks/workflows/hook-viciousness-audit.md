@@ -51,7 +51,7 @@ Apply the 3-Sentence Hedge Test: For each hook, is the REAL hook buried 2-3 sent
 ### Phase 4: Vicious Rewrite Prescriptions
 For every hook scoring below 50/80, produce a rewritten version applying the principles it violated.
 
-## Output Contract
+## Output Schema
 ```
 ## Hook Viciousness Audit: [Product/Context]
 

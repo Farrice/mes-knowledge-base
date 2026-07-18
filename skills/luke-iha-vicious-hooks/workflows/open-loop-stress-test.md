@@ -48,7 +48,7 @@ For each leaky hook, produce a tightened version:
 3. Ensure the hook retains relevance (don't make it so vague it's irrelevant)
 4. Re-run the Prediction Test on the tightened version
 
-## Output Contract
+## Output Schema
 ```
 ## Open Loop Stress Test Report
 

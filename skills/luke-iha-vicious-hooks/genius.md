@@ -6,6 +6,18 @@ A polite hook is a dead hook. A comfortable hook is a dead hook. A hook that doe
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These 8 principles are a diagnostic instrument, not a fill-in-the-blank template. Absorb them, then write like someone who has spent 70-80% of their creative time obsessing over first lines — not someone reciting a checklist. The test: **would Luke Iha recognize this as a hook he'd ship — or as a hook that's merely using his vocabulary?** If a reader could point at your output and say "that's Germanic word choice, that's an open loop, that's stakes-escalation" — you've built a hook that performs viciousness instead of committing it. Rebuild.
+
+Specifically:
+- Do NOT enumerate which principles you applied unless the workflow's Output Schema explicitly asks for a scored table. A vicious hook doesn't announce "Principle 3: Open Loop" in the copy itself — the loop just IS tight, silently.
+- Do NOT chase the checklist at the expense of truth. Luke's stakes rule is explicit: "escalate within the legitimate range" — every stake claimed must be factually true. A hook that hits all 8 principles but invents a consequence that isn't real has failed the actual craft, not just the letter of it.
+- The violence lives in the METAPHOR Luke uses to describe the work ("foot on the neck," "go right for the kill") — not in the hooks themselves, which are precise, specific, and psychologically engineered. If your output reads like shock for shock's sake rather than a calibrated blow, you've confused his coaching register with his craft register.
+- Recognition test, applied line by line: does the first 10-20 words connect to something the reader already feels (Principle 1)? Is every word earning its place, or did a Latinate word sneak past the Germanic filter (Principle 2)? Could a stranger predict what comes next (Principle 3)? If any answer is "sort of" — it is not vicious. Luke's own standard is binary: "A polite hook is a dead hook."
+
+---
+
 ## The 8 Vicious Hook Principles
 
 ### Principle 1: Relevant in the First Line
@@ -147,29 +159,38 @@ Before writing any hook, answer these diagnostic questions:
 
 ## Anti-Patterns
 
+Each anti-pattern below is grounded in Luke's own words from the source transcript (`extractions/luke-iha-hooks/transcript.txt` — single continuous paragraph, no internal line breaks, cited as "the transcript" below). Full provenance and confidence labels: `references/source-ledger.md`.
+
 ### AP1: The Warm-Up Intro
-**What it looks like**: "Hey guys, so I've been thinking about this topic and I wanted to share something with you..."
-**Why it kills**: 3-4 sentences of nothing. The real hook is buried. Dead on arrival.
+- **What it looks like**: "Hey guys, so I've been thinking about this topic and I wanted to share something with you..." (illustrative composite, not a Luke quote)
+- **Why it kills**: 3-4 sentences of nothing. The real hook is buried. Dead on arrival.
+- **Grounded in transcript** (VERIFIED): "most people when I'm talking to them, even people who are decently successful, they usually start their ad actually three to four sentences in... They have this breathing room. They have throat clearing and a bunch of warm-up before they get to the point." — extractions/luke-iha-hooks/transcript.txt
 
 ### AP2: The Polished Professional
-**What it looks like**: Clean, grammatically perfect, LinkedIn-appropriate language
-**Why it kills**: Reads like an ad. No flinch factor. No charge. Sanitized = invisible.
+- **What it looks like**: Clean, grammatically perfect, LinkedIn-appropriate language
+- **Why it kills**: Reads like an ad. No flinch factor. No charge. Sanitized = invisible.
+- **Grounded in transcript** (VERIFIED): "A polite hook is a dead hook. A comfortable hook is a dead hook." — and, on the old direct-response legends: "they're really really strong. They're not polite. They're not sanitized. Again, they're vicious." — extractions/luke-iha-hooks/transcript.txt
 
 ### AP3: The Mechanism Lecture
-**What it looks like**: "Our proprietary bio-cell restoration matrix uses ionized silver to..."
-**Why it kills**: Leads with a mechanism they don't understand. Zero relevance. Zero stakes.
+- **What it looks like**: "Our proprietary bio-cell restoration matrix uses ionized silver to..." (illustrative composite)
+- **Why it kills**: Leads with a mechanism they don't understand. Zero relevance. Zero stakes.
+- **Grounded in transcript, example 1** (VERIFIED): "silver releases ions that neutralize bacteria in stored water... unless they understand that releasing ions is a good thing, which most people don't, the only thing that they can actually care about is neutralizing bacteria in stored water." — extractions/luke-iha-hooks/transcript.txt
+- **Grounded in transcript, example 2** (VERIFIED): "this weird morning habit causes electrical imbalance in your body... If they have no idea what electrical imbalance is... They're going to skip right past it because they have no idea what it is." — extractions/luke-iha-hooks/transcript.txt
 
 ### AP4: The Loose Loop
-**What it looks like**: "The one thing every entrepreneur needs to stop doing with AI"
-**Why it kills**: They can guess (hallucination, over-reliance, etc.). If they can predict it, they won't read it.
+- **What it looks like**: "The one thing every entrepreneur needs to stop doing with AI"
+- **Why it kills**: They can guess (hallucination, over-reliance, etc.). If they can predict it, they won't read it.
+- **Grounded in transcript** (VERIFIED): "Don't do this one thing, you know, with AI, right? or... the number one thing to avoid if you use this specific AI tool, like if they can make a... educated guess and feel confident in their guess of what you're going to say, then they have no business to actually read the ad." — extractions/luke-iha-hooks/transcript.txt
 
 ### AP5: The Word Snobbery
-**What it looks like**: Using words like "exacerbate," "facilitate," "paradigm," "leverage"
-**Why it kills**: Latinate, abstract, high-grade-level. Creates friction. Kills visceral impact. Sweat > perspire. Always.
+- **What it looks like**: Using words like "exacerbate," "facilitate," "paradigm," "leverage"
+- **Why it kills**: Latinate, abstract, high-grade-level. Creates friction. Kills visceral impact. Sweat > perspire. Always.
+- **Grounded in transcript** (VERIFIED): "a French word for sweat would be persspire... it's kind of a sweet word, right? But if you think of Germans, you think of a sweat, right? Sweat just has this earthy, raw kind of feel to it" plus the paired list "fabrics versus cloth, excessive versus too much, insomnia versus sleeplessness, severe versus bad, synthetic versus man-made" — extractions/luke-iha-hooks/transcript.txt
 
 ### AP6: The Generic Stakes
-**What it looks like**: "This could hurt your business" or "You might be missing out"
-**Why it kills**: Abstract, low-emotion stakes. No rubbernecking. Compare to: "and it nearly killed me."
+- **What it looks like**: "This could hurt your business" or "You might be missing out"
+- **Why it kills**: Abstract, low-emotion stakes. No rubbernecking. Compare to: "and it nearly killed me."
+- **Sourcing status** (UNCONFIRMED as a distinct verbatim anti-pattern): no line in the source transcript states this "generic stakes" framing directly — it is extrapolated from Luke's affirmative statement on stakes ("you want there to be some sort of stakes, like something heavy that is at stake... There needs to be a reason to actually pay attention to this," grounding Principle 4 above) inverted into its failure mode. Treat AP6 as a reasoned inference from Principle 4, not a sourced quote. Flag for re-verification if a future extraction surfaces the direct statement.
 
 ---
 
@@ -204,3 +225,7 @@ Before writing any hook, answer these diagnostic questions:
 - **Result**: KEPT — 6.67 → 8.0 (+1.33 composite). Adversarial Resilience jumped +2 (6→8). Variant hooks name what the reader DID last Tuesday, not just what category of problem they have.
 - **Change**: Added Phase 1.5 (Identity Infiltration Diagnostic) with 5 IM mechanics, new scoring dimension (Identity Resonance), new quality gate check (Infiltration Check).
 - **Lesson**: Hooks that name private behaviors ("11pm rewriting your bio again") are uncopyable and unfakeable. They demonstrate understanding at a level that builds instant trust. The gap between "topic-level" hooks and "experience-level" hooks is the gap between stopping the scroll and making someone screenshot it.
+
+### 2026-07-17 — Heartbeat Repair: Sourcing, Recognition Test, Calibration Section
+- **Change**: Added "How to Use This Skill (Model Calibration)" section with recognition-test language. Converted Anti-Patterns section to bulleted, source-anchored format (AP1-AP5 grounded in verbatim transcript quotes; AP6 explicitly flagged UNCONFIRMED with reasoning shown). Added `references/source-ledger.md`. Renamed all 14 workflow files' `## Output Contract` heading to `## Output Schema` to match house style (content unchanged — the per-workflow schemas were already tight and non-boilerplate).
+- **Why**: `execution/skill_auditor.py` heartbeat check was failing 4/6 checks (anti_patterns_sourced, recognition_test, source_ledger, workflow_contracts), capping the skill's tier at B. No new claims about Luke Iha were invented — every added anti-pattern quote traces to the existing primary-source transcript already cited elsewhere in this file.

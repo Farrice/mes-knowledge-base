@@ -52,7 +52,7 @@ For each major section, annotate:
 - **What belief is being built?** (problem is real, solution exists, this source is credible)
 - **What open loop is being created/resolved?**
 
-## PHASE 8: REWRITE BLUEPRINT
+## PHASE 8: REWRITE BLUEPRINT (OUTPUT FORMAT)
 
 Produce a structural skeleton that can be rebuilt with any product:
 

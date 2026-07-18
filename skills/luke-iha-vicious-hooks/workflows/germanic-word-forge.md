@@ -61,7 +61,7 @@ Run a readability assessment. Target: 5th-6th grade reading level for hooks, 7th
 ### Phase 4: Produce Upgraded Copy
 Present the upgraded version with annotations showing each swap.
 
-## Output Contract
+## Output Schema
 ```
 ## Germanic Word Forge Output
 

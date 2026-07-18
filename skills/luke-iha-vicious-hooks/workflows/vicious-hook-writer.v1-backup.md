@@ -63,7 +63,7 @@ Score each hook on the 5-criterion rubric from genius.md:
 | Hook | Viciousness (1-10) | Word Charge (1-10) | Loop Tightness (1-10) | Stakes (1-10) | Anti-Ad Feel (1-10) | Total |
 |------|--------------------|--------------------|----------------------|---------------|---------------------|-------|
 
-## Output Contract
+## Output Schema
 ```
 ## Vicious Hook Output: [Product Name]
 

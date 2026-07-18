@@ -44,7 +44,7 @@ For each hook:
 
 ### Phase 3: Produce Escalated Hooks
 
-## Output Contract
+## Output Schema
 ```
 ## Stakes Escalator Report
 

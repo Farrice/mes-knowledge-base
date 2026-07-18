@@ -43,7 +43,7 @@ For each hook needing a flip:
 
 ### Phase 3: Produce Flipped Hooks
 
-## Output Contract
+## Output Schema
 ```
 ## Consequence-First Flip Report
 

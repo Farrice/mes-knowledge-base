@@ -4,6 +4,20 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These eleven patterns are plotting primitives, not a fill-in-the-blank form. The system's whole thesis is that "intuition" can be taught — but internalize the *reasoning* (why a score of 8 on Urgency changes the marketing move), not the score itself as a fact to recite.
+
+Two different outputs, two different rules:
+- **The Manifold itself** (the internal market-intelligence document) is allowed to show its scaffolding — tables, 1–10 scores, named frameworks (Pain Matrix, Core Wound, AWE) are the point; a copywriter reads it to load context, so label the sections.
+- **Anything downstream of the Manifold** (a hook, a lead, a VSL line, an ad) must never leak that scaffolding into the reader's experience. A prospect must never see the words "Epiphany Threshold" or "Ontological Resource" or "AWE Formula" — they see a sentence that happens to land in the Goldilocks Zone because the plotting already happened backstage. Name the machinery on the page and you've written marketing-department copy, not a hook that gets pulled off a swipe file.
+
+The test: would Luke Iha recognize this as a market that's actually been *plotted* — orthogonal dimensions scored with real consequences, a Core Wound tied to ranked resources, VOC pulled and not invented — or as someone using Avatar Manifold vocabulary as a costume over a one-adjective persona? If a "Manifold" reads like one elaborate paragraph with the framework names sprinkled in and no scored table, no ranked resource matrix, no sourced soundbites, that's the costume, not the machine. Rebuild it as a plot, not a description.
+
+Texture note: Iha's own delivery is unglamorous and procedural — he teaches through worked drills ("Beta Males Get Less Women" → "Beta Males Get More Women" → "The 3 'beta male' moves that actually get you laid more often"), not through inspiration. Match that register in the Manifold's own prose: declarative, drill-graded, willing to show its 1–10 math. Save the polish for the copy that ships — polish inside the Manifold itself is the tell that the scores were backfilled to justify a conclusion instead of generating one.
+
+---
+
 ## The Central Thesis
 
 **"Anything explainable can be explained."** The top copywriters factor enormous nuance into their work but teach in one dimension ("just use intuition / it takes experience"). This system closes that gap — the **"Great Curtain of Direct Response"** — by making avatar construction *teachable, repeatable, and dimensional.*
@@ -143,15 +157,15 @@ See `references/worked-manifold-exemplar.md`. One market run through Build-a-Buy
 | 7 | **Landmine awareness** | None | Mentions sensitivities | Ejection Triggers + Market Addictions + consciousness level explicitly mapped |
 | 8 | **Deployability** | Fragments | Usable notes | Assembled Manifold that downstream copy skills can run directly into the 5-part sales formula |
 
-**Anti-patterns (auto-fail):**
-- Single-adjective market descriptions ("busy moms who want convenience").
-- Scores with no marketing consequence attached.
-- Hooks that clash with Identity in the lead.
-- Beliefs over the BS limit or under the Epiphany Threshold presented as hooks.
-- Reframes that argue instead of agreeing-then-wedging.
-- "Specific language" that's obviously AI-invented rather than market-pulled.
-- Delivering loose frameworks instead of an assembled, ordered Manifold.
-- Treating this as generic ICP/persona work — demographic profiles are the floor this *starts* above.
+### Anti-Patterns (auto-fail)
+- Single-adjective market descriptions ("busy moms who want convenience") — the failure mode Iha names directly: describing a market as "Salty Vs. Sweet" instead of plotting it across dimensions (Source: `extractions/luke-iha-avatar-machine/Copy_of_The_AI_Avatar_Machine.txt`, Day 1 transcript, line 135).
+- Scores with no marketing consequence attached — every dimension in the source Pain Matrix carries a "Marketing Consequences:" line and a "Specific Consequence" table column; a bare 1–10 number is not the deliverable (Source: `extractions/luke-iha-avatar-machine/Copy_of_The_AI_Avatar_Machine.txt`, lines 285/315/339; `extractions/luke-iha-avatar-machine/AI_Manifold_Brief_(Dirty).txt`, line 154).
+- Hooks that clash with Identity in the lead — the exact failure Iha calls the autopilot killer: "you're activating an autopilot REJECTION response" (Source: `extractions/luke-iha-avatar-machine/The_Resonance_Hierarchy.txt`, line 123).
+- Beliefs over the BS limit or under the Epiphany Threshold presented as hooks — "The 9 is the 'BS limit' – too outlandish" (Source: `extractions/luke-iha-avatar-machine/BASIC_ET_PROMPT.txt`, line 29).
+- Reframes that argue instead of agreeing-then-wedging — the whole point of "Splitting the Atom" and the "Agree, Wedge, Elaborate" (AWE) framework is that arguing against a bundled assumption loses; wedging it wins (Source: `extractions/luke-iha-avatar-machine/Copy_of_The_AI_Avatar_Machine__Day_3.txt`, lines 630 and 720).
+- "Specific language" that's obviously AI-invented rather than market-pulled — the Swiping SOP exists precisely because the words have to come from real ads/VSLs/native pages/reviews, not a model's guess (Source: `extractions/luke-iha-avatar-machine/Copy_of_SOP_for_Swiping.txt`, "How to swipe" + sourcing sections, lines 55–175).
+- Delivering loose frameworks instead of an assembled, ordered Manifold — the Build-a-Buyer prompt's own closing instruction is "combine all of this info into a comprehensive, detailed summary" (Source: `extractions/luke-iha-avatar-machine/BuildABuyerSnapshot.txt`, line 171).
+- Treating this as generic ICP/persona work — demographic profiles are the floor this *starts* above — the source material's own demographic pass (Young vs. Old, reading ability, tech familiarity) is explicitly the raw material the multi-dimensional plot supersedes, not the finished avatar (Source: `extractions/luke-iha-avatar-machine/Copy_of_The_AI_Avatar_Machine.txt`, lines 160–175).
 
 ---
 

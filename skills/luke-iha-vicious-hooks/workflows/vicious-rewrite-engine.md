@@ -44,7 +44,7 @@ For each hook, present:
 - **AFTER**: The vicious rewrite
 - **WHAT CHANGED**: Specific changes mapped to principles
 
-## Output Contract
+## Output Schema
 ```
 ## Vicious Rewrite Report
 

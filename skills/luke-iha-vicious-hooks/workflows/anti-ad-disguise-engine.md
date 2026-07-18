@@ -46,7 +46,7 @@ For each disguised hook:
 - Ask: "Is this an ad, a story, or a post?"
 - If they say "ad" → re-disguise
 
-## Output Contract
+## Output Schema
 ```
 ## Anti-Ad Disguise Report
 

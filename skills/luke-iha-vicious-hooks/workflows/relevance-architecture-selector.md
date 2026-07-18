@@ -58,7 +58,7 @@ Map the audience's:
 ### Phase 3: Strategic Recommendation
 Produce a ranked strategy with hook count allocation:
 
-## Output Contract
+## Output Schema
 ```
 ## Relevance Architecture Recommendation: [Product]
 
