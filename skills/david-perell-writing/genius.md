@@ -1,5 +1,15 @@
 # David Perell — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb POP, then write originally — if the output visibly marches Personal-then-Observational-then-Playful in that order, or worse, labels a paragraph "here's the Personal beat," it has failed on contact with the method: Perell is explicit that "you don't need all three [pillars] in order." The test: would David Perell recognize this as writing that connects, teaches, and delights in one motion — or as someone using POP vocabulary, dropping a vulnerable admission, then a lesson, then a punchy line because a checklist said to? If it reads like the second, rebuild.
+
+Specifically:
+- Do NOT announce which pillar you're deploying — "Personal," "Observational," "Playful" are diagnostic labels for revision, never headers or signposts in delivered copy.
+- Do NOT force equal thirds or a fixed sequence. Dosage and order come from the material and the Sizzle Spectrum, not a formula — a bachelor-party invite and a quarterly memo both need all three pillars at wildly different ratios.
+- His whole diagnosis exists to cure Google Doc Mode — writing stiffer than the person would say it out loud. If a draft reads more formal than the writer talks, it has already failed regardless of pillar coverage.
+- Polish that removes personality is the tell-class failure here. Perell's own example: "countenanced" is a correct word doing nothing — the sentence "is just as good without the SAT word." A clean, correct, personality-free paragraph is not a win; it's Google Doc Mode with better grammar.
+
 ## Genius Patterns
 
 ### Pattern: POP Writing — Personal, Observational, Playful
@@ -73,3 +83,14 @@ Three rungs. Jargon: "only in the inventional abatement of market exuberance doe
 ### Insight: The Pillars Don't Need Order or Equal Weight
 **Insight:** "All you need is all three of them — you don't need all three in order." The Buffett paragraph happens to run personal → observational → playful, but the framework is presence, not sequence or ratio. Sequence-rigid application produces formulaic writing that fails the playful pillar by construction.
 **Deploy:** Never impose a POP template on a draft. Check presence and dosage against the Sizzle Spectrum, and let the material choose the order.
+
+## Anti-Patterns
+
+Failure modes Perell names explicitly and rejects — sourced to the passages already carried in this file (original session: claude.ai export, 2026-07-01, per `SKILL.md` frontmatter; no separate raw transcript file exists in the repo — see `references/source-ledger.md`).
+
+- **Vocabulary-flexing disguised as playful.** Perell's own tell: "countenanced" "adds nothing" and the paragraph "is just as good without the SAT word" — never mistake a big word for style. (source: skills/david-perell-writing/genius.md, Pattern: The Playful Pillar)
+- **Google Doc Mode — writing stiffer than you talk.** Perell diagnoses the medium itself as the failure: people "open a Google Doc and suddenly lose their personality, sliding into 'dry academic research paper mode.'" Never let the page override the writer's actual speaking voice. (source: skills/david-perell-writing/genius.md, Insight: Google Doc Mode Is the Silent Killer)
+- **Jargon posing as insight.** The failure exemplar Perell uses to teach the compression ladder: "only in the inventional abatement of market exuberance does clarity emerge, exposing those who have forsworn the protective garb of sound financial prudence" — nonsense dressed as intelligence. Never ship a line like this; strip it before "clear," let alone "memorable." (source: skills/david-perell-writing/genius.md, Pattern: Clear, Then Memorable)
+- **Sequence-rigid POP templates.** "You don't need all three [pillars] in order" — imposing a fixed Personal-then-Observational-then-Playful structure on every draft produces formulaic writing that fails the Playful pillar by construction. Never mechanically sequence the pillars. (source: skills/david-perell-writing/genius.md, Insight: The Pillars Don't Need Order or Equal Weight)
+- **Information without connection.** Perell's diagnosis of smart, credentialed writers: "Information is not enough. You also need to connect" — never assume more insight fixes flat engagement when the actual deficit is Personal + Playful. (source: skills/david-perell-writing/genius.md, Insight: Connection Is the X-Factor Information Can't Buy)
+- **Single-pillar drafts.** Perell's failure-mode table names the disease directly: Personal-only reads as "a diary entry," Observational-only as "a lame scientific paper," Playful-only as "a tabloid" — never ship a draft missing two of three pillars, however polished any one of them is. (source: skills/david-perell-writing/genius.md, Pattern: The Failure-Mode Diagnostic; per `SKILL.md` frontmatter, original session 2026-07-01)
