@@ -4,11 +4,21 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist — Shaan doesn't stamp "Intention: X, Obstacle: Y" onto a page; he feels for the engine and writes from inside it. If the output visibly labels its own moves ("Here's my low-status opening," "This is the 5-Second Moment"), it has already failed. The recognition test: would Shaan Puri recognize this as his own architecture — intention and obstacle worshipped like an altar ("I worship at the altar of intention and obstacle," interview transcript 7:05), one Jenny in her bedroom rather than a demographic (43:12) — or does it read as generic inspirational content wearing his vocabulary (yin-yang, merchant of feelings, 5-second moment) without doing his work? If the piece states its lesson directly instead of letting two or three unrelated stories reveal it the way his Dave Chappelle/Netflix example does ("by making this argument, by using these two stories," 75:29), or if it reads like an intelligence contest instead of gossip — the way his own ghostwritten Clubhouse thread failed with "12th grade reading level jargon" and "immediately felt like homework" before he rewrote it as a screenplay-style story that reached ~20 million readers (21:58–22:29) — it is not Shaan's, no matter how many of his terms it borrows.
+
+Specifically:
+- Do NOT open with credentials, stats, or a "here's what I do" bio line. Shaan's own dinner-party failure is the cautionary case for exactly this move: his friend called the impressive intro "the worst job ever, that was a horrible intro" (12:02).
+- Do NOT write the argument in "here's why I'm right" mode. Write it in "here's how I think it all goes down" mode (21:14–21:18): second person, screenplay staging, gossip cadence — not logic and rationale.
+- Do NOT reach for impressive vocabulary to sound smart. His own boss killed a pitch-deck sentence on the spot for it: "You're not in college anymore, we don't write like that here" (33:13).
+- His texture is spoken and specific — a croissant, not "a minor inconvenience" (8:37–8:43); Jenny in her bedroom scrolling, not "the target demographic" (43:12–43:27). Polish that erases the specific detail is the tell-class failure — never announce the machinery, execute it.
+
 ## Genius Patterns
 
 ## Core Philosophy
 
-Story is transformation. Every story is a yin-yang—whatever state exists at the beginning, the opposite exists at the end.
+Story is transformation. Every story is a yin-yang—whatever state exists at the beginning, the opposite exists at the end. In his own words, closing out the framework: "I got my beginning, I got my end, I want a perfect yin yang between them" (interview transcript, "Masterclass in Storytelling (for beginners)" with David Perell, 37:19).
 
 ---
 
@@ -16,7 +26,7 @@ Story is transformation. Every story is a yin-yang—whatever state exists at th
 
 **The Pattern**: Every compelling story has a clear intention (what the protagonist wants) and a clear obstacle (what's blocking them). This creates the engine that pulls readers through.
 
-**Why It Works**: Readers need to know what to root for. Without intention, there's no investment. Without obstacle, there's no tension.
+**Why It Works**: Readers need to know what to root for. Without intention, there's no investment. Without obstacle, there's no tension. Shaan traces the principle to a screenwriter he studied (West Wing, The Social Network): "I worship at the altar of intention and obstacle" (7:05–7:11). His stress-test example: "Harry Potter wants to live. What's in his way? Voldemort's trying to kill him. The most powerful wizard of all time is trying to kill him" (7:38–7:44) — then scaled down to a lower-stakes version, "I wanted a croissant and all the places were closed" (8:37–8:43), to prove the pattern works without life-or-death stakes.
 
 ---
 
@@ -24,7 +34,7 @@ Story is transformation. Every story is a yin-yang—whatever state exists at th
 
 **The Pattern**: Find the exact pivot point—the moment of decision, realization, or action where transformation became inevitable. Render it vividly.
 
-**Why It Works**: This is the heart of the story. Average stories gloss over it; great stories live in it.
+**Why It Works**: This is the heart of the story. Average stories gloss over it; great stories live in it. Opening line of the interview: "Story is a five-second moment of change" (0:00–0:04) — the working definition the entire framework is built on.
 
 ---
 
@@ -32,7 +42,7 @@ Story is transformation. Every story is a yin-yang—whatever state exists at th
 
 **The Pattern**: Great hooks don't come from wordsmithing—they come from finding the right frame. An average idea brilliantly framed beats a brilliant idea poorly framed.
 
-**Why It Works**: Frames change how information is processed. The same content, differently framed, creates completely different reactions.
+**Why It Works**: Frames change how information is processed. The same content, differently framed, creates completely different reactions. Proof case: his Clubhouse thread reframed "Clubhouse's existential threat, the time to value ratio" (jargon that "immediately felt like homework," 21:58–22:05) into "everybody thinks X, but I think Y" — the reframed version reached roughly 20 million readers (22:29).
 
 ---
 
@@ -40,7 +50,7 @@ Story is transformation. Every story is a yin-yang—whatever state exists at th
 
 **The Pattern**: Define ONE signature feeling and deliver it consistently across all content. You're not selling information—you're selling an emotional state.
 
-**Why It Works**: Brands that own a feeling create irrational loyalty. Customers can't articulate why they love you, but they do.
+**Why It Works**: Brands that own a feeling create irrational loyalty. Customers can't articulate why they love you, but they do. Shaan's own framing of the target list: "The only things people will share is things that are LOL, WTF, OMG" (0:04–0:10) — three named emotional targets to reverse-engineer from, not an abstract "engagement" goal.
 
 ---
 
@@ -48,7 +58,7 @@ Story is transformation. Every story is a yin-yang—whatever state exists at th
 
 **The Pattern**: Visualize ONE specific person in their physical and emotional context when creating content. Not a demographic—a person.
 
-**Why It Works**: Content for a specific person resonates with millions. Content for millions resonates with no one.
+**Why It Works**: Content for a specific person resonates with millions. Content for millions resonates with no one. Sourced from a 20-year-old collaborator (later a "Dragons Den" TV personality) who told him: "I just think about what is Jenny in her bedroom going to think when she sees this? ... social media is Jenny in her bed, laying down, just scrolling" (43:05–43:27). Shaan later heard the same idea independently from a Buzzfeed exec as "Debbie at her desk" (43:53–43:59) — two sources, same pattern.
 
 ---
 
@@ -56,7 +66,7 @@ Story is transformation. Every story is a yin-yang—whatever state exists at th
 
 **The Pattern**: Begin with vulnerability or relatability, not credentials. Connection before impression.
 
-**Why It Works**: High-status openings trigger skepticism. Low-status openings create connection and trust before you make your point.
+**Why It Works**: High-status openings trigger skepticism. Low-status openings create connection and trust before you make your point. Learned from comedian Hasan Minhaj before a stage appearance: "comedy is a low status game" (12:33–12:42). The failure case that taught him this: at a dinner with a childhood-hero Olympian, he tried to sound impressive, and a friend told him bluntly afterward, "you did the worst job ever, that was a horrible intro" (12:02–12:14).
 
 ---
 
@@ -64,7 +74,7 @@ Story is transformation. Every story is a yin-yang—whatever state exists at th
 
 **The Pattern**: Multiple unrelated stories that reveal a single principle. Let the audience discover the conclusion themselves.
 
-**Why It Works**: Direct argument triggers resistance. Self-discovered conclusions drive higher conviction.
+**Why It Works**: Direct argument triggers resistance. Self-discovered conclusions drive higher conviction. Exemplar: Dave Chappelle's Netflix dispute video wove together several separate anecdotes (the club owner story, the contract story) before landing the Netflix ask — "he got the whole audience on his side by making this argument, by using these two stories" (75:26–75:29); the result was viewers saying "I will delete Netflix if they don't take the show off," and Netflix pulling the special (75:40–75:51).
 
 ---
 
@@ -72,7 +82,7 @@ Story is transformation. Every story is a yin-yang—whatever state exists at th
 
 **The Pattern**: Get into peak emotional state before creating. Your emotional state transfers through your output.
 
-**Why It Works**: Energy is contagious. If you're bored writing it, they'll be bored reading it.
+**Why It Works**: Energy is contagious. If you're bored writing it, they'll be bored reading it. Protocol in his own words: "physiology first, focus second, story third" (54:15–54:18) — physiology meaning a radical physical reset (sprints, pushups, "20 air squats," cold water on the face, 51:24–51:36), modeled on a professional poker player who does wind sprints in the parking lot between tournament rounds "because he wants to make a better decision when he gets back to the table" (52:05–52:13).
 
 ---
 
@@ -96,19 +106,19 @@ Story is transformation. Every story is a yin-yang—whatever state exists at th
 ## The Quality Tests
 
 ### The Yin-Yang Test
-Does the end state contrast sharply with the beginning state?
+Does the end state contrast sharply with the beginning state? ("I want a perfect yin yang between them," 37:19.)
 
 ### The Intention Test  
-Can you state in one sentence what the protagonist wants?
+Can you state in one sentence what the protagonist wants? Test case: "Harry Potter wants to live" (7:38) — one sentence, no hedging.
 
 ### The 5-Second Test
-Is there a vivid pivot point you could describe in 5 seconds?
+Is there a vivid pivot point you could describe in 5 seconds? Named after the opening definition: "Story is a five-second moment of change" (0:00).
 
 ### The Feel Test
 Do you feel something when you read your own work?
 
 ### The Isomorphism Test
-Does the story's transformation arc mirror the reader's desired transformation? Would the reader feel this story is about THEIR journey, not just a story told to them?
+Does the story's transformation arc mirror the reader's desired transformation? Would the reader feel this story is about THEIR journey, not just a story told to them? (Extension of the "Jenny in her bedroom" / "Debbie at her desk" principle, 43:12–43:59 — two independent sources converging on one pattern.)
 
 ---
 
@@ -209,6 +219,19 @@ Source: Shaan Puri's "Masterclass in Storytelling (for beginners)" interview tra
 **Pattern J: Sell the Before State**
 - **Execute**: The after-state only lands if the audience is first *convinced* of the before-state — and claims don't convince, zoomed-in moments do. Don't say "I wasn't doing well"; give one relatable visual or audio anchor: Tony Robbins washing dishes in the bathtub, the one hard chair in the empty apartment, the performance review where "needs improvement" ran long. One anchor per state is enough.
 - **Success Metric**: The before-state is shown through a specific sensory moment the reader could picture in 5 seconds, never asserted as a summary.
+
+---
+
+## Anti-Patterns
+
+Failure modes Shaan names or demonstrates against himself in the source interview — all anchored to "Masterclass in Storytelling (for beginners)" with David Perell (interview transcript, claude-export conversation c1749a67-aa1d-4afb-b3f3-ae69b4b26145, 2025-09-15).
+
+- **Reaching for impressive vocabulary instead of plain language**: In a client pitch deck he wrote that an idea was going to be "epic" to sound smart; his boss shut it down immediately: "You're not in college anymore, we don't write like that here" (interview transcript, 33:06–33:13). Deploy check: if a sentence exists to sound smart rather than to be understood, cut it.
+- **Performing status instead of opening low-status**: At a dinner with a childhood-hero Olympian, he tried to sound impressive in his self-introduction; a friend told him afterward, "you did the worst job ever, that was a horrible intro... you were just trying to sound impressive" (interview transcript, 12:02–12:20). This is the direct failure case behind Pattern 6.
+- **Writing as an intelligence contest instead of a story ("here's why I'm right")**: His ghostwritten Clubhouse thread opened with "12th grade reading level jargon like Clubhouse's existential threat, the time to value ratio" and, in his words, "immediately felt like homework" — it underperformed against the story-framed rewrite that reached ~20 million readers (interview transcript, 21:58–22:29). He names the fix explicitly: "here's how I think it's going to go down, not, here's why I'm right" (22:12–22:17).
+- **Treating "shorter is always better" as a fixed rule**: He calls this "another misconception... shorter the better, too long is too boring" — the actual rule is "it can only be as long as it is interesting," calibrated to audience buy-in, not length (interview transcript, 16:36–16:55).
+- **Telling "vacation-romp" stories with no stakes**: Citing Storyworthy author Matthew Dicks's "vacation romp" warning, Shaan says plainly: "don't just tell a story about this great night you had, this party, because nobody cares... those are bad stories" without stakes (interview transcript, 26:22–26:38).
+- **Answering a prompt in generic work-update mode**: In a room where everyone described team problems in an icebreaker, the round went, in his words, "boring, boring, boring" — the fix was one specific, low-status admission ("I've never invited my mom over... I don't know how to host") instead of a status update (interview transcript, 9:28–10:11).
 
 ---
 
