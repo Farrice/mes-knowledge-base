@@ -4,6 +4,22 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These four patterns are intuition primitives, not a checklist to run down. Absorb the shape of the Edu-Telling pivot — one clean credibility marker into the tutorial, no seam visible — until it produces itself without a mental label attached. If a draft mechanically states "Story: ... Lesson: ... Actionable: ... You: ..." down the page, or a paragraph opens with "Using the 4-3-2-1 framework, this week's content will...," the pattern has been executed as a worksheet instead of absorbed as instinct — rewrite.
+
+Specifically:
+- Do NOT enumerate which pattern was applied unless the founder asks
+- Do NOT label the moves on the page ("Here's my Edu-Telling hook," "This is Format Reverse-Engineering") — execute the pivot, never announce it
+- This variant's specific texture: the founder proves competence *through* the story, not despite it. The credibility marker ("I built two B2B SaaS...") has to read as incidental context, not a resume line — the transcript's own guidance is "authority is never claimed, only demonstrated." Corporate throat-clearing ("As a technical founder, I believe...") is the tell that the pivot failed and the post slid back into "How to" instead of "How I"
+- Polish is the tell-class failure here specifically: a technical post that reads too clean, too general, too "content marketing" is the Anti-Exemplar in this file's Hall of Fame made real. The source transcript names this failure directly — "generic AI fluff that Chat GPT writes" and "typical viral LinkedIn slop." When in doubt, make the draft rougher and anchored to one specific build, bug, or decision — never smoother and more general
+
+The test: would Lara Acosta recognize this as a post she coached a founder through — or as a generic tech-content template with her framework's labels stapled on top? If it reads like the second, it has failed the recognition test and needs a rewrite, not a polish pass.
+
+Why this is here: the model follows instructions more literally than intuition. Without this framing, the four Genius Patterns below get treated as fields to fill in rather than a founder's actual habit of thought.
+
+---
+
 ## Genius Patterns
 
 ## 1. The 4-3-2-1 Content System
@@ -95,6 +111,8 @@
 >
 **What makes this excellent**: Flawlessly integrates the "Humble Brag" by centering the father, not the founder. Employs the 8-word rehook for maximum CTR. Delivers high-value, actionable advice using the SLAY framework (Story of dad -> Lesson of content system -> Actionable steps -> You-focused CTA). The image serves as a powerful "High-Status Visual Anchor." The content system itself is explained, moving from a broad emotional hook to specific, niche advice.
 
+**Note on provenance**: this exemplar is a constructed illustration, not a verbatim post pulled from source material. The "retired my dad" line it opens with echoes a real, verbatim-verified line from a *different* Lara Acosta source (`extractions/lara-acosta/transcript.txt`: "today's the proudest day of my life, I retired my dad") — not from this skill's own coaching-call transcript. See `references/source-ledger.md`.
+
 **Exemplar 2: Broad-Narrow-Niche + Edu-Telling + Format Reverse-Engineering**
 
 > **[Image: Screenshot of a viral short-form video trend on TikTok/Instagram, showing specific text overlay formatting but with the text replaced by tech-related phrases.]**
@@ -125,6 +143,8 @@
 >
 **What makes this excellent**: Demonstrates "Format Reverse-Engineering" by explicitly breaking down how a viral trend (from an unrelated niche) was adapted. Uses "Edu-Telling" to explain a technical concept (API integrations, serverless architecture) within a compelling narrative. The 8-word rehook is used effectively. The "How I" principle is strong, sharing proprietary application. The CTA encourages engagement on the core idea.
 
+**Note on provenance**: "Cleo" is the real product name used throughout the source coaching call (`extractions/lara-acosta-content-system/transcript.txt`), but the specific metrics here ("200 req/sec to 20,000," "3x increase in impressions") are illustrative numbers invented to demonstrate the pattern — they are not a transcript quote. UNCONFIRMED as a factual claim; VERIFIED only as a craft demonstration. See `references/source-ledger.md`.
+
 **Anti-Exemplar: Generic, No Hook, No Structure**
 
 > Content marketing is crucial for tech startups. It helps build brand awareness and generates leads. You should aim for consistency and quality. Make sure your content is relevant to your audience and provides value. Use various formats like blog posts, videos, and social media updates. Track your performance to optimize your strategy. We offer content marketing services if you need help. Reach out today for a consultation.
@@ -153,6 +173,20 @@
 
 ---
 
+## Anti-Patterns
+
+What Lara Acosta would never let a technical founder ship — sourced verbatim against the raw coaching-call transcript, not inferred. Full audit trail in `references/source-ledger.md`.
+
+- **Never treat "educate" and "storytell" as separate lanes** — "People get this wrong all the time where they feel like they can only educate but never storytell. You can always do both at the same time." Splitting them is the exact mistake the 4-3-2-1 system and Edu-Telling both exist to correct. (2026-02-26, `extractions/lara-acosta-content-system/transcript.txt`)
+- **Never ship the "here's how to build X" post** — "This defeats the typical viral LinkedIn slop which is like here's how to build a productivity app." Generic instructional framing is precisely what the Edu-Telling pivot is built to route around. (2026-02-26, `extractions/lara-acosta-content-system/transcript.txt`)
+- **Never let the weekly lead magnet slide because it feels like extra production work** — verbatim from the transcript: "most people don't poison them because they don't know how" (likely a transcription artifact for "post them" — quoted exactly as it appears in source). Named directly as the gap most founders leave open, costing both email capture and one of LinkedIn's most viral formats. (2026-02-26, `extractions/lara-acosta-content-system/transcript.txt`)
+- **Never copy a viral post's words without emulating its full structure** — "Where people fail in the execution is that they'll try and copy a viral post but they won't copy it correctly. They won't emulate it. You need to emulate from the structure, the hook, the formatting... even the CTA but also the image that you're using." Topic-only or word-for-word copying is not Format Reverse-Engineering. (2026-02-26, `extractions/lara-acosta-content-system/transcript.txt`)
+- **Never let an AI draft ship ungrounded in the founder's own story** — "That's how you kind of like beat that from being just generic AI fluff that Chat GPT writes." A prompt without the founder's specific context and story layered in produces fluff, not authority. (2026-02-26, `extractions/lara-acosta-content-system/transcript.txt`)
+- **Never withhold the founder's own photo out of "I'm too good for that" ego** — Lara naming her own early mistake: "I was playing LinkedIn on hard mode because I was trying to be really cool and not really use any photos because I was like, I'm too good for that." Text-only content forfeits the High-Status Visual Anchor's extra seconds of scroll-stopping attention. (2026-02-26, `extractions/lara-acosta-content-system/transcript.txt`)
+- **Never let low-authority "LinkedIn experts" set the bar for what counts as credible** — "There's too many LinkedIn personal branding experts right now talking about personal branding with 10,000 followers or thousand followers." The system is built to position operators — founders who've actually built something — above commentary-only accounts. (2026-02-26, `extractions/lara-acosta-content-system/transcript.txt`)
+
+---
+
 ## Evolution Log
 
 ### 2026-04-09 — Authority Strategy Blueprint: Signal-to-Pivot Feedback Loop
@@ -160,3 +194,4 @@
 - **Result**: KEPT — Adaptability 3→8 (+5), Week 3+ Survivability 4→8 (+4). Total 31→39/50 (+25.8%).
 - **Change**: Added Phase 5.5 (Signal-to-Pivot Architecture) with Signal Classification (6 types), 6 Adaptation Moves, One-Variable Rule, Baseline Signal Expectations, and Weekly Signal Read 5-minute ritual.
 - **Lesson**: A content system without a feedback loop is a content plan with an expiration date. The one-variable rule makes adaptation safe — without it, founders panic-pivot after one bad post and destroy what was working.
+- **Provenance note (2026-07-17)**: this entry records the skill's own internal evolution/calibration cycle, not a claim about Lara Acosta's methodology — it was never extracted from source material and no transcript sentence grounds it. Out of scope for transcript verification, not merely unfound.
