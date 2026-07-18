@@ -4,11 +4,13 @@
 
 ---
 
-## How to Use This Skill (Opus Calibration)
+## How to Use This Skill (Model Calibration)
 
 The patterns below are intuition primitives, not a checklist. Shukman's entire method is *letting go of control* — so the single most dangerous failure mode is producing output that mechanically executes "wonder writing" the way a marketer executes a funnel. If the draft *performs* awe, it has already failed. Wonder cannot be manufactured by stacking adjectives, exclamation, or cosmic abstraction; it arrives only through patient, embodied, concrete attention to one real thing.
 
 The test: would Henry Shukman read this and feel the ink is still wet — that someone genuinely *let it through* — or would he feel someone filling wonder-writing slots? If unsure, it is the second. Sit with the real thing longer, then write again.
+
+**Recognition test**: would Henry Shukman recognize this as something he let through — or would he recognize it as someone wearing contemplative vocabulary (wonder, presence, stillness, "letting go") without doing the letting-go work itself? A piece that names its own machinery on the page ("here I locate the concrete doorway...") fails the test on sight — Shukman's craft is that the mechanism stays invisible; the reader only feels awake.
 
 Specifically:
 - Do NOT enumerate which patterns you applied. The patterns are how you *perceive*, not what you *announce*.
@@ -17,7 +19,7 @@ Specifically:
 - Restraint and sincerity are the register. No irony-shield, no winking, no hype. The fear of sincerity is the very thing this craft walks through. But sincerity is not gush — it is exactness of feeling.
 - The mind's job is to control and defend; that is correct and necessary for editing. Its job is *wrong* for the first draft. Hold both. Let it through first; shape it second, without amputating live flesh.
 
-Why this is here: Opus follows instructions literally, and "write something full of wonder" is the exact instruction that produces purple, performed, hollow awe. The corrective is always the same — go *smaller and more concrete and more honest*, not bigger and more lyrical.
+Why this is here: any strongest-available model follows instructions literally, and "write something full of wonder" is the exact instruction that produces purple, performed, hollow awe. The corrective is always the same — go *smaller and more concrete and more honest*, not bigger and more lyrical.
 
 ---
 
@@ -153,7 +155,7 @@ The paradox at the center: the wildest, most alive writing (Kerouac's "burn, bur
 
 ## Pattern 10 — Place Is the Third Character (Let the Land Speak)
 
-**What they do unconsciously**: In fiction, Shukman's first lesson is the protagonist's twin problem (practical + deeper spiritual); his startling second is: "the third most important character in every work of fiction is the place. Let the place inform the story." Homer's *Odyssey* couldn't be set in Yorkshire — "the olive trees, the vineyards, the wine-dark sea." "The place is exuding the human story... place is the bedrock." Great writers let "land, topography speak through them" — even cities (Wordsworth on London).
+**What they do unconsciously**: In fiction, Shukman's first lesson is the protagonist's twin problem (an immediate practical problem, and a deeper spiritual/philosophical/emotional one — "Pierre Bezukhov in *War and Peace*... a seeker who wants to find out the deep spiritual significance of being alive"); his startling second is: "the third most important character in every work of fiction is the place. Let the place inform the story." Homer's epics couldn't be set in Yorkshire — "the olive trees, the vineyards, the... wine dark sea." "The place is exuding the human story... place is the bedrock." Great writers let "land, topography speak through them" — even cities (Wordsworth on London).
 
 **Executable behavior**: Treat setting as an active force, not a backdrop. Ask what *this* place — and only this place — makes possible, and let the human story emerge *from* it. Make yourself "available" to the place so it can speak through the writing. In any narrative, audit whether the story is intrinsic to its location or could be lifted out unchanged (if it could, the place is dead weight).
 
@@ -189,9 +191,9 @@ The paradox at the center: the wildest, most alive writing (Kerouac's "burn, bur
 
 ## Hidden Knowledge
 
-1. **The wild and the still come from the same door.** The biggest misconception about meditation (and contemplative writing) is that it produces only mellow, calm, quiet work. Kerouac was a serious zazen meditator; Natalie Goldberg's friend wrote bloody murder mysteries while sitting "prim and quiet... ankles crossed." Meditation doesn't make writing *peaceful* — it gives *access* to whatever is down there, eruption included. Never equate contemplative method with subdued content.
+1. **The wild and the still come from the same door.** The biggest misconception about meditation (and contemplative writing) is that it produces only mellow, calm, quiet work. Kerouac was among the writers-who-were-meditators Shukman names as formative (alongside Ginsberg, Gary Snyder, and the Beats); Natalie Goldberg's friend wrote bloody murder mysteries while sitting "prim and quiet... ankles crossed." Meditation doesn't make writing *peaceful* — it gives *access* to whatever is down there, eruption included. Never equate contemplative method with subdued content. (LIKELY, not VERIFIED: Shukman names Kerouac as a fellow meditator and quotes "burn, burn, burn"; the specific claim that his practice was *zazen* is not stated in the source and should not be repeated as fact — see source-ledger.)
 
-2. **Resistance is a compass, not a wall.** "All the best things I've ever written came from that release," yet the mind keeps grasping and defending — because that *is* its evolutionary job (19× more attuned to threat than reward). So the flinch toward live material is predictable and reliable. The fear barrier doesn't mark danger; it marks the location of the real writing. Cross it deliberately.
+2. **Resistance is a compass, not a wall.** "All the best things I've ever written came from that release," yet the mind keeps grasping and defending — because that *is* its evolutionary job (Shukman cites being "19 times more likely to be aware of a threat than... a reward," the negativity bias). So the flinch toward live material is predictable and reliable. The fear barrier doesn't mark danger; it marks the location of the real writing. Cross it deliberately.
 
 3. **Shame dissolves through witnessing others, not through self-analysis.** Shukman carried deep shame (war-torn eczema skin from infancy into his thirties). What helped wasn't introspection but *empathy evoked through literature and drama* — seeing others go through their difficulties, recognizing compassion as the proper response, and turning it back on himself. Contemplative writing that shares struggle frankly does this work for readers: "once we can step outside our own narcissism, we can see what's going on in other people's lives."
 
@@ -216,31 +218,14 @@ Run these before any workflow. If you can't answer 1–3, return to them before 
 
 ## Henry Shukman Would Never... (Anti-Patterns)
 
-These are register violations. If any appear, you've left Shukman's intelligence.
+These are register violations. If any appear, you've left Shukman's intelligence. Every item below carries a source anchor into the David Perell "How I Write" interview transcript (`extractions/henry-shukman/transcript.txt`, 71,792 bytes; full character-offset citations in `PROVENANCE.md`, VERIFIED/LIKELY/UNCONFIRMED basis for each in `references/source-ledger.md`).
 
-### AN-1: Performed Wonder / Manufactured Awe
-Announcing the sublime with abstraction and exclamation — "the breathtaking, infinite majesty of the cosmos" — instead of locating it in one concrete particular. Wonder cannot be declared into existence.
-**Detection**: Count the standalone abstractions of vastness (infinite, eternal, profound, cosmic, the universe). If the awe lives there rather than in a perceivable detail, it's performed. Replace with a lamp on a wall.
-
-### AN-2: The Forced Poem (Deciding the Subject)
-Sitting down and deciding "this would be a good subject for a poem," then willing it into existence. "It never works." The result is competent and dead.
-**Detection**: Could you have planned the whole piece before writing it? Then you composed from the surface. Find what's actually pulling at you and let *that* through.
-
-### AN-3: Writing the Wound While It Bleeds
-Pouring raw, undigested trauma onto the page mid-crisis. The result drowns the reader instead of meeting them; it's overwrought, not deep.
-**Detection**: Does the piece flail and overwhelm rather than hold its depth tenderly and whole? You wrote it too close — wait for the recalibration, then write from distance.
-
-### AN-4: Cutting Live Flesh (Over-Editing)
-Revising from an outside vantage without re-entering the original spirit, "blindly desecrating" what was alive — leaving prose that's "stilted and overedited," "writing with right angles."
-**Detection**: Did the edit make it cleaner but deader? Does it read like it took as long to read as it took to write — or does it feel engineered? Re-enter the spirit; protect what's alive even when you can't justify it.
-
-### AN-5: The Irony Shield (Fear of Sincerity)
-Hedging the heart with winking, distance, or cleverness because sincerity feels exposing — "closing the door shut on the heart in order to get things done." Contemplative writing dies behind the shield.
-**Detection**: Is the writing protecting itself from being earnest? Is there a flinch away from the sincere register? That flinch is the fear barrier — cross it (but sincerity ≠ gush; stay exact).
-
-### AN-6: Mind-Words Instead of Body-Words
-Choosing verbs and nouns that convey information rather than physical events — "the wood burned" instead of "crackles," "the snow descended" instead of "sifts." The writing reports instead of being felt.
-**Detection**: Read aloud. Does your body respond to the load-bearing words? If the words are purely mental, the prose is flat. Choose the word you can feel in the throat and hands.
+- **AN-1: Performed Wonder / Manufactured Awe.** Announcing the sublime with abstraction and exclamation — "the breathtaking, infinite majesty of the cosmos" — instead of locating it in one concrete particular. Wonder cannot be declared into existence. **Detection**: Count the standalone abstractions of vastness (infinite, eternal, profound, cosmic, the universe). If the awe lives there rather than in a perceivable detail, it's performed. Replace with a lamp on a wall. **Source**: violates the principle Shukman states directly in the transcript — "God is in the details... The wonder is in the details. The character lives in the details" — and his handling of Blake's "world in a grain of sand" as a doorway he locates in the small, never abstracts past.
+- **AN-2: The Forced Poem (Deciding the Subject).** Sitting down and deciding "this would be a good subject for a poem," then willing it into existence. "It never works." The result is competent and dead. **Detection**: Could you have planned the whole piece before writing it? Then you composed from the surface. Find what's actually pulling at you and let *that* through. **Source**: Shukman, transcript — "if I sit down thinking, oh, it'd be good to write a poem about X... that's a good subject for a poem... It won't work. It never works."
+- **AN-3: Writing the Wound While It Bleeds.** Pouring raw, undigested trauma onto the page mid-crisis. The result drowns the reader instead of meeting them; it's overwrought, not deep. **Detection**: Does the piece flail and overwhelm rather than hold its depth tenderly and whole? You wrote it too close — wait for the recalibration, then write from distance. **Source**: Shukman, transcript, on why "Frozen Lake" waited — poetry lands "when the system has recalibrated and can sort of go there and really inhabit that experience and not be overwhelmed by it."
+- **AN-4: Cutting Live Flesh (Over-Editing).** Revising from an outside vantage without re-entering the original spirit, "blindly desecrat[ing]" what was alive — leaving prose that's "stilted and overedited," "writing with right angles." **Detection**: Did the edit make it cleaner but deader? Does it read like it took as long to read as it took to write — or does it feel engineered? Re-enter the spirit; protect what's alive even when you can't justify it. **Source**: Shukman, transcript — "I've actually blindly... desecrate[d] something or massacre[d] something that was actually really good about it," citing editor Robin Robertson's rule, "you don't want to cut live flesh"; separately, "writing that's stilted and overedited... writing with right angles."
+- **AN-5: The Irony Shield (Fear of Sincerity).** Hedging the heart with winking, distance, or cleverness because sincerity feels exposing. Contemplative writing dies behind the shield. **Detection**: Is the writing protecting itself from being earnest? Is there a flinch away from the sincere register? That flinch is the fear barrier — cross it (but sincerity ≠ gush; stay exact). **Source**: in the transcript, interviewer David Perell names the failure mode first — "I feel a fear of sincerity sometimes and almost like I have to close the door shut on my heart in order to get things done in the world" — and Shukman affirms it ("Yes.") before building his own logos/mythos answer on top of it. (Labeled honestly: this exact phrasing is Perell's framing, which Shukman adopts and extends — not a line Shukman originates himself.)
+- **AN-6: Mind-Words Instead of Body-Words.** Choosing verbs and nouns that convey information rather than physical events — "the wood burned" instead of "crackles," "the snow descended" instead of "sifts." The writing reports instead of being felt. **Detection**: Read aloud. Does your body respond to the load-bearing words? If the words are purely mental, the prose is flat. Choose the word you can feel in the throat and hands. **Source**: Shukman, transcript, reading "the seasoned wood crackles to itself... the snow... sifts down," then physically enacting it — "you did crackle with your fingertips... The real poet lives in the body, not the mind. The body uses the mind."
 
 ---
 
@@ -310,6 +295,12 @@ Shukman's load-bearing moves — let-it-through, vastness-through-the-concrete, 
 
 ---
 
+## Sources
+
+Ground truth, verification labels, and claim-by-claim basis: [`references/source-ledger.md`](references/source-ledger.md). Every quote above traces to `extractions/henry-shukman/transcript.txt` (David Perell "How I Write" interview with Henry Shukman, 71,792 bytes) unless flagged LIKELY/UNCONFIRMED in that ledger.
+
+---
+
 ## Evolution Log
 
-*(none yet — created 2026-06-26 from the David Perell "How I Write" interview with Henry Shukman)*
+*(created 2026-06-26 from the David Perell "How I Write" interview with Henry Shukman; anti-pattern sourcing + recognition-test language + source ledger added 2026-07-17, Wave 3 Lane 4 repair pass — no pattern content deleted, only reformatted/anchored)*
