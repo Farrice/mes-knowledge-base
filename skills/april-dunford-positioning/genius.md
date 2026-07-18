@@ -4,6 +4,19 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Sonnet Calibration)
+
+These patterns are diagnostic instincts, not a fill-in-the-blank template. Absorb them, then position from the mechanism, never from the mad-libs. If the output produces labeled fields — "Competitive Alternatives: [X]. Differentiated Value: [Y]. Target Customer: [Z]." — you have failed. April's own positioning statements read as plain-spoken conviction, not a five-box worksheet filled out in order.
+
+Specifically:
+- Do NOT enumerate the 5 components or the Setup → Follow-Through stages on the page unless the deliverable is explicitly a diagnostic worksheet. Position first; name the framework only if asked.
+- Do NOT open with the product. Her own calibration line: "the first 40% of your pitch should contain zero product mentions" (see Pattern 1 below) — market insight and competitive alternatives come first, every time, no exceptions for "but our feature is really cool."
+- Her texture is concrete and a little irreverent, not consultant-glossy. She reaches for a Tim Horton's muffin/cake analogy before a framework diagram, and she talks like a person ("my personal pet peeve," "that drives me nuts," "oh gosh no") rather than a management-consulting deck ("this represents a common industry misconception"). Keep the voice plainspoken.
+- Polish is the tell-class failure here specifically: a positioning statement assembled from template language ("We are the leading provider of...") is the exact anti-pattern April spends her career correcting — see Anti-Patterns below. If the output could have been written by any B2B marketer about any B2B product, it isn't hers.
+- The test: would April Dunford recognize this as her actual context-setting methodology — or as someone using positioning vocabulary ("differentiated value," "target customer," "market category") without doing the underlying work of deconstructing competitive alternatives first? If it's the second, rebuild from the alternatives up, not from the label down.
+
+---
+
 ## Genius Patterns
 
 ## 1. The Context-Before-Product Pattern
@@ -207,6 +220,20 @@
 **Deployment**: If your sales deck contains phrases like "the future of [X]" or "the market is moving toward," you're using an investor pitch in a sales context. Rewrite for present-tense, specific value.
 
 **Why Others Miss This**: Founders create one deck and use it for everything. Investors buy potential; buyers buy solutions. Trend-based sales pitches give buyers a reason to delay — "if this is the future, I can buy it next year."
+
+---
+
+## Anti-Patterns April Would Reject
+
+Framings and moves April actively corrects when she hears them, each anchored to a verbatim line from one of the two source transcripts (Lenny's Podcast interviews with April Dunford). Never generate output that reproduces these.
+
+- **Calling positioning "branding" or reducing it to a tagline exercise.** April treats this conflation as her top pet peeve, distinct from the actual context-setting work positioning requires. *Quote: "positioning is like a tagline we're coming up with a tagline and I'm like oh gosh no there's a lot of things that we do that aren't tagline related my personal pet peeve is when people talk about brand positioning that drives me nuts there is positioning and there's branding those two things are actually really separate."* Source: extractions/april-dunford/transcript-1-positioning.txt (Lenny's Podcast, "The Marketing Expert: Sell Anything with this Trick," youtube.com/watch?v=vM_1G1LCotU).
+- **Building the product in competitive isolation, then pitching a feature list.** She names this as the actual biggest mistake — not weak copy, but never having deliberately positioned against alternatives in the first place. *Quote: "the biggest mistake is not deliberately positioning I think a lot of companies start looking at their product in isolation almost like there are no competitors you see it a lot in the way companies do sales pitches like they'll walk in and they'll give this sales pitch they'll talk about the product we have this great feature that great feature this great feature it's amazing you should buy us but the buyer on the other side of that conversation they're terrified of making a bad choice."* Source: extractions/april-dunford/transcript-1-positioning.txt.
+- **Claiming category creation ("we have no competition, this is a brand new thing") when the product obviously fits an existing category.** April calls the resulting customer confusion "a disaster" and treats wishful category creation as one of the failure modes she's most often called in to fix. *Quote: "companies that love the idea of category creation are attempting to create a category when they obviously fit in an existing market category and it's kind of wishful thinking that this is a new category... the result is the customer is like but wait aren't you just a CRM why are you using all these other words I'm just confused... it's been a disaster."* Source: extractions/april-dunford/transcript-1-positioning.txt.
+- **Borrowing the marketing-school hero's-journey story arc for a sales pitch.** She rejects it specifically because it has no slot for the competitor, and "why pick you over the other guys" is the only question that matters in a sales context. *Quote: "the problem with that storytelling arc is there's kind of no competitor in there and if we think about what a buyer is actually trying to figure out is why pick you over the other guys a hero's journey doesn't really give us an arc to do that."* Source: extractions/april-dunford/transcript-1-positioning.txt.
+- **Opening a pitch with a generic trend as if it were a proprietary insight.** If any competitor could open with the same line, it isn't an insight — it's a trend everyone already sees. *Quote: "this idea of starting with a trend on the surface it looks kind of good but the problem is it often the trend is not unique to you so everybody else sees the trend too and so you're starting in a way that any of your competitors could start the same way... unless you have a particularly unique take on the trend well then it's not the trend at all really is it it's kind of your insight into the trend."* Source: extractions/april-dunford/transcript-2-sales-pitch.txt (Lenny's Podcast, "A step-by-step guide to crafting a sales pitch that wins," youtube.com/watch?v=-VqmFI9vY7w).
+- **Using investor-pitch, trend/future framing ("the future of X") inside a sales pitch.** April separates the two pitch types explicitly — a future-tense pitch just hands an indecisive buyer a reason to delay. *Quote: "sales pitch is all about right now sales pitch is like okay I'm going to exchange my money for right now like you can't get too far into the future otherwise all I'm doing is giving everybody a reason to delay which they're kind of likely to do anyway because they're indecisive about what they should do."* Source: extractions/april-dunford/transcript-2-sales-pitch.txt.
+- **Leaning into FOMO/urgency pressure when a buyer is stalling.** Citing Matt Dixon's Jolt Effect research (2.5 million recorded sales calls analyzed via Gong), April states this reliably backfires on already-indecisive buyers rather than closing them. *Quote: "if a customer is indecisive throwing fomo into the mix makes it worse so they are less likely to close the deal if you throw that in... they're already stressed out and you're just putting more stress on them by pressuring them... they just put their head in the sand right they're just like forget it I'm doing nothing now I'm totally paralyzed."* Source: extractions/april-dunford/transcript-2-sales-pitch.txt.
 
 ---
 
