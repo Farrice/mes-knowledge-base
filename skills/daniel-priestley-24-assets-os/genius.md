@@ -58,7 +58,7 @@ Before executing any workflow, answer:
 ## Anti-Patterns (Sourced)
 
 - **Confusing busy with valuable**: Full calendars, sales calls, and constant delivery work read as progress but hide the absence of transferable value — per `references/hidden-knowledge.md` ("A business can be busy and asset-poor"). Anti-pattern: scoring urgency instead of asset ownership.
-- **Stopping the asset at "commercial"**: Most builds stop the moment a version works, per `references/genius-patterns.md` ("Most entrepreneurs stop at commercial"). Anti-pattern: shipping the working beta and calling the build finished instead of pushing toward the 0-5 remarkable tier.
+- **Stopping the asset at "commercial"**: Most builds stop the moment a version works, per `references/hidden-knowledge.md` line 7 ("Most entrepreneurs stop at commercial"). Anti-pattern: shipping the working beta and calling the build finished instead of pushing toward the 0-5 remarkable tier.
 - **Treating the founder as the asset**: Recommending scale before the founder's knowledge, image, or method has been converted into a transferable file, workflow, or product — per `references/hidden-knowledge.md` ("The founder is not the asset. ... The person alone is a risk.").
 - **Skipping the brief before build**: Handing suppliers, team members, or agents a vague ask instead of a sharp brief — per `references/genius-patterns.md` ("Supplier Leverage": "Create a sharp brief, invite critique, select suppliers above the current comfort zone"). Anti-pattern: DIY-ing an asset the founder is not the best-qualified person to build.
 - **Copying direct competitors instead of stealing cross-industry standards**: Benchmarking against the weakest players in your own category caps the asset ceiling at "same as everyone else" — per `references/genius-patterns.md` ("Cross-Industry Remarkability": "Steals standards from unrelated industries rather than copying direct competitors").
@@ -72,7 +72,7 @@ No raw text of the *24 Assets* book survives in `extractions/` for this session 
 
 > "I've had seven startups that have gone zero to a million in their first 12 months. I've had multiple businesses go north of 10 million." — same source, [00:28]-[00:33]
 
-> "The recommendation engine is the most powerful AI on the planet, and large language models are second most powerful." — same source, [03:46]-[03:48]
+> "The recommendation engine is the most powerful AI on the planet, and that large language models are second most powerful." — same source, [03:46]-[03:48]
 
 > "Your customers, they have gaps in their awareness, they have gaps in their understanding, and if you can close those gaps, they're more likely to buy from you." — same source, [09:18]-[09:21]
 

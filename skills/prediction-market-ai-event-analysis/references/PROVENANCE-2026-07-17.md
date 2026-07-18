@@ -26,7 +26,7 @@ file is the compact anchor-to-location index.
 | PolySwarm 70/30 mixture, 25-of-50 sampling (pre-existing claim, re-verified) | `raw-sources/sovereign-trader-analysis-source.md` | Source 7, lines 306-345 |
 | Arbitrage window 12.3s→2.7s, 73% sub-100ms capture (pre-existing claim, re-verified) | `raw-sources/sovereign-trader-analysis-source.md` | lines 107, 551, 582, 591 |
 | **Fee schedule 0.75%/2% sports/non-sports split (pre-existing, all 3 workflows)** | **UNCONFIRMED** | No exact match found in `raw-sources/*`. Official Polymarket fee formula at `raw-sources/polymarket-docs-source.md`, line 182, is a variable formula, not a flat sports/non-sports split. See `references/source-ledger.md` "Fee Schedule Caveat" for full detail — flagged, not silently corrected or deleted. |
-| HK-8 Gambot / Pinnacle vig-stripping mechanics (pre-existing genius.md claim) | **UNCONFIRMED** | No "Gambot" or Pinnacle-margin-comparison text located in any raw-sources file this pass. See `references/source-ledger.md` ledger row and "Known Gaps" item 1. |
+| HK-8 Gambot / Pinnacle vig-stripping mechanics (pre-existing genius.md claim) | **LIKELY** (corrected by Opus verify 2026-07-17) | Core claim anchored: `sovereign-trader-analysis-source.md` line 566 ("Gambot: Pulls odds from Pinnacle, removes house edge, calculates true probabilities"). Original pass falsely claimed no Gambot reference existed. Margin specifics (2-3% vig, -150/+130) remain unsourced. See `references/source-ledger.md` ledger row. |
 
 All file paths above are relative to the repo root
 `/Users/farricecain/Google Antigravity`. Line numbers for
