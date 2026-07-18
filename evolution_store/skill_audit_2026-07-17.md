@@ -1,7 +1,7 @@
 # Skill Audit — 2026-07-17
 
 **Total skills**: 371
-**Tier distribution**: A=11, B=229, C=5, REVIEW=99, UTILITY=27
+**Tier distribution**: A=13, B=229, C=5, REVIEW=97, UTILITY=27
 
 ## Methodology
 
@@ -20,13 +20,12 @@ Tiers:
 
 6 checks: anti-patterns ≥5 sourced · ≥3 verbatim exemplars · recognition test · source ledger · named-entity floor · workflow Output Schema+Quality Gate. Failing ≥2 caps the tier at B.
 
-312 skill(s) fail ≥2 checks (6 tier-capped this run):
+280 skill(s) fail ≥2 checks (4 tier-capped this run):
 
 - `_tmp_audit_diandra`: anti_patterns_sourced, verbatim_exemplars, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `adam-enfroy-affiliate-marketing`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `ai-carousel-content-engine`: anti_patterns_sourced, verbatim_exemplars, recognition_test, named_entity_floor, workflow_contracts
 - `ai-chris-lee-zero-testimonial-sales`: anti_patterns_sourced, recognition_test, source_ledger
-- `alan-aragon-nutrition`: anti_patterns_sourced, recognition_test
 - `alen-sultanic-copywriting`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `alex-content-science`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `alex-copper-creative-strategy`: anti_patterns_sourced, recognition_test, source_ledger
@@ -39,7 +38,6 @@ Tiers:
 - `andrew-dun-vibe-consulting`: anti_patterns_sourced, recognition_test, source_ledger, workflow_contracts
 - `andrew-lane-design-systems`: anti_patterns_sourced, recognition_test, source_ledger
 - `andrew-wilkinson-ai-entrepreneurship`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
-- `andy-galpin-training-intelligence`: anti_patterns_sourced, recognition_test, source_ledger
 - `andy-lo-premium-websites`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `april-dunford-positioning`: anti_patterns_sourced, recognition_test, source_ledger
 - `ash-maurya-founder-systems`: anti_patterns_sourced, verbatim_exemplars, recognition_test, named_entity_floor
@@ -52,7 +50,6 @@ Tiers:
 - `bond-halbert-copywriting`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `boris-claude-code`: anti_patterns_sourced, recognition_test, named_entity_floor
 - `brad-bonanno-explainer-architecture`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
-- `brand-operating-system`: anti_patterns_sourced, recognition_test, source_ledger, workflow_contracts **[capped A→B]**
 - `brandon-jacoby-taste-mastery`: anti_patterns_sourced, verbatim_exemplars, recognition_test, source_ledger, named_entity_floor
 - `brendan-kane-viral-strategy`: anti_patterns_sourced, recognition_test, named_entity_floor
 - `brock-johnson-shareworthy-content`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
@@ -66,14 +63,12 @@ Tiers:
 - `chris-do-design-business`: anti_patterns_sourced, recognition_test, source_ledger
 - `cinema-worldbuilder-pro`: anti_patterns_sourced, verbatim_exemplars, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `cinematic-documentary`: recognition_test, source_ledger, named_entity_floor
-- `claim-safe-health-marketing`: anti_patterns_sourced, named_entity_floor
 - `coaching-business-os`: anti_patterns_sourced, recognition_test, source_ledger
 - `cognitive-engagement-optimizer`: anti_patterns_sourced, verbatim_exemplars, recognition_test, source_ledger, named_entity_floor
 - `context-profile-architect`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `corey-mcclain-persona-engineering`: anti_patterns_sourced, recognition_test, named_entity_floor, workflow_contracts
 - `craig-clemens-copywriting`: anti_patterns_sourced, recognition_test, named_entity_floor
 - `creative-campaign-strategy`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
-- `dai-media-consumer-posture`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `dakota-content-design`: anti_patterns_sourced, recognition_test, source_ledger
 - `damon-cart-nlp`: anti_patterns_sourced, recognition_test, source_ledger
 - `dan-bolton-coaching-offers`: anti_patterns_sourced, recognition_test, source_ledger
@@ -82,8 +77,6 @@ Tiers:
 - `dan-martell-business-scaling`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `dan-wang-literary-analysis`: source_ledger, named_entity_floor
 - `daniel-pink-writing-structure`: anti_patterns_sourced, recognition_test, source_ledger
-- `daniel-priestley-24-assets-os`: anti_patterns_sourced, verbatim_exemplars, recognition_test, source_ledger, named_entity_floor
-- `daniel-priestley-oversubscribed`: anti_patterns_sourced, recognition_test, source_ledger
 - `daniel-thrasher-affiliate`: anti_patterns_sourced, recognition_test, named_entity_floor
 - `dara-denney-meta-ads`: recognition_test, source_ledger
 - `darrel-wilson-ai-affiliate`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor, workflow_contracts
@@ -92,7 +85,6 @@ Tiers:
 - `david-deutsch-copywriting`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `david-mcraney-belief-change`: anti_patterns_sourced, recognition_test, named_entity_floor, workflow_contracts
 - `david-perell-writing`: anti_patterns_sourced, recognition_test, source_ledger
-- `david-placek-naming`: anti_patterns_sourced, recognition_test, source_ledger, workflow_contracts
 - `deliberate`: anti_patterns_sourced, recognition_test, source_ledger, workflow_contracts
 - `deya-business-systems`: anti_patterns_sourced, recognition_test, source_ledger
 - `dom-iacovone-multi-company-operator`: anti_patterns_sourced, verbatim_exemplars, recognition_test, named_entity_floor, workflow_contracts
@@ -100,7 +92,6 @@ Tiers:
 - `donald-miller-cognitive-load`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `donald-miller-culture-turnaround`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `donald-miller-messaging-evolution`: anti_patterns_sourced, recognition_test
-- `donald-miller-storybrand`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `dr-k-consciousness`: recognition_test, source_ledger
 - `dr-kriukow-humanization`: anti_patterns_sourced, recognition_test, source_ledger
 - `enrico-incarnati-instagram-realestate`: anti_patterns_sourced, recognition_test, source_ledger, workflow_contracts
@@ -108,20 +99,16 @@ Tiers:
 - `eric-roth-writing-mastery`: anti_patterns_sourced, recognition_test, source_ledger
 - `erica-mallet-brand-magnetism`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `ethan-smith-aeo`: anti_patterns_sourced, recognition_test
-- `eugene-teo-training`: anti_patterns_sourced, recognition_test, source_ledger
 - `evan-spiegel-distribution-architecture`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `expert-assembly-os`: anti_patterns_sourced, verbatim_exemplars, recognition_test, named_entity_floor, workflow_contracts
-- `extract-mastery`: anti_patterns_sourced, recognition_test, source_ledger **[capped A→B]**
 - `fantastic-posters`: anti_patterns_sourced, verbatim_exemplars, recognition_test, workflow_contracts **[capped A→B]**
 - `fareed-zakaria-writing-mastery`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `forge-os`: anti_patterns_sourced, verbatim_exemplars, recognition_test, named_entity_floor, workflow_contracts
 - `fraser-cottrell-paid-ads`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
-- `fresh-voice-system`: anti_patterns_sourced, source_ledger, named_entity_floor
 - `fryderyk-wiatrowski-ai-employee-os`: anti_patterns_sourced, verbatim_exemplars, recognition_test, source_ledger, named_entity_floor
 - `futurepedia-prompt-engineering`: anti_patterns_sourced, recognition_test, named_entity_floor
 - `gabe-novotny-fitness-content-business`: anti_patterns_sourced, recognition_test, source_ledger
 - `gary-vaynerchuk-attention`: anti_patterns_sourced, recognition_test, source_ledger
-- `ghostwriting-voice-engine`: anti_patterns_sourced, recognition_test, source_ledger
 - `gpt-image-2-director`: anti_patterns_sourced, verbatim_exemplars, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `grace-andrews-media-company`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `greg-hickman-service-scaling`: anti_patterns_sourced, recognition_test, source_ledger
@@ -131,12 +118,9 @@ Tiers:
 - `henrik-werdelin-portfolio-entrepreneurship`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `henry-shukman-contemplative-writing`: anti_patterns_sourced, recognition_test, source_ledger
 - `higgsfield-creative-studio`: anti_patterns_sourced, verbatim_exemplars, recognition_test, source_ledger, named_entity_floor, workflow_contracts
-- `how-i-write-os`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `jack-roberts-design-mastery`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `james-i-bond-brain-glue`: anti_patterns_sourced, verbatim_exemplars, recognition_test, source_ledger, named_entity_floor
-- `jasmin-alic-linkedin-growth`: anti_patterns_sourced, recognition_test, source_ledger
 - `jay-hiette-coaching-positioning`: anti_patterns_sourced, recognition_test, source_ledger
-- `jeremy-haynes-mindset-systems`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `jeremy-miner-identity-persuasion`: anti_patterns_sourced, recognition_test, workflow_contracts
 - `jessica-jensen-platform-intelligence`: anti_patterns_sourced, recognition_test, source_ledger
 - `jiang-xueqin-cognitive-autonomy`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
@@ -150,7 +134,6 @@ Tiers:
 - `joscha-bach-consciousness`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `josh-kaufman-business-fundamentals`: anti_patterns_sourced, recognition_test, source_ledger
 - `josh-sanders-linkedin-growth`: anti_patterns_sourced, recognition_test, source_ledger
-- `joshua-smith-real-estate`: anti_patterns_sourced, recognition_test, source_ledger
 - `jun-yuh-creator-vision`: anti_patterns_sourced, recognition_test, source_ledger
 - `jun-yuh-personal-brand`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `justin-welsh-solopreneur`: anti_patterns_sourced, recognition_test, source_ledger
@@ -176,7 +159,6 @@ Tiers:
 - `liam-mley-ai-brain-builder`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `liam-ottley-linkedin-lead-magnet`: anti_patterns_sourced, verbatim_exemplars, recognition_test, named_entity_floor
 - `lindsay-ai-consulting`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
-- `linkedin-2026-format-arbitrage`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `logan-kilpatrick-ai-studio`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `lucas-alpay-storytelling`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `luisa-zhou-coaching`: anti_patterns_sourced, recognition_test, source_ledger
@@ -207,10 +189,8 @@ Tiers:
 - `matt-mcgarry-newsletters`: anti_patterns_sourced, recognition_test, source_ledger
 - `matthew-lakajev-linkedin`: anti_patterns_sourced, recognition_test, source_ledger
 - `matthew-volkwyn-copywriting`: anti_patterns_sourced, recognition_test, source_ledger
-- `meg-heckman-buyer-trigger-os`: anti_patterns_sourced, recognition_test, workflow_contracts
 - `michael-bernoff-identity-engineering`: anti_patterns_sourced, recognition_test, source_ledger
 - `michael-connelly-vivid-writing`: anti_patterns_sourced, source_ledger, named_entity_floor
-- `michael-israetel-hypertrophy`: anti_patterns_sourced, recognition_test, source_ledger
 - `michael-margolis-user-research`: anti_patterns_sourced, recognition_test, source_ledger
 - `mike-foutia-marketing-tools`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `mike-sherrard-realtor-branding`: anti_patterns_sourced, recognition_test, source_ledger
@@ -218,15 +198,11 @@ Tiers:
 - `monk-ai-offer-architecture`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `nate-b-jones-agent-deployment-strategy`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `nate-b-jones-ai-taste-mastery`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
-- `nate-b-jones-auto-improvement-loops`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
-- `nate-b-jones-context-engineering`: anti_patterns_sourced, recognition_test, named_entity_floor, workflow_contracts
 - `nate-b-jones-intent-engineering`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `nate-b-jones-orchestration-intelligence`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `nate-b-jones-trust-architecture`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `nate-herk-client-acquisition`: anti_patterns_sourced, recognition_test, source_ledger
 - `nathan-gotch-ai-seo`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
-- `nba-betting-edge`: anti_patterns_sourced, recognition_test, source_ledger
-- `new-media-ghostwriting`: anti_patterns_sourced, verbatim_exemplars, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `new-media-kingmaker`: anti_patterns_sourced, verbatim_exemplars, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `nick-saraev-agentic-workflows`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `nick-saraev-bottleneck-thinking`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
@@ -242,7 +218,6 @@ Tiers:
 - `omar-eddaoudi`: recognition_test, source_ledger
 - `omar-eddaoudi-premium-ads`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `omar-eddaoudi-scaling-ops`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
-- `omar-eltakrori`: anti_patterns_sourced, recognition_test, workflow_contracts
 - `oren-brand-archetypes`: anti_patterns_sourced, recognition_test, workflow_contracts
 - `oren-content-team-architecture`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `oren-luxury-psychology`: anti_patterns_sourced, source_ledger, named_entity_floor
@@ -259,10 +234,6 @@ Tiers:
 - `persuasion-story-code`: anti_patterns_sourced, verbatim_exemplars, recognition_test, named_entity_floor, workflow_contracts
 - `phil-m-jones-conversational-influence`: anti_patterns_sourced, verbatim_exemplars, recognition_test, named_entity_floor
 - `pj-accetturo-ai-video`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
-- `prediction-market-ai-event-analysis`: anti_patterns_sourced, recognition_test, source_ledger, workflow_contracts
-- `prediction-market-making`: anti_patterns_sourced, recognition_test, source_ledger, workflow_contracts
-- `prediction-market-risk-management`: anti_patterns_sourced, recognition_test, source_ledger, workflow_contracts
-- `prediction-market-weather-trading`: anti_patterns_sourced, recognition_test, workflow_contracts
 - `product-design-build`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `prosperity-coach-system`: anti_patterns_sourced, recognition_test, source_ledger
 - `rachel-woods-ai-operations`: anti_patterns_sourced, recognition_test, source_ledger
@@ -272,7 +243,6 @@ Tiers:
 - `reid-hoffman-ai-strategy`: anti_patterns_sourced, recognition_test, source_ledger
 - `robert-greene-power-mastery`: anti_patterns_sourced, recognition_test, source_ledger
 - `robert-mack-comedy-writing`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor, workflow_contracts
-- `rory-sutherland-marketing`: anti_patterns_sourced, recognition_test, source_ledger, workflow_contracts
 - `ross-mckay-premium-at-scale`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `ross-minchev-digital-products`: anti_patterns_sourced, recognition_test, source_ledger
 - `russell-brunson-funnels`: anti_patterns_sourced, recognition_test
@@ -308,7 +278,6 @@ Tiers:
 - `stockton-walbeck-lead-magnets`: anti_patterns_sourced, recognition_test, source_ledger
 - `story-bible-builder`: anti_patterns_sourced, verbatim_exemplars, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `story-compass`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
-- `strength-conditioning-os`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `sunny-lenarduzzi-youtube`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `supercomputer`: anti_patterns_sourced, recognition_test, source_ledger, workflow_contracts
 - `sweat-equity-speedrun-social-os`: anti_patterns_sourced, verbatim_exemplars, recognition_test, source_ledger, named_entity_floor, workflow_contracts
@@ -327,7 +296,6 @@ Tiers:
 - `velocity-scaling`: anti_patterns_sourced, recognition_test, source_ledger
 - `verticalize`: anti_patterns_sourced, verbatim_exemplars, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `vince-nijhof-dtc-operator-system`: anti_patterns_sourced, recognition_test **[capped A→B]**
-- `voice-os`: anti_patterns_sourced, verbatim_exemplars, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `wordsatscale-seo-ranking`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `wright-thompson-mastery`: anti_patterns_sourced, recognition_test, source_ledger
 - `writing-depth-layer`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
@@ -454,7 +422,7 @@ Tiers:
 - `henrik-werdelin-portfolio-entrepreneurship`: frontmatter missing domain, frontmatter missing when_to_use
 - `henry-shukman-contemplative-writing`: frontmatter missing when_to_use
 - `higgsfield-creative-studio`: no genius.md, zero workflows, frontmatter missing domain, frontmatter missing when_to_use
-- `how-i-write-os`: zero workflows, frontmatter missing when_to_use
+- `how-i-write-os`: frontmatter missing when_to_use
 - `jack-roberts-design-mastery`: frontmatter missing domain, frontmatter missing when_to_use
 - `james-i-bond-brain-glue`: frontmatter missing domain, frontmatter missing when_to_use
 - `jasmin-alic-linkedin-growth`: frontmatter missing domain, frontmatter missing when_to_use
@@ -560,7 +528,7 @@ Tiers:
 - `nate-herk-client-acquisition`: frontmatter missing domain, frontmatter missing when_to_use
 - `nathan-gotch-ai-seo`: frontmatter missing domain, frontmatter missing when_to_use
 - `nba-betting-edge`: frontmatter missing domain, frontmatter missing when_to_use
-- `new-media-ghostwriting`: no genius.md, frontmatter missing when_to_use
+- `new-media-ghostwriting`: frontmatter missing when_to_use
 - `new-media-kingmaker`: no genius.md, frontmatter missing when_to_use
 - `nick-saraev-agentic-workflows`: frontmatter missing domain, frontmatter missing when_to_use
 - `nick-saraev-bottleneck-thinking`: frontmatter missing domain, frontmatter missing when_to_use
@@ -669,7 +637,7 @@ Tiers:
 - `velocity-scaling`: frontmatter missing when_to_use
 - `verticalize`: no genius.md, zero workflows, frontmatter missing when_to_use
 - `vince-nijhof-dtc-operator-system`: frontmatter missing when_to_use
-- `voice-os`: no genius.md, zero workflows, frontmatter missing when_to_use
+- `voice-os`: frontmatter missing when_to_use
 - `ward-farnsworth-rhetorical-mastery`: frontmatter missing when_to_use
 - `wordsatscale-seo-ranking`: frontmatter missing domain, frontmatter missing when_to_use
 - `wright-thompson-mastery`: frontmatter missing when_to_use
@@ -711,7 +679,7 @@ Tiers:
 
 Action: if an entry stays here 2 consecutive months, demote it from PRODUCTION_CORE.md; promote any long-tail skill with 3+ traces.
 
-## Tier A (11 skills)
+## Tier A (13 skills)
 
 These are the system's strongest skills. Prioritize for promotion, ground-truth benchmarking, and revenue tracking.
 
@@ -720,6 +688,8 @@ These are the system's strongest skills. Prioritize for promotion, ground-truth 
 | `adam-sandler-second-brain-gtm` | 8 | ✓ | 1 (avg 8.33) | ✓ | full structure (8 workflows + genius.md); trace avg 8.33 ≥ 7.5 (1 traces); cross-referenced from CLAUDE/COUNCIL/router |
 | `andrew-stanton-audience-engineering` | 21 | ✓ | 4 (avg 7.52) | ✓ | full structure (21 workflows + genius.md); trace avg 7.52 ≥ 7.5 (4 traces); cross-referenced from CLAUDE/COUNCIL/router |
 | `ben-watkins-storytelling` | 18 | ✓ | 1 (avg 8.33) | ✓ | full structure (18 workflows + genius.md); trace avg 8.33 ≥ 7.5 (1 traces); cross-referenced from CLAUDE/COUNCIL/router |
+| `brand-operating-system` | 7 | ✓ | 5 (avg 7.6) | ✓ | full structure (7 workflows + genius.md); trace avg 7.6 ≥ 7.5 (5 traces); cross-referenced from CLAUDE/COUNCIL/router |
+| `extract-mastery` | 3 | ✓ | 8 (avg 7.96) | ✓ | full structure (3 workflows + genius.md); trace avg 7.96 ≥ 7.5 (8 traces); cross-referenced from CLAUDE/COUNCIL/router |
 | `jenny-hoyos-shorts` | 13 | ✓ | 5 (avg 8.67) |  | full structure (13 workflows + genius.md); trace avg 8.67 ≥ 7.5 (5 traces) |
 | `jeremy-haynes-cold-offer` | 13 | ✓ | 2 (avg 8.33) | ✓ | full structure (13 workflows + genius.md); trace avg 8.33 ≥ 7.5 (2 traces); cross-referenced from CLAUDE/COUNCIL/router |
 | `kallaway-illusion-of-novelty` | 14 | ✓ | 6 (avg 7.6) | ✓ | full structure (14 workflows + genius.md); trace avg 7.6 ≥ 7.5 (6 traces); cross-referenced from CLAUDE/COUNCIL/router |
@@ -756,7 +726,6 @@ Solid skills that are working. Candidates for B→A promotion via genius.md enri
 | `authority-hacker-ai-social-media` | 3 | ✓ | - | ✓ | full structure (3 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `bond-halbert-copywriting` | 4 | ✓ | - | ✓ | full structure (4 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `boris-claude-code` | 4 | ✓ | - | ✓ | full structure (4 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
-| `brand-operating-system` | 7 | ✓ | 5 (avg 7.6) | ✓ | full structure (7 workflows + genius.md); trace avg 7.6 ≥ 7.5 (5 traces); cross-referenced from CLAUDE/COUNCIL/router |
 | `brock-johnson-shareworthy-content` | 3 | ✓ | - | ✓ | full structure (3 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `business-intelligence-audit` | 3 | ✓ | - | ✓ | full structure (3 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `caleb-ralston-personal-brand` | 11 | ✓ | - | ✓ | full structure (11 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
@@ -804,7 +773,6 @@ Solid skills that are working. Candidates for B→A promotion via genius.md enri
 | `erica-mallet-brand-magnetism` | 5 | ✓ | - | ✓ | full structure (5 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `ethan-smith-aeo` | 3 | ✓ | 2 (avg 6.71) | ✓ | 2 traces, avg 6.71 |
 | `evan-spiegel-distribution-architecture` | 13 | ✓ | - | ✓ | full structure (13 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
-| `extract-mastery` | 3 | ✓ | 7 (avg 7.81) | ✓ | full structure (3 workflows + genius.md); trace avg 7.81 ≥ 7.5 (7 traces); cross-referenced from CLAUDE/COUNCIL/router |
 | `fantastic-posters` | 14 | ✓ | 1 (avg 8.67) | ✓ | full structure (14 workflows + genius.md); trace avg 8.67 ≥ 7.5 (1 traces); cross-referenced from CLAUDE/COUNCIL/router |
 | `fareed-zakaria-writing-mastery` | 5 | ✓ | - | ✓ | full structure (5 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `fresh-voice-system` | 3 | ✓ | 3 (avg 7.25) | ✓ | 3 traces, avg 7.25 |
@@ -813,7 +781,7 @@ Solid skills that are working. Candidates for B→A promotion via genius.md enri
 | `grace-andrews-media-company` | 18 | ✓ | - | ✓ | full structure (18 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `growth-ecosystems` | 12 | ✓ | - | ✓ | full structure (12 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `harry-dry-copywriting` | 5 | ✓ | - | ✓ | full structure (5 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
-| `how-i-write-os` | 0 | ✓ | - | ✓ | has genius.md but <3 workflows; cross-referenced (no trace data) |
+| `how-i-write-os` | 1 | ✓ | - | ✓ | has genius.md but <3 workflows; cross-referenced (no trace data) |
 | `james-i-bond-brain-glue` | 12 | ✓ | - | ✓ | full structure (12 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `jasmin-alic-linkedin-growth` | 4 | ✓ | - | ✓ | full structure (4 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `jason-fladlien-marketing` | 31 | ✓ | 1 (avg 7.25) | ✓ | 1 traces, avg 7.25 |
@@ -891,6 +859,7 @@ Solid skills that are working. Candidates for B→A promotion via genius.md enri
 | `nate-b-jones-trust-architecture` | 5 | ✓ | 1 (avg 7.25) | ✓ | 1 traces, avg 7.25 |
 | `nate-herk-client-acquisition` | 1 | ✓ | - | ✓ | has genius.md but <3 workflows; cross-referenced (no trace data) |
 | `nathan-gotch-ai-seo` | 6 | ✓ | - | ✓ | full structure (6 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
+| `new-media-ghostwriting` | 1 | ✓ | - | ✓ | has genius.md but <3 workflows; cross-referenced (no trace data) |
 | `new-media-kingmaker` | 3 |  | - | ✓ | 3 workflows but no genius.md; cross-referenced (no trace data) |
 | `nick-saraev-agentic-workflows` | 7 | ✓ | - | ✓ | full structure (7 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `nick-saraev-bottleneck-thinking` | 4 | ✓ | - | ✓ | full structure (4 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
@@ -960,12 +929,13 @@ Solid skills that are working. Candidates for B→A promotion via genius.md enri
 | `tyler-denk-audience-monetization` | 2 | ✓ | - | ✓ | has genius.md but <3 workflows; cross-referenced (no trace data) |
 | `velocity-scaling` | 18 | ✓ | - | ✓ | full structure (18 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `vince-nijhof-dtc-operator-system` | 14 | ✓ | 1 (avg 7.5) | ✓ | full structure (14 workflows + genius.md); trace avg 7.5 ≥ 7.5 (1 traces); cross-referenced from CLAUDE/COUNCIL/router |
+| `voice-os` | 4 | ✓ | 3 (avg 6.75) | ✓ | 3 traces, avg 6.75 |
 | `ward-farnsworth-rhetorical-mastery` | 15 | ✓ | - | ✓ | full structure (15 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `wright-thompson-mastery` | 13 | ✓ | - | ✓ | full structure (13 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 | `writing-depth-layer` | 12 | ✓ | 1 (avg 7.25) | ✓ | 1 traces, avg 7.25 |
 | `youtube-video-context-analysis` | 8 | ✓ | - | ✓ | full structure (8 workflows + genius.md); cross-referenced but no trace evidence yet — promote to A on first ≥7.5 trace |
 
-## Tier REVIEW (99 skills)
+## Tier REVIEW (97 skills)
 
 Heuristics conflict — these need human eyes before tier finalization.
 
@@ -1028,7 +998,6 @@ Heuristics conflict — these need human eyes before tier finalization.
 | `matthew-volkwyn-copywriting` | 3 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
 | `mike-sherrard-realtor-branding` | 3 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
 | `nba-betting-edge` | 3 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
-| `new-media-ghostwriting` | 1 |  | - | ✓ | minimal structure but used — enrich with genius.md/workflows |
 | `nir-eyal-habit-design` | 3 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
 | `oren-content-team-architecture` | 15 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
 | `oren-identity-brand-os` | 14 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
@@ -1066,7 +1035,6 @@ Heuristics conflict — these need human eyes before tier finalization.
 | `taylor-welch-wealthy-consultant` | 3 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
 | `tess-barclay-social-content` | 3 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
 | `thrivecart-digital-products` | 4 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
-| `voice-os` | 0 |  | 3 (avg 6.75) | ✓ | minimal structure but used — enrich with genius.md/workflows |
 | `wordsatscale-seo-ranking` | 4 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
 | `yann-martel-storytelling-mastery` | 12 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
 | `yuri-elkaim-health-coaching-business` | 3 | ✓ | - |  | full structure but never used (no traces, no cross-references) |

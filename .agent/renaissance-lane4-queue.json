@@ -1,0 +1,2740 @@
+{
+ "lane": "wave3-lane4-long-tail",
+ "generated": "2026-07-17",
+ "source_census": "evolution_store/skill_audit_2026-07-17.md",
+ "total": 279,
+ "batch_size": 16,
+ "batches": [
+  [
+   "adam-enfroy-affiliate-marketing",
+   "ai-carousel-content-engine",
+   "ai-chris-lee-zero-testimonial-sales",
+   "alen-sultanic-copywriting",
+   "alex-content-science",
+   "alex-copper-creative-strategy",
+   "alex-hormozi-business",
+   "alex-m-smith-natural-strategy",
+   "alex-myatt-creative-engine",
+   "alex-suzuki-digital-product-revenue-os",
+   "ali-abdaal-action-bias",
+   "andreessen-horowitz-new-media",
+   "andrew-dun-vibe-consulting",
+   "andrew-lane-design-systems",
+   "andrew-wilkinson-ai-entrepreneurship",
+   "andy-lo-premium-websites"
+  ],
+  [
+   "april-dunford-positioning",
+   "ash-maurya-founder-systems",
+   "ash-maurya-lean-metrics",
+   "attention-hijack-hooks",
+   "authority-hacker-ai-social-media",
+   "banana-pro-director",
+   "benjamin-hardy-identity",
+   "bitbranding-fashion-shopify",
+   "bond-halbert-copywriting",
+   "boris-claude-code",
+   "brad-bonanno-explainer-architecture",
+   "brandon-jacoby-taste-mastery",
+   "brendan-kane-viral-strategy",
+   "brock-johnson-shareworthy-content",
+   "business-intelligence-audit",
+   "caleb-ralston-personal-brand"
+  ],
+  [
+   "cardinal-mason-ai-copywriting",
+   "chase-hughes-conversational-influence",
+   "cheri-tree-bank-buyology",
+   "chief-of-staff-os",
+   "chris-cimorelli-copywriting",
+   "chris-do-design-business",
+   "cinema-worldbuilder-pro",
+   "cinematic-documentary",
+   "coaching-business-os",
+   "cognitive-engagement-optimizer",
+   "context-profile-architect",
+   "corey-mcclain-persona-engineering",
+   "craig-clemens-copywriting",
+   "creative-campaign-strategy",
+   "dakota-content-design",
+   "damon-cart-nlp"
+  ],
+  [
+   "dan-bolton-coaching-offers",
+   "dan-koe-ai-leverage",
+   "dan-koe-multipassionate-mastery",
+   "dan-martell-business-scaling",
+   "dan-wang-literary-analysis",
+   "daniel-pink-writing-structure",
+   "daniel-thrasher-affiliate",
+   "dara-denney-meta-ads",
+   "darrel-wilson-ai-affiliate",
+   "darrel-wilson-ai-monetization",
+   "david-bayer-elite-communication",
+   "david-deutsch-copywriting",
+   "david-mcraney-belief-change",
+   "david-perell-writing",
+   "deliberate",
+   "deya-business-systems"
+  ],
+  [
+   "dom-iacovone-multi-company-operator",
+   "donald-miller-business-growth",
+   "donald-miller-cognitive-load",
+   "donald-miller-culture-turnaround",
+   "donald-miller-messaging-evolution",
+   "dr-k-consciousness",
+   "dr-kriukow-humanization",
+   "enrico-incarnati-instagram-realestate",
+   "eric-roth-screenwriting-mastery",
+   "eric-roth-writing-mastery",
+   "erica-mallet-brand-magnetism",
+   "ethan-smith-aeo",
+   "evan-spiegel-distribution-architecture",
+   "expert-assembly-os",
+   "fantastic-posters",
+   "fareed-zakaria-writing-mastery"
+  ],
+  [
+   "forge-os",
+   "fraser-cottrell-paid-ads",
+   "fryderyk-wiatrowski-ai-employee-os",
+   "futurepedia-prompt-engineering",
+   "gabe-novotny-fitness-content-business",
+   "gary-vaynerchuk-attention",
+   "gpt-image-2-director",
+   "grace-andrews-media-company",
+   "greg-hickman-service-scaling",
+   "greg-hoffman-brand-mastery",
+   "growth-ecosystems",
+   "harry-dry-copywriting",
+   "henrik-werdelin-portfolio-entrepreneurship",
+   "henry-shukman-contemplative-writing",
+   "higgsfield-creative-studio",
+   "jack-roberts-design-mastery"
+  ],
+  [
+   "james-i-bond-brain-glue",
+   "jay-hiette-coaching-positioning",
+   "jeremy-miner-identity-persuasion",
+   "jessica-jensen-platform-intelligence",
+   "jiang-xueqin-cognitive-autonomy",
+   "jim-oshaughnessy-philosopher-financier",
+   "joanna-wiebe-persuasion-mastery",
+   "joanna-wiebe-writing-careers",
+   "john-whiting-propaganda-machine",
+   "jonah-berger-contagious",
+   "jonathan-courtney-marketing",
+   "jonathan-franzen-storytelling",
+   "joscha-bach-consciousness",
+   "josh-kaufman-business-fundamentals",
+   "josh-sanders-linkedin-growth",
+   "jun-yuh-creator-vision"
+  ],
+  [
+   "jun-yuh-personal-brand",
+   "justin-welsh-solopreneur",
+   "kallaway-addictive-storytelling",
+   "kallaway-ai-content-engine",
+   "kallaway-audience-obsession",
+   "kallaway-content-operating-system",
+   "kallaway-content-psychology",
+   "kallaway-content-system",
+   "kallaway-word-mastery",
+   "kieran-flanagan-audience-intelligence",
+   "kieran-flanagan-content-engine",
+   "kieran-flanagan-content-ops",
+   "kittl-graphic-design",
+   "kj-rainey-copywriting",
+   "knowledge-architecture-studio",
+   "kobi-brown-educational-virality"
+  ],
+  [
+   "kunal-shah-consumer-psychology",
+   "lamott-allen-really-real-writing",
+   "lamott-craft",
+   "lance-yichao-context-engineering",
+   "lara-acosta-content-system",
+   "liam-mley-ai-brain-builder",
+   "liam-ottley-linkedin-lead-magnet",
+   "lindsay-ai-consulting",
+   "logan-kilpatrick-ai-studio",
+   "lucas-alpay-storytelling",
+   "luisa-zhou-coaching",
+   "luke-alexander-ai-business",
+   "luke-iha-client-mastery",
+   "luke-iha-creative-strategy",
+   "luke-iha-cross-domain",
+   "luke-iha-insight-vectors"
+  ],
+  [
+   "luke-iha-million-dollar-mechanisms",
+   "luke-iha-proof-ladder",
+   "luke-iha-proof-mechanisms",
+   "luke-iha-unaware-ads",
+   "lulu-cheng-meservey-communications",
+   "made-to-stick-messaging",
+   "manus-ai-consulting",
+   "marc-andreessen-ai-thesis",
+   "maria-wendt-digital-products",
+   "marisa-murgatroyd-course-design",
+   "mark-forsyth-rhetoric",
+   "mark-kashef-agent-orchestration",
+   "mark-kashef-ai-councils",
+   "mark-kashef-banana-squad",
+   "mark-kashef-claude-claw",
+   "mark-kashef-silver-platter-agentic-os"
+  ],
+  [
+   "mark-kashef-visual-design",
+   "mark-manson-values-psychology",
+   "marketing-studio-director",
+   "matt-mcgarry-newsletters",
+   "matthew-lakajev-linkedin",
+   "matthew-volkwyn-copywriting",
+   "michael-bernoff-identity-engineering",
+   "michael-connelly-vivid-writing",
+   "michael-margolis-user-research",
+   "mike-foutia-marketing-tools",
+   "mike-sherrard-realtor-branding",
+   "mitch-albom-writing-mastery",
+   "monk-ai-offer-architecture",
+   "nate-b-jones-agent-deployment-strategy",
+   "nate-b-jones-ai-taste-mastery",
+   "nate-b-jones-intent-engineering"
+  ],
+  [
+   "nate-b-jones-orchestration-intelligence",
+   "nate-b-jones-trust-architecture",
+   "nate-herk-client-acquisition",
+   "nathan-gotch-ai-seo",
+   "new-media-kingmaker",
+   "nick-saraev-agentic-workflows",
+   "nick-saraev-bottleneck-thinking",
+   "nicolas-cole-client-acquisition",
+   "nicolas-cole-edan-writing-mechanics",
+   "nicolas-cole-niche-positioning",
+   "nicolas-cole-nonfiction-value-architecture",
+   "nicolas-cole-sales-education-messaging",
+   "nicolas-cole-sentence-craft",
+   "nir-eyal-habit-design",
+   "noah-hawley-storytelling-mastery",
+   "ocean-vuong-perceptual-writing"
+  ],
+  [
+   "omar-eddaoudi",
+   "omar-eddaoudi-premium-ads",
+   "omar-eddaoudi-scaling-ops",
+   "oren-brand-archetypes",
+   "oren-content-team-architecture",
+   "oren-luxury-psychology",
+   "oren-one-person-ai-marketer",
+   "oren-operational-systems",
+   "oren-repositioning",
+   "oren-taste-development",
+   "oscar-hoglund-sound-storytelling",
+   "packy-mccormick-writing",
+   "pat-flynn-passive-income",
+   "patrick-dang-online-business",
+   "patrick-debois-cdlc",
+   "paul-james-ai-automation"
+  ],
+  [
+   "persuasion-story-code",
+   "phil-m-jones-conversational-influence",
+   "pj-accetturo-ai-video",
+   "product-design-build",
+   "prosperity-coach-system",
+   "rachel-woods-ai-operations",
+   "rafa-conde-fourth-wall-experience-os",
+   "rafa-conde-memorable-product-design",
+   "re-compliance-pack",
+   "reid-hoffman-ai-strategy",
+   "robert-greene-power-mastery",
+   "robert-mack-comedy-writing",
+   "ross-mckay-premium-at-scale",
+   "ross-minchev-digital-products",
+   "russell-brunson-funnels",
+   "sabri-suby-ai-advertising"
+  ],
+  [
+   "sabrina-ramonov-ai-monetization",
+   "sam-goddard-media-scaling",
+   "sam-parr-copywriting",
+   "sam-parr-copywriting-mechanics",
+   "sam-parr-taste-acquisition",
+   "samuel-thompson-product-launch",
+   "sarah-levinger-ad-psychology",
+   "satori-graphics",
+   "sean-kochel-ai-business",
+   "sean-kochel-design-first-build",
+   "sean-mabry-voice-mastery",
+   "sean-macintyre-persuasion-philosophy",
+   "seena-rez-tiktok-commerce",
+   "self-evolving-systems",
+   "semantic-document-library-os",
+   "seth-godin-brand"
+  ],
+  [
+   "seth-godin-ideavirus",
+   "seth-godin-philosophy",
+   "shaan-puri-storytelling",
+   "shan-hanif-audience-monetization",
+   "sharran-srivatsaa-scaling",
+   "sherwin-wu-ai-engineering",
+   "simon-intellectual-library-os",
+   "sky-tan-format-engine",
+   "soowei-consulting-leverage",
+   "steven-kotler-flow-performance",
+   "steven-pressfield-narrative-mastery",
+   "steven-young-consciousness",
+   "stockton-walbeck-lead-magnets",
+   "story-bible-builder",
+   "story-compass",
+   "sunny-lenarduzzi-youtube"
+  ],
+  [
+   "supercomputer",
+   "sweat-equity-speedrun-social-os",
+   "taki-moore-lifestyle-business",
+   "tao-prompts-ai-video",
+   "taylor-welch-wealthy-consultant",
+   "tess-barclay-social-content",
+   "thrivecart-digital-products",
+   "tim-danilov-niche-bending",
+   "tobi-lutke-business-leadership",
+   "tobias-allen-marketing-mastery",
+   "tom-noske-content-creation",
+   "tom-noske-personal-brand",
+   "tom-segura-comedy-storytelling",
+   "tyler-denk-audience-monetization",
+   "velocity-scaling",
+   "verticalize"
+  ],
+  [
+   "vince-nijhof-dtc-operator-system",
+   "wordsatscale-seo-ranking",
+   "wright-thompson-mastery",
+   "writing-depth-layer",
+   "yann-martel-storytelling-mastery",
+   "youtube-video-context-analysis",
+   "yuri-elkaim-health-coaching-business"
+  ]
+ ],
+ "queue": [
+  {
+   "skill": "adam-enfroy-affiliate-marketing",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "ai-carousel-content-engine",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "ai-chris-lee-zero-testimonial-sales",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "alen-sultanic-copywriting",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "alex-content-science",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "alex-copper-creative-strategy",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "alex-hormozi-business",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "alex-m-smith-natural-strategy",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "alex-myatt-creative-engine",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "alex-suzuki-digital-product-revenue-os",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "ali-abdaal-action-bias",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "andreessen-horowitz-new-media",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "andrew-dun-vibe-consulting",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "andrew-lane-design-systems",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "andrew-wilkinson-ai-entrepreneurship",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "andy-lo-premium-websites",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "april-dunford-positioning",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "ash-maurya-founder-systems",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "ash-maurya-lean-metrics",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "attention-hijack-hooks",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "authority-hacker-ai-social-media",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "banana-pro-director",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "benjamin-hardy-identity",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "bitbranding-fashion-shopify",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "bond-halbert-copywriting",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "boris-claude-code",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "brad-bonanno-explainer-architecture",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "brandon-jacoby-taste-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "brendan-kane-viral-strategy",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "brock-johnson-shareworthy-content",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "business-intelligence-audit",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "caleb-ralston-personal-brand",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "cardinal-mason-ai-copywriting",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "chase-hughes-conversational-influence",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "cheri-tree-bank-buyology",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "chief-of-staff-os",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "chris-cimorelli-copywriting",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "chris-do-design-business",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "cinema-worldbuilder-pro",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "cinematic-documentary",
+   "failing": [
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "coaching-business-os",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "cognitive-engagement-optimizer",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "context-profile-architect",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "corey-mcclain-persona-engineering",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "craig-clemens-copywriting",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "creative-campaign-strategy",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "dakota-content-design",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "damon-cart-nlp",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "dan-bolton-coaching-offers",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "dan-koe-ai-leverage",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "dan-koe-multipassionate-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "dan-martell-business-scaling",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "dan-wang-literary-analysis",
+   "failing": [
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "daniel-pink-writing-structure",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "daniel-thrasher-affiliate",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "dara-denney-meta-ads",
+   "failing": [
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "darrel-wilson-ai-affiliate",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "darrel-wilson-ai-monetization",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "david-bayer-elite-communication",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "david-deutsch-copywriting",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "david-mcraney-belief-change",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "david-perell-writing",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "deliberate",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "deya-business-systems",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "dom-iacovone-multi-company-operator",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "donald-miller-business-growth",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test"
+   ]
+  },
+  {
+   "skill": "donald-miller-cognitive-load",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "donald-miller-culture-turnaround",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "donald-miller-messaging-evolution",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test"
+   ]
+  },
+  {
+   "skill": "dr-k-consciousness",
+   "failing": [
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "dr-kriukow-humanization",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "enrico-incarnati-instagram-realestate",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "eric-roth-screenwriting-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "source_ledger",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "eric-roth-writing-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "erica-mallet-brand-magnetism",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "ethan-smith-aeo",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test"
+   ]
+  },
+  {
+   "skill": "evan-spiegel-distribution-architecture",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "expert-assembly-os",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "fantastic-posters",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "workflow_contracts **[capped A\u2192B]**"
+   ]
+  },
+  {
+   "skill": "fareed-zakaria-writing-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "forge-os",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "fraser-cottrell-paid-ads",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "fryderyk-wiatrowski-ai-employee-os",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "futurepedia-prompt-engineering",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "gabe-novotny-fitness-content-business",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "gary-vaynerchuk-attention",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "gpt-image-2-director",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "grace-andrews-media-company",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "greg-hickman-service-scaling",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "greg-hoffman-brand-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "growth-ecosystems",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "harry-dry-copywriting",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "henrik-werdelin-portfolio-entrepreneurship",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "henry-shukman-contemplative-writing",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "higgsfield-creative-studio",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "jack-roberts-design-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "james-i-bond-brain-glue",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "jay-hiette-coaching-positioning",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "jeremy-miner-identity-persuasion",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "jessica-jensen-platform-intelligence",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "jiang-xueqin-cognitive-autonomy",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "jim-oshaughnessy-philosopher-financier",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "joanna-wiebe-persuasion-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "joanna-wiebe-writing-careers",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "john-whiting-propaganda-machine",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test"
+   ]
+  },
+  {
+   "skill": "jonah-berger-contagious",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "jonathan-courtney-marketing",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "jonathan-franzen-storytelling",
+   "failing": [
+    "anti_patterns_sourced",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "joscha-bach-consciousness",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "josh-kaufman-business-fundamentals",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "josh-sanders-linkedin-growth",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "jun-yuh-creator-vision",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "jun-yuh-personal-brand",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "justin-welsh-solopreneur",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "kallaway-addictive-storytelling",
+   "failing": [
+    "anti_patterns_sourced",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "kallaway-ai-content-engine",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "kallaway-audience-obsession",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "kallaway-content-operating-system",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "kallaway-content-psychology",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "kallaway-content-system",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "kallaway-word-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "kieran-flanagan-audience-intelligence",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "kieran-flanagan-content-engine",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "kieran-flanagan-content-ops",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "kittl-graphic-design",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "kj-rainey-copywriting",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "knowledge-architecture-studio",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "kobi-brown-educational-virality",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "kunal-shah-consumer-psychology",
+   "failing": [
+    "anti_patterns_sourced",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "lamott-allen-really-real-writing",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "lamott-craft",
+   "failing": [
+    "anti_patterns_sourced",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "lance-yichao-context-engineering",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "lara-acosta-content-system",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger **[capped A\u2192B]**"
+   ]
+  },
+  {
+   "skill": "liam-mley-ai-brain-builder",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "liam-ottley-linkedin-lead-magnet",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "lindsay-ai-consulting",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "logan-kilpatrick-ai-studio",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "lucas-alpay-storytelling",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "luisa-zhou-coaching",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "luke-alexander-ai-business",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "luke-iha-client-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "luke-iha-creative-strategy",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "luke-iha-cross-domain",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "luke-iha-insight-vectors",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "luke-iha-million-dollar-mechanisms",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "luke-iha-proof-ladder",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger **[capped A\u2192B]**"
+   ]
+  },
+  {
+   "skill": "luke-iha-proof-mechanisms",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "luke-iha-unaware-ads",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "lulu-cheng-meservey-communications",
+   "failing": [
+    "anti_patterns_sourced",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "made-to-stick-messaging",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "manus-ai-consulting",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "marc-andreessen-ai-thesis",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "maria-wendt-digital-products",
+   "failing": [
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "marisa-murgatroyd-course-design",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test"
+   ]
+  },
+  {
+   "skill": "mark-forsyth-rhetoric",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "mark-kashef-agent-orchestration",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "mark-kashef-ai-councils",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "mark-kashef-banana-squad",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "mark-kashef-claude-claw",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "mark-kashef-silver-platter-agentic-os",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "mark-kashef-visual-design",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "mark-manson-values-psychology",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "marketing-studio-director",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "matt-mcgarry-newsletters",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "matthew-lakajev-linkedin",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "matthew-volkwyn-copywriting",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "michael-bernoff-identity-engineering",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "michael-connelly-vivid-writing",
+   "failing": [
+    "anti_patterns_sourced",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "michael-margolis-user-research",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "mike-foutia-marketing-tools",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "mike-sherrard-realtor-branding",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "mitch-albom-writing-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "monk-ai-offer-architecture",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "nate-b-jones-agent-deployment-strategy",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "nate-b-jones-ai-taste-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "nate-b-jones-intent-engineering",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "nate-b-jones-orchestration-intelligence",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "nate-b-jones-trust-architecture",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "nate-herk-client-acquisition",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "nathan-gotch-ai-seo",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "new-media-kingmaker",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "nick-saraev-agentic-workflows",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "nick-saraev-bottleneck-thinking",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "nicolas-cole-client-acquisition",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "nicolas-cole-edan-writing-mechanics",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "nicolas-cole-niche-positioning",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "nicolas-cole-nonfiction-value-architecture",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "nicolas-cole-sales-education-messaging",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "nicolas-cole-sentence-craft",
+   "failing": [
+    "anti_patterns_sourced",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "nir-eyal-habit-design",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "noah-hawley-storytelling-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "ocean-vuong-perceptual-writing",
+   "failing": [
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "omar-eddaoudi",
+   "failing": [
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "omar-eddaoudi-premium-ads",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "omar-eddaoudi-scaling-ops",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "oren-brand-archetypes",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "oren-content-team-architecture",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "oren-luxury-psychology",
+   "failing": [
+    "anti_patterns_sourced",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "oren-one-person-ai-marketer",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "oren-operational-systems",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "oren-repositioning",
+   "failing": [
+    "anti_patterns_sourced",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "oren-taste-development",
+   "failing": [
+    "anti_patterns_sourced",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "oscar-hoglund-sound-storytelling",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "packy-mccormick-writing",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "pat-flynn-passive-income",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "patrick-dang-online-business",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "patrick-debois-cdlc",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "paul-james-ai-automation",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "persuasion-story-code",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "phil-m-jones-conversational-influence",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "pj-accetturo-ai-video",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "product-design-build",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "prosperity-coach-system",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "rachel-woods-ai-operations",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "rafa-conde-fourth-wall-experience-os",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "rafa-conde-memorable-product-design",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "re-compliance-pack",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "reid-hoffman-ai-strategy",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "robert-greene-power-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "robert-mack-comedy-writing",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "ross-mckay-premium-at-scale",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "ross-minchev-digital-products",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "russell-brunson-funnels",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test"
+   ]
+  },
+  {
+   "skill": "sabri-suby-ai-advertising",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "sabrina-ramonov-ai-monetization",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "sam-goddard-media-scaling",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "sam-parr-copywriting",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test"
+   ]
+  },
+  {
+   "skill": "sam-parr-copywriting-mechanics",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "sam-parr-taste-acquisition",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "samuel-thompson-product-launch",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "sarah-levinger-ad-psychology",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "satori-graphics",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "sean-kochel-ai-business",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "sean-kochel-design-first-build",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "sean-mabry-voice-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "sean-macintyre-persuasion-philosophy",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test"
+   ]
+  },
+  {
+   "skill": "seena-rez-tiktok-commerce",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "self-evolving-systems",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "semantic-document-library-os",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "seth-godin-brand",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "seth-godin-ideavirus",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "seth-godin-philosophy",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "shaan-puri-storytelling",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "shan-hanif-audience-monetization",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "sharran-srivatsaa-scaling",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "sherwin-wu-ai-engineering",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test"
+   ]
+  },
+  {
+   "skill": "simon-intellectual-library-os",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test"
+   ]
+  },
+  {
+   "skill": "sky-tan-format-engine",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "soowei-consulting-leverage",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "steven-kotler-flow-performance",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "steven-pressfield-narrative-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "steven-young-consciousness",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "stockton-walbeck-lead-magnets",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "story-bible-builder",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "story-compass",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "sunny-lenarduzzi-youtube",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "supercomputer",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "sweat-equity-speedrun-social-os",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "taki-moore-lifestyle-business",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "tao-prompts-ai-video",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "taylor-welch-wealthy-consultant",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "tess-barclay-social-content",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "thrivecart-digital-products",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "tim-danilov-niche-bending",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "tobi-lutke-business-leadership",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "tobias-allen-marketing-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "tom-noske-content-creation",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "tom-noske-personal-brand",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "tom-segura-comedy-storytelling",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test"
+   ]
+  },
+  {
+   "skill": "tyler-denk-audience-monetization",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "velocity-scaling",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "verticalize",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "vince-nijhof-dtc-operator-system",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test **[capped A\u2192B]**"
+   ]
+  },
+  {
+   "skill": "wordsatscale-seo-ranking",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "wright-thompson-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  },
+  {
+   "skill": "writing-depth-layer",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "yann-martel-storytelling-mastery",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "named_entity_floor"
+   ]
+  },
+  {
+   "skill": "youtube-video-context-analysis",
+   "failing": [
+    "anti_patterns_sourced",
+    "verbatim_exemplars",
+    "recognition_test",
+    "named_entity_floor",
+    "workflow_contracts"
+   ]
+  },
+  {
+   "skill": "yuri-elkaim-health-coaching-business",
+   "failing": [
+    "anti_patterns_sourced",
+    "recognition_test",
+    "source_ledger"
+   ]
+  }
+ ],
+ "protocol": "Per batch: stage audits + ENVELOPE (reuse .tmp/wave3-batch4/ENVELOPE.md pattern), fleet sentinel on, session lock claimed, Sonnet workers only, serial merges via fleet_merge, Opus verify 1-in-5 incl. UNCONFIRMED spot-checks + empty-delivery check. Designed for W7 overnight runs.",
+ "note": "_tmp_audit_diandra excluded (stray temp dir in skills/ \u2014 cleanup proposed via removal ledger, never auto-deleted)"
+}

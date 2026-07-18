@@ -1,7 +1,7 @@
 ---
 thread: frontier-elevation-day-one
 status: active
-resume_hint: W3 L3 done + W2 flip live; Farrice-gated: grading redesign ratification + seed reviews
+resume_hint: L3+L4-staging done, W2 flip live, fleet_merge shipped; Farrice-gated: redesign + seed reviews
 branch: main
 pin: true
 ---
@@ -35,14 +35,26 @@ pin: true
   of the redesign's thesis.)
 - Finalize 9.0 (anchor named), Notion logged, mission log current.
 
+## Session extension (same evening — "complete the plan" pass)
+- **Fresh census run**: `evolution_store/skill_audit_2026-07-17.md` — A-tier 4→13,
+  true long-tail failing count 280 (not 324; instrument error + repairs).
+- **W3 Lane 4 STAGED**: `.agent/renaissance-lane4-queue.json` — 279 skills (excl. stray
+  `_tmp_audit_diandra`, cleanup proposed not executed), 18 batches ≤16, protocol field
+  encodes the full fleet doctrine. Ready for overnight W7-style runs.
+- **W2 spec audit**: quality→routing weights + BINDINGS-upstream-of-BM25 found ALREADY
+  WIRED and verified live (93 learned weights; 4 finalizes counted this run) — the
+  April audit finding was stale. Not rebuilt.
+- **`execution/fleet_merge.py` shipped** (Forge PoC 3/3): contract-path copy,
+  hollow-delivery guard (exit 3), gate as sole arbiter. Replaces per-batch merge_one.sh.
+
 ## Next up (in order)
 1. **Farrice**: ratify/edit GRADING-LOOP-REDESIGN.md (3 open questions at bottom) +
    the 3×20-min seed reviews (30 candidates banked) → then R1 implementation.
-2. **W3 Lane 4**: long tail (~280 skills) as overnight Sonnet fleet work (W7 synergy);
-   census first — some of the "324 failing" is instrument error, re-run after repairs.
+2. **W3 Lane 4 execution**: drain `.agent/renaissance-lane4-queue.json` batch-by-batch
+   (Sonnet fleets, fleet_merge.py, Opus 1-in-5 verify). Overnight-friendly.
 3. **W2 week-1 review** (due 2026-07-24, in /weekly-closeout): read
    routing-enforce-log.jsonl, false-positive scan, decide permanence → then flip #2
-   (blind-pass latch).
+   (blind-pass latch). One flip per week by doctrine — do NOT stack flips early.
 4. Source re-acquisition queue unchanged (video 412qINvYIKk, Georgi masterclass,
    Diandra primary, Cole Two-Rules).
 
