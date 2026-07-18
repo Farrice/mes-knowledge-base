@@ -4,6 +4,19 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+---
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the Expert Anchor System, then build originally — if a deliverable stamps visible headers like "Step 1: Expert Anchor / Step 2: Context Extraction / Step 3: Meta-Prompt Synthesis" onto a user-facing output, that is the machinery showing through, and it has failed. The test: would Futurepedia recognize this as someone who actually grounded the AI in expert frameworks and personal context before executing — or as someone using prompt-engineering vocabulary (RICECO, XML tags, "expert anchor") as decoration without doing the underlying grounding work? If it's the second, rebuild.
+
+Specifically:
+- Do NOT narrate which Pattern or Tacit Knowledge Point you applied unless asked — ship the deliverable, never the framework label behind it.
+- Never fake the three-chat separation by writing "Chat 1: ... Chat 2: ... Chat 3: ..." inside a single response. The separation is architectural (distinct sessions that prevent "momentum" carryover, per the 2026-01-18 MES 3.0 transcript extraction at `knowledge/extractions/inbox/Claude-🧑🏽_💻💡💎 Futurepedia ! Advance Prompt Engineering ! The Simple 3-Step System to Do Anything with .md`, line 241) — simulating the split in one pass reproduces the exact momentum failure Futurepedia is warning against.
+- His texture is systematic and demonstration-oriented, not academic: he shows the prompt, then the AI's actual before/after output, then names precisely what changed and why (see the Hall of Fame Exemplars below). Skipping the before/after pair and just asserting "this is more expert-grounded now" is polish without proof — polish is the tell.
+
+---
+
 ## Genius Patterns
 
 ## Pattern 1: The Generic Output Diagnosis
@@ -24,6 +37,8 @@
 **Execute**: Rather than asking AI for advice, upload proven frameworks and command reconstruction—shifting AI from advisor to analyst/executor.
 
 **Success Metric**: AI output reflects specific methodology from uploaded source.
+
+**Verbatim** (source line 165, 2026-01-18 MES 3.0 transcript extraction, `knowledge/extractions/inbox/Claude-🧑🏽_💻💡💎 Futurepedia ! Advance Prompt Engineering ! The Simple 3-Step System to Do Anything with .md`): "Analyze and identify the core framework... Extract the step-by-step logic, specific constraints, and golden rules... Create a comprehensive master guide... Do not summarize, reconstruct the system."
 
 ---
 
@@ -46,6 +61,8 @@
 
 **Success Metric**: Each chat session produces clean, focused output without direction contamination.
 
+**Verbatim** (source line 196, 2026-01-18 MES 3.0 transcript extraction): the multi-chat split exists because it prevents "momentum" problems where AI sticks to established directions.
+
 ---
 
 ## Pattern 7: Meta-Prompt Synthesis
@@ -60,12 +77,16 @@ When AI tries to plan AND execute simultaneously, its attention splits and it de
 
 **Deploy**: Always separate information gathering from execution. Complex tasks require staged workflows, not single mega-prompts.
 
+**Verbatim** (source line 220, 2026-01-18 MES 3.0 transcript extraction): "its attention splits and it defaults back to generic advice."
+
 ---
 
 ## Tacit 2: XML Tag Structuring
 Using XML tags (`<expert_anchor>`, `<context_file>`) helps AI understand information boundaries. This isn't formatting preference—it's architectural clarity that improves processing.
 
 **Deploy**: Wrap distinct information blocks in XML tags in complex prompts.
+
+**Verbatim** (source line 3759, "Unconscious Competence Patterns," 2026-01-18 MES 3.0 transcript extraction): "Know that `<context>` beats wall-of-text every time."
 
 ---
 
@@ -87,6 +108,19 @@ Summaries lose operational detail. Reconstructions preserve the executable syste
 After the context interview, a final command compiles everything: "Compile all my answers into a single structured context file that summarizes everything we've discussed."
 
 **Deploy**: Always end context extraction with compilation command to create portable context asset.
+
+---
+
+## Anti-Patterns (Sourced)
+
+Failure modes Futurepedia names explicitly, each anchored to the 2026-01-18 MES 3.0 transcript extraction (`knowledge/extractions/inbox/Claude-🧑🏽_💻💡💎 Futurepedia ! Advance Prompt Engineering ! The Simple 3-Step System to Do Anything with .md`) at the cited line:
+
+- **Mega-prompt fusion (never do)**: never mix expert extraction, context gathering, and execution in the same chat — each phase needs "its own clean session" (source line 198, 2026-01-18 MES 3.0 transcript extraction).
+- **Trusting default AI output as expert-level (never do)**: never expect AI to produce expert-level output by default; unanchored output defaults to the "average of the internet" tendency (source line 154, 2026-01-18 MES 3.0 transcript extraction).
+- **Summarizing instead of reconstructing (never do)**: "Summaries lose operational detail. Reconstructions preserve the executable system" — the word choice "reconstruct" versus "summarize" changes output quality (source line 234, Tacit Knowledge Point 3, 2026-01-18 MES 3.0 transcript extraction).
+- **Mid-stream redirection (never do)**: "Once an AI is mid-response, it's much harder to restructure. It has momentum" — redirect by starting a fresh chat, never by fighting momentum inline (source line 241, Tacit Knowledge Point 4, 2026-01-18 MES 3.0 transcript extraction).
+- **Shipping the "impressive-looking but useless" output (never do)**: accepting AI output that "looks right and sounds professional" without applying the "execution test" is the core failure the entire 3-step system exists to prevent (source lines 141-143, Pattern 1, 2026-01-18 MES 3.0 transcript extraction).
+- **Providing context yourself instead of running the interview (never do)**: skipping the structured question-by-question extraction — "Ask me a series of questions one by one... Do not move on until I've answered each one" — reintroduces the detail-loss the method is built to avoid (source line 187, Pattern 5, 2026-01-18 MES 3.0 transcript extraction).
 
 ---
 
