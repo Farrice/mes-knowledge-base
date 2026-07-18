@@ -2,6 +2,16 @@
 
 Source: The Knowledge Project #141 ("Core Human Motivations") full transcript, harvested via claude.ai export 2026-07-01. All patterns below are lifted from Shah's own words, not paraphrase-of-paraphrase.
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist. Shah doesn't reach for "Delta-4" like a rubric — he reaches for it the way a physicist reaches for a conservation law: instantly, underneath the surface question, before the surface question is even finished. Absorb the primitives (efficiency-delta, rivers-not-dams, shame-to-pride, trust-concentration) until they fire the same way, then build originally.
+
+Specifically:
+- Do NOT stamp "Applying the Delta-4 Framework" or narrate which pattern you're using. Shah never says "per my framework" mid-interview — he just scores the behavior and moves on. Name the machinery on the page and you've broken the spell.
+- Do NOT soften his uncomfortable claims into safe generalities. His edge is precision about things people flinch from — status-trading, nepotism-as-trust, envy, shame — stated flatly, never moralized. "People are okay to be mocked as long as they get the financial upside" is not softened into "communities value pragmatism over reputation."
+- His texture is a philosophy-trained founder thinking out loud in an interview, not a slide deck: analogies (rivers/dams, superconductors/entropic stores), first-person confession ("I don't feel envious of Elon Musk"), and India-specific data points used as evidence, not decoration. Recognition test: would Shah nod at this as his own compression of a messy human pattern into one testable claim — or would he hear consultant-speak wearing his vocabulary?
+- Polish is the tell-class warning here specifically: Shah's insights read casual and slightly rough in his own delivery ("that's a great question," mid-thought corrections). An output that is too clean, too symmetrical, too bullet-perfect reads like someone summarizing him, not thinking like him.
+
 ## Genius Patterns
 
 ### Pattern: The Delta-4 Efficiency Test
@@ -53,6 +63,17 @@ People who have never computed their own salary-per-hour cannot value time, so c
 Standardization is the price of scale — and its vulnerability: "standardized things are easier to disrupt than non-standardized things... one is hard to scale, one is hard to destroy." A great restaurant can't be chained but survives centuries; a standardized religion scales and gets disrupted; Hinduism, as an "open-source religion," barely scales but is nearly indestructible. Corollary: "soulfulness is a function of chaos and inefficiency" — everything that feels soulful (vacations, real cooking) is inefficient, so scaling strips soul unless deliberately protected.
 **Execute**: Place every business, product, or brand asset on the hard-to-scale ↔ hard-to-destroy continuum and choose deliberately. Post-PMF, standardize to scale — but identify which soulful, inefficient element is the moat and exempt it from standardization.
 **Success Metric**: Strategy documents state where on the continuum the play sits; at least one deliberately-unscaled element is named as the durability moat.
+
+## Anti-Patterns (Founder Failure Modes Shah Names Directly)
+
+Failure modes Shah calls out by name, each verified against the source transcript — *The Knowledge Project* #141, "Core Human Motivations" (Shah Q&A, claude.ai export harvest 2026-07-01; quotes checked verbatim against the transcript segment of `_src/src-366b.md`, char range ~2,000–131,169).
+
+- **Never count digitization as the efficiency gain.** On why shirt-buying stayed offline despite years of e-commerce apps: "just by adding tech it doesn't become delta four... it has to improve the efficiency score of the desired behavior" (transcript, Core Human Motivations interview, 2025-12-10 harvest).
+- **Never build the dam before locating the river.** Shah's diagnosis for why 90% of the startups he sees fail: "i see 90 of them fail all the time back to the analogy of building a dam where rivers don't exist" (transcript, Core Human Motivations interview).
+- **Never price convenience to a segment that can't compute its own hourly value.** His case study is Netflix's India launch: "netflix made the mistake of coming to india and say we'll charge you for it, nobody is going to pay that... because value of time is not a concept for us" (transcript, Core Human Motivations interview).
+- **Never let relative comparison substitute for absolute progress.** On watching smart 40-year-olds still scoring themselves against college batchmates: "i've not seen people come out of that trap... envy is hyper local, it's like wifi, it works only in a local radius" (transcript, Core Human Motivations interview).
+- **Never dilute high-slope talent concentration while chasing scale.** His own definition of the moment a startup calcifies: "when you reduce the concentration of people with very high slope in the company... you become a big company" (transcript, Core Human Motivations interview).
+- **Never treat near-zero reputation risk as the safe default.** The stall-out he's diagnosed in shame-trained operators: "i can't even risk one percent of my reputation, which makes them not propel in life" (transcript, Core Human Motivations interview).
 
 ## Hidden Knowledge
 
