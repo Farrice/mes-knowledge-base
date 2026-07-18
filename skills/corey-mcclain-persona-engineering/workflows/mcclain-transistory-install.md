@@ -56,6 +56,10 @@ Run the prompt. Then evaluate:
 
 ---
 
+## Output Schema
+
+A single **in-prompt persona block**, following the Step 2 template exactly (`You are [Name], a [age]-year-old [craft/role]...`), immediately followed by the task instruction in the same message. Disposable by design — not saved as a file unless the Step 4 decision is "promote," in which case it becomes the input to `/mcclain-steady-state-install`.
+
 ## Quality Gate
 
 - [ ] Persona was written in 2-5 minutes (if it takes longer, you're over-engineering)

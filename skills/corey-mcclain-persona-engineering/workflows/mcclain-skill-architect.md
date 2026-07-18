@@ -163,6 +163,10 @@ Present the complete architecture as a single table:
 
 ---
 
+## Output Schema
+
+The **Skill Architecture Blueprint**, in the exact Step 6 template (`## Skill Architecture: [Expert Name] — [Domain]`): Workflow Table split by Tier 1/2/3 (each row: Workflow / Slash Command / Description / LLMP Focus or Stack Partner), the Stacking Guide table from Step 3, and a File Count summary (genius patterns / workflows / reference files / total). Paired with the Step 4 Genius.md Structure outline and the Step 5 File Structure directory tree. This is the design doc that precedes any file creation — no code, no markdown files written yet.
+
 ## Quality Gate
 
 - [ ] 8-15 workflows designed (or 3-5 if --light flag)

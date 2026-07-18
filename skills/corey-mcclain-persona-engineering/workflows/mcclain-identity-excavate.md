@@ -155,6 +155,10 @@ Compile everything into the Identity Profile document:
 
 ---
 
+## Output Schema
+
+A single **Identity Profile** document, in the exact structure from Step 5 (`# [Expert Name] — Identity Profile`): Personality Summary (2-3 paragraphs), Worldview Beliefs (3-5, numbered), Worldview Tensions (1-2+), Formation Seeds (professional + personal), Personal Detail Seeds, and the full Voice Texture Profile from Step 4 (Register / Temperature / Density / Authority Source / Humor Type / Signature Moves / Sounds-like / Forbidden vocabulary). This is the direct input to `/mcclain-persona-from-source` — never a standalone deliverable.
+
 ## Quality Gate
 
 - [ ] Communication forensics include vocabulary fingerprint AND cadence signature

@@ -82,6 +82,16 @@ Write the backstory as continuous prose. 500-1500 words. It should read like the
 
 ---
 
+## Output Schema
+
+A single **narrative backstory document**, 500-1500 words, continuous prose (no headers, no bullets within the narrative itself):
+
+- Opens in the present — one concrete scene
+- Moves through origin, formation, grind, breakthrough (Step 2 sequence)
+- Weaves in 3-5 relationships and 5-10 daily-life details inline, not as a separate list
+- Closes on a current, unresolved tension (Step 6.5)
+- Save as a draft section feeding `persona.md` (via `/mcclain-persona-forge` or `/mcclain-steady-state-install`) — not a standalone deliverable on its own
+
 ## Quality Gate
 
 - [ ] Backstory is narrative prose, not a character sheet

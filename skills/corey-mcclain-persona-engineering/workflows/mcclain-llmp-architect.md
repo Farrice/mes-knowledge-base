@@ -83,6 +83,19 @@ Set the agent up for long-term improvement:
 
 ---
 
+## Output Schema
+
+A **complete 4-layer agent architecture**, four files:
+
+| File | Layer | Content |
+|---|---|---|
+| `logic.md` | Logic | Router prompt + workflow steps + rules + quality gates (Step 2) |
+| `library/` | Library | Templates, 3-5 few-shot exemplars, references, tool configs (Step 3) |
+| `memory/` | Memory | Schema + initial state, tagging system for targeted recall (Step 4) |
+| `persona.md` | Persona | 500-2000 word narrative life document — identity, backstory, worldview, voice, messy details (Step 5) |
+
+Plus a documented Integration & Testing result (Step 6 — vanilla comparison, controlled delete) and a Compound Plan (Step 7).
+
 ## Quality Gate
 
 Before marking complete:

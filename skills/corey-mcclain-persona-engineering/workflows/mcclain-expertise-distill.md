@@ -120,6 +120,18 @@ Sort all extracted intelligence into its destination layer:
 
 ---
 
+## Output Schema
+
+A single **structured extraction document** with five required sections, in this order:
+
+1. Genius Patterns (8-15, each in the `### Pattern [N]: [Name]` format from Step 2 — Execute / Deploy when / LLMP Destination / Success Metric)
+2. Hidden Knowledge (numbered entries with a "why this is hidden" note, Step 3)
+3. Signature Moves (5-8, `### Signature Move [N]` format — The Move / When / Workflow Potential, Step 4)
+4. Methodology Architecture Map (Core Loop, Entry Points, Phase Progression, Decision Nodes, Output Types, Step 5)
+5. Quality Rubric (7-10 criteria table, Step 6) + LLMP Layer Mapping table (Step 7)
+
+This feeds `/mcclain-identity-excavate` (Persona layer) and `/mcclain-skill-architect` (workflow design) directly — save as a source document, not a final deliverable.
+
 ## Quality Gate
 
 - [ ] 8+ genius patterns extracted, each with LLMP layer destination

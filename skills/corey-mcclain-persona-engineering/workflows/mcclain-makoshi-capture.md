@@ -88,6 +88,10 @@ Track construct evolution:
 
 ---
 
+## Output Schema
+
+A single **Makoshi Construct** file, in the exact Step 3 template (`# [Agent Name] — Makoshi Construct`): Captured [Date], Context, Behavioral DNA, Accumulated Intelligence, Calibration Anchors (actual output examples, not descriptions), Voice State, Refinement History, Reconstruction Instructions. Save under `agents/[name]/memory/makoshi-[version].md` — archive prior versions, never delete (Step 5).
+
 ## Quality Gate
 
 - [ ] Construct captures behavioral patterns, not just knowledge

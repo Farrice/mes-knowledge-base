@@ -75,6 +75,15 @@ Configure how memory and persona interact:
 
 ---
 
+## Output Schema
+
+Two artifacts:
+
+1. **`persona.md`** — the finalized 500-2000 word narrative persona (Step 1), saved to the agent's workspace.
+2. **Router integration block** — the loading-sequence instructions (Step 2's example format: Read persona.md → logic.md → library/ → memory/), written into the agent's router prompt, with the persona-first-vs-last decision documented.
+
+Plus the Compound Schedule (Step 4: 10 / 30 conversation checkpoints, monthly, quarterly) recorded so the review cadence is trackable.
+
 ## Quality Gate
 
 - [ ] Persona document is 500-2000 words of narrative prose

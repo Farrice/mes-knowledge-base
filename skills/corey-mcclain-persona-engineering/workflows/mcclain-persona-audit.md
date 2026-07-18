@@ -79,6 +79,16 @@ After implementing upgrades:
 
 ---
 
+## Output Schema
+
+A **scored audit report** with three required sections:
+
+1. Seven-Point Audit table (Step 3) — all 7 criteria scored 1-10 with evidence column filled, plus Composite Score (sum/70, banded 0-40% / 40-60% / 60-80% / 80%+)
+2. Gap Diagnosis table (Step 4) — every criterion scoring <5 mapped to its missing component and the specific `/mcclain-*` workflow that fixes it
+3. Upgrade Prescription (Step 5) — biggest gap first, specific action, expected improvement, validation protocol
+
+Re-run after upgrades and append the Post-Upgrade Validation delta (Step 6) to the same document — do not overwrite the original scores.
+
 ## Quality Gate
 
 - [ ] 3-5 output samples were evaluated

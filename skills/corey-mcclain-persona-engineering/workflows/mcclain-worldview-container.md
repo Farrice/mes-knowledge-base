@@ -77,6 +77,10 @@ Write the worldview into the persona document as narrative — not as a bulleted
 
 ---
 
+## Output Schema
+
+**3-5 worldview beliefs**, each drafted first in the Step 3 template (`BELIEF: / IMPLIES: / TESTS AS:`) for internal design work, then rewritten as narrative prose (Step 6 example) for insertion into the persona document. Include 1-2 documented worldview tensions (Step 4) and the 3 Decision Scenario Testing results (Step 5) as supporting evidence that the beliefs are decisional, not just stated. The template versions are working drafts; only the narrative-prose version ships inside `persona.md`.
+
 ## Quality Gate
 
 - [ ] 3-5 beliefs are stated as convictions, not preferences

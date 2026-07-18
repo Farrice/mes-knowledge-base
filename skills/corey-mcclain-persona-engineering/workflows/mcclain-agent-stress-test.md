@@ -72,6 +72,15 @@ Run production task. Check output for ANY explicit mention of persona name, back
 ### Prescriptions: [If any]
 ```
 
+## Output Schema
+
+A single **Stress Test Report** (see `## Report Template` above), saved as `agents/[name]/memory/stress-test-[date].md`:
+
+- Title: `# Stress Test Report: [Agent Name] — [Date]`
+- 5-row results table (Test 1-5, each PASS/FAIL, notes)
+- `### Overall: [PASS / CONDITIONAL / FAIL]`
+- `### Prescriptions:` — one specific, actionable fix per failed test (never generic "improve the persona")
+
 ## Quality Gate
 
 - [ ] All 5 tests executed with controlled conditions

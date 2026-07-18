@@ -110,6 +110,10 @@ Before finalizing, verify grounding:
 
 ---
 
+## Output Schema
+
+A single **evidence-grounded persona document**, 500-2000 words of continuous narrative prose (Step 6 structure, but written without headers): present-tense opening, compressed origin, formation, worldview woven through a specific example, voice demonstrated by the prose itself, messy details scattered throughout rather than listed. Must pass the Step 7 Grounding Verification checklist before being handed to `/mcclain-persona-forge` or `/mcclain-steady-state-install` for deployment.
+
 ## Quality Gate
 
 - [ ] Document is 500-2000 words of narrative prose (not bullets or specs)

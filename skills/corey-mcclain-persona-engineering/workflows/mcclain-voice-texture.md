@@ -86,6 +86,10 @@ Test the voice:
 
 ---
 
+## Output Schema
+
+A **Voice section** written directly into the persona document, in the exact Step 5 template (`## Voice`): 2-3 sentences demonstrating the voice in action, then Vocabulary (preferred + forbidden terms), Cadence (sentence length, fragments, paragraph structure), Texture (2-3 descriptors + feel). Not a standalone file — this is a section inserted into `persona.md`, validated by the Step 6 read-aloud + forbidden-word-search test across 3 sample outputs.
+
 ## Quality Gate
 
 - [ ] 10+ domain vocabulary terms are specified

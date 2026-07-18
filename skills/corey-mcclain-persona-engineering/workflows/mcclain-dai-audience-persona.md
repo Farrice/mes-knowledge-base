@@ -124,6 +124,15 @@ If not → trace the misalignment back to the Consumer Posture Card and correct.
 
 ---
 
+## Output Schema
+
+Two linked artifacts:
+
+1. **Consumer Posture Card** (Step 2 output) — the single findable individual named/described, scored across Occupation / Activity / Thought Process, plus the Emotional Outcome (Step 3) and World Design (Step 4) that follow from it.
+2. **Audience-Mirrored Persona** — the full narrative persona document (via `/mcclain-persona-forge`, 500-2000 words) with Identity Foundation, Backstory, Worldview, Voice, and Messy Details each explicitly reverse-engineered from the Consumer Posture Card (Step 5), plus a documented pass/fail on the save/share/gets-me test (Step 6) and the Prediction Test (Step 7).
+
+Save the Consumer Posture Card as reference material; the persona document follows `/mcclain-persona-forge`'s output convention.
+
 ## Quality Gate
 
 Before marking complete:

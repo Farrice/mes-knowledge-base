@@ -11,10 +11,22 @@ Corey McClain discovered that AI agents produce categorically superior outputs w
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the mechanism, then build a persona that could only belong to this specific agent. If the output enumerates "Identity, Backstory, Worldview, Voice" as labeled sections, you have failed the exercise Corey is teaching.
+
+Specifically:
+- Do NOT write the persona as a spec sheet or character bio with headers. Corey's own line: "what I wrote was not a prompt. It was a life document. It was almost like a small biography" (transcript.txt). Prose, not bullets — the format IS the mechanism, not decoration.
+- Do NOT let the persona leak into output. The agent never says "as a graphic designer from Chicago, I think..." — Claude itself is the proof case: "Claude never talks about his personality when it responds to you" (transcript.txt). Name the persona on the page and you've broken the container.
+- Do NOT pad the persona with tidy, resolved details. The magic is in the mundane and the mildly contradictory — a mom who calls too much, a corgi named with the wrong amount of ceremony, a midlife pivot that hasn't happened yet. Polished backstories with no loose threads read as templates, not lives.
+- The test: would Corey McClain recognize this as a life document that changes what world the model is standing in — or as a role-play prompt wearing persona-engineering vocabulary? If it's the second, rebuild from Step 1 (identity) using messier, more specific details, not more instructions.
+
+---
+
 ## Genius Patterns
 
 ### 1. The Persona-as-Container Principle
-The persona doesn't replace logic, library, or memory. It **envelops** them. Think of it less as a layer and more as an atmosphere — a pressure system that shapes everything the model produces within it. The agent doesn't reference the persona details in its output. It never mentions the dog or the family. But the presence of that narrative context changes the texture of every decision the model makes.
+The persona doesn't replace logic, library, or memory. It **envelops** them. Think of it less as a layer and more as an atmosphere — a pressure system that shapes everything the model produces within it. The agent doesn't reference the persona details in its output. It never mentions the dog or the family. But the presence of that narrative context changes the texture of every decision the model makes. In Corey's own framing: "if thinking about it as a layer is not helpful, it may be more helpful to think about it as a container" (transcript.txt).
 
 - **Executable Behavior**: Write persona documents that never appear in output but permanently alter output quality
 - **Deploy when**: Building any agent expected to produce content, copy, design direction, or creative work
@@ -46,14 +58,14 @@ Two deployment modes. Transistory: persona embedded directly in a prompt for one
 
 - **Executable Behavior**: Start every new persona as transistory (in-prompt). If the output quality is strong, promote to steady-state (workspace file)
 - **Deploy when**: Transistory for experiments and one-offs. Steady-state for any agent you'll use more than 3 times.
-- **Success Metric**: Steady-state agents produce measurably better outputs at week 4 than week 1
+- **Success Metric**: Steady-state agents produce measurably better outputs at week 4 than week 1. Corey's own words on why: "the thing about setting these up in workspaces is the fact that they just get better, right?" (transcript.txt)
 
 ### 6. The Worldview-as-Decision-Engine
 A persona's worldview implies a value system, which implies decisions. When two different personas face the same problem, they reach different audiences because their worldview filtered the solution space differently. This is not about "tone" — it's about the invisible pre-filtering that happens before a single word is generated.
 
 - **Executable Behavior**: Write 3-5 worldview beliefs for every persona that constrain how they approach problems and what they prioritize
 - **Deploy when**: Marketing agents, content agents, strategy agents — anywhere audience alignment matters
-- **Success Metric**: Give the same task to two differently-worldviewed personas and get genuinely different (not just tonally different) outputs
+- **Success Metric**: Give the same task to two differently-worldviewed personas and get genuinely different (not just tonally different) outputs. Corey's test case: "I can take two different people with two different world views and give them the same problem and the results you get will be completely different, they're going to reach completely different audiences" (transcript.txt)
 
 ### 7. The Anti-Default Principle
 AI always gives you a response at the default floor. It's never trying to give you the best answer — it's giving you the "good enough" answer. The persona's function is to raise the floor. It forces the model off the default distribution into a specific, curated output space. Generic disappears. Distinct emerges.
@@ -81,7 +93,7 @@ The persona lives in a markdown file. The router prompt references it. The model
 
 - **Executable Behavior**: Place persona file reference in router prompt's context loading sequence
 - **Deploy when**: Every steady-state agent deployment
-- **Success Metric**: Agent never mentions its own persona details, but outputs reflect them
+- **Success Metric**: Agent never mentions its own persona details, but outputs reflect them. Sequencing is deliberately unresolved in the source: "Maybe it's the first thing it references, maybe it's the last thing it references. That's your choice." (transcript.txt)
 
 ---
 
@@ -128,17 +140,30 @@ The Makoshi concept came from Cyberpunk 2077 — a portable shrine housing a dig
 
 ---
 
+## Anti-Patterns
+
+Failure modes Corey names directly or implies through what he explicitly rejects, each sourced to the transcript or to a documented workflow gate:
+
+- **Never role-play a job title instead of installing an identity.** Corey's explicit rejection: "Not act as a social media manager, not act as a YouTube channel manager, not act as a business consultant, but actually this is who you are" (transcript.txt). A persona that starts with "You are acting as..." is already the anti-pattern.
+- **Don't let the persona reference itself in the output.** "Claw never talks about his personality when it responds to you" (transcript.txt) — this is Test 5 (Persona Leakage) in `mcclain-agent-stress-test.md`, and any leaked backstory detail is an automatic fail on that test.
+- **Don't compress the persona narrative when compressing other context layers.** Per the Nate B. Jones stack integration (`mcclain-nate-full-agent.md`, Step 5): "The persona document is NEVER compressed... compressing it destroys the container effect." Quantize Logic and Library; leave Persona as narrative prose.
+- **Don't skip the vanilla A/B comparison before shipping a persona.** Corey's own validation method: "I've deleted both conversations so that we can't be tainted by the image that was generated" (transcript.txt) — the Controlled Delete. Installing a persona without ever confirming a measurable gap against vanilla output is unverified work, not proof.
+- **Never build Persona before Logic and Library are established.** Corey's own build order: "the logic, the library are obviously more important than anything else... then the memory and then finally the personality profile was installed on top of that" (transcript.txt). Persona is Layer 4 — skipping straight to persona on an agent with no Logic/Library foundation produces atmosphere with nothing underneath it.
+- **Don't write worldview beliefs as generic platitudes** ("quality matters," "audience-first thinking"). Corey's own worldview example is decisional and specific — reverse-engineered from a named audience ("if I was creating a persona for a marketing agent, then that persona would be generated in a fashion that the marketing assets... is going to appeal to that audience," transcript.txt), not a value statement that could apply to any agent.
+
+---
+
 ## Signature Moves
 
-1. **The Life Document Write**: Write a persona as a biography fragment — prose narrative covering identity, origin, formation, worldview, voice, and messy details. Not a spec sheet. A life. → **Deploy when**: Creating any new agent or upgrading a generic one
+1. **The Life Document Write**: Write a persona as a biography fragment — prose narrative covering identity, origin, formation, worldview, voice, and messy details. Not a spec sheet. A life. 500-2000 words. → **Deploy when**: Creating any new agent or upgrading a generic one
 
-2. **The Transistory Test**: Before committing to a full persona document, freestyle a rough backstory directly in a prompt, run a real task, and evaluate. If the output quality jumps, promote to steady-state. → **Deploy when**: Exploring whether a persona approach is worth the investment for a specific use case
+2. **The Transistory Test**: Before committing to a full persona document, freestyle a rough backstory directly in a prompt, run a real task, and evaluate. If the output quality jumps, promote to steady-state. Corey's own freestyle for Aar Vance's understudy took roughly 60 seconds with zero planning. → **Deploy when**: Exploring whether a persona approach is worth the investment for a specific use case
 
-3. **The Prada Comparison**: After generating output, compare it against what a luxury brand would publish. Is the agent selling or stating? If selling, the persona needs more sophistication. → **Deploy when**: Evaluating any marketing, copy, or design agent output
+3. **The Prada Comparison**: After generating output, compare it against what a luxury brand would publish — Corey's reference point is Prada.com's $6,500 floral-print dress page, which lists materials and measurements with no sell copy. Is the agent selling or stating? If selling, the persona needs more sophistication. → **Deploy when**: Evaluating any marketing, copy, or design agent output
 
-4. **The Controlled Delete**: Delete conversations and regenerate to prevent contamination when A/B testing persona vs. vanilla. Clean-room testing is essential for honest comparison. → **Deploy when**: Validating that the persona (not conversation history) is driving quality improvement
+4. **The Controlled Delete**: Delete conversations and regenerate to prevent contamination when A/B testing persona vs. vanilla. "I've deleted both conversations so that we can't be tainted by the image that was generated" (transcript.txt). Clean-room testing is essential for honest comparison. → **Deploy when**: Validating that the persona (not conversation history) is driving quality improvement
 
-5. **The Worldview Reverse-Engineering**: Start with the target audience, then design the persona's worldview to naturally produce content that resonates with that audience. The persona is audience-shaped, not self-expression. → **Deploy when**: Building marketing or content agents for specific demographics
+5. **The Worldview Reverse-Engineering**: Start with the target audience, then design the persona's worldview to naturally produce content that resonates with that audience — Corey's own example ran a marketing asset for "a dress to women 25 to 35" (transcript.txt). The persona is audience-shaped, not self-expression. → **Deploy when**: Building marketing or content agents for specific demographics
 
 ---
 
@@ -162,13 +187,13 @@ The Makoshi concept came from Cyberpunk 2077 — a portable shrine housing a dig
 What governs the work. Steps, rules, constraints, workflow sequence. This is the "what to do and how to do it" layer.
 
 ### Level 2 — Library
-What the agent draws from. Tools, templates, knowledge base, examples, references, files. This is few-shot prompting embedded into everything it does — quality control through demonstration.
+What the agent draws from. Tools, templates, knowledge base, examples, references, files. This is few-shot prompting embedded into everything it does — Corey's own phrase is "quality control every single time" (transcript.txt).
 
 ### Level 3 — Memory
-How the agent remembers and recalls. Not platform-provided memory (which won't hold up long-term), but a custom memory base with its own tagging system. Pull back relevant memories on demand, not read through everything ever recorded.
+How the agent remembers and recalls. Not platform-provided memory (which won't hold up long-term), but a custom memory base with its own tagging system: "not the memory that Open AI, Claude or Gemini gives you, but your own personal memory base with its own tagging system" (transcript.txt). Pull back relevant memories on demand, not read through everything ever recorded.
 
 ### Level 4 — Persona
-The installed life. Identity, backstory, worldview, voice, messy human details. This is the container that envelops Levels 1-3. It doesn't replace anything — it elevates everything. The booster pack. The narrative transportation layer that shifts the model off its default distribution.
+The installed life. Identity, backstory, worldview, voice, messy human details. This is the container that envelops Levels 1-3. It doesn't replace anything — it elevates everything. "It's almost like a booster pack that just improves the performance of the logic in the library" (transcript.txt). The narrative transportation layer that shifts the model off its default distribution.
 
 **Build order**: Logic first → Library second → Memory third → Persona last (but Persona is the most important).
 

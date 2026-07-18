@@ -177,6 +177,15 @@ Set the cadence based on agent usage:
 
 ---
 
+## Output Schema
+
+Two artifacts, both append-only:
+
+1. **Evolution Log Entry** — appended to `agents/[name]/memory/evolution-log.md` using the `## Evolution [N] — [Date]` template from Phase 5: Trigger, Changes Made (per LLMP layer), Before/After Scores table, Regression Status checklist, Next Evolution Triggers. Never overwrite prior entries.
+2. **Gap/Regression Notes** — `agents/[name]/memory/evolution-[N]-gaps.md` (Phase 2 gap-targeted extraction) and `agents/[name]/memory/evolution-[N]-regression.md` (Phase 4 A/B comparison results), one pair per evolution cycle.
+
+Full artifact map: see the `## Output Artifacts` table below.
+
 ## Quality Gate
 
 Evolution is complete when:

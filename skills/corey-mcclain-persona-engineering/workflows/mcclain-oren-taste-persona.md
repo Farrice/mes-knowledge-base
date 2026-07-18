@@ -103,6 +103,13 @@ Apply Oren's Pattern 3 — force the persona to confront its own limitations:
 
 ---
 
+## Output Schema
+
+Two linked artifacts:
+
+1. **CEV Taste Card** (Step 2) — Composition / Effectivity / Vibe, each with named reference works, plus Category Archaeology (lineage, movements, antagonists — Step 3).
+2. **Taste-Calibrated Persona** — full narrative persona document (via `/mcclain-persona-forge`) with Aesthetic Origin and Taste Scars woven into the backstory, worldview rewritten as taste convictions (not generic quality platitudes), voice using clinical discernment (no vague quality words), plus documented Gap Confrontation results (Step 5) and the three validation scores from Step 6 — Prada Test (state/sell), Blind CEV Audit (3 scores, each ≥7/10), Canon Proximity Test (≥7/10).
+
 ## Quality Gate
 
 Before marking complete:

@@ -113,6 +113,20 @@ Document the ongoing improvement protocol:
 
 ---
 
+## Output Schema
+
+A **5-layer agent stack**, five files/directories:
+
+| File | Layer | Content |
+|---|---|---|
+| `logic.md` | Logic | Router prompt + workflow + rules + gates (Step 2) |
+| `library/` | Library | Templates, exemplars, references, tool configs (Step 3) |
+| `memory/` | Sovereign Memory | Episodic tier (90-day raw logs), Semantic tier (decay-scored patterns), Procedural tier (permanent configs) — schema + decay parameters (Step 4) |
+| Compression Map | — | Token budget allocation across Logic/Library/Memory only — **never** applied to Persona (Step 5) |
+| `persona.md` | Persona | 500-2000 word narrative life document, extended with learning posture / memory philosophy / growth arcs (Step 6) |
+
+Plus documented results for: vanilla comparison, 3-session memory persistence test, 5-task compression parity test, 5-task identity consistency test (Step 7), and the Compound Maintenance Plan (Step 8).
+
 ## Quality Gate
 
 Before marking complete:
