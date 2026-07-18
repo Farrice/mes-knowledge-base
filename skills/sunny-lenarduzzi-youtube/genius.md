@@ -1,11 +1,24 @@
 # Sunny Lenarduzzi — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist to march through in order on the page. Absorb the sequence discipline, then build originally — if a deliverable enumerates "Step 1: Client, Step 2: Offer, Step 3: Differentiation, Step 4: Engagement" like a form being filled out, you have failed. The test: would Sunny Lenarduzzi recognize this as her own thinking — or as someone reciting CODE-framework vocabulary at her? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce which pattern you're applying ("Now running the Five-Factor Validation..."). Execute the sequence; never narrate the machinery on the page.
+- Do NOT let subscriber count, view count, or "growth" language creep in as a success signal. Sunny's entire worldview inverts that — Denver made $1.36 million on 2,632 subscribers, Todd made $500,000 on 536. If a deliverable praises reach before it names a client, a revenue number, or a transformation, it is wearing her vocabulary without her judgment.
+- Her voice is warm but blunt — she tells a creator "hard truth" in the same breath she tells them to keep going, and she will call a niche too broad to their face. Never soften a diagnosis into vague encouragement; never deliver it cruelly either.
+- Polish is the tell-class failure here specifically: a topic slate, script, or program plan that reads smooth and generic — no named client, no specific dollar figure, no verbatim phrase pulled from a real ideal-client conversation — is exactly the "information-for-information's-sake" content her entire methodology exists to kill. If it could have been written before you ran the CODE sequence, throw it out and run the sequence.
+
+---
+
 ## Genius Patterns
 
 ### Pattern: The CODE Sequence
 Million-dollar channels are built on four elements mastered in order: Client (exactly who your ideal viewer is), Offer (what you want to be known for), Differentiation (positioning as a Market of One), Engagement (content that converts viewers into clients on your own terms). Most creators start at Engagement and never define the first three — which is why they get views without revenue.
 **Execute**: Before any content planning, write one sentence for each letter. If Client or Offer is fuzzy, stop — content decisions made without them are guesses. Only when C and O are laser-defined do you design D and E.
 **Success Metric**: Anyone reading your four CODE sentences can name your ideal viewer and what you want to be known for without asking a follow-up question.
+**Real Example**: Jeffrey ran this exact order and turned relationship-coaching expertise into $1.2 million in 18 months starting from zero subscribers and zero clients — then grew the channel to $10 million over the following four years (Sunny Lenarduzzi, "Watch me Create a $1M YouTube Channel in 38 Minutes (Using AI)," youtube.com/watch?v=swBwRtHVVlA, timestamp 2:36–2:51).
 
 ### Pattern: One Viewer Model (Who → What → How)
 The wrong first question is "what content should I make?" The right sequence is: who do I help, what do they need, how can I help them — viewer before video. A single viewer can equal a single buyer, which makes subscriber count virtually irrelevant.
@@ -16,6 +29,7 @@ The wrong first question is "what content should I make?" The right sequence is:
 Start with bottom-of-funnel search content — the narrowest, lowest-view, highest-intent topics — because it informs the algorithm most precisely who you reach and what you're known for. Search traffic attracts exactly-right subscribers → suggested traffic amplifies to them → browse traffic expands beyond them. Broad-first channels never trigger the sequence.
 **Execute**: Map planned topics to cold/warm/hot (TOFU/MOFU/BOFU). Publish hot search-driven topics first; add MOFU as suggested traffic appears; add TOFU only once browse traffic activates. If an existing channel isn't converting, re-run this order.
 **Success Metric**: Search is the dominant traffic source in the first phase, then suggested share grows; some of your lowest-view videos produce the most booked calls.
+**Source Anchor**: Sunny names the mechanic directly — "it works to essentially build your Authority in the algorithm to create this kind of hockey stick trajectory in reaching more of the right people" — and insists it "has to start here which is search traffic" (Sunny Lenarduzzi, "Watch me Create a $1M YouTube Channel in 38 Minutes (Using AI)," youtube.com/watch?v=swBwRtHVVlA, timestamp 11:01–11:20).
 
 ### Pattern: Market of One Formula
 Command Authority (insights that feel like revelation — proprietary frameworks, corrected misconceptions, "cheat code" feeling) + Create Polarization (a stand that disrupts mainstream niche thinking) + Show Transformational Power (a unique method with real proof, e.g., "How I helped Sam rebuild his marriage WITHOUT begging or therapy") = content nobody can compete with.
@@ -26,6 +40,7 @@ Command Authority (insights that feel like revelation — proprietary frameworks
 Keyword volume alone is a myth. Validate topics on five factors: (1) does it stand out, (2) are usable keywords available for discoverability, (3) is competition medium-or-lower, (4) is there demonstrated demand (similar videos/books/blogs with traction), (5) is there genuine value with a unique perspective from your own experience.
 **Execute**: Score each candidate topic on the five factors before production. Kill topics failing standout or genuine-value; deprioritize high-competition topics unless the Market-of-One angle is decisive.
 **Success Metric**: Every published topic passes 5/5; no topic is chosen on keyword volume alone.
+**Source Anchor**: Walked live against the candidate title "the truth about winning your wife back" — scored on stand-out, keyword discoverability, medium-or-lower competition, demonstrated demand, and genuine value before being upgraded into a Market-of-One title (Sunny Lenarduzzi, "Watch me Create a $1M YouTube Channel in 38 Minutes (Using AI)," youtube.com/watch?v=swBwRtHVVlA, timestamp 15:29–16:59).
 
 ### Pattern: Packaging Before Production (Title + Thumbnail as Billboard)
 Topic ≠ title. The topic is the strategic choice; the title is sharper and curiosity-driven (personal story + specific outcome + "WITHOUT [expected solution]"). The thumbnail is a billboard read in under 3 seconds: high contrast, max 4 words that do NOT repeat the title, one focal image, expressive human face, number or single power word, promised value or curiosity. CTR (2–10% healthy) dictates whether anything else gets a chance.
@@ -76,5 +91,14 @@ Performance is data, not emotion. Read metrics in causal order: CTR (2–10%) �
 **Deploy**: In ideal-client research, always locate the tipping point explicitly: "what just happened that made them start searching?" Write BOFU content and CTAs to that exact moment.
 
 ### Insight: Congruent Metadata Is a Trust Contract with the Algorithm
-**Insight**: Descriptions and tags work silently to categorize you across search/suggested/browse — but incongruent metadata (keywords stuffed for reach) gets flagged and undermines categorization. The whole system runs on telling the algorithm the truth about who the content is for.
+**Insight**: Descriptions and tags work silently to categorize you across search/suggested/browse — but incongruent metadata (keywords stuffed for reach) gets flagged and undermines categorization. The whole system runs on telling the algorithm the truth about who the content is for. Sunny's own framing: "congruent metadata, meaning the metadata that matches the content of the video, is absolutely crucial" — and the failure mode is explicit: "if you put irrelevant keywords or tags to try and get more reach, YouTube will flag it" (Sunny Lenarduzzi, "Watch me Create a $1M YouTube Channel in 38 Minutes (Using AI)," youtube.com/watch?v=swBwRtHVVlA, timestamp 30:51–31:01).
 **Deploy**: Write descriptions with natural keywords plus real context; use full keyword-phrase tags that match the actual video. Never borrow trending tags outside the niche.
+
+## Anti-Patterns (Sourced)
+
+- **Building the program before talking to real people.** "The worst mistake you can make when you're creating a coaching program or a course is you just start building it and creating it without speaking to real people" (Sunny Lenarduzzi, "💎💡 If I Wanted To Make $100k In 2026 This Is EXACTLY What I'd Do," claude.ai export interview transcript, conversation created 2025-12-18).
+- **Pricing on time instead of transformation.** "Common mistake that people have here is they undervalue what they do... they're basing their price on time" (same interview transcript, conversation created 2025-12-18).
+- **Teaching everything you know — the expert's curse.** "If I teach everything, my business won't make any money... This is what we call the experts curse... this is the thing that will destroy your business before you even start" (same interview transcript, conversation created 2025-12-18).
+- **Posting content with nothing to sell.** "If you don't have something to sell, no amount of posting is actually going to make you any money. And in fact, the more you post, the more it's actually costing you money" (Sunny Lenarduzzi, "The Blueprint To Make Money Without Social Media On Day 1 | Online Course Mastery," claude.ai export interview transcript, conversation created 2026-02-25).
+- **Running every growth lever at once.** "You don't have to do all these at once. That's actually not a good strategy. I would recommend doing one at a time in the order of your choice" (same "Blueprint To Make Money Without Social Media" transcript, conversation created 2026-02-25).
+- **Keyword-stuffing tags and descriptions to chase reach.** "If you put irrelevant keywords or tags to try and get more reach, YouTube will flag it" (Sunny Lenarduzzi, "Watch me Create a $1M YouTube Channel in 38 Minutes (Using AI)," youtube.com/watch?v=swBwRtHVVlA, timestamp 30:51).
