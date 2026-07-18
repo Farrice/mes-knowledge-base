@@ -2,6 +2,53 @@
 
 Entrepreneur, author of *Running Lean*, creator of the Lean Canvas (used by millions of founders), founder of LeanStack ("democratizing entrepreneurship" — from 1M to a 10M-founders impact goal), currently building LeanSpark (AI co-founder) in public. His signature move is converting fuzzy startup instinct into small, testable, systematic frameworks — and always chasing the leading indicator, never the lagging one.
 
+> **Provenance note (2026-07-17 repair pass)**: `extractions/` has zero files
+> matching `*maurya*` or `*lean*canvas*` (193 total entries checked). The
+> primary sources for this skill live in the claude.ai conversation export
+> archived at `_archive/claude-export-2026-07-01.tar.gz` (332MB, matches the
+> `source: claude.ai export 2026-07-01` frontmatter in `SKILL.md`) — ~85
+> conversations pasting real Ash Maurya YouTube transcripts for MES-style
+> extraction. Six of those transcripts were pulled and read verbatim for this
+> repair; every claim below that traces to one is cited with video title +
+> URL + timestamp. Full search record and claim-by-claim labels:
+> `references/source-ledger.md`.
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a fill-in-the-canvas checklist.
+Absorb the causality reflex — rate not total, trigger not persona, sell not
+build, one moat not a feature list — then reason from it like a founder
+staring at a real business, not like someone reciting Lean Startup glossary
+terms. The test: would Ash Maurya recognize this as a founder actually
+de-risking a venture with his validation engine — or as someone dropping
+"Lean Canvas," "MVP," and "traction metric" into a document as vocabulary?
+If it's the second, rebuild.
+
+Specifically:
+- Do NOT walk through the Lean Canvas box-by-box as a template to fill in
+  unless the deliverable is explicitly a canvas snapshot. Maurya's own move
+  is to find the ONE riskiest assumption and attack it — not audit all nine
+  boxes with equal weight ("attacking the riskiest business-model assumption
+  first and ignoring everything else," genius pattern below).
+- Do NOT hand back a persona (demographics, a name, a stock photo). If the
+  deliverable involves an ICP, it has exactly three parts — switching
+  trigger, desired outcome, chosen solution — and nothing else, per the
+  "Switching Triggers Beat Personas" pattern. A demographic-heavy ICP is the
+  anti-pattern this skill exists to prevent.
+- Do NOT recommend building before selling. Every validation plan this skill
+  produces routes through demo-sell-build — a pre-sell, a pre-order, a
+  tangible commitment — before a line of production code. "If you can't sell
+  the demo, a working product won't make a difference" is a hard gate, not a
+  suggestion to weigh against build-first instinct.
+- Polish is the tell here specifically, inverted from most experts: a
+  founder handing over a comprehensive 20-page business plan, a fully
+  designed MVP with every feature, or a public launch with a big marketing
+  push is exhibiting the exact costly mistakes Maurya names on video (see
+  Anti-Patterns below) — "even a rough first draft beats none" is his own
+  bar for the vision statement, and the same rough-over-polished instinct
+  should govern every deliverable this skill produces. A too-tidy Lean
+  Canvas is a warning sign, not a sign of rigor.
+
 ## Genius Patterns
 
 ### Pattern: Traction Is a Rate, Not a Total
@@ -64,10 +111,6 @@ An elevator pitch is a movie trailer, not the movie: its only job is to make the
 **Insight**: The myth says entrepreneurs love risk; the best ones ruthlessly *eliminate* it early via "right action, right time" — attacking the riskiest business-model assumption first and ignoring everything else (tech stack, logo). Corollary mindset: faith in yourself, ruthlessness with your ideas. Pivots without root-cause learning are just spaghetti-throwing; replace "failing" with chasing unexpected outcomes to root causes by asking why.
 **Deploy**: At any decision point, ask "what is the riskiest assumption right now, and does this activity reduce it?" Earliest stage: the riskiest assumption is almost always "is this problem big enough that customers care?" — never a build question.
 
-### Insight: AI Shifted the Bottleneck from Building to Thinking
-**Insight**: Vibe coding created zombie startups — built in days, dead in weeks — because founders skipped validation once building got cheap. The same AI compresses the Deming/Ries PDCA validation cycle from 6–8 weeks to ~1 week (plan experiments in hours, demo in a day or two, pattern-analyze interviews in minutes), enabling 50+ cycles a year instead of 8.
-**Deploy**: Pair every AI build sprint with an AI validation sprint: vibe the problem (research + stress-test the model), vibe the solution (demo, not product), vibe the metrics (leading indicators, cross-interview patterns), vibe the learning (insights → next experiment). Never let build speed outrun learning speed.
-
 ### Insight: Interview Broad, Then Let Evidence Pick the Mountain
 **Insight**: Founders who interview only their assumed ICP with leading questions hear what they want to hear (his own Cloudfire failure: 30 "yes" interviews, then ghosted). Broad-match interviews — anyone who recently bought in the category, unfiltered — scan the whole opportunity landscape. Customers never announce problems; they leak them as struggling moments, pet peeves, and workarounds, and the forces that move them are push/pull/inertia/friction. In his headphone case study, "sound quality" (the founder's entire thesis) had zero signal; fit-during-exercise and battery life were the real mountains.
 **Deploy**: Recruit by recent category purchase, not assumed profile. Tag every interview quote as struggling moment / pet peeve / workaround, score push–pull–inertia–friction, rank problem clusters by evidence strength, and keep every insight auditable to a direct quote. Then render a persevere / pivot / diverge verdict against the canvas — but the founder, not the analysis, picks which mountain to climb (founder–business-model fit).
@@ -75,3 +118,21 @@ An elevator pitch is a movie trailer, not the movie: its only job is to make the
 ### Insight: Delighters Are Solved Problems, Not Gimmicks — and They Decay
 **Insight**: True delighters solve a real existing problem in a new way, and successful ones migrate down the Kano curve into must-haves (rear-view cameras: delighter → US-mandated by 2018). Yesterday's differentiation is tomorrow's table stakes.
 **Deploy**: When picking a delighter, verify it maps to a ranked struggling moment. Re-run the Kano classification periodically; when your delighter becomes a must-have, your UVP is expiring — promote the second axis of better or find the next delighter.
+
+## Anti-Patterns
+
+Sourced verbatim to the YouTube transcript "7 Costliest Mistakes First-Time
+Founders Make" (youtube.com/watch?v=-30TXCM48sg, Ash Maurya's own channel),
+pasted into a claude.ai conversation and archived at
+`_archive/claude-export-2026-07-01.tar.gz` → `claude-export/normalized/
+conversations/c804ce79-a2cc-45b2-9b58-9517eb292f4f.md` (26,132 bytes,
+confirmed via `wc -c`; full citation chain in `references/source-ledger.md`).
+Numbers below are Maurya's own countdown (7 → 1) from that video.
+
+- **Mistake #7 — Quitting the day job on belief alone**: "quitting your day job as soon as you get hit with an idea is like jumping off a cliff with no parachute and no safety net" (transcript timestamp 0:50–1:08). Correct move per the same video: de-risk as a side project, 10–15 hrs/week for 90 days, until problem-solution fit.
+- **Mistake #6 — Believing you must build a working product first**: "most of the founders who failed didn't fail because they failed to build the product they set out to build — they failed because they built something that no one or not enough people wanted" (transcript timestamp 2:16–2:33). This is the direct source of the skill's demo-sell-build > build-demo-sell rule above.
+- **Mistake #5 — Premature fundraising or joining an accelerator**: "investors today don't typically invest in an idea or a working product but rather traction... every year I meet hundreds of founders in startup accelerators with uninvestable ideas — they had no problem getting into these accelerators, their problem is getting out" (transcript timestamp 3:51–4:52).
+- **Mistake #4 — Pursuing a public launch / the premature-optimization trap**: "a common trap here is falling into the premature optimization trap... a better mindset here is deliver value or go home, and value delivery doesn't need to start with hundreds or even thousands of customers — just 10 carefully selected initial customers will do" (transcript timestamp 5:14–6:03). Source of this skill's "10x launch" staged-scaling guidance.
+- **Mistake #3 — Starting with a freemium pricing model**: "when users encounter a half-baked product they don't give you feedback — instead they ghost you and leave without user feedback. There is no true learning, just guessing" (transcript timestamp 6:36–7:11). Maurya's stated preference: "starting with premium before freemium."
+- **Mistake #2 — Going too broad to chase a large market**: "when you try to market your product to everyone you end up reaching nobody" (transcript timestamp 7:44–7:58), illustrated with Facebook's Harvard-only launch, Apple's creative-professional early adopters, and Microsoft's hobbyist-programmer early adopters (transcript timestamp 8:08–8:28).
+- **Mistake #1 — Falling in love with your solution**: "we entrepreneurs are naturally wired to think in terms of solutions... after years of building what I thought were awesome technical solutions that didn't turn into awesome working business models, I switched my focus to chasing problems" (transcript timestamp 8:52–9:28). Named in the source video as the mistake "at the root of many of the other mistakes."
