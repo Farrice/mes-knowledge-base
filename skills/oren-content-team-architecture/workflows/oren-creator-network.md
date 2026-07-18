@@ -162,7 +162,7 @@ PIPELINE: [N creators in onboarding]
 
 ---
 
-## Output — Creator Network Blueprint
+## Output Schema — Creator Network Blueprint
 
 ```
 BRAND: [Name]
@@ -185,6 +185,16 @@ Phase 1: [N creators by date]
 Phase 2: [N creators by date]
 Phase 3: [N creators by date]
 ```
+
+---
+
+## Quality Gate
+
+- [ ] Sourcing channels are ranked by expected yield (Step 2 tiers), not listed alphabetically
+- [ ] Every creator brief includes hook, do's, don'ts, and payment amount (Step 4 template) — incomplete briefs get rejected before sending
+- [ ] The Test Assignment outcome (Approve / Revise / Decline) is a real decision recorded per creator, never left pending
+- [ ] Creator Scorecard grade (A-D) matches its own stated criteria — an A-grade creator must carry an "increase volume/retainer" recommendation
+- [ ] Scaling plan phases each carry a creator-count target AND a date — never one without the other
 
 ---
 

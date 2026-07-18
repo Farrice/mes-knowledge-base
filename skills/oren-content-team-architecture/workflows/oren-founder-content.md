@@ -166,7 +166,7 @@ The founder's content acts as the brand's "anchor show" — the narrative backbo
 
 ---
 
-## Output — Founder Content Identity Document
+## Output Schema — Founder Content Identity Document
 
 ```
 FOUNDER: [Name]
@@ -194,6 +194,16 @@ PRODUCTION PROTOCOL:
 FLYWHEEL INTEGRATION:
 [How founder content connects to each flywheel node]
 ```
+
+---
+
+## Quality Gate
+
+- [ ] Founder archetype (primary + secondary) is grounded in Step 1 answers, never assumed from role title alone
+- [ ] Content formats prescribed match the stated comfort level (1-10) — never prescribe High Comfort (8-10) formats to a founder scored 1-4
+- [ ] Production block never exceeds the 90-minute ceiling defined in Step 5
+- [ ] Content pillar percentages sum to 100% (30/30/20/20 default, adjustable but must total)
+- [ ] Flywheel Integration section names all 6 nodes from Step 6, not a subset
 
 ---
 

@@ -97,7 +97,7 @@ Produce the top 3 fixes in priority order with full implementation detail.
 
 ---
 
-## Step 6: Output — Flywheel Map
+## Step 6: Output Schema — Flywheel Map
 
 Produce:
 ```
@@ -129,6 +129,16 @@ BUDGET REALLOCATION:
 → Kill: [What to stop spending on]
 → Shift: [Where to redirect those dollars]
 ```
+
+---
+
+## Quality Gate
+
+- [ ] All 5 nodes AND all 5 connections are scored 1-5 — no node left blank
+- [ ] Every connection scoring below 3 carries a Step 4 gap diagnosis (what's broken, why it matters, the fix, owner, timeline)
+- [ ] Top 3 fixes are ranked by revenue impact and implementation speed, not listed in discovery order
+- [ ] Budget reallocation names both a "kill" AND a "shift" — never one without the other
+- [ ] Flywheel health score is a real X/25, not a placeholder
 
 ---
 

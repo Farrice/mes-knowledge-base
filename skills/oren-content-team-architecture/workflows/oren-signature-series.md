@@ -154,7 +154,7 @@ Metrics to evaluate:
 
 ---
 
-## Step 6: Output — Series Architecture Document
+## Step 6: Output Schema — Series Architecture Document
 
 ```
 SELECTED SERIES: [Title]
@@ -183,6 +183,16 @@ PILOT PLAN:
 ALTERNATIVE CONCEPTS:
 [Runner-up concepts preserved for future development]
 ```
+
+---
+
+## Quality Gate
+
+- [ ] Selected concept carries the highest weighted score from the Step 3 rubric, not just the most-liked idea in the room
+- [ ] Pilot plan commits to exactly 4-6 episodes with a decision gate — never open-ended
+- [ ] Decision gate applies the stated thresholds (Continue if +20%, Adjust if at baseline, Kill if below with no positive signal) — no ad hoc verdict
+- [ ] Series bible's "Never" list is populated, not left blank — editorial guardrails require both Always and Never
+- [ ] Runner-up concepts are preserved in the output for future development, not discarded
 
 ---
 

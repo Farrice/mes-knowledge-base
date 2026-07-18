@@ -130,7 +130,7 @@ For each concept, the brief must include:
 
 ---
 
-## Step 6: Output — Operating Rhythm Document
+## Step 6: Output Schema — Operating Rhythm Document
 
 ```
 POD: [Name]

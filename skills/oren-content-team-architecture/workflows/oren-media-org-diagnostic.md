@@ -72,7 +72,7 @@ For each gate scoring below 3, generate:
 
 ---
 
-## Step 5: Output — Readiness Scorecard
+## Step 5: Output Schema — Readiness Scorecard
 
 Produce a single-page scorecard:
 
@@ -95,6 +95,16 @@ TOP 3 GAPS:
 RECOMMENDED NEXT WORKFLOW:
 → [Specific workflow from this skill domain]
 ```
+
+---
+
+## Quality Gate
+
+- [ ] All 5 gates scored 1-5 with cited evidence, never assumed from a single answer
+- [ ] Overall readiness score correctly maps to the Step 3 tier band (5-10 iPhone / 11-18 Mid / 19-25 Enterprise)
+- [ ] Every gate scoring below 3 carries a Step 4 gap-roadmap entry (gap, remediation, timeline, dependency)
+- [ ] Gate 2 (Patience Capacity) only passes with a WRITTEN commitment to a 90-day sprint — a verbal one fails the gate
+- [ ] Recommended next workflow is named specifically, never left generic ("more work needed")
 
 ---
 

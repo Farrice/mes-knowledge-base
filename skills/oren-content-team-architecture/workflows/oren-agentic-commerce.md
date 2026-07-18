@@ -154,7 +154,7 @@ USER-GENERATED CONTENT CAPTURE:
 
 ---
 
-## Step 6: Output — Commerce Integration Blueprint
+## Step 6: Output Schema — Commerce Integration Blueprint
 
 ```
 BRAND: [Name]
@@ -195,6 +195,16 @@ BUDGET:
 ├── Implementation: $[N] one-time
 └── Ongoing operations: $[N]/month
 ```
+
+---
+
+## Quality Gate
+
+- [ ] All 3 layers (Tagging, AI Discovery, Autonomous Checkout) state BOTH current state and target — never target-only
+- [ ] Content-attributed revenue is a real number or explicitly flagged "unknown" — never left blank
+- [ ] The AI shopping agent's "Cannot" boundaries are named (no unauthorized discounts, no off-catalog promises)
+- [ ] Post-purchase sequence covers Day 0 through Day 60, not just the unboxing moment
+- [ ] Every layer carries a timeline in weeks, not "TBD"
 
 ---
 

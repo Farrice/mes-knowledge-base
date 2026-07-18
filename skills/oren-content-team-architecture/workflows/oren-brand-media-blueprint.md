@@ -70,7 +70,7 @@ Establish:
 
 ---
 
-## Step 3: Milestone Tracker
+## Step 3: Output Schema — Milestone Tracker
 
 Produce a living document:
 
@@ -119,6 +119,16 @@ For the top 5 transformation risks, pre-build the response:
 3. **Content quality drifts** → Weekly creative review is non-negotiable (Pattern 5)
 4. **Agency resists the model** → Evaluate against Pattern 12 criteria; replace if needed
 5. **Leadership demands ROI at Day 14** → Educate on the 90-day commitment (Pattern 3, Gate 2)
+
+---
+
+## Quality Gate
+
+- [ ] Phase 1 gate (10 concepts/week at quality) is confirmed before Phase 2 begins — no skipping ahead on the tracker
+- [ ] Each of the 3 phases carries a dated gate check, not just a deliverable checklist
+- [ ] The 90-day patience commitment (Pattern 3) is cited by name in the Step 4 risk-mitigation entry for "leadership demands ROI at Day 14"
+- [ ] Pod 2 decision at the end of Phase 3 is a stated Y/N with rationale, never left open
+- [ ] Founder weekly-hours commitment captured in Step 1 is still true by the Phase 3 founder-content gate check
 
 ---
 

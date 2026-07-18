@@ -123,7 +123,7 @@ For each hire, specify:
 
 ---
 
-## Step 5: Output — Pod Architecture Blueprint
+## Step 5: Output Schema — Pod Architecture Blueprint
 
 Produce a single artifact:
 
@@ -144,6 +144,16 @@ WEEKLY OUTPUT TARGET: [N concepts × N pods]
 GEAR BUDGET: [List]
 PM TOOL: [Recommendation]
 ```
+
+---
+
+## Quality Gate
+
+- [ ] Pod design matches the org's actual tier (iPhone/Mid/Enterprise) from Step 1 — never over-architect a 0-1 person team into a multi-pod structure
+- [ ] Hiring sequence never places Creator before Strategist (Step 4's non-negotiable rule)
+- [ ] Every role spec includes compensation range and reporting line — no role left undefined
+- [ ] Output target is stated as concepts/week × number of pods, matching the 10-concept floor from Pattern 6
+- [ ] Gear budget matches the tier's gear ceiling (iPhone + Osmo + Amaran 300s for iPhone-tier — never RED/Arri per Pattern 11)
 
 ---
 

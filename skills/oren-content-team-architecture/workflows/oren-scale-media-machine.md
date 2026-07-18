@@ -147,7 +147,7 @@ WEEK 9-12: Normalization
 
 ---
 
-## Step 6: Output — Scaling Blueprint
+## Step 6: Output Schema — Scaling Blueprint
 
 ```
 BRAND: [Name]
@@ -183,6 +183,16 @@ BUDGET IMPACT:
 READINESS GATES:
 [All gates from Step 1 with current status]
 ```
+
+---
+
+## Quality Gate
+
+- [ ] All 9 readiness-checklist gates from Step 1 are checked before Pod 2 design begins — scaling a broken pod is explicitly banned
+- [ ] Pod 2 type (Platform/Audience/Product/Founder) carries a stated rationale tied to a demand signal, not a preference
+- [ ] Resource-sharing handoff protocol names hours/week allocation per pod, never "TBD"
+- [ ] 12-week timeline includes the Week 7-8 pilot phase before Week 9-12 normalization — no skipping the pilot
+- [ ] Budget impact breaks out new hires, shared-resource scaling, and tools/infrastructure as separate line items
 
 ---
 

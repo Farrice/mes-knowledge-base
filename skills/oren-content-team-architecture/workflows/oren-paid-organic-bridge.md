@@ -144,7 +144,7 @@ If the agency reports on campaign-level metrics but can't tell you which specifi
 
 ---
 
-## Step 6: Output — Bridge Protocol Document
+## Step 6: Output Schema — Bridge Protocol Document
 
 ```
 BRAND: [Name]
@@ -172,6 +172,16 @@ AGENCY INTEGRATION:
 ├── Creative handoff: [Format/tool]
 └── Performance feedback: [Format/cadence]
 ```
+
+---
+
+## Quality Gate
+
+- [ ] Graduation criteria cite one of the 3 stated metrics (top 20% engagement / high save rate / strong comment sentiment) — never a vague "good performance"
+- [ ] Monthly creative volume target matches the Step 4 spend-tier table ($10K-$25K = 20-30 concepts, up through $100K+ = 80+)
+- [ ] All 5 kill criteria thresholds are carried into the output document verbatim, not paraphrased
+- [ ] Test hierarchy in the output follows the stated order (Hook > Format > CTA > Audience > Platform)
+- [ ] Agency Red Flag section is answered explicitly whenever an agency manages paid media
 
 ---
 

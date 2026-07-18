@@ -122,7 +122,7 @@ For each dimension below target, produce:
 
 ---
 
-## Step 6: Output — Audit Scorecard
+## Step 6: Output Schema — Audit Scorecard
 
 ```
 BRAND: [Name]
@@ -154,6 +154,16 @@ TEAM RECOMMENDATION:
 RECOMMENDED WORKFLOWS:
 → [Specific next workflows to run]
 ```
+
+---
+
+## Quality Gate
+
+- [ ] All 6 dimensions scored 1-5 against the Step 2 rubric — no gut-feel numbers without the scoring criteria cited
+- [ ] Agency Red Flags section is addressed explicitly whenever an agency is in scope — never silently skipped
+- [ ] Root cause diagnosis maps to a named entry in the Step 4 Common Root Causes list, not a generic explanation
+- [ ] Every fix in the Optimization Plan names the specific Oren workflow that addresses it (Step 5, item 6)
+- [ ] Team Recommendation covers all 5 categories (Keep/Restructure/Hire/Replace/Eliminate), even where the answer is "none"
 
 ---
 

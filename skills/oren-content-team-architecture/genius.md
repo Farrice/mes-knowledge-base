@@ -4,6 +4,17 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are org-design intuition, not an org chart to fill in mechanically. Absorb them, then design originally for the brand in front of you. The test: would Oren recognize this as a media company he'd actually staff — or as someone reciting "pod," "flywheel," and "signature series" as vocabulary? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label a deliverable "Pattern 1 applied" or enumerate which patterns you used unless asked — execute the pod logic, never announce the machinery.
+- Do NOT hand back a generic org chart with roles renamed "Strategist" and "Creator." The pod split is a division of cognitive labor (brief-and-analyze vs. shoot-and-edit), not a title swap — if the deliverable would work with "Manager" and "Editor" substituted in, it hasn't actually applied the principle.
+- His texture is operator-blunt, not consultant-polished: exact numbers (10 concepts/week, 90-day patience, 60-day hook decay, $10K-$100K spend tiers), named brand exemplars (Represent, Flamingo Estate, Cheese Store of Beverly Hills), and named failure modes, never vague "best practices." Polish without a number attached is the tell that the machinery leaked through instead of the judgment.
+
+---
+
 ## Pattern 1: The Pod Architecture Principle
 
 **The minimum viable content unit is TWO people, not one. A solo "social media manager" is a structural failure.**
@@ -55,6 +66,8 @@ Before an org can become a "media company," it must pass five gates:
 
 **The social show trap**: Social shows are the hot format right now, but they FLOP when the org hasn't mastered the content-first foundation. A social show is a tool you deploy once you know how to make great content — not a shortcut to learn.
 
+Test episodes run the same 90-day patience clock as the Media Company Diagnostic (Pattern 3) — a signature series abandoned before day 90 on 4-6 pilot episodes is a false negative, not a failed format.
+
 ---
 
 ## Pattern 5: The Pod Cadence System
@@ -72,6 +85,8 @@ Before an org can become a "media company," it must pass five gates:
 **The Friday Recap is non-negotiable.** The strategist recaps all pod output to management and the broader team. This is how the organization develops visibility into the media machine and how leadership stays connected without micromanaging.
 
 **Project management tool**: Notion, ClickUp, Monday, Asana — the tool doesn't matter. Having a tool does. Content production without a PM layer creates invisible bottlenecks.
+
+This is the operating rhythm that has to sustain the 10-Asset Weekly Standard (Pattern 6) — the five weekly meetings exist to protect that output floor, not to generate meeting overhead for its own sake.
 
 ---
 
@@ -115,7 +130,7 @@ This is the minimum viable output. Larger pods scale this through external contr
 2. **Influential Customers** — Discovered via tools like Outer Signal, which scans the existing customer base for people with social influence. These are warm leads — they already use the product. Offer to pay them to create content they'd almost make anyway.
 3. **Collaborative Partners** — Like Dark Room co-posting carousels with Oren. Mutual benefit, shared audiences, collab-posted content that grows both accounts.
 
-**Strategist workload**: One strategist can manage up to 5 external relationships alongside their internal creator. Beyond 5, the briefing and coordination overhead creates quality degradation.
+**Strategist workload**: One strategist can manage up to 5 external relationships alongside their internal creator. Beyond 5, the briefing and coordination overhead creates quality degradation — the same per-strategist ceiling that caps internal pod scaling in Pattern 1's "1 internal creator + 3-5 external contributors" law. A strategist running the full "Paid Micro-Creators," "Influential Customers," and "Collaborative Partners" mix simultaneously is already at capacity.
 
 ---
 
@@ -132,6 +147,8 @@ Represent is the gold standard: George (charismatic leader, front-of-house story
 
 **Failure mode**: Treating founder content as "extra" rather than central. In the content-first era, the founder's face and story IS the brand's most defensible asset.
 
+A founder running only the "core brand account — polished, lifestyle, lookbooks" layer without the "founder personal account" layer has built half the architecture — Pattern 9 names the personal layer the more important half, not an optional add-on.
+
 ---
 
 ## Pattern 10: The Anchor Strategy Framework
@@ -145,6 +162,8 @@ Represent is the gold standard: George (charismatic leader, front-of-house story
 5. **Events** — Brand trips, activations, cultural moments (Kosis brand trips, Merit's branded Vespa deliveries during Paris Fashion Week)
 
 **You only need 1-2 anchors.** Not all five. The anchor is what makes YOUR content world impossible to replicate — what competitors cannot copy because it's tied to your specific people, places, or assets.
+
+The five anchor types — "Fame," "Influence," "Story," "Production Elements," "Events" — map directly onto the Tiered Brand Exemplar Matrix (Pattern 7): Flamingo Estate anchors on Story + Production Elements (the physical property), Merit anchors on Events (the Paris Fashion Week Vespa deliveries).
 
 ---
 
@@ -204,6 +223,8 @@ The agency must understand the creator flywheel — the media company component,
 | Brand voice for all pod output | Ghostwriting Voice Engine | `/voice-document` |
 | Agency partner evaluation | Luke Iha Client Mastery | `/client-conversion` |
 
+9 stacking combinations documented above; each pairs a specific Pattern (1, 2, 6, 8-13) with a named adjacent-expert workflow — this is "Content ops infrastructure" as a compound chain, not a menu of unrelated add-ons.
+
 ---
 
 ### Patterns from claude.ai export — Oren John conversations (2026-07-01)
@@ -259,3 +280,16 @@ Last cycle's midfunnel — value tips, how-to-use-your-product, bookmarkable edu
 **Insight — The B-Minus B2B Asymmetry**: B2B and services brands assume consumer content tactics don't apply to them — which is exactly why they do. "If you just do it at a B-minus level, you're so far above who you're competing with that you're going to smash." Oren's Vanta thought experiment: SOC 2 compliance content as cybersecurity thriller, ASMR coding videos, an interesting personality workshopping dull topics — the personality + TOF mechanics transfer wholesale even when props/settings tactics don't.
 
 **Deploy**: When a B2B client objects "this doesn't apply to us," translate rather than retreat: keep the personality-development and top-of-funnel targeting mechanics, swap consumer props for industry storytelling. Aim for B-minus consumer-grade execution and let the competitive vacuum do the rest. Pair with `/oren-boring-industry-excavation` (brand-archetypes skill) for angle generation.
+
+---
+
+## Anti-Patterns (Sourced)
+
+Each anti-pattern below is anchored to a verbatim quote already carried in the "Patterns from claude.ai export — Oren John conversations (2026-07-01)" section above (genius.md, this file) — see `references/source-ledger.md` for the LIKELY/UNCONFIRMED status of each underlying quote (the raw transcript file could not be located in `extractions/` or `_active/claude-export/` at time of repair).
+
+- **Blaming the algorithm when views drop.** Never treat a hook-rate decline as an algorithm change first — Oren John, 2026-07-01 (claude.ai export): "it's literally everyone is getting better." Diagnose competitive-bar creep before touching targeting.
+- **Running full AI-generated UGC as the entire asset.** Don't extend AI generation past the 1-3 second hook — Oren John, 2026-07-01: "we test everything — that does not work super well." Full AI UGC fails in live ad accounts.
+- **Grading top-of-funnel content on product mentions or conversions.** Don't kill a viral TOF asset for lacking a CTA — Oren John, 2026-07-01: "you cannot improve the number of people that enter the middle without putting stuff on top."
+- **Publishing naked "tip" content as midfunnel.** Don't ship a bookmarkable how-to without a person attached to it — Oren John, 2026-07-01: "if you're just giving a tip or showing how to do something, it's only going so far."
+- **Rotating one-off UGC creators instead of recurring relationships.** Don't treat organic and paid creator casting as separate decisions — Oren John, 2026-07-01: "it's going to improve its efficacy and it has to be thought about within that same story framework."
+- **Assuming B2B/services content can't use consumer tactics.** Don't retreat from personality-led, top-of-funnel content because a client says "this doesn't apply to us" — Oren John, 2026-07-01: "if you just do it at a B-minus level, you're so far above who you're competing with that you're going to smash."
