@@ -4,9 +4,21 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are orchestration primitives, not a checklist to announce. Absorb the roles, the handoff logic, and the trigger phrases, then build the team prompt originally for the task in front of you — never paste a memorized template. If the output enumerates "Pattern 1: Directed Assembly Line, Pattern 2: Forced Consensus..." before doing the work, you have failed.
+
+The test: would Kashef recognize this as an agent team he actually architected — explicit roles, an explicit trigger phrase, an explicit communication mandate, an explicit tollbooth where the cost of a mistake justifies the pause — or as a single LLM improvising personas inside one context window? If it's the second, rebuild real agents, not decorative role-play.
+
+Specifically:
+- Do NOT name-drop "The Directed Assembly Line" or "The Forced Consensus Protocol" inside the deliverable itself. Execute the structure; never narrate the framework.
+- Do NOT default to "spawn agents" phrasing when the task needs inter-agent communication — Kashef is explicit that this phrase alone gets misread as sub-agents (see Anti-Patterns below).
+- His texture is spoken and a little rough — "TLDDR," "let's dive in," direct-to-camera walkthroughs — not consultant-deck language. Keep team-role prompts plain and procedural, not corporate.
+- Polish is the tell: if a spawned agent's output "looks decent, but still AI" (his own verdict on his one-shot email sequence), that's a signal to run a de-slop pass, not to ship it as the deliverable.
+
 ## Genius Patterns
 
-The foundational mechanics behind world-class agent coordination, devoid of generic LLM-speak. 
+The foundational mechanics behind world-class agent coordination, devoid of generic LLM-speak. Demonstrated live in the source walkthrough, not theorized — the pitch-deck build alone ran 150,000 tokens end to end (`extractions/mark-kashef/transcript.txt`).
 
 ### The Directed Assembly Line (Sequential Handoff)
 - **What it is**: An intentional chronological splitting of tasks where Agent B is blocked by Agent A. 
@@ -21,7 +33,7 @@ The foundational mechanics behind world-class agent coordination, devoid of gene
 ### The Human Tollbooth
 - **What it is**: Pre-programmed halts in logic that freeze token consumption until human authorization.
 - **The Execution**: Insert an explicit requirement: `require plan approval from the user before proceeding to the final build stage`.
-- **Why it works**: Protects against compounding errors in long-running processes. Correcting a bad outline takes seconds; correcting a fully populated codebase takes thousands of tokens.
+- **Why it works**: Protects against compounding errors in long-running processes. Correcting a bad outline takes seconds; correcting a fully populated codebase takes thousands of tokens. Shown live in the source: after `require plan approval for the designer before they start building`, the team "invoke[s] what's called the ask user input tool" and waits for the operator to "approve as is, approve with notes, or reject with some rework" (`extractions/mark-kashef/transcript.txt`).
 
 ### The Hybrid Grunt-to-Architect Pipeline
 - **What it is**: A cost-saving methodology using both cheap and premium intelligence correctly.
@@ -54,6 +66,7 @@ Tacit expertise regarding agent performance that must be applied to orchestratio
     *   **Prompt Snippet**: "Act as a market researcher, strategist, copywriter, and designer to create a pitch deck for a new SaaS product, including market analysis, business model, slide content, and visual layout suggestions."
     *   **Outcome**: A generic, superficial pitch deck. The market analysis was thin, the strategy lacked depth, the copy was bland, and the design suggestions were vague. The single LLM struggled to maintain context for all roles, leading to shallow output across the board and "hallucinating" data points because its context window was overloaded.
     *   **What makes this mediocre**: This directly violates the principle of "The Directed Assembly Line" and "Role Specialization." It attempts to force a single, undifferentiated intelligence to perform complex, multi-stage cognitive labor, leading to context dilution and poor quality across all dimensions.
+    *   **Provenance note**: this is a constructed illustrative example (not a Kashef quote) — labeled UNCONFIRMED-as-verbatim in `references/source-ledger.md`, though its underlying claim (single-role prompts dilute context) is directly grounded in the verified transcript principle above.
 
 ## Signature Moves
 
@@ -68,14 +81,25 @@ Tacit expertise regarding agent performance that must be applied to orchestratio
 *   **The 3-to-5 Team Sizing Rule**: Consciously limits agent teams to 3 to 5 members, resisting the urge to add more, knowing that exceeding this range leads to diminishing returns, over-engineering, and excessive token burn.
     → **Deploy when**: Designing any multi-agent workflow to optimize for efficiency, clarity, and cost-effectiveness.
 
+## Anti-Patterns (Kashef would never)
+
+- **Say "spawn agents" when he means a communicating team** — verbatim: *"If you just say spawn agents, it could get confused between sub agents, which are very different in the way they work versus agent teams."* Sub-agents run in parallel with zero cross-talk; only `create an agent team` / `spawn an agent team` activates agent-to-agent communication. (`extractions/mark-kashef/transcript.txt`, YouTube transcript added to repo 2026-03-02 per git log.)
+- **Exceed the 3-to-5 agent ceiling** — verbatim: *"the rule of thumb, by the way, from anthropic is three to five agents is the sweet spot. Anything beyond that can lead to diminishing returns, overengineering, overthinking, and most importantly, a huge consumption of tokens."* Every one of his seven demoed use cases stays inside that band (3, 4, or 5 named agents). (`extractions/mark-kashef/transcript.txt`, 2026-03-02.)
+- **Ship agent-team copy as final without a de-slop pass** — his own verdict on a generated email sequence: *"Looks decent, but still AI... it's not completely AI slop, but you could desopify it with the right instructions."* The team producing a deliverable is not the same step as the deliverable being publishable. (`extractions/mark-kashef/transcript.txt`, 2026-03-02.)
+- **Re-spawn a full communicating agent team for independent edits** — verbatim: *"it might make more sense to maybe spin up sub agents to make edits in parallel since they don't need to speak to each other if you can identify independently what needs to change."* Communication overhead is a cost, only worth paying when roles actually depend on each other. (`extractions/mark-kashef/transcript.txt`, 2026-03-02.)
+- **Leave implementation detail to inference when it could be stated outright** — verbatim: *"the less thinking you have to make cloud code do, the more accurate the results."* He calls his own Python-build instruction "overkill" and keeps it anyway, on the record. (`extractions/mark-kashef/transcript.txt`, 2026-03-02.)
+- **Skip the tollbooth on an expensive, hard-to-reverse stage** — verbatim: after `require plan approval for the designer before they start building`, the pipeline *"invoke[s] what's called the ask user input tool"* and halts for *"approve as is, approve with notes, or reject with some rework"* before spending build tokens. (`extractions/mark-kashef/transcript.txt`, 2026-03-02.)
+
 ## Circuit Breaker Architecture (Failure Resilience Layer)
 
 Multi-agent pipelines fail silently. One bad agent produces plausible-looking garbage that poisons every downstream agent. The Circuit Breaker Architecture prevents cascade failures by treating every agent handoff as a potential failure point.
 
+*Provenance note*: the terms "circuit breaker," "tripwire," and "checkpoint caching" do not appear in the source transcript — this layer extrapolates a resilience framework from principles Kashef states directly (token-cost discipline, the danger of a monolithic single-agent prompt, per-stage checkpointed artifacts). Labeled UNCONFIRMED-as-Kashef-authorship in `references/source-ledger.md`; the token figures below are his, verbatim-sourced. His own pipelines already show what a silent bad handoff would cost — the pitch-deck agent team spent 150,000 tokens and the RFP team spent 180,000 tokens (`extractions/mark-kashef/transcript.txt`) reaching a deliverable; an unflagged failure partway through either run wastes that entire spend.
+
 ### Quality Tripwires (Handoff Gates)
 - **What they are**: Lightweight quality checks inserted between every agent handoff in a sequential chain, or before synthesis in a parallel chain.
 - **Three checks per tripwire**: (1) Output meets minimum density threshold for the role — a Researcher who returns 2 sentences tripped. (2) Output references the input payload — detects hallucinated pivots where an agent ignores its input and generates from training data. (3) Transformation check — output must meaningfully differ from input, catching agents that just reformatted without adding value.
-- **Deploy when**: Any sequential handoff or before a Synthesis Lead aggregates parallel outputs.
+- **Deploy when**: Any sequential handoff or before a Synthesis Lead aggregates parallel outputs. Sized to the team itself — Kashef's own ceiling is the reason a tripwire matters: *"three to five agents is the sweet spot. Anything beyond that can lead to diminishing returns, overengineering, overthinking, and most importantly, a huge consumption of tokens"* (`extractions/mark-kashef/transcript.txt`). Every agent past that ceiling is another silent-failure surface a tripwire has to cover.
 
 ### Fallback Paths (Graceful Degradation)
 - **What they are**: Pre-planned alternative routes when an agent trips a quality tripwire.
@@ -85,7 +109,7 @@ Multi-agent pipelines fail silently. One bad agent produces plausible-looking ga
 ### Blast Radius Containment (Checkpoint Caching)
 - **What it is**: Caching each successful agent's output as a checkpoint, so failures downstream never require restarting the entire pipeline.
 - **The Execution**: After each agent passes its quality tripwire, the orchestrator stores that output as a named checkpoint (e.g., `checkpoint_researcher`, `checkpoint_strategist`). If Agent 3 fails, recovery starts from `checkpoint_agent2`, not from the original input.
-- **Why it works**: In a 5-agent pipeline, a failure at Agent 4 without checkpoints wastes all work from Agents 1-3. With checkpoints, you only re-run from the last good state.
+- **Why it works**: In a 5-agent pipeline, a failure at Agent 4 without checkpoints wastes all work from Agents 1-3. With checkpoints, you only re-run from the last good state. The closest real-world analog in the source: each stage produces its own clickable artifact — *"you can always hover over this URL, click it, open up this pitch deck"* (`extractions/mark-kashef/transcript.txt`) — a de facto checkpoint the operator can audit or roll back to without re-running the earlier stages.
 
 ### Degradation Signals (Pipeline Health Monitor)
 - **What they are**: A running confidence score tracked by the Omniscient Observer across the entire pipeline.
@@ -94,13 +118,13 @@ Multi-agent pipelines fail silently. One bad agent produces plausible-looking ga
 
 ## Quality Rubric
 
-> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading. Calibrated against the source's own bar for "good enough to ship": Kashef's honest verdict on his one-shot pitch deck was *"It's not going to be absolutely beautiful, but it's respectable"* (`extractions/mark-kashef/transcript.txt`) — the rubric scores toward that same honest floor, not an unreachable perfection standard.
 
 ---
 
 ### Patterns from claude.ai export — Mark Kashef conversations (2026-07-01)
 
-*Source: transcript-grounded extraction conversations (Claude Code Masterclass "One-Person Company," AI Council subagents, model-card mastery, prompt-factory, solo AI consulting). Deduplicated against the full mark-kashef-* family — only net-new methodology below.*
+*Source: transcript-grounded extraction conversations (Claude Code Masterclass "One-Person Company," AI Council subagents, model-card mastery, prompt-factory, solo AI consulting). Deduplicated against the full mark-kashef-* family — only net-new methodology below. Provenance note (added this repair pass): this section pre-dates this repair and draws from a claude.ai conversation export archive (`_archive/claude-export-2026-07-01.tar.gz`, ~332MB) that was not re-opened during this pass — see `references/source-ledger.md` for the honest label.*
 
 #### Pattern: The Core Agent Rule (Agent Unification)
 **Execute**: Stop designing agents as mutually exclusive corporate roles (UI designer, code reviewer, security auditor) — separate prompts with separate tools develop misaligned goals and contradict each other. Instead, take ONE task ("make the front end better"), split it into perspectives on that same task (color/hex lens, UX-structure lens, feature-expansion lens), generate each agent per-project (not from a generic role library), then fire one unified prompt: "invoke all of our agents to take X to the next level." Each agent keeps its own context window but shares the same incentive.
