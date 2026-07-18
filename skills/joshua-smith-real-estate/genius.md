@@ -4,6 +4,36 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These are operating instincts, not a checklist to recite. Joshua Smith reduces
+a real estate business to arithmetic — Activities → Leads → Appointments →
+Conductions → Clients → Closings — and he defends that math the way a
+bookkeeper defends a ledger, not the way a hype coach defends a slogan.
+Absorb the patterns, then build originally.
+
+The test: would Joshua Smith recognize this as a system he would actually run
+— chain-link accountable, conversion-math checked before lead-volume added,
+60-reachout persistence tracked in months rather than days — or does it read
+like someone using "real estate coach" vocabulary without the underlying
+discipline underneath? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label output "Genius Pattern 4 applied here" or narrate which
+  pattern is in use — run the conversion-multiplier diagnostic, never
+  announce it.
+- Do NOT default to motivational language ("you've got this," "trust the
+  process"). Smith's texture is math and mechanism — funnel percentages,
+  reachout counts, 72-hour windows — not pep talk. Motivational polish is the
+  tell that the underlying system got skipped.
+- His voice is operator-blunt, not guru-smooth: he names the failure mode
+  directly rather than softening it into a workshop platitude — "who is the
+  market good FOR?" not "let's find opportunity in change."
+- Every deliverable should be falsifiable — a KPI to track, a percentage to
+  hit, a day-count to log. If an output can't be checked against a number
+  within 90-120 days, it isn't Smith's system; it's decoration wearing his
+  name.
+
 ## Genius Patterns
 
 ## 1. Market Agnosticism
@@ -172,6 +202,17 @@
 
 **Deploy When**: Building any lead generation strategy, marketing campaign, or content plan from scratch.
 
+## Anti-Patterns (Sourced — extraction-report.md)
+
+Failure modes the source interview directly documents as what NOT to do, each anchored to the extraction ground truth (`extractions/joshua-smith/extraction-report.md` — YouTube interview, Mike Sherrard channel, ~45 min / 10,268 words).
+
+- **Blaming the market instead of reframing it** — the interview transcript (extraction-report.md, Genius Pattern 1) shows Joshua "never identifies a market as 'good' or 'bad'" and instead asks "who is the market good FOR?" before touching a marketing plan; stopping at "the market is bad" is the exact move he built his whole system to reject.
+- **Quitting lead follow-up after a handful of attempts** — extraction-report.md documents the "1.7 vs. 60" Reality Gap (Hidden Knowledge #4): the average agent follows up 1.7 times while the average lead needs 60 reachouts and 6 conversations, with conversion typically landing around attempt #40-60 — reading early silence as rejection is the gap Joshua calls the single largest source of wasted leads in the interview.
+- **Running a day with no plan committed to paper** — per Hidden Knowledge #7 (extraction-report.md), arriving at the desk asking "What should I do today?" is itself the diagnostic of a day already lost; the interview's Level 1 framework requires every day committed to paper before it starts.
+- **Adding lead volume before auditing conversion** — extraction-report.md's Conversion Multiplier (Genius Pattern 4) flags this directly: when an agent says "I need more leads," the interview's answer is that the real problem is almost always an unexamined conversion rate at an earlier funnel stage, not lead scarcity.
+- **Letting defense activities crowd the calendar** — Strategic Offense Over Defense (Genius Pattern 5, extraction-report.md) requires 80%+ of the week be offense (new-business generation); the interview's stated fix when that ratio breaks is explicit — "restructure immediately" — not tolerate a busier-but-unproductive week.
+- **Niching so hard the market forgets you sell everything** — Joshua's own documented setback (Genius Pattern 9, Niche Messaging Discipline, extraction-report.md): over-indexing content into REOs/short sales caused friends to assume he'd left traditional sales, which is why the interview prescribes a 60/40 niche-to-general split rather than full specialization.
+
 ---
 
 ## Hall of Fame Exemplars
@@ -220,3 +261,6 @@ An agent consistently struggles to hit their goals. Their calendar is filled wit
 - **Result**: KEPT — 6.0→8.0 (+2.0). Intent Alignment 6→9, Adversarial Resilience 5→7.
 - **Benchmark task**: "Adapt Joshua Smith's systematic outreach principles for Authority Flywheel client acquisition — daily discipline that compounds"
 - **Lesson**: Smith's framework already contains the diagnosis (Complacency = Real Addiction, Pain Selection Philosophy) but the workflow never operationalized it. The CED metric turns a motivational insight into a mathematical leading indicator. Key transfer: any service business can track CED — it's domain-agnostic. The feast/famine cycle isn't a discipline problem; it's an INSTRUMENTATION problem. You can't manage what you can't see.
+
+### 2026-07-17 — Wave 3 Batch 4 repair pass (heartbeat gate)
+- Added "How to Use This Skill (Model Calibration)" and "Anti-Patterns (Sourced)" sections; added `references/source-ledger.md` with VERIFIED/LIKELY/UNCONFIRMED claim labels. See `references/source-ledger.md` for the two attributions (Warren Buffett quote, Darren Harding mentor quote, both above under Hidden Knowledge #6/#7) flagged UNCONFIRMED — present in this file before the repair, not found in `extractions/joshua-smith/extraction-report.md`, carried forward rather than deleted per additive-first repair rules.
