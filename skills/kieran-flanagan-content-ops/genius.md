@@ -4,6 +4,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a pipeline you narrate. Absorb the sequencing logic, then run it invisibly. If your output announces "Loading Audience Profile... now calling Style Card... now calling Enrichment," you have failed. The test: would Kieran recognize this as a system he actually runs — or as someone using orchestration vocabulary? If it's the second, rebuild.
+
+Specifically:
+- Do NOT narrate which layer of the 5-layer architecture (Foundation → Research → Creation → Enrichment → Optimization) you are currently executing. Run the sequence; never announce it.
+- Do NOT let the orchestrator or feedback system create content directly, even under pressure to move fast — Pattern 3 exists because tools that optimize and create simultaneously optimize for their own metrics, not actual quality.
+- His texture is operator-blunt, not consultant-polished: "I basically went into cloud code and then I say let's start creating content" (`extractions/kieran-flanagan/transcript.txt`) — plain, conversational commands to a system he trusts, never slide-deck process talk.
+- Polish is the tell-class warning: if a feedback report or orchestration session reads like a case study instead of a review he'd actually run monthly, it's over-produced. His own review language is terse and unhedged — "This one sucked. It was my worst performing post" (`extractions/kieran-flanagan/transcript.txt`) — don't launder that bluntness into corporate softening.
+
 ## Genius Patterns
 
 ## Pattern 1: The Orchestrator Pattern
@@ -43,7 +53,7 @@
 
 ## Hidden Knowledge
 
-4 tacit expertise points specific to content operations.
+4 tacit expertise points specific to content operations. Per `references/source-ledger.md`: item 2 is LIKELY (paraphrase of a garbled transcript line); items 1, 3, and 4 carry no located source and are UNCONFIRMED — treat their specific numbers (cycle counts, batch minimums) as reasonable operating defaults, not verified Kieran claims.
 
 ---
 
@@ -52,12 +62,16 @@
 
 **Deploy**: Set expectations — the system isn't "learning your voice over 6 months." It's refining profiles and style cards based on concrete engagement data. 3 cycles is enough to see meaningful improvement.
 
+**Source status**: UNCONFIRMED — the specific "2-3 cycles / 2-6 weeks" figure is not located verbatim or in substance in `extractions/kieran-flanagan/transcript.txt` or `extraction-report.md`. Treat as an operating heuristic, not a sourced Kieran claim.
+
 ---
 
 ## 2. Talk With the Orchestrator, Don't Command It
 **The Truth**: Kieran describes his relationship with the orchestrator as conversational: "I just talk with the orchestrator and ask it to do things and it goes and uses all the other skills for you." The orchestrator should feel like a content operations manager, not a command-line tool.
 
 **Deploy**: The orchestrator workflow should present options, ask clarifying questions, and run skills in the background while maintaining a natural conversational flow. It's a collaborator, not a machine.
+
+**Source status**: LIKELY — `extractions/kieran-flanagan/transcript.txt` carries the near-identical line "You can kind of just [talk] with the orchestrator skill and ask it to do things and it goes and uses all of the other skills for you" (the transcript's auto-generated text renders the verb as "th with," almost certainly a transcription artifact for "talk with"). The genius.md wording is a light cleanup of that line, not letter-for-letter verbatim.
 
 ---
 
@@ -66,12 +80,16 @@
 
 **Deploy**: Always aggregate before analyzing. Minimum batch size for meaningful feedback: 10 published posts or 1 month of content (whichever comes first).
 
+**Source status**: UNCONFIRMED — the "10-20 posts" / "10 published posts or 1 month" thresholds are not located in the transcript or extraction report. Treat as an operating heuristic consistent with Pattern 2's cycle logic, not a verified Kieran number.
+
 ---
 
 ## 4. Monthly Reviews Trump Weekly Adjustments
 **The Truth**: Adjusting style cards and profiles too frequently introduces instability. Kieran runs monthly review cycles — enough data to spot trends, infrequent enough to maintain consistency. Weekly tweaks create "style whiplash" where the AI never settles into a consistent voice.
 
 **Deploy**: Content Feedback can run on any published batch. Content Review Cycle should run MONTHLY — no more frequently than that. Protect the system from over-optimization.
+
+**Source status**: Core cadence claim VERIFIED — the transcript states "every month I run a review and it actually makes the skills better" (`extractions/kieran-flanagan/transcript.txt`). The "style whiplash" phrase and the explicit weekly-vs-monthly tradeoff reasoning are UNCONFIRMED — not located verbatim; they are a plausible extrapolation from the verified monthly-cadence fact, not a direct Kieran quote.
 
 ---
 
@@ -98,6 +116,7 @@
     *   **Platform-Specific Voice Fidelity**: Each piece feels native to its platform, from LinkedIn's professional tone to X's brevity and the newsletter's narrative depth.
     *   **80/20 Vocabulary Library**: Explicitly leverages the "anti-vocabulary" concept, showcasing its practical application and impact on eliminating "AI slop."
     *   **Originality of Insight**: Promotes a unique, counter-intuitive approach to AI content generation derived from Kieran's specific findings.
+    *   **Provenance note**: This exemplar is skill-authored illustrative copy demonstrating the pattern in action — it is not a Kieran quote or a real published post. See `references/source-ledger.md`.
 
 **Exemplar 2: System-Generated Content-Reactive Audience Profile**
 
@@ -115,6 +134,7 @@
     *   **Content-Reactive Profiling**: This profile is rich with specific details derived from analyzing *actual engagement data* from high-performing content, not from theoretical personas.
     *   **Actionable Insights**: Provides clear guidance on how to tailor future content for maximum resonance, including specific pain points and communication preferences.
     *   **Depth and Nuance**: Goes beyond surface-level demographics to capture the psychological and professional drivers of the target audience, reflecting a deep understanding of what truly motivates them.
+    *   **Provenance note**: Illustrative synthetic profile built to demonstrate the content-reactive method (Genius Pattern in `extraction-report.md` #1), not a real Kieran-published profile. See `references/source-ledger.md`.
 
 **Anti-Exemplar: Generic AI-Generated LinkedIn Post**
 
@@ -139,6 +159,18 @@
     → **Deploy when**: Producing long-form content, articles, or any piece requiring factual support and authority.
 5.  **Monthly System Refinement**: Resists weekly "tweaks" to style cards or audience profiles. Instead, aggregates engagement data over a full month to identify consistent patterns and trends, then implements targeted, data-backed updates, preventing "style whiplash" and ensuring stable quality improvement.
     → **Deploy when**: Conducting feedback loop analysis and applying system updates, especially to foundational elements like audience profiles and style cards.
+
+## Anti-Patterns
+
+Failure modes Kieran explicitly names or demonstrates rejecting on-camera, each anchored to source material rather than inferred. Full claim-by-claim confidence labels in `references/source-ledger.md`.
+
+- **Cut-and-paste shipping.** Kieran warns against publishing system output verbatim: "too many people will use these cut and paste. That's not how you do that, right?" (`extractions/kieran-flanagan/transcript.txt`, interview transcript). System output is a draft input to human judgment, never a finished post.
+- **Enriching an idea instead of a draft.** He runs into the wall himself when he tries to enrich raw material: "trying to enrich just a idea is kind of hard" (`extractions/kieran-flanagan/transcript.txt`) — the enrichment skill needs Stage 1 argument structure already in place (Signature Move 4), not a talking point alone.
+- **Shipping the first hook draft.** On his own "zero employees" LinkedIn draft mid-demo: "obviously I would never ship this" (`extractions/kieran-flanagan/transcript.txt`) — first-pass hook output routes to the hook-improvement skill before it's publishable, never straight to post.
+- **Drag-and-drop "vibe marketing."** Kieran explicitly separates his skill-chained system from no-code automation builders: "I was never a big fan of the kind of vibe marketing where it was workflow tools because it's not vibing. You have to actually drag and drop all the workflows together. This is not software." (`extractions/kieran-flanagan/transcript.txt`, referencing the earlier "born marketer" episode on the same podcast)
+- **Stopping before the feedback loop.** Kieran frames skipping the monthly review/feedback layer as the line between a systems thinker and everyone else: "If you're a system thinker, most people stop here" — said immediately before describing the feedback-loop app (`extractions/kieran-flanagan/transcript.txt`).
+- **Demographic/survey-built personas.** "Traditional personas are built from demographics and surveys — they're fiction." (`extractions/kieran-flanagan/extraction-report.md`, Hidden Knowledge — LIKELY: extraction-author synthesis of Kieran's content-reactive-profiling position, not a verbatim on-camera quote.)
+- **One AI pass drafting and citing simultaneously.** "Asking AI to 'write a LinkedIn post with 3 statistics and a case study' produces hallucinated data." (`extractions/kieran-flanagan/extraction-report.md`, Hidden Knowledge — LIKELY, same synthesis caveat as above; the underlying enrichment-after-drafting sequencing IS verbatim-demonstrated on camera, see Pattern above.)
 
 ## Expert-Specific Quality Rubric
 
