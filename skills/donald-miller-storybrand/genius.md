@@ -4,6 +4,19 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then apply invisibly — never narrate the machinery. The test: would a stranger recognize this as Miller's StoryBrand thinking, or as someone reciting StoryBrand vocabulary? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label the SB7 elements in the output ("Element 1: Character," "here's the Plan step") unless the deliverable is explicitly a diagnostic or audit. The framework is scaffolding for your thinking, never content for the page.
+- Miller's own diagnosis of a failed line is blunt, not academic — describing a staffing company's early pitch ("we are modern staffing for you, we are the hero, and we're giving you something"), he just says: "That is a high cognitive load message." No lecture on semiotic complexity. Match that register: short declarative sentences, concrete nouns (a plunger, gut rot, a fence-sitter), never business-school abstraction.
+- The Hero Inversion has to be invisible on the page. If a reader notices "oh, this is putting me in the hero seat," the trick already failed — it should just feel like the brand gets them.
+- Polish is the tell-class failure here specifically: the more a piece sounds like "leverage synergistic, end-to-end" corporate copy, the more it violates the exact thing Miller built his career attacking. Smooth, clever, or impressive language is a red flag, not a compliment — cut it back toward what a customer would actually say out loud.
+- Miller talks in soundbites because he's optimizing for repeatability under pressure, not because short is stylish. If a line can't survive being yelled across a crowded mall and still land with the right person, it isn't done.
+
+---
+
 ## How Miller Thinks: The StoryBrand Operating System
 
 Donald Miller's genius is treating story structure as a **neurological exploit**. The human brain daydreams 30% of waking hours — the ONLY thing that stops daydreaming is perceived survival relevance. Story is the single format that can commandeer 100% of human attention because story = simulated survival experience. Every piece of business communication that doesn't follow story structure is invisible to the brain.
@@ -62,7 +75,7 @@ This resolves the customer's internal debate instead of adding pressure. You're 
 
 1. **One-Liner** → Core message clarity (used everywhere)
 2. **Website** → StoryBrand-structured homepage (hero's journey in scroll form)
-3. **Lead Generator** → Transitional CTA (free guide, assessment, etc.)
+3. **Lead Generator** → Transitional CTA (free guide, assessment, etc.) — Miller's own example: "five signs your boyfriend is bad with money," curiosity bait built to be shared, not sold from (`extractions/donald-miller/transcript.txt`)
 4. **Nurture Emails** → Weekly value delivery (trust compounding)
 5. **Sales Emails** → 6-email conversion sequence (problem → proof → paradigm → close)
 
@@ -75,11 +88,11 @@ Automatically repositions every narrative so the customer is the hero. The brand
 **Execute**: For every piece of copy, ask: "Who is the hero?" If it's the brand → rewrite.
 
 ### GP2: The Story-You-Think-You're-Telling Trick
-Makes audiences believe they're hearing the brand's story while actually narrating the customer's transformation journey.
+Makes audiences believe they're hearing the brand's story while actually narrating the customer's transformation journey. Miller, coaching a guest live: "You don't really want to tell your story. You want to invite people into a story in which they are a hero in a hole having all sorts of problems and you are the guide" (`extractions/Donald Miller Grow/transcript.txt`).
 **Execute**: Start with a personal detail that mirrors the customer's problem, then pivot to how solving it created the product.
 
 ### GP3: Problem-First Sequencing
-Product cannot appear before element 4. You earn the right to discuss the product through Problem → Agitation → Thesis.
+Product cannot appear before element 4. You earn the right to discuss the product through Problem → Agitation → Thesis. Miller's own formula for a follow-up email: "start with the problem the customer has. Don't start with your problem. Start with their problem... Position your product as the solution to that problem" (`extractions/Donald Miller Grow/transcript.txt`).
 **Execute**: Count the elements before your product appears. If fewer than 3 → restructure.
 
 ### GP4: Cognitive Load Elimination
@@ -91,11 +104,11 @@ Frames every message as survival-relevant. The brain only stops daydreaming when
 **Execute**: For every piece of copy, answer: "How does this help the reader survive and thrive?"
 
 ### GP6: Open Story Loop Architecture
-Stacks unanswered questions that the brain cannot close without reading further.
+Stacks unanswered questions that the brain cannot close without reading further. Real case: Milwaukee Tools' electric line wasn't selling until they renamed it "Fuel" — "they built a bridge from the old world to the new world with just a word," and sales exploded (`extractions/Donald Miller/transcript.txt`).
 **Execute**: At each stage, create an implicit question that pulls the reader forward.
 
 ### GP7: Empathy-Authority Dual Lock
-Establishes guide credibility through simultaneous empathy AND authority. Never authority alone.
+Establishes guide credibility through simultaneous empathy AND authority. Never authority alone. Miller: "the purpose of the empathy soundbite is to create an empathetic bond and you suddenly become the authoritative figure who cares about me and can help me out" (`extractions/donald-miller/transcript.txt`).
 **Execute**: Empathy first (3-5 words), authority second (proof). Both always.
 
 ### GP8: CTA Cognitive Resolution
@@ -111,53 +124,32 @@ Inserts a clear thesis statement that tells the customer exactly what this story
 **Execute**: After problem agitation, state the need as one declarative sentence: "We need a better [X]."
 
 ### GP11: Three-Level Problem Stack
-Identifies external, internal, and philosophical problems. Products addressing all three create deepest engagement.
+Identifies external, internal, and philosophical problems. Products addressing all three create deepest engagement — e.g. "my plunger doesn't work" (external) → "I feel disgusted and helpless" (internal) → "a simple household task shouldn't be this unpleasant" (philosophical) (`extractions/donald-miller/storybrand-extraction.md`).
 **Execute**: For every product, identify all three problem levels.
 
 ### GP12: Loosely Connected Story Principle
-Stories don't need logical connection to the business — they need emotional resonance. A magnetic story loosely connected beats a rigid case study.
+Stories don't need logical connection to the business — they need emotional resonance: "a good story loosely connected beats a perfect case study rigidly connected" (`extractions/donald-miller/storybrand-extraction.md`).
 **Execute**: Prioritize story quality over direct relevance.
 
 ---
 
 ## Miller Would Never... (Anti-Patterns)
 
-These are structural violations of StoryBrand methodology. If any appear in output, you've departed from Miller's intelligence:
+These are structural violations of StoryBrand methodology, each grounded in Miller's own words or a source-file example. If any appear in output, you've departed from Miller's intelligence:
 
-### AN-1: Making the Brand the Hero
-The single most common and most fatal error. When copy leads with the brand's credentials, awards, history, or founding story — the customer is displaced as hero. They become an audience member watching someone else's story. They disengage.
+- **AN-1: Making the Brand the Hero** — The single most common and most fatal error. When copy leads with the brand's credentials, awards, history, or founding story, the customer is displaced as hero and becomes an audience member watching someone else's story. Real case from the podcast: a staffing-company CEO describing her own early pitch — "we um we are modern staffing for you. We are the hero, and we're giving you something" — which Miller diagnosed on the spot: "That is a high cognitive load message." **Detection**: Read the first 3 sentences; if the brand is the grammatical subject of more than 1, it's a hero violation. **Source**: `extractions/Donald Miller/transcript.txt` (StoryBrand podcast, Ballet Solutions case study).
 
-**Detection**: Read the first 3 sentences. If the brand is the grammatical subject of more than 1 → hero violation.
+- **AN-2: Leading with Credentials Before Value** — "We're a team of Harvard-educated engineers with 47 years of combined experience" (illustrative composite) — nobody cares until you've demonstrated how you solve THEIR problem. Credentials are guide elements (Element 3, the Empathy-Authority Dual Lock) and arrive only after the problem is established (Element 2). **Detection**: If credentials appear before the problem statement, the sequence is wrong. **Source**: `extractions/donald-miller/storybrand-extraction.md`, Pattern 7 (Empathy-Authority Dual Lock).
 
-### AN-2: Leading with Credentials Before Value
-"We're a team of Harvard-educated engineers with 47 years of combined experience." Nobody cares — until you've demonstrated how you solve THEIR problem. Credentials are guide elements (Element 3). They come AFTER the problem is established (Element 2).
+- **AN-3: Using Jargon as if It's Clarity** — "Our synergistic, end-to-end platform leverages AI-driven insights" (illustrative composite) registers to the brain as noise, not clarity. Miller's own framing of the tradeoff, coaching a small-business owner: talking to a mass audience "is not a Harvard class... when you're talking to the masses, those are the rules" — the zero-cognitive-load statement beats the intellectual argument every time. **Detection**: Any sentence with 3+ industry-specific terms is a jargon alarm — rewrite in plain language. **Source**: `_archive/claude-export-2026-07-01.tar.gz` → `claude-export/normalized/conversations/ec11e932-88f1-455e-adf4-034c00c3dd71.md` ("Why Cognitive Load is Holding Back Your Business," 2026-02-10 conversation).
 
-**Detection**: If credentials appear before the problem statement → wrong sequence.
+- **AN-4: Vague, Pressure-Based CTAs** — "Get Started." "Buy Now." "Schedule a Demo." (illustrative composites) — these add pressure without resolution, one more decision the customer has to carry. Miller's own replacement formula, verbatim: "If you are struggling with X, then purchasing Y is the right decision. If you are tired of ineffective, messy plungers, buying our plunger is the right decision." **Detection**: Any CTA that doesn't name the customer's struggle and resolve it is a vague-CTA violation. **Source**: `_archive/claude-export-2026-07-01.tar.gz` → `claude-export/normalized/conversations/52ba1425-8279-46fb-9264-e3913f1cc964.md` (elevator-pitch episode).
 
-### AN-3: Using Jargon as if It's Clarity
-"Our synergistic, end-to-end platform leverages AI-driven insights." This is noise. The brain registers complexity and disengages. Miller's test: would a 10-year-old understand this sentence? If not, it's jargon.
+- **AN-5: Features Before Transformation** — "128-bit encryption. Cloud-native architecture. Real-time sync." (illustrative composite) — features carry no weight until the customer has seen their AFTER state. Miller's own diagnosis of this exact mistake: opening with "here are the features and benefits of our product" is enlightenment material mistakenly deployed as curiosity material — it never earns attention in the first place. **Detection**: Feature lists appearing before the Success element get restructured — transformation first, features as evidence. **Source**: `_archive/claude-export-2026-07-01.tar.gz` → `claude-export/normalized/conversations/5aa73b0a-76de-4617-9f98-978fe05fb96e.md` ("The 3-Phase Messaging Campaign That Fuels Sales").
 
-**Detection**: Any sentence containing 3+ industry-specific terms → jargon alarm. Rewrite in plain language.
+- **AN-6: Skipping the Plan** — Going from Problem + Guide straight to CTA without showing the path triggers "too complicated" anxiety, the #1 conversion killer. Miller's own five-part follow-up-email formula: problem → product-as-solution → "give them a three-step plan on how to buy that product" → negative stakes → positive stakes → ask. **Detection**: No "Step 1, Step 2, Step 3" between Guide and CTA means the Plan element is missing. **Source**: `extractions/Donald Miller Grow/transcript.txt`.
 
-### AN-4: Vague, Pressure-Based CTAs
-"Get Started." "Buy Now." "Schedule a Demo." These create pressure without resolution. They add ONE MORE thing the customer has to decide — which is the opposite of what a CTA should do.
-
-**Better**: "If you're tired of [problem], [product] is worth trying." Resolves the internal debate.
-
-### AN-5: Features Before Transformation
-"128-bit encryption. Cloud-native architecture. Real-time sync." Features are meaningless without the context of transformation. The customer needs to see their AFTER state before features have any weight.
-
-**Detection**: Search for feature lists that appear before the Success element. Restructure: transformation first, features as evidence of how.
-
-### AN-6: Skip-Presenting a Plan
-Going from Problem + Guide directly to CTA without showing the customer the path. This triggers "it seems too complicated" anxiety — the #1 conversion killer. The Plan element (3-step process) exists to make the path feel *simple and safe*.
-
-**Detection**: If there's no "Step 1, Step 2, Step 3" between Guide and CTA → missing Plan element.
-
-### AN-7: The Missing Villain
-Every story needs a villain. Without one, there's no conflict, no urgency, no reason to act NOW. The villain can be a problem, a competitor, a status quo, a belief system — but it must be named and externalized.
-
-**Detection**: If you can't point to what the customer is fighting against → add a villain.
+- **AN-7: The Missing Villain** — Every story needs a villain, or there's no conflict, no urgency, no reason to act now. Miller, coaching a financial-advice guru's positioning: "he's got a villain, right? The villain is credit card companies that are trying to get you. You think he's telling his story, but he's not. He's actually inviting you into a story." **Detection**: If you can't name what the customer is fighting against, add a villain. **Source**: `_archive/claude-export-2026-07-01.tar.gz` → `claude-export/normalized/conversations/52ba1425-8279-46fb-9264-e3913f1cc964.md`.
 
 ---
 
@@ -182,7 +174,7 @@ If your message doesn't stop a daydream, it doesn't exist. Everything else is do
 CTAs aren't asks — they're psychological resolution of the customer's internal debate. The customer was already considering the action. The CTA confirms it was the right choice.
 
 ### HK7: One Formula, Infinite Applications
-The 7-element formula works identically at every scale: page-level, section-level, paragraph-level. It works on landing pages, keynotes, webinars, open houses, emails, pitch decks.
+The 7-element formula works identically at every scale: page-level, section-level, paragraph-level. It works on landing pages, keynotes, webinars, open houses, emails, pitch decks. Miller's own staffing-client story: a client's tagline compressed the whole formula into "the right hire right now" and reused it verbatim across every channel (`extractions/Donald Miller/transcript.txt`).
 
 ### HK8: Confusion Is Not a Branding Problem — It's a Survival Problem
 When a customer encounters a confusing message, they don't think "this brand needs better copywriting." They simply leave. The brain interprets confusion as potential danger and conserves calories by disengaging. The cost isn't "poor branding" — it's complete invisibility.
@@ -190,6 +182,8 @@ When a customer encounters a confusing message, they don't think "this brand nee
 ---
 
 ## Expert Stacking Protocols
+
+Every stack below compounds Miller's controlling-idea discipline — the same single-sentence filter he uses for his own company ("Transform your business story into clear messages that resonate and drive success") — with a second expert's execution layer:
 
 | Stack With | What Compounds |
 |-----------|---------------|
