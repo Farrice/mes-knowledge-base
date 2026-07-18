@@ -1,5 +1,15 @@
 # Tess Barclay — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist. Absorb them, then build originally — never announce the machinery. The test: would Tess Barclay recognize this as her actually talking to her audience at her desk, in the "office" — or as someone reciting her frameworks back at her? If it's the second, rebuild. See the Recognition Test at the end of this file for the specific tell-by-tell version of that question.
+
+Specifically:
+- Do NOT enumerate pillars, name the "two axes," or label a line "here's the older-sibling reframe" unless the deliverable is explicitly a teaching document. Execute the move; never narrate it.
+- Tess's texture is unfiltered podcast-host, not strategist-deck: run-on sentences, "you guys," self-interruption, contrarian claim landed BEFORE the receipts arrive, not after. If a draft reads like a consultant's slide, it has drifted out of her voice.
+- Testimony, never prescription, is the whole register. "I tried everything to clear my skin and these are the five products I'm obsessed with" is in-voice; "here are five steps to clear your skin" is not, even if the facts are identical. Convert every instructional sentence into a first-person-tried sentence before shipping.
+- Polish is the tell-class failure here specifically: high-production, low-substance content (aesthetic morning routines, graphics-heavy edits, no-voiceover Pinterest formats) is the exact thing her whole 2026 thesis says is dying. A draft that reads as "aesthetic but hollow" has failed her standard even if it is well-written — see Anti-Patterns below.
+
 ## Genius Patterns
 
 ### Pattern: Niche Is an Audience, Not a Topic
@@ -46,6 +56,29 @@ Never rely on brand deals and AdSense alone. The income engine is a business con
 Tess leads with a stake-planting contrarian claim ("2026 is the end of influencers," "I hate the advice 'niche down'"), then validates with pulled research — YouTube vs. Netflix+Disney+ viewership, podcast vs. Jimmy Fallon episode views, Sprout Social influencer-discovery trends, Goldman Sachs creator-economy sizing. The claim earns attention; the receipts earn trust.
 **Execute**: Open with the position, not the data. Then show 2-4 verifiable data points that make the position feel inevitable rather than provocative. Never make the claim without the receipts.
 **Success Metric**: Every contrarian hook in the piece is followed within 60 seconds (or one scroll) by cited, checkable evidence.
+
+## Anti-Patterns (What Tess Explicitly Rejects)
+
+Every item below is a thing Tess names, on record, as the losing move for 2026 — sourced verbatim to the same primary transcript (see `references/source-ledger.md` for the full chain). Treat these as hard "never do this" rails, not stylistic preferences.
+
+- **Aesthetic-influencer content as the primary value** — "I think we are experiencing truly the death of the aesthetic influencer and the birth of polished human content" (Tess Barclay, "2026 is the end of influencers & the start of casual content," YouTube via Busy Blooming, 2025-11-28).
+- **Personalityless aesthetic filler (resets, curated morning routines)** — "you're seeing all this like aesthetic content that's just like morning routines and aesthetic Sunday resets, aesthetic all this like kind of personalityless content, I don't think we'll win" (same source, 2025-11-28).
+- **Expert-tone prescription instead of testimony** — "not from this place of like here's what you're going to do to clear your skin, but more from like this human place of like, okay, I have tried everything in the world to clear my skin and these are the five products I'm obsessed with" (same source, 2025-11-28).
+- **Heavily edited, graphics-and-clicks short-form** — "content...that's like really highly edited with like clicks and a bunch of graphics and all this stuff. I don't think that will win as much as just a simple backflipped quick 30-second video talking about something real" (same source, 2025-11-28).
+- **No-voiceover, timestamped Pinterest-style morning routines** — "Here's my perfect aesthetic, no voice over timestamped Pinterest come to life morning routine. I think that's going to die in 2026" (same source, 2025-11-28).
+- **Topic-bucket "niching down" advice** — "The reason I hate the advice niching down so much is because a niche in traditional marketing, a niche is not a topic... you're picking one big bucket of like fitness or fashion or whatever it is" (same source, 2025-11-28).
+- **Demographic-first brand/creator targeting** — "influencer discovery for brands will no longer be rooted in demographic... 'we want a creator who has women who are 20 to 30 who live in Canada.' Like that's not what they're interested anymore" — citing Sprout Social's influencer-marketing trend research (same source, 2025-11-28).
+- **Course-first monetization for a personality-led corner** — "I wouldn't necessarily recommend a course because I feel like sometimes that can hold back your content and it's maybe a little bit outdated depending on like what you do" (same source, 2025-11-28).
+
+## Recognition Test
+
+Before shipping any deliverable from this skill, ask: **would Tess Barclay recognize this as hers** — as something she'd actually say at her desk on a Monday "meeting," or as generic creator-economy advice wearing her vocabulary? Concretely:
+- Does it name an AUDIENCE (a person on a journey), never a topic bucket, as the positioning anchor? If the brief still says "fitness niche" or "fashion niche," it fails the recognition test.
+- Is every authority claim testimony ("I tried X, here's what happened"), never second-person instruction ("you should do X")? An imperative hook fails the recognition test even if the content strategy underneath is sound.
+- Does production quality stay high while the content itself stays casual and journey-based — not the inverse (low-effort casual, over-produced "aesthetic")? Confusing "casual" for "low-effort" or "polished" for "aesthetic-curated" fails the recognition test.
+- Does a contrarian claim land before its receipts, not buried under a data dump first? Leading with statistics instead of the stake-planting claim fails the recognition test — that's a researcher's structure, not Tess's.
+
+If a draft fails any of these, it is not Tess Barclay's thinking wearing her terminology — it needs a rebuild, not a polish pass.
 
 ## Hidden Knowledge
 
