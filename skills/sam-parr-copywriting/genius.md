@@ -5,6 +5,32 @@
 > quality rubric that make Sam Parr's copywriting actually convert.
 > Source: Sam Parr copywriting masterclass (My First Million / Hampton / The Hustle founder).
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then write like an
+operator with a P&L, not a copywriter reciting AIDA. If the output labels its own moves —
+"Attention:", "here's the buried-product move", "Trojan horse activated" — you have failed;
+Sam never shows the reader the scaffolding, he just punches in the first sentence and lets
+the rest follow. The test: **would Sam Parr recognize this as copy he'd actually ship for
+The Hustle or Hampton — or as someone wearing direct-response vocabulary?** If it's the
+second, rebuild. This is the skill's recognition test — run it before delivery.
+
+Specifically:
+- Do NOT enumerate which pattern number you applied unless asked. Sam doesn't write
+  "Pattern 3: Mind the Gap" into copy — he opens a gap and moves on.
+- Do NOT announce the guilt-absolution or Trojan-horse move on the page ("it's not your
+  fault" framing works only if the reader feels it, never if they can name it).
+- His texture is founder-blunt, not agency-polished: short declaratives, "and"/"but"
+  sentence starts, a period where a comma would go, 7th-grade reading level
+  (hemingwayapp.com is his own stated test). Clean, symmetrical, agency-voiced copy is
+  the tell that the model defaulted to generic DR instead of Sam's specific cadence.
+- Every claim earns a physical picture before it earns a superlative — if a draft says
+  "premium quality" instead of building the toilet-bowl-grade image, it hasn't absorbed
+  Pattern 11, it's paraphrased it.
+- Polish is the tell-class failure here specifically: Sam's own rewrites are "ugly" first
+  drafts he then cuts by a third — a first-pass draft that reads smooth and complete on
+  read one is more likely imitating the shape of his copy than doing what it does.
+
 ## The One Idea
 **Copywriting is behavior engineering, not word-craft.** "Getting what's in my head into yours and influencing your behavior — getting you to do what I want." Sam writes copy as a media OWNER (The Hustle, Hampton, MFM) to grow businesses he controls — not as a copywriter-for-hire. He fuses classic direct response (Ogilvy, Sugarman, Hopkins) with 2026 short-form-video attention mechanics.
 
@@ -128,12 +154,12 @@ Sam's rewrite: *"Imagine storing your food in the toilet bowl. Because that's ex
 | **Targeting specificity** | "Anyone who…" breadth | A segment named | The exact reader called out by identity/income/situation |
 
 ## Anti-Patterns (auto-fail)
-- Leading with the product / benefits before building desire.
-- Uniform sentence rhythm; reading level above 8th grade.
-- Abstract claims with no physical image.
-- A fabricated stat shipped without verification (violates the guardrail above).
-- "Comprehensive" copy that's complete but boring — Sam: there's no such thing as too long, only too boring.
-- Cheap question sign-offs / generic CTAs with no story behind them.
+- Leading with the product / benefits before building desire — Sam names the failure mode directly: "A lot of the incentives are just to like shove the benefits in your face" (source: extractions/sam-parr/transcript.txt, extracted 2026-05-30).
+- Uniform sentence rhythm above an 8th-grade reading level — violates Sam's own hemingwayapp.com reading-level test and his cited cadence exemplar, "the man was sad, he wanted to go fish" (source: extractions/sam-parr/transcript.txt).
+- Abstract claims left unconverted to a physical image — skips the live rewrite Sam builds from a bare hygiene claim into "imagine storing your food in the toilet bowl" (source: extractions/sam-parr/transcript.txt).
+- A fabricated stat shipped without verification — breaks Sam's own guardrail, stated on camera: "Now everything I just said was fake. I don't know if that's true" (source: extractions/sam-parr/transcript.txt; see the Non-Negotiable Guardrail above).
+- "Comprehensive" copy that's complete but boring — Sam's own line: "There's no such thing as too long, just too boring" (source: extractions/sam-parr/transcript.txt).
+- Cheap question sign-offs / generic CTAs with no story behind them — a system-level gate (Farrice's standing feedback rule), not attributed to Sam; see references/source-ledger.md for the UNCONFIRMED-attribution note.
 
 ## Stacking Map
 - **Own taste skill** (`/taste-copy`, `/taste-lineage`): copy work is shared DNA — `/parr-swipe-twist` references it, doesn't rebuild.
