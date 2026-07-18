@@ -24,7 +24,9 @@ Carry the selected hook into full content generation without losing the payload,
 | Public copy clearance | `/publishable-copy-gate` |
 | Conversion or offer copy | `master-copywriter` or `/publishable-copy-gate` |
 
-## Handoff Shape
+## Output Schema
+
+The deliverable is a hook-to-content handoff block, not the finished piece — this workflow's contract is the transfer, so nothing that made the hook win (source, gap, rejected alternates) can silently disappear at the boundary.
 
 ```markdown
 ## Attention Hook Handoff
@@ -42,4 +44,8 @@ Carry the selected hook into full content generation without losing the payload,
 
 ## Quality Gate
 
-The hook is not the deliverable. It is the entrance. The next route must preserve the argument, not merely repeat the opening line.
+The hook is not the deliverable. It is the entrance. The next route must preserve the argument, not merely repeat the opening line. Reject a handoff if any of these hold:
+
+- **Selected hook** is filled in but **Curiosity gap** is blank or restates the hook instead of naming what tension it opens.
+- **Next route** points to a downstream workflow whose deliverable the hook cannot actually pay off (for example, routing a Single-Line Bomb hook meant for a hot take into a `/diandra-first-50` audit built for full-post semantic density).
+- **Rejected hooks** is empty — per genius.md Pattern 6 (Judgment Over Automation), a handoff with no rejected alternates means no judgment was exercised, only generation.
