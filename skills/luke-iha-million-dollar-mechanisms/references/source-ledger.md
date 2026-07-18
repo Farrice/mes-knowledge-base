@@ -1,0 +1,48 @@
+# Source Ledger — Luke Iha: Million-Dollar Mechanisms
+
+Every claim of Luke Iha's actual words or teaching in this skill traces to one of the sources below. Labels: **VERIFIED** (verbatim quote or direct paraphrase from a primary-source transcript), **LIKELY** (secondary/derivative synthesis — a report generated from a video, not the video's own transcript), **UNCONFIRMED** (no located source; flagged rather than invented).
+
+## Primary Sources (Transcripts)
+
+| Source | Path | Content | Status |
+|---|---|---|---|
+| "Proof Mechanisms" video transcript | `extractions/luke-iha/video-1-proof-mechanisms/transcript.txt` | Luke discussing proof weapons (jargon, explanatory reasoning, borrowed authority) — includes direct commentary on mechanism use, checked for this repair | VERIFIED — primary source, directly quoted in genius.md Anti-Patterns and Operating Principles |
+| "Levels of Awareness" video transcript | `extractions/luke-iha/video-3-levels-of-awareness/transcript.txt` | Luke walking through hook → payoff → mechanism → solution structure, including the Flexner-report/grounding worked example | VERIFIED — primary source, directly quoted in genius.md |
+| Insight Mastery video transcript | `extractions/luke-iha-insight-mastery/transcript.txt` | Luke's origin story for mechanism-thinking (his mentor Stefan Georgi, transcribed as "Stephan Georgie"), the metabolism/fat causation-reversal example, and his framing of mechanisms as "one of the most powerful concepts in marketing" | VERIFIED — primary source, directly quoted in genius.md |
+| "Vicious Hooks" video transcript | `extractions/luke-iha-hooks/transcript.txt` | Sibling-skill transcript; scanned for mechanism-adjacent material during this repair | VERIFIED as a transcript; not drawn on (no additional mechanism-specific quotes located beyond what the 3 sources above already provide) |
+| "Million-Dollar Mechanisms" video (this skill's namesake) | No `transcript.txt` on disk under `extractions/luke-iha/video-7-million-dollar-mechanisms/` | Confirmed by directory listing (`find extractions/luke-iha/video-7-million-dollar-mechanisms -type f`) — only `extraction-report.md` present | **Absent** — verified by file-system check, not assumed. See Secondary Sources below. |
+
+## Secondary Sources (Derivative Extraction Report)
+
+| Source | Path | Content | Status |
+|---|---|---|---|
+| Million-Dollar Mechanisms extraction report | `extractions/luke-iha/video-7-million-dollar-mechanisms/extraction-report.md` | AI-synthesized pattern report built FROM the video-7 transcript (which is not itself on disk) — contains UMP/UMS, SIN, Universal Mechanism Matrix, Characterization, Little Big Idea, Validation Triangle, Beat Map, Pain Matrix | LIKELY — this is a derived synthesis, not Luke's verbatim words. File size confirmed 13,953 bytes via `wc -c` (checked 2026-07-18) — not 0-byte, not missing, genuinely present and non-trivial in length. |
+| Video 4, 6, 8 extraction reports (copy-blocks, offer-cycling, proof-ladder) | `extractions/luke-iha/video-4-copy-blocks/`, `video-6-offer-cycling/`, `video-8-proof-ladder/` | Extraction reports only — no transcript.txt present, checked during this repair | LIKELY at best (report-only, no verbatim transcript to cross-check against). Not drawn on for this skill's content. |
+
+## Per-Claim Ledger
+
+| Claim / Content | Location | Status | Anchor |
+|---|---|---|---|
+| UMP vs UMS framework (name, definitions, decision table) | SKILL.md Core Capabilities; genius.md Operating Principle 3 | LIKELY | `extractions/luke-iha/video-7-million-dollar-mechanisms/extraction-report.md` only. Grepped all 8 luke-iha* `transcript.txt` files on disk for "UMP" and "UMS" — zero verbatim occurrences found. The underlying *concept* (reframing the problem's cause before naming the product) is independently VERIFIED via video-3 (see below); the acronym itself is not. |
+| SIN Framework (Simple/Intuitive/New) | SKILL.md, genius.md references | LIKELY | `extraction-report.md` only; not found verbatim in any transcript on disk. |
+| Universal Mechanism Matrix, Little Big Idea, Validation Triangle, Beat Map, Pain Matrix (names + structures) | SKILL.md Core Capabilities | LIKELY | `extraction-report.md` only; not found verbatim in any transcript on disk. |
+| "This is simply where you explain the mechanism behind why something works. You're not just making a claim, you're walking them through the cause and effect relationship." | genius.md, AP2 + Core Belief context | VERIFIED | `extractions/luke-iha/video-1-proof-mechanisms/transcript.txt` |
+| "this formula utilizes bioavailable curcumoids with enhanced absorption through liposomaal delivery mechanisms. Does your prospect know what half of that means? Probably not, but it sounds credible" | genius.md, AP1 + Operating Principle 1 | VERIFIED | `extractions/luke-iha/video-1-proof-mechanisms/transcript.txt` (transcript's own spelling "liposomaal" preserved verbatim) |
+| "you can just borrow the authority and credibility of all these people who use a sauna and through some steps, you can connect it back to the supplement" | genius.md, AP3 | VERIFIED | `extractions/luke-iha/video-1-proof-mechanisms/transcript.txt` |
+| "you lead them into a deeper problem mechanism and transition to your product" / "typically explaining the why behind the problem" | genius.md, Operating Principle 3 | VERIFIED | `extractions/luke-iha/video-3-levels-of-awareness/transcript.txt` |
+| "Here's what nobody ever mentions. and we go into the mechanism" (Flexner report / grounding example) | genius.md, AP5 | VERIFIED | `extractions/luke-iha/video-3-levels-of-awareness/transcript.txt` |
+| "people think I have slow metabolism, therefore I'm fat... simply reversing the causation of something is incredibly incredibly powerful" | genius.md, AP4 + Operating Principle 5 | VERIFIED | `extractions/luke-iha-insight-mastery/transcript.txt` |
+| "working with my uh my original copyrighting mentor Stephan Georgie, watching how he came up with mechanism and thinking about this for years and years and years" | genius.md, How to Use This Skill + How Luke Thinks | VERIFIED | `extractions/luke-iha-insight-mastery/transcript.txt`. Note: transcript's auto-transcription spells the name "Stephan Georgie" — the real person referenced is direct-response copywriter Stefan Georgi (also has his own skill in this system, `skills/stefan-georgi`). Preserved the transcript's exact spelling rather than silently "correcting" it. |
+| "one of the most powerful concepts in marketing, especially direct response marketing" / "it took me a while before I even wanted to share this inside of Genesis" | genius.md, Core Belief | VERIFIED | `extractions/luke-iha-insight-mastery/transcript.txt` ("Genesis" = Luke's own coaching program, named directly in the transcript) |
+| "Without a mechanism, every promise is just another claim" | genius.md, AP6 | LIKELY | `extractions/luke-iha/video-7-million-dollar-mechanisms/extraction-report.md`, section HK1 — this is the extraction report's own framing/paraphrase, not a Luke verbatim quote (no transcript exists to check it against). |
+| Hall of Fame Exemplars (Sleep Debt Switch, Gut Reset Protocol, Cognitive Dust Filter) and Anti-Exemplar | genius.md, Hall of Fame Exemplars | UNCONFIRMED as Luke's own copy | Not found verbatim in any located transcript or the extraction report. These read as illustrative composites written for the skill file to demonstrate the framework, not verbatim Luke examples. Not attributed to Luke as his own words anywhere in the skill; kept as instructional exemplars only. |
+| Expert-Specific Quality Rubric (all 7 criteria + score descriptions) | genius.md | UNCONFIRMED as Luke's own words | House-authored rubric built from the LIKELY framework material (extraction-report.md); not a Luke quote. |
+| Signature Moves (Jargon Drop, Candid Confession, Doubt Node Stack, Intuition Namer, Safety Blanket Guarantee) | genius.md | LIKELY | Consistent with VERIFIED material above (jargon, cause-effect, borrowed authority) but the specific "signature move" framing/naming is not itself a Luke quote; treat as house synthesis of verified patterns. |
+
+## Notes on This Repair (2026-07-18)
+
+- Confirmed via `find extractions/luke-iha/video-7-million-dollar-mechanisms -type f` and `wc -c` that this skill's namesake video has no `transcript.txt` on disk — only `extraction-report.md` (13,953 bytes, non-trivial, not 0-byte or missing). This is a real, file-system-verified absence, not an unread-file claim.
+- Because the mechanisms-specific transcript doesn't exist, this repair searched all 8 `luke-iha*` transcript.txt files present on disk (per name fragments, no punctuation, using `grep -rli mechanism extractions/luke-iha*`) and found direct Luke Iha commentary on mechanisms in 3 of them: `video-1-proof-mechanisms`, `video-3-levels-of-awareness`, and `luke-iha-insight-mastery`. These became the VERIFIED anchors for genius.md's new Anti-Patterns and enriched pattern sections.
+- All quotes used above were re-confirmed with an exact `grep -o` string match against the source transcript before being written into genius.md — no quote is paraphrased or approximated.
+- The core framework names (UMP/UMS, SIN, Universal Mechanism Matrix, Little Big Idea, Validation Triangle, Pain Matrix) remain LIKELY, sourced only to the derivative `extraction-report.md`. This is disclosed here rather than silently upgraded to VERIFIED — it is the one honestly-named gap in this skill's sourcing.
+- No new facts about Luke Iha's career, revenue figures, program details beyond "Genesis" (which is directly named in the transcript), or client results were added or altered in this repair.
