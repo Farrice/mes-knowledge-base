@@ -4,6 +4,18 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives for diagnosing and rebuilding a losing culture, not a checklist to march through in a memo. Absorb them, then build originally. The test: would Miller recognize this as a genuine identity-installation campaign — language repeated until it becomes the way people already talk about themselves — or as management-speak wearing Miller's vocabulary ("sound bites," "identity," "turnaround") without the discipline underneath? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label a deliverable "Pattern 4 applied here" or narrate which pattern you used — the machinery must be invisible in the output; only the installed language should be visible to the reader.
+- Do NOT produce a single "launch" moment (one memo, one all-hands announcement) and call it done. Miller's own installation examples run for months to years of repetition across multiple venues — a plan with no reinforcement cadence has failed before it started.
+- His operating texture here is blunt, not therapeutic: he reframes burdens as evidence of being chosen, tells leaders to stop being liked and start being respected, and treats "we're figuring it out" language as a leadership failure. Soft, hedged, consensus-seeking prose is the tell that this skill wasn't actually loaded.
+- Where this skill's own culture-specific case studies (documentation binders, named coaching turnarounds) go beyond what's verified in the checked source transcripts, treat them as illustrative, not evidentiary — check `references/source-ledger.md` before citing one as settled fact.
+
+---
+
 ## Genius Patterns
 
 14 unconscious mastery behaviors extracted from Miller's culture turnaround methodology.
@@ -28,6 +40,8 @@
 
 **Success Metric**: Can articulate the exact identity shift required before any behavioral intervention.
 
+**Real Example**: Miller describes this exact mechanic at his own company, BELAY, explaining why a positioning line became identity: "It's years of you guys repeating it to train our brains to think that. And agreeing that's who we were. So there's actually a business strategy and identity involved." (`extractions/Donald Miller/transcript.txt`)
+
 ---
 
 ## Pattern 3: The Obsessive Documentation Insight
@@ -47,6 +61,8 @@
 **Execute**: Take any strategy document and reduce to 5-9 sound bites that can be repeated until automatic.
 
 **Success Metric**: Every stakeholder can repeat the core sound bites without prompting.
+
+**Real Example**: A coffee-shop client's vague message ("coffee shop chaos... stop doing everything yourself") pulled 18 clicks in 48 hours; reduced to the zero-cognitive-load sound bite "losing baristas faster than you can hire. It doesn't have to be this way," the same 48-hour window pulled 125 clicks — a 600% increase. (`extractions/donald-miller/transcript.txt`)
 
 ---
 
@@ -68,6 +84,8 @@
 
 **Success Metric**: Leader's language never wavers regardless of current results.
 
+**Real Example**: Miller on the leadership transition carrying belief requires: "going from trying to be liked... to desiring to be respected... clear ambitions, clear objectives, clear communication... and honest feedback about their performance that is gracious and kind but tells the truth." (`extractions/Donald Miller Grow/transcript.txt`)
+
 ---
 
 ## Pattern 7: The Identity Attack Strategy
@@ -77,6 +95,8 @@
 **Execute**: Map losing beliefs in your culture, then design sound bites that specifically contradict and destroy each one.
 
 **Success Metric**: Every core sound bite maps to a specific losing belief it destroys.
+
+**Real Example**: Miller's underlying mechanism for why this has to be explicit: "The confused mind says no. If I don't understand what you're talking about, I'm going to say no." A vague sound bite lets people quietly reject the new identity instead of confronting the old one. (`extractions/donald-miller/transcript.txt`)
 
 ---
 
@@ -88,6 +108,8 @@
 
 **Success Metric**: Sound bites appearing consistently across all stakeholder touchpoints.
 
+**Real Example**: Miller on Chick-fil-A's "my pleasure" rollout under David Salyers — getting "the rank and file to understand them and employ them" required "collateral," "sales scripts," and "talking points" repeated across every venue over a three-year campaign. (`extractions/Donald Miller/transcript.txt`)
+
 ---
 
 ## Pattern 9: The PEACE Framework Application
@@ -98,6 +120,8 @@
 
 **Success Metric**: Five distinct sound bites covering the complete psychological journey.
 
+**Real Example**: Miller's own breakdown, verbatim: "I call it the peace framework... every story is about a hero who's at peace. Their peace is disrupted..." followed by the problem, empathy, answer, change, and end result soundbites in sequence. Built by Miller for customer-facing marketing in the source transcript — its application to internal culture identity here is this skill's extension, not something Miller states directly. (`extractions/donald-miller/transcript.txt`)
+
 ---
 
 ## Pattern 10: The One-Person Origin Recognition
@@ -107,6 +131,8 @@
 **Execute**: Stop looking for systems to copy. Find the one person who created the excellence and study their obsessions.
 
 **Success Metric**: Can name the specific individual responsible for any excellence you're studying.
+
+**Real Example**: Miller names the individual behind Chick-fil-A's culture-defining phrase directly: "I remember David Salyers at Chick-fil-A told me that their effort to get employees to say my pleasure... was a three-year disciplined campaign." One named person, one obsessive standard. (`extractions/Donald Miller/transcript.txt`)
 
 ---
 
@@ -148,9 +174,27 @@
 
 **Success Metric**: Can articulate the standard for every single touchpoint in your organization.
 
+**Real Example**: Installing "my pleasure" at Chick-fil-A meant, in Miller's words, "literally breaking lifelong habits for these teenagers and store managers" — sustained correction against scripted collateral, not a one-time ask. (`extractions/Donald Miller/transcript.txt`)
+
+## Miller Would Never... (Anti-Patterns)
+
+These are structural violations of Miller's culture-turnaround intelligence, each grounded in his own words or a real installation example he's told on the record. If any appear in output, you've departed from the methodology:
+
+- **AN-1: Announcing a Sound Bite Instead of Disciplining It In** — Rolling out language once and expecting adoption is the single most common execution failure. Miller's own example, describing Chick-fil-A's "my pleasure" installation under David Salyers: "their effort to get employees to say my pleasure when somebody says thank you was a three-year disciplined campaign... You would think it'd be like, 'Hey you guys, we say my pleasure now.' And everybody just does it. This is absolutely not the case." **Detection**: If a turnaround plan has one "launch" moment and no multi-month reinforcement cadence, it's a one-and-done violation. **Source**: `extractions/Donald Miller/transcript.txt`.
+
+- **AN-2: Confusing Being Liked With Leading the Culture** — Leaders who avoid confrontation to stay popular can't install a new identity. Miller, on the transition every leader must make: "going from trying to be liked... to desiring to be respected... Being liked is telling jokes, getting along. When it's my turn to speak up and confront people, I'm not going to do it because I want to be liked. This is of no service." **Detection**: If the plan avoids naming who is and isn't meeting the new standard, it's a liked-not-respected violation. **Source**: `extractions/Donald Miller Grow/transcript.txt`.
+
+- **AN-3: Vague Directives Instead of Zero-Cognitive-Load Language** — "Stop doing everything yourself" fails as culture language for the identical reason it fails as marketing copy: it's vague, so it registers as high cognitive load and gets ignored. Miller's own before/after: a coffee-shop client's vague "coffee shop chaos" messaging got 18 clicks in 48 hours; the specific rewrite — "losing baristas faster than you can hire. It doesn't have to be this way." — got 125 clicks in the same window, a 600% increase. **Detection**: Any identity language a stakeholder can't repeat verbatim after one hearing is too vague. **Source**: `extractions/donald-miller/transcript.txt`.
+
+- **AN-4: Skipping Straight to Behavior Without Naming the Identity Shift** — Miller's real example of language creating identity, describing years of repeating a positioning line at BELAY: "It's years of you guys repeating it to train our brains to think that. And agreeing that's who we were. So there's actually a business strategy and identity involved." **Detection**: If a turnaround plan lists new behaviors without a preceding identity sentence the organization is meant to repeat, the sequence is backward. **Source**: `extractions/Donald Miller/transcript.txt`.
+
+- **AN-5: One Venue, One Mention** — Sound bites that live in a single memo or one all-hands speech don't survive contact with a real organization. Chick-fil-A's "my pleasure" required "collateral," "sales scripts," and repeated reinforcement across "sales reps" and "store managers" over multiple years to actually take. **Detection**: If the plan doesn't name at least 3 distinct venues (meetings, docs, onboarding, reviews) the sound bite will reach, dissemination is incomplete. **Source**: `extractions/Donald Miller/transcript.txt`.
+
+---
+
 ## Hidden Knowledge
 
-Tacit knowledge points extracted from deep pattern analysis.
+Tacit knowledge points extracted from deep pattern analysis. 14 Genius Patterns above feed the 6 items below; each is a mechanism Miller treats as assumed knowledge rather than something he explains from scratch.
 
 ---
 
@@ -159,6 +203,8 @@ Tacit knowledge points extracted from deep pattern analysis.
 Sound bites are not motivational fluff—they are *cultural infrastructure*. They literally program the operating system of human minds through repetition. Treat them with the same rigor as technical infrastructure.
 
 **Deploy**: Engineer sound bites like you'd engineer software—with intention, testing, and iteration.
+
+**Real Example**: Miller's own language for what installed identity costs: it's "hard earned... years of you guys repeating it" — infrastructure, not a slogan. (`extractions/Donald Miller/transcript.txt`)
 
 ---
 
@@ -169,6 +215,8 @@ The sequence cannot be skipped: Plan → Belief → Sound bites → Identity cha
 Skipping steps guarantees failure. Most leaders try to change behavior directly—this never works.
 
 **Deploy**: Always start at the language level, not the behavior level.
+
+**Real Example**: Miller's insistence on sequence shows up even in his tactical formulas: "start with the problem the customer has. Don't start with your problem... Give them a three-step plan." Skip a step in that order and the message fails; the same discipline applies to Plan -> Belief -> Sound bites -> Identity -> Behavior -> Performance -> Results. (`extractions/Donald Miller Grow/transcript.txt`)
 
 ---
 
@@ -215,10 +263,12 @@ The question isn't "what is true?" but "what will be true because I declared it?
     *   **Intervention**: The new CEO, inspired by Miller's principles, instituted a radical cultural shift. The old mission statement was scrapped. A single, powerful sound bite was introduced: "We are the standard." This was not just a slogan; it was an *identity attack* (Pattern 7) on the "good enough" mentality and a *pre-belief carrying* (Pattern 6) by the CEO. Every meeting, email, and internal communication began or ended with this phrase. Simultaneously, an "Excellence Playbook" was developed – a several-hundred-page document detailing every process, quality check, and customer interaction standard, demonstrating *obsessive documentation* (Pattern 3) and *micromanagement rehabilitation* (Pattern 14). Failures were no longer "mistakes" but "opportunities to define the standard."
     *   **What makes this excellent**: This example demonstrates the *Identity-First Sequence* (Pattern 2) by starting with language to shift identity ("We are the standard") before expecting behavioral change. It deployed *sound bites* (Pattern 4) as *cultural infrastructure* (Tacit Knowledge 1), not just marketing fluff. The shift from "blame" to "defining the standard" is a powerful *privilege reframe* (Pattern 5). The CEO's unwavering declaration of this new reality, even when initial results were slow, exemplified *certainty outperforming strategy* (Tacit Knowledge 3).
 
-2.  **Coach Cignetti's "I Win. Google Me." (Verbatim from source material)**
+2.  **Coach Cignetti's "I Win. Google Me." (UNCONFIRMED — not located in any checked source file)**
     *   **Context**: When Curt Cignetti took over the James Madison University football program, it was under a cloud of mediocrity. He inherited a team with a losing record and a skeptical fan base.
     *   **Intervention**: Cignetti's first address to the team was direct and unapologetic: "I win. Google me." He didn't ask for belief; he *declared* his identity and *carried the belief* (Pattern 6) for the entire organization. This wasn't an arrogant boast; it was an *identity attack* (Pattern 7) on the team's losing identity and a *declaration of a new reality* (Tacit Knowledge 6). He then meticulously documented every aspect of the program—from practice schedules to weightlifting regimens to academic standards—creating a "thousand-page binder" that left no room for interpretation (Pattern 3). Every challenge was reframed as a privilege to prove their new identity (Pattern 5). The team went on to achieve significant success.
     *   **What makes this excellent**: This is a pure demonstration of *Leader Identity Defense Comes First* (Tacit Knowledge 4). Cignetti didn't try to change behavior first; he changed the *identity* through language. His *pre-belief carrying* was so strong it forced others to align. The *obsessive documentation* ensured that the declared identity had operational teeth, turning abstract belief into concrete standards. This also shows *the one-person origin recognition* (Pattern 10) of excellence.
+
+    **Provenance correction (2026-07-17 repair)**: This quote and case (Curt Cignetti, James Madison University) could not be located in any of the three checked source transcripts (`extractions/donald-miller/transcript.txt`, `extractions/Donald Miller/transcript.txt`, `extractions/Donald Miller Grow/transcript.txt`) despite a full-text search — the earlier "(Verbatim from source material)" label was false. Treat this exemplar as illustrative/UNCONFIRMED, not verbatim, until a source is located. See `references/source-ledger.md`.
 
 3.  **Anti-Exemplar: The "Positive Vibes Only" Initiative**
     *   **Context**: A tech startup was experiencing high burnout and internal conflict. Management decided to implement a "positive vibes only" policy, encouraging employees to use more positive language and participate in team-building exercises.
@@ -235,7 +285,7 @@ The question isn't "what is true?" but "what will be true because I declared it?
 ## Evolution Log
 
 > Tracks all evolution attempts — kept AND discarded.
-> Each entry documents a hypothesis, result, and lesson.
+> Each entry documents a hypothesis, result, and lesson. As of this repair pass (2026-07-17), 1 entry is logged below.
 
 ### 2026-04-09 — Culture Pulse Diagnostics (Culture Turnaround Strategic Roadmap)
 - **Hypothesis**: Culture installation without measurement infrastructure produces plans that can't distinguish real adoption from performative compliance. Adding leading indicators (Five Pulses), stall detection (three warning signs), and adoption-vs-compliance differentiation (Hallway Test) closes the "is it actually working?" gap.
