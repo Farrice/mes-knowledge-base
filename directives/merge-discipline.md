@@ -15,7 +15,14 @@ standing SOP those cards proved. The lock is the brake; this discipline is the s
   `/extract-forge`, and `/swarm` (wired 2026-07-17). A second concurrent session belongs
   in its own worktree, never in this tree.
 
-## Law 1 — Fleet writes are quarantined
+## Law 1 — Fleet writes are quarantined (hook-enforced since 2026-07-17)
+
+**Physical enforcement**: at fleet dispatch the conductor writes
+`.agent/fleet-active.json` (`{"mission","claimed":<epoch>,"protected":["skills/"],
+"ttl_min":90}`); `execution/hooks/fleet_write_guard.py` (PreToolUse Edit|Write) then
+hard-blocks direct edits to protected paths for every session/subagent on the tree.
+Delete the sentinel at fleet close; stale sentinels (>ttl) never block. Conductor
+merges via shell `cp` are unaffected by design.
 
 Dispatched workers (subagents, fleet executors, parallel builders) write **only** to
 `.tmp/<session>/<worker>/` — never to canonical paths. The conductor merges serially,

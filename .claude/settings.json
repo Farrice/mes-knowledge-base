@@ -45,6 +45,16 @@
     ],
     "PreToolUse": [
       {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/fleet_write_guard.py\"",
+            "timeout": 5
+          }
+        ]
+      },
+      {
         "matcher": "Bash",
         "hooks": [
           {
