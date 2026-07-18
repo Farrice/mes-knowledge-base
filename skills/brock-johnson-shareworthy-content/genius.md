@@ -4,6 +4,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist to stamp onto a caption. Absorb the share-trigger logic, then build the specific piece — a post that technically hits all 5 content types while saying nothing specific is still generic. The test: would Brock recognize this as content built backward from a share-trigger — or as someone using shareworthy-content vocabulary (labeling "here's the pattern interrupt," "here's the save trigger" inside the copy itself)? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce the mechanism in the output. Execute the pattern interrupt; never caption it "Pattern Interrupt:". A hook that names its own technique has already failed the 0.5-second test.
+- Brock's actual craft doesn't start from the taxonomy down (Relatable → Saveable → Controversial → Aspirational → Educational). Per `references/_legacy-prompts/viral-share-optimizer.md`, it starts from one specific person — "Who do they send it TO? What do they say WHEN they send it?" — and the content type follows from that answer, not the reverse.
+- His texture is hyper-specific, never platitude: "Day 47 of being my own boss and I just scheduled a meeting... with myself" beats "Entrepreneurship is hard" every time (`references/_legacy-prompts/shareworthy-content-generator.md`). A generic version of a true insight still fails — see this file's own Anti-Exemplar below, which scores 0/10 on Share-Trigger Architecture for exactly that reason.
+- Polish is the tell-class warning here: copy that reads like ad copy ("Unlock your potential today!") has already failed the "would I actually forward this to one named friend" test — regardless of how cleanly it checks every framework box.
+
 ## Genius Patterns
 
 ## Unconscious Mastery Behaviors
@@ -49,6 +59,7 @@
 **Executable behavior:** Optimize for human sharing triggers (social currency, emotion, practical value, identity) rather than platform-specific hacks (hashtag strategies, posting times, etc.)
 **Deployment context:** Long-term content strategy, platform-agnostic principles
 **Success metric:** Content that performs across platforms and survives algorithm updates
+**Source anchor:** `references/_legacy-prompts/algorithm-transcendence-playbook.md` states the underlying premise directly — "Algorithms change quarterly. Human nature hasn't changed in 200,000 years."
 
 ## Hidden Knowledge
 
@@ -57,12 +68,23 @@ People share for 5 reasons, in this order of power: (1) Identity expression — 
 
 ### 2. Metrics That Actually Matter
 Vanity metrics (likes, followers) are noise. The only metrics that predict growth: shares per impression, saves per impression, profile visits per post. Shares = reach. Saves = depth. Profile visits = conversion intent. Everything else is ego.
+**Source anchor:** SKILL.md's stated ratio — "1 share = 150-400 views (10-26x more than likes)" — is this skill's only numeric anchor for the shares-over-likes claim; treat as internal reference math, not an independently verified Instagram platform statistic (UNCONFIRMED against any primary source in this repo — see references/source-ledger.md).
 
 ### 3. The Format-Psychology Match
 Each format triggers different psychological responses. Reels = pattern interrupt + emotional hook. Carousels = save trigger + teaching authority. Stories = intimacy + reciprocity. Static posts = controversy + identity. Match the format to the psychological response you want, not the content topic.
+**Source anchor:** `references/_legacy-prompts/content-format-architect.md` frames this directly — "Format isn't a container for content. Format IS content."
 
 ### 4. Content Compounding
 One shareworthy piece > 30 mediocre pieces. Shareworthy content creates exponential reach through network effects. Each share exposes you to a new audience cluster that would never have found you through the algorithm alone. Quality doesn't just beat quantity — it makes quantity irrelevant.
+
+## Anti-Patterns (Sourced)
+
+- **Chasing algorithm mechanics instead of psychology** — never lead a strategy with posting-time optimization or hashtag-count tricks; per `references/_legacy-prompts/algorithm-transcendence-playbook.md`, both are flagged "Algorithm-dependent (fragile)" against the durable, psychology-dependent alternative.
+- **Engagement-pod reciprocity as a growth lever** — don't lean on pods for an initial boost; the same file marks pod reciprocity "Algorithmic suppression of pod engagement" — fragile by design.
+- **Generic content with no one specific person in mind** — don't ship a piece without a named "send to" target; per `references/_legacy-prompts/viral-share-optimizer.md`, generic content "doesn't say anything interesting about the sharer... aimed at everyone, so it feels aimed at no one."
+- **Aspirational flex with no achievable next step** — never show the "10 steps ahead" version without the "2 steps ahead" bridge; per `references/quality-rubric.md`, the "Look At Me" Aspirational Post anti-exemplar scores Aspiration Gap Engineering 0/10 for exactly this gap.
+- **Vague motivational platitude with stock imagery** — never ship a "Believe in yourself and good things will happen" graphic; this file's own Anti-Exemplar scores 0/10 on both Share-Trigger Architecture and Save-Worthy Density for it.
+- **Format-blind repurposing** — don't drop a Reel script into a static post unchanged; per `references/_legacy-prompts/content-format-architect.md`, "Format isn't a container for content. Format IS content," and each format triggers a different cognitive mode.
 
 ---
 
@@ -101,3 +123,4 @@ One shareworthy piece > 30 mediocre pieces. Shareworthy content creates exponent
 ## Quality Rubric
 
 > Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+> File size verified via `wc -c` during the 2026-07-17 repair pass: 83,382 bytes — confirms the rubric is populated (scored Hall of Fame + Anti-Exemplar table), not a stub.
