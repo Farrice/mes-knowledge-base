@@ -167,6 +167,24 @@ This is NOT "8 LinkedIn posts for $2K/month." This is:
 
 The a16z layer (unscripting, culture mapping, OODA, flood-zone) is what justifies the premium over standard ghostwriting.
 
+## Output Schema
+
+This workflow produces a **client-specific engagement package**, delivered in stages, not
+one monolithic document. Each stage has a required artifact:
+
+| Stage | Required Artifact | Format |
+|---|---|---|
+| Phase 1 (Voice Intelligence) | Voice Reference Document + Joe Rogan CEO Test score (1-10) + Controversy Map (green/orange/red zones) | Markdown doc, 3 sections minimum |
+| Phase 2 (Content Architecture) | Platform Voice Cards (1 per active platform) + City Map (Grand Central/Destinations/Lines/Passengers) + LinkedIn profile spec | Markdown doc or table per platform |
+| Phase 3 (Production, ongoing) | Long-form anchor piece(s) + platform-native extraction set matching the Monthly Deliverables table above — no piece ships without its culture-mode tag (Oral/Written/Hybrid) | Per-platform drafts, tagged |
+| Phase 4 (Protection) | Context-length defense index (one canonical link per controversial position) + Flood-Zone arsenal (5 pre-built pieces) + 48-hour assessment protocol doc | Reference index + content bank |
+| Engagement summary | Service tier selected (Foundation/Full Media/Kingmaker) + monthly deliverable count committed + pricing confirmed against the table above | 1-page brief |
+
+A deliverable that skips the Voice Reference Document or ships platform content without a
+culture-mode tag has not satisfied this workflow's contract, regardless of how polished the
+individual pieces read — the whole point of the compound service is that every asset traces
+back to a specific phase artifact above.
+
 ## Quality Gates
 
 - [ ] Voice fidelity: Would a close colleague believe the client wrote this? (score 8+/10)
