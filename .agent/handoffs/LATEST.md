@@ -13,8 +13,8 @@
 ---
 thread: frontier-elevation-day-one
 status: active
-resume_hint: Lane 4 279/279 + W1 closed + grading ratified + W4 shipped; open: one-liner surface decision, 07-24 flips, W4 head-to-head, W5-W7
-unfinished: W4 evidence run; W5 kernel/distro; W6 /make; W7 AFK+Drive; 07-24 weekly-closeout carries flip #2 + grading R2
+resume_hint: W1/W3/W4 + W7-core CLOSED; open: W5 kernel/distro, W6 /make, W7 phase-2, 07-24 flips; Farrice: install launchd runner when ready
+unfinished: W5 kernel/distro split; W6 /make any-domain; W7 phase-2 Drive sync; 07-24 weekly-closeout (flip #2 + grading R2)
 branch: main
 pin: true
 ---
@@ -39,6 +39,23 @@ pin: true
   run vs prose-JCC per .tmp/wave4-strike-pilot/COMPARISON-PLAN.md before migrating.
 - **FARRICE OPEN DECISION**: which surface the Authority Flywheel one-liner lives on —
   bio/landing (Dunford winner) vs cold DM/ad (Haynes runner-up). Resolves the dissent.
+
+- **W4 CLOSED ON EVIDENCE (head-to-head judged)**: HYBRID — prose strike stays DEFAULT
+  (82k tok, zero fabrications, one epistemic catch native missed); /strike-native
+  reserved for load-bearing-dissent independence (5/5 vs 3/5) at 4.5x cost. Steal-backs
+  into prose: forced claims table + persona-vocabulary firewall. Ruling appended to
+  .agent/workflows/strike-native.md. Cross-validation: both firewalled arms resolved the
+  dissent identically.
+- **W7 CORE SHIPPED**: execution/mission_runner.py (T1-only, refusal net ahead of tier
+  gate, lock-guarded, drafts-only) + fixture 5/5 + launchd/com.antigravity.mission-runner.plist
+  staged NOT installed (Farrice's call; install doc in directives/afk-mission-runner.md).
+  Conductor-caught defect: fixture was coupled to the LIVE session lock (5/5↔0/5 by lock
+  state; first run stale-claimed the conductor's lock) — fixed via SESSION_LOCK_PATH
+  test-isolation env in session_lock.py. Phase 2 open: gws Drive sync, cost line.
+- **Positioning set COMPLETE (Farrice-verdicted, in ladder doc)**: LinkedIn=Fusion A ·
+  About/landing=Dunford · ads/IG=B2 (B3 as 1B rotation) · EVAL-045 banked his felt
+  verdict; dissent-preserved-output feedback memory saved. Session lock token now
+  38fe75d38475 (old fb92 was stale-claimed by the W7 fixture — reclaimed).
 
 ## ACCELERATION PASS (late evening — Farrice: 2 days of Fable left, go max)
 Farrice's standing instruction (verbatim intent): trusts the conductor's judgment, NEVER
