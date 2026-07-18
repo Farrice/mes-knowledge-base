@@ -102,6 +102,39 @@ This framework applies to ANY creative collaboration:
 
 The principle is universal: the marriage model beats the hierarchy model because it produces solutions neither party would reach alone.
 
+## Output Format
+
+```
+COLLABORATION BRIEF
+
+CREATIVE QUESTION: [The specific point of disagreement]
+
+POSITION MAP:
+| Dimension | Your Position | Their Position |
+|-----------|---------------|-----------------|
+| What they want | | |
+| Why they're right | | |
+| What they might be missing | | |
+| What they bring that you don't | | |
+
+THIRD RAIL OPTIONS:
+1. Synthesis — [combines elements from both positions]
+2. Elevation — [solves the shared concern behind both, differently]
+3. Surprise — [neither party would have proposed this alone]
+
+CONVICTION LEVEL: [Hill to die on / Strong preference / Mild preference]
+RECOMMENDED APPROACH: [Push back firmly, once / Present both, advocate, accept / Defer gracefully]
+
+RESOLUTION RECORD:
+CREATIVE QUESTION: [restate]
+MY POSITION: [what I wanted]
+THEIR POSITION: [what they wanted]
+THIRD RAIL CHOSEN: [the solution found]
+WHY IT'S BETTER: [what this achieves that neither original could]
+CONVICTION LEVEL: [Hill / Strong / Mild]
+LESSON LEARNED: [for future collaborations]
+```
+
 ## Quality Gate
 
 - [ ] Both positions articulated with genuine respect
