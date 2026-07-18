@@ -4,6 +4,18 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These ten patterns are diagnostic instincts, not a checklist to march through in order. A McKinsey engagement manager never opens a client deck with "Applying Pattern 3: 7S Framework" — the framework disappears into the finding. If your output announces "Per the MECE Principle..." or numbers its sections "Pattern 1, Pattern 2, Pattern 3," the assignment has failed even if every fact underneath is correct.
+
+The test: would a McKinsey-trained engagement manager recognize this as genuine 7S/MECE/Pyramid-Principle analysis — or as someone using consulting vocabulary without the discipline behind it? Real consulting output leads with the answer (the "So What"), never with the process that produced it.
+
+Specifically:
+- Do NOT cite pattern numbers or framework names inside client-facing deliverables. Run the 7-Step process silently; deliver only the pyramid — main insight, then supporting points, then evidence.
+- Do NOT hedge with "this could suggest" language once a finding has passed the So What Test (Pattern 10). State the implication first, the evidence second — inverting that order is the single most common way this skill's output reads like a summary instead of a diagnosis.
+- This method's texture is decision-grade brevity: one main insight, three-to-five supporting points, named evidence underneath each. A report that builds toward a conclusion instead of leading with it has inverted the Pyramid Principle regardless of how accurate its content is.
+- Polish-is-the-tell: a deliverable with uniformly hedged "may indicate" findings and zero named competitors, dollar figures, or direct quotes pulled from the client's own site is unrigorous no matter how professionally formatted it looks. Every finding needs a real anchor — see the Named-Entity Floor discipline running through every pattern below — or it does not ship.
+
 ## Genius Patterns
 
 > Genius patterns for world-class business analysis.
@@ -22,6 +34,8 @@ The core McKinsey methodology. Apply this to structure any audit:
 6. **Synthesize findings** → What does the data tell us?
 7. **Develop recommendations** → Actionable, prioritized next steps
 
+*Provenance: this is the documented McKinsey/BCG/Bain define→structure→prioritize→plan→analyze→synthesize→recommend cycle — see Slideworks' "The BCG and McKinsey problem solving process" and Wasil Zafar's consulting-frameworks series (source-ledger.md, Claim 1). Not this skill's invention.*
+
 ---
 
 ## Pattern 2: MECE Principle
@@ -36,6 +50,8 @@ Every analysis should:
 - Product / Market / Operations / Finance
 - Awareness / Consideration / Conversion / Retention
 - Strategy / Structure / Systems / Skills / Staff / Style / Shared Values (7S)
+
+This skill's own execution prompts enforce it as a hard gate, not a suggestion — `references/prompts-v2/01-business-scan.md` line 42 instructs: "Apply MECE principles—be comprehensive but avoid redundancy," and its Quality Gate (line 102) fails a deliverable outright if "No two bullets in the same section restate the same fact."
 
 ---
 
@@ -54,6 +70,8 @@ Analyze organizational alignment across 7 elements:
 | **Staff** | Soft | Who works there? (team page, LinkedIn) |
 
 **For web-based audits:** Focus on visible elements (Strategy, Systems, Shared Values, Skills, Style). Staff/Structure may require LinkedIn research.
+
+*Provenance: originated by McKinsey consultants Robert Waterman and Tom Peters in the 1980s (see StrategyU's "Five Powerful Consulting Frameworks: MECE, 7S, Porter's Five Forces, BCG Growth-Share & Ansoff" — source-ledger.md, Claim 3). A genuinely external, well-documented framework, not synthesized for this skill.*
 
 ---
 
@@ -123,6 +141,8 @@ Scan for cognitive biases in the business's decision-making:
 | **Hope** | No evidence for claims, wishful thinking | Credibility gap |
 | **Ignorance** | Outdated positioning, missing trends | Competitive blindness |
 
+*Provenance note (honesty over convenience): this pattern is grouped alongside real McKinsey frameworks in this skill's reference file, but "Fear, Greed, Hope, Ignorance" is not a McKinsey-attributed concept. It traces to investment-psychology commentary — the "four horsemen of the investment apocalypse" discussed in outlets like The Globe and Mail's O'Shaughnessy column and Fibtimer's trading-psychology writing (source-ledger.md, Claim 7) — adapted here for messaging-bias diagnosis. Cite it as this skill's own adaptation, never as McKinsey's.*
+
 ---
 
 ## Pattern 8: Pre-Fall / Post-Fall Assessment
@@ -162,6 +182,19 @@ For every finding, ask: **"So what?"**
 ---
 
 *Reference: McKinsey & Company problem-solving methodology, MECE, Pyramid Principle (Barbara Minto)*
+
+---
+
+## Anti-Patterns
+
+Grounded in this skill's own reference and workflow files — real failure modes this skill has already caught and encoded in its Quality Gates, cited by file + line, not invented for this repair pass.
+
+- **Generic, unactionable observations.** `genius.md`'s own Anti-Exemplar documents the failure mode directly — the observation "Your marketing strategy lacks clear differentiation in a crowded market, which could be impacting your customer acquisition" is flagged as failing the "So What" Test (Pattern 10) because it names no specific evidence, no competitive frame, no measurable impact (genius.md, Anti-Exemplar section, line 191).
+- **Time-bucketing masquerading as strategy.** `workflows/executive-growth-roadmap.md` line 77: "Recommendations bucketed only by time horizon (0-7 days, 30 days, 90 days) without funding dependencies. Time-bucketing creates a calendar; cascade-sequencing creates a strategy." Caught and corrected 2026-04-09 per this file's own Evolution Log below (score delta 6.7→8.3).
+- **Inventing precision to sound rigorous.** `references/prompts-v2/04-messaging-audit.md` line 50: "Never invent a concrete number to illustrate the fix — pull the improvement from what the business could truthfully claim, or flag that no concrete proof exists yet."
+- **MECE violations via redundant bullets.** `references/prompts-v2/01-business-scan.md` line 102 Quality Gate: "No two bullets in the same section restate the same fact (MECE check)" — a section that restates one finding across three bullets fails Pattern 2 even if each bullet reads cleanly alone.
+- **Recommendations with no stated downside.** `references/prompts-v2/09-recommendation-engine.md` line 51 requires "at least 3 items to stop, avoid, or not invest in, each with a reason" — an audit that only lists what to build, never what to kill, is incomplete by this skill's own contract.
+- **Generic XYZ framing.** `references/prompts-v2/02-competitive-intelligence.md` line 107 Quality Gate: every XYZ statement must "name a real, specific implication (not a generic \"improve marketing\")" — a competitive finding that resolves into vague advice instead of a named strategic implication fails Pattern 9 on its own terms.
 
 ---
 
