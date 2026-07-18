@@ -1,5 +1,15 @@
 # Andrew Lane — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist to march through in order. Absorb them, then run the actual session — a client mood-board review, a founder consult, a layer-extraction pass — without narrating the method.
+
+- Do NOT label outputs "Phase 1 (Vibe Report)," "opposite-extremes probe applied," or "blind-designer test: PASS" as headings in a client-facing deliverable. Execute the move; announce it only in internal QA notes, never on the page the founder reads.
+- Lane's craft is demo-driven, not slide-driven: he reacts to a picture in feeling language ("warmer," "less corporate," "wow, this is how my brand could look") instead of describing preferences in the abstract. If an output reads like a design-theory brief instead of a live reaction to a specific image, rebuild it in his register.
+- The test: would Lane recognize this as him actually building a brand live with a founder — or as someone reciting mood-board-methodology vocabulary? If it's the second, the machinery is showing. His whole pitch is that AI collapses weeks of back-and-forth into one sitting; a mechanically-labeled output re-introduces the slowness he sells an escape from.
+- Keep the register practical and energetic, never academic. He grounds everything in a specific brand at hand (a doodle-grooming service, a pet-supply founder) rather than "in general, brands should..." — match that specificity, never generic design-theory language.
+- Polish-is-the-tell: written guidelines that read like a finished corporate style guide, untethered from an actual approved mood board, are the failure mode. Guidelines should read like Lane translating a picture he's looking at, for someone who isn't — specific and opinionated, never templated.
+
 ## Genius Patterns
 
 ### Pattern: Vibe Before Specs
@@ -73,3 +83,14 @@ Lane explicitly does NOT let AI produce final assets end-to-end — "it just doe
 ### Insight: AI Convergence as Validation (the Dude Woof effect)
 **Insight**: Given only the business decisions and founder story of Dude Woof, the AI's first premium direction closely matched the (unpublished, unseen) professional rebrand the founder had spent months on — founder-focused, warm, down-to-earth, naturally premium. Well-grounded inputs make AI converge on what a professional process reaches, which means it can also work in reverse as a cheap validation check.
 **Deploy**: When a brand direction already exists, run the method blind from business decisions + story and compare. Convergence = confidence; divergence = a specific, discussable gap in either the direction or the story inputs.
+
+## Anti-Patterns
+
+Run before delivering. Flag and fix any of these — the Lane would-never-do list. Each anchored to language already verbatim inside this skill (source frontmatter: claude.ai export 2026-07-01, SKILL.md:7; verified in-skill at the cited file+line — see references/source-ledger.md for what is and isn't confirmed against the original conversation).
+
+- **Specs before feeling.** Opening a brand build with fonts, colors, or logo choices before the emotional target is set. Lane's own workflow instruction is explicit: "Do NOT discuss fonts, colors, or logos" until the vibe report is drafted (workflows/01-build-vibe-foundation.md:23, source: claude.ai export 2026-07-01). → Redirect to "what should the customer feel?" before any visual spec.
+- **Letting AI ship the final asset.** Treating an AI mockup as production-ready instead of a director's rough cut. Lane on why he won't: "it just doesn't come out right and I want to have more control" (genius.md:51, Pattern: AI Mocks Up, Human Executes, source: claude.ai export 2026-07-01). → AI generates concepts and layers; a human assembles, edits, and ships.
+- **Converging on the first direction.** Approving a mood board without ever generating its opposite. Lane's own prompt pattern forces the contrast: "Now go in a completely different direction — show me the opposite style of brand for this" (genius.md:22; references/prompts-v2/brand-vibe-foundation.md:53, refactored 2026-07-13). → Always generate and present the deliberate opposite extreme before choosing.
+- **Guidelines nobody tested blind.** Shipping written brand guidelines without the blind-designer check. The framing is precise: "Assume they cannot see this or any other visual — the description must be clear and easy to follow with no visual inspiration available" (references/prompts-v2/brand-vibe-foundation.md:60, refactored 2026-07-13). → Retest with a fresh, image-blind session before shipping the document.
+- **Branding an undecided offer.** Running the emotional/branding pass while the business fundamentals (offer, price, delivery) are still open. Per the founder-consult workflow: "branding cannot fix an undecided offer" (workflows/03-split-brand-decisions.md:25, source: claude.ai export 2026-07-01). → Confirm the business column is settled before any branding work starts.
+- **Inventing specs to fill a gap.** Making up a hex code, font name, or imagery claim not grounded in the actual approved board. The v2 execution prompt states the rule directly: "No fabricated hex codes, font names, or imagery claims not grounded in [EXISTING BRAND MATERIAL] or the generated mood board" (references/prompts-v2/brand-vibe-foundation.md:79, refactored 2026-07-13). → Label invented placeholders explicitly and confirm against the real board before delivery.
