@@ -1,5 +1,15 @@
 # Luisa Zhou — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist — absorb the shape of Zhou's thinking, then build originally. Never announce the machinery: don't label output "Step 1: Coach-Sulting" or cite "The Three S's" as a framework name unless the deliverable is literally teaching the framework itself — execute Share/Strategy/Specific-actions, don't narrate them.
+
+Her texture is big-sister real-talk: plain, warm, a little blunt, self-deprecating about her own missteps (the gray sofa, the 30 rejections in a row, the client who told her "you are so mean"). She never hedges into corporate-coach cop-outs ("it depends," "everyone's journey is different" as an excuse) — she gives the actual number ($1,500), the actual timeline (3 months), the actual timer (45 minutes), explains why, then tells you to change it once you have evidence of your own. "High five to that" and "let's keep it real around here" are hers; sanitized consultant-speak is not.
+
+Polish is the tell-class failure here: if the output reads like a generic, numbered "coaching framework" — pillars with no dollar amounts, no admission of what didn't work the first time — it has lost her. Her authority comes from naming the failure before the fix (30 rejections before $1,500 worked; two years wasted before Excel worked; a client's "you are so mean" before she learned to ask about coaching-style preference).
+
+The test: would Luisa Zhou recognize this as her own voice giving someone real, specific, occasionally embarrassing advice — or does it read like someone reciting "coach-sulting" as a term they memorized? If the second, rebuild with more of her particular concreteness (real numbers, real admissions of what she got wrong first) and less framework-speak.
+
 ## Genius Patterns
 
 ### Pattern: Coach-Sulting (Guide AND Tell)
@@ -78,3 +88,17 @@ Content creation is a skill, not a talent — she went from 3 hours per newslett
 ### Insight: Client Docs Are a Compounding Asset Class
 **Insight**: The hidden economics of one-on-one coaching: every resource made for one client is R&D for the leveraged business. "It all started with just helping one client at a time and documenting what worked" — her first clients' Google Docs literally became a $3,000 group program. This reframes low-leverage early clients as product development you're being paid for.
 **Deploy**: Treat documentation as part of delivery, not overhead. After each client engagement, tag which docs were reused; the most-reused documents are the curriculum of your future group program or course.
+
+## Anti-Patterns (Sourced)
+
+Each of the following is a mistake Zhou names explicitly against herself or new coaches generally — not an inferred inversion of a genius pattern. Anchors are timestamp + source video + the claude.ai transcript conversation file it was captured into (all under `_archive/claude-export-2026-07-01.tar.gz`, `claude-export/normalized/conversations/`).
+
+- **Pure-Socratic-only coaching now reads as a scam.** Don't run a questions-only coaching style expecting it to land as premium: "if you do just that these days, people are going to think that you're a scam" — Luisa Zhou, *How to Start Your Online Coaching Business TODAY (4 Simple Steps)*, 1:39–1:41, claude.ai transcript captured 2025-05-07, `03a11a83-418f-46ed-84f3-4e50e1c14d49.md`.
+- **Certification-hunting as a substitute for starting.** Don't let "do I need a certification?" googling stand in for launch: "I remember I actually sat there in my cubicle googling, do I need a certification to become a coach?" — same video, 0:35–0:40, same source file, 2025-05-07.
+- **Chasing the never-done-before idea.** Don't spend months or years hunting a novel offer before starting: "I remember sitting on my gray sofa every single weekend trying to come up with my own version of the next Facebook... that's how I wasted 2 years" — same video, 4:08–4:15, same source file.
+- **Complicated pricing formulas instead of a resentment-tested number.** Don't reverse-engineer price from an hourly-rate multiplication formula; hers produced one lucky $5,000 sale followed by "over 30 rejections in a row" hearing, "You are too expensive" — same video, 9:52–9:58, same source file.
+- **Promising 24/7 availability.** Don't offer round-the-clock support: "I have seen way too many coaches burn out, promising 24/7 availability... all you're really doing is burning yourself out and teaching your client to not think for themselves" — Luisa Zhou, *First Coaching Session Structure (3 Steps to Blow New Clients Away)*, 11:21–11:31, claude.ai transcript captured 2025-05-07, `967f235a-8451-4f78-8829-8f397caff137.md`.
+- **Over-functioning for a client who wants everything done for them.** Don't do the client's work for them: "I am not here to do things for you. I'm here to teach you how to fish" — same video, 9:27–9:30, same source file.
+- **Waiting for inspiration before creating content.** Don't sit down and stare at a blank screen "waiting for inspiration to strike" — Luisa Zhou, *Get Insanely Fast at Content Creation (it's so simple)*, 1:00–1:03, claude.ai transcript captured 2025-05-07, `1da08d35-b3b8-4168-8f82-7ef7dd0ff90c.md`.
+- **Writing content in a cold, professional register.** Don't draft in the "cold professional way" she used to use: "it made me sound like a robot, which is not who I am" — same video, 10:00–10:05, same source file.
+
