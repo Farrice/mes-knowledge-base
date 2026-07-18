@@ -19,11 +19,21 @@ Use this when a founder has too many brands, offers, launches, or priorities.
 5. Define continue, correct, or kill thresholds.
 6. Produce the weekly meeting map.
 
-## Output
+## Output Schema
 
-- Four SGM blocks.
-- Owner map.
-- Weekly truth dashboard.
-- Bottleneck verdict.
-- First operating move.
-- Stop condition.
+- Current stage (one of the six named stages), with evidence or a flagged assumption.
+- Exactly four SGM blocks, each with: name, one owner, one weekly truth metric, continue/correct/kill threshold.
+- One portfolio-level finance signal reviewed first, with rationale.
+- Weekly meeting map (who / what / cadence / escalation trigger).
+- Bottleneck verdict: the single primary constraint, not a list.
+- First operating move: the one action to take this week.
+- Stop condition: the observable signal that means this plan should halt or be revisited.
+
+## Quality Gate
+
+- Are there exactly four SGM blocks — no more, no fewer — each genuinely distinct (not two initiatives relabeled to force the count)?
+- Does every block carry both a named owner AND a weekly truth metric that is financial, margin, channel, or timing — never a vanity or vibes metric?
+- Is the bottleneck verdict a single named constraint, not a list of possible issues?
+- Does the stage call state its evidence, or explicitly flag itself as an assumption, rather than asserting confidently with no basis?
+- Is the stop condition observable and specific, not "if things go wrong"?
+- Are medical/regenerative-health, exit-timing, or valuation claims absent unless explicit evidence and a professional-review boundary are stated?

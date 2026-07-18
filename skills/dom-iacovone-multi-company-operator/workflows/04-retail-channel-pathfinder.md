@@ -19,10 +19,18 @@ Use this when choosing between DTC, TikTok, Amazon, direct retail, DSD, wholesal
 4. Identify buyer-request risk.
 5. Define what must be true before expanding to the next channel.
 
-## Output
+## Output Schema
 
-- Channel sequence.
-- Incentive map.
-- Retail lag map.
-- Buyer-risk notes.
-- Next channel test.
+- Channel sequence: the ordered path (e.g., TikTok -> Amazon -> retail), not an unordered list of channels.
+- Incentive map: each channel scored on demand creation, margin, execution incentives, lag time, and brand fit — five scores per channel.
+- Retail lag map: for any channel with retail/wholesale exposure, what is already loaded vs. what shows up in current revenue.
+- Buyer-risk notes: named per channel involving a retail buyer, or explicitly marked N/A.
+- Next channel test: one falsifiable trigger that must be true before expansion.
+
+## Quality Gate
+
+- Does the channel sequence reflect a real demand path, not a wishlist of channels chosen by prestige or competitor mimicry?
+- Is every channel scored on all five dimensions (demand creation, margin, execution incentives, lag time, brand fit) — is a channel missing a score treated as an incomplete map, not skipped silently?
+- Is buyer-request risk named for every channel involving a retail buyer, or explicitly marked N/A?
+- Is the "next channel test" a single falsifiable trigger, not a general growth goal like "keep scaling"?
+- Does the map distinguish direct retail placement from actual store-level sell-through (shelf access is not execution)?
