@@ -23,11 +23,23 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+The 9 genius patterns are a diagnostic instinct, not a form to fill out. Absorb GP-01 through GP-09, then produce an audit, rewrite, or hook set that reads like a working regulatory-affairs review signed by someone who has internalized the FTC/FDA framework — never like a checklist with boxes ticked. The test: would a supplement regulatory attorney AND a Ballard/Dougherty-grade DR copywriter both recognize this as real sign-off, or as an AI performing compliance? If it reads like the second, rebuild it (GP-08).
+
+Specifically:
+- Do NOT narrate "GP-01 check: Bucket 3, PASS" or label which pattern you applied unless the workflow's Output Schema explicitly asks for that column — classify silently, then state the verdict.
+- Do NOT hedge every sentence as a substitute for actually clearing the claim. GP-07 is explicit: hedge-everything, disclaimer-stapled copy is the failure mode that fails BOTH experts, not a safe fallback. Compliance theater is a tell, not a margin of safety.
+- This isn't one person's voice to mimic — there's no single "expert" cadence here (see Source Caveats). The texture that matters is Ballard/Dougherty-grade specificity: dose, delivery form, ingredient mechanism replacing vague outcome language, the way GP-07's magnesium-glycinate example replaces "boosts immunity."
+- Polish is the tell in a specific, non-obvious way here: legally airtight but flat, over-qualified prose is exactly the compliance-theater failure GP-08 exists to catch — a $650K enforcement order (Rejuvica/Sobrenix, Nov 2024) didn't happen to hedge-everything copy, it happened to copy that skipped the hedge; ship-grade output still has to convert.
+
+---
+
 ## The Underlying Belief
 
 > **Compliance is not a disclaimer bolted onto the end of good copy. It is a persuasion architecture built from permissible claims.**
 
-The compliant/converting split is false. The FTC's own guidance and the practitioner rewrite banks agree: the constraint (describe the mechanism and the experience, not the disease outcome) forces *more* specific, more credible copy — vague disease-cure language is what generic AI and lazy copywriters default to; specific structure/function language backed by ingredient mechanism reads as more expert, not less compelling.
+The compliant/converting split is false. The FTC's own guidance and the practitioner rewrite banks agree: the constraint (describe the mechanism and the experience, not the disease outcome) forces *more* specific, more credible copy — vague disease-cure language is what generic AI and lazy copywriters default to; specific structure/function language backed by ingredient mechanism reads as more expert, not less compelling. This isn't theoretical: the FTC's Health Products Compliance Guidance (Dec 2022, updated 2023) exists because generic hedge-copy kept failing enforcement scrutiny at real consequence — a $650K refund order for Rejuvica/Sobrenix in Nov 2024 for exactly the kind of vague-outcome claim this pattern replaces.
 
 ---
 
@@ -71,7 +83,7 @@ FTC's "competent and reliable scientific evidence" standard is not one bar — i
 
 ## GP-03 — Net Impression Over Isolated Sentences
 
-The FTC evaluates an ad's **net impression** — text, product name, imagery, layout, and testimonials together — not any single sentence in isolation. A page can be sentence-by-sentence compliant and still be a deceptive ad if the overall vibe implies a disease claim.
+The FTC evaluates an ad's **net impression** — text, product name, imagery, layout, and testimonials together — not any single sentence in isolation. A page can be sentence-by-sentence compliant and still be a deceptive ad if the overall vibe implies a disease claim. This is not a modern platform-era rule: it traces to the FTC's 1983 Deception Policy Statement, decades before Meta or TikTok ad review existed.
 
 **Practical test**: Read the page as a stranger who skims headlines, glances at images, and reads one testimonial. What do THEY think the product does? If that net impression is a disease claim, the page fails regardless of how careful the body copy is.
 
@@ -117,7 +129,7 @@ Four rewrite moves, sourced from Jake Ballard (DTCskills.com) and P.J.S. Dougher
 4. **Realistic-expectation framing** — "Most customers notice a difference within the first week" grounds the claim in typical results (satisfies GP-05) while still converting — vague absolutes ("works instantly") satisfy nobody legally or persuasively.
 
 ### Word-Swap Bank (high-frequency violations → compliant alternatives)
-See `references/red-flag-word-bank.md` for the full table. Headline entries:
+See `references/red-flag-word-bank.md` for the full table, organized against Dougherty's category-specific high-risk term list (inflammation, pain, immune, cholesterol, blood pressure, testosterone, weight-loss) and cross-checked against 16 CFR Part 255 endorsement rules. Headline entries:
 
 | Banned | Compliant |
 |---|---|
@@ -139,7 +151,7 @@ Before shipping any claim-touching copy, ask: **would a supplement regulatory at
 - The copywriter fails copy that converts by making disease claims, unqualified superlatives, or atypical testimonials without disclosure.
 - **Pass condition**: the copy converts on mechanism, specificity, and real social proof — not on a claim either expert would flag.
 
-This is the recognition test: would a Cohen Healthcare Law Group-style regulatory reviewer AND a Ballard/Dougherty-style DR copywriter both wave this through unchanged?
+This is the recognition test: would a Cohen Healthcare Law Group-style regulatory reviewer AND a Ballard/Dougherty-style DR copywriter both wave this through unchanged? The test exists because skipping it is expensive, not theoretical: Rejuvica/Sobrenix ran exactly the claim a regulatory attorney would have flagged and paid $650K in required refunds for it (Nov 2024).
 
 ---
 
@@ -156,20 +168,20 @@ For weight-loss claims specifically, the FTC maintains a standing list of claims
 
 1. **Never let a testimonial's language become the claim.** A real customer saying "this cured my anxiety" cannot be quoted verbatim as marketing copy — the disease-claim risk transfers from the customer's words to the brand's ad regardless of who said it first.
 2. **Never treat a disclaimer as a cure for a deceptive net impression.** ("Results not typical" in 8pt font does not fix an atypical testimonial — GP-05.)
-3. **Never borrow ingredient-level clinical evidence for a product-level claim** without confirming dose/formula match (GP-02 NAD rule).
+3. **Never borrow ingredient-level clinical evidence for a product-level claim** without confirming dose/formula match (GP-02 NAD rule) — NAD's 2025 Reus Research (NAD+ dosing) and Ingenuity BrainPack decisions (BBB National Programs) are the anchor cases: ingredient-level Tier 5 evidence does not transfer to a product-level claim unless dose and delivery mechanism match exactly.
 4. **Never self-author a "qualified claim."** Only FDA's pre-authorized list + FDA's own disclaimer language counts (GP-04) — inventing your own hedge language is not the same mechanism and does not carry the same legal protection.
-5. **Never assume legal-compliant copy passes platform review.** Meta/TikTok/Amazon enforce stricter, partly-automated rules layered on top of FTC/FDA (GP-06) — always run the platform pass separately.
-6. **Never cite a disease-outcome study to support a structure/function claim**, even if the on-page language stays technically S/F (GP-01, trigger 5).
-7. **Never write copy assuming a human reads it first on Amazon.** Assume a keyword scanner reads disease-name and treatment-verb tokens first (GP-06).
+5. **Never assume legal-compliant copy passes platform review.** Meta/TikTok/Amazon enforce stricter, partly-automated rules layered on top of FTC/FDA (GP-06) — always run the platform pass separately; see `references/platform-rules.md`, e.g. Meta's Personal Attributes policy banning second-person symptom framing even on a fully compliant structure/function product.
+6. **Never cite a disease-outcome study to support a structure/function claim**, even if the on-page language stays technically S/F (GP-01, trigger 5) — this is the citation-borrowing trigger named in FTC's *Health Products Compliance Guidance* (Dec 2022, updated 2023).
+7. **Never write copy assuming a human reads it first on Amazon.** Assume a keyword scanner reads disease-name and treatment-verb tokens first (GP-06) — Amazon's Seller Central dietary-supplement policy scanner does not parse sentence-level meaning, detailed in `references/platform-rules.md`.
 
 ---
 
 ## Concrete-Metaphor Library (abstraction → source-anchored image)
 
-- **Net impression** = reading the whole billboard from a moving car, not proofreading the fine print (FTC's own framing: what a reasonable consumer takes away, not what the marketer intended).
+- **Net impression** = reading the whole billboard from a moving car, not proofreading the fine print — the FTC's own "reasonable consumer" framing (1983 Deception Policy Statement) asks what a skimming stranger takes away, not what the marketer intended.
 - **Substantiation ladder** = a courtroom evidence hierarchy — eyewitness testimony (Tier 0/testimonial) never outweighs forensic lab results (Tier 5/RCT), no matter how many eyewitnesses you stack.
-- **Qualified claims doctrine** = a plea bargain FDA negotiates, not a loophole a brand invents — the disclaimer language is FDA's plea agreement text, not a template to improvise from.
-- **Platform keyword scanners** = a metal detector at an airport — it flags the disease-word token regardless of the sentence's actual legal meaning; write assuming the machine reads first, the human second.
+- **Qualified claims doctrine** = a plea bargain FDA negotiates under *Pearson v. Shalala* (164 F.3d 650, 1999), not a loophole a brand invents — the disclaimer language is FDA's plea agreement text, not a template to improvise from.
+- **Platform keyword scanners** = a metal detector at an airport — Amazon's scanner flags disease-word tokens regardless of the sentence's actual legal meaning (`references/platform-rules.md`); write assuming the machine reads first, the human second.
 
 ---
 
