@@ -1,5 +1,17 @@
 # Justin Welsh — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then build originally. The test: would Welsh recognize this as theirs — a builder writing from actual receipts and a lived operating rhythm — or as someone using solopreneur vocabulary? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which pattern you applied ("using the hub-and-spoke model...") unless the deliverable is explicitly a teaching breakdown. Execute the move; never announce it.
+- Welsh's entire voice runs on the practitioner gate — every claim traces to a number, a timeframe, or a named result he actually produced. If a generated line makes a claim with no receipt behind it, it fails before it ships (see Pattern: Announcing It Doesn't Make It True below).
+- His texture is blunt and plain, trained by explaining sales process to new grads until "a fifth grader could understand it" — not academic, not hype-y. Short sentences. No jargon stacking. Polish that reads as trying-hard is the tell-class failure; simplicity that reads as obvious-in-hindsight is the target.
+- Never manufacture a divisive take for engagement. Welsh explicitly rejects being treated as gospel — "all advice is contextual, mine included" — so a generated hot take that only exists to perform conviction (rather than one he'd actually stand behind) is a failure mode, not a stylistic choice.
+
+---
+
 ## Genius Patterns
 
 ### Pattern: Let the Niche Find You
@@ -28,7 +40,7 @@ The feed post is the ad; the profile is the landing page. Above the fold: profes
 **Success Metric**: Profile visitors convert to followers/subscribers at a measurably higher rate after the audit; the funnel from post → profile → featured → email is unbroken.
 
 ### Pattern: Unique Knowledge Through Obsession
-Cliché advice ("just stick with your habits") is worthless; owned frameworks are the moat. James Clear earned "habit stacking" through obsession-scale analysis. Welsh's own versions: the Creator Funnel, the hub-and-spoke model, UTM-based subscriber source tracking. The perspective doesn't need to be historically first — it needs to be yours, named, and repeatable.
+Cliché advice ("the best way to build a habit is just stick with it") is worthless; owned frameworks are the moat. James Clear earned "habit stacking" through obsession-scale analysis. Welsh's own versions: the Creator Funnel, the hub-and-spoke model, UTM-based subscriber source tracking. The perspective doesn't need to be historically first — it needs to be yours, named, and repeatable.
 **Execute**: Run a real experiment in your domain for 30 days. Extract the process, name it, write the canonical piece on it, then reuse the name in comments, newsletters, and products until the audience associates it with you.
 **Success Metric**: Your audience refers to the framework by your name for it; competitors can't copy it without citing you.
 
@@ -58,14 +70,27 @@ The inversion underneath everything: don't build a business that makes money, bu
 **Insight**: Welsh's famous succinctness came from training 150-person sales teams — new grads forced him to explain everything so "a fifth grader could understand it." What reads as effortless clarity is (1) coach-brain from his CRO years plus (2) heavy editing that strips every unnecessary word from an initially crappy draft. "Everyone else is so focused on getting complicated; I'm just like, here are the three easiest things."
 **Deploy**: Treat every audience question as a request for basics, not sophistication. Draft ugly, then edit for juice-per-word. The things that seem too obvious to you to publish are exactly the content your audience pays for — "riding a bike seems easy only if you already know how."
 
-### Insight: The Content Is Self-Therapy — and That's Why It's Authentic
-**Insight**: Welsh admits the empty-calendar, anti-hustle content is "me being a therapist to myself, yelling at myself for not being very good at something." His perfectionism instinctively fills open calendar space; the content is the counter-pressure. Strong opinions work the same way — he distinguishes opinions you actually believe (slow to find, durable) from manufactured divisive takes (easy, hollow).
-**Deploy**: Mine your own active struggles for content pillars — what you're currently coaching yourself through is relatable in a way that solved problems aren't. Filter every hot take through "do I truthfully believe this?" before publishing.
+### Insight: Personal Change Sets the Content Agenda, Not the Archive
+**Insight**: Welsh's rule for staying authentic as his interests shift: "as you change as a person... don't force yourself to write about the stuff that past you cared about." His Substack pivot away from SaaS-building topics toward "the intersection between business and life" is the applied case — present-him writes present-him's obsessions, not a legacy content calendar. This is UNCONFIRMED-adjacent to a broader claim (that his anti-hustle content functions as self-directed accountability) which could not be re-verified verbatim against the six primary transcripts checked this pass — see `references/source-ledger.md`.
+**Deploy**: When your own priorities shift, retire the old content pillar instead of forcing consistency with a past version of yourself. Test every opinion piece against whether you'd defend it in a room, not whether it's likely to perform.
 
 ### Insight: Generosity Is a Funnel Mechanic, Not Just a Value
-**Insight**: Welsh publishes every newsletter openly on his site and refuses email-gating ("if you tell me it's free, don't make me barter for it") — and his list still grew past 170K. The mechanism: meeting readers where they are compounds trust, and trust converts at course-purchase time. Same logic in relationships: permissionless apprenticeship (make something useful from a bigger creator's work) beats asking for favors; kindness is an actual competitive advantage on platforms full of posturing.
+**Insight**: Welsh publishes every newsletter openly on his site and refuses email-gating — "there's nothing more frustrating... they force me to barter for it... even though I say it's free. It's not free then" — and his list still grew past 170K. The mechanism: meeting readers where they are compounds trust, and trust converts at course-purchase time. Same logic in relationships: permissionless apprenticeship (make something useful from a bigger creator's work) beats asking for favors; kindness is an actual competitive advantage on platforms full of posturing.
 **Deploy**: Un-gate the free tier completely. Give the audience format choice (inbox or web). When reaching up to bigger creators, ship value first — a visual, a breakdown, a genuine feature — and never open with an ask.
 
 ### Insight: Platform Signals Precede Platform Migrations
 **Insight**: Welsh's Substack move ($100K ARR + 12K subscribers in the first week off ~1,300 words of notes) was read from platform texture: X drifting to outrage/culture-war, LinkedIn to performance and posturing ("much in part thanks to me"), Substack holding domain-expert long-form. He calls the coming period "the great creative migration" — creators who own their audience relationships will hold the advantage. Note the tier design: free essays twice weekly, paid tier = chat access + monthly workshops with life-first entrepreneurs + real-world events; the archive makes membership value compound.
 **Deploy**: Track where your platform's texture is heading, not just your engagement. Keep a home base you own (email/Substack). Design paid tiers around access and compounding archives, not gated basics — and price the inner circle around belonging, not content volume.
+
+## Anti-Patterns (What Welsh Rejects)
+
+Every item below is a rejection Welsh states directly in a primary interview transcript, extracted 2026-07-18 from `_archive/claude-export-2026-07-01.tar.gz` (six real conversations found by content-scanning the archive, not by filename — see `references/source-ledger.md` for the full verification method and per-claim labels).
+
+- **Treasure-hunt niche selection.** "It's not like something that you go on a treasure hunt for. You don't like uncover rocks and like, 'Oh, I found my niche.'" — don't wait to discover a niche under a rock before publishing; the niche emerges from what the audience asks for. (source: `.tmp/wave3-lane4-b8/_welsh-extract/4b7d6a3a-3cdb-46a8-9d37-fa052037d994.md`, ~5:33-5:35, VERIFIED)
+- **Positioning without receipts.** Never claim results you haven't produced — "you don't do that thing if you haven't done that thing," Welsh's verdict on unearned positioning ("I help seven-figure businesses improve their SEO" with no track record). (source: `.tmp/wave3-lane4-b8/_welsh-extract/4b7d6a3a-3cdb-46a8-9d37-fa052037d994.md`, ~9:54, VERIFIED)
+- **Clickbait trailers.** Don't write a hook so strong the post underdelivers — "it's not clickbait in the headline if you deliver." (source: `.tmp/wave3-lane4-b8/_welsh-extract/4b7d6a3a-3cdb-46a8-9d37-fa052037d994.md`, ~33:04, VERIFIED)
+- **Stacked calls-to-action.** Never ask for more than one action per post — "you have to be strategic about your ask. How many asks? Usually, just one." (source: `.tmp/wave3-lane4-b8/_welsh-extract/4b7d6a3a-3cdb-46a8-9d37-fa052037d994.md`, ~32:50, VERIFIED)
+- **Cleverness over clarity on a profile.** Don't optimize a banner or tagline for wit — "it pays to be clear, not clever. I see so many people trying to be clever and it's so unclear," and an unclear profile breaks the post-to-conversion funnel. (source: `.tmp/wave3-lane4-b8/_welsh-extract/4b7d6a3a-3cdb-46a8-9d37-fa052037d994.md`, ~33:48, VERIFIED)
+- **Reciting cliché, unowned advice.** Don't publish generic frameworks you didn't earn — cliché advice like "the best way to build a habit is just stick with it" is, in Welsh's own example (about James Clear), worthless without an owned, named process behind it. (source: `.tmp/wave3-lane4-b8/_welsh-extract/4b7d6a3a-3cdb-46a8-9d37-fa052037d994.md`, ~29:07, VERIFIED)
+- **Writing to a stale version of yourself.** Don't keep producing content for an old content pillar after your own interests have moved on — "don't force yourself to write about the stuff that past you cared about." (source: `.tmp/wave3-lane4-b8/_welsh-extract/f338446b-d3bc-47da-88bc-25b6aa7f1102.md`, ~14:16-14:20, VERIFIED)
+- **Gating free content behind an email barter.** Don't lock "free" content behind a signup wall — Welsh's line is that a host forcing an email address in exchange for something labeled free "cost me my time... it cost me my inbox... it's not free then." (source: `.tmp/wave3-lane4-b8/_welsh-extract/4b7d6a3a-3cdb-46a8-9d37-fa052037d994.md`, ~36:45-37:04, VERIFIED)
