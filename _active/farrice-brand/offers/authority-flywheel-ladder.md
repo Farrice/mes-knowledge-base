@@ -93,3 +93,13 @@ The unlock is line 1. Without the FCAO anchor you're capped ~$170K of pure retai
 ---
 
 *Sources: StoryBrand* Fully Booked *pricing ladder (Brand Messaging $2.5–5K → 6-Mo Fractional CMO $36–72K → "$300K/yr") · `donald-miller-business-growth` (product optimization, six value categories, rule of proportion) · `service-architecture.md` (Cole tiers) · `offer_market_fit_blueprint.md` (Chris Do projects) · deep-icp-profile-invisible-expert. Unifies prior work; does not replace it.*
+
+---
+
+## Positioning decision — Farrice, 2026-07-18 (strike brief: strategy_briefs/2026-07-18-authority-flywheel-positioning-strike.md)
+
+Both experts independently FAILED the Section-6 one-liner above. Farrice's ruling by surface:
+- **Cold surfaces NOW (DMs, outreach, ads — no momentum, no clients, clarity wins):** Jeremy Haynes' line — "You already have the expertise — I build the system that gets clients finding you, without you writing a single post."
+- **About / landing page (dwell time, differentiation):** April Dunford's line — "For S&C coaches who know they're good but freeze at the blank page: Authority Flywheel turns your own voice memos into posts that sound like you — not a ghostwriter borrowing your name, not another quarter waiting on referrals."
+- **Fusion pending** — Farrice intends to fuse elements; candidates staged, his gut verdict picks.
+- Validation rule stands (Dunford Best Rep Test): whatever ships gets 2-4 weeks of live conversations before being treated as final.
