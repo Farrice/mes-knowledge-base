@@ -4,17 +4,19 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
-## How to Use This Skill (Opus 4.7 Calibration)
+## How to Use This Skill (Model Calibration)
 
-The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Nicolas Cole recognize this as his own writing? If unsure, the answer is no — rewrite.
+The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Nicolas Cole recognize this as his own writing — or would he clock it as someone reciting his rules back at him? If unsure, the answer is the second one — rewrite.
 
 Specifically:
-- Do NOT enumerate which patterns you applied unless asked
-- Do NOT label sentences by pattern name
-- Do NOT explain the framework — embody it at the sentence level
-- The reader should never see the scaffolding, only feel the result
+- Do NOT enumerate which patterns you applied unless asked.
+- Do NOT label sentences by pattern name ("this ends on a power verb per Pattern 1").
+- Do NOT explain the framework — embody it at the sentence level.
+- The reader should never see the scaffolding, only feel the result: a sentence that lands, an ending that doesn't leak power, a paragraph with no fat left on it.
+- Cole's texture is mechanical precision married to plain speech — never academic, never showing its editing marks. Compare Exemplar 1's fix below: "The sentence's final word imprints on the reader's mind. This is key." — 12 words, down from a 33-word original — tight, but still spoken, not stiff.
+- Polish is the tell-class warning: if every sentence in the output ends on a "power word" with mathematical regularity, that regularity is itself what gives away the machine. Cole's real prose varies — most sentences end strong, not all of them, and the occasional short flat sentence is what makes the strong ones land.
 
-Why this is here: Opus 4.7 follows instructions more literally than 4.6. Sentence craft fails when the craft is visible — checklist execution surfaces the mechanism and kills the prose.
+Why this matters: models follow instructions more literally than the craft requires. Sentence craft fails when the craft is visible — checklist execution surfaces the mechanism and kills the prose.
 
 ---
 
@@ -27,7 +29,7 @@ Why this is here: Opus 4.7 follows instructions more literally than 4.6. Sentenc
 ## Pattern 1: Terminal Word Power Placement
 **Execute**: Before finalizing any sentence, identify the most important word. Restructure so that word lands last. Small words (is, it, why, the) should never end sentences.
 
-**Success Metric**: Final words are nouns or power verbs, never articles or auxiliary verbs.
+**Success Metric**: Final words are nouns or power verbs, never articles or auxiliary verbs. Worked example (see Hall of Fame Exemplar 1 below): a 33-word original ending on "remember" compresses to a 12-word version ending on "key."
 
 ---
 
@@ -44,14 +46,14 @@ Why this is here: Opus 4.7 follows instructions more literally than 4.6. Sentenc
 ## Pattern 3: Contraction Introduction Protocol
 **Execute**: First mention = full term + (ABBREVIATION). All subsequent mentions = abbreviation only. Never use undefined contractions.
 
-**Success Metric**: Zero undefined contractions; reader never encounters unknown abbreviation.
+**Success Metric**: Zero undefined contractions; reader never encounters unknown abbreviation. Illustrative example: "Search Engine Optimization (SEO)" on first mention, "SEO" everywhere after — never "SEO" cold, never spelling it out twice.
 
 ---
 
 ## Pattern 4: Audience Sizing Through Vocabulary
 **Execute**: Before writing, define audience size goal. Contractions and jargon = smaller, insider audience. Plain language = broader reach.
 
-**Success Metric**: Vocabulary matches intended audience sophistication level precisely.
+**Success Metric**: Vocabulary matches intended audience sophistication level precisely. Illustrative example: writing "you are" and "it is" in full signals a broader, general-reader audience; writing "you're" and "it's" signals an insider, faster-paced audience.
 
 ---
 
@@ -65,14 +67,14 @@ Why this is here: Opus 4.7 follows instructions more literally than 4.6. Sentenc
 ## Pattern 6: Word Variation Substitution
 **Execute**: Circle any word that appears twice in close proximity. Replace second instance with synonym, related term, or pronoun.
 
-**Success Metric**: No exact word repetition within 2-3 sentences (except intentional emphasis).
+**Success Metric**: No exact word repetition within 2-3 sentences (except intentional emphasis). Illustrative example: "the writer edited the draft, then the writer sent the draft" → "the writer edited the draft, then sent it."
 
 ---
 
 ## Pattern 7: Fourth-Grade Vocabulary Anchoring
 **Execute**: Write at fourth-grade level. Add maximum ONE elevated word per sentence or paragraph. More than one = inaccessible.
 
-**Success Metric**: Flesch-Kincaid grade level 4-6 with strategic vocabulary elevations.
+**Success Metric**: Flesch-Kincaid grade level 4-6 with strategic vocabulary elevations. Illustrative swap: "utilize" → "use," "ascertain" → "find out" — the elevated word only earns its place when nothing plain carries the same weight.
 
 ---
 
@@ -111,14 +113,14 @@ Why this is here: Opus 4.7 follows instructions more literally than 4.6. Sentenc
 
 ## Hidden Knowledge
 
-Tacit insights Cole operates from that most writers never discover.
+7 tacit insights Cole operates from that most writers never discover — see the 12 Genius Patterns above for the mechanical version of each.
 
 ---
 
 ## 1. Terminal Word Echo Effect
 **Insight**: The last word of a sentence echoes in the reader's mind. This is why weak endings (is, it, the) drain power—the echo is empty.
 
-**Deploy**: Always restructure to end on a noun of substance or a power verb.
+**Deploy**: Always restructure to end on a noun of substance or a power verb. Example: "The sentence's final word imprints on the reader's mind" ends on "mind" — not on "is" or "the."
 
 ---
 
@@ -139,14 +141,14 @@ Tacit insights Cole operates from that most writers never discover.
 ## 4. Repetition as Disengagement Trigger
 **Insight**: Repetition isn't just boring—it signals to readers that you've run out of things to say. Even well-disguised repetition triggers subconscious reader disengagement.
 
-**Deploy**: Audit relentlessly for saying the same thing twice, even in different words.
+**Deploy**: Audit relentlessly for saying the same thing twice, even in different words. Watch for restated-transition tells like "as mentioned above" or "like I said" — both flag the writer circling back instead of moving forward.
 
 ---
 
 ## 5. Vocabulary Friction Threshold
 **Insight**: Advanced vocabulary creates friction. One friction point per sentence feels like intellectual reward. Multiple friction points feel like punishment.
 
-**Deploy**: Fourth-grade base + ONE elevated word maximum. Never cluster sophistication.
+**Deploy**: Fourth-grade base + ONE elevated word maximum. Never cluster sophistication — a sentence with both "ascertain" and "utilize" punishes the reader twice in one breath.
 
 ---
 
@@ -160,7 +162,7 @@ Tacit insights Cole operates from that most writers never discover.
 ## 7. Adverbs as Training Wheels
 **Insight**: Adverbs are training wheels. They prop up weak verbs. Strong writers choose precise verbs that need no modification.
 
-**Deploy**: When you find an adverb, the verb is the problem. Find a stronger verb.
+**Deploy**: When you find an adverb, the verb is the problem. Find a stronger verb — "walked slowly" becomes "crept," not "walked slowly (deleted)."
 
 ---
 
@@ -189,6 +191,19 @@ Tacit insights Cole operates from that most writers never discover.
         *   Bloated word count; could be cut by 70% (Pattern 2 anti-pattern).
         *   Too many commas, indicating convoluted thinking (Pattern 8 anti-pattern).
         *   Over-reliance on adverbs like "absolutely," "truly," "really," "always" (Pattern 9 anti-pattern).
+
+## Anti-Patterns (each with source status)
+
+Reformatted from the Anti-Exemplar breakdown above into a standing checklist. Provenance note up front: none of these carry a verbatim Cole quote — checked against every `extractions/nicolas-cole*/` file on 2026-07-18 (sizes and search terms in `references/source-ledger.md`) and found zero hits for "adverb," "comma," "sentence," "compress," "vocabulary," "rhythm," "fourth-grade," "redundancy," "repetition," "terminal word," or "jargon." Retained as pre-existing skill content per additive-first — not deleted, not newly invented — but every item below is UNCONFIRMED against primary source, not VERIFIED Cole doctrine. Treat as documented craft convention, not a quote.
+
+1. **Never end a sentence on a weak function word** ("is," "it," "the," "of," "to") — the terminal position is where reader attention imprints, and a weak final word drains the echo (Pattern 1 / Hidden Knowledge 1). Status: UNCONFIRMED — see `references/source-ledger.md`, checked 2026-07-18.
+2. **Never let a sentence run 3-6 commas** — Cole's stated "valley of death"; either split it or restructure until it's back to 0-2 (Pattern 8). Status: UNCONFIRMED — see `references/source-ledger.md`, checked 2026-07-18.
+3. **Never keep an adverb the verb already implies** — "walked slowly" stays "walked slowly" only if there's no single verb that means the same thing; otherwise it becomes "crept" (Pattern 9). Status: UNCONFIRMED — see `references/source-ledger.md`, checked 2026-07-18.
+4. **Never open with throat-clearing** ("In this article, we will explore...") — the reader decides whether to continue within the first 10 words (Pattern 10). Status: UNCONFIRMED — see `references/source-ledger.md`, checked 2026-07-18.
+5. **Never stack more than one elevated word per sentence** — "ascertain" and "utilize" in the same sentence punishes the reader twice instead of rewarding once (Pattern 7 / Hidden Knowledge 5). Status: UNCONFIRMED — see `references/source-ledger.md`, checked 2026-07-18.
+6. **Never restate a point across two sentences without adding new information** — repetition (even reworded) reads to readers as the writer running out of things to say (Pattern 5 / Hidden Knowledge 4). Status: UNCONFIRMED — see `references/source-ledger.md`, checked 2026-07-18.
+7. **Never introduce an abbreviation cold** — full term plus the parenthetical on first mention, abbreviation only after that (Pattern 3). Status: UNCONFIRMED — see `references/source-ledger.md`, checked 2026-07-18.
+8. **Never sand down a voice marker in the name of "cleaner" prose** — idiosyncratic phrasing and rhythm quirks that make writing recognizably the author's survive editing even when they bend the other seven rules (Pattern 12). Status: UNCONFIRMED — see `references/source-ledger.md`, checked 2026-07-18.
 
 ## Signature Moves
 
