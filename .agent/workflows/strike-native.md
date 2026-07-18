@@ -74,3 +74,20 @@ parallel elsewhere in Wave 4) but this script never imports or calls it.
 casts its own roster) · `directives/orchestration-doctrine.md` (Pattern Table — Strike is a
 2-4-expert composing pattern under "Council") · `.tmp/wave4-strike-pilot/COMPARISON-PLAN.md`
 (judging protocol).
+
+---
+
+## Head-to-head RULING (2026-07-18, Opus judge, both arms firewalled — evidence at strategy_briefs/2026-07-18-authority-flywheel-positioning-strike.md vs .tmp/strike-prose/)
+
+**HYBRID — prose orchestration stays the DEFAULT strike route** (82k tokens / 179s, zero
+fabrications, plus an epistemic catch the native arm missed). **Use /strike-native only
+when genuine expert INDEPENDENCE on a load-bearing dissent is the point** — its isolated
+agents scored 5/5 independence vs prose's 3/5 (persona-channeling bleed: shared
+vocabulary, too-neat self-reconciliation) at 4.5× token cost. The migrate rule required a
+completeness-AND-fabrication double win; native didn't clear it.
+
+**Stolen back into the prose path (do these when running prose strikes):** (1) force a
+structured claims-with-source table, not inline labels; (2) persona-vocabulary firewall —
+each expert take must use its own method vocabulary, never share coined terms across
+takes. Cross-validation note: both firewalled arms independently resolved the dissent the
+same way (surface/audience-stage) — the analysis itself is sound.
