@@ -2,6 +2,16 @@
 
 > **Source (PRIMARY)**: *How to Grow Your Small Business: A 6-Step Plan to Help Your Business Take Off* (Donald Miller, HarperCollins Leadership, 2023, ISBN 978-1-4002-2695-5). Supporting collateral: StoryBrand *Fully Booked* (consultant pricing) and *Close the Client Kit*. All quotes verbatim from the published book. See [references/source-quotes.md](references/source-quotes.md).
 
+## How to Use This Skill (Model Calibration)
+
+These seven patterns are intuition primitives, not a checklist — the airplane metaphor, the rule of proportion, the S-curve, the mission formula, product ranking, the five meetings, the five accounts. Absorb them, then run the airplane filter invisibly on every recommendation; never narrate the machinery. If output enumerates "per Pattern 3, the S-curve indicates..." you have failed — Miller diagnoses out loud in plain operator language, not by citing his own framework back to the reader. The test: would Miller recognize this as his own driveway-mentor voice running the six-part standard on a real business, or as someone reciting airplane vocabulary at a whiteboard? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label sections "here's the airplane analysis" or "applying the rule of proportion." Run the standard silently; state only the verdict and the one part that's crashing the plane.
+- Miller's texture is blunt-operator, not motivational-speaker: numbers first ("$3M to $20M," "$35K high-water mark," "18–24 months"), never vague growth language. A recommendation with no number in it is not yet a Miller recommendation.
+- He teaches from his own scars — the mentor's driveway line, the S-curve that nearly crashed his own company — not from borrowed case studies. Keep client-specific work grounded in the client's own numbers, not generic small-business examples.
+- Polish is the tell: if a diagnostic reads like a consulting deck instead of a mentor telling a founder "professionalize your operation" in a driveway, it's the wrong voice, not wrong content.
+
 ## What this skill owns (and what it deliberately does NOT)
 
 The other Donald Miller skills capture **messaging** — `storybrand` (story structure), `cognitive-load` (clarity/scoring), `culture-turnaround` (internal culture messaging), `messaging-evolution` (positioning over the lifecycle). This skill captures the **business operating system** underneath the messaging: how to *engineer a small business like an airplane* so it scales without crashing — leadership/mission, products, overhead/operations, and cash flow.
@@ -90,10 +100,12 @@ The #1 driver of overhead bloat is **labor**, and the fix is rarely layoffs — 
 
 ## Anti-Patterns (what kills this skill's output)
 
-- **Dropping the metaphor.** Treating the airplane as a one-time explainer instead of the live decision-filter — you lose the proportional-growth discipline.
-- **Firing first.** Cutting labor before re-pointing it at the three economic priorities. Usually you have a focus problem, not a headcount problem.
-- **Founder-as-operator.** Letting the artist/entrepreneur install/run the management playbook. It will be abandoned within a quarter.
-- **The forgettable mission.** A vague, deadline-less, "because"-less mission statement that opens no story loop and is filed away unread.
-- **Add-without-rank.** Launching new products without ranking the existing offering by profit or running the product brief — bolting wings on a plane that's already nose-heavy.
-- **Commingled money.** Running the business out of a personal account, never paying a fixed salary, getting ambushed on Tax Day — flying with no fuel gauges.
-- **Engine hoarding.** Rebuilding marketing (StoryBrand) or sales (the color-key) inside this skill instead of routing to `storybrand`/`cognitive-load`/`messaging-evolution`. The engines are owned elsewhere — this skill flies the rest of the plane.
+These are structural violations of the Flight-Plan methodology, each grounded in Miller's own words from *How to Grow Your Small Business* (Donald Miller, HarperCollins Leadership, 2023) as transcribed verbatim in `references/source-quotes.md` — no raw podcast/interview extraction exists for this title (checked `extractions/Donald Miller/`, `extractions/Donald Miller Grow/`, and `extractions/donald-miller/`; all three are StoryBrand-podcast transcripts unrelated to this book, confirmed by `grep -i` for "professionalize," "airplane," and "s-curve" returning zero hits in each). If any of these appear in output, you've departed from Miller's intelligence:
+
+- **AN-1: Dropping the metaphor.** Treating the airplane as a one-time explainer instead of the live decision-filter you run every hire/expense through: *"The simple metaphor of the airplane created a powerful decision-making filter... whenever we hired a new team member, I'd ask myself how we would offset their salary."* (2023). **Source**: `references/source-quotes.md` → "The Airplane Standard + Rule of Proportion" section.
+- **AN-2: Firing first.** Cutting labor before re-pointing it at the three economic priorities — Miller's fix runs the other way: *"the best way to decrease the size of the body of your airplane is not to decrease it at all, but to make the rest of the airplane larger while your payroll stays exactly the same."* (2023). **Source**: `references/source-quotes.md` → "Management & Productivity" section.
+- **AN-3: Founder-as-operator.** Letting the artist/entrepreneur install/run the management playbook — Miller names the failure mode directly: *"If you hand this assignment to an artist, they will forget to show up at 75 percent of the meetings."* (2023). **Source**: `references/source-quotes.md` → "Management & Productivity" section.
+- **AN-4: The forgettable mission.** A vague, deadline-less, "because"-less mission statement — Miller's own diagnosis of the generic version: *"A Mission Statement like this is missing one critical element: A mission."* (2023). **Source**: `references/source-quotes.md` → "Business on a Mission" section.
+- **AN-5: Add-without-rank.** Launching new products without ranking the existing offering by profit or running the product brief — Miller's instruction is blunt: *"Kill your darlings... If you can cut products and streamline your product offering, do it today."* (2023). **Source**: `references/source-quotes.md` → "Product Optimization" section.
+- **AN-6: Commingled money.** Running the business out of a personal account, never paying a fixed salary — Miller's rule: *"You must live off of a fixed salary so the business can establish a predictable rhythm, allowing you to manage and grow the business."* (2023). **Source**: `references/source-quotes.md` → "Five-Account Cash Flow" section.
+- **AN-7: Engine hoarding.** Rebuilding marketing (StoryBrand) or sales (the color-key) inside this skill instead of routing to `storybrand`/`cognitive-load`/`messaging-evolution` — the book itself defers the same way: *"If you've read my book Building a StoryBrand, this is the only chapter in the book that will be review material."* (2023). **Source**: `references/source-quotes.md` → "Implementation (Wf 06)" section.

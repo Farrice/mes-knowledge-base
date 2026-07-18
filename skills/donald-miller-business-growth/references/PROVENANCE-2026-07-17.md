@@ -1,0 +1,16 @@
+# PROVENANCE — donald-miller-business-growth repair
+
+| Anchor (genius.md) | Quote | Source |
+|---|---|---|
+| AN-1 (Dropping the metaphor) | "The simple metaphor of the airplane created a powerful decision-making filter..." | `references/source-quotes.md` → "The Airplane Standard + Rule of Proportion" (pre-existing file, unchanged; verbatim from *How to Grow Your Small Business*, Miller, HarperCollins Leadership, 2023) |
+| AN-2 (Firing first) | "the best way to decrease the size of the body of your airplane is not to decrease it at all, but to make the rest of the airplane larger while your payroll stays exactly the same." | `references/source-quotes.md` → "Management & Productivity" |
+| AN-3 (Founder-as-operator) | "If you hand this assignment to an artist, they will forget to show up at 75 percent of the meetings." | `references/source-quotes.md` → "Management & Productivity" |
+| AN-4 (Forgettable mission) | "A Mission Statement like this is missing one critical element: A mission." | `references/source-quotes.md` → "Business on a Mission" |
+| AN-5 (Add-without-rank) | "Kill your darlings... If you can cut products and streamline your product offering, do it today." | `references/source-quotes.md` → "Product Optimization" |
+| AN-6 (Commingled money) | "You must live off of a fixed salary so the business can establish a predictable rhythm, allowing you to manage and grow the business." | `references/source-quotes.md` → "Five-Account Cash Flow" |
+| AN-7 (Engine hoarding) | "If you've read my book Building a StoryBrand, this is the only chapter in the book that will be review material." | `references/source-quotes.md` → "Implementation (Wf 06)" |
+
+## Provenance verification performed this session
+- Read `skills/donald-miller-business-growth/references/source-quotes.md` in full (8,479 bytes — `wc -c` confirmed) and matched every quote above verbatim against it. No quote was invented; all seven pre-exist in the file this skill already ships with.
+- Checked `extractions/` for a raw book source: `ls extractions/ | grep -i miller` returned three directories — `Donald Miller`, `Donald Miller Grow`, `donald-miller`. Read/grepped all three (`grep -i -n "professionalize|airplane|s-curve|rule of proportion|mission statement|five checking accounts|high-water|operator.*artist.*entrepreneur|product brief"`) — zero hits in all three. Confirmed by content read: they are StoryBrand-podcast transcripts (Ballet Solutions case study, etc.), unrelated to *How to Grow Your Small Business*. File sizes: `extractions/Donald Miller/transcript.txt` = 44,426 bytes; `extractions/Donald Miller Grow/transcript.txt` = 45,960 bytes; `extractions/donald-miller/transcript.txt` = 34,611 bytes; `extractions/donald-miller/storybrand-extraction.md` = 16,605 bytes.
+- **Labeled honestly**: no raw extraction/transcript file backs the book quotes — ground truth for this skill's PRIMARY source is the published book itself (ISBN 978-1-4002-2695-5), transcribed into `references/source-quotes.md` by a prior worker. This is stated explicitly in the new Anti-Patterns section header rather than papered over. Nothing here is UNCONFIRMED — every quote is traceable to the shipped source-quotes.md file, which is the skill's existing (passing) source_ledger.
