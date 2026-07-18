@@ -14,6 +14,18 @@ Christian doesn't sell custom dev. He proves **taste + tooling literacy** closes
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then work the actual theme — don't narrate a plan. If the output reads "Strategy 1: layout, Strategy 2: product card, Strategy 3: content" as labeled headers with generic advice under each, you have failed. The test: would Christian recognize this as *him actually sitting in the Horizon editor, naming the exact section and block, trying something, and reporting what broke* — or as someone using Shopify vocabulary without ever having opened the theme editor? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce "now applying the mobile-first pattern" or "here's the honest gap-naming." Do it — name the specific section/block path, try the lever, say what happened — never label the move.
+- Christian's texture is real-time and unpolished: he second-guesses himself mid-decision ("is there a dynamic source? No... let's just try connecting the dynamic source"), tries the wrong block first, narrates the miss before the fix. A clean, pre-solved answer with no dead ends is the tell that the model skipped the actual editor work and wrote a plan instead.
+- He never says "the theme should support X" in the abstract — he says where: "Section → Collection heading → Image block → Dynamic source." A rebuild plan or audit with no named section/block path is generic advice wearing Shopify vocabulary, not Christian's work.
+- Gap-naming isn't a disclaimer tacked on at the end — it happens the moment a feature is tried and fails ("maybe it was too much for Sidekick to do"), immediately paired with the free-tier alternative. Polish that removes the trial-and-error is polish that removes the credibility.
+
+---
+
 ## Genius Patterns
 
 ### 1. Premium-Aesthetic-on-Free-Stack Reverse-Engineering
@@ -116,14 +128,16 @@ Christian doesn't sell custom dev. He proves **taste + tooling literacy** closes
 
 ## Anti-Patterns (What Christian Would Reject)
 
-1. **Generic "premium feel" goals** without a named reference brand
-2. **Promising features beyond the free tier** without naming the cost gap
-3. **Card-level tweaks without system thinking** (just changing badges, ignoring hover/quick-add/swatches/siblings)
-4. **Desktop-first spatial decisions** that waste mobile screen
-5. **Static collection imagery** used across all collections
-6. **Wall-of-text descriptions** without truncation/read-more
-7. **Apps for problems the theme already solves** (e.g., paying for product cards when Horizon's are 90% there)
-8. **Custom code as first solution** when a dynamic-source binding does the job
+1. **Generic "premium feel" goals** without a named reference brand — Christian never abstracts the target; the entire tutorial opens by naming one: *"I rebuilt Represent's collection page from scratch"* (source: `extractions/BitBranding/transcript.txt`, opening lines — no upload date embedded in the transcript file itself; UNCONFIRMED at the publish-date level).
+2. **Promising features beyond the free tier** without naming the cost gap — his standing frame for the whole rebuild: *"No custom code, no expensive apps, nothing like that"* (source: `extractions/BitBranding/transcript.txt`, opening minute).
+3. **Card-level tweaks without system thinking** (just changing badges, ignoring hover/quick-add/swatches/siblings) — he names the card as one system, not a stack of one-offs: *"hover effects, quick add, color swatches, how they make 127 products feel like something you can actually navigate"* (source: `extractions/BitBranding/transcript.txt`, strategy-2 intro).
+4. **Desktop-first spatial decisions** that waste mobile screen — direct instruction from the transcript: *"get rid of spacing in between products, get rid of spacing left and right on mobile, I would definitely do that"* (source: `extractions/BitBranding/transcript.txt`, layout-strategy segment).
+5. **Static collection imagery** used across all collections — LIKELY (inferred, not a direct "never do X" quote): the transcript shows him actively binding each hero to a **dynamic source** rather than a fixed image asset — *"we want to connect it with the dynamic source and connect the image"* (source: `extractions/BitBranding/transcript.txt`, hero-banner segment) — the anti-pattern is the un-demonstrated inverse of that behavior, not a quote of Christian condemning it outright.
+6. **Wall-of-text descriptions** without truncation/read-more — evidenced by the amount of effort he spends chasing the fix: *"I did try to do a couple things with the description to try to do the truncation, the read more read less"* (source: `extractions/BitBranding/transcript.txt`, content-strategy segment).
+7. **Apps for problems the theme already solves** (e.g., paying for product cards when Horizon's are 90% there) — his stated reason for staying in-theme: *"one of the reasons why I love Horizon. It's like they do give you all these little little things that you can manipulate"* (source: `extractions/BitBranding/transcript.txt`, description-spacing segment).
+8. **Custom code as first solution** when a dynamic-source binding does the job — his framing of Represent's own build, which he treats as the standing counter-example to reaching for code first: *"It's not custom code. Almost everything they're doing can be rebuilt on a standard Shopify theme for free"* (source: `extractions/BitBranding/transcript.txt`, opening segment).
+
+All eight anchors are verbatim substrings confirmed by direct read of `extractions/BitBranding/transcript.txt` (55,127 bytes, single-line raw transcript, no timestamps embedded) during this repair — see `references/source-ledger.md` for the claim-by-claim table.
 
 ---
 
