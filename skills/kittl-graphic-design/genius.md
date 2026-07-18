@@ -4,6 +4,32 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist. Absorb the mood-first logic, the contrast pairing, the optical-over-mathematical instinct — then execute; don't narrate. If a deliverable stamps "Pattern 1, Pattern 3, Pattern 8 applied" onto the page, it has failed the test. The real question: would a working Kittl designer recognize this as theirs — someone who felt the mood before touching the font panel — or as someone reciting typography vocabulary? If it reads as the second, rebuild it.
+
+Specifically:
+- Do NOT label sections "here's the mood-first selection" or "here's the optical centering pass." Execute the move; never announce it.
+- The craft is invisible machinery — a good pairing just *looks* inevitable. Naming "Pattern 4: Letter Spacing as Mood Amplifier" inside a client-facing deliverable breaks the spell the same way a magician narrating the trick does.
+- The texture is a working designer's shorthand ("this needs more '90s serif energy," "pull the tracking," "does this LOOK centered") — not academic type theory. Numbers are real settings someone would actually type in (tracking -20 to -60, leading -20 or tighter), not decoration.
+- Polish-is-the-tell: an AI prompt with every technical term stacked ("35mm lens, Rembrandt lighting, shallow DOF, hyper-detailed, 8K, trending on artstation") reads as trying too hard. The Big Six answered plainly, in the order asked, beats a keyword salad — match "Technical-First Prompt Structure" (Pattern 15), not a thesaurus pass over it.
+
+## Recognition Test
+
+A Kittl power-user opening this skill's output would recognize this as theirs on the first pass: mood words typed straight into the font-search panel before any manual browsing (Pattern 6), height-width contrast named as the actual pairing logic instead of "these look nice together" (Pattern 3), tracking pushed to specific values instead of left at zero (Pattern 4), and AI prompts structured Big-Six-first with camera language for photorealism (Pattern 14, Tacit 7). It would NOT recognize generic "clean, modern, professional" font language, default letter spacing, or bare negative-only prompts ("no clutter," full stop) as belonging to this method — those are the tells of someone who never internalized the platform's own reframe of moodboard-to-typography as a repeatable pattern, and it would distinguish this output from that generic default immediately.
+
+## Anti-Patterns
+
+Failure modes documented directly in the source material — not generic mistakes, but the specific ways this platform's own guidance says not to work it.
+
+- **Skipping the negatives building block.** Kittl's official prompt guide treats "Don't" instructions as one of its 4 core building blocks, not an optional extra — exclusions are "Powerful for complex scenes" and "Saves time on re-prompts" (extractions/creative-direction/kittl_notes.md, added 2026-04-14). Writing only positive description and hoping the model infers what to leave out wastes generations.
+- **Letting the written prompt fight the style preset.** The same guide warns to "Match preset style with written prompt (don't conflict)" (extractions/creative-direction/kittl_notes.md, 2026-04-14) — picking the "Anime" preset and then prompting "photorealistic" produces muddy, unusable output.
+- **Over-prompting an image edit.** "Image editing AI needs minimal, surgical prompts. Over-prompting causes unwanted changes" (Tacit 8, above) — stacking five instructions onto a single edit call regenerates the whole image instead of touching one element.
+- **Stacking multiple actions into one video prompt.** Kittl's video-prompting guide states to "Focus on one main action (multiple actions break consistency)" (extractions/creative-direction/kittl_video_nodes.md, documenting the Feb 3, 2026 Kittl Video launch) — asking for a product to spin AND the background to shift AND text to fade in produces incoherent motion.
+- **Over-directing motion instead of trusting the model.** The same guide's fifth best practice is to "Avoid over-directing (fewer, clearer instructions = smoother motion)" (extractions/creative-direction/kittl_video_nodes.md, 2026-04-14) — over-specifying every camera micro-movement fights the model's own interpolation.
+- **Negative-only instruction framing.** Pattern 17's anti-exemplar below shows the failure mode directly: a prompt built from "no people looking bored" produced a "bland, uninspired stock photo" rather than a directed one — negatives need reframing positive ("minimal, clean composition"), never shipped as bare exclusions.
+- **Mathematical centering treated as finished.** The same anti-exemplar's banner is described as having "No intentional adjustments to tracking or leading" and, on alignment, "Relies on numerical centering" — shipping the moment the tool reports 0,0 instead of running the optical check in Pattern 8.
+
 ## Genius Patterns
 
 ## Pattern 1: Mood-First Font Selection
@@ -26,7 +52,7 @@
 ## Pattern 3: Height-Width Contrast Pairing
 **Execute**: Identify headline font's dominant characteristic (tall/condensed OR wide/extended). Select subtitle font with opposite characteristic.
 
-**Success Metric**: Visual tension and hierarchy immediately apparent.
+**Success Metric**: Visual tension and hierarchy immediately apparent. The Everbloom Botanicals exemplar below runs this exact move — condensed serif headline against a wider sans-serif tagline, tracking loosened +40 so the contrast registers instantly.
 
 ---
 
@@ -49,7 +75,7 @@
 ## Pattern 6: The Keyword Font Search
 **Execute**: Type mood/style keywords directly into font panel → Browse filtered results only.
 
-**Success Metric**: Relevant fonts appear without endless scrolling.
+**Success Metric**: Relevant fonts appear without endless scrolling — this is the mechanism that gets Pattern 1's font-selection window under 90 seconds.
 
 ---
 
@@ -70,14 +96,14 @@
 ## Pattern 9: Same-Font-Family Pairing Shortcut
 **Execute**: When pairing is difficult, check if headline font has alternate weights, widths, or companion fonts. Pair within family first.
 
-**Success Metric**: Guaranteed visual harmony with minimal risk.
+**Success Metric**: Guaranteed visual harmony with minimal risk. This is Tacit 2 in practice — "always check the family pack before looking elsewhere for pairs."
 
 ---
 
 ## Pattern 10: The Text Shading Technique
 **Execute**: For thin fonts: add same-color stroke (offset 0, width 1-2). For dimension: add contrasting shadow (offset 3-5).
 
-**Success Metric**: Fonts gain presence and dimension.
+**Success Metric**: Fonts gain presence and dimension. This is the same tool Kittl's own hack list names "Knock-out text effects (Text Shading → Block Shadow)" (Design Hack #7, extractions/creative-direction/kittl_flows_advanced.md).
 
 ---
 
@@ -91,7 +117,7 @@
 ## Pattern 12: Border-as-Cutout Technique
 **Execute**: Shape needs to "cut" into another? Add thick border matching background color instead of complex masking.
 
-**Success Metric**: Complex visual effects in seconds.
+**Success Metric**: Complex visual effects in seconds — this is Kittl's own "Punch Through / Subtract" shape-builder cutout tool (Design Hack #10, extractions/creative-direction/kittl_flows_advanced.md) applied to typography.
 
 ---
 
@@ -110,21 +136,21 @@
 ## Pattern 14: The "Big Six" Prompt Architecture
 **Execute**: Before prompting, answer: What is it? Where is it? How does it feel? How is it lit? What style? What angle?
 
-**Success Metric**: Prompts produce intended results on first/second generation.
+**Success Metric**: Prompts produce intended results on first/second generation. Kittl's own guide runs the same completeness check under the "4 Building Blocks of a Good Prompt" heading, opening with the "5 Ws" — WHO, WHAT, WHERE, WHEN, WHY (extractions/creative-direction/kittl_notes.md).
 
 ---
 
 ## Pattern 15: Technical-First Prompt Structure
 **Execute**: Structure as: [Shot type] + [Lighting] + [Subject] + [Setting] + [Style] + [Mood]
 
-**Success Metric**: Consistent visual style across generations.
+**Success Metric**: Consistent visual style across generations. Kittl's video-prompting guide mirrors this with its own modular "CAMERA, ACTION, AUDIO, TEXT blocks" structure (extractions/creative-direction/kittl_video_nodes.md).
 
 ---
 
 ## Pattern 16: Line Break Prompt Separation
 **Execute**: After each major element, hit Shift+Enter to create logical separation.
 
-**Success Metric**: AI respects distinct elements rather than blending them.
+**Success Metric**: AI respects distinct elements rather than blending them — the same claim Tacit 4 makes directly: "AI models parse line breaks as semantic separators."
 
 ---
 
@@ -152,21 +178,21 @@ Fonts like Instrument Serif and Shaharazad carry inherent "90s elegance" that tr
 ## Tacit 2: Western Fonts Self-Pair
 Western/adventure font families are designed to work together. The designers already solved the harmony problem.
 
-**Deploy**: When using western fonts, always check the family pack before looking elsewhere for pairs.
+**Deploy**: When using western fonts, always check the family pack before looking elsewhere for pairs — this is why the Apex Ascent exemplar below pulls its companion font from the same Western pack rather than hunting for a match, paired against the -30 line-spacing compression from Pattern 5.
 
 ---
 
 ## Tacit 3: Condensed = Sporty/Urgent
 Any time a design needs energy, athleticism, or urgency, condensed fonts create inherent tension and movement.
 
-**Deploy**: For sports, fitness, news, or action contexts, condensed is your first reach.
+**Deploy**: For sports, fitness, news, or action contexts, condensed is your first reach. The Apex Ascent exemplar below is the demonstration: condensed sans-serif headline, line spacing compressed to -30, built for exactly this athletic urgency.
 
 ---
 
 ## Tacit 4: Line Breaks Are Prompting Syntax
 AI models parse line breaks as semantic separators. Using them strategically is as important as the words.
 
-**Deploy**: Structure complex prompts with line breaks between major elements.
+**Deploy**: Structure complex prompts with line breaks between major elements — Kittl's video-prompt guide operationalizes exactly this as "CAMERA, ACTION, AUDIO, TEXT blocks" (extractions/creative-direction/kittl_video_nodes.md), each break a semantic separator.
 
 ---
 
@@ -180,7 +206,7 @@ The "exclusion" blending mode on textures creates color combinations you'd never
 ## Tacit 6: The Pinterest Training Ground
 Every professional typographer maintains active, daily Pinterest practice—not for inspiration but for skill acquisition through recreation.
 
-**Deploy**: Daily recreate 1 reference design. This is practice, not production.
+**Deploy**: Daily recreate 1 reference design. This is practice, not production — the daily engine behind Pattern 7's 30-day ramp to executing any typography style within 10 minutes.
 
 ---
 
