@@ -30,3 +30,6 @@
 {"ts": "2026-07-16T18:17:07.744139+00:00", "session_id": "a9d8e93d-78e2-4cff-8c3e-c2547b1e4070", "exchange": 10, "event": "next-moves-missing", "chars": 461}
 {"ts": "2026-07-17T01:15:04.243995+00:00", "session_id": "85aed300-b402-4812-a41b-fc9d2a4a5ec1", "exchange": 13, "event": "next-moves-missing", "chars": 409}
 {"ts": "2026-07-18T03:28:34.786343+00:00", "session_id": "56a0fb15-a869-4123-98c3-9535efe15ca8", "exchange": 2, "event": "next-moves-missing", "chars": 1467}
+{"ts": "2026-07-18T05:04:19.041688+00:00", "session_id": "28d76098-a0d8-475f-bc8a-9609aae4b6f1", "exchange": 27, "event": "next-moves-missing", "chars": 404}
+{"ts": "2026-07-18T06:14:25.648858+00:00", "session_id": "28d76098-a0d8-475f-bc8a-9609aae4b6f1", "exchange": 68, "event": "next-moves-missing", "chars": 495}
+{"ts": "2026-07-18T14:53:05.581334+00:00", "session_id": "28d76098-a0d8-475f-bc8a-9609aae4b6f1", "exchange": 80, "event": "next-moves-missing", "chars": 651}

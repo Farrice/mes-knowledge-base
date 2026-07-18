@@ -3,3 +3,4 @@
 {"ts": "2026-07-17T19:20:08.968266", "event": "heartbeat_advisory_run", "context": "audit --advisory (tier caps suppressed)"}
 {"ts": "2026-07-17T19:30:11.033487", "event": "heartbeat_advisory_run", "context": "check --skill strength-conditioning-os --advisory (2 failures, gate suppressed)"}
 {"ts": "2026-07-17T22:39:27.719045", "event": "heartbeat_advisory_run", "context": "check --skill darrel-wilson-ai-affiliate --advisory (5 failures, gate suppressed)"}
+{"ts": "2026-07-18T12:28:33.504953", "event": "heartbeat_advisory_run", "context": "check --skill stockton-walbeck-lead-magnets --advisory (3 failures, gate suppressed)"}

@@ -1,7 +1,8 @@
 ---
 thread: frontier-elevation-day-one
 status: active
-resume_hint: L4 208/279 (b1-13 closed); worker format rules hardened; Farrice-gated: redesign + seeds
+resume_hint: LANE 4 COMPLETE 279/279; A-tier 4→18; W2 flip #2 due 07-24; Farrice: ratify GRADING-LOOP-REDESIGN + seed reviews
+unfinished: W2 week-1 review 07-24 (then flip #2); W4-W7 waves; source re-acquisition queue (sharran, tess-barclay video, stockton taxonomy, 412qINvYIKk, Georgi, Diandra, Cole)
 branch: main
 pin: true
 ---
@@ -57,6 +58,31 @@ models for non-orchestration work, fill him in on anything he must do.
   NUMBERS/quotes/URLs (names don't count), no soft-wrapped anchors/quotes (single-line
   regexes). Notable recoveries: 20+ Lakajev, 9 Paul James, 21 Pat Flynn conversations
   found in the archive that were never linked to their skills.
+- **LANE 4 COMPLETE 2026-07-18 — 279/279 through the 6/6 gate, all pushed.** Batches
+  17-18 closed same pattern. Final verify trio: thrivecart CLEAN; sweat-equity NOT CLEAN
+  (FALSE ABSENCE — Malbon/payphone source EXISTS in _active/codex-harvest-2026-06-11/
+  extractions/, worker searched only 2 of 3 source locations; provenance restored);
+  tom-noske-personal-brand NOT CLEAN (LAZY-UNCONFIRMED — all 4 headline stats verbatim
+  in archive masterclass transcripts the worker skipped; labels corrected VERIFIED
+  self-reported, conductor re-confirmed independently). Both fixed + pushed. THREE-
+  LOCATION RULE now in doctrine + solution card. Post-drain audit
+  evolution_store/skill_audit_2026-07-18.md: A=18, B=232, REVIEW=93 (A was 4 pre-program).
+  Queue file marked COMPLETE — never re-run. Fleet sentinel dropped.
+- Batches 14-16 CLOSED (256/279): b14 verify trio 3/3 CLEAN (prosperity-coach 36
+  anchors, re-compliance 4 case-law UNCONFIRMED honest + TRID subsection fixed (e)→(f),
+  brunson census-trace real + Bernays gloss fixed); b15 verify trio 3/3 CLEAN incl. the
+  hardest negative-claim test yet — taste-acquisition's 2/3-UNCONFIRMED genius.md
+  survived an independent fingerprint attack of the full archive (material genuinely
+  sourceless; only repo hit was the skill's own re-indexed chunks). SECOND session-limit
+  interrupt killed 16 b15 workers + 3 verifiers mid-flight (~12pm reset): 1 salvage
+  attempt failed strict gate (2/6, reverted clean), all redispatched with predecessor
+  findings — recovery pattern now 2-for-2 lossless. Notable b16: story-bible-builder
+  6/6→0 grounded in joey-cinema v3 docs; shaan-puri 158KB Perell masterclass recovered,
+  entity ratio 0.68→0; godin-philosophy caught extraction-report claiming Mel Robbins
+  source while disk transcript is a different interview (LIKELY-labeled). Sharran
+  srivatsaa added to source re-acquisition queue (NO primary anywhere; bio web-verified).
+  Also recovered + union-merged origin/brief/2026-07-18 (both daily-brief runs kept,
+  zero lines dropped, branch deleted after 0/0 verify).
 - **CADENCE**: ~16 skills per ~25 min. 80/279 drained (batches 1-5). NEXT = batch 6
   (queue index [5]) through batch 18. Per-batch loop: stage audits + envelope (sed
   from prior batch) + sentinel → dispatch 16 Sonnet workers → fleet_merge each (NO

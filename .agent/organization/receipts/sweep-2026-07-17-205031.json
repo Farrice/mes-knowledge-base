@@ -1,0 +1,18 @@
+{
+  "auto_moved": 0,
+  "needs_judgment": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/AUTOMATION_PROMPT.md",
+      "project": "health-performance-ip-library",
+      "reason": "pinned/control referrer"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/frontier-elevation-2026-07-17/PLAN.md",
+      "project": "frontier-elevation-2026-07-17",
+      "reason": "pinned/control referrer"
+    }
+  ],
+  "projects_touched": [],
+  "since_minutes": 720,
+  "swept_at": "2026-07-18T03:50:31+00:00"
+}

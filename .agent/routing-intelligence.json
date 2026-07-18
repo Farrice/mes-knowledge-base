@@ -7686,6 +7686,25 @@
             "ensemble": true,
             "compound_pairing": "darrel-wilson-ai-affiliate + josh-kaufman-business-fundamentals + docx",
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260718_190456_c8e2",
+            "timestamp": "2026-07-18T19:04:56.654293+00:00",
+            "session_id": "28d76098-a0d8-475f-bc8a-9609aae4b6f1",
+            "request_summary": "resume and complete your task please",
+            "intent_score": 0,
+            "domain_detected": "seena-rez-tiktok-commerce",
+            "experts_deployed": [
+                "seena-rez-tiktok-commerce",
+                "swarm-commander",
+                "pptx"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "seena-rez-tiktok-commerce",
+            "ensemble": true,
+            "compound_pairing": "seena-rez-tiktok-commerce + swarm-commander + pptx",
+            "feedback": "fb_20260718_190619_d744"
         }
     ],
     "feedback_log": [
@@ -8183,12 +8202,21 @@
             "rating": "auto_miss",
             "correction": "ben-watkins-storytelling",
             "notes": "expert skill 'ben-watkins-storytelling' loaded not matching suggestion ['swarm-commander', 'pptx', 'docx']"
+        },
+        {
+            "feedback_id": "fb_20260718_190619_d744",
+            "timestamp": "2026-07-18T19:06:19.226307+00:00",
+            "session_id": "28d76098-a0d8-475f-bc8a-9609aae4b6f1",
+            "routing_id": "rt_20260718_190456_c8e2",
+            "rating": "auto_miss",
+            "correction": "pj-accetturo-ai-video",
+            "notes": "expert skill 'pj-accetturo-ai-video' loaded not matching suggestion ['seena-rez-tiktok-commerce', 'swarm-commander', 'pptx']"
         }
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 425,
-            "total_feedback": 55,
+            "total_routings": 426,
+            "total_feedback": 56,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
@@ -8262,7 +8290,8 @@
                 "new-media-ghostwriting": 1,
                 "writing-depth-layer": 1,
                 "swarm-commander": 1,
-                "darrel-wilson-ai-affiliate": 1
+                "darrel-wilson-ai-affiliate": 1,
+                "seena-rez-tiktok-commerce": 1
             },
             "expert_counts": {
                 "system-audit": 23,
@@ -8294,7 +8323,7 @@
                 "jason-fladlien-marketing": 11,
                 "design-md": 22,
                 "simon-intellectual-library-os": 2,
-                "pptx": 9,
+                "pptx": 10,
                 "david-placek-naming": 8,
                 "brand-operating-system": 23,
                 "nicolas-cole-niche-positioning": 15,
@@ -8422,7 +8451,7 @@
                 "health-performance-geo": 2,
                 "jeremy-haynes": 4,
                 "luke-iha-cross-domain": 1,
-                "seena-rez-tiktok-commerce": 1,
+                "seena-rez-tiktok-commerce": 2,
                 "docx": 3,
                 "tommy-clark": 2,
                 "sharran-srivatsaa-scaling": 2,
@@ -8432,7 +8461,7 @@
                 "panel_cast": 1,
                 "expert-assembly-os": 3,
                 "creative-assembly": 1,
-                "swarm-commander": 2,
+                "swarm-commander": 3,
                 "kieran-flanagan": 1,
                 "lara-acosta-linkedin-growth": 1,
                 "liam-mley-ai-brain-builder": 1,
@@ -8460,7 +8489,7 @@
                 "josh-kaufman-business-fundamentals": 1
             },
             "tier_counts": {
-                "0": 425,
+                "0": 426,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -8468,11 +8497,11 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 240,
+                "hybrid": 241,
                 "finalize-auto": 185
             },
-            "ensemble_count": 315,
-            "auto_miss_count": 44,
+            "ensemble_count": 316,
+            "auto_miss_count": 45,
             "auto_match_count": 11
         }
     }
