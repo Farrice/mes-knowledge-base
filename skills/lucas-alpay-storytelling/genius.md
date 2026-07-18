@@ -4,6 +4,18 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then build originally. The test: would Lucas Alpay recognize this as engineered reader compulsion — a threshold moment, a planted mystery, a detail doing double duty — or as someone wearing 7-Element-Formula vocabulary without the underlying mechanics? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which Pattern numbers you applied unless asked. Never write "Pattern 2: Proximity Over Distance applied here."
+- Do NOT label sections "here's the proximity tension," "here's the micro-mystery." Execute the move; never announce it.
+- Alpay's craft is clinical, not mystical, about *why* something works — but that clinical precision stays in the analysis layer, never leaks into the prose itself: "There's nothing mystical about a page-turner... That's architecture, not inspiration" (`agents/lucas-alpay/AGENT.md:40`). The output is the page-turner, not a lecture about page-turners.
+- His texture is pattern-focused and example-driven, not literary-mystical. Sensory density without a proximity/mystery/stakes purpose reads as trying, not as architecture — polish for its own sake is the tell-class failure (see Anti-Patterns below).
+
+---
+
 ## Genius Patterns
 
 ## Pattern Inventory (14 Decoded)
@@ -15,6 +27,8 @@
 
 **Success Metric**: Reader reports physical inability to stop reading.
 
+> **Source echo** (`agents/lucas-alpay/AGENT.md:12`): "Reader engagement isn't about talent—it's about understanding how the brain processes narrative."
+
 ---
 
 ### Pattern 2: Proximity Over Distance
@@ -23,6 +37,8 @@
 **Executable Behavior**: Start scenes in the middle of moments, not before them.
 
 **Success Metric**: First paragraph creates immediate urgency.
+
+> **Source echo** (`references/prompts-v2/lucas-alpay-f01-proximity-tension.md:17`, added 2026-02-04): "Your openings don't describe situations — they drop readers into moments of imminent change."
 
 ---
 
@@ -33,6 +49,8 @@
 
 **Success Metric**: Reader knows WHO the character is before WHAT they look like.
 
+> **Source echo** (`references/prompts-v2/lucas-alpay-f02-character-introduction.md:17`, added 2026-02-04): "Your character introductions never begin with appearance, backstory, or situation summary. They begin with choice."
+
 ---
 
 ### Pattern 4: The 3-Sense Minimum
@@ -42,6 +60,8 @@
 
 **Success Metric**: Scenes feel immersive and real.
 
+> **Source echo** (`references/prompts-v2/lucas-alpay-f12-sensory-specificity.md:15`, added 2026-02-04): "A precisely rendered, particular truck creates a world."
+
 ---
 
 ### Pattern 5: Micro Mystery Architecture
@@ -50,6 +70,8 @@
 **Executable Behavior**: Every paragraph should open a loop or close a previous one.
 
 **Success Metric**: Reader is always leaning forward.
+
+> **Source echo** (`references/prompts-v2/lucas-alpay-f05-micro-mystery.md:19`, added 2026-02-04): "The brain cannot rest with open questions. Plant enough of them, and stopping feels wrong."
 
 ---
 
@@ -69,6 +91,8 @@
 
 **Success Metric**: Tension that builds without releasing.
 
+> **Source echo** (`references/prompts-v2/lucas-alpay-f01-proximity-tension.md:15`, added 2026-02-04): "readers simultaneously want to know what happens next AND feel anxious about discovering it."
+
 ---
 
 ### Pattern 8: Character Inference Engine
@@ -77,6 +101,8 @@
 **Executable Behavior**: Replace character explanation with revealing action.
 
 **Success Metric**: Readers feel smart for understanding characters.
+
+> **Source echo** (`references/prompts-v2/lucas-alpay-f19-trust-technique.md:19`, added 2026-02-04): "Readers who arrive at meaning themselves believe it more deeply than readers who are told meaning directly."
 
 ---
 
@@ -87,6 +113,8 @@
 
 **Success Metric**: Reader experiences the emotion, not just observes it.
 
+> **Source echo** (`references/prompts-v2/lucas-alpay-f06-emotional-resonance.md:19`, added 2026-02-04): "Vague emotions create distance. Precise emotions create connection."
+
 ---
 
 ### Pattern 10: The Multi-Perspective Principle (Taylor Swift)
@@ -95,6 +123,8 @@
 **Executable Behavior**: Write from antagonist's POV until their actions make sense.
 
 **Success Metric**: Readers understand (not agree with) every character.
+
+> **Source echo** (`references/_legacy-prompts/lucas-alpay-f08-multi-perspective.md:13`, added 2026-02-04): "All Too Well is devastating because we can imagine the ex-boyfriend's perspective—his overwhelm, his limitations, his own pain."
 
 ---
 
@@ -114,6 +144,8 @@
 
 **Success Metric**: Tension compounds rather than releases.
 
+> **Source echo** (`references/_legacy-prompts/lucas-alpay-f15-slow-burn-scene.md:11`, added 2026-02-04): "films like Hereditary, Midsommar, and The Lighthouse don't rely on jump scares. They build unbearable tension through extended takes, mounting dread."
+
 ---
 
 ### Pattern 13: Metaphor Bomb Architecture
@@ -132,6 +164,8 @@
 
 **Success Metric**: Readers feel treated as equals.
 
+> **Source echo** (`references/prompts-v2/lucas-alpay-f19-trust-technique.md:15`, added 2026-02-04): "You trust that readers want to work, want to discover, want to feel smart."
+
 ---
 
 ## Hidden Knowledge Points (7)
@@ -149,6 +183,8 @@
 6. **Details work twice** — If it's in the story, it should do double duty
 
 7. **Ambiguity generates discussion** — Unanswered questions live longer than answers
+
+> **Source cross-check** (`references/prompts-v2/lucas-alpay-f01-proximity-tension.md:19`, added 2026-02-04): "The brain responds more intensely to what MIGHT happen than to what already has."
 
 ---
 
@@ -185,6 +221,19 @@
 - **Anti-Pattern: 3-Sense Minimum**: Lacks sensory engagement; primarily visual and generic ("blue sky," "few clouds").
 - **Anti-Pattern: Neurological Imperative**: Fails to create any immediate urgency, emotional pull, or compulsion to continue reading.
 
+## Anti-Patterns
+
+Sourced from the practitioner-prompt library this skill compiles from (`references/_legacy-prompts/` and `references/prompts-v2/`, both added 2026-02-04 / restructured 2026-07-11) plus the Anti-Exemplar passage above. Each is a named failure mode, not a style preference — catch these before shipping.
+
+- **Distance before proximity**: opening with scene-setting exposition instead of a threshold moment. Source: `references/prompts-v2/lucas-alpay-f01-proximity-tension.md` (2026-02-04) — "Your openings don't describe situations — they drop readers into moments of imminent change." The Anti-Exemplar above opens with "The old castle stood on a hill, overlooking the valley" — pure distance, zero threshold.
+- **Appearance before choice**: introducing a character by what they look like before what they decide. Source: `references/prompts-v2/lucas-alpay-f02-character-introduction.md` (2026-02-04) — "Your character introductions never begin with appearance, backstory, or situation summary. They begin with choice." The Anti-Exemplar's "tall man with a stern face and a long beard" violates this on first line.
+- **Telling instead of inferring**: stating a trait outright ("known for his bravery and loyalty") instead of letting action prove it. Source: `references/prompts-v2/lucas-alpay-f19-trust-technique.md` (2026-02-04) — "Readers who arrive at meaning themselves believe it more deeply than readers who are told meaning directly."
+- **Generic sensory coverage**: "blue sky," "a few clouds" instead of one specific, unexpected detail. Source: `references/prompts-v2/lucas-alpay-f12-sensory-specificity.md` (2026-02-04) — "A precisely rendered, particular truck creates a world." Generic nouns do the opposite.
+- **No urgency architecture**: description with no stakes, no threshold, no compulsion to keep reading. Source: `agents/lucas-alpay/AGENT.md:12` (2026-01-27) — "Reader engagement isn't about talent—it's about understanding how the brain processes narrative."
+- **Cartoon villains**: antagonists who act evil without a legible, self-justified interior logic. Source: `references/_legacy-prompts/lucas-alpay-f08-multi-perspective.md:13` (2026-02-04) — "All Too Well is devastating because we can imagine the ex-boyfriend's perspective—his overwhelm, his limitations, his own pain."
+- **Shock over anticipation**: resolving tension immediately instead of extending the approach. Source: `references/_legacy-prompts/lucas-alpay-f15-slow-burn-scene.md:11` (2026-02-04) — "films like Hereditary, Midsommar, and The Lighthouse don't rely on jump scares. They build unbearable tension through extended takes, mounting dread."
+- **Explaining the mystery instead of planting it**: stating "he knew something was wrong here" instead of building suggestive, unresolved detail — the Anti-Exemplar passage in Hall of Fame Exemplars above (this file, `genius.md`) is the direct anchor for this failure mode.
+
 ## Signature Moves
 
 **The "Dopamine Drop" Opener**: Always starts a new chapter or scene by dropping the reader directly into a character's immediate physical sensation or a critical choice, never with exposition or setting description. → **Deploy when**: Initiating any new narrative segment to maximize immediate engagement.
@@ -208,4 +257,4 @@
 
 ## Quality Rubric
 
-> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading. Scored across three anchor bands on a 10-point scale (Score 4 Acceptable / Score 7 Good / Score 10 Savant per criterion, per that file's table header).
