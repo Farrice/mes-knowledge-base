@@ -1,8 +1,8 @@
 ---
 thread: frontier-elevation-day-one
 status: active
-resume_hint: LANE 4 COMPLETE 279/279; A-tier 4→18; W2 flip #2 due 07-24; Farrice: ratify GRADING-LOOP-REDESIGN + seed reviews
-unfinished: W2 week-1 review 07-24 (then flip #2); W4-W7 waves; source re-acquisition queue (sharran, tess-barclay video, stockton taxonomy, 412qINvYIKk, Georgi, Diandra, Cole)
+resume_hint: Lane 4 279/279 + W1 closed + grading ratified + W4 shipped; open: one-liner surface decision, 07-24 flips, W4 head-to-head, W5-W7
+unfinished: W4 evidence run; W5 kernel/distro; W6 /make; W7 AFK+Drive; 07-24 weekly-closeout carries flip #2 + grading R2
 branch: main
 pin: true
 ---
@@ -10,6 +10,23 @@ pin: true
 # Handoff — Frontier Elevation, Day Two (2026-07-17 evening)
 
 **Pin**: frontier-elevation-day-two · **Resume with**: `/resume frontier-elevation`
+
+## Day-two late additions (2026-07-18, post-Lane-4)
+- **GRADING-LOOP-REDESIGN RATIFIED** ("as recommended"): SHIP/MARGINAL/FAIL; judge 1-in-3
+  internal + forced triggers (client-facing always; SHIP claimed against a FAIL-containing
+  precedent neighborhood); MARGINAL = deliver-with-flag. R2 blocking gates on 07-24 review.
+- **30 seed reviews COMPLETE** via 4 batch verdicts (slop=FAIL, inflation→7.33 MARGINAL,
+  honest mids, earned-8 PASSes). Eval set 65/74 human-calibrated (threshold 59) — armed
+  with margin. SEED-020 label fixed FAIL→MARGINAL (was inconsistent with its own rationale).
+- **WAVE 4 SHIPPED**: directives/worker-envelope-standard.md (6 clauses + model-tier
+  table, INDEX'd) · execution/mission_validator.py + verify fixture 7/7 (conductor
+  re-ran independently) · strike-native Workflow pilot LIVE-FIRED on a real mission —
+  4 agents 0 errors, deliverable at strategy_briefs/2026-07-18-authority-flywheel-
+  positioning-strike.md (both experts independently FAIL the current one-liner; dissent
+  preserved as a surface-decision fork for Farrice). Remaining W4: head-to-head evidence
+  run vs prose-JCC per .tmp/wave4-strike-pilot/COMPARISON-PLAN.md before migrating.
+- **FARRICE OPEN DECISION**: which surface the Authority Flywheel one-liner lives on —
+  bio/landing (Dunford winner) vs cold DM/ad (Haynes runner-up). Resolves the dissent.
 
 ## ACCELERATION PASS (late evening — Farrice: 2 days of Fable left, go max)
 Farrice's standing instruction (verbatim intent): trusts the conductor's judgment, NEVER
