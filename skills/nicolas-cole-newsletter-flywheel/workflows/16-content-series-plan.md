@@ -123,7 +123,7 @@ Thread C: [Surprise twist]
 
 Rule: At least one mystery thread is ACTIVE at all times. The reader should never be without a question they need answered.
 
-## Output
+## Output Schema
 
 ```markdown
 # Content Series Plan — [Series Name]

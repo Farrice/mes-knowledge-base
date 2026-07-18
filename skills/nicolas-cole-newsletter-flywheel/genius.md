@@ -1,5 +1,18 @@
 # Nicolas Cole — Newsletter Flywheel Mastery Extraction
 
+## How to Use This Skill (Model Calibration)
+
+The Two Rules are intuition primitives, not a checklist to stamp onto a newsletter brief. Cole doesn't sit down and audit "Rule 1... Rule 2..." in sequence out loud — he collapses both into one gut question ("would you ever want this faucet to turn off?") and the two rules fall out of the answer. Absorb the Book-That-Never-Ends / Tangible-Faucet frame until it's how you evaluate any newsletter concept by reflex, then build originally from there.
+
+Specifically:
+- Do NOT narrate the machinery. Never write "Applying Rule 1..." or "Per the Tangible Faucet framework..." inside a finished deliverable — run the test silently and produce the verdict or the asset, not the audit trail. The audit trail belongs in `/book-never-ends`, not in a finished newsletter post.
+- Do NOT default to "insights" or "tips" as the tangible asset. That's the single most common failure mode this skill exists to prevent — Cole's whole methodology is a rejection of topic-first, insight-first newsletters. If a generated concept can't be finished with a noun ("you get ___"), it has failed regardless of how polished the surrounding prose is.
+- His texture is blunt and commercial, not literary. Cole talks in operator language — faucets, vehicles, thresholds, conversion rates — because he thinks like someone who has shipped six-figure digital products, not like an essayist. A newsletter pitch written in wistful, abstract language ("a space for reflection and connection") is a tell that the Two Rules were never actually run.
+- Polish is the tell-class warning here specifically: a beautifully written newsletter pitch that still can't name its tangible asset in one noun is worse than a rough one that can — smooth prose wrapped around an empty concept is exactly the "topic newsletter" failure this extraction warns against.
+- The recognition test: would Cole recognize this as a newsletter he'd actually greenlight — one that passes the Wine Club Test and the Faucet Test — or as someone using his vocabulary (faucet, flywheel, tangible asset) to dress up a newsletter that is still, underneath, "insights about X"? If it's the second, redesign the asset before touching the prose.
+
+---
+
 ## Content Assessment
 
 ```
@@ -11,6 +24,8 @@ Genius Patterns: 8 identified
 Hidden Knowledge: 6 tacit insights detected
 Existing Overlap: Connects to nicolas-cole-digital-products (Vehicle Framework, $350 threshold) but newsletter flywheel methodology is net-new
 ```
+
+**Provenance note (added 2026-07-17 repair pass)**: the "~25 min live workshop segment" transcript this file's core patterns (Book That Never Ends, Tangible Faucet, the Saunders example, the wine club analog) are drawn from is not present as a file under `extractions/` — checked `extractions/nicolas-cole/transcript.txt` (18,152 bytes, offer-stacking content, no faucet/Saunders/wine-club language) and `extractions/nicolas-cole-digital-products/` (transcript.txt 39,852 bytes + extraction-report.md 13,760 bytes, digital-product-pricing content). Full claim-by-claim status in `references/source-ledger.md` — read it before treating any quote below as verbatim.
 
 ## Executive Summary
 

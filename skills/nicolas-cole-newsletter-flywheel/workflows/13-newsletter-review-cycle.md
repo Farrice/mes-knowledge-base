@@ -85,7 +85,7 @@ Generate a prioritized list of adjustments:
 **If format needs evolution**:
 → Design 2-3 new tangible asset formats and A/B test over the next month.
 
-## Output
+## Output Schema
 
 ```markdown
 # Newsletter Review — [Name] — [Month Year]

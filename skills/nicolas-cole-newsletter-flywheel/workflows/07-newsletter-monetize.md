@@ -67,3 +67,35 @@ Deliver:
 - **CTA/conversion strategy** for chosen model
 - **Revenue projections** (conservative, moderate, optimistic)
 - **First revenue milestone**: What needs to happen for $1K/mo?
+
+## Output Schema
+
+```markdown
+# Newsletter Monetize — [Newsletter Name]
+
+## Path Chosen
+[A: Free → Product / B: Paid Subscription] — Reasoning: [...]
+
+## Revenue Architecture (text-flow diagram)
+[Newsletter] → [mechanism] → [revenue event]
+
+## Pricing Recommendation
+[Price + reasoning tied to $350 threshold or subscription tier logic]
+
+## CTA / Conversion Strategy
+[Weekly soft CTA / Monthly launch / Quarterly campaign — OR — Free/Paid/Premium tier design]
+
+## Revenue Projections (Month 3 / 6 / 12)
+[Table: subscribers, conversion rate, revenue/mo, annual run rate]
+
+## First $1K/mo Milestone
+[Specific subscriber count × conversion × price math that clears $1K/mo]
+```
+
+## Quality Gate
+
+- [ ] Path A or Path B chosen explicitly, not both pursued half-heartedly?
+- [ ] Pricing recommendation is tied to a specific threshold or logic (the $350 ceiling, or a stated churn/conversion target), not a round number picked arbitrarily?
+- [ ] Revenue projections show 3 months out AND the specific math connecting subscribers → conversion → dollars?
+- [ ] For Path B, the "paywall moment" is named as a specific asset or edition, not a vague "when they're ready"?
+- [ ] The $1K/mo milestone is a concrete subscriber-count target, not an aspiration?

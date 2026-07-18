@@ -50,3 +50,36 @@ Deliver:
 - **Top 3 edition concepts**: Each with subject line, tangible asset description, and 1-sentence pitch
 - **Recommended lead**: Which of the 3 to write first and why
 - **Hand off to**: `/newsletter-flywheel` to produce the full post
+
+## Output Schema
+
+```markdown
+# Trend to Newsletter — [Domain]
+
+## Trend Briefing (5-7 signals)
+1-7. [signal + source link]
+
+## Audience Pain Map
+- Active pains: [...]
+- Latent pains: [...]
+- Aspirational gaps: [...]
+
+## Cross-Pattern Matrix
+[2x2 filled with specific opportunities, priority quadrant highlighted]
+
+## Top 3 Edition Concepts
+1-3. [subject line + tangible asset + 1-sentence pitch]
+
+## Recommended Lead
+[which of the 3, and why]
+
+## Hand off
+/newsletter-flywheel with [chosen concept]
+```
+
+## Quality Gate
+
+- [ ] All 5-7 trend signals carry a source link, not asserted from memory?
+- [ ] Every PRIORITY-quadrant opportunity names BOTH the trend and the specific pain it intersects — not one or the other?
+- [ ] Each of the top 3 concepts names a tangible asset (noun), not just a topic angle?
+- [ ] The recommended lead has an explicit reasoning line, not just a pick?

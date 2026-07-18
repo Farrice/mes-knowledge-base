@@ -62,3 +62,39 @@ Generate:
 - SOW template ready for client signature
 - Internal delivery SOP
 - Sales materials (one-pager + case study template + pitch post)
+
+## Output Schema
+
+```markdown
+# Newsletter Service Pack — [Service Name]
+
+## Service Definition
+- Name: [...]
+- What the client gets: [5-item list]
+
+## Pricing (3 tiers)
+| Tier | Included | Price | Best For |
+|---|---|---|---|
+| Blueprint | | | |
+| Launch | | | |
+| Engine | | | |
+
+## SOW
+- Scope / Timeline / Client Responsibilities / Deliverables + Deadlines / Revision Policy
+
+## Delivery SOP (internal)
+[Step-by-step: onboarding → tangible-faucet → book-never-ends → substack-launch → newsletter-flywheel → trend-to-newsletter]
+
+## Sales Materials
+- One-pager: [ready]
+- Case study template: [ready]
+- LinkedIn pitch post: [ready]
+- Cold outreach template: [ready]
+```
+
+## Quality Gate
+
+- [ ] All 3 tiers have distinct scope AND distinct price bands (no tier is a cosmetic relabel of another)?
+- [ ] The SOW names concrete deliverables with deadlines, not "ongoing support"?
+- [ ] The Delivery SOP references this skill's own workflows in the correct order (tangible-faucet → book-never-ends → substack-launch → newsletter-flywheel)?
+- [ ] Sales materials are complete drafts, not outlines needing further writing?

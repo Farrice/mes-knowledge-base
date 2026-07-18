@@ -72,3 +72,32 @@ Map the outputs to a weekly content schedule:
 - **Case study snapshot** (if applicable)
 - **Weekly content calendar** showing how newsletter + LinkedIn work together
 - **Portfolio proof format** for ghostwriting/service pitches
+
+## Output Schema
+
+```markdown
+# Newsletter Social Proof — [Newsletter Name / Edition]
+
+## LinkedIn Variants (3, full copy)
+A — The Insight Post: [full text]
+B — The Tangible Asset Teaser: [full text]
+C — The Story Post: [full text]
+
+## Ghostwriting Portfolio Proof (if applicable)
+- Process documentation: [Two Rules validation, asset identification, structure choices]
+- Results: [open rate / subscriber growth / engagement / revenue, if available]
+- Case study: [CLIENT/PERSONAL, CHALLENGE, APPROACH, RESULT, TANGIBLE ASSET]
+
+## Service Demonstration Framing (if applicable)
+[methodology-in-action pitch]
+
+## Weekly Content Calendar
+Monday (Insight) / Wednesday (Teaser) / Thursday (Newsletter) / Friday (Story)
+```
+
+## Quality Gate
+
+- [ ] All 3 LinkedIn variants are genuinely distinct in angle and format, not the same post reworded?
+- [ ] Each variant is platform-native (short paragraphs, line breaks) not a pasted newsletter excerpt?
+- [ ] Case study (if included) uses real metrics, never placeholder numbers presented as real?
+- [ ] The weekly calendar sequences LinkedIn and newsletter so neither cannibalizes the other's reason-to-click?

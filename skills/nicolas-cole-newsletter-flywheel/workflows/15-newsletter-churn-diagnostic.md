@@ -102,7 +102,7 @@ Prescription: Audit acquisition channels. Run /newsletter-growth-audit.
 Timeline: Adjust acquisition targeting, re-audit in 60 days.
 ```
 
-## Output
+## Output Schema
 
 ```markdown
 # Churn Diagnostic — [Newsletter Name] — [Date]

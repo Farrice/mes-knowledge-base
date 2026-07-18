@@ -64,3 +64,14 @@ OVERALL: [PASS — in the 1% / FAIL — needs redesign]
 [If pass: "Ready to proceed to /newsletter-flywheel or /substack-launch"]
 [If fail: Recommended next step — /tangible-faucet to redesign the asset]
 ```
+
+## Output Schema
+
+The audit report above (Step 4) IS this workflow's output contract — every field must be filled, no field left as a bracketed placeholder in the delivered version.
+
+## Quality Gate
+
+- [ ] Both rules given an explicit PASS/FAIL, never "sort of" or "mostly"?
+- [ ] Rule 2's three sub-tests (Noun, Save, Wine Club) each individually scored, not collapsed into one verdict?
+- [ ] Every FAIL carries a specific fix prescription (name the redesign), not a generic "needs work"?
+- [ ] The OVERALL verdict routes to the correct next workflow (`/tangible-faucet` on fail, `/newsletter-flywheel` or `/substack-launch` on pass)?

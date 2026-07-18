@@ -122,7 +122,7 @@ Week 11-12: Launch "best of" tangible asset lead magnet for new subscribers
 Milestone: Sustainable weekly growth rate of X%
 ```
 
-## Output
+## Output Schema
 
 ```markdown
 # Newsletter Growth Audit — [Newsletter Name]

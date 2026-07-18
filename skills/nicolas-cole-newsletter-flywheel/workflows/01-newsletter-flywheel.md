@@ -63,6 +63,45 @@ After user selects a variant:
 3. Draft social teaser for LinkedIn (1-liner + link preview)
 4. Output final post ready for copy-paste to SubStack
 
+## Output Schema
+
+```markdown
+# Newsletter Flywheel — [Edition Topic]
+
+## Stage 1 — Concept Lock (if run)
+Rule 1: [PASS/FAIL + why] · Rule 2 asset: [noun] · Wine Club: [pass/fail]
+
+## Stage 2b — Serial Investment (Edition 2+ only)
+Conceptual Deposit / Belief Escalation / Identity Ratchet / Callback Yield / Incomplete Transfer: [answers]
+Serial Investment Test: [PASS/FAIL + reasoning]
+
+## Variant A — [label]
+Subject line / Opening / Body (tangible asset in full) / Commentary / Close
+
+## Variant B — [label]
+[same 5 components]
+
+## Variant C — [label]
+[same 5 components]
+
+## Editor Pick
+Variant recommended: [A/B/C] — Reasoning: [...]
+
+## Final Publish-Ready Post
+[SubStack-formatted final copy]
+
+## LinkedIn Teaser
+[1-liner + link framing]
+```
+
+## Quality Gate
+
+- [ ] All 3 variants produce genuinely distinct angles on the tangible asset — not the same idea with different subject lines?
+- [ ] The tangible asset appears IN FULL in the body of every variant (passes the Noun Test and Save Test), not just described?
+- [ ] For Edition 2+, all 5 Serial Investment questions are answered concretely and the test verdict is explicit?
+- [ ] The commentary layer states a specific perspective ("what most people get wrong"), not generic praise of the asset?
+- [ ] The final publish-ready post is fully SubStack-formatted, not a plain draft?
+
 ## Chain Finalization
 ```bash
 python3 execution/chain_runner.py finalize "[Newsletter post title]" \

@@ -64,3 +64,31 @@ Organize the 10+ concepts into a content calendar:
 - **Evolution engine inventory** (the infinite fuel sources)
 - **4-week content calendar** filled with the best concepts
 - **Backlog**: Remaining concepts saved for future months
+
+## Output Schema
+
+```markdown
+# Newsletter Ideation — [Newsletter Name]
+
+## Evolution Engine Inventory (5+)
+1-5+. [technology/market/audience/seasonal/cultural/competitor/reader-question force]
+
+## Cross-Matrix (filled)
+[Evolution engines × variation types, 10+ cells populated]
+
+## 10+ Edition Concepts
+1-10+. [title + 1-sentence pitch + tangible asset]
+
+## 4-Week Content Calendar
+Week 1-4: [concept assigned per week, variation types mixed]
+
+## Backlog
+[Remaining concepts, unscheduled]
+```
+
+## Quality Gate
+
+- [ ] At least 5 distinct evolution engines named (not variations on "trends change")?
+- [ ] Every one of the 10+ concepts names a tangible asset noun, not just a topic?
+- [ ] The 4-week calendar avoids 3+ consecutive editions of the same variation type?
+- [ ] Backlog concepts are genuinely usable later, not filler generated to hit the count?

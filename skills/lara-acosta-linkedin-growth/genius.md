@@ -4,15 +4,25 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. A post that visibly marches through "Story → Lesson → Actionable → You" with labeled beats is not SLAY — it's a worksheet wearing SLAY's name. Lara builds virality by disappearing the scaffolding: the reader should feel like they wandered into someone's honest DM, not into a framework diagram. The test: would Lara Acosta recognize this as a post she'd actually publish — or as someone using her vocabulary (8-word hook, F-shape, "How I") without her instinct for when to break her own rules? If it's the second, rebuild.
+
+Specifically:
+- Never label sections "Hook," "Rehook," "Lesson," or "CTA" inside the output itself. Execute the beat; don't caption it. The machinery (SLAY, PIM, 4-3-2-1) is a drafting tool for you, never a visible skeleton for the reader.
+- Her 8-word rule is a floor, not a ceiling she worships — per her own 2026 revision (§ "The Authority Signal Shift" below), "the posts performing best right now sound like actual human conversations, messy, real, and unpolished." A hook that lands at exactly 8 words but reads like ad copy has failed the spirit of the rule; a slightly imperfect hook that sounds like a real person mid-thought has succeeded.
+- Texture is spoken, not corporate. Her own delivery is mid-sentence and casual — "Okay, let me show you," "I created it obviously because I'm a girl and I slay all the time" — not a LinkedIn thought-leader reciting a framework. Contractions and a little swagger are IN.
+- Polish is the tell-class failure, not the goal. She names the anti-pattern directly: dense paragraphs, generic "how to" headlines, and ChatGPT's "average output" are what make "LinkedIn full of AI slop." When in doubt, make the draft rougher and more specific to one person's actual Tuesday — not smoother and more general.
+
 ## Genius Patterns
 
-The proprietary architectures for hacking LinkedIn distribution, drawn directly from the #1 female creator on the platform.
+The proprietary architectures for hacking LinkedIn distribution, drawn directly from the creator introduced on-camera as "the number one female profile on the platform" — the same engineering that turned a single trend-jacked post into 2,000 likes for a three-week-dormant account (Pattern 6 / Jake's Reddit-stock post) and reframed a "$200,000 a month" case study into a lead post that promised "zero outbound, zero cold emails."
 
 ### 1. The 8-Word Rehook Architecture
 - **What They Do Unconsciously**: She instinctively limits the first and second lines of any post to exactly 8 words each to game the mobile text cutoff. The second line is solely designed to drag the hook out—creating an open loop that immediately forces a "see more" click.
 - **Executable Behavior**: Write Hook Line 1 (Max 8 words) -> Line Break -> Write Hook Line 2 / Rehook (Max 8 words, raises stakes but gives no answers) -> Line Break -> Main Content.
 - **Deployment Context**: Every single educational or storytelling post.
-- **Success Metric**: A 3x higher click-through-rate on the "see more" expansion.
+- **Success Metric**: A higher click-through-rate on the "see more" expansion. In her own words: "the first two lines, they need to be eight words long because that's the cut off... on mobile" — and "the rehook is your second chance to retain someone and get them to click more."
 
 ### 2. The SLAY Framework
 - **What They Do Unconsciously**: She structures long-form written content exactly like a high-retention short-form video script.
@@ -23,39 +33,42 @@ The proprietary architectures for hacking LinkedIn distribution, drawn directly 
   - **Y**ou: End by pointing the narrative back to the reader to drive a comment.
 - **Deployment Context**: Long-form, value-dense educational posts that need to avoid feeling like a textbook.
 - **Success Metric**: High comment volume and high average read time (time-on-post).
+- **Verbatim Origin**: "I created it obviously because I'm a girl and I slay all the time." She built the name as unapologetic branding on a platform she calls "mainly male-dominated," and reports "40-year-old men" citing that they use her framework. She traces the mechanism to the same interview: "start with a story, lead with a lesson, have actionable advice and then end with a U."
+- **Proof It Converts**: "That's actually how I signed my first ever whale client. I literally just broke down an entire strategy and they were like, 'Hey, I really like the way you think. Let me pay you five figures for this.'"
 
 ### 3. Broad-Narrow-Niche Navigation
 - **What They Do Unconsciously**: She hooks the masses (TAM), qualifies the buyer, and then delivers expert-level depth without losing the initial crowd.
 - **Executable Behavior**: Hook with a universally understood broad concept (e.g., "Hit $200k/mo"). Narrow immediately to a specific pain point (e.g., "Without cold email"). Deliver the actual content using intense, niche-specific jargon and deep expertise.
 - **Deployment Context**: Educational teardowns and "How I did X" posts.
-- **Success Metric**: Post goes viral (broad) but still generates highly qualified B2B leads (niche).
+- **Success Metric**: Post goes viral (broad) but still generates highly qualified B2B leads (niche). Her own worked example: "my [client's] business is about to hit $200,000 a month... with zero outbound, zero cold emails, here's the breakdown."
 
 ### 4. The Art of the Humble Brag
 - **What They Do Unconsciously**: She neuters the resentment of success announcements by routing them through the lens of family, origin, or extreme humility.
 - **Executable Behavior**: Shift the protagonist of a success story from "Me" to "Them" (e.g., "Today I retired my dad" or "POV: First millionaire in the family" instead of "I made a million dollars").
 - **Deployment Context**: Milestone announcements, income reports, or agency success metrics.
-- **Success Metric**: 100% positive sentiment in comments, avoiding the "LinkedIn Lunatics" backlash.
+- **Success Metric**: 100% positive sentiment in comments, avoiding the "LinkedIn Lunatics" backlash — her own named failure mode: "she's so self-absorbed, I would have ended up in LinkedIn Lunatics."
 
 ### 5. Authority Jacking (With Spam Defense)
 - **What They Do Unconsciously**: She rides the halo effect of bigger accounts without triggering algorithm penalties.
 - **Executable Behavior**: Post a picture with a major authority figure, reference their frameworks, but DO NOT physically tag their @ handle in the post unless you have back-channel confirmation they will comment within 30 minutes.
 - **Deployment Context**: Networking events, podcasts, or referencing books/frameworks.
-- **Success Metric**: Getting the halo effect without the algorithm suppressing the post for "unanswered tags."
+- **Success Metric**: Getting the halo effect without the algorithm suppressing the post for "unanswered tags." Named live examples from the source interview: "we have Simon Swift here, we have Sean, we have Daniel Priestley... if someone sees me next to these people, I have the halo effect around me."
 
 ### 6. The 4-3-2-1 Content Matrix
 - **What They Do Unconsciously**: She perfectly balances audience growth with revenue extraction without exhausting either.
 - **Executable Behavior**: Structure the week to deliver: TAM Content (Broad/Top of Funnel), Growth Content (Niche How-Tos), and Sales Content (Direct Conversion).
 - **Deployment Context**: Weekly content sprint planning.
 - **Success Metric**: Audience grows steadily while inbound lead volume remains consistent.
+- **Verbatim Source**: "we're going to be following my 4 3 2 1 framework" — four posts a week (1 education, 1 storytelling, 1 combined "edu-telling," 1 education), three content pillars (TAM, Growth, Sales), against "eight keywords that [LinkedIn] loves pushing. One of them is AI. The other one is productivity. The other one is remote work... LinkedIn itself."
 
 ## Hidden Knowledge
 
 Tacit expertise regarding the LinkedIn algorithm and psychological formatting that isn't openly broadcasted.
 
-- **The 30-Minute Life Support Rule**: Scheduling posts is a death sentence if you aren't physically present when they go live. The LinkedIn algorithm decides a post's fate based primarily on engagement velocity in the first 30 minutes. If you post, you must stay on the platform for exactly 30 minutes, immediately replying to every single comment to spark threaded conversations.
-- **"How I" > "How To"**: "How to" is the ultimate marker for AI slop. ChatGPT natively writes "How to." True experts write "How I." Changing this single pronoun shifts the entire psychological framing from generic textbook advice to proprietary, battle-tested methodology. It automatically boosts the perceived value of the information.
-- **The Empty Space Aesthetic (F-Shape)**: Paragraphs create friction. A successful post uses 1-line sentences separated by double line breaks. This creates an "F-shape" reading pattern, making it highly skimmable, rhythmic, and visually un-intimidating on a mobile screen. The goal is the "TikTokification of text"—making reading feel instantaneous.
-- **The First-Post Halo**: LinkedIn natively boosts the first few posts of a new account or a dormant account to gamify the user into the dopamine loop of staying active. You can weaponize this by taking a strategic 3-week break and coming back with an explosive, trend-jacking post, guaranteeing abnormal algorithmic reach.
+- **The 30-Minute Life Support Rule**: Scheduling posts is a death sentence if you aren't physically present when they go live. The LinkedIn algorithm decides a post's fate based primarily on engagement velocity in the first 30 minutes. If you post, you must stay on the platform for exactly 30 minutes, immediately replying to every single comment to spark threaded conversations. She frames the underlying discipline directly: "the best people that I know spend 30 minutes a week creating content and maybe spend 15 minutes every single day engaging."
+- **"How I" > "How To"**: "How to" is the ultimate marker for AI slop. ChatGPT natively writes "How to." True experts write "How I." Changing this single pronoun shifts the entire psychological framing from generic textbook advice to proprietary, battle-tested methodology. It automatically boosts the perceived value of the information. In her own words: "I move from how to to how I and that gives me a lot more credibility because it's how I do things rather than how Hubspot is telling people to use LinkedIn."
+- **The Empty Space Aesthetic (F-Shape)**: Paragraphs create friction. A successful post uses 1-line sentences separated by double line breaks. This creates an "F-shape" reading pattern, making it highly skimmable, rhythmic, and visually un-intimidating on a mobile screen. The goal is the "TikTokification of text"—making reading feel instantaneous. She draws the analogy directly from web design: "if you have ever designed a landing page, you know the F shape, how people can read... landing pages. So it's the exact same principle on written content."
+- **The First-Post Halo**: LinkedIn natively boosts the first few posts of a new account or a dormant account to gamify the user into the dopamine loop of staying active. You can weaponize this by taking a strategic 3-week break and coming back with an explosive, trend-jacking post, guaranteeing abnormal algorithmic reach. Case in point: Jake's account was "technically dormant" after 3 weeks silent, then posted "Reddit just lost 82% of its AI citations overnight" and pulled 2,000 likes off the reawakened first-post boost.
 
 ---
 
@@ -74,7 +87,7 @@ Tacit expertise regarding the LinkedIn algorithm and psychological formatting th
     If you're still in the trenches, remember this: Your wins aren't just for you. They ripple. Keep building. Who are you doing it for?"
 *   **What makes this excellent:**
     *   **8-Word Rehook:** "POV: First millionaire in the family. It feels surreal." (8 words) and "No mortgage. Just pure, unadulterated relief on their faces." (8 words, acting as a second rehook after the initial hook is expanded).
-    *   **Humble Brag:** The focus immediately shifts from "my achievement" to "their relief" and "breaking a generational cycle," generating positive sentiment and inspiration instead of envy.
+    *   **Humble Brag:** The focus immediately shifts from "my achievement" to "their relief" and "breaking a generational cycle," generating positive sentiment and inspiration instead of envy. This mirrors the exact mechanic Lara describes for her own POV posts: "I never thought I'd get to write this post... photos of my dad looking proud of me."
     *   **SLAY Framework (Story, Lesson, Actionable, You):** Starts with a personal story of struggle and achievement, pivots to the lesson (wins ripple beyond you), implies actionable advice (keep building), and ends with a direct question to the reader ("Who are you doing it for?") to drive comments.
     *   **"How I" > "How To":** Clearly a personal narrative, not generic advice.
     *   **Empty Space Aesthetic:** Short, punchy lines with generous line breaks for mobile readability.
@@ -119,7 +132,7 @@ Tacit expertise regarding the LinkedIn algorithm and psychological formatting th
 *   **What makes this mediocre:**
     *   **No 8-Word Rehook:** The first line is 10 words and generic. No open loop.
     *   **Fails SLAY:** No personal story, just generic advice. No clear "Lesson" from experience, "Actionable" steps are vague, and the "You" is a weak, generic call to connect, not a prompt for discussion.
-    *   **"How To" Slop:** Reads exactly like an AI-generated or textbook piece, lacking proprietary insight or personal voice.
+    *   **"How To" Slop:** Reads exactly like an AI-generated or textbook piece, lacking proprietary insight or personal voice — the exact failure she names directly: "the problem with ChatGPT is that it gives you average output and so that's why LinkedIn is full of AI slop."
     *   **No Empty Space Aesthetic:** Dense paragraphs create friction and are unappealing on mobile.
     *   **No Humble Brag/Broad-Narrow-Niche:** Lacks any specific strategy to hook a broad audience or qualify leads.
 

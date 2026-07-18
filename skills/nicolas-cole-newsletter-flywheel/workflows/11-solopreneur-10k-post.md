@@ -74,3 +74,32 @@ Run through FARRICE.md voice markers:
 - **Complete SubStack post** (ready to copy-paste)
 - **LinkedIn teaser post** (2-3 variants)
 - **Subject line variants** (3 options)
+
+## Output Schema
+
+```markdown
+# Solopreneur 10K Post — [Edition Topic]
+
+## Topic → Pain → Prompt Map
+Pain: [specific $0-$10K solopreneur pain]
+Prompt (tangible asset): [full text]
+
+## Post (full copy)
+Subject line / Opening / The Setup / The Prompt / The Commentary / Close
+
+## Voice Check
+[FARRICE.md markers confirmed: authentic, direct, multi-passionate, practical]
+
+## LinkedIn Teaser (2-3 variants)
+[full drafts]
+
+## Subject Line Variants (3)
+[options]
+```
+
+## Quality Gate
+
+- [ ] The prompt IS the tangible asset — fully written, copy-pasteable, not described secondhand?
+- [ ] The pain named is specific to the $0-$10K solopreneur stage, not a generic business problem?
+- [ ] Voice check against FARRICE.md run and confirmed, not skipped?
+- [ ] Close plants a genuine reason to return next edition, not a generic "stay tuned"?

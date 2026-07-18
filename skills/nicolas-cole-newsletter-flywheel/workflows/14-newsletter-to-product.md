@@ -86,7 +86,7 @@ Break-even analysis:
 - Subscribers needed for $5K/mo at $350 product: ~286 (at 5% conversion)
 ```
 
-## Output
+## Output Schema
 
 ```markdown
 # Newsletter → Product Pipeline — [Newsletter Name]

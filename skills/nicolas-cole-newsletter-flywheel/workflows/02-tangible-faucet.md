@@ -60,3 +60,35 @@ Deliver:
 - **Runner-up**: The second-best option (pivot insurance)
 - **Asset Description**: 2-sentence pitch: "Every [frequency], you get [specific tangible asset] that helps you [specific outcome]. It's like a [physical analog] club but for [your domain]."
 - **First 5 Edition Concepts**: Quick titles showing the asset in action
+
+## Output Schema
+
+```markdown
+# Tangible Faucet — [Domain/Topic]
+
+## Self-Consumption Audit
+[What the creator personally wishes never ended]
+
+## Candidates (5-7)
+| Asset Type | Noun Test | Save Test | Wine Club Test | Score |
+|---|---|---|---|---|
+
+## Winner
+- **Asset**: [noun]
+- **2-Sentence Pitch**: [...]
+- **Evolution Engines (3+)**: [external forces guaranteeing infinite material]
+
+## Runner-Up
+[second-best option + why it's pivot insurance]
+
+## First 5 Edition Concepts
+1-5. [title + tangible asset per edition]
+```
+
+## Quality Gate
+
+- [ ] The winning asset can be described with a NOUN, not a topic ("AI prompts," never "marketing insights")?
+- [ ] The winner passes all three tests — Noun, Save, and Wine Club — not just one or two?
+- [ ] At least 3 external evolution engines are named, not just asserted to exist?
+- [ ] The Write With AI Problem check was run ("will I worry about running out in 3 months?") with a concrete answer?
+- [ ] The runner-up is a genuinely different asset type, not a cosmetic variant of the winner?

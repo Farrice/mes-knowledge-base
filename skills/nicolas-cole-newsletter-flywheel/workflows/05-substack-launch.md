@@ -61,3 +61,36 @@ Deliver:
 - 3 post outlines (subject lines, structure, tangible asset described)
 - Pre-launch checklist (filled in)
 - LinkedIn announcement draft
+
+## Output Schema
+
+```markdown
+# SubStack Launch — [Newsletter Name]
+
+## Name & Positioning
+- Name candidates (5+): [list, ranked]
+- Tagline: [completes "Subscribe and every ___ you'll get ___ that helps you ___"]
+- Wine Club Pitch: [15-second elevator version]
+
+## About Page (full copy)
+[The Problem / The Book They Wish Never Ended / What You Get / Who This Is For / Who Writes This / Subscribe CTA]
+
+## First 3 Posts
+1. The Manifesto — [subject line, opening frame, asset, commentary, close]
+2. The Power Demo — [same 5 fields]
+3. The Pattern Setter — [same 5 fields]
+
+## Pre-Launch Checklist
+[8-item checklist, each marked done/pending]
+
+## LinkedIn Announcement
+[full draft]
+```
+
+## Quality Gate
+
+- [ ] The chosen name signals the tangible asset, not just the topic (fails the "Marketing Weekly" test)?
+- [ ] The About page's "What You Get" section names a noun, not a theme?
+- [ ] All 3 first posts deliver a REAL tangible asset in full, not a placeholder or description of one?
+- [ ] Pre-launch checklist has zero unresolved items before this workflow is called complete?
+- [ ] LinkedIn announcement includes a specific, non-generic hook (not "excited to announce")?
