@@ -232,3 +232,7 @@
 {"ts": "2026-07-15T14:27:14Z", "label": "2026-07-15 health performance GEO brief", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-15T14:27:50Z", "label": "2026-07-15 health performance GEO brief", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1"], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-15T14:28:42Z", "label": "2026-07-15 health performance GEO brief", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-17T14:15:25Z", "label": "2026-07-17-health-performance-geo-brief", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d75 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('a \u2026 a \u2026 a') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-17T14:17:11Z", "label": "2026-07-17-health-performance-geo-brief", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('to \u2026 to \u2026 to') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-17T14:17:30Z", "label": "2026-07-17-health-performance-geo-brief", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('claim \u2026 claim \u2026 claim') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-17T14:18:28Z", "label": "2026-07-17-health-performance-geo-brief", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
