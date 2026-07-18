@@ -4,6 +4,18 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These 14 patterns are intuition primitives, not a checklist to stamp in order. If output literally labels "Problem Hook (0-3s)... Solution (3-8s)..." like a fill-in-the-blank worksheet, that is the tell that it was assembled, not directed — Seena builds PSAEP structure invisibly, the same way High Smile does, and never narrates the framework on-screen. The test: would Seena Rez recognize this as a video he'd actually cut in CapCut and post to his own store, or as someone reciting "hyperdopamine hook" vocabulary without ever finding the sound-and-visual pairing that makes it strange? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce the PSAEP stages ("Now for the Authority section...") in the output copy — Seena never names his own framework inside the video; the structure is invisible to the viewer, felt only as pacing.
+- Do NOT settle for a single hook. Seena's own contempt for single-shot content is explicit: "make sure not to be a noob and do this. It's what a noob does. This is what a pro does. They create variations" (source: "$1.8m tiktok dropshipping in 30 days," 2026-01-05). Five variations is the floor, not a bonus.
+- His authority stacking is fast and slightly reckless — a PubMed studies search, a Kim Kardashian clip, a Google search result, thrown up in under 4 seconds. A slow, careful, single-source citation is not Seena's texture; it is the opposite of "speed = legitimacy."
+- Polish-is-the-tell runs backward from most experts here: Seena's explanation clips are deliberately rough UGC (his own hand on camera, a default CapCut export) — a slick, agency-produced explanation section breaks the "real person" read he is optimizing for. Do not over-produce the middle of the video to compensate for a weak hook.
+
+---
+
 ## Genius Patterns
 
 14 executable patterns extracted from Seena Rez's viral content methodology.
@@ -34,6 +46,8 @@
 ## Pattern 3: Authority Speed-Stacking
 
 **Execute**: Flash 3-5 authority elements in under 4 seconds—academic study screenshots, celebrity clips, Google search results, statistics. Speed prevents conscious evaluation; creates assumed legitimacy.
+
+**Seena's bridge line**: "But you know what's also based upon real science?" — the pivot line he uses to move from problem to solution before flashing PubMed studies and a Kim Kardashian clip in under 4 seconds (source: "$1.8m tiktok dropshipping in 30 days," 2026-01-05).
 
 **Success Metric**: No viewer comments questioning legitimacy.
 
@@ -67,6 +81,8 @@
 
 **Execute**: Use filters, simulations, or visualizations that make the problem viscerally REAL. Aging filters show the aged face. Decay animations show collagen loss. Worst-case visualizations create immediate emotional response.
 
+**Seena's example**: The red-light-therapy mask hook opens on "Apparently, the aging filter is based upon real science" over a face-aging filter — visual dread before the product is even named (source: "$1.8m tiktok dropshipping in 30 days," 2026-01-05).
+
 **Success Metric**: Strong negative emotional response (fear, disgust, anxiety).
 
 ---
@@ -90,6 +106,8 @@
 ## Pattern 10: Caption Engineering
 
 **Execute**: Use large, yellow, single-line captions positioned within center safe zone. Break at natural speech pauses. Never more than 7 words per line. Readable at glance.
+
+**Seena's rule in practice**: "Since our text is going to turn white, we don't want it to be white. So, we're going to turn into yellow" — the caption color is recolored live in CapCut before the 1080p export, every time (source: "$1.8m tiktok dropshipping in 30 days," 2026-01-05).
 
 **Success Metric**: Zero caption readability complaints.
 
@@ -127,7 +145,7 @@
 
 ## Hidden Knowledge
 
-Tacit knowledge points that Seena Rez knows instinctively but rarely articulates.
+Tacit knowledge points that Seena Rez knows instinctively but rarely articulates — the gap between his $49,140-in-7-days breakdown and his $1.8M-in-30-days breakdown lives almost entirely in these unstated defaults.
 
 ---
 
@@ -159,6 +177,8 @@ Tacit knowledge points that Seena Rez knows instinctively but rarely articulates
 
 **Insight**: Flashing authority signals quickly prevents conscious evaluation. Viewers assume rapid information = well-researched. Slow authority presentation invites skepticism.
 
+**Seena's own words**: "Basically just putting it all over the screen very quickly. People will assume that this stuff is legit" — his own description of the authority-stacking edit (source: "$1.8m tiktok dropshipping in 30 days," 2026-01-05).
+
 **Deploy**: Never linger on a single proof element. Stack 5-7 authority signals in under 7 seconds.
 
 ---
@@ -167,6 +187,8 @@ Tacit knowledge points that Seena Rez knows instinctively but rarely articulates
 
 **Insight**: The hook's job is ONLY to stop scrolling. Conversion happens in the explanation section. Many creators fail by trying to sell in the hook.
 
+**Proof point**: "5% of the people who visited my store out of 700,000 bought my product" — Seena reports the conversion number separately from the 3-million-view reach number because reach and conversion are optimized by different parts of the video (source: "$1.8m tiktok dropshipping in 30 days," 2026-01-05).
+
 **Deploy**: Keep hook purely attention-grabbing. Save all selling, benefits, and value for the explanation section.
 
 ---
@@ -174,6 +196,8 @@ Tacit knowledge points that Seena Rez knows instinctively but rarely articulates
 ## 6: The Variation Buffer
 
 **Insight**: By creating 5 variations, you protect against the inherent randomness of viral content. You don't need to predict which hook wins—you just need ONE to hit. Statistical inevitability replaces guesswork.
+
+**Case in point**: Of the many hook variations Seena posted for the red-light-therapy mask, "it was only the 1.4 and the 1.8 million video that went viral" — the buffer, not any single hook, is what paid off (source: "$1.8m tiktok dropshipping in 30 days," 2026-01-05).
 
 **Deploy**: Never post single videos. Always post in variation sets of 5. Accept that most will underperform—that's the system working.
 
@@ -184,6 +208,17 @@ Tacit knowledge points that Seena Rez knows instinctively but rarely articulates
 **Insight**: Yellow text on fast-moving video creates urgency and focus. It's not just readability—it's psychological priming for "important information."
 
 **Deploy**: Use yellow for standard captions, white for key statements (solution reveal, value props, CTA), and red sparingly for pain points.
+
+---
+
+## Anti-Patterns (What Seena Rez Explicitly Calls Out as Mistakes)
+
+- **Abandoning a flat video instead of variating it**: after a video underperforms, treating the fix as needing a brand-new concept — Seena names this directly: "this is the mistake that most people make when they're creating Tik Tok videos... I guess now what I have to do is come up with a completely new video idea." Wrong. That is a mistake. (source: "$1.8m tiktok dropshipping in 30 days," 2026-01-05, https://www.youtube.com/watch?v=cZ-Gsow_ULo)
+- **Running TikTok ads on Campaign Budget Optimization (CBO) instead of controlling ad-set budgets directly**: "Sounds good in theory, but we do not want to do this. It adds complexity that we're not really looking for. We want to be able to control our ad budget." (source: "$49,140 tiktok dropshipping in 7 days from scratch," 2026-01-05, https://www.youtube.com/watch?v=eF59p8zhbLM)
+- **Paying $200+ for a premium Shopify theme or a web designer before validating the product**: "Most people have you think that you need to spend $200 on a paid Shopify theme or get a web designer. A lot of those people are trying to give you their affiliate link, I believe." (source: "$49,140 tiktok dropshipping in 7 days from scratch," 2026-01-05, https://www.youtube.com/watch?v=eF59p8zhbLM)
+- **Naming the brand or product inside the hook/explanation section**: "I haven't sold the product yet. I haven't even named the product yet. I'm using its conventional name, not my brand name. This is because I don't want the content to seem like an ad." (source: "$49,140 tiktok dropshipping in 7 days from scratch," 2026-01-05, https://www.youtube.com/watch?v=eF59p8zhbLM)
+- **Scaling ad spend below a 3:1 LTGP-to-CAC ratio**: "You don't really want to sacrifice upon this. You don't want to go any lower than 3:1." (source: "$49,140 tiktok dropshipping in 7 days from scratch," 2026-01-05, https://www.youtube.com/watch?v=eF59p8zhbLM)
+- **Entering a stagnating or declining market during product research**: "You don't want to be getting into a stagnating or declining market because there's no opportunity there." (source: "how I built a $2.7M brand using a.i," 2026-02-05, https://www.youtube.com/watch?v=5FokzkHTpc0)
 
 ---
 
