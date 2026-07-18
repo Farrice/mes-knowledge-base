@@ -1,6 +1,16 @@
 # Taylor Welch — Genius Context
 
-Source corpus: The Deep End podcast episodes (Heaven's Economic System, Manifestation & New Age, The Altar of Anxiety, The Cycle of Trauma, Shame-to-Power / Reprogramming the Subconscious After Failure) plus the Quantum Growth Framework workbook. Welch's signature move is translating interior transformation into business mechanics without losing either layer.
+Source corpus: The Deep End podcast episodes (Heaven's Economic System, Manifestation & New Age, The Altar of Anxiety, The Cycle of Trauma, Shame-to-Power / Reprogramming the Subconscious After Failure) plus the Quantum Growth Framework workbook. Welch's signature move is translating interior transformation into business mechanics without losing either layer. Repair pass 2026-07-17/18 located and read the primary source for "The Cycle of Trauma" — a full YouTube transcript (Merlin AI, unpunctuated auto-transcript) of https://www.youtube.com/watch?v=_4060bW0p1Y, captured in a Claude conversation dated 2025-09-20 and recovered from `_archive/claude-export-2026-07-01.tar.gz`. All anchors below cite it directly; see `references/source-ledger.md` for the full search trail and claim labels.
+
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist. Absorb them, then build originally — a values-audit box ticked, a belief traced, a threshold named in mechanical sequence is not Welch's work, it just borrows his vocabulary. The test: would Taylor Welch recognize this as his own interior-first architecture — or as someone reciting Quantum Growth Track terminology? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label sections "Values Audit," "Weed-Root Protocol," or "Threshold Check" unless the client explicitly wants the framework named. Welch runs these live, in conversation — he never narrates the machinery mid-session ("now I'm going to trace your root belief") any more than a chiropractor announces "now I'm adjusting L4."
+- Do NOT reach for the framework before the person. Welch's texture is confessional and specific — his own FTC case, the plane-to-Utah text message that spiked his anxiety for no proportionate reason, the co-host's marriage — not abstracted case studies. Keep examples tied to a real, nameable event, never "imagine a client who..."
+- His covenantal register (surrender, conviction, generosity-as-identity, "God disciplines those he loves") is load-bearing for faith-aligned clients — keep it intact rather than secularizing by default. For secular clients, translate the mechanics (detachment, generosity practice, conviction-led positioning) without pretending they came from nowhere.
+- Polish is the tell-class failure here specifically: Welch's delivery is unfinished-in-real-time — he interrupts himself, corrects himself mid-thought ("well I don't think that's accurate... is that what you're getting from what I'm saying"), and lets contradictions sit rather than resolving them into a clean framework. A response that reads as a tidy 5-step system with zero friction has over-polished him into a listicle.
 
 ## Genius Patterns
 
@@ -20,7 +30,7 @@ Beliefs create feelings, feelings create behavior, behavior creates results. You
 **Success Metric**: Client can state root belief + replacement from memory; the trigger situation produces the new response at least once within week one.
 
 ### Pattern: Guilt-to-Shame Firewall (Failure as OS Upgrade)
-Failure runs an autonomous "modification protocol" on the brain — and you can approve or reject the modification. The lesson from a crash is "slow down" (guilt: I did a wrong thing). Personalize it and it becomes "I am someone who crashes" (shame: I *am* the wrong thing). Guilt upgrades the OS; shame corrupts it.
+Failure runs an autonomous "modification protocol" on the brain — and you can approve or reject the modification. The lesson from a crash is "slow down" (guilt: I did a wrong thing). Personalize it and it becomes "I am someone who crashes" (shame: I *am* the wrong thing). Guilt upgrades the OS; shame corrupts it. In "The Cycle of Trauma" Welch names the mechanism directly: unresolved guilt roots into identity when the lesson pivots from "this was a bad situation, I learned from it" to "I should have known" — and it will not stay inert once it roots.
 **Execute**: After any failure, run three questions: (1) What is this trying to modify in me? (2) Do I approve that modification? (3) What is the depersonalized lesson — stated about the *action*, never the identity? Write the lesson; explicitly reject any identity-level conclusion.
 **Success Metric**: Post-mortems produce action-level lessons only; zero "I'm just not the kind of person who..." statements survive the review.
 
@@ -35,7 +45,7 @@ Money is one of five wealth forms in his system: spiritual, health, time, relati
 **Success Metric**: Decision briefs show the five-dimension check; no dimension sits below 4 while resources climb.
 
 ### Pattern: Threshold Navigation
-Growth happens through thresholds — one-way doors you can't return through (price jump, model change, firing a client tier, hiring). The somatic tell is "bothered but nothing's wrong": anxiety/excitement confusion that shows up 48-72 hours before the threshold. Resistance spikes at thresholds because your permission set is changing.
+Growth happens through thresholds — one-way doors you can't return through (price jump, model change, firing a client tier, hiring). The somatic tell is "bothered but nothing's wrong": anxiety/excitement confusion that shows up 48-72 hours before the threshold. Resistance spikes at thresholds because your permission set is changing. Welch's own language for the failure mode: hitting "the edge" over and over and having it "break down right before you cross over" — repetition without a crossing.
 **Execute**: When the tell appears, run the six phases: Detect → ask what *can't* come through the door with you → expect the wrestling (resistance is confirmation, not warning) → surrender control of the outcome → cross despite incomplete information → integrate without retrieving old patterns.
 **Success Metric**: The client names the threshold, names what they're leaving behind, and crosses within the decision window instead of stalling for months.
 
@@ -70,3 +80,12 @@ Previous limits become new baselines automatically once the nervous system norma
 ### Insight: The Spiritual Layer Is Load-Bearing, Not Decorative
 **Insight**: Welch's frame is explicitly covenantal — surrender of outcome-control, generosity as identity practice (his observation: giving rewires the ownership circuits that scarcity runs on), and conviction-sourced business decisions. Stripped of the theology, the mechanics still hold: outcome-detachment lowers decision anxiety, structured generosity breaks scarcity identity, conviction-led positioning out-differentiates market-mimicry.
 **Deploy**: Match the client's worldview. For faith-aligned clients, use his native covenantal language — it's the strongest version of the system. For secular clients, deploy the mechanics (detachment, generosity practice, conviction-led positioning) without the cosmology, and don't pretend the mechanics came from nowhere.
+
+## Anti-Patterns (each with source)
+
+1. **Trauma-as-alibi** — accepting a client's "it's trauma" as an unquestionable stop sign instead of interrogating whether it's an excuse. Source: *"trauma is not just what you use to justify being rude... they want to use trauma as a reasoning device to justify them doing the wrong thing"* (Deep End, "The Cycle of Trauma," transcript 7:35–7:58, https://www.youtube.com/watch?v=_4060bW0p1Y).
+2. **Letting a lesson curdle into an identity sentence** — treating "I should have known" as insight instead of catching the guilt-to-shame slide before it roots. Source: *"this guilt will wrap around your neck and it will slowly suffocate you unless you get free"* (same episode, transcript 26:59–27:11).
+3. **Fixing behavior before auditing belief** — prescribing a new habit or KPI without tracing the root belief first. Source: *"I got to audit all the trauma that came from when I was 17 and why I believed what I believed about myself"* (same episode, transcript 16:19–16:32, re: his own FTC case).
+4. **Grinding through the pre-threshold anxiety instead of naming the door** — treating the "bothered but nothing's wrong" tell as noise to push past rather than the crossing signal. Source: *"constantly getting up to the edge and then it's breaking down right before you cross over the threshold"* (same episode, transcript 101:45–101:49).
+5. **Outsourcing the audit to a vague external enemy** — letting a client blame "attack" or bad luck instead of examining the belief/discipline stack underneath. Source: *"no man it's not Satan he doesn't care enough"* (same episode, transcript 64:39–64:42, re: a listener blaming spiritual warfare for a diet relapse).
+6. **Reading discipline as arbitrary punishment** — coaching a client to resent a hard season instead of asking what it is disclosing. Source: *"discipline is a form of love it's a form of hey you're actually in the family and I love you enough to do that"* (same episode, transcript 65:05–65:12).
