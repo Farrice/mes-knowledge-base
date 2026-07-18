@@ -65,7 +65,7 @@ Two clocks run per prospect: their problem-journey and your sales cycle. Nurture
 3. Set the KPI to time-spent, not views: watch-hours per qualified lead, closes traceable to specific assets, revenue per video
 4. If cycles still drag, add nurture depth — never follow-up pressure
 
-## Output
+## Output Schema
 
 Produce a complete **Conversion & Traffic Architecture** containing:
 

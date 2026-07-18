@@ -189,7 +189,7 @@ Compare against Vincent's operating benchmarks:
 | Audience to revenue | ___ | $100K/mo from <5K | ___ |
 | Team efficiency | ___ people | 3 people at $100K/mo | ___ |
 
-## Output
+## Output Schema
 
 Produce a complete **Ecosystem Diagnostic Report** containing:
 

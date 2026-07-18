@@ -74,7 +74,7 @@ For each broken yes, prescribe from the correct playbook:
 
 If the mechanism passed all three tests after fixes: the offer can likely carry a premium. Model the price elevation (Vincent doubled consulting rates post-mechanism). If it failed: hold pricing until the mechanism is ownable — raising prices on a commoditized offer accelerates decay.
 
-## Output
+## Output Schema
 
 Produce a complete **Four-Yes Audit Report** containing:
 

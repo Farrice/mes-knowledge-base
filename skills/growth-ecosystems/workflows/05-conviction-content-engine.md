@@ -119,7 +119,7 @@ Audit the finished piece:
 
 If any YES has zero moments, the content has a structural hole. Patch it.
 
-## Output
+## Output Schema
 
 Produce a **production-ready content piece** in the specified format:
 

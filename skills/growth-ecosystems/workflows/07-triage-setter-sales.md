@@ -143,7 +143,7 @@ Not every tier requires a call. Design passive closing for DIY tier:
 3. **Post-purchase onboarding**: Automated welcome sequence
 4. **Upgrade pathway**: Clear path from DIY → DWY when ready
 
-## Output
+## Output Schema
 
 Produce a complete **Sales Architecture Document** containing:
 

@@ -165,7 +165,7 @@ Design the weekly schedule that sustains the model:
 
 Adjust to fit the individual's schedule and lifestyle constraints.
 
-## Output
+## Output Schema
 
 Produce a complete **Scaling Roadmap** containing:
 

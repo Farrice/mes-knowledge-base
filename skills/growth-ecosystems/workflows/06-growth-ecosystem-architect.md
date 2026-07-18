@@ -213,7 +213,7 @@ Build the 30-day activation plan:
 - [ ] Record first case study
 - [ ] Iterate content calendar based on data
 
-## Output
+## Output Schema
 
 Produce a complete **Growth Ecosystem Blueprint** containing:
 

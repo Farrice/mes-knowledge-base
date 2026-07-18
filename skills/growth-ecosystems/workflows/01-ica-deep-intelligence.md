@@ -95,7 +95,7 @@ Build the complete Point A → Point B map:
 - System/tool gaps
 - Identity gaps
 
-## Output
+## Output Schema
 
 Produce a complete **ICA Intelligence Document** containing:
 

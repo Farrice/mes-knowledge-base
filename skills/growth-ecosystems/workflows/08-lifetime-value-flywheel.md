@@ -174,7 +174,7 @@ Define and track:
 | Case studies collected per quarter | 5+ | — |
 | NPS score | 8+ | — |
 
-## Output
+## Output Schema
 
 Produce a complete **Lifetime Value System Document** containing:
 

@@ -106,7 +106,7 @@ For each angle:
 - **Which YES it targets**: Outcome, Method, or Identity
 - **Example hook**: One headline that captures the angle
 
-## Output
+## Output Schema
 
 Produce a complete **Positioning & Messaging Document** containing:
 

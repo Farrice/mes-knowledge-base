@@ -114,7 +114,7 @@ Magic Number = (Tier 1 × clients × price) + (Tier 2 × clients × price) + (Ti
 
 Show the monthly revenue model with realistic capacity constraints.
 
-## Output
+## Output Schema
 
 Produce a complete **Offer Architecture Document** containing:
 

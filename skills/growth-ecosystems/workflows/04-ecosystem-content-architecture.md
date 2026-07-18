@@ -127,7 +127,7 @@ For each content piece, define:
 2. **Next action**: What should they do after consuming it?
 3. **Ecosystem routing**: Where does this feed into the journey?
 
-## Output
+## Output Schema
 
 Produce a complete **Content Architecture Document** containing:
 
