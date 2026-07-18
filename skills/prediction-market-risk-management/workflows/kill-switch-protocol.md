@@ -450,6 +450,27 @@ Practice full ORANGE recovery:
 
 ---
 
+## Output Schema
+
+This workflow produces one of three deliverable shapes, matched to which Part was invoked — never blend them into one generic report:
+
+- **Configuration (Part A)**: three-level trigger table (YELLOW/ORANGE/RED), each row carrying trigger condition, exact threshold, rationale, and source citation; automated actions listed with their time budget (<1s / <5s / <10s); explicit recovery path per level (automatic after N minutes clear, vs. manual-approval-required, vs. manual-only with a root-cause document); heartbeat and alert-channel YAML blocks.
+- **Execution Playbook (Part B)**: for the level that fired, the Immediate actions (with their time budget), the operator-review checklist for the applicable window (5 min / 30 min), and — for RED only — the completed Post-Mortem Template (timeline, root cause, financial impact, system assessment, parameter review, corrective actions with owner + deadline, restart plan).
+- **Test Report (Part C)**: per-level pass/fail table (trigger fired, actions executed, alert delivered, time to full activation), a list of issues found (or "none"), and the next test date.
+
+Every shape must state explicitly whether recovery from the reported level requires automatic clearing, manual approval, or manual-only reset with a cooling period — this is the single fact that determines whether trading resumes in minutes or in days, and it must never be left implicit.
+
+## Quality Gate
+
+- Is the kill switch's one-way nature preserved in the output — does RED-level output ever imply automatic recovery, when the source is explicit that recovery from RED is manual-only (`_trigger_kill_switch()`, no auto-reset)?
+- Does every trigger condition carry BOTH a numeric threshold AND a source citation (which bot, which check, which doc page) — not a threshold asserted without provenance?
+- For RED-level output: is `auto_unwind_on_breach = False` treated as the correct default (no auto-liquidation) unless the operator has explicitly configured otherwise, and is the reasoning ("locks in recoverable losses") stated, not assumed?
+- Does a Post-Mortem output include the 24-hour minimum cooldown AND the 7-day cooling period before live redeployment, both stated as non-negotiable rather than suggested?
+- Does a Test Report distinguish "trigger fired but recovery was automatic" (YELLOW) from "trigger fired and required manual approval" (ORANGE) from "trigger fired and required full root-cause + paper-trading restart" (RED) — collapsing these into one pass/fail bit loses the information that matters?
+- Is the separate-monitoring-process requirement (a thread inside the trading system cannot save you when that system crashes) respected in any configuration output — i.e., does the monitor's actions-on-missed-heartbeat list stay independent of the main trading loop?
+
+---
+
 ## Practitioner Notes
 
 - **False positives are acceptable. False negatives are not.** A kill switch that fires too aggressively costs trading time. A kill switch that fails to fire costs capital. Err on the side of caution.

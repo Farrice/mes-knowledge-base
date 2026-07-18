@@ -340,6 +340,24 @@ Recommendation:   {wait for better price / skip market / reduce positions first 
 
 ---
 
+## Output Schema
+
+Exactly one of two shapes — never a hybrid, never a partial:
+
+- **APPROVED**: market/direction/strategy/category header; final POSITION SIZE with entry price and share count; EDGE ANALYSIS block (estimated probability, market price, raw edge, fee per share, estimated slippage, net edge, net expected profit); RISK METRICS block (Kelly fraction used vs. full Kelly, binding constraint from Step 5, portfolio/strategy/per-market utilization %, kill-switch distance in dollars and %, concurrent position count vs. max, correlation flags); EXECUTION PARAMETERS (slippage budget, 60-second order timeout); EXIT PLAN set at entry (stop-loss at entry × 0.80, trailing-stop trigger at entry × 1.20, time-horizon take-profit, resolution time); and a CONFIDENCE label (HIGH if edge > 3x min_ev, MEDIUM if 2-3x, STANDARD if 1-2x).
+- **REJECTED**: which of the 8 checks or pre-trade filters failed (numbered), the specific rejection reason, actual value vs. threshold, and a recommendation (wait for better price / skip market / reduce positions first / diagnose kill switch). A REJECTED result carries zero position size — never a smaller "compromise" size.
+
+## Quality Gate
+
+- Were all 8 checks run in the documented sequence (kill switch → blacklist → whitelist → volume → per-market exposure → global exposure → daily loss → drawdown), stopping at the first failure rather than continuing past it?
+- Is the Kelly math shown step by step (odds ratio `b`, full Kelly `f*`, quarter-Kelly `f`, raw size) — not just the final capped number?
+- Are fees (Polymarket's `feeRate * price * (1-price)` formula, category-specific) and slippage subtracted BEFORE the edge is called positive?
+- If Check 7 or 8 fired, is the kill switch trigger stated explicitly as a permanent state change, not buried inside a generic rejection reason?
+- Is the exit plan (stop-loss, trailing stop, take-profit) set now, at entry, rather than deferred to "decide later"?
+- Does the binding-constraint diagnosis (which of the 5 sizing layers actually capped the trade) get reported, not just the final dollar figure?
+
+---
+
 ## Practitioner Notes
 
 - **Never override a rejection.** The rules exist because they were validated across WeatherBot, PolySwarm, the arbitrage bot, and the poly-maker. Overriding "just this once" is Step 5 of the 92.4% failure cascade.

@@ -6,6 +6,20 @@ Deep domain knowledge for cross-strategy risk management in prediction markets. 
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives — the layered-defense shape (Kelly × hard caps × multiple exits × portfolio ceiling × one-way kill switch) — not a checklist to recite. Never announce the machinery: an answer that says "Now applying Check 5, the per-market exposure gate" has already failed the spirit of the system; run the check silently and report the number and the verdict.
+
+This skill has no single named human teacher — its authority comes from five production codebases and Polymarket's own docs, so the recognition test here is architectural, not stylistic: **would the engineer who wrote `RiskManager.check_order()` — the one who put the kill switch check first because it's O(1) and cheapest, and put the state-changing daily-loss/drawdown checks last because you want every cheaper check to have already passed before you trigger something irreversible — recognize this as their own sequential, cheapest-first, state-changing-last reasoning? Or would they see someone using "Kelly," "kill switch," and "drawdown" as risk-management vocabulary with the ordering logic missing?** If the second, rebuild the sequence before shipping.
+
+Specifically:
+- Never reorder or parallelize the 8-check chain to surface the "interesting" number faster. Cheap-first, state-changing-last is not a style choice, it's the entire design (`extractions/prediction-market-trading/risk-management-extraction.md`, "The RiskManager as Sequential Gate vs Parallel Check").
+- Never soften a REJECTED trade into a smaller "compromise" position. REJECTED means zero size — a discounted bet that dodges the rejection is the exact failure mode that produces the 92.4%.
+- Never state "quarter-Kelly" or "10% max per market" as received wisdom without showing the arithmetic. This domain's entire credibility rests on worked numbers (odds ratio, f*, fee formula) — an assertion without the calculation is the polish-is-the-tell failure mode here.
+- Precision reads as competence in this domain, inverted from most creative skills — a hedge-y, rounded, "roughly" answer is the tell that the machinery wasn't actually run. Real risk management is uncomfortable with round numbers and visibly shows its rejection reasons.
+
+---
+
 ## 1. The Core Truth
 
 **92.4% of Polymarket wallets are unprofitable.** The 7.6% that survive share one trait: they treat risk management as the product, not an afterthought bolted onto strategy. Every edge decays. Arbitrage windows compressed from 12.3 seconds (2024) to 2.7 seconds (2026) to dead. Strategies that printed money in February fail by March. The ONLY durable asset is the system that keeps you alive while edges rotate.
@@ -380,8 +394,8 @@ Every step requires automation to prevent — humans don't reliably execute risk
                     |   Rate limits tracked             |
                     |   HTTP 425/503 handling           |
                     |   Fee-aware sizing                |
-                    |   Slippage validation             |
-                    |   Order timeout (60s)             |
+                    |   Slippage validation              |
+                    |   Order timeout (60s)              |
                     +----------------------------------+
 ```
 
@@ -423,6 +437,20 @@ Full control set from `trading.py`:
 - [ ] Paper-to-live performance tracking: current degradation ___% from backtest
 - [ ] Order timeout monitor running (cancels stale orders after 60s)
 - [ ] Fee regime check: any recent platform fee changes?
+
+---
+
+## 23. Anti-Patterns — Sourced (The 92.4% Failure Cascade)
+
+Each item below is a documented behavior of the losing 92.4%, traced to a specific line in the extraction or a raw source file. Recognize these when reviewing a trading plan or a live incident — they are the difference between a system that fails a check and a human who overrides one.
+
+- **Full Kelly sizing on the first "working" backtest** — the cascade's step 2 is to "Deploy with full Kelly sizing ($1,000 bet on a $5,000 account)" off a 522x paper return, before a single live trade has proven the edge survives execution costs (`extractions/prediction-market-trading/risk-management-extraction.md`, "Anti-Exemplar: The 92.4% Pattern," extraction dated 2026-04-13, step 2).
+- **Overriding or never setting stop-losses** — step 5 of the same cascade: "Override stops or never set them ('it'll come back')." WeatherBot's own -20% stop-loss exists specifically to remove this decision from the trader mid-trade (`weatherbot-source.md`, `calc_kelly`/`monitor_positions` region; risk-management-extraction.md step 5, 2026-04-13).
+- **Treating paper P&L as a live expectation** — the extraction's centerpiece finding is that "simulation showed 522x returns" against "Live v2 lost 49.5%. Live v3 lost 13%" (Jung-Hua Liu, Medium, March 2026, per `sovereign-trader-analysis-source.md` line 429; risk-management-extraction.md Layer 5, dated 2026-04-13). Assuming backtest performance transfers to live capital is the single most consistently fatal anti-pattern across every source studied.
+- **Single-strategy dependence with no rotation plan** — once "arbitrage windows compressed from 12.3 seconds (2024) to 2.7 seconds (2026)" (`sovereign-trader-analysis-source.md`, lines 107 and 551), traders with no fallback strategy simply stopped being able to trade rather than rotating into weather or market-making, per the same 2026-04-13 extraction.
+- **Revenge-sizing after a loss** — step 6 of the cascade: "Increase size to recover losses (revenge trading, anti-Kelly)" (risk-management-extraction.md, 2026-04-13). Poly-maker's structural answer is a mandatory `sleep_period` risk-off cooldown (`poly-maker-source.md` lines 439-440) that makes revenge-sizing impossible by design, not merely discouraged.
+- **Leaving an automated system unattended after going live** — the polymarket-arbitrage README's own "Key Warnings" section states plainly: "Always start in dry-run mode before live trading," "Begin with minimal capital ($50-100)," and "Monitor actively; don't leave unattended" (`polymarket-arbitrage-source.md`, lines 593-597). Treating automation as a reason to stop watching the system contradicts the bot authors' own documented warning.
+- **Auto-liquidating every position the instant a kill switch fires** — the arbitrage bot's `auto_unwind_on_breach` flag defaults to `False` (`polymarket-arbitrage-source.md` lines 116, 196) specifically because "automatic unwinding during market stress can lock in losses that would have recovered" (risk-management-extraction.md, "Signature Move 4: The Kill Switch as One-Way State Machine," 2026-04-13). A kill switch designed to panic-sell is solving the wrong problem.
 
 ---
 

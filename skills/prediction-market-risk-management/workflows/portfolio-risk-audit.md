@@ -357,6 +357,30 @@ WATCH LIST:
 
 ---
 
+## Output Schema
+
+A single deliverable with all 8 sections present, in order — never a subset, even when some sections read "no issues found":
+
+1. Portfolio Exposure Summary (total/deployed/cash, platform breakdown, strategy breakdown, largest single position, with OK/YELLOW/RED status per line)
+2. Position-Level Analysis (per open position: entry vs. current bid, size, unrealized P&L, edge remaining, exit scenarios, STATUS tag of HOLD/ROTATE/EXIT/STOP-LOSS ZONE/TRAILING ACTIVE)
+3. Correlation Matrix (category clusters, resolution-time clusters, directional clusters, each with an aggregate exposure % and LOW/MEDIUM/HIGH risk tag)
+4. Strategy Health Check (per strategy: 30-day win rate, average edge, net P&L, Sharpe proxy, trend vs. 30 days ago, paper-to-live degradation %, ACTIVE/CAUTION/DEGRADING/RECOMMEND-PAUSE status)
+5. Platform Risk Indicators (fee status, heartbeat/API health, infrastructure countdown to next Tuesday restart, cancel-all capacity vs. position count)
+6. Drawdown and Kill Switch Proximity (current level, distance to each of the 5 trigger metrics, worst-case simultaneous-stop-loss scenario)
+7. Risk Parameter Analysis (Kelly fraction, stop-loss, take-profit, min-EV, slippage budget — each with a data-driven assessment, never a default "looks fine")
+8. Risk Dashboard summary (one-screen OK/WARN/RED status line per category, today's and 30-day P&L, prioritized RECOMMENDED ACTIONS, POSITIONS NEEDING ATTENTION, WATCH LIST)
+
+## Quality Gate
+
+- Are all 8 sections present, including ones with no findings (state "none flagged" rather than omitting the section)?
+- Does every correlation cluster report an aggregate exposure % against the 30% rebalance threshold, not just a list of positions?
+- Is at least one ROTATE/EXIT/STOP-LOSS ZONE/TRAILING ACTIVE status assigned per open position — never a blanket "HOLD" without checking the rotation-signal logic (>70% edge captured + >12h to resolution)?
+- Does the kill-switch-proximity section report distance-to-trigger for all 5 tracked metrics (daily P&L, drawdown, win rate, API latency, global exposure), not just the two hardest limits?
+- Does the Risk Parameter Analysis section respect the one-parameter-at-a-time rule — no bundled recommendation that changes 2+ parameters in a single pass?
+- Does the final dashboard's RECOMMENDED ACTIONS list rank by urgency (RED before YELLOW before INFO), matching the section 1-6 findings rather than introducing new, unsupported claims?
+
+---
+
 ## Practitioner Notes
 
 - **The rotation candidates are free money.** Positions sitting at 80%+ captured edge with 24+ hours to resolution are tying up capital. Capital rotation is the single highest-impact optimization for most portfolios — prediction market edges are front-loaded.
