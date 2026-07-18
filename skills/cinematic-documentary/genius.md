@@ -1,10 +1,22 @@
 # David Gelb — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These fourteen patterns are intuition primitives, not a production checklist. Internalize them, then build originally — if the output stamps "Character-First Inversion applied → Origin Story identified → False Victory planted" in visible sequence, the machinery has leaked and the piece reads like a director's shot list, not a film. The test: would David Gelb recognize this as a piece he directed — or as someone reciting documentary-structure vocabulary? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce the moves. Never label a section "here's the Bond cold open" or "here's the false victory." Execute the structure; the reader should feel the turn, not see the label.
+- Gelb's specific texture is reference-dense and humble about process — he explains structure through Spider-Man, Titanic, Lord of the Rings, Fog of War, not through invented theory. Borrow that instinct: ground structural claims in something the reader already knows; don't manufacture new jargon to sound rigorous.
+- His craft is radical fidelity to truth inside a directorial frame — "if things are not what you thought it was, you just go into what it actually is." A false victory or origin moment that isn't actually true to the subject is worse than no structure at all. Never manufacture a turn the material doesn't support.
+- Polish is the tell-class failure here specifically: a piece that hits every beat (origin, false victory, want/need, scene change) but reads varnished and symmetrical is the failure Gelb names directly — "over the top and it just doesn't work, it's... cheesy or trying too hard" — because "it means we're not leaning into the truth." It means the structure was forced onto the material rather than discovered inside it.
+
+---
+
 ## Core Genius
-Documentary filmmaking is character architecture, not information delivery. Gelb treats real people the way great fiction treats protagonists — origin story as operating system, want vs. need as narrative engine, false victory as structural turning point — while maintaining radical fidelity to truth. The result is documentary that haunts like cinema.
+Documentary filmmaking is character architecture, not information delivery. Gelb treats real people the way great fiction treats protagonists — origin story as operating system, want vs. need as narrative engine, false victory as structural turning point — while maintaining radical fidelity to truth. The result is documentary that haunts like cinema. In his own words, describing why Chef's Table works: "People care about people."
 
 ## What Makes Him Different
-Every other storytelling expert in the roster operates at the sentence/scene level (Connelly = surgical detail, Wright = journalistic precision, Roth = cinematic prose, Kallaway = hook engineering). Gelb operates at the *architectural* level — the entire arc, the emotional blueprint, the relationship between character and audience across a full piece. He's the only expert who builds stories the way a film director builds films: character-first, emotion-over-information, with the audience as an active character on a parallel transformation journey.
+Every other storytelling expert in the roster operates at the sentence/scene level (Connelly = surgical detail, Wright = journalistic precision, Roth = cinematic prose, Kallaway = hook engineering). Gelb operates at the *architectural* level — the entire arc, the emotional blueprint, the relationship between character and audience across a full piece. He's the only expert who builds stories the way a film director builds films: character-first, emotion-over-information, with the audience as an active character on a parallel transformation journey. Asked what separates a cinematic documentary from a YouTube explainer, he doesn't reach for craft vocabulary — he reduces it to one line: "information versus emotion."
 
 ---
 
@@ -106,7 +118,7 @@ Every other storytelling expert in the roster operates at the sentence/scene lev
 - **Executable Behavior**: After drafting, audit: does every element (tone, visuals, structure, details, transitions) serve the same thematic purpose? Coherence isn't just about message — it's about *motif* at every scale.
 - **Deployment Context**: Brand audits, content series design, website copy review, campaign coherence checks.
 - **Anti-Pattern**: Elements that feel borrowed from different projects. A casual voice in formal design. A serious topic in a playful format — unless the dissonance is intentional.
-- **Success Metric**: A stranger could identify the creator from any isolated element.
+- **Success Metric**: A stranger could identify the creator from any isolated element. Gelb names the failure mode directly with the Amadeus anecdote — the patron's complaint, "too many notes," and the difficulty of directors who refuse studio notes that would break coherence (James Cameron holding the line on Avatar's flying sequences against a studio note that "each minute costs $10 million").
 
 ---
 
@@ -119,16 +131,16 @@ Gelb shot Jiro in two distinct phases. First shoot captured what he thought the 
 "You never have enough money and so you have to work with what you have, which is interesting because when he can literally create anything he wants at any moment, there's too many choices." **Implication**: Unlimited resources produce paralysis. Deliberate constraints (word count, format, deadline) produce better creative output.
 
 ### 3. The Therapy Interview
-Chef's Table interviews function like therapy sessions — 2 weeks of relationship-building, repeated long-form conversations, personal vulnerability from the interviewer. **Implication**: Deep content about real people requires *multiple* conversations with increasing trust, not single-session extraction.
+Chef's Table interviews function like therapy sessions — 2 weeks of relationship-building, repeated long-form conversations, personal vulnerability from the interviewer. Gelb names the exchange directly: "what you give, that's the energy that you get back." **Implication**: Deep content about real people requires *multiple* conversations with increasing trust, not single-session extraction.
 
 ### 4. Taste Squad Formation
-Ryan Coogler's advice: form a squad of people at a similar level with similar taste, so you share creative language. Differences in taste within the squad are where growth happens. **Implication**: Creative quality is a team sport. Calibrate with peers who share your aesthetic vocabulary but bring different edges.
+Ryan Coogler's advice: form a squad of people at a similar level with similar taste, so you share creative language — Gelb describes it as "forming a squad of people that are kind of at a similar level, that have similar taste." Differences in taste within the squad are where growth happens. **Implication**: Creative quality is a team sport. Calibrate with peers who share your aesthetic vocabulary but bring different edges.
 
 ### 5. The Overcorrection Rhythm
 After assembly despair, the instinct is to cut too aggressively — "my second cut I cut out way too much and the whole thing goes way too fast." The correct version lives between the bloated first and the starved second. **Implication**: Budget three passes: too much → too little → just right.
 
 ### 6. Watching With Someone as Editing Tool
-The mere *presence* of another person while watching your work changes your perception. You don't need their feedback — your brain recalibrates what's boring and what's working just by having a witness. **Implication**: Before seeking notes, sit with someone while they read/watch. Your own discomfort tells you everything.
+The mere *presence* of another person while watching your work changes your perception. You don't need their feedback — your brain recalibrates what's boring and what's working just by having a witness. Gelb's own words: "Once you watch it with someone else you will learn so much. It is pretty astonishing." **Implication**: Before seeking notes, sit with someone while they read/watch. Your own discomfort tells you everything.
 
 ### 7. The "Be the Best" Trap
 Gelb's grandfather: "You can do anything you want, just be the best at it." Gelb recognizes this as a trap — identity predicated on relative ranking creates perpetual insufficiency. Better reframe: "Just do your best at it." **Implication**: Craft orientation (process) produces better work than competition orientation (ranking).
@@ -156,7 +168,7 @@ Gelb's grandfather: "You can do anything you want, just be the best at it." Gelb
 - **What makes this excellent**: The audience *participates* in the false comfort, making the reversal devastating. Template for mid-content turns.
 
 ### Anti-Exemplar: The Information Documentary
-- **What mediocre looks like**: Content that explains *how* something works — step-by-step technique, facts, methodology — without anchoring it in a character's emotional journey.
+- **What mediocre looks like**: Content that explains *how* something works — step-by-step technique, facts, methodology — without anchoring it in a character's emotional journey. Gelb draws the line himself: "information docs that are based on information like Planet Earth" still need a story, but the documentaries that fail this test are the ones with no character journey underneath the facts at all.
 - **Why it fails**: Information without emotional context is forgettable. Data slides off without a character to attach it to.
 
 ---
