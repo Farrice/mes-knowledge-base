@@ -4,6 +4,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives for outreach and partnership-building, not a fill-in-the-blank template. Absorb them, then write like someone genuinely testing a hypothesis on a stranger, not someone selling. The test: would Nate Herk recognize this as theirs — a real Zero-Proof outreach message or Trojan Horse pitch — or as generic "AI solutions" copy wearing his vocabulary? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label sections "here's the pattern interrupt" or "here's the golden question." Execute the move; never announce it — Herk's outreach lands *because* the mechanics are invisible to the prospect.
+- Never lead with the tech stack (node counts, the automation platform, the LLM). His own line: "Nobody really cares if you built an 18 node automation with Naden and Slack and Notion MCP. They care about the results." Lead with the outcome, always.
+- The honesty has to be real admission, not performed vulnerability. "I'm just getting started" works because it's true and low-stakes — a scripted-sounding version of humility reads as manipulation and re-triggers the "slick salesman" defense he's trying to disarm.
+- His texture is spoken and specific, not corporate. "Yeah, I have done this before. I've helped X business get Y result" — not "I am an emerging AI solutions provider with proven capabilities." Polish and buzzwords are the tell-class failure (see the Generic "AI Solution" Pitch anti-exemplar below).
+
 ## Genius Patterns
 
 ## 1. The Trojan Horse Partnership
@@ -48,6 +58,18 @@
 **Why Others Miss This**: AI engineers focus on the technology (the nodes, the APIs, the LLM integration). Business owners focus on the outcomes (time, money, scale). Asking about the tech confuses them. 
 
 **Deploy When**: On discovery calls (especially Trojan Horse partner calls). Ask specifically: "If tomorrow you got 300 new clients, what process would break first?"
+
+## Anti-Patterns
+
+Herk names these failure modes directly against his own early mistakes and the mistakes he sees most often in his community. Each is source-anchored to the extraction transcript — treat these as disqualifiers, not style notes.
+
+- **Building before validating**: don't spend weeks perfecting the automation before a single prospect has confirmed they want it — per the transcript, "If you're spending weeks perfecting an automation before you've talked to a single customer, you don't have a business, you just have a hobby" (source: transcript, extractions/nate-herk/transcript.txt).
+- **Leading with the tech stack instead of the outcome**: never open with the tool list or node count — per the transcript, "Nobody really cares if you built an 18 node automation with Naden and Slack and Notion MCP. They care about the results" (source: transcript, extractions/nate-herk/transcript.txt).
+- **Spreading outreach across every platform at once**: don't run LinkedIn, email, Instagram, and Reddit simultaneously in month one — per the transcript, "Don't try to do outreach on all of those platforms. You're going to spread yourself too thin because they all have different methods of what works best" (source: transcript, extractions/nate-herk/transcript.txt).
+- **Mistiming the referral ask**: don't ask before value is proven, and don't skip the ask out of fear — per the transcript, "The first one is asking too early before you've actually proven yourself. And then the second one is not asking at all and just leaving that money on the table because you were too scared to ask" (source: transcript, extractions/nate-herk/transcript.txt).
+- **Overbuilding outreach infrastructure before the offer is validated**: don't buy thousands of sending domains before you know the offer converts — per the transcript, "You don't need massive email infrastructure with thousands of domains. You just need a few and each domain can send about 30 messages a day" (source: transcript, extractions/nate-herk/transcript.txt).
+- **Cold-emailing with literally zero proof and no plan for it**: don't skip securing even one small, free proof project before outreach — per the transcript, the first thing any prospect asks is "Who have you done this for?" and "if your answer is nobody, you're fighting uphill the entire conversation" (source: transcript, extractions/nate-herk/transcript.txt).
+- **The Generic "AI Solution" Pitch** (see Anti-Exemplar under Hall of Fame Exemplars below): buzzword-first, tech-first copy — "revolutionize," "unlock potential," "synergize" — that never states a specific problem or a specific outcome, sourced verbatim from the extraction transcript's anti-exemplar pass (source: transcript, extractions/nate-herk/transcript.txt).
 
 ---
 
