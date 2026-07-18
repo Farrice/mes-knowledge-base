@@ -4,6 +4,20 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the propaganda-machine logic, then build originally — never announce the machinery. Whiting's own tell: a prospect who says *"I felt like that was really just talking to me"* ([source-quotes.md](references/source-quotes.md) § Pattern Interrupt / Lean-Back Close) only feels that because the mechanism stays invisible; label the tactic on the page ("Step 3: Pattern Interrupt") and you've broken the spell that makes it convert.
+
+The test: would Whiting recognize this as a belief installed until they close themselves — or as generic marketing content wearing propaganda vocabulary? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate "here's the objection-handle, here's the polarization, here's the assumptive close" in the deliverable itself — execute each move inside the copy/content, never label it on the page.
+- Do NOT soften the confrontational edge into agreeable, hedge-everything marketing-speak — that's the Sanded-down-voice failure (Anti-Patterns, below); the edge IS the mechanism, not decoration.
+- Whiting's texture is blunt, data-first, allergic to "I feel like." A deliverable that opens with sentiment instead of a number or a named bottleneck has already failed Rubric #1 — rebuild from "what does the data say?"
+- Polish is the tell-class warning here specifically: an over-produced, evenly-toned asset reads as marketing, not as a recorded sales call clipped once. Keep it a little rough — a real objection handled once, not a studio script.
+
+---
+
 ## One-Line Genius
 
 **He turned the sales call into content.** Every objection, every belief-shift, every close that a human normally performs live — Whiting records it once, clips it, and force-feeds it to the exact right people at controlled frequency until they close themselves. The result: ~$300K/month with a team of himself + one VA + AI, *no setters, no closers, no sales calls.*
@@ -177,13 +191,13 @@ If an asset fails any gate, it's manipulation, not persuasion. **Kill it.**
 
 - **Feeling-based decisions.** Any "I think we should…" without "the data says…" Fails Rubric #1.
 - **Pleasing everyone.** Non-polarizing, hedged, "for everyone" content. Converts no one. Fails #4/#5.
-- **Live objection-handling as the plan.** If the strategy depends on saving the sale in the conversation, the machine isn't built. Fails #3/#6.
-- **Copy-pasting a funnel.** Deploying a mechanism without the underlying fundamentals/skill-stack. (Whiting's own disclaimer.)
-- **Abdication dressed as delegation.** Handing off what you never mastered.
-- **Revenue-chasing without wealth math.** Topline numbers with no Freedom Number / allocation. Fails the Wealthy Coach standard.
-- **Sanded-down voice.** Removing the confrontation when translating. Defeats the mechanism. (Mode B failure.)
-- **Manipulation past the Ethics Gate.** Any asset that fails a gate. Non-negotiable kill.
-- **Phantom proof.** Claims/testimonials/numbers that aren't real. Violates Ethics Gate #1–2 AND the system's Factual Grounding Standard.
+- **Live objection-handling as the plan.** If the strategy depends on saving the sale in the conversation, the machine isn't built. Fails #3/#6. Whiting: *"I don't handle objections anymore. I don't even try."* (transcript-1-VllCQkcCf3Y.txt, 2026-05-30 extraction; verbatim in [source-quotes.md](references/source-quotes.md) § Objection Handling Out Front)
+- **Copy-pasting a funnel.** Deploying a mechanism without the underlying fundamentals/skill-stack. Whiting's own disclaimer: *"This is how you stop copy-and-pasting other people's models and start engineering."* (transcript-1-VllCQkcCf3Y.txt, 2026-05-30 extraction; [source-quotes.md](references/source-quotes.md) § Vehicle / Don't Copy)
+- **Abdication dressed as delegation.** Handing off what you never mastered. Whiting: *"Figure out how to do every part of it yourself until it's dialed, then you delegate it. Otherwise you're abdicating."* (transcript-1-VllCQkcCf3Y.txt, 2026-05-30 extraction; [source-quotes.md](references/source-quotes.md) § Vehicle / Don't Copy)
+- **Revenue-chasing without wealth math.** Topline numbers with no Freedom Number / allocation. Fails the Wealthy Coach standard. Whiting: *"You get rich by spending less than you earn and investing the difference."* (transcript-3-Kz8D7zOhxcQ.txt, 2026-05-30 extraction; [source-quotes.md](references/source-quotes.md) § Wealthy Coach / Financial)
+- **Sanded-down voice.** Removing the confrontation when translating. Defeats the mechanism. (Mode B failure — see genius.md § VOICE REFERENCE Mode B, 2026-05-30 extraction, "over-cleaned/spine removed" example above.)
+- **Manipulation past the Ethics Gate.** Any asset that fails a gate. Non-negotiable kill. Whiting's own tell: *"When I brainwash somebody, their business doubles. When the government brainwashes people, they take vaccines and die."* (transcript-1-VllCQkcCf3Y.txt, 2026-05-30 extraction; [source-quotes.md](references/source-quotes.md) § The Propaganda Machine — the Ethics Gate tell)
+- **Phantom proof.** Claims/testimonials/numbers that aren't real. Violates Ethics Gate #1–2 AND the system's Factual Grounding Standard. (Per [source-quotes.md](references/source-quotes.md) § Self-Reported Bio, 2026-05-30 extraction: Whiting's own numbers are labeled "claims, not verified" for exactly this reason.)
 
 ---
 
