@@ -1,1 +1,2 @@
 {"ts": "2026-07-09T17:51:29.637342", "event": "heartbeat_advisory_run", "context": "check --skill kallaway-content-operating-system --advisory (5 failures, gate suppressed)"}
+{"ts": "2026-07-17T19:10:27.181621", "event": "heartbeat_advisory_run", "context": "check --skill diandra-escobar-linkedin-growth --advisory (3 failures, gate suppressed)"}

@@ -7297,6 +7297,82 @@
             "ensemble": true,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260717_235628_5dba",
+            "timestamp": "2026-07-17T23:56:28.279443+00:00",
+            "session_id": "129de224-63c4-4296-8df8-73d0a98c330c",
+            "request_summary": "Walk me through calibration batch 1 — show me each entry, I'll say AGREE or adjust, you handle the promotions. 8 ratifications arms the judge.",
+            "intent_score": 0,
+            "domain_detected": "nate-b-jones-ai-taste-mastery",
+            "experts_deployed": [
+                "nate-b-jones-ai-taste-mastery",
+                "michael-connelly-vivid-writing",
+                "kallaway-content-psychology"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "nate-b-jones-ai-taste-mastery",
+            "ensemble": true,
+            "compound_pairing": "nate-b-jones-ai-taste-mastery + michael-connelly-vivid-writing + kallaway-content-psychology",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260718_015017_6048",
+            "timestamp": "2026-07-18T01:50:17.593706+00:00",
+            "session_id": "129de224-63c4-4296-8df8-73d0a98c330c",
+            "request_summary": "run /go  all right, thank you for the explanation and insight. That gives me some good insight, and I do trust you to find elegant solutions and ways to solve that problem. Maybe that was built, the r",
+            "intent_score": 0,
+            "domain_detected": "internal-comms",
+            "experts_deployed": [
+                "internal-comms",
+                "evan-spiegel-distribution-architecture",
+                "mark-kashef-wargame-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "internal-comms",
+            "ensemble": true,
+            "compound_pairing": "internal-comms + evan-spiegel-distribution-architecture + mark-kashef-wargame-os",
+            "feedback": "fb_20260718_015314_b45c"
+        },
+        {
+            "routing_id": "rt_20260718_021157_5ff3",
+            "timestamp": "2026-07-18T02:11:57.816017+00:00",
+            "session_id": "56a0fb15-a869-4123-98c3-9535efe15ca8",
+            "request_summary": "where can I find the password for this on my computer?",
+            "intent_score": 0,
+            "domain_detected": "dan-martell-business-scaling",
+            "experts_deployed": [
+                "dan-martell-business-scaling",
+                "theme-factory",
+                "sharran-srivatsaa-scaling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "dan-martell-business-scaling",
+            "ensemble": true,
+            "compound_pairing": "dan-martell-business-scaling + theme-factory + sharran-srivatsaa-scaling",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260718_021203_dd8b",
+            "timestamp": "2026-07-18T02:12:03.194132+00:00",
+            "session_id": "129de224-63c4-4296-8df8-73d0a98c330c",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "paul-harding-lyric-prose",
+            "experts_deployed": [
+                "paul-harding-lyric-prose",
+                "deliberate",
+                "dara-denney-meta-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "paul-harding-lyric-prose",
+            "ensemble": true,
+            "compound_pairing": "paul-harding-lyric-prose + deliberate + dara-denney-meta-ads",
+            "feedback": "fb_20260718_021226_009e"
         }
     ],
     "feedback_log": [
@@ -7740,12 +7816,30 @@
             "rating": "auto_miss",
             "correction": "daniel-priestley-24-assets-os",
             "notes": "expert skill 'daniel-priestley-24-assets-os' loaded not matching suggestion ['dai-media-consumer-posture', 'brad-bonanno-explainer-architecture', 'luke-iha-insight-vectors']"
+        },
+        {
+            "feedback_id": "fb_20260718_015314_b45c",
+            "timestamp": "2026-07-18T01:53:14.567688+00:00",
+            "session_id": "129de224-63c4-4296-8df8-73d0a98c330c",
+            "routing_id": "rt_20260718_015017_6048",
+            "rating": "auto_miss",
+            "correction": "luke-iha-avatar-machine",
+            "notes": "expert skill 'luke-iha-avatar-machine' loaded not matching suggestion ['internal-comms', 'evan-spiegel-distribution-architecture', 'mark-kashef-wargame-os']"
+        },
+        {
+            "feedback_id": "fb_20260718_021226_009e",
+            "timestamp": "2026-07-18T02:12:26.385241+00:00",
+            "session_id": "129de224-63c4-4296-8df8-73d0a98c330c",
+            "routing_id": "rt_20260718_021203_dd8b",
+            "rating": "auto_miss",
+            "correction": "ben-watkins-storytelling",
+            "notes": "expert skill 'ben-watkins-storytelling' loaded not matching suggestion ['paul-harding-lyric-prose', 'deliberate', 'dara-denney-meta-ads']"
         }
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 404,
-            "total_feedback": 49,
+            "total_routings": 408,
+            "total_feedback": 51,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
@@ -7793,7 +7887,7 @@
                 "luke-iha-insight-vectors": 1,
                 "wright-thompson-mastery": 2,
                 "andrew-stanton-audience-engineering": 1,
-                "dan-martell-business-scaling": 1,
+                "dan-martell-business-scaling": 2,
                 "corey-mcclain-persona-engineering": 1,
                 "fantastic-posters": 1,
                 "joey-cinema-os": 2,
@@ -7810,9 +7904,11 @@
                 "lara-acosta-linkedin-growth": 1,
                 "lara-acosta-linkedin-mastery": 1,
                 "dai-media-consumer-posture": 2,
-                "paul-harding-lyric-prose": 4,
+                "paul-harding-lyric-prose": 5,
                 "youtube-video-context-analysis": 1,
-                "henry-shukman-contemplative-writing": 1
+                "henry-shukman-contemplative-writing": 1,
+                "nate-b-jones-ai-taste-mastery": 1,
+                "internal-comms": 1
             },
             "expert_counts": {
                 "system-audit": 20,
@@ -7849,7 +7945,7 @@
                 "brand-operating-system": 23,
                 "nicolas-cole-niche-positioning": 15,
                 "prediction-market-making": 1,
-                "deliberate": 23,
+                "deliberate": 24,
                 "mark-kashef-ai-councils": 1,
                 "gpt-image-2-director": 12,
                 "marketing-studio-director": 12,
@@ -7858,16 +7954,16 @@
                 "higgsfield-creative-studio": 7,
                 "nate-b-jones-auto-improvement-loops": 4,
                 "self-evolving-systems": 3,
-                "internal-comms": 3,
+                "internal-comms": 4,
                 "wright-thompson-mastery": 12,
                 "alex-suzuki-digital-product-revenue-os": 3,
-                "paul-harding-lyric-prose": 6,
+                "paul-harding-lyric-prose": 7,
                 "paul-james-ai-automation": 1,
                 "lamott-craft": 2,
                 "synthesis-engine": 1,
                 "jason-fladlien": 1,
                 "xlsx": 1,
-                "nate-b-jones-ai-taste-mastery": 1,
+                "nate-b-jones-ai-taste-mastery": 2,
                 "tobias-allen": 1,
                 "system-orchestrator": 3,
                 "claim-safe-health-marketing": 3,
@@ -7889,7 +7985,7 @@
                 "farrice-master-context-synthesis": 1,
                 "omar-eltakrori": 1,
                 "donald-miller-culture-turnaround": 3,
-                "mark-kashef-wargame-os": 3,
+                "mark-kashef-wargame-os": 4,
                 "asset_generator": 1,
                 "dan-wang-literary-analysis": 2,
                 "oren-john": 2,
@@ -7912,10 +8008,10 @@
                 "icp-deep-canvasser": 1,
                 "donald-miller-cognitive-load": 1,
                 "luke-iha-unaware-ads": 2,
-                "dara-denney-meta-ads": 16,
+                "dara-denney-meta-ads": 17,
                 "fantastic-posters": 8,
                 "nate-b-jones-intent-engineering": 1,
-                "evan-spiegel-distribution-architecture": 2,
+                "evan-spiegel-distribution-architecture": 3,
                 "chase-hughes-context-engineering": 2,
                 "context-profile-architect": 1,
                 "daniel-priestley-oversubscribed": 1,
@@ -7941,7 +8037,7 @@
                 "oren-brand-archetypes": 1,
                 "luke-iha-proof-ladder": 1,
                 "mitch-albom-writing-mastery": 1,
-                "theme-factory": 2,
+                "theme-factory": 3,
                 "kallaway-illusion-of-novelty": 3,
                 "cinematic-documentary": 1,
                 "research-engine": 1,
@@ -7952,7 +8048,7 @@
                 "new-media-kingmaker": 1,
                 "andrew-stanton": 1,
                 "Lara Acosta: Tech Founder Content System": 1,
-                "dan-martell-business-scaling": 1,
+                "dan-martell-business-scaling": 2,
                 "luisa-zhou-coaching": 1,
                 "joey-cinema-os": 5,
                 "banana-pro-director": 1,
@@ -7975,7 +8071,7 @@
                 "seena-rez-tiktok-commerce": 1,
                 "docx": 1,
                 "tommy-clark": 2,
-                "sharran-srivatsaa-scaling": 1,
+                "sharran-srivatsaa-scaling": 2,
                 "ali-abdaal-action-bias": 2,
                 "jeremy-haynes-cold-offer": 1,
                 "system": 3,
@@ -7999,10 +8095,12 @@
                 "lamott-allen-really-real-writing": 2,
                 "dai-media-consumer-posture": 2,
                 "daniel-priestley": 1,
-                "youtube-video-context-analysis": 1
+                "youtube-video-context-analysis": 1,
+                "michael-connelly-vivid-writing": 1,
+                "kallaway-content-psychology": 1
             },
             "tier_counts": {
-                "0": 404,
+                "0": 408,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -8010,11 +8108,11 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 224,
+                "hybrid": 228,
                 "finalize-auto": 180
             },
-            "ensemble_count": 296,
-            "auto_miss_count": 38,
+            "ensemble_count": 300,
+            "auto_miss_count": 40,
             "auto_match_count": 11
         }
     }
