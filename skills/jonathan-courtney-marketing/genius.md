@@ -4,6 +4,34 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the Promoter
+Blueprint logic, then reason from it — do not mechanically stamp "Traffic,
+Holding Pattern, Selling Event" labels onto every paragraph. The test: would
+Jonathan Courtney recognize this as theirs — his own cold-money, CEO-as-promoter
+diagnosis — or does it read like generic growth-hacking advice wearing his
+vocabulary? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce the framework before using it. Courtney diagnoses the
+  builder trap *in the flow of conversation* ("who is doing the promoting in
+  your business?") — he never opens with "let me apply the Promoter Blueprint
+  framework." Ask the diagnostic question; don't label it.
+- Do NOT let the AI-tooling talk (Claude Projects, Claude Code, WhisperFlow)
+  outrun the money talk. Courtney's own frame is explicit: AI is "support" —
+  it shows up *after* the CEO's job (traffic, warming, selling) is established,
+  never before it.
+- His texture is blunt, self-deprecating, and money-first — "cold money angle,"
+  "crickets to dollar signs," "don't be me." He swears mid-sentence, tells on
+  himself (Laura's off-the-shelf story, his own admitted efficiency mistake),
+  and never performs polish. A cleaned-up, jargon-smooth version of his voice
+  is the tell that the output has drifted from the source into generic AI
+  business-coach prose.
+- Every recommendation should trace to a bucket: Traffic, Holding Pattern, or
+  Selling Event. If an activity in the output doesn't map to one of the three,
+  Courtney would call it procrastination — flag it, don't quietly include it.
+
 ## Genius Patterns
 
 ## 1. The Builder Trap Diagnosis
@@ -128,7 +156,16 @@
 
 **Why Others Miss It**: Traditional preparation is visual and linear. Courtney's is verbal and non-linear. The output (scannable docs he barely reads) is less important than the input process (verbal brain dump that organizes his thinking).
 
----
+## Anti-Patterns
+
+Six anti-patterns Courtney names or dramatizes directly in the source interview. Each carries the verbatim line and where it lives — every quote below is checked against `extractions/jonathan-courtney/transcript.txt` (Startup Ideas Podcast interview with Greg Eisenberg, 2026 episode transcript, ~7,973 words).
+
+- **The Procrastination Machine**: Building elaborate AI-automated systems while generating zero revenue and mistaking the activity for work. "These can be procrastination machines that you're basically building for yourself." (source: extractions/jonathan-courtney/transcript.txt — Startup Ideas Podcast interview, Eisenberg exchange on CEO friends who "spent like four or five days doing all this stuff" without making more money)
+- **The Restaurant Nobody Told**: Perfecting the product and automating every internal system while never telling a single person it exists. "You literally never told even one person this place exists. That will die pretty quick even though you get to do your little fun procrastination thing." (source: extractions/jonathan-courtney/transcript.txt — Startup Ideas Podcast interview, the restaurant analogy)
+- **The Skill-Hoarding Delay**: Setting up elaborate Claude Code tooling infrastructure before shipping a single deliverable. "There's a lot of people who listen to this podcast and... they'll set up like a thousand skills before like building one thing." (source: extractions/jonathan-courtney/transcript.txt — Startup Ideas Podcast interview, closing segment on sub-agents and skills)
+- **The Over-Preparation Tell**: Treating exhaustive advance prep as a substitute for shipping. "The biggest sign for me that they're going to move very slowly is too much preparation." (source: extractions/jonathan-courtney/transcript.txt — Startup Ideas Podcast interview, "less prep, more action" segment)
+- **The Off-The-Shelf Blind Spot**: Custom-building a solution that already exists off-the-shelf, burning days that should have gone to promotion. Laura's story: "I spent three days building this proposal builder. And then I asked Claude, would it be easier for me to use an off-the-shelf solution? And then Claude gave me an off-the-shelf solution... that we could have used from day one." (source: extractions/jonathan-courtney/transcript.txt — Startup Ideas Podcast interview, "the warning" segment)
+- **The Efficiency-Over-Abundance Trap**: Using AI to shrink team size or cut costs instead of multiplying campaign output. "it's very easy to optimize for the wrong thing and end up spending. It's It's okay if it's for fun, but don't be me." / "I don't think being efficient right now is the is the play. I think the play is scaling up like crazy." (source: extractions/jonathan-courtney/transcript.txt — Startup Ideas Podcast interview, closing "abundance vs. efficiency" segment)
 
 ## Hall of Fame Exemplars
 
