@@ -4,9 +4,11 @@
 
 ---
 
-## How to Use This OS (Opus Calibration)
+## How to Use This Skill (Model Calibration)
 
-The OS is a router, not an author. Its only intelligence is composition: *what does this piece need, who owns that, in what sequence, and how lightly can I touch it.*
+The OS is a router, not an author — its only intuition primitive is composition: *what does this piece need, who already owns that move, in what sequence, and how lightly can I touch it.* This is not a checklist to stamp in order; it is the same restraint discipline every Layer-4 expert already teaches inside their own lane, run one altitude higher.
+
+The recognition test: **would each contributing expert recognize their own move as theirs in the finished piece — Connelly recognizing his economy, Ward recognizing his one device, Runia recognizing the want→tension→change he gated — or would the whole piece read as a template wearing ten experts' vocabulary stitched into one paragraph?** If it's the second, the stack over-ran and needs cutting, not more polish.
 
 1. **Compose existing engines — never rebuild.** Every craft move below is owned by a forged expert with a front-door command. The OS's job is to call them in order, not to re-teach what they already do. If you find yourself writing a hook formula or a restraint rule from scratch, stop — an expert owns it. (Same law as `stanton-produce`: "orchestrates existing engines; never rebuilds production.")
 
@@ -15,6 +17,8 @@ The OS is a router, not an author. Its only intelligence is composition: *what d
 3. **Restraint is the whole discipline.** More experts ≠ better. The repo lesson is load-bearing: *"More experts ≠ better for voice"* (`feedback_diandra-hooks-only-separation.md`) and the multi-engine rebuild that degraded already-elevated work to 3/10 (`feedback_multi-engine-rebuild-degrades-elevated-content.md`). One author owns the body voice. The rest advise from the wings. A stack of six that homogenizes the prose is a worse output than a stack of three that keeps one heartbeat.
 
 4. **Preserve the spine.** When a draft is already good, do not run the full stack on it — diagnose the one or two missing layers and touch only those (defer to `/depth-audit` → `/depth-inject` from the Writing Depth Layer). The felt verdict wins over any gate score.
+
+5. **Never announce the machinery — the polish-is-the-tell class of failure.** Do not name an expert inside the prose ("here's a Connelly telling detail"), do not label sections by layer, and do not let the seams show between one Layer-4 voice and the next. The OS's specific texture is invisibility: a reader should feel one coherent author, never a relay of specialists. A piece that reads as *engineered restraint* — technically correct, zero seams named, but still legible as assembled rather than written — has failed the same way an over-polished draft fails; the tell is composure without a pulse. Route it back through the body-voice owner for one more surgical pass before it ships.
 
 ---
 
@@ -41,9 +45,11 @@ The composition spine. Every mission runs top-down through the layers it needs. 
 
 ## The Lane Map (no collisions)
 
-The near-adjacent lanes that the OS must never double-pick. One crisp sentence per expert: exactly what they own, and when to choose them over the neighbor.
+The near-adjacent lanes that the OS must never double-pick. One crisp sentence per expert: exactly what they own, and when to choose them over the neighbor. This is calibration evidence, not folklore: a 2026-06-22 bake-off that fused 4-9 voices onto one already-elevated long-form scored **3/10** in Farrice's felt verdict while the system itself rated the variants **7.25-8.6** (`feedback_multi-engine-rebuild-degrades-elevated-content.md`) — double-picking a lane is not a style choice, it is the measured failure mode this map exists to prevent.
 
 ### Nonfiction mid-layer — Browder vs Orlean vs Wang vs Wright
+
+Each already polices over-application inside their own lane, which is why stacking a second mid-layer expert "to add more color" breaks a rule that expert already enforces alone: Browder's restraint law is "two-to-three vivid descriptors, then get on with it" — "you don't want to describe stuff for the sake of describing" (`skills/bill-browder-high-stakes-narrative/genius.md:14`); Orlean warns that overwritten prose gives off "the stench of inauthenticity that is very easy to smell" (`skills/susan-orlean-narrative-nonfiction/genius.md:15`); Wang holds to "clean lines... informed by a few flourishes" (`skills/dan-wang-literary-analysis/genius.md:19`); Wright Thompson edits by cutting hard after a fast draft — "I write really fast and then edit slow" (`skills/wright-thompson-mastery/genius.md:28`).
 
 | Expert | Owns | Choose over the neighbor when… |
 |--------|------|-------------------------------|
@@ -53,6 +59,8 @@ The near-adjacent lanes that the OS must never double-pick. One crisp sentence p
 | **Wright Thompson** | Reaching the universal through *immersion and interiority* — the residue of a deeply-inhabited scene (lyric long-form). | You get to the universal by living inside the subject's world, not by the seductive small door (Orlean) or the evidence-spine (Browder). The deep-immersion scene layer inside an Orlean or Browder structure. |
 
 ### Perception / detail / scene-voice — Connelly vs Harding vs Ocean vs Shukman
+
+Same rule, one altitude down: Connelly's own gate is the "Good Place to Stop" test — "if the reader can find a comfortable stopping point, you've failed" (`skills/michael-connelly-vivid-writing/genius.md:50`); Harding "hate[s] clutter" even while going maximal on depth (`skills/paul-harding-lyric-prose/genius.md:15`); Ocean is explicit that estrangement is not license to pile on — "I'm not arguing for maximalist sentences. I'm arguing for idiosyncrasy and strangeness" (`skills/ocean-vuong-perceptual-writing/genius.md:25`); Shukman's vastness only ever runs through one small thing — "God is in the details. The wonder is in the details" (`skills/henry-shukman-contemplative-writing/genius.md:15`). Stacking two of these on one passage doubles a "more" instinct each of them individually forbids.
 
 | Expert | Owns | Choose over the neighbor when… |
 |--------|------|-------------------------------|
@@ -88,9 +96,22 @@ The near-adjacent lanes that the OS must never double-pick. One crisp sentence p
 
 ---
 
+## Anti-Patterns (Composition Failures)
+
+Sourced failure modes — each one caught live, not hypothesized. The OS exists because these keep recurring when restraint slips.
+
+- **Stitching a multi-expert body instead of naming ONE body-voice owner.** The "Diandra Sandwich" test (`feedback_diandra-hooks-only-separation.md`, tested live 2026-06-20): a synthesis of a Mitch+Shaan+Jasmin narrative panel → Diandra hook → prose-doctor scored **4/10** — "reads like AI slapped together disjointed, unflowing pieces... went completely backwards" — even though an adversarial reviewer scored the same piece 8.6. Never let a second expert co-write the body.
+- **Rebuilding an already-elevated draft from the thesis instead of preserving the spine.** The 2026-06-22 bake-off (`feedback_multi-engine-rebuild-degrades-elevated-content.md`) fused 4-9 voices (ce-write + writers-room + a hybrid graft) onto one long-form piece; the system scored the variants **7.25-8.6** but Farrice rated all three **3/10** — "changed too much in the original... hallucinated or misplaced or got broken in the tone." Touch only the confirmed deficit; never rebuild a working spine.
+- **Double-applying Browder's descriptive intensity past his own ceiling.** Browder's rule is exactly "two-to-three vivid descriptors, then get on with it" — "you don't want to describe stuff for the sake of describing" (`skills/bill-browder-high-stakes-narrative/genius.md:14`). Stacking a second mid-layer expert on top of Browder to "add more color" violates his own restraint law, not just the OS's Composition Rule 2.
+- **Treating Ocean Vuong's estrangement as license for maximalism.** "I'm not arguing for maximalist sentences. I'm arguing for idiosyncrasy and strangeness" (`skills/ocean-vuong-perceptual-writing/genius.md:25`). Running Ocean alongside Harding on the same passage compounds two "more" instincts that each source explicitly forbids in isolation — a Lane Map collision the OS must catch before drafting starts.
+- **Naming experts inside the finished prose instead of the Output Receipt.** Breaks the invisible-machinery law this OS shares with every forged persona in the roster — the identical discipline named in the source interview behind Ben Watkins's own craft: "name the machinery on the page and you break the spell" (`skills/ben-watkins-storytelling/genius.md:14`). The OS enforces the same rule one altitude up: experts are named only in the receipt, never in the piece.
+- **Running the full 10-expert roster "to be thorough" instead of the smallest sufficient 3-6.** A stack of 7+ is definitionally a double-picked lane. The failure shape is the same over-scope error named in the 2026-06-22 rebuild's own post-mortem — "3 long-forms + judging + synthesis + a hybrid in one run = less care per piece" (`feedback_multi-engine-rebuild-degrades-elevated-content.md`) — more machinery reliably buys less care per piece, not more thoroughness.
+
+---
+
 ## The Output Receipt
 
-Every run returns the finished piece PLUS a receipt mapping each move to the expert that produced it — the Writing Depth Layer's receipt pattern. The receipt is how the OS stays honest: it proves the composition was deliberate and lets Farrice see exactly which expert touched what.
+Every run returns the finished piece PLUS a receipt mapping each move to the expert that produced it — the Writing Depth Layer's receipt pattern. The receipt is how the OS stays honest: it proves the composition was deliberate and lets Farrice see exactly which expert touched what. This is not paperwork for its own sake: the Diandra Sandwich test (`feedback_diandra-hooks-only-separation.md`, tested live 2026-06-20) shipped without one, an adversarial reviewer scored it **8.6**, and only Farrice's felt verdict of **4/10** ("reads like AI slapped together disjointed, unflowing pieces... went completely backwards") caught what the receipt's "body-voice owner" line would have surfaced immediately — that no single expert actually held the pen.
 
 ```
 ## How-I-Write Receipt
