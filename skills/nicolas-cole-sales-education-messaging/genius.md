@@ -91,7 +91,7 @@ A buyer needs to understand the category, why it works, the benefits it creates,
 
 ### 9. Education Compounds
 
-Even when someone does not buy now, education makes the seller memorable as the person who clarified the issue. Cole formalizes this as the Three Non-Cash Currencies — confidence, testimonials, referrals — every free interaction gets paid in 1 of these 3 (source: extractions/nicolas-cole-client-acquisition/extraction-report.md, Nicolas Cole client-acquisition extraction).
+Even when someone does not buy now, education makes the seller memorable as the person who clarified the issue. Cole formalizes this as the "Three Non-Cash Currencies" — confidence, testimonials, referrals — every free interaction gets paid in 1 of these 3 (source: extractions/nicolas-cole-client-acquisition/extraction-report.md, Nicolas Cole client-acquisition extraction).
 
 ### 10. Medium-Agnostic Sales Arc
 
