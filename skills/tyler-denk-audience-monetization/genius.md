@@ -4,6 +4,38 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Denk doesn't
+narrate frameworks in the source interview — he narrates his own week
+("I usually spend my weekends writing it... by Thursday I write like a
+rough first draft... I spend most of like Saturday and Sunday finalizing
+it," `extractions/tyler-denk/transcript.txt`). Absorb the operating logic
+below, then produce output that sounds like an operator describing what
+he actually did — never a growth-marketing listicle wearing his name.
+
+- Do NOT enumerate which pattern you're deploying ("here's the One-of-One
+  Moat, here's the Compounding Stack") unless the user explicitly asked
+  for the framework. Denk never names his own tactics on the podcast —
+  he just describes the Tuesday send, the Monday tease, the VA and the
+  Google Sheet. Execute the move; don't caption it.
+- Specificity is the entire texture. Denk doesn't say "grow your list" —
+  he says "120,000 subscribers," "raised $33 million," "7 to eight
+  people," "5 to 7 hour a week initiative." Any output that goes vague
+  where he would go numeric has failed calibration, no matter how
+  well-organized it looks.
+- His register is spoken, self-deprecating, a little unpolished — "it's
+  definitely one of the more stressful things I do," "I basically just
+  kept promoting that every few days." Clean, symmetrical marketing
+  prose is the tell that you wrote copy instead of channeling an
+  operator mid-interview. Polish is the tell-class failure here: if a
+  sentence sounds like it survived three editing passes, it isn't Denk.
+- The recognition test: would Tyler Denk recognize this as theirs — his
+  own operating reality, numbers and all — or would he read it as
+  someone using newsletter-growth vocabulary without having run the
+  newsletter? If it's the second, rebuild it around a real, sourced
+  number from the transcript.
+
 ## Genius Patterns
 
 ## 1. "One-of-One" Narrative Moat
@@ -43,6 +75,41 @@
 ## 3. The "Small Audience Premium" Model
 - **What they know but don't explain**: The pivot from a mass-market focus to a niche, high-value focus changes the entire business model from low-ticket volume to high-ticket precision.
 - **Deployable Insight**: You do not need to be MrBeast. A deeply engaged, highly targeted list of 5,000 industry professionals can generate a $250k/year business if you understand how to broker their attention to the exact B2B companies looking for them.
+
+## Anti-Patterns
+
+Sourced against `extractions/tyler-denk/transcript.txt` (73,539 bytes,
+Denk's *Anatomy of a Dream*-style growth interview — read in full for
+this repair, 2026-07-18). Each item is a mistake Denk names or
+demonstrates the fix for, in his own words.
+
+- **Swag-first referral rewards**: Denk on why he doesn't default to physical goods — "I think a lot of people think referral program and they start thinking swag, which then makes you customer service to have to order swag and then ship swag and then deal when it doesn't show up in the mail to whoever you're sending it to." (source: `extractions/tyler-denk/transcript.txt`, referral-program segment)
+- **Building growth tooling for power users who don't exist**: Denk's own verdict on Beehiiv's Boost product — "I actually think we built way too sophisticated of a growth suite for boost." (source: `extractions/tyler-denk/transcript.txt`, Boost-cons segment)
+- **Chasing the silver-bullet channel instead of the compounding stack**: "there isn't really a silver bullet that I've seen unless you go crazy viral and are able to plug something that is like in that peak virality moment." (source: `extractions/tyler-denk/transcript.txt`, growth-tactics segment)
+- **Pricing sponsorships on hypothesis instead of surveyed data**: "while I have data on who's clicky and engaging and I can make a hypothesis, it's startup founders who are interested in whatever if you just ask them and collect the correct data, it's so much easier to package who your audience is and sell that advertisement." (source: `extractions/tyler-denk/transcript.txt`, monetization segment)
+- **Aggregator-style recap content**: "these aggregator newsletters who have the five biggest things that happened in crypto yesterday and just headlines like those probably provide less value in the world of AI." (source: `extractions/tyler-denk/transcript.txt`, AI-in-the-inbox/Gemini-summaries segment)
+- **Assuming only high-volume consumer brands are worth chasing**: "a lot of people think more consumer platforms like like Spotify would never make sense to sponsor my newsletter for signing up for 12 to$14 monthly plan because it would need hundreds of people to convert." (source: `extractions/tyler-denk/transcript.txt`, HubSpot-vs-Spotify segment)
+
+## Verbatim Exemplars
+
+Direct transcript quotes (not paraphrase) — use these to calibrate
+register and specificity before drafting.
+
+> "What I have as my first reward is by sharing a single your link
+> with just a single person, you receive the unedited series B deck
+> that we use to raise $33 million." — Denk on the Big Desk Energy
+> referral program, `extractions/tyler-denk/transcript.txt`
+
+> "It's $10,000 per person. We host about 7 to eight people. And by
+> we, I mean me. I've done it like all myself. I've done four of them
+> and the fifth one's coming up in a few weeks. But it's $70,000 in
+> revenue." — Denk on the Costa Rica mastermind,
+> `extractions/tyler-denk/transcript.txt`
+
+> "I have a VA that sends a LinkedIn request, which I've maxed out
+> now, but an X request to follow every single new user on the
+> platform." — Denk on the "Automated Authenticity" onboarding loop,
+> `extractions/tyler-denk/transcript.txt`
 
 ---
 
