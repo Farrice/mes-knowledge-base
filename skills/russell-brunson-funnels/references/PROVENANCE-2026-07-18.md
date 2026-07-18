@@ -8,7 +8,7 @@ Ground truth located via name-fragment search (`grep -ril brunson`) which found 
 |---|---|---|
 | "a lot of times we get in the mistake of trying to sell the process..." | 156c576f-536b-4a6d-a33b-3b5efd30b38e.md | 8:41-8:48 |
 | "believing their own bio" / 100-employee crash | c6416fe8-9783-478c-ad64-42d7577d26d4.md | 6:44-7:19 |
-| Bernays WWI war bonds, "features and the benefits... logically" | 0a89743f-81f6-47cc-b539-86345323a94f.md | 1:41-1:58 |
+| Bernays WWI participation (not bonds), "features and the benefits... logically" | 0a89743f-81f6-47cc-b539-86345323a94f.md | 1:41-1:58 |
 | propaganda → public relations rename | 0a89743f-81f6-47cc-b539-86345323a94f.md | 8:31-8:43 |
 | "not based on ideas or hoping stuff work" | 156c576f-536b-4a6d-a33b-3b5efd30b38e.md | 11:29-11:36 |
 | Nautilus / 200,000 copies vs. "20 copies... Facebook, Instagram" | e111041c-a359-43db-9a42-6d7c481470c1.md | 9:07-9:20 |

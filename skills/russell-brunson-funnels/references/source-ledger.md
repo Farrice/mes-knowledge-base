@@ -29,7 +29,7 @@ Also consulted: `skills/russell-brunson-funnels/references/prompts-v2/principle-
 | Robert Allen "vivid vision" sequences; Hormozi's Hawaii/flight travel-agent analogy | 156c576f...md | 8:35-9:04 (transcript spells the name "Alex Heroszi" — a Merlin-AI mis-transcription of Alex Hormozi; concept and framing confirmed, name spelling not corrected in source) |
 | Bernays "torches of freedom" cigarette campaign, women didn't smoke before it | 0a89743f...md | 3:46-4:32 (transcript renders it "torch of for[freedom] women" — transcription artifact; the historical claim and mechanism are confirmed) |
 | "lady boss" shirts, Caitlin Poland, "superhero cape" identity framing | 0a89743f...md | 6:05-6:20 (verbatim) |
-| Desire-over-need / Bernays selling WWI war bonds emotionally, not on "features and benefits" logically | 0a89743f...md | 1:41-1:58 (verbatim) |
+| Desire-over-need / Bernays selling WWI participation emotionally ("war bonds" gloss corrected 2026-07-18 — source says selling the war, no bonds mentioned), not on "features and benefits" logically | 0a89743f...md | 1:41-1:58 (verbatim) |
 | Propaganda → Public Relations rename when the word turned toxic | 0a89743f...md | 8:31-8:43 (verbatim) |
 | $12,500 paid for a first-edition *Propaganda* | 0a89743f...md | 0:05 (verbatim: "spent $12,500 for this copy") |
 | "the core strategies... don't shift... don't move when the algorithm changes" (25-year bulletproofing) | 156c576f...md | 11:29-11:44 (near-verbatim, light smoothing of spoken cadence) |
