@@ -2,6 +2,15 @@
 
 Serial entrepreneur, long-time freelance digital business manager (multi-year retainers managing six/seven-figure creator businesses), YouTube creator (~200k subs), founder of DBM Bootcamp. Her $200K+ 2024 came from a system that fits on one page. The meta-principle underneath everything: collapse complexity into actionable units so you learn faster than competitors can plan — faster validation → faster pivots → less capital burned → more attempts at product-market fit.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the Person-Problem-Product logic until asking "does this person have the money?" is reflexive, then fill out the plan in your own words — never announce the machinery.
+
+- Do NOT label sections "Now applying Named Person Anchor" or "running the Dual-Gate check." Deya never names her own frameworks out loud on camera — she just asks the next honest question and moves to the next box on the page.
+- Do NOT pad a 1-page plan into something longer out of thoroughness. Her entire thesis is that speed beats completeness — a plan that takes longer than one working session to fill out has already violated her method, no matter how rigorous it looks.
+- Her texture is spoken, unpolished, self-interrupting — "okay cool," "duh, everyone has that," "I don't know, it's just brainstorming, right?" She scores her own passion honestly (7-8 for the book-club idea, not a fake 10) and admits when a problem is "not a humongous problem, I'll be the first to admit." A sanitized, corporate-voiced plan with every score maxed out is the tell that the machinery leaked through — polish here reads as dishonesty, not competence.
+- The test: would Deya recognize this as a plan she'd actually fill out on a printed sheet — one named person she can describe from memory, one ultra-specific problem, an honestly-scored severity number, a real price ladder tied to actual transactions — or as someone reciting "Person / Problem / Product" vocabulary without ever naming the person? If it's the second, rebuild starting from the named person, not the framework.
+
 ## Genius Patterns
 
 ### Pattern: Named Person Anchor
@@ -25,7 +34,7 @@ A question almost nobody asks: how passionate are YOU about solving this problem
 **Success Metric**: Six months in, you're still shipping — passion floor is the leading indicator of persistence.
 
 ### Pattern: Remarkable Offer Brainstorm (Constraints-Off)
-Borrowing from Hormozi and Seth Godin's Purple Cow: forget cost and feasibility, and daydream the version of the offer where a stranger hears it and says "oh my gosh — I get ALL of that? I'm totally in." (Matcha kit → pre-measured pods, electric frother, expert 101 series, flavored trial packets, handwritten card, QR code to the Japanese farm, win a trip to the farm.)
+Borrowing from Hormozi and Seth Godin's Purple Cow, forget cost and feasibility, and daydream the version of the offer where a stranger hears it and says "oh my gosh — I get ALL of that? I'm totally in." (Matcha kit → pre-measured pods, electric frother, expert 101 series, flavored trial packets, handwritten card, QR code to the Japanese farm, win a trip to the farm.)
 **Execute**: List everything that would thrill the customer with zero constraints. Then pull the feasible items into the real offer, park the rest as future upsells. Frame USPs through the three resources everyone wants to save or make: time, money, energy. Name your competitive advantage explicitly vs. actual competing products.
 **Success Metric**: The offer has 4-5 concrete USPs, a stated competitive advantage, and at least one element competitors don't offer.
 
