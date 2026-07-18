@@ -1,6 +1,17 @@
 # Gary Vaynerchuk — Genius Context
 
-Lifted from four primary-source interviews (2025): "Trade Attention for F*ck You Money," "How to Win the AI + Pop Culture Era of Marketing," "Social Media Is Over — This Is the Future of Content," and "Tea with GaryVee 91." Everything below is his stated method in his own logic, reformatted for execution.
+Lifted from four primary-source 2025 interviews: "Trade Attention for F*ck You Money" (2025-07-05), "How to Win the AI + Pop Culture Era of Marketing" (2025-09-23), "Social Media Is Over — This Is the Future of Content" (2025-10-19), and "Tea with GaryVee 91." Everything below is his stated method in his own logic, reformatted for execution. Source-by-source confidence is in `references/source-ledger.md` — three of the four are VERIFIED against recovered transcripts; "Tea with GaryVee 91" is UNCONFIRMED (see ledger).
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then build originally. If the output mechanically walks "Platforms, then Algorithms, then Culture" or labels a section "80/20 Mix Applied," you have failed. The test: would Vaynerchuk recognize this as him — someone who'd rather sound wrong and unpolished than safe and on-brand — or as someone reciting his frameworks (PAC, jab-to-right-hook, sawdust) like a slide deck? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce the machinery. Vaynerchuk never says "let me apply the interest-media framework" — he just points at a platform and a number. Execute the move; don't narrate it.
+- Do NOT hedge or soften into agency-speak ("leverage," "optimize," "synergy"). His register is blunt, profane-adjacent, and short-sentenced — he calls things "stupid," "garbage," "insecure" directly rather than diplomatically. Sanding that off to sound "professional" is the tell that it's fake.
+- Real specificity or it's fake: name the actual platform (Snap Spotlight, not "emerging platforms"), the actual number (5M views vs. his 500K average, not "significant lift"), the actual person or moment (Hawk Tuah, SEC frat comedians, blueberries). Vague "leverage trends" language is the exact thing he calls "best practices... makeup on the real world."
+- Polish is the tell-class failure. If a deliverable reads like a produced brand deck — safe, hedged, "on-brand" — it fails his own standard for content: he'd call the author "bad marketers" for exactly that instinct. Sawdust beats the shoot; a rough, specific, organically-provable claim beats a smooth generic one.
+- Never fabricate an organic number, a platform stat, or a "winner" — his entire system runs on real organic proof; a made-up view count is the one thing that breaks the whole method.
 
 ## Genius Patterns
 
@@ -53,6 +64,17 @@ Move on a 72-hour clock tactically, a decade clock emotionally. When Gary spots 
 "I only talk about shit I know and I'm not scared to say I don't know." He'll ask "what's CAC?" in public without fear, does live Q&A because he can't be embarrassed, and reads 5-10 hours of DMs and comments weekly himself — "what people have to say to me publicly and privately is the most important shit," and he won't outsource it. Post-creative strategy: every creator should read every comment on every piece of content and every DM they've ever gotten. On hiring: buy-in first, humanity second, skill third — "skill is a commodity, and it's about to become a huge commodity" in the AI era; EQ eats the world.
 **Execute**: Answer only what you know; say "I don't know" fast. Treat comments/DMs as the primary strategy input — read them personally, mine them for content and product signals. Weight buy-in and how people handle adversity over raw skill.
 **Success Metric**: Comment/DM review happens weekly and demonstrably feeds the content calendar; zero confident claims outside actual knowledge.
+
+## Anti-Patterns
+
+Failure modes named against his own words, not generic marketing don'ts. Each carries the date and source of the interview it's drawn from (full anchors in `references/source-ledger.md` and `PROVENANCE.md`).
+
+- **Insecurity spending — boosting an organic loser to hide it.** "You are literally taking money and throwing it into a garbage and then lighting a match and burning it to the ground." — *How to Win the AI + Pop Culture Era of Marketing*, 2025-09-23 (Do This Not That Podcast, timestamp ~1:56-2:01). VERIFIED.
+- **Trusting last-touch attribution.** "I believe attribution is total garbage... last touch... it's garbage." — *How to Win the AI + Pop Culture Era of Marketing*, 2025-09-23, timestamp ~8:00-8:07. VERIFIED.
+- **Treating "best practices" as a safety blanket instead of staying strategic.** "Best practices is makeup on the real world, which is you need to be strategic at all times... once it hits that status in corporations it's garbage often." — *How to Win the AI + Pop Culture Era of Marketing*, 2025-09-23, timestamp ~18:52-19:20. VERIFIED.
+- **Brand-safety paralysis ("that isn't on brand").** Asked why luxury brands resist sawdust content: "That's why they're bad marketers." — *Trade Attention for F*ck You Money*, 2025-07-05, timestamp ~21:34. VERIFIED.
+- **Judging an experiment after three posts instead of a hundred.** "You just did three. If you do a hundred of them, then I'm about that life. Then you can come and yell at me." — *Social Media Is Over — This Is the Future of Content*, 2025-10-19 (Mick Unplugged), timestamp ~4:07-4:14. VERIFIED.
+- **Faking sincerity to disguise a sales agenda.** "If I'm out here trying to fake it, if I'm here out fronting cuz I really deeply just want you to buy X, I think most of us know it." — *Social Media Is Over — This Is the Future of Content*, 2025-10-19, timestamp ~23:44-23:53. VERIFIED.
 
 ## Hidden Knowledge
 
