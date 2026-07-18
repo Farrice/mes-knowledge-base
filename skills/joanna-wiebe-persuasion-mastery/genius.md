@@ -16,6 +16,19 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These 37 patterns are intuition primitives, not a checklist to march through in order. Internalize the physics — System 1 as the highway, System 2 as the toll booth — then write like Joanna would, never like someone reciting Joanna.
+
+Specifically:
+- Do NOT label sections "here's the Pronoun Audit," "deploying Stealing Thunder now," or "this is the Meme Test line." Execute the move; never announce it. Her own standard: "Level 5 writing passes when a reader cannot identify where the persuasion techniques are" — a reader who spots the technique caps you at Level 3.
+- Do NOT reach for hype adjectives ("revolutionary," "game-changing," "unparalleled") to signal quality. For Joanna, hype IS the tell — it's the Mediocre Anti-Exemplar failure mode scored Level 0/1 in this file's own rubric. Confidence sounds deflated: "It wasn't dramatic. We just stopped doing what everyone else was doing."
+- Do NOT stack proof to "really drive it home." One "Shopify's 5,000-person engineering team was onboarded in 3 months" beats ten logos. The urge to add a second case study IS the toll booth she's warning against — overwhelming proof reads as "why are they trying so hard?"
+- Her texture is diagnostic, not decorative: she counts pronouns, timestamps hedge words, quantifies loss aversion at roughly 2x. When unsure, run the test she'd run (t-shirt test, pronoun audit, boring-sentence kill) instead of inventing a new flourish.
+- The test: would Joanna Wiebe recognize this as writing that manages System 1/System 2 on purpose — or as someone wearing conversion-copywriting vocabulary without the underlying diagnostic discipline? If it's the second, rebuild from the pronoun audit up.
+
+---
+
 ## Expert Profile
 
 Joanna Wiebe is the founder of Copyhackers — the world's leading conversion copywriting training company. She coined the term "conversion copywriting" and is widely regarded as the authority on writing that moves people to act. This genius context captures three complementary layers: the **5 Levels of Persuasive Writing** (copy structure), the **5 Authority Craft Mechanics** (sentence-level execution), and the **9 Funnel-Stage Psychological Triggers** (tactical deployment by funnel position). Together, they cover the full stack — from the architecture of persuasion, to the individual lines that land with weight, to the specific trigger that fires at each stage of the buyer's journey.
@@ -300,6 +313,20 @@ Claims trigger skepticism in direct proportion to their specificity of promise. 
 | **System 1 Flow / Toll Booth Avoidance** | Contains jargon, complex sentences, or awkward phrasing that requires conscious effort to process. | Mostly smooth; occasional minor friction points or moments of cognitive load. | Effortless read; no discernible "toll booths" that would activate System 2; language feels natural and intuitive. |
 | **Catchy Phrasing (Meme Test)** | Phrases are long, complex, and unmemorable; lack distinctiveness or portability. | Some attempts at conciseness, but key lines lack a unique hook or strong compression. | Key lines are compressed, distinctive, and portable; pass the "T-Shirt Test" with memorable impact. |
 | **Strategic Trust-Building (Stealing Thunder & Anti-Hype)** | Purely positive, overly enthusiastic sales pitch; avoids any perceived negatives. | Attempts to be balanced or authentic, but still leans heavily on overt positive claims. | Proactively disqualifies non-ideal fits and uses understated language to build deep, authentic trust and credibility. |
+
+---
+
+## Anti-Patterns
+
+> Genuine Wiebe failure modes, grounded in her own transcripts and the extraction sources behind this skill. Each carries a source anchor; cross-checked against `references/source-ledger.md`.
+
+- **Never open with "we/our/I" language when "you/your" fits.** Pronoun Audit failure mode: "If first-person > second-person, the copy is Level 0" (extractions/joanna-wiebe-persuasion-mastery/extraction-report.md, Hidden Knowledge #1).
+- **Never lead a hook with a vague, universal claim.** "Business strategies for everyone" leaves the brain unable to sort it, so "it keeps scrolling while trying to figure out if this matters" (extractions/joanna-wiebe/transcript.txt, "How To Sell Anything Through The Words You Use," ToFu Trigger 1).
+- **Never threaten the reader's self-image to create urgency.** "Most marketers get this completely wrong" wakes System 2 to defend rather than relax — Joanna: "that defensive response actually costs millions" (extractions/joanna-wiebe/transcript.txt, Trigger 2, Identity Matching).
+- **Don't confuse hype adjectives with money words.** "Revolutionary," "cutting-edge," and "unparalleled" score Level 0/1 in this skill's own rubric — the Mediocre Anti-Exemplar failure mode (skills/joanna-wiebe-persuasion-mastery/genius.md, "Mediocre Anti-Exemplar" section).
+- **Never pile proof past one credible boulder.** Stacking logos and testimonials triggers "why are they trying so hard?" suspicion instead of belief — the Anti-Pile Proof Principle (extractions/joanna-wiebe/9-psychological-writing-triggers-extraction.md, Hidden Knowledge #3).
+- **Don't answer a soft objection with a dramatic rebuttal.** A big rebuttal "confirms the fear is a big deal" — Joanna's fix is one boring, monotone sentence instead (extractions/joanna-wiebe/9-psychological-writing-triggers-extraction.md, Hidden Knowledge #4).
+- **Never hedge a claim with "just," "maybe," "sort of," or "I think."** One client email opener signaled doubt 17 times before reaching the point — the Certainty Gradient pattern (skills/joanna-wiebe-persuasion-mastery/genius.md, Part 5 #35, sourced 2026-07-01 claude.ai export).
 
 ---
 
