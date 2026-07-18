@@ -4,48 +4,58 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These twelve patterns are a production sequence, not a checklist to recite. Absorb the pipeline — visual direction, motion, assembly, CMS — then execute it the way Andy does: quietly, tool by tool, each handoff clean. If the output narrates its own machinery ("First I'll define the visual direction using Nano Banana, then move to Flow for motion..."), that is the failure mode. Andy never explains the pipeline to the person looking at the finished site; he ships the result and the tooling stays invisible.
+
+Specifically:
+- Do NOT itemize which of the 12 Genius Patterns you applied unless asked. Andy's own build guides (extraction-report.md, Genius Pattern 9, "Prompt Document as Build Blueprint") are prompt documents for the AI tools, not narration for the human reading the finished site.
+- Do NOT label sections "here's the bookend frame" or "here's the tool handoff." Execute the sequence; never announce it.
+- Watch for the generic-template failure: a site that follows every step correctly but still reads like every other "AI website" — no distinct visual identity from the reference-anchored image generation step. Polish without a genuine visual-direction pass is exactly the tell that separates the "sellable service at $5K-$15K per site" (extraction-report.md, Capability Unlocks #1) from a stock-template build. Polish is the tell class: if the site is polished but generic, the visual-direction step was skipped, not the polish step.
+- The test: would Andy Lo recognize this as his own pipeline output — a site whose first-frame/last-frame visual arc, tool handoffs, and CMS independence are all present but invisible — or as someone reciting his framework out loud? If it reads like a framework recitation, rebuild toward the invisible version.
+
 ## Genius Patterns
 
 ## 1. Visual Direction First
-Before touching any code or layout tool, establish a complete visual identity — color palette, lighting, mood, composition — using reference images and AI image generators. Never build without knowing the final aesthetic.
+Before touching any code or layout tool, establish a complete visual identity — color palette, lighting, mood, composition — using reference images and AI image generators. Never build without knowing the final aesthetic. This is Level 1 of the pipeline — Visual Foundation, budgeted at 30 minutes — completed before a single line of code exists (extraction-report.md, Methodology Level 1).
 
 ## 2. Bookend Frame Architecture
-Create exactly two frames — a starting frame and an ending frame — that serve as visual anchors. The AI generates all motion in between. These bookends define the visual arc's start state and destination.
+Create exactly two frames — a starting frame and an ending frame — that serve as visual anchors. The AI generates all motion in between. These bookends define the visual arc's start state and destination. Andy's own terms for these anchors are a "first frame" and a "last frame" (extraction-report.md, Genius Pattern 2) — not "a couple of images," a specific two-frame contract the rest of the pipeline depends on.
 
 ## 3. Tool Specialization Pipeline
-Each tool handles exactly one job: Nano Banana/Whisk = image generation + style definition → Google Flow/Veo 3.1 = frame-to-video animation → EasyGIF = video-to-WebP conversion → Firebase Studio/Antigravity = website assembly + deployment. Never force one tool to do two jobs.
+Each tool handles exactly one job: Nano Banana/Whisk = image generation + style definition → Google Flow/Veo 3.1 = frame-to-video animation → EasyGIF = video-to-WebP conversion → Firebase Studio/Antigravity = website assembly + deployment. Never force one tool to do two jobs. In Google Flow this literally means switching to "Frames to Video" mode (extraction-report.md, Methodology Level 2, step 2) before generating anything downstream — the tool has a dedicated mode for this handoff, not a generic prompt box.
 
 ## 4. Boilerplate-First Foundation
 Never start from zero. Begin with a professionally structured boilerplate — document structure, viewport handling, styling defaults, responsive foundations. This eliminates 90% of setup time.
 
 ## 5. Reference Image Anchoring
-Always upload a reference image alongside generation prompts. This anchors AI output to your intended color palette, texture quality, and product style — preventing generic, off-brand results.
+Always upload a reference image alongside generation prompts. This anchors AI output to your intended color palette, texture quality, and product style — preventing generic, off-brand results. This discipline underwrites the "sellable service at $5K-$15K per site" positioning the whole pipeline exists to sustain (extraction-report.md, Applied Intelligence — Capability Unlocks #1) — brand-anchored output is what a client is actually paying for.
 
 ## 6. Progressive Polish Protocol
-Build in layers: foundation → pages → content → CMS → polish. Each layer is complete before the next begins. Polish comes last — cursor glow, animations, micro-interactions are finishing touches, not foundations.
+Build in layers: foundation → pages → content → CMS → polish. Each layer is complete before the next begins. Polish comes last — cursor glow, animations, micro-interactions are finishing touches, not foundations. The agency-grade path (Level 3, Option B) runs this exact six-layer order across 11 sequential steps ending in Netlify deployment (extraction-report.md, Methodology Level 3) — polish is step 7 of 11, never step 1.
 
 ## 7. Headless CMS as Client Independence Layer
-Position the CMS as a client independence layer — the mechanism that means clients never call you to update a headline or publish a blog post. Wire up GraphQL endpoints so non-technical users manage dynamic content without touching code.
+Position the CMS as a client independence layer — the mechanism that means clients never call you to update a headline or publish a blog post. Wire up GraphQL endpoints so non-technical users manage dynamic content without touching code. This is what lets Hygraph, handed to a client as something that feels like "just drag and drop," actually hold enterprise-grade structure underneath (extraction-report.md, Hidden Knowledge #6).
 
 ## 8. WebP Sequence Scroll Animation Hack
 Convert animations to WebP frame sequences triggered on scroll. This keeps visual quality while maintaining page performance. Export at original resolution, closest native FPS, quality 85, forever loop. Split into frames, store in Supabase, reference URLs for scroll-triggered playback.
 
 ## 9. Prompt Document as Build Blueprint
-Create a structured prompt document containing every prompt needed for the entire project, organized by phase. This eliminates improvisation and makes the workflow repeatable by anyone.
+Create a structured prompt document containing every prompt needed for the entire project, organized by phase. This eliminates improvisation and makes the workflow repeatable by anyone. The extraction's own "24-Hour Quickstart" and 7-Day Sprint pathways (extraction-report.md, Implementation Pathway) are this exact blueprint pattern applied to onboarding a new operator, not just a single build.
 
 ## 10. AI Agent as Autonomous Engineer
-Treat the AI agent as an autonomous front-end engineer: give it an implementation plan → review the plan it returns → approve or adjust → let it execute autonomously → verify output. Don't micromanage individual lines.
+Treat the AI agent as an autonomous front-end engineer: give it an implementation plan → review the plan it returns → approve or adjust → let it execute autonomously → verify output. Don't micromanage individual lines. The example task named for this pattern — CMS migration — is exactly steps 8-10 of the 11-step Antigravity + React build (extraction-report.md, Methodology Level 3, Option B): integrate Hygraph, set up schemas, migrate hardcoded content, all agent-executed off one plan.
 
 ## 11. Security-Conscious API Handling
-Separate API key handling — never paste secrets into agent prompts. Wait for the agent to create an .env file, then paste secrets only there. No API keys visible in code files, prompts, or version control.
+Separate API key handling — never paste secrets into agent prompts. Wait for the agent to create an .env file, then paste secrets only there. No API keys visible in code files, prompts, or version control. Leaking a key here doesn't just risk one project — it risks the credentials behind every "$5K-$15K per site" client build (extraction-report.md, Applied Intelligence — Capability Unlocks #1) running through the same agent session.
 
 ## 12. Export-Ready Architecture
-Build with portability — projects can be exported from Firebase Studio and deployed anywhere (Netlify, Vercel, custom hosting) without restructuring. Use code editor to select all → zip → download → deploy.
+Build with portability — projects can be exported from Firebase Studio and deployed anywhere (Netlify, Vercel, custom hosting) without restructuring. Use code editor to select all → zip → download → deploy. Portability matters commercially: these sites are priced against agencies charging "$20K" for comparable builds (extraction-report.md, Market Signals) — a client paying that range expects to own the build outright, not be locked into one platform.
 
 ## Hidden Knowledge
 
 ## 1. The "Millisecond Judgment" Problem
-Website visitors judge a site in milliseconds. Andy's entire pipeline is built around winning that neurological reaction through motion, depth, and visual coherence. Most builders optimize for features; Andy optimizes for the first impression. Every tool choice and animation decision serves this single moment.
+Website visitors judge a site in milliseconds. Andy's entire pipeline is built around winning that neurological reaction through motion, depth, and visual coherence. Most builders optimize for features; Andy optimizes for the first impression. Every tool choice and animation decision serves this single moment. This priority is why the entire pipeline documented across this 6,375-word, 3-video extraction (extraction-report.md, Content Assessment) sequences toward visual impact before feature completeness.
 
 ## 2. The FPS/Quality Sweet Spot
 When converting video to WebP: original resolution, closest frame rate to native (NOT maximum), quality 85. Going higher adds file size without perceptible quality gain. Going lower creates visible degradation. This number (85) only comes from testing dozens of projects — you won't find it in documentation.
@@ -57,16 +67,29 @@ The first and last frames aren't just "two images" — they define a visual arc.
 Andy uses Supabase not as a database but as a public bucket for visual assets — essentially a free, high-performance CDN for WebP frame sequences. This solves the "where do I host 50+ animation frames" problem without paid CDN services.
 
 ## 5. The Anti-Template Paradox
-By following a systematic workflow (which sounds like templating), Andy produces sites that look nothing like templates. The system is rigid; the outputs are unique. This works because the visual direction step produces completely different aesthetic foundations every time, while the structural pipeline ensures professional execution.
+By following a systematic workflow (which sounds like templating), Andy produces sites that look nothing like templates. The system is rigid; the outputs are unique. This works because the visual direction step produces completely different aesthetic foundations every time, while the structural pipeline ensures professional execution. This is the gap Market Signals names directly: most "AI website" creators ship generic one-pagers while parallax, animated, CMS-powered sites stay undersold at "$5K-$15K per site" (extraction-report.md, Market Signals / Capability Unlocks #1).
 
 ## 6. Schema as Content Contract
 When setting up Hygraph schemas, Andy creates a content contract — a structural agreement between CMS and frontend about what data looks like. Once the schema is set, content can be migrated programmatically. This is enterprise-grade architecture presented as "just drag and drop."
 
 ## 7. The "Agent Skills" Meta-Layer
-Installing Antigravity agent skills as a pre-build step isn't optional decoration — these skills fundamentally change how the agent approaches the project. They provide best practices, design patterns, and quality standards that inform every subsequent decision. Skip this step and you get a mediocre site.
+Installing Antigravity agent skills as a pre-build step isn't optional decoration — these skills aren't just "nice to have" (extraction-report.md, Hidden Knowledge #7); they fundamentally change how the agent approaches the project. They provide best practices, design patterns, and quality standards that inform every subsequent decision. Skip this step and you get a mediocre site.
 
 ## 8. Permanent Auth Token Strategy
-By creating a permanent OAuth token for Hygraph (rather than session-based), Andy enables content automation through AI agents — new blog posts and case studies can be published by simply pasting content into the agent. This is content automation infrastructure hiding in plain sight.
+By creating a permanent OAuth token for Hygraph (rather than session-based), Andy enables content automation through AI agents — new blog posts and case studies can be published by simply pasting content into the agent. This is content automation infrastructure hiding in plain sight. It's exactly the 30-Day Integration milestone that closes the loop: "connect to content generation agents for CMS publishing" (extraction-report.md, Implementation Pathway).
+
+---
+
+## Anti-Patterns
+
+Failure modes derived from inverting the documented patterns above — not Andy's own words, but the direct consequence of skipping a step the extraction shows him never skipping. Each is anchored to the specific pattern it violates.
+
+- **Never let one tool do two jobs** — e.g. asking Firebase Studio to also invent the visual identity instead of letting Nano Banana/Whisk own image generation and Firebase Studio own assembly. Breaks the Tool Specialization Pipeline (extraction-report.md, Genius Pattern 3, sourced 2026-03-02).
+- **Never skip the boilerplate step to "save time"** — building without a professional foundation recreates the exact 90%-of-setup-time waste the Boilerplate-First pattern exists to eliminate (extraction-report.md, Genius Pattern 4, sourced 2026-03-02).
+- **Never generate a single frame and ask the AI to "figure out" the animation** — without a defined "first frame" and "last frame," Flow has no visual arc to interpolate and output degrades to generic, artifact-prone motion (extraction-report.md, Genius Pattern 2, sourced 2026-03-02).
+- **Never paste API keys directly into an agent prompt** — wait for the .env file the agent creates; keys pasted into prompts end up in chat history and version control (extraction-report.md, Genius Pattern 11, "Security-Conscious API Handling," sourced 2026-03-02).
+- **Never hand a client a hardcoded site with no CMS** — it recreates the exact dependency the Client Independence Layer exists to kill: the client calling you to update one headline (extraction-report.md, Genius Pattern 7, sourced 2026-03-02).
+- **Never export WebP at maximum quality/FPS "to be safe"** — Andy's own tested number is quality 85 at native FPS; higher adds file weight with no perceptible gain, lower shows visible degradation (extraction-report.md, Hidden Knowledge #2, "The FPS/Quality Sweet Spot," sourced 2026-03-02).
 
 ---
 
