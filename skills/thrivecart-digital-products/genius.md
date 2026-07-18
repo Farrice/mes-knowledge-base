@@ -83,7 +83,7 @@ Specifically:
 ## Pattern 13: Casual vs. Committed Frame
 **Execute**: Identify if buyer is casual (price-sensitive) or committed (solution-focused). Adjust messaging accordingly.
 **Success Metric**: Messaging matches buyer commitment level.
-**Source anchor**: "are you going to treat this whole thing of dating casually or are you going to get serious? ... casual doesn't build a business just like casual dating doesn't build a deep lasting meaningful relationship" (2026-01-20, same transcript).
+**Source anchor**: "am I going to treat this whole thing of dating casually or are you going to get serious? ... casual doesn't build a business just like casual dating doesn't build a deep lasting meaningful relationship" (2026-01-20, same transcript).
 
 ## Pattern 14: Transformation Promise Precision
 **Execute**: Every product promises specific transformation with tangible before/after states.

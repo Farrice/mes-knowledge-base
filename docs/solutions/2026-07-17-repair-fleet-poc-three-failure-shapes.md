@@ -68,6 +68,17 @@ verify caught it (49 anchors sampled across 4 skills: zero fabrications, but 1 f
 absence + 1 dropped-word "verbatim" + 1 wrong-file citation). The verify prompt's
 "spot-check UNCONFIRMED labels" clause is earning its place; keep it in every batch.
 
+## Shape-3 third recurrence — the three-location rule (Lane 4 b17 close, 2026-07-18)
+A worker declared sweat-equity-speedrun's Malbon/payphone case study sourceless and
+relabeled VERIFIED extraction facts "illustrative-only" after searching only TWO of the
+repo's THREE source locations (root `extractions/` + the archive tarball). The real
+source sat in the third: `_active/codex-harvest-2026-06-11/extractions/<skill-id>/`
+(the Codex fork-harvest drop — semantic-document-library-os and sam-parr-copywriting-
+mechanics sources also live there). Only the Opus verifier's independent repo-wide grep
+caught it; the relabeling was an integrity REGRESSION dressed as honesty. **Worker
+envelopes must name all three source locations explicitly; an absence claim that names
+fewer than three searched locations is unverified.**
+
 ## 6. Silent deletion of passing content (caught by: Opus verify deletion scan — Lane 4 b2, 2026-07-17)
 A worker deleted a 4-line passing insight block from ash-maurya-lean-metrics genius.md
 while narrating only its additions — REPAIR-NOTES said "additive," the diff said
