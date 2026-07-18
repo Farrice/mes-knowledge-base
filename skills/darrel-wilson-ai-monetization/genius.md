@@ -4,6 +4,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These 14 patterns are intuition primitives, not a checklist to stamp in order. Absorb them, then build a system that fits the prospect in front of you. If the output enumerates "Pattern 4: Recurring Revenue Lock-In applied here" instead of just pricing the offer as a $200-entry monthly subscription, you have failed. The recognition test: would Darrel Wilson recognize this as a system built around demand that already exists — or does it read like someone using automation vocabulary (n8n, warm leads, RFP boards) without the underlying discipline of verifying the buying signal first?
+
+Specifically:
+- Do NOT narrate which pattern you're deploying ("using the Flip the Process Method here") — build the pre-made solution and show it, never announce the framework.
+- Do NOT default to cold outreach language. Wilson's entire model inverts prospecting: "Forget cold buying email lists. Forget cold blasting customers" (`extractions/darrel-wilson-ai-money/transcript.txt`). If the output pitches a stranger, it isn't his.
+- His texture is plainspoken and demo-first, not consultant-speak. He shows the live tool running before he explains the mechanism — "Let me show you" precedes "here's how." Polished, theory-first proposals are the tell that the system was invented, not built.
+- Every dollar figure should be real and specific, not rounded to a marketing number — $200 entry, $29 school, $400/month app, $5K workflow sale. Vague pricing ("competitive rates," "affordable packages") is Wilson's anti-exemplar, not his voice.
+
 ## Genius Patterns
 
 14 virtuoso patterns for AI monetization systems.
@@ -105,6 +115,17 @@
 **Execute**: Package expertise as repeatable systems with ongoing value. Price based on business value, not time invested.
 
 **Success Metric**: 80%+ of revenue from systems/products vs. hourly billing.
+
+## Anti-Patterns
+
+6 failure modes, each sourced to a verbatim line from the extraction transcripts. Violating any of these produces output Darrel Wilson would not recognize as his own.
+
+- **Never cold-blast unqualified lists.** Wilson: "Forget cold buying email lists. Forget cold blasting customers. Modern lead generation is about finding people who are already about to spend money." (source: `extractions/darrel-wilson-ai-money/transcript.txt`, undated YouTube transcript — no publish-date metadata in the source file). Anti-pattern: any outreach plan built on purchased lists or blast email instead of verified buying signals (RFPs, job posts, budget announcements).
+- **Never pitch a concept when a finished product is buildable.** Wilson, describing the AI-website local-business close: "you're not selling a concept. You're showing a finished product." (source: `extractions/darrel-wilson-ai-money/transcript.txt`). Anti-pattern: proposal decks, mockup sketches, or "here's what we could build" pitches where a working demo was possible instead.
+- **Never write review/opinion affiliate content in 2026.** Wilson: "why don't you make a tool that people can actually use?" — followed by "instead of writing opinions like oh wise review you know my favorite exchange or something" (source: `extractions/darrel-wilson-ai-money/transcript.txt`). Anti-pattern: "Top 10 Best X" listicles or personal-opinion reviews as the affiliate mechanism; AI search summaries already answer those questions before the click.
+- **Never join a freemium-model affiliate program.** Wilson: "Any company offering a free and pro version, I typically try to avoid it... customers will just go directly to their websites or they'll buy the service after the cookies expire." (source: `extractions/darrel-wilson-affiliate-marketing/transcript.txt`, sibling-skill extraction of the same expert, shared ground truth). Anti-pattern: recommending or building around any tool/program whose core product functions fully without payment.
+- **Never treat social platforms as a conversion channel.** Wilson: "I have a Facebook group with over 15,000 members and guess what? No one buys... I have thousands of pins and I'm lucky to get one conversion a month." (source: `extractions/darrel-wilson-affiliate-marketing/transcript.txt`). Anti-pattern: sizing a revenue plan around social-follower count instead of long-form/video conversion, which he separately clocks near 5%.
+- **Never sell hourly time when a system can be packaged instead.** Wilson: "Instead of selling your time, you can sell your systems." (source: `extractions/darrel-wilson-ai-money/transcript.txt`). Anti-pattern: quoting "consulting hours" or "project fees" instead of a repeatable, priced workflow/product a client can buy outright.
 
 ## Hidden Knowledge
 
