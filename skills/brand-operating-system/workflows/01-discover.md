@@ -62,6 +62,33 @@ Run `/ai-brain-discovery` (skill: `skills/ai-brain-discovery/`):
 
 Output: `_working/A3-discovery.md` — gap list with severity flags.
 
+## Output Schema
+
+**Inputs**: 
+- Canonical docs (from `--source <path>` OR `--discovery` founder interview) 
+- Brand identity tokens (BRAND_NAME, FOUNDER_NAME, etc.)
+
+**Outputs**:
+- `_source/*.md` — Archived canonical input(s)
+- `_working/A1-reconciliation.md` — Conflict resolution table, spine resolution, canonical phrasings to lock
+- `_working/A3-discovery.md` — 8-dimension diagnostic (voice gaps, ICP gaps, mechanic vs metaphor confusion, etc.) with severity flags
+- `00-foundation/02-icp-master.md` — Early draft ICP Master (umbrella description + ≥1 LOCKED profile + ≥2 PROPOSED profiles)
+
+**Each profile includes**: Demographic, psychographic, language map (avoid/use words), Bridge Message (1 sentence), audience-state mapping (pre-contemplation / contemplation / preparation / action).
+
+**Purpose**: Establish canonical inputs, resolve upstream conflicts, surface gaps, and lock the ICP umbrella + primary profile before Foundation phase.
+
+**Quality Gate Checkpoint**: 
+- [ ] `_source/` has ≥1 canonical doc
+- [ ] `_working/A1-reconciliation.md` exists and resolves all conflicts (no UNRESOLVED flags)
+- [ ] `00-foundation/02-icp-master.md` early draft has umbrella + ≥1 LOCKED profile
+- [ ] `_working/A3-discovery.md` exists with gap list (gaps OK; missing diagnostic NOT OK)
+- [ ] Founder has reviewed PROPOSED ICP profiles (or accepted PROPOSED status to proceed in parallel)
+
+If any unchecked, halt and resolve. Do not advance to Phase B with unresolved conflicts — they compound.
+
+---
+
 ## Quality gate (Phase A → B)
 
 Before advancing to Phase B:

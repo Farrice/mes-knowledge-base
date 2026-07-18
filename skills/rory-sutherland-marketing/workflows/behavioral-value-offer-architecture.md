@@ -86,4 +86,43 @@ You will receive a **Behavioral Value & Offer Blueprint** including:
 - **Transaction Utility**: Does the act of buying feel like "winning" or "spending"? (It must feel like winning).
 
 
+## Output Schema
+
+**Primary Deliverables**:
+1. **Deep Psychology Profile** (600-1,000 words)
+   - Format: Stated vs. Real Motivations Matrix + Psychological Purchase Map
+   - Components: 4+ stated/real motivation pairs, 6-drive mapping (Identity, Escape, Status, Safety, Belonging, Story), Trust Proxy identification
+   - Delivers: Clear distinction between what customer says they want vs. evolved psychological driver actually motivating purchase
+
+2. **Value Reframe Strategy** (500-800 words)
+   - Format: Specific comparison anchors + value arithmetic recalculations
+   - Components: Current comparison set (unfavorable) → New comparison set (favorable), cost-per-use/outcome breakdowns, per-period/per-result re-expressions, invisible value naming
+
+3. **Irresistible Offer Stack** (documented with full value stack architecture)
+   - Format: Tiered value stack with anchor values for each component
+   - Structure: Tier 1 (Core System) → Tier 2 (Acceleration Tools) → Tier 3 (Results Insurance)
+   - Includes: Specific bonus descriptions, quantified value anchors, "feels like" language for each tier
+
+4. **Risk & Guarantee Model** (200-400 words)
+   - Format: Custom-engineered risk reversal mechanism
+   - Components: Beyond-money-back guarantee design, outcome-based or milestone-based guarantees, "skin in the game" element, confidence signals embedded
+   - Delivers: Specific guarantee language + how it reverses the risk perception
+
+5. **Transaction Experience Design** (400-600 words)
+   - Format: Ceremony of purchase blueprint with specific touchpoints
+   - Components: Source prestige reframing (boutique hotel vs. shack), effort acknowledgment (visible labor behind offer), post-purchase ritual (identity validation moment)
+   - Includes: Sales touchpoint script updates, emotional validation language
+
+6. **Language Library** (documented as reference phrases + psychological hooks)
+   - Format: Exact phrases, Do/Don't messaging, psychological hooks indexed by psychological driver
+   - Components: Identity phrases, Status signal language, Safety/trust language, Loss-aversion framing, Belonging language
+
+**Quality Checklist**:
+- [ ] Does psychology profile reveal genuine evolved drives (not just stated features-and-benefits)?
+- [ ] Is new comparison frame demonstrably more favorable for the offer?
+- [ ] Does value stack contain clear tier separation (not just bonus bloat)?
+- [ ] Risk reversal truly reverses risk perception (not just words)?
+- [ ] Guarantee language signals extreme confidence + commitment?
+- [ ] Does transaction experience design create a memorable "winning" feeling?
+
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

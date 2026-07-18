@@ -83,6 +83,42 @@ Apply Kallaway's scientific batch testing:
 - [ ] Do posts use conspiratorial framing, not corporate/authority?
 - [ ] Is the batch testing plan structured for scientific iteration?
 
+## Output Schema
+
+**Primary Deliverables**:
+1. **Raw Perception Shifts Inventory** (15-25 shifts, documented as list)
+   - Format: Perception shifts organized by scan type (Doorman, Paceometer, Reverse Benchmarking, Overground Effect, Costly Signal)
+   - Each entry: Single-sentence shift statement + scan type category + brief mechanism note
+
+2. **Insight Vector Enhancement Report** (top 10 perception shifts analyzed)
+   - Format: Mental model gap + vector type classification + "aha" sentence + novelty/shareability/authority scores
+   - Delivers: Top 7 ranked by composite score, ready for full development
+
+3. **7 Platform-Native Content Pieces** (500-1,000 words each)
+   - Format: Platform-specific content tailored to LinkedIn/Twitter/TikTok/Reels
+   - Each piece: Platform-optimized structure, built-around perception shift hook, save-trigger mechanisms
+   - Includes: Conspiritorial framing, call-to-action variants by platform, "follow for more" loops
+
+4. **4-Week Batch Testing Plan** (documented as weekly calendar + hypothesis)
+   - Format: Week-by-week publication calendar with specific testing variables
+   - Week 1: 3 posts from different scan types, track save/share rates
+   - Week 2: Double down on winner, test 3 hook variants
+   - Week 3: Hybrid posts (cross-scan combinations)
+   - Week 4: Review data, identify signature format, recommend scaling strategy
+   - Includes: Winning signal thresholds (Save rate > 3%, comment themes, DM share rate)
+
+5. **Signature Format Recommendation** (200-400 words)
+   - Format: Data-driven format recommendation with rollout strategy
+   - Includes: Which scan type resonates most, optimal hook variant, best-performing platform, audience response patterns
+
+**Quality Checklist**:
+- [ ] Does every post contain a genuine perception shift (not information sharing)?
+- [ ] Are posts platform-native (not cross-posted generic versions)?
+- [ ] Do posts use conspiratorial framing (not corporate/authority)?
+- [ ] Is batch testing structured for scientific iteration (not just shotgun publishing)?
+- [ ] Save-rate tracking and audience response metrics defined?
+- [ ] Recurring ritual planned for post-MVP optimization?
+
 ## Cross-Expert Stacking
 - **→ Georgi** (`/georgi-social`): Apply dopamine optimization to the winning format.
 - **→ Dunford** (`/dunford-positioning-to-copy`): Ensure social content reinforces the positioning narrative.

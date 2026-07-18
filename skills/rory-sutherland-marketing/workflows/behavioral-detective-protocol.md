@@ -65,6 +65,36 @@ Score each deliverable:
 - [ ] Were anecdotes triaged as compass (investigative mode) without demanding proof value?
 - [ ] Does the brief end in a cheap, reversible test rather than a new unfalsifiable story?
 
+## Output Schema
+
+**Primary Deliverables**:
+1. **Accepted Explanation Demotion Report** (400-600 words)
+   - Format: Analysis of the current "story" everyone believes, flagged for motivated reasoning
+   - Includes: Makes-Sense Alarm (why it felt satisfying), Harrods Test (would effect survive without story?), De-Averaged Data breakdown, hypothesis demotion statement
+
+2. **Confounding Variable Report** (600-1,000 words)
+   - Format: Ranked candidate causes from direct observation
+   - Components: Site visit/observation findings, confounder list (staff behavior, incentives, environmental signals, wording, sequence), if-this-then-what test for each candidate
+   - Delivers: Top 3-5 confounding variables ranked by observational support, specific evidence for each
+
+3. **Anecdote Ledger** (documented as triage table)
+   - Format: Every entry in [ANECDOTES] triaged by "what would it mean if true?"
+   - Components: Anecdote → Titanic Rule ranking (does this outrank big data?) → That's-Funny prompts (next investigative steps) → INVESTIGATIVE vs. EVIDENTIAL marking
+   - Includes: Forward-looking questions generated from top 3 anecdotes
+
+4. **Reversed-Conclusion Brief** (documented as before/after table + narrative)
+   - Format: Before (accepted story) vs. After (detective finding) comparison
+   - Columns: Cause | Data blind spot | Action implied | Cost of wrong story
+   - Includes: Cheap test design (reversible experiment specification), ledger ritual recommendation for future anecdote capture
+
+**Quality Checklist**:
+- [ ] Was accepted explanation demoted to hypothesis (not assumed) before investigation began?
+- [ ] Did investigation include direct observation (site, replay, recordings), not just re-queried data?
+- [ ] At least one dashboard-invisible confounding variable identified with specific observational support?
+- [ ] Were anecdotes triaged as compass (investigative mode) without demanding proof-value?
+- [ ] Does brief end in specific, cheap, reversible test (not unfalsifiable story)?
+- [ ] Is recurring "meh hunt" ritual designed for future detection?
+
 ## Cross-Expert Stacking (optional)
 - **→ Sutherland** (`asymmetric-bet-evaluator`): Convert the leading hypothesis into a Two-Way Door experiment portfolio.
 - **→ Sutherland** (`sin-of-omission-audit`): If the confounder is a radiated closing/not-for-me signal, run the full omission audit.

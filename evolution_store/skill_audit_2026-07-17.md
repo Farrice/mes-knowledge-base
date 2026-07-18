@@ -20,7 +20,7 @@ Tiers:
 
 6 checks: anti-patterns ≥5 sourced · ≥3 verbatim exemplars · recognition test · source ledger · named-entity floor · workflow Output Schema+Quality Gate. Failing ≥2 caps the tier at B.
 
-313 skill(s) fail ≥2 checks (6 tier-capped this run):
+312 skill(s) fail ≥2 checks (6 tier-capped this run):
 
 - `_tmp_audit_diandra`: anti_patterns_sourced, verbatim_exemplars, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `adam-enfroy-affiliate-marketing`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
@@ -95,7 +95,6 @@ Tiers:
 - `david-placek-naming`: anti_patterns_sourced, recognition_test, source_ledger, workflow_contracts
 - `deliberate`: anti_patterns_sourced, recognition_test, source_ledger, workflow_contracts
 - `deya-business-systems`: anti_patterns_sourced, recognition_test, source_ledger
-- `diandra-escobar-linkedin-growth`: anti_patterns_sourced, recognition_test, source_ledger
 - `dom-iacovone-multi-company-operator`: anti_patterns_sourced, verbatim_exemplars, recognition_test, named_entity_floor, workflow_contracts
 - `donald-miller-business-growth`: anti_patterns_sourced, recognition_test
 - `donald-miller-cognitive-load`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor

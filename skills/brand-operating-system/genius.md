@@ -4,6 +4,26 @@ The deeper reasoning behind the 6-layer architecture, the phase sequencing, the 
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+The 6-layer architecture is a **system of constraints, not choose-your-own-adventure**. The phase sequence is load-bearing. The inheritance pattern is not optional. Violations break the whole system.
+
+If you're using this skill to build a brand operating system, the following discipline points are non-negotiable:
+
+**1. Do NOT parallelize phases.** Phase A feeds Phase B feeds Phase C. If you run Phase C (Visual) before Phase B (Foundation) is locked, the visual system will drift from the voice system. You cannot iterate them in parallel. The dependency is real.
+
+**2. Do NOT skip Phase A (Discovery) with a "vibe."** The entire architecture depends on canonical inputs (founder anchor doc, manifesto, non-negotiables). If you're operating from vibes instead of documents, you have no source of truth. Phase A locks the spine. Everything downstream reads from it.
+
+**3. Do NOT expand the 6-layer structure.** Don't add a "7th layer for community" or "8th layer for partnerships." The 6 layers emerged from observing where brand decisions actually live and who actually makes them. Adding layers produces organizational sprawl, not clarity.
+
+**4. Do NOT let AI Brain Master grow past 4K tokens.** The hard ceiling exists because if you can't compress the brand spine into 4,000 tokens, your Foundation is bloated. Token pressure = clarity pressure. If AI Brain Master keeps growing, go back to Phase B and sharpen the voice document.
+
+**5. Do NOT break the inheritance pattern.** When the master brief changes, all 9 per-asset briefs inherit the change. When the Foundation changes, all downstream layers cascade. If you're manually updating 9 briefs or 43 docs by hand every time the spine shifts, you've broken the system. The whole point is: update once, cascade everywhere.
+
+**The test**: A founder who's never used the BOS before should be able to read the Master Index (document 00-foundation/00-master-index.md) and paste any single file into Claude cold, and get on-brand output on first try. If that's not happening, the system has drift.
+
+---
+
 ## Why 6 layers, not 4 or 8
 
 A brand has six distinct surfaces of operation, and conflating any two of them produces a system that breaks under pressure.
@@ -117,6 +137,80 @@ The template at `templates/brand-operating-system-v1/` is a derivative of Resona
 3. **The template gets better when Resonance gets better.** If Andrea catches a bug in v1.1 and we update Resonance, the template should mirror — otherwise template drifts behind.
 
 The discipline (`directives/brand-operating-system-protocol.md`): when the template amends, Resonance gets back-applied OR the divergence is named explicitly in the changelog. When Resonance amends, the template gets back-applied OR the divergence is named. They march together.
+
+---
+
+## Anti-Patterns (Things BOS Builders Fail At)
+
+The following patterns emerge from observing where BOS implementations derail. Each anti-pattern is documented with an expert observation, source location, and the mechanism in the BOS that prevents it.
+
+### AP-1: Conflating "Brand" with "Logo + Tagline"
+
+**The Pattern**: Founders enter the BOS thinking the brand is visual identity. They want to "design the logo first" or "lock the tagline" and treat everything else as downstream flavor. This produces a system where visual design has no voice, briefs have no spine, and AI outputs look right but sound wrong.
+
+**Expert Observation** (Greg Hoffman, Nike CMO, `extractions/brand-master/extraction-report.md`, GP-2): "A brand isn't what you show. It's what you make people *feel*. The moment you confuse visual identity with brand architecture, you've already lost — you've made a logo, not a brand."
+
+**How BOS Prevents It**: Phase A (Discovery) locks the spine BEFORE any visual work. Phase B (Foundation) produces the brand bible, voice document, and positioning — all verbal/conceptual. Phase C (Visual) comes AFTER and inherits from the Foundation. The visual system is not primary; it's derivative. This ordering prevents the logoization trap.
+
+---
+
+### AP-2: The "Versatile Voice" Trap
+
+**The Pattern**: Founders want the voice to "work for everyone" — funny enough for Gen Z, professional enough for investors, warm enough for customers. The voice document ends up bland (70+ "named patterns" that are all variations of "authentic" or "friendly"). The result: zero distinctive voice. Every asset reads like it came from a voice-template generator.
+
+**Expert Observation** (Oren Klaff, Creative Strategist, `extractions/oren/oren-systems-extraction-report.md`, GP-7): "A versatile voice is a contradiction. Voice IS the willingness to lose the people who aren't your people. The moment you try to include everyone, you become invisible to everyone."
+
+**How BOS Prevents It**: Phase B3 (Voice Document) has a hard output requirement: 4-8 NAMED voice patterns, each with 2-4 paired GOOD/BAD examples, plus a banned-phrases list ("the wince list"). Founders can't pad the requirement with vague patterns. They have to name the actual voice and show proof it works. Fewer patterns, more distinctive.
+
+---
+
+### AP-3: No Insight, No Story Worth Remembering
+
+**The Pattern**: ICP documents read like demographic soup ("women 28-42, interested in wellness, earn $80K+"). The briefs that flow from this soup are forgettable because there's no human narrative. The copywriter is writing to a spreadsheet row, not a person.
+
+**Expert Observation** (Greg Hoffman, Nike Brand Architecture, `extractions/brand-master/extraction-report.md`, GP-3): "If you can't tell the story of who this person is — what they want, what they're afraid of, what they're willing to risk — you're not building a brand. You're running an ad campaign."
+
+**How BOS Prevents It**: Phase A2 (ICP Master) requires each profile to have: demographic, psychographic, language map (avoid/use words), Bridge Message (the single sentence that lets the reader cross from current state to next), and audience-state mapping (pre-contemplation / contemplation / preparation / action). This structure forces narrative. You can't hand off a profile to Phase B without a story embedded in it.
+
+---
+
+### AP-4: ICP Becomes Demographic Soup
+
+**The Pattern**: The ICP Master starts with a solid LOCKED profile but expands to 12 profiles over time. Each profile is "just a slight variation" on the prior one. By the time Phase D (Briefs) runs, there are too many profiles to reference, so the briefs revert to generic demographic language. The system has collapsed.
+
+**Expert Observation** (Ben Watkins, Showrunner & Pitch Coach, `skills/ben-watkins-storytelling/genius.md`, Operating Principles #9): "More profiles = less precision. You're not being more comprehensive; you're diluting the one story you know how to tell."
+
+**How BOS Prevents It**: Phase B4 (ICP Master finalization) locks 3-5 profiles total: 1 LOCKED + 2-4 PROPOSED (pending founder adjudication). The master brief inherits from one profile at a time. If new profiles emerge, they don't get added to the master; they trigger a Phase B re-opening and a deliberate decision: Do we split into sub-brands, or do we tighten the existing profile?
+
+---
+
+### AP-5: Functional Purity Lost to Aesthetic Chasing
+
+**The Pattern**: The visual system (DESIGN.md) starts with functional tokens (colors for contrast, typography for hierarchy, spacing for rhythm). Midway through Phase C, the designer adds "brand aesthetic" considerations (gradients, shadow effects, decorative patterns) that aren't in the tokens. By the time briefs ship, the visual spec is bloated (50+ tokens that no one remembers), and assets drift visually because the spec is unmoored from function.
+
+**Expert Observation** (Greg Hoffman, Nike Product Architecture, `extractions/brand-master/extraction-report.md`, GP-11): "Don't confuse taste with architecture. Architecture is what survives when you have to ship at 2am. Taste is what makes it beautiful. You need both, but architecture first."
+
+**How BOS Prevents It**: Phase C1 (DESIGN.md synthesis) requires output to lint clean via `npx @google/design.md lint`. The linter enforces token count, structure, and contrast compliance. You can't hide aesthetic bloat in a linting pass. Photography rules MUST encode the brand mechanic (e.g., "If a photo could have been taken at 11pm, it fails" for Resonance's daytime-as-rule). If the rules are generic ("warm-toned photography"), you've confuse aesthetic with function.
+
+---
+
+### AP-6: AI Brain Master Master Bloat (Lost Compression Discipline)
+
+**The Pattern**: The AI Brain Master starts at 2,000 tokens (clean). Over the course of execution, additions accumulate: "just add the ICP profiles," "just add the detailed voice patterns," "just add the full hook library." By Phase F, the AI Brain Master is 7,000 tokens and every paste into Claude produces output that's partially on-brand and partially off. The paste-in test fails.
+
+**Expert Observation** (Brand Operating System Architecture, internal, Resonance reference build 2026-05-04): The AI Brain Master has a hard 4K-token ceiling. If you can't compress the spine into it, the Foundation is bloated. Token pressure signals clarity pressure. Violations of the ceiling produce a paste-in test that fails.
+
+**How BOS Prevents It**: Phase F (AI Handoff) produces the AI Brain Master from the locked Foundation + Visual + Briefs. The hard 4K ceiling is non-negotiable. If the compressed spine doesn't fit, you halt and re-sharpen Phase B. You don't add more words; you remove bloat. This constraint prevents the creeping-bloat trap.
+
+---
+
+### AP-7: Brief Inheritance Broken, Variations Multiply
+
+**The Pattern**: The master brief template works great for Phase D. But then a founder says "wait, IG reels need a different format than the master" or "email needs its own Section 8 structure." Each brief gets a "custom variant" of the master. Within 6 months, the 9 briefs are effectively 9 separate documents with no shared structure. A change to the master touches maybe 3 briefs because the other 6 "diverged for good reasons."
+
+**Expert Observation** (Brand Operating System Architecture, internal, Phase D specification, Resonance reference): The inheritance contract is total. Every per-asset brief is a concrete instance of the master template's 10 sections. Section 8 (AI Prompt Formula) is the only thing that changes per-asset. Sections 1-7 are locked. If you need a different section for IG reels, you're not breaking the brief; you're breaking the system.
+
+**How BOS Prevents It**: Phase D (Briefs) explicitly states: "Master template (D0) has all 10 sections locked. All 9 per-asset briefs follow master structure with Sections 1-5 locked, Sections 6-7 customized per asset, Section 8 paste-in ready." The inheritance is enforced by the definition. If the product brief for IG reels needs a different formula, you don't create a variant; you update the master AND all 9 briefs at once.
 
 ---
 

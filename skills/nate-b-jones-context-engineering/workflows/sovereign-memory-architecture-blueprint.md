@@ -178,6 +178,30 @@ When an agent invocation begins:
 5. **Month 2**: Build decay mechanism. Run first decay cycle. Implement procedural tier.
 6. **Month 3**: Integration into context loading pipeline. A/B test against static loading.
 
+## Output Schema
+
+**Contract**: Complete persistent memory system architecture with episodic/semantic/procedural tiers, Ebbinghaus-inspired decay, distillation pipelines, retrieval integration, and sovereignty verification.
+
+**Deliverables**:
+1. Three-Tier Schema Definitions — SQL/JSON for episodic (time-series), semantic (vector-indexed), procedural (configuration) tiers with retention policies
+2. Decay Mechanism Specification — Ebbinghaus function implementation (base_value × 1/(1+k×days), thresholds: ACTIVE/DORMANT/ARCHIVE/COLD), decay schedule (nightly), overrides (pin/boost/demote)
+3. Distillation Pipeline Design — episodic→semantic (weekly), semantic→procedural (monthly), with human review gates
+4. Retrieval Interface Specification — context-loading integration showing memory injection format and precedence rules
+5. Sovereignty Checklist — completed verification of local storage, export paths, audit trails, delete capability, encryption, access control
+6. Implementation Timeline — 6-month phased rollout (setup → ingestion → retrieval → distillation → decay → integration)
+7. Technology Stack Decisions — database choice (PostgreSQL + pgvector recommended), rationale for hypertables, justification for versioning strategy
+
+**Quality Gates**:
+- [ ] All three tiers have explicit schemas with clear ownership and retention rules
+- [ ] Decay mechanism is implemented as Python function; thresholds are calibrated to real access patterns
+- [ ] Distillation pipeline includes human review gate — no automatic promotion without sign-off
+- [ ] Retrieval interface is integrated into existing context-loading chain (show before/after flow)
+- [ ] Sovereignty checklist is 100% complete (no placeholder items)
+- [ ] Implementation timeline is realistic with clear Week 1/Month 2/Month 3 milestones
+- [ ] Technology choices are justified (why PostgreSQL vs. alternatives; why pgvector vs. pinecone)
+
+**Output Format**: Architecture document (markdown) + SQL schema file + Python pseudocode for decay/distillation + project plan (markdown).
+
 ## Output Format
 Deliver as a comprehensive architecture document with:
 - Three-tier schema definitions

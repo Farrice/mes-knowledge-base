@@ -7373,6 +7373,25 @@
             "ensemble": true,
             "compound_pairing": "paul-harding-lyric-prose + deliberate + dara-denney-meta-ads",
             "feedback": "fb_20260718_021226_009e"
+        },
+        {
+            "routing_id": "rt_20260718_023506_e299",
+            "timestamp": "2026-07-18T02:35:06.392880+00:00",
+            "session_id": "129de224-63c4-4296-8df8-73d0a98c330c",
+            "request_summary": "<agent-message from=\"b3-miller\">\nFYI while working my batch-2 assignment (donald-miller-storybrand): found skills/donald-miller-storybrand/ already dirty on disk — genius.md modified in place, plus st",
+            "intent_score": 0,
+            "domain_detected": "donald-miller-storybrand",
+            "experts_deployed": [
+                "donald-miller-storybrand",
+                "donald-miller-messaging-evolution",
+                "claim-safe-health-marketing"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "donald-miller-storybrand",
+            "ensemble": true,
+            "compound_pairing": "donald-miller-storybrand + donald-miller-messaging-evolution + claim-safe-health-marketing",
+            "feedback": "fb_20260718_023539_c45d"
         }
     ],
     "feedback_log": [
@@ -7834,12 +7853,21 @@
             "rating": "auto_miss",
             "correction": "ben-watkins-storytelling",
             "notes": "expert skill 'ben-watkins-storytelling' loaded not matching suggestion ['paul-harding-lyric-prose', 'deliberate', 'dara-denney-meta-ads']"
+        },
+        {
+            "feedback_id": "fb_20260718_023539_c45d",
+            "timestamp": "2026-07-18T02:35:39.400156+00:00",
+            "session_id": "129de224-63c4-4296-8df8-73d0a98c330c",
+            "routing_id": "rt_20260718_023506_e299",
+            "rating": "auto_miss",
+            "correction": "rory-sutherland-marketing",
+            "notes": "expert skill 'rory-sutherland-marketing' loaded not matching suggestion ['donald-miller-storybrand', 'donald-miller-messaging-evolution', 'claim-safe-health-marketing']"
         }
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 408,
-            "total_feedback": 51,
+            "total_routings": 409,
+            "total_feedback": 52,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
@@ -7908,7 +7936,8 @@
                 "youtube-video-context-analysis": 1,
                 "henry-shukman-contemplative-writing": 1,
                 "nate-b-jones-ai-taste-mastery": 1,
-                "internal-comms": 1
+                "internal-comms": 1,
+                "donald-miller-storybrand": 1
             },
             "expert_counts": {
                 "system-audit": 20,
@@ -7966,7 +7995,7 @@
                 "nate-b-jones-ai-taste-mastery": 2,
                 "tobias-allen": 1,
                 "system-orchestrator": 3,
-                "claim-safe-health-marketing": 3,
+                "claim-safe-health-marketing": 4,
                 "omar-eddaoudi-scaling-ops": 6,
                 "nicolas-cole-digital-products": 2,
                 "test-expert": 2,
@@ -8097,10 +8126,12 @@
                 "daniel-priestley": 1,
                 "youtube-video-context-analysis": 1,
                 "michael-connelly-vivid-writing": 1,
-                "kallaway-content-psychology": 1
+                "kallaway-content-psychology": 1,
+                "donald-miller-storybrand": 1,
+                "donald-miller-messaging-evolution": 1
             },
             "tier_counts": {
-                "0": 408,
+                "0": 409,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -8108,11 +8139,11 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 228,
+                "hybrid": 229,
                 "finalize-auto": 180
             },
-            "ensemble_count": 300,
-            "auto_miss_count": 40,
+            "ensemble_count": 301,
+            "auto_miss_count": 41,
             "auto_match_count": 11
         }
     }

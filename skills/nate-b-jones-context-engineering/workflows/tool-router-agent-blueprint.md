@@ -133,6 +133,30 @@ Validate:
 **Day 5**: If miss rate >10%, implement Option B (semantic) for specialized tools
 **Week 2**: Monitor in production, track miss rate, adjust always-on set
 
+## Output Schema
+
+**Contract**: Tool Router architecture with dynamically-loaded tool selection based on task intent, designed to reduce context overhead from 20K to 2.6K tokens while maintaining <10% cache miss rate.
+
+**Deliverables**:
+1. Tool Inventory Table — complete catalog with schema sizes (tokens) and usage frequency
+2. Tool Clustering Map — functional domains and tool groupings
+3. Selection Algorithm Specification — chosen router (MVP/Production/Hybrid) with inline Python pseudocode
+4. Always-On Set Definition — 8 core tools that load regardless of task
+5. Fallback Mechanism — handling out-of-set tool requests; cache-miss tracking
+6. Token Math Comparison — before (20K all-tools) vs. after (2.6K dynamic)
+7. Validation Checklist — pass/fail criteria for 20-task test suite with measurements
+
+**Quality Gates**:
+- [ ] Tool inventory covers 100%+ of available tool definitions (Notion, Core, MCP servers)
+- [ ] Clustering rationale is explicit — no orphan tools
+- [ ] Selection algorithm chosen with clear reasoning (MVP vs. production vs. hybrid)
+- [ ] Token math is conservative (no inflated baseline, realistic schema sizing)
+- [ ] Fallback mechanism handles missing tools without agent breakage
+- [ ] Validation results show <10% cache miss rate on test suite (or clear path to <10%)
+- [ ] Implementation timeline is realistic (scope/hours explicitly stated)
+
+**Output Format**: Architecture document (markdown) + token math spreadsheet (CSV).
+
 ## Output Format
 Deliver as an architecture document with:
 - Complete tool inventory with usage frequency and schema sizes

@@ -114,6 +114,41 @@ Score each deliverable:
 - [ ] Does the final communication pass the Churchill Test (co-conspirator, not suspect)?
 - [ ] Was the Second Try Protocol designed for high-stakes communications?
 
+## Output Schema
+
+**Primary Deliverables**:
+1. **Accusatorial Audit Report** (500-800 words)
+   - Format: Line-by-line diagnosis of current communication
+   - Components: Power Language Scan (flags for imperative/threat/distancing/shame language), Boss Test score (1-10), Emotional Aftermath Prediction per element
+   - Delivers: Annotated original communication with accusatorial score for each major section, predicted emotional responses
+
+2. **Churchill Conversion Map** (400-600 words)
+   - Format: 5 conversion techniques applied to identified problems
+   - Each technique: Original statement → Rewritten version → Mechanism explanation
+   - Techniques: Co-Conspirator Move, Implied Assumption, Shared Problem Frame, Compliment Sandwich Upgrade, Opt-In Frame
+
+3. **Departure Lounge Bonus Design** (200-400 words)
+   - Format: Unexpected positive gesture specification
+   - Components: Gesture description (must be tangible, unexpected, slightly personal), Disproportionate Loyalty Engineering rationale, deployment timing
+
+4. **Deployment-Ready Reframes** (documented as BEFORE/AFTER pairs for each communication type)
+   - Format: Side-by-side comparison table
+   - Covers: Customer policy change, price increase, service recovery, team feedback, sales objection, CTA copy, policy enforcement
+   - Each entry: Original → Rewritten → Technique used → Expected emotional outcome
+
+5. **Compliance-Without-Confrontation Scorecard** (full document with all reframes rated)
+   - Format: Structured evaluation table
+   - Columns: Original Line → Accusatorial Score (1-10) → Rewritten Line → Conspiratorial Score (1-10) → Technique Used
+   - Final section: Churchill Test verification for each communication
+
+**Quality Checklist**:
+- [ ] ALL accusatorial elements identified (not just obvious ones)?
+- [ ] Every rewrite achieves same behavioral outcome without accusatorial tone?
+- [ ] At least one unexpected positive gesture included with deployment strategy?
+- [ ] Final communication passes Churchill Test (reads as co-conspirator, not accuser)?
+- [ ] Second Try Protocol designed for high-stakes communications?
+- [ ] Conspiratorial Score ≥ 7/10 for all reframed communications?
+
 ## Cross-Expert Stacking
 - **→ Joanna Wiebe** (`/persuasion-copy`): Apply the 5-Level Persuasion Hierarchy to the reframed copy.
 - **→ Kallaway** (`/bankshot-suggestion-engine`): Transform direct behavioral requests into indirect suggestion sequences.

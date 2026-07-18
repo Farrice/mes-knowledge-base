@@ -106,6 +106,40 @@ Score each deliverable:
 - [ ] Is the experiment design truly the SMALLEST testable version (not a scaled-down version of the full initiative)?
 - [ ] Were kill criteria defined BEFORE the experiment starts (not after)?
 
+## Output Schema
+
+**Primary Deliverables**:
+1. **Door Classification Report** (400-600 words)
+   - Format: One-Way Door vs. Two-Way Door determination with supporting evidence
+   - Includes: Reversibility scores (1-5 for each of 5 questions), classification rationale, disguised-two-way-door diagnosis if applicable
+
+2. **Asymmetry Assessment Matrix** (documented as structured table + narrative)
+   - Format: Side-by-side upside/downside mapping with quantified asymmetry ratio
+   - Components: Revenue impact, customer impact, competitive impact, learning value (upside) vs. direct loss, opportunity cost, team cost, reputational cost (downside)
+   - Delivers: Asymmetry Ratio × (upside/downside) with interpretation (Below 3x, 3-10x, Above 10x band)
+
+3. **Debate Cost Calculator** (documented with specific dollar amounts)
+   - Format: Meeting math + opportunity cost calculation + rationality trap diagnosis
+   - Outputs: Total cost of debate to date ($X), experiment cost ($Y), comparison statement ("We're spending more arguing than testing")
+   - Includes: Opportunity cost of delay per month, market window assessment
+
+4. **Experiment Design Blueprint** (500-800 words)
+   - Format: Minimum viable experiment specification with kill/success/scale criteria
+   - Components: Smallest testable version description, kill criteria, success criteria, scale signal threshold, 30/60/90-day timeline, fat-tail protection check
+   - Includes: Metrics table (Primary KPI, Secondary KPI with Kill/Minimum Success/Scale Signal thresholds)
+
+5. **Portfolio View Audit** (1,000-1,500 words)
+   - Format: Comprehensive portfolio assessment with debate-to-experiment ratio and balance analysis
+   - Includes: All active initiatives classified (one-way or two-way), debate time % vs. experiment time %, portfolio balance (70% safe / 20% calculated / 10% moonshots recommendation)
+
+**Quality Checklist**:
+- [ ] Is the door classification supported by specific evidence, not intuition?
+- [ ] Are upside AND downside estimates honest (not inflated/deflated)?
+- [ ] Does debate cost produce a specific, concrete dollar figure?
+- [ ] Is the experiment truly minimal (not a scaled-down version of full initiative)?
+- [ ] Are kill criteria defined BEFORE the experiment (not retrospectively)?
+- [ ] Portfolio ratio clear with actionable recommendation?
+
 ## Cross-Expert Stacking
 - **→ Sharran Srivatsaa** (`/decision-map`): Run high-stakes one-way door decisions through Sharran's 4-step Decision Mapping Method.
 - **→ Danny Yeung** (`/velocity-constraint`): Identify whether the debate bottleneck is itself the constraint limiting business velocity.

@@ -93,6 +93,36 @@ Invoke `agents/master-copywriter/` (same save pattern):
 
 Output: `00-foundation/00-master-index.md`.
 
+## Output Schema
+
+**Inputs**: 
+- `_source/*.md` — Canonical inputs from Phase A
+- `_working/A1-reconciliation.md` — Conflict resolution table
+- `00-foundation/02-icp-master.md` — Early draft ICP from Phase A
+
+**Outputs**:
+- `00-foundation/01-brand-bible.md` — 9 sections (Spine, The Person, Voice signature, Visual direction, Founding Story, Non-Negotiables, Crystallized phrases, Enemies, Stage Evolution). ~3,500-4,500 words.
+- `00-foundation/02-icp-master.md` — Finalized ICP Master (umbrella + 3-5 psychographic profiles, each with want/need/obstacle/nemesis/Bridge Message/audience-state mapping)
+- `00-foundation/03-voice-document.md` — 4-8 named voice patterns (e.g., anaphora, frame-then-sharpen, hell-yes filter), each with 2-4 paired GOOD/BAD examples. ≥30 paired examples total, banned phrases list, compressed paragraph for AI paste-in. ~3,000-4,000 words.
+- `00-foundation/04-positioning-one-pager.md` — Single page (400-500 words): who we are, the enemy, the mechanic, the proof, the call.
+- `00-foundation/05-non-negotiables.md` — Founder's non-negotiables (verbatim from canonical) + "How To Use This Document" section + decision triage template + "Variations are sub-brands, not exceptions" clause.
+- `00-foundation/00-master-index.md` — Front-door doc with 12-row Hot Path table (common use cases → which doc to paste), 6-layer architecture overview, cross-references to every layer.
+
+**Purpose**: Lock the brand's spine (positioning, voice, ICP, non-negotiables). These 6 docs form the source-of-truth for all downstream work (visual, briefs, marketing, AI handoff).
+
+**Quality Gate Checkpoint**:
+- [ ] All 6 foundation docs exist
+- [ ] Brand Bible covers 9 sections (founding story may be PENDING — note explicitly)
+- [ ] Voice Document has ≥30 paired examples + named patterns
+- [ ] ICP Master has umbrella + 3 profiles (PROPOSED OK if founder approved)
+- [ ] Non-Negotiables is verbatim from canonical (not paraphrased)
+- [ ] Positioning One-Pager is ≤500 words
+- [ ] Master Index Hot Path table has ≥10 rows
+
+If any unchecked, halt and complete. Foundation drift in Phase B compounds across the rest of the build.
+
+---
+
 ## Quality gate (Phase B → C)
 
 Before advancing to Phase C:

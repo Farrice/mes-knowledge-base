@@ -95,6 +95,37 @@ Limit to top 5 highest-impact prescriptions. Prioritize perception gaps over dop
 - [ ] Prescriptions are specific, expert-grounded, and actionable?
 - [ ] Rewrite examples demonstrate the transformation (Before → After)?
 
+## Output Schema
+
+**Primary Deliverables**:
+1. **3-Lens Audit Scorecards** (one scorecard per lens + summary)
+   - Format: Structured pass/fail table for each lens (8 checks for Perception, 8 for Dopamine, 6 for Insight)
+   - Deliverable: Individual lens scores (5/8, 4/6, etc.), diagnosis of primary failure mode, confidence notes
+   - Includes: Notes column capturing specific observations for each failed check
+
+2. **Diagnosis Report** (500-800 words)
+   - Format: Root-cause analysis of copy failure
+   - Components: Primary failure mode identification (e.g., "Feature Dump" / "Interesting but flat" / "Smart but cold"), supporting evidence from three lenses, market/audience context for the failure
+   - Delivers: Single-sentence problem statement + explanation of why this failure pattern emerged
+
+3. **Rewrite Prescriptions** (top 5 highest-impact fixes, 200-400 words each)
+   - Format: Structured prescription per failed check
+   - Components per fix: Failed Check name → Expert source → Pattern/Framework to apply → Specific rewrite direction (2-3 sentences) → Before/After example showing the transformation
+   - Organized by: Impact (Perception fixes prioritized, then Dopamine, then Insight)
+
+4. **Implementation Roadmap** (documented as prioritized task list)
+   - Format: Step-by-step rewrite sequencing
+   - Includes: Phase 1 priorities (perception fixes), Phase 2 (dopamine architecture), Phase 3 (insight density refinement)
+   - Each phase includes: Estimated effort, impact score, pre-condition for next phase
+
+**Quality Checklist**:
+- [ ] All three lenses scored independently with specific check-by-check justification?
+- [ ] Primary failure mode clearly identified (not generic "needs improvement")?
+- [ ] Each prescription is specific and actionable (not advisory)?
+- [ ] Before/After examples demonstrate meaningful transformation?
+- [ ] Prescriptions ranked by impact on conversion (not effort to implement)?
+- [ ] Audit respects the hierarchy: Perception > Dopamine > Insight?
+
 ## Cross-Expert Stacking
 - **→ Georgi** (`/georgi-audit`): Deep-dive dopamine sequencing if Lens 2 reveals critical gaps.
 - **→ Iha** (`/insight-audit`): Full insight vector audit if Lens 3 reveals critical gaps.

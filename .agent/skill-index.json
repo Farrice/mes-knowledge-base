@@ -1754,7 +1754,7 @@
     "directory": "lara-acosta-linkedin-growth",
     "description": "Master-level B2B personal branding on LinkedIn. Execute the SLAY framework, the 8-word rehook architecture, and high-engagement narrative hacking.",
     "when_to_use": "",
-    "mtime": 1784322305.7473004,
+    "mtime": 1784341194.1510608,
     "slash": "/lara-acosta-linkedin-growth",
     "routing": "",
     "status": ""
@@ -3323,8 +3323,8 @@
     "name": "strength-conditioning-os",
     "directory": "strength-conditioning-os",
     "description": "CONDUCTOR hub for the strength-&-conditioning / fitness coaching package. Diagnoses a coaching need and routes it to the right lane \u2014 physiology & limiter diagnosis (Galpin), hypertrophy volume & programming (Israetel), technique & minimalist execution (Teo), nutrition & body composition (Aragon) \u2014 then composes across lanes into one integrated plan. Ships with an evidence-based field guide synthesizing 11 single-conversation experts.",
-    "when_to_use": "",
-    "mtime": 1784322305.7890396,
+    "when_to_use": "- **Hand off directly:** If the intake clearly points to one lane and the question is deep (e.g., \"how do I program a 12-week hypertrophy block?\"), load that lane's SKILL.md and genius.md, then execute the workflow. Do not try to answer from the hub.\n- **Compose across lanes:** If the intake reveals 2+ constraints (e.g., \"I'm stalled (training question) AND under-fueled (nutrition question) AND sleep-deprived (recovery question)\"), use workflow 02 to integrate. Sequence by which constraint gates the others.",
+    "mtime": 1784341890.2500958,
     "slash": "/strength-conditioning-os",
     "routing": "",
     "status": ""
@@ -3544,7 +3544,7 @@
     "directory": "voice-os",
     "description": "Always-on voice alignment spine \u2014 load before ANY writing task that carries Farrice's own name: LinkedIn posts, Substack/Parallax editions, Notes/Threads, emails, DMs, replies, memos, comments, docs, drafts, brand copy. Answers \"does this sound like me\" before craft ever runs. Owns a 4-mode fidelity dial (MIRROR/BLEND/STRETCH/OFF), the identity + voice-law floor, the banned-moves gate, and the felt-verdict calibration loop. Trigger words: voice, tone, style, sound like me, in my voice, my voice, does this sound like Farrice, voice check, voice pass, calibrate the voice, on-brand, personal voice, writing voice, ghostwrite my voice. Do NOT use for: client deliverables where Voice OS is explicitly OFF (Jen, Andrea, any client brand \u2014 their own voice docs govern), or for craft/structure work with no identity stakes (pure research synthesis, deterministic scripts).",
     "when_to_use": "",
-    "mtime": 1784322305.794719,
+    "mtime": 1784342046.564487,
     "slash": "/voice-os",
     "routing": "",
     "status": ""

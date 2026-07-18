@@ -84,4 +84,42 @@ A comprehensive **Alchemy Content & Relationship Engine Plan** including:
 5.  **The "Sutherland Signature"**: Is there at least one "Counter-Intuitive" insight that makes the reader stop and say, "I never thought of it that way"?
 
 
+## Output Schema
+
+**Primary Deliverables**:
+1. **Psychological Audit Report** (500-800 words)
+   - Format: Structured reframe of value proposition with 5+ evolutionary triggers identified
+   - Includes: Doorman Fallacy discoveries, hidden value functions, psychological reframe statement
+
+2. **Core Narrative Asset** (1,000-1,500 words)
+   - Format: Fully scripted "Discovery/Origin Story" or "How I Found This" narrative
+   - Structure: Problem (OLD perception) → Discovery moment → Solution (psychological reframe) → Proof
+
+3. **Viral Hook Library** (15+ hooks)
+   - Format: Platform-specific hooks organized by category
+   - Each hook: Single-line hook + 2-line elaboration + platform specificity note
+   - Categories: Counter-Intuitive Truth hooks, Negative Social Proof hooks, Costly Signal hooks
+
+4. **5 Anchor Content Pieces** (500-1,000 words each)
+   - Format: Ready-to-deploy psychological content assets
+   - Required: "Expensive Mistake" post, "Rich Person/Expert Secret" post, "Us vs. Them" post + 2 additional variants
+   - Structure: Psychological Reframe as headline → Old perception breakdown → New reality + CTA
+
+5. **4-Touch Relationship Sequence** (200-400 words per touch)
+   - Format: Cold outreach/nurture scripts (email or message templates)
+   - Sequence: Touch 1 (Unsolicited Insight) → Touch 2 (Relevant Artifact) → Touch 3 (Soft Status Inversion) → Touch 4 (Soft Close)
+   - Each touch: 0 ask / small value / peer positioning / conversational CTA
+
+6. **Engagement Architecture** (documented as checklist + examples)
+   - Format: Specific CTAs + response handlers for each content piece
+   - Includes: Binary choice templates, low-friction micro-actions, save-bait mechanisms
+
+**Quality Checklist**:
+- [ ] Does every narrative/copy piece contain a genuine psychological reframe (not just information)?
+- [ ] Are hooks platform-native (not cross-posted generic versions)?
+- [ ] Does the 4-touch sequence build trust through value-first positioning?
+- [ ] Does at least one hook/copy piece pass the Sutherland Status Test (would sharing make viewer look smarter)?
+- [ ] Are CTAs low-friction (binary choices over open-ended questions)?
+- [ ] Is the Doorman Fallacy clearly identified and protected in narrative?
+
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
