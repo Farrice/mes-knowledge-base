@@ -2,6 +2,17 @@
 
 The hub's genius is not physiology (the lanes own that). It is **diagnosis and composition** — knowing which expert owns a given failure, in what order constraints must be removed, and how to fuse four prescriptions into one plan a real human will follow. These patterns are lifted from the source coaching conversations (Ethier, Magness, Lieberman, Bikman) and the tracker/coaching-ops artifacts.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are diagnostic instincts, not a checklist to recite. The hub's craft is invisible triage — a receiving lane (or a client) should feel *correctly routed*, never watch the routing get narrated. If the output announces "Step 1: check stimulus, Step 2: check recovery, Step 3: check fuel" as a visible scorecard, that is the machinery showing, and it has failed. The test: would Galpin, Israetel, Teo, and Aragon each recognize this as a diagnosis one of their own peers would hand them — or as someone using S&C vocabulary (MEV, RIR, gears, macros) without the underlying triage logic? If it reads as vocabulary, rebuild it around the actual constraint.
+
+Specifically:
+- Do NOT prescribe a set count, exercise, macro target, or protocol from the hub itself. Diagnosis and composition are the hub's only jobs; a prescription belongs to the lane that owns it.
+- Do NOT list every constraint family checked as a visible audit trail ("stimulus: checked, recovery: checked, fuel: checked"). Run the interrogation silently, then state only the conclusion and the one or two lines of evidence that support it.
+- The hub's authority comes from naming the #1 constraint with real evidence (a training-age signal, a specific client input, a named field-guide expert) — not from citing every lane's framework to sound thorough. `CLAUDE.md`'s own standard applies here first: *"'Comprehensive' output = system failure regardless of score."*
+- When composing across lanes (`02-build-integrated-program`), resolve the contradiction — surplus vs. deficit, a conditioning block stealing recovery from the strength block — before the client ever sees it. Handing over four lane outputs stapled together is not integration; it is the failure this hub exists to prevent.
+- Polish is the tell here too: if the routing brief reads like a lab report instead of a coach's handoff note, it has drifted from a working diagnosis into a term paper. Keep it as terse as the evidence allows.
+
 ## Genius Patterns
 
 ### Pattern: Route by Constraint, Not by Symptom
@@ -17,11 +28,11 @@ The hub's genius is not physiology (the lanes own that). It is **diagnosis and c
 **Success Metric:** Visible/functional transformation from a small absolute gain, because it was concentrated rather than diluted across the whole body.
 
 ### Pattern: Fuel and Recovery Gate Adaptation
-**Execute:** When composing across lanes, sequence fuel and recovery *underneath* training. An under-fueled, under-recovered client cannot express a better program (Bikman: you can't burn fat while insulin keeps you on glucose; Lieberman/Magness: recovery is the substrate). If nutrition and recovery aren't handled, rank them first even when the client only asked about a program.
+**Execute:** When composing across lanes, sequence fuel and recovery *underneath* training. An under-fueled, under-recovered client cannot express a better program — Bikman's mechanism: "you can't burn fat while insulin keeps you burning glucose" (`references/field-guide.md`, Benjamin Bikman entry); Lieberman/Magness supply the recovery half. If nutrition and recovery aren't handled, rank them first even when the client only asked about a program.
 **Success Metric:** No integrated plan ships with a training demand that exceeds the client's fuel or recovery — the contradiction is caught in composition, not by the client in week three.
 
 ### Pattern: One Recovery Budget, Shared by All Lanes
-**Execute:** Treat total stress as a single account (Ethier: life stress is training stress). Every lane's demand — hypertrophy volume, conditioning intervals, rehab work — draws against the same budget. Sum the demands; if they exceed what the client can recover from, cut here. Hard intervals stacked on hard lifting is double-spending (Magness: intervals carry a real recovery cost that impairs the next session).
+**Execute:** Treat total stress as a single account (Ethier: life stress is training stress). Every lane's demand — hypertrophy volume, conditioning intervals, rehab work — draws against the same budget. Sum the demands; if they exceed what the client can recover from, cut here. Hard intervals stacked on hard lifting is double-spending — Magness's specificity warning applies directly: "the same 4×4 done identically forever stops adapting" (`references/field-guide.md`, Steve Magness entry) is the same failure to specify the variable that also hides an unbudgeted recovery cost.
 **Success Metric:** The plan's total demand fits inside the client's actual recovery ceiling with margin, so consistency is possible.
 
 ### Pattern: Effort Proximity, Not Just Set Count
@@ -33,7 +44,7 @@ The hub's genius is not physiology (the lanes own that). It is **diagnosis and c
 **Success Metric:** The client gets exercises matched to their body, not a borrowed template that develops them completely differently.
 
 ### Pattern: Compose to the Adherable Minimum
-**Execute:** After fusing the lanes, compress. Cut to the smallest plan that still removes the #1 constraint (Lieberman: activity must be rewarding/sustainable, not maximal; the biology defaults to rest). Name the non-skippable core. Complexity does not compound; consistency does.
+**Execute:** After fusing the lanes, compress. Cut to the smallest plan that still removes the #1 constraint — Lieberman's evolutionary frame is the license to do this honestly: "we evolved to be physically active when it was necessary or rewarding, and to rest whenever possible" (`references/field-guide.md`, Daniel Lieberman entry). Name the non-skippable core. Complexity does not compound; consistency does.
 **Success Metric:** The client can and does execute the plan for the months it takes — the elegant plan they abandon scores zero.
 
 ## Hidden Knowledge
@@ -62,34 +73,13 @@ The hub's genius is not physiology (the lanes own that). It is **diagnosis and c
 **Insight:** Magness: prescribing "do intervals" or "do 4×4" says nothing — pace, rest, and duration determine the adaptation, and the same session done identically forever stops adapting. Schoenfeld/Beardsley: "do more volume" is likewise empty without effort proximity. The hub's job is to force the vague prescription into a specified one by routing to the lane that owns the variable.
 **Deploy:** Treat any under-specified prescription as a routing trigger. "Add cardio" → Galpin (which energy system, what dose). "Add volume" → Israetel/Teo (how much, taken how close to failure). Never let a meaningless prescription reach the client.
 
-## Anti-Patterns (The Traps That Fail)
+## Anti-Patterns (Sourced)
 
-### Anti-Pattern: "Just Add Volume" Without Checking Recovery Ceiling
-**The Failure:** Prescribing more sets/reps/frequency without verifying the client's total recovery budget (sleep, nutrition, life stress, existing training load). Client exceeds MRV (maximum recoverable volume) and fatigue accumulates; adaptation stalls or reverses.
-**Source Quote (Israetel):** *"MRV is maximum recoverable volume — beyond it you accumulate more fatigue than you can recover. Volume past MRV is 'junk volume' — cost without return."* (`michael-israetel-hypertrophy/genius.md`, Pattern: Volume Landmarks & The Deload, 2026-07-01)
-**How to Avoid:** Sum total weekly demands across all lanes (training volume, conditioning, rehab work, life stress as training stress per Ethier). Check against the client's stated recovery baseline (sleep hours, stress level, nutrition stability). If any ceiling is breached, cut *before* adding. The coaching tracker logs recovery metrics — use them.
+The traps that most commonly break a routing or composition decision. Each is grounded in a lane's own genius.md or the field guide — read the source before assuming the paraphrase is the full picture.
 
-### Anti-Pattern: Prescribing High-Intensity Work When Recovery Substrate Is Missing
-**The Failure:** A client asks for "more intensity" (higher load, hard conditioning, intervals) while sleeping 5 hours, eating 1.2g protein/kg, or under chronic life stress. High-intensity work in a depleted state triggers sympathetic overflow; progress stalls and injury risk rises.
-**Source Quote (Galpin):** *"The stress bucket is full of non-specific hidden stressors (high-stress job, poor sleep, life load, high basal sympathetic drive), so even a little high-intensity training overflows it and the system fights back... before adding high-intensity volume, screen total life-stress load."* (`andy-galpin-training-intelligence/genius.md`, Hidden Knowledge: The Stress Bucket, 2026-07-01)
-**How to Avoid:** When intensity is requested, check Tier 1 constraints first (Helms's pyramid): energy balance and macros (esp. protein), sleep quantity and quality, life stress. If any is suboptimal, fix that *first* — often "intensity" is actually "I need more fuel and sleep," not a programming change. Route to Galpin or Aragon before touching load.
-
-### Anti-Pattern: Confusing Effort Proximity With Effort Feeling
-**The Failure:** Client reports "I'm working hard" or "it felt heavy," and the coach accepts that as proof of stimulating reps. In reality, the final 3–4 reps—the ones that actually drive adaptation—were not reached. Weeks pass with "hard" workouts producing no growth.
-**Source Quote (Teo):** *"Assume the trainee cannot accurately gauge true failure... trained individuals who 'knew' 100kg was a hard 10-rep set hit 20 reps: ~10 reps in reserve while convinced they were maxed."* (`eugene-teo-training/genius.md`, Pattern: Effort Miscalibration, 2026-07-01)
-**How to Avoid:** Do not accept subjective "it was hard" as proof. Use objective RIR anchoring: ~0–3 RIR for working sets. Calibrate at least once per phase by testing a set to true failure so the client *feels* where the real limit is. If the client can do 2+ additional reps after "finishing," the set was junk volume — log it, adjust next session.
-
-### Anti-Pattern: Treating Plateau as a Signal to Add More, Not Change the Variable
-**The Failure:** Client hits a plateau, and the coach's reflex is "add sets" or "up the frequency." Often the true issue is the body has adapted to the *specific* stimulus (same exercise, same rep range, same rest). Grinding the same thing harder often fails; changing the variable (rep range, exercise angle, rest period, intensity spectrum) succeeds.
-**Source Quote (Galpin):** *"When an intermediate reports 'nothing works,' suspect an exploit-rut before adding volume... Route to a lane that changes a variable (exercise selection, energy-system emphasis, phase) rather than intensifying the same one."* (`andy-galpin-training-intelligence/genius.md`, Insight: The Comfort of Competence, 2026-07-01)
-**How to Avoid:** At plateau, diagnose the limiter *first* (Galpin's interrogation: pattern, symptom, context). Is it neural adaptation (same stimulus too long)? Recovery (is sleep/fuel intact)? Structural (exercise doesn't fit their biomechanics, per Ethier's sternum angle)? Prescribe a variable change matched to the limiter, not just volume escalation.
-
-### Anti-Pattern: Handing a Time-Crunched Client a Bodybuilding Split
-**The Failure:** Client has 3–4 hours/week to train, and the coach prescribes a 5-day split or high-frequency program. Adherence collapses because the time commitment is unsustainable. The plan fails, not because it's "wrong," but because it exceeds the client's real availability.
-**Source Quote (Aragon):** *"Flexibility Maximization: never prescribe a plan you couldn't imagine the client following for a year. The plan has an explicit flexibility valve and passes the 'could they do this for 12 months?' test."* (`alan-aragon-nutrition/genius.md`, Pattern: Flexibility Maximization, 2026-07-01)
-**How to Avoid:** In the intake (Israetel's Needs Analysis), lock the weekly time budget *first*. Design inside that constraint. A full-body 2×/week (40–50 min/session) beats a 5-day split that lives on the client's excuse list. Sell the smallest dose that works; adherence over months beats theoretical optimization done once then abandoned.
-
-### Anti-Pattern: Ignoring the 70/30 Training Distribution (Ratio of High-Intensity to Moderate)
-**The Failure:** Coach prescribes 4–5 days of high-intensity work with minimal moderate-intensity baseline. Client accumulates fatigue, recovery fails, adaptation stalls. The high-intensity work meant to drive progress actually burns out the system.
-**Source Quote (Galpin):** *"Distribute ~70% of training volume at moderate intensity (Gear 1-2) and ~30% at high intensity (Gear 3-4). This ratio optimizes adaptation while minimizing overtraining... Deviate only when the event demands it, the individual has demonstrated exceptional recovery, or time-limited prep requires focused intervention."* (`andy-galpin-training-intelligence/genius.md`, Pattern: 70/30 Training Distribution, 2026-07-01)
-**How to Avoid:** Before finalizing the integrated program, audit the weekly intensity split. Calculate the percentage of sessions/volume at Gear 3-4 (high intensity). If it's >30%, cut some high-intensity sessions or dial intensity back on some to rebuild the base. The rule is not dogma—exceptional recovery or peaking allows deviation—but deviations must be *named explicitly* in the plan.
+- **"Just add volume" without checking the recovery ceiling first.** Israetel's landmark framework is explicit that more is not automatically better: "Volume past MRV is 'junk volume' — cost without return." (`michael-israetel-hypertrophy/genius.md`, Pattern: Volume Landmarks & The Deload; claude.ai export 2026-07-01.) Sum the weekly demand across every lane before prescribing another set.
+- **Adding high-intensity work onto a depleted recovery substrate.** Galpin's stress-bucket model names the failure directly: "even a little high-intensity training overflows it and the system fights back." (`andy-galpin-training-intelligence/genius.md`, Hidden Knowledge: The Stress Bucket; claude.ai export 2026-07-01.) Screen sleep, life stress, and nutrition before touching intensity.
+- **Accepting "it felt hard" as proof of a stimulating set.** Teo's controlled-testing data is the correction: "trained individuals who 'knew' 100kg was a hard 10-rep set hit 20 reps." (`eugene-teo-training/genius.md`, Pattern: Effort Miscalibration; claude.ai export 2026-07-01.) Route "training too easy" complaints to Teo's calibration, never to "add more sets."
+- **Treating a plateau as proof the plan failed and needs a full overhaul.** Aragon's reframe: a plateau is "the body doing its job" — homeostasis. (`alan-aragon-nutrition/genius.md`, Pattern: Staircases and Landings; claude.ai export 2026-07-01.) Diagnose inconsistent compliance vs. a genuine new equilibrium before rebuilding anything.
+- **Handing a time-crunched client (2–4 hrs/wk) a program they cannot sustain.** Aragon's adherence test is the guardrail: "Never prescribe a plan you couldn't imagine the client following for a year." (`alan-aragon-nutrition/genius.md`, Pattern: Flexibility Maximization; claude.ai export 2026-07-01.) Lock the weekly time budget in intake before designing anything.
+- **Stacking hard intervals on hard lifting without auditing the weekly intensity split.** Galpin's own ratio is the check: "Distribute ~70% of training volume at moderate intensity... and ~30% at high intensity." (`andy-galpin-training-intelligence/genius.md`, Pattern: 70/30 Training Distribution; claude.ai export 2026-07-01.) If high-intensity work exceeds roughly 30% of the week, cut before adding more.

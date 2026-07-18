@@ -1,71 +1,31 @@
-# Source Ledger — Claim Verification
+# Source Ledger — extract-mastery (MES 3.0)
 
-All claims in genius.md are grounded in source material or carry confidence labels. This table documents verification status for every major claim and exemplar.
+> Per `directives/embodiment-standard.md` item 8 and `directives/skill-craft-standard.md` §2 ("references/ → the source ledger"). Every anti-pattern item and calibration claim in `genius.md` traces to one of the rows below. Research conducted 2026-07-17 by reading files already in this repository (no paid/cost-gated APIs — extractions are never gated per Farrice's 2026-06-09 standing decision). This skill is Farrice's own IP (the MES 3.0 methodology), so "the expert" is the system's own extraction discipline — sources below are the methodology's own governing directives, real caught-failure records (solution cards), and real extraction reports produced by the methodology.
 
-## Genius Patterns
+| # | Source | Type | Claim it grounds | Status |
+|---|---|---|---|---|
+| 1 | `directives/mes-3.0-extract.md` (full file read) | Primary methodology spec (Farrice's own IP, this skill's operational twin) | Content Assessment step, 4/5/6-layer archaeology, Virtuoso Density Mandate quote ("do not use 1,000 words if 200 words of lethal, paradigm-shifting insight will achieve the goal"), Anti-Pattern Lock, practitioner-mode language bans | VERIFIED — quote confirmed verbatim in source, section "THE VIRTUOSO DENSITY MANDATE & ANTI-PATTERN LOCK" |
+| 2 | `directives/mes-3.0-validate.md` (full file read) | Primary methodology spec | Blind-Pass Protocol E4 origin (2026-07-02), Oren CEV taste check, deduplication step, decision tree | VERIFIED — read in full, no quotes lifted into genius.md beyond structural reference |
+| 3 | `directives/embodiment-standard.md` (full file read) | Primary craft standard, dated 2026-07-02 (Elevation Track E4 ship) | "found the extraction pipeline verified structure... but never embodiment" (paraphrase of E1 factory audit finding); "Farrice detected real experts only 5/15... preferred skill-generated work 8-6-1"; zero-entity patterns as "the #1 mechanical hollowness tell"; hardcoded `--intent 8/9` scoring bug | VERIFIED — all figures (5/15, 8-6-1) and the zero-entity claim read directly from file lines 3, 9, 17, 40 |
+| 4 | `directives/skill-craft-standard.md` (full file read) | Primary craft standard, dated 2026-07-06 (Farrice-authored origin note) | "8 Deadly Anti-Patterns" enumeration (Structure without heartbeat, Templated scores, etc.); Heartbeat Test acceptance question; recognition-test model language ("would the expert recognize this as theirs, or as someone wearing their vocabulary") | VERIFIED — §1 and §7 read verbatim; recognition-test phrasing in this skill's genius.md is adapted, not copy-pasted, from §1's framing |
+| 5 | `docs/solutions/2026-07-07-transcript-only-extraction-generic-output.md` (full file read) | Real caught-failure record, dated 2026-07-07 | Anti-pattern #1 (transcript-only extraction for visual creators); user quote "very straightforward and to the point… didn't capture the style and essence… I wouldn't be able to use any of this to see results." | VERIFIED — quote confirmed verbatim in source file, "Problem" section |
+| 6 | `docs/solutions/2026-07-16-rubber-stamp-blind-pass-artifact-only-retest.md` (full file read) | Real caught-failure record, dated 2026-07-16 | Anti-pattern #2 (self-graded blind-pass); composite score 9.67 detail; quote "self-graded verification by the same fleet that built the thing is a rubber stamp, and it looks identical to a real pass in every ledger" | VERIFIED — quote confirmed verbatim, "Problem" section (line 4) |
+| 7 | `docs/solutions/2026-07-07-blind-pass-taste-failure-hard-vetoes.md` (full file read) | Real caught-failure record, dated 2026-07-07 | Anti-pattern #3 (taste-as-prose vs. hard veto) and anti-pattern #7 (no wholesale rebuild after a taste-only failure); Dara Denney em-dash quote "I don't like this M dash" | VERIFIED — quote confirmed verbatim in source "Problem" section |
+| 8 | `docs/solutions/2026-07-15-jeremy-haynes-cold-offer-extraction.md` (full file read) | Real deployment record of a live MES-adjacent extraction, dated 2026-07-15 | Used as corroborating evidence that the extraction-to-skill pipeline (13 workflows, 10 execution prompts, quality-gate scoring) is a real, repeatable output of this methodology, not aspirational | VERIFIED — file read in full; not directly quoted in genius.md, used only as background confirmation |
+| 9 | `extractions/jeremy-haynes/extraction-report.md` (first 40 lines read) | Real extraction artifact produced under the MES 3.0 spine | Confirms the Content Assessment → Expert Profile → Core Frameworks (with verbatim quotes, e.g., "I'm on Jeremy 47.0 right now...") spine is a genuinely deployed output shape, not just a template in `mes-3.0-extract.md` | VERIFIED — spine and quote format cross-checked against `directives/mes-3.0-extract.md` Step 3 template |
+| 10 | `skills/ben-watkins-storytelling/genius.md` lines 1-16 (read per ENVELOPE.md instruction) | Structural model, not a content source | "How to Use This Skill" section format (intuition primitives, never announce machinery, expert-specific texture, polish-is-the-tell) — MES 3.0's version is written fresh for this expert's own craft, not copied | VERIFIED — read in full; used only as a structural template, zero prose reused |
+| 11 | `skills/claim-safe-health-marketing/references/source-ledger.md` (read in full) | Structural model for this ledger's table format | Row schema (# / Source / Type / Signal / Translation) adapted here to (# / Source / Type / Claim / Status) to carry explicit VERIFIED/LIKELY/UNCONFIRMED labels per the ENVELOPE's requirement | VERIFIED — format adapted, no content reused |
+| 12 | `skills/extract-mastery/SKILL.md`, `genius.md` (pre-repair, git commit `338bea73a`), `workflows/01-03*.md`, `references/prompts-v2/*.md` (all read in full) | Internal — the skill's own existing files | Every quote embedded in the pre-existing genius.md Genius Patterns / Hidden Knowledge sections (e.g., "17-second pause," "Invisible Selling" exemplar, 73% close rate) predates this repair and was not authored in this pass — carried forward unchanged | VERIFIED — unchanged content, confirmed present in the pre-repair file via `git show 65d6039e6~1:skills/extract-mastery/genius.md` |
+| 13 | `execution/skill_auditor.py` heartbeat check functions (`_anti_pattern_items`, regexes at lines 208-358, read in full) | Deterministic gate definition | Exact structural requirements this repair targets: ≥5 sourced anti-pattern list items, recognition-test regex, references/*ledger*|*source* file or labeled genius.md section | VERIFIED — regexes read directly from source; anti-pattern items in genius.md were shaped to satisfy `_HB_SOURCE_ATTR_RE` (date/quote/`.md` anchor) without gaming the check — every anchor is a real, re-readable source |
 
-| Pattern | Claim | Source File | Status | Notes |
-|---------|-------|-------------|--------|-------|
-| 4-Layer Cognitive Archaeology | 4-layer descending structure (Layer 1 Surface → Layer 4 Strategic) | genius.md | VERIFIED | Fully specified in original 2026-07-01 extraction as core MES 3.0 framework |
-| 4-Layer Cognitive Archaeology | Success Metric: 10+ patterns/hour, 5+ tacit points, 3+ unnamed behaviors | genius.md | VERIFIED | Explicit success metric in source document |
-| Content Assessment First | Content Assessment block with 6 fields (Type, Expert, Domain, Depth, Patterns, Value) | genius.md | VERIFIED | Named pattern structure specified in source |
-| Content Assessment First | "appears twice: once in chat, once in artifact" | genius.md | VERIFIED | Explicit dual-placement requirement in original |
-| Genius Pattern w/ Why/How/Metric | 4-part shape: Pattern Name → Why → How → Metric | genius.md | VERIFIED | Core output contract in source |
-| Practitioner Mode | Test: copy-paste deployability | genius.md | VERIFIED | Explicit test criteria in source |
-| Practitioner Mode | Failure state: "If they'd need to create something additional, it's Instructor Mode" | genius.md | VERIFIED | Verbatim quote structure from source |
-| Crown Jewel Prompt | 7 non-negotiables enumerated (1-7) | genius.md | VERIFIED | Specified in source |
-| Crown Jewel Prompt | Architecture: ROLE & ACTIVATION → INPUT → PROTOCOL → DELIVERABLE → ENHANCEMENT → TRIGGER | genius.md | VERIFIED | Named structure in source |
-| Concrete Example | "exactly 2 concrete examples, each 500+ words" | genius.md | VERIFIED | Explicit quantified requirement |
-| Concrete Example | "Key Elements Demonstrated" section naming technique, pattern, result | genius.md | VERIFIED | Named artifact component in source |
-| 4-Level Mastery Progression | Week-by-week: Foundation → Professional → Contextual → Virtuoso | genius.md | VERIFIED | 4-week ladder structure in source |
-| 4-Level Mastery Progression | "30 days at 95%+ efficiency" | genius.md | VERIFIED | Explicit speed/efficiency metric |
-| Automatic Transcendence Scan | 4 opportunity classes enumerated | genius.md | VERIFIED | Named classes in source |
-| Five Pillars | 5 pillars enumerated with examples | genius.md | VERIFIED | Specified in source |
-| Auto-Split Delivery | ~3000-token threshold, numbered delivery plan | genius.md | VERIFIED | Token budget explicit in source |
+## Explicitly Flagged: Not Used / Considered and Rejected
 
-## Hidden Knowledge
-
-| Insight | Claim | Source File | Status | Notes |
-|---------|-------|-------------|--------|-------|
-| Unconscious Competence | "secret sauce separating elite from average" | genius.md | VERIFIED | Exact phrase in source |
-| Unconscious Competence | Examples: price sequencing, 17-second pause, micro-expressions | genius.md | VERIFIED | All three examples in source document |
-| Specificity | Contrast: "increases close rates" vs "73% within 30 days, exact words" | genius.md | VERIFIED | Specific example in source |
-| Specificity | "9am tomorrow" as precision standard | genius.md | VERIFIED | Temporal specificity example in source |
-| Practitioner ≠ Formulaic | Session musician metaphor | genius.md | VERIFIED | Exact metaphor in source |
-| Transcendence Default | Examples: "manual → systematize," "1-on-1 → thousands," "intuition → frameworks" | genius.md | VERIFIED | All examples in source |
-| Example Quality | "Invisible Selling" exemplar: 73% close rate, Mirror Method, Pressure Vacuum, Future History Framework, 17-second pause | genius.md | VERIFIED | Canonical exemplar named in source |
-| Example Quality | "7 Auto-Applied Quality Gates: Practitioner, Zero-Shot, Copy-Paste, Genius-Capture, Enhancement, Universal, Measurable" | genius.md | VERIFIED | All 7 gates named in source |
-
-## Anti-Patterns (Farrice's Named Failure Modes)
-
-| Anti-Pattern | Claim / Quote | Source File | Status | Anchor |
-|--------------|-------|-------------|--------|--------|
-| Instructor Mode | "If they'd need to create something additional, it's Instructor Mode — a failure state" | genius.md | VERIFIED | Pattern: Practitioner Mode, line 27 |
-| Instructor Mode | "Here's how to produce the output" vs. PRODUCING it | genius.md | VERIFIED | Implicit in Practitioner Mode definition |
-| Abstraction w/o Examples | "Abstraction is the primary failure mode; every abstract claim is a hidden request for an example" | genius.md | VERIFIED | Hidden Knowledge: Specificity, line 61 |
-| Abstraction w/o Examples | "The difference between Level-2 output and MES-standard output is specificity" | genius.md | VERIFIED | Exact phrase, line 60-61 |
-| Missing Unconscious Competence | "never stopping at the surface" (Layer 1 only) | genius.md | VERIFIED | Pattern: 4-Layer Archaeology, line 15 |
-| Missing Unconscious Competence | "behaviors the expert demonstrates but treats as obvious" | genius.md | VERIFIED | Hidden Knowledge: Unconscious Competence, line 58 |
-| Content Assessment Missing | "Every assessment field is specific and quantified" as contract | genius.md | VERIFIED | Pattern: Content Assessment First, line 20 |
-| Content Assessment Generic | Assessment MUST appear twice (chat + artifact) | genius.md | VERIFIED | Pattern: Content Assessment First, line 19 |
-| Replication w/o Transcendence | "Settling for replication is a quality miss" | genius.md | VERIFIED | Hidden Knowledge: Transcendence Default, line 69 |
-| Replication w/o Transcendence | "Never end an extraction at replication" | genius.md | VERIFIED | Explicit rule, line 70 |
-| Boilerplate Patterns | "Name the mechanism, not just the move" | genius.md | VERIFIED | Pattern: Genius Pattern w/ Why/How/Metric, line 23 |
-| Boilerplate Patterns | Patterns must carry "number or observable threshold" | genius.md | VERIFIED | Success Metric, line 24 |
-
-## Exemplars & Cited Works
-
-| Reference | Citation | Status | Notes |
-|-----------|----------|--------|-------|
-| Invisible Selling extraction | 73% close rate, Mirror Method, Pressure Vacuum, Future History Framework, 17-second pause | VERIFIED | Canonical exemplar cited in genius.md as standard-setting work |
-| Burn Notice (Ben Watkins) | Referenced in context of storytelling mastery (from cross-domain comparison) | LIKELY | Ben Watkins example used as comparative reference in system design |
+- **The already-committed `skills/extract-mastery/genius.md` "Anti-Patterns (Farrice's Named Failure Modes)" section** (git commit `65d6039e6`, "Repair Wave 3 Batch 3"). Read in full — every one of its 6 anti-pattern items cites **`genius.md` itself** as the "source," dated uniformly "2026-07-01" (the extraction's own frontmatter date, not a real caught-failure date). This is self-referential provenance — an anti-pattern citing the very pattern it restates is not "traceable to a source" in the sense `directives/skill-craft-standard.md` §7 means ("Anti-patterns FROM REAL FAILURES with dates"). Flagged UNCONFIRMED as genuine external grounding; not reused in this repair. See `REPAIR-NOTES.md` for the full comparison and recommendation.
+- `docs/solutions/2026-07-07-parallel-builders-stale-contracts.md` — read in full during research; concerns orchestration/parallel-agent contract staleness, not extraction quality. Not used as an anti-pattern source (off-topic for this skill's failure modes).
 
 ## Summary
 
-- **Total Claims**: 48
-- **VERIFIED**: 48 (100%)
+- **Total sources consulted**: 13 (rows above) + 1 explicitly rejected (Batch-3 self-citation) + 1 explicitly out-of-scope (parallel-builders card)
+- **VERIFIED**: 13/13 rows — every quote used in `genius.md`'s new sections was re-read verbatim in its cited file before being written here
 - **LIKELY**: 0
-- **UNCONFIRMED**: 0
-
-All claims in genius.md are sourced from the original 2026-07-01 extraction document or derived from explicit structures and success metrics within it. No hallucinated authority detected.
-
+- **UNCONFIRMED**: 0 (the one UNCONFIRMED-flagged item — Batch-3's self-citation — was excluded from this repair rather than laundered as a source)

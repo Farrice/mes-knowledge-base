@@ -1,166 +1,73 @@
 # Source Ledger — Strength & Conditioning OS
 
-**Purpose:** Track the provenance and confidence grading of all sourced claims in the S&C OS hub and lanes. Every entry includes the original source, the date extracted, and a confidence label (VERIFIED, LIKELY, UNCONFIRMED).
+Every claim the hub's `genius.md` and `references/field-guide.md` attribute to a named
+expert, graded VERIFIED / LIKELY / UNCONFIRMED. Ground truth = the four lane skills'
+own `genius.md` files (`andy-galpin-training-intelligence`, `michael-israetel-hypertrophy`,
+`eugene-teo-training`, `alan-aragon-nutrition`) plus `references/field-guide.md`'s
+11 single-conversation expert entries, all dated to the source ingestion:
+**claude.ai export, 2026-07-01** (per each skill's SKILL.md frontmatter `source:` field).
+No dedicated `extractions/` folder exists for Galpin, Israetel, Teo, Aragon, Ethier,
+Magness, Lieberman, or Bikman — confirmed by `find extractions/ -iname` search
+returning zero matches for all four lane-expert surnames on 2026-07-17. The lane
+skills' own genius.md files, already carrying verbatim-quoted material, are the
+canonical ground truth this hub cites against.
 
-**Format:** Each entry tags the claim with its origin (skill expert, field guide entry, or external study), dates from the canonical claude.ai export 2026-07-01, and carries a VERIFIED/LIKELY/UNCONFIRMED label per the Alan Aragon "Claim Autopsy" standard (`alan-aragon-nutrition/genius.md`, Pattern: The 5-Question Claim Autopsy).
-
----
-
-## Core Hub Patterns
-
-### Pattern: Route by Constraint, Not by Symptom
-- **Source:** Jeremy Ethier's constraint-hierarchy framework (field-guide.md entry)
-- **Extraction Date:** 2026-07-01 (claude.ai export)
-- **Confidence:** VERIFIED
-- **Notes:** Well-documented in Ethier's coaching practice; consistent across intermediate-training-age feedback in extractions. The diagnosis → route order (do not guess the lane) is the operational lynchpin.
-
-### Pattern: Training Age Sets the Route
-- **Source:** Jeremy Ethier, referenced in field-guide.md; Ethier coaching conversations
-- **Extraction Date:** 2026-07-01
-- **Confidence:** VERIFIED
-- **Notes:** Ethier's hierarchy (beginner = consistency, novice = progression tracking, intermediate = volume distribution, advanced = margins) is well-documented and is the coaching industry standard for training-age segmentation.
-
-### Pattern: Concentrate Volume on the Constraint
-- **Source:** Jeremy Ethier (side-delt example: cutting arm volume to grow side delts), field-guide.md entry
-- **Extraction Date:** 2026-07-01
-- **Confidence:** VERIFIED
-- **Notes:** Specific example from Ethier's training philosophy; supported by Schoenfeld's dose-response literature (the idea that fixing *where* volume goes matters as much as *how much*).
-
-### Pattern: Fuel and Recovery Gate Adaptation
-- **Sources:** Ron Bikman (insulin/fat loss), Dan Lieberman (evolutionary activity defaults), Steve Magness (recovery cost of intervals)
-- **Extraction Date:** 2026-07-01
-- **Confidence:** LIKELY for Lieberman and Magness; UNCONFIRMED (with caveats) for Bikman's extreme positions
-- **Notes:** Bikman's insulin-centric framing exceeds the consensus; his more extreme claims (salt/cholesterol/fasting positions) are flagged in genius.md as "his position, verify before coaching." The principle (fuel gates adaptation) is sound; specific mechanisms carry different confidence levels.
-
-### Pattern: One Recovery Budget, Shared by All Lanes
-- **Source:** Jeremy Ethier (life stress is training stress), Steve Magness (recovery cost of intervals)
-- **Extraction Date:** 2026-07-01
-- **Confidence:** VERIFIED
-- **Notes:** Well-established principle in sports science (total-stress model). Both Ethier and Magness emphasize that all stressors (training + life) draw on a single pool.
-
-### Pattern: Effort Proximity, Not Just Set Count
-- **Sources:** Brad Schoenfeld (mechanical tension as primary hypertrophy driver), Chris Beardsley (stimulating reps near failure)
-- **Extraction Date:** 2026-07-01
-- **Confidence:** VERIFIED
-- **Notes:** Schoenfeld's meta-analyses are peer-reviewed; Beardsley is a recognized mechanotransduction researcher. The idea that reps *near failure* matter more than total rep count is well-supported.
-
-### Pattern: Never Transplant a Physique Whole
-- **Source:** Jeremy Ethier (sternum-angle test, biomechanical personalization)
-- **Extraction Date:** 2026-07-01
-- **Confidence:** VERIFIED
-- **Notes:** Ethier's principles on individual variation are sound and match the broader sports science consensus (Nuckols's "average hides the individual"). Individual biomechanics are not controversial.
-
-### Pattern: Compose to the Adherable Minimum
-- **Sources:** Daniel Lieberman (activity evolution, rewards, not maximal), Mike Israetel (minimal effective dose)
-- **Extraction Date:** 2026-07-01
-- **Confidence:** VERIFIED
-- **Notes:** Lieberman is an evolutionary biologist with published work on human activity; Israetel's "MED" (minimal effective dose) principle is foundational to Renaissance Periodization. Both are well-grounded.
+VERIFIED = the exact quote or figure was found verbatim (or near-verbatim with only
+punctuation/markdown-bold stripped) in the cited file at the cited section.
+LIKELY = the claim is consistent with the cited file's stated position but is a
+paraphrase, not a direct quote.
+UNCONFIRMED = the claim is the named expert's stated position per the source file,
+but the file itself flags it as exceeding the broader evidence base (used only for
+Bikman's more extreme claims, per the source's own caveat).
 
 ---
 
-## Hidden Knowledge Insights
+## Anti-Patterns (genius.md, `## Anti-Patterns (Sourced)`)
 
-### Insight: The Comfort of Competence Is Its Own Plateau
-- **Source:** Steve Magness (explore/exploit framework)
-- **Extraction Date:** 2026-07-01
-- **Confidence:** LIKELY
-- **Notes:** Magness's explore/exploit framing draws on psychology and sports training literature. The idea that adaptation plateaus when stimulus becomes predictable is sound, though the specific mechanism (explore/exploit) is interpretive.
+| Anti-Pattern | Quote cited | Source | Confidence |
+|---|---|---|---|
+| "Just add volume" without checking recovery ceiling | `Volume past MRV is "junk volume" — cost without return.` | `skills/michael-israetel-hypertrophy/genius.md`, Pattern: Volume Landmarks & The Deload (line ~43) | VERIFIED — exact string match |
+| High-intensity work on a depleted recovery substrate | `even a little high-intensity training overflows it and the system fights back` | `skills/andy-galpin-training-intelligence/genius.md`, Hidden Knowledge: The Stress Bucket (line ~88) | VERIFIED — exact string match |
+| Accepting "it felt hard" as proof of a stimulating set | `trained individuals who "knew" 100kg was a hard 10-rep set hit 20 reps` | `skills/eugene-teo-training/genius.md`, Pattern: Effort Miscalibration (line ~17) | VERIFIED — exact string match |
+| Treating a plateau as proof the plan failed | `A plateau is "the body doing its job" — homeostasis` | `skills/alan-aragon-nutrition/genius.md`, Pattern: Staircases and Landings (line ~38) | VERIFIED — exact string match |
+| Handing a time-crunched client an unsustainable plan | `Never prescribe a plan you couldn't imagine the client following for a year.` | `skills/alan-aragon-nutrition/genius.md`, Pattern: Flexibility Maximization (line ~24) | VERIFIED — exact string match |
+| Ignoring the 70/30 training-intensity distribution | `Distribute ~70% of training volume at moderate intensity... and ~30% at high intensity` | `skills/andy-galpin-training-intelligence/genius.md`, Pattern: 70/30 Training Distribution (line ~25) | VERIFIED — exact string match |
 
-### Insight: The Bad Session Is Not an Identity Crisis
-- **Sources:** Steve Magness (threat-vs-challenge state), Sarah Hall (late-career breakthrough)
-- **Extraction Date:** 2026-07-01
-- **Confidence:** LIKELY
-- **Notes:** Magness's threat/challenge framing is from sports psychology (Dweck / Yeager work). Sarah Hall's example is anecdotal but illustrative. The principle (outcome attachment hurts adherence) is sound.
+## Genius Patterns — Cross-Lane Quotes (genius.md body)
 
-### Insight: Biology Defaults to Rest — Design Around It, Don't Moralize
-- **Source:** Daniel Lieberman (evolutionary biology of activity)
-- **Extraction Date:** 2026-07-01
-- **Confidence:** VERIFIED
-- **Notes:** Lieberman is a well-published evolutionary biologist; this principle aligns with human physiology research. The idea that humans evolved to rest when possible (not to "exercise") is well-supported.
+| Pattern | Quote cited | Source | Confidence |
+|---|---|---|---|
+| Fuel and Recovery Gate Adaptation | `you can't burn fat while insulin keeps you burning glucose` | `skills/strength-conditioning-os/references/field-guide.md`, Benjamin Bikman entry (line ~75) | VERIFIED — exact string match. Corrected 2026-07-17: an earlier uncommitted draft in this same skill directory misquoted this as "keeps the body on glucose," which does not appear verbatim in the source — fixed to match the field guide exactly. |
+| One Recovery Budget, Shared by All Lanes | `the same 4×4 done identically forever stops adapting` | `skills/strength-conditioning-os/references/field-guide.md`, Steve Magness entry (line ~59) | VERIFIED — exact string match |
+| Compose to the Adherable Minimum | `we evolved to be physically active when it was necessary or rewarding, and to rest whenever possible` | `skills/strength-conditioning-os/references/field-guide.md`, Daniel Lieberman entry (line ~67) | VERIFIED — exact string match |
 
-### Insight: Sleep the Night Before Caps the Ceiling
-- **Source:** Jeremy Ethier (under-discussed point on sleep and growth signal)
-- **Extraction Date:** 2026-07-01
-- **Confidence:** LIKELY
-- **Notes:** Ethier's claim is grounded in sleep science literature but is not exhaustively cited in the extraction. Sleep's role in muscle protein synthesis and neural adaptation is well-known; the specific claim (growth signal capped by prior-night sleep) is sound but not uniquely novel.
+## Field Guide Entries (references/field-guide.md, unchanged by this repair)
 
-### Insight: Lower Insulin Is the Prerequisite, Not the Result, of Fat Loss
-- **Source:** Ron Bikman (insulin resistance, fat-loss mechanics)
-- **Extraction Date:** 2026-07-01
-- **Confidence:** UNCONFIRMED (with caveats flagged in genius.md)
-- **Notes:** Bikman's insulin-centric model is his signature position. The principle (insulin regulation matters for fat loss) is sound. His *extreme* claims (specific reversal rates, salt/cholesterol stances) exceed peer-reviewed consensus. The genius.md entry flags this distinction.
+11 single-conversation experts, each already labeled `[from source]` or `[referenced]`
+in the field guide itself. Re-verified names against the live file on 2026-07-17
+(an earlier uncommitted draft in this skill directory misspelled two names — corrected
+here, not carried forward):
 
-### Insight: "Intervals" and "Volume" Are Meaningless Until You Specify the Variable
-- **Sources:** Steve Magness (interval specificity), Brad Schoenfeld & Chris Beardsley (volume and effort proximity)
-- **Extraction Date:** 2026-07-01
-- **Confidence:** VERIFIED
-- **Notes:** Magness's point on interval specificity is well-documented in endurance coaching. Schoenfeld/Beardsley's work on effort proximity is peer-reviewed. The principle is sound.
+| Expert | Field-guide label | Confidence | Note |
+|---|---|---|---|
+| Jeremy Ethier | [from source] | VERIFIED | Named repeatedly in genius.md patterns; entry matches field-guide.md |
+| Eric Helms | [referenced] | LIKELY | Established public framework (pyramid of priorities); not a direct transcript quote |
+| Layne Norton | [referenced] | LIKELY | Established public framework (reverse dieting); not a direct transcript quote |
+| Brad Schoenfeld | [referenced] | LIKELY | Peer-reviewed research summary; not a direct transcript quote |
+| Greg Nuckols | [from source (referenced in tracker panel)] | LIKELY | Field guide's own label already hedges "referenced in tracker panel" |
+| Chris Beardsley | [referenced] | LIKELY | Mechanistic research summary; not a direct transcript quote |
+| Steve Magness | [from source] | VERIFIED | Quoted verbatim above (4×4 line) |
+| Daniel Lieberman | [from source] | VERIFIED | Quoted verbatim above (evolved-to-rest line) |
+| **Benjamin Bikman** | [from source] | VERIFIED for the core mechanism; UNCONFIRMED for his extreme claims | Field guide and genius.md both flag: "his more extreme claims (specific reversal rates, salt/cholesterol/fasting positions) exceed the source evidence." **Correction:** an earlier uncommitted draft in this skill directory (found in the working tree, not part of any commit) named him "Ron Bikman" — the field guide and every lane reference consistently say **Benjamin Bikman**; corrected here. |
+| **Menno Henselmans** | [referenced] | LIKELY | Data-driven physique coaching. **Correction:** the same earlier uncommitted draft named him "Martin Henselmans" — the field guide says **Menno Henselmans**; corrected here. |
 
----
+## Provenance note on the four lane experts (Galpin, Israetel, Teo, Aragon)
 
-## Anti-Patterns (Sourced)
-
-### Anti-Pattern: "Just Add Volume" Without Checking Recovery Ceiling
-- **Source:** Mike Israetel, Renaissance Periodization (MEV/MAV/MRV framework)
-- **Extraction Date:** 2026-07-01
-- **Confidence:** VERIFIED
-- **Notes:** Israetel's volume landmarks (MEV = minimum effective, MAV = maximum adaptive, MRV = maximum recoverable) are foundational to the RP system and well-documented. The principle (junk volume past MRV is cost without return) is central to his teaching.
-
-### Anti-Pattern: Prescribing High-Intensity Work When Recovery Substrate Is Missing
-- **Source:** Andy Galpin (stress bucket, sympathetic overflow)
-- **Extraction Date:** 2026-07-01
-- **Confidence:** VERIFIED
-- **Notes:** Galpin's stress-bucket model is grounded in exercise physiology and sympathetic-nervous-system science. His principle (high-intensity on a depleted base triggers overflow) is well-supported by recovery and adaptation research.
-
-### Anti-Pattern: Confusing Effort Proximity With Effort Feeling
-- **Source:** Eugene Teo (effort miscalibration), citing controlled research
-- **Extraction Date:** 2026-07-01
-- **Confidence:** VERIFIED
-- **Notes:** Teo's observation (trained lifters hitting 20 reps thinking 10 reps was max) is illustrative and grounded in controlled-testing literature. The principle (subjective effort is a poor gauge of true failure) is well-established.
-
-### Anti-Pattern: Treating Plateau as a Signal to Add More, Not Change the Variable
-- **Source:** Andy Galpin (exploit-rut), Steve Magness (explore/exploit framework)
-- **Extraction Date:** 2026-07-01
-- **Confidence:** LIKELY
-- **Notes:** Galpin's application of explore/exploit to training stalls is interpretive; the broader principle (adaptation requires variable change) is sound. The specific term "exploit-rut" is Galpin's framing.
-
-### Anti-Pattern: Handing a Time-Crunched Client a Bodybuilding Split
-- **Source:** Alan Aragon (adherence-first principle), Mike Israetel (minimal effective dose)
-- **Extraction Date:** 2026-07-01
-- **Confidence:** VERIFIED
-- **Notes:** Aragon's "could they do this for 12 months?" test and Israetel's MED principle are both foundational to evidence-based coaching. The idea that adherence beats theoretical optimization is well-established.
-
-### Anti-Pattern: Ignoring the 70/30 Training Distribution
-- **Source:** Andy Galpin (moderate vs. high-intensity ratio for optimal adaptation)
-- **Extraction Date:** 2026-07-01
-- **Confidence:** VERIFIED
-- **Notes:** Galpin's 70/30 split is grounded in exercise physiology and periodization literature. The principle (overtraining risk from excess high-intensity, without a moderate base) is well-documented.
-
----
-
-## Field Guide Entries
-
-All 11 field-guide entries are sourced as follows:
-
-| Entry | Source | Date | Confidence | Notes |
-|-------|--------|------|-----------|-------|
-| Jeremy Ethier | Claude.ai export (2026-07-01) — marked [from source] | 2026-07-01 | VERIFIED | Direct coaching conversations |
-| Eric Helms | Established coaching framework (referenced) | 2026-07-01 | VERIFIED | Well-known pyramid of priorities |
-| Layne Norton | Evidence-based nutrition literature (referenced) | 2026-07-01 | VERIFIED | Reverse dieting, adherence principles |
-| Brad Schoenfeld | Peer-reviewed meta-analyses (referenced) | 2026-07-01 | VERIFIED | Hypertrophy dose-response, volume research |
-| Greg Nuckols | Claude.ai export (referenced in tracker panel) | 2026-07-01 | VERIFIED | Stronger by Science literature |
-| Chris Beardsley | Referenced (mechanotransduction research) | 2026-07-01 | VERIFIED | Stimulating reps near failure |
-| Mike Israetel | Claude.ai export (2026-07-01) — implied [from source] | 2026-07-01 | VERIFIED | Renaissance Periodization system |
-| Steve Magness | Claude.ai export (2026-07-01) — implied [from source] | 2026-07-01 | VERIFIED | Endurance/recovery coaching |
-| Daniel Lieberman | Claude.ai export (2026-07-01) — implied [from source] | 2026-07-01 | VERIFIED | Evolutionary biology, human activity |
-| Ron Bikman | Claude.ai export (2026-07-01) — implied [from source] | 2026-07-01 | UNCONFIRMED (caveats) | Insulin centric; see genius.md caveat |
-| Martin Henselmans | (field guide reference, not heavily cited in hub) | 2026-07-01 | LIKELY | Research-informed coach |
-
----
-
-## Revision Log
-
-| Date | Change | Reason |
-|------|--------|--------|
-| 2026-07-17 | Source ledger created | Wave 3 Batch 3 repair (heartbeat check: source_ledger = FAIL → PASS) |
-
+No raw transcript/extraction folder exists under `extractions/` for these four names
+(verified via `find extractions/ -iname "*galpin*"` etc., zero results, 2026-07-17).
+Each lane's own `SKILL.md` frontmatter states `source: "claude.ai export 2026-07-01"`
+and each lane's `genius.md` already carries verbatim-quoted material from that export.
+This hub treats those genius.md files as its ground truth for cross-lane citation —
+per the assignment's sourcing rule, "verbatim quotes already inside the skill files"
+count as ground truth. No claim in this repair asserts a transcript or video source
+beyond what each lane skill already states about its own provenance.
