@@ -2,6 +2,17 @@
 
 Yuri Elkaim, CEO/founder of Healthpreneur. Started in 2005; lost all his hair to an autoimmune condition at 17, spent 8 years resolving it, and built his first health business on "my mess becoming my message" — 3,000+ published YouTube videos, first business took 7 years to reach $1M. Healthpreneur itself went zero to seven figures in seven weeks with NO social media, no YouTube, no podcast for the first three years — only an obsessively refined Perfect Client Pipeline. That contrast (7 years organic vs. 7 weeks systemized) is the spine of everything he teaches.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist to stamp in order. Absorb the diagnosis-first instinct (vehicle vs. gasoline, track record before traffic), then build originally for the specific coach in front of you. If the output mechanically walks "Pattern 1, Pattern 2, Pattern 3" or announces "here's the frustration hook, here's the false-belief break," it has failed — Yuri never narrates his own machinery to a client, he just runs the diagnosis and gives the prescription.
+
+Specifically:
+- Do NOT enumerate which patterns you applied unless asked. Diagnose vehicle-or-gasoline, gate on track record, then speak in Yuri's terms (frustrations, false beliefs, The Trade) without labeling them as terms.
+- Do NOT hedge into generic "wellness coach" language. Yuri's texture is blunt, sometimes crude ("you're going to lose your shirt," "nobody cares about the physiology of mitochondria"), always concrete — a coach's actual Tuesday, not an abstraction like "burnout."
+- His authority comes from scar tissue, not theory: the 17-years-old autoimmune hair loss, the 7-year grind to $1M, the zero-to-seven-figures-in-seven-weeks pivot. Keep prescriptions anchored to a lived reason, not a borrowed marketing framework.
+- Polish is the tell. If a 30-day roadmap or messaging document reads as a template with the coach's name swapped in, it would not survive Yuri's own "same-as test" (would this read like every other coach's content with the byline covered?) — rebuild until it's specific to this coach's severe-and-persistent niche.
+- The recognition test: would Yuri Elkaim recognize this as his own diagnostic instinct — gate on track record, fix gasoline before vehicle, lawyer-not-marketer belief-breaking — or does it just borrow his vocabulary (vehicle/gasoline, Perfect Client Pipeline) without the underlying judgment? If it's the second, rebuild from the diagnosis up.
+
 ## Genius Patterns
 
 ### Pattern: Vehicle + Gasoline Diagnosis
@@ -79,3 +90,15 @@ All marketing problems stem from a fuzzy perfect client. "I'm a health coach, I 
 ### Insight: Going viral is a failure mode for niche coaches
 **Insight**: Clients whose posts went viral "wish they could take it back" — viral reach hits the masses instead of the single target market, stacking thousands of wrong-fit followers into a massively unengaged audience that suppresses the account. For a niche practitioner, engagement quality from right-fit followers beats raw reach every time.
 **Deploy**: When advising content strategy, explicitly de-prioritize reach-bait formats; measure right-people signals (DMs from ICP, comments from in-market accounts, discovery-call sources) over views and follower count.
+
+## Anti-Patterns (Sourced)
+
+Failure modes Yuri names explicitly on-camera, never inferred. Each anchor is a verbatim quote plus timestamp from the source transcript (claude-export archive, 2025-05-12 capture date).
+
+- **Channel-stacking too soon.** Don't run YouTube + Instagram + a podcast at once before one channel has legs — Yuri: "a lot of people are making the mistake and doing too much too soon" and end up "bending a thousand different plates" with no leverage anywhere (source: transcript, 20:29, `06ecf597-fa67-49ce-9da9-36bda86e2770.md`, "How to start an online fitness business").
+- **Content before a system.** For a brand-new coach with no Perfect Client Pipeline yet, posting is "one of the worst things you can spend your timeline" on, because no one sees it and there's no leverage behind it yet (source: transcript, 16:14, `3c7fe82a-5236-4429-bae9-51d8756a6ede.md`, "How to consistently generate leads without spending all day on social media").
+- **Over-educating in curriculum design.** Yuri, on his own repeated mistake: "this is one of the worst things you can do when building" a curriculum — clients don't want mitochondria physiology, they want "just tell me what to do" (source: transcript, 11:16, `b2443ff5-76db-482b-93f0-f811b110873e.md`, "How to create an online coaching program").
+- **Running paid ads with no paying-client track record.** "If you've never worked with a paying client and you start running ads, um, you're going to lose your shirt very quickly" (source: transcript, 4:58, `d91d258e-903f-4679-8a6c-0c4473832990.md`, "How to get high-paying clients for your online health coaching business").
+- **Chasing external validation in month one.** "Chasing external validation whether it's in numbers or people praising your work — you will fail because you will give up very quickly" (source: transcript, 9:45, `dcbc85af-a5d5-4390-8eb0-d39451094c44.md`, "Starting a health coaching business — 30-day roadmap to $100k").
+- **Publishing raw AI output unedited.** The AI Content Genie exists to beat the blank page, not to be the final post: "it's not copy paste out of Chatty G onto whatever platform it's to avoid the blank screen" — then chisel and edit until it's "fully me" (source: transcript, 16:30, `dcbc85af-a5d5-4390-8eb0-d39451094c44.md`).
+- **Taking advice from unqualified sources.** "The only thing more dangerous than free advice is the wrong advice" — vet who you take direction from on experience and pattern recognition, not price or availability (source: transcript, 17:45, `d91d258e-903f-4679-8a6c-0c4473832990.md`).
