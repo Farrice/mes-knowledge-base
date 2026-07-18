@@ -1,5 +1,17 @@
 # Matthew Volkwyn — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Volkwyn's entire teaching project is turning unconscious expert judgment into something a writer can run alone — but the *output* of that judgment never looks like a rubric stamped onto a page. If a draft shows up with "Hook: 9/10, Flow: 8/10, Close: 7/10, Voice: 8/10" typed at the top, or a hook that visibly announces "here's the dual-lens hook," the machinery has leaked and the work fails. The test: would Volkwyn recognize this as a piece of copy someone actually critiqued and rebuilt — or as someone reciting his framework back at him? If it reads like the second, rebuild it silent.
+
+Specifically:
+- Do NOT print the four-element scorecard, the three subconscious questions, or the close's name inside a deliverable unless the user explicitly asked for an audit report. Run the framework in your head; ship the copy.
+- Do NOT open a hook with a generic claim and hope specificity later saves it — Volkwyn's own example is the tell: "how to make money online" fails until it becomes "how this 16-year-old made $300 yesterday from his bed." Specificity (a number, an unlikely person, an unlikely place) has to be load-bearing in the first line, not bolted on.
+- His texture is a working coach talking into a camera, not a professor: plain declaratives, self-interruption ("let's put it this way"), numbers dropped in mid-sentence ($200K, 16 hours, 40%, 8/10), and a refusal to dress up a simple mechanic in academic language. Match that register — casual, systems-obsessed, allergic to fluff — not a textbook voice.
+- Polish is the tell-class failure here specifically because Volkwyn's own Generic Copy Test says so: copy that could run for any business has no voice. A draft that reads clean, correct, and interchangeable is not a Volkwyn-grade draft — it's exactly the AI-default failure mode he describes when a copywriter feeds AI no Voice Trinity. If the draft would still work handed to a competitor, it hasn't cleared his bar.
+
+---
+
 ## Genius Patterns
 
 ### Pattern: The Four-Element Self-Critique
@@ -69,3 +81,14 @@ Markets sophisticated: you can no longer "say Amazon in the headline," which add
 ### Insight: Learning Without an Exercise Is Entertainment
 **Insight**: Whenever you learn copy theory, you must extract a practicable exercise from the lesson or the theory never becomes skill — e.g., break down one good piece of copy section-by-section, or rewrite average hooks through the dual-lens filter. This exercise-extraction habit is how his students compound daily.
 **Deploy**: End every study session by writing the drill: "the exercise from this lesson is ___," then schedule the reps. Reverse-engineering proven copy piece-by-piece is the default drill when unsure.
+
+## Anti-Patterns
+
+Volkwyn names these failure modes directly against real copy — treat each as a hard stop, not a style preference. Sources: YouTube transcripts captured into claude.ai conversations (`_archive/claude-export-2026-07-01.tar.gz`, `claude-export/normalized/conversations/`), per-claim anchors in `references/source-ledger.md`.
+
+- **Bare-link closes**: "so few copyriters make an effort with the close. They build their headline, they build their lead, they work on the flow, and then it's kind of like click here." — *This Undefeated Formula Will Upgrade Your Copy Forever* (YouTube transcript captured 2025-12-16, conversation `322ccc3e-29b8-4b12-a56f-9f096fc1b6e6.md`). A close with no excitement transition is the single most common thing Volkwyn flags in review.
+- **One-lens hooks that ride on familiarity alone**: "how to make money online, that is emotionally compelling because people do want to make money online, but everybody says how to make money online... it might not necessarily be interesting because everybody makes that same statement." — same source, captured 2025-12-16. Emotional pull without fresh specificity reads as noise the reader has already dismissed.
+- **Submitting sub-8/10 work for review**: "I would not submit stuff until I feel like... it's an 8 out of 10." — same source, captured 2025-12-16. Submitting known-broken copy wastes the one resource (an outside perspective) self-critique can't replace.
+- **Copy any business could run**: "can I use this copy and use it for any business and it'll still work. If you can, then the copy is kind of generic." — same source, captured 2025-12-16. This is the Generic Copy Test as an anti-pattern statement — genericness is the failure, not a neutral default.
+- **Off-voice lines that break reader trust**: "if you break the magic and it becomes obvious that it's not them, then they don't trust you anymore... they won't read the emails." — same source, captured 2025-12-16. One line of wrong voice ends the relationship; there is no partial credit.
+- **Flooding a market with mass cold outreach and disposable copy**: "they all sent thousands and thousands of cold outreach emails... every single time a business owner hired an email copyriter they would disappoint. They would burn the email list. They would write bad copy. They would damage the brand." — *The Highest Paying Copywriting Project In The World* (YouTube transcript captured 2026-01-04, conversation `279b2893-89e5-49ca-a549-f389828f4f05.md`). Volume without the skill to back it is what collapsed entry-level email-copy demand industry-wide.
