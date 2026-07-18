@@ -64,30 +64,12 @@ Output: `_working/A3-discovery.md` — gap list with severity flags.
 
 ## Output Schema
 
-**Inputs**: 
-- Canonical docs (from `--source <path>` OR `--discovery` founder interview) 
-- Brand identity tokens (BRAND_NAME, FOUNDER_NAME, etc.)
+Phase A produces four artifacts, none of them client-facing — they exist to give Phase B a locked spine, not to be pasted anywhere:
 
-**Outputs**:
-- `_source/*.md` — Archived canonical input(s)
-- `_working/A1-reconciliation.md` — Conflict resolution table, spine resolution, canonical phrasings to lock
-- `_working/A3-discovery.md` — 8-dimension diagnostic (voice gaps, ICP gaps, mechanic vs metaphor confusion, etc.) with severity flags
-- `00-foundation/02-icp-master.md` — Early draft ICP Master (umbrella description + ≥1 LOCKED profile + ≥2 PROPOSED profiles)
-
-**Each profile includes**: Demographic, psychographic, language map (avoid/use words), Bridge Message (1 sentence), audience-state mapping (pre-contemplation / contemplation / preparation / action).
-
-**Purpose**: Establish canonical inputs, resolve upstream conflicts, surface gaps, and lock the ICP umbrella + primary profile before Foundation phase.
-
-**Quality Gate Checkpoint**: 
-- [ ] `_source/` has ≥1 canonical doc
-- [ ] `_working/A1-reconciliation.md` exists and resolves all conflicts (no UNRESOLVED flags)
-- [ ] `00-foundation/02-icp-master.md` early draft has umbrella + ≥1 LOCKED profile
-- [ ] `_working/A3-discovery.md` exists with gap list (gaps OK; missing diagnostic NOT OK)
-- [ ] Founder has reviewed PROPOSED ICP profiles (or accepted PROPOSED status to proceed in parallel)
-
-If any unchecked, halt and resolve. Do not advance to Phase B with unresolved conflicts — they compound.
-
----
+- **`_source/*.md`** — the canonical inputs, either copied verbatim (`--source` mode) or the synthesized `founder-anchor-v0.md` (`--discovery` mode). No paraphrasing on the way in; if a founder's own words get smoothed over here, every downstream doc inherits the drift.
+- **`_working/A1-reconciliation.md`** — a conflict table (prior framing vs. founder docs, one row per disagreement), a resolved unified spine, and a verbatim-use "Crystallized Phrases" list. Every conflict row needs an explicit Resolution — no UNRESOLVED rows survive Phase A.
+- **`00-foundation/02-icp-master.md` (early draft)** — umbrella description + Profile #1 LOCKED (filled from canonical) + Profiles #2/#3 marked PROPOSED if not yet founder-adjudicated.
+- **`_working/A3-discovery.md`** — the 8-dimension gap list with severity flags (voice patterns not yet named, ICP states not yet mapped, mechanic-vs-metaphor confusion, etc.). A populated gap list is expected output, not a defect — an empty one is the actual red flag, since it usually means the diagnostic wasn't run seriously.
 
 ## Quality gate (Phase A → B)
 

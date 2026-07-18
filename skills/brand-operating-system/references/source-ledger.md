@@ -1,126 +1,50 @@
-# Brand Operating System — Source Ledger
+# Source Ledger — brand-operating-system
 
-Verification status for all claims, patterns, and expert citations in the genius.md and SKILL.md.
-
----
-
-## Anti-Patterns Section (genius.md)
-
-### AP-1: Conflating "Brand" with "Logo + Tagline"
-
-**Expert Quote**: "Most brands get stuck at 'Seen' — they have a logo and exist, but haven't created emotional memory. The work is in engineering the 'Felt' transition through storytelling, world-building, and cultural embedding."
-
-- **Source**: Greg Hoffman, Former Global CMO Nike
-- **Location**: `extractions/brand-master/extraction-report.md`, GP-2: Seen → Felt → Proven (Brand Maturity Arc)
-- **Date**: Source extracted 2026-06-15
-- **Verification Status**: **VERIFIED** — Direct quote from interview transcript (Hoffman's framework documented across 12 distinct genius patterns in extraction report, corroborated by published "Emotion by Design")
-
-### AP-2: The "Versatile Voice" Trap
-
-**Expert Quote**: "I need to establish a question between myself and the audience that they have to get answered. When people describe your content to others, they reference your signature series by name. New followers arrive specifically for that series."
-
-- **Source**: Oren Klaff, Creative Strategist & Art Director
-- **Location**: `extractions/oren/oren-systems-extraction-report.md`, GP-7: Signature Series Strategy
-- **Date**: Source extracted 2026-05-20
-- **Verification Status**: **VERIFIED** — Oren's "Signature Series Strategy" is a named genius pattern in his 8-pattern extraction. The quote reflects his operating principle that *serialization creates recognition*.
-
-### AP-3: No Insight, No Story Worth Remembering
-
-**Expert Quote**: "Hoffman has a ruthless filter: if a story begins with an observation (obvious, self-evident), it dies. Only insights (hidden truths revealed) earn the right to become stories... Before creating any brand content, complete this chain: **Observation → Insight → Point of View → Medium → Market.** If you can't get past observation to genuine insight, stop."
-
-- **Source**: Greg Hoffman, Nike Brand Architecture
-- **Location**: `extractions/brand-master/extraction-report.md`, GP-3: No Insight, No Story Worth Remembering
-- **Date**: Source extracted 2026-06-15
-- **Verification Status**: **VERIFIED** — This is Hoffman's core insight framework. Grounded in Nike's storytelling discipline. The "Observation → Insight → POV → Medium → Market" chain is Hoffman's named methodology.
-
-### AP-4: ICP Becomes Demographic Soup Instead of Psychographic Precision
-
-**Expert Quote**: "Know the audience like a character... He gets to know a customer the way a screenwriter gets to know a character — pages of backstory, their **want, need, nemesis**, and what stands in their way."
-
-- **Source**: Ben Watkins, Showrunner & Pitch Coach
-- **Location**: `skills/ben-watkins-storytelling/genius.md`, Operating Principles #9: Know the Audience Like a Character
-- **Date**: Extracted from Watkins's "Anatomy of a Dream" interview (~19,000 words), genius compiled 2026-05-11
-- **Verification Status**: **VERIFIED** — Watkins's character-profiling methodology is his signature approach to audience understanding. This is his framework for moving beyond demographics to character-depth.
-
-### AP-5: Functional Purity Lost to Aesthetic Chasing
-
-**Expert Quote**: "Every iconic product (Air Force One, Levi's 501, Porsche 911) was born from ruthless functional excellence — not from trying to be cool. Coolness is a *consequence* of solving a problem better than anyone else."
-
-- **Source**: Greg Hoffman, Nike Product Architecture
-- **Location**: `extractions/brand-master/extraction-report.md`, GP-11: Functional Purity (The Anti-Cool-Chase)
-- **Date**: Source extracted 2026-06-15
-- **Verification Status**: **VERIFIED** — This is Hoffman's core positioning principle at Nike. The Air Force One example is his canonical proof case, used repeatedly in his teaching.
-
-### AP-6: AI Brain Master Bloat (Lost Compression Discipline)
-
-**Expert Quote**: "The compression itself IS the value, not the sin... The compression forces the foundation layer to sharpen... If you're past 3,200, cut content. If past 4,000, cut OR sharpen the foundation layer."
-
-- **Source**: Brand Operating System Architecture (Internal)
-- **Location**: `skills/brand-operating-system/genius.md`, "Why the AI Brain Master compression discipline"
-- **Date**: Documented from Resonance build (2026-05-04)
-- **Verification Status**: **VERIFIED** — This discipline was tested on Resonance (Andrea). Resonance Brand Bible is 4,000 words; AI Brain Master is 3,200 tokens. The 4,000-token hard ceiling is load-bearing architecture, not a guideline.
-
-### AP-7: Brief Inheritance Broken, Variations Multiply
-
-**Expert Quote**: "When the spine changes (a non-negotiable adds, the ICP narrows, a voice pattern retires), the master template updates once and every per-asset brief inherits the change. Without inheritance, you'd have to manually amend 9 briefs every time the foundation moves."
-
-- **Source**: Brand Operating System Architecture (Internal)
-- **Location**: `skills/brand-operating-system/genius.md`, "Why the master-creative-brief inheritance"
-- **Date**: Documented from Resonance build (2026-05-04)
-- **Verification Status**: **VERIFIED** — Master-brief-template inheritance is the core operational pattern in Phase D. Tested on Resonance's 9 per-asset briefs (IG post, email, flyer, venue pitch, press one-sheeter, etc.).
+Every source consulted for this repair pass, claim-by-claim, with confidence labels. `brand-operating-system` is a methodology skill (6-layer BOS architecture), not a single-person extraction — its ground truth is the skill's own shipped proof (the Resonance build for Andrea) plus the skill's existing SKILL.md/genius.md/workflow files. Labels: **VERIFIED** (I opened the file and the claim/quote is exactly there) / **LIKELY** (internally consistent with a source I read, not independently cross-checked outside this repo) / **UNCONFIRMED** (could not locate verbatim; not used as an anchor).
 
 ---
 
-## Core Architectural Claims
+## Primary sources (read in full, quotes checked verbatim)
 
-### 6-Layer Architecture
+| # | Source | What it grounds | Label |
+|---|---|---|---|
+| 1 | `skills/brand-operating-system/SKILL.md` (git HEAD) | Skill scope, 6-layer output tree, 7-phase table, existing anti-patterns list | VERIFIED |
+| 2 | `skills/brand-operating-system/genius.md` (git HEAD, pre-repair) | Baseline for all genius.md additions — architecture rationale, phase sequencing, `_working/` rationale | VERIFIED |
+| 3 | `skills/brand-operating-system/workflows/01-discover.md` … `07-wrap.md` (git HEAD, all 7) | Baseline for every new Output Schema section — restates only what the Steps sections already document, formalized | VERIFIED |
+| 4 | `projects/andrea-dj/brand-operating-system/_working/G1-adversarial-review.md` | All 5 dated/quoted anti-pattern items in genius.md's new "Anti-Patterns — Caught in the Field" section (Fixes 1-5, Axis scores, survival tests) | VERIFIED — every quote below was matched character-for-character against this file |
+| 5 | `projects/andrea-dj/brand-operating-system/_working/A1-reconciliation.md` | 6th anti-pattern item (Section 3, conflict #6 — "the couple is residue" vs. "we count the couples") | VERIFIED |
+| 6 | `projects/andrea-dj/CLAUDE.md` | Confirms Resonance is the live, canonical, currently-operated BOS instance (not archived) | VERIFIED |
+| 7 | `projects/andrea-dj/brand-operating-system/` directory listing (43 files, `find` output) | Confirms the "43 markdown documents" claim already in SKILL.md is accurate to the actual shipped tree | VERIFIED |
+| 8 | `execution/skill_auditor.py` (`_anti_pattern_items`, `_HB_SOURCE_ATTR_RE`, `_HB_RECOG_RE`, `_HB_OUTPUT_SCHEMA_RE`, `_sections_zero_entity`) | The exact check logic this repair targets — read to confirm every fix actually satisfies the auditor's regexes, not just "looks right" | VERIFIED (also re-implemented locally and dry-ran against the repaired files before finalizing) |
+| 9 | `skills/ben-watkins-storytelling/genius.md`, lines 1-30 | Style model for the new "How to Use This Skill (Model Calibration)" section, per ENVELOPE instruction — structure adapted, no text copied | VERIFIED |
 
-**Claim**: The 6 layers are dictated by reader-type and consumption pattern, not arbitrary subdivision.
+## Quote-by-quote verification (the 6 sourced anti-pattern items in genius.md)
 
-- **Status**: **VERIFIED** — See genius.md section "Why 6 layers, not 4 or 8." Each layer exists because it's consumed by a different professional (copywriter reads Foundation; designer reads Visual; brief-operator reads Briefs; marketing-executor reads Marketing; AI-tool-user reads AI Handoff; ops-manager reads Ops). Collapsing any two forces readers to scan for their content.
+| Quote used | Exact match found in | Label |
+|---|---|---|
+| "every paste-in session would have hit broken paths" | `G1-adversarial-review.md`, Axis 4 | VERIFIED |
+| Brand Bible §1 em-dash count / voice rule ≤2 | `G1-adversarial-review.md`, Axis 3 / Fix 2 | VERIFIED |
+| "Sponsor decision template is abstract — doesn't anticipate the most likely real offer (wellness-aligned brand, $5K-10K product placement + 30-second stage acknowledgment)" | `G1-adversarial-review.md`, Fix 3 | VERIFIED |
+| "Brand Bible §1 cites legacy `01-pulse-brand.md` while AI Brain Master bans the term 'Pulse.'" | `G1-adversarial-review.md`, Axis 2 / Fix 4 | VERIFIED |
+| "if a photo could have been taken at 11pm, it fails" | `G1-adversarial-review.md`, Axis 1 (also appears in SKILL.md and original genius.md, all consistent) | VERIFIED |
+| "the experience is the point; the couple is the residue" / "We count the couples, not the followers." | `A1-reconciliation.md`, Section 3, conflict #6 | VERIFIED |
 
-### Phase Sequence is Load-Bearing
+## Sources surveyed for this skill but NOT incorporated (scoping decision, recorded for auditability)
 
-**Claim**: Phases A → B → C → D → E → F → G must run sequentially. Parallelism breaks the system.
+The dispatch note for this repair flagged `extractions/` files matching "oren" and "brand" as possible grounding. I read all of the following and made a deliberate decision not to use them as anchors in the final genius.md, for the reason stated:
 
-- **Status**: **VERIFIED** — See genius.md section "Why the 7-phase orchestration order." Each phase's output is an input to the next. B needs A (ICP locked). C needs B (visual flow from positioning). D needs B+C (briefs inherit both). This was tested on Resonance and captured in workflow gates (quality-gate sections in each workflow file).
+| Source | Why surveyed | Why not used |
+|---|---|---|
+| `extractions/oren/extraction-report.md`, `oren-systems-extraction-report.md`, `extraction-report-repositioning.md`, `transcript.txt` | Candidate "brand" expert grounding | The extraction identifies this creator only as "Oren" — first name only, no surname anywhere in the file or transcript (confirmed via `grep -ril "klaff" extractions/` returning zero hits). His domain (luxury purchase psychology, operational systems for creative freelancers) is real and well-documented but does not overlap with the BOS's specific 6-layer documentation architecture — force-fitting a citation here would be a manufactured connection, not a genuine one |
+| `extractions/oren-1person-ai-marketing/` | Same creator, different video | Same reasoning — different domain (1-person AI marketing ops), not BOS architecture |
+| `extractions/oren-identity-brand-os/reference-corpus/the-7-levels-of-brand-building.md` (source: youtube.com/watch?v=UBDpGwdkiz4, "orenmeetsworld" channel, published 2025-09-23) | Titled "brand building" — closest surface match to this skill's name | Describes a 7-*stage* commerce-brand growth ladder (channel-finding → foundation → multiplier → crossover → secret sauce → scale → staying interesting) — a business-maturity framework, not a documentation-layer architecture. Distinct from this skill's 6 *layers* (Foundation/Visual/Briefs/Marketing/AI-Handoff/Ops). Citing it as "the source of the 6-layer structure" would be false — the 6-layer structure comes from the Resonance build itself (see primary sources above) |
+| `extractions/oren-identity-brand-os/reference-corpus/creatives-guide-to-personal-branding.md`, `blind-pass-log.md`, `blind-pass-candidate-driver-diagnostic.md` | Same creator/skill cluster | Personal-branding/creative-career domain, not BOS-relevant |
+| `extractions/oren-john-identity-marketing/` (mastery-extraction.md, source-transcript.md, companion-brand-archetypes.md, companion-stussy-art-direction.md, vision.md, arsenal-map.md) | Name overlap ("identity", "brand") | Different extraction subject (brand archetypes / streetwear art direction) — not consulted for BOS methodology; not read in full for this pass, flagging as UNCONFIRMED relevance rather than claiming review |
+| `extractions/brand-master/extraction-report.md` (Greg Hoffman, former Nike Global CMO, "Emotion by Design") | Named, credentialed brand expert — real person, verifiable public figure | Read in full; genuinely strong material (Seen→Felt→Proven, Overground/On-the-Ground/Underground). Not used as an anchor in genius.md because none of its patterns map onto the specific checks this repair targets, and forcing a citation in to "look sourced" would be exactly the padding this repair is supposed to avoid. Flagged here so a future amender knows it was read and is available for a real (non-forced) synthesis pass |
+| `extractions/BitBranding/transcript.txt` | Name match ("brand") | Skimmed; not brand-architecture-relevant to this skill's scope (BitBranding covers a different niche) — not used |
 
-### AI Brain Master Compression as Health Signal
+**Labeling note on the surveyed-but-unused row for Greg Hoffman**: the biographical claims in `extractions/brand-master/extraction-report.md` ("Former Global CMO, Nike," "27 years," authored "Emotion by Design") are LIKELY — consistent with the extraction file's own stated sourcing (a 505 Podcast Ep. 197 transcript) but not independently web-verified in this session, and not relied upon anywhere in the shipped repair.
 
-**Claim**: If AI Brain Master exceeds 4,000 tokens, the Foundation layer is bloated.
+## UNCONFIRMED (explicitly not used as anchors anywhere in this repair)
 
-- **Status**: **VERIFIED** — Tested on Resonance. Initial draft hit 4,800 tokens; amender sharpened Foundation docs and brought it to 3,200 without losing content, just by cutting redundancy. Token ceiling is the immune system signal that Foundation needs review.
-
----
-
-## Expert Extractions (Cross-Checked)
-
-| Expert | Extraction Report | Date | Status |
-|--------|------------------|------|--------|
-| Greg Hoffman | `extractions/brand-master/extraction-report.md` | 2026-06-15 | VERIFIED — 12 genius patterns, 8 hidden knowledge, 60,000+ word interview transcript |
-| Oren Klaff | `extractions/oren/oren-systems-extraction-report.md` | 2026-05-20 | VERIFIED — 8 genius patterns, 6 hidden knowledge, 25-min YouTube video ("11 Ways to Get Your Life Together") |
-| Grace Andrews | `extractions/grace-andrews/extraction-report.md` | Date TBD | VERIFIED — 12 genius patterns, 8 hidden knowledge, DOAC media company case study |
-| Ben Watkins | `skills/ben-watkins-storytelling/genius.md` | 2026-05-11 | VERIFIED — 9 operating principles, 4 hidden knowledge, ~19,000 word "Anatomy of a Dream" interview transcript |
-
----
-
-## References (All Verified Against Source)
-
-- **Resonance Build Reference**: `projects/andrea-dj/brand-operating-system/` — 43 markdown files, shipped 2026-05-04, composite score 8.3/10 (adversarial 7.6/10, prose-doctor PASS)
-- **Oren Klaff Systems Extraction**: `extractions/oren/oren-systems-extraction-report.md` — YouTube "11 Ways to Get Your Life Together," watched 2026-05-20
-- **Greg Hoffman Mastery Extraction**: `extractions/brand-master/extraction-report.md` — 505 Podcast Ep. 197, ~60 min, 20,491 words
-- **Ben Watkins Storytelling Mastery**: `skills/ben-watkins-storytelling/genius.md` — Anatomy of a Dream interview, ~19,000 words
-- **Grace Andrews Media Company**: `extractions/grace-andrews/extraction-report.md` — "Marketing GENIUS: If You Want To Grow An Audience In 2026" interview
-
----
-
-## Verification Legend
-
-- **VERIFIED**: Sourced directly from expert extraction or internal testing (Resonance). Quote or claim is verbatim or directly paraphrased from primary source. Cross-checked against published materials where applicable.
-- **LIKELY**: Sourced from extraction report summary or secondary documentation. The principle is sound but the exact wording may be paraphrased.
-- **UNCONFIRMED**: Principle sourced from generic best practice or applied reasoning. Not yet cross-checked against primary expert source. Candidate for future verification.
-
----
-
-**Last Updated**: 2026-07-17  
-**Verification Protocol**: All anti-pattern claims sourced from `extractions/` or `skills/` directories with full citation. No unsourced claims in genius.md. Brand Operating System architecture validated against Resonance v1 build.
+None. Every quote and dated claim used in the repaired genius.md and workflow files was verified against a primary file read in this session (see table above). No claim in the delivered files carries an UNCONFIRMED label because no UNCONFIRMED claim was used — anything I could not verify verbatim was left out rather than softened into the deliverable.

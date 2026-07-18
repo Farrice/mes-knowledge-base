@@ -54,31 +54,13 @@ Output:
 
 ## Output Schema
 
-**Inputs**: 
-- `00-foundation/01-brand-bible.md` — Brand bible (visual direction section)
-- `00-foundation/05-non-negotiables.md` — Non-negotiables (visual constraints, mechanic rules)
+Phase C produces the 5 visual-layer docs, all downstream of the mechanic locked in Phase B:
 
-**Outputs**:
-- `01-visual/01-DESIGN.md` — Google Labs v2 spec (YAML tokens + 8-section markdown body). Component tokens, color palette (WCAG AA compliant), typography rules, spacing system. Lints clean via `npx @google/design.md lint`.
-- `01-visual/02-photography-rules.md` — 10-15 explicit photography rules derived from brand mechanic (e.g., "If a photo could have been taken at 11pm, it fails"). Each rule has examples of PASS / FAIL.
-- `01-visual/03-component-library.md` — Locked design components (IG template, flyer template, ticket template, email header, etc.) with reusable component tokens.
-- `01-visual/04-brand-library-entry.md` — Brand library metadata for design system integration. Registered in `knowledge/design-libraries/brands/<brand-slug>/`.
-- `01-visual/05-aesthetic-register.md` — Mood, texture, visual voice, photography style, visual proof points for AI prompt scaffolding (Midjourney, Sora). ≥6 specific references (real-world examples matching brand mechanic).
-
-**Purpose**: Lock the visual system. Every downstream creative asset (briefs, marketing content, AI-generated images) reads from these 5 docs as the source of truth for visual consistency.
-
-**Quality Gate Checkpoint**:
-- [ ] DESIGN.md exists and lints clean (`npx @google/design.md lint` returns 0 errors)
-- [ ] DESIGN.md photography rules encode the brand mechanic (not generic "warm-toned" advice)
-- [ ] All hex colors hit WCAG AA contrast minimums
-- [ ] photography-rules.md has the gating rule named explicitly
-- [ ] component-tokens.md has ≥3 locked component templates
-- [ ] aesthetic-references.md has ≥6 specific references (not generic Pinterest categories)
-- [ ] brand-library-entry.md is registered in `knowledge/design-libraries/brands/`
-
-If any unchecked, halt. Visual drift in Phase C produces mismatched briefs in Phase D — costly to fix downstream.
-
----
+- **`01-visual/DESIGN.md`** — Google Labs v2 spec: YAML front-matter (color/typography/spacing/component tokens) plus an 8-section markdown body explaining why each token exists. Photography rules must encode the brand's specific mechanic (Resonance's gating rule: "if a photo could have been taken at 11pm, it fails") — a generic "warm-toned, aspirational" rule fails this schema. Must lint clean via `npx @google/design.md lint` and pass WCAG AA contrast on every color token.
+- **`01-visual/brand-library-entry.md`** — the token block plus library metadata plus import-brand path, registered under `knowledge/design-libraries/brands/<brand-slug>/`.
+- **`01-visual/aesthetic-references.md`** — ≥6 specific real-world references (not generic Pinterest categories) that double as visual proof points for AI image-prompt scaffolding.
+- **`01-visual/component-tokens.md`** — ≥3 locked, repeatable component templates (IG post, flyer, ticket, etc.).
+- **`01-visual/photography-rules.md`** — the standalone, expanded version of DESIGN.md's photography section, with the gating rule named explicitly rather than implied.
 
 ## Quality gate (Phase C → D)
 

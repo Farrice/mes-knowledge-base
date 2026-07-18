@@ -116,3 +116,12 @@ The BOS is now live. Three things happen next:
 1. **Founder operates from it** — paste the AI Brain Master into Claude/ChatGPT to start producing content
 2. **Amendments cascade** — when the founder names a change, the update protocol governs how it ripples through the 43 docs
 3. **v1.1 schedules** — backlog from G1 (HIGH/MEDIUM fixes) + any new gaps surfaced during first cycle of operation merge into v1.1
+
+## Output Schema
+
+Phase G produces working artifacts plus a shipped-state confirmation — it adds no new client-facing docs of its own:
+
+- **`_working/G1-adversarial-review.md`** — 5 scored axes (Premise Integrity, Evidence Quality, Voice Alignment, Structural Soundness, Market Resilience), each 1-10 with named issues, a ranked Top 5 Fixes list (CRITICAL/HIGH/MEDIUM with effort estimates), and results from all 6 survival tests run in G1. Composite must be stated explicitly, not left implied by the axis scores.
+- **`_working/G2-prose-scan.md`** — file-by-file violation report: em-dash count per file, banned-phrase hits, banned structural-move hits, and a cross-piece variance note confirming no two docs share a closing move.
+- **Drive mirror (conditional)** — if `--drive-parent` supplied, a dated Drive subfolder mirroring the local 6-layer tree, 43/43 native Google Docs in pageless format, `_working/` excluded from the upload.
+- **Chain finalize record** — the `chain_runner.py finalize` invocation's composite score and the 4 quality dimensions (Intent / Expert Standard / Adversarial / Factual Grounding), each ≥6, composite ≥7.
