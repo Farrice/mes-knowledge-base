@@ -79,6 +79,16 @@ Score each paradox 1-10:
 
 **Ship paradoxes scoring 24+. Rebuild those below 18.**
 
+## Quality Gate
+Before delivering the paradox set, verify:
+- [ ] 15-24 raw candidates generated across all 3 mining methods (Comparison, Belief, Timeline) — not concentrated in one method
+- [ ] The top 5 fully architected paradoxes each complete the full 5-step structure template (Question → Amplification → Emotional Layer → Implied Promise → Open Loop)
+- [ ] Every paradox is validated on all 3 dimensions (Contradiction Strength, Verifiability, Emotional Amplification) — no partially-scored candidates in the final set
+- [ ] Both Paradox Stack sequences (Phase 3) escalate stakes or specificity across their nested paradoxes — no repeated emotional register between stacked paradoxes
+- [ ] The workflow's own ship threshold is enforced: only paradoxes scoring 24+ advance; sub-18 candidates are cut, not softened into the deliverable
+
+A paradox that isn't fact-checkable (fails Verifiability) is a lie, not a hook — cut it regardless of its other scores.
+
 ## Output Contract
 - 15-24 raw paradox candidates across 3 mining methods
 - Top 5 fully architected paradoxes with emotional layering

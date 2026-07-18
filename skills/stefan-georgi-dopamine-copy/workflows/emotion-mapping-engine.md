@@ -97,6 +97,16 @@ BEST POSITION: [Lead / Rapport / Mechanism / Close]
 STACKING PARTNER: [Which other emotion pairs well?]
 ```
 
+## Quality Gate
+Before delivering the emotional ammunition, verify:
+- [ ] All 7 Ekman emotions have at least one populated stimulus pathway for this specific product — a blank emotion row is a missed pathway, not evidence the emotion doesn't apply
+- [ ] Priority Matrix scores (Intensity × Universality) are filled for every emotion × pathway combination carried into Phase 2, not just the obvious ones
+- [ ] The Emotional Sequence Architecture (Phase 3) never repeats the same emotion twice in sequence
+- [ ] All 6 Ammunition Cards have a complete, specific Trigger Sentence — not a placeholder describing what the sentence should do
+- [ ] The competitive emotion gap analysis names at least 1 emotion pathway competitors are currently leaving unused
+
+An emotion map with unscored pathways or a placeholder trigger sentence is not ready to feed downstream Georgi workflows.
+
 ## Output Contract
 - Complete 7-emotion inventory with all stimulus pathways mapped
 - Scored priority matrix (Intensity × Universality)

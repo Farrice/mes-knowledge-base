@@ -87,6 +87,16 @@ For each identified issue, provide:
 - **Priority 4**: Close architecture weaknesses
 - **Priority 5**: Rapport and transition failures
 
+## Quality Gate
+Before delivering the audit, verify:
+- [ ] Every sentence in the audited copy was classified 🟢/🟡/🔴 (Phase 2) — no skipped sections
+- [ ] The Dead Zone Density Score is stated with its correct action tier (0 / 1-3 / 4-7 / 8+)
+- [ ] Every 🔴 Dead sentence has a Phase 5 prescription (Problem + Fix + Principle) — a flagged dead zone without a fix is an incomplete audit
+- [ ] The Emotional Conversion Audit table (Phase 4) has an entry for all 4 funnel sections, not just the weakest ones
+- [ ] The fix list is prioritized 1-5 in the stated impact order (lead failures first, rapport/transition failures last)
+
+An audit that flags problems without exact rewrites is diagnosis without treatment — do not ship it as final.
+
 ## Output Contract
 - Structural map (ideal vs. actual funnel)
 - Dead Zone Density Score with sentence-level classification

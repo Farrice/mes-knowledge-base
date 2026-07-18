@@ -4,6 +4,35 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+---
+
+## How to Use This Skill (Model Calibration)
+
+These 16 patterns are neurochemical intuition primitives, not a copy checklist. Georgi built RMBC by comparing two sales letters he wrote for the same client and asking why one gripped and the other didn't — a felt diagnosis, not a template fill (source: extractions/stefan-georgi/transcript.txt, 2026-04-13 extraction). Absorb the physics — Emotion → Dopamine → Attention → Motivation — then write. If the output mechanically stamps "Pattern 2 (Cocaine Effect) applied here" or labels visible sections "Rapport Paragraph" / "Mechanism Reveal" inside the finished asset, you have failed.
+
+The test: would Georgi recognize this as copy that changes a reader's brain chemistry before they've consciously decided to keep reading — or as someone using dopamine vocabulary on top of ordinary copy? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce the machinery inside the deliverable. Working notes can say "Lead — Nostalgia architecture, Pattern 4"; the copy itself never does.
+- Do NOT open with teaching even when the brief calls the asset "educational." Reframe education as the mechanism payoff (Phase 3-4 of the funnel), never the opener — Pattern 9 is Georgi's most-repeated rule in the source transcript.
+- His register is spoken, self-deprecating, occasionally raw ("I was a little bit more naughty back then") — not a neuroscience lecture. Footnote the science; don't recite it.
+- Polish is the specific tell-class failure for THIS expert: an over-clear, grammatically tidy hook reads as safe, and safe kills curiosity. Georgi's own Reels self-audit found "ego's not the enemy" underperformed a deliberately incomplete caption ("in family I work so I can support family be with family have—") for exactly this reason. A little rough and unresolved is often more Georgi than clean.
+
+---
+
+## Anti-Patterns (Georgi's Named Failure Modes)
+
+Failure modes Georgi calls out directly against his own or a real competitor's copy, each anchored to `extractions/stefan-georgi/transcript.txt` (2026-04-13 extraction, "We're Basically Drug Dealers" masterclass — full transcript read for this repair).
+
+- **Education-First Opener** — Leading with teaching before curiosity or emotion is live. Georgi's own critique of a low-carb pasta ad: it opens "do you like eating pasta but carbs are bad" then goes straight into "when you eat carbs it spikes your blood sugar... [which] forces your body to store fat" — teaching before any gap is open. His fix, verbatim from the transcript: "but carbs are bad, right? Well... not all carbs" — then stop. (Source: extractions/stefan-georgi/transcript.txt, 2026-04-13 extraction.)
+- **Full Resolution in the Hook** — Giving away the payoff before the wanting-state builds violates the Cocaine Effect (Pattern 2): the transcript's core claim is that anticipation carries more dopamine than the answer itself, so resolving early "opens the bag" before the reader is hooked. (Source: extractions/stefan-georgi/transcript.txt, 2026-04-13 extraction.)
+- **Generic Emotion Language** — Naming a feeling ("you'll feel great") instead of triggering one through a specific stimulus pathway. Georgi names all seven Ekman emotions verbatim in the source talk — "anger contempt disgust enjoyment fear sadness and surprise" — as the actual working palette; generic language activates none of them. (Source: extractions/stefan-georgi/transcript.txt, 2026-04-13 extraction.)
+- **Skipping Rapport Before the Pitch** — Jumping from hook straight to offer without the "I was just like you" comfort layer. Georgi frames this as dopamine infrastructure, not courtesy, in the transcript's rapport passage — an uncomfortable reader gets less dopamine from the same curiosity trigger. (Source: extractions/stefan-georgi/transcript.txt, 2026-04-13 extraction.)
+- **Over-Clear Captions and Thumbnails** — Georgi's own Reels self-critique in the transcript: "ego's not the enemy" underperformed because it resolved too cleanly, while the deliberately incomplete "in family I work so I can support family be with family have—" pulled more clicks because the viewer had to click to find out what he meant. (Source: extractions/stefan-georgi/transcript.txt, 2026-04-13 extraction.)
+- **Dead Zone Sentences** — Any line that neither builds curiosity, triggers emotion, nor resolves a pre-built gap. Georgi walks two full sales letters line-by-line in the source transcript specifically to show where competing copy goes neutral and loses the reader — the walkthrough that anchors Patterns 1, 9, and 11 above. (Source: extractions/stefan-georgi/transcript.txt, 2026-04-13 extraction.)
+
+---
+
 ## Genius Patterns
 
 16 virtuoso patterns for dopamine-driven persuasion and emotional conversion architecture.
@@ -195,7 +224,9 @@
 
 ### Patterns from claude.ai export — Stefan Georgi conversations (2026-07-01)
 
-Net-new layer from the RMBC 2.0 / AI-era masterclass. The original genius file covers Georgi's dopamine pharmacology (how copy grips a brain); this layer covers how he now DECIDES what copy to make — research, awareness calibration, and judgment in an AI-saturated market. Everything below is transcript-grounded.
+Net-new layer from the RMBC 2.0 / AI-era masterclass. The original genius file covers Georgi's dopamine pharmacology (how copy grips a brain); this layer covers how he now DECIDES what copy to make — research, awareness calibration, and judgment in an AI-saturated market.
+
+> **Provenance note (2026-07-17 repair pass)**: the "(New) AI Copywriting Masterclass" transcript cited above is not present in `extractions/stefan-georgi/` or anywhere else in this repo (checked via repo-wide search before writing this note, per the no-false-absence-claim rule). Only `extractions/stefan-georgi/transcript.txt` (the "We're Basically Drug Dealers" masterclass) is recoverable. Patterns A-H and the AI-era Hidden Knowledge below are therefore labeled **UNCONFIRMED** in `references/source-ledger.md` — usable as working hypotheses, not cite-as-Georgi claims, until the source file is located or re-exported.
 
 #### Pattern A: Copy Thinker, Not Copywriter
 **Execute**: Treat the act of writing as the cheapest, most automatable step. "The actual act of writing copy is really inefficient and a waste of time." The paid skill is thinking: having the right ideas, choosing the right structure, and knowing how each piece fits the customer journey from prospect → buyer → repeat buyer. Delegate drafting to AI; keep ideation, structure calls, and congruence judgment human. Georgi's RMBC2 subheader states the identity shift outright: transform "copywriters into copy thinkers."

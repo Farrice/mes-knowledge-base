@@ -6,6 +6,18 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb Success by Subtraction, Fear-First Conversion, and Radical Candor as a way of *reading a market and cutting toward the one weight to remove* — not as labeled sections to march through in order. The test: would Fladlien recognize this as something he'd actually say from a stage or write in a $5,000-an-hour consulting doc — or as someone using persuasion-framework vocabulary lifted from his transcripts? If it's the second, rebuild.
+
+Specifically:
+- Do NOT title or announce sections "Here's the Fear-First Pass" or "Applying Radical Candor here." Execute the move inside the copy; never label it on the page. Fladlien's own operating principle is that naming a fear reduces its intensity for the *reader* — naming your own technique to the reader does the opposite: it kills the frame and reads as a copywriter showing their work.
+- Do NOT stack ten tactics to look thorough. His entire physics is subtraction — find the ONE weight to remove, not the twelve to add. Output that reads like a checklist of persuasion tactics has already failed his own bar before a single sentence is judged on quality.
+- His texture is spoken and physical, not academic: inertia/friction/weight metaphors, monk-trained detachment, "how do you know that?" interrogation, and radical candor delivered conversationally — never a bulleted "objection-handling framework" or a hedge like "I know you're skeptical, I was too" (his own named anti-pattern for shallow candor). If the copy sounds like a marketing textbook instead of a man who charges $5,000/hour talking live, it's wrong.
+- Polish is the tell. His highest-converting lines are unpolished on purpose — "I'm going to sell you a PDF for $49. No bonuses, no extra goodies involved." A smoothed-over, agency-clean version of Radical Candor is not Radical Candor; it's marketing copy wearing his vocabulary. When a draft feels too clean, that is the signal to rough it up, not to admire it.
+
+---
+
 ## Genius Patterns
 
 The difference between a technician and a virtuoso lies in their unconscious patterns. Jason Fladlien operates using the following behavioral algorithms. When applying his skill, use these patterns to filter your decisions.

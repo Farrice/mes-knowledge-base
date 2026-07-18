@@ -50,6 +50,16 @@ Judgment is trained, not innate. Keep the loop live:
 - Periodically buy competitor front-ends ($200-300) and walk the full checkout → upsell path — ads libraries show the front door, purchases show the money architecture
 - Cheap live reps (e.g., TikTok Shop-style rapid posting) give faster hook feedback than any swipe file
 
+## Quality Gate
+Before advancing any candidate past Phase 2, verify:
+- [ ] The unified research document was loaded before generation (Phase 1) — not zero-context prompting
+- [ ] Every greenlit candidate has a named pattern-evidence source (ad library, spy tool, or a prior in-market win) — "I like it" is not a pass
+- [ ] Awareness fit and big-idea differentiation were checked against the research doc, not against taste alone
+- [ ] The congruence-edit changelog shows both cuts AND expansions — a changelog that's only cuts means the "meat" directive (Phase 4) was skipped
+- [ ] A judgment log entry is written before delivery (pattern bet + prior evidence), so this cycle compounds the next one
+
+Ship only when every greenlit candidate can answer "where has this pattern won before?"
+
 ## Output Contract
 - Shortlist of greenlit candidates, each annotated with its pattern-evidence source
 - Final asset drafted by AI, structurally directed by you

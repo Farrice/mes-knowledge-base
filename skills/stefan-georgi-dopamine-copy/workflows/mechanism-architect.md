@@ -85,6 +85,16 @@ The mechanism must connect to the product without feeling like a "bait and switc
 > You'd need to [difficult/expensive alternatives]. That's why [product name] was created —
 > it's the first [product type] specifically designed to [deliver the mechanism]."
 
+## Quality Gate
+Before delivering the mechanism, verify:
+- [ ] The Mechanism Uniqueness Audit (Phase 3) totals 35+ — the workflow's own ship threshold; 25-34 needs targeted rework, below 25 needs a full rebuild
+- [ ] The Problem Mechanism's paradigm-shift statement follows the exact template ("The reason [past approach] hasn't worked isn't [what they think] — it's [hidden factor]") without lapsing into a generic claim
+- [ ] The Mechanism Name passes the cocktail-party test — write the one-sentence explanation and confirm it could be repeated by someone else without notes
+- [ ] The Solution Mechanism's "Aha" Architecture hits all 5 steps (Tease/Build/Reveal/Proof/Implication) in order — no skipped steps
+- [ ] The Mechanism-to-Product Bridge does not read as a bait-and-switch — the product must read as the delivery vehicle for the mechanism, not an unrelated add-on
+
+Do not hand off a mechanism scoring below 35 to any downstream copy workflow.
+
 ## Output Contract
 - Complete Problem Mechanism with paradigm shift statement + evidence
 - Complete Solution Mechanism with proprietary name + "aha" architecture

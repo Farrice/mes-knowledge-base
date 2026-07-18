@@ -77,6 +77,16 @@ For Tier 1 hooks, create platform-native variants:
 - **Video/Reel**: 3-second spoken version + visual pairing
 - **YouTube Thumbnail**: Caption that forces click-to-resolve
 
+## Quality Gate
+Before delivering the hook set, verify:
+- [ ] 10-20 hooks generated across all 4 categories (Paradoxical, Nostalgic, Incomplete/Ambiguous, Emotion-Bomb) — not concentrated in one category
+- [ ] Every hook is scored on all 3 dimensions (Dopamine Speed, Curiosity Debt, Emotional Charge) — no blank cells in the scoring table
+- [ ] Tier 1 hooks (score 25-30) have platform-native variants for at least 2 platforms
+- [ ] The recommended A/B test pair names WHY the two hooks are a meaningful contrast (e.g., paradox mechanism vs. emotion-bomb mechanism), not two hooks that feel interchangeable
+- [ ] No hook resolves its own curiosity gap within the hook itself — a hook that answers its own question isn't a hook
+
+Ship only Tier 1 and Tier 2 hooks; Tier 3 hooks (score <18) go back for rebuild, not into the deliverable.
+
 ## Output Contract
 - 10-20 scored and tiered hooks
 - Emotion-Curiosity Matrix for the product

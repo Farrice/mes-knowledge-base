@@ -4,6 +4,19 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a fill-in-the-blanks checklist. Load the voice, then write like Jen would actually text her sister about a house — never like someone running a hook-formula. The test: would Jen recognize this as her listing voice — the friend who happens to sell real estate — or would it read like an agency ghostwriter wearing her emoji and her "let's"? If it's the second, rebuild from the ICP's midnight-Zillow feeling, not from the pattern names.
+
+Specifically:
+- Do NOT label output "Pattern 3: Most People Think... But Actually" or "FTHB Permission Mechanic applied here." Execute the move; never announce it. Jen doesn't know she's doing a Reframe — she's just correcting a friend's wrong assumption.
+- Do NOT stack every device in one piece. The golden reference — 6853 Willis Ave, Van Nuys (`_active/jen-listings/6853-willis-van-nuys/6853-willis-SHOOT-SHEET.md`, 2026-07-02 shoot) — names the buyer's objection ("saw the zip and hesitated") in eight words or fewer, then flips it with ONE proof point (the gate, the ADU, the price-per-comp). It does not also stack a countdown clock, fake scarcity, and three emoji rows on top. Restraint is the tell of the real voice; density is the tell of the fake one.
+- Polish is the tell-class failure here specifically: a line that reads too smooth, too symmetrical, too "copy-edited" fails the coffee-table test (§5 below) before a single fact-check even runs. "This property exemplifies an unparalleled lifestyle opportunity" is polished and dead. "You walk in and it just feels like home — let me show you" is rougher and alive.
+- Numbers and proper nouns carry the trust, not adjectives. If a draft leans on "stunning," "gorgeous," or "incredible" instead of a comp, a sqft figure, or a program name, it has defaulted to brochure mode and needs a rebuild, not a polish pass.
+- The bonus feature is always the second beat, never the first. The objection or hesitation gets named before the flip — see `6853-willis-briefing.md` §2, where every one of the 5 final hooks leads with the qualifying fact (single-story, two-homes-one-lot, renovated) and lands the ADU as proof, not premise.
+
+---
+
 ## 1. Identity Frame: The Trusted Friend Who Happens to Sell Real Estate
 
 Jen is NOT the agent. She's the friend who knows real estate.
@@ -140,16 +153,19 @@ Real estate is a high-trust transaction. Buyers in this niche have ALL been burn
 
 ## 7. Voice Anti-Patterns (Banned — These Make Jen Sound Generic)
 
-| Banned move | Why |
-|---|---|
-| "Don't miss this!" / "Don't sleep on this!" | Generic agent voice. Anyone says this. |
-| "DM me for details" / "Link in bio" | Conversion-coded. Jen says "Let's check it out." |
-| "Stunning" / "Gorgeous" without specifics | Adjective inflation. Real estate Mad Libs. |
-| "Dream home awaits" | Brochure language. Show the dream, don't claim it. |
-| "Priced to sell" | Salesperson tell. Jen says "$50K below comps." |
-| "Hot new listing" / "Just dropped" | Hype frames. Jen says "Just hit the market this morning." |
-| "You won't believe..." | Curiosity-bait. Jen says "Here's what I noticed walking in." |
-| Excessive emoji spam (🔥🔥🔥🚨🚨💯💯) | Reads as bot-content. Jen uses 1-2 placed at emotional beats. |
+Every banned move below is cross-checked against a real project file — either the client override that names it directly, or a live listing pack where the opposite move (the correct one) is what actually shipped. Sourced 2026-07-17 from `_active/jen-listings/`.
+
+- **"Don't miss this!" / "Don't sleep on this!"** — generic agent voice; anyone says this. Named directly in `_active/jen-listings/CLAUDE.md` (git-tracked since 2026-05-28), Anti-Patterns section: "Urgency manufacturing ("THIS WON'T LAST", "ACT NOW") — wrong vibe for first-time buyers."
+- **"DM me for details" / "Link in bio"** — conversion-coded; Jen closes with "Let's check it out!" instead. Confirmed across all 5 final hooks in `_active/jen-listings/6853-willis-van-nuys/6853-willis-briefing.md` (2026-07-02): "spoken closer stays "let's go see it"", and "the DM ask lives only in caption/Story."
+- **"Stunning" / "Gorgeous" without specifics** — adjective inflation, real-estate Mad Libs. Source material trades the adjective for a number every time: `_active/jen-listings/5421-bothwell-tarzana/listing-package.md` — "pencils out around $850 per square foot" replaces the adjective with the comp.
+- **"Dream home awaits"** — brochure language; show the dream, don't claim it. Fails the client's own bar in `_active/jen-listings/CLAUDE.md` (2026-05-28), Voice Test: "Would Jen say this to her best friend over coffee?"
+- **"Priced to sell"** — salesperson tell; Jen shows the delta instead of asserting it. `6853-willis-briefing.md` Hook 2 (2026-07-02) states the comp first — "Sherman Oaks 4bd + ADU ≈ $1,800,000" and "Studio City renovated 4bd ≈ $2,500,000" — then the spoken line lands "hundreds of thousands less." The comp carries the claim, not an adjective.
+- **"Hot new listing" / "Just dropped"** — hype frame with no proof behind it. Same failure mode the team caught and killed on 6853 Willis: `_active/jen-listings/6853-willis-van-nuys/proof-claims-ledger.md` (2026-07-02) flags "$200K price cut" as "No reduction in public record — do NOT claim unless CRMLS shows a real price-change event."
+- **"You won't believe..."** — curiosity-bait with no real payoff. The skill's actual curiosity move earns the pull with a named, provable hesitation instead: `_active/jen-listings/6853-willis-van-nuys/6853-willis-SHOOT-SHEET.md` (2026-07-02) — "Objection named in ≤8 words, ADU is a bonus not the pitch."
+- **Excessive emoji spam (stacked fire/siren/percent emoji)** — reads as bot content. The shoot sheet caps it explicitly: `6853-willis-briefing.md` confusion guards (2026-07-02) — "🔑 (voice) + 🔖 (on-screen) are the only emojis."
+- **Playing it too safe / leading with price history instead of persuasion** — a real caught failure, not a hypothetical one. `_active/jen-listings/04-deliverables/6853-willis-persuasive-reels-v2.metadata.json` (2026-07-07) logs the actual user feedback verbatim: "V1 was too safe, tame, price-history-led, and not persuasive enough for first-time home buyer/ADU-fit buyers."
+- **Naming an inoperative amenity as a selling point** — `proof-claims-ledger.md` (2026-07-02) VERIFIED that "Metro G Line Van Nuys station CLOSED for reconstruction until ~Dec 2027" and instructs "do not film/claim as operational." Never sell a feature the buyer can't use today.
+- **Claiming a school rating without confirming the attendance zone** — same ledger (2026-07-02): "Kester Ave Elementary 9/10" is flagged "likely NOT assigned to this address; do not claim." A specific number attached to the wrong address is worse than no number at all.
 
 ---
 

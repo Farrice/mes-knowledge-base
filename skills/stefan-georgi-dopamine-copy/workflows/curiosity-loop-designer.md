@@ -108,6 +108,16 @@ Test each loop for failure modes:
 - [ ] **Complexity Overload**: Are there so many open loops that the reader gets confused rather than curious?
 - [ ] **Emotional Drain**: Do the loops create fatigue instead of anticipation?
 
+## Quality Gate
+Before deploying the loop sequence, verify:
+- [ ] The Master Gap does not close before the designated late-stage revelation point (Phase 2)
+- [ ] Every Supporting Gap closes into a new gap or a deepened Master Gap — never into a flat resolution
+- [ ] The Tension Modulation Map (Phase 4) never drops below 3 for more than 2 consecutive paragraphs
+- [ ] Every gap in the Epistemic-Empathetic table (Phase 3) has a nonzero score on BOTH axes — a pure-epistemic or pure-empathetic gap needs the missing half added
+- [ ] The Phase 5 Loop Stress Test has zero unresolved failure flags across all 5 checks
+
+A loop sequence that fails any stress-test item is not ready — rebuild the failing gap before integrating it into the asset.
+
 ## Output Contract
 - Complete loop nesting diagram (Master + 2-3 Supporting + 5-10 Micro)
 - Epistemic-empathetic blend scores for each gap

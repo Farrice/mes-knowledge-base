@@ -112,6 +112,16 @@ For the selected platform + type, produce:
 - [ ] Zero dead zones in the content
 - [ ] CTA feels like natural continuation of emotional state, not an interruption
 
+## Quality Gate
+Before delivering platform content, verify:
+- [ ] The selected platform's dopamine window and primary trigger (Phase 1 table) actually shaped the script/caption structure — not a generic script reused across platforms
+- [ ] The Phase 4 Dopamine Integrity Check has all 6 boxes checked, not partially cleared
+- [ ] For text platforms, the pre-truncation zone contains a complete dopamine trigger — verify by reading only the visible-before-"See More" text in isolation
+- [ ] The thumbnail/caption passes the Pattern 16 test: a stranger cannot state the conclusion from the visible content alone
+- [ ] The CTA reads as continuation of the built emotional state, not a cold transactional tack-on
+
+If the Dopamine Integrity Check has any unchecked box, revise before delivery — do not ship partial-integrity content.
+
 ## Output Contract
 - 3 scored hook variants per content piece
 - Complete content (script + caption + CTA) for winning hook

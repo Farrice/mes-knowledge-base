@@ -67,6 +67,17 @@ With the unified document loaded:
 
 Optionally rank candidate mechanisms: *"Here are the 5 I like most. Based on this research, rank them 1-5 by probability of success and explain why."*
 
+## Quality Gate
+Before shipping the unified research document and calibration verdict, verify:
+- [ ] All 5 awareness levels have a % + rationale, not just a top-of-mind guess
+- [ ] Competitor big-idea table names all 5 competitors' actual big idea (not their feature list)
+- [ ] Psychographic pass reaches "2am staring at the ceiling" depth, not surface demographics
+- [ ] Unified document exists as ONE artifact carrying every insight from all three passes — no orphaned research left in a separate file
+- [ ] Calibration verdict names funnel length, mechanism complexity tier, AND target segment explicitly — not just a vague "educate more"
+- [ ] At least 3 gap-derived angles surface messaging nobody in the category is currently using
+
+If any box is unchecked, the research stack is incomplete — do not hand off to `copy-thinker-judgment-loop` or any drafting workflow.
+
 ## Output Contract
 - Awareness distribution table (5 levels, % + rationale)
 - Competitor big-idea inventory (5 × 5 table)
