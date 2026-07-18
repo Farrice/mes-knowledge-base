@@ -36,7 +36,7 @@ A better live idea appears: unexpected guest, prop, action, line, visual setup, 
 6. Send to editor with a short brief.
 7. Decide publish now, hold, remix, or kill.
 
-## Output
+## Output Schema
 
 ```markdown
 # In-The-Moment Capture Loop

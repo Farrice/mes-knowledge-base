@@ -38,7 +38,7 @@ One set or content concept needs to produce several clips, posts, or angles with
    - Funnel job.
 5. Pick the highest-speed 5 to 10 variations.
 
-## Output
+## Output Schema
 
 ```markdown
 # Modular Hook Multiplier

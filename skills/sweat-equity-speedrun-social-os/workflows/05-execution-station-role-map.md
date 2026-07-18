@@ -36,7 +36,7 @@ The sprint needs a real team process for capture, editing, approvals, guest asks
    - Who can publish.
 6. Create a war-room checklist.
 
-## Output
+## Output Schema
 
 ```markdown
 # Execution Station Role Map

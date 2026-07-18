@@ -34,7 +34,7 @@ The sprint has celebrities, customers, partners, creators, athletes, guests, sta
    - Collab post feasibility.
 6. Prioritize the bridges with the highest audience fit and lowest friction.
 
-## Output
+## Output Schema
 
 ```markdown
 # Bridge Moment Plan

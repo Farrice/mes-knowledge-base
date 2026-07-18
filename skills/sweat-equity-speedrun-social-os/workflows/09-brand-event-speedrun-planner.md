@@ -40,7 +40,7 @@ You need the full OS in one pass: narrative, sets, hooks, calendar, roles, live 
    - Inquiries or sales signals.
    - Case-study material.
 
-## Output
+## Output Schema
 
 ```markdown
 # Brand Event Speedrun Plan

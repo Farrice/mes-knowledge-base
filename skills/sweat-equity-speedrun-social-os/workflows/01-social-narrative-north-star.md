@@ -31,7 +31,7 @@ A brand, event, venue, launch, or client activation needs one content filter bef
    - Does this idea create a repeatable content lane?
 7. Produce a one-line north star and a 5-rule content filter.
 
-## Output
+## Output Schema
 
 ```markdown
 # Social Narrative North Star

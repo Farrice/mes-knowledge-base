@@ -38,7 +38,7 @@ A team needs daily output targets, capture windows, edit windows, and publishing
    - Remix winners quickly.
 5. Add approval and publishing checkpoints.
 
-## Output
+## Output Schema
 
 ```markdown
 # Volume Sprint Calendar

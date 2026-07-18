@@ -33,7 +33,7 @@ The sprint needs both attention and audience memory, or when content is getting 
 4. Rewrite weak ideas so each has one job.
 5. Produce a platform sequence.
 
-## Output
+## Output Schema
 
 ```markdown
 # Top and Middle Funnel Mix

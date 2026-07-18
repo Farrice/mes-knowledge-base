@@ -36,7 +36,7 @@ You have a house, venue, event space, booth, store, office, launch site, or clie
 5. Assign each selected set a daily capture target.
 6. Name concepts that can repeat without feeling copied.
 
-## Output
+## Output Schema
 
 ```markdown
 # Set and Location Content Map

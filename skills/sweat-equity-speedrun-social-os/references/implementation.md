@@ -4,6 +4,8 @@
 
 Always check `extractions/sweat-equity-speedrun-social-os/result-claims.md` before using performance numbers. Say "the video claims" unless metrics have been independently checked.
 
+**2026-07-18 repair note**: that file does not exist in this repo, and a full-content scan of `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes) found no source transcript either. See `references/source-ledger.md` for the full search record. Treat every named-brand specific in this skill's reference files as illustrative, not verified.
+
 ## Minimum Input
 
 To run a workflow well, ask for or infer:
