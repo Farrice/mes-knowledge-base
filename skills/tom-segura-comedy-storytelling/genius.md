@@ -13,6 +13,18 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These sixteen patterns are intuition primitives, not a checklist. Absorb them, then build originally — if the output mechanically stamps "Pattern 4 (Way In), Pattern 6 (Surprise), Pattern 11 (Word Choice)" in visible order, you have failed the skill before you started. The recognition test: would Segura recognize this as material someone actually noticed and dug into — or as someone wearing "comedy-writing vocabulary" on top of a flat observation? If it's the second, rebuild from the antenna up, not from the framework down.
+
+Specifically:
+- Do NOT label sections "here's the way in," "here's the dig," "here's the surprise." Install the reason-for-telling, find the irrational core, land the swerve — never announce the machinery. Segura's own standard: "the editor can't come too early" — the same discipline applies to over-explaining your method on the page.
+- Segura's texture is conversational and specific, not tidy. He reports ("I don't make up a single thing about my kids") rather than invents, and the funniest-sounding word beats the correct one ("yanked" over "pulled"). Keep the voice loose, opinionated, and grounded in one real, ownable detail — never a composite or a generic "someone."
+- Polish is the tell-class failure here specifically: a joke that sounds *written* (balanced, hedged, no temperature) is dead on arrival. If every option in a draft is defensible and safe, none of them are Segura-grade — his whole engine runs on disproportionate opinion ("this tastes like someone shit in a cup" vs. "I don't care"), not on comprehensive coverage of a topic.
+- Hold the beat past the point of comfort before you cut to the payoff — the instinct to rush the reveal is the instinct to kill it. And do not let a callback, an accent, or a formal device recur past the point it still surprises; recurrence past that point becomes a tic, not a world.
+
+---
+
 ## Genius Patterns
 
 ### 1. The "That's a Thing" Antenna
@@ -200,15 +212,15 @@ Score Segura-domain output against these. **If you score ≥8 on any row, name t
 
 ## Anti-Patterns (what Segura would reject)
 
-1. **The neutral take.** "It's fine, I don't care" is death. No temperature = no comedy. (Pattern 2)
-2. **The flat anecdote.** Telling events with no "way in." (Pattern 4)
-3. **Premature editing.** Filtering ideas in round one before the stage co-authors them. (Pattern 5 / Hidden 2)
-4. **Stopping at the obvious.** The surface complaint instead of the dig. (Hidden 3)
-5. **Over-selling the absurd.** Winking, playing it for the joke instead of straight. (Pattern 8)
-6. **Rushing the beat.** Cutting away from the real moment before the tension builds. (Pattern 9)
-7. **The derivative middle.** The 15th AI bit when yours isn't superior; inventing instead of reporting your own life. (Pattern 13)
-8. **Callback as tic.** Relentless callbacks that stop surprising. (Pattern 15)
-9. **Comprehensive but dead.** Saying everything plainly without surprise, stakes, or ownership. The system-failure mode regardless of polish.
+1. **The neutral take.** Segura, transcript: "it's not funny to be like, it's fine, I don't care... it's not funny to not have an opinion" — no temperature = no comedy. (Pattern 2; source: "How I Write" interview transcript, extractions/Tom Segura/transcript.txt)
+2. **The flat anecdote.** Telling events with no "way in" — the transcript's own contrast is explicit: "you gave yourself a reason to tell the story. It's different than just saying I was almost the [Subway spokesman]." (Pattern 4; source: transcript.txt)
+3. **Premature editing.** Filtering ideas in round one before the stage co-authors them — Segura, quoting Jeff Tate's rule then his own gloss: "the editor can't come too early." (Pattern 5 / Hidden 2; source: transcript.txt)
+4. **Stopping at the obvious.** The surface complaint instead of the dig — "sometimes the thing that's too obvious isn't the joke because you're like it's too obvious," resolved only once he digs to "it's like somebody yelling at the trailer before the movie... just eat some popcorn." (Hidden 3; source: transcript.txt)
+5. **Over-selling the absurd.** Winking, playing it for the joke instead of straight — Segura on *Bad Thoughts* casting: "it's funnier if they're not trying to be funny... that's the key to it all." (Pattern 8; source: transcript.txt)
+6. **Rushing the beat.** Cutting away from the real moment before the tension builds — "the longer you hold on the real amount of time, it's funnier," anchored by the "25-second door hold... that's why it's funny" example. (Pattern 9; source: transcript.txt)
+7. **The derivative middle.** The 15th AI bit when yours isn't superior; inventing instead of reporting your own life — "you realize no one else has that story. No one else has that perspective." (Pattern 13; source: transcript.txt)
+8. **Callback as tic.** Relentless callbacks that stop surprising — his own guardrail: "there's comics who are just like callback, callback, callback... no, no, no." (Pattern 15; source: transcript.txt)
+9. **Comprehensive but dead.** Saying everything plainly without surprise, stakes, or ownership fails the standard Segura credits to Chris Rock, who "punches you with it" so there's "no... nuance to what he's saying" left unsaid, and who has "exhausted it" by the end. (Hidden 9; source: transcript.txt)
 
 ---
 
