@@ -164,6 +164,18 @@ EMPLOYEE/CAREER VARIANT (when applicable):
 
 ---
 
+## Output Schema
+
+| Field | Type | Required | Notes |
+|---|---|---|---|
+| `Role Definition` | name + purpose + "role is NOT" line | Yes | The "role is NOT" line must name what the private person does that never surfaces publicly — omitting it means the person/role split wasn't actually drawn. |
+| `Human Advantage` | surface-area list + remarkable-capacity + guardrails | Yes | At least 3 surface-area assets, per the Quality Gate. |
+| `Authenticity Firewall` | red-lines list + green-lines list | Yes | Both non-empty and specific to this person — generic red/green lines (e.g. "be professional") fail Step 3. |
+| `Scale Assessment` | fit verdict + exit protocol + equity split | Yes | Exit protocol must exist even when current fit is strong — Step 5's Yahoo warning applies regardless of current stage. |
+| `Employee/Career Variant` | 4 fields (expectation/shortage/linchpin/boss-worth-it) | Conditional | Required only when the subject is a W2 employee or non-founder freelancer (Step 5.5); omit for founders rather than filling with N/A placeholders. |
+
+---
+
 ## Quality Gate
 
 | Dimension | Minimum Standard |

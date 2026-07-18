@@ -138,6 +138,19 @@ AUTHENTICITY TRAP ITEMS REMOVED:
 
 ---
 
+## Output Schema
+
+| Field | Type | Required | Notes |
+|---|---|---|---|
+| `Role Defined` | 1 name + description | Yes | Must read as a role ("the person who...") not a personality trait list. |
+| `The Role` block | always-list + never-list + worst-day minimum | Yes | Never-list cannot be empty — a role with no boundaries hasn't been defined. |
+| `Boiler Repairman Standard` | 3 signals (care/proof/professional) | Yes | All 3 must be tangible and specific — abstract answers like "great service" fail Step 3. |
+| `Consistency Commitment` | 4-part written statement | Yes | Must follow the "no matter which angle... we will always/never..." template shape. |
+| `Mom-Is-Watching Audit` | touchpoint-list + fix per item | Yes | Every touchpoint listed must carry a paired fix — a bare list of problems without fixes is incomplete. |
+| `Authenticity Trap Items Removed` | list | Yes | At least 1 item — if nothing is being stopped, the audit wasn't run honestly. |
+
+---
+
 ## Quality Gate
 
 | Dimension | Minimum Standard |

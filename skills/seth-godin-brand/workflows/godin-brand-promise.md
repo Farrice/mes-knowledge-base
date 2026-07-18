@@ -85,8 +85,6 @@ For each, design a **Promise-Keeping Protocol**:
 
 ### Step 5: Brand Promise Architecture Output
 
-Produce the final document:
-
 ```
 BRAND PROMISE ARCHITECTURE
 ===========================
@@ -109,6 +107,20 @@ WIZARD OF OZ AUDIT:
 - Promises we keep: [list]
 - Gap: [what's audacious but undelivered]
 ```
+
+---
+
+## Output Schema
+
+The deliverable is the block above, populated — not paraphrased into prose. Field contract:
+
+| Field | Type | Required | Notes |
+|---|---|---|---|
+| `Promise` | string, exactly 1 sentence | Yes | Must follow the "When you hear from... even when..." shape from Step 2. A multi-sentence promise fails the schema. |
+| `Nike/Hyatt Score` | enum: 🟢 / 🟡 / 🔴 | Yes | Must match the Step 1 scoring table; unscored promises are incomplete. |
+| `Transformation Enabled` | 2 short phrases + 1 intersection note | Yes | Identity shift and job-to-be-done stated separately, then their overlap named explicitly. |
+| `Trust Engineering` block | 3 short answers | Yes | Hard-mode protocol, response standard, failure recovery — each concrete, none "we'll try our best." |
+| `Wizard of Oz Audit` | 2 lists + 1 gap line | Yes | Gap line must name a real gap or state "none identified" — never silently omitted. |
 
 ---
 

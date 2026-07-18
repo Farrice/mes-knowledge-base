@@ -93,7 +93,7 @@ The boiler repairman's company didn't have a "slipper policy." They had a CULTUR
 **Design 3 "slipper moments"** — tangible, small behaviors that communicate culture without explanation:
 
 | Moment | What It Communicates | When It Happens |
-|--------|---------------------|-----------------|
+|--------|---------------------|------------------|
 | 1. | | |
 | 2. | | |
 | 3. | | |
@@ -132,6 +132,18 @@ CULTURE REDESIGN PRIORITIES:
 - 30-day: [systematic behavior change]
 - 90-day: [culture fully = marketing]
 ```
+
+---
+
+## Output Schema
+
+| Field | Type | Required | Notes |
+|---|---|---|---|
+| `Current State` | 3 percentages (reinforces/erodes/invisible) | Yes | Must sum to ~100%; an audit that scores 0% erosion on a real business is suspect, not clean. |
+| `Employee Optimization Misalignment` | current vs. ideal + 1 system-change line | Yes | System-change field must name a structural fix, not "communicate better." |
+| `Mom-Is-Watching Failures` | 2+ named behaviors | Yes | Per Step 3 — behaviors must be specific and observed, not hypothetical. |
+| `Slipper Moments` | exactly 3 tangible signals | Yes | Each must pass the Step 5 test — a first-time customer understands culture from the behavior alone, with no explanation attached. |
+| `Culture Redesign Priorities` | 3 time-boxed actions (immediate/30-day/90-day) | Yes | Each priority is a single concrete action, not a category of actions. |
 
 ---
 

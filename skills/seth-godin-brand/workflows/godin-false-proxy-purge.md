@@ -132,6 +132,19 @@ BEHAVIOR CHANGE EXPECTED:
 
 ---
 
+## Output Schema
+
+| Field | Type | Required | Notes |
+|---|---|---|---|
+| `False Proxies Identified` | 3+ items, each metric + explanation | Yes | Explanation must name why it's easy-to-measure-but-harmful, not just label it a "vanity metric." |
+| `Zuckerberg Traps` | 1+ platform-metric item | Yes | Must name who benefits (platform vs. operator) per Step 2's test. |
+| `Meeting Question Audit` | current-question + replacement-question | Yes | Both fields populated; a replacement question that's identical to the current one fails the audit. |
+| `Commotion-Trust-Action Gap` | gap description + fix | Yes | Gap must identify specifically where trust is thin or missing, per Step 4. |
+| `Two Numbers on the Wall` | 2 named metrics, each with current value | Yes | Must follow the permission-metric / action-quality-metric split — two vanity metrics relabeled as "the two numbers" fails the schema. |
+| `Behavior Change Expected` | 1 predicted shift | Yes | Must be a specific behavior prediction, not "things will improve." |
+
+---
+
 ## Quality Gate
 
 | Dimension | Minimum Standard |

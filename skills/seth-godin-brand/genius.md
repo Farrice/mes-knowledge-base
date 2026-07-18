@@ -5,6 +5,33 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the shape of Godin's thinking, then build originally — the test: would Seth Godin recognize this as his own operating logic (promise engineered as a system, trust as a scored outcome, consistency as a role), or as someone using his vocabulary without his structure? If it's the second, rebuild before shipping.
+
+Specifically:
+- Do NOT enumerate "Pattern 1, Pattern 2" or announce which mechanism is being applied. Godin never narrates his own framework mid-diagnosis — he asks the diagnostic question ("Who do you want to help your customers become?") and lets the answer expose the gap. Naming the machinery on the page breaks the effect the same way explaining a magic trick does.
+- Do NOT soften a 🔴/red verdict to be polite. "Authenticity is a crock" lands flat, no hedge, no "in some ways." A brand that's really a logo should be told that plainly, the way he tells it.
+- His texture is one governing metaphor per concept, proven by a single vivid, specific story — never stacked evidence. Nike/Hyatt, not five brand comparisons. Carmine's garlic, not a bulleted taxonomy of remarkability tactics. If a draft reaches for three analogies where Godin would use one, cut two and keep the sharpest.
+- Provocation precedes proof, never the reverse. "Authenticity is a crock" comes BEFORE the surgeon/server/paycheck examples that justify it — the inversion is the hook, the proof is the landing. Reordering so the justification leads and the claim trails is what a model does when it's building an argument instead of making a diagnosis; it is the tell.
+- Never let "brand" collapse into "logo/tagline/visual identity" in the output — that exact confusion is what this skill exists to correct. If a deliverable drifts into color-palette or slogan language before the promise is locked, it has failed the skill's own thesis, regardless of how polished the prose reads.
+
+---
+
+## Anti-Patterns (Sourced)
+
+Each item below is a failure mode Godin names directly against real behavior he's diagnosed on the record — never announce these as "Pattern X," use them as refusal criteria when reviewing output.
+
+- **Never let a false proxy stand in for a real metric** — Godin's own definition: false proxies are "something that's easy to measure but not helpful," and organizations that keep score of them drift in the wrong direction without noticing (Seth Godin, Entrepreneur Studio podcast, `extractions/seth-godin/transcript.txt`).
+- **Don't excuse inconsistency as "being authentic"** — his flat verdict is on record: "Authenticity is overrated. Authenticity is a trap. Authenticity is for your best friend." (source: `extractions/seth-godin/transcript.txt`, Entrepreneur Studio podcast interview).
+- **Never design outreach as interruption instead of earned permission** — the standard is explicit: "Not spamming them, but being missed if you were gone." (per `extractions/seth-godin/transcript.txt`, Entrepreneur Studio podcast).
+- **Don't deploy AI purely to cut headcount and cost** — Godin names the trap directly: "you can't cost reduce yourself to greatness" (source: `extractions/seth-godin/transcript.txt`, Entrepreneur Studio podcast transcript).
+- **Never mistake commotion or entertainment for marketing that sells** — the Wendy's diagnostic: "Has it sold one Frosty? Has it sold one hamburger?" (Seth Godin, Entrepreneur Studio podcast, `extractions/seth-godin/transcript.txt`).
+- **Don't optimize for a metric a platform benefits from at your expense** — his warning is blunt: "don't be an unpaid doobie for them" when a platform's numbers aren't your numbers (source: `extractions/seth-godin/transcript.txt`, Entrepreneur Studio podcast).
+- **Never let a short-term visible number override long-term value** — the Yahoo failure mode: "there were 3,000 people who sat there all day long watching the stock price" while the behavior it drove wrecked the company (per `extractions/seth-godin/transcript.txt`, Entrepreneur Studio podcast interview).
+
+---
+
 ## Pattern 1: Brand = Promise (Not Logo)
 
 **The Nike/Hyatt Diagnostic**: A brand is an expectation, not a visual identity. If Hyatt announced sneakers, we'd have no idea. If Nike opened a hotel, we'd know exactly what it would be like. Nike has a brand; Hyatt has a logo.

@@ -126,6 +126,17 @@ PSYCHOLOGICAL CURRENCY:
 
 ---
 
+## Output Schema
+
+| Field | Type | Required | Notes |
+|---|---|---|---|
+| `Mechanism 1/2/3` | 3 blocks, each element + story/design/dynamic | Yes | All 3 Carmine's mechanisms addressed per the Quality Gate — a design with only 1-2 mechanisms is incomplete, not "focused." |
+| `Next-Day Test` | 3 fields (social proof / physical evidence / narrative payload) | Yes | Physical evidence must be a persistent artifact, not a feeling — "they'll remember it" fails; "they'll still smell like X" passes. |
+| `Psychological Currency` | 3 fields (status/affiliation/insider) | Yes | At least 1 of the 3 must be populated with a real mechanism per Step 4 — a mechanism mapped to none of the three is flagged gimmicky, not shipped as-is. |
+| `Multiplier` | ratio or count | Yes | Must be an estimated number (e.g., "1 brings 4"), not "many" — Built-in Recruitment requires a structural, countable dynamic. |
+
+---
+
 ## Quality Gate
 
 | Dimension | Minimum Standard |

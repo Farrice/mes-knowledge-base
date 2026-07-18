@@ -120,6 +120,18 @@ TOP 3 PRESCRIPTIONS:
 
 ---
 
+## Output Schema
+
+| Field | Type | Required | Notes |
+|---|---|---|---|
+| `Component Scores` | 5 scores /50 + 1 total /250 | Yes | All 5 components (Promise, Remarkability, Consistency, Metric Integrity, Culture) scored — no component left blank; total must equal the sum. |
+| `Grade` | enum from the Grade Scale | Yes | Derived mechanically from TOTAL — does not get assigned independently of the score. |
+| `Weakest Link` | component name + 1 named priority workflow | Yes | The priority workflow must be a real `/godin-*` workflow, not a generic "improve this" note. |
+| `Strongest Asset` | component name + 1 amplify action | Yes | |
+| `Top 3 Prescriptions` | 3 lines, each fix + workflow pairing | Yes | Each prescription names both the fix and which upstream Godin workflow addresses it — an unattributed fix fails the schema. |
+
+---
+
 ## Quality Gate
 
 | Dimension | Minimum Standard |

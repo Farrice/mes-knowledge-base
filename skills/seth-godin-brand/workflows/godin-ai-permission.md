@@ -125,6 +125,18 @@ SUMMER INTERN BOUNDARIES:
 
 ---
 
+## Output Schema
+
+| Field | Type | Required | Notes |
+|---|---|---|---|
+| `Current State` | 2 percentages + 1 verdict enum | Yes | Cost-reduction % and permission-deepening % must sum toward 100; verdict is Wrong path / Right path / Mixed, not freeform. |
+| `Techlas Vision` | 4 short answers | Yes | Must include at least one concrete "missed if gone" value — a feature with no missed-if-gone answer has failed Step 2. |
+| `Welcome & Missed Test` | pass-list + fail-list | Yes | Every proposed feature from Step 3's table must appear in exactly one list. |
+| `AI Buyer Defense` | vulnerability enum (high/medium/low) + 2 free-text fields | Yes | Unmeasurable-value field cannot be empty if vulnerability is medium or high. |
+| `Summer Intern Boundaries` | delegate-list + protect-list + 1 protocol line | Yes | Protect-list must be non-empty — a design with nothing protected has skipped Step 5. |
+
+---
+
 ## Quality Gate
 
 | Dimension | Minimum Standard |

@@ -133,6 +133,19 @@ FAME VS. TRUST REBALANCE:
 
 ---
 
+## Output Schema
+
+| Field | Type | Required | Notes |
+|---|---|---|---|
+| `Gajist Number` | integer (or "no ceiling identified") | Yes | Must be justified by a named bottleneck, not an arbitrary guess. |
+| `Quality Ceiling` | 3 short answers | Yes | Sacrifice threshold must name something the operator refuses to cut — a blank threshold means Step 1 wasn't actually run. |
+| `Customer Selection` | ideal-profile + stop-list + 1 future-pick line | Yes | Stop-pursuing list must be non-empty; "no one" fails Step 3's premise of active exclusion. |
+| `Freelancer Ladder` (solo operators only) | current rung → next rung → 2 rooms | Conditional | Required only when the operator is a freelancer/solo practitioner (Step 3.5); omit entirely for multi-person businesses rather than filling with placeholder text. |
+| `Fame vs. Trust Rebalance` | cut-list + double-down-list + new-list | Yes | At least 2 items in the cut-list, per the Quality Gate below. |
+| `"Enough" Definition` | 3 concrete values (revenue, customers, impact) | Yes | Each must be a number or a specific milestone — "as much as possible" fails the schema. |
+
+---
+
 ## Quality Gate
 
 | Dimension | Minimum Standard |

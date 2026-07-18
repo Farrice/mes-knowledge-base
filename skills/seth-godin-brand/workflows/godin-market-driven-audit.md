@@ -118,6 +118,18 @@ REALIGNMENT PRIORITY:
 
 ---
 
+## Output Schema
+
+| Field | Type | Required | Notes |
+|---|---|---|---|
+| `Current State` | enum: Marketing-Driven / Market-Driven / Operations-Driven | Yes | Must be backed by the Step 1 5-decision diagnostic, not asserted. |
+| `VW Diesel Risks` | 3 named decision areas | Yes | Each area must be a real, specific decision point — not a generic category like "operations." |
+| `Touchpoint Map` | ratio [X] of [Y] | Yes | Y must be ≥15 per the Quality Gate; a small Y (under-mapped) fails coverage. |
+| `Critical Gaps` | 3 items, each gap + risk + intervention | Yes | Intervention must name how marketing judgment gets inserted, not just flag the gap. |
+| `Realignment Priority` | 3 time-boxed actions (immediate/30-day/90-day) | Yes | Immediate action must address the single highest-risk gap identified in Critical Gaps. |
+
+---
+
 ## Quality Gate
 
 | Dimension | Minimum Standard |
