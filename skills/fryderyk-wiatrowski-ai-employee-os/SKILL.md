@@ -21,6 +21,8 @@ This skill is source-backed by the Viktor AI coworker talk. It is vendor-neutral
 - Evidence map: `extractions/video-context/ohKt066uFhg/evidence-map.md`
 - Extraction brief: `extractions/video-context/ohKt066uFhg/extraction-brief.md`
 - Operating contract: `semantic_libraries/antigravity/primitives/ai-employee-operating-contract.md`
+- Genius context (verbatim exemplars, source-attributed anti-patterns, recognition test): `skills/fryderyk-wiatrowski-ai-employee-os/genius.md`
+- Claim-by-claim source ledger: `skills/fryderyk-wiatrowski-ai-employee-os/references/source-ledger.md`
 
 ## Command Surface
 
