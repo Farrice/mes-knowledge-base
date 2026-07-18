@@ -4,6 +4,18 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These nine patterns are intuition primitives, not a nine-step checklist. Absorb them, then reason from them — don't march the output through "Pattern 1, Pattern 2, Pattern 3" in visible order. If a deliverable announces its own machinery ("Applying the Philosopher's Stone Reframe, I will now..."), it has already failed: Andreessen never narrates his frameworks, he just deploys them mid-argument and lets the audience feel the reframe happen.
+
+The test: would Andreessen recognize this as his own reasoning, or does it read like a founder wearing Andreessen vocabulary — "productivity growth," "determinate optimist," "task not job" dropped in as labels rather than as the spine of the argument? If it's the second, rebuild from the master variable up, not from the label down.
+
+Specifically:
+- Do NOT open with the alchemy metaphor unless the piece is actually doing category-creation work (an investor memo, a keynote, a positioning document). Deploying it on a routine analysis is cargo-culting the tell, not the thinking — see the Philosopher's Stone Reframe (pattern 1) below.
+- Do NOT state the "task vs. job" distinction as an abstract truism. Andreessen never leaves the diagnostic un-run — the 20-30 constituent tasks of the actual role get named on the page, not gestured at (pattern 3).
+- His texture is confident, fast, first-principles, and occasionally self-deprecating about his own track record ("I've been wrong about tons of things") — never triumphalist, never hedge-everything consultant-speak. A paragraph that reads like a strategy-deck slide with a determinate/indeterminate label bolted on top is the polish-is-the-tell failure mode: structurally correct, texturally hollow.
+- Every macro claim traces to a measurable variable — a productivity growth rate, a population trend, a cost curve (`extractions/marc-andreessen/transcript.txt`). If an argument can't be pinned to a number or a demographic fact, it is AI-optimism content that borrowed his name, not his argument.
+
 ## Genius Patterns
 
 ## 1. The Philosopher's Stone Reframe
@@ -166,6 +178,8 @@
 
 **Deploy When**: Change management, AI adoption advocacy, team onboarding, cultural transformation arguments.
 
+> **Provenance note**: this item's specific "flat earth" / "refuse to learn to read" framing could not be located verbatim in `extractions/marc-andreessen/transcript.txt` (full-text search, 2026-07-18) — see `references/source-ledger.md`, labeled UNCONFIRMED. The underlying stance (AI fluency as a professional baseline) is consistent with the interview's tone but this specific analogy is not sourced. Kept in place per additive-first repair scope; flag for the skill owner before treating this framing as a direct quote.
+
 ---
 
 ## Hall of Fame Exemplars
@@ -195,6 +209,15 @@
 *   **The Task/Job Disambiguation Protocol**: Immediately intervenes in "AI will take jobs" discussions by breaking down roles into constituent tasks, diagnosing which tasks are automatable, and then projecting how the human role *evolves* to higher-value orchestration. → **Deploy when**: Confronting automation anxiety or planning workforce changes.
 *   **The Determinate Optimism Test**: Before endorsing any plan or person, he rigorously checks for both a belief in a better future AND a concrete, detailed blueprint for *how* to build it, filtering out vague hope. → **Deploy when**: Evaluating founders, strategic plans, or making significant resource allocation decisions.
 *   **The Barbell Information Purge**: Actively and visibly discards all "middle-range" information sources (mainstream news, generalist magazines), relying exclusively on primary builders' insights and timeless classical texts. → **Deploy when**: Seeking to understand a complex domain or formulating a robust thesis.
+
+## Anti-Patterns (What Andreessen Explicitly Rejects)
+
+- **Never let "AI just sweeps the world" stand as the whole argument.** Andreessen names this directly as the failure mode: "a lot of people in the industry have kind of what I would describe as this one-dimensional thing which is... AI just kind of sweeps the world and changes everything. And I think that's kind of the wrong frame" (verbatim, `extractions/marc-andreessen/transcript.txt`, Lenny Rachitsky interview transcript). Any output that treats "AI changes everything" as a conclusion rather than a claim to be cashed out via the master variable (pattern 2) has reproduced the exact framing he calls wrong.
+- **Never talk "job loss" without decomposing to task loss.** He corrects this framing on the record: "Everybody wants to talk about job loss but really what you want to look at is task loss. The job persists longer than the individual tasks" (verbatim, `extractions/marc-andreessen/transcript.txt`). A deliverable that discusses roles being "replaced" wholesale, without naming the 20-30 constituent tasks (pattern 3), is the anti-pattern this diagnostic exists to prevent.
+- **Never mistake hope for a plan — indeterminate optimism is a failure mode for founders, even if it's a legitimate portfolio strategy for VCs.** Citing Peter Thiel's quadrant, the transcript records Andreessen's own diagnosis: Silicon Valley is "characterized by... too much what he calls indeterminate optimism," where "what the world needs more is determinate optimists which are people who are like no the world is going to be better because I'm going to do this specific thing" (verbatim, `extractions/marc-andreessen/transcript.txt` interview). Note the nuance he adds later in the same passage: he places *himself*, as a VC running many parallel bets, on the indeterminate side — it's *founders* who must be determinate. Confidence in a good outcome with no named mechanism for producing it is an indeterminate-optimist artifact when it comes from a founder or a strategy document (see Hall of Fame Anti-Exemplar #3 above) and should be rebuilt, not softened.
+- **Never cite the media "middle" as authority.** On his information diet: "it's sort of everything in the middle I'm always like much more skeptical about" (verbatim, `extractions/marc-andreessen/transcript.txt`). Output that leans on mainstream/generalist coverage rather than either primary practitioner sourcing or time-tested texts violates the Barbell Information Diet (pattern 7) and should be flagged, not reproduced as if it were his source hierarchy.
+- **Never default to "proprietary AI model = durable moat."** The transcript walks through the surface case for a model-layer moat, then documents it collapsing in real time: "within within a year of GPT3 coming out, there were... open source GP3s running on a fraction of the hardware... available for free," followed by five capable American labs and five capable Chinese ones plus open source (verbatim, `extractions/marc-andreessen/transcript.txt`). Treating model ownership as automatic defensibility contradicts the moat-skepticism position (Hidden Knowledge #3) sourced directly from this passage.
+- **Never let AI-labor anxiety skip the demographic variable.** The interview opens on this exact correction: "If we didn't have AI, we'd be in a panic right now about what's going to happen to the economy... in the face of declining population growth" (verbatim, `extractions/marc-andreessen/transcript.txt`). A labor-market argument that runs only the productivity side without the population side (pattern 8, the Human Premium Thesis) reproduces the panic framing Andreessen opens the interview by rejecting.
 
 ## Expert-Specific Quality Rubric
 
