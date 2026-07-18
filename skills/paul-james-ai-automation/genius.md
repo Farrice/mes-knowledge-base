@@ -2,7 +2,49 @@
 
 > Load this file before executing any workflow. It contains the full
 > extraction intelligence — patterns, tacit knowledge, and operating
-> principles that make this expert's output actually work.
+> principles that make this expert's output actually work. Primary source:
+> 9 verbatim YouTube-transcript extractions of Paul James (transcribed by
+> the "Merlin AI" service), dated 2026-01-04 through 2026-01-21, recovered
+> from `_archive/claude-export-2026-07-01.tar.gz` →
+> `claude-export/normalized/conversations/*.md`. Full file-by-file index
+> with VERIFIED/LIKELY/UNCONFIRMED labels: `references/source-ledger.md`.
+
+---
+
+## How to Use This Skill (Model Calibration)
+
+These 14 patterns are intuition primitives, not a checklist. Absorb them,
+then build originally — if the output visibly marches through "Pattern 1,
+Pattern 2, Pattern 3" in order, or announces "Here's my Zero-Cost
+Positioning Flip," you have failed. The test: would Paul James recognize
+this as *him pitching a real client on a real Tuesday* — or as someone
+reciting his vocabulary back at him? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which patterns you applied unless asked. Paul never
+  says "I'm using the SaaS Cost Anchor now" — he just opens with "$481
+  every single month" and lets the number do the work (2026-01-09,
+  *"Gemini 3 Pro Just ENDED Four $100+ Subscriptions"*).
+- Do NOT skip the vulnerability beat and jump straight to the pitch. His
+  authority rests on the "brother's garage" line landing before the
+  mechanism does — competence without the scar reads as generic
+  AI-consultant copy (see Anti-Exemplar below).
+- His texture is spoken-video, not written-memo: a rhetorical question up
+  top ("What if you could build custom AI tools without touching a single
+  line of code?"), then a running disclaimer he repeats near-verbatim
+  across every video — "I won't try and sell you go highlevel because
+  there's free tools out there now that do the same thing just as good."
+  Reproduce the RHYTHM of that disclaimer's function (a trust-building
+  refusal before the ask), never the literal sentence — that is his
+  catchphrase, not a template to fill in.
+- Polish is the tell-class warning: if a draft reads like a case study
+  instead of a video script, it is wrong for his medium. Every dollar
+  figure should be a *stacked, specific* comparison ("$129 for Semrush,
+  $99 for Ahrefs, $240 for market research platforms, and $12.99 for
+  Canva Pro. That is $481 every single month") — never a rounded
+  "hundreds of dollars a month."
+
+---
 
 ## Genius Patterns
 
@@ -14,6 +56,8 @@
 **Execute**: Lead with cost elimination. State typical expense, then reveal free alternative delivers equivalent results. Create instant credibility with budget-conscious audiences.
 
 **Success Metric**: Prospect immediately sees you as ally against predatory SaaS pricing.
+
+**Real-world anchor** (2026-01-18, *"Google Gemini's NEW Super Gems DESTROYS $99/Month Automation Tools"*, transcript): "every automation platform wants $50 to $99 per month" — names the exact SaaS tax before naming the free fix.
 
 ---
 
@@ -50,6 +94,8 @@
 
 **Success Metric**: Inbound leads requesting custom work after using free tool.
 
+**Real-world anchor** (2026-01-18, Super Gems transcript): "You can distribute these workflows by sending people a URL they click that transforms them into lead generation magnets" — the free tool pre-qualifies before a sales conversation exists.
+
 ---
 
 ## Pattern 7: Agency Arbitrage Positioning
@@ -63,6 +109,8 @@
 **Execute**: Design workflows as ecosystems. When solving one problem, identify 2-3 adjacent problems and build solutions. Layer services so clients rely on multiple workflows.
 
 **Success Metric**: Average client uses 3+ workflows, creating natural retention.
+
+**Real-world anchor** (2026-01-18, Super Gems transcript): "A real estate agent using your listing description tool probably also needs an email follow-up system. A consultant using your meeting processor probably also needs a proposal builder."
 
 ---
 
@@ -78,12 +126,16 @@
 
 **Success Metric**: Recognition as go-to expert before market saturation.
 
+**Real-world anchor** (2026-01-18, Super Gems transcript): "Starting early means you master the system before widespread adoption. That advantage converts into expertise that clients pay premium rates to access."
+
 ---
 
 ## Pattern 11: Vulnerability-to-Authority Bridge
 **Execute**: Reference personal constraints that mirror audience's situation, then show how you overcame them. Authenticity without competence fails; competence without authenticity feels distant.
 
 **Success Metric**: Audience sees themselves in your story AND believes in your expertise.
+
+**Real-world anchor** (2026-01-18, Super Gems transcript): "When I was starting out and living in my brother's garage, I did not have budget for premium tools." The same beat recurs, near-verbatim, across at least five of his videos between 2026-01-04 and 2026-01-18 — this is a signature move, not a one-off.
 
 ---
 
@@ -106,6 +158,32 @@
 
 **Success Metric**: Audience takes immediate action toward painted vision.
 
+---
+
+## Anti-Patterns
+
+Failure modes Paul James names explicitly (or by direct contrast) in his own source material — not inferred from theory. Every item below carries a verbatim quote, the video it came from, and the date it was harvested.
+
+- **Raw-output dumping**: presenting research or AI output unedited instead of curating it into a deliverable. Paul James, 2026-01-21, *"Perplexity + Google NotebookLM ENDED $2,000 Market Research"* (transcript, https://www.youtube.com/watch?v=umc4vXfE1xY): "Now, here's the part where most people stop and try to copy paste this into a Google doc. Do not do that."
+- **Single-mode tool usage**: treating a multi-mode research tool like a basic search box and never touching its deeper capability. Paul James, 2026-01-05, *"This Perplexity Feature is CRUSHING How Agencies Charge"* (transcript, https://www.youtube.com/watch?v=gRGULoe9WiI): "Most people open it up, type in a question, get an answer, and close the tab. That is like buying a Ferrari and only driving it in first gear."
+- **One-and-done tool building**: shipping a single tool and stopping instead of layering adjacent workflows into a retention ecosystem. Paul James, 2026-01-18, *"Google Gemini's NEW Super Gems DESTROYS $99/Month Automation Tools"* (transcript, https://www.youtube.com/watch?v=9RdGqmSiuyo): "Do not construct one tool and stop. Develop a collection of tools that address connected challenges."
+- **Non-compounding delivery**: solving a client's problem once and letting the expertise evaporate into a dead project folder instead of packaging it as a reusable asset. Paul James, 2026-01-20, *"Google NotebookLM + Gems ENDED $1,500/Month Consulting"* (transcript, https://www.youtube.com/watch?v=gQmzZ3LfR38): "That knowledge just disappears into old project folders... Your expertise never compounds. You are basically trading time for money with zero leverage built in."
+- **Unqualified call-taking**: accepting every discovery call with no pre-filter, burning time on prospects who were never going to close. Paul James, 2026-01-04, *"Google Gems KILLED $297/Month Lead Gen Tools"* (transcript, https://www.youtube.com/watch?v=YMKIcOWAVrY): "15 minutes in, you realize they have a $75 budget they are not ready to start for 6 months or they fundamentally do not understand what problem they actually need solved."
+- **Subscription stacking**: defaulting to a separate paid tool for every job instead of consolidating onto one capable free-or-cheap platform. Paul James, 2026-01-09, *"Gemini 3 Pro Just ENDED Four $100+ Subscriptions"* (transcript, https://www.youtube.com/watch?v=I_W-9gAfCHc): "Most freelancers are paying $129 for Semrush, $99 for Ahrefs, $240 for market research platforms, and $12.99 for Canva Pro. That is $481 every single month just to stay competitive."
+- **Generic AI-consultant pitch**: buzzword-first positioning with no named industry, role, or problem — see the Anti-Exemplar below, sourced from this skill's own genius.md (`skills/paul-james-ai-automation/genius.md`, Anti-Exemplar section): "leverage cutting-edge AI technologies," "optimize their workflows," "unlock new growth opportunities" — riddled with filler ("leverage," "optimize," "synergy," "digital transformation") that conveys no concrete value.
+
+---
+
+## Recognition Test
+
+Would Paul James recognize this as his — or as generic AI-consultant copy wearing automation vocabulary? Run the check line by line:
+- Is there a *specific* dollar figure stacked against a *specific* SaaS/agency cost (e.g., "$481 every single month," not "significant savings")? A rounded or invented number fails — check `references/source-ledger.md` before inventing one.
+- Is there a named industry + named role + named problem (real estate agent / property description, gym owner / retention rate), or does it default to "businesses" and "solutions"?
+- Does the vulnerability beat land before the mechanism — "living in my brother's garage" energy — or does the draft open straight into features?
+- Does it avoid the buzzword cluster he mocks in his own worst-case framing ("leverage," "optimize," "synergy," "digital transformation" — see Anti-Exemplar) while still using "leverage" the one way he actually means it: turning a free tool into income, not corporate-speak?
+
+If two or more of these fail, the output would not survive Paul James watching his own video back — rebuild before shipping.
+
 ## Hidden Knowledge
 
 Tacit insights for zero-cost workflow monetization.
@@ -117,12 +195,16 @@ Tacit insights for zero-cost workflow monetization.
 
 **Deploy**: Sell results, not education. Clients buy hours recovered, not workflow building skills.
 
+**Real-world anchor** (2026-01-18, Super Gems transcript): "you are delivering the finished service at price points accessible to small businesses."
+
 ---
 
 ## 2. The Platform Arbitrage Window
 **Insight**: Google is developing Super Gems into complete automation platform competing with paid alternatives. This is a temporary arbitrage window where enterprise-grade capabilities exist without enterprise pricing.
 
 **Deploy**: Move fast. Build expertise and client base before platforms mature and monetize.
+
+**Real-world anchor** (2026-01-06, *"Google Gems is CRUSHING $300B Industry"*, transcript): "The consulting market is worth $300 billion and most of it is packaged intelligence sold at hourly rates. Google gems just exposed that game."
 
 ---
 
@@ -131,12 +213,16 @@ Tacit insights for zero-cost workflow monetization.
 
 **Deploy**: Structure every offer as monthly service with unlimited usage, not one-time project.
 
+**Real-world anchor** (2026-01-18, Super Gems transcript): "You collect recurring revenue from free infrastructure."
+
 ---
 
 ## 4. The "Hours and Revenue" Translation Layer
 **Insight**: Paul automatically translates technical capabilities into business outcomes (hours saved, revenue protected). This translation separates technical experts who struggle to sell from builders who monetize easily.
 
 **Deploy**: Never describe what a workflow does. Describe what hours it recovers and revenue it protects.
+
+**Real-world anchor** (2026-01-18, Super Gems transcript): "give a business owner back five hours weekly... they happily pay monthly to preserve that advantage."
 
 ---
 
@@ -145,9 +231,13 @@ Tacit insights for zero-cost workflow monetization.
 
 **Deploy**: Let prospects use your work before asking for money. The sale happens after value delivery.
 
+**Real-world anchor** (2026-01-18, Super Gems transcript): "Someone tests your free tool, experiences how effective it is, then hires you to develop something tailored for their operation."
+
 ---
 
 ## Hall of Fame Exemplars
+
+> **Provenance note**: the two scenarios below are illustrative compositions built from the extracted patterns — they do not appear verbatim in any of the 9 sourced transcripts (checked directly; see `references/source-ledger.md`). Treat dollar figures and product names inside them as UNCONFIRMED-as-real-events, useful only as a demonstration of pattern combination, never as a citable Paul James claim.
 
 ### Exemplar 1: "The Agency Slayer" Workflow
 **Scenario**: A regional marketing agency is struggling with the high cost and complexity of a specialized CRM and content scheduling SaaS ($600/month) for their 10 clients.
@@ -186,10 +276,13 @@ Tacit insights for zero-cost workflow monetization.
 *   **The "Puzzle Piece Breakdown"**: When describing a complex automation, he will invariably break it down into simple, single-function "puzzle pieces" or "checkpoints" using non-technical, visual metaphors. → **Deploy when**: Educating a non-technical client about a workflow, or designing a new modular system.
 *   **The "Free Tool Credibility Loop"**: Before asking for any commitment or payment, he designs and offers a completely free, immediately useful tool that solves a minor but real problem for the target audience. → **Deploy when**: Generating leads, building authority, or establishing trust with a cold audience.
 *   **The "Dependency Layering Map"**: Upon solving a core problem for a client, he immediately maps out 2-3 adjacent, related problems that his next set of workflows can address, creating a natural service expansion plan. → **Deploy when**: Completing a project, onboarding a new client, or planning long-term client retention.
+*   **The "No-GoHighLevel" Disclaimer**: Near-verbatim across every sourced video (2026-01-04 through 2026-01-21): "I won't try and sell you go highlevel because there's free tools out there now that do the same thing just as good." A trust-building refusal, delivered before any ask. → **Deploy when**: Opening or closing any pitch — it pre-empts the "he's just selling me something" objection.
 
 ## Quality Rubric
 
 > Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+
+**Real-world anchor** (2026-01-21, *"Perplexity + Google NotebookLM ENDED $2,000 Market Research"*, transcript): "You charge $300 to $500 per report depending on complexity" — the Score-10 "Zero-Cost Advantage" criterion in the rubric is calibrated against this exact range, not a rounded estimate.
 
 ---
 
@@ -202,3 +295,8 @@ Tacit insights for zero-cost workflow monetization.
 **Result**: Baseline composite 6.7 (Intent 7, Expert 7, Adversarial 6) → Variant composite 9.0 (Intent 9, Expert 9, Adversarial 9). Delta: +2.3.
 **Key insight**: Pattern 4 (Time-Recovery Value Prop) was only used as a sales technique. Elevating it to a structural gate — where low-ROI automations get killed before design begins — makes the entire downstream workflow more focused and credible.
 **Verdict**: KEPT.
+
+### Evolution 2 — Source Recovery + Heartbeat Repair (2026-07-18)
+**What changed**: Recovered 9 verbatim Paul James transcript sources (2026-01-04 through 2026-01-21) from `_archive/claude-export-2026-07-01.tar.gz`, previously undocumented in this skill. Added `## How to Use This Skill (Model Calibration)`, `## Anti-Patterns` (7 sourced items), `## Recognition Test`, and real-world anchor lines to the 11 pattern/hidden-knowledge sections that previously carried no proper noun, number, or quote. Full audit: `references/source-ledger.md`, `PROVENANCE.md`.
+**Key insight**: The original extraction never persisted its own source transcripts into `extractions/` — they were only recoverable from an unrelated claude.ai conversation export archive. Every skill built this way should be checked against `_archive/claude-export-2026-07-01.tar.gz` before its sources are declared absent.
+**Verdict**: Repair only — no pattern content changed, no composite re-scored (heartbeat-check repair, not a content-quality evolution cycle).
