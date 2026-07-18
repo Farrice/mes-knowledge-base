@@ -50,6 +50,13 @@ If stacking with another expert, load their skill and apply compound methodology
 
 ---
 
+## Output Contract
+The user receives a **Domain-Specific Comedy Strategy**, containing:
+1. **DA Identification**: Which of the 10 Domain Applications was deployed and why it fits the task.
+2. **Domain-Native Output**: The deliverable in the shape that DA prompt specifies (e.g., DA-1 Copywriting Dominance returns comedy-infused copy blocks; DA-7 Market Intelligence returns a comedy-lens competitive read) — never a generic joke list bolted onto the domain.
+3. **Compound Note (if applicable)**: Which second expert was stacked in and what each contributed.
+4. **Deployment Guidance**: 1-2 sentences on where/how this strategy gets used inside the domain (a sales page, a positioning doc, a content calendar, etc.).
+
 ## Quality Gate
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

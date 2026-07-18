@@ -4,6 +4,19 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+---
+
+## How to Use This Skill (Model Calibration)
+
+Robert Mack's patterns are intuition primitives, not a checklist. Internalize the mechanics — pattern-break, tension-release, benign violation, vivid specificity — then write like a comedian building a joke, not like an analyst summarizing one.
+
+- Do NOT announce which pattern you're using ("Applying the Skewed Perspective Engine here..."). Execute the reframe; never narrate the machinery.
+- Do NOT stack all 11 comedy filters into one output "to be thorough." Mack builds a joke on ONE or TWO filters and cuts the rest — over-application reads as a fireworks display, not a landed joke.
+- His texture is conversational and built from real observation ("my mother-in-law weighs a thousand pounds," "that guy's seven feet tall") — never abstract category-language ("this demonstrates irony"). If the output explains the mechanism instead of executing it, rebuild.
+- Polish is the tell-class failure here specifically: a joke that reads as clean, safe, and inoffensive on every axis has almost certainly lost its Benign Violation — it never went near the edge, so there's nothing for the punchline to resolve against. The test: would Robert Mack recognize this as his own joke-engineering — pattern-break, benign violation held then released, a single bridge-word doing the work — or as someone using comedy vocabulary without ever building a joke? If it's the second, rebuild.
+
+---
+
 ## Genius Patterns
 
 ## 1. Skewed Perspective Engine
@@ -25,6 +38,8 @@
 **Deploy When**: Rule of three content, copywriting payoffs, headline structures, presentation reveals, any setup-punchline architecture.
 
 **Success Metric**: The audience completes your setup in their mind, gets something different, and laughs at the gap.
+
+**Robert Mack, in his own words**: "If I say Romeo, you think Juliet. If I say peanut butter, jelly." — the brain autocompletes the pattern before the punchline ever arrives.
 
 ---
 
@@ -92,6 +107,8 @@
 
 **Success Metric**: The punchline appears to come from nowhere but lands perfectly because the audience already had the context.
 
+**Robert Mack, in his own words**: "That guy's seven feet tall. He has a joke about being seven feet tall. He doesn't have to say, 'I'm taller than [everyone here].' The audience knows it before he's even taken the mic."
+
 ---
 
 ## 9. Word Selection as Architecture
@@ -125,6 +142,8 @@
 
 **Success Metric**: First joke/hook connects immediately. Zero blank stares.
 
+**Robert Mack, in his own words**: "If I did an Ella Fitzgerald reference that wouldn't work, but if I did Beyoncé it would. So you have to know where your audience is."
+
 ---
 
 ## 12. The Observation-to-Bit Pipeline
@@ -153,6 +172,8 @@
 **Why Others Miss This**: People either play it too safe (boring) or cross the line (offensive). The master calibration is: how close to the edge can you go while keeping it safe? This threshold shifts by audience, culture, and time elapsed since the event.
 
 **Deploy When**: Writing edgy marketing copy. Navigating sensitive topics with humor. Brand voice calibration. Crisis communications.
+
+**Robert Mack, in his own words**: "I can make Polish jokes because I'm Polish. That I can't make a Mexican joke because now I'm talking about them" — proximity is the calibration dial, not the subject matter.
 
 ---
 
@@ -208,7 +229,20 @@
 
 **Deploy When**: Recovering from content that flopped. Bouncing back from presentation failures. Managing creative confidence. Maintaining output velocity despite inevitable misses.
 
+**Robert Mack, in his own words**: "If the last show you do is horrible, the only way to get rid of that stench is to perform another show."
+
 ---
+
+## Anti-Patterns
+
+Failure modes Robert Mack calls out directly, each grounded in the transcript, not inferred:
+
+- **Never over-explain the punchline** — Mack diagnoses this as the defining trait of "a bad storyteller" who "shares the wrong details and gets caught up on the wrong details" instead of trusting the audience to complete the thought (source: extractions/comedy-writing/transcript.txt, How I Write podcast interview with David Perell).
+- **Never carry unnecessary backstory into a bit** — his own rule for the taxi-driver bit: "You don't need to know what he was wearing, where he was driving to, what day of the week it was" — a story is only the important things that happened (source: extractions/comedy-writing/transcript.txt, How I Write podcast interview).
+- **Never pick a bridge-word that resolves the ambiguity too early** — testing "uniform" against "outfit" for the nurse joke, he rejects it outright: "Uniform. Too serious. There's none of the roleplaying" (source: extractions/comedy-writing/transcript.txt, How I Write podcast interview).
+- **Never let a benign violation tip into real harm** — his own calibration line: a banana-peel fall is funny because "people shouldn't slip on banana peels," but if the person "didn't get up and a pool of blood started," the same premise stops being funny (source: extractions/comedy-writing/transcript.txt, How I Write podcast interview).
+- **Never deploy a cultural reference the audience hasn't earned** — his own audience-calibration failure case: "If I did an Ella Fitzgerald reference that wouldn't work, but if I did Beyoncé it would" (source: extractions/comedy-writing/transcript.txt, How I Write podcast interview).
+- **Never try to think your way out of a bad set** — his own recovery rule: "the only way to get rid of that stench is to perform another show" — analysis doesn't heal a flopped bit, reps do (source: extractions/comedy-writing/transcript.txt, How I Write podcast interview).
 
 ## Hall of Fame Exemplars
 

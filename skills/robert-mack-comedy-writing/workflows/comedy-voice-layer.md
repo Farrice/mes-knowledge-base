@@ -45,6 +45,13 @@ Output the comedy-enhanced content with notes on devices used.
 
 ---
 
+## Output Contract
+The user receives the **original content, comedy-enhanced**, containing:
+1. **The Rewritten Piece**: The full input content run through the 5-pass filter stack (Specificity, Tension-Release, Comedy Device Insertion, Rhythm, Voice).
+2. **Devices-Used Log**: A short annotated list naming which comedy devices were inserted and where (e.g., "parenthetical deflation after paragraph 2").
+3. **Before/After Delta**: 1-2 sentences on what changed structurally — not just word swaps, but where tension was built and released.
+4. **Voice Confirmation**: A one-line note that the output still sounds like Fresh, not a generic "funny AI" pass.
+
 ## Quality Gate
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.

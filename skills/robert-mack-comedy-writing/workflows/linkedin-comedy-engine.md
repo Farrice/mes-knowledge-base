@@ -48,6 +48,13 @@ Output the finished post with comedy devices annotated.
 
 ---
 
+## Output Contract
+The user receives a **finished LinkedIn post**, containing:
+1. **The Post**: Full text, formatted for LinkedIn (short lines, white space, hook on line 1).
+2. **Post-Type Tag**: Which of the 5 types it is (Audit Post, Contrarian Reframe, Psychology Post, Year-by-Year, Fake Survey).
+3. **Comedy Devices Used**: Named list of which mechanics were deployed (e.g., Bait-and-Switch hook, Rule-of-Three close).
+4. **Algorithm Notes**: 1-2 sentences on the scroll-stop mechanism in the hook and the engagement-close mechanism.
+
 ## Quality Gate
 
 > **🛡️ Anti-Pattern Check**: Before delivering, review output against the **Anti-Patterns** in `genius.md` § Anti-Patterns. Flag and fix any violations. Cross-reference **Voice DNA** for tonal accuracy.
