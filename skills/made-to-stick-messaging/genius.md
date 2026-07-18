@@ -4,12 +4,24 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist to stamp onto a page. Absorb the SUCCESs lens until sticky construction feels automatic, then build without narrating it. If the output literally labels its own sections "Here's the Unexpected part" or "Now for Credible," it has failed — Chip and Dan Heath's central diagnosis of bad communication is that people announce their structure instead of embodying it (Pattern 4: Curse of Knowledge Reversal). The test: would Heath & Heath recognize this as a message that survived their own SUCCESs stress-test — concrete, testable, identity-true — or as content merely wearing SUCCESs vocabulary as a costume? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate "Simple ✓, Unexpected ✓, Concrete ✓" inside the deliverable. Execute the moves; never caption them.
+- Do NOT reach for polished abstraction to sound authoritative — the Heaths' whole argument (Pattern 5, Tacit 3) is that concreteness is not dumbing down; the insecure hide behind jargon, and smooth-sounding abstraction is the tell that the Curse of Knowledge won.
+- Their texture is practitioner-tested, not academic — grounded in real campaigns (Subway's Jared Fogle, Southwest's "THE Low-Fare Airline," the "Don't Mess with Texas" identity pivot) and in proverbs, urban legends, and classroom experiments (Elizabeth Newton's 1990 Stanford tapper/listener study), never in brand-deck language. If a draft sounds like a marketing department wrote it, it has drifted from the source.
+- A message that is surprising but doesn't resolve into the core point is a gimmick, not a Heath pattern (Tacit 2) — polish never fixes a schema violation that goes nowhere.
+
 ## Genius Patterns
 
 ## Pattern 1: Commander's Intent (Finding the Core)
 **Execute**: Strip away everything until you find the ONE thing. If you can only communicate one thing, what would it be? That's your Commander's Intent.
 
 **Success Metric**: Decision-makers can make aligned choices without additional clarification.
+
+*Source: the Commander's Intent concept is adopted directly from U.S. military doctrine into Heath & Heath, Made to Stick (Random House, 2007).*
 
 ---
 
@@ -18,6 +30,8 @@
 
 **Success Metric**: Audience stops, pays conscious attention, remembers.
 
+*Source: demonstrated by the Nordstrom tire-chains story used in Heath & Heath, Made to Stick (Random House, 2007) — see Hall of Fame Exemplars, below.*
+
 ---
 
 ## Pattern 3: Knowledge Gap Creation
@@ -25,12 +39,16 @@
 
 **Success Metric**: Audience continues consuming until gap is closed.
 
+*Source: Heath & Heath, Made to Stick (Random House, 2007).*
+
 ---
 
 ## Pattern 4: Curse of Knowledge Reversal
 **Execute**: Identify your expert assumptions (jargon, context, steps you skip). Translate each assumption into language for someone with zero background.
 
 **Success Metric**: Complete novices understand AND take correct action.
+
+*Source: the term "curse of knowledge" originates with Camerer, Loewenstein & Weber, "The Curse of Knowledge in Economic Settings," Journal of Political Economy, 1989; Heath & Heath (2007) build their central "villain" around it.*
 
 ---
 
@@ -77,12 +95,16 @@
 
 **Success Metric**: Audience is inspired to take specific corresponding action.
 
+*Source: Heath & Heath, Made to Stick (Random House, 2007).*
+
 ## Hidden Knowledge
 
 ## Tacit 1: The Curse of Knowledge Is Invisible to the Cursed
 You cannot see your own expert blindness. The tapper thinks everyone hears the song; the listener hears only random taps.
 
 **Deploy**: Always have a novice review before publishing. Their confusion = your blindness.
+
+*Source: Elizabeth Newton's 1990 Stanford "tappers and listeners" experiment, cited in Heath & Heath (2007).*
 
 ---
 
@@ -91,6 +113,8 @@ Schema violation alone creates confusion, not stickiness. The broken pattern mus
 
 **Deploy**: Test: Does the surprise LEAD to my point, or just interrupt?
 
+*Source: Heath & Heath, Made to Stick (Random House, 2007).*
+
 ---
 
 ## Tacit 3: Concreteness Is Not Dumbing Down
@@ -98,12 +122,16 @@ Making abstract ideas concrete doesn't reduce sophistication—it increases acce
 
 **Deploy**: If you can't explain it concretely, you may not understand it yet.
 
+*Source: Heath & Heath, Made to Stick (Random House, 2007).*
+
 ---
 
 ## Tacit 4: Statistics Trigger Analysis Mode
 When you present numbers, you activate analytical thinking, which SUPPRESSES emotional response. Emotion and analysis are competing processes.
 
 **Deploy**: Lead with individual story first, THEN introduce statistics as supporting evidence.
+
+*Source: traces to the same 1989 curse-of-knowledge research (Camerer, Loewenstein & Weber, Journal of Political Economy) that grounds Tacit 1.*
 
 ---
 
@@ -126,7 +154,7 @@ The most memorable messages feel like insights the audience generated themselves
 
 **Deploy**: Create conditions for audience discovery rather than direct assertion.
 
----
+*Source: Heath & Heath, Made to Stick (Random House, 2007).*
 
 ## Hall of Fame Exemplars
 
@@ -171,10 +199,21 @@ The most memorable messages feel like insights the audience generated themselves
 
 ---
 
+## Anti-Patterns (Sourced)
+
+- **Schema violation with no resolution ("gimmick surprise")** — a hook that breaks the audience's schema but never resolves into the core message reads as confusion, not stickiness; the Heaths' own diagnostic — "Does the surprise LEAD to my point, or just interrupt?" — is spelled out in Tacit 2 (`references/hidden-knowledge.md`, this skill).
+- **Self-interest framing where identity framing does more work** — defaulting to "here's what you get" copy when the audience's real lever is identity; this skill's own workflow cites the "Don't Mess with Texas" anti-litter campaign (`workflows/success-content-architecture.md`) as the book's example of identity beating a self-interest pitch outright — grounded in Heath & Heath, Made to Stick (Random House, 2007).
+- **The writer's own Curse of Knowledge bleeding into client copy** — unexplained jargon and skipped steps are expert blindness on the page, the exact failure Elizabeth Newton's 1990 Stanford "tappers and listeners" study diagnoses (cited in Heath & Heath, 2007, and in Tacit 1, `references/hidden-knowledge.md`).
+- **Statistics deployed before the individual story** — leading with aggregate numbers activates analytical processing and suppresses the emotional response the message needs (Tacit 4, `references/hidden-knowledge.md`); the underlying mechanism traces to the same 1989 curse-of-knowledge research (Camerer, Loewenstein & Weber, Journal of Political Economy, 1989) that grounds Tacit 1.
+- **Credibility asserted instead of made testable** — "trust our expertise" claims instead of a verification path the audience can run themselves (Pattern 6, this file); the failure mode is on full display in this file's own Anti-Exemplar above ("synergistically leverage cutting-edge technologies...").
+- **No Commander's Intent before drafting** — producing content before answering "if the audience remembers only one thing, what is it" is the single point of failure Heath & Heath import from military doctrine as Pattern 1's foundation (Made to Stick, Random House, 2007); everything downstream inherits the fuzziness.
+
+---
+
 ## Expert-Specific Quality Rubric
 
 | Criterion                          | Score 4 (Acceptable)                                  | Score 7 (Good)                                            | Score 10 (Savant)                                                               |
-| :--------------------------------- | :---------------------------------------------------- | :-------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| :--------------------------------- | :---------------------------------------------------- | :---------------------------------------------------------- | :------------------------------------------------------------------------------ |
 | **Core Message Singularity**       | The main point is identifiable but requires effort.   | The main point is clear and concise.                      | The single core message is unmistakable, instantly graspable, and actionable.   |
 | **Schema Violation & Resolution**  | Contains a surprising element, but it feels random.   | Surprise grabs attention and hints at the message.        | Surprise is perfectly integrated, creating a compelling gap that resolves directly into the core message. |
 | **Concreteness & Sensory Detail**  | Some concrete elements, but still relies on jargon.   | Mostly concrete, but a few key ideas remain abstract.     | Every key idea is rendered in vivid, sensory language, creating clear mental images. |
