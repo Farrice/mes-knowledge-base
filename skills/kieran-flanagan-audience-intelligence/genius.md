@@ -4,6 +4,19 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives for building audience intelligence, not a fill-in-the-blank template. Kieran on his own method, describing the audience profile he's most proud of: *"I have perfected this. This is really good. It took me 12 months to kind of go back and forth"* (transcript, `extractions/kieran-flanagan/transcript.txt`) — the craft is iterative pattern-recognition against real engagement data over months, not a first-pass checklist run once and shipped.
+
+Specifically:
+- Do NOT announce the machinery. Never label an output "Content-Reactive Audience Profile — Pattern 1 applied" or narrate which anti-vocabulary tier a word came from. Kieran ships plain MD files (and an HTML view purely so he can show them on camera) — the reader never sees "Pattern 3: 80/20 Anti-Vocabulary Principle" stamped on the page.
+- Do NOT invent engagement data to sound rigorous. Kieran's method inverts the usual failure: profiles come FROM real comments/shares/saves, never from imagined personas — *"this is not like an ICP, right? This is actually content they react to and it's all based upon research and engagement data"* (transcript). If no performance data exists, say so and fall back to `/style-from-creator` rather than fabricating a "top 30%" filter when there's no dataset to filter.
+- His texture when he's excited about a pattern is blunt and system-minded — "messy," "dope," "pretty cool," "spicy take," not consultant-hedge language. A style card or profile that reads like an agency deliverable (clean, hedged, jargon-heavy) has drifted from how he actually talks about this work, even though the audience-facing artifact itself should still read clean for the client using it.
+- Polish-as-tell shows up as a specific failure here: a profile with zero "don't say" entries, or a style card that's 90% positive vocabulary, is the exact generic-AI failure mode this system exists to eliminate — negative space isn't optional texture, it's the mechanism (see Pattern 5).
+- The test: would Kieran recognize this as a profile built from what a real audience actually rewarded, or as someone using ICP vocabulary dressed up as content-reactive research? If it's the second, rebuild from the performance data up.
+
+---
+
 ## Genius Patterns
 
 ## Pattern 1: Content-Reactive Audience Profiling
@@ -51,6 +64,22 @@
 **Execute**: Effective style cards allocate 40-60% of their content to describing what NOT to do. What the creator would never say, formats they'd never use, tones that feel wrong. Only describing what TO do produces generic output because there are infinite ways to do something "right" but very specific ways that feel "wrong" for a creator.
 
 **Success Metric**: Style card has equal or greater "don't" constraints as "do" directives.
+
+---
+
+## Anti-Patterns
+
+Grounded in Kieran's own words from `extractions/kieran-flanagan/transcript.txt` (YouTube, "I Built an AI Team That Creates All My Content," Kieran's show *Marketing Against the Grain* — the source transcript repeatedly self-identifies the show by name; treat the "Greg Isenberg Show" line in `extraction-report.md`'s header as an unverified mislabel, see source-ledger). What he explicitly rejects or self-corrects when the system misfires.
+
+- **Never post the raw first draft.** On his own story-spark output: *"first draft when you look at this, I do not use this to post content"* (transcript). A generated draft is Stage 1 of a human pass, never the finish line — treat every skill output this way regardless of how polished it reads.
+- **Never ship an unpolished hook.** After running the post enricher on his own content: *"So obviously I would never ship this"* (transcript). A generated hook that reads "adequate" is still a rewrite candidate — route it back through the hook skill before it goes near a platform.
+- **Never ignore a flop — feed it back into the profile.** Reviewing his own performance data: *"This one sucked. It was my worst performing post. People did not like a product position"* (transcript). Underperforming content isn't discarded silently; it's the input that corrects next month's audience profile and style card — the system is built to learn from misses, not just wins.
+- **Never mistake drag-and-drop workflow tools for this system.** Distinguishing his approach from earlier automation tooling: *"I was never a big fan of the kind of vibe marketing where it was workflow tools because it's not vibing. You have to actually drag and drop all the workflows together. This is not software"* (transcript). The anti-pattern is building this as a rigid workflow-builder UI instead of composable, conversational skills.
+- **Never trust auto-scraped platform data at face value.** On the writing-style skill's source gathering: *"Firecrawl doesn't have a great time getting LinkedIn posts so it has a lot of substack... you could just have to go and like export your own files to upload"* (transcript). When a platform's content can't be reliably scraped, the anti-pattern is silently proceeding on thin data — name the gap and get a manual export instead.
+- **Never cut-and-paste enrichment output straight to publish.** On how people misuse the post enricher: *"too many people will use these cut and paste. That's not how you do that, right?"* (transcript). Enrichment injects research, it doesn't produce a finished post — skipping the human integration pass is the exact failure mode he's calling out.
+- **Never confuse a static ICP for a content-reactive profile.** His own distinction, stated directly: *"this is not like an ICP, right? This is actually content they react to"* (transcript). Treating a demographics-first persona as interchangeable with an engagement-derived profile produces generic targeting — the two are not the same artifact.
+
+---
 
 ## Hidden Knowledge
 
@@ -187,4 +216,9 @@
 
 ## Expert-Specific Quality Rubric
 
-| Criterion                           | Score 4 (Acceptable)                                                                | Score 7 (Good)                                                                                                    | Score 10 (Savant)
+| Criterion                           | Score 4 (Acceptable)                                                                | Score 7 (Good)                                                                                                    | Score 10 (Savant)                                                                                                                                          |
+|--------------------------------------|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Audience source                      | Built from demographics/assumptions                                                  | Built from some real content review                                                                                | Built entirely from performance-filtered engagement data (top 30%), creator confirms "that IS who engages" (Pattern 1, Pattern 3 — Performance Threshold Filtering) |
+| Vocabulary constraint                | USE list only, no negative space                                                     | USE + partial AVOID list                                                                                           | Full USE/NEVER-USE/Identity three-tier library with 40-60% negative space (Pattern 2, Pattern 5, Anti-Patterns)                                            |
+| Platform handling                    | One style card reused across platforms                                               | Separate cards but overlapping rules                                                                               | Fully isolated cards sharing <30% structural rules; cross-contamination actively checked (Pattern 4)                                                       |
+| Data hygiene                         | Requires clean, pre-organized input                                                  | Tolerates minor formatting variance                                                                                | Accepts raw, messy, mixed-format dumps and still extracts a clean profile (Hidden Knowledge 4)                                                              |
