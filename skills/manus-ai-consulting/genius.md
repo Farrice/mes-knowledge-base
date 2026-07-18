@@ -4,6 +4,15 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist to stamp onto a deliverable. Absorb the discipline Manus's own engineering runs on, then produce originally.
+
+- Do NOT sell a deliverable as the output of "our specialized research agent / our specialized deck agent / our specialized budget agent." Manus runs a single general executor, a planner, and a knowledge-management module — three agents total, not a swarm of role-specialists. Its own chief scientist is explicit that this is a deliberate choice, not a limitation (see Anti-Patterns #1). Framing a deliverable as multi-specialist theater breaks the moment a technical client asks how the system actually works.
+- Do NOT announce the machinery inside the client-facing artifact — no "Phase 1 used the competitive-intelligence sub-agent, Phase 2 handed off to the budget sub-agent." The real architecture is one general executor working a persistent `todo.md` against a flat, aggressively cached context. The client should see the insight, never the org chart.
+- Manus's texture is bare and self-correcting, not polished-and-hidden: code-as-action instead of framework vocabulary, failed attempts left visible instead of laundered out before delivery (Anti-Patterns #3), a plan that gets re-surfaced constantly instead of written once and forgotten (Anti-Patterns #4). A consulting deliverable that borrows this ethos is lean and shows its work; one that hides the failed passes and inflates the agent count is performing sophistication it doesn't have. Polish that erases the trail is the tell.
+- The test: would Manus's own context-engineering team — chief scientist Yichao "Peak" Ji specifically — recognize this as theirs — the methodology section describing the actual flat-context, single-general-executor discipline his team built and talks about in public? Or would he flag it as the "specialized sub-agents" mythology his own webinar explicitly rejected ("we are very cautious about adding more sub agents because communication is very hard")? If it reads like the second, rebuild the methodology framing before it ships.
+
 ## Genius Patterns
 
 ### Self-Executing Deliverable Architecture
@@ -21,6 +30,18 @@ Every consulting deliverable must be designed so the client can maintain, update
 **Deploy when:** Producing ANY client-facing deliverable. This is not optional — a deliverable without self-execution architecture creates a dependency flywheel that undermines the client's stated goal of independent operation.
 
 **Anti-pattern:** Separate "implementation guide" documents that live outside the deliverable. These get lost, go unread, or become stale. The maintenance logic must be INSIDE the artifact it governs.
+
+---
+
+## Anti-Patterns
+
+Every item below is grounded in `_active/swarm-apex-2026-07-07/research/manus.md` (5,141 bytes, Sonnet deep-research brief dated 2026-07-07, itself sourced primary-to-secondary per the brief's own tags). Full claim-by-claim sourcing in `references/source-ledger.md`.
+
+- **Selling the "specialized sub-agent per deliverable" story.** Yichao "Peak" Ji — Manus co-founder/chief scientist — on the LangChain webinar (2026-07-07 brief citation, `youtube.com/watch?v=6_BcCthVvb8`): "we do not divide by role. We only have very few agents — a huge general executor agent and a planner agent and a knowledge management agent... we are very cautious about adding more sub agents because communication is very hard." [`manus.md`, "Agent Loop Mechanics" §, line 9 — VERIFIED] Pitching a research/deck/budget deliverable as the output of dedicated per-asset expert agents misrepresents the system a technical client can and will diligence.
+- **Stripping tools or trimming context mid-task to cut spend.** manus.im/blog, "Context Engineering for AI Agents — Lessons from Building Manus" (primary source cited in the 2026-07-07 brief): KV-cache hit rate is "the single most important metric" — cached input runs ~10x cheaper than uncached (Sonnet: $0.30/MTok cached vs. $3 uncached) — so tools are hidden via logit-masking, never dynamically removed, because removal breaks the cache. [`manus.md`, "Context Engineering Specifics" §, lines 13-17 — VERIFIED] An ops workflow that "cleans up" the tool list between steps to save tokens will multiply the real cost instead of lowering it.
+- **Scrubbing failed attempts out of the deliverable trail before showing the client.** Same primary source: "Failed actions and stack traces deliberately left in context — seeing failure 'implicitly updates the model's internal beliefs.'" [`manus.md`, "Context Engineering Specifics" §, line 17 — VERIFIED] Presenting only the clean final research pass (no visible dead ends) removes the exact signal that keeps the next iteration from repeating the same mistake — and reads as fabricated tidiness to a client who knows real research has false starts.
+- **Writing the engagement scope once and never re-surfacing it.** Same primary source: "`todo.md` recitation = deliberate attention hack: rewriting and re-appending the todo pushes the global plan into the recent-token attention window, avoiding lost-in-the-middle goal drift across ~50 tool calls per task." [`manus.md`, "Context Engineering Specifics" §, line 15 — VERIFIED] A consulting engagement that documents scope in a kickoff deck and never revisits it will drift the same way an un-recited plan drifts out of a model's attention window.
+- **Fanning out a large research run with no spend ceiling.** Review-roundup sources aggregated in the brief (lindy.ai, allaboutai.com, metaflow.life): "opaque credit burn — 400 credits on 4 Google Maps lookups, 1000 credits before first output, no real-time spend alerts, billing on failed runs." [`manus.md`, "Best At / Weaknesses" §, line 28 — VERIFIED per brief's tag, secondary-sourced] Running a Wide Research fan-out (100+ homogeneous sub-agents, Pro-tier only) without a pre-set budget ceiling reproduces this exact failure mode at consulting-engagement scale — the client sees the invoice before they see the alert.
 
 ---
 
