@@ -3,6 +3,16 @@
 ## Core Philosophy
 Creative strategy is the meta-skill above copywriting. Copywriting is *how* you say it. Creative strategy is *what* to say, *to whom*, and *why*. A creative strategist decides the angle, the audience segment, the emotional lever, the competitive positioning — THEN hands that brief to a copywriter. This upstream thinking commands 2-3x the rates because it's where all leverage originates.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist to stamp. Absorb the decision-stack instinct (audit upward before touching a line of copy), the paid-to-feel instinct (judge output on bodily reaction before defending it with logic — see `extractions/luke-iha-client-acquisition/transcript.txt`: "what sensation do you feel, something in your chest, in your gut, in your neck"), and the vicious-hook instinct (commit to the kill, no dribbling) — then work originally from them. The test: would Luke Iha recognize this as a strategist deciding what to say, to whom, and why before a word gets written — or as someone reciting creative-strategy vocabulary? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label sections "Here's my Objection Annihilator" or "applying the Reverse Beat Map" — run the audit, deliver the brief, never narrate the framework by name on the page.
+- Do NOT open with a Diamond-and-Bullseye lecture on clarity and precision — that's the filter you apply before writing, not a paragraph you write for the client.
+- Iha's own delivery is blunt and testable, not academic: proposals that name the objection and kill it in one line, hooks with a genuine open loop (never one the reader can already guess), strategy briefs anchored to a specific angle and audience segment — never a hedge-everything summary.
+- Polish is the tell-class failure here: a brief that reads smooth but names no specific proof mechanism, no specific micro-lead angle, no specific "who would this market actually buy from" answer is decoration, not strategy — the gap he'd flag as not having "read all of" the raw market data.
+
 ## Genius Patterns
 
 ### 1. The Nuclear VSL
@@ -40,6 +50,17 @@ Creative strategy is the meta-skill above copywriting. Copywriting is *how* you 
 - **Creative Strategy ≠ Copywriting**: Hard line. Creative strategy sits *upstream* of all copy execution. It decides the angle, audience, and emotional lever. This positioning commands 2-3x the rates.
 - **The Review Economy**: Reviews on platforms aren't feedback — they're compound interest. One review makes the next gig easier. Five unlock algorithmic visibility. One bad review early = career death. Over-deliver so aggressively bad reviews are structurally impossible.
 - **Portfolio Bootstrapping**: You don't need clients to have a portfolio. Rebuild dream clients' worst assets as spec work. Record Loom walkthroughs. Spec work with full creative control often BETTER than paid work.
+
+## Anti-Patterns
+
+- **Mechanism-First Hook**: opening with the unique mechanism before establishing relevance kills the read. Source (`extractions/luke-iha-hooks/transcript.txt`, hooks training video): "a mistake that people do is they try to put that mechanism first... there needs to be relevance in the very very first line."
+- **The Give-Away Hook**: writing an open loop the reader can already guess the answer to removes their reason to keep reading. Source (`extractions/luke-iha-hooks/transcript.txt`): "if they can make an educated guess and feel confident in their guess of what you're going to say, then they have no business to actually read the ad."
+- **Dribbling Instead of the Kill**: warming up a sales argument instead of committing to the strongest claim immediately reads as hesitant, not persuasive. Source (`extractions/luke-iha-hooks/transcript.txt`): "You don't want there to be any pause, no hesitation. You need to go directly to the kill and don't let go until that person buys."
+- **Skipping Profile/Portfolio Completion**: treating the freelance profile or portfolio as optional groundwork instead of the first over-delivery rep. Source (`extractions/luke-iha/video-2-creative-strategy/transcript.txt`, 2026-04-09 evolution cycle re-verified): "It blows my mind how many times I tell people to fill out their profile to 100% completion and they don't do it."
+- **Calcifying Into Cheap Long-Term Gigs**: letting an early low-rate client relationship become an ongoing arrangement instead of cycling fast for the review. Source (`extractions/luke-iha/video-2-creative-strategy/transcript.txt`): "you don't want to get stuck in these long-term arrangements... get quick jobs that you can get in and out to get the review."
+- **Never Questioning Sacred Cows**: treating category myths and unwritten rules as untouchable produces derivative angles instead of ownable ones. Source (`extractions/luke-iha-hooks/transcript.txt`): "there's types of myths and sacred cows, things that you're never supposed to question."
+- **Adding Polish Instead of Subtracting the Block**: when a piece isn't landing, reaching for more words or embellishment instead of finding what's actually holding it back. Source (`extractions/luke-iha-insight-mastery/transcript.txt`): "the insight that was given to my friend was no, you don't need to add anything, you actually need to subtract what's holding you back."
+- **Generic "Here's My Work" Portfolio**: a gallery of screenshots labeled only "Landing Page for X Client" with no problem, brief, or result attached demonstrates execution, not strategy — see the Anti-Exemplar below. Source: `skills/luke-iha-creative-strategy/genius.md` Hall of Fame Exemplars section, itself derived from the Nuclear VSL pattern in `extractions/luke-iha/video-2-creative-strategy/transcript.txt` and `extraction-report.md`.
 
 ---
 
