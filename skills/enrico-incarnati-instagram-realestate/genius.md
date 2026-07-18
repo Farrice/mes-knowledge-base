@@ -163,28 +163,28 @@ The sequence matters: Profile first (Digital Curb Appeal), then content strategy
 
 Each anti-pattern below is anchored to the source transcript — quote, section, and confidence label. Source: `extractions/enrico-incarnati/transcript.txt` (18,909 bytes, full read), YouTube — "5 Mistakes Costing Real Estate Agents Leads," Enrico Incarnati channel, 2026.
 
-1. **The Billboard** — Static photo + price + caption novel. Nobody reads it.
+1. **The Billboard** — Static photo + price + caption novel. Nobody reads it. (source: extractions/enrico-incarnati/transcript.txt, "5 Mistakes Costing Real Estate Agents Leads," 2026 — verbatim quote below)
    > "The first is what I call the billboard, which is you post a static photo of the house with a price and you write a novel in the caption. Let's be honest, nobody's reading that." — Mistake #1 section, transcript.txt. **VERIFIED** (verbatim quote confirmed in source file).
 
-2. **The Dump** — 10-photo carousel of professional shots with no narrative.
+2. **The Dump** — 10-photo carousel of professional shots with no narrative. (source: extractions/enrico-incarnati/transcript.txt, "5 Mistakes Costing Real Estate Agents Leads," 2026 — verbatim quote below)
    > "Number two is what I call the dump, which is a carousel of 10 professionally shot photos of the home that I know cost you thousands of dollars to have done for you, but the problem is no one is remotely even interested in engaging with your post." — Mistake #1 section, transcript.txt. **VERIFIED** (verbatim quote confirmed in source file).
 
-3. **The Lazy Reel** — Static photo + trending audio. Not a video.
+3. **The Lazy Reel** — Static photo + trending audio. Not a video. (source: extractions/enrico-incarnati/transcript.txt, "5 Mistakes Costing Real Estate Agents Leads," 2026 — verbatim quote below)
    > "And number three is the lazy reel where you take the same static photo that you posted and you slap a trending audio on it and you call it a video. Let me be honest with you, it's lazy." — Mistake #1 section, transcript.txt. **VERIFIED** (verbatim quote confirmed in source file).
 
-4. **The Boring Professor** — Sitting in front of camera reciting interest rate facts.
+4. **The Boring Professor** — Sitting in front of camera reciting interest rate facts. (source: extractions/enrico-incarnati/transcript.txt, "5 Mistakes Costing Real Estate Agents Leads," 2026 — verbatim quote below)
    > "You are treating Instagram like you are giving a lecture and you are the boring professor... if you just sit in front of the camera and you just recite facts, I hate to break it to you. You are that boring professor." — Mistake #2 section, transcript.txt. **VERIFIED** (verbatim quote confirmed in source file).
 
-5. **The Generic Profile** — Unclear bio, generic brokerage link, no pin post strategy.
+5. **The Generic Profile** — Unclear bio, generic brokerage link, no pin post strategy. (source: extractions/enrico-incarnati/transcript.txt, "5 Mistakes Costing Real Estate Agents Leads," 2026 — verbatim quote below)
    > "If someone is clicking on your name and your profile looks either messy or confusing, they're out. You literally just lost the lead." — Mistake #4 (profile) section, transcript.txt. **VERIFIED** (verbatim quote confirmed in source file).
 
-6. **"Link in Bio"** — Kills engagement. Use keyword comment triggers instead.
+6. **"Link in Bio"** — Kills engagement. Use keyword comment triggers instead. (source: extractions/enrico-incarnati/transcript.txt, "5 Mistakes Costing Real Estate Agents Leads," 2026 — verbatim quote below)
    > "Please stop telling people to click the link in your bio. It is killing your engagement." — Mistake #4 (profile) section, transcript.txt. **VERIFIED** (verbatim quote confirmed in source file).
 
-7. **The Spec Sheet** — Listing content focused on features instead of lifestyle/feeling.
+7. **The Spec Sheet** — Listing content focused on features instead of lifestyle/feeling. (source: extractions/enrico-incarnati/transcript.txt, "5 Mistakes Costing Real Estate Agents Leads," 2026 — verbatim quote below)
    > "He wasn't just selling a home. He was selling a lifestyle and he was showing his personality while doing it." — golf-format anecdote, transcript.txt. **LIKELY** — this is the inverse case Enrico uses to teach the principle; the transcript never names a "spec sheet" anti-pattern verbatim, so the label is a synthesis from his stated contrast, not a direct quote. Flagged LIKELY rather than VERIFIED for that reason.
 
-8. **The One-Format Trap** — Only posting one type of content (talking heads OR listings, never both).
+8. **The One-Format Trap** — Only posting one type of content (talking heads OR listings, never both). (source: extractions/enrico-incarnati/transcript.txt, "5 Mistakes Costing Real Estate Agents Leads," 2026 — verbatim quote below)
    > "The problem most agents face is they only post one type of content. And usually, it's talking head tips or its property listings like we just talked about." — Mistake #2 section, transcript.txt. **VERIFIED** (verbatim quote confirmed in source file).
 
 ---
