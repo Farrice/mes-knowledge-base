@@ -4,13 +4,25 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist — absorb them, then build originally. This skill is a synthesis of three named operators (Tim Danilov's format-transplant grid, Jasmin Alic's rhythm-and-commenting engine, Lara Acosta's positioning-and-pillar system), not one voice. **Recognition test**: would Danilov recognize this as theirs — his "Empty Square" grid logic actually applied — or as a checklist labeled "Step 1: Pick a format"? Would Alic recognize this as theirs — her own Three-Line truncation cadence — or as generic curiosity-gap copy with a line break inserted? If either reads as the second version, rebuild.
+
+Specifically:
+- Never announce the machinery. Do not write "Trapdoor Hook:" or "1-3-1 Structure:" as visible labels inside the delivered post — execute the mechanic, never narrate it. The post itself must read as an ordinary human LinkedIn post that happens to be engineered underneath.
+- Polish is the tell-class failure here, inverted from most content skills: an over-produced graphic, a stock photo, or a too-clean caption is what breaks Costly Signaling (see Pattern 4) — the "in-the-trenches" roughness is load-bearing, not a corner being cut.
+- This expert's texture is structural-mechanical, not literary. Danilov thinks in grids (market rows × format columns), Alic thinks in truncation physics (the mobile "see more" cutoff), Acosta thinks in matrices (4-3-2-1, IFP/ICP). Output should feel *engineered* to the strategist reading the brief and *effortless* to the LinkedIn reader seeing the post — never engineered-looking to the reader.
+- Reject "typical viral LinkedIn slop" (Lara Acosta's own term, `extractions/lara-acosta-content-system/transcript.txt`) — a post that copies the surface skin of a viral format (word choice) without emulating its actual structure, hook, formatting, and CTA is theft, not arbitrage, and this skill exists specifically to prevent that failure mode.
+
+---
+
 ## Genius Patterns
 
 This file documents the psychological mechanisms and structural patterns that govern high-performance content on LinkedIn in 2026. These patterns must be applied when generating any content using this skill.
 
 ## 1. The Niche Bending Formula
 **Pattern:** `Niche = Format + Market` (Tim Danilov)
-**Mechanics:** Stop trying to invent a new market. Enter massive, established markets (like Coaching) and introduce fresh formats from adjacent spaces (e.g., fitness transformations, SaaS demos, meme frameworks). Novelty in presentation + established demand = Arbitrage.
+**Mechanics:** Stop trying to invent a new market. Enter massive, established markets (like Coaching) and introduce fresh formats from adjacent spaces (e.g., fitness transformations, SaaS demos, meme frameworks). Novelty in presentation + established demand = Arbitrage. Danilov's own case evidence: he took one faceless channel from zero to "$56,000 a month in just 30 days," a second to "150 million views," and a third to "$23,000 in less than 90 days" — three separate proofs of the same Format + Market transplant (vidIQ, *"The NEW YouTube Strategy Dominating in 2026,"* published 2026-02-16).
 
 ## 2. The Commitment Escalation Loop (Carousels)
 **Pattern:** The "Sunk-Cost Swipe"
@@ -26,7 +38,7 @@ This file documents the psychological mechanisms and structural patterns that go
 
 ## 5. The 1-3-1 Structural Rhythm
 **Pattern:** Extreme Readability (Jasmin Alic / Acosta)
-**Mechanics:** 1 hook line. 3 key messages/steps. 1 closing CTA. The rule of three creates cognitive completeness. Frequent line breaks, negative space, and single-sentence paragraphs create visual momentum.
+**Mechanics:** 1 hook line. 3 key messages/steps. 1 closing CTA. The rule of three creates cognitive completeness. Frequent line breaks, negative space, and single-sentence paragraphs create visual momentum. Alic calls this rhythmic asymmetry "the hip-hop carryover" — balancing statements like "If you want to get *through* to people, first get *in front* of people" (`extractions/Jasmin_Alic_Extraction.md`) — the same X-vs-Y symmetry that makes the 1-3-1 shape stick.
 
 ## 6. Anti-Niche to Ultra-Niche Funneling
 **Pattern:** The Broad-to-Specific Open
@@ -38,7 +50,21 @@ This file documents the psychological mechanisms and structural patterns that go
 
 ## 8. The Self-Pinned Comment Control
 **Pattern:** Clean Post / Dense Thread
-**Mechanics:** Keep the main post entirely free of links and CTAs. Immediately pin your own comment containing bonus value, a backend artifact, or the opt-in CTA. This increases early engagement density and provides a clear conversation starter.
+**Mechanics:** Keep the main post entirely free of links and CTAs. Immediately pin your own comment containing bonus value, a backend artifact, or the opt-in CTA. This increases early engagement density and provides a clear conversation starter. This is the delivery half of the 1+3 Comment Formula Lara Acosta credits to Jasmin Alic: one substantive comment plus three replies to other commenters on the same post drives "4x more profile views daily" (`extractions/lara-acosta/2026-linkedin-playbook-extraction.md`, Pattern 7) — the pinned comment is where that traffic lands.
+
+---
+
+## Anti-Patterns
+
+Each item below is a documented failure mode from primary source material — a real transcript quote, a named failure mode from the extraction package, or both. Flag and fix any of these before delivering output from this skill.
+
+- **Topic-Only Niche Thinking**: "Most people think a niche is just a topic" — treating niche as a subject category instead of `Format + Market` collapses the entire arbitrage. (Tim Danilov, quoted in vidIQ's *"The NEW YouTube Strategy Dominating in 2026,"* published 2026-02-16, `_active/codex-harvest-2026-06-11/extractions/video-context/fLDrB_wmbNE/transcript.txt` ~00:00:59)
+- **Format Without Expertise (Gimmick Wrapper)**: "Anyone can copy a format, but very few can fill the formats with [genuine expertise]" — never bend into a format the operator cannot fill with real domain knowledge; an expert dentist can rank toothpaste, a non-finance creator should not run a finance-format post. (Tim Danilov, same source, ~00:10:26–00:10:36, 2026-02-16)
+- **Big-Channel Bias in Format Scouting**: don't treat a format as proven because a mega-distribution channel used it — the signal is contaminated by their existing reach, not the format itself; prefer small-channel outliers where the format is the only explanation for the spike. (Failure mode "Big-channel bias," `_active/codex-harvest-2026-06-11/extractions/tim-danilov/niche-bending-system/failure-modes.md`)
+- **Generic "Viral LinkedIn Slop"**: never let a post collapse into what Lara Acosta calls "the typical viral LinkedIn slop" — a post is slop when the framework is visible and the operator's actual story/proof has been stripped out. (`extractions/lara-acosta-content-system/transcript.txt`)
+- **Copy-Paste Format Theft**: "Where people fail in the execution is that they'll try and copy a viral post but they won't copy it correctly. They won't emulate it." — lifting only the words of a viral post without rebuilding its structure, hook, formatting, and CTA is theft, not arbitrage. (Lara Acosta, `extractions/lara-acosta-content-system/transcript.txt`)
+- **Generic AI Fluff**: don't ship output that reads as "generic AI fluff that Chad[GPT] writes" — content with no story, no social proof, and no specific voice context baked in before generation. (Lara Acosta, `extractions/lara-acosta-content-system/transcript.txt`)
+- **Overbuilt Grid, No Experiment**: don't let format/market mapping become an exercise in itself — every bend needs a first shippable experiment with a title, hook, and decision metric, or the strategy work has produced nothing testable. (Failure mode "No experiment," `_active/codex-harvest-2026-06-11/extractions/tim-danilov/niche-bending-system/failure-modes.md`)
 
 ---
 
