@@ -144,6 +144,17 @@ Pull from your wrapping paper library + this week's scroll.
 
 ---
 
+## Output Contract
+
+One completed **Content Sprint — Week of [Date]** deliverable containing, at minimum:
+1. **5-7 content pieces**, each with a named pain problem (#1-5), platform, format, and wrapping paper source — no piece ships without all four.
+2. **4C Intro** written out (not just labeled) for every video piece.
+3. **Quality Gate scorecard** (X/9) for every piece — pieces scoring 6/9 or below must show the rewrite/shelve decision, not just the score.
+4. **Distribution Calendar** mapping every piece to a specific platform, day, and CTA type — never "post everywhere."
+5. **Metrics to Watch** section naming what signal will be checked in the Friday review (DMs by piece, wrapping paper performance, accordion signal).
+
+Use the `## Sprint Output Template` below as the literal document skeleton.
+
 ## Sprint Output Template
 
 ```

@@ -167,6 +167,16 @@ The first 30 days are for DATA, not perfection.
 
 ---
 
+## Output Contract
+
+A complete **Zero-to-Brand Launchpad** deliverable with all six phase artifacts present and none left as templates:
+1. **Credibility Bank**: 5+ assets, each scored 1-5 on specificity — assets scoring below 3 must be flagged "needs sharpening," not silently included.
+2. **Pond Size Verdict**: An explicit pond-up / pond-down / correctly-sized call, with the reasoning (not just the competitive landscape table).
+3. **Customer Pain Map**: All 5 rows filled with a named problem, a named unique solution, and a content concept — no CUSTOMER-vs-viewer ambiguity in the wording.
+4. **Contrarian Position Sheet**: The two-column table plus 2-3 extracted contrarian positions the user has confirmed they'd defend regardless of reaction.
+5. **Platform + Format Selection**: One primary platform named with the specific realistic cadence (not "post more"), plus the 60/40 format ratio defined.
+6. **30-Day Ignition Calendar**: All 4 weeks populated with platform, volume, and purpose — Week 3's "best performer" must trace back to an actual Week 1/2 result field, not be pre-filled before data exists.
+
 ## Quality Gate
 
 - [ ] Credibility Bank has 5+ specific, quantified assets

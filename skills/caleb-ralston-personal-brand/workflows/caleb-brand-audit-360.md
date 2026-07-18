@@ -168,6 +168,17 @@ Build a recovery plan that addresses weaknesses in priority order:
 
 ---
 
+## Output Contract
+
+A complete **360° Brand Health Report** containing exactly these five artifacts, in this order:
+1. **Pattern Coverage Scorecard**: All 24 patterns scored 1-10 with evidence, grouped by the 7 sections above (Trust Foundation, Content Strategy, AI Authenticity, Platform Intelligence, Packaging Quality, Intro Effectiveness, Growth Health) — every score needs a specific evidence citation (which content piece, what it showed), not a bare number.
+2. **Quality Rubric Average**: 5 recent pieces scored across all 9 rubric dimensions from genius.md, averaged.
+3. **Top 3-5 Weaknesses**: Each in the `### Weakness #[N]` block format (Symptoms / Root Cause / Impact / Severity / Fix Route) — ranked Revenue-blocking > Trust-eroding > Growth-limiting, never listed in discovery order.
+4. **Fix Route Map**: Each weakness mapped to exactly one deployable workflow or manual protocol, never a vague "work on this."
+5. **30-Day Recovery Calendar**: Populated week-by-week per the Phase 5 template — no placeholder weeks.
+
+Use the `## Output: Brand Health Report` template below as the literal document skeleton.
+
 ## Output: Brand Health Report
 
 ```

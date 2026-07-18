@@ -142,6 +142,17 @@ Take 5 of your best saved wrapping papers and translate them to your niche.
 
 ---
 
+## Output Contract
+
+A completed **Wrapping Paper Library** deliverable with all five parts populated — none of them optional:
+1. **Gift List**: 10-15 problem + unique-solution content concepts from Phase 1, named specifically (not generic topic labels).
+2. **Collection Infrastructure**: Confirmed set up on every platform the user is active on (Instagram Wraps folder, YouTube board + 1of10 threshold, LinkedIn album/board) — never just "Instagram only" if the user runs multiple platforms.
+3. **Cross-Niche Source Map**: 10+ niches with 3-5 named creators each — generic niche categories without specific creators don't satisfy this.
+4. **Wrapping Paper Catalog**: 30+ items minimum, each tagged hook-format or content-format, with outlier score and source niche recorded.
+5. **5+ Completed Translations**: Each with the litmus test and Caleb test explicitly answered pass/fail, not left blank.
+
+Deliver as a Cross-Platform Notion Board (or equivalent table) using the `| Source | Platform | Type | Outlier Score | Niche | Screenshot/Link | Notes |` schema from Phase 2, plus the Weekly Scroll Protocol schedule attached as the maintenance cadence.
+
 ## Quality Gate
 
 - [ ] Library has 30+ items minimum

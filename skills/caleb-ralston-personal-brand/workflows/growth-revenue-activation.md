@@ -170,6 +170,15 @@ SHORT-FORM (Discovery)
 
 ---
 
+## Output Contract
+
+A complete **Revenue Path Architecture** deliverable containing exactly these five parts:
+1. **Revenue Vehicle Selection**: 1-2 vehicles named from the assessment table, with the specific reasoning (credibility depth, time capacity, pain intensity, audience size) that drove the choice — not just "coaching seemed right."
+2. **DM Conversion System**: At least 2 of the 4 encouragement tactics deployed with real fill-ins (not bracketed placeholders) plus the 5-step DM Conversation Framework adapted to the vehicle chosen.
+3. **Audience Flywheel Map**: The 4-node loop (Short-Form → YouTube → Instagram → Newsletter → Testimonial) populated with the creator's actual platforms — nodes the creator isn't active on should be explicitly marked "not yet active," never silently dropped.
+4. **Metrics Dashboard**: Both leading AND lagging indicator tables populated with the creator's current numbers where known, and the specific pivot trigger from "When to Pivot" that applies to their current state.
+5. **90-Day Calendar**: All 3 months populated with specific week-by-week actions — no month left as a header only.
+
 ## Quality Gate
 
 - [ ] 1-2 revenue vehicles selected with clear reasoning

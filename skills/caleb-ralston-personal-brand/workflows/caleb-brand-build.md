@@ -184,6 +184,15 @@ Route based on their answer:
 
 ---
 
+## Output Contract
+
+The assembled **Brand Operating System** deliverable must satisfy all of the following before it's considered complete — this is the pipeline-level contract that sits above the 6 individual phase Quality Gates:
+1. **All 6 phases represented**: Brand Foundation, Authority Architecture, Platform Strategy, Content Engine, Packaging Library, Revenue Activation — no phase skipped without an explicit routing reason logged (per the Stage Assessment table).
+2. **Traceable inheritance**: Each phase's output must visibly feed the next (e.g., the 5 customer pain problems from Phase 1 appear by name in Phase 4's content calendar, not regenerated from scratch).
+3. **Single assembled document**: All 6 phase outputs compiled into the `# [Name] — Personal Brand Operating System` structure below — never delivered as 6 disconnected files.
+4. **Cross-Skill Enrichment considered**: At least a one-line note on whether any adjacent skill (LinkedIn, copy, packaging, offer, email, narrative) should be stacked in, even if the answer is "not needed."
+5. **Finalized and saved**: Output written to `deliverables/caleb-brand-build-[name-slug]-[date].md` and the `chain_runner.py finalize` command run per the Save & Finalize section below.
+
 ## Assembly: The Master Blueprint
 
 Combine all 6 phase outputs into a single **Brand Operating System** document:
@@ -246,6 +255,17 @@ When the brand build would benefit from stacking:
 - **Offer design** → Stack with Nicolas Cole for digital product architecture
 - **Email sequences** → Stack with Cardinal Mason for email engines
 - **Narrative depth** → Stack with Michael Connelly or Eric Roth for storytelling
+
+---
+
+## Quality Gate
+
+Pipeline-level gate (in addition to each phase's own Quality Gate Before Advancing, above):
+- [ ] All 6 phase Quality Gates passed in sequence (or skip reason logged per Stage Assessment)
+- [ ] Master Blueprint assembled with no empty sections
+- [ ] Cross-Skill Enrichment considered and noted
+- [ ] Output saved to `deliverables/caleb-brand-build-[name-slug]-[date].md`
+- [ ] `chain_runner.py finalize` run with real (not placeholder) intent/expert/adversarial scores
 
 ---
 
