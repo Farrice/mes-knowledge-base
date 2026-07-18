@@ -1,8 +1,23 @@
 # Kallaway — Social Commerce 3.0: Genius Context
 
-> **Source**: "Three Biggest Social Media Shifts" (YouTube, 2026) — 5,210 words
+> **Source**: "Three Biggest Social Media Shifts" (YouTube, 2026) — 5,210 words. Verified against primary source: Kallaway, *"The NEW Way to WIN on Social Media in 2026,"* YouTube, uploader "Kallaway," published 2026-04-29 (https://www.youtube.com/watch?v=ImzoNTrgvFg) — transcript archived at `_active/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/transcript.txt` (metadata confirming title/date/URL: `.../ImzoNTrgvFg/metadata.json`).
 > **Domain**: Content Psychology → Social Commerce & Distribution Economics
 > **Tier**: Deep Extraction (Forge — Expansion)
+> **Provenance**: Claim-by-claim verification status lives in `references/source-ledger.md`. Read it before citing any number, name, or acquisition detail from this file in client-facing work.
+
+---
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the physics underneath Kallaway's read — era-transition thinking, tailwind-compounding, distribution-as-appreciating-asset — then reason from it. If the output enumerates "Tailwind 1, Tailwind 2, Tailwind 3, Tailwind 4" in slide-deck order with a topic sentence for each, you have failed the test.
+
+The test: would Kallaway recognize this as him diagnosing where the money is about to move next — or as someone reciting his framework back at him with his vocabulary swapped in? If it's the second, rebuild.
+
+Specifically:
+- Do NOT open with "Kallaway's four tailwinds are..." — arrive at the tailwinds the way he does, by first naming what just became structurally possible that wasn't possible a few weeks/months ago ("here's what's brand new... that wasn't possible just a few weeks ago"; "this just happened in the last couple weeks"). The framework is a *description of a moment*, not a permanent taxonomy — deploy it as dated, time-bound observation, never as evergreen theory.
+- Do NOT hedge his predictions into consultant-speak ("this could potentially increase revenue opportunities"). Kallaway states hard numbers as fact and owns the miss risk out loud: "I wouldn't be shocked for Instagram to report over 10 billion dollars..." — conviction with a specific number attached, not a hedge. If a sentence could be true of any platform in any year, it isn't Kallaway's sentence.
+- His texture is direct-to-camera hustle-creator, not analyst-report: short declarative sentences, era-framing before mechanism, self-referencing his own scale ("a million followers... billions of views... 30 million uniques in the last 30 days") as the credibility anchor *before* he makes a claim, not after. He also thinks out loud mid-sentence and corrects himself ("I don't know if someone's come up with that name, but it sounded good to me") — that unpolished self-correction is a signature, not noise to clean up. Executive-summary bullet-soup or academic hedge-language is the tell that the machinery leaked through.
+- Never let AI-versus-creativity language slip into "AI replaces the work" framing. Kallaway's entire operating premise is that AI clears the boring, repetitive 80% (research, topic mining, transcript analysis) so the human 20% — the unique take, the reaction, "the sauce layer" — gets *bigger*, never smaller. Producing output that treats AI as doing the thinking is the fastest way to make something he would explicitly disown: "If you're letting AI do the thinking and the ideating, that's where your content gets stale and robotic."
 
 ---
 
@@ -170,6 +185,19 @@ Meta didn't build agentic commerce — they ACQUIRED it for $2B. This signals th
 
 ### 4. The "Every Business is a Media Company" Endgame
 "Every business is technically a media company and most people are going to want to learn these skills." This isn't a suggestion — it's a structural inevitability. As monetization rails improve, the competitive advantage of NOT having content distribution collapses. Distribution goes from "nice to have" to "existential requirement."
+
+---
+
+## Anti-Patterns (Source-Attributed)
+
+Kallaway names these outright, on-camera, as the failure modes of operators still running 1.0/2.0 playbooks in the 3.0 era. Each anchor cites the verified transcript of Kallaway, *"The NEW Way to WIN on Social Media in 2026,"* YouTube, published 2026-04-29 — `_active/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/transcript.txt`.
+
+- **Treating AI as full content automation instead of a creativity multiplier.** Kallaway rejects the binary of "robotic, sanitized, soulless content" versus "amazing artistic, creative human content" as lazy: "most people assume using AI means fully replacing creative thinking... But that's kind of a lazy way of thinking about it." (transcript @ 00:01:17–00:01:30, video published 2026-04-29)
+- **Letting AI do the thinking and ideating instead of the research.** He draws the line explicitly: "If you're letting AI do the thinking and the ideating, that's where your content gets stale and robotic." (transcript @ 00:05:33–00:05:38)
+- **Grinding one-off brand deals instead of building monetization infrastructure.** The anti-exemplar he sets up before naming Social Commerce 3.0 as the fix: "the average creator makes 30 to 50k per year, and they really grind it out on these brand deals" (transcript @ 00:17:38–00:17:44) — see also the Hall of Fame Anti-Exemplar below.
+- **Applying Social 1.0 monetization assumptions to a 3.0 following.** He frames the entire first era as structurally unmonetizable outside of celebrity status: "there really weren't that many proven playbooks for monetizing a following or personal brand on social media outside of mainstream celebrities" (transcript @ 00:08:51–00:09:00).
+- **Chasing trends and hijacking attention instead of building real narrative.** On the storytelling era he explicitly disowns the 2.0-era editing playbook: "overstimulating editing, literally trying to hijack the subconscious brain and central nervous system of the viewer to get them to watch" (transcript @ 00:19:20–00:19:25) — a tactic he says "worked in the previous era" but is losing to premium storytelling now.
+- **Fast cuts, crazy editing, and text-on-screen as a default production style.** Citing producer Alex Garcia's read on premium consumer brands: "the old playbook of like fast cuts and crazy editing and all this like text on screen, that's not really working anymore" (transcript @ 00:20:26–00:20:33).
 
 ---
 
