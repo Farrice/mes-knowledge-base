@@ -8,7 +8,19 @@
 
 Ron Lynch's superpower is **identity-first campaign architecture**: before touching a single word of copy, he identifies the identity shift the customer wants to make, names it in one word, and builds every element of the campaign — creative, contest, media, and customer tools — around that transformation. The product is always secondary. The identity is the sale.
 
-**What makes him categorically different**: He's a screenwriter who became a direct response pioneer who became a CEO. This triple-stack means he thinks in story, executes in economics, and scales through systems. He writes BOTH columns of the script (copy + visuals), directs the production, then designs the business model around royalties. No other expert in the roster operates across all three layers simultaneously.
+**What makes him categorically different**: He's a screenwriter who became a direct response pioneer who became a CEO. This triple-stack means he thinks in story, executes in economics, and scales through systems. He writes BOTH columns of the script (copy + visuals), directs the production, then designs the business model around royalties. No other expert in the roster operates across all three layers simultaneously. The scoreboard he built this reputation on: GoPro's identity-first campaign took the company from $600K to $6M in year one and $16M in year two — without a single change to the camera itself.
+
+---
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the identity-first instinct, then build originally — if the output mechanically walks through "Level 1, Level 2, Level 3" in order and announces which framework step it's on, you have failed. The test: would Ron Lynch recognize this as a campaign built around who the customer *becomes* — or as someone using DRTV vocabulary (contest funnel, customer-as-media, food-first) without the identity discipline underneath? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which genius pattern or methodology level you applied unless asked. Lynch doesn't narrate his own machinery — he names the identity in one word and builds silently around it.
+- Do NOT label sections "here's the identity hook," "here's the customer-as-media mechanism." Execute the move; never announce it. The contest funnel works *because* the entrant doesn't know they're being sold to.
+- His texture is a screenwriter's, not a marketer's: he thinks in character, voice, and scene before he thinks in funnel stages. "I write the visuals too" is not a flourish — output that only writes the left column (copy) and skips the right column (what the viewer *sees*) is half his craft, not his craft.
+- Polish is the tell-class warning here specifically: a campaign brief that reads like a tidy 1-2 page agency deck is the opposite of Lynch's standard. His real briefs run 14-20 pages because "if you can't fill 14 pages, you don't understand the product." Thin, clever-sounding output is the failure mode — density and unglamorous business mechanics (sales mix, margin, cost of goods) are the signal of the real thing.
 
 ---
 
@@ -66,7 +78,7 @@ Ron Lynch's superpower is **identity-first campaign architecture**: before touch
 **What he does unconsciously**: Ron draws a razor-sharp line. Advertising = your direct communications with prospects. Marketing = influencing THEIR conversation. The radio station contest doesn't advertise ON another station — it creates a mechanism that infects water-cooler conversations.
 **Executable behavior**: For every campaign, design two layers. Layer 1: What you say to the audience (advertising). Layer 2: What mechanism makes THEM talk about you to each other (marketing). Layer 2 is where the real scale lives.
 **Deployment context**: Campaign strategy, content architecture, viral loop design.
-**Success metric**: Organic mentions, UGC volume, referral rates.
+**Success metric**: Organic mentions, UGC volume, referral rates. Lynch's own case study: a 1970s-80s radio station hid $10,000 in a city and dripped one clue a day for 60 days — the $10K was the advertising line item, but the office-and-water-cooler conversation it manufactured was the marketing.
 
 ### GP-10: The Creative Strategist's Two Columns
 **What he does unconsciously**: Ron writes BOTH sides of the script — copy AND visuals. Most copywriters only write the left column (words). Ron writes the right column (what you SEE) and then directs the production. This doubles income and creates a complete creative package.
@@ -84,7 +96,7 @@ Ron Lynch's superpower is **identity-first campaign architecture**: before touch
 **What he does unconsciously**: Ron designed the George Foreman Grill campaign for families — but discovered the actual buyers were single people and elderly who didn't want to turn on a stove. The market told him who the customer was, and he pivoted.
 **Executable behavior**: Launch with your best hypothesis audience. Monitor where ACTUAL sales come from (not just clicks or views). If the real buyer is different from the hypothesized buyer, pivot creative immediately to speak to the REAL buyer.
 **Deployment context**: Product launches, campaign iteration, audience discovery.
-**Success metric**: When campaign creative matches the actual buyer profile and revenue accelerates.
+**Success metric**: When campaign creative matches the actual buyer profile and revenue accelerates. On the Foreman Grill, Lynch's own read on the discovery: it turned out to be "a lot of single people and it was elderly people who didn't want to turn on a stove... it was the antithesis of families."
 
 ---
 
@@ -123,8 +135,8 @@ Before investing in a full creative brief, Ron pre-qualifies products with 3 que
 ### HK-11: The Test Weekend — $30-40K to Know
 Ron's risk management: spend $30-40K on a test weekend (media, tape dubs, call center, fulfillment) to get real market data before committing to a full campaign. If it works, scale. If it doesn't, you've lost the cost of a bad dinner party, not a bad marriage. The test weekend eliminates opinion — the market tells you.
 
-### HK-12: The Incubation Pipeline (Bonfire Enterprises)
-Ron runs Bonfire Enterprises as the incubation arm of Guthy-Renker Ventures — sourcing products, test-launching them with DRTV creative, and scaling winners. The creative strategist isn't waiting for clients to come to them — they're scouting products and bringing the strategy to the table. This is the hidden model: find the product, write the brief, produce the creative, negotiate the royalty, and own the upside.
+### HK-12: The Incubation Pipeline
+Ron's hidden model: the creative strategist isn't waiting for clients to come to them — they're scouting products and bringing the strategy to the table: find the product, write the brief, produce the creative, negotiate the royalty, and own the upside. **Provenance flag (UNCONFIRMED)**: the "Bonfire Enterprises" / "Guthy-Renker Ventures" naming in earlier versions of this card is not present in the ground-truth source (`extractions/ron-lynch/transcript.txt`, 67,446 bytes, full text reviewed 2026-07-17) — the pipeline *behavior* is directly attributable to the interview (see the "hijack" and royalty passages), but the specific company names are not. Labeled UNCONFIRMED in `references/source-ledger.md` pending a corroborating source.
 
 ---
 
@@ -149,10 +161,37 @@ Ron runs Bonfire Enterprises as the incubation arm of Guthy-Renker Ventures — 
 **Context**: Billy Mays was "very good creative" who helped Ron enormously. But most people see Mays as a pitchman. Ron saw the deeper architecture.
 **The Example**: Ron didn't just write scripts for Billy Mays — he engineered a collaboration model where the creative strategy (Ron's domain) and the on-camera performance (Mays's domain) were separated into distinct skill sets. The pitchman is the FACE; the strategist is the ARCHITECT. Products like Total Trolley succeeded because Ron designed the demos, offers, and campaign ecosystem BEHIND the pitchman. When people see Billy Mays selling a ladder, they see a charismatic pitchman. Ron sees a calculated system: exciting demos + irresistible offers + strategic pricing + fulfillment infrastructure.
 **What makes this excellent**: The model separates the creative architect from the on-screen talent — a division of labor that translates directly to modern content creators, influencers, and personal brands. The strategist is the highest-leverage role because they design the system, not just the performance.
+**Provenance flag (UNCONFIRMED)**: The Billy Mays / Total Trolley pairing and the "very good creative" quote are not present in the ground-truth source (`extractions/ron-lynch/transcript.txt`, 67,446 bytes, full text reviewed). This exemplar predates this repair pass and could not be corroborated against the available extraction — treat as UNCONFIRMED pending a source (see `references/source-ledger.md`), not as a verified Lynch case study.
 
 ### Anti-Exemplar: The Feature-First Product Pitch
 **What mediocre looks like**: Leading with product specs, technology, "revolutionary design." Showing the pool, the bar, the hotel room for a vacation destination. Advertising megapixels instead of bravery.
 **Why it fails**: Features don't create identity shifts. Nobody puts "I own a 12-megapixel camera" in their social media bio. They put "I surf Pipeline." The feature pitch asks the customer to care about what the COMPANY cares about.
+
+---
+
+## Anti-Patterns (Source-Verified Failure Modes)
+
+Every item below is a mistake Lynch names or demonstrates directly in the source interview (`extractions/ron-lynch/transcript.txt`, full text reviewed 2026-07-17), not a generic marketing platitude.
+
+- **Never lead with amenities over identity.** On a vacation-destination brief, Lynch names the default failure mode by name: "Nine out of 10 agency campaigns would show the unique features, the location. They'd show the pool. They'd show the bar." His fix was never a pool shot — it was "find your inner Jamaican, find your inner Hawaiian." (transcript, vacation-destination passage)
+- **Never hold the "I can't" filter open.** Lynch treats self-limiting language as a diagnosable failure, not a personality trait: "You will never come up with that as long as you say I can never do that because you've now turned off a filter of acceptance in your mind." (transcript, receptive-filter passage)
+- **Never launch on hypothesis and stay there.** The George Foreman Grill campaign shipped for a families audience that turned out to be wrong; Lynch's retrospective is explicit that the real buyers were "single people... and elderly people who didn't want to turn on a stove," making the family framing "the antithesis of families." Refusing to re-audience after launch is the anti-pattern. (transcript, George Foreman Grill passage)
+- **Never mistake optimization for strategy.** Lynch draws the line sharply: "there's definitely many copyriters that they think strategy means looking at existing campaign data and deciding which winners were the winners and then writing more like that... That's copywriting." Iterating on what already won is not the same discipline as designing the identity architecture. (transcript, strategist-vs-copywriter passage)
+- **Never stop at the copy column out of fear of production.** Lynch names this explicitly as what keeps copywriters capped: "that's the thing that terrifies copywriters is, 'Oh my god, I got to leave my bedroom and work with other people and interact'... Copywriters go, 'Well, I've never — I can't do the visual... it's in my head.' And they're done. They quit." (transcript, "write the other side of the column" passage)
+- **Never advertise the literal user behavior.** Coca-Cola's actual customer behavior is unglamorous — Lynch's own line: "what do Coca-Cola drinkers really do? They sit on couches and get fat." The anti-pattern is advertising that accurate behavior instead of the aspirational identity ("energy and health and victory and excitement"). (transcript, Coca-Cola passage)
+- **Never stop at optimizing cost-of-acquisition.** Lynch treats CAC-optimization as the amateur ceiling: "Most people enter a business and they go, I need to figure out how much it costs to acquire a customer... a great business goes one step further and says it's not about my cost of acquisition. I want to get my cost of acquisition to zero." Settling for a lower CAC instead of engineering toward zero is the failure mode. (transcript, cost-of-acquisition passage)
+
+---
+
+## Recognition Test
+
+Would Ron Lynch recognize this as his own campaign architecture, or as someone wearing DRTV vocabulary without the discipline underneath?
+
+- **Fails the test** if the output lists "contest funnel," "customer-as-media," "food-first" as labeled framework steps rather than executing them invisibly. Lynch never narrates his own machinery on the page — he names the identity in one word and lets the campaign carry it.
+- **Fails the test** if the deliverable is a 1-2 page creative summary. Lynch's actual standard is a 14-20 page brief that reads like a business plan — sales mix, margin, cost of goods, competitive landscape, and the sales-argument outline, not just a mood board.
+- **Fails the test** if the campaign sells the product's features (megapixels, specs, ingredients) instead of naming what the customer *becomes*. GoPro is the anchor case: "we didn't sell cameras. We sold bravery."
+- **Passes the test** when the creative could be handed to Lynch and he'd ask "what's the identity in one word?" and the answer is already sitting in the brief — not buried under feature copy, and not needing to be reverse-engineered from a list of benefits.
+- **Passes the test** when the campaign has a customer-as-media mechanism baked in from the start (not bolted on as a "referral program" afterthought) — the GoPro contest-to-UGC pipeline is the reference shape, not a generic share button.
 
 ---
 
@@ -188,14 +227,14 @@ Ron runs Bonfire Enterprises as the incubation arm of Guthy-Renker Ventures — 
 
 ### Level 1: Identity Architecture
 The foundation. Every campaign starts here.
-- Identity Audit: What identity does the customer want to hold? What 5-6 products define their social media persona?
+- Identity Audit: What identity does the customer want to hold? What 5-6 products define their social media persona? Lynch's own illustration: "that's the yoga lady who does the woo woo and she does the crystals and the beads."
 - One-Word Naming: Reduce the identity to a single word. This word becomes the creative North Star.
 - Counter-Identity Check: Map the REAL user behavior. Design the ASPIRATIONAL identity. The gap = the sale.
 
 ### Level 2: Campaign Ecosystem Design
 Building the machine that sells AND recruits.
 - Transformation-First Creative: Lead with the OUTPUT. Food, not the appliance. Adventure, not the camera.
-- Contest/Giveaway Mechanism: Low-cost daily giveaway that captures data, educates on the full product range, and converts.
+- Contest/Giveaway Mechanism: Low-cost daily giveaway that captures data, educates on the full product range, and converts. GoPro's version gave away one $300 camera a day at cost of goods — "super cheap advertising."
 - Customer-as-Media Infrastructure: Templates, music, handles, tools. Make broadcasting frictionless.
 
 ### Level 3: Media Strategy
@@ -207,20 +246,20 @@ Matching creative to channels for maximum identity resonance.
 ### Level 4: Business Operations Integration
 The strategist understands the P&L.
 - Unit Economics Mapping: Sales mix, margin, cost of goods, supply chain.
-- Royalty Negotiation: Position creative services as cost + royalty. Align incentives.
+- Royalty Negotiation: Position creative services as cost + royalty. Align incentives. Royalty math, concretely: one four-day product-demonstration shoot generated roughly $80M/year in sales for five years, paying Lynch $20-30K/month in royalty checks the entire time.
 - Inverted Org Design: Build the creative department as an autonomous system.
 
 ### Level 5: Career Architecture
 The CMO path for creative professionals.
 - Skill Progression: Copywriter → Creative (write both columns) → Creative Director → Creative Strategist → CMO/Founder
 - Business Acumen Layer: Learn sales mix, margin, supply chain, labor.
-- Portfolio Development: Campaigns, not copy.
+- Portfolio Development: Campaigns, not copy. Lynch's own compounding proof: "When I was 34, I made less than $100,000 a year. When I was 36, I made over a million dollars a year" — same skill, escalated medium and role.
 
 ---
 
 ## Big Baby Agency Operational Model
 
-The production-grade methodology for running a creative strategy business at scale.
+The production-grade methodology for running a creative strategy business at scale. **Provenance flag (UNCONFIRMED)**: the "Big Baby Agency" branding, `BigBabyAgency.com`, the "Marketing Mercenary" 9-week program specifics, and the *Buy Now* book title below are not present in the ground-truth source (`extractions/ron-lynch/transcript.txt`, 67,446 bytes, full text reviewed 2026-07-17) — the transcript confirms a "mercenary program that graduates you into a creative strategist" and a separate 13-week coaching cohort, but not this section's specific figures or proper nouns. Treat the section below as UNCONFIRMED business-model detail, not verified fact (full breakdown in `references/source-ledger.md`).
 
 ### Client Onboarding Pipeline
 1. **3-Question Pre-Qualification**: Is the USP super unique? Does pricing support media economics? Does it need demonstration?
@@ -255,6 +294,7 @@ Ron runs 4-5 companies simultaneously as fractional CMO using:
 - Demonstrable transformation (can you SHOW it working?)
 - Categories: housewares, skincare, natural medicine, pharma, hardware, pain relief, tech, IP
 - The product must earn a slot in the customer's 5-6 identity stack
+- Reference pass/fail: GoPro cleared this filter on demonstrability (footage sells itself) even though the underlying camera was, in Lynch's own words, "pretty inferior" at the time — the mounts and the resulting content were what made it demonstrable at a $300 price point.
 
 ### Education + IP Assets
 - *Buy Now: Creative Marketing that Gets Your Product Sold* (book)
