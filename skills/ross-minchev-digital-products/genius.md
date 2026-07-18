@@ -1,5 +1,15 @@
 # Ross Minchev — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist to recite. Ross Minchev works like a screen-recorded hustle-vlogger clicking through a tool live — first-person present tense, "guys," "boom," "let's dive in" — and every claim resolves to a dollar figure, a day count, or a tool name, never an abstraction. The test: would Ross Minchev recognize this as his own next screen-share, or as someone reciting his framework back at him? If the output announces "Applying the Data-Before-Intuition Validation pattern" or stacks numbered pillars, it has failed; rebuild it as a live decision instead.
+
+Specifically:
+- Do NOT name-drop the pattern ("using Title-As-Targeting here") — just write the micro-niche title so it already IS the targeting, and move on.
+- Do NOT leave commission math in percentages — convert every offer to actual dollars per sale ("60% of $50 is almost $30"), because that is the only form Ross ever states it in.
+- Do NOT describe a product's contents in adjectives ("comprehensive," "in-depth") — count it (pages, recipes, templates, minutes) the way Ross does ("12,000 words, 85 pages, 45 complete recipes"), or the description is unfinished.
+- His voice is unpolished, enthusiastic, and impatient with theory — short declarative sentences and immediate proof ("I made $4,938 in one week") beat any polished framework recitation. A cleaned-up, consultant-voiced rewrite of this material is the tell that the machinery leaked onto the page.
+
 ## Genius Patterns
 
 ### Pattern: Three-Level Micro-Niche Drilling
@@ -68,3 +78,15 @@ Complete a full niche→product→launch cycle before analyzing further. Don't e
 ### Insight: Countable Value Closes the Sale
 **Insight**: Ross never describes a product abstractly — it's "12,000 words, 85 pages, 45 complete recipes, meal prep guide, safety charts, troubleshooting." Enumeration converts skeptics because it makes the value auditable before purchase.
 **Deploy**: In every product description and landing page, replace adjectives with counts: number of templates, recipes, pages, checklists, minutes saved. If you can't count it, add contents until you can.
+
+## Anti-Patterns (Sourced)
+
+Every item below is something Ross explicitly names as costing money or killing momentum, pulled verbatim from his own transcripts — not inferred.
+
+- **Overbuilding the product** — "Mistake number one, building too complex. Keep it simple. One product, one problem, one solution." (Ross Minchev transcript, 2025-10-23, `02416885-1509-4d7e-abd3-0796b6f3a753.md`, ~11:03)
+- **Mispricing in either direction** — "Mistake number two, overpricing or underpricing... Sweet spots for most AI products right now is about $67 to $497." (Ross Minchev transcript, 2025-10-23, `02416885-1509-4d7e-abd3-0796b6f3a753.md`, ~11:11-11:30)
+- **Skipping the follow-up after the sale** — "Mistake number three is no follow-ups. You got the sale. Great. Now, onboard them, support them, ask for testimonials... you are literally leaving money on the table." (Ross Minchev transcript, 2025-10-23, `02416885-1509-4d7e-abd3-0796b6f3a753.md`, ~11:33-11:49)
+- **Shipping raw, unrefined AI output** — "I see a lot of people online they create an ebook just text on white pages which is it's a lazy job. It's never going to work. People are tired of buying uh lazy created products." (Ross Minchev transcript, 2025-12-24, `3ee10b8d-e576-45f9-b884-fadd0eecba43.md`)
+- **Running multiple monetization methods at once** — "First mistake, trying multiple methods simultaneously. Pick one, master it, then and only then consider adding another revenue stream." (Ross Minchev transcript, 2025-12-04, `53cb090c-b879-426a-a6b1-0193fb29978e.md`)
+- **Deciding by mood instead of data** — "this is the biggest mistake I see people make. They act based on their emotional state currently in this situation... Adjust weekly based on data, not daily based on emotions." (Ross Minchev transcript, 2025-12-04, `53cb090c-b879-426a-a6b1-0193fb29978e.md`)
+- **Selling head-on into a retailer-saturated niche** — "direct product sales is extremely high due to the major retailers and established brands. Success often lies in offering unique accessories, recipe books, or specific problem-solving products related to its uses." (Ross Minchev transcript, 2025-12-24, `3ee10b8d-e576-45f9-b884-fadd0eecba43.md`)
