@@ -207,6 +207,18 @@ N. PROMOTE · dir-01 winner (fal-poster, high) — check ✓ (self-confirm) → 
 
 The block is complete only when: every fired call has both a runbook line and a ledger row, every row's `Logged` is ✓, the TOTAL reconciles against `cost_gate status` + `fal_budget_guard status`, and no direction was promoted before it survived the free WF-07/flip-test cull. A run that "produced lots of images" but skipped the draft-first ladder is a cost-discipline failure regardless of output count.
 
+## Quality Gate
+
+Before the Generation Run closes out, verify:
+
+- [ ] **Every fired call has a runbook line AND a ledger row** — no orphaned spend, no silent generation.
+- [ ] **Every ledger row is Logged ✓** — a missing log means `fal_budget_guard.py log` or `cost_gate.py log` was skipped; reconcile before closing.
+- [ ] **TOTAL reconciles** against `cost_gate.py status` + `fal_budget_guard.py status` — a mismatch means an untracked call happened somewhere.
+- [ ] **Draft-first ladder was honored** — low/Nano scouted, `--variants` gave cheap siblings, medium reviewed, and only the winner escalated to high. No direction jumped straight to `--quality=high` without surviving a cheaper pass.
+- [ ] **Nothing auto-fired** — every command in the runbook began with a `cost_gate.py check`; no `approve` ran without a prior needs-approval + explicit human yes.
+
+**Pass criteria**: all checked. A run that "produced lots of images" but skipped the draft-first ladder or left a ledger row unlogged is a cost-discipline failure regardless of output count.
+
 ## Cost & Safety
 
 This is the trigger stage — and even here the rule holds: **nothing auto-fires.** Every paid call is a human-in-the-loop `check → approve(if needed) → run → log`.

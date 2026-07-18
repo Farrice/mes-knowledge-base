@@ -216,6 +216,19 @@ This stage appends a single **Compiled Prompts** block to the accumulating Studi
 
 The block is complete only when: every direction has a router-confirmed model tag, a full compiled prompt (Fal directions include the literal JSON), a run command using **only real flags**, a Virgil PASS (or a logged fix), and its caveat flags surfaced. A direction missing any of these does not advance to Stage 6.
 
+## Quality Gate
+
+Before the Compiled Prompts block hands off to WF-06, verify:
+
+- [ ] **Model tag re-confirmed, not inherited blind** — each direction's tag was re-checked against `creative_router.py` at Step 1, not assumed from Stage 3.
+- [ ] **One direction, one prompt** — no two directions merged into a single call to save a run; a blended prompt averages the divergence away.
+- [ ] **Fal directions carry the literal `--brief` JSON** — a real scaffold id from `styles.js --list`, `subject` as one fully-realised scene (not a keyword stack), `title` ≤6 words, `palette` set to the Satori hex tokens.
+- [ ] **Edit directions describe only the change** — no restated whole-scene prompt riding along with `--input`.
+- [ ] **Virgil-tested** — POV, tension, cultural anchor, one-sentence concept all answered per direction; any "no" was fixed and re-tested, not shipped with a failing axis.
+- [ ] **Run command uses real flags only** — no invented flag; a second operator could paste it and fire it as written.
+
+**Pass criteria**: all checked. A prompt shaped for the wrong model, or a keyword-stuffed prompt that throws Stage 4's decisions away, does not advance to Stage 6 regardless of how polished the JSON looks.
+
 ## Cost & Safety
 
 **This stage PLANS. It writes exact invocations and fires nothing.** Generation is human-triggered and cost-gated at Stage 6. When the human runs a compiled command, the mandatory pre-flights are:

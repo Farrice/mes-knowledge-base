@@ -91,3 +91,29 @@ Then in your prompt: `"@Element1 walks across the dance floor, the crowd parts a
 - ❌ **More than 4 shots.** Kling can technically handle more but coherence degrades. 2-4 shots is the sweet spot.
 - ❌ **Single-action prompts in multi_prompt.** If shots are too similar, the cuts feel arbitrary. Make each shot a distinct *moment*.
 - ✅ **Author shots like a 3-act trailer.** World → disruption → resolve. Or setup → reveal → consequence.
+
+## Output Schema
+
+Each multi-shot run produces one **Shot Record**:
+
+```markdown
+## Kling Multi-Shot — <project/campaign>
+- Shots (multi_prompt array): [N] entries, each one distinct moment (not a variation of the last)
+- Duration / audio: <Ns> · <off|on|voice_control> — verified within $2 ceiling (table above)
+- Elements used: [none | @Element1: <ref>, @Element2: <ref>]
+- Pre-flight: `fal_budget_guard.py check --mode=kling --duration=<N> --audio=<mode>` → estimated $<n>
+- Output file: `skills/fantastic-posters/out/<model>_<duration>s_<timestamp>.mp4`
+- Post-flight log: `fal_budget_guard.py log --mode=kling --duration=<N> --audio=<mode> --status=success --actual-cost=<n> --brief="<one line>"` ✓
+```
+
+Complete only when shot count matches the table's per-shot-second rule (≥3-4s/shot) and the log's `--actual-cost` matches the pre-flight estimate.
+
+## Quality Gate
+
+- [ ] **Duration + audio combo stays under the $2 ceiling** — checked against the Cost Reference table, not assumed.
+- [ ] **Each shot is a distinct moment** — 2-4 shots, not near-duplicate prompts; a spread that reads the same with the sound off fails.
+- [ ] **Seconds-per-shot ≥ 3-4s** — 3 shots in 5s (1.7s/shot) is the named unwatchable failure; use 9-11s minimum for multi-shot.
+- [ ] **Elements referenced correctly** — `@Element1`/`@Element2` used in prompts only when the elements JSON actually defines them.
+- [ ] **Pre-flight ran, log ran with real `--actual-cost`** — not the estimate copy-pasted if the actual differs.
+
+**Pass criteria**: all checked. A multi-shot render that "looks cinematic" but crams 4 shots into 5s fails the pacing gate regardless of visual quality.

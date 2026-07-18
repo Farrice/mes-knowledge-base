@@ -174,6 +174,19 @@ This stage writes exactly one named block per render into the accumulating **Stu
 
 The ledger is complete only when: every render has four scored lenses each with a specific finding (no naked numbers), a verdict keyed to the failing lens, and — for any REFINE — the exact one-change command + mask target + gate string. The loop verdict for the whole Studio Job is: **all candidates SHIP, or the surviving winner is named and the rest are marked REGENERATE (back to WF-03/04) or retired.**
 
+## Quality Gate
+
+Before the Critique Ledger closes a render's loop, verify:
+
+- [ ] **All four lenses scored with a finding, not a naked number** — Virgil / LIFT / type-legibility / anti-slop each carry a specific reason, not just "7/10."
+- [ ] **Verdict is keyed to the failing lens** — SHIP / REFINE / REGENERATE names *which* lens failed, not a vibe call.
+- [ ] **REFINE is a targeted mask edit, not a full re-roll** — the one-change instruction + mask target + gate string are all present; a full re-generation disguised as a "refine" is wrong.
+- [ ] **Refine render is gated like any other** — `cost_gate.py check` → (approve on human yes) → run → log; the loop does not treat editing as free.
+- [ ] **Loop capped at 2-3 passes** — escalation (low→medium→high) only on survivors; a render still failing after 3 passes gets retired or the direction regenerated, not looped indefinitely.
+- [ ] **A winner is named** — the Studio Job's front door (WF-00) needs one locked render passing all four lenses, not a pile of "pretty good" candidates.
+
+**Pass criteria**: all checked. A ledger that scores renders but never names a winner, or that treats a mask edit as free, fails this gate.
+
 ## Cost & Safety
 
 This stage **SCORES and PRESCRIBES**. It does not fire generation. But note the asymmetry from earlier stages: **a REFINE render is itself a paid API call** — the loop cannot pretend editing is free.

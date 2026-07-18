@@ -166,6 +166,18 @@ This stage writes exactly one named block into the accumulating **Studio Job**, 
 
 The block is complete only when: every format derives from the *same* locked winner (a shared `.brief.json` / `styles.js` id, not a new concept), every row carries its resolved pixel size + quality + the full three-step gated command, every non-holding aspect has a recomposition directive from Step 4, the cutout uses `--rembg` and motion routes to a video service (never `generate.js`), and the pack total is summed and visible.
 
+## Quality Gate
+
+Before the Format Pack Plan closes the Studio Job, verify:
+
+- [ ] **Every format derives from the same locked winner** — the shared `.brief.json` / `styles.js` id, never a fresh concept smuggled in under a new aspect ratio.
+- [ ] **Non-holding aspects carry a recomposition directive** — a format that can't just crop (Story 9:16 recomposing a portrait leverage point) states HOW it recomposes, not just that it resizes.
+- [ ] **Cutout uses `--rembg`, motion routes to a video service** — never `generate.js --size` for either; a format silently re-designing the idea is a fail.
+- [ ] **Every row carries the full three-step gated command** — check → (approve on yes) → run → log, resolved pixel size and quality included.
+- [ ] **Pack total is summed and visible** — the human approves one number before any reframe fires, not a per-row surprise.
+
+**Pass criteria**: all checked. A format pack that quietly re-designs one deployment instead of reframing the locked concept is the exact failure this stage exists to prevent.
+
 ## Cost & Safety
 
 This stage **PLANS and STAGES**. Every format is fresh paid generation and is **cost-gated + human-triggered** — WF-08 never fires a paid API and never runs `approve`.

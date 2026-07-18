@@ -79,3 +79,30 @@ python3 execution/fal_budget_guard.py log --quality=high --n=1 --status=success
 - Logo placement: pass `--logo=path/to/mybpm-logo.png` to anchor the logo. Generator places it in upper-right by default.
 - Reference brand book: when a PDF brand guide exists, pass `--refs=brand.pdf` (auto-renders page 1 to PNG at 2x DPI). Requires `npm install pdfjs-dist canvas` once.
 - Avoid recognizable celebrity faces in briefs — Fal/GPT Image 2 will refuse or distort.
+
+## Output Schema
+
+Each product run produces one **Product Poster Record**:
+
+```markdown
+## My.BPM — <product-slug>
+- Style: <style-id from Native-Fit table> · Palette: <hex list from Brand Guardrails or override>
+- Brief (filled template): "<the product/type/color/mood sentence>"
+- Exploration: 3 variants @ medium ($0.12) → winner: <variant #>
+- Final: 1 @ high ($0.17), style=<winning style>
+- Output file(s): `skills/fantastic-posters/out/<file>.png` → `_active/mybpm/poster-drops/<date>/<product-slug>/` → `mybpm-store/products/<product-slug>/poster.png`
+- Logo anchor: [--logo=<path> used | none]
+- Total spend: ~$0.29
+```
+
+Complete only when the winner is named, both pre-flight/log pairs (exploration + final) are present, and the output file path matches the three-stage pipeline.
+
+## Quality Gate
+
+- [ ] **Brand guardrails honored** — palette from the hex list (or a stated override), PLUR register, no recognizable faces, no "corporate clean" drift.
+- [ ] **Exploration-then-final pattern followed** — 3 medium variants before 1 high final; skipping straight to high on an unproven brief is the anti-pattern this template exists to prevent.
+- [ ] **Logo placement checked** — if `--logo=` was used, the placement was eyeballed (generator defaults upper-right; verify it didn't collide with the composition).
+- [ ] **Both pre-flight/log pairs present** — exploration ($0.12) and final ($0.17) each have their own `fal_budget_guard.py check` → `log`.
+- [ ] **Output moved through the full pipeline** — `out/` → `poster-drops/<date>/<slug>/` → `mybpm-store/products/<slug>/poster.png`, not left in `out/`.
+
+**Pass criteria**: all checked. A poster that "looks on-brand" but skipped the exploration pass or left the file in `out/` fails this gate.

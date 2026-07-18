@@ -108,3 +108,29 @@ python3 execution/fal_budget_guard.py log --mode=kling --duration=3 --audio=off 
 2. Move to project folder: `_active/mybpm/videos/`, `_active/farrice-brand/content/parallax-packages/<edition>/trailer.mp4`, `projects/jen-santulan/listings/<address>/reveal.mp4`, etc.
 3. For social distribution: re-encode if needed (Substack supports MP4 ≤256MB, Instagram has its own constraints)
 4. For video deck embedding: keep as-is (most slide tools handle MP4)
+
+## Output Schema
+
+Each animation run produces one **Poster-to-Video Record**:
+
+```markdown
+## Poster → Video — <use-case preset name>
+- Source still: `skills/fantastic-posters/out/<poster>.png` (generated and locked BEFORE this stage — never animate an unproven poster)
+- Model: <kling|seedance-720p> · Duration: <Ns> · Audio: <off|on|voice_control> · Aspect: <9:16|16:9>
+- Pre-flight: `fal_budget_guard.py check --mode=<model> --duration=<N> [--audio=<mode>]` → estimated $<n>, within ceiling
+- Output file: `skills/fantastic-posters/out/<model>_<duration>s_<timestamp>.mp4` → moved to `<project>/videos/<slug>/`
+- Post-flight log: `fal_budget_guard.py log --mode=<model> --duration=<N> --status=success --actual-cost=<n> --brief="<preset name>"` ✓
+```
+
+Complete only when the source still predates this run (not generated in the same pass) and the log's `--actual-cost` is filled from the generator's real output, not the estimate.
+
+## Quality Gate
+
+- [ ] **Poster locked before animation** — the bridge pattern requires a strong still first; a video generated before the poster is proven is the named anti-pattern.
+- [ ] **Cheapest plausible config tried first** — default to 3-8s before escalating to Seedance-720p or longer durations.
+- [ ] **Audio mode matches intent** — `voice_control` only when lipsync to a script is needed; ambient/music uses `on`.
+- [ ] **Duration stays within its model's ceiling** — $2 Kling / $3 Seedance-720p, verified against the Cost Envelope Reference table, not assumed.
+- [ ] **Pre-flight ran before generation** — Fal does not refund a wasted call; skipping the guard is an explicit anti-pattern here.
+- [ ] **Output moved to the destination project folder** — not left sitting in `out/`.
+
+**Pass criteria**: all checked. Animating an unlocked poster or skipping the pre-flight check fails this gate regardless of how the clip looks.

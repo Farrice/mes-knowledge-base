@@ -92,3 +92,28 @@ python3 execution/fal_budget_guard.py log --mode=seedance-720p --duration=8 \
 ## Output Pipeline
 
 Same as poster-to-video.md — MP4 lands in `out/`, move to project folder, deliver.
+
+## Output Schema
+
+Each cinematic transition produces one **Start→End Transition Record**:
+
+```markdown
+## Seedance Cinematic — <start> → <end>
+- Start frame: `skills/fantastic-posters/out/<start>.png` · End frame: `skills/fantastic-posters/out/<end>.png` (same style/palette/composition, generated first)
+- Duration: <4-8s> · Resolution: 720p · Aspect: <16:9|9:16> · Audio: on
+- Pre-flight: `fal_budget_guard.py check --mode=seedance-720p --duration=<N>` → estimated $<n>, within $3 ceiling
+- Output file: `skills/fantastic-posters/out/<model>_<duration>s_<timestamp>.mp4`
+- Post-flight log: `fal_budget_guard.py log --mode=seedance-720p --duration=<N> --status=success --actual-cost=<n> --brief="cinematic transition <start> → <end>"` ✓
+```
+
+Complete only when both frames predate this run (Step 1 generated them separately) and duration falls in the 4-8s window the Cost Reference table names as viable.
+
+## Quality Gate
+
+- [ ] **Start/end frames share visual DNA** — same style, palette, framing; wildly different frames produce a broken motion path.
+- [ ] **No new objects invented in the end frame** — Seedance interpolates, it does not invent; anything appearing must be implied in the start frame (e.g. a doorway).
+- [ ] **Duration in the 4-8s window** — below 4s feels rushed, above 8s exceeds the $3 ceiling (10s = $3.02, blocked).
+- [ ] **Start POV and lighting match the end frame** — same camera angle, same time of day; the model handles transitions, not relocations.
+- [ ] **Audio intent is deliberate** — auto-generated ambient accepted, or explicitly silent + post-add music planned, not left to chance.
+
+**Pass criteria**: all checked. A transition where the model "filled in something plausible" because the frames diverged fails this gate even if the render completes.

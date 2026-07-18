@@ -169,6 +169,19 @@ This stage writes ONE named block — the **Art-Direction Spec** — into the ac
 
 The spec is complete only when: the hidden truth is one sentence, all four hex tokens are real, the type mode is decided (as-image vs as-caption), the memory hook is concrete or honestly blanked, ≥3 anti-slop moves each pay rent, the cultural anchor is named, and the Virgil Test passes. This block — not a prose paragraph — is the WF-03 input.
 
+## Quality Gate
+
+Before the Art-Direction Spec advances to WF-03, verify:
+
+- [ ] **Concept survives the phone test** — the hidden truth is one sentence, nameable without a color or font. If it needs a hex to make sense, it's decoration.
+- [ ] **Four hex tokens are real and role-assigned** — Dominant/Secondary/Accent/Neutral, not four colors with no job.
+- [ ] **Type mode is decided, not defaulted** — as-image (one of the 5 typography-first presets named) or as-caption (primitive named) — never left ambiguous.
+- [ ] **Memory hook is concrete or honestly blank** — a real render instruction, or flagged blank rather than faked.
+- [ ] **≥3 anti-slop moves, each paying rent** — distributed across leverage/secondary/texture zones, not clustered or decorative.
+- [ ] **Virgil Test passed** — all six questions (POV, tension, named anchor, one-sentence concept, subtraction test, logo-off test) answered, any "no" fixed before handoff.
+
+**Pass criteria**: all checked. A spec that "looks comprehensive" but fails the Virgil Test is a system failure regardless of length — the point is the concept, not the paragraph count.
+
 ## Cost & Safety
 
 This stage PLANS. No generation fires here. When stages 3-5 compile this spec into a generation command, the operator runs the mandatory pre-flight — this stage does NOT auto-fire it:

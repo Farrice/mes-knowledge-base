@@ -9,6 +9,20 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These eight stages are intuition primitives, not a checklist to march through out loud. Absorb the divergence discipline (real strangers, not tinted siblings) and the reference-lineage habit (a named designer, not "modern/clean"), then work from concept, not from template.
+
+The test: would a working art director — the kind who names Müller-Brockmann or Saul Bass without reaching for Wikipedia — recognize this as theirs, a reference-grounded, orthogonally-diverged piece of design thinking? Or would they recognize it as generic keyword-template output wearing 38-style vocabulary? If it's the second, rebuild from Stage 1 (reference-ground), not from a palette override.
+
+Specifically:
+- Do NOT narrate "Stage 2: Art-Direct, Stage 3: Divergence" inside the delivered creative unless the user asked to see the pipeline itself. Execute the thinking; don't caption the machinery on the page.
+- Do NOT label a compiled prompt "here's the anti-slop move" or "here's the leverage point." Land it in the scene description; naming it is the tell that a template filled the form instead of a concept driving it.
+- This skill's texture is tool-honest, not tasteful-by-default — GPT Image 2 and Higgsfield are instruments a director points, not oracles that already have taste. A prompt that reads like a keyword stack ("moody, cinematic, professional, 4k") is the single-model, one-shot failure this build exists to kill; compile one fully-realised scene, never a tag list.
+- Polish is the tell here too, inverted: an anti-slop pass that removes every imperfection re-produces the AI-perfect template lane this skill exists to escape. The ≥3 deliberate human-imperfection moves (WF-02 move 7) are load-bearing, not garnish — a "clean" render that skipped them has failed the anti-slop lens even if nothing else is wrong.
+
+---
+
 ## The Underlying Belief
 
 > **Satori decides. The router picks the instrument. The studio critiques its own work.**
@@ -173,15 +187,23 @@ Never accept the first render. Score each output on four lenses; decide **SHIP �
 
 ## Anti-Patterns (auto-reject)
 
-1. **Keyword-template brain** — `pickStyle` → fill blanks, no concept. Run WF-02 first.
+1. **Keyword-template brain** — `pickStyle` → fill blanks, no concept. Run WF-02 first. This is the diagnosed v1 failure this genius.md opens with (v2 "Studio" elevation, 2026-07-04): v1 was "a strong pair of hands... bolted to a thin brain (`pickStyle()` keyword-matches one template; `--n` nudges "shift colour accent")."
 2. **Tint divergence** — "3 variations" that share one idea. Diverge on ≥2 axes (WF-03).
 3. **One-model reflex** — GPT Image 2 for a job Higgsfield Soul/Nano/video would win. Check the router (WF-04).
 4. **One-shot acceptance** — shipping the first render without the critique loop (WF-07).
 5. **Generic-default aesthetic** — no named lineage, "modern/clean/professional." Anchor in WF-01; pass the Virgil Test.
 6. **Under-used hands** — never reaching for `--mask`, `--refs`, `--rembg`, non-portrait sizes, or the video bridge when the job calls for them.
-7. **Verbose ref prompts** — with `--template`/`--refs`, the shortest prompt naming only the change wins; verbose specs make the model drift.
-8. **Auto-firing paid gen** — any generation without the cost gate + a human yes.
-9. **Title > ~6 words** — GPT Image 2 garbles long lettering; shorten or render text as a masked pass.
+7. **Verbose ref prompts** — with `--template`/`--refs`, the shortest prompt naming only the change wins; verbose specs make the model drift. Source: SKILL.md "Trust the Reference" — "the shortest prompt that names ONLY what changes outperforms verbose specs."
+8. **Auto-firing paid gen** — any generation without the cost gate + a human yes. Source: `generate.js` (2026) carries its own root-cause comment on this exact failure mode, quoted below.
+
+> "Root cause of the 2026-05→07 fal-usage.json staleness: fal_budget_guard.py logging was AI-memory-dependent (a human/agent had to remember to run it after each call)." — `generate.js`, lines 40-41
+
+Spend logging is now wired directly into the generator (lines 39-60) instead of relying on a human remembering the post-flight log — the same discipline this anti-pattern demands of the cost gate itself.
+
+9. **Title > ~6 words** — GPT Image 2 garbles long lettering; shorten or render text as a masked pass. Source: `README.md`, "Settings" section.
+
+> "GPT Image 2 is the strongest text-rendering model around — titles, billing blocks, masthead lockups all hold up. If a title runs more than ~6 words, expect typos; shorten and re-run."
+
 10. **Skipping the satori handoff** — treating a `/satori-design-think` brief as optional. If it exists, ingest it; if not, run the concept + color inline.
 
 ---

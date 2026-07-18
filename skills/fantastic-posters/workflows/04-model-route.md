@@ -167,6 +167,18 @@ This stage writes exactly one named block into the accumulating **Studio Job**, 
 
 The table is complete only when: every direction has a service justified by its payload class (not vibe), every ⚑ reference dependency names its asset, every paid row carries the exact `cost_gate.py check` string (plus the video/Higgsfield second gate where it applies), and the total is summed and visible.
 
+## Quality Gate
+
+Before the Routing Table hands off to WF-05, verify:
+
+- [ ] **Payload classified before routing** — TEXT-IN-IMAGE / PHOTOREAL-PEOPLE / ITERATION / EDIT / TRANSPARENCY / MOTION decided per direction, not inferred backward from whichever service `creative_router.py` happened to match.
+- [ ] **Router confirmed, not overridden blind** — every row's service matches `creative_router.py route --task ... --json`, or carries a written override reason.
+- [ ] **Not everything defaulted to fal-poster** — the one-tool reflex this stage exists to kill; a spread with real photoreal/motion directions shows real Higgsfield/Kling/Seedance rows.
+- [ ] **Every ⚑ reference dependency is named** — the asset and its source, so generation doesn't fail on a missing ref it could have flagged now.
+- [ ] **Every paid row carries its exact gate command(s)** — `cost_gate.py check`, plus `fal_budget_guard.py` / `higgsfield_budget_guard.py` where the service requires it — and the subtotal + total are visible.
+
+**Pass criteria**: all checked. A table that "looks routed" but silently sends a photoreal-people direction to `fal-poster` fails this gate regardless of how complete it looks.
+
 ## Cost & Safety
 
 This stage **PLANS**. Generation is **cost-gated and human-triggered** — WF-04 never fires a paid API and never runs `approve`.

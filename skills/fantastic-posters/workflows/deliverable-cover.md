@@ -86,3 +86,30 @@ python3 execution/fal_budget_guard.py log --quality=high --n=1 --status=success
 - ❌ Recognizable real people in covers (likeness issues + GPT Image 2 will distort)
 - ❌ Using `medium` for client-facing deliverables (the quality gap is visible at print/screen)
 - ✅ Use the cover to signal the *category* of thinking, not summarize the content
+
+## Output Schema
+
+Each cover run produces one **Cover Generation Record** — the artifact a reviewer checks before the cover ships with a deliverable:
+
+```markdown
+## Cover — <deliverable slug>
+- Style used: <style-id from Native-Fit Styles table> · Quality: high ($0.17) [+ exploration $0.033 × 3 if run]
+- Brief (thesis · audience · mood · visual anchor): "<the four required lines>"
+- Pre-flight: `fal_budget_guard.py check --quality=high --n=1` → <approved/denied>
+- Output file: `skills/fantastic-posters/out/<file>.png` → moved to `<strategy_briefs|councils|extractions|deliverables>/<slug>/cover.png`
+- Post-flight log: `fal_budget_guard.py log --quality=high --n=1 --status=success --style=<id>` ✓
+- Total spend: $0.17 (or $0.20 with exploration)
+```
+
+Complete only when every field is filled and the log line shows `--status=success`.
+
+## Quality Gate
+
+- [ ] **Brief carries all four required elements** — thesis (not title), audience, mood, one concrete visual anchor. A brief missing any one produces a stock-art cover.
+- [ ] **Style matches Native-Fit table intent** — not the auto-picker's first keyword hit; a deliberate pick for the deliverable's register.
+- [ ] **`--quality=high` for anything client-facing** — `medium` is an anti-pattern here; the quality gap is visible at print/screen.
+- [ ] **No literal deliverable title baked into the prompt** — GPT Image 2 typography is unreliable for a full title; add text in Canva post-gen.
+- [ ] **No recognizable real person** — likeness risk + distortion risk both apply.
+- [ ] **Pre-flight ran before generation, post-flight log ran after** — `fal_budget_guard.py check` → generate → `fal_budget_guard.py log`, in that order, every time.
+
+**Pass criteria**: all checked. A cover that "looks premium" but skips the pre-flight/log pair or bakes in a literal title fails this gate regardless of how it renders.

@@ -197,6 +197,18 @@ This stage appends one block — the **Divergence Spread** — to the accumulati
 
 The block is complete only when: N directions each have a distinct name, a one-sentence concept, ≥2 varied axes vs every sibling, a routed model, and its own compiled command — and the verdict reads PASS. A TINT-FAIL is not an output; it's a return to Step 3.
 
+## Quality Gate
+
+Before the Divergence Spread hands off to WF-04, verify:
+
+- [ ] **N justified, not padded** — 3 by default, 4-5 only when the concept space is genuinely wide; a constrained surface (logo, regulated pack) states why N is lower.
+- [ ] **Every pair clears the collapse test** — ≥2 distinct axes per pair, ≥1 of them an idea axis (A1/A2/A3). A pair differing only on A4 (color) is a tint, not a direction.
+- [ ] **No single-model, single-lineage spread** — the six axes actually span more than one `styles.js` cluster and, where warranted, more than one instrument.
+- [ ] **Each direction has its own compiled invocation** — never one `--n=N` call standing in for divergence; each direction is a separate command with a separate prompt.
+- [ ] **Verdict is explicit** — PASS or TINT-FAIL is written; a TINT-FAIL direction was regenerated on fresh axes before handoff, not shipped anyway.
+
+**Pass criteria**: all checked. A spread that "produced N images" but collapses on the pairwise test is the exact redundancy failure this stage exists to kill.
+
 ## Cost & Safety
 
 This stage **plans and compiles — it fires nothing.** It writes N directions and their ready-to-run commands into the Studio Job; a human triggers generation later.

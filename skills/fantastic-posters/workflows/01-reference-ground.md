@@ -152,6 +152,18 @@ This stage writes exactly one named block — **§1 of the accumulating Studio J
 
 Complete only when: lineage names are real (researched, not invented), every reference carries a transferable *move* (not just a name), the fit/break call names the category monopoly and agrees with the color tokens, and the primitive DNA is 1-3 IDs to blend (or an honest "none fit").
 
+## Quality Gate
+
+Before the Reference Anchor hands off to WF-02, verify:
+
+- [ ] **Real lineage, not vibes** — every named reference is a real movement/designer/archive with a piece or era attached (researched via WebSearch/WebFetch when niche, never invented). A hallucinated designer name is an auto-reject, worse than a genre label.
+- [ ] **Transferable moves, not name-drops** — each reference states composition/color/type/texture as an executable move ("Tomaszewski move: a single hand-torn metaphor..."), not just a name.
+- [ ] **Fit/Break call is reasoned** — FIT-IN / BREAK-AWAY / BREAK-MONOPOLY names the category's actual visual monopoly and agrees with the Satori color tokens, not a coin flip.
+- [ ] **Primitive DNA is a blend, not a lock** — 1-3 `styles.js` ids named to combine, or an honest "none fit."
+- [ ] **No paid API touched** — only `node generate.js --list` and web research ran; generation stays downstream and gated.
+
+**Pass criteria**: all checked. An anchor with an invented reference name is the one unforgivable failure in this stage — verify before handoff, not after a prompt is built on it.
+
 ## Cost & Safety
 
 **This stage PLANS. It fires no paid API.** Its only commands are free: `node generate.js --list` (local catalog read) and `WebSearch` / `WebFetch` (research). No image is generated here.
