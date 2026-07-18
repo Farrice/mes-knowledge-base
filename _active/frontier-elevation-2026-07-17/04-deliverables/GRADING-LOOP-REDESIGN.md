@@ -89,8 +89,14 @@ routing down — honest verdicts finally make routing learn.
 | R2 | Precedent tolerance-check becomes blocking for SHIP; trial file + revert flag, same pattern as `.agent/routing-enforce-trial.json` | 1-week trial |
 | R3 | Quality→routing weight wiring (Apex W1.3) on judge verdicts | after R2 holds |
 
-## Open questions for Farrice
+## Open questions — RATIFIED by Farrice 2026-07-18 ("ratified as recommended")
 
-1. Verdict names: SHIP / MARGINAL / FAIL, or keep PASS/FAIL language from your seed reviews?
-2. Judge sampling rate for internal work: 1-in-3 (proposed) or every finalize (higher spend)?
-3. Should MARGINAL block delivery (retry-once mandatory) or deliver-with-flag?
+1. **Verdict names: SHIP / MARGINAL / FAIL.** Seed reviews may still be answered
+   PASS/FAIL — mapping PASS→SHIP, FAIL→FAIL, hesitation→MARGINAL.
+2. **Judge sampling: 1-in-3 internal**, with two forced triggers: (a) client-facing
+   always, (b) producer claims SHIP against a precedent neighborhood containing any
+   FAIL. Revisit to 1-in-2 only if the R2 trial ledger shows misses.
+3. **MARGINAL = deliver-with-flag, retry offered not mandatory** (COS compass-not-cage
+   precedent). FAIL blocks; Factual Grounding veto unchanged.
+
+R0 status: ratification DONE 2026-07-18; seed reviews in progress same day.
