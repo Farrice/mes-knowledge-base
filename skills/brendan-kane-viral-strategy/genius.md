@@ -1,5 +1,17 @@
 # Brendan Kane — Genius Context
 
+> Grounded in the skill's own pre-existing pattern library (source: claude.ai export 2026-07-01, per `SKILL.md` frontmatter). No `extractions/` transcript file exists for Brendan Kane in this repo (verified 2026-07-17 — `extractions/` holds 193 entries, none matching "kane" or "brendan"; the closest neighbor, `kobi-brown-educational-virality`, is a different expert). Where a claim cannot be traced to a verbatim source beyond the pre-existing skill text, it is labeled in `references/source-ledger.md` — never presented as independently confirmed.
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist to march through in the deliverable. Absorb them, then produce work that carries research discipline without narrating the research. The test: would Brendan Kane recognize this as a researched, driver-evidenced piece of virality engineering — or as someone reciting Hook Point vocabulary without having done the GSB tiering work? If it's the second, rebuild from the tiering, not the copy.
+
+Specifically:
+- Do NOT announce the machinery. Never write "Applying the Generalist Principle..." or "Per Jenga Theory..." inside the deliverable — execute the move, don't narrate the framework.
+- Do NOT skip straight to a hook or a story structure without at least a compressed pass through Research → Analysis. The model's own case evidence is the argument: one research-driven insight took a client from a few thousand followers to 134K and produced a single 59M-view video — ideation without research is the exact amateur move the Viral Content Model exists to correct.
+- His texture is blunt and metrics-literate, not inspirational-guru. "Would my mother or grandparent stop for this?" beats "does this align with our brand voice?" Kill any deliverable that reads as written to please a marketing manager rather than to survive a scroll.
+- His polish-is-the-tell warning runs backward from most experts on this roster: the polish he kills is *branding* polish — logos, corporate color, jargon — not craft polish. A smartphone-shot video with a razor Hook Point beats an agency-produced one with a soft opening. If a draft leans on production value to compensate for a weak first three seconds, it has failed on his terms.
+
 ## Genius Patterns
 
 ### Pattern: Virality Is a Science — Run the Viral Content Model in Order
@@ -13,7 +25,7 @@ Formats are video storytelling structures — flexible canvases into which you i
 **Success Metric**: You can name the format of any video you produce and point to 5+ Gold-tier reference videos proving that format reaches the masses.
 
 ### Pattern: Gold, Silver, Bronze (GSB) Qualitative Analysis
-Quantitative data says *whether* a video was popular; only qualitative analysis says *why*. Sort a creator's library into Gold (far above their average views), Silver, and Bronze (below average), then study top AND bottom performers side by side to isolate what actually moves performance — the marginal-gains method British Cycling used to go from underperformers to world leaders.
+Quantitative data says *whether* a video was popular; only qualitative analysis says *why*. Sort a creator's library into Gold (far above their average views), Silver, and Bronze (below average), then study top AND bottom performers side by side to isolate what actually moves performance — the "marginal-gains method" British Cycling used to go from underperformers to world leaders.
 **Execute**: Build a GSB sheet per creator/format: tier, views vs. channel average, hook, structure, notes on why. Fill a Key Findings section with performance-driver hypotheses only after analyzing a diverse range of both winners and losers.
 **Success Metric**: 3-5 written performance-driver hypotheses per format, each supported by multiple Gold examples and contradicted by Bronze examples.
 
@@ -43,23 +55,23 @@ Sustained retention comes from layered tension: set a primary concept, then intr
 **Success Metric**: A tension curve with no flat segments — at every moment there is at least one open question pulling the viewer forward to the end.
 
 ### Pattern: The Golden Triangle Technique
-The most persuasive messages braid three strands: a personal story (emotional connection and relatability), evidence and facts (credibility), and timeless wisdom (universal depth). Discovered by analyzing Jay Shetty, whose musk-deer parable weaves anecdote, data, and philosophy into one message.
+The most persuasive messages braid three strands: a personal story (emotional connection and relatability), evidence and facts (credibility), and timeless wisdom (universal depth). Discovered by analyzing Jay Shetty, whose "musk-deer parable" weaves anecdote, data, and philosophy into one message.
 **Execute**: For message-driven content, script all three beats explicitly: name the personal anecdote, the supporting data/example, and the universal principle it lands on. Cut any message resting on only one strand.
 **Success Metric**: All three strands identifiable in the finished piece; the message is both felt (story), believed (evidence), and remembered (wisdom).
 
 ### Pattern: Communication Design That Disappears
-The best design is invisible — like a film score, if viewers notice the craft, it has failed. Communicate linearly: one message at a time, visuals and audio reinforcing the same beat (a trainer explaining three exercises while you do the first = overload). Start from the intended emotional effect and reverse-engineer the content, rather than starting with your message and forcing a fit.
+The best design is invisible — like a film score: "if viewers notice the craft, it has failed." Communicate linearly: one message at a time, visuals and audio reinforcing the same beat (a trainer explaining three exercises while you do the first = overload). Start from the intended emotional effect and reverse-engineer the content, rather than starting with your message and forcing a fit.
 **Execute**: Before scripting, write the target emotional reaction. In the edit, enforce visual hierarchy: clean backgrounds, one emphasized subject per moment, readable type, no simultaneous caption + title card + movement + dialogue competition.
 **Success Metric**: A first-time viewer can restate the single message; no moment forces them to choose where to look.
 
 ## Hidden Knowledge
 
 ### Insight: Traditional Marketing Instincts Are the Enemy
-**Insight**: Experienced marketers are Kane's *hardest* clients — brand-consistency rules, overt logos, and polish that work in traditional media are downward performance drivers on social, where consumption is passive and constant. Newcomers often outperform veterans because they have nothing to unlearn.
+**Insight**: Experienced marketers are Kane's *hardest* clients — brand-consistency rules, overt logos, and polish that work in traditional media are downward performance drivers on social, where consumption is passive and constant. Newcomers often outperform veterans because they have "nothing to unlearn."
 **Deploy**: When a stakeholder pushes brand palettes, watermarks, or corporate tone, show the GSB evidence: Gold performers in their space almost never carry overt branding. Reframe branding as format + voice consistency, not visual identity.
 
 ### Insight: You Don't Need Budget, a Team, or Every Platform
-**Insight**: Three myths die together — viral hits are routinely shot on a phone (Hunter Prosper: 8.3M followers with an iPhone), by one person, on ONE platform mastered deeply. Each platform has distinct consumption behavior, so being everywhere dilutes; algorithms reward retention-optimized storytelling, not production value or posting frequency.
+**Insight**: Three myths die together — viral hits are routinely shot on a phone (Hunter Prosper: 8.3M followers with an iPhone), by one person, on ONE platform mastered deeply. Each platform has distinct consumption behavior, so being everywhere dilutes; algorithms reward "retention-optimized storytelling," not production value or posting frequency.
 **Deploy**: Route budget conversations to research time instead of gear. Pick the single platform whose consumption behavior matches the chosen format and go deep before expanding.
 
 ### Insight: Steal the Structure, Never the Content
@@ -69,3 +81,14 @@ The best design is invisible — like a film score, if viewers notice the craft,
 ### Insight: The Payoff Debt — Viewers Must Leave Glad They Watched
 **Insight**: A hook is a promise, and the algorithm punishes broken promises: clickbait spikes clicks but craters watch time and long-term account health. The full contract is instant capture + rewarding payoff, so the viewer thinks "I'm glad I watched that."
 **Deploy**: QA every piece against both ends of the contract: does the first 3 seconds hook, AND does the ending deliver the promised value or reveal? If the payoff underdelivers, fix the content or soften the hook — never ship the gap.
+
+## Anti-Patterns (Sourced)
+
+- Never skip the Research and Analysis phases and jump straight to ideation or production — the model's own case evidence: a single research-driven insight took a client from a few thousand followers to 134K and produced one 59M-view video (source: `skills/brendan-kane-viral-strategy/genius.md`, "Virality Is a Science" pattern, claude.ai export 2026-07-01).
+- Never judge content through personal taste or a single viral outlier — the "cozy-diner problem" names exactly this failure: one great 8 a.m. visit says nothing about the crowded-hours reality most customers get (source: `skills/brendan-kane-viral-strategy/genius.md`, "Performance Drivers Over Personal Taste" pattern, claude.ai export 2026-07-01).
+- Never let overt branding, logos, or watermarks survive the edit — Gold performers in GSB tiering almost never carry them, and experienced marketers are named as the hardest clients precisely because brand-consistency instinct is a downward driver on social (source: `skills/brendan-kane-viral-strategy/genius.md`, "Traditional Marketing Instincts Are the Enemy" insight, claude.ai export 2026-07-01).
+- Never post niche jargon and expect mass reach — the packaging must hook people who don't yet know or care about the subject, or the content caps at the niche's own size (source: `skills/brendan-kane-viral-strategy/genius.md`, "The Generalist Principle" pattern, claude.ai export 2026-07-01).
+- Never spread production thin across every platform hoping one hits — each platform carries distinct consumption behavior, and being everywhere dilutes retention-optimized storytelling (source: `skills/brendan-kane-viral-strategy/genius.md`, "You Don't Need Budget, a Team, or Every Platform" insight, claude.ai export 2026-07-01).
+- Never resolve every open question before the ending — a Jenga stack with a flat, fully-resolved middle kills the tension that carried Mark Rober's shark-blood video to 108M views and Veritasium's shade-balls video to 96M (source: `skills/brendan-kane-viral-strategy/genius.md`, "Jenga Theory Storytelling" pattern, claude.ai export 2026-07-01).
+- Never let two messages compete in the same moment — simultaneous caption, title card, movement, and dialogue is the exact overload named as a design failure ("a trainer explaining three exercises while you do the first") (source: `skills/brendan-kane-viral-strategy/genius.md`, "Communication Design That Disappears" pattern, claude.ai export 2026-07-01).
+- Never ship a hook the payoff can't redeem — a hook is a promise, and clickbait spikes clicks but craters watch time and long-term account health (source: `skills/brendan-kane-viral-strategy/genius.md`, "The Payoff Debt" insight, claude.ai export 2026-07-01).
