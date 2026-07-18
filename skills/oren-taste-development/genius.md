@@ -4,7 +4,7 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
-## How to Use This Skill (Opus 4.7 Calibration)
+## How to Use This Skill (Model Calibration)
 
 The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Oren recognize this as taste-driven work — or as someone with no taste applying a taste vocabulary? If unsure, the answer is the second — rewrite.
 
@@ -14,7 +14,11 @@ Specifically:
 - Do NOT recite CEV explicitly — let composition, effectivity, and vibes show in the work
 - Taste is what you do, not what you describe doing
 
-Why this is here: Opus 4.7 follows instructions more literally than 4.6. In taste work, mechanical application is the worst failure mode — taste IS the absence of mechanical application. A checklist execution produces exactly the "someone with no taste using taste words" output these patterns exist to refuse.
+Oren's specific texture: insider codes get DEPLOYED, never explained — a reference dropped correctly and left alone signals belonging; a reference footnoted signals outsider (see Insider Code Drop, Signature Moves). Generosity reads as abundance, never as a lead magnet — give the high-value insight away and let it signal you have more where that came from (Abundance-Waste, Hidden Knowledge). And nothing ships, including his own output, without a human "not looking foolish" pass — verbatim, from the source recording: "tips and tricks for reviewing this and deploying this and not looking foolish" (`extractions/oren-1person-ai-marketing/transcript.txt`).
+
+Polish-is-the-tell class warning: an insider reference that gets explained, a CEV framework recited by name instead of demonstrated, or copy that reads as Oren's own diagnosed failure mode — "midbaseline," the AI-content plateau that "clutters everything with noise" without ever standing out (same source) — are the same failure in different clothes. Fluent taste-vocabulary is not taste. If the draft reads like someone performing his framework rather than seeing/judging with it, rewrite it plainer, not more technical.
+
+Why this is here: instruction-following models default to applying every named pattern in visible order. In taste work, mechanical application is the worst failure mode — taste IS the absence of mechanical application. A checklist execution produces exactly the "someone with no taste using taste words" output these patterns exist to refuse.
 
 ---
 
@@ -120,6 +124,18 @@ Why this is here: Opus 4.7 follows instructions more literally than 4.6. In tast
 **What Oren does**: Concludes with "the important part is you think about it critically and can articulate it and that you care"—making care itself the core virtue.
 
 **Executable Behavior**: Position genuine care as the differentiator.
+
+---
+
+## Anti-Patterns (Sourced)
+
+Grounded refusals — moves that read as taste vocabulary without taste itself. Each is anchored to a specific extraction source (file + location) so it can be checked, not just asserted; full citation detail lives in `references/source-ledger.md`.
+
+- **Never let output regress to the "midbaseline."** Oren's own diagnosis, verbatim: "We've seen this flood now of these AI creators all sound alike... it performs at this like midbaseline standard where it doesn't ever break out, but it fills up. It clutters everything with noise." (`extractions/oren-1person-ai-marketing/transcript.txt`, ~char 8,480; restated in `mastery-extraction.md` line 263, source dated 2026-06-09 per the extraction folder's file timestamps). Content that reads like every other AI-assisted post has already failed the taste gate — sameness is the anti-pattern, not any single weak sentence.
+- **Don't hand personal-brand voice to an unreviewed model.** Verbatim: "I don't think you should be using a lot of those tools for your personal brand." (`extractions/oren-1person-ai-marketing/transcript.txt`, ~char 8,690). This is Oren's explicit AI No-Go Zone: framework-bounded AI is fine for scaling approved copy; original founder voice is not scale work, and running it through AI unreviewed is a taste failure, not an efficiency win.
+- **Never paste-and-pray.** Verbatim: "They need to do it with a strategic framework versus just pasting the idea in and asking for a version." (`extractions/oren-1person-ai-marketing/transcript.txt`, ~char 20,600; flagged in `mastery-extraction.md` line 265 as "the single most load-bearing line" in the source video). Taste-driven work names its framework before it generates; unframed prompting is the anti-pattern the phrase describes, not a shortcut.
+- **Don't skip the "not looking foolish" review gate.** Verbatim: "tips and tricks for reviewing this and deploying this and not looking foolish." (`extractions/oren-1person-ai-marketing/transcript.txt`, ~char 21,300). Taste is the final human checkpoint before anything ships — treating review as optional QA on "good enough" AI output is the exact failure this line names.
+- **Don't diagnose a taste problem when the real gap is nobody deciding to have a vision.** Extraction synthesis, closely paraphrased from the source discussion of Charli XCX's creative-team hunt: "Most brands fail not because of bad taste but because nobody decided that vision matters." (`extractions/oren/extraction-report-repositioning.md`, line 86, "The Hunt for Vision" — LIKELY, an interpretive synthesis rather than Oren's direct quote; see source-ledger). Applying CEV critique to a brand that never committed to a point of view misdiagnoses the failure and produces polish on top of nothing.
 
 ---
 
