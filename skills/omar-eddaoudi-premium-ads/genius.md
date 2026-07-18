@@ -4,9 +4,31 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. A deliverable that mechanically stamps "Removal Game applied," "Aspirational Friction added," "Silence Premium engaged" has already failed — Omar's entire craft rests on the buyer never seeing the mechanism, only feeling the distance.
+
+Specifically:
+- Do not enumerate which frameworks you used unless the brief explicitly asks for a strategy rationale. Execute the removal; never narrate it.
+- Do not write copy that states the product's benefits in plain language and then trims a few sentences. The Removal Game means stripping *justification*, not shortening a paragraph — Omar's own line is direct: "you need to avoid overselling the features because those are commodities honestly" (`module_2_transcript.txt`).
+- His texture is cold and application-gated, not warm and inviting. If a landing page smiles, discounts, or explains "why it's good," it has reverted to premium-not-luxury — the exact anti-pattern he tears apart in the "Premium Quality, Limited-Time Offer" ad below.
+- Polish is the tell in the wrong direction here. Over-explained, feature-listed, benefit-stacked copy reads as trying too hard, not as confidence. The test: would Omar Eddaoudi recognize this as the Removal Game — subtraction, provenance, controlled distance — or would he recognize it as generic premium-marketing vocabulary wearing his framework names? If the second, rebuild by removing more, not by wording better.
+
+---
+
 ## Genius Patterns
 
-*No genius patterns extracted yet. Run extraction to populate.*
+*(Synthesized from Omar Eddaoudi's own material: the root `transcript.txt` luxury-positioning teardown, plus the `module_2`/`module_3` Orow Labs videos where he self-identifies — "If you're new to the channel, my name is Omar. I'm the founder at Orow Labs." Full source-by-source confidence in `references/source-ledger.md`.)*
+
+**1. The Value Inversion (The Veblen Pivot)** — Price is treated as a feature, not a barrier; as price rises, functional explanation drops. Executable: strip every "value for money" line from a high-end offer and replace it with a provenance narrative. Omar's own version, describing Patek Philippe's slogan (rendered in the source transcript's auto-captions as "Pek Philippe" / "PEX," almost certainly an ASR mis-hearing of "Patek"): "you don't own a [Patek], you merely look after it for the next generation" — durability re-coded as belief, never stated as a feature (`extractions/omar-eddaoudi/module_2/module_2_transcript.txt`).
+
+**2. Objection-First Creative (Conviction Acceleration)** — Leads with the "no" to build a faster "yes." Omar: "I don't want my customers to hit my website and have like 26 different objections" — the top objections become cold-traffic ad headlines instead of benefit claims (`extractions/omar-eddaoudi/module_3/01_zero_to_seven_figures.txt`).
+
+**3. Narrative Hegemony (Owning the Debate)** — Finds the unresolved argument in a category and sets the criteria for what "good" means in it, rather than reacting to competitors. Sentiment becomes a technical signal, not just PR: negative threads on Reddit and Trustpilot de-rank a brand in AI-mediated recommendations (`extractions/omar-eddaoudi/module_2/extraction-report.md`, synthesis of the module_2 transcript).
+
+**4. Controlled Distance (Cold Aesthetics)** — Non-smiling, muted, application-gated presentation triggers pursuit rather than persuasion. Named contrast case from the wellness teardown: Whoop's "add more life to your years" ad is cited as the sophisticated version — a semantic reversal the reader has to sit with, with no direct benefit claim ("first ad that we're going to be analyzing is an ad from Whoop... they use a principle called semantic reversal," `extractions/omar-eddaoudi/module_3/02_wellness_ad_teardown.txt`).
+
+**5. The Removal Game (Fundamentals Before Creative)** — Standard brands add information to persuade; premium brands remove doubt. Omar's fundamentals-first framing: brands that fail "don't fail because they have a bad product, they usually fail because they don't have these fundamentals in place" — AOV at minimum $60 on the front end, profit "designed," not "hoped for," a brand he names taking from 3k a month to an 83k-a-month run rate on this discipline (`extractions/omar-eddaoudi/module_3/01_zero_to_seven_figures.txt`).
 
 ---
 
@@ -27,6 +49,8 @@
 *   **Ad Concept**: An ad for a "luxury" leather bag, featuring a smiling model holding the bag, surrounded by bright, aspirational props. The headline reads: "Experience Unmatched Quality: Handcrafted Leather Bag – 20% Off This Week Only!" Bullet points list features like "durable stitching," "spacious interior," and "genuine Italian leather."
 *   **What makes this mediocre**: This ad commits every anti-pattern of premium ads. It focuses on "Price-to-Utility" with a discount, signalling a lack of inherent value. The smiling model and direct feature list are "Relatability" markers that destroy "Controlled Distance." It screams "commodity" rather than "social signal." It tries to "convince" through value-add, failing to understand that for true premium, the "problem" is anonymity, and the product is the cure, not a discounted utility.
 
+*Provenance note (both exemplars marked "Reconstructed"): these are inferred composite ads that dramatize the module_1 `transcript.txt` framework (Value Inversion, Controlled Distance, Silence Premium), not documented real-world campaigns Omar names on-camera. Treat the *mechanics* they illustrate as sourced; treat the *specific ad concepts* (Rolex/Greenland, the bespoke Atelier series) as illustrative fiction, not verified case studies. See `references/source-ledger.md`.*
+
 ## Signature Moves
 
 *   **The Veblen Pivot Script**: Always starts by stripping out all "value for money" justifications and feature lists from the initial ad concept. → **Deploy when**: Crafting the core message for any high-end offering where the target audience has already solved their basic utility needs.
@@ -45,3 +69,14 @@
 | **Silence Premium Effectiveness** | Ad explains every feature and benefit in detail.                                                                                          | Ad is concise but still directly states most key selling points.                                                                                                        | The ad's power comes from what is *unsaid*. Minimal copy, abstract visuals, and implied context amplify desire, trusting the target audience's "Assumed Interest" and sophistication.                        |
 | **Archetypal Resonance**       | Ad shows a generic person using the product.                                                                                              | Ad features a successful person, but the connection to an archetype is superficial.                                                                                     | The product is inextricably linked to a "Heroic Archetype" (e.g., The Explorer, The Sovereign) or "Extreme Event," mirroring the customer's highest aspirational identity and making the product a witness to greatness. |
 | **Art vs. Ad Distinction**     | Ad is clearly a sales message, explaining benefits and features directly.                                                                  | Ad has some aesthetic appeal but still functions primarily to inform and persuade.                                                                                       | Ad functions more like evocative art than an explanation. It prioritizes mood, mystery, and abstract concepts over direct product information, making sense for those who "get it."                           |
+
+## Anti-Patterns (Sourced)
+
+Concrete refusals in Omar's own words and named counter-examples — failure modes he names directly, not inferred marketing platitudes.
+
+- **Never let unresolved objections reach the website.** Omar: "I don't want my customers to hit my website and have like 26 different objections" — objection density is treated as a leak upstream of the page, not a copy problem to fix on it (`extractions/omar-eddaoudi/module_3/01_zero_to_seven_figures.txt`, transcript).
+- **Don't collect data without enriching it.** On brands that stall at scale: "they don't enrich it, they don't analyze it, and they don't extract anything meaningful from it" — bulk data collection with zero synthesis is named directly as a scaling failure (`extractions/omar-eddaoudi/module_3/01_zero_to_seven_figures.txt`, transcript).
+- **Avoid overselling features once a category is commoditized.** "you need to avoid overselling the features because those are commodities honestly" — feature-stacking is named as the tell of an unsophisticated brand fighting the wrong battle (`extractions/omar-eddaoudi/module_2/module_2_transcript.txt`, transcript).
+- **Don't compete on a rival's standards.** "In practicality, you don't want to be competing with people's standards" — matching a competitor's comparison terms concedes the debate before it starts (`extractions/omar-eddaoudi/module_2/module_2_transcript.txt`, transcript).
+- **Don't blame the product when fundamentals are missing.** "The brands that fail don't fail because they have a bad product, they usually fail because they don't have these fundamentals in place" — AOV, margin discipline, and objection-mapping are named as the actual failure points, not creative quality (`extractions/omar-eddaoudi/module_3/01_zero_to_seven_figures.txt`, transcript).
+- **The "Premium Quality, Limited-Time Offer" ad is the named anti-exemplar above** — smiling model, discount headline, bullet-point feature list. It fails Exclusionary Tension, Controlled Distance, and the Silence Premium at once (see Hall of Fame Exemplars, Anti-Exemplar; reconstructed synthesis per `extractions/omar-eddaoudi/extraction-report.md`, marked accordingly in the source ledger).
