@@ -1,8 +1,24 @@
 # Kallaway — AI-Enabled Content Engine: Genius Context
 
-> **Source**: "Three Biggest Social Media Shifts" (YouTube, 2026) — 5,210 words; + "What Happens When AI Takes Over Social Media?" (claude.ai export tranche 2, 2026-07-10)
+> **Source**: Patterns 1-6 verified against primary source: Kallaway, *"The NEW Way to WIN on Social Media in 2026,"* YouTube, uploader "Kallaway," published 2026-04-29 (https://www.youtube.com/watch?v=ImzoNTrgvFg) — transcript archived at `_active/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/transcript.txt` (107,458 bytes, 17,043 words; metadata confirming title/uploader/date/URL at `_active/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/metadata.json`). The original citation below it replaces — "Three Biggest Social Media Shifts" (YouTube, 2026) — is not a separate video title; it is Kallaway's own in-video description of this same video's structure ("I'm going to walk through the three biggest social media shifts happening right now," transcript @ 00:00:54). Neither `extractions/kallaway/` nor `extractions/kallaway-content-system/` contain this material — those directories cover a different Kallaway topic (the "illusion of novelty" storytelling framework and an "internet money machine" funnel breakdown; confirmed by direct read, not assumed absent).
+> **Pattern 7 caveat**: Pattern 7 ("AI Trust Goldilocks Window") cites "claude.ai export tranche 2, 2026-07-10." That file could not be located anywhere under `extractions/`, `_active/`, or `_archive/` for this repair pass — searched by keyword (`goldilocks`, `grandfather`, `trust equation`, `AI-skeptic`) and by directory listing. Pattern 7 is retained but labeled **UNCONFIRMED** — see `references/source-ledger.md` for the full search record. Do not cite Pattern 7 as a verified Kallaway claim in client-facing work until the original export is recovered.
 > **Domain**: Content Psychology → AI-Augmented Production Infrastructure
 > **Tier**: Deep Extraction (Forge — Expansion)
+> **Provenance**: Claim-by-claim verification status lives in `references/source-ledger.md`. Read it before citing any number, name, or timestamp from this file in client-facing work.
+
+---
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the physics of the Transactional-Creative Split — then reason from it. If the output enumerates "Step 1: research, Step 2: cluster, Step 3: react" like a generic operations manual, you have failed the test.
+
+The test: would Kallaway recognize this as him walking someone through his actual desk-side workflow — the CSV he just exported, the exact prompt he just typed into Claude — or as someone describing "an AI content pipeline" in the abstract? If it's the second, rebuild.
+
+Specifically:
+- Do NOT open with "The Transactional-Creative Split states..." — arrive at the split the way he does, by naming the specific redundant task first ("research and scripting and editing and captions — nobody wants to do that stuff") and only then classifying it as automatable. The framework is a description of what he does at his desk, not a taxonomy to cite.
+- Do NOT frame the human step as a "quality check" or "review pass" on AI output. Kallaway is explicit that the human step IS the creative engine, not a filter: "If you're letting AI do the thinking and the ideating, that's where your content gets stale and robotic. But if you use the data from AI and then creatively think, that's the winning formula." Output where AI drafts and a human merely approves has inverted his architecture.
+- His texture is walkthrough, not framework-recitation: exact tool names (Sandcastles.ai, Claude Co-work), prompts typed near-verbatim, concrete numbers ("2 minutes," "100 videos," "top 10 hooks," "10, 20, 30 channels"). Genericizing the tools and numbers ("an AI research tool," "a batch of top-performing content") is the tell that the machinery leaked through and the specificity got sanded off.
+- Never let this collapse into "prompt an AI once and post whatever it says." That is the exact failure mode Kallaway is arguing against when he distances himself from "AI gurus" who claim a workflow "just prints content automatically." The split only holds if a human genuinely watches the source material and forms an original take before anything gets drafted — skipping that step is not a shortcut, it's the thing that makes content stale.
 
 ---
 
@@ -151,7 +167,9 @@ AI Research → AI Analysis → AI Clustering → HUMAN REACTION → AI Drafting
 
 ---
 
-### Pattern 7 — claude.ai export tranche 2 (2026-07-10): The AI Trust Goldilocks Window
+### Pattern 7 — claude.ai export tranche 2 (2026-07-10): The AI Trust Goldilocks Window — SOURCE UNCONFIRMED
+
+> **Provenance warning**: This pattern's cited source ("claude.ai export tranche 2, 2026-07-10") was not found anywhere under `extractions/`, `_active/`, or `_archive/` during this repair. It is retained (additive-first repair boundary — nothing sourced from a verified location gets deleted) but every claim below is UNCONFIRMED against any file this repair pass could read. Treat this pattern as unverified strategic synthesis, not a sourced Kallaway quote, until the original export surfaces. See `references/source-ledger.md`.
 
 > Net-new pattern mined from a second batch of claude.ai extraction conversations ("What Happens When AI Takes Over Social Media?"). This is a macro/strategic-timing pattern, distinct from Patterns 1-6 which are all tactical/workflow-level. It answers a different question: not "how do I use AI in production" but "what does AI's arrival mean for when and how hard I should be building trust right now."
 
@@ -191,6 +209,18 @@ When creators know their topic is data-validated, they perform with more confide
 
 ---
 
+## Anti-Patterns (Source-Attributed)
+
+Kallaway names these directly, on camera, as the failure modes he is actively arguing against in the same video that sources Patterns 1-6. Each anchor cites Kallaway, *"The NEW Way to WIN on Social Media in 2026,"* YouTube, published 2026-04-29 — `_active/codex-harvest-2026-06-11/extractions/video-context/ImzoNTrgvFg/transcript.txt`.
+
+- **Equating "AI in content" with "AI content."** He corrects this at the outset of the segment: "When I say AI in content, I don't mean AI content. What I mean is using AI to eliminate the boring task and free up more of your time for creativity." (transcript @ 00:01:04–00:01:12)
+- **Treating AI-vs-human as a binary of "robotic, sanitized, soulless" output on one side and "artistic, creative human content" on the other.** He names this framing itself as the mistake: "most people assume using AI means fully replacing creative thinking... But that's kind of a lazy way of thinking about it." (transcript @ 00:01:17–00:01:30)
+- **Letting AI do the ideating instead of just the research.** The line he draws between automation and abdication: "If you're letting AI do the thinking and the ideating, that's where your content gets stale and robotic." (transcript @ 00:05:31–00:05:38)
+- **Marketing AI workflows as fully automated content printers.** He explicitly distances his own system from this framing: "that AI workflow I walked through, it doesn't just print content automatically the way that all of these AI gurus are saying. I purposely left in the human in the loop step..." (transcript @ 00:06:53–00:07:03)
+- **Guessing at topics, then manually grinding through the research anyway.** The two halves of this failure mode, both named on camera: "a bunch of redundant transactional task that most of us don't want to spend time doing" (transcript @ 00:01:36–00:01:41) and "you don't have to guess what's going to work" (transcript @ 00:05:51–00:05:54) — the old workflow this pipeline replaces.
+
+---
+
 ## Hall of Fame Exemplars
 
 ### Exemplar 1: The Sandcastles → Claude Topic Pipeline
@@ -206,6 +236,7 @@ When creators know their topic is data-validated, they perform with more confide
 ### Anti-Exemplar: The AI Content Generator
 - **What mediocre looks like**: Prompting ChatGPT with "write me a social media post about marketing" and posting whatever it generates
 - **Why it fails**: No data validation, no human creative reaction, no taste curation of inputs, no format validation. It automates the creative thinking (the one thing that should stay human) while skipping the research (the one thing AI should do).
+- **Provenance note**: This anti-exemplar is original skill-authoring synthesis (a generalized composite of the on-camera anti-patterns above), not a Kallaway quote — no VERIFIED/LIKELY label applies; see `references/source-ledger.md`.
 
 ---
 
