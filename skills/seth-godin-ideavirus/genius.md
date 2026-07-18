@@ -4,6 +4,34 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+---
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist to march through in order. Absorb the shape of how Godin engineers spread, then build originally — the test: would Seth Godin recognize this as his own operating logic (a virus with a named vector, a hive chosen on purpose, monetization deliberately delayed), or as someone using his vocabulary — "viral," "sneezer," "permission" — without his structure? If it's the second, rebuild before shipping.
+
+Specifically:
+- Do NOT enumerate "Pattern 4, Pattern 8" or announce which mechanism is running. Godin never narrates the engineering mid-diagnosis — he names the failure with one concrete case and lets the example do the explaining: "once someone's closet is filled, the only way for them to buy new shoes is to get rid of the old ones."
+- Do NOT reach for generic "go viral" hype language. His texture is closer to epidemiology than growth-hacking: one governing case (Gajist capping its list at "130,000 email addresses" and announcing "We're not taking any new signups," Hotmail's free-account footer, the Ferrari/Volvo referral) proven in full, never a bulleted taxonomy of "viral tactics."
+- Provocation precedes the mechanism, never the reverse — "If you are not regularly sending folks to your competitors, you are not serious about picking the audience it's for" lands as the claim first; the Ferrari/Volvo story explains it second. A draft that opens with the framework and closes with the provocative line has the sequence backward.
+- Never let the output soften into safety-first marketing. Godin's ideavirus thinking is comfortable telling a founder to give the "virus" away for free, refuse most of the market, or delay charging — if a draft hedges every recommendation, it's borrowing his nouns, not running his logic.
+- Polish is the tell-class failure here: a deliverable that reads like a smooth, generic growth-hacking listicle has failed regardless of surface quality. Godin's own writing is spare, names one real company, and ends on a number you could fail — a magic number, a click-count, a permission tier — never a motivational close.
+
+---
+
+## Anti-Patterns (Sourced)
+
+Each item below is a failure mode Godin names directly against real behavior, on the record — refusal criteria when reviewing output, never announced as "Pattern X" in a deliverable.
+
+- **Never mistake an easy-to-measure number for the real spread signal** — Godin's own definition: a false proxy is "something that's easy to measure but not helpful," and organizations that keep score of it "go in the wrong direction" without noticing (Seth Godin, Entrepreneur Studio podcast, `extractions/seth-godin/transcript.txt`).
+- **Don't design outreach as interruption and call it an ideavirus** — the standard is explicit: "Not spamming them, but being missed if you were gone" (Seth Godin, Entrepreneur Studio podcast, `extractions/seth-godin/transcript.txt`).
+- **Never make an audacious promise about spread you can't keep** — "if you make audacious promises constantly and you don't keep them, then you're the Wizard of Oz. I don't trust you" (Seth Godin, Entrepreneur Studio podcast, `extractions/seth-godin/transcript.txt`).
+- **Don't let a visible short-term number override the long-term asset** — Godin names "that tendency to hit that quarterly earnings number" as the force that erodes a brand promise, and calls the pattern, later in the same answer, "a real trap in a big way the[,] measuring the wrong thing" (Seth Godin, Entrepreneur Studio podcast, `extractions/seth-godin/transcript.txt`).
+- **Don't mistake perfectionism for shipping discipline** — "The point of perfectionism is not to make it better. It's to keep you from shipping it" (Seth Godin, Mel Robbins podcast, `extractions/seth-godin/extraction-report.md`, Pattern 8).
+- **Don't build an elaborate excuse structure and call it strategy** — "Congratulations. You've built a perfect place to hide" is Godin's verdict on stalling tactics like "I submitted to 20 publishers and they all turned me down" (Seth Godin, Mel Robbins podcast, `extractions/seth-godin/extraction-report.md`, Tacit Knowledge 5).
+
+---
+
 ## Genius Patterns
 
 ## Pattern 1: The Spread-First Paradigm
@@ -21,6 +49,7 @@
 ## Pattern 4: The Sneezer Hierarchy
 **Execute**: Classify spreaders as Powerful (spread for reputation) or Promiscuous (spread for incentives). Different approach for each.
 **Success Metric**: Sneezer strategy documents both types with tailored activation plans
+**Source Note**: These are Godin's own labels from *Unleashing the Ideavirus* (self-published free online, circa 2000) — "powerful sneezers" and "promiscuous sneezers." Not present in `extractions/seth-godin/`; labeled LIKELY in references/source-ledger.md.
 
 ## Pattern 5: Smoothness as Competitive Advantage
 **Execute**: Count the steps to share. Reduce by 50%. Every friction point kills spread exponentially.
@@ -29,6 +58,7 @@
 ## Pattern 6: The Monetization Paradox
 **Execute**: Delay charging until the idea has achieved critical mass. Map monetization triggers to spread metrics.
 **Success Metric**: Monetization begins only after viral coefficient exceeds 1.0
+**Adjacent Verified Case**: Gajist held its wine list at "130,000 email addresses" and announced "We're not taking any new signups" rather than open the funnel wider — the same restraint this pattern applies to charging: hold back until the asset can sustain the ask (Seth Godin, Entrepreneur Studio podcast, `extractions/seth-godin/transcript.txt`).
 
 ## Pattern 7: Virusworthiness Before Mechanics
 **Execute**: Before any viral engineering, honestly rate remarkability 1-10. If below 7, fix the idea first.
@@ -37,14 +67,17 @@
 ## Pattern 8: The Magic Number Calculation
 **Execute**: [People told] × [Conversion rate] must exceed 1.0 for viral growth. Calculate before launch.
 **Success Metric**: Magic number tracked weekly; campaigns adjusted to maintain >1.0
+**Source Note**: The "Magic Number" formula itself is a book term from *Unleashing the Ideavirus* (circa 2000); not present in `extractions/seth-godin/`, labeled LIKELY in references/source-ledger.md.
 
 ## Pattern 9: Permission Asset Building
 **Execute**: Every interaction should increase permission to communicate. Never interrupt; always be invited.
 **Success Metric**: Email list and community grows organically without paid acquisition
+**Verified Anchor**: "Permission is the idea of delivering anticipated personal and relevant messages that people want to get them. Not spamming them, but being missed if you were gone" (Seth Godin, Entrepreneur Studio podcast, `extractions/seth-godin/transcript.txt`).
 
 ## Pattern 10: The Fashion Moment Detection
 **Execute**: Ideas spread fastest during transition moments. Identify when your market is ready to adopt something new.
 **Success Metric**: Launch timing aligned with identified fashion windows
+**Source Note**: The "fashion moment" adoption-window concept is a book term from *Unleashing the Ideavirus* (circa 2000); not present in `extractions/seth-godin/`, labeled LIKELY in references/source-ledger.md.
 
 ## Hidden Knowledge
 
@@ -53,10 +86,14 @@ The best idea doesn't win. The smoothest idea wins. A mediocre idea with zero fr
 
 **Deploy**: Always optimize for shareability over quality. Perfect is the enemy of viral.
 
+**Source Note**: This claim is drawn from *Unleashing the Ideavirus* (circa 2000); not present in `extractions/seth-godin/`, labeled LIKELY in references/source-ledger.md.
+
 ## Tacit Knowledge 2: Powerful vs. Promiscuous Sneezers
 Powerful sneezers (experts, celebrities) spread for reputation—they won't risk endorsing bad ideas. Promiscuous sneezers (enthusiasts) spread for incentives—they'll share anything that benefits them.
 
 **Deploy**: Target powerful sneezers with proof and social risk mitigation. Target promiscuous sneezers with incentive structures.
+
+**Source Note**: The "powerful sneezers" / "promiscuous sneezers" taxonomy is a book term from *Unleashing the Ideavirus* (circa 2000); not present in `extractions/seth-godin/`, labeled LIKELY in references/source-ledger.md.
 
 ## Tacit Knowledge 3: Private → Public Conversion
 Ideas first spread in private (DMs, conversations) before going public. The failure point is often the leap from private enthusiasm to public sharing.
@@ -77,6 +114,8 @@ Ideas rush to fill empty mental space with near-zero resistance. Ideas fighting 
 Every monetization point creates friction. The sooner you charge, the slower it spreads, the smaller your total capture.
 
 **Deploy**: Model the tradeoff: (spread × eventual capture) > (reduced spread × immediate capture)
+
+**Verified Anchor**: Godin's own warning about timing decisions for a visible number instead of the real one: relying on "something that's easy to measure but not helpful" pulls you "in the wrong direction" — the same short-term-vs-long-term tension monetization timing has to resolve (Seth Godin, Entrepreneur Studio podcast, `extractions/seth-godin/transcript.txt`).
 
 ## Tacit Knowledge 7: The Souvenir Separation
 Separate the "virus" (what spreads for free) from the "souvenir" (what people pay for). The virus creates value; the souvenir captures it.
@@ -169,4 +208,4 @@ Separate the "virus" (what spreads for free) from the "souvenir" (what people pa
 
 ## Quality Rubric
 
-> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading. Anchor scale: 4 (Acceptable) / 7 (Good) / 10 (Savant) — see that file for the full per-criterion breakdown.
