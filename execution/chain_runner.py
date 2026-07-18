@@ -723,6 +723,45 @@ def check_blind_pass_latch(
     )
 
 
+def check_verdict_advisory(verdict: str, precedent: str, composite) -> Dict[str, Any]:
+    """Grading R1 (GRADING-LOOP-REDESIGN.md) — ADVISORY precedent validation.
+
+    SHIP should cite the nearest calibrated precedent by EVAL-ID; this validates
+    the citation deterministically (exists, calibrated_by_human, expected_composite
+    within ±1.0 of this finalize's composite when both are present). R1 never
+    blocks — results are logged to evolution_store/verdict_advisory.jsonl so the
+    R2 blocking decision is made on a week of real data, per the rollout table.
+    """
+    if verdict == "SHIP" and not precedent:
+        return {"status": "MISSING_PRECEDENT",
+                "detail": "SHIP without --precedent EVAL-ID (R2 will refuse this)"}
+    if not precedent:
+        return {"status": "OK", "detail": ""}
+    try:
+        eval_path = Path(__file__).resolve().parent.parent / "evolution_store" / "ground_truth" / "eval_set_v1.jsonl"
+        rows = {}
+        with open(eval_path) as f:
+            for line in f:
+                try:
+                    r = json.loads(line)
+                    rows[str(r.get("id", "")).upper()] = r
+                except ValueError:
+                    continue
+    except OSError as exc:
+        return {"status": "ERROR", "detail": f"eval set unreadable: {exc}"}
+    row = rows.get(precedent.upper())
+    if not row:
+        return {"status": "UNKNOWN_PRECEDENT", "detail": f"{precedent} not in eval_set_v1.jsonl"}
+    if not row.get("calibrated_by_human"):
+        return {"status": "UNCALIBRATED_PRECEDENT",
+                "detail": f"{precedent} exists but is not calibrated_by_human"}
+    exp = row.get("expected_composite")
+    if exp is not None and composite is not None and abs(float(exp) - float(composite)) > 1.0:
+        return {"status": "TOLERANCE_FAIL",
+                "detail": f"{precedent} expected_composite={exp} vs this composite={composite} (>±1.0)"}
+    return {"status": "VALID", "detail": f"{precedent} calibrated, within tolerance"}
+
+
 def finalize(
     output_description: str,
     expert: str = "",
@@ -2064,6 +2103,10 @@ def main():
                      help="The rubric_v1.md anchor phrase your ≥8 score matches (e.g. \"Anchor 9 — expert would sign it unchanged\"). REQUIRED (non-empty) whenever any dimension score is ≥8 — finalize refuses otherwise. Bare --anchor-named (no phrase) no longer counts. Unanchored ≥8s used to slip through and get flattened to 7.25 by the bimodal taste filter (taste_signature.py Rule 2); now they refuse at input.")
     # Autopilot Wave 5 stabilization (added 2026-05-23)
     fin.add_argument("--source-request", default=None, help="Original user request verbatim. Used for the post-hoc routing check instead of the output description. Autopilot's Phase 4 template MUST pass this to prevent false positives on the autopilot_orchestration binding.")
+    fin.add_argument("--verdict", default="", choices=["", "SHIP", "MARGINAL", "FAIL"],
+                     help="Grading R1 (ADVISORY, GRADING-LOOP-REDESIGN.md): verdict-first grading. Logged + precedent-checked, never blocks in R1.")
+    fin.add_argument("--precedent", default="", metavar="EVAL-ID",
+                     help="Grading R1 (ADVISORY): nearest calibrated precedent in eval_set_v1.jsonl backing a SHIP verdict (e.g. EVAL-031). Validated: must exist, be calibrated_by_human, and sit within ±1.0 composite tolerance.")
     fin.add_argument("--content-file", default="", dest="content_file", help="Path to the ACTUAL deliverable. The prose + structural-tells caps scan THIS (not the summary), so slop with banned moves cannot finalize clean. Pass the artifact for every Content/Copy/Creative finalize.")
     # Finalize-friction cut (added 2026-07-06): --auto pre-computes the
     # deterministic dimensions (prose_classifier + grounding_guard — the same
@@ -2133,6 +2176,22 @@ def main():
             skip_learning=args.skip_learning,
             skip_blind_pass=args.skip_blind_pass,
         )
+        # ── Grading R1 (ADVISORY — GRADING-LOOP-REDESIGN.md, never blocks) ──
+        if args.verdict or args.precedent:
+            adv = check_verdict_advisory(args.verdict, args.precedent, result.get("composite"))
+            result["verdict_advisory"] = adv
+            try:
+                _vlog = Path(__file__).resolve().parent.parent / "evolution_store" / "verdict_advisory.jsonl"
+                with open(_vlog, "a") as _vf:
+                    _vf.write(json.dumps({
+                        "ts": datetime.now().isoformat(), "output": args.output[:120],
+                        "skill": args.skill, "verdict": args.verdict,
+                        "precedent": args.precedent, **adv,
+                    }) + "\n")
+            except Exception:
+                pass
+            print(f"\n  Verdict (R1 advisory): {args.verdict or '—'} | precedent {args.precedent or '—'} → {adv.get('status')}"
+                  + (f" — {adv['detail']}" if adv.get("detail") else ""))
         print_result(result)
         # Wave 2 latches must be shell-visible: refusal = non-zero exit.
         if not result.get("success"):
