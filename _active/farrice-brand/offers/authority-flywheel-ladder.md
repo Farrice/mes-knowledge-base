@@ -103,3 +103,7 @@ Both experts independently FAILED the Section-6 one-liner above. Farrice's rulin
 - **About / landing page (dwell time, differentiation):** April Dunford's line — "For S&C coaches who know they're good but freeze at the blank page: Authority Flywheel turns your own voice memos into posts that sound like you — not a ghostwriter borrowing your name, not another quarter waiting on referrals."
 - **Fusion pending** — Farrice intends to fuse elements; candidates staged, his gut verdict picks.
 - Validation rule stands (Dunford Best Rep Test): whatever ships gets 2-4 weeks of live conversations before being treated as final.
+
+### Fusion round — Farrice verdicts, 2026-07-18 (second pass)
+- **LOCKED — LinkedIn (profile/bio): Fusion A** — "You already have the expertise — I turn your voice memos into posts that sound like you, so clients come to you without you writing a word or hiring a ghostwriter to fake it." His why: one sentence, cold reader understands exactly what they're getting; clarity + articulated outcome, universally legible.
+- **Fusion B → ad hook / Instagram-tier surfaces, PENDING REVISION.** His critique (the revision brief): "your expertise is already enough" is vague; too much abstraction; only lands IF the reader already frames their problem as needing-a-ghostwriter/AI-systems — not universally applicable. Fix: concrete situation + outcome at scan speed, zero prior context required.
