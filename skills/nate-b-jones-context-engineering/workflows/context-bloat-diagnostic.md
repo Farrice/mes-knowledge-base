@@ -78,3 +78,13 @@ Deliver as a structured artifact with:
 - Lost-in-the-middle test results
 - Prioritized compression sprint backlog
 - Expected total reduction estimate (tokens saved, % reduction)
+
+## Quality Gate
+
+Before delivering the diagnostic, confirm:
+- [ ] Every component in the Step 1 breakdown table has a real measured token count, not an estimate — if a count couldn't be measured, the row says so explicitly instead of guessing
+- [ ] Every duplication flagged in Step 2 cites the two (or more) actual file+section locations, not a generic "duplication exists" claim
+- [ ] The Step 4 lost-in-the-middle check was actually run against live tasks, or the report states plainly that it was skipped and why
+- [ ] Every backlog item in Step 6 is tagged with its compression vector (deduplication/eviction/formatting/tiering/retrieval) and ranked by impact × effort, not listed in arbitrary order
+- [ ] The overall health score (1-10) is justified by the breakdown-table data above it, never asserted independently of the numbers
+- [ ] If fewer than 40% of loaded tokens are low-value, the report says compression is not yet the priority — a diagnostic that always recommends a sprint isn't measuring anything

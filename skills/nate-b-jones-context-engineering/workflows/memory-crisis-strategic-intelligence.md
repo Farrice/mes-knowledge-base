@@ -82,30 +82,6 @@ Clear recommendation with rationale, timeline, and first action.
 **6. Signals to Watch** (5-7 items)
 Specific indicators that would change the recommendation.
 
-## Output Schema
-
-**Contract**: Strategic intelligence brief on AI memory optimization landscape, competitive positioning, and decision timing to support technology investment decisions.
-
-**Deliverables**:
-1. Executive Summary — 1 paragraph: state of memory systems (90-day delta), upcoming shifts, decision urgency
-2. Research Landscape Table — published research (TurboQuant, KIVI, H2O, SnapKV, LLMLingua, MemGPT/Letta), authors, production timeline, applicability to your stack
-3. Competitive Dynamics 2x2 Matrix — players (Google, OpenAI, Anthropic, Meta, startups) plotted on Memory Sovereignty (high/low) × Compression Efficiency (high/low)
-4. Decision Matrix — three options (Build Custom Now / Wait for Foundation Model Improvements / Hybrid Approach) with tradeoffs, cost estimates, timeline, risk assessment
-5. Clear Recommendation — one chosen path with rationale, timeline (e.g., "Hybrid approach: start foundation-model memory, plan custom decay for Q4 2026"), and first action (e.g., "Evaluate ChatGPT memory API pilot")
-6. Watch Signals — 5-7 specific indicators (e.g., "TurboQuant production timeline slip" or "Claude context window extension") with trigger conditions for re-evaluation
-7. Sources Cited — research papers, vendor announcements, leaderboard data with dates
-
-**Quality Gates**:
-- [ ] Executive summary is 1-2 sentences (not a recap)
-- [ ] Research landscape covers compression (TurboQuant, quantization), persistent memory (MemGPT, Mem0), and foundation model memory features
-- [ ] Competitive dynamics clearly distinguish sovereignty risk (centralized vs. local)
-- [ ] Decision matrix options are genuinely distinct (not artificial variants)
-- [ ] Recommendation is specific and actionable (not hedged)
-- [ ] Watch signals are concrete and measurable (not vague)
-- [ ] All claims cite sources with publication date ≤90 days old
-
-**Output Format**: Strategic brief (markdown, 3-5 pages) + decision spreadsheet (CSV with option scoring).
-
 ## Output Format
 Deliver as a premium strategic brief artifact:
 - Executive summary with key finding callout
@@ -115,3 +91,13 @@ Deliver as a premium strategic brief artifact:
 - Clear recommendation with timeline
 - Watch signals with trigger conditions
 - Sources cited
+
+## Quality Gate
+
+Before delivering the brief, confirm:
+- [ ] Every research-landscape entry (TurboQuant, H2O, SnapKV, MemGPT/Letta, etc.) has a production-readiness status pulled from a live source this session, not recalled from training memory — this is a Perplexity-grounded brief, not a summary of what the model already believes
+- [ ] The competitive dynamics 2x2 places each entity by evidence (a stated strategy, a shipped feature, a funding round), not by assumption
+- [ ] The recommendation in Section 5 names a specific first action and a specific timeline — "monitor the space" is not a recommendation
+- [ ] Each of the 5-7 watch signals in Section 6 is falsifiable — it names the exact event or metric that would flip the recommendation, not a vague trend
+- [ ] Sources are cited per claim, not bundled into a single "sources" list at the end with no mapping to which claim they support
+- [ ] The brief distinguishes what changed in the last 90 days from what's merely being repeated from older reporting

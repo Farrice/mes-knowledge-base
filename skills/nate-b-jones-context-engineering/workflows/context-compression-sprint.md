@@ -126,3 +126,13 @@ Deliver as an artifact with:
 - Quality validation results
 - Compression changelog (what was changed, why, and what was preserved)
 - Monitoring plan
+
+## Quality Gate
+
+Before shipping the compressed context, confirm:
+- [ ] Step 6 quality validation actually ran on all 5 representative test tasks against both original and compressed context — not a subset, not skipped
+- [ ] Task completion, instruction compliance, quality, and edge-case parity all passed; any divergence was resolved by restoring the minimum tokens needed, not by accepting the regression
+- [ ] Total reduction is ≥15% (the deduplication-alone floor) — if it's lower, name which vector underperformed and why
+- [ ] The per-vector breakdown in Step 7 sums to the total reduction claimed; no vector's contribution is asserted without its own before/after number
+- [ ] Compressed files are committed with a descriptive message and a named rollback path (Step 8), not shipped as an uncommitted working-tree change
+- [ ] The changelog states explicitly what was preserved (expert vocabulary, edge-case rules) and why — silence on what survived is not evidence nothing was lost

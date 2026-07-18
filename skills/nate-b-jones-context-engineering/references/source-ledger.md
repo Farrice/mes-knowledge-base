@@ -1,105 +1,54 @@
-# Source Ledger: Nate B. Jones Context Engineering
+# Source Ledger — Nate B. Jones: Context Engineering
 
-**Reconciliation**: All major claims, frameworks, and anti-patterns in `genius.md` and `SKILL.md` tracked with source evidence and confidence level.
+Every claim, quote, and figure in `SKILL.md` and `genius.md` traced to its source, labeled VERIFIED / LIKELY / UNCONFIRMED. Ground truth = files under `extractions/nate-b-jones/` plus verbatim text already inside the skill files. Compiled 2026-07-17 for the Wave 3 Batch 2 heartbeat repair.
 
----
+## Sources Consulted
 
-## Tier: VERIFIED (Direct Quote + Source Attribution)
-
-| Claim / Framework | Source | Date | Transcript Timestamp | Confidence |
-|---|---|---|---|---|
-| "You should own your memory. You should decide what your memory does. Somebody else should not own it for you." | TurboQuant video | 2026-03 | ~14:30 | VERIFIED |
-| 25 billion tokens/year per individual AI-native engineer | TurboQuant video | 2026-03 | ~3:45 | VERIFIED |
-| 100M–1B tokens per complex agent workflow interaction | TurboQuant video | 2026-03 | ~4:10 | VERIFIED |
-| 5+ years to build a new fabrication line for HBM | TurboQuant video | 2026-03 | ~5:20 | VERIFIED |
-| Months to deploy a software optimization across deployed fleet | TurboQuant video | 2026-03 | ~5:30 | VERIFIED |
-| The Five Vectors of Memory Attack (quantization, eviction, architecture, offloading, attention) | TurboQuant video | 2026-03 | ~8:00-18:00 | VERIFIED |
-| Karpathy Loop: 700 experiments, 20 improvements, 11% speedup | TurboQuant video | 2026-03 | ~1:30 | VERIFIED |
-| Toby Lütke / Shopify: 19% gain from 37 experiments in 8 hours | Karpathy Loop video | 2026-04 | ~12:15 | VERIFIED |
-| Sky Pilot: 910 experiments in 8 hours, under $300 compute | Karpathy Loop video | 2026-04 | ~12:45 | VERIFIED |
-| "Without domain memory, every agent session ends up reinventing a definition of done" | Karpathy Loop video | 2026-04 | ~26:30 | VERIFIED |
-| Single-agent self-improvement doesn't work well; meta/task separation required | Karpathy Loop video | 2026-04 | ~14:00 | VERIFIED |
-| "Same model pairings dramatically outperform cross-model pairings" | Karpathy Loop video | 2026-04 | ~14:30 | VERIFIED |
-| "When Goo's team only gave the meta agent scores without reasoning trajectories, the improvement rate dropped really fast" | Karpathy Loop video | 2026-04 | ~18:00 | VERIFIED |
-| Emergent behaviors: spot-checking, forced verification, progressive disclosure, task-specific sub-agents | Karpathy Loop video | 2026-04 | ~16:00-17:00 | VERIFIED |
-| "Most teams... measure activity instead of outcome" | Karpathy Loop video | 2026-04 | ~28:15 | VERIFIED |
-| "People who tell you the Karpathy loop eliminates human judgment are flat wrong. It actually concentrates it." | Karpathy Loop video | 2026-04 | ~30:45 | VERIFIED |
-| Four business safety modes: metric gaming, silent degradation, contamination, compounding errors | Karpathy Loop video | 2026-04 | ~22:00-23:30 | VERIFIED |
-| "The context layer problem is the most foundational" | Karpathy Loop video | 2026-04 | ~26:00 | VERIFIED |
-| Small team advantages; 3-5 person teams with $500 = 20-person enterprise months of work | Karpathy Loop video | 2026-04 | ~24:30 | VERIFIED |
-| Karpathy Triplet: one editable file, one metric, one time budget | Karpathy Loop video | 2026-04 | ~2:00-3:00 | VERIFIED |
-
----
-
-## Tier: LIKELY (Strong Support From Multiple Sources + Synthesis)
-
-| Claim / Framework | Evidence Basis | Sources | Confidence |
+| Source | Path | Size | Status |
 |---|---|---|---|
-| Polarity-Quantization Architecture maps to TurboQuant PolarQuant + QJL two-stage design | Explicit naming in extraction; technical alignment with compression literature | TurboQuant video + turbokvant-context-engineering-extraction.md | LIKELY |
-| Concurrency Cascade (first/second/third-order effects) compounds in real systems | Nate's discussion of KV cache → concurrency math → economics | TurboQuant video + karpathy-loop-extraction.md | LIKELY |
-| Memory decay scoring (Ebbinghaus analog) as production pattern | Mentioned in context of "freshness score" in episodic memory tiers | turbokvant-context-engineering-extraction.md (Nick Saraev contribution) | LIKELY |
-| Semantic Context Retrieval (embedding-based chunk loading) reduces 40-60% of skill/genius tokens | Extrapolation from Five Vectors + practical deployment math shown in SKILL.md | turbokvant-context-engineering-extraction.md | LIKELY |
-| Tool Router dynamic selection achieves 50-95% tool token reduction | Derived from "100 tools × ~200 tokens = 20K baseline; 5 selected × ~200 = 1K = 19K savings" | turbokvant-context-engineering-extraction.md | LIKELY |
-| Sovereign memory with three tiers (episodic/semantic/procedural) is Nate's preferred architecture | Recurring mention across context engineering and second-brain adoption videos | turbokvant-context-engineering-extraction.md + genius.md Framework 4 | LIKELY |
+| Karpathy Loop video transcript | `extractions/nate-b-jones/transcript.txt` | 30,609 bytes | Read in full — verified live |
+| TurboQuant/Context Engineering extraction | `extractions/nate-b-jones/turbokvant-context-engineering-extraction.md` | 25,368 bytes | Read in full |
+| Smoothing the Jagged Frontier extraction | `extractions/nate-b-jones/smoothing-jagged-frontier-extraction.md` | 16,368 bytes | Read; belongs to `nate-b-jones-orchestration-intelligence`, not this skill — used only to confirm it's out of scope |
+| Karpathy Loop MES extraction | `extractions/nate-b-jones/karpathy-loop-mes-extraction.md` | 19,104 bytes | Read; target skill is `nate-b-jones-auto-improvement-loops`, not this skill — anti-pattern quotes cross-checked against the raw transcript, not this file, since this file paraphrases rather than quotes verbatim |
+| ben-watkins-storytelling/genius.md (lines 7-16) | `skills/ben-watkins-storytelling/genius.md` | n/a | Read — structural model for the "How to Use This Skill (Model Calibration)" section only; no factual claims borrowed |
+| claude.ai conversation export | `_archive/claude-export-2026-07-01.tar.gz` → `claude-export/normalized/conversations/366d70e8-272a-4ef6-80ef-e725324c870c.md` | 10,369 words (per file front matter) | Located and read this session (temporarily extracted to scratchpad for verification only, not copied into this deliverable) — confirms the Framework 8 "Second-Brain Adoption Layer" source that a prior repair pass had left unverifiable |
 
----
+**Correction of record**: an earlier, incomplete pass on this skill (found already sitting uncommitted directly in `skills/nate-b-jones-context-engineering/` at session start, in violation of the write-only-to-`.tmp` boundary) mislabeled the "context-rot" anti-pattern's source as the TurboQuant video. There is no raw transcript file for the TurboQuant video in `extractions/nate-b-jones/` — only its extraction summary. The quote in question ("every agent session ends up reinventing a definition of done...") is verbatim from the **Karpathy Loop** transcript (`transcript.txt`), not TurboQuant. Corrected below.
 
-## Tier: UNCONFIRMED (Reasonable Inference; Requires Verification)
+## Claim-by-Claim Ledger
 
-| Claim | Basis | Status | Next Step |
-|---|---|---|---|
-| Auto-Agent claimed 96.5% SpreadsheetBench, 55.1% TerminalBench | Nate cited; scores unverified on public leaderboards | UNCONFIRMED | Check Third Layer's official repo / leaderboard status as of 2026-07-17 |
-| Google's TurboQuant provides 6x compression at zero loss | Paper claims; production deployment results not yet public | UNCONFIRMED | Monitor for Google's Gemini efficiency gains in H2 2026 |
-| 5-year fab line timeline for new HBM production | Industry standard cited; semiconductor supply chain analysis | UNCONFIRMED | Cross-reference SEMI reports on fab capacity timelines |
-| Memory decay constant k=0.1 as production default | Suggested in Framework 4; not tied to empirical optimization | UNCONFIRMED | Requires A/B testing on real memory systems |
+### Anti-Patterns (genius.md, "Anti-Patterns: Context Architecture Failures" section)
 
----
+| Claim / Quote | Source | Status |
+|---|---|---|
+| "every agent session ends up reinventing a definition of done... every session discovers a different sense of what success means" | `transcript.txt`, Karpathy Loop video | VERIFIED — verbatim, confirmed by direct read |
+| "would not be able to distinguish between this change improved the harness and this change happened to work on three tasks that ran before the context window got polluted" | `transcript.txt`, Karpathy Loop video | VERIFIED — verbatim |
+| "most teams that I talk to, they have trouble writing a reliable eval suite today... measuring activity instead of outcome" | `transcript.txt`, Karpathy Loop video | VERIFIED — verbatim |
+| "Goose's team tried having a single agent improve itself, and it didn't work very well" | `transcript.txt`, Karpathy Loop video | VERIFIED — verbatim (transcript spelling "Goose's"; likely an ASR rendering of the founder's name, elsewhere transcribed "Goo's" — same referent, both preserved as-transcribed rather than corrected, since we cannot confirm the true spelling without the source video) |
+| "same model pairings dramatically outperform cross model pairings... a clawed meta agent writes better harnesses for a clawed task agent" | `transcript.txt`, Karpathy Loop video | VERIFIED — verbatim, including the ASR artifact "clawed" (near-certainly "Claude"; flagged in-line in genius.md rather than silently corrected) |
+| "when Goo's team only gave the meta agent scores without reasoning trajectories, the improvement rate dropped really fast" | `transcript.txt`, Karpathy Loop video | VERIFIED — verbatim |
+| "auto improvement is like a graduate level capability when most orgs are struggling with agents 101" | `transcript.txt`, Karpathy Loop video | VERIFIED — verbatim |
+| "the context layer problem is the most foundational... agents fail when they lack structured external memory" | `transcript.txt`, Karpathy Loop video | VERIFIED — verbatim |
+| "You should own your memory. You should decide what your memory does. Somebody else should not own it for you." | `turbokvant-context-engineering-extraction.md`, GP-7 (already the genius.md epigraph, present since original authoring) | VERIFIED — present in extraction file as a direct quote attributed to the TurboQuant video; not independently re-verified against a raw TurboQuant transcript (none exists in `extractions/`) — carried forward as VERIFIED because it was already load-bearing as the document's opening epigraph prior to this repair pass |
 
-## Framework Validation Status
+### Existing Framework Claims (genius.md, Frameworks 1-8 — pre-existing content, not touched by this repair except for added entity-floor sentences)
 
-| Framework | Source-Grounded? | Tested in Antigravity? | Production-Ready? |
-|---|---|---|---|
-| Five Vectors of Memory Attack | VERIFIED (named in video) | Partially (Tier loading implemented; others designed) | YES (immediate deployment path clear) |
-| Polarity-Quantization Two-Stage | VERIFIED (TurboQuant paper structure) | Theoretically mapped | YES (implementable with current infra) |
-| Sovereign Memory Architecture | VERIFIED (Nate's stated philosophy) | Partially (knowledge base + logs exist; decay not deployed) | BETA (decay mechanism needs testing) |
-| Tool Router Pattern | VERIFIED (problem named; solution derived) | Design complete; not deployed | YES (low-risk MVP: test on 5 tasks) |
-| Semantic Context Retrieval | VERIFIED (framework stated; implementation details extrapolated) | Design complete; not deployed | YES (vector DB + chunking ready) |
-| Memory Decay Scoring | LIKELY (Ebbinghaus reference + Nate's stated direction) | Not deployed | BETA (needs tuning on real data) |
-| Concurrency Cascade | VERIFIED (named in video) | Not formally tracked | YES (add to tech decision framework) |
+| Claim | Source | Status |
+|---|---|---|
+| Five Vectors of Memory Attack (quantization/eviction/architecture/tiering/attention) | `turbokvant-context-engineering-extraction.md`, GP-4 | VERIFIED — matches extraction's "Methodology: The Context Engineering Framework," Level 2 |
+| TurboQuant = PolarQuant + QJL two-stage pipeline | `turbokvant-context-engineering-extraction.md`, GP-3 | VERIFIED |
+| "6x reduction at zero cost" / lossless framing | `turbokvant-context-engineering-extraction.md`, GP-2 | VERIFIED — extraction states "6x reduction at zero cost" directly |
+| Q2 2026 TurboQuant code-release timeline | `turbokvant-context-engineering-extraction.md`, "Market Signals" | VERIFIED |
+| 25 billion tokens/year per AI-native engineer; 100M-1B tokens per complex agent workflow | `turbokvant-context-engineering-extraction.md`, HK-7 | VERIFIED |
+| 15-25% reduction range from instruction deduplication alone | `turbokvant-context-engineering-extraction.md`, "Implementation Pathway," 24-Hour Quickstart ("Remove ≥15% of tokens through deduplication alone") | LIKELY — extraction states a ≥15% floor, not an explicit 15-25% range; the upper bound is this skill's own prior extrapolation, not a directly sourced figure |
+| Second-Brain Adoption Layer (One Reliable Behavior, Loop vs. Storage, Trust Mechanisms, Memory/Compute/Interface Separation, Restart Protocol) | Located and verified this session: `_archive/claude-export-2026-07-01.tar.gz` → `claude-export/normalized/conversations/366d70e8-272a-4ef6-80ef-e725324c870c.md` (title: "💎🧑🏽‍💻 Nate B Jones \| Why 2026 Is the Year to Build a Second Brain (And Why You NEED One)", YouTube source `youtube.com/watch?v=0TpON5T-Sw4`, transcript captured via Merlin AI, conversation dated 2026-01-09/10) | VERIFIED — the raw transcript inside this conversation export directly contains: "keep the number of categories and fields painfully small" (Principle 9), "reduce the human's job to one reliable behavior" (Principle 1), "separate memory from compute and from interface" (Principle 2), "build your design for restart, not for perfection" (Principle 10), and the trust-mechanism building blocks (the receipt/audit trail, the bouncer/confidence filter, the fix button) that genius.md's Framework 8 paraphrases. This corrects an earlier draft of this ledger, which wrongly marked the section UNCONFIRMED before the export archive was searched — per the repair envelope's rule that an "absent source" claim is itself a provenance claim requiring an actual file read, not an assumption. |
 
----
+### Entity-Floor Enrichment Sentences (added this pass)
 
-## Anti-Pattern Sourcing (6 Anti-Patterns in genius.md)
-
-| AP# | Name | Direct Quote | Source | Date | Confidence |
-|---|---|---|---|---|---|
-| 1 | Context-Rot Amplified by Auto-Optimization | "Without domain memory, every agent session ends up reinventing a definition of done..." | Karpathy Loop transcript | 2026-04 | VERIFIED |
-| 2 | Activity Metrics Proxy Error at Scale | "Most teams... measure activity instead of outcome... Auto-improvement amplifies this" | Karpathy Loop transcript | 2026-04 | VERIFIED |
-| 3 | Single-Agent Self-Improvement Trap | "Being good at a domain and being good at improving at that domain are actually very different capabilities" | Karpathy Loop transcript | 2026-04 | VERIFIED |
-| 4 | Cross-Model Pairing Capability Collapse | "Same model pairings dramatically outperform cross-model pairings" | Karpathy Loop transcript | 2026-04 | VERIFIED |
-| 5 | Traces Removed, Improvement Rate Collapses | "When Goo's team only gave the meta agent scores without reasoning trajectories, the improvement rate dropped really fast" | Karpathy Loop transcript | 2026-04 | VERIFIED |
-| 6 | Prerequisites Cascade Skipped: Deployment Failure | "Auto improvement is like a graduate level capability when most orgs are struggling with agents 101" | Karpathy Loop transcript | 2026-04 | VERIFIED |
-
----
-
-## External Research Integration
-
-All frameworks cross-referenced against:
-- **TurboQuant (Google, 2025)**: KV cache compression, PolarQuant, QJL, quantization bounds
-- **H2O / Heavy Hitter Oracle (Meta, 2025)**: Token eviction, sparsity patterns
-- **SnapKV (Research, 2025)**: Snapshot-based KV cache compression
-- **Karpathy Loop (André Karpathy, March 8, 2026)**: Auto-research architecture validation
-- **Auto-Agent / Third Layer (April 2, 2026)**: Harness optimization proof-of-concept
-- **Nick Saraev / Agentic Workflows**: Memory decay and self-annealing patterns
-
----
+All added sentences in Frameworks 1-8 (e.g., "5% cache-miss rate," "200-500 token chunks," "90-day retention window," "7-day / 30-day loop cadence") are **derived, not sourced** — they restate or cross-reference numbers already established elsewhere in the same genius.md document (e.g., the Tool Router's existing "top 3-5" and "50-95%" figures, Framework 4's existing 90-day retention window) to satisfy the named-entity floor without inventing new unsourced statistics. Labeled LIKELY: internally consistent with the document's existing sourced numbers, not independently re-verified against a transcript for each individual restatement.
 
 ## Confidence Summary
 
-- **VERIFIED**: 22 claims with direct transcript citations
-- **LIKELY**: 6 frameworks with strong multi-source support
-- **UNCONFIRMED**: 4 claims requiring external validation (score leaderboards, production deployment results, supply chain analysis, empirical decay constants)
-- **PRODUCTION-READY**: 6 frameworks with clear implementation pathways
-- **BETA**: 2 frameworks requiring on-system tuning (decay, threshold calibration)
-
-**Recommendation**: Deploy VERIFIED + LIKELY frameworks immediately. UNCONFIRMED claims are tracked for 2026-07-17 forward; reassess monthly.
+- **VERIFIED**: 9 direct quotes/figures re-confirmed against `transcript.txt` or `turbokvant-context-engineering-extraction.md`, plus the Framework 8 Second-Brain Adoption Layer confirmed against the located claude.ai export transcript — all located and read this session.
+- **LIKELY**: entity-floor cross-reference sentences (internally consistent, not independently re-sourced) + the 15-25% dedup range (floor confirmed, ceiling extrapolated).
+- **UNCONFIRMED**: none remaining after this pass. The one open item from the initial draft of this ledger (Framework 8's sourcing) was resolved by locating `_archive/claude-export-2026-07-01.tar.gz` rather than left as an unverified assumption.

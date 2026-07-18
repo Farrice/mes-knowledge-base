@@ -178,30 +178,6 @@ When an agent invocation begins:
 5. **Month 2**: Build decay mechanism. Run first decay cycle. Implement procedural tier.
 6. **Month 3**: Integration into context loading pipeline. A/B test against static loading.
 
-## Output Schema
-
-**Contract**: Complete persistent memory system architecture with episodic/semantic/procedural tiers, Ebbinghaus-inspired decay, distillation pipelines, retrieval integration, and sovereignty verification.
-
-**Deliverables**:
-1. Three-Tier Schema Definitions — SQL/JSON for episodic (time-series), semantic (vector-indexed), procedural (configuration) tiers with retention policies
-2. Decay Mechanism Specification — Ebbinghaus function implementation (base_value × 1/(1+k×days), thresholds: ACTIVE/DORMANT/ARCHIVE/COLD), decay schedule (nightly), overrides (pin/boost/demote)
-3. Distillation Pipeline Design — episodic→semantic (weekly), semantic→procedural (monthly), with human review gates
-4. Retrieval Interface Specification — context-loading integration showing memory injection format and precedence rules
-5. Sovereignty Checklist — completed verification of local storage, export paths, audit trails, delete capability, encryption, access control
-6. Implementation Timeline — 6-month phased rollout (setup → ingestion → retrieval → distillation → decay → integration)
-7. Technology Stack Decisions — database choice (PostgreSQL + pgvector recommended), rationale for hypertables, justification for versioning strategy
-
-**Quality Gates**:
-- [ ] All three tiers have explicit schemas with clear ownership and retention rules
-- [ ] Decay mechanism is implemented as Python function; thresholds are calibrated to real access patterns
-- [ ] Distillation pipeline includes human review gate — no automatic promotion without sign-off
-- [ ] Retrieval interface is integrated into existing context-loading chain (show before/after flow)
-- [ ] Sovereignty checklist is 100% complete (no placeholder items)
-- [ ] Implementation timeline is realistic with clear Week 1/Month 2/Month 3 milestones
-- [ ] Technology choices are justified (why PostgreSQL vs. alternatives; why pgvector vs. pinecone)
-
-**Output Format**: Architecture document (markdown) + SQL schema file + Python pseudocode for decay/distillation + project plan (markdown).
-
 ## Output Format
 Deliver as a comprehensive architecture document with:
 - Three-tier schema definitions
@@ -210,4 +186,14 @@ Deliver as a comprehensive architecture document with:
 - Retrieval interface specification
 - Sovereignty checklist (completed)
 - Implementation timeline with milestones
+
+## Quality Gate
+
+Before shipping the architecture, confirm:
+- [ ] Every item on the Step 6 sovereignty checklist is actually checked against the proposed infrastructure, not left as an aspiration — if any box can't be checked, the document says so and names the gap
+- [ ] The decay mechanism (freshness scoring) is specified with real formula and thresholds, not just "memories decay over time" — reinforcement, review threshold (0.3), and archive threshold (0.1) are all present
+- [ ] The distillation pipeline names its cadence explicitly (weekly episodic→semantic, monthly semantic→procedural) and includes a human review gate — no auto-promotion to procedural memory without a checkpoint
+- [ ] Migration path is validated, not assumed: can data actually be exported in a standard format (JSON/CSV) and re-imported elsewhere without loss?
+- [ ] Retrieval latency target (<500ms) is stated as a measured number in the implementation plan, not a design aspiration with no test step
+- [ ] The implementation sequence (Step 7) has each phase gated on the prior phase's completion — building the decay mechanism before the episodic ingestion pipeline exists is a sequencing error, not a parallel-work opportunity
 - Technology stack decisions with rationale

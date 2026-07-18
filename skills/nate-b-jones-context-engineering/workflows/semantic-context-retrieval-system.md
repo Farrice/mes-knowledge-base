@@ -202,30 +202,6 @@ Run as a pre-commit hook or nightly cron.
 - [ ] Check: are critical frameworks/patterns consistently retrieved for relevant tasks?
 - [ ] Check: any "lost knowledge" — information that was important but not retrieved?
 
-## Output Schema
-
-**Contract**: Semantic retrieval architecture replacing static SKILL.md/genius.md loading with embedding-based chunk retrieval, achieving 40-60% context reduction while maintaining output quality parity.
-
-**Deliverables**:
-1. Chunking Strategy Specification — H2/H3 split rules, chunk token bounds (50-500), overlap/metadata
-2. Embedding Pipeline Design — batch embedding process (OpenAI or local model) with architecture diagram
-3. Vector Store Schema — PostgreSQL + pgvector (or ChromaDB) schema with indices and retention policy
-4. Retrieval Integration Code — Python implementation for query-embedding → top-k chunk retrieval
-5. Hybrid Loading Architecture — always-load baseline (~200 tokens) + semantic retrieval (~800-1200 tokens) + on-demand expand
-6. Update Pipeline Design — file-change detection → re-chunk → re-embed → upsert workflow (pre-commit or nightly cron)
-7. Validation Results — 10-task comparison (full-load vs. semantic) measuring quality parity, token reduction, retrieval latency
-
-**Quality Gates**:
-- [ ] Chunking strategy is deterministic (no lossy splitting, no critical sections fragmented)
-- [ ] Embedding pipeline handles batch processing; API cost is transparent (if paid model)
-- [ ] Vector store schema supports fast queries (<200ms target) and version tracking
-- [ ] Hybrid loading balances baseline context (core skill info) with semantic retrieval (task-specific)
-- [ ] Retrieval latency <200ms on 5-chunk query
-- [ ] Validation shows ≥95% quality parity between full-load and semantic output
-- [ ] Migration path is clear (existing SKILL.md → chunks, existing genius.md → chunks, no knowledge loss)
-
-**Output Format**: Architecture document (markdown) + schema SQL definitions + Python reference implementation.
-
 ## Output Format
 Deliver as a technical architecture document with:
 - Chunking strategy specification
@@ -236,3 +212,13 @@ Deliver as a technical architecture document with:
 - Update pipeline design
 - Validation results (quality parity, token reduction, latency)
 - Migration plan from static loading
+
+## Quality Gate
+
+Before shipping the retrieval system, confirm:
+- [ ] Step 8 validation ran on real tasks across a sample of at least 5 experts, comparing full-file-loaded output against semantic-retrieval output — not a single expert, not a synthetic task
+- [ ] Retrieval latency is measured and reported against the <200ms target, not assumed from vector-DB vendor benchmarks
+- [ ] Token reduction is measured per expert invocation and falls in the claimed 40-60% (skill-context) or 60-75% (full-flow) range — if it doesn't, the gap is named, not hidden
+- [ ] "Lost knowledge" check (Step 8) actually flags any framework or pattern that a full-file load would have surfaced but retrieval missed — a clean validation with zero flagged gaps on the first run is a signal to re-check the check, not a pass
+- [ ] Hybrid loading (Step 6) always includes the core capability statement and workflow list even when semantic retrieval returns zero relevant chunks — the system must degrade to "under-informed" not "silent," never to a hallucinated skill identity
+- [ ] The freshness pipeline (Step 7) has a defined trigger (git diff, file watcher, or cron) — a chunking system with no re-embed path silently goes stale the first time a skill file is edited
