@@ -1,9 +1,23 @@
 # Diandra Escobar — Genius Context
 
-**Version**: 4.1 — Extracted from 4 sources + Diandra's own production skill
+**Version**: 4.2 — Extracted from 4 sources + Diandra's own production skill
 **Load before**: All workflows
 **v4.0 addition**: The 5-Format Hook System + pixel-width rendering (Patterns 19-22), from the 2026 "131 hooks / 21 creators" hook study.
 **v4.1 enrichment**: Integrated Diandra's actual `linkedin-hook-writer.skill` (primary source) — exact character limits, format sub-variants, the computable Width Scoring model, register/post-type/media handling, and her 40 hook-writing rules. References: [hook-format-library.md](references/hook-format-library.md) · [hook-writing-rules.md](references/hook-writing-rules.md) · [hook-examples-library.md](references/hook-examples-library.md) (her 131 annotated hooks).
+**v4.2 repair (2026-07-17)**: Wave 3 heartbeat repair — sourced anti-patterns against the two primary transcripts (see [references/source-ledger.md](references/source-ledger.md)), added Recognition Test + Model Calibration sections. No genius patterns removed or reweighted.
+
+---
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then write the way Diandra actually writes — don't stamp "Pattern 19: Pixel-Width Budget" onto a post and call it done. The test: would Diandra recognize this as her own system running in someone else's hands, or as someone wearing "LinkedIn growth" vocabulary without the precision underneath? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label a finished hook "Dense" or "Punchy+Context" in the output unless the user explicitly asked for the format taxonomy — ship the hook, not the homework showing which box it fills.
+- Do NOT announce the machinery ("I redirected attention from a pre-existing entity here," "this uses the boomerang effect"). Her system is invisible in the finished post — a reader feels the pull, never sees the wiring.
+- Her texture is builder-direct, not guru-vague: real numbers ("$4.8M in 2 years," "293 comments, 234 reposts, 28,000 impressions"), real entity names, real pixel-vs-character math — never "significant growth" or "strong engagement" standing in for a number.
+- Polish is the tell-class failure here specifically: a hook that reads smooth and safe has already failed her core test — it's summarizing, not opening a gap. If the draft doesn't make the poster a little nervous to publish, it isn't contrarian enough (Hall of Fame Exemplar 3) — rewrite it.
+- Character-counting instead of pixel-scoring is the single most common mechanical tell that a model absorbed the *idea* of Pattern 19 but not the *operationalization*. Always run the width-score or a mobile previewer — never eyeball a character count and call it done.
 
 ---
 
@@ -298,6 +312,17 @@ Tacit expertise Diandra demonstrates but doesn't explicitly teach:
 
 ---
 
+## Recognition Test
+
+Would Diandra Escobar recognize this as hers? Run the output against her actual fingerprints, not generic LinkedIn-coach vocabulary:
+- Is post *type* (Growth/Authority/Conversion/Personal) declared before a word of copy exists — or did the draft skip straight to "write me a post"?
+- Does the hook fit a mobile pixel-width budget (character ceiling + width-score), not just "under 150 characters"?
+- Is the entity in a growth post one that already commands real attention (a named brand, person, or news event) — not a vague "industry trend"?
+- Does the language sound like a builder with receipts ("$1M from one platform," "449+ posts tracked in a live Kanban") — or like a consultant reciting theory?
+- Strip Diandra's name off this and hand it to her cold: would she say "that's my system," or "that's someone using my vocabulary to write generic growth content"? If it's the second, the output fails the test regardless of its rubric score.
+
+---
+
 ## Anti-Patterns
 
 1. **The Summary Trap**: Summarizing what a brand did / what a person said instead of adding your own insight. If you're reporting, not analyzing, the post dies.
@@ -308,8 +333,12 @@ Tacit expertise Diandra demonstrates but doesn't explicitly teach:
 6. **Premature Conversion**: Running conversion content before growth + authority have built trust. You can't convert an audience that doesn't trust you yet.
 7. **The "Just Start" Fallacy**: Posting without researching competitors, outlier content, or ICP behavior first. Research before writing is non-negotiable.
 8. **Inspiration Dependency**: Waiting for ideas to come to you instead of extracting from existing material (calls, docs, expert conversations).
-9. **Counting Characters, Not Pixels**: Sizing a hook by character count. The 150-character limit doesn't exist — only a pixel-width budget does (Pattern 19). The fix is always a mobile post-previewer, never a character counter.
-10. **The Overloaded Punchy Line**: In Punchy+Context, making the first line explain, summarize, or hedge. The punchy line's only job is to *provoke*; the context line earns the click. A first line that does everything kills the gap.
+9. **Counting Characters, Not Pixels**: Sizing a hook by character count. The 150-character limit doesn't exist — only a pixel-width budget does (Pattern 19). The fix is always a mobile post-previewer, never a character counter. Diandra's own words: "LinkedIn doesn't render by characters, it renders by pixels" (source: extractions/Diandra Escobar/transcript.txt, 2026 five-format hook video).
+10. **The Overloaded Punchy Line**: In Punchy+Context, making the first line explain, summarize, or hedge. A first line that does everything kills the gap. Direct quote: "The punchy line should provoke. The context line earns the click" (source: extractions/Diandra Escobar/transcript.txt).
+11. **The Soft Open**: A genuinely strong post buried under a vague, throat-clearing first line instead of the sharpest line already sitting in the body. Her own diagnosis of this failure: "the problem is their first line is always soft, vague, throat-clearing sentences that don't really do anything" (source: extractions/Diandra Escobar/transcript.txt).
+12. **Un-Patterned Stacking**: Building a Stacked hook from lines that don't form a predictable series, so the rhythm never resolves and the reader can't finish the pattern. Her rule: "If a reader can't predict the rhythm, the structure fails" (source: extractions/Diandra Escobar/transcript.txt).
+13. **Bad Theft**: Copying one creator wholesale — skimming, plagiarizing, imitating — instead of studying many sources and transforming what you take. Diandra's own distinction: "A bad theft degrades. skims, steals from one, plagiarizes, imitates, and rips off" (source: extractions/diandra-escobar/transcript.txt, "steal like an artist" video).
+14. **Generic-Advice Regurgitation**: Posting the same recycled tips-list content everyone else in the niche is posting instead of extracting what you actually know from calls, docs, and experts. Her own admission about falling into this early on: "Everyone was posting the same stuff, myself included" (source: extractions/diandra-escobar/transcript.txt).
 
 ---
 
