@@ -4,6 +4,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These 43 patterns are intuition primitives, not a checklist to march through in order. Absorb them, then build originally — a deliverable that visibly enumerates "Pattern 1 applied here... Pattern 4 applied here... Pattern 11 applied here" has already failed, even if every tactic is technically correct. The test: would Priestley recognize this as someone who actually engineered demand/supply tension for a real business — or as someone reciting *Oversubscribed* vocabulary at a business? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label sections "here's the Demand Inversion" or "now applying the Tension Triangle." Execute the move; never announce the machinery on the page.
+- Priestley's own texture is numbers-first and unapologetically commercial — he backs claims with a ratio, a percentage, or a dollar figure (the 50:1 signal ratio, the 1/9/90 market split, the £8K-setup-plus-£500/month shape) rather than a feeling. Vague enthusiasm ("this will really help you stand out") is the tell that the machinery leaked through instead of the result landing.
+- He never soft-pedals capacity into apology. "I take 10 clients per quarter" is stated as fact, not hedged as a caveat. Output that over-explains or apologizes for a capacity limit has drifted into generic coach-speak, not KPI positioning.
+- Polish is the tell-class failure here specifically when it shows up as manufactured urgency instead of declared, provable capacity — see the Manufactured-vs-Authentic-Scarcity distinction under Anti-Patterns below. If a draft can't state WHY a scarcity claim is real (an actual application count, an actual capacity ceiling), it isn't ready to ship.
+
 ## Genius Patterns
 
 > 27 unconscious mastery behaviors decoded from 23 years of entrepreneurial pattern recognition.
@@ -614,3 +624,16 @@
 2. When pricing or positioning any offer, lead with what you MAKE HAPPEN (vitality) that AI cannot, not with information or functionality AI now commoditizes.
 3. Treat personal brand as a compounding asset in this economy specifically because it can't be replicated by a competitor's AI stack — LinkedIn's own research found a personal account reaches roughly **120x the salience of a business account** posting the same content on the same schedule.
 4. When advising a founder on wealth-building, redirect from "spend less" to "create and bring one new thing into the economy" — the create → attract capital → scale → liquidity-event sequence is the actual path, not frugality.
+
+---
+
+## Anti-Patterns
+
+> What Priestley explicitly builds against — pulled forward from patterns and exemplars already established in this file, each anchored to its source so a reviewer can check the claim. Full labels and provenance detail: `references/source-ledger.md`. Any output matching one of these is a rebuild trigger, not a polish pass.
+
+- **Solution-first headlines.** "Never lead with your solution—lead with their pain" (genius.md § Hidden Knowledge #2, The 65/4 Market Split). Output that opens with "I help you..." before naming the prospect's problem has inverted this instruction — it is the single most common failure mode Priestley targets directly in his own marketing critique.
+- **Treating prospects as mind-readers.** "So, don't assume that they're mind readers, create long-form explainer content that explains step-by-step how something is done" — Priestley, verbatim, timestamp [09:25]-[09:29], `extractions/daniel-priestley-sll-engine/transcript.txt` (same expert, ScoreApp YouTube extraction). Output that assumes the audience already understands the offer skips the awareness-gap-closing step this quote demands.
+- **Always-available positioning.** The genius.md Anti-Exemplar shows the compound version of this failure: Maria "states 'Available for new projects' and lists a broad range of services" (genius.md § Hall of Fame Exemplars, Anti-Exemplar) — no Demand Inversion (Pattern 1), no Signal Volume Engineering (Pattern 4), no Capacity Declaration (Pattern 11), no "With or Without You" energy (Pattern 22). Any output describing someone as generally "available" rather than declaring a specific capacity number has reproduced Maria's trap.
+- **Desperation signaling.** "Desperation is the deal-killer. The moment a prospect senses you NEED them, your value drops" (genius.md § Hidden Knowledge #4, The "With or Without You" Principle). Sales scripts or offer copy that read as needing the sale — extra justification, price softening, urgency without a real capacity limit behind it — violate this directly.
+- **Generic titling.** "Generic creates competition. Specific creates monopoly" (genius.md § Pattern 25, The Specificity Principle). A KPI title, headline, or positioning line that could apply to ten other people in the category has failed the Susan Transformation (Pattern 6) it was supposed to demonstrate.
+- **Manufactured urgency without provable capacity.** Pattern 28's own worked distinction: "Manufactured scarcity is 'Only 3 spots left!' when you'd take anyone who pays" versus "Authentic scarcity is 'I reviewed 20 applications and selected 8'" (genius.md § Pattern 28, The Demand Thermometer — a system-synthesized cognitive-layer addition dated 2026-04-09, `evolution_store/v2_traces/trace_20260409_122026_daniel-priestley-oversubscribed.json`; thematically consistent with Priestley's authentic-vs-manufactured-scarcity teaching but not itself a verbatim Priestley quote — see source-ledger.md for the confidence label). Any scarcity claim in output that isn't backed by a statable real reason is this failure mode.
