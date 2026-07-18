@@ -101,7 +101,7 @@ Visualize how your moats interact to create compounding defense:
 
 Each moat should strengthen at least one other moat. If a moat exists in isolation, it's fragile.
 
-## Output
+## Output Schema
 
 **Deliver a complete Moat Engineering package:**
 1. Moat Vulnerability Assessment (5-dimension scorecard)

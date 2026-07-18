@@ -59,7 +59,7 @@ Build a 90-day plan with 3 phases (one constraint per month):
 - Deploy resources freed by subtraction
 - Measure new constraint (there will always be one)
 
-## Output
+## Output Schema
 
 **Deliver a complete constraint audit:**
 - Bottleneck diagnosis (classified by type)

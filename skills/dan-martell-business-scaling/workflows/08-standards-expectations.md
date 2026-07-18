@@ -92,7 +92,7 @@ Standards must replicate WITHOUT your presence:
 - **Celebrate when met** (catch people meeting standards, not just failing them)
 - **Apply them universally** (no exceptions for high performers — standards are standards)
 
-## Output
+## Output Schema
 
 **Deliver a complete Standards & Expectations package:**
 1. "When You're Not There" audit (honest gap analysis)

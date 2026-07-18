@@ -70,7 +70,7 @@ For products that ARE painkillers but are positioned as vitamins:
 - **Use echo marketing**: Customer's exact pain language becomes the pitch
 - **Price the pain**: What is this problem COSTING them daily? Weekly? Monthly? Make the cost of inaction more painful than the cost of buying.
 
-## Output
+## Output Schema
 
 **Deliver a complete Product Line Razor report:**
 1. 80/20 Audit table (every product with revenue, margin, and verdict)

@@ -63,7 +63,7 @@ Map the top 3-5 objections to Bonus Bank deployments:
 | "I need to think about it" | Scarcity trigger | "Totally understand — just know we only have X spots left" |
 | "I've been burned before" | Risk reversal | "That's exactly why we structure it as..." |
 
-## Output
+## Output Schema
 
 **Deliver a complete offer package:**
 - One-sentence Clear Promise

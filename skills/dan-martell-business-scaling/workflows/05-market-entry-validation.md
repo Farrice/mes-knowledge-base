@@ -83,7 +83,7 @@ Build a **Voice of Customer Bank**:
 - Objections or fears they express
 - What they've already tried (and why it failed)
 
-## Output
+## Output Schema
 
 **Deliver a complete Market Entry Package:**
 1. Bank Statement Test results (5-7 validated opportunities, ranked)

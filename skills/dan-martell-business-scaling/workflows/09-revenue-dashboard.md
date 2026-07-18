@@ -109,7 +109,7 @@ If the number is low:
 - Is any role failing to contribute to revenue? (buyback audit)
 - Are you measuring hours when you should measure output?
 
-## Output
+## Output Schema
 
 **Deliver a complete Revenue Metrics package:**
 1. Vanity vs. Reality audit (stop/start tracking list)

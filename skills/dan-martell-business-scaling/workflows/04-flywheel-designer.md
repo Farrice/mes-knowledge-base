@@ -65,7 +65,7 @@ The flywheel takes effort to start but becomes self-sustaining. Design the kicks
 - **Month 2**: Full flywheel in motion (measured daily)
 - **Month 3**: Optimization (identify the weakest link, strengthen)
 
-## Output
+## Output Schema
 
 **Deliver a complete flywheel package:**
 - Current growth engine diagnosis (what's broken)

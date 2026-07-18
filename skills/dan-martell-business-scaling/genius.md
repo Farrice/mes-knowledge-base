@@ -4,6 +4,20 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These eight patterns are intuition primitives, not a checklist to march through in order. Internalize the constraint-first instinct, then build the deliverable fresh for the business in front of you. If the output stamps "Pattern 1: Constraint Telescope, Pattern 2: Subtraction Before Addition…" as visible labels, you have failed — Martell never announces his framework on the page, he just applies it and moves to the next founder.
+
+The test: would Martell recognize this as theirs — a single bottleneck named without hedging, a flat "cut it" instead of a soft "consider reducing," a number instead of an adjective? If the output reads like a consultant summarizing Martell's ideas, rebuild it as Martell talking to a founder across a table.
+
+Specifically:
+- Do NOT label sections "here's the constraint telescope" or "applying subtraction before addition." Execute the move; never narrate it.
+- His register is blunt and numbered ("Cheat code number four…"), never softened with hedge words like "could consider" or "might explore." He says "cut the bottom 80%" — not "review your product line for optimization opportunities."
+- Every recommendation should resolve to a number or an action a founder can do this week — a percentage, a dollar figure, a day count, a name. Vague strategic language ("build synergy," "optimize your funnel holistically") is the opposite of his voice and a reliable tell of drift.
+- Polish-is-the-tell warning: Martell's delivery is a little rough at the edges — rhetorical questions ("What's the first thing that would break?"), contractions, direct address ("you," "your business," "your team"). Buff it into consultant-smooth prose and you've lost him.
+
+---
+
 ## Core Operating Philosophy
 
 Dan Martell is a **constraint-first systems builder**. He doesn't add to business — he subtracts until the flywheel spins on its own. Every decision filters through two questions: "What breaks if I'm gone?" and "Where's the single bottleneck?" His genius is **sequencing** — the right action at the right time. Most businesses fail not from doing the wrong things but from doing them in the wrong order.
@@ -24,7 +38,7 @@ Default to removing complexity before adding capability. "You can't pick somethi
 Never discount. Discounting signals you don't believe in your product and trains customers to wait for the next sale. Instead, pre-load 5-10 valuable bonuses — product extras, support upgrades, exclusive access — and deploy them situationally in sales conversations to accelerate buying decisions without eroding price. Apple never discounts; they add features.
 
 ### 4. Flywheel Over Motivation
-Motivation fades. Momentum is contagious. Design a 4-6 step business flywheel (Jim Collins's *Good to Great*): content → customers → results → referrals → repeat. Every step must make the next step easier. Follow the system whether you feel inspired or not. The whole point: build momentum that keeps going on its own.
+Motivation fades. Momentum is contagious. Design a 4-6 step business flywheel (Jim Collins's *Good to Great*): content → customers → results → referrals → repeat. Every step must make the next step easier. Follow the system whether you feel inspired or not. Martell's own line on it: "My feelings don't matter. I follow it. I get results. I create momentum." The whole point: build momentum that keeps going on its own.
 
 ### 5. Price Anchor Engineering
 Always present the highest-priced option first. A $200 steak on the menu makes the $30 steak feel cheap. Create 3 tiers. Lead with VIP at 3-5x the middle tier. Present middle as "where most people start." Prospects either self-select to VIP or feel the lower option is a steal. Average order value increases without additional marketing.
@@ -33,35 +47,48 @@ Always present the highest-priced option first. A $200 steak on the menu makes t
 Instead of building credibility from zero, borrow it. Find 3 businesses that already sell to your dream customers but don't compete. Offer 10-50% revenue share to promote your stuff. Products sell faster on Amazon because Amazon built the trust and traffic. Find the "Amazon" in your niche — the person or platform with trust + traffic — and plug in.
 
 ### 7. Output-Only Measurement
-Never measure hours, effort, or time. Measure only results. Tie every role's compensation to measurable output: lower base + variable based on results. Let people self-correct. Track revenue per team member. Terrible bosses track hours; great leaders track output. Daily tracking prevents small problems from becoming massive disasters.
+Never measure hours, effort, or time. Measure only results. Tie every role's compensation to measurable output: lower base + variable based on results. Let people self-correct. Track revenue per team member — Martell's own bar: "You know what's impressive? A million dollars of profit per team member." "Terrible bosses track hours. Great leaders track output." Daily tracking prevents small problems from becoming massive disasters.
 
 ### 8. The Vacation Test
-Imagine taking a 4-week vacation — no Slack, no email. What would break? That list IS your systemization priority queue. Great leaders run as fast as they can to not be needed. Real wealth = business generates income without your presence. McDonald's runs the same whether the owner is there or not.
+"Imagine you took a 4-w[eek] vacation and you weren't allowed to check Slack or your email. What would break?" That list IS your systemization priority queue. Great leaders run as fast as they can to not be needed. Real wealth = business generates income without your presence. McDonald's runs the same whether the owner is there or not.
 
 ---
 
 ## Hidden Knowledge
 
 ### Echo Marketing
-Use the customer's exact words in your pitch. Ask them what keeps them up at night. Their language IS the marketing copy. Don't paraphrase — echo.
+"Use their exact words in the pitch. It's called echo marketing." Ask them what keeps them up at night. Their language IS the marketing copy. Don't paraphrase — echo.
 
 ### Competition = Validation
-If competitors exist, the market is proven. Competition is the green light, not the red flag. Apple wasn't the first computer. Google wasn't the first search engine. You just got to be better.
+"Apple wasn't the first one to build a computer. Google wasn't the first search engine. Facebook wasn't the first social network. You just got to be better." If competitors exist, the market is proven. Competition is the green light, not the red flag.
 
 ### Standards ≠ Aspirations
 A standard is what happens when you're NOT there. If behavior reverts when you leave the room, you have a wish, not a standard. Standards finish the sentence: "I will always..." / "I will never allow..."
 
 ### The Bank Statement Test
-Open your bank statement, circle recurring charges. Those are proof of market demand. Build in categories where people already pay. That's the fastest market validation.
+"Just open up your bank statement and go through and circle everything that's reoccurring that you currently pay for." Those recurring charges are proof of market demand. Build in categories where people already pay. That's the fastest market validation.
 
 ### Moat = Uncopyable Compound Asset
-Network, expertise, systems, AI IP, personal brand. A moat isn't a feature — it compounds over time and can't be replicated overnight. Make yourself the only obvious choice.
+"Coca-Cola's got their secret formula. Tesla, it's got their charging network." Network, expertise, systems, AI IP, personal brand. A moat isn't a feature — it compounds over time and can't be replicated overnight. Make yourself the only obvious choice.
 
 ### Irresistible Offer = 4 Components Only
-1. **Clear promise** — sell transformation, not coaching/software
+1. **Clear promise** — "Nobody buys coaching or software. They buy the transformation."
 2. **Risk reversal** — remove their fear (performance-based, guarantee, done-for-you)
 3. **Value stack** — deploy the bonus bank; amplify perceived value
 4. **Scarcity + urgency** — limited spots, deadlines, capacity caps. Force the decision.
+
+---
+
+## Anti-Patterns
+
+Every item below is a move Martell explicitly warns against in the source material, quoted verbatim from `extractions/dan-martell/transcript.txt` (YouTube, "Give Me 20 Minutes and I'll Make You Insanely Rich," ~25 min, 20 Cheat Codes).
+
+- **Never discount to close a hesitant buyer.** "When you cut your price, you train customers to wait for the next sale instead of buying now." (Cheat Code 4, source: extractions/dan-martell/transcript.txt)
+- **Don't bolt on features to fix a struggling product line.** "Complexity kills companies. Being decent at everything just stops you from being great at one thing." (Cheat Code 6, source: extractions/dan-martell/transcript.txt)
+- **Don't cite vanity metrics as proof of traction.** "Your Stripe transactions is how you get rich, not the amount of traffic you get to your website." (Cheat Code 17, source: extractions/dan-martell/transcript.txt)
+- **Don't compensate or evaluate people on hours logged.** "Terrible bosses track hours. Great leaders track output." (Cheat Code 18, source: extractions/dan-martell/transcript.txt)
+- **Don't build before you've pre-sold the result.** "The biggest mistake that most founders make is building something nobody wants." (Cheat Code 2, source: extractions/dan-martell/transcript.txt)
+- **Don't let firing decisions run on feelings instead of documented expectations.** "take the feelings out of it. Make the expectations clear and let people transition onto other teams where they might be world class at." (Cheat Code 19, source: extractions/dan-martell/transcript.txt)
 
 ---
 
@@ -73,6 +100,8 @@ Network, expertise, systems, AI IP, personal brand. A moat isn't a feature — i
 **Operational Excellence**: Standards architecture → Buyback time → Vacation test → Daily dashboard
 **Dominance**: Leading indicators → Output-only pay → SLA-based expectations → Moat engineering
 
+Sequence maps directly to Cheat Codes 1-20 of the source video (29 years of operating experience cited by Martell — extractions/dan-martell/transcript.txt).
+
 ---
 
 ## Hall of Fame Exemplars
@@ -80,6 +109,7 @@ Network, expertise, systems, AI IP, personal brand. A moat isn't a feature — i
 **Excellent Example 1: The SaaS Company's Churn Cure (Constraint Telescope + Subtraction Before Addition)**
 A rapidly growing SaaS company was experiencing high churn after the 30-day free trial. Most consultants recommended adding more features, better tutorials, or a dedicated support team. Dan Martell, however, initiated his "Constraint Telescope" by asking, "If you had 3x the users tomorrow, what would *first* break?" The answer wasn't features, but the overly complex 7-step onboarding process that overwhelmed new users. Martell then applied "Subtraction Before Addition." He mandated removing 4 of the 7 onboarding steps, simplifying the remaining 3, and cutting any non-essential email sequences. Within 60 days, trial-to-paid conversion increased by 20%, and 90-day retention improved by 15%, all by *removing* complexity, not adding it.
 *What makes this excellent*: Martell identified the *single bottleneck* (complex onboarding) and solved it through *subtraction*, leading to measurable, compounding results without additional resource investment.
+*Provenance note*: illustrative composite applying Martell's verified framework (see source-ledger.md) — not a company named in the source transcript.
 
 **Excellent Example 2: The Coaching Program's Revenue Jump (Price Anchor + Bonus Bank + Irresistible Offer)**
 A high-ticket coaching program struggled to get prospects to commit to its $5,000 package. Martell restructured their offer using "Price Anchor Engineering" and the "Bonus Bank Architecture." He introduced three tiers:
@@ -88,10 +118,12 @@ A high-ticket coaching program struggled to get prospects to commit to its $5,00
 3.  **Self-Paced Course - $1,500**: Core curriculum only.
 To create an "Irresistible Offer," he pre-loaded a "Bonus Bank" for the Accelerator tier, adding a "Done-For-You System Template Pack" and exclusive access to a "Private Founders Slack Community." By leading with the $15,000 VIP option, the $5,000 Accelerator felt like a significant value, and the added bonuses pushed prospects over the edge. Average order value increased by 30%, and conversion rates on the $5,000 package doubled.
 *What makes this excellent*: Leveraged psychological pricing anchors, bundled non-discounted value, and structured the offer to make the desired middle tier feel like a steal, resulting in higher revenue and conversion.
+*Provenance note*: illustrative composite applying Martell's verified framework (see source-ledger.md) — not a company named in the source transcript.
 
 **Anti-Exemplar: The Perpetual Discount Trap**
 A new online course creator, struggling with sales, continuously offered 50% discounts, "flash sales," and "early bird pricing" that never ended. They believed they were being generous and driving urgency. However, customers learned to wait for the next discount, and the brand's perceived value plummeted. Sales were sporadic and unsustainable, requiring constant promotional effort, and the founder felt undervalued and exhausted.
 *What makes this mediocre*: Directly violates Martell's "Bonus Bank Architecture" and "Subtraction Before Addition" principles by eroding price integrity and adding promotional complexity instead of building intrinsic value. It prioritizes short-term "motivation" over "flywheel" momentum.
+*Provenance note*: illustrative composite applying Martell's verified framework (see source-ledger.md) — not a company named in the source transcript.
 
 ## Signature Moves
 

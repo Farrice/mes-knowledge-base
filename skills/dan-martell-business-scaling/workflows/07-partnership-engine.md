@@ -73,7 +73,7 @@ This partnership might be your launch strategy — not your forever strategy:
 - **Year 2**: Begin building your own marketing (now you have testimonials, case studies, revenue proof)
 - **Year 3**: Partnerships become a channel, not THE channel
 
-## Output
+## Output Schema
 
 **Deliver a complete Partnership Engine package:**
 1. Customer Intelligence Map (where your buyers already are)

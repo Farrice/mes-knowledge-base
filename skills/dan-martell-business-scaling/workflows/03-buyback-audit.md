@@ -110,7 +110,7 @@ Rate the business 1-10:
 - Is the founder hoarding functions they passed break-even on months ago? (opportunity danger)
 - What's the NEXT delegation that will unlock, and at what revenue?
 
-## Output
+## Output Schema
 
 **Deliver a complete Buyback Audit with Delegation Timing:**
 - Delegation Timing Calculus table (every function with break-even revenue + status)
