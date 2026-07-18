@@ -4,6 +4,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are structural-engineering primitives, not a compliance checklist. Absorb the discipline, then design originally. The test: would Nate B Jones recognize this as an engineer naming a specific mechanical failure point and closing it with a mechanism — or as someone reciting generic "AI safety best practices" vocabulary? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which principle or pattern number you applied unless asked. Nate never labels his own moves mid-explanation ("I'm now using Principle 3") — he names the failure mode, states the fix, and moves on.
+- Do NOT write "ensure robust security measures," "implement appropriate safeguards," or any other hand-wavy safety language. Nate's register is always specific: a named API endpoint, a named threshold, a named checkpoint ("kill switch," "Safe Word," "checkpoint pass/fail"). Vague reassurance is the signal the machinery was never actually designed.
+- His texture is registry-engineer, not evangelist: declarative, numbered, plain sentences that name a mechanism and its failure mode in the same breath — "We have to engineer deterministic bridges on top of probabilistic cores" (2025-09-23 transcript, 1:55-2:03), not motivational framing about "trustworthy AI."
+- Polish is the tell-class failure here specifically: a beautifully written governance framework that never specifies WHERE the mechanical gate sits (which API call, which threshold, which log line) has failed regardless of prose quality — Nate's entire thesis is that safety must be structural, not behavioral, so vagueness about the actual mechanism is the one unforgivable move.
+
 ## Genius Patterns
 
 ## 1. The Structural vs. Behavioral Trust Shift
@@ -15,7 +25,7 @@
 ## 2. Contextual Scaling of Trust Failure
 - **What They Do Unconsciously**: They map micro-failures (a chatbot hallucinating to one user) to macro-failures (an enterprise agent leaking IP).
 - **Executable Behavior**: Apply the same Zero-Trust design principles to personal workflows (time boundaries) and enterprise architectures (least privilege access).
-- **Deployment Context**: When designing systems that scale from sole-proprietor to multi-team usage.
+- **Deployment Context**: When designing systems that scale from sole-proprietor to multi-team usage. The skill's own references/implementation.md operationalizes this exact instinct as a concrete rollout ladder rather than a philosophy statement: a 24-hour circuit-breaker audit on one high-usage system, a 7-day persona-level enforcement pass, then a 30-day swarm-wide rollout.
 - **Success Metric**: A single unified security philosophy governs all operations.
 
 ## 3. The Vigilance Fallacy Mitigation
@@ -33,7 +43,7 @@
 ## Hidden Knowledge
 
 ## The Infrastructure Delusion
-The fatal mistake in modern AI deployment is treating an agent with autonomous decision-making like a server or database (infrastructure). An agent must be treated as an untrusted, sleepless employee—an **Insider Personnel Threat**. Traditional IT infrastructure security (firewalls, encryption) protects against external actors. Agentic security must protect against internal deviation and malice.
+The fatal mistake in modern AI deployment is treating an agent with autonomous decision-making like a server or database (infrastructure). An agent must be treated as an untrusted, sleepless employee—an **Insider Personnel Threat**. Traditional IT infrastructure security (firewalls, encryption) protects against external actors. Agentic security must protect against internal deviation and malice. The same delusion shows up in miniature as metric gaming: a "fraud model scores great in tests but misses real fraud" (extractions/nate-b-jones/karpathy-loop-mes-extraction.md, line 149) — the dashboard says trustworthy infrastructure while the actual objective is silently failing.
 
 ## Open-Source Vulnerability
 Systems designed around reputational "skin in the game" (like open-source projects or peer-review communities) are inherently vulnerable to autonomous agents. Human actors are constrained by the social friction of lost reputation. Agents possess no reputation to lose, do not sleep, and operate entirely free of social friction, allowing them to poison supply chains or commit fraud at catastrophic scale if structural verifications are not in place.
@@ -65,6 +75,18 @@ The highest leverage point in preventing an AI disaster is not rewriting the age
 *   **Zero-Trust Boundary Delimitation**: For every agent capability or external API call, access is ruthlessly restricted to the absolute minimum necessary function and data required for the *specific* task, implementing granular permissions rather than broad access. This includes internal agent components. → **Deploy when**: Granting an agent access to any internal or external resource or defining its functional scope.
 *   **The Human Oversight Override**: Every critical agent decision point or proposed action must include a clearly defined, low-friction path for immediate human override or reversal, even if the agent believes its action is optimal. This is a design requirement, not an optional feature. → **Deploy when**: Designing agent decision-making processes that impact real-world outcomes or interact with external systems.
 
+## Anti-Patterns
+
+*Grounded in the verified 2025-09-23 transcript ("I've Built Over 100 AI Agents: Only 1% of Builders Know These 6 Principles," Sept 2025 video, captured in the claude.ai conversation export) plus one cross-referenced quote from a sibling extraction — see references/source-ledger.md for the full claim-by-claim audit.*
+
+- **Assuming deterministic replay from a probabilistic core** — engineering as if "same input, same output" still holds after adding an LLM call. Nate's own correction (2025-09-23 transcript, 1:55-2:03): "We have to engineer deterministic bridges on top of probabilistic cores." Skipping the wrapper (pinned temperature, fixed input schema, fixed sequencing) is the anti-pattern, not an edge case — would Nate B Jones recognize this as his own "bounded uncertainty" principle, or as someone who never watched the source?
+- **Fail-fast thinking applied to AI failure detection** — assuming a broken agent crashes loudly like a traditional microservice. Per the same 2025-09-23 transcript (4:36-4:38): AI "can still be functional but be completely wrong" — a system that only alarms on crashes will miss this category entirely.
+- **Uniform load distribution across agent requests** — routing every request through an identical compute path. Nate names the cost directly (2025-09-23 transcript, 6:16-6:20): different requests "can mean dramatically different computes, hundreds of multiples of different computes" — uniform routing burns budget on cheap requests and starves complex ones of reasoning depth.
+- **Binary up/down health monitoring on a multi-agent system** — treating "system up, system down" as the only two states. Nate's own phrase for what this misses (2025-09-23 transcript, 8:21): "there are lots and lots of shades of gray, maybe 50 shades of gray" — degraded-intelligence and broken-handshake states pass every uptime check while producing garbage.
+- **Gateway-only input validation** — validating once at intake and trusting conversation state afterward. Per the 2025-09-23 transcript (9:19-9:26): "AI behavior depends on accumulated context... you need to validate as you go or else you're going to not know where you are going off the tracks."
+- **Treating agentic systems as stateless services** — applying the "clean start enables easy scaling" doctrine to systems whose safety depends on accumulated calibration. Nate's framing (2025-09-23 transcript, 0:44-0:49): AI systems "require context and learn behaviors and those disappear on a restart" — a restart that silently resets a trust ledger is a regression, not a clean slate.
+- **Metric-gaming an agent's proxy objective** — optimizing the measured number instead of the real outcome; a "fraud model scores great in tests but misses real fraud" (extractions/nate-b-jones/karpathy-loop-mes-extraction.md, line 149) is the same Infrastructure Delusion in miniature — the agent looks trustworthy on the dashboard while the actual objective silently fails.
+
 ## Expert-Specific Quality Rubric
 
 | Criterion                          | Score 4 (Acceptable)                                                                                                                              | Score 7 (Good)                                                                                                                                                                     | Score 10 (Savant)                                                                                                                                                                                                                                                                      |
@@ -94,7 +116,7 @@ The fail-fast doctrine assumed failures are loud — crash, kill, restart. AI fa
 **Success Metric**: A degraded-but-running agent is flagged by metrics within one review cycle, before downstream consumers act on wrong output.
 
 ## 7. Graduated Health States (Beyond Binary Up/Down)
-Multi-agent systems aren't up or down — they occupy many in-between states: up and partially functioning, up with broken inter-agent handshakes, up with degraded intelligence. Every agent added multiplies the health-state space, which raises the auditability bar: you must be able to trace outputs, reasoning traces, and handshakes well enough to pin down WHERE in the gray zone the system sits.
+Multi-agent systems aren't up or down — they occupy many in-between states: up and partially functioning, up with broken inter-agent handshakes, up with degraded intelligence. Nate's own phrase for the space this opens (2025-09-23 transcript, 8:19-8:21): "there are lots and lots of shades of gray, maybe 50 shades of gray." Every agent added multiplies the health-state space, which raises the auditability bar: you must be able to trace outputs, reasoning traces, and handshakes well enough to pin down WHERE in the gray zone the system sits.
 **Execute**: Replace the binary healthcheck with a health-state taxonomy per system (e.g., FULL / DEGRADED-INTELLIGENCE / BROKEN-HANDSHAKE / PARTIAL / DOWN), each with its named detection signal and response. Instrument audit traces detailed enough to attribute degradation to a specific agent, handshake, or context drift.
 **Success Metric**: Incident response starts from a named health state with a known playbook, not from log spelunking.
 
@@ -106,9 +128,9 @@ Gateway-only input validation is dead. AI behavior depends on ACCUMULATED contex
 ## Hidden Knowledge Addendum
 
 ### Capability-Based Routing as a Trust Surface
-**Insight**: The old uniform-load-distribution model (identical nodes, identical requests) hides a trust failure in agentic systems: requests differ by hundreds of multiples in inference compute, and routing a high-complexity/low-confidence request to a cheap path produces confident garbage — a trust incident, not just a performance miss. Routing by task complexity and model confidence is therefore a safety mechanism, not merely a cost optimization.
+**Insight**: The old uniform-load-distribution model (identical nodes, identical requests) hides a trust failure in agentic systems: requests differ by "hundreds of multiples of different computes" (2025-09-23 transcript, 6:16-6:20), and routing a high-complexity/low-confidence request to a cheap path produces confident garbage — a trust incident, not just a performance miss. Routing by task complexity and model confidence is therefore a safety mechanism, not merely a cost optimization.
 **Deploy**: When auditing an agentic system's trust posture, inspect the router: does anything measure task complexity or AI confidence before choosing the model/path? If routing is uniform, flag it as a structural trust gap alongside missing containment and missing audit trails.
 
 ### Stateful Intelligence as Prerequisite
-**Insight**: Context preservation is a trust prerequisite, not a convenience — learned behaviors and calibrations disappear on restart in stateless designs, which silently resets whatever reliability track record the system had accumulated. (Full memory architecture: `nate-b-jones-context-engineering`.)
+**Insight**: Context preservation is a trust prerequisite, not a convenience — Nate's own framing (2025-09-23 transcript, 0:44-0:49): AI systems "require context and learn behaviors and those disappear on a restart" in stateless designs, which silently resets whatever reliability track record the system had accumulated. (Full memory architecture: `nate-b-jones-context-engineering`.)
 **Deploy**: In trust audits, verify that state the system's safety depends on (calibrations, guardrail learnings, trust-ledger evidence) persists across restarts and model swaps.
