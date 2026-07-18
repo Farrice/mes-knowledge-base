@@ -4,6 +4,18 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist. Absorb the physics — energy transfers through the screen whether you intend it or not — then build originally. The test: would Noske recognize this as someone actually being of service inside their zone of genius, or as someone reciting authenticity vocabulary? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which Genius Pattern or Hidden Knowledge item you applied unless asked. Never write "Applying GP-4" or "per the Energy Audit" in the output — name the machinery and you break the spell.
+- Do NOT label sections "here's the promise," "here's the payoff," "here's the energy check." Execute the move; never announce it. Noske's entire argument is that the audience feels the machinery without ever seeing it named.
+- His texture is unscripted, Australian, and blunt — mid-thought corrections, willingness to swear and self-correct on camera ("when I say thong, I mean flip-flop in Australia, not [ __ ] thong"), zero teleprompter polish. A draft that reads smooth and pre-planned has already violated his own De-Shielding Protocol (GP-6): scripting IS the shield he's arguing against.
+- A tidy "Pillar 1 / Pillar 2 / Pillar 3" structure is a tell-class failure specific to this expert — his whole methodology is the argument against prepared structure. Polish is the tell.
+
+---
+
 ## Core Philosophy
 
 Content creation isn't about systems, hooks, or algorithms. It's about finding a format where you operate in your zone of genius with zero upfront effort, then broadcasting authentic service at volume. **The audience detects energy before content.**
@@ -28,6 +40,8 @@ Every content format lives on a 2-axis matrix: effort vs. impact. The winning fo
 - Could someone hire a replacement to create this content for me? (If yes → wrong format)
 - Does this format speak directly to my dream client?
 
+**Verbatim anchor**: "pick up the phone and be of service to his dream client" — Tom Noske, "Five Unspoken Content Rules" (extractions/tom-noske/transcript.txt, extracted 2026-03-06).
+
 ---
 
 ### GP-2: Zone of Genius as Competitive Moat
@@ -42,6 +56,8 @@ Your zone of genius isn't a differentiator — it's a **moat**. When your conten
 3. Drops you into a flow state effortlessly
 4. Speaks directly to your dream client
 5. Positions you as an authority
+
+**Verbatim anchor**: "none of the content that I produce on Instagram requires any upfront effort" — Tom Noske, "Five Unspoken Content Rules" (extractions/tom-noske/transcript.txt, extracted 2026-03-06).
 
 ---
 
@@ -64,6 +80,8 @@ Value  ░░░░░░░██████████████   ← asc
 
 **Diagnostic**: Where am I on the curve? Am I trying to shortcut the Grind Zone? What preparation steps could I begin eliminating?
 
+**Verbatim anchor**: "what I would call the grind zone" — Tom Noske, "Five Unspoken Content Rules" (extractions/tom-noske/transcript.txt, extracted 2026-03-06).
+
 ---
 
 ### GP-4: Authenticity Physics (Energy Transfer Through Screen)
@@ -79,6 +97,8 @@ Neediness, desperation, and inauthenticity transfer through the screen whether o
 - Would I still make this if I had zero followers and no business?
 
 If any answer triggers neediness → reset to service-first frame before recording.
+
+**Verbatim anchor**: "the audience knows all" — Tom Noske, "Five Unspoken Content Rules" (extractions/tom-noske/transcript.txt, extracted 2026-03-06).
 
 ---
 
@@ -138,13 +158,13 @@ Peak creative performance requires eliminating all meta-awareness — algorithm,
 ## Hidden Knowledge
 
 ### HK-1: The Preparation Paradox
-Preparation is inversely correlated with authenticity at scale. Scripts, dot points, and ideation sessions add cognitive load the audience feels. Your most prepared content is often your least authentic. Your most spontaneous content is often your best.
+Preparation is inversely correlated with authenticity at scale. Scripts, dot points, and ideation sessions add cognitive load the audience feels. Your most prepared content is often your least authentic. Your most spontaneous content is often your best. **Verbatim anchor**: "so many external factors that are playing along in my mind as I'm trying to record this video" — Tom Noske, "Five Unspoken Content Rules" (extractions/tom-noske/transcript.txt, extracted 2026-03-06).
 
 ### HK-2: The Energy Audit (Neediness Detection)
-You can diagnose underperformance by auditing the creator's motivation state at recording time. Sales motivation → content smells like sales. Validation motivation → content smells like performance. Service motivation → content builds trust. The audience is a neediness detector.
+You can diagnose underperformance by auditing the creator's motivation state at recording time. Sales motivation → content smells like sales. Validation motivation → content smells like performance. Service motivation → content builds trust. The audience is a neediness detector. **Verbatim anchor**: "the more needy you are in terms of why you're making content, the more that experience is going to come through" — Tom Noske, "Five Unspoken Content Rules" (extractions/tom-noske/transcript.txt, extracted 2026-03-06).
 
 ### HK-3: Imperfection-as-Brand
-Unpolished content builds more trust than studio-quality production because it's self-evident proof of authenticity. Raw coaching calls, casual service moments — the texture of imperfection is the brand asset.
+Unpolished content builds more trust than studio-quality production because it's self-evident proof of authenticity. Raw coaching calls, casual service moments — the texture of imperfection is the brand asset. **Verbatim anchor**: "My content is imperfect execution that you guys think is perfect" — Tom Noske, "Five Unspoken Content Rules" (extractions/tom-noske/transcript.txt, extracted 2026-03-06).
 
 ### HK-4: The Shield Problem
 Things creators do to "protect" themselves — scripting, over-editing, perfectionism, waiting until ready — are shields that prevent skill acquisition. Every shield delays entry to the Impact Zone. The discomfort is the curriculum.
@@ -163,6 +183,8 @@ Every workflow output must pass:
 3. **The Promise-Payoff Test** — Does the opening create a clear promise? Does the content deliver on it?
 4. **The Zone of Genius Test** — Could someone else create this content? If yes → not zone of genius.
 5. **The Shield Check** — Is any element of the content process shielding the creator from growth?
+
+**Grounding**: every test above operationalizes a line from the source rather than a generic rubric — e.g. the Promise-Payoff Test is Noske's own frame, "creating a promise and then delivering on that promise" (Tom Noske, "Five Unspoken Content Rules," extractions/tom-noske/transcript.txt, extracted 2026-03-06).
 
 ---
 
@@ -296,13 +318,13 @@ The 40/25/25/10 split is a **starting reference, not a law.** "I'm a precious sn
 The deepest failure isn't bad strategy — it's that most creators can only hold ONE definition of success. They judge a 2,000-view conversion piece as a "failure" against their million-view standard, or refuse to post view-bait because "it doesn't sell." The funnel's true function is permission: *use the right metric per layer.* You can't judge an audience piece for not converting (it never tried) or a CTA piece for not getting views (it never tried). Predictable boundaries remove the false failures.
 
 ### HK-7: Specificity Is the Throttle
-You set a piece's view ceiling deliberately, by how many TAM filters you stack. Start with every human on earth → filter to English speakers → filter to those with the niche interest → filter to those who want to *learn* about it. Each filter shrinks the audience and *raises* the money-per-viewer. Broad = big views, no money. Specific = small views, money. Knowing this lets you predict and *accept* a ceiling instead of being blindsided by it.
+You set a piece's view ceiling deliberately, by how many TAM filters you stack. Start with every human on earth → filter to English speakers → filter to those with the niche interest → filter to those who want to *learn* about it. Each filter shrinks the audience and *raises* the money-per-viewer. Broad = big views, no money. Specific = small views, money. Knowing this lets you predict and *accept* a ceiling instead of being blindsided by it. **Verbatim anchor**: "you've refined it down by four different filters before it got to that content" — Tom Noske, "the two lies in the creator space" (extractions/Tom Noske/transcript.txt, extracted 2026-05-30).
 
 ### HK-8: The Brand-Deal Asymmetry
-A brand pays you $X only because they net several times $X off your traffic — so you are structurally underpaid AND you absorb reputational risk on a customer relationship you don't control. Owning your own product flips both: more margin, and full control of the buyer's experience, which *preserves* the audience trust a bad brand-deal would burn.
+A brand pays you $X only because they net several times $X off your traffic — so you are structurally underpaid AND you absorb reputational risk on a customer relationship you don't control. Owning your own product flips both: more margin, and full control of the buyer's experience, which *preserves* the audience trust a bad brand-deal would burn. **Verbatim anchor**: "the only reason a company is paying you $10,000 for a post is because they're making $100,000 off your hard-earned traffic" — Tom Noske, "the two lies in the creator space" (extractions/Tom Noske/transcript.txt, extracted 2026-05-30).
 
 ### HK-9: Origin Story Is Manufactured, Not Inherited
-The reason you can recount Hormozi's origin story isn't a book or a Wikipedia page — it's that he *made content about it*. Origin story is a deliberate content category (the Inspiration layer), not biography that passively leaks out. If your audience can't recount your origin story, it's because you never built the pieces that tell it.
+The reason you can recount Hormozi's origin story isn't a book or a Wikipedia page — it's that he *made content about it*. Origin story is a deliberate content category (the Inspiration layer), not biography that passively leaks out. If your audience can't recount your origin story, it's because you never built the pieces that tell it. **Verbatim anchor**: "tell your origin story with 100% accuracy, what content would you make?" — Tom Noske, "the two lies in the creator space" (extractions/Tom Noske/transcript.txt, extracted 2026-05-30).
 
 ---
 
@@ -349,11 +371,11 @@ If you cannot name the single layer and its single metric, the piece isn't ready
 
 - **Metric Bleed** — judging a piece by another layer's metric (calling a CTA video a failure for low views, or an audience video a failure for not converting). The #1 sin (HK-6).
 - **The Everything Piece** — cramming hook + value + origin + personality + CTA into one video because you're asking it to do all jobs at once (anti-GP-11). Strip it.
-- **Specificity-Zero Virality** — chasing reach so hard the content has no association to you or what you sell (the 45M-view flip-flop). Reach must route back to identity (anti-HK-7).
-- **The Permanent Pitch** — every post is a CTA, so the audience zones out the sell entirely (Educator Trap, GP-9). The 10% layer only works if the other 90% isn't also selling.
+- **Specificity-Zero Virality** — chasing reach so hard the content has no association to you or what you sell (the 45M-view flip-flop). Reach must route back to identity (anti-HK-7). Verbatim: "45 million views that thought it was funny, not thought you were interesting or thought you were valuable or thought you have something that you could sell them" — Tom Noske, "the two lies in the creator space" (extractions/Tom Noske/transcript.txt, 2026-05-30).
+- **The Permanent Pitch** — every post is a CTA, so the audience zones out the sell entirely (Educator Trap, GP-9). The 10% layer only works if the other 90% isn't also selling. Verbatim: "every day is another sales pitch and eventually it just becomes white noise" — Tom Noske, "the two lies in the creator space" (extractions/Tom Noske/transcript.txt, 2026-05-30).
 - **Inherited-Origin Assumption** — assuming people "just know" your story. If you didn't make content about it, they don't (anti-HK-9).
-- **Split-as-Law** — rigidly forcing 40/25/25/10 regardless of what you've recently posted, instead of treating it as a corrective diet (anti-GP-12).
-- **Brand-Deal Default** — taking the $10K post without pricing in the trust risk and the asymmetry that the brand nets more than you off your own audience (anti-HK-8).
+- **Split-as-Law** — rigidly forcing 40/25/25/10 regardless of what you've recently posted, instead of treating it as a corrective diet (anti-GP-12). Verbatim: "There's no science. There's no math equation. I can't look at your views and go, you need to do this, this, and this" — Tom Noske, "the two lies in the creator space" (extractions/Tom Noske/transcript.txt, 2026-05-30).
+- **Brand-Deal Default** — taking the $10K post without pricing in the trust risk and the asymmetry that the brand nets more than you off your own audience (anti-HK-8). Verbatim: "the only reason a company is paying you $10,000 for a post is because they're making $100,000 off your hard-earned traffic" — Tom Noske, "the two lies in the creator space" (extractions/Tom Noske/transcript.txt, 2026-05-30).
 
 ---
 
