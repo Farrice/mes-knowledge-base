@@ -135,6 +135,23 @@ A weekly/monthly production schedule that prevents creative fatigue.
 
 ---
 
+## Output Schema
+
+```yaml
+deliverable: "Creative Diversity Matrix (Post-Andromeda)"
+components:
+  composition_vibe_matrix:
+    description: "Minimum 15 populated cells crossing Composition types × Vibe tones"
+  awareness_level_tags:
+    description: "Every creative piece tagged to an awareness-level segment (unaware → most aware)"
+  rotation_calendar:
+    description: "4-week rotation calendar showing which matrix cells fire which week"
+  production_pipeline:
+    description: "AI production loop generating new creative weekly, tied to the rotation calendar"
+  kill_criteria:
+    description: "Explicit fatigue/performance thresholds that retire a creative from rotation"
+```
+
 ## Quality Gate
 
 - [ ] Composition × Vibe matrix built (minimum 15 cells populated)

@@ -253,6 +253,25 @@ Track monthly:
 
 ---
 
+## Output Schema
+
+```yaml
+deliverable: "Client Conversion Diagnostic + Deployment Plan"
+components:
+  formula_diagnosis:
+    description: "CR × OU stated in the user's own numbers — current outreach volume vs. current conversion rate"
+  volume_audit:
+    description: "1-week honest outreach log (not self-reported estimate) proving or disproving the volume-is-the-real-bottleneck hypothesis"
+  pop_stack_audit:
+    description: "Positioning / Offer / Proof scored individually — proof weighted as 80-90% of conversion"
+  daily_outreach_system:
+    description: "Scheduled 5-10/day system with a fixed time block, split across channels"
+  tracking_commitment:
+    description: "2-week tracking window with a set review date and drift-detection signals defined"
+  milestone_map:
+    description: "First 3 conversion milestones mapped to specific, earned (not manufactured) deliverables"
+```
+
 ## Quality Gate
 
 - [ ] CR × OU formula understood and articulated

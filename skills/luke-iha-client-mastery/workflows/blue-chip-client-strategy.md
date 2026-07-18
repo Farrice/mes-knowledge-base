@@ -134,6 +134,23 @@ I'm flexible on structure. What works for you?
 
 ---
 
+## Output Schema
+
+```yaml
+deliverable: "Blue-Chip Client Pitch Package"
+components:
+  target_list:
+    description: "10-15 recognizable brands identified (e.g. via funneloftheweek.com-tier discovery), ranked by name recognition in the user's niche"
+  gap_analysis:
+    description: "Top 5 targets researched — current creative gaps a strategist could fill, documented per brand"
+  sample_ads:
+    description: "3-5 unsolicited ads created for at least 2 targets, ready to pitch cold"
+  pitch_sent_log:
+    description: "Free/low-friction pitches sent to top 2-3 targets with the 'I'm flexible on structure' framing"
+  leverage_plan:
+    description: "How a win gets name-dropped across profile, outreach, and future pitches once it lands"
+```
+
 ## Quality Gate
 
 - [ ] 10-15 blue-chip targets identified

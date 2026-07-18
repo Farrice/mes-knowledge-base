@@ -226,6 +226,23 @@ Quick version:
 
 ---
 
+## Output Schema
+
+```yaml
+deliverable: "Proof Ladder Sprint Plan (30-90 days)"
+components:
+  rung_audit:
+    description: "All 7 rungs (Resume/Samples/Certifications/Testimonials/Track Record/Case Studies/Blue-Chip) rated Complete/Partial/Missing"
+  sprint_timeline:
+    description: "Personalized daily-action plan starting at the lowest incomplete rung, no rung skipped"
+  exit_criteria_per_rung:
+    description: "Checklist of what 'done' means for each rung, matched to that rung's timeline (hours/days/weeks)"
+  portfolio_assembly:
+    description: "Shareable format — samples, testimonials, track-record numbers, case studies compiled"
+  parallel_outreach_tracker:
+    description: "5-10/day outreach log run concurrently with the sprint, not sequenced after it"
+```
+
 ## Quality Gate
 
 Before completing this workflow:

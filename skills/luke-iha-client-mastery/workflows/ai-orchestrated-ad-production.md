@@ -153,6 +153,23 @@ Once the pipeline is established for one client, scale by:
 
 ---
 
+## Output Schema
+
+```yaml
+deliverable: "AI-Orchestrated Ad Production Pipeline"
+components:
+  orchestrator_mindset:
+    description: "Written statement of what the strategist does vs. what AI does — judgment retained, production delegated"
+  production_pipeline:
+    description: "All 4 phases operational: brief → generate variations → judge (Paid to Feel) → finalize"
+  first_cycle_output:
+    description: "One completed production cycle with a real brief, evidencing the pipeline works end to end"
+  prompt_library:
+    description: "5+ reusable constraints/prompts logged for repeat production runs"
+  client_delivery_template:
+    description: "Template for handing curated, ranked selections to a client — not raw AI output"
+```
+
 ## Quality Gate
 
 - [ ] Orchestrator mindset articulated (what you do vs don't do)

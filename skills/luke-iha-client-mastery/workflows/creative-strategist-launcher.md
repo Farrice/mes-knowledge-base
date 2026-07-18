@@ -141,6 +141,23 @@ User has conviction about the timing and can articulate it to prospects.
 
 ---
 
+## Output Schema
+
+```yaml
+deliverable: "Creative Strategist Launch Blueprint"
+components:
+  role_definition:
+    description: "Paid vs organic distinction stated in the user's own words, 2 sentences max"
+  skill_assessment:
+    description: "Gap map against the paid-creative-strategist skill set, with a closure plan per gap"
+  positioning_statement:
+    description: "Identity anchor ('the ___ guy/girl') + category-of-one framing"
+  thirty_day_sequence:
+    description: "Day-by-day launch plan with daily actions, mapped to the Four Forces driving demand"
+  income_target:
+    description: "Realistic near-term target framed against the $3-10K/month per-client range"
+```
+
 ## Quality Gate
 
 Before completing this workflow:

@@ -117,6 +117,23 @@ One paragraph: "[Brand] was struggling with [problem]. I [specific action] and [
 
 ---
 
+## Output Schema
+
+```yaml
+deliverable: "How I [Result] for [Brand] — Case Study Package"
+components:
+  candidates_selected:
+    description: "2-3 results meeting minimum requirements (quantified outcome + real client)"
+  how_i_narrative:
+    description: "500-800 word narrative per case study: starting conditions, diagnosis, system built, mistakes/iterations, quantified outcome"
+  linkedin_post_version:
+    description: "Condensed post-length version of each narrative"
+  proposal_snippet_version:
+    description: "1-2 paragraph version for pitch/proposal insertion"
+  metrics_table:
+    description: "Before/after data table per case study, including engagement duration"
+```
+
 ## Quality Gate
 
 - [ ] 2-3 case studies selected with minimum requirements met

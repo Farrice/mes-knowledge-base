@@ -127,6 +127,23 @@ Applications sent to 5-10 DTC ad agencies.
 
 ---
 
+## Output Schema
+
+```yaml
+deliverable: "Track Record Build Plan"
+components:
+  path_selection:
+    description: "Agency-partnership vs. free/cheap-direct path chosen, with the tradeoff (margin vs. autonomy) named"
+  documentation_system:
+    description: "Sheet/Notion tracker capturing ad spend per client, live and updated"
+  pitch_or_application:
+    description: "First outbound pitch/application sent, using the 'here's the ad, easy to run' framing (not a cold ask)"
+  track_record_one_liner:
+    description: "Single sentence for profiles/bios stating cumulative documented ad spend"
+  running_total:
+    description: "Visible, updating spend total on LinkedIn/portfolio"
+```
+
 ## Quality Gate
 
 - [ ] Path selected and committed to

@@ -138,6 +138,23 @@ User can position and deliver the "Paid to Feel" service to clients.
 
 ---
 
+## Output Schema
+
+```yaml
+deliverable: "Paid to Feel — Judgment Training System"
+components:
+  paradigm_statement:
+    description: "One-sentence articulation of why AI created (not threatened) the judgment role"
+  headline_feeling_test_log:
+    description: "3+ rounds logged — headline pair, body sensation (chest/gut/neck), which one 'activated' and why"
+  ai_judgment_pipeline:
+    description: "4-phase pipeline: brief → generate variations → feel-test selection → conviction ranking"
+  daily_sensitivity_practice:
+    description: "Scheduled recurring practice (cadence + trigger) for training body-signal detection"
+  proof_of_value_metric:
+    description: "Selection-accuracy tracking statement, e.g. 'selections outperform random AI output by X%'"
+```
+
 ## Quality Gate
 
 Before completing this workflow:

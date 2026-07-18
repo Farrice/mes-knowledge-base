@@ -123,6 +123,23 @@ Share 2-3 specific ad concepts or a mini-audit of their current creative. Not a 
 
 ---
 
+## Output Schema
+
+```yaml
+deliverable: "LinkedIn CS Outreach Engine"
+components:
+  profile_rewrite:
+    description: "Headline + About rewritten around CS positioning, not generic 'marketer' language"
+  trapdoor_posts:
+    description: "2+ posts drafted and scheduled that pull DTC/coaching brand owners into DMs"
+  daily_outreach_system:
+    description: "5-10/day tracked outreach with a spreadsheet/tool link, split across Upwork/LinkedIn/cold email"
+  dm_to_call_sequence:
+    description: "Scripted DM sequence ending in an entry-offer ask, practiced not just written"
+  week_one_metrics:
+    description: "Logged outreach count, response rate, and calls booked for the first live week"
+```
+
 ## Quality Gate
 
 Before completing this workflow:

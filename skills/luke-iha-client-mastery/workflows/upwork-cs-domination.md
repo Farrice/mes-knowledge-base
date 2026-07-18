@@ -130,6 +130,25 @@ Portfolio that proves you can think, not just write.
 
 ---
 
+## Output Schema
+
+```yaml
+deliverable: "Upwork CS Domination Package"
+components:
+  profile_rewrite:
+    description: "DTC-focused Upwork profile — title, overview, portfolio order rewritten for creative-strategist search terms"
+  saved_searches:
+    description: "5+ saved searches tuned to DTC/ecom job postings, checked daily"
+  proposal_template:
+    description: "Customized proposal template carrying the user's specific proof points, not generic boilerplate"
+  portfolio_upload:
+    description: "Samples uploaded with a strategic rationale note per piece (why this ad, what it proves)"
+  certification_stack:
+    description: "3-5 certifications stacked on-profile per the Proof Ladder rung-3 standard"
+  first_proposals_sent:
+    description: "5 proposals sent and logged with response tracking"
+```
+
 ## Quality Gate
 
 - [ ] Profile rewritten with CS positioning

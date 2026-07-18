@@ -168,6 +168,23 @@ record on your phone. No pressure if not!
 
 ---
 
+## Output Schema
+
+```yaml
+deliverable: "Testimonial Extraction Package"
+components:
+  target_list:
+    description: "10-15 past/current clients (or free-work sources if zero-client) listed by name"
+  ghost_written_drafts:
+    description: "One ghost-written testimonial per target — before/after state, tangible result, realistic (not 'insanely glowing') tone"
+  ask_message:
+    description: "Initial send: 'I wrote this for you, edit or approve' framing per target"
+  follow_up_cadence:
+    description: "Scheduled bumps at Days 3, 6, 10, 14 — gentle/funny tone, never a guilt chase"
+  collected_count:
+    description: "Running count of secured testimonials against the 5+ target, displayed on portfolio"
+```
+
 ## Quality Gate
 
 - [ ] 10-15 testimonial targets listed
