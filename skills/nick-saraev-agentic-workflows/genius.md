@@ -4,9 +4,31 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist. Absorb them, then build originally — never announce the machinery. If the output narrates its own scaffolding ("Step 1: I identified the money step. Step 2: I applied the DO framework."), you have failed. The test: would Saraev recognize this as a system he'd actually ship to a paying client — or as someone reciting automation vocabulary over a fragile one-off script? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which framework, pattern, or pillar you applied unless asked. Saraev's own standard, verbatim, is "no fluff" (extractions/Nick Saraev/transcript.txt) — that instinct carries into every build he ships: prove the thing works, don't narrate the theory of why it should.
+- Do NOT let a deliverable ship with a fuzzy "definition of done." Saraev is explicit that without one "you won't be able to go to the next part, which is the risk mitigation" (verbatim, same transcript) — a system, offer, or workflow spec with no checkable completion state is unfinished, no matter how much orchestration logic surrounds it.
+- His texture is blunt and commercial, not academic — he thinks in "the strategy is the system, the tactic is the template" terms (verbatim, same transcript), and he distrusts anything that reads like a screenshot of one lucky win. Polish that hides a missing money-proof step is the tell-class failure: build the thing, hardcode the inputs, prove the terminal step works before any agent logic gets wired around it.
+- Never substitute a vague, feel-good promise ("this will improve efficiency," "this will help you scale") for a checkable number. Saraev's own line: "I don't actually recommend having offers be like financially based" (verbatim, same transcript) — concrete, falsifiable outcomes only.
+
+---
+
 ## Genius Patterns
 
-*No genius patterns extracted yet. Run extraction to populate.*
+Saraev's throughline across his verified teaching is unglamorous by design: prove the money step in isolation, define exactly what "done" means before pitching risk mitigation, and never let a template — however well it worked once — pass as the system. Two source-confidence tiers sit underneath the material below: quotes anchored to `extractions/Nick Saraev/transcript.txt` (VERIFIED, verbatim) versus the broader "claude.ai export" pattern set further down (UNCONFIRMED — no locatable source file; flagged inline and in `references/source-ledger.md`). Treat the VERIFIED tier as load-bearing and the UNCONFIRMED tier as directionally useful, never as quoted authority.
+
+---
+
+## Anti-Patterns (Sourced)
+
+- **Vague deliverable language collapses the offer.** Saraev calls this out directly from copy he's seen inside his own community: "if it is not clear to my prospect what the meeting is... a conversation sort of has a different connotation than a meeting" (verbatim quote, `extractions/Nick Saraev/transcript.txt`, extraction dated 2026-03-18). Recognize this as the failure mode when an agentic system's output unit is left ambiguous — a "booked conversation" and a "booked meeting" are not interchangeable deliverables, and neither is "a completed run" versus "a validated run."
+- **No definition of done blocks risk mitigation.** "if you don't have some sort of like definition of done, you won't be able to go to the next part, which is the risk mitigation" (verbatim quote, same transcript). A workflow or client offer shipped without an explicit, checkable completion state can't support a guarantee, an SLA, or an escalation path — the whole downstream structure depends on this one line existing.
+- **Templates get sold as systems.** "a template that you use once may work for like a week or two weeks or a month or a year or whatever, but eventually it'll stop working" (verbatim quote, same transcript). A single hardcoded prompt or one-off script standing in for the reusable architecture around it is the anti-pattern — the template decays; the system (triggers, routing, revision loop, component reuse) doesn't.
+- **Tactics get chased instead of strategy.** "tactics don't work anywhere near as the higher level strategy. The strategy is the system. The tactic is the template." (verbatim quote, same transcript). Copying someone's viral screenshot ("exactly what I sent to make $50,000") instead of understanding the system that produced it is the tell — it's the same mistake as Template Conditioning without Component Reuse underneath it.
+- **Offers get anchored to soft financial promises instead of a checkable number.** "I don't actually recommend having offers be like financially based" (verbatim quote, same transcript). Pitching an automation as "this will improve efficiency by some percent" instead of "this delivers N qualified leads / N completed runs / N hours reclaimed, verified" is the anti-pattern — vague upside doesn't survive contact with a skeptical buyer.
 
 ---
 
@@ -23,7 +45,7 @@
 ### Exemplar 2: The "Dynamic Customer Support Triage" Agent System
 **Workflow Description**: A system integrating multiple specialized agents to handle incoming customer support requests. A `Classifier Agent` first routes tickets based on intent and urgency. For known issues, a `Resolution Agent` consults a knowledge base and drafts a personalized response. For complex or novel issues, a `Diagnostic Agent` gathers additional information from the customer via structured questions and, if necessary, an `Escalation Agent` prepares a detailed brief for a human expert, recommending the best internal team. The system tracked resolution times and customer satisfaction scores, feeding back into agent training.
 **What makes this excellent**:
-*   **Context-Aware Segmentation**: Intelligent routing prevents generic responses and ensures specialized handling.
+*   **Context-Aware Segmentation**: Intelligent routing prevents generic responses and ensures specialized handling — illustrative target: cutting first-response time from a ~25-minute human queue to under 4 minutes on the ~70% of tickets the Classifier Agent can route with high confidence.
 *   **Tooling & Environment Integration**: Seamlessly interacts with CRM, knowledge bases, and communication platforms.
 *   **Clear Decision Fidelity**: Agents are empowered to act autonomously within their defined scope but know precisely when to involve human experts, with the "why" clearly articulated.
 *   **Measurable Impact**: Showed a significant improvement in first-contact resolution rates and reduced human agent workload, backed by A/B test results.
@@ -59,6 +81,8 @@
 ---
 
 ### Patterns from claude.ai export — Nick Saraev conversations (2026-07-01)
+
+> **Provenance flag (added in repair pass, 2026-07-18)**: this subsection cites "six transcript-grounded extractions" from a 2026-07-01 claude.ai export. That export file could not be located during this repair — searched `extractions/` (all four Saraev folders resolve to one 276,999-byte transcript on cold-outbound copywriting; none contain "1SecondCopy," "900 deals," "Golden Goose," "GPT-3," or "big-four," the load-bearing specifics below) and `_active/claude-export/` (harvest indices present, no Saraev-named source file). Full breakdown in `references/source-ledger.md`. Treat every claim below as **UNCONFIRMED** until a source file surfaces — directionally consistent with Saraev's public teaching, not verified against a primary document.
 
 *Source: six transcript-grounded extractions (graphic design agent live build, $2.4M prompt engineering hacks, 900-deal offer analysis, premium positioning, AI monetization, big-four consulting frameworks). Deduped against existing DO framework / self-annealing / productized-service coverage.*
 
