@@ -125,3 +125,13 @@ Design the full weekly production calendar organized by culture mode:
 Never debut a complex position in oral-mode format.
 Written anchor → oral extraction. Always.
 ```
+
+## Quality Gate
+
+Before delivering, verify:
+- [ ] Every platform in the Platform-Culture Matrix is classified ORAL, WRITTEN, or HYBRID by cultural mode — never by surface medium alone (a tweet is oral because it's bursty, not because it's short; a podcast is written because it's evidence-based, not because it's spoken)
+- [ ] At least one message from the client's actual positioning is sorted into each of the three Content Classification buckets — never a generic placeholder list
+- [ ] The Production Flow always sequences written anchor before oral extraction, with zero exceptions in the calendar
+- [ ] The Weekly Content Calendar totals to a volume the team can actually sustain — cite the stated production capacity, don't default to the illustrative 7-day template unmodified
+- [ ] Staffing recommendations name a real person/role per culture mode, or explicitly flag the gap if the team has no written-mode or no oral-mode creator
+- [ ] No platform is assigned cross-posted (unmodified) content from another platform

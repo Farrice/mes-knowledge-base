@@ -103,3 +103,14 @@ Once operating at sustained speed advantage, shift from reactive to proactive:
 
 ## 7-Day Speed Drill (implementation sprint)
 ```
+
+## Quality Gate
+
+Before delivering, verify:
+- [ ] Every OODA stage (Observe/Orient/Decide/Act) has a measured current time AND a compressed target — no stage left as "TBD"
+- [ ] The dominance ratio is calculated against at least one named competitor, not asserted in the abstract
+- [ ] The bottleneck stage is explicitly named (per the doctrine, it is almost always Orient→Decide — the approval gate)
+- [ ] The Decide-stage fix removes an actual approval gate rather than adding a faster meeting (guardrails, not a quicker committee)
+- [ ] The Crisis Protocol table has a founder-direct action in the 0-1hr slot — never a PR/legal action first
+- [ ] The Proactive Disruption Calendar identifies conversations by name (industry term, competitor gap) — never a placeholder like "relevant topic"
+- [ ] Nothing in the plan reintroduces a defense posture (correcting, responding, clarifying) — every action is offense (produce, don't defend)

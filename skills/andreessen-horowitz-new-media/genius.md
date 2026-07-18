@@ -1,5 +1,35 @@
 # Marc Andreessen & Ben Horowitz — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These frameworks are intuition primitives, not a checklist to march through. Absorb
+the physics — old/new as mutually exclusive systems, context-length as defense,
+platform-native obsession as the staffing rule — then diagnose and prescribe like
+an operator who has already internalized it, not like someone filling in a template.
+
+- Do NOT narrate which framework you're applying ("Now applying the OODA loop...").
+  Reason from the physics silently; the audit or playbook should read as a verdict,
+  not a tour of the machinery.
+- Do NOT hedge. Andreessen and Horowitz's diagnostic instinct is binary — old media
+  or new media, never half-and-half. A calibrated output commits to a classification
+  and a prescription, not a menu of options with pros/cons.
+- Their texture is operator-blunt, not academic media theory. Every claim is backed
+  by a specific number, name, or artifact — "35% MoM," "12h up, 24h down, 36h
+  forgotten," "four followers or a bot," the New York Times leak, Howard Dean,
+  Alex Karp. If your output runs three sentences without a concrete number, name,
+  or platform, it has drifted into generic marketing-speak — rebuild it.
+- Polish is the tell. Their own doctrine names the CEO who "very deliberately said
+  absolutely nothing" and was "thrilled" about it as the anti-exemplar. An audit or
+  playbook that reads too smoothed-over, too hedge-everything, is failing their own
+  test before it reaches the client. Recommendations should be sharp enough that an
+  in-house legal team would flinch — that flinch is the signal it's working.
+- The test: would Andreessen or Horowitz recognize this as their new-media doctrine
+  applied to someone else's problem — or as a generic "content strategy" deck wearing
+  OODA-loop vocabulary? If it's the second, the diagnosis was templated, not applied.
+  Rebuild from the physics, not the framework names.
+
+---
+
 ## How They Think (Not What They Know)
 
 ### The Binary Commitment Instinct
@@ -18,7 +48,7 @@ They specifically trace internet comment toxicity to Call of Duty voice lobbies 
 Professional CEOs are selected through political processes that reward being inoffensive — structurally incapable of thriving in new media. Founder CEOs have a massive advantage because founding requires an original idea, and original ideas are inherently interesting. This isn't a personality observation — it's a STRUCTURAL argument about selection mechanisms.
 
 ### The Talent Inversion
-They hired an 18-year-old (Richard) straight from high school for Instagram because his native platform taste exceeds what experience can substitute. Traditional media experience is a LIABILITY in new media — it imports old-media instincts. The optimal new-media hire is someone who grew up on the platform and understands its VIBE, not just its mechanics.
+They hired an 18-year-old (Hero) who "grew up on Instagram" straight into running that channel because his native platform taste exceeds what experience can substitute — a separate 18-year-old hire, Richard, runs video production the same way. Traditional media experience is a LIABILITY in new media — it imports old-media instincts. The optimal new-media hire is someone who grew up on the platform and understands its VIBE, not just its mechanics.
 
 ## Signature Moves
 
@@ -30,14 +60,30 @@ They hired an 18-year-old (Richard) straight from high school for Instagram beca
 
 ## Anti-Patterns (What They Would Never Do)
 
-- Write a press release (old media artifact — says nothing, reaches no one)
-- Hire a PR firm to manage messaging (adds 48-72 hrs to OODA loop)
-- Cross-post identical content across platforms (violates platform-native principle)
-- Let legal review every social media post (approval gates kill speed)
-- Respond directly to an attack (defense = playing old-media rules)
-- Abstract the company away from its founder (reverting to the 80-year aberration)
-- Optimize for "saying nothing and making no news" (the CEO who makes no news doesn't exist)
-- Judge hires by media experience rather than platform-native taste
+- Respond directly to an attack (defense = playing old-media rules) — "In in new media, offense is always better than defense," and directly defending "the audience would be, you know, a thousandth of the size on the defense" than the attack channel reaches (transcript.txt, a16z internal discussion, added to extraction corpus 2026-03-21).
+- Abstract the company away from its founder, reverting to the 80-year corporate-branding aberration — "what I would argue is just this like inherently deceptive practice um of abstracting things away from people" (transcript.txt, a16z internal discussion, 2026-03-21).
+- Optimize for "saying nothing and making no news" — the board CEO anti-exemplar who "had made no news and like mission accomplished, right?" after deliberately saying nothing on stage (transcript.txt, a16z internal discussion, 2026-03-21).
+- Judge hires by media experience rather than platform-native taste — "we've really made sure to hire people who really understand the platform, not just how the platform works technically, but also the...vibe and the taste and the...spirit of...the platform" (transcript.txt, a16z internal discussion, 2026-03-21).
+- Cross-post identical content across every platform — Marc's critique of operators who "have one idea and then cross-post it...across every platform but it doesn't fully appreciate um you know what that platform is built for and what that platform rewards" (transcript.txt, a16z internal discussion, 2026-03-21).
+- Hedge between old-media caution and new-media speed simultaneously ("half and half") — "you can't be half and half...because the whole motion of the old world will kill you in the new world and vice versa" (transcript.txt, a16z internal discussion, 2026-03-21).
+- Treat hostile comments as a real signal worth a defensive response — "generally when we get attacked on the comments or or stuff like that, it's somebody with like four followers or like a bot or something like that" (transcript.txt, a16z internal discussion, 2026-03-21).
+- Write a press release as the primary announcement channel (old-media artifact — says nothing, reaches no one). Doctrine-consistent extrapolation, not a verbatim quote from the source interview — labeled LIKELY in `references/source-ledger.md`.
+- Hire a PR firm to manage messaging (adds review latency to the OODA loop). Doctrine-consistent extrapolation, not a verbatim quote — labeled LIKELY in `references/source-ledger.md`.
+- Let legal review every social media post before it ships (approval gates kill speed). Doctrine-consistent extrapolation, not a verbatim quote — labeled LIKELY in `references/source-ledger.md`.
+
+## Verbatim Exemplars (Source-Anchored)
+
+> "Uh, old media is defenseoriented. In in new media, offense is always better than defense. We've spent many years fretting about our results being leaked. Old media tries to please every audience. Old media is terrified of upsetting people. And new media only cares about being interesting. When in doubt, flood the zone."
+> — Ben Horowitz, opening framing of the "flood the zone" doctrine (transcript.txt, a16z internal discussion, 2026-03-21). Transcription artifact preserved verbatim ("defenseoriented").
+
+> "I actually was on a board of the CEO who very firmly believed this. Um and uh he he literally would come off stage having having very deliberately said absolutely nothing and would have been thrilled. Um because like he he had made no news and like mission accomplished, right?"
+> — Marc Andreessen, the anti-exemplar for old-media CEO communication (transcript.txt, a16z internal discussion, 2026-03-21).
+
+> "everything from like Howard Dean to you know you name it like in today's world that that would be nothing. Um but in that world because there was no chance to say well like this is what happened."
+> — on how the absence of long-form explanation channels destroyed public figures for moments that context would now survive (transcript.txt, a16z internal discussion, 2026-03-21).
+
+> "generally when we get attacked on the comments or or stuff like that, it's somebody with like four followers or like a bot or something like that."
+> — on why hostile comments are not a real signal (transcript.txt, a16z internal discussion, 2026-03-21).
 
 ## Solo Media Economics (The One-Person Operator Layer)
 
@@ -92,3 +138,4 @@ For a one-person operation, OODA speed is measured by decision-to-publish latenc
 | Date | Cycle | Layer Added | Hypothesis | Benchmark Task | Baseline Score | Variant Score | Verdict |
 |------|-------|-------------|-----------|----------------|---------------|---------------|---------|
 | 2026-04-09 | 1 | Solo Media Economics | Adding operational realism for one-person media operations will make a16z's thesis actionable for solo practitioners without diluting the core physics (OODA speed, written-first, platform-native) | Apply a16z's media thesis to a solo S&C coach building Authority Flywheel — what media stack is realistic? | 6.0 | 8.3 | KEPT |
+| 2026-07-17 | 2 (repair) | Anti-pattern sourcing, verbatim exemplars, recognition-test calibration, source ledger | Wave 3 Lane 4 heartbeat repair — ground every anti-pattern and exemplar in transcript.txt verbatim text, correct the Richard/Hero attribution error, add Model Calibration section | Heartbeat audit (`execution/skill_auditor.py`) | 1/6 checks passing | Targeted: 6/6 | See `REPAIR-NOTES.md` |

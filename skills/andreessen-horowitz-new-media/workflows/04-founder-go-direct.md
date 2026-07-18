@@ -129,3 +129,13 @@ Map positions on the spectrum:
 2. Podcast Episode: [guest + talking points]
 3. Tweet Thread: [hook + beats]
 ```
+
+## Quality Gate
+
+Before delivering, verify:
+- [ ] The Joe Rogan Test score is diagnosed with a WHY (fear, polish-addiction, lack of stories, suppressed opinions) — never a bare number
+- [ ] The Original Idea Inventory contains ideas mined from the founder's actual founding story and private opinions — never generic industry positions dressed up as "original"
+- [ ] Every Strong Contrarian and Third Rail position carries a Context Package (argument, evidence, anticipated objections) — a bold claim with no context package is a liability, not a deployment
+- [ ] The Unscripting Protocol replaces specific old-media habits this founder actually has, not the full generic table verbatim regardless of input
+- [ ] Week 1 of the 30-Day Plan starts the written-culture anchor (podcast or Substack) before any oral-mode extraction — the Cardinal Rule from Workflow 03 is never violated here either
+- [ ] The plan never recommends "no comment," bridging to talking points, or PR-firm review as the response to a hard question — that is precisely the old-media conditioning this workflow exists to remove
