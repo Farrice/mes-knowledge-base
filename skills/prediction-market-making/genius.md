@@ -4,6 +4,18 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These 21 patterns are intuition primitives for a deterministic execution system, not a checklist to enumerate in the output. Absorb the Q-chain math and the reward/adverse-selection tension until it's reflexive, then produce the configuration or analysis directly — never narrate "Pattern 4 applies here, so I will add a heartbeat." The test: would the ImMike team — the ones who shipped `mm_enabled: false` with the comment "markets too efficient" rather than pretend the bot was profitable — recognize this as a genuine attempt to survive that exact tension, or as generic trading-bot boilerplate wearing Polymarket vocabulary (heartbeats and GTD orders sprinkled onto a template that could belong to any exchange)? If it's the second, rebuild around the actual numbers: this market's pool, this market's competitor count, this inventory's drift.
+
+Specifically:
+- Do NOT list which patterns or moves were used unless asked — show the worked Q_one/Q_two/Q_min arithmetic with THIS market's numbers, not a restated formula.
+- Do NOT present spread/reward tuning as confident profit projections. The dominant honest fact across every source here is that pure spread capture is *not* viable on its own (`mm_enabled: false`, "markets too efficient") — rewards are the business model, and every recommendation should read like it knows that, including the uncomfortable trade-offs (uptime vs. stop-loss safety, tight spread vs. adverse selection).
+- Precision is the register, not enthusiasm. Cite the exact rate limits, exact contract addresses, exact thresholds (0.005 price diff, 30% inventory, 0.10-0.90 price range) — a market maker reading "roughly" or "should be fine" instead of a number will not trust the output. Vague confidence is the tell-class failure here, not polish.
+- Never let the reward math substitute for the risk math. A report that shows Q_final optimization without also showing the 8-check risk chain and the adverse-selection break-even point has done half the job.
+
+---
+
 ## Genius Patterns (21)
 
 ### Pattern 1: The Quadratic Reward Cliff
@@ -376,6 +388,18 @@ When midpoint crosses 0.90 or drops below 0.10: begin withdrawal. Strict min Q_m
 
 ### Move 7: Batch Order Throughput Maximization
 Always use POST /orders (batch, 15/request) instead of POST /order (single). Effective: 15,000/10s vs 3,500/10s. For 10 markets with buy+sell each, one batch handles all 20 orders. Pair with slippage_tolerance gate.
+
+---
+
+## Anti-Patterns (7 documented failure modes)
+
+- **Single-sided quoting** — quoting only the Yes side of an NBA game (buy at 0.53/0.51 off a $0.55 midpoint) collapses Q_min to the `Q/3` safety-net path because `min(Q_one, Q_two) = 0`, produces zero spread income since there is no opposing side to capture against, and turns every fill directional — the extraction documents this as the exact shape of the failure that produced poly-maker's own "unprofitable" verdict (verbatim README quote UNCONFIRMED — see references/source-ledger.md). Source: Anti-Exemplar, `extractions/prediction-market-trading/market-making-extraction.md` lines 496-507, extracted 2026-04-13.
+- **Pure spread capture with no rewards layer** — the ImMike config ships `mm_enabled: false` with the comment "Disabled for real data (markets too efficient)," verified verbatim at `extractions/prediction-market-trading/raw-sources/polymarket-arbitrage-source.md` line 85 — the bot's own authors turned market making off because a 5-cent `min_spread` plus adverse selection plus $0.02/order gas nets to a loss without the rewards program. Source: Hidden Knowledge 9, `market-making-extraction.md` lines 327-334, 2026-04-13.
+- **Treating HTTP 425 as a crash, not a signal** — "What most bots get wrong" about the Tuesday 7:00 AM ET matching-engine restart is treating the 425 (Too Early) response as a server error instead of pausing, backing off exponentially (1s/2s/4s/8s), and re-quoting from an empty book once 200s resume. Source: Pattern 7, `market-making-extraction.md` lines 88-98, 2026-04-13.
+- **Requoting on every tick** — "Most beginner bots requote on every tick," burning two API calls per cancel-replace and opening a reward-sampling gap; poly-maker's materiality threshold (`price_diff > 0.005 or size_diff > order['size'] * 0.1`) exists specifically to fix this, verified verbatim at `extractions/prediction-market-trading/raw-sources/poly-maker-source.md` lines 220-225. Source: Pattern 15, `market-making-extraction.md` line 208, 2026-04-13.
+- **No stop-loss cooldown, causing a re-entry death spiral** — without a forced sleep period, a bot "stop-losses, immediately re-enters, gets stopped out again, re-enters again"; poly-maker's fix (`params['sleep_period']` hours of forced risk-off) is verified verbatim at `raw-sources/poly-maker-source.md` lines 431-440. Source: Pattern 16, `market-making-extraction.md` lines 210-224, 2026-04-13.
+- **Ignoring the 30% inventory rule** — the strategy analysis states plainly "Inventory caps: never exceed 30% exposure on one side," verified verbatim at `extractions/prediction-market-trading/raw-sources/sovereign-trader-analysis-source.md` line 221 — past that line the bot is not market making, it is a directional bettor with resting orders as decoration. Source: Pattern 9, `market-making-extraction.md` lines 120-128, 2026-04-13.
+- **Skipping position merging** — holding both Yes and No tokens without merging leaves capital locked on-chain (500 Yes + 300 No leaves $300 dead) until the Conditional Tokens contract (`0x4D97DCd97eC945f40cF65F87097ACe5EA0476045`) merges them back to USDC.e; the `amount_to_merge = min(pos_1, pos_2)` / `MIN_MERGE_SIZE` logic is verified verbatim at `raw-sources/poly-maker-source.md` lines 312-321. Source: Pattern 17, `market-making-extraction.md` lines 226-238, 2026-04-13.
 
 ---
 

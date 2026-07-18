@@ -389,3 +389,25 @@ Fee (takers only):   C * feeRate * p * (1-p)
 Max order size:      balance - sum(openOrderSize - filledAmount)
 Drawdown:            (peak_pnl - total_pnl) / peak_pnl
 ```
+
+---
+
+## Output Schema
+
+One **Reward Optimization Tuning Report** per market, matching the Step 7 template above field-for-field:
+1. **Current State** — midpoint, your spread/size on each side, inventory %, competitor count + spreads.
+2. **Q Chain Calculation** — Q_one, Q_two, Q_min, Q_normal, expected daily reward, each shown as a worked formula with actual numbers plugged in, never a bare final percentage.
+3. **Spread Sensitivity** — reward delta and net delta for tighten/widen 0.5c and 1.0c, with a recommended spread and the marginal-reward-vs-marginal-AS reasoning stated in words.
+4. **Size Sensitivity** — reward delta for +/-25% size, with a recommended size and the capital-efficiency-vs-absolute-score reasoning stated in words.
+5. **Balance Analysis** — current Q_one/Q_two ratio, geometric-mean score, and a named rebalancing action if the ratio exceeds 1.5.
+6. **Uptime Analysis** — estimated weekly minutes online out of the 10,080-minute epoch ceiling, with the specific cause of any lost minutes (score events, GTD gaps, heartbeat failure, Tuesday restart, stop-loss sleep).
+7. **Projected Daily P&L** — reward income, spread capture, maker rebates, adverse selection cost, gas, net.
+8. **Tuning Actions** — 2-4 numbered, specific actions (a lever + a number), never a vague directive like "optimize further."
+
+## Quality Gate
+
+1. **The Arithmetic Test** — is every Q_one/Q_two/Q_min/Q_normal number shown as a worked calculation (formula plugged with this market's actual figures), never asserted as a bare percentage?
+2. **The Break-Even Test** — does the report state this market type's break-even spread (Step 4 table) and check the recommended spread against it?
+3. **The Convexity Test** — does the spread sensitivity table reflect the convex reward curve (marginal gain from 2c→1c exceeds the marginal gain from 5c→4c), not a flat linear assumption?
+4. **The Uptime-First Test** — if estimated uptime is below 90%, does the report flag infrastructure fixes as a higher priority than spread tuning, per the poly-maker uptime-destroys-reward lesson (Step 6)?
+5. **The Balance Test** — is the Q_one/Q_two ratio reported, and if it exceeds 1.5, is a specific rebalancing action named rather than implied?

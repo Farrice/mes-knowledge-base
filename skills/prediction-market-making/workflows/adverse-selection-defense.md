@@ -425,3 +425,17 @@ Event detected
         YES --> Execute Tuesday restart protocol
         NO  --> Normal operations continue
 ```
+
+---
+
+## Output Schema
+
+A **Defense Configuration** per market (matching the template above): event-detection sources with latency figures, auto-cancel rules per event type (cancel delay + re-quote spread multiplier + decay window), auto-widen formula parameters, inventory rebalancing thresholds (20/30/40%), resolution-proximity rules, heartbeat/reconnection protocol, kill-switch parameters by risk tier, and an estimated net defense value (adverse-selection dollars saved per day minus reward dollars forgone per day from widening/canceling).
+
+## Quality Gate
+
+1. **The Event-Type Coverage Test** — does every applicable event type for this market's category (score change, injury, period transition, midpoint move, resolution proximity) carry an explicit cancel-delay + re-quote-spread + decay-window triple, not a generic "widen on news" rule?
+2. **The Cancel-Not-Widen Test** — is every event routed correctly — severity-2.0 (major) events to auto-cancel (Layer 2), not auto-widen (Layer 3)?
+3. **The Reward-Continuity Test** — does the config include the smart-cancellation materiality threshold (price_diff > 0.005 OR size_diff > 10%), so the plan avoids the "requote on every tick" failure mode?
+4. **The Net-Value Test** — is defense value quantified as adverse-selection-saved minus reward-lost-to-widening, not asserted as pure upside with no cost side?
+5. **The Kill-Switch Test** — are all 8 risk-validation checks (Layer 7) and the stop-loss sleep period both present, with `auto_unwind_on_breach: false` unless the user explicitly overrode it?

@@ -323,3 +323,20 @@ Fee (takers):      C * feeRate * p * (1-p)    [makers = 0]
 Max order size:    balance - sum(openOrderSize - filledAmount)
 Geometric mean:    (bid_reward * ask_reward) ** 0.5
 ```
+
+---
+
+## Output Schema
+
+A **Market Selection & Deployment Plan** with three parts:
+1. **Market Deployment Config** (Step 6 template) per selected market — condition/token IDs, capital allocation, spread parameters, reward projection, risk parameters, adverse-selection defense, order management.
+2. **Portfolio Summary** (Step 7 template) — risk-manager configuration, a ranked market allocation table (rank, market, capital, spread, GTD, inventory cap, daily reward, risk level), reserve/buffer split, and a 3-scenario projected monthly P&L (conservative/balanced/optimistic Q-share).
+3. **Validation Checklist** (Step 5's 12 items) marked complete or explicitly flagged as outstanding before capital deploys.
+
+## Quality Gate
+
+1. **The Health-Check Test** — did every listed market pass all 5 Step-1 health checks (midpoint range, 24h volume, resolution distance, manipulation list, minimum pool) before appearing in the plan?
+2. **The Competition Test** — is each market's competitor count classified (1-3 / 4-7 / 8-12 / 13+) with the matching expected-Q-share band from Step 2, not a guessed percentage?
+3. **The Concentration Test** — does any single market exceed 30% of total capital? If so, the plan must be rejected and rebalanced before output.
+4. **The Volatility-Gate Test** — is `volatility_sum` (24h+7d+14d) checked against the >=20 exclusion threshold for every candidate market before it reaches the deployment table?
+5. **The Checklist-Complete Test** — are all 12 Validation Checklist items explicitly marked (not left as bare unchecked boxes)?
