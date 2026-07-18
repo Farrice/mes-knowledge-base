@@ -2,7 +2,39 @@
 
 > Load this file before executing any workflow. It contains the full
 > extraction intelligence — patterns, tacit knowledge, and operating
-> principles that make this expert's output actually work.
+> principles that make this expert's output actually work. Grounded in
+> `extractions/omar-eddaoudi/transcript.txt` (luxury branding psychology)
+> and `extractions/omar-eddaoudi/module_2/module_2_transcript.txt`
+> (perception hegemony / LEO). Full provenance: `references/source-ledger.md`.
+
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist. Omar's actual delivery — on
+camera, direct-response marketer register — is declarative and a little cold:
+short imperative sentences, real brand names dropped without hedging ("Take a
+look at Patek Philippe"), and zero apology for the claims. If the output
+stamps "Applying the Veblen Pivot" or "Step 1: Value Inversion" as a labeled
+header, you have failed — Omar never narrates his own framework mid-delivery,
+he just executes it and lets the copy land cold.
+
+Specifically:
+- Do NOT enumerate which pattern (Value Inversion, Controlled Distance,
+  Archetypal Mirroring, Narrative Hegemony) you applied unless the user asked
+  for the diagnostic breakdown. Execute the move; never announce it.
+- Do NOT soften the register. Omar's texture is confident assertion, not
+  consultative hedging — "your competitors are not premium anymore," not
+  "you may want to consider repositioning." Luxury copy that explains itself
+  or sounds helpful has already failed his own Silence Premium test.
+- The test: **would Omar Eddaoudi recognize this as theirs** — the Removal
+  Game (subtracting objections and justification until only price and
+  silence remain) — or would it read like a generic benefits list with the
+  adjectives swapped for classier ones? If it's the second, rebuild: find the
+  one thing being explained that shouldn't be, and cut it.
+- Polish is the tell-class warning here inverts the usual rule: for most
+  experts, polish signals AI generation. For Omar, the FAILURE MODE is
+  warmth — smiling imagery, "relatable" framing, financing language,
+  value-for-money justification. Cold, withholding, declarative is correct;
+  friendly and explanatory is the anti-pattern, not the fix.
 
 ## Genius Patterns
 
@@ -41,18 +73,22 @@
 ### 1. Rolex & Mercedes Gleitze's English Channel Swim
 *   **Exemplar**: In 1927, Rolex fitted its new "Oyster" waterproof watch to Mercedes Gleitze, the first British woman to swim the English Channel. The watch survived the ordeal perfectly. Rolex didn't just *claim* waterproofness; they *demonstrated* it in a high-stakes, public, human achievement. The famous ad stated: "The Rolex Oyster, the world's first waterproof watch, worn by Mercedes Gleitze during her cross-Channel swim."
 *   **What makes this excellent**: This embodies **The Gravedigger’s Detail (The "Sweaty Neck" Principle)** by showing the product enduring the dirt and sweat of greatness. It’s a perfect example of **Archetypal Mirroring** where the product absorbs the qualities of the heroic individual (endurance, pioneering spirit). It also leverages **Social Signal Precedence**—the watch's survival speaks volumes, making it an undeniable symbol of quality and status without needing lengthy explanations.
+*   **Provenance note**: the core event (Rolex/Gleitze/Channel swim) is in Omar's own transcript, retold looser and without the exact ad copy or the 1927 date — see `references/source-ledger.md` row 8 for the VERIFIED/LIKELY split on this exemplar.
 
 ### 2. Hermès Birkin Bag's Waitlist
 *   **Exemplar**: To acquire a Hermès Birkin bag, one typically cannot simply walk into a store and buy it. Customers are often placed on extensive waitlists, sometimes for years, or must cultivate a relationship with a sales associate and make other purchases before being offered a Birkin. The price tag is also exceptionally high, often starting in the tens of thousands.
 *   **What makes this excellent**: This is a masterclass in **Controlled Distance (The Rejection Loop)** and **Friction-Based Access**. The deliberate scarcity and difficulty of acquisition trigger the human pursuit instinct, elevating desire. It perfectly illustrates **The Value Inversion (The Veblen Pivot)**, where the high price, combined with the extreme exclusivity, becomes the primary feature, signaling "Safety from the Masses" and making the bag an ultimate **Social Signal Precedence** item. The "Silence Premium" is implicit: Hermès doesn't need to explain *why* it's desirable; the demand and the process do.
+*   **Provenance note**: not present anywhere in Omar's extraction transcripts — public-record luxury-market fact, not an Omar quote. See ledger row 9 (LIKELY, not source-anchored).
 
 ### 3. Louis Vuitton "Core Values" Campaign
 *   **Exemplar**: Louis Vuitton's "Core Values" campaign featured iconic figures like Mikhail Gorbachev, Catherine Deneuve, and Sean Connery in abstract, often melancholic or contemplative settings, with a single LV bag prominently but subtly placed. The ads carried minimal copy, often just a profound quote from the celebrity, completely unrelated to the bag's features.
 *   **What makes this excellent**: This exemplifies **The "Art vs. Ad" Distinction**—it evokes rather than explains, using abstract visuals and minimal text. It leverages **Controlled Distance** with its cold aesthetics and refusal to "sell." It's a prime example of **Archetypal Mirroring**, associating the product with figures of immense gravitas and achievement, allowing the product to absorb their qualities and solve the deeper problem of **Anonymity** for the aspirational buyer.
+*   **Provenance note**: not present in Omar's extraction transcripts — public-record ad-history fact, not an Omar quote. See ledger row 10 (LIKELY, not source-anchored).
 
 ### Anti-Exemplar: A Luxury Watch Ad Focused on Financing Options
 *   **Exemplar**: An advertisement for a high-end mechanical watch (e.g., a Patek Philippe or A. Lange & Söhne) that prominently features "0% APR Financing Available!" or "Affordable Monthly Payments!" alongside a detailed list of its movement complications and an image of a smiling, "relatable" couple admiring it.
 *   **What makes this mediocre**: This directly violates **The Value Inversion (The Veblen Pivot)** by treating price as a barrier rather than a feature. It undermines **Controlled Distance** with "relatable" imagery and an emphasis on accessibility. The focus on financing signals utility and affordability, completely negating the **Social Signal Precedence** that defines true luxury, and instead positions the product as merely a premium commodity. It fails to address **The Hierarchy of Needs Inversion** where the problem isn't financial access, but anonymity.
+*   **Provenance note**: illustrative hypothetical, not a real campaign — the "e.g." framing marks it as a teaching device Omar's transcript never states. See ledger row 11.
 
 ## Signature Moves
 
@@ -65,6 +101,8 @@
 ## Competence Rarity Architecture (The Earned Exclusivity Layer)
 
 For service businesses where expertise IS the product, manufactured exclusivity (artificial waitlists, cold aesthetics, application gates) feels performative. The prospect senses theater rather than scarcity. This layer addresses how luxury positioning becomes authentically earned when the bottleneck is cognitive, not material.
+
+> **Provenance note**: this layer is a skill-authored extension, not an Omar Eddaoudi statement — built to close a stated gap (his source material covers physical/e-commerce artifacts, not expertise-only businesses). Treat it as a reasoned application of his verified patterns, not a claim about what Omar himself said. See ledger row 13.
 
 - **What This Solves**: The existing frameworks assume a physical artifact with provenance. When applied to expertise-based businesses (consulting, coaching, advisory, content strategy), Controlled Distance can feel like hiding behind process, and Silence Premium can feel like hiding incompetence. This layer makes the exclusivity real.
 - **The Core Mechanism — Diagnostic Transparency**: Instead of removing utility language, demonstrate utility so advanced it becomes its own exclusion mechanism. The provider reveals their exact thinking process on the prospect's specific problem — not a generic framework, but a live diagnosis that exposes what the prospect has been missing. The prospect who cannot follow the reasoning self-selects out. The prospect who can follow it realizes no one else sees this way.
