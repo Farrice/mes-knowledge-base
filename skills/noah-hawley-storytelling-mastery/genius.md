@@ -16,6 +16,8 @@ Specifically:
 
 Hawley's whole game is the **invisible question**: the theme is doing all the work while the audience thinks they're just watching a crime story. Name the machinery out loud and you break it. Opus 4.7 follows instructions literally — that literalism makes the architecture visible and kills the spell. Keep the scaffolding off the page.
 
+**Polish is the tell.** Hawley's own contempt is reserved for "emotionality" — his word for manufactured feeling, the sad music that starts before the sad moment because the room doesn't trust the audience ("*that's not a thing, you realize — it's emotional, right, or it's not, but emotionality is the simulation of emotion*," *How I Write*, 2026). If the output feels workshopped — every rubric dimension dutifully hit, every beat explained, the theme stated instead of felt — that tidiness is emotionality wearing a Hawley costume. His texture is a single clean question held all the way through (the biscuit scene, the soap that finally works), never a tour of technique. If it reads like it's proving it did the pattern, it's simulating Hawley, not writing like him.
+
 ---
 
 ## The Core Paradox: The Original Adapter
@@ -164,16 +166,16 @@ If a workflow's output can't answer 1–3, stop and return to them before produc
 
 ## Anti-Patterns
 
-Run before delivering. Flag and fix any of these.
+Run before delivering. Flag and fix any of these. Each item below carries a direct source anchor (quote + interview date + transcript location) so the pattern is auditable, not paraphrased vocabulary — see `references/source-ledger.md` for the full claim-by-claim verification.
 
-- **Plot-listing as story.** "This happens, then this happens" with no theme underneath. → Return to the Theme Pivot.
-- **Emotionality.** Telling the audience what to feel (sad music before the sad beat; stating the emotion). → Dry-Then-Score; show vulnerability, not the label.
-- **Service creep.** Elements that exist to service a character/asset/franchise rather than the story. → Coherence over Continuity; broom them.
-- **The white-hat-at-noon twist.** A satisfying genre turn that betrays the theme and how reality actually resolves. → Cut it, however clever.
-- **Resolving the ambiguity.** Telling the audience whether to laugh or flinch, whether he's crazy or powered. → Hold the gray zone.
-- **The junkyard dog.** Protecting the work by going to war instead of negotiating. → Playful Power Negotiation: "how do I get what I want while making them think I'm giving them what they want?"
-- **Over-scored, over-explained, over-full.** "A 42-minute show with 38 minutes of music." → Trust the audience; leave space.
-- **Naming the machinery.** Labeling the theme/pattern on the page. → Keep the architecture invisible.
+- **Plot-listing as story.** "This happens, then this happens, then this happens" — a writers' room defaults to "the list-making part of your brain, the outline part of your brain," not the writing part. (Quote source: *How I Write* interview w/ Noah Hawley, 2026 — `extractions/noah-hawley/transcript.txt`, writers'-room opening passage; VERIFIED) → Return to the Theme Pivot.
+- **Emotionality.** "They had this word they would use, emotionality... that's not a thing, you realize — like it's emotional, right, or it's not, but emotionality [is the simulation of emotion]." (Quote source: same interview, 2026 — `extractions/noah-hawley/transcript.txt`, ABC-executives passage; VERIFIED) → Dry-Then-Score; show vulnerability, not the label.
+- **Service creep.** "People tend to have to service these characters so that's why you watch these shows and you're like, 'What is this C story with this romance thing that I don't care about'... it's in there simply because they're like, I don't know what to do with these two actors." (Quote source: same interview, 2026 — `extractions/noah-hawley/transcript.txt`, coherence-over-continuity passage; VERIFIED) → Coherence over Continuity; broom them.
+- **The white-hat-at-noon twist.** "That's a great movie twist if this was a movie... reality doesn't — it rarely does reality end with white hat versus black hat in the town square at noon." (Quote source: same interview, 2026 — `extractions/noah-hawley/transcript.txt`, *Fargo*-twists passage; VERIFIED) → Cut it, however clever.
+- **Resolving the ambiguity.** On *Legion*: "we don't know if he has these powers or if he's crazy... the audience isn't sure either, right? And as he becomes more sure, we become more sure." (Quote source: same interview, 2026 — `extractions/noah-hawley/transcript.txt`, *Legion*-frame passage; VERIFIED) → Hold the gray zone.
+- **The junkyard dog.** "A lot of artists have this instinct that they have to be junkyard dogs and protect their work at all costs, but that's a recipe for disaster." (Quote source: same interview, 2026 — `extractions/noah-hawley/transcript.txt`, negotiation passage; VERIFIED) → Playful Power Negotiation: "how do I get what I want while making them think that I'm giving them what they want?" (same interview, same passage; VERIFIED).
+- **Over-scored, over-explained, over-full.** "You watch a lot of things where it's a 42-minute show with 38 minutes of music cuz they don't trust you to just have your own emotional journey with the story." (Quote source: same interview, 2026 — `extractions/noah-hawley/transcript.txt`, soap-dispenser follow-up passage; VERIFIED) → Trust the audience; leave space.
+- **Naming the machinery.** Labeling the theme/pattern on the page instead of letting it stay invisible. Not a verbatim Hawley line — grounded (not verbatim) in his description of theme as something characters are "part of that conversation, hopefully invisibly to the audience, but for me they're always part of it." (Quote source: same interview, 2026 — `extractions/noah-hawley/transcript.txt`, theme/paranoia passage; VERIFIED as grounding, UNCONFIRMED as an exact "don't name the machinery" quote — this is the extraction's synthesis of the principle, not his phrasing) → Keep the architecture invisible.
 
 ---
 
@@ -184,3 +186,7 @@ Run before delivering. Flag and fix any of these.
 - **Built**: 16 genius patterns, 7 signature moves, 3 exemplars + 1 anti-exemplar, 7-dimension rubric, Decision Framework + Anti-Patterns sections, 20 workflows across 3 tiers (Foundation / Practitioner / Cross-domain).
 - **Positioning**: Showrunner + season-architecture layer above the Roth (scene), Connelly (detail), Wright Thompson (profile), Pressfield (physics), Segura (comedy) cluster. Whitespace spine = theme-first breaking, season-level tonal architecture, writers'-room voice codification, emotional-reconstruction adaptation, the "true story" frame.
 - **Hypotheses to test**: (1) Does theme-first breaking lift serialized content (Parallax) over plot-first outlining? (2) Does the Mirror Setup raise short-form (LinkedIn) engagement vs. straight payoff? Benchmark next cycle.
+
+### 2026-07-18 — Wave 3 Lane 4 repair (heartbeat gate: anti_patterns_sourced, source_ledger)
+- **Fixed**: Anti-Patterns section reformatted with direct quote + date + transcript-location anchors for 7 of 8 items (all re-verified verbatim against `extractions/noah-hawley/transcript.txt`, a single-block 82,156-char file — no internal line numbers, so anchors cite passage names); the 8th ("Naming the machinery") is honestly labeled UNCONFIRMED as an exact quote — it is the extraction's synthesis of a verified but non-identical Hawley line about theme staying invisible to the audience. Added `references/source-ledger.md` with claim-by-claim VERIFIED/LIKELY/UNCONFIRMED labels. Upgraded "How to Use This Skill" with a Hawley-specific polish-is-the-tell warning grounded in his own "emotionality" quote.
+- **Gap named**: No secondary source (published interviews, DGA/WGA panels, published-work verification) was consulted this pass — all anchors trace to the single 2026 transcript already in `extractions/noah-hawley/`. Credits (*Fargo*, *Legion*, *Alien: Earth*, *Before the Fall*, *Anthem*) remain LIKELY (public-record, industry-standard knowledge) rather than VERIFIED against a primary filmography source in this repair.
