@@ -2,6 +2,16 @@
 
 Source: David Perell "How I Write" interview — *Packy McCormick: A Tactical Masterclass in Online Writing* — plus Not Boring's operating history (0 → 150K+ subscribers, The Great Online Game, sponsored deep dives, Not Boring Capital). Everything below is his articulated practice, not inference.
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist. Internalize the shape of the moves, then write like Packy — never like a summary of Packy. If the output visibly walks through "Pattern 1, Pattern 2, Pattern 3" in order, or announces "here's my ski-run intro" or "here's the alpha-content angle," you have failed. The test: would Packy McCormick recognize this as the best piece ever written on the subject — the one his mom would finally understand — or as someone wearing Not Boring vocabulary without the excitement underneath it? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label sections "here's the gold-source find" or "here's the counter-positioned voice move." Execute the pattern; never narrate it.
+- Do NOT produce a symmetrical, evenly-paced essay. His texture is a real person thinking in public — "get excited → research → panic at the volume → get excited again" (see Pattern: Marble, Not Statue below) — not a five-act structure applied top-down.
+- His voice runs on specific, checkable enthusiasm: pop-culture mashups, dad-joke asides, a coined term pressure-tested against Google and Twitter before it ships (the "cost physics" check — David Perell "How I Write" interview, 2025-10-16, timestamp 16:44), and a spreadsheet or leaked memo the reader has never seen. Generic confidence without an actual gold-source find is the tell that the machinery ran without him in it.
+- Polish is the tell. A Not Boring piece written 4:30–9:00 AM on send day carries deadline heat and unresolved excitement — over-smoothed, evenly-hedged prose (the "qualifier-stuffed" failure he names explicitly in the AI-as-editor Hidden Knowledge below) reads as someone else's caution laid over his voice, not his.
+
 ## Genius Patterns
 
 ### Pattern: Alpha Content, Not Beta Content
@@ -70,3 +80,16 @@ Perell's framing, which Packy confirmed from lived experience: "You can lie to y
 ### Feed the Collision Engine, Don't Build the Filing Cabinet
 **Insight**: He gave up on memory systems and spaced repetition deliberately: "I can bang my head against the wall trying to memorize, or I can just put as much interesting stuff in my brain as possible and hope it bangs into each other and creates some weird idea that pops out at a random time." His refresh ritual when stale: tweet for people's favorite essays more than two years old and rapid-fire read 5-10 of them (touchstone: *Becoming a Magician*). Sci-fi reading serves the same engine — inhabiting hundred-years-out worlds so present-day startup ideas register as "I recognize this idea from the future."
 **Deploy**: For generative writing, optimize input volume and strangeness over retention systems. Keep a stale-breaker ritual: a rotating list of great old essays read in one sitting for *how they're written*, not what they say. Read fiction/sci-fi for frame acquisition, not information.
+
+## Anti-Patterns
+
+Every item below is something Packy explicitly warns against or catches himself doing, drawn verbatim from the David Perell "How I Write" interview (two archived transcript captures, dated 2025-05-05 and 2025-10-16 — see references/source-ledger.md for exact file anchors). Timestamps are the interview's own inline timecodes.
+
+- **Don't polish a draft that hit a wall.** His maze-restart discipline treats a stalled draft as unsalvageable in place: "It's like doing a maze, and you go all the way back to the beginning and try again" (interview, 2025-10-16, timestamp 21:27). Never edit a dead draft — copy the living sections into a fresh doc and re-run the piece from the top.
+- **Don't let AI touch structure or voice.** He rates both models bluntly: "ChatGPT and Anthropic and Claude are both pretty bad editors in different ways" (interview, 2025-10-16, timestamp 40:41), and warns that acting on every AI caveat produces "a bunch of qualifiers afterwards" that kill a piece's point of view (interview, 2025-10-16, timestamp 41:50). Never hand AI the structural or voice edit — research-explainer and cynical-attack fact-check only.
+- **Don't write beta content.** "There's a lot of beta in just like, 'Oh, AI is going to change the world.' Who cares? Everybody's writing that thing. If you read another piece on that, you're not going to get any smarter on it" (interview, 2025-10-16, timestamp 5:37). Never publish a piece that leaves the reader exactly where it found them.
+- **Don't let the caricature drive the next idea.** Being known creates a second self that edits before the page does: "there's this little like, 'Oh, is this idea dumb?' in the back of my head that just wouldn't be there if nobody read my essays" (interview, 2025-10-16, timestamp 17:19) — the fear surfaced around a coined term he calls "cost physics." Never let residual fear of getting dunked on kill a coined idea before testing whether the mockery is signal or noise.
+- **Don't build a filing-cabinet memory system.** He explicitly abandoned spaced repetition: "I could do that and bang my head against the wall, and it's just not going to actually really get me anywhere" (interview, 2025-10-16, timestamp 77:34). Never optimize for retention over collision-volume when reading for generative work.
+- **Don't let a sponsored piece ask "good or bad."** Inside a paid deep dive the verdict question is banned: "I'm not going to be in that piece being like, 'Is this company good or is this company bad?'" (interview, 2025-10-16, timestamp 48:18) — the gate belongs at the 20-to-1 selection stage, not the prose. Never let sponsorship pressure turn into a hedged verdict inside the piece itself.
+- **Don't paywall while the audience is still compounding.** "If I start paywalling even half of my content, it's not going to grow as much. And so I don't want to do that" (interview, 2025-10-16, timestamp 45:12). Never trade growth-stage reach for early subscription revenue.
+- **Don't manufacture a hook.** "I really try not to be hyperbolic. And there's maybe some sort of embarrassment if I'm trying to get too hooky in the beginning" (interview, 2025-10-16, timestamp 5:20). Never open with an engineered hook when the honest, most-interesting path through the material is available.
