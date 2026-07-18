@@ -6,6 +6,18 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These 12 patterns are intuition primitives, not a checklist to stamp in order. Absorb the Lifestyle Intersection Method and the Anti-Billboard Principle until they're reflexes, then build the specific format from the specific agent in front of you. If the output reads like "Pattern 1 applied, Pattern 3 applied, Pattern 4 applied" — labeled sections, enumerated pillars, a marketing-deck cadence — you have failed. The test: **would Enrico Incarnati recognize this as his own coaching voice talking through a real agent's Instagram** — or would it read like a generic "5 social media tips for realtors" listicle wearing his terminology? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce the machinery. Never write "Now applying the Lifestyle Intersection Method" or "Per the Three-Function Test." Run the test silently; deliver the format.
+- Do NOT let the Content Expansion Pack become five generic templates. Enrico's genius is that a "boring topic" gets remixed with a REAL detail from the transcript's own examples (the agent walking through with a putter, testing carpet for "putting friendliness," Freddy crunching real numbers on camera) — not "insert relevant math here." Generic filler where a golf putter or a specific headline should be is the tell.
+- His delivery is direct-to-camera coach energy — confident, a little blunt ("Let's be honest, nobody's reading that"), never corporate. If the output sounds like a social media agency's slide deck ("Leverage synergistic content pillars to drive engagement"), that's the failure mode. Enrico says "you are that boring professor" — not "your content lacks dynamism."
+- Specificity over category. "Talk about local businesses" is the boring-professor version. "Interview the owner of the best pizza spot, ask what a new resident should order first" is the Incarnati version. Every pattern needs a name, a place, a number, or a line of dialogue — not a category label.
+
+---
+
 ## The Incarnati Operating System
 
 Enrico Incarnati teaches a single thesis: **real estate agents who treat Instagram like a broadcast channel lose. Agents who treat Instagram like a show win.** The difference is not talent or budget — it's architecture. Every piece of his methodology is built on the premise that agents already have the raw material (listings, market knowledge, local expertise) but package it in formats that nobody cares about.
@@ -149,14 +161,31 @@ The sequence matters: Profile first (Digital Curb Appeal), then content strategy
 
 ## Anti-Patterns (What to Avoid)
 
+Each anti-pattern below is anchored to the source transcript — quote, section, and confidence label. Source: `extractions/enrico-incarnati/transcript.txt` (18,909 bytes, full read), YouTube — "5 Mistakes Costing Real Estate Agents Leads," Enrico Incarnati channel, 2026.
+
 1. **The Billboard** — Static photo + price + caption novel. Nobody reads it.
+   > "The first is what I call the billboard, which is you post a static photo of the house with a price and you write a novel in the caption. Let's be honest, nobody's reading that." — Mistake #1 section, transcript.txt. **VERIFIED** (verbatim quote confirmed in source file).
+
 2. **The Dump** — 10-photo carousel of professional shots with no narrative.
+   > "Number two is what I call the dump, which is a carousel of 10 professionally shot photos of the home that I know cost you thousands of dollars to have done for you, but the problem is no one is remotely even interested in engaging with your post." — Mistake #1 section, transcript.txt. **VERIFIED** (verbatim quote confirmed in source file).
+
 3. **The Lazy Reel** — Static photo + trending audio. Not a video.
+   > "And number three is the lazy reel where you take the same static photo that you posted and you slap a trending audio on it and you call it a video. Let me be honest with you, it's lazy." — Mistake #1 section, transcript.txt. **VERIFIED** (verbatim quote confirmed in source file).
+
 4. **The Boring Professor** — Sitting in front of camera reciting interest rate facts.
+   > "You are treating Instagram like you are giving a lecture and you are the boring professor... if you just sit in front of the camera and you just recite facts, I hate to break it to you. You are that boring professor." — Mistake #2 section, transcript.txt. **VERIFIED** (verbatim quote confirmed in source file).
+
 5. **The Generic Profile** — Unclear bio, generic brokerage link, no pin post strategy.
+   > "If someone is clicking on your name and your profile looks either messy or confusing, they're out. You literally just lost the lead." — Mistake #4 (profile) section, transcript.txt. **VERIFIED** (verbatim quote confirmed in source file).
+
 6. **"Link in Bio"** — Kills engagement. Use keyword comment triggers instead.
+   > "Please stop telling people to click the link in your bio. It is killing your engagement." — Mistake #4 (profile) section, transcript.txt. **VERIFIED** (verbatim quote confirmed in source file).
+
 7. **The Spec Sheet** — Listing content focused on features instead of lifestyle/feeling.
+   > "He wasn't just selling a home. He was selling a lifestyle and he was showing his personality while doing it." — golf-format anecdote, transcript.txt. **LIKELY** — this is the inverse case Enrico uses to teach the principle; the transcript never names a "spec sheet" anti-pattern verbatim, so the label is a synthesis from his stated contrast, not a direct quote. Flagged LIKELY rather than VERIFIED for that reason.
+
 8. **The One-Format Trap** — Only posting one type of content (talking heads OR listings, never both).
+   > "The problem most agents face is they only post one type of content. And usually, it's talking head tips or its property listings like we just talked about." — Mistake #2 section, transcript.txt. **VERIFIED** (verbatim quote confirmed in source file).
 
 ---
 

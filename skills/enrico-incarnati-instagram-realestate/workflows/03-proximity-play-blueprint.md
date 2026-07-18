@@ -236,6 +236,34 @@ Produce a conversation artifact containing:
 
 ---
 
+## Output Schema
+
+The final deliverable is a single artifact with these required fields:
+
+```
+- market_intelligence: { city, population, median_price, demographics, major_employers, new_developments,
+  schools, notable_features, competitors } — researched, not invented; UNCONFIRMED-label any figure not
+  found via live search
+- five_content_pillars: Business Spotlights, News & Development, Neighborhood Lifestyle, Community
+  Interviews, "What's Coming" — each with a specific first-run example (real business name, real
+  development, not a placeholder category)
+- monthly_calendar: 4-week grid mapping pillars to specific days
+- partnership_targets: 10 named local businesses with an outreach angle each
+- property_value_bridges: one per content idea, following the Bridge Formula (local fact + property-value implication)
+- hashtag_set: 15-20 hyperlocal hashtags
+```
+
+## Quality Gate
+
+Before delivering, verify:
+1. **This is "mayor of the city," not "agent who mentions the city."** Per source: "Stop just being an agent. Start being the almost mayor of your city." If every pillar could be produced without ever leaving the listing photos, it failed — Pillars 1, 2, and 4 require actual local sourcing (a business name, a real headline, a resident's actual answer).
+2. **Every Bridge Formula connection is causally real, not decorative.** "New coffee shop opens → homes sell faster" needs a stated mechanism (walkability, foot traffic, comps), not just juxtaposition.
+3. **News & Development pillar borrows authority correctly** (Pattern 10) — reacting to a real, findable headline, not a vague "rates are changing" statement.
+4. **UNCONFIRMED labeling is honest.** Market intelligence fields not verified via live research this session must say so — inventing a median home price or population figure to fill the template is a hard fail.
+5. **Recognition check**: would Enrico Incarnati recognize this as "the local news source" positioning he describes (citing Nava Realy's mall-demolition coverage, Your New Texas Home's Goldman Sachs scoop) — or does it read as generic "post about your city sometimes" advice?
+
+---
+
 ## Stacking Chains
 
 - **Compound with Nathan Gotch** → SEO + local Instagram = discovered on Google AND Instagram for "[City] real estate"

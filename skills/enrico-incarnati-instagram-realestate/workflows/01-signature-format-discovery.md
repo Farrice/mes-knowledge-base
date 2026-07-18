@@ -167,6 +167,32 @@ Produce the final output as a conversation artifact containing:
 
 ---
 
+## Output Schema
+
+The final deliverable is a single artifact with these required fields — do not ship if any are placeholder text:
+
+```
+- agent_profile: { name, handle, market, brokerage, niche, experience_level }
+- identity_inputs: [3-5 real interests/passions — NOT generic ("travel", "food") but specific ("competitive golf", "raising show dogs")]
+- lifestyle_intersection_matrix: table of agent_interest × buyer_interest × overlap(Y/N) × format_idea, 3-5 rows
+- format_candidates: 3-5, each scored (repeatability 1-10, entertainment 1-10, lead_qualification 1-10)
+- three_function_test_results: one PASS/FAIL/NEEDS-REFINEMENT block per candidate, all three sub-checks reasoned (not just checked)
+- winning_format_blueprint: { name, tagline, concept, episode_template (open/hook/body/payoff/cta), production_notes }
+- first_5_episodes: table of listing/topic × angle × hook_line — hook lines must be exact spoken lines, not descriptions
+- competitive_differentiation: what's already being done in this specific market
+```
+
+## Quality Gate
+
+Before delivering, verify:
+1. **The winning format traces to a REAL identity input**, not a generic real-estate content category. If you can swap the agent's name for any other agent's and the format still makes sense, it failed the Lifestyle Intersection Method (Pattern 1) — rebuild from Step 1.
+2. **Three-Function Test is reasoned, not rubber-stamped.** Each of the three checks (brings new eyes / qualifies leads / attractive character) needs a specific "why," not a checkmark. A format that only satisfies one function is incomplete per Pattern 9.
+3. **No anti-pattern collision.** Confirm the winning format is not a disguised Billboard, Dump, or Lazy Reel (genius.md Anti-Patterns 1-3) — e.g., "walk through the house while sharing a fun fact" is still a Lazy Reel with extra narration unless it has a repeatable structural gimmick.
+4. **Hook lines are spoken lines, not descriptions.** "Hook: introduces the property in an exciting way" fails; "Hook: 'This bathroom doesn't have anywhere to hide'" (Lisa Dubois's actual line) passes.
+5. **Recognition check**: would Enrico Incarnati recognize this format as an original built on HIS method — or does it read like a stock "5 reel ideas for realtors" listicle with his terminology bolted on? If the latter, the identity-input step (Step 1) was skipped or generalized.
+
+---
+
 ## Stacking Chains
 
 - **After `/enrico-format`** → Run `/enrico-curb-appeal` to optimize the profile for the new format

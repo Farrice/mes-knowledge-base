@@ -193,6 +193,33 @@ Produce a conversation artifact containing:
 
 ---
 
+## Output Schema
+
+The final deliverable is a single artifact with these required fields:
+
+```
+- agent_data: handle, follower/following/post counts, bio text (verbatim), link destination, pin posts,
+  last reel, story frequency, content types, engagement rate
+- seven_dimension_scorecard: SEO Name, Bio, Link Store, Content Strategy, Local Authority, Lead Capture,
+  Stories — each 1-10 with current/issue/fix, plus total /70 and letter grade
+- transformation_roadmap: 5 weeks, each with checkbox action items and a stated priority rationale
+- before_after_projection: current vs. 90-day projected score, leads/month, local authority status,
+  email list size, revenue impact math shown (not just a final number)
+- recommended_sequence: which /enrico-* workflow to run next, in order
+- quick_wins: actions completable in ≤10 minutes each
+```
+
+## Quality Gate
+
+Before delivering, verify:
+1. **Every score has a stated issue, not just a number.** "Bio: 5/10" with no explanation fails — the audit's value is diagnostic specificity, matching the depth of the reference @_jiing audit (which named the exact missing elements: no value prop, no social proof, bottom-of-funnel-only CTA).
+2. **Fixes are actionable, not vague.** "Improve your bio" fails; 3 concrete bio rewrites (as the reference audit produced) passes.
+3. **Revenue impact math is shown, not asserted.** "$120K annual impact" without the underlying deals × commission × quarters calculation is a fail — the reader must be able to check the arithmetic.
+4. **The roadmap sequences Digital Curb Appeal before content strategy**, matching the source principle that profile conversion must be fixed first ("you could have the best proximity play content... but if someone is clicking on your name and your profile looks messy... they're out").
+5. **Recognition check**: would Enrico Incarnati recognize this as "the diagnostic tool that sells the service" — specific enough to make the gap undeniable — or does it read as generic profile-optimization advice with a real estate label?
+
+---
+
 ## Stacking Chains
 
 - **This is the SALES TOOL** → Run this for any prospect agent, pitch the transformation plan

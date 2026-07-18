@@ -244,6 +244,34 @@ Produce a conversation artifact containing:
 
 ---
 
+## Output Schema
+
+The final deliverable is a single artifact with these required fields:
+
+```
+- current_state_audit: 7 dimensions scored 1-10 (SEO name, bio, link, pin posts, stories, highlights, grid) + total /70
+- seo_name_redesign: current vs. recommended, format [Name] | [City] Real Estate Agent, plus the
+  Instagram-search test result (does "[City] Realtor" surface this name?)
+- bio_options: exactly 3, following the 4-line architecture (hook/value-prop/proof-or-niche/CTA)
+- link_store_architecture: ordered list, lead magnet link FIRST, never a generic brokerage homepage
+- pin_post_strategy: exactly 3 (Market Update / Client Success / Lead Magnet), each with CTA + ManyChat trigger
+- stories_framework: daily 70/30 professional/personal mix + full Friday Night Strategy script (3 stories, verbatim)
+- highlights_plan: named, ordered, with icon/cover direction
+- before_after_comparison: what changes, why, ranked by conversion impact
+- implementation_checklist: priority-ordered
+```
+
+## Quality Gate
+
+Before delivering, verify:
+1. **No "link in bio" survives anywhere in the deliverable.** Anti-Pattern 6 is a hard fail — replace with a Stan Store/link-store architecture or a ManyChat keyword trigger, per source: "please stop telling people to click the link in your bio. It is killing your engagement."
+2. **SEO name passes the search test.** The recommended name must follow Name + City + Real Estate Agent exactly as taught ("Stop being cute with your name... Make it searchable") — a clever tagline instead of a searchable name is a fail.
+3. **Pin posts function as billboards, not favorites.** Per source, the three pins solve three specific problems (market authority, social proof, lead capture) — three "best-performing reels" pinned instead is a fail, even if engagement was high.
+4. **Friday Night Strategy script is copy-paste ready**, three sequential story beats with the exact keyword-reply mechanic ("Reply 'checklist' and I'll send you my cheat sheet") — a paraphrase or summary instead of the verbatim script is incomplete.
+5. **Recognition check**: would Enrico Incarnati recognize this as "digital curb appeal" — profile as the conversion layer, sequenced BEFORE content strategy — or does it read like a generic Instagram-bio-writing checklist that happens to mention real estate?
+
+---
+
 ## Stacking Chains
 
 - **Run FIRST** before any content strategy — the profile must convert before driving traffic to it

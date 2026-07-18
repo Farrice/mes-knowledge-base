@@ -193,6 +193,30 @@ Produce a conversation artifact containing:
 
 ---
 
+## Output Schema
+
+The final deliverable is a single artifact with these required fields:
+
+```
+- weekly_stories_calendar: 7 days, 3 stories/day minimum, each story's exact copy or shot description
+- friday_night_strategy_script: verbatim 3-story sequence + ManyChat auto-DM copy — never summarized
+- event_sequences: 4 (Open House Day, Closing Day, Rate Change, New Listing), each fully scripted
+- interactive_templates: poll / emoji-slider / question-box / quiz / this-or-that, ready to paste
+- analytics_framework: 6 tracked metrics with stated benchmarks
+- swipe_file: 30 story ideas
+```
+
+## Quality Gate
+
+Before delivering, verify:
+1. **The Reels-vs-Stories distinction is structurally honored.** Per source: "If reels are how you get discovered, your stories are how you get hired." Stories content must show personality/process/trust-building — a calendar that just reposts Reel content as Stories fails this check.
+2. **Friday Night Strategy is verbatim, not paraphrased.** The 3-story sequence must match the source mechanic exactly: timed post → "don't put in an offer until you check these things" → reply keyword → cheat sheet. A generic "post a story reminding people about open houses" version is incomplete.
+3. **70/30 professional/personal ratio is actually represented** in the 7-day calendar, not just stated as a rule and ignored in the content.
+4. **Every business/location tag opportunity is called out explicitly** — per source, tagging drives reshares and algorithmic reach; a calendar with zero tagged locations/businesses misses this mechanic.
+5. **Recognition check**: would Enrico Incarnati recognize this as the trust-building "hiring" layer distinct from Reels — or does it read like a generic "post stories daily" content calendar with real estate flavor text?
+
+---
+
 ## Stacking Chains
 
 - **Compound with `/enrico-curb-appeal`** → Ensure profile is optimized before driving story traffic

@@ -182,6 +182,31 @@ Produce a conversation artifact containing:
 
 ---
 
+## Output Schema
+
+The final deliverable is a single artifact with these required fields:
+
+```
+- listing_profile: { address_area, price, specs, top_features, target_buyer, neighborhood_vibe, unique_angle, signature_format }
+- anti_billboard_audit: explicit YES/NO on Billboard / Dump / Lazy Reel collision
+- lifestyle_translation_table: minimum 5 rows, spec → feeling (each feeling names an actual moment, not an adjective)
+- four_content_scripts: Signature Format Application, Lifestyle Reel, Digital Clipboard (Listing Edition),
+  Neighborhood Context Piece — each a full script (hook/scenes/voiceover/CTA), not an outline
+- posting_schedule: 5-day sequence with stated reason for each day's placement
+- manychat_config: keyword + auto-DM template specific to THIS listing
+```
+
+## Quality Gate
+
+Before delivering, verify:
+1. **Lifestyle translation names a moment, not an adjective.** "Pool → great for entertaining" fails; "Pool → July 4th BBQs, teaching your kids to swim, 6 PM wine floats after a long day" (the source's own example) is the bar. Per the core principle: "If a buyer can't picture themselves getting coffee down the street or walking their kids to the local school, they aren't going to buy the home."
+2. **The Anti-Billboard Audit is honest, not a formality.** If the described content plan is "post a listing photo with price and specs in caption," it must be flagged YES on Billboard and the deliverable must show the corrected version — not silently skip past it.
+3. **Signature Format Application is agent-specific, not generic.** This piece must reuse the actual format discovered in `/enrico-format` for this agent (e.g., the golf-putter walkthrough) — if no format exists yet, the deliverable must say so explicitly rather than inventing a placeholder.
+4. **Digital Clipboard checklist items are buyer-specific to this listing**, not the generic "12 things to check" template reused verbatim — HOA fee, school rating, and mortgage estimate should reflect this property's actual numbers where given.
+5. **Recognition check**: would Enrico Incarnati recognize this as "selling the lifestyle around the home," per his stated principle — or does it read as a standard MLS listing dressed up with a video script?
+
+---
+
 ## Stacking Chains
 
 - **Requires**: `/enrico-format` completed first (need the signature format)

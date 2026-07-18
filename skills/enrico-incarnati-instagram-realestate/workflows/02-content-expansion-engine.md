@@ -233,6 +233,31 @@ Produce a conversation artifact containing:
 
 ---
 
+## Output Schema
+
+The final deliverable is a single artifact with these required fields:
+
+```
+- topic_analysis: { topic, standard_approach, why_boring, awareness_level, pain_addressed }
+- five_format_scripts: exactly 5, one per format (Visual Math, Green Screen Reaction, This vs. That Bracket,
+  S-Tier Ranking, Digital Clipboard) — each a FULL SCRIPT (hook line + beat-by-beat body + payoff + CTA),
+  never an outline or bullet summary
+- content_week_map: 5 formats assigned Mon-Fri with a stated reason for the sequence (not arbitrary order)
+- lead_magnet_spec: PDF spec derived from the Digital Clipboard format (title, pages, ManyChat trigger word, auto-DM copy)
+- thumbnail_suggestions: one per format
+```
+
+## Quality Gate
+
+Before delivering, verify:
+1. **Every format is a script, not a summary.** "Format 3: compare two loan types and pick a winner" fails — it must be actual round-by-round dialogue with a stated winner and reasoning, matching the depth of the transcript's own S-Tier example (kitchens = S tier, swimming pool = C tier, with a reason for each).
+2. **The Digital Clipboard checklist items are non-obvious.** Per source: "list things that other people wouldn't really think of" (e.g., water pressure, not "check the price"). Generic items (obviously already known) fail this check.
+3. **No format is secretly a Boring Professor.** Green Screen Reaction and Visual Math both risk becoming a lecture with a prop; the script must borrow authority from a specific headline/number, not just restate facts (Pattern 10, Authority Borrowing).
+4. **Every CTA is a keyword trigger, never "link in bio."** Anti-Pattern 6 is a hard fail if it appears anywhere in the deliverable.
+5. **Recognition check**: would Enrico Incarnati recognize the 5 scripts as five DIFFERENT engagement mechanics (math reveal / borrowed authority / bracket debate / ranked hot-take / save-magnet checklist) — or do two of them collapse into the same "talk about the topic on camera" format wearing different labels?
+
+---
+
 ## Stacking Chains
 
 - **Before `/enrico-expand`** → Run `/enrico-format` to ensure the signature format is integrated

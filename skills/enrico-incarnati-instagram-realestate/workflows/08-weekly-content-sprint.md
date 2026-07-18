@@ -318,6 +318,33 @@ Produce a conversation artifact containing:
 
 ---
 
+## Output Schema
+
+The final deliverable is a single artifact with these required fields:
+
+```
+- conversion_target: { action, who, current_state, target_state, belief_gap } (Phase 0a)
+- demand_chain: 5 posts (Pattern Interrupt → Authority Proof → Local Evidence → The Reveal → Conversion
+  Catalyst), each with viewer_state_after + demand_created_for_next
+- weekly_calendar: visual table, day × reel/post × stories × category × sequence_role
+- five_reel_scripts: full scripts with sequence role, thread element (callback to prior post), hook, CTA, post time
+- daily_stories_plan: including 2 explicit bridge stories (Tue, Sat)
+- batch_filming_schedule: logistics per reel + sequence check step
+- lead_magnet_deployment: keyword → PDF map per reel + sequence-aware lead scoring rule
+- metrics_to_track: including multi-post engagement signal
+```
+
+## Quality Gate
+
+Before delivering, verify:
+1. **The demand chain actually chains.** Each post's "demand created for next" must be a specific, answerable-only-by-the-next-post hook — not a generic "stay tuned." If Post 2 doesn't reference Post 1's open loop, the sequencing layer (this workflow's core differentiator) has failed.
+2. **Thread elements are subtle, per the workflow's own rule**: "a sentence or visual reference, not 'as I said in my last post.'" An explicit callback like that phrase is a fail.
+3. **Format assignment serves the sequence role, not vice versa.** Reel 3 (Local Evidence) should use a Proximity Play format because that's what proves local knowledge — assigning formats arbitrarily and retrofitting a sequence role is backwards per Step 2's stated design principle.
+4. **Every format used still obeys its own source pattern** (Digital Clipboard is still the highest-save format, Green Screen still borrows real headline authority) — sequencing is additive, never a replacement for the underlying pattern discipline.
+5. **Recognition check**: would Enrico Incarnati recognize the five reels as a single coherent week that BUILDS — or as five unrelated pieces of content that happen to share a posting calendar?
+
+---
+
 ## Stacking Chains
 
 - **Requires**: `/enrico-format` (need signature format established)

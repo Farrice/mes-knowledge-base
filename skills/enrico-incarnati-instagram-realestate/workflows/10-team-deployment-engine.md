@@ -259,6 +259,34 @@ Produce a conversation artifact containing:
 
 ---
 
+## Output Schema
+
+The final deliverable is a single artifact with these required fields:
+
+```
+- team_profile: name, lead, agent count, markets, current IG presence, tech stack, budget
+- team_scorecard: every agent audited on the 7 dimensions + team average (from workflow 09, batch-run)
+- shared_asset_library: 5 categories (lead magnets, ManyChat templates, link store structure, content
+  templates, hashtag library), each with concrete named items, not category placeholders
+- per_agent_onboarding: 4-week sequence per agent, referencing the specific /enrico-* workflow to run each day
+- weekly_team_workflow: day-by-day operating rhythm (team lead vs. individual agent responsibilities)
+- performance_dashboard: monthly metrics table (reels, stories, keyword comments, DMs, emails, leads,
+  deals, revenue) per agent + team total
+- equity_union_pitch: problem/proof/offer structure with real @_jiing data as Case Study #1
+- pricing_model: 3 options with tradeoffs stated
+```
+
+## Quality Gate
+
+Before delivering, verify:
+1. **The pitch's "proof" section uses real audit data, not invented numbers.** If @_jiing's actual audit hasn't been run yet, the pitch must say "pending pilot data" rather than fabricate a before/after score — a placeholder like "[X]/70 → [Y]/70" left unfilled in a client-facing deliverable is a hard fail.
+2. **Shared assets are concrete, not category labels.** "Lead magnet suite" with no titles fails; "'[City] First-Time Buyer Checklist' — [Team Name] branded" (as scaffolded in Step 3) passes.
+3. **Per-agent onboarding respects the sequencing rule from `/enrico-curb-appeal`**: profile fix (Week 1) before signature format (Week 1-2) before lead engine (Week 3) before proximity (Week 4) — reordering this without justification is a fail.
+4. **The pricing model states real tradeoffs**, not just three option labels — per-agent retainer vs. flat team fee vs. revenue share each need a stated pro/con for a brokerage this size.
+5. **Recognition check**: would Enrico Incarnati recognize this as HIS system scaled to a team — the same signature-format-per-agent, proximity-play, ManyChat architecture, just multiplied — or does it read like a generic "social media agency package" that could apply to any industry?
+
+---
+
 ## Stacking Chains
 
 - **After running `/enrico-audit` on @_jiing** → Use her as Case Study #1 for the pitch

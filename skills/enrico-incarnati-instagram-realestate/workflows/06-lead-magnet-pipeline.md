@@ -185,6 +185,32 @@ Produce a conversation artifact containing:
 
 ---
 
+## Output Schema
+
+The final deliverable is a single artifact with these required fields:
+
+```
+- lead_magnet_suite: exactly 5 (Checklist, Guide, Calculator, Insider List, Relocation Kit), each with
+  title, keyword_trigger, format, content_summary, buyer_awareness_stage
+- manychat_flows: one full flow per magnet — trigger, auto-DM copy, response routing (A/B/C branches),
+  email capture step, tag/segment step, 24h follow-up copy
+- content_to_magnet_map: every content format from the expansion pack mapped to its matching magnet
+- cta_library: 10+ keyword-trigger alternatives, zero "link in bio" instances
+- email_sequences: 3 (Hot/Warm/Future), each with day-by-day touchpoints
+- metrics_to_track: keyword volume, DM conversion rate, email capture rate
+```
+
+## Quality Gate
+
+Before delivering, verify:
+1. **Zero "link in bio" instances anywhere.** Anti-Pattern 6 — every CTA in the suite must be a keyword-comment trigger per source: "Instead what you should use is Many Chat where you tell them to comment a keyword on your post and then you DM them the checklist."
+2. **Each ManyChat flow captures email, not just delivers the PDF.** Per source, the point is "building an asset that you finally own" — a flow that DMs the resource and stops (no email ask, no tag/segment) is incomplete.
+3. **Response routing is branched, not linear.** The A/B/C ("ready to go" / "just exploring" / "planning for the future") routing must produce genuinely different next messages — identical follow-up text across branches is a fail.
+4. **Magnet-to-format mapping is causally sound.** Digital Clipboard → Checklist and Visual Math → Calculator make sense because the content format and magnet share a mechanic; an arbitrary or unexplained pairing is a fail.
+5. **Recognition check**: would Enrico Incarnati recognize this as the full ManyChat lead engine he describes — comment keyword → auto-DM → qualifying question → email capture → segmented follow-up — or does it stop at "send them a PDF"?
+
+---
+
 ## Stacking Chains
 
 - **Compound with Stockton Walbeck** → Apply the 5-Rule scoring system to each lead magnet
