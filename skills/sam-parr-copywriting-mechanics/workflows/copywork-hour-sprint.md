@@ -27,7 +27,7 @@ The writer needs better instincts for a format before drafting or revising.
 5. Rewrite the current asset using only those rules.
 6. Write a texture note: what became visible only through copying.
 
-## Output
+## Output Schema
 
 ```markdown
 ## Copywork Hour Sprint

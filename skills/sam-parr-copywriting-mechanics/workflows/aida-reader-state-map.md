@@ -21,7 +21,7 @@ The copy has pieces that sound good, but the reader does not move from attention
 5. Rewrite the smallest section needed.
 6. State the behavior delta.
 
-## Output
+## Output Schema
 
 ```markdown
 ## AIDA Reader-State Map

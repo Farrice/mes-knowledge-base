@@ -23,7 +23,7 @@ A fact is true but abstract, so the reader understands it without feeling it.
 5. Insert it near the claim.
 6. State the evidence limit.
 
-## Output
+## Output Schema
 
 ```markdown
 ## Visual Proof Translation

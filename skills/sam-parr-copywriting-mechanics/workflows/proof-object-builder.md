@@ -28,7 +28,7 @@ The copy makes claims without evidence close enough to create belief.
 5. Rewrite the claim around the proof.
 6. Name remaining proof gaps.
 
-## Output
+## Output Schema
 
 ```markdown
 ## Proof Object Builder

@@ -26,7 +26,7 @@ The first line is a label, topic, summary, or polite setup.
 4. Select the opener with the best mix of clarity, pull, proof support, and voice fit.
 5. Show why the chosen opener beats the original.
 
-## Output
+## Output Schema
 
 ```markdown
 ## Headline Gravity Lab

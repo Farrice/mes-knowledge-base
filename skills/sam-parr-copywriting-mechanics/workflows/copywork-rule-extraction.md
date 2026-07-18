@@ -19,7 +19,7 @@ The writer needs repeatable instincts for a format, not another framework list.
 4. Rewrite the current asset using only those rules.
 5. Write one texture note: what became visible through copying.
 
-## Output
+## Output Schema
 
 ```markdown
 ## Copywork Rule Extraction

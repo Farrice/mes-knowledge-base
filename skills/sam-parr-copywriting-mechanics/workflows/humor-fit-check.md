@@ -21,7 +21,7 @@ The draft may benefit from humor, warmth, or personality, but trust could suffer
 5. Rewrite for warmth or personality if a joke is too risky.
 6. Keep humor away from unsupported claims.
 
-## Output
+## Output Schema
 
 ```markdown
 ## Humor Fit Check

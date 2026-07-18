@@ -21,7 +21,7 @@ The reader has a predictable doubt that the copy does not handle naturally.
 5. Remove over-explaining.
 6. State the objection pressure before and after.
 
-## Output
+## Output Schema
 
 ```markdown
 ## Objection By Detail Pass

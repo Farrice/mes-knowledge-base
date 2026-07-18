@@ -25,7 +25,7 @@ An ad, post, email, landing section, or offer intro is generic, benefit-first, u
 7. State the proof object or proof gap.
 8. Send public or revenue copy to `/publishable-copy-gate`.
 
-## Output
+## Output Schema
 
 ```markdown
 ## Weak Ad Rescue

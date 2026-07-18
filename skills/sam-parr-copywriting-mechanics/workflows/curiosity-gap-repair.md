@@ -20,7 +20,7 @@ The reader has no reason to continue, or the existing open loop feels like click
 4. Add a payoff line within the next few lines.
 5. Check whether the reader is more curious and more trusting.
 
-## Output
+## Output Schema
 
 ```markdown
 ## Curiosity Gap Repair

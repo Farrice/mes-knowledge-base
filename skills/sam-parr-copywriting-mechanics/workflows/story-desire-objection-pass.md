@@ -22,7 +22,7 @@ The draft explains the product before the reader has enough desire or trust.
 5. Handle the biggest objection through a detail, anecdote, comparison, or test.
 6. Reintroduce the product as the natural next step.
 
-## Output
+## Output Schema
 
 ```markdown
 ## Story Desire Objection Pass

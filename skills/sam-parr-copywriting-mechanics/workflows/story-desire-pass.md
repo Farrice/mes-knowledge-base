@@ -22,7 +22,7 @@ The product, offer, or CTA appears before the reader wants the result.
 5. Reintroduce the product as the natural next step.
 6. State what desire changed.
 
-## Output
+## Output Schema
 
 ```markdown
 ## Story Desire Pass

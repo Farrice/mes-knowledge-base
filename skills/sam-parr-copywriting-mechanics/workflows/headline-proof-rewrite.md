@@ -26,7 +26,7 @@ The opener is a label, claim, topic, or polite setup instead of a reason to keep
 5. Write the first body section so the headline pays off quickly.
 6. Add the next line that moves the reader from attention to interest.
 
-## Output
+## Output Schema
 
 ```markdown
 ## Headline Proof Rewrite

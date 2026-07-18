@@ -20,7 +20,7 @@ The copy is accurate but flat, clotted, or easy to abandon.
 5. Read the section aloud and rewrite any line that stalls.
 6. Keep natural voice; avoid fake dramatic spacing.
 
-## Output
+## Output Schema
 
 ```markdown
 ## Rhythm And Slippery-Slope Pass
