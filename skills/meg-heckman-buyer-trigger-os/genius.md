@@ -2,6 +2,21 @@
 
 > Load this before ANY workflow in this skill. This is the thinking, not the terminology. The vocabulary contract below (trigger names) is already in production use on Josh's swing-nerd shirts — never rename it.
 
+---
+
+## How to Use This Skill (Model Calibration)
+
+The Six Triggers and the Mirror/Poster gate are intuition primitives, not a checklist to stamp onto a deliverable. Run them underneath the work until a concept either feels seen in 50ms or it doesn't — never surface them as a scored rubric unless the workflow explicitly asks for one (Trigger Audit).
+
+Specifically:
+- Do NOT label output "Identity Signal: ✓," "here's the Familiar/Twist pair," or narrate which trigger fired. Execute the trigger; never announce it — she reflexes the scroll, she doesn't lecture the buyer.
+- **Polish is the tell — her canonical proof of it.** Design A (woodblock, eagle, van, waterfall — "wins every design competition") sold zero in four months. Design B (hiker, bold text, "Out of Breath") sold 3,714 (claimed). If a concept reads as beautifully executed but names no specific person's behavioral moment, it is a poster wearing mirror language — kill it regardless of craft quality.
+- Her texture is direct, numbers-first, zero mysticism. She reframes the asked question into the buyer-psychology question before answering — "The question is not, 'Does my design look good?' The question is, 'Can my design stop a person who is not trying to buy anything and make them feel something strong enough to take action?'" (Video 3, "Designs Have Changed, Here's What's Selling," iFvHwZBIwoA). Match that reframe-first move; don't answer the surface question straight.
+- State the caveat in the same breath as the rule, never as a footnote — every threshold ships "these are POD/Meta 2026 calibration defaults, not laws" attached at the point of use, not disclaimed once and forgotten.
+- The test: would Meg Heckman recognize this as a MIRROR — a specific behavioral moment named in a first-person sentence the buyer wants said about them — or as a POSTER wearing her vocabulary as decoration? If it's the second, rebuild from the seven-question Decision Framework, not from the rubric.
+
+---
+
 ## Source Thesis
 
 "You can't hack the mechanics, but you can hack the mind." A basic product becomes a real brand when it lets one specific person feel seen fast enough to buy on emotion and justify with logic afterward. The product is not merchandise — it is a sentence the buyer says about themselves. Everything else (store, ads, email, testing) exists to support the feeling the product creates; if the product creates no feeling, every other layer has to work harder.
@@ -136,19 +151,19 @@ First 8 = production vocabulary from Josh's scorecard — names are frozen.
 
 ## Anti-Patterns (the Heckman would-never-do list)
 
-- Judge by prettiness — "Nice doesn't open the wallet."
-- Make the buyer decode; clever over clear.
-- Target a demographic instead of a behavioral moment.
-- Copy a bestseller — "you're just putting yourself in a lineup next to the thing you copied."
-- Scale by taste; keep a loser because you love it.
-- Touch the ad account before swapping the mockup.
-- Optimize checkout before cart-page trust.
-- Install upsell apps before catalog cohesion.
-- Expand to mugs/hoodies before the t-shirt loop repeats.
-- Stop generating at design #30 and call the model broken.
-- Quote her thresholds as universal laws (they are POD/Meta 2026 calibration defaults).
-- Assert her revenue claims as verified fact (always UNCONFIRMED, self-reported).
-- Interrupt without delivery — the door must lead to a room.
+- Judge by prettiness — "Nice doesn't open the wallet." (Video 2, "What Really Makes a Best-Selling T-Shirt Design," mV-DQElnWGk)
+- Make the buyer decode; clever over clear — "People scroll fast. They do not decode designs, especially in ads on Facebook. They simply react to them." (Video 1, "I Made $1.19M in 30 Days. Here's What ACTUALLY Made People Buy," 7MNa2YTPGs4)
+- Target a demographic instead of a behavioral moment — "We went after somebody completely different, the casual hiker. The person who goes for a 30-minute stroll on a mountain and calls it a hike, and they're genuinely proud of that." (Video 3, "Designs Have Changed, Here's What's Selling," iFvHwZBIwoA)
+- Copy a bestseller — "you're just putting yourself in a lineup next to the thing you copied... You are bringing a weaker version of the same thing to a fight that you can't win." (Video 3, iFvHwZBIwoA)
+- Scale by taste; keep a loser because you love it — "You will fall in love with a design that does not perform well in ads and you will have to be willing to cut it... The market does not care what you love. The market cares about what it loves." (Video 5, "How I Actually Made $861K in 30 Days," 19ur85v6OPA)
+- Touch the ad account before swapping the mockup — "We ended up swapping the mockup and reran our tests. And it showed the exact same design on a different mockup and the CPCs immediately started to come down." (Video 6, "I Made $30K PROFIT in 30 Days Tracking ONLY These Metrics," MfP-56ayttE; `extractions/meg-heckman/transcript-30k-profit-metrics.txt`)
+- Optimize checkout before cart-page trust — checkout is "answering, does this store feel trustworthy enough for me to even buy from?"; the fix is cart-page proof (reviews, "a very clear return policy," shipping clarity), never a checkout-flow tweak first. (Video 6, MfP-56ayttE; `extractions/meg-heckman/transcript-30k-profit-metrics.txt`)
+- Install upsell apps before catalog cohesion — "I would focus first on creating more products or designs that people genuinely want to buy and pair together," ahead of bundles, cross-sells, or upsell funnels. (Video 6, MfP-56ayttE; `extractions/meg-heckman/transcript-30k-profit-metrics.txt`)
+- Expand to mugs/hoodies before the t-shirt loop repeats — "Focus on one product in the beginning... Depth before breadth every time." (Video 5, 19ur85v6OPA)
+- Stop generating at design #30 and call the model broken — "Your one breakout design might be design 91 or 312 or 800. If you stop early, the design that would have changed everything just stays unfound." (Video 5, 19ur85v6OPA)
+- Quote her thresholds as universal laws (they are POD/Meta 2026 calibration defaults) — per `references/source-quotes.md` § Claims Ledger, LIKELY band: "shipping tiers $4.75/$1.99 (supplier-specific)," "48h Meta ad learning window" — category- and platform-specific, not universal.
+- Assert her revenue claims as verified fact (always UNCONFIRMED, self-reported) — per `references/source-quotes.md` § Claims Ledger, UNCONFIRMED band: every dollar figure ($1.19M/30d, $861K/30d, "3,714 sales," "seven-figure brand in 13 months") is self-reported, screenshot-only, never independently verified.
+- Interrupt without delivery — the door must lead to a room — "The interrupt has to lead somewhere, to an identity signal or an emotional connection, because that's the door. It's not the room." (Video 3, iFvHwZBIwoA)
 
 ## Voice DNA (when writing as/for her system)
 

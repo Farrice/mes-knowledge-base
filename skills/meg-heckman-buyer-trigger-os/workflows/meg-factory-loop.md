@@ -99,19 +99,43 @@ The loop compounds on iteration count. Week 6 is worth more than Week 1 not beca
 
 ---
 
-## Output: The Written Operating Cadence
+## Output Format
 
-One page. Four elements:
+One page, four elements, filled with numbers not intentions:
 
-**Weekly rhythm:** Mon — concept batch. Tue–Wed — trigger audit + test queue. Thu — 48h CPC reads; cut/watch/scale calls. Fri — email campaign. Ongoing: list capture + post-purchase sequence active.
+```
+FACTORY LOOP — [brand] — [date]
 
-**Decision thresholds:** The Step 3 data bands, calibrated to the operator's actual platform. Written down, not recalled. These remove taste from scaling.
+WEEKLY RHYTHM
+  Mon — concept batch: ___
+  Tue–Wed — trigger audit + test queue: ___
+  Thu — 48h CPC reads; cut/watch/scale calls: ___
+  Fri — email campaign: ___
+  Ongoing — list capture + post-purchase sequence: active
 
-**Weekly review (20 min):** Designs generated vs. target. CPC reads. One scale decision + one cut. Email click-to-conversion. Running inventory count.
+DECISION THRESHOLDS (calibrated to [platform]; POD/Meta 2026 defaults unless recalibrated)
+  CPC: cut above $___ / watch $___–$___ / scale below $___
+  ROAS: cut below ___ / watch ___–___ / scale at ___+
+  Add-to-Cart: cut below ___% / watch ___–___% / scale at ___%+
 
-**No-redesign clause:** Name the single product type. The loop does not change until week 12 minimum. Any impulse to add a product type or rebuild the process before then is a distraction — not a decision.
+WEEKLY REVIEW (20 min)
+  Designs generated vs. 90-day target: ___ / ___
+  CPC reads this week: ___
+  One scale decision: ___
+  One cut decision: ___
+  Email click-to-conversion: ___%
+  Running design inventory count: ___
 
----
+NO-REDESIGN CLAUSE
+  Single product type locked: ___
+  Loop does not change before week: ___ (12 minimum)
+  Impulse to add a product/tool/hire logged, not acted on, until: ___
+
+90-DAY VOLUME TARGET
+  Capacity tier: [solo part-time | solo full-time | team]
+  Weekly design output committed: ___/week
+  90-day target (her math): ___ designs
+```
 
 ## Format Adaptations
 
