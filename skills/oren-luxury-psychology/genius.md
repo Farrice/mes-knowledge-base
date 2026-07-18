@@ -4,17 +4,19 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
-## How to Use This Skill (Opus 4.7 Calibration)
+## How to Use This Skill (Model Calibration)
 
 The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Oren recognize this as authentic insider work — or as "outsider mimicking insider"? If unsure, the answer is the second — rewrite.
 
 Specifically:
-- Do NOT enumerate which patterns you applied unless asked
-- Do NOT label sections by pattern name
-- Do NOT explain luxury codes — deploy them invisibly
-- The reader should just feel that this knows things they don't
+- Do NOT enumerate which patterns you applied unless asked.
+- Do NOT label sections by pattern name.
+- Do NOT explain luxury codes — deploy them invisibly. The instant a term gets a parenthetical gloss ("Sevruga, a premium caviar varietal"), the copy has confessed it was written by an outsider.
+- Oren's texture is adversarial-strategic, not reverent: he built his fluency by positioning against luxury incumbents and beating them, not by admiring them from outside. The voice reads confident and a little clinical about the mechanics — never worshipful, never hushed.
+- Polish is the tell-class warning: over-explained, glossary-style copy is itself the outsider signal luxury psychology exists to eliminate. A sentence that visibly works hard to sound expensive reads as trying — and trying is the cheapest thing a premium buyer can smell.
+- The reader should just feel that this knows things they don't.
 
-Why this is here: Opus 4.7 follows instructions more literally than 4.6. In luxury work, mechanical application is itself the failure mode — luxury codes are recognized by their casualness, never their explicitness. A checklist execution produces exactly the "outsider trying to sound insider" tone these patterns exist to prevent.
+Why this is here: mechanical application is itself the failure mode in luxury work — luxury codes are recognized by their casualness, never their explicitness. A checklist execution produces exactly the "outsider trying to sound insider" tone these patterns exist to prevent.
 
 ---
 
@@ -25,6 +27,8 @@ Every premium purchase maps to one of exactly four psychological triggers: belon
 
 **Application**: Before writing any premium copy, identify which trigger the offer activates. Write to THAT trigger exclusively. If someone can't tell which trigger you're activating, the copy is too generic.
 
+**Source language**: the extraction's own methodology layer names it directly — "Choose which of the 4 purchase triggers your offer activates (belonging, individualism, enjoyment, superiority). Write ALL communications to that trigger" (extractions/oren/extraction-report.md, Methodology Layer 3).
+
 ## Pattern 2: The Insider Codes Mechanic
 The PRODUCT isn't the luxury — KNOWING THE CODES around the product is the luxury. It's not the caviar; it's knowing to use a mother of pearl spoon, saying "Sevruga" correctly, knowing Petrossian from Caviar Russe. The product is the entry fee; the knowledge is the membership.
 
@@ -34,6 +38,8 @@ The PRODUCT isn't the luxury — KNOWING THE CODES around the product is the lux
 Old luxury gatekept. New luxury democratizes access but creates tiers of connoisseurship. Let everyone in the door; sell depth to those who want it. Each tier requires more knowledge, more investment, and grants access to a smaller circle.
 
 **Application**: Design offer ecosystems with an accessible entry point but layer connoisseurship tiers above. Entry-tier people seeing the next tier above them IS the marketing for that tier. The entry point markets the upper tiers automatically.
+
+**Source language**: "Democratize access, but create tiers of connoisseurship. Let everyone in the door; sell depth to those who want it" (extractions/oren/extraction-report.md, Pattern 3, "Accessible Exclusivity Engine").
 
 ## Pattern 4: Aesthetic World Building
 Luxury brands don't sell products — they sell a visual world the buyer enters. The "white couch" = control. "Rumpled sheets" = tasteful living. Products are props in an aesthetic narrative the buyer sees themselves inhabiting.
@@ -65,12 +71,16 @@ The most sustainable luxury businesses don't MANUFACTURE — they CURATE. Good H
 
 **Application**: Position as a curator, not just a creator. Don't only sell your work — sell your ability to identify, select, and arrange the best of what exists. The value isn't making everything; it's knowing WHAT to choose.
 
+**Source language**: "For most people, building a product brand is the wrong move; curating someone else's products with taste is the right move" (extractions/oren/extraction-report.md, Pattern 9, "The Curation-Over-Creation Model").
+
 ## Hidden Knowledge
 
 ## 1. The Video Game of Taste
 Luxury connoisseurship is engineered as a progression system — identical to video game leveling. You try caviar (Level 1). You learn Sevruga vs. Beluga (Level 2). You discover Petrossian (Level 3). Each level requires more knowledge, more spend, grants access to a smaller circle. Brands design this intentionally. The REAL product being sold is the PROGRESSION itself. Every "tier" is a new purchase opportunity.
 
 **Deployment**: Design offer ecosystems as explicit progression systems. Level 1: free content (learn the codes). Level 2: entry offer (demonstrate fluency). Level 3: premium offer (insider status). Level 4: exclusive tier (inner circle). Each level feels like achievement, not spending.
+
+**Source language**: "Most people see luxury as binary — either you can afford it or you can't. They miss that the REAL product being sold is the PROGRESSION itself. Every 'tier' is a new purchase opportunity" (extractions/oren/extraction-report.md, Hidden Knowledge 1, "The Video Game of Taste").
 
 ## 2. The Adversarial Fluency Advantage
 Oren's deepest luxury knowledge comes from COMPETING AGAINST IT — positioning in the "middle-top" and saying "here's why you should choose this instead." This adversarial position forced surgical understanding of luxury's mechanics. The competitive perspective reveals weaknesses the appreciative perspective misses.
@@ -109,6 +119,17 @@ Manhattan Saddlery — a horse supply shop thriving in Manhattan. Milwaukee — 
 
 ---
 
+## Anti-Patterns
+
+- Never explain an insider code inside the copy — the extraction is explicit: "Never EXPLAIN codes (outsider signal). DEPLOY them (insider signal)" (source: extractions/oren/extraction-report.md, Pattern 2, "The Insider Codes Mechanic"); would Oren recognize this as the exact moment a piece confesses "outsider mimicking insider"?
+- Don't lead a service offer with superiority signaling — the extraction flags it directly: "Superiority signaling is the riskiest — it attracts superficial buyers" (source: extractions/oren/extraction-report.md, Pattern 1, "The Four-Factor Purchase Psychology"); would Oren recognize this as bait for the wrong buyer rather than genuine insider fluency?
+- Never let a "marketing product" carry the revenue expectation — per the extraction's own example, the $2,000 Donald Glover collaboration jacket sells 12 units while the core down jackets sell thousands (source: extractions/oren/extraction-report.md, Hidden Knowledge 4, "Marketing IS the Core Product"); would Oren recognize this as confusing a 12-unit attention vehicle for the actual business model?
+- Don't chase a bigger market once a niche is defensible — Manhattan Saddlery and the Japanese gardening store thriving in London prove 500-1,000 buyers beat 50,000 (source: extractions/oren/extraction-report.md, Hidden Knowledge 8, "Niche Luxury Is Under-penetrated"); would Oren recognize this as diluting a $5K-buyer niche into a $50-buyer crowd?
+- Never let busyness read as the premium signal — the extraction states it flatly: "to premium buyers, busyness is the OPPOSITE of luxury" (source: extractions/oren/extraction-report.md, Hidden Knowledge 5, "Time-Hobbies-as-New-Wealth-Signal"); would Oren recognize this as hustle-coded content chasing exactly the wrong trigger?
+- Don't over-index on pedigree credentials at the expense of aesthetic signal — the $2,000-4,000 Indonesian-horse-trough-as-"French provincial planter" example shows buyers want the AESTHETIC over the AUTHENTICITY (source: extractions/oren/extraction-report.md, Hidden Knowledge 3, "Providence Arbitrage"); would Oren recognize this as an outsider over-explaining a résumé nobody asked for?
+
+---
+
 ## Hall of Fame Exemplars
 
 **1. The Bespoke Atelier's Progression Ladder**
@@ -134,6 +155,8 @@ A new "luxury" smart home device is launched with:
 **What makes this mediocre**: It relies on generic scarcity tactics (commodity, not luxury). It lacks any "Aesthetic World Building" beyond cold futurism. It doesn't activate any of Oren's four psychological triggers for luxury beyond a superficial "superiority signaling" that attracts the wrong kind of buyer. There are no "Insider Codes" or sense of connoisseurship; it's purely about features and immediate acquisition, missing the deeper psychological drivers of true luxury.
 
 ## Signature Moves
+
+Grounded in the extraction's own phrasing — Oren instructs the reader to "identify the 5-10 insider codes that separate people who belong from people pretending" (extractions/oren/extraction-report.md, Pattern 2) — the five moves below are that instruction turned into deployable behavior.
 
 1.  **The Code Drop**: Casually deploys insider terminology or references specific to a high-end niche without explanation, assuming the audience understands. → **Deploy when**: Crafting content, messaging, or proposals for a premium audience where signaling belonging is crucial.
 2.  **The Aesthetic Glimpse**: Presents a vivid, consistent visual or descriptive snapshot of a curated world, inviting the prospect to imagine themselves inhabiting it. → **Deploy when**: Designing brand assets (website, social banners), creating content (stories, videos), or describing an experience.
