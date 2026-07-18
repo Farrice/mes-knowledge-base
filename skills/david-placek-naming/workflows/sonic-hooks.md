@@ -37,6 +37,14 @@ Present ranked hooks with:
 - Platform fit
 - Before/after comparison (standard vs sonically engineered)
 
+## Output Schema
+The user receives a **Sonic Hook Set** containing:
+1. **10+ Ranked Hooks** — each opening with a phonemically intentional word, ranked highest sonic score first.
+2. **Sonic Score Per Hook** — opening phoneme classification (K/P/B/Z/X/V/CVCV), processing fluency rating, rhythm note, mood signal.
+3. **Platform Fit Tag** — which hooks are engineered for which platform (LinkedIn / X / Instagram / YouTube / email).
+4. **Before/After Comparison** — at least one standard hook rewritten sonically, shown side-by-side with the score delta.
+5. **CVCV Amplifier Pass** — top 5 hooks after the CVCV amplification step, flagged as final candidates.
+
 ## Expert Stacking
 - Stack with **Luke Iha** `/hook-forge` for copy-block-structured hooks with sonic layer
 - Stack with **Lara Acosta** for LinkedIn-optimized sonic hooks

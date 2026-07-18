@@ -49,6 +49,15 @@ Present:
 - If **Evolve**: identify specific phonemic or structural modifications
 - If **Keep**: recommend other brand elements to invest in (tagline, positioning)
 
+## Output Schema
+The user receives a **Name Audit Verdict** containing:
+1. **Zone Classification** — Invisible Zone / Middle Ground / Tension Zone, with the evidence that produced the call.
+2. **8-Criterion Scorecard** — the Placek evaluation framework scored with a short justification per criterion.
+3. **Sound Symbolism Analysis** — phoneme signals mapped against intended brand attributes, plus processing fluency and memorability scores.
+4. **Top 3 Strengths / Top 3 Weaknesses** — specific to this name, not generic naming advice.
+5. **12-Month Compound Test Result** — a one-paragraph projection of whether this name compounds or flattens with repeated exposure.
+6. **Recommendation** — Keep / Evolve / Rename, with the routing (next workflow) named explicitly.
+
 ## Quality Gate
 - [ ] Score completed on all 8 evaluation criteria
 - [ ] Zone classification clearly justified

@@ -32,6 +32,7 @@ Voice OS is the always-on voice alignment layer sitting between intent and craft
 1. This SKILL.md — orientation, the Dial, the decision table.
 2. `_active/farrice-brand/voice/VOICE-CARD.md` — always. The canonical card: §1 Identity Spine, §2 Voice Law, §3 Stylometrics, §4 Channel Registers, §5 Banned Moves, §6 Calibration Bank, §7 The Dial, §8 Loop Protocol.
 3. The relevant §4 channel register only — LinkedIn, Substack edition, Notes/Threads, email/DM, or client-facing docs. Don't load registers you're not writing for.
+4. `genius.md` (Tier 2, craft/complex work) — the texture layer: signature-move mechanics traced to source, the two-stage rhythm behind the stylometrics, the recognition test, and the sourced anti-pattern bank. Load this whenever the deliverable is more than a mechanical mode-check — i.e. any time craft judgment is needed, not just gate enforcement.
 
 If `VOICE-CARD.md` doesn't exist yet, say so and stop — do not improvise a voice from memory. Run `python3 execution/voice_ratchet.py status` to confirm state before assuming the card is missing; the ratchet script reports "not found" cleanly if it truly isn't compiled.
 
@@ -89,6 +90,17 @@ Voice OS improves by feeding on felt verdicts, not periodic rewrites.
 - **`_active/farrice-brand/CLAUDE.md` voice rules** — remain binding. VOICE-CARD.md absorbs and supersedes their content in more granular form (stylometrics, channel registers, calibration bank); the CLAUDE.md rules are the compressed pointer, the card is the depth.
 - **`FARRICE-MASTER-CONTEXT.md`** — identity depth behind the card. VOICE-CARD.md §1 Identity Spine is the compiled distillation for writing purposes; the master context doc is the fuller self-work synthesis for identity/positioning/offer work generally.
 - **Content-quality pipeline** (`feedback_content-quality-pipeline-recipe.md`) — Voice OS is one input into that pipeline's voice-rules stage, not a replacement for it.
+
+## Workflows
+
+Operator-facing step-by-step entries (When to Use / Input Required / Steps / Output contract /
+Quality Gate) for each of the four Loop/Dial procedures below. Each points to its deeper
+structure-pure-v2 prompt in `references/prompts-v2/` for the full field-by-field protocol.
+
+- **Pre-Draft Grounding Brief** — `workflows/grounding-brief.md` (maps to `/voice-os mode <name>`)
+- **Post-Draft Verification Pass** — `workflows/verification-pass.md` (maps to `/voice-os apply <file>`)
+- **Felt Verdict Capture** — `workflows/felt-verdict-capture.md` (maps to `/voice-ratchet`)
+- **Voice Card Recompile** — `workflows/card-recompile.md` (maps to `/voice-compile`)
 
 ## Front Doors
 

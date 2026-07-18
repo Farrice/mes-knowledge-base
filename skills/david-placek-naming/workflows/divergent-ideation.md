@@ -49,6 +49,14 @@ Deploy `divergent-content-sprint` prompt → Steps 5-6:
 - → `/serial-arc` for series content
 - → `/roth-content` for cinematic long-form
 
+## Output Schema
+The user receives a **Divergent Ideation Set** containing:
+1. **Three Frame Definitions** — Direct, Transplant (named unrelated domain), Inversion (named the specific inverted premise) — each stated explicitly, not implied.
+2. **15 Concepts Minimum** — 5 per frame, each scored 1-10 on Surprisingly Familiar.
+3. **Frame Collision Log** — at least one identified collision between two frames, with the resulting hybrid concept named.
+4. **Top 5 Converged Concepts** — each drawing from 2+ frames, with opening line and sonic score.
+5. **Downstream Routing** — the specific next workflow recommended per concept (e.g., `/ip-flywheel`, `/yt-flywheel`, `/serial-arc`, `/roth-content`).
+
 ## Quality Gate
 - [ ] Three genuinely distinct frames used (not variations of the same angle)
 - [ ] 15 concepts minimum generated before convergence

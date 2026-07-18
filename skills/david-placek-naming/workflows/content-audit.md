@@ -40,6 +40,14 @@ Present:
 - One "energy injection" sentence
 - Sonic audit of opening
 
+## Output Schema
+The user receives a **Content Comfort Trap Audit** containing:
+1. **Zone Classification** — Invisible Zone / Middle Ground / Tension Zone with a composite score across all 8 dimensions.
+2. **Dimension Breakdown** — score + one-line evidence per dimension (hedge language, category echoes, missing stakes, soft openings, invisible conclusions, etc.).
+3. **Top 3 Rewrites** — specific line-level rewrites tied to the lowest-scoring dimensions, never generic advice.
+4. **Energy Injection Sentence** — one sentence the user can drop in to immediately raise the tension-zone score.
+5. **Sonic Audit of the Opening Line** — phoneme analysis of the first words, with a sonically upgraded alternative if the current opening scores low.
+
 ## Expert Stacking
 - Stack with **Josh Sanders** `/high-dwell` for LinkedIn dwell-time optimization
 - Stack with **Lara Acosta** for LinkedIn growth tactics applied after audit

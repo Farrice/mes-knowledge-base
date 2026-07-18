@@ -4,6 +4,17 @@
 
 David Placek thinks about naming the way a scientist thinks about experimental design — with controlled variables, testing protocols, and replicable methodology. But he also thinks like a treasure hunter — patient, systematic, willing to survey the entire ocean floor before committing to a dive site. This dual nature — scientific rigor fused with creative tenacity — is what separates Lexicon from every other naming firm.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then generate originally. If the output marches through "Step 1: Ship of Gold, Step 2: Surprisingly Familiar, Step 3: Comfort Trap" as labeled stages, you have failed. The test: would Placek recognize this as someone actually treasure-hunting for a name — or as someone reciting naming vocabulary without doing the sound-symbolism and landscape work underneath it? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce which framework you're applying ("Now running the Comfort Trap diagnosis..."). Do the diagnosis; never narrate it.
+- Do NOT stop at 10-20 candidate names and call it a "treasure hunt." Placek's entire edge is quantity before quality — the gold sits past name 500, not name 50 ("We will get back a list of 50 or 100 names. And that's where... they stopped, right? We can't do that."). A shortlist that arrives without visible bulk behind it is theater, not the method.
+- Do NOT hand back a name defended on meaning alone ("it means lightness"). Placek scores everything on sound as well as sense — phonemes, CVCV structure, cross-language viability. A name justified only semantically is half his process, not all of it.
+- Do NOT present names on a bare list. Placek's entire closing move is contextualization — a headline, a mockup, an endorsement ad — because stakeholders judge *brands*, not *words*. A plain list is the single most common way this skill gets watered down into generic naming advice.
+- His texture is a scientist who thinks like a treasure hunter: precise about phonemes and processing fluency, comfortable calling most of the raw output "trash" without judgment, and willing to say "I don't know" rather than bluff. Confidence without evidence is not his voice — evidence-backed conviction is. Polish that hides the absence of a landscape map or a sound-symbolism pass is the tell.
+
 ## Genius Pattern Deep Dives
 
 ### 1. The Quantity-Quality Inversion
@@ -120,6 +131,19 @@ This is compressed, intense, and repeatable. Not one 4-hour brainstorm — many 
 | Proof-of-concept believability | — | High |
 | Competitive courage (would competitors dare use it?) | — | Medium |
 | Comfort trap score (1 = invisible zone, 10 = tension zone) | — | High |
+
+## Anti-Patterns
+
+Failure modes Placek explicitly warns against, in his own words (My First Million podcast interview, `extractions/david-placek/transcript.txt` — every quote below verified verbatim against that transcript).
+
+- **Never run group brainstorming sessions.** Peer pressure and cascade evaluation kill originality at scale: "First off, you have, you know, and the classic ones are you have peer pressure, right?" Lexicon eliminated brainstorming entirely after an 18-month internal audit found it was "a slow slow grind" that got worse with every added person in the room (My First Million podcast interview transcript).
+- **Never outsource naming generation to freelancers.** Lexicon's own longitudinal data showed freelancer output underperforms — "it's just they're not inside," lacking the "espree core" [esprit de corps] that comes from working inside the account daily (My First Million podcast interview transcript).
+- **Never choose a name for being comfortable or popular.** Placek names this explicitly as the trap: "you're on a slippery slope if you want something comfortable or popular" — comfort is the enemy of the distinctiveness the whole methodology exists to produce (My First Million podcast interview transcript).
+- **Never evaluate ideas during the generation phase.** Speculation and evaluation are kept as separate phases on purpose — "I'm not going to evaluate it. I'm going to speculate with it" — collapsing the two phases is what kills a team's willingness to submit rough ideas (My First Million podcast interview transcript).
+- **Never slam an idea down directly.** Placek coaches teams against the reflex of "That's too expensive," or, "That'll never pass legal" — a direct slam ends the generative phase; the fix is reframing the objection as a problem to solve (My First Million podcast interview transcript).
+- **Never stop generating at 50-100 candidates.** That is precisely where most clients "got stuck and they stopped, right?" — Lexicon pushes to 2,000+ because names 500-2,000 are where synchronicity actually produces gold, not names 1-100 (My First Million podcast interview transcript).
+- **Never let attorney paperwork drive the naming decision.** Placek's diagnostic for how founders end up with forgettable names: "our attorney called and they said... we need a name. You guys got to figure this out," followed by a rushed few-hour session with no landscape mapping or strategic question sequence (My First Million podcast interview transcript).
+- **Never assume renaming destroys brand equity without evidence.** Placek is explicit and repeats it for emphasis: "We have never seen that as evidence in the marketplace. Never." The fear that "they're going to lose whatever equities they have and they're going to lose momentum" is psychological, not empirical, and should not by itself block a rename when the current name sits in the comfort trap (My First Million podcast interview transcript).
 
 ## What Makes Placek Different From Other Naming Experts
 

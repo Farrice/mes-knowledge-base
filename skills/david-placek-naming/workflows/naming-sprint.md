@@ -116,6 +116,17 @@ Present:
 - Positioning line and short brand story for each
 - Trademark/cross-language notes
 
+## Output Schema
+The user receives a **Naming Sprint Report** (.md or presentation-ready doc) containing:
+1. **Landscape Map** — competitive names bucketed, no-go zone declared, Strategic Question Sequence answers (winning / have / need / say).
+2. **Candidate Count Log** — raw candidate total generated (minimum 90) across the three divergent-brief teams, with treasure-hunting zones used.
+3. **Top 3 Finalist Names** — each with rationale tied to the Surprisingly Familiar triad (original / processing fluent / unexpected).
+4. **Sound Symbolism Analysis** — phoneme scoring per finalist (speed, reliability, innovation, CVCV structure).
+5. **Compounding Defensibility Scorecard** — all 6 dimensions scored 1-10 per finalist, with the composite score and zone verdict (Compounding Asset / Neutral / Depreciating).
+6. **Proof-of-Concept Mockups** — each finalist shown in at least one real-world context (headline, endorsement, product mockup) with the one-second believability verdict.
+7. **Positioning Line + Short Brand Story** — one per finalist.
+8. **Trademark / Cross-Language Notes** — flagged risks or clearances needed.
+
 ## Quality Gate
 - [ ] Minimum 90 raw candidates generated
 - [ ] Top 5 shortlisted with scorecards

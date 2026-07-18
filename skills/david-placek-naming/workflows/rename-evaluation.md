@@ -52,6 +52,15 @@ One-page rename decision brief:
 - Recommended path forward
 - Next steps with timeline
 
+## Output Schema
+The user receives a **Rename Decision Brief** (one page) containing:
+1. **Current Assessment Summary** — zone classification of the existing name with supporting evidence.
+2. **Plus-Minus Table** — the rename-decision-framework's 6 indicators, each scored Yes/No with rationale.
+3. **Decision Score** — count of Yes indicators mapped to the verdict band (4+ Rename / 2-3 Evolve / 0-1 Keep).
+4. **Evidence Base Citation** — at least one Placek empirical reference (e.g., the Windsurf/Kodium rename) supporting the verdict, not opinion alone.
+5. **Recommended Path Forward** — Rename / Evolve / Keep, with the specific next workflow to route to.
+6. **Next Steps With Timeline** — concrete dates or sprint lengths, not "soon."
+
 ## Quality Gate
 - [ ] Plus-minus analysis completed with scored evidence
 - [ ] Placek evidence base applied (not just opinions)
