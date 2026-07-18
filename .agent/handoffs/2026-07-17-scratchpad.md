@@ -1,3 +1,11 @@
+---
+thread: scratchpad
+status: active
+resume_hint: Scratchpad — Source Ledger
+branch: main
+pin: true
+---
+
 # Scratchpad — Source Ledger
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.

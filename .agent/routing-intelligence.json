@@ -7483,6 +7483,63 @@
             "ensemble": true,
             "compound_pairing": "jason-fladlien-marketing + luke-iha-copy-blocks + evan-spiegel-distribution-architecture",
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260718_033555_bbb9",
+            "timestamp": "2026-07-18T03:35:55.977613+00:00",
+            "session_id": "129de224-63c4-4296-8df8-73d0a98c330c",
+            "request_summary": "give me the session title for this please",
+            "intent_score": 0,
+            "domain_detected": "sean-dollwet-kdp-publishing",
+            "experts_deployed": [
+                "sean-dollwet-kdp-publishing",
+                "luisa-zhou-coaching",
+                "sky-tan-format-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "sean-dollwet-kdp-publishing",
+            "ensemble": true,
+            "compound_pairing": "sean-dollwet-kdp-publishing + luisa-zhou-coaching + sky-tan-format-engine",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260718_033738_8d2e",
+            "timestamp": "2026-07-18T03:37:38.482397+00:00",
+            "session_id": "28d76098-a0d8-475f-bc8a-9609aae4b6f1",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "paul-harding-lyric-prose",
+            "experts_deployed": [
+                "paul-harding-lyric-prose",
+                "deliberate",
+                "dara-denney-meta-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "paul-harding-lyric-prose",
+            "ensemble": true,
+            "compound_pairing": "paul-harding-lyric-prose + deliberate + dara-denney-meta-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260718_033738_3892",
+            "timestamp": "2026-07-18T03:37:38.733626+00:00",
+            "session_id": "28d76098-a0d8-475f-bc8a-9609aae4b6f1",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "paul-harding-lyric-prose",
+            "experts_deployed": [
+                "paul-harding-lyric-prose",
+                "deliberate",
+                "dara-denney-meta-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "paul-harding-lyric-prose",
+            "ensemble": true,
+            "compound_pairing": "paul-harding-lyric-prose + deliberate + dara-denney-meta-ads",
+            "feedback": "fb_20260718_033940_9b48"
         }
     ],
     "feedback_log": [
@@ -7953,12 +8010,21 @@
             "rating": "auto_miss",
             "correction": "rory-sutherland-marketing",
             "notes": "expert skill 'rory-sutherland-marketing' loaded not matching suggestion ['donald-miller-storybrand', 'donald-miller-messaging-evolution', 'claim-safe-health-marketing']"
+        },
+        {
+            "feedback_id": "fb_20260718_033940_9b48",
+            "timestamp": "2026-07-18T03:39:40.276964+00:00",
+            "session_id": "28d76098-a0d8-475f-bc8a-9609aae4b6f1",
+            "routing_id": "rt_20260718_033738_3892",
+            "rating": "auto_miss",
+            "correction": "claim-safe-health-marketing",
+            "notes": "expert skill 'claim-safe-health-marketing' loaded not matching suggestion ['paul-harding-lyric-prose', 'deliberate', 'dara-denney-meta-ads']"
         }
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 414,
-            "total_feedback": 52,
+            "total_routings": 417,
+            "total_feedback": 53,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
@@ -8010,7 +8076,7 @@
                 "corey-mcclain-persona-engineering": 1,
                 "fantastic-posters": 1,
                 "joey-cinema-os": 2,
-                "sean-dollwet-kdp-publishing": 1,
+                "sean-dollwet-kdp-publishing": 2,
                 "simon-intellectual-library-os": 1,
                 "chief-of-staff-os": 2,
                 "jen-santulan-listing-content": 18,
@@ -8023,7 +8089,7 @@
                 "lara-acosta-linkedin-growth": 1,
                 "lara-acosta-linkedin-mastery": 1,
                 "dai-media-consumer-posture": 2,
-                "paul-harding-lyric-prose": 6,
+                "paul-harding-lyric-prose": 8,
                 "youtube-video-context-analysis": 1,
                 "henry-shukman-contemplative-writing": 1,
                 "nate-b-jones-ai-taste-mastery": 1,
@@ -8066,7 +8132,7 @@
                 "brand-operating-system": 23,
                 "nicolas-cole-niche-positioning": 15,
                 "prediction-market-making": 1,
-                "deliberate": 25,
+                "deliberate": 27,
                 "mark-kashef-ai-councils": 1,
                 "gpt-image-2-director": 12,
                 "marketing-studio-director": 12,
@@ -8078,7 +8144,7 @@
                 "internal-comms": 4,
                 "wright-thompson-mastery": 12,
                 "alex-suzuki-digital-product-revenue-os": 3,
-                "paul-harding-lyric-prose": 8,
+                "paul-harding-lyric-prose": 10,
                 "paul-james-ai-automation": 1,
                 "lamott-craft": 2,
                 "synthesis-engine": 1,
@@ -8129,7 +8195,7 @@
                 "icp-deep-canvasser": 1,
                 "donald-miller-cognitive-load": 1,
                 "luke-iha-unaware-ads": 2,
-                "dara-denney-meta-ads": 18,
+                "dara-denney-meta-ads": 20,
                 "fantastic-posters": 8,
                 "nate-b-jones-intent-engineering": 1,
                 "evan-spiegel-distribution-architecture": 4,
@@ -8170,15 +8236,15 @@
                 "andrew-stanton": 1,
                 "Lara Acosta: Tech Founder Content System": 1,
                 "dan-martell-business-scaling": 2,
-                "luisa-zhou-coaching": 1,
+                "luisa-zhou-coaching": 2,
                 "joey-cinema-os": 5,
                 "banana-pro-director": 1,
                 "cinema-worldbuilder-pro": 2,
                 "story-bible-builder": 2,
                 "joey-noisy-group": 1,
                 "alex-content-science": 1,
-                "sky-tan-format-engine": 1,
-                "sean-dollwet-kdp-publishing": 4,
+                "sky-tan-format-engine": 2,
+                "sean-dollwet-kdp-publishing": 5,
                 "sean-dollwet": 1,
                 "kallaway": 1,
                 "henry-shukman-contemplative-writing": 2,
@@ -8224,7 +8290,7 @@
                 "new-media-ghostwriting": 1
             },
             "tier_counts": {
-                "0": 414,
+                "0": 417,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -8232,11 +8298,11 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 232,
+                "hybrid": 235,
                 "finalize-auto": 182
             },
-            "ensemble_count": 306,
-            "auto_miss_count": 41,
+            "ensemble_count": 309,
+            "auto_miss_count": 42,
             "auto_match_count": 11
         }
     }
