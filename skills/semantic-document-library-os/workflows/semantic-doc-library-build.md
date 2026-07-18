@@ -47,7 +47,7 @@ semantic-library/
     calls/
 ```
 
-## Output
+## Output Schema
 
 ```markdown
 # Semantic Document Library Blueprint: [Name]

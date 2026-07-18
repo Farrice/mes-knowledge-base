@@ -27,7 +27,7 @@ Read:
 5. Classify autonomy level: read, draft, stage, execute with review, or execute independently.
 6. Produce a prioritized fix plan.
 
-## Output
+## Output Schema
 
 ```markdown
 # Semantic Document Audit: [Document]

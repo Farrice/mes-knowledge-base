@@ -27,7 +27,7 @@ Read:
 5. Write the outreach angle, sales call flow, and first client checklist.
 6. Define upsells: workflow automation, AI Brain, command bridge, or maintenance retainer.
 
-## Output
+## Output Schema
 
 ```markdown
 # Agent-Ready Knowledge System Offer

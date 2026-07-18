@@ -33,7 +33,7 @@ Read:
 7. Name the decision or next action that would speed the session up.
 8. Apply the No-Lazy-Path Gate before returning.
 
-## Output Shapes
+## Output Schema (Shapes)
 
 ### Kickoff
 

@@ -29,7 +29,7 @@ Read:
 5. Generate the semantic document using the schema.
 6. Add two tests: one normal case and one edge case.
 
-## Output
+## Output Schema
 
 Produce a complete semantic document with all required schema sections. If source material is thin, include `[GAP: ...]` markers and a "Gap Closure Questions" section.
 
