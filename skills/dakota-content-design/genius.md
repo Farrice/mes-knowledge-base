@@ -2,6 +2,17 @@
 
 Faith-based creative business coach and Instagram creator (@thiefofboredom, ~250K followers). Grew ~70K followers in 2025 posting only graphic carousels — 20M views in 90 days, 11M views and 54K followers in February alone, a 4.6M-view carousel on day three of the experiment. Every pattern below is lifted from his own walkthroughs of the system.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist to stamp onto a caption. Absorb them, then build originally. The test: would Dakota recognize this as a carousel he'd actually post — or as someone reciting "carousel-growth-strategy" vocabulary at a whiteboard? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label slides "here's the hook," "here's the second-chance slide," "here's the revelational beat." Execute the move; never announce the machinery. Dakota's own framing: "it's not about having a ton of information on your carousels... it's more about how you present that information in a way that is easily digestible" — the presentation IS the invisibility.
+- Do NOT reach for a polished, agency-grade sentence when a rougher, more specific one would actually get shared. Dakota's highest performers read plain and slightly rough — "it's harder to be silent before God than to perform for him" — not copywriting. Polish is the tell that breaks the found-not-manufactured feel his best slides carry.
+- His texture is spoken and self-deprecating, not academic — on camera he calls his own arithmetic "super hard math" and admits "I'm not coherent enough to be doing math this quickly." Keep any voice-matched caption conversational, never consultant-clean.
+- Never write a slide that needs the hook or prompt to make sense. That's the actual test for revelational-vs-informative, and generic AI carousel output usually fails it by defaulting to a numbered listicle because that's the easier structure to generate.
+- Never let output density masquerade as value. Dakota's own standard is presentation, not information load — a slide that says less but stands alone beats a slide that says more but needs the deck.
+
 ## Genius Patterns
 
 ### Pattern: Carousel-Over-Reels Arbitrage
@@ -49,6 +60,16 @@ Images come from Pinterest, not stock sites: click images matching your mood unt
 **Execute**: Maintain a trained Pinterest feed per brand vibe. Build one master artboard with images/adjustments/text/textures in separate folders; duplicate for each slide. Ten slides in under 45 minutes.
 **Success Metric**: Sub-45-minute full carousel; "second design made in a couple of seconds"; daily posting is sustainable with no burnout.
 
+## Anti-Patterns (What Breaks the System)
+
+- **Never trust reels to reach your own followers** — Dakota calls the algorithm's pre-test "just stupid": "it kind of does this little test out on a few of your followers to see if they'll engage before Instagram decides to send it to more of your followers, which I think is just stupid" (source: YouTube transcript "everything I know about creating viral carousels in 29 minutes," https://www.youtube.com/watch?v=kzu-QSaskK4, captured 2025-12-16).
+- **Never open with an instructional "how to" hook** — "everyone's used to hearing how to, how to, how to"; his fix is to "flip the script and say how I, how I lost 10 pounds, how I lost 15 pounds in three weeks" (source: same transcript, captured 2025-12-16).
+- **Never bury the payoff inside a numbered tip** — "if it's like five things you should do and you're like tip number four do this, no one's really going to share just tip number four" (source: same transcript, captured 2025-12-16).
+- **Never optimize for views or likes as the success signal** — "I've had posts get a lot a lot a lot of views and do almost nothing for me"; shares and saves "indicate something to us much different than views or likes" (source: YouTube transcript "what I learned from 20 million views on Instagram in 90 days," https://www.youtube.com/watch?v=N7iz-3UCJrY, captured 2025-12-16).
+- **Never let an unfollow wave or a single flat post trigger a format pivot** — "I've got 24,000 people who have unfollowed me, but that's a net growth of 8,000 followers... If you unfollow me, cool. Don't care" (source: same transcript, captured 2025-12-16).
+- **Never abandon a working format to chase novelty** — the Wendy's Diner rule: "it doesn't mean stop making pancakes all together and go try to be a French restaurant. That's stupid and you're going to fail" (source: same transcript, captured 2025-12-16).
+- **Never sell prints or merch made from Pinterest-sourced images** — "I don't own the rights to the photos... no, I will not make prints out of these these graphics that I make" (source: same transcript, captured 2025-12-16).
+
 ## Hidden Knowledge
 
 ### Insight: The "Other" Analytics Bucket Is the Reels Page
@@ -60,7 +81,7 @@ Images come from Pinterest, not stock sites: click images matching your mood unt
 **Deploy**: Commit to daily cadence for the compounding floor; judge the system monthly on net follower growth, not on whether any single post popped.
 
 ### Insight: 133K Views Was "Good Enough"
-**Insight**: View-count inflation makes creators discard working formats. Dakota's verify threshold on the post that changed his account was 133K views — what mattered was the RATIO (893 shares, 2K saves, ~1 like per 10 views), not a million-view vanity bar. "Some people work three years to get 10,000 views."
+**Insight**: View-count inflation makes creators discard working formats. Dakota's verify threshold on the post that changed his account was 133K views — what mattered was the RATIO (893 shares, 2K saves, ~1 like per 10 views), not a million-view vanity bar. "Some people work for three years to get 10,000 views."
 **Deploy**: Set verify thresholds on engagement ratios relative to your own baseline (e.g., 3-5x your usual shares/saves), never on absolute view counts.
 
 ### Insight: Unfollows Are Exhaust, Not Signal
