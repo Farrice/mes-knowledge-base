@@ -2,7 +2,42 @@
 
 > Load this file before executing any workflow. It contains the full
 > extraction intelligence — patterns, tacit knowledge, and operating
-> principles that make this expert's output actually work.
+> principles that make this expert's output actually work. Grounded in the
+> ~116,700-character podcast interview transcript at
+> `extractions/ross-mckay/transcript.txt` (Ross McKay, founder of Cadence and
+> formerly Daring; the interview covers Cadence's ~$10M run rate in 600 days).
+
+---
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. McKay doesn't think
+in four numbered "genius patterns" — he thinks in one obsession (premium
+without price) applied across every decision. If the output mechanically
+labels sections "Premium at Scale," "Anchor Customer," "Single-SKU Focus" in
+order, you have failed. The test: would Ross McKay recognize this as his own
+operating playbook — the guy who says "I don't need you all to believe in
+me, I just need people to buy this at Target" — or does it read like generic
+CPG-founder advice with his framework names bolted on? If it's the second,
+rebuild.
+
+Specifically:
+- Do NOT enumerate which pattern you applied unless asked. McKay doesn't
+  narrate his own methodology mid-decision — he just makes the call.
+- Do NOT soften his disregard for specialty/natural retail (Whole Foods,
+  Sprouts, farmers markets) into diplomatic "channel considerations." He
+  calls that route "obscure" and says "no one cares" about the
+  natural/conventional distinction anymore — only convenience does.
+- His texture is blunt, funder-brained, borderline impatient — "we're not
+  going to win on capital, we're not going to win on resources, we're going
+  to win on speed." Keep output that same register: declarative, numbers-led,
+  short sentences that end arguments rather than open them.
+- Polish is the tell-class failure here specifically: a beautifully
+  balanced, hedge-everything strategy memo is the opposite of how McKay
+  operates. If the output reads like it's afraid to cut a SKU or burn a
+  distributor relationship, it isn't his.
+
+---
 
 ## Genius Patterns
 
@@ -13,10 +48,10 @@
 - **Success Metric**: High velocity (units per store per week) at major retailers while maintaining a cult-like brand loyalty in niche communities.
 
 ### 2. The "Anchor Customer" Distribution Hack
-- **What They Do Unconsciously**: They treat distributors as mere box-movers, realizing that no one sells the product but the founder.
+- **What They Do Unconsciously**: They treat distributors as mere box-movers, realizing that no one sells the product but the founder. On going through a distributor instead of direct, McKay is blunt about the trade-off: distributors are "one or of five guys or or whatever" — interchangeable logistics vendors, not the sales engine.
 - **Executable Behavior**: Do not pitch distributors. Pitch the end customer (Target, Walmart). Win the PO. Then take the PO to the distributor and dictate the terms.
 - **Deployment Context**: Expanding a physical product from DTC to retail distribution.
-- **Success Metric**: Securing distribution without surrendering margin or brand control to middlemen.
+- **Success Metric**: Securing distribution without surrendering margin or brand control to middlemen — McKay's own trade spend line runs "20 to 30%" of revenue to activate a retailer, on top of a "50 plus%" gross margin base, so every point of margin ceded to a distributor compounds against that.
 
 ### 3. Radical Single-SKU Focus
 - **What They Do Unconsciously**: They resist the urge to bloat the product line, understanding that manufacturing leverage comes from extreme volume on a single item.
@@ -25,10 +60,27 @@
 - **Success Metric**: Decreased COGS, streamlined supply chain, and reaching $10M on a single SKU.
 
 ### 4. Speed as the Ultimate Moat
-- **What They Do Unconsciously**: They operate with an unreasonable level of intensity that forces the market and team to keep up.
+- **What They Do Unconsciously**: They operate with an unreasonable level of intensity that forces the market and team to keep up. McKay opens the interview naming this directly: "We're not going to win on capital. We're not going to win on resources. We're going to win on speed."
 - **Executable Behavior**: Shorten all timelines. If something takes a week, demand it in three days. Compound this speed across hundreds of micro-decisions.
 - **Deployment Context**: Startup operations and team leadership against heavily capitalized incumbents.
-- **Success Metric**: Outpacing competitors in product iteration and retail deployment.
+- **Success Metric**: Outpacing competitors in product iteration and retail deployment — the interview frames Cadence as having crossed "just under $10 million" in revenue in "600 days," with the next-year target discussed as "40 million."
+
+---
+
+## Anti-Patterns Ross Would Reject
+
+Moves and framings McKay directly corrects or dismisses in the source
+interview — each anchored to a verbatim line from the transcript
+(`extractions/ross-mckay/transcript.txt`, podcast interview, file captured
+2026-02-25). Never generate output that reproduces these.
+
+- **Believing "sold out" is always a win.** In DTC/limited drops it can build hype; in mass retail it's a demand-planning failure that gets your facings replaced. *Source: "You've been sold out 200 plus days. Good problem or bad problem? ... Terrible problem. We sell a product that we promote as a daily consumption. When you can't consume it every day, it's not aligned to your mission ... ultimately, it's a problem because ... we're not doing a good enough job of supplying our customers with product they want."*
+- **Assuming brand loyalty is real and durable.** McKay treats it as a planning fantasy, not a moat. *Source: "Don't think anyone's loyal. I think that's a massive mistake brands make is they believe that brands are loyal. I mean, I try new brands all the time ... I'm willing to switch and if I can't get it, I'll definitely switch."*
+- **Launching multiple SKUs/flavors before the hero SKU proves itself.** He names this as a direct mistake he watches founders make. *Source: "What are some other big key mistakes or learnings that you would share with someone? >> I think launching too many products. I'm obsessed around businesses that can build a several hundred million dollar business with one skew ... Putting all your wood behind one arrow."*
+- **Trusting brokers/distributors to sell the product for you instead of building an owned sales team.** Called out as one of his biggest personal mistakes. *Source: "Don't go to sleep at night thinking that this guy girl is doing anything on your behalf — that's one of the biggest mistakes I've ever learned ... we've got all these brokers out there like wait for my phone, no one's calling — like build your own sales team. I'm my own sales guy."*
+- **Going into mass retail before the supply chain/unit economics can survive that scale.** He frames this as a hard gate, not a nice-to-have. *Source: "Could you build a business that is ready for that scale? So don't go into retail till you're ready for that scale ... can I sell this into Walmart and Target and still make money ... while building that supply chain out wholesale?"*
+- **Defaulting to specialty/natural retail (farmers markets, Whole Foods, Sprouts) as the "safe" first channel.** McKay treats this as the obsolete route, not the cautious one. *Source: "This is the distribution [where a] very obscure new brand would go — farmers market, Sprouts, Whole Foods, Bristol Farms. That's ... the natural route ... now ... what everyone cares about is convenience. I don't care if you're in that retail, that retailer."*
+- **Hiring specialists ("spikes") too early, before the company has the volume to justify them.** He ties hiring stage explicitly to revenue stage. *Source: "In the beginning you hire for pace, you hire more generalists ... to get you from 0.1 to 10 [million] ... Then as you evolve into 10, 20, 30, 50 million, you're hiring spikes ... generalists evolve into spikes."*
 
 ---
 
