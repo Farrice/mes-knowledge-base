@@ -107,7 +107,7 @@ Creative Strategy Brief (targeting + positioning)
 14. Map ads to awareness levels
 15. Define testing sequence
 
-### Final Deliverable:
+## Output Schema — Full-Stack Ad Campaign Package
 ```
 Full-Stack Ad Campaign Package:
 ├── Mechanism Brief (name, type, SIN score, Little Big Idea)

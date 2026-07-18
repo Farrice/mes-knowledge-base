@@ -83,7 +83,7 @@ Each script: Hook → Body (copy blocks) → CTA with mechanism threaded through
 
 ---
 
-## Output
+## Output Schema — Mechanism-First Ad Sprint Results
 
 ```
 Mechanism-First Ad Sprint Results:

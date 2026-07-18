@@ -115,7 +115,7 @@ Turn the portfolio itself into a Nuclear VSL:
 
 ---
 
-## Output
+## Output Schema — Client Portfolio Builder Package
 
 ```
 Client Portfolio Builder Package:

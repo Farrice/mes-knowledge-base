@@ -114,7 +114,7 @@ Rank the atomized ads by expected performance:
 
 ---
 
-## Output
+## Output Schema — VSL-to-Ad Atomizer Results
 
 ```
 VSL-to-Ad Atomizer Results:
