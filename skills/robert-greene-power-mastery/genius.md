@@ -2,6 +2,16 @@
 
 Source: Robert Greene podcast interview, "Ego Traps, The Art of Control, & How to Stay Irreplaceable" (2025), plus 48 Laws / Mastery frameworks he re-derives in it. Greene's constant caveat: the laws are not set in stone — "sometimes you need to do the opposite." Diagnosis of the specific situation always precedes the tactic.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Greene diagnoses the terrain first and picks the move second — if an output opens by naming a law ("Per Law 15, Crush Your Enemy Totally...") and then justifies a decision with it, the diagnosis was skipped and only the label survived. The test: would Robert Greene recognize this as his own move — reading the specific egos, insecurities, and self-interest actually in the room, then selecting (or deliberately inverting) a law to fit that terrain — or as someone using 48-Laws vocabulary to sound strategic? If it's the second, rebuild from the terrain, not the label.
+
+Specifically:
+- Do NOT number or cite which Law/Pattern was applied unless the user asked for the reference — Greene's own caveat is that "sometimes you need to do the opposite," so citing a law as justification is itself the anti-pattern (see Anti-Patterns below).
+- Do NOT open with "Using the concealment principle..." or similar meta-narration — diagnose the specific stakeholder's insecurity by name, then move, silently.
+- His texture is diagnostic and psychological before it is tactical — business is "matter-of-fact, but it's also pure psychology" — the machinery should read as read-the-room judgment, not framework recital.
+- Polish is the tell: a power map that lists all 48 laws in order, or hits every pattern in this file, is performing expertise rather than exercising it. One or two calibrated moves, correctly diagnosed, beat five generic ones.
+
 ## Genius Patterns
 
 ### Pattern: The Master Law — Never Violate an Ego
@@ -70,3 +80,14 @@ The single most important skill: get out of your own head. "You're always inside
 ### Insight: Downstream Credit Has a Failure Mode
 **Insight**: The fashionable inversion of never-outshine ("as the boss, make employees feel every idea was theirs") carries a hidden risk Greene flags: people may quietly lose respect for the credit-giving boss and get complacent — "I don't have to do much to get his approval." A boss taking most credit while granting a meaningful taste of it can drive harder work.
 **Deploy**: If you lead: give credit deliberately but not automatically — keep approval slightly scarce so it stays motivating. Watch actual output, not warm feelings, when choosing your credit strategy. "Nice, but not too nice."
+
+## Anti-Patterns (Sourced)
+
+Each item below inverts a Genius Pattern or Hidden Knowledge insight already documented above in this file — grounded in this skill's own pre-existing verbatim quotes (attributed to the *Ego Traps, The Art of Control, & How to Stay Irreplaceable* podcast conversation) plus checkable Robert Greene publication facts. **Provenance caveat** (full detail in `references/source-ledger.md`): the podcast episode is a real, dated, third-party-hosted release — confirmed this repair pass via direct search (Open Residency podcast, released 2025-10-14, runtime ~1h20m, live on Apple Podcasts/Spotify/YouTube) — but no transcript file exists anywhere in this repo, and no transcript was fetched this repair pass. Every quote below was already present in this skill's pre-repair `genius.md`; none is fabricated for this repair, but none can be checked word-for-word against a transcript either — quote precision is labeled UNCONFIRMED, while the underlying book/publication facts cited below are labeled VERIFIED against external bibliographic sources (see ledger).
+
+- **Never assume more talk equals more control** — Greene: "I'll say very little, but everybody will have their eyes on me" (Ego Traps podcast, 2025; quote pre-existing in this file's Silence as Leverage pattern above; UNCONFIRMED against a transcript). Compulsive talking gets you mapped, then disregarded.
+- **Never defend a signature strength past its shelf life** — the American Apparel case Greene cites: Dov Charney's brand "aged into passé while he held on" (Ego Traps podcast, 2025; Formlessness Over Signature Strength pattern above; UNCONFIRMED against a transcript). The ego, not the market, is what refuses to move.
+- **Never approach a powerful person with appeals to gratitude or past favors** — Greene calls "I helped you once, please help me" the worst approach available (Ego Traps podcast, 2025; Appeal to Self-Interest pattern above; UNCONFIRMED against a transcript).
+- **Never accept a "free" offer at face value** — Greene's own line: "Robert, you don't need to pay me" always concealed a ploy (Ego Traps podcast, 2025; Despise the Free Lunch pattern above; UNCONFIRMED against a transcript).
+- **Never run permanent concealment inside your own team** — Greene is explicit that leaders should be "very directly and very honestly" transparent with the people they lead, reserving opacity for rivals only (Ego Traps podcast, 2025; Selective Concealment pattern above; UNCONFIRMED against a transcript).
+- **Never treat a law as fixed regardless of terrain** — checkable against Greene's own bibliography rather than this file's quotes: he has published six distinct law-systems since 1998, each re-deriving new terrain-specific rules rather than reissuing one static rulebook (*The 48 Laws of Power*, Viking, 1998; *The Art of Seduction*, 2001; *The 33 Strategies of War*, Viking, 2006; *Mastery*, Viking, 2012 — which profiles Paul Graham among its subjects, corroborating the Mastery Is Combination insight above; *The Laws of Human Nature*, Viking, 2018) — VERIFIED against publisher/bibliographic records (see `references/source-ledger.md`). Applying "Law 1" as a mechanical stamp misreads an author whose body of work keeps re-deriving new systems, not repeating one.
