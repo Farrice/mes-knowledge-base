@@ -1,5 +1,46 @@
 # Michael Margolis — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the shape of Margolis's
+sprint — narrow past comfort, recruit like a control freak, listen instead of pitch — then
+build originally for the situation in front of you. If the output mechanically stamps
+"Inclusion / Exclusion / Triggers" as labeled headers in a deliverable meant for a founder,
+you have failed the spirit of the method even if the checklist is technically complete.
+The test: would Margolis recognize this as a team that actually got picky about who they
+talked to and actually listened — or as someone reciting Bullseye vocabulary at a founder
+who still hasn't chosen? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce the machinery ("Step 1: Inclusion Criteria," "Now applying the
+  Two-Part Interview Arc"). Margolis runs the sprint conversationally — the team feels
+  guided, not processed. Execute the move; never label it on the page.
+- Do NOT let the bullseye stay comfortable. His whole value is pushing narrower than the
+  room wants to go ("comically narrow"); a deliverable that lets a vague ICP survive
+  untouched has not done the job, regardless of how many attributes it lists.
+- His texture is warm-skeptical, not academic: cheerful noob in interviews, ruthlessly
+  picky about recruiting, allergic to reports. Keep any generated interview guide,
+  screener, or takeaways form sounding like something a founder would actually run today
+  — not a research-methodology essay. Polish that reads like a whitepaper is the tell
+  that the machinery leaked through.
+
+## Anti-Patterns (Sourced)
+
+Every item below is a documented Margolis failure mode or explicit warning, quoted from the
+primary source transcript (Lenny's Podcast, "Identify your bullseye customer in one day,"
+YouTube video B6Dt1sgGmLI — captured via claude.ai export conversation
+`81526288-a470-4353-b247-20ebab6da854`, dated 2025-10-09, cross-confirmed against the
+near-identical independent capture `8f994738-1c58-451a-8435-6f475c739237`, dated
+2025-09-05; both raw transcripts, timestamps in mm:ss). Each item ends with the
+recognition test against Margolis's actual pattern, not generic UX-research advice.
+
+- **Mushy recruiting is the #1 traced cause of a wasted sprint day.** Margolis, on what goes wrong: "we did not select specifically... we didn't recruit specifically enough and weren't picky enough about Bullseye customers... you let the bullseye bleed a little too much in the end you're like yeah I don't I'm not sure what the conclusions are to draw here — it just feels mushy" (transcript 79:42–80:19, dated 2025-10-09). Would Margolis recognize this as his own named failure trace — a session that "just didn't work well" because the team quietly loosened who got interviewed — or as a generic "screen your participants" tip? The former; loose recruiting is the specific, diagnosable cause he names, not a vague caution.
+- **Outsourcing note-taking to AI trades presence for a transcript.** "We have people manually taking notes and not using AI to take notes... we want people to lean in to this experience... if you know somebody else is taking notes it tends to maybe make you lean out a little bit or maybe you checked your Slack" (transcript 69:50–70:22, dated 2025-10-09). Would Margolis recognize this as the actual mechanism behind his no-report watch party — the team's undivided attention IS the deliverable — or as boilerplate "take good notes" advice? The former; he explicitly names the AI-notes shortcut as the thing that breaks engagement, not efficiency.
+- **A telegraphing screener recruits liars, not bullseyes.** "If I were to say I will pay $125 to anybody who... listens to Lenny's podcast... I'm going to get a bazillion people who [say] I will take that $125... I don't know if you actually listen" versus asking open-ended ("what are some of the podcasts you listen to") so the truth-tellers surface (transcript 43:52–44:56, dated 2025-10-09). Would Margolis recognize this as the precise recruiting trap his indirect-question technique was built to defeat — or as a generic "write clear survey questions" note? The former; the failure mode is named with his own incentive-payment example, not abstracted.
+- **Testing one prototype breeds an overcommitted darling.** "You can get a little overcommitted — there's a risk that you get overcommitted to one idea you're polishing" — comparing two or three instead "pushes teams to think of new different possibilities" and keeps them "a little bit more neutral" (transcript 17:59–18:31, dated 2025-10-09). Would Margolis recognize this as the couch-shopping logic behind his three-recipe rule — comparison shopping prevents premature attachment — or as vague "test more than one version" advice? The former; he names the psychological mechanism (attachment via polishing), not just a testing-volume preference.
+- **Not narrow enough is the default, and the room will resist the fix.** Citing Andy Johns's phrase, "it should feel comically narrow," Margolis describes the pushback he expects and pushes through anyway: "there are times that teams will just be like oh for God's sakes Margolis... this is too much" (transcript 26:09–27:10, dated 2025-10-09). Would Margolis recognize this as the exact resistance he meets at the start of nearly every sprint — narrowing feels wrong to the room until it's proven right — or as a throwaway "know your audience" platitude? The former; the discomfort is the expected, named signal that narrowing is working, not a side effect to smooth over.
+- **Stated intent without a behavioral trace is noise, not a takeaway.** "Put more weight on past experiences than on people's predictions of what they would do... I put much more weight in that as [building] the trajectory of what [they'll actually do]" (transcript 82:27–82:49, dated 2025-10-09). Would Margolis recognize this as his standing two-part-interview discipline — the discovery half exists precisely to weight demonstrated behavior over promised behavior — or as a truism any interviewer could claim? The former; he ties it directly to the structural reason his interviews are discovery-first, not prototype-first.
+
 ## Genius Patterns
 
 ### Pattern: Comically Narrow Beats Confidently Broad
