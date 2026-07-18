@@ -12,6 +12,18 @@ Your operating belief: these principles aren't rules someone invented — they'r
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These 18 patterns are gravitational forces, not a checklist. Absorb them until they're intuition, then build originally. The recognition test: would Pressfield recognize this as a story obeying physics — or as a piece of content that's merely using his vocabulary? If it's the second, rebuild before shipping.
+
+Specifically:
+- Do NOT label sections "here's the curse," "here's the All Is Lost beat," or enumerate which gravitational forces you deployed. Deploy the force; never announce it. Pressfield's own examples never explain themselves — the audience "can kind of see the climax" without being told to look ("the word comes down to Rocky, you've been chosen to fight the champ… we can kind of see the climax," `extractions/steven-pressfield/transcript.txt`).
+- Do NOT reach for scale as a stakes shortcut. Pressfield's physics run on cost and specificity, not size — the Godfather midpoint reframe isn't bigger because more people die, it's bigger because "the stakes are bigger, the story's really taken on a new form, a new meaning" (`extractions/steven-pressfield/transcript.txt`).
+- His texture is oral and reconstructive, not academic. He teaches by re-telling Rocky, Casablanca, Braveheart, Shane, the Godfather scene-by-scene, and only names the underlying force afterward, if at all. Match that order in output: show the beat, then (only if asked) name the force. Naming the framework before the story is the tell that the machinery leaked onto the page.
+- Beauty is Aim 5, not Aim 1. Polish without the curse/villain/sacrifice triad underneath it is "Beautiful But Empty" (AN-7) — decoration standing in for physics. Pressfield's own standard is that beauty is "an antidote to anxiety" (`extractions/steven-pressfield/transcript.txt`) that makes hard truth *bearable*, never a replacement for having a hard truth in the first place. If the output reads well but nobody sacrifices anything, it has failed regardless of how it reads.
+
+---
+
 ## The 18 Genius Patterns
 
 ### Structural Forces
@@ -98,6 +110,8 @@ Children and animals carry innocence, truth, the supernatural. They see what adu
 
 Pressfield's most famous contribution to creative life. The Resistance is not a metaphor — it's a **diagnostic framework** for understanding why talented people fail to produce. These patterns apply to any creator, founder, or professional who knows what they should be doing but can't seem to do it.
 
+> **Provenance note (added this repair pass)**: this section describes the framework from Pressfield's published book *The War of Art*. Neither `extractions/steven-pressfield/transcript.txt` (the David Perell "How I Write" interview transcript that grounds the rest of this file) nor `extractions/steven-pressfield/extraction-report.md` contains this material — the interview is about narrative architecture, not Resistance. This section is preserved as-is (it is accurate to the published book, a real and famous text) but its claims are labeled **UNCONFIRMED** against local sources in `references/source-ledger.md` rather than anchored to a file that doesn't contain them. See that ledger for the search performed (including `_archive/claude-export-2026-07-01.tar.gz`) before reaching that conclusion.
+
 **R1: The Resistance as Universal Creative Antagonist**
 Resistance is an impersonal force — not laziness, not lack of talent. It's a gravitational field that opposes any act of creation, transformation, or ascent. It is strongest when the stakes are highest. If you feel massive Resistance toward a project, that's a *signal* — it means the project matters. Resistance is the compass: whatever you're most afraid of creating is what you most need to create.
 
@@ -126,40 +140,28 @@ Every creative output must achieve ALL five:
 
 ## Pressfield Would Never... (Anti-Patterns)
 
-### AN-1: Status Report Disguised as Story
-"We launched our product and got customers and grew 40%." That's a report — not a story. There's no curse, no sacrifice, no transformation. The protagonist ends the same person they started as, just with different numbers. If there's no Point A → Point Z identity shift, it's a status report wearing narrative clothing.
+Every item below is anchored against `extractions/steven-pressfield/transcript.txt` (the David Perell "How I Write" interview transcript, added to this repo 2026-03-05, 62,549 bytes, verified via `wc -c`) or `extractions/steven-pressfield/extraction-report.md` — the two local sources that ground this skill. Full claim-by-claim status in `references/source-ledger.md`.
 
-**Detection**: Can you identify the moment where the character's identity changed? If not → status report. Rewrite with a curse, a sacrifice, and a revelation.
+- **AN-1: Status Report Disguised as Story** — "We launched our product and got customers and grew 40%." That's a report, not a story: no curse, no sacrifice, no transformation, the protagonist ends the same person they started as with different numbers. Pressfield's own bar for when a story earns real weight is that the stakes cross a threshold — describing the Godfather midpoint, he says "the stakes are bigger, the story's really taken on a new form, a new meaning" (`extractions/steven-pressfield/transcript.txt`). A status report never crosses that threshold.
+  **Detection**: Can you identify the moment where the character's identity changed? If not → status report. Rewrite with a curse, a sacrifice, and a revelation.
 
-### AN-2: Transformation Without Cost
-"She overcame her fear and achieved her dream." Where's the sacrifice? What did she give up? Pressfield's physics demand that identity transformation costs something real. Katie can't keep the crown AND her integrity. Bogart can't keep Bergman AND his principles. If the hero gets everything, the audience feels nothing — because it violates the pattern they recognize from their own life.
+- **AN-2: Transformation Without Cost** — "She overcame her fear and achieved her dream." Where's the sacrifice? Pressfield draws the hero/villain line directly on this axis: "the hero is capable of self-sacrifice... will give up his hopes of happiness or something like that for the greater good, whereas for a villain, it's always kind of a zero sum game" (`extractions/steven-pressfield/transcript.txt`). If the hero gets everything, the audience feels nothing — because it violates the pattern they recognize from their own life.
+  **Detection**: What did the protagonist sacrifice? If nothing → the transformation is free → the audience won't believe it.
 
-**Detection**: What did the protagonist sacrifice? If nothing → the transformation is free → the audience won't believe it.
+- **AN-3: Villain-Free Narratives** — No villain = no story. Pressfield credits this principle directly to Randy Wallace, screenwriter of *Braveheart*: "the second act belonging to the villain... the first act kind of introduces the hero but in the second act the villain has to come forward. In other words, the obstacles [dominate]" (`extractions/steven-pressfield/transcript.txt`). The villain doesn't need to be a person — a system, a belief, Resistance itself all qualify — but something must oppose the hero.
+  **Detection**: Name the villain. If you can't → add one. "The status quo" is a valid villain. "Nothing" is not.
 
-### AN-3: Villain-Free Narratives
-No villain = no story. The villain doesn't need to be a person — it can be a system, a belief, a condition, Resistance itself. But something must OPPOSE the hero. Without opposition, there's no drama. Without drama, there's no attention. Without attention, there's nothing.
+- **AN-4: Explaining The Theme Instead of Embedding It** — "The theme of this story is that perseverance overcomes adversity." That sentence kills the story. This skill's own extraction names "give it meaning (theme)" as Aim 3 of the Five Aims (`extractions/steven-pressfield/extraction-report.md`, "The Five Aims of a Writer" section) — a standard the work must *achieve*, never *announce*. Self-extracted themes land harder than stated ones.
+  **Detection**: Search for any sentence beginning "This story is about..." or "The lesson is..." — each is a theme violation. Cut it. Let the story teach.
 
-**Detection**: Name the villain. If you can't → add one. "The status quo" is a valid villain. "Nothing" is not.
+- **AN-5: Rushing Act Two (Solving Too Fast)** — If the protagonist overcomes the obstacle in the same paragraph they encounter it, the tension is dead. Pressfield describes the real shape of that midpoint collapse: "the hero has been trying all through the story to overcome certain obstacles... and at this point, they reach a beat where everything falls apart... we're never going to get out of this" (`extractions/steven-pressfield/transcript.txt`) — that beat has to be sat in, not skipped past.
+  **Detection**: How long does the audience sit with the problem before the solution appears? If less than 40% of the total narrative → Act Two is too short. Extend the darkness.
 
-### AN-4: Explaining The Theme Instead of Embedding It
-"The theme of this story is that perseverance overcomes adversity." That sentence kills the story. Theme is the gravitational field — you feel it, you don't hear it announced. Pressfield never states the theme. He builds it through action, sacrifice, and consequence. The audience extracts the theme themselves, and self-extracted themes are 10x more powerful than stated ones.
+- **AN-6: Hook Without Promise** — An opening that creates curiosity but doesn't let the audience project the climax. Pressfield's own Rocky example is the counter-case: "the word comes down to Rocky, you've been chosen to fight the champ... we can kind of see the climax. We sort of flash forward" (`extractions/steven-pressfield/transcript.txt`). The inciting incident must let the audience see the ring, not just wonder what happened.
+  **Detection**: Can the audience visualize the climax from the opening? If the hook creates "what happened?" but not "how will this end?" → missing the promise.
 
-**Detection**: Search for any sentence that begins with "This story is about..." or "The lesson is..." or "What this shows is..." — each one is a theme violation. Cut it. Let the story teach.
-
-### AN-5: Rushing Act Two (Solving Too Fast)
-The villain owns Act Two. If your protagonist overcomes the obstacle in the same paragraph they encounter it, you've killed the tension. The audience needs to sit in the darkness. They need to feel that maybe this problem WON'T be solved. Rocky can't win against Apollo — the agony of that impossibility is what makes "going the distance" transcendent.
-
-**Detection**: How long does the audience sit with the problem before the solution appears? If less than 40% of the total narrative → Act Two is too short. Extend the darkness.
-
-### AN-6: Hook Without Promise
-An opening that creates curiosity but doesn't let the audience project the climax. "Something terrible happened" creates curiosity. "Rocky gets chosen to fight the heavyweight champion" creates curiosity AND projection — you can SEE the ring, the fight, the stakes. The inciting incident must be a future-flash, not just attention-grabbing.
-
-**Detection**: Can the audience visualize the climax from the opening? If the hook creates "what happened?" but not "how will this end?" → missing the promise.
-
-### AN-7: Beautiful But Empty
-Craft without content. Gorgeous prose that says nothing. Pressfield demands beauty — but beauty as a VEHICLE for difficult truth, not as decoration. "Make it beautiful" is Aim 5, but it comes AFTER heightening drama, externalizing internal states, giving meaning, and making it universal. Beauty alone is a failing grade.
-
-**Detection**: Strip the craft from the content. Is there a story underneath? If the beauty is the only thing holding attention → the substance is missing.
+- **AN-7: Beautiful But Empty** — Craft without content. Pressfield's own ordering is explicit — beauty makes hard truth bearable, it doesn't replace having one: "an antidote to anxiety is beauty... the pros[e] has to be be[autiful]" (`extractions/steven-pressfield/transcript.txt`) is Aim 5, arriving after drama, externalization, meaning, and universality, never instead of them.
+  **Detection**: Strip the craft from the content. Is there a story underneath? If the beauty is the only thing holding attention → the substance is missing.
 
 ---
 
