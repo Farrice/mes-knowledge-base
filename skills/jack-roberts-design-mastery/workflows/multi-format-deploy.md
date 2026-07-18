@@ -169,3 +169,20 @@ Organize all outputs into a cohesive delivery:
 - Cross-format consistency report
 - Per-format Anti-Slop scores
 - Usage guide for reproducing any format on demand
+
+## Output Schema
+```
+Multi-Format Package: [brand name]
+├── DESIGN.md                    (source of truth, unchanged)
+├── [format]/                    (one folder per selected format — website/presentations/social/reports/email/brand-kit)
+├── Cross-Format Consistency Report   (Phase 4 table results: Color/Typography/Mood/Logo/Quality/Brand-recognition match)
+├── Per-Format Anti-Slop Scores  (one score per format produced)
+└── README.md                    (usage guide for reproducing any format on demand)
+```
+
+## Quality Gate
+- Phase 1 readiness audit fully checked before production starts — deploying from an under-specified DESIGN.md (fewer than 8 palette colors, fewer than 3 typography levels) is a failed gate, not a shortcut.
+- Every format produced passes its own `/anti-slop-audit` — no format ships without a logged score.
+- Phase 4's Cross-Format Consistency Check passes on all 6 rows — most critically, the "Brand recognition" row: removing labels, a viewer could still tell all formats are the same brand.
+- Image generation (Phase 3.5) uses one consistent illustration style across every format — mixing stock photography in one format with generated imagery in another fails this gate.
+- Package Delivery folder structure matches the Phase 5 schema — a README.md documenting usage is present for every format actually produced.

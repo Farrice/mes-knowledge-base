@@ -105,3 +105,21 @@ If the site needs custom visuals (hero images, illustrations, icons):
 - Local dev server running for preview
 - Anti-Slop scorecard (pass/fail on each criterion)
 - Design decision log: which DESIGN.md tokens mapped to which elements
+
+## Output Schema
+```
+Website Build: [site name/purpose]
+├── index.html + assets/       (semantic HTML5, DESIGN.md tokens only, mobile-first)
+├── Build Spec                 (Phase 2 — per-section Layout/Colors/Typography/Spacing/Components/Imagery/Animation)
+├── Anti-Slop Scorecard         (Phase 4 — pass/fail on all 10 criteria)
+├── Design Decision Log        (token → element mapping)
+└── Local dev server           (running, viewport-tested at 375/768/1024/1440)
+```
+
+## Quality Gate
+This workflow's Quality Gate is Phase 4 above — all 10 criteria required before presenting the build:
+- No purple gradients or Inter font unless the DESIGN.md explicitly specifies them.
+- No default three-column rounded-box layout unless genuinely the best structural choice — and if so, that choice is stated, not defaulted into.
+- Every color and font-size traces to a DESIGN.md token — Phase 3's Code Quality Standards ("NO hard-coded hex values outside the system") is a hard requirement, checked, not assumed.
+- Mobile layout is deliberately designed — tested at all four breakpoints named in Phase 3 (375px, 768px, 1024px, 1440px), not just desktop-stacked.
+- If custom imagery was generated (Phase 4.5), no stock placeholders remain in the final output.

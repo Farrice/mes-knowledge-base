@@ -146,3 +146,25 @@ Run the completed DESIGN.md through these checks:
 - `DESIGN.md` — Complete design system specification
 - Optional: `design-references/` folder with collected visual references
 - Quality Score: Rate 1-10 on Brand Fidelity, Visual Sophistication, Anti-Slop, System Coherence, Implementability
+
+## Output Schema
+```
+DESIGN.md: [Project/Brand Name]
+├── 1. Visual Theme & Atmosphere
+├── 2. Color Palette & Roles       (Primary/Secondary/Accent/Neutrals/Status — each hex + functional role)
+├── 3. Typography Rules            (Font Stack + Scale, H1 through Small/Caption)
+├── 4. Component Styles            (Buttons/Cards/Inputs/Navigation)
+├── 5. Layout Principles           (Max width, grid, spacing, responsive strategy)
+├── 6. Imagery & Iconography
+├── 7. Motion & Animation
+├── 8. Anti-Slop Rules             (explicit, specific "never do this" list)
+└── Quality Score                  (1-10 each: Brand Fidelity, Visual Sophistication, Anti-Slop, System Coherence, Implementability)
+```
+
+## Quality Gate
+This workflow's Quality Gate is Phase 3 above, all five checks required before the DESIGN.md is considered done:
+- **Completeness**: every one of the 8 mandatory sections is filled with specific values — a "[size]" or "[hex]" placeholder left in the shipped file fails this gate.
+- **Anti-Slop**: at least 3 named features distinguish this system from AI defaults (Section 8 is not empty or generic).
+- **Implementability**: a developer could build one component using only this document — no missing token a builder would have to guess.
+- **Coherence**: color, typography, and spacing choices tell one unified visual story, not three disconnected decisions.
+- **Brand Fidelity** (Option A only): a side-by-side comparison against the source URL confirms the extraction is accurate, not approximated from memory.

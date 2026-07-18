@@ -161,3 +161,24 @@ Week 4:   Your feed has visual consistency — followers notice the pattern
 Week 12:  Your content is recognizable at a glance — brand equity compounds
 Week 26:  People screenshot YOUR posts as examples of "good design" — you've become a reference
 ```
+
+## Output Schema
+```
+Content Brand Package: [your name/brand]
+├── DESIGN.md                  (Content Brand Design System — 5 sections above)
+├── templates/
+│   ├── carousel.html          (10 slides)
+│   ├── newsletter-header.html
+│   ├── social-post-card.html  (3 variations)
+│   └── video-thumbnail.html   (2 variations)
+├── Cross-Platform Consistency Report   (Phase 4 table results)
+├── Quick-Reference Brand Card          (colors, fonts, signature element, template path)
+└── Enshrined skill file        (via /design-skill-enshrine, Phase 5)
+```
+
+## Quality Gate
+- Phase 4's 5-item Cross-Platform Consistency Test all pass — any "Fail" is fixed before the package is called done, per the workflow's own instruction.
+- Color palette is capped at 4-5 colors (Phase 2 NOTE) — more reads as visual noise and fails this gate.
+- Every generated template includes at least ONE Brand Recognition Element (Phase 2, Anti-Slop Rules) — a template with zero brand markers does not pass.
+- No default Canva template colors or generic stock photography anywhere in the template library (Phase 2 Anti-Slop Rules for Content).
+- Enshrinement (Phase 5) is completed, not left as a future step — the deliverable is a working one-command skill, not just a DESIGN.md file sitting unused.

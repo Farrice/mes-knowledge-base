@@ -110,3 +110,19 @@ The awesome-design-md repository includes 55+ brands. High-quality examples:
 - **Design Tools**: Framer, Webflow
 
 > **Pro Tip**: Even if you don't use a template directly, browsing 3-5 excellent DESIGN.md files teaches you what world-class design systems look like — training your eye before building from scratch.
+
+## Output Schema
+```
+Library Import Result: [source brand/template] → [project name]
+├── DESIGN.md                    (customized, production-ready)
+├── Template Attribution Note    (source brand + awesome-design-md library version)
+├── Customization Changelog      (diff of what changed from the original template)
+└── Quality Score                (1-10 each: Completeness, Anti-Slop, Coherence, Format Fit)
+```
+
+## Quality Gate
+- Phase 2's Completeness check scores 7+ before the template is approved for customization — a template with major gaps is flagged and either patched or rejected, not silently used.
+- Every token in the customized DESIGN.md carries a descriptive name + hex/value + functional role (Phase 3, Token Verification) — no bare hex codes with no role annotation.
+- Phase 4's Coherence Test explicitly passes: swapped colors don't break palette harmony — verify by eye against the original template, not just by listing the new hex values.
+- Implementation Test (Phase 4.3) is run — a sample component is actually generated from the customized DESIGN.md before delivery, not assumed to work.
+- Template attribution is preserved in the delivered DESIGN.md (source brand + library, per Phase 5) — shipping a forked template with the origin stripped fails this gate.

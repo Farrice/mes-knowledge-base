@@ -134,3 +134,20 @@ After each round, document changes:
 - Iteration log documenting all changes and decisions
 - Final Anti-Slop score
 - Sign-off confirmation
+
+## Output Schema
+```
+Iteration Loop Result: [design name]
+├── Iteration Log            (one "### Round [#]: [Focus Area]" block per round actually run — Changes made / Remaining issues / Quality improvement)
+├── Rounds Completed: __/5   (which of the 5 named rounds ran: Structural / DESIGN.md Compliance / Micro-Polish / Animation / "Would I Pay For This?")
+├── Final Anti-Slop Score: __/15
+├── Refined design            (the production-quality artifact itself)
+└── Sign-off confirmation     (stop condition met: score ≥13, user said "this is it", diminishing returns, or Round 5 reached)
+```
+
+## Quality Gate
+- Stop condition is one of the four named in "When to stop iterating" — never stop mid-round without hitting one explicitly.
+- Round 2 (Design System Compliance) checklist fully checked off — no rogue hex values, no off-scale font sizes, before Round 3 polish begins. Rounds run in order; skipping Round 2 to jump to polish is a failed gate.
+- If the design contains any data, stat, or claim, Round 5's sub-agent factcheck runs before sign-off — per the workflow's own "non-negotiable for client-facing work" language.
+- Iteration Log has a "Quality improvement: [Score before → after]" entry for every round that ran — a round with no logged before/after is not counted as complete.
+- If Round 5 is reached without hitting 13+/15, the DESIGN.md itself is re-evaluated (per the Maximum rule) rather than continuing to iterate the same broken foundation.

@@ -119,3 +119,25 @@ Test the philosophy against these criteria:
 - Reference collection with annotations
 - Anti-Slop checklist specific to this project
 - Ready to feed into: `/design-system-forge`, `/website-build`, `/presentation-build`
+
+## Output Schema
+```
+Design Philosophy Document: [project name]
+├── Paragraph 1: Core Aesthetic Vision   (named movement, e.g. "Brutalist Joy")
+├── Paragraph 2: Spatial Philosophy
+├── Paragraph 3: Material & Color Language
+├── Paragraph 4: Typography as Voice
+├── Paragraph 5: Anti-Slop Declaration   (3-5 rejected patterns + replacements)
+├── Paragraph 6: Craftsmanship Standard  (the "done" test)
+├── Reference Collection                 (annotated, per Phase 2 extraction questions)
+└── Anti-Slop Checklist                  (project-specific, feeds /design-system-forge)
+```
+
+## Quality Gate
+This workflow's Quality Gate is Phase 4 above, run against the finished document before handoff:
+- **Specificity**: two different designers reading the document would produce recognizably similar work — vague adjectives ("modern," "clean") fail this criterion.
+- **Distinctiveness**: at least 3 named Anti-Slop features in Paragraph 5 — fewer than 3 fails the gate.
+- **Completeness**: color, type, space, motion, and mood are all explicitly addressed — a philosophy silent on motion is incomplete.
+- **Implementability**: a developer could translate the philosophy into CSS in under an hour — abstract mood language with no concrete mapping fails.
+- **Emotional clarity**: the intended audience feeling is stated in one sentence a reader can repeat back correctly.
+- Document is not handed to `/design-system-forge` until all five criteria pass — a philosophy that fails Specificity or Distinctiveness produces a generic DESIGN.md downstream.

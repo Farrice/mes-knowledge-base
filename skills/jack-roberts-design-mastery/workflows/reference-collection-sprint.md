@@ -145,3 +145,20 @@ Compile into a single reference document:
 - Reference screenshots saved locally
 - Pattern synthesis with actionable design direction
 - Clear handoff to the next workflow in the pipeline
+
+## Output Schema
+```
+Design Reference Package: [project name]
+├── Target Definition          (Format, Mood x3, Anti-targets x3)
+├── Top 5 References (Ranked)  (full Step 3 annotation per reference: What makes this excellent / Decisions worth stealing / What to avoid / Transferable pattern)
+├── Design Pattern Extraction  (Must-Have Patterns 3-5, Signature Moves 2-3, Anti-Slop Declaration 2-3)
+├── Direction Recommendation   (2-3 paragraphs)
+└── Next Step                  (named handoff workflow)
+```
+
+## Quality Gate
+- Reference count falls in the 10-15 sweet spot named in Step 1 — fewer than 10 references produces a thin, unreliable pattern synthesis.
+- Every reference in Step 3 names at least 3 specific elements ("clean" or "nice" fails — must name the actual color, typography, or layout decision).
+- Pattern Synthesis (Step 4) produces at least 3 Common Patterns AND at least 2 Anti-Patterns — a package with zero rejected references has not done real curation.
+- Anti-Slop Declaration in the final package is populated (not left as "[Specific patterns rejected]" placeholder text) — this feeds directly into `/design-philosophy-architect`'s Paragraph 5.
+- Next Step names the specific downstream workflow (`/design-philosophy-architect` or `/design-system-forge`) rather than leaving the handoff implicit.

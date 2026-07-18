@@ -128,3 +128,21 @@ If the design contains any factual claims, statistics, quotes, or data:
 - Content Truth Report (if factual claims present)
 - DESIGN.md Compliance Report (if applicable)
 - Revised design (optional — apply the fixes automatically)
+
+## Output Schema
+```
+Anti-Slop Audit: [design name/URL]
+├── First-Impression Scan: [3 gut-reaction answers]
+├── 15-Point Scorecard: [table, 0/1 per check, grouped Color/Typography/Layout/Detail/Soul Slop]
+├── Total Score: __/15 → Grade band [Zero Slop / Minimal / Moderate / High / Full]
+├── Anti-Slop Prescription: [one block per FAILED check — Current/Problem/Fix/Reference]
+├── DESIGN.md Compliance Report (if DESIGN.md supplied): [Tokens Used %, Drift Points, Missing Tokens]
+└── Content Truth Report (if factual claims present): [Claims Verified %, Corrections Needed, Sources Missing, Outdated Data]
+```
+
+## Quality Gate
+- All 15 checklist items scored — no item left blank; each 0 has a matching Prescription entry.
+- Grade band stated explicitly (not just the raw number) using the Step 3 scale.
+- Content Truth Audit run whenever the design contains a stat, quote, date, or named source — per the Gate rule, a 15/15 visual score with unverified claims is graded as slop, not passed.
+- DESIGN.md Compliance Report present whenever a DESIGN.md was supplied as input — absence of the report when a DESIGN.md exists is itself a failed gate.
+- Every prescribed fix names a specific value (a hex code, font name, or pixel measurement) — "make it less generic" is not an acceptable fix.

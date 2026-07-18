@@ -156,3 +156,21 @@ If building a NEW brand that needs to differentiate from existing competitors:
 - Confidence assessment: How complete is the extraction?
 - Competitive Contrast Map (if comparison mode used)
 - Differentiation Prescription (if comparison mode used)
+
+## Output Schema
+```
+Brand DNA Package: [brand name]
+├── DESIGN.md                       (Design System Forge format — all 8 sections)
+├── Brand DNA Source                (URL, extraction date, pages analyzed, confidence level)
+├── Brand Personality Notes         (2-3 sentences)
+├── Replication Guidelines          (the #1 distinctive element)
+├── brand-assets/                   (logos, screenshots, reference images)
+└── Competitive Brand DNA Comparison (optional — table + Differentiation Prescription)
+```
+
+## Quality Gate
+- Every color token in the DESIGN.md is validated against the actual rendered site (Step 2's validation check) — no color guessed from memory of "brand-typical" hues.
+- Confidence Level is stated honestly (High/Medium/Low) and reflects real access — a site that blocked scraping gets Low, not a default High.
+- Logo extraction includes at least one vector (SVG) or high-resolution fallback — no placeholder logo shapes.
+- Competitive Comparison Mode is run whenever the brief is "build a NEW brand to compete with X" — per Step 9, skipping this when competitors are named is a failed gate, not an optional step.
+- Replication Guidelines names ONE specific distinctive element, not a generic summary ("clean and modern" fails this gate).

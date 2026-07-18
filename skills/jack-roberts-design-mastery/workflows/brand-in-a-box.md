@@ -164,3 +164,23 @@ Your value-add:     Taste judgment, client communication, quality gate
 Scalability:        2-3 per week once systems are proven
 Monthly potential:  $20,000-$60,000
 ```
+
+## Output Schema
+```
+Client Delivery: [client name] Brand-in-a-Box
+├── DESIGN.md                    (master design system, ≥5 Anti-Slop rules)
+├── website/index.html           (complete landing page)
+├── presentation/template.html   (10-slide deck)
+├── social/{post,carousel,story}-template.html  (3 formats)
+├── brand-assets/                (logo.svg, color-palette.md, typography-guide.md)
+├── anti-slop-report.md          (per-asset scores: website/presentation/social)
+├── README.md                    (usage + modification + common-mistakes guide)
+└── Revenue Math                 (hours logged, tier price, effective rate — for your own tracking)
+```
+
+## Quality Gate
+- Website and presentation each score 13+/15 on `/anti-slop-audit`; social templates score 12+/15 — per Hour 24-36, anything below threshold is iterated, never shipped as-is.
+- Cross-format consistency check completed and passing: same color usage, same typography personality, same spacing rhythm across all three tracks.
+- DESIGN.md carries at least 5 explicit "never do this" rules (Hour 4-12 requirement) — a DESIGN.md with zero rejections does not clear this gate.
+- No placeholder content in the delivered package — content truth check from Hour 24-36 confirms real client copy or clearly-marked sample copy, never lorem ipsum.
+- README documents at least the 4 items listed in Hour 36-48 (AI-tool usage, modification, regeneration, anti-slop rules) before delivery.

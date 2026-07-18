@@ -7,9 +7,25 @@
 
 Jack Roberts is a tech founder who built and sold a startup with 60,000+ customers and now runs a fast-growing AI startup. His methodology bridges the gap between world-class visual design and AI code generation. He discovered that by codifying design principles into plain-text markdown files (DESIGN.md), AI agents can replicate any visual style infinitely — eliminating the need for Figma, Canva, or traditional design tools.
 
+---
+
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist. Absorb the 5-Step System, then build originally — do not narrate it. If the output literally prints "Step 1: Pick Format, Step 2: Equip Integrations…" as section headers in a client deliverable, you have failed the spirit of this skill exactly as surely as if you'd shipped a purple gradient. The test: would Jack Roberts recognize this as a system someone actually built and shipped — or as someone reciting design vocabulary at a prospect? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which Step or Genius Pattern you applied unless asked. Execute Reference-First Excellence; never write "per Reference-First Excellence (Pattern #5)."
+- Do NOT announce the Anti-Slop scan ("checking for purple gradients now…"). Just don't ship the purple gradient.
+- Jack Roberts' texture is founder-practical, not designer-precious: he talks in dollars-per-image (~$0.06 via Kia API for Nano Banana 2), stars-per-week (56,100+ on `awesome-design-md`), and hours-per-deliverable (the 48-hour Brand-in-a-Box turnaround). He never reaches for abstract taste language — keep recommendations tied to a concrete number, tool, or price whenever one exists in the source material.
+- Polish is the tell-class failure here specifically: a DESIGN.md with every section filled but zero "never do this" rules is the same slop it claims to prevent. A design system without explicit rejections ("no Inter font," "no now-live/beta chips") is missing its spine — Jack's own iteration language is rejection-first ("I don't like the now live and beta. Let's never have that."), not addition-first.
+
+---
+
 ## The Central Thesis
 
 **Code can be turned into design.** Typography scales, spacing systems, color tokens, layout grids — if you can explain to an AI what great design looks like, you can produce it on demand, in any style, as many times as you want. The unlock: once you know design components, you give the AI the assets, explain what "good" looks like, and drive it.
+
+> Jack Roberts: "AI is incredible at code. Design can actually be codified. This is the central premise of this and why claude code is exceptional."
 
 ## The AI Slop Apocalypse (The Problem)
 
@@ -18,7 +34,7 @@ The biggest criticism of AI-generated content: it all looks exactly the same.
 - Purple gradients everywhere
 - Inter font on everything
 - Classic three rounded boxes
-- "You can see it a mile away"
+- "You can see it a mile away."
 
 **The data**: Quality sites convert 91% better than generic ones (Inblad Science). The market punishes sameness. This methodology exists to systematically destroy AI slop.
 
@@ -99,8 +115,12 @@ Convert the refined design process into a reusable, one-command skill:
 ### 1. Codify-Once-Replicate-Infinitely
 The master pattern. Every design decision, once perfected, becomes a permanent system instruction. You never solve the same design problem twice.
 
+> Jack Roberts: "We're going to codify something once and once we do that, we can replicate it infinitely."
+
 ### 2. DESIGN.md as Source of Truth
 A plain-text markdown file — no Figma, no JSON, no special tooling — that captures the complete design language of any brand or style. The AI reads markdown better than any other format.
+
+> Jack Roberts, on the format itself: "it's a markdown file, no Figma export, no JSON schema, no special tooling."
 
 **DESIGN.md anatomy:**
 - Visual Theme & Atmosphere (mood, density, aesthetic philosophy)
@@ -116,6 +136,8 @@ Deliberately combating AI's default aesthetic by:
 - Defining what excellence looks like before generation
 - Using real-world design systems as templates, not AI imagination
 
+The 91%-better-conversion stat (Inblad Science, cited in the source video) is the business case for treating this as architecture, not decoration — "you can see it a mile away" when a design skips this pattern.
+
 ### 4. Brand DNA Extraction (Firecrawl Pattern)
 Don't describe a brand — extract it. Use web scraping tools to pull:
 - Exact logos and brand marks
@@ -123,6 +145,8 @@ Don't describe a brand — extract it. Use web scraping tools to pull:
 - Typography families in use
 - HTML/CSS patterns and component styles
 - Overall visual structure and hierarchy
+
+> Jack Roberts, on why Firecrawl is standard-issue: "I give all of my agents access to firecrol because it is just so powerful." (Transcript spelling of "Firecrawl" preserved verbatim.)
 
 This produces pixel-accurate brand consistency that manual description never achieves.
 
@@ -133,11 +157,17 @@ Never start from a blank canvas. Always start from:
 3. Competitive analysis of what exists
 4. User/audience expectations for the format
 
+Jack Roberts names three concrete sourcing lanes in the video: Midjourney (illustration styles), Godly.website (web-design inspiration), and 25.dev (community-built components) — reference collection is a named source list, not a vague instruction to "get inspired."
+
 ### 6. Highest-Leverage-First Selection
 Don't automate everything at once. Find the ONE format you create most often, perfect the system for it, then expand. Impact = frequency × time-saved × quality-improvement.
 
+> Jack Roberts' own filter: "what is the thing that you spend most of your own personal time creating and what would have the highest impact if you were to automate it."
+
 ### 7. Context-as-Fuel
 The more context the AI has, the better the design. Connect every relevant data source: meeting transcripts, brand guidelines, client history, project briefs. Design without context produces slop.
+
+Jack Roberts' own Granola example: "Hey there, my last meeting, could you tell me one action that I had to do off the back of that, please?" — that single connector turns a generic presentation prompt into a meeting-aware one.
 
 ---
 
@@ -150,6 +180,8 @@ Instead of giving the AI layout instructions, give it an aesthetic worldview:
 ### The Firecrawl Brand Inject
 Use Firecrawl to extract a company's visual identity, then inject it directly into the design context. The AI pulls logos, colors, typography — everything needed for brand-consistent output.
 
+> Jack Roberts, watching the extraction happen live: "Getting their logos, getting their accent colors, getting the typography that we can now pull in."
+
 ### The Iterative Micro-Polish
 Don't try to get perfection in one shot. Get 80% right, then give hyper-specific feedback:
 - "I don't like the 'now live' and 'beta' labels. Let's never have that."
@@ -158,6 +190,21 @@ Don't try to get perfection in one shot. Get 80% right, then give hyper-specific
 
 ### The Skill Enshrinement
 After perfecting a design workflow, explicitly ask the AI to codify it as a reusable skill — turning discovery into infrastructure.
+
+> Jack Roberts: "I would like to turn this entire thing into a skill." That single sentence is what converts a one-off session into a permanent, one-command capability.
+
+---
+
+## Anti-Patterns (Sourced)
+
+The failure modes Jack Roberts names explicitly in the source video — each anchored to a verbatim quote so this list stays auditable rather than invented.
+
+- **Purple-gradient / Inter-font / three-rounded-box defaults** — Jack Roberts, describing the AI slop apocalypse: "you're going to see purple gradients. You're going to see interfont. You're going to see the classic three rounded boxes. You can see it a mile away." (Source: extractions/jack-roberts/transcript.txt)
+- **Generic sameness as the root failure** — "the biggest criticism about AI generated content is mainly the fact that it all looks exactly the same." (Source: extractions/jack-roberts/transcript.txt)
+- **Unlabeled status chips like "now live" / "beta"** — mid-iteration rejection, given as a standing rule: "I mean, I don't like the now live and beta. Let's never have that." (Source: extractions/jack-roberts/transcript.txt)
+- **Document-weight text density on presentation slides** — "I would just add I would like these to be more presentation. So, not loads and loads of text." (Source: extractions/jack-roberts/transcript.txt)
+- **Building without enshrining — the amnesia failure** — "It has amnesia and a memory problem." Design work that never gets codified into a skill has to be re-solved every session. (Source: extractions/jack-roberts/transcript.txt)
+- **Relying on Figma exports or JSON schema instead of DESIGN.md** — "it's a markdown file, no Figma export, no JSON schema, no special tooling." Reaching for a design tool export when a plain-text philosophy document would do is treated as a step backward. (Source: extractions/jack-roberts/transcript.txt)
 
 ---
 
@@ -174,6 +221,8 @@ After perfecting a design workflow, explicitly ask the AI to codify it as a reus
 ---
 
 ## Integration Map
+
+Five existing skills interlock with this system (see table below); the sourcing hierarchy in Reference-First Excellence is grounded in the same `awesome-design-md` library (56,100+ stars) referenced throughout this file.
 
 | Existing Skill | Relationship | Integration Point |
 |---------------|--------------|-------------------|
@@ -209,7 +258,7 @@ Every client deliverable — strategy docs, ICP profiles, research reports — g
 Package the entire design pipeline as a sellable service: "Complete code-first design system in 48 hours" for $2,500-$5,000. Client gets DESIGN.md + sample website + presentation template + social templates + Anti-Slop certification. Effective rate: $208-$625/hour. The workflows do 90% of the production. Use `/brand-in-a-box`.
 
 ### 4. Content Brand Recognition Engine
-Build a personal DESIGN.md for your content brand → auto-generate branded templates for carousels, newsletters, social cards, and thumbnails that are visually distinctive across platforms. Content becomes recognizable at a glance before anyone reads a word. Compounding recognition: every post reinforces the same visual language. Use `/content-brand-forge`.
+Build a personal DESIGN.md for your content brand → auto-generate branded templates for carousels, newsletters, social cards, and thumbnails that are visually distinctive across platforms. Content becomes recognizable at a glance before anyone reads a word. Per the `/content-brand-forge` workflow's own compounding timeline, recognition builds in stages — by Week 12 your feed has visual consistency followers notice, by Week 26 people screenshot your posts as design references. Use `/content-brand-forge`.
 
 ---
 
@@ -222,10 +271,10 @@ Build a personal DESIGN.md for your content brand → auto-generate branded temp
 "53% of people are already starting to get this. With systems like this, we have to hire designers less and less." — We're past early-adopter phase. Code-first design is becoming mainstream expectation.
 
 ### The Context Amnesia Problem
-The final blocker isn't design capability — it's memory. Long design sessions cause the AI to lose context. The solution: enshrine design decisions as persistent SKILL files that survive session boundaries. This is why Step 5 (Enshrine) is non-negotiable.
+The final blocker isn't design capability — it's memory. Jack Roberts' own framing: "It has amnesia and a memory problem." Long design sessions cause the AI to lose context. The solution: enshrine design decisions as persistent SKILL files that survive session boundaries. This is why Step 5 (Enshrine) is non-negotiable.
 
 ### The One-Shot Proof
-Jack's demos show full websites built in a single prompt using DESIGN.md files — Lovable-style, Ollama-style, SpaceX-style. The quality proves the system works when the design philosophy is properly codified. One-shot quality is the benchmark.
+Jack's demos show full websites built in a single prompt using DESIGN.md files — Lovable-style, Ollama-style, SpaceX-style. His own line while scrolling the live build: "bear in mind this is completely one shot." The quality proves the system works when the design philosophy is properly codified. One-shot quality is the benchmark.
 
 ### Google Stitch Formalization
 The DESIGN.md format Jack Roberts demonstrates has been formalized by Google under the name **"Stitch"** — a structured markdown specification for AI-readable design systems. This means:
@@ -237,4 +286,4 @@ The DESIGN.md format Jack Roberts demonstrates has been formalized by Google und
 Source: `github.com/xb1g/awesome-design-md` — grew from ~46k stars (at time of Jack's video) to 56.1k stars in weeks.
 
 ### The Library-First Shortcut
-Jack explicitly demos the awesome-design-md library as the primary entry point for new design projects. The pattern: browse the library → find a brand system that matches your target aesthetic → fork it → customize tokens → generate. This eliminates the cold-start problem entirely and ensures your starting point is already at professional quality. Use `/design-library-import` to execute this pattern.
+Jack explicitly demos the awesome-design-md library — the same 55+-brand, 56,100+-star repository cataloged above — as the primary entry point for new design projects. The pattern: browse the library → find a brand system that matches your target aesthetic → fork it → customize tokens → generate. This eliminates the cold-start problem entirely and ensures your starting point is already at professional quality. Use `/design-library-import` to execute this pattern.

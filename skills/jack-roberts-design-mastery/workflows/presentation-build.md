@@ -155,3 +155,22 @@ If this is a client-facing or branded presentation:
 - Print-ready CSS for PDF export
 - Presenter notes embedded (togglable)
 - Quality scorecard
+
+## Output Schema
+```
+Presentation Deck: [topic/client]
+├── deck.html                 (self-contained, 16:9, keyboard-navigable)
+├── Presentation Design Rules (Slide Master / Typography Mapping / Color Usage / Visual Elements — per Phase 2)
+├── Presenter Notes           (embedded, togglable via 'N')
+├── Print stylesheet          (PDF export path)
+└── Quality Scorecard         (Phase 6 table, one row scored per check)
+```
+
+## Quality Gate
+This workflow's Quality Gate is Phase 6 above — every row required before delivery:
+- **Text density**: no slide exceeds 6 lines of body text (Phase 3's own production rule).
+- **Visual hierarchy**: every slide has one clear focal point, not competing elements.
+- **Brand consistency**: every color and font traces to the DESIGN.md — zero off-system values.
+- **Readability**: minimum 24px effective text size at presentation distance.
+- **Navigation works**: arrow keys, click-advance, and overview mode ('O'/Escape) all functional — test before delivery, don't assume.
+- **Content accuracy**: if Phase 1's content research step ran, every stat and claim is sourced — an unsourced number on a slide fails this gate regardless of visual polish.

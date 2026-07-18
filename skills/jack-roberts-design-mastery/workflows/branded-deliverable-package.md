@@ -147,3 +147,21 @@ Every deliverable you produce now:
 - Costs zero additional design time (DESIGN.md handles it)
 - Builds a portfolio of professional-grade work
 - Commands premium pricing (perception = value)
+
+## Output Schema
+```
+Branded Deliverable: [client name] / [deliverable type]
+├── [deliverable-name].html   (self-contained, print-ready, client-branded)
+├── [deliverable-name].pdf    (email-ready export)
+├── DESIGN Rules applied      (Cover Page / Section Headers / Body / Callouts / Tables / Charts / Footer — per Phase 3)
+└── clients/[client-name]/    (DESIGN.md + deliverables/ + brand-assets/ + notes.md, updated per Phase 6)
+```
+
+## Quality Gate
+This workflow's Quality Gate is Phase 5 above — promoted here as the binding pass/fail list before any deliverable ships:
+- **Brand fidelity**: every color traces to the client DESIGN.md, zero off-system hex values.
+- **Professional typography**: headings, body, and captions carry a clear, DESIGN.md-sourced hierarchy.
+- **Content completeness**: no placeholder text — every section of the selected template (Phase 2) is filled.
+- **Print readiness**: the PDF export renders clean at standard page sizes, no cut-off content.
+- **Co-branding balance**: client brand dominant, your brand mark discrete (bottom-left, per Phase 3 Footer spec).
+- **Anti-Slop**: the document does not read as a default report template — run `/anti-slop-audit` if any doubt remains.

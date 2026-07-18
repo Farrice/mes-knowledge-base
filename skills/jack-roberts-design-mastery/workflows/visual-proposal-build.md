@@ -107,3 +107,19 @@ The proposal demonstrates FOUR things simultaneously:
 2. **Your production quality is professional** (HTML, not Google Docs)
 3. **You respect their time** (7 slides, not 12 pages)
 4. **You can execute** (the proposal IS the proof of work)
+
+## Output Schema
+```
+Visual Proposal: [prospect name]
+├── proposal.html         (self-contained, 7-slide structure per Phase 2, prospect-branded)
+├── proposal.pdf          (backup export for non-HTML viewers)
+├── Anti-Slop Scorecard   (must show 13+/15)
+└── Follow-up Email       (one-line template, per Phase 6 send step)
+```
+
+## Quality Gate
+- `/anti-slop-audit` score of 13+/15 (Phase 6) — this is a hard numeric floor, not a suggestion; below threshold, iterate before sending.
+- Max 4 lines of text per slide (Phase 4) — a proposal that reads document-weight fails the format's own premise.
+- Every link tested and working (scheduling, portfolio, social) — a broken CTA link on the Next Steps slide undermines "you can execute."
+- Mobile tested — per Phase 6, most first-views happen on phone; a proposal that breaks on mobile fails regardless of desktop polish.
+- Content Injection (Phase 5) reflects real context — a cold-outreach proposal includes a genuine specific observation about the prospect, not generic template language dressed in their brand colors.
