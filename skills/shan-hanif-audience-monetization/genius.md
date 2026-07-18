@@ -4,6 +4,17 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist to execute top-to-bottom. Absorb the Dual-Sided Monetization Model and the Winner's Narrative filter until the output *thinks* like an operator running two revenue engines off one content stream — never announce the machinery.
+
+- Do NOT label sections "here's the Hijack Post" or "this fulfills the Positioning Storytelling pattern." Execute the move; never narrate the framework on the page.
+- Do NOT soften the transactional bluntness into corporate marketing-speak. Shan's actual register is blunt and dollar-forward — "Money, money," "Boom, boom, boom," "$484,000," "45,000 followers" — not polished thought-leadership prose. Smoothing that out is the tell the model is reciting his vocabulary instead of running his operation.
+- Every storytelling output must pass the Winner's Narrative filter before it ships: no victim arcs, no "my mom didn't believe in me," no celebrating small wins (an 8-client agency bragging about 8 clients reads as "a tiny terrible agency," his words, not this skill's).
+- The test: would Shan Hanif recognize this as a premium CEO running his own Dual-Monetization Engine — turning $484K out of 45,000 unqualified followers while closing whale clients off the same posts — or as someone borrowing his vocabulary without doing the positioning work? If it's the second, rebuild.
+
+---
+
 ## Genius Patterns
 
 ## 1. The Dual-Sided Monetization Model
@@ -51,6 +62,8 @@
 
 **Deploy When**: You are running high-volume outbound campaigns and need to increase the reply rate.
 
+**In His Words**: "the very first thing they're going to do is Google you, find your LinkedIn, look at you" — a solid profile closes the credibility loop before the reply even comes (`extractions/shan-hanif/transcript.txt`).
+
 ## 2. Awareness Content is Plagiarized Structure
 **Tacit Insight**: Awareness content doesn't need to be original thought. It is "pre-validated ideas" that already work for others, reformatted into your own voice.
 
@@ -64,6 +77,19 @@
 **Why Others Miss This**: People treat lead magnets as set-and-forget static assets, rather than active campaign mechanisms used to flood a 2-email-per-day backend sales sequence.
 
 **Deploy When**: You have a digital product or service capacity ready to sell and need an immediate injection of high-intent leads.
+
+**Proof**: This is the exact mechanic behind the $484,000 he drove from 45,000 followers in 2025, run as daily posts feeding a 2-email-per-day backend (`extractions/shan-hanif/transcript.txt`).
+
+---
+
+## Anti-Patterns (Sourced from Transcript)
+
+- **Swipe-file lead magnets with no transformation**: "What you don't want to do is create like a swipe file. One of the worst things you can do is here's 20 prompts, here's 20 this, here's 20 pages. No insight." (`extractions/shan-hanif/transcript.txt`, 2025 YouTube video).
+- **Victim-story vulnerability posts**: rejects "not stories about your journey and what you felt and like oh my mom didn't believe in me" in favor of Winner's Narrative storytelling (`extractions/shan-hanif/transcript.txt`).
+- **Celebrating small wins as if they're proof of scale**: "If you're celebrating eight clients, nobody wants to work with you because you are a tiny terrible agency" (`extractions/shan-hanif/transcript.txt`).
+- **Naming clients or specific dollar results in storytelling posts**: "talk about your own launches, whatever you have without naming the clients and being lame" — specificity here reads as bragging, not positioning (`extractions/shan-hanif/transcript.txt`).
+- **Staying silent and expecting inbound**: "if you don't post content, you're not an expert. It's all in your head. Nobody cares. You're a ghost" (`extractions/shan-hanif/transcript.txt`).
+- **Posting tactical detail as awareness content**: "If there was a tactical post on raising prices for clients, that is not awareness cuz it's too tactical" — awareness must stay broad enough to be "plagiarized structure," not niche tactics (`extractions/shan-hanif/transcript.txt`).
 
 ---
 
@@ -91,4 +117,4 @@
 
 ## Quality Rubric
 
-> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading. A savant-tier output should visibly produce Shan's own proof shape: $484K pulled from 45,000 unqualified followers via the same content stream that lands whale clients.
