@@ -6,6 +6,18 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+The Three Levels, the Five Inputs, and the Bankshot Principle are intuition primitives, not a checklist to recite. Absorb them, then build content where the suggestion mechanic is invisible. If output labels its own sections "Level 2 Belief Shift" or narrates "now applying the Contrasting Frame," it has failed — Kallaway's entire method depends on the machinery never surfacing on the page. The test: would Kallaway recognize this as content that quietly plants a belief and lets the viewer complete the puzzle themselves — or as someone reciting his own "Level 1/2/3" and "Five Inputs" vocabulary back at him? If it's the second, rebuild until the mechanics disappear.
+
+Specifically:
+- Do NOT title deliverable sections "Bankshot," "Contrasting Frame," or "Signal-to-Noise" — those are your internal blueprint, never something the reader sees.
+- Do NOT state the conclusion you want the viewer to reach. Show the evidence, the character, the numbers — and stop one beat before the payoff sentence. The viewer finishes the thought, not you.
+- His texture is confident but never braggadocious — he leads with results ("I've done billions of views," "0 to 100K in 5 months") instead of asserting authority ("I'm the best"). A direct claim of superiority is the anti-pattern, not the craft.
+- Polish is the tell-class failure here: a piece that reads as engineered, symmetrical, or persuasion-textbook lands as the Anti-Exemplar below — the Direct Sell Approach. Keep proof concrete and slightly rough (specific numbers, not smoothed narrative) or the suggestion mechanic breaks and the viewer's guard goes back up.
+
+---
+
 ## Core Genius
 
 Kallaway treats audience obsession as an **engineering problem with three measurable levels**, not a vague aspiration. His breakthrough insight: **when viewers arrive at conclusions on their own — without being told — trust accelerates exponentially**. This is the "Inception Model" for content. The more sophisticated the suggestion mechanic, the deeper the obsession level the viewer reaches.
@@ -197,14 +209,14 @@ After watching, viewers don't just walk away with YouTube tips. Their internal m
 
 ## Anti-Patterns (What Kallaway Would Reject)
 
-1. **Direct Instruction Selling** — "You need to buy this / do this / change this." Violates the core Bankshot Principle.
-2. **Vague Proof** — "This strategy works" without specific numbers, timelines, or verifiable outcomes.
-3. **Broad Relevance** — Topics that "kind of" apply to the ideal viewer. Must feel like mind-reading specificity.
-4. **Complexity as Value** — Framing solutions as elaborate and difficult. Simplicity drives action; complexity drives abandonment.
-5. **Unrelatable Characters** — Success stories from people the viewer can't identify with. The character must start where the viewer IS.
-6. **Strategy Without Tactics** — Grand frameworks without atomic, can't-fail implementation steps.
-7. **Arguing Against Beliefs** — Trying to convince viewers they're wrong. Instead, introduce evidence so compelling they change their own mind.
-8. **Single-Level Content** — Content that only teaches (Level 1) without attempting belief shifts (Level 2) or action catalysis (Level 3).
+1. **Direct Instruction Selling** — "You need to buy this / do this / change this." Violates the core Bankshot Principle. *(UNCONFIRMED — claimed source "Power of Suggestion" not located in extractions/ as of 2026-07-18; see references/source-ledger.md)*
+2. **Vague Proof** — "This strategy works" without specific numbers, timelines, or verifiable outcomes. *(UNCONFIRMED — claimed source "Power of Suggestion" not located in extractions/ as of 2026-07-18; see references/source-ledger.md)*
+3. **Broad Relevance** — Topics that "kind of" apply to the ideal viewer. Must feel like mind-reading specificity. *(UNCONFIRMED — claimed source "Power of Suggestion" not located in extractions/ as of 2026-07-18; see references/source-ledger.md)*
+4. **Complexity as Value** — Framing solutions as elaborate and difficult. Simplicity drives action; complexity drives abandonment. *(UNCONFIRMED — claimed source "Power of Suggestion" not located in extractions/ as of 2026-07-18; see references/source-ledger.md)*
+5. **Unrelatable Characters** — Success stories from people the viewer can't identify with. The character must start where the viewer IS. *(UNCONFIRMED — claimed source "Power of Suggestion" not located in extractions/ as of 2026-07-18; see references/source-ledger.md)*
+6. **Strategy Without Tactics** — Grand frameworks without atomic, can't-fail implementation steps. *(UNCONFIRMED — claimed source "Power of Suggestion" not located in extractions/ as of 2026-07-18; see references/source-ledger.md)*
+7. **Arguing Against Beliefs** — Trying to convince viewers they're wrong. Instead, introduce evidence so compelling they change their own mind. *(UNCONFIRMED — claimed source "Power of Suggestion" not located in extractions/ as of 2026-07-18; see references/source-ledger.md)*
+8. **Single-Level Content** — Content that only teaches (Level 1) without attempting belief shifts (Level 2) or action catalysis (Level 3). *(UNCONFIRMED — claimed source "Power of Suggestion" not located in extractions/ as of 2026-07-18; see references/source-ledger.md)*
 
 ---
 
