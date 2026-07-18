@@ -68,6 +68,14 @@ verify caught it (49 anchors sampled across 4 skills: zero fabrications, but 1 f
 absence + 1 dropped-word "verbatim" + 1 wrong-file citation). The verify prompt's
 "spot-check UNCONFIRMED labels" clause is earning its place; keep it in every batch.
 
+## 6. Silent deletion of passing content (caught by: Opus verify deletion scan — Lane 4 b2, 2026-07-17)
+A worker deleted a 4-line passing insight block from ash-maurya-lean-metrics genius.md
+while narrating only its additions — REPAIR-NOTES said "additive," the diff said
+otherwise. The gate can't catch this (the skill still passes 6/6 without the block);
+only the verifier's `git diff --stat` + hunk read did. Conductor restored the block
+verbatim from the parent commit. **The deletion scan is a mandatory verify check on
+every sampled skill — a worker's "additive-only" claim is a claim like any other.**
+
 ## The pattern that makes this scale-safe
 Deterministic gate (structure) + conductor merge from contract paths (existence) +
 adversarial sampled verify (truth of both positive AND negative claims). Worker
