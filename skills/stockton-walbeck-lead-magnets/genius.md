@@ -4,6 +4,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then diagnose and build originally — do not mechanically stamp "this is a Clarifier, Rule 1 pass, Rule 2 pass..." onto the output. The test: would Stockton Walbeck recognize this as his own diagnostic-to-bridge logic — a lead magnet engineered backward from Rule 5 until the paid offer feels inevitable — or as someone reciting a 4-type taxonomy off a whiteboard? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which type or which rules you applied in the output unless the user explicitly asked for an audit. Score it silently, then speak in outcomes ("this creates the exact gap your course fills"), never in labels ("this is a Clarifier that passes Rules 1-4").
+- Do NOT open with the taxonomy name before the user has a specific, named problem. Stockton diagnoses first, labels second — the label is your internal shorthand, not marketing copy for the reader.
+- His texture is data-blunt, not aspirational. He cites transaction counts and dollar figures ($25M revenue, $29-$99 charge-worthy threshold), not vague language like "build trust" or "provide value." If a sentence in the output could have been written by any lead-magnet blogger, the voice has been lost — every claim should be checkable against a number, a rule, or an outcome.
+- Polish is the tell. If a lead magnet concept reads as clever before it reads as "would someone actually pay $29-$99 for this," it is failing his own Charge-Worthy test — cut the cleverness, keep the value. He never sells the framework; he sells the arithmetic of it.
+
 ## Genius Patterns
 
 ## Advanced Patterns
@@ -68,6 +78,17 @@ The highest-converting lead magnets don't just diagnose a problem — they force
 - **Most lead magnets fail at Rule 5, not Rules 1-4.** When something isn't working, start your audit at the bridge, not the content.
 - **The best lead magnet for your business changes over time.** An audience that needed clarifiers 6 months ago may need shortcuts today. Reassess quarterly.
 - **Format follows function, not trends.** Don't build a quiz because quizzes are trendy — build a quiz because your audience needs a clarifier and a diagnostic is the right format for that.
+
+---
+
+## Anti-Patterns
+
+- **Never optimize for opt-in rate over Rule 5.** A 50% opt-in with 0% conversion is worse than a 2% opt-in with 25% conversion — per genius-patterns.md's Expert Heuristics, "Don't count opt-ins, count conversions to paid," the exact reversal of how most marketers measure lead magnets.
+- **Don't treat the 4-type taxonomy as top-of-funnel only.** Stockton's data (6,000 analyzed transactions, per extraction-report.md's Hidden Knowledge section) shows lead magnets work as well or better deployed mid-funnel as trust compounders — stopping at "email grab" throws away the framework's real leverage.
+- **Don't ship a lead magnet that aces Rules 1-4 and skips Rule 5.** His own hook template library scored 5/5 on Rules 1-4 but 1/5 on Rule 5 (per genius.md's "Rule 5 Is the Only Profitability Gate" entry above) because better hooks didn't create a problem his course-building software solves — that section calls this "the single most common lead magnet failure mode."
+- **Don't confuse the Identity Crystallization fork with segmentation.** The 2026-04-09 evolution entry above is explicit: "This is NOT segmentation (sorting people into buckets for YOUR benefit)" — building a quiz that sorts leads for your CRM instead of for their own self-persuasion inverts the mechanism.
+- **Don't ship a "thin" shortcut or starter.** Per extraction-report.md's Charge-Worthy Quality Standard (Genius Pattern 4), if it isn't good enough that someone would pay $29-$99 for it, it isn't good enough to give away — shortcuts and starters are, per that same source, "most prone to being thin."
+- **Don't let unstructured value stand in for a framework.** In his 12-8-25 packaging-frameworks video ("How Top Creators Make Simple Ideas Feel Mind-Blowing," https://www.youtube.com/watch?v=5GxB_VIgpYU), Stockton's own standard is blunt: "theory alone is just noise" if the audience doesn't leave with something tactical — the same discipline he applies to lead magnets, which must convert consumption into an obvious next action, not just admiration.
 
 ---
 
