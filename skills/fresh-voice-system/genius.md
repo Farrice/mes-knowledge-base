@@ -7,6 +7,38 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist. Absorb the serial-narrative logic,
+then build originally — if the output visibly marches through "Story → Pattern →
+Tension → Incomplete Resolution → Next Chapter Setup" like a fill-in-the-blank form,
+you have failed even if every beat is technically present. The test: would Fresh
+recognize this as someone revealing a pattern through lived narrative — or as someone
+performing "storytelling technique"? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label sections "here's the hook," "here's the open loop," "here's the
+  cross-domain weave." Execute the move; never announce it. The source case study this
+  methodology was built from (`_active/linkedin-launch/04-content-os/voice-captures/
+  genspark-20-post-serial-arc.md`) is explicit that the breakthrough came only once
+  readers could no longer feel it was constructed — see the Hidden Knowledge table below.
+- Do NOT stamp the Five Story Beats as visible headers inside a post. They are a
+  diagnostic for you, not furniture for the reader.
+- Fresh's texture is a former trainer talking, not a content strategist theorizing —
+  plain nouns, short declaratives, the personal-training lens surfacing unprompted
+  ("This is what I had to unlearn from 17 years of personal training too"), never
+  footnoted or explained as a device.
+- Polish is the tell-class failure here specifically: a chapter that reads as
+  *finished* — no valley, no doubt, no loose thread — fails the Compulsion Test even
+  if every sentence is clean. Fresh's strongest posts in the source arc are the ones
+  that admit "I almost quit" (Post 4) or "for two weeks it felt like I'd made a huge
+  mistake" (Post 4). A model that smooths that out to sound more competent is
+  optimizing for the wrong thing.
+- Never let the AI-stigma reframe become its own tell — don't insert an unprompted
+  disclaimer about "not being about AI." The absence should be silent, not announced.
+
+---
+
 ## The Discovery
 
 This methodology emerged from iterative pushback against AI writing patterns. Three rounds of rejection — "this reads like AI," "the posts don't build off each other," "everyone did value-driven posts and it got beaten into the ground in 2025" — forced a paradigm shift from standalone value content to serial narrative. The breakthrough happened when the writing stopped trying to teach and started trying to reveal.
@@ -78,6 +110,21 @@ Connect disparate experiences to reveal deeper patterns the reader couldn't see 
 
 ---
 
+## Anti-Patterns (Sourced)
+
+Every item below is a verbatim quote (escaping artifacts from the source file's JSON-style backslash-quotes normalized, wording untouched) pulled directly from the primary source — `_active/linkedin-launch/04-content-os/voice-captures/genspark-20-post-serial-arc.md` (added to the repo 2026-03-10, commit `4da54d14e`) — plus one from this skill's own exemplar file. Full claim-by-claim provenance: `references/source-ledger.md`.
+
+- **Corporate-thought-leadership voice bleed.** Sourced: genspark-20-post-serial-arc.md, Post 3 "The Expensive Mistake" (2026-03-10) — the source arc's own case study catches a founder's real posts reading like "Here are 5 ways to improve your decision-making..." "In today's fast-paced business environment..." "Leadership isn't about having all the answers..." — the exact register this skill exists to prevent.
+- **"Just be authentic" as instruction.** Sourced: genspark-20-post-serial-arc.md, Post 12 "The Voice Myth" (2026-03-10) — named directly in the source as the failure mode: "Just be authentic. Worst advice in the history of personal branding." — useless because it never specifies which of the writer's several voices to amplify.
+- **Retreating to "professional" the moment a post gets edgy.** Sourced: genspark-20-post-serial-arc.md, Post 3 (2026-03-10) — the source's founder case study self-diagnoses this in her own words: "Because that's too casual. I need to sound professional." — the edit that strips out every metaphor, opinion, and story that felt "too personal."
+- **Vague, appeal-to-everyone positioning.** Sourced: genspark-20-post-serial-arc.md, Post 7 "The Subtle Signal" (2026-03-10) — contrast case in the source: "I help entrepreneurs scale their businesses. DM me if you're interested." is flagged as "Vague. Desperate. Appeals to everyone, attracts no one with budget."
+- **Retreating to generic content the moment authentic voice draws real pushback.** Sourced: genspark-20-post-serial-arc.md, Post 4 "The Part Nobody Sees" (2026-03-10) — source case: "I tried it. Wrote like I actually talk. Posted it. Got 14 likes and one person saying it was 'unprofessional.'" — the moment most people quit the valley chapter and go back to safe.
+- **Numbered-tips-plus-CTA as a complete post.** Sourced: `references/exemplars.md` (added 2026-04-02, commit `e7ae19898`), Anti-Exemplar section — this skill's own anti-exemplar demonstrates the pattern end to end, closing on "Implement these tips and watch your engagement soar! ... Drop "LINKEDIN" in the comments for a free guide!" — transactional engagement, not serial investment.
+
+These six are additive to — not replacements for — the five `**Anti-pattern:**` callouts embedded in the Core Principles above; those stay as prose. This section exists so the pattern-level failure modes each carry an explicit, checkable source anchor.
+
+---
+
 ## Serial Narrative Architecture
 
 ### The Structural Shift
@@ -93,6 +140,11 @@ Every post follows this. Reader gets value, drops a keyword, gets a prompt kit. 
 Story → Pattern → Tension → Incomplete Resolution → Next Chapter Setup
 ```
 Each post advances a narrative arc. The reader gets insight but also unresolved curiosity. They come back not for more value but because they need to know what happens next.
+
+This skill's own anti-exemplar shows exactly what the old structure looks like on the
+page — it closes on "Implement these tips and watch your engagement soar! ... Drop
+"LINKEDIN" in the comments for a free guide!" (`references/exemplars.md`,
+Anti-Exemplar section) — the transactional CTA the new structure is built to avoid.
 
 ### The Five Story Beats
 
@@ -150,6 +202,11 @@ This is not about AI. It's about **voice capture and expertise translation**.
 The story is: experts have deep knowledge trapped in their heads. They can transform clients in a room but can't translate that expertise to a page. The gap isn't talent — it's translation. You solve the translation problem.
 
 The tool you use to solve it is irrelevant. A surgeon doesn't market their scalpel brand. You don't market your AI stack.
+
+One captured case in this skill's exemplar library names the resistance directly:
+"My work happens in the room, Farrice. It's too nuanced for a post." (`references/
+exemplars.md`, Exemplar 2, "The Coach Who Refused to Write"). That belief — not any
+limitation in the tool — is exactly what this reframe exists to dissolve.
 
 ### Positioning Language
 
@@ -313,7 +370,7 @@ Don't evaluate individual posts in isolation. Evaluate arcs. A single chapter mi
 
 ## Hall of Fame Exemplars
 
-> Full exemplar library: `references/exemplars.md` — load for deep pattern study.
+> Full exemplar library: `references/exemplars.md` — load for deep pattern study. (2 hall-of-fame chapters + 1 anti-exemplar breakdown, 65 lines total.)
 
 ## Signature Moves
 
@@ -394,7 +451,11 @@ entire problem. Not a tip. Not a fix. A new lens.
   different every time. The intellectual operation is consistent; the words are not.
 - **Test**: Strip the topic from the piece. Read only the reasoning moves. Could you
   identify this as Fresh's writing? If yes, the cognitive signature is working.
+- **Grounded example**: The Paradox Reveal above uses "Her depth was the problem. She
+  couldn't simplify what she knew because she'd spent two decades learning it was
+  never simple." as its worked example — study how form and content are inseparable
+  there before improvising your own.
 
 ## Quality Rubric
 
-> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading. (4 criteria scored against three anchors — 4/Acceptable, 7/Good, 10/Savant.)
