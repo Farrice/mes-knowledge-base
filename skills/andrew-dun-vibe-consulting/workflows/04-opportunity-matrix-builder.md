@@ -136,6 +136,27 @@ CHASSIS RECOMMENDATION:
 
 ---
 
+## Output Schema
+
+The deliverable is a **Phased Opportunity Roadmap** containing:
+
+```
+1. Opportunity Scoring table (# | Bottleneck | Annual Waste | Value Score |
+   Difficulty Score | Quadrant [QW/BS/FI/DP]) — every scored opportunity
+   from the ROI report appears exactly once
+2. Quick Wins Shortlist table (Priority | Bottleneck | Annual Savings |
+   Implementation Cost | Payback | Difficulty) — ranked, <30-day payback
+3. Phased Roadmap block (Phase 1 Quick Wins / Phase 2 Big Swings /
+   Phase 3 Optimization) each with Investment, Expected Savings, and a
+   named Success Metric
+4. Chassis Assessment block — Current Data Architecture inventory,
+   Total Disconnected Systems count, and the explicit recommendation
+   (Proceed / Add Phase 0 lightweight layer / Phase 0 mandatory)
+5. Totals: 6-Month Investment, Total Annual Savings, ROI Multiple
+```
+
+Fill-Ins and Deprioritized items must be listed explicitly, not omitted — their presence is what proves the matrix is complete rather than cherry-picked.
+
 ## Quality Gate
 
 - [ ] Every opportunity scored on both Value AND Difficulty axes

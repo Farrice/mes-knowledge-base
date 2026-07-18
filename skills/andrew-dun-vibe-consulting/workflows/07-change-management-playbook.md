@@ -125,6 +125,24 @@ INTERVENTION TRIGGERS:
 
 ---
 
+## Output Schema
+
+The deliverable is a **Change Management & Adoption Playbook** containing:
+
+```
+1. AI Champion Assessment — candidate table scored, ONE Selected Champion
+   named with the 4-step onboarding plan
+2. Team Resistance Map — every team member listed with Attitude, Concerns,
+   Resistance Level [1-5]; high-resistance individuals get a named
+   bring-in strategy
+3. Training Architecture — all 4 phases (Awareness/Hands-On/Supported
+   Adoption/Independence) with concrete week numbers, not "TBD"
+4. Adoption Metrics Dashboard — the 5-metric table with Targets filled AND
+   the Intervention Triggers table with specific thresholds and responses
+```
+
+The Champion's authority level and the resistance map are load-bearing: an implementation plan with no named champion or no resistance assessment is an incomplete deliverable, not a lighter version.
+
 ## Quality Gate
 
 - [ ] AI Champion identified with sufficient authority and personal interest

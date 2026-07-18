@@ -133,6 +133,19 @@ Version: 1.0
 6. Authority Content Blueprint
 ```
 
+## Output Schema
+
+The deliverable is a single **Vertical Playbook** document (Step 7 compile format) with exactly 6 numbered sections, each populated (not left as a section header):
+
+| Section | Required Content |
+|---|---|
+| 1. Vertical Intelligence Card | All 7 fields filled (AI Maturity, Company Size, Decision Maker, Tech Stack, Regulatory Gates, AI Budget Range, Competition) |
+| 2. Top 5 Pain Points | Exactly 5, each with department, current state, ROI-formula waste estimate, AI solution category, quick-win potential |
+| 3. Discovery Question Bank | 15-20 questions split Executive (5-7) / Operator (8-12) / IT (3-5), vertical-specific |
+| 4. Solution Library | 10 solutions across 3 tiers (Quick Wins/Core/Transformation) with complexity, ROI, timeline |
+| 5. Pricing & Packaging | 5-tier table (Scorecard → Full Diagnostic → Diagnostic+Quick Win → Full Transformation → Advisory) with vertical-adjusted $ ranges |
+| 6. Authority Content Blueprint | 10 titled content pieces, each producible in <2 hours |
+
 ## Quality Gate
 
 | Criterion | Pass Threshold |

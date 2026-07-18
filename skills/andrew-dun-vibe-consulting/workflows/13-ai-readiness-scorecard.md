@@ -147,6 +147,20 @@ This scorecard can be packaged as a self-serve digital product:
 | **Guided self-assessment** (Notion template) | $497 | Self-paced + 30-min review call | Warm lead + revenue |
 | **Live assessment** (you conduct) | $2K–$5K | 90-min session + report | Qualified prospect + immediate upsell |
 
+## Output Schema
+
+The deliverable is a **2-3 page Scorecard Report** (Step 5 format), never a slide deck:
+
+| Field | Required Content |
+|---|---|
+| Overall Score + Grade | Weighted formula result (X.X/10) mapped to letter grade F-S |
+| Dimension Scores | All 6 dimensions, each with a visual bar + numeric score |
+| Key Finding | Exactly 1 sentence, the single biggest insight |
+| Quick ROI Estimate | One fully-worked ROI-formula calculation (all inputs shown) |
+| Recommendation | The grade-matched recommendation from Step 3, not generic advice |
+| Suggested Next Step | Specific scope + $ investment + expected ROI window |
+| Conversion Bridge line | The grade-matched conversion script from Step 6, appended to the report or delivered verbally |
+
 ## Quality Gate
 
 | Criterion | Pass Threshold |

@@ -1,6 +1,16 @@
 # Andrew Dun — Genius Patterns & Hidden Knowledge
 
-> Load this file before executing any workflow in this skill domain.
+> Load this file before executing any workflow in this skill domain. Grounded in Andrew Dun's ~80-minute interview on Vibe Consulting/AI consulting (`extractions/andrew-dun/transcript.txt`, ~87.8K characters, fully read).
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a fill-in-the-blank checklist. Absorb them, then diagnose an actual business — never stamp the framework onto a template and call it an audit.
+
+- Do NOT announce the machinery. Never write "applying the Lamborghini Chassis Principle" or "per the 4-Question AI Suitability Filter" inside client-facing output — a business owner should feel understood, not lectured on your methodology. Execute the diagnosis; never narrate the framework.
+- Do NOT lead with technical vocabulary in anything a client reads. Dun's own words: "This is why people that say I build this really complex thing never make sales because no one cares, right? They just want to know what it's going to do for them." If the output explains N8N, RAG, or API integrations to an executive, rebuild it in profit/time language.
+- His texture is deliberately non-technical and street-plain, not consultant-polished. "I struggle to turn on my computer in the morning and yet here we are consulting for some massive companies" — the credibility move is candor about NOT being the tech expert, not jargon fluency. Polished, hedge-everything corporate-speak is the tell that this isn't Dun's voice.
+- Every dollar figure must trace back to the formula (Time Wasted × People × Days/Year × Loaded Hourly Cost) with real, specific inputs — never a vague "significant savings." Dun's own benchmark case: "2 hours a day... eight SDRs... 260 days a year... $40 an hour... this one process was wasting them $166,400 a year." If a generated ROI section can't show its four inputs, it hasn't earned the number.
+- The test: would Andrew Dun recognize this as a diagnosis he actually ran — operator interviews producing a specific waste figure, gated by an identified AI Champion — or as someone reciting his framework's vocabulary without doing the diagnostic work? If it's the second, the output fails and needs to be rebuilt around real (or explicitly placeholder-flagged) interview data.
 
 ## Core Philosophy
 "Prescription without diagnosis is malpractice." Never discuss solutions until the problem is fully mapped and quantified. The value isn't in building workflows — it's in knowing WHICH workflows to build and proving the ROI before touching a single tool.
@@ -81,13 +91,13 @@ Enterprise companies consider 10-year payback acceptable. AI consulting typicall
 
 ## Anti-Patterns (Never Do This)
 
-- ❌ Prescribe solutions before completing diagnosis
-- ❌ Interview only executives (skip operators)
-- ❌ Quote "time savings" without dollar figures
-- ❌ Lead with technical tool names in client conversations
-- ❌ Skip the change management gate before implementation
-- ❌ Try to close on implementation before proving ROI with an audit
-- ❌ Accept an engagement without an identified AI Champion
+- ❌ Prescribe solutions before completing diagnosis — Dun's own framing: "prescription uh without diagnosis is malpractice" (extractions/andrew-dun/transcript.txt, ~80-min interview transcript)
+- ❌ Interview only executives, skip operators — "executives show you know the destination but operators know the road" (extractions/andrew-dun/transcript.txt) — the gap between the two is where the expensive waste hides
+- ❌ Quote "time savings" without dollar figures — the ROI line is explicit: "Time wasted times number of people times day per year times loaded hourly cost is the annual waste" (extractions/andrew-dun/transcript.txt); a time estimate with no dollar figure attached doesn't count
+- ❌ Lead with technical tool names in client conversations — "people that say I build this really complex thing never make sales because no one cares, right? They just want to know what it's going to do for them" (extractions/andrew-dun/transcript.txt); see also workflows/05-diagnostic-presentation-architect.md's "Non-Technical Language Rules" (never say N8N/RAG, always say the outcome)
+- ❌ Skip the change management gate before implementation — an engagement needs "a senior member who is what we would deem an AI champion" with real "position of power within the org" (extractions/andrew-dun/transcript.txt); without one, prescribe change management first
+- ❌ Try to close on implementation before proving ROI with an audit — quick wins exist because "these are what I like to call the springboard. This is how we jump up to those big swings" (extractions/andrew-dun/transcript.txt) — the audit's proven ROI is what finances and justifies the bigger sell, never the reverse
+- ❌ Accept an engagement without an identified AI Champion — the champion "has to be in a position of power within the org" (extractions/andrew-dun/transcript.txt, 2026-05-02 extraction date per extractions/andrew-dun/transcript.txt file metadata) or the implementation has no internal push to survive contact with organizational inertia
 
 ## Hall of Fame Exemplar
 **The SDR Team Waste Discovery**: Through operator interviews (not executive reports), discovered 8 SDRs spent 2 hours every morning manually prospecting instead of selling. VP had NO idea. Math: 2hrs/day × 8 SDRs × 260 days × $40/hr = **$166,400/year wasted on ONE process**. This single finding justified the entire engagement cost multiple times over. This is the power of diagnosis.

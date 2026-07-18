@@ -125,6 +125,25 @@ SUMMARY:
 
 ---
 
+## Output Schema
+
+The deliverable is a **Master Process Map** document containing, per mapped process:
+
+```
+- Process Inventory table (# | Process | Department | Owner | Executive Estimate | Priority)
+- Per-HIGH-priority process: Process Decomposition block
+    (executive's 1-sentence description → actual step table → TOTAL ACTUAL TIME
+     vs. executive estimate → GAP multiple → bottlenecks list → 4-question AI
+     Suitability result: SUITABLE / PARTIAL / NOT SUITABLE)
+- Data Flow Diagram + System Inventory table + Fragmentation Score + Chassis Assessment
+- Master Process Map summary block (per Step 4 template) with:
+    Total processes mapped, total steps documented, average executive
+    estimation gap (as a multiple, e.g. "3.2x"), total bottlenecks,
+    processes suitable for AI (X of Y)
+```
+
+Minimum bar: every HIGH priority process from the inventory gets a full decomposition block — partial coverage is not a complete deliverable.
+
 ## Quality Gate
 
 - [ ] Every "one task" decomposed into actual sub-steps (minimum 4 per process)

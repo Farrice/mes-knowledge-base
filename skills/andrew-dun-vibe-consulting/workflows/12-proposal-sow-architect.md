@@ -139,6 +139,22 @@ If no response within 3 business days:
 
 **Never chase. Always add value.**
 
+## Output Schema
+
+The deliverable is a **Proposal & SOW document** with exactly the 7 sections from Step 3, in that fixed order (the sequence is the persuasion structure — do not reorder):
+
+| # | Section | Required Content |
+|---|---|---|
+| 1 | Current State (Pain) | 3-5 bullets, biggest annual waste figure first, anonymized operator quotes |
+| 2 | Target State (Vision) | Specific before/after claim + 3-scenario ROI projection, profit-framed |
+| 3 | Engagement Structure | 2-4 phases, each with Deliverables/Timeline/Investment/Success Criteria/Both parties' commitments |
+| 4 | Investment & ROI | Total investment, total projected impact, payback period vs. 12-month benchmark |
+| 5 | Risk Mitigation | Phase-independence statement, conservative-estimate disclosure, AI Champion reference |
+| 6 | About | 1 paragraph, 2-3 sentences |
+| 7 | Next Steps | One clear action, decision deadline, call offer |
+
+Pricing model selected from Step 4's table must be named explicitly in Section 3 — never left implicit.
+
 ## Quality Gate
 
 | Criterion | Pass Threshold |

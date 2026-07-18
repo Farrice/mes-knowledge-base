@@ -186,6 +186,29 @@ implementation priority and phasing.
 
 ---
 
+## Output Schema
+
+The deliverable is an **ROI Quantification Report** with these required blocks, in order:
+
+```
+1. Bottleneck Inventory table (# | Department | Process | Current State |
+   Time Wasted Per Occurrence | Frequency)
+2. Per-Process Calculation Sheet — ONE block per bottleneck, each showing
+   all four Andrew Dun formula inputs (Time Wasted × People × Working
+   Days/Year × Loaded Hourly Cost) plus target-state estimate and
+   Confidence Level [HIGH/MEDIUM/LOW] with Data Source cited
+3. Three-Scenario ROI Model table (Conservative/Moderate/Aggressive columns,
+   one row per bottleneck + TOTAL row)
+4. 12-Month Payback Analysis block (Total Investment, Annual Savings
+   Conservative + Moderate, Payback Period in months, ROI Multiple,
+   3-Year Net Value)
+5. Executive Summary block (Step 6 template) — headline total waste figure,
+   top 3 waste areas ranked by $, proposed investment, payback, Year 1 ROI,
+   monthly-waste urgency line
+```
+
+Every dollar figure in the Executive Summary must trace back to a row in the Bottleneck Inventory — no number appears in the summary that wasn't calculated in Step 2/3.
+
 ## Quality Gate
 
 Before delivering, verify:

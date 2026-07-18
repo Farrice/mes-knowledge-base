@@ -126,6 +126,26 @@ EXIT POTENTIAL:
 
 ---
 
+## Output Schema
+
+The deliverable is a **Productization Assessment & MVP Spec** containing:
+
+```
+1. Cross-Engagement Pattern Analysis table — real frequency counts
+   (X/Y clients) across a minimum of 5 completed engagements
+2. Productization Viability Scorecard — every candidate pattern scored
+   /60 with evidence per criterion; only 40+ scores proceed
+3. MVP Specification — problem (1 sentence), solution, target user,
+   3 core V1 features, explicit NOT-in-V1 list, pricing model
+   (<10% of annual savings delivered, monthly + annual tiers)
+4. Validation Plan — pre-sell results against 5 existing clients,
+   3+ committed-with-money threshold explicitly stated as met or not met
+5. Transition Architecture — Phase A/B/C timeline with revenue mix
+   (Consulting $X + Product $Y) per phase
+```
+
+A pattern below the 60% engagement-frequency threshold or a scorecard below 40 does not get an MVP spec written for it — the workflow stops at the scorecard.
+
 ## Quality Gate
 
 - [ ] Minimum 5 completed engagements analyzed for patterns

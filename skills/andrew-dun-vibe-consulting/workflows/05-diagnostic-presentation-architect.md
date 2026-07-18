@@ -179,6 +179,25 @@ Questions?
 
 ---
 
+## Output Schema
+
+The deliverable is a **10-15 slide client-facing deck** following the exact Deck Structure above:
+
+```
+Slide 1: Title (company, presenter, date, tagline)
+Slide 2: Executive Summary (headline $ waste figure)
+Slide 3: How We Got Here (process description, dual-track interview count)
+Slides 4-8: Process Findings (one per major bottleneck) — each MUST include
+   a direct operator quote and the four-input waste calculation shown inline
+Slide 9: Total Waste Summary table + conservative estimate line
+Slide 10: Opportunity Matrix (quick wins vs. big swings)
+Slides 11-12: Phased Roadmap (3 phases, each with $ investment + $ return)
+Slide 13: Investment Summary (total investment, payback, Year 1 ROI, 3-yr value)
+Slide 14: Next Steps (concrete dates + named AI Champion)
+```
+
+No slide may contain technical tool/vendor names (N8N, GPT-4, RAG, etc.) per the Non-Technical Language Rules above — this is a hard structural requirement, not a style preference.
+
 ## Quality Gate
 
 - [ ] Total annual waste figure appears on slide 2 (the headline)

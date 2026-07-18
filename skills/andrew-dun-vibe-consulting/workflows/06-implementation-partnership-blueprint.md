@@ -128,6 +128,24 @@ Before presenting ANY deliverable to client:
 
 ---
 
+## Output Schema
+
+The deliverable is a **Partnership Blueprint** document containing:
+
+```
+1. Partnership Tier Decision — selected model [REFERRAL/WHITE-LABEL/FULL-STACK]
+   with the 4 decision-criteria answers that justify it
+2. Partner Evaluation Rubric — minimum 3 candidates scored /25, only
+   candidates scoring 18+ carry forward
+3. Contract Structure — filled per-model (Referral: commission % + payment
+   trigger; White-Label: your rate / partner rate / margin / IP ownership /
+   NDA terms)
+4. Quality Control Protocol — weekly check-in cadence + the 5-item
+   pre-delivery QA checklist, both completed (not left as template)
+```
+
+Margin figures must land inside the stated ranges (10-15% referral, 40-50% white-label) — a number outside range without a stated reason is a red flag, not a valid output.
+
 ## Quality Gate
 
 - [ ] Partnership model selected based on decision criteria

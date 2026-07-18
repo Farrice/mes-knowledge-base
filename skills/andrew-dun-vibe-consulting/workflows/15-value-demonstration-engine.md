@@ -172,6 +172,19 @@ RENEWAL RECOMMENDATION:
 
 **The key insight**: The retainer doesn't sell itself based on "what I'll do next month." It sells based on "what you'll LOSE if I stop." Show the value that's been delivered, then let the client imagine it disappearing.
 
+## Output Schema
+
+The deliverable is a **Value Dashboard** (format chosen from Step 2's table) with 4 fixed sections plus a reporting cadence:
+
+| Section | Required Content |
+|---|---|
+| 1. Executive Summary | One large number: Total Value Delivered $, since-date, ROI multiple, payback status |
+| 2. Metric Breakdown | 3-5 metrics, each with Baseline / Current / Delta / $ value of delta / trend direction |
+| 3. Time-Series View | Chart or table showing trajectory since implementation start, dips explained |
+| 4. Next Opportunities | 2-3 items sourced from the original Opportunity Matrix (Workflow 04), not invented fresh |
+
+Plus, on cadence: a **Case Study** (Step 5 template, only with client permission) and, at renewal points, the **Retainer Justification** value-stack block (Step 6) with quarter $ delivered vs. retainer cost and net value shown explicitly.
+
 ## Quality Gate
 
 | Criterion | Pass Threshold |

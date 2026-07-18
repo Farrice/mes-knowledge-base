@@ -219,6 +219,34 @@ NEXT STEP: Schedule full process mapping sessions (Workflow 02)
 
 ---
 
+## Output Schema
+
+The deliverable is a single **Diagnostic Discovery Document** (markdown or doc, 3-6 pages). It MUST contain, in order:
+
+```
+1. EXECUTIVE INTERVIEW SYNTHESIS
+   - Strategic goals (verbatim quotes)
+   - Perceived bottlenecks
+   - Change Readiness Score [1-5] + AI Champion [Name or "Not Identified"]
+
+2. OPERATOR INTERVIEW SYNTHESIS (one block per interviewee, min 2 operators)
+   - Chronological routine (Capture Format from Step 3)
+   - Process Decomposition Results (min 1 "simple task" broken into sub-steps)
+
+3. EXECUTIVE-OPERATOR GAP ANALYSIS (table)
+   - Columns: Process | Executive Belief | Operator Reality | Gap | Estimated Annual Cost
+   - Minimum 2 rows showing executive belief ≠ operator reality
+
+4. TOP 3 GAPS BY ESTIMATED COST (ranked list, $ figures required)
+
+5. ENGAGEMENT RECOMMENDATION block
+   - RECOMMENDATION: [PROCEED TO FULL AUDIT / PARTIAL AUDIT / NOT A FIT]
+   - Rationale with dollar total, bottleneck count, readiness score, champion status
+   - Proposed audit scope, fee, timeline
+```
+
+Every `$[X]` and `[X min]` placeholder in the final output must be replaced with a real or explicitly-flagged estimate — never left as a bracket.
+
 ## Quality Gate
 
 Before delivering, verify:

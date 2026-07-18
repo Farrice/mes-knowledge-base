@@ -184,6 +184,23 @@ Over the past 6 months, total value delivered: $[X]."
 
 ---
 
+## Output Schema
+
+The deliverable is an **Advisory Retainer Proposal** (Step 4 template) containing:
+
+```
+- "What We've Built Together" block: per-solution $ savings + total annual
+  savings + total investment + ROI delivered multiple
+- Proposed Retainer Tier [1/2/3] named, with monthly $ and full scope list
+  copied from the matching tier definition (never abbreviated)
+- Protection Ratio calculation: annual retainer value vs. annual savings
+  protected, expressed as "$1 protects $[X]"
+- Terms block: month-to-month, 30-day notice, quarterly scope review
+- Named next step with a proposed start date
+```
+
+Plus a **Churn Prevention Monitor** (Step 5 table) populated with the 6 warning signals, each carrying its Risk Level and Response — this ships alongside the proposal, not as an afterthought.
+
 ## Quality Gate
 
 - [ ] Retainer positioned as protecting investment, not new cost

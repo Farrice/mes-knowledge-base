@@ -148,6 +148,18 @@ On the 1st of each month, run this diagnostic:
 | Deal size | Growing quarter-over-quarter | Shrinking | Are you discounting? Competing on price? Check positioning |
 | Client concentration | No client > 30% of revenue | One client > 50% | Urgent: diversify immediately |
 
+## Output Schema
+
+The deliverable is a **Weekly Pipeline Dashboard** (Step 2 format) plus its two supporting trackers, refreshed every Monday:
+
+| Component | Required Fields |
+|---|---|
+| Pipeline Dashboard | Revenue targets (monthly/quarterly/YTD), pipeline health (total, weighted, ratio, avg deal size), stage counts S0-S8, this week's priority actions |
+| Acquisition Activity Tracker | All 7 activities with Weekly Target vs. Actual, channel labeled |
+| Revenue Forecasting Model | The 4-term forecast formula computed with real numbers, plus the Revenue Mix Health Check table (4 rows, OK/WARNING flagged) |
+
+Monthly (1st of month) additionally requires the **Monthly Pipeline Review** — velocity, conversion, value, mix metrics against the Decision Framework table, each flagged Healthy or Warning with a named action if Warning.
+
 ## Quality Gate
 
 | Criterion | Pass Threshold |

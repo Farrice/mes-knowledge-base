@@ -220,6 +220,25 @@ FROM FIRST CLIENT:
 
 ---
 
+## Output Schema
+
+The deliverable is a **First Client Acquisition Package** containing:
+
+```
+1. Positioning Statement — filled from the template, passing all 3
+   validation questions (Y/N answered, not skipped)
+2. Warm Contact List — 20+ contacts across Tiers 1-3, each row filled
+   (no blank template rows in the final deliverable)
+3. Backend Deal Script — personalized per-contact (never sent verbatim
+   identical to two different prospects)
+4. 5-Day Outreach Sprint plan with actual send dates
+5. Social Proof Capture Plan — case study template, video testimonial
+   question set, and reference-ask script, all pre-written BEFORE
+   outreach begins
+6. Bridge Strategy — the 4-step price escalation path ($0-2K → $3-5K →
+   $5-10K → full rate) with the referral ask timing specified
+```
+
 ## Quality Gate
 
 Before executing outreach, verify:
