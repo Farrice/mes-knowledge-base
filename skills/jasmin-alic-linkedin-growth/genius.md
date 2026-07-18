@@ -4,6 +4,37 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+---
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Alic never counts
+lines out loud on the page — the Three-Line Rule, the Trapdoor bridge, and
+the pinned-comment rotation are muscle memory, executed silently. If output
+labels its own machinery ("Here's my hook using the Three-Line Rule…"), it
+has failed before the first sentence lands. The test: would Jasmin Alic
+recognize this as his own cadence — the rapper's ear for rhythm applied to a
+LinkedIn feed — or as someone reciting his frameworks back at him? If it
+reads like the second, rebuild it.
+
+Specifically:
+- Do NOT announce the Trapdoor Hook, the pinned-comment type, or the
+  balancing-statement structure in the delivered copy. Execute the move;
+  never narrate it.
+- His texture is spoken and kinetic, not academic — "Hear me out," "See how
+  different these two are?," "Boom." (extractions/Jasmin_Alic_Extraction.md,
+  Voice & Style). A post that reads like a marketing brief instead of a
+  cypher has missed the register entirely.
+- Polish is the tell-class failure here in a specific direction: over-smooth
+  transitions and hedge-everything CTAs are the mark of someone imitating
+  confidence rather than earning attention line by line. Alic's copy is
+  blunt and rhythmic before it is polite.
+- Comments are not garnish. If a workflow treats commenting as an
+  afterthought to the "real" post, it has inverted his actual growth engine
+  (see Anti-Patterns below).
+
+---
+
 ## Genius Patterns
 
 ## 1. The Distributed Commenting Engine
@@ -61,6 +92,20 @@ Must stop before line 4 so it naturally truncates on all devices.
 **Why Others Miss This**: Marketers default to isolating pitches into standalone "sales posts" which the algorithm heavily penalizes for low initial engagement.
 
 **Deploy When**: Promoting offers, newsletters, or business pages on a platform that historically limits the reach of links and direct pitches.
+
+---
+
+## Anti-Patterns
+
+Every workflow in this skill runs an Anti-Pattern Check against this section before delivery. Each item below is grounded in the source extraction or in this file's own already-verified quotes — never invented.
+
+- **Generic Engagement Comment**: Never leave a low-effort, praise-only comment — Alic's own documented worst case is "Great post! So much value here. Really resonated with me. Keep up the good work!" (Source: this file, Hall of Fame Exemplars → Anti-Exemplar, below — sourced from extractions/Jasmin_Alic_Extraction.md).
+- **Standalone Sales Post**: Never isolate the pitch into its own post — the source transcript names this the default mistake: "Marketers default to isolating pitches into standalone 'sales posts' which the algorithm heavily penalizes for low initial engagement" (Source: extractions/Jasmin_Alic_Extraction.md, Hidden Knowledge — "The Un-Salesy Mid-Post Tag").
+- **Comments Treated as a Chore**: Never relegate commenting to background or forced-engagement busywork — "People treat comments as chores or forced engagement rather than a place for rapid hypothesis testing of copywriting hooks" (Source: extractions/Jasmin_Alic_Extraction.md, Hidden Knowledge — "The Comment Laboratory," ~1h30m YouTube transcript).
+- **Cold DM Pitch**: Never open a stranger's inbox with an ask — "Never DM-pitch a stranger and never post a 'sales post' (the algorithm suppresses low-engagement pitches)" (Source: this file, § Patterns from claude.ai export, pattern 1 — The Content-to-Client Pathway).
+- **Unfounded / Generic Transformation Claim**: Never sell a vague outcome — the system demands claims "anchor... in real, named specificity and quantified stakes, never generic transformation" (Source: this file, § Patterns from claude.ai export, pattern 4 — High-Ticket Authority Positioning).
+- **Four-Line Post (Truncation Miss)**: Never let a post run past line 3 before the platform's "See More" cutoff — "Must stop before line 4 so it naturally truncates on all devices" (Source: extractions/Jasmin_Alic_Extraction.md, Methodology → Level 2: Hook Architecture).
+- **Generic, Demanding CTA**: Never close with a flat, generic ask like "DM me to learn more" — the expert-specific rubric scores this a bottom-tier (4/10) failure (Source: this file, § Expert-Specific Quality Rubric, "Engagement Intent (Post)" row).
 
 ---
 
