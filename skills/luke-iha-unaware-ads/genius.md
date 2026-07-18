@@ -1,5 +1,15 @@
 # Luke Iha: Unaware Ads — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives — the curiosity×relevance instinct, the worldview-porn instinct, the vicious-hook instinct — not a checklist to march through in order. Absorb them, then write from them. If the output mechanically labels its own moves ("Step 1: Paradox Hook," "Applying the Conspiracy Frame," "Deploying Vectors of Winning Angles"), you have failed. Iha is explicit that the finished ad "doesn't read like an ad. It should read like information that's promising some sort of new insight, or it's a story, or it's a confession." The test: would Iha recognize this as a hook that goes for the reader's actual belief system in the first 10-20 words — or as someone reciting his vocabulary (worldview porn, vicious, open loop) as decoration around a hedged, polite ad? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce the mechanism inside the copy itself. Execute the hook raw — no "Here's a paradox hook:" framing, no visible scaffolding.
+- Do NOT hedge the opener. Iha's own diagnosis of failed ads: most writers "start their ad actually three to four sentences in" with filler before the real hook lands — by then an unaware reader has already scrolled past. The entire hook lives in the first line.
+- Do NOT sanitize the language for comfort. His standard is blunt: "A polite hook is a dead hook. A comfortable hook is a dead hook." Favor charged, concrete, Germanic-rooted words (sweat, not perspire) over Latinate hedges wherever relevance allows it.
+- Polish-is-the-tell: a hook that reads smooth, safe, and grammatically tidy is the surest sign the worldview-shift engine never fired. His own strongest examples ("my doctor accused me of lying," "my husband came out as gay after 26 years of marriage and it nearly killed me") are raw, specific, almost uncomfortable to read — never varnished ad copy.
+
 ## Core Philosophy
 Most advertisers fight over problem-aware and solution-aware audiences — expensive, crowded, diminishing returns. The unaware audience is the blue ocean: untouched, cheaper to reach, and more loyal once converted. But writing for unaware audiences requires a fundamentally different architecture. You can't lead with the problem (they don't know they have one). You can't lead with the solution (irrelevant to them). You must lead with **curiosity** and **worldview validation** — then systematically shift their beliefs until your product feels inevitable.
 
@@ -86,3 +96,14 @@ Most advertisers fight over problem-aware and solution-aware audiences — expen
 ## Expert-Specific Quality Rubric
 
 | Criterion                         | Score 4 (Acceptable)                                                                  | Score 7 (Good)                                                                                                    | Score 10 (Savant)
+
+## Anti-Patterns Iha Would Reject
+
+Mistakes Iha explicitly names when diagnosing failed hooks and unaware ads — each anchored to a verbatim line from a source transcript already inside `extractions/`. Never generate output that reproduces these.
+
+- **Hedging the opener instead of going straight for the hook.** Iha names this as the default failure even among "decently successful" students. *Source (extractions/luke-iha-hooks/transcript.txt, landed in this repo 2026-03-20): "most people hedge. So most people when I'm talking to them, even people who are decently successful, they usually start their ad actually three to four sentences in. This means that there's some kind of filler or some kind of intro..."*
+- **Writing a "safe" or comfortable hook and calling it finished.** Iha treats politeness as a fatal flaw, not a style choice. *Source (extractions/luke-iha-hooks/transcript.txt): "A polite hook is a dead hook. A comfortable hook is a dead hook. A hook that doesn't make someone flinch, gasp, or [get] personally called out is a dead hook."*
+- **Faking an open loop that's actually predictable.** Writers think withholding one clause creates curiosity, but Iha calls out that readers fill in the blank and lose all reason to click. *Source (extractions/luke-iha-hooks/transcript.txt): "they'll write a hook and they think that they're doing some sort of open loop... there's not actually that much of an open loop because people are going to make predictions about what you're saying... if they can make an educated guess and feel confident in their guess of what you're going to say, then they have no business to actually read the ad."*
+- **Leading with the mechanism before establishing relevance.** Iha names this directly as a mistake, using his own "electrical imbalance" example — jargon the reader doesn't already care about, deployed too early. *Source (extractions/luke-iha-hooks/transcript.txt): "you only want to use the relevance or the consequence first and then tie in the mechanism later. Right? So a mistake that people do is they try to put that mechanism first."*
+- **Writing unaware-audience ads at a problem-aware or solution-aware register.** Iha frames awareness-level mismatch as the single most common error across an entire vertical. *Source (extractions/luke-iha/video-3-levels-of-awareness/transcript.txt, landed in this repo 2026-03-10): "99% of drop shippers don't know what awareness levels are and 99% of drop shippers are competing and creating ads that are designed for these lower levels of awareness."*
+- **Avoiding conspiracy/insider framing out of fear the audience won't believe it.** Iha names this hesitation directly and corrects it. *Source (extractions/luke-iha/video-3-levels-of-awareness/transcript.txt): "People don't want to lean into conspiracy oftentimes because they're afraid, oh, my market won't really believe that or it's too unbelievable or whatever. But... most people would be surprised at how well people respond to the sort of conspiratorial type of angles."*
