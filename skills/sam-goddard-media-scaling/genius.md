@@ -4,6 +4,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist — internalize the phased-scaling logic and the reframe-first scripting instinct, then build originally. If the output stamps "Phase 1, Phase 2, Phase 3" onto a client plan without ever asking whether that client has actually proven the phase before it, you have failed the model, not just the format. The test: would Sam Goddard recognize this as the operating system he actually built inside Martell Media — infrastructure hired ahead of demand, "nobody works for free, so we pay them well," scripts audited for reframes before they're audited for grammar — or would he see a generic "grow your personal brand" deck wearing his vocabulary?
+
+Specifically:
+- Do NOT open a deliverable by announcing "here's the GoPro system" or "applying the Attention Arbitrage Model." Run the phase logic; don't narrate it. Sam never lectures Dan on frameworks — he designs the team structure two phases ahead and lets the results argue for themselves.
+- Do NOT hand a founder Phase 4 (multi-6-figure media spend) language when their content-market fit isn't proven yet. Sam's texture is patient and sequential — "there's phases and there's levels where you you know start small and you kind of scale up and you monetize as you scale" — skipping ahead misrepresents him.
+- His delivery is operator-blunt, not guru-polished: real numbers over adjectives ("200 million views a month," not "massive reach"), a named person in every example (Dan, not "the client"), and a dollar-or-time cost attached to every claim. Polish that erases the specific number is the tell.
+- Every script/content recommendation should default to reframes, not hooks — "what's going to get people to watch the whole video" is Sam's stated bar. A deliverable that only optimizes the first 3 seconds hasn't actually used this skill.
+
 ## Genius Patterns
 
 ## 1. The Aperture Widening Play
@@ -23,6 +33,7 @@
 - **Executable Behavior**: Phase 1 (prove fit) → Phase 2 (add specialists) → Phase 3 (full operation) → Phase 4 (multi-6-figure media spend). Each phase must prove ROI before advancing.
 - **Deployment Context**: Any creator deciding how much to invest in content operation.
 - **Success Metric**: Each phase generates enough revenue/attention to fund the next.
+- **Source Note**: Sam frames the top of this ladder in real numbers, not vibes — "the biggest content creators online right now are spending multi-6 figures a month on media" to get "over 200 million views a month" (Sam Goddard, "The Marketing Genius Behind Dan Martell," YouTube interview transcript, captured 2026-02-13).
 
 ## 4. Retention Engineering Over Views
 - **What He Does Unconsciously**: Prioritizes "reframes" and retention mechanisms over click-bait hooks. Keeps people watching, not just clicking.
@@ -56,25 +67,36 @@
 
 ## Hidden Knowledge
 
-Tacit expertise Sam demonstrates but doesn't explicitly teach. These are the insights you'd only get from watching him operate on Dan Martell's brand for years.
+Tacit expertise Sam demonstrates but doesn't explicitly teach. These are the insights you'd only get from watching him operate on Dan Martell's brand for years — the same run that took Dan from 100K followers to 9M+ across platforms and 200M+ monthly views.
 
 ## 1. Phase-Gated Scaling
-The GoPro system has invisible gates. You don't just decide to spend multi-6 figures on media. Each phase must prove ROI first. Most creators try to skip phases and fail. **The patience to phase correctly IS the competitive advantage.**
+The GoPro system has invisible gates. You don't just decide to spend multi-6 figures on media. Each phase must prove ROI first. Most creators try to skip phases and fail. **The patience to phase correctly IS the competitive advantage.** In his own words: "there's phases and there's levels where you you know start small and you kind of scale up and you monetize as you scale" (Sam Goddard, interview transcript, 2026-02-13).
 
 ## 2. The Book as Brand Architecture
 "Buy Back Your Time" wasn't just a book — it was an audience-widening device. The book forced content strategy to evolve from "SaaS advice" to "business productivity," which 10x'd the addressable audience. **The book IS the strategy, not a product.**
 
 ## 3. Team as Moat
-Sam specifically says "nobody works for free, we pay them well." The hidden insight: **paying above market for your media team is an attention moat.** Underpaid teams produce commodity content. Well-paid specialists produce content that compounds.
+Sam specifically says "nobody works for free, so we pay them well." The hidden insight: **paying above market for your media team is an attention moat.** Underpaid teams produce commodity content. Well-paid specialists produce content that compounds.
 
 ## 4. 6-12 Month Patience Horizon
 The gap between "going pro" on content and seeing results is 6-12 months of "heads down work." Most creators quit at month 3. **This patience window is the real barrier to entry** — not skill, not money, not talent.
 
 ## 5. The Illusion of Intimacy at Scale
-People message Sam thinking he's a one-man show. The hidden strategy: **the best media operations look effortless and personal, even with a full team behind them.** The illusion of intimacy at scale IS the product. If the team is visible, you've failed.
+People message Sam thinking he's a one-man show. The hidden strategy: **the best media operations look effortless and personal, even with a full team behind them.** The illusion of intimacy at scale IS the product. If the team is visible, you've failed. Sam's own framing: "I have a team of people that run this this uh this operation" (Sam Goddard, interview transcript, 2026-02-13) — the audience never sees the roster, only the output.
 
 ## 6. Attention Psychology as the Unchanging Layer
 When asked what will separate people, Sam points to "understanding attention and psychology." Hidden meaning: **tools, platforms, and algorithms change. Human attention and psychology don't.** Invest in the layer that doesn't change. Everyone chasing the new platform is competing on the wrong dimension.
+
+## Anti-Patterns
+
+Failure modes Sam names directly, each anchored to the source transcript so downstream work never invents authority he didn't claim.
+
+- **Direct Copying Instead of Indirect Interpretation**: researching demand by remaking a competitor's exact video is the top research failure he calls out — "That's the biggest mistake I see most people make is just copying other people's content for the sake of copying content" (Sam Goddard, "The Marketing Genius Behind Dan Martell," YouTube interview transcript, captured 2026-02-13). **Fix**: indirect interpretation — take the topic/format and insert your own perspective, story, and methodology.
+- **Quitting Inside the Patience Window**: most creators abandon the GoPro phases before results compound — "the only way you don't lose is if you don't quit" (Sam Goddard, interview transcript, 2026-02-13) — ties directly to the 6-12 month heads-down window before a channel shows results.
+- **Shooting Without a Buffer**: a full production pipeline still fails on quality if there's no slack in it — "if you don't have like a little bit of buffer, you don't actually get the quality" (Sam Goddard, interview transcript, 2026-02-13); Martell Media keeps two approved videos "in the bank" at all times for exactly this reason.
+- **Systems That Break Under Volume**: scaling content velocity before the operation can hold it kills the real advantage — "you have to build a system that doesn't break" and "that is the only way that you will not fall behind" (Sam Goddard, interview transcript, 2026-02-13).
+- **Riding a Retention Mechanic Past Its Shelf Life**: road maps, step-counters, and calendar devices are cyclical, not permanent — "it's going to become cringe to use a a road map in your YouTube videos" (Sam Goddard, interview transcript, 2026-02-13); reuse a mechanic too long and it becomes the thing viewers roll their eyes at.
+- **Underestimating Production Prep**: creators chronically underscope how much lead time a channel needs — "people underestimate the amount of prep that goes into like running a successful YouTube channel" (Sam Goddard, interview transcript, 2026-02-13); Martell Media runs roughly 16 videos in the pipeline at once, two to three months ahead of publish.
 
 ---
 
