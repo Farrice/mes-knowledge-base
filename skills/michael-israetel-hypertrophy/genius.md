@@ -2,6 +2,19 @@
 
 The thing that makes Israetel elite is not that he knows more science than everyone — it's that he *subtracts* everything the evidence doesn't support and then packages the remainder as the smallest dose a real human will actually do. He treats client beliefs as "Notions" (Thomas Sowell's term — things people say that no one ever checked), busts them with data, and replaces them with a fixed, teachable sequence. Every pattern below is that instinct in action.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist to recite. Absorb the sequence — needs analysis → specificity → overload → frequency → minimal effective dose → recovery, with calories as the engine and macros steering the outcome — then build the program or plan originally for the client sitting across from you. If the output mechanically stamps "Step 1: Needs Analysis, Step 2: Specificity, Step 3: Overload," you have failed.
+
+The test: would Israetel recognize this as a program he'd actually assign a real client with a real time budget — or as someone using RP vocabulary (MEV/MAV/MRV, "periodization," "hypertrophy training") as jargon without ever running the needs analysis or doing the underlying volume math? If it's the second, rebuild.
+
+Specifically:
+- Do NOT open with a lecture on volume-landmark theory before the client has a plan in hand. He sells the minimum effective dose first and reveals the "why" only when it increases buy-in (see "Sell The Result, Titrate The Complexity" below).
+- Do NOT hedge every number into a committee-drafted caveat. His authority comes from flat, quotable, falsifiable calls — "it's totally myth, it doesn't work? No, no, it works great" — not from softened maybes. State the number, then earn it.
+- Do NOT let a client's Notion (organic/gluten-free fear, "high protein wrecks your kidneys," "I have to eat clean forever") stand unchallenged on the page. Naming it approvingly, or worse, prescribing around it without correcting it, is exactly the failure his whole brand is built on fixing.
+- Do NOT reach for a supplement stack, a "perfect" rep range, or a cardio prescription to fix a diet problem — these are the specific traps he calls out by name (see Anti-Patterns below). If the plan leans on any of them to do the real work, the real work (calories, protein, frequency, technique) is being avoided.
+- His texture is a coach talking to one specific, slightly nervous person across a table, not a paper: short declaratives, real units (kilos of meat, pounds of dumbbells, minutes per session), self-deprecating asides ("this sounds so pretentious"), and a "trade secret," half-joking cadence when he's about to say something precise. Polish that erases that texture and reads like a clinical abstract is the tell you wrote science-lecture copy instead of Israetel copy.
+
 ## Genius Patterns
 
 ### Pattern: Needs Analysis Before Anything
@@ -79,3 +92,18 @@ The plan to *lose* weight is not the plan to *maintain* it — medical advice th
 ### Insight: Supplements Are Round-Off Error For Most People
 - **Insight**: For the average person chasing health/physique, the honest answer to "what supplements?" is essentially none. Creatine monohydrate (5 g/day, loading is a marketing scam) is worth it for muscle + cognition; whey/casein are convenient protein *foods*, not magic. Supplements don't crack the top 10 of what matters (sleep, stress, consistent lifting, activity, protein). They only start paying dividends near competitive-bodybuilding effort levels.
 - **Deploy**: Refuse to sell a supplement stack to a beginner. Redirect budget and attention to the big rocks. This candor builds trust and separates you from the industry's default grift.
+
+## Anti-Patterns (Sourced)
+
+Every item below is something Israetel names directly, on record, as false or wrong — not inferred from general fitness-industry vibes. Quotes are verbatim from the Merlin AI transcript of his interview "The Muscle Building Expert: They're Lying To You About Workout Hours!" (YouTube), captured across two claude.ai conversations in the claude-export archive (`_archive/claude-export-2026-07-01.tar.gz`, files `claude-export/normalized/conversations/715413da-8a4d-4388-9199-8ab7111661f5.md` = Pt.1, dated 2025-08-08, and `.../5405342c-7ba5-4d1c-9e74-76567eb75cbc.md` = Pt.2, dated 2025-08-10). Timestamps are the transcript's own video-timecodes.
+
+- **Assuming a real transformation needs a big weekly time budget** — he names this as one of the two most common excuses standing between people and results: "two super common ones are I don't have the time to work out and into that time to work out is included I don't have regular gym access" (Pt.1 transcript, timestamp 3:44).
+- **Treating "clean eating" fears (organic, gluten-free, GMO) as legitimate blockers instead of unverified Notions** — his own label for the client belief-stack: "organic artificial sweeteners are bad glutenfree GMOs" sits in the same "stack of ideas" he calls Notions, Thomas Sowell's term for "things people say" nobody ever checked (Pt.1 transcript, timestamp 5:34 and 6:38).
+- **Telling a client high protein damages healthy kidneys** — flatly false per Israetel: "excessive protein as a health malady has been a myth the entire time" (Pt.1 transcript, timestamp 47:28).
+- **Dismissing calories-in/calories-out as "doesn't work"** — his direct rebuttal to that claim: "it's totally myth it doesn't work no no it works great" (Pt.1 transcript, timestamp 53:59).
+- **All-or-nothing dieting ("I had one cheeseburger, I've sinned, I'm done")** — named as the #1 weight-loss myth, in his words: "if I'm off my diet not only am I bad but as soon as I'm off my diet I have sinned and there is no Solace for me" (Pt.1 transcript, timestamp 63:43).
+- **Prescribing the identical plan to lose weight as to maintain it** — called out by name as "a huge myth": "a huge myth is the fact that... once you've gotten to that weight you both need some time... at maintenance" (Pt.1 transcript, timestamp 65:51).
+- **Recommending cardio to outrun a bad diet** — his own arithmetic kills this: "the average person will burn something like 100 to 150 calories per mile run" against "a doughnut has 300 calories," eaten in about five seconds (Pt.1 transcript, timestamp 68:56–69:13).
+- **Loading creatine (20 g/day for the first week)** — named explicitly as a scam: "that's basically like a corporate scam that's just trying to get you to consume more creatine" (Pt.2 transcript, timestamp 75:52).
+- **Building out a supplement stack for a beginner client** — his direct refusal: "supplements are just not in the conversation for important things" and "supplements are insanely overrated as a general rule" (Pt.2 transcript, timestamp 76:58 and 77:18).
+- **Letting sloppy technique pass because "it's still working the muscle"** — his named #1 common training mistake, illustrated with the curl that arcs back into a shoulder stabilizer move instead of a bicep prime-mover move: "one of them is a failure to pay attention to good technique" (Pt.1 transcript, timestamp 43:58).
