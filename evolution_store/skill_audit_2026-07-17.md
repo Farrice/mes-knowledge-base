@@ -1,7 +1,7 @@
 # Skill Audit — 2026-07-17
 
-**Total skills**: 370
-**Tier distribution**: A=11, B=229, C=4, REVIEW=99, UTILITY=27
+**Total skills**: 371
+**Tier distribution**: A=11, B=229, C=5, REVIEW=99, UTILITY=27
 
 ## Methodology
 
@@ -20,8 +20,9 @@ Tiers:
 
 6 checks: anti-patterns ≥5 sourced · ≥3 verbatim exemplars · recognition test · source ledger · named-entity floor · workflow Output Schema+Quality Gate. Failing ≥2 caps the tier at B.
 
-318 skill(s) fail ≥2 checks (6 tier-capped this run):
+313 skill(s) fail ≥2 checks (6 tier-capped this run):
 
+- `_tmp_audit_diandra`: anti_patterns_sourced, verbatim_exemplars, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `adam-enfroy-affiliate-marketing`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `ai-carousel-content-engine`: anti_patterns_sourced, verbatim_exemplars, recognition_test, named_entity_floor, workflow_contracts
 - `ai-chris-lee-zero-testimonial-sales`: anti_patterns_sourced, recognition_test, source_ledger
@@ -136,7 +137,6 @@ Tiers:
 - `james-i-bond-brain-glue`: anti_patterns_sourced, verbatim_exemplars, recognition_test, source_ledger, named_entity_floor
 - `jasmin-alic-linkedin-growth`: anti_patterns_sourced, recognition_test, source_ledger
 - `jay-hiette-coaching-positioning`: anti_patterns_sourced, recognition_test, source_ledger
-- `jen-santulan-listing-content`: anti_patterns_sourced, recognition_test, source_ledger
 - `jeremy-haynes-mindset-systems`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `jeremy-miner-identity-persuasion`: anti_patterns_sourced, recognition_test, workflow_contracts
 - `jessica-jensen-platform-intelligence`: anti_patterns_sourced, recognition_test, source_ledger
@@ -161,7 +161,6 @@ Tiers:
 - `kallaway-content-operating-system`: anti_patterns_sourced, verbatim_exemplars, recognition_test, named_entity_floor, workflow_contracts
 - `kallaway-content-psychology`: anti_patterns_sourced, recognition_test, workflow_contracts
 - `kallaway-content-system`: anti_patterns_sourced, recognition_test, named_entity_floor, workflow_contracts
-- `kallaway-social-commerce`: anti_patterns_sourced, recognition_test, source_ledger
 - `kallaway-word-mastery`: anti_patterns_sourced, recognition_test, source_ledger
 - `kieran-flanagan-audience-intelligence`: anti_patterns_sourced, recognition_test, source_ledger
 - `kieran-flanagan-content-engine`: anti_patterns_sourced, recognition_test, source_ledger
@@ -175,7 +174,6 @@ Tiers:
 - `lamott-craft`: anti_patterns_sourced, source_ledger
 - `lance-yichao-context-engineering`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `lara-acosta-content-system`: anti_patterns_sourced, recognition_test, source_ledger **[capped A→B]**
-- `lara-acosta-linkedin-growth`: recognition_test, source_ledger, named_entity_floor
 - `liam-mley-ai-brain-builder`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor, workflow_contracts
 - `liam-ottley-linkedin-lead-magnet`: anti_patterns_sourced, verbatim_exemplars, recognition_test, named_entity_floor
 - `lindsay-ai-consulting`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
@@ -234,9 +232,7 @@ Tiers:
 - `nick-saraev-agentic-workflows`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `nick-saraev-bottleneck-thinking`: anti_patterns_sourced, recognition_test, source_ledger, named_entity_floor
 - `nicolas-cole-client-acquisition`: anti_patterns_sourced, recognition_test, workflow_contracts
-- `nicolas-cole-digital-products`: anti_patterns_sourced, source_ledger, named_entity_floor
 - `nicolas-cole-edan-writing-mechanics`: anti_patterns_sourced, verbatim_exemplars, recognition_test, named_entity_floor
-- `nicolas-cole-newsletter-flywheel`: recognition_test, source_ledger, workflow_contracts
 - `nicolas-cole-niche-positioning`: anti_patterns_sourced, recognition_test, source_ledger, workflow_contracts
 - `nicolas-cole-nonfiction-value-architecture`: anti_patterns_sourced, recognition_test, named_entity_floor
 - `nicolas-cole-sales-education-messaging`: anti_patterns_sourced, recognition_test, named_entity_floor
@@ -307,7 +303,6 @@ Tiers:
 - `simon-intellectual-library-os`: anti_patterns_sourced, recognition_test
 - `sky-tan-format-engine`: anti_patterns_sourced, recognition_test, named_entity_floor
 - `soowei-consulting-leverage`: anti_patterns_sourced, recognition_test, source_ledger
-- `stefan-georgi-dopamine-copy`: anti_patterns_sourced, recognition_test, source_ledger, workflow_contracts
 - `steven-kotler-flow-performance`: anti_patterns_sourced, recognition_test, source_ledger
 - `steven-pressfield-narrative-mastery`: anti_patterns_sourced, recognition_test, source_ledger
 - `steven-young-consciousness`: anti_patterns_sourced, recognition_test, source_ledger
@@ -343,8 +338,9 @@ Tiers:
 
 ## Craft Standard Flags (`directives/skill-craft-standard.md` — advisory, not tier-affecting)
 
-337 skills have at least one cheap deterministic gap:
+338 skills have at least one cheap deterministic gap:
 
+- `_tmp_audit_diandra`: no genius.md, zero workflows
 - `adam-enfroy-affiliate-marketing`: frontmatter missing domain, frontmatter missing when_to_use
 - `adam-sandler-second-brain-gtm`: frontmatter missing domain, frontmatter missing when_to_use
 - `ai-carousel-content-engine`: frontmatter missing when_to_use
@@ -1076,12 +1072,13 @@ Heuristics conflict — these need human eyes before tier finalization.
 | `yann-martel-storytelling-mastery` | 12 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
 | `yuri-elkaim-health-coaching-business` | 3 | ✓ | - |  | full structure but never used (no traces, no cross-references) |
 
-## Tier C (4 skills)
+## Tier C (5 skills)
 
 Archive candidates. Low evidence of value. **Do not delete — move to `_archive/skills/` for provenance.** Review individually before archiving (some may be load-bearing user domain skills).
 
 | Skill | Workflows | Genius | Traces | Cross-ref | Reasoning |
 |---|---|---|---|---|---|
+| `_tmp_audit_diandra` | 0 |  | - |  | MISSING SKILL.md — likely orphan or backup folder |
 | `banana-pro-director` | 0 |  | - |  | minimal structure (SKILL.md only) AND no traces AND no cross-references |
 | `fryderyk-wiatrowski-ai-employee-os` | 1 |  | - |  | minimal structure (SKILL.md only) AND no traces AND no cross-references |
 | `higgsfield-creative-studio` | 0 |  | - |  | minimal structure (SKILL.md only) AND no traces AND no cross-references |

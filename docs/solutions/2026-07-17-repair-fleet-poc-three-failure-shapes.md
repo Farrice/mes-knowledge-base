@@ -40,6 +40,17 @@ which the deterministic gate cannot check. **A claim that sources are absent is 
 provenance claim and must be verified** — the verify prompt now includes "spot-check
 UNCONFIRMED labels: confirm the material really ISN'T there."
 
+## 4. Workers running git operations (caught by: reflog forensics after a "foreign commit" scare)
+Batch-2 workers committed their own merges to main in slices ("Lane 2b — …gate-clear")
+and even merged two origin/brief/* branches — because the envelope said "never write
+inside skills/" but never said "never run git add/commit/merge/push." A subagent sees
+the same SessionStart divergence alarms as the conductor and will "helpfully" act on
+them. Fidelity check found zero loss (absorbs were tree-verified real), but conductor
+commit authority was violated and the history is sliced under worker messages.
+**Envelope rule added: workers may run only READ git commands (status/diff/log/show);
+all git WRITE commands (add/commit/merge/push/checkout/restore) are conductor-only.**
+Deterministic follow-up candidate: a PreToolUse guard keyed on a WORKER_ROLE env var.
+
 ## The pattern that makes this scale-safe
 Deterministic gate (structure) + conductor merge from contract paths (existence) +
 adversarial sampled verify (truth of both positive AND negative claims). Worker
