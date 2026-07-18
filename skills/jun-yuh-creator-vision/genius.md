@@ -4,6 +4,18 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then build originally — never stamp "Branch 1: Skills, Branch 2: Perspective, Branch 3: Lifestyle" onto the page in that order like a form. The test: would Jun Yuh recognize this as someone who *lives the Creator Vision* — audience, origin story, and content all pulling from the same psychographic gravity — or as someone reciting Creator Vision vocabulary at a stranger? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce the machinery. Jun Yuh never says "now applying the Permutation Engine" on camera — he just produces eight ideas from one hook in real time ("I used to believe blank until this happened... let me go to my creative vision"). Execute the permutation, don't narrate it.
+- Do NOT let psychographic profiles read like ad-platform targeting. His own line is the bar: demographic data is "what a lot of your platforms actually already depict," psychographic is "what they struggle with, what are their desires" — if the audience description could come from an Instagram Insights export, it has failed.
+- His texture is direct and unhedged, built from his own reversals ("I used to believe burnout was inevitable... until I built my own creative business my way"), not from borrowed guru language. A polished, generic "authenticity" paragraph is the tell that the model defaulted to training data instead of his voice.
+- Never let production value stand in for insight. His own words: "Quality has nothing to do with production level. It has nothing to do with how fancy your edits are." A cinematic-sounding deliverable that skips the psychographic pain point has failed even if it reads "professional."
+
+---
+
 ## Genius Patterns
 
 ## 1. The Creator Vision Architecture (Evolved 3-Branch Model)
@@ -188,13 +200,13 @@ When choosing which workflow to deploy, ask:
 
 ## Anti-Patterns
 
-- ❌ **Demographic Targeting**: Never define audience by age/gender/location. Always psychographic.
-- ❌ **Single Origin Story**: Never stop at one. Mine for 3-5 distinct Problem/Pursuit/Payoff arcs.
-- ❌ **Topic Niching**: Never cage a creator in a single topic. The MESSAGE is the niche, not the subject.
-- ❌ **Brainstorming for Ideas**: Never stare at blank pages. Use the Permutation Engine.
-- ❌ **Leading with Success**: Never open with flex. Always lead with pain, struggle, or vulnerability.
-- ❌ **Performative Content**: Never create content the creator wouldn't discuss at dinner. Energy test everything.
-- ❌ **Effort = Quality Assumption**: Never assume high-production-value content is better. Target the psychographic pain, not the production standard.
+- ❌ **Demographic Targeting**: Never define audience by age/gender/location. Always psychographic. Jun Yuh's own distinction: demographic is "who they are... the metrics that Instagram gives to you," but "this thing is significantly more important, right? What they struggle with, what are their desires" (source: `extractions/jun-yuh/transcript.txt`).
+- ❌ **Single Origin Story**: Never stop at one. Mine for 3-5 distinct Problem/Pursuit/Payoff arcs. His own exercise proves the depth is there: "list out transformative experiences in your life... you'll actually list out the first eight quite quickly, but beyond that, you'll find yourself struggling. Good. Stay in the struggle" (source: `extractions/Jun Yuh/transcript.txt`).
+- ❌ **Topic Niching**: Never cage a creator in a single topic. The MESSAGE is the niche, not the subject. His own framing of the mistake: "Choose a specific topic or industry and only create about that one topic... if you're known for one topic, as you evolve and have different interests and create about them, no one will engage" (source: `extractions/Jun Yuh/transcript.txt`).
+- ❌ **Brainstorming for Ideas**: Never stare at blank pages. Use the Permutation Engine. Demonstrated live in the source video: "the amount of permutations that you can generate is absurd... let's try this in real time" (source: `extractions/jun-yuh/transcript.txt`).
+- ❌ **Leading with Success**: Never open with flex. Always lead with pain, struggle, or vulnerability. His own warning: "if you're constantly starting your videos, flexing your watch or your fancy lifestyle or your lavish cars, and you're wondering why nobody cares about your videos, it's because... our common denominator is struggle" (source: `extractions/Jun Yuh/transcript.txt`).
+- ❌ **Performative Content**: Never create content the creator wouldn't discuss at dinner. Energy test everything. *(Sourcing note: the "dinner/5-years" Energy Test framing is not found verbatim in either source transcript — the closest grounded material is his framing of sustainability over virality — "I care about you and I want you to be able to sustain your success in the long term... protect you from burning out" (`extractions/Jun Yuh/transcript.txt`). Treat the specific 3-question test as LIKELY, not VERIFIED — see `references/source-ledger.md`.)*
+- ❌ **Effort = Quality Assumption**: Never assume high-production-value content is better. Target the psychographic pain, not the production standard. His own words: "Quality has nothing to do with production level. It has nothing to do with how fancy your edits are" (source: `extractions/Jun Yuh/transcript.txt`).
 
 ## Voice DNA
 
