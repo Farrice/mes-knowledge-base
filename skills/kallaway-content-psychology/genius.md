@@ -4,6 +4,18 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These 49 patterns are diagnostic instincts, not a checklist to recite. Kallaway does not build a hook by saying "now applying the Constraint-Free Bridge" or script a video by labeling "Dopamine Ladder Level 3" — he builds content that happens to clear all six levels and disarms the excuse before the viewer thinks it. The test: would Kallaway recognize this as content science he actually runs — or as someone wearing his vocabulary without his rigor? If your output narrates its own machinery or marches through pattern numbers in visible order, it fails the recognition test — rebuild it as content, not as a framework demo.
+
+Specifically:
+- Do NOT title sections "Applying Pattern 27" or announce which principle is in play — execute the hook, never caption it.
+- Do NOT hit all 49 patterns in one deliverable. Kallaway diagnoses which 2-3 matter for THIS piece (this is literally Pattern 32's own success metric) and ignores the rest — comprehensiveness is the tell of someone who hasn't internalized the system.
+- His texture is data-first and blunt, not motivational. "Attention is predictable" is a claim he backs with batch-test numbers, not a vibe — if the output reads like generic creator-economy hype, it is using his words without his evidence discipline.
+- Polish is the tell-class failure here specifically: a hook with symmetrical clauses, no contrarian edge, and no proof-stack reads as content marketing, not as Kallaway. His best hooks are slightly rough, always non-obvious, and closeable in one sentence — smoothing that out to sound "written" is the failure mode, not the fix.
+
+---
+
 ## Genius Patterns
 
 > The decoded mental models and tacit expertise that separate viral content engineers from content gamblers
@@ -832,6 +844,19 @@ When using these patterns:
 15. **Build the Ramp** (Pattern 24): Content → Lead Magnet → Email → Purchase
 16. **Build Magnetic Brand** (Pattern 35): Positioning + Execution + Psychology buckets
 17. **Build Proprietary Patterns**: Document what works specifically in YOUR niche
+
+---
+
+## Anti-Patterns (Sourced — What Kallaway Explicitly Rejects)
+
+> Each item below is a direct constraint Kallaway states in his own words on-camera, not an inferred house rule. Cited to the exact transcript file and line range so the claim is checkable.
+
+- **Never blend multiple creators' voice profiles into one script** — "I don't recommend combining multiple creators here because oftentimes, you know, speaking patterns are like fingerprints... If you combine examples from all three, it'll confuse the writer and make it generic." (Source: extractions/kallaway-content-system/transcript.txt:688-692, transcript acquired 2026-05-07)
+- **Don't copy another creator's tone once your own voice is dialed in** — "Don't copy some other creator if you already have your own voice dialed." Mimicking is a bridge for creators who haven't found their voice yet, never a permanent strategy. (Source: extractions/kallaway-content-system/transcript.txt:684-686, transcript acquired 2026-05-07)
+- **Never pay or trust a creator whose content is pure replication with no original take** — "if you ever follow someone and watch their videos, but the things they say are always just replications from someone else that you've already heard, well, don't ever pay that person for services because they don't actually know what they're talking about." (Source: extractions/kallaway-content-system/transcript.txt:426-428, transcript acquired 2026-05-07)
+- **Business owners should not personally edit their own content past the earliest stage** — "if you're a business owner or you're trying to build an actual revenue engine from content, you should not be editing. You cannot be editing." (Source: extractions/kallaway-content-system/transcript.txt:802-804, transcript acquired 2026-05-07)
+- **Don't make immature AI-editing tooling your only production pipeline** — on Claude Code + Remotion-style AI editing: "I don't think this is very premium yet... If you're non-technical and you don't want to spend all the time learning this, I wouldn't put all the eggs in this basket." (Source: extractions/kallaway-content-system/transcript.txt:788-794, transcript acquired 2026-05-07)
+- **Never trust an off-the-shelf AI writing platform to produce a usable script untuned** — "none of them are great at writing scripts out of the box. You'll never find one without tuning it that's good enough." Build a script profile from real transcripts first (feeds Pattern 16, Avatar Language Matching). (Source: extractions/kallaway-content-system/transcript.txt:646-648, transcript acquired 2026-05-07)
 
 ---
 

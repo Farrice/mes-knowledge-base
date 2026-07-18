@@ -77,7 +77,7 @@ Milestones: [audience #2 at 5K/50K/250K → academy launch → product beta → 
 
 Sequence rule: Media funds Info; Info de-risks and funds Product; Product is the only bucket with uncapped scaling. Do not build the product in a vacuum — the academy exists so every feature ships pre-validated by paying users.
 
-## Output
+## Output Contract: Creator Business Ladder
 
 A complete Creator Business Ladder containing:
 - **Treadmill diagnosis** with an explicit BUILD/START-#2 verdict

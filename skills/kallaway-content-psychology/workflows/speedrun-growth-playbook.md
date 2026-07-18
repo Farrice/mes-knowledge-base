@@ -99,7 +99,7 @@ The cause is the substance (Unique Edge failing) or the hooks — NOT production
 Re-run Phase 3 and Phase 4 only. Cross-check the 6 Mistakes (Pattern 31).
 ```
 
-## Output
+## Output Contract: Zero-to-Scale Speedrun Plan
 
 A complete Speedrun Plan containing:
 - **Series design** (type, concept, episode template, binge math)

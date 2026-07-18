@@ -84,7 +84,7 @@ DECISION MATRIX:
 EXIT CONDITION: 3 differentiated winning stacks confirmed across 2+ batches.
 ```
 
-## Output
+## Output Contract: 10-Video Batch Test Plan
 
 A complete batch test plan containing:
 - **Outlier decomposition table** (10 videos broken into 5 bricks each)

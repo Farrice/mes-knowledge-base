@@ -119,7 +119,7 @@ DIAGNOSTIC: If target not hit, which metric is the bottleneck?
 - Low email conversion → Sequence problem (rewrite or add emails)
 ```
 
-## Output
+## Output Contract: Content-to-Revenue Pipeline Spec
 
 A complete Revenue Ramp containing:
 - **Revenue equation** with exact numbers and working-backwards math
