@@ -4,6 +4,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These 15 patterns are intuition primitives, not a checklist to march through in order. Absorb them, then operate like someone who already counted the ads and shopped the funnel — not like someone reciting a framework. The test: would Sabri Suby recognize this as a market he validated by pulling Facebook Ads Library counts and becoming a paying customer of the competition — or does it read like someone wearing "direct response" vocabulary without doing the raw research? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which Pattern number or Hidden Knowledge insight you applied unless asked. "Deploying Pattern 3 here" announces the machinery and kills the ad's native-content disguise before a prospect even reads it.
+- Do NOT open copy with the framework's own diagnostic language — "Bleeding Neck," "Raging River," "Identity Trigger" are scaffolding for you, never words a prospect should see.
+- His texture is blunt, dollar-figure, adversarial — not academic. He has an opinion about a market only after counting active ads and shopping the competitor's funnel himself, never before.
+- Polish is the specific tell-class failure in this system: an ad that visually reads as an ad — stock photography, corporate headline, symmetrical composition — has already failed the "Doesn't Look Like An Ad" standard (Pattern 10) before a single word gets read. Raw beats polished every time here.
+
 ## Genius Patterns
 
 15 virtuoso patterns for AI-powered advertising and direct response marketing.
@@ -43,12 +53,16 @@
 
 **Success Metric**: Minimum 4/6 positive indicators before proceeding.
 
+**Cross-Reference**: pairs with the $10M+ funding threshold (Hidden Knowledge #1) and the $2,000+/month price floor (Hidden Knowledge #3) as two of the six indicators.
+
 ---
 
 ## Pattern 6: "Shop The Competition" Deep Dive
 **Execute**: Become paying customer of competitors. Experience entire funnel, sales process, delivery firsthand.
 
 **Success Metric**: Can articulate 5+ specific weaknesses in competitor's approach.
+
+**Cross-Reference**: this is the field research behind the "Competitor Funnel Immersion" Signature Move and feeds the same 50+ verbatim-quote base built in Pattern 4.
 
 ---
 
@@ -57,12 +71,16 @@
 
 **Success Metric**: Score competitors 0-5 on copy strength; only attack markets scoring 2 or below.
 
+**Cross-Reference**: run this audit on the same 50+ active-ad markets flagged by Pattern 1 — high competition plus weak copy is the highest-confidence entry signal.
+
 ---
 
 ## Pattern 8: Side-by-Side Test Standard
 **Execute**: Before launching, place your landing page next to top 3 competitors. If objective viewer wouldn't clearly choose yours, iterate.
 
 **Success Metric**: 3/3 test viewers prefer your page in blind comparison.
+
+**Cross-Reference**: run this test before the "Native Format Camouflage" Signature Move ships creative — the same 50+ ad Ads Library sample from Pattern 1 supplies the comparison set.
 
 ---
 
@@ -71,12 +89,16 @@
 
 **Success Metric**: Average time on page, scroll depth, video watch time.
 
+**Cross-Reference**: the "interactive 'pipeline simulator'" in Hall of Fame Exemplar 2 is built for exactly this — deep consumption before any CTA appears.
+
 ---
 
 ## Pattern 10: "Doesn't Look Like An Ad" Standard
 **Execute**: Make ads visually indistinguishable from organic content. Use native formats: breaking news, raw iPhone-shot, SMS screenshots.
 
 **Success Metric**: First-glance test—does it blend with organic content?
+
+**Cross-Reference**: see the "Local Hero" ad creative (Hall of Fame Exemplar 1) — raw iPhone photo, "BREAKING" headline format, zero stock-photo polish.
 
 ---
 
@@ -85,12 +107,16 @@
 
 **Success Metric**: Headline creates genuine curiosity independent of product interest.
 
+**Cross-Reference**: same "Stupid Simple" / "little-known strategy" language flagged in Hall of Fame Exemplar 1's headline breakdown.
+
 ---
 
 ## Pattern 12: Three-Element Ad Formula
 **Execute**: Every ad must have: scroll interruption + burning intrigue + big specific benefit. Missing any = underperformance.
 
 **Success Metric**: Can articulate how ad delivers each element.
+
+**Cross-Reference**: this is the "Score 10 (Savant)" bar on the Three-Element Ad Formula Adherence row of the Expert-Specific Quality Rubric below.
 
 ---
 
@@ -152,6 +178,8 @@
 
 **Deploy**: Check Facebook Ads Library as step 1 for ANY business validation. Presence = validation. Absence = caution.
 
+**Cross-Reference**: this is Step 1 of the same audit that produces Pattern 1's threshold — 50+ active ads = strong signal, <20 = avoid.
+
 ---
 
 ## 6. "Assemble, Don't Create" Copy Philosophy
@@ -165,6 +193,8 @@
 **Insight**: When starting from zero, he deletes proof/testimonial sections rather than faking. Weak proof is worse than no proof.
 
 **Deploy**: If you don't have legitimate proof, remove proof sections entirely. Never fabricate or exaggerate.
+
+**Cross-Reference**: the inverse of Hall of Fame Exemplar 2's "unedited, specific, and plentiful proof" standard — remove the section rather than fake that bar.
 
 ---
 
@@ -268,6 +298,16 @@ Before writing any ad, diagnose the target audience on two axes:
 **When NOT to use**: If the market scores Low sophistication + Desperate emotional state, this layer adds unnecessary friction. Full Suby volume is correct for commodity pain markets. This layer exists for the growing segment of sophisticated professional audiences.
 
 ---
+
+## Anti-Patterns (Sourced)
+
+- Never fabricate or exaggerate social proof when starting from zero — delete testimonial sections rather than fake them (source: `skills/sabri-suby-ai-advertising/references/hidden-knowledge.md` §7 "Social Proof Deletion Protocol"; UNCONFIRMED — no primary Suby interview/transcript file exists in `extractions/`, searched 2026-07-18, zero hits for "suby"/"sabri" across `extractions/` and repo `.tar.gz` archives).
+- Never start ad or landing-page copy from a blank page — assemble from forum-foraged verbatim quotes instead of inventing language, per "We don't write ads, we assemble ads" (source: `skills/sabri-suby-ai-advertising/references/hidden-knowledge.md` §6 "Assemble, Don't Create" Copy Philosophy; UNCONFIRMED, same provenance gap — quote has no locatable primary-source file).
+- Don't chase a validated market that requires building SaaS or writing code — the internal filter is "zero capital, no coding, immediate deploy" (source: `skills/sabri-suby-ai-advertising/references/hidden-knowledge.md` §2 "The SaaS vs. Service Decision"; UNCONFIRMED, same provenance gap).
+- Never treat low ad-competition as a green light — under 20 active Facebook ads in a niche is an avoid signal, not an opportunity (source: `skills/sabri-suby-ai-advertising/genius.md` Pattern 1 "Inverse Competition Philosophy"; UNCONFIRMED, no primary interview/podcast file recovered).
+- Never ship creative that reads as a generic ad — see the Anti-Exemplar "Unlock Your Potential with Our Cutting-Edge Business Solutions!" LinkedIn post, which fails five patterns at once (source: `skills/sabri-suby-ai-advertising/genius.md` Hall of Fame "Anti-Exemplar: The Generic 'Solution' Ad"; UNCONFIRMED — illustrative construct, no traced interview source).
+- Don't deploy full "Bleeding Neck" desperation-intensity language on sophisticated, ad-literate audiences — it triggers ad-detection defenses instead of resonance (source: `skills/sabri-suby-ai-advertising/genius.md` Evolved Pattern "Defensive Permeability Calibration," added 2026-04-09, Evolution Cycle 1; the 2026-04-09 evolution-log entry is VERIFIED as present in this file — the underlying Suby-attribution itself remains UNCONFIRMED).
+- Never test every headline variation at once — small-batch test 3-5 variants and wait for statistical significance before scaling (source: `skills/sabri-suby-ai-advertising/genius.md` Pattern 15 "Small Batch Testing Protocol"; UNCONFIRMED, same provenance gap as above).
 
 ## Evolution Log
 
