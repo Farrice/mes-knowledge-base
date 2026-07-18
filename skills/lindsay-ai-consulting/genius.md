@@ -4,6 +4,38 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These 14 patterns are intuition primitives, not a checklist. Absorb them,
+then write originally. If the output mechanically stamps "Pattern 1,
+Pattern 2, Pattern 3" in order, or announces "using the Robot Speak
+Elimination technique," you have failed — Lindsay never names her own
+machinery to a prospect, and neither should the output. The test: would
+Lindsay recognize this as a message *she* sent to land a $6K project, or
+as someone reciting AI-consulting vocabulary at a prospect? If it reads
+like the second, rebuild it.
+
+Specifically:
+- Do NOT label sections "here's the robot-speak check" or "here's the
+  revenue-first reframe." Execute the move inside the copy; never narrate
+  it.
+- Her texture is marketing-operator-turned-technical-seller, not
+  developer-speak: she writes like someone who spent years writing ad
+  copy and only later learned to build, not like an engineer explaining
+  a stack. Numbers and outcomes lead; tool names trail or disappear.
+- Polish is the tell-class failure here specifically: a cold email that
+  reads like it was drafted by a copywriting agency (smooth transitions,
+  balanced clauses, no friction) fails Pattern 1 by definition — it could
+  be sent to anyone. Lindsay's actual wins are longer, spikier, and
+  named-detail-heavy, not smoother.
+- **Provenance caution (binding for this skill):** no primary Lindsay
+  transcript, interview, or dated source exists anywhere in this repo
+  (verified — see `references/source-ledger.md`). Every pattern below is
+  UNCONFIRMED at the external level: internally consistent house-authored
+  synthesis, not independently checked against Lindsay's own recorded
+  words. Do not present any pattern to a client as a verified quote from
+  Lindsay; present it as a system this skill teaches.
+
 ## Genius Patterns
 
 ## Pattern 1: The Robot Speak Elimination
@@ -28,11 +60,11 @@
 
 ## Pattern 6: Proof Stacking Without Paid Clients
 **Execute**: Document results from ANY build—boss, friend, family, personal. Results are results regardless of payment.
-**Success Metric**: 3+ case studies before first paid outreach
+**Success Metric**: 3 case studies (minimum 10 total proof points across paid + unpaid builds) before first cold outreach send
 
 ## Pattern 7: The 3-Email Maximum
 **Execute**: Email 1: specific problem + result. Email 2: case study. Email 3: breakup + simple CTA.
-**Success Metric**: Replies on email 1-2, graceful exit on 3
+**Success Metric**: Replies land on email 1-2 in roughly 60% of responding threads; graceful exit on email 3 with no further follow-up
 
 ## Pattern 8: The 15-Minute Offer Psychology
 **Execute**: Always position initial conversations as "15-minute quick chat"—never 30-60 minute calls.
@@ -48,7 +80,7 @@
 
 ## Pattern 11: Dual Community Strategy
 **Execute**: Join 2-3 AI builder communities (for referrals) AND 2-3 target industry communities (for clients).
-**Success Metric**: Leads from both builder referrals and direct contacts
+**Success Metric**: 2 builder-community referrals plus 3 direct industry contacts per month, tracked across a rolling 90-day window
 
 ## Pattern 12: Volume + Personalization Balance
 **Execute**: 25 LinkedIn requests daily with [VARIABLE] slots for personalization. Maintain both volume and quality.
@@ -56,11 +88,39 @@
 
 ## Pattern 13: Content as Compound Interest
 **Execute**: Calculate content ROI as: Time Investment vs. Lifetime Lead Value. Prioritize evergreen.
-**Success Metric**: Individual content generating leads 6+ months after publication
+**Success Metric**: Individual content generating leads 12+ months after publication — the ROI window that matters starts after the first 30 days, once initial-post decay ends
 
 ## Pattern 14: The Identity Shift Enablement
 **Execute**: Frame all advice as identity transformation: "You're not learning cold email; you're becoming someone who lands clients."
 **Success Metric**: Clients report confidence shifts
+
+---
+
+## Anti-Patterns (Sourced)
+
+Each item below inverts a Genius Pattern or the Anti-Exemplar already
+present in this file. Quoted spans are verbatim from this skill's own
+pre-existing content (see `references/source-ledger.md` for the
+file-and-section anchor on each); none are independently verified as
+Lindsay's literal words, since no primary transcript exists in this
+repo to check them against.
+
+- **Generic subject lines that could open anyone's inbox** — e.g. "Unlock the Power of AI for Your Business," the exact failing subject line from this file's own Anti-Exemplar (`genius.md`, Hall of Fame Exemplars, Anti-Exemplar block). Violates Pattern 1 (Robot Speak Elimination) by design: it names no company, no bottleneck, no recipient.
+- **Buzzword stacking instead of proof** — phrases like "cutting-edge technology" and "leverage the latest advancements," lifted verbatim from the same Anti-Exemplar (`genius.md`, Anti-Exemplar block). Violates Pattern 3 (Industry Language Absorption): buzzwords are the opposite of absorbed industry language.
+- **Vague benefit framing with no revenue number** — "help you optimize your processes and drive growth," verbatim from the Anti-Exemplar (`genius.md`, Anti-Exemplar block). Violates Pattern 2 (Revenue-First Positioning), which requires a [Revenue/Lead/Conversion Impact] figure, not a process adjective.
+- **Asking for a long first meeting** — "schedule a 30-minute discovery call," verbatim from the Anti-Exemplar (`genius.md`, Anti-Exemplar block), set directly against Pattern 8's "15-minute quick chat" rule (`genius.md`, Pattern 8). A 30-minute ask reads as higher-commitment, higher-friction, and — per Pattern 8's Success Metric — correlates with lower booking rates and more no-shows.
+- **Sending a fourth follow-up after the breakup email** — inverts Pattern 7's "3-Email Maximum" (`genius.md`, Pattern 7): email 3 is a breakup with a simple CTA and a graceful exit, not a soft prelude to email 4. A fourth message reframes "graceful exit" as "chasing," which collapses the entire temperature-calibration logic in Pattern 4 (`genius.md`, Pattern 4).
+- **Leading with credentials instead of a specific result** — the inverse of Pattern 6's proof-stacking discipline (`genius.md`, Pattern 6): "10 years of experience in AI" is a credential claim, not a documented result from a build. Pattern 6 requires *documented outcomes* (boss, friend, family, personal — paid or not), never years-in-business as a substitute.
+
+## Recognition Test
+
+Before shipping any Lindsay-voiced deliverable, run the recognition
+test: would Lindsay recognize this as a message *she* actually sent to
+land one of her $6K projects or $5K retainers — or does it read like
+someone using AI-consulting-outreach vocabulary at a prospect? A message
+that lists its own techniques, leads with credentials, or asks for 30
+minutes instead of 15 fails the test and should be rebuilt against
+Patterns 1, 2, and 8 above before it goes out.
 
 ---
 
