@@ -4,6 +4,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist to recite inside the output. Mason built a $70K/month solo operation on one loop — front-load context, write in taste, strip the tells — internalize the loop, then produce like he would, not like someone narrating his framework.
+
+- Do NOT print a labeled "Context Brain Dump" section inside a delivered email, sales page, or script — the 500-1000 words of context (Pattern 1) get loaded silently into your own reasoning before the first sentence. It's scaffolding, never a visible artifact, unless the deliverable literally IS a context profile (Workflow 02).
+- Do NOT narrate the machinery ("Per Principle 3, Benefits Over Features..." or "Running the 3-Point Diagnostic now..."). Mason trains the AI with "must" statements behind the scenes; the client never sees the harness, only the copy.
+- The line between his output and a competent imitation is the Human Taste Strip (Pattern 7): read it aloud, cut every em-dash, every "Transform your life"/"Unlock your potential"/"journey" cliché, every repeated "Here's the thing:". Polish that still contains a stray em-dash or a hype adjective ("game-changing," "revolutionary") is not his — it's the exact anti-pattern the taste layer exists to catch. Polish alone is the tell; his copy reads unfinished-on-purpose, like a text from a friend, not a marketing email.
+- His texture is specific, not aspirational: "$847/month" beats "hundreds of dollars," "3:47 PM on a Tuesday" beats "one day," "47% open rate" beats "great results." If a sentence could sit inside any AI-marketing-guru's content unchanged, it hasn't cleared the bar — the number, name, or moment IS the signature.
+- Recognition test: would Cardinal Mason recognize this as something he'd actually send a client — diagnosed to their specific gap, front-loaded with real context, then hand-scrubbed for the tells — or does it read like generic "AI copywriting business" vocabulary? If the second, rebuild before delivery.
+
 ## Genius Patterns
 
 ## Pattern 1: Context Brain Dump Prompting Architecture
@@ -77,6 +87,8 @@
 6. ✓ Emotion first, logic close? (Hook heart, close head)
 7. ✓ About THEM, not us? (Customer is hero)
 
+**Specificity Sells, applied**: "$847/month" beats "hundreds of dollars." "3:47 PM on a Tuesday" beats "one day." That's the standard for Principle 4 (source: `knowledge/extractions/inbox/Claude-Cardinal Mason...pt.2.md`, line 1229).
+
 **Success Metric**: Copy conversion rates match or exceed industry benchmarks.
 
 ---
@@ -98,6 +110,8 @@
 - Specific actions taken
 - Timeline
 - Screenshot proof (with permission)
+
+**Real numbers, not vague wins**: "47% open rate increase, 2.3x launch revenue" — the Proof Hierarchy ranks specific numbers and named clients above everything else (source: `knowledge/extractions/inbox/Claude-Cardinal Mason...pt.2.md`, line 1190).
 
 **Success Metric**: Close rates double when leading with relevant case study.
 
@@ -131,7 +145,7 @@
 
 ## Hidden Knowledge
 
-5 tacit expertise points that separate amateurs from professionals.
+5 tacit expertise points that separate amateurs from professionals — the layer underneath the $70K/month solo operation Mason built in year one (source: `knowledge/extractions/inbox/Claude-Cardinal Mason...pt.2.md`, line 1156).
 
 ---
 
@@ -168,7 +182,22 @@
 
 **Deploy**: Never send cold text DMs for high-ticket services. Voice notes only.
 
+**The measured gap**: 15-25% response rate on cold voice notes vs. 2-5% on cold text DMs — the numbers behind Pattern 4 (source: same session, `knowledge/extractions/inbox/Claude-Cardinal Mason...md`, line 198).
+
 ---
+
+## Anti-Patterns
+
+Cardinal Mason would never ship, approve, or teach any of the following — each pulled verbatim from the source transcript (three-part Claude.ai chat, sessions dated 2026-01-17, exported 2026-01-21, filed under `knowledge/extractions/inbox/`) so the anti-pattern list is auditable claim-by-claim rather than a generic "avoid AI slop" placeholder.
+
+- **Corporate-cliché openers**: "Transform your life" (too vague), "Unlock your potential" (corporate BS), "It's not a diet, it's a lifestyle" (overused), "Results may vary" (legal speak kills trust), "Take the first step" (boring), "Invest in yourself" (sounds salesy), any phrase with "journey," "No pain no gain" — his own Cliché Blacklist worked example, dated 2026-01-17 (`Claude-...2026.md`, lines 766-773).
+- **AI tells inside the copy itself**: em-dashes ("M-dashes (AI tell)") and repeating "Here's the thing:" more than once per piece — same Cliché Blacklist, line 775-776, 2026-01-17.
+- **Forced or telegraphed humor**: "Never force a joke. Never use puns. Never be cheesy or motivational-poster cringe." — Humor Guidelines, line 779, 2026-01-17.
+- **Hollow outreach openers**: "I hope this email finds you well," "I wanted to reach out," "Just following up" — What to NEVER Say, `Claude-...pt.2.md`, lines 1372-1375, session dated 2026-01-17 7:47 PM.
+- **Buzzword and hype language**: "Leverage," "synergy," "optimize" (buzzwords); "Revolutionary," "game-changing," "cutting-edge" (hype) — same section, `pt.2.md` lines 1376-1377.
+- **Generic praise standing in for proof of research**: "I love what you're doing at [Company]" flagged explicitly as the bad version of a cold-email opener — `Claude-...pt.3.md`, line 1120, session dated 2026-01-17 9:36 PM.
+- **Throat-clearing article opens**: "Do NOT open with 'In today's digital world...' or any throat-clearing." — `pt.3.md`, line 812, 2026-01-17.
+- **Vanity pitching to editors**: "Pitching topics they want to write about, not topics editors need to publish" — named directly as "The Mistake Everyone Makes" — `pt.3.md`, lines 773-774, 2026-01-17.
 
 ## Hall of Fame Exemplars
 
@@ -250,11 +279,11 @@ In today's fast-paced world, it's more important than ever to stay ahead of the 
 
 ## Quality Rubric
 
-> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading. Anchors run Score 4 (Acceptable) / Score 7 (Good) / Score 10 (Savant) — same 3-point scale Mason applies when he rates an AI draft ("I give that a 4/10, let's try something else") before requesting revisions.
 
 ## Evolution Log
 
-> Tracks all evolution attempts — kept AND discarded.
+> Tracks all evolution attempts — kept AND discarded, starting with the 2026-04-09 Cognitive Fingerprint entry below.
 > Each entry documents a hypothesis, result, and lesson.
 
 ### 2026-04-09 — Cognitive Fingerprint Injection (Workflow 03)
