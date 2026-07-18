@@ -2,7 +2,19 @@
 
 > Load this file before executing any workflow. It contains the full
 > extraction intelligence — patterns, tacit knowledge, and operating
-> principles that make this expert's output actually work.
+> principles that make this expert's output actually work. Grounded in
+> the vidIQ deep-dive "The NEW YouTube Strategy Dominating in 2026"
+> (2026-02-16) — see `references/source-ledger.md` for full provenance.
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist to march through. Absorb the market/format split and the expertise constraint, then build originally — if the output stamps "Genius Pattern 3: Viral Format Transplantation" onto the page in those words, you have failed. The test: would Tim Danilov recognize this as a genuine bend — market and format decomposed, expertise verifiably underneath — or as someone borrowing gaming vocabulary because it sounds fun? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which genius patterns or hidden-knowledge items you applied unless asked. Danilov never narrates "now I'm doing the empty square method" on camera — he just shows the grid and moves on.
+- Do NOT stop at title/thumbnail mimicry. A "bent" format that borrows only packaging (a tier-list *title* with no tier-list *logic* underneath) is the one failure mode Danilov names directly and unprompted: "Do not bend a format you cannot deliver the expertise in." Cosmetic bending is this expert's tell-class warning — surface language without native fluency reads as costume, not craft, exactly the way an obviously-polished sentence reads as AI rather than human.
+- His texture is casual, YouTube-creator plain-spoken — "empty square," "blue ocean," "cheat YouTube" — not academic terminology. Keep output in his register: direct, example-first, willing to flag "this might be the most important part of the entire video."
+- Every bend needs BOTH halves verified before it ships: the format's proof (an outlier example, ideally 3x-100x normal channel performance) AND the market's expertise (can this creator actually fill the container). A clever format idea with no expertise check, or an expertise claim with no format-outlier proof, is half the system — not the system.
 
 ## Genius Patterns
 
@@ -146,7 +158,20 @@
 
 **Deploy When**: Designing thumbnails, graphics, presentation slides, social media visuals, or any visual content using a borrowed format. The visual language must match the format, not the market.
 
----
+## Anti-Patterns (Sourced)
+
+Each item below is a mistake the model must not reproduce, anchored to Danilov's own words in the source video (vidIQ, "The NEW YouTube Strategy Dominating in 2026," 2026-02-16, youtube.com/watch?v=fLDrB_wmbNE — verbatim quotes cross-checked against `extractions/niche-bending/transcript.txt`).
+
+- **Topic-Only Niche Thinking**: Defining a niche as a single subject line instead of the market × format combination — Danilov's video states most creators think a niche is just "a topic like I have a gardening channel" (vidIQ, 2026-02-16), which he explicitly frames as the wrong mental model before introducing the grid.
+- **Format Without Expertise (Gimmickry)**: Bending into a format the operator cannot actually fill with real knowledge — the source names this the single rule that overrides everything else: "Do not bend a format you cannot deliver the expertise in" (vidIQ, 2026-02-16).
+- **Surface-Level Format Copying**: Copying a format's packaging (title, thumbnail style) without the substance underneath — "Anyone can copy a format, but very few can fill the formats with high value knowledge" (vidIQ, 2026-02-16).
+- **Cross-Market Bending Without Domain Literacy**: Reaching for a high-authority format (finance, medical, legal) without the underlying domain competence — "don't try to use a finance format if you don't understand money" (vidIQ, 2026-02-16).
+- **Competing Head-On in Saturated Native Formats**: Staying inside a market's traditional, expected format and fighting incumbents on their own terms instead of bending — of a standard nature documentary, the source notes "you're competing against the likes of National Geographic" as the losing frame Tazoo avoided (vidIQ, 2026-02-16).
+- **Misreading Empty Squares as No Demand**: Interpreting an unfilled format-market cell as proof nobody wants it — the source corrects this directly: an empty square "isn't due to a lack of interest. It's an opportunity" (vidIQ, 2026-02-16).
+
+## Recognition Test
+
+Before shipping any niche-bending output, run it through this check: would Tim Danilov recognize this as theirs — a genuine market × format decomposition with an outlier-proven format and verifiable expertise underneath — or would he recognize it as borrowed vocabulary wrapped around a topic that was never actually bent? If the output can't survive being run through his own grid (market identified, format identified, expertise checked, outlier cited), it fails the recognition test and needs to be rebuilt from Pattern 1 (Format-Market Decomposition), not polished.
 
 ## Hall of Fame Exemplars
 
@@ -154,8 +179,10 @@
     *   **What makes this excellent**: It's a perfect execution of "Viral Format Transplantation" (gaming into biology), "Language Adoption" (full gaming lingo), and "Visual Language Transfer" (health bars, tier lists). It embodies the "Trojan Horse Principle" by making complex biology accessible and entertaining to an audience primarily interested in gaming, creating an "Audience Bridge" that sidesteps traditional educational content.
 *   **"Unboxing Your First Roth IRA: What's Inside?" Series**: This content takes the highly successful "unboxing" video format, typically used for consumer electronics or collectibles, and applies it to the dry subject of personal finance. Each episode "unboxes" a different financial product (e.g., a Roth IRA, a 401k, an index fund), visually revealing and explaining its components, features, fees, and benefits as if it were a new gadget. The production uses sleek, product-focused graphics and a suspenseful reveal narrative.
     *   **What makes this excellent**: It deftly applies "Viral Format Transplantation" to a notoriously unengaging market, using the inherent curiosity and reveal mechanics of "unboxing" to demystify personal finance. It creates an "Audience Bridge Architecture" for people who might be intimidated by traditional finance education, making it approachable and even exciting through a familiar, entertaining format. It also demonstrates "Empty Square Method" by applying a proven format to a market where it's absent.
+    *   **Provenance note**: this specific title is a constructed illustration (not present in the source transcript) demonstrating the pattern on an unaddressed market — see `references/source-ledger.md` (UNCONFIRMED as a real Danilov case study; the underlying mechanic it illustrates is VERIFIED).
 *   **Anti-Exemplar: "A Comprehensive Guide to Investing for Beginners" (Standard Lecture Format)**: A video featuring a talking head expert explaining investment concepts with generic stock footage and basic PowerPoint slides. It's informative but visually and narratively indistinguishable from thousands of other educational videos on the same topic.
     *   **What makes this mediocre**: This content fails to apply any niche bending principles. It adheres to a traditional "expertise-first" delivery, ignoring the potential for "Viral Format Transplantation" or "Audience Bridge Architecture." It does not leverage "Language Adoption" or "Visual Language Transfer" to differentiate itself or expand its audience beyond those already seeking direct financial education. It's a missed opportunity for "Saturation Arbitrage" in a competitive market.
+    *   **Provenance note**: a generic constructed anti-example (not a specific real channel/video from the source) — see `references/source-ledger.md` (UNCONFIRMED as a real title; used only to illustrate the contrast).
 
 ## Signature Moves
 
