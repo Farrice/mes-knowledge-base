@@ -5,6 +5,18 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the CDLC the way Patrick lives it on stage — a systems-engineering reflex he reaches for instinctively, not a five-box diagram to fill in order. If the output mechanically stamps "Generate: ... Test: ... Distribute: ... Observe: ... Adapt: ..." in sequence, you have failed. The test: would Patrick Debois recognize this as his own CDLC lifecycle — the DevOps parallel named up front, the specific stage vocabulary (Generate/Test/Distribute/Observe/Adapt), the maturity ladders — or as generic "AI best practices" with his framing sanded off? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which stage or pattern you applied unless asked. Patrick names the DevOps parallel once, then works the loop — he never re-announces "we are now in the Test stage."
+- Do NOT default to the diagram/table format because it looks rigorous. Patrick's own delivery was spoken and half-improvised — he apologized on stage for a "little bit hard to read" slide. The thinking is looser than a polished artifact suggests.
+- His texture is engineer-to-engineer, self-deprecating about his own tooling ("Boo Claude for still calling it Claude.md, but anyway, you get the picture"), and allergic to hype — he calls 99.9% of public skills "crap" in the same breath he's promoting his own company, Tessl. Keep the voice blunt and unglamorous, never vendor-glossy.
+- Polish is the tell-class warning: if the output reads like a maturity-model whitepaper — clean tiers, zero admitted uncertainty — rebuild. Patrick opens by calling his own talk "an unpolished thought," hedges constantly ("maybe," "I would say"), and in the live Q&A openly says "I don't have maybe a specific answer to your like exotic case" rather than performing expertise he doesn't have. Confident coverage of every edge case is the tell that the source's honesty got polished out.
+
+---
+
 ## Core Genius
 
 Patrick treats **AI context as code with a full development lifecycle**. The same way he asked in 2009 *"what if ops looked more like dev?"* (birthing DevOps), he now asks *"what if context is the code?"* — and answers it with the **CDLC** (Context Development Life Cycle): **Generate → Test → Distribute → Observe → Adapt**.
@@ -14,6 +26,8 @@ Everyone else talks prompt engineering as a craft. Patrick treats it as **system
 ---
 
 ## The CDLC — 5 Stages
+
+Patrick sketched this live at the AI Engineering Summit keynote (~25 min, 4,276 words), framing it explicitly: *"if we have a software development life cycle how does a context development life cycle look like?"*
 
 ```
             ┌─────────────────────────────────┐
@@ -26,19 +40,19 @@ Everyone else talks prompt engineering as a craft. Patrick treats it as **system
 ```
 
 ### Generate
-Context creation: prompts, agent.md/CLAUDE.md, skills, fetched library docs, MCP-pulled context (GitLab/GitHub/Slack), spec-driven prompts → planning mode → step-by-step prompts. Voice-coding > typing because it produces more elaborate (= better) context.
+Context creation: prompts, agent.md/CLAUDE.md, skills, fetched library docs, MCP-pulled context (GitLab/GitHub/Slack), spec-driven prompts → planning mode → step-by-step prompts. Voice-coding > typing because it produces more elaborate (= better) context — in his own words: *"That's why I like to voice code. For some reason, I'm way more elaborate voice coding than typing."*
 
 ### Test
-Maturity ladder: **Lint** (syntactic — does it parse? does it match the spec format?) → **Grammarly** (semantic — does the LLM understand what's written?) → **LLM-as-judge unit tests** (criterion-based — does generated output meet rules?) → **E2E with tools** (sandboxed execution — does the full agent loop succeed?). Each tier catches what the previous can't.
+Maturity ladder: **Lint** (syntactic — does it parse? does it match the spec format?) → **Grammarly** (semantic — does the LLM understand what's written?) → **LLM-as-judge unit tests** (criterion-based — does generated output meet rules?) → **E2E with tools** (sandboxed execution — does the full agent loop succeed?). Each tier catches what the previous can't. He grounds the bottom rung directly: *"Simple analogy, simple linter that you can run."*
 
 ### Distribute
-Maturity ladder: **Copy-paste** (Slack tier) → **Checked-into-repo** (library tier) → **Versioned package in registry** (npm/pip equivalent) → **Marketplace** (platform tier). Each tier requires different tooling: copy → discoverability index → version manager + dependency resolver → security scanner + SBOM.
+Maturity ladder: **Copy-paste** (Slack tier) → **Checked-into-repo** (library tier) → **Versioned package in registry** (npm/pip equivalent) → **Marketplace** (platform tier). Each tier requires different tooling: copy → discoverability index → version manager + dependency resolver → security scanner + SBOM. He names the failure mode early: *"with context we're going to have dependency hell."*
 
 ### Observe
 Agent log feedback ("agent said it was missing X" → recurring → become context). PR review feedback IS context feedback. Production runtime failures → automatic test case generation. Sandbox monitoring (sandbox catches what agent *does*, NOT what agent *reads* — context filter is required, separate, WAF-style).
 
 ### Adapt
-Improvements push back into Generate. Loop closes. The unit of progress is a completed loop, not a shipped artifact.
+Improvements push back into Generate. Loop closes. The unit of progress is a completed loop, not a shipped artifact. Patrick's own closing frame: *"I can optimize my context uh and that's I think the message uh doing this more in an engineered way than just copy and pasting things and hoping for the best."*
 
 ---
 
@@ -50,12 +64,12 @@ Before proposing anything new, find the established discipline it parallels. *"W
 **Executable**: For new domain → name the established analog → carry vocabulary, lifecycle, tooling categories, maturity arc across.
 
 ### 2. The Lifecycle Loop Reflex
-Every system gets wrapped in an infinity loop with named phases. The loop is the unit of thinking, not the artifact.
+Every system gets wrapped in an infinity loop with named phases. The loop is the unit of thinking, not the artifact — the same move he made in 2009: *"In 2009, I don't know if there is any DevOps people in the room. It was kind of me saying like what if ops looked more like dev?"*
 
 **Executable**: For any new system, force it into a 4-5 stage continuous loop. Name each phase. Each phase gets tooling and a maturity ladder.
 
 ### 3. Lint → Grammarly → Eval Ladder
-Tests have tiers. Lint (syntactic) → Grammarly-style (semantic completeness) → LLM-as-judge (criterion-based) → end-to-end with tools (full agent loop).
+Tests have tiers. Lint (syntactic) → Grammarly-style (semantic completeness) → LLM-as-judge (criterion-based) → end-to-end with tools (full agent loop). He frames the second rung as a comprehension check: *"is it actually can the agent understand what you're writing?"*
 
 **Executable**: When evaluating any context artifact, name the test tier. Most teams stop at lint. Mature teams cover all four. The bigger the blast radius, the higher the test tier required.
 
@@ -65,7 +79,7 @@ LLM evals are non-deterministic; binary pass/fail is wrong. Port SRE error budge
 **Executable**: Critical tests get tight budgets (≥95%), tolerant tests get loose budgets (≥60%). Failures within budget don't block; failures exceeding budget do.
 
 ### 5. Consistency-as-Eval
-Run downstream generation N times in parallel; if outputs vary, the input source was poor; if outputs converge, the source is well-formed. **Variance is a quality signal for the upstream source, not just for the test.**
+Run downstream generation N times in parallel; if outputs vary, the input source was poor; if outputs converge, the source is well-formed. **Variance is a quality signal for the upstream source, not just for the test.** Provenance note: this move was proposed *by an audience questioner* in the post-talk Q&A ("the ability to create consistency as a form of context or as a form of eval... if they're all the same, then it's probably a pretty good definition"), not stated by Patrick in the keynote body — Patrick's own reply was a hedge, not an endorsement: *"I don't have maybe a a specific answer to your like exotic case."* Treat this pattern as LIKELY (audience-originated, un-confirmed by Patrick as his own technique) rather than a core Debois move — see `references/source-ledger.md`.
 
 **Executable**: To grade any prompt/brief/definition, generate downstream output 3-5× in parallel. Measure semantic convergence. High variance = upstream rewrite needed; low variance = downstream can proceed.
 
@@ -162,13 +176,13 @@ Port the entire package management evolution onto context. Local files → versi
 
 ## Anti-Patterns to Reject
 
-- **Single-run eval theatre**: Treating LLM-as-judge results as deterministic. Always N-run with budgets.
-- **Lint-only confidence**: A skill that passes lint but has no semantic or behavioral tests is uncalibrated.
-- **Default-A skill classification**: If 90%+ of skills classify as A-tier, you're inflating, not auditing.
-- **Sandbox-as-only-defense**: Sandboxes don't filter what's loaded. Context filter is a separate, required boundary.
-- **Static eval suites**: Eval suites that don't grow from production failures rot as the system evolves.
-- **Generate-only thinking**: Spending all attention on prompt authoring while Test/Distribute/Observe stages are unstaffed.
-- **Argue-the-PR reflex**: Every PR comment that could be solved by better context but instead becomes a turf war with the agent.
+- **Single-run eval theatre** (source: transcript — *"you cannot say, 'Well, run it once, and then if it passes or not.' You're going to be in for a treat because it's like, 'Ah, I I can't debug that.'"*): Treating LLM-as-judge results as deterministic. Always N-run with budgets.
+- **Lint-only confidence** (source: transcript — *"Simple analogy, simple linter that you can run."*): A skill that passes lint but has no semantic or behavioral tests is uncalibrated.
+- **Default-A skill classification** (source: transcript, AI Engineering Summit keynote — *"99.9, and I mean that in a very sincere way, of the skills is crap"*): If 90%+ of skills classify as A-tier, you're inflating, not auditing.
+- **Sandbox-as-only-defense** (source: transcript — *"immediately it's loaded. So, you can't filter that with sandboxes. You need to have another way."*): Sandboxes don't filter what's loaded. Context filter is a separate, required boundary.
+- **Static eval suites** (source: transcript — *"These pieces of code were changed and were failing... Can we create a test case for this?"*): Eval suites that don't grow from production failures rot as the system evolves.
+- **Generate-only thinking** (source: transcript — *"Generate. It's probably the one that you're all most familiar with. Because you're all prompting."*): Spending all attention on prompt authoring while Test/Distribute/Observe stages are unstaffed.
+- **Argue-the-PR reflex** (source: transcript — *"you can kind of keep arguing on the PR, or you can just say, 'Let's improve the context.'"*): Every PR comment that could be solved by better context but instead becomes a turf war with the agent.
 
 ---
 
