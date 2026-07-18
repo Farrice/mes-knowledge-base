@@ -4,6 +4,18 @@
 > analytical framework — patterns, behavioral finance principles, and
 > statistical edge detection methods that make this system actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These ten patterns are diagnostic primitives, not a checklist to narrate. Run the Context Stack, the Three-Lens Test, and the Four Horsemen audit until they're reflexive, then hand the user a pick slate — not a lab report. The test: would O'Shaughnessy recognize this as arbitraging a genuine human-nature constant (recency bias, name-recognition inflation, "he's due" hope-thinking) — or as someone borrowing his behavioral-finance vocabulary to decorate a hunch? If it's the second, rebuild from the projection numbers up, not from the framework names down.
+
+Specifically:
+- Do NOT narrate "running Pattern 3 now" or "applying the Four Horsemen audit" inside the deliverable itself. Run the check, surface the result (the edge number, the confidence score, the Horseman flag if one fired) — never the framework label. The Output Contracts in each workflow tell you what to show; the pattern numbers are scaffolding for you, not content for the user.
+- Do NOT round a thin edge up to false conviction. This system's own 2025-26 backtest (`.agent/backtest-results/backtest_points_202526_20players.json`) shows the points model beating a coin flip by 1.6 percentage points overall (54.0% hit vs. 52.4% breakeven) — real, but thin. The "strong edge" bucket (154 bets, 57.8% hit) is where the actual money lives. A slate that reads uniformly confident is misrepresenting the shape of its own data.
+- The texture is a practitioner's, not a theorist's: numbers before narrative. Lens 1 (statistical) leads; Lens 2 (narrative) may only override with a documented reason, never the reverse. Polish is the tell — if a pick slate reads persuasive before it reads quantified (edge, CV, all six Context Stack variables named), the analysis was written backwards from a conclusion.
+- Confidence language must match calibrated hit rates, not vibes. A "Lock" (Conf 5) should feel earned because CV < 0.18 and multiple context factors align (see Evolution Log, 2026-03-21) — never because the player is famous. Fame is exactly the bias Pattern 1 exists to arbitrage against.
+
+---
+
 ## Genius Patterns
 
 10 betting-specific mastery behaviors decoded into executable frameworks. Rooted in Jim O'Shaughnessy's behavioral finance principles, adapted for NBA player prop markets.
@@ -206,6 +218,18 @@ What is the market telling you? Smart money and books have information you don't
 **Result**: Calibration PASSES. Conf 3: 59.5% → Conf 4: 63.0% → Conf 5: 66.7% (monotonically increasing). Spread: 31.1pp (was 6.5pp). Same 264 bets, same 149 wins — correctly sorted.
 
 **Kelly sizing updated**: Win probability map recalibrated to match v2.1 data.
+
+---
+
+## Anti-Patterns
+
+Five documented failure modes, pulled from this system's own tracked history (bet log, backtest runs, evolution log) — not hypotheticals. Cross-reference before delivering any pick slate; the `## Anti-Pattern Check` gate in every workflow points here.
+
+- **Trusting a stale injury read on a "known" player** — *2025-12-05*: Anthony Edwards OVER 28.5 was projected at 30+ points off season averages, but the injury feed missed Karl-Anthony Towns flipping from questionable to ACTIVE same-day. Pattern 6 (Injury Cascade HARD GATE) fired late instead of first. With KAT back, Edwards' usage dropped and he finished with 23. *Source: `skills/nba-betting-edge/genius.md`, Hall of Fame "Anti-Exemplar" entry (Anthony Edwards, vs. Pistons, 2025-12-05).*
+- **Single-thesis directional bias** — *2026-03-14*: the first live slate produced 10/10 UNDER picks, logged as "a clear signal of single-thesis bias." Game-total UNDERs went 3-1, but player-prop UNDERs went only 1-1 — the blanket UNDER call buried the correct play sitting in the same slate (Wembanyama return-from-absence OVER at 28.5, hit for a 32-point night). *Source: `skills/nba-betting-edge/genius.md`, Pattern 10 calibration note.*
+- **Sizing confidence by edge magnitude instead of consistency** — *2026-03-21*: a 264-bet backtest found confidence scores flat at ~56.5% hit rate across Conf 3/4/5 — no differentiation — because `score_confidence()` in `execution/projection_engine.py` used edge magnitude as its base score. The same backtest showed edge 3-5 pts hitting only 47% while edge 1.5-3 pts hit 59.5%: bigger "edge" was the worse signal, the opposite of the system's working assumption until that point. *Source: `skills/nba-betting-edge/genius.md`, Evolution Log § "2026-03-21: Confidence Calibration Overhaul (v2.1)"; corroborated verbatim in the live code docstring at `execution/projection_engine.py:78-92` ("Key insight from 264-bet backtest... Calibration results on 264 bets: Conf 3: 59.5% hit | Conf 4: 63.0% hit | Conf 5: 66.7% hit").*
+- **Trusting a "strong edge" flag on a thin-sample prop type (assists)** — *2025-26 season backtest, run 2026-03-14*: the assists model's strong-edge bucket sits at a 0.0% hit rate on n=1 — a single observation, not a signal, against a 52.4% breakeven. Treating that bucket as bettable the way the points strong-edge bucket legitimately is (57.8% hit on 154 bets) would apply earned confidence language to an untested sample. *Source: `.agent/backtest-results/backtest_assists_202526_20players.json` — `strong_edge_hit_rate: 0.0`, `strong_edge_count: 1`, `breakeven: 52.4`.*
+- **Same category error, rebounds** — *2025-26 season backtest, run 2026-03-14*: the rebounds model's strong-edge bucket sits at 20.0% hit rate on n=5, well below the 52.4% breakeven and still too small a sample to trust in either direction, even though the model's overall rebounds hit rate (53.5% on 962 observations) is fine. The "strong edge" upgrade specifically is not yet earned for this prop type. *Source: `.agent/backtest-results/backtest_rebounds_202526_20players.json` — `strong_edge_hit_rate: 20.0`, `strong_edge_count: 5`, `overall_hit_rate: 53.5`.*
 
 ---
 
