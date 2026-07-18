@@ -2,6 +2,16 @@
 
 Conductor-level patterns for the business-of-coaching vertical, lifted from the source harvest (James Smith on revenue-backwards content, Yuri Elkaim/Healthpreneur on the Perfect Client Pipeline, Jonathan Mast on AI knowledge infrastructure). These are the diagnostic instincts the hub applies BEFORE routing to any lane.
 
+## How to Use This Skill (Model Calibration)
+
+This hub never produces lane-level content itself — its only outputs are a diagnosis and a routed brief, so the patterns below are decision instincts for finding the true broken layer, not a checklist to recite back. If a diagnosis mechanically walks Layer 1 through Layer 5 in order and marks all five with the same confidence, the diagnosis was skipped and the layers were filled in from habit — that is the failure, not a passing form.
+
+Specifically:
+- Do NOT cite a pattern's label inside a deliverable meant for the coach ("per the Revenue-Backwards pattern..."). Reason from the pattern; never announce it on the page.
+- Do NOT let a routed brief read as all seven lanes touched lightly. One to three lanes, dependency-ordered, or Phase 2 (Find the True Layer) was never actually run.
+- The recognition test: would Elkaim recognize the acquisition diagnosis as his own filter logic — people exiting a pipeline stage is the system working, not leaking? Would Smith recognize a packaging phase that spends disproportionate effort on the first-contact moment instead of spreading it evenly across the piece? Would the coach reading the true-layer statement feel caught, the way "no clients" reframed as "no positioning" should land, rather than soothed by an activity list? A route plan that passes the label test but fails this — distinguish this from a template-filled routing table by checking whether evidence drove the route, not the label — is using this hub's vocabulary without its diagnostic discipline.
+- Polish is the tell here too: a snapshot with no layer marked WEAK, or a brief with no scope fence, means the diagnosis was smoothed over instead of made.
+
 ## Genius Patterns
 
 ### Pattern: Revenue-Backwards Everything
@@ -53,6 +63,19 @@ Smith's fallback when blocked: pick the niche, write a raw list of the audience'
 Mast's system: every training, certification, transcript, and client resource goes into a NotebookLM-style repository, queried on demand — the coach carries a searchable second brain instead of re-learning. Multi-format outputs (audio overviews for commutes, study guides, glossaries) turn the same corpus into content ideas and client-facing assets; a prompt-writing layer ("Natalie") standardizes retrieval quality.
 **Execute**: When a coaching business accumulates methodology (programs, call recordings, certifications), stand up a knowledge repository as business infrastructure — for just-in-time client answers, team/support consistency, and content mining from its glossaries and study guides.
 **Success Metric**: New client questions answered from the repository in minutes, not by memory; repository glossary yields a month of content topics per mining pass.
+
+## Anti-Patterns (Routing Failures This Hub Must Catch)
+
+Each entry is a documented failure mode from the source talks, not a hypothetical — the hub's diagnostic phases (workflow 01 Phase 1/2, workflow 02 Phase 3) exist specifically to catch these before a lane starts building.
+
+- **Routing paid traffic before the positioning layer is fixed** — Elkaim's own words, "Ads guarantee visibility, NOT conversions" (Healthpreneur "jug-and-four-cups" talk, May 2025, `references/field-guide.md` Predictable Prospecting section) — spend on a weak message just burns money faster; the diagnostic must check positioning first.
+- **Building an acquisition pipeline for a coach who "serves everyone"** — Elkaim's Specialist Prerequisite: generalists running paid pipelines "lose their shirt very quickly" (Healthpreneur talk, May 2025, `references/field-guide.md` Preconditions section) — gate any traffic lane on niche specificity first.
+- **Greenlighting content ideation with no named business objective** — Smith opens every session with last month's actual product list and prices ($2,500 mentorship, $99 content mastery, $99 PT kit) before any idea is generated ("How to get content ideas so good you can't stop going viral," Aug 2025 ideation session with editor Declan, `references/field-guide.md` Work Backwards section) — never route a content ask without the dollar objective named first.
+- **Sending cold attention straight to a $2K+ offer with no intermediate value asset** — Smith's dance-floor analogy: direct pitching "converts ~1 in 100" versus offering value first (Aug 2025, `references/field-guide.md` Indirect Beats Direct section).
+- **Approving a masterclass or webinar that fully teaches the mechanism** — Elkaim is explicit his Teach to Sell stage is "not teach to teach" (Healthpreneur talk, May 2025, `references/field-guide.md` Teach to Sell section) — a full tutorial kills the sale it was meant to make.
+- **Letting an offer stack run three half-built acquisition channels at once** — Elkaim ran Healthpreneur to "multiple seven figures" on this ONE pipeline with no social channels for three years (May 2025 talk, `references/field-guide.md` Structural Facts section); Novotny's coaches hit $10K-$25K on organic IG alone — one primary channel, not three fragments.
+- **Skipping the knowledge-repository build once a coach has accumulated methodology** — Mast's whole system exists because "accumulated expertise becomes unfindable" once a coach has years of programs and certs (NotebookLM training webinar, Whitebeard Strategies, Dec 2025, `references/field-guide.md` Jonathan Mast section).
+- **Pricing a transformation offer at session rates** — Elkaim: "if you're charging five, seven, even $10K... you're still undercharging" (Healthpreneur talk, May 2025, `genius.md` Hidden Knowledge — High-Ticket Pricing insight) — price from acquisition math and transformation value, never local market rates.
 
 ## Hidden Knowledge
 
