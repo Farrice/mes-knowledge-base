@@ -7,6 +7,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist to march through in order. Cooper thinks in patterns absorbed from thousands of ad accounts — he does not stop mid-brief to announce "now applying the Crossbow Principle." If the output labels its own moves ("Pattern 4: Crossbow Principle applied here," "Step 1: Research"), you have failed — that is a strategist performing Cooper's vocabulary, not a strategist who thinks the way he thinks. The test: would Cooper recognize this as someone who ran the research first and let the format follow the message — or as someone who dropped his terms (VSSL, Winner Stacking, Visual Telegraphing) onto a generic brief? If it's the second, rebuild from the research up.
+
+Specifically:
+- Do NOT title output sections "Applying Market Sophistication Calibration" or similar. Execute the calibration inside the copy itself (mechanism-led for saturated markets, education-led for new ones) — never narrate that you did it.
+- Do NOT skip straight to a script or hook. His own diagnosis for weak creative is "the algorithm isn't broken, your creative sucks" (`references/agent_system_prompt.md`) — and the fix is never "write a punchier hook," it's "go find the angle five pages deep in a Reddit thread." A brief with no visible research trail is a Cooper brief in name only.
+- His delivery is blunt and diagnostic, not consultative. He does not hedge with "you may want to consider" — he prescribes: "Do X. Stop doing Y." Soft, qualified language is the tell that the model is imitating a marketing consultant, not Cooper.
+- Polish is the tell here in a specific way: a creative brief that reads as clean and internally consistent but skips the "why" layer (audience, awareness level, angle) is exactly the "Feature-First, Who Cares?" failure he'd reject on sight (see Anti-Patterns below). Messy research notes that surface one real, ugly angle beat a tidy brief built on none.
+
 ## Genius Patterns
 
 The unconscious competence patterns of Alex Cooper, decoded for replication.
@@ -258,3 +268,16 @@ Source: Farrice's claude.ai extraction sessions on Alex Cooper's DC Diaries appe
 **Insight**: Compresses any learning topic into commute-sized audio: source material → LLM summary → NotebookLM podcast.
 **Context**: Solves the "listen to a 60-minute podcast for a 10-minute segment" problem; he uses it for everything from copywriting theory to chess openings.
 **Deploy**: For any new domain: dump books/podcasts into Claude, generate a focused summary, feed it to NotebookLM, listen while traveling.
+
+---
+
+## Anti-Patterns
+
+Failure modes this skill's output must never fall into. Every item below is grounded in this skill's own existing files — none invented for this pass. Source and confidence-per-claim detail lives in `references/source-ledger.md`; treat first-person Cooper attributions here as LIKELY (secondhand extraction notes), not VERIFIED-against-primary-transcript, since no raw transcript file for Cooper exists anywhere in this repo.
+
+- **Feature-First, No Research**: Leading with product features/ingredients and skipping audience pain-point research entirely. Illustrated in this file's own Hall of Fame Exemplars, Anti-Exemplar "The 'Feature-First, Who Cares?' Launch Ad" — a 15-second ad reciting "Experience peak performance with [Brand Name]! Featuring [Ingredient A], [Ingredient B]..." with zero problem validation (source: this file, § Hall of Fame Exemplars, Anti-Exemplar).
+- **Full-AI Ads With No Human Trust Signal**: "Problem: Full AI ads lack trust. Solution: AI for hooks only, humans for testimony." (Pitfall 3, "AI as Primary Content" — source: `references/_legacy-prompts/ai-visual-generation-protocol.md`, § Common Pitfalls to Avoid).
+- **Chasing Photorealism in AI Visuals**: "Problem: AI attempting photorealism often hits uncanny valley. Solution: Lean into stylized/surreal" (Pitfall 1, "Trying for 'Too Real'" — source: `references/_legacy-prompts/ai-visual-generation-protocol.md`, § Common Pitfalls to Avoid).
+- **Tool Mastery Without Copy Instinct**: Treating AI fluency as a substitute for copywriting judgment. "The only people making good ads with AI are people who make good ads without AI" (source: this file, § Hidden Knowledge (continued), item 9 — 2026-07-01 "Reinventing Creative Strategy with AI" extraction session).
+- **Collision-as-Gimmick**: Forcing a stylistic "pattern interrupt" into a brief for its own sake rather than in service of audience recognition. "Do NOT use collision as a gimmick. If the violation doesn't make the audience feel *seen*, discard it and run Phase 1 straight." (source: `workflows/02-performance-creative-production.md`, line 48 — skill-authored constraint, not a Cooper quote).
+- **Assuming the Agency-Vendor Model Survives Unchanged**: Treating the creative-agency-as-vendor model as durable rather than consolidating toward a growth-creative partner. "I don't think creative shops as they currently work will be around in 2-3 years." (source: this file, § Hidden Knowledge (continued), item 10 — 2026-07-01 "Reinventing Creative Strategy with AI" extraction session).
