@@ -4,6 +4,19 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist to stamp in sequence. Absorb Anxiety Physics, Rhythm Architecture, and Likable Expert Dynamics until they disappear into the sentence — then write. If the output visibly narrates its own machinery ("here's a breather," "inserting an admission line here"), you have failed the test before a single word of content matters.
+
+Specifically:
+- Do NOT enumerate which bucket or GP-WM number you applied unless asked. Kallaway's own delivery never announces its mechanics on the page — the reader feels the pull, never sees the gears.
+- Do NOT label a paragraph "here's my vulnerability moment" or "here's the ugly number." Execute the move; the machinery stays invisible. Naming it on the page breaks the exact spell the technique is built to create.
+- His texture is short-sentence, single-breath, casual-structure-carrying-expert-content — never academic, never corporate. A correct idea delivered in a 30-word sentence with two subordinate clauses is a Rhythm Architecture failure regardless of how accurate the content is.
+- Polish is the tell-class failure here specifically: an evenly-paced, hedge-free, uniformly-declarative piece that never admits anything and never breaks register reads as AI, not as Kallaway. His actual signature is a ratio, not a purity test — 70/30 downward-to-rising endings (not 100/0), 2-5 register switches per 1,000 words (not zero, not constant), and exactly one genuine admission per piece (never zero, never a wall of them).
+- The test: would Kallaway recognize this as something he wrote in his own voice pocket — one sentence at a time, each carrying full energy, admitting one real thing, proving every claim with an ugly number — or as someone reciting his framework back at him in his own vocabulary? If it's the second, rebuild at the sentence level, not the framework level.
+
+---
+
 ## Core Philosophy
 
 Charisma is not personality — it's protocol. Speaking well (on camera or in writing) decomposes into 3 engineered systems: **Anxiety Physics** (state management before creation), **Rhythm Architecture** (sentence-level pacing and emphasis), and **Likable Expert Dynamics** (trust engineering through vulnerability, proof, and service energy). These are not intuitive gifts — they are deployable techniques.
@@ -329,6 +342,20 @@ Replace hedged, conditional language with definitive language — not by changin
 **Deployment**: Pass over any finished draft and flag every hedge word — if, maybe, might, could, probably, or any construction that sounds non-committal. Replace with when, the reason why, once you do this. This is distinct from GP-WM-07's Downward Inflection (which governs sentence-ENDING energy) — Embedded Truths governs the FRAMING choice at the start of a claim, independent of how the sentence ends.
 
 **Success signal**: Reading the draft aloud, zero sentences invite the silent question "...or does it?"
+
+---
+
+## Anti-Patterns (Sourced)
+
+Failure modes named directly against source material, not generic writing advice. Each is the inverse of a GP-WM pattern above.
+
+- **Written upspeak (hedged, uncertain sentence endings)**: "I think maybe this could potentially work for some people..." — trailing qualifiers and question-ending statements that read as low authority, the exact opposite of Downward Inflection (`extractions/kallaway/word-mastery-extraction.md`, GP-WM-08 "Written Transfer," extraction dated 2026-03-19).
+- **Dropping phrases (energy leak mid-sentence)**: "This incredible framework will transform your ability to maybe eventually start thinking about ideas." — opens strong, dribbles into hedges by the close; the fix is cutting at the energy peak, never padding to a soft landing (`extractions/kallaway/word-mastery-extraction.md`, GP-WM-09 "Written Transfer," extraction dated 2026-03-19).
+- **Vague proof (unspecific claims)**: "I grew my account really fast." — the direct anti-pattern to Proof-Heavy Framing, contrasted against the specific version he actually uses: "I grew from 2,000 to 47,000 followers over 3 months on Instagram with these three methods" (`extractions/kallaway/word-mastery-extraction.md`, GP-WM-12, extraction dated 2026-03-19).
+- **Direct problem-statement hooks that skip Latent Desire Mirroring**: "Are you struggling with [Problem]?" — his own fix replaces it with the Dream Outcome frame, "I just achieved [Dream Outcome] using [Simple Method]" (`extractions/kallaway/extraction-report.md`, "Latent Desire Mirroring" pattern, extraction dated 2026-03-02).
+- **Condition-heavy methods that break relatability**: "If the method requires a $1,200 machine, the relatability breaks." — any solution framed as needing a resource the reader doesn't already have kills the Constraint-Free Bridge before it starts (`extractions/kallaway/extraction-report.md`, "Condition-Free Framing" under Hidden Knowledge, extraction dated 2026-03-02).
+- **Fabricated vulnerability**: admission lines invented rather than genuinely lived — the guardrail exists because the reader senses a performed admission the same way they sense any other believability-gate failure; the intended read is "this person is being honest with me," never "this person is performing vulnerability" (Bucket 3 guardrails on GP-WM-13, cross-checked against the GP-WM-14 "Success Metric" language in `extractions/kallaway/word-mastery-extraction.md`, extraction dated 2026-03-19).
+- **Generic problem hook stacked with dropping phrases (compounded failure)**: "Are you struggling to write compelling content that converts? Many people find it hard to get their message across effectively, which can be a real challenge for achieving your marketing goals, leading to potential frustration..." — the pre-existing Anti-Exemplar below, reformatted here as a sourced list item per the skill-craft standard; this passage is internal skill authoring (illustrative, built to demonstrate the failure mode), not itself extraction-sourced — see `references/source-ledger.md` for the confidence label.
 
 ---
 
