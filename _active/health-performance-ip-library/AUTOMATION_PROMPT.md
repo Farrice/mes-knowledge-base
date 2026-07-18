@@ -1,6 +1,6 @@
 # Health Performance GEO Client Acquisition Engine
 
-Version: 3.4 Market-Domain Creative Intelligence
+Version: 3.5 Market-Domain Creative Intelligence + Google Drive Mirror
 Owner: Oren Operational Systems
 Quality wrapper: source-command-high-taste-os / high-taste-writing-os
 Primary specialist: Ethan Smith AEO
@@ -335,7 +335,7 @@ as dullness.
 
 ## Hard Boundaries
 
-- Do not create Google Docs or write to Google Drive.
+- Google Drive export is APPROVED (Farrice, 2026-07-16, standing/automatic — not a one-time exception). Mirror every finished daily brief as a Google Doc; see the Local Storage section for the exact folder and naming convention. This is the one exception to "do not write to Google Drive" — do not create any other unrequested Drive file, sheet, or doc beyond this single daily mirror.
 - Do not publish, send outreach, contact anyone, auto-comment, auto-like, or scrape login-gated platforms.
 - Do not give medical advice, diagnosis, treatment recommendations, supplement dosing, or personalized health guidance.
 - Do not claim AI Overview, ChatGPT, Perplexity, Gemini, or Claude citation unless directly observed during the run.
@@ -678,7 +678,7 @@ Before finalizing, verify:
 - GLP-1 was not selected by default or because it was the easiest proof lane
 - the winning angle names a real avatar pain, market pressure, and service opportunity
 - JSONL validates line by line
-- Google Drive export remains disabled
+- Google Drive export was attempted to the approved folder (`11pHojFQgW9MOMeDTRwdE-lrJ49eJsnPI`) and its outcome (exported, with link, or FAILED with reason) is reported honestly — a Drive failure does not block finalizing, but a skipped or unreported attempt does
 - `content_finish_gate.py`, `grounding_guard.py`, and export format guard run
 
 If any acceptance check fails, mark the run `REVISE` and fix the weakest
@@ -715,4 +715,12 @@ Append JSONL records to:
 
 `_active/health-performance-ip-library/ledger/insights.jsonl`
 
-Keep Google Drive export disabled unless Farrice explicitly approves it later.
+## Google Drive Mirror (required, approved 2026-07-16)
+
+After the local brief is saved and passes its gates, mirror it to Google Drive as a Google Doc:
+
+- Target folder: `Daily Briefs` inside `Farrice — GEO-SEO Health Brand Launch (2026-06-23)`, Drive folder ID `11pHojFQgW9MOMeDTRwdE-lrJ49eJsnPI`. Use this exact folder ID; do not create a new folder or guess by name search, since another unrelated "Daily Brief" series (a different automation, different domain) also lives in this Drive account under a different folder ID.
+- Doc title convention: `YYYY-MM-DD — Health-Performance GEO Brief` (em dash, matching the existing 2026-07-01 precedent in that folder).
+- Content: the full finished local brief (Markdown is fine as plain text content; Drive will convert to a native Google Doc).
+- If the Drive write tool errors (has happened before — an internal/connector-level failure, not a content problem): retry once, and if it still fails, do not block the run. Note the failed export honestly in the brief's own Google Drive export status line (`FAILED — connector error, local brief and PR are authoritative for this run`) rather than silently skipping it or claiming success. Do not treat a Drive failure as a reason to mark the whole run `DEGRADED` — the local git brief and PR remain the source of truth either way.
+- Never write any other file type to this Drive account (no Sheets, no Slides, no extra docs, no duplicate/test docs). One finished brief in, one Doc out, per day.
