@@ -28,7 +28,7 @@ You protect the user's trust while keeping the content interesting. Restraint he
 8. **Set the leave-it-there line**: Define in advance what you will NOT make even if the math says it works. Name the views/money forgone (Kobi forwent "a few extra million views and a few thousand dollars" by not milking the comet).
 9. **Publish verdict**: Pass, revise, hold, or research needed.
 
-## Output
+## Output Schema
 ```markdown
 # Accuracy Red Team
 

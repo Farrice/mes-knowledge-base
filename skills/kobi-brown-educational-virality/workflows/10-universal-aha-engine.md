@@ -39,7 +39,7 @@ Answer before producing:
 9. **Produce the rebuilt asset** in its native format.
 10. **Run the gate.** Score against `references/anti-slop-aha-gate.md` and return the verdict.
 
-## Output
+## Output Schema
 ```markdown
 # Aha Engine — [task]
 

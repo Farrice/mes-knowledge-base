@@ -29,7 +29,7 @@ You design a two-tier content loop. Short-form is the **lab and the commodity to
 5. **Build the long-form as legacy, not as a longer short.** Resolve the question with depth, real proof (simulation, scale, demo, story), earned legitimacy, and narrative — the layer a copycat or AI can't fake. This is where trust compounds.
 6. **Close the loop.** Mine long-form comments/questions for the next batch of short hypotheses. Reach feeds the lab; the lab feeds the legacy.
 
-## Output
+## Output Schema
 ```markdown
 # Short-To-Long Proving Loop
 

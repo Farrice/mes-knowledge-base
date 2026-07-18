@@ -30,7 +30,7 @@ You build a multi-part educational series that turns a topic into trust over tim
 
 > Every episode and the flagship must clear `references/anti-slop-aha-gate.md` — verdict SLOP / NOISE / SIGNAL / BREAKTHROUGH. Target genuine cognitive change (aha → perspective → identity shift), not reach for its own sake.
 
-## Output
+## Output Schema
 ```markdown
 # Educator Series Plan
 

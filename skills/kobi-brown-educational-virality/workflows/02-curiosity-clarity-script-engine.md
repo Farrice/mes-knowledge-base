@@ -28,7 +28,7 @@ You produce finished educational content for any educator, coach, consultant, or
 6. **Write the asset**: Produce the platform-native post/script.
 7. **Add the long-form bridge**: Give one next asset that compounds trust (short-form is the lab/top-of-funnel; long-form is where craft and authority compound).
 
-## Output
+## Output Schema
 ```markdown
 # Curiosity-Clarity Asset
 

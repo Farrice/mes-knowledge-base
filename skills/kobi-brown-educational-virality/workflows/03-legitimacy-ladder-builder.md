@@ -27,7 +27,7 @@ You build the proof ladder that makes an educator, coach, or consultant worth be
 6. **Insert proof naturally.** Proof should support the teaching, not interrupt it — show, don't announce.
 7. **Bridge to the durable asset.** Point to the deeper piece that only this creator could make (the "show up, don't just commentate" move) — *"you earn the legitimacy by showing up and no longer just commentating and saying stuff."*
 
-## Output
+## Output Schema
 ```markdown
 # Legitimacy Ladder
 

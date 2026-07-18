@@ -40,7 +40,7 @@ You decide when Kobi should operate alone and when another Antigravity expert sh
 
 The Aha Engine is the universal lens; the nine Kobi workflows are the specialist tools it dispatches to (legitimacy ladder, simulation/analogy lab, accuracy red-team, shorts-to-longform loop, etc.). **McRaney is the one outside spine-swap**: most ahas correct a fact, but when the audience's wrong belief is load-bearing (identity, fear, worldview), pair McRaney to dissolve it before Kobi makes it legible.
 
-## Output
+## Output Schema
 ```markdown
 # Educational Virality Stack
 

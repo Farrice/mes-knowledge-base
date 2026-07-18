@@ -2,6 +2,16 @@
 
 > **Source grounding:** Re-forged 2026-06-14 against the full interview transcript (`extractions/kobi-brown-educational-virality/transcript.txt`, ~6,447 words). Verbatim evidence: `references/source-quotes.md`. This supersedes the 2026-06-09 article-and-inference build.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then build originally. If the output mechanically stamps "Pattern 1: Vegetable Smuggle, Pattern 2: Earn Attention the Hard Way..." in order, you have failed. The test: **would Kobi Brown recognize this as theirs** — a piece he'd nod at because the hard idea survived contact with the algorithm — or would he recognize it as someone reciting his framework back at him? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label sections "here's the doorway," "here's the vegetable smuggle," "here's the legitimacy insert." Execute the move; never announce it. Kobi never says "today I'll explain X" — he opens on the question or anomaly and lets the payload arrive undeclared.
+- Do NOT dumb the idea down to make it "land." Kobi's whole edge is that "real serious hard physics" earned attention *without* dilution (**[17:48]**, interview transcript) — a diluted version wearing his structure is the tell-class failure, not a success.
+- His texture is a working creator's, not a guru's: field reporting (NASA, CERN), briefing animators, writing "ugly" Python simulations (**[09:06]**) — not polished maxims. Keep outputs grounded in a specific mechanism, proof, or access point; a generic "be authentic and accurate" restatement is the polish-is-the-tell failure for this expert.
+- Restraint is load-bearing, not decorative. If a repair plan or script recommends milking a trending topic for a fourth or fifth follow-up, or leans on a claimed credential instead of an earned one, that is not a stylistic quibble — it fails the Goal-Definition Gate and the Restraint Cut outright (see Anti-Patterns below).
+
 ## Core Genius
 Kobi Brown's edge is not "make education entertaining." It is **using entertainment as the doorway and keeping a true, hard idea as the payload** — then defending that payload with accuracy, earned legitimacy, and visual proof so the audience leaves *changed*, not just amused. His own words: *"If you can get people to pay attention and entertain them and sort of sneak the vegetables in education as well, that was my goal."*
 
@@ -121,16 +131,16 @@ If question 5 is unanswered, run `/accuracy-without-clickbait` before publishing
 - **Idea-First Sizing:** test the idea before the hook; give the idea its right format.
 
 ## Anti-Patterns
-- Teaching before curiosity exists (leading with "today I'll explain…").
-- Watering down the idea to make it "accessible" — Kobi keeps the hard physics.
-- Clickbait/conspiracy/divisive commentary as the *default* lever (fine only if that's your defined goal — it wasn't his).
-- Claiming legitimacy ("trust me, I'm an expert") instead of earning it.
-- Mistaking proximity for accuracy — being at NASA without doing the journalism.
-- Competing on a craft edge that AI or copycats can replicate this quarter.
-- Great hook on a thin idea; padding a short idea into long-form.
-- Milking a trend with four or five follow-ups past the honest version.
-- Over-polishing the authenticity and emotion out of a meaning piece.
-- Treating short-form virality (or reach generally) as the end state instead of the funnel.
+- Teaching before curiosity exists (leading with "today I'll explain…") — the inverse of the doorway move (Pattern 1); grounded in the "sneak the vegetables in" framing, interview transcript **[16:40]/[17:48]**, `references/source-quotes.md`.
+- Watering down the idea to make it "accessible" — Kobi kept the hard physics and still earned the reward: *"present real serious hard physics in a way that is engaging and that earns the audience's attention"* (interview transcript, **[17:48]**, `references/source-quotes.md`).
+- Clickbait/conspiracy/divisive commentary as the *default* lever — Kobi names this exact failure and rejects it as his default: *"you can dive into conspiracies. You can do very clickbaity content. Or you can make really divisive commentary... I kind of see those things as the easy, cheap way to draw attention"* (interview transcript, **[17:03]**, `references/source-quotes.md`).
+- Claiming legitimacy ("trust me, I'm an expert") instead of earning it — Kobi explicitly refuses this move: *"I'm not being like 'Hey guys, I'm a physicist, you can trust me.'"* (interview transcript, **[13:37]**, `references/source-quotes.md`).
+- Mistaking proximity for accuracy — being at NASA without doing the journalism: *"Going to NASA doesn't necessarily grant you accuracy and legitimacy. You still need to have those elements of journalism..."* (interview transcript, **[14:00]**, `references/source-quotes.md`).
+- Competing on a craft edge that AI or copycats can replicate this quarter — the failure state he consciously exited: *"with generative AI... those barriers to entry are being lowered... it was very much a conscious thing trying to separate myself from that group of creators"* (interview transcript, **[13:15]**, `references/source-quotes.md`).
+- Great hook on a thin idea; padding a short idea into long-form — the opposite of his idea-format-fit move: *"taking ideas that could be good for a short-form and just leaving them as a short-form instead of trying to stretch them out into a long-form video"* (interview transcript, **[26:08]**, `references/source-quotes.md`).
+- Milking a trend with four or five follow-ups past the honest version — the exact temptation he names and declines on the interstellar-comet story: *"I could have got a few extra million views and a few thousand dollars by making follow-ups and four or five videos about it. But that's where I think it crosses the line"* (interview transcript, **[24:40]**, `references/source-quotes.md`).
+- Over-polishing the authenticity and emotion out of a meaning piece — his "Stars Are Disappearing" video stayed *"a bit rough around the edges, which on YouTube sometimes I think is good"* (interview transcript, **[31:00]**, `references/source-quotes.md`).
+- Treating short-form virality (or reach generally) as the end state instead of the funnel — trending shorts are explicitly *"top of funnel for your overall content and to bring new people into your audience"* (interview transcript, **[23:32]**, `references/source-quotes.md`), not the destination.
 
 ## Quality Rubric
 | Criterion | Score 4 | Score 7 | Score 10 |

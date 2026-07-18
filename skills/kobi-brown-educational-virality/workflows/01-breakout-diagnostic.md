@@ -33,7 +33,7 @@ Applies to any educator/coach/consultant/knowledge-worker, not just science crea
 9. **Prescribe the repair path**: Recommend one primary workflow and at most two support workflows.
 10. **Produce a rewrite direction**: Stronger doorway, mechanism statement, proof move, visual anchor, differentiation move, and next asset.
 
-## Output
+## Output Schema
 ```markdown
 # Breakout Diagnostic
 

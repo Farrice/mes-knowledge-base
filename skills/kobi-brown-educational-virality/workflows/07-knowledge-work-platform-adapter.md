@@ -32,7 +32,7 @@ You adapt one educational payload across platforms without flattening it into a 
 5. **Add bridge CTAs.** Treat short-form as funnel: each pushed asset points to the chosen deep-dive where the idea fully resolves. The long-form is the legacy; shorts feed it.
 6. **Check consistency + restraint.** Same lesson everywhere, no platform version distorts it for reach, and you've defined where you "leave it there" (Restraint Cut) per channel.
 
-## Output
+## Output Schema
 ```markdown
 # Platform Adaptation Kit
 
