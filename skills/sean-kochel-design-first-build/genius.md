@@ -4,6 +4,17 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist. Internalize the phase discipline, then build originally — the machinery should be invisible in what ships, even though it is rigid in how you got there. The test: would Sean Kochel recognize this as his research → design → build trinity — three categorical phases, three different tools, one discrete reviewable deliverable per phase — or as generic "AI website builder" vocabulary wearing his terminology? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label the final deliverable "Phase 1: Research," "Phase 2: Design," "Phase 3: Build" as a visible scaffold the client sees. The phases are how you WORK, not a section header in the output. Kochel never narrates his own system while running it in the video — he just runs it, then shows the result.
+- Do NOT skip straight to a build prompt because research "feels like busywork." He names this directly as the majority failure mode — "99% of people skip this step" — and the urge to skip is itself the strongest signal you need it most.
+- Do NOT hand a design tool the full draft copy on the first pass. His texture is *sequenced*, not *simultaneous*: scaffold first, copy second, always in that order, even when simultaneous feels faster — feeding it all the copy upfront is what produces "a pretty mid-level design."
+- His delivery register is unpolished workshop demo, not academic whitepaper — numbered systems narrated like a screen recording ("boom," "moment of truth"), not framework slides. Keep instructional language plain and demonstrative: show the before/after, don't theorize about why it works.
+- Polish-is-the-tell for this expert inverts the usual warning: the failure mode isn't over-polish, it's under-sequencing — a landing page that LOOKS finished but skipped the competing-hypotheses step reads as authoritative and is actually unaudited guesswork wearing a good coat of paint. Design quality without research underneath is exactly the "Just Build It Brochure Site" anti-pattern below, not a win.
+
 ## Genius Patterns
 
 ## 1. The Under-Specified Plan Diagnosis
@@ -20,7 +31,7 @@
 
 ## 2. The Research → Design → Build Trinity
 
-**What They Do**: Never collapse the pipeline. Three categorical steps, three different tools, three different outputs. Research produces intelligence. Design produces visuals. Build produces code. They do not blend.
+**What They Do**: Never collapse the pipeline. Three categorical steps, three different tools, three different outputs. Research produces intelligence. Design produces visuals. Build produces code. They do not blend. In his own words: "there's three pieces to this system. research, design, and finally build" (video transcript, extractions/sean-kochel/transcript.txt).
 
 **Executable Behavior**: Enforce hard phase gates. Research phase uses deep research tools (ChatGPT Deep Research, Gemini, Claude). Design phase uses visual tools (Google Stitch, Figma). Build phase uses code tools (Antigravity, Cursor, VS Code). Each phase produces a deliverable that gets reviewed before the next begins.
 
@@ -32,7 +43,7 @@
 
 ## 3. Direct vs. Indirect Competitor Mapping
 
-**What They Do**: Expand the competitive frame beyond obvious competitors. Direct competitors sell the same solution. Indirect competitors solve the same problem differently. The personal trainer's indirect competitor is Ozempic — same problem, wildly different approach.
+**What They Do**: Expand the competitive frame beyond obvious competitors. Direct competitors sell the same solution. Indirect competitors solve the same problem differently. His own example, verbatim: "An indirect competitor might be jabbing yourself with a pharmaceutical to lose weight" (video transcript) — same problem as a personal trainer, wildly different approach.
 
 **Executable Behavior**: For any project, map at least 2 direct competitors (same product category) AND 2 indirect competitors (different approach to same underlying problem). Extract from each: headline language, USP, brand identity, and page structure. The indirect competitors often reveal the most powerful positioning insights because they show what else your audience is considering.
 
@@ -44,7 +55,7 @@
 
 ## 4. The Competing Hypotheses Technique
 
-**What They Do**: Refuse to lock into a single positioning angle. Generate 3 distinct approaches — e.g., efficiency-focused, quality-focused, personalization-focused — and consciously evaluate each before committing. This prevents the default failure mode of going with the first idea that sounds decent.
+**What They Do**: Refuse to lock into a single positioning angle. Generate 3 distinct approaches — e.g., efficiency-focused, quality-focused, personalization-focused — and consciously evaluate each before committing. In the video's own example, one hypothesis lands on the "efficiency and scaleoriented approach" (video transcript, verbatim) while the others cover quality/nuance and personalization. This prevents the default failure mode of going with the first idea that sounds decent.
 
 **Executable Behavior**: After competitive research, generate exactly 3 competing hypotheses for positioning. Each must be genuinely distinct (not variations of the same theme). Each gets mapped to a concrete headline, subheadline, and CTA. Evaluate against the target audience, then select. Document why the others were rejected.
 
@@ -132,7 +143,7 @@
 
 ## 5. Image-as-Style-Transfer
 
-**Tacit Insight**: Pasting a single reference image (a video thumbnail, a brand asset, a screenshot you like) communicates more about desired aesthetic than paragraphs of written description. The design tool extracts color palette, vibe, texture, composition, and "design DNA" from the image — producing outputs with visual coherence that text prompts struggle to achieve.
+**Tacit Insight**: Pasting a single reference image (a video thumbnail, a brand asset, a screenshot you like) communicates more about desired aesthetic than paragraphs of written description. The design tool extracts color palette, vibe, texture, composition, and "design DNA" from the image — producing outputs with visual coherence that text prompts struggle to achieve. Kochel's own demo did exactly this with a newsletter thumbnail: "it kind of took that essence and turned it into an entirely new thing" (video transcript, verbatim).
 
 **Why Others Miss This**: People think in terms of text descriptions ("dark mode, purple accent, clean layout"). But an image carries thousands of implicit design decisions — the exact shade of dark, the weight of the typography, the density of elements, the amount of whitespace. One image transmits all of this instantly.
 
@@ -140,7 +151,20 @@
 
 ---
 
+## Anti-Patterns
+
+Every item below is a failure mode Sean Kochel names directly against his own patterns above, anchored to the source video (see `references/source-ledger.md` for full provenance):
+
+- Prompting straight to "build me a beautiful landing page" with zero competitive research — the majority failure mode he calls out by name: "you cannot hit a target that you have not defined" (video transcript, extractions/sean-kochel/transcript.txt).
+- Leaving the brief under-specified and letting the model guess — "Any unanswered question in your plan has to be decided upon by the language model at game time" (video transcript) — this is the single philosophical takeaway he leads the video with.
+- Handing an AI design tool the full draft copy before the visual scaffolding is locked — doing so "tends to give you a pretty mid-level design" (video transcript), the opposite of the two-pass sequencing he teaches.
+- Downloading a screenshot and hoping the build tool pixel-clones it, or exporting raw HTML and hand-extracting the design system — the two workarounds he explicitly rejects in favor of the MCP bridge: "Both of those approaches kind of sucked to be honest" (video transcript).
+- Mapping only direct competitors and skipping indirect ones — his own corrective example is the personal trainer who never checks what "jabbing yourself with a pharmaceutical to lose weight" competitors are offering instead (video transcript, verbatim quote).
+- Locking into the first positioning idea that sounds decent instead of generating competing hypotheses — the default failure mode the competing-hypotheses technique exists to prevent, demonstrated in the video's own efficiency-vs-quality-vs-personalization split (video transcript).
+
 ## Hall of Fame Exemplars
+
+> Provenance note: the two named case studies and the anti-exemplar below are illustrative composites built to demonstrate the patterns in combination — they do not appear in the source video or extraction report and are not documented Kochel client engagements. Treat them as worked examples of the mechanics, not as verified case history (labeled UNCONFIRMED in `references/source-ledger.md`). The patterns they illustrate are themselves grounded in the transcript.
 
 **1. "The SaaS Onboarding Flow That Just *Clicked*"**
 *   **Description**: A complex B2B SaaS onboarding flow for a new project management tool. Instead of immediately building, the team spent a full week on competitive research, mapping 3 direct and 2 indirect competitors (e.g., email-based task managers, even physical Kanban boards). This led to three distinct positioning hypotheses: "Hyper-Efficient Task Automation," "Collaborative Project Storytelling," and "Focus-Driven Workflow Simplification." After selecting "Focus-Driven Workflow Simplification," a visual mockup was created in Google Stitch using placeholder text, focusing purely on clean layout, intuitive navigation, and a calming color palette. Only after design approval was the precise, research-backed copy integrated, ensuring the visual authority reinforced the precise messaging. The final code was generated via an MCP bridge, perfectly replicating the Stitch design.
@@ -164,4 +188,4 @@
 
 ## Quality Rubric
 
-> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading. The rubric scores each criterion on a 4/7/10 scale (Acceptable/Good/Savant); a Savant-tier landing page brief shows zero unanswered questions, not partial credit.
