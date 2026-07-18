@@ -74,6 +74,24 @@ Then: `python3 execution/cos_prep.py mark weekly` (and `mark daily` if not yet d
 
 **Final check:** Are the 3 commitments with review dates actually in `decisions.md`? Did `last_reviewed` flip for all goals touched?
 
+## Output Schema
+
+Two artifacts, both required — a weekly session that produces one without the other is
+incomplete:
+
+1. **The board-ledger deliberation block** — appended verbatim under `## Weekly
+   Sessions / YYYY-MM-DD — [focal question]`, carrying exactly the Ledger Entry
+   template above (Members / Positions / Consensus / Dissent / Outcome / Trust
+   Update) — no field skipped; a seat that didn't sit gets a named reason, not a
+   blank.
+2. **The decisions.md commitment set** — under `## Weekly Commitments / ###
+   YYYY-MM-DD — Week of [date]`, exactly 3 new commitments, each with a review date,
+   preceded by last week's 3 commitments each marked done/carried/dead with a reason.
+
+Dissent is a required field, not optional flavor: if Phase 2 genuinely produced no
+disagreement, the block says "no dissent this week" explicitly — it is never silently
+omitted, since an omitted Dissent field is indistinguishable from a forgotten one.
+
 ## Quality Gate
 
 ✓ Focal question captured and deliberated (not skipped)

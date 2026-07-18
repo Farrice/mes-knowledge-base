@@ -90,6 +90,28 @@ Frame it: *"First session — I'm going to interview you for ten minutes so I ne
 5. Durable facts → sovereign memory per Capture Discipline. Everything verbatim → journal.
 6. `python3 execution/cos_prep.py mark daily` and `mark weekly` (onboarding counts as both), then `prep --force` so tomorrow's questions use the fresh stamps.
 
+## Output Schema
+
+The Operator Primer (Step 3's deliverable) renders in exactly this order — this is the
+contract `cos_primer_gate.py` checks structurally, so deviating from the order is a
+gate failure, not a style choice:
+
+1. **Header** — `☀️ Operator Primer — [DOW] [DATE] · [Sprint Day N of M]` (see
+   `references/prompts-v2/operator-primer-output.md` for the full skeleton).
+2. **Today's 3 moves** — exactly 3, each already-finished work with a `→ next:`
+   startable command; never a "build X" placeholder.
+3. **Delta since yesterday** — 2-3 sentences, situation-grounded, no invented change.
+4. **Board advisories** — exactly the 3 dispatched seats, each block attributed
+   `[Seat: Name]` verbatim, in dispatch order, unedited from what the sub-agent wrote.
+5. **Your questions** — from the brief, each carrying a `↳ context` provenance line;
+   never a bare question with no traceable source.
+6. **World pulse** — brief items only, or the literal string "nothing cleared the bar
+   today" if the recency/relevance bar wasn't cleared by anything.
+7. **Outer loop** — due items with a per-item close command each.
+8. **Composition footer** — one line: who sat, who skipped and why.
+9. **[DEGRADED] banner** (only if the retry budget was exhausted) — lists the specific
+   failure codes from `cos_primer_gate.py`, placed at the top, not buried.
+
 ## Quality Gate
 
 ✓ Primer gate passed (or shipped with DEGRADED banner if retry budget exhausted)
