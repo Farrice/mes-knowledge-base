@@ -1,12 +1,12 @@
 # Knowledge Briefing
-*Generated: 2026-07-17 | 667 sources | 2,695,392 words*
+*Generated: 2026-07-17 | 667 sources | 2,695,419 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
 - **index** (content) — 4,615 words — `knowledge/index.md`
-- **log** (general) — 12,529 words — `knowledge/log.md`
+- **log** (general) — 12,556 words — `knowledge/log.md`
 - **extraction-report** (content) — 607 words — `extractions/daniel-priestley-sll-engine/extraction-report.md`
 - **visual-context** (content) — 390 words — `extractions/daniel-priestley-sll-engine/visual-context.md`
 - **amplification-report** (content) — 2,596 words — `extractions/seth-godin-marketing-mind/amplification-report.md`
