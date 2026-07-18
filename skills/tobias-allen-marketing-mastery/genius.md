@@ -2,7 +2,31 @@
 
 > Load this file before executing any workflow. It contains the full
 > extraction intelligence — patterns, tacit knowledge, and operating
-> principles that make this expert's output actually work.
+> principles that make this expert's output actually work. Grounded in
+> the "How to Sell Anything to Anyone — With Marketing Genius Tobias
+> Allen" interview (YouTube, lpCAqZmNMQU; transcript captured 2025-11-09,
+> ~85 minutes) — see `references/source-ledger.md` for claim-by-claim
+> sourcing.
+
+---
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Tobias doesn't run through "Bullseye, then Domino, then Arbitrage" in order out loud — he pulls whichever lens the business needs and the seams don't show. If output mechanically labels "Applying Pattern 3: CRM-First Economics," it has failed the test before a word of copy lands.
+
+The test: would Tobias Allen recognize this as the output of someone who actually did the 80/20 research-to-assembly work — or as marketer-voice wearing his vocabulary? If it's the second, the research pass was skipped and no framework name fixes that.
+
+Specifically:
+- Do NOT announce the machinery. He never says "let me apply the Bullseye Principle" — he says "people have a reason for doing something that sounds good, but they also have a real reason," and then he shows you the Cialis story. Show the discovery, not the label.
+- Do NOT let output arrive at a "seven out of ten" answer and call it done — that's the exact corner-cutting he names as the ceiling most marketers accept because premium rates still land clients. His bar is the 2am pass after the Slack messages stop, not the first competent draft.
+- His texture is blunt, cross-industry, and slightly restless — he jumps from Viagra/Cialis to golf courses to comic-book advertising to Andrew Tate's press arbitrage inside the same breath, because the pattern-matching muscle is the whole point. Flatten that into a single tidy industry example and the voice goes generic.
+- Polish is the tell-class failure here specifically: copy that reads like it was "written" by a marketing department (feature-dumped, adjective-stacked — "revolutionary," "cutting-edge," "unparalleled") is the anti-exemplar. His copy reads like a transcript of the customer's own head, not like marketing.
+- Never let frontend tactics get proposed before the backend/CRM math is checked — that ordering (backend funds frontend, not the reverse) is structural to how he thinks, not a stylistic preference.
+
+### Recognition Test
+Before shipping anything produced under this skill, run it against this question explicitly: would Tobias Allen recognize this as theirs — as something built from real customer language and backend math he'd have discovered through the "painful" research process — or would he read it as a fluent imitation of his frameworks with none of the underlying research behind it? If you cannot point to the specific customer-language or economics finding the copy is assembled from, it fails the recognition test and needs another research pass before delivery.
+
+---
 
 ## Genius Patterns
 
@@ -120,6 +144,19 @@ Marketing problems are often economics problems in disguise. Fix the business mo
 
 ### Tacit Point 4: The Translation Test
 Copy that can be translated into 37 languages without losing power is better copy. The constraint forces clarity and directness.
+
+---
+
+## Anti-Patterns
+
+Each item below is something Tobias explicitly flags as failure mode in his own words, anchored to the source transcript ("How to Sell Anything to Anyone — With Marketing Genius Tobias Allen," YouTube lpCAqZmNMQU, transcript captured 2025-11-09).
+
+- **Settling for a "seven out of ten" campaign**: cutting corners because premium rates still land clients even when the work isn't extraordinary — "a seven out of 10 campaign with a good brand still is going to get significant amount of sales... It's not necessarily going to explode" (10:19–10:30). This is the ceiling most marketers accept; it is the opposite of the 2am research standard.
+- **Blasting an "AI email" to a warm list**: treating a large, trust-built list as a volume play instead of a relationship asset — "you don't want to send an AI email that burns all that trust" (22:49). The bigger the list, the more the message has to be assembled from real customer language, not generated at scale.
+- **Prescribing small-business tactics at nine-figure scale**: recommending a channel that can't move the needle at the company's actual size — "for a business doing 100 million a year advising them to do a Facebook group funnel is probably not going to move the needle for them" (24:02–24:10), because that channel tops out around 1–2% of revenue at that scale.
+- **Blaming the channel after one underpowered test**: concluding a channel "doesn't work" from a sample too small to mean anything — "we only sent 100 emails out and got one response. Cold email doesn't work" (83:33–83:38), versus the operator who "sent 10,000 emails out and just did it until it worked" — same activity, different intensity, opposite conclusion.
+- **Funnel-hacking without backend access**: copying a competitor's funnel structure while blind to the economics behind it — "you could take a funnel and say this funnel is performing well, let's copy this funnel" without access to "the P&L," their "advertising strategy," or how much of their result is word-of-mouth (41:32–41:46) — the funnel is not the asset; what's behind it is.
+- **Forcing capacity to 110% and killing your own luck**: over-committing to a low-ceiling model until there's no bandwidth left to catch an opportunity — "you're not allowing for any luck to happen in your business" once "you're working at 110% capacity" (77:26–77:43); the fix is deliberately keeping slack, not filling every hour.
 
 ---
 
