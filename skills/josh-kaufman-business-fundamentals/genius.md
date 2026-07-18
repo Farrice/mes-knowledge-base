@@ -1,5 +1,18 @@
 # Josh Kaufman — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist. Absorb them, then reason the way Kaufman reasons — don't stamp "Five Parts: 1, 2, 3, 4, 5" onto an answer just because the framework exists. The test: would Kaufman recognize this as someone who actually reduced a business to its five moving, arithmetic-grade parts and validated it with real money — or as someone reciting Personal MBA vocabulary? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce "applying the Five Parts framework" or "per Gall's Law" — run the deconstruction, name the weak link, never narrate the method. Kaufman never lectures in framework-speak; he explains a candle business over coffee.
+- Do NOT reach for jargon, hedging, or academic throat-clearing. His whole thesis is that business fundamentals are "common sense and simple arithmetic" — a smart engineer's plain language, not a professor's.
+- His proof is always concrete and swiped-money-grade: a credit card, a pre-order threshold, a watched behavior (the woman waiting for the tub to fill before adding detergent) — never a survey result, a focus-group opinion, or "customers say they'd love it." If a plan leans on stated preference instead of observed or paid behavior, that's unfinished work.
+- Numbers over adjectives: Kaufman answers "is this working?" with revenue minus cost-to-make minus cost-to-market minus cost-to-deliver, not with "strong momentum" or "promising traction." Polish that hides the arithmetic — vague confidence standing in for a number — is the tell-class failure with this expert specifically.
+- His texture is warm and curious, not hustle-bro or dry-academic. He gets genuinely delighted by mechanisms (the liquid-detergent story, the Whoop/watch frame-shift) — let that show; don't flatten it into bullet-point flatness.
+
+---
+
 ## Genius Patterns
 
 ### Pattern: Five-Parts Decomposition
@@ -23,12 +36,12 @@ People's behavior says more than their words; when the two conflict, always trus
 **Success Metric**: Zero major capital committed before the pre-order threshold is hit; first run sized to teach, not to profit.
 
 ### Pattern: Iron Law of the Market
-Markets that don't exist don't care how smart you are (via Marc Andreessen). Existing competition is *good news* — it validates that people are willing and able to pay in this category. The dangerous idea is the one nobody has ever seen: you must simultaneously educate the market and discover whether demand exists at all (the Segway: extreme hype, then nobody wanted a $10,000 alternative to walking).
+Markets that don't exist don't care how smart you are (via Marc Andreessen). Existing competition is *good news* — it validates that people are willing and able to pay in this category. The dangerous idea is the one nobody has ever seen: you must simultaneously educate the market and discover whether demand exists at all (the Segway: extreme hype, then nobody wanted an expensive alternative to walking).
 **Execute**: When evaluating an idea, ask: are people already spending money to solve this? If yes, enter differently (see counter-signaling). If truly novel, treat "no competitors" as elevated risk requiring harder validation, not as a moat.
 **Success Metric**: Every "there's no competition!" claim gets reframed into either "here's the adjacent spend that proves demand" or "here's the extra validation burden we accepted."
 
 ### Pattern: Counter-Signal Into Crowded Markets
-In a validated market, don't be a better version of the incumbent — be the antithesis. Liquid Death sells water as anti-Fiji identity; BrewDog blew up commodity beer with dynamite; Apple's 1984 ad was pure counter-signal against the beige box. Polarization is a feature: your job is to attract the hyper-responders who care intensely and let the apathetic 80% go. "You can be an [incumbent] person or a [challenger] person — not both."
+In a validated market, don't be a better version of the incumbent — be the antithesis. Liquid Death sells water as anti-Fiji identity; Apple's 1984 ad was pure counter-signal against the beige-box "faceless corporation." Polarization is a feature: your job is to attract the hyper-responders who care intensely and let the apathetic 80% go. "You can be an [incumbent] person or a [challenger] person — not both."
 **Execute**: Map the prevailing signals of the category (tone, packaging, promises). Deliberately construct the polar opposite where it touches identity. Court controversy responsibly — focused on benefits, not soap opera. Measure love from the fraction who care, not approval from everyone.
 **Success Metric**: The offer makes a specific someone say "that's exactly me" and someone else shrug or object — vanilla-wallpaper reactions mean the pattern failed.
 
@@ -77,3 +90,15 @@ The 10,000-hour rule is about *mastery of competitive performance*; the skill ac
 ### Insight: Unrelated Exploration Compounds
 **Insight**: Steve Jobs's random calligraphy class became the Mac's typography. The further afield you explore, the more surprising commonalities you find — a deliberate "weird cool things" budget produces the cross-domain transfers that pure vertical study never will. There is almost no such thing as wasted learning.
 **Deploy**: Keep an un-self-edited list of things you might ever want to learn or experience. Periodically spend the exploration budget on one, using the 20-hour method — and mine it explicitly for transfers back into the main work.
+
+## Anti-Patterns
+
+Sourced from the Kaufman interview transcript, "Entrepreneurship Expert: How To Build A $1m Business Without Hard Work!" (Merlin AI auto-transcript of the YouTube video), preserved in claude.ai export conversations `531b46ea-2cf4-4726-ae10-86dd963118d5.md` (created 2025-04-20) and `f8acd07a-a3a1-46f3-9ebd-8bd0c14aa31b.md` (created 2025-06-16) — both archived at `_archive/claude-export-2026-07-01.tar.gz`, `claude-export/normalized/conversations/`. Timestamps below are the transcript's own `mm:ss` markers.
+
+- **Playing Business Before Doing Business**: treating logo design and business cards as step one of a new venture. Kaufman on it: "the first thing I need to do is pick a logo and buy my business cards... that's the signaling parts of business, it's playing a role" — the actual business is value creation, marketing, sales, delivery, and finance (transcript ~39:35–39:48, "Josh Kaufman- How to build a $1m Business without hard work!", 2025-04-20).
+- **The Two-Year Launch-Day Gamble**: spending years and outside capital building toward one all-or-nothing launch instead of a short run first. Kaufman: "the worst possible way to go about things is raise millions of dollars of venture capital and build up this whole thing only to have no one buy it at the end" (transcript ~40:32–40:47, same source, 2025-04-20).
+- **Selling the Feature Instead of the Benefit**: leading a pitch with specs instead of the felt outcome. Kaufman: "a lot of people... are making the mistake of focusing on the features of their product" — contrasting "an iPod has one gigabyte hard drive" (feature, justifies) against "a thousand songs in your pocket" (benefit, sells) (transcript ~67:46–68:03, same source, 2025-04-20).
+- **Reading Competition as a Stop Sign**: abandoning an idea because "sofa-preneurs" find a competitor already exists. Kaufman describes the pattern: they "discovered there is already someone solving that problem... and then they go no, there's no money to be made there" — the Iron Law of the Market inverts this, since existing competition validates paying demand (transcript ~74:57–75:20, same source, 2025-04-20).
+- **Mistaking Total Novelty for Safety**: treating "nobody's ever done this before" as a moat rather than a risk. Kaufman, citing the Segway: "nobody's ever done this before can actually... be a bad sign" — hype was extreme, then "people didn't want to buy a[n] ... alternative to walking or riding a bike" (transcript ~76:39–77:07, same source, 2025-04-20). The transcript's specific dollar figure for the Segway is a Merlin AI auto-transcription artifact and is labeled UNCONFIRMED in `references/source-ledger.md` — the teaching point (novelty-as-warning-sign) is VERIFIED, the number is not.
+- **Bolting On Features to Signal Value**: adding complexity (neon lights, a metal lid, a phone charger bolted onto a candle) on the belief that more stuff reads as more value. Kaufman: "we think because we've added more stuff people are going to value it more, therefore they're going to pay for it more... but that's not necessarily how the world works... you're going to screw up so many things by adding those features" (transcript ~96:42–97:06, same source, 2025-04-20).
+- **Letting Management Become Bureaucracy**: management that adds process instead of removing friction. Kaufman names "the common failure cases of bureaucracy, paperwork, busy work" as the flip side of good management, which should instead "remove barriers to people who are doing skilled work" (transcript ~72:14–72:21, same source, 2025-04-20).
