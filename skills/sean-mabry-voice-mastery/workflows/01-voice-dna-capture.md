@@ -130,6 +130,10 @@ Compile everything into a deployable Voice DNA Document:
 8. **Voice Don'ts** (what breaks fidelity at EVERY layer — surface, belief, AND cognitive)
 9. **Calibration Plan** (4-week timeline with cognitive architecture practice milestones)
 
+## Output Schema
+
+Single deployable **Voice DNA Document** (markdown, one file per client) containing exactly the nine numbered sections built in Phase 6, in that order: (1) Voice Identity Summary — 3-5 sentences; (2) Surface Layer — speech patterns + energy signature as bulleted sub-fields; (3) Controversy Line Map — three-row table (Flag-plant / Nuanced / No-go) with at least one real example per zone; (4) Value Hierarchy — ranked list, 5 entries, most-fundamental to most-contextual; (5) Story Bank — two labeled sub-lists, "Their Picks" and "Hidden Gems," Hidden Gems entries outnumbering Their Picks at the target 2:1 ratio or the gap is named; (6) Cognitive Architecture Profile — three fields (Argument Pattern with Primary/Secondary and a ratio like "70/30," Humor Logic, Vulnerability Architecture), each populated from Phase 4, never left as the template placeholder; (7) 10 Predictions — each following the Phase 5 six-line block (Open with / Navigate tension by / Go personal at / Land on / Controversy zone / Confidence) with no field skipped; (8) Voice Don'ts — a bulleted list covering surface, belief, and cognitive breaks (minimum one item per layer); (9) Calibration Plan — a 4-week timeline with a named milestone per week. If source material is thin (<3 pieces), the document still ships all nine sections but Section 6 and its dependent Section 7 predictions are marked "provisional — confirm after first review call" per Creative Latitude below, never silently omitted.
+
 ## Quality Gate
 
 The Voice DNA Document passes when:

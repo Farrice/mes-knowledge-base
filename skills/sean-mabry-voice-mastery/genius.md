@@ -2,6 +2,16 @@
 
 > Load this file before deploying any Mabry workflow. These are the thinking patterns that make his voice methodology work — the how-he-thinks, not just what-he-does.
 
+## How to Use This Skill (Model Calibration)
+
+These six patterns are intuition primitives, not a checklist to run top-to-bottom. Absorb the Prediction Discipline until you can generate a plausible stance for a client on a topic they've never touched — never narrate the framework on the page. If the output labels its own moves ("Applying Pattern 2: Controversy Line Map," "Deploying the Hidden Gem Collector"), you have failed before you started — Mabry's whole craft is that the client never sees the machinery, only the "sounds like me" recognition when they read it back. The test: would Mabry recognize this as a genuine prediction generated from an internalized mental model of how the client thinks — or as someone reciting his vocabulary (voice DNA, controversy line, hidden gems) on top of generic ghostwriting? If it's the second, rebuild from the source material, not the framework.
+
+Specifically:
+- Do NOT output a labeled "Controversy Line Map: Flag-plant / Nuanced / No-go" table inside a piece of live writing — that table is a capture-phase artifact (see `workflows/01-voice-dna-capture.md`). In actual copy, the boundaries should be invisible, felt only in what the piece does and doesn't say.
+- Do NOT hedge a prediction with "I'm not fully sure how they'd phrase this." Mabry's discipline is to commit to the guess and let the client's correction do the calibration work — a hedged prediction produces no signal and teaches the model nothing.
+- His texture is measured, not hyped — a decade of in-house copywriting and B2B ghostwriting, not a guru voice selling a system. Predictions and voice documents should read like a colleague's confident, specific guess, never like a sales pitch for the methodology itself.
+- Polish is the tell-class failure here: a grammatically flawless, "voice-accurate"-sounding draft that could have been written about any client in the niche has captured *style*, not *voice*. Real voice DNA shows up in the argument-construction pattern, humor deployment logic, and vulnerability architecture (Phase 4 of `workflows/01-voice-dna-capture.md`) — if a draft is swappable between two different clients in the same niche, it hasn't cleared the bar.
+
 ## Pattern 1: The Prediction Discipline
 
 **Core Insight**: Voice mastery isn't research → replicate. It's research → **predict** → calibrate.
@@ -73,11 +83,24 @@ Everything above exists because voice writing is the one copywriting lane that A
 
 ---
 
+## Anti-Patterns (Sourced)
+
+Each anti-pattern below is drawn directly from Mabry's own words in the extraction interview, not inferred or reconstructed. Every quote below was confirmed by direct string search against the source file. Full claim-by-claim ledger in `references/source-ledger.md`.
+
+- **Compressing workhorse speed too fast** — jumping straight from an hour-long email draft to a 15-minute one instead of stepping down in small increments is the exact mistake he watches "newbie copyrighters" make. Source: `extractions/sean-mabry/transcript.txt` (97,575 bytes, full text read, ~word 5,509 of ~18,827, no timestamps in source), extracted 2026-03-15 — verbatim: "I didn't try to go from taking an hour to taking 15 minutes. That's insane. Like um like you're you're just going to spin out."
+- **Applying the 80%-is-good-enough delegation standard to voice work** — treating voice writing like ordinary business delegation, where the Harvard rule says 80% competent execution is acceptable. Source: `extractions/sean-mabry/transcript.txt` (~word 4,149), extracted 2026-03-15 — verbatim: "I've never met anyone really who's willing to settle for 80%."
+- **Taking generic "be polarizing" advice without mapping the Controversy Line first** — young copywriters apply blanket abrasiveness advice instead of finding where a specific client actually plants flags, engages with nuance, or won't go at all. Source: `extractions/sean-mabry/transcript.txt` (~word 2,365), extracted 2026-03-15 — verbatim: "this is something I see a lot of young copyriters... they get the advice like, 'Oh, be polarizing. You know, you got to be abrasive. You got to be whatever.'"
+- **Leading a debut book with a "crunchy tactical," no-fluff manual** — starting with tactics instead of a memoir is the exact misconception Mabry says he has to "disentangle" with nearly every new client before Authorship Pyramid work can begin. Source: `extractions/sean-mabry/transcript.txt` (~word 15,051), extracted 2026-03-15 — verbatim: "a lot of times people want to start with a book that's like super tactical, right? Like, ah, like no fluff... And the problem with that is it ignores the reality of what people are looking for in a book."
+- **Treating a bought template pack as a substitute for a real creative/voice layer** — a strategy he calls dead going into 2026. Source: `extractions/sean-mabry/transcript.txt` (~word 12,079), extracted 2026-03-15 — verbatim: "hey, I bought this pack of templates, right? ... to the degree that that was ever a viable strategy which is very debatable um not in 2026."
+- **Defaulting to the classic "handwrite sales letters" exercise for voice calibration** — the standard copywriting-fundamentals drill is the wrong tool for voice; he found it didn't transfer and switched to handwriting the client's own material instead. Source: `extractions/sean-mabry/transcript.txt` (~word 3,308), extracted 2026-03-15 — verbatim: "I didn't handwrite sales letters. You know, that's like the typical exercise that you use to start writing. I didn't really find handwriting helped me so much when I was learning the fundamentals of copyrightiting."
+
+---
+
 ## Hall of Fame Exemplars
 
 ### Exemplar 1: The "100M Offers" Book Strategy (Alex Hormozi)
 **Description**: Alex Hormozi's first book, "$100M Offers," isn't a dry tactical manual for advanced entrepreneurs. Instead, it starts with a clear, accessible philosophy and a compelling journey, targeting the "dreamers" and aspirational entrepreneurs at the base of the industry pyramid. It simplifies complex ideas and positions Hormozi as a guide, not just a guru. This approach made the book a viral phenomenon, creating a massive base of evangelists that then drew the attention of elite peers and partners.
-**What makes this excellent**: This perfectly executes Mabry's **Authorship Pyramid** (Pattern 4). By focusing on the base, it built influence from the ground up, a strategy far more effective for a first-time author than starting with advanced tactics. It demonstrates the power of leading with a memoir-like journey (even if business-focused) to generate widespread resonance.
+**What makes this excellent**: This perfectly executes Mabry's **Authorship Pyramid** (Pattern 4). By focusing on the base, it built influence from the ground up, a strategy far more effective for a first-time author than starting with advanced tactics. It demonstrates the power of leading with a memoir-like journey (even if business-focused) to generate widespread resonance. **Provenance note**: Hormozi is named directly in the transcript ("Alex Hormozi, Dan Martell — this is exactly the pattern they executed") as an example Mabry references live, but the specific "$100M Offers" analysis in this exemplar is an editorial elaboration built on public knowledge of the book, not a verbatim Mabry quote — see `references/source-ledger.md`.
 
 ### Exemplar 2: The "Controversy-Calibrated" Response (Reconstructed)
 **Description**: A ghostwritten newsletter addressing a recent industry shift. The client is known for strong opinions on market trends, but this specific shift involves sensitive ethical considerations where their brand needs to appear thoughtful. The piece opens with a bold, "flag-plant" statement aligning with the client's core values, then transitions into a nuanced discussion of the ethical complexities, acknowledging multiple perspectives without taking a definitive hard stance on the sensitive issue itself. It conspicuously avoids commenting on a highly polarizing sub-topic related to the shift, which the client has never publicly engaged with.
@@ -89,7 +112,7 @@ Everything above exists because voice writing is the one copywriting lane that A
 
 ### Anti-Exemplar: The "Tactical-Only" Debut Book
 **Description**: A first-time author, an expert in a niche technical field, publishes a book titled "Advanced Strategies for X." The book is dense with highly specific, step-by-step instructions and frameworks, targeting only other seasoned professionals in their field. It contains no personal journey, no philosophical underpinning, and assumes a high level of prior knowledge. While technically accurate, it struggles to gain traction outside of a small professional circle.
-**What makes this mediocre**: This violates Mabry's **Authorship Pyramid** (Pattern 4). By starting with a purely tactical book, the author targeted only the "middle" of the pyramid, failing to inspire the "dreamers" at the base. This limits evangelism and influence, making it harder to reach the "top" of the pyramid who respond to broad impact, not just niche expertise.
+**What makes this mediocre**: This violates Mabry's **Authorship Pyramid** (Pattern 4). By starting with a purely tactical book, the author targeted only the "middle" of the pyramid, failing to inspire the "dreamers" at the base. This limits evangelism and influence, making it harder to reach the "top" of the pyramid who respond to broad impact, not just niche expertise. **Provenance note**: This is a composite illustration built from Mabry's live "crunchy tactical book" critique (see Anti-Patterns above) — not a description of a real published book.
 
 ## Signature Moves
 
