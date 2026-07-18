@@ -12,6 +12,18 @@ Where Modules 1-2 define the *philosophy* of premium (exclusionary tension, narr
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These 17 patterns are intuition primitives, not a checklist. Absorb the spreadsheet-first discipline, the research-before-creative sequencing, the composition physics — then build originally for the brand in front of you. If the output mechanically stamps "Pattern 1: PFRE, Pattern 2: CDP..." in order, you have failed. The test: would Omar recognize this as *someone protecting a client's ad budget with math before touching a headline* — or as someone reciting his framework names while the client's spend burns? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which patterns or moves you applied unless asked. Execute the profit gate, the 4-prompt research split, the 4-line grid — never announce the machinery ("Applying Pattern 9: Composition Physics...").
+- Do NOT skip straight to creative. Omar's operational philosophy is sequence-dependent: profit math before research, research before avatars, avatars before hooks, hooks before composition. Reordering the sequence to save time is the fastest way to produce work he wouldn't recognize as his.
+- His texture is numbers-anchored and confrontational-with-the-spreadsheet, not academic. He teaches through failed math (*"if it doesn't make sense, it better not make sense on the Google Sheet"*) and real client admissions (the $250K/month brand that told him bluntly it didn't know its own customers), not through abstracted theory. Keep dollar amounts, percentages, and named tools (SEMrush, Figma, Meta/Andromeda) concrete — vague "optimize your funnel" language is the tell that the machinery leaked through.
+- Polish-is-the-tell here too, inverted from a storyteller's polish: Omar's polish IS the spreadsheet rigor and the 1-second self-test on a static. A deliverable with no profit math attached, no customer-language citations, and no visual hierarchy audit reads as generic strategist output — not Omar's.
+
+---
+
 ## The 17 Genius Patterns
 
 ### Operational Layer
@@ -60,14 +72,14 @@ Where Modules 1-2 define the *philosophy* of premium (exclusionary tension, narr
 
 #### 7. Three-Layer Ad Infrastructure (3LAI)
 - **What he does unconsciously**: Knows premium brands need founder trust signal that UGC creators cannot deliver. Treats portfolio diversity as mathematical requirement for Andromeda.
-- **The portfolio**: UGC (5-10 variations: different creators × hooks × angles) + Static images + Founder Ads. UGC = mental imagery of using product. Statics = clean headline + product shot + clean aesthetic. Founder ads = trust layer UGC alone cannot provide.
+- **The portfolio**: UGC (5-10 variations: different creators × hooks × angles) + Static images + Founder Ads. UGC = mental imagery of using product. Statics = clean headline + product shot + clean aesthetic. Founder ads = trust layer UGC alone cannot provide — *"for a premium business, this builds an additional layer of trust that UGC alone cannot build by itself."*
 - **Executable behavior**: Launch matrix at minimum: 10 UGC × 5 Founder × 10 Static. Andromeda-friendly variation across angles within each type.
 - **Deployment**: Launch + scale phases
 - **Success metric**: Statistical significance per ad type, clear winners emerge from portfolio
 
 #### 8. Awareness Pyramid Scaling Theory
 - **What he does unconsciously**: Treats CAC inflation as awareness-level problem, not bid problem.
-- **The pyramid**: Most-aware crowd is small at top; unaware is broad base. Targeting only most-aware caps CAC mathematically. Sustainable scale requires perpetually CONVERTING unaware → solution-aware → most-aware via different creative for each tier.
+- **The pyramid**: Most-aware crowd is small at top; unaware is broad base — *"at the top is your most aware, at the bottom of the base of the pyramid is where you have the unaware crowd that don't know you exist, they don't know they have a problem, they don't know a solution exists."* Targeting only most-aware caps CAC mathematically.
 - **Executable behavior**: Map each ad to awareness stage (Schwartz ladder). Diversify portfolio across pyramid. Build unaware → solution-aware bridge content.
 - **Deployment**: Scale phase ($500/day → multi-figure spend)
 - **Success metric**: CAC stable or decreasing as spend increases
@@ -75,36 +87,36 @@ Where Modules 1-2 define the *philosophy* of premium (exclusionary tension, narr
 ### Visual Layer
 
 #### 9. Composition Physics — The 4-Line Grid
-- **What he does unconsciously**: Treats ad design as photographic problem, not graphic-design problem. Knows the eye's resting points are predictable.
+- **What he does unconsciously**: Treats ad design as photographic problem, not graphic-design problem. Knows the eye's resting points are predictable — the rule borrowed straight from photography: *"draw these four lines on top of it... you might know this rule from photography which tells you like, hey, use this grid."*
 - **The principle**: Before designing, draw 4 guide lines on canvas (rule-of-thirds-style grid). Place key elements ON the lines or at intersections.
 - **Executable behavior**: Open Figma → add 4-line grid overlay → place focal point on intersection → align secondary elements to lines
 - **Deployment**: Every static ad design
 - **Success metric**: Eye lands on focal point in <0.3s
 
 #### 10. Focal Point Optics
-- **What he does unconsciously**: Refuses to let badges, offers, or hierarchy-noise compete with product. Information hierarchy serves visual hierarchy.
+- **What he does unconsciously**: Refuses to let badges, offers, or hierarchy-noise compete with product. Information hierarchy serves visual hierarchy. Borrows the term directly from physics — *"the focal point is exactly where your eye lands when it is focusing on the image."*
 - **The rule**: For ecommerce ads, focal point MUST be the product. Lines + text + blank space all engineered to guide eye toward it.
-- **Executable behavior**: Test ad on yourself for 1 second. What did you see first? If not product → rebuild.
+- **Executable behavior**: Test ad on yourself for 1 second — *"what is the first thing that you notice in this image?"* If not product → rebuild.
 - **Deployment**: Every product-led static
 - **Success metric**: First-element-detected = product
 
 #### 11. Color Contrast Engineering
-- **What he does unconsciously**: Treats color as variation lever for batch creative production while preserving brand.
+- **What he does unconsciously**: Treats color as variation lever for batch creative production while preserving brand — primary colors "can get boring design-wise for the customer, for the eye," so secondary palettes carry the variation load.
 - **The technique**: Brand primary colors get boring → introduce secondary colors (color-wheel inverse OR achromatic black/white/gray) to create contrast and depth without breaking brand. Slight modifications of secondary palette = new ad variations from same template.
 - **Executable behavior**: Define primary palette → build 3 secondary palettes (warm/cool/achromatic shifts) → spawn variations
 - **Deployment**: Batch creative production
 - **Success metric**: Family resemblance + variation simultaneously
 
 #### 12. Authority Hijacking
-- **What he does unconsciously**: Knows authority is contextual — Clooney sells coffee but not skincare. Niche-relevant authority compounds.
+- **What he does unconsciously**: Knows authority is contextual — Clooney sells Nespresso coffee ("a discerning coffee lover, someone that embodied the lifestyle") but not every category transfers. Niche-relevant authority compounds.
 - **The principle**: Insert admired/aspirational figure to bypass skepticism via trust transfer. Niche micro-influencer > out-of-context celebrity for conversion.
 - **Executable behavior**: Build authority list per niche (publications, micro-influencers, recognized practitioners). Test in social proof slot.
 - **Deployment**: Trust-building creative
 - **Success metric**: Skepticism-defense breached, CTR up
 
 #### 13. Visual Hierarchy 3-Element Rule
-- **What he does unconsciously**: Tests creative on himself first — *"What's the first thing I see? Second? Third?"* — rearranges until match intent.
-- **The architecture**: Primary (focal point — biggest, brightest, highest contrast) + Secondary (context — supports primary, adds key message) + Tertiary (proof — testimonials, ratings, badges, publications)
+- **What he does unconsciously**: Tests creative on himself first — *"what is the first thing that you notice"* — rearranges until match intent.
+- **The architecture**: Primary (focal point — biggest, brightest, highest contrast) + Secondary (context — supports primary, adds key message) + Tertiary (proof — testimonials, ratings, badges, publications). His own framing: *"in visual hierarchy there are three elements: the primary element, the secondary element, and the tertiary element."*
 - **The rules**: Bigger = more attention. Brighter/more saturated/contrasting = eye-pull. Bold text guides eye but disrupts hierarchy if overused.
 - **Executable behavior**: 1-2-3 audit on every draft. Self-test until order matches engineered intent.
 - **Deployment**: Final pass before launch
@@ -113,29 +125,29 @@ Where Modules 1-2 define the *philosophy* of premium (exclusionary tension, narr
 ### Tactical/Teardown Layer
 
 #### 14. Semantic Reversal as Pattern Interrupt
-- **What he does unconsciously**: Knows familiar phrases produce skim; reversal produces stop. Reversal also encodes positioning shift in 6 words.
-- **The technique**: Flip a familiar phrase to force re-reading. Whoop's *"Add more life to your years"* inverts *"Add more years to your life"* — repositioning the brand from longevity-tracker to vitality-tool.
+- **What he does unconsciously**: Knows familiar phrases produce skim; reversal produces stop. Reversal also encodes positioning shift in six words.
+- **The technique**: Flip a familiar phrase to force re-reading. Whoop's *"add more life to your years"* inverts the traditional saying *"add more years to your life"* — repositioning the brand from longevity-tracker to vitality-tool.
 - **Executable behavior**: Identify your category's most familiar phrase → invert → test if inversion reframes positioning meaningfully
 - **Deployment**: Hero copy, brand taglines
 - **Success metric**: Re-read rate, brand association shift
 
 #### 15. Voluntary Hardship Aesthetic (VHA)
-- **What he does unconsciously**: Treats ad aesthetic as ICP filter — the people who don't recognize voluntary hardship as desirable aren't your customers.
-- **The principle**: Visceral discomfort visuals (ice baths, frozen lakes, snow, dark water, dawn workouts) signal subculture identity. The audience that finds it appealing is the audience you want; everyone else self-selects out. Add a smile to convert "punishment" imagery into "chosen difficulty" imagery.
+- **What he does unconsciously**: Treats ad aesthetic as ICP filter — the people who don't recognize voluntary hardship as desirable aren't your customers. He names the ice-bath visual as deliberate, not decorative: *"the visual of an ice bath... signals a specific subculture that appeals [to] a specific type of customer, a customer that understands the benefits."*
+- **The principle**: Visceral discomfort visuals (ice baths, frozen lakes, snow, dawn workouts) signal subculture identity. The audience that finds it appealing is the audience you want; everyone else self-selects out. Add a smile to convert "punishment" imagery into "chosen difficulty" imagery — *"the hard environment contrasts with her smile."*
 - **Executable behavior**: Identify your ICP's voluntary-hardship signature (early mornings? cold exposure? long focus? ascetic eating?) — show it in your aesthetic.
 - **Deployment**: Identity-led brands (wellness, performance, productivity, men's grooming, fitness)
 - **Success metric**: Self-selection works — wrong audiences scroll, right audience leans in
 
 #### 16. Daily-Cost Reframing
-- **What he does unconsciously**: Manipulates anchor frame without changing the underlying offer. Uses material vocabulary (glass, vial vs. plastic, tube) to maintain premium even at low-price-encoding.
-- **The technique**: For subscription/high-ticket products, frame cost as daily cost ("$2/day") not monthly/annual total. Same dollar amount, different psychological encoding. Stack physical bonuses with luxury terms (glass jar, travel vial — never "free plastic gift").
+- **What he does unconsciously**: Manipulates anchor frame without changing the underlying offer. Uses material vocabulary (glass jar, travel vial vs. plastic) to maintain premium even at low-price-encoding — *"even the glass jar and the travel vial... those don't feel like cheap gifts... it's not plastic, it's glass."*
+- **The technique**: For subscription/high-ticket products, frame cost as daily cost (Seed's "$2 a day" angle) not monthly/annual total. Same dollar amount, different psychological encoding. Stack physical bonuses with luxury terms.
 - **Executable behavior**: Always offer dollar-encoding options before launch. Test daily vs. weekly vs. monthly framing. Use material-luxury vocabulary in bonuses.
 - **Deployment**: Subscription products, high-ticket offers, retargeting
 - **Success metric**: Subscription start rate, perceived no-brainer offer
 
 #### 17. Taboo + Premium Aesthetic Contrast
 - **What he does unconsciously**: Knows premium aesthetic is the LICENSE for taboo positioning. Premium without taboo = predictable. Taboo without premium = cheap.
-- **The principle**: Use blunt taboo language as pattern interrupt headline (Seed's "pooping" reference) ONLY when premium aesthetic balances it (dark green jar, clear capsules, white background).
+- **The principle**: Use blunt taboo language as pattern interrupt headline (a gut-health supplement's blunt "pooping" reference) ONLY when premium aesthetic balances it (dark green jar, clear capsules, white background).
 - **Executable behavior**: For "ugly" categories (gut health, hair loss, oral health, intimate wellness) — design premium aesthetic FIRST, then deploy blunt language. Refuse to use blunt language without premium aesthetic.
 - **Deployment**: Necessity-categories that competitors hide behind euphemism
 - **Success metric**: Pattern interrupt without positioning collapse
@@ -144,23 +156,23 @@ Where Modules 1-2 define the *philosophy* of premium (exclusionary tension, narr
 
 ## Hidden Knowledge (9 Tacit Insights)
 
-1. **Brand Failures Are Knowledge Failures, Not Product Failures** — *"The brands that fail don't fail because they have a bad product. They fail because they don't have these fundamentals in place."* Quote: a brand doing $250K/month told Omar bluntly, *"We actually don't know who our customers are."* The ceiling isn't product quality — it's customer knowledge.
+1. **Brand Failures Are Knowledge Failures, Not Product Failures** — *"The brands that fail don't fail because they have a bad product. They fail because they don't have these fundamentals in place."* Quote: a brand doing $250K/month told Omar bluntly, *"we actually don't know who our customers are."* The ceiling isn't product quality — it's customer knowledge.
 
-2. **Marketing as Educated Guessing** — *"Marketing is a guess game and the best marketers are the best at guessing — and the way you get good at guessing is you educate yourself on who you're guessing about."* Reframes marketing skill as research skill.
+2. **Marketing as Educated Guessing** — *"marketing is a guess game and the best marketers are the best at guessing and the way you get good at guessing is you educate yourself on who you're guessing about."* Reframes marketing skill as research skill.
 
-3. **The Translation Device Frame** — Premium brands turn products into "translation devices" — Aura translates body data into readiness scores. The product converts complexity → readability. This is the premium positioning vector for any data/feature-rich category.
+3. **The Translation Device Frame** — Premium brands turn products into "translation devices" — Aura translates body data into a readiness score. The product converts complexity → readability. This is the premium positioning vector for any data/feature-rich category.
 
-4. **Voluntary Hardship + Smile Contrast** — *"Hard environment contrasts with her smile."* The smile in cold-bath aesthetic isn't accidental — it's the discipline-but-joyful signal that earns the ICP. Without the smile, it's punishment imagery; with it, it's chosen-difficulty imagery.
+4. **Voluntary Hardship + Smile Contrast** — *"the hard environment contrasts with her smile."* The smile in cold-bath aesthetic isn't accidental — it's the discipline-but-joyful signal that earns the ICP. Without the smile, it's punishment imagery; with it, it's chosen-difficulty imagery.
 
 5. **The 90/10 Research Rule** — *"I always prefer that you do 90% of the effort, you direct it to research."* Actual creative production gets 10% of effort if research was done. Inverts the typical agency split.
 
-6. **The Statue of Liberty Scroll** — *"The average user on Meta scrolls the length of the Statue of Liberty every single day."* Quantifies attention scarcity to justify pattern-interrupt design discipline.
+6. **The Statue of Liberty Scroll** — *"the average user on Meta, Instagram, all of these platforms scrolls the length of the Statue of Liberty every single day."* Quantifies attention scarcity to justify pattern-interrupt design discipline.
 
-7. **Premium = Translation, Not Specification** — Aura "doesn't dump data on you." Premium brands hide spec complexity, surface insights. Spec sheets are commodity-tier.
+7. **Premium = Translation, Not Specification** — Aura "doesn't just dump data on you. They turn it into a readiness score." Premium brands hide spec complexity, surface insights. Spec sheets are commodity-tier.
 
-8. **Founder Ads as Trust Beyond UGC** — For premium brands, UGC alone cannot build trust. Founder presence provides "additional layer of trust UGC alone cannot build" — answers the implicit "who's behind this?" question.
+8. **Founder Ads as Trust Beyond UGC** — For premium brands, UGC alone cannot build trust. Founder presence provides "an additional layer of trust that UGC alone cannot build by itself" — answers the implicit "who's behind this?" question.
 
-9. **The Iteration Anchor Principle** — *"Each iteration builds off of the previous one... a feedback loop... every iteration is built on the feedback they're receiving from your market."* Ad system as compounding evolution, not one-shot creation.
+9. **The Iteration Anchor Principle** — *"each iteration builds off of the previous one... every iteration is built on the feedback they're receiving from your market."* Ad system as compounding evolution, not one-shot creation.
 
 ---
 
@@ -168,7 +180,8 @@ Where Modules 1-2 define the *philosophy* of premium (exclusionary tension, narr
 
 ### Exemplar 1: Whoop's "Add More Life to Your Years"
 - **The work**: Hero ad with semantic-reversed slogan, ice-bath aesthetic, smiling subject, product hidden on wrist
-- **Why HOF-worthy**: Three patterns stacked in one creative — semantic reversal (positioning shift in 6 words) + voluntary hardship aesthetic (ICP filter) + product-as-witness (Rolex Channel-swimmer logic). The product DISAPPEARS to amplify identity.
+- **The line**: *"Add more life to your years"* — a six-word inversion of the traditional saying, *"add more years to your life."*
+- **Why HOF-worthy**: Three patterns stacked in one creative — semantic reversal (positioning shift in six words) + voluntary hardship aesthetic (ICP filter) + product-as-witness (Rolex-adjacent authority logic). The product DISAPPEARS to amplify identity.
 - **Replicable lesson**: Premium products earn the right to disappear. The lifestyle frame does the selling; the product appears as artifact.
 
 ### Exemplar 2: Aura Ring's "Translation Device" Ads
@@ -176,13 +189,13 @@ Where Modules 1-2 define the *philosophy* of premium (exclusionary tension, narr
 - **Why HOF-worthy**: Repositions a fitness-tracker category from gadget → jewelry → translation device. Three distinct positioning moves layered. Hides spec complexity, surfaces only insight outputs.
 - **Replicable lesson**: Data products that aspire to premium must hide data, surface insight. Show what the customer LEARNS, not what they MEASURE.
 
-### Exemplar 3: Seed's "$2/Day + Taboo + Premium Aesthetic" Stack
+### Exemplar 3: Seed's "$2 a Day + Taboo + Premium Aesthetic" Stack
 - **The work**: Subscription supplement ad with daily-cost reframe, blunt physiological language, dark-green/glass premium aesthetic, stacked bonus list (glass jar, travel vial)
 - **Why HOF-worthy**: Survives the "premium-or-mass-market?" trap. Most brands choose one — Seed runs both lanes simultaneously by using premium aesthetic as license for blunt language and bonus stacking.
 - **Replicable lesson**: Premium aesthetic is the constant; tactical levers (price reframe, taboo, bonuses) become add-ons rather than positioning compromises.
 
 ### Exemplar 4: The Eczema Skin Set Ad (Omar's own work)
-- **The work**: Hand-holding-product creative, "fixes the root cause: leaky gut" headline, dermatologist social proof, multiple objections handled in headline copy
+- **The work**: Hand-holding-product creative, mechanism headline reframing eczema as a gut-origin issue ("this product fixes the root cause, which is your gut actually leaking"), dermatologist social proof, multiple objections handled in headline copy
 - **Why HOF-worthy**: Counter-positioned in a sophisticated market (eczema/skincare) with a counterintuitive mechanism story (skin issue → gut origin). Handled 4+ objections in the visual itself, reducing website-conversion burden.
 - **Replicable lesson**: In sophisticated markets, mechanism counter-positioning + objection-handling-in-creative = breakthrough static.
 
@@ -222,15 +235,15 @@ Where Modules 1-2 define the *philosophy* of premium (exclusionary tension, narr
 
 ### Mode 1: New Brand Launch
 Sequence: PFRE → Customer Research Stack → Avatar Trigger Map → Three-Layer Launch Portfolio
-Time: 2-3 weeks pre-launch
+Time: 2-3 weeks pre-launch (10-21 days end-to-end, including the 5-competitor research pass)
 
 ### Mode 2: Stuck Brand Diagnostic
 Sequence: PFRE audit → Customer Research Stack → White Space Map → identify 1-3 highest-impact pivots
-Time: 1 week diagnostic, then targeted intervention
+Time: 1 week diagnostic (10-14 business days for a full audit-to-pivot cycle), then targeted intervention
 
 ### Mode 3: Scale Phase Optimization
 Sequence: Awareness Pyramid Audit → identify gap stage → produce stage-matched creative → measure
-Time: Weekly cadence during scale ramp
+Time: Weekly cadence during scale ramp ($500/day → $5,000/day+ spend range is where CAC inflation typically first appears)
 
 ### Mode 4: Visual System Build
 Sequence: Composition System → batch produce 10 statics → Self-Test Audit → ship
@@ -244,14 +257,14 @@ Time: 1 week build, ongoing usage
 
 ## Anti-Patterns (Never Do)
 
-1. **Skipping the spreadsheet** — *"if it doesn't make sense, it better not make sense on the Google Sheet rather than you spending thousands of dollars in ads"*
-2. **Mega-prompt research** — bundling pain points + benefits + objections + sentiment into one AI prompt produces shallow output across all four
-3. **70-page avatar reports** — nobody reads them; the avatar becomes theoretical instead of operational
-4. **Hierarchy-noise statics** — letting badges, multiple offers, or screaming headlines compete with the product
-5. **Identity-less creative** — running ads with no clear ICP filter (everyone's a potential customer = nobody's a potential customer)
-6. **Awareness-stage blindness** — assuming most-aware copy works on unaware traffic
-7. **Iteration amnesia** — each launch from scratch instead of building the flywheel
-8. **Taboo without aesthetic** — using blunt physiological language without the premium aesthetic license
+1. **Skipping the spreadsheet** — *"if it doesn't make sense, it better not make sense on the Google Sheet rather than you spending thousands of dollars in ads"* (transcript, extractions/omar-eddaoudi/module_3/01_zero_to_seven_figures.txt)
+2. **Mega-prompt research** — bundling pain points + benefits + objections + sentiment into one AI prompt produces shallow output across all four; Omar tested it directly — *"I tested this and I found that having one prompt per objective is much better than having a prompt that has like all the requirements and all these instructions built in it and it just confuses"* the output (transcript, extractions/omar-eddaoudi/module_3/01_zero_to_seven_figures.txt)
+3. **70-page avatar reports** — nobody reads them; the avatar becomes theoretical instead of operational — *"I see all these reports being like 70 pages long but nobody reads them. I just need one page with all this condensed data. It's like condensed juice."* (transcript, extractions/omar-eddaoudi/module_3/01_zero_to_seven_figures.txt)
+4. **Hierarchy-noise statics** — letting badges, multiple offers, or screaming headlines compete with the product; his own framing of the fix — *"you don't want them to get lost in the hierarchy of information that they need to consume"* (transcript, extractions/omar-eddaoudi/module_3/03_static_ad_design_principles.txt)
+5. **Identity-less creative** — running ads with no clear ICP filter (everyone's a potential customer = nobody's a potential customer); pattern inferred from the ICP-targeting emphasis running through the module_3 transcripts — no single line isolates this failure mode verbatim, so treat the phrasing itself as UNCONFIRMED even though the underlying principle (ICP filtering) is source-grounded (transcript, extractions/omar-eddaoudi/module_3/01_zero_to_seven_figures.txt)
+6. **Awareness-stage blindness** — assuming most-aware copy works on unaware traffic; Omar's own framing — *"at the top is your most aware, at the bottom of the base of the pyramid is where you have the unaware crowd that don't know you exist, they don't know they have a problem"* (transcript, extractions/omar-eddaoudi/module_3/01_zero_to_seven_figures.txt)
+7. **Iteration amnesia** — each launch from scratch instead of building the flywheel — *"each iteration builds off of the previous one"* (transcript, extractions/omar-eddaoudi/module_3/01_zero_to_seven_figures.txt)
+8. **Taboo without aesthetic** — using blunt physiological language without the premium aesthetic license; his Seed teardown names the contrast directly — blunt "pooping" language balanced against "the dark green jar, the clear green capsules, the white background" (transcript, extractions/omar-eddaoudi/module_3/02_wellness_ad_teardown.txt)
 
 ---
 
