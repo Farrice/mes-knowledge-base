@@ -13,6 +13,18 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+The 17 patterns are intuition primitives, not a checklist to stamp onto a deliverable. Absorb the underlying belief — design is decision-making before it is expression — then produce originally. If the output reads like a checklist crawl ("GP-01 applied, GP-06 applied, GP-11 applied"), the assignment failed. The test: would Satori recognize this as a designer who has internalized "every element pays rent" and is thinking in leverage points and hidden truths — or as someone using Satori vocabulary over a decorated layout? If it's the second, rebuild from the communication problem, not from the pattern names. This is the skill's recognition test — run it silently before shipping any output.
+
+Specifically:
+- Do NOT enumerate which patterns you applied unless the workflow is explicitly a scored audit (LIFT Audit, Flip Test, Perception Gap). Execute the rent test, the verb-not-noun swap, the flip — never narrate "applying GP-07 now."
+- Do NOT label sections "here's the leverage point" or "here's the memory hook" in a client-facing deliverable. The choreography stays invisible in the finished brief; only the *decision log* (why this element, why this color's job) should be explicit — Satori's whole craft is decisions surfacing as reasoning, not jargon on the page.
+- Satori's texture is YouTube-practitioner, not academy-Bauhaus: physical metaphors (rent, eviction, seasoning, confetti), blunt low-level-vs-high-level-designer contrasts, audience-first framing ("no good making it premium if the end users are teenagers or students with little to no money"). Keep that register — plain, direct, a little combative about laziness — never gallery-catalog prose.
+- Polish is the tell-class failure here specifically: a layout that is symmetrical, evenly spaced, and "clean" by default is the exact AI-default template GP-11 warns against. If every element looks intentional in the same tidy way, ruin the perfection deliberately — asymmetric breathing room, one controlled imbalance, one hand-feel decision — or the output reads as generated, not designed.
+
+---
+
 ## The Underlying Belief
 
 > **Design is decision-making before it is expression.**
@@ -25,6 +37,8 @@ Every Satori framework is structured to force decisions:
 - Why-before-what forces **rent-paying elements**
 
 The design is the decision audit. Aesthetic moves cannot rescue weak decisions; they only stylize them.
+
+> *"This is the essence of the why before the what mindset. It's the decision that comes before the decoration or the design aspects. The meaning should come way, way before the aesthetic in your process."* (`references/source-quotes.md`, "On Why-Before-What")
 
 ---
 
@@ -174,6 +188,8 @@ Lock the visual primitive (line type, geometric family, motif) BEFORE designing.
 
 **Example**: Helmets OS logo locked vertical lines from the start — operating system needed to feel secure and reliable.
 
+> *"Now, instead of designing freely and hoping something meaningful just appears on the screen later, the design is already guided in the right direction from the very beginning."* (`references/source-quotes.md`, "Concept-Direction-First")
+
 ---
 
 ### GP-10 — Logo as Memory Hook (Not Story)
@@ -318,6 +334,8 @@ Bonus: the experience *around* the work (how a file opens, how a deliverable is 
 ### HK-01 — What Designers Actually Sell
 Brands hire human designers for **thinking and psychological experience**, not output. If your pricing model rewards turnaround speed, you've positioned yourself in the AI lane.
 
+> *"The brands or businesses that hire actual human designers do so for their thinking and their psychological experience in the design space."* (`references/source-quotes.md`, "On Anti-AI-Slop")
+
 ### HK-02 — Comfort = The Real Skill Decay
 "Feeling efficient" is the danger zone, not the success zone. The moment your workflow feels comfortable is the moment to audit it.
 
@@ -327,8 +345,12 @@ Build a structured "fresh eyes" pass into every project. Not feedback — **fres
 ### HK-04 — Presentation Standardization as Anti-Bias
 Same client → identical presentation structure for every concept. Forces the client to compare *concept strength*, not presentation aesthetics.
 
+> *"Every concept we present with a client uses the exact same layout and structure… they're not competing based on how they're shown because they're actually competing based on the strength of the idea itself."* (`references/source-quotes.md`, "Presentation Standardization")
+
 ### HK-05 — Friction Has Two Modes (Good/Bad)
 The distinction isn't presence/absence of friction — it's whether friction *serves the leverage point* or *competes with it*.
+
+> *"That's the difference between good friction and bad friction. Good friction grabs the eye and bad friction loses the message and causes unwanted discomfort."* (`references/source-quotes.md`, "Friction & Flow")
 
 ### HK-06 — Transferability ≠ Responsive Design
 "Transferability" is deeper than responsive layout. It's whether the *concept* survives shrinkage / format change / context shift.
@@ -336,8 +358,12 @@ The distinction isn't presence/absence of friction — it's whether friction *se
 ### HK-07 — Speed Doesn't Fix Weak Thinking
 Faster execution makes weak concepts arrive faster. Time spent thinking is the moat, not time saved producing.
 
+> *"Speed is useful, obviously, but it doesn't actually fix weak thinking. It just makes things happen faster."* (`extractions/satori-graphics/transcript.txt`, Video 4)
+
 ### HK-08 — Concept Pause = Memory Formation
 The pause-to-resolve a clever design *is* the memory being formed. Designs that hand-deliver meaning don't get encoded; designs that require resolution do.
+
+> *"AI can produce flawless visuals all day long, every single day. But as soon as you close your eyes and you blink, it's kind of evaporated from your memory."* (`extractions/satori-graphics/expansion-2026-07-04/vid5-transcript.txt`)
 
 ### HK-09 — Beauty Is a Byproduct of Solved Communication
 When you fix the communication problem — enlarge the hero, cut competing graphics, simplify the message — the design "ironically usually looks better anyway." Chasing beauty directly produces decoration; solving communication produces beauty as a side effect.
@@ -345,11 +371,17 @@ When you fix the communication problem — enlarge the hero, cut competing graph
 ### HK-10 — Subtraction Creates Hierarchy Faster Than Addition
 The easiest way to create hierarchy is *not* making important things bigger — it's making unimportant things quieter or making them disappear. Amateurs add emphasis; pros remove competition.
 
+> *"One of the easiest ways to create hierarchy isn't making important things look instantly bigger. It's just making unimportant things quieter or just completely disappeared."* (`extractions/satori-graphics/expansion-2026-07-04/vid1-transcript.txt`)
+
 ### HK-11 — "Communicating to Everyone" Is the Concept Killer
 The biggest concept mistake is trying to speak to everyone. The strongest concepts come from understanding one specific audience deeply enough to speak their language (the Bloomberg bull works *because* it excludes the non-investor). Narrow the audience to sharpen the concept.
 
+> *"Great concepts often come from understanding a specific audience deeply enough to speak their language."* (`extractions/satori-graphics/expansion-2026-07-04/vid4-transcript.txt`)
+
 ### HK-12 — Color Does Less Than You Think
 Much of what we credit to color is actually being carried by hierarchy, contrast, placement, and context. Fix those first; color then becomes far easier to work with. A palette can't rescue broken composition.
+
+> *"A lot of what we give color credit for is actually being ushered along by hierarchy, by contrast, placement, context, strategy."* (`extractions/satori-graphics/expansion-2026-07-04/vid3-transcript.txt`)
 
 ---
 
@@ -363,13 +395,19 @@ Two posters around AI awareness. Loser: decorative tech motifs around edges, AI 
 Two LP records and one album sleeve arranged into a heart shape. Music = emotion. Records = romance. Conceptual twist lodges in memory because the brain recognizes intention.
 **Lesson**: When a metaphor is available, use it instead of standard arrangement.
 
+> *"Two LPs and one album sleeve suddenly transformed into a metaphor. Music becomes emotion. Records become romance."* (`extractions/satori-graphics/expansion-2026-07-04/vid5-transcript.txt`)
+
 ### HOF-03 — Empty Clothes in Chair (Memory via Absence)
 Body-shaped empty clothes in a chair — no person, no face. Plays into depersonalization theme. Eerie, clever, impossible to forget.
 **Lesson**: The strongest visual choice is sometimes what's *not there*.
 
+> *"The empty clothes arranged in a chair. No person, no face, just a body-shaped absence. It instantly triggers a psychological reaction within the audience."* (`extractions/satori-graphics/expansion-2026-07-04/vid5-transcript.txt`)
+
 ### HOF-04 — Iron Grip Logo (Memory Hook + Shape Psychology)
 Strong angular lines representing robust/strong psychology. Doesn't tell you what the brand does. Iconic + the shape psychology is right for martial arts.
 **Lesson**: Logo's job is anchor + psychology, not story.
+
+> *"The Nike swoosh or the Apple logo. These logos do not tell you what these brands do or sell. They act as a memory hook."* — the same principle the Iron Grip example illustrates (`references/source-quotes.md`, "Logo as Memory Hook")
 
 ### HOF-05 — Helmets OS Logo (Concept-Primitive Lock-In)
 Vertical lines locked from the start. OS needed to feel secure, reliable, structured. Every subsequent choice was constrained exploration within "vertical-lines space."
@@ -379,9 +417,13 @@ Vertical lines locked from the start. OS needed to feel secure, reliable, struct
 Anti-smoking ad. Everyone knows smoking harms *you* — not groundbreaking. The designer found the hidden truth: a smoker's behavior harms the *children they love*. Cigarettes became crayons; childlike handwriting was the cherry on top. No words needed.
 **Lesson**: Design around the hidden truth behind the product, not the obvious message.
 
+> *"Whenever you're stuck on a project or a design, ask yourself what the real problem is. What's the consequence? What is the emotional impact? What's the thing people aren't immediately thinking about?"* (`extractions/satori-graphics/expansion-2026-07-04/vid4-transcript.txt`)
+
 ### HOF-07 — Red-Lens System (Commit to One Idea)
 Product's strongest feature wasn't the glasses' shape — it was the red lenses. The designer committed completely: red spread through the blurred photography, product shots, ingredients, the whole atmosphere. One decision, systematized.
 **Lesson**: Find the single strongest idea and build the *entire* system around it — the human moat AI can't cross.
+
+> *"Creativity often comes from taking one strong idea and pushing it further than everybody else would."* (`extractions/satori-graphics/expansion-2026-07-04/vid4-transcript.txt`)
 
 ### HOF-08 — Bloomberg Bull (Audience Language + Literal Interpretation)
 Bull-market issue. A bull standing in a field means nothing to a non-investor but everything to the target audience. Two techniques stacked: speaking a niche audience's language + making the metaphor ("bull market") physically real.
@@ -394,6 +436,8 @@ A 404 error page merged with the IKEA "missing a piece during assembly" stereoty
 ### HOF-10 — Sushi Sign Detail (Tiny-Detail Flair)
 A restaurant sign where only the "Yo" is recolored — using a color pulled from the food itself. A tiny change most would overlook that ties the whole sign together.
 **Lesson**: Sometimes the design doesn't need huge creativity — just one noticed detail. Know when.
+
+> *"Sometimes, it comes from noticing tiny details that everybody else just overlooks."* (`extractions/satori-graphics/expansion-2026-07-04/vid4-transcript.txt`)
 
 ### HOF-11 — Dog-Collar Reveal (Emotion Over Information)
 "10,000 dogs euthanized every day" + a syringe = information; sad but abstract. Then the page tears away to reveal a collar underneath — now it's *someone's* dog, with an owner and a home. A tiny visual change, a massive emotional jump.
@@ -448,22 +492,22 @@ A Satori-grade design earns ≥8 on each:
 
 ## Anti-Patterns (Auto-Reject)
 
-1. **Decoration without reason** — visual chaff, "looks designy"
-2. **Noun-locked logos** — starting from object metaphors that lock into cliché
-3. **Logo carrying the whole brand story** — amateur overload
-4. **AI-as-shortcut** — prompt → output → ship, no thinking layer
-5. **Speed-as-virtue** — shipping fast on weak thinking
-6. **More-equals-better layering** — stacking effects vs simplifying
-7. **Loud-by-default** — assuming viewer is pre-convinced
-8. **Aesthetic-first decisions** — colors/fonts before concept and primitive
-9. **Mixed-presentation pitches** — letting presentation aesthetics confound concept comparison
-10. **Comfort coasting** — same workflow because it feels efficient, not because it's still optimal
-11. **Layout-before-problem** — starting from a composition instead of the communication problem (GP-13)
-12. **Color-as-decoration** — colors with no defined job; palette chosen for "looks nice" not achievement (GP-15)
-13. **Communicating to everyone** — no specific audience, so the concept has no language to speak (GP-16, HK-11)
-14. **Information over emotion** (in emotional briefs) — stacking facts where a feeling/reveal was needed (GP-16 technique 7)
-15. **Explanation-required** — a design you have to explain has a perception gap; confusion isn't subjective (GP-17)
-16. **Feeling-audience mismatch** — a "premium" treatment aimed at an audience that reads it as pretension or can't afford it (GP-14)
+1. **Decoration without reason** — visual chaff, "looks designy" but pays no rent. Satori, Video 2 (composition masterclass, `references/source-quotes.md` "On Why-Before-What"): *"The meaning should come way, way before the aesthetic in your process. Otherwise, you're just throwing confetti at a layout and hoping it turns into a design somehow."*
+2. **Noun-locked logos** — starting from object metaphors that lock into cliché. Satori, Video 3 (logo design guide, `references/source-quotes.md` "Verb-Not-Noun"): *"Things like shields, arrows, mountains, initials, and so on. And that's usually where generic ideas start to creep in."*
+3. **Logo carrying the whole brand story** — amateur overload. Satori, Video 3 (`references/source-quotes.md` "Logo as Memory Hook"): *"The logo is just one part of a much bigger brand system. It's not the entire brand."*
+4. **AI-as-shortcut** — prompt → output → ship, no thinking layer. Satori, Video 1 (psychology mindsets, `references/source-quotes.md` "On Anti-AI-Slop"): *"AI can give you the clean version every time, but only you can give the human version."*
+5. **Speed-as-virtue** — shipping fast on weak thinking. Satori, Video 4, confirmed verbatim in `extractions/satori-graphics/transcript.txt`: *"Speed is useful, obviously, but it doesn't actually fix weak thinking. It just makes things happen faster."*
+6. **More-equals-better layering** — stacking effects vs simplifying. Satori, Video 4, confirmed verbatim in `extractions/satori-graphics/transcript.txt`: *"Some designers do consider, somehow, that more layers, more effects, or more details always equates to a better design."*
+7. **Loud-by-default** — assuming viewer is pre-convinced. Satori, Video 1 (`references/source-quotes.md` "On Predictive Empathy"): *"It assumes the viewer is already convinced, already interested, already emotionally aligned. But the truth is most people aren't."*
+8. **Aesthetic-first decisions** — colors/fonts before concept and primitive. Satori, Video 2 (`references/source-quotes.md` "On Why-Before-What"): *"The meaning should come way, way before the aesthetic in your process."*
+9. **Mixed-presentation pitches** — letting presentation aesthetics confound concept comparison. Satori, Video 3 (`references/source-quotes.md` "Presentation Standardization"): *"Every concept we present with a client uses the exact same layout and structure… they're not competing based on how they're shown."*
+10. **Comfort coasting** — same workflow because it feels efficient, not because it's still optimal. Satori, Video 4, confirmed verbatim in `extractions/satori-graphics/transcript.txt`: *"That comfort is where most designers stop improving."*
+11. **Layout-before-problem** — starting from a composition instead of the communication problem (GP-13). Satori, v2 expansion 2026-07-04, confirmed verbatim in `extractions/satori-graphics/expansion-2026-07-04/vid1-transcript.txt`: *"Apple starts with a communication problem first and only adds what's necessary to solve it."*
+12. **Color-as-decoration** — colors with no defined job; palette chosen for "looks nice" not achievement (GP-15). Satori, v2 expansion 2026-07-04, confirmed verbatim in `extractions/satori-graphics/expansion-2026-07-04/vid3-transcript.txt`: *"Instead of asking what color looks good, professional designers ask what this color is trying to achieve."*
+13. **Communicating to everyone** — no specific audience, so the concept has no language to speak (GP-16, HK-11). Satori, v2 expansion 2026-07-04, confirmed verbatim in `extractions/satori-graphics/expansion-2026-07-04/vid4-transcript.txt`: *"Great concepts often come from understanding a specific audience deeply enough to speak their language."*
+14. **Information over emotion** (in emotional briefs) — stacking facts where a feeling/reveal was needed (GP-16 technique 7). Satori, v2 expansion 2026-07-04, confirmed verbatim in `extractions/satori-graphics/expansion-2026-07-04/vid4-transcript.txt`: *"Information tells people what to think, whereas emotion makes them feel something."*
+15. **Explanation-required** — a design you have to explain has a perception gap; confusion isn't subjective (GP-17). Satori, v2 expansion 2026-07-04, confirmed verbatim in `extractions/satori-graphics/expansion-2026-07-04/vid5-transcript.txt`: *"Aesthetics are subjective, but confusion isn't. And if you need to explain a design, then that design probably has failed its job in some way."*
+16. **Feeling-audience mismatch** — a "premium" treatment aimed at an audience that reads it as pretension or can't afford it (GP-14). Satori, v2 expansion 2026-07-04, confirmed verbatim in `extractions/satori-graphics/expansion-2026-07-04/vid1-transcript.txt`: *"It is no good trying to make your design premium if the end users are teenagers or students with little to no money at disposal."*
 
 ---
 
@@ -476,6 +520,8 @@ A Satori-grade design earns ≥8 on each:
 - **Stylized poster generation production** → use `fantastic-posters` (Satori's `/satori-design-think` hands off *to* it, cost-gated)
 
 Satori is for the **communication thinking, concept origination, color strategy, composition logic, layout flow, logo concept, and design psychology** layer — the *brain* that sits above production tools. v2 rule: **Satori decides; the generation tools execute.** Never let a generation tool originate the concept — that's the human moat.
+
+Scope note: Satori's own extracted material is 10,652 words across v1 (4 videos, 2026-05-03) plus ~7,800 words across v2 (5 videos, 2026-07-04) — 9 sources total, all composition/logo/color/concept. Anything outside that footprint (typography mechanics, DESIGN.md token codification, brand positioning, AI-prompt engineering) routes to the specialists above rather than being stretched to fit.
 
 ---
 
