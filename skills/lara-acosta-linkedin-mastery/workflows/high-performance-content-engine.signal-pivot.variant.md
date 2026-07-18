@@ -156,6 +156,47 @@ A single, comprehensive **Monthly Content System** document containing:
 6. **[NEW] LinkedIn Signal-to-Pivot Cheat Sheet**: A single-page reference with the LinkedIn Signal Classification table (6A), the 6 Adaptation Moves (6B), and the Weekly Signal Read protocol (6C) — designed to be pinned and used every Friday.
 7. **[NEW] Baseline Signal Predictions**: For each of the 10 posts drafted, a prediction of which signal type is MOST likely and which persona (ICP/IFP) will drive the engagement — so the creator knows what "success" looks like before publishing.
 
+## Output Schema
+
+```markdown
+# Monthly Content System — [Client/Brand Name]
+
+## 1. Positioning Statement & Lead Magnet Blueprint
+**Positioning**: I help [WHO] achieve [WHAT] through [HOW] so they can [OUTCOME].
+**Lead Magnet**: [name] — Capture function: [ICP problem solved] | Viral function: [why IFPs bookmark/share]
+**Fusion Zone**: [3-5 core arguments where ICP pain meets IFP shareable truth]
+
+## 2. 30-Day Content Calendar
+| Date | Type (4-3-2-1) | Pillar | Topic | Dual-Persona Angle |
+|---|---|---|---|---|
+| [date] | [Educational/Story/Opinion/Promotional] | [pillar] | [topic] | ICP: [angle] / IFP: [angle] |
+[... 20-30 rows following the 40/30/20/10 mix]
+
+## 3. High-Performance Batch (10 Posts)
+### Post [N] — [Type] — Pillar: [name]
+**Hook variations (3)**: [curiosity] / [specific number] / [relatable pain]
+**Body**: [full SLAY or framework-structured copy, F-shape formatted]
+**ICP/IFP annotation**: [why buyer cares / why amplifier shares]
+**Proof annotation**: [metric | named example | borrowed authority | opinion reframe]
+[... repeat x10]
+
+## 4. Promotional Sequence (3-Post Lead Magnet Launch)
+Post 1 (Tease): [copy] | Post 2 (Drop): [copy] | Post 3 (Reminder): [copy]
+
+## 5. Overflow Topic Bank
+Educational (5): [...] | Story (5): [...] | Opinion (5): [...] | Promotional (5): [...]
+
+## 6. LinkedIn Signal-to-Pivot Cheat Sheet
+**Signal Classification (6A)**: [Resonance / Amplification / Pipeline / Ghost / Silence / Noise — one-line trigger + read for each]
+**Adaptation Moves (6B)**: [the matching move for the dominant signal, one-variable rule stated]
+**Weekly Signal Read (6C)**: [Friday 5-minute protocol, filled in for this system]
+
+## 7. Baseline Signal Predictions
+| Post # | Predicted Dominant Signal | Driving Persona (ICP/IFP) |
+|---|---|---|
+[... 10 rows, one per drafted post]
+```
+
 ## Quality Gate
 1. **The Stranger Test**: Do the hooks work without the author's name or avatar?
 2. **The IFP Filter**: Is there a clear reason for a non-buyer to share this post?

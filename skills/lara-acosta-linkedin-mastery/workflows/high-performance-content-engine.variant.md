@@ -75,6 +75,36 @@ A single, comprehensive **Monthly Content System** document containing:
 4. **Promotional Sequence**: A specific 3-post "Launch" sequence for the Lead Magnet.
 5. **Overflow Topic Bank**: 5 extra ideas for each content type to ensure the user never runs out of ideas.
 
+## Output Schema
+
+```markdown
+# Monthly Content System — [Client/Brand Name]
+
+## 1. Positioning Statement & Lead Magnet Blueprint
+**Positioning**: I help [WHO] achieve [WHAT] through [HOW] so they can [OUTCOME].
+**Lead Magnet**: [name] — Capture function: [ICP problem solved] | Viral function: [why IFPs bookmark/share]
+**Fusion Zone**: [3-5 core arguments where ICP pain meets IFP shareable truth]
+
+## 2. 30-Day Content Calendar
+| Date | Type (4-3-2-1) | Pillar | Topic | Dual-Persona Angle |
+|---|---|---|---|---|
+| [date] | [Educational/Story/Opinion/Promotional] | [pillar] | [topic] | ICP: [angle] / IFP: [angle] |
+[... 20-30 rows following the 40/30/20/10 mix]
+
+## 3. High-Performance Batch (10 Posts)
+### Post [N] — [Type] — Pillar: [name]
+**Hook variations (3)**: [curiosity] / [specific number] / [relatable pain]
+**Body**: [full SLAY or framework-structured copy, F-shape formatted]
+**ICP/IFP annotation**: [why buyer cares / why amplifier shares]
+[... repeat x10 — this baseline version has no proof-annotation or signal-cheat-sheet layers]
+
+## 4. Promotional Sequence (3-Post Lead Magnet Launch)
+Post 1 (Tease): [copy] | Post 2 (Drop): [copy] | Post 3 (Reminder): [copy]
+
+## 5. Overflow Topic Bank
+Educational (5): [...] | Story (5): [...] | Opinion (5): [...] | Promotional (5): [...]
+```
+
 ## Quality Gate
 1. **The Stranger Test**: Do the hooks work without the author's name or avatar?
 2. **The IFP Filter**: Is there a clear reason for a non-buyer to share this post?

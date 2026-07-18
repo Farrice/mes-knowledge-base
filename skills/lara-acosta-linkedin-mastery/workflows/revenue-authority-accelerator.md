@@ -77,6 +77,35 @@ The user receives a single .md file containing:
 4. **The Algorithm Playbook**: Specific posting times (based on timezone) and the First-Hour Engagement Protocol.
 5. **The Proof Capture Checklist**: A system for documenting future testimonials and wins.
 
+## Output Schema
+
+```markdown
+# 30-Day Client Acquisition Library — [Client/Brand]
+
+## 1. Positioning North Star
+**Statement**: I help [WHO] achieve [WHAT] through [HOW] so they can [OUTCOME].
+**3 Pillars**: Methodology (What you DO) / Philosophy (What you BELIEVE) / Transformation (What you ENABLE)
+
+## 2. 30 Complete LinkedIn Posts
+### Post [N] | [Educational/Story/Opinion/Promotional] | Pillar [1-3] | Day [1-30]
+**Hook variations (2, for A/B test)**: [A] / [B]
+**Body**: [full post text, white-space formatted for dwell time]
+**CTA**: [mapped to buyer stage — problem-aware / solution-aware / decision / trust-building]
+[... repeat x30, following the 12/9/6/3 distribution across Days 1-10 / 11-20 / 21-30 sequencing]
+
+## 3. 30-Day Content Calendar
+| Day | Type | Pillar | Buyer Stage |
+|---|---|---|---|
+[... 30 rows]
+
+## 4. Algorithm Playbook
+**Posting times (by timezone)**: [schedule]
+**First-Hour Engagement Protocol**: T-30 (5-10 ICP posts) / Min 0-15 (comment-doubling replies) / Min 15-60 (IFP reciprocal-reach engagement)
+
+## 5. Proof Capture Checklist
+[system for logging future testimonials, DM wins, and before/after results as they come in]
+```
+
 ## Quality Gate
 1. **The Avatar Test**: Does the hook work without the author's reputation?
 2. **The 4-3-2-1 Check**: Is the ratio of education/story/opinion/promo exact?

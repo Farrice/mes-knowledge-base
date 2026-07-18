@@ -99,6 +99,44 @@ The user receives a single `.md` file titled **"Personal Brand Blueprint: [Name]
 5.  **The "Lara Acosta" Hook Sheet**: 5 sample hooks for the top 5 topics, tested against the "No-Name" scroll-stop rule.
 6.  **Adversarial Pass Annotations**: *(NEW)* What was flagged and fixed during Phase 5, with before/after examples.
 
+## Output Schema
+
+```markdown
+# Personal Brand Blueprint — [Name]
+
+## 1. Positioning Document
+**Identity Statement**: I am the [specific descriptor] who [unique approach].
+**Elevator Pitch**: I help [WHO] achieve [WHAT] through [HOW] so they can [OUTCOME].
+**Authority Bio (3-5 sentences)**: [specific numbers + named logos only, no vague claims]
+**Unfair Advantage Map**: [3-5 traits/experiences no competitor can replicate]
+
+## 2. Proof Inventory
+| Proof Category | Specific Point | Strength (1-5 stars) |
+|---|---|---|
+| Outcome / Authority / Experience / Social / Borrowed / Process | [detail] | [rating] |
+[... one row per proof point found in Phase 1]
+**Gap-Filling Action**: [the weakest category + the prescribed action to close it]
+
+## 3. Content Architecture (45 Topics)
+**Pillar 1 — What You DO** (15 topics, tagged 4-3-2-1): [list]
+**Pillar 2 — What You BELIEVE** (15 topics, tagged 4-3-2-1): [list]
+**Pillar 3 — What You ENABLE** (15 topics, tagged 4-3-2-1): [list]
+
+## 4. 90-Day Roadmap
+**Days 1-30 (Foundation)**: [profile optimization + 30-post buffer + hook testing, itemized]
+**Days 31-60 (Momentum)**: [engagement strategy + first Viral Lead Magnet + connection building]
+**Days 61-90 (Authority)**: [thought leadership + hot takes + outbound visibility]
+**Stall-Point Protocols**: [If engagement plateaus → then... / If growth plateaus → then...]
+
+## 5. The "Lara Acosta" Hook Sheet
+[5 hooks, one per top topic, each stress-tested against the No-Name scroll-stop rule]
+
+## 6. Adversarial Pass Annotations
+| Element | What Was Flagged (Phase 5 persona) | Before | After |
+|---|---|---|---|
+[... one row per flag raised during the Critic's Eye / Replace My Name / Damaging Admission / Anti-AI / Voice Cannibalization passes]
+```
+
 ## Quality Gate
 1.  **The Obvious Choice Test**: Does the positioning make the user the "obvious choice" for a specific problem, or do they still sound like a "generalist"?
 2.  **Specificity Filter**: Are there vague claims like "expert" or "experienced"? (Replace with specific numbers or named logos).

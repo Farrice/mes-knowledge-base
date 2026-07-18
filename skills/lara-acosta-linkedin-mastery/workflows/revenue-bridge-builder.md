@@ -79,6 +79,30 @@ The deliverable is a **Revenue Bridge Kit** containing:
 3. ✅ Email capture system (platform + 3 welcome emails + weekly template)
 4. ✅ Revenue Bridge map (visual funnel + metrics)
 
+## Output Schema
+
+```markdown
+# Revenue Bridge Kit — [Client/Brand]
+
+## 1. Lead Magnet
+**Title**: [name] | **Format**: [Google Doc / Notion page / PDF one-pager / AI prompt kit]
+**Description**: [one-line, one-problem-for-one-person framing]
+**Content**: [full lead magnet content, ready to host]
+**Hosting recommendation**: [platform]
+
+## 2. Lead Magnet Post
+[copy-paste-ready LinkedIn post: pain-naming hook → agitate with specific scenario → introduce lead magnet as the solve → CTA (keyword comment or DM trigger)]
+
+## 3. Email Capture System
+**Platform**: [ConvertKit / Notion form / Gumroad / Beehiiv]
+**Welcome sequence (3 emails)**: Email 1 (Deliver) — [copy] | Email 2 (Value) — [copy] | Email 3 (Soft offer) — [copy]
+**Profile integration**: [permanent Featured-section link language]
+**Weekly email cadence template**: [subject line pattern + body structure]
+
+## 4. Revenue Bridge Map
+[one-page funnel diagram: Content (4x/week) → Profile visit → Lead magnet download → Email list → Weekly nurture → Offer email → Sale, with the metric tracked at each stage]
+```
+
 ## Quality Gate
 
 - [ ] Lead magnet solves ONE problem for ONE person (not a kitchen-sink resource)

@@ -1,0 +1,47 @@
+---
+name: Repair-Fleet PoC — Three Failure Shapes Caught by Layered Gates
+problem_signature: fleet-repairing skills at scale fails in ways worker summaries hide — instrument false-negatives (auditor regex misses equivalent headings), worker output landing outside the agreed quarantine path, and false negative source-availability claims ("transcripts are 0 bytes") justifying skipped primary sources
+domain: system
+tags: [wave-3, repair-fleet, skill-auditor, provenance, worker-envelope, file-not-summary, adversarial-verify]
+date: 2026-07-17
+status: active
+session: frontier-wave-3-asset-renaissance
+---
+
+# Repair-Fleet PoC: What the Layered Gates Caught (5-skill Lane 1 batch)
+
+First Wave 3 fleet run: 5 Sonnet workers repairing PRODUCTION_CORE skills to 6/6
+heartbeat, quarantined writes, serial conductor merge through `skill_auditor.py check`,
+1-in-5 Opus adversarial provenance verify. All 5 reached gate-clear. Three failure
+shapes appeared — each caught by a DIFFERENT layer, none by worker self-report:
+
+## 1. Instrument false-negative (caught by: worker reading the auditor's source)
+14 of luke-iha-vicious-hooks' "missing" workflow contracts existed under
+`## Output Contract`; the auditor regex only matches `Output Schema/Format/Requirements`.
+**Some slice of the 324-skill "collapse" is instrument error, not asset rot.**
+Fleet-scale fix: extend the auditor regex to accept `Output Contract` (one line) BEFORE
+dispatching repairs, so workers don't burn effort renaming equivalent headings — and
+re-run the census after, since the true failure count is lower than reported.
+
+## 2. Quarantine path drift (caught by: file-not-summary merge — cp failed loudly)
+One worker wrote its 13 files to its session scratchpad instead of the repo's
+`.tmp/wave3-poc/` and reported success. The serial merge failed on a missing directory
+— NOT silently — because the conductor copies from the agreed path and never trusts
+"13 files written." Fix applied: worker prompts now give the EXACT absolute output path
+with "not your scratchpad" spelled out. The deeper rule: the merge step must always
+`cp` from the contract path; a worker's path claim is a claim like any other.
+
+## 3. False negative source-availability claim (caught by: Opus adversarial verify)
+The lara worker justified leaving 3 patterns UNCONFIRMED with "all three raw transcripts
+are 0 bytes / unrecoverable." Adversarial verification found the transcripts are 64KB /
+31KB / 25KB — full interviews the worker never read. All 11 sampled quote-anchors were
+verbatim-clean; the fabrication risk hid in the NEGATIVE claim ("sources don't exist"),
+which the deterministic gate cannot check. **A claim that sources are absent is itself a
+provenance claim and must be verified** — the verify prompt now includes "spot-check
+UNCONFIRMED labels: confirm the material really ISN'T there."
+
+## The pattern that makes this scale-safe
+Deterministic gate (structure) + conductor merge from contract paths (existence) +
+adversarial sampled verify (truth of both positive AND negative claims). Worker
+self-reports are treated as routing hints, never evidence. All three defects surfaced
+in a 5-skill PoC — at 319 remaining skills, each would have compounded silently.

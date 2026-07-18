@@ -225,8 +225,11 @@ _HB_RECOG_RE = re.compile(
     r"|(?:wearing|using) (?:\w+ )?vocabulary", re.I)
 _HB_LABEL_RE = re.compile(r"\bVERIFIED\b|\bLIKELY\b|\bUNCONFIRMED\b")
 # Contract concept, not one literal: claim-safe (the standard's own exemplar)
-# writes "Output Requirements"; others write "Output Schema"/"Output Format".
-_HB_OUTPUT_SCHEMA_RE = re.compile(r"output\s+(schema|format|requirements?)", re.I)
+# writes "Output Requirements"; others write "Output Schema"/"Output Format";
+# born-v2-era workflows write "Output Contract" (instrument false-negative found
+# by the Wave 3 repair-fleet PoC, 2026-07-17 — see docs/solutions/
+# 2026-07-17-repair-fleet-poc-three-failure-shapes.md).
+_HB_OUTPUT_SCHEMA_RE = re.compile(r"output\s+(schema|format|requirements?|contract)", re.I)
 _HB_QUALITY_GATE_RE = re.compile(r"quality\s+gate", re.I)
 
 
