@@ -4,6 +4,18 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist to recite. Nate B. Jones's throughline across his *verified* material (the Karpathy Loop, jagged-frontier, and TurboQuant extractions — see `references/source-ledger.md`) is blunt, systems-first, and allergic to hand-waving: he names the mechanism, cites the constraint, states the number. The test: would Nate recognize this as someone applying calibrated judgment under acceleration — pushing back with a specific, falsifiable reason — or as someone reciting "taste" vocabulary without the judgment behind it? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce "applying the Hollowness Detector" or "invoking Level 3." Nate never narrates his own framework on the page; in his verified material he just states the failure mode and the fix ("Most teams... are measuring activity instead of outcome").
+- Do NOT hedge. His texture is direct, dated, numbered — "H2 of 2026," "lost direction at step 14," "3-4 experienced product leaders" — never vague enthusiasm.
+- His authority comes from naming what's underneath the surface metric, not from vibes. Every taste call in this skill's output should point at a specific, sourced reason, or say plainly that it's an unsourced judgment call.
+- Polish-is-the-tell: if an output "sounds like taste" but cites nothing — no number, no quote, no named constraint — it has failed the standard this skill exists to teach.
+
+---
+
 ## Genius Patterns
 
 ## Pattern 1: The Taste Activation Formula
@@ -43,6 +55,8 @@
 ### 1. The Binary Trust Trap
 People flip between total trust and total rejection of AI - expert navigates nuanced middle ground
 
+*Grounding note (adjacent-source anchor — this skill has no dedicated taste transcript; see `references/source-ledger.md`)*: Nate's verified auto-improvement material names the same failure mode directly: "People who tell you the Karpathy loop eliminates the need for human judgment are flat wrong. It actually concentrates the need for human judgment." — `extractions/nate-b-jones/karpathy-loop-mes-extraction.md:164` ("The Karpathy Loop," YouTube, April 2026; extraction dated 2026-04-20).
+
 ### 2. Embodiment Advantage
 18+ years of pre-work societal living creates un-simulatable taste foundation
 
@@ -54,6 +68,8 @@ Ideas ferment in "brain compost" producing taste-based insights AI cannot replic
 
 ### 5. Taste Domain Fluidity
 Taste is transferable meta-skill, not domain-locked - can change domains over career
+
+*Grounding note*: Nate's own verified pattern-generalization claim: "Business process automation, workflow automation, operational systems. It's a matter of when, not if." — `extractions/nate-b-jones/karpathy-loop-mes-extraction.md:212` (extraction dated 2026-04-20) — evidence he treats a single mechanism as portable across domains, the same shape as this claim.
 
 ### 6. The Hollowness Detector
 Visceral feeling when AI output "feels artificial" is your taste speaking - trust it
@@ -75,15 +91,21 @@ New job = orchestrating AI "work primitives" through taste lens
 - Maintain quality standards
 - Refuse subpar AI output
 
+*Grounding note*: verbatim from Nate's verified material — the same discipline of specific, falsifiable feedback: "Most teams that I talk to, they have trouble writing a reliable eval suite today... they're measuring activity instead of outcome sort of by default, or they're using metrics that don't actually correlate with the business result they care about." — `extractions/nate-b-jones/karpathy-loop-mes-extraction.md:158` (extraction dated 2026-04-20).
+
 ### Level 3: Taste Multiplication
 - Teach taste to others
 - Build taste-based systems
 - Create quality frameworks
 
+*Grounding note*: Nate's verified material on system-building as compounding investment: "You can start building the infrastructure that makes it possible — eval harnesses, sandboxed environments, metric definitions. These investments pay off regardless of whether you ever run the full autoimprovement loop." — `extractions/nate-b-jones/karpathy-loop-mes-extraction.md:191` (extraction dated 2026-04-20).
+
 ### Level 4: Taste Transcendence
 - Develop new taste domains through AI collaboration
 - Create taste-assessment tools
 - Build taste-based career moats
+
+*Grounding note*: Nate's verified urgency framing for new-territory judgment work: "I don't think autoimproving agents are optional in H2 of 2026. They're coming. The organizations that figure them out in the second half of this year in 2027 will build advantages that are genuinely difficult to reverse." — `extractions/nate-b-jones/karpathy-loop-mes-extraction.md:251` (extraction dated 2026-04-20).
 
 ---
 
@@ -94,6 +116,8 @@ New job = orchestrating AI "work primitives" through taste lens
 3. **Taste is memory** - Your accumulated experiences are your competitive advantage
 4. **Taste is teaching** - Explaining why something is better creates authority
 5. **Taste is evolution** - Your taste must grow as fast as AI improves
+
+*Grounding note*: Nate's own verified statement of the stakes behind "taste is evolution" — no passive option: "I cannot promise you that you can continue your current habits." — `extractions/nate-b-jones/smoothing-jagged-frontier-extraction.md:110` ("4 AI Labs Built the Same System Without Talking to Each Other," YouTube; this extraction file recorded 2026-03-11).
 
 ---
 
@@ -113,9 +137,17 @@ We're transitioning from a **credentials economy** to a **taste economy**.
 
 This isn't about AI replacing humans - it's about **humans who develop taste replacing humans who don't**.
 
+*Grounding note*: Nate's verified statement of this exact value-hierarchy inversion, in his own words: "Everything at work is moving to meta-skills." — `extractions/nate-b-jones/smoothing-jagged-frontier-extraction.md:107` (extraction file recorded 2026-03-11).
+
 ---
 
 ## Hall of Fame Exemplars
+
+> These two exemplars and the anti-exemplar below are constructed demonstration
+> scenarios (illustrative company/product names), not transcript-attributed
+> Nate B. Jones case studies. Labeled UNCONFIRMED in references/source-ledger.md
+> (verified against all 4 files in extractions/nate-b-jones/ on 2026-07-18) —
+> use them as pedagogical shape, not as claims about real events.
 
 ### Exemplar 1: The "Hollowness Detector" Refinement
 *   **AI Draft:** "Our new SaaS platform leverages cutting-edge AI to optimize workflow efficiency and data analytics for enterprise clients, ensuring measurable ROI."
@@ -137,6 +169,23 @@ This isn't about AI replacing humans - it's about **humans who develop taste rep
 2.  **The "Senior Partner Pushback"**: Engages with AI models not as a subordinate or passive recipient, but as a senior colleague offering firm, qualitative guidance and demanding higher standards. This involves phrases like "I think you can do better," or "This piece doesn't meet my standard for X, specifically Y." → **Deploy when**: Initial AI output meets basic requirements but lacks distinctive quality, unique insight, or the specific "taste" required for the task.
 3.  **The "Contextual Oracle Reading"**: Treats complex AI responses (e.g., data analyses, trend reports) as cryptic but valuable insights, interpreting them through a deeply personal, experiential, and domain-specific lens to uncover hidden implications or strategic nuances not explicitly stated. → **Deploy when**: AI provides data-heavy or multi-faceted responses that require human judgment and embodied experience to convert into actionable, nuanced strategy.
 4.  **The "Value Re-Sequencing Pivot"**: Proactively identifies opportunities to shift personal effort from execution-heavy tasks (which AI can handle efficiently) to taste-driven roles like quality gatekeeping, strategic framing, and contextualization, aligning with the "100x Value Multiplication Principle" (Pattern 3). → **Deploy when**: Planning a new project, delegating tasks, or evaluating career trajectory in an AI-augmented workflow.
+
+## Anti-Patterns (Sourced)
+
+> `nate-b-jones-ai-taste-mastery` has no dedicated taste/judgment transcript in
+> `extractions/nate-b-jones/` (verified — see `references/source-ledger.md`). The
+> anti-patterns below are drawn from Nate's *verified* adjacent material (auto-improvement
+> loops, multi-agent harness design) where he explicitly states failure modes that share
+> this skill's exact throughline: human judgment doesn't disappear under AI acceleration,
+> it concentrates. Items marked "extractor-structured" cite the source's own DO-NOT list
+> rather than a Nate verbatim quote — labeled LIKELY, not VERIFIED, in the ledger.
+
+1. **Believing the loop (or the model) eliminates the need for judgment** — verbatim: "People who tell you the Karpathy loop eliminates the need for human judgment are flat wrong. It actually concentrates the need for human judgment." — `extractions/nate-b-jones/karpathy-loop-mes-extraction.md:164`, "The Karpathy Loop" (YouTube, April 2026; extracted 2026-04-20).
+2. **Measuring activity instead of outcome** — verbatim: "Most teams that I talk to, they have trouble writing a reliable eval suite today... they're measuring activity instead of outcome sort of by default, or they're using metrics that don't actually correlate with the business result they care about." — `extractions/nate-b-jones/karpathy-loop-mes-extraction.md:158`, extracted 2026-04-20.
+3. **Score-only logging, no traceable reasoning** (extractor-structured) — the source's own DO-NOT list: "Score-only logging (no traces = no interpretability = random mutations)." — `extractions/nate-b-jones/karpathy-loop-mes-extraction.md:437`, extracted 2026-04-20.
+4. **Letting scores go unverified** — verbatim: "The meta agent gets lazy... inserts rubric-specific prompting so the task agent can game the metrics." — `extractions/nate-b-jones/karpathy-loop-mes-extraction.md:247`, extracted 2026-04-20.
+5. **Deploying to customer-facing work before proving the harness** (extractor-structured) — the source's own DO-NOT list: "Customer-facing system as first target (failure ≠ cheap)." — `extractions/nate-b-jones/karpathy-loop-mes-extraction.md:435`, extracted 2026-04-20.
+6. **Assuming "soft" work can't be judged, so it can't be taste-checked** — verbatim: "bring a product strategy to 3-4 experienced product leaders and their assessments will be 'remarkably consistent.'" — `extractions/nate-b-jones/smoothing-jagged-frontier-extraction.md:104`, "4 AI Labs Built the Same System Without Talking to Each Other" (YouTube; extraction file recorded 2026-03-11).
 
 ## Expert-Specific Quality Rubric
 
