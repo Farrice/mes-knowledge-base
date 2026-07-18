@@ -112,6 +112,15 @@ RECOMMENDATIONS:
 [if offensive — specific edits to make]
 ```
 
+## Quality Gate
+
+Pass this gate before the audit is considered complete and before any offensive-mode rewrite ships.
+
+- **Completeness bar**: Every claim pair in the text that meets the Step 2 criteria (proximity + no explicit connector + implied connection) must appear in the inventory — not just the two or three most obvious ones. A partial inventory that skips subtle pairs (e.g., the second pair in the Austin-woman example, where "retained a criminal-defense attorney" alone means nothing) fails this gate, because the subtle pairs are often where the real damage happens.
+- **Defensibility test per pair**: For every pair flagged **Legitimate**, the audit must be able to state the true causal claim the implied connection stands in for. If no one could articulate the true claim, the pair is not Legitimate — re-flag it Manipulative or Ambiguous. This is the same test Hughes implicitly runs: "would the author defend each implied connection if challenged directly?"
+- **Ethics-flag exhaustiveness**: Every pair in the inventory must carry one of the three flags (Legitimate / Manipulative / Ambiguous) — an unflagged pair is an incomplete audit, not a neutral one.
+- **Offensive-mode fail condition**: In offensive use, any pair still flagged Manipulative after the rewrite pass means the workflow is not done. Ship only when every Manipulative-flagged pair has been resolved via an explicit connector, a cut, or a legitimate re-flag with the defensibility test passed.
+
 ## Example Output
 
 **TEXT AUDITED**: A 3-paragraph news lede covering a missing-person case.

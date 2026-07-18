@@ -115,6 +115,15 @@ INSTALL (if chronic):
 [trigger phrase / habit hook]
 ```
 
+## Quality Gate
+
+The mechanical output above proves the sequence ran. This gate is what separates a real zoom-out from a cosmetic one.
+
+- **Charge-dissolution bar**: At least one zoom level in the sequence must show a measurable charge change ("down" or "dissolved") — not just "steady" at every level. A sequence where the charge never moves means the zoom levels weren't actually re-described, only relabeled. Fail and re-run Step 3 with literal re-description, not restatement.
+- **No-skip bar**: Zoom levels must be sequential (fiber → carpet → room, not fiber → planet). Hughes's own caution — skipping to "cosmically nothing matters" — is a specific failure mode, not a shortcut. If the sequence jumps more than one level at a time, it fails this gate even if the reader reports feeling better; the relief is dissociation, not the Hughes mechanism.
+- **New-move bar**: The output must name a concrete next action that was *not visible* at the original zoom (Step 5). A zoom-out that ends only in "feeling calmer," with no new move surfaced, is incomplete — Hughes's claim is that perspective shift is a **mechanism**, not a mood adjustment. Re-run Step 5 if no move surfaces.
+- **Facts-unchanged bar**: The literal facts of the situation must be identical across every zoom level in the sequence — only the frame changes. If a zoom-out quietly introduces new facts ("and besides, it probably wasn't that bad"), it has stopped being a camera-angle shift and become minimization, which Hughes explicitly distinguishes from the technique.
+
 ## Example Output
 
 **Context**: A creator is paralyzed about whether to publish a Substack edition that they think is "too personal." They've been editing it for three days. The current frame: *"This will end my career. People will think less of me."*

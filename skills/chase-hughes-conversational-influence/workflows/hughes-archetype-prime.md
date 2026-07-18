@@ -113,6 +113,15 @@ NEGATIVE-SPACE TEST:
 - [ ] Components are sensory and specific to the actor
 ```
 
+## Quality Gate
+
+The Negative-Space Test above is the mechanical check. This gate is the judgment call layered on top of it — run both before the construction ships.
+
+- **Archetype-fit bar**: The selected archetype's natural resolution must point toward the actual action you need (book the call, rule for the client, hire the coach). An archetype that's *evocative* but resolves toward the wrong action fails this gate even if it passes the Negative-Space Test — Hughes's trial-consulting move only works because David-vs-Goliath's resolution ("small wins") is literally the verdict he needs.
+- **Component specificity bar**: Every environmental component must be specific to *this* actor, not generic to the archetype. "A big company that doesn't care about you" (`transcript.txt:394`) is specific because it's paired with a concrete image (DMV lines, a walk down a hill). A component like "the underdog faced obstacles" fails — it's the archetype's label wearing a lowercase disguise.
+- **Single-archetype discipline**: Exactly one archetype primed. If the construction is quietly running two (e.g., Long Wait + Reveal, as in the Exemplar 2 About-page example), the second must be *nested*, not competing — a reader should still be able to name which one is doing the primary resolution work.
+- **Fail condition**: If any Negative-Space Test box is unchecked, or the archetype's resolution doesn't match the needed action, do not ship. Return to Step 2 (component inventory) or Step 1 (archetype selection) — never patch by adding an explanatory sentence, which is itself the failure mode this gate exists to catch.
+
 ## Example Output
 
 **Context**: A boutique copywriter has spent 7 years grinding before getting their first $20K client. They need an "About" page. The audience is high-end founders who distrust hype and respond to earned expertise.

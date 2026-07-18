@@ -14,6 +14,18 @@ This extraction captures the **5 deployable techniques** Chase Hughes demonstrat
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These five patterns are intuition primitives, not a checklist. Absorb them, then build originally. If the output visibly labels its own machinery — "Component A," "Component B," "Archetype: David and Goliath" — inside the deliverable itself, you have failed. The test: **would Chase Hughes recognize this as genuine component-placement engineering, the conclusion living entirely inside the audience's own head, or as someone using persuasion-technique vocabulary** (naming the archetype, announcing the click, footnoting the empathy ladder)? If it's the second, rebuild.
+
+Specifically:
+- Do NOT title sections "Component A" / "Component B" / "Archetype: David and Goliath" *inside the deliverable*. That labeling belongs in internal scratch work only. Hughes's own discipline: *"I never, I never ever ever talk about how the story ends because your brain already knows"* (`extractions/chase-hughes/transcript.txt:398`). The same rule applies to naming any piece of the machinery on the page.
+- Do NOT both state the conclusion AND arrange the components. Pick one. Stated-plus-engineered reads as manipulative overkill and re-triggers the skepticism the technique exists to route around.
+- His texture is trial-consulting and street-cognition, not academic NLP. He teaches through courtroom wins and a bumper-sticker drill run with his 9-year-old daughter (`transcript.txt:113-143`), not frameworks recited at a whiteboard. Keep deliverables concrete and sensory — a specific Tuesday at 2:47 a.m., a specific overheard line, a specific number of years — never abstract "pain points."
+- Polish is the tell. A too-smooth (A, B) pair reads as copy engineered to persuade; a slightly rough, overheard-sounding pair reads as reality the reader discovered on their own. When a draft feels too clean, that's the signal to rough it back up, not to polish further.
+
+---
+
 ## Core Genius (One-Sentence Essence)
 
 > **Influence is most powerful when the audience feels like they discovered the conclusion themselves.** Hughes's entire approach rests on this single mechanic: the brain cannot resist what came from within it. So instead of pushing ideas at people, you arrange the *components* of an idea close enough together that the audience's pattern-matching does the closing move. They feel clever. The conviction lands. They never know they were guided.
@@ -112,6 +124,20 @@ These are things Hughes operates from but doesn't explicitly teach. Mining them 
 **What mediocre looks like**: A trial lawyer (or copywriter, or content creator) stating their case directly: *"My client is small. The opposing company is huge. They've been mistreating customers for years. You should rule in my client's favor."* All conclusions stated. All connections explicit. All persuasion external.
 
 **Why it fails**: Stated conclusions trigger evaluation. Evaluation triggers skepticism. The juror/reader/listener becomes a *judge* of the argument rather than its *author*. Even if they ultimately agree, they own less of the conclusion — which means lower commitment, higher reversibility, and weaker propagation. This is what 90% of "persuasive" content does. It's not persuasion; it's announcement.
+
+---
+
+## Anti-Patterns (Sourced)
+
+Each item below is grounded in a specific moment in the source material (Unlearn podcast interview with Adam Lane Smith and Cal, transcript extracted 2026-05-03 — `extractions/chase-hughes/transcript.txt`). These are the failure modes that separate Hughes-grade work from imitation-of-Hughes work.
+
+- **Stating the ending.** Hughes: *"I never, I never ever ever talk about how the story ends because your brain already knows"* (`transcript.txt:398`, Unlearn podcast interview, 2026-05-03). Anti-pattern: writing the archetype's resolution into the copy ("...and the underdog wins") instead of trusting the primed components to complete it.
+- **Naming the archetype out loud.** Hughes never says "David and Goliath" to a jury — he only stages DMV lines, an indifferent big company, a walk down a hill (`transcript.txt:391-396`). Anti-pattern: labeling the frame ("this is a classic underdog story") instead of priming its environmental details.
+- **Surface judgment instead of the two-question ladder.** The failure mode Hughes corrects in his daughter's read of strangers: judging loud/attention-seeking clothing as "annoying" rather than running *"What do they want me to think?"* → *"What would they be afraid of if that were true?"* (`transcript.txt:135-143`). Anti-pattern: shipping audience research built on adjectives, not fear hypotheses.
+- **Advising someone out of their story arc at the wrong beat.** Hughes: real transformation "is never going to be in the school hallway... it's not going to be over a brunch" (`transcript.txt:416-420`) — it happens at a transition or threshold scene. Anti-pattern: inserting advice or reframes into a scene that isn't a transition, which the other person experiences as attack rather than help.
+- **Demanding a Spielberg ending from a situation that structurally can't deliver one.** Hughes on public disappointment with unresolved accountability cases: *"we are deeply internally craving a Steven Spielberg ending for this... We don't get the Spielberg ending"* (`transcript.txt:421-430`, 2026-05-03 interview). Anti-pattern: writing content that promises narrative closure the real situation cannot honor — it manufactures disappointment instead of release.
+- **Two ideas with no string, unnoticed.** Hughes's own warning to his kids doubles as the copy-ethics failure mode: placing adjacent claims with no causal connector and letting the reader's brain manufacture an unearned conclusion — the exact mechanic of the "Austin woman... arguing with her boyfriend" news lede he cites (`transcript.txt:190-191`) and the secret-keeping warning that follows it (`transcript.txt:196-198`). Anti-pattern: using Pattern 3/4's mechanics on a conclusion that isn't actually true.
+- **Direct argumentation dressed up as Hughes-grade work.** See the Anti-Exemplar above: a lawyer/copywriter/creator stating the case outright, all conclusions stated, all persuasion external — sourced from the same 2026-05-03 Unlearn podcast extraction and confirmed against the trial-consulting passage (`transcript.txt:391-398`).
 
 ---
 
