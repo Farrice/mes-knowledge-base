@@ -4,6 +4,19 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These five frameworks (Schwartz awareness/sophistication, Cialdini's 7 principles, Milligan's NESB, Warren's identity hooks, moat decay) are diagnostic instincts, not a checklist to recite back. Kochel's own signature move is a live, unscripted teardown — Pick Key's password-manager page, Postsyncer's launch, Quibi's collapse — and he never once narrates the framework while doing it. He just says what's true: "This doesn't really tell me anything," "I don't think they're doing a great job," "I would like to see that type of information hoisted." The verdict comes first; the framework name stays invisible.
+
+- Do NOT output "Cialdini principle #3: Commitment/Consistency detected" as a label. Deliver the missing element as a plain, specific reaction to the actual copy in front of you — the way Kochel reacts to Pick Key and Postsyncer in real time — never as framework narration.
+- Do NOT stack all 5 layers (awareness, sophistication, Cialdini, NESB, identity hooks) as equal-weight checkboxes. Kochel always finds the ONE causal blocker — "the reason why is simple" — and traces how it cascades into the others; a diffuse list of "issues" is the tell of a template, not a diagnosis.
+- Do NOT manufacture proof, urgency, or a conversion number the user never supplied. Every crown_jewel workflow in this skill enforces this explicitly (see Anti-Patterns below) — a bracketed placeholder beats an invented statistic every time.
+- His texture is fast, plain-spoken, product-literal — he names real products (Quibi, Dropbox, Notion, Stripe, Pick Key, Postsyncer) instead of hypothetical "Company X." A genericized case study, or language that sounds like a marketing textbook instead of someone thinking out loud on camera, is the polish-is-the-tell failure mode for this expert.
+
+**Recognition test**: Would Sean Kochel recognize this as his own diagnostic, or as someone reciting his frameworks back at him? He'd only nod if it does what he did live on air — names the exact awareness/sophistication mismatch instead of general praise, calls out generic social proof ("join thousands") versus identity-specific proof ("join founders like you"), and never launders a placeholder into a fabricated statistic. If the output reads like generic "embrace AI to stay competitive" filler, or announces "Layer 3: Cialdini Audit" like a form instead of diagnosing with the same surgical, plain-spoken bluntness he brings to a live teardown — that's the recognition test failing. Rebuild it.
+
+---
+
 ## Genius Patterns
 
 ### AI Moat Decay Analysis (Added 2026-04-09)
@@ -27,6 +40,21 @@ Every AI capability sits on a **commoditization timeline**. The question isn't "
 3. **Does the AI create data that didn't exist before?** (Proprietary data generation) — Using public data = Eroding. Generating novel data through user interactions that only you can access = Durable minimum.
 
 **Anti-pattern**: "We use GPT-4 so we have AI" — this is a *feature*, not a moat. The moat question is always: "What do we have that someone can't replicate by signing up for the same API?"
+
+---
+
+## Anti-Patterns (Sourced)
+
+Real failures and guardrails, pulled verbatim from Kochel's own material and this skill's execution prompts — not generic "avoid bad marketing" advice.
+
+- **Feature-first product death** — "Most builders think that better features automatically means more users... Quibby [Quibi]... raised $1.75 billion and hired Steven Spielberg and then died in 6 months... They violated the six principles of persuasion by Robert Chelini [Cialdini]." (Source: Sean Kochel, "Better features don't get users—this psychology does," 2025-10-28 — `_archive/claude-export-2026-07-01.tar.gz:claude-export/normalized/conversations/23c8f9f6-e3e3-4aca-b0cf-7f2080e6b351.md`)
+- **Copy that misses the audience's actual awareness level** — live teardown of Pick Key's password-manager page: "This doesn't really tell me anything... Am I tired of remembering passwords? No, I'm not... I don't think they're doing a great job." (Source: Sean Kochel, "These 5 Books Reveal Why Most AI Products Don't Sell," 2026-01-30 — `_archive/claude-export-2026-07-01.tar.gz:claude-export/normalized/conversations/f551b192-de2c-4e6f-a552-66b97aebfd03.md`)
+- **Undifferentiated positioning buried instead of hoisted** — on Postsyncer's launch page: "this seems very undifferentiated to me from other social media scheduling tools... I would like to see that type of information hoisted." (Source: same transcript, Sean Kochel, 2026-01-30)
+- **Generic social proof instead of identity-specific proof** — "instead of saying join thousands of customers, it would be a lot more effective to say join a group of founders just like you." (Source: same transcript, Sean Kochel, 2026-01-30)
+- **Force-framing instead of norm-framing** — "telling them, 'Hey, don't litter. There's a fine.' is actually a lot less effective at getting them not to litter, than to say, 'Most people don't litter here.'" (Source: same transcript, Sean Kochel, 2026-01-30)
+- **Fabricated conversion statistics presented as findings** — "No invented conversion-rate projections or fabricated statistics — impact is described qualitatively unless the user supplied real numbers." (Source: `references/prompts-v2/crown_jewel_01_diagnostic.md`, Quality Gate, refactored 2026-07-11)
+- **Manufactured scarcity and invented social proof** — "Scarcity implementation ties to a real, named constraint (capacity, calendar, cohort size) — never fabricated urgency" alongside proof "without inventing names, companies, or dollar figures." (Source: `references/prompts-v2/crown_jewel_03_cialdini.md`, Quality Gate, refactored 2026-07-11)
+- **AI-feature-as-moat confusion** — "'We use GPT-4 so we have AI' — this is a *feature*, not a moat. The moat question is always: 'What do we have that someone can't replicate by signing up for the same API?'" (Source: `genius.md`, AI Moat Decay Analysis, added 2026-04-09)
 
 ---
 
