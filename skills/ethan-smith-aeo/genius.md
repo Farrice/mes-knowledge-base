@@ -4,6 +4,17 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These twelve patterns are intuition primitives, not a checklist to march through. Absorb the historian's instinct (map every new tactic to its 2007/2012/2018 analogue), the citation-frequency reflex (frequency across the corpus beats one blue link), and the experimentalist's discipline (control group before conclusion) — then reason from them. If the output enumerates "Pattern 1, Pattern 2, Pattern 3" in order, or narrates "per the Anti-Spam Immune Response, this tactic..." you have failed: naming the machinery on the page tells the reader you're following a script, which is the opposite of what earns a citation.
+
+The recognition test: would Ethan Smith recognize this as an actual AEO strategy — hypothesis stated, control group named, reproducibility demanded — or as someone using AEO vocabulary (citation frequency, share of voice, information gain) without the underlying experimental rigor behind it? If it's the second, rebuild before delivery.
+
+Specifically:
+- Do NOT label sections "here's the citation frequency play" or "applying the 2007 filter." Run the diagnostic silently; deliver the strategy, not the framework tour.
+- His texture is understated and data-first, never hype. He explicitly distances himself from the "SEO is dead" fear-selling that dominates most AEO commentary (extraction report line 19: "most AEO voices are selling fear ('SEO is dead') or selling tools"). The tell of a fake Ethan Smith output is urgency with no number, no control group, no reproducible test attached to it.
+- Polish is the tell: a claim that reads as confident best-practice with no "did we reproduce this?" attached fails his own Control Group Test (Pattern 8) before it fails anyone else's — 18 years of watching categories of spam get wiped out (extraction report line 46) makes him distrust anything that sounds too clean.
+
 ## Genius Patterns
 
 ## Core Patterns
@@ -113,19 +124,19 @@ LLM traffic is massively underreported. Users don't click citations — they cop
 
 ## Anti-Patterns
 
-> Consolidated from the Core Patterns, the Anti-Exemplar, and the Score-4 rubric rows above — no new methodology. Flag and fix any of these before delivery.
+> Consolidated from the Core Patterns, the Anti-Exemplar, and the Score-4 rubric rows above — no new methodology. Flag and fix any of these before delivery. Each item below carries a source anchor into `extractions/ethan-smith/ethan-smith-aeo-extraction-report.md` (source: Lenny's Podcast interview, ~60 min, transcribed via YouTube auto-captions — see report header, line 6).
 
-- **Manipulation with a half-life** (Pattern 4): any tactic the platform would build an algorithm to stop. It works temporarily, then destroys you.
-- **Single-rank optimization** (Pattern 2 / Anti-Exemplar): optimizing for one #1 Google position instead of citation frequency across the retrieval corpus.
-- **Derivative content** (Pattern 10 / Anti-Exemplar): content too similar to existing results gets flagged as typicality and ignored. No information gain = invisible.
+- **Manipulation with a half-life** (Pattern 4): any tactic the platform would build an algorithm to stop. It works temporarily, then destroys you. *Source: extraction report line 47 — "If someone at [platform] saw what I'm doing, would they applaud or would they build an algorithm to stop me?"*
+- **Single-rank optimization** (Pattern 2 / Anti-Exemplar): optimizing for one #1 Google position instead of citation frequency across the retrieval corpus. *Source: extraction report line 34 — "In Google, position #1 wins. In LLMs, frequency of citation across the summary wins — the answer mentioned most often across sources becomes the top recommendation."*
+- **Derivative content** (Pattern 10 / Anti-Exemplar): content too similar to existing results gets flagged as typicality and ignored. No information gain = invisible. *Source: extraction report line 82 — Ethan identifies "information gain" as the fundamental quality signal... combined with "typicality" detection — if your content is too similar to what already exists, it gets flagged as derivative.*
 - **The 2018 "Ultimate Guide" play** (Anti-Exemplar): keyword-stuffed broad-keyword posts, generic advice, paraphrased competitor content, aggressive link building. Briefly ranks, then falls off; never cited by LLMs.
 - **Inauthentic community presence** (Pattern 7): fake accounts, marketing copy, or "best-in-class" fluff on Reddit — the community immune system is stronger than any automation.
 - **Anecdote-driven strategy** (Pattern 8): acting on published "best practices" without a control group or reproduction. Unvalidated hypotheses.
-- **Single-surface blindness** (Pattern 9 / rubric): optimizing and tracking only one LLM surface when citation overlap diverges (ChatGPT ~35% vs. Google; Perplexity ~70%).
-- **Referral-click measurement** (Pattern 12): judging AEO by tracked clicks only — LLM users copy brand names and arrive via branded search or direct.
+- **Single-surface blindness** (Pattern 9 / rubric): optimizing and tracking only one LLM surface when citation overlap diverges (ChatGPT ~35% vs. Google; Perplexity ~70%). *Source: extraction report line 76 — "ChatGPT citations overlap only 35% with Google results; Perplexity overlaps 70%."*
+- **Referral-click measurement** (Pattern 12): judging AEO by tracked clicks only — LLM users copy brand names and arrive via branded search or direct. *Source: extraction report line 94 — "users don't click citations — they copy the brand name, open a new tab, type it into Google or directly navigate to the site. This shows up as 'branded Google search' or 'direct traffic,' completely masking the LLM's role."*
 - **Flat lead weighting** (WebFlow 6x Test): treating LLM-sourced leads the same as Google leads despite the 6x conversion premium.
-- **Broad-keyword-only coverage** (rubric, Longtail Query Ownership Score 4): addressing only high-volume keywords with many existing answers while ignoring unowned tail questions.
-- **Generic corporate voice** (rubric, Authenticity Signal Score 4): content that feels generic, corporate, or disingenuous — fails the Reddit Authenticity Protocol test.
+- **Broad-keyword-only coverage** (rubric, Longtail Query Ownership Score 4): addressing only high-volume keywords with many existing answers while ignoring unowned tail questions. *Source: extraction report line 52 — "25 words per query vs. 6 in Google. The tail is massive again."*
+- **Generic corporate voice** (rubric, Authenticity Signal Score 4): content that feels generic, corporate, or disingenuous — fails the Reddit Authenticity Protocol test. *Source: extraction report line 64 — the winning strategy is "embarrassingly simple: be a real person, say who you are and where you work, and give useful information."*
 
 ---
 
@@ -154,7 +165,7 @@ LLM traffic is massively underreported. Users don't click citations — they cop
 ## Expert-Specific Quality Rubric
 
 | Criterion                     | Score 4 (Acceptable)                                                                | Score 7 (Good)                                                                                    | Score 10 (Savant)                                                                                                |
-| :---------------------------- | :---------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ | :--------------------------------------------------------------------------------------------------------------- |
+| :---------------------------- | :---------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------- |
 | **Information Gain Density**  | Content largely rehashes existing information; minimal unique insight.                | Content offers some novel perspectives or data points, but is not entirely unique.                | Content introduces entirely new data, analysis, or solutions that are unavailable elsewhere. It creates a new standard for the topic. |
 | **Citation Frequency Potential** | Optimized for single-instance ranking (e.g., #1 Google search result); unlikely to be broadly cited. | Content is useful and might be cited occasionally, but lacks the depth/breadth for frequent LLM recommendation. | Designed to be the definitive source, making it highly likely to be cited across multiple LLM queries due to comprehensive coverage and authority. |
 | **Anti-Spam Resilience**      | Relies on tactics that could be perceived as manipulative or gaming the system; high risk of future penalization. | Generally adheres to platform guidelines, but some elements might be borderline or could be misinterpreted. | Strategy is inherently aligned with platform goals (e.g., user help, unique value); would be "applauded" by platform engineers. |
