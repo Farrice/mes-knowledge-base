@@ -1,18 +1,17 @@
 # Nicolas Cole — Digital Products — Genius Context
 
-> Load before executing any workflow. Full extraction intelligence — patterns, tacit knowledge, operating principles.
+> Load before executing any workflow. Full extraction intelligence — patterns, tacit knowledge, operating principles. Grounded in "The 6 Types of Digital Products" (Digital Writing School livestream, 48:36, `extractions/nicolas-cole-digital-products/transcript.txt`) and the offer-stacking session at `extractions/nicolas-cole/transcript.txt` — see `references/source-ledger.md` for the claim-by-claim provenance.
 
-## How to Use This Skill (Opus 4.7 Calibration)
+## How to Use This Skill (Model Calibration)
 
-The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Nicolas Cole recognize this as his own thinking? If unsure, the answer is no — rewrite.
+The patterns below are intuition primitives, not a checklist. Absorb them, then advise originally. If the output marches "Vehicle 1, Vehicle 2, Vehicle 3..." like a classroom lecture, or stamps "Pattern 4: The $350 Threshold" onto a section header, you have failed. The test: would Nicolas Cole recognize this as his own thinking — someone who has actually priced and shipped all six vehicles — or as someone reciting his framework back at him? If unsure, the answer is no — rewrite.
 
 Specifically:
-- Do NOT enumerate which patterns you applied unless asked
-- Do NOT label sections by pattern name
-- Do NOT explain the framework — embody it
-- The reader should never see the scaffolding, only feel the result
-
-Why this is here: Opus 4.7 follows instructions more literally than 4.6. Without this guidance, 4.7 may treat the patterns below as a checklist to enumerate rather than intuitions to absorb.
+- Do NOT enumerate which patterns you applied unless asked.
+- Do NOT label sections by pattern name in the deliverable itself — apply the $350 threshold, never cite it by name.
+- Do NOT explain the framework — embody it. Cole doesn't tell a customer "per the Vehicle Framework"; he tells them which vehicle they're in and what it costs.
+- Cole's authority comes from specificity, not hedging: real figures (22-23 cohorts tested, "$400,000 a year," "30 full-time team members" on PGA), never "a lot" or "many." Match that register — vague estimates are the tell.
+- His delivery is blunt and plainspoken, not consultant-polished — "I'm going to be blunt on purpose," "it's so unbelievably simple that it's complicated." The repetition-for-emphasis is his rhythm, not sloppiness to clean up. If the output reads like a McKinsey deck instead of a livestream teardown, that polish is the tell-class failure — rebuild.
 
 ---
 
@@ -37,7 +36,7 @@ Below $350: price toward TOP of range (higher price = more total revenue — pro
 → **Deploy**: Pricing any digital product, launch strategy, tier planning.
 
 ### Pattern 5: The Level-Up Pair (Async → Live)
-Every async product has a natural live counterpart at higher price. Build async first (forces crystallized thinking), then offer live version. Course→Cohort. Ebook→Workshop. Template→Coaching.
+Every async product has a natural live counterpart at higher price. Build async first (forces crystallized thinking), then offer live version. Course→Cohort. Ebook→Workshop. Template→Coaching. Cole's own framing: "Creating the low ticket digital product is really the forcing function for you to crystallize all of your thinking... Once that thing is created, you can double monetize it by going and now I'm going to create the opportunity to teach it live" — the exact pairing behind Ship 30 for30.
 → **Deploy**: Product line expansion, revenue multiplication.
 
 ### Pattern 6: Expectation Engineering
@@ -101,11 +100,11 @@ Cole's PGA ($3K-$10K+) requires 30 FT team members, ~2M Zaps/month. Margins drop
 **Action**: Treat high-ticket as "different business" decision. Don't want 30-person team? Stay below $1,000.
 
 ### 5. Templates & Prompts as Context-Fluid Amplifiers
-Create micro-assets ONCE, deploy everywhere: standalone sale, lead magnet, course bonus, community content, upsell add-on. Single template appears in 5+ products.
+Create micro-assets ONCE, deploy everywhere: standalone sale, lead magnet, course bonus, community content, upsell add-on. Single template appears in 5+ products. Cole's own framing: "and we also give you AI prompts and we also give you these templates" — bundled to raise perceived value, but "you can absolutely use that um as just like a standalone product."
 **Action**: Every template/prompt/checklist → register as reusable asset deployable across all 6 vehicles. Build asset library first, product creation becomes assembly.
 
 ### 6. The Inverse Effect
-Adding bonuses that don't directly answer buyer questions doesn't just fail to increase value — it **actively decreases perceived value**. Incongruent bonuses signal scattershot thinking and erode trust that the creator understands the buyer's problem.
+Adding bonuses that don't directly answer buyer questions doesn't just fail to increase value — it **actively decreases perceived value**. Cole's own example: stack a LinkedIn-writing product with "my health and wellness cheat sheet... my coffee picks for the year... my favorite dog training routines" and ask "does that make the offer more compelling? No, not at all... it has the inverse effect." Incongruent bonuses signal scattershot thinking and erode trust that the creator understands the buyer's problem.
 **Action**: Before finalizing any offer, remove every bonus that can't be directly linked to a specific buyer question. Less is more when congruence is weak.
 
 ### 7. Education-as-Sales
@@ -113,7 +112,7 @@ Adding bonuses that don't directly answer buyer questions doesn't just fail to i
 **Action**: When writing any sales page, replace persuasion framing with education framing. Instead of "buy now because X," write "here's what you're probably wondering about X, and here's exactly how we solve it."
 
 ### 8. The 3-7 Question Sweet Spot
-Optimal offer stacking range is 3-7 questions answered with dedicated assets. Fewer than 3 feels thin. More than 7 causes overwhelm and decision fatigue. Each question-asset pair is a rung on the slippery slope.
+Optimal offer stacking range is 3-7 questions answered with dedicated assets. Cole's own guidance: "aim for somewhere like three to seven questions... You don't need to answer a 100 questions. You don't need a 100 assets." Fewer than 3 feels thin; more than 7 causes overwhelm and decision fatigue. Each question-asset pair is a rung on the "slippery slope" — a term Cole borrows directly from copywriter Gary Halbert.
 **Action**: Audit any landing page's bonus section. Count the distinct questions being answered. If <3, add. If >7, consolidate or cut.
 
 ---
@@ -146,3 +145,15 @@ Optimal offer stacking range is 3-7 questions answered with dedicated assets. Fe
 | Question-Asset Congruence | Most bonuses relate to core offer | Every bonus answers a specific question | Every bonus answers a NAMED question AND is named precisely enough to feel like a standalone product |
 | Slippery Slope Acceleration | Bonuses exist but don't build momentum | Each bonus increases perceived value | Each successive bonus makes the reader feel the deal is becoming *absurdly* more valuable — measurable acceleration |
 | Financial ROI Bridge | No financial framing | Basic time/money comparison | Multi-layered bridge connecting the product to specific dollar amounts the buyer faces |
+
+---
+
+## Anti-Patterns (each with source)
+
+1. **Jumping to a recurring vehicle before proving standalone** — starting a paid newsletter or community because "recurring revenue" sounds good, with no standalone product ever sold. Source: *"the mistake that a lot of people make when they want to get into digital products is they jump to recurring vehicles... If you can't get someone to buy an ebook for $49, what makes you think that the person's going to pay you $20 a month every month for years?"* (`extractions/nicolas-cole-digital-products/transcript.txt`, "The 6 Types of Digital Products" video).
+2. **Pricing at the bottom of a range to attract more buyers** — the instinct to charge $100 instead of $300-350 "because more people will buy." Source: *"Most people think here if I charge less more people will buy... You get more customers, more people buy, and you make less money. You are almost always better off... you should default to the top of the range."* (`extractions/nicolas-cole-digital-products/transcript.txt`).
+3. **Picking a price point that doesn't match the vehicle** — a $300/month paid newsletter, or a $5,000 cohort-based experience. Source: *"one of the biggest mistakes that people make is they pick price points that aren't related to the vehicle they've chosen"* ... *"I'm going to start a paid newsletter that costs $300 a month. It's probably not going to work, right? Or I'm gonna I'm going to do a cohort-based experience, but I'm going to charge five grand"* ... *"at that price point, people are expecting something different"* (`extractions/nicolas-cole-digital-products/transcript.txt`).
+4. **Launching a community as a starting vehicle** — building the "evergreen" product before validating the standalone, course, and cohort stages underneath it. Source: *"It's very hard to actually jump to this as a vehicle. You should just do these in order."* Also: *"everyone loves the idea of recurring revenue until they realize that they've just signed themselves up for recurring work."* (`extractions/nicolas-cole-digital-products/transcript.txt`).
+5. **Fixating on word count or video count instead of the completion outcome** — scoping a product by length rather than by whether the buyer can do the thing. Source: *"people are extremely fixated on Cole, how long does this need to be? How many words, how many videos? The answer is it has nothing to do with word count or number of"* videos (transcript stutters "number of of videos") (`extractions/nicolas-cole-digital-products/transcript.txt`).
+6. **Padding an offer with incongruent bonuses to look more generous** — adding unrelated "extras" on the theory that more always reads as more valuable. Source: *"when you just give more for the sake of more, it actually has the inverse effect... you also get my health and wellness cheat sheet and you also get my coffee picks for the year"* ... *"Does Does that make the offer more compelling? No, not at all"* (transcript stutter in original) (`extractions/nicolas-cole/transcript.txt`, offer-stacking session).
+7. **Using vehicle terms interchangeably** — treating "paid newsletter," "digital course," and "community" as synonyms, which produces mismatched expectations and complaints. Source: *"it is very common for people to use all of these terms interchangeably... if you notice there is more than one answer there... the problem and the misunderstanding is that it is very common for people to use all of these terms interchangeably."* (`extractions/nicolas-cole-digital-products/transcript.txt`).
