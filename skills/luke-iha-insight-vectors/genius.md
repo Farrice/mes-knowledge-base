@@ -10,7 +10,19 @@ Luke Iha's work sits at the intersection of direct response copywriting and syst
 
 An Insight Vector is a precise intervention in the audience's mental model that exploits a structural weakness (reversed causation, hidden constraints, missing variables, etc.) to introduce a new understanding. When the new understanding takes hold, the audience's existing belief architecture DEMANDS your product.
 
-This isn't manipulation. It's making the invisible visible.
+This isn't manipulation. It's making the invisible visible. Iha's own name for this idea is unambiguous: "the secret DNA of market infecting mind viruses" (extractions/luke-iha-insight-mastery/transcript.txt) — deliberately provocative language he uses to describe how a single well-placed idea propagates through a market.
+
+---
+
+## How to Use This Skill (Model Calibration)
+
+These 12 patterns are intuition primitives, not a checklist to march through in order. If the output stamps "Vector Type: Reverse Causation" as a visible label, or walks the reader through "Step 1: map the mental model, Step 2: mine the grammar" like a worksheet, you have failed. The test: would Luke Iha recognize this as an insight vector — a line that lands as "I always felt like something was off about [X]... now I know why" — or would he recognize it as someone using insight-vector vocabulary to dress up an ordinary claim? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label the beats. Never write "Here's the paradoxical question" or "This is the UMP." Deliver the paradox; never announce that it is one.
+- Do NOT enumerate which vector category (causality / pattern / control point / model structure) you pulled from unless the user is explicitly auditing existing copy — that's the one workflow where naming the machinery is the deliverable.
+- His texture is blunt and a little self-aware, not academic. He calls his own "mind virus" analogy out while still using it: "I'm sensationalizing a lot of this, but it's a very real analogy for how this process works" (extractions/luke-iha-insight-mastery/transcript.txt). Direct, declarative sentences — no hedging, no "it could be argued." His hook doctrine from the same channel makes the stakes explicit: "A polite hook is a dead hook" (extractions/luke-iha-hooks/transcript.txt).
+- Polish is the tell. A vector that reads like a marketing framework ("Our proprietary 3-step system") has already lost the aha. A vector that reads like something the audience half-suspected and is relieved to finally hear named — that's the one that lands.
 
 ---
 
@@ -23,7 +35,7 @@ People navigate reality using internal maps (mental models). These maps are USEF
 - **Outdated territories** (beliefs that were once true but aren't anymore)
 - **Unmarked hazards** (consequences they can't see)
 
-**Insight Vectors exploit the errors in the map.** You're not changing what the territory looks like — you're correcting their map so they can navigate it better.
+**Insight Vectors exploit the errors in the map.** You're not changing what the territory looks like — you're correcting their map so they can navigate it better. The map metaphor is literal in Iha's own material, not a stylistic add-on: "There's little places where they haven't been fully shaded in, borders that aren't clearly marked, towns that have popped up that we don't even know about yet" (extractions/luke-iha-insight-mastery/transcript.txt).
 
 ### Pattern 2: Suspicion > Novelty
 The most powerful insight vectors don't introduce BRAND NEW information. They CONFIRM something the audience already half-suspects. The reaction you want is:
@@ -58,7 +70,7 @@ Flipping a causal arrow uses the audience's existing variables (they already kno
 - **Maximally intuitive** (the audience already has the evidence in their own experience)
 - **Maximally new** (they've never considered this direction)
 
-High SIN scores are almost guaranteed with reverse causation because it satisfies all three criteria simultaneously using familiar elements.
+High SIN scores are almost guaranteed with reverse causation because it satisfies all three criteria simultaneously using familiar elements. In Iha's own words, working through the metabolism/fat example live: "simply reversing the causation of something is incredibly incredibly powerful, right?" (extractions/luke-iha-insight-mastery/transcript.txt).
 
 ### Pattern 5: Types Create Compulsive Engagement
 System Archetype vectors ("What's your _____ type?") trigger compulsive self-classification. This is deeper than engagement bait — it's a genuine systems insight:
@@ -83,6 +95,8 @@ The 8 beats (paradox → UMP → trigger → proof → intensifiers → myths �
 - **Landing page**: All 8 beats deployed in full
 - **Ad**: Beat 1 + condensed Beat 2 + Beat 8 (hook → mechanism flash → CTA)
 
+Iha names seven of these eight beats in one breath on his own channel: "paradoxical questions, uh, UMP, trigger, testable proof, intensifiers, myths and mistakes, cause" (extractions/luke-iha-insight-mastery/transcript.txt). Beat 8 (Resolution) is this skill's synthesis of his standard product-bridge close — he doesn't name an eighth beat explicitly in this video, so treat "Resolution" as LIKELY, not verbatim (see references/source-ledger.md).
+
 ### Pattern 8: Vectors Stack — And The Stack Creates Religious Certainty
 One vector creates interest. Consistent vectors from the same TYPE create skepticism ("this person has one trick"). Vectors from DIFFERENT TYPES that point to the SAME CONCLUSION create conviction.
 
@@ -99,7 +113,7 @@ Simple + Intuitive + New. Score 1-10 on each, total /30.
 - **≥21**: Deploy — this vector has commercial power
 - **≥25**: Rare — this is a million-dollar mechanism candidate
 
-SIN scores measure the likelihood that the vector creates an AHA moment in the first 10 seconds of exposure. Low SIN = they need convincing before they'll engage. High SIN = they're hooked before proof.
+SIN scores measure the likelihood that the vector creates an AHA moment in the first 10 seconds of exposure. Low SIN = they need convincing before they'll engage. High SIN = they're hooked before proof. The S/I/N definitions and the <15/<21 cutoffs are VERIFIED against `extractions/luke-iha/video-7-million-dollar-mechanisms/extraction-report.md` ("Rate each dimension 1-10. Total < 21 = mechanism needs work. < 15 = abandon and start over."); the ≥25 "rare" tier is this skill's LIKELY extrapolation, not stated verbatim in that source.
 
 ### Pattern 10: The Product Must Be The Upstream Fix
 In the 8-Fold Elaboration, Beat 8 (Resolution) must position your product as addressing the ROOT cause or the HIDDEN CONDITION — never the symptom. This is what makes the product bridge feel inevitable rather than forced:
@@ -122,7 +136,7 @@ Mechanisms, hooks, content angles, campaign concepts, and copy blocks are all DO
 **The hierarchy**: 
 Insight Vectors (this skill) → Mechanisms → Hooks → Copy Blocks → Content → Campaigns
 
-This is WHY this skill sits upstream of all other Luke Iha skills. It's the idea generator that feeds the entire pipeline.
+This is WHY this skill sits upstream of all other Luke Iha skills. It's the idea generator that feeds the entire pipeline — directly from the source: "insights and epiphies are so powerful for mechanisms, hooks, ads, everything else" (extractions/luke-iha-insight-mastery/transcript.txt; "epiphies" is the transcript's own ASR spelling of "epiphanies," retained verbatim).
 
 ---
 
@@ -141,7 +155,7 @@ Not all suspicions are equal. Rank them:
 3. **INTUITED suspicions** (they've had a vague feeling) → Medium value
 4. **HEARD suspicions** (someone else told them) → Lower value
 
-Always prioritize vectors that tap experienced suspicions.
+Always prioritize vectors that tap experienced suspicions. The clearest EXPERIENCED-suspicion example in Iha's own material is the friend anecdote he opens the training with: "20 to 30% of your energy is being spent on suppression" — a line the friend was still repeating verbatim weeks after hearing it once (extractions/luke-iha-insight-mastery/transcript.txt).
 
 ### HK3: When NOT To Use Insight Vectors
 - **Mature repeat buyers** who already believe → Use proof + urgency, not new insights
@@ -166,10 +180,10 @@ The vector hook works because it creates a knowledge gap that can ONLY be closed
 When you name a mechanism, you create proprietary language that:
 - Your audience starts using ("I think I have the Fat Brake issue")
 - Competitors can't claim without looking derivative
-- Search engines start indexing (branded mechanism )
+- Search engines start indexing (branded mechanism)
 - Social shares carry YOUR framing ("Have you heard about the Fat Brake?")
 
-This is intellectual property that costs nothing to create but compounds in value over time.
+This is intellectual property that costs nothing to create but compounds in value over time. The underlying claim is VERIFIED in Iha's own naming material: "A mechanism without a name is invisible. The name makes it real, memorable, and shareable." (extractions/luke-iha/video-7-million-dollar-mechanisms/extraction-report.md).
 
 ### HK7: The Self-Persuasion Effect
 The most powerful insight vectors create SELF-PERSUASION — the audience convinces themselves. This happens when:
@@ -187,11 +201,13 @@ When deploying multiple vectors in a sequence (content series, VSL, email sequen
 4. **Close with the identity vector** — the one that reframes who they are (or could be)
 5. **Resolve with the hidden condition** — the prerequisite for success (your product)
 
-This order maximizes conviction because each layer changes HOW the audience processes the next.
+This order maximizes conviction because each layer changes HOW the audience processes the next. Iha's own goal-setting example runs this exact system-view-then-hidden-condition pairing in miniature: "Study shows you're 42% more likely to achieve your goals when you write them down" (system view), followed immediately by "That effect disappears within 72 hours unless the goal stays visible" (hidden condition) (extractions/luke-iha-insight-mastery/transcript.txt).
 
 ---
 
 ## Decision Framework
+
+Iha frames the whole exercise as diagnostic, not generative-on-command — he starts from the same working-theory posture the 5 questions below operationalize: "What is an insight? Here is my current working theory." (extractions/luke-iha-insight-mastery/transcript.txt).
 
 Before starting any insight vector workflow, answer these 5 questions:
 
@@ -219,30 +235,23 @@ The audience goes from "That's interesting" to "I need this" through a series of
 
 ## Anti-Patterns
 
-### 1. The Fabricated System
-Creating a mechanism or biological process that doesn't exist to make the vector sound more impressive. The vector should REVEAL real dynamics, not invent convenient ones.
+- **The Fabricated System** — inventing a mechanism, process, or study that doesn't exist to make a vector sound more impressive; runs against Iha's own caveat about the "mind virus" framing: "I'm sensationalizing a lot of this, but it's a very real analogy for how this process works" (extractions/luke-iha-insight-mastery/transcript.txt).
+  **Fix**: if you can't find a real mechanism, the insight isn't a vector — it's a claim dressed up as one.
 
-**Fix**: If you can't find a real mechanism, the insight might not be a vector — it might just be a claim dressed up as one.
+- **The Claimed Vector** — stating an insight vector as fact without earning it: no paradox, no proof, no aha moment, just "here's a counter-intuitive fact." Runs against Iha's own open-loop doctrine from the hooks material: "you want to make really strong open loops where you're not giving away enough" (extractions/luke-iha-hooks/transcript.txt).
+  **Fix**: always deliver through the paradoxical question first. Let the audience FEEL the knowledge gap before filling it.
 
-### 2. The Claimed Vector
-Stating an insight vector as fact without earning it — no paradox, no proof, no aha moment. Just "Here's a counter-intuitive fact."
+- **Complexity Without Clarity** — using systems-thinking language (feedback loops, leverage points, systemic cascades) without making it accessible. Iha's own Simple criterion is explicit: "Can you explain it in one sentence to a 12-year-old?" (extractions/luke-iha/video-7-million-dollar-mechanisms/extraction-report.md).
+  **Fix**: translate every systems concept into concrete, sensory language. "Feedback loop" → "a trap that tightens the more you struggle."
 
-**Fix**: Always deliver through the paradoxical question first. Let the audience FEEL the knowledge gap before filling it.
+- **The Kitchen Sink** — deploying every vector generated in a single piece; over-vectoring creates noise, not conviction. The specific density figure (1 vector per 200-300 words, HK4) is this skill's LIKELY extrapolation, not verbatim-attested in the source material (confidence and gap recorded in references/source-ledger.md).
+  **Fix**: select 1-2 vectors per piece. Save the rest for the content series or email sequence.
 
-### 3. Complexity Without Clarity
-Using systems-thinking language (feedback loops, leverage points, systemic cascades) without making it accessible. If a 12-year-old can't get the gist, the vector fails the "Simple" dimension.
+- **The Identity Attack** — using an insight vector to make the audience feel stupid for their current beliefs. Runs against how Iha frames his own friend example — as addition, never as a takedown: "All you're doing is adding a little bit more texture and granularity to his mental model and creating an insight" (extractions/luke-iha-insight-mastery/transcript.txt).
+  **Fix**: frame every vector as "Your model was reasonable given what you knew — here's what was hidden." Validate intelligence, correct the map.
 
-**Fix**: Translate every systems concept into concrete, sensory language. "Feedback loop" → "a trap that tightens the more you struggle."
-
-### 4. The Kitchen Sink
-Deploying every vector you generated in a single piece. Over-vectoring creates noise, not conviction.
-
-**Fix**: Select 1-2 vectors per piece. Save the rest for the content series or email sequence.
-
-### 5. The Identity Attack
-Using an insight vector to make the audience feel stupid for their current beliefs. McRaney's backfire effect applies here.
-
-**Fix**: Frame every vector as "Your model was reasonable given what you knew — here's what was hidden." Validate intelligence, correct the map.
+- **The Hedged Reveal** — burying the paradoxical question under three or four sentences of throat-clearing before the actual insight lands. Iha's hooks doctrine names this failure directly: "A polite hook is a dead hook" (extractions/luke-iha-hooks/transcript.txt).
+  **Fix**: the paradox is beat 1. It goes in the first line, not after a warm-up.
 
 ---
 
