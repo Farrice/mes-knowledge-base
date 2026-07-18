@@ -4,6 +4,18 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These ten patterns are intuition primitives, not a checklist to march through in order. Absorb them, then build the deliverable the way Jeremy would actually talk through it on a call — mechanism first, story as proof, math only when it's genuinely load-bearing. If the output visibly stamps "Pattern 1, Pattern 4, Pattern 7" in sequence, the machinery is showing and the deliverable has failed.
+
+The test: would Jeremy Haynes recognize this as something he'd actually say to a client on a call, or would he hear someone reciting mindset-engineering vocabulary back at him? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label sections "here's the Identity Versioning move" or "now applying Pain Leverage." Execute the reframe; never announce the framework by name.
+- Do NOT sand the profanity-adjacent bluntness down into calm coaching language, and never swap lived specifics ("$1M/month ÷ 10 deals = $100K/deal," three Birkin bags at $25K + $30K + $24K, firing 23 of 27 staff) for abstracted advice. Jeremy's authority comes from the number and the story being real and specific, not generalized.
+- His texture is confrontational and physical, not therapeutic. A decision is a "light switch," not a gradual process; the math gets written on a glass wall, not modeled in a spreadsheet; scarcity gets "dominated," not "managed."
+- Polish is the tell-class failure here specifically: a mindset reframe that reads like a LinkedIn caption ("mindset is everything") instead of naming the actual mechanism (which book, which number, which decision, which physical action) means the pattern's vocabulary got borrowed but the pattern itself wasn't applied.
+
 ## Genius Patterns
 
 10 mastery patterns decoded from Jeremy Haynes' mindset engineering methodology. These are the practitioner-derived systems that took him from $550K/year to multi-millions, running 12-15 rev-share deals at $100K+/month each.
@@ -130,7 +142,7 @@
 
 ## Hidden Knowledge
 
-Tacit knowledge not explicitly taught — inferred from patterns, timing, subtext, and edge cases in the transcript.
+Tacit knowledge not explicitly taught — inferred from patterns, timing, subtext, and edge cases across the 22,682-word interview transcript (`extractions/transcripts/_wmR2nfNhAE.txt`).
 
 ---
 
@@ -140,7 +152,7 @@ Jeremy presents his "fire 23 people" moment as a bold decision. The hidden knowl
 
 ## 2. Validation Before Vision
 
-Jeremy didn't have big vision first and then build skills. He built skills first (at the sales trainer's company) and then the vision expanded as validation cycles accumulated. The hidden sequence: **skill → validation → expanded identity → expanded vision → validation → repeat.** Most people try to start with vision and wonder why they can't execute. Jeremy's approach: you earn the right to bigger vision through stacked proof.
+Jeremy didn't have big vision first and then build skills. He built skills first (at the sales trainer's company) and then the vision expanded as validation cycles accumulated. The actual progression on record: sales-trainer job → $550K year one → $2M year two — vision only widened after each number was already banked. The hidden sequence: **skill → validation → expanded identity → expanded vision → validation → repeat.** Most people try to start with vision and wonder why they can't execute. Jeremy's approach: you earn the right to bigger vision through stacked proof.
 
 ## 3. The Speed Tax
 
@@ -152,7 +164,7 @@ The month-to-month contract structure is presented as fairness. The hidden funct
 
 ## 5. Reasons Expire at Predictable Thresholds
 
-Jeremy doesn't say this explicitly, but the pattern is clear: reasons expire when the emotional gap between desire and reality closes. Stephen's family-oriented reasons expired when his family was fully provided for. Edward's personal reasons expired when nothing material was missing. The hidden law: **a reason only works while there's an emotional gap between current state and desired state.** Once the gap closes, the reason dies and must be replaced — or you stall.
+Jeremy doesn't say this explicitly, but the pattern is clear: reasons expire when the emotional gap between desire and reality closes. Stephen ($20M/year) and Edward ($20M/year) both hit this wall at the same threshold — once income cleared eight figures, the old emotional gap closed and the reason died. Stephen's family-oriented reasons expired when his family was fully provided for. Edward's personal reasons expired when nothing material was missing. The hidden law: **a reason only works while there's an emotional gap between current state and desired state.** Once the gap closes, the reason dies and must be replaced — or you stall.
 
 ## 6. Demonization as Self-Regulation
 
@@ -160,11 +172,11 @@ The "Camry and double-wide trailer" guy Jeremy follows isn't followed for entert
 
 ## 7. The Subconscious Trojan Horse
 
-Jeremy buries a critical insight inside the police encounter story. The real lesson isn't about risk — it's about emotional recycling. He took rage from a traffic stop and converted it into the best workout of his life. Then he went back and thanked the officer. The hidden pattern: **every negative emotion is recyclable fuel.** He doesn't suppress emotions or process them through talk therapy. He *redirects them physically* and then releases the charge. The emotional energy is the same — only the target changes.
+Jeremy buries a critical insight inside the police encounter story. The real lesson isn't about risk — it's about emotional recycling. He took rage from a traffic stop and converted it into the best workout of his life. Then he walked back outside afterward, reached out his hand to the officer, and said, *"just want to say thank you, officer"* — before adding he was sorry for being stupid. The hidden pattern: **every negative emotion is recyclable fuel.** He doesn't suppress emotions or process them through talk therapy. He *redirects them physically* and then releases the charge with a deliberate act (the handshake) that closes the loop. The emotional energy is the same — only the target changes.
 
 ## 8. The "Squeeze" Mortality Frame
 
-The walls-closing-in metaphor at the transcript's end is positioned as encouragement, but the hidden operating principle is darker and more powerful: **you're dying no matter what.** The squeeze is guaranteed. Every decision is just about where in the hallway you experience the crush. This is Jeremy's actual risk framework underneath all the other frameworks: since the downside ceiling (death) is already guaranteed, every risk's actual downside is bounded by that certainty. It makes every individual risk feel smaller.
+The walls-closing-in metaphor at the transcript's end is positioned as encouragement, but the hidden operating principle is darker and more powerful. In his own words: *"this is like the walls of life... the squeeze at the end is your death... you're 100% no matter what going to die."* The squeeze is guaranteed. Every decision is just about where in the hallway you experience the crush. This is Jeremy's actual risk framework underneath all the other frameworks: since the downside ceiling (death) is already guaranteed at 100%, every risk's actual downside is bounded by that certainty. It makes every individual risk feel smaller.
 
 ## 9. Reciprocity as Identity Block
 
@@ -202,6 +214,17 @@ Jeremy's late adoption of faith ("I didn't even know the word faith until like a
 *   **Scarcity Overwhelm Action**: Upon detecting any internal flicker of scarcity or hesitation around a financial decision, Jeremy will immediately identify a disproportionately large spend or investment that directly challenges that scarcity, often without full logical justification beyond "crushing the voice." → **Deploy when**: Experiencing financial anxiety, hesitation on a strategic investment, or feeling limited by perceived monetary constraints.
 *   **Asymmetric Risk Framing**: When a decision feels "risky," Jeremy automatically re-frames it using the fire/water analogy or by quantifying the true upside vs. downside, often highlighting the greater risk of inaction or maintaining the status quo. → **Deploy when**: Facing decision paralysis, encountering fear-based objections (internal or external), or evaluating new opportunities.
 
+## Anti-Patterns
+
+What imitators get wrong when they lift the vocabulary of this material instead of the mechanism underneath. Every item below is sourced to the same 22,682-word interview transcript (`extractions/transcripts/_wmR2nfNhAE.txt`), verified verbatim, 2026-01 extraction.
+
+- **Treating Identity Versioning as a personality quiz.** Jeremy's foundational claim is explicit: "Every trait and characteristic of you is fully fluid and dynamic. 100% of what you consider you can change." A static "here's your archetype" output misreads the mechanic — the version sheet is meant to be rewritten on purpose, not diagnosed once and filed away.
+- **Running the Reasons Engine as a one-time "find your why" exercise.** Jeremy sources the concept directly from Jim Rohn's 1981 Anaheim presentation (per transcript: "he introduces the concept of needing reasons") and treats reasons as perishable, not permanent. An output that produces a single durable "why" statement contradicts the source material.
+- **Using Scarcity Domination as generic "spend more, worry less" advice.** The transcript anchor (the three-Birkin-bag story, $25K + $30K + $24K) is specific: Jeremy spends to obliterate a *detected* scarcity flinch, not as a blanket prescription for anyone without asymmetric upside already banked. Presenting it as universal spending permission strips the precondition and turns discipline into recklessness.
+- **Reducing Pain Leverage to "get out of your comfort zone."** Jeremy names two real sources verbatim in the interview — Daniel Goleman's "Vital Lies, Simple Truths" and Richard Bandler's "Using Your Brain for a Change" — and cites specific mechanisms from each (the pain-avoidance blind spot, memory-intensity manipulation). Dropping the neurological mechanism for a motivational slogan loses the actual technique being taught.
+- **Flattening Worldview Propaganda to "curate your Instagram feed."** The source material is wider than digital curation: a "300 grand" home relocation over a sewage smell, and deliberate cultivation of a demonized reference figure (the "Camry and double wide trailer" investor Jeremy follows specifically to dislike). Digital-only framing misses half the system.
+- **Presenting the Anchor Model as "take more risk when you have more responsibility" with no visualization.** Jeremy's actual teaching keeps the same anchors (kids, debt, mortgage) but changes the vehicle carrying them — "great men... carry them in a hot air balloon and are like 20,000 ft in the air." Advice-only framing drops the image that makes it usable mid-decision.
+
 ## Quality Rubric
 
-> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+> Detailed scoring rubric: `references/quality-rubric.md` — 3-tier scale (Score 4 Acceptable / Score 7 Good / Score 10 Savant) across the expert-specific criteria. Load on-demand for grading.
