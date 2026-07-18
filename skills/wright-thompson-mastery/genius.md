@@ -4,6 +4,20 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then report and build originally — Thompson's method starts in the field, not on the page. If the output mechanically labels its own moves ("Central Complication: X," "Interiority Bridge: Y," "Myth/Reality Gap: Z") you have failed before the first sentence lands.
+
+Specifically:
+- Do NOT announce the machinery. Never write "the central complication of this piece is..." or "here's where interiority bridges to exteriority" inside the deliverable itself. Thompson's craft is that the technique disappears into detail — the reader feels the interior life through what the exterior action doesn't explain.
+- Do NOT state the theme. If a closing paragraph reads like a thesis statement, it has failed the standard Thompson holds himself to — he refuses to say his theme explicitly even when a piece is clearly built around one.
+- Polish-is-the-tell: an overwritten sentence is a reporting gap wearing a writing costume. Before smoothing a sentence, ask what specific, sourced detail is missing that the smoothing is covering for — "a great detail will do the work of 50 shitty sentences," not the reverse.
+- His texture is receiver, not broadcaster: declarative sentences that land flat, "and so" as a structural hinge, one long unspooling sentence set against several short ones, concrete nouns standing in for facts you actually went and got — never ornamental adjectives standing in for facts you didn't.
+
+The test: would Wright Thompson recognize this as reporting that earned its architecture — or as someone borrowing his sentence rhythm without doing the legwork underneath it? If it's the second, rebuild from the reporting, not the prose. This is the recognition test for every deliverable this skill produces.
+
+---
+
 ## Core Philosophy
 
 Wright Thompson writes about sports the way Faulkner wrote about Yoknapatawpha County — the subject is a vehicle, never the destination. Every profile is a dispatch from the interior life of a human being confronting something universal: mortality, identity, legacy, the distance between who we say we are and what we actually do.
@@ -104,23 +118,13 @@ The writer's job is not to sort out which version is "true" — it's to "present
 
 ## Anti-Patterns
 
-### 1. Thesis-Statement Themes
-Thompson never states his theme explicitly. "I don't think I'm ever gonna say that explicitly, but hopefully when you read the piece it'll vibrate with that." If your theme reads like a topic sentence, you've failed.
-
-### 2. Writing Around Holes
-"Every time I feel like I can write myself out of — I can write around a hole in my knowledge, it's just bad." If you're reaching for language, you're hiding a reporting gap.
-
-### 3. Repetition of Effect
-Jay Love's warning: don't keep going back to the same obsession, the same trick, the same structural move. "Like I'd get into things I'm obsessed with and then I'll just keep going back and back and back."
-
-### 4. Depressurizing the Cabin
-Book-length pieces cannot "break the spell by jumping ahead in time." Long-form must "push a ball downhill and clear out all the obstacles so it rolls." Don't mistake a long magazine story for a book structure.
-
-### 5. Hamfisted Interiority
-"One of the things you get better at is not being so hamfisted with posing the question literally in the piece." The interior truth should vibrate beneath the surface — never announced, never explained.
-
-### 6. Brainstorming-Room Artifice
-"In most brainstorming sessions the goal for the individuals is to look good, not to make the thing good." The best ideas come from collaborative joy, not performative meetings. "The accidental thing done in a sense of collaborative fun and joy is always better than something on your calendar."
+- **Thesis-Statement Themes** — Thompson never states his theme explicitly: "I don't think I'm ever gonna say that explicitly, but hopefully when you read the piece it'll vibrate with that" (source: `extractions/wright-thompson/transcript.txt`, "How I Write" podcast interview transcript, char offset ~46834-46951). If your theme reads like a topic sentence, you've failed.
+  Applied to the Joe Montana profile: the piece is built on watching him "struggle with what to do when time was diminishing your most valuable asset, which was the way people remembered you" — and Thompson notes, "I don't think I ever said that."
+- **Writing Around Holes** — "Every time I feel like I can sort of write myself out of — I can write around a hole in my knowledge, it's just bad" (source: `extractions/wright-thompson/transcript.txt`, char offset ~40943-41056). If you're reaching for language, you're hiding a reporting gap, not solving a writing problem.
+- **Repetition of Effect** — Jay Love's warning, reported by Thompson: "Jay Love used to always warn me about like repetition of effect" — the risk of "get[ting] into things I'm obsessed with and then I'll just keep going back and back and back" (source: `extractions/wright-thompson/transcript.txt`, char offset ~50559-50622, "How I Write" podcast interview). Don't keep returning to the same obsession, the same trick, the same structural move across pieces.
+- **Depressurizing the Cabin** — Book editor Scott Moyers's rule, adopted by Thompson: "you can't depressurize the cabin" — a magazine story can "break the spell by jumping ahead in time," but a book has to "push a ball downhill and then clear out all the obstacles so it rolls" (source: `extractions/wright-thompson/transcript.txt`, char offset ~28491-28722). Don't mistake a long magazine story's structure for a book's.
+- **Hamfisted Interiority** — "One of the things you get better at the more you do it is not being so hamfisted with posing the question literally in the piece" (source: `extractions/wright-thompson/transcript.txt`, char offset ~46236-46364). The interior truth should vibrate beneath the surface — never announced, never explained.
+- **Brainstorming-Room Artifice** — "In most brainstorming sessions the goal for the individuals in the brainstorming session is to look good, not to make the thing good" (source: `extractions/wright-thompson/transcript.txt`, char offset ~52521-52651, transcript renders it "braintorming"). The best material comes from unscheduled joy, not performative meetings: "the accidental thing done in a sense of collaborative fun and joy is always better than something on your calendar" (same interview, char offset ~53604-53718).
 
 ---
 
