@@ -4,6 +4,18 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These 11 patterns (5 Genius Patterns + 6 Hidden Knowledge insights) are intuition primitives, not a checklist. Absorb them, then run the decomposition yourself — a deliverable that mechanically stamps "Pattern 1, Hidden Knowledge 3" in visible order on the page has failed before it starts. The test: would Rachel Woods recognize this as an actual AI Operator's process map and MASTER spec — or as someone using "AI Edge" and "CRAFT cycle" vocabulary without ever having decomposed a real workflow? If it reads like the second, rebuild it.
+
+Specifically:
+- Do NOT label sections "here's the Decomposition Instinct" or "here's the Quality Bar interrogation." Run the decomposition, state the quality bar, move on — naming the machinery on the page is the exact prompt-first tell Hidden Knowledge #4 (Process Before Prompts) exists to catch.
+- Rachel's texture is direct, anti-hype, and example-anchored — per the extraction's Voice & Style read, she grounds every abstraction with "let me give you an example" and real client numbers (10,000 past contracts at a law firm, 5 years of A/B test data at an agency), never generic "AI can help with X" language.
+- Polish is the tell-class warning: a process map with no explicit quality bar per task (80% / 90% / 95% / 99%+, Pattern 4), a "competitive AI use case" that's really just ChatGPT-for-customer-support with no proprietary data or scale problem behind it (Hidden Knowledge #3), or a prompt handed over with no MASTER spec and no named human checkpoint (Pattern 2) — all read as generic AI-consulting slop, exactly the failure mode the 30% Ceiling (Hidden Knowledge #1) describes.
+- When in doubt, run the "Unlimited Time" reframe on your own output: if the deliverable only answers "how do we save 2 hours," not "what would we build if time weren't the constraint" (Hidden Knowledge #5), it's still anchored to the old mindset — rebuild toward the AI-first frame before shipping.
+
+---
+
 ## Genius Patterns
 
 ## 1. The Decomposition Instinct
@@ -203,3 +215,16 @@ A mid-sized marketing agency wanted to "use AI for content." They tasked a junio
 | **Operator Role Clarity**          | No specific role for AI workflow architecture; ad-hoc. | An "AI lead" exists, but responsibilities for process design are fuzzy.     | A dedicated AI Operator role is clearly defined, owning end-to-end workflow architecture, KPIs, and strategy-to-execution translation. |
 | **MASTER Specification Quality**   | Prompts written in isolation with minimal context.     | Prompts include some MASTER elements but lack consistency or completeness.   | Every AI workflow begins with a comprehensive MASTER spec, ensuring consistent, reliable, and portable outputs. |
 | **"Unlimited Time" Mindset**       | Focuses on incremental time savings for existing work. | Explores new possibilities, but still anchored by current operational constraints. | Redesigns processes from first principles, asking "what if time were unlimited?" to unlock entirely new capabilities and value. |
+
+## Anti-Patterns (Sourced)
+
+- **Random Acts of AI**: Ad hoc, un-systematized ChatGPT use — "tinkering with it, random acts of ai" — caps productivity gains at "you're probably about like 30% more productive than you are without it," well short of the 300%+ available from systemized AI (transcript-v2-ai-first-company.txt, word ~475 of 8,592, "the whole story" exchange).
+- **Refining Instead of Rebuilding the Prompt**: Fixing a bad output by sending another chat message feels fine in the moment, but "the problem with that is that you're not building something that's like reusable in the future" — the fix belongs back in the original prompt, not buried in a thread (transcript-v1-ai-operations.txt, word ~7,278 of 9,178, the chat-edit-button passage).
+- **Implementer Doubling as Operator**: "One of the most common pitfalls is people will have that implement role also be the AI operator role" because "your implementation person is going to be so in the technical weeds and details that they might miss out on the process" (transcript-v3-high-paying-ai-job.txt, word ~53 of 10,242, the cold-open line, restated word ~3,102).
+- **Spontaneous Brain-Dump Instead of Reusable Process**: "creatively, spontaneously creating stuff randomly outta your brain... might be pretty good," but it isn't operational efficiency — it produces nothing "someone else could leverage" when the operator is out sick (transcript-v1-ai-operations.txt, word ~7,914 of 9,178, the "take home" passage).
+- **AI as Catch-Up Instead of Edge**: "AI shouldn't just be something you're trying to like catch up on all the time. You should feel like you're winning because you're using ai" — treating adoption as compliance instead of moat-building leaves the AI Edge unbuilt (transcript-v2-ai-first-company.txt, word ~2,950 of 8,592, the AI-edge-vision passage).
+- **Prompt-First Sequencing**: Building the AI implementation before mapping the process is, per the extraction's Layer 3 synthesis of all three transcripts, the single most expensive AI-adoption mistake — process, decision points, and quality bars come first, AI only after (extraction-report.md, Layer 3 §7 "Process Before Prompts" — LIKELY paraphrase, not verified verbatim in any single transcript).
+
+## Recognition Test
+
+Would Rachel Woods recognize this as her own AI Operator work — a process decomposed into Objective / Good Enough / Expert tasks with an explicit 80% / 90% / 95% / 99%+ quality bar per task, a MASTER spec written before any prompt, and a named AI Edge (proprietary knowledge × proprietary data × scale problem) — or does it read as generic "AI can help with X" consulting copy wearing CRAFT-cycle vocabulary? If a deliverable name-drops "CRAFT cycle" or "AI Edge" without ever running the actual decomposition (Pattern 1) or defining the per-task quality bar (Pattern 4), it fails the test and needs to be rebuilt from the process up, not the prompt down.
