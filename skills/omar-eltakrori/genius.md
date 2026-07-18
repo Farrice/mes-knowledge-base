@@ -6,6 +6,20 @@ Omar's genius isn't the frameworks — it's the spiritual and psychological oper
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These two layers are intuition primitives, not a checklist. If output stamps "Interior Game beat 1, Interior Game beat 2" or narrates "here's the belief-shift, here's the obsession signal," it has failed by Omar's own standard — that IS over-teaching, the #1 sin he names: *"If someone was thirsty and they needed a drink of water, and you came with a fire hose, you didn't serve them. You hurt them."* (V1). The machinery has to work invisibly.
+
+The test: would Omar recognize this as someone who actually ran the play — teaching that creates the FELT next step — or as someone reciting his terms (the 8 Buyables, the Four Soils, WHAT-not-HOW) without ever landing a belief shift? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which framework or belief-leg you applied unless asked. Boil to ONE thing — Omar's own discipline phrase (*"one thing at a time... it's one drink at a time"*) — even in how the output is built.
+- Do NOT title sections "here's the possible-belief beat" or "here's the obsession signal." Deliver the WHAT; never narrate the HOW behind the curtain — that reversal (title in how, deliver what) is the entire packaging craft.
+- His texture is Scripture-literate and plainspoken, not academic: the Four Soils, tithing economics, and "well done, good and faithful servant" sit beside Tom Brady, Apple iteration talk, and a $10K handshake without friction. Keep the faith register present but never gatekept — every principle here is stated so it also holds secular.
+- Polish is the tell-class failure for this expert specifically: a slick, jargon-fluent draft that never makes anyone FEEL the next step is over-teaching in a suit. Omar calls himself boring on purpose — "I am boring. I just run the play" — same challenge, same structure, improved execution, never a shinier format. If a draft reads more clever than plain, cut back toward plain.
+
+---
+
 ## Becoming Before Getting
 
 "Becoming the person comes before getting the outcome."
@@ -124,9 +138,21 @@ Creating frameworks, coining terms, drawing visual models — these signal obses
 - **Manufactured urgency:** "If you get off this call, the price will be different."
 - **Founders pricing:** Give early adopters identity + locked-in pricing.
 
-**Deployment:** This isn't manipulation — it's business architecture. Rolex, Apple, and Supreme all manufacture scarcity. You choose when to open enrollment.
+**Deployment:** This isn't about manipulation — it's business architecture. Rolex, Apple, and Supreme all manufacture scarcity. You choose when to open enrollment.
 
 ---
+
+## Anti-Patterns (What Omar Explicitly Warns Against)
+
+- **Chasing discounts, buying the cheapest gear.** "So, if you're cheap, if you're always trying to look for the discount and buy the cheapest equipment to use on your clients or the cheapest option, don't be surprised when people want discounts from you." — source: extractions/omar-eltakrori/transcript.txt (personal-brand strategist origin-story interview).
+- **Waiting for perfect before starting.** "Most people never start because they feel that it has to be perfect." — source: extractions/omar-eltakrori/transcript.txt interview.
+- **Abandoning the play before it compounds.** "I think a lot of people, they don't stick with one thing for a long enough time to even give themselves the chance of seeing success." — source: extractions/omar-eltakrori/transcript.txt interview.
+- **Over-teaching the fire hose.** "If someone was thirsty and they needed a drink of water, and you came with a fire hose, you didn't serve them. You hurt them." — source: V1, "How To Become A Millionaire in 2026 (Start Teaching)" (extractions/omar-eltakrori/teach-grow-rich/v1-start-teaching.txt; also references/source-quotes.md § Over-Teaching).
+- **Over-teaching to prove yourself (the insecurity tell).** "Insecure people tend to over-teach because they are trying to prove... there's nothing to prove." — source: V2, "How To Teach and Grow Rich In 2026" (extractions/omar-eltakrori/teach-grow-rich/v2-teach-and-grow-rich.txt; also genius.md § Over-Teaching above).
+- **Teaching HOW-to from your own point of view.** "You don't want to teach how-to from your point of view. Don't teach people how to do something tactfully." — source: V1, "How To Become A Millionaire in 2026" (extractions/omar-eltakrori/teach-grow-rich/v1-start-teaching.txt; also references/source-quotes.md § WHAT-Not-HOW).
+- **Selling a one-directional course instead of a program.** "Don't sell a course, sell a program. People are burnt out from courses." — source: claude.ai export, packaging-department episode with Neil Dhingra, 2026-07-01 (see § Program, Not Course below).
+- **Overspiritualizing the business into unprofitability.** "When we overspiritualize business, we undermonetize our business" (via Brian Adamson) — "your business isn't a ministry. It's a business." — source: claude.ai export, sales-masterclass episode, 2026-07-01 (see § Overspiritualize → Undermonetize below).
+- **Lecturing "become X" without engineering the felt gap.** Content that says "you need to become X" without engineering the moment where the reader feels the gap between current-self and becoming-self is a lecture, not a disruption — source: workflows/personal-brand-blueprint.md Phase 0 (also references/prompts-v2/personal-brand-business-blueprint.md line 39).
 
 ---
 

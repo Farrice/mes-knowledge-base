@@ -81,6 +81,53 @@ Signs you're becoming micro-famous:
 - "Having broad appeal with a niche business is really the game"
 - "The person who appears most obsessed with a topic gets the business"
 
+## Output Format
+```
+MICRO-FAMOUS KLT PLAN — [creator/brand] — [sector] — [date]
+
+SECTOR: [niche] · Known peers: [names] · Audience location: [platform/communities]
+
+TRUST (educate)
+  Cadence: 1 long-form/wk + 5 feed/wk
+  Framework-signal content: [ideas]
+
+KNOW (be visible)
+  Comment targets: [creators/communities]
+  Events: [virtual/in-person]
+  Collabs: [podcasts/joint lives/guest posts]
+
+LIKE (Five F's)
+| F | Content idea | Cadence |
+|---|---|---|
+| Faith | | |
+| Family | | |
+| Food | | |
+| Fashion | | |
+| Fitness | | |
+
+TWO-AT-ONCE CONCEPTS: [2+ named ideas pairing insight + lifestyle]
+CLASSIFIED CONTENT: [weekly photo-scroll routine]
+LIVE STREAMING: [cadence, length, replay strategy]
+LOCAL→GLOBAL ANGLE: [if applicable — e.g. Tommy Oswald / Homeboy coffee shop pattern]
+
+MEASUREMENT CHECKLIST (self-score later):
+[ ] Frameworks referenced by name
+[ ] Inbound podcast/stage invites
+[ ] Strangers mention content in person
+[ ] Inbound leads rise without ad-spend increase
+[ ] Industry peers recognize the name
+[ ] "I feel like I already know you" from new contacts
+```
+
+## Quality Gate
+> 🛡️ **Anti-Pattern Check**: review against `genius.md § Expert-Specific Quality Rubric` (Obsession Signaling, Receptive-Soil Realism) before delivering.
+- Is the sector defined specifically (not "business" or "coaching" broadly)?
+- Does the plan cover all three of Trust, Know, and Like with concrete actions, not generic advice?
+- Are all five F's represented with real, specific content ideas — none skipped or thin?
+- Do the Two-at-Once concepts genuinely pair a business insight with a lifestyle element, rather than being two separate posts glued together?
+- Is the measurement checklist present and usable for self-scoring later?
+- Does the plan signal obsession (named frameworks, specific proof) rather than reading as generic personal-branding advice any coach could give?
+
 ## See Also (Teach-to-Sell layer)
 Micro-fame is KLT + the Five F's. The adjacent exterior-game workflows handle format and content depth:
 - `/oe-long-form-authority` — long-form so people "undeniably know who you are" + the live-offer ascension ladder

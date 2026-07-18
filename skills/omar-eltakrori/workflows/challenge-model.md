@@ -87,6 +87,54 @@ Omar automated the challenge by:
 - One offer can get you to $1M: 200 × $5K = $1M
 - Fulfillment sells the next thing — deliver so well they renew
 
+## Output Format
+```
+5-DAY CHALLENGE LAUNCH PLAN — [brand/offer] — [date]
+
+PRE-LAUNCH
+Offer: [name] · Price: $[__] · Spots: [n] · Transformation: [___]
+Master class: "5 Mistakes [audience] Make When [outcome]"
+  Mistake 1 → belief killed: ___
+  Mistake 2 → belief killed: ___
+  [...5 total]
+  CTA: $[__] challenge ticket · Duration: [60-90 min]
+Ads: Budget ~$[__] · Targeting: [___] · Creative arc: hook → pain → registration
+
+LAUNCH WEEK
+Day 1: Pillar [___] · Homework: [___]
+Day 2: Pillar [___] · Homework: [___]
+Day 3: Pillar [___] · Homework: [___]
+Day 4: Pillar [___] · Homework: [___]
+Day 5 — THE OFFER:
+  Recap: [___]
+  Payoff (7 value types mapped): Accel[__] Transf[__] Org[__] Prox[__] Ident[__] Comm[__] Consol[__]
+  Urgency: "___"  Scarcity: [n] spots, application-based
+  Enrollment window: [24-48h]
+
+FOLLOW-UP
+Email sequence: [___]
+DM targets: [engaged non-buyers]
+Objections to address: [from Q&A]
+
+POST-CHALLENGE
+Measure: revenue [__] · enrollments [__] · ROAS [__] · conversion by stage [__]
+Iterate: beliefs unkilled → [___] · objections → [___] · best-converting segment → [___]
+
+AUTOMATION (optional, advanced only): [plan or "not yet — prove the live version first"]
+
+UNCONFIRMED FIGURES CITED: [list — Omar's own revenue/ad-spend numbers are self-reported]
+```
+
+## Quality Gate
+> 🛡️ **Anti-Pattern Check**: review against `genius.md § Expert-Specific Quality Rubric` (Anti-Shiny-Object Discipline, Belief-Shift Primacy, Data-Over-Perfection Bias) and `genius.md § Anti-Patterns` before delivering.
+- Does the master class kill limiting beliefs (belief-shifting) rather than deliver information volume?
+- Does the Day-5 offer articulate PAYOFF against the 7 value types rather than listing features?
+- Is scarcity/urgency stated as a concrete mechanism (fixed spot count, time-bound pricing), not vague hype?
+- Does the follow-up plan name specific objections to address, not a generic "send more emails"?
+- Is the plan "boring" in Omar's sense — the same proven structure, improved execution — rather than reinventing the sequence each cycle?
+- Are all self-reported figures ($400K-$722K launch range, ~$40K ad budget) tagged UNCONFIRMED?
+- Is automation correctly scoped as an advanced/optional step, never the default Day-1 plan?
+
 ## See Also (Teach-to-Sell layer)
 The challenge is the *delivery vehicle*; the new exterior-game workflows govern *what you teach inside it*:
 - `/oe-objective-by-context` — set the objective + disclosure for each day (master class vs Day-5 offer differ)

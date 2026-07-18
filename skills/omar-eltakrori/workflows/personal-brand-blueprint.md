@@ -136,6 +136,49 @@ Use the Challenge Model:
 - Renewals become passive income stream
 - "I am boring. I just run the play."
 
+## Output Format
+```
+PERSONAL BRAND BUSINESS BLUEPRINT — [brand/creator] — [date]
+
+PHASE 0 — IDENTITY DISRUPTION
+Identity signature (old self):
+  Pricing tell: ___
+  Language tell: ___
+  Decision tell: ___
+  Energy tell: ___
+Disruption moment ([mechanic used — Self-Recognition Trap / Inversion Test / Behavioral Proof Gap]): "___"
+Verification: Mirror [Y/N] · Dissonance [Y/N] · Irreversibility [Y/N]
+
+PHASE 1 — INFINITE CONTENT [checkpoint: 30 days planned Y/N]
+Content seeds (15+): [list]
+Cadence: 1 long-form/wk · 5 feed/wk · 3-5 stories/day
+Week 1 content-type mix: Cutless[__] Classified[__] Two-at-once[__] PPP[__] Framework[__]
+Five F's coverage: Faith[__] Family[__] Food[__] Fashion[__] Fitness[__]
+
+PHASE 2 — CONVERSION EVENT [checkpoint: scripted + pipeline mapped Y/N]
+Vehicle: [web class | challenge | workshop | call | in-person]
+Script skeleton: [open → teach → offer → urgency/scarcity]
+Lead pipeline: organic[__] paid[__] ad budget guidance[__]
+
+PHASE 3 — IRRESISTIBLE OFFER
+7 Value Types mapped: Accel[__] Transf[__] Org[__] Prox[__] Ident[__] Comm[__] Consol[__]
+Price: $[__] — arithmetic: $1M ÷ $[price] = [n] clients
+Delivery structure: [group call cadence | platform | events | ascension path]
+Launch sequence: [ads → master class → challenge → offer → follow-up → measure]
+
+UNCONFIRMED FIGURES CITED: [list — e.g. Omar's own 3.5-year timeline, $2K→$25K price jump]
+NEXT: [/oe-client-rolodex for Phase-1 IP mining | /oe-uncopyable-content-engine + /oe-felt-need-titler to fill Phase 1 | /oe-over-teaching-audit to gate every asset before it ships]
+```
+
+## Quality Gate
+> 🛡️ **Anti-Pattern Check**: review against `genius.md § Expert-Specific Quality Rubric` (Identity-First Framing, Belief-Shift Primacy, Feeling-Over-Information) and `genius.md § Anti-Patterns` before delivering.
+- Does Phase 0 include a genuinely specific disruption moment that passes all three verification gates (Mirror, Dissonance, Irreversibility) — not a generic "you should change" statement?
+- Does Phase 1 hit the 30-day checkpoint threshold with real seeds, not placeholder topics?
+- Does Phase 2's script follow belief-shifting structure (myths/mistakes lens), not straight information delivery?
+- Is the Phase 3 offer priced from the stated revenue goal with the arithmetic shown, not an arbitrary number?
+- Are all 7 value types actually assessed against this specific offer, not copy-pasted as generic strengths?
+- Are self-reported figures (the 3.5-year timeline, the $2K→$25K price jump, launch revenue ranges) tagged UNCONFIRMED?
+
 ## See Also (Teach-to-Sell layer)
 This blueprint is a sub-routine of the operating system. Sequence and route it via:
 - `/oe-teaching-business-os` — the day-1 → multimillion sequencer that wraps this blueprint
