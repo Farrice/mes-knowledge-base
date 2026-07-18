@@ -4,11 +4,26 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These 12 patterns are intuition primitives for finding and testing a format, not a checklist to march through. Absorb them, then build originally. If the output enumerates "Pattern 1, Pattern 2, Pattern 3" or narrates the Conversion Gate before applying it, you have failed. The test: would Sky recognize this as someone who actually found a repeatable format and ran the 2x test on it — or as someone using format vocabulary? If it's the second, rebuild.
+
+Specifically:
+- Do NOT list which of the 12 patterns you used unless asked. Sky doesn't announce "now applying counter-positioning" — he just builds the outlier map and states the gap in one line.
+- Do NOT hedge with generic "consider testing this format" language. Sky's register is declarative, spoken, a little cocky: "that's absolutely going to rip," "he's absolutely ripped." Confidence is part of the craft, not decoration on top of it.
+- His texture is spoken and unpolished — sentence fragments, "right?" as a verbal tic, self-correction mid-thought. A format spec written in clean, symmetrical corporate paragraphs is a tell the machinery is showing.
+- Sky's own diagnostic doubles as a build-quality check on YOUR output: "polished now reads as fake" (Hidden Knowledge, below) — a workflow deliverable that reads too smooth, too edited, too "content-agency," has the same tell he warns creators against on camera. Rough edges signal a real person who knows their stuff; over-polish signals script-reading. He notes the recognition effect is involuntary — clients tell him on calls, "Oh, hey, that's the stop start guy" (video3 transcript, siCsb23nuZM) — before they can name why the format works, they've already filed him under it.
+- Never invent case studies or metrics. Use only the source-grounded exemplars (Pack Leader Dogs, Citadel/Kevin, Sam O'Leary, Musa, Nosh, Adam, Diary of a CEO) and label anything new as illustrative — the way Sky himself labels the Huberman build hypothetical in-source.
+
+---
+
 ## The One Idea
 
 **Formats get you views. Expertise gets you paid.**
 
 Every creator has exactly ONE winning format that lets them dominate a category. The job is not generating ideas — it's *finding* that format (by stealing cross-niche), *building* it to be repeatable, *testing* it with a hard metric, and *saturating* the market before copycats arrive. A format that prints views but doesn't demonstrate expertise is a vanity engine. Reject it.
+
+Sky's own words, verbatim: "Formats gets you views, but it's the expertise that gets people to pay you" (video2 transcript, GNAZIHf6YiQ).
 
 ---
 
@@ -33,8 +48,12 @@ Adopt a format only if it demonstrates expertise only you could provide. Adam (t
 ### 3. Cross-Niche Format Theft + Twist
 Never copy inside your niche (first-mover gone, audience saturated). Find a format ripping in an *unrelated* niche → port it before anyone → add the twist that makes it demonstrate YOUR expertise. Legacy formats (talking head, reaction, before/after) never die; the win is *legacy format × who you're uniquely positioned to be.*
 
+In his own words: "You find a format that's already proven somewhere else. You bring it to your niche before anyone does and you go" (video3 transcript, siCsb23nuZM).
+
 ### 4. The 20-Minute Strategy Spine
-Always build in this dependency order: **Purpose → Avatar → Market (counter-position) → Format → Hook.** Each layer is derived from the one above, never free-floating. Demonstrated live in the Huberman build (hypothetical — Sky has never worked with Huberman, stated explicitly in-source).
+Always build in this dependency order: **Purpose → Avatar → Market (counter-position) → Format → Hook**. Each layer is derived from the one above, never free-floating. Demonstrated live in the Huberman build (hypothetical — Sky has never worked with Huberman, stated explicitly in-source).
+
+The live demo opens as a bet: build "a $1 million content strategy in less than 20 minutes" for a creator with 8 million followers (video1 transcript, Q984AzK0nlo).
 
 ### 5. Counter-Positioning by Outlier Map
 Read a niche as a positioning map of 20–40 competitors; occupy the visible empty gap. In health, every top creator used podcast clips/talking heads → the gap was *sophisticated short-form social content.* Counter-positioning = the one spot where the avatar clearly sees you stand apart, not crowded against a rival.
@@ -52,17 +71,23 @@ Load **visual** (first frame), **verbal** (first words), **written** (caption/on
 ### 8. Format-From-Your-Own-Process Engine
 Mine your *actual daily workflow* for the format. Sky already doom-scrolled to label videos → that became the format. 4 build steps: (1) list every skill/activity you do for clients, (2) pair each with its on-camera visual, (3) lock a repeatable visual+script pattern, (4) stack 3 hooks. Pick the activity that targets your avatar's biggest pain.
 
+Once locked, the structure compounds speed: "script out five, 10, 15 videos in the span of like an hour, whereas it would take someone an hour to script out one script" (video3 transcript, siCsb23nuZM).
+
 ### 9. The 2x / 4-Video Format Test
 Post 4 videos of the same format. Average their views. If avg ≥ 2x prior baseline → format has legs, double down. If not → fix execution or kill it. Low views = data, not failure. Sky went from ~15K baseline → 100K avg by week 2; knew by video 2–3.
 
 ### 10. Saturation Blitz as Copy-Proof Moat
 The moment 3–4 videos confirm a format, flood: record/script/edit ~6 videos/day across main + trial-reel feeds. Attach the format to your face before copycats. Every copycat then becomes *your* social proof.
 
+Sky's own account of the blitz: "I spent the next couple days and recorded, scripted, edited six videos a day of the same format" (video3 transcript, siCsb23nuZM).
+
 ### 11. Framing > Production
 Spend leverage on framing, not edit quality. The "Citadel" case: bad shooting, no editing, just yapping — but inserting one in-group authority keyword ("Citadel," the fund his student-avatar reveres) took a creator 50K → 600K views. When framing is strong, "let the leverage of the framing do the work" and post more rather than polish more.
 
 ### 12. Volume → Feedback → Evolution
 Volume is a *sensor*, not just reach. Hold the format's core constant; vary execution (which authority to react to, which avatar flavor) on data. When appetite for one reaction-target satiates, switch the *target*, not the format. (Sky rotated through Brian Johnson, M on the Brain, Alexi — same format, new subjects.)
+
+In his words: "the more volume I did, the more feedback I would get" (video3 transcript, siCsb23nuZM) — volume as data-collection, not just reach.
 
 ---
 
@@ -126,13 +151,13 @@ Adam runs the *identical* reaction format, 50M views/2 weeks, but labels for *en
 
 ## Anti-Patterns (never ship these)
 
-- ❌ A list of "30 content ideas" instead of one repeatable format.
-- ❌ A format chosen for views that fails the Conversion Gate (entertainment without expertise demonstration).
-- ❌ Copying a format from *inside* the target niche (first-mover already gone).
-- ❌ Touching scripts/formats before Purpose (the offer) is named.
-- ❌ Scaling a format before the 2x/4-video test confirms it.
-- ❌ Over-polishing when framing is the actual lever.
-- ❌ Inventing case studies / metrics. Use only the source-grounded examples (Pack Leader Dogs, Citadel/Kevin, Sam O'Leary, Musa, Nosh, Adam) — and label anything beyond them as illustrative.
+- ❌ A list of "30 content ideas" instead of one repeatable format — Sky's own target: "average business owner hires a junior strategist and asks them to build out a content strategy with 30 ideas and formats" (video3 transcript, siCsb23nuZM) — precisely the mistake this skill exists to prevent.
+- ❌ A format chosen for views that fails the Conversion Gate (entertainment without expertise demonstration) — the Adam anti-exemplar: 50M views in 2 weeks labeling for entertainment, zero sales-call conversion (video2 transcript, GNAZIHf6YiQ).
+- ❌ Copying a format from *inside* the target niche (first-mover already gone) — "once you're copying someone inside your own niche, you're already too late" (video3 transcript, siCsb23nuZM).
+- ❌ Touching scripts/formats before Purpose (the offer) is named — "before I touch the formats, before I touch the scripts, before I touch the edits, is the purpose" (video1 transcript, Q984AzK0nlo).
+- ❌ Scaling a format before the 2x/4-video test confirms it — the threshold stated verbatim: "post four videos in the same format" and average against baseline (video3 transcript, siCsb23nuZM).
+- ❌ Over-polishing when framing is the actual lever — the Citadel/Kevin case: "the shooting is like not the best. The editing isn't anything crazy" yet views ran 50K→100K→600K on framing alone (video2 transcript, GNAZIHf6YiQ).
+- ❌ Inventing case studies / metrics. Use only the source-grounded examples (Pack Leader Dogs, Citadel/Kevin, Sam O'Leary, Musa, Nosh, Adam) — per the verification pass at extractions/Sky Tan/verification-record.md (2026-05-30); label anything beyond them as illustrative.
 
 ---
 
