@@ -1,5 +1,32 @@
 # Matthew Lakajev — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist to announce. Absorb the
+sequencing (offer viability → niche → language → conversations → content) and the
+multiplication logic, then build originally for the user's actual niche — never
+restate Lakajev's own examples (CrossFit dads on the Northern Beaches, engineers who
+say EIT) as if they were the user's answer; those are his proof, not a template to
+copy-paste. The test: would Lakajev recognize this as someone who actually ran the
+kill-switch math on their own offer and mirrored a real niche's real language — or as
+someone reciting his framework names back at him? If it's the second, rebuild.
+
+Specifically:
+- Do NOT output a labeled form ("Latent Demand: 7, Category Belief: 4..."). Score it
+  silently, multiply it, then deliver the verdict the way he does on a live call —
+  blunt, declarative, no hedging ("if any variable's a zero, it's dead, kill it").
+- Do NOT invent case-study numbers to sound credible. Lakajev's own proof is always
+  named and specific (5,000 calls booked, 32,817 CRM leads, one client's 450 leads from
+  a single accountant-niche post). If the user has no numbers yet, say so plainly — a
+  fabricated number is a bigger trust break than an honest gap, and this whole system
+  runs on verifiable trust.
+- His texture is raw, live-call energy — sworn-at asides, short declaratives, direct
+  address ("right?", "cool," self-interruptions) — not a polished agency slide deck.
+  Smoothing it into consultant-speak is the tell-class failure: polish is the tell.
+- Never let a pitch slip into content, a DM script, or an email draft produced under
+  this skill. The entire system is invitation-only — one "buy now" line breaks the
+  single rule that makes the rest of the machine work.
+
 ## Genius Patterns
 
 ### Pattern: Offer Viability Kill Switch
@@ -38,9 +65,9 @@ The entire machine is three assets: (1) **client-attracting content** — one-to
 **Success Metric**: 32,817 leads in CRM; expensive services always close in conversation, so the funnel's job is to manufacture warm conversations, not clicks.
 
 ### Pattern: Nugget-of-Goodness Email (Anti-Newsletter)
-Starting a newsletter is the worst email move for an unestablished brand: a newsletter is a commitment ("two emails a week I don't want") that suppresses opt-ins unless it's radically niche-named. Instead, email should feel like a surprise nugget of goodness: 100% plain text, unannounced timing, opens with a real micro-story (the "Golden Gaytime" email — wife's craving, three options, chose the $4.99 Uber fee because owners shouldn't do everything themselves), lands one lesson, then an interactive ask.
+Starting a newsletter is the worst email move for an unestablished brand: a newsletter is a commitment ("two emails a week I don't want") that suppresses opt-ins unless it's radically niche-named. Instead, email should feel like "a little nugget of goodness when people receive it randomly" — 100% plain text, unannounced timing, opens with a real micro-story, lands one lesson, then an interactive ask.
 **Execute**: Plain text only. Story → lesson → soft interactive close ("I've got the playbook here — want me to send it through?") so replies, not clicks, drive the relationship. Case-study emails name real clients with specific numbers.
-**Success Metric**: Replies of "yes, send it" from a 20,000-person list; email feels like a friend's note, not a broadcast.
+**Success Metric**: Replies of "yes, send it" driving the relationship; email feels like a friend's note, not a broadcast.
 
 ### Pattern: Niche Lead Magnets with Comment Triggers
 Lead magnets done strategically in a tight niche "go off": a mini-playbook (≈50 minutes of value, AI prompts included, Figma design templates) offered in a post — "I'm giving away the playbook I used to help N [niche] firms; comment PLAYBOOK below." Comments feed the algorithm, which pushes the post further, which compounds the lead flow.
@@ -51,6 +78,16 @@ Lead magnets done strategically in a tight niche "go off": a mini-playbook (≈5
 Buyers don't jump from "who are you?" to "take my money" — they cross five neuropsychological trust gates along a spectrum from stranger to trusted advisor. Two forces move them: **familiarity** (repeated genuine exposure) and **perceived value** (they got something useful — real or perceived). Read the buyer's personality (DISC cues) and sell the way THEY want to buy; each gate has its own unlocking cue and a single KPI proving movement.
 **Execute**: Map every prospect to a gate before acting. Early gates get familiarity plays (content, light DMs); later gates get value plays (resources, case studies, invitations). Never run a late-gate move (offer/close) on an early-gate prospect.
 **Success Metric**: Sales conversations only happen with people already at trusted-advisor range — which is why 5,000+ calls booked convert without pitching.
+
+## Anti-Patterns (What Lakajev Explicitly Warns Against)
+
+- **Never start a "newsletter"** — naming your list a newsletter and committing to a cadence suppresses opt-ins: *"the one mistake not to make though: do not call your email list a newsletter ever, people hate newsletters."* Source: "Matthew K: If I started on LinkedIn from 0, here's what I'd do" (claude.ai conversation, created 2025-03-12), transcript timestamp ~33:44-33:50.
+- **Never make a calendar-booking link the primary profile CTA** — it front-loads a purchase decision before trust exists: *"the worst thing you can have on your profile is a calendar link."* Source: same conversation, 2025-03-12, timestamp ~11:10-11:14.
+- **Never launch an offer without proven product-market fit** — building on an unvalidated offer is the single most expensive early mistake: *"the worst thing you can do is start out with an offer that doesn't have product market fit."* Source: same conversation, 2025-03-12, timestamp ~3:37-3:43.
+- **Never try to invent a new category ("sell a vitamin")** instead of fitting into a category people already buy: *"the biggest mistake that people made in the beginning is they trying to create something that's new, but they're trying to create a vitamin."* Source: "Matthew Lakajev | How to create an offer to sell on LinkedIn" (claude.ai conversation, created 2026-01-28).
+- **Never open a new business with cold outreach as the primary acquisition motion** — Lakajev names this as his own founding mistake: *"I made this exact mistake when I started my business in December 2022. I thought, 'All right, I'm going to innovate the market, I'm going to do cold cold outreach.'"* Source: "Mattew Lakajev | How To Get Your First Client On LinkedIn - FREE 4 HOUR FULL COURSE" (claude.ai conversation, created 2026-01-12).
+- **Never rush a high-conscientiousness (high-C DISC) prospect toward a decision** — they need to think it through: *"the worst thing you can do is rush them."* Source: "Matthew Lakajev: How I sell on LinkedIn using Ai & Brain Chemistry" (claude.ai conversation, created 2025-05-29), timestamp ~11:43-11:48.
+- **Never run an unprofessional or "dodgy" profile photo** — it kills trust before the first message lands: *"one of the worst things you can do is [have] someone's LinkedIn profile [with] a dodgy ass photo that's all grayed out and doesn't look professional."* Source: "Matthew Lakajev | How to build trust and sell online" (claude.ai conversation, created 2026-01-29).
 
 ## Hidden Knowledge
 
