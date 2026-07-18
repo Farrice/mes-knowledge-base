@@ -118,15 +118,15 @@ Every lead gen workflow has two revenue paths:
 5. Tune keyword matrix based on false positive rate
 6. Set up monitoring alerts for workflow failures
 
-## Output
+## Output Schema
 
-A complete, deployable lead generation system:
-- n8n workflow JSON export (ready to import)
-- Keyword matrix document
-- AI scoring prompt (fine-tuned for the user's niche)
-- Google Sheets template with lead columns
-- Slack bot configuration
-- Dual monetization plan (use leads + sell leads)
+A complete, deployable lead generation system, delivered as these fields:
+- **n8n Workflow Diagram/JSON** (structured): cron trigger → HTTP fetch → keyword filter → AI scoring (GPT-4 node) → quality gate (score ≥ 7) → dual output (Sheets append + Slack notify)
+- **Lead Source Map** (table): source type, named examples, signal strength (🔥 highest / 🟡 medium / 🟢 low)
+- **Keyword Matrix** (structured list): service keywords + intent keywords + budget keywords + niche modifiers, combined per the Lead Query formula
+- **AI Scoring Prompt** (text block): fine-tuned for the user's niche, with the 1-10 criteria and PURSUE/MONITOR/SKIP output format
+- **Google Sheets Template** (column spec): lead title, description, source, budget, score, recommended action
+- **Dual Monetization Plan** (text): use-the-leads-yourself path vs. sell-the-leads path, with lead-list subscription pricing ($97-$497/month band)
 
 ## Creative Latitude
 

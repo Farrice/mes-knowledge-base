@@ -117,14 +117,15 @@ For each opportunity type, maintain response templates:
 Track opportunities through stages:
 1. **Identified** → 2. **Qualified** → 3. **Proposal Sent** → 4. **Follow-up** → 5. **Won/Lost**
 
-## Output
+## Output Schema
 
-- Working n8n/Make workflow (JSON export)
-- Keyword matrix document
-- AI scoring prompt (calibrated)
-- Google Sheets pipeline tracker template
-- 3 proposal templates by contract size
-- Daily email digest configuration
+A working RFP-hunting system, delivered as these fields:
+- **n8n/Make Workflow** (JSON export): cron trigger (every 2 hours, business hours) → multi-source fetch → keyword filter → budget gate → AI scoring → quality gate (score ≥ 7) → CRM + Slack + daily digest
+- **Keyword Matrix Document**: service-match combos, budget signal terms, timeline-urgency terms — tuned to the Service Category and Budget Floor from Input Required
+- **AI Scoring Prompt** (calibrated text block): 5-criteria assessment (service match, budget adequacy, timeline feasibility, competition level, relationship potential) → Overall Score + Win Probability % + Recommended Approach
+- **Google Sheets Pipeline Tracker** (column spec): Identified → Qualified → Proposal Sent → Follow-up → Won/Lost stage tracking
+- **3 Proposal Templates** (by contract size): quick (<$10K, 1-page), standard ($10K-$50K, 3-5 page), full RFP response ($50K+, formal)
+- **Daily Email Digest Configuration**: trigger time, included fields, minimum score threshold
 
 ## Creative Latitude
 

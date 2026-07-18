@@ -109,16 +109,16 @@ Track each piece of content:
 
 **Success Metric**: A well-executed parasite SEO article should rank page 1 within 2-4 weeks and generate consistent traffic for 6-12 months.
 
-## Output
+## Output Schema
 
-Complete parasite SEO execution plan:
-- Qualified keyword list (10-20 targets)
-- Platform-specific article plans
-- Article templates per platform
-- Cross-linking architecture map
-- Publication calendar (4-week sprint)
-- Performance tracking setup
-- Revenue projection per article
+A complete parasite SEO execution plan, delivered as these fields:
+- **Qualified Keyword List** (10-20 targets): keyword, KD score, monthly search volume, intent type
+- **Platform-Specific Article Plans** (table): platform, DA, target article length, affiliate-link rule, best content type
+- **Article Templates** (structured outline per platform): title formula, H1, intro (100-150 words), H2 sections with link placement, FAQ block, conclusion CTA
+- **Cross-Linking Architecture Map** (diagram): hub article (2,500+ words) → 3-5 spoke articles → platform spread
+- **Publication Calendar** (4-week table): week × platform × content type × keyword target
+- **Performance Tracking Setup** (checklist): Search Console URLs added, UTM-tagged affiliate links, ranking tracker cadence
+- **Revenue Projection** (numeric): per-article traffic estimate × conversion × commission, at the 2-4 week ranking horizon
 
 ## Creative Latitude
 

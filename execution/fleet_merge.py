@@ -83,8 +83,16 @@ def main() -> int:
 
     gate = subprocess.run(
         [sys.executable, str(ROOT / "execution" / "skill_auditor.py"), "check", "--skill", args.skill_id],
-        cwd=ROOT,
+        cwd=ROOT, capture_output=True, text=True,
     )
+    print(gate.stdout, end="")
+    if gate.stderr:
+        print(gate.stderr, end="", file=sys.stderr)
+    # Fleet standard is 6/6, stricter than the auditor's own exit code (which
+    # clears at ≤1 failure — that latitude let a 5/6 merge slip through on
+    # 2026-07-17, deya-business-systems). Any failing check = exit 1.
+    if "0/6 failing" not in gate.stdout:
+        return 1
     return gate.returncode
 
 

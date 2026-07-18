@@ -114,16 +114,16 @@ Produce a monthly content calendar:
 3. **Level 3 — Comparison Context**: Product appears alongside alternatives. Balanced, honest assessment.
 4. **Level 4 — Direct Review**: Full review of the product. Lowest trust, lowest conversion in 2026. Avoid.
 
-## Output
+## Output Schema
 
-Complete multi-channel traffic strategy:
-- Channel priority ranking for the user's niche
-- Long-form content plan (topics, promotion style, affiliate integration)
-- Parasite SEO article plan (platforms, keywords, link placement)
-- Short-form syndication schedule (platforms, content formula)
-- Monthly content calendar
-- Indirect promotion playbook (which level for each affiliate product)
-- Projected traffic and commission estimates per channel
+A complete multi-channel traffic strategy, delivered as these fields:
+- **Channel Priority Ranking** (table): channel name, conversion %, revenue potential, effort tier — ranked specifically for the user's niche, not the generic hierarchy
+- **Long-Form Content Plan** (list of items): topic, promotion style (Required Tool / Friction Remover / Comparison / Direct Review), affiliate integration point
+- **Parasite SEO Article Plan** (list of items): platform, target keyword, article angle, link placement
+- **Short-Form Syndication Schedule** (list of items): platform, cadence, content formula (hook / value / CTA)
+- **Monthly Content Calendar** (4-week table): week × long-form/parasite-SEO/short-form/email
+- **Indirect Promotion Level Assignment** (table): affiliate product → Level 1-4 (Required Tool → Friction Remover → Comparison → Direct Review)
+- **Revenue Projection** (numeric): traffic × conversion rate × commission = $/month estimate per channel
 
 ## Creative Latitude
 

@@ -137,16 +137,16 @@ Once you have 5+ clients, systematize:
 4. **Fulfillment**: Use AI builders for 90% of site generation; manual polish for 10%
 5. **Revenue Math at Scale**: 20 clients × $97/month = $1,940/month recurring + $4,000-10,000/month from new sales
 
-## Output
+## Output Schema
 
-Complete AI website sales pipeline:
-- Prospecting methodology with scorecard template
-- AI demo site generation process (step-by-step)
-- Pricing packages with justification
-- Outreach templates (email, DM, phone script)
-- Objection handling playbook
-- Scaling plan from solo to agency
-- Monthly revenue projections
+A complete AI website sales pipeline, delivered as these fields:
+- **Prospecting Methodology** (scorecard table): Ugly Website Scorecard criteria (mobile responsiveness, load speed, design era, content quality, contact functionality) with the ≤12/25 qualifying threshold
+- **AI Demo Site Generation Process** (numbered steps): intel-gathering → generation prompt → branding → key pages → preview URL, target under 30 minutes
+- **Pricing Packages** (table): tier name, upfront price, monthly price, includes
+- **Outreach Templates** (text blocks): cold email, DM, and objection-response phone script — each addressed to the target niche named in Input Required
+- **Objection Handling Playbook** (table): objection → response, minimum 5 entries
+- **Scaling Plan** (numbered steps): solo → template library → VA hires → agency, with revenue math at 5/20-client milestones
+- **Revenue Projection** (numeric): recurring MRR at 5 and 20 clients, plus one-time new-sale revenue
 
 ## Creative Latitude
 

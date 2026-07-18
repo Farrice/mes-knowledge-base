@@ -78,16 +78,16 @@ Once you have 3+ productized workflows:
 - Build a landing page showcasing your workflow portfolio
 - Use existing client results as case studies for new sales
 
-## Output
+## Output Schema
 
-Complete workflow product package:
-- Cleaned workflow export (JSON/Make blueprint)
-- Architecture diagram
-- Setup guide with screenshots
-- ROI calculator spreadsheet
-- Sales description for 3 channels
-- Pricing recommendation
-- Video walkthrough script
+A complete workflow product package, delivered as these fields:
+- **Cleaned Workflow Export** (JSON/Make blueprint): personal API keys stripped, environment-variable placeholders with setup instructions
+- **Architecture Diagram**: visual flowchart of what the workflow does end to end
+- **Setup Guide**: step-by-step installation with screenshot callouts and a Loom walkthrough link
+- **ROI Calculator** (spreadsheet formula): time saved / revenue generated / cost reduced / risk eliminated, per the Value Audit formulas above
+- **Sales Description** (3 channel variants): Upwork listing, Fiverr gig copy, Gumroad/Lemonsqueezy product page — each tuned to that channel's buyer
+- **Pricing Recommendation** (package tier): Template / Done-With-You / Done-For-You / Retainer, with the price justified against the 10-30%-of-annual-value rule
+- **Video Walkthrough Script**: 5-minute Loom outline covering problem, demo, setup, ROI
 
 ## Creative Latitude
 

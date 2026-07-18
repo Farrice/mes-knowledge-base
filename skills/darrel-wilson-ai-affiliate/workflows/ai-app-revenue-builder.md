@@ -106,15 +106,15 @@ Once one app works:
 - Bundle under one brand domain
 - Revenue compounds: 5 apps × $500/month each = $2,500/month
 
-## Output
+## Output Schema
 
-Complete AI app revenue blueprint:
-- App concept with validation
-- Technical architecture and build instructions
-- Revenue integration plan (ads + affiliate + freemium)
-- Traffic strategy
-- Portfolio expansion plan
-- Monthly revenue projections at various traffic levels
+A complete AI app revenue blueprint, delivered as these fields:
+- **App Concept** (text): category, problem solved, Daily Use Score (⭐ 1-5) with validation reasoning
+- **Technical Architecture** (diagram + build instructions): frontend zones, backend stack, no-code or low-code build path with step count
+- **Revenue Integration Plan** (table): ad-network tier + RPM, affiliate CTA placement points, freemium tier pricing ($0 / $9.99 / $29.99-style ladder)
+- **Traffic Strategy** (list of items): SEO page structure, YouTube tutorial angle, parasite SEO tie-in, community channels
+- **Portfolio Expansion Plan** (text): number of apps in the niche cluster, cross-link structure, shared brand domain
+- **Revenue Projection** (numeric): $/month at 1,000 / 10,000 / 50,000+ monthly visitor tiers, split by ad vs. affiliate vs. subscription
 
 ## Creative Latitude
 

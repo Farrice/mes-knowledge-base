@@ -113,15 +113,15 @@ Model your recurring revenue growth:
 
 **At $97/month, 3 new clients/month, 5% monthly churn → $5,600/month recurring by Month 24.**
 
-## Output
+## Output Schema
 
-Complete recurring revenue conversion package:
-- Opportunity audit for current offerings
-- 3-tier pricing structure with positioning
-- Sales scripts for new and existing clients
-- Retention system design
-- Revenue projection model
-- Automated monthly report template
+A complete recurring revenue conversion package, delivered as these fields:
+- **Opportunity Audit** (table): one-time sale → recurring wrapper → monthly price → justification line, for every offering named in Input Required
+- **3-Tier Pricing Structure** (table): Essential / Growth / Premium, price, includes, anchor-tier flag
+- **Sales Scripts** (text blocks): new-client point-of-sale script, past-client upsell script — both with a fillable price/observation slot
+- **Retention System** (table): retention lever → implementation → churn-reduction impact
+- **Revenue Projection Model** (table): month → new clients → total clients (with churn %) → MRR → cumulative revenue
+- **Monthly Report Template** (field list): uptime, updates applied, security blocks, next-step recommendation
 
 ---
 

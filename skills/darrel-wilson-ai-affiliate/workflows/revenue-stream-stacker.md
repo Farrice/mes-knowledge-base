@@ -108,14 +108,14 @@ Track each stream with weekly metrics:
 | Platform dependence | No single stream > 50% of total revenue |
 | Scaling prematurely | Don't hire until consistently at $3K/month |
 
-## Output
+## Output Schema
 
-Complete revenue stacking blueprint:
-- Personalized stream inventory with priority ranking
-- Reinforcement mapping (how streams feed each other)
-- 4-phase rollout plan with weekly milestones
-- Dashboard template for tracking
-- Revenue projections at conservative/moderate/aggressive scenarios
+A complete revenue stacking blueprint, delivered as these fields:
+- **Stream Inventory** (table): category (Affiliate/Services/Products/Content), stream, revenue model, startup time, recurring flag — personalized to the user's assets and time budget
+- **Reinforcement Map** (diagram): how each active stream feeds the others, in the content→product→affiliate→service loop pattern
+- **4-Phase Rollout Plan** (table): phase, week range, target $/month, primary actions
+- **Dashboard Template** (table): stream, this-week revenue, MTD revenue, trend arrow, next action
+- **Revenue Projections** (3 scenarios): conservative / moderate / aggressive $/month at Month 6 and Month 12
 
 ---
 

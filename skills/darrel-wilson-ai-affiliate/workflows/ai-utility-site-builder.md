@@ -83,15 +83,15 @@ How this site connects to the broader traffic strategy:
 - **Parasite SEO**: Medium/LinkedIn articles about the problem the tool solves → link to tool
 - **Short-form**: Quick demos of the tool in action → bio link
 
-## Output
+## Output Schema
 
-Complete AI utility site blueprint:
-- Concept description and validation
-- Technical architecture diagram
-- AI builder recommendation with build instructions
-- Affiliate link placement map
-- Traffic integration plan
-- Projected revenue model (traffic × conversion rate × commission)
+A complete AI utility site blueprint, delivered as these fields:
+- **Concept Description** (text): niche, the daily-use function the tool serves, result of the "would someone bookmark this?" validation test
+- **Technical Architecture** (diagram): frontend (input/output/CTAs/SEO), backend (data source/calc engine/link config/analytics), AI layer (model + update frequency)
+- **AI Builder Recommendation** (text): tool name (Lovable / Bolt.new / Hostinger Horizons / Cursor+Next.js), cost tier, build-step count
+- **Affiliate Link Placement Map** (list): primary CTA / secondary CTA / contextual CTA / exit CTA → which affiliate link at each
+- **Traffic Integration Plan** (list): long-form video angle, parasite SEO tie-in, short-form demo angle
+- **Revenue Model** (formula): monthly visitors × conversion rate × avg commission = $/month, plus any display-ad RPM add-on
 
 ## Creative Latitude
 

@@ -112,16 +112,16 @@ Know when to stop an offer:
 | Revenue below effort threshold | < $50/hour effective rate | Kill and redirect effort |
 | Market saturated | 5+ identical offers from competitors | Differentiate or exit |
 
-## Output
+## Output Schema
 
-Complete offer rotation strategy:
-- Current offer health diagnostic (OHI scores)
-- Trend detection automation setup
-- 3-tier offer pipeline (Cash Cow / Growth / Experiment)
-- Entry offer design for next market
-- Seasonal opportunity calendar
-- Kill criteria and rotation schedule
-- Revenue forecast by offer category
+A complete offer rotation strategy, delivered as these fields:
+- **Offer Health Diagnostic** (table): each active offer scored Healthy/Warning/Critical across the 6 OHI metrics (revenue trend, conversion rate, time to close, CSAT, competition, effort)
+- **Trend Detection Automation** (n8n diagram): weekly schedule trigger → Google Trends/ProductHunt APIs → AI confidence scoring (>7/10 threshold) → Slack alert
+- **3-Tier Offer Pipeline** (table): Cash Cow / Growth Bet / Experiment, with the 60% / 30% / 10% revenue-share targets
+- **Entry Offer Ladder** (table): Stage 0-3, offer, price, conversion rate to next stage
+- **Seasonal Opportunity Calendar** (12-month table): month → hot offer → reason
+- **Kill Criteria** (table): kill signal → threshold → action, minimum 4 entries
+- **Revenue Forecast** (text): projected split across Cash Cow / Growth / Experiment categories over the next quarter
 
 ---
 
