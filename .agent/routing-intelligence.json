@@ -7392,6 +7392,23 @@
             "ensemble": true,
             "compound_pairing": "donald-miller-storybrand + donald-miller-messaging-evolution + claim-safe-health-marketing",
             "feedback": "fb_20260718_023539_c45d"
+        },
+        {
+            "routing_id": "rt_20260718_024702_eedd",
+            "timestamp": "2026-07-18T02:47:02.866706+00:00",
+            "session_id": "",
+            "request_summary": "Wave 3 Lane 1 COMPLETE: all 25 PRODUCTION_CORE skills to 6/6 heartbeat (23 fleet-repaired via 23 Sonnet workers + 3 Opus adversarial verifiers, 2 instrument-exonerated); 4 fleet failure shapes caught+",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-audit"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "go",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -7866,13 +7883,13 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 409,
+            "total_routings": 410,
             "total_feedback": 52,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 59,
+                "System": 60,
                 "Client Work": 14,
                 "Analysis": 6,
                 "Strategy": 22,
@@ -7940,7 +7957,7 @@
                 "donald-miller-storybrand": 1
             },
             "expert_counts": {
-                "system-audit": 20,
+                "system-audit": 21,
                 "strength-conditioning-os": 13,
                 "nicolas-cole": 1,
                 "source-to-skill-system": 1,
@@ -8131,7 +8148,7 @@
                 "donald-miller-messaging-evolution": 1
             },
             "tier_counts": {
-                "0": 409,
+                "0": 410,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -8140,9 +8157,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 229,
-                "finalize-auto": 180
+                "finalize-auto": 181
             },
-            "ensemble_count": 301,
+            "ensemble_count": 302,
             "auto_miss_count": 41,
             "auto_match_count": 11
         }
