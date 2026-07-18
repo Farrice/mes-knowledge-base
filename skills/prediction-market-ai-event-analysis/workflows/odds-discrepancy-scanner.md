@@ -234,6 +234,18 @@ NEXT ACTIONS:
 
 ---
 
+## Quality Gate
+
+- Does every opportunity carry a quantified sportsbook reference (not a narrative claim like "I think X will win")?
+- Was the 0.6x paper-to-live haircut applied before any confidence/action was assigned?
+- Does every EXECUTE/INVESTIGATE market have an explicit, non-"unknown" gap classification?
+- Were fee drag and slippage both calculated (not estimated as zero or skipped)?
+- Are correlated positions checked against the 15% cap before position sizing is shown?
+- Is any market with a raw gap >10% flagged SUSPICIOUS rather than reported as a clean opportunity?
+- Does the opportunities table include every scanned market, including SKIPs — no market silently dropped?
+
+---
+
 ## Workflow Chaining
 
 - Markets flagged **EXECUTE** -> Route to `edge-validation-sizing.md` for full validation before capital deployment

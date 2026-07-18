@@ -7,6 +7,19 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These are decision disciplines, not a report template. Internalize the arithmetic gates — data integrity, gap explanation, fee-adjusted edge, quarter-Kelly sizing, the 0.5x-0.7x paper-to-live haircut — until they run *before* the recommendation, not as a checklist bolted onto a verdict already decided. The test: would sovereign2013's live-trading discipline (the one that turned $1 into $3.3M by staying inside these gates for 37,247 bets) recognize this as an operator who actually multiplied a paper edge by 0.5-0.7 before sizing — or would it recognize this as someone reciting Kelly-and-haircut language to dress up a gut call? If it's the second, redo the arithmetic.
+
+Specifically:
+- Do NOT surface a verdict (EXECUTE / TRADE / VALIDATED) before the numbers that produced it. `Net_Edge`, `Realistic_Edge`, and the quarter-Kelly position size must appear with actual figures plugged in — never named without being run.
+- Do NOT treat Point 1 (data integrity) or the question-locking step as formality. These are hard gates precisely because the 92.4% skip them and lose to stale data, a moved line, or a silently redefined resolution question (extractions/prediction-market-trading/ai-event-analysis-extraction.md, GP-3, HK-3).
+- This domain's texture is engineering, not persuasion. The reference price *is* the argument — Pinnacle odds, exchange spot, or P_final from an independent ensemble. A claim of edge that isn't quantified against a named reference in basis points is not an edge; it's the exact anti-pattern the source material calls out ("'I think the Lakers will win' is not an edge").
+- Polish-is-the-tell in this domain looks like: a report that names every framework (Kelly, haircut, disagreement triage, circuit breaker) but never actually fails anything — no REJECTED, no MARGINAL, no PASS anywhere in a session's output. The 92.4% figure exists because most candidate trades don't clear the bar. An analyst whose output is 100% EXECUTE has stopped gating and started performing the vocabulary.
+- Never announce the machinery mid-analysis ("now applying the paper-to-live haircut..."). Run it, show the arithmetic, move to the next gate. The discipline is in the numbers landing correctly, not in narrating that a framework is being used.
+
+---
+
 ## The Central Thesis
 
 Prediction market trading is **information-transfer arbitrage, not forecasting**. The 7.6% of wallets that profit detect when market price deviates from a superior reference price (sportsbook odds, exchange spot prices, multi-model ensemble consensus) and capture the convergence. sovereign2013's $1-to-$3.3M run proves it: 37,247 bets in ~8 months, almost exclusively sports, Claude-powered, multiple bets per minute. The bot never asks "will the Lakers win?" It asks "is Polymarket wrong relative to Vegas?"
@@ -306,6 +319,20 @@ Largest documented single bet: Utah State vs Arizona (college basketball). $1.73
 3. **Trade wrong markets**: Humans in ultra-short crypto where bots capture 73% of profits.
 4. **Ignore fees**: 2% edge minus 1.56% fees minus 2-4 cents slippage = negative.
 5. **Hold losers**: Disposition effect — hold losing positions hoping for reversal instead of cutting and rotating.
+
+---
+
+## Anti-Patterns (Sourced)
+
+Each item below is a documented failure mode with its verbatim anchor. These are not hypothetical — they are the specific behaviors that separate the 92.4% from the 7.6%, traced to their source text.
+
+- **Predict instead of arbitrage**: "without checking whether the price already reflects that probability" — extractions/prediction-market-trading/ai-event-analysis-extraction.md, "Anti-Exemplar: The 92.4%" (sourced 2026-04-13; the 92.4%-unprofitable / "poor position sizing and inconsistent risk management" finding it synthesizes is documented at raw-sources/sovereign-trader-analysis-source.md, Source 3, lines 80-133).
+- **Size on confidence, not Kelly**: "they mistake certainty of feeling for certainty of edge" — extractions/prediction-market-trading/ai-event-analysis-extraction.md, "Anti-Exemplar: The 92.4%" (sourced 2026-04-13).
+- **Trade the wrong markets**: "Humans enter ultra-short crypto binary options (5-minute BTC calls) where bots with sub-100ms latency capture 73% of profits" — extractions/prediction-market-trading/ai-event-analysis-extraction.md, "Anti-Exemplar: The 92.4%" (sourced 2026-04-13; the underlying latency-arbitrage/bot-dominance data it synthesizes is documented at raw-sources/sovereign-trader-analysis-source.md, Source 5, line 177 and Source 3 "Case 2: Wallet 0x8dxd", line 91).
+- **Ignore fees**: "A 2% edge sounds good until 1.56% in fees and 2-4 cents in slippage consume it" — extractions/prediction-market-trading/ai-event-analysis-extraction.md, "Anti-Exemplar: The 92.4%" (sourced 2026-04-13).
+- **Hold losers**: "they hold hoping for reversal instead of cutting and rotating capital to the next opportunity" — extractions/prediction-market-trading/ai-event-analysis-extraction.md, "Anti-Exemplar: The 92.4%" (sourced 2026-04-13, disposition-effect framing from behavioral finance).
+- **Override the 30% market weight**: "is how the 92.4% lose money. The market knows things you don't" — skills/prediction-market-ai-event-analysis/workflows/multi-model-ensemble.md, "Anti-Patterns" section, item 3 (sourced 2026-07-13, derived from GP-11/HK-2 above).
+- **Trade without a reference price**: "Do not trade without a reference price." — skills/prediction-market-ai-event-analysis/workflows/odds-discrepancy-scanner.md, "Anti-Patterns (What NOT to Do)" section, item 1 (sourced 2026-07-13, derived from GP-1 above).
 
 ---
 

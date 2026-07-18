@@ -409,6 +409,17 @@ REJECTION REASON:
 
 ---
 
+## Quality Gate
+
+- Was Point 1 (Data Integrity) actually checked as a hard gate — did a FAIL stop the process before any sizing math ran?
+- Does the gap explanation name one of the six categories explicitly, with "unknown" treated as INVALID, not glossed over?
+- Was the paper-to-live haircut applied to Net_Edge before the PROCEED/MARGINAL/REJECT threshold was evaluated?
+- Does the position size respect both the quarter-Kelly formula AND the hard 5%/10% caps, taking the smaller value?
+- Is correlated exposure checked against the 15% cap and the circuit-breaker/daily-drawdown state checked before any new position is approved?
+- Does every VALIDATED trade carry explicit price-based, time-based, and portfolio-level kill conditions — not just an entry and a hope?
+
+---
+
 ## Workflow Chaining
 
 - **If VALIDATED**: Execute trade per plan. After resolution, log result to paper trading journal or live P&L tracker.

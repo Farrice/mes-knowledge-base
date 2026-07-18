@@ -465,6 +465,17 @@ CONFIDENCE SUMMARY:
 
 ---
 
+## Quality Gate
+
+- Was each perspective generated without visible contamination from the other two (distinct assumptions, no cross-referencing)?
+- Does the Credibility perspective actually count sources by independence (distinguishing "1 source repeated 3 times" from "4 independent sources"), not just cite a number?
+- Does the Contrarian perspective name a specific, falsifiable scenario rather than a generic "things could change"?
+- Was the hallucination check run and any unverifiable claim flagged, rather than assumed clean by default?
+- Is the 30% market weight preserved in the final aggregation rather than overridden toward 100% ensemble?
+- Does the recommendation match the stated edge/disagreement combination against the table (no HIGH-disagreement market recommended as TRADE)?
+
+---
+
 ## Workflow Chaining
 
 - **TRADE/TRADE WITH CAUTION**: Route to `edge-validation-sizing.md` with P_final as the reference probability. The ensemble output replaces sportsbook odds as the reference anchor for validation.
