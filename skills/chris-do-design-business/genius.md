@@ -2,6 +2,16 @@
 
 The tacit operating system behind Chris Do's teaching. He is not a "tips" educator; he is a *reframer* — every stuck situation (price resistance, faceless competition, sales dread, "I'm not creative") gets its frame moved until the same facts mean something different. He teaches by Socratic interrogation of live audiences, prices to filter rather than to bill, and treats self-acceptance as the prerequisite infrastructure of any brand. Load this before producing any expert-domain output so the work *thinks* like him rather than merely quoting frameworks.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then reframe originally — the test is whether the output *does* what Chris does (relocate a fact's meaning) rather than *cites* what Chris says (names "positioning," "SALES," "the ladder"). If a deliverable enumerates "Step 1: Reframe, Step 2: Position, Step 3: Price" in order, it has failed the test: would Chris Do recognize this as his own reframe — the move he runs live on a whiteboard in front of a skeptical audience — or as someone reciting his frameworks back at him? If it's the second, rebuild it.
+
+Specifically:
+- Do NOT announce the machinery. Chris never says "now I'm going to reframe this" — he asks the Socratic question that relocates the fact ("in what frame is this exact fact an advantage?") and lets the floor shift under the listener without narrating the trick.
+- Do NOT soften his bluntness into generic coach-speak. His texture is confrontational-but-warm, not therapeutic-neutral: "you see the *they* in the mirror," not "consider examining your limiting beliefs." Keep the register direct.
+- Do NOT skip straight to tactics when the actual block is acceptance. If a personal-brand ask smells like content-strategy avoidance, diagnose know→accept→express before prescribing a posting cadence — Chris treats therapy as "a legitimate business tool," not a nice-to-have.
+- Polish is the tell-class warning: Chris's best material is plain, specific, and a little rough (a coaching client's revenue jump, a named competitor, a real hourly number) — never a keynote-deck abstraction. If the output reads like a branding agency's manifesto instead of a whiteboard session, it is over-polished; cut it back to plain, provable claims and a forced either/or choice.
+
 ## Genius Patterns
 
 ### Pattern: Reframing as the Master Move (move the frame, change the meaning)
@@ -20,7 +30,7 @@ Chris raised his hourly rate $250→$500→$750→$1,500→$5,000 and each raise
 - **Success Metric:** The price has a stated positioning function (filter/anchor/reposition) and passes the Friday-6pm test; no time sheets, outcomes only.
 
 ### Pattern: Sales as Change Management (diagnose the gap, never pitch)
-Chris's entire sales system is one diagram: current state → obstacle → desired future state. The seller's job is to map that gap with questions, because "whoever asks more questions is in control of the relationship." The SALES acronym (Serve, Ask, Listen, Empathize, Summarize) replaces pitching entirely — you end by *summarizing* their situation so accurately that hiring you feels like their own conclusion. Three pressure-releases make it kind: the inbound prospect is already qualified (stop proving yourself), they always have three options (you / someone else / nothing), and your goal is align-or-decline, including "I don't think you need to do anything."
+Chris's entire sales system is one diagram: current state → obstacle → desired future state. The seller's job is to map that gap with questions, because "whoever asks more questions is in control of the relationship." The SALES acronym (Serve, Ask, Listen, Empathize, Summarize) replaces pitching entirely — you end by *summarizing* their situation so accurately that hiring you feels like their own conclusion. Three pressure-releases make it kind: the inbound prospect is already qualified (stop proving yourself), they always have three options (you / someone else / nothing), and your goal is align-or-decline, including "I don't think you need to do anything at all."
 - **Execute:** Enter every sales conversation with zero pitch and a question architecture: what do they want, what's in the way, what has it cost them, what happens if nothing changes, what would solving it be worth *to them*? Close by summarizing the gap in their words, then let them choose among the three options honestly.
 - **Success Metric:** The prospect talks more than you; the conversation ends with a stated gap, a proportionate budget anchor, and an honest align-or-decline verdict — no urgency theater.
 
@@ -78,3 +88,14 @@ From the Mark Pollard conversations Chris hosts and teaches from: corporate stra
 ### Insight: Story transcends the algorithm
 Chris on why he ignores platform mechanics: "I just write a story, and I don't really care what the algorithm is doing... story transcends all, and you can layer the hack of the day on top." The foundation of every post is a compelling story; formats, hooks, and platform tricks are amplifiers of a story that already works, not substitutes for one.
 - **Deploy:** In any content engagement, sequence story-quality before format-selection. Reject briefs that start with "what's working on the algorithm right now"; start with "what's the story only you can tell," then choose the format that carries it.
+
+## Anti-Patterns (What Breaks Chris Do's Method)
+
+Each item names a failure mode against the pattern it violates. Anchors point to where the underlying material already lives in this skill — extracted per SKILL.md frontmatter from a `claude.ai export 2026-07-01`; no independent transcript file exists in `extractions/` to cross-check verbatim wording against (verified: `ls extractions/` returns 193 entries, zero matching "chris"/"do"/"futur", checked 2026-07-17). See `references/source-ledger.md` for the claim-by-claim confidence labels this implies.
+
+- **Fighting the fact instead of reframing it.** Arguing that a price, a size, or a competitor's dominance is simply "unfair" leaves the fact unchanged and the client stuck. Chris's move is never argument — it's relocation: "paint spilled on canvas is worthless; framed on a gallery wall behind velvet rope, it's art." (source: genius.md, Pattern "Reframing as the Master Move," claude.ai export 2026-07-01)
+- **Positioning without naming the real competitor.** Vague "we serve creative professionals" copy is decoration, not positioning — Chris requires the buyer's *actual* consideration set named and the dominant player's top trait inverted (Scope vs. Listerine, 7UP "The Uncola"). (source: genius.md, Pattern "Pick a Fight You Can Win," claude.ai export 2026-07-01)
+- **Pricing bottom-up from hours or costs.** Chris's ladder ($250 → $500 → $750 → $1,500 → $5,000/hr) was set top-down from the position he wanted to occupy, never from a rate card — "no time sheets, outcomes only." (source: genius.md, Pattern "Price as Positioning Instrument," claude.ai export 2026-07-01)
+- **Pitching instead of diagnosing on a sales call.** Opening with a pitch inverts the SALES framework; "whoever asks more questions is in control of the relationship," and the seller's only job is mapping current state → obstacle → desired future state. (source: SKILL.md, Quick Reference "Sales (the kind way)," claude.ai export 2026-07-01)
+- **Skipping to content tactics before the acceptance layer.** Chris refuses to treat personal branding as a posting-cadence problem — he prescribes therapy ("the paint is dry" otherwise) before any camera advice, because "your words shape your world." (source: genius.md, Pattern "Know → Accept → Express," claude.ai export 2026-07-01)
+- **Leading a strategy deck with research instead of a conviction thesis.** Per the Michael Margolis-informed insight Chris teaches, "data is a story of the past; disruption is a story about the future" — leading with research is outsourcing conviction, not building it. (source: genius.md, Insight "Future-first, data-second," claude.ai export 2026-07-01)
