@@ -1,0 +1,10 @@
+{
+ "gate": "steering",
+ "active": false,
+ "starts": "2026-08-07",
+ "ends": "2026-08-14",
+ "override": "Stop hook blocks once when a substantive reply lacks the Next Moves block; add the block, or the once-latch lets the next stop through",
+ "revert": "set active:false in this file \u2014 no code change; auto-expires at ends",
+ "activation": "ON THE DUE DATE flip active:true \u2014 one field, any conductor tier; prior gate's week-1 review must pass first (one flip per week, Farrice doctrine 2026-07-17)",
+ "sequence_note": "routing_bindings (live, own file .agent/routing-enforce-trial.json, ends 2026-07-24) -> blind_pass -> ledger_debt -> steering"
+}

@@ -1,0 +1,10 @@
+{
+ "gate": "blind_pass",
+ "active": false,
+ "starts": "2026-07-24",
+ "ends": "2026-07-31",
+ "override": "chain_runner finalize: --skip-blind-pass alone refuses while active; add --skip-blind-pass --override-reason \"<why>\" (logged to blind_pass_overrides.jsonl with the reason, surfaced in COS morning receipt)",
+ "revert": "set active:false in this file \u2014 no code change; auto-expires at ends",
+ "activation": "ON THE DUE DATE flip active:true \u2014 one field, any conductor tier; prior gate's week-1 review must pass first (one flip per week, Farrice doctrine 2026-07-17)",
+ "sequence_note": "routing_bindings (live, own file .agent/routing-enforce-trial.json, ends 2026-07-24) -> blind_pass -> ledger_debt -> steering"
+}

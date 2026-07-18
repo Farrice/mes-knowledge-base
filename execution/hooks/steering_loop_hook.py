@@ -228,6 +228,25 @@ def handle_stop(payload: dict) -> None:
         "event": "next-moves-missing",
         "chars": len(last_text),
     })
+
+    # Wave-2 flip #4 (dormant until .agent/enforce-trials/steering.json activates):
+    # while the trial enforces, a substantive reply missing the Next Moves block is
+    # blocked ONCE (stop_hook_active guard above prevents loops — the retried stop
+    # passes through). Observe-only remains the shipped default.
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from enforce_trial import active_trial
+        trial = active_trial("steering")
+    except Exception:
+        trial = None
+    if trial:
+        print(json.dumps({"decision": "block", "reason": (
+            f"STEERING LOOP ENFORCED (trial to {trial.get('ends')}): this substantive "
+            "reply is missing the Next Moves block (3 copy-paste prompts: Deepen / "
+            "Adjacent / Act) + 1-line Operator Lesson per directives/steering-loop.md. "
+            "Add it and finish the turn. Revert: set active:false in "
+            ".agent/enforce-trials/steering.json."
+        )}))
     sys.exit(0)
 
 

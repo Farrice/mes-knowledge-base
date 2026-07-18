@@ -671,6 +671,27 @@ def check_blind_pass_latch(
         }, None
 
     if skip_blind_pass:
+        # Wave-2 flip #2 (dormant until .agent/enforce-trials/blind_pass.json
+        # activates): while the trial enforces, a bare --skip-blind-pass refuses —
+        # the skip must carry a stated reason (--override-reason), which is logged
+        # and surfaced in the COS morning receipt. Rubber-stamp skips were fired
+        # on essentially every recent extraction (audit finding #3).
+        _trial = None
+        try:
+            sys.path.insert(0, str(Path(__file__).resolve().parent / "hooks"))
+            from enforce_trial import active_trial as _at
+            _trial = _at("blind_pass")
+        except Exception:
+            _trial = None
+        _reason = (os.environ.get("BLIND_PASS_OVERRIDE_REASON") or "").strip()
+        if _trial and not _reason:
+            return {"status": "MISSING"}, (
+                f"BLIND-PASS ENFORCEMENT (trial to {_trial.get('ends')}): --skip-blind-pass "
+                "now requires a stated reason. Re-run with env "
+                "BLIND_PASS_OVERRIDE_REASON=\"<why the blind pass is genuinely not possible>\" "
+                "(logged + surfaced in the COS receipt), or run the 3-step ritual below. "
+                "Revert: set active:false in .agent/enforce-trials/blind_pass.json."
+            )
         # Same override-logging pattern as the learning latch
         # (evolution_store/learning_latch_overrides.jsonl).
         try:
@@ -682,6 +703,8 @@ def check_blind_pass_latch(
                     "event": "blind_pass_latch_override",
                     "output": output_description[:120],
                     "skill": skill, "expert": expert, "workflow": workflow,
+                    "override_reason": _reason or None,
+                    "trial_enforced": bool(_trial),
                 }) + "\n")
         except Exception:
             pass

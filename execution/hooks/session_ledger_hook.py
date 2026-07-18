@@ -46,7 +46,19 @@ ORCH_STATE = REPO_ROOT / "evolution_store" / "orchestrator_state.json"
 REVENUE = REPO_ROOT / ".agent" / "revenue-outcomes.json"
 SKILLS_DIR = REPO_ROOT / "skills"
 
-ENFORCE = os.environ.get("LEDGER_ENFORCE", "0") == "1"
+def _ledger_trial_active() -> bool:
+    """Wave-2 flip #3 (dormant until .agent/enforce-trials/ledger_debt.json activates)."""
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from enforce_trial import active_trial
+        return active_trial("ledger_debt") is not None
+    except Exception:
+        return False
+
+
+ENFORCE = os.environ.get("LEDGER_ENFORCE", "0") == "1" or (
+    os.environ.get("LEDGER_ENFORCE") != "0" and _ledger_trial_active()
+)
 
 # Internal paths whose writes never count as "produced a deliverable".
 INTERNAL_WRITE = re.compile(r"/\.(agent|claude|tmp|memory)/|\.json$|\.jsonl$|/memory/")
