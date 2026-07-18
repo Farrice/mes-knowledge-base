@@ -1,0 +1,30 @@
+# Source Ledger — nate-b-jones-intent-engineering
+
+Claim-by-claim provenance. Labels: **VERIFIED** (quote/fact opened and confirmed in a cited file) · **LIKELY** (specific title/date cited but the raw source file could not be located/opened within this repair's scope) · **UNCONFIRMED** (no locatable source; claim is retained because it is pre-existing skill content, not because it has been verified).
+
+Ground-truth search performed: `ls extractions/ | grep -i nate` → `extractions/nate-b-jones/`, `extractions/nate-herk/`. Files read and sized (`wc -c`):
+
+| File | Size (bytes) |
+|---|---|
+| `extractions/nate-b-jones/karpathy-loop-mes-extraction.md` | 25,368 |
+| `extractions/nate-b-jones/smoothing-jagged-frontier-extraction.md` | 16,368 |
+| `extractions/nate-b-jones/turbokvant-context-engineering-extraction.md` | 19,104 |
+| `extractions/nate-b-jones/transcript.txt` | 30,609 (= raw transcript backing the Karpathy Loop extraction, confirmed by matching opening sentence) |
+
+None of these four files are about intent engineering / the intent gap / disambiguation loops — they cover auto-improvement loops (Karpathy Loop), multi-agent orchestration (jagged frontier), and memory/context compression (TurboQuant). They are the correct expert (Nate B. Jones) but the wrong domain for this specific skill.
+
+## Claims and labels
+
+| Claim / Section | Label | Basis |
+|---|---|---|
+| Patterns 1–9, Tacit 1–4, Hall of Fame Exemplars 1–2, Anti-Exemplar, Signature Moves, Quality Rubric (`genius.md` original body) | **UNCONFIRMED** | No file under `extractions/nate-b-jones/` contains this content or any of its verbatim quotes (checked: "fluent completion", "clean up the docs", "answer-shaped", none found via grep). `git log --diff-filter=A` shows this content first entered the repo in bulk-import commit `1b23ff2ec` (2026-01-27, "Add complete Antigravity skills system with 2800+ files") — i.e. before the extractions/ provenance system existed for this expert. No primary transcript is recoverable in-repo. The content is internally coherent and consistent with Nate B. Jones's known public focus (he has published on agent reliability and the intent/context distinction), but that is an inference, not a verification. Retained as pre-existing skill content per "additive-first, preserve what passes" — flagged honestly rather than deleted or falsely anchored. |
+| Patterns 10–12, Tacit 5 (`genius.md`, "claude.ai export — Nate B. Jones conversations (2026-07-01)" section) | **LIKELY** | The skill itself cites a specific title and date: *"Inside ChatGPT-5's Brain: System Prompt Secrets for First Movers"* (Aug 2025), claude.ai conversation export dated 2026-07-01. Searched `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes) by filename (`tar -tzf ... | grep -i "gpt-5\|first-mover\|intent"`) — no matching filenames; did not extract/grep the full 332MB archive contents (out of scope for a minimal-touch single-skill repair). Also checked `_active/claude-export/` (441 files, index/report files only, no raw conversation matching this title). Title+date specificity makes this LIKELY rather than UNCONFIRMED, but the underlying quotes ("compound into nicely-looking disasters instead of helpful clarifications," "You have to be higher grade in your intent") are not independently re-verified against a readable source in this pass. |
+| Anti-Patterns items 5–6 (Score-only logging with no traces; No human inspection gate on promotion) | **VERIFIED** | `extractions/nate-b-jones/karpathy-loop-mes-extraction.md`, § "Anti-Patterns (explicit DO NOT list)", items 4 and 6 respectively. Source header on that file: *"The Karpathy Loop — Auto-Research to Auto-Agent, Local Hard Takeoff in Business"* (YouTube, April 2026), extracted 2026-04-20, git-added at commit `c133cd1b4` (2026-04-20). Cross-domain use (auto-improvement → intent engineering) is disclosed in `genius.md` Anti-Patterns section itself. |
+| Pattern 2 cross-reference (TurboQuant "lossless" example) | **VERIFIED** | `extractions/nate-b-jones/turbokvant-context-engineering-extraction.md`, GP-2 "The Pied Piper Principle (Lossless Compression as Breakthrough)." Source header: "TurboQuant: Google's Breakthrough That Changes Everything About AI Memory," YouTube ~20 min, git-added `2a671dada` (2026-03-11). |
+| Pattern 5 cross-reference (Karpathy Loop `program.md`) | **VERIFIED** | `extractions/nate-b-jones/karpathy-loop-mes-extraction.md` (see above); the meta-agent/task-agent program-file structure is documented throughout that extraction's Methodology section. |
+| Pattern 6 cross-reference (Cursor Planner-Worker-Judge harness) | **VERIFIED** | `extractions/nate-b-jones/smoothing-jagged-frontier-extraction.md`, GP-3 "The Planner-Worker-Judge Hierarchy." Source header: "4 AI Labs Built the Same System Without Talking to Each Other," YouTube ~25 min, git-added `e58deddaf` (2026-04-12). |
+| Tacit 1 cross-reference (Karpathy attention-bug find) | **VERIFIED** | `extractions/nate-b-jones/transcript.txt` line 1 / `karpathy-loop-mes-extraction.md` opening: agent "found a bug in his attention implementation that Karpathy had missed." Quote confirmed verbatim (transcript spells it "Cararpathy" — a transcription artifact of "Karpathy," noted here for honesty). |
+| Tacit 4 cross-reference (Reversibility Matrix in `operational-safety-and-communication-design.md`) | **VERIFIED** | File exists at `skills/nate-b-jones-intent-engineering/workflows/operational-safety-and-communication-design.md` § Output Contract, "1. The Reversibility Matrix" table, 1–5 scoring language present in that file as originally shipped (unchanged by this repair). |
+
+## What this ledger does NOT claim
+It does not claim the core Patterns 1–9/Tacit 1–4 content is fabricated — only that its primary source is unlocated within this repair's scope. Do not upgrade these to VERIFIED without opening the raw claude.ai export archive (`_archive/claude-export-2026-07-01.tar.gz`) or an equivalent primary transcript and confirming the quotes verbatim.

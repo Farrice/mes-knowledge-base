@@ -53,7 +53,11 @@ Adapt the spec to `[TARGET_MODEL/AGENT]` (Tacit 5):
 3. **Reversibility Checkpoints** — actions requiring propose-before-execute.
 4. **Reuse Note** — which lines are stable enough to enter the personal prompt library as a template.
 
-## Quality Bar
-- Zero ambiguities left to silent resolution on stakes-bearing dimensions.
-- Non-Goals and Tools lines are concrete enough that a violation is objectively detectable.
-- The spec survives the test: "If a literal-minded but creative employee followed this exactly, what could go wrong?" — with the answer "nothing catastrophic."
+## Quality Gate
+1. **Zero Silent Resolution**: Are all stakes-bearing ambiguities from the Assumption Audit resolved in the spec itself, with the one-question budget spent (if at all) on the single highest-value ambiguity?
+2. **Non-Goals Specificity**: Is every Non-Goals line concrete enough that a violation is objectively detectable — not "don't do anything harmful," but "don't restructure files outside `/src/api`"?
+3. **Tools Line Completeness**: Are both allowed AND forbidden tools named explicitly, closing the gap that causes unrequested web searches or unwanted code execution?
+4. **Reversibility Coverage**: Does every action with Reversibility Score > 2 (Tacit 4) carry an explicit propose-before-execute checkpoint inside the Six-Line Spec, not just noted separately?
+5. **The Literal-Employee Test**: If a literal-minded but creative employee followed this spec exactly, what could go wrong? The answer must be "nothing catastrophic" — if it isn't, the spec isn't done.
+
+> **🛡️ Anti-Pattern Check**: Before delivering, review the spec against **Anti-Patterns** in `genius.md` § Anti-Patterns — especially "Bias-to-Ship Silent Compounding" and "Score-only logging with no traces." Flag and fix any violations.

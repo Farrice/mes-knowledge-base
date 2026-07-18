@@ -4,6 +4,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then reason from them — don't stamp "Pattern 3, Pattern 8" onto a deliverable in order. The test: would Nate recognize this as the actual intent gap he diagnoses on his channel — the moment a fluent-sounding output quietly becomes a real-world commitment — or does it just borrow his vocabulary ("intent," "reversibility," "guardrails") without doing the diagnostic work underneath? If it's the second, rebuild.
+
+Specifically:
+- Do NOT narrate the machinery ("Now applying the Reversibility Gradient..."). Surface the Intent Document, the reversibility score, the assumption list — as the artifact itself, never as a labeled step.
+- Nate's texture is analyst-practical, not academic: he traces a failure back to a single sentence a human would have caught, then generalizes it into a reusable rule. Mirror that — one concrete failure, then the rule it implies — never a rule stated in the abstract with no failure behind it.
+- Polish is the tell-class warning here specifically: an Intent Document that reads as comprehensive but never names what could go wrong, or a Six-Line Spec with generic Non-Goals ("don't do anything harmful"), is answer-shaped output pretending to be intent-engineered output — the exact failure mode this skill exists to catch. Every Non-Goal, guardrail, or failure condition must be specific enough to be violated in an observable way.
+- When a source anchor is genuinely unconfirmed (see `references/source-ledger.md`), say so in the deliverable rather than smoothing over the gap — that honesty is itself Pattern 8 (Assumption Surfacing) applied to your own output.
+
 ## Genius Patterns
 
 ## Pattern 1: Inflection Point Recognition
@@ -14,7 +24,7 @@
 ---
 
 ## Pattern 2: Latent vs Explicit Distinction
-**Execute**: Separate what's IN the text (context) from what's BEHIND the text (intent). Articulate priorities, tradeoffs, what done looks like.
+**Execute**: Separate what's IN the text (context) from what's BEHIND the text (intent). Articulate priorities, tradeoffs, what done looks like. Nate's own worked instance of this distinction: a TurboQuant "save memory" request is explicit about compression but latent about *zero information loss* — the "lossless" qualifier is the whole thesis (GP-2, `extractions/nate-b-jones/turbokvant-context-engineering-extraction.md`). Treat every request the same way: find the qualifier the requester assumed was obvious.
 
 **Success Metric**: Agent can articulate understood priorities before acting.
 
@@ -35,14 +45,14 @@
 ---
 
 ## Pattern 5: Intent Commit Pattern
-**Execute**: Create standalone Intent Documents with goals, failure conditions, tradeoffs. Version separately from prompts.
+**Execute**: Create standalone Intent Documents with goals, failure conditions, tradeoffs. Version separately from prompts. Nate's system-level analog of this pattern: the Karpathy Loop's `program.md`, a living document the meta-agent reads and revises independently of the task agent's execution code (`extractions/nate-b-jones/karpathy-loop-mes-extraction.md`) — proof that a versioned intent artifact survives outside the thing it governs, at production scale, not just in a single prompt.
 
 **Success Metric**: Intent can be updated without touching execution code.
 
 ---
 
 ## Pattern 6: Production Pragmatism
-**Execute**: Build harnesses that compensate for weak intent inference—eval suites, constrained permissions, traced execution.
+**Execute**: Build harnesses that compensate for weak intent inference—eval suites, constrained permissions, traced execution. Nate's clearest real-world instance: Cursor's Planner-Worker-Judge harness, which four labs converged on independently (GP-3, `extractions/nate-b-jones/smoothing-jagged-frontier-extraction.md`) — a harness compensating for imperfect intent inference at organizational scale, not a single clever prompt.
 
 **Success Metric**: Agents ship and perform reliably despite imperfect understanding.
 
@@ -75,28 +85,28 @@ After signal analysis, generate a "Here's what I think you actually need" predic
 ## Hidden Knowledge
 
 ## Tacit 1: Answer-Shaped Text Problem
-LLMs produce outputs that LOOK correct because they match the statistical pattern of correct answers. In chat, forgiving. In agent actions, catastrophic.
+LLMs produce outputs that LOOK correct because they match the statistical pattern of correct answers. In chat, forgiving. In agent actions, catastrophic. The mirror-image real case: Karpathy's meta-agent found a genuine bug in his attention implementation ("a bug that Karpathy had missed") *because* it ran 700 experiments instead of stopping at the first answer-shaped-looking result (`extractions/nate-b-jones/karpathy-loop-mes-extraction.md`) — the inverse of the failure mode, achieved only by refusing to treat fluent-looking as validated.
 
 **Deploy**: Treat every agent output as potentially "answer-shaped but wrong" until validated against intent criteria.
 
 ---
 
 ## Tacit 2: Human Second-Pass Simulation
-Humans automatically simulate consequences and social context before inferring priorities. Models skip this unless forced.
+Humans automatically simulate consequences and social context before inferring priorities. Models skip this unless forced. See Exemplar 1 below (the GDPR data-retention scenario) for a worked instance of forcing this simulation explicitly.
 
 **Deploy**: Build explicit "consequence simulation" steps: What could go wrong? What would the user regret?
 
 ---
 
 ## Tacit 3: Social Cohesion Trap
-Human language optimizes for relationship maintenance, not declarative specification. We're deliberately vague. Models take vagueness literally.
+Human language optimizes for relationship maintenance, not declarative specification. We're deliberately vague. Models take vagueness literally. See Exemplar 2 below (the "optimal meeting time" scenario) for a worked instance of a vague, polite request concealing three distinct possible priorities.
 
 **Deploy**: Transform polite requests into explicit specifications before agent processing.
 
 ---
 
 ## Tacit 4: Reversibility Gradient
-Actions exist on spectrum from fully reversible to completely irreversible. Different points require different confidence levels.
+Actions exist on spectrum from fully reversible to completely irreversible. Different points require different confidence levels. Operationalized in this skill as a 1–5 Reversibility Score (1 = fully reversible, 5 = permanent/external impact) — see the Reversibility Matrix in `workflows/operational-safety-and-communication-design.md` § Output Contract for the applied table format.
 
 **Deploy**: Map every tool to reversibility score. Require higher intent confidence for lower reversibility.
 
@@ -138,6 +148,17 @@ The agent then presents a few options, each annotated with the tradeoffs based o
 **Scenario**: A user instructs an email agent, "Archive all emails older than 6 months and delete anything from marketing lists."
 **Mediocre Outcome**: The agent proceeds to archive *all* emails older than 6 months, including critical legal documents, financial receipts, and project communications that were explicitly kept for record-keeping. It also deletes marketing emails, but in doing so, unsubscribes the user from essential industry newsletters that they manually filter and read. The user's inbox is "clean" but vital information is lost, and preferred subscriptions are gone, leading to significant frustration and manual recovery efforts.
 **Why it's an anti-exemplar**: The agent failed to apply Pattern 3 (Invisible Guardrails) by not inferring that "old emails" don't include critical records, and "marketing lists" don't include preferred newsletters. It also failed to implement Pattern 4 (Clarification Loop Architecture) or Pattern 8 (Assumption Surfacing) to ask about these implicit constraints, demonstrating a lack of Tacit 2 (Human Second-Pass Simulation) and a literal interpretation of vague instructions (Tacit 3).
+
+## Anti-Patterns
+
+Sourced, list-form failure modes — what Intent Engineering explicitly forbids. Each item carries the date it was recorded in this system and the file it can be traced to; items without a locatable primary transcript are labeled UNCONFIRMED rather than given a false anchor (full claim-by-claim accounting in `references/source-ledger.md`).
+
+- **The "Clean Up My Inbox" Disaster** (recorded 2026-01-27, `genius.md` Anti-Exemplar, UNCONFIRMED primary source): agent archives *all* emails >6 months including legal/financial records, and unsubscribes the user from newsletters they manually curated — literal interpretation of "old" and "marketing," zero Invisible Guardrail check (Pattern 3), zero Clarification Loop (Pattern 4).
+- **Literal invisible-guardrail failure** (recorded 2026-01-27, `genius.md` Pattern 3, UNCONFIRMED primary source) — quote: *"We hear 'clean up the docs' and infer 'don't destroy anything important.'"* An agent that skips this inference destroys files a human would never have touched.
+- **Answer-shaped execution** (recorded 2026-01-27, `genius.md` Tacit 1, UNCONFIRMED primary source): treating a fluent, plausible-looking agent output as validated without checking it against intent criteria — "answer-shaped but wrong," forgivable in chat, catastrophic once tools fire.
+- **Bias-to-ship silent compounding** (dated 2026-07-01 in-file citation, "Inside ChatGPT-5's Brain: System Prompt Secrets for First Movers," Aug 2025 — LIKELY, raw export file not located; see source-ledger) — quote: wrong assumptions embedded in a prompt to a bias-to-ship model "compound into nicely-looking disasters instead of helpful clarifications," because the model gets at most one clarifying question before executing.
+- **Score-only logging with no traces** (VERIFIED — `extractions/nate-b-jones/karpathy-loop-mes-extraction.md` § Anti-Patterns, item 4, dated 2026-04-20): "no traces = no interpretability = random mutations." Directly violates Pattern 7 (Interpretation-Execution Separation) — an agent whose reasoning was never captured can't be audited for intent-alignment after the fact.
+- **No human inspection gate on promotion** (VERIFIED — `extractions/nate-b-jones/karpathy-loop-mes-extraction.md` § Anti-Patterns, item 6, dated 2026-04-20): shipping a change without a mandatory human checkpoint before it goes live. Directly violates Tacit 4 (Reversibility Gradient) — promotion to production is a low-reversibility action that requires the highest confidence threshold, not the lowest.
 
 ## Signature Moves
 
