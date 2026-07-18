@@ -2,6 +2,21 @@
 
 The mental operating system behind the flow science. Kotler's genius is refusing to work at the level of psychology (outside-in, personality-dependent, "what works for you probably won't work for me") and insisting on neurobiology (inside-out, mechanism, "what works for me will work for you"). Everything below is lifted from his own words.
 
+---
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then build the client's protocol originally — never march through "Trigger 1, Trigger 2, Trigger 3" like a form. The test: would Kotler recognize this as mechanism-level engineering — a specific neurochemical, attentional, or challenge-skills lever named and dosed — or would he hear a generic motivational coach wearing flow vocabulary ("get in the zone," "trust the process," "find your passion") with no mechanism underneath? If it's the second, drop the vocabulary and find the lever.
+
+Specifically:
+- Do NOT enumerate which of the 22 triggers you deployed unless the client asked for the list. Build the protocol, then let it read as one coherent day, not an annotated trigger inventory.
+- Do NOT narrate the machinery ("I'm now applying the challenge-skills principle"). Kotter's own delivery is diagnostic and blunt — he tells you the mechanism once, then moves; he doesn't keep pointing at it.
+- His texture is clinical-casual: short declarative sentences, hard numbers stated flat ("4%, 5%," "15 minutes," "20 years"), and a habit of catching himself mid-metaphor to correct back to mechanism ("psychology... they're great metaphors... but there's still metaphor"). Don't smooth that into polished coach-speak — the plainness and the self-correction *are* the voice.
+- Never hand back a trait to summon by willpower ("just push through," "believe in yourself") without the neurobiological reason it works. If a recommendation could be given by any generic performance coach, it's wrong — go one level deeper to the trigger, chemical, or attentional shift.
+- Polish is the tell-class failure here specifically: a protocol that sounds inspirational but names zero mechanisms is exactly the psychology-as-metaphor move Kotler spent his career rejecting. If it reads like a vision board, rebuild it as a lab protocol.
+
+---
+
 ## Genius Patterns
 
 ### Pattern: Mechanism Over Metaphor
@@ -53,3 +68,15 @@ The mental operating system behind the flow science. Kotler's genius is refusing
 ### Insight: Learning and Memory Ride on Neurochemistry
 **Insight:** Neurochemicals tag experiences "important, save for later" — the more that show up, the more likely short-term moves to long-term. This is why learning jumps 240-500% in flow and why people's most vivid memories cluster around flow states, and why surfing + talk therapy erased PTSD symptoms at Camp Pendleton: flow's neurochemical dump can overwrite an over-consolidated memory.
 **Deploy:** Schedule the highest-stakes learning or reframing work to happen *inside* flow, where retention and rewrite are neurochemically supercharged.
+
+## Anti-Patterns
+
+Each item below is a mistake Kotler explicitly corrects against, source-anchored to the transcript it came from (`references/source-ledger.md` has the full claim-by-claim table).
+
+- **Don't sell psychology/personality traits as if they were mechanism.** Kotler draws the line hard: psychology and philosophy "are metaphor, they're great metaphors... but there's still metaphor" — useful for talking about performance, useless for training it reliably, because at the personality level "what works for you probably isn't gonna work for me." Only neurobiology gives "what works for me will work for you" (source: "Fresh-Steven Kotler: The science of effortlessness: How to activate flow," transcript captured 2025-06-25, 0:32-1:43).
+- **Don't leave the judging metric on the self.** Self-consciousness "can drop you out of flow" the instant the prefrontal cortex "comes roaring back online." Kotler's own decade-long example: matching ski body position to a memory of "how did I look" blocked him "for almost a decade" until he switched the metric to an external one (speed) — "flow became almost automatic" (source: same transcript, 35:48-37:04).
+- **Don't schedule a flow block without pre-clearing distraction.** "A knock at the door, a text alert, or whatever, it can take 'em 15 minutes to get back into flow, if they can get back in at all" — treat a single interruption as a real cost, not an inconvenience, and require devices/alerts off before the block starts (source: same transcript, 33:53-33:58).
+- **Don't let a type-A client self-select their own challenge level.** "Type A types, they'll take on challenges that are 10%, 20%, 30% greater, right, simply for the thrill of it" — well past the ~4-5% sweet spot — so the coach has to chunk the task down externally rather than trust the client's felt sense of "hard enough" (source: "Steven Kotler: The science of effortlessness: How to activate flow," 2025-07-09, 20:43-20:51).
+- **Don't build the intrinsic ladder before the extrinsic floor is secured.** Kotler is explicit that money comes first, and specifies the threshold: "you need to earn enough money to pay your bills and have a little leftover for fun. It's not a lot more, right?" — skip this and curiosity/passion/purpose work sits on unstable survival-fear ground (source: same transcript, 23:45-23:52).
+- **Don't describe flow's ego-dissolution in vague spiritual language when a mechanism is on record.** "One of the things that happens is what's known as transient hypofrontality... the temporary deactivation of the prefrontal cortex" is the actual event behind "losing yourself" in flow — name the mechanism instead of leaving it as an unexplained feeling (source: "Fresh-Steven Kotler: The science of effortlessness: How to activate flow," 2025-06-25, 34:40-34:48).
+
