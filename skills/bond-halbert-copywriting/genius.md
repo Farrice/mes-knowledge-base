@@ -4,6 +4,19 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These 15 patterns are intuition primitives, not a checklist. Absorb them, then write. If the output enumerates "Pattern 1 applied, Pattern 6 applied" or narrates its own bullet-matrix logic on the page, it has failed — the machinery must stay invisible to the reader. The test: would Bond Halbert recognize this as copy he'd actually ship to a cold list, or does it read like someone using direct-response vocabulary without having done the market-immersion work first? If it's the second, rebuild from Pattern 1.
+
+Specifically:
+- Do NOT label sections "here's the bullet matrix," "here's the objection pre-position." Execute the move; never announce it.
+- Do NOT open with "Bond Halbert would..." meta-commentary. Write the copy; don't narrate the craft.
+- His texture is old-school DR: benefit-chain bullets, present-progressive urgency, a PS that closes the case alone — never breezy startup-brand copy dressed up with a "47-year veteran" credential line bolted on top. If the piece could run in a SaaS onboarding email, it isn't Bond's.
+- Polish is the tell. Real Bond-style copy carries the "Pee Test" roughness of something dictated, not workshopped — see `references/_legacy-prompts/p02-pee-test-editor.md`. A bullet that scans like ad-agency verse has failed the 400% benchmark this pattern set is calibrated against.
+- This skill's market "research" (see SKILL.md note) is language-immersion, not live data. Never present its output as fact-checked market research on its own.
+
+---
+
 ## Genius Patterns
 
 15 unconscious mastery behaviors that separate Bond from ordinary copywriters.
@@ -52,6 +65,8 @@
 
 **Success Metric**: Content converts regardless of how consumed. No reader type abandoned.
 
+**Deployment reference**: `references/_legacy-prompts/p11-four-reader-types-architect.md` operationalizes this as a 4-pass structural edit.
+
 ---
 
 ## Pattern 6: Bullet Matrix System
@@ -59,6 +74,8 @@
 **Execute**: Trace every feature through: Feature → Benefit → Benefit of Benefit → Emotional Benefit → Benefit of Emotional Benefit. Select most powerful pathway.
 
 **Success Metric**: Bullets hit 3+ levels deep, reach emotional core. Competitors' bullets feel shallow by comparison.
+
+**Deployment reference**: full 5-level drill in `references/_legacy-prompts/p01-bullet-matrix-engine.md`.
 
 ---
 
@@ -92,6 +109,8 @@
 
 **Success Metric**: Strongest hooks proven through genuine human response, not guessed through brainstorming.
 
+**Deployment reference**: `references/_legacy-prompts/p09-conversation-hook-miner.md`.
+
 ---
 
 ## Pattern 11: Prospect Immersion Protocol
@@ -99,6 +118,8 @@
 **Execute**: Actually BECOME the buyer. Research until you can articulate their fears better than they can. Feel their 3am anxieties. Know what makes them hopeful and skeptical.
 
 **Success Metric**: Write from inside their experience, not about their experience.
+
+**Deployment reference**: `references/_legacy-prompts/p10-prospect-immersion-protocol.md`.
 
 ---
 
@@ -116,6 +137,8 @@
 
 **Success Metric**: Buying journeys compressed from weeks to hours/days without feeling rushed.
 
+**Deployment reference**: `references/_legacy-prompts/p19-cold-to-sold-velocity.md`.
+
 ---
 
 ## Pattern 14: Cross-Industry Mechanism Transfer (Swipe Alchemy)
@@ -123,6 +146,8 @@
 **Execute**: Extract psychological mechanisms from proven copy in other industries. Translate to current market. Recombine familiar elements in unfamiliar ways.
 
 **Success Metric**: Fresh-feeling copy built on proven foundations. No reinventing wheels.
+
+**Deployment reference**: `references/_legacy-prompts/p07-swipe-alchemist.md`.
 
 ---
 
@@ -134,7 +159,7 @@
 
 ## Hidden Knowledge
 
-8 tacit expertise points that Bond uses unconsciously but rarely teaches explicitly.
+8 tacit expertise points that Bond uses unconsciously but rarely teaches explicitly. Cross-indexed against the 15 Genius Patterns above and `references/hidden-knowledge.md`.
 
 ---
 
@@ -152,6 +177,8 @@
 
 **Deploy**: Always have voice recording ready. Capture raw thinking immediately when it occurs. These notes become the richest source material for copy.
 
+**Deployment reference**: `references/_legacy-prompts/p08-walking-accumulation-engine.md`.
+
 ---
 
 ## 3. Real-World Hook Testing
@@ -159,6 +186,8 @@
 **The Reality**: Bond tests hooks in actual conversations before using them in copy. The conversational response predicts written response.
 
 **Deploy**: Before committing to a headline or hook, try it in 5+ real conversations. Watch for physical reactions (leaning in, eyes widening, follow-up questions).
+
+**Deployment reference**: `references/_legacy-prompts/p09-conversation-hook-miner.md`.
 
 ---
 
@@ -168,6 +197,8 @@
 
 **Deploy**: Record original thinking first → Transcribe → Extract key points → Use AI for variations and expansions → Edit back to your voice.
 
+**Deployment reference**: `references/_legacy-prompts/p13-ai-talking-points-multiplier.md`.
+
 ---
 
 ## 5. Cold Traffic as Ultimate Test
@@ -175,6 +206,8 @@
 **The Reality**: Bond treats cold traffic as the honest test. Warm traffic forgives weak copy; cold traffic reveals truth.
 
 **Deploy**: Default to writing for cold audiences even when you have warm traffic. If it converts cold, it'll convert warm even better.
+
+**Deployment reference**: `references/_legacy-prompts/p16-cold-traffic-conversion-engine.md`.
 
 ---
 
@@ -201,6 +234,18 @@
 **Deploy**: If you're staring at a blank page, you haven't done enough pre-work. Accumulate until you're bursting, then sit down and pour out.
 
 ---
+
+## Anti-Patterns
+
+7 failure modes already implied by this skill's own material, made explicit here so the `workflows/*.md` "🛡️ Anti-Pattern Check" (which points directly at this section) has something concrete to check output against.
+
+- **Feature dump with no benefit chain**: shipping feature-and-adjective language instead of tracing Feature → Benefit → Benefit of Benefit → Emotional Benefit (Pattern 6). This is exactly the failure named in this file's own "Generic Feature Dump" Anti-Exemplar (Hall of Fame Exemplars, below) and the Success Metric in `references/_legacy-prompts/p01-bullet-matrix-engine.md` ("Bullets hit 3+ levels deep, reach emotional core").
+- **Unearned pronoun authority**: leaving "I'll teach you" / "we guarantee" claims unreplaced by specific, credible descriptions. Pattern 8 and `references/_legacy-prompts/p12-invisible-authority-builder.md` both require the pronoun hunt before delivery — skipping it is the fastest way this skill's output reads like every other guru's copy.
+- **Skippable filler that fails the Pee Test**: any sentence a reader could skip without losing the argument. `references/_legacy-prompts/p02-pee-test-editor.md` ties this directly to a 400% response-rate delta (Pattern 3) — filler isn't a style choice, it's a measured conversion cost.
+- **Single-reader-type structure**: copy that only works read top-to-bottom. Pattern 5 and `references/_legacy-prompts/p11-four-reader-types-architect.md` require the OCD reader, skimmer, section-jumper, and headline-bullet-PS reader to each get a complete case; building for only one is the most common structural miss.
+- **Objections parked in an FAQ instead of pre-positioned**: Pattern 7 and `references/_legacy-prompts/p05-objection-pre-positioner.md` require objections answered ONE BEAT before the reader forms the question, not addressed after the fact in a bolted-on FAQ block.
+- **Cold-open drafting with no pre-accumulation**: sitting down to write without the Walking Accumulation input pass (Pattern 9 / Hidden Knowledge #8 / `references/_legacy-prompts/p08-walking-accumulation-engine.md`) produces exactly the blank-page staring this skill's own material says never to start from.
+- **Presenting this skill's "market research" as fact-checked**: the `market` workflow's process is Halbert-style language immersion, not live data retrieval — SKILL.md's own note is explicit that this output should never be presented as "market-researched" without a separate grounding pass (`/copy-engine` ground or `execution/research.py`).
 
 This response will provide the requested sections for Bond Halbert's `genius.md` file, adhering to all output rules and anti-patterns.
 
@@ -244,4 +289,4 @@ This response will provide the requested sections for Bond Halbert's `genius.md`
 
 ## Quality Rubric
 
-> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading. Scored on the file's Score 4 / Score 7 / Score 10 anchors.
