@@ -102,7 +102,7 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 | Field | Value |
 |-------|-------|
 | **Last Activated** | 2026-07-17 (chain_runner finalize for orchestration-doctrine) |
-| **Activation Count** | 643 |
+| **Activation Count** | 644 |
 | **30-Day Review Date** | 2026-08-16 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*
