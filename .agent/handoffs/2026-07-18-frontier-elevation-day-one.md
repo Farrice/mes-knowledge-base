@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** frontier-elevation-day-one  
-**Full path:** .agent/handoffs/2026-07-18-frontier-elevation-day-one.md  
-**Date:** 2026-07-18 (today)  
-**Status:** active  
-**Title:** Handoff — Frontier Elevation, Day Two (2026-07-17 evening)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume frontier-elevation-day-one` for this one.
-
----
-
 ---
 thread: frontier-elevation-day-one
 status: active
@@ -143,4 +131,3 @@ merge (hollow-delivery shape). UNCONFIRMED labels get spot-checked by the verifi
 (lazy-UNCONFIRMED = false-absence). Deterministic gate arbitrates merges; worker
 summaries are routing hints. Push races with sibling sessions on this shared tree are
 benign when rev-list shows 0/0 — verify, don't force.
-

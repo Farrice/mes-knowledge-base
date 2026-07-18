@@ -2419,8 +2419,64 @@
         "gaming_flag": false
       },
       "notes": "Retry required by finalize rule after local checks; artifact already revised after content gate; JSONL/export/grounding/claim-risk PASS; content_finish WARN only for prose_classifier parallel blocks due required section format; Notion/DNS may fail in restricted network | platform: codex | Verification: PASS_LOCAL_PARTIAL_FINALIZE | Anchor: V4 High-Taste Output OS"
+    },
+    {
+      "trace_id": "20260718_064055",
+      "timestamp": "2026-07-18T06:40:55.012149",
+      "schema_version": "v3",
+      "component": "_active/health-performance-ip-library",
+      "expert": "health-performance-geo-client-acquisition-engine",
+      "workflow": "health-performance-geo-daily-brief",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Fresh non-GLP-1 storage-to-trust lane; local brief saved; JSONL valid; Drive disabled per current instruction | platform: codex | Verification: PASS local with content_finish_gate WARN/prose_classifier WARNING | Anchor: V4 high-taste output OS"
+    },
+    {
+      "trace_id": "20260718_064107",
+      "timestamp": "2026-07-18T06:41:07.627040",
+      "schema_version": "v3",
+      "component": "_active/health-performance-ip-library",
+      "expert": "health-performance-geo-client-acquisition-engine",
+      "workflow": "health-performance-geo-daily-brief",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Followed AUTOMATION_PROMPT.md exactly except Drive disabled by current user instruction overriding prompt conflict; full brief in local artifact; ledger appended 3 rows; JSONL/export/grounding/claim gates pass; content finish WARN only from required structure/prose_classifier | platform: codex | Verification: PASS local / PARTIAL finalize mismatch | Anchor: V4 high-taste output OS"
     }
   ],
-  "total_cases": 85,
-  "last_updated": "2026-07-15T06:39:39.139376"
+  "total_cases": 87,
+  "last_updated": "2026-07-18T06:41:07.627937"
 }

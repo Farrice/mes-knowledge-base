@@ -314,7 +314,7 @@
     "directory": "bitbranding-fashion-shopify",
     "description": "Christian Pinyon (BitBranding) \u2014 Fashion DTC Shopify execution. Audit/rebuild/optimize clothing-brand collection pages and product cards on the free Horizon theme. Free-tier-fluent, gap-honest, mobile-first.",
     "when_to_use": "- Brand on Shopify (especially Horizon free theme)\n- Clothing / apparel / accessories DTC\n- Wants premium aesthetic without paid theme/apps budget\n- Specifically: mybpm.store work",
-    "mtime": 1784322305.694641,
+    "mtime": 1784351123.0461555,
     "slash": "/bitbranding-fashion-shopify",
     "routing": "",
     "status": ""
@@ -334,7 +334,7 @@
     "directory": "boris-claude-code",
     "description": "AI-augmented productivity systems using Claude Code and Claude Cowork. Multi-instance orchestration, plan-first execution, and self-verifying workflows.",
     "when_to_use": "",
-    "mtime": 1784322305.6951377,
+    "mtime": 1784351290.1497781,
     "slash": "/boris-claude-code",
     "routing": "",
     "status": ""
@@ -434,7 +434,7 @@
     "directory": "cardinal-mason-ai-copywriting",
     "description": "Runs Cardinal Mason's end-to-end AI copywriting business system \u2014 client acquisition, AI-assisted copy creation workflows, and scaling architecture proven to $500K/year. Treats AI as the production engine and the human as the strategist + closer, rather than competing with AI on output. Use when building a copywriting business that uses AI as leverage (not replacement), designing client-acquisition systems for a copywriter, scaling a freelance copy practice past six figures, or productizing copywriting services. Trigger proactively whenever the user says \"AI copywriting business\", \"scale my copy practice\", \"copywriter using AI\", or \"how do AI copywriters get clients\". For pure craft (sentence-level copy production) use stefan-georgi-dopamine-copy or bond-halbert-copywriting; for niche positioning of the copywriter's own brand use nicolas-cole-niche-positioning.",
     "when_to_use": "",
-    "mtime": 1784322305.697469,
+    "mtime": 1784352213.9424329,
     "slash": "/cardinal-mason-ai-copywriting",
     "routing": "long-tail",
     "status": ""
@@ -544,7 +544,7 @@
     "directory": "cognitive-engagement-optimizer",
     "description": "Transforms ordinary content into consistently high-performing material through evidence-based engagement principles \u2014 dopamine-loop engineering, attention architecture, format-vs-trend selection, and platform-algorithm alignment. Use when content is accurate but ignored, when a hook won't stop the scroll, when you need to reverse-engineer why top creators win, or when you want a measurable performance-optimization loop rather than one-off ideation.",
     "when_to_use": "",
-    "mtime": 1784322305.7004628,
+    "mtime": 1784352320.5098505,
     "slash": "/cognitive-engagement-optimizer",
     "routing": "",
     "status": ""
@@ -834,7 +834,7 @@
     "directory": "deliberate",
     "description": "Multi-model deliberation \u2014 run the same prompt through Claude AND Gemini in parallel, surface explicit contradictions instead of blending. Built for high-stakes decisions where opaque single-model output is risky. Distinct from /council (single-model multi-PERSONA); this is single-prompt multi-MODEL. Reference architecture in skills/deliberate/genius.md.",
     "when_to_use": "Deploy when:\n- The decision has multi-thousand-dollar / multi-week consequence (pricing, positioning, hire/fire, scope decisions)\n- A single model's confident-sounding answer is the failure mode you want to guard against\n- The prompt has multiple defensible answers \u2014 and synthesizing them away loses the point\n- You want to know where two models genuinely disagree (real signal) vs. where they converge (real confidence)\n\n**Not this skill** when:\n- The question has a knowable factual answer (use `mcp__recall__search` or `/deep-research-gemini`)\n- The stakes are low (single LinkedIn caption doesn't warrant the overhead)\n- You want simulated personas (use the existing `/council` \u2014 single-model multi-persona is a different mechanism)\n- The deliberation cost (~$0.001-0.05 in Gemini API + your time) exceeds the decision's marginal value",
-    "mtime": 1784322305.7090535,
+    "mtime": 1784352977.6015172,
     "slash": "/deliberate",
     "routing": "",
     "status": ""
@@ -854,7 +854,7 @@
     "directory": "deya-business-systems",
     "description": "Deya's 1-page business plan and validation-first operating system \u2014 Person/Problem/Product validation, problem-severity pricing, remarkable offer engineering, beta price ladders, and the simplified Traffic \u2192 Nurture \u2192 Sales funnel. For starting, validating, or repositioning a digital product, service/freelance, or physical product business.",
     "when_to_use": "",
-    "mtime": 1784322305.709474,
+    "mtime": 1784353261.585185,
     "slash": "/deya-business-systems",
     "routing": "",
     "status": ""
@@ -954,7 +954,7 @@
     "directory": "dr-k-consciousness",
     "description": "Integrates Vedantic philosophy and clinical psychology using Dr. K (HealthyGamerGG) methodology \u2014 identity transcendence (constructed self vs witnessing self), thought-response training, samskara dissolution (unconscious behavioral grooves), guna-based diagnostics (tamasic / rajasic / sattvic mental states), and consciousness-based coaching. Use when diagnosing epistemic belief vs samskara, separating outcome attachment from daily effort, processing reactive emotions before strategic decisions, dissolving identity-level limitations goal-setting can't reach, or planning content from a processed rather than reactive emotional state. Trigger proactively whenever the user says \"I'm stuck on something deeper\", \"samskara\", \"dharma\", \"guna\", or describes suffering that tactical fixes don't resolve. For computational / engineering-stance consciousness work use joscha-bach-consciousness; for lighter action-bias breakthrough use ali-abdaal-action-bias.",
     "when_to_use": "",
-    "mtime": 1784322305.7125304,
+    "mtime": 1784353877.4371877,
     "slash": "/dr-k-consciousness",
     "routing": "",
     "status": ""
@@ -994,7 +994,7 @@
     "directory": "eric-roth-writing-mastery",
     "description": "Cross-domain deployment of Oscar-level writing craft for social media, content writing, copywriting, ghostwriting, and marketing. Translates 14 genius patterns from the writer of Forrest Gump, The Insider, and Killers of the Flower Moon into universal writing intelligence \u2014 erosion revision, off-center subtext, visual prose, psychology wallets, memorable residue, and fanciful realism applied beyond the screenplay.",
     "when_to_use": "",
-    "mtime": 1784322305.7134655,
+    "mtime": 1784353923.5809722,
     "slash": "/eric-roth-writing-mastery",
     "routing": "",
     "status": ""
@@ -1004,7 +1004,7 @@
     "directory": "erica-mallet-brand-magnetism",
     "description": "Engineers cult-like brand magnetism using Erica Mallet's methodology \u2014 belief architecture (what the audience must believe about themselves), entertainment psychology (why hooks earn attention), content domination (owning a category through volume + identity-resonance), and the mechanics behind followings that feel tribal rather than transactional. Use when a brand has product-market fit but no emotional pull, the audience respects but doesn't evangelize, content metrics are decent but no one is screenshotting / sharing in their groupchats, or repositioning a clinical/B2B brand toward magnetic-personal. Trigger proactively whenever the user says \"brand magnetism\", \"cult brand\", \"tribe\", \"loyal following\", \"why don't they care about us\", or describes a brand that wants love, not just preference. For institutional brand-building (positioning + visual + campaigns at scale) use greg-hoffman-brand-mastery; for personal-brand fundamentals use seth-godin-brand.",
     "when_to_use": "",
-    "mtime": 1784322305.713755,
+    "mtime": 1784354466.1465454,
     "slash": "/erica-mallet-brand-magnetism",
     "routing": "",
     "status": ""
@@ -1124,7 +1124,7 @@
     "directory": "fryderyk-wiatrowski-ai-employee-os",
     "description": "Design, audit, and upgrade AI employee systems with ambient work surfaces, context isolation, scoped integrations, event semantics, trust ladders, rollout gates, and model/personality regression checks.",
     "when_to_use": "",
-    "mtime": 1784322305.7202146,
+    "mtime": 1784355271.7656076,
     "slash": "/fryderyk-wiatrowski-ai-employee-os",
     "routing": "",
     "status": ""
@@ -1204,7 +1204,7 @@
     "directory": "greg-hickman-service-scaling",
     "description": "Greg Hickman's (AltAgency) productization system for service providers \u2014 extract the signature outcome, pre-sell a productized prototype at founder pricing, land the first 5 clients from warm pipeline via ICP interviews, then sequence scale levers to $30K-$100K/month without more clients or a big team.",
     "when_to_use": "",
-    "mtime": 1784322305.7228928,
+    "mtime": 1784386694.3015363,
     "slash": "/greg-hickman-service-scaling",
     "routing": "",
     "status": ""
@@ -1434,7 +1434,7 @@
     "directory": "joanna-wiebe-writing-careers",
     "description": "Architects a sustainable writing career using Joanna Wiebe's positioning, pricing, and business-design methodology \u2014 built on Copyhackers, the writer-as-business-strategist lineage. Use when a writer is repositioning from \"freelance copy for hire\" to outcome-priced practice, deciding whether to ghostwrite vs build a personal brand, pricing a copy engagement against measurable business outcomes (lead-gen, AOV lift, retention) instead of word counts, or designing the next 3-5 year arc of a writing career. Trigger proactively whenever the user says \"how do I price this\", \"I want to charge more\", \"ghostwriting vs my own brand\", \"what should my writing career look like\", or describes burnout from undifferentiated freelance copy work. For tactical sentence-level copy use stefan-georgi-dopamine-copy or harry-dry-copywriting; for AI-leveraged copywriting business use cardinal-mason-ai-copywriting.",
     "when_to_use": "",
-    "mtime": 1784322305.7312138,
+    "mtime": 1784387582.2737055,
     "slash": "/joanna-wiebe-writing-careers",
     "routing": "long-tail",
     "status": ""
@@ -1554,7 +1554,7 @@
     "directory": "kallaway-ai-content-engine",
     "description": "Accelerates content production 3-5x using Kallaway's Transactional-Creative Split \u2014 automate transactional work (research, outlier mining, hook clustering, scripting structure, analytics) while preserving creative work (unique take, perspective choice, voice, emotional calibration) for humans. Governing metric is Research-to-Reaction Ratio (target 80% AI research / 20% human reaction). Use when scaling content output without losing authenticity, when content production feels like grunt work, when AI is producing technically-correct-but-flavorless content, or when the user mentions \"scale content with AI\", \"AI content engine\", \"use AI without sounding AI\". Trigger proactively when the user describes manual research bottlenecking creative output OR when AI-generated drafts are losing the \"sauce\" \u2014 the Transactional-Creative Split diagnoses both failure modes.",
     "when_to_use": "",
-    "mtime": 1784322305.7371159,
+    "mtime": 1784388520.8267052,
     "slash": "/kallaway-ai-content-engine",
     "routing": "",
     "status": ""
@@ -1594,7 +1594,7 @@
     "directory": "kallaway-content-system",
     "description": "End-to-end AI-enabled content production system: validated topics, format locking, substance, hook triads, script profiles, edit path, and 10x batch iteration.",
     "when_to_use": "",
-    "mtime": 1784322305.7407353,
+    "mtime": 1784388459.7173645,
     "slash": "/kallaway-content-system",
     "routing": "long-tail",
     "status": ""
@@ -1744,7 +1744,7 @@
     "directory": "lara-acosta-content-system",
     "description": "A framework mapping technical knowledge and SaaS building into a viral, story-driven LinkedIn content matrix.",
     "when_to_use": "",
-    "mtime": 1784322305.7467797,
+    "mtime": 1784389403.8294883,
     "slash": "/lara-acosta-content-system",
     "routing": "",
     "status": ""
@@ -1794,7 +1794,7 @@
     "directory": "lindsay-ai-consulting",
     "description": "Complete client acquisition system for AI automation consultants from Lindsay's $50K\u2192$100K+ journey",
     "when_to_use": "",
-    "mtime": 1784322305.7485435,
+    "mtime": 1784389371.681931,
     "slash": "/lindsay-ai-consulting",
     "routing": "",
     "status": ""
@@ -1864,7 +1864,7 @@
     "directory": "luke-iha-client-mastery",
     "description": "The business engine for creative strategists \u2014 client acquisition mechanics, proof portfolio sprinting, the 'Paid to Feel' judgment methodology, Meta Andromeda ad diversity systems, and AI-orchestrated production pipelines. The operational complement to luke-iha-creative-strategy (strategic thinking).",
     "when_to_use": "- When launching or scaling a creative strategist freelance practice\n- When building a proof portfolio from zero to blue-chip\n- When optimizing client acquisition on LinkedIn or Upwork\n- When setting up AI-orchestrated ad production with human judgment gates\n- When preparing creative diversity systems for Meta Andromeda\n- When systematically collecting testimonials or building track record\n- When diagnosing why outreach isn't converting into clients",
-    "mtime": 1784322305.7515483,
+    "mtime": 1784389336.8015034,
     "slash": "/luke-iha-client-mastery",
     "routing": "",
     "status": ""
@@ -1974,7 +1974,7 @@
     "directory": "lulu-cheng-meservey-communications",
     "description": "Go-Direct communications and reality-shaping mastery from the founder of Rostra, former Head of Comms at Substack, and advisor to Anduril and Activision Blizzard, systematized from her How I Write interview with David Perell. 13 workflows across the Mao-style Message-Medium-Messenger matrix, the Reality Architect (names create reality), cultural-erogenous-zone detection, the gerrymandered line in the sand, strategic wrongness held until consensus catches up, conviction copy that installs belief, authenticity engineered (never faked), viral-trajectory timing, launch attention-harvest, the standing founder-brand comms OS, zeitgeist-entry content, and emotional-altitude PR crisis response \u2014 every asset gravity-welled to one named business goal. The method runs on one nerve: it has to be real or it dies on contact.",
     "when_to_use": "",
-    "mtime": 1784322305.755932,
+    "mtime": 1784390074.432055,
     "slash": "/lulu-cheng-meservey-communications",
     "routing": "",
     "status": ""

@@ -7557,6 +7557,135 @@
             "ensemble": true,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260718_043809_3d59",
+            "timestamp": "2026-07-18T04:38:09.405976+00:00",
+            "session_id": "28d76098-a0d8-475f-bc8a-9609aae4b6f1",
+            "request_summary": "what else do you need to accomplish in this session? Can you please execute it, please? so we can complete the plan we created for this",
+            "intent_score": 0,
+            "domain_detected": "strength-conditioning-os",
+            "experts_deployed": [
+                "strength-conditioning-os",
+                "mark-kashef-wargame-os",
+                "theme-factory"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "strength-conditioning-os",
+            "ensemble": true,
+            "compound_pairing": "strength-conditioning-os + mark-kashef-wargame-os + theme-factory",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260718_045008_716d",
+            "timestamp": "2026-07-18T04:50:08.754023+00:00",
+            "session_id": "28d76098-a0d8-475f-bc8a-9609aae4b6f1",
+            "request_summary": "I want to make sure that we get this work done as soon as possible because I only have access to you for two more days, so I don't have time to wait to get this done, please",
+            "intent_score": 0,
+            "domain_detected": "writing-depth-layer",
+            "experts_deployed": [
+                "writing-depth-layer",
+                "banana-pro-director",
+                "fareed-zakaria-writing-mastery"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "writing-depth-layer",
+            "ensemble": true,
+            "compound_pairing": "writing-depth-layer + banana-pro-director + fareed-zakaria-writing-mastery",
+            "feedback": "fb_20260718_045130_c75f"
+        },
+        {
+            "routing_id": "rt_20260718_133127_9df9",
+            "timestamp": "2026-07-18T13:31:27.047996+00:00",
+            "session_id": "019f756c-a18f-7d00-a713-5b538719e0a0",
+            "request_summary": "Automation: Health Performance GEO Daily Brief\nAutomation ID: health-performance-geo-daily-brief\nAutomation memory: $CODEX_HOME/automations/health-performance-geo-daily-brief/memory.md\nLast run: never",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-avatar-machine",
+            "experts_deployed": [
+                "luke-iha-avatar-machine",
+                "fresh-voice-system",
+                "fraser-cottrell-paid-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-avatar-machine",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-avatar-machine + fresh-voice-system + fraser-cottrell-paid-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260718_134055_aaef",
+            "timestamp": "2026-07-18T13:40:55.005246+00:00",
+            "session_id": "",
+            "request_summary": "2026-07-18 Health Performance GEO Daily Brief: Storage-to-Trust Map angle, full chat/local brief, three JSONL rows, Drive disabled",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "health-performance-geo-client-acquisition-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "health-performance-geo-daily-brief",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260718_134107_9a19",
+            "timestamp": "2026-07-18T13:41:07.621072+00:00",
+            "session_id": "",
+            "request_summary": "Produced the complete 2026-07-18 Health Performance GEO Creative Strategist daily brief for Farrice Cain from AUTOMATION_PROMPT.md; selected a fresh non-GLP-1 Storage-to-Trust Map angle from broad mar",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "health-performance-geo-client-acquisition-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "health-performance-geo-daily-brief",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260718_145053_1e68",
+            "timestamp": "2026-07-18T14:50:53.903847+00:00",
+            "session_id": "28d76098-a0d8-475f-bc8a-9609aae4b6f1",
+            "request_summary": "resume your task please",
+            "intent_score": 0,
+            "domain_detected": "swarm-commander",
+            "experts_deployed": [
+                "swarm-commander",
+                "pptx",
+                "docx"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "swarm-commander",
+            "ensemble": true,
+            "compound_pairing": "swarm-commander + pptx + docx",
+            "feedback": "fb_20260718_145230_53cf"
+        },
+        {
+            "routing_id": "rt_20260718_160323_6679",
+            "timestamp": "2026-07-18T16:03:23.362430+00:00",
+            "session_id": "019f75e8-8752-7000-9016-a08cd3d20283",
+            "request_summary": "Let's update the work that I've Sent Josh a text message this morning with the link to the drive. I reviewed everything and had the price at 750, and just waiting to hear back from him.",
+            "intent_score": 0,
+            "domain_detected": "darrel-wilson-ai-affiliate",
+            "experts_deployed": [
+                "darrel-wilson-ai-affiliate",
+                "josh-kaufman-business-fundamentals",
+                "docx"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "darrel-wilson-ai-affiliate",
+            "ensemble": true,
+            "compound_pairing": "darrel-wilson-ai-affiliate + josh-kaufman-business-fundamentals + docx",
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -8036,12 +8165,30 @@
             "rating": "auto_miss",
             "correction": "claim-safe-health-marketing",
             "notes": "expert skill 'claim-safe-health-marketing' loaded not matching suggestion ['paul-harding-lyric-prose', 'deliberate', 'dara-denney-meta-ads']"
+        },
+        {
+            "feedback_id": "fb_20260718_045130_c75f",
+            "timestamp": "2026-07-18T04:51:30.139266+00:00",
+            "session_id": "28d76098-a0d8-475f-bc8a-9609aae4b6f1",
+            "routing_id": "rt_20260718_045008_716d",
+            "rating": "auto_miss",
+            "correction": "ben-watkins-storytelling",
+            "notes": "expert skill 'ben-watkins-storytelling' loaded not matching suggestion ['writing-depth-layer', 'banana-pro-director', 'fareed-zakaria-writing-mastery']"
+        },
+        {
+            "feedback_id": "fb_20260718_145230_53cf",
+            "timestamp": "2026-07-18T14:52:30.769232+00:00",
+            "session_id": "28d76098-a0d8-475f-bc8a-9609aae4b6f1",
+            "routing_id": "rt_20260718_145053_1e68",
+            "rating": "auto_miss",
+            "correction": "ben-watkins-storytelling",
+            "notes": "expert skill 'ben-watkins-storytelling' loaded not matching suggestion ['swarm-commander', 'pptx', 'docx']"
         }
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 418,
-            "total_feedback": 53,
+            "total_routings": 425,
+            "total_feedback": 55,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
@@ -8052,7 +8199,7 @@
                 "Strategy": 22,
                 "Creative": 8,
                 "Legal Consult Prep": 1,
-                "Content": 42,
+                "Content": 44,
                 "Extraction": 20,
                 "Research": 8,
                 "stefan-georgi-dopamine-copy": 7,
@@ -8070,13 +8217,13 @@
                 "omar-eltakrori": 1,
                 "luke-iha-copy-blocks": 22,
                 "extract-mastery": 3,
-                "luke-iha-avatar-machine": 6,
+                "luke-iha-avatar-machine": 7,
                 "skill-creator": 1,
                 "higgsfield-creative-studio": 1,
                 "voice-os": 8,
                 "marketing-studio-director": 1,
                 "nate-b-jones-intent-engineering": 1,
-                "strength-conditioning-os": 3,
+                "strength-conditioning-os": 4,
                 "ai-chris-lee-zero-testimonial-sales": 1,
                 "luke-iha-vsl-leads": 4,
                 "dr-kriukow-humanization": 1,
@@ -8112,11 +8259,14 @@
                 "nate-b-jones-ai-taste-mastery": 1,
                 "internal-comms": 1,
                 "donald-miller-storybrand": 1,
-                "new-media-ghostwriting": 1
+                "new-media-ghostwriting": 1,
+                "writing-depth-layer": 1,
+                "swarm-commander": 1,
+                "darrel-wilson-ai-affiliate": 1
             },
             "expert_counts": {
                 "system-audit": 23,
-                "strength-conditioning-os": 13,
+                "strength-conditioning-os": 14,
                 "nicolas-cole": 1,
                 "source-to-skill-system": 1,
                 "founder-voice": 1,
@@ -8125,7 +8275,7 @@
                 "David Placek": 1,
                 "jen-santulan-listing-content": 32,
                 "jen-santulan": 3,
-                "health-performance-geo-client-acquisition-engine": 7,
+                "health-performance-geo-client-acquisition-engine": 9,
                 "deep-research": 7,
                 "nate-b-jones-orchestration-intelligence": 4,
                 "source-command-mission": 1,
@@ -8144,7 +8294,7 @@
                 "jason-fladlien-marketing": 11,
                 "design-md": 22,
                 "simon-intellectual-library-os": 2,
-                "pptx": 8,
+                "pptx": 9,
                 "david-placek-naming": 8,
                 "brand-operating-system": 23,
                 "nicolas-cole-niche-positioning": 15,
@@ -8181,15 +8331,15 @@
                 "none": 8,
                 "alan-aragon-nutrition": 1,
                 "nate-b-jones-context-engineering": 34,
-                "luke-iha-avatar-machine": 7,
+                "luke-iha-avatar-machine": 8,
                 "alex-suzuki": 2,
                 "darrel-wilson-ai-monetization": 1,
-                "darrel-wilson-ai-affiliate": 1,
+                "darrel-wilson-ai-affiliate": 2,
                 "doc-coauthoring": 22,
                 "farrice-master-context-synthesis": 1,
                 "omar-eltakrori": 1,
                 "donald-miller-culture-turnaround": 3,
-                "mark-kashef-wargame-os": 5,
+                "mark-kashef-wargame-os": 6,
                 "asset_generator": 1,
                 "dan-wang-literary-analysis": 2,
                 "oren-john": 2,
@@ -8204,7 +8354,7 @@
                 "cooz-voice-profile": 3,
                 "market_intelligence": 1,
                 "gemini-api-dev": 3,
-                "writing-depth-layer": 3,
+                "writing-depth-layer": 4,
                 "jack-roberts-design-mastery": 9,
                 "unified-research-engine": 1,
                 "skill-creator": 2,
@@ -8241,7 +8391,7 @@
                 "oren-brand-archetypes": 1,
                 "luke-iha-proof-ladder": 1,
                 "mitch-albom-writing-mastery": 1,
-                "theme-factory": 3,
+                "theme-factory": 4,
                 "kallaway-illusion-of-novelty": 3,
                 "cinematic-documentary": 1,
                 "research-engine": 1,
@@ -8255,7 +8405,7 @@
                 "dan-martell-business-scaling": 2,
                 "luisa-zhou-coaching": 2,
                 "joey-cinema-os": 5,
-                "banana-pro-director": 1,
+                "banana-pro-director": 2,
                 "cinema-worldbuilder-pro": 2,
                 "story-bible-builder": 2,
                 "joey-noisy-group": 1,
@@ -8265,7 +8415,7 @@
                 "sean-dollwet": 1,
                 "kallaway": 1,
                 "henry-shukman-contemplative-writing": 2,
-                "fresh-voice-system": 4,
+                "fresh-voice-system": 5,
                 "luke-iha-creative-strategy": 4,
                 "market-intelligence": 1,
                 "forge-os": 8,
@@ -8273,7 +8423,7 @@
                 "jeremy-haynes": 4,
                 "luke-iha-cross-domain": 1,
                 "seena-rez-tiktok-commerce": 1,
-                "docx": 1,
+                "docx": 3,
                 "tommy-clark": 2,
                 "sharran-srivatsaa-scaling": 2,
                 "ali-abdaal-action-bias": 2,
@@ -8282,7 +8432,7 @@
                 "panel_cast": 1,
                 "expert-assembly-os": 3,
                 "creative-assembly": 1,
-                "swarm-commander": 1,
+                "swarm-commander": 2,
                 "kieran-flanagan": 1,
                 "lara-acosta-linkedin-growth": 1,
                 "liam-mley-ai-brain-builder": 1,
@@ -8304,10 +8454,13 @@
                 "kallaway-content-psychology": 1,
                 "donald-miller-storybrand": 1,
                 "donald-miller-messaging-evolution": 2,
-                "new-media-ghostwriting": 1
+                "new-media-ghostwriting": 1,
+                "fareed-zakaria-writing-mastery": 1,
+                "fraser-cottrell-paid-ads": 1,
+                "josh-kaufman-business-fundamentals": 1
             },
             "tier_counts": {
-                "0": 418,
+                "0": 425,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -8315,11 +8468,11 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 235,
-                "finalize-auto": 183
+                "hybrid": 240,
+                "finalize-auto": 185
             },
-            "ensemble_count": 310,
-            "auto_miss_count": 42,
+            "ensemble_count": 315,
+            "auto_miss_count": 44,
             "auto_match_count": 11
         }
     }
