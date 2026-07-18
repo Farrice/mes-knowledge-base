@@ -73,3 +73,24 @@ The pre-internet masters had to write, print, fold, stamp, and mail every sales 
 ### Insight: Persuasion Literacy Is Defense First, Offense Second
 **Insight**: Bernays, chapter one: "We are governed, our minds are molded, our tastes formed... largely by men we have never heard of." Brunson's dual use: first become aware you're being persuaded daily (politics, religion, culture — every charged issue is two propaganda machines colliding) so you can make clean decisions; only then use the machinery to move people toward outcomes that serve them.
 **Deploy**: Teach clients to decode the persuasion architecture aimed at *them* (their inputs, their feeds) as training for building their own. Every influence campaign gets an ethics check: does the identity/desire we're installing actually serve the buyer's stated goal?
+
+## Anti-Patterns (What Brunson Warns Against, Sourced)
+
+- **Selling the process instead of the visualized outcome**: pitching "here's my step-by-step coaching program" instead of the Hawaii-not-the-flight vision is, in Brunson's own words, "the mistake" most operators default to — transcript, 2025-05-29, 8:41-8:48 (156c576f-536b-4a6d-a33b-3b5efd30b38e.md): "a lot of times we get in the mistake of trying to sell the process... we keep selling the process versus helping people visualize the outcome."
+- **Believing your own bio (unchecked ego) precedes collapse**: Brunson names his own early-career crash — 100 employees, "everything fell apart" — as the direct consequence of "believing their own bio" once success started, the same healthy-egotism pattern turned toxic when unchecked by proof — transcript, 2025-07-12, 6:44-7:19 (c6416fe8-9783-478c-ad64-42d7577d26d4.md).
+- **Selling features/benefits logically instead of emotionally**: Brunson's own case study is Bernays selling WWI war bonds — the pre-Bernays approach was "here's the features and the benefits... logically," and it failed until Bernays switched to emotional story — transcript, 2025-05-31, 1:41-1:58 (0a89743f-81f6-47cc-b539-86345323a94f.md).
+- **Leaving a negative connotation unaddressed instead of reframing it**: Brunson's explicit contrast is doing nothing ("letting people take the message the way it was") versus Bernays renaming "propaganda" to "public relations" the moment the word turned toxic — transcript, 2025-05-31, 8:31-8:43 (0a89743f-81f6-47cc-b539-86345323a94f.md).
+- **Marketing on hope and ideas instead of real-money-tested prediction**: Brunson contrasts the fax-and-mail masters' discipline with modern "hoping stuff work[s]" — "not based on ideas or hoping stuff work... they just thought through things differently" is the line separating strategy from guessing — transcript, 2025-05-29, 11:29-11:36 (156c576f-536b-4a6d-a33b-3b5efd30b38e.md).
+- **Scattering across every channel instead of concentrating one**: Brunson's own contrast is Haanel selling 200,000 copies pre-internet through one stacked channel (the Nautilus) against "most people don't sell like 20 copies of their book and they got Facebook, Instagram, you all the different tools" — transcript, 2025-07-23, 9:07-9:20 (e111041c-a359-43db-9a42-6d7c481470c1.md).
+
+Full source anchors for every quote above (and every quote in Genius Patterns/Hidden Knowledge): `references/source-ledger.md`.
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a fill-in-the-blank template. Absorb Hook-Story-Offer, vivid-vision selling, and identity-attachment as instincts, then build the specific message fresh for the offer in front of you. The test: would Russell Brunson recognize this as a sales message actually built to move a real buyer toward a decision — or as someone reciting his vocabulary back at him? If the second, rebuild.
+
+Specifically:
+- Do NOT title output sections "Hook:", "Story:", "Offer:", or "Identity Layer:" in a finished deliverable unless a workflow's Output Skeleton explicitly calls for those labels — the unit is a rhythm the reader feels, never a labeled diagram announcing its own machinery.
+- Do NOT let the vivid-vision sequence collapse into a bullet list of benefits — Brunson's own bar is sensory and specific enough that "they can smell it, they can taste it, they can touch it," not a features table with adjectives added.
+- His texture is stage-preacher confident and proof-loaded: first person, present tense, real dollar figures ($12,500 for a book, $30,000 for a manuscript), real names dropped as lineage (Robert Allen, Dan Kennedy, Napoleon Hill, Bernays) rather than footnoted as citations. Flatten that into hedge-y, cited marketing-speak and it stops sounding like him.
+- Polish is the tell-class warning here: a Hook-Story-Offer message that reads too clean, too balanced, too considerate of the reader's time has lost the propulsion. Brunson's copy runs hot, specific, and a little relentless — never safe, never generic.
