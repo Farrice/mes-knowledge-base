@@ -166,7 +166,18 @@ Sort all passing opportunities by EV descending. Flag top 3 for immediate action
 
 ---
 
-## Output Template
+## Output Schema
+
+Every scan output carries six required blocks, in this order:
+
+1. **Header** — scan timestamp, city/market counts, edges identified, calibration status, account balance.
+2. **Top Edges table** — capped at exactly 3 rows: City, Date, Bucket, Forecast, Source, Sigma, Probability, Ask, EV, Size.
+3. **All Passing Edges table** — same columns, for any opportunities beyond the top 3 (omit the block entirely if none).
+4. **Filtered Out** — a count per failed filter (spread, volume, EV, price, hours-window, position size), never a single aggregate number.
+5. **Forecast Snapshot** — every city/date scanned, all three source values plus the selected "best" source, recorded even for zero-edge markets (this is the calibration dataset; see Genius Pattern 3, data collection decoupled from trading).
+6. **Notes** — markets within 6h of resolution flagged for METAR-trend verification, cities under 30 calibration samples marked `*`, and any HRRR/ECMWF disagreement ≥3°F called out by name.
+
+Every price, temperature, and volume in the output must trace to supplied or fetched data. If a data point is missing for a city/date, report "no data" — never estimate or infer a plausible-looking value. See the Output Template below for the exact field layout.
 
 ```
 WEATHER MARKET SCAN — {date} {time} UTC
@@ -239,6 +250,18 @@ NOTES:
 - Chicago using default sigma (28 samples, below 30 threshold) — marked *
 - Model disagreement: Denver Apr 16 — HRRR 62F vs ECMWF 57F (5F gap, DO NOT TRADE)
 ```
+
+---
+
+## Quality Gate
+
+- Did every city in scope resolve to its verified ICAO station — never a city-center approximation? (Airport Station Resolution Matching is this skill's core edge; a scan that skips it isn't this skill's output.)
+- Is exactly one bucket matched per city/date, with no position spread across multiple buckets in the same market?
+- Did every listed opportunity clear all seven filters (EV ≥0.10, price <$0.45, volume ≥500, spread ≤$0.03, hours 2.0-72.0, size ≥$0.50) before landing in Top Edges, with failures routed to Filtered Out instead?
+- Are cities under the 30-sample calibration minimum marked `*` and running on default sigma (2.0F/1.2C) rather than a fabricated calibrated value?
+- Is every HRRR/ECMWF disagreement ≥3°F flagged "DO NOT TRADE" rather than averaged, ignored, or silently resolved to one source?
+- Is the Forecast Snapshot populated for every city/date scanned — including zero-edge markets — since this is the calibration dataset the skill's self-calibration pattern depends on?
+- Is every number in the output either supplied/fetched data or a stated default, with zero invented temperatures, prices, or volumes?
 
 ---
 

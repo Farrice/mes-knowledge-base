@@ -192,7 +192,16 @@ Generate three deliverables: sigma report, config recommendation, and portfolio 
 
 ---
 
-## Output Template
+## Output Schema
+
+A Calibration Report has four required sections, always in this order:
+
+1. **Per-City Sigma** — one row per (city, source) pair carrying sample count, old σ, new σ, delta, and status (IMPROVED / SLIGHT DEGRADATION / STABLE / NO CHANGE), plus three explicit call-outs: insufficient-data cities (<30 samples, still on default sigma), high-risk cities (σ > 3.0, removal candidates), and high-confidence cities (σ < 1.5F / 0.8C, Kelly-increase candidates).
+2. **Parameter Optimization** — a recommended `config.json` where every changed value carries an inline comment justifying it against the data reviewed, plus explicit `UNCHANGED` lines for parameters left alone (never silently omitted).
+3. **Portfolio Analysis** — city performance ranking (win rate + net PnL + sigma per city), diversification breakdown (US vs international, climate-zone coverage), error-correlation notes between nearby cities, and add/remove candidates.
+4. **Calibration Data** — the updated `calibration.json` payload, ready for storage, with per-city per-source sigma and sample counts.
+
+Every sigma, delta, win-rate, and PnL figure must trace to the resolved-market data actually reviewed in Phase 1-4 — never a plausible-sounding placeholder invented to fill the table. See the Output Template below for the exact field layout.
 
 ```
 CALIBRATION REPORT — {date}
@@ -351,6 +360,18 @@ KEY FINDINGS:
   - London and Lucknow are net negative — consider removing
   - HRRR beats ECMWF by 0.4F MAE for US cities within 24h
 ```
+
+---
+
+## Quality Gate
+
+- Is sigma computed as Mean Absolute Error, never RMSE — MAE is the deliberate choice here because a single outlier miss (an unexpected storm) shouldn't distort a parameter that directly controls position sizing?
+- Did every (city, source) pair with fewer than 30 resolved samples get flagged "insufficient data, using default" rather than a calculated sigma presented as if reliable?
+- Was the 0.05 stability threshold applied before recommending a sigma update — is "no change" the correct call whenever `abs(new - old) <= 0.05`?
+- Does the Kelly Fraction recommendation stay at or below 0.33 (one-third Kelly) regardless of how strong the observed win rate looks — is full Kelly never the output on an imperfect probability model?
+- Is every recommended `config.json` change backed by a specific figure pulled from the reviewed data (a win-rate bucket, a slippage distribution, an entry-price cohort) rather than a generic "seems reasonable" adjustment?
+- Are cities with σ > 3.0F explicitly flagged for removal and cities with σ < 1.5F flagged as Kelly-increase candidates, using the thresholds this workflow itself sets in Phase 2-4?
+- Does the updated `calibration.json` payload in Section 4 match the sigma values reported in Section 1 — no drift between the human-readable report and the machine-storage payload?
 
 ---
 

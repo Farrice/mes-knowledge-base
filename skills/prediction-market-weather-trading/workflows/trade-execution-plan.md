@@ -172,7 +172,14 @@ ENTRY (now)
 
 ---
 
-## Output Template
+## Output Schema
+
+A Trade Execution Plan produces exactly one of two shapes per input set — never both, and never a hybrid:
+
+- **Rejection Ticket** — produced when ANY Step 1 hard filter or Step 2 real-price re-verification fails. Contains only: reason, actual value, threshold, and a one-line next action. No entry math, no exit scenarios.
+- **Trade Execution Blueprint** — produced when every filter clears. Contains: header (market, bucket, forecast/source/sigma, hours to resolution, scan timestamp); Entry block (probability, verified ask/bid/spread, EV, full and fractional Kelly, capped position size, share count, balance-risk %); all six Exit Scenarios A-F (stop-loss, trailing stop, take-profit, forecast-change, resolution-WIN, resolution-LOSS), each with trigger condition, dollar outcome, and an estimated probability grounded in this trade's actual sigma/hours/bucket-distance — not a generic guess; a weighted-EV line combining the WIN/LOSS resolution probabilities; the Decision Tree; and the Pre-Flight Checklist. Add a Portfolio Summary block only when this blueprint is one of several trades drawn from a single scan.
+
+Every dollar figure in either shape must derive from the supplied inputs and the Step 1-4 formulas — no invented prices, probabilities, or share counts. See the Output Template below for exact field layout.
 
 ```
 TRADE EXECUTION BLUEPRINT
@@ -353,3 +360,15 @@ Reason: {specific filter that failed}
 {If EV: "Edge too small. Fees and slippage would eat the profit."}
 {If time: "Too close to resolution — market is efficient. OR too far — forecast unreliable."}
 ```
+
+---
+
+## Quality Gate
+
+- Did Step 1 (hard filters) and Step 2 (real-price re-verification) run and clear BEFORE any sizing or exit math was produced — never sized first, filtered after?
+- Is the position size the output of all three Kelly layers in strict order (fractional Kelly → $20 dollar cap → $0.50 floor), not a shortcut estimate?
+- Are all six exit branches (A-F: stop-loss, trailing stop, take-profit, forecast-change, resolution-WIN, resolution-LOSS) present and independently triggered — none silently merged or dropped?
+- Does the take-profit threshold scale correctly to hours-to-resolution (HOLD under 24h, $0.85 at 24-48h, $0.75 above 48h), never a flat threshold applied regardless of horizon?
+- Is resolution determined by price convergence ($0.95 WIN / $0.05 LOSS), never by an assumed "closed" API status flag?
+- If real bestAsk/bestBid verification data wasn't supplied for Step 2, is the ticket explicitly marked provisional rather than presented as execution-ready?
+- For multi-trade scans, is same-date/nearby-city weather correlation flagged in the Portfolio Summary so correlated trades aren't priced as independent bets?

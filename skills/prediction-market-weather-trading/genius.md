@@ -1,6 +1,18 @@
 # Weather Trading — Genius Context
 
-> Load this file before running any workflow. Every pattern below comes from the production weatherbot codebase (bot_v2.py, 1,050 lines). Parameters are actual values with the reasoning behind each one.
+> Load this file before any workflow. Every pattern below comes from the production weatherbot codebase (bot_v2.py, 1,050 lines). Parameters are actual values with the reasoning behind each one.
+
+---
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist to recite. Absorb the discipline — defensive defaults, sequential priority, information exits over price exits — then run the specific math for the specific trade. If the output mechanically narrates "now checking coordinate accuracy... now applying Kelly sizing... now setting the stop-loss," that is the failure mode: `scan_and_update()` never logs its own steps, it just executes them in order.
+
+Specifically:
+- Do NOT enumerate which genius patterns you applied unless asked. Name the filter, the threshold, the number — never the pattern label.
+- Do NOT round or estimate a number the filter cascade depends on. EV, Kelly %, sigma, spread, and hours-to-resolution gate REJECT/ACCEPT decisions; a plausible-sounding fabricated number is worse than an honest "no data supplied."
+- This system's texture is defensive-first, never swaggering. Every default starts conservative (quarter Kelly, $20 hard cap, $0.45 max price, SIGMA_F 2.0) and earns aggression only through 30+ resolved samples of calibration. Confident, round-number overreach before the data supports it — the "sounds like a trader" voice instead of the bot's own hedged, threshold-gated posture — is this skill's version of polish-is-the-tell: it signals someone using prediction-market vocabulary ("edge," "EV," "Kelly") without the filter cascade actually running underneath.
+- The test: would the weatherbot's author recognize this output as the same disciplined, sequential decision pipeline that scans, filters, sizes, and exits in a fixed priority order — or as someone wearing trading vocabulary over a discretionary call? If it's the second, rebuild against the seven-filter cascade (`directives`-grade thresholds: EV ≥0.10, price <$0.45, volume ≥500, spread ≤$0.03, hours 2.0-72.0, size ≥$0.50), not against the terminology.
 
 ---
 
@@ -181,6 +193,22 @@ Every one of these mistakes is corrected in the weatherbot codebase:
 - No position management (enter and hold to resolution)
 - No slippage awareness (entering at cached prices, getting filled 5-10 cents worse)
 - Single monolithic state file (corruption kills everything)
+
+---
+
+## Anti-Patterns (Sourced from Production Codebase)
+
+> Every item below is corrected in `alteregoeth-ai/weatherbot` bot_v2.py — cataloged verbatim in the MES 3.0 extraction dossier's "Anti-Exemplar: The Naive Weather Bot" and "Red Flags (Immediate Stop)" sections. Extraction date: 2026-04-13/2026-04-14 (see `git log` on the source files). A quote you cannot find in these files is UNCONFIRMED, never anchored — the two lists below are the full set that IS anchored.
+
+- **City-center coordinates**: "Using `40.7128, -74.0060` for NYC instead of `40.7772, -73.8726` (LaGuardia). 3-8F error on every trade. Guaranteed losers on 1-2F bucket markets." — Source: `extractions/prediction-market-trading/weatherbot-extraction.md`, "Anti-Exemplar: The Naive Weather Bot" (2026-04-13 extraction).
+- **Single forecast source**: "Using only NWS or only ECMWF. No cross-validation. No way to know when a forecast is an outlier." — Source: `extractions/prediction-market-trading/weatherbot-extraction.md`, same section.
+- **Flat position sizing**: "5% of balance per trade regardless of edge. A 90% probability trade and a 55% probability trade get the same size. This is either too aggressive on weak edges or too conservative on strong ones." — Source: `extractions/prediction-market-trading/weatherbot-extraction.md`, same section.
+- **No calibration**: "Using a fixed sigma of 2.0 for all cities, all sources, all time. Ignoring that Miami forecasts are more accurate than Seattle forecasts." — Source: `extractions/prediction-market-trading/weatherbot-extraction.md`, same section.
+- **No position management**: "Enter and hold to resolution. No stop-loss, no exits. If the forecast changes dramatically, you're stuck." — Source: `extractions/prediction-market-trading/weatherbot-extraction.md`, same section.
+- **No slippage awareness**: "Entering at cached prices without checking the real ask. Getting filled 5-10 cents worse than expected." — Source: `extractions/prediction-market-trading/weatherbot-extraction.md`, same section.
+- **Single monolithic state file**: "One `simulation.json` for all markets. Corruption kills everything. Debugging requires reading the entire file." — Source: `extractions/prediction-market-trading/weatherbot-extraction.md`, same section.
+- **LLM touching execution credentials**: "The LLM never touches API keys, wallet credentials, or order execution. This separation is non-negotiable — it prevents prompt injection from draining funds." (stated as the positive rule; the anti-pattern is its inverse, listed explicitly as "Letting the LLM touch wallet credentials" under Red Flags). — Source: `extractions/prediction-market-trading/weather-trading-extraction.md`, "Two-Layer Architecture" + "Red Flags (Immediate Stop)" sections (2026-04-14 extraction).
+- **Sizing above quarter-to-third Kelly**: "NEVER recommend above 0.33 (one-third Kelly)," paired with the Red Flag "Using full Kelly (1.0 fraction) on weather markets." Imperfect probability estimates make full Kelly a ruin risk, not an edge. — Source: `extractions/prediction-market-trading/weatherbot-extraction.md`, Crown Jewel 5 ("Weather Bot Config Optimizer"); `extractions/prediction-market-trading/weather-trading-extraction.md`, "Red Flags (Immediate Stop)" section.
 
 ---
 
