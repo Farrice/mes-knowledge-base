@@ -143,7 +143,7 @@ Each post maps to a psychological stage. The reader cannot skip stages — each 
 
 **What makes this different from a "content calendar"**: A content calendar organizes topics by date. A conversion sequence organizes topics by psychological progression. The calendar asks "what should I post Tuesday?" The sequence asks "what must the reader believe before Post 4 lands?"
 
-## Output
+## Output Contract
 
 For the user's specific situation, produce:
 1. **Strategy Ranking**: Which 2-3 strategies to prioritize based on their time, skills, and situation
@@ -152,6 +152,14 @@ For the user's specific situation, produce:
 4. **Psychology Briefing**: Personalized Idiot-Genius Roller Coaster management plan — what to expect and how to handle it
 5. **Success Metrics**: Clear 7-day, 14-day, 30-day milestones
 6. **Conversion Sequence Map** (if Strategy 6 is ranked): Complete 5-post sequence with topic, type assignment, belief each post installs, and timing
+
+## Quality Gate
+- Strategy Ranking names the user's actual proof gap (zero portfolio / zero testimonials / zero track record) — not a generic "here are 5 strategies" list
+- Every custom sample and pitch-in-public draft contains specific, verifiable observations about the named prospect, never generic flattery ("love your content")
+- The NDA Deflection or Guinea Pig line only appears when the plan anticipates a direct ask for proof — not stapled onto every message regardless of fit
+- Free Custom Sample strategy states the 15-30 minute time cost explicitly and frames it as marketing cost, never as unpaid ongoing work
+- If the Conversion Sequence Map (Strategy 6) is included, the ratchet check is explicit: Post 3 must land harder because of Posts 1-2, not work equally well standalone
+- Psychology Briefing names the Idiot-Genius Roller Coaster by name and ties it to the user's actual stated timeline — not generic "stay motivated" advice
 
 ## Creative Latitude
 These six strategies aren't sequential — they're combinable. A savant deploys 2-3 simultaneously. A free custom sample that becomes a pitch-in-public post that leads to a sales call where you educate the client — that's the compound play. Strategy 6 (Conversion Sequence) is the compound play systematized — it turns Pitch in Public from individual swings into a deliberate funnel.

@@ -135,7 +135,7 @@ Loose relationship:
 - What's working? (Which messages get responses?)
 - What's not? (What patterns in non-responses?)
 
-## Output
+## Output Contract
 
 Produce a complete outreach engine:
 1. **Leaks & Faucets Map**: Populated and scored from user's network
@@ -145,6 +145,14 @@ Produce a complete outreach engine:
 5. **Daily Schedule**: 60-minute block structure with minute-by-minute breakdown
 6. **Pipeline Tracker**: Template spreadsheet/system for tracking all contacts
 7. **Weekly Review Checklist**: Self-assessment questions for pipeline health
+
+## Quality Gate
+- Leaks list is exhausted (every plausible warm contact scored) before any cold prospect appears in the plan
+- Every cold outreach message opens with a specific, verifiable observation from the 15-minute research protocol — never a compliment with no insight attached
+- The service is never pitched in the first line of a cold message; the pitch is the conversation, not the offer
+- Follow-up cadence is exactly 5 touches at 24-48hr intervals with escalating content (bump → value-add → proof offer → light urgency → graceful exit) — never the same "just checking in" message repeated
+- Pipeline Tracker has a populated Next Action + date for every contact with status Open — no contact left without one
+- Warm scripts are differentiated by relationship strength (Close/Warm/Loose); a Close-relationship script and a Loose-relationship script must not be interchangeable
 
 ## Creative Latitude
 The 60-minute block is a minimum, not a maximum. Users with more time should scale quality, not volume — spend 25 minutes per prospect instead of 15, produce richer research, create free custom samples alongside outreach. The 4-5 messages per day is already quality-over-volume; if time allows, go deeper per prospect rather than wider.

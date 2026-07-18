@@ -136,7 +136,7 @@ For early clients, if they can't pay full rate:
 - **Testimonial**: Full rate paid in proof assets (written testimonial, case study permission, video review)
 - **Referrals**: Discounted rate in exchange for warm intros to 3 potential clients
 
-## Output
+## Output Contract
 
 Produce a complete 30-day sprint plan with:
 - **Removal List**: 3-5 specific items to cut with time reclaimed
@@ -149,6 +149,14 @@ Produce a complete 30-day sprint plan with:
 - **Daily Schedule**: 60-minute morning block structure
 - **Sales Call Talk Track**: Problem articulation script for their service
 - **Psychology Management Notes**: Personalized Idiot-Genius Roller Coaster guidance
+
+## Quality Gate
+- Phase order is enforced: Removal List precedes Service Selection precedes any outreach — a plan that starts with outreach before Phase 1 is complete has failed
+- Exactly ONE service is selected, chosen from what the user already practices on themselves — never an aspiration or an industry-first pick
+- Credibility Sprint asset is scoped to complete within 48 hours and is callable on a live call within 5 seconds
+- Every contact (warm or cold) gets the full 5-touch follow-up cadence at 24-48hr intervals — a plan that stops at touch 1-2 has failed
+- NDA Deflection appears in the Sales Call Talk Track only as a conditional response to a direct proof request, not as an opening line
+- The plan states Day-by-day or Phase-by-phase tasks with concrete counts (messages/day, posts/week) — no vague weekly goals like "do more outreach"
 
 ## Creative Latitude
 The 30-day structure is the floor. If the user's situation demands a compressed 14-day sprint or an extended 45-day ramp, adjust accordingly. If their warm network is large, Phase 2 may extend and Phase 3 may shrink. The methodology adapts — the principles don't.

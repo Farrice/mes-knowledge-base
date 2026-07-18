@@ -1,6 +1,17 @@
 # Nicolas Cole — Client Acquisition — Genius Context
 
-> Load before any client acquisition or freelance sprint workflow.
+> Load before any client acquisition or freelance sprint workflow. Genius Patterns 1-8 and the Anti-Patterns below are grounded in `extractions/nicolas-cole-ghostwriting-v1/transcript.txt` ("30-Day Plan to Land Writing Clients") and `extractions/nicolas-cole-ghostwriting-v2/transcript.txt` ("5 Ways to Land Ghostwriting Clients Without a Portfolio") — see `references/source-ledger.md` for claim-by-claim provenance.
+
+## How to Use This Skill (Model Calibration)
+
+The patterns below are intuition primitives, not a checklist. Absorb them, then advise originally. If the output marches "Strategy 1, Strategy 2, Strategy 3..." like a workshop deck, or narrates "Applying the Removal List..." inside a finished deliverable, you have failed. The test: would Nicolas Cole recognize this as his own thinking — someone who landed 300+ enterprise clients off an 8,000-follower Quora profile and zero testimonials — or as someone reciting his framework back at him? If unsure, the answer is no — rewrite.
+
+Specifically:
+- Do NOT enumerate which patterns you applied unless asked. Deploy the NDA Deflection; never write "per the NDA Deflection pattern."
+- Do NOT let outreach or sales-call copy read like a template with the names swapped. Cole's method is homework-first — every message needs the two or three specific, verifiable observations his 15-minute prospect audit produces (their opt-in, their funnel, their posting pattern), or it's spray-and-pray with better formatting.
+- Do NOT soften the numbers to seem reasonable. Cole's authority is specific and unmovable — $3,000 minimum, five follow-ups at 24-48 hour intervals, 300+ clients closed on zero case studies — never "several follow-ups" or "a competitive rate."
+- His delivery is blunt and educational, never salesy: he never asks for the close, he makes the prospect ask "can you help me with this?" first. If a generated sales script pitches the service before beat 4, that's the tell-class failure — rebuild.
+- Polish is the tell here specifically: a beautifully worded outreach message that could have been sent to anyone is worse than a rough one built from real homework on one prospect. If the copy would survive a find-and-replace of the company name, it has failed regardless of how clean the prose is.
 
 ## Core Philosophy
 Client acquisition = education problem, not sales problem. Credibility established by articulating prospect's problem better than they can. Everything else (portfolio, testimonials) is retroactive validation, not prerequisite.
@@ -76,13 +87,13 @@ Full research on prospect → publish as content: "If I was CMO for a day at [Bu
 ---
 
 ## Anti-Patterns (Cole Would Never...)
-1. Chase credentials before clients
-2. Spray-and-pray outreach (100 copy-paste vs 5 researched)
-3. Give up after one follow-up (5x minimum)
-4. Lead with achievements (lead with prospect's problem)
-5. Wait for "right" niche (pick service, let industry find you)
-6. Treat free work as charity (negotiate non-cash currency)
-7. Confuse psychology with reality (no volume = no data)
+1. **Chase credentials or a portfolio before taking clients** — treating case studies, testimonials, and a polished portfolio as prerequisites instead of retroactive validation. Source: *"The client does not care how much quote unquote industry credibility you have. The client does not care how many case studies you have. The client does not care how big your portfolio is. The client does not care if you have a gazillion testimonials or one testimonial or zero testimonials. The client doesn't care."* (`extractions/nicolas-cole-ghostwriting-v2/transcript.txt`, "5 Ways to Land Ghostwriting Clients Without a Portfolio").
+2. **Spray-and-pray outreach** — sending the same copy-pasted message to a hundred prospects instead of researching a handful. Source: *"the big emphasis here is this is not about spray and prey. This is not about creating a message and copy pasting... They take a high quality approach to outreach. They do not take a spray and pray approach."* (`extractions/nicolas-cole-ghostwriting-v1/transcript.txt`, "30-Day Plan to Land Writing Clients").
+3. **Giving up after one follow-up** — treating silence as rejection instead of running the full five-touch cadence. Source: *"they talk themselves out of ever following up. And it's all just faulty beliefs. They think, 'Oh, if I follow up, I'm going to be seen as annoying.'... These things are not true. You have made them up... I would follow up with them in 24 to 48 hour increments at least five times."* (`extractions/nicolas-cole-ghostwriting-v1/transcript.txt`).
+4. **Leading with achievements instead of the prospect's problem** — opening a pitch or call by listing what you've accomplished. Source: *"your credibility is irrelevant and I can demonstrate credibility much better by articulating your problem in detail... That's not the thing that's actually helpful to you... What matters to you is my ability to articulate the problem."* (`extractions/nicolas-cole-ghostwriting-v2/transcript.txt`).
+5. **Waiting for the "right" forever niche** — stalling on a 7-hour identity exercise instead of picking a service and letting the industry self-select. Source: *"This is not your forever niche. This is your first niche... It almost doesn't matter what industry you pick in the beginning. Your goal is I just want a client."* (`extractions/nicolas-cole-ghostwriting-v1/transcript.txt`).
+6. **Treating free work as charity instead of a marketing cost** — refusing free samples on principle rather than pricing them as acquisition spend. Source: *"Don't look at it as free work. Look at it as a marketing cost."* (`extractions/nicolas-cole-ghostwriting-v1/transcript.txt`).
+7. **Confusing psychology with reality** — reading a slow week as proof the strategy is broken instead of recognizing the Idiot-Genius Roller Coaster. Source: *"When you're doing something and it's not working, you think you're an idiot... The mentality is what shifts back and forth. The thing that doesn't actually change is the action. And as long as you are doing the right inputs, the outputs take care of themselves."* (`extractions/nicolas-cole-ghostwriting-v1/transcript.txt`).
 
 ---
 
