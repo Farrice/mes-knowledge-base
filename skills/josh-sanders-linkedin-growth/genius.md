@@ -4,6 +4,38 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist. Absorb the format-arbitrage
+reflex — scan for the outlier before you invent anything — then build
+originally. If a deliverable visibly labels itself "Step 1: Format Arbitrage,
+Step 2: Depth-First Monetization" or narrates "Now applying the 30/30/30/10
+Engagement System...", you have failed. The test: would Josh Sanders
+recognize this as content built by someone who actually ran the machine —
+scanned outliers, injected real depth, engineered a profile funnel — or as
+someone reciting his framework names back at him? If it reads like the
+second, rebuild.
+
+Specifically:
+- Do NOT enumerate which framework you applied unless asked. Sanders's own
+  production rule — "we'll never do paragraph blocks" (transcript) — is
+  about the *reader's* experience, but it doubles as a warning against
+  paragraph-blocking your own reasoning about the reasoning on the page.
+- Round numbers are the tell, not the polish. Sanders bypasses skepticism
+  with "ugly," non-rounded numbers (his stated model is a figure like
+  "318,842," not "300K") — a generated hook that reaches for a clean round
+  number reads as marketing copy, not proof.
+- Corporate-safe, buzzword-driven "thought leadership" prose is the
+  anti-pattern, not a safe default — see the Anti-Exemplar below and the
+  Anti-Patterns section. Sanders's own words on over-personal content
+  failing to convert ("other people can't share that") cut the same
+  direction as generic AI-voice content: both fail the "Look Good Sharing"
+  test, just from opposite ends.
+- His engine is invisible on the page. The reader should feel the
+  cliffhanger, not notice a "Line-Paragraph-Line" structure labeled as such.
+  Name the machinery in the output and you kill the "See More" click it
+  exists to earn.
+
 ## Genius Patterns
 
 ## 1. Format Arbitrage (The First-Mover Hack)
@@ -85,6 +117,17 @@
 **Why Others Miss This**: Analytical creators become overly robotic, optimizing only for algorithmic reach ("saves") and forgetting that high-ticket conversion requires a para-social bond.
 
 **Deploy When**: Balancing your weekly content calendar.
+
+---
+
+## Anti-Patterns (Josh Sanders would reject these)
+
+- **Selling the deliverable, not the wins** — "a lot of where most entrepreneurs go wrong is they don't necessarily want to uh brag about it or talk about their achievements in a way" (Josh Sanders, transcript interview, `extractions/josh-sanders/transcript.txt`) — an About section that hides the founder's actual results instead of stating them plainly, in an "authentic way," fails before it starts.
+- **One repeated storytelling format mistaken for a system** — "this is where most people go wrong. They will think about posting one kind of format and it's usually storytelling and they will just post that repeatedly and repeatedly to try and get them associated with a certain topic" (Josh Sanders, transcript, `extractions/josh-sanders/transcript.txt`) — a real content plan needs top-of-funnel reach posts and conversion-geared posts, not one mode on loop.
+- **Over-personal posts that can't survive a Slack forward** — "that's where a lot of people go wrong. They go super personal things and it's like other people can't share that" (Josh Sanders, transcript, `extractions/josh-sanders/transcript.txt`) — fails the "Look Good Sharing" metric the moment a reader can't send it to their boss without it reading as oversharing.
+- **Dense paragraph blocks instead of scan units** — "We'll never do paragraph blocks. We want to make it so easy for people to read the content. We don't want to see a massive paragraph and I can't be bothered to read this and then scroll on" (Josh Sanders, transcript, `extractions/josh-sanders/transcript.txt`) — any output that returns unbroken paragraphs instead of 1-2-3-line scan units has already lost the scroll.
+- **Generic, CTA-less banner** — "A lot of people actually don't even have a banner or it would just be like some generic one with their logo in the bottom corner" (Josh Sanders, transcript, `extractions/josh-sanders/transcript.txt`) — the banner is "a really underrated place" per Sanders; leaving it blank or logo-only forfeits the highest-visibility CTA slot on the whole profile.
+- **Taking "no links in posts" guru consensus at face value** — "a lot of the LinkedIn gurus were saying like um you shouldn't have uh links in your post. You shouldn't be going taking people off platform... we were like straight on it" (Josh Sanders, transcript, `extractions/josh-sanders/transcript.txt`) — Sanders's team jumped on the outlier signal while platform "best practice" still told creators to avoid it; treating consensus folklore as fixed law, not the outlier data, is the mistake.
 
 ---
 
