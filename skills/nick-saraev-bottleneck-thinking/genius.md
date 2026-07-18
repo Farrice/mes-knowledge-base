@@ -4,9 +4,24 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a diagnostic checklist. Internalize the pipeline/bottleneck lens, then apply it cold — never walk the reader through "Step 1: Identify, Step 2: Widen" like a worksheet.
+
+Specifically:
+- Do NOT enumerate which pattern (Pipeline Visualization, Fluid Dynamics, Revenue-Tier Mapping) you're applying. Nick never announces "now I'm using the Fluid Dynamics Constraint Model" — he names the bottleneck and moves.
+- Do NOT hedge the constraint. Nick's diagnostic voice picks exactly ONE bottleneck and states it flatly ("your bottleneck is lead generation. Period."). A diagnosis that lists three co-equal "areas for improvement" has failed — that's consulting-speak, not bottleneck thinking.
+- His texture is blunt and revenue-numbers-anchored, not academic. He reasons in dollar tiers ($10K, $25K, $72K/mo) and door-counts (8-10 doors/hour), not vague maturity stages. Keep the delivery concrete: name the number, name the stage, name the one action.
+- The test: would Nick recognize this as bottleneck thinking — a single constraint named, 100% of resources redirected at it, nowhere else — or as generic "focus on your priorities" advice wearing pipeline vocabulary? If it's the second, rebuild: find the ONE narrowest point and say so out loud.
+- Polish is the tell here too. A diagnosis that reads like a balanced consulting deck — multiple "focus areas," hedged pros/cons, softened language — is the opposite of what Nick does. His value is the refusal to hedge; don't launder it back in.
+
+---
+
 ## Core Thesis
 
 Every business is a pipeline. The fluid inside a pipeline can only move as fast as it moves through the narrowest point. That narrowest point — the **bottleneck** — dictates the speed of the entire system. The only work that matters is identifying and widening it. Everything else is a strategic error.
+
+Nick's own framing, verbatim from the source video: "the fluid inside of the pipeline... could only ever go as fast as it goes through the narrowest part. That's just how a pipeline works. That's just how fluid dynamics go" (`extractions/nick-saraev-bottleneck-thinking/transcript.txt`).
 
 ---
 
@@ -14,6 +29,8 @@ Every business is a pipeline. The fluid inside a pipeline can only move as fast 
 
 ### 1. Pipeline Visualization
 Force any business into a left-to-right sequential pipeline before analyzing anything. This isn't metaphor — it's the literal first diagnostic step. Every stage (Lead Gen → Sales → Onboarding → Fulfillment → Delivery → Retention → Advocacy) becomes visible. Then zoom into each stage as its own sub-pipeline with concrete steps (e.g., Sales: Inquiry Received → Proposal Sent → Invoice Paid).
+
+Straight from the transcript, the sub-pipeline example Nick actually uses: "The sales section might have different steps for the sales process. It might have steps like inquiry received, proposal sent, invoice paid" (`transcript.txt`).
 
 **Key Insight**: You can't diagnose what you can't see. The pipeline makes the invisible visible.
 
@@ -29,6 +46,8 @@ A compressed, solopreneur-adapted version of Goldratt's Theory of Constraints:
 2. **Widen** it — invest ALL available resources here and nowhere else
 3. **Find new constraints** — after widening, a different stage becomes the bottleneck
 4. **Repeat** — this is a continuous loop, never a one-time fix
+
+Nick compresses the whole thing to four words on camera: "Identify, widen, um, look for new ones, repeat. It's this four simple process, four simplest step process" (`transcript.txt`).
 
 **Key Insight**: This isn't a monthly review process. It's a *flywheel* — each cycle accelerates the next. The real advantage is cycle speed: people who run this in days win against those who take months.
 
@@ -53,16 +72,31 @@ Non-bottleneck work isn't just "less optimal" — it's a **strategic error**. Th
 ## Hidden Knowledge
 
 ### Feedback Cycle Compression
-The real power isn't just fixing the right thing — it's **compressing the decision-to-outcome loop from months to days**. Without this framework, people spend months figuring out what to work on. With it, you know in minutes. Nick's businesses grow faster not because he works harder, but because his feedback cycle is 10x shorter.
+The real power isn't just fixing the right thing — it's **compressing the decision-to-outcome loop from months to days**. Without this framework, people spend months figuring out what to work on. With it, you know in minutes. Nick's businesses grow faster not because he works harder, but because his feedback cycle is dramatically shorter.
 
 ### The Oscillation Pattern
 Between lead gen and fulfillment, there's a natural oscillation. Fix lead gen → fulfillment breaks → fix fulfillment → lead gen becomes the bottleneck again. Nick expects this and doesn't fight it — he rides it. Most people panic when a previously-fixed area breaks again. The flywheel tells you this is normal, not failure.
+
+In Nick's own agency this exact swap happened at roughly 30K/mo: "my bottleneck was lead genen up until something like 30k a month. And then it stopped being lead genen. It started being project management" (`transcript.txt`).
 
 ### The Sovereignty Choice Point
 At $72K/mo, Nick hit the hiring bottleneck and deliberately chose NOT to widen it. He chose sovereignty over scale. **Not every bottleneck should be widened.** Some are load-bearing walls — widen them and you get a business you don't want. The framework includes knowing when to stop.
 
 ### The Replacement Threshold
 If speeding up the bottleneck doesn't fundamentally change its nature, you need to **replace it entirely**, not just optimize it. Nick's door-knocking retrospective: at 8-10 doors/hour, no speed optimization helps. You need a fundamentally different lead gen approach. When widening doesn't work → replace the entire stage.
+
+---
+
+## Anti-Patterns (Sourced)
+
+Failure shapes Nick names directly in the source material — recognize these before applying the framework, not after.
+
+- **Improving a non-bottleneck stage and expecting it to move the business** — "it doesn't matter how fast your sales step is, and it doesn't matter how fast or good your retention step is" (Nick Saraev, bottleneck-thinking video transcript, `extractions/nick-saraev-bottleneck-thinking/transcript.txt`). If the constraint is fulfillment, a faster sales step changes nothing downstream.
+- **Treating non-bottleneck work as merely "suboptimal" instead of a strategic error** — "If you spend any time on anything that is not the bottleneck, you are wasting time, energy, and resources" (`transcript.txt`). The framing is binary, not a spectrum — never soften it to "lower priority."
+- **Speed-optimizing a stage that needs replacing, not widening** — Nick's own door-knocking retrospective: "I could just knock on doors faster, but I'd realize that doesn't matter how fast I knock on the doors, that would still be a really tight bottleneck" (`transcript.txt`). At 8-10 doors/hour, hustle doesn't fix a wrong mechanism.
+- **Naming more than one "current bottleneck" at a time** — per the Fluid Dynamics pattern's own success metric: "you can point to exactly ONE constraint at any given time. If you think you have multiple, you haven't analyzed deeply enough" (`extractions/nick-saraev-bottleneck-thinking/extraction-report.md`, Genius Pattern 2, 2026 extraction). A diagnosis listing three co-equal areas has not finished the work.
+- **Panicking when a previously-fixed stage breaks again** — the extraction's own characterization of the oscillation Nick rides without alarm: "Most people panic when a previously-fixed area breaks again. Nick expects it" (`extraction-report.md`, Hidden Knowledge #2). Reacting to oscillation as regression burns cycles the flywheel doesn't need.
+- **Widening every bottleneck reflexively, including the load-bearing ones** — at $72K/mo Nick chose not to widen the hiring bottleneck: "Some are load-bearing walls — widen them and you get a business you don't want" (`extraction-report.md`, Hidden Knowledge #3). Not every constraint should be solved; some define the business worth keeping.
 
 ---
 
@@ -80,12 +114,14 @@ If speeding up the bottleneck doesn't fundamentally change its nature, you need 
 
 ## Source Reference
 
-- **Book Referenced**: *The Goal* by Eliyahu Goldratt — Theory of Constraints, written as business fiction
-- **Nick's Application**: Scaled automation agency to $72K/mo using this flywheel, compressed typical years-long growth cycles into months
+- **Book Referenced**: *The Goal* by Eliyahu Goldratt — Theory of Constraints, written as business fiction. Note: the transcript itself never names the book or author — Nick describes it only as "a book on manufacturing process improvement... written as a story about a man who essentially runs a plant" (`transcript.txt`). The title/author identification is the extraction's own research, not a verbatim Nick statement (LIKELY, see `references/source-ledger.md`).
+- **Nick's Application**: Scaled automation agency to $72K/mo using this flywheel, compressed typical years-long growth cycles into months (verbatim: "scaling my my automation agency to about 72K a month," `transcript.txt`).
 
 ---
 
 ## Hall of Fame Exemplars
+
+> These three scenarios are illustrative applications of the framework, synthesized to show the pattern in use — not verbatim cases from the source video or extraction report. Labeled UNCONFIRMED as literal Nick examples in `references/source-ledger.md`; the underlying framework they demonstrate (Revenue-Tier Mapping, Strategic Error, Fluid Dynamics) is VERIFIED against the transcript.
 
 ### 1. **Lead Gen Bottleneck Diagnosis & Resolution (Solopreneur)**
 **Scenario**: A freelance graphic designer, making $4K/month, is spending 20 hours a week on client revisions and 10 hours on "networking events" and "brand building." They complain about inconsistent income and lack of leads.
@@ -127,6 +163,8 @@ If speeding up the bottleneck doesn't fundamentally change its nature, you need 
 ### Patterns from claude.ai export — Nick Saraev conversations (2026-07-01)
 
 *Source: transcript-grounded extraction of Nick's "Four Key AI Consulting Basics" (learned working alongside big-four consultants at Leftclick). These are the diagnostic frameworks that sit UPSTREAM of pipeline visualization — how to find the right problem before you find the narrowest pipe. Deduped against existing pipeline/flywheel/revenue-tier coverage.*
+
+> **Provenance gap (repaired 2026-07-18, see `references/source-ledger.md`)**: the underlying claude.ai conversation this section cites was not found in any file currently under `extractions/` (checked `nick-saraev`, `nick-saraev-bottleneck-thinking`, `nick-saraev-cold-outreach`, `nick-saraev-outreach`, `Nick Saraev` — none contain "driver tree," "Leftclick," "pyramid principle," or "FAST decision frame"). It may live inside the un-expanded `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes, confirmed present) referenced by `_active/claude-export/index.json`, but that tarball was not extracted for this repair. Labeled UNCONFIRMED below — content is left in place (additive-first boundary) but should not be treated as verified until the tarball is searched by content.
 
 **Driver Trees (Stated Need vs Implicit Need)**
 **Execute**: Never take the client's stated problem at face value ("our ads aren't working"). Define the goal with metric + amount + time period ("double top-line revenue in 12 months"), reverse-engineer 2-4 minimum essential drivers (Occam's razor — more than four means you're overcomplicating), then drill each driver one to two layers deeper until you hit implementable specifics. The tree is a forcing function for clarity, not a Nobel-prize insight machine.
