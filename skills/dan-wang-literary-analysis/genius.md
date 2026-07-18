@@ -8,7 +8,7 @@
 
 ---
 
-## How to Use This Skill (Opus Calibration)
+## How to Use This Skill (Model Calibration)
 
 The patterns below are **intuition primitives, not a checklist**. Wang's entire method is that the texture and the music are *load-bearing* — they are how the analysis enters the reader, not decoration laid on top. Absorb the patterns, then write so the voice feels native and inevitable, never assembled from slots.
 
@@ -34,14 +34,14 @@ Why this matters: these models follow instructions literally, and analytical-ess
 ---
 
 ## Pattern 2: The Flower Inspection Principle
-**Execute**: Layer meaning at multiple depths—surface insight for scanners, deeper patterns for close readers, Easter eggs for re-readers.
+**Execute**: Layer meaning at multiple depths—surface insight for scanners, deeper patterns for close readers, Easter eggs for re-readers. This is Wang's own image for the effect (David Perell describing Wang's prose in the *How I Write* interview): reading it is "like looking at a flower... as you come closer and closer, there's actually new levels of beauty" revealed.
 
 **Success Metric**: Readers return to the same piece; it rewards re-reading.
 
 ---
 
 ## Pattern 3: Texture Over Tectonic Plates
-**Execute**: Start analytical points with specific observed details. Use a meal, a walk, a conversation as the gateway to the big idea.
+**Execute**: Start analytical points with specific observed details. Use a meal, a walk, a conversation as the gateway to the big idea. Perell names the failure mode Wang avoids — most China writing is "tectonic plate movements," big-power abstraction with no ground — where Wang instead opens on "a soup that you had in Kuning" as the entry point (*How I Write* interview; Kuning/Quinning is Wang's home city, more commonly romanized Kunming).
 
 **Success Metric**: Reader remembers the concrete detail AND the analytical point together.
 
@@ -62,28 +62,28 @@ Why this matters: these models follow instructions literally, and analytical-ess
 ---
 
 ## Pattern 6: The Single Beautiful Sentence Method
-**Execute**: When a great sentence arrives, capture it immediately. Consider building the piece around it rather than fitting it in.
+**Execute**: When a great sentence arrives, capture it immediately. Consider building the piece around it rather than fitting it in. Wang, in his own words: it is "absolutely valid to try to construct an entire essay around a single beautiful sentence" when one arrives.
 
 **Success Metric**: Readers quote your sentences back to you.
 
 ---
 
 ## Pattern 7: Outsider Error-Correction
-**Execute**: Identify where you're an outsider. Use that distance to see dysfunctions that insiders normalize.
+**Execute**: Identify where you're an outsider. Use that distance to see dysfunctions that insiders normalize. Wang names his own version of this directly: "I have felt myself an outsider in various ways" — from the periphery city of Quinning rather than Beijing, Shanghai, or Shenzhen, and again as an immigrant in the US.
 
 **Success Metric**: Elite insiders find your observations both uncomfortable and accurate.
 
 ---
 
 ## Pattern 8: The Zoom In/Zoom Out Oscillation
-**Execute**: After every concrete detail, elevate to what it means. After every abstract point, ground it in specifics.
+**Execute**: After every concrete detail, elevate to what it means. After every abstract point, ground it in specifics. Perell's read of the effect, in the *How I Write* interview: "the more that I zoom in to your writing, the better it gets."
 
 **Success Metric**: Piece works for both casual readers and domain experts.
 
 ---
 
 ## Pattern 9: Meal-Structured Travel
-**Execute**: Organize exploration days around 3-4 eateries, walking between them to generate observations. The walking is where insight happens.
+**Execute**: Organize exploration days around 3-4 eateries, walking between them to generate observations. The walking is where insight happens. Wang's own method: "the tactic for visiting these places is... organize my day by the three or four eateries that I really want to try out," trusting "the corner noodle shop" over guidebook picks, walking "as much as you can" between them.
 
 **Success Metric**: Return with notes full of observations, not just photos.
 
@@ -97,35 +97,35 @@ Why this matters: these models follow instructions literally, and analytical-ess
 ---
 
 ## Pattern 11: The Qualm-Collected-Canadian Mantra
-**Execute**: Create a personal identity mantra embodying your ideal working state. Repeat it when resistance appears.
+**Execute**: Create a personal identity mantra embodying your ideal working state. Repeat it when resistance appears. Wang, describing the actual mantra: "every day I repeated my mantra to be a qualcom collected Canadian... and I managed to achieve my deadline so long as one repeats this and actually believes in this." (The transcript's ASR renders "calm, collected Canadian" as "qualcom collected Canadian" — the pattern name preserves the artifact; see source-ledger.)
 
 **Success Metric**: Meet deadlines without quality collapse.
 
 ---
 
 ## Pattern 12: Genre Transcendence Identification
-**Execute**: Learn the structural incentives of each publishing format. Seek work that escapes those constraints.
+**Execute**: Learn the structural incentives of each publishing format. Seek work that escapes those constraints. Wang's own sorting test before touching a book: is it trade press, or "an academic press like Yale University Press or Stanford University Press or Oxford University Press" — each with "no hard rules about whether trade books or academic books are good or bad," but different structural pulls toward mediocrity.
 
 **Success Metric**: Reading list consists of exceptional work, not genre-typical work.
 
 ---
 
 ## Pattern 13: Ironic Beauty Layering
-**Execute**: Write beautiful sentences that, upon reflection, contain tension or irony. Don't be surface-earnest.
+**Execute**: Write beautiful sentences that, upon reflection, contain tension or irony. Don't be surface-earnest. Wang names the source directly: "the musical line that runs from Mozart, um, his three Italian operas" — opera buffa, the comic form the Italians "prize" for cadence and "ornament for its own sake," which he treats as his model for irony layered under beauty.
 
 **Success Metric**: Readers discover new meanings on re-reading.
 
 ---
 
 ## Pattern 14: Score-Copying Apprenticeship
-**Execute**: Select masterwork in your target form. Manually copy it word-by-word to internalize choices.
+**Execute**: Select masterwork in your target form. Manually copy it word-by-word to internalize choices. Wang, on where the method comes from: "I did this by copying... porting over a method that I did from trying to understand music and composition" — he trained as a clarinetist and pulled scores from his school's music library the same way he later pulled apart New Yorker prose.
 
 **Success Metric**: Begin making intentional choices you previously made unconsciously.
 
 ---
 
 ## Pattern 15: The Network Effects of Knowledge
-**Execute**: Reject the depreciation model of knowledge. Invest in learning breadth to accelerate future learning.
+**Execute**: Reject the depreciation model of knowledge. Invest in learning breadth to accelerate future learning. Wang's own frame: "maybe we should take the Silicon Valley model of network effects in which growth can accelerate... the more you know, the more you're capable of knowing" — a lesson he credits to Tyler Cowen.
 
 **Success Metric**: Learning velocity increases year over year.
 
@@ -146,35 +146,35 @@ The hasty 10-day sprint isn't a bug—it's a feature. Deadlines force synthesis 
 ---
 
 ## Tacit 3: Writing Retreats as Environmental Variation
-Varying writing locations (Austin, Vietnam, Barcelona, home) prevents staleness and creates associative diversity.
+Varying writing locations (Austin, Vietnam, Barcelona, home) prevents staleness and creates associative diversity. Wang names the actual circuit: a week "writing in Austin" (barbecue, an Airbnb "just south of the river"), work done in Da Nang, Vietnam, and the proposal written in Barcelona — on top of a home office at Yale Law School in Ann Arbor.
 
 **Deploy**: Change location for different writing phases. The barbecue eaten while writing becomes part of the creative substrate.
 
 ---
 
 ## Tacit 4: Mom-Level Feedback Value
-Family members with relevant expertise provide feedback that professional contacts won't give. Uncomfortable but invaluable.
+Family members with relevant expertise provide feedback that professional contacts won't give. Uncomfortable but invaluable. After a *Morning Joe* appearance, Wang's mother — a former TV news anchor — called and said: "Son, you look terrible. What's going on?"
 
 **Deploy**: Seek feedback from people who'll be honest because they love you, not because they're paid to.
 
 ---
 
 ## Tacit 5: AI as Tyler-in-Your-Pocket
-Use AI as a conversation partner for thinking through—music, novels, art, restaurant recommendations. Not for generating sentences, but for intellectual sparring.
+Use AI as a conversation partner for thinking through—music, novels, art, restaurant recommendations. Not for generating sentences, but for intellectual sparring. Wang's own description: "now I have a very Tyler-like creature... in my pocket that I'm able to have better conversations with" — a stand-in for his mentor Tyler Cowen, for thinking-through only.
 
 **Deploy**: AI augments cognition; human provides voice. Never use AI for sentence generation in craft writing.
 
 ---
 
 ## Tacit 6: Visa Uncertainty as Editorial Freedom
-By accepting he may not get another China visa, Wang freed himself to write honestly. Willingness to lose access enables better access to truth.
+By accepting he may not get another China visa, Wang freed himself to write honestly. Willingness to lose access enables better access to truth. Wang, plainly: "right now I do not have a visa to China... the Chinese Ministry of Foreign Affairs can have a good long think" about whether they welcome his writing before granting one.
 
 **Deploy**: Identify what you're afraid to lose. Accept losing it. Write from that freedom.
 
 ---
 
 ## Tacit 7: The Cover Photo Strategy
-Reject genre conventions. Choose evocative images that capture actual thesis over expected visual tropes.
+Reject genre conventions. Choose evocative images that capture actual thesis over expected visual tropes. Wang rejected the genre defaults (dragons, a high-speed train, "something red") for *Breakneck*'s cover: "a woman standing below a giant structure that looks a lot like the Tower of Sauron" — landed with editor Caroline after "a lot of time."
 
 **Deploy**: When designing presence (book covers, social profiles, brand), avoid category defaults that signal generic thinking.
 
@@ -277,7 +277,7 @@ Run these before executing any workflow. They are the gate between a Wang-grade 
 
 ## Dan Wang Would Never... (Anti-Patterns)
 
-These are the violations that turn an analytical essay into either dry reportage or self-indulgent travel writing. If any appear in the output, you have departed from Wang's intelligence.
+These are the violations that turn an analytical essay into either dry reportage or self-indulgent travel writing. If any appear in the output, you have departed from Wang's intelligence. Wang states the hardest of these lines himself, on AI-written prose: he will "never take any of... ChatGPT's generally super flat sentences... into something that I would ever write myself," full stop.
 
 ### AN-1: Tectonic-Plate Abstraction With No Texture
 Big-theme analysis floating free of any observed detail — "Urbanization in China has led to significant economic growth" — the Anti-Exemplar voice. Generic, abstract, could be written by anyone or any AI.
@@ -304,7 +304,7 @@ Letting the model write the actual sentences. Wang declares it "verboten" — AI
 **Detection**: Any sentence with the generic, smoothed-over, "on the one hand / on the other" AI cadence. Rewrite it in the human voice.
 
 ### AN-7: Just-So Smoothness (Hindsight Bias)
-Explaining an outcome as if it were always fated — the tidy historical narrative that ignores how genuinely uncertain and contingent the moment was (Pattern 19).
+Explaining an outcome as if it were always fated — the tidy historical narrative that ignores how genuinely uncertain and contingent the moment was (Pattern 19). Wang's own diagnosis of the trap: "every event feels kind of impossible before it takes place and then right after it takes place it feels obvious and necessary."
 **Detection**: Does the explanation feel suspiciously inevitable? Reconstruct what was actually unknown at the time; restore the contingency.
 
 ## Cross-Domain Applications
@@ -324,4 +324,4 @@ The genius — texture-grounded analysis, friction mining, the zoom, the one coh
 
 ## Quality Rubric
 
-> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading. Anchors at Score 4 (Acceptable), Score 7 (Good), Score 10 (Savant) across the expert-specific criteria table.
