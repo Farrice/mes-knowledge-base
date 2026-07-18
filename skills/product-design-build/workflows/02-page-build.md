@@ -217,14 +217,31 @@ The Three Pass Quality Method (from SKILL.md Section "The Three-Pass Quality Met
 
 If any pass fails, iterate. Pass all three → ship.
 
-## Output
+## Output Schema
 
 A complete page (or page directory) at `output_path` that:
 - Compiles + renders
 - Passes accessibility audit
 - Uses only DESIGN.md tokens
-- Responsive across mobile / tablet / desktop
+- Responsive across mobile (375px) / tablet (768px) / desktop (1280px)
 - Demonstrates the page spec end-to-end
+
+Plus a one-paragraph build summary:
+```
+- Page: <name>, spec: <page_spec>
+- Sections composed: <list>, composites reused/built: <list>, primitives reused/built: <list>
+- Missing-primitive routing (Step 2): <none | primitives built via 01-component-build.md before composition>
+- Responsive check (Step 7): <pass/fail per breakpoint>
+- Three-Pass Quality Method (Step 10): Structural [pass/fail] | Brand fidelity [pass/fail] | Virgil Test [pass/fail — one-sentence concept]
+```
+
+## Quality Gate
+
+- Every missing primitive identified in Step 2 was built via [01-component-build.md](01-component-build.md) *before* page composition — not improvised inline.
+- The page was rendered and screenshotted at all three breakpoints (375px / 768px / 1280px, Step 8) — a code-only review does not satisfy this gate.
+- axe-core (Step 9) shows 0 unaddressed violations — the three common settings-page issues (missing labels, `text-secondary`/`bg-surface` contrast, no skip-link) were explicitly checked.
+- All three Step 10 Quality Method passes (structural, brand fidelity, Virgil Test) pass — not just the structural one.
+- Every className traces to a DESIGN.md token — zero literal hex or inline `style={{}}` anywhere in the composed page or its sections.
 
 ## See also
 

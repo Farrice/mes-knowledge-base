@@ -151,7 +151,7 @@ Violations log to the browser console. Capture them with:
 mcp__playwright__browser_console_messages()
 ```
 
-Fix critical / serious violations before proceeding.
+Fix critical / serious violations before proceeding. axe-core describes itself as an "Accessibility engine for automated Web UI testing" (github.com/dequelabs/axe-core, verified 2026-07-18) — treat its findings as a gate, not a suggestion.
 
 ### Step 6 — Edit
 
@@ -197,6 +197,22 @@ KillShell <shell_id>
 - **Making 5+ small edits between screenshots** — too much change to attribute; iterate one focused change at a time
 - **Ignoring console errors** — they hide visual bugs
 - **Approving ugly hover states** — hover is half the interaction; if it looks bad, the system has a gap
+
+## Output Schema
+
+Per preview-iterate cycle on a `target`:
+- Three baseline screenshots at `tests/visual/<target>-{desktop,tablet,mobile}.png` (1280x800 / 768x1024 / 375x812, Step 9)
+- Console-message capture result (Step 5) — clean, or a list of resolved errors/warnings
+- axe-core violation list (Step 5) — resolved critical/serious violations, remaining minor ones noted
+- Convergence verdict: `<n> of 3 max iterations used` and either "converged" or the specific under-specification routed per Step 8
+
+## Quality Gate
+
+- Screenshots were actually captured via `mcp__playwright__browser_take_screenshot` at all three breakpoints (Step 3) — a critique based on reading code instead of a screenshot fails this gate outright.
+- `mcp__playwright__browser_console_messages()` was checked (Step 5) and is clean, or every error/warning is accounted for.
+- axe-core critical/serious violations are resolved, not just logged (Step 5).
+- If 3 iterations didn't converge (Step 8), the specific token/spec gap was named and routed to `skills/design-md/workflows/05-validate-and-refine.md` or `07-evolve-design.md` — never guessed past silently.
+- No single edit batch between screenshots changed more than one focused thing (per this file's own Anti-patterns section) — otherwise the critique in Step 4 can't attribute cause.
 
 ## See also
 

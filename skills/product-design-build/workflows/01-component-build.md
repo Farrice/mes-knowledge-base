@@ -162,14 +162,32 @@ npx @google/design.md lint DESIGN.md # design system still valid
 
 All three must pass. Then commit.
 
-## Output
+## Output Schema
 
 A single component file at `output_path` that:
 - Compiles
 - Renders all declared variants
 - Uses only DESIGN.md tokens (no literal hex / px values)
 - Passes axe-core accessibility audit
-- Has a test stub
+- Has a test stub (Step 6)
+
+Plus a one-paragraph build summary:
+```
+- Component: <name>
+- Variants implemented: <intent/size/state list, each tagged with the source DESIGN.md token path>
+- Accessibility checklist (Step 5): <pass/fail per item>
+- Preview screenshot: <path under .tmp/, or "not taken" — see Quality Gate>
+- Iterations used: <n> of 3 max
+```
+
+## Quality Gate
+
+- Every className in the component traces to a named DESIGN.md token — zero literal hex, zero inline `style={{}}` (Step 3 rule).
+- Only DESIGN.md-authorized variants were implemented — no fabricated intent/size/state combinations (Step 2).
+- The component was actually rendered and screenshotted via Playwright (Step 7) — a code-only review does not satisfy this gate.
+- All 7 Step 5 accessibility checklist items are checked, with Radix/Headless UI used for any input, modal, or dropdown rather than a hand-rolled primitive.
+- `npx tsc --noEmit`, `npm run lint`, and `npx @google/design.md lint DESIGN.md` (Step 9) all pass.
+- If 3 iterations didn't converge (Step 8), the under-specification is named and routed to `skills/design-md/workflows/05-validate-and-refine.md` rather than guessed past.
 
 ## See also
 

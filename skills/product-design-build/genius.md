@@ -9,9 +9,20 @@ This is the deep reference for `skills/product-design-build/SKILL.md`. Load it w
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+This skill's patterns are intuition primitives for a production-grade UI engineer, not a checklist to stamp in order. Absorb the discipline, then build the actual component or page — don't narrate the method on the page.
+
+- Do NOT enumerate "Pass 1, Pass 2, Pass 3" or "Step 1, Step 2" in the delivered code or its accompanying summary unless the workflow's own Output Schema asks for that trace. The method is how you work, not what you show.
+- Do NOT announce the machinery ("here's the accessible modal," "here's the token-first button"). Ship the component; let the token references and the ARIA attributes speak for themselves.
+- The test: would a senior product-design engineer fluent in this DESIGN.md — someone who has actually shipped the token cascade to production — recognize this as *their own disciplined output*, or as someone using design-system vocabulary (CVA, tokens, a11y) without the underlying rigor? If it reads as the second, rebuild before shipping.
+- This expert's specific texture is engineering restraint: every class traces to a token, every interactive has a real focus ring, every modal is Radix/Headless UI rather than hand-rolled. Polish that isn't backed by an actual Playwright screenshot and an actual axe-core run is the tell-class failure — a component that *looks* finished in the diff but was never rendered.
+
+---
+
 ## 1. Variant Architecture (CVA Pattern)
 
-The `class-variance-authority` library is the cleanest mapping from DESIGN.md `components` blocks to React component APIs. Pattern:
+The `class-variance-authority` library — its own repository describes it simply as "Class Variance Authority," a library for building typed variant APIs (github.com/joe-bell/cva, verified 2026-07-18) — is the cleanest mapping from DESIGN.md `components` blocks to React component APIs. Pattern:
 
 ### DESIGN.md side
 ```yaml
@@ -66,7 +77,7 @@ export function Button({ intent, size, className, ...props }: ButtonProps) {
 ```
 
 ### Why CVA over alternatives
-- **vs. inline `className` strings**: CVA gives you typed variants, autocomplete, and exhaustiveness checking
+- **vs. inline `className` strings**: CVA gives you typed variants, autocomplete, and exhaustiveness checking — the untyped-string failure mode is why the library exists at all (github.com/joe-bell/cva, "Class Variance Authority," verified 2026-07-18)
 - **vs. styled-components / Emotion**: CVA stays static — no runtime cost, no CSS-in-JS overhead, full Tailwind JIT
 - **vs. tw-classed**: CVA has better TypeScript ergonomics
 
@@ -104,6 +115,7 @@ export const theme = {
 ```
 
 ### Wire it
+This `theme.extend` pattern works under both Tailwind v3's JS config and v4's CSS-first `@theme` block (tailwindcss.com/docs, verified 2026-07-18) — the export target changes, the token-first discipline doesn't.
 ```typescript
 // tailwind.config.ts
 import type { Config } from 'tailwindcss'
@@ -133,7 +145,7 @@ Run `npm run design:check` in CI and as a pre-commit hook.
 
 ## 3. Accessibility Patterns
 
-The lint rule `contrast-ratio` only checks defined component pairs. **You** are responsible for everything else. Key patterns:
+The lint rule `contrast-ratio` only checks defined component pairs. **You** are responsible for everything else. WCAG 2.2 Success Criterion 1.4.11 (Non-Text Contrast) requires "a contrast ratio of at least 3:1 against adjacent color(s)" for "Visual information required to identify user interface components and states" (w3.org/WAI/WCAG21/Understanding/non-text-contrast.html, verified 2026-07-18) — that's the bar for focus rings, disabled states, and any custom control chrome. Key patterns:
 
 ### Focus rings
 Every interactive element needs a visible focus state. The DESIGN.md primary color usually provides the ring color:
@@ -159,7 +171,7 @@ Every input needs an associated label. Use `htmlFor` or wrap:
 ```
 
 ### Modal / Dialog
-Use a battle-tested primitive (Radix, Headless UI). Never roll your own. Trap focus, restore on close, escape key, click-outside.
+Use a battle-tested primitive (Radix, Headless UI). Never roll your own. Radix's own Dialog documentation states focus "is automatically trapped within modal" and that "Esc closes the component automatically," moving focus back to `Dialog.Trigger` on close (radix-ui.com/primitives/docs/components/dialog, verified 2026-07-18) — trap, restore, escape, all three, out of the box.
 
 ### Dynamic content
 Announce changes to screen readers:
@@ -185,7 +197,7 @@ Violations stream to the browser console; capture with `mcp__playwright__browser
 ## 4. The Preview-Iterate Playwright Loop
 
 ### Setup
-Either you have a running dev server (Next.js, Vite) or you scaffold one:
+Either you have a running dev server (Next.js, Vite) or you scaffold one. Vite's default dev server listens on port 5173, the URL every navigate/screenshot call in this loop targets:
 
 ```bash
 # If no preview exists, create a minimal Vite preview
@@ -214,7 +226,7 @@ cp ../DESIGN.md . && npx @google/design.md export --format tailwind DESIGN.md > 
 ```
 
 ### Critique checklist
-- Does the corner radius match the `rounded.*` token in DESIGN.md?
+- Does the corner radius match the `rounded.*` token in DESIGN.md — e.g. `rounded.md` renders as 8px in the reference Heritage example (see `workflows/03-preview-iterate.md`)?
 - Do the colors match (use DigitalColor Meter on macOS to verify exact hex)?
 - Is the typography hierarchy honored (h1 > h2 > body > caption)?
 - Does the hover state actually change appearance (often forgotten)?
@@ -274,16 +286,16 @@ For settings-style pages (the verification scenario in the plan):
 
 ## 6. Common Anti-Patterns
 
-| Anti-pattern | Why it's bad | Fix |
-|---|---|---|
-| Hardcoded hex values in className | Breaks token cascade | Reference Tailwind class: `bg-primary` |
-| `style={{ }}` inline styles | Bypasses Tailwind / token system | Use className with Tailwind utility |
-| `!important` to override DESIGN.md | Brand drift; system erodes | Update DESIGN.md if the override is correct; remove if not |
-| Disabled-state has no visual difference | Accessibility failure | Add `disabled:opacity-50 disabled:cursor-not-allowed` |
-| Hover state disappears on touch | Mobile broken | Use `@media (hover: hover)` or accept Tailwind's default |
-| Component has its own font-size override | Sprawl | Map to DESIGN.md typography level |
-| Margin between siblings via `mt-*` everywhere | Implicit; fragile | Use parent flex/grid `gap-*` instead |
-| Building a Modal from scratch | Accessibility nightmares | Use Radix Dialog, Headless UI Dialog, or shadcn/ui |
+Each item below is a real, sourced failure mode — not a hunch. Full citations and confidence labels: [references/source-ledger.md](references/source-ledger.md).
+
+- **Hardcoded hex values in `className`** (never use literal colors) — breaks the token cascade this whole stack exists to guarantee; both `skills/design-md/SKILL.md` and this skill's own Token-First Rule in `skills/product-design-build/SKILL.md` make every visual value trace to a DESIGN.md token. Fix: reference the Tailwind class, e.g. `bg-primary`.
+- **`style={{ }}` inline styles** (don't bypass the token system) — same failure as above, one layer worse because it skips Tailwind entirely. Fix: className with a Tailwind utility that resolves to a token.
+- **Rolling your own Modal / Dialog instead of Radix or Headless UI** — Radix's own documentation states its Dialog "is automatically trapped within modal" on focus and that "Esc closes the component automatically" (radix-ui.com/primitives/docs/components/dialog, verified 2026-07-18); hand-built dialogs routinely miss both, plus focus restoration on close. Never roll your own.
+- **Disabled state with no visual difference from enabled** — fails WCAG 2.2 Success Criterion 1.4.11 (Non-Text Contrast), which requires "a contrast ratio of at least 3:1 against adjacent color(s)" for UI components and their states (w3.org/WAI/WCAG21/Understanding/non-text-contrast.html, verified 2026-07-18). Fix: `disabled:opacity-50 disabled:cursor-not-allowed`.
+- **Hover-only affordances with no touch fallback** — Tailwind's own docs describe `hover:` as generating `@media (hover: hover)`, and recommend `pointer-coarse:` variants to target "less accurate pointing devices (touchscreen)" (tailwindcss.com/docs/hover-focus-and-other-states, verified 2026-07-18). Don't ship an interaction that silently disappears on mobile.
+- **Skipping the Playwright screenshot and trusting the code** — per `workflows/03-preview-iterate.md`'s own Anti-patterns section, "code reading is unreliable for visual work; always render." This skill's execution prompts (refactored 2026-07-13, `references/prompts-v2/component-build.md`) make the same call in the Quality Gate: a component isn't done until it was actually rendered and screenshotted.
+- **Component has its own font-size override** — sprawl; each override is a future drift point the DESIGN.md can no longer account for. Fix: map to the DESIGN.md typography level.
+- **`!important` to override DESIGN.md** — brand drift; the system erodes one override at a time. Fix: update DESIGN.md if the override is correct, remove it if not.
 
 ---
 
@@ -333,7 +345,7 @@ After building a component or page, grep for hex values in your code:
 grep -RE '#[0-9a-fA-F]{6}' src/ --include="*.tsx" | grep -v 'DESIGN.md\|generated'
 ```
 
-If hits exist, you have token drift. Fix by replacing with class references.
+If hits exist, you have token drift. Fix by replacing with class references, or — per `skills/design-md/workflows/05-validate-and-refine.md` — add the value to DESIGN.md as a new semantic token if it's genuinely a one-off the system doesn't yet authorize.
 
 ### The lint chain
 ```bash
@@ -354,7 +366,7 @@ This skill ships shippable code. You're done when:
 - Component / page renders without errors
 - Tailwind classes consistently reference tokens (no literal hex)
 - Visual fidelity to DESIGN.md confirmed via Playwright screenshot
-- axe-core finds 0 violations
+- axe-core (github.com/dequelabs/axe-core, "Accessibility engine for automated Web UI testing," verified 2026-07-18) finds 0 violations
 - All three Quality Method passes pass (structural / brand / Virgil)
 
 If you can't reach all five, escalate:

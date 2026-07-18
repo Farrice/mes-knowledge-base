@@ -234,6 +234,24 @@ Now DESIGN.md drives Tailwind (web), Swift constants (iOS), and Android XML (And
 | Pre-commit hook fails on every commit | Run `npm run design:export` and commit the regenerated theme file |
 | Agent ignores DESIGN.md and uses literal hex | Cite specific token names in prompts; add explicit instruction to CLAUDE.md / .cursorrules |
 
+## Output Schema
+
+A deployed codebase where:
+- `tailwind.config.ts` imports `tailwind.theme.generated.js` and extends `theme` with it (Step 4)
+- `package.json` carries `design:lint` / `design:export` / `design:check` scripts (Step 5)
+- A pre-commit hook and a `.github/workflows/design-check.yml` CI job both run `design:check` (Step 6)
+- The token-migration sweep (Step 7) has been run at least once, with a logged remaining-hex-literal count (`wc -l /tmp/hex-literals.txt`)
+- The project README documents the Design System workflow (Step 8) and `CLAUDE.md`/`.cursorrules` is onboarded (Step 9)
+- A smoke component build (Step 10, via `01-component-build.md`) confirms the toolchain end-to-end
+
+## Quality Gate
+
+- `npm run design:check` (Step 5) exits 0 — DESIGN.md lints clean and the Tailwind theme regenerates without error.
+- Both the pre-commit hook and the CI workflow (Step 6) actually invoke `design:check` — not just documented as a plan.
+- The hex-literal sweep (Step 7) was run and its output count is reported, even if the count is nonzero with a stated remediation plan — silently skipping the sweep fails this gate.
+- The end-to-end smoke test (Step 10 → `01-component-build.md`) produced a component that compiles, renders, and traces every value to a token — deployment isn't "done" on config alone.
+- If `tailwind.theme.generated.js` came out empty or agents keep reaching for literal hex post-deploy, the specific Failure Mode row above was consulted and its Recovery applied, not reinvented.
+
 ## See also
 
 - [01-component-build.md](01-component-build.md) — first component after deploy
