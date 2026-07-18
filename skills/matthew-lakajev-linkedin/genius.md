@@ -65,7 +65,7 @@ The entire machine is three assets: (1) **client-attracting content** — one-to
 **Success Metric**: 32,817 leads in CRM; expensive services always close in conversation, so the funnel's job is to manufacture warm conversations, not clicks.
 
 ### Pattern: Nugget-of-Goodness Email (Anti-Newsletter)
-Starting a newsletter is the worst email move for an unestablished brand: a newsletter is a commitment ("two emails a week I don't want") that suppresses opt-ins unless it's radically niche-named. Instead, email should feel like "a little nugget of goodness when people receive it randomly" — 100% plain text, unannounced timing, opens with a real micro-story, lands one lesson, then an interactive ask.
+Starting a newsletter is the worst email move for an unestablished brand: a newsletter is a commitment ("two emails a week I don't want") that suppresses opt-ins unless it's radically niche-named. Instead, email should feel like "a little nugget of goodness when people receive it randomly" — 100% plain text, unannounced timing, opens with a real micro-story (the "Golden Gaytime" email — wife's craving, three options, chose the $4.99 Uber fee because owners shouldn't do everything themselves; UNCONFIRMED: this anecdote is absent from all recovered transcripts, kept as pre-existing skill content), lands one lesson, then an interactive ask.
 **Execute**: Plain text only. Story → lesson → soft interactive close ("I've got the playbook here — want me to send it through?") so replies, not clicks, drive the relationship. Case-study emails name real clients with specific numbers.
 **Success Metric**: Replies of "yes, send it" driving the relationship; email feels like a friend's note, not a broadcast.
 
