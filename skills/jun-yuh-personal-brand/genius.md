@@ -4,19 +4,35 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist to stamp onto a page. Jun Yuh's system reads mechanical because HE treats content like an engineering problem — never announce that machinery on the page itself ("now applying the 7x7 Format Study Protocol" is a tell, not a feature; he just imports the footage and measures). The test: would Jun Yuh recognize this as his own system — pain-first, time-anchored, measured against actual imported footage — or as generic creator-economy advice wearing his framework's vocabulary? If it's the second, rebuild.
+
+Specifically:
+- Do NOT open a Silent Film piece on success or a smile — his own rule: "just don't choose that media in which you're smiling ear to ear." Every pain-first hook is deliberately unglamorous.
+- Do NOT let vulnerability content sprawl into full-life narration — "Do not treat them like a full-on biography." Nurture content is one Problem/Pursuit/Payoff beat, not a memoir.
+- Do NOT gate story-worthiness on a dramatic arc — "You do not have to have these grand transformations... broke to being a billionaire." A single specific struggle is enough.
+- His voice runs on measured specificity, not motivational abstraction — engineering vocabulary ("checklist of features," "story arc," "systematic") over guru language. A polished, generic "authenticity" paragraph is the tell the model defaulted to training data instead of his texture.
+- Where this skill's own pattern library outruns what's verifiable in the two known source transcripts, flag it rather than presenting invented specifics as his words — 7 of the 13 Genius Patterns below carry a LIKELY/UNCONFIRMED **Source Note** for exactly this reason. See `references/source-ledger.md` for the full claim-by-claim accounting.
+
+---
+
 ## Genius Patterns
 
 ## Pattern 1: The Engineering Deconstruction Method
 **Execute**: Import any viral video into CapCut. Break down: scene count, text duration, hook structure, music timing. Measure, don't guess.
 **Success Metric**: Can recreate any format from systematic deconstruction
+**Source Note**: UNCONFIRMED — the "CapCut" tool name and this specific import-and-measure deconstruction method are not found verbatim in `extractions/Jun Yuh/transcript.txt` (64,498 bytes) or `extractions/jun-yuh/transcript.txt` (16,178 bytes). Consistent in spirit with the 7x7 Format Study Protocol (Pattern 4, which IS grounded) but not independently sourced. See `references/source-ledger.md`.
 
 ## Pattern 2: The Four Missions Content Architecture (3-1-2-1)
 **Execute**: Every post serves ONE mission: Attract (3), Nurture (1), Position (2), Convert (1). Never mix missions.
 **Success Metric**: Weekly content calendar shows exact 3-1-2-1 ratio
+**Source Note**: UNCONFIRMED — the literal "3-1-2-1" ratio and the Attract/Nurture/Position/Convert mission labels are not found in `extractions/Jun Yuh/transcript.txt` (64,498 bytes) or `extractions/jun-yuh/transcript.txt` (16,178 bytes). See `references/source-ledger.md`.
 
 ## Pattern 3: The Silent Film Storytelling Format
 **Execute**: Text overlay + B-roll of yourself + emotional music arc + transformation story. No talking head required.
 **Success Metric**: 5 elements present in every silent film piece
+**Source Note**: VERIFIED — `extractions/Jun Yuh/transcript.txt`: "you might be thinking about a silent film storytelling format. You have an ability for you to have story arc from pain, pursuit, and success."
 
 ## Pattern 4: The 7x7 Format Study Protocol
 **Execute**: Find 7 creators in your niche. Study 7 videos each. Document what patterns repeat. Import to editing software and measure.
@@ -33,10 +49,12 @@
 ## Pattern 7: Trial Reel Derivative Strategy
 **Execute**: When a post works, create 3-5 derivatives with same format but different angles. Feed algorithm without being flagged.
 **Success Metric**: Each viral post generates 3+ derivatives
+**Source Note**: UNCONFIRMED — "Trial Reel" terminology and the algorithm-flagging claim are not found in `extractions/Jun Yuh/transcript.txt` (64,498 bytes) or `extractions/jun-yuh/transcript.txt` (16,178 bytes). Directionally consistent with the 1-to-7 Repurposing Multiplier documented for this expert in `extractions/Jun Yuh/extraction-report.md` Genius Pattern 4, but that pattern splits ONE source vlog into 7 distinct formats — not the same claim as "3-5 derivatives of one viral post." See `references/source-ledger.md`.
 
 ## Pattern 8: The Music Drop Psychology
 **Execute**: Align transformation moment with music crescendo. Build tension with rising action, release with beat drop.
 **Success Metric**: Every silent film has deliberate music architecture
+**Source Note**: VERIFIED — `extractions/Jun Yuh/transcript.txt`: "in tandem to the time anchor in tandem to you beginning with this struggle you have this music that is rising in intensity... And when that music drops then the transformation occurs" and "there's going to be a moment in which that beat drops and then ultimately that transformation will actually ensue."
 
 ## Pattern 9: The Picture Book Principle
 **Execute**: Text must be readable without pausing. Max 5-7 words per frame. Read out loud to test pacing.
@@ -45,10 +63,12 @@
 ## Pattern 10: Creative Vision Framework
 **Execute**: Define: The What (message + pillars), The Who (demographics + psychographics), The Uniqueness (story, skills, experiences)
 **Success Metric**: Complete Creative Vision document created before content production
+**Source Note**: LIKELY — `extractions/Jun Yuh/transcript.txt`: "the creative vision framework here has three branches. You have your what, you have your who, and you have your why." Source names the third branch "why" (origin-story reasoning); this skill's version substitutes "Uniqueness" (story, skills, experiences) — same three-branch shape, drifted label. See `references/source-ledger.md`.
 
 ## Pattern 11: The Pivot Bridge Protocol
 **Execute**: When changing niches: What you did → Why it matters → What you do now. Connect past to present.
 **Success Metric**: Audience retention through niche transitions
+**Source Note**: LIKELY — `extractions/jun-yuh/transcript.txt` discusses content pivots generally ("Now you're trying to pivot your content and you're realizing how difficult it is to re-engage your audience... It's easier to pivot your content as well [when you're the niche, not the topic]") but the specific "what you did → why it matters → what you do now" three-beat bridge structure is not verbatim in either source. See `references/source-ledger.md`.
 
 ## Pattern 12: The Time Anchor Retention Hack
 **Execute**: Use specific time references ("In 6 years of posting..."). Creates psychological depth and trust.
@@ -62,8 +82,19 @@
 - **Callback Compounding**: By week 3, posts reference specific moments from week 1. Returning followers feel insider recognition. New followers get curiosity gaps pulling them backward into the archive.
 - **Season Arc**: 4-week arc: Setup (W1) → Complication (W2) → Revelation (W3) → Resolution + New Thread (W4). Week 4's convert post harvests the narrative tension built over 28 posts.
 **Success Metric**: By week 3, at least 40% of posts contain callbacks to earlier posts. Convert post engagement exceeds standalone convert benchmarks by 2x+ due to accumulated narrative investment.
+**Source Note**: UNCONFIRMED as a named Jun Yuh framework — no "narrative thread" or "season arc" language appears in either source transcript. Built as an extrapolation from the verified 3-1-2-1 mission structure (itself UNCONFIRMED — see Pattern 2) and the Time Anchor pattern (Pattern 12, VERIFIED). See `references/source-ledger.md`.
 
 ---
+
+## Anti-Patterns
+
+- ❌ **Batching Too Far Ahead**: Never plan content more than roughly a week out at a time. His own caution: "You definitely don't want to batch too far ahead... because content changes all the time and you want to be able to iterate upon your plan based on what has worked or what hasn't worked the week before" (source: `extractions/Jun Yuh/transcript.txt`).
+- ❌ **Smiling Through the Pain Hook**: Never open a Silent Film piece on a happy frame. His own instruction: "just don't choose that media in which you're smiling ear to ear" (source: `extractions/Jun Yuh/transcript.txt`).
+- ❌ **Full Biography Dumping**: Never narrate nurture content as a complete life story. His own line: "Do not treat them like a full-on biography" (source: `extractions/Jun Yuh/transcript.txt`).
+- ❌ **Gatekeeping Story on Grand Transformation**: Never wait for a rags-to-riches arc to justify posting. His own reassurance: "You do not have to have these grand transformations... you do not have to be somebody that went from being incredibly broke to being a billionaire in order for you to tell a story" (source: `extractions/Jun Yuh/transcript.txt`).
+- ❌ **Overlong Text Frames**: Never let a caption linger past the read-aloud beat. His own rule: "You also don't want to be waiting on each frame too long either" (source: `extractions/Jun Yuh/transcript.txt`).
+- ❌ **Topical Niching**: Never cage the brand inside one subject. His own framing: "You don't need a niche, you are the niche" (source: `extractions/jun-yuh/transcript.txt`).
+- ❌ **Daily Analytics Obsession**: Never check performance post-by-post. His own practice: "I don't really care on a day-to-day basis how my content performs, but on a weekly basis, I will take the average views that I get across my content" (source: `extractions/Jun Yuh/transcript.txt`).
 
 ## Hall of Fame Exemplars
 
@@ -78,6 +109,8 @@
 **Anti-Exemplar: The "Generic Guru Talk"**
 *   **Description**: A 2-minute talking head video with the creator directly addressing the camera, offering generic advice like "You need to be authentic" or "Provide value." Text overlays are minimal and redundant, often just repeating what's being said. The background is a blurred office. Music is a generic upbeat track that fades in and out without purpose. No specific examples, no structure, just broad statements.
 *   **Why this is mediocre**: Lacks any of Jun Yuh's signature patterns. No Silent Film storytelling, no Picture Book Principle (text is an afterthought), no Music Drop psychology, no clear mission (Attract, Nurture, etc.), and no evidence of systematic deconstruction or a creative vision. It's generic, unmemorable, and fails to build a distinct personal brand.
+
+**Note**: Exemplars 1 and 2 are illustrative constructions built to demonstrate the patterns above (per the extraction methodology's exemplar-construction step) — they are not quoted or paraphrased from a specific real Jun Yuh post described in either source transcript. Treat as UNCONFIRMED-as-literal-content; internally consistent with the VERIFIED/LIKELY patterns they demonstrate. See `references/source-ledger.md`.
 
 ## Signature Moves
 
