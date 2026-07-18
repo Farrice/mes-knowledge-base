@@ -4,13 +4,48 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These seven patterns are intuition primitives, not a checklist — the failure
+mode is stamping "Pattern 1, Pattern 2, Pattern 3" onto a deliverable in
+order. Absorb the logic, then build an offer that a real buyer would sign,
+not a worksheet that proves you read the file. The test: would Monk.Ai
+recognize this as theirs — an offer where every price point has an escape
+hatch and every audit creates its own next sale — or as a generic tiered
+pricing page with the words "audit," "pilot," and "rollout" pasted on?
+If it's the second, rebuild.
+
+Specifically:
+- Do NOT label sections "here's the Trust Gradient move" or "applying
+  Pattern 4 now." Execute the escape-hatch, execute the trust-gradient
+  price jump; never announce the machinery — a buyer who sees the frame
+  stops trusting the offer.
+- This expert's texture is operator-blunt, not academic: "the entry offer
+  isn't revenue — it's relationship transformation," not "leverage
+  low-commitment touchpoints to optimize the conversion funnel." Keep the
+  delivery plain and structural, never consultant-speak.
+- Polish is the tell-class warning here specifically: a Monk.Ai offer that
+  reads as smooth, symmetrical, and equally persuasive at every tier has
+  usually lost the asymmetry that makes it work — the entry tier should
+  feel almost too easy to say yes to, and the top tier should feel earned,
+  not merely priced higher.
+- **Provenance caveat (binding on every workflow run using this skill)**:
+  `Monk.Ai` has no extraction source in `extractions/` and no external,
+  independently verifiable interview, transcript, or public track record —
+  see `references/source-ledger.md`. The "$600K+ revenue" and "Pioneer of
+  the Offer Pyramid system" lines below are the skill's own house framing,
+  UNCONFIRMED against any outside record. Treat the patterns as a
+  well-built internal offer-design system, not as a verified case study of
+  a real practitioner, when a deliverable requires citing Monk.Ai's
+  authority to a client.
+
 ## Genius Patterns
 
 ## Expert Profile
 
-**Monk.Ai** - AI Consulting Offer Architect
-- $600K+ revenue track record
-- Pioneer of the "Offer Pyramid" system
+**Monk.Ai** - AI Consulting Offer Architect (UNCONFIRMED external identity — see `references/source-ledger.md`)
+- $600K+ revenue track record — UNCONFIRMED, no independent source found
+- Pioneer of the "Offer Pyramid" system — UNCONFIRMED, house framing only
 - Specialist in client ascension mechanics
 
 ---
@@ -40,6 +75,8 @@
 
 **Executable Behavior**: Structure audit deliverables to surface 3-5 specific implementation opportunities with clear ROI projections.
 
+**Grounding** (verbatim, `references/prompts-v2/audit-implementation-bridge.md:16`): "You understand that a well-designed audit makes implementation feel inevitable, not optional."
+
 ---
 
 ## Pattern 4: Trust Gradient Pricing
@@ -48,6 +85,8 @@
 **Depth**: Price according to TRUST LEVEL. At first meeting, trust is low—price entry offers at what that trust level can bear. After successful delivery, trust increases—now you can ask for more.
 
 **Executable Behavior**: Never ask for more trust than you've earned. Each tier should feel like the natural next step given what they've experienced.
+
+**Grounding** (verbatim, `references/prompts-v2/value-anchor-pricing.md:16`): "Price is relative, and where you anchor determines how everything else is perceived."
 
 ---
 
@@ -58,6 +97,8 @@
 
 **Executable Behavior**: Always design the downsell BEFORE you need it. It should be a genuine value-creator, not a discount.
 
+**Grounding** (verbatim, `references/prompts-v2/downsell-recovery-scripts.md:16`): "Resistance to the primary offer doesn't mean resistance to working together — it means the trust-to-ask ratio is misaligned."
+
 ---
 
 ## Pattern 6: Compound Pipeline Architecture
@@ -67,6 +108,8 @@
 
 **Executable Behavior**: Track compound metrics: referral rate per client, upsell rate, reactivation rate. Design systems that improve all three.
 
+**Grounding** (verbatim, `references/prompts-v2/pipeline-compound-architecture.md:35`, the "Hunting Trap" diagnosis list): "Every month starts at $0."
+
 ---
 
 ## Pattern 7: Stakeholder Pre-Selling
@@ -75,6 +118,8 @@
 **Depth**: The formal proposal should be a CONFIRMATION ceremony, not a persuasion event. If you do the pre-selling work correctly, the pitch meeting is just paperwork.
 
 **Executable Behavior**: Map stakeholders before proposing. Have individual conversations. Arm your champion with materials to sell internally.
+
+**Grounding** (verbatim, `references/prompts-v2/stakeholder-presell-orchestrator.md:16`): "The final pitch should be a CONFIRMATION ceremony, not a persuasion event."
 
 ---
 
@@ -110,6 +155,16 @@ A consultant specializing in AI for healthcare approaches a hospital system with
 | **Downsell Strategic Value**  | The downsell is a smaller, less complete version of the main offer, often discounted.  | The downsell is a distinct, valuable offer but might not directly lead to the larger solution. | The downsell is a strategically designed, standalone value creator that builds trust and inherently surfaces the need for the larger solution.  |
 | **Compound Pipeline Design**  | Offer architecture makes no explicit provision for referrals or upsells.               | The offer implicitly creates opportunities for future work, but not systematized.     | Every element of the offer architecture explicitly builds mechanisms for referrals, upsells, and client re-engagement into the process.         |
 | **Stakeholder Pre-Validation**| Proposal is a first attempt at persuasion, assuming decision-makers are aligned.       | Some preliminary conversations occur, but the formal proposal still does heavy lifting. | The formal proposal is a mere confirmation ceremony, having been fully pre-sold to key stakeholders and champions through individual engagement. |
+
+## Anti-Patterns
+
+Every item below is grounded in the skill's own reference prompts (each `refactored: 2026-07-11` per its frontmatter) or the Anti-Exemplar case already documented above — not an external interview, since none exists for Monk.Ai (see `references/source-ledger.md`). Each is a violation the pattern set above is explicitly built to prevent.
+
+- **The Big-Pitch, No-Entry Failure**: Opening at the top tier with no smaller yes available, then discounting under pressure instead of downselling — the documented failure case above (Anti-Exemplar, this file): "The consultant, having no smaller offer, reduces the price by 20% but still requires a full commitment." Would Monk.Ai recognize this as theirs, or as the exact anti-pattern the Offer Pyramid exists to close off?
+- **The Mismatched Buyer-Type Pitch**: Pitching a slow, trust-building sequence to a fast buyer (or the reverse) instead of matching entry point to buyer type — per `references/prompts-v2/buyer-type-qualifier.md:16` (refactored 2026-07-11): "Forcing the wrong offer on the wrong buyer type kills deals." Would Monk.Ai recognize this as theirs, or as a script run without qualifying who's on the other end of it?
+- **The Discount-Instead-of-Downsell Reflex**: Cutting price on the primary offer instead of pivoting to a genuine smaller offer when resistance appears — per `references/prompts-v2/downsell-recovery-scripts.md:16` (refactored 2026-07-11): "Resistance to the primary offer doesn't mean resistance to working together — it means the trust-to-ask ratio is misaligned." Would Monk.Ai recognize this as theirs, or as a discount stapled onto a stalled deal?
+- **The Ask-at-the-Wrong-Moment Referral Request**: Asking for a referral during a low-momentum or frustrated moment instead of engineering the ask into a high-momentum one — per `references/prompts-v2/referral-trigger-system.md:39-40` (refactored 2026-07-11): "Bad Moments (don't ask here): When they're frustrated." Would Monk.Ai recognize this as theirs, or as a referral system that hopes instead of engineers?
+- **The Persuasion-Event Proposal**: Treating the formal proposal as the first sales conversation instead of a confirmation of pre-sold stakeholders — per `references/prompts-v2/stakeholder-presell-orchestrator.md:16` (refactored 2026-07-11): "The final pitch should be a CONFIRMATION ceremony, not a persuasion event." Would Monk.Ai recognize this as theirs, or as a cold pitch dressed up as a done deal?
 
 ## Evolution Log
 
