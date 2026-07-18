@@ -2,9 +2,21 @@
 
 ## Core Genius
 
-Tim Runia converts raw ideas into story compasses through a 3-element diagnostic — **Want, Tension, Change** — then collapses the entire narrative into a single sentence (the **Compass Sentence**) that acts as structural GPS for the entire creation process. His methodology sits at Position 0 in any content pipeline: before depth, before virality, before persuasion — the pre-flight check that determines whether raw material is story-worthy.
+Tim Runia converts raw ideas into story compasses through a 3-element diagnostic — **Want, Tension, Change** — then collapses the entire narrative into a single sentence (the **Compass Sentence**) that acts as structural GPS for the entire creation process. His methodology sits at Position 0 in any content pipeline: before depth, before virality, before persuasion — the pre-flight check that determines whether raw material is story-worthy. As he puts it directly, "there's a big difference between a video and a story," and the compass is how he finds which side of that line an idea sits on.
 
 **What Makes Him Different**: While most storytelling experts assume you already have a story, Runia diagnoses whether you have one at all. He provides the binary test (story vs. topic) and the excavation tools to find the story hiding inside any idea.
+
+---
+
+## How to Use This Skill (Model Calibration)
+
+These are diagnostic primitives, not a fill-in-the-blank worksheet. Runia's actual practice is a fast, near-reflexive triage — Want, then Tension, then Change — never a form the audience is meant to see. If the output reads like labeled fields stamped onto the page ("Want: ___. Tension: ___. Change: ___."), that has failed the test. The test: would Runia recognize this as someone who diagnosed whether a story exists before building it — or as someone reciting story-compass vocabulary without doing the diagnosis? If it's the second, redo the dig.
+
+Specifically:
+- Do NOT label the compass sentence's three clauses "Want / Tension / Change" in the finished deliverable unless the workflow explicitly calls for a labeled diagnostic (e.g., `runia-story-test.md`). The compass sentence carries its own seam — "wanted... but... until..." — nothing else should be visible.
+- Do NOT accept the first answer to "what changed?" Runia's own dig protocol pushes past a flat "I just started" to the mechanism — a realization, a decision, a shift in how something was seen. An answer that just echoes the want is unfinished work, not a finished compass.
+- This is not StoryBrand's hero's-journey, not a three-act outline, not a generic hook formula — recognition test: distinguish this from a beginning/middle/end pass by checking whether the tension is causally connected to the specific want (does the obstacle actually block THIS desire?) and whether the change carries a mechanism, not just an event.
+- His texture is plain-spoken and demonstrative, not academic — he shows the tool working on a live example before naming the principle. Keep worked examples concrete and specific ("a food market where I couldn't read a single sign," not "a challenging environment"). Polish that sands away the specific sensory detail is the tell that the dig stopped too early.
 
 ---
 
@@ -30,7 +42,7 @@ Tim Runia converts raw ideas into story compasses through a 3-element diagnostic
 
 ### 4. The Internal/External Tension Split
 **What He Does Unconsciously**: He classifies tension as internal (emotion, fear, doubt, discomfort) or external (physical obstacle, environment, circumstance) — and recognizes they often create each other.
-**Executable Behavior**: For every tension identified, label it: Internal (psychological) or External (situational). Then check: does one cause the other? Often, external tension triggers internal tension or vice versa. Lean into whichever is more powerful.
+**Executable Behavior**: For every tension identified, label it: Internal (psychological) or External (situational). Then check: does one cause the other? Often, external tension triggers internal tension or vice versa — in his own Japan food-market example, Runia says directly, "tension can be both external and internal at the same time." Lean into whichever is more powerful.
 **Deployment Context**: Story architecture, character development, content depth.
 **Success Metric**: You can name both the external situation AND the internal feeling.
 
@@ -60,7 +72,7 @@ Tim Runia converts raw ideas into story compasses through a 3-element diagnostic
 
 ### 9. The Progressive Refinement
 **What He Does Unconsciously**: He treats the first compass sentence as a draft, then refines it — sharpening the want, deepening the tension, making the change more specific. Each refinement makes the story stronger.
-**Executable Behavior**: Write the compass sentence. Then ask: Is the want specific enough? Is the tension visceral enough? Is the change surprising enough? Rewrite until each element is at maximum strength.
+**Executable Behavior**: Write the compass sentence. Then ask: Is the want specific enough? Is the tension visceral enough? Is the change surprising enough? Rewrite until each element is at maximum strength — Runia models this live on his own Japan example, noting "we can still refine the line however we want" even after the first version already works.
 **Deployment Context**: After initial compass generation, before production begins.
 **Success Metric**: The refined sentence is noticeably more compelling than the first draft.
 
@@ -90,16 +102,16 @@ Tim Runia converts raw ideas into story compasses through a 3-element diagnostic
 When Runia says an idea "felt interesting but you're stuck," he's identifying the most common creative failure mode: the idea has WANT but no TENSION. The interest comes from the want. The stuckness comes from the missing tension. This diagnosis alone saves hours of staring at blank screens.
 
 ### Tension Creates Story, Not Complexity
-The pasta example is deliberately simple. The food market example is deliberately simple. Runia's hidden lesson: story quality comes from the CLARITY of Want/Tension/Change, not from the complexity of the topic. A pasta video with clear tension outperforms a grand travel video without it.
+The pasta example is deliberately simple. The food market example is deliberately simple. Runia's hidden lesson: story quality comes from the CLARITY of Want/Tension/Change, not from the complexity of the topic — he frames the whole method as coming "down to three simple steps." A pasta video with clear tension outperforms a grand travel video without it.
 
 ### The Tool Is the Methodology
-Runia built an actual tool that walks through the three questions. This reveals his belief that the framework is so reliable it can be systematized — it's not art, it's engineering. The creative art comes in HOW you execute the story, not in whether you have one.
+Runia built an actual tool that walks through the three questions. This reveals his belief that the framework is so reliable it can be systematized — it's not art, it's engineering. In his own words, the tool "walks you through the same three questions step by step" and flags a weak answer before you move on. The creative art comes in HOW you execute the story, not in whether you have one.
 
 ### The "Still Just a Topic" Diagnosis
 Most creators never hear anyone say "what you have is a topic, not a story." They assume every idea is a story and wonder why their content falls flat. Runia's hidden gift is permission to say "this isn't a story yet" without killing the idea — because the next step is always to dig deeper, not to abandon.
 
 ### Change ≠ Happy Ending
-Runia never says the change needs to be positive. Internal or external, big or small. The only requirement: different from the beginning. This opens space for stories about failure, loss, uncertainty — as long as something shifted.
+Runia never says the change needs to be positive. Internal or external, big or small. The only requirement, in his own words: "Something has to be different at the end than in the beginning." This opens space for stories about failure, loss, uncertainty — as long as something shifted.
 
 ---
 
@@ -160,8 +172,8 @@ Runia never says the change needs to be positive. Internal or external, big or s
 
 1. **The Topic Tour**: Content that walks through a subject without tension or change. "Here are 5 tips for..." with no narrative spine.
 2. **The Circular Change**: Change that just restates the want. "I wanted to start → I started." No mechanism, no realization.
-3. **The Missing Tension**: Want + Change without a "but." The story is too easy — nothing stood in the way, so there's nothing to resolve.
+3. **The Missing Tension**: Want + Change without a "but." The story is too easy — nothing stood in the way, so there's nothing to resolve; Runia's own verdict on such an idea: "you still just have a topic instead of a story."
 4. **The Abstract Tension**: "It was really challenging." → Not specific enough. What was challenging? What did it feel like? What did you almost do instead?
-5. **The Paragraph Compass**: If you need more than one sentence, you don't yet understand your story. Compress or you're not ready.
-6. **The Forced Struggle**: Not every story needs conflict. Anticipation, curiosity, and building toward a moment are valid tension. Don't manufacture false obstacles.
+5. **The Paragraph Compass**: If you need more than one sentence, you don't yet understand your story. Runia's own instruction is to "write the whole thing down in one sentence." Compress or you're not ready.
+6. **The Forced Struggle**: Not every story needs conflict — Runia states this directly: "not every story needs an obstacle or a struggle as tension." Anticipation, curiosity, and building toward a moment are valid tension. Don't manufacture false obstacles.
 7. **The Abandoned Dig**: Accepting the first, surface-level answer to "what changed?" instead of pushing deeper for the mechanism.
