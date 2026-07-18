@@ -14,11 +14,25 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are pricing-and-positioning intuition, not a checklist to stamp onto a deliverable. Absorb the physics — outcome pricing beats time pricing, consultant framing beats freelancer framing — then build the specific offer, audit, or document originally. If the output mechanically labels sections "here's the Plumbing Diagnostic," "here's the Door Opener," you have failed the test: would Joanna Wiebe recognize this as a consultant diagnosing a real business's revenue mechanics — or as someone using conversion-copywriting vocabulary without the underlying diagnosis? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which genius pattern or hidden-knowledge item you applied unless asked. Execute the reframe; never announce the framework.
+- Do NOT let a proposal or diagnostic default to "X deliverables for $Y" — that is the Perpetual Freelancer anti-pattern (see `## Anti-Patterns` below), and it is the single fastest way this skill's output reads as generic.
+- Joanna's texture is direct and metaphor-driven ("plumbing," "clog," "audition"), never academic marketing-speak. She names one plain-language physics per idea and repeats it until it lands — she does not stack three frameworks in one paragraph.
+- Her business logic is *mercenary but honest*: every reframe (consultant, plumber, door-opener) benefits the client's actual outcome, not just the writer's invoice. An output that reframes pricing upward without a real mechanism to justify it (a retainer with no measurable milestone, a door-opener with no visible win) is not Joanna's method — it is the "polish" of her vocabulary without the substance of her diagnosis. Polish without the diagnosis is the tell that gives away ungrounded output.
+
+---
+
 ## The Master Principle
 
 **Writers who stay broke sell time. Writers who get rich sell measurable business outcomes.**
 
 Every genius pattern in this extraction flows from this single insight. The 7 career paths Joanna maps are 7 different surfaces of the same physics: your value isn't in the words — it's in the business problem those words solve. The hourly rate has a ceiling. Outcome-based pricing has none.
+
+*(Source: "7 Proven Ways To Make Money As A Writer in 2026," a ~13-minute, 2,222-word transcript — see `extractions/joanna-wiebe/writing-career-monetization-extraction.md`, Content Assessment block.)*
 
 ---
 
@@ -137,6 +151,8 @@ Content writing that sells operates on Eugene Schwartz's awareness stages (Joann
 
 Great content moves readers through these stages **without them noticing**. They feel like they discovered the answer themselves. But the writer architected that discovery.
 
+*(Sourced from `extractions/joanna-wiebe/writing-career-monetization-extraction.md`, Hidden Knowledge #2: writers who apply this "outperform those who don't by orders of magnitude.")*
+
 ### 5. The Book as Authority Shortcut
 "Writing a book is the fastest shortcut to being seen as an expert." Joanna launched Copy Hackers with 4 short copywriting ebooks — $20,000 in 3 days. But the real value wasn't the money: "Instantly, because of those books, I was the expert." The book isn't a revenue play — it's a positioning play. And ghostwriters who understand this can package their service accordingly.
 
@@ -189,6 +205,17 @@ A ghostwriter, specializing in thought leadership, pitched a CEO not just "writi
 ### Anti-Exemplar: The Perpetual Freelancer
 A talented writer consistently charges $75/hour for blog posts and website copy. They take briefs verbatim, deliver on time, and produce well-written content. However, they never ask about the business goal, don't measure the impact of their work, and rarely suggest additional services. After two years, they're still charging the same hourly rate, experiencing feast-or-famine cycles, and constantly searching for new clients because existing ones view them as a replaceable "word provider" rather than a strategic partner.
 **What makes this mediocre**: This writer is stuck in the "Revenue Ceiling Breaker" trap by selling time. They lack the "Consultant Frame," failing to diagnose problems or prescribe solutions. They don't apply "The Plumbing Diagnostic," nor do they attempt to "Solve the Entire Problem," making them a commodity rather than an indispensable asset.
+
+## Anti-Patterns
+
+> Failure modes this skill defaults toward when the business-architecture logic hasn't been internalized — each anchored to the extraction file it comes from, or flagged UNCONFIRMED where no source file exists. Workflows 01, 02, 03, 04, 05, and 06 each carry an "Anti-Pattern Check" pointer to this section — check output against every item below before delivering.
+
+- **The Perpetual Freelancer default** — quoting "X words for $Y," taking a brief verbatim, never asking about the business goal. Joanna's own frame is explicit: "Position yourself as a consultant, never as a freelancer" (VERIFIED — source: `extractions/joanna-wiebe/writing-career-monetization-extraction.md`, Hidden Knowledge #1, line 76). Full case study: the Anti-Exemplar above.
+- **Pricing by post count instead of outcome** — proposal language like "5 posts/week" or "10 landing pages" with no tie to a business result. The extraction's own applied guidance names this directly: "emphasize measurable outcomes, not post count" (VERIFIED — source: `extractions/joanna-wiebe/writing-career-monetization-extraction.md`, 24-Hour Quickstart, line 142).
+- **The "blogging with email" newsletter trap** — describing a newsletter service as scheduled content delivery instead of a trust-compounding relationship engine. Joanna: "Newsletters are relationship building machines at scale" — anything less "is the fundamental difference between 'blogging with email' and a six-figure newsletter business" (VERIFIED — source: `extractions/joanna-wiebe/writing-career-monetization-extraction.md`, Hidden Knowledge #4, line 85).
+- **The Manuscript-and-Leave Ghostwriter** — delivering the core asset (book, post, page) and stopping, instead of bundling the adjacent services that create switching costs (book launch PR, Amazon ads, profile optimization). (VERIFIED — source: `extractions/joanna-wiebe/writing-career-monetization-extraction.md`, Genius Pattern 7, lines 65-66; expanded in this file's Genius Pattern 8, lines 103-109.)
+- **Neutral voice mistaken for "safe"** — defaulting a client's brand voice to inoffensive and generic to avoid alienating anyone. Per the 2026-07-01 addition to this file: "neutral is invisible," not safe (UNCONFIRMED against a raw source transcript — no transcript file for "This Is Why You DON'T Need Original Ideas" exists in `extractions/joanna-wiebe/`; the anchor is this file's own dated provenance trail — see `## Patterns from claude.ai export` below — not a primary source, so treat the underlying claim as LIKELY rather than VERIFIED).
+- **Job-title devaluation** — pitching a messaging-strategy or brand-consulting engagement as "writing," which prices six-figure diagnostic work like commodity copywriting. The underlying business logic (writers who reframe the job description capture a different price point) is VERIFIED against `extractions/joanna-wiebe/writing-career-monetization-extraction.md`, Executive Summary + Genius Pattern 4 (lines 20-22, 47-51); the specific line "Companies that might devalue writing will still pay six figures for messaging strategy or brand consulting" (this file's Hidden Knowledge #7) does not appear verbatim in the extraction file and should be treated as an UNCONFIRMED paraphrase pending the original video transcript.
 
 ## Signature Moves
 
