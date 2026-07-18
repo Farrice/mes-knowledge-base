@@ -17,7 +17,7 @@ Deepen client-facing deliverables, strategy docs, audits, and personal brand ass
 5. **Plain recommendation:** state the next move in direct language.
 6. **Reader trust pass:** make the prose calm, specific, and easy to act on.
 
-## Output
+## Output Schema
 - Revised client-facing passage
 - Advisory diagnosis
 - Evidence gaps

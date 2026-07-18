@@ -19,7 +19,7 @@ Find the ending that feels inevitable, humane, and emotionally fair.
    - image/detail
 6. **Fairness check:** choose the ending that honors the reader's emotional journey.
 
-## Output
+## Output Schema
 - Ending diagnosis
 - Three ending options
 - Recommended ending with rationale

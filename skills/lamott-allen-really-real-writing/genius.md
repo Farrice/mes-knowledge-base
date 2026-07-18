@@ -1,11 +1,24 @@
 # Genius Method - Anne Lamott + Neal Allen Really Real Writing
 
+## How to Use This Skill (Model Calibration)
+These are intuition primitives, not a checklist. Absorb the sentence-craft/heart-craft split, then write toward it — don't narrate it on the page. Their own rule doubles as the warning against machinery-on-display: "if it sounds literary, it isn't... you got to take it out. It's... pretentious or it's elitist or it's just showing off" (00:31:02). The same holds for sounding *engineered*. If the output labels its own moves — "here's the restraint pass," "here's the hard-stuff beat," a Depth Receipt nobody asked for — you have failed the source, not satisfied it.
+
+The test: would Anne Lamott and Neal Allen recognize this as theirs — a piece written toward compassion and plain contact — or does it read like someone wearing "really real" vocabulary without doing the cutting? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which pattern or mechanic you applied unless asked. Execute the move; never announce it.
+- Their texture is spoken and economized, not literary. Neal cuts "a quarter of the first draft" on every second pass (00:28:09); Anne read her own book back against the rules and "probably took 30% out and I thought this is awesome" (00:24:59). If your output is longer than the input needed to be, you have decorated the piece, not repaired it.
+- Polish is the tell-class warning here specifically. A draft that sounds impressive before it sounds true has failed the Compassion Target — the source calls that showing off, not craft.
+- Mastery, per the source, is effort going invisible: "the point of mastery isn't virtuosity... there comes a time when you don't have to try as hard anymore... you can just sort of sit back and ease into it and let it flow" (00:00:14 / 00:22:33). If the reader can see you working the paddle, revise again.
+
 ## The Actual Craft
 This source does not teach depth as decoration. It teaches depth as a form of reader care.
 
 Neal's side of the method starts at the sentence. A grammatical sentence is only the floor. The craft question is whether the sentence persuades the reader to keep reading. That persuasion is not hype. It is vivid verbs, shorter direct words, questions that move thought forward, rhythm that survives being read aloud, and enough economy to respect the reader's time.
 
 Anne's side of the method starts at the heart. The writer has to move away from irony, snark, loftiness, intellectual show, and all the little ways a person hides from contact. The writing becomes stronger when it turns toward compassion and the real. Not confession for its own sake. Not preciousness. Contact.
+
+Anne names the alternative in the opening line of the source, restated later almost word for word: "Don't write towards irony. Don't write towards like snark or loftiness. Write towards compassion" (00:00:00, echoed 00:39:10).
 
 The package lives where those two halves meet:
 
@@ -40,6 +53,8 @@ The really real is usually not bigger language. It is plainer language with less
 ## The Sentence Is A Hand Extended
 Every sentence should give the reader a reason to take the next step. That can happen through motion, question, specificity, surprise, rhythm, warmth, image, or stakes.
 
+Neal traces this instinct to the first rule an editor ever gave him: "if you use trudged instead of walking, you pull the reader in better" (00:03:07) — the vivid verb over the dull one is the whole method in miniature.
+
 When a sentence fails, diagnose it:
 
 - Dull verb: the action is inert.
@@ -52,11 +67,11 @@ When a sentence fails, diagnose it:
 The fix is usually smaller than the writer thinks. Change the verb. Cut the apology. Replace the abstraction. Let the question stand. Remove the second explanation.
 
 ## Music: Melody, Rhythm, Harmony
-The source's music model is a powerful diagnostic:
+The source's music model is a powerful diagnostic. Neal names it directly: writing "relies on the integration of melody, rhythm, and harmony, and... usually one is dominant" (00:14:00).
 
 - Melody is the leap: metaphor, freshness, curiosity, surprise.
-- Rhythm is the body: breath, pace, conversational motion.
-- Harmony is the relationship: warmth, care, the reader feeling accompanied.
+- Rhythm is the body: breath, pace, conversational motion — "not the rhythms of iambic pentameter, these are the rhythms of conversation" (00:18:56).
+- Harmony is the relationship: warmth, care, "being relational and adding voices" (00:15:08), the reader feeling accompanied.
 
 Most drafts have one musical strength and one failure. A clever draft may have melody but no harmony. A sincere draft may have harmony but no rhythm. A clean draft may have rhythm but no leap.
 
@@ -66,6 +81,8 @@ The skill should not force all three equally. It should find the missing musical
 Hard material is not automatically trauma or drama. It can be death, loss, love, failure, hope, a fear the market will not say aloud, a client truth nobody has named, a character's hidden want, or the little humiliation under a professional problem.
 
 The signal is resistance. If the writer cannot quite say it, or the syntax breaks when they approach it, the piece may be near its living center.
+
+The source names this directly as one of its numbered rules: "Write the hard stuff. Don't shy from the big mysteries of life" (00:46:22).
 
 The method:
 
@@ -78,6 +95,8 @@ The method:
 
 ## Restraint Is Not Withholding The Truth
 The source repeatedly points to cutting: boring parts, little words, literary display, overproof. That cutting creates a second kind of depth. It lets the reader participate.
+
+Anne puts a number on it: revising her own book against the rules, she "probably took 30% out and I thought this is awesome" (00:24:59). Neal cuts on the same order every time: "the second draft I write, I've cut out a quarter of the first draft" (00:28:09).
 
 Restraint works when:
 
@@ -104,18 +123,39 @@ In marketing and client work, this is especially important. The more persuasive 
 ## Domain Transfers
 
 ### Social Media
-Do not make posts heavy. Make them less generic. Use one true observation, one plain sentence, one under-said feeling, and one reader-recognition turn.
+Do not make posts heavy. Make them less generic. Use one true observation, one plain sentence, one under-said feeling, and one reader-recognition turn. The rule that applies hardest at this length is the plainest one in the source: "Remove the boring stuff" (00:29:18) — a short post survives one cut, not three.
 
 ### Marketing
-Keep conversion architecture. Add human truth where generic copy overpromises or performs empathy. Use the reader's real fear with care, then make the offer feel honest enough to believe.
+Keep conversion architecture. Add human truth where generic copy overpromises or performs empathy. Use the reader's real fear with care, then make the offer feel honest enough to believe. The overproving instinct is the first thing to cut: "most of the boring stuff is I've got to prove what I just said... explain it and prove it" (00:29:24) — a claim that needs three proofs is a claim the reader already doubts.
 
 ### Client Work
-Depth means trusted advisory prose: clear stakes, named tradeoffs, no inflated certainty, no hiding behind consultant language.
+Depth means trusted advisory prose: clear stakes, named tradeoffs, no inflated certainty, no hiding behind consultant language. The source's closing rule on collaboration applies directly here: "you don't have to do it alone... you need a fresh set of eyes on it... someone you trust who respects your work" (00:57:38) — client trust and editor trust run on the same mechanism.
 
 ### Books And Fiction
-Use the hard-stuff gate, the music model, restraint, and reader trust. Make the scene or chapter carry stakes through felt human pressure, not summary explanation.
+Use the hard-stuff gate, the music model, restraint, and reader trust. Make the scene or chapter carry stakes through felt human pressure, not summary explanation. Anne quotes the standard she holds fiction to: a screenwriter told her "Tell me a story, make me care" (00:31:20) — that line is the whole brief for a scene.
+
+## Anti-Patterns (Source-Anchored)
+Each item below is a specific move the source calls out as a failure, anchored to a verbatim quote and its timestamp in the primary source (`extractions/anne-lamott-neal-allen-really-real/source.clean.txt`, YouTube: "Anne Lamott & Neal Allen: Write Toward the Really Real | Insights at the Edge", https://www.youtube.com/watch?v=sfK6XVV0M74).
+
+- **Straight complaint reads as whining.** Anne: "if you just do it as a complaint, it's unacceptable. You're a whiner. You're a complainer" (00:45:08) — the same truth turned to humor is "100% acceptable" (00:45:14). Ship the joke version, not the raw grievance.
+- **Decorative humor with no real complaint underneath.** Anne cuts jokes that only want to be funny: "I put in a lot of stuff that is attempting to be funny and I take it out. I kill my little darlings" (00:43:18). Humor has to carry a true thing or it goes.
+- **Sounding literary.** Neal's rule, verbatim: "if it sounds literary, it isn't... you got to take it out. It's... pretentious or it's elitist or it's just showing off" (00:31:02). Readers want "someone [to] tell me a story, make me care" (00:31:20), not a fancier writer.
+- **Over-proving the point ("the boring stuff").** "most of the boring stuff is I've got to prove what I just said... explain it and prove it" (00:29:24) — real trust does not require the second explanation. Cut the proof, keep the claim.
+- **Irony, snark, and loftiness as the default register.** The opening rule of the whole source: "Don't write towards irony. Don't write towards like snark or loftiness. Write towards compassion" (00:00:00, restated 00:39:10). Distance is the failure mode; contact is the target.
+- **Multisyllabic Latinate abstraction over Anglo-Saxon directness.** "a whole lot of the multisyllabic boring words are coming up from the south [Latinate]... the crisp, brutal, get-you-right-into-the-scene words are coming in from the north [Anglo-Saxon]" (00:37:04). Fancy abstraction is a named craft failure in the source, not a neutral stylistic choice.
+- **Visible effort — showing the paddle.** The river-guide model names the opposite of mastery: a good guide "knows the river so well that you barely see him or her working the paddle" (00:23:05). Technique the reader can see is technique that has not finished doing its job; the tell is the visible polish, not the plainness.
+
+## Verbatim Exemplars
+
+> "Don't write towards irony. Don't write towards like snark or loftiness. Write towards compassion." — Anne Lamott, 00:00:00, `extractions/anne-lamott-neal-allen-really-real/source.clean.txt`
+
+> "If you just do it as a complaint, it's unacceptable. You're a whiner. You're a complainer. But if you do it as humor, it's 100% acceptable." — Anne Lamott, 00:45:08–00:45:14
+
+> "A good river guide knows the river so well that you barely see him or her working the paddle... What are they watching? The otter playing on the banks. Nothing to do with their mastery." — Anne Lamott, 00:23:05
 
 ## Failure Modes
+Package-level failures — not directly sourced quotes, but drawn from how these mechanics misfire when applied to work the original source never addressed (marketing, client advisory, book atomization):
+
 - Too heavy for the medium.
 - Too confessional for the reader's actual need.
 - Too "literary" in the way the source warns against.
@@ -126,6 +166,8 @@ Use the hard-stuff gate, the music model, restraint, and reader trust. Make the 
 - Cutting so much that the reader loses the thread.
 
 ## The Final Test
+Anne's own version of this test is literal, not metaphorical: she has writers "read their writing out loud, to listen to it... What's the rhythm like?" (00:45:54) before anything else gets judged.
+
 Read the draft aloud and ask:
 
 1. Do I believe the person who wrote this?

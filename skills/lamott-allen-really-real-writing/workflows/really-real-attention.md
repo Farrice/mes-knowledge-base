@@ -15,7 +15,7 @@ Build source material through attention, aliveness, porousness, and noticed deta
 5. **Plain sentence:** write the central observation in one direct sentence.
 6. **Draft seed:** create 3 opening lines or scene starts.
 
-## Output
+## Output Schema
 - Attention inventory
 - One really real sentence
 - Three draft seeds

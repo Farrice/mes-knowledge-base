@@ -20,7 +20,7 @@ Turn any draft or writing goal toward truth, clarity, reader trust, and human re
 7. **Restraint pass:** cut the extra explanation and let one detail or pause carry implication.
 8. **Reader trust pass:** make sure the reader is never confused, judged, tricked, or emotionally abandoned.
 
-## Output
+## Output Schema
 - Revised draft or directed writing plan
 - Short Depth Receipt:
   - weak link

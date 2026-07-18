@@ -18,7 +18,7 @@ Rewrite a draft so it carries more truth, intimacy, clarity, and reader trust wh
 6. **Reader trust pass:** clarify context and remove manipulation, judgment, or confusion.
 7. **Read-aloud rhythm:** tighten sentences that cannot be spoken naturally.
 
-## Output
+## Output Schema
 - Rewritten draft
 - Optional: before/after change notes
 - Depth Receipt

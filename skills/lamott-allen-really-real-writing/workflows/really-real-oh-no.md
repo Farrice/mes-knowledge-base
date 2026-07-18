@@ -16,7 +16,7 @@ Create the reader's "oh no" moment: stakes that make them stop, care, and contin
 5. **Plain line:** write the sentence that lets the reader feel the pressure.
 6. **Care check:** make sure stakes do not exploit pain or overstate the problem.
 
-## Output
+## Output Schema
 - Stakes diagnosis
 - "Oh no" moment
 - Revised opening, scene beat, or copy section

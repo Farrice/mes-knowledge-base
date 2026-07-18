@@ -19,7 +19,7 @@ Add human truth to ads, emails, landing pages, offers, and brand writing without
 6. **Trust repair:** make the offer feel easier to believe and easier to act on.
 7. **Voice pass:** keep it persuasive, not pious.
 
-## Output
+## Output Schema
 - Revised marketing copy
 - Trust/claim notes
 - Remaining proof gaps

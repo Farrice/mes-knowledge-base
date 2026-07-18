@@ -15,7 +15,7 @@ Add subtext, restraint, omission, quiet, and reader-completed force without beco
 5. **Cut the label:** remove the sentence that tells the reader what to feel.
 6. **Safety check:** restore context if the omission creates confusion.
 
-## Output
+## Output Schema
 - Marked cuts
 - Revised passage
 - Note on what the silence now lets the reader feel

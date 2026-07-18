@@ -16,7 +16,7 @@ Make the reader feel safely held, emotionally honored, and willing to follow the
 5. **Continuation check:** ensure each paragraph earns the next one.
 6. **Ending check:** leave the reader with earned clarity, not forced uplift.
 
-## Output
+## Output Schema
 - Trust diagnosis
 - Revised passage
 - Reader Trust Score: 1-10

@@ -23,7 +23,7 @@ Diagnose where a draft feels false, shallow, performative, generic, confusing, o
 5. **Music score:** score melody, rhythm, and harmony from 1-5.
 6. **Repair order:** rank the top three changes by impact.
 
-## Output
+## Output Schema
 Return an audit table:
 
 | Location | Weak Link | Source Mechanic | Fix Direction | Risk If Unfixed |

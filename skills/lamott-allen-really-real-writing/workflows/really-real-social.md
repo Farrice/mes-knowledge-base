@@ -17,7 +17,7 @@ Apply the really real depth layer to LinkedIn, X, Instagram, newsletters, and sh
 5. **Lightness check:** keep the post breathable; do not turn every point into memoir.
 6. **Reader recognition:** end with a turn that lets the reader see themselves.
 
-## Output
+## Output Schema
 - Revised post
 - Optional variants for LinkedIn, X, Instagram, or newsletter
 - Depth Receipt

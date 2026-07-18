@@ -18,7 +18,7 @@ Apply the craft to novels, memoir, essays, chapters, scenes, and book concepts.
 6. **Reader care:** orient the reader enough to follow the deeper turn.
 7. **Ending or exit:** stop at an earned recognition, image, or question.
 
-## Output
+## Output Schema
 - Scene/chapter/essay diagnosis
 - Revised passage or outline
 - Next craft recommendation
