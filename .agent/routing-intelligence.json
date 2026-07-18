@@ -7426,6 +7426,63 @@
             "ensemble": true,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260718_032237_8f92",
+            "timestamp": "2026-07-18T03:22:37.065905+00:00",
+            "session_id": "129de224-63c4-4296-8df8-73d0a98c330c",
+            "request_summary": "also, what should we do next in this session, or should we start a new one? Want us to complete more of the work and the waves and get to all of the stuff that we plan to be done.",
+            "intent_score": 0,
+            "domain_detected": "new-media-ghostwriting",
+            "experts_deployed": [
+                "new-media-ghostwriting",
+                "mark-kashef-wargame-os",
+                "donald-miller-messaging-evolution"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "new-media-ghostwriting",
+            "ensemble": true,
+            "compound_pairing": "new-media-ghostwriting + mark-kashef-wargame-os + donald-miller-messaging-evolution",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260718_032810_6700",
+            "timestamp": "2026-07-18T03:28:10.594662+00:00",
+            "session_id": "56a0fb15-a869-4123-98c3-9535efe15ca8",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "paul-harding-lyric-prose",
+            "experts_deployed": [
+                "paul-harding-lyric-prose",
+                "deliberate",
+                "dara-denney-meta-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "paul-harding-lyric-prose",
+            "ensemble": true,
+            "compound_pairing": "paul-harding-lyric-prose + deliberate + dara-denney-meta-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260718_032924_ed05",
+            "timestamp": "2026-07-18T03:29:24.431306+00:00",
+            "session_id": "129de224-63c4-4296-8df8-73d0a98c330c",
+            "request_summary": "give me the exact prompt that I can go launch in our next session and then run our end session closeout and make sure everything is done so I can close the session, please. Thank you for your amazing ",
+            "intent_score": 0,
+            "domain_detected": "jason-fladlien-marketing",
+            "experts_deployed": [
+                "jason-fladlien-marketing",
+                "luke-iha-copy-blocks",
+                "evan-spiegel-distribution-architecture"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jason-fladlien-marketing",
+            "ensemble": true,
+            "compound_pairing": "jason-fladlien-marketing + luke-iha-copy-blocks + evan-spiegel-distribution-architecture",
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -7900,7 +7957,7 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 411,
+            "total_routings": 414,
             "total_feedback": 52,
             "positive_count": 0,
             "negative_count": 0,
@@ -7923,7 +7980,7 @@
                 "brand-operating-system": 10,
                 "how-i-write-os": 12,
                 "nate-b-jones-auto-improvement-loops": 1,
-                "jason-fladlien-marketing": 8,
+                "jason-fladlien-marketing": 9,
                 "paul-james-ai-automation": 1,
                 "nicolas-cole-digital-products": 2,
                 "nate-b-jones-context-engineering": 30,
@@ -7966,12 +8023,13 @@
                 "lara-acosta-linkedin-growth": 1,
                 "lara-acosta-linkedin-mastery": 1,
                 "dai-media-consumer-posture": 2,
-                "paul-harding-lyric-prose": 5,
+                "paul-harding-lyric-prose": 6,
                 "youtube-video-context-analysis": 1,
                 "henry-shukman-contemplative-writing": 1,
                 "nate-b-jones-ai-taste-mastery": 1,
                 "internal-comms": 1,
-                "donald-miller-storybrand": 1
+                "donald-miller-storybrand": 1,
+                "new-media-ghostwriting": 1
             },
             "expert_counts": {
                 "system-audit": 22,
@@ -7996,11 +8054,11 @@
                 "master-copywriter": 3,
                 "ben-watkins": 1,
                 "stefan-georgi-dopamine-copy": 20,
-                "luke-iha-copy-blocks": 29,
+                "luke-iha-copy-blocks": 30,
                 "how-i-write-os": 22,
                 "system-architecture": 7,
                 "supercomputer": 31,
-                "jason-fladlien-marketing": 10,
+                "jason-fladlien-marketing": 11,
                 "design-md": 22,
                 "simon-intellectual-library-os": 2,
                 "pptx": 8,
@@ -8008,7 +8066,7 @@
                 "brand-operating-system": 23,
                 "nicolas-cole-niche-positioning": 15,
                 "prediction-market-making": 1,
-                "deliberate": 24,
+                "deliberate": 25,
                 "mark-kashef-ai-councils": 1,
                 "gpt-image-2-director": 12,
                 "marketing-studio-director": 12,
@@ -8020,7 +8078,7 @@
                 "internal-comms": 4,
                 "wright-thompson-mastery": 12,
                 "alex-suzuki-digital-product-revenue-os": 3,
-                "paul-harding-lyric-prose": 7,
+                "paul-harding-lyric-prose": 8,
                 "paul-james-ai-automation": 1,
                 "lamott-craft": 2,
                 "synthesis-engine": 1,
@@ -8048,7 +8106,7 @@
                 "farrice-master-context-synthesis": 1,
                 "omar-eltakrori": 1,
                 "donald-miller-culture-turnaround": 3,
-                "mark-kashef-wargame-os": 4,
+                "mark-kashef-wargame-os": 5,
                 "asset_generator": 1,
                 "dan-wang-literary-analysis": 2,
                 "oren-john": 2,
@@ -8071,10 +8129,10 @@
                 "icp-deep-canvasser": 1,
                 "donald-miller-cognitive-load": 1,
                 "luke-iha-unaware-ads": 2,
-                "dara-denney-meta-ads": 17,
+                "dara-denney-meta-ads": 18,
                 "fantastic-posters": 8,
                 "nate-b-jones-intent-engineering": 1,
-                "evan-spiegel-distribution-architecture": 3,
+                "evan-spiegel-distribution-architecture": 4,
                 "chase-hughes-context-engineering": 2,
                 "context-profile-architect": 1,
                 "daniel-priestley-oversubscribed": 1,
@@ -8162,10 +8220,11 @@
                 "michael-connelly-vivid-writing": 1,
                 "kallaway-content-psychology": 1,
                 "donald-miller-storybrand": 1,
-                "donald-miller-messaging-evolution": 1
+                "donald-miller-messaging-evolution": 2,
+                "new-media-ghostwriting": 1
             },
             "tier_counts": {
-                "0": 411,
+                "0": 414,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -8173,10 +8232,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 229,
+                "hybrid": 232,
                 "finalize-auto": 182
             },
-            "ensemble_count": 303,
+            "ensemble_count": 306,
             "auto_miss_count": 41,
             "auto_match_count": 11
         }
