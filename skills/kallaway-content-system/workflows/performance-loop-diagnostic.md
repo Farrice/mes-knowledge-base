@@ -54,9 +54,15 @@ Produce:
 - replacements for losers,
 - one repair note for the weakest system stage.
 
-## Output
+## Output Schema
 
-Deliver a **Batch Performance Decision Memo** with next ten content briefs.
+Deliver a **Batch Performance Decision Memo** containing:
+
+1. **Batch Baseline** — the average value for the chosen metric (conversions, followers, or views) across the ten posts.
+2. **Winner Table** — the filled table (Post / Metric / Multiple vs Avg / Classification) from Step 2.
+3. **Driver Diagnosis** — for each 5x+ post, the likely driver named as one of topic, format, take, hook, proof, edit, or CTA.
+4. **Next-Batch Decision** — three carry-forward slots per 5x winner, exact reruns per 10x winner, replacements for losers, and one repair note for the weakest system stage.
+5. **Next Ten Content Briefs** — the resulting brief list that becomes the next batch's production queue.
 
 ## Quality Gate
 

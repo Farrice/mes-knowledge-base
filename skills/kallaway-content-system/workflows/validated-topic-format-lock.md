@@ -59,9 +59,14 @@ Choose one topic and one format for the next production rep. Explain:
 - what creative constraints it creates,
 - what evidence is still missing.
 
-## Output
+## Output Schema
 
-Deliver a **Topic + Format Lock Memo** with ranked options and one recommended lock.
+Deliver a **Topic + Format Lock Memo** containing:
+
+1. **Ranked Topics** — the filled table (Rank / Specific Topic / Source Evidence / Outlier Signal / Why It Fits Authority) from Step 2.
+2. **Topic Buckets** — the filled table (Bucket / Avg Outlier Strength / Videos Included / Use Case) from Step 3, 8-15 rows when the dataset supports it.
+3. **Format Ranking** — the filled table (Format / Avg Outlier Strength / Restriction Level / Best For / Avoid When) from Step 4.
+4. **The Lock** — one topic and one format, with why-this-topic-now, why-this-format, the creative constraints it creates, and any evidence still missing.
 
 ## Quality Gate
 

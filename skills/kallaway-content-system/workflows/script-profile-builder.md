@@ -58,9 +58,14 @@ Using the topic, format, take, evidence, and hook triad, produce:
 
 List the 5 style rules the final script must obey.
 
-## Output
+## Output Schema
 
-Deliver a **Script Profile + Script Brief**. If asked to draft, produce the full speakable script after the profile.
+Deliver a **Script Profile + Script Brief** containing:
+
+1. **Voice Profile** — the filled 7-dimension table from Step 2: sentence length, pacing, transition habits, proof style, humor/personality, opening logic, closing logic.
+2. **Script Brief** — beat map, opening lines, proof order, transition lines, payoff, CTA from Step 3.
+3. **Draft Guardrails** — exactly 5 style rules the final script must obey.
+4. **Full Script** (optional) — the complete speakable script, produced only if drafting was requested, written from the profile without copying source phrasing verbatim.
 
 ## Quality Gate
 

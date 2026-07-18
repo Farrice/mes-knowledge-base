@@ -56,9 +56,15 @@ Define:
 - what gets rerun exactly,
 - what gets killed.
 
-## Output
+## Output Schema
 
-Deliver a **10-Video Batch Plan** and **Next-Batch Decision Matrix**.
+Deliver a **10-Video Batch Plan** and **Next-Batch Decision Matrix** containing:
+
+1. **Batch Strategy** — the one variable under test (topics, formats, takes, hooks, or proof types) named explicitly.
+2. **10 Video Briefs** — the filled table (# / Topic / Format / Contrarian Take / Hook Direction / Proof Type / CTA) from Step 2, ten distinct but comparable rows.
+3. **Publishing Plan** — posting order and cadence.
+4. **Measurement Setup** — the metric hierarchy chosen: conversions per video/view, then followers, then views.
+5. **Carry-Forward Rules** — explicit definitions for 5x, 10x, the three-slot carry rule, the exact-rerun rule, and the kill rule, decided before results arrive.
 
 ## Quality Gate
 

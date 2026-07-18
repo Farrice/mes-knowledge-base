@@ -57,16 +57,16 @@ Produce:
 
 Rewrite the take and evidence order so it fits the locked format.
 
-## Output
+## Output Schema
 
-Deliver a **Substance Brief**:
+Deliver a **Substance Brief** containing:
 
-- final contrarian take,
-- one-sentence thesis,
-- evidence stack,
-- format-fit notes,
-- weak proof risks,
-- three alternate angles.
+1. **Take Candidates** — the 5-row table (Take / Audience Belief It Challenges / Why It Might Be True / Risk) from Step 2.
+2. **Final Contrarian Take** — the selected take plus a one-sentence thesis ("Most people think X, but actually Y").
+3. **Evidence Stack** — the filled 7-row table from Step 4 (visual proof, A/B contrast, example, story/case, metaphor, psychology, data).
+4. **Format-Fit Notes** — how the evidence order changes to fit the locked format.
+5. **Weak Proof Risks** — named gaps in the evidence stack.
+6. **Three Alternate Angles** — backup takes if the primary one does not survive review.
 
 ## Quality Gate
 

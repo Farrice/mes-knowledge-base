@@ -54,9 +54,15 @@ Combine the strongest layers into 5 hook triads:
 | Triad | Visual Hook | Text Hook | Spoken Hook | Risk |
 |---|---|---|---|---|
 
-## Output
+## Output Schema
 
-Deliver a **Hook Triad Sheet** with 5 complete triads and one recommended winner.
+Deliver a **Hook Triad Sheet** containing:
+
+1. **Spoken Hooks** — the 12-row table (Hook / Pattern / Why It Fits) from Step 2.
+2. **Text Hooks** — the 10-item on-screen text hook list from Step 3, each instantly readable and visually distinct from the matching spoken hook.
+3. **Visual Hooks** — the 6-row table (Visual / First 2 Seconds / Why It Stops Scroll) from Step 4.
+4. **Hook Triads** — the 5-row table (Triad / Visual Hook / Text Hook / Spoken Hook / Risk) from Step 5.
+5. **Recommended Winner** — one named triad with the reason it does three distinct jobs instead of repeating one message three ways.
 
 ## Quality Gate
 

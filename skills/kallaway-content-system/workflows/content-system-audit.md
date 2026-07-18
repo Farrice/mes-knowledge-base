@@ -56,9 +56,14 @@ Produce:
 - one system hardening move,
 - one delegation or automation move.
 
-## Output
+## Output Schema
 
-Deliver a **Content System Audit + Repair Plan**.
+Deliver a **Content System Audit + Repair Plan** containing exactly:
+
+1. **Stage Scorecard** — the 7-row table from Step 1 (topic, format, substance, hook, script, edit, batch feedback), each row filled with a 1-10 score, the evidence behind it, and a named fix.
+2. **AI Misuse Findings** — a bulleted list of where AI is doing creative work it should not own, and where a human is stuck on repetitive work AI should own instead.
+3. **Output-Result Diagnosis** — one paragraph naming the single root bottleneck: too little signal, too little originality, weak packaging, poor edit, or no feedback loop.
+4. **Repair Plan** — exactly four items, no more, no fewer: one immediate fix, one 10-day batch plan, one system hardening move, one delegation or automation move.
 
 ## Quality Gate
 

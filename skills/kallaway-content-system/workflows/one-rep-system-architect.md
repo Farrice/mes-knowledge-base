@@ -71,9 +71,17 @@ Do not write a generic script. Produce a script brief with:
 
 Choose one: low-edit format, DIY brute force, AI-assisted edit, or outsourced editor. Produce the edit brief and quality bar.
 
-## Output
+## Output Schema
 
-Deliver a **One-Rep Production Blueprint** with all six stages completed, plus a "do not proceed until fixed" section for any missing evidence.
+Deliver a **One-Rep Production Blueprint** with all six stages completed:
+
+1. **Topic Lock** — the 3-5 word specific framing, plus an evidence-gap flag if the topic is unvalidated.
+2. **Format Lock** — the filled table (Format / Restriction Level / Why It Fits / What It Forces) from Step 2.
+3. **Substance Block** — contrarian take, why the audience resists it first, why they accept it after proof, and the evidence stack.
+4. **Hook Triad** — the filled 3-row table (Visual / Text / Spoken × Output × Job) from Step 4.
+5. **Script Blueprint** — the seven fields from Step 5: opening hook, beat order, proof sequence, transition logic, final payoff, CTA, style notes.
+6. **Edit Path** — the chosen path plus edit brief and quality bar.
+7. **Do Not Proceed Until Fixed** — a flagged list of any missing evidence that blocks production, even if empty.
 
 ## Quality Gate
 

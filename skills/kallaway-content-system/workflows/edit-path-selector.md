@@ -54,9 +54,13 @@ Specify:
 
 Define what the edit must make the viewer feel and what must be true in the first two seconds.
 
-## Output
+## Output Schema
 
-Deliver an **Edit Path Decision + Editor Brief**.
+Deliver an **Edit Path Decision + Editor Brief** containing:
+
+1. **Path Decision** — one of low-edit format / DIY brute force / AI-assisted edit / outsourced editor, named explicitly, with a one-line rationale tied to the creator's stated leverage and business goal (not a preference call).
+2. **Editor Brief** — all nine fields from Step 2 filled: pacing, visual references, text hook treatment, b-roll or screen recording needs, pattern interrupts, captions, music/SFX, first-frame composition, final CTA moment.
+3. **Quality Bar Statement** — one sentence on what the edit must make the viewer feel, plus what must be visually true in the first two seconds.
 
 ## Quality Gate
 
