@@ -4,6 +4,18 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These 14 patterns are intuition primitives for a speed-vs-authority tradeoff, not a checklist to recite in the output. Absorb them, then move fast. If the deliverable stops to announce "Step 1: identify the competition vacuum, Step 2: validate the gap..." you have failed — WordsAtScale never narrates his own method on camera, he just runs it and shows the SERP. The test: would WordsAtScale recognize this as someone who found a zero-competition keyword and published before the window closed, or as someone reciting SEO vocabulary at a keyword? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate "Pattern 1, Pattern 2..." in delivered output. Execute the moves; never announce the machinery.
+- His texture is unpolished and numbers-forward: "welcome to the scale," casual asides, and exact dollar figures standing in for adjectives — "$116,000," "sold it for $34,000," "SEO score is 83... our best competitor... is 79." A deliverable that reads like a polished case study with no raw numbers is the tell that the machinery leaked through.
+- Speed beats polish, in his own words, mid-recording: "Now I don't want this to become a single huge tutorial. Nobody watches those nowadays." If a workflow output spends more words explaining the method than executing it, that is the over-polish failure mode in reverse.
+- He never treats a tool or a score as gospel — "I have a love-hate relationship with tools like neuron writer... you don't really have to have these tools." Deliverables should recommend the fastest path to a published, indexed page, not the most tool-compliant one.
+
+---
+
 ## Genius Patterns
 
 ## Pattern 1: Competition Vacuum Hunting
@@ -17,6 +29,8 @@
 **Execute**: Leverage your existing sitemap's authority by feeding it to AI writers so every new article automatically links to relevant existing content, borrowing topical authority.
 
 **Success Metric**: New article contains 3-5 contextually relevant internal links automatically.
+
+**Real-World Evidence**: The arbitrage works at the domain level too — on a DR5 site, WordsAtScale ranked page one ahead of a far more established competitor: "my VersusK website is DAO5 and I'm outranking originality which is DA of 76" (WordsAtScale, "How To Rank a ZERO Domain Rating Site in 24 Hours [Secret Method Revealed]," 2026-01-06, youtube.com/watch?v=lFuDru9qv4Y).
 
 ---
 
@@ -38,6 +52,8 @@
 **Execute**: Design workflows where AI outputs paste directly into publishing platform with zero reformatting—direct markdown to WordPress, pre-optimized meta titles.
 
 **Success Metric**: <5 minutes from AI completion to published article.
+
+**Real-World Evidence**: His own writing-tool queue shows the friction he's eliminating — "just add to writing queue... this last generation was January the 13th" — no separate formatting pass between AI output and a publish-ready draft (WordsAtScale, "This Crazy AI Writing Tool Sold My Site for $34K [Proof]," 2026-01-18, youtube.com/watch?v=HaVal2rVLRY).
 
 ---
 
@@ -67,12 +83,16 @@
 
 **Success Metric**: Database of affiliate-enabled products ready for monetization once rankings achieved.
 
+**Real-World Evidence**: This is how he built his own affiliate income — "I made almost $95,000 with one affiliate program... and almost $19,000 with the other one" — by flagging affiliate-enabled products during routine research, not as a separate campaign (WordsAtScale, "This Method Made Me 125K Dollars [Proof Inside]," 2025-12-19, youtube.com/watch?v=LxjOpMBn06g).
+
 ---
 
 ## Pattern 10: Sitemap as Authority Fuel
 **Execute**: Always include sitemap URL in AI article prompts to enable intelligent internal linking. Treat sitemap as strategic asset, not just technical artifact.
 
 **Success Metric**: Every new article strengthens and is strengthened by existing content network.
+
+**Real-World Evidence**: The same DR5-vs-DR76 outranking result demonstrates authority borrowed from the existing site rather than earned per-article: "my VersusK website is DAO5 and I'm outranking originality which is DA of 76" (WordsAtScale, "How To Rank a ZERO Domain Rating Site in 24 Hours [Secret Method Revealed]," 2026-01-06, youtube.com/watch?v=lFuDru9qv4Y).
 
 ---
 
@@ -101,6 +121,19 @@
 **Execute**: Document date/time of publication and date/time of ranking achievement for all tests to create undeniable proof of method effectiveness.
 
 **Success Metric**: Timestamped proof of results for every major ranking achievement.
+
+**Real-World Evidence**: His site-sale listing broke out exact trailing revenue instead of a vague "it made good money" claim — "the last 3 months before I sold the website averaged $2,100, 6 month, 1700, and 12 month, 1400" — timestamped, numbers-first proof used to close a $34,000 sale (WordsAtScale, "This Crazy AI Writing Tool Sold My Site for $34K [Proof]," 2026-01-18, youtube.com/watch?v=HaVal2rVLRY).
+
+---
+
+## Anti-Patterns
+
+- **Declaring SEO "dead" and defaulting to informational content only** — WordsAtScale corrects this directly on camera: "So for all of you who are saying that SEO is dead, SEO is not dead. It's just you have to adapt," citing that only 4% of transactional-intent keywords trigger AI Overviews versus 99.2% of informational queries (WordsAtScale, "How To Find Transactional Intent Keywords [Full Guide]," 2025-11-12, youtube.com/watch?v=vG36upd1Bfg).
+- **Publishing a "win" without dated, numbers-first proof** — his own site-sale listing broke out exact trailing revenue by month ("the last 3 months before I sold the website averaged $2,100, 6 month, 1700, and 12 month, 1400") instead of a vague "it made good money" claim (WordsAtScale, "This Crazy AI Writing Tool Sold My Site for $34K [Proof]," 2026-01-18, youtube.com/watch?v=HaVal2rVLRY).
+- **Treating every paid SEO-scoring tool as mandatory** — he names the dependency risk himself: "I have a love-hate relationship with tools like neuron writer. You can still outrank your competition if it's highly unoptimized, but you don't really have to have these tools" (WordsAtScale, "This Crazy AI Writing Tool Sold My Site for $34K [Proof]," 2026-01-18, youtube.com/watch?v=HaVal2rVLRY).
+- **Padding a fast workflow into a long-form tutorial** — mid-recording he catches himself doing the opposite of his own speed doctrine: "Now I don't want this to become a single huge tutorial. Nobody watches those nowadays" (WordsAtScale, "This Crazy AI Writing Tool Sold My Site for $34K [Proof]," 2026-01-18, youtube.com/watch?v=HaVal2rVLRY).
+- **Defaulting to the generic "AI-friendly outline" instead of a competitor-gap-driven structure** — he explicitly opts out of the templated shortcut inside his own writer tool: "the AI friendly outline optimizes your article structure for language models... I will not be choosing that although you can" (WordsAtScale, "This Crazy AI Writing Tool Sold My Site for $34K [Proof]," 2026-01-18, youtube.com/watch?v=HaVal2rVLRY).
+- **Writing brand voice from the brand's own vocabulary instead of the audience's** — his stated correction: "we should stop talking about brand voice from a standpoint of brand... we should really be focusing on the consumer" (WordsAtScale, "How to Fix Your Brand Voice Strategy (Mistakes That Kill Sales)," 2025-11-27, youtube.com/watch?v=zRQPW66Jvns).
 
 ---
 
