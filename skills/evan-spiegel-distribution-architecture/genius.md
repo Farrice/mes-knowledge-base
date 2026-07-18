@@ -4,6 +4,21 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then build
+originally. If the output mechanically stamps "GP-1, GP-2, GP-3" in sequence, you have
+failed. The test: would Spiegel recognize this as someone who solved distribution
+before touching the product — or as someone using distribution vocabulary? If it's the
+second, rebuild.
+
+Specifically:
+- Do NOT enumerate which Genius Patterns or Hidden Knowledge items you applied unless asked.
+- Do NOT label sections "here's the distribution audit," "here's the moat inventory." Execute the move; never announce it.
+- Spiegel's register is blunt operating logic, not startup-conference polish. He answers "why is it hard to build a consumer product?" with "you figured out distribution" — not with a slide framework. Outputs should read as decisions, not decks: one-sentence distribution advantage, not a five-bullet strategy memo.
+- His texture is decisiveness under ambiguity — "software is not a moat," "listen but don't obey," an "impossible" constraint is a side-channel you haven't found yet ("what changes when X happens?"). Match that register: assertion first, mechanism second.
+- Polish is the tell-class warning here: if the output reads like a consultant's distribution framework instead of a founder's decision log, it has drifted from Spiegel and needs a rebuild, not a copy edit.
+
 ## Genius Patterns (14)
 
 ### GP-1: Distribution Supremacy
@@ -42,6 +57,8 @@
 **Deploy when**: Product shipping, content publishing, brand consistency, service delivery.
 **Success metric**: A stranger encountering any three pieces of your output would identify them as coming from the same source.
 
+
+**Verbatim**: "design actually has always operated as like a bottleneck at the company, which is incredibly important, right? it's intentional uh that things need to be approved by design to ship" (Source: extractions/evan-spiegel/transcript.txt, Lenny's Podcast interview).
 ### GP-7: Velocity-of-Ideation
 **What he does**: Demands massive creative volume — "hundreds of ideas on a weekly basis." Design team reviews new work weekly. Philosophy: "If you want to have a good idea, you have to have lots of ideas."
 **Executable behavior**: Set weekly ideation target at 10x current rate. Review all ideas in group critique. Volume kills preciousness.
@@ -72,6 +89,8 @@
 **Deploy when**: Founder self-assessment, role evolution, delegation decisions.
 **Success metric**: You can name the specific transition you're navigating.
 
+
+**Verbatim**: "the job has just changed so dramatically and I think that that's part of what's so energizing about it" — spanning helping design the product, answering customer support emails, and raising money in the early days (Source: extractions/evan-spiegel/transcript.txt, Lenny's Podcast interview).
 ### GP-12: Communication-as-Core-Skill
 **What he does**: Treats communication as #1 leadership skill (Clinton's "explainer-in-chief"). Initially reluctant but chose commitment over comfort.
 **Executable behavior**: Identify the communication channel you're avoiding. Schedule it as recurring commitment. Skill develops through repetition, not preparation.
@@ -92,6 +111,8 @@
 
 ---
 
+
+**Verbatim**: "for Snapchatters right are jobs to be done. And it's as simple as like get people to download the app, right?" — with a parallel job list built for advertisers (ad platform onboarding, campaign configuration) (Source: extractions/evan-spiegel/transcript.txt, Lenny's Podcast interview).
 ## Hidden Knowledge (9)
 
 ### HK-1: The Temporal Distribution Window
@@ -100,29 +121,45 @@ Distribution opportunities are time-bound. Mobile app stores in 2011. AR glasses
 ### HK-2: The Empathy-Velocity Paradox
 Stanford's empathy-centered design thinking (slow, iterative) + Art Center's brutal velocity (constant production, harsh critique). Most teach one OR the other. His edge: both simultaneously.
 
+
+**Verbatim**: "I went to to Stanford for the product design program, which is really focused on empathy" paired with "I had also been to art school. So I had studied at Art Center. I'd studied at Otis here uh in Los Angeles" (Source: extractions/evan-spiegel/transcript.txt, Lenny's Podcast interview).
 ### HK-3: The Anti-Hierarchy Innovation Tax
 Hierarchy kills innovation because it makes people promotion-seeking rather than risk-taking. No titles, no hierarchy, no filtering gate = structural insurance against innovation death.
 
+
+**Verbatim**: "people become very focused on getting a promotion, right? getting, you know, into the next step of the hierarchy" (Source: extractions/evan-spiegel/transcript.txt, Lenny's Podcast interview).
 ### HK-4: The Rotation Anti-Stagnation Principle
 Rotating designers across products forces cross-pollination and prevents institutional blindness. A designer on chat for 3 years has lost fresh eyes.
 
+
+**Verbatim**: "if you're a great designer and you're stuck, you know, designing the chat experience for three years, like I mean, how boring is that?" (Source: extractions/evan-spiegel/transcript.txt, Lenny's Podcast interview).
 ### HK-5: The Designer-Who-Codes Inflection
 When designers can ship code (AI-enabled), the feedback loop from idea → impact collapses from weeks to hours. Side effect: need automated code review at scale.
 
+
+**Verbatim**: "automatically detected like close to 10,000 bugs at this point probably" via the automated code-review system built for designers who ship code (Source: extractions/evan-spiegel/transcript.txt, Lenny's Podcast interview).
 ### HK-6: The Middle Child Strategic Advantage
 Being between giants (smaller than Meta but larger than Pinterest) is strategic advantage: big enough for interesting things, small enough to be nimble. Risk: identity diffusion.
 
+
+**Verbatim**: "we're much larger than a a Pinterest or Reddit for example, we're also way smaller than Meta and Google" (Source: extractions/evan-spiegel/transcript.txt, Lenny's Podcast interview).
 ### HK-7: The Crucible Moment Diagnostic
 Every company has a prove-your-foundation moment before the next leap. Can't launch transformative from an unstable base. Fix foundation first, THEN leap.
 
+
+**Verbatim**: "it's about to launch specs after you know 12 years of investment" — framed as the year Snap must prove foundation before the next leap (Source: extractions/evan-spiegel/transcript.txt, Lenny's Podcast interview).
 ### HK-8: The Humanity-First AI Adoption Curve
 Technology leaders overestimate AI adoption speed because they underestimate societal pushback. Companies prioritizing human comfort over raw capability will win the deployment race.
 
+
+**Verbatim**: "people are massively underestimating the role that human adoption and human comfort" will play in AI deployment speed (Source: extractions/evan-spiegel/transcript.txt, Lenny's Podcast interview).
 ### HK-9: The Agent-as-Leadership-Enabler
 Uses AI agent (Glean-based) to comb dashboards and surface hotspots. Not automation — enables the flat leadership structure at billion-user scale.
 
 ---
 
+
+**Verbatim**: "I've built just an agent that will go and comb through everything that's happening in the company" built on top of "we have Glean that integrates uh you know, all this data for me" (Source: extractions/evan-spiegel/transcript.txt, Lenny's Podcast interview).
 ## Hall of Fame Exemplars
 
 ### Exemplar 1: The Stories Invention
@@ -156,6 +193,16 @@ Uses AI agent (Glean-based) to comb dashboards and surface hotspots. Not automat
 
 ---
 
+## Anti-Patterns (Sourced)
+
+- **Never mistake a cloned feature for a moat** — Meta spent 15 years copying Snapchat's features (Stories, camera-first UI, and most recently a "Plus" subscription tier); Spiegel on the timing: "we just hit 25 million subscribers on Snapchat plus more than a billion revenue run rate so was I think probably enough to get Meta's attention that it's a good time to to copy" (Source: extractions/evan-spiegel/transcript.txt, Lenny's Podcast interview).
+- **Don't let designers become PM order-takers** — Spiegel rejected the traditional org chart where "designers really are producing visuals. They're not really producing the product direction or the strategy or the vision" (Source: extractions/evan-spiegel/transcript.txt, Lenny's Podcast interview).
+- **Never build the literal feature request** — customers repeatedly asked for a "send all" button; instead of spam, Spiegel's team shipped Stories: "they did create a way to easily share with all of your friends without spamming them all day long" (Source: extractions/evan-spiegel/transcript.txt, Lenny's Podcast interview).
+- **Don't listen via survey** — Spiegel: "it's not like the survey model of listening. I don't think that's particularly helpful" (Source: extractions/evan-spiegel/transcript.txt, Lenny's Podcast interview).
+- **Never let hierarchy near the innovation team** — "people become very focused on getting a promotion, right? getting, you know, into the next step of the hierarchy" is Spiegel's own diagnosis of why structured orgs stop innovating (Source: extractions/evan-spiegel/transcript.txt, Lenny's Podcast interview).
+- **Don't design notification-based wearables** — on rival heads-up-display glasses, Spiegel said "I don't think receiving phone notifications on your face is like you know a a valuable you know proposition for most folks," noting that checking the corner display mid-conversation means "you're actually looking at like your friend's crotch" (Source: extractions/evan-spiegel/transcript.txt, Lenny's Podcast interview).
+- **Never let PM/design/engineering turf wars go unmanaged** — asked about the AI-era "who's most essential" standoff between the three disciplines, Spiegel called it dysfunctional outright: "it sounds highly dysfunctional if folks are having that standoff. That is not not a good thing" (Source: extractions/evan-spiegel/transcript.txt, Lenny's Podcast interview).
+
 ## Expert-Specific Quality Rubric
 
 | Criterion | Score 4 | Score 7 | Score 10 |
@@ -178,6 +225,7 @@ Uses AI agent (Glean-based) to comb dashboards and surface hotspots. Not automat
 - Dual-mode work structure: innovation days vs. operations days
 - JTBD agent architecture for any business
 
+- Direct precedent for gated-ecosystem monetization: Snapchat Plus reached 25 million subscribers on the same "distribution first, moat second" doctrine (Source: extractions/evan-spiegel/transcript.txt).
 ### Market Signals
 - AR glasses = next temporal distribution window
 - AI adoption backlash incoming — human comfort > raw capability
