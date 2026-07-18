@@ -2,6 +2,18 @@
 
 > Load this file before executing any workflow in this skill domain. These patterns are the operating system — the workflows are the applications.
 
+## How to Use This Skill (Model Calibration)
+
+The patterns below are intuition primitives, not a checklist. Absorb them, then run the actual diagnostic — never narrate it. The test: would Oren recognize this as a resource-grounded archetype selection — or as someone reciting "Oracle, Performer, World Builder, Catalyst, Helper" in order because that's the list? If it reads like the second, rebuild from the Resource-Reality Gate (Pattern 1), not from the archetype menu.
+
+Specifically:
+- Do NOT walk through all 5 archetypes in numbered order before running the 4-question resource audit — the audit ELIMINATES archetypes first; only score the survivors against qualifying questions.
+- Do NOT label sections "here's the Resource-Reality Gate" or "applying the Single-Archetype Discipline" — run the audit, eliminate, select. Name the pattern for the client only if they ask why an archetype got cut.
+- Do NOT hedge between two archetypes to avoid friction with client preference. One archetype, or the deliverable is incomplete (Pattern 12, Exit Condition) — Oren enforces this even when the client wants two.
+- Match Oren's register: the whiteboard voice, not the report voice. Short qualifying questions, direct eliminations spoken aloud ("You don't have an expert who can be on camera, so Oracle is off the table" — extractions/oren/transcript.txt), never a polished essay surveying all 5 options.
+
+Why this is here: the fastest way to fail this skill is to summarize the 5 archetypes for the client instead of eliminating down to one from their actual resources. A confident essay about all 5 options is a worse deliverable than a blunt 2-line elimination — Oren sells conviction, not options. Polish that reads as consultant theater is the tell that the resource audit got skipped.
+
 ---
 
 ## Pattern 1: The Resource-Reality Gate
@@ -170,6 +182,19 @@ Every archetype session MUST end with:
 4. ✅ Buy-in confirmation (people are "excited about" the ideas)
 
 If the session ends without all four, it was strategy theater.
+
+---
+
+## Anti-Patterns (Sourced)
+
+Every item below is a failure mode Oren names directly in source material, not an inferred best practice. Anchors cite the harvested transcript file + timestamp/location (full quotes in `references/source-ledger.md`).
+
+- Never select an archetype before running the resource audit — Oren frames aspiration-first selection as the default failure mode: "a lot of brands have an idea for some amazing thing they want to do on social, but rarely does anyone actually ever do the big idea... they're constrained" (extractions/oren-john-identity-marketing/companion-brand-archetypes-transcript.md, 02:24; corroborated in extractions/oren/transcript.txt).
+- Never merge this content-role framework (Oracle/Performer/World Builder/Catalyst/Helper) with Oren's separate identity-association five archetypes (Belonging/Better-than-others/Rebel/Standout/Pride-in-subculture) — the harvested companion digest is explicit: "No shared terminology; do not merge the two five-part lists in any downstream synthesis or workflow" (extractions/oren-john-identity-marketing/companion-brand-archetypes.md, line 5, harvested 2026-07-15).
+- Never dismiss "our industry is boring" as a legitimate objection — Oren's counter is verbatim and industry-specific, not a generic pep talk: "I don't think anything is too boring... a story behind every screw, every bolt, every welding piece" (extractions/oren-john-identity-marketing/companion-brand-archetypes-transcript.md, 05:24).
+- Never conflate the Catalyst and Helper archetypes — Oren draws the line explicitly when asked: "the catalyst is like is aspiring. Like there's a better life for a better brand out there... Whereas the helper is more practical" (extractions/oren-john-identity-marketing/companion-brand-archetypes-transcript.md, 17:55).
+- Never prescribe World Builder to a brand without genuine risk tolerance — Oren gates his own favorite archetype behind team/founder buy-in: "this is best for teams and founders that are willing to take a risk. It's not for everyone" (extractions/oren-john-identity-marketing/companion-brand-archetypes-transcript.md, 13:08).
+- Never let Performer or World Builder content explicitly pitch the product — the mechanic is omnipresence, not mention: "The product barely needs to be mentioned, it's often omnipresent throughout the entire content" (extractions/oren-john-identity-marketing/companion-brand-archetypes-transcript.md, 10:10).
 
 ---
 
