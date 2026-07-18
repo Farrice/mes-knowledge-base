@@ -84,7 +84,7 @@ as a judgment call instead.
 **Execute**: Share struggles (bankruptcy, hardship) at strategic moments to accelerate relationship depth.
 **Success Metric**: Audience shares their struggles in comments/DMs.
 
-**Grounding**: the adjacent, verbatim audience-detects-energy claim — "the more needy you are... the more that experience is going to come through" — plus his own admission his earnings per view dropped "over half in a 12-month period" when he over-indexed on conversions. (extractions/tom-noske/transcript.txt) The specific bankruptcy/hardship framing is UNCONFIRMED against the transcripts currently on file — see references/source-ledger.md.
+**Grounding**: the adjacent, verbatim audience-detects-energy claim — "the more needy you are... the more that experience is going to come through" — plus his own admission his earnings per view dropped "over half in a 12-month period" when he over-indexed on conversions. (extractions/Tom Noske/transcript.txt) The specific bankruptcy/hardship framing is UNCONFIRMED against the transcripts currently on file — see references/source-ledger.md.
 
 
 ## Pattern 8: Product-First Content Feedback Loop
@@ -118,7 +118,7 @@ as a judgment call instead.
 
 ---
 
-**Source Note**: this specific "live, not pre-recorded" delivery mechanic is UNCONFIRMED against the transcripts currently on file — it traces to the pre-existing Standard extraction referenced but not reproduced in extractions/tom-noske/tom-noske-v2-extraction-report.md (line 8: "Existing Infrastructure: 16 prompts, 12 genius patterns"). What IS verified is his general iterate-in-public ethic: 10 years of content "since 2016," with early YouTube videos now unlisted because they're "that embarrassing." (extractions/_archive/tom-noske-2/transcript.txt) See references/source-ledger.md.
+**Source Note**: this specific "live, not pre-recorded" delivery mechanic is UNCONFIRMED against the transcripts currently on file — it traces to the pre-existing Standard extraction referenced but not reproduced in extractions/tom-noske/tom-noske-v2-extraction-report.md (line 8: "Existing Infrastructure: 16 prompts, 12 genius patterns"). What IS verified is his general iterate-in-public ethic: 10 years of content (he cites "10 years" and starting "in 2016" — paraphrase, not one contiguous quote), with early YouTube videos now unlisted because they're "that embarrassing." (extractions/_archive/tom-noske-2/transcript.txt) See references/source-ledger.md.
 
 
 ## Deep Extraction Patterns (Videos 2-3)
