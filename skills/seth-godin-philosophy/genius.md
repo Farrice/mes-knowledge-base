@@ -4,6 +4,19 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then think in Godin's shape — never recite his frameworks back at the reader. If the output mechanically stamps "Pattern 5, Pattern 7, Pattern 9" in sequence, or narrates "Now applying the But-to-And Reframe," it has failed. The test: would Godin recognize this as someone who has actually internalized the smallest-viable-audience-and-ship discipline — or as someone wearing Seth Godin vocabulary for effect? If it's the second, rebuild. This IS the recognition test for this skill.
+
+Specifically:
+- Do NOT enumerate which patterns or moves were applied unless the user explicitly asked for the mechanics.
+- Do NOT over-explain. Pattern 28 (The Smallest Nudge) is the diagnostic for AI-generated Godin content: the real move is "the smallest nudge possible that is still scaffolding" — one image, one line, one sentence doing the work of a chapter. A five-paragraph justification of a single insight is the anti-Godin move; if a draft explains itself before it says the thing, cut the explanation, not the thing.
+- His texture is aphoristic and unhedged. He says "ship it," not "you may want to consider shipping it soon." On the Lewis Howes interview he says flatly: "authenticity is a crock no one wants you to be authentic" (`_archive/claude-export-2026-07-01.tar.gz`, `claude-export/normalized/conversations/97b5eb7a-ccd4-42d5-b49d-e74bcd79632a.md`, timestamp 12:32) — softening a line into a polite qualifier is the tell-class failure; his sentences end, they don't trail off into hedges.
+- Never manufacture urgency (scarcity countdowns, "only 3 spots left") — that is explicitly the opposite of his practice. The urgency in his own work comes from honest cost-of-delay accounting (Temporal Cost Accounting, Workflow 03), never manufactured scarcity.
+- Polish is the tell: a "generous ruckus" reads as generosity offered without performance anxiety. If output reads like it's trying to impress rather than trying to serve one named person, it has drifted into performance — Pattern 10 names this exact failure mode.
+
+---
+
 ## Genius Patterns
 
 ### Pattern 1: Resistance as Navigation Compass
@@ -232,6 +245,20 @@ A writer spends five years meticulously crafting a novel, constantly refining ev
 
 ---
 
+## Anti-Patterns (Sourced)
+
+> Failure modes Godin names explicitly as the wrong move, not inferred. Each anchor is either a verbatim quote checked against `extractions/seth-godin/transcript.txt` (Entrepreneur Studio podcast, Chris Allen interview) or a citation into this file's own dated tranches (2026-07-01 / 2026-07-10), which were spot-checked this repair pass against their named source conversations inside `_archive/claude-export-2026-07-01.tar.gz` (see `references/source-ledger.md` for the full audit trail).
+
+- **Reach-as-the-job ("get the word out" mistake)**: treating distribution volume as the marketing task itself — Godin, on air: "It's not hustle or hype or getting the word out. It's not promo. It's not interrupting people." (`extractions/seth-godin/transcript.txt`, Entrepreneur Studio podcast interview). If a plan's opening move is amplification instead of naming who wants this and why, this is the failure — see also Hidden Knowledge (2026-07-01 additions), the "get the word out" insight above.
+- **Persuading the skeptic instead of serving the willing**: spending time or money trying to flip people who already disagree — Godin: "if you're trying to persuade people who think you're wrong that you're right, you don't have enough time or money to do that" (`extractions/seth-godin/transcript.txt`, Entrepreneur Studio podcast interview). Redirect effort to the smallest viable audience already leaning toward yes (Pattern 5).
+- **Mass-market default ("average product for average people")**: designing for "everyone" because that's who legacy ad reach used to hit — Godin: "you needed to make average products for average people because it was average people that would see your ads" (`extractions/seth-godin/transcript.txt`, Entrepreneur Studio podcast interview, on pre-internet marketing). This 1973 logic survives as a default reflex; naming the SVA narrowly is the fix, not scaling the pitch to fit more people.
+- **Chasing the quarterly number over the brand promise**: letting short-horizon pressure erode the promise a brand is trying to keep — Godin names, on air, "that tendency to hit that quarterly earnings number" as what erodes the marketer's actual work (`extractions/seth-godin/transcript.txt`, Entrepreneur Studio podcast interview). Short-horizon number-chasing and long-horizon brand-building are different games; conflating them is the anti-pattern.
+- **Treating troll noise as a feedback loop**: unsolicited public comment steering editorial decisions — sourced in this file's own tranche 2 (2026-07-10): "politicians who spend almost all of their day listening to trolls start governing for the trolls." Only a qualified, observed cohort counts as signal (Pattern 27); ungated public comment should be structurally excluded from decisions.
+- **Money graded as ROI instead of doors-opened**: scoring a life/business decision on dollar return alone, ignoring opportunity cost — sourced in this file's tranche 1 Hidden Knowledge (2026-07-01 additions): "Decisions aren't based on return on equity for the investors — they're based on investment in self and what's possible" (the Chip Conley insight). Grading only the ROI line while ignoring what the decision made possible is the anti-pattern this insight corrects.
+- **The "Future Bestseller" spec-avoidance trap**: years of refining, beta-reading, and conference-attending around a "masterpiece in progress" that never actually ships — cataloged above as the Anti-Exemplar under Hall of Fame Exemplars (dated 2026-04-09 in the skill's Evolution Log below, unchanged since). It looks like craft discipline; functionally it is Perfectionism as Hiding (Pattern 8) with no ship date attached.
+
+---
+
 ## Evolution Log
 
 > Tracks all evolution attempts — kept AND discarded.
@@ -249,7 +276,7 @@ A writer spends five years meticulously crafting a novel, constantly refining ev
 ## Expert-Specific Quality Rubric
 
 | Criterion                     | Score 4 (Acceptable)                                          | Score 7 (Good)                                                    | Score 10 (Savant)                                                               |
-| :---------------------------- | :------------------------------------------------------------ | :---------------------------------------------------------------- | :------------------------------------------------------------------------------ |
+| :---------------------------- | :------------------------------------------------------------ | :------------------------------------------------------------------ | :------------------------------------------------------------------------------ |
 | **Audience Specificity**       | Vague "everyone" or broad demographic.                        | Clearly defined target group (e.g., "new managers").              | Named persona or hyper-specific niche (e.g., "marketers creating ethical ads for small businesses"). |
 | **Generosity of Intent**      | Focuses on creator's gain (e.g., likes, sales, attention).    | Aims to provide value, but still tied to expected reciprocation.  | Pure gift, designed to serve a specific audience without attachment to outcome or reciprocation. |
 | **Shipping Momentum**         | Idea remains in planning/refinement for months.               | Prototype or first version shipped within weeks.                  | Micro-action or viable first version shipped within days; consistency maintained. |

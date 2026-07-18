@@ -226,7 +226,7 @@ Why this can't wait: [One sentence from your Temporal Cost Ledger]
 
 ---
 
-## Output Template
+## Output Contract
 
 ```markdown
 ## Strategic Clarity Report

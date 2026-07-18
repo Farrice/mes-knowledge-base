@@ -136,7 +136,7 @@ If you showed this to 10 specific people in your SVA (name them if you can), how
 
 ---
 
-## Output Template
+## Output Contract
 
 ```markdown
 ## Remarkability Audit Report

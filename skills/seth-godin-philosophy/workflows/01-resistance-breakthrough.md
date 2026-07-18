@@ -127,7 +127,7 @@ Send this to 1-3 people you trust:
 
 ---
 
-## Output Template
+## Output Contract
 
 ```markdown
 ## Resistance Breakthrough Report

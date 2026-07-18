@@ -158,7 +158,7 @@ After doing it, I am: [identity statement in past tense]
 
 ---
 
-## Output Template
+## Output Contract
 
 ```markdown
 ## Status Trap Escape Report

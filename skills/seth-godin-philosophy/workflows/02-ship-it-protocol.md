@@ -134,7 +134,7 @@ Identity follows action. You didn't wait to "become" a creator. You created, and
 
 ---
 
-## Output Template
+## Output Contract
 
 ```markdown
 ## Ship It Decision Report
