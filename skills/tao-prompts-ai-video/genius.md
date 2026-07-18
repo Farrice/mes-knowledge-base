@@ -4,6 +4,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives for prompt *architecture*, not a formula to recite. Absorb them, then build originally — never output a mechanically labeled "Level 1 / Level 2 / Level 3" walkthrough unless the deliverable is explicitly a teaching document. The test: would Tao Prompts recognize this as someone directing a deterministic AI video pipeline — or as someone reciting prompt-engineering vocabulary without ever having tested it against a model? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce the formula ("Using the Cinematic Formula, I will now..."). Assemble `[Visual Style] + [Camera Shot] + [Subject] + [Action] + [Environment] + [Camera Motion]` silently, the way a cinematographer blocks a shot without narrating the blocking out loud.
+- Do NOT pad prompts with aesthetic adjectives to signal quality. Tao Prompts tested this directly and found "the actual quality of the video itself will roughly be the same regardless of how complicated your prompt is" — extra words exist for *control*, never decoration. A prompt stacked with "8k, hyper-realistic, cinematic, dramatic lighting, epic" on top of an already-complete formula is the "Kitchen Sink" tell — it reads like someone who has never watched a generation actually fail.
+- Do NOT fuse action and dialogue into a single generation request "for efficiency." That instinct is exactly the amateur mistake his whole pipeline architecture exists to correct — see the Decoupling Law below.
+- His texture is empirical, not theoretical: he doesn't say "this should work," he says "I found this to be true across tons of different tests." Recommendations without a testable success metric are the polish-tell for this expert — real Tao Prompts output always names what "working" looks like on screen, not just what it should theoretically produce.
+
 ## Genius Patterns
 
 ## 1. The Cinematic Formula (Structured Control)
@@ -17,12 +27,14 @@
 **Executable Behavior**: Write a single unified prompt that defines multiple distinct shots sequentially (e.g., Shot 1: Wide shot establishing base. Shot 2: Close up on hacker's fingers. Shot 3: Over the shoulder looking at screen).
 **Deploy When**: Constructing cohesive B-roll sequences or continuous scenes that need to maintain stylistic and character continuity across different cuts.
 **Success Metric**: The AI delivers a seamless edit of multiple camera angles within one output video without hallucinating the primary setup.
+**Source Note**: Defined directly in the transcript as "a single prompt that defines multiple sequential shots, each with its own camera angle, action, and timing" (source: extractions/tao-prompts/transcript.txt).
 
 ## 3. The "Lazy Teacher" Prompt Translator
 **What They Do**: They refuse to hand-write prompts that comply with the intricate syntax of every new video model that drops.
 **Executable Behavior**: Feed the official prompt guideline PDF of the target tool (e.g., Cling AI) into a Custom GPT. Instruct the GPT to act strictly as a syntax translator. Supply your narrative intent or storyboard beat to the GPT, and let it generate the mathematically precise prompt required for the target tool.
 **Deploy When**: Swapping between AI video generators, utilizing newly released models, or standardizing team output.
 **Success Metric**: A raw, unformatted idea is instantly converted into a high-fidelity, tool-optimized prompt that works perfectly on the first pass.
+**Source Note**: The "What to Avoid" section is not optional — "Most AI video companies aren't going to tell you what it's bad at" (source: extractions/tao-prompts/transcript.txt), so the GPT's documentation must be supplemented from your own testing.
 
 ## 4. Modular Pipeline Orchestration
 **What They Do**: They treat AI video as an assembly line, not a magic box. They never expect one model to do everything.
@@ -39,13 +51,22 @@
 
 ## 2. The Storyboard Bridge
 **Tacit Insight**: Text is too fluid for cohesive multi-shot sequences. A visual storyboard grid (e.g. a 3x3 Midjourney character grid) is the mandatory bridge between a script and a multi-shot video generation.
-**Why Others Miss This**: People go straight from script to video generator and get varied, disconnected clips that don't look like they exist in the same universe.
+**Why Others Miss This**: People go straight from script to video generator and get "varied, disconnected clips that don't look like they exist in the same universe" (source: skills/tao-prompts-ai-video/references/hidden-knowledge.md).
 **Deploy When**: Generating complex scenes that require true narrative arc and structural continuity across different shots for multiple tools.
 
 ## 3. Prompt Complexity ≠ Aesthetic Quality
 **Tacit Insight**: Adding more words and adjectives to a prompt doesn't automatically make the video look "better." Modern models can produce hyper-realistic output from one sentence. Adding complexity to a prompt is strictly for adding *control and specificity*, not beauty.
 **Why Others Miss This**: Beginners believe there's a "magic keyword" for ultra-realism and end up cluttering prompts with redundant descriptors, confusing the model's subject focus.
 **Deploy When**: Debugging a prompt that produced beautiful but incorrect framing, or when simplifying instructions to regain subject continuity in sequential shots.
+
+## Anti-Patterns (Source-Verified Failure Modes)
+
+- **Complexity-as-quality myth**: Never assume more descriptive words improve output quality — Tao Prompts tested this directly and found "the actual quality of the video itself will roughly be the same regardless of how complicated your prompt is" (source: extractions/tao-prompts/transcript.txt).
+- **JSON-as-magic-pill**: Don't treat JSON-formatted prompts as inherently superior to plain text — per the transcript, "it's not a magic pill that's going to suddenly create amazing AI videos" when the underlying keywords are identical to a plain prompt (source: extractions/tao-prompts/transcript.txt).
+- **Action+lipsync fusion**: Never ask one model to handle intense physical action and dialogue lip-sync in the same generation — doing so risks "warped faces or melted environments" because the compute demands of the two tasks conflict (source: skills/tao-prompts-ai-video/references/hidden-knowledge.md).
+- **Trusting vendor documentation for weaknesses**: Don't rely solely on an AI video company's own guide to learn what the tool does badly — "Most AI video companies aren't going to tell you what it's bad at" (source: extractions/tao-prompts/transcript.txt).
+- **Script-to-video without a storyboard bridge**: Never jump straight from a script to a video generator on multi-shot work — doing so produces "varied, disconnected clips" with no shared visual universe (source: skills/tao-prompts-ai-video/references/hidden-knowledge.md).
+- **Over-prompting the lip-sync shot**: Don't add action or movement descriptors to a lip-sync generation — per the transcript, "if you add too much action or movement into the prompts, the AI is not going to give you good results" (source: extractions/tao-prompts/transcript.txt).
 
 ---
 
