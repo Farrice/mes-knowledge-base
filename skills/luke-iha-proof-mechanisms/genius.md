@@ -4,6 +4,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then build originally. If the output mechanically labels sections "Psychological Proof," "Damaging Admission," "Contextualized Authority" in order, you have failed. The test: would Iha recognize this as a genuine proof architecture built for this specific claim and this specific doubt-node — or as someone using proof vocabulary without doing the analytical work? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which of the 22 proof types you deployed unless asked. Iha never labels his own copy "here's psychological proof, here's empirical proof" — he just writes the damaging admission, then the jargon flurry, then the CPA-audit-grade stat, and moves on.
+- Do NOT announce the machinery. His own words on the two moves that make this work invisible: the Jargon Flurry works because "does your prospect know what half of that means? Probably not, but it sounds credible" — naming the technique on the page kills it instantly.
+- His texture is spoken and blunt, not academic — "insane, autistic level," "$47 Stripe payment," "meh." He talks in dollar figures and specific numbers (the $100 million VSL, the 22 types, the 4 rules), not abstractions. Vague copy ("boost your business," "customers love us" — his own anti-exemplar) is the tell that the machinery hasn't actually run.
+- Polish is the tell-class warning: a sales asset with proof scattered evenly and generically is *worse* than one with a visible gap, because Iha's whole method is surgical placement at doubt nodes, not even coverage. If every section "has some proof," you have generic coverage, not doubt-node targeting — the actual signature move.
+
 ## Genius Patterns
 
 ## 1. The Jargon Flurry (Strategic Complexity)
@@ -28,6 +38,8 @@
 **What They Do**: They don't cluster all proof at the end. They anticipate exactly when a reader will feel skeptical and insert a specific type of proof at that exact moment.
 
 **Executable Behavior**: Map the sales argument. Identify the biggest, most unbelievable claims. Immediately attach a relevant empirical or credible proof point. Identify the call-to-action (where risk is highest) and attach experiential or social proof (guarantee or testimonial).
+
+**Iha's Own Framing**: "Right before a call to action, a great spot for a testimonial. Right after making a big claim, back it up with a stat or a study." (Source: extractions/luke-iha/video-1-proof-mechanisms/transcript.txt)
 
 **Deploy When**: Structuring the layout of a VSL, sales page, or email.
 
@@ -78,17 +90,26 @@
 
 **Success Metric**: Experience-to-purchase conversion exceeds 20%.
 
+## Anti-Patterns (Sourced)
+
+- **Self-reported proof used as primary evidence** — Iha's own ranking is blunt: "Self-reported results are kind of like a meh." He continues: "Anyone can Photoshop a bank statement, but if you get an independent audit from a CPA firm, people are more likely to believe that that is real." Never let a self-reported number carry a high-stakes claim unassisted. (Source: extractions/luke-iha/video-1-proof-mechanisms/transcript.txt)
+- **Promise-proof weight mismatch** — his rule-one example: "you probably need to have strong evidence, and a screenshot of a $47 Stripe payment probably isn't going to cut it" when the claim on the table is help someone make $1 million. A big claim paired with thin proof is a credibility killer, not a shortcut. (Source: extractions/luke-iha/video-1-proof-mechanisms/transcript.txt)
+- **Random proof placement instead of doubt-node targeting** — "the best marketers don't just throw proof at people randomly. They use it strategically at the exact moments when doubt is creeping in." Scattering proof evenly across a page is the amateur move he explicitly contrasts himself against. (Source: extractions/luke-iha/video-1-proof-mechanisms/transcript.txt)
+- **Proof-type overkill in a single asset** — "You don't need to use all 22 types of proof in one campaign." He calls stacking every type "overkill." Cramming every proof type into one asset signals padding, not rigor. (Source: extractions/luke-iha/video-1-proof-mechanisms/transcript.txt)
+- **Citing niche authority without contextualizing it** — "If you say journal of marketing, they may not understand what that school means or why that's significant." An uncontextualized citation to a real but unfamiliar source lands as filler, not proof. (Source: extractions/luke-iha/video-1-proof-mechanisms/transcript.txt)
+- **Thin, uncollected proof across an entire asset** — Iha's stated diagnosis when he audits a new client: "their proof is so flat. Nobody bothered to go and collect all these different types of proof." Two sentences later: "And it is a shame because massive proof creates massive results." Treat a single-category, low-volume proof section as a fixable defect, not an acceptable baseline. (Source: extractions/luke-iha/video-1-proof-mechanisms/transcript.txt)
+
 ## Hidden Knowledge
 
 ## 1. The Emotion of Truth
-**Tacit Insight**: Most marketers mistakenly believe proof is purely logical (data, numbers). Elite copywriters know that proof is actually an emotion. Making a claim simply *sound* highly logical (Explanatory Reasoning) creates the emotional sensation of truth, achieving the goal without needing hard data.
+**Tacit Insight**: Most marketers mistakenly believe proof is purely logical (data, numbers). Elite copywriters know that proof is actually an emotion. Making a claim simply *sound* highly logical (Explanatory Reasoning) creates the emotional sensation of truth, achieving the goal without needing hard data. In Iha's own words: "the best proof is just making people feel like it is true... if you create the emotional sensation of truth, you don't always need to make a logical argument." (Source: extractions/luke-iha/video-1-proof-mechanisms/transcript.txt)
 
 **Why Others Miss This**: Logic-obsessed academics get stuck trying to prove every claim empirically. True persuasion is about making the argument feel unquestionable, which a well-crafted explanation can do just as effectively as a spreadsheet.
 
 **Deploy When**: Hard empirical data is missing, or when selling an abstract concept.
 
 ## 2. Proof is About Safety, Not Convincing
-**Tacit Insight**: The core purpose of proof isn't to bludgeon the prospect into agreement. It's to make them feel *safe* taking the leap. If they desire the outcome (the promise), proof provides the psychological safety net to act on that desire.
+**Tacit Insight**: The core purpose of proof isn't to bludgeon the prospect into agreement. It's to make them feel *safe* taking the leap. If they desire the outcome (the promise), proof provides the psychological safety net to act on that desire. Iha closes his proof breakdown on exactly this line: "proof is not convincing people to buy. It's about making people feel safe buying." (Source: extractions/luke-iha/video-1-proof-mechanisms/transcript.txt)
 
 **Why Others Miss This**: Marketers use proof to wage war on skepticism rather than acting as a supportive handrail. Treating the prospect as an adversary rather than an anxious ally changes the tonality of the copy completely.
 
@@ -102,14 +123,14 @@
 **Deploy When**: Whenever a numeric claim is made and could be represented visually. The visual will beat the raw text number 10 times out of 10.
 
 ## 4. The 4 Rules of Proof
-**Tacit Insight**: Iha distills all proof deployment into 4 unbreakable rules: (1) Match proof to promise — the bigger the claim, the bigger the proof required. (2) Hard-to-fake proof wins — the more difficult it is to fabricate, the more powerful it is. (3) Let them experience it — when possible, direct experience eliminates all objections. (4) Focus on psychological proof — it's the most underutilized and most powerful category.
+**Tacit Insight**: Iha distills all proof deployment into 4 unbreakable rules, each anchored to a concrete example he gives on the spot: (1) Match proof to promise — a $1 million income claim needs more than a $47 Stripe payment screenshot; (2) Hard-to-fake proof wins — he cites Alex Hormozi's Guinness World Record stunt as the kind of third-party verification nobody can fake; (3) Let them experience it — when possible, direct experience eliminates all objections; (4) Focus on psychological proof — it's the most underutilized and most powerful category. (Source: extractions/luke-iha/video-1-proof-mechanisms/transcript.txt)
 
 **Why Others Miss This**: Marketers know about individual proof types but lack a governing framework. These 4 rules create a decision tree for any proof challenge.
 
 **Deploy When**: Any proof deployment decision — use these rules as the primary filter.
 
 ## 5. Proof as Competitive Moat
-**Tacit Insight**: In saturated markets where everyone makes similar claims. The differentiator isn't what you promise — it's what you can PROVE. The company with the most proof wins, not the company with the best copy.
+**Tacit Insight**: In saturated markets where everyone makes similar claims, the differentiator isn't what you promise — it's what you can PROVE. The company with the most proof wins, not the company with the best copy. This tracks directly to the taxonomy itself: "most copywriters use 3-4 proof types max," while Iha works from a menu of 22 — the taxonomy is the moat, because it forces you to find proof categories competitors never think to fill. (Source: extractions/luke-iha/video-1-proof-mechanisms/extraction-report.md, Hidden Knowledge — "The 22-Type Arsenal")
 
 **Why Others Miss This**: Copywriters focus on writing better promises. The real competitive edge is accumulating more, better, harder-to-fake proof over time. Proof compounds — every testimonial, case study, and certification becomes permanent ammunition.
 
