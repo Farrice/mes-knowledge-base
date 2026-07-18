@@ -120,6 +120,18 @@ If any content went viral in the audit period:
 
 ---
 
+## Quality Gate
+
+The audit is ready to deliver only when:
+- ✅ Every content piece in the Step 1 inventory has an F/M/M+ score AND a trust-stage tag (or is explicitly logged "untagged" — untagged is a finding, not a gap in the audit)
+- ✅ The Portfolio Health Score composite is traceable to the 5 dimension scores, not asserted on its own
+- ✅ Every "Orphaned" verdict in Step 4 states what the piece WOULD need to connect to a business outcome — a diagnosis, not just a red flag
+- ✅ Any Romanticism Check verdict of "Keep" cites the specific data evidence column, not a restated opinion
+- ✅ If a viral spike occurred in the audit window, Step 6 is completed — skipping it when applicable is a Virality Skepticism failure (HK-2)
+- ✅ Prescriptions are prioritized and specific to THIS portfolio's gaps — a prescription that would apply unchanged to any creator's audit has failed the Bar-Raising Reflex
+
+---
+
 ## Output Format
 
 Deliver:

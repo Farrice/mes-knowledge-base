@@ -4,11 +4,25 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the City Model and the Trust Pathway until they're reflexes, then build originally. If the output stamps "Attention Stage," "Discoverability Stage," "Trust Stage" as literal section labels inside a deliverable meant for a human reader, you have failed the test. The question: would Grace Andrews recognize this as a city map she actually drew — Grand Central, destinations, lines, passengers, one Trust Pathway job per piece — or as someone wearing "trust pathway" vocabulary without having earned the underlying diagnosis?
+
+Specifically:
+- Do NOT enumerate which genius patterns or trust stages you applied unless the deliverable itself IS the audit/diagnostic (Workflows 04, 08, 14 are explicitly labeled reports and get to show the machinery — everything else hides it).
+- Do NOT open a strategy document with "Using the City Model..." Draw the map; don't narrate that you're drawing it.
+- Grace's texture is operator-blunt, not academic: she talks in outcomes — subscriber counts, DM volume, unsub rates post-spike (extraction-report.md:81, 91) — and in transit-system metaphor — Grand Central, destinations, lines, passengers (extraction-report.md:59-63) — not in generic "content pillars" language. A deliverable that could have come from any content-strategy consultant hasn't found her register.
+- Polish is the tell-class failure here specifically when it shows up as a beautifully formatted table with no traceable business-outcome line (GP-10) or no trust-stage tag (GP-2) underneath it. Grace asks "what's the job of this piece?" before she compliments the formatting.
+
+---
+
 ## Core Genius Compression
 
 Grace Andrews' singular insight: **a brand is a media company that happens to sell a product, or it's irrelevant.** She doesn't bolt content onto a business strategy — she makes content the business strategy. The DOAC model proves this at scale: the show IS the business, the clips are billboards, the newsletter is the CRM, and the products are natural conversion endpoints for an audience that's been trust-engineered through content.
 
 The second-order insight: **trust is the only metric that compounds.** Views spike and fade. Subscribers accumulate but don't guarantee engagement. Trust — measured by the willingness to act on a recommendation, buy a product, or evangelize to a friend — is the only audience metric that survives platform algorithm changes, format shifts, and attention economy volatility.
+
+*Source: extraction-report.md:17 — "media company that happens to sell a product" is the synthesis's own phrasing for her core genius; treat as LIKELY Grace-voice (paraphrase-grade synthesis), not a verified verbatim transcript quote — no raw transcript exists in this repo.*
 
 ---
 
@@ -17,8 +31,12 @@ The second-order insight: **trust is the only metric that compounds.** Views spi
 ### Media Company Default
 Evaluate every brand as a media company before discussing content. If the content calendar reads like a promotional schedule, it's a product company — and it's losing.
 
+*Source: extraction-report.md:31 — "If this brand were a media company first, what would its editorial mission be?" (LIKELY Grace-voice paraphrase, synthesis-sourced).*
+
 ### Trust Pathway Sequencing
 Every content piece serves exactly one of 5 trust stages: Attention → Discoverability → Connection → Trust → Conversion. Tag before creation. If you can't tag, kill it.
+
+*Source: extraction-report.md:36 — the five-stage sequence "Attention, Discoverability, Connection, Trust, or Conversion" (VERIFIED against the synthesis document's own stage list; not a verbatim Grace quote).*
 
 ### Forgettable Seconds / Memorable Minutes
 Short-form dopamine hits (forgettable seconds) are entry points, not strategy. Long-form depth (memorable minutes) builds trust and compounds. Invest production quality accordingly — 80/20 toward memorable minutes.
@@ -35,8 +53,12 @@ Founders fall in love with ideas that don't work. The data kill switch fires at 
 ### City Architecture
 Content strategy is a transit system. Grand Central Station = your WHY. Destinations = quarterly goals. Lines = content channels. Passengers = audience segments per line. Draw the map before planning tactics.
 
+*Source: extraction-report.md:59-61 — "Grand Central Station (the WHY), Destinations (quarterly goals), Lines (content channels/formats), Passengers (target demographics per line)" (VERIFIED transit-system framework as documented in the synthesis).*
+
 ### Outreach Layer Mapping
 Never cold-pitch high-value targets. Map 3 concentric connection layers. Work from outside in. Warm at each layer. Persistence = depth, not volume.
+
+*Source: extraction-report.md:66 — "Who do we know who knows someone who knows them?" (LIKELY Grace-voice quote, synthesis-sourced, not verified against a raw transcript — none exists in this repo).*
 
 ### Bar-Raising Reflex
 "Is this the best version of this that exists?" If you can't articulate what makes your piece categorically different from alternatives, it's not ready.
@@ -44,8 +66,12 @@ Never cold-pitch high-value targets. Map 3 concentric connection layers. Work fr
 ### Emotional Residue Engineering
 Every content piece has ONE moment that should stick. Identify it. Build the piece around it. If there's no sticking point, iterate.
 
+*Source: extraction-report.md:78 — "the thing that stays with someone after they close the tab" (LIKELY Grace-voice phrasing, synthesis-sourced).*
+
 ### Virality Skepticism
 Viral spikes bring attention, not trust. Post-viral, track unsubscribes, engagement quality, and conversion — not view counts. The come-down warps judgment.
+
+*Source: extraction-report.md:90 — "the come-down creates a false sense of failure" (LIKELY Grace-voice phrasing, synthesis-sourced).*
 
 ---
 
@@ -68,6 +94,20 @@ Brand posting "Buy our product — 20% off!" five times a week. Occasional "valu
 
 ---
 
+## Anti-Patterns (Sourced)
+
+Grace would flag each of these as a category error, not a matter of degree. No raw transcript exists for Grace Andrews in this repo — every anchor below is extraction-report.md (the 25,439-byte synthesis), and Grace-voice phrasing is labeled LIKELY, never VERIFIED, per the provenance standard.
+
+- **Sales-first social feed**: every post carries a CTA, captions like "Buy our product — 20% off!" with occasional "value content" that's thinly veiled pitching — the synthesis's own canonical Anti-Exemplar (extraction-report.md:143-145, VERIFIED pattern description; "You're speaking at everyone and reaching no one" is a LIKELY Grace-voice line, not a verified transcript quote).
+- **Chasing the viral spike as the new baseline**: treating a 5x-reach anomaly as the standard to beat instead of studying it — the "come-down tax" (extraction-report.md:108-109, VERIFIED pattern; the term itself is LIKELY Grace-voice).
+- **Defending a format past 30 days with feeling instead of data**: "I really believe in it" instead of engagement numbers — the anti-romanticism failure (extraction-report.md:53-57, VERIFIED pattern; the quoted defense phrase is LIKELY).
+- **Cold-pitching a high-value target at zero connection layers**: skipping the three concentric circles and going straight to the inbox (extraction-report.md:65-69, VERIFIED pattern).
+- **Treating discovery as a linear funnel** (awareness → consideration → purchase) instead of designing each piece as a standalone entry point — the "discoverability mess" (extraction-report.md:111-112, VERIFIED pattern; the term is LIKELY Grace-voice).
+- **Waiting to "ship the perfect version"**: perfectionism disguised as rigor, instead of testing obsessively and shipping fast (extraction-report.md:120-121, VERIFIED pattern; the quoted phrase is LIKELY).
+- **Running short-form as a standalone strategy**: forgettable seconds treated as the destination instead of the on-ramp to memorable minutes (extraction-report.md:126-127, VERIFIED pattern).
+
+---
+
 ## Signature Moves
 
 1. **The City Map Draw** — Before ANY tactical discussion, draw the transit map. Grand Central + destinations + lines + passengers. Eliminates 80% of "what content should I make?" confusion. → When strategically lost or starting something new.
@@ -84,7 +124,7 @@ Brand posting "Buy our product — 20% off!" five times a week. Occasional "valu
 
 ## Hidden Knowledge Deployment Rules
 
-These fire automatically within workflows. Load them as reflexes, not references.
+These fire automatically within workflows. Load them as reflexes, not references. The extraction header records "8 tacit insights detected" (extraction-report.md:11, VERIFIED count) — the 8 HK entries below map 1:1 to extraction-report.md:105-127.
 
 ### HK-1: The Attention-Trust Inversion
 **When it fires**: Any time reach/views are discussed as success metrics.
