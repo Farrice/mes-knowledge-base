@@ -253,20 +253,18 @@ Cited as exemplar of litotes / rhetorical understatement deployed in modern copy
 
 ## Anti-Patterns (Sean's "What novices/Matthew sees" foil)
 
-The following are failure modes Sean explicitly diagnoses in the conversation. Each is the *wrong-way version* a workflow should pre-correct against.
+The following are failure modes Sean explicitly diagnoses in "How The Gurus (Almost) Killed Copywriting" (Sean Macintyre × Matthew Volkwyn, 2026-04-27 interview transcript — `extractions/sean-macintyre/transcript-consolidated.md`). Each is the *wrong-way version* a workflow should pre-correct against; anchors below cite the transcript line + timestamp.
 
-| Anti-pattern | Sean's diagnosis |
-|---|---|
-| **Using PAS in level-4 sophisticated markets** | "Why are you using problem-agitate-solution when the market's already level four sophistication? Why don't you use a mechanism lead?" |
-| **Coming up with mechanisms out of thin air** | "If you come up with it out of thin air, the second people start digging, they don't find any substance and then they have ad skepticism." |
-| **Citing cross-domain references without applying them** | (Implied) The point is the application, not the citation. |
-| **Writing for problem-aware audiences but copying Hormozi** | "Hormozi's books are great if you're selling something people already want. They're not great if you're reaching somebody who doesn't realize they have a problem or has built up an armor." |
-| **Optimizing before reaching the volume threshold** | "I was not operating at an optimal or high enough level for that optimization to matter." Stop tweaking the perfect push-up. Do 50 imperfect ones. |
-| **Paying $30K masterminds at year 12+ for one insight** | "What if I just don't spend that and go read a goddamn book?" |
-| **Designing copy for sustained creator inspiration** | The hedonic treadmill kills it. Build for habit, not for inspiration. |
-| **Trying to make a hobby into a business** | "I'm not enjoying Spanish anymore when I was just learning it." Some pleasures break when you monetize them. |
-| **Stopping copy training at the hook** | The idea carries 5 pages of 70. The other 65 are craft, and that's where most copy fails. |
-| **Following the "passion guru" advice** | Habit transmogrifies into passion for very few. Most copywriters need to build the habit first and accept that the cash is the reward, not the love. |
+- **Using PAS in level-4 sophisticated markets** — Matthew names the coaching gap directly: "Why are you using problem agitate solution when the market's already level four sophistication? ... why don't you use a mechanism lead or something" (transcript-consolidated.md line 57, 00:17:21-00:17:34, 2026-04-27 interview).
+- **Coming up with mechanisms out of thin air** — Sean: "If you come up with it out of thin air, the second people start digging, they don't find any substance and then they're like their ad skepticism" (transcript-consolidated.md line 43, 00:09:19-00:09:29, 2026-04-27 interview).
+- **Citing cross-domain references without applying them** — implied by Sean's own cross-pollination doctrine: "David is looking to music and seeing, okay, what can I learn from this field that I can apply to my copy to make it better?" (transcript-consolidated.md line 171, 01:13:49-01:15:10, 2026-04-27 interview) — the value is the applied transfer, not the name-drop.
+- **Writing for problem-aware audiences but copying Hormozi tactics onto defended/apathetic ones** — Sean: "[Hormozi's books] are great if you are selling something that people already want. They are not great if you're reaching somebody who doesn't realize they have a problem" (transcript-consolidated.md line 29, 00:05:25-00:05:44, 2026-04-27 interview).
+- **Optimizing before reaching the volume threshold** — Sean's own admitted mistake: "a realization smacked me in the face like a wet bag of burritos. It was the simple fact that I was not operating at an optimal or high enough level for that optimization to matter" (transcript-consolidated.md line 101, 00:40:12-00:40:21, 2026-04-27 interview).
+- **Paying $30K masterminds at year 12+ for one insight** — Sean: "What if I just not spend that and go read a goddamn book?" (transcript-consolidated.md line 173, 01:15:32-01:16:20, 2026-04-27 interview).
+- **Designing copy for sustained creator inspiration** — Sean: "every time you inspire yourself about a particular topic, diminishing returns ... the hedonic treadmill kicks in and your ability to feel inspired about something ... diminishes" (transcript-consolidated.md line 139, 01:00:12-01:00:25, 2026-04-27 interview).
+- **Trying to make a hobby into a business** — Matthew's cautionary example: "I'm not enjoying Spanish anymore when I was just learning it" (transcript-consolidated.md line 185, 01:22:47-01:23:22, 2026-04-27 interview).
+- **Stopping copy training at the hook** — Sean: idea resonance "only gets you through the first five pages of a 70-page promo" (transcript-consolidated.md line 15, 00:01:06-00:01:47, 2026-04-27 interview).
+- **Following the "passion guru" advice** — Sean: "It's only for some people that habit eventually transmogrifies into passion. Very few people are passionate about writing ads for dick pills" (transcript-consolidated.md line 143, 01:01:47, 2026-04-27 interview).
 
 ---
 
@@ -286,6 +284,19 @@ When evaluating any output produced under Sean's framework, score against these 
 | **8. Anti-Pattern Pre-Correction** | Does the output explicitly name what Matthew (or 80% of practitioners) would do wrong here? | "What Matthew sees" callout is included and accurate. |
 
 **If any score < 6, fail the output.** This is Sean's diagnostic standard, not a politeness gate.
+
+---
+
+## Recognition Test
+
+Before shipping anything built under this skill, run one question: **would Sean recognize this as his own diagnostic move — or as guru vocabulary wearing his terms?** The test fails when any of these are true:
+
+- The output *names* a framework ("Awareness-Armor Diagnostic," "Three-Vector Idea") without running the actual reasoning behind it. Sean's own move is to interrogate — "does it survive the dig?" — not to label and move on.
+- A cross-domain reference (Deutsch, Althusser, Mike Israel, Greek rhetoric) appears as decoration ("as David Deutsch would say...") instead of producing a specific copy decision the output can point to.
+- The register reads polished and lecture-shaped instead of digging-in-real-time and mildly profane. Sean's own voice ("pay the cost, be the boss," "wet bag of burritos") is rough by design — a smoothed-over version has already failed the recognition test.
+- The anti-pattern being corrected isn't named. Sean always names what the novice or the guru gets wrong before prescribing the fix — he doesn't just prescribe.
+
+If two or more of these are true, the output would not survive Sean's own bar: substance that holds up under digging, not recycled guru-isms dressed in his vocabulary.
 
 ---
 
@@ -320,6 +331,14 @@ If any answer is "I don't know," resolve it before producing copy.
 
 ---
 
-## How To Use This Genius Context
+## How to Use This Skill (Model Calibration)
 
-Every workflow in this skill loads `genius.md` first. The workflow is the executable playbook; this file is the *thinking* behind it. When in doubt during execution, return here. When the user asks "why does Sean do it this way," the answer is in this file.
+Every workflow in this skill loads `genius.md` first. The workflow is the executable playbook; this file is the *thinking* behind it — and these twelve patterns are intuition primitives, not a checklist. Internalize how Sean actually reasons (dig-test the mechanism, classify the armor state, trace the lineage), then produce output that thinks the way he thinks. If the deliverable mechanically stamps "Pattern 1: Awareness-Armor Diagnostic, Pattern 2: Mechanism-Substance Test..." in sequence, it has failed regardless of whether every pattern got technically covered.
+
+Specifically:
+- Do NOT announce which numbered pattern, tier, or workflow you're deploying. Run the diagnostic silently; let the output show its work through substance — named product evidence, named audience state, named rhetorical figure — not through labeled sections.
+- Do NOT cite a cross-domain reference (Deutsch, Althusser, Mike Israel, Greek rhetoric) as decoration. Sean's own anti-pattern is quoting without applying — the reference has to change a specific copy decision, and the output should show which one.
+- His register is unpolished by design: profane punctuation, absurd physical metaphors ("wet bag of burritos"), mid-thought self-correction. A smoothed, conference-keynote version of Sean's voice is the tell that the model defaulted to generic guru cadence instead of his own. Polish is the failure class here, not the goal.
+- Sean never moralizes the ethics fork (powers-for-good vs. powers-for-evil) — he names it as a structural business-design choice and moves on. If the output turns it into an ethics lecture, it has drifted into the exact guru territory Sean diagnoses and rejects.
+
+When in doubt during execution, return here. When the user asks "why does Sean do it this way," the answer is in this file.
