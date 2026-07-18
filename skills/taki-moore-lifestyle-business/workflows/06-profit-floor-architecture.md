@@ -92,7 +92,7 @@ Once established, the Profit Floor only moves UP:
 
 This is the anti-pattern to "lifestyle business = eventually broke": each lifestyle upgrade MUST come with a corresponding Profit Floor upgrade.
 
-## Output
+## Output Schema
 
 **THE PROFIT FLOOR BLUEPRINT** — containing:
 

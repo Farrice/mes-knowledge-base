@@ -95,7 +95,7 @@ For maximum velocity, design a compressed kickstart event:
 - **Day 3**: Discovery calls → First sale attempt
 - **Key**: "It was intense. But they got it done and they wouldn't have got it done if I hadn't pushed."
 
-## Output
+## Output Schema
 
 **THE BEGINNER ACCELERATION SYSTEM** — Complete document containing:
 

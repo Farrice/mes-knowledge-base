@@ -78,7 +78,7 @@ Script a 3-5 minute Loom/video for the top of the doc:
 
 Apply **Trust Economy** (HK-08): The video is a trust deposit. Be genuine, not polished. Show your face, your space, your personality.
 
-## Output
+## Output Schema
 
 **THE OFFER DOC** — Complete, ready-to-publish document containing:
 

@@ -102,7 +102,7 @@ Scale projections:
 
 **Plus retention revenue**: If 60% continue month-to-month, add 60-80% recurring revenue after month 6.
 
-## Output
+## Output Schema
 
 **THE COHORT LAUNCH PLAYBOOK** — Complete operations document containing:
 

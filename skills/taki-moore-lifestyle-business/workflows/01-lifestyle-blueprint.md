@@ -79,7 +79,7 @@ Deploy GP-02 (Anti-Scale-Bro):
 - Create a signature framework or phrase for the user's category
 - Map content to the trust economy (every free piece = trust deposit toward the offer doc withdrawal)
 
-## Output
+## Output Schema
 
 **THE LIFESTYLE BUSINESS BLUEPRINT** — A complete document containing:
 

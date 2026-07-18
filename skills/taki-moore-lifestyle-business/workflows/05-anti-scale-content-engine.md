@@ -105,7 +105,7 @@ For each piece, assess the trust deposit:
 - **Does it make the right people feel seen?** (Not everyone — the RIGHT people)
 - **Does the CTA feel earned?** (Only after sufficient value has been delivered)
 
-## Output
+## Output Schema
 
 **THE ANTI-SCALE CONTENT PACKAGE** — 3-5 complete content pieces containing:
 

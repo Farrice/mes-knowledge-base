@@ -1,0 +1,30 @@
+# Source Ledger — Taki Moore & Tony Bash Lifestyle Business Mastery
+
+## Sources Consulted
+1. `extractions/lifestyle-business-experts/transcript.txt` (63,441 bytes, confirmed via `wc -c`) — raw YouTube auto-caption transcript, Taki Moore & Tony Bash coaching Ali Abdaal, Lifestyle Business Academy (~55 min / 12,668 words per extraction-report.md header). The file is a single unbroken line (`wc -l` reads 0) — read in full via the file-read tool, not line-scanned.
+2. `extractions/lifestyle-business-experts/extraction-report.md` (19,346 bytes, confirmed via `wc -c`) — structured extraction (12 Genius Patterns, 8 Hidden Knowledge items) derived from the transcript above. Read in full.
+3. `skills/taki-moore-lifestyle-business/genius.md` (pre-existing skill content) — quotes cross-checked against extraction-report.md and transcript.txt.
+4. `skills/taki-moore-lifestyle-business/SKILL.md` (pre-existing skill content) — sourcing line: "Taki Moore & Tony Bash coaching Ali Abdaal on Lifestyle Business Academy (YouTube, 2025)."
+
+Fragment search discipline: searched `extractions/` for "taki" and "moore" (no apostrophes/punctuation) and found the dedicated folder directly — no fallback to `_archive/claude-export-2026-07-01.tar.gz` was needed since primary sources exist on disk.
+
+## Claim-by-Claim Verification
+
+| # | Claim / Quote | Label | Basis |
+|---|---|---|---|
+| 1 | "The way you build a lifestyle business is you figure out the life you want first and then build the business around it." (GP-01) | VERIFIED | extraction-report.md L35, verbatim. |
+| 2 | "Do I admire their business? Yeah, maybe. Do I want their life? F*** no." | VERIFIED | extraction-report.md L39, verbatim; substance confirmed in transcript.txt opening segment ("Most of the scale bros are after more more. Do I admire their business? Yeah, maybe. Do I want their life? [ __ ] no."). |
+| 3 | "The lovely thing about a simple doc... people read it and then they get to make their own mind up and then you're not selling, they're buying." (GP-04) | VERIFIED | extraction-report.md L54, verbatim. |
+| 4 | "If I had 150,000 people watching one of my videos, there's no way in hell I'd run sales calls." (HK-03) | LIKELY | Verbatim in extraction-report.md L118. Raw transcript.txt at offset ~31,906 reads "...there's no way in hell I'd run ourselves" — the trailing clause differs, likely an auto-caption artifact or edit cut. The cleaned extraction-report.md phrasing could not be confirmed word-for-word against the raw ASR, so this is downgraded from VERIFIED to LIKELY. The underlying claim (Taki opposes sales calls at audience scale) is independently corroborated in the raw transcript ("Sales calls versus offer doc. I've done hundreds of them."). |
+| 5 | "the value they get is way more from their peers and seeing you coach in a group." (HK-04, Bat Phone) | VERIFIED | extraction-report.md L121, verbatim. Transcript.txt confirms the Bat Phone topic at offset ~18,747 ("we decided to go for the bat phone 101 WhatsApp group support... I love WhatsApp and bat phone as a support angle for people who are self motivating..."). |
+| 6 | "I'd rather them shitty first draft that we can tweak quickly... because they can give you a shitty first draft in an hour or they could spend 3 weeks in their head." (HK-05) | VERIFIED | extraction-report.md L124, verbatim; near-exact match in transcript.txt at offset ~19,819. |
+| 7 | "I feel like you think this is a sales call. No, this is a fit call. I don't care whether you join or not. Our only job right now is to work out, are we even a match?" (HK-06) | VERIFIED | extraction-report.md L127, verbatim; near-exact match in transcript.txt at offset ~52,831. |
+| 8 | "The real point of the guarantee is to guarantee the transaction, not the transformation." (GP-05) | VERIFIED | skills/taki-moore-lifestyle-business/genius.md GP-05 (pre-existing content); transcript.txt confirms near-verbatim at offset ~10,547 ("I think the real point of the guarantee is to guarantee the transaction, not the transformation."). |
+| 9 | "people are like, wait, I don't even know what questions you're asking and you're asking for money." (GP-09) | VERIFIED | extraction-report.md L86, verbatim; transcript.txt confirms at offset ~50,634 ("people are like, 'Wait, I don't even know what questions you're asking me and you're asking me for money.'") — minor pronoun variance ("asking me" vs. "asking"), same substance. |
+| 10 | "Pricing is chalk on a board. Most price objections are in the seller's head, not the buyer's." (HK-01, Cappuccino Rule) | VERIFIED | skills/taki-moore-lifestyle-business/genius.md Hidden Knowledge item 1 (pre-existing content); extraction-report.md L111-112 gives the fuller version ("Walk into a coffee shop, there's a price in chalk..."); transcript.txt confirms the cappuccino/chalk imagery at offset ~6,415. |
+| 11 | Client identity: Ali Abdaal, "4.5M+ subscribers" | UNCONFIRMED | Subscriber count is stated in extraction-report.md L9 but was not independently re-verified against a live external source in this repair pass — reported-by-extraction, not independently confirmed. |
+| 12 | Source dating: "Lifestyle Business Academy (YouTube, 2025)" | LIKELY | Per SKILL.md L28 (pre-existing) and extraction-report.md header; exact upload date is not visible anywhere in the transcript text itself. |
+| 13 | The 12 Genius Patterns (GP-01 through GP-12) and 8 Hidden Knowledge items as a set | VERIFIED | Structural claim — all 12 GP and 8 HK headings in skills/taki-moore-lifestyle-business/genius.md match extraction-report.md's "Genius Patterns" and "Hidden Knowledge" sections one-for-one by title and number. |
+
+## Anti-Patterns Section Provenance
+All 7 items added to genius.md § Anti-Patterns are drawn from the Hidden Knowledge / Genius Pattern quotes verified in rows 4-10 above (each anti-pattern inverts the corresponding HK/GP claim: e.g., HK-03 "sales calls are dead" → anti-pattern "running sales calls when you already have audience trust"). No new quotes were introduced beyond what is tabled above.
