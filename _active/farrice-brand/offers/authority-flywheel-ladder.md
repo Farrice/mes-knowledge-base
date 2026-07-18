@@ -107,3 +107,9 @@ Both experts independently FAILED the Section-6 one-liner above. Farrice's rulin
 ### Fusion round — Farrice verdicts, 2026-07-18 (second pass)
 - **LOCKED — LinkedIn (profile/bio): Fusion A** — "You already have the expertise — I turn your voice memos into posts that sound like you, so clients come to you without you writing a word or hiring a ghostwriter to fake it." His why: one sentence, cold reader understands exactly what they're getting; clarity + articulated outcome, universally legible.
 - **Fusion B → ad hook / Instagram-tier surfaces, PENDING REVISION.** His critique (the revision brief): "your expertise is already enough" is vague; too much abstraction; only lands IF the reader already frames their problem as needing-a-ghostwriter/AI-systems — not universally applicable. Fix: concrete situation + outcome at scan speed, zero prior context required.
+
+### FINAL — Fusion B revision verdicts, Farrice 2026-07-18
+- **LOCKED 1A — ad hook / Instagram-tier: B2** — "You talk into your phone. I turn it into posts that bring clients to you — in your voice, no writing, no ghostwriter." (his why: visual instant know-how)
+- **1B backup — B3** — "Great at coaching, blank at the keyboard? Your voice memos become client-pulling posts — in your voice, not a ghostwriter's." (widest net, slightly wordy — rotate/test against B2)
+- B4 killed: too fast, warm-audience-only.
+- **The complete surface set**: LinkedIn bio = Fusion A · About/landing = Dunford line · ad/IG = B2 (B3 rotation) · all subject to 2-4 weeks live-conversation validation before "final."
