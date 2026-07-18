@@ -2,6 +2,20 @@
 
 The philosophy doc. Read this when the SKILL.md isn't enough — when you need to understand *why* the design choices are what they are, not just what to execute.
 
+---
+
+## How to Use This Skill (Model Calibration)
+
+The four phases are load-bearing tool calls, not a narrative frame to gesture at. If the output narrates "loading anchor memory" and "checking the cost gate" in confident prose without the actual `anchor_memory.py` / `cost_gate.py` / `anchor_verify.py` invocations underneath, the mission has failed — regardless of how fluent the phase-by-phase narration reads. The test: would a careful reviewer recognize this as a real Supercomputer mission — anchors that literally propagate the earlier deliverable's actual terms into later prompts, dollar figures pulled from a real SERVICES lookup — or as a task list wearing Supercomputer vocabulary (four phase headers, the word "anchor" used once, a plausible-sounding dollar figure that was never looked up)? If it's the second, rebuild before shipping.
+
+Specifically:
+- Do NOT print the Mission Plan banner and then skip straight to output. "Proceed? (y / adjust / cancel)" is a real gate, not a stage direction — wait for the explicit approval.
+- Do NOT invent a cost estimate. Every dollar figure traces to `execution/cost_gate.py`'s SERVICES dict or an actual `creative_router.py` route call — a plausible "$0.75" that wasn't looked up is the single most common Supercomputer failure mode, and it is exactly the failure this skill exists to prevent: "Our cost gate shows USD. That alone is a moat" only holds if the USD figure is real.
+- Do NOT skip Phase 3 because the deliverables "look" coherent. `anchor_verify.py` scoring is the only thing separating a Supercomputer mission from "ChatGPT + image gen plugged in" — a mission that never runs the verifier hasn't earned the label no matter how good the prose reads.
+- Polish is the tell here in a specific way: a mission that narrates all four phases smoothly, in order, with confident phase headers, but never actually shells out to `anchor_memory.py`, `cost_gate.py`, or `anchor_verify.py` has reproduced the exact "credit math obscures actual spend" failure this system was built to route around — self-inflicted instead of vendor-inflicted.
+
+---
+
 ## The Single Thesis
 
 **Higgsfield Supercomputer is not a novel AI architecture. It is a UX pattern.**
@@ -65,6 +79,17 @@ Higgsfield's UGC ad workflow stitches multiple Seedance clips together. Each cli
 Our `creative_router.py` defaults multi-shot video signals to Kling v3 Pro instead, because Kling generates multi-shot natively in one pass. For single-take cinematic, Seedance 720p is fine. The router note on the Seedance rule explicitly warns: "Audio NOT consistent across multi-clip stitches — use single-take only."
 
 This kind of constraint encoding is what taste looks like in code. Don't strip these notes when refactoring.
+
+## Anti-Patterns (Sourced)
+
+Every item below is a real, dated failure or rule — pulled from this skill's own build history and its production trace log, not inferred from general orchestration theory.
+
+- Batch-finalizing collapses the mission's real quality signal — the Resonance launch mission's five deliverables were finalized in five separate `chain_runner.py` calls one minute apart on 2026-05-25 (`evolution_store/v2_traces/trace_20260525_232154_supercomputer.json` through `trace_20260525_232226_supercomputer.json`), each carrying its own anchor id ("Anchor-004" through "Anchor-010") and its own adversarial score — batch them into one call and that per-deliverable signal disappears.
+- Anchor propagation must be verified, not assumed — this file's own Open Questions log records the fix, dated 2026-07-09 (Wave 2): "`execution/anchor_verify.py check --anchor <path> --targets <paths>` grep-detects anchor key-term coverage in dependent deliverables and scores propagation 1-10" — before that date, Phase 3 was aspirational language with no enforcement mechanism behind it.
+- Never silently bypass a cost-gate denial — `directives/supercomputer-mode.md` (dated 2026-05-28, the skill's build commit) states the rule flatly on one line: "Never silently re-route. Never silently skip. Always surface the choice." — swapping a cheaper model on a denial without asking violates this the moment it happens.
+- Never substitute a model the user didn't approve — `SKILL.md`'s own Anti-Patterns list (same 2026-05-28 build, last touched 2026-07-13) states it as a standalone rule: "If the user approved Seedance and you'd prefer Kling, ASK — don't substitute." — this is the Higgsfield audio-drift fix turned into a consent rule, not a silent routing upgrade.
+- A retry-once policy only works if the retry fixes the actual failure — two consecutive `daily-zeitgeist-brief` supercomputer traces on 2026-07-01 (`evolution_store/v2_traces/trace_20260701_063818_supercomputer.json` and `trace_20260701_063839_supercomputer.json`) both scored `intent_alignment: 4.0` even though the second run's own notes say "Retry after intent-alignment receipt patch" — the retry fixed the receipt, not the alignment, and the mission shipped at the same broken score anyway.
+- Reimplementing an existing skill inside the mission workflow defeats the composition model — `SKILL.md`'s Anti-Patterns item 3 states it plainly: "If `/parallax` exists, you compose it; you don't rewrite its logic inside the supercomputer workflow." — every layer in the Composes table exists precisely so this orchestrator never needs its own copy of another skill's logic.
 
 ## When to Break the Pattern
 
