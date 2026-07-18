@@ -30,7 +30,7 @@ Use when the user needs a video script for short-form content, VSL sections, fou
 5. **Add shot notes**: Suggest visuals that support the story without distracting.
 6. **Prepare stacking handoff**: If production is needed, hand the script to PJ, Tao, Remotion, or `/create-video`.
 
-## Output
+## Output Schema
 
 Produce a **Video Script Package**:
 

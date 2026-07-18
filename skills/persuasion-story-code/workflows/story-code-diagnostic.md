@@ -29,7 +29,7 @@ Use when the user has raw material, an offer, a draft, a launch, a sales page, a
 5. **Prioritize**: Rank the top stories by business impact and ease of creation.
 6. **Specify placement**: Place each story in the asset: opening, proof block, CTA lead-in, FAQ, sales call answer, email, post, or video beat.
 
-## Output
+## Output Schema
 
 Produce a **Story Opportunity Map**:
 

@@ -30,7 +30,7 @@ Use when the user needs one finished persuasion story for a post, email, sales c
 6. **Adapt to channel**: Shape for post, email, pitch, sales page, DM, or video.
 7. **Audit**: Remove inconsistency, vagueness, exaggeration, and stiff language.
 
-## Output
+## Output Schema
 
 Produce:
 

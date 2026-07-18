@@ -31,7 +31,7 @@ Use when the user has a result, testimonial, customer note, proof point, or clie
 5. **Add credibility frame**: Proof, permission, caveat, context, and qualification.
 6. **Create channel versions**: Sales page, short post, email, video, pitch, and testimonial block.
 
-## Output
+## Output Schema
 
 Produce a **Proof Story Package**:
 

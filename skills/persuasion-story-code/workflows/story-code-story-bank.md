@@ -31,7 +31,7 @@ Use when the user wants a durable library of stories for content, sales, launche
 5. **Flag evidence gaps**: Note where proof, permission, numbers, or customer approval is needed.
 6. **Prioritize creation**: Pick the highest-value missing stories.
 
-## Output
+## Output Schema
 
 Produce a **Reusable Story Bank**:
 

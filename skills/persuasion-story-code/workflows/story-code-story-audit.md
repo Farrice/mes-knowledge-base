@@ -29,7 +29,7 @@ Use when a story, post, email, page section, video script, or pitch feels flat, 
 5. **Rewrite**: Produce a corrected version that keeps truth and improves persuasion.
 6. **Explain only the useful fixes**: Keep diagnosis concise and practical.
 
-## Output
+## Output Schema
 
 Produce a **Story Diagnosis + Rewrite**:
 

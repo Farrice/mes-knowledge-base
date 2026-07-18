@@ -29,7 +29,7 @@ Use when the user needs sales copy sections that persuade through story: lead, o
 4. **Add bridges**: Connect story to offer without heavy explanation.
 5. **Flag claims**: Mark proof gaps, regulated claims, or testimonial permissions.
 
-## Output
+## Output Schema
 
 Produce **Sales Story Sections**:
 

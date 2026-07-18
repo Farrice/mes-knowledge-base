@@ -29,7 +29,7 @@ Use when the user needs story-led conversion assets: sales page, email, funnel, 
 4. **Sales psychology layer**: Convert objections into self-persuasion moments where appropriate.
 5. **Perception layer**: Reframe value and alternatives when price or category comparison is the issue.
 
-## Output
+## Output Schema
 
 Produce a **Conversion Story System**:
 

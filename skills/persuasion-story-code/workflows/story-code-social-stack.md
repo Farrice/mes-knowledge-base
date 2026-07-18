@@ -29,7 +29,7 @@ Use when the user wants persuasive story content built for LinkedIn, X, Instagra
 4. **Platform layer**: Adapt length, pacing, line breaks, hook, CTA, and series potential.
 5. **Variant layer**: Produce different versions by story job.
 
-## Output
+## Output Schema
 
 Produce a **Platform Story System**:
 

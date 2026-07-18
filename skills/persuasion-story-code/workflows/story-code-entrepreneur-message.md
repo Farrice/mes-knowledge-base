@@ -30,7 +30,7 @@ Use when the user needs a founder message, offer message, pitch, launch angle, p
 5. **Create channel version**: Shape for the requested asset.
 6. **Add proof prompts**: Mark where metrics, screenshots, testimonials, or demos should be inserted.
 
-## Output
+## Output Schema
 
 Produce a **Story-Led Message System**:
 

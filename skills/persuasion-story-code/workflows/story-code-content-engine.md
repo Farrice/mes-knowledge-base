@@ -30,7 +30,7 @@ Use when the user needs written content: LinkedIn posts, X threads, Instagram ca
 5. **Add content mechanics**: Hook, story body, bridge, proof, CTA, and repurposing notes.
 6. **Create variations**: Produce versions with different story jobs when useful.
 
-## Output
+## Output Schema
 
 Produce a **Written Content Package**:
 

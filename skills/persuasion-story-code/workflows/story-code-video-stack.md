@@ -29,7 +29,7 @@ Use when the user wants persuasive video content, ads, product demos, founder vi
 4. **Production layer**: Package script, shot list, on-screen text, and edit notes for the next tool.
 5. **Distribution layer**: Create cutdowns and hooks for short-form platforms.
 
-## Output
+## Output Schema
 
 Produce a **Video Story Production Brief**:
 
