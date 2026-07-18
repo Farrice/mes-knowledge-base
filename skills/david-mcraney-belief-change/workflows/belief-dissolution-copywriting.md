@@ -342,6 +342,16 @@ Permission Stack:
 
 ---
 
+## Output Schema
+
+**Deliverable**: One finished copy piece (in the format the user requested — post, email, script, page) assembled from the cascade or single-belief section table above — never the phase worksheets themselves.
+
+- **Structure**: Hook → Shared Experience → Process Question → (Cascade Reveal | Dissonance Gap) → Face-Saving Bridge → New Framework → Permission CTA, in that order, with section labels removed from the final draft (the reader never sees "Hook:" or "Phase 3:" in the delivered copy).
+- **Provenance line**: One line beneath the draft naming which keystone/blocking belief it dissolves and which phase outputs it drew from — for downstream `/accommodation-audit` and `/slop-check` handoff.
+- **Length**: Matches the requested format's native length (a LinkedIn post is not a sales page) — no filler beats added to hit a word count.
+
+---
+
 ## Quality Gate
 
 | Test | Question | Pass? |

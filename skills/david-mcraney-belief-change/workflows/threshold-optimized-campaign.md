@@ -254,6 +254,16 @@ Target: Flip [binding constraint variable] by [X] points
 
 ---
 
+## Output Schema
+
+**Deliverable**: A Campaign Summary (Phase 5 block: Story in One Sentence, Threshold Shift Prediction, Sequence Map, Anti-Patterns) sitting on top of the full Campaign Architecture (Phase 3) and per-touchpoint Content Briefs (Phase 4) — the summary is a front door, not a replacement for the architecture beneath it.
+
+- **Structure**: Threshold Analysis (Phase 2) → Campaign Architecture branch matched to the binding constraint (Evidence/Social-Identity/Trust/Uncertainty, Phase 3) → Content Briefs (Phase 4, one per touchpoint) → Campaign Summary (Phase 5).
+- **Numeric consistency**: The Threshold Shift Prediction's before/after Driver-Resistor gap must match the binding constraint identified in Phase 2 — a summary predicting a shift in a variable the architecture never targeted fails the Binding Constraint Accuracy gate.
+- **One variable per touch**: Each Content Brief must name exactly one variable it moves — campaigns that shift multiple variables per touchpoint fail the Quality Gate below.
+
+---
+
 ## Quality Gate
 
 | Test | Question | Pass? |

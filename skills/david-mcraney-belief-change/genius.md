@@ -4,6 +4,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These 26 patterns are intuition primitives, not a diagnostic checklist to march through in order. Absorb them, then reason from them. If the output enumerates "Pattern 5: Social Death Calculation" or narrates which Hidden Knowledge item it's applying, you have failed — McRaney's own delivery never announces its own psychology mid-conversation. The test: would McRaney recognize this as someone genuinely curious about how a reasonable person arrived at their belief — or as someone running a manipulation script dressed in his vocabulary? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label sections "here's the accommodation trigger" or "here's the face-saving bridge." Build the moment; never name the machinery on the page.
+- Do NOT open with an argument, however well-evidenced. Hidden Knowledge #1 is explicit that the better the argument, the more it gets assimilated rather than accommodated — lead with a question, an experience, or genuine curiosity instead.
+- McRaney's texture is warm, patient, and specific — he reaches for a named research finding or a lived scenario, never a vague appeal to "psychology says." Unearned confidence is the tell-class failure here, the same way unearned polish is for a ghostwriter: it reads as a persuasion technique, and a technique rebuttal ("you're trying to manipulate me") is exactly what a savvy reader gives back to technique-flavored output.
+- Never fabricate the 30% empirical calibration or any social-death score as a precise measured number pulled from thin air — it is a diagnostic anchor for reasoning about evidence-versus-cost tradeoffs, not a statistic to cite as if it were measured in this specific case.
+
 ## Genius Patterns
 
 ## 1. The Resistance Hierarchy
@@ -14,6 +24,8 @@
 **Deploy When**: Planning any persuasion, copy, or change campaign.
 
 **Success Metric**: You can name the precise belief type and choose the correctly-matched intervention.
+
+**Example**: A prospect who says "your pricing model doesn't work for teams like mine" is contesting a fact (update it with a case study); a prospect who says "tools like this aren't for people like us" is contesting identity — no case study moves that, only an identity bridge does.
 
 ---
 
@@ -47,6 +59,8 @@
 **Deploy When**: When someone holds a belief that seems immune to evidence — the belief is downstream of a processing chain you haven't mapped yet.
 
 **Success Metric**: You can narrate exactly how someone arrived at their position, step by step, before you attempt to change it.
+
+**Diagnostic Question**: "What happened to them that made this feel true?" — the same probe that opens Emotional Sediment Mapping (Pattern 17), aimed backward at the origin experience instead of at the current belief.
 
 ---
 
@@ -136,6 +150,8 @@
 
 **Success Metric**: Your intervention addresses the layer where the problem actually lives, not just the symptom.
 
+**Diagnostic Questions**: "What does this mean about who I am?" surfaces Layer 3 (Identity); "Who else needs to agree with me for this to be okay?" surfaces Layer 4 (Social).
+
 ---
 
 ## 13. The Threshold Equation
@@ -181,6 +197,8 @@
 **Deploy When**: The total belief shift required is too large for a single piece of content, conversation, or touchpoint.
 
 **Success Metric**: Each stage has a specific, measurable belief shift goal and the sequence produces compound belief change.
+
+**Calibration Note**: Size each stage's shift near the neutral-condition 30% threshold (Pattern 13) — three or four properly-sized shifts outperform one 70-80%+ push that only works once social cost is already near zero.
 
 ---
 
@@ -270,6 +288,8 @@
 
 **Success Metric**: You can name which route is active for your specific audience on your specific topic, and your messaging strategy matches that route.
 
+**Example**: A reader weighing a $50 supplement claim with no personal stake and no time to research is peripheral-route on both conditions — lead with credibility cues (reviews, third-party badges), not a randomized-trial citation nobody will read past the abstract.
+
 ---
 
 ## 25. Rebuttal Type Detection
@@ -310,6 +330,8 @@
 
 **Deploy When**: Someone agrees with you privately but won't change publicly, or when group dynamics override individual reasoning.
 
+**Example**: A team member says "you're right, the data supports it" in a private conversation but stays silent when the same question comes up in the group meeting — logical agreement with zero public follow-through, because public agreement spends social capital that private agreement doesn't.
+
 ---
 
 ## 3. The Three Methodologies Are Convergent
@@ -318,6 +340,8 @@
 **Why Others Miss This**: Each methodology exists in its own silo — philosophy, politics, and clinical psychology. McRaney is the only source that synthesizes them into a unified theory. Using just one approach misses the compound advantage.
 
 **Deploy When**: Designing any change intervention — draw from all three methodologies simultaneously.
+
+**Example**: A philosopher running Street Epistemology, a canvasser running Deep Canvassing, and a therapist running Motivational Interviewing would each open with a version of the same question — "How did you come to think that?" — despite never having read each other's work.
 
 ---
 
@@ -337,6 +361,8 @@
 
 **Deploy When**: Audience research, customer interviews, or any context where you need to know what people actually think vs. what they say they think.
 
+**Example**: A focus group of ten people will nod along with whoever speaks first and most confidently; the same ten people interviewed one-on-one often reveal a near-opposite private consensus — this is why "Focus groups are especially bad — people perform for each other."
+
 ---
 
 ## 6. Change Happens in the Pause, Not the Pitch
@@ -346,6 +372,8 @@
 
 **Deploy When**: After asking a reflective question, after naming an emotion, or after a pattern interrupt. COUNT — 3 full seconds minimum.
 
+**Example Cue**: After asking "What's the story behind how you arrived at this conclusion?" — count 3 full seconds of silence before speaking again. Per this file's own framing above: "the hardest skill isn't what to say — it's learning when to stop talking."
+
 ---
 
 ## 7. Beliefs Are Load-Bearing Structures
@@ -354,6 +382,8 @@
 **Why Others Miss This**: Most persuasion targets individual beliefs as if they're modular. McRaney shows they're structural. You can't remove a load-bearing belief without either replacing it with something equally strong or restructuring the entire system it supports.
 
 **Deploy When**: Someone's attachment to a belief seems disproportionate to the belief itself — the belief is probably load-bearing, supporting identity, relationships, or worldview.
+
+**Example**: A team member who's spent years building a process defends it disproportionately not because the process is good, but because letting it go would also collapse the professional identity — "the person who owns this" — built around it.
 
 ---
 
@@ -373,6 +403,8 @@
 
 **Deploy When**: Always. Every persuasion attempt should lead with emotional validation before any argument.
 
+**Example**: Opening a disagreement with "Here's the data" activates threat before the content ever lands; opening with "That sounds like it's been frustrating" opens the cognitive gate first — same information, opposite order, opposite outcome.
+
 ---
 
 ## 10. The Map Is Not the Territory — And People Know It
@@ -381,6 +413,8 @@
 **Why Others Miss This**: Persuaders assume the problem is epistemic (they don't KNOW the truth). McRaney shows the problem is usually economic (they DO know, but the cost of updating is too high). Reduce the cost of updating and change becomes easy.
 
 **Deploy When**: Someone seems to "know" your position is right but won't change — this is an economic problem, not an epistemic one. Reduce the cost.
+
+**Example**: A smoker who says "I know it's bad for me" already has the accurate map — the barrier isn't information, it's that updating behavior costs identity, routine, and social ties the map never priced in.
 
 ---
 
@@ -410,6 +444,16 @@
 **Deploy When**: Use as a diagnostic. If you've presented 30%+ counter-evidence and nothing's changing, the problem isn't epistemic — it's economic. Switch from evidence delivery to cost reduction (social safety, identity bridging, face-saving narratives).
 
 ---
+
+## Anti-Patterns (Sourced)
+
+- **Never lead with your best argument.** Hidden Knowledge #1 (`references/hidden-knowledge.md`) documents that stronger arguments trigger stronger assimilation, not accommodation: "The better your argument, the *more* the other person assimilates it into their existing framework without changing."
+- **Don't fill the silence after a reflective question.** Per Hidden Knowledge #6 (`references/hidden-knowledge.md`), genuine belief change happens in the pause, not the pitch — McRaney's deep canvassers and MI practitioners learn "the hardest skill isn't what to say — it's learning when to stop talking."
+- **Don't open a change conversation with "why do you believe X?"** — a content question that triggers defensive justification. The Spencer Greenberg interview notes (`references/spencer-greenberg-interview-notes.md`, item 3, "Metacognition as Master Mechanism") specify that process questions like "how did you arrive at this?" activate metacognition instead, while content questions trigger defense.
+- **Don't respond to a technique rebuttal with more evidence, or a topic rebuttal with more transparency about method.** The Spencer Greenberg interview notes (`references/spencer-greenberg-interview-notes.md`, item 2, "Technique Rebuttal vs Topic Rebuttal") record: "Transparency fixes technique rebuttals but looks desperate on topic rebuttals. Evidence fixes topic rebuttals but confirms suspicion on technique rebuttals."
+- **Don't keep stacking counter-evidence once you've crossed roughly 30% of existing belief strength in a high-social-cost context.** The interview notes' "30% Tipping Point" item (`references/spencer-greenberg-interview-notes.md`) states the operational implication directly: "If you've hit 30% evidence and nothing's changing, STOP adding evidence. The barrier is social/identity cost, not information deficit."
+- **Don't remove a load-bearing belief without offering a replacement.** Hidden Knowledge #7 (`references/hidden-knowledge.md`) warns that beliefs support other beliefs "like load-bearing walls in a building," and "you can't remove a load-bearing belief without either replacing it with something equally strong or restructuring the entire system it supports."
+- **Don't mistake group-setting agreement for genuine private belief.** Hidden Knowledge #5 (`references/hidden-knowledge.md`) flags that "Focus groups are especially bad — people perform for each other" — only private, zero-consequence conversation reveals what someone actually holds.
 
 ## Hall of Fame Exemplars
 

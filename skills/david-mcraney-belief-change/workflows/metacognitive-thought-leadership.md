@@ -221,6 +221,16 @@ Write the full content piece using the architecture from Phase 4.
 
 ---
 
+## Output Schema
+
+**Deliverable**: One finished thought-leadership piece built from the Phase 4 platform architecture, carrying its metacognitive question and surprise element as load-bearing structure, not decoration.
+
+- **Structure**: Opens with a process question (Phase 2A) inside the first 25% of the piece, contains the surprise element (Phase 3) as the model-breaking moment, and closes per the platform-specific architecture chosen in Phase 4.
+- **Verification checklist**: The five "During Drafting, Verify" checks above travel WITH the draft as a pass/fail checklist attached beneath it — not silently self-certified.
+- **Length**: Native to the platform architecture selected in Phase 4 (a LinkedIn post and a newsletter essay do not share a target length).
+
+---
+
 ## Quality Gate
 
 | Test | Question | Pass? |

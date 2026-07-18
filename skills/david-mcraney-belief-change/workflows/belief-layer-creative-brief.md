@@ -269,6 +269,16 @@ To: "[desired belief/position]"
 
 ---
 
+## Output Schema
+
+**Deliverable**: The full six-section Belief-Layer Creative Brief document (Sections 1-6 assembled in order) — the master intelligence artifact, not a subset.
+
+- **Structure**: Sections 1-5 use their own numbered sub-schemas (1.1-1.3, 2.1-2.3, 3.1-3.4, 4.1-4.4, 5.1-5.6) exactly as specified above; Section 6 (Executive Summary) is the only section allowed prose paragraphs.
+- **Citations**: Every belief claim, social score, and processing-route classification in Sections 1-4 carries a source citation (quote, post, review, or research note) — uncited claims fail the Quality Gate's Research Depth test below.
+- **Handoff format**: Delivered as a single Markdown document with the Section headers preserved verbatim, since seven downstream workflows (listed in Integration) parse it by section number.
+
+---
+
 ## Quality Gate
 
 | Test | Question | Pass? |

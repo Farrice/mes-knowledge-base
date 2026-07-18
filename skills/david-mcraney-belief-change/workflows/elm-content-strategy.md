@@ -210,6 +210,16 @@ Map content types to platforms using the route matrix:
 
 ---
 
+## Output Schema
+
+**Deliverable**: A Weekly Content Architecture calendar (the Phase 4 table) preceded by the Processing Route Map (Phase 1) and Mismatch Diagnosis (Phase 2) that justify it — never a calendar without the route diagnosis behind it.
+
+- **Structure**: Route Map table → Mismatch Diagnosis → Content Prescriptions by Platform (one block per platform, route-labeled) → Weekly Content Architecture table (Day | Platform | Route | Content Type | Purpose).
+- **Non-negotiable**: Every calendar row's Route column must match a diagnosed route from Phase 1 — a platform assigned a route it wasn't diagnosed for fails the No Mismatches gate below.
+- **No repurposing**: Each platform's prescription is a native version for its diagnosed route, not the same content reformatted — this is scored explicitly in the Quality Gate.
+
+---
+
 ## Quality Gate
 
 | Test | Question | Pass? |

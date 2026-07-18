@@ -199,6 +199,16 @@ For every section, verify:
 
 ---
 
+## Output Schema
+
+**Deliverable**: One finished copy piece assembled per the Phase 5 architecture (Hook → Problem/Story → Bridge → Solution/Mechanism → Proof Section → CTA), ready to run through the Phase 6 accommodation test below.
+
+- **Structure**: Six labeled beats in order, each carrying the pattern it executes (surprise, metacognitive activation, face-saving narrative, staged revelation, prescribed proof types, permission-matched CTA) — but the labels themselves never appear in the delivered copy.
+- **Proof fidelity**: Every proof element in the Proof Section must match the Phase 4 prescription exactly (type AND sequence) — substituted or reordered proof fails Phase 6's Rebuttal Defense test.
+- **Format**: Matches the format requested in Inputs (ad, email, page, script) — the six-beat structure adapts length and beat-weight to that format, never forces a sales-page length onto a 150-word ad.
+
+---
+
 ## Phase 6: Accommodation Audit (Quality Gate)
 
 **Uses**: Pattern 2 (Accommodation Detection), HK 12

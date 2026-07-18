@@ -192,6 +192,16 @@ For every claim in the copy:
 
 ---
 
+## Output Schema
+
+**Deliverable**: One proof-fortified copy draft with every claim visibly matched to its resistance-type-appropriate proof — the Phase 2/3 prescription made concrete in running copy, not a separate proof list.
+
+- **Structure**: Proof braided into the existing or newly-written copy per Phase 4's Proof Braiding check — no "Proof:" labels in the final draft; proof reads as native to the copy.
+- **Traceability line**: One line beneath the draft naming the diagnosed resistance type (technique/topic/sunk-cost) and the proof types deployed against it, for the Quality Gate's Type Match check.
+- **Anti-backfire discipline**: Proof types the diagnosis flagged as backfiring for this resistance type must be verifiably absent — not just unmentioned in the summary.
+
+---
+
 ## Quality Gate
 
 | Test | Question | Pass? |

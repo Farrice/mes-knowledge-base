@@ -281,6 +281,16 @@ For each touchpoint, produce a content brief:
 
 ---
 
+## Output Schema
+
+**Deliverable**: A full multi-touchpoint Campaign Map (Phase 5 table) plus one Content Brief per touchpoint (Phase 6 blocks) — the map alone is a plan, the briefs make it executable.
+
+- **Structure**: Campaign Map table (# | Touchpoint | Pattern | Format | Key Message | Success Signal) followed by one Touchpoint block per row, each carrying Objective, Format, Key Message, Accommodation Design (Surprise/Relevance/Safety), Proof Type, Anti-Pattern, and Transition.
+- **Social-cost discipline**: Every touchpoint's Proof Type must be matched to social, not evidence, cost when the binding constraint is social — evidence-heavy proof on a social-cost touchpoint fails the campaign's own design logic.
+- **Sequencing**: Each Touchpoint's Transition field must name specifically what the next touchpoint builds on — a campaign map with unconnected touchpoints is not a sequence.
+
+---
+
 ## Quality Gate
 
 | Test | Question | Pass? |

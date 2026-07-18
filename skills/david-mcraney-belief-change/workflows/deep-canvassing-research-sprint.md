@@ -285,6 +285,16 @@ For each critical belief, calculate:
 
 ---
 
+## Output Schema
+
+**Deliverable**: One Belief Architecture Document — the Phase 5 output block (Threshold Equations, 30% Calibration, Minimum Viable Interventions, Strategic Recommendations) with Phases 1-4's tables carried forward as appendices, not discarded.
+
+- **Structure**: Five phase blocks in sequence (Research Corpus → Belief Classification → Processing Chains → Social Death Calculation → Threshold Analysis), each using the exact table/list schema shown in its own Output block above.
+- **Grounding requirement**: Every belief statement, resistance quote, and social score traces to a specific Perplexity research finding or Input source — a belief with no citation is not eligible for the Threshold Equation.
+- **Consumers**: This document is the standalone research foundation for `/belief-creative-brief`, `/persuasion-copy`, and `/threshold-campaign` — it must be complete enough that none of those workflows need to re-run research.
+
+---
+
 ## Quality Gate
 
 | Criterion | Question | Pass? |

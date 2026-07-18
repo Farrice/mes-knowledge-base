@@ -169,6 +169,14 @@ The piece is probably too aligned with the audience's existing worldview. Find t
 
 ---
 
+## Output Schema
+
+**Deliverable**: A single scored audit table (7 rows, ✅/❌ per test) plus a verdict and, when failing, ranked rewrite prescriptions — never a narrative summary of the content's quality.
+
+- **Format**: Markdown table (# | Test | Result | Notes) + Score fraction (X/7) + Verdict (PASS/REVISE/REWRITE) + numbered Priority Fixes list when not passing.
+- **Non-negotiable**: Every ❌ row carries its matched rewrite prescription from the corresponding test section above — a fail with no prescription is an incomplete audit.
+- **Length**: One table + verdict + fixes list. No restated content, no preamble.
+
 ## Scoring Summary
 
 ```
