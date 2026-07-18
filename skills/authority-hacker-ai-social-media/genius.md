@@ -4,6 +4,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These twelve patterns are intuition primitives, not a twelve-step checklist. Internalize them, then produce content the way Gael Breton and Mark Webster actually work — packaging one human insight into an emotional hook — never running a "Pattern 1, Pattern 2..." pass over a draft. The test: would Gael Breton recognize this as his own — a post that leads with feeling and buries value below the fold — or would he flag it as generic social-media-strategy prose borrowing his framework's name? If it reads like the second, rebuild from the emotional core, not the checklist.
+
+Specifically:
+- Do NOT label sections "here's my duality hook" or "here's the imperfection pass" in the output. Execute the move — never announce the machinery on the page.
+- Do NOT run all twelve patterns on every deliverable. Breton's own production workflow leans on 3-5 patterns per post depending on platform and goal; forcing all twelve into one piece produces the over-engineered, template-y feel his Imperfection Engineering pattern (Pattern 8) exists to prevent.
+- Polish is the tell-class warning. Breton's stated method is to take a clean AI draft and deliberately make it *rougher*: "I almost have it introduce clunky language sometimes," because "you don't want to sound like AI" (transcript.txt). A submission that reads as tight, symmetrical, and fully resolved has failed his actual test, however well-organized it looks on the page.
+- His texture is data-literate and blunt, not motivational. He talks in "122K views, 6K saves" (extraction-report.md executive summary), CTR deltas, and $0.17-per-image line items — never "unlock your potential." Ground every claim in a number or a named mechanic, not a platitude.
+
 ## Genius Patterns
 
 ## 1. Emotion-First Content Architecture
@@ -207,6 +217,19 @@
 **Why Others Miss This**: Every editing instinct says "make it better, tighter, more polished." But on social media, polish = suspicion. Raw = trust. The friction of imperfect language creates reader intimacy.
 
 **Deploy When**: Final pass on any organic social content. NOT for ads, formal copy, or professional documents. This is specifically for building authentic personal presence.
+
+---
+
+## Anti-Patterns
+
+Sourced to Gael Breton & Mark Webster's Authority Hacker AI Social Media podcast transcript (`extractions/ai-social-media-panel/transcript.txt`) and the accompanying extraction report (`extractions/ai-social-media-panel/extraction-report.md`). Six moves their own methodology explicitly rejects — never deploy these under this skill's name.
+
+- **Auto-Reply Bot Spam**: Programmatic, zero-effort replies fired across threads to farm impressions. Breton, on the podcast transcript: "they auto reply on threads, complete useless stuff as well... It's like this is an automated reply. It just repeats what I said in the post and say, 'Oh my god, this is great.'" He names the underlying motive "this is this fantasy of like, oh, if I get rich" off content that "literally has no value." X's own product lead responded with what the hosts call "operation kill the bots," restricting programmatic reply access below the enterprise tier — Breton: "restricted in the API... start like 50k a month" — specifically to shut this pattern down. (Source: transcript.txt)
+- **Generic "How-To" / Listicle Posts**: Purely informational "5 tips" content that a chatbot answers better than any post could — see this skill's own Anti-Exemplar below ("How to Boost Your Social Media Engagement in 5 Easy Steps"). Grounded in Hidden Knowledge #1, "Information Is Dead on Social Media" (extraction-report.md): "AI chatbots give better answers than any social media post could... A shitty social media post teaching something is inferior to typing the same question into ChatGPT."
+- **All-Polish, Zero-Roughness AI Output**: Shipping a clean, symmetrical AI draft with no humanization pass. Breton's counter-instruction, verbatim from the podcast transcript: "I almost have it introduce clunky language sometimes," because "you don't want to sound like AI." Polished output is explicitly the failure mode Imperfection Engineering (Genius Pattern 8) exists to correct.
+- **Chasing Traffic Instead of Revenue**: Optimizing for reach/impressions as the success metric. Hidden Knowledge #2, "Traffic ≠ Money" (extraction-report.md): "Authority Hacker generated hundreds of thousands of leads per month and found no correlation between traffic and revenue. Lower traffic periods often produced higher revenue."
+- **Batch-Generating Multiple Posts in One Chat Thread**: Writing 3+ posts back-to-back in a single conversation. Hidden Knowledge #5, "The Sub-Agent Variety Trick" (extraction-report.md): "When Claude Code (or any LLM) writes multiple posts in one conversation thread, they converge in tone, structure, and length." Breton's fix is isolated sub-agents per post, documented in Genius Pattern 7.
+- **Posting Mediocre Content Just to "Stay Consistent"**: Publishing a low-effort post to hit a cadence goal. Breton's own weekly audit flags this directly on the podcast transcript, describing one underperforming post: "there was no value added wasn't that good." Hidden Knowledge #4, "Platform Algorithm Memory" (extraction-report.md), states the cost: "If you publish low-quality AI posts that get low engagement, your next high-quality post gets suppressed... every bad post doesn't just underperform — it damages your future reach."
 
 ---
 
