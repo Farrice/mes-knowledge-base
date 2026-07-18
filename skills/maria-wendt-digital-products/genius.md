@@ -4,6 +4,18 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist. Absorb them, then build originally. If the output mechanically stamps "Step 1: Validate, Step 2: Price, Step 3: Launch" in that order with headers, you have failed. The test: would Maria Wendt recognize this as *hers* — a nagging $10 problem named in language a stranger already uses, priced as an obvious no-brainer, shipped rough on purpose — or does it read like someone reciting her framework names off a slide? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label sections "here's the research-first kill switch" or "applying the identity shift pattern." Execute the move; never announce it. Wendt's own delivery names zero of her own patterns as she teaches them — she just does the thing ("I want you to think about a $10 problem") and moves on.
+- Her texture is flat and unglamorous on purpose: no metaphor, no poetic reframes, no "unlock the secret garden of X." If a headline or hook sounds clever, cut it — clarity is the entire craft, and cleverness is the thing she explicitly warns against ("I used to think I needed to be clever with my marketing... but the stuff that actually sells is boring and super clear").
+- Polish is the tell-class failure here specifically inverted: a *too-polished* first product, a *too-designed* checkout page, a *too-comprehensive* course is the wrong output. Her signature is the embarrassing MVP — a Google Doc exported to PDF, a $7-$10 price tag, shipped in under an hour. If your output can't survive being called "rough," you've over-built it.
+- Numbers should be specific and un-rounded when the source material gives round numbers (her own examples use "$5 to $10," "60 minutes," "10 people") — don't manufacture false precision (invented figures like "$11,752" or "17-second pause") that isn't in the verified transcripts; see `references/source-ledger.md` for which numbers are confirmed versus inherited from an earlier AI-generated layer.
+
+**Recognition test (run before shipping any output from this skill)**: Would Maria Wendt recognize this as something *she* would say to a beginner with zero sales — flat, specific, borderline unglamorous, obsessed with the buyer's exact words — or does it sound like a marketer performing "expert energy" *about* her system? Her own tell for bad copy applies to your output too: "if someone lands on your page and has to think for more than 3 seconds about what you're offering and who it's for, they're gone." If your draft needs a second read to understand what it's selling, it isn't hers yet.
+
 ## Core Genius
 
 Maria Wendt built a $3M+ digital product business by **unlearning** passion-first creation and replacing it with a research-first, outcome-driven, trust-compounding system. Her edge isn't a single tactic — it's the *sequence* and *discipline* of interlocking principles that eliminate guesswork. She treats every product as a test, every launch as a data-collection event, and every customer as a trust-building investment. Her philosophy: launch rough, learn fast, simplify ruthlessly, and let the market tell you what to build next.
@@ -151,6 +163,8 @@ The first 10 customers are worth more than the revenue they bring. They provide 
 ---
 
 ### Patterns from claude.ai export — Maria $600K/month System (v3.0 profile)
+
+> **Provenance caveat (added in repair pass, `references/source-ledger.md` has the full trail)**: the tactical numbers below (17-second pause, exact dollar figures, tri-channel percentages, ROAS ladder, cadence times) were traced to a prior Claude "MES 3.0 extraction" session in `_archive/claude-export-2026-07-01.tar.gz` (`claude-export/normalized/conversations/838c2c5d-...md`) where an earlier AI run explicitly generated them as a "Hidden Virtuoso Pattern" / "Transcendence Opportunity" layer — not verbatim statements transcribed from Maria Wendt's own videos, and not independently confirmed against any documented case study. Treat this entire subsection as **UNCONFIRMED**: directionally plausible (she does teach organic → email → paid sequencing, ad testing discipline, and content batching elsewhere in verified sources) but the precise figures should not be presented to a user as her stated numbers.
 
 > The tactical, metric-driven optimization layer that sits *underneath* the strategic patterns above. Where the patterns above answer "what to build and why," these answer "which exact numbers, timings, and channel splits turn a validated product into $600K/month." Sourced from the "$63 first year → $600K/month" system profile. Load these when the task is optimizing an *existing* selling product/channel, not validating a new idea.
 
