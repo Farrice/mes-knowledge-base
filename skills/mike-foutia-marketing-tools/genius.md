@@ -4,6 +4,18 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives for scoping and building marketing automation, not a checklist to recite. Mike's genius is judgment about *where the line is* — what to automate aggressively and what to leave alone — not a fixed sequence of steps to announce.
+
+- Do NOT narrate the machinery. Never write "Applying Layer 1, Layer 2, Layer 3" or "per the Automation Boundary Heuristic" inside a deliverable. Run the layers; don't label them.
+- Do NOT default to building software. Mike's instinct when a client describes a pain point is "what's the smallest internal tool that kills this specific pain" — not "what SaaS product could this become." Scope creep away from that instinct is the tell you've lost the thread.
+- His texture is practitioner-plain, not developer-jargon. He explains automation the way a marketer explains a media buy, not the way an engineer explains an architecture diagram. Keep deliverables readable by a non-technical ad-agency owner.
+- The test: would Mike recognize this as a tool he'd actually ship to a client this week — or does it read like generic AI-automation vocabulary stapled onto a dashboard? If it's the second, rebuild: strip it back to the pain point, the layer that's missing, and the brand bible that should have been loaded first.
+- Polish runs the wrong direction here: an over-engineered, fully-automated system (especially one that automates creative video) is the failure mode, not an underbuilt one. Mike's own line applies past the boundary — AI is "really good at getting you to the mean," which is safe, generic, and wrong for a brand that needs to stand out.
+
+---
+
 ## Genius Patterns
 
 ## Content Assessment
@@ -35,6 +47,7 @@ Existing Overlap: Seena Rez (TikTok), Cardinal Mason (ad copy), PJ Accetturo (AI
 - **Executable Behavior**: Always collect raw data first (scrape → metrics), then run AI semantic analysis on the top performers, then synthesize into deliverable format. Never skip from raw data to brief.
 - **Deployment Context**: Any research-to-action pipeline — competitive analysis, content calendars, product research.
 - **Success Metric**: The brief contains specific proof (video URLs, exact hooks, actual data points) rather than generic category recommendations.
+- **Source Benchmark**: Mike frames the whole pipeline around the "from nothing to brief in 15 minutes" benchmark (`extractions/mike-foutia-marketing-tools/extraction-report.md`, Genius Pattern 1, Success Metric).
 
 ### 2. Brand Bible Context Injection
 - **What He Does Unconsciously**: Before generating any creative output, he loads a "brand bible" — tone of voice, target audience pain points, brand background, customer persona — as system context. The output is never generic AI slop because it's always filtered through brand-specific constraints.
@@ -47,6 +60,7 @@ Existing Overlap: Seena Rez (TikTok), Cardinal Mason (ad copy), PJ Accetturo (AI
 - **Executable Behavior**: Scrape trending organic content in your niche → identify winning hooks/angles/pain points → generate paid ad briefs that leverage those validated patterns → test at volume.
 - **Deployment Context**: Facebook/Meta ad campaigns, TikTok ads, YouTube pre-roll, any performance marketing.
 - **Success Metric**: Ad creative is based on proven organic patterns rather than guesswork; creative velocity increases because you're not starting from zero.
+- **Source Benchmark**: The "Viral Hook Deconstruction Brief" exemplar cites the actual organic proof point behind this bridge: 5.2M views, 350K likes, 12K comments on the source TikTok (`references/exemplars.md`, Exemplar 1).
 
 ### 4. Automation Boundary Heuristic
 - **What He Does Unconsciously**: Draws a sharp line between what should be automated (text-based research, writing, analysis, brief generation) and what should not (video creation, highly creative visual assets). His heuristic: if the AI output is "going to be a good reflection on your brand" at >95% reliability, automate it. If not, keep the human deeply in the loop.
@@ -84,6 +98,20 @@ Mike articulates a critical AI insight: "AI is really good at getting you to the
 
 ### 5. The Phase-Based Client Expansion Model
 Mike's clients start by asking for trend research automation, then ask "what can you do for me next?" — extending to brief generation, then static ad creation, then potentially video. The hidden business model insight: build the first tool for the pain point they already know they have, then expand into adjacent automation as trust builds. Each phase funds the next.
+
+---
+
+## Anti-Patterns
+
+> Grounded in `extractions/mike-foutia-marketing-tools/extraction-report.md` (Marketing Against The Grain podcast interview transcript, ~12,701 bytes, read in full) and cross-checked against this file's own Genius Patterns / Hidden Knowledge sections above. Full claim-by-claim audit: `references/source-ledger.md`.
+
+- **Never skip from raw data straight to a brief.** Mike's system enforces three escalating layers — metrics → semantic analysis → synthesis — because "he never jumps layers" (extraction-report.md, Genius Pattern 1, Marketing Against The Grain podcast interview). Skipping the semantic layer produces briefs with generic category recommendations instead of the "from nothing to brief in 15 minutes" benchmark he holds himself to.
+- **Don't build a SaaS product when the client needs an internal tool.** Mike explicitly ships "internal tools, not SaaS products" — bespoke builds shaped to one team's workflow, not general-purpose software (extraction-report.md, Genius Pattern 5 "Non-Coder Builder Pattern", podcast interview).
+- **Don't automate creative video production at scale.** The automation boundary heuristic draws the line at text/research (automate aggressively) vs. visual creative production (keep human-in-the-loop) — extraction-report.md's Market Signals section is explicit that "AI video is NOT ready for full automation" (podcast interview, Market Signals section).
+- **Don't start a non-coder build in N8N today.** Mike "explicitly says he would NOT learn [N8N] if starting today," after four months of reluctant use before switching to vibe coding (extraction-report.md, Hidden Knowledge "N8N is a Dead End for Non-Coders", podcast interview).
+- **Never generate a brief without loading the brand bible first.** Skipping brand-context injection is the top failure mode: "without it, you get mean-reversion content" (this file, Hidden Knowledge #2 "The Taste Profile as Strategic Guardrail", podcast interview) — see the "Generic AI-Generated Brief" Anti-Exemplar in `references/exemplars.md` for exactly what this looks like shipped.
+- **Don't trust a first AI draft at face value.** Mike's own diagnostic — "AI is really good at getting you to the mean" — means every generated brief needs a human pass explicitly aimed at pushing away from the generic (this file, Hidden Knowledge #4 "The Mean Reversion Problem", podcast interview).
+- **The recognition test**: would Mike recognize this as a workflow he'd actually run, or does it read like generic AI-automation vocabulary stapled onto a dashboard? If the brief has no organic-content citation, no comment-mined objection, and no brand-bible fingerprint, he wouldn't recognize this as his (cross-checked against this file's Signature Moves section below and extraction-report.md's Executive Summary, podcast interview).
 
 ---
 
@@ -128,6 +156,7 @@ Mike's clients start by asking for trend research automation, then ask "what can
 - **Trend-to-Brief Automation**: Farrice can now build a complete pipeline from TikTok/Instagram trend scraping to client-ready creative briefs — a core service for e-commerce brands and ad agencies. This stacks directly with Seena Rez (TikTok hooks), Cardinal Mason (conversion copy), and Sabri Suby (ad strategy).
 - **Client Tool Building**: The vibe-coded internal tool pattern — build custom marketing tools for clients as a service, not a SaaS product. Each tool is bespoke, high-value, and creates deep client lock-in.
 - **Comment Intelligence Pipeline**: Mining social media comments at scale for consumer language, objections, and competitor intel. This stacks with the consumer-posture-research skill and Dai Media's consumer posture analysis.
+- **Pricing Benchmark**: The productized version of this pipeline is scoped at $2-5K/mo to maintain a live trend-research feed for one client (`extractions/mike-foutia-marketing-tools/extraction-report.md`, Applied Intelligence § "Creative Volume Service").
 
 ### Market Signals
 
@@ -140,6 +169,7 @@ Mike's clients start by asking for trend research automation, then ask "what can
 - **Brand Bible Template**: The brand bible / taste profile concept should become a standard Antigravity artifact — every client engagement starts by building one.
 - **Scraping → Analysis → Synthesis Pattern**: This three-stage pattern (collect → analyze → synthesize) is generalizable beyond TikTok to any platform intelligence workflow.
 - **Automation Boundary Framework**: Mike's heuristic for when to automate vs. keep humans in the loop could become a standard decision framework for all Antigravity tool-building projects.
+- **Standardization Note**: Mike's own diagnostic — "AI is really good at getting you to the mean" — is the reason the Automation Boundary Framework needs to be a system-wide decision lens, not a one-off judgment call (this file, Hidden Knowledge #4).
 
 ---
 
@@ -153,7 +183,7 @@ Mike's clients start by asking for trend research automation, then ask "what can
 
 ## Hall of Fame Exemplars
 
-> Full exemplar library: `references/exemplars.md` — load for deep pattern study.
+> Full exemplar library: `references/exemplars.md` — load for deep pattern study. The GlowUp Serum brief alone is built from 500 scraped TikToks and 10,000+ mined comments — the canonical model for what "excellent" looks like under this skill.
 
 ## Signature Moves
 
@@ -165,4 +195,4 @@ Mike's clients start by asking for trend research automation, then ask "what can
 
 ## Quality Rubric
 
-> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading. Scores span 4 (Acceptable) through 7 (Good) to 10 (Savant) across the three-tier criteria table.
