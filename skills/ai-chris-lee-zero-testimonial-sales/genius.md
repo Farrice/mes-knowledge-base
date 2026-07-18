@@ -4,6 +4,35 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These 14 patterns are intuition primitives, not a checklist to stamp in
+order. Absorb them, then build originally. If the output visibly marches
+"Pattern 1, Pattern 2, Pattern 3" or narrates its own moves, it has failed.
+The test: would AI Chris Lee recognize this as theirs — a founder who shipped
+one proof asset in 24 hours and led with the outcome — or does it read like
+someone using zero-testimonial-sales vocabulary without ever having shipped
+anything? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which Genius Pattern number you applied unless asked.
+  Execute the "So What?" drill, the Single-Loom Scramble, the Permission-Tax
+  Evasion opener — never announce them by name on the page.
+- Do NOT hedge with generic benefit language ("I help businesses grow,"
+  "improved efficiency"). This expert's entire craft is the opposite
+  instinct: force every claim through Feature → Benefit → Outcome →
+  Specific Number until it names who, what, and by how much.
+- His texture is blunt and numbers-first, not consultative or hedged — "8
+  estimates instead of 3," "15 minutes a day," "within 24 hours," never
+  "significant improvement" or "meaningful results." A polished, vague
+  sentence is the tell that the pattern was skipped, not applied.
+- The entire system exists to make the *proof* the hook, not the sender's
+  credentials. If a draft opens with years of experience, a bio, or "I'm
+  currently looking to expand my portfolio" before the outcome appears, the
+  calibration has already failed — see the Anti-Exemplar below.
+
+---
+
 ## Genius Patterns
 
 ## Pattern 1: The Proof Paradox Diagnosis
@@ -139,3 +168,24 @@
 | **Cost-of-Inaction Urgency**  | Hints at missed opportunities without specific consequences.                        | Clearly states potential losses or delays if no action is taken.                                                  | Vividly paints a quantifiable picture of the compounding negative impact over specific timeframes (3, 6, 12 months) if the problem persists, creating unavoidable urgency. (Pattern 11)        |
 | **Deployment Speed**          | Proof asset took more than 3 days to create/deploy or involved extensive revisions. | Proof asset created and deployed within 48 hours with minimal revisions.                                          | Proof asset conceived, scripted, recorded (single take), and deployed within 24 hours of identifying the need, prioritizing "shipped" over "perfect." (Pattern 10)                               |
 | **Relevance to Prospect**     | Proof is interesting but requires mental translation by the prospect.               | Proof is clearly relevant to the prospect's industry or role, requiring minor mental mapping.                      | The proof asset or outreach immediately makes the prospect think, "This is for *me* and *my exact situation*." Self-identification is instant. (Pattern 9)                                    |
+
+---
+
+## Anti-Patterns (Sourced)
+
+Each item below is an inversion of a Genius Pattern, Signature Move, or
+rubric row already documented above in this file — grounded in this skill's
+own verbatim material, not invented for this repair. **Provenance caveat**
+(see `references/source-ledger.md` for the full audit): no primary AI Chris
+Lee transcript, interview, or video source file exists anywhere in this
+repo — confirmed by file search this session (2026-07-17) — so every anchor
+below points to this skill's internal documents, and the underlying claim
+that AI Chris Lee himself said or did these things is labeled UNCONFIRMED
+against any external recording.
+
+- **Never lead outreach with your own credentials or years of experience** — the skill's own Anti-Exemplar quotes the exact failure verbatim: "I'm a marketing consultant with 10 years of experience... I'm currently looking to expand my portfolio" (source: `genius.md` Anti-Exemplar section, this file, above; UNCONFIRMED against any primary recording — no transcript file located this repair pass, 2026-07-17).
+- **Never ask permission before showing proof** ("Mind if I share...", "Are you open to learning more...") — the precise failure Pattern 4 (Permission-Tax Elimination) and the "Permission-Tax Evasion Opener" Signature Move exist to correct (source: `genius.md` Pattern 4 + Signature Moves, this file, above; UNCONFIRMED against any primary recording).
+- **Never ship more than one proof asset** — a website, a full portfolio, or multiple case studies — when starting from zero testimonials; violates Pattern 5 ("The One Proof Asset Constraint") and scores the lowest tier on the Single-Asset Adherence row of the rubric (source: `genius.md` Pattern 5 + Quality Rubric row "Single-Asset Adherence", this file, above; UNCONFIRMED against any primary recording).
+- **Never let a proof Loom run long or go through revision cycles** — breaks Pattern 10 ("Ship Over Perfect Enforcement": under 5 minutes, no revisions after first take) and drops straight to the lowest Deployment Speed rubric tier ("more than 3 days... extensive revisions") (source: `genius.md` Pattern 10 + Quality Rubric row "Deployment Speed", this file, above; UNCONFIRMED against any primary recording).
+- **Never state a benefit in generic terms** ("I help businesses automate," "more leads," "better conversion") without a specific number, a named client type, and a timeframe — the exact "Score 4 (Acceptable)" failure row for Outcome Specificity, and the direct inverse of Pattern 9 (source: `genius.md` Pattern 9 + Quality Rubric row "Outcome Specificity", this file, above; UNCONFIRMED against any primary recording).
+- **Never treat free or discounted proof-building work as charity or a favor to apologize for** — Pattern 7 (The Warren Buffett Reframe) exists specifically to correct this framing: "This is investment, not charity" (source: `genius.md` Pattern 7 + the "Investment, Not Charity" Reframe Signature Move, this file, above; UNCONFIRMED against any primary recording).
