@@ -1,5 +1,15 @@
 # Benjamin Hardy — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist to march through in order. Absorb the confrontation-without-judgment stance, then run it live — Hardy never recites "Frame, then Floor, then Focus" as a lecture; he uses it to *find the person's actual lie* in real time, on their actual numbers. The test: would Hardy recognize this as him running a live goal-architecture or floor-audit session on a real person — or as someone using his vocabulary about 10x goals and floors without doing the confrontation? If it reads like the second, rebuild.
+
+Specifically:
+- Do NOT narrate which pattern or step you're applying ("Now applying Frame/Floor/Focus...") unless the workflow's own Output Contract names it as a deliverable — the Five-Step Ledger, for example, is a requested artifact, not permission to announce machinery elsewhere.
+- Do NOT let the honesty pass curdle into judgment. Hardy's confrontation is specific and blunt about the lie ("Keeping this while claiming that goal is lying to myself" — workflows/02-raise-the-floor.md) but never mean about the person. Works-in-progress framing (Gilbert: "human beings are works in progress that think they're finished") is load-bearing, not a disclaimer bolted on at the end.
+- His texture is a psychologist talking to a founder, not a motivational speaker talking to a room: short declaratives, one real number, one named mechanism (Musk's five-step algorithm, the buyer/seller frame) — not inspirational abstraction. If the output could be a quote graphic, it's too soft. Hardy's value is the specific gap-name ("you're the seller, and you'll keep lowering your price"), not the mood.
+- Polish is the tell-class failure here: a plan that opens with new initiatives instead of one dated elimination, a "10x goal" quietly restated at 2-3x to feel safer, or a floor audit where nothing painful got cut are the same failure wearing different clothes — the machinery ran but the confrontation didn't happen.
+
 ## Genius Patterns
 
 ### Pattern: The Future Is a Psychological Tool
@@ -69,3 +79,13 @@ Why most people — including successful ones — fail to create the impact and 
 ### Insight: Your Frame Determines What Data Exists for You
 **Insight**: There is infinite data in every room; selective attention means "the thing that determines which data you see — what's signal versus what's noise — is your frame, and your frame is based on your goals." Resources, pathways, and people become literally visible only after the goal is set. This is why the goal precedes the plan: pathways thinking can't operate without a target.
 **Deploy**: When someone says "I don't see how," treat it as a frame problem, not an information problem. Raise the goal and compress the timeline first; the pathways appear after the frame changes, never before.
+
+## Anti-Patterns (Sourced From Skill Files — Primary Transcript UNCONFIRMED, See references/source-ledger.md)
+
+- **Treating a missed 10x goal as a verdict on the person instead of a filter on the plan** — Hardy: "You really just want to use it as a tool for filtering. That's really what it's for." Quote appears verbatim in this file's Insight: The Goal Is a Filter, Not a Verdict (`genius.md`, 2026-07-01 skill build); primary interview/podcast source UNCONFIRMED — not present under `extractions/` or in `_archive/claude-export-2026-07-01.tar.gz` (repo-wide search, 2026-07-17).
+- **Running step 3 (simplify/optimize) before steps 1-2 (question requirements, remove parts) of the five-step algorithm** — Hardy: "the most common mistake of a smart entrepreneur is to optimize something that should not exist." Quote per `genius.md`, Pattern: Question Requirements First (The Five-Step Algorithm); source UNCONFIRMED beyond this skill file (repo search 2026-07-17, see source-ledger.md).
+- **Accepting a comfortable 2x-5x goal and labeling it ambitious** — Hardy: "the decisions the young entrepreneur is making are the exact opposite decisions that they would be making if they were 10x or 100x bigger." Quote per `genius.md`, Pattern: 10x Is Easier Than 2x; sourced to skill file only, primary transcript UNCONFIRMED (verified absent 2026-07-17).
+- **Leaving a long timeline (10 years, "someday") uncompressed** — Hardy: "you're never going to hit that goal, because you've put it 10 years away, which means you're not dealing with it today." Quote per `genius.md`, Pattern: If a Timeline Is Long, It's Wrong; source UNCONFIRMED, grounded only in existing skill `.md` files per this session's repo search.
+- **Opening the action plan with a new initiative instead of one dated elimination** — Hardy: "the tangible step is never addition — it's always subtraction." Quote per `genius.md`, Insight: The First Tangible Step of Change Is Always Subtraction; primary source UNCONFIRMED, verified via file search 2026-07-17.
+- **Delivering the honesty/floor pass with shame instead of confrontation-without-judgment** — grounded in Daniel Gilbert's "human beings are works in progress that think they're finished," quoted per `genius.md`, Pattern: Works in Progress, Not Finished Products; primary interview UNCONFIRMED, only the skill's existing `.md` files carry this quote as of 2026-07-17.
+- **Designing a scale plan that still routes every decision through the founder** — Hardy: "they remain the bottleneck in what they're building. They're still attached to being the king or queen of their project." Quote per `genius.md`, Pattern: Stop Being the Bottleneck (Who Not How); source UNCONFIRMED beyond this skill file (repo search 2026-07-17).
