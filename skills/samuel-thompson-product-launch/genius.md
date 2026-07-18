@@ -4,6 +4,18 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then build originally. If the output mechanically stamps "Pattern 1, Pattern 2, Pattern 3" in order, or narrates "now applying Shadow Market Detection," you have failed. The test: would Thompson recognize this as a business he'd actually run — someone doing the math out loud and pulling the trigger — or as someone reciting "rigged slot machine" vocabulary at a whiteboard? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which patterns or hidden-knowledge points you applied unless asked.
+- Do NOT label sections "here's the shadow-market move" or "here's the break-even calc." Run the math, ship the ugly V1, never announce the machinery.
+- His texture is a founder talking shop on a podcast, not a course instructor: "dude," half-finished sentences, numbers thrown out loose and rounded ("sub 40 on good days... on bad days it was like 45") rather than tidy tables. Keep the voice loose and specific — a guy explaining his screen while building live — never polished into consultant-speak.
+- Polish is the tell. His whole ethos is radical disposability: a landing page built "in an hour while watching the Laker game," a store stood up from a $175 theme license instead of a custom build. If your output reads like a pitch deck instead of something built while half-distracted and shipped anyway, you've over-produced it — rebuild it uglier and faster.
+
+---
+
 ## Genius Patterns
 
 14 unconscious mastery behaviors decoded into executable actions.
@@ -94,6 +106,8 @@
 
 **Execute**: Purchase proven themes (Solo Drop, Elixir). Use templates exactly. Focus on copy and offer.
 
+**Real Numbers**: Solo Drop runs roughly $200 lifetime; Elixir is about $175 for one license — in his words, "I don't remember their pricing. 175 for one license."
+
 **Success Metric**: Functional store live in under 2 hours.
 
 ---
@@ -130,6 +144,8 @@
 
 **Execute**: For any successful front-end, brainstorm: What's book #2? Membership? High-ticket coaching?
 
+**Real Example**: On the divorce book, his stated LTV roadmap is a $199/year Facebook group for divorced parents ("grab 199 bucks a year for a Facebook group... like these are all the people that have gone through what you've gone through") plus a companion upsell title, the same pattern he already runs on Hummingbird 101.
+
 **Success Metric**: Clear LTV roadmap for any offer hitting profitability.
 
 ## Hidden Knowledge
@@ -144,7 +160,7 @@ He doesn't spend $289 because he's broke—he spends $289 because it forces radi
 ---
 
 ## 2. Divorce Attorneys Are Competition Signals
-When attorneys dominate advertising in a niche, it signals: (1) audience has money, (2) pain is severe, (3) room for lower-cost alternatives.
+When attorneys dominate advertising in a niche, it signals: (1) audience has money, (2) pain is severe, (3) room for lower-cost alternatives. The insight originated from his own wedding planning: roughly 50% of marriages end in divorce, so if the wedding market is huge, the adjacent divorce market is "probably like half the size" — nearly as big, far less served by low-cost offers.
 
 **Deploy**: Search Facebook Ads Library. If professionals advertise heavily, there's a gap for info products at lower prices.
 
@@ -179,21 +195,21 @@ Elixir and Solo Drop are "conversion optimized"—thousands of stores already A/
 ---
 
 ## 7. Break-Even Funnel Is The Goal
-Target isn't profit on first purchase—it's break even. Free customer acquisition means all profit comes from backend.
+Target isn't profit on first purchase—it's break even. Free customer acquisition means all profit comes from backend. On the divorce book he priced the base offer at $29 with a $17-18 upsell bump lifting AOV to roughly $42-43, while CAC ran "sub 40" on good days and "like 45" on bad ones — landing the funnel at approximately break-even by design.
 
 **Deploy**: Calculate acceptable CAC as front-end price minus product cost. If you acquire customers free, everything else is margin.
 
 ---
 
 ## 8. Fiverr As Single Leverage Point
-Uses Fiverr for the 1-2 specialized tasks worth outsourcing while keeping everything else in-house with AI.
+Uses Fiverr for the 1-2 specialized tasks worth outsourcing while keeping everything else in-house with AI — the tool stack he opens the entire teardown with: "we're going to hire somebody on Fiverr."
 
 **Deploy**: Identify your single biggest skill gap. Outsource that one thing. Do everything else yourself.
 
 ---
 
 ## 9. Placeholder Social Proof
-Starts with placeholder testimonials replaced with real ones. Realistic acknowledgment that conversion requires proof, proof requires sales—chicken-egg problem.
+Starts with placeholder testimonials replaced with real ones. Realistic acknowledgment that conversion requires proof, proof requires sales—chicken-egg problem. In his own words, live on screen: "Yes, I'm going to put fake reviews on here to start and then I will replace them as I get real ones. I promise."
 
 **Deploy**: Design testimonial sections from Day 1. Use AI placeholders representing realistic outcomes. Replace as real ones come in.
 
@@ -203,6 +219,20 @@ Starts with placeholder testimonials replaced with real ones. Realistic acknowle
 "New Year Sale," "St. Patrick's Day Sale"—not gimmicks, but continuous price elasticity tests disguised as promotions.
 
 **Deploy**: Create 12-month promotional calendar. Each "sale" is a price point test. Track which price-conversion combinations yield highest revenue per visitor.
+
+---
+
+## Anti-Patterns
+
+Sourced against the transcript: Merlin AI, "I Spent $289 So AI Could Build My Business" (YouTube interview with Samuel Thompson), captured 2026-01-18, archived at `_archive/claude-export-2026-07-01.tar.gz:claude-export/normalized/conversations/1ec27df4-be87-4c3f-8cab-e3062ab0bfc3.md`. Each item below names the mistake and anchors it against what Thompson actually said or did on that call.
+
+- **Never polish V1 before it's proven.** Thompson's own divorce book started as "a really messy chat GBT generated book" on a landing page he "made in an hour while watching the Laker game" — not a designed asset (Merlin AI transcript, 2026-01-18).
+- **Don't design the storefront from scratch.** He bought a theme instead: Solo Drop and Elixir are "conversion optimize... you can literally just buy it and it has a bunch of these plugins already built in" (Merlin AI transcript, 2026-01-18).
+- **Don't treat desktop conversion as equally important.** His stated rule while building live: "99% of traffic is mobile, so I'm only thinking about uh mobile optimization" (Merlin AI transcript, 2026-01-18).
+- **Never guess at price — test it.** His pricing process is a running experiment disguised as promos: "I always do this compare at price... New Year sale... St. Patrick's Day sale" to read conversion-rate-vs-AOV tradeoffs before settling (Merlin AI transcript, 2026-01-18).
+- **Don't wait for real reviews to launch.** He ships with placeholders on purpose: "Yes, I'm going to put fake reviews on here to start and then I will replace them as I get real ones. I promise" (Merlin AI transcript, 2026-01-18) — the anti-pattern is treating that placeholder as permanent instead of swapping it once sales exist.
+- **Never prompt AI for a "final" output.** His own prompting discipline: "I am very rarely trying to get a final output out of AI. I need like... a 80% head start" — anything that reads as a first-shot final draft has skipped his edit pass (Merlin AI transcript, 2026-01-18).
+- **Don't size a market off intuition alone.** He anchored the divorce niche to a real ratio, not a guess: "well 50% of uh marriages end in divorce... if the wedding market is huge... the divorce market probably is like half the size" (Merlin AI transcript, 2026-01-18).
 
 ---
 
