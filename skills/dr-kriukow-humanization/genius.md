@@ -4,6 +4,41 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Kriukow's entire method
+compresses to one governing question — "did I change the structure, or just the
+words?" — every other move (order reversal, imperfection injection, paragraph-as-canvas
+editing) is that one question applied to a specific surface. Absorb the principle, then
+apply it originally to the text in front of you; never work down a list.
+
+Specifically:
+- Do NOT narrate the mechanics on the page ("here I'm applying the Order Reversal
+  Technique," "note the deliberate imperfection injection"). Execute the move; never
+  announce it. A humanized draft that names its own machinery reads as a checklist
+  artifact, not as prose a person wrote.
+- Do NOT stop at vocabulary. His own methodology treats word-swapping as the base-rate
+  failure mode — the extraction is explicit that "95%+ of AI content deployers are
+  doing word-swapping" (or reaching for "humanizer" tools) and calls that "trivially
+  detectable" (source: `extractions/dr-kriukow/dr-kriukow-humanization-extraction-report.md`,
+  Market Signals, line 126). If the edit is clean vocabulary substitution with the
+  sentence order untouched, that IS the failure mode, not the fix.
+- His texture is methodical and principle-first, not decorative — he is a qualitative
+  researcher demonstrating a mathematical property of text, not a copywriter performing
+  style. The output should read *engineered* (deliberate structural moves, paragraph-
+  level rewrites) rather than *stylized* (voice flourishes layered on top).
+- Polish is the tell in the opposite direction here: text that is "too clean" —
+  balanced sentences, tidy transitions, zero passive voice — still reads as AI-shaped
+  under his "Worse Is Better" paradox. A finished pass should carry at least one
+  deliberate imperfection per paragraph, not zero.
+
+The test: would Kriukow recognize this as a paragraph rebuilt from meaning outward — or
+as a word-swapped version of the same statistically predictable shape? If someone laid
+the AI draft and the edit side by side and the *shape* is unchanged, it fails his test
+regardless of how different the words sound.
+
+---
+
 ## Genius Patterns
 
 ## Core Patterns
@@ -73,6 +108,25 @@ Does the text have at least one moment of slight imperfection — a passive cons
 
 ---
 
+## Anti-Patterns
+
+> Sourced against the single ground-truth extraction —
+> `extractions/dr-kriukow/dr-kriukow-humanization-extraction-report.md` (14,355 bytes),
+> itself distilled from one YouTube video: "Humanize AI Writing & Bypass AI Detection
+> with this KEY RULE" (2,901 words / 15,818 characters, per report line 6). Confirmed
+> by content grep to be the only Kriukow source in this repo — see
+> `references/source-ledger.md` for the absence check across `extractions/`,
+> `_active/codex-harvest-2026-06-11/`, and `_archive/claude-export-2026-07-01.tar.gz`.
+
+- **Word-swap-only humanization** — treating "delve → explore" as the fix while sentence order, rhythm, and argument flow stay untouched. The report names this the industry-wide failure mode: "95%+ of AI content deployers are doing word-swapping" (source: `extractions/dr-kriukow/dr-kriukow-humanization-extraction-report.md`, Market Signals, line 126 — sentence continues "...or using 'humanizer' tools that are trivially detectable").
+- **Sentence-by-sentence patching** — fixing sentence 1, then separately fixing sentence 2, and calling it done. The report names this the Oscillation Trap: "sentence-level edits preserve the inter-sentence statistical relationships" (source: `extractions/dr-kriukow/dr-kriukow-humanization-extraction-report.md`, Hidden Knowledge #1, line 73).
+- **Treating any single technique as "the" fix** — memorizing order-reversal or passive-injection as a mandatory step rather than one path among many to divergence: "none of his specific edits (order reversal, passive injection, etc.) are *the* right way" (source: `extractions/dr-kriukow/dr-kriukow-humanization-extraction-report.md`, Hidden Knowledge #5 "No Right Way Principle," line 85).
+- **Leaving enumerations in AI order** — keeping a list's original sequence because reordering feels cosmetic; the report's own bar is the inverse: "No list in the final text matches the original AI-generated order" (source: `extractions/dr-kriukow/dr-kriukow-humanization-extraction-report.md`, Genius Pattern 5, line 54).
+- **Stopping when the draft reads "too clean"** — polished, balanced, zero passive voice is a symptom, not a goal; the report is direct that "AI tends to write in clean, efficient, active-voice prose. Humans don't." (source: `extractions/dr-kriukow/dr-kriukow-humanization-extraction-report.md`, Hidden Knowledge #2 "Worse Is Better Paradox," line 76).
+- **Reaching for more word substitutions when a detector still flags the text** — the report's own validation phase rules this out explicitly: "If still flagged, increase structural divergence — never just swap more words" (source: `extractions/dr-kriukow/dr-kriukow-humanization-extraction-report.md`, Methodology Phase 4, line 112).
+
+---
+
 ## Hall of Fame Exemplars
 
 ### Exemplar 1: Structural Re-Imagination
@@ -104,6 +158,14 @@ Does the text have at least one moment of slight imperfection — a passive cons
 *   **Meaning Preservation Rewrite**: All key actions and their purposes are retained, but the delivery is entirely different.
 
 ### Anti-Exemplar: Superficial Word Swaps
+
+> **Provenance note** (added in this repair — see `references/source-ledger.md` claim
+> #15): this before/after pair does not appear verbatim in
+> `extractions/dr-kriukow/dr-kriukow-humanization-extraction-report.md`. It reads as an
+> illustrative example built for the skill, not a transcript quote. Treat it as
+> LIKELY (a faithful demonstration of Pattern 1/2) rather than a Kriukow quote — kept
+> here unmodified per additive-first repair rules, flagged rather than deleted.
+
 **AI Original Text**:
 "The rapid advancement of artificial intelligence technologies presents both unprecedented opportunities and significant challenges for businesses seeking to maintain a competitive edge in the global marketplace."
 
