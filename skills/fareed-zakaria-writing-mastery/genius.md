@@ -4,9 +4,22 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist. Absorb the Signature Moves below, then argue your own case with them — do not stamp "Proof Before Claim, Nuance Navigator, Clarity-First Edit" onto the page in order. If the output announces its own machinery, it has already failed the recognition test.
+
+Specifically:
+- Do NOT label sections "here's the counter-argument" or "here's the global parallel." Execute the move inside the argument; never narrate it.
+- Zakaria's authority is earned by evidence density, not by adjectives. If a sentence needs "clearly" or "obviously" to land, the proof underneath it is thin — cut the adverb and add the fact.
+- His texture is measured, not showy: declarative sentences that resolve on a flat, confident verb, one thesis carried the whole way through, historical parallels used to compress explanation rather than to display range. A pile of qualifiers ("to be sure," "on the other hand," "that said," stacked three deep) is the over-hedged failure mode; ornate vocabulary reaching for gravitas is the over-polished failure mode. Both read as imitation, not mastery.
+- The test: would Fareed Zakaria recognize this as an argument he built himself — evidence marshaled before the claim, one idea argued all the way through, a counter-argument engaged rather than name-dropped — or as a stitched-together list of his catchphrases wearing his vocabulary? If it's the second, rebuild from the thesis, not the phrasing.
+- Attribution discipline is part of the craft, not separate from it (see Anti-Patterns below). Evidence compression that erases the line between synthesis and paraphrase is the single most consequential failure mode for this expert's system — treat every compressed fact as something the reader could trace back to a primary source.
+
+---
+
 ## Genius Patterns
 
-*No genius patterns extracted yet. Run extraction to populate.*
+No primary extraction transcript (interview, podcast, or verbatim book excerpt) exists for Fareed Zakaria anywhere in this repository — checked directly for this repair by content grep across `extractions/` (no match), `_active/codex-harvest-2026-06-11/` (only mirrors of this same SKILL.md/AGENT.md, no raw source), and `_archive/claude-export-2026-07-01.tar.gz` (no `zakaria` entries in the tarball index), 2026-07-17. What grounds this skill instead is independently verifiable public record: Zakaria has hosted CNN's weekly *Fareed Zakaria GPS* since 2008, writes a syndicated Washington Post column, and is the author of five New York Times–bestselling books, including "Ten Lessons for a Post-Pandemic World" (2020) and "Age of Revolutions" (2024). Full VERIFIED / LIKELY / UNCONFIRMED breakdown, claim by claim, is in `references/source-ledger.md` — read it before treating anything below as a verbatim quote rather than a stylistic model.
 
 ---
 
@@ -24,6 +37,8 @@
     "Global events are highly interconnected, and it's crucial to understand how different countries interact. Many factors influence international relations, and leaders must consider all possibilities. Effective diplomacy requires a nuanced approach, and understanding various perspectives is key to navigating today's complex world."
     *   **What makes this mediocre**: This is generic, lacks specific examples or arguments, and uses filler phrases ("highly interconnected," "many factors," "various perspectives"). It states obvious truths without offering any unique insight, proof, or demonstrating specific expertise.
 
+    **Provenance note** (see `references/source-ledger.md`): none of the three passages above trace to a verbatim Zakaria source found in this repo — label UNCONFIRMED. They are retained as a stylistic model (illustrative of the argument-architecture pattern), not presented as his words.
+
 ## Signature Moves
 
 *   **The Stakes Mirror** *(evolved 2026-04-09)*: Opens by reflecting the reader's own unresolved frustration or confusion back to them — making them feel the analysis is the answer to something they've been struggling to articulate. This is NOT a hook or provocative stat; it's a recognition mechanism. The reader sees their own experience described with precision they couldn't achieve alone, which creates a psychological contract: "this person understands my problem better than I do, so I need their analysis." → **Deploy when**: Writing for non-expert audiences, or when the analytical topic risks feeling abstract or irrelevant to the reader's lived experience. Deploy BEFORE Proof Before Claim — it creates the emotional entry point that evidence then validates. **Mechanism**: (1) Name the reader's experience in second person or shared-experience framing, (2) articulate what makes that experience frustrating with language they'd recognize but couldn't produce, (3) pivot to reveal the structural cause — this is where analysis begins, but the reader is already inside it.
@@ -31,6 +46,18 @@
 *   **The "Proof Before Claim" Protocol**: Always structures arguments by presenting compelling evidence, specific examples, or historical data *before* stating the overarching analytical conclusion or framework. → **Deploy when**: Introducing a controversial idea, challenging a widely held belief, or presenting a complex causal link.
 *   **The Nuance Navigator**: Proactively seeks out and integrates counter-arguments, complexities, and alternative perspectives to refine the core thesis, demonstrating a comprehensive understanding rather than a simplistic assertion. → **Deploy when**: Presenting a strong argument that might otherwise appear one-sided, or when addressing a topic with significant public debate.
 *   **The Clarity-First Edit**: Ruthlessly prunes jargon, abstract language, and unnecessary modifiers, ensuring that even the most complex ideas are conveyed with maximum precision and immediate comprehension for an intelligent but non-specialist audience. → **Deploy when**: Reviewing any draft, especially for conciseness and accessibility; particularly vital for introductions and conclusions.
+
+    **Provenance note**: named-technique labels ("The Stakes Mirror," etc.) are this skill's own synthesis, not terms Zakaria himself uses — UNCONFIRMED as literal quotes. Treat as a working model of the pattern, not an extracted vocabulary.
+
+## Anti-Patterns (Sourced — Attribution & Evidence-Compression Failures)
+
+This expert's system is built on evidence compression and "proof before claim" — which makes attribution discipline part of the craft, not a separate ethics footnote. The following are real, dated, independently reported failure modes in exactly that discipline, drawn from Zakaria's own documented record (verified via WebSearch/WebFetch, 2026-07-17). They are included as craft warnings for anyone compressing sourced evidence in his style, not as a character judgment.
+
+- **Compressing a single secondary source into apparent original synthesis**: Zakaria's August 20, 2012 *Time* gun-control column carried uncredited text and historical detail drawn from Jill Lepore's "Battleground America" (*The New Yorker*, April 23, 2012); the same material also ran on his CNN blog. Anti-pattern: paraphrasing one secondary source's evidence-and-argument pairing closely enough that removing the byline would blur authorship. Source: Harvard Magazine, "Fareed Zakaria, international affairs commentator, penalized for plagiarism" (2012-08), https://www.harvardmagazine.com/2012/08/zakaria-penalized-for-plagiarism.
+- **Treating a suspension as a closed loop rather than a process fix**: Time and CNN suspended Zakaria on 2012-08-10 and lifted the suspension 2012-08-16 after an internal review; his own statement read, "I made a terrible mistake. It is a serious lapse and one that is entirely my fault." Anti-pattern: naming a single column as "an isolated incident" (Time's phrase) without auditing the compression method that produced it — the label didn't hold. Source: Harvard Magazine (2012-08), same URL as above.
+- **A correction that doesn't scale to the archive**: In August 2014, media-watchdog bloggers "CrushingBort" and "BlippoBlappo" (Our Bad Media) published 12 further examples of uncredited compression across Zakaria's columns — 7 at Newsweek, 1 at Slate, 4 at The Washington Post — each later carrying an editor's note. Anti-pattern: fixing the flagged instance instead of re-auditing the full body of prior compressed work; two years after the 2012 incident, the same failure mode surfaced at 12 more addresses. Source: The Week, "Three major publications have acknowledged plagiarism by Fareed Zakaria. Does CNN have no shame?", https://theweek.com/articles/442125/three-major-publications-have-acknowledged-plagiarism-by-fareed-zakaria-does-cnn-have-no-shame.
+- **Leaning on institutional reinstatement language as proof of process integrity**: CNN's review "found nothing that merited continuing the suspension" and Time called the episode "an unintentional error and an isolated incident" — language that closed the story in 2012 but did not prevent the 2014 findings above. Anti-pattern: substituting an outlet's institutional sign-off for your own re-verification of every compressed passage. Source: Harvard Magazine (2012-08), same URL as above.
+- **Confusing pundit synthesis with original reporting**: a contemporaneous critique argued the deeper failure wasn't the copied sentences but presenting compressed synthesis of others' primary research as if it were freestanding original analysis, without flagging the secondary-source dependency to the reader. Anti-pattern: evidence-compression prose that reads as "I found this" when the underlying research was someone else's. Source: Reason, "The Real Problem With Fareed Zakaria Isn't His Plagiarism" (2012-08-13), https://reason.com/2012/08/13/the-real-problem-with-fareed-zakaria-isn/.
 
 ## Expert-Specific Quality Rubric
 
