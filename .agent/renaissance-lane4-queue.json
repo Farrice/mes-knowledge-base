@@ -2736,5 +2736,7 @@
   }
  ],
  "protocol": "Per batch: stage audits + ENVELOPE (reuse .tmp/wave3-batch4/ENVELOPE.md pattern), fleet sentinel on, session lock claimed, Sonnet workers only, serial merges via fleet_merge, Opus verify 1-in-5 incl. UNCONFIRMED spot-checks + empty-delivery check. Designed for W7 overnight runs.",
- "note": "_tmp_audit_diandra excluded (stray temp dir in skills/ \u2014 cleanup proposed via removal ledger, never auto-deleted)"
+ "note": "All 279 skills drained through the 6/6 heartbeat gate across 18 batches (2026-07-17..18). Verify samples: b1-18 all CLEAN. Do not re-run.",
+ "status": "COMPLETE",
+ "completed": "2026-07-18"
 }
