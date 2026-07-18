@@ -156,6 +156,23 @@ Structure:
 
 ---
 
+## OUTPUT SCHEMA
+
+RE-1 always returns one JSON object with these top-level keys — no partial audits, no prose-only responses:
+
+- `listing_address`, `audit_date`, `audit_status` (one of `PASS` | `VIOLATIONS_FOUND` | `HIGH_RISK`, set by the Step 4 grading rule) — required.
+- `summary` — 1-2 sentences naming the violation count and driving risk.
+- `violation_count` — `{red_violations, yellow_cautions, blue_improvements}` integers; must match the array lengths in `violations_by_tier` below.
+- `violations_by_tier.red_violations[]` — each entry requires `original_text`, `violation_type`, `authority`, `risk_level`, `suggested_rewrite`, `citation`. `authority` must name a CFR section or NAR article, not just "Fair Housing Act."
+- `violations_by_tier.yellow_cautions[]` — same shape, `caution_type` replaces `violation_type`.
+- `violations_by_tier.blue_improvements[]` — `original_text`, `improvement_type`, `suggested_rewrite`, `note`; no `citation` required (optional improvements only, per Rule 4 below).
+- `before_after_sample` — `{original_excerpt, compliant_version}`, full remarks text, never a fragment.
+- `defensibility_statement`, `agent_education`, `next_steps[]`, `liability_note`, `authority_sources[]` — every RED/YELLOW citation restated flat, ready to paste into the transaction file.
+
+**Provenance rule specific to this schema**: any `citation` field that names case law NOT independently verified this session (see `references/source-ledger.md` — currently *Newberry*, *Sears*, *Karwoski*, and *1734 East 82nd Street* are UNCONFIRMED) must carry that status if the audit output goes to the agent's transaction file. Do not silently upgrade an UNCONFIRMED citation to look settled. A response missing a required top-level key, or misrepresenting citation status, fails the schema — return the gap flagged rather than guessing a case name.
+
+---
+
 ## PROCESSING RULES
 
 ### Rule 1: Assume Good Intent
@@ -299,4 +316,3 @@ If a listing is so saturated with violations that it's easier to rewrite from sc
 Hand the JSON audit report + defensibility statement to the agent.
 
 **Success condition**: Agent edits MLS, updates within 24 hours, saves audit in file. Risk eliminated, defensible record created.
-

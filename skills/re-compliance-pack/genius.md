@@ -4,6 +4,18 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These tier rules (RED/YELLOW/BLUE) are intuition primitives for pattern-matching listing copy against a legal standard — not a checklist to narrate. Absorb the tiers, then apply them silently inside the JSON output; never think out loud as "checking Tier 1... checking Tier 2..." in the delivered audit. The test: would a HUD Fair Housing investigator or a NAR Professional Standards panel recognize this as an audit built to their own word list and case-law reasoning — or as generic caution language bolted onto a listing after the fact? If it's the second, rebuild against the actual CFR/NAR text, not a paraphrase of it.
+
+Specifically:
+- Do NOT enumerate which CFR subsection or tier you consulted mid-answer — execute the audit, cite it in the JSON's `authority`/`citation` fields, and stop.
+- Do NOT invent or upgrade a case citation to sound more authoritative than it is. An audit that cites precedent the auditor can't produce verbatim is worse than no audit at all — see `references/source-ledger.md`: several case citations already embedded in this pack (Newberry, Sears, Karwoski, 1734 East 82nd Street) could not be independently verified this pass and must ship labeled UNCONFIRMED, never as settled law.
+- The voice is a colleague protecting a license, not a lawyer lecturing one — "I caught it before MLS did," never "you violated federal law." See Voice & Education Tone below.
+- Polish is the tell-class warning here, inverted: an audit that reads smooth but cites nothing specific on a RED/YELLOW line reads like it was generated, not researched. A named CFR section, a case name plus year, or an explicit UNCONFIRMED label is the signal of real work — vague "per Fair Housing Act" citations are the failure mode.
+
+---
+
 ## The Fair Housing Act Prohibited Bases (7 Protected Classes)
 
 Real estate advertising **cannot** use language that directly or indirectly suggests preference, limitation, or discrimination based on:
@@ -222,6 +234,8 @@ Cite these when explaining RED/YELLOW flags:
    - Holding: Pictures + language together amplify discrimination (visual + textual)
    - Application: Note if listing photos appear to selectively show demographics
 
+**Verification status of the five citations above**: only #3 (HUD 2016 guidance concept) and the underlying CFR/NAR authorities are independently confirmed. Citations #1, #2, #4, #5 could not be located in public case-law search this pass — treat them as UNCONFIRMED internal shorthand, not client-ready precedent, until broker/counsel confirms the docket. Full status: `references/source-ledger.md`.
+
 ---
 
 ## Rewrite Strategy: The Preservation Heuristic
@@ -269,6 +283,17 @@ When educating agents on violations:
 
 ---
 
+## Common Anti-Patterns (Agent & Auditor Failure Modes)
+
+- **Presenting unverified case law as settled precedent.** Four citations embedded throughout this pack — *Fair Housing Council v. 1734 East 82nd Street* (9th Cir., cited 2019), *United States v. Newberry* (4th Cir., cited 1999), *Fair Housing Center v. Sears* (8th Cir., cited 2009), and *Fair Housing Center of West Michigan v. Karwoski* (6th Cir., cited 2015) — could not be located in public case-law search during the 2026-07-18 repair-pass verification (`references/source-ledger.md`); never hand these to Jen or her broker as confirmed precedent, lead with 24 CFR §100.75 and NAR Article 12 instead, both confirmed live at law.cornell.edu and nar.realtor on 2026-07-18.
+- **Calling the $19,787 figure a "median."** The number is real — it is HUD's inflation-adjusted maximum civil penalty for a first Fair Housing Act violation under 24 CFR §180.671, confirmed via fairhousingnc.org on 2026-07-18 — but "median" implies a distribution of actual settlements, and this is a statutory ceiling, not an average outcome; don't repeat the mislabel in agent-facing output.
+- **Treating "walking distance to schools" as a fresh judgment call on every listing instead of the documented pattern.** General HUD fair-housing-advertising guidance (confirmed via search, 2026-07-18) treats school-proximity language as a recognized familial-status marker unless paired with a verifiable fact (named school + rating); this is Tier 2 by default, not a case-by-case debate each time it appears.
+- **Skipping the photo review because the remarks text passed.** The Karwoski citation (UNCONFIRMED as case law, see above) still points at a real and standard fair-housing-advertising principle: words plus images together can amplify discriminatory effect. An audit that only reads MLS remarks text and ignores listing photos misses this compounding risk category entirely.
+- **Citing "Fair Housing Act" generically instead of the specific CFR section.** A defensibility statement that says only "Fair Housing Act" isn't checkable; `workflows/01-fh-auditor.md`'s `authority_sources` field requires the specific citation (24 CFR §100.75, confirmed live at law.cornell.edu/cfr/text/24/100.75, 2026-07-18) — vague authority language undermines the defensible-record purpose of the audit.
+- **Flagging "no smokers" as a Fair Housing violation.** It isn't — smokers are not one of the Act's seven protected bases. `references/test-listings.md` (Test Listing 1, dated 2026-07-14) correctly treats this as a lease-document issue, not an MLS remarks violation; over-flagging non-protected terms erodes an agent's trust in the whole audit.
+
+---
+
 ## Limitations & Disclaimers
 
 RE-1 is an audit tool, not legal advice. Always include this in output:
@@ -288,4 +313,3 @@ If a phrase doesn't match known violations, apply this decision tree:
 5. **Is it a lifestyle assumption (e.g., 'active community')?** → YELLOW, educate
 
 When uncertain, default to YELLOW + education. The agent's final call, but document the risk.
-
