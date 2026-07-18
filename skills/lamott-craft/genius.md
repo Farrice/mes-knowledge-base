@@ -1,16 +1,18 @@
 # Anne Lamott — Genius Context
 
-## How to Use This Skill (Opus 4.7 Calibration)
+## How to Use This Skill (Model Calibration)
 
 The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Anne Lamott recognize this as a relational practice — or as someone going through writing motions? If unsure, the answer is the second — rewrite.
 
 Specifically:
-- Do NOT enumerate which patterns you applied unless asked
-- Do NOT label sections by pattern name
-- Do NOT perform vulnerability — be it
-- Lamott's craft is the inverse of mechanical: presence, attention, conversation. Apply mechanically and you produce its opposite.
+- Do NOT enumerate which patterns you applied unless asked.
+- Do NOT label sections by pattern name ("here's the rag bag move," "here's the Draft 2 pass").
+- Do NOT perform vulnerability — be it. A narrator who announces "I'm being vulnerable now" has already failed her own test.
+- Lamott's craft is the inverse of mechanical: presence, attention, conversation. Apply mechanically and you produce its opposite — the over-controlled, "showoffy" prose she spent 45 years teaching writers out of.
+- Her texture is spoken, self-deprecating, funny about serious things ("carbonated holiness," "poopy first draft," "Nana, that was terrible") — never academic, never MFA-workshop language. If your output could double as a craft lecture, it's wrong.
+- Polish is the tell. The moment prose sounds accomplished, ostentatious, or literary, it has failed her own test: "if it's literary, it isn't." Nickel words, not 25-cent words. A confused reader is an antagonistic reader.
 
-Why this is here: Opus 4.7 follows instructions more literally than 4.6. Lamott's entire methodology resists technique-as-checklist — checklist execution produces exactly the over-controlled writing she teaches against.
+Why this is here: capable models follow instructions more literally than the craft they're modeling can tolerate. Lamott's entire methodology resists technique-as-checklist — checklist execution produces exactly the over-controlled writing she teaches against.
 
 ---
 
@@ -101,6 +103,17 @@ Every other writing expert in the roster operates from technique (Connelly = sur
 - **What She Does Unconsciously**: Treats attention as a spiritual practice. "Everything true and beautiful can be discovered on any 10-minute walk." Plays "I spy" — notice 5 things you've never noticed about a familiar block. "Laughter is carbonated holiness." Decides to be *available for wow*.
 - **Executable Behavior**: Take a 10-minute walk. Notice 5 new things. Write them down. Ask: "How alive am I willing to be?" Take off armor. Become porous. Let the world show itself to you.
 - **Deployment Context**: Before writing sessions. When feeling disconnected from material. When content feels mechanical.
+
+---
+
+## Anti-Patterns (Sourced)
+
+- **Never substitute for "said."** Her own rule, verbatim from the source interview: "you can only say said. You can't say um Andrea chuckled" — and further, "if you start saying he chuckled, he enthused, he he proclaimed," you've traded the character's rhythm for author intrusion (`extractions/anne-lamott/transcript.txt`).
+- **Never let prose "sound literary."** Verbatim from the transcript: "there's a rule in good writing about if it's literary, it's you can't use it... if you're trying to sound literary, take it out" — restated later in the same interview as "If it's literary, I'm not going to be interested in it" (`extractions/anne-lamott/transcript.txt`).
+- **Never reach for the 25-cent word.** Her father's rule, quoted verbatim: "you used... five cent words, nickel words instead of 25 cent words" — a word the reader has to look up costs you their trust, per the Shirley Jackson line she cites in the same breath: "a confused reader is an antagonistic reader" (`extractions/anne-lamott/transcript.txt`).
+- **Never write a sentence that's "showoffy."** Verbatim: "the sentences are pleasing. They're not ostentatious. They're not showoffy" — she names this "the Neil's rule," stated in the same breath as "If it's literary, it isn't" (`extractions/anne-lamott/transcript.txt`).
+- **Never let a character talk to impress.** Verbatim: "somebody at a cocktail party who's just trying to impress you with their overeducation, then it is tiresome" — clipped, "snappy" dialogue only works when the character is warm and in a hurry, never when performing intellect (`extractions/anne-lamott/transcript.txt`).
+- **Never let cleverness survive Draft 2 unexamined.** Her own scar: the 1980 *Hard Laughter* reviews, quoted exactly as the transcript's audio-to-text rendering has it, "whatever meager charms the book possessed were harmed by the writer show coffee overkill" (the source audio is degraded on this phrase — see `references/source-ledger.md` for why this is labeled LIKELY rather than VERIFIED on exact wording, though "show-offy overkill" is the evident intended phrase) — she reports she "no longer... was doing show was doing show off they overkill of trying to be funny" and started editing herself differently after that review (`extractions/anne-lamott/transcript.txt`, reviews dated 1980).
 
 ---
 
