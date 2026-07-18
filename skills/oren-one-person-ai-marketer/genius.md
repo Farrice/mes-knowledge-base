@@ -6,6 +6,16 @@
 > ("How to Be a 1-Person Marketing Machine in 2026"), MES-3.0 Deep extraction,
 > adversarially verified (28 REAL / 4 BORDERLINE / 0 PLATITUDE).
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the dual-requirement discipline — every deliverable carries an AI-leverage mechanic AND a taste gate, always — then build originally. The test: would Oren recognize this as an operator who has actually run the week, or as someone using "AI-leverage" vocabulary without ever hitting a cap? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which numbered pattern or workflow you applied unless asked. Execute the mechanic; never announce it — "here's the Monthly MESSAGES Cycle applied to your brand" is the tell.
+- Do NOT soften the hour caps into suggestions. Oren's caps are ceilings enforced by a timer, not aspirations — "do not spend more time... than this" reads as a rule, not encouragement.
+- His texture is blunt, named, and dated: exact hours (8h New Creative, two 2h Performance blocks), exact windows (mid-May to mid-June), exact tools (Perplexity, Facebook Blueprint, Social Snowball). Genericize a number into "some time" or "regularly" and you've lost him.
+- Polish is the tell-class failure here specifically: a deliverable that reads like universal "AI marketing tips" — no better/faster/cheaper axis stated, no named copywriting framework, no cap — has regressed to exactly the midbaseline slop this extraction spends its whole runtime warning against. The skill eating its own anti-pattern is the worst-possible output.
+
 ## The One Principle
 
 **One operator WITH TASTE produces a full marketing team's output by framing AI strategically — never paste-and-pray.** AI is *right* for scaling approved copy, aggregating research, and clerical ops. AI is *wrong* for personal-brand and original voice — there it "all sounds alike / midbaseline / clutters everything with noise." Taste is the guardrail at the **input** (persona + framework selection) and the **output** (the "don't look foolish" review gate).
@@ -193,14 +203,14 @@ Tacit insights Oren demonstrates but doesn't explicitly teach.
 
 - **Paste-and-pray.** Prompting "write me an X" with no substrate and no named framework → regresses to midbaseline. Always route through the Project + a named framework.
 - **AI on Class B.** Letting AI write personal-brand/founder voice "to save time" → converts your differentiator into clutter. Human-only.
-- **Ads-manager fiddling past the cap.** More than two 2h blocks/week → negative-ROI over-tweaking dressed as work. Set a timer; leave when it rings.
-- **Organic-as-growth-engine.** Treating organic social as the primary channel instead of cheap validation → burns the hours that compound (creative).
-- **Channel-first, word-of-mouth-never.** Jumping to ads before the virality audit + referral engine → a permanent CAC tax no copy fixes.
-- **Set-and-forget messaging.** No monthly Messages cadence → stale value-props, drift off the better/faster/cheaper axis, missed trending waves.
-- **Building team-debt to look "real."** Adding headcount/agencies/tools you'd never build from scratch → the exact debt that sinks incumbents.
-- **Trough-panic.** Changing strategy based on mid-May–mid-June (or other known-trough) metrics → reacting to a seasonal constant as if it were signal.
-- **Legend without receipts.** Claiming the one-person-operator narrative without the actual built system → collapses the moment someone asks to see it; itself slop.
-- **Designed founder emails.** Over-polishing the plain-text founder email → loses the personal substance that justifies the surface.
+- **Ads-manager fiddling past the cap.** More than two 2h blocks/week → negative-ROI over-tweaking dressed as work. Set a timer; leave when it rings. (Oren, verbatim: "Do not spend more time in ads manager in those platforms than this. you are likely wasting time if you are spending more in there." — `extractions/oren-1person-ai-marketing/transcript.txt`.)
+- **Organic-as-growth-engine.** Treating organic social as the primary channel instead of cheap validation → burns the hours that compound (creative). (Oren, verbatim: "I've even touched organic social on here because it doesn't matter." — `extractions/oren-1person-ai-marketing/transcript.txt`.)
+- **Channel-first, word-of-mouth-never.** Jumping to ads before the virality audit + referral engine → a permanent CAC tax no copy fixes. (Oren, verbatim: "the first thing that matters most is word of mouth and referral... this starts before anything else happens." — `extractions/oren-1person-ai-marketing/mastery-extraction.md`.)
+- **Set-and-forget messaging.** No monthly Messages cadence → stale value-props, drift off the better/faster/cheaper axis, missed trending waves. (Per `extractions/oren-1person-ai-marketing/mastery-extraction.md`: the monthly list is "the MANDATORY input for all creative and ad copy — nothing gets made that isn't backed by a list item.")
+- **Building team-debt to look "real."** Adding headcount/agencies/tools you'd never build from scratch → the exact debt that sinks incumbents. (Oren, verbatim: "They are going to every day execute on these antiquated processes and technologies." — `extractions/oren-1person-ai-marketing/transcript.txt`.)
+- **Trough-panic.** Changing strategy based on mid-May–mid-June (or other known-trough) metrics → reacting to a seasonal constant as if it were signal. (Oren, verbatim — the raw transcript reads "every single year around miday to mid June" [transcription artifact for mid-May] — `extractions/oren-1person-ai-marketing/transcript.txt`.)
+- **Legend without receipts.** Claiming the one-person-operator narrative without the actual built system → collapses the moment someone asks to see it; itself slop. (Oren, verbatim: "there's a lot of truth to one really effective person monitoring this stuff even at a big business and using some tools to help bring them in data and generate ideas can go a massively long way." — `extractions/oren-1person-ai-marketing/transcript.txt`; this strand is graded `[REAL / BORDERLINE on the anecdote]` in `extractions/oren-1person-ai-marketing/mastery-extraction.md`.)
+- **Designed founder emails.** Over-polishing the plain-text founder email → loses the personal substance that justifies the surface. (Oren, verbatim: "I would suggest sending more plain text stuff whether it's from a founder or whatever it is." — `extractions/oren-1person-ai-marketing/transcript.txt`.)
 
 ---
 

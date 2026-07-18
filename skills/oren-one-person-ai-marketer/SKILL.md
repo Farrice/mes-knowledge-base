@@ -47,6 +47,7 @@ The AI-execution layer beneath Oren's six strategy skills. Oren runs all marketi
 - **Quality Rubric**: [references/quality-rubric.md](references/quality-rubric.md) — load for grading.
 - **Tool Stack**: [references/tool-stack.md](references/tool-stack.md) — the named tools mapped to each block.
 - **Anti-Slop Discipline**: [references/anti-slop-discipline.md](references/anti-slop-discipline.md) — the skill's spine.
+- **Source Ledger**: [references/source-ledger.md](references/source-ledger.md) — every claim labeled VERIFIED/LIKELY/UNCONFIRMED against `extractions/oren-1person-ai-marketing/`.
 
 ## Stacks With
 
