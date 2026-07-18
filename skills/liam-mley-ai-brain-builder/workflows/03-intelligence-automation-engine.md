@@ -196,7 +196,7 @@ Week 8 (Mature):     + X hrs → XX hrs total ← TARGET: 15-25 hrs/week
 
 ---
 
-## Output
+## Output Schema
 
 ### The Intelligence & Automation Blueprint
 

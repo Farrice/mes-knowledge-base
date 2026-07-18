@@ -171,7 +171,7 @@ These feed back into the Knowledge Depth Gap Map at each maintenance cycle, crea
 
 ---
 
-## Output
+## Output Schema
 
 ### The Complete Context Layer
 

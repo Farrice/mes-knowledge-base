@@ -120,7 +120,7 @@ Identify 3 "Day One Wins" — automations or intelligence tools that can be buil
 
 ---
 
-## Output
+## Output Schema
 
 ### The AI Brain Discovery Profile
 

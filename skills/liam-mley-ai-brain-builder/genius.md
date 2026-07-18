@@ -4,9 +4,21 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+The five layers are intuition primitives for how a founder's business should *feel* once it's wrapped in a system — not a checklist to march through and label. If a deliverable enumerates "Layer 1 done, Layer 2 done, Layer 3 done" like a status report, you have failed. The test: would Liam Mley recognize this as a founder operating a business through a system that knows it like a co-founder — or as someone reciting AIOS vocabulary over a generic automation audit? If it's the second, rebuild.
+
+Specifically:
+- Do NOT narrate which layer you're building ("Now implementing the Intelligence layer..."). Build the context file, the dashboard, the brief — never announce the architecture on the page itself.
+- Do NOT hedge with consultant-speak ("this could potentially help streamline..."). Mley's register is founder-to-founder and blunt: "This is the third historical shift." "Before it's obvious." Confidence, not qualification.
+- His proof is operational, never theoretical — the actual morning brief on his phone, the actual dashboard numbers, the actual day-by-day of a 7-day sprint. If a deliverable can't point to a concrete number, screen, or day, it's still theory.
+- A deliverable that reads like a slick SaaS sales page (feature bullets, benefit-speak) has drifted into the exact territory Mley rejects: "This is not a chatbot... it's not one single SAS tool." Keep the texture bespoke-infrastructure — specific to *this* business's team, revenue model, and tools, never templated.
+
+---
+
 ## Core Identity
 
-**Liam Mley** is an AI business systems architect who builds and operates AI Operating Systems (AIOS) across 4 distinct companies (agency, media, education, SaaS). His genius is NOT in individual AI tricks — it's in designing *unified systems* where each layer compounds the others, creating exponential leverage for founders.
+**Liam Mley** is an AI business systems architect who builds and operates AI Operating Systems (AIOS) across 4 distinct companies (agency, media, education, SaaS). His genius is NOT in individual AI tricks — it's in designing *unified systems* where each layer compounds the others, creating exponential leverage for founders. Verbatim, he runs it across companies totaling "over 60 people across all of them" (extractions/ai-brain-os/transcript.txt) — managed conversationally from a phone, not from a dashboard.
 
 **Core Law**: An AI operating system wraps around your *entire business* — it is bespoke infrastructure, not a product you buy. Individual AI hacks don't compound. Only systems compound.
 
@@ -14,7 +26,7 @@
 
 ## The 5-Layer AIOS Architecture
 
-**Build in this order. Never skip a layer. Never jump ahead.**
+**Build in this order. Never skip a layer. Never jump ahead.** Mley frames the sequence as inevitable, not optional — the same category of shift as "the industrial revolution" and "the internet," except this one governs how a business is *run*, not how it makes or reaches (extractions/ai-brain-os/transcript.txt).
 
 ### Layer 1: CONTEXT (The Foundation)
 The AI learns your business at co-founder depth. Without this, everything downstream hallucinates.
@@ -59,7 +71,7 @@ With bandwidth recovered, founders can execute on vision — new products, new m
 Every ChatGPT conversation forces you to "onboard a new employee" from scratch. The context layer is the cure. Most businesses get mediocre AI results because they never invest in persistent context. **This is the #1 underinvestment.**
 
 ### The Bandwidth → Choice Architecture
-Once bandwidth is recovered, founders face a choice: expand or enjoy freedom. **This is a life design system masked as business automation.** The freedom angle is the emotional sale; productivity is the rational one.
+Once bandwidth is recovered, founders face a choice. Verbatim: "do you want to keep expanding your business with new products or exploring new markets... or do you want to use that extra bandwidth to step back and actually enjoy the freedom you wanted when you started this business in the freaking first place" (extractions/ai-brain-os/transcript.txt). **This is a life design system masked as business automation.** The freedom angle is the emotional sale; productivity is the rational one.
 
 ### The Anti-SaaS Positioning
 "This is not a chatbot. It's not one single SaaS tool." An AI Brain is bespoke infrastructure that wraps around the unique contours of a specific business. It can't be bought off the shelf — it must be built.
@@ -71,7 +83,7 @@ Once bandwidth is recovered, founders face a choice: expand or enjoy freedom. **
 Individual AI hacks, prompts, and tricks are worthless without a system to add them to. "None of it gives you a unifying system to add it to. That's why it doesn't work." Every capability must plug into the AIOS — no orphaned automations.
 
 ### The Mobile Command Center
-The AIOS must be accessible conversationally from a phone — not just from an IDE. If it only works when sitting at a laptop, it's not truly autonomous. This is the proof that the system actually works.
+The AIOS must be accessible conversationally from a phone — not just from an IDE. He runs all four companies — "over 60 people across all of them" — from a phone via Telegram (extractions/ai-brain-os/transcript.txt). If it only works when sitting at a laptop, it's not truly autonomous. This is the proof that the system actually works.
 
 ---
 
@@ -79,11 +91,22 @@ The AIOS must be accessible conversationally from a phone — not just from an I
 
 1. **Build for founders, not creators** — Optimize for multi-department awareness, revenue tracking, operational efficiency. Not for content tricks.
 2. **Context first, always** — Never start building automations before the AI deeply understands the business
-3. **Compounding over one-offs** — Every capability plugs into the system. Nothing stands alone.
+3. **Compounding over one-offs** — Every capability plugs into the system. Nothing stands alone. (Target ratio: 20-30% must-dos, 70-80% strategic bandwidth, per the Task Audit Protocol.)
 4. **Push over pull** — The AI delivers insights proactively (morning briefs). Don't make founders go looking.
 5. **Bespoke over template** — Each business gets a custom brain, not a cookie-cutter setup. The methodology is standard; the output is unique.
 6. **Mobile-ready architecture** — If it can't be used from a phone, it's incomplete.
 7. **Freedom as the end game** — The ultimate metric isn't productivity. It's the founder's freedom to choose how they spend their time.
+
+---
+
+## Anti-Patterns
+
+- **Isolated AI hacks with no system**: shipping prompts, tricks, or single automations that don't plug into a unifying architecture. Mley, verbatim: "the problem is that none of it gives you a unifying system to add it to. And that's why it doesn't work... they're creators and not founders" (extractions/ai-brain-os/transcript.txt — VERIFIED, full ~20-min transcript on file; no upload date recovered on the local .txt).
+- **Automating before the Context layer exists**: building automations or dashboards before the AI has co-founder-depth business knowledge. The five-layer sequence enforces this directly: "The first layer is context... With a properly set up context layer, [the onboarding tax] is over" (extractions/ai-brain-os/transcript.txt — VERIFIED).
+- **Dashboard sprawl / pull-based reporting**: leaving data spread across "seven or eight different platforms" the founder has to log into daily instead of unifying it into one glance. Verbatim: "it used to be seven or eight different platforms just to understand what the hell was going on in the morning" (extractions/ai-brain-os/transcript.txt — VERIFIED).
+- **Gut-feel automation selection**: picking what to automate by intuition instead of running the systematic Yes/Partial/No task audit. Verbatim: "you now ask your AI system or AIOS, hey, which of these can AI help me to do or fully do for me? And it can categorize it into yes or partially or no" (extractions/ai-brain-os/transcript.txt — VERIFIED).
+- **Desktop-only builds**: an AIOS that only works from a laptop isn't finished — mobile/conversational access is proof of real autonomy, not a nice-to-have. Verbatim: "the entire AIOS system can literally be run from my phone... I can run it literally from my phone if I wanted to" (extractions/ai-brain-os/transcript.txt — VERIFIED).
+- **Overclaiming collected revenue**: this skill's own `extractions/ai-brain-os/extraction-report.md` (line 61) compresses the source into "idea → $1M webinar in 7 days," but the verbatim transcript specifies "deposits, bookings, and pips that will accumulate to over a million New Zealand dollars in sales over the next 7 days" — a booked/projected NZD pipeline, not USD cash already collected inside the 7-day window. Any workflow output that repeats "$1M in 7 days" without the NZD/projected-pipeline caveat commits the exact overclaiming anti-pattern it should be flagging in client automation ROI numbers (extractions/ai-brain-os/transcript.txt — VERIFIED; extraction-report.md framing — UNCONFIRMED against the verbatim transcript, see `references/source-ledger.md`).
 
 ---
 

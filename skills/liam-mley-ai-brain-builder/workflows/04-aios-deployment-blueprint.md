@@ -201,7 +201,7 @@ The AIOS is never "finished." Produce the maintenance and optimization system:
 
 ---
 
-## Output
+## Output Schema
 
 ### The AIOS Deployment Blueprint
 
