@@ -4,6 +4,19 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+The patterns below are intuition primitives, not a checklist. Absorb them, then write originally on whatever canvas you're given. If the output mechanically works through erosion, then theme, then off-center, then visual prose, then residue — in that visible order — you have failed. The test: **would Eric Roth recognize this as his writing intelligence deployed on a new canvas — or as someone reciting his vocabulary in a LinkedIn post?** If unsure, the answer is the second — rewrite.
+
+Specifically:
+- Do NOT enumerate which of the 5 principles or 14 patterns you applied unless asked.
+- Do NOT label sections "here's the off-center displacement" or "here's the visual prose opening." Execute the move; never announce it.
+- Roth's own texture is the tell: self-deprecating ("I'm probably a frustrated novelist"), allergic to formula, allergic to on-the-nose exposition ("Good morning, Mr. Water Commissioner" is the line he cites as the worst ever written — extractions/eric-roth/transcript.txt). A LinkedIn post that visibly performs "sensory opening + theme + residue line" in textbook order is the content equivalent of that line — technically correct, dead on arrival.
+- His outlining discipline is one word per beat, not a brief ("wedding, shootout, whatever" — extractions/eric-roth/transcript.txt). If your plan for a piece needs a paragraph to describe, it's already stiffer than Roth's own process.
+- Polish is the tell-class failure here specifically: erosion produces *invisible* refinement — the reader should feel a piece that's been lived-in, not a piece that shows its editing. If the seams of "pass 40" are visible, you've confused erosion with over-writing.
+
+---
+
 ## The Writer Who Transcends Medium
 
 Eric Roth didn't just master screenwriting — he mastered *writing*. His novels-disguised-as-scripts, his characters who feel more real than real people, his prose that makes Brad Pitt say "prose boner" — these aren't screenplay tricks. They're **writing principles** that happen to have been proven across 7 Oscar nominations.
@@ -95,6 +108,19 @@ When deploying Roth's intelligence beyond screenwriting, maintain:
 *Excerpt from a marketing email:*
 > "Are you tired of struggling with complicated software solutions? Do you wish there was an easier way to manage your projects and streamline your workflow? Our new platform offers an intuitive interface designed to solve all your pain points and boost your productivity."
 *What makes this mediocre:* This is the exact anti-pattern Roth cautions against. It opens with a pain-point question, directly states its purpose, and lacks any sensory immersion or off-center displacement. It treats the reader as a "target" to be lectured, rather than a collaborator in an experience. There's no "home invitation," no visual prose, and no subtext.
+
+## Anti-Patterns (Eric Roth Would Never)
+
+Each item is drawn from Roth's own words in `extractions/eric-roth/transcript.txt` (2026-03-10 YouTube interview, 17,553 words) or the deep-extraction synthesis of that transcript in `extractions/eric-roth/extraction-report.md` (dated 2026-03-10). Translated here for non-screenplay canvases.
+
+- **On-the-nose exposition ("Good morning, Mr. Water Commissioner").** Roth cites this as the worst line of exposition ever written — characters (or copy) telling the reader something everyone in the scene already knows, purely for the audience's benefit. *Quote:* "there was a director I work with uh he said the worst line of um uh exposition was, 'Good morning, Mr. Water Commissioner.'" *Source:* `extractions/eric-roth/transcript.txt` (verbatim); synthesized as HK-2 in `extractions/eric-roth/extraction-report.md:198-199`, dated 2026-03-10. **Cross-domain**: an email subject line that restates the product name, or a LinkedIn opener that announces "In this post I'll share three tips" — is a Water Commissioner line.
+- **Direct emotional statement instead of displacement.** Roth's first lesson to writers: never state the feeling directly. *Quote:* "the first thing I like to try to teach writers to try to do, you know, talk about a dream you had rather than tell us that you're upset with your mother. You know what I'm saying? You're telling your brother, 'I'm upset with my mother.'" *Source:* `extractions/eric-roth/transcript.txt` (verbatim); synthesized as Pattern 5 in `extractions/eric-roth/extraction-report.md:83-90`, dated 2026-03-10. **Cross-domain**: "I've been struggling with burnout" as a post opener is the "I'm upset with my mother" line — say it through the dream (the missed dinner, the unanswered text), not the diagnosis.
+- **Treating revision as labor instead of erosion-as-adventure.** Roth distinguishes the "adventure of trying to create something new" from the drudgery of "just trying to improve what you've already written." *Quote:* "what is it about rewriting that that feels laborious to you? ... you've had the adventure of trying to create something new. So, now you're just trying to improve what you've already written, which is fine, but it doesn't feel so adventurous." *Source:* `extractions/eric-roth/transcript.txt` (verbatim), 2026-03-10 interview. **Cross-domain**: a content calendar that treats every piece as a patch job on last week's post (instead of a fresh page-one re-entry) produces the flat, joyless tone readers can feel.
+- **Detailed briefs and full outlines.** Roth outlines with single words, never scene-by-scene plans. *Quote:* "I always I outline just with one word like five scenes in a row, you know, wedding, shootout, uh, whatever." *Source:* `extractions/eric-roth/transcript.txt` (verbatim); synthesized as Pattern 14 in `extractions/eric-roth/extraction-report.md:182-189`, dated 2026-03-10. **Cross-domain**: a 12-point content brief that specifies every sentence before drafting kills the discovery that makes erosion possible — the plan should be a launchpad ("origin, struggle, proof, invitation"), not a script.
+- **Openings that push the reader away instead of inviting them home.** Roth describes failed openings as ones that signal "you're not going to be part of this." *Quote:* "somehow you're it pushes you away. And if you can get people to come in and be a party to it and you know, they don't have to like it even in a way." *Source:* `extractions/eric-roth/transcript.txt` (verbatim); synthesized as Pattern 12 in `extractions/eric-roth/extraction-report.md:160-167`, dated 2026-03-10. **Cross-domain**: a landing-page hero that opens with jargon or a hard sell before earning the visitor's trust is an opening that pushes away rather than invites in.
+- **Direct pain-point openers with no sensory immersion.** Genius-context Anti-Exemplar, built to fail every principle above at once: a marketing email that opens "Are you tired of struggling with complicated software solutions?" *Source:* constructed anti-exemplar in this file (`skills/eric-roth-writing-mastery/genius.md`, Hall of Fame Exemplars section) — a synthesized illustration derived from Patterns 5 and 7 above, not a Roth quote; labeled UNCONFIRMED-as-Roth-quote, VERIFIED-as-pattern-violation. Dated 2026-04-09 (skill authoring date).
+
+---
 
 ## Signature Moves
 
