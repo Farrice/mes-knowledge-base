@@ -4,7 +4,7 @@
 
 ---
 
-## How to Use This Skill (Opus 4.7 Calibration)
+## How to Use This Skill (Model Calibration)
 
 The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Michael Connelly recognize this as cinematic prose — or as someone filling vivid-writing slots? If unsure, the answer is the second — rewrite.
 
@@ -13,8 +13,9 @@ Specifically:
 - Do NOT label sections by pattern name
 - Do NOT mechanically place "telling details" — let the world come through
 - Connelly's craft is selection: ONE detail doing the work of five paragraphs. Don't deploy five.
+- His texture is newspaperman-spare, not literary — 14 years at the Los Angeles Times taught him "give me six inches on that," not MFA-workshop cadence. If a sentence sounds *crafted* — the kind of line a workshop would hold up as "good writing" — rewrite it plainer. Polish is the tell-class failure here: the instant prose calls attention to its own construction, it stops being Connelly's and starts being generic "literary."
 
-Why this is here: Opus 4.7 follows instructions more literally than 4.6. Vivid writing dies under mechanical detail-stacking — the whole point is restraint. Checklist execution produces over-detailed prose, the opposite of cinematic.
+Why this is here: strict instruction-following models tend to apply craft patterns more literally than intended. Vivid writing dies under mechanical detail-stacking — the whole point is restraint. Checklist execution (or reflexive "elevation") produces over-detailed, self-admiring prose — the opposite of cinematic and the opposite of the transparent, wire-service economy that is Connelly's actual signature.
 
 ---
 
@@ -40,6 +41,8 @@ Instead of five details, pick the one that says something about the situation AN
 **Cross-domain application**: Social media posts where a single concrete detail replaces a paragraph of abstract claims. Landing pages where one sensory image replaces a list of benefits. Emails where a specific moment replaces a generic pain point.
 
 **Practical move**: Before publishing any piece, identify paragraphs with 3+ details and run the 3-Question Filter. Only the survivor stays. Trust the reader.
+
+Connelly's own example of the filter in action: he sat across from a detective and noticed "he had a groove in the plastic of his earpiece" from clenching his jaw at crime scenes — one physical particular that, in his words, "said a lot about the character with just one little moment like that" (How I Write podcast interview transcript, extractions/michael-connelly/transcript.txt).
 
 ### 2. Momentum Is Sacred — The Speed Bump Audit
 
@@ -84,7 +87,7 @@ The gap between access and belonging IS the voice. If both questions have the sa
 
 ## How Connelly Decides: The Dual-Pass Rewrite System
 
-Connelly doesn't edit. He rewrites — and the rewrite has two distinct passes with different purposes:
+Connelly doesn't edit. He rewrites — and the rewrite has two distinct passes with different purposes. In his own account: "I print out what I do. What I've written the day before, I'll print it out and I'll mark it up with a pencil and then I put those changes into the digital form" (How I Write podcast interview transcript, extractions/michael-connelly/transcript.txt).
 
 ### Pass 1: Micro-Erosion (Sentence Level)
 Read each sentence in isolation. For every sentence, ask:
@@ -93,7 +96,7 @@ Read each sentence in isolation. For every sentence, ask:
 - Is there a nod that could replace a full sentence?
 - Is there a telling detail buried inside a paragraph of decoration?
 
-Cut until you hit bone. Then check if the bone is strong enough to hold weight.
+Cut until you hit bone. Then check if the bone is strong enough to hold weight. This is a daily habit, not a once-per-book pass: Connelly does it every morning on "anywhere from three pages to 10" of the previous day's writing (transcript.txt) — using personal shorthand where "RW means like rewrite this whole paragraph" and "NSG means not so good" (transcript.txt).
 
 ### Pass 2: Macro-Erosion (Structural Level)
 Read the entire piece as a reader would — in one sitting, at speed. Mark:
@@ -102,47 +105,61 @@ Read the entire piece as a reader would — in one sitting, at speed. Mark:
 - Where something clever calls attention to itself (ego → cut it)
 - Where the character disappears for more than 3 sentences (character vacuum → reshape)
 
-**The decision rule between passes**: Micro-erosion removes bad words. Macro-erosion removes good words that are in the wrong place. Both are necessary. Most writers only do one.
+**The decision rule between passes**: Micro-erosion removes bad words. Macro-erosion removes good words that are in the wrong place. Both are necessary. Most writers only do one. Connelly runs the macro pass once per book: "I print the whole thing out, go through it reading it in paper and marking it up" before transferring the full set of changes (How I Write podcast interview transcript) — a single full-manuscript pass across all 42 books.
 
 ---
 
 ## Connelly Would Never... (Anti-Patterns)
 
-These are structural violations. If any appear in your output, you've departed from Connelly's intelligence:
+These are structural violations, each traced to a specific claim Connelly makes about his own process in the sourced interview (How I Write podcast, "How to Write Vividly Well" — extractions/michael-connelly/transcript.txt, 64,634 bytes, full episode transcript). If any appear in your output, you've departed from Connelly's intelligence:
 
 ### AN-1: Decorative Prose
 Prose that exists to sound beautiful rather than move the story forward. If a sentence's primary function is to be admired, it fails the momentum test. Connelly's prose is *transparent* — you see through it to the story, not at it.
+
+- **Source anchor**: "I eminently trust the reader" (How I Write podcast interview transcript, extractions/michael-connelly/transcript.txt) — decoration is what a writer adds when they don't trust the reader to get it from the plain version.
 
 **Detection**: Read any "beautiful" sentence and ask: "Does this move the reader forward or make them pause to appreciate the writing?" If the latter — cut it.
 
 ### AN-2: Adjective Stacking
 "The cold, dark, lonely, rain-slicked alley." Connelly would use one detail — "the alley smelled like wet cardboard" — and let the reader build the cold, the dark, and the lonely themselves.
 
+- **Source anchor**: on what writers get wrong — "I don't like to be hit with uh too much detail over over details" (How I Write podcast interview transcript, extractions/michael-connelly/transcript.txt).
+
 **The Rule**: Maximum 1 adjective per noun. If you need 2+ adjectives, you haven't found the right noun.
 
 ### AN-3: Characters Explaining Their Feelings
 "Bosch felt angry about the injustice." Never. Connelly shows: Bosch grips the steering wheel until his knuckles go white. He doesn't say "I'm angry." His jaw muscle works. His right hand moves toward where his holster sits.
+
+- **Source anchor**: his editor's own tally — "he's nodded 540 times and we're only on page 200" (How I Write podcast interview transcript, extractions/michael-connelly/transcript.txt) — 540 physical beats standing in for spoken "yes"/"no."
 
 **The Rule**: Emotions are shown through physical behavior, not narrated. "He felt X" is always a rewrite trigger.
 
 ### AN-4: Forced Metaphors
 Metaphors that call attention to their own cleverness. Connelly's language is working-class direct — metaphors are rare and when they appear, they feel like observations, not literary constructions.
 
+- **Source anchor**: even Connelly flags his own reach — he calls the Bosch/Hieronymus Bosch name choice "the admittedly strained metaphor I was going for" (How I Write podcast interview transcript, extractions/michael-connelly/transcript.txt), while defending that "names as metaphors are great, especially if it's a metaphor that matches what you're trying to do" (transcript.txt). A metaphor Connelly can't name that plainly is too visible.
+
 **Detection**: If a metaphor could appear in a creative writing workshop as an "example of good writing" — it's too visible. Cut it.
 
 ### AN-5: Exposition Dumps
 Paragraphs that explain backstory, context, or motivation directly to the reader. Connelly distributes context through action, dialogue, and detail. He never stops the story to teach you something.
+
+- **Source anchor**: on his AI-themed legal thriller — "Not not be didactic. I don't think the book tells anyone what to think or what to do... but it does ask questions" (How I Write podcast interview transcript, extractions/michael-connelly/transcript.txt).
 
 **The Rule**: If a paragraph's primary function is to inform rather than move, find a way to embed that information in action or dialogue. If you can't — the information probably isn't needed.
 
 ### AN-6: Overwriting Action
 Making violence or spectacle the centerpiece. Even in murder mysteries, Connelly's focus is on what the work *costs* the hero, not on the violence itself. The noble battle — entering moral darkness to bring order — matters more than the crime.
 
+- **Source anchor**: "I'm not one of these guys who wants to get into the psychological murder motives behind um a violent crime... I'd rather um concentrate on what it takes to be the good guy" (How I Write podcast interview transcript, extractions/michael-connelly/transcript.txt) — and "there is a cost doing that" (transcript.txt).
+
 **The Rule**: What does the work cost your character? That's the deeper story. Spectacle without cost is empty.
 
 ---
 
 ## Key Differences from Other Writing Experts
+
+The closest adjacent expert on the roster is logged directly in the source extraction: "Existing Overlap: Partial with Eric Roth (writing mastery) — distinct methodology, complementary stacking" (extractions/michael-connelly/extraction-report.md, Content Assessment).
 
 | vs. | Connelly's Distinction |
 |-----|----------------------|
@@ -156,6 +173,8 @@ Making violence or spectacle the centerpiece. Even in murder mysteries, Connelly
 ---
 
 ## Expert Stacking Protocols
+
+The extraction report identifies 10 genius patterns and 6 hidden-knowledge insights ("Genius Patterns: 10 identified"; extractions/michael-connelly/extraction-report.md, Content Assessment) as the basis for these stacks — each row below composes one of those 10 patterns with an adjacent expert's engine rather than duplicating it.
 
 | Stack With | What Compounds |
 |-----------|---------------|
