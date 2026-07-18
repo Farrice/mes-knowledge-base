@@ -55,3 +55,11 @@ The user wants a 7-day or short launch sprint for a digital product.
 ## Stop/Adjust Signals
 [What means the launch needs repair]
 ```
+
+## Quality Gate
+- The 7-Day Calendar has a Build/Publish/Follow-Up entry for every day 1-7, matching the template shape — no skipped or merged days.
+- Day 4 (main sales post) explicitly carries the 10-minute reply sprint and a ready-buyer lane, not a generic "post and monitor" note.
+- Replay Templates give 3-5 genuinely different reusable frames (new proof angle, new objection, new first-use story), never the same post copy-pasted.
+- Intent Routing has a distinct prompt per lane (cold, warm, ready, wrong-fit) — a shared script for all four fails this gate.
+- Stop/Adjust Signals name a real, checkable trigger (e.g., comments with no DMs by hour 2, DMs with no checkout clicks by day 3), not a vague "if it's not working."
+- No day's Publish column implies guaranteed sales; proof-bank claims stay labeled per `revenue-mechanics.md`.

@@ -74,3 +74,12 @@ The post must pass the specificity gate in `voice-and-texture.md`: a transformat
 - If the draft only asks questions, run Launch Debugger before delivery.
 - Do not imply guaranteed revenue.
 - Avoid vague verbs like "learn more" as the only action.
+
+## Quality Gate
+- The final post passes the `voice-and-texture.md` specificity gate: transformation headline with two hard numbers, an enemy line, an invented named mechanism, and a payload freebie of 3-5 spec'd deliverables — not a "free guide."
+- Hook Bank has all 15 lines across the required `post-anatomy.md` types, with the top 3 marked and why they win the scroll-stop test.
+- CTA lanes are genuinely distinct: a value keyword and a purchase-intent keyword route to different DMs, not the same script with a variable swapped in.
+- Reply Sprint Scripts cover all five categories (delivery, objection, proof, ready buyer, wrong fit) with real language, not placeholders.
+- First-Use Path names a concrete window (30 minutes / 24 hours / 7 days) tied to the actual product, not a generic "get started" note.
+- No revenue or results figure is stated as guaranteed; every claim without owned proof is marked an assumption in Proof/Risk Notes.
+- If the draft only produces a question map or a "comment for guide" CTA with no purchase-adjacent lane, it fails this gate — run `/suzuki-launch-debugger` and repair before delivery.

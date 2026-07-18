@@ -42,3 +42,11 @@ The offer needs credible proof before the sales post or funnel can work.
 ## Collection Action
 [What to collect today]
 ```
+
+## Quality Gate
+- Every row in the Proof Inventory carries a status (verified, owned, assumed, missing) — no unlabeled proof item.
+- Best Post Proof and Best Checkout Proof are each one concrete cue (a specific number, sample, or artifact), not a proof category.
+- Any borrowed or partner proof used in Best Post Proof or Best Checkout Proof is flagged for disclosure before it reaches the post or checkout — never presented as the operator's own result.
+- Missing Proof lists real, named gaps, not a placeholder line.
+- Collection Action names one thing gatherable today (a screenshot, a testimonial ask, a sample export), not a research task with no deadline.
+- No revenue or outcome figure is promoted from "assumed" to "verified" without a real source.
