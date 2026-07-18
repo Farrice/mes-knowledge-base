@@ -2,7 +2,26 @@
 
 > Load this file before executing any workflow. It contains the full
 > extraction intelligence — patterns, tacit knowledge, and operating
-> principles that make this expert's output actually work.
+> principles that make this expert's output actually work. Grounded in
+> the MES 3.0 extraction of Dai Media's Consumer Posture masterclass
+> (~12-minute source video, transcript not separately preserved; full
+> extraction analysis at `knowledge/extractions/inbox/Claude-💎💎💎💡 Dai
+> Media ! Identity Persona Mastery ! demographics are dumb and
+> outdated.md`) — see `references/source-ledger.md` for claim-by-claim
+> provenance.
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then advise originally. If the output marches "Occupation, Activity, Thought Process" as three labeled subheadings, or stamps "(Pattern 7: Emotional Outcome)" onto a sentence, you have failed. The test: would Dai Media recognize this as an individual he could point to on a street and predict — or as market-segment language wearing Consumer Posture vocabulary? If it reads like a persona template with the demographic fields swapped for psychographic ones, rebuild.
+
+Specifically:
+- Do NOT enumerate which patterns you applied unless asked. Dai never says "per my Individual Before Community Inversion" — he just refuses to write "people who…" and moves straight to a named person.
+- Do NOT label sections "Occupation:", "Activity:", "Thought Process:" as a fill-in-the-blank form. The three dimensions should read as one continuous portrait of a specific human, the way the source's MATTE & CO example builds Sara through a 3-minute pour-over ritual, not a table.
+- Do NOT hedge with "could feel," "might resonate," or composite-persona language ("busy professionals who value quality"). Dai's authority comes from singular, declarative specificity — "her name is something like Sara," not "our target demographic is professional women 28-40."
+- His delivery is philosophical and slightly literary — living-systems metaphors (heartbeat, weather, ecosystem), short declarative sentences, and a refusal to soften the individual-vs-group distinction. If the output reads like a marketing-agency deck with bullet-pointed "consumer insights," that polish is the tell-class failure — the genuine artifact is closer to a character study than a slide.
+- Never let demographic language (age, income, gender, "Gen Z," "urban professionals") do strategic work. It's permitted only in the narrow media-buying-efficiency sense named in Tacit Knowledge 1 — never as a stand-in for who the brand is actually speaking to.
+
+---
 
 ## Genius Patterns
 
@@ -14,6 +33,8 @@
 **Execute**: Frame brands as living organisms with heartbeats, weather systems, and environmental conditions rather than business entities.
 
 **Success Metric**: Ability to articulate brand vitality in biological terms that reveal strategic opportunities invisible in traditional frameworks.
+
+The source's own worked example of this diagnosis: Meridian Electronics, a "47-year-old organism" whose "original heartbeat was CRAFT EXCELLENCE IN SOUND," is flagged "ARRHYTHMIC" once survival adaptations replace the founding pulse.
 
 ---
 
@@ -39,6 +60,8 @@
 
 **Success Metric**: Consumer profile enables prediction of behavior in novel situations.
 
+The source's MATTE & CO profile shows all three dimensions fused into one portrait: Sara's Activity is a 3-minute pour-over that is "the only time in her day when nothing is optimized" — Occupation and Thought Process follow from that single ritual, never listed as separate form fields.
+
 ---
 
 ## Pattern 5: The Row Reverse-Engineering Method
@@ -52,6 +75,8 @@
 **Execute**: Identify behaviors your ideal consumer practices that your brand should encode into policy, experience, or values. Your brand should teach consumers how to BE, not just sell them products.
 
 **Success Metric**: Your policies would be recognizable as belonging to your brand because they embody consumer values.
+
+Sourced from The Row's actual physical rules: "no phones in stores, no phones at runway shows" — read by the extraction as "consumer education disguised as rules," not operational policy.
 
 ---
 
@@ -88,12 +113,16 @@
 
 **Success Metric**: Immediate, confident answers to inverse questions about consumer psychology.
 
+The source names the failure mode directly: most brand owners "are stunned into silence" by these questions and simply "go blank" — they know demographics and purchase behavior but not the consumer's inner refusals.
+
 ---
 
 ## Pattern 12: The "By The Tail" Methodology
 **Execute**: Consumer work isn't complete until you can confidently predict how your ideal individual would respond to any brand decision. If you can't predict, you don't understand deeply enough.
 
 **Success Metric**: Prediction accuracy on consumer response to novel brand activities.
+
+Dai's own phrase for this state is having the consumer "by the tail" — "total strategic control because you can predict and lead behavior."
 
 ---
 
@@ -109,16 +138,18 @@
 
 **Success Metric**: Every channel and format decision traces back to consumer's relationship with technology.
 
+Grounded in a single Row observation: their consumer is "analog"—"not obsessed with phones and social media"—which the source treats as the one insight explaining both the paintings-only Instagram and the no-phone store policy.
+
 ## Hidden Knowledge
 
-5 tacit knowledge points from Dai Media with Deploy instructions.
+5 tacit knowledge points from Dai Media with Deploy instructions, drawn from the same ~12-minute source video that produced the 14 Genius Patterns above.
 
 ---
 
 ## Tacit Knowledge 1: Demographics Are Performance Metrics, Not Consumer Truth
 Dai knows that demographics are useful only for media buying and ad targeting efficiency—they tell you where to place ads, not who you're speaking to.
 
-**Deploy**: Use demographics for media efficiency. Use Consumer Posture for message creation and brand strategy. Never conflate the two.
+**Deploy**: Use demographics for media efficiency. Use Consumer Posture for message creation and brand strategy. Never conflate the two. Source: "demographics are useful only for media buying and ad targeting efficiency—they tell you where to place ads, not who you're speaking to."
 
 ---
 
@@ -187,10 +218,25 @@ The Row's Instagram contains paintings and "cool shit"—no product, no lifestyl
 | **Brand World Coherence** | Brand elements are loosely aligned with consumer needs. | Brand elements show intentional alignment with consumer values. | Every brand policy, channel, and message is an intentional reflection and reinforcement of the consumer's core posture, designed as a world for them to inhabit. |
 | **Unarticulated Identity Resonance** | Uses generic language to describe consumer aspirations. | Attempts to articulate consumer feelings, sometimes missing the mark. | Precisely names and validates the consumer's unspoken feelings, identity struggles, or hidden aspirations, creating a profound 'How did they know I needed this?' reaction. |
 
+---
+
+## Anti-Patterns (each with source)
+
+1. **Describing the consumer as "people who..." or "the community that..."** — starting any consumer definition with a group frame instead of a singular individual. Source: *"When tempted to describe your consumer as 'people who...' or 'the community that...', stop. Find ONE specific individual who embodies your ideal consumer."* (`knowledge/extractions/inbox/Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated.md`, Pattern 2, line 164). The extraction restates this as a direct substitution rule: *"Replace 'people who...' with 'the person who...' Every strategic element must trace to a specific, findable individual—not a composite, not a persona, not a demographic slice."* (same file, line 7383).
+2. **Building a composite or fictional persona instead of naming a real, findable individual** — the classic marketing-agency "persona slide" with invented demographic ranges. Source: *"Identify your single most ideal individual consumer—a real, findable person, not a composite persona."* (same file, 24-Hour Quickstart / Day 1-2, line 349). Reinforced at line 406: *"Not a persona. A real, findable person. If you can't name someone, you don't know your consumer."*
+3. **Explaining a purchase through functional need instead of emotional outcome** — "they need clothes" framing. Source: *"reject functional explanations ('they need clothes') in favor of emotional outcomes ('they want to feel unreachably polished and mysteriously withdrawn')."* (same file, Pattern 7, line 222).
+4. **Treating trend-adoption as identity** — building a brand strategy around a consumer behavior without checking whether it's trend-hopping or fundamental self-perception. Source: *"Is this person trend-hopping, or is this how they fundamentally see themselves? Only individuals in the second category are worth building a brand around."* (same file, Pattern 8, line 233).
+5. **Making a strategic call because "that's what I see happening online"** — groupthink-driven pivots. Source: *"Before any strategic decision driven by 'what I see happening online,' pause. Ask: 'Am I following a group pattern, or do I understand why a specific individual is making this choice?'"* (same file, Pattern 9, line 244).
+6. **Running a desperate, thirsty social presence** — product shots, lifestyle UGC, and engagement-bait that signal the brand needs the audience's attention. Source: *"We don't need your attention. We're not thirsty."* ... *"Desperate? Thirsty? Trying too hard?"* (same file, Tacit Knowledge 5, lines 338 and 340).
+7. **Conflating demographic data with consumer truth** — using age/income/gender segments to drive message creation instead of media buying. Source: *"demographics are useful only for media buying and ad targeting efficiency—they tell you where to place ads, not who you're speaking to. Brand owners confuse the operational utility of demographics with consumer insight."* (same file, Tacit Knowledge 1, line 310).
+8. **Asking "what content should I make?" instead of starting from the individual consumer's unarticulated thoughts** — trend-observation-driven content planning. Source: *"When stuck on content, never ask 'What content should I make?' Instead ask 'What does my individual consumer think about this topic? What are they not able to articulate about it?'"* (same file, Pattern 13, line 288).
+
+---
+
 ## Evolution Log
 
 > Tracks all evolution attempts — kept AND discarded.
-> Each entry documents a hypothesis, result, and lesson.
+> Each entry documents a hypothesis, result, and lesson. One entry recorded to date, dated 2026-04-09 (below).
 
 ### 2026-04-09 — Decision Trigger Mapping (Consumer Identity Discovery Blueprint)
 - **Hypothesis**: Adding a Decision Trigger Mapping phase (Phase 2b) between posture construction and real-world validation will make profiles predictively actionable by mapping the specific internal conditions that convert identity alignment into purchase behavior.
