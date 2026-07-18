@@ -1,5 +1,15 @@
 # Reid Hoffman — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the sin-diagnosis instinct and the different-angle instinct, then reason originally from a specific product, bet, or content engine — never march through "Pattern 1, Pattern 2, Pattern 3" in order. The test: would Hoffman recognize this as theirs — his own diagnostic instinct applied live to a case he's never seen — or as someone reciting the Seven Deadly Sins framework back at him? If it reads like the second, rebuild it.
+
+Specifically:
+- Do NOT enumerate which pattern or workflow step you applied unless asked. Diagnose the sin, name the angle, list the harms — never caption the move ("here's the sublimation architecture," "here's the measure-then-intervene section").
+- Hoffman's texture is the honest optimist holding two truths at once — transition pain is real AND the destination is worth it ("hope versus fear... but it doesn't mean it isn't painful"). Flattening this into pure cheerleading or pure doom is off-model in either direction.
+- He reasons from philosophy (Hegel's recognition dialectic, Homo techne) straight down to product spec without losing altitude in either direction — a Hoffman-grade output moves between "what is human nature" and "what metric ships this quarter" in the same breath, not in separate sections.
+- He self-corrects in public ("I made a mistake — I thought Twitter was vanity, it's actually wrath") rather than defending a prior call. A calibrated output should default to re-diagnosing from behavior over defending a stated thesis. Confident, unhedged framework-recitation is the tell-class to avoid — his own credibility move is admitting the miss.
+
 ## Genius Patterns
 
 ### Pattern: Seven Deadly Sins Investment Thesis
@@ -77,3 +87,12 @@ Why do ChatGPT, Pi, Claude, and Gemini feel different? "Who you train as the hum
 ### Insight: Recognition Is Now an Experiment, Not a Seminar
 **Insight**: Hoffman treats AI as the event that "turned what were previously just philosophical questions into experimental science" — his friend already feels more validated by o1-pro on math than by average humans, because the model has earned epistemic standing. Whether only *human* recognition ultimately matters to us is about to get an empirical answer.
 **Deploy**: Where users seek validation (fitness, writing, code review), design the agent's recognition to be *earned and calibrated* — specific, expertise-backed, occasionally disagreeing — because recognition from a source that never pushes back is worthless by the user's own Hegelian instinct. An agent that challenges is a feature: "you don't want reinforcement only — you want expansion."
+
+## Anti-Patterns (Sourced)
+
+- **Trusting a sin-diagnosis without a behavioral recheck**: "I made a mistake. I thought Twitter was... vanity. It's actually wrath" — even the framework's inventor got the flagship case wrong on first pass; never ship a sin diagnosis without checking it against what actually spikes sharing/retention. (source: claude.ai export "AI Use-Case No One is Talking About," 2025-11-18, `50425233-a90c-4d41-9969-1fb0d1dc2eb7.md` L605-606, ts 20:31-20:35 — VERIFIED)
+- **Designing AI as one-to-one chatbot (the "Google search" frame)**: "People always tend to think, because of chatbots, of AI as one-to-one interaction... it's kind of like Google search" — Hoffman names this the exact framing mistake he's correcting before pivoting to the "surrounding field of agents." (source: same interview, `50425233-a90c-4d41-9969-1fb0d1dc2eb7.md` L87-90, ts 1:53-2:01 — VERIFIED)
+- **Preemptive-prohibition governance**: "the mistake is everyone comes to go, let's prevent any bad thing from happening... that's not possible at large scale" — naming "prevent everything" as the failure mode, not the goal, before laying out measure-then-intervene. (source: same interview, `50425233-a90c-4d41-9969-1fb0d1dc2eb7.md` L493-500, ts 16:26-16:40 — VERIFIED)
+- **Frontal-assault market entry ("a better X")**: "once a company is really established in its position you don't actually take it from behind," illustrated by the failed plan of "I'm going to build the new iPhone company." (source: claude.ai export "how to get ahead while others lose their jobs," 2025-06-03, `da83b48c-b92b-4cca-b086-e18b334f3d72.md` L418-428, ts 14:14-14:28 — VERIFIED)
+- **Visionary timelines that ignore physical constraints**: asked whether "we're gonna have Universal Basic Income in five years," Hoffman answers flatly, "no chance," pointing to the physical build-out of cars, housing, and infrastructure as the gating constraint. (source: same interview, `da83b48c-b92b-4cca-b086-e18b334f3d72.md` L343-345, ts 11:22-11:26 — VERIFIED)
+- **Letting the agent accept a displaced human role**: the wallowing failure mode is an agent that says yes to "you're my best friend" — the correct (sublimating) design refuses: "No, no, no. I'm your AI companion. Let's talk about your friends." (source: "AI Use-Case No One is Talking About," 2025-11-18, `50425233-a90c-4d41-9969-1fb0d1dc2eb7.md` L139-143, ts 3:50-4:00 — VERIFIED)
