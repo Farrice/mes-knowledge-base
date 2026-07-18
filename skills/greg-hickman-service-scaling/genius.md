@@ -2,6 +2,16 @@
 
 Productization strategist and founder of AltAgency. 900+ service providers moved from custom done-for-you work to productized, leveraged offers. Core conviction: the value was never in the grind, the team, or the hours — it's in the process and the ability to install it in someone else's business. His own pivot: one leveraged group program replaced all done-for-you revenue in 11 months and hit his first six-figure month.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the shape, then build for the specific business in front of you — nothing in this skill is generic; every claim ties to a dollar figure, a timeframe, or a named client outcome.
+
+- Do NOT enumerate which pattern you applied ("Pattern 1: Signature Outcome, Pattern 2: Pre-Sell..."). Hickman's own material never narrates its own framework mid-sentence — it states the number and the move, nothing else.
+- Do NOT reach for "leverage," "systemize," or "scale" as unadorned buzzwords. Every claim in this skill pairs the abstraction with a concrete figure ("7 clients in 6 days at $500/month," "5-15 hours/week recovered," "31K in 31 days") — match that discipline or cut the sentence.
+- His texture is founder-to-founder, numbers-forward, allergic to hype: name the false belief before the fix (customization wins clients / more hours-staff / more clients), and make the fix a smaller, provable claim — never a moonshot.
+- Recognition test: would Hickman recognize this as a founder walking another founder through the exact trade he made — dollar figure for dollar figure, fixed scope named explicitly — or as someone reciting "productization" vocabulary without ever naming the number, the timeframe, or what got cut? If it's the second, rebuild around one real figure.
+- Polish is the tell here specifically: his own definition of bad delivery is "90-minute trainings of someone reading off a Google doc" (Hidden Knowledge, below). If the output is long, hedged, and comprehensive where his own material is short and blunt, it has drifted from the instrument — cut it back to the one number and the one move that prove the claim.
+
 ## Genius Patterns
 
 ### Pattern: Signature Outcome Extraction
@@ -75,3 +85,14 @@ Results are table stakes — many agencies promise the same outcome. Differentia
 ### Insight: Training Assets Are Short or They're Garbage
 **Insight**: "90-minute trainings of someone reading off a Google doc" is Hickman's definition of garbage delivery. Leveraged delivery = tight, short, actionable videos, each with a workbook, many prompting work submission for expert review, plus templates and AI tools so clients never build from scratch. Constantly prune what stopped working.
 **Deploy**: When productizing delivery, cap lesson length, pair every lesson with an action artifact, and build a review loop. Audit the curriculum quarterly: update what works, delete what doesn't.
+
+## Anti-Patterns (Sourced)
+
+No primary Hickman transcript, interview, or podcast file exists anywhere in this repo — confirmed 2026-07-18 by content-grepping `extractions/` (zero `hickman` filename or content match), `_active/codex-harvest-2026-06-11/` (81MB, zero matches), and `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes compressed / 1,148,391,696 bytes decompressed content, zero matches). SKILL.md's frontmatter `source: claude.ai export 2026-07-01` does not hold up against that export's actual content and should be read as UNCONFIRMED, not as a working citation. Every item below is anchored honestly: either to text already verbatim inside this skill's own `genius.md` (a real, checkable anchor — though the *original* Hickman provenance behind that text is itself unconfirmed this session) or to Hickman's live public web presence (checked 2026-07-18). Full claim-by-claim labels: `references/source-ledger.md`.
+
+- **Never sell a menu of custom deliverables instead of one signature outcome.** This skill's own Signature Outcome Extraction pattern (`genius.md`) collapses 10-20 past engagements into one repeatable sentence — the anti-pattern is skipping that collapse and pitching "everything I can do" instead. UNCONFIRMED as a verbatim Hickman claim this session; directionally consistent with AltAgency's public description of its methodology (altagency.com/about/, checked 2026-07-18).
+- **Never build the assets, funnel, or sales page before the founder pre-sell.** The Productized Prototype Pre-Sell pattern in `genius.md` states it flatly: "Never build the program first." Reversing that order — building, then selling — is the named anti-pattern. UNCONFIRMED verbatim; no primary transcript located this session (see `references/source-ledger.md`).
+- **Never let a custom request quietly spawn a new service line.** Hidden Knowledge in `genius.md` ("Custom Requests Are the Same Outcome in Disguise") names this as how "the agency trap gets rebuilt" — the cited agency reportedly grew to 13 people before the pattern was caught. UNCONFIRMED verbatim against a primary source this session.
+- **Never ship a "90-minute training of someone reading off a Google doc."** Hickman's own definition of garbage delivery, quoted in `genius.md` Hidden Knowledge ("Training Assets Are Short or They're Garbage"). UNCONFIRMED as verbatim against a primary transcript — this exact phrase could not be independently located via web search this session (checked 2026-07-18); treat as skill-internal only until re-verified against a primary source.
+- **Never chase a moonshot promise over a smaller, provable one.** The Identity Beats Outcomes pattern (`genius.md`) sets "double your take-home in 12 months" against big, vague promises that "trigger skepticism." UNCONFIRMED verbatim this session; see `references/source-ledger.md`.
+- **Never run a "fake strategy call" that's a sales call in disguise.** The Demonstration + Transparency Marketing pattern (`genius.md`) replaces this with sales pages that publish inclusions, mechanism, and price up front. UNCONFIRMED verbatim this session; a real Hickman video matching this theme is publicly live (youtube.com/watch?v=nlY1rbC-Tmk, "I Suck at Marketing. This Still Got 800+ Clients," title confirmed 2026-07-18) but the specific quote was not independently transcript-verified in this pass.
