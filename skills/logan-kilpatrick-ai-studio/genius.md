@@ -6,11 +6,17 @@
 
 ## Genius Patterns
 
-*No genius patterns extracted yet. Run extraction to populate.*
+- **Screenshot-first grounding**: Kilpatrick's default move on a new build is to screenshot an existing UI (often AI Studio's own interface) and feed it back in with "clone this exactly" instead of describing the interface in prose — a full clone of the AI Studio surface reportedly finished in 68 seconds. *(LIKELY — Behind the Craft podcast, "Master Google AI Studio in 40 Minutes," episode notes, 2026-01-25, https://lilys.ai/en/notes/google-ai-studio-20260128/logan-kilpatrick-google-ai-studio)*
+- **Ship-fast-then-fix cadence**: his stated operating mode is binary — "there is only one mode: we ship fast" — paired with an explicit tolerance for visible breakage: "it is acceptable to be wrong if they move fast and fix it." *(LIKELY — same source, 2026-01-25)*
+- **Error tolerance as proof, not embarrassment**: a floor-plan app he demoed hit 42 errors, all resolved in 38 seconds of in-session iteration — the number is told as evidence the tool absorbs failure, not edited out of the story. *(LIKELY — Behind the Craft podcast notes, 2026-01-25)*
+- **Variation-then-selection over single-shot design**: rather than committing to one direction up front, he asks the model to "add a widget so I can click through these styles," generating several UI variations in one pass and choosing after seeing them side by side. *(LIKELY — Behind the Craft podcast notes, 2026-01-25)*
+- **Agents and models as one converging surface**: he frames the agent/model split as temporary — "Folks have thought about agents and models as these decoupled concepts, and it feels like they're coming closer and closer together as the model capabilities keep improving" — which is why AI Studio pitches Gemini 3 Pro and Nano Banana Pro as pieces of one build surface rather than separate products. *(LIKELY — Google Cloud Blog, "Agent Factory Recap: Build AI Apps in Minutes with Google's Logan Kilpatrick," 2025-11-07, https://cloud.google.com/blog/topics/developers-practitioners/agent-factory-recap-build-ai-apps-in-minutes-with-googles-logan-kilpatrick/)*
 
 ---
 
 ## Hall of Fame Exemplars
+
+*Provenance note: the two exemplars below are illustrative constructions used to calibrate tone and structure for this skill — no matching transcript, video, or article was located during repair (2026-07-18 source search: local `extractions/` has no Kilpatrick file; web search found no "AI Tutor" walkthrough or "hallucination diagnosis" post under his byline). They are labeled UNCONFIRMED in `references/source-ledger.md` and should be read as calibration scaffolding, not verbatim excerpts. The Genius Patterns and Anti-Patterns above and below, by contrast, cite dated primary sources found during this repair.*
 
 **Exemplar 1: "Building a Personalized AI Tutor in Google AI Studio"**
 
@@ -35,12 +41,37 @@
 >
 > **What makes this mediocre:** This is the antithesis of Logan Kilpatrick's approach. It's generic, lacks specific context for Google AI Studio, offers no practical demonstration, and provides theoretical advice without showing *how* to implement it or *why* it works in a specific environment. It's not actionable and could apply to any LLM, failing the "expert-specific advantage" check.
 
+---
+
+## Anti-Patterns
+
+- **Prompting a UI from a blank page instead of grounding in a screenshot** — his own default workflow is the opposite: "I take a screenshot of AI Studio, put it back in AI Studio, and I say clone this" (The Neuron Daily, "How Google's Head of AI Studio Builds Apps in Under a Minute," podcast recap, 2025-08-29, https://www.theneurondaily.com/p/podcast-how-google-s-head-of-ai-studio-builds-apps-in-under-a-minute).
+- **Treating a working prototype as a finish line instead of a checkpoint to keep shipping** — "there is only one mode: we ship fast" (Behind the Craft podcast, "Master Google AI Studio in 40 Minutes," episode notes, 2026-01-25, https://lilys.ai/en/notes/google-ai-studio-20260128/logan-kilpatrick-google-ai-studio).
+- **Freezing on a decision instead of shipping the imperfect version and correcting fast** — "it is acceptable to be wrong if they move fast and fix it" (same Behind the Craft episode notes, 2026-01-25, https://lilys.ai/en/notes/google-ai-studio-20260128/logan-kilpatrick-google-ai-studio).
+- **Describing a desired UI change in prose instead of marking it directly on the screen** — per the Behind the Craft breakdown of AI Studio's Annotate feature (episode "Master Google AI Studio in 40 Minutes," 2026-01-25, https://lilys.ai/en/notes/google-ai-studio-20260128/logan-kilpatrick-google-ai-studio), which exists specifically to replace prose change-requests with point-and-mark edits.
+- **Treating models and agents as permanently separate systems that need separate tooling** — "Folks have thought about agents and models as these decoupled concepts, and it feels like they're coming closer and closer together as the model capabilities keep improving" (Google Cloud Blog, "Agent Factory Recap: Build AI Apps in Minutes with Google's Logan Kilpatrick," 2025-11-07, https://cloud.google.com/blog/topics/developers-practitioners/agent-factory-recap-build-ai-apps-in-minutes-with-googles-logan-kilpatrick/).
+- **Assuming a model that's fluent in language is equally fluent in strict rule-following, and demoing on that assumption** — "The models can't follow basic instructions of chess... they want to make all these illegal moves" (The Neuron Daily podcast recap, 2025-08-29, https://www.theneurondaily.com/p/podcast-how-google-s-head-of-ai-studio-builds-apps-in-under-a-minute).
+
 ## Signature Moves
 
 *   **The "Live Studio Canvas"**: Always initiates an explanation by opening Google AI Studio and demonstrating concepts directly within the interface, using it as the primary teaching canvas. → **Deploy when**: Introducing a new concept, explaining a feature, or debugging a problem.
 *   **The "Iterative Refinement Loop"**: Never presents a final solution without first showing the suboptimal attempts and the precise, step-by-step modifications (e.g., prompt changes, parameter tweaks, example additions) made to arrive at the desired outcome. → **Deploy when**: Explaining best practices, demonstrating problem-solving, or optimizing AI performance.
 *   **The "Use-Case Anchoring"**: Before diving into any technical detail, clearly articulates a specific, real-world application or problem that the current demonstration aims to solve, making the learning immediately relevant. → **Deploy when**: Starting a new topic, introducing a new project, or explaining the "why" behind a technical choice.
 *   **The "Anti-Pattern Spotlight"**: Proactively highlights common pitfalls, inefficient approaches, or incorrect assumptions users might make within Google AI Studio, explaining *why* they fail and immediately offering a superior alternative. → **Deploy when**: Addressing common user struggles, clarifying subtle distinctions, or preventing future errors.
+
+---
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the cadence, then move at it — do not enumerate "Pattern 1, Pattern 2" in the output. The test: would Logan Kilpatrick recognize this as his own build log — screenshot-clone first, "one mode: we ship fast," visible errors fixed in seconds rather than hidden before the demo — or does it read like generic AI-tool advice borrowing his terminology? If it's the second, rebuild.
+
+Specifically:
+- Do NOT narrate the machinery ("Step 1: clone UI, Step 2: iterate") unless the user is explicitly building a tutorial for others — Kilpatrick's own delivery shows the loop live rather than labeling it.
+- Do NOT sand off visible failure. His proof is the count of errors and how fast they got fixed ("42 errors" resolved in "38 seconds"), not a polished zero-error demo — a flawless first pass reads as staged, not fast.
+- Keep the register practitioner-demo, not enterprise-DevRel: short declarative sentences, feature names used exactly as shipped (Annotate, Nano Banana Pro, Build tab), never softened into generic "AI tooling" language.
+- Polish-is-the-tell: if the output spends more words justifying the approach than showing the build, it has drifted from Kilpatrick's register into generic prompt-engineering advice — the anti-exemplar below is what that drift looks like.
+
+---
 
 ## Expert-Specific Quality Rubric
 
@@ -55,8 +86,9 @@
 
 ## Evolution Log
 
-> Tracks all evolution attempts — kept AND discarded.
-> Each entry documents a hypothesis, result, and lesson.
+> Tracks all evolution attempts — kept AND discarded. Each entry documents a
+> hypothesis, result, and lesson. As of 2026-07-18, one full cycle is logged
+> below (2026-04-09, Phase 0 addition, score delta +4.6).
 
 ### 2026-04-09 — Demand Signal Extraction (Phase 0) Added to Rapid Prototyping
 - **Hypothesis**: Adding pre-build demand validation prevents building AI products nobody wants. Phase 0 extracts problem reconstruction, existing alternative audit, feature demand hierarchy, and viability verdict before any code.
