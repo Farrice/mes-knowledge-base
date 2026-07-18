@@ -2,6 +2,16 @@
 
 Source: Pink's long-form interview on his writing process ("How to Write Something Truly Useful" / "How to Write Structurally Well"), extracted from Farrice's claude.ai export. Everything below is lifted from Pink's own accounts of his practice across Drive, When, The Power of Regret, To Sell Is Human, and his playwriting.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then reason from Pink's engineering instinct — never march through "Structure Before Sentences → Proposal Test → Fresh Yet Familiar" as labeled stations in the output. The test: would Pink recognize this as someone actually staring at post-its until a structure holds — or as someone reciting his framework back to him? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which pattern or stage you applied ("Now applying Pattern 3: Fresh Yet Familiar") unless asked. Pink doesn't narrate his method mid-draft — he tortures himself with a whiteboard and post-its until the skeleton appears, then writes.
+- Do NOT dress the reasoning in tidy business-book prose. Pink's own voice on this subject is halting and self-deprecating — "writing is still really, really hard for me," "it's sort of the tortured process that I go through" — not confident thought-leader cadence. Match that texture: admit the difficulty, don't perform mastery.
+- The engineering metaphor is load-bearing, not decorative garnish. Walls holding a roof, gears meshing in a watch — use it to make a real distinction (long-form tolerates a misplaced powder room; short-form must mesh like a watch, every gear or it "isn't going to tell time") — never as a one-line flourish dropped in and abandoned.
+- Polish is the tell-class warning here. If output reads like a smooth framework summary instead of someone who just spent months staring at a wall saying "I have nothing to say," it has missed Pink's texture entirely — structure work is supposed to look tortured on the way in, clean only once it's found.
+
 ## Genius Patterns
 
 ### Pattern: Structure Before Sentences
@@ -80,3 +90,15 @@ Same time, same place (22 steps to the garage office), a fixed daily word count 
 ### Insight: Watch the Audience, Not the Speaker
 **Insight**: At events, Pink positions himself to see the AUDIENCE, not the presenter — are they laughing, on their phones, talking to neighbors? Speaking at 3:00, he arrives at 11:00 to gauge the room. And in a proposal, "many writers delude themselves into thinking their audience is everybody, and it's never everybody."
 **Deploy**: For any content system, instrument audience reaction (comments, drop-off, replies, silence) as the primary feedback channel — and force every project to name a specific audience before production. "Everybody" is an automatic reject.
+
+## Anti-Patterns
+
+Failure modes drawn directly from Pink's own account of what doesn't work, verified verbatim against the source transcript ("Daniel Pink | How to Write Something Truly Useful," claude.ai export capture dated 2026-01-14; the same transcript was re-captured under the title "How to Write Structurally Well" on 2026-02-12 — see `references/source-ledger.md` for the full recovery trail).
+
+- **Chasing the idea the world is pushing, not the one you'd choose.** Pink names this directly as a mistake some authors make: "they become enamored with something or [it] becomes very popular... the world starts kind of pushing them in this direction and they're not — it might not be a good idea for them." An article's virality is not permission to spend years on the book version. (Source: claude.ai transcript capture, 2026-01-14.)
+- **Filing material by chronology or domain when no throughline exists.** For *When*, "day, week, month, year" and then "timing at school, work, health, leadership" both failed the same way: "I would stare at it and stare at it and stare at it and say I have nothing to say." An organizing scheme that produces silence is a dead scheme, not a stubborn author. (Source: claude.ai transcript capture, 2026-01-14.)
+- **Trusting memory over capture.** "The biggest lie that writers will tell themselves is 'ah, I'll remember that later.'" No commonplace book, no capture mechanism, means the good line dies before it reaches the desk. (Source: claude.ai transcript capture, 2026-01-14.)
+- **Positioning that's clever instead of legible.** Pink killed "The Invisible Present" — a pun on "present" as both gift and now — 10 days into drafting the proposal, after the reaction "You had me till the present thing... that's a little too clever." A hook that needs the wordplay explained has already lost the room. (Source: claude.ai transcript capture, 2026-01-14.)
+- **Citing one study as proof.** "If I see one paper from an obscure journal that says... wearing green socks makes you more creative... if it's the only paper on green socks and creativity, then I'm a little bit more skeptical about it." A single finding is an anecdote; only convergence across independent disciplines earns inclusion. (Source: claude.ai transcript capture, 2026-01-14.)
+- **Writing dialogue as literal transcription.** "[I]f you listen to a transcript of people actually talking, that's totally boring." Verisimilitude is engineered and compressed, never recorded verbatim. (Source: claude.ai transcript capture, 2026-01-14.)
+- **Defaulting the audience to "everybody."** "[M]any writers delude themselves into thinking their audience is everybody, and it's never everybody." A proposal, brief, or piece with no named reader is an automatic reject. (Source: claude.ai transcript capture, 2026-01-14.)
