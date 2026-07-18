@@ -75,6 +75,21 @@ Select the optimal re-expression and design the presentation.
 
 - **Non-Linear Value Reveal**: If your metric has non-linear returns, design a visualization or comparison that makes the non-linearity visible. The paceometer works because it shows the SAME improvement (10 mph) producing DIFFERENT time savings at different speeds.
 
+## Output Schema
+
+**Primary Deliverables**:
+1. **Metric Autopsy** (150-250 words) — unit-bias diagnosis, linearity-illusion check, comparison-anchor map, ending in one sentence naming exactly why the current expression fails to motivate
+2. **Re-Expression Table** (5+ rows)
+   - Format: Lens (Time / Comparison / Inverse / Per-Unit / Subscription) | Original Expression | Re-Expressed Version | Psychological Mechanism Leveraged
+3. **Overground Effect Test Result** (100-200 words) — current mental category, candidate higher-status category, 3 renaming candidates, verdict on whether recategorization beats re-pricing
+4. **Decision Architecture** (final selection)
+   - Format: winning re-expression presented 3 ways — Headline (≤7 words), Explanation (1 paragraph), Comparison (vs. competitor/status quo) — plus the "Basically Free" threshold verdict (Pass/Fail with the specific per-period number that crosses it)
+
+**Quality Checklist**:
+- [ ] Are all 5+ re-expressions genuinely distinct mechanisms, not 5 unit conversions of the same lens?
+- [ ] Does the Decision Architecture change the audience's decision without changing the underlying number?
+- [ ] Is the non-linearity (if present) made visually/verbally obvious, not just asserted?
+
 ## Quality Gate
 Score each deliverable:
 - [ ] Were at least 5 genuine re-expressions generated (not just unit conversions)?

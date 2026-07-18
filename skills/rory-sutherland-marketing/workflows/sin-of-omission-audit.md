@@ -56,6 +56,20 @@ Fix signals with behaviors, not words or pictures.
 - **7-Day Fix Sprint**: Sequence all near-zero-cost fixes into one week. No fix requiring budget approval goes in the sprint — those go to a separate list.
 - **Re-Audit Ritual**: Schedule the 180° Flip as a recurring ritual (weekly for retail, monthly for digital) — omissions regrow silently.
 
+## Output Schema
+
+**Primary Deliverables**:
+1. **180° Flip Report** (touchpoint-by-touchpoint log, written in the ignorant customer's voice) — each entry carries a System-1 verdict (OPEN / CLOSED / NOT-FOR-ME / CONFUSING)
+2. **Omission Inventory** (8+ entries minimum, ranked)
+   - Format: Sweep type (Lights-On / Answer-the-Phone / Empty-Room) | Omission found | Est. revenue repelled | Fix cost | Lion Bar contrast statement
+3. **Radiating-Openness Scorecard** (table, as specified in Phase 4: Touchpoint | Signal Radiated | System-1 Verdict | Revenue Repelled (est.) | Fix | Cost)
+4. **Zero-Cost Fix List** — the top 5 omissions resequenced into a 7-Day Fix Sprint, with any perverse staff/system incentive named separately, plus the Re-Audit Ritual cadence
+
+**Quality Checklist**:
+- [ ] Is the 180° Flip Report written entirely from the ignorant-customer's perceptual read, with zero insider knowledge leaking in?
+- [ ] Do 8+ omissions span all three sweep types (not clustered in one)?
+- [ ] Does the 7-Day Fix Sprint contain ONLY items requiring no budget approval?
+
 ## Quality Gate
 Score each deliverable:
 - [ ] Was the audit performed in the ignorant customer's voice (perception, not fact)?

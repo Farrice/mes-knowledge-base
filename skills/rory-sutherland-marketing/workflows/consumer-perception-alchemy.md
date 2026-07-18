@@ -57,6 +57,25 @@ If positioning for premium/luxury:
 - **The "No Phone Policy" Test** (Dai Media): Would this individual choose your brand in a world without social proof? If yes → the brand is real. If no → it's performative.
 - **Exclusivity Engineering**: Use Sutherland's "expensive must be good" heuristic strategically. Design scarcity, access control, and earned status that amplifies signal value.
 
+## Output Schema
+
+**Primary Deliverables**:
+1. **Perception Posture Profile** (500-700 words)
+   - Format: one named, specific individual mapped across the 7 dimensions (Occupation, Activity, Thought Process, Proxy Evaluations, Transaction Feelings, Costly Signal Needs, "Feels Like" Reality) — never a demographic composite
+   - Includes: a direct quote or scenario illustrating each dimension in this individual's own voice
+2. **Perception-Engineered Brand Strategy** (700-1,000 words)
+   - Format: World Design brief + Proxy Signal Architecture + Transaction Utility spec + Brandquake Map (2-3 named multiplicative touchpoints)
+   - Includes: for each touchpoint, the specific trust signal being engineered and why it wins this individual's proxy evaluation
+3. **Perception-First Content Angles** (3-5 concepts)
+   - Format: short concept + the specific psychological reframe + the identity-signal reason this individual would share it
+4. **Premium Perception Architecture** (only if [PREMIUM AMBITION] = yes; 300-500 words)
+   - Format: price-as-signal rationale + "No Phone Policy" test verdict (Pass/Fail with reasoning) + exclusivity mechanism design
+
+**Quality Checklist**:
+- [ ] Does the profile name one individual, with zero demographic language ("25-34," "urban professional")?
+- [ ] Does every strategy element address a feeling or signal, never a feature?
+- [ ] Would this specific individual say "this brand gets me" on reading the strategy cold?
+
 ## Quality Gate
 - [ ] Is the profile based on one radical individual, not a demographic?
 - [ ] Does the brand strategy address FEELINGS, not features?

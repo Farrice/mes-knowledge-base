@@ -62,6 +62,21 @@ Package findings into actionable implementation plan.
 - **90-Day Obsession Sprint**: Design a 3-month plan to implement 2-3 signature plays. Include weekly "meh hunt" rituals where team members report new competitor neglect observations.
 - **Loyalty Signal Tracking**: Define the leading indicators that your reverse benchmarking is working — customer comments, word-of-mouth themes, retention shifts — before revenue data confirms it.
 
+## Output Schema
+
+**Primary Deliverables**:
+1. **Benchmark Inventory** (list, marked "matching"/"chasing") + Scale Effects Diagnosis + Procurement Trap verdict
+2. **Blind Spot Map** (matrix, 10+ entries across 3 competitors)
+   - Format: Competitor | Blind Spot (categorized by the 5 scan types) | Emotional Impact (1-10) | Ownability (1-10)
+3. **Signature Obsession Blueprint** (2-3 selected areas, 150-250 words each)
+   - Format: named internal "sommelier" role + disproportionate-investment estimate + procurement-escape rationale
+4. **Reverse Benchmarking Scorecard** (table, as specified in Phase 4: Competitor | Blind Spot | Emotional Impact | Investment Required | Your Signature Play) + 90-Day Obsession Sprint plan + Loyalty Signal Tracking definitions
+
+**Quality Checklist**:
+- [ ] Are 10+ blind spots documented across all 3 competitors combined (not concentrated on one)?
+- [ ] Is each selected signature obsession genuinely neglected, not merely "less polished"?
+- [ ] Does every signature play name a specific accountable owner, not "the team"?
+
 ## Quality Gate
 Score each deliverable:
 - [ ] Did the audit identify at least 10 competitor blind spots across all three competitors?

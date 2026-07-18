@@ -59,6 +59,19 @@ Change one context instead of a million minds.
 - **Experiment Order**: (1) frame changes (free), (2) price up, (3) added-effort/presentation, (4) price down — last, and only with evidence the pole is bargain.
 - **Feeling Metric**: Define how you'll detect the feeling change (unprompted "no-brainer"/"worth it" language, tier mix shift, gift/occasion share) alongside revenue.
 
+## Output Schema
+
+**Primary Deliverables**:
+1. **Frame Diagnosis** (150-250 words) — reference-price inventory, aisle/frame-ceiling read, naked-number scan results
+2. **Pole Assignment** (100-200 words) — bargain-vs-treat verdict with target price, plus any too-good-to-be-true remedies required
+3. **Context-Shift Plan** (200-350 words) — venue-arbitrage candidates, anchor-architecture recommendation, ratio-presentation rewrites, named buyer-native unit (if spec-led)
+4. **Frame Ledger** (table, as specified in Phase 4: Lever | Current | Proposed | Mechanism | Expected Read — minimum 4 rows) + Experiment Order (frame → price-up → added-effort → price-down) + Feeling Metric definition
+
+**Quality Checklist**:
+- [ ] Does the Pole Assignment commit to ONE pole, with no "dead middle" language surviving?
+- [ ] Is a price INCREASE the first pricing lever tested, not the last?
+- [ ] Does every naked number in the Context-Shift Plan get a base+delta anchor?
+
 ## Quality Gate
 Score each deliverable:
 - [ ] Was the frame changed before the price was touched?

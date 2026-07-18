@@ -58,6 +58,20 @@ Score: Pass/Fail per attack + remediation if Fail.
 | "Boss won't approve" | Churchill Reframe: position it as boss's idea |
 | "Too expensive" | Subscription Alchemy: re-express to no-brainer threshold |
 
+## Output Schema
+
+**Primary Deliverables**:
+1. **Perception-Armored Positioning Canvas** (Phase 1+2 output) — Dunford's 5 components, each with its Sutherland overlay stated inline (e.g., "Alternatives → Reverse Benchmarking: [finding]")
+2. **Siege Test Results** (structured table, 5 rows)
+   - Format: Attack Vector | Pass/Fail | Remediation (if Fail) — one row per attack (Price / Feature Match / Category Hijack / Procurement Compression / Overground Reversal)
+3. **Perception-Armored Deployment Package** (Phase 4 output)
+   - Format: Sales Narrative (conspiratorial framing, 200-300 words) + Metric Arsenal (3-5 Paceometer-flipped metrics, each with before/after expression) + Fear Map table (Buyer Fear | Perception Response, minimum 3 rows)
+
+**Quality Checklist**:
+- [ ] Did every one of the 5 siege attacks receive an explicit Pass/Fail verdict, not a narrative dodge?
+- [ ] Is every "Fail" paired with a concrete remediation, not just flagged?
+- [ ] Does the sales narrative read as conspiratorial (Churchill Reframe), not corporate/accusatorial?
+
 ## Quality Gate
 - [ ] Position survives all 5 siege test attacks?
 - [ ] Differentiation is perception-based, not feature-based?

@@ -78,6 +78,24 @@ Package elaborated vectors into a deployable campaign structure.
 
 **Output**: A complete campaign blueprint with 5+ perception-grounded insight vectors, each fully elaborated, named, and assigned to content vehicles.
 
+## Output Schema
+
+**Primary Deliverables**:
+1. **Perception-Model Map** (structured list, 10+ entries)
+   - Format: each mental-model gap paired with its perceptual distortion type (Overground / Paceometer / Doorman / Costly-Signal)
+2. **15+ Perception-Grounded Insight Vectors** (table)
+   - Format: Vector Type | Standard framing | Perception-Enhanced framing | Novelty (1-10) | Perception Shift Power (1-10) | Deployability (1-10) | Composite
+   - Top 5 flagged for elaboration by composite score
+3. **8-Fold Elaboration** for each of the top 5 vectors (150-250 words per vector)
+   - Format: Paradox Statement → Unique Mechanism Proof (named) → Trigger Scenario → 3+ Proof Points → Intensifiers → Myth Dissolution → Root Cause → Resolution, each sub-labeled
+4. **Campaign Architecture** (structured deliverable)
+   - Format: Content Series Map (vector → content vehicle table) + Obsession Ladder (Signal/Belief/Action tiers, vectors assigned to each) + Mechanism Naming Convention checklist
+
+**Quality Checklist**:
+- [ ] Does every vector cite at least one Sutherland pattern AND one Iha vector type by name?
+- [ ] Is every mechanism name proprietary (not a generic industry term)?
+- [ ] Does the Obsession Ladder actually ascend in intensity, not just list vectors in arbitrary order?
+
 ## Quality Gate
 - [ ] Are the vectors perception shifts (not just information)?
 - [ ] Does each vector use at least one Sutherland pattern + one Iha vector type?

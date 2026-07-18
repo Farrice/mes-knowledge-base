@@ -58,6 +58,21 @@ Apply Kallaway's batched testing to the perception content:
 
 **Output**: 3 fully scripted videos with neurochemical retention architecture built on perception engineering, plus a 10-script batch testing plan.
 
+## Output Schema
+
+**Primary Deliverables**:
+1. **3 Fully Scripted Videos** (600-900 words each, per-brick breakdown)
+   - Format: 11-Brick script with each brick labeled (Hook / Setup ×3 / Mechanism ×3 / Proof ×2 / Payoff+Rehook ×2) and the underlying Sutherland perception shift named against it
+   - Includes: platform-specific runtime target, dopamine-injection timestamp markers (every 15-30 sec), the single-sentence perception shift the script is built on
+2. **10-Script Batch Testing Plan** (structured table)
+   - Format: 3 perception-shift "stacks" × 3-4 hook variants each, with hook text, predicted retention curve shape, and save-trigger element identified per script
+   - Delivers: a tracking column for Hook rate / Retention curve / Save rate / Share rate per script, plus the >3% save-rate winning-signal threshold restated per stack
+
+**Quality Checklist**:
+- [ ] Does every script carry ONE named perception shift, not a stack of unrelated frameworks?
+- [ ] Is each 11-Brick placement traceable to a specific Sutherland pattern cited by number?
+- [ ] Does the batch plan specify exactly which variable each hook variant is testing?
+
 ## Quality Gate
 - [ ] Does every script contain a genuine perception shift (not just information)?
 - [ ] Is the mechanism named using Sutherland's perception vocabulary?

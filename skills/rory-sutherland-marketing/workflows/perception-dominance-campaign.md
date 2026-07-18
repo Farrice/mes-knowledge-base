@@ -81,6 +81,23 @@ Combine all phase outputs into a unified campaign:
 - **Measurement Framework**: Track perception shift adoption (save rate, share themes, customer language changes), not just conversion.
 - **90-Day Calendar**: Week-by-week deployment with batch testing cadence built in.
 
+## Output Schema
+
+**Primary Deliverables** (one package, six phase-outputs):
+1. **Perception Blueprint** (Phase 1, 400-600 words) — the psychological reality substrate every downstream asset must trace back to
+2. **Armored Market Position** (Phase 2) — Dunford 5-component canvas + Procurement Escape verdict + sales narrative draft
+3. **5 Elaborated Insight Vectors** (Phase 3) — named, 8-fold-elaborated, each traced to its Phase 1 perception shift
+4. **Primary Sales Asset** (Phase 4) — full page/VSL/email-sequence copy with Lead/Rapport/Mechanism/Close structure labeled
+5. **10 Content Scripts + Batch Testing Plan + Revenue Ramp** (Phase 5)
+6. **Campaign Integration Package** (Phase 6): Campaign Theme name, full Asset Map (which expert produced which asset), Measurement Framework (perception-adoption metrics, not just conversion), 90-Day Calendar
+
+**Delivery Format**: one master document with six numbered sections mapping 1:1 to phase outputs, cross-referencing the shared perception shift substrate by name throughout.
+
+**Quality Checklist**:
+- [ ] Can every one of the 6 deliverables be traced back to the same single Phase 1 perception shift?
+- [ ] Does the Measurement Framework track perception adoption (save rate, language change), not conversion alone?
+- [ ] Is the 90-Day Calendar specific (week numbers, named assets), not a generic cadence description?
+
 ## Quality Gate
 - [ ] Does every asset contain the same perception shift substrate?
 - [ ] Is the position procurement-proof and siege-tested?

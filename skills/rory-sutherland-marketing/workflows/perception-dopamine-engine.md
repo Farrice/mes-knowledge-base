@@ -85,6 +85,21 @@ Score the finished asset against both expert rubrics.
 
 **Composite Threshold**: Average ≥ 7.5 or any dimension < 6 → revise.
 
+## Output Schema
+
+**Primary Deliverables**:
+1. **Perception Blueprint** (200-400 words, Phase 1 output) — the reframed psychological reality, delivered as a standalone brief before any copy is drafted
+2. **Complete Sales Asset** (Phase 2 output; length matches asset type — full page/VSL script/email sequence)
+   - Format: four labeled sections — Lead/Open, Rapport/Background, Mechanism (Perception Shift), Close/Future Pace — each section's Sutherland pattern and Georgi technique named inline
+   - Includes: the named, proprietary mechanism title (e.g., "The Transaction Utility Gap") stated explicitly at the Mechanism section's opening
+3. **Neurochemical Quality Audit** (Phase 3 output, structured table)
+   - Format: the 5-dimension scoring table (Psychological Reframe Depth, Transaction Utility Engineering, Costly Signal/Premium Feel, Mechanism Originality, Evolutionary Rooting) with both Sutherland and Georgi sub-scores plus the stacked composite
+
+**Quality Checklist**:
+- [ ] Is the Perception Blueprint delivered as a distinct artifact BEFORE the copy, not inferred after the fact?
+- [ ] Does the Mechanism section name its own mechanism, rather than leaving it implicit?
+- [ ] Does the Quality Audit table show both expert sub-scores, not just a single blended number?
+
 ## Quality Gate
 - [ ] Does the asset sell a *perception*, not a product?
 - [ ] Is the mechanism a genuine psychological reframe, not a feature description?
