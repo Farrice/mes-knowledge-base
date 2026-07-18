@@ -1,0 +1,28 @@
+# oren-operational-systems — Source Ledger
+
+Every claim in `genius.md` traced to its source, claim-by-claim, with a confidence label. Ground truth checked: `ls extractions/ | grep -i oren` (4 matches) + files already inside the skill. File sizes recorded via `wc -c` / `ls -la` per the anti-fabrication rule (a claim of "no source" is itself a provenance claim).
+
+## Primary source (this skill)
+
+**`extractions/oren/oren-systems-extraction-report.md`** — 14,668 bytes, dated 2026-02-14 (file mtime). Header states: `Source: YouTube video — "11 Ways to Get Your Life Together in 2026" (~25 min)`. This is a **mastery-extraction (secondary synthesis)** — no raw transcript or verbatim captions for this specific video exist anywhere under `extractions/` (checked: `extractions/oren/transcript.txt`, 29,376 bytes, is the transcript for a *different* Oren video, "brand social media archetypes" — confirmed by reading its content, zero overlap with operational-systems terms). Every "genius pattern" and "hidden knowledge" item in `genius.md` traces to this one report.
+
+| Claim in genius.md | Label | Basis |
+|---|---|---|
+| Patterns 1–8 (Reference Repository → Content Pillar Measurement) | **LIKELY** | Present near-verbatim in `oren-systems-extraction-report.md` §"Genius Patterns" (lines 26–72). Framing/wording matches the extraction report exactly; the report itself is one step removed from the raw video (no primary transcript on file to cross-check against), so labeled LIKELY rather than VERIFIED. |
+| Hidden Knowledge #1–#6 | **LIKELY** | Matches `oren-systems-extraction-report.md` §"Hidden Knowledge" (lines 76–94) closely, including the quoted lines used as anti-pattern/entity anchors in this repair: "the senior doesn't think harder, they remember faster" (line 79); "the reason most process docs never get written is that people try to write them from scratch" (line 82); "I still haven't received that doc. Jenny still hasn't gotten this." (line 85); "don't try to install 11 systems at once" (line 91); "Mentioned during the Xero sponsor segment but universally applicable" (line 94). These quotes are verbatim inside the report file (confirmed by direct grep/read) but the report is a secondary extraction of a video not archived in this repo, so labeled LIKELY, not VERIFIED. |
+| "blank calendar" / "never tries to do both simultaneously" (Pattern 2 anti-pattern anchor) | **VERIFIED (against the report)** | Exact substrings present at `oren-systems-extraction-report.md` lines 33 and 36. |
+| Pattern 7 audit test "(a) only you do, (b) gets the most engagement, (c) you can produce consistently" | **VERIFIED (against the report)** | Exact substring at line 64. |
+| The Oren Operating System (OOS) 4-level framework in SKILL.md | **LIKELY** | Matches `oren-systems-extraction-report.md` §"Methodology" (lines 98–124) — this is the extraction author's structuring of Oren's content, not a phrase Oren used himself in the source video (unconfirmable without the primary transcript). |
+
+## Secondary section — "claude.ai export — Oren John conversations (2026-07-01)" (genius.md lines ~199–214, "Dedicated Scrolling with a Framework Quota")
+
+**UNCONFIRMED.** Searched exhaustively for the claimed source: `grep -rl "framework quota\|Dedicated Scrolling\|10 bookmarks" extractions/` → zero hits. `grep -rl "claude.ai export" extractions/ skills/oren-operational-systems/` → the only hit is `genius.md` itself (self-referential, not a source). A large unextracted archive exists at `_archive/claude-export-2026-07-01.tar.gz` (332,779,255 bytes, confirmed via `ls -la`) that could plausibly contain the source conversation per `project_claude-export-harvest.md`, but a `tar -tzf ... | grep -i oren` pass returned no matches and the archive was not opened/extracted within this repair's scope (10-minute-class operation on a 332MB archive, out of scope for a targeted heartbeat repair). This section is left in place (additive-first, not deleted) but should not be treated as sourced until someone extracts and confirms it against the archive. Flagged for the conductor / a follow-up pass.
+
+## Known contamination — NOT a source, do not cite
+
+**`skills/oren-operational-systems/references/quality-rubric.md`** (99 lines) contains (a) leaked LLM planning/meta-text (e.g. literal lines "Strategizing complete. I will now generate the response based on these detailed plans." and "Constraint Checklist & Confidence Score: ... Confidence Score: 5/5") and (b) content written for a *different* skill — `oren-luxury` (Petrossian Caviar, Insider Codes Mechanic, "Indonesian horse trough," Providence Arbitrage Scan). The same contamination appears to have bled into `genius.md`'s "Hall of Fame Exemplars" and "Signature Moves" sections (both luxury-positioning content, not operational systems). This predates this repair, is out of scope for the 4 assigned failing checks (it doesn't affect anti_patterns_sourced / recognition_test / source_ledger / named_entity_floor as those score independently), and was left untouched per the additive-first / no-deletion boundary — flagged in `REPAIR-NOTES.md` for the conductor. **UNCONFIRMED as Oren operational-systems material — do not use as a source for future work on this skill.**
+
+## Labeling key
+- **VERIFIED** — quote/claim confirmed by direct file read against the cited source.
+- **LIKELY** — sourced from a file in this repo, but that file is itself a secondary extraction of an un-archived primary (video/transcript), so the ultimate ground truth (Oren's actual words) can't be independently confirmed here.
+- **UNCONFIRMED** — claimed source could not be located, or the located material is confirmed contamination/off-topic.

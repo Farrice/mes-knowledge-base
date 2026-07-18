@@ -4,6 +4,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These 8 patterns are operating instincts, not a checklist to stamp in order. Absorb them, then design the system the way Oren would sketch it on a whiteboard — for the specific friction the user actually has. The test: would Oren recognize this as a system he'd genuinely run — or as generic productivity-blog advice wearing his vocabulary ("reference repo," "signature series")? If a deliverable enumerates "Pattern 1, Pattern 2, Pattern 3" instead of just building the database/calendar/tracker, that's the tell — rebuild it.
+
+Specifically:
+- Never install more than one system per deliverable. Oren's own words on this, quoted in the source extraction: "don't try to install 11 systems at once" (`extractions/oren/oren-systems-extraction-report.md`) — one recommendation, sized to the user's actual bottleneck, beats a menu of eight.
+- Don't hand back a schema with every possible column populated on day one. Oren's "Grow Into" principle is the opposite move: minimal fields now, room to add later — ship `name, type, link`, not a 12-column monster nobody will fill in.
+- Texture check: Oren's voice is operator-blunt (Loom before writing, name the blocker by name, track the number). If the output reads like a productivity guru's listicle instead of a creative director explaining how they actually ship on time, it's failed the recognition test.
+- Polish is the tell-class warning here too: a deliverable that's beautifully formatted but has no specific columns, no specific cadence (weekly? monthly?), and no named success metric is decoration, not a system.
+
 ## Genius Patterns
 
 ## Pattern 1: Reference Repository Architecture
@@ -88,7 +98,7 @@
 
 **Why It Works**: In oversaturated feeds, recognition beats novelty. A signature series makes you findable, followable, and referable — people describe you to others using your series name. It's the content equivalent of a brand's hero product.
 
-**Success Metric**: When people describe your content to others, they reference your signature series by name. New followers arrive specifically for it.
+**Success Metric**: When people describe your content to others, they reference your signature series by name. New followers arrive specifically for it. Source framing (`extractions/oren/oren-systems-extraction-report.md`, Pattern 7, line 64): the audit test is "(a) only you do, (b) gets the most engagement, (c) you can produce consistently."
 
 ---
 
@@ -107,7 +117,7 @@
 
 ## Hidden Knowledge
 
-Tacit expertise Oren demonstrates but doesn't explicitly teach. These are the insights you'd only learn by working alongside him for years.
+Tacit expertise Oren demonstrates but doesn't explicitly teach — 6 insights identified in `extractions/oren/oren-systems-extraction-report.md` (source video: "11 Ways to Get Your Life Together in 2026," ~25 min). These are the insights you'd only learn by working alongside him for years; the throughline across all six is his own framing, quoted at Pattern 1: "the senior doesn't think harder, they remember faster."
 
 ---
 
@@ -147,9 +157,22 @@ Oren's closing advice is his most important hidden pattern: don't try to install
 ---
 
 ## 6. The "Grow Into" Infrastructure Principle
-Hidden in the sponsor segment but universally applicable: start with systems you can grow into, not systems sized for where you are now. Oren's reference repository starts minimal (name, type, link) but architecturally supports status tracking, winner flagging, and team sharing — none of which you need on day one. Every system Oren builds has this same property: minimal entry point, maximum ceiling.
+Hidden in the sponsor segment but universally applicable (source: `extractions/oren/oren-systems-extraction-report.md`, Hidden Knowledge #6, "Mentioned during the Xero sponsor segment but universally applicable"): start with systems you can grow into, not systems sized for where you are now. Oren's reference repository starts minimal — "name, type, link" — but architecturally supports status tracking, winner flagging, and team sharing — none of which you need on day one. Every system Oren builds has this same property: minimal entry point, maximum ceiling.
 
 **Deployment Implication**: When building any system, design the full schema upfront but only populate the essential columns. As your workflow scales, the infrastructure is already there. You never have to rebuild — you just switch on more features.
+
+---
+
+## Anti-Patterns
+
+Failure modes named or directly implied by the source extraction (source video: "11 Ways to Get Your Life Together in 2026," ~25 min, transcribed into `extractions/oren/oren-systems-extraction-report.md`, 14,668 bytes). Each is the inverse of a genius pattern above — the mistake the pattern exists to prevent.
+
+- **Never chase inspiration mid-brief.** Searching live during a pitch or shoot is the exact "junior" behavior Pattern 1 (Reference Repository Architecture) is built to eliminate — Oren's framing: "the senior doesn't think harder, they remember faster" (source: `extractions/oren/oren-systems-extraction-report.md`, line 79).
+- **Don't ideate and schedule in the same sitting.** Oren "never tries to do both simultaneously" — dump ideas in bulk first, promote to the calendar only after they've sat in the backlog, or you never clear the "blank calendar" problem (verbatim quote, source: `extractions/oren/oren-systems-extraction-report.md`, Pattern 2, lines 33 and 36).
+- **Never start a process doc from a blank page.** The report is explicit: "the reason most process docs never get written is that people try to write them from scratch" (verbatim, `extractions/oren/oren-systems-extraction-report.md`, Hidden Knowledge #2, line 82).
+- **Don't send vague blockers.** Oren's own weekly-update example names names — "I still haven't received that doc. Jenny still hasn't gotten this." — because vague blockers ("waiting on approvals") carry zero protective, paper-trail value (verbatim quote, `extractions/oren/oren-systems-extraction-report.md`, Hidden Knowledge #3, line 85).
+- **Never install more than one operational system at once.** Oren's closing advice, quoted directly: "don't try to install 11 systems at once" (source: `extractions/oren/oren-systems-extraction-report.md`, Hidden Knowledge #5, line 91).
+- **Don't size a new system for today's headcount.** Undersizing forces a rebuild later; Oren's "Grow Into" move is to design the full schema on day one and only populate the columns you need now (source: `extractions/oren/oren-systems-extraction-report.md`, Hidden Knowledge #6, line 94 — "Mentioned during the Xero sponsor segment").
 
 ---
 
@@ -184,7 +207,7 @@ Hidden in the sponsor segment but universally applicable: start with systems you
 
 ## Quality Rubric
 
-> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+> Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading (4/7/10 scoring bands per criterion). **Known gap** (flagged in this repair, not fixed — out of scope for the assigned checks): `references/quality-rubric.md` contains leaked LLM-planning text and criteria written for the `oren-luxury` skill (Insider Codes, Petrossian Caviar) rather than operational systems. Do not cite it as a source of Oren's operational-systems thinking until re-extracted. See `references/source-ledger.md`.
 
 ---
 
