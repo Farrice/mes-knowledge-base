@@ -4,6 +4,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a sequential checklist. Absorb the lock-in → learn-in-public → launch order as a felt sense of sequence, then produce strategy that reflects it — do not stamp "Step 1 / Step 2 / Step 3" onto a deliverable unless the workflow's own Output Schema calls for a numbered charter. The test: would Sabrina Ramonov recognize this as someone who actually locked into one domain and is building in public — or as someone reciting her framework back at her? If it reads like the second, rebuild it.
+
+Specifically:
+- Do NOT open with "According to the Lock-In Protocol..." or narrate which pattern number you're applying. Execute the sequencing; never announce it — she never says "now I'm doing step 2a" in the source video, she just does it.
+- Do NOT let the output drift into generic "build a personal brand" consultant-speak. Her value is the specificity: one sub-domain, 12 months, the first 3 months at zero monetization, a $50/month floor, four named community pillars (education, wins, events, forum). Vague timelines and hand-wavy "engage your audience" language is the tell that the machinery leaked through unabsorbed.
+- She frames herself as "not a guru" and teaches the path she *didn't* take (the SaaS Confession) rather than performing expertise. Her register is plainspoken and self-implicating — "Like no joke, you cannot switch" — not polished thought-leader cadence. Corporate polish is the tell that the voice didn't transfer.
+- Numbers are load-bearing, not decoration: 12 months, 3 months, $50/month, four pillars, 20 million Skool users, the $50K/month-in-6-months case. Drop them and the advice becomes generic business coaching; keep them and it stays hers.
+
 ## Genius Patterns
 
 ## 1. The Lock-In Protocol
@@ -33,6 +43,8 @@
 
 **Success Metric**: You have an engaged audience asking for solutions BEFORE you build anything.
 
+**Source Anchor**: "the reason why I'm 100% confident in this path when you invest first in building a brand, you have so many more opportunities for monetization that open up" (`extractions/sabrina-ramonov/transcript-zero-to-1m.txt`).
+
 ## 4. The Recurring Revenue Selector
 **What She Does**: Immediately filters out one-time revenue models (courses) in favor of recurring (community). This is a pre-made decision, not a debate.
 
@@ -50,6 +62,8 @@
 **Deploy When**: Community architecture design, member retention strategy.
 
 **Success Metric**: New members immediately encounter social proof; existing members share wins unprompted.
+
+**Source Anchor**: "anybody can come into your community and honestly just clone all of your courses. But it's very difficult to clone the people in your community and the wins and success that they're having" (`extractions/sabrina-ramonov/transcript-zero-to-1m.txt`).
 
 ## 6. The Price-Ramp Churn Reducer
 **What She Does**: Uses price increases over time as both a revenue driver AND a churn reduction mechanism.
@@ -78,6 +92,8 @@
 
 **Success Metric**: Organic reach grows because the algorithm rewards the topic; companies reach out unsolicited.
 
+**Source Anchor**: "there's a lot of excitements in the market and there's a lot of money flowing into something already. That makes your life a lot easier because those dollars are going into educating your potential customers and prospects" (`extractions/sabrina-ramonov/transcript-zero-to-1m.txt`).
+
 ## Hidden Knowledge
 
 ## 1. The Failed-Product Autopsy
@@ -86,6 +102,8 @@
 **Why Others Miss This**: Building a product feels productive. Building a brand feels "soft." But distribution > product in every cold-start scenario.
 
 **Deploy When**: Whenever someone is tempted to build before they have an audience.
+
+**Source Anchor**: "in 99% of the failed stories I hear about, truthfully, the entrepreneur would have been successful if they just did things in the right order and stuck with it for longer" (`extractions/sabrina-ramonov/transcript-zero-to-1m.txt`).
 
 ## 2. The SaaS Confession
 **Tacit Insight**: Sabrina built a SaaS product (harder path) and hit $1M, but freely admits the community/info-product path is faster and easier. She's recommending the path she DIDN'T take — not from regret, but from seeing both options clearly.
@@ -100,6 +118,8 @@
 **Why Others Miss This**: Most community builders focus on content quality. Sabrina focuses on WIN COLLECTION as the primary strategic asset.
 
 **Deploy When**: Community design, competitive differentiation, and member retention strategy.
+
+**Source Anchor**: "Competitors can copy your curriculum; they can't copy your members' wins" (`extractions/sabrina-ramonov/extraction-report.md`, Hidden Knowledge #3 — synthesizing the transcript's "it becomes like a really strong moat around your community").
 
 ## 4. The Sponsorship Trap
 **Tacit Insight**: AI startups are "flush with cash" and paying any influencer willing to take it. This feels like validation but is a local maximum — hard to scale to $1M, creates dependency on external capital allocation cycles.
@@ -121,6 +141,20 @@
 **Why Others Miss This**: They assume $1M requires years of grinding. The framework suggests months to significant revenue IF you execute the sequence correctly.
 
 **Deploy When**: Setting expectations and commitment timeline for the lock-in period.
+
+---
+
+## Anti-Patterns (Sourced)
+
+Each item below is a failure mode Sabrina names explicitly in the source video, with her verbatim words anchoring the claim so it isn't paraphrase drift.
+
+- **Don't chase the next shiny object mid-commitment** — "It is so tempting to switch... The trap that people fall into again and again is chasing the next shiny object when you truly haven't given yourself enough time runway to see this through and be successful" (source: `extractions/sabrina-ramonov/transcript-zero-to-1m.txt`, video "If I Had to Make $1M From $0").
+- **Don't build the product before the audience exists** — she calls out founders who "spend months building courses or products that nobody buys, or starting agencies that bleed customers every single month" (source: `extractions/sabrina-ramonov/transcript-zero-to-1m.txt`).
+- **Don't wait until you feel "ready" to post** — "if you wait until you're ready, honestly, you're giving it yourself an excuse to never get started" (source: `extractions/sabrina-ramonov/transcript-zero-to-1m.txt`).
+- **Don't build the revenue model around sponsorships** — "AI startups in particular flush with cash. So they're throwing money at any AI influencer that's willing to take it" — and she says directly it's "hard to hit 1 million through that model" (source: `extractions/sabrina-ramonov/transcript-zero-to-1m.txt`).
+- **Don't default to the one-time course model** — "the vast majority of courses are not recurring revenue... because you pay once for the course and honestly it's like goodbye" (source: `extractions/sabrina-ramonov/transcript-zero-to-1m.txt`).
+- **Don't pivot strategy after seeing someone else's results** — "people have the tendency to listen to a podcast or see something on Instagram and then like completely change their strategy" because "they heard about this other path that could be better" (source: `extractions/sabrina-ramonov/transcript-zero-to-1m.txt`).
+- **Don't withhold volume for fear of overwhelming your audience** — "A lot of people are concerned if I post too much then I'm going to like overwhelm my audience" — she names this as the wrong worry during the learning-in-public phase (source: `extractions/sabrina-ramonov/transcript-zero-to-1m.txt`).
 
 ---
 
