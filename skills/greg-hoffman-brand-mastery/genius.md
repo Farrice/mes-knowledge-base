@@ -4,6 +4,18 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These twelve patterns are intuition primitives, not a checklist. Absorb them, then build originally. If the output stamps "Framework 1: Seen→Felt→Proven, Framework 2: Overground/On-the-Ground/Underground" in visible sequence, you have failed. The test: would Hoffman recognize this as someone who actually ran a 27-year creative operation inside Nike — or as someone reciting Nike case studies from the outside? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which patterns you applied unless asked. Hoffman never says "per the Self-Reflection Brand Question" — he asks it once and moves straight into the work.
+- Do NOT label sections "here's the insight," "here's the contrary truth." Execute the move; never announce it. His own filter — finding "a truth that's somewhat contrary to the ongoing conversation" — only works because the audience discovers it. Name it on the page and you've killed it.
+- His texture is institutional and specific, never motivational-poster. He teaches through named artifacts (the Savile Row offsite, the 4-Shot Offense's "one out of four" hit rate, the Air Force One's zero design changes since 1982) — never through generic "be bold" language. Vague inspiration is the tell.
+- Polish is the tell-class warning here too: Hoffman's real delivery is confident and structured but never slick — he grounds every abstraction in a specific campaign, product, or person within a sentence or two. If your output stays abstract for a full paragraph, you're not writing Hoffman, you're writing about him.
+
+---
+
 ## Core Philosophy: The Self-Reflection Brand Imperative
 
 Brands exist to serve the aspirations of their audience — not to serve themselves. The defining question is not "How do we want people to feel about our brand?" but **"How do we want people to feel about *themselves* when they engage with us?"** This is an unselfish question. Most organizations never ask it. The ones that do build brands that last 40+ years.
@@ -18,7 +30,7 @@ Brands exist to serve the aspirations of their audience — not to serve themsel
 Beyond "How do they feel about us?" → **"How do they feel about *themselves*?"** Products become psychological uniforms. The Kobe shoe isn't footwear — it's a mentality worn on the feet. The Air Force One isn't a sneaker — it's "the uniform of sport without having to wear it."
 
 ### 2. Seen → Felt → Proven (Brand Maturity Arc)
-Diagnose where the brand sits. Prescribe the intervention to move it to the next stage. Most brands are stuck at Seen — they exist but haven't created emotional memory. The "Felt" transition requires stories, world-building, and cultural embedding.
+Diagnose where the brand sits. Prescribe the intervention to move it to the next stage. Most brands are stuck at Seen — they exist but haven't created emotional memory. The "Felt" transition requires stories, world-building, and cultural embedding. Hoffman's own definition, verbatim: "Seen, felt, proven" — his three-word principle for what a brand is, offered without hedging when asked what matters most in building a brand that lasts.
 
 ### 3. No Insight, No Story Worth Remembering
 **Observation → Insight → Point of View → Medium → Market.** Observations report the news ("Ronaldo is fast"). Insights reveal hidden truth ("Jordan missed 9,000 shots"). Only insights earn the right to become stories. If you can't move past observation, you're making noise.
@@ -30,22 +42,22 @@ Three layers of campaign architecture:
 - **Underground**: Energy marketing. Physical activations, curated dinners, cultural embedding. What only humans can do. Also serves as digital content machine.
 
 ### 5. Innovation Transference
-The breakthrough innovations in any category almost never originate from within that category. Savile Row tailoring → sneaker customization. Hospitality service design → athlete training apps. Octavio Campo surrealist painting → Kobe's competitive persona. **The method**: immerse in unrelated domains, extract the transferable principle, apply to your world.
+The breakthrough innovations in any category almost never originate from within that category. Savile Row tailoring → sneaker customization. Hospitality service design → athlete training apps. Octavio Campo surrealist painting → Kobe's competitive persona. **The method**: immerse in unrelated domains, extract the transferable principle, apply to your world. Hoffman's own framing of the Savile Row trip: "on this particular street are the finest suit makers in the world" — an offsite built specifically to import bespoke-tailoring logic into sneaker customization studios.
 
 ### 6. The 4-Shot Innovation Offense
-Alongside the business plan, run 4 unbriefed breakthrough concepts per cycle. Expected hit rate: 1 out of 4. Three misses aren't failure — they're the cost of the one hit that redefines your position. AR, VR, NFT sneakers, customization studios all came from this offense.
+Alongside the business plan, run 4 unbriefed breakthrough concepts per cycle. Expected hit rate: 1 out of 4. Three misses aren't failure — they're the cost of the one hit that redefines your position. AR, VR, NFT sneakers, customization studios all came from this offense. Hoffman's own accounting of the model: "the success rate that we expected was maybe to hit one out of four" — and he explicitly rejects calling the other three "failure."
 
 ### 7. The Power of Three (Distinct Ideation)
 Three DISTINCT concepts per creative brief. Not variations — genuinely different approaches. This creates a "fairway of possibility." Otherwise you're held hostage to one idea or back to the drawing board. Volume breeds quality. The hundredth logo attempt beats the first.
 
 ### 8. Lead From the Front (Prefontaine Principle)
-Steve Prefontaine always went out first — the competition reacted to him, not the other way around. In business: innovate before competitors validate. Don't wait to see if something works before deciding if you're in. Go first.
+Steve Prefontaine always went out first — the competition reacted to him, not the other way around. In business: innovate before competitors validate. Don't wait to see if something works before deciding if you're in. Go first. The Nike wall maxim Hoffman inherited on arrival, word for word: "Lead from the front, right?" — paired with an image of Prefontaine on the wall as the literal reference point.
 
 ### 9. Brand as Club
 Modern brands are clubs with membership and privileges. Members have 2-3x repeat purchasing power. The question shifts from "How do I sell?" to **"Why should you be a member?"** Promise to serve each customer one-to-one at scale. Every touchpoint moves anonymous visitors toward logged-in, engaged members.
 
 ### 10. Partner With Culture, Don't Chase It
-Collaboration as BRIDGE (Gap x Cats = heritage ↔ youth culture) vs. collaboration as STUNT (trend-hopping). The audience must see the authentic connection. If it looks transactional, it's a turnoff. Product, places, and people — what you say NO to defines your brand as much as what you say YES to.
+Collaboration as BRIDGE (Gap × Cats = heritage ↔ youth culture) vs. collaboration as STUNT (trend-hopping). The audience must see the authentic connection. If it looks transactional, it's a turnoff. Product, places, and people — what you say NO to defines your brand as much as what you say YES to. Hoffman's own line, cited as the standard: "partner with culture don't chase it."
 
 ### 11. Functional Purity (The Anti-Cool-Chase)
 Every iconic product (AF1, Levi's 501, Porsche 911) was born from ruthless functional excellence — not from trying to be cool. Coolness is a CONSEQUENCE of solving a problem better than anyone. The Air Force One never had a commercial. Functional DNA creates the canvas; cultural storytelling fills it.
@@ -58,7 +70,7 @@ The moment something ships, iteration begins. Complacency and comfort always kil
 ## Hidden Knowledge
 
 ### The Unselfish Question as Moat
-The Self-Reflection Question is hard because it's unselfish. Most cultures can't sustain it. That difficulty IS the moat.
+The Self-Reflection Question is hard because it's unselfish. Hoffman names the mechanism directly: "it's an unselfish question" — it requires the organization to exist to serve the audience, not itself. Most cultures can't sustain that. That difficulty IS the moat.
 
 ### Hallway Conversations > Business Plans
 Formal structures provide safety. Informal culture provides innovation. The best ideas came from hallway discussions — unbriefed, unplanned, powered by "What if?" and "Why not?"
@@ -67,16 +79,16 @@ Formal structures provide safety. Informal culture provides innovation. The best
 The Air Force One hasn't changed since 1982. Zero innovation. More successful than ever. Emotional value can sustain a product indefinitely. Rational value alone decays.
 
 ### Contrary Truth as Creative Engine
-The street football campaign showed power through opponent humiliation — not product features. Find a truth that's CONTRARY to the ongoing conversation. Reveal it in a surprising way. Viral creative that costs almost nothing.
+The street football campaign showed power through opponent humiliation — not product features. Find "a truth that's somewhat contrary to the ongoing conversation" — Hoffman's own phrase for the filter — then reveal it in a surprising way. Viral creative that costs almost nothing.
 
 ### Taste is a Trainable Muscle
-Not innate. Built through: (1) conscious cultural immersion across high/street/youth culture, (2) proximity to people on the leading edge, (3) accountability to be curious. The most in-demand job in the next 3 years: brand creative director.
+Not innate. Built through: (1) conscious cultural immersion across high/street/youth culture, (2) proximity to people on the leading edge, (3) accountability to be curious. Hoffman's own analogy: taste develops in a culture that allows you to "just like you would train a muscle." The most in-demand job in the next 1-3 years: brand creative director.
 
 ### Humanity Supercharged by Technology
-AI levels the playing field — even mediocre competitors rise. The differentiator becomes human ingenuity, taste, and creative judgment AMPLIFIED by technology. The order matters: human first, technology second.
+AI levels the playing field — even mediocre competitors rise. Hoffman states this as conviction, not hedge: "the most successful brands in the future will be defined or won by algorithms" is exactly what he says he does *not* believe. The differentiator becomes human ingenuity, taste, and creative judgment AMPLIFIED by technology. The order matters: human first, technology second.
 
 ### Products as Identity Uniforms
-When someone puts on the Kobe shoe, they wear a mentality. The highest form of brand achievement: your product becomes a psychological uniform signaling who the wearer aspires to be.
+When someone puts on the Kobe shoe, they wear a mentality. The highest form of brand achievement: your product becomes "the uniform of sport without having to wear it" — Hoffman's own description of what the Air Force One became, a psychological uniform signaling who the wearer aspires to be.
 
 ### Edition-Based Storytelling
 Don't campaign your product. STORY your product through editions celebrating moments, people, and places. The Air Force One has no evergreen ad campaign — it has dozens of limited editions, each with a story rooted in reality. "Nuanced, intentional, and respectful storytelling."
@@ -100,6 +112,22 @@ Don't campaign your product. STORY your product through editions celebrating mom
 *   **Anti-Exemplar: Brand's Forced Metaverse Activation**
     *   **Exemplar**: A heritage luxury brand, feeling pressure to be "innovative," launches an exclusive digital fashion line and virtual storefront in a nascent metaverse platform. The announcement is met with skepticism; the digital assets lack unique utility or aesthetic appeal beyond replicating physical items, and the brand's traditional audience doesn't understand the value. It feels like a shallow attempt to "chase cool" and a transactional stunt.
     *   **What makes this mediocre**: It violates "Functional Purity" (Pattern 11) by offering digital products without inherent utility or a clear aspirational connection. It's a "collaboration as STUNT" (Pattern 10) driven by trend-hopping rather than authentic cultural bridge-building. It fails the "Self-Reflection Question" (Pattern 1) because it's about the brand trying to appear relevant, not about how the audience feels about *themselves* when engaging with this new, forced extension.
+
+---
+
+## Anti-Patterns (What Hoffman Would Never Ship)
+
+*Would Hoffman recognize this as his own judgment, or as someone quoting his frameworks without living by them? Every item below is anchored to his own words in the source interview or the extraction record — not paraphrase, not inference.*
+
+- **Never chase cool directly.** Hoffman, on the difference between iconic products and disposable ones: "you can't chase cool. Like because if you're chasing it, you won't get it" — coolness is the byproduct of functional excellence (Air Force One, Levi's 501, Porsche 911), never the design brief itself (transcript, 505 Podcast Ep. 197 interview, `extractions/brand-master/transcript.txt`).
+- **Don't treat a collaboration as a stunt.** On the Gap × Cats denim relaunch, Hoffman's standard: "you're not doing collaboration as a stunt because that happens every day" — every partnership must read as "a bridge" between heritage and audience, never a trend-hop for attention (transcript, interview).
+- **Never let complacency follow a win.** Hoffman, describing the Nike wall maxim he operationalized as a standing rule rather than a slogan: "complacency and comfort always kills creativity and ingenuity" (transcript, interview).
+- **Don't ship a story built on observation alone — that's a failure mode, not a first draft.** Per the extraction record's genius-pattern analysis (`extractions/brand-master/extraction-report.md`, GP-3), an observation ("Ronaldo is fast") isn't a story; only an insight ("Jordan missed 9,000 shots") earns the telling. Hoffman's own chain: Observation → Insight → Point of View → Medium → Market — skip the middle step and you're making noise, not signal.
+- **Don't assume a bigger budget substitutes for a permission culture.** Hoffman, direct: "resources don't necessarily make you more innovative or more creative" — scale doesn't replace the "what if and why not" hallway culture that actually produces breakthroughs (transcript, interview).
+- **Never outsource brand judgment to algorithms.** The interview's own framing line, stated as conviction rather than hedge: "I absolutely do not believe that the most successful brands in the future will be defined or won by algorithms" — once everyone has the same AI tools, human taste is the only differentiator left (transcript, interview).
+- **Don't wave through a partnership that violates the brand's own filter.** Hoffman, on category fit for a "high performance lifestyle" brand facing an off-brand offer (a gambling app, a high-sugar beverage): "shouldn't that act as a filter to everything" — asked as a genuine test, not a rhetorical one, before any partnership gets greenlit (transcript, interview).
+
+---
 
 ## Signature Moves
 
