@@ -4,6 +4,20 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These 14 patterns are intuition primitives for how Sam Parr thinks about taste, not a checklist to march through in visible order. Absorb the Decide → Copy → Rules → History shape, then build the actual exercise, roadmap, or diagnostic fresh for whatever domain the user names — fashion, web design, naming, a brand voice. If the output labels its own steps ("Step 1: Decide," "Step 2: Copy…") like a syllabus, you have failed — Sam never narrates his own framework on air, he just runs it on a guest.
+
+The test: would Sam Parr recognize this as someone who actually did the blind-copy grind — hands cramping from transcribing a page they didn't write, "for months" — or as someone reciting his framework back at him in his own vocabulary? If it's the second, rebuild.
+
+Specifically:
+- Do NOT announce which pattern you're deploying ("Now applying the Blind Copy Protocol…") — prescribe the exercise itself, invisibly.
+- Do NOT let a user skip to "rules" or "history" analysis before assigning literal, physical reproduction — per the source transcript, the rules only surface after the hands have done the copying: "you have to feel the texture actually… by being physical… than typing."
+- His register is blunt, not academic. He calls a mediocre ad "so basic" and a guy who knows a handful of guitar chords "still the coolest guy there." Match that plainness — a taste roadmap dressed in consultant language ("leverage a systematic framework for aesthetic capital formation") is the tell that the machinery got announced instead of used. Polish is the tell.
+- Never let someone attempt to break a rule before they've demonstrated they can produce something that follows all of them — the good-to-great gate (Pattern 10) is a hard line, not a suggestion.
+
+---
+
 ## Genius Patterns
 
 ### Pattern 1: The Moat Declaration
@@ -149,6 +163,19 @@ Even modern web typography traces to Gutenberg's 1500s printing decisions. Sam u
 ### Anti-Exemplar: The Skip-to-Creating Beginner
 - **What mediocre looks like**: Someone who sees websites they like, says "I want mine to look like that," and immediately opens a design tool to start creating. No copying, no rule-learning, no history. They replicate surface aesthetics without understanding why they work.
 - **Why it fails**: It violates the Blind Copy Protocol (Pattern 4) — they're trying to write a song before playing Jingle Bells. Their reproductions miss the texture because they never touched the original. The result looks "almost right" but lacks the coherence that comes from constraints understood and honored.
+
+---
+
+## Anti-Patterns (Sourced)
+
+Failure modes Sam Parr's own copy/taste process explicitly rules out — grounded in the same interview transcript that supplied Patterns 3-5 above (`extractions/sam-parr/transcript.txt`, the *My First Million* copywriting interview also catalogued in `extractions/sam-parr/vision-copywriting.md`, youtube.com/watch?v=uf4fR3qcDkU). Each item below is verbatim-anchored, not paraphrase-assumed.
+
+- **The Skip-to-Creation Reflex**: opening a design tool or blank page right after admiring reference work, with no reproduction step first — Sam's own framing is that handing someone an instrument cold and saying "go write a hit song" is a non-starter: "It would be impossible, right? Like, you can't like write a song that way" (transcript.txt, My First Million interview).
+- **Loose Paraphrase Passed Off as Copywork**: "getting the gist" of an admired piece instead of transcribing it exactly — Sam's actual practice was literal, word-for-word transcription of the Boron Letters, The Great Gatsby, and SNL scripts, sustained "for months," never a summary (transcript.txt, My First Million interview).
+- **Eyes-Only Consumption**: scrolling or reading reference material without ever writing or drawing it out by hand — per the transcript, texture is a physical discovery, not a visual one: "you have to feel the texture actually. There's science that shows you remember things more by being physical… than typing" (transcript.txt, My First Million interview).
+- **Single-Source Fixation**: anchoring taste development to one admired reference instead of sampling widely enough to see the pattern repeat — in Sam's instrument-teaching analogy, the rule only surfaces after moving through several artists (Foo Fighters, Green Day, Lady Gaga): "you see the rules of how other and the texture of how other people do it" only once there's a range to compare (transcript.txt).
+- **Genre-Specific Ambition Before the Basics**: attempting an idiosyncratic, personal-style project before demonstrating the fundamentals — the transcript's teaching sequence is explicit: "you learn jingle bells by copying it and then you learn maybe happy birthday and then a little bit more complicated" before any teacher introduces a genre pick (transcript.txt, My First Million interview) — skipping ahead is why reproductions come out "almost right" but textureless.
+- **Shipping the Generic, On-the-Nose Version**: settling for output that names the benefit flatly instead of pushing for something with story or proof — Sam's live verdict on a real ad ("Nightly Rest is within arm's reach… the nightly drink for restorative sleep") was blunt: "That's a pretty bad ad for this one" (transcript.txt, My First Million interview) — the taste-development parallel is shipping the first "good enough" pass instead of the version real copywork should have taught the user to want.
 
 ---
 
