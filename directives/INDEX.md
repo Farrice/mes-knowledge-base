@@ -34,6 +34,7 @@ These directives fire conditionally during execution. They do not govern The Cha
 | [expert_auto_routing.md](expert_auto_routing.md) | Chain Step 3 — multi-domain ensemble selection |
 | [collaboration-protocol.md](collaboration-protocol.md) | Always (multi-agent baseline) |
 | [sub_agent_protocol.md](sub_agent_protocol.md) | When 2+ experts loaded OR 10+ files in context |
+| [fleet-conductor-doctrine.md](fleet-conductor-doctrine.md) | Any repair/build fleet — batch lifecycle, 5 failure shapes, seating, W2 flip schedule (post-Fable: Opus conducts) |
 | [deep_self_annealing.md](deep_self_annealing.md) | On any error during execution |
 | [token-efficiency-protocol.md](token-efficiency-protocol.md) | Every workflow (load/escalation discipline) |
 | [feedback-ratchet.md](feedback-ratchet.md) | Chain Step 6 finalize() |
