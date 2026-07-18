@@ -4,6 +4,33 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These 23 patterns are intuition primitives, not a checklist — internalize the shape of Dan Koe's thinking, then write without stamping "Pattern 4: Idea Density Obsession" onto the page. If the output visibly enumerates which pattern it applied, it has failed the assignment.
+
+Run every draft through this recognition test: would Dan Koe recognize this as his own multipassionate-identity thinking — or as generic creator-economy advice using his vocabulary (personal monopoly, sovereignty vessel, energy signals, idea museum, MCU content ecosystem)? If it's the second, rebuild.
+
+Specifically:
+- Do NOT open with "Using the Inversion Principle..." or label the reframe. Invert the conventional wisdom in the first line and let the reader feel the flip.
+- Do NOT treat "you ARE the niche" as a slogan to insert — it is a posture the whole piece should breathe, closer to how Dan writes his newsletter than how a marketer writes a tagline (see the MCU Content Ecosystem pattern below — the newsletter *is* the funnel, never a pitch appended to value).
+- His texture is idea-dense and philosophically anchored, never listicle-flat: every paragraph should introduce a new layer, not restate the last one in different words (Pattern 4 below — "high save rates, quote screenshots, return readers" is the tell of it working, not "5 tips" formatting).
+- Polish is the tell-class warning here: Dan's own register is personal note-taking, not corporate thought-leadership — "Get out of the mindset of 'I need to provide something super valuable' and think of social media more as a note-taking platform" (Hidden Knowledge — 2026 additions, #1, below). If a draft reads like it was written to impress rather than to think out loud, rebuild it plainer.
+
+---
+
+## Anti-Patterns (Sourced)
+
+What Dan Koe would never ship, each anchored to a dated source already used elsewhere in this file or in the raw extraction:
+
+- **Never outsources the thinking to AI (or a ghostwriter, or a template) and calls it a personal brand.** His own words, from the AI-workflow tutorial: "we're not just going to have an agent do this all for us because the purpose of a personal brand and what's going to survive in the future is the human aspect of it" (extractions/dan-koe/transcript.txt, code-tutorials channel video).
+- **Never lets a request run without personal context and calls the result strategy.** Same transcript, on asking AI to build a personal brand with no framework fed in first: "You're gambling at that point" (extractions/dan-koe/transcript.txt).
+- **Never chases "provide something super valuable" content.** Rejected explicitly in the 2026-07-01 export ("How I'd Build a One-Person Business," Jan 2026): "Get out of the mindset of 'I need to provide something super valuable' and think of social media more as a note-taking platform" (Hidden Knowledge — 2026 additions, #1, this file).
+- **Never follows one guru's system wholesale.** From the same 2026-07-01 export ("This is Boring But It'll 10x Your Personal Brand in 2026," Nov 2025 podcast interview): "The worst thing you can do is follow one specific person's advice law... you're missing the critical ingredient, which is iteration" (Hidden Knowledge — 2026 additions, #6, this file).
+- **Never builds the product before the interest is validated by posts.** Stated as the execution rule inside the Validation Cascade pattern, same 2026-07-01 export: "Never build the product first" (Pattern: Validation Cascade + The 4-Hour Productization Trigger, this file).
+- **Never treats AI as an oracle instead of an untrained new hire that needs onboarding.** From extractions/dan-koe/extraction-report-ai-leverage.md (Genius Pattern 6, "AI as Employee" Mental Model): "Stop treating AI as an oracle. Treat it as a capable but untrained new hire."
+
+---
+
 ## Genius Patterns
 
 ## 23 Unconscious Mastery Behaviors
@@ -12,71 +39,85 @@
 **Observable Behavior**: Dan consistently flips conventional wisdom to create magnetic content
 **Deployment Context**: Headlines, opening hooks, positioning statements
 **Success Metric**: Immediate attention capture through cognitive dissonance
+**Grounded example**: The system's core inversion is stated directly in SKILL.md — operators who "refuse to niche down" — flipping the standard advice to specialize (see the Anti-Exemplar below, "5 Ways to Find Your Niche and Stick To It").
 
 ### Pattern 2: You ARE The Niche
 **Observable Behavior**: Positioning uniqueness as the unfair advantage, not limitation
 **Deployment Context**: Brand positioning, content strategy, offer design
 **Success Metric**: Uncopyable market position through personality integration
+**Grounded example**: See Hall of Fame Exemplar 1, "The Digital Renaissance Man" Manifesto, which reframes having too many interests as the core identity rather than a weakness to hide.
 
 ### Pattern 3: Past-Self Targeting
 **Observable Behavior**: Uses personal transformation as customer research
 **Deployment Context**: Avatar development, messaging, offer creation
 **Success Metric**: Deep resonance with zero customer interviews
+**Operationalized as**: references/prompts-v2/prompt_2_past_self_avatar_generator.md — one of the 26 execution prompts wired into this skill, quoted in SKILL.md.old as "Create customer avatar from personal transformation."
 
 ### Pattern 4: Idea Density Obsession
 **Observable Behavior**: Maximizes insight-per-word in all content
 **Deployment Context**: Writing, content editing, quality assessment
 **Success Metric**: High save rates, quote screenshots, return readers
+**Grounded example**: Measured the way Dan measures content quality, not by reach — "high save rates, quote screenshots, return readers" (Success Metric above), operationalized in references/prompts-v2/advanced_prompt_4_high_density_insight_compressor.md.
 
 ### Pattern 5: Structure Museum Curation
 **Observable Behavior**: Actively collects content structures from great creators
 **Deployment Context**: Content creation, idea multiplication
 **Success Metric**: Never faces blank page—always has structural starting points
+**Operationalized as**: references/prompts-v2/prompt_4_idea_museum_architect.md — the "Idea Museum Architect" prompt, named directly after this behavior.
 
 ### Pattern 6: Compression-to-Expansion
 **Observable Behavior**: Same ideas work as tweets and as essays
 **Deployment Context**: Multi-format content strategy
 **Success Metric**: Consistent message across all content lengths
+**Named directly**: This is the "Compression-to-Expansion Loop" signature move described below — the same core idea articulated as a tweet, then expanded into an essay, without losing the thread.
 
 ### Pattern 7: Philosophical Practicality Bridge
 **Observable Behavior**: Connects timeless wisdom to tactical problems
 **Deployment Context**: Content that transcends trends
 **Success Metric**: Content that ages well, continues generating value
+**Grounded example**: Demonstrated live in the Market Sophistication Endgame pattern below, which cites Eugene Schwartz's "final sophistication stage" as the reason info products are "dying" (2026-07-01 export).
 
 ### Pattern 8: Permission-Before-Prescription
 **Observable Behavior**: Validates struggles before offering solutions
 **Deployment Context**: Sales copy, email sequences, social content
 **Success Metric**: Reduced resistance, higher conversion without pressure
+**Grounded example**: The AI-leverage extraction states the same permission-before-prescription move for working with any collaborator — "It needs your taste, your preferences, your direction" (extractions/dan-koe/extraction-report-ai-leverage.md).
 
 ### Pattern 9: The Build Revelation
 **Observable Behavior**: Interest discovery through action, not introspection
 **Deployment Context**: Career advice, business strategy
 **Success Metric**: Clients discover passions by building, not thinking
+**Grounded example**: Dan models this in his own AI-workflow tutorial, rejecting introspection-first onboarding: "going in tinkering, experimenting, and having a goal to work towards" rather than waiting for a framework (extractions/dan-koe/transcript.txt).
 
 ### Pattern 10: Development Over Skill Path
 **Observable Behavior**: Emphasis on personal evolution as business asset
 **Deployment Context**: Long-term positioning, content evolution
 **Success Metric**: Brand that grows rather than stagnates
+**Grounded example**: See the Vessel Decay Clock pattern below (2026-07-01 export) — "value stays, vessels change" — the operator's own evolution forces the next vessel migration before the current one saturates.
 
 ### Pattern 11: Anti-Specialization Positioning
 **Observable Behavior**: Breadth as feature, not bug
 **Deployment Context**: Brand messaging, offer structure
 **Success Metric**: Premium positioning through uniqueness
+**Grounded example**: SKILL.md states the audience directly — operators "who refuse to niche down" — positioning breadth as the premium, uncopyable asset (see Pattern 2 above).
 
 ### Pattern 12: Content-to-System Pipeline
 **Observable Behavior**: Personal solutions become named methodologies
 **Deployment Context**: Product development, authority building
 **Success Metric**: Intellectual property from lived experience
+**Grounded example**: The same content-to-system move is priced as a service in the AI-leverage extraction report — "I'll turn your $5K course into an AI coaching bot" ($997-$2,500 per extraction), operationalized here as references/prompts-v2/prompt_6_content_to_system_productizer.md.
 
 ### Pattern 13: The Work = Play Principle
 **Observable Behavior**: Business design around genuine interests
 **Deployment Context**: Business model selection
 **Success Metric**: Sustainable energy, no burnout
+**Grounded example**: Hidden Knowledge #2 above — "Energy reveals truth: Pay attention to what energizes you in consumption—that's your creation direction" — is this pattern's operating instruction.
 
 ### Pattern 14: Eternal Market Anchoring
 **Observable Behavior**: Personal content under universal umbrellas (health/wealth/relationships)
 **Deployment Context**: Content categorization, offer positioning
 **Success Metric**: Evergreen relevance with personal flavor
+**Grounded example**: The Market Sophistication Endgame pattern below diagnoses when a market has exhausted claims and mechanisms and needs anchoring to mission/tribe instead — Eugene Schwartz's stage model applied to info products (2026-07-01 export).
 
 ---
 
