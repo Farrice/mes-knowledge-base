@@ -4,6 +4,33 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These 14 patterns and 6 hidden insights are intuition primitives for retrieval-layer
+thinking, not a checklist to march through in order. Absorb the shift — optimize for
+what AI cites, not what a human scans — then build originally for the brand in front of
+you. If the output stamps "Pattern 1, Pattern 2, Pattern 3" in numbered sequence, or
+narrates "now applying the 15% Human Layer Filter," you have failed the test: would
+Nathan Gotch recognize this as retrieval-layer strategy actually built for this brand's
+specific citation gaps, or as someone reciting AI-SEO vocabulary borrowed from a listicle?
+
+Specifically:
+- Do NOT enumerate which pattern number you're deploying. Execute the retrieval-layer
+  diagnosis silently; only surface the finding.
+- Do NOT open with "Let's optimize for the retrieval layer" — start with the actual gap:
+  which sources AI is pulling from today, and where the brand is absent from them.
+- This framework is measurement-first and platform-specific, never generic. "Post more
+  content" is the polish-is-the-tell failure mode — a savant-grade output names the
+  actual 5-10 platforms, the actual 4 metrics, the actual citation gap for THIS brand,
+  never vague directional advice dressed in AI-SEO language.
+- The "What AI Can't Fake" discipline (Pattern 6) applies to this skill's own output too:
+  a knowledge base, citation map, or content plan built entirely from this framework's
+  generic pattern language — with no brand-specific data plugged in — is the same
+  "Generic SaaS Blog" failure the Anti-Exemplar below describes: technically correct,
+  retrieval-invisible.
+
+---
+
 ## Genius Patterns
 
 14 virtuoso patterns for AI SEO domination.
@@ -17,6 +44,7 @@
 ## Pattern 2: Measurement-First Philosophy
 **Execute**: Track before optimizing. Four metrics: market coverage, position, share of voice, citations.
 **Success Metric**: Dashboard tracking all 4 metrics before any optimization begins.
+**Baseline Window**: Per `references/implementation.md` Hour 0-4, establish the baseline across all 4 metrics within the first 24 hours — a dashboard built after content ships is measuring noise, not signal.
 
 ## Pattern 3: Platform Hierarchy Weighting
 **Execute**: Not all channels equal. Identify 5-10 highest-impact platforms and weight resources accordingly.
@@ -29,6 +57,7 @@
 ## Pattern 5: Knowledge Base Foundation
 **Execute**: Build organized knowledge base before content creation. AI projects need structured data.
 **Success Metric**: Complete knowledge base deployed before first content piece.
+**Build Window**: Per `references/implementation.md` Hour 8-16, the knowledge base is built before Hour 16-24 first optimizations — confirmed complete no later than the Day 30 benchmark.
 
 ## Pattern 6: "What AI Can't Fake" Filter
 **Execute**: Differentiate with original data, real experience, authentic authority. Add 15% human layer.
@@ -45,14 +74,17 @@
 ## Pattern 9: Review Diversity Architecture
 **Execute**: Reviews across multiple platforms, not just one. Diversity signals legitimacy.
 **Success Metric**: Active reviews on 5+ platforms.
+**Cross-Reference**: Ties to the Day 30 benchmark's "10+ optimized platforms" target in `references/implementation.md` — review diversity is one slice of that broader platform count.
 
 ## Pattern 10: Lead Domino Sequencing
 **Execute**: Identify single action that unlocks all others. Knowledge base unlocks content which unlocks citations.
 **Success Metric**: Clear lead domino identified for every initiative.
+**Worked Example**: The clearest lead domino in this framework is the knowledge base itself (Pattern 5, Hidden Knowledge 3) — sequenced first in `references/implementation.md`'s Hour 8-16 build window, before any of the 20+ AI-assisted content pieces the Day 30 benchmark targets.
 
 ## Pattern 11: AI Coding Leverage
 **Execute**: Build custom tools using AI coding (Replit, Cursor). Small team ships like large team.
 **Success Metric**: 1+ custom tool deployed per quarter.
+**Cadence**: "1+ custom tool deployed per quarter" (~90 days) syncs with three consecutive 30-Day Transformation cycles in `references/implementation.md`.
 
 ## Pattern 12: Rapid Iteration Protocol
 **Execute**: Ship fast, measure, iterate. Don't perfect before deploying.
@@ -61,6 +93,7 @@
 ## Pattern 13: Competitor Citation Analysis
 **Execute**: Map where competitors get cited. Those are your target sources.
 **Success Metric**: Complete competitor citation matrix with gaps identified.
+**Cross-Reference**: Uses the same source set as the "AI's Brain Scan" signature move below — the top 50+ sources AI cites for the niche — mapped against competitor presence on each.
 
 ## Pattern 14: Brand Association Strategy
 **Execute**: Associate with well-known brands for trust transfer. "As seen on" = citation fuel.
@@ -75,14 +108,17 @@
 ## 1. Retrieval ≠ Ranking
 **Insight**: AI search works fundamentally differently—it retrieves and synthesizes rather than ranks. Optimizing for ranking misses the retrieval layer entirely.
 **Deploy**: Before any SEO work, map the retrieval layer first.
+**Cross-Reference**: See Pattern 1's Success Metric — cited in 70%+ of relevant AI searches is the retrieval-layer target; a ranking-layer metric (SERP position) does not measure it.
 
 ## 2. Unlinked Mentions Count
 **Insight**: Traditional SEO valued backlinks. AI SEO values mentions—even without links. Brand mention = citation fuel.
 **Deploy**: Pursue unlinked mentions as actively as backlinks.
+**Cross-Reference**: See Pattern 8's Success Metric — presence on 80%+ of high-citation sources, which counts unlinked brand mentions alongside linked ones.
 
 ## 3. Knowledge Base Is the Lead Domino
 **Insight**: Everything else (content, citations, tools) depends on organized knowledge. Without it, AI can't help you scale.
 **Deploy**: Build knowledge base BEFORE creating content.
+**Cross-Reference**: See `references/implementation.md` Hour 8-16 (Knowledge Base Build) — sequenced before Hour 16-24 (First Optimizations).
 
 ## 4. Platform Weights Are 80/20
 **Insight**: 5-10 platforms determine 80%+ of AI's citation decisions. Most optimization wastes resources on irrelevant platforms.
@@ -95,18 +131,30 @@
 ## 6. Coding Is the Multiplier
 **Insight**: AI coding (Replit, Cursor) lets small teams ship tools that previously required developers. This is leverage at scale.
 **Deploy**: Invest in AI coding skills or hire for them.
+**Cross-Reference**: See Pattern 11's Success Metric and the ~90-day quarterly cadence for shipping at least one custom tool.
 
 ---
+
+## Anti-Patterns
+
+- Never treat SERP position as the primary success metric instead of Pattern 1's 70%+ AI-citation-share target — repeats the "Generic SaaS Blog" Anti-Exemplar failure (UNCONFIRMED, no primary Gotch source — see `references/source-ledger.md`, 2026-07-18).
+- Never chase only linked backlinks and ignore unlinked mentions — Hidden Knowledge 2 counts unlinked brand mentions as citation fuel equal to links (UNCONFIRMED, no primary Gotch source — see `references/source-ledger.md`, 2026-07-18).
+- Never produce content before the knowledge base exists — Pattern 5 and Hidden Knowledge 3 name it the lead domino, per `references/implementation.md` Hour 8-16 preceding Hour 16-24 (UNCONFIRMED, no primary Gotch source — see `references/source-ledger.md`, 2026-07-18).
+- Never spread resources evenly across every platform instead of the 80/20 weighting in Pattern 3 and Hidden Knowledge 4 — even distribution wastes the concentration this framework prescribes (UNCONFIRMED, no primary Gotch source — see `references/source-ledger.md`, 2026-07-18).
+- Never ship AI-generated content with zero original data, client story, or proprietary number — Pattern 6's "What AI Can't Fake" filter names generic content as retrieval-invisible (UNCONFIRMED, no primary Gotch source — see `references/source-ledger.md`, 2026-07-18).
+- Never claim brand consistency without measuring it against Pattern 7's 95%+ bar — an untracked claim violates the measurement-first philosophy of Pattern 2 (UNCONFIRMED, no primary Gotch source — see `references/source-ledger.md`, 2026-07-18).
 
 ## Hall of Fame Exemplars
 
 *   **Exemplar 1: The "Digital Health Atlas" by MedInsight AI**
     MedInsight AI, a startup in specialized medical diagnostics, built an exhaustive, proprietary knowledge base covering rare disease markers and diagnostic protocols. This knowledge base wasn't just for users; it was meticulously structured with semantic markup, clear entity relationships, and embedded original research studies. They then systematically secured unlinked mentions and direct citations on 20+ high-authority medical research aggregators and university health portals that AI models frequently scrape. When an AI search engine is queried about "early detection for [rare disease X]," MedInsight AI's data is consistently retrieved and synthesized as a primary source, often with direct attribution or as the foundation for the AI's generated summary.
     *   **What makes this excellent**: Directly applies Pattern 5 (Knowledge Base Foundation) and Hidden Knowledge 3 (Knowledge Base Is the Lead Domino). Leverages Pattern 8 (Retrieval Source Domination) and Hidden Knowledge 2 (Unlinked Mentions Count) by focusing on where AI pulls information, not just traditional links. The "original research studies" fulfill Pattern 6 ("What AI Can't Fake" Filter).
+    *   **Note**: This is an illustrative composite, not a documented Gotch case study (UNCONFIRMED — see `references/source-ledger.md`, 2026-07-18).
 
 *   **Exemplar 2: "Sustainable Home Solutions" by EcoBuild Pro**
     EcoBuild Pro, a B2B supplier of sustainable construction materials, recognized that AI often struggles with nuanced product comparisons and real-world application data in their niche. They used AI coding (Pattern 11) to develop an internal tool that scraped competitor product data, then cross-referenced it with their own proprietary testing results and client case studies (Pattern 6). This tool generated unique, data-rich comparison tables and application guides which were then published across a curated set of 7 industry-specific forums and trade publication sites (Pattern 3). These platforms were identified as the highest-impact citation sources for AI in their sector (Pattern 4). The result was that AI models frequently cited EcoBuild Pro's comparative data when users asked for "best sustainable insulation for cold climates" or "cost-benefit of [material X] vs. [material Y]."
     *   **What makes this excellent**: Exemplifies Pattern 11 (AI Coding Leverage) to create unique content that AI cannot fake (Pattern 6). Demonstrates focused resource allocation based on Pattern 3 (Platform Hierarchy Weighting) and Pattern 4 (Citation Intelligence Extraction), leading to retrieval dominance rather than just ranking.
+    *   **Note**: This is an illustrative composite, not a documented Gotch case study (UNCONFIRMED — see `references/source-ledger.md`, 2026-07-18).
 
 *   **Anti-Exemplar: "Generic SaaS Blog" by TechSolutions Inc.**
     TechSolutions Inc. invested heavily in a blog producing 50+ articles monthly, optimized for long-tail keywords using traditional SEO tools. Their content was well-written, covered trending topics, and acquired backlinks. However, it lacked original data, relied on commonly available information, and was published almost exclusively on their own domain. While some articles ranked well for specific keywords, they were rarely cited or synthesized by AI models because the content offered no unique insights, wasn't structured for easy AI retrieval, and wasn't present on the specific external platforms AI used for citations.
