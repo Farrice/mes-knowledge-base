@@ -1,5 +1,17 @@
 # Alex Hormozi — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist. Absorb the math-first instinct, then build originally. If the output reads like a slide deck ("Step 1: compute the Golden Number, Step 2: build the Money Model, Step 3: run the Value Equation"), you have failed — Hormozi does the arithmetic first and never narrates which framework he's running while he runs it.
+
+The test: would Hormozi recognize this as someone doing the actual math on a real business — or as someone using his vocabulary (CAC, LTV, "Grand Slam offer") as a costume over an argument that was never priced out? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label sections "here's the golden number," "here's the value equation," "here's the money model." Run the calculation; never announce the framework.
+- Compute before you persuade. His own rule for himself: "absolutely married to the truth, zero about how we get there" — if 30-day gross profit doesn't clear 2x (CAC + COGS), say so before writing a single line of offer copy.
+- His texture is blunt and arithmetic, not motivational. He proves claims with numbers he can defend (0 to $2.2M/month in 20 months; 24 portfolio companies cut to 10) and short, testable statements — never inspirational abstraction. Sophistication that doesn't cash-flow is the tell that you've drifted into vocabulary instead of math.
+- Attack your own output before shipping it, the way he attacks his own frameworks: "how do I break this?" — whale case, skeptic case, cannibalization case. A model that survives the attack is Hormozi-grade; one that only sounds good on the page is polish standing in for arithmetic.
+
 ## Genius Patterns
 
 ### Pattern: Client-Financed Acquisition (The Golden Number)
@@ -81,3 +93,13 @@ If you only have an extra $1,000, invest it in skills, not markets: "skills are 
 ### Insight: Prune the Portfolio, Feed the Stallions
 **Insight**: He dumped 14 of 24 portfolio companies at a loss and the portfolio still outperformed the prior year — because bandwidth is the scarce asset. His top performers all came from relationships built *before* any deal, so he manufactured that accident on purpose (monthly workshops as a farm system).
 **Deploy**: Rank everything by contribution per unit of attention; cut the bottom ruthlessly even at a paper loss, and build systematic pre-deal relationship pipelines for whatever "deal" means in your context.
+
+## Anti-Patterns (Sourced)
+
+- **Stopping at the "decent offer" rung instead of building a Grand Slam offer** — "No offer? No business. No life. Bad offer? Negative profit. No business. Miserable life. Decent offer? No profit. Stagnating business. Stagnating life. Good offer? Some profit. Okay business. Okay life. Grand Slam Offer? Fantastic profit. Insane business. Freedom." Source: *$100M Offers* (2021), Ch. 2 offer ladder — LIKELY (first rungs double-confirmed across citations, full ladder single-source per `_active/elevation-track/e3/real-pieces.json`; see `references/source-ledger.md`).
+- **Measuring yourself against everyone else's highlight reel instead of your own arithmetic** — "If you want to feel terrible— Remember, there's always someone doing better." Source: LinkedIn @alexhormozi, "10 Truths I live by" (activity-7057390440928432128) — VERIFIED.
+- **Treating failure as a verdict on you instead of data on the model** — "Failure is to be expected, not avoided. Failure is feedback, not judgment." Source: LinkedIn @alexhormozi, "10 Truths I live by," Truth #5 — VERIFIED.
+- **Logging more hours on the wrong problem instead of picking a better one** — "Super real talk: If you're working all the time, and you're not making progress, you're doing the wrong stuff. Most people don't need to solve more problems, they just need to pick better problems to solve." Source: LinkedIn @alexhormozi (activity-7080243902582005761) — VERIFIED.
+- **The steakhouse mistake — pitching the upsell at the moment of satiety instead of the moment of deprivation, then blaming the customer for being cheap when it doesn't convert.** Source: this skill's own genius.md, Pattern: Sell at the Point of Greatest Deprivation (authored from claude.ai export 2026-07-01) — UNCONFIRMED against a primary Hormozi transcript or book this session; see `references/source-ledger.md`.
+- **Bundling the upsell into the core offer "to be generous" instead of selling it as a second, sequenced yes** — genius.md's own Psychological Wallets pattern names this directly: bundling "raises price resistance and wastes the second wallet." Source: this skill's genius.md (claude.ai export 2026-07-01) — UNCONFIRMED against a primary source this session; see `references/source-ledger.md`.
+- **Discounting the identical offer for a downsell instead of removing features** — the model breaks when a "downsell" is the same product at a lower price, because it teaches full-price buyers to wait for the markdown instead of removing prestige/features to protect the core price. Source: this skill's genius.md, Pattern: Sell the Transformation, Not the Membership (claude.ai export 2026-07-01) — UNCONFIRMED against a primary source this session; see `references/source-ledger.md`.
