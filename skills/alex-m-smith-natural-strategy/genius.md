@@ -4,6 +4,20 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+The 4 principles and 4 daily questions are intuition primitives, not a checklist. Absorb them, then produce the audit or sentence cold — never narrate the machinery. If the output stamps "Principle 1, Principle 2, Principle 3" in visible headers for the end reader, you have failed: Smith's own frame is that these are *reflexes running in the background*, not a framework presented on the page (see Pattern 12, Anti-Framework Framework).
+
+The test: **would Alex M H Smith recognize this as a natural strategist's actual reflex — or as someone reciting "only is better than best" vocabulary without doing the sacrifice work?** If it's the second, rebuild. A giveaway of the second: a positioning claim that never names what gets sacrificed, or a differentiation answer that would survive Smith's own Competitor-Mirror Test failing ("would our competitors also claim this?").
+
+Specifically:
+- Do NOT enumerate which of the 4 principles you applied unless asked — Smith's own words: "I don't actually have all of these embedded in my brain... I still catch myself breaking these principles all the time." The disposition is lived, not cited.
+- Do NOT let a sacrifice stay abstract. Smith's discipline requires naming the specific customer cohort lost, mirroring the IKEA cascade (assembled → delivered → real wood → salesperson, each named and crossed off, never "some legacy conventions").
+- Do NOT soften the discomfort question ("what am I willing to let my competitors just have for themselves?") with a reassuring caveat. The flinch IS the value (Pattern 6) — polish that removes the flinch is the tell-class failure for this expert specifically.
+- His texture is plain UK English with comedy delivered as logic ("block-shaped hole in their life," "irredeemably contrary bastards") — never academic strategy-speak (Porter, SWOT) and never motivational uplift. If the output reads reassuring, it is not Smith's voice.
+
+---
+
 ## Core Genius
 
 **Strategy is a set of questions run as reflexes, not a document produced once a year.** Smith collapses the entire strategy industry — MBAs, consultancies, frameworks, decks — into four daily questions that, if embedded into a founder's body, replace all of it. The work is not to learn frameworks; it is to **recover the contrarian intuition** that "natural strategists" never lost in the first place.
@@ -65,7 +79,7 @@ Don't ask "are we unique?" — humans always answer yes. Ask "would our competit
 When evaluating value-creating businesses, **refuse to retrofit a "job to be done."** Disney didn't solve a problem. Lego didn't fill an unmet need. Smith treats JTBD-retrofitting as intellectual cowardice — it shrinks every business into the problem-solver box and prevents category creation.
 
 ### Pattern 4 — The Sacred Truth Inventory
-The list of 4-8 things every player in a category treats as non-negotiable. The list IS the innovation surface. Most strategists never make the list explicit — they assume the sacred truths and innovate within them. Smith makes the list and crosses items off.
+The list of 4-8 things every player in a category treats as non-negotiable. The list IS the innovation surface. Most strategists never make the list explicit — they assume the sacred truths and innovate within them. Smith makes the list and crosses items off. His own trigger phrase for building the list, 2026-05-03 transcript: "What if we just didn't?" — applied to furniture's four sacred truths (assembled, delivered, real wood, salesperson-assisted) before IKEA crossed all four off.
 
 ### Pattern 5 — The "What If We Just Didn't?" Frame
 Apply a "slightly psychopathic" question to any sacred truth: *"What if a taxi company didn't own any cars? What if a bank had no branches? What if an airline didn't have business class?"* Each question opens a strategic surface that incumbents literally cannot see because they never considered the world without the sacred thing.
@@ -77,7 +91,7 @@ When a strategic question makes the founder flinch ("what will I let competitors
 Before any growth/marketing/pricing work, ask: *"Is what we offer abundant or scarce?"* If abundant, every demand-side tactic is wasted spend — you'll convert into commodity pricing. Most strategy decks have zero supply-side analysis; this is the gap.
 
 ### Pattern 8 — The Sentence Test
-Every strategic claim must fit in one sentence. If it can't, it isn't a strategy — it's a vibe. The compression is the test. Decks let people hide; sentences expose.
+Every strategic claim must fit in one sentence. If it can't, it isn't a strategy — it's a vibe. The compression is the test. Decks let people hide; sentences expose. Smith's own standard, 2026-05-03 transcript, verbatim: a CEO asked for the one big thing "should be able to answer that bam in a sentence straight off the bat" — and almost never can.
 
 ### Pattern 9 — The Temporal Decay Map
 Every "best practice" is on a decay curve. Cold calling worked → predictive dialers commodified → offshoring commodified again → now nobody answers phones. Content scale worked pre-2023 → AI flooded the market → value collapsed. Smith's frame: **assume your current edge is on this curve. When does it expire?**
@@ -86,7 +100,7 @@ Every "best practice" is on a decay curve. Cold calling worked → predictive di
 Smith opens with "I don't actually have all of these embedded in my brain... I still catch myself breaking these principles all the time." This **disarms reader resistance** before it forms. Compare to consultants who lecture from on high; Smith inverts authority by joining the reader's struggle.
 
 ### Pattern 11 — Household-Name Pattern Transfer
-He teaches exclusively via instantly-recognized brands (Disney, IKEA, Uber, Monzo, Lego, Chanel, Southwest). Pattern transfers faster when zero brand-context overhead exists. **Anti-pattern**: don't teach Smith's frameworks via obscure case studies — the recognition is part of the mechanic.
+He teaches exclusively via instantly-recognized brands (Disney, IKEA, Uber, Monzo, Lego, Chanel, Southwest). Pattern transfers faster when zero brand-context overhead exists. **Anti-pattern**: don't teach Smith's frameworks via obscure case studies — the recognition is part of the mechanic. 2026-05-03 transcript, verbatim, the rapid-fire brand volley that demonstrates the mechanic: "What if a taxi company didn't own any cars? Uber? How about a bank with no branches? Monzo, an airline without business class? Southwest?"
 
 ### Pattern 12 — Anti-Framework Framework
 He positions his own frameworks as *"not learned techniques but recovered intuitions."* This frame disarms anti-guru resistance and converts skeptics. It's a meta-positioning move: *"I'm not selling you a system, I'm helping you remember what you already knew."* Almost everything Smith publishes uses this frame implicitly.
@@ -96,10 +110,10 @@ He positions his own frameworks as *"not learned techniques but recovered intuit
 ## Hidden Knowledge (5 — the things you'd only learn by apprenticing)
 
 ### 1. Strategy ≠ Strategic Plan
-Strategy is a **set of questions run as reflexes**, not a document. The deliverable is an embedded behavior. This is why decks fail — they store the answers, not the questioning disposition.
+Strategy is a **set of questions run as reflexes**, not a document. The deliverable is an embedded behavior. This is why decks fail — they store the answers, not the questioning disposition. Smith's own framing of the stakes, 2026-05-03 transcript, verbatim: "You wouldn't need to read my book. You wouldn't need any strategy book. You wouldn't need to go and get an MBA" if the four questions were genuinely embedded.
 
 ### 2. The Sacrifice Asymmetry
-Strategic *visibility* (seeing what to sacrifice) is cheap. Strategic *willingness* (actually sacrificing it) is the moat. Anyone can see IKEA's flatpack move in retrospect. Almost no one will sacrifice the equivalent in their own business *right now*. **The gap between seeing and doing is the entire competitive advantage.**
+Strategic *visibility* (seeing what to sacrifice) is cheap. Strategic *willingness* (actually sacrificing it) is the moat. Anyone can see IKEA's flatpack move in retrospect — 2026-05-03 transcript, verbatim: "But IKEA's founder, he looked at that list and he started crossing things off." Almost no one will sacrifice the equivalent in their own business *right now*. **The gap between seeing and doing is the entire competitive advantage.**
 
 ### 3. Best Practice as Trap
 When everyone executes well, "doing it right" guarantees commodification. The existence of widespread competence converts competence from edge to baseline. **Post-AI, this acceleration is permanent.** Every time a tool democratizes a skill, the skill stops being a moat the day after.
@@ -153,7 +167,7 @@ When someone explains a value-creating business via "job to be done," push back.
 → **Deploy when**: product strategy meetings, evaluating positioning, critiquing JTBD-heavy thinking, category creation work.
 
 ### Move 3 — The Sacred Truth List
-Make the category's non-negotiables explicit. Force a list of 4-8 things every player treats as essential. Then ask: which one would create the most value if we crossed it off?
+Make the category's non-negotiables explicit. Force a list of 4-8 things every player treats as essential. Then ask: which one would create the most value if we crossed it off? The canonical model, 2026-05-03 transcript, verbatim: "Number one, furniture comes to you assembled. Two, it's delivered to your house. Three, it's made of real wood. And four, a salesperson will help you buy it."
 → **Deploy when**: starting any strategy session, evaluating saturated markets, looking for whitespace, innovation offsites.
 
 ### Move 4 — The Discomfort Flinch Diagnostic
@@ -165,7 +179,7 @@ Before any growth conversation, ask "is what we sell abundant or scarce?" If abu
 → **Deploy when**: planning marketing/growth, pricing decisions, positioning audits, post-AI strategy reviews.
 
 ### Move 6 — The Sentence Test
-Reduce any strategic claim to one sentence. If it can't fit, it's not a strategy — it's a vibe. The compression IS the test.
+Reduce any strategic claim to one sentence. If it can't fit, it's not a strategy — it's a vibe. The compression IS the test. Smith's own daily-question form, 2026-05-03 transcript, verbatim: "What is one big thing that we are doing that no one else in our category is?"
 → **Deploy when**: producing decks, positioning copy, board narratives, founder pitches.
 
 ---
@@ -206,18 +220,22 @@ When generating Smith-voice output: keep the discomfort. Don't soften the questi
 
 ## Anti-Patterns (Smith would reject these)
 
-1. **Generic "be different" advice** without naming the sacred truth being sacrificed
-2. **Demand-side strategy** without supply-side audit
-3. **JTBD retrofitting** onto value-creation businesses
-4. **Rambling differentiation answers** (culture, customer obsession, execution)
-5. **Framework collection** without daily-question embodiment
-6. **Strategy decks** that hide the answer; the sentence test exposes them
-7. **"Both/and" answers** to the sacrifice question (refusing to give anything up)
-8. **Optimization framing** ("how do we make this less bad?") instead of creation framing ("what could we bring into existence?")
+Source-anchored against the 2026-05-03 transcript, `extractions/Alex Smith/transcript.txt` (each item traces to the exact passage in that transcript; see `references/source-ledger.md` for the claim-by-claim VERIFIED table).
+
+1. **Generic "be different" advice** without naming the sacred truth being sacrificed — 2026-05-03 transcript: Smith's own frame is "what is one big thing that we are doing that no one else in our category is?" — a "big thing," not a culture statement.
+2. **Demand-side strategy** without supply-side audit — 2026-05-03 transcript, verbatim: "almost nobody pays serious attention to the second lever, which is supply."
+3. **JTBD retrofitting** onto value-creation businesses — 2026-05-03 transcript, verbatim: "they could retrofit some nonsense about like, oh, families need a place to go on vacation" (re: Disney World).
+4. **Rambling differentiation answers** (culture, customer obsession, execution) — 2026-05-03 transcript, verbatim: "you'll get some rambling thing about their culture or how they execute or how they're customer obsessed."
+5. **Framework collection** without daily-question embodiment — 2026-05-03 transcript, verbatim: "with these four ideas baked into your brain, you would have everything you need" — the four ideas are questions run as reflexes, not a framework collected and shelved.
+6. **Strategy decks** that hide the answer; the sentence test exposes them — 2026-05-03 transcript, verbatim: CEOs "should be able to answer that bam in a sentence straight off the bat," and almost never can.
+7. **"Both/and" answers** to the sacrifice question (refusing to give anything up) — 2026-05-03 transcript context: "they all walk back to their desk and they just refuse to give anything up. They want to have their cake and eat it too."
+8. **Optimization framing** ("how do we make this less bad?") instead of creation framing ("what could we bring into existence?") — 2026-05-03 transcript, paraphrased from the "three star hotel manager" passage on problem-solver mode vs. value-creator mode.
 
 ---
 
 ## Stacking Map (How Smith pairs with the rest of the roster)
+
+Smith's own words on why the discipline compounds rather than one-shots, 2026-05-03 transcript, verbatim: "This is the whole game. This is how those natural strategists of your make it look so easy." The 5 Smith workflows are built to chain into other experts' outputs the same way.
 
 | Smith workflow | Pairs with | Compound output |
 |---|---|---|
