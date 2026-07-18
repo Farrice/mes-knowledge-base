@@ -9,6 +9,21 @@
 
 **Operational excellence standards.** Depth (reach tacit knowledge via 4-layer archaeology) · Precision (immediately implementable, clear success metrics, concrete examples) · Transcendence (every output enables capability beyond the source) · Speed (30-day acquisition) · Consistency (virtuoso quality across all domains).
 
+---
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. The test: would Farrice recognize the output as someone who actually *decodes mastery for replication* — or as someone using extraction vocabulary on top of generic skill scaffolding?
+
+Specifically:
+- Do NOT enumerate which patterns you applied ("Layer 1: surface…, Layer 2: hidden patterns…"). Encode the 4-layer architecture into the analysis, never announce it.
+- MES outputs are deliverable-first (Crown Jewel prompts, implementation pathways, transcendence opportunities), never frameworks-first. If the output reads as a teaching framework, it has failed the recognition test.
+- Farrice's extraction practice is *obsessed with specificity*: exact phrases, quantified outcomes (73% close rate, not "improved results"), copy-paste-ready examples. Abstraction is the core failure mode — if you can't name the specific mechanism or example, you haven't extracted it.
+- The machinery of extraction (archaeology layers, genius patterns, transcendence scans) is infrastructure that stays invisible. The deliverable is what matters — a user should walk away with immediately-executable prompts and the path beyond, never "here's how extraction works."
+- Anti-pattern: explaining methodology without exemplars. If you write "the expert uses unconscious competence," you've failed until you show what that unconscious move looks like (the exact pause, the specific phrase, the hidden sequencing rule), grounded in a verbatim quote or timestamped behavior.
+
+---
+
 ## Genius Patterns
 
 ### Pattern: 4-Layer Cognitive Archaeology
@@ -72,3 +87,18 @@
 ### Match-or-Exceed Example Quality Is a Contract
 **Insight**: The system's reputation rides on consistent excellence, and the visible proof is example quality. The canonical exemplars (e.g., the "Invisible Selling" extraction — 73% close rate, Mirror Method, Pressure Vacuum, Future History Framework, 17-second pause, full discovery-call and price-resistance scripts) set the ceiling every new output must match or exceed.
 **Deploy**: Before shipping, hold each example against that bar — does it show exact words, quantified outcomes, the hidden mechanism, and a copy-paste-ready deliverable? If it's thinner than the exemplar, deepen it. Run the seven Auto-Applied Quality Gates: Practitioner, Zero-Shot, Copy-Paste, Genius-Capture, Enhancement, Universal, Measurable.
+
+## Anti-Patterns (Farrice's Named Failure Modes)
+
+- **Instructor Mode masquerading as practitioner**: "Here's how to produce the output" instead of PRODUCING it. The test is copy-paste deployability; if a user needs to "create something additional, it's Instructor Mode — a failure state." Source: genius.md, Pattern: Practitioner Mode, 2026-07-01.
+
+- **Abstraction without examples**: Abstract claims ("increases close rates") without specificity (actual phrases, numbers, timeframes). "Abstraction is the primary failure mode; every abstract claim is a hidden request for an example." Source: genius.md, Hidden Knowledge: Specificity Is the Whole Game, 2026-07-01.
+
+- **Missing unconscious competence**: Stopping at Layer 1 (surface teaching) instead of Layers 2-4 (hidden patterns, tacit knowledge, strategic architecture). "Never stopping at the surface" is the core mandate; failure to decode behaviors "the expert demonstrates but treats as obvious" leaves the 'secret sauce' unextracted. Source: genius.md, Pattern: 4-Layer Cognitive Archaeology, 2026-07-01.
+
+- **Content Assessment missing or generic**: Assessment block without specificity, quantification, or ROI reasoning. "Every assessment field is specific and quantified; a reader can predict the extraction's value from the block alone." Failure to emit this block before other outputs violates sequencing. Source: genius.md, Pattern: Content Assessment First (Always), 2026-07-01.
+
+- **Replication without transcendence seeds**: Ending extraction at copying the expert instead of engineering the path beyond. "Settling for replication is a quality miss — the system's edge is engineering the path beyond" and "Never end an extraction at replication." Source: genius.md, Hidden Knowledge: Transcendence Is the Default, Replication Is the Floor, 2026-07-01.
+
+- **Boilerplate patterns without named mechanisms**: Delivering frameworks ("4-layer archaeology") without naming the specific mechanisms they decode. The discipline is that "every decoded pattern" must carry the mechanism name, not just the move. Source: genius.md, Pattern: Genius Pattern with Why/How/Metric, 2026-07-01.
+
