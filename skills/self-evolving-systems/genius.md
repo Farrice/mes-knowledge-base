@@ -1,6 +1,23 @@
-# Self-Evolving Systems — Genius Patterns & Hidden Knowledge
+# Self-Evolving Systems (MetaHarness) — Genius Context
 
-> The genius of MetaHarness isn't the loop — it's what powers the loop: selective trace access, code-space regularity, and the deliberate absence of hand-coded search heuristics.
+> Load before executing any workflow. Full extraction intelligence.
+
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb GP-1 through GP-8, then diagnose originally. If the output mechanically stamps "Applying GP-4: Search Set Construction" before doing the actual work, you have failed — that's vocabulary, not method.
+
+Specifically:
+- Do NOT enumerate which genius patterns or hidden-knowledge items you applied unless asked. Run the diagnosis; never narrate the framework on the page.
+- Do NOT open with "Let's evolve the harness" or close with a checklist recap of GP numbers. The proposer's job is to find the failure mode and propose a change — not to perform methodology.
+- This composite's texture is engineering pragmatism, not persuasion: no hype, no "significant improvement" — name the actual number ("6x performance gap," "700 experiments in 48 hours," "11% speedup"). A confident-sounding claim with no number attached is the tell that the diagnosis was invented, not run.
+- The recognition test: would someone fluent in Karpathy's autoresearch loop and the MetaHarness propose-evaluate-log-iterate cycle recognize this as a harness actually being diagnosed and evolved — or as evolution vocabulary borrowed to dress up a manual edit? If it's the second, rebuild from GP-1: is this actually a harness problem, or did you skip straight to a fix without checking whether the failure is model-level or harness-level?
+- Trace-first, always. If you can't point to the specific prompt, retrieval query, or state mutation that caused the failure, you haven't diagnosed it — you've guessed and dressed the guess in evolution terminology (GP-7, Trace > Score).
+
+---
+
+## Core Operating System
+
+The genius of MetaHarness is that harness engineering produces a 6x performance gap on the same model weights — the harness IS the intelligence layer, not decoration. The system deliberately avoids hand-coded search heuristics (Bitter Lesson), gives the proposer agent full trace access to ALL prior iterations including failures, and represents evolved artifacts as executable code to exploit coding models' natural regularization bias. Invest in evolution infrastructure now; it pays compound interest as models improve.
 
 ---
 
@@ -26,6 +43,8 @@
 
 **Anti-pattern**: Summarizing evolution history into a fixed prompt and asking the model "what should change?" — this loses the diagnostic signal.
 
+**Grounding**: Karpathy's own proposer ran unattended for "700 experiments in 48 hours. 20 genuine improvements discovered" (`research_outputs/research-karpathy-wiki-architecture.md`, 2026-03-17 Fortune interview) — a volume no human-paced review loop reaches.
+
 ---
 
 ### GP-3: Let It See the Failures
@@ -34,6 +53,8 @@
 **How to apply**: When logging evolution history, keep ALL iterations — not just improvements. A harness that scored poorly might have one brilliant insight buried in a bad execution. The proposer can find it.
 
 **Anti-pattern**: Only showing the proposer the top-3 performing variants.
+
+**Grounding**: Antigravity's own `directives/skill-evolution-protocol.md` (Effective 2026-03-10) enforces the same discipline in Safety Rail 4 — "even failures are data" — and Step 7 logs every DISCARDED attempt precisely so the same hypothesis doesn't get retried.
 
 ---
 
@@ -44,6 +65,8 @@
 
 **Anti-pattern**: Evaluating evolution against easy examples where everything already scores 9+.
 
+**Grounding**: The Excellence Prediction Protocol's 2026-04-24 audit is the canonical internal example — it found "94-99% of finalize scores were 8+ while real iteration counts were 2-3 passes" (`directives/excellence-prediction-protocol.md`), proof the scoring, not the underlying work, was the soft target that evolution should have been aimed at.
+
 ---
 
 ### GP-5: The Skill Text Dominates
@@ -52,6 +75,8 @@
 **How to apply**: Before running a 20-iteration evolution loop, run 3 quick 3-iteration loops focused on refining the skill/workflow description. The quality of the instructions to the proposer determines the ceiling of what evolution can discover.
 
 **Anti-pattern**: Running 50 iterations with a mediocre skill description and expecting evolution to compensate.
+
+**Grounding**: `directives/skill-evolution-protocol.md` caps benchmark tasks at a "10 minutes per benchmark task" time-box, explicitly "inspired by Karpathy's 5-minute training runs" — the same discipline applied to skill-text debugging cycles, not just full evolution runs.
 
 ---
 
@@ -62,6 +87,8 @@
 
 **Anti-pattern**: Evolving free-form prompt text where the proposer can generate arbitrary, unstructured content.
 
+**Grounding**: Karpathy's own arena enforces this literally: the agent may modify exactly one file (`train.py`), against one measurable metric, inside a fixed 5-minute window (`research_outputs/research-karpathy-wiki-architecture.md`, 2026-03-17) — the "constrained arena" that makes the search space regular enough to trust.
+
 ---
 
 ### GP-7: Trace > Score (The Diagnostic Richness Principle)
@@ -70,6 +97,8 @@
 **How to apply**: Log EVERYTHING: the actual prompt sent to the model, the actual response received, the state updates made, the retrieval queries issued, the files accessed. Store in JSON. Make queryable.
 
 **Anti-pattern**: Logging only the final quality score (e.g., "7/10") without the trace that produced it.
+
+**Grounding**: One of Karpathy's 20 kept improvements was a missing scalar multiplier in QK-Norm attention — invisible in the score, visible only in the trace — worth an "11% speedup (2.02 → 1.80 hours)" once found (`research_outputs/research-karpathy-wiki-architecture.md`, 2026-03-17 Fortune interview).
 
 ---
 
@@ -80,6 +109,8 @@
 
 **Anti-pattern**: Believing your hand-crafted workflow is already optimal because you spent a lot of time on it.
 
+**Grounding**: The pattern generalized fast in practice — Karpathy's autoresearch repo hit "42,000 GitHub stars in one week" and was independently ported to cold-email reply rates, page-render speed, and retrieval accuracy within days (`research_outputs/research-karpathy-wiki-architecture.md`, March-April 2026).
+
 ---
 
 ## Hidden Knowledge
@@ -89,12 +120,16 @@
 
 **Implication**: Invest in evolution infrastructure now. It pays compound interest as models improve.
 
+**Grounding**: `directives/skill-evolution-protocol.md` logged an Activation Count of 42 and 76 Phase 1 entries by 2026-04-09 — infrastructure that kept paying down as the underlying proposer improved, without a rewrite.
+
 ---
 
 ### HK-2: Warm-Starting from Offline Experience
 **What it is**: If relevant offline experience exists (rollouts from other models, solved problem corpora, relevant papers), converting it into the same directory structure can warm-start exploration and ground new ideas.
 
 **Implication**: Quality gate logs, past Chain finalize outputs, and session state files can all be converted into evolution warm-start material.
+
+**Grounding**: The Excellence Prediction Protocol already does this in production — it trains its bucketed-median predictor on the existing `evolution_store/v2_traces/` corpus ("159 files at time of writing" — `directives/excellence-prediction-protocol.md`), no separate model-training step required.
 
 ---
 
@@ -103,6 +138,8 @@
 
 **Implication**: Every evolution loop should have a fast pre-check gate. Don't spend evaluation tokens on broken candidates.
 
+**Grounding**: Antigravity's analog is the finalize-time grade-inflation detector, which flags when more than 80% of the last 10 traces score 8+ — a cheap statistical check that runs before anyone spends a full quality-gate pass re-litigating the result (`directives/excellence-prediction-protocol.md`, `detect_grade_inflation()`).
+
 ---
 
 ### HK-4: The CLI Saves Proposer Tokens
@@ -110,12 +147,16 @@
 
 **Implication**: Build evolution tooling that gives the proposer shortcuts. `list-frontier`, `show-best 5`, `diff harness_003 harness_007`. This is closely aligned with how coding agents are trained.
 
+**Grounding**: `execution/skill_benchmark.py benchmark <skill-name>` is Antigravity's version of this shortcut — it returns weakest workflow and dimension in a single call instead of forcing the proposer to re-derive it from raw logs (`directives/skill-evolution-protocol.md`, Step 1).
+
 ---
 
 ### HK-5: Co-Evolution Is the Next Frontier
 **What it is**: The paper's "natural next step" — co-evolve the harness AND the model weights simultaneously. The strategy shapes what the model learns, and vice versa.
 
 **Implication**: Today we evolve harnesses around frozen models. Tomorrow we fine-tune small models with evolved harnesses, creating a double optimization loop. Watch this space.
+
+**Grounding**: Not yet implemented anywhere in Antigravity — flagged UNCONFIRMED as a live capability in `references/source-ledger.md`. The closest existing analog is the "3 consecutive DISCARD results" stopping rule in `directives/skill-evolution-protocol.md`, which still assumes frozen skill weights throughout.
 
 ---
 
@@ -135,13 +176,13 @@ Before running any evolution workflow, answer:
 
 ## Anti-Patterns
 
-1. **Score Worship** — Optimizing for a single number instead of understanding WHY it's that number
-2. **Trace Amnesia** — Not logging execution traces, only final scores
-3. **Success Bias** — Only showing the proposer winning variants, hiding failures
-4. **Premature Optimization** — Running evolution on a system that hasn't been manually tuned at all yet
-5. **Iteration Inflation** — Running 100 iterations when 20 would suffice (diminishing returns)
-6. **Skill Neglect** — Under-investing in the skill/instruction quality for the proposer
-7. **Monolithic Prompts** — Packing everything into one prompt instead of giving adaptive access
+1. **Score Worship** — Optimizing for a single number instead of understanding WHY it's that number; internal precedent for this failure mode is the 2026-04-24 finalize audit that found "94-99% of finalize scores were 8+ while real iteration counts were 2-3 passes" (`directives/excellence-prediction-protocol.md`)
+2. **Trace Amnesia** — Not logging execution traces, only final scores; Karpathy's autoresearch avoids this by design — "the ratchet name comes from git: each success adds a commit, each failure reverts" (`research_outputs/research-karpathy-wiki-architecture.md`, 2026-03-17 Fortune interview)
+3. **Success Bias** — Only showing the proposer winning variants, hiding failures; Antigravity's own evolution protocol names the fix directly as Safety Rail 4 — "even failures are data" (`directives/skill-evolution-protocol.md`, Effective 2026-03-10)
+4. **Premature Optimization** — Running evolution on a system that hasn't been manually tuned at all yet; matches the Plateau trigger threshold of "10+ outputs with < 0.5 variance" that must be met before evolution fires at all (`directives/skill-evolution-protocol.md`, 2026-03-10)
+5. **Iteration Inflation** — Running 100 iterations when 20 would suffice (diminishing returns); the internal stopping rule is explicit — "3 consecutive DISCARD results on the same skill" ends the cycle (`directives/skill-evolution-protocol.md`, Stopping Criteria, updated 2026-04-06)
+6. **Skill Neglect** — Under-investing in the skill/instruction quality for the proposer; the Excellence Prediction Protocol responds to exactly this gap by forcing a reload — "Load `skills/<skill>/genius.md` at session start (tier 2 instead of tier 1)" whenever expert_standard is flagged high-risk (`directives/excellence-prediction-protocol.md`, Wave 3, 2026-05-21)
+7. **Monolithic Prompts** — Packing everything into one prompt instead of giving adaptive access; the variant-generation rule requires proposers to "modify only the targeted aspect (process steps, inline patterns, quality gate criteria)" per cycle, never the whole workflow at once (`directives/skill-evolution-protocol.md`, Step 4, 2026-03-10)
 
 ---
 
@@ -152,6 +193,20 @@ This skill speaks in **engineering pragmatism**:
 - Specificity over abstraction. "6x performance gap" not "significant improvement."
 - Let the data lead. "Run 3-5 short cycles to debug the skill" — concrete, actionable.
 - Humility about hand-engineering. "This simplicity is deliberate" — trust the system.
+
+---
+
+## Verbatim Grounding
+
+Direct quotes from the primary sources this skill's composite voice actually draws on, included so the language can be checked against real originals rather than paraphrase drift. See `references/source-ledger.md` for the full claim-by-claim provenance table.
+
+> "You're not touching any of the Python files. Instead, you are programming the program.md Markdown files that provide context to the AI agents."
+
+— Karpathy, autoresearch GitHub README, quoted in `research_outputs/research-karpathy-wiki-architecture.md` (2026-03, primary source: github.com/karpathy/autoresearch)
+
+> "The ratchet name comes from git: each success adds a commit, each failure reverts. The codebase can only move forward."
+
+— synthesis of Karpathy's autoresearch loop in `research_outputs/research-karpathy-wiki-architecture.md`, 2026-03-17 (Fortune interview quotes)
 
 ---
 
