@@ -156,3 +156,33 @@ Compile the kingmaker scorecard:
 - **Deliverable**: Complete Kingmaker Blueprint (single document with all sub-deliverables linked)
 - **Follow-up**: Monthly `/narrative-warfare` check-in to maintain dominance
 - **Expansion**: Feed into `/platform-launch` for each new product/campaign
+
+## Output Schema
+
+The Kingmaker Blueprint is delivered as ONE linked document with five required phase
+sections — a plan missing any phase artifact below has not satisfied this workflow's
+30-day contract:
+
+| Phase | Required Artifact | Format |
+|---|---|---|
+| Phase 1 (Diagnostic & Positioning) | New Media Audit scorecard (Old/New classification + OODA hours + Joe Rogan CEO score 1-10) + Founder Voice Document + Controversy Calibration map | Scored table + reference doc |
+| Phase 2 (Content Architecture) | City Map (Grand Central + Destinations + Lines tagged oral/written) + Competitive OODA Dashboard | Diagram/table, each content line culture-tagged |
+| Phase 3 (Arsenal Loading) | Proof stack per content line (sorted by Luke Iha's fakeability ladder, hardest-to-fake asset flagged) + 30+ scored vicious hooks + 5-email conversion sequence | Per-platform proof table + hook bank + email sequence draft |
+| Phase 4 (Launch Campaign) | Platform-native content slate (one distinct asset per platform, never reformatted) + cascade sequence timeline | Per-platform draft set, tagged by culture mode |
+| Phase 5 (Dominance & Protection) | OODA loop spec (Observe/Orient/Decide/Act with target hours) + Crisis Protocol (10-piece flood bank + ally list) + completed 30-Day Scorecard | Protocol doc + populated scorecard table (Day 0 vs Day 30 vs Target) |
+
+A blueprint that ships the 30-Day Scorecard with unfilled `[X]` placeholders, or that skips
+straight to Phase 4 content without a City Map from Phase 2, has not satisfied this contract
+regardless of how polished the individual pieces read.
+
+## Quality Gate
+
+- [ ] Joe Rogan CEO Test scored twice (Day 0 baseline + Day 30 result), not estimated once
+- [ ] Every hook in the Phase 3 bank passes Luke Iha's viciousness test — relevant in the
+      first 10-20 words, no throat-clearing, no hedge (`luke-iha-hooks/transcript.txt`)
+- [ ] No platform in the Phase 4 slate shares content verbatim with another platform
+      (cross-posting fails the a16z Platform-Native Obsession pattern)
+- [ ] Proof stack for each content line leads with the highest tier available on Luke Iha's
+      fakeability ladder, not the easiest asset to produce
+- [ ] OODA loop targets are stated in hours, not days, for all four stages
+- [ ] Crisis bank contains exactly 10 pre-built pieces, not a placeholder count

@@ -158,3 +158,34 @@ Run the OODA loop at maximum speed during launch (hours 0-72):
 - **Ally Amplification Package** (talking points + assets for each ally)
 - **Real-Time OODA Protocol** (monitoring + rapid iteration plan)
 - **Post-Launch Assessment Template** (7-day scorecard)
+
+## Output Schema
+
+This workflow produces a **launch-as-a-service campaign package**, one distinct asset per
+platform plus a coordination layer — required components, each mapped to its source step:
+
+| Component | Required Content | Source Step |
+|---|---|---|
+| Platform-Native Content Slate | One genuinely distinct asset per platform (X thread, YouTube long-form script, 3 Shorts scripts, LinkedIn hybrid post, Substack manifesto, 3-email sequence) — no asset may be a reformatted copy of another | Steps 1-2 |
+| Proof Loading Table | Every platform asset tagged with its proof type per the Step 3 table (demonstration/statistical/social/case-study/third-party) | Step 3 |
+| Founder Go-Direct Deliverables | Named list of which specific tweets/video/LinkedIn post/podcast pitches the founder personally executes (not the brand account) | Step 4 |
+| Cascade Sequence Timeline | Populated minute-by-minute schedule across all 4 named windows (Pre-Launch Tease, Launch Spike, Sustain Wave, Long-Tail) | Step 5 |
+| Ally Amplification Package | 10-20 named allies (or role-typed if names unavailable) with platform, angle, and specific assets provided — never pre-written posts | Step 6 |
+| Post-Launch Assessment | Populated 7-day scorecard table against the 5 named metrics with actual benchmarks, not blank targets | Step 8 |
+
+A launch package that ships identical copy across two or more platforms, or an Ally
+Amplification Package with pre-written posts instead of talking points + assets, has not
+satisfied this contract — both are the specific a16z anti-pattern this workflow exists to
+prevent.
+
+## Quality Gate
+
+- [ ] Zero platform assets share identical copy — each was natively designed per its
+      culture mode, not reformatted (violating this fails the a16z Platform-Native pattern)
+- [ ] Every hook in the X-thread and Shorts assets is scored against Luke Iha's vicious-hook
+      principles, not merely on-brand
+- [ ] The core launch concept passes the "can't not share" test named in Step 1 before any
+      platform asset is produced
+- [ ] Ally assets are talking points + raw materials only — zero pre-written posts handed to allies
+- [ ] Cascade timeline covers all 4 windows (tease/spike/sustain/long-tail) with no gap
+- [ ] Post-Launch Assessment scorecard is fully populated, not left with template placeholders

@@ -135,3 +135,30 @@ Monthly check-in protocol:
 - **4-Week Disruption Calendar** (proactive offensive)
 - **Crisis Arsenal** (10 content pieces + templates + ally list)
 - **Monthly Review Protocol** (recurring dominance maintenance)
+
+## Output Schema
+
+This workflow produces a **standing competitive-warfare dashboard**, refreshed monthly, not
+a one-time report. Five required components, each traceable to a specific step above:
+
+| Component | Required Content | Source Step |
+|---|---|---|
+| Competitive OODA Intelligence Dashboard | Populated table: competitor name, estimated OODA speed (hours), dominant platforms tagged oral/written, crisis pattern, founder go-direct Y/N | Step 1a |
+| Speed Dominance Ratio | Numeric ratio (your loop ÷ each competitor's loop) with Dominant/Contested/Behind status per competitor; target 2:1 minimum stated explicitly | Step 2b |
+| Pre-Armed Position Library | 5+ positions, each with a stated Claim, a 3+ item Proof Stack (personal/social/third-party), platform deployment plan, and 5 Luke Iha-scored hooks | Step 3 |
+| 4-Week Disruption Calendar | Populated table (not the template's blank rows) with a named Disruption Play, platform, culture mode, and proof type per week | Step 4 |
+| Crisis Arsenal | 10 named content pieces sorted into the 4 required categories (3 data-driven, 3 founder-vulnerability, 2 customer-success, 2 industry-analysis) + ally activation list with named allies | Step 5 |
+
+A dashboard that reports competitor OODA speeds without a numeric Speed Dominance Ratio, or
+a Pre-Armed Position Library with fewer than 5 positions, has not satisfied this contract.
+
+## Quality Gate
+
+- [ ] Speed Dominance Ratio is a real number (not "fast" or "faster") for every listed competitor
+- [ ] Every position in the Pre-Armed Library carries at least 3 distinct proof types, not one restated three ways
+- [ ] Every hook is scored against Luke Iha's 8 vicious-hook principles, not merely counted
+- [ ] The Disruption Calendar is proactive (forces competitor response) — a calendar of pure
+      reactive content fails Step 4's explicit design intent
+- [ ] Crisis Arsenal contains exactly 10 pieces across the 4 named categories, no category skipped
+- [ ] Monthly Review Protocol answers the explicit Step 6 question: are competitors responding
+      to us, or are we responding to them?
