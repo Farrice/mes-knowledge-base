@@ -7,6 +7,18 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These five expert layers are intuition primitives, not a checklist to march through in order. If a draft names which "dimension" or "component" it satisfied, or reads like a diagnostic report ("Voice Marker Protection: passed"), you have failed — the client reads a labeled checklist, not a post in their own voice.
+
+Specifically:
+- Do NOT enumerate which of the 5 experts' patterns you applied unless asked. The 10-point Voice Authenticity Standard is a private editing pass, not a section header in the deliverable.
+- Do NOT narrate the machinery on the page ("Now applying Terminal Word Power Placement..."). Execute the Saxon Punch, the anaphora, the compression pass — never announce it.
+- The recognition test: would the client recognize this as something they'd write on their sharpest day — or would they recognize it as someone using ghostwriting-voice-engine vocabulary? If the second, you imitated the checklist instead of embodying the person. Return to Voice Archaeology (Albom) and re-read their best samples until you hear them, then rewrite from inside.
+- This skill's specific texture: the "imperfections" — the fragment, the unusual contraction, the metaphor that isn't quite grammatical — ARE the deliverable. A model trained toward clean, complete-sentence LinkedIn posts will systematically sand these off. Polish is the tell-class failure here: a post that reads a little TOO even, TOO balanced, TOO smoothly-paced is more likely wrong than one with a rough edge that matches a documented voice marker.
+
+---
+
 ## Genius Patterns
 
 ### Voice Extraction Patterns (from Lara Acosta)
@@ -94,6 +106,20 @@ Tacit insights synthesized from all 5 experts — the things most ghostwriters n
 | **Limitations you accept become signatures readers love** — Albom's short, spare prose wasn't a choice; he couldn't write flowery prose about death. Cole's compression obsession. Acosta's punchy rhythm. The constraint became the brand. (Albom + Cole) | Ghostwriters try to fix client limitations. The best ones lean into them. A client who can't do long sentences shouldn't be forced into them — that brevity IS the voice. | When building voice profiles. Identify the client's natural limitations. Reframe them as stylistic signatures, not weaknesses to correct. |
 | **Repetition is the ghostwriter's hidden enemy** — Saying the same thing twice, even in different words, triggers subconscious reader disengagement. It signals you've run out of things to say. Audit relentlessly. (Cole) | Writers pad content with restatements for emphasis. Readers experience it as stalling. One clear statement > two fuzzy restatements. | During every editing pass. For each paragraph: "Does this add NEW information, or restate what's already been said?" |
 | **The quality of a ghostwritten piece is determined in the first hour after publishing** — 80% of LinkedIn reach is set in the first 60 minutes. Voice accuracy matters, but so does the hook, the formatting for dwell time, and the pattern-interrupt in line one. (Acosta) | Ghostwriters focus on voice fidelity and assume distribution handles itself. The best ghostwritten post in the world fails if the hook doesn't stop the scroll. | When producing final drafts for social platforms. Apply the First-Principle Hook Test: remove the client's name and avatar. Does the hook still stop scrolling? |
+
+---
+
+## Anti-Patterns (Sourced Failure Modes)
+
+> Concrete things NOT to do, each anchored to a verbatim quote from the extraction transcript it came from — verified by direct file read, 2026-07-17. A violated anti-pattern breaks trust immediately, even when everything else in the piece is right.
+
+- **The Portfolio Paradox** — Don't lead a pitch, or a client demo, with credentials, case studies, or testimonials; they are outputs of the relationship, not inputs to it. Cole ran a 300+ client ghostwriting agency on zero testimonials by building the skill of articulating the client's problem instead. *(source: "The client does not care how much quote unquote industry credibility you have... The only thing the client cares about is you educating them on a problem they know they have in their business but haven't gotten around to solving or a problem they don't even know they have in the first place." — extractions/nicolas-cole-ghostwriting-v2/transcript.txt)*
+- **The Pricing Floor** — Never price a ghostwriting engagement under $3,000/project or /month; Cole treats this as a hard floor, not a negotiating opener — anything lower signals the writer hasn't built the problem-articulation skill the whole client-acquisition layer depends on. *(source: "You should never be charging less than $3,000 for a project or per month." — extractions/nicolas-cole-ghostwriting-v1/transcript.txt)*
+- **Free Work Without a Boundary** — Don't treat free work (spec pieces, demo content, custom samples) as an open-ended favor; bound it to a specific trade (testimonial, referral, or conversion conversation) and reframe it internally as a cost, never a gift. *(source: "Don't look at it as free work. Look at it as a marketing cost." — extractions/nicolas-cole-ghostwriting-v2/transcript.txt)*
+- **Case-Study-Only Content** — Don't fill a client's (or your own) feed with proof-of-work case-study posts expecting them to carry distribution on their own; Acosta names this as one of the biggest mistakes she sees, because that content format caps out well short of a real discovery mechanism. *(source: "that's one of the biggest mistakes I see with people whether it's LinkedIn content or even YouTube content is they... got a bunch of videos of like case studies and things I've done with my clients and like that's great but it's probably not... going to get a few hundred views realistically." — extractions/lara-acosta/transcript.txt)*
+- **Voice Fidelity Without a Distribution Strategy** — Don't assume a perfectly voice-matched post earns reach purely on accuracy; Acosta's strategic-arbitrage principle requires layering platform-native mechanics (storytelling format, engagement window, algorithm fit) on top of the voice, not instead of it. *(source: "taking what works and using your story or skill to grow." — extractions/lara-acosta/transcript.txt)*
+- **Losing the Reader** — Don't let density, jargon, or pacing choices cost you the reader mid-piece; Albom names this as the single worst outcome a writer can produce — worse than an unpolished line, because an unpolished line that's still read can be fixed, and a piece the reader abandoned cannot. *(source: "the worst thing you want to hear as a writer is I tried to read it but I got lost." — extractions/mitch-albom/transcript.txt)*
+- **Anaphora Run the Whole Length** — Don't deploy repetition-for-emphasis (anaphora, epistrophe) across an entire piece; Farnsworth's own image is a soccer commentator who stays at a level volume and only gets loud on the approach to goal — repeated across the whole speech, the device stops signaling anything. *(source: "you don't want the entire speech to be this kind of repetition." — extractions/ward-farnsworth/transcript.txt)*
 
 ---
 
