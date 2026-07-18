@@ -4,6 +4,18 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then design originally. An architecture blueprint that mechanically walks DPVI → Planner-Worker-Judge → Harness Audit → Verifiability Tiers → Sniff-Check in that exact labeled order, every time, has failed the assignment. The test: would Nate B Jones recognize this as an analyst who has actually watched a coordination system collapse under its own overhead — who counted the wasted cycles, named the exact tool-count threshold where selection accuracy fell apart — or as someone using multi-agent vocabulary borrowed from his pattern names? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label a deliverable's sections "DPVI Phase 1," "Tier 2 Verifiability," etc. unless the user asked for the framework by name. Apply the discipline invisibly — design the architecture, don't narrate the taxonomy.
+- His texture is contrarian-by-evidence, not contrarian-by-attitude: every counter-intuitive claim ("more agents made it worse," "keep workers ignorant," "remove the judge") is immediately backed by a number or a named lab's production result, never asserted on vibes alone. Output with no cited figure, threshold, or convergence example is not his register.
+- Convergence is the rhetorical move, not just a fact: he treats independent agreement between Anthropic, Google DeepMind, OpenAI, Cursor, and Steve Yaggi's Gas Town as stronger proof than any single benchmark. Reach for "who else independently arrived here" before reaching for "here's my recommendation."
+- Polish is the tell-class failure here specifically: a hedge-everything architecture doc with no named failure mode, no specific threshold, and no removed layer is exactly the over-coordinated system his "simplicity scales" thesis exists to strip down. Rough, numbered, falsifiable beats smooth and comprehensive.
+
+---
+
 ## Genius Patterns
 
 ### 1. The Smoothing Thesis — The Jagged Frontier Reframe (Jagged → Smooth)
@@ -16,7 +28,7 @@ The convergent architecture independently built by four uncoordinated organizati
 3. **Verify** outputs against acceptance criteria (machine-check or expert sniff-check)
 4. **Iterate** toward completion, carrying accumulated artifacts (not conversation history)
 
-Independent convergence by 4 labs = proof of correctness. This is *the* pattern for long-horizon agentic work.
+Independent convergence by 4 labs = proof of correctness. This is *the* pattern for long-horizon agentic work. Independent confirmation: the companion analysis "Google Just Proved More Agents Can Make Things WORSE" (Nate B Jones, 2026-01-27 transcript) documents Cursor and Steve Yaggi's Gas Town converging on the same isolate-then-merge shape without contact — direct evidence the DPVI structure isn't one analyst's opinion.
 
 ### 3. The Planner-Worker-Judge Hierarchy
 Cursor's breakthrough architecture after flat coordination failed catastrophically:
@@ -24,7 +36,7 @@ Cursor's breakthrough architecture after flat coordination failed catastrophical
 - **Workers** pick up individual tasks and grind until done. Workers ignore all other tasks and have zero coordination with other workers.
 - **Judges** (LLM-as-judge) determine whether to continue, iterate, or accept. The judge's ability to restart cleanly with fresh context circumvents context window limits entirely.
 
-This maps directly to human org design: PM plans, engineer executes, QA/tech lead verifies. The test case: building a web browser from scratch in Rust — agents ran for a week and wrote 1M+ lines of code.
+This maps directly to human org design: PM plans, engineer executes, QA/tech lead verifies. The test case: building a web browser from scratch in Rust — agents ran for a week and wrote 1M+ lines of code. Cursor's own framing, confirmed verbatim in the 2026-01-27 transcript: "Planners create tasks. Workers execute them. A judge evaluates results."
 
 ### 4. Harness Design as the Critical Variable
 The harness is everything surrounding the agent that enables it to work: memory, task files, progress tracking, restart procedures, specification documents. **Harness design determines success more than model intelligence.** Audit checklist:
@@ -52,13 +64,13 @@ As agent execution becomes cheap, the skill that *appreciates* in value is evalu
 For every domain, define what a correct sniff-check looks like. Build explicit criteria. The people who develop fast, accurate sniff-checking are positioned for the agent era.
 
 ### 7. Complexity Reduction > Complexity Addition
-Cursor's most important improvements came from **removing** coordination machinery — dropping judges when agents followed instructions reliably, eliminating inter-worker communication, stripping locks. Counter-intuitive but consistent: simpler systems outperform complex ones when the underlying agents are capable. **Decision rule**: When a multi-agent system underperforms, first try removing a layer. Add complexity only after proving simplification doesn't work.
+Cursor's most important improvements came from **removing** coordination machinery — dropping judges when agents followed instructions reliably, eliminating inter-worker communication, stripping locks. Counter-intuitive but consistent: simpler systems outperform complex ones when the underlying agents are capable. **Decision rule**: When a multi-agent system underperforms, first try removing a layer. Add complexity only after proving simplification doesn't work. Cursor's own numbers make the case starkly: their flat-coordination prototype saw "20 agents ended up producing a 10% output, the output of two or three agents" before this simplification pass (Nate B Jones, 2026-01-27 transcript).
 
 ### 8. Organizational Intelligence Transfer
 Human teams scaled cognition through sprint cycles, peer review loops, draft-revise-publish pipelines, and hierarchical specialization. These patterns generalize to agents with zero modification. "We figured out how to generalize our intelligence by working collectively. And we seem to have forgotten those lessons and replicated them without realizing it." **Design rule**: Start every agent architecture from a proven human organizational pattern. Map 1:1. Then optimize.
 
 ### 9. The Convergence Proof
-When four independent organizations (Anthropic, Google DeepMind, OpenAI, Cursor) build the same structure without coordination, the underlying design is a near-certainty. Independent invention is stronger evidence than any benchmark. **Decision rule**: Look for convergence when choosing architectures. If multiple independent actors arrive at the same design, adopt it — don't reinvent.
+When four independent organizations (Anthropic, Google DeepMind, OpenAI, Cursor) build the same structure without coordination, the underlying design is a near-certainty. Independent invention is stronger evidence than any benchmark. **Decision rule**: Look for convergence when choosing architectures. If multiple independent actors arrive at the same design, adopt it — don't reinvent. The stakes Jones cites for getting this wrong: "Gartner predicts 40% of Agentic AI projects are going to be cancelled by next year, by 2027" — convergent architecture is the counter-evidence to that failure rate (2026-01-27 transcript).
 
 ### 10. The Team-of-One Multiplier
 "Teams of one are really teams of more than one." An individual with multi-agent orchestration capability is functionally a hundred-person team. The operator becomes a PM managing agent teams — defining roles, decomposing work, building verification criteria, iterating cycles. Solo leverage scales from 1x to 10-100x without hiring, with quality maintained through verification loops.
@@ -71,10 +83,10 @@ When four independent organizations (Anthropic, Google DeepMind, OpenAI, Cursor)
 Two curves exist but only one gets measured. The intelligence curve (model benchmarks, parameter scaling) gets all the attention. The *harness fluency curve* — our collective ability to structure agent work — is invisible but now more important for practical outcomes. It explains why "everything seems to get better all at once": harness fluency crossed a tipping point, not model intelligence.
 
 ### 2. The Flat Structure Pathology
-Flat agent coordination (shared files, locks, no hierarchy) produces a specific, predictable failure mode: agents become **risk-averse**, avoid difficult tasks, and optimize for small/safe changes. High activity, low progress. This mirrors poorly-managed human teams exactly. Flat coordination is an anti-pattern for both humans and agents.
+Flat agent coordination (shared files, locks, no hierarchy) produces a specific, predictable failure mode: agents become **risk-averse**, avoid difficult tasks, and optimize for small/safe changes. High activity, low progress. This mirrors poorly-managed human teams exactly. Flat coordination is an anti-pattern for both humans and agents. Cursor measured this precisely: "20 agents ended up producing a 10% output, the output of two or three agents" (2026-01-27 transcript) — the same figure underlying Genius Pattern 7.
 
 ### 3. The Judge Reset as Infinite Horizon Hack
-The judge's restart capability is the system's most important feature — not because it catches errors, but because it **circumvents the context window limit entirely**. Each iteration begins with clean working memory plus accumulated artifacts, enabling indefinite-horizon work without cognitive degradation.
+The judge's restart capability is the system's most important feature — not because it catches errors, but because it **circumvents the context window limit entirely**. Each iteration begins with clean working memory plus accumulated artifacts, enabling indefinite-horizon work without cognitive degradation. Yaggi's formulation of the same property from the worker side, confirmed verbatim in the 2026-01-27 transcript: "the path is unpredictable, but the outcome is guaranteed" — because workflow state lives outside any given agent's context.
 
 ### 4. Prompting Survives the Agent Era
 In mature multi-agent systems, "the system's behavior is disproportionately determined by the design of the prompt." The prompt is the specification — it defines what the model needs to succeed. As agents become more autonomous, prompt engineering becomes *more* critical, not less. This is systems engineering, not conversation.
@@ -94,22 +106,26 @@ This transition cannot be passive. "I cannot promise you that you can continue y
 
 ### Cursor's Architecture Evidence
 - **Flat → Hierarchy evolution**: Shared file system with locks → recursive planner-worker-judge → continuous executor (merged planning/execution) → simplified system (drop judges when reliable)
-- **Scale tests**: Browser from scratch (Rust, 1M+ lines, 1 week), Solid-to-React migration (3+ weeks), Java language server, Windows 7 emulator (1.2M lines), Excel clone (1.6M lines)
+- **Scale tests**: Browser from scratch (Rust, 1,000,000+ lines, 1 week), Solid-to-React migration (3+ weeks), Java language server, Windows 7 emulator (1.2M lines), Excel clone (1.6M lines)
 - **Math breakthrough**: Coding harness solved Problem 6 of a Stanford/MIT/Berkeley spectral graph theory proof with *stronger bounds* than the official human solution. 4 days, zero hints. Demonstrated domain-general capability of coding-specific harness.
 - **Model insight**: GPT-5.2 consistently outperforms Claude Opus for long-horizon autonomous tasks (Opus tends to stop early and take shortcuts).
+- **External confirmation** (2026-01-27 transcript): the same lab's production system converges on this shape independently of the extraction above — "Planners create tasks. Workers execute them. A judge evaluates results."
 
 ### Anthropic's Implementation
 - Initializer agent establishes environment state + progress file
 - Coding agent makes incremental progress, leaves structured artifacts
 - Without structure, specific failure modes: one-shot implementation attempt, context exhaustion mid-build, leaving codebase worse, completing features without testing
+- Cross-referenced by the 2026-01-27 transcript's failure-cause finding — "79% of multi-agent failures originate from spec and coordination issues, not technical bugs" — these Anthropic failure modes are spec/coordination failures, not model-capability failures.
 
 ### OpenAI's Pattern
 - Codex runs tasks in parallel sandbox environments
 - Isolation-first design matching the convergent architecture
+- Same ephemeral-isolation shape as Yaggi's Gas Town "pole cat" workers, a third independently-converged lab per the 2026-01-27 transcript.
 
 ### Google DeepMind's Approach
 - Althena mathematics model separates generation, verification, and revision into distinct roles
 - Same underlying principle: code review, legal adversarial proceedings, scientific peer review
+- A separate Google-affiliated finding — the December 2025 Google/MIT study cited in the 2026-01-27 transcript, not the Althena work itself — found the inverse failure mode this role-separation guards against: "adding more agents yields diminishing or negative returns" once single-agent accuracy exceeds roughly 45%.
 
 ### Harness Best Practices (Compiled)
 - Use version control (Git) and worktrees for isolation
@@ -128,11 +144,11 @@ This transition cannot be passive. "I cannot promise you that you can continue y
 
 ### 2. Cursor's Spectral Graph Theory Breakthrough
 **Description**: A coding harness, guided by structured agentic processes, solved Problem 6 of a Stanford/MIT/Berkeley spectral graph theory proof. Crucially, the agents not only solved it but derived *stronger bounds* than the official human solution, pushing the frontier of mathematical discovery.
-**What makes this excellent**: This showcases the power of orchestration intelligence beyond mere execution, into novel problem-solving and domain-specific creativity. It highlights Tier 1 (Machine-checkable) verifiability, where the agent's output could be rigorously proven, but also demonstrates how a well-structured harness allows for unexpected breakthroughs, even surpassing human experts.
+**What makes this excellent**: This showcases the power of orchestration intelligence beyond mere execution, into novel problem-solving and domain-specific creativity. It highlights Tier 1 (Machine-checkable) verifiability, where the agent's output could be rigorously proven, but also demonstrates how a well-structured harness allows for unexpected breakthroughs, even surpassing human experts. This sits alongside Exemplar 1's 1,000,000+ line Rust browser build as the two headline proof points for DPVI at scale.
 
 ### 3. Anthropic's Incremental Coding Agent
 **Description**: An agent system for software development that consistently makes incremental progress on complex features. It starts with an `Initializer` agent to set up the environment and progress files, then `Coding` agents make small, verifiable changes, leaving structured artifacts (e.g., new functions, passing tests, updated documentation) at each step.
-**What makes this excellent**: This is a direct application of robust Harness Design. By enforcing structured incremental progress, persistent memory, and clear artifact generation, the system avoids common agent failures like context exhaustion, one-shot attempts, or leaving the codebase in a worse state. It's a foundational pattern for predictable, reliable agentic work.
+**What makes this excellent**: This is a direct application of robust Harness Design. By enforcing structured incremental progress, persistent memory, and clear artifact generation, the system avoids common agent failures like context exhaustion, one-shot attempts, or leaving the codebase in a worse state. It's a foundational pattern for predictable, reliable agentic work. Consistent with the 2026-01-27 transcript's finding that "79% of multi-agent failures originate from spec and coordination issues, not technical bugs" — these are exactly the spec/coordination failure class, not model-capability failures.
 
 ### Anti-Exemplar: The "Flat Coordination" Feature Factory
 **Description**: A team of agents tasked with building a complex new feature. All agents have access to a shared file system and communicate directly without a central planner or judge. They attempt to solve the problem with minimal decomposition, often making large, overlapping changes.
@@ -199,10 +215,23 @@ Multi-agent systems break at predictable thresholds, not gradually: tool-selecti
 ## Pattern 14: Episodic Sessions + Non-Deterministic Idempotence
 Design agent sessions to END well rather than run forever: externalize state so a session's termination enables the next session instead of destroying progress. The companion principle (via Yaggi) is non-deterministic idempotence — the PATH an agent takes is unpredictable, but the OUTCOME is guaranteed by checking external state: re-running a task converges to the same end state rather than duplicating work.
 **Execute**: Give every worker an explicit termination condition and an external state file it writes before ending. Make each task re-runnable: it must first read external state, detect completed work, and only do what remains.
-**Success Metric**: Any session can be killed and restarted with zero lost progress and zero duplicated side effects.
+**Success Metric**: Any session can be killed and restarted with zero lost progress and zero duplicated side effects. Yaggi's own words, confirmed verbatim in the 2026-01-27 transcript: "the path is unpredictable, but the outcome is guaranteed because workflow state lives outside any given agent's context."
 
 ## Hidden Knowledge Addendum
 
 ### 8. The Human-Team Metaphor Trap
 **Insight**: Organizational intelligence transfer (Genius Pattern 8) has a failure edge — some human-team patterns are load-bearing for humans but actively harmful for agents. "Meetings" (synchronous multi-agent deliberation), "handoffs" (serial context transfer between peers), and "collaboration" (shared mutable workspaces) all import coordination overhead that agents pay in tokens and drift, without the social benefits humans get. The patterns that DO transfer are structural (hierarchy, contracts, retrospectives); the ones that don't are interactional.
 **Deploy**: Grep your architecture docs for human-team language. Every "agents discuss/hand off/collaborate" is a candidate O(n²) path — replace with orchestrator-mediated task assignment and isolated execution. Keep hierarchy, kill meetings.
+
+---
+
+## Anti-Patterns: Orchestration Framing Failures
+
+*Sourced from "Google Just Proved More Agents Can Make Things WORSE — Here's What Actually Does Work" (Nate B Jones, YouTube, `https://www.youtube.com/watch?v=2EXyj_fHU48`; transcript captured via Merlin AI, conversation dated 2026-01-27, located in `_archive/claude-export-2026-07-01.tar.gz` → `claude-export/normalized/conversations/a8e9b3ee-cd0e-4fec-8682-20b5a258762d.md`, read in full this pass). Each item is a verbatim-anchored failure mode Jones names, directly underlying this skill's DPVI, Worker Isolation, and Complexity Reduction patterns.*
+
+- **Treating agent coordination like a human team**: the consensus he's arguing against — "multiple specialized agents should collaborate and they should interact and delegate in patterns that mimic human teams" — is the exact assumption Cursor tested and broke; industry framing here is "unproductively incorrect or just wrong" (Nate B Jones, 2026-01-27 transcript).
+- **Giving workers the broader project context "for better judgment"**: "when cursors workers understood the broader project context, they experience scope creep" — every decision a context-aware worker makes independently is a fresh conflict for another agent to resolve (2026-01-27 transcript).
+- **Sharing tools/state across agents instead of isolating them**: "in tool heavy environments worth 10 or more tools, multi- aent efficiency dropped by a factor of 2 to six compared to single agents" — shared catalogs recreate the "fighting over the toolbox" contention problem (2026-01-27 transcript, verbatim including transcription artifacts).
+- **Letting agents run continuously instead of designing for endings**: "Cursor found drift unavoidable during continuous operation. quality degraded within hours regardless of the context window" — unbounded runtime is a serial dependency on the agent's own accumulating history (2026-01-27 transcript).
+- **Investing in coordination infrastructure before tightening the spec**: "79% of multi- aent failures originate from spec and coordination issues, not technical bugs" — sophisticated queues and locks are the wrong fix for an ambiguous worker contract (2026-01-27 transcript, verbatim including transcription artifacts).
+- **Stacking three or more delegation layers "for more control"**: "deep hierarchies like three or more levels of agents accumulate drift as objectives mutate through delegation layers" — every extra tier is telephone with agents, not added rigor (2026-01-27 transcript).

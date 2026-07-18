@@ -76,7 +76,7 @@ For each role, define the harness:
 - [ ] **Restart procedure**: How does a fresh context begin?
 - [ ] **Isolation mechanism**: How is cross-contamination prevented?
 
-## Output
+## Output Schema
 A complete architecture document containing:
 1. **Domain verifiability classification** for all subtask types
 2. **DPVI flow diagram** (decomposition tree → parallel execution map → verification gates → iteration cycles)

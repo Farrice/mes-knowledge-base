@@ -76,7 +76,7 @@ Connect sniff-check results to agent improvement:
 3. **Iteration protocol**: When sniff-check fails, what specific instruction does the agent receive for the next iteration?
 4. **Success tracking**: What % of agent outputs pass sniff-check on first attempt? Track over time.
 
-## Output
+## Output Schema
 A complete sniff-check protocol containing:
 1. **Expert Pattern Matrix** (quality markers, correct/failure signals, check times)
 2. **3-Layer Evaluation Protocol** (10-second scan → 60-second read → edge case check)

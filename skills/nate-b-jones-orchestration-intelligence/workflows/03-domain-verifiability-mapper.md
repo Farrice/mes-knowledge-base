@@ -73,7 +73,7 @@ Produce a phased delegation plan:
 | **Medium-term** | Tier 2 (wide consensus) | Delegation with enhanced evaluation criteria | Months 1-2 |
 | **Retain** | Tier 3 | Human execution; agent-assisted components only | Ongoing |
 
-## Output
+## Output Schema
 A Domain Verifiability Map containing:
 1. **Complete work inventory** with verifiability tier classification for each deliverable
 2. **Tier distribution** (% of work in each tier — flag if Tier 3 > 10%)

@@ -69,7 +69,7 @@ Prioritize improvements by impact/effort:
 | P2 | Quality improvements | ... | ... |
 | P3 | Nice-to-have optimizations | ... | ... |
 
-## Deliverable
+## Output Schema
 
 Harness audit report containing:
 - Current architecture diagram (model vs. harness boundaries)

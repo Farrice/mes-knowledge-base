@@ -82,7 +82,7 @@ Before shipping the simplified architecture:
 4. Stress-test edge cases
 5. Get domain expert to blind-evaluate 5 outputs from each
 
-## Deliverable
+## Output Schema
 
 Complexity optimization report containing:
 - Before/after architecture diagrams

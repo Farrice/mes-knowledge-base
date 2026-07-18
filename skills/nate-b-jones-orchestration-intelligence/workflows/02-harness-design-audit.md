@@ -81,7 +81,7 @@ After fixing gaps, check for unnecessary complexity:
 
 **Decision rule**: If the system performs just as well without a component, remove the component.
 
-## Output
+## Output Schema
 A harness audit report containing:
 1. **Per-agent scorecard** (5-point inspection with gap indicators)
 2. **Diagnosis** (harness failure vs. model limitation vs. specification issue)

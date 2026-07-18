@@ -94,7 +94,7 @@ Define when to bring in a domain expert:
 4. **Repeated failures** on the same type of task
 5. **Evaluator uncertainty** — when you genuinely can't tell if it's good
 
-## Deliverable
+## Output Schema
 
 Sniff-check protocol document containing:
 - Customized three-layer evaluation checklist

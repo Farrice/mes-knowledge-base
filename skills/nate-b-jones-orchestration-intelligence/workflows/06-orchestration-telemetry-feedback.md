@@ -116,7 +116,7 @@ The most dangerous failure mode of self-optimizing orchestration: the optimizati
 
 The meta-rule: The optimization layer must be cheaper than the cheapest worker in the pipeline. If it isn't, it has become the problem it was designed to solve.
 
-## Output
+## Output Schema
 
 1. **Telemetry Schema** — what to measure at each DPVI stage, with collection methods
 2. **Threshold Configuration** — red/yellow flag definitions calibrated to the specific pipeline

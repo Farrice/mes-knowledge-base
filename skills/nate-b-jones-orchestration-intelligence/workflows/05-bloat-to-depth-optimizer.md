@@ -102,7 +102,7 @@ If the system is fundamentally bloated (>50% overhead), consider a clean-room re
 
 Map the current system's actual work onto this 3-role architecture. What doesn't fit is likely overhead.
 
-## Output
+## Output Schema
 A Bloat-to-Depth Optimization Report containing:
 1. **Bloat scan results** with evidence for each category (role, coordination, verification, context)
 2. **Simplification test results** (what was removed, what happened)

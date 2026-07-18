@@ -57,14 +57,14 @@ Before promoting the architecture:
 - Confirm coordination cost stays a bounded fraction of pipeline spend as workers are added
 - Confirm failures trace to declared thresholds (tool cliff, spec ambiguity), not to surprise coordination behavior
 
-## Output
+## Output Schema
 1. **Topology diagram** — before/after, with path counts at current and target scale
 2. **Worker contract specs** — one per worker type (input schema, output schema, termination, tool catalog)
 3. **Merge layer design** — owner, conflict taxonomy + resolution rules, dedup + escalation
 4. **External state schema** + idempotence rules
 5. **Scale validation plan** with pass/fail thresholds
 
-## Quality Bar
+## Quality Gate
 - No worker→worker communication paths survive the design
 - Every conflict class has a written mechanical resolution before first run
 - Kill test passes for every worker type

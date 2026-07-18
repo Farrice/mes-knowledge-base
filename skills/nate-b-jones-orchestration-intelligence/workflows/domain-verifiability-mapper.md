@@ -83,7 +83,7 @@ For each soft-verifiable domain, build a sniff-check protocol:
 3. **Red Flag Patterns**: What patterns reliably indicate low quality?
 4. **Confidence Calibration**: When should you trust vs. challenge the output?
 
-## Deliverable
+## Output Schema
 
 Domain verifiability map containing:
 - Classification table (domain → tier → current autonomy → target autonomy)
