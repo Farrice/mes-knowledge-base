@@ -1,5 +1,17 @@
 # Marisa Murgatroyd — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the shape of how Murgatroyd builds a program, then design originally — do not stamp "Mission → Sequencing → Guarantee" as labeled headers in the output. The test: would Murgatroyd recognize this as a program she'd actually run — mission-first, motivation-sequenced, a foolproof first-hour win, a metaphor story doing the emotional work before the lesson — or does it read as someone reciting "gamification" vocabulary without the mechanism underneath? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which "Core Experience" or pattern number you applied unless asked. Murgatroyd's own materials number her formula for teaching it; the *output* of using the formula (a program, a mission statement, a launch script) should read like a program, not like an annotated framework.
+- Do NOT write "Here's the photographable finish line:" or "Applying the watch-do-win loop:" as section labels. Execute the mission statement, the first-hour win, the guarantee — never narrate that you're doing it.
+- Her texture is a former documentary storyteller turned course architect: plain, concrete, image-first ("photograph someone crossing the finish line," "paper plane before jet plane," "Wall of Unstoppable Momentum"). She reaches for a physical picture before an abstraction every time. If a deliverable stays abstract ("drives engagement," "increases retention") where she would have reached for an artifact or a snapshot, that's the tell it isn't hers.
+- Polish is the tell-class warning here specifically: a mission statement that sounds like ad copy ("Unlock your potential!") instead of a testable, dated, visualizable outcome is corporate learning-design language wearing her vocabulary. Her sentences commit to a number and a deadline ("in 12 weeks," "in the first hour," "16 milestones") — vagueness is the failure mode to hunt for, not lack of polish.
+
+---
+
 ## Genius Patterns
 
 ### Pattern: The Photographable Finish Line
@@ -8,7 +20,7 @@ Every program begins and ends with Mission: "mission is at the top of my experie
 **Success Metric**: Helmut Whitaker's shamanic program went from a 17-year lineage pitch to "in just 6 weeks receive the four essential gifts every human needs to feel whole, loved and on path" — he emailed 18 people, 21 said yes (120% conversion via referrals), $11,000 immediately.
 
 ### Pattern: Mission Possible Framing
-Her template — stolen from the Mission Impossible movies — is "Your mission, should you choose to accept it, is ___." The phraseology matters even if you strip the words later: "it puts you in the shoes of the person who you're inviting on the journey versus looking at it from the perspective of what you want to deliver."
+Her template — stolen from the Mission Impossible movies — is "Your mission, should you choose to accept it, is ___." The phraseology matters even if you strip the words later: "it puts you in the shoes of the person who you're inviting on the journey versus looking at it from the perspective of what you want to deliver." **This is her most publicly attested line-in-the-wild**: DigitalMarketer Podcast Ep. 175 quotes her framing her own flagship program exactly this way — "your mission, should you choose to accept it, is to design, launch, and profit from an experience product in 12 weeks or less."
 **Execute**: Draft every offer promise starting with "Your mission, should you choose to accept it, is…" and complete it in the student's shoes. Repeat the mission through every module until students know it by heart; give each module and each training its own micro-mission.
 **Success Metric**: Students can recite the program mission unprompted; the same sentence works verbatim as the sales-page headline.
 
@@ -20,7 +32,7 @@ The mission is a scoping weapon, not just marketing. "You only include what it t
 ### Pattern: Watch-Do-Win Constant Wins (Core Experience #4)
 The opposite of constant wins is "chasing your tail." If the only win is at the end, students enter the "learn learn learn learn give up" cycle. Instead: "watch, do, win… watch more, do, and win" — action and reward every step, with wins escalating from small to large.
 **Execute**: Attach a visible win to every training: points for watching, points for doing, a separate social-points category for community actions. Sequence wins to escalate. Design the reward moment (celebration, points, badge) into the platform, not as an afterthought.
-**Success Metric**: 59% completion vs 3-7% industry average; "the greater the consumption, the greater the completion, the greater the likelihood people continue."
+**Success Metric**: 59% completion vs 3-7% industry average (LIKELY — see `references/source-ledger.md`; independent web search of her public materials found completion figures cited elsewhere at 70-76%, so treat this specific percentage as directionally true, not confirmed to the decimal); "the greater the consumption, the greater the completion, the greater the likelihood people continue."
 
 ### Pattern: Motivational Sequencing (Human-Focused, Not Function-Focused Design)
 Most creators sequence linearly — "the first step is the first step because it makes sense." That's function-focused design. Human-focused design orders steps by motivation: people have to *win* each step. The first win must be "super duper easy… foolproof that anyone can win," delivered in the first hour.
@@ -35,7 +47,7 @@ From Csikszentmihalyi: flow lives between skill and challenge. "If your skill is
 ### Pattern: Benevolent Game Master Monitoring
 Her Hunger Games metaphor: game masters watch the arena, but "rather than sending them things that are going to drag them down… I'm sending them exactly what they need in the moments they start to get into trouble." She knows where energy flags and pre-plants interventions at those friction points.
 **Execute**: Instrument the program: identify historical friction points; trigger playbooks (voicemail, text, email) off actions taken or NOT taken. Treat "perceived customization" as a floor, not a ceiling — real humans (coach touchpoints, milestone reviews) do what automation can't. Automate admin and research; never automate human connection.
-**Success Metric**: Interventions land at the moment of stall, not after churn; live cohorts with full touchpoints hit 59% completion vs 42% for the evergreen version — a 17-point jump purely from touchpoints and shared pacing.
+**Success Metric**: Interventions land at the moment of stall, not after churn; live cohorts with full touchpoints hit 59% completion vs 42% for the evergreen version — a 17-point jump purely from touchpoints and shared pacing (LIKELY; see ledger — the specific 59/42 split is internal-to-skill provenance only, not independently found in public search).
 
 ### Pattern: Behavior-Anchored Guarantee Wrapped Around the Mission
 The guarantee restates the mission with teeth: "If you go through the program, you use the coaching, you submit your milestones on time and you don't make your money back, I'll make up the difference up to the total amount you paid." Eligibility requires coach-approved milestones — the behaviors that make success nearly inevitable.
@@ -67,28 +79,12 @@ No audience needed — start conversations in three places (inner circle; online
 **Execute**: On the call: set the frame ("by the end we'll both have a clear sense whether this is a fit — does that sound good?"), hand them the floor ("what inspired you to book this call?"), excavate future-self vision ("a year from now… what would have had to happen for you to feel ecstatically happy?" + "what would that make possible in the rest of your life?"), go into the mud on pain, then *prescribe*, don't pitch — map each program element to a stated problem. Ask "Would you like to join me?" then be silent.
 **Success Metric**: Casual conversations convert to booked calls; calls close without pressure because the offer feels custom-built; no conversation is wasted (nos become referrals).
 
-## Hidden Knowledge
+## Anti-Patterns (What Murgatroyd Would Reject)
 
-### Insight: Information Value Is Collapsing — Sell the Container
-**Insight**: Information "more than doubles every single year," so nobody is paying for information anymore. At $500+, buyers expect access — to coaching, to the creator, to community. The rise of AI push-button courses made the experiential element *more* valuable, not less. The professional bar has risen: you must be a professional course creator, not "an entrepreneur with a course."
-**Deploy**: Price and pitch the container (touchpoints, accountability, community, coaching) rather than the content. When competing with free YouTube/AI content, compete on transformation architecture, never on information volume.
-
-### Insight: Completion Rate IS the Business Model
-**Insight**: The hidden causal chain: consumption → completion → results → testimonials → referrals → repeat purchase → lifetime value. Her marketing motivation is downstream of delivery quality: "I know in every cell of my body that I am actually setting people up for the best possible outcomes" — which makes selling feel like service (Zig Ziglar: help enough people get what they want).
-**Deploy**: Treat completion mechanics as revenue engineering, not pedagogy polish. Before optimizing the funnel, optimize the finish line; testimonial volume and referral rate are lagging indicators of experience design.
-
-### Insight: The Formula Is Fractal (Macro AND Micro)
-**Insight**: The experience elements aren't program-level features — "you have the mission for the program, a mission for each individual training, a mission for every single module… apply these in a micro way to every single touchpoint." Her first-hour "Show Me the Money" training reinforces the entire formula in a single touchpoint.
-**Deploy**: After architecting the macro program, re-run the formula on each module, each training, each email, each coaching call. Audit any weak touchpoint by asking which core experiences it's missing.
-
-### Insight: Anything Can Be Experiencified — Even Taxes
-**Insight**: Her tax-accountant riff: clients set make/save money goals with minimum/target/stretch, pre-commit 10-20% of the win to a photographed bucket-list experience; the accountant builds a wall of client bucket-list photos that sells every prospect who asks about it, and clients evangelize ("my accountant made me go to the Taj Mahal"). Experience design creates virality loops in "boring" domains precisely because nobody expects it there.
-**Deploy**: In commodity or boring niches, the experience layer IS the differentiation. Design the visible artifact (photo, wall, badge) that third parties will ask about — that question is the referral engine.
-
-### Insight: Lockstep Is a Physical Limit on Completion
-**Insight**: She confesses she cannot push evergreen completion past ~42% "no matter what I do" — asynchronous entry destroys the synergy of walking in lockstep. The 17-point gap between evergreen and live isn't content, it's shared pacing, momentum, and accountability.
-**Deploy**: If completion/results drive your economics, run cohorts with shared start/finish dates. Reserve evergreen for low-stakes or front-end products; don't expect experience mechanics alone to compensate for asymmetric pacing.
-
-### Insight: The Ask Is a Question Plus Silence
-**Insight**: The close is deliberately anticlimactic: summarize their problem, prescribe the program element-by-element against their stated pains, then "So, with all of that in mind, would you like to join me?" — and be quiet. "Silence is your best friend… let them be the next person to speak." The seller's job the entire call is "to get to the truth," not to perform.
-**Deploy**: Script the final question and rehearse the silence. If you keep talking after the ask, you're relieving your own discomfort at the cost of their decision. A guide frame ("prescribe, don't pitch") removes the need for objection-handling theatrics.
+- **Function-focused sequencing** — ordering modules by what's logically "step 1" instead of by what a student can win first. Quote: "the first step is the first step because it makes sense" — named as the failure mode opposite of her human-focused design. Source: `genius.md` Pattern "Motivational Sequencing" (this file, above) — LIKELY, internal to skill (claude.ai export 2026-07-01, SKILL.md frontmatter; no independent extractions/ file exists to check against a primary transcript).
+- **Unphotographable transformation promises** — "remove your limiting beliefs" fails as a mission because "there's always more of them" and you can't tell when it's done. Source: `genius.md` Pattern "The Photographable Finish Line" (this file, above) — LIKELY, same provenance chain.
+- **Lifetime-of-trial-and-error content dumps** — including everything the creator knows instead of "only what it takes to get someone that result"; scope creep gets deflected to the ascension offer, never absorbed into the current one. Source: `genius.md` Pattern "Mission-Bounded Delivery" (this file, above) — LIKELY.
+- **Treating the Minimum Viable Offer as a discount** — her explicit correction: "Your minimum viable offer isn't a discounted offer. It's a premium high-touch experience for a select group of founding members." Source: `genius.md` Pattern "MVO — The Premium Paper Plane" (this file, above) — LIKELY.
+- **Automating human touchpoints** — "Automate admin and research; never automate human connection" — coach calls and milestone reviews stay human even when everything else is systematized. Source: `genius.md` Pattern "Benevolent Game Master Monitoring" (this file, above) — LIKELY.
+- **Expecting cohort-level completion from evergreen/asynchronous delivery** — she "confesses she cannot push evergreen completion past ~42% no matter what I do"; the gap versus live cohorts is pacing and accountability, not content quality, and no formula fix compensates for asynchronous entry. Source: `genius.md` Pattern "Pods-Within-Cohorts" / "Benevolent Game Master Monitoring" (this file, above) — LIKELY. **Note**: the specific 59%-vs-42% figures are internal-to-skill only; a 2026-07-18 web search of her public materials (DigitalMarketer, FindFocus, Hustle & Flowchart) surfaced completion claims in the 70-76% range instead, so the *existence* of a live-vs-evergreen completion gap is the load-bearing claim — treat the exact percentages as UNCONFIRMED against public sources.
+- **Pitching instead of prescribing on the sales call** — closing by performing a sales script rather than mapping the offer's elements onto the prospect's own stated words: "Prescribe, don't pitch." Source: `workflows/03-launch-mvo-from-zero.md:41` and `references/prompts-v2/mvo-zero-audience-launch.md:54` — LIKELY, same claude.ai-export provenance.
