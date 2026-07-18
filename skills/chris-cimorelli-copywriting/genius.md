@@ -2,6 +2,19 @@
 
 > Load this file before executing any workflow.
 
+## How to Use This Skill (Model Calibration)
+
+These eight patterns are intuition primitives, not a checklist. Absorb them, then build originally. If the output mechanically stamps "Big Idea: ___" or narrates "CLF Step 1: Shock Hook, Step 2: Personal Tie..." in the delivered copy, it has failed. The test: would Cimorelli recognize this as a promo built to survive his own 50+ variant A/B testing discipline against Agora's most jaded financial readers — or as someone reciting "Big Idea" and "skeptic-proofing" vocabulary without the front-end/back-end proof discipline underneath it? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which patterns you applied (Big Idea, CLF, Proof Pyramid, Asymmetry) unless the user is running the Copy Diagnostic workflow, where naming the metric IS the deliverable. In front-end or back-end promo writing, execute the move; never announce it in the copy itself.
+- Do NOT label sections "here's the shock hook," "here's the proof pyramid." The reader should feel gripped and then convinced — never watch the machinery move.
+- Financial-DR texture is restraint, not enthusiasm. The tell of amateur financial copy is adjectives ("cutting-edge," "revolutionary," "game-changing" — see the skill's own Anti-Exemplar below). The tell of Cimorelli-grade copy is specificity: a named auditor, a nurse named Sarah with a dollar figure, a redacted brokerage statement — never a vibe.
+- Polish-is-the-tell-class warning: generic feature-dump copy ("Discover our cutting-edge AI platform...") reads as template output even when grammatically flawless — that IS the failure mode, not a stylistic choice. If front-end copy explains the mechanism before trust is earned, that is also polish-as-tell: Cimorelli's own "Sell the Vacation, Not the Flight" discipline hides the "how" until the back-end.
+- This skill's provenance is thinner than a transcript-grounded expert (see `references/source-ledger.md`) — built from Perplexity research, not a primary Cimorelli interview or swipe file. Treat the framework as directionally sound DR structure, not verbatim doctrine; do not present any exemplar in this file as an actual published Cimorelli promo.
+
+---
+
 ## Genius Patterns
 
 ### 1. Big Idea Architecture
@@ -117,6 +130,17 @@
 > *   **No Asymmetry**: Doesn't frame the offer as an obvious risk-reward decision.
 > *   **"Sell the Flight"**: Focuses on features ("advanced algorithms," "real-time data analytics") rather than the ultimate outcome or "vacation."
 > *   **Generic Language**: Uses buzzwords like "cutting-edge," "optimize," and "intuitive" without specific, compelling meaning.
+
+## Anti-Patterns
+
+> Provenance note: this skill has no primary Cimorelli transcript, interview, or swipe file on file (verified — see `references/source-ledger.md`). The items below are anchored either to this skill's own existing exemplar material (quoted verbatim from the sections above) or to its own internal Evolution Log and workflow contracts. None are claimed as a verbatim Cimorelli statement unless labeled VERIFIED against a specific in-repo file; where authorship of the underlying principle cannot be confirmed against a primary source, the label is UNCONFIRMED.
+
+- **Feature-dump instead of a Big Idea** — leads with mechanism and adjectives instead of the one-sentence promise; this skill's own Anti-Exemplar shows the failure mode verbatim: "Discover our cutting-edge AI platform designed to help you make smarter investment decisions" (genius.md § Hall of Fame Exemplars, Exemplar 3). Provenance: UNCONFIRMED as an actual published Cimorelli piece — see `references/source-ledger.md`.
+- **Explaining the mechanism before trust is earned (front-end)** — violates "Sell the Vacation, Not the Flight": Cimorelli "never describes how the product works in front-end copy. He sells the outcome — the lifestyle, the feeling, the result." (genius.md § Hidden Knowledge). Provenance: UNCONFIRMED — synthesized via Perplexity research per `_active/codex-harvest-2026-06-11/agents/chris-cimorelli/AGENT.md` frontmatter, dated 2026-03-19, not a verbatim Cimorelli statement.
+- **Single-layer proof on a big claim** — stacking only market data without case study and personal proof leaves a claim like "our proprietary system delivered a verifiable average of 20.7% annually" unproofed against skepticism (genius.md § Hall of Fame Exemplars, Exemplar 2, Proof Layer 1 alone). Provenance: UNCONFIRMED, same source gap as above.
+- **Hard jump between front-end and back-end instead of a gradient** — this skill's own Evolution Log entry (dated 2026-04-09) flags the fix directly: "Copy that names what the reader feels but can't articulate ('The Unnamed Feeling') creates trust at a level that proof alone can't reach" (genius.md § Evolution Log). Provenance: LIKELY — an internally logged evolution result, not externally verified against a primary Cimorelli source.
+- **Fewer than 10 hook variants shipped to paid traffic** — contradicts "The first 10 hooks you write are your assumptions about what works. Hooks 11-50 are where you discover what ACTUALLY works." (genius.md § Hidden Knowledge, "50+ Variations Is Not Obsessive") and the Quality Rubric's own scoring, where 1-3 variants caps at Score 4 "Acceptable" against 50+ at Score 10 "Savant" (genius.md § Expert-Specific Quality Rubric, row "A/B Testing Mentality"). Provenance: UNCONFIRMED.
+- **Unsubstantiated or "guaranteed" claims in back-end copy** — violates Skeptic-Proofing and the diagnostic standard this skill enforces at delivery: `workflows/03-copy-diagnostic.md` Metric 9 (Compliance Check) reads "No 'guaranteed' language? No claims without substantiation? Legally clean?" scored 10 = lawyer-approved down to 1 = lawsuit bait. Provenance: VERIFIED — quote confirmed against this skill's own `workflows/03-copy-diagnostic.md` file.
 
 ## Signature Moves
 
