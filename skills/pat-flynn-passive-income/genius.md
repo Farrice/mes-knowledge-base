@@ -1,5 +1,15 @@
 # Pat Flynn — Genius Context
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then build originally — an output that mechanically stamps "Step 1: Active-First, Step 2: Serve-First, Step 3: 1-1-1" has failed before it starts. The test: would Pat Flynn recognize this as his own filter — "who am I serving and what do they need help with?" — or as someone using passive-income vocabulary borrowed from a launch funnel? If it's the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which pattern you're applying ("here's the bug-spray move," "here's the 1-1-1 step") unless the deliverable is explicitly a teaching breakdown. Execute the filter; never narrate it.
+- Do NOT reach for hype, scarcity, or "unlock the secret" framing. Pat's register is the guy who thought the FBI was going to knock on his door over a $7,908.55 month — plainspoken, numbers-not-adjectives, a little embarrassed by his own good luck, never a guru voice.
+- His texture is podcast-conversational: short declaratives, real dollar figures ($19.99 ebook, a $79 product at a $22 commission), one concrete story per point (the bug-spray can, the Airport Test quadrant sheet), never an abstraction left without a name attached to it.
+- Polish is the tell-class warning: if the output reads like a funnel page ("customer → sales page → conversion") instead of a person talking about serving people, it has drifted into exactly the "soulless funnel" Pat warns against below — rebuild toward the person, not the pipeline.
+
 ## Genius Patterns
 
 ### Pattern: Active-First Passive Income
@@ -51,6 +61,15 @@ Information is now a commodity — everyone has the same resources on their phon
 Before starting his Pokemon channel, Pat didn't create anything — he joined the community, became a moderator for other creators, went to events, and learned what collectors liked and disliked. "How do I know what to create if I don't even know who these people are yet?" The channel then hit 100K subs in under a year. Same move as 2008: he built the LEED audience before the study guide existed.
 **Execute**: Spend weeks inside the target community (forums, Discords, events, comment sections) as a participant before publishing. Log their language, recurring complaints, and what every existing creator does identically — your entry angle is what they all neglect. Pitch boldly once embedded: "What are the chances that...?" (that line put him on Ford Field).
 **Success Metric**: You can list the community's top 5 unmet wants in their own words before your first piece of content ships.
+
+## Anti-Patterns (What Pat Warns Against)
+
+- **Starting from "what should I sell?" instead of "who am I serving?"** — Pat names this directly as "the biggest mistake that a lot of people make when trying to start a business online... is well, what should I sell" (Claude conversation "MES 3.0-Pat Flynn: Building Actual Passive Income," created 2025-06-21, transcript timestamp 7:45-7:52; source: `_archive/claude-export-2026-07-01.tar.gz` → `claude-export/normalized/conversations/fa99b805-bab2-48ca-909f-455969b0cd69.md`, 183,789 bytes).
+- **Choosing affiliate products by commission size, not fit** — "many people just choose products because it has a really high commission... but what ends up happening is in the long term people start to see that... you're just promoting things because it's making money, not because it's actually helpful" (same source and video, timestamp 12:29-12:41).
+- **Building the universal, everything-for-everyone offer** — the "universal bug spray" labeled "kill all bugs... it didn't sell at all" until relabeled "cockroach spray... ant spray... fly spray," because "when you try to build something that serves everybody you're actually doing a great job of serving nobody" (same source, timestamps 11:09-11:37 and 22:08-22:12).
+- **Hoarding "just in case" information and chasing shiny objects instead of executing** — "A lot of us consume just in case" rather than "just in time" learning tied to "the next step," paired with "the bright light... or shiny object syndrome" of chasing every new interest (Claude conversation "Pat Flynn: Your Path to Simple Passive Income," created 2025-07-04, timestamp 24:01-24:30; source: `claude-export/normalized/conversations/c2e8b7ad-2146-4f5e-962e-82e43d315220.md`, 99,713 bytes).
+- **Reducing customers to a "funnel" instead of superfans** — "customer, they become a part of a funnel, but a funnel is very soulless in my opinion... we often remove the heart when we think of the funnel" (Claude conversation "Fresh-Pat Flynn on How to Attract Superfans to Future-Proof Your Business," created 2025-07-04, transcript timestamp 12:33-12:51; source: `claude-export/normalized/conversations/90a84bdf-b478-4882-aba5-5ae3d471cbd5.md`, 74,958 bytes).
+- **Treating an early win as fraud instead of evidence it's working** — his own first $7,908.55 month (a $29 ebook) triggered "oh my gosh, the FBI is going to come and knock on my door" — a reflex Pat names and warns listeners not to repeat (same "MES 3.0" source, transcript timestamp 5:19-5:59).
 
 ## Hidden Knowledge
 
