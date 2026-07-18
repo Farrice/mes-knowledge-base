@@ -2,19 +2,20 @@
 
 > Load this file before executing any workflow. It contains the full
 > extraction intelligence — patterns, tacit knowledge, and operating
-> principles that make this expert's output actually work.
+> principles that make this expert's genius operational.
 
-## How to Use This Skill (Opus 4.7 Calibration)
+## How to Use This Skill (Model Calibration)
 
-The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Jonathan Franzen recognize this as literary work in his tradition? If unsure, the answer is no — rewrite.
+The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Franzen recognize this as work that trusts the reader the way he insists on trusting the reader — or as vocabulary borrowed from a craft class? If unsure, the answer is no — rewrite.
 
 Specifically:
-- Do NOT enumerate which patterns you applied unless asked
-- Do NOT label sections by pattern name
-- Do NOT explain the framework — embody it
-- The reader should never see the scaffolding, only feel the compression
+- Do NOT enumerate which patterns you applied unless asked.
+- Do NOT label sections by pattern name ("comic distance achieved here," "this is the want-collision").
+- Do NOT explain the framework — embody it. Franzen's own rule for cliché applies to exposed machinery too: "in my opinion, you get at most one cliche per book" before the reader stops trusting you (Franzen, *Learn to Write Great Stories in 63 Minutes*, How I Write w/ David Perell, YouTube, 2025-11-26).
+- His texture is compression, not performance: a minor character gets "two sentences," a whole novel's weather gets "less than one page devoted to describing the weather," and an over-engineered plot "reads like a book that was too fully planned" — sterile, competent, and dead on arrival (same source). If your output over-explains, over-describes, or feels assembled rather than discovered, it has failed on his own terms.
+- Comic distance is the tell of quality, not a decoration to add later: if the writer (you) can't find anything absurd in the material, you are still too close — sentimental, protective, "victim-positioned" prose is the clearest failure signature for this expert. Polish that smooths away the absurdity isn't polish — it's a retreat into the safety he explicitly warns against.
 
-Why this is here: Opus 4.7 follows instructions more literally than 4.6. Franzen's compression-logic is the OPPOSITE of mechanical application — apply it as a checklist and you produce the very over-explained prose his method exists to refuse.
+Why this is here: literal, mechanical instruction-following produces exactly the "written from an outline" over-explained prose Franzen spent a 63-minute interview warning against. See **Anti-Patterns** below — sourced to his own words, not paraphrase.
 
 ---
 
@@ -37,6 +38,8 @@ Why this is here: Opus 4.7 follows instructions more literally than 4.6. Franzen
 
 **Executable Behavior**: Start with the embarrassingly small thing that matters too much, then build the character outward from that specific itch.
 
+**Franzen, in his own words**: "I'm looking for a comic problem. It doesn't have to be a big problem... the smaller the problem, the funnier it is" (Franzen, *Learn to Write Great Stories in 63 Minutes*, How I Write w/ David Perell, YouTube, 2025-11-26 — transcript on file: claude-export archive, conversation `147f009c-5f9f-48fa-87df-89381c48dcbb.md`, ln. 30; hereafter cited as HIW-Franzen 2025-11-26, ln.30).
+
 ---
 
 ## Pattern 2: Comic Distance as Truth Detector
@@ -45,6 +48,8 @@ Why this is here: Opus 4.7 follows instructions more literally than 4.6. Franzen
 **Depth**: When you can laugh at a character, you've found truth about them. Victim-positioned writing (where you're too close, too protective) produces sentimental, manipulative prose. Comic distance produces work that feels REAL.
 
 **Executable Behavior**: If you can't find anything funny about your character's situation, you're too close. Step back until you can see the absurdity.
+
+**Franzen, in his own words**: "distance is really really critical," and on the failure mode — "if you stick close to a character who the author is convinced is a victim, a good person that bad people have done bad things to... you're in trouble. On page one" (HIW-Franzen 2025-11-26, ln.30).
 
 ---
 
@@ -55,6 +60,8 @@ Why this is here: Opus 4.7 follows instructions more literally than 4.6. Franzen
 
 **Executable Behavior**: Take your most shame-laden material. Find the ridiculous angle. The thing that would make you cringe becomes the thing that makes readers feel SEEN.
 
+**Franzen, in his own words**: "There's no technical solution to shame levels in a writer... you have to go into the shame and figure out why am I so ashamed" — and naming the failure mode directly: "one of the reflexes then is to just kind of pile on the ugliness" (HIW-Franzen 2025-11-26, ln.30).
+
 ---
 
 ## Pattern 4: Minimal Detail Maximum Impact
@@ -63,6 +70,8 @@ Why this is here: Opus 4.7 follows instructions more literally than 4.6. Franzen
 **Depth**: A 500-page novel might have less than one page devoted to weather. Minor characters need only 2 sentences. The reader's imagination does the heavy lifting—you just need the RIGHT 2-3 details.
 
 **Executable Behavior**: For any scene, identify the 3 details that do the most work. Cut everything else. Trust the reader.
+
+**Franzen, in his own words**: "there's probably a total of less than one page devoted to describing the weather in that book... two sentences are really all you need to establish what you need for a minor character" (HIW-Franzen 2025-11-26, ln.30).
 
 ---
 
@@ -73,6 +82,8 @@ Why this is here: Opus 4.7 follows instructions more literally than 4.6. Franzen
 
 **Executable Behavior**: Before writing any scene, articulate what each character desperately wants in that moment. Design the scene around the collision.
 
+**Franzen, in his own words**: "One character wants you to get on a plane. The other character really has no intention of getting on a plane... that's drama basically" (HIW-Franzen 2025-11-26, ln.30).
+
 ---
 
 ## Pattern 6: The Iron Bridge Page Building
@@ -81,6 +92,8 @@ Why this is here: Opus 4.7 follows instructions more literally than 4.6. Franzen
 **Depth**: Every page must be FINISHED—publication-ready—before moving to the next. This prevents the "I'll fix it later" trap that produces drafts full of weak links.
 
 **Executable Behavior**: Don't move on until the page behind you is as good as you can make it. The novel is built like an iron bridge, link by link.
+
+**Franzen, in his own words**: describing his own daily process — "there's a there's a, you know, iron bridge up to that point" and "I kind of know what direction the bridge is pointing... there's some girders sticking out and I can just add on to it a little bit" (HIW-Franzen 2025-11-26, ln.30).
 
 ---
 
@@ -91,6 +104,21 @@ Why this is here: Opus 4.7 follows instructions more literally than 4.6. Franzen
 
 **Executable Behavior**: Hold your destination loosely. Let characters' wants determine the route. If you're surprised, the reader will be too.
 
+**Franzen, in his own words**: "a book that was too fully planned is likely to read like a book that was too fully planned... this was written from an outline. It's it's perfect, but it's also written from an outline. And that's that is the last impression you want to give" (HIW-Franzen 2025-11-26, ln.30). On the alternative: "I've got to get there, but I have no idea how I'm going to get there. So it's the adventure of trying to... make an unlikely sequence of events seem inevitable" (same source).
+
+---
+
+## Anti-Patterns (What Breaks Franzen's Method)
+
+> Every item below is Franzen naming his own failure modes, in his own words, in one dated primary source: *Learn to Write Great Stories in 63 Minutes*, How I Write w/ David Perell, YouTube, published 2025-11-26, transcript on file at `claude-export/normalized/conversations/147f009c-5f9f-48fa-87df-89381c48dcbb.md` (line 30) inside `_archive/claude-export-2026-07-01.tar.gz` — full ledger in `references/source-ledger.md`.
+
+- **Victim-positioned protectiveness**: writing a character the author is convinced is a pure victim collapses the work immediately — "if you stick close to a character who the author is convinced is a victim, a good person that bad people have done bad things to... you're in trouble. On page one" (HIW-Franzen, 2025-11-26).
+- **Outline-visible plotting**: prose that telegraphs its own structure reads as sterile no matter how technically correct — "a book that was too fully planned is likely to read like a book that was too fully planned... that's the last impression you want to give" (HIW-Franzen, 2025-11-26).
+- **Cliché tolerance past the first instance**: Franzen holds a hard numeric line on borrowed language — "in my opinion, you get at most one cliche per book. People send me a galley... I read along until I get to the second cliche and I say, 'Thank you'" (HIW-Franzen, 2025-11-26).
+- **Trauma-dumping self-focus**: pouring raw difficulty onto the page without transformation breaks the writer-reader bond — "the basic mode of that is... very much focused on the self... incompatible with forging the kind of bond I want to forge with the reader" (HIW-Franzen, 2025-11-26).
+- **Breaking the vivid dream**: metafictional self-reference is named directly as an immersion-killer — "a lot of experimental fiction delights in breaking the fourth wall... which basically to my mind takes you out of the experience" (HIW-Franzen, 2025-11-26).
+- **Ornamental description without specificity**: generic beauty-writing is called out as his own reader-fatigue trigger — "merely describing the beauty of nature will not get the job done... I find that kind of writing personally almost always tedious, boring" (HIW-Franzen, 2025-11-26).
+
 ---
 
 ## Hall of Fame Exemplars
@@ -99,11 +127,13 @@ Why this is here: Opus 4.7 follows instructions more literally than 4.6. Franzen
 *From Jonathan Franzen's *The Corrections*, reconstructed*
 Alfred Lambert, in his declining years, developed a peculiar obsession with the locks on his front door. Not just that they were locked, but that they were *locked correctly*. He would test them three, four, five times before bed, convinced that an almost imperceptible click, a fractional give in the mechanism, signaled impending doom. His wife, Enid, would lie in bed, rigid with irritation, listening to the faint metallic *clacks* from the hallway, each one a tiny hammer blow against her own desperate yearning for sleep and a return to some semblance of order.
 *What makes this excellent*: This immediately establishes Alfred's character through a "comic problem" (Pattern 1) that is simultaneously small and desperate. It's not a grand trauma, but a petty, relatable neurosis that reveals deeper anxieties about control and aging. The detail is minimal (Pattern 4), relying on the "clacks" to convey the tension, and introduces a subtle "want-collision" (Pattern 5) with Enid's desire for sleep.
+*Provenance note*: this passage is an illustrative reconstruction in the style of *The Corrections*, not a verbatim excerpt from the published novel — labeled UNCONFIRMED-as-canon-text in `references/source-ledger.md`; it is used here to demonstrate the pattern, not as quoted Franzen prose.
 
 **Exemplar 2: The Subtext of the Family Dinner**
 *Generated from Franzen's patterns*
-Patty, mid-sentence about her new gluten-free diet, paused, fork hovering over a single, forlorn brussels sprout. Her son, Kevin, across the table, was meticulously dissecting a bread roll, tearing it into tiny, architecturally precise crumbs. He hadn't looked at her once since she'd asked about his "coding projects." Her husband, Richard, watched the scene with the detached amusement of a man who’d learned long ago that intervention was merely an invitation to be drawn into the vortex. He reached for another glass of wine, the clink of ice a small, defiant punctuation mark in the unspoken argument.
+Patty, mid-sentence about her new gluten-free diet, paused, fork hovering over a single, forlorn brussels sprout. Her son, Kevin, across the table, was meticulously dissecting a bread roll, tearing it into tiny, architecturally precise crumbs. He hadn't looked at her once since she'd asked about his "coding projects." Her husband, Richard, watched the scene with the detached amusement of a man who'd learned long ago that intervention was merely an invitation to be drawn into the vortex. He reached for another glass of wine, the clink of ice a small, defiant punctuation mark in the unspoken argument.
 *What makes this excellent*: This scene is a masterclass in "want-collision" (Pattern 5). Patty wants validation and connection; Kevin wants to disappear. Richard wants to observe and self-medicate. The conflict is entirely subtextual, conveyed through precise, minimal details (Patty's fork, Kevin's crumbs, Richard's wine) (Pattern 4). The "comic distance" (Pattern 2) allows the reader to appreciate the absurdity and truth of the family dynamic without sentimentality.
+*Provenance note*: explicitly synthetic per its own label — UNCONFIRMED as Franzen's text, used only to demonstrate pattern application.
 
 **Anti-Exemplar: The Overly Explicit Confession**
 "I feel so lost," Sarah whispered, tears streaming down her face. "My whole life, I've just been trying to please my mother, and now I realize it was all a lie. I'm empty inside, a hollow shell of who I should be." Her friend, Maria, hugged her tightly, murmuring, "It's okay to feel that way. You're strong, and you'll get through this."
@@ -133,7 +163,7 @@ Patty, mid-sentence about her new gluten-free diet, paused, fork hovering over a
 
 ## Evolution Log
 
-> Tracks all evolution attempts — kept AND discarded.
+> Tracks all evolution attempts — kept AND discarded. 1 experiment logged as of 2026-04-09 (KEPT, composite +1.3).
 > Each entry documents a hypothesis, result, and lesson.
 
 ### 2026-04-09 — Flaw-as-Plot-Engine Cognitive Layer (KEPT)
