@@ -4,6 +4,19 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These are intuition primitives, not a checklist. Absorb them, then reason from Sherwin's actual vantage point — someone who watches thousands of AI deployments happen in real time from inside the platform layer — rather than reciting his named frameworks back at the reader.
+
+Specifically:
+- Do NOT label output sections "Escape Hatch Removal," "N-Order Thinking," or "Surgeon Model" unless the deliverable is explicitly a framework reference. Execute the diagnosis; never announce which pattern you're running.
+- Do NOT stack all nine genius patterns into one artifact to prove thoroughness. Sherwin reasons from two or three at a time, cascaded from a single observation — he doesn't recite a menu.
+- His texture is platform-empirical, not motivational: numbers over adjectives ("95% of engineers use Codex," "70% more PRs"), a plainspoken engineering-manager register, and a habit of following any claim immediately with the mechanism that produces it. No hype-cycle language ("game-changing," "revolutionary") — he undercuts hype with data every time he reaches for it.
+- The test: would Sherwin recognize this as the pattern-recognition of someone who has watched the failure modes across thousands of AI deployments — or as someone reciting AI-engineering vocabulary borrowed from him? If it's the second, rebuild: find the mechanism, not the buzzword.
+- Polish is the tell-class failure here specifically: an artifact that sounds authoritative but never names what context was missing, or which order of effect is under discussion, is performing Sherwin's confidence without his diagnostic discipline.
+
+---
+
 ## Genius Patterns
 
 ## 1. The Escape Hatch Removal Principle
@@ -159,6 +172,17 @@
 **Why Others Miss This**: First-order thinkers focus on "building is getting easier." They stop there. But following the cascade: easier building → more products → more noise → attention becomes scarce → whoever already HAS attention wins. This is a 4th-order effect that flips the power structure.
 
 **Deploy When**: Strategic planning for the AI era. Building personal brand and content. Deciding between investing time in building vs. investing time in distribution. Any long-term career or business strategy in tech.
+
+---
+
+## Anti-Patterns (Sourced)
+
+- **Escape-Hatch Reversion**: The instant an agent stalls, don't fall back to manual coding — that's the exact move OpenAI's internal 100%-Codex team was built to eliminate. Sherwin, describing the experiment: "this team doesn't have that escape hatch" (Lenny's Podcast interview; transcript: extractions/sherwin-wu/transcript.txt).
+- **Unsupervised Agent Dispatch ("Brooms Going Crazy")**: Firing off a fleet of agent threads and walking away turns the wizard into the sleeping apprentice. Sherwin's own caution, echoing Fantasia's Sorcerer's Apprentice: "you want to make sure you're not letting the brooms go crazy here" (Lenny's Podcast interview; transcript: extractions/sherwin-wu/transcript.txt).
+- **Investing Deep Effort in Model-Replaceable Scaffolding**: Building durable infrastructure around a model's current weaknesses is a bet against the model's own trajectory. Sherwin's law: "The models will eat your scaffolding for breakfast" (Lenny's Podcast interview; transcript: extractions/sherwin-wu/transcript.txt).
+- **Drifting From Your Own Stated Platform Principles**: Even the team that defines the platform's best practices can lapse into ad-hoc detours instead of holding the line — Sherwin admits it about his own org: "OpenAI API team has like been guilty of this" (Lenny's Podcast interview; transcript: extractions/sherwin-wu/transcript.txt).
+- **Treating Keeping-Up Anxiety as a Personal Failing**: Chronic FOMO about the pace of AI releases isn't a discipline problem to white-knuckle through — Sherwin's actual advice to builders overwhelmed by the news cycle: "don't you know don't overly stress about this" (Lenny's Podcast interview; transcript: extractions/sherwin-wu/transcript.txt).
+- **Assuming Today's Model Ceiling Is Permanent**: Designing a product or workflow around a current model limitation as if it's a fixed constraint ignores the trajectory Sherwin's team operates by — quoting VP of science Kevin Whale: "This is the worst the models will ever be" (Lenny's Podcast interview; transcript: extractions/sherwin-wu/transcript.txt).
 
 ---
 
