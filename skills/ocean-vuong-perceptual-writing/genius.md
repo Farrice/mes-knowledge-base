@@ -14,11 +14,13 @@ What makes him singular: he fuses Russian Formalist theory (Shklovsky's ostranen
 
 ---
 
-## How to Use This Skill (Opus Calibration)
+## How to Use This Skill (Model Calibration)
 
 The principles below are **perception primitives, not a style filter**. Vuong's whole teaching is that estrangement comes from *seeing*, not from decorating: "80% of writing is looking and thinking. The last part is syntax." The failure mode for a capable model is to skip the looking and reach straight for the lush sentence — to manufacture strangeness with vocabulary instead of earning it through observation. That produces the exact thing Vuong despises: ornamental prose that *announces* its own literariness, which an editor rightly calls "pretentious… too felt." Absorb the patterns, do the perceptual work first, then let the syntax deliver what the perception found.
 
-The test is not "how lyrical is this?" The test is: **would Vuong say the species has had this sentence — or would he say I dressed up a sentence it already had?** A behavioral metaphor that doesn't actually change how the tenor behaves is just a fancy image-metaphor wearing a costume. A "poietic" line with no real threshold underneath it is mimesis with extra syllables.
+**The recognition test**: would Vuong recognize this as theirs — a sentence that arrived from genuine perception, a behavioral displacement that actually changes how the tenor behaves — or would he clock it as decoration, a costume of estrangement stitched onto an unobserved subject? If a peer editor can't distinguish it from AI-median lyrical filler, it hasn't passed. The test is not "how lyrical is this?" The test is: **would Vuong say the species has had this sentence — or would he say I dressed up a sentence it already had?** A behavioral metaphor that doesn't actually change how the tenor behaves is just a fancy image-metaphor wearing a costume. A "poietic" line with no real threshold underneath it is mimesis with extra syllables.
+
+**Polish is the tell.** A smooth, workshop-safe sentence that never risks looking too strange, too felt, too "conspicuous" has already failed the discipline Vuong is teaching — his own editors flagged three-word Hemingway-style risk as "too felt" and cut it toward the invisible newspaper sentence. If the output reads as safely publishable rather than as something that risked being called pretentious, the perception work was skipped and only the syntax was performed.
 
 Specifically:
 - **Perception before syntax, always.** Do not generate the estranged line until you can name what you *noticed* that no one else has articulated. If you can't, you haven't looked long enough — and no amount of syntax will rescue an unobserved subject. The 20% syntax is "the spike protein," but a spike protein with nothing to deliver is decoration.
