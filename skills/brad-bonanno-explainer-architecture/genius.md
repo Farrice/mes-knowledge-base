@@ -10,6 +10,18 @@
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb the modality-mix instinct — talking-head explains, demo cuts prove, infographics anchor — then build originally. If the output mechanically stamps "Pattern 1: 15% Demo Rule, Pattern 5: Pre-empt the Skeptic" in order, you have failed. The test: would Brad Bonanno recognize this as someone architecting a 5-10 minute explainer that survives a paused frame — or as someone reciting his pattern vocabulary at a viewer? If it's the second, rebuild.
+
+Specifically:
+- Do NOT label sections "here's the Matrix Moment" or "here's the Compound Cliffhanger." Execute the structure; never announce the machinery. Brad's own video never says "and now for my pre-empted objection segment" — it says *"And I can literally hear the keyboards clattering right now, Brad, this is going to torture your token budget"* (t=05:01) and moves straight into the chart.
+- Do NOT enumerate which of the 7 patterns you applied unless asked. The Pause Test (HK4) is a frame-by-frame KPI, not a section header a viewer or reader should ever see.
+- His on-camera texture is confident-but-friendly, mid-30s, soft-lit gray-wall vlog setup, animated hand gestures, leans-into-camera energy on key claims (extraction-report.md, Source Identity). Deliver like someone narrating over their own screen recording, not academically describing video theory.
+- Polish is the tell-class warning: if the output reads like a production checklist ("Step 1: talking-head. Step 2: demo cut. Step 3: infographic."), it has already failed the Pause Test it's trying to teach. Brad hides the engineering behind a conversational, slightly self-interrupting register ("Sam is still introducing what he's going to talk about today and Claude has already ingested the entire thing" — t≈02:22) — match that register, not a bullet-point tutorial voice.
+
+---
+
 ## Genius Patterns
 
 ### Pattern 1 — The 15% Demo Rule
@@ -187,7 +199,22 @@ Using ONLY ONE flagship demo source (e.g., Sam Altman's lecture across all demos
 
 The opening shot (creator's face, raised hand, mouth open mid-pattern-interrupt) IS the YouTube thumbnail aesthetic. Brad isn't just opening with a hook line; he's also delivering the literal visual that the YouTube thumbnail will use. Same effort produces both the hook and the thumbnail. Most creators record a hook and then SEPARATELY film a thumbnail shot.
 
+Extraction-report.md pins this to Frame 1: *"bald, black quarter-zip, raised hand mid-gesture, mouth open in pattern-interrupt energy"* — the literal frame reused as the throughline reference across the extraction's 80-frame sample.
+
 **Why others miss this**: They treat thumbnail as a post-production decision, not a recording decision. Brad collapses both into one take.
+
+---
+
+## Anti-Patterns (Sourced)
+
+Every item below is a named failure mode in the extraction, not an inferred opposite — each is either Brad's own stated anti-exemplar or a hidden-knowledge contrast case, anchored to `extraction-report.md` (2026-05-03 extraction).
+
+- **Rotating demo examples to "show breadth."** Brad's own framing: *"Rotating examples to 'show breadth' — amateur creative cowardice disguised as helpfulness"* (extraction-report.md, Pattern 2, 2026-05-03). Even when the transcript name-drops Loom, MP4 files, and Instagram reels, every visible demo stays on the same Sam Altman lecture — the failure mode is about production discipline, not content variety.
+- **The 10-minute pure screen-recording walkthrough.** Pattern 1's anti-exemplar: *"A 10-minute screen-recording of someone walking through a UI. High effort, low retention, low branding leverage, and the viewer remembers nothing because every frame looks the same"* (extraction-report.md, Pattern 1 anti-exemplar).
+- **Hand-waving a claim instead of anchoring it visually.** Pattern 4's documented failure: *"Saying 'it's cheap' without any visual anchor. Or worse — flashing a number on screen for 0.8 seconds in a non-branded format. The viewer doesn't internalize transient visuals"* (extraction-report.md, Pattern 4 anti-exemplar).
+- **Recording the explainer as audio-only or a PIP-less Loom.** The Hall-of-Fame anti-exemplar: *"If Brad had recorded the same script as a podcast (audio-only) or as a Loom screen-recording with no PIP, the video would have 30-50% lower retention"* (extraction-report.md, Anti-Exemplar, 2026-05-03).
+- **Oversized creator PIP that competes with the demo.** HK2's named contrast case: creators who "make their face huge during demos" send the signal "watch me," which "competes with the demo content" — versus Brad's bottom-left, smaller-than-demo webcam confirmed in frames 11, 23, 60, and 78 (extraction-report.md, HK2).
+- **Cost hand-waving as a confidence tell.** HK3: *"Indie creators who hand-wave on cost ('it's pretty cheap') signal lack of confidence in their own measurements"* — contrasted against Brad's exact $0.70/$0.82/$0.95/$1.62 chart at t=05:10, frame 49 (extraction-report.md, HK3).
 
 ---
 
@@ -242,6 +269,7 @@ Pick ONE flagship example. Run it across the entire video. Resist the urge to "s
 
 ### SM3 — The Bottom-Left PIP Discipline
 When showing demos, your face goes bottom-left, smaller than demo content, in a clean rounded card. The tool dominates the frame.
+**Visual evidence**: frames 60 and 78 in the source extraction — PIP consistently in a "clean rounded card," smaller than the demo pane (extraction-report.md, HK2).
 **Deploy**: Every demo frame in every video. Audit: does my face compete with the demo for attention?
 
 ### SM4 — The Compound Cliffhanger Close
@@ -250,13 +278,14 @@ End the video by showing the dashboard / system that this skill plugs into — b
 
 ### SM5 — The Free + Open-Source Flex
 Make the artifact free + open-source, show the install command on screen (not just in description).
+**Verbal evidence**: t=02:38 — *"the setup takes care of the rest"* (extraction-report.md, Pattern 7).
 **Deploy**: When competing for attention against paid tools or larger creators. Audience-building compounds from the giveaway.
 
 ---
 
 ## Quality Rubric (for Brad-style explainer videos)
 
-Score each video on these 7 criteria, **1-5 scale**.
+Score each video on these 7 criteria, **1-5 scale** (35 points total; pass threshold 25/35).
 
 ### 1. Modality Mix Discipline (target ratio: 70-80% talking-head, 10-20% demo, 5-15% infographic)
 - **5**: Calibrated mix. Talking-head dominates explanation, surgical demo cuts, 2-4 branded infographics
@@ -267,21 +296,25 @@ Score each video on these 7 criteria, **1-5 scale**.
 - **5**: At any 5-second interval, paused frame delivers value (info, parasocial, or anchor)
 - **3**: Most frames pass, occasional dead pauses
 - **1**: Dead pause points throughout (transitions, non-engaged talking-head, blank screen recordings)
+- **Grounding**: HK4 (extraction-report.md) — no dead pause point across the source video's 80 sampled frames.
 
 ### 3. Single-Source Demo Discipline
 - **5**: Committed to ONE flagship source across all demos
 - **3**: 2-3 sources used, but with intentional reasoning
 - **1**: Scattered — every demo uses a different example, viewer can't track
+- **Reference exemplar**: Sam Altman's YC lecture used across all demo cuts — frames 11, 14, and 23 (extraction-report.md, Pattern 2).
 
 ### 4. Pre-empted Objections Count
 - **5**: 2+ objections named in viewer's voice + rebutted with infographic-anchored proof
 - **3**: 1 objection addressed
 - **1**: No objections addressed; viewer's skepticism left unaddressed
+- **Exemplar quote (t=05:01)**: *"Brad, this is going to torture your token budget"* — rebutted by frame 49's cost chart.
 
 ### 5. Trust-Anchor Infographic Count
 - **5**: 2-4 purpose-built branded infographics with consistent visual language
 - **3**: 1 infographic, OR multiple but with inconsistent visual language
 - **1**: No infographics, or hand-wavy text overlays
+- **Reference set**: frames 44, 49, and 60 — captions pipeline, cost chart ($0.70/$0.82/$0.95/$1.62), platform-logo grid (extraction-report.md, Pattern 4).
 
 ### 6. Compound Cliffhanger
 - **5**: Explicit handoff with dashboard tease that drives next-video click
@@ -325,3 +358,4 @@ Score each video on these 7 criteria, **1-5 scale**.
 - **Visual context**: `extractions/brad-bonanno/visual-context.md` (398 lines, 80 frames + 279-segment caption transcript)
 - **Frames**: `extractions/brad-bonanno/frames/` (frame_0001.jpg through frame_0080.jpg)
 - **Extraction report**: `extractions/brad-bonanno/extraction-report.md`
+- **Source ledger** (claim-by-claim VERIFIED/LIKELY/UNCONFIRMED audit): `references/source-ledger.md`
