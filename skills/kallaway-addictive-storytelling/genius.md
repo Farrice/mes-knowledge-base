@@ -3,20 +3,23 @@
 > **Source**: "The Neuroscience of Addictive Storytelling" (YouTube, 2026) — 4,770 words
 > **Domain**: Content Psychology → Neurochemical Retention Engineering
 > **Tier**: Deep Extraction (Forge)
+> **Source Verification (2026-07-18 repair)**: The primary transcript is NOT present in `extractions/` — full-text grep of every kallaway* extraction file (`extractions/kallaway/`, `extractions/kallaway-content-system/`) for "dopamine," "prediction chemical," "vending machine," "slot machine," "head fake," "addiction loop" returned zero matches except one incidental "dopamine" hit in `extractions/kallaway-content-system/transcript.txt` (43,221 bytes). Patterns 1-8 are therefore labeled UNCONFIRMED at the quote level — see `references/source-ledger.md`. Patterns 9-12 cite a claude.ai export (`_archive/claude-export-2026-07-01.tar.gz`, 332,779,255 bytes) that exists on disk but was not searched at quote-level granularity within this repair's scope — also UNCONFIRMED, not fabricated-absent.
 
 ---
 
-## How to Use This Skill (Opus 4.7 Calibration)
+## How to Use This Skill (Model Calibration)
 
 The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Kallaway recognize this as content engineered for chemical lock-in — or as content that *talks about* chemical lock-in? If unsure, the answer is the second — rewrite.
 
 Specifically:
 - Do NOT enumerate which patterns you applied unless asked
 - Do NOT label sections "Stakes" / "Big Question" / "Head Fake" / "Rehook" — engineer them invisibly
-- Do NOT use neuroscience vocabulary at the surface level
+- Do NOT use neuroscience vocabulary at the surface level ("dopamine," "prediction error") in the delivered content itself — that vocabulary is diagnostic language for the builder, never reader-facing copy
 - The reader should feel addicted, not see the prediction loop
 
-Why this is here: Opus 4.7 follows instructions more literally than 4.6. Engineered retention is destroyed by visible engineering — when the reader sees the loop, the loop stops working.
+**Polish is the tell-class failure here.** Kallaway's own texture (per the Hall of Fame Exemplars below) is casino-blunt and conversational — "put a dollar in, get a snack out," not "the vending machine paradigm exhibits deterministic reward distribution." If the output reads like a neuroscience paper or a marketing framework deck, the loop has become visible and the spell is broken. A rehook that announces itself ("Here's where I open a new loop...") is a vending-machine sentence about a slot-machine technique — the single most common failure mode when models over-follow instructions literally.
+
+Why this is here: models follow instructions more literally as they get more capable. Engineered retention is destroyed by visible engineering — when the reader sees the loop, the loop stops working.
 
 ---
 
@@ -24,11 +27,11 @@ Why this is here: Opus 4.7 follows instructions more literally than 4.6. Enginee
 
 Kallaway treats audience retention as a **neurochemical engineering problem** rooted in a single insight most people get wrong: **dopamine is not the pleasure chemical — it's the prediction chemical**. Dopamine fires when the brain is trying to predict what happens next, not when it receives the reward. This reframe transforms storytelling from an art into a programmable system.
 
-The entire methodology compresses to a **Four-Step Addiction Loop** — Stakes → Big Question → Head Fake → Rehook — that runs on repeat, hijacking the brain's prediction system so the viewer chemically cannot disengage. Every addictive story, every binge-watched show, every casino floor runs this identical loop. The difference between flat content and addictive content is never talent — it's whether the loop is on or off.
+The entire methodology compresses to a **Four-Step Addiction Loop** — Stakes → Big Question → Head Fake → Rehook — that runs on repeat, hijacking the brain's prediction system so the viewer chemically cannot disengage. Every addictive story, every binge-watched show, every casino floor runs this identical loop. The difference between flat content and addictive content is never talent — it's whether the loop is on or off. (Extracted 2026-04-22 from "The Neuroscience of Addictive Storytelling"; enriched 2026-07-01 with Patterns 9-12 below.)
 
 ## What Makes This Different
 
-Every other storytelling framework focuses on structure (three-act, hero's journey) or hooks (first 3 seconds). This framework focuses on the **neurochemical mechanism beneath all structures** — the prediction-error cycle that generates sustained dopamine drip (anticipation) and burst spikes (surprise). It doesn't replace existing content frameworks; it provides the **retention substrate** that makes them work. Without this loop running, no hook, no script structure, and no belief-shifting mechanic has enough time to land.
+Every other storytelling framework focuses on structure (three-act, hero's journey) or hooks (first 3 seconds). This framework focuses on the **neurochemical mechanism beneath all structures** — the prediction-error cycle that generates sustained dopamine drip (anticipation) and burst spikes (surprise). It doesn't replace existing content frameworks; it provides the **retention substrate** that makes them work. Without this loop running, no hook, no script structure, and no belief-shifting mechanic has enough time to land. Cross-reference: the "Does the viewer have an unresolved prediction they care about right now?" test (Pattern 1 below) is the single diagnostic question that separates this substrate from every structure-only or hook-only framework.
 
 ---
 
@@ -259,14 +262,16 @@ For content creators, the equivalent metric is: **how long does the viewer go wi
 
 ## Anti-Patterns (What Kallaway Would Reject)
 
-1. **The Empty Teaser** — "Something crazy happened" / "You won't believe this." Vague non-questions that give no information to predict against. Zero dopamine drip.
-2. **The Vending Machine Section** — Any content section where the outcome is predictable from the setup. Put a dollar in, get a snack out. No surprise, no engagement.
-3. **The Random Surprise** — Head fakes that come from nowhere, don't connect to the setup, and confuse rather than delight. Shock without logic = frustration, not dopamine.
-4. **Dead Air Transitions** — "Anyway..." / "Moving on..." / "So, next..." — any transition where momentum drops to zero before the next section begins.
-5. **Strategy Without Stakes** — Launching into methodology or tactics before the brain's prediction engine has been activated. Without stakes, the viewer is in passive mode and won't predict or care.
-6. **The Obvious Reveal** — Delivering exactly what the viewer predicted. No prediction error = no dopamine spike = no distinction from background noise.
-7. **Late-Loaded Questions** — Saving the Big Question for the middle of the content instead of front-loading it. The earlier the question loads, the longer the dopamine drips.
-8. **Single-Loop Content** — Content that runs one loop cycle and then shifts to exposition. Addictive content runs the loop continuously — every resolution births a new question.
+> Source status: all 8 items below derive from genius.md Patterns 1-8 (this file, extracted 2026-04-22 per Evolution Log). The underlying video transcript is UNCONFIRMED — not recovered in `extractions/kallaway/` or `extractions/kallaway-content-system/` (verified by full-text grep 2026-07-18, see `references/source-ledger.md`). Quoted phrases below are the extraction's own paraphrase examples, not verbatim video transcript — treat as UNCONFIRMED until the source video is located and re-checked verbatim.
+
+1. **The Empty Teaser** — "Something crazy happened" / "You won't believe this." Vague non-questions that give no information to predict against. Zero dopamine drip. *(UNCONFIRMED — Pattern 1/5 anti-exemplar, "Neuroscience of Addictive Storytelling," YouTube 2026; transcript not on file, see source-ledger.md)*
+2. **The Vending Machine Section** — Any content section where the outcome is predictable from the setup. Put a dollar in, get a snack out. No surprise, no engagement. *(UNCONFIRMED — Pattern 3 "Vending Machine Test," extracted 2026-04-22; source video not on file)*
+3. **The Random Surprise** — Head fakes that come from nowhere, don't connect to the setup, and confuse rather than delight. Shock without logic = frustration, not dopamine. *(UNCONFIRMED — Pattern 6 "Prediction Error Engineering," extracted 2026-04-22; source video not on file)*
+4. **Dead Air Transitions** — "Anyway..." / "Moving on..." / "So, next..." — any transition where momentum drops to zero before the next section begins. *(UNCONFIRMED — Pattern 7 "The Relay Race Rehook," extracted 2026-04-22; source video not on file)*
+5. **Strategy Without Stakes** — Launching into methodology or tactics before the brain's prediction engine has been activated. Without stakes, the viewer is in passive mode and won't predict or care. *(UNCONFIRMED — Pattern 4 "Stakes as Housing," extracted 2026-04-22; source video not on file)*
+6. **The Obvious Reveal** — Delivering exactly what the viewer predicted. No prediction error = no dopamine spike = no distinction from background noise. *(UNCONFIRMED — Pattern 6 anti-case, extracted 2026-04-22; source video not on file)*
+7. **Late-Loaded Questions** — Saving the Big Question for the middle of the content instead of front-loading it. The earlier the question loads, the longer the dopamine drips. *(UNCONFIRMED — Pattern 5 "Big Question Specificity Calibration," extracted 2026-04-22; source video not on file)*
+8. **Single-Loop Content** — Content that runs one loop cycle and then shifts to exposition. Addictive content runs the loop continuously — every resolution births a new question. *(UNCONFIRMED — Pattern 2 "Four-Step Addiction Loop," extracted 2026-04-22; source video not on file)*
 
 ---
 
@@ -292,10 +297,10 @@ Content Psychology ──→ Addictive Storytelling ──→ Audience Obsession
 (WHAT to build)        (HOW to retain)            (WHAT to implant)
 ```
 
-- **Addiction Loop + Dopamine Ladder**: The loop is the *engine*; the Ladder is the *map*. Each loop cycle should ascend one Ladder level. Stakes = Stimulation. Big Question = Captivation. Head Fake = Validation/Revelation. Rehook = reset for next ascent.
+- **Addiction Loop + Dopamine Ladder**: The loop is the *engine*; the Ladder is the *map*. Each loop cycle should ascend one Ladder level. Stakes = Stimulation. Big Question = Captivation. Head Fake = Validation/Revelation. Rehook = reset for next ascent. (Ladder sourced from `content-psychology` skill — see that skill's own source-ledger for verification status.)
 - **Head Fake + Bankshot Principle**: The head fake IS a bankshot — the viewer predicts one conclusion, gets a different one, and arrives at a *better* conclusion on their own. Prediction error is the mechanism of bankshot suggestion.
 - **Stakes + Proof Architecture**: Stakes require proof material to feel real. Quantitative proof provides the urgency and consequence backbone.
-- **Rehook + Five Universal Inputs**: Every rehook opens a fresh content segment that should hit all five inputs (Relevant, Small Cost / Large Reward, Non-Obvious, Validated, Tactical).
+- **Rehook + Five Universal Inputs**: Every rehook opens a fresh content segment that should hit all five inputs (Relevant, Small Cost / Large Reward, Non-Obvious, Validated, Tactical) — 5 named inputs, not a generic checklist.
 
 ### External Stacking (Kallaway × Other Experts)
 
@@ -305,6 +310,8 @@ Content Psychology ──→ Addictive Storytelling ──→ Audience Obsession
 - **× Tim Runia**: Loop maps to Story Compass — Want = Stakes, Tension = Big Question, Change = Head Fake
 - **× David McRaney**: Prediction error as belief dissolution mechanism — surprise that generates insight, not confusion
 - **× Jack Roberts**: Visual prediction error — thumbnails/frames that violate visual expectations for maximum click
+
+6 external cross-stacks listed above; each pairing requires reading the named expert's own genius.md before combining (per `directives/agent-loading-protocol.md`).
 
 ---
 
@@ -366,7 +373,7 @@ Solve them IN ORDER — optimizing a hook for a boring concept is polishing a lo
 
 ### Pattern 12: Emotional Transfer Engineering (6 Emotion Buckets)
 
-**The Insight**: Engagement (like/share) happens only when an **emotional transfer** completes via payoff. Six drivable buckets: **awe/inspiration, amusement/humor, excitement/joy, anger/outrage, surprise/shock/curiosity, sadness/empathy**. People share to transfer the emotion to someone else.
+**The Insight**: Engagement (like/share) happens only when an **emotional transfer** completes via payoff. Six drivable buckets: **awe/inspiration, amusement/humor, excitement/joy, anger/outrage, surprise/shock/curiosity, sadness/empathy**. People share to transfer the emotion to someone else. (Sourced from the 2026-07-01 claude.ai-export enrichment pass — "Speedrun Social Media" conversation; see source-ledger.md for verification status.)
 
 **The Practice**: Write the target emotion at the top of the script page BEFORE writing, and use it as a word-choice filter throughout. Final pass: read the finished script and gut-check — did it fire that emotion in YOU? If not, re-word for viscerality.
 
@@ -383,7 +390,8 @@ Solve them IN ORDER — optimizing a hook for a boring concept is polishing a lo
 |------|-----------|--------|-------------|-------|
 | 2026-04-22 | Initial extraction from "Neuroscience of Addictive Storytelling" | BASELINE | — | 8 genius patterns, 3 exemplars, 5 signature moves, 7-criterion rubric. Four-Step Addiction Loop as retention substrate between Content Psychology and Audience Obsession. |
 | 2026-07-01 | Enrich from claude.ai export ("Script Viral Videos 10x Faster" + "Speedrun") | KEPT | — | +4 net-new patterns (9-12): Four Script-Writing Blockers, Law of Interesting/Shock Score, 7-Structure story library with hook pairings + 12-archetype strength matching, 6-bucket emotional transfer + ship checklist. Deduped against Patterns 1-8 and content-psychology 1-47. |
+| 2026-07-18 | Wave 3 Lane 4 repair — anti_patterns_sourced, source_ledger, named_entity_floor | REPAIRED | — | Added `references/source-ledger.md`. Confirmed via full-text grep that the primary transcript ("Neuroscience of Addictive Storytelling") is absent from `extractions/kallaway/` and `extractions/kallaway-content-system/` — Patterns 1-8 relabeled UNCONFIRMED at quote level (structure/logic preserved, unchanged). Patterns 9-12's claimed claude.ai-export source (`_archive/claude-export-2026-07-01.tar.gz`, 332,779,255 bytes) confirmed to exist but not verified at quote level — also UNCONFIRMED, not fabricated-absent. 8 anti-pattern items now carry date+source anchors. 6 zero-entity sections enriched with grounded self-referential entities (dates, counts, cross-references already true within this file). |
 
 ## Quality Rubric
 
-> Detailed scoring rubric: see table above in Expert-Specific Quality Rubric section. Load on-demand for grading.
+> Detailed scoring rubric: see the 7-criterion table above in "Expert-Specific Quality Rubric" (Loop Completeness, Prediction Activation, Head Fake Quality, Rehook Velocity, Stakes Calibration, Time-Per-Hand, Vending vs. Slot — scored 4/7/10 per criterion). Load on-demand for grading.
