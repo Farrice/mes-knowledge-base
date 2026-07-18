@@ -4,6 +4,18 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These 28 patterns are intuition primitives, not a checklist to stamp into output. Absorb the mechanics, then build a conversation or piece of copy the way Miner would build it — from the felt sequence of trust → gap → self-persuasion, not from a labeled pattern list. The test: would Jeremy Miner recognize this as theirs — a question sequence that makes the prospect sell themselves — or would he recognize it as someone using NPQ vocabulary without the underlying mechanic? If the output announces "here's a pattern interrupt" or "deploying consequence stacking," rebuild it; Miner never narrates his own machinery mid-conversation.
+
+Specifically:
+- Do NOT label sections "here's the pre-frame," "here's the binary identity lock," or number the patterns in the delivered script. Execute the move; never announce it.
+- Do NOT let the prospect (or reader) ever hear a flat statement where a question was the vehicle — see Pattern 3 and Pattern 15. The tell of amateur NPQ output is declarative sentences doing what a question should.
+- His texture is spoken, verbally paced, slightly rough — dots and ellipses marking real pauses ("What's caused you to feel... like that might not... be enough?"), not polished paragraph copy. Polish-is-the-tell: if every question resolves in a clean, grammatically tidy line, it reads as written-at-a-desk rather than spoken-to-a-human, and it will not carry the tonal work Pattern 23 depends on.
+- Keep tone mapping invisible in the delivered output — the annotation (concerned/challenging/playful) is a build-time tool for you, not something that survives into a finished script the prospect would hear.
+
+---
+
 ## Genius Patterns
 
 Decoded virtuoso behaviors from the NPQ (Neuro Emotional Persuasion Questions) methodology.
@@ -687,6 +699,20 @@ The danger zone is Stage 2—when you're so focused on technique that you lose a
 *   **The "Future Consequence Loop"**: Instead of asking "What do you want?", he asks "What happens if nothing changes?" and then iteratively asks "And what does *that* lead to?" until emotional bedrock is hit. → **Deploy when**: Prospect lacks urgency, focuses on superficial problems, or is primarily concerned with cost. (Pattern 6)
 *   **The "Quiet Challenge" Interrupt**: When enthusiasm, agreement, or a hard sell is expected, he adopts a calm, almost skeptical tone, stating "Look, I'm not sure if this is even right for you" or similar disarming phrases. → **Deploy when**: Prospect is exhibiting high resistance, skepticism, or expecting a traditional sales pitch. (Pattern 7)
 *   **The "Result-First Opener"**: Initiates nearly every interaction by articulating the prospect's desired end-state, rather than their current problem, as the reason for their engagement. → **Deploy when**: Starting a new conversation (especially a discovery call) or re-engaging with a lead, to immediately shift focus to outcome and value. (Pattern 16)
+
+## Anti-Patterns
+
+Jeremy Miner's system fails immediately when these are violated — each is grounded against the extraction transcripts, not inferred. Run every output against this list before delivery (this is the list `SKILL.md § Key Files` and every workflow's Anti-Pattern Check point back to).
+
+- **Never open with a "meaty" problem question before trust exists.** Miner is explicit that credibility sits near zero in the first exchanges: "how much credibility and trust do I have in the first 30 seconds of meeting a new prospect? How much?" (source: extractions/jeremy-miner-psych-triggers/transcript.txt — ties to Pattern 16, NPQ Connection Questions).
+- **Never answer a price objection by justifying the price.** Miner reframes to comparative cost instead of defending the number: "which is more expensive? Like, is it more expensive to get, you know, the funding together..." (source: extractions/jeremy-miner-psych-triggers/transcript.txt — ties to Pattern 18, Price-to-Results Reframe).
+- **Never deploy the Challenging tone at the start of a conversation.** It only lands once rapport exists mid-conversation — Miner states the tone map directly: "challenging tone. We're never going to do that at the beginning" (source: extractions/jeremy-miner-psych-triggers/transcript.txt — ties to Pattern 23, Five Tone Types Mastery).
+- **Never call a competitor's work "great" or "horrible."** Praise reinforces the prospect's existing frame; insults read as bias. Miner's own language in the recorded frames stays neutral — "fairly decent," "not horrible" — letting tone (not word choice) seed the doubt (source: extractions/jeremy-miner-prospect-yes/transcript.txt — ties to Pattern 28, Neutral Language & Doubt Seeding).
+- **Never tell the prospect directly what's wrong with their situation.** The self-persuasion engine depends on THEM saying it out loud: "who is more persuasive? You or them to themselves? Them. This is called self-persu[asion]" (source: extractions/jeremy-miner-psych-triggers/transcript.txt — ties to Pattern 24, Self-Persuasion Engine).
+- **Never introduce a framework, price, or concept "cold."** Miner precedes every reveal with a pre-frame that elevates perceived value before the content lands: "what I'm about to share with you..." (source: extractions/jeremy-miner-psych-triggers/transcript.txt — ties to Pattern 3, Pre-Frame Everything).
+- **Never ask two important questions back-to-back without a pause.** Verbal pacing (the "..." markers) is load-bearing — speed collapses the internalization the pause is designed to force (source: extractions/jeremy-miner-psych-triggers/transcript.txt — ties to Hidden Knowledge 9, Verbal Pacing Controls Internalization).
+
+---
 
 ## Quality Rubric
 

@@ -161,6 +161,20 @@ real work visible."
 
 ---
 
+## Output Format (Additive to v1 Output Format)
+
+Stage 0 produces a standalone identity dossier that precedes the v1 conversation script. Deliver both:
+
+1. **Identity Cartography Dossier** (new, this variant) — the five Stage 0 templates filled in for THIS prospect:
+   - Protected Identity (role + defining belief + defense triggers)
+   - Shadow Identity (aspiration + admission barrier)
+   - Identity Bridge (single reframe sentence connecting the two)
+   - Emotional Residue Chain (Q1→Q5 with expected residue emotion at each link)
+   - Objection Identity Map (objection → identity source → prevention frame, for each predicted objection)
+2. **Full Conversation Script** (per v1 `## Output Format`) — but every stage now explicitly cites which Step 0 output it draws from (e.g., "Stage 1 opening avoids defense trigger identified in Step 0.1: '[trigger]'").
+
+The dossier is not optional scaffolding — a script delivered without it fails this variant's contract even if the script itself is strong NPQ work.
+
 ## Quality Gate (Additive to v1 gate)
 
 - [ ] Is the Protected Identity specific to THIS prospect, not generic?
