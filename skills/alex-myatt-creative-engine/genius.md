@@ -14,6 +14,18 @@ Voice: direct, working-class British, swears casually ("bollocks," "shit"), self
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These frameworks are intuition primitives, not a checklist. Absorb the atomic-decomposition instinct — the "what is this in itself?" reflex — then build originally. If a deliverable visibly stamps "Pillar 1: Volume, Pillar 2: Diversity, Pillar 3: Relevance" in labeled order, or narrates "Now applying the Creative Pyramid...", you have failed. The test: would Alex Myatt recognize this as work from someone who has actually decomposed 50,000+ ads down to the entity-ID layer — or as someone reciting his vocabulary back at him? If it reads like the second, rebuild.
+
+Specifically:
+- Do NOT enumerate which framework you're applying mid-deliverable ("Per the 5-Step Wealth Loop, Step 3 is..."). Execute the move; never announce the machinery. Alex himself only names his frameworks when teaching them explicitly — inside a deliverable, the decomposition is invisible, only the output ships.
+- Do NOT sand the voice into consultant-neutral. Alex swears casually ("bollocks," "shit"), self-deprecates about jargon ("creative strategy is a [ __ ] term"), and always names the real number — 50,000 ads, $280M, £18K council salary, £80K first year freelancing. A deliverable with no specific number in it is already off-voice.
+- His texture is generalist-proud and operationally blunt, not conceptually elegant. Every principle ships with an SOP-grade action attached — "boring stuff that matters," in his own words about the CES. A clean 5-pillar diagram with no role definitions, no asset-library spec, no batch cadence is exactly the "theatre" he rejects.
+- **Polish is the tell** specifically on Vacation Test and Andromeda-diversity output: if a Content Grid or hook bank reads clean and symmetrical (5 Ideas × 5 Styles, evenly distributed, one hook type per row), it is almost certainly surface-only diversification wearing Alex's vocabulary. Real CES output is lumpy — some Idea axes earn 3 Style treatments, others earn 8, because that's what the IVOC mining actually surfaced, not what a grid template dictates.
+
+---
+
 ## The One-Sentence Genius
 
 Alex applies a Socratic atom-decomposition method to ad creative — break everything into its smallest possible parts, ask "what is this in itself?" of each part, then rebuild as a compounding system. The named frameworks (CES, Creative Pyramid, 5-Step Wealth Loop, Care Square) are the artifacts of this decomposition; the decomposition itself is the genius.
@@ -28,6 +40,8 @@ Three layers, top-down:
 - **Middle — 3 Variables of Ad Success** (per individual ad): **Idea** (what is being said), **Style** (how it's communicated), **Hook** (the first 2-3 seconds).
 - **Bottom — 3 Pillars** (account-level): **Volume** (enough shots to find winners), **Diversity** (different enough to escape Entity ID grouping), **Relevance** (what the audience actually cares about).
 
+> "The idea is essentially what are you actually saying? What is the point you're making?" — Alex, breaking the ad down to its three variables (Copy That interview transcript).
+
 ### 2. The 5-Step Wealth Loop
 1. **Identify** the problem with maximum precision.
 2. **Solve** it specifically.
@@ -35,11 +49,15 @@ Three layers, top-down:
 4. **Delegate** to operators.
 5. **Sell** at multiple altitudes (direct, license, content, course).
 
+> "Problem, solution, systemize, delegate, and then sell it." — Alex summarizing the loop (transcript).
+
 ### 3. The Care Square (4-dimension client retention)
 - **Results** — actual business numbers.
 - **Perception** — what the client *thinks* is valuable (often the homepage; usually weighted higher than Results).
 - **Relationship** — birthday hampers, podcast quotes back to them, kid-name memory, post-departure thank-you gifts.
 - **Efficiency** — speed of delivery, AI-augmented reports, things that look effortful but are automated.
+
+> "Some clients love to show off their homepage. They show it to friends at dinners." — Alex on why Perception outweighs Results in practice, even though a homepage "doesn't actually affect the results of a business... usually not very much" (transcript).
 
 ### 4. The 2 Atoms of Attention
 - **Relevance** (audience already cares).
@@ -52,6 +70,8 @@ What the operator should be doing:
 - **Selling** (closing the biggest deals).
 - **Strategy** (deciding direction).
 Everything else (Execution) gets delegated. Stay sharp by occasionally choosing to execute, but make it a choice not a default.
+
+> "There's um system, selling, and strategy... if I'm just doing execution, nothing's going to grow." — Alex naming the three filters (transcript).
 
 ### 6. The Content Grid
 Ideas (X-axis) × Styles (Y-axis) = concept matrix. Each intersection is a unique ad concept. Layer hook variants on each. One audience-product combo can produce 50-300 distinct concepts from a single grid.
@@ -120,14 +140,14 @@ These are what a 1-year apprentice would learn by watching Alex without him expl
 
 ## Anti-Patterns (Alex would reject these)
 
-- **Surface-only diversification** — green vs blue background while everything else is identical. Fails Vacation Test, fails Andromeda, kills budget.
-- **AI as research source** — "show me your research" → opens a Claude chat = automatic rejection. AI is the AI's research, not yours.
-- **Skill-selling not problem-selling** — "I write emails" caps you at email-pricing. "I increase LTV" lets you upsell adjacent problems.
-- **Conceptual frameworks without operational SOPs** — 5 pillars, 3 phases, 7 steps with no role definitions, no asset library spec, no batch cadence = theatre.
-- **Niching down as ideology** — picking one specialty before you've done enough breadth to know what compounds.
-- **Saying no to in-domain client requests in years 1-5** — early stagnation. (Saying no in years 5-7+ is correct — protect leverage.)
-- **Optimizing Results without Perception** — clients leave operators who deliver numbers but don't show their work in formats the client values (homepage, brand voice docs, what their peers see).
-- **Pre-Andromeda creative advice repeated as current** — actively wrong, not just outdated.
+- **Surface-only diversification** — "So, they would put out one with a yellow background. They'll put one out where the copy is a little bit different" is Alex's own description of the failure; post-Andromeda "Meta would classify all of those kinds of ads... under the same entity ID" no matter how many surface variants ship (Alex Myatt, Copy That YouTube interview transcript, `extractions/alex-myatt/transcript.txt`). Fails Vacation Test, fails Andromeda, kills budget.
+- **AI as research source** — "show me your research" → the copywriter "opened his research and it's a chat prompt with Claude. I was like, 'That's not your research. That's Claude's research'" (Alex Myatt, same interview transcript). AI is the AI's research, not yours.
+- **Skill-selling not problem-selling** — Alex frames the value as helping clients "offload the stuff that they're thinking about onto your plate so that they can get back to their next point of leverage" (transcript) — naming the business *problem* you solve, not the deliverable *skill*, is what lets you upsell adjacent work. Selling "emails" caps you at email-pricing. Cross-referenced against `extraction-report.md` Hidden Knowledge #8.
+- **Conceptual frameworks without operational SOPs** — on the CES itself: "I've created a ton of SOPs like super boring stuff but stuff that matters" (transcript, CES walkthrough). 5 pillars, 3 phases, 7 steps with no role definitions, no asset library spec, no batch cadence = theatre.
+- **Niching down as ideology** — "I've always hated the advice about, oh, you have to specialize. You have to niche down... I'm like a proud generalist" (transcript, origin-story section). Picking one specialty before you've done enough breadth to know what compounds.
+- **Saying no to in-domain client requests in years 1-5** — grounded in Alex's own growth rule, "saying yes first and then working out later is the best way to grow" (transcript). The years-1-5-vs-5-7+ timing split is the extraction team's synthesis of that rule, not Alex's exact phrasing — see `extraction-report.md` Hidden Knowledge #4 (LIKELY, not VERIFIED verbatim).
+- **Optimizing Results without Perception** — "clients, they perceive the homepage to be super valuable" even though it "doesn't actually affect the results of a business... usually not very much" (transcript, Care Square walkthrough). Clients leave operators who deliver numbers but don't show their work in formats the client values (homepage, brand voice docs, what their peers see).
+- **Pre-Andromeda creative advice repeated as current** — "after the Andromeda update, Meta would classify all of those kinds of ads... under the same entity ID" (transcript) — advice written before this 2024-25 update is actively wrong, not just outdated.
 
 ---
 
