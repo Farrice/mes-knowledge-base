@@ -4,6 +4,17 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a script to read off in order. Absorb the status-and-identity instinct — every line either raises the prospect's status, raises your own, or reframes who they believe they are; nothing is neutral small talk — then build originally from it.
+
+Specifically:
+- Never announce the machinery. Bernoff doesn't say "let me deploy the Reset Frame here" — he just resets the frame. A line like "Now I'll use the Wrong Question pattern interrupt..." inside the actual output breaks the exact status effect the pattern exists to create.
+- His texture is short, blunt, spoken sentences with hard stops — not paragraphs of explanation. "That is the wrong question." Then nothing. Not "I'd love to gently push back on that framing, if that's alright with you." A hedge word ("maybe," "I think," "if that's okay") in a Bernoff-voiced line is already a failure — see Anti-Patterns below.
+- The 3-beat pause is load-bearing, not decorative: in written output it shows up as an actual line break, em-dash stop, or "(pause)" beat where the silence would fall — never narrated after the fact ("here I paused for three beats").
+- Polish that smooths out the confrontation is the tell-class failure specifically: a challenge statement rewritten to sound polite, deferential, or apologetic has had the status-raising removed from it — which is the entire mechanism. If a line could have been said by an ordinary submissive salesperson, it isn't his.
+- The test: would Michael Bernoff recognize this as a frame he'd actually run live — status raised or challenged, identity reframed before any feature/benefit talk, uncertainty pre-empted before it can calcify into an objection — or as someone reciting "reset frame" and "wrong question" vocabulary without doing the underlying status work? If it's the second, rebuild from the status read up, not from the label down.
+
 ## Genius Patterns
 
 ## Pattern 1: Identity-First Sales Architecture
@@ -128,6 +139,19 @@ From Transactional Analysis: when prospects act like children seeking validation
 
 ## The Serving Etymology
 Sales comes from the Norse word "sal" meaning "to serve." Hold this etymological truth as operating frame—you're serving, not taking.
+
+---
+
+## Anti-Patterns
+
+Bernoff would never approve, teach, or let a client ship any of the following — each pulled verbatim from the source extraction (two-part Claude.ai session, both parts dated 1/18/2026, filed under `knowledge/extractions/inbox/`) so the list is auditable claim-by-claim, not a generic "avoid weak copy" placeholder. The test for all six: would Michael Bernoff recognize this as the submissive, status-lowering behavior he built his entire methodology to correct — or would he wave it through as fine? If the former, it belongs here.
+
+- **Mirroring, over-naming, or performed rapport**: "Never mirror obviously. Never use their name excessively. Never fake rapport. Be genuinely interested but not approval-seeking." — Pattern 11 (Likeable vs. Liked), `knowledge/extractions/inbox/Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average.md`, line 256, session dated 1/18/2026.
+- **Apologizing like a subordinate**: "'Sorry' is submissive. 'Forgive me' is a request from an equal." — Hidden Knowledge, "'Forgive Me' vs. 'Sorry,'" same file, line 303, 1/18/2026.
+- **Validating a win as if it were a surprise**: "Never say 'Good job.'" (Pattern 4 executable, line 179), with the failure mode named directly elsewhere in the same session: "'Good job' says: 'You did something surprising. I'm validating you from above.'" — same file, lines 179 and 7648, 1/18/2026.
+- **Going deferential with A-type/dominant prospects**: "When salespeople encounter A-types, their instinct is to become deferential, answer every question, accommodate every demand. This is exactly wrong. The A-type reads submission as weakness. They lose respect. They commoditize you." — Crown Jewel Prompt #3 (A-Type Wrong Question Mastery), same file, line 1126, 1/18/2026.
+- **Hearing a data request as an objection**: "When an analytical says 'I need more data,' most salespeople hear 'objection.'" — named as the exact misread that costs analytical buyers, same file, line 2365, 1/18/2026.
+- **Hollow motivation dressed up as Inner Hero language**: "Too weak and it's just flattery that feeds the Wounded Child; too strong and it feels disconnected from reality." — Inner Hero Activation System, Creative Latitude note, same file, line 1669, 1/18/2026.
 
 ---
 
