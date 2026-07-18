@@ -20,7 +20,10 @@ import time
 import uuid
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-LOCK = os.path.join(ROOT, ".agent", "session.lock")
+# SESSION_LOCK_PATH override exists for test isolation ONLY (verify_mission_runner
+# fixtures were 5/5-or-0/5 depending on the live tree's lock state, 2026-07-18) —
+# never set it in production runs.
+LOCK = os.environ.get("SESSION_LOCK_PATH") or os.path.join(ROOT, ".agent", "session.lock")
 TTL = 45 * 60  # heartbeat older than this = stale, claimable
 
 
