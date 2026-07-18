@@ -4,6 +4,18 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These 33 patterns are intuition primitives, not a checklist. Absorb them, then build a specific plan — a niche blueprint that stamps "Pattern 1, Pattern 15, Pattern 25" in visible order has failed before it starts. The test: would Adam Enfroy recognize this as a real hobby-niche business plan he'd actually run — or as someone using affiliate-marketing vocabulary without ever having scanned a SERP? If it reads like the second, rebuild it.
+
+Specifically:
+- Do NOT label sections "here's the SERP traffic-light check" or "here's the infinite keyword loop." Run the check, produce the routing decision, move on. Naming the machinery on the page is itself the tell.
+- Enfroy's texture is unglamorous and numbers-forward, never a hype-guru voice. Content is "a science, not an art form" — assembled from proven templates (Hidden Knowledge #8), not composed as prose. A plan that reads like inspirational copy instead of a spreadsheet with sessions, RPM, and day-45 checkpoints is off-voice.
+- Polish is the tell-class warning: a comparison post with five stars across the board and no "who should NOT buy this" section (Pattern 21), a niche pitch with zero real SERP color (green/yellow/red, Pattern 24), or affiliate links clustered at the bottom instead of embedded as Step 1 (Pattern 29) — all read as generic AI-affiliate slop, the exact failure mode Pattern 20 and Pattern 33 exist to prevent.
+- When in doubt, run the Day-45 Kill/Pivot instinct on your own output: if it can't state continue / adjust / pivot with a concrete reason (Pattern 33), it's not finished.
+
+---
+
 ## Genius Patterns
 
 33 virtuoso patterns for affiliate marketing success — 14 foundational + 10 from transcript analysis + 9 from the claude.ai export conversations (2026-07-01, see section below).
@@ -13,6 +25,7 @@
 ## Pattern 1: Niche Selection Rigor
 **Execute**: Validate niche before committing—check affiliate program availability, search volume, competition.
 **Success Metric**: Niche passes all 5 validation criteria before content creation.
+**Grounding**: Search-volume floor mirrors Pattern 16's Infinite Keyword Loop bar — target keywords need 1,000+ monthly searches, and affiliate-program availability should already clear the Three-Program Affiliate Discipline in Pattern 19.
 
 ## Pattern 2: Topical Authority Obsession
 **Execute**: Go deep on one topic before expanding. 50+ pieces on core topic builds authority.
@@ -25,6 +38,7 @@
 ## Pattern 4: YouTube + Written Synergy
 **Execute**: Same topic, two formats. Each drives traffic to the other.
 **Success Metric**: Both channels growing; cross-referral working.
+**Grounding**: Video is the "one secondary platform" from Pattern 23 for tutorial niches — every YouTube description should carry the affiliate link plus a spoken call-out in the first two minutes (Pattern 29), and the same broad keyword can seed 20+ blog variations via Pattern 16's Infinite Keyword Loop.
 
 ## Pattern 5: Winner Identification
 **Execute**: Track performance, identify winners within 30-60 days, double down.
@@ -41,6 +55,7 @@
 ## Pattern 8: Revenue Stream Architecture
 **Execute**: Layer multiple revenue streams: affiliates + ads + products + sponsorships.
 **Success Metric**: 3+ revenue streams active.
+**Grounding**: Revenue math varies by stream type (Pattern 27) — recurring SaaS commissions run near 30% monthly and compound for years, while a single physical-product link caps around $2-5K before buyers move to a sales process, which is exactly why no one stream should carry the whole business.
 
 ## Pattern 9: Content Multiplication
 **Execute**: 1 piece → 10 deployments. Article → video → shorts → tweets → email.
@@ -49,22 +64,27 @@
 ## Pattern 10: Conversion Narrative
 **Execute**: Tell transformation stories, not features. Show before/after.
 **Success Metric**: Emotional connection + clear value + action.
+**Grounding**: Anchor every transformation story to the same positioning formula Pattern 32 uses: "I help aspiring [X] do [Y] with my three-step [Z] method" — narrative structure, not a feature dump.
 
 ## Pattern 11: Market Signal Reading
 **Execute**: Monitor search trends, competitor moves, platform changes.
 **Success Metric**: Adapt strategy quarterly based on signals.
+**Grounding**: This is the same discipline behind Pattern 33's checkpoint — "It's better to learn this on day 45 than day 365" — quarterly signal-reading is the macro version of the day-45 kill/pivot decision.
 
 ## Pattern 12: Buyer Psychology Integration
 **Execute**: Understand buyer journey, meet them where they are.
 **Success Metric**: Content mapped to each buyer stage.
+**Grounding**: Map buyer stages directly onto the Three-Tier Content Funnel split in Pattern 18 — Discovery at 60% of early content, Education at 20%, Conversion at 10%.
 
 ## Pattern 13: Attention Headline Engineering
 **Execute**: Stop scroll with hooks; earn read with value.
 **Success Metric**: High CTR on headlines across platforms.
+**Grounding**: Same CTR discipline as Pattern 6's link-placement audits, which target a 20%+ lift — the headline earns the first click, the link earns the last.
 
 ## Pattern 14: Omnichannel Authority
 **Execute**: Present everywhere your audience looks.
 **Success Metric**: Visible on 5+ platforms with consistent messaging.
+**Grounding**: Read this against Pattern 23's One Platform Rule, which narrows "everywhere your audience looks" down to exactly one added channel — Pinterest or YouTube — expected to reach 20-30% of total traffic within 6 months. In practice, omnichannel means blog plus one platform, not five channels run thin.
 
 ---
 
@@ -122,17 +142,17 @@
 
 ## Hidden Knowledge
 
-9 tacit insights for affiliate marketing mastery (6 foundational + 3 from the export conversations, appended in the section below).
+9 tacit insights for affiliate marketing mastery (6 foundational + 3 from the claude.ai export conversations dated 2026-07-01, appended in the section below).
 
 ---
 
 ## 1. It's a Business, Not Passive Income
 **Insight**: Affiliate marketing that works requires business mindset—consistent effort, strategic investment, long-term thinking.
-**Deploy**: Treat it as full-time business, not side hustle.
+**Deploy**: Treat it as full-time business, not side hustle — the same logic behind Insight 7: "it's for printing money and saving that money over time," not building something to flip.
 
 ## 2. AI Is the Content Multiplier
 **Insight**: AI lets solopreneurs compete with media companies on content velocity. First draft in minutes, not hours.
-**Deploy**: Use AI for structure and speed, add human expertise.
+**Deploy**: Use AI for structure and speed, add human expertise — the same Human Bookends discipline (Pattern 20) that gets each post down to 45-90 minutes of human time instead of 4-6 hours.
 
 ## 3. Topical Authority > Broad Coverage
 **Insight**: Google rewards depth over breadth. 50 articles on one topic beats 50 across many.
@@ -140,7 +160,7 @@
 
 ## 4. YouTube Changes Everything
 **Insight**: Video creates trust faster than text. YouTube + blog creates synergy explosion.
-**Deploy**: Launch YouTube alongside blog from day one.
+**Deploy**: Launch YouTube alongside blog from day one — it's the one secondary platform in Pattern 23, expected to reach 20-30% of total traffic within 6 months once it's live.
 
 ## 5. Winners Fund Everything
 **Insight**: Top 20% of content generates 80%+ of revenue. Find winners fast, double down.
@@ -177,6 +197,21 @@
 *   Ignores Topical Authority Obsession (Pattern 2) by spreading too thin across unrelated topics.
 *   Disregards Three-Program Affiliate Discipline (Pattern 19) by scattering efforts across too many programs, leading to zero deep expertise.
 *   No Ad Revenue Floor Strategy (Pattern 17) or Traffic Diversification (Pattern 23), leading to unsustainable reliance on unreliable affiliate clicks.
+
+## Sourced Anti-Patterns (Attribution Ledger)
+
+Every anti-pattern below already existed inline inside a Pattern above (2026 Transcript Analysis batch, Patterns 15-24; claude.ai export batch dated 2026-07-01, Patterns 25-33). Reformatted here as a flat, attributed list per the skill-craft standard. No raw transcript or export file for Adam Enfroy exists anywhere in this repo's `extractions/` directory (verified 2026-07-17 via directory listing of all 193 entries plus `grep -rli "enfroy" extractions/`, zero hits) — every attribution below is **UNCONFIRMED** at the verbatim-quote level pending the primary source; the pattern content itself was authored in-repo before this repair and is preserved unchanged. Full breakdown: `references/source-ledger.md`.
+
+- Chasing finance/insurance niches for high RPMs without genuine creator interest, which burns the creator out by month 4 (Pattern 15, "2026 Transcript Analysis" batch; **UNCONFIRMED** — no transcript file located, see source-ledger.md).
+- Writing random, disconnected blog posts with no systematic keyword framework instead of one Infinite Keyword Loop (Pattern 16, 2026 transcript analysis; **UNCONFIRMED**, source-ledger.md).
+- Relying solely on affiliate commissions and ignoring Mediavine-style display ad revenue, the passive income floor (Pattern 17, 2026 transcript analysis; **UNCONFIRMED**, source-ledger.md).
+- Publishing all product reviews with zero top-of-funnel traffic, or all informational posts with zero conversion path — both break the Three-Tier Content Funnel (Pattern 18, 2026 transcript analysis; **UNCONFIRMED**, source-ledger.md).
+- Signing up for 15 affiliate networks and scattering links across all of them instead of three focused programs (Pattern 19, 2026 transcript analysis; **UNCONFIRMED**, source-ledger.md).
+- Publishing full-AI-generated drafts with no human bookends, or full-human drafts too slow to compete — both violate the Human Bookends workflow (Pattern 20, 2026 transcript analysis; **UNCONFIRMED**, source-ledger.md).
+- Ranking a $5,000 flagship product #1 in a comparison post for the bigger commission instead of the higher-converting mid-priced pick (Pattern 28, claude.ai export conversations, 2026-07-01; **UNCONFIRMED** — export file not located in repo, see source-ledger.md).
+- Joining fifteen affiliate dashboards before publishing post #1, or abandoning a program at the first rejection instead of a direct follow-up email (Pattern 30, claude.ai export conversations, 2026-07-01; **UNCONFIRMED**, source-ledger.md).
+
+---
 
 ## Signature Moves
 
