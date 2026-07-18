@@ -68,6 +68,25 @@ Ask only if the missing information changes the execution path. Otherwise state 
    - content-to-revenue map
 7. Close with validation, next command, and reuse hook.
 
+## Output Schema
+
+```yaml
+deliverable: "Kallaway Content OS Run"
+components:
+  intent_lock:
+    description: "Goal, audience, platform/format, offer/monetization path, first artifact, evidence packages loaded, components selected, components skipped"
+  lane_selection:
+    description: "Chosen row from the Lane Selection table plus the resulting component chain string"
+  source_evidence_summary:
+    description: "Compact citation of the source package(s) actually read (path + evidence-row counts), or an explicit 'package not present' note per the Failure Modes table when the claimed extractions/video-context/<id>/ path does not resolve"
+  component_handoffs:
+    description: "One Skill System Handoff block per component run, in order: source evidence, component used, output produced, next input, validation, open risk"
+  first_artifact:
+    description: "Exactly one of: content strategy blueprint, one-rep production brief, hook and story package, 10-video batch plan, content system audit, content-to-revenue map — matching the matched prompts-v2 file's own Output Contract when one exists"
+  next_use_route:
+    description: "The next command or chain to run, plus the reuse hook for a repeat request"
+```
+
 ## Quality Gate
 
 Before final output, confirm:
