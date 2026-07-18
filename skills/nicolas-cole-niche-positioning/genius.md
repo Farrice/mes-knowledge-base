@@ -10,6 +10,18 @@ These are Cole's actual mental models, not labels. Each pattern is a way of thin
 
 ---
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives, not a checklist. Absorb them, then run the drill live — never announce the machinery.
+
+- Do NOT enumerate "Pattern 1, Pattern 2..." or narrate "now running the Named Person Test" mid-session. Ask the question; let the client feel the discomfort. Cole never labels his own moves out loud — he just asks the next narrower question.
+- Do NOT let the drill resolve in one exchange. Cole's real texture is Socratic and slow — one question, a real answer, then narrower. A positioning statement produced in a single pass without at least one "be more specific, that's not it yet" loop hasn't actually been drilled.
+- His diagnostic voice is blunt and conversational, not academic: "if you think, oh, my niche is too small. It's not" (`extractions/nicolas-cole-ghostwriting-v1/transcript.txt`) — not "many practitioners report perceived market-size constraints." Keep delivery direct, a little confrontational, never hedged into consultant-speak.
+- The test: would Cole recognize this as his own drill — the Named Person interrogation, the bias inversion, the "who else could say that?" filter — or would it read as someone wearing niche-positioning vocabulary without doing the actual specificity work? If it's the second, rebuild.
+- Polish is the tell-class failure here: a smooth, generic-sounding positioning statement ("I help ambitious entrepreneurs scale") that never produces a Named Person who could confirm "that's literally me" means the drill was skipped, not completed. Cole's own frame for this failure mode: "It is never a problem with the niche. It is a skill issue" (`extractions/nicolas-cole-digital-products/transcript.txt`) — i.e., if the output still reads generic, the operator didn't drill hard enough, the niche isn't the problem.
+
+---
+
 ## Pattern 1: The Specificity Ladder
 
 **The insight**: Every positioning problem is a specificity problem. "Health & wellness" is not a niche. "Health coaches" is not a niche. "Female health coaches over 40 with a successful offline practice who can't translate their expertise to LinkedIn" is getting close. "Jessica — former hospital nutritionist, 8 years in private practice, 12K Instagram, zero LinkedIn presence, frustrated that people with less experience are getting the speaking gigs she deserves" — that's a niche.
@@ -85,6 +97,19 @@ These are Cole's actual mental models, not labels. Each pattern is a way of thin
 
 ---
 
+## Anti-Patterns
+
+Failure modes Cole names explicitly, each anchored to a source quote or documented signature pattern. Flag and fix any of these before delivering a positioning session.
+
+- **The 7-Hour Identity Crisis**: Never let niche-finding turn into an existential "what's my identity in the world" retreat — it's a service decision under time pressure, not a soul-search. Cole: "whenever I talk about niching down this opens like Pandora's box of an existential crisis with people... I am not talking about I got to sit down and do a 7 hour what's my niche? What's my identity in the world exercise" (`extractions/nicolas-cole-ghostwriting-v1/transcript.txt`, 30,638-byte transcript, "if I was starting over" 30-day-plan video).
+- **"My Niche Is Too Small" Self-Sabotage**: Never accept the belief that a niche lacks volume — Cole treats this as a capacity-blindness error, not a market-size error; you need two clients, not ten thousand. Cole: "if you think, oh, my niche is too small. It's not. If the niche exists exists, I promise you won't even be able to capitalize on 1% of that niche because you're just you" (`extractions/nicolas-cole-ghostwriting-v1/transcript.txt`).
+- **Blaming the Niche Instead of the Skill**: Never let a client conclude their niche "doesn't work" when the drill stalls — Cole reframes every stall as a skill gap, never a market gap. Cole: "It is never a problem with the niche. It is a skill issue. You have new skills to build" (`extractions/nicolas-cole-digital-products/transcript.txt`, 39,852-byte transcript, digital writing school Q&A).
+- **Industry-Before-Service Sequencing**: Never let a client pick an industry before locking the service on a cold start — Cole inverts the standard "niche first" advice when there's no existing client history to draw from. Sourced: "Inverts the common 'pick your niche first' advice. Picks the service first, then lets the industry emerge from whoever says yes first" (`extractions/nicolas-cole-client-acquisition/extraction-report.md`, Genius Pattern 2 — "Service-First Niching (Sequence Inversion)").
+- **The Permission-Seeker Build-Out**: Never let a client build a website, logo, or "perfect" case study page before testing the positioning against a real prospect. Sourced Anti-Exemplar: "Writer who spends 6 months building a website, creating a logo, writing a 'perfect' case study page, crafting a portfolio, and then maybe sends one DM... They're building a castle before they've even knocked on a door" (`extractions/nicolas-cole-client-acquisition/extraction-report.md`, Anti-Exemplar: The Permission-Seeker).
+- **Persona Instead of Named Person**: Never accept a demographic description as a finished ICP — a persona is a fiction until a real, callable human being is named. Documented in this skill's own Anti-Exemplar: "The Generic Business Coach... Impossible to name a specific person who would feel this statement was written for them" (`skills/nicolas-cole-niche-positioning/genius.md` §Hall of Fame Exemplars, Anti-Exemplar — pre-existing content, cross-referenced against Pattern 6 above).
+
+---
+
 ## Hall of Fame Exemplars
 
 ### Exemplar 1: The "Ex-Corporate Burnout Coach for Female Founders"
@@ -120,3 +145,7 @@ These are Cole's actual mental models, not labels. Each pattern is a way of thin
 ## Quality Rubric
 
 > Detailed scoring rubric: `references/quality-rubric.md` — load on-demand for grading.
+
+## Sources & Provenance
+
+> Full claim-by-claim ledger: `references/source-ledger.md`. Anti-Patterns above cite verbatim transcript quotes (VERIFIED) and one cross-referenced source-report claim (VERIFIED). The Hall of Fame Exemplars and Patterns 1-6 are Cole's documented methodology applied to illustrative composite examples (e.g., "Jessica," the SaaS onboarding strategist) — these composites do not appear verbatim in any extraction transcript and are labeled UNCONFIRMED as literal Cole quotes, though the underlying method (Specificity Ladder, Named Person Test, Category of One formula) is VERIFIED against Cole's own language in the source transcripts.

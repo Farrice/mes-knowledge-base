@@ -76,18 +76,24 @@ Cole generates 3 variants from the same core, each leaning into a different unfa
 
 ---
 
-## Output
+## Output Schema
 
-1. **Final positioning statement** (Category of One)
-2. **3 variants** (A, B, C from Round 5)
-3. **Competitor test result**: Who cannot say this, and why
-4. **Named Person confirmation**: Would [Named Person] recognize themselves?
+This workflow consumes `named_person` and `positioning_material` from `01-specificity-drill.md`'s Output Schema. Its own deliverable is a locked statement plus angle variants — not raw drill material.
 
-This output feeds directly into:
-- LinkedIn headline
-- About section positioning
-- Content angle for first 90 days
-- Ghostwriting service offer framing
+| Field | Type | Required | Description |
+|---|---|---|---|
+| `positioning_statement.x` | string | Yes | The Named-Person-specific audience clause, locked in Round 1 (must pass "that's literally me") |
+| `positioning_statement.y` | string | Yes | The real 11pm-frustration outcome from Round 2, not the polite-company version |
+| `positioning_statement.z` | string | Yes | The lived-experience mechanism from Round 3 — fails if it's a swappable category label ("content strategy") rather than personal |
+| `positioning_statement.full_sentence` | string | Yes | The assembled "I help X achieve Y through Z" statement |
+| `variants.A_lived_experience` | string | Yes | Variant leading with insider knowledge |
+| `variants.B_transformation` | string | Yes | Variant leading with the outcome |
+| `variants.C_contrast` | string | Yes | Variant leading with contrast vs. failed alternatives |
+| `competitor_test_result.pass` | boolean | Yes | Whether the Round 4 competitor test was passed (no top-3 competitor could truthfully say the sentence) |
+| `competitor_test_result.reasoning` | string | Yes | Which competitors cannot say it, and specifically why (the Z-clause is what disqualifies them) |
+| `named_person_confirmation` | boolean + string | Yes | Would [Named Person] recognize themselves — plus a one-line justification tied back to X/Y/Z |
+
+**Fails the schema if**: `competitor_test_result.pass` is true but `reasoning` doesn't name the specific disqualifying element of Z, or any variant in Round 5 is a copy-paste of `positioning_statement.full_sentence` with no angle shift.
 
 ---
 

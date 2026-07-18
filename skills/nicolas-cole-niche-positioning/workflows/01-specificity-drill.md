@@ -170,26 +170,25 @@ If score is below 9:
 
 ---
 
-## Output
+## Output Schema
 
-By the end of this workflow, you should have:
+This workflow's deliverable is the input contract for `02-category-of-one.md` — Round 1 of that workflow reads `named_person` and `positioning_material` directly.
 
-1. **Named Person profile**:
-   - Name (or placeholder with enough specificity to find them)
-   - Role / stage / context
-   - The specific problem they have
-   - Why they'd recognize your positioning
+| Field | Type | Required | Description |
+|---|---|---|---|
+| `named_person.identifier` | string | Yes | Real name/LinkedIn URL, or a placeholder specific enough to find them (never a demographic label) |
+| `named_person.role_stage_context` | string | Yes | What they do, their career stage, their situational context |
+| `named_person.specific_problem` | string | Yes | The precise, non-generic problem from Round 2 (fails if it reads as a category — "struggles with visibility" is not acceptable, per Round 2's own bar) |
+| `named_person.recognition_reason` | string | Yes | Why they'd recognize themselves in the positioning (Round 4 output) |
+| `positioning_material.lived_experience_bridge` | string | Yes | What the operator knows that outsiders don't (Round 3) |
+| `positioning_material.bias_inversion` | string | Yes | Who broke the pattern, and why (Round 1) |
+| `positioning_material.unique_visible_problem` | string | Yes | The problem only the operator can see clearly |
+| `compounding_signal_score.signals` | array (len=5) | Yes | Referral Density, Problem Recurrence, Expertise Accumulation, Authority Snowball, Adjacent Expansion — each scored 1-3 with a one-line note |
+| `compounding_signal_score.total` | integer (0-15) | Yes | Sum of the 5 signal scores |
+| `compounding_signal_score.verdict` | enum | Yes | `commit-hard` (12-15) / `viable-with-ceiling` (9-11) / `grind-after-6mo` (5-8) / `dead-end` (<5) |
+| `compounding_signal_score.ceiling_signal` | string | If verdict ≠ commit-hard | The weakest signal, named explicitly, per the Round 5 verdict script |
 
-2. **Raw positioning material** for `02-category-of-one.md`:
-   - The lived experience bridge (what you know that outsiders don't)
-   - The bias inversion (who broke the pattern and why)
-   - The specific problem only you can see clearly
-
-3. **Compounding Signal Score**:
-   - Score card (5 signals, 1-3 each, total /15)
-   - Strongest compounding signal (the reason this niche will get easier)
-   - Ceiling signal (the constraint to watch, even in high-scoring niches)
-   - Adjacent expansion map (where this niche naturally grows)
+**Fails the schema if**: `named_person.identifier` is a persona/demographic ("female health coaches over 40") rather than a nameable individual, or `compounding_signal_score.total` is missing when Round 5 was run.
 
 ---
 

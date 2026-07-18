@@ -84,20 +84,23 @@ If client can't name them:
 
 ---
 
-## Output
+## Output Schema
 
-By the end of this workflow, you should have:
+This is the pre-Round-5 baseline version of the drill — it stops at the Named Person, with no Compounding Signal Analysis. Use this schema when the compounding stress-test isn't needed (e.g., quick positioning check, low-stakes niche decision); use `01-specificity-drill.md`'s schema when durability needs to be proven before commitment.
 
-1. **Named Person profile**:
-   - Name (or placeholder with enough specificity to find them)
-   - Role / stage / context
-   - The specific problem they have
-   - Why they'd recognize your positioning
+| Field | Type | Required | Description |
+|---|---|---|---|
+| `named_person.identifier` | string | Yes | Real name/LinkedIn URL, or a placeholder specific enough to find them (never a demographic label) |
+| `named_person.role_stage_context` | string | Yes | What they do, their career stage, their situational context |
+| `named_person.specific_problem` | string | Yes | The precise, non-generic problem from Round 2 |
+| `named_person.recognition_reason` | string | Yes | Why they'd recognize themselves in the positioning (Round 4 output) |
+| `positioning_material.lived_experience_bridge` | string | Yes | What the operator knows that outsiders don't (Round 3) |
+| `positioning_material.bias_inversion` | string | Yes | Who broke the pattern, and why (Round 1) |
+| `positioning_material.unique_visible_problem` | string | Yes | The problem only the operator can see clearly |
 
-2. **Raw positioning material** for `02-category-of-one.md`:
-   - The lived experience bridge (what you know that outsiders don't)
-   - The bias inversion (who broke the pattern and why)
-   - The specific problem only you can see clearly
+**Fails the schema if**: `named_person.identifier` is a persona/demographic rather than a nameable individual, or any field is filled from Round 1-3 answers without having actually run Round 4's Named Person Test.
+
+**No `compounding_signal_score` field in this baseline version** — that's the delta added in `01-specificity-drill.md`'s Round 5. Do not backfill a compounding score here; route to the full workflow instead if durability stress-testing is needed.
 
 ---
 
