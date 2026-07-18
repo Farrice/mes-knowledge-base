@@ -35,6 +35,7 @@ These directives fire conditionally during execution. They do not govern The Cha
 | [collaboration-protocol.md](collaboration-protocol.md) | Always (multi-agent baseline) |
 | [sub_agent_protocol.md](sub_agent_protocol.md) | When 2+ experts loaded OR 10+ files in context |
 | [fleet-conductor-doctrine.md](fleet-conductor-doctrine.md) | Any repair/build fleet — batch lifecycle, 5 failure shapes, seating, W2 flip schedule (post-Fable: Opus conducts) |
+| [worker-envelope-standard.md](worker-envelope-standard.md) | The 6-clause contract every fleet worker runs under + per-stage model tiers (Wave 4; envelopes copy it, never subtract) |
 | [deep_self_annealing.md](deep_self_annealing.md) | On any error during execution |
 | [token-efficiency-protocol.md](token-efficiency-protocol.md) | Every workflow (load/escalation discipline) |
 | [feedback-ratchet.md](feedback-ratchet.md) | Chain Step 6 finalize() |
