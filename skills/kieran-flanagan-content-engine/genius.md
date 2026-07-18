@@ -4,6 +4,17 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
+## How to Use This Skill (Model Calibration)
+
+These patterns are intuition primitives for a system architect, not a checklist to recite. Kieran doesn't think in "one perfect prompt" — he thinks in pipeline stages that each do one job well, then disappear into the output. If a deliverable labels its own machinery anywhere the audience can see it ("Talking Point Library," "Enrichment Pass," "Lookalike Structure Applied"), you have failed — those are backstage terms, not headlines.
+
+Specifically:
+- Do NOT narrate which workflow or pattern you ran unless asked. The extraction's read on his 11-skill system: it produces content that's "genuinely good" because no single skill is carrying the full burden — visible seams mean one skill did too much, or the seams weren't hidden.
+- Do NOT hand back a first draft as finished. Even Kieran's own system output gets rejected raw — on his own marketer-job-split post he says on camera, "obviously I would never ship this." Draft, enrich, polish are three separate passes; only the third one ships.
+- Do NOT let one platform's voice leak into another. LinkedIn-Kieran, Substack-Kieran, and X-Kieran are meant to read as three different people; if a reviewer can tell the newsletter version started life as the LinkedIn post, the adaptation failed.
+- The test: would Kieran recognize this as content built from *his* system — enrichment separated from creation, structure mined before topic, platform-native from the first line — or as generic AI output wearing marketing vocabulary? If it's the second, rebuild.
+- His explaining voice is casual and self-interrupting ("I have no life," trailing off mid-thought, "blah blah blah" standing in for detail he'll fill later) — but the deliverables themselves are clean and platform-disciplined. Don't confuse his talking-through-it voice with his shipping voice.
+
 ## Genius Patterns
 
 ## Pattern 1: Multi-Source Talking Point Extraction
@@ -118,6 +129,17 @@
 **Deploy**: Use `/hook-formula-extract` to mine the creator's own hooks before defaulting to generic hook frameworks.
 
 ---
+
+## Anti-Patterns (Sourced)
+
+Failure modes Kieran names or demonstrates directly, each traceable to a specific line in the source material — not inferred.
+
+- **Don't ask the model to draft and enrich in one pass** — Kieran demonstrates the failure live before running the post enricher: "the content enrichment tools need a first draft to enrich and so trying to enrich just a idea is kind of hard" (`extractions/kieran-flanagan/transcript.txt`, Marketing Against the Grain — "I Built an AI Team That Creates All My Content").
+- **Don't ship the model's first draft** — even his own best output gets rejected raw: on the marketer-job-split post he says on camera, "obviously I would never ship this" (`extractions/kieran-flanagan/transcript.txt`); earlier in the same segment he calls the AI's output "this is a draft an idea and then you make much better," never a finished piece.
+- **Don't route creative-writing tasks to analytical/reasoning models** — the extraction's synthesis of his ChatGPT model routing: "the analytical models are 'too good' at following instructions for creative tasks, producing overly rigid output" (`extractions/kieran-flanagan/extraction-report.md`, Hidden Knowledge — Model Routing Strategy, 2026 extraction).
+- **Don't let one platform's style bleed into another** — per the extraction's framing of his Platform Isolation Rule: "Never let LinkedIn style infect newsletter style... Cross-pollination produces 'uncanny valley' content that sounds right on no platform" (`extractions/kieran-flanagan/extraction-report.md`, Hidden Knowledge, source: transcript interview).
+- **Don't build audience personas from demographics or surveys** — per the extraction's read on his content-reactive method: "Traditional personas are built from demographics and surveys — they're fiction" (`extractions/kieran-flanagan/extraction-report.md`, Hidden Knowledge — Content-Reactive vs. Persona-Based Profiling).
+- **Don't mistake drag-and-drop workflow tools for this system** — Kieran on why this isn't "vibe marketing" software: "I was never a big fan of the kind of vibe marketing where it was workflow tools because it's not vibing. You have to actually drag and drop all the workflows together. This is not software" (`extractions/kieran-flanagan/transcript.txt`, same episode).
 
 ## Hall of Fame Exemplars
 
