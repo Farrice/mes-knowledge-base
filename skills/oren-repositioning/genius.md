@@ -4,15 +4,16 @@
 > extraction intelligence — patterns, tacit knowledge, and operating
 > principles that make this expert's output actually work.
 
-## How to Use This Skill (Opus 4.7 Calibration)
+## How to Use This Skill (Model Calibration)
 
-The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Oren recognize this as a magnetically differentiated repositioning — or as a generic "category audit"? If unsure, the answer is the second — rewrite.
+The patterns below are intuition primitives, not a checklist. Absorb them, then write originally. If the output mechanically applies every pattern in order, you have failed. The test: would Oren recognize this as a magnetically differentiated repositioning — or as a generic "category audit" wearing his vocabulary? If unsure, the answer is the second — rewrite.
 
 Specifically:
-- Do NOT enumerate which patterns you applied unless asked
-- Do NOT label sections by pattern name
-- Do NOT use the framework as decoration — let differentiation show in specifics, not labels
-- The reader should feel that the brand is now obvious
+- Do NOT enumerate which patterns you applied unless asked.
+- Do NOT label sections by pattern name ("here's the counterposition," "here's the vision vector"). Execute the move; never announce it.
+- Do NOT use the framework as decoration — let differentiation show in specifics (a real code inverted, a real 10-year vector, a real creative partner named), never in labeled sections.
+- Oren's texture is visual-cultural, not corporate strategy-speak. He reads a brand like an art director, not a marketer — codes, uniforms, and aesthetics, never messaging matrices or audience personas. Output that reads like a branding-agency deck (SWOT grids, "target demo," positioning statements) has already failed his test.
+- Polish is the tell. Oren's own counter-signal is a hoodie worn against a category of suits — presentation-as-proof, not credential-forward gloss. If a repositioning brief reads clean, safe, and boardroom-ready, it hasn't gone far enough; the client should feel a flicker of "that makes me nervous but I see it," not calm approval.
 
 Why this is here: Opus 4.7 follows instructions more literally than 4.6. Repositioning fails when it's executed as a template — the whole point is non-obvious differentiation, which template-thinking cannot produce.
 
@@ -23,7 +24,7 @@ Why this is here: Opus 4.7 follows instructions more literally than 4.6. Reposit
 ## 1. Counterposition Against Aesthetic Category Codes
 Don't compete within the existing visual/cultural uniform — **invert it**. Map every code the dominant players share, then flip the decorative layer while preserving the emotional core. Bad Bunny kept reggaeton's attitude but inverted hip-hop's ultra-masculine visual codes with nail polish and pink hoodies.
 
-**Application**: For any personality or brand entering an established category, run a code audit. List every visual, tonal, and behavioral signal the top 5 players share. Classify each as load-bearing (structural — remove it and the category breaks) or decorative (surface — remove it and the category evolves). Invert only the decorative codes. The result: you're clearly in the category but uncategorizable within it.
+**Application**: For any personality or brand entering an established category, run a code audit. List every visual, tonal, and behavioral signal the top 5 players share. Classify each as load-bearing (structural — remove it and the category breaks) or decorative (surface — remove it and the category evolves). Invert only the decorative codes. The success metric Oren names is specific: "People can describe your brand without mentioning any competitor" — the result is a new comparison set, not a better position inside the old one.
 
 ## 2. The 10-Year Vision Vector
 A positioning decision isn't a destination — it's a **vector**. Evaluate every creative choice by where it takes the brand in a decade. Bad Bunny's countercultural aesthetic → couture houses making their first menswear looks for reggaeton. Tyler's pastels → Louis Vuitton creative direction. If the 10-year destination isn't exciting, the position isn't bold enough.
@@ -38,7 +39,7 @@ Modern stardom is built by **creative dyads**, not individuals. Stills went from
 ## 4. Vision Extension Architecture
 A brand becomes a **vibe** when its creative vision extends beyond its origin into every touchpoint — art, stages, merch, social presence, collaborations. Rosalia's combination of high fashion, religious iconography, and campaign execution means nothing she does is not visually stunning. The vision permeates everything.
 
-**Application**: Map every extension surface: physical artifacts (merch, prints, packaging), experiences (events, pop-ups, stages), digital presence (social aesthetic, website, content formats), cultural moments (launches, collaborations, monoculture infiltration). Each must pass two tests: sharability (can fans generate in this world?) and coherence (does it reinforce the counterposition?).
+**Application**: Map every extension surface: physical artifacts (merch, prints, packaging), experiences (events, pop-ups, stages), digital presence (social aesthetic, website, content formats), cultural moments (launches, collaborations, monoculture infiltration). Each must pass two tests: sharability (can fans generate in this world?) and coherence (does it reinforce the counterposition?). Oren's own success metric: "Fans describe the brand as a 'world' or 'vibe' rather than a product or person."
 
 ## 5. Cultural Authenticity as Scale Engine
 "We don't go pop. Pop comes to us." Bad Bunny refused English crossover. BTS stayed Korean. Brat was abrasively non-pop. **Authenticity at industrial scale is the new competitive moat.** The market has shifted: audiences don't reward polish, they reward specificity executed with world-class craft.
@@ -58,11 +59,11 @@ Don't think about broad reach — think about **complete saturation of the right
 ## 8. Elevation Through Artistic Collaboration (The Kanye Pattern)
 Don't hire designers — **collaborate with artists**. Kanye brought Murakami, George Condo, Vanessa Beecroft into his world. Both parties left elevated. The graduation bears were an entrance point into a different world. Kanye elevated them and they elevated him.
 
-**Application**: Replace vendor relationships with true collaborations. Identify artists/creatives whose work could enter the client's world AND whose own world would benefit from the exposure. Structure as mutual elevation, not commission. The test: did both sides leave with more creative capital than they entered with?
+**Application**: Replace vendor relationships with true collaborations. Identify artists/creatives whose work could enter the client's world AND whose own world would benefit from the exposure. Structure as mutual elevation, not commission. Oren's own test: "did both sides leave with more fame, recognition, and creative capability than they entered with?"
 
 ## Hidden Knowledge
 
-Tacit expertise Oren demonstrates but doesn't explicitly teach — the crown jewel insights you'd only learn by apprenticing with him.
+Tacit expertise Oren demonstrates but doesn't explicitly teach — the crown jewel insights you'd only learn by apprenticing with him. The through-line: "the sales material must itself be the proof of the capability being sold" (Hidden Knowledge #5) — everything below is knowledge Oren performs rather than states outright.
 
 ---
 
@@ -77,7 +78,7 @@ Oren reveals that Charlie XCX's team was **actively hunting** for the creative m
 **Deployment**: When advising clients, the first intervention is never creative — it's getting commitment. "You need a vision. Who's going to craft it?" Until that decision is made, no amount of tactical advice matters. This is also Farrice's positioning opportunity: being the person brands find when they start hunting.
 
 ## 3. The Squad Algorithm
-Platforms algorithmically test audiences against each other when creators collaborate. Creative relationships aren't just human capital — they're **algorithmic capital**. A stable creative dyad generates compounding distribution that solo creators cannot access regardless of content quality. TJR/Brez, Hermozi/Robbins — these aren't random collabs, they're algorithmic compound interest.
+Platforms algorithmically test audiences against each other when creators collaborate. Creative relationships aren't just human capital — they're **algorithmic capital**. Oren's own framing: "a stable creative dyad generates compounding algorithmic distribution that a solo creator cannot access regardless of content quality." TJR/Brez, Hermozi/Robbins — these aren't random collabs, they're algorithmic compound interest.
 
 **Deployment**: Position creative partnerships as algorithmic necessities, not optional nice-to-haves. Solo creators are fighting a structural distribution disadvantage. Frame the creative relationship as both a creative engine AND a distribution engine.
 
@@ -102,6 +103,17 @@ Every successful repositioning Oren profiles involved creative bravery that felt
 **Deployment**: Build a "creative bravery threshold" into the repositioning process. Present the final direction. If the client immediately approves without hesitation, push further. The sweet spot: "That makes me nervous but I see it." If there's no nervousness, the counterposition hasn't gone far enough to actually differentiate.
 
 ---
+
+## Anti-Patterns
+
+Each failure below is something Oren would catch on sight — decoration mistaken for structure. Before shipping a repositioning, ask: would Oren recognize this as his method, or as someone using his vocabulary without doing the work?
+
+- **Never invert a load-bearing code while calling it counterposition.** Oren's own distinction: repositioners "either create something incoherent (inverting load-bearing codes) or insufficiently different (only tweaking decoration)" — swapping the emotional core for shock value isn't differentiation, it's collapse. Source: extractions/oren/extraction-report-repositioning.md, Hidden Knowledge #6 ("Category Codes Are Load-Bearing vs. Decorative").
+- **Never sand off cultural specificity to chase broad appeal.** The operating principle is "We don't go pop. Pop comes to us." — diluting a client's genuine cultural root for mass palatability is the failure mode Oren calls out most directly. Source: extractions/oren/extraction-report-repositioning.md, Pattern 5 ("Cultural Authenticity as Scale Engine").
+- **Never treat the creative partnership as optional overhead.** Oren's framing: "solo creators are fighting against a structural distribution disadvantage" — a repositioning built around one person instead of a creative dyad forfeits the algorithmic compounding a partnership generates. Source: extractions/oren/extraction-report-repositioning.md, Hidden Knowledge #3 ("The Squad Algorithm").
+- **Never approve a direction the client accepts without hesitation.** The uncomfortably-authentic test: "if the repositioning doesn't make the client uncomfortable, it's not far enough" — comfort means the work never left the existing category's codes. Source: extractions/oren/extraction-report-repositioning.md, Hidden Knowledge #7 ("The Uncomfortably Authentic Test").
+- **Never ship a visual identity fans can't remix.** If a stranger can't generate content that belongs in the brand's world using only its visual codes, "the vision can't extend" — Oren treats un-remixable identity as a design failure, not a taste preference. Source: extractions/oren/extraction-report-repositioning.md, Hidden Knowledge #1 ("The Sharability Prerequisite").
+- **Never structure a creative collaboration as a one-way commission.** The test for any partnership is "did both sides leave with more fame, recognition, and creative capability than they entered with?" — a hire where only the client benefits fails Oren's collaboration standard even if the output looks identical. Source: extractions/oren/extraction-report-repositioning.md, Pattern 8 ("Elevation Through Artistic Collaboration").
 
 ## Hall of Fame Exemplars
 

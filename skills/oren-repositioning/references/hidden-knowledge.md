@@ -1,6 +1,6 @@
 # Oren Repositioning — Hidden Knowledge
 
-Tacit expertise Oren demonstrates but doesn't explicitly teach — the crown jewel insights you'd only learn by apprenticing with him.
+Tacit expertise Oren demonstrates but doesn't explicitly teach — the crown jewel insights you'd only learn by apprenticing with him. The through-line: "the sales material must itself be the proof of the capability being sold" (Hidden Knowledge #5) — everything below is knowledge Oren performs rather than states outright.
 
 ---
 
@@ -15,7 +15,7 @@ Oren reveals that Charlie XCX's team was **actively hunting** for the creative m
 **Deployment**: When advising clients, the first intervention is never creative — it's getting commitment. "You need a vision. Who's going to craft it?" Until that decision is made, no amount of tactical advice matters. This is also Farrice's positioning opportunity: being the person brands find when they start hunting.
 
 ## 3. The Squad Algorithm
-Platforms algorithmically test audiences against each other when creators collaborate. Creative relationships aren't just human capital — they're **algorithmic capital**. A stable creative dyad generates compounding distribution that solo creators cannot access regardless of content quality. TJR/Brez, Hermozi/Robbins — these aren't random collabs, they're algorithmic compound interest.
+Platforms algorithmically test audiences against each other when creators collaborate. Creative relationships aren't just human capital — they're **algorithmic capital**. Oren's own framing: "a stable creative dyad generates compounding algorithmic distribution that a solo creator cannot access regardless of content quality." TJR/Brez, Hermozi/Robbins — these aren't random collabs, they're algorithmic compound interest.
 
 **Deployment**: Position creative partnerships as algorithmic necessities, not optional nice-to-haves. Solo creators are fighting a structural distribution disadvantage. Frame the creative relationship as both a creative engine AND a distribution engine.
 

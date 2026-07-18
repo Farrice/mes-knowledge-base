@@ -3,7 +3,7 @@
 ## 1. Counterposition Against Aesthetic Category Codes
 Don't compete within the existing visual/cultural uniform — **invert it**. Map every code the dominant players share, then flip the decorative layer while preserving the emotional core. Bad Bunny kept reggaeton's attitude but inverted hip-hop's ultra-masculine visual codes with nail polish and pink hoodies.
 
-**Application**: For any personality or brand entering an established category, run a code audit. List every visual, tonal, and behavioral signal the top 5 players share. Classify each as load-bearing (structural — remove it and the category breaks) or decorative (surface — remove it and the category evolves). Invert only the decorative codes. The result: you're clearly in the category but uncategorizable within it.
+**Application**: For any personality or brand entering an established category, run a code audit. List every visual, tonal, and behavioral signal the top 5 players share. Classify each as load-bearing (structural — remove it and the category breaks) or decorative (surface — remove it and the category evolves). Invert only the decorative codes. The success metric Oren names is specific: "People can describe your brand without mentioning any competitor" — the result is a new comparison set, not a better position inside the old one.
 
 ## 2. The 10-Year Vision Vector
 A positioning decision isn't a destination — it's a **vector**. Evaluate every creative choice by where it takes the brand in a decade. Bad Bunny's countercultural aesthetic → couture houses making their first menswear looks for reggaeton. Tyler's pastels → Louis Vuitton creative direction. If the 10-year destination isn't exciting, the position isn't bold enough.
@@ -18,7 +18,7 @@ Modern stardom is built by **creative dyads**, not individuals. Stills went from
 ## 4. Vision Extension Architecture
 A brand becomes a **vibe** when its creative vision extends beyond its origin into every touchpoint — art, stages, merch, social presence, collaborations. Rosalia's combination of high fashion, religious iconography, and campaign execution means nothing she does is not visually stunning. The vision permeates everything.
 
-**Application**: Map every extension surface: physical artifacts (merch, prints, packaging), experiences (events, pop-ups, stages), digital presence (social aesthetic, website, content formats), cultural moments (launches, collaborations, monoculture infiltration). Each must pass two tests: sharability (can fans generate in this world?) and coherence (does it reinforce the counterposition?).
+**Application**: Map every extension surface: physical artifacts (merch, prints, packaging), experiences (events, pop-ups, stages), digital presence (social aesthetic, website, content formats), cultural moments (launches, collaborations, monoculture infiltration). Each must pass two tests: sharability (can fans generate in this world?) and coherence (does it reinforce the counterposition?). Oren's own success metric: "Fans describe the brand as a 'world' or 'vibe' rather than a product or person."
 
 ## 5. Cultural Authenticity as Scale Engine
 "We don't go pop. Pop comes to us." Bad Bunny refused English crossover. BTS stayed Korean. Brat was abrasively non-pop. **Authenticity at industrial scale is the new competitive moat.** The market has shifted: audiences don't reward polish, they reward specificity executed with world-class craft.
@@ -38,4 +38,4 @@ Don't think about broad reach — think about **complete saturation of the right
 ## 8. Elevation Through Artistic Collaboration (The Kanye Pattern)
 Don't hire designers — **collaborate with artists**. Kanye brought Murakami, George Condo, Vanessa Beecroft into his world. Both parties left elevated. The graduation bears were an entrance point into a different world. Kanye elevated them and they elevated him.
 
-**Application**: Replace vendor relationships with true collaborations. Identify artists/creatives whose work could enter the client's world AND whose own world would benefit from the exposure. Structure as mutual elevation, not commission. The test: did both sides leave with more creative capital than they entered with?
+**Application**: Replace vendor relationships with true collaborations. Identify artists/creatives whose work could enter the client's world AND whose own world would benefit from the exposure. Structure as mutual elevation, not commission. Oren's own test: "did both sides leave with more fame, recognition, and creative capability than they entered with?"
