@@ -244,7 +244,7 @@
 | `nate-b-jones-orchestration-intelligence` | **nate-b-jones-orchestration-intelligence** | ai/automation — multi-agent orchestration, designs, audits, and optimizes multi-agent orchestration using nate b, classifies work by domain verifiability to determine safe delegation | 12 | 0 |
 | `nate-b-jones-trust-architecture` | **Nate B Jones - AI Trust Architecture** | zero-trust agentic architecture & systemic hallucination defense, ai trust architecture | 5 | 12 |
 | `nate-herk-client-acquisition` | **Nate Herk: AI Client Acquisition** | acquire ai workflow clients without an audience by leveraging asymmetric trus..., ai client acquisition | 1 | 3 |
-| `nathan-gotch-ai-seo` | **Nathan Gotch AI SEO** | not just the visibility layer | 6 | 28 |
+| `nathan-gotch-ai-seo` | **Nathan Gotch AI SEO** | not just the visibility layer | 15 | 28 |
 | `nba-betting-edge` | **NBA Betting Edge: Player Prop & Parlay Prediction System** | research-driven predictions with honest confidence scoring, correlation-aware parlay construction, and kelly criterion bankroll discipline | 3 | 0 |
 | `new-media-ghostwriting` | **new-media-ghostwriting** | premium ghostwriting × new media strategy × content architecture, " compounds nicolas cole's voice capture, a16z's new-media doctrine (joe rogan ceo test | 1 | 0 |
 | `new-media-kingmaker` | **new-media-kingmaker** | new media × copywriting × content strategy × ghostwriting × marketing, takes any founder, compound skill orchestrating a16z new-media doctrine | 3 | 0 |

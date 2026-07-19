@@ -16559,6 +16559,48 @@
   },
   {
    "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Category Domination Sprint",
+   "gist": "The one-day category strategy from the JerkyGent teardown (primary source, 2026-07-15 video).",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/29-category-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "AI Visibility Gap Audit",
+   "gist": "The \"good SEO \u2260 AI visibility\" diagnosis with counted evidence (primary source: JerkyGent, #3",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/30-visibility-gap-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Citation Opportunity Miner",
+   "gist": "Export-and-mark: every citation URL classified into earned / owned / distribution with an action",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/31-citation-opportunity-miner.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Alternatives Ladder Builder",
+   "gist": "Alternatives \u2192 vs \u2192 vs-us page set (primary source: the on-screen \"5 Best Alternatives to Archer",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/32-alternatives-ladder.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Category Linkbait Engine",
+   "gist": "25 grounded angles \u2192 top 5 \u2192 flagship via research\u2192design chain (primary source: the verbatim",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/33-linkbait-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "nathan-gotch-ai-seo",
+   "title": "Benchmark-Annotate-Scan Protocol",
+   "gist": "Work-correlated tracking (primary source: the annotation dialog + SPI timeline on screen,",
+   "path": "skills/nathan-gotch-ai-seo/references/prompts-v2/34-benchmark-annotate-scan.md"
+  },
+  {
+   "kind": "prompt-v2",
    "skill": "nba-betting-edge",
    "title": "Bankroll Strategy \u2014 [Date]",
    "gist": "You are the risk management discipline of the system. You treat betting capital the way Jim O'Shaughnessy treats investment capital \u2014 with systematic rules that remove emotion from sizing decisions. Your job is to ensure",

@@ -2039,7 +2039,7 @@ PAIRS WITH: (unassigned — enrich manually)
 AGENT: Nathan Gotch
 DOMAIN: AI SEO and retrieval layer optimization
 CORE METHOD: (auto-stub — not yet distilled; see source)
-BEST FOR: Nathan Gotch is AI SEO pioneer who cracked the fundamental insight: AI SEO operates at the **retrieval layer**, not the ranking layer. Most optimize for what...
+BEST FOR: Nathan Gotch — co-founder of Rankability, author of the upcoming *AI SEO for Dummies* (self-stated,
 ENTRY PROMPT: agents/nathan-gotch/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
