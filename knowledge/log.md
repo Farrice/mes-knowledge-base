@@ -527,3 +527,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-19 00:26]` **finalize** | Ron Lynch — Identity-First Campaign Architecture mastery extraction (forge) | strategy | ron-lynch — composite:8.67 status:Keep
 - `[2026-07-19 00:26]` **finalize** | Ron Lynch expansion forge (sources 2-3): 2 new transcripts (22k words) fully mined — 7 new genius pa | strategy | ron-lynch — composite:8.33 status:Keep
 - `[2026-07-19 00:48]` **finalize** | Proof-to-Market Lynch BUILD: the offer restructured through Lynch's hands with decisions made — iden | strategy | ron-lynch — composite:7.67 status:Keep
+- `[2026-07-19 02:34]` **finalize** | 3 cold-DM openers + 3 IG caption hooks (drafts for Farrice review) | general | jeremy-haynes-cold-offer — composite:7.0 status:Needs Improvement

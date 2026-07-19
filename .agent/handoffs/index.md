@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-19** [jh-cold-dm-ig/active] [3 cold-DM openers + 3 IG caption hooks (drafts for Farrice review)](2026-07-19-jh-cold-dm-ig.md) — 3 cold-DM openers + 3 IG caption hooks (drafts for Farrice review)
 - **2026-07-19** [farrice-brand/active] [Farrice Brand — About Page Section](2026-07-19-farrice-brand.md) — Farrice Brand — About Page Section
 - **2026-07-19** [nathan-gotch-forge/ready] [Nathan Gotch AI SEO — Extract-Forge Expansion (operational layer, first primary source)](2026-07-19-nathan-gotch-forge.md) — Farrice blind-pass verdict (specimen vs 2 corpus transcripts) → A-tier; then first live /gotch-shadow-receipts
 - **2026-07-19** [lynch-identity-campaign/active] [Proof-to-Market Lynch BUILD: the offer restructured through Lynch's hands with decisions made — identity word CERTAIN, $495 Readout gate, $3,900/$4,900 increment re-anchors, four-criteria prospect gate, pre-built testimonial relay, subtraction list](2026-07-19-lynch-identity-campaign.md) — Proof-to-Market Lynch BUILD: the offer restructured through Lynch's hands with decisions made — identity word CERTAIN, $495 Readout gate, $3,900/$4,900 increment re-anchors, four-criteria prospect gate, pre-built testimonial relay, subtraction list

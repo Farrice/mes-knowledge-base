@@ -38,7 +38,7 @@
                 "sharran-srivatsaa-scaling": 2,
                 "chase-hughes-context-engineering": 1,
                 "dai-media-consumer-posture": 2,
-                "Content": 45,
+                "Content": 46,
                 "writing-depth-layer": 3,
                 "Analysis": 7,
                 "seena-rez-tiktok-commerce": 1,
@@ -79,22 +79,23 @@
                 "donald-miller-storybrand": 1,
                 "strength-conditioning-os": 7,
                 "simon-intellectual-library-os": 1,
-                "creative-campaign-strategy": 2
+                "creative-campaign-strategy": 2,
+                "jeremy-haynes-cold-offer": 1
             },
-            "total_routings": 468,
+            "total_routings": 470,
             "tier_counts": {
-                "0": 468,
+                "0": 470,
                 "3": 0,
                 "2": 0,
                 "1": 0
             },
-            "auto_match_count": 12,
+            "auto_match_count": 13,
             "mixed_count": 0,
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 267,
-                "finalize-auto": 201
+                "hybrid": 268,
+                "finalize-auto": 202
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -188,7 +189,7 @@
                 "luke-iha-vicious-hooks": 11,
                 "creative-direction": 7,
                 "darrel-wilson-ai-monetization": 1,
-                "jeremy-haynes-cold-offer": 1,
+                "jeremy-haynes-cold-offer": 3,
                 "fresh-voice-system": 5,
                 "daniel-priestley-oversubscribed": 1,
                 "farrice-cain": 1,
@@ -281,7 +282,7 @@
                 "story-compass": 3,
                 "darrel-wilson-ai-affiliate": 2,
                 "marketing-studio-director": 12,
-                "dara-denney-meta-ads": 25,
+                "dara-denney-meta-ads": 26,
                 "enrico-incarnati-instagram-realestate": 1,
                 "tom-noske-personal-brand": 1,
                 "brad-bonanno-explainer-architecture": 2,
@@ -291,7 +292,7 @@
                 "algorithmic-art": 1,
                 "jeremy-miner-identity-persuasion": 1,
                 "alex-hormozi": 3,
-                "how-i-write-os": 23,
+                "how-i-write-os": 24,
                 "omar-eddaoudi-scaling-ops": 6,
                 "fraser-cottrell-paid-ads": 1,
                 "asset_generator": 1,
@@ -310,9 +311,9 @@
                 "diandra-escobar-linkedin-growth": 1,
                 "matthew-volkwyn-copywriting": 1
             },
-            "total_feedback": 63,
+            "total_feedback": 64,
             "negative_count": 0,
-            "ensemble_count": 348,
+            "ensemble_count": 349,
             "auto_miss_count": 51,
             "positive_count": 0
         }
@@ -875,6 +876,15 @@
             "rating": "auto_miss",
             "correction": "creative-campaign-strategy",
             "notes": "expert skill 'creative-campaign-strategy' loaded not matching suggestion ['paul-harding-lyric-prose', 'doc-coauthoring', 'dara-denney-meta-ads']"
+        },
+        {
+            "feedback_id": "fb_20260719_093310_a0bc",
+            "timestamp": "2026-07-19T09:33:10.748315+00:00",
+            "session_id": "3fbf1a3b-e135-495d-a9d4-5a52e17ab43f",
+            "routing_id": "rt_20260719_093306_11ca",
+            "rating": "auto_match",
+            "correction": "jeremy-haynes-cold-offer",
+            "notes": "expert skill 'jeremy-haynes-cold-offer' loaded matching suggestion ['jeremy-haynes-cold-offer', 'dara-denney-meta-ads', 'how-i-write-os']"
         }
     ],
     "routing_decisions": [
@@ -9363,6 +9373,42 @@
             "workflow_used": "voice-os",
             "ensemble": true,
             "compound_pairing": "voice-os + how-i-write-os + april-dunford-positioning",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_093306_11ca",
+            "timestamp": "2026-07-19T09:33:06.486068+00:00",
+            "session_id": "3fbf1a3b-e135-495d-a9d4-5a52e17ab43f",
+            "request_summary": "# Mission Card — Cold-DM openers + IG caption drafts off the locked lines\nTier: T1\nProduced: 2026-07-18 (queued by Fable conductor, Farrice-directed maiden run)\n\n## Objective\nDRAFTS ONLY: write 3 cold",
+            "intent_score": 0,
+            "domain_detected": "jeremy-haynes-cold-offer",
+            "experts_deployed": [
+                "jeremy-haynes-cold-offer",
+                "dara-denney-meta-ads",
+                "how-i-write-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jeremy-haynes-cold-offer",
+            "ensemble": true,
+            "compound_pairing": "jeremy-haynes-cold-offer + dara-denney-meta-ads + how-i-write-os",
+            "feedback": "fb_20260719_093310_a0bc"
+        },
+        {
+            "routing_id": "rt_20260719_093440_dca3",
+            "timestamp": "2026-07-19T09:34:40.245440+00:00",
+            "session_id": "",
+            "request_summary": "3 cold-DM openers + 3 IG caption hooks (drafts for Farrice review)",
+            "intent_score": 7,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jeremy-haynes-cold-offer"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "jh-cold-dm-ig",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

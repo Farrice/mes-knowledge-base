@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** jh-cold-dm-ig  
-**Full path:** .agent/handoffs/2026-07-19-jh-cold-dm-ig.md  
-**Date:** 2026-07-19 (today)  
-**Status:** active  
-**Title:** 3 cold-DM openers + 3 IG caption hooks (drafts for Farrice review)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume jh-cold-dm-ig` for this one.
-
----
-
 ---
 thread: jh-cold-dm-ig
 status: active
@@ -23,4 +11,3 @@ pin: true
 **Next session focus**: Resume the `jh-cold-dm-ig` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (jh-cold-dm-ig)._
-
