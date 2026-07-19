@@ -113,6 +113,7 @@
 ---
 
 ## Pending enrichment
+- [2026-07-19 — Proof-to-Market Lynch options memo: 4-option cost+royalty deal table (B recommended: full base + 2% launch-window attributed), auditable attribution instruments, identity-first upgrades to 4 sprint modules, customer-as-media upsell verdict — propose-only, canonical offer untouched](2026-07-19-.md) — operator-guide stub, needs enrichment
 - [2026-07-18 — PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)](2026-07-18-frontier-elevation-day-one.md) — operator-guide stub, needs enrichment
 - [2026-07-18 — PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)](2026-07-18-.md) — operator-guide stub, needs enrichment
 - [2026-07-17 — Session State Anchor](2026-07-17-.md) — operator-guide stub, needs enrichment

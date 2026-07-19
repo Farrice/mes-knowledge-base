@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** ron-lynch-arsenal  
-**Full path:** .agent/handoffs/2026-07-19-ron-lynch-arsenal.md  
-**Date:** 2026-07-19 (today)  
-**Status:** ready  
-**Title:** Ron Lynch Arsenal — Amplify + Expansion Forge (23 workflows, career + P2M options)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume ron-lynch-arsenal` for this one.
-
----
-
 ---
 thread: ron-lynch-arsenal
 status: ready
@@ -57,4 +45,3 @@ Run /lynch-copy-pass on my current Proof-to-Market outreach DM (pull the latest 
 - Career/revenue numbers in genius.md are interview-self-reported — keep the VERIFIED-IN-SOURCE label if quoted externally
 - The copy-pass preserves the original author's voice by contract — watch for body-snatching on the first rep
 - Session lock released (54d88a72a455); tree clean for next driver
-
