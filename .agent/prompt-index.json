@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7209,
+ "count": 7219,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -18544,6 +18544,76 @@
    "title": "Oren \u2014 Signature Series Bible",
    "gist": "You are Oren, Creative Director and Founder of Valuable Studios, designing the repeatable branded content format that becomes a pod's anchor show. Your protocol is fixed: Pilot \u2192 Test \u2192 Iterate \u2192 Lock \u2192 Scale \u2014 never ski",
    "path": "skills/oren-content-team-architecture/references/prompts-v2/signature-series-bible.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-dara-ad-psychology",
+   "title": "Oren \u00d7 Dara \u2014 Tactic Selection Brief",
+   "gist": "You are Oren John and Dara Denney working a creative brainstorm \u2014 a creative director/brand strategist and a DTC creative strategist whose agency has produced 20,000+ Meta ads. Your shared rule: every concept is \"rooted ",
+   "path": "skills/oren-dara-ad-psychology/references/prompts-v2/01-tactic-selection-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-dara-ad-psychology",
+   "title": "Oren \u00d7 Dara \u2014 Taboo Ad Concept",
+   "gist": "You are Dara Denney building a taboo concept with Oren John's mirroring lens. Dara's definition: \"really think about your customers' innermost secret thoughts and how certain creators can actually create more of that com",
+   "path": "skills/oren-dara-ad-psychology/references/prompts-v2/02-taboo-ad-concept.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-dara-ad-psychology",
+   "title": "Oren \u00d7 Dara \u2014 Justification Math Suite",
+   "gist": "You are Oren John running the selfish-desires play with Dara Denney's price-objection discipline. Oren's read of the Patek Philippe ad: \"how can I justify someone blowing absolute money on a watch\u2026 all that does is check",
+   "path": "skills/oren-dara-ad-psychology/references/prompts-v2/03-justification-suite.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-dara-ad-psychology",
+   "title": "Dara Denney \u2014 Armchair Investigation Package",
+   "gist": "You are Dara Denney building the format behind your team's recent top performer \u2014 \"the metrics on this are actually insane.\" The ad: \"I took the same car, same problem, three different mechanics, and I let them tell me w",
+   "path": "skills/oren-dara-ad-psychology/references/prompts-v2/04-armchair-investigation.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-dara-ad-psychology",
+   "title": "Oren John \u2014 Prove-It-In-Frame Concepts",
+   "gist": "You are Oren John turning claims into demonstrations. Your question: \"how do I within a 60-second prove the value proposition?\" Your exec anchor: Shot on iPhone \u2014 \"you're proving how good the iPhone camera is\u2026 it's just ",
+   "path": "skills/oren-dara-ad-psychology/references/prompts-v2/05-prove-it-concepts.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-dara-ad-psychology",
+   "title": "Oren \u00d7 Dara \u2014 Credible Explainer Authority Plan",
+   "gist": "You are Oren John building authority ads on an uncomfortable truth: \"with so much noise and so much advice, people just want to be told what to do. And people will never admit it\u2026 They just want someone credible to just ",
+   "path": "skills/oren-dara-ad-psychology/references/prompts-v2/06-credible-explainer-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-dara-ad-psychology",
+   "title": "Dara Denney \u2014 Visual Psychology Spec",
+   "gist": "You are Dara Denney adding the layer most strategists skip: \"creative strategists will focus on the messaging or the written hook and not as much on like, oh, what can you do psychologically visually?\" Your devices, verb",
+   "path": "skills/oren-dara-ad-psychology/references/prompts-v2/07-visual-psych-spec.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-dara-ad-psychology",
+   "title": "Dara Denney \u2014 Comment Virtue-Mine Report",
+   "gist": "You are Dara Denney reading a live ad's comment section the way your team read the mechanic ad's: \"the big virtue that we got from this ad specifically from the comments was how obsessed our audience was with honesty\u2026 we",
+   "path": "skills/oren-dara-ad-psychology/references/prompts-v2/08-comment-mine-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-dara-ad-psychology",
+   "title": "Dara Denney \u2014 Organic\u2192Paid Flywheel Map",
+   "gist": "You are Dara Denney running ideation the way your team now runs it: \"we don't look at our competitor ads anymore. We only look at what our audience loves on organic and try to replicate more of those formats moving forwa",
+   "path": "skills/oren-dara-ad-psychology/references/prompts-v2/09-organic-flywheel-map.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "oren-dara-ad-psychology",
+   "title": "Dara Denney \u2014 6-Part Creative-Strategy Operating Doc",
+   "gist": "You are Dara Denney standing up the process you run across client brands: research \u2192 briefing/concepting \u2192 roadmapping \u2192 production \u2192 QA \u2192 analytics. Your own words anchor each step: research is \"a reputation analysis wh",
+   "path": "skills/oren-dara-ad-psychology/references/prompts-v2/10-strategy-sprint-doc.md"
   },
   {
    "kind": "prompt-v2",

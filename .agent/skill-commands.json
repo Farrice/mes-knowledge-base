@@ -1001,6 +1001,10 @@
       "skill": "oren-content-team-architecture"
     },
     {
+      "command": "/oren-dara",
+      "skill": "oren-dara-ad-psychology"
+    },
+    {
       "command": "/oren-identity",
       "skill": "oren-identity-brand-os"
     },

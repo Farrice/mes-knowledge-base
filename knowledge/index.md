@@ -1,9 +1,9 @@
 # Knowledge Index
-*687 sources | 2,756,024 words | Updated: 2026-07-19*
+*692 sources | 2,760,223 words | Updated: 2026-07-19*
 
 ---
 
-## Content (238 files)
+## Content (240 files)
 
 - [video-context-ledger](../extractions/video-context/3iR3kHxCwfo/video-context-ledger.md) — 75,408 words
 - [Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them](extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md) — 60,850 words (stale)
@@ -61,6 +61,7 @@
 - [extraction-report](../extractions/eric-roth/extraction-report.md) [dai-media] — 3,011 words (stale)
 - [copywriting-extraction](../extractions/sam-parr/copywriting-extraction.md) — 2,994 words
 - [extraction-report](../extractions/satori-graphics/extraction-report.md) — 2,971 words
+- [extraction-report](../extractions/oren-dara-ad-psychology/extraction-report.md) [oren-john] — 2,927 words
 - [extraction-report](../extractions/dara-denney/extraction-report.md) — 2,925 words
 - [extraction-report](../extractions/ai-social-media-panel/extraction-report.md) [nathan-gotch] — 2,868 words (stale)
 - [DESIGN](design-libraries/brands/resend/DESIGN.md) — 2,859 words
@@ -210,6 +211,7 @@
 - [verification-record](../extractions/Sky Tan/verification-record.md) — 339 words
 - [AGENT](../extractions/meg-heckman/codex-prior-art/agent/AGENT.md) — 339 words
 - [source-ledger](../extractions/meg-heckman/codex-prior-art/skill/references/source-ledger.md) — 336 words
+- [visual-context](../extractions/oren-dara-ad-psychology/visual-context.md) [oren-john] — 325 words
 - [source-to-skill-contract](../extractions/video-context/3iR3kHxCwfo/source-to-skill-contract.md) — 319 words
 - [blind-pass-log](../extractions/jenny-hoyos-shorts/blind-pass-log.md) — 276 words
 - [article-notes](../extractions/kobi-brown-educational-virality/article-notes.md) — 275 words
@@ -361,7 +363,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 13,179 words
+- [log](log.md) — 13,205 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words
@@ -510,7 +512,7 @@
 - [product-design-scoring](../extractions/meg-heckman/codex-prior-art/skill/workflows/product-design-scoring.md) — 200 words
 - [assembly-rubric](assembly-rubric.md) — 145 words
 
-## Screenwriting (50 files)
+## Screenwriting (52 files)
 
 - [Claude-💎💎 Shaan Puri's Storytelling Formula](extractions/inbox/Claude-💎💎 Shaan Puri's Storytelling Formula.md) — 50,755 words (stale)
 - [Claude-💎💎🧑🏽_💻 Oscar Hoglund ! The Impact of Sound in Your Storytelling w! CEO of Epedemic Sound](extractions/inbox/Claude-💎💎🧑🏽_💻 Oscar Hoglund ! The Impact of Sound in Your Storytelling w! CEO of Epedemic Sound.md) — 50,452 words (stale)
@@ -543,6 +545,7 @@
 - [sample-005](expert-benchmarks/screenwriting/sample-005.md) — 503 words
 - [story-seller-framework](../extractions/joanna-wiebe-persuasion-mastery/prompts/story-seller-framework.md) — 496 words (stale)
 - [trailer_structure_derek_lieu](../extractions/creative-direction/trailer_structure_derek_lieu.md) — 475 words (stale)
+- [amplification-report](../extractions/oren-dara-ad-psychology/amplification-report.md) [oren-john] — 425 words
 - [validation-output](../extractions/Jun Yuh/validation-output.md) — 420 words (stale)
 - [cinema_studio_nodes](../extractions/creative-direction/cinema_studio_nodes.md) — 347 words (stale)
 - [source-to-skill-system-pilot](../extractions/video-context/FD53kEpLh9c/source-to-skill-system-pilot.md) — 251 words
@@ -551,6 +554,7 @@
 - [frame-notes](../extractions/video-context/a7VjpIqq8Xk/frame-notes.md) — 125 words
 - [frame-notes](../extractions/video-context/ohKt066uFhg/frame-notes.md) — 125 words
 - [asset-inventory](../extractions/mark-kashef-perfect-agentic-os-kit/asset-inventory.md) [nick-saraev] — 101 words
+- [blind-pass-log](../extractions/oren-dara-ad-psychology/blind-pass-log.md) [oren-john] — 94 words
 - [blind-pass-log](../extractions/joey-cinema-os/blind-pass-log.md) — 87 words
 - [uncertainty-report](../extractions/video-context/-WCNwxz3uoM/uncertainty-report.md) — 63 words
 - [uncertainty-report](../extractions/video-context/FD53kEpLh9c/uncertainty-report.md) — 63 words
@@ -563,7 +567,7 @@
 - [frame-notes](../extractions/video-context/Zc4E_K48v48/frame-notes.md) — 18 words
 - [ocr-notes](../extractions/video-context/Zc4E_K48v48/ocr-notes.md) — 18 words
 
-## Brand (48 files)
+## Brand (49 files)
 
 - [Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated](extractions/inbox/Claude-💎💎💎💡 Dai Media ! Identity Persona Mastery ! demographics are dumb and outdated.md) [dai-media] — 69,583 words (stale)
 - [Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out](extractions/inbox/Claude-🧑🏽_💻📱💎 Caleb Ralston ! Your Personal Brand Changes Once You Know How to Stand Out.md) — 63,227 words (stale)
@@ -608,6 +612,7 @@
 - [money-words-miner](../extractions/joanna-wiebe-persuasion-mastery/prompts/money-words-miner.md) — 427 words (stale)
 - [genius-patterns](../extractions/meg-heckman/codex-prior-art/skill/references/genius-patterns.md) — 404 words
 - [apparel_design_research](../extractions/creative-direction/apparel_design_research.md) — 403 words (stale)
+- [sample-taboo-concept-hairloss](../extractions/oren-dara-ad-psychology/blind-pass-samples/sample-taboo-concept-hairloss.md) [dai-media] — 402 words
 - [evolved-alex-suzuki-digital-product-revenue-os-2026-07-06](patterns/evolved-alex-suzuki-digital-product-revenue-os-2026-07-06.md) — 370 words
 - [kittl_notes](../extractions/creative-direction/kittl_notes.md) — 324 words (stale)
 - [quality-rubric](../extractions/meg-heckman/codex-prior-art/skill/references/quality-rubric.md) — 261 words

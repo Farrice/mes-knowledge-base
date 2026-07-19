@@ -1,12 +1,12 @@
 # Knowledge Briefing
-*Generated: 2026-07-19 | 687 sources | 2,756,024 words*
+*Generated: 2026-07-19 | 692 sources | 2,760,223 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
 - **index** (content) — 4,722 words — `knowledge/index.md`
-- **log** (general) — 13,179 words — `knowledge/log.md`
+- **log** (general) — 13,205 words — `knowledge/log.md`
 - **extraction-report** (content) — 3,859 words — `extractions/david-baldacci/extraction-report.md`
 - **blind-pass-log** (general) — 90 words — `extractions/david-baldacci-books-that-sell/blind-pass-log.md`
 - **blind-pass-sample-big-pop** (general) — 608 words — `extractions/david-baldacci-books-that-sell/blind-pass-sample-big-pop.md`
@@ -20,12 +20,12 @@
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 238 | nicolas-cole |
+| content | 240 | nicolas-cole |
 | copywriting | 97 | luke-iha |
 | general | 87 | nick-saraev |
 | strategy | 73 | april-dunford |
-| screenwriting | 50 | connelly |
-| brand | 48 | oren-john |
+| screenwriting | 52 | connelly |
+| brand | 49 | oren-john |
 | systems | 35 | nick-saraev |
 | seo | 26 | nathan-gotch |
 | research | 23 | dai-media |

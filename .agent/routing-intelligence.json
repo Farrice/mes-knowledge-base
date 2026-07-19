@@ -74,7 +74,7 @@
                 "nate-b-jones-context-engineering": 30,
                 "nate-b-jones-intent-engineering": 1,
                 "omar-eltakrori": 1,
-                "Extraction": 24,
+                "Extraction": 25,
                 "Strategy": 28,
                 "donald-miller-storybrand": 1,
                 "strength-conditioning-os": 7,
@@ -83,9 +83,9 @@
                 "jeremy-haynes-cold-offer": 1,
                 "doc-coauthoring": 6
             },
-            "total_routings": 483,
+            "total_routings": 484,
             "tier_counts": {
-                "0": 483,
+                "0": 484,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -96,7 +96,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 278,
-                "finalize-auto": 205
+                "finalize-auto": 206
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -316,7 +316,8 @@
                 "samuel-thompson-product-launch": 1,
                 "ross-minchev-digital-products": 1,
                 "samuel-thompson": 1,
-                "david-baldacci": 2
+                "david-baldacci": 2,
+                "oren-dara": 1
             },
             "total_feedback": 67,
             "negative_count": 0,
@@ -9678,6 +9679,23 @@
             "domain_detected": "Extraction",
             "experts_deployed": [
                 "david-baldacci"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_151148_85ec",
+            "timestamp": "2026-07-19T15:11:48.880866+00:00",
+            "session_id": "",
+            "request_summary": "Oren John × Dara Denney — Ad Psychology mastery extraction (forge): oren-dara-ad-psychology, 10 workflows + 10 born-v2 prompts + front door, from FFU45SKaeYM watched with frame verification",
+            "intent_score": 8,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "oren-dara"
             ],
             "tier_loaded": 0,
             "mode": "finalize-auto",
