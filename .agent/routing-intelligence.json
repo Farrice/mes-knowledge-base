@@ -63,7 +63,7 @@
                 "story-bible-builder": 1,
                 "jason-fladlien-marketing": 9,
                 "how-i-write-os": 12,
-                "supercomputer": 18,
+                "supercomputer": 19,
                 "design-md": 13,
                 "fantastic-posters": 2,
                 "Creative": 8,
@@ -81,11 +81,11 @@
                 "simon-intellectual-library-os": 1,
                 "creative-campaign-strategy": 2,
                 "jeremy-haynes-cold-offer": 1,
-                "doc-coauthoring": 6
+                "doc-coauthoring": 7
             },
-            "total_routings": 484,
+            "total_routings": 486,
             "tier_counts": {
-                "0": 484,
+                "0": 486,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -95,7 +95,7 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 278,
+                "hybrid": 280,
                 "finalize-auto": 206
             },
             "expert_counts": {
@@ -163,13 +163,13 @@
                 "kallaway-content-psychology": 1,
                 "andrew-dun-vibe-consulting": 1,
                 "luke-iha-cross-domain": 1,
-                "theme-factory": 7,
+                "theme-factory": 8,
                 "luke-iha-avatar-machine": 13,
                 "docx": 4,
                 "tommy-clark": 2,
                 "deliberate": 27,
                 "creative-director": 1,
-                "doc-coauthoring": 31,
+                "doc-coauthoring": 32,
                 "dan-wang-literary-analysis": 2,
                 "webapp-testing": 2,
                 "brand-operating-system": 24,
@@ -236,7 +236,7 @@
                 "story-bible-builder": 2,
                 "jason-fladlien-marketing": 11,
                 "luisa-zhou-coaching": 2,
-                "supercomputer": 31,
+                "supercomputer": 32,
                 "design-md": 22,
                 "alex-content-science": 2,
                 "system-audit": 23,
@@ -245,7 +245,7 @@
                 "fantastic-posters": 9,
                 "research-engine": 1,
                 "t": 3,
-                "corey-mcclain-persona-engineering": 44,
+                "corey-mcclain-persona-engineering": 45,
                 "henrik-werdelin-portfolio-entrepreneurship": 1,
                 "ben-watkins": 1,
                 "pptx": 10,
@@ -276,7 +276,7 @@
                 "chief-of-staff-os": 13,
                 "oren-brand-archetypes": 1,
                 "master-copywriter": 3,
-                "henry-shukman-contemplative-writing": 3,
+                "henry-shukman-contemplative-writing": 4,
                 "youtube-video-context-analysis": 2,
                 "sharran-srivatsaa-scaling": 3,
                 "dai-media-consumer-posture": 3,
@@ -312,7 +312,7 @@
                 "diandra-escobar-linkedin-growth": 1,
                 "matthew-volkwyn-copywriting": 1,
                 "tess-barclay-social-content": 1,
-                "kallaway-ai-content-engine": 6,
+                "kallaway-ai-content-engine": 7,
                 "samuel-thompson-product-launch": 1,
                 "ross-minchev-digital-products": 1,
                 "samuel-thompson": 1,
@@ -321,7 +321,7 @@
             },
             "total_feedback": 67,
             "negative_count": 0,
-            "ensemble_count": 360,
+            "ensemble_count": 362,
             "auto_miss_count": 53,
             "positive_count": 0
         }
@@ -9702,6 +9702,44 @@
             "workflow_used": "extract-forge",
             "ensemble": false,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_151834_21ee",
+            "timestamp": "2026-07-19T15:18:34.064686+00:00",
+            "session_id": "16c44131-9fe6-48f6-81ed-6f214aec701d",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "doc-coauthoring",
+            "experts_deployed": [
+                "doc-coauthoring",
+                "corey-mcclain-persona-engineering",
+                "kallaway-ai-content-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "doc-coauthoring",
+            "ensemble": true,
+            "compound_pairing": "doc-coauthoring + corey-mcclain-persona-engineering + kallaway-ai-content-engine",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_151908_a326",
+            "timestamp": "2026-07-19T15:19:08.429950+00:00",
+            "session_id": "4e14071c-f186-46e7-a2f7-fb57a64d38ae",
+            "request_summary": "run /go I think one of the coolest aspects that we had early on that we developed, but we haven't developed any craft-like workflows and skills and pairings in a while, is that we cross them, meaning ",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "theme-factory",
+                "henry-shukman-contemplative-writing"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + theme-factory + henry-shukman-contemplative-writing",
             "feedback": null
         }
     ]
