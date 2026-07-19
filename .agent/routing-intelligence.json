@@ -65,7 +65,7 @@
                 "how-i-write-os": 12,
                 "supercomputer": 18,
                 "design-md": 13,
-                "fantastic-posters": 1,
+                "fantastic-posters": 2,
                 "Creative": 8,
                 "Legal Consult Prep": 1,
                 "corey-mcclain-persona-engineering": 1,
@@ -82,9 +82,9 @@
                 "creative-campaign-strategy": 2,
                 "jeremy-haynes-cold-offer": 1
             },
-            "total_routings": 470,
+            "total_routings": 471,
             "tier_counts": {
-                "0": 470,
+                "0": 471,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -94,7 +94,7 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 268,
+                "hybrid": 269,
                 "finalize-auto": 202
             },
             "expert_counts": {
@@ -172,7 +172,7 @@
                 "dan-wang-literary-analysis": 2,
                 "webapp-testing": 2,
                 "brand-operating-system": 24,
-                "chase-hughes-conversational-influence": 8,
+                "chase-hughes-conversational-influence": 9,
                 "daniel-priestley": 1,
                 "jason-fladlien": 1,
                 "swarm-commander": 3,
@@ -241,7 +241,7 @@
                 "system-audit": 23,
                 "david-bayer-elite-communication": 18,
                 "lamott-allen-really-real-writing": 2,
-                "fantastic-posters": 8,
+                "fantastic-posters": 9,
                 "research-engine": 1,
                 "t": 3,
                 "corey-mcclain-persona-engineering": 38,
@@ -309,11 +309,12 @@
                 "alex-suzuki-digital-product-revenue-os": 3,
                 "creative-campaign-strategy": 3,
                 "diandra-escobar-linkedin-growth": 1,
-                "matthew-volkwyn-copywriting": 1
+                "matthew-volkwyn-copywriting": 1,
+                "tess-barclay-social-content": 1
             },
             "total_feedback": 64,
             "negative_count": 0,
-            "ensemble_count": 349,
+            "ensemble_count": 350,
             "auto_miss_count": 51,
             "positive_count": 0
         }
@@ -9409,6 +9410,25 @@
             "workflow_used": "jh-cold-dm-ig",
             "ensemble": false,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_093508_e32f",
+            "timestamp": "2026-07-19T09:35:08.281542+00:00",
+            "session_id": "cfc1ce8d-b82a-433e-b3a3-ec957ecb1de9",
+            "request_summary": "# Mission Card — Source re-acquisition filing pass (archive → extractions/)\nTier: T1\nProduced: 2026-07-18 (queued by Fable conductor, Farrice-directed maiden run)\n\n## Objective\nRepo-local recovery wor",
+            "intent_score": 0,
+            "domain_detected": "fantastic-posters",
+            "experts_deployed": [
+                "fantastic-posters",
+                "tess-barclay-social-content",
+                "chase-hughes-conversational-influence"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "fantastic-posters",
+            "ensemble": true,
+            "compound_pairing": "fantastic-posters + tess-barclay-social-content + chase-hughes-conversational-influence",
             "feedback": null
         }
     ]

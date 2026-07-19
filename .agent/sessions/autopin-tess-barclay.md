@@ -1,23 +1,3 @@
-# Latest Handoff
-
-**Thread:** tess-barclay  
-**Full path:** .agent/handoffs/2026-07-19-tess-barclay.md  
-**Date:** 2026-07-19 (today)  
-**Status:** active  
-**Title:** Tess Barclay — Readme
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume tess-barclay` for this one.
-
----
-
----
-thread: tess-barclay
-status: active
-resume_hint: Tess Barclay — Readme
-branch: main
-pin: true
----
-
 # Tess Barclay — Readme
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
@@ -25,4 +5,3 @@ pin: true
 **Artifacts:** /Users/farricecain/Google Antigravity/extractions/tess-barclay/README.md
 
 **Retrieve:** `/resume tess-barclay`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
-
