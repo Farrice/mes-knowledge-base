@@ -459,3 +459,28 @@ Emotionally green-lighting the Zig Ziglar webinar because Ziglar mattered to him
 
 #### Signature Move (net-new)
 - **The Contrast-Pair Teach**: Never teaches a language pattern abstractly — always "Instead of [normal phrasing], say [pattern]," followed by the mechanism in one breath ("Ask why → you trigger rationalization. Ask how → you get process."). The 15-patterns video is 15 consecutive contrast pairs. → **Deploy when**: teaching or documenting any persuasion/copy technique; writing pattern-bank references.
+
+#### Tranche 3 addendum (2026-07-19, gap-close pass — 6 items the first pass left in the transcript)
+
+**Hidden Knowledge — The Consult Ratio & the Goodwill Cash-In Question**
+- **Insight**: On Hormozi's second book launch: "We spent six hours just on offer and positioning. We spent an hour just on the webinar itself." The webinar man spends 6:1 on offer/positioning over the presentation — the pitch is downstream of the position. And his first question when a brand wants to monetize its goodwill: "If you've built up all this goodwill in your brand, why is NOW the time to cash it in? There will be a downside — is it acceptable that we live with this downside?" (Alex, after later deciding to give the book away free: "Still haunts me to this day.")
+- **Deploy**: Any launch consult — price the downside of spending brand equity BEFORE designing the mechanism; allocate design time 6:1 position:presentation.
+
+**Hidden Knowledge — One Word Per Market (the Branding Box)**
+- **Insight**: "The consumer can hold only one word per industry... this is how markets function." The "$250M webinar man" label undersells him — his actual value: "You give me an audience that is qualified to purchase and I will extract more conversion events out of that audience than pretty much anybody alive." Category labels compress you; the compression is the price of being held in memory at all. He admits he never helped the market re-categorize him — and paid for it in positioning.
+- **Deploy**: Choose your one word deliberately (it WILL be assigned otherwise); make it the word the buyer pays most for, not the mechanism you're known by.
+
+**Hidden Knowledge — State Perishability (Go Long While They're Hot)**
+- **Insight**: The go-long rationale, verbatim from a consult: "These are your best leads. They've already invested an hour and a half in your best material. They're in the best emotional state to make a decision right now. Why wouldn't you spend more time with your best leads in a temporary state that they're in right now — that tomorrow they won't be in anymore? And every emotional state has leverage." Emotional states are perishable inventory; overtime with hot leads outperforms fresh touches on cold ones.
+- **Deploy**: Never schedule the deep ask for "later" when the state exists NOW — extend the session (Hormozi day-one stream; Iman 2-3hr overtimes) instead of splitting it.
+
+**Hidden Knowledge — Views Are Not Commerce**
+- **Insight**: On his own 20M views/90 days: "These are views, but the commercial intention right now is so negligible." The listicle hack ("five things before 5 a.m., one-line banger each — greatest value per second anywhere") kites views, but "how does that translate into somebody wanting to do business with you? They need to watch 11 more of those AND have a problem you can solve." Mass content buys awareness; the webinar's 7%-of-market depth closes. AI stance (market signal, his claims): "AI is fantastic at untangling knots, but terrible at tying the knots in the first place"; the last mile stays hard 10-15 years; AI "generally only favors people that are already competent at the skill" — which raises demand for the competent.
+- **Deploy**: Score content by commercial intention, not reach; use mass content only as the invitation layer to the deep asset (§14, §23).
+
+**Pattern §26 enrichment — The Three-Element Game Test**
+- From the rapper post-mortem: "There's three elements that require success. You have to have absolute passion for it — passion isn't sufficient but it is necessary. You've got to have the right aptitude to extract value out of it. And it's got to be trending upwards." Music: passion yes, aptitude no ("I had to work 10 hours a day just to be okay — some guys didn't and were already better"), trend down (CDs dying). Marketing: all three. Run all three before entering any game; two of three = pass.
+
+**Exemplar — The Hundredth Webinar Confession** (pain→hope bridge, verbatim)
+"The market's coming in saying: listen, I bought 99 courses on how to make money online. I've failed 99 times. My friends think I'm an idiot. Even my significant other wants me to give it up. Nobody believes in me. I don't even believe in me. But here my dumbass is on the hundredth webinar getting pitched again on another money-making opportunity. — By the way, people don't think I say that on webinars. I say that on webinars. Why do we have to make it dressed up? That's the reality of it. Now here's where most people would stop — they would say that's a bad thing. I'm like, that is a GOOD thing. Most successful people failed 99 times before they made it their hundredth time. They didn't fail 99 times. They took 99 steps toward success. No one step was successful — but if you remove any of those steps, success wasn't going to occur."
+- **What makes this excellent**: Radical candor said FOR the prospect (their inner monologue voiced verbatim, shame included) → reframe (99 failures = 99 steps) → the hope gate: "Until you can hope, it doesn't matter what you can hope for." The pain section's job is not agitation — it's earning the right to reopen hope: "Now they can dare to dream when before dreaming was scary." Sequence: hook → pain → hope/gain → position.

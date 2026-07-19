@@ -10,6 +10,8 @@ load_context: "genius.md"
 > "If I'm smart about anything, it's I don't play games which I lose. I only play games which I can win. It's not so much because of the games I play — it's because of the games that I don't play."
 > — Jason Fladlien
 
+> **Tranche-3 opening screen (2026-07-19)** — before any advantage analysis, run the Three-Element Game Test from the rapper post-mortem: (1) absolute passion ("passion isn't sufficient but it is necessary"), (2) aptitude to extract value ("I had to work 10 hours a day just to be okay — some guys didn't and were already better"), (3) the game trending upwards (he was selling CDs as the CD died). Two of three = PASS on the game. See genius.md §26 enrichment.
+
 > "I want to give my audience an advantage so great that even if they don't like me, they have to buy my product. No like and distrust — and still buy."
 > — Jason Fladlien
 

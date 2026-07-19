@@ -74,7 +74,7 @@
                 "nate-b-jones-context-engineering": 30,
                 "nate-b-jones-intent-engineering": 1,
                 "omar-eltakrori": 1,
-                "Extraction": 27,
+                "Extraction": 28,
                 "Strategy": 31,
                 "donald-miller-storybrand": 1,
                 "strength-conditioning-os": 7,
@@ -86,9 +86,9 @@
                 "luke-iha-vicious-hooks": 1,
                 "mike-taylor-synthetic-research": 1
             },
-            "total_routings": 515,
+            "total_routings": 516,
             "tier_counts": {
-                "0": 515,
+                "0": 516,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -99,7 +99,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 292,
-                "finalize-auto": 223
+                "finalize-auto": 224
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -178,7 +178,7 @@
                 "brand-operating-system": 24,
                 "chase-hughes-conversational-influence": 9,
                 "daniel-priestley": 1,
-                "jason-fladlien": 2,
+                "jason-fladlien": 3,
                 "swarm-commander": 3,
                 "donald-miller-cognitive-load": 3,
                 "kallaway-illusion-of-novelty": 4,
@@ -10342,6 +10342,23 @@
             "tier_loaded": 0,
             "mode": "finalize-auto",
             "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_200035_6787",
+            "timestamp": "2026-07-19T20:00:35.683092+00:00",
+            "session_id": "",
+            "request_summary": "Fladlien forge standard-verification + gap-close: 6 missed secrets recovered from interview transcript (consult ratio, one-word-per-market, state perishability, views-vs-commerce+AI, three-element gam",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "jason-fladlien"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-amplify",
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
