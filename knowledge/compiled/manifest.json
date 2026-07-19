@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-19T10:55:36.408690",
+  "generated": "2026-07-19T11:09:49.922499",
   "total_files": 694,
-  "total_words": 2776599,
-  "total_tokens_est": 3692876,
+  "total_words": 2776661,
+  "total_tokens_est": 3692959,
   "stale_files_30d": 455,
   "domains": {
     "content": 242,
@@ -1977,11 +1977,11 @@
       "parent": "knowledge",
       "domain": "content",
       "expert": null,
-      "word_count": 4752,
-      "modified": "2026-07-19T10:34:39.301032",
+      "word_count": 4763,
+      "modified": "2026-07-19T11:09:48.020715",
       "age_days": 0,
-      "size_bytes": 81104,
-      "content_hash": "37b996ae",
+      "size_bytes": 81291,
+      "content_hash": "e44bd0cc",
       "has_frontmatter": false
     },
     {
@@ -1990,10 +1990,10 @@
       "parent": "knowledge",
       "domain": "general",
       "expert": null,
-      "word_count": 13402,
-      "modified": "2026-07-19T10:55:36.109771",
+      "word_count": 13453,
+      "modified": "2026-07-19T11:09:49.722543",
       "age_days": 0,
-      "size_bytes": 104811,
+      "size_bytes": 105228,
       "content_hash": "5a51f947",
       "has_frontmatter": false
     },
@@ -3305,7 +3305,7 @@
       "expert": null,
       "word_count": 2147,
       "modified": "2026-03-06T11:02:40.609863",
-      "age_days": 134,
+      "age_days": 135,
       "size_bytes": 14529,
       "content_hash": "bf443432",
       "has_frontmatter": false
@@ -3630,7 +3630,7 @@
       "expert": null,
       "word_count": 5183,
       "modified": "2026-07-16T11:09:26.621293",
-      "age_days": 2,
+      "age_days": 3,
       "size_bytes": 32741,
       "content_hash": "5e58c91f",
       "has_frontmatter": false

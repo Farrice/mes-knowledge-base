@@ -542,3 +542,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-19 10:33]` **finalize** | Proof-to-Market founder-primary restage: buyer pole fixed + 5 pillars realigned to founder psycholog | strategy | april-dunford-x-jeremy-haynes — composite:8.33 status:Keep
 - `[2026-07-19 10:34]` **finalize** | Buyer Council OS: /buyer-council front door LIVE — triage mode (Mike Taylor 10-persona joint-anonymo | general | geoff-woods-x-mike-taylor — composite:8.33 status:Keep
 - `[2026-07-19 10:55]` **finalize** | Mike Taylor — Synthetic Customer Research OS (forge) | research | mike-taylor — composite:8.33 status:Keep
+- `[2026-07-19 11:09]` **finalize** | First full-stack Buyer Council COUNCIL run on PROOF-TO-MARKET-OS v2.1: 5-seat grounded panel (honest | general | geoff-woods-x-mike-taylor — composite:8.67 status:Keep
+- `[2026-07-19 11:09]` **finalize** | Crossing Wave 3 opener: kallaway-x-dunford forged + PoC-proven — Dunford truth spine, Kallaway per-c | general | kallaway-x-april-dunford — composite:8.33 status:Keep

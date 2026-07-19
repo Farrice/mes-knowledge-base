@@ -1,12 +1,12 @@
 # Knowledge Briefing
-*Generated: 2026-07-19 | 694 sources | 2,776,599 words*
+*Generated: 2026-07-19 | 694 sources | 2,776,661 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 4,752 words — `knowledge/index.md`
-- **log** (general) — 13,402 words — `knowledge/log.md`
+- **index** (content) — 4,763 words — `knowledge/index.md`
+- **log** (general) — 13,453 words — `knowledge/log.md`
 - **extraction-report** (content) — 3,859 words — `extractions/david-baldacci/extraction-report.md`
 - **blind-pass-log** (general) — 90 words — `extractions/david-baldacci-books-that-sell/blind-pass-log.md`
 - **blind-pass-sample-big-pop** (general) — 608 words — `extractions/david-baldacci-books-that-sell/blind-pass-sample-big-pop.md`

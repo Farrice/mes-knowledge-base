@@ -101,8 +101,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-07-19 (chain_runner finalize for mike-taylor-synthetic-research) |
-| **Activation Count** | 677 |
+| **Last Activated** | 2026-07-19 (chain_runner finalize for kallaway-illusion-of-novelty) |
+| **Activation Count** | 679 |
 | **30-Day Review Date** | 2026-08-18 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

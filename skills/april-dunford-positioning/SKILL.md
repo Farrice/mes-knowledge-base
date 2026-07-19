@@ -45,6 +45,7 @@ She operates two interlocking systems:
 | copy-bridge | [Positioning-to-Copy Bridge](workflows/dunford-positioning-to-copy.md) | Copy Brief & Messaging Framework Anchored to Positioning | Translate finished positioning into a structured brief for downstream copy experts (Wiebe, Sultanic, Kallaway). |
 | haynes-handshake | [Dunford → Haynes Handshake](workflows/dunford-handshake-haynes.md) | Temperature-Staged Cold-Offer Stack | Positioning is done but the same pitch is firing at cold strangers, warm engaged readers, and hot inbound leads alike — recompose the offer per audience temperature before scaling outbound. |
 | godin-handshake | [Godin → Dunford Handshake](../seth-godin-marketing-mind/workflows/16-godin-handshake-dunford.md) | Cleared Premise Card + 5-Component Build | The positioning premise itself has never been interrogated — trap named, fuzzy word split, who's-it-for reset — before a full 5-component build runs on it. Run BEFORE `product`/`diagnostic` when the premise is suspect. |
+| kallaway-dunford | [Kallaway × Dunford](../kallaway-illusion-of-novelty/workflows/kallaway-x-dunford.md) | Novelty-Passed Positioning (truth unchanged) | The 5-component build is done and factually sound but reads like every other player's deck in the category — a per-component expression pass makes the true claim land as new without strengthening or inventing anything. Truth-bending is an instant kill. |
 
 ## Cross-Expert Stacking Chains
 
@@ -57,6 +58,7 @@ She operates two interlocking systems:
 | Fear → Deal Close | Dunford `fear` → Dunford `deal` | Buyer fear map → champion enablement |
 | Diagnostic → Full Rebuild | Dunford `diagnostic` → Dunford `product` → Dunford `siege` | Failure diagnosis → repositioning → stress test |
 | Niche → GTM | Dunford `niche` → Dunford `gtm` | Pin 1 selection → expansion roadmap |
+| Positioning → Novelty Pass | Dunford `product`/`diagnostic` → `kallaway-dunford` | Finished, true positioning reads stock in a saturated category — re-express without re-claiming |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
