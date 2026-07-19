@@ -10,6 +10,11 @@
 
 | I want to… | Go to |
 |---|---|
+| **SEO / AEO / AI search visibility (Nathan Gotch)** | |
+| Diagnose why AI doesn't recommend a brand that ranks fine in Google | [Nathan Gotch Forge](2026-07-19-nathan-gotch-forge.md) |
+| Build a one-day category strategy (90-180 day push) | [Nathan Gotch Forge](2026-07-19-nathan-gotch-forge.md) |
+| Mine citations into earned/owned/distribution targets, build competitor comparison ladders | [Nathan Gotch Forge](2026-07-19-nathan-gotch-forge.md) |
+| Produce a client-facing AI-visibility receipts deck on $0 tooling (P2M Shadow module) | [Nathan Gotch Forge](2026-07-19-nathan-gotch-forge.md) |
 | **Copywriting / creative strategy (Ron Lynch)** | |
 | Run Lynch's genius on any single piece of copy | [Ron Lynch Arsenal](2026-07-19-ron-lynch-arsenal.md) |
 | Draft in flow state / break an "I can't" block | [Ron Lynch Arsenal](2026-07-19-ron-lynch-arsenal.md) |
@@ -80,6 +85,7 @@
 
 *(newest first)*
 
+- 2026-07-19 — [Nathan Gotch Forge](2026-07-19-nathan-gotch-forge.md) — operational AI SEO layer from the JerkyGent teardown: 9 workflows, first primary Gotch source, counted-citation diagnosis doctrine
 - 2026-07-15 — [Tommy Clark LinkedIn OS](2026-07-15-tommy-clark-2026.md) — 2026 Three-Moat expansion: uncopyable-post filter, TLA engine + edit-post CTA, data/physical moats
 - 2026-07-15 — [Cold-Offer OS + Expert Front Doors](2026-07-15-cold-offer-frontdoor.md) — Haynes cold-traffic offer skill (13 wf); /[expert-name] = full arsenal for all 222 experts; generators-only registration; DWA presale audited + fixed
 - 2026-07-15 — [Expert Assembly OS](2026-07-15-expert-assembly-os.md) — hybrid panel: roster + forged composites (no fake stats), tiered roadmap, /panel-sync persistence
