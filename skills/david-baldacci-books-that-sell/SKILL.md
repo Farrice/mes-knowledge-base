@@ -5,7 +5,7 @@ domain: Commercial fiction craft + author business economics
 when_to_use: Writing fiction or narrative nonfiction that must sell, ebook/digital-product creation end-to-end, book premises and jacket/back-cover copy, character design, dialogue/scene editing passes, pacing peak moments, publishing/platform/licensing deal analysis, book launch and distribution strategy, post-release breakdowns
 version: "1.0"
 format: completion-engine
-workflows: 13
+workflows: 14
 tiers: 3
 source: David Perell "How I Write" interview (yDqPHJK0E5Q, 91 min, 19,708-word transcript), extracted 2026-07-19 forge-tier
 ---
@@ -18,7 +18,7 @@ source: David Perell "How I Write" interview (yDqPHJK0E5Q, 91 min, 19,708-word t
 
 ## Available Workflows
 
-Slash commands: `/baldacci-big-pop` `/baldacci-premise-seed` `/baldacci-character-baggage` `/baldacci-trenches-draft` `/baldacci-scene-audit` `/baldacci-dialogue-economy` `/baldacci-slow-the-peak` `/baldacci-eyewitness-research` `/baldacci-stakes-forge` `/baldacci-author-economics` `/baldacci-find-your-readers` `/baldacci-ebook-flywheel` `/baldacci-game-film` (wrappers in `.agent/workflows/`).
+Slash commands: `/baldacci-big-pop` `/baldacci-premise-seed` `/baldacci-character-baggage` `/baldacci-trenches-draft` `/baldacci-scene-audit` `/baldacci-dialogue-economy` `/baldacci-slow-the-peak` `/baldacci-eyewitness-research` `/baldacci-stakes-forge` `/baldacci-author-economics` `/baldacci-find-your-readers` `/baldacci-ebook-flywheel` `/baldacci-game-film` `/baldacci-audience-downshift` (wrappers in `.agent/workflows/`).
 
 ### Tier 1 — Foundation (the core methodology)
 
@@ -38,6 +38,7 @@ Slash commands: `/baldacci-big-pop` `/baldacci-premise-seed` `/baldacci-characte
 | `workflows/slow-the-peak.md` | Engineer the finite peak moments | Peak map + rewritten slow-motion peak passages with consequence landing |
 | `workflows/eyewitness-research.md` | One-day eyewitness research pass | Day-map, primary-artifact log, 3-5 "mechanical cowboy" planted details |
 | `workflows/stakes-forge.md` | Faustian stakes + zeitgeist resonance | Stakes architecture (no-clean-exit choice, consequence chain) + named current-anxiety link |
+| `workflows/audience-downshift.md` | Downshift register without writing down (amplify addition) | Downshifted text — word-choice dial only, heightened attention standards, peril-check log |
 
 ### Tier 3 — Business & Stacking (the layer other writing skills lack)
 
@@ -60,6 +61,7 @@ Slash commands: `/baldacci-big-pop` `/baldacci-premise-seed` `/baldacci-characte
 | `meg-heckman-buyer-trigger-os` | Jacket copy × buyer triggers for listing/back-cover conversion |
 | `kallaway-*` / `novelty-*` | Knowledge pots + unanswered questions as premise-grade seeds for the novelty engine |
 | `writers-room` | Baldacci as a seat for commercial-viability and reader-control dissent on drafts |
+| `david-perell` | Read-the-masters reverse-engineering (Perell's reading-as-extraction) feeding Baldacci's "why was that a great story?" study loop |
 
 ## Quick Reference
 
@@ -77,8 +79,9 @@ Slash commands: `/baldacci-big-pop` `/baldacci-premise-seed` `/baldacci-characte
 
 ## Execution Prompts (structure-pure v2)
 
-13 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+14 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
+- **David Baldacci — Audience Downshift Pass** — `skills/david-baldacci-books-that-sell/references/prompts-v2/audience-downshift-pass.md`
 - **David Baldacci — Author Deal Brief** — `skills/david-baldacci-books-that-sell/references/prompts-v2/author-deal-brief.md`
 - **David Baldacci — Big Pop Opening** — `skills/david-baldacci-books-that-sell/references/prompts-v2/big-pop-opening.md`
 - **David Baldacci — Character Baggage Dossier** — `skills/david-baldacci-books-that-sell/references/prompts-v2/character-baggage-dossier.md`

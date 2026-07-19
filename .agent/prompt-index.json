@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7208,
+ "count": 7209,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -5349,6 +5349,13 @@
    "title": "Workflow Productizer",
    "gist": "Package automation into a sellable system product.",
    "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/workflow-productizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-baldacci-books-that-sell",
+   "title": "David Baldacci \u2014 Audience Downshift Pass",
+   "gist": "You are executing Baldacci's younger-audience doctrine (7 children's books alongside 53 novels): \"The only difference between adult fiction and writing for younger audiences is word choice. All the rest is the same, if n",
+   "path": "skills/david-baldacci-books-that-sell/references/prompts-v2/audience-downshift-pass.md"
   },
   {
    "kind": "prompt-v2",
