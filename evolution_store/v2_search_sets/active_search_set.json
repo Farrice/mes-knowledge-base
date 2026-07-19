@@ -2475,8 +2475,36 @@
         "gaming_flag": false
       },
       "notes": "Followed AUTOMATION_PROMPT.md exactly except Drive disabled by current user instruction overriding prompt conflict; full brief in local artifact; ledger appended 3 rows; JSONL/export/grounding/claim gates pass; content finish WARN only from required structure/prose_classifier | platform: codex | Verification: PASS local / PARTIAL finalize mismatch | Anchor: V4 high-taste output OS"
+    },
+    {
+      "trace_id": "20260718_200632",
+      "timestamp": "2026-07-18T20:06:32.650025",
+      "schema_version": "v3",
+      "component": "claim-safe-health-marketing",
+      "expert": "farrice-cain",
+      "workflow": "manual",
+      "quality": {
+        "composite": 7.67,
+        "intent_alignment": 9.0,
+        "expert_standard": 5.0,
+        "adversarial_resilience": 9.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "v2.0 Path A canonical, replaces CANONICAL-OFFER-BRIEF | Prose classifier FLAGGED (AI 10/10; 42 em-dashes, aphoristic endings, structural emoji) \u2014 Expert Standard capped at 6 per Wave 1 rule; strategic depth is present but prose surface tells prevent >6 | Factual Grounding: 7 | Verification: PARTIAL \u2014 Ahrefs plan-gating verified 2026-07-18; Dream 100 occasions labeled 'verify on LinkedIn before outreach'; Pillar 5 stats hedged with ~ but need inline sourcing before external use | Anchors cited: yes (Intent 9, Adversarial 9); Expert 6 = Anchor 6 (competent with tells) | Anchor: Anchor 9 \u2014 Intent: user can complete workflow with zero clarification (self-executing canonical OS); Adversarial: trade-offs surfaced rather than hidden, 5+ objections preempted (messaging-vs-visibility, legal lag, claim-safe wedge, diagnostic-vs-proof, 25-day math, defamation risk on named-brand teardowns)"
     }
   ],
-  "total_cases": 87,
-  "last_updated": "2026-07-18T06:41:07.627937"
+  "total_cases": 88,
+  "last_updated": "2026-07-18T20:06:32.652213"
 }

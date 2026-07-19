@@ -8071,6 +8071,23 @@
             "ensemble": true,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_030632_df74",
+            "timestamp": "2026-07-19T03:06:32.644370+00:00",
+            "session_id": "",
+            "request_summary": "PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnos",
+            "intent_score": 9,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "farrice-cain"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "manual",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -8617,7 +8634,7 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 446,
+            "total_routings": 447,
             "total_feedback": 60,
             "positive_count": 0,
             "negative_count": 0,
@@ -8626,7 +8643,7 @@
                 "System": 63,
                 "Client Work": 14,
                 "Analysis": 6,
-                "Strategy": 24,
+                "Strategy": 25,
                 "Creative": 8,
                 "Legal Consult Prep": 1,
                 "Content": 45,
@@ -8901,10 +8918,11 @@
                 "tom-noske-personal-brand": 1,
                 "tyler-denk-audience-monetization": 1,
                 "april-dunford": 1,
-                "lara-acosta": 1
+                "lara-acosta": 1,
+                "farrice-cain": 1
             },
             "tier_counts": {
-                "0": 446,
+                "0": 447,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -8913,7 +8931,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 254,
-                "finalize-auto": 192
+                "finalize-auto": 193
             },
             "ensemble_count": 334,
             "auto_miss_count": 49,

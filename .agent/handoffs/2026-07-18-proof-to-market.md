@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** proof-to-market  
-**Full path:** .agent/handoffs/2026-07-18-proof-to-market.md  
-**Date:** 2026-07-18 (today)  
-**Status:** ready  
-**Title:** PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume proof-to-market` for this one.
-
----
-
 ---
 thread: proof-to-market
 status: ready
@@ -25,4 +13,3 @@ pin: true
 **Next session focus**: Resume the `proof-to-market` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (manual)._
-

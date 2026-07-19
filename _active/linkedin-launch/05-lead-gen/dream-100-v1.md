@@ -42,20 +42,20 @@
 | A | NativePath | Creatine-for-seniors launch Jul 16 [GlobeNewswire] | Head of Brand | VERIFIED | Cold, occasion-anchored | Teardown DM on active-aging + claim-safety |
 | B | Proper | Sleep + coaching, ~$9.5M raised [Pronto] | Founder / Head of Brand | LIKELY | Comment orbit | Sleep-category sameness teardown |
 | B | Spacegoods | Rainbow Dust (caffeine+mushrooms), $3.8M seed | Founder / Brand Lead | LIKELY | Comment orbit | Nootropic "sea of same" angle |
-| B | Rae Wellness | $14M Series A, millennial/vegan [Pronto] | VP Brand | LIKELY | Comment orbit | Differentiation-through-language teardown |
+| B | Rae Wellness | $9.5M Series A (Powerplant Partners lead), millennial/vegan [PRNewswire 2021] | VP Brand | VERIFIED | Comment orbit | Differentiation-through-language teardown |
 | B | Rootine | $10M Series A, DNA personalization [Pronto] | Head of Brand / Growth | LIKELY | Comment orbit | Personalization claim-safety angle |
-| B | Danny Yeung (IM8) | $120M in 11 months, expert-roster model [Recall] | Danny Yeung, Founder | VERIFIED (name) | Warm reopener | Engage his expert-credibility content directly |
+| B | Danny Yeung (IM8) | $100M ARR in 11 months (Dec 2024 launch), expert-roster model [Yahoo Finance / Prenetics Global] | Danny Yeung, Founder | VERIFIED | Warm reopener | Engage his expert-credibility content directly |
 | B | Superhuman (drink) | Gym-culture top-funnel + new drink SKU [Recall] | Founder / Brand Lead | VERIFIED | Comment orbit | Message-system pitch for the new SKU |
 | B | Vitamin Shoppe | 2026 Trend Report published, buyer-education signal | Merch / Brand Partnerships | VERIFIED | Cold, occasion-anchored | Retailer-brief positioning support for their brands |
 | B | Gainful | "New Era of Protein" relaunch — repositioning signal [merged, wellness-supplement-brand-niche.md] | Head of Brand / Growth | LIKELY | Comment orbit | Repositioning teardown, tie to relaunch copy |
-| B | Ghost Lifestyle | $100M+ rev, Costco collab — retail expansion [merged] | Cofounder (brand face) | LIKELY | Warm reopener | Engage cofounder's own content on the collab |
-| C | The Stack | Pre-seed raise, early-stage budget uncertain | Founder | LIKELY | Cold | "Message before money" note, low-pressure |
+| C | Ghost Lifestyle | Acquired by Keurig Dr Pepper $1.65B (2024); post-acquisition KDP partnership [Yahoo Finance]; incumbent benchmark | Cofounder role unclear post-acquisition | VERIFIED (acq only) | Teardown-only | Acquired-brand positioning case study |
+| — | The Stack | ~~Pre-seed raise~~ **India-based (Mumbai); ₹5.5 crore (~$660K); not US-market fit** [Entrackr/Tracxn] | Founder | UNCONFIRMED | Removed | Geography/market mismatch with US-only $2.5K offering |
 | C | Ritual | Transparency-leader incumbent | Head/VP Brand | VERIFIED | Teardown-only | AI-Search Shadow benchmark vs. challengers |
 | C | Seed | Gut-health leader | Brand/Content Dir. | VERIFIED | Teardown-only | Claim-safe science-comms benchmark angle |
 | C | Momentous | Athlete-grade single-ingredient | VP Brand | VERIFIED | Teardown-only | Performance-practitioner credibility benchmark |
 | C | Needed | Prenatal, trust-first | Head of Brand | VERIFIED | Teardown-only | Trust-as-conversion benchmark |
 | C | Thorne | Clinical-purity positioning | Brand Marketing Lead | VERIFIED | Teardown-only | Sameness-escape-in-"clinical" benchmark |
-| C | Plunge | Cold plunge, Gen-2 launch [merged] | Founder / Brand Lead | LIKELY | Teardown-only | Product-launch teardown, sameness angle |
+| C | Plunge | Cold plunge, Gen-2 launched Sep 2025 (scaling phase) [BusinessWire] | Founder / Brand Lead | VERIFIED | Teardown-only | Post-launch messaging optimization, incumbent benchmark |
 | C | Gorgie | $24.5M Series A, 5x YoY, founder-led (M. Cordeiro Grant) [merged] | Founder | LIKELY | Comment orbit | Scaling-brand differentiation note |
 | C | GLP-1 companion category (net-new) | Category forming, no owned language [Rejuvenate/Noom] | Founders entering the space | VERIFIED (category) | Watch | Own the category-language POV publicly |
 | C | Hydration challengers (LMNT-adj.) | Hydration→daily-wellness platform shift | Brand Leads, emerging entrants | UNCONFIRMED | Watch | "Hydration is no longer sports" angle when named entrant surfaces |
