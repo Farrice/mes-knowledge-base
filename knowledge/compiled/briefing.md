@@ -1,12 +1,12 @@
 # Knowledge Briefing
-*Generated: 2026-07-19 | 675 sources | 2,731,245 words*
+*Generated: 2026-07-19 | 680 sources | 2,740,636 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 4,631 words — `knowledge/index.md`
-- **log** (general) — 13,072 words — `knowledge/log.md`
+- **index** (content) — 4,660 words — `knowledge/index.md`
+- **log** (general) — 13,130 words — `knowledge/log.md`
 - **extraction-report-2026-07-19** (content [nathan-gotch]) — 2,414 words — `extractions/nathan-gotch/extraction-report-2026-07-19.md`
 - **source-metadata** (content [nathan-gotch]) — 200 words — `extractions/nathan-gotch/source-metadata.md`
 - **blind-pass-log** (content [nathan-gotch]) — 77 words — `extractions/nathan-gotch-ai-seo/blind-pass-log.md`
@@ -14,16 +14,16 @@
 - **source-metadata** (content) — 36 words — `extractions/ron-lynch/source-metadata.md`
 - **visual-context** (content) — 28,304 words — `extractions/ron-lynch-v2/visual-context.md`
 - **README** (content) — 133 words — `extractions/tess-barclay/README.md`
-- **2026-07-18-founding-brief** (strategy [april-dunford]) — 3,633 words — `research_outputs/market-pulse/2026-07-18-founding-brief.md`
+- **2026-07-19-SHADOW-MARKETS-INDEX** (strategy [april-dunford]) — 1,541 words — `research_outputs/2026-07-19-SHADOW-MARKETS-INDEX.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 236 | nicolas-cole |
+| content | 237 | nicolas-cole |
 | copywriting | 97 | luke-iha |
 | general | 83 | nick-saraev |
-| strategy | 68 | april-dunford |
+| strategy | 72 | april-dunford |
 | screenwriting | 50 | connelly |
 | brand | 48 | oren-john |
 | systems | 35 | nick-saraev |

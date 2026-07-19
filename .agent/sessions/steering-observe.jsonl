@@ -35,3 +35,4 @@
 {"ts": "2026-07-18T14:53:05.581334+00:00", "session_id": "28d76098-a0d8-475f-bc8a-9609aae4b6f1", "exchange": 80, "event": "next-moves-missing", "chars": 651}
 {"ts": "2026-07-19T03:09:22.451909+00:00", "session_id": "daa0cd59-783f-4b90-9746-40af72be63a3", "exchange": 3, "event": "next-moves-missing", "chars": 927}
 {"ts": "2026-07-19T05:23:08.564461+00:00", "session_id": "a9315ac4-ffa2-4d50-9b64-87067d007107", "exchange": 2, "event": "next-moves-missing", "chars": 943}
+{"ts": "2026-07-19T14:26:43.279436+00:00", "session_id": "e17f1c2e-70e8-4cfc-8404-ce561ccba8d3", "exchange": 3, "event": "next-moves-missing", "chars": 781}
