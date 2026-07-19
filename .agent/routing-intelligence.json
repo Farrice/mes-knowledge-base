@@ -8107,6 +8107,23 @@
             "ensemble": true,
             "compound_pairing": "jack-roberts-design-mastery + luke-iha-proof-ladder + joanna-wiebe-persuasion-mastery",
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_042504_9ad3",
+            "timestamp": "2026-07-19T04:25:04.123229+00:00",
+            "session_id": "",
+            "request_summary": "Authority Flywheel positioning set: strike brief (Dunford×Haynes, dissent preserved) + fusion round — full surface set locked by Farrice's felt verdicts (LinkedIn=Fusion A, About=Dunford, ads=B2 w/ B3",
+            "intent_score": 9,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "april-dunford-positioning"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "strike-native",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -8653,7 +8670,7 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 448,
+            "total_routings": 449,
             "total_feedback": 60,
             "positive_count": 0,
             "negative_count": 0,
@@ -8662,7 +8679,7 @@
                 "System": 63,
                 "Client Work": 14,
                 "Analysis": 6,
-                "Strategy": 25,
+                "Strategy": 26,
                 "Creative": 8,
                 "Legal Consult Prep": 1,
                 "Content": 45,
@@ -8931,7 +8948,7 @@
                 "josh-kaufman-business-fundamentals": 1,
                 "fleet-conductor": 1,
                 "ethan-smith-aeo": 1,
-                "april-dunford-positioning": 1,
+                "april-dunford-positioning": 2,
                 "algorithmic-art": 1,
                 "alex-hormozi": 3,
                 "alex-m-smith-natural-strategy": 1,
@@ -8943,7 +8960,7 @@
                 "joanna-wiebe-persuasion-mastery": 1
             },
             "tier_counts": {
-                "0": 448,
+                "0": 449,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -8952,9 +8969,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 255,
-                "finalize-auto": 193
+                "finalize-auto": 194
             },
-            "ensemble_count": 335,
+            "ensemble_count": 336,
             "auto_miss_count": 49,
             "auto_match_count": 11
         }

@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** strike-native  
-**Full path:** .agent/handoffs/2026-07-18-strike-native.md  
-**Date:** 2026-07-18 (today)  
-**Status:** active  
-**Title:** Authority Flywheel positioning set: strike brief (Dunford×Haynes, dissent preserved) + fusion round — full surface set locked by Farrice's felt verdicts (LinkedIn=Fusion A, About=Dunford, ads=B2 w/ B3 rotation)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume strike-native` for this one.
-
----
-
 ---
 thread: strike-native
 status: active
@@ -23,4 +11,3 @@ pin: true
 **Next session focus**: Resume the `strike-native` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (strike-native)._
-

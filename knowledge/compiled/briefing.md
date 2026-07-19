@@ -1,12 +1,12 @@
 # Knowledge Briefing
-*Generated: 2026-07-18 | 668 sources | 2,699,318 words*
+*Generated: 2026-07-18 | 668 sources | 2,699,367 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
 - **index** (content) — 4,621 words — `knowledge/index.md`
-- **log** (general) — 12,816 words — `knowledge/log.md`
+- **log** (general) — 12,865 words — `knowledge/log.md`
 - **2026-07-18-founding-brief** (strategy [april-dunford]) — 3,633 words — `research_outputs/market-pulse/2026-07-18-founding-brief.md`
 - **extraction-report** (content) — 607 words — `extractions/daniel-priestley-sll-engine/extraction-report.md`
 - **visual-context** (content) — 390 words — `extractions/daniel-priestley-sll-engine/visual-context.md`

@@ -1,13 +1,13 @@
 {
-  "last_synced_commit": "01b5f2425bb0369b3eef81c0d0ac007d54af6eb6",
-  "last_synced_at": "2026-07-16T03:27:25Z",
+  "last_synced_commit": "1482a7826846d23e5cec355293e86edc409f79ae",
+  "last_synced_at": "2026-07-19T04:26:46Z",
   "guide": "docs/ROOT-CORE-OPERATOR-GUIDE.md",
   "synced_hashes": {
     "directives/external-skills-registry.md": "229f5dcc6249b805b6323adb6c1b96aeeccb6a2a",
-    "directives/feedback-ratchet.md": "3914b53922d360387f09ad8b9c56091923e00f32",
+    "directives/feedback-ratchet.md": "e3be9cff4ae87c656f3fc8cf5c31bb29cc451b53",
     "directives/intent-pipeline.md": "e9ec4f6f857421fb2d198dc4191e206d022ea909",
-    "directives/quality_gate.md": "3c34d181de86d74798c56b781a5da1d1945ab854",
-    "directives/session-state-protocol.md": "b68321ca42e38ea8ad89e3db09519b7f1a0485cc",
+    "directives/quality_gate.md": "7f766346e7f7f5ccbf0bf69bbcea04ea6db070ed",
+    "directives/session-state-protocol.md": "126f8071f279ae0074a71c9463dadda2b84cd069",
     "directives/skill-craft-standard.md": "2101773a8dcee8cbbf74c900c72c0f77b468f674",
     "docs/agents/issue-tracker.md": "1687dc77356b6e91c5200d94e9dee152f4635b3c",
     "skills/ben-watkins-storytelling/SKILL.md": "6f032cf67f257efef7fb1e9866f53528b945181d",
