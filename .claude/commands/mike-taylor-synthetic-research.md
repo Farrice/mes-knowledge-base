@@ -1,5 +1,5 @@
 ---
-description: "Research-design depth behind synthetic customer panels: the roleplay-then-aggregate mechanism, the three-tier grounding ladder (cold-generated → transcript-grounded → calibrated), the distribution-vs-individual accuracy split, sycophancy/bias correction, and the research-budge..."
+description: "Research-design depth behind synthetic customer panels: the roleplay-then-aggregate mechanism, the grounding ladder (cold-generated, social-grounded via listening gap-fill, transcript-grounded, calibrated), the distribution-vs-individual accuracy split, sycophancy/bias correct..."
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 

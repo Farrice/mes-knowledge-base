@@ -365,3 +365,97 @@ Net-new patterns mined from 12 additional deep-cut extraction conversations (off
 **Cost Has Three Currencies, Ranked**
 - **Insight**: When people evaluate what an offer "costs" them, they weigh money, time, and energy (fear) — and money is the LEAST important of the three, not the most, despite being what most sellers negotiate on. Cutting required time or risk in half functions like doubling perceived value even at double the price, because energy (fear of failure/embarrassment) dominates the buying decision more than either time or money.
 - **Deploy**: Pricing conversations — before discounting, ask whether the real objection is fear (identity risk) or time, and solve THAT instead of cutting price.
+
+---
+
+### Patterns from watched sources — tranche 3 (2026-07-19)
+
+Net-new patterns from two watched sources: "Use These 15 Persuasion Patterns" (Fladlien's own channel, 8:26, frames verified — talking-head + film B-roll, no slides; transcript carries the content) and the Charlie Morgan interview "How To Make $250,000,000 Online" (2:20:56, 28.6k words). Heavy overlap confirmed and skipped: one-sitting products, post-webinar overtime, campaign economics, three cost currencies, 7%-spends-70% market math, fear-first physics, subtraction core. What follows is genuinely new.
+
+#### 36. The Two Agendas Frame (Candor as Design Constraint)
+- **Execute**: Open every selling presentation by declaring both agendas: "I have two agendas today. My first agenda is to sell you something at the end of this training — and if you're the right fit, you should buy it; if you're not, I don't want you to buy it. My second agenda is to give you the very best training you've ever had on this topic." Invented 2008, now industry-standard. The unnoticed half: the "best lesson ever" promise is a DESIGN-FORCING FUNCTION — it forces the topic narrow ("I can't teach a broad subject and be the best; I have to narrow until even if I'm okay at teaching it, I'm still the best because nobody else teaches it").
+- **Deployment Context**: Webinar/challenge openers, sales-adjacent content, any teach-then-sell format. Resolves the bait-and-switch feeling for the SELLER — the question that produced it: "How can I make it so I can sell and also feel comfortable at the same time?"
+- **Success Metric**: The audience relaxes at the open ("okay, cool, sounds good") AND the topic scope shrinks during design.
+
+#### 37. Local Transformation, Global Promise
+- **Execute**: Deliver a genuine micro-transformation on a narrow sub-topic FIRST. "When you give somebody an insight on a very local level, then you promise a global solution, they agree to it because they've had the experience of being transformed. It doesn't matter how small the transformation was — what matters is the transformation occurred." Then the second (bigger, paid) transformation is believed because the first one happened.
+- **Deployment Context**: Webinar teaching segments, lead magnets, free content that precedes an offer, e-class session 1.
+- **Success Metric**: Attendees describe a specific belief/skill that changed DURING the free session, before any pitch.
+
+#### 38. The 4×4 Teaching Grid
+- **Execute**: Constrain any teaching topic to at most 4 principles; support each with at most 4 pieces of evidence; then engineer a setup for each. "If we're constrained to only think about four principles, what are those?" 16 units maximum — in practice it lands as 3-2-4. This is the practical implement of Minimum Effective Teaching Dose (§16): the grid forces the cut.
+- **Deployment Context**: Webinar content blocks, YouTube teaching videos, course modules, client trainings.
+- **Success Metric**: The finished outline shows ≤4 principles, each with named evidence units AND a designed setup — nothing exists without all three.
+
+#### 39. Point-Level Setup / Payoff / Tie-Down (50 / 45 / 5)
+- **Execute**: Every point — teaching moment or offer component — is a three-beat unit: Setup ~50% of the time, Payoff ~45%, Tie-Down ~5%. "The setup is more important than the payoff. Just like every joke, the setup of the joke is way more important than the joke itself." Before writing any point, ask: "What's the emotional state that is most effective for this point to be receptive?" — design the sequence of feelings first, content second. Anger is the highest-energy transfer state ("hate has more energy around it than love does") — get them angry at their situation/habits, then hand them the solution. Accepting SPT arithmetic means teaching roughly a third of what you thought you'd teach — a feature, not a cost.
+- **Deployment Context**: Webinars, keynotes, podcasts, sales pages, short-form teaching. Extends §17 (emotional-state mapping) and §18 (context-of-content) down to the individual-point level with explicit ratios.
+- **Success Metric**: Every point in the outline names its target emotional state and carries all three beats; no payoff appears without its setup.
+
+#### 40. Tie-Down Density & the Gap-Bisection Drill
+- **Execute**: Two tiers of tie-down. MINOR: short agreement hooks — "isn't it, doesn't it, wasn't it, couldn't it, won't it" — placed at the start or end of a sentence, bringing the concept back to the listener for a small yes ("This makes sense, doesn't it?"). MAJOR (commitment tie-downs): "If I were to show you X, Y, and Z and you felt you couldn't fail at it, would you commit to do it?" / "Now that you understand this, promise me you'll never again use that as an excuse." Density drill for existing scripts: find every tie-down, find the biggest gap between two of them, insert one in the middle of that gap — repeat until gaps are small. Production discipline: un-scripted presenters use a color-coded slide as a physical reminder; chat variant: "if that resonates, drop a fire emoji in the chat." Mechanism: commitment-and-consistency — "you just got to get a bunch of little yeses and then a big yes is not that big."
+- **Deployment Context**: Auditing any webinar/VSL/keynote script; live delivery training. Complements §12/§39 — those build the beats; this measures and raises agreement frequency.
+- **Success Metric**: Tie-down gap sizes measurably shrink pass-over-pass; at least 2 major commitment tie-downs per presentation.
+
+#### 41. Set & Setting: Change What You're Solving For
+- **Execute**: "If you want to change somebody there's two elements: the mindset that they have and the setting that they're in. Changing the mindset is much harder. Changing the setting is much easier." Poker version: "I can make you better at poker, or we can find tables where people are worse than you." In mass selling, changing the setting = changing what you're solving for: don't sell the million-dollar year, sell $100 in a month — "a smaller outcome in a shorter period of time that's more obtainable," designed for the least amount of change on their part. Pair with the dual-outcome frame: "Ideal outcome is this beautiful thing you dream about — it could happen, it's unlikely. Here's a more realistic outcome that's much smaller but more obtainable." ("You could win the lottery, but we're not using the lottery as part of our business plan.")
+- **Deployment Context**: Offer promises, webinar gain sections, coaching onboarding, milestone design. Distinct from §28's instant-gratification multiplier — that's product design; this is the psychology of which OUTCOME to sell and the honest two-tier claim structure.
+- **Success Metric**: The promise names a small outcome on a short clock; prospects repeat the realistic outcome (not the dream) back to you; compliance claims survive scrutiny because the stated bar is low.
+
+#### 42. Identity Change by Collapse (and Where the Real Sale Lives)
+- **Execute**: "There's two ways you can change an identity: you get somebody to step into it, or you remove any ability for them to hold on to their current identity... the more effective way is to collapse it." In the pain section, exaggerate every limiting belief past what they'd say about themselves — "You don't have the skills... you're broke... the only thing you're confident about is your lack of confidence... you're here on this webinar but somehow you don't have any time" — until they argue BACK: "I'm not that bad, Jason." (Subtext reply: "Are you sure? Maybe there's a shred of hope for you.") The insult carries embedded proof: "you're only confident in your lack of confidence" demonstrates they have the capacity for confidence; "you found the time to be here" refutes the time story. Critical honesty: the webinar shift is TENUOUS — "the real sales happens in the product itself... the lasting identity change occurs through the delivery of the product." The pitch is only the bridge from outside to inside.
+- **Deployment Context**: Webinar pain sections, sales-page leads for the on-the-fence middle market ("qualified to buy, should buy, haven't bought"). Mass-scale application of §33 (Absurdity Amplification, which is the 1:1 coaching form) — cross-reference, don't duplicate.
+- **Success Metric**: The audience argues back against the exaggeration (self-generated hope) instead of nodding along in shame; product delivery is designed to complete the identity change the pitch only started.
+
+#### 43. The Best 90 Minutes Question
+- **Execute**: The universal diagnostic: "Your very best version of what you offer in 90 minutes — where does it exist?" 99% of clients answer "it doesn't." Follow with: "Is that a good idea?" The 90-minute asset works regardless of funnel shape — "it could be automated, it could be live, it could be a book-a-call funnel, it could be direct to cart, it doesn't matter. Most people don't have a 90-minute presentation that best shows who they can help the most. And that's a tragedy."
+- **Deployment Context**: First consulting question for any business; content-strategy audits; the opening move of any webinar/VSL engagement.
+- **Success Metric**: The business can point to one concrete asset that IS its best 90 minutes — or has a build date for it.
+
+#### 44. Whale-Door Assertion
+- **Execute**: "Bigger companies have bigger problems — and more of them. A small person that can focus single-mindedly on solving one problem for a big company is more valuable than another bigger company trying to solve it." Never self-disqualify from whales ("it's a billion-dollar company and I'm just little old me"). The Zoom engagement came from spotting THEIR problem (webinar-account signups who never run webinars don't renew) and pitching the fix as a tie-down: "If we train your users on creating webinars and increase the likelihood of them doing webinars, couldn't that be a really good thing for you?" — then extending it: "Whether we create the webinars or they do, if they have a webinar running, isn't it more likely they stay on Zoom?"
+- **Deployment Context**: Business development, partnership pitches, positioning against bigger agencies. Pairs with §26 (game selection) — the whale must still pass the unfair-advantage test.
+- **Success Metric**: At least one live pitch to a company 100x your size framed around a problem THEY can already feel, phrased as yes-questions.
+
+#### Hidden Knowledge (net-new, tranche 3)
+
+**Real Buyers Move in Silence**
+- **Insight**: "The vocal majority are the buying minority. Real buyers move in silence — they're too busy deciding if they should buy or not to be writing memes in a damn chat." Hostile chat is not a conversion signal; it's noise from people who were never going to buy.
+- **Deploy**: Live-event triage — improve the room's state for leverage, but never redesign the pitch to appease the loudest non-buyers.
+
+**No-Money Objections Are Targeting Failures**
+- **Insight**: "If you are selling to people that don't have money, you don't have a selling problem, you have a targeting problem." Money is the least real of the three risks; Ferrari never asks whether to lower prices. Good marketing removes the money objection as a byproduct of aiming at the right people.
+- **Deploy**: When "can't afford it" dominates, fix acquisition/targeting before touching the pitch or the price.
+
+**Conflicted Audiences Lock Up**
+- **Insight**: Selling at the highest level is "helping somebody untangle these contradictory feelings they have about wanting something and simultaneously being afraid to go after it." Conflicted prospects freeze, flee, or fight — none of which buys. The consultative move is to sit with the conflict (all the reasons to say yes AND no) until the path is clear to THEM. Fladlien's trauma-built empathy is the engine: "I can feel the pains of the market at a deeper level personally."
+- **Deploy**: Q&A overtime, objection copy, DM conversations — resolve the conflict, don't out-argue it.
+
+**Technical Excellence ≠ Market Fit (The Zig Ziglar Launch)**
+- **Insight**: His technically best-ever webinar (Zig Ziglar's Secrets of Closing the Sale, for Kevin Harrington) converted only okay and got him fired — the decision was emotional (Ziglar was a hero), untested, and the material sat "in between two markets." Yet the positioning was so strong a consulting client reused it "pretty much word for word" on a vitamin authority and made millions. Craft transfers even when the campaign fails; and no pitch outruns a mispositioned product. Test before going all-in.
+- **Deploy**: Separate post-mortems into craft verdict vs. market verdict; bank the craft, kill the market assumption.
+
+**Fear Converts Because It's Underserved (Leverage Unification)**
+- **Insight**: The stated reason fear-first works is LEVERAGE, not intrinsic power: "the market hears gain-gain-gain... if we focus on the fear and nobody else is focusing on fear, then even if we're not good at it, we have massive leverage." Identical mechanism to Radical Candor as Scarcity (§13): both moves convert because nobody else in the market makes them. Corollary: any underserved emotional register is a leverage pool.
+- **Deploy**: Before writing, audit what emotional register the market is saturating — then take the empty one.
+
+**The Empathy Dial: Beginners vs. Operators**
+- **Insight**: "A beginner needs more encouragement and more empathy — they're on the fringe, they could quit at any time. Business people I can be much more direct and challenging towards: 'If a tree only grows 20 feet when it could grow 50, what do we call that?' They're like, 'I'll show you, you son of a—. Here's my money.'" And B2B/B2C is a false split: "I never think in B2B or B2C. Every market just has a set of inputs and outputs... let me communicate to it in the fashion in which it responds."
+- **Deploy**: Calibrate challenge-vs-comfort per market maturity, not per business category.
+
+#### Exemplars (net-new, tranche 3)
+
+**The Marshmallow Save** (Iman challenge, day one, ~60,000 live viewers, hostile chat)
+Setup: "I want to tell you a little bit about a study that if you truly understand this, this can completely change your life... Stanford did this marshmallow experiment..." [delayed gratification story + trainability follow-up study] — then the second, direct probe: "Your favorite movie. Think of it. Now, if you just skipped to the last five minutes and watched it, do you think it would still be your favorite movie?" Payoff: "I want the answer immediately with no effort involved. But I've discovered in my life that if I can delay gratification just for a little bit — not forever, just for a little bit — that serves me the best... Does this really serve you? Do you think that if you continue to operate this way in your life that this is going to get you the things that you want?" Tie-down: "Okay, let's get down to business, because I am here to help you do things in your life that are going to serve you better. So let's talk about what could serve you better." Chat flipped from L's to W's.
+- **What makes this excellent**: One indirect vector (story about kids) + one direct vector (their favorite movie) before any confrontation; the payoff indicts the audience's behavior without naming any individual; the tie-down converts the flipped state instantly into forward motion. He names the counterfactual himself: said directly ("success is about delaying gratification, listen to me"), 60,000 people reply "get out of here, old man."
+
+**The Confidence Paradox Pain Run** (webinar pain section, verbatim)
+"You don't think you have the skills in order to make this happen. And you definitely don't have the money to make this happen because you're broke, right? And god forbid this concept called confidence — the only thing you're confident about is your lack of confidence. Your time is so limited — even though you're here on this webinar right now — but somehow you don't have any time. And everybody's telling you to do things that confuse you. And you're afraid that if you screw this up, you're going to feel like a terrible, miserable failure."
+- **What makes this excellent**: Every exaggerated jab hides a disproof of itself (confident-about-lack-of-confidence = capacity for confidence; here-on-this-webinar = time exists). The audience is maneuvered into DEFENDING their own potential — "I'm not that bad, Jason" — which is the identity crack the rest of the webinar widens. Collapse, not step-in.
+
+**Anti-Exemplar: The Untested Hero Launch**
+Emotionally green-lighting the Zig Ziglar webinar because Ziglar mattered to him — no resonance test, no market-timing check ("the market doesn't want something that doesn't immediately impact the market... it was in between two different markets"). Worked harder on it than on most webinars; nobody lost money, nobody made real money; got fired from his own pitch.
+- **Why it fails**: Violates Brown Paper Bag Beta (§24 — prove resonance before polish) and Only Play Games You Can Win (§26). Passion chose the project; math didn't get a vote.
+
+#### Signature Move (net-new)
+- **The Contrast-Pair Teach**: Never teaches a language pattern abstractly — always "Instead of [normal phrasing], say [pattern]," followed by the mechanism in one breath ("Ask why → you trigger rationalization. Ask how → you get process."). The 15-patterns video is 15 consecutive contrast pairs. → **Deploy when**: teaching or documenting any persuasion/copy technique; writing pattern-bank references.

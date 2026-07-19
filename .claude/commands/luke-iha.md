@@ -19,7 +19,7 @@ Tier-gated loading: pick the ONE skill below relevant to the request and load it
 | luke-iha-proof-ladder | `skills/luke-iha-proof-ladder/SKILL.md` | `skills/luke-iha-proof-ladder/genius.md` | `skills/luke-iha-proof-ladder/workflows/proof-copy-engine.md` |
 | luke-iha-proof-mechanisms | `skills/luke-iha-proof-mechanisms/SKILL.md` | `skills/luke-iha-proof-mechanisms/genius.md` | `skills/luke-iha-proof-mechanisms/workflows/proof-intelligence-roadmap.md` |
 | luke-iha-unaware-ads | `skills/luke-iha-unaware-ads/SKILL.md` | `skills/luke-iha-unaware-ads/genius.md` | `skills/luke-iha-unaware-ads/workflows/ad-to-funnel-architect.md` |
-| luke-iha-vicious-hooks | `skills/luke-iha-vicious-hooks/SKILL.md` | `skills/luke-iha-vicious-hooks/genius.md` | `skills/luke-iha-vicious-hooks/workflows/anti-ad-disguise-engine.md` |
+| luke-iha-vicious-hooks | `skills/luke-iha-vicious-hooks/SKILL.md` | `skills/luke-iha-vicious-hooks/genius.md` | `skills/luke-iha-vicious-hooks/workflows/hawley-handshake-vicious-hooks.md` |
 | luke-iha-vsl-leads | `skills/luke-iha-vsl-leads/SKILL.md` | `skills/luke-iha-vsl-leads/genius.md` | `skills/luke-iha-vsl-leads/workflows/fascination-bullet-factory.md` |
 
 If the request fits a full structured run (not just a quick application), OFFER the loaded skill's flagship workflow; each skill's 'Available Workflows' table and its `references/prompts-v2/` execution prompts cover the other processes.

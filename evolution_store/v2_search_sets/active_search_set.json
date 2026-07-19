@@ -2531,8 +2531,64 @@
         "gaming_flag": false
       },
       "notes": "Expert capped 6 per prose_classifier flag (format-level: parallel card blocks + quoted banned example; hooks individually clean); final drafts owe writers-room pass | Factual Grounding: 7 (receipt-check + practitioner gates written into cards) | Verification: PARTIAL (2 receipts owed before ship) | Anchor: Could the user complete their workflow with this output and zero clarification"
+    },
+    {
+      "trace_id": "20260719_120517",
+      "timestamp": "2026-07-19T12:05:17.961915",
+      "schema_version": "v3",
+      "component": "health-performance-geo-daily-brief",
+      "expert": "health-performance-geo",
+      "workflow": "health-performance-geo-client-acquisition-engine",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Saved local daily brief and appended JSONL rows | platform: codex | Verification: local PASS with content_finish_gate WARN only for required structure; Google Drive disabled by current run instruction | Anchor: V4 health performance GEO golden sample"
+    },
+    {
+      "trace_id": "20260719_120556",
+      "timestamp": "2026-07-19T12:05:56.873182",
+      "schema_version": "v3",
+      "component": "health-performance-geo-daily-brief",
+      "expert": "health-performance-geo",
+      "workflow": "health-performance-geo-client-acquisition-engine",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Saved local daily brief and appended JSONL rows | platform: codex | Verification: local PASS with content_finish_gate WARN only for required structure and claim_risk_scan WATCH only; Google Drive disabled by current run instruction | Anchor: V4 health performance GEO golden sample"
     }
   ],
-  "total_cases": 89,
-  "last_updated": "2026-07-19T10:25:30.687153"
+  "total_cases": 91,
+  "last_updated": "2026-07-19T12:05:56.874423"
 }

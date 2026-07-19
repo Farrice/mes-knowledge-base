@@ -15,7 +15,7 @@ Tier-gated loading: pick the ONE skill below relevant to the request and load it
 | kallaway-content-operating-system | `skills/kallaway-content-operating-system/SKILL.md` | `skills/kallaway-content-operating-system/genius.md` | `skills/kallaway-content-operating-system/workflows/trend-hook-radar.md` |
 | kallaway-content-psychology | `skills/kallaway-content-psychology/SKILL.md` | `skills/kallaway-content-psychology/genius.md` | `skills/kallaway-content-psychology/workflows/strategic-market-architecture.md` |
 | kallaway-content-system | `skills/kallaway-content-system/SKILL.md` | `skills/kallaway-content-system/genius.md` | `skills/kallaway-content-system/workflows/revenue-ramp-builder.md` |
-| kallaway-illusion-of-novelty | `skills/kallaway-illusion-of-novelty/SKILL.md` | `skills/kallaway-illusion-of-novelty/genius.md` | `skills/kallaway-illusion-of-novelty/workflows/kallaway-x-jenny-hoyos.md` |
+| kallaway-illusion-of-novelty | `skills/kallaway-illusion-of-novelty/SKILL.md` | `skills/kallaway-illusion-of-novelty/genius.md` | `skills/kallaway-illusion-of-novelty/workflows/kallaway-x-dunford.md` |
 | kallaway-social-commerce | `skills/kallaway-social-commerce/SKILL.md` | `skills/kallaway-social-commerce/genius.md` | `skills/kallaway-social-commerce/workflows/agentic-commerce-blueprint.md` |
 | kallaway-word-mastery | `skills/kallaway-word-mastery/SKILL.md` | `skills/kallaway-word-mastery/genius.md` | `skills/kallaway-word-mastery/workflows/tone-calibration-engine.md` |
 

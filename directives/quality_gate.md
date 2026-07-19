@@ -101,8 +101,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-07-19 (chain_runner finalize for geoff-woods-ai-thought-partner) |
-| **Activation Count** | 683 |
+| **Last Activated** | 2026-07-19 (chain_runner finalize for jason-fladlien-marketing) |
+| **Activation Count** | 686 |
 | **30-Day Review Date** | 2026-08-18 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

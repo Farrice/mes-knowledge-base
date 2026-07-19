@@ -119,3 +119,4 @@
 {"ts": "2026-07-19T14:25:23.561088+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "e17f1c2e-70e8-4cfc-8404-ce561ccba8d3"}
 {"ts": "2026-07-19T17:24:47.379927+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "4e14071c-f186-46e7-a2f7-fb57a64d38ae"}
 {"ts": "2026-07-19T17:25:19.068763+00:00", "tool": "mcp__recall__get_document_content", "service": "recall", "billable": true, "session_id": "4e14071c-f186-46e7-a2f7-fb57a64d38ae"}
+{"ts": "2026-07-19T17:34:39.201309+00:00", "tool": "mcp__recall__get_document_content", "service": "recall", "billable": true, "session_id": "4e14071c-f186-46e7-a2f7-fb57a64d38ae"}

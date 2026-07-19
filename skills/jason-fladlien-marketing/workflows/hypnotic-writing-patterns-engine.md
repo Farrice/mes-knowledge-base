@@ -166,6 +166,26 @@ Analysis: "Make a decision" is the command. Everything before it is preparation 
 - "You already know what needs to happen next." (unspecified next action — self-selected by the reader's actual situation)
 - **Caution**: Artfully vague language only works stacked WITH specific proof elsewhere in the copy — an entire piece of vague language reads as generic AI slop, not hypnotic.
 
+#### Patterns from watched sources — tranche 3 (2026-07-19)
+
+#### Pattern 10: Borrowed Evidence (Linking II)
+**Principle**: Link an undeniable fact from the reader's OWN history to the new claim, so the claim inherits proof that already exists.
+
+**Fladlien example** (15-patterns video, verbatim): "If you've succeeded in areas where you were once a beginner, it means that you're capable of learning this as well."
+
+**Written applications**:
+- "You've already built one audience from zero. Which means the mechanics of building the next one aren't a mystery to you."
+- "Persuasion requires proof. This pattern borrows evidence that already exists, then simply connects it to a new conclusion." (his own mechanism statement)
+
+#### Pattern 11: Possibility + Dual Path
+**Principle**: Replace challengeable claims ("You will become confident") with possibility language, then offer a choice between two options — both of which lead to the conclusion you want.
+
+**Fladlien example** (verbatim): "You may discover you're far more capable than you previously believed. Or you can simply notice how many challenges you've already overcome."
+
+**Written applications**:
+- "You might see the gap in your funnel immediately — or you may simply notice which email nobody answers."
+- Escalation note: pairs with Pattern 8 (Gradual Shift) — possibility language early, declaratives late.
+
 ### Phase 2 — Integration Protocol
 
 **How to embed patterns into existing copy:**

@@ -110,3 +110,18 @@ Spot-verified against the raw archive during this repair (not the prior extracti
 ## Summary
 
 Of the claims spot-checked in this pass: **24 VERIFIED verbatim or near-verbatim**, **~14 LIKELY** (theme/mechanism grounded, specific wording synthesized or not re-verified line-by-line), **3 UNCONFIRMED** (Bhagavad Gita nested-story comparison; China Concierge Program name; Cost-Has-Three-Currencies ranking) and **1 flagged discrepancy** (Brown Paper Bag Beta quote — the cited source conversation uses a different, non-matching analogy). No claim in this ledger was labeled VERIFIED without a located quote; no source was declared absent without an `ls -la` / extraction check confirming otherwise.
+
+---
+
+## Tranche 3 (2026-07-19) — watched-source expansion
+
+All tranche-3 claims (genius.md patterns §36-44, HK items "Real Buyers Move in Silence" through "The Empathy Dial", exemplars "Marshmallow Save" / "Confidence Paradox Pain Run" / anti-exemplar "Untested Hero Launch", and the 5 Tier-8 workflows) anchor to two new primary sources, both fetched and watched 2026-07-19:
+
+| Source | Location | Notes |
+|---|---|---|
+| "Use These 15 Persuasion Patterns To Boost Your Influence" — Fladlien's own channel, YouTube XosYamGI1Is, 8:26, 1,515 words | `extractions/jason-fladlien/sources/2026-07-19-persuasion-patterns/transcript.txt` | 40 frames extracted & read (`visual-context.md` same dir): talking-head + film B-roll, NO on-screen pattern names — transcript is the full content. The video's closing "55 patterns / 384 examples" document is NOT in evidence; only the 15 taught patterns are extracted. |
+| "How To Make $250,000,000 Online \| Jason Fladlien" — Charlie Morgan Business, YouTube SvKEwpVkzaU, 2:20:56, 28,618 words | `extractions/jason-fladlien/sources/2026-07-19-charlie-morgan-250m/transcript.txt` | Long-form interview. Marshmallow Save and Two Agendas quotes are near-verbatim from Fladlien's own in-interview delivery (rolling-caption dedup applied). |
+
+Overlap check performed BEFORE extraction: both video IDs and distinctive phrases ("charlie morgan", "15 persuasion") grepped against `extractions/Jason Fladlien/transcript.txt`, `extractions/jason-fladlien/transcript.txt`, and the skill folder — zero hits; sources are net-new.
+
+UNCONFIRMED items deliberately excluded from genius.md tranche 3: exact Hormozi launch revenue figures beyond what Fladlien states (he confirms consulting on "Alex's last two book launches", "$100 million leads... 45-minute presentation", "we spent six hours just on offer and positioning"); the "$9.8M in 8 days, 2015, Amazon-affiliate record" and "$57M in 226 days crypto (Dan Hollings)" claims are his own in-interview statements — carried as his claims, not independently verified.

@@ -38,3 +38,10 @@
 {"ts": "2026-07-19T14:26:43.279436+00:00", "session_id": "e17f1c2e-70e8-4cfc-8404-ce561ccba8d3", "exchange": 3, "event": "next-moves-missing", "chars": 781}
 {"ts": "2026-07-19T16:56:39.220957+00:00", "session_id": "4e14071c-f186-46e7-a2f7-fb57a64d38ae", "exchange": 8, "event": "next-moves-missing", "chars": 771}
 {"ts": "2026-07-19T16:56:47.786096+00:00", "session_id": "4e14071c-f186-46e7-a2f7-fb57a64d38ae", "exchange": 9, "event": "next-moves-missing", "chars": 1018}
+{"ts": "2026-07-19T17:26:31.194766+00:00", "session_id": "4e14071c-f186-46e7-a2f7-fb57a64d38ae", "exchange": 15, "event": "next-moves-missing", "chars": 1178}
+{"ts": "2026-07-19T18:08:34.097849+00:00", "session_id": "4e14071c-f186-46e7-a2f7-fb57a64d38ae", "exchange": 21, "event": "next-moves-missing", "chars": 980}
+{"ts": "2026-07-19T18:17:16.358131+00:00", "session_id": "4e14071c-f186-46e7-a2f7-fb57a64d38ae", "exchange": 25, "event": "next-moves-missing", "chars": 998}
+{"ts": "2026-07-19T18:18:34.892688+00:00", "session_id": "4e14071c-f186-46e7-a2f7-fb57a64d38ae", "exchange": 26, "event": "next-moves-missing", "chars": 867}
+{"ts": "2026-07-19T18:20:13.515242+00:00", "session_id": "4e14071c-f186-46e7-a2f7-fb57a64d38ae", "exchange": 27, "event": "next-moves-missing", "chars": 654}
+{"ts": "2026-07-19T18:21:30.191480+00:00", "session_id": "4e14071c-f186-46e7-a2f7-fb57a64d38ae", "exchange": 28, "event": "next-moves-missing", "chars": 581}
+{"ts": "2026-07-19T18:55:59.531002+00:00", "session_id": "4e14071c-f186-46e7-a2f7-fb57a64d38ae", "exchange": 30, "event": "next-moves-missing", "chars": 672}

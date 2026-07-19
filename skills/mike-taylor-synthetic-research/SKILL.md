@@ -66,7 +66,7 @@ Inverting the order, treating a synthetic panel's raw output as finished copy, o
 - **Mike Taylor — Concept / Headline Triage** — `skills/mike-taylor-synthetic-research/references/prompts-v2/concept-headline-triage.md`
 - **Mike Taylor — Distribution & Calibration Check** — `skills/mike-taylor-synthetic-research/references/prompts-v2/distribution-calibration-check.md`
 - **Mike Taylor — Latent Demand Mining** — `skills/mike-taylor-synthetic-research/references/prompts-v2/latent-demand-mining.md`
-- **Mike Taylor — Persona Grounding From Transcripts** — `skills/mike-taylor-synthetic-research/references/prompts-v2/persona-grounding.md`
+- **Mike Taylor: Persona Grounding From Transcripts (+ Social-Listening Gap-Fill)** — `skills/mike-taylor-synthetic-research/references/prompts-v2/persona-grounding.md`
 - **Mike Taylor — Persona Panel Triage** — `skills/mike-taylor-synthetic-research/references/prompts-v2/persona-panel-triage.md`
 - **Mike Taylor — Personalized Message Cascade** — `skills/mike-taylor-synthetic-research/references/prompts-v2/personalized-message-cascade.md`
 - **Mike Taylor — Synthetic vs. Real Research Decision** — `skills/mike-taylor-synthetic-research/references/prompts-v2/synthetic-vs-real-decision.md`

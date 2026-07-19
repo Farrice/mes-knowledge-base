@@ -140,10 +140,10 @@
 | `jack-roberts-design-mastery` | **Jack Roberts: Design Mastery** | code-first design system that codifies visual excellence into reusable design, design mastery | 15 | 0 |
 | `james-i-bond-brain-glue` | **James I. Bond — Brain Glue** | deploy brain glue stickiness across offers, sales copy, social content | 12 | 0 |
 | `jasmin-alic-linkedin-growth` | **Jasmin Alic: LinkedIn Organic Growth** | for mid/late-stage linkedin (5k+ followers) use lara-acosta-linkedin-mastery, for ghostwriting linkedin copy at scale use new-media-ghostwriting, linkedin organic growth | 4 | 14 |
-| `jason-fladlien-marketing` | **jason-fladlien-marketing** | high-status marketing × persuasion physics × incomparable offer engineering, don't add ten tactics), fear-first conversion (get them to run out of reasons to say no) | 31 | 26 |
+| `jason-fladlien-marketing` | **jason-fladlien-marketing** | high-status marketing × persuasion physics × incomparable offer engineering, don't add ten tactics), fear-first conversion (get them to run out of reasons to say no) | 36 | 26 |
 | `jay-hiette-coaching-positioning` | **jay-hiette-coaching-positioning** | contrarian message architecture ("people think x, which causes y, but the truth is z") | 3 | 0 |
 | `jen-santulan-listing-content` | **jen-santulan-listing-content** | real estate social media (la / san fernando valley specialist), user is producing instagram content for jen santulan's real-estate practice o..., specifically not for generic real-estate marketing — jen's voice (warm, enthu... | 3 | 0 |
-| `jenny-hoyos-shorts` | **jenny-hoyos-shorts** | short-form viral storytelling, scripting youtube shorts / vertical video, engineering hooks, diagnosing rete..., immediate start | 13 | 0 |
+| `jenny-hoyos-shorts` | **jenny-hoyos-shorts** | short-form viral storytelling, scripting youtube shorts / vertical video, engineering hooks, diagnosing rete..., immediate start | 14 | 0 |
 | `jeremy-haynes-cold-offer` | **jeremy-haynes-cold-offer** | and kept alive by objection-mined dynamic augmentation, use for offer builds, offer audits | 14 | 0 |
 | `jeremy-haynes-mindset-systems` | **Jeremy Haynes Mindset Systems** | mindset engineering systems for entrepreneurs — identity versioning, dynamic motivation, pain leverage | 3 | 7 |
 | `jeremy-miner-identity-persuasion` | **Jeremy Miner - Identity-Based Persuasion & Psychological Framing** | sales psychology, identity persuasion, behavioral influence | 11 | 14 |
@@ -170,7 +170,7 @@
 | `kallaway-content-operating-system` | **Kallaway Content Operating System** | format, substance, script | 1 | 0 |
 | `kallaway-content-psychology` | **Kallaway Content Psychology** | engineer viral content using neurochemical precision, pattern validation, buyer psychology | 10 | 39 |
 | `kallaway-content-system` | **Kallaway Content System** | end-to-end ai-enabled content production system: validated topics, format locking, substance | 9 | 0 |
-| `kallaway-illusion-of-novelty` | **kallaway-illusion-of-novelty** | perception engineering — manufactured novelty (the front-end attention layer), the front-end perception layer of the kallaway stack, stacks into addictive-storytelling for retention | 15 | 0 |
+| `kallaway-illusion-of-novelty` | **kallaway-illusion-of-novelty** | perception engineering — manufactured novelty (the front-end attention layer), the front-end perception layer of the kallaway stack, stacks into addictive-storytelling for retention | 17 | 0 |
 | `kallaway-social-commerce` | **kallaway-social-commerce** | social commerce × distribution economics × monetization infrastructure, monetizes content distribution at social commerce 3, skill.md | 5 | 0 |
 | `kallaway-word-mastery` | **Kallaway Word Mastery & Articulation** | engineer writing that grips, resonates, and converts using rhythm architecture | 15 | 0 |
 | `kieran-flanagan-audience-intelligence` | **Kieran Flanagan - Audience Intelligence** | content-reactive audience profiling, platform-specific style cards, creator style analysis | 4 | 0 |
@@ -261,7 +261,7 @@
 | `nicolas-cole-sales-education-messaging` | **Nicolas Cole Sales Education Messaging** | sales education, buyer belief, messaging | 8 | 0 |
 | `nicolas-cole-sentence-craft` | **Nicolas Cole Sentence Craft** | economic compression, vocabulary calibration, and rhythm engineering for maximum clarity and impact | 5 | 14 |
 | `nir-eyal-habit-design` | **nir-eyal-habit-design** | values-based timeboxing, pact engineering, and habit-loop adherence design so clients actually do the program | 3 | 0 |
-| `noah-hawley-storytelling-mastery` | **Noah Hawley — Showrunner & Storytelling Mastery** | season-architecture and showrunning intelligence from the creator of fargo, legion, and alien: earth | 20 | 0 |
+| `noah-hawley-storytelling-mastery` | **Noah Hawley — Showrunner & Storytelling Mastery** | season-architecture and showrunning intelligence from the creator of fargo, legion, and alien: earth | 21 | 0 |
 | `ocean-vuong-perceptual-writing` | **Ocean Vuong Perceptual Writing** | deploy macarthur genius-level perceptual writing craft across content, and creative prose, behavioral metaphor | 15 | 0 |
 | `omar-eddaoudi` | **Omar Eddaoudi** | mastery over premium positioning, exclusionary tension, high-status copywriting | 4 | 20 |
 | `omar-eddaoudi-premium-ads` | **Omar Eddaoudi: Premium Ads Mastery** | conviction copy, category domination, and sophisticated audience mechanics | 5 | 37 |

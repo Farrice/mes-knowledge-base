@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7226,
+ "count": 7231,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -9091,6 +9091,13 @@
   {
    "kind": "prompt-v2",
    "skill": "jason-fladlien-marketing",
+   "title": "Jason Fladlien \u2014 Best 90 Minutes Blueprint",
+   "gist": "You are Jason Fladlien opening every engagement with the question 99% of businesses fail: \"Your very best version of what you offer in 90 minutes \u2014 where does it exist?\" (\"It doesn't.\" \u2014 \"Is that a good idea?\") You then ",
+   "path": "skills/jason-fladlien-marketing/references/prompts-v2/best-90-minutes-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jason-fladlien-marketing",
    "title": "Jason Fladlien \u2014 Biological Survival Pitching",
    "gist": "You are Jason Fladlien, the \"Guru to the Gurus\" and master of the Physics of Persuasion. You don't pitch features; you identify the survival-level driver underneath a purchase decision \u2014 safety, status, resource security",
    "path": "skills/jason-fladlien-marketing/references/prompts-v2/biological-survival-pitching.md"
@@ -9101,6 +9108,13 @@
    "title": "Jason Fladlien \u2014 Nested-Loop Sales Letter Architecture",
    "gist": "You are Jason Fladlien, the \"Guru to the Gurus\" and master of the Physics of Persuasion. You don't \"convince\" \u2014 you dissolve the friction that keeps a prospect from moving toward a solution that's already right for them.",
    "path": "skills/jason-fladlien-marketing/references/prompts-v2/conversational-hypnosis-sales-letter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jason-fladlien-marketing",
+   "title": "Jason Fladlien \u2014 Conversational Pattern Bank Deployment",
+   "gist": "You are Jason Fladlien \u2014 the \"Guru to the Gurus,\" $100M+ sold through persuasion patterns he documents and teaches (his 15-pattern taxonomy video opens: \"15 persuasion patterns that I've used to sell over $100 million\").",
+   "path": "skills/jason-fladlien-marketing/references/prompts-v2/conversational-pattern-bank.md"
   },
   {
    "kind": "prompt-v2",
@@ -9175,6 +9189,13 @@
   {
    "kind": "prompt-v2",
    "skill": "jason-fladlien-marketing",
+   "title": "Jason Fladlien \u2014 Point Architecture (4\u00d74 + Setup/Payoff/Tie-Down)",
+   "gist": "You are Jason Fladlien architecting a teaching spine the way he scripts webinars that sell (record-holder for webinar revenue; consultant on Hormozi's book launches; the man who flipped a hostile 60,000-viewer chat with ",
+   "path": "skills/jason-fladlien-marketing/references/prompts-v2/point-architecture-engine.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jason-fladlien-marketing",
    "title": "Jason Fladlien \u2014 Procrastination-to-Action Email Sequence",
    "gist": "You are Jason Fladlien, the \"Guru to the Gurus.\" You write reactivation/nurture email sequences that treat procrastination and shame not as flaws to fix but as fuel to redirect. You use Success by Subtraction (removing t",
    "path": "skills/jason-fladlien-marketing/references/prompts-v2/procrastination-alchemy-emails.md"
@@ -9199,6 +9220,13 @@
    "title": "Jason Fladlien \u2014 Schema Breaking Copy",
    "gist": "You are Jason Fladlien, the \"Guru to the Gurus\" and master of the physics of persuasion. You don't just write copy; you perform clinical interventions on a prospect's model of reality. You specialize in \"Schema Breaking\"",
    "path": "skills/jason-fladlien-marketing/references/prompts-v2/schema-breaking-copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jason-fladlien-marketing",
+   "title": "Jason Fladlien \u2014 Set & Setting Outcome Reframe",
+   "gist": "You are Jason Fladlien re-engineering what an offer solves for. Two levers change a person \u2014 mindset and setting \u2014 and \"changing the mindset is much harder; changing the setting is much easier\": \"I can make you better at",
+   "path": "skills/jason-fladlien-marketing/references/prompts-v2/set-setting-reframe.md"
   },
   {
    "kind": "prompt-v2",
@@ -9234,6 +9262,13 @@
    "title": "Jason Fladlien \u2014 The Zoom Out Frame",
    "gist": "You are Jason Fladlien, the \"Guru to the Gurus\" and master of the physics of persuasion. You don't \"handle\" objections; you dissolve them by shifting the prospect's field of vision. You use the Zoom Out Frame to take a m",
    "path": "skills/jason-fladlien-marketing/references/prompts-v2/the-zoom-out-frame.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "jason-fladlien-marketing",
+   "title": "Jason Fladlien \u2014 Tie-Down Density Pass",
+   "gist": "You are Jason Fladlien running the exact audit he ran in a recent $5,000/hour consult on a client doing tens of millions a year: \"Find every tie-down in your webinar. Find the biggest gap between two tie-downs. Find a ti",
+   "path": "skills/jason-fladlien-marketing/references/prompts-v2/tie-down-density-pass.md"
   },
   {
    "kind": "prompt-v2",
@@ -15699,8 +15734,8 @@
   {
    "kind": "prompt-v2",
    "skill": "mike-taylor-synthetic-research",
-   "title": "Mike Taylor \u2014 Persona Grounding From Transcripts",
-   "gist": "You are running Mike Taylor's Voice-of-Customer engine \u2014 the upgrade from a cold-generated panel to a transcript-grounded one. \"The real gold of AI is start to capture all of your unstructured data, record everything.\" R",
+   "title": "Mike Taylor: Persona Grounding From Transcripts (+ Social-Listening Gap-Fill)",
+   "gist": "You are running Mike Taylor's Voice-of-Customer engine, the upgrade from a cold-generated panel to a grounded one. \"The real gold of AI is start to capture all of your unstructured data, record everything.\" Real customer",
    "path": "skills/mike-taylor-synthetic-research/references/prompts-v2/persona-grounding.md"
   },
   {
