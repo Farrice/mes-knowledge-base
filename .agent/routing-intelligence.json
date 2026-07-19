@@ -8124,6 +8124,23 @@
             "ensemble": true,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_075317_4fb0",
+            "timestamp": "2026-07-19T07:53:17.816820+00:00",
+            "session_id": "",
+            "request_summary": "Nathan Gotch — AI SEO/AEO operational-layer mastery extraction (forge expansion: category domination sprint methodology, first primary Gotch source)",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "nathan-gotch"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -8670,7 +8687,7 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 449,
+            "total_routings": 450,
             "total_feedback": 60,
             "positive_count": 0,
             "negative_count": 0,
@@ -8683,7 +8700,7 @@
                 "Creative": 8,
                 "Legal Consult Prep": 1,
                 "Content": 45,
-                "Extraction": 20,
+                "Extraction": 21,
                 "Research": 11,
                 "stefan-georgi-dopamine-copy": 7,
                 "supercomputer": 18,
@@ -8957,10 +8974,11 @@
                 "april-dunford": 1,
                 "lara-acosta": 1,
                 "farrice-cain": 1,
-                "joanna-wiebe-persuasion-mastery": 1
+                "joanna-wiebe-persuasion-mastery": 1,
+                "nathan-gotch": 1
             },
             "tier_counts": {
-                "0": 449,
+                "0": 450,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -8969,7 +8987,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 255,
-                "finalize-auto": 194
+                "finalize-auto": 195
             },
             "ensemble_count": 336,
             "auto_miss_count": 49,

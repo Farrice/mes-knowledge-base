@@ -1,5 +1,31 @@
 # Nathan Gotch AI SEO — Source Ledger
 
+## UPDATE 2026-07-19 — First primary source acquired
+
+The absence documented below is now partially resolved. `/extract-forge` (2026-07-19) acquired
+the repo's **first primary Gotch source**: his own YouTube video "a simple SEO strategy that
+actually works (no nonsense)" (2026-07-15, 18:57, youtube.com/watch?v=3sHPiOIHPTY) —
+full transcript (3,888 words, native captions) at `extractions/nathan-gotch/transcript.txt`,
+26-frame visual ledger at `extractions/nathan-gotch/visual-context.md`, metadata at
+`extractions/nathan-gotch/source-metadata.md`, MES 3.0 report at
+`extractions/nathan-gotch/extraction-report-2026-07-19.md`.
+
+**What this source VERIFIES (with timestamps)**:
+- Gotch identity claims: co-founder of Rankability, author of upcoming *AI SEO for Dummies* (self-stated, 0:10). The prior "AI SEO pioneer / retrieval layer" SKILL.md framing remains an interpretive label, but retrieval-first methodology is now directly evidenced (2:50-3:45).
+- Retrieval ≠ Ranking (Hidden Knowledge 1) and the SERP-position anti-pattern — JerkyGent ranks #3 organic with 0% AI mentions (0:00-3:00, 14:05).
+- Unlinked mentions count (Hidden Knowledge 2) — unlinked mention counted in the citation autopsy (3:02).
+- "What AI Can't Fake" anti-pattern — "not generic stuff AI could spin up in 2 seconds" + the called-out generic post (15:00).
+- Patterns 15-25 and Hidden Knowledge 7-11 (all new in this expansion) — wholly primary-sourced.
+
+**What remains UNCONFIRMED**: Patterns 1-14's specific numeric targets (70%+/80%+/95%+, 5-10
+platforms, 50+ sources), the knowledge-base lead-domino sequencing, implementation hour/day
+windows, and the two composite exemplars (MedInsight AI, EcoBuild Pro — still explicitly
+illustrative). The "2 extractions" provenance of the original 28 prompts is still not recoverable.
+
+---
+
+## Original ledger (2026-07-18, pre-primary-source) — retained verbatim below
+
 Claim-by-claim provenance for `skills/nathan-gotch-ai-seo/`. Ground truth for this skill
 is absent, not thin: no `extractions/` directory or transcript exists anywhere in this
 repo attributable to Nathan Gotch. That absence was verified with real file reads and
