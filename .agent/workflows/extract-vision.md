@@ -145,3 +145,7 @@ If running alongside `/extract`, this document replaces the standard "Proposed 3
 - `/extract` — vision feeds into extract's workflow planning step
 - `/extract-forge` — forge has vision built in; use this command standalone when you want vision WITHOUT the full forge pipeline
 - `/extract-amplify` — the vision document becomes the reference for what "more" means during amplification
+
+## Downstream Contract (added 2026-07-19)
+
+Vision is a planning artifact — it builds nothing itself. Whichever build path consumes this Vision Document (`/extract`, `/extract-forge`, or a manual build) MUST ship the **Prompt Forging Gate** (`directives/prompt-forging-spec.md`): born-v2 structure-pure prompts in `references/prompts-v2/` + the four wiring steps (renaissance_audit 0-fail → prompt_library build → wire_prompt_pointers --write → per-workflow cross-ref lines). A vision that hands off to a build without this gate is handing off half-finished work — carry this clause into the build checkpoint.
