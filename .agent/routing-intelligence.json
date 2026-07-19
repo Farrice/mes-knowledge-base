@@ -32,7 +32,7 @@
                 "kallaway-social-commerce": 1,
                 "theme-factory": 1,
                 "youtube-video-context-analysis": 1,
-                "luke-iha-avatar-machine": 10,
+                "luke-iha-avatar-machine": 12,
                 "david-placek-naming": 5,
                 "docx": 1,
                 "sharran-srivatsaa-scaling": 2,
@@ -45,7 +45,7 @@
                 "story-compass": 1,
                 "lara-acosta-linkedin-growth": 1,
                 "darrel-wilson-ai-affiliate": 1,
-                "stefan-georgi-dopamine-copy": 7,
+                "stefan-georgi-dopamine-copy": 8,
                 "marketing-studio-director": 1,
                 "System": 65,
                 "brand-operating-system": 11,
@@ -81,9 +81,9 @@
                 "simon-intellectual-library-os": 1,
                 "creative-campaign-strategy": 2
             },
-            "total_routings": 464,
+            "total_routings": 467,
             "tier_counts": {
-                "0": 464,
+                "0": 467,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -93,7 +93,7 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 263,
+                "hybrid": 266,
                 "finalize-auto": 201
             },
             "expert_counts": {
@@ -115,7 +115,7 @@
                 "David Placek": 1,
                 "mcp-builder": 1,
                 "gpt-image-2-director": 12,
-                "seth-godin-brand": 1,
+                "seth-godin-brand": 2,
                 "collective-genius-council": 1,
                 "kallaway-social-commerce": 1,
                 "david-placek-naming": 8,
@@ -162,7 +162,7 @@
                 "andrew-dun-vibe-consulting": 1,
                 "luke-iha-cross-domain": 1,
                 "theme-factory": 7,
-                "luke-iha-avatar-machine": 11,
+                "luke-iha-avatar-machine": 13,
                 "docx": 4,
                 "tommy-clark": 2,
                 "deliberate": 27,
@@ -194,7 +194,7 @@
                 "farrice-cain": 1,
                 "jeremy-haynes": 4,
                 "ethan-smith-aeo": 1,
-                "luke-iha-vsl-leads": 6,
+                "luke-iha-vsl-leads": 7,
                 "gemini-api-dev": 3,
                 "voice-os": 13,
                 "michael-connelly-vivid-writing": 1,
@@ -215,15 +215,15 @@
                 "chase-hughes-context-engineering": 2,
                 "seena-rez-tiktok-commerce": 2,
                 "lara-acosta-linkedin-growth": 1,
-                "stefan-georgi-dopamine-copy": 20,
+                "stefan-georgi-dopamine-copy": 21,
                 "mike-foutia-marketing-tools": 1,
                 "dr-kriukow-humanization": 2,
                 "nathan-gotch": 1,
                 "sean-dollwet": 1,
                 "market_intelligence": 1,
                 "wright-thompson-mastery": 14,
-                "donald-miller-messaging-evolution": 2,
-                "paul-harding-lyric-prose": 13,
+                "donald-miller-messaging-evolution": 3,
+                "paul-harding-lyric-prose": 14,
                 "fareed-zakaria-writing-mastery": 1,
                 "luke-iha-insight-vectors": 10,
                 "kallaway-addictive-storytelling": 1,
@@ -306,11 +306,13 @@
                 "strength-conditioning-os": 17,
                 "dan-bolton-coaching-offers": 1,
                 "alex-suzuki-digital-product-revenue-os": 3,
-                "creative-campaign-strategy": 3
+                "creative-campaign-strategy": 3,
+                "diandra-escobar-linkedin-growth": 1,
+                "matthew-volkwyn-copywriting": 1
             },
             "total_feedback": 63,
             "negative_count": 0,
-            "ensemble_count": 344,
+            "ensemble_count": 347,
             "auto_miss_count": 51,
             "positive_count": 0
         }
@@ -897,7 +899,7 @@
             "routing_id": "rt_20260702_171831_404b",
             "timestamp": "2026-07-02T17:18:31.882556+00:00",
             "session_id": "",
-            "request_summary": "Josh & Katie v2 training programs (Carbon Torch): Katie_FullBody_Recomp_v2.md + Josh_FullBody_GLP1_v2.md + hub README + archived source brief in _active/josh-katie-fitness/ \u2014 5-day 3-foundational+2-tr",
+            "request_summary": "Josh & Katie v2 training programs (Carbon Torch): Katie_FullBody_Recomp_v2.md + Josh_FullBody_GLP1_v2.md + hub README + archived source brief in _active/josh-katie-fitness/ — 5-day 3-foundational+2-tr",
             "intent_score": 7,
             "domain_detected": "Client Work",
             "experts_deployed": [
@@ -914,7 +916,7 @@
             "routing_id": "rt_20260702_171858_97a6",
             "timestamp": "2026-07-02T17:18:58.073475+00:00",
             "session_id": "",
-            "request_summary": "Josh & Katie v2 training programs (Carbon Torch) \u2014 retry with anchor flags: Katie_FullBody_Recomp_v2.md + Josh_FullBody_GLP1_v2.md + hub README + archived brief in _active/josh-katie-fitness/",
+            "request_summary": "Josh & Katie v2 training programs (Carbon Torch) — retry with anchor flags: Katie_FullBody_Recomp_v2.md + Josh_FullBody_GLP1_v2.md + hub README + archived brief in _active/josh-katie-fitness/",
             "intent_score": 9,
             "domain_detected": "Client Work",
             "experts_deployed": [
@@ -931,7 +933,7 @@
             "routing_id": "rt_20260702_172529_f8e3",
             "timestamp": "2026-07-02T17:25:29.126393+00:00",
             "session_id": "",
-            "request_summary": "E1 Factory Audit \u2014 Embodiment Delta: factory QC proven self-referential (never compares vs expert's real work; hardcoded 8/9 finalize scores at extract.md:100-106 = origin of 7.25 flattening); heartbe",
+            "request_summary": "E1 Factory Audit — Embodiment Delta: factory QC proven self-referential (never compares vs expert's real work; hardcoded 8/9 finalize scores at extract.md:100-106 = origin of 7.25 flattening); heartbe",
             "intent_score": 7,
             "domain_detected": "Analysis",
             "experts_deployed": [
@@ -948,7 +950,7 @@
             "routing_id": "rt_20260702_175637_7caa",
             "timestamp": "2026-07-02T17:56:37.858312+00:00",
             "session_id": "",
-            "request_summary": "E2 Skill Census \u2014 324 skills graded by deterministic classifier (execution/skill_census.py) calibrated 12/13 vs E1 ground truth + blind Opus validation: 81% of 2026-01 bulk stratum flagged vs 6% of 20",
+            "request_summary": "E2 Skill Census — 324 skills graded by deterministic classifier (execution/skill_census.py) calibrated 12/13 vs E1 ground truth + blind Opus validation: 81% of 2026-01 bulk stratum flagged vs 6% of 20",
             "intent_score": 7,
             "domain_detected": "Analysis",
             "experts_deployed": [
@@ -965,7 +967,7 @@
             "routing_id": "rt_20260702_182222_6ce6",
             "timestamp": "2026-07-02T18:22:22.061745+00:00",
             "session_id": "",
-            "request_summary": "E3 Blind Bake-Off packet assembled \u2014 15 comparisons across 5 skills (lara-linkedin-mastery, luke-copy-blocks, hormozi, stanton control, suzuki): 15 verbatim provenance-verified real pieces curated (co",
+            "request_summary": "E3 Blind Bake-Off packet assembled — 15 comparisons across 5 skills (lara-linkedin-mastery, luke-copy-blocks, hormozi, stanton control, suzuki): 15 verbatim provenance-verified real pieces curated (co",
             "intent_score": 7,
             "domain_detected": "Analysis",
             "experts_deployed": [
@@ -982,7 +984,7 @@
             "routing_id": "rt_20260702_190024_7007",
             "timestamp": "2026-07-02T19:00:24.123739+00:00",
             "session_id": "",
-            "request_summary": "Claim Check launch packet (Cole question-to-asset funnel map + 90-min trust-ordered sequence + DM layer + verdict-flywheel prep) with independent cold-visitor stress-test \u2014 the undisclosed-login-wall ",
+            "request_summary": "Claim Check launch packet (Cole question-to-asset funnel map + 90-min trust-ordered sequence + DM layer + verdict-flywheel prep) with independent cold-visitor stress-test — the undisclosed-login-wall ",
             "intent_score": 7,
             "domain_detected": "Strategy",
             "experts_deployed": [
@@ -1067,7 +1069,7 @@
             "routing_id": "rt_20260702_215851_9436",
             "timestamp": "2026-07-02T21:58:51.413951+00:00",
             "session_id": "",
-            "request_summary": "E3 Blind Bake-Off REVEAL \u2014 Farrice detected real experts 5/15 (33%, below chance), preferred skill-generated 8-6-1 over real published work; 4/5 skills BLIND-PASS (Luke = training-bleed-controlled pro",
+            "request_summary": "E3 Blind Bake-Off REVEAL — Farrice detected real experts 5/15 (33%, below chance), preferred skill-generated 8-6-1 over real published work; 4/5 skills BLIND-PASS (Luke = training-bleed-controlled pro",
             "intent_score": 9,
             "domain_detected": "Analysis",
             "experts_deployed": [
@@ -1084,7 +1086,7 @@
             "routing_id": "rt_20260702_220614_8656",
             "timestamp": "2026-07-02T22:06:14.780421+00:00",
             "session_id": "",
-            "request_summary": "E4 \u2014 Embodiment Standard encoded into the factory: directives/embodiment-standard.md (canonical: 10-item build checklist from E1, anti-overpolish rule from E3 blind notes, blind-pass ship protocol, ev",
+            "request_summary": "E4 — Embodiment Standard encoded into the factory: directives/embodiment-standard.md (canonical: 10-item build checklist from E1, anti-overpolish rule from E3 blind notes, blind-pass ship protocol, ev",
             "intent_score": 9,
             "domain_detected": "System",
             "experts_deployed": [
@@ -1101,7 +1103,7 @@
             "routing_id": "rt_20260702_224257_a6b1",
             "timestamp": "2026-07-02T22:42:57.273808+00:00",
             "session_id": "",
-            "request_summary": "E5 harvest roadmap + repo-wide score sweep: 5 dedup-checked harvest targets (headline: claim-safe/regulatory health marketing = ZERO coverage in 338 skills vs Path A definition \u2014 live liability, ranke",
+            "request_summary": "E5 harvest roadmap + repo-wide score sweep: 5 dedup-checked harvest targets (headline: claim-safe/regulatory health marketing = ZERO coverage in 338 skills vs Path A definition — live liability, ranke",
             "intent_score": 9,
             "domain_detected": "System",
             "experts_deployed": [
@@ -1118,7 +1120,7 @@
             "routing_id": "rt_20260703_002302_d6a9",
             "timestamp": "2026-07-03T00:23:02.988513+00:00",
             "session_id": "",
-            "request_summary": "Stage 0 Vision Translation layer for /raw-intent-bridge \u2014 root-caused Codex mis-routing of raw creative intent (lexical compiler), patched canonical workflow + Codex SKILL.md + Claude shim + AGENTS.md",
+            "request_summary": "Stage 0 Vision Translation layer for /raw-intent-bridge — root-caused Codex mis-routing of raw creative intent (lexical compiler), patched canonical workflow + Codex SKILL.md + Claude shim + AGENTS.md",
             "intent_score": 7,
             "domain_detected": "System",
             "experts_deployed": [
@@ -1169,7 +1171,7 @@
             "routing_id": "rt_20260703_021725_d523",
             "timestamp": "2026-07-03T02:17:25.031373+00:00",
             "session_id": "",
-            "request_summary": "Founder Context Brief for Farrice Cain \u2014 holistic AI-grounding identity doc (past, wound, POV anchors, voice, zone of genius, interests, application layer for Threads + course, gap-fill interview). Di",
+            "request_summary": "Founder Context Brief for Farrice Cain — holistic AI-grounding identity doc (past, wound, POV anchors, voice, zone of genius, interests, application layer for Threads + course, gap-fill interview). Di",
             "intent_score": 7,
             "domain_detected": "Creative",
             "experts_deployed": [
@@ -1186,7 +1188,7 @@
             "routing_id": "rt_20260703_032457_2848",
             "timestamp": "2026-07-03T03:24:57.784616+00:00",
             "session_id": "",
-            "request_summary": "Chief of Staff OS (/cos) \u2014 daily micro briefing + weekly board system: chief-of-staff-os skill (SKILL.md, genius.md, 3 workflows), cos_prep.py deterministic prep engine, launchd 06:45 morning job, ses",
+            "request_summary": "Chief of Staff OS (/cos) — daily micro briefing + weekly board system: chief-of-staff-os skill (SKILL.md, genius.md, 3 workflows), cos_prep.py deterministic prep engine, launchd 06:45 morning job, ses",
             "intent_score": 7,
             "domain_detected": "System",
             "experts_deployed": [
@@ -1203,7 +1205,7 @@
             "routing_id": "rt_20260703_032627_f680",
             "timestamp": "2026-07-03T03:26:27.407013+00:00",
             "session_id": "",
-            "request_summary": "Chief of Staff OS (/cos) v1.1 after retry pass \u2014 question engine enriched (25 phrasings across 5 life sections, was 15) + anti-nag section rotation (sections asked yesterday demoted, tested), on top o",
+            "request_summary": "Chief of Staff OS (/cos) v1.1 after retry pass — question engine enriched (25 phrasings across 5 life sections, was 15) + anti-nag section rotation (sections asked yesterday demoted, tested), on top o",
             "intent_score": 7,
             "domain_detected": "System",
             "experts_deployed": [
@@ -1390,7 +1392,7 @@
             "routing_id": "rt_20260703_044912_a5aa",
             "timestamp": "2026-07-03T04:49:12.061417+00:00",
             "session_id": "",
-            "request_summary": "6853 Willis Ave Van Nuys listing Reel package \u2014 6 hooks + tour script + filming briefing + send-ready text for Jen Santulan",
+            "request_summary": "6853 Willis Ave Van Nuys listing Reel package — 6 hooks + tour script + filming briefing + send-ready text for Jen Santulan",
             "intent_score": 7,
             "domain_detected": "Content",
             "experts_deployed": [
@@ -1526,7 +1528,7 @@
             "routing_id": "rt_20260703_051702_cbdf",
             "timestamp": "2026-07-03T05:17:02.775097+00:00",
             "session_id": "",
-            "request_summary": "6853 Willis Ave Van Nuys listing Reel package v2 \u2014 5 adversarially-hardened hooks (clarity kill-gate) + tour + filming briefing + send-ready text for Jen Santulan",
+            "request_summary": "6853 Willis Ave Van Nuys listing Reel package v2 — 5 adversarially-hardened hooks (clarity kill-gate) + tour + filming briefing + send-ready text for Jen Santulan",
             "intent_score": 7,
             "domain_detected": "Content",
             "experts_deployed": [
@@ -1543,7 +1545,7 @@
             "routing_id": "rt_20260703_060928_03ab",
             "timestamp": "2026-07-03T06:09:28.533646+00:00",
             "session_id": "",
-            "request_summary": "6853 Willis Van Nuys Reels v3 \u2014 12 objection-breaking hook cards (6 evergreen + 6 trend) in shoot-sheet format for Jen Santulan",
+            "request_summary": "6853 Willis Van Nuys Reels v3 — 12 objection-breaking hook cards (6 evergreen + 6 trend) in shoot-sheet format for Jen Santulan",
             "intent_score": 7,
             "domain_detected": "Content",
             "experts_deployed": [
@@ -1832,7 +1834,7 @@
             "routing_id": "rt_20260704_152717_377f",
             "timestamp": "2026-07-04T15:27:17.874996+00:00",
             "session_id": "",
-            "request_summary": "Satori Graphics v2 \u2014 design-thinking + creative-concept + strategic-color mastery expansion (forge). 6 new workflows (concept engine, color system, design-think pipeline, comms-brief, perception-gap, ",
+            "request_summary": "Satori Graphics v2 — design-thinking + creative-concept + strategic-color mastery expansion (forge). 6 new workflows (concept engine, color system, design-think pipeline, comms-brief, perception-gap, ",
             "intent_score": 9,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -1849,7 +1851,7 @@
             "routing_id": "rt_20260704_161536_970e",
             "timestamp": "2026-07-04T16:15:36.012689+00:00",
             "session_id": "",
-            "request_summary": "Fantastic Studio \u2014 elevated fantastic-posters from a keyword-template poster generator into a concept-first, multi-model, self-critiquing image/video engine. Added genius.md brain + /fantastic-studio ",
+            "request_summary": "Fantastic Studio — elevated fantastic-posters from a keyword-template poster generator into a concept-first, multi-model, self-critiquing image/video engine. Added genius.md brain + /fantastic-studio ",
             "intent_score": 9,
             "domain_detected": "System",
             "experts_deployed": [
@@ -1866,7 +1868,7 @@
             "routing_id": "rt_20260704_202411_fd81",
             "timestamp": "2026-07-04T20:24:11.314369+00:00",
             "session_id": "",
-            "request_summary": "Distribution + Tracking spec for The Final 10% reshaped offer \u2014 organic-first fill plan (cadence, content\u2192ring\u2192DM\u2192Audit\u2192Sprint\u2192Room funnel, 5-lane propaganda sequence on Parallax+LinkedIn, DM engine, ",
+            "request_summary": "Distribution + Tracking spec for The Final 10% reshaped offer — organic-first fill plan (cadence, content→ring→DM→Audit→Sprint→Room funnel, 5-lane propaganda sequence on Parallax+LinkedIn, DM engine, ",
             "intent_score": 7,
             "domain_detected": "Strategy",
             "experts_deployed": [
@@ -1883,7 +1885,7 @@
             "routing_id": "rt_20260704_203340_e698",
             "timestamp": "2026-07-04T20:33:40.789568+00:00",
             "session_id": "",
-            "request_summary": "The Final 10% \u2014 offer red-team validation + propaganda fill machine (big-domino, 18-objection arsenal, 6 publish-ready pieces, offer doc, distribution+tracking) built on the reshaped offer",
+            "request_summary": "The Final 10% — offer red-team validation + propaganda fill machine (big-domino, 18-objection arsenal, 6 publish-ready pieces, offer doc, distribution+tracking) built on the reshaped offer",
             "intent_score": 7,
             "domain_detected": "Strategy",
             "experts_deployed": [
@@ -1968,7 +1970,7 @@
             "routing_id": "rt_20260706_060448_9446",
             "timestamp": "2026-07-06T06:04:48.116804+00:00",
             "session_id": "",
-            "request_summary": "Ben Watkins \u2014 Commercial Storytelling & The Pitch Room mastery extraction (forge)",
+            "request_summary": "Ben Watkins — Commercial Storytelling & The Pitch Room mastery extraction (forge)",
             "intent_score": 9,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -2774,7 +2776,7 @@
             "routing_id": "rt_20260707_135617_06bc",
             "timestamp": "2026-07-07T13:56:17.249467+00:00",
             "session_id": "",
-            "request_summary": "Harness Apex Plan \u2014 4-audit analysis of supercomputer/JCC/autopilot/extraction/routing spine + 5-wave upgrade plan (_active/harness-apex-2026-07-07/PLAN.md) to encode Fable-level orchestration into de",
+            "request_summary": "Harness Apex Plan — 4-audit analysis of supercomputer/JCC/autopilot/extraction/routing spine + 5-wave upgrade plan (_active/harness-apex-2026-07-07/PLAN.md) to encode Fable-level orchestration into de",
             "intent_score": 7,
             "domain_detected": "System",
             "experts_deployed": [
@@ -2828,7 +2830,7 @@
             "routing_id": "rt_20260707_141807_0377",
             "timestamp": "2026-07-07T14:18:07.392625+00:00",
             "session_id": "",
-            "request_summary": "JJ Playbook \u2014 grab-anytime developmental menu for JJ at 2.5 (.agent/cos/jj-playbook.md): five levers, time-windowed menu tied to his actual interests, screen launchpad protocol, solo-parent Tuesday rh",
+            "request_summary": "JJ Playbook — grab-anytime developmental menu for JJ at 2.5 (.agent/cos/jj-playbook.md): five levers, time-windowed menu tied to his actual interests, screen launchpad protocol, solo-parent Tuesday rh",
             "intent_score": 7,
             "domain_detected": "Creative",
             "experts_deployed": [
@@ -2938,7 +2940,7 @@
             "routing_id": "rt_20260707_143353_8d60",
             "timestamp": "2026-07-07T14:33:53.357558+00:00",
             "session_id": "",
-            "request_summary": "10-Option PMF/Offer-Market-Fit Brief \u2014 Antigravity Harness Analysis",
+            "request_summary": "10-Option PMF/Offer-Market-Fit Brief — Antigravity Harness Analysis",
             "intent_score": 7,
             "domain_detected": "Strategy",
             "experts_deployed": [
@@ -2955,7 +2957,7 @@
             "routing_id": "rt_20260707_143854_4d1b",
             "timestamp": "2026-07-07T14:38:54.316522+00:00",
             "session_id": "",
-            "request_summary": "PMF/Offer-Market-Fit Brief \u2014 recovered the stalled 2026-07-05 workflow research (8 payloads), completed the never-delivered slate: 10 scored paths + steel-man counter-read + two-action verdict sequenc",
+            "request_summary": "PMF/Offer-Market-Fit Brief — recovered the stalled 2026-07-05 workflow research (8 payloads), completed the never-delivered slate: 10 scored paths + steel-man counter-read + two-action verdict sequenc",
             "intent_score": 7,
             "domain_detected": "Strategy",
             "experts_deployed": [
@@ -3116,7 +3118,7 @@
             "routing_id": "rt_20260707_175106_0c2a",
             "timestamp": "2026-07-07T17:51:06.818430+00:00",
             "session_id": "",
-            "request_summary": "Claim-safe content landscape research report (research_outputs/2026-07-07-claim-safe-content-landscape.md) \u2014 produced by the first live /swarm research mission: 6 parallel search workers, gap-check wi",
+            "request_summary": "Claim-safe content landscape research report (research_outputs/2026-07-07-claim-safe-content-landscape.md) — produced by the first live /swarm research mission: 6 parallel search workers, gap-check wi",
             "intent_score": 9,
             "domain_detected": "Research",
             "experts_deployed": [
@@ -3133,7 +3135,7 @@
             "routing_id": "rt_20260707_184143_4fd7",
             "timestamp": "2026-07-07T18:41:43.059938+00:00",
             "session_id": "verify-router-solution-line",
-            "request_summary": "Please help \u2014 this output has too many experts and skills, it is turning into expert soup, needs the expert composition governor pattern applied to compose the specialists properly",
+            "request_summary": "Please help — this output has too many experts and skills, it is turning into expert soup, needs the expert composition governor pattern applied to compose the specialists properly",
             "intent_score": 0,
             "domain_detected": "design-md",
             "experts_deployed": [
@@ -3152,7 +3154,7 @@
             "routing_id": "rt_20260707_184151_8d32",
             "timestamp": "2026-07-07T18:41:51.842614+00:00",
             "session_id": "verify-router-solution-line",
-            "request_summary": "Please help \u2014 this output has too many experts and skills, it is turning into expert soup, needs the expert composition governor pattern applied to compose the specialists properly",
+            "request_summary": "Please help — this output has too many experts and skills, it is turning into expert soup, needs the expert composition governor pattern applied to compose the specialists properly",
             "intent_score": 0,
             "domain_detected": "design-md",
             "experts_deployed": [
@@ -3171,7 +3173,7 @@
             "routing_id": "rt_20260707_184226_1602",
             "timestamp": "2026-07-07T18:42:26.807289+00:00",
             "session_id": "verify-router-solution-line",
-            "request_summary": "Please help \u2014 this output has too many experts and skills, it is turning into expert soup, needs the expert composition governor pattern applied to compose the specialists properly",
+            "request_summary": "Please help — this output has too many experts and skills, it is turning into expert soup, needs the expert composition governor pattern applied to compose the specialists properly",
             "intent_score": 0,
             "domain_detected": "design-md",
             "experts_deployed": [
@@ -3313,7 +3315,7 @@
             "routing_id": "rt_20260707_190413_7e87",
             "timestamp": "2026-07-07T19:04:13.138567+00:00",
             "session_id": "verify-mtime",
-            "request_summary": "Please help \u2014 this output has too many experts and skills, it is turning into expert soup, needs the expert composition governor pattern applied",
+            "request_summary": "Please help — this output has too many experts and skills, it is turning into expert soup, needs the expert composition governor pattern applied",
             "intent_score": 0,
             "domain_detected": "design-md",
             "experts_deployed": [
@@ -3332,7 +3334,7 @@
             "routing_id": "rt_20260707_190413_ceae",
             "timestamp": "2026-07-07T19:04:13.439479+00:00",
             "session_id": "verify-mtime",
-            "request_summary": "Please help \u2014 this output has too many experts and skills, it is turning into expert soup, needs the expert composition governor pattern applied",
+            "request_summary": "Please help — this output has too many experts and skills, it is turning into expert soup, needs the expert composition governor pattern applied",
             "intent_score": 0,
             "domain_detected": "design-md",
             "experts_deployed": [
@@ -3351,7 +3353,7 @@
             "routing_id": "rt_20260707_190607_554a",
             "timestamp": "2026-07-07T19:06:07.134022+00:00",
             "session_id": "",
-            "request_summary": "Path A proof-of-work decision brief (strategy_briefs/2026-07-07-path-a-proof-of-work-heavy.md) \u2014 first live /swarm heavy run: 8 expert trajectories, reflective aggregation preserving 5 forks with fals",
+            "request_summary": "Path A proof-of-work decision brief (strategy_briefs/2026-07-07-path-a-proof-of-work-heavy.md) — first live /swarm heavy run: 8 expert trajectories, reflective aggregation preserving 5 forks with fals",
             "intent_score": 9,
             "domain_detected": "Strategy",
             "experts_deployed": [
@@ -3385,7 +3387,7 @@
             "routing_id": "rt_20260707_192538_f0bf",
             "timestamp": "2026-07-07T19:25:38.986704+00:00",
             "session_id": "",
-            "request_summary": "Mark Kashef \u2014 Wargame OS mastery extraction (forge): 10 workflows, genius.md, 4 references, folder template, 10 slash commands, agent expansion",
+            "request_summary": "Mark Kashef — Wargame OS mastery extraction (forge): 10 workflows, genius.md, 4 references, folder template, 10 slash commands, agent expansion",
             "intent_score": 9,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -3438,7 +3440,7 @@
             "routing_id": "rt_20260707_210122_2b72",
             "timestamp": "2026-07-07T21:01:22.255384+00:00",
             "session_id": "",
-            "request_summary": "Josh & Katie v2.1 workout enrichment (Carbon Torch): +2 compounds/accessories per foundational + 1 per trigger, concentrated on constraints \u2014 Katie hips/quads/frontal-plane/arms/lower-abs (heel-elev g",
+            "request_summary": "Josh & Katie v2.1 workout enrichment (Carbon Torch): +2 compounds/accessories per foundational + 1 per trigger, concentrated on constraints — Katie hips/quads/frontal-plane/arms/lower-abs (heel-elev g",
             "intent_score": 9,
             "domain_detected": "Client Work",
             "experts_deployed": [
@@ -3472,7 +3474,7 @@
             "routing_id": "rt_20260707_211124_01b6",
             "timestamp": "2026-07-07T21:11:24.678951+00:00",
             "session_id": "",
-            "request_summary": "Katie progesterone-support insight brief (Carbon Torch) \u2014 evidence-based nutrition/lifestyle support for low-progesterone/normal-estrogen finding, gallbladder\u2192fat-soluble-vitamin(D) link, test-timing/",
+            "request_summary": "Katie progesterone-support insight brief (Carbon Torch) — evidence-based nutrition/lifestyle support for low-progesterone/normal-estrogen finding, gallbladder→fat-soluble-vitamin(D) link, test-timing/",
             "intent_score": 9,
             "domain_detected": "Client Work",
             "experts_deployed": [
@@ -3544,7 +3546,7 @@
             "routing_id": "rt_20260707_224425_7bc5",
             "timestamp": "2026-07-07T22:44:25.963037+00:00",
             "session_id": "",
-            "request_summary": "DWA question-led content engine \u2014 real-questions research to next-step-over-flex strategy + OS principle",
+            "request_summary": "DWA question-led content engine — real-questions research to next-step-over-flex strategy + OS principle",
             "intent_score": 7,
             "domain_detected": "Strategy",
             "experts_deployed": [
@@ -3597,7 +3599,7 @@
             "routing_id": "rt_20260708_005755_4f35",
             "timestamp": "2026-07-08T00:57:55.471018+00:00",
             "session_id": "1a445b82-95ea-44af-b8a5-39367ad5ad9c",
-            "request_summary": "<agent-message from=\"general-purpose\">\nNOTION-SELF-WORK.md written to _active/farrice-master-context-2026-07-07/extracts/ (~2,300 words, verbatim-preserving, [PRIVATE \u2014 never public] boundary marked o",
+            "request_summary": "<agent-message from=\"general-purpose\">\nNOTION-SELF-WORK.md written to _active/farrice-master-context-2026-07-07/extracts/ (~2,300 words, verbatim-preserving, [PRIVATE — never public] boundary marked o",
             "intent_score": 0,
             "domain_detected": "brand-operating-system",
             "experts_deployed": [
@@ -3616,7 +3618,7 @@
             "routing_id": "rt_20260708_010044_800e",
             "timestamp": "2026-07-08T01:00:44.341722+00:00",
             "session_id": "",
-            "request_summary": "FARRICE-MASTER-CONTEXT.md v2.0 \u2014 canonical master identity/context profile synthesized from 9 Notion self-work docs + workspace evidence trail + receipts; privacy-gated wounds section, zone-of-genius,",
+            "request_summary": "FARRICE-MASTER-CONTEXT.md v2.0 — canonical master identity/context profile synthesized from 9 Notion self-work docs + workspace evidence trail + receipts; privacy-gated wounds section, zone-of-genius,",
             "intent_score": 7,
             "domain_detected": "System",
             "experts_deployed": [
@@ -3671,7 +3673,7 @@
             "routing_id": "rt_20260708_022139_6cc2",
             "timestamp": "2026-07-08T02:21:39.087022+00:00",
             "session_id": "8fedeee9-b662-4df1-9e13-23e1493925ce",
-            "request_summary": "Deepen \u2014 build a Trainerize AI paste-optimized version of each session (stripped to the exact syntax their AI ingests best \u2014 one exercise per line, no prose), so copy-paste is friction-free instead of",
+            "request_summary": "Deepen — build a Trainerize AI paste-optimized version of each session (stripped to the exact syntax their AI ingests best — one exercise per line, no prose), so copy-paste is friction-free instead of",
             "intent_score": 0,
             "domain_detected": "stefan-georgi-dopamine-copy",
             "experts_deployed": [
@@ -3690,7 +3692,7 @@
             "routing_id": "rt_20260708_023046_e58f",
             "timestamp": "2026-07-08T02:30:46.027784+00:00",
             "session_id": "",
-            "request_summary": "REPS GAME PLAN \u2014 one-card execution layer for the content/visibility shift: Day 1 go-live sequence, daily 45-min oracle+DM rep card, platform verdict (LinkedIn-only 14 days), Substack post-mortem, act",
+            "request_summary": "REPS GAME PLAN — one-card execution layer for the content/visibility shift: Day 1 go-live sequence, daily 45-min oracle+DM rep card, platform verdict (LinkedIn-only 14 days), Substack post-mortem, act",
             "intent_score": 7,
             "domain_detected": "Strategy",
             "experts_deployed": [
@@ -3893,7 +3895,7 @@
             "routing_id": "rt_20260708_033315_f9db",
             "timestamp": "2026-07-08T03:33:15.487698+00:00",
             "session_id": "",
-            "request_summary": "Voice OS: always-on voice alignment system \u2014 compiled VOICE-CARD.md v1.0 with measured stylometrics + PORTABLE card (exported to Drive) + skills/voice-os with 4-mode fidelity dial + /voice-ratchet cal",
+            "request_summary": "Voice OS: always-on voice alignment system — compiled VOICE-CARD.md v1.0 with measured stylometrics + PORTABLE card (exported to Drive) + skills/voice-os with 4-mode fidelity dial + /voice-ratchet cal",
             "intent_score": 7,
             "domain_detected": "System",
             "experts_deployed": [
@@ -3946,7 +3948,7 @@
             "routing_id": "rt_20260708_044347_fcd3",
             "timestamp": "2026-07-08T04:43:47.499452+00:00",
             "session_id": "",
-            "request_summary": "Dara Denney \u2014 Static Ads craft system mastery expansion (forge)",
+            "request_summary": "Dara Denney — Static Ads craft system mastery expansion (forge)",
             "intent_score": 9,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -4020,7 +4022,7 @@
             "routing_id": "rt_20260708_182526_a430",
             "timestamp": "2026-07-08T18:25:26.345965+00:00",
             "session_id": "",
-            "request_summary": "Health Performance GEO daily brief for 2026-07-08 on women\u2019s health symptom-stack content strategy, saved locally and appended JSONL insight rows",
+            "request_summary": "Health Performance GEO daily brief for 2026-07-08 on women’s health symptom-stack content strategy, saved locally and appended JSONL insight rows",
             "intent_score": 4,
             "domain_detected": "Content",
             "experts_deployed": [
@@ -4257,7 +4259,7 @@
             "routing_id": "rt_20260709_021135_8af5",
             "timestamp": "2026-07-09T02:11:35.462042+00:00",
             "session_id": "",
-            "request_summary": "Research stack verified end-to-end with live proof runs + 3 defects found and fixed: (1) research.py dispatcher floor-rescue (accelerator success-with-0-sources no longer blocks the $0 native floor \u2014 ",
+            "request_summary": "Research stack verified end-to-end with live proof runs + 3 defects found and fixed: (1) research.py dispatcher floor-rescue (accelerator success-with-0-sources no longer blocks the $0 native floor — ",
             "intent_score": 7,
             "domain_detected": "System",
             "experts_deployed": [
@@ -4274,7 +4276,7 @@
             "routing_id": "rt_20260709_033028_3979",
             "timestamp": "2026-07-09T03:30:28.163572+00:00",
             "session_id": "",
-            "request_summary": "Artifact placement OS: durable prevention layer (PostToolUse advisory hook + session-close sweep on the closeout spine + only-populated scaffold fix) plus full backlog filing \u2014 17 projects + deliverab",
+            "request_summary": "Artifact placement OS: durable prevention layer (PostToolUse advisory hook + session-close sweep on the closeout spine + only-populated scaffold fix) plus full backlog filing — 17 projects + deliverab",
             "intent_score": 9,
             "domain_detected": "System",
             "experts_deployed": [
@@ -5280,7 +5282,7 @@
             "routing_id": "rt_20260713_164654_f558",
             "timestamp": "2026-07-13T16:46:54.284550+00:00",
             "session_id": "dfdcc772-8dfd-4bca-9a66-2c73e398cdbb",
-            "request_summary": "Reroll this teaser once with the flourishes stripped: no hand, no silhouette, no gummy ribbons, pure editorial restraint per the brief \u2014 I'll pick between the two takes",
+            "request_summary": "Reroll this teaser once with the flourishes stripped: no hand, no silhouette, no gummy ribbons, pure editorial restraint per the brief — I'll pick between the two takes",
             "intent_score": 0,
             "domain_detected": "kallaway-social-commerce",
             "experts_deployed": [
@@ -5451,7 +5453,7 @@
             "routing_id": "rt_20260713_210338_321c",
             "timestamp": "2026-07-13T21:03:38.483931+00:00",
             "session_id": "",
-            "request_summary": "Prompt Wiring OS: closed the skills-without-execution-prompts gap end-to-end \u2014 load-time menu hook, 356 SKILL.md pointer sections, born-v2 forging gate mandatory across 7 extraction workflows, A/B pro",
+            "request_summary": "Prompt Wiring OS: closed the skills-without-execution-prompts gap end-to-end — load-time menu hook, 356 SKILL.md pointer sections, born-v2 forging gate mandatory across 7 extraction workflows, A/B pro",
             "intent_score": 9,
             "domain_detected": "System",
             "experts_deployed": [
@@ -5525,7 +5527,7 @@
             "routing_id": "rt_20260713_223946_cd34",
             "timestamp": "2026-07-13T22:39:46.511063+00:00",
             "session_id": "3d791415-1ebc-4776-88f9-bd5ed827415b",
-            "request_summary": "Deepen: Lay out take A, take B, and your drafted merge cut side-by-side \u2014 I'll give felt verdicts per section.\nAdjacent: Walk me through the 14 born-v2 fidelity-low flags with your keep/rebuild recomm",
+            "request_summary": "Deepen: Lay out take A, take B, and your drafted merge cut side-by-side — I'll give felt verdicts per section.\nAdjacent: Walk me through the 14 born-v2 fidelity-low flags with your keep/rebuild recomm",
             "intent_score": 0,
             "domain_detected": "voice-os",
             "experts_deployed": [
@@ -5732,7 +5734,7 @@
             "routing_id": "rt_20260714_010844_c4fa",
             "timestamp": "2026-07-14T01:08:44.502333+00:00",
             "session_id": "a1858b4b-b5d0-46b6-a5f8-9b1dc42f1514",
-            "request_summary": "Run /stanton-produce on the LinkedIn launch re-sequence from this session \u2014 full loop with the new Stanton-Grade Gate, so we pressure-test the enrichment on the highest-stakes surface.",
+            "request_summary": "Run /stanton-produce on the LinkedIn launch re-sequence from this session — full loop with the new Stanton-Grade Gate, so we pressure-test the enrichment on the highest-stakes surface.",
             "intent_score": 0,
             "domain_detected": "andrew-stanton-audience-engineering",
             "experts_deployed": [
@@ -5751,7 +5753,7 @@
             "routing_id": "rt_20260714_011251_ce0a",
             "timestamp": "2026-07-14T01:12:51.607377+00:00",
             "session_id": "",
-            "request_summary": "Receipt Arc launch sequence \u2014 14-post Stanton-produced LinkedIn launch order + 13 hand-off loop lines + finale bookend",
+            "request_summary": "Receipt Arc launch sequence — 14-post Stanton-produced LinkedIn launch order + 13 hand-off loop lines + finale bookend",
             "intent_score": 9,
             "domain_detected": "Strategy",
             "experts_deployed": [
@@ -5969,7 +5971,7 @@
             "routing_id": "rt_20260714_024605_044c",
             "timestamp": "2026-07-14T02:46:05.013096+00:00",
             "session_id": "",
-            "request_summary": "Joey (Noisy Group) \u2014 cinema-grade AI production OS: forge extraction (12 workflows, 8 born-v2 prompts, 24 genius patterns) + verbatim install of 3 production skills + full routing/registration wiring",
+            "request_summary": "Joey (Noisy Group) — cinema-grade AI production OS: forge extraction (12 workflows, 8 born-v2 prompts, 24 genius patterns) + verbatim install of 3 production skills + full routing/registration wiring",
             "intent_score": 9,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -6214,7 +6216,7 @@
             "routing_id": "rt_20260714_053053_4356",
             "timestamp": "2026-07-14T05:30:53.133634+00:00",
             "session_id": "",
-            "request_summary": "Sean Dollwet \u2014 Amazon KDP operator-system mastery extraction (forge, 5 videos watched + frame-verified): skill v3.0 with 10 unified workflows, /kdp-engine front door, genius.md 22 patterns, 7 born-v2 ",
+            "request_summary": "Sean Dollwet — Amazon KDP operator-system mastery extraction (forge, 5 videos watched + frame-verified): skill v3.0 with 10 unified workflows, /kdp-engine front door, genius.md 22 patterns, 7 born-v2 ",
             "intent_score": 9,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -6231,7 +6233,7 @@
             "routing_id": "rt_20260714_055627_ac42",
             "timestamp": "2026-07-14T05:56:27.115197+00:00",
             "session_id": "",
-            "request_summary": "Operator Guide Library \u2014 guides/ + INDEX.md + deterministic session-guide spine step + 5 backfilled session guides (Maestro, Prompt Wiring, Joey Cinema, Stanton, KDP)",
+            "request_summary": "Operator Guide Library — guides/ + INDEX.md + deterministic session-guide spine step + 5 backfilled session guides (Maestro, Prompt Wiring, Joey Cinema, Stanton, KDP)",
             "intent_score": 9,
             "domain_detected": "System",
             "experts_deployed": [
@@ -6248,7 +6250,7 @@
             "routing_id": "rt_20260714_055652_fc1c",
             "timestamp": "2026-07-14T05:56:52.771038+00:00",
             "session_id": "",
-            "request_summary": "Receipt Arc novelty campaign pass \u2014 14-post diagnostic + campaign map",
+            "request_summary": "Receipt Arc novelty campaign pass — 14-post diagnostic + campaign map",
             "intent_score": 9,
             "domain_detected": "Strategy",
             "experts_deployed": [
@@ -6303,7 +6305,7 @@
             "routing_id": "rt_20260714_194826_2a53",
             "timestamp": "2026-07-14T19:48:26.486044+00:00",
             "session_id": "",
-            "request_summary": "Intelligence brief: Top 10 premium niches for packaged Claude Code skills 2026 \u2014 synthesized from 169 swarm findings, 3 sections cited inline",
+            "request_summary": "Intelligence brief: Top 10 premium niches for packaged Claude Code skills 2026 — synthesized from 169 swarm findings, 3 sections cited inline",
             "intent_score": 7,
             "domain_detected": "Research",
             "experts_deployed": [
@@ -6320,7 +6322,7 @@
             "routing_id": "rt_20260714_201305_2cd7",
             "timestamp": "2026-07-14T20:13:05.594084+00:00",
             "session_id": "",
-            "request_summary": "Strategic Intelligence Report: Claude-skills digital product business \u2014 3-swarm deep research (424 findings, receipts REAL), top-10 market ranking, SOP-verified product candidates across 4 verticals, ",
+            "request_summary": "Strategic Intelligence Report: Claude-skills digital product business — 3-swarm deep research (424 findings, receipts REAL), top-10 market ranking, SOP-verified product candidates across 4 verticals, ",
             "intent_score": 9,
             "domain_detected": "Research",
             "experts_deployed": [
@@ -6413,7 +6415,7 @@
             "routing_id": "rt_20260715_020416_aab5",
             "timestamp": "2026-07-15T02:04:16.862286+00:00",
             "session_id": "",
-            "request_summary": "Forge OS Wave 1 \u2014 /forge cornerstone generation suite: front door + Prompt Forge lane live (skills/forge-os + .agent/workflows/forge.md + 2 born-v2 engine prompts), five-lane architecture (prompt/work",
+            "request_summary": "Forge OS Wave 1 — /forge cornerstone generation suite: front door + Prompt Forge lane live (skills/forge-os + .agent/workflows/forge.md + 2 born-v2 engine prompts), five-lane architecture (prompt/work",
             "intent_score": 9,
             "domain_detected": "System",
             "experts_deployed": [
@@ -6519,7 +6521,7 @@
             "routing_id": "rt_20260715_145805_4469",
             "timestamp": "2026-07-15T14:58:05.701231+00:00",
             "session_id": "228202df-401f-494d-9d70-c2217e249441",
-            "request_summary": "Deepen \u2014 run /forge Wave 2/3: build the Skill Forge grounding-sprint stage and the /forge dialect probe battery, with cold-start proofs for both\nAdjacent \u2014 run /forge on a real backlog concept of mine",
+            "request_summary": "Deepen — run /forge Wave 2/3: build the Skill Forge grounding-sprint stage and the /forge dialect probe battery, with cold-start proofs for both\nAdjacent — run /forge on a real backlog concept of mine",
             "intent_score": 0,
             "domain_detected": "forge-os",
             "experts_deployed": [
@@ -6593,7 +6595,7 @@
             "routing_id": "rt_20260715_154252_1deb",
             "timestamp": "2026-07-15T15:42:52.438474+00:00",
             "session_id": "",
-            "request_summary": "Jeremy Haynes Cold Traffic Offer Mastery extraction \u2014 8-step methodology, 13 workflows, 10 execution prompts, genius context, full registration, deterministic prompt wiring",
+            "request_summary": "Jeremy Haynes Cold Traffic Offer Mastery extraction — 8-step methodology, 13 workflows, 10 execution prompts, genius context, full registration, deterministic prompt wiring",
             "intent_score": 8,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -6629,7 +6631,7 @@
             "routing_id": "rt_20260715_155107_58d6",
             "timestamp": "2026-07-15T15:51:07.191366+00:00",
             "session_id": "",
-            "request_summary": "Jeremy Haynes \u2014 Cold Traffic Offer Mastery extraction (forge): skills/jeremy-haynes-cold-offer, 13 workflows, 10 born-v2 prompts, agent expansion",
+            "request_summary": "Jeremy Haynes — Cold Traffic Offer Mastery extraction (forge): skills/jeremy-haynes-cold-offer, 13 workflows, 10 born-v2 prompts, agent expansion",
             "intent_score": 9,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -6646,7 +6648,7 @@
             "routing_id": "rt_20260715_155425_634f",
             "timestamp": "2026-07-15T15:54:25.438187+00:00",
             "session_id": "",
-            "request_summary": "Forge OS suite completion \u2014 all five lanes production-ready: workflow-forge + agent-forge native engines shipped with passed cold-start proofs (/fixture-replay workflow forged and registered; Forge Co",
+            "request_summary": "Forge OS suite completion — all five lanes production-ready: workflow-forge + agent-forge native engines shipped with passed cold-start proofs (/fixture-replay workflow forged and registered; Forge Co",
             "intent_score": 9,
             "domain_detected": "System",
             "experts_deployed": [
@@ -6720,7 +6722,7 @@
             "routing_id": "rt_20260715_162454_3e0a",
             "timestamp": "2026-07-15T16:24:54.304764+00:00",
             "session_id": "",
-            "request_summary": "Tommy Clark 2026 LinkedIn strategy \u2014 forge+amplify expansion: Three-Moat System, TLA engine, data/physical moats (4 workflows, 4 born-v2 prompts, source ledger)",
+            "request_summary": "Tommy Clark 2026 LinkedIn strategy — forge+amplify expansion: Three-Moat System, TLA engine, data/physical moats (4 workflows, 4 born-v2 prompts, source ledger)",
             "intent_score": 9,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -6794,7 +6796,7 @@
             "routing_id": "rt_20260715_164055_5cc9",
             "timestamp": "2026-07-15T16:40:55.083435+00:00",
             "session_id": "60f582cb-363a-4be9-a84d-af6119c5c319",
-            "request_summary": "should we do this? \" Wire session_lock.py claim into /go and /session-kickoff so build sessions claim the lock automatically \u2014 completes the prevention layer\" would doing this cause unnecessarily conf",
+            "request_summary": "should we do this? \" Wire session_lock.py claim into /go and /session-kickoff so build sessions claim the lock automatically — completes the prevention layer\" would doing this cause unnecessarily conf",
             "intent_score": 0,
             "domain_detected": "story-bible-builder",
             "experts_deployed": [
@@ -6889,7 +6891,7 @@
             "routing_id": "rt_20260715_171600_f31b",
             "timestamp": "2026-07-15T17:16:00.116126+00:00",
             "session_id": "",
-            "request_summary": "DWA 14-Day Ship Sprint offer audit \u2014 26-jh-offer-audit-ship-sprint.md, composite 7.75, 3 ranked fixes, tickets 0005/0006 fed",
+            "request_summary": "DWA 14-Day Ship Sprint offer audit — 26-jh-offer-audit-ship-sprint.md, composite 7.75, 3 ranked fixes, tickets 0005/0006 fed",
             "intent_score": 9,
             "domain_detected": "Analysis",
             "experts_deployed": [
@@ -6906,7 +6908,7 @@
             "routing_id": "rt_20260715_171624_02a6",
             "timestamp": "2026-07-15T17:16:24.390039+00:00",
             "session_id": "",
-            "request_summary": "Expert Front-Door System \u2014 /[expert-name] = full arsenal (persona + all skills, tier-gated); 222 experts backfilled; generators wired into extract/extract-forge/forge-os registration",
+            "request_summary": "Expert Front-Door System — /[expert-name] = full arsenal (persona + all skills, tier-gated); 222 experts backfilled; generators wired into extract/extract-forge/forge-os registration",
             "intent_score": 9,
             "domain_detected": "System",
             "experts_deployed": [
@@ -6959,7 +6961,7 @@
             "routing_id": "rt_20260715_181917_7678",
             "timestamp": "2026-07-15T18:19:17.193257+00:00",
             "session_id": "",
-            "request_summary": "DWA presale page \u2014 3 audit fixes applied (credential section, day-0-at-checkout, insurance frame + concrete friction copy) + em-dash voice-law pass on public copy",
+            "request_summary": "DWA presale page — 3 audit fixes applied (credential section, day-0-at-checkout, insurance frame + concrete friction copy) + em-dash voice-law pass on public copy",
             "intent_score": 9,
             "domain_detected": "Content",
             "experts_deployed": [
@@ -7052,7 +7054,7 @@
             "routing_id": "rt_20260715_183350_633e",
             "timestamp": "2026-07-15T18:33:50.730534+00:00",
             "session_id": "",
-            "request_summary": "Expert Assembly OS Phase 0\u20133 complete: hybrid casting + bespoke personas + roadmap synthesis + routing integration",
+            "request_summary": "Expert Assembly OS Phase 0–3 complete: hybrid casting + bespoke personas + roadmap synthesis + routing integration",
             "intent_score": 9,
             "domain_detected": "System",
             "experts_deployed": [
@@ -7217,7 +7219,7 @@
             "routing_id": "rt_20260716_041849_e81a",
             "timestamp": "2026-07-16T04:18:49.552048+00:00",
             "session_id": "",
-            "request_summary": "Oren John \u2014 Identity Brand Marketing OS, mastery extraction (forge): 14-workflow oren-identity-brand-os skill + /oren-identity front door + live Farrice driver diagnostic",
+            "request_summary": "Oren John — Identity Brand Marketing OS, mastery extraction (forge): 14-workflow oren-identity-brand-os skill + /oren-identity front door + live Farrice driver diagnostic",
             "intent_score": 9,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -7291,7 +7293,7 @@
             "routing_id": "rt_20260716_161416_7bc1",
             "timestamp": "2026-07-16T16:14:16.606876+00:00",
             "session_id": "",
-            "request_summary": "Kieran Flanagan \u2014 Second Brains deep-tier expansion (forge, fidelity-scoped): 4 net-new workflows + 4 born-v2 prompts bridging simon-intellectual-library-os and liam-mley-ai-brain-builder, coverage-ma",
+            "request_summary": "Kieran Flanagan — Second Brains deep-tier expansion (forge, fidelity-scoped): 4 net-new workflows + 4 born-v2 prompts bridging simon-intellectual-library-os and liam-mley-ai-brain-builder, coverage-ma",
             "intent_score": 9,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -7308,7 +7310,7 @@
             "routing_id": "rt_20260716_161439_87a3",
             "timestamp": "2026-07-16T16:14:39.292160+00:00",
             "session_id": "",
-            "request_summary": "LinkedIn pivot pressure-test \u2014 5-seat expert panel (assemble): no-pivot verdict, 5 preserved forks, tiered roadmap, dated-receipt anchor-post architecture",
+            "request_summary": "LinkedIn pivot pressure-test — 5-seat expert panel (assemble): no-pivot verdict, 5 preserved forks, tiered roadmap, dated-receipt anchor-post architecture",
             "intent_score": 9,
             "domain_detected": "Strategy",
             "experts_deployed": [
@@ -7325,7 +7327,7 @@
             "routing_id": "rt_20260716_161511_d19f",
             "timestamp": "2026-07-16T16:15:11.724120+00:00",
             "session_id": "",
-            "request_summary": "Second-brain wiring audit \u2014 deterministic health check of the 3-layer memory stack vs Kieran blueprint",
+            "request_summary": "Second-brain wiring audit — deterministic health check of the 3-layer memory stack vs Kieran blueprint",
             "intent_score": 8,
             "domain_detected": "Analysis",
             "experts_deployed": [
@@ -7437,7 +7439,7 @@
             "routing_id": "rt_20260716_182455_84e8",
             "timestamp": "2026-07-16T18:24:55.162411+00:00",
             "session_id": "",
-            "request_summary": "Jenny Hoyos \u2014 short-form viral storytelling forge-tier extraction (13 workflows, 3 tiers)",
+            "request_summary": "Jenny Hoyos — short-form viral storytelling forge-tier extraction (13 workflows, 3 tiers)",
             "intent_score": 10,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -7471,7 +7473,7 @@
             "routing_id": "rt_20260716_183621_7db3",
             "timestamp": "2026-07-16T18:36:21.310236+00:00",
             "session_id": "",
-            "request_summary": "Adam Sandler (The Viable Edge) \u2014 Second-Brain GTM forge: new 8-workflow sell-side skill + agent + 8 born-v2 prompts",
+            "request_summary": "Adam Sandler (The Viable Edge) — Second-Brain GTM forge: new 8-workflow sell-side skill + agent + 8 born-v2 prompts",
             "intent_score": 9,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -7488,7 +7490,7 @@
             "routing_id": "rt_20260716_183638_0acc",
             "timestamp": "2026-07-16T18:36:38.336352+00:00",
             "session_id": "",
-            "request_summary": "Panel re-convene with Adam Sandler evidence \u2014 MODIFY verdict: no pivot, audit SKU into money sprint, two-tier day-60 gate, adjacent-markets as derivation instrument",
+            "request_summary": "Panel re-convene with Adam Sandler evidence — MODIFY verdict: no pivot, audit SKU into money sprint, two-tier day-60 gate, adjacent-markets as derivation instrument",
             "intent_score": 9,
             "domain_detected": "Strategy",
             "experts_deployed": [
@@ -7524,7 +7526,7 @@
             "routing_id": "rt_20260716_184830_04fc",
             "timestamp": "2026-07-16T18:48:30.347212+00:00",
             "session_id": "",
-            "request_summary": "Social Listening Head build spec \u2014 Apify Scrape Creators (10 actors) shaped via /raw-intent-bridge + question round; decisions locked (all actors, 3 heads, 4 lanes, budget guards); pinned handoff for ",
+            "request_summary": "Social Listening Head build spec — Apify Scrape Creators (10 actors) shaped via /raw-intent-bridge + question round; decisions locked (all actors, 3 heads, 4 lanes, budget guards); pinned handoff for ",
             "intent_score": 9,
             "domain_detected": "System",
             "experts_deployed": [
@@ -7560,7 +7562,7 @@
             "routing_id": "rt_20260716_190126_8a7c",
             "timestamp": "2026-07-16T19:01:26.464232+00:00",
             "session_id": "",
-            "request_summary": "Second-Brain Foundation Audit package \u2014 contact-first: offer one-pager + Josh&Katie/Andrea DM asks + run-on-yes runbook (nothing pre-built, nothing sent)",
+            "request_summary": "Second-Brain Foundation Audit package — contact-first: offer one-pager + Josh&Katie/Andrea DM asks + run-on-yes runbook (nothing pre-built, nothing sent)",
             "intent_score": 9,
             "domain_detected": "Client Work",
             "experts_deployed": [
@@ -7577,7 +7579,7 @@
             "routing_id": "rt_20260716_190128_6d2e",
             "timestamp": "2026-07-16T19:01:28.529526+00:00",
             "session_id": "",
-            "request_summary": "Dated-receipt LinkedIn post \u2014 3 takes (stealth-hook / interiority / compressed), timestamp-only register, verified commit receipts",
+            "request_summary": "Dated-receipt LinkedIn post — 3 takes (stealth-hook / interiority / compressed), timestamp-only register, verified commit receipts",
             "intent_score": 9,
             "domain_detected": "Content",
             "experts_deployed": [
@@ -7613,7 +7615,7 @@
             "routing_id": "rt_20260716_230154_6ce2",
             "timestamp": "2026-07-16T23:01:54.051260+00:00",
             "session_id": "",
-            "request_summary": "Geoff Woods forge-tier extraction: AI Thought Partner OS \u2014 12 /gw-* workflows (3 tiers), 12 born-v2 prompts, agent persona, front door, PLUS always-on CO-CREATION-CARD operator layer wired as CLAUDE.m",
+            "request_summary": "Geoff Woods forge-tier extraction: AI Thought Partner OS — 12 /gw-* workflows (3 tiers), 12 born-v2 prompts, agent persona, front door, PLUS always-on CO-CREATION-CARD operator layer wired as CLAUDE.m",
             "intent_score": 9,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -7687,7 +7689,7 @@
             "routing_id": "rt_20260717_001956_6ec7",
             "timestamp": "2026-07-17T00:19:56.229633+00:00",
             "session_id": "85aed300-b402-4812-a41b-fc9d2a4a5ec1",
-            "request_summary": "Next Moves\n\nDeepen: Judge the blind pass: read extractions/jenny-hoyos-shorts/blind-pass-generated-2026-07-16.md against the reference-corpus shorts and give the felt verdict \u2014 A-tier or name what giv",
+            "request_summary": "Next Moves\n\nDeepen: Judge the blind pass: read extractions/jenny-hoyos-shorts/blind-pass-generated-2026-07-16.md against the reference-corpus shorts and give the felt verdict — A-tier or name what giv",
             "intent_score": 0,
             "domain_detected": "voice-os",
             "experts_deployed": [
@@ -7725,7 +7727,7 @@
             "routing_id": "rt_20260717_002107_ec4b",
             "timestamp": "2026-07-17T00:21:07.746168+00:00",
             "session_id": "",
-            "request_summary": "Universal /go \u2014 Maestro front door now cross-harness: felt-standard line lifted into Mission Card, Universal Harness section in go.md, repo AGENTS.md front door refreshed to v2, raw-intent-bridge lane",
+            "request_summary": "Universal /go — Maestro front door now cross-harness: felt-standard line lifted into Mission Card, Universal Harness section in go.md, repo AGENTS.md front door refreshed to v2, raw-intent-bridge lane",
             "intent_score": 9,
             "domain_detected": "System",
             "experts_deployed": [
@@ -7742,7 +7744,7 @@
             "routing_id": "rt_20260717_002606_564b",
             "timestamp": "2026-07-17T00:26:06.162561+00:00",
             "session_id": "",
-            "request_summary": "LinkedIn post via /jenny-text-transfer \u2014 Invisible Expert ring-light loss scene, Farrice voice BLEND",
+            "request_summary": "LinkedIn post via /jenny-text-transfer — Invisible Expert ring-light loss scene, Farrice voice BLEND",
             "intent_score": 9,
             "domain_detected": "Content",
             "experts_deployed": [
@@ -7759,7 +7761,7 @@
             "routing_id": "rt_20260717_002621_59da",
             "timestamp": "2026-07-17T00:26:21.336157+00:00",
             "session_id": "",
-            "request_summary": "Authority Flywheel viral treatment via /jenny-anything-viral \u2014 Voice-Memo Flip flagship + 3 ranked hooks, wellness-brand beachhead",
+            "request_summary": "Authority Flywheel viral treatment via /jenny-anything-viral — Voice-Memo Flip flagship + 3 ranked hooks, wellness-brand beachhead",
             "intent_score": 9,
             "domain_detected": "Strategy",
             "experts_deployed": [
@@ -7776,7 +7778,7 @@
             "routing_id": "rt_20260717_003338_593e",
             "timestamp": "2026-07-17T00:33:38.637445+00:00",
             "session_id": "",
-            "request_summary": "Seth Godin Marketing Mind \u2014 4th Godin layer forged from Mel Robbins interview (released 2026-07-16): 14 workflows (/godin-lens flagship thinking-partner + 13 /gmind-*), 10 born-v2 prompts wired, agent",
+            "request_summary": "Seth Godin Marketing Mind — 4th Godin layer forged from Mel Robbins interview (released 2026-07-16): 14 workflows (/godin-lens flagship thinking-partner + 13 /gmind-*), 10 born-v2 prompts wired, agent",
             "intent_score": 9,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -7793,7 +7795,7 @@
             "routing_id": "rt_20260717_004217_a935",
             "timestamp": "2026-07-17T00:42:17.880926+00:00",
             "session_id": "9b1d8dcc-3449-4562-a0bd-a9d059f7e32f",
-            "request_summary": "Next Moves\n\nDeepen: /godin-lens my Authority Flywheel pricing \u2014 should the entry tier be $2K or is that the wrong question? (live PARTNER session, it will interview you)\nAdjacent: Build the top 2 ampl",
+            "request_summary": "Next Moves\n\nDeepen: /godin-lens my Authority Flywheel pricing — should the entry tier be $2K or is that the wrong question? (live PARTNER session, it will interview you)\nAdjacent: Build the top 2 ampl",
             "intent_score": 0,
             "domain_detected": "nicolas-cole-digital-products",
             "experts_deployed": [
@@ -7848,7 +7850,7 @@
             "routing_id": "rt_20260717_005851_3054",
             "timestamp": "2026-07-17T00:58:51.725463+00:00",
             "session_id": "",
-            "request_summary": "Ring-light LinkedIn post v2 \u2014 I-narrative arc rewrite per Farrice's hero/guide direction",
+            "request_summary": "Ring-light LinkedIn post v2 — I-narrative arc rewrite per Farrice's hero/guide direction",
             "intent_score": 9,
             "domain_detected": "Content",
             "experts_deployed": [
@@ -7884,7 +7886,7 @@
             "routing_id": "rt_20260717_011730_9153",
             "timestamp": "2026-07-17T01:17:30.367557+00:00",
             "session_id": "",
-            "request_summary": "Platform Narrative Temperature \u2014 receipt-carrying research + PLATFORM-NARRATIVE-CARD v1.0 + wiring into text-platform-transfer",
+            "request_summary": "Platform Narrative Temperature — receipt-carrying research + PLATFORM-NARRATIVE-CARD v1.0 + wiring into text-platform-transfer",
             "intent_score": 9,
             "domain_detected": "Research",
             "experts_deployed": [
@@ -7996,7 +7998,7 @@
             "routing_id": "rt_20260717_152954_4b70",
             "timestamp": "2026-07-17T15:29:54.078433+00:00",
             "session_id": "",
-            "request_summary": "Daniel Priestley \u2014 SLL Engine (Short-Form/Long-Form/Lead-Form) extraction: skill + 5 workflows + 5 born-v2 prompts + watched-source provenance",
+            "request_summary": "Daniel Priestley — SLL Engine (Short-Form/Long-Form/Lead-Form) extraction: skill + 5 workflows + 5 born-v2 prompts + watched-source provenance",
             "intent_score": 9,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -8013,7 +8015,7 @@
             "routing_id": "rt_20260717_153005_467e",
             "timestamp": "2026-07-17T15:30:05.180772+00:00",
             "session_id": "",
-            "request_summary": "/ideate Expansion Lab \u2014 collaborative ideation OS (mechanism-driven divergence, novelty bar, idea ledger, routes to /jam and production engines)",
+            "request_summary": "/ideate Expansion Lab — collaborative ideation OS (mechanism-driven divergence, novelty bar, idea ledger, routes to /jam and production engines)",
             "intent_score": 9,
             "domain_detected": "System",
             "experts_deployed": [
@@ -8123,7 +8125,7 @@
             "routing_id": "rt_20260717_211718_7b99",
             "timestamp": "2026-07-17T21:17:18.623280+00:00",
             "session_id": "9b1d8dcc-3449-4562-a0bd-a9d059f7e32f",
-            "request_summary": "Next Moves\n\nDeepen: /gmind-pick-yourself the three warm-intro asks \u2014 I've been waiting to feel ready to send them (part 2's flagship move pointed at the sprint's live blocker)\nAdjacent: Build amplify ",
+            "request_summary": "Next Moves\n\nDeepen: /gmind-pick-yourself the three warm-intro asks — I've been waiting to feel ready to send them (part 2's flagship move pointed at the sprint's live blocker)\nAdjacent: Build amplify ",
             "intent_score": 0,
             "domain_detected": "henry-shukman-contemplative-writing",
             "experts_deployed": [
@@ -8176,7 +8178,7 @@
             "routing_id": "rt_20260717_235628_5dba",
             "timestamp": "2026-07-17T23:56:28.279443+00:00",
             "session_id": "129de224-63c4-4296-8df8-73d0a98c330c",
-            "request_summary": "Walk me through calibration batch 1 \u2014 show me each entry, I'll say AGREE or adjust, you handle the promotions. 8 ratifications arms the judge.",
+            "request_summary": "Walk me through calibration batch 1 — show me each entry, I'll say AGREE or adjust, you handle the promotions. 8 ratifications arms the judge.",
             "intent_score": 0,
             "domain_detected": "nate-b-jones-ai-taste-mastery",
             "experts_deployed": [
@@ -8252,7 +8254,7 @@
             "routing_id": "rt_20260718_023506_e299",
             "timestamp": "2026-07-18T02:35:06.392880+00:00",
             "session_id": "129de224-63c4-4296-8df8-73d0a98c330c",
-            "request_summary": "<agent-message from=\"b3-miller\">\nFYI while working my batch-2 assignment (donald-miller-storybrand): found skills/donald-miller-storybrand/ already dirty on disk \u2014 genius.md modified in place, plus st",
+            "request_summary": "<agent-message from=\"b3-miller\">\nFYI while working my batch-2 assignment (donald-miller-storybrand): found skills/donald-miller-storybrand/ already dirty on disk — genius.md modified in place, plus st",
             "intent_score": 0,
             "domain_detected": "donald-miller-storybrand",
             "experts_deployed": [
@@ -8584,7 +8586,7 @@
             "routing_id": "rt_20260718_200521_fc6e",
             "timestamp": "2026-07-18T20:05:21.610176+00:00",
             "session_id": "",
-            "request_summary": "Wave 3 Lane 4 COMPLETE: all 279 long-tail skills repaired to 6/6 heartbeat across 18 Sonnet fleet batches over 2 days; 24 Opus adversarial verify samples (b1-b18) \u2014 zero fabrications survived to push;",
+            "request_summary": "Wave 3 Lane 4 COMPLETE: all 279 long-tail skills repaired to 6/6 heartbeat across 18 Sonnet fleet batches over 2 days; 24 Opus adversarial verify samples (b1-b18) — zero fabrications survived to push;",
             "intent_score": 9,
             "domain_detected": "System",
             "experts_deployed": [
@@ -8899,7 +8901,7 @@
             "routing_id": "rt_20260719_025942_8ec1",
             "timestamp": "2026-07-19T02:59:42.657404+00:00",
             "session_id": "",
-            "request_summary": "PROOF-TO-MARKET-OS.md \u2014 Path A canonical offer fusion (messaging leads, AI-Search Shadow module, claim-safe wedge, 25-day clock, teardown rule)",
+            "request_summary": "PROOF-TO-MARKET-OS.md — Path A canonical offer fusion (messaging leads, AI-Search Shadow module, claim-safe wedge, 25-day clock, teardown rule)",
             "intent_score": 9,
             "domain_detected": "Strategy",
             "experts_deployed": [
@@ -8916,7 +8918,7 @@
             "routing_id": "rt_20260719_025959_da10",
             "timestamp": "2026-07-19T02:59:59.893665+00:00",
             "session_id": "",
-            "request_summary": "Founding Market Intelligence Brief (market-pulse run #0) \u2014 motion map, tension board, white-space, 5 pillars, 24 angles, 28 Dream 100 seeds",
+            "request_summary": "Founding Market Intelligence Brief (market-pulse run #0) — motion map, tension board, white-space, 5 pillars, 24 angles, 28 Dream 100 seeds",
             "intent_score": 9,
             "domain_detected": "Research",
             "experts_deployed": [
@@ -8933,7 +8935,7 @@
             "routing_id": "rt_20260719_030004_15f5",
             "timestamp": "2026-07-19T03:00:04.707853+00:00",
             "session_id": "",
-            "request_summary": "Proof-to-Market contact kit \u2014 profile package, Stress Test lead magnet, Dream 100 v1 (32 targets), first 3 posts + 3 DM scripts",
+            "request_summary": "Proof-to-Market contact kit — profile package, Stress Test lead magnet, Dream 100 v1 (32 targets), first 3 posts + 3 DM scripts",
             "intent_score": 9,
             "domain_detected": "Content",
             "experts_deployed": [
@@ -8950,7 +8952,7 @@
             "routing_id": "rt_20260719_030632_df74",
             "timestamp": "2026-07-19T03:06:32.644370+00:00",
             "session_id": "",
-            "request_summary": "PROOF-TO-MARKET-OS.md v2.0 \u2014 fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnos",
+            "request_summary": "PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnos",
             "intent_score": 9,
             "domain_detected": "Strategy",
             "experts_deployed": [
@@ -8986,7 +8988,7 @@
             "routing_id": "rt_20260719_042504_9ad3",
             "timestamp": "2026-07-19T04:25:04.123229+00:00",
             "session_id": "",
-            "request_summary": "Authority Flywheel positioning set: strike brief (Dunford\u00d7Haynes, dissent preserved) + fusion round \u2014 full surface set locked by Farrice's felt verdicts (LinkedIn=Fusion A, About=Dunford, ads=B2 w/ B3",
+            "request_summary": "Authority Flywheel positioning set: strike brief (Dunford×Haynes, dissent preserved) + fusion round — full surface set locked by Farrice's felt verdicts (LinkedIn=Fusion A, About=Dunford, ads=B2 w/ B3",
             "intent_score": 9,
             "domain_detected": "Strategy",
             "experts_deployed": [
@@ -9185,7 +9187,7 @@
             "routing_id": "rt_20260719_072643_ac58",
             "timestamp": "2026-07-19T07:26:43.581186+00:00",
             "session_id": "",
-            "request_summary": "Ron Lynch \u2014 Identity-First Campaign Architecture mastery extraction (forge)",
+            "request_summary": "Ron Lynch — Identity-First Campaign Architecture mastery extraction (forge)",
             "intent_score": 9,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -9202,7 +9204,7 @@
             "routing_id": "rt_20260719_072646_6bc6",
             "timestamp": "2026-07-19T07:26:46.339054+00:00",
             "session_id": "",
-            "request_summary": "Ron Lynch expansion forge (sources 2-3): 2 new transcripts (22k words) fully mined \u2014 7 new genius patterns, 8 hidden-knowledge entries, infomercial-anatomy reference, 3 new workflows (testimonial-rela",
+            "request_summary": "Ron Lynch expansion forge (sources 2-3): 2 new transcripts (22k words) fully mined — 7 new genius patterns, 8 hidden-knowledge entries, infomercial-anatomy reference, 3 new workflows (testimonial-rela",
             "intent_score": 9,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -9238,7 +9240,7 @@
             "routing_id": "rt_20260719_074845_73e6",
             "timestamp": "2026-07-19T07:48:45.228259+00:00",
             "session_id": "",
-            "request_summary": "Proof-to-Market Lynch BUILD: the offer restructured through Lynch's hands with decisions made \u2014 identity word CERTAIN, $495 Readout gate, $3,900/$4,900 increment re-anchors, four-criteria prospect gat",
+            "request_summary": "Proof-to-Market Lynch BUILD: the offer restructured through Lynch's hands with decisions made — identity word CERTAIN, $495 Readout gate, $3,900/$4,900 increment re-anchors, four-criteria prospect gat",
             "intent_score": 8,
             "domain_detected": "Strategy",
             "experts_deployed": [
@@ -9274,7 +9276,7 @@
             "routing_id": "rt_20260719_075317_4fb0",
             "timestamp": "2026-07-19T07:53:17.816820+00:00",
             "session_id": "",
-            "request_summary": "Nathan Gotch \u2014 AI SEO/AEO operational-layer mastery extraction (forge expansion: category domination sprint methodology, first primary Gotch source)",
+            "request_summary": "Nathan Gotch — AI SEO/AEO operational-layer mastery extraction (forge expansion: category domination sprint methodology, first primary Gotch source)",
             "intent_score": 9,
             "domain_detected": "Extraction",
             "experts_deployed": [
@@ -9285,6 +9287,63 @@
             "workflow_used": "extract-forge",
             "ensemble": false,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_075710_b33e",
+            "timestamp": "2026-07-19T07:57:10.108213+00:00",
+            "session_id": "1c988562-45f1-4d3a-b798-2d4498378827",
+            "request_summary": "run /go  and I don't want this to be a problem! I don't mind having the experts inside. That's not the problem, but not getting the output that I envisioned. The whole output, like the Ron Lynch build",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-avatar-machine",
+            "experts_deployed": [
+                "luke-iha-avatar-machine",
+                "seth-godin-brand",
+                "paul-harding-lyric-prose"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-avatar-machine",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-avatar-machine + seth-godin-brand + paul-harding-lyric-prose",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_080458_fc78",
+            "timestamp": "2026-07-19T08:04:58.857001+00:00",
+            "session_id": "1c988562-45f1-4d3a-b798-2d4498378827",
+            "request_summary": "one last thing before I go take a nap: \"/autopilot\" has no gates. Isn't that a bad thing? Aren't the gates a very important part that allow for certain quality standards and floor standards to be exec",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-avatar-machine",
+            "experts_deployed": [
+                "luke-iha-avatar-machine",
+                "luke-iha-vsl-leads",
+                "donald-miller-messaging-evolution"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-avatar-machine",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-avatar-machine + luke-iha-vsl-leads + donald-miller-messaging-evolution",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_080843_917c",
+            "timestamp": "2026-07-19T08:08:43.869261+00:00",
+            "session_id": "1c988562-45f1-4d3a-b798-2d4498378827",
+            "request_summary": "all right, thank you for everything! Let's close out this session. I want to go take a nap now.",
+            "intent_score": 0,
+            "domain_detected": "stefan-georgi-dopamine-copy",
+            "experts_deployed": [
+                "stefan-georgi-dopamine-copy",
+                "diandra-escobar-linkedin-growth",
+                "matthew-volkwyn-copywriting"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "stefan-georgi-dopamine-copy",
+            "ensemble": true,
+            "compound_pairing": "stefan-georgi-dopamine-copy + diandra-escobar-linkedin-growth + matthew-volkwyn-copywriting",
             "feedback": null
         }
     ]
