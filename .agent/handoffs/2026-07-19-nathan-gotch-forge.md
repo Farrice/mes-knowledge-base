@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** nathan-gotch-forge  
-**Full path:** .agent/handoffs/2026-07-19-nathan-gotch-forge.md  
-**Date:** 2026-07-19 (today)  
-**Status:** ready  
-**Title:** Nathan Gotch AI SEO — Extract-Forge Expansion (operational layer, first primary source)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume nathan-gotch-forge` for this one.
-
----
-
 ---
 thread: nathan-gotch-forge
 status: ready
@@ -56,4 +44,3 @@ Blind pass on nathan-gotch-ai-seo: show me extractions/nathan-gotch-ai-seo/blind
 - Receipts decks name real brands — Chain Step 5.5 verification is mandatory before anything client-facing ships.
 - Shadow module is a hook/module inside Proof-to-Market, never the offer lead (binding 2026-07-18).
 - The worktree `extract-forge-seo-aeo` still exists on disk (branch merged) — safe to remove at leisure.
-
