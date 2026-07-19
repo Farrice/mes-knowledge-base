@@ -112,6 +112,7 @@
 ---
 
 ## Pending enrichment
+- [2026-07-18 — PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint for supplement & performance brands, $2,500-$5K; messaging-led, AI-Search Shadow demoted to diagnostic module)](2026-07-18-.md) — operator-guide stub, needs enrichment
 - [2026-07-17 — Session State Anchor](2026-07-17-.md) — operator-guide stub, needs enrichment
 - [2026-07-16 — Handoff — Oren Identity Brand OS (forge complete, commit pending)](2026-07-16-.md) — operator-guide stub, needs enrichment
 - [2026-07-15 — Jeremy Haynes Cold Offer — Genius](2026-07-15-.md) — operator-guide stub, needs enrichment

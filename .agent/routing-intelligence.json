@@ -8088,6 +8088,25 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_042355_e253",
+            "timestamp": "2026-07-19T04:23:55.648140+00:00",
+            "session_id": "28d76098-a0d8-475f-bc8a-9609aae4b6f1",
+            "request_summary": "so should we run the end session command",
+            "intent_score": 0,
+            "domain_detected": "jack-roberts-design-mastery",
+            "experts_deployed": [
+                "jack-roberts-design-mastery",
+                "luke-iha-proof-ladder",
+                "joanna-wiebe-persuasion-mastery"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jack-roberts-design-mastery",
+            "ensemble": true,
+            "compound_pairing": "jack-roberts-design-mastery + luke-iha-proof-ladder + joanna-wiebe-persuasion-mastery",
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -8634,7 +8653,7 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 447,
+            "total_routings": 448,
             "total_feedback": 60,
             "positive_count": 0,
             "negative_count": 0,
@@ -8713,7 +8732,8 @@
                 "seena-rez-tiktok-commerce": 1,
                 "sky-tan-format-engine": 1,
                 "tyler-denk-audience-monetization": 1,
-                "theme-factory": 1
+                "theme-factory": 1,
+                "jack-roberts-design-mastery": 1
             },
             "expert_counts": {
                 "system-audit": 23,
@@ -8806,7 +8826,7 @@
                 "market_intelligence": 1,
                 "gemini-api-dev": 3,
                 "writing-depth-layer": 6,
-                "jack-roberts-design-mastery": 9,
+                "jack-roberts-design-mastery": 10,
                 "unified-research-engine": 1,
                 "skill-creator": 2,
                 "alex-myatt-creative-engine": 1,
@@ -8840,7 +8860,7 @@
                 "brad-bonanno-explainer-architecture": 2,
                 "enrico-incarnati-instagram-realestate": 1,
                 "oren-brand-archetypes": 1,
-                "luke-iha-proof-ladder": 1,
+                "luke-iha-proof-ladder": 2,
                 "mitch-albom-writing-mastery": 1,
                 "theme-factory": 6,
                 "kallaway-illusion-of-novelty": 3,
@@ -8919,10 +8939,11 @@
                 "tyler-denk-audience-monetization": 1,
                 "april-dunford": 1,
                 "lara-acosta": 1,
-                "farrice-cain": 1
+                "farrice-cain": 1,
+                "joanna-wiebe-persuasion-mastery": 1
             },
             "tier_counts": {
-                "0": 447,
+                "0": 448,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -8930,10 +8951,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 254,
+                "hybrid": 255,
                 "finalize-auto": 193
             },
-            "ensemble_count": 334,
+            "ensemble_count": 335,
             "auto_miss_count": 49,
             "auto_match_count": 11
         }
