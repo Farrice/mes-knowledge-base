@@ -46,6 +46,12 @@ This skill is the **quality layer** for hook writing. Existing Luke Iha skills (
 | 11 | Anti-Ad Disguise Engine | `/anti-ad` | Rewrites ad-sounding hooks to feel organic |
 | 12 | Hook Mastery Training | `/hook-train` | Scored before/after exercises with feedback |
 
+## Tier 3 — Cross-Expert Crossings
+
+| Command | Workflow | Produces | Use When |
+|---------|----------|----------|----------|
+| `/hawley-handshake-vicious-hooks` | [Hawley × Iha Handshake](../noah-hawley-storytelling-mastery/workflows/hawley-handshake-vicious-hooks.md) | A Hook Bible: season spine + Plant Map + N arc-positioned vicious hooks, each tagged with what it exploits | A content SERIES (not a single post) has real season architecture — theme, locked ending, tonal arc — but the hooks were written per-installment with no visibility into what earlier installments planted for later ones to cash |
+
 ## Quick Reference
 
 - **Genius file**: `genius.md` — all 8 principles, hidden knowledge, exemplars, signature moves, quality rubric

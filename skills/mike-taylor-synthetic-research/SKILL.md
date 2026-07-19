@@ -1,6 +1,6 @@
 ---
 name: "Mike Taylor — Synthetic Customer Research OS"
-description: "Research-design depth behind synthetic customer panels: the roleplay-then-aggregate mechanism, the three-tier grounding ladder (cold-generated, transcript-grounded, calibrated), the distribution-vs-individual accuracy split, sycophancy/bias correction, and the research-budget triage that decides which questions synthetic panels answer and which ones still need the real $8-12K focus group. 17 genius patterns, 7 workflows across 3 tiers. Co-author, O'Reilly's Prompt Engineering for Generative AI; co-founder, Ask Rally (synthetic-audience simulator)."
+description: "Research-design depth behind synthetic customer panels: the roleplay-then-aggregate mechanism, the grounding ladder (cold-generated, social-grounded via listening gap-fill, transcript-grounded, calibrated), the distribution-vs-individual accuracy split, sycophancy/bias correction, and the research-budget triage that decides which questions synthetic panels answer and which ones still need the real $8-12K focus group. 17 genius patterns, 7 workflows across 3 tiers. Co-author, O'Reilly's Prompt Engineering for Generative AI; co-founder, Ask Rally (synthetic-audience simulator)."
 version: "1.0"
 format: "completion-engine"
 workflows: 7
@@ -23,7 +23,7 @@ A direct question to a chatbot returns "the stock answer, kind of the average of
 | Command | Workflow | Produces | Use When |
 |---------|----------|----------|----------|
 | `/mt-persona-panel-triage` | [Persona Panel Triage](workflows/mt-persona-panel-triage.md) | Panel verdict: persona list, per-role dissent, joint anonymous answer, directional call | Any decision question needs a fast, cold-generated directional read |
-| `/mt-persona-grounding` | [Persona Grounding From Transcripts](workflows/mt-persona-grounding.md) | Transcript-grounded (Tier 2) panel verdict, per-customer responses, real-ask arming | Real customer call transcripts exist for this audience |
+| `/mt-persona-grounding` | [Persona Grounding From Transcripts](workflows/mt-persona-grounding.md) | Transcript-grounded (Tier 2) panel verdict, per-customer responses, real-ask arming — or, when no transcripts exist, a Tier 2.5 social-grounded panel via the built-in gap-fill protocol (harvests a receipted voice-of-customer corpus instead of falling to cold generation) | Real customer call transcripts exist for this audience, OR no transcripts exist but a live-market grounding is still worth more than a cold-generated panel |
 | `/mt-latent-demand-mining` | [Latent Demand Mining](workflows/mt-latent-demand-mining.md) | Pain-point surface scan plus a drilled-down product-opportunity finding | Discovering an unmet need or product opportunity, not validating one |
 
 ### Tier 2: Practitioner (technique-specific)

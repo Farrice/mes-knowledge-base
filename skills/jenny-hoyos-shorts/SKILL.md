@@ -46,6 +46,12 @@ Slash commands: `/jenny-script-short` `/jenny-hook` `/jenny-retention` `/jenny-i
 | `workflows/12-text-platform-transfer.md` | Adapt short-form angles for text platforms | LinkedIn/Twitter/Threads version of a short-form insight: same curiosity gap, different medium (hook → premise → payoff statement) |
 | `workflows/13-ai-ideation-brain.md` | Automate outlier-sourcing and idea generation | AI-powered rung selection and outlier hypothesis generation to accelerate Phase 1–2 of the viral-idea-ladder |
 
+### Tier 3 — Stacking (cross-expert handshakes)
+
+| Workflow | Slash Command | What It Does |
+|----------|--------------|-------------|
+| `14-jenny-hoyos-handshake-diandra` | `/jenny-hoyos-handshake-diandra` | Hoyos diagnoses a retention-beat map from a LinkedIn post's read-through (cold-open, but/so chains, dip zones, payoff spacing), Diandra Escobar converts it into a tagged structural spec (rehook placement, save architecture, payoff position). Never authors or co-authors copy — output is a structural spec, handed to whichever single author writes the post. |
+
 ## Stacking Guide
 
 | Pair with | When |

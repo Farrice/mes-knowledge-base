@@ -4,7 +4,7 @@ description: Manufactures the FEELING of novelty for boring, old, or saturated t
 expert: Kallaway
 domain: Perception Engineering — Manufactured Novelty (the front-end attention layer)
 version: "1.1"
-workflows: 16
+workflows: 17
 ---
 
 # Kallaway — The Illusion of Novelty
@@ -29,7 +29,7 @@ Kallaway's own framework doc is included verbatim at [references/illusion-of-nov
 
 Plus two apex moves: the **recursive self-demonstration** (`/novelty-meta`) and the **winner/loser pattern-extraction loop** (`/novelty-pattern`) — "one-size framework, bespoke execution."
 
-## Workflows (15)
+## Workflows (17)
 
 ### ★ Front Door — the conductor
 | Workflow | Slash Command | What It Does |
@@ -66,6 +66,7 @@ Plus two apex moves: the **recursive self-demonstration** (`/novelty-meta`) and 
 |----------|--------------|-------------|
 | `kallaway-x-jenny-hoyos` | `/kallaway-x-jenny-hoyos` | Fuses the 5-component novelty engine (run per-beat) with Jenny Hoyos' but/so retention mechanics + dip diagnosis, so saturated shorts stay feeling new past the hook, all the way to the payoff. Owns mid-video retention; `omar-kallaway-pattern-interrupt` owns the first-frame hook instead. |
 | `kallaway-x-dunford` | `/kallaway-x-dunford` | Layers the novelty engine over April Dunford's 5-component positioning as a per-component expression pass — Dunford supplies the true claim, Kallaway controls only how it lands, saturation-checked against the category's stock phrases. Truth-bending is an instant kill. |
+| `kallaway-x-priestley-sll` | `/kallaway-x-priestley-sll` | Layers the novelty engine over Daniel Priestley's SLL cadence — a per-post New Reveal + Contrast pass plus a new lane-level staleness monitor that rotates the reveal frame (never the lane) when a lane's angle pool runs dry, so daily Pain/Prize/Problem content stays fresh past week 3. |
 
 ## The Three Operating Modes (from the canonical doc)
 Kallaway's doc tells users to load it and pick a **mode**. Each maps to one workflow:
@@ -139,7 +140,8 @@ skills/kallaway-illusion-of-novelty/
     ├── novelty-campaign.md           ← Tier 3
     ├── novelty-meta.md               ← Tier 3
     ├── kallaway-x-jenny-hoyos.md     ← Tier 3 — Stacking (cross-expert, Jenny Hoyos)
-    └── kallaway-x-dunford.md         ← Tier 3 — Stacking (cross-expert, April Dunford)
+    ├── kallaway-x-dunford.md         ← Tier 3 — Stacking (cross-expert, April Dunford)
+    └── kallaway-x-priestley-sll.md   ← Tier 3 — Stacking (cross-expert, Daniel Priestley SLL)
 ```
 
 **Source**: Kallaway, "The Illusion of Novelty" (YouTube `LvuoNlYRs7g`) — full transcript at `extractions/kallaway/transcript.txt`. This skill is an enrichment layer cross-linked into the six existing Kallaway skills.

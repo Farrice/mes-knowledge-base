@@ -48,6 +48,7 @@ Deploy the architectural intelligence of a writer who built a reputation as one 
 | `/hawley-short-form-tension` | [Short-Form Tension](workflows/hawley-short-form-tension.md) | A high-tension short-form post (tension→release + mirror) | Writing a LinkedIn/X post that must grip a cold reader |
 | `/hawley-velocity-draft` | [Velocity Draft](workflows/hawley-velocity-draft.md) | A velocity-drafted piece + dual-media cadence plan | The operator's own output needs speed + voice preservation |
 | `/hawley-cross-genre` | [Cross-Genre Stack](workflows/hawley-cross-genre.md) | A Hawley-led stack with Roth/Connelly/Wright/Pressfield/Segura | A piece needs both architecture and scene-level craft |
+| `/hawley-handshake-vicious-hooks` | [Hawley × Iha Handshake](workflows/hawley-handshake-vicious-hooks.md) | A Hook Bible: season spine + Plant Map + N arc-positioned vicious hooks, each tagged with what it exploits | A content series has real season architecture but every installment's open reads like a standalone post with no memory of the series |
 
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow

@@ -105,6 +105,12 @@ The full post-production sequence. **Order is load-bearing** because of body-fir
 |---|---------|----------|----------|
 | 14 | [LinkedIn Growth Audit](workflows/14-linkedin-growth-audit.md) | Full-spectrum diagnostic across formats, funnel, infrastructure, engagement | Auditing your own or a client's LinkedIn presence for growth problems |
 
+### Stacking (cross-expert handshakes)
+
+| Workflow | Slash Command | What It Does |
+|----------|--------------|-------------|
+| `14-jenny-hoyos-handshake-diandra` (hosted in `jenny-hoyos-shorts/workflows/`) | `/jenny-hoyos-handshake-diandra` | Jenny Hoyos diagnoses a retention-beat map from a LinkedIn post's read-through (cold-open, but/so chains, dip zones, payoff spacing); this skill's structural mechanisms (workflow 20 hook architecture, 18 save architecture, 17 first-50, 19 semantic lanes, 21 rehook teardown, 05 boomerang) convert each diagnosed beat into a tagged structural rule. Never authors or co-authors copy — Diandra = Hooks Only stays intact; output is a structural spec, never a two-author draft. |
+
 ## Quick Reference
 - **Genius Context**: [genius.md](genius.md) — load before any workflow
 - **Hook Format Library**: [references/hook-format-library.md](references/hook-format-library.md) — the 4 formats + sub-variants, exact character limits, width-scoring, register/post-type/media (load with workflow 20)

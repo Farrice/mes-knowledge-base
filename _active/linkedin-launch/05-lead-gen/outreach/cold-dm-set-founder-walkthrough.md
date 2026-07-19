@@ -16,7 +16,7 @@
 
 Asked ChatGPT for a `[category]` recommendation for your exact buyer this morning. It named three competitors, not you. Screenshot's yours, no pitch riding on it.
 
-That gap between what you think your label says and what the machine repeats back is fixable in an hour. I read your message live against 12 questions and hand you one page of findings. $350, and I'll send a couple of times that work.
+I read your own launch sentence back to you live, 60 minutes against 12 questions, and you'll hear where it goes generic before your competitor's copywriter does. One page of findings, $350. If you don't leave with one gap worth more than you paid, you don't pay.
 
 ---
 
@@ -50,9 +50,9 @@ I settle the sentence first: one live hour, 12 questions, a page of findings you
 ### V5: Direct
 > For founders who reward bluntness. No runway, straight ask.
 
-Straight version: you've got a `[launch/raise]` coming and a message you wrote from instinct or borrowed from a competitor. I read it live for 60 minutes against 12 questions and show you where a skeptical buyer, or the FTC, stops trusting it.
+Straight version: you're not fixing this sentence to protect your job in a committee meeting. Your `[raise/launch]` closes in six weeks and the message on your deck right now doesn't survive a second read.
 
-$350 for the hour, one page of findings back the same day. I'll send two times this week.
+I read it live for 60 minutes against 12 questions and show you where a skeptical buyer, or the FTC, stops trusting it. $350, one page of findings back the same day. If it doesn't surface a gap worth more than you paid, you don't pay.
 
 ---
 
@@ -62,7 +62,7 @@ $350 for the hour, one page of findings back the same day. I'll send two times t
 No worries if the timing's off. One thing worth doing yourself before the launch: ask ChatGPT what it recommends for your exact buyer, three times in a row. If it keeps naming competitors and not you, that's the gap. That one's free.
 
 ### FU2: Fresh proof, soft ask (send ~5–7 days after FU1)
-Ran your top category question through Perplexity and ChatGPT again, and it's the same pattern. Your buyer keeps getting someone else's name. I saved the reads. If you want the 60-minute walkthrough on what's driving it, it's $350 and I'll send times.
+Ran your top category question through Perplexity and ChatGPT again, and it's the same pattern. Your buyer keeps getting someone else's name. I saved the reads. If you want the 60-minute walkthrough on what's driving it, it's $350, and you don't pay unless you leave with one gap worth more than that.
 
 ### FU3: Break-up, declaration close (send ~7 days after FU2, then stop)
 I'll leave it here so I'm not cluttering your inbox. If the launch messaging ever feels unsettled before you spend on it, my door stays open. One hour, one page, and you'll know exactly where it leaks.
@@ -73,12 +73,15 @@ I'll leave it here so I'm not cluttering your inbox. If the launch messaging eve
 
 > Only after the walkthrough is delivered and it landed. This is the warm-to-core migration, so the $2,500 ask is now earned.
 
-That hour told you where the message leaks. The sprint is the ten days I spend actually rebuilding it: positioning, claim-safe language, and the AI-search read, so the sentence holds in a body, an FTC review, and your pitch deck.
+That hour told you where the message leaks. The sprint is the ten days before your launch sentence meets your compliance reviewer, your competitor's copywriter, and ChatGPT at the same time. I rebuild it to hold against all three: positioning, claim-safe language, the AI-search read.
 
-If you'd rather I build it than just diagnose it, that's the next rung. $2,500, ten business days, one revision round.
+If you'd rather I build it than just diagnose it, that's the next rung. $2,500, ten business days, one revision round. Bounded, not a part-time hire you carry for a month, and cheaper than one wrong launch. If the full Blueprint isn't in your hands on time, you don't owe the balance.
 
 ---
 
 ## Voice guardrails applied
 - Statement hooks, no question openers. What-they-get lands in the first two lines. I-narrative on every proof beat ("I asked", "I coached", "I read"). Declaration-style CTAs, no cheap-question signoffs. No "Here's", no "It's not X, it's Y", no status-words, no ghost citations.
 - Cold ask is the walkthrough at every touch. The $2,500 sprint appears only in the post-delivery transition, never cold.
+- **Proof-before-ask ordering (buyer council S1, 2026-07-19):** every variant gives something real — a free screenshot (V1), a specific occasion read (V2), earned credibility (V3), a reframe (V4), or precise recognition of their fear (V5) — BEFORE the price lands. The block is "is this person real," not the money; proof answers it first. V1 (free screenshot) is the sharpest and the default when you can run their category query live.
+- **Risk reversal (make-right, ratified 2026-07-19):** the walkthrough's "gap worth more than you paid or you don't pay" rides on V1, V5, and FU2 (where the pay-a-stranger friction peaks). The sprint's on-time-or-no-balance make-right rides the transition script. Both mirror `PROOF-TO-MARKET-OS.md` Pricing & Terms.
+- **Kallaway×Dunford re-expressions folded (truth-bend clean, no strengthened claims):** Component 3 deal-protection psychology restaged into V5; Component 2 Bullseye Proof ("your own launch sentence read back to you") into V1; Component 1 tri-fold survival test into the sprint transition. Headline A kept (live read + 60-min time-box) across the walkthrough touches.

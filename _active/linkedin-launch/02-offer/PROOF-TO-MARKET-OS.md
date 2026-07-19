@@ -100,6 +100,10 @@ The ladder is staged by audience temperature (Haynes), and each rung's promise m
 
 **Capacity:** 1 sprint at a time, 2 sprints/month max. Walkthroughs run alongside (they are a 60-min read, not a sprint) and double as the warm-up funnel into the sprint.
 
+**Risk reversal — the make-right clauses (ratified 2026-07-19, Farrice command):**
+- **Walkthrough (cold):** If you don't leave the hour with at least one gap worth more than what you paid to fix before you spend, you don't pay. A 60-minute read is cheap to honor, and it converts the pay-a-stranger-upfront friction into asymmetric downside for the buyer, not the seller. This answers the buyer-council's single biggest cold-conversion block (2026-07-19: S1's "is this person real" trust block and S3's un-guaranteed-diagnostic coin-flip), which v2.1 previously left unhandled on either rung.
+- **Sprint (warm):** If the full Blueprint isn't in your hands within the 10 business days — all five stages delivered, one revision round included, assuming your Stage 1 inputs land on schedule — you don't owe the balance. This answers the CFO's coin-flip at $2,500 with a downside I fully control (on-time, complete delivery), never a promise about launch outcomes I can't. Deliberately deliverable-and-timeline based, not results-based: the guarantee names the fear (out $2,500 for nothing) without pretending to control the market.
+
 **Headline (DM/email/profile):**  
 "Know what to say, what to prove, and why buyers should care | 10-day launch messaging sprint for supplement & performance brands | 18 yrs in human performance | DM PROOF"
 
@@ -343,6 +347,7 @@ The 30-day sprint goal (declared 07-13, ~$3-5K by ~08-12) cannot be met by "coll
 **Author:** Farrice Cain  
 **Grilled by:** Farrice (2026-07-18)  
 **Ratified:** 2026-07-18 as Path A's canonical offer layer (7-0 council ruling; same beachhead; fused). **Restaged 2026-07-19** (Farrice command): founder-primary pole fix + $250-500 cold-tier walkthrough LIVE + five pillars realigned to founder psychology.  
+**Risk reversal added 2026-07-19** (Farrice command, per buyer council `buyer-council-verdict-2026-07-19.md`): make-right clauses on BOTH rungs — the walkthrough's "worth more than what you paid or you don't pay" answers the pay-a-stranger-upfront friction (S1 trust block / S3 coin-flip); the sprint's on-time-complete-delivery-or-no-balance answers the CFO's warm-tier coin-flip without promising results. Closes the haynes-geoff make-right gap v2.1 left open on either rung.  
 **Replaces:** CANONICAL-OFFER-BRIEF.md (superseded; offer inversion = messaging leads, AEO/GEO as module+hook)  
 **References:** Lara Acosta proof-to-market-v1 customGPT source; founded on April Dunford positioning discipline + Luke Iha content psychology + Ethan Smith AEO framework + claim-safe-health-marketing skill
 

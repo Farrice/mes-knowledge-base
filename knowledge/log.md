@@ -544,3 +544,6 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-19 10:55]` **finalize** | Mike Taylor — Synthetic Customer Research OS (forge) | research | mike-taylor — composite:8.33 status:Keep
 - `[2026-07-19 11:09]` **finalize** | First full-stack Buyer Council COUNCIL run on PROOF-TO-MARKET-OS v2.1: 5-seat grounded panel (honest | general | geoff-woods-x-mike-taylor — composite:8.67 status:Keep
 - `[2026-07-19 11:09]` **finalize** | Crossing Wave 3 opener: kallaway-x-dunford forged + PoC-proven — Dunford truth spine, Kallaway per-c | general | kallaway-x-april-dunford — composite:8.33 status:Keep
+- `[2026-07-19 11:34]` **finalize** | Pre-Monday offer upgrade: make-right clauses both tiers (walkthrough price-anchor + sprint deliverab | general | council-verdict-applied — composite:8.33 status:Keep
+- `[2026-07-19 11:34]` **finalize** | Crossing Wave 3 complete: kallaway-x-priestley-sll (lane-level staleness monitor), jenny-hoyos-hands | general | tier3-stacking-multi — composite:8.33 status:Keep
+- `[2026-07-19 11:34]` **finalize** | Grounding ladder upgrade: Tier 2.5 social-grounded rung + Gap-Fill Protocol (social-listen binding,  | research | mike-taylor — composite:8.67 status:Keep
