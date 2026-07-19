@@ -43,6 +43,11 @@ Deploy the thinking of an operator who built a claimed seven-figure POD brand in
 | `/meg-store-stack` | [Store Stack](workflows/meg-store-stack.md) | Trigger-led collection architecture + PDP trust requirements for Shopify | Building/restructuring a store around winning identities (BitBranding pairing) |
 | `/meg-avatar-bridge` | [Avatar Bridge](workflows/meg-avatar-bridge.md) | Sub-identity gap converted into avatar-manifold seed material | Feeding Luke Iha's avatar-machine from a product/niche angle |
 
+### Tier 3 — Stacking (cross-expert handshakes)
+| Command | Workflow | Produces | Use When |
+|---------|----------|----------|----------|
+| `/meg-heckman-handshake-proof-ladder` | [Meg × Iha Handshake](workflows/13-meg-heckman-handshake-proof-ladder.md) | Trigger-ranked proof ladder — Meg's 6-trigger diagnosis selects which of Iha's proof tiers matter, with weak-trigger tiers cut/demoted | A buyer/product's proof stack needs architecture but a generic 5-tier build would over-prove what doesn't move THIS buyer; skepticism/armor cases route to `/sean-armor-iha-proof` instead |
+
 ### Tier 0 — Operating System
 | Command | Workflow | Produces | Use When |
 |---------|----------|----------|----------|

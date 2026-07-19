@@ -38,6 +38,7 @@ description: Jeremy Haynes' cold-traffic offer mastery — offers composed from 
 | `workflows/jh-value-crosscheck.md` | alex-hormozi | Stack composed; per-component value pressure-test |
 | `workflows/jh-offer-to-copy.md` | copy-engine, luke-iha-*, dara-* | Handing offer architecture to copy/creative |
 | `workflows/jh-avatar-bridge.md` | avatar-machine, icp-deep-canvasser, mcraney-deep-canvass | Avatar research exists; skip re-grounding |
+| `workflows/haynes-handshake-geoff-stakeholder.md` (`/haynes-handshake-geoff-stakeholder`) | geoff-woods-ai-thought-partner | Composed offer about to face a real prospect; stress-test via simulated stakeholder panel before first contact |
 
 ## Stacking Guide
 

@@ -4,7 +4,7 @@ description: Manufactures the FEELING of novelty for boring, old, or saturated t
 expert: Kallaway
 domain: Perception Engineering — Manufactured Novelty (the front-end attention layer)
 version: "1.1"
-workflows: 14
+workflows: 15
 ---
 
 # Kallaway — The Illusion of Novelty
@@ -29,7 +29,7 @@ Kallaway's own framework doc is included verbatim at [references/illusion-of-nov
 
 Plus two apex moves: the **recursive self-demonstration** (`/novelty-meta`) and the **winner/loser pattern-extraction loop** (`/novelty-pattern`) — "one-size framework, bespoke execution."
 
-## Workflows (14)
+## Workflows (15)
 
 ### ★ Front Door — the conductor
 | Workflow | Slash Command | What It Does |
@@ -60,6 +60,11 @@ Plus two apex moves: the **recursive self-demonstration** (`/novelty-meta`) and 
 | `novelty-to-addictive` | `/novelty-to-addictive` | Hand off front-end novelty to the retention engine (Addiction Loop) |
 | `novelty-campaign` | `/novelty-campaign` | Scale one angle into a multi-asset / multi-platform campaign |
 | `novelty-meta` | `/novelty-meta` | The recursive self-demo + fourth-wall apex move (teaching content) |
+
+### Tier 3 — Stacking (cross-expert)
+| Workflow | Slash Command | What It Does |
+|----------|--------------|-------------|
+| `kallaway-x-jenny-hoyos` | `/kallaway-x-jenny-hoyos` | Fuses the 5-component novelty engine (run per-beat) with Jenny Hoyos' but/so retention mechanics + dip diagnosis, so saturated shorts stay feeling new past the hook, all the way to the payoff. Owns mid-video retention; `omar-kallaway-pattern-interrupt` owns the first-frame hook instead. |
 
 ## The Three Operating Modes (from the canonical doc)
 Kallaway's doc tells users to load it and pick a **mode**. Each maps to one workflow:
@@ -131,7 +136,8 @@ skills/kallaway-illusion-of-novelty/
     ├── novelty-pattern.md            ← Tier 3
     ├── novelty-to-addictive.md       ← Tier 3
     ├── novelty-campaign.md           ← Tier 3
-    └── novelty-meta.md               ← Tier 3
+    ├── novelty-meta.md               ← Tier 3
+    └── kallaway-x-jenny-hoyos.md     ← Tier 3 — Stacking (cross-expert, Jenny Hoyos)
 ```
 
 **Source**: Kallaway, "The Illusion of Novelty" (YouTube `LvuoNlYRs7g`) — full transcript at `extractions/kallaway/transcript.txt`. This skill is an enrichment layer cross-linked into the six existing Kallaway skills.

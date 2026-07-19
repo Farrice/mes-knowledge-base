@@ -43,11 +43,15 @@ She operates two interlocking systems:
 | gtm | [GTM Validation & Expansion Roadmap](workflows/gtm-validation-expansion-roadmap.md) | Sequential GTM Roadmap & Pitch Testing Protocol | Scaling from a single niche to adjacent markets or validating a positioning pivot before a full rebrand. |
 | siege | [Positioning Siege Test](workflows/positioning-siege-test.md) | Stress-Tested Positioning with Competitive Resilience Map | Positioning must survive competitive counter-moves, market shifts, and copy attempts. When defensibility matters more than speed. |
 | copy-bridge | [Positioning-to-Copy Bridge](workflows/dunford-positioning-to-copy.md) | Copy Brief & Messaging Framework Anchored to Positioning | Translate finished positioning into a structured brief for downstream copy experts (Wiebe, Sultanic, Kallaway). |
+| haynes-handshake | [Dunford → Haynes Handshake](workflows/dunford-handshake-haynes.md) | Temperature-Staged Cold-Offer Stack | Positioning is done but the same pitch is firing at cold strangers, warm engaged readers, and hot inbound leads alike — recompose the offer per audience temperature before scaling outbound. |
+| godin-handshake | [Godin → Dunford Handshake](../seth-godin-marketing-mind/workflows/16-godin-handshake-dunford.md) | Cleared Premise Card + 5-Component Build | The positioning premise itself has never been interrogated — trap named, fuzzy word split, who's-it-for reset — before a full 5-component build runs on it. Run BEFORE `product`/`diagnostic` when the premise is suspect. |
 
 ## Cross-Expert Stacking Chains
 
 | Chain | Sequence | Use Case |
 |-------|----------|----------|
+| Premise Gate → Positioning | Godin `godin-lens`/`premise-audit` → Dunford `godin-handshake` (5-component build on cleared premise) | Kill a broken premise before spending a full positioning workshop on it |
+| Positioning → Cold Offer | Dunford `product` → Dunford `haynes-handshake` → Haynes `jh-value-crosscheck`/`jh-offer-to-copy` | Finished positioning → temperature-staged cold-offer stack → copy execution |
 | Positioning → Copy | Dunford `product` → Dunford `copy-bridge` → Wiebe/Sultanic | Strategic positioning → production copy |
 | Positioning → Content | Dunford `context` → Kallaway content psychology | Market context → high-retention content |
 | Fear → Deal Close | Dunford `fear` → Dunford `deal` | Buyer fear map → champion enablement |

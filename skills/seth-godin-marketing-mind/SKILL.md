@@ -61,6 +61,12 @@ The existing Godin trio captures his conclusions. This skill captures his proces
 | 13 | [13-farrice-map](workflows/13-farrice-map.md) | `/gmind-farrice-map` | Farrice Application Map — principle → move-this-week per active project |
 | 14 | [14-godin-stack](workflows/14-godin-stack.md) | `/gmind-stack` | Stack Route — options into the Godin trio + cross-expert stacks |
 
+### Tier 3 — Stacking
+
+| Workflow | Command | Stacking Partner |
+|----------|---------|-------------------|
+| Godin × Dunford Handshake | `/godin-handshake-dunford` | April Dunford (Positioning) — premise interrogation gates the 5-component build |
+
 ---
 
 ## Routing Guide
@@ -103,7 +109,7 @@ Would Godin recognize this output as his — or as someone using his vocabulary?
 | `seth-godin-ideavirus` | Tension map feeds spread architecture |
 | `seth-godin-philosophy` | Ship-check + quit-or-dip deepen into resistance/SVA work |
 | Geoff Woods Thought Partner | Godin interrogates the premise; `/gw-challenger` stress-tests the answer |
-| April Dunford Positioning | Exclusion clauses graduate into full positioning builds |
+| April Dunford Positioning | Exclusion clauses graduate into full positioning builds — sequenced via `/godin-handshake-dunford` (Tier 3) |
 | Luke Iha Client Mastery | Better-clients ladder feeds client acquisition mechanics |
 | Kallaway Content Psychology | Tension mechanics × attention psychology for content strategy |
 
