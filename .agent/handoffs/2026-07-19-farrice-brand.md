@@ -1,3 +1,11 @@
+---
+thread: farrice-brand
+status: active
+resume_hint: Farrice Brand — About Page Section
+branch: main
+pin: true
+---
+
 # Farrice Brand — About Page Section
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
