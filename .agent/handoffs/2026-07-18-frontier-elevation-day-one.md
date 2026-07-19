@@ -1,8 +1,8 @@
 ---
 thread: frontier-elevation-day-one
 status: active
-resume_hint: W1/W3/W4 + W7-core CLOSED; open: W5 kernel/distro, W6 /make, W7 phase-2, 07-24 flips; Farrice: install launchd runner when ready
-unfinished: W5 kernel/distro split; W6 /make any-domain; W7 phase-2 Drive sync; 07-24 weekly-closeout (flip #2 + grading R2)
+resume_hint: Maiden run staged (3 T1 cards; Farrice installs launchd); W5 split proposal awaits nod; 07-24 review pre-digested
+unfinished: Farrice: install runner + nod W5 proposal; next conductor: W5 scaffold, W6, W7 phase-2; 07-24 closeout
 branch: main
 pin: true
 ---
@@ -44,6 +44,21 @@ pin: true
   About/landing=Dunford · ads/IG=B2 (B3 as 1B rotation) · EVAL-045 banked his felt
   verdict; dissent-preserved-output feedback memory saved. Session lock token now
   38fe75d38475 (old fb92 was stale-claimed by the W7 fixture — reclaimed).
+
+- **07-24 REVIEW PRE-DIGESTED (early weekly-closeout drain, 2026-07-18)**: routing-enforce-log
+  = 4 rows (2 fixtures + ~2 live incl. one control_intent_classifier hit — that binding is
+  EXEMPT, check it wasn't blocked); zero real friction so far → flip #1 permanence looks
+  clean unless volume changes. verdict_advisory = 1 real R1 use already (sibling session).
+  observe-log 711 rows (flip #3 evidence), steering-observe 35 (flip #4). Judge armed at
+  66/75 calibrated incl. EVAL-045.
+- **W7 MAIDEN RUN STAGED**: 3 real T1 cards queued (about-page draft off Dunford line;
+  DM/IG drafts off Fusion A + B2; tess-barclay/tom-noske source re-acquisition filing).
+  Farrice installs: cp launchd/com.antigravity.mission-runner.plist ~/Library/LaunchAgents/
+  && launchctl load ~/Library/LaunchAgents/com.antigravity.mission-runner.plist (02:30
+  nightly). Morning: python3 execution/mission_runner.py receipt → .agent/cos/.
+- **W5 SPLIT PROPOSAL staged** at _active/frontier-elevation-2026-07-17/04-deliverables/
+  W5-KERNEL-SPLIT-PROPOSAL.md — 3 judgment calls await Farrice (eval-set-is-personal,
+  slop-bank copy-not-share, skills-ship-empty). Nod unlocks distro/ scaffold next session.
 
 ## ACCELERATION PASS (late evening — Farrice: 2 days of Fable left, go max)
 Farrice's standing instruction (verbatim intent): trusts the conductor's judgment, NEVER
