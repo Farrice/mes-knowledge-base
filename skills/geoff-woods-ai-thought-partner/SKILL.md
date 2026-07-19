@@ -47,7 +47,7 @@ Slash commands: `/gw-crit` `/gw-thought-partner` `/gw-20-percent` `/gw-feedback-
 | `workflows/11-forge-brief.md` | Turn raw intent into a forge-ready build brief | Dominoes-gated CRIT interview → markdown build brief + forge-os lane recommendation |
 | `workflows/12-voice-persona.md` | Build a writing persona from samples | His exact recipe (20-50 samples → interview → markdown voice file), reconciled with voice-os for client voices |
 | `workflows/14-content-pretest.md` | Pre-test a draft against a deep-ICP profile | simulate-room engine with an ICP loaded as the reader → per-section reactions, the exact drop-point line, identity triggers → calibration loop vs. real engagement |
-| `workflows/17-buyer-council.md` | Convene a simulated buyer panel against any artifact | Front door `/buyer-council`: standing-roster reuse (`councils/buyers/`) → per-element KILL/REVISE/SHIP verdicts, dissent preserved, mandatory NO-FIT + economic-gatekeeper seats, Predicted Response Map, `calibration.jsonl` reality loop |
+| `workflows/17-buyer-council.md` | Convene a simulated buyer panel against any artifact (triage + council modes) | Front door `/buyer-council`: standing-roster reuse (`councils/buyers/`) → per-element KILL/REVISE/SHIP verdicts, dissent preserved, mandatory NO-FIT + economic-gatekeeper seats, Predicted Response Map, `calibration.jsonl` reality loop |
 
 ### Tier 4 — Leadership (The AI-Driven Leader layer)
 

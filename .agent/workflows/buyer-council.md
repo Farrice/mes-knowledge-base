@@ -1,12 +1,12 @@
 ---
-description: "Front door — convene a simulated buyer/customer panel against any artifact (idea, concept, offer, content, GTM plan) for predictive-marketing verdicts; generalizes the Haynes×Woods handshake beyond cold-offer stacks"
+description: "Front door — convene a simulated buyer/customer panel against any artifact (idea, concept, offer, content, GTM plan) for predictive-marketing verdicts; two modes — TRIAGE (Mike Taylor, ~5 min, joint-anonymous synthesis) for fast directional calls, COUNCIL (Haynes×Woods handshake, dissent-preserved) for stakes"
 ---
 
 # /buyer-council
 
 Load first: `skills/geoff-woods-ai-thought-partner/SKILL.md` (Tier 3 entry) + `skills/geoff-woods-ai-thought-partner/genius.md` (Pattern 6 — Stakeholder Simulation with Reality Calibration).
 
-Then read and execute `skills/geoff-woods-ai-thought-partner/workflows/17-buyer-council.md` — panel assembly (standing roster in `councils/buyers/` first, fresh-build only if no fit), simulation pass (first-15-seconds reaction, verbatim strongest objection, what flips them, per-element KILL/REVISE/SHIP), dissent preserved never averaged, mandatory NO-FIT seat + economic-gatekeeper seat, Buyer Council Verdict Sheet + Predicted Response Map + ranked revisions, and the `councils/buyers/calibration.jsonl` reality-calibration append.
+Then read and execute `skills/geoff-woods-ai-thought-partner/workflows/17-buyer-council.md` — mode split first (TRIAGE: 10 cold personas, individual answers, joint-anonymous synthesis, ~5 min; COUNCIL: full pipeline below), then for COUNCIL: panel assembly (standing roster in `councils/buyers/` first, fresh-build only if no fit), simulation pass (first-15-seconds reaction, verbatim strongest objection, what flips them, per-element KILL/REVISE/SHIP), dissent preserved never averaged, mandatory NO-FIT seat + economic-gatekeeper seat, Buyer Council Verdict Sheet + Predicted Response Map + ranked revisions, and the `councils/buyers/calibration.jsonl` reality-calibration append.
 
 ## Usage
 ```
