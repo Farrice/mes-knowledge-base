@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** lynch-identity-campaign  
-**Full path:** .agent/handoffs/2026-07-19-lynch-identity-campaign.md  
-**Date:** 2026-07-19 (today)  
-**Status:** active  
-**Title:** Proof-to-Market Lynch BUILD: the offer restructured through Lynch's hands with decisions made — identity word CERTAIN, $495 Readout gate, $3,900/$4,900 increment re-anchors, four-criteria prospect gate, pre-built testimonial relay, subtraction list
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume lynch-identity-campaign` for this one.
-
----
-
 ---
 thread: lynch-identity-campaign
 status: active
@@ -23,4 +11,3 @@ pin: true
 **Next session focus**: Resume the `lynch-identity-campaign` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (lynch-identity-campaign)._
-

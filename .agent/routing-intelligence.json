@@ -8340,6 +8340,61 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_074705_ea8c",
+            "timestamp": "2026-07-19T07:47:05.769315+00:00",
+            "session_id": "1c988562-45f1-4d3a-b798-2d4498378827",
+            "request_summary": "I thought Ron Lynch had something about offer structuring and how he would do it. Whatever workflow we ran on the Proof-to-Market Lynch options, I was expecting not to just get an audit of what he wou",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-avatar-machine",
+            "experts_deployed": [
+                "luke-iha-avatar-machine",
+                "creative-campaign-strategy",
+                "seth-godin-brand"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-avatar-machine",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-avatar-machine + creative-campaign-strategy + seth-godin-brand",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_074845_73e6",
+            "timestamp": "2026-07-19T07:48:45.228259+00:00",
+            "session_id": "",
+            "request_summary": "Proof-to-Market Lynch BUILD: the offer restructured through Lynch's hands with decisions made — identity word CERTAIN, $495 Readout gate, $3,900/$4,900 increment re-anchors, four-criteria prospect gat",
+            "intent_score": 8,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "ron-lynch"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "lynch-identity-campaign",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_074901_d7f1",
+            "timestamp": "2026-07-19T07:49:01.176280+00:00",
+            "session_id": "1c988562-45f1-4d3a-b798-2d4498378827",
+            "request_summary": "Explain to me further what this failure shape was. I thought that the whole point of our prompts and everything we built was supposed to be practitioner and output given, right? Don't tell me we have ",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-avatar-machine",
+            "experts_deployed": [
+                "luke-iha-avatar-machine",
+                "knowledge-architecture-studio",
+                "product-design-build"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-avatar-machine",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-avatar-machine + knowledge-architecture-studio + product-design-build",
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -8913,7 +8968,7 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 461,
+            "total_routings": 464,
             "total_feedback": 63,
             "positive_count": 0,
             "negative_count": 0,
@@ -8922,7 +8977,7 @@
                 "System": 65,
                 "Client Work": 14,
                 "Analysis": 7,
-                "Strategy": 27,
+                "Strategy": 28,
                 "Creative": 8,
                 "Legal Consult Prep": 1,
                 "Content": 45,
@@ -8943,7 +8998,7 @@
                 "omar-eltakrori": 1,
                 "luke-iha-copy-blocks": 22,
                 "extract-mastery": 3,
-                "luke-iha-avatar-machine": 8,
+                "luke-iha-avatar-machine": 10,
                 "skill-creator": 1,
                 "higgsfield-creative-studio": 1,
                 "voice-os": 8,
@@ -9063,7 +9118,7 @@
                 "none": 8,
                 "alan-aragon-nutrition": 1,
                 "nate-b-jones-context-engineering": 34,
-                "luke-iha-avatar-machine": 9,
+                "luke-iha-avatar-machine": 11,
                 "alex-suzuki": 2,
                 "darrel-wilson-ai-monetization": 1,
                 "darrel-wilson-ai-affiliate": 2,
@@ -9114,7 +9169,7 @@
                 "susan-orlean-narrative-nonfiction": 2,
                 "steven-kotler-flow-performance": 1,
                 "mcp-builder": 1,
-                "product-design-build": 3,
+                "product-design-build": 4,
                 "boris-claude-code": 4,
                 "kallaway-social-commerce": 1,
                 "kallaway-addictive-storytelling": 1,
@@ -9202,11 +9257,13 @@
                 "lara-acosta": 1,
                 "farrice-cain": 1,
                 "joanna-wiebe-persuasion-mastery": 1,
-                "creative-campaign-strategy": 2,
-                "ron-lynch": 6
+                "creative-campaign-strategy": 3,
+                "ron-lynch": 7,
+                "seth-godin-brand": 1,
+                "knowledge-architecture-studio": 1
             },
             "tier_counts": {
-                "0": 461,
+                "0": 464,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -9214,10 +9271,10 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 261,
-                "finalize-auto": 200
+                "hybrid": 263,
+                "finalize-auto": 201
             },
-            "ensemble_count": 342,
+            "ensemble_count": 344,
             "auto_miss_count": 51,
             "auto_match_count": 12
         }
