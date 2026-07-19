@@ -5,3 +5,19 @@
   All cited paths resolve. Clean.
 ==============================================================
 
+
+==============================================================
+  CITATION INTEGRITY — 265 sources scanned
+==============================================================
+
+  [BINDING] — 2 missing
+    directives/fleet-conductor-doctrine.md
+      ✗ .agent/fleet-active.json
+    directives/merge-discipline.md
+      ✗ .agent/fleet-active.json
+
+  2 missing pointer(s). A live doc citing a missing file
+  is a LOSS SIGNAL — check `git log --all -- <path>` for orphaned
+  commits BEFORE repointing (docs/solutions/2026-07-13-divergent-branch-work-silently-lost.md).
+==============================================================
+

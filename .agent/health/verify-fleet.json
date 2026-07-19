@@ -1,9 +1,9 @@
 {
-  "ts": "2026-07-15T11:52:56",
-  "total": 83,
+  "ts": "2026-07-19T05:41:34",
+  "total": 86,
   "counts": {
-    "PASS": 51,
-    "FAIL": 27,
+    "PASS": 52,
+    "FAIL": 29,
     "SKIP": 4,
     "TIMEOUT": 1
   },
@@ -23,18 +23,20 @@
     "verify_farrice_content_os.py",
     "verify_global_steering_closeout.py",
     "verify_goal_loop_maintenance_contract.py",
+    "verify_health_performance_geo_prompt.py",
     "verify_high_taste_writing_os.py",
     "verify_intent_memory_contract.py",
     "verify_kimi_swarm.py",
     "verify_mission_activation_contract.py",
     "verify_mission_package_handoff.py",
+    "verify_operator_cockpit.py",
     "verify_protocol_lifecycle.py",
     "verify_repeatability_spine.py",
+    "verify_skill_evolution_candidate_freshness.py",
     "verify_skill_evolution_local_first.py",
     "verify_steering_compass.py",
     "verify_system.py",
     "verify_system_cohesion_spine.py",
-    "verify_system_control_plane.py",
     "verify_tiered_agent_routing.py"
   ],
   "results": [
@@ -48,31 +50,31 @@
       "script": "verify_agent_arsenal_routing.py",
       "status": "FAIL",
       "detail": "- antigravity-orchestrator agent missing recommended stack behavior",
-      "secs": 1.4
+      "secs": 2.2
     },
     {
       "script": "verify_agentic_engineering_loop_contract.py",
       "status": "FAIL",
       "detail": "- source evidence missing: extractions/video-context/PzVV4X37ihg/analysis.md",
-      "secs": 3.8
+      "secs": 3.7
     },
     {
       "script": "verify_antigravity_global_access.py",
       "status": "PASS",
       "detail": "",
-      "secs": 2.0
+      "secs": 1.9
     },
     {
       "script": "verify_artifact_router.py",
       "status": "FAIL",
-      "detail": "- hybrid morning route should carry Content domain",
-      "secs": 40.4
+      "detail": "subprocess.TimeoutExpired: Command '['/Users/farricecain/Google Antigravity/.venv/bin/python3', 'execution/artifact_router.py', 'inventory', '--json']' timed out after 60 seconds",
+      "secs": 60.1
     },
     {
       "script": "verify_attention_hijack_hooks.py",
       "status": "FAIL",
       "detail": "- missing subagent: .claude/agents/attention-hijack-hook-auditor.md",
-      "secs": 0.0
+      "secs": 0.1
     },
     {
       "script": "verify_automation_cohesion_standard.py",
@@ -84,13 +86,13 @@
       "script": "verify_autopilot_routing.py",
       "status": "PASS",
       "detail": "",
-      "secs": 47.0
+      "secs": 46.5
     },
     {
       "script": "verify_autopilot_runtime_preflight.py",
       "status": "PASS",
       "detail": "",
-      "secs": 32.0
+      "secs": 30.3
     },
     {
       "script": "verify_behavior_changing_extraction_contract.py",
@@ -102,7 +104,7 @@
       "script": "verify_buyer_trigger_research_contract.py",
       "status": "FAIL",
       "detail": "- missing file: /Users/farricecain/Google Antigravity/skills/meg-heckman-buyer-trigger-os/workflows/research-backed-trigger-run.md",
-      "secs": 0.4
+      "secs": 0.3
     },
     {
       "script": "verify_codex_authority.py",
@@ -174,7 +176,7 @@
       "script": "verify_extraction_command_surface.py",
       "status": "PASS",
       "detail": "",
-      "secs": 4.1
+      "secs": 4.2
     },
     {
       "script": "verify_farrice_content_os.py",
@@ -222,12 +224,12 @@
       "script": "verify_google_operator_core.py",
       "status": "PASS",
       "detail": "",
-      "secs": 7.5
+      "secs": 6.5
     },
     {
       "script": "verify_health_performance_geo_prompt.py",
-      "status": "PASS",
-      "detail": "",
+      "status": "FAIL",
+      "detail": "- version: Version: 3.4 Market-Domain Creative Intelligence",
       "secs": 0.0
     },
     {
@@ -240,7 +242,7 @@
       "script": "verify_high_taste_writing_os.py",
       "status": "FAIL",
       "detail": "- routing query did not surface /high-taste-writing-os: copy is structurally sound but not compelling",
-      "secs": 2.7
+      "secs": 2.8
     },
     {
       "script": "verify_intent_memory_contract.py",
@@ -264,7 +266,7 @@
       "script": "verify_memory_stack.py",
       "status": "PASS",
       "detail": "",
-      "secs": 3.3
+      "secs": 3.9
     },
     {
       "script": "verify_mission_activation_contract.py",
@@ -279,22 +281,34 @@
       "secs": 1.1
     },
     {
-      "script": "verify_operator_cockpit.py",
+      "script": "verify_mission_runner.py",
       "status": "PASS",
       "detail": "",
-      "secs": 48.1
+      "secs": 0.1
+    },
+    {
+      "script": "verify_mission_validator.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.5
+    },
+    {
+      "script": "verify_operator_cockpit.py",
+      "status": "TIMEOUT",
+      "detail": ">90s",
+      "secs": 90
     },
     {
       "script": "verify_operator_core_ai_employee_os.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1.7
+      "secs": 2.2
     },
     {
       "script": "verify_operator_core_end_session.py",
       "status": "PASS",
       "detail": "",
-      "secs": 10.6
+      "secs": 10.8
     },
     {
       "script": "verify_operator_core_expert_composition_governor.py",
@@ -306,61 +320,61 @@
       "script": "verify_operator_core_extraction_governor_agent.py",
       "status": "PASS",
       "detail": "",
-      "secs": 10.8
+      "secs": 11.0
     },
     {
       "script": "verify_operator_core_fast_proof.py",
       "status": "PASS",
       "detail": "",
-      "secs": 15.5
+      "secs": 15.8
     },
     {
       "script": "verify_operator_core_health_check.py",
       "status": "PASS",
       "detail": "",
-      "secs": 8.9
+      "secs": 9.2
     },
     {
       "script": "verify_operator_core_knowledge_librarian.py",
       "status": "PASS",
       "detail": "",
-      "secs": 9.0
+      "secs": 9.2
     },
     {
       "script": "verify_operator_core_orchestrate.py",
       "status": "PASS",
       "detail": "",
-      "secs": 9.0
+      "secs": 9.1
     },
     {
       "script": "verify_operator_core_repeatability_spine.py",
       "status": "PASS",
       "detail": "",
-      "secs": 9.0
+      "secs": 9.2
     },
     {
       "script": "verify_operator_core_routing_intelligence.py",
       "status": "PASS",
       "detail": "",
-      "secs": 8.8
+      "secs": 9.1
     },
     {
       "script": "verify_operator_core_self_evolve.py",
       "status": "PASS",
       "detail": "",
-      "secs": 9.0
+      "secs": 9.2
     },
     {
       "script": "verify_operator_core_skill_anneal.py",
       "status": "PASS",
       "detail": "",
-      "secs": 9.0
+      "secs": 9.3
     },
     {
       "script": "verify_operator_core_source_to_skill_system.py",
       "status": "PASS",
       "detail": "",
-      "secs": 12.7
+      "secs": 12.9
     },
     {
       "script": "verify_operator_core_status.py",
@@ -372,7 +386,7 @@
       "script": "verify_operator_core_system_audit.py",
       "status": "PASS",
       "detail": "",
-      "secs": 8.9
+      "secs": 9.2
     },
     {
       "script": "verify_operator_lesson.py",
@@ -408,19 +422,19 @@
       "script": "verify_raw_intent_bridge_command.py",
       "status": "PASS",
       "detail": "",
-      "secs": 5.7
+      "secs": 5.6
     },
     {
       "script": "verify_raw_intent_global_skill.py",
       "status": "PASS",
       "detail": "",
-      "secs": 5.7
+      "secs": 5.8
     },
     {
       "script": "verify_raw_intent_run_packet.py",
       "status": "PASS",
       "detail": "",
-      "secs": 17.4
+      "secs": 17.6
     },
     {
       "script": "verify_recall_mcp_auth.py",
@@ -444,7 +458,13 @@
       "script": "verify_savant_control_room.py",
       "status": "PASS",
       "detail": "",
-      "secs": 29.2
+      "secs": 30.2
+    },
+    {
+      "script": "verify_session_lock_gate.py",
+      "status": "PASS",
+      "detail": "",
+      "secs": 0.2
     },
     {
       "script": "verify_session_state_freshness_loop.py",
@@ -454,8 +474,8 @@
     },
     {
       "script": "verify_skill_evolution_candidate_freshness.py",
-      "status": "PASS",
-      "detail": "",
+      "status": "FAIL",
+      "detail": "- safe refresh command: python3 execution/skill_evolution_candidates.py scan --write",
       "secs": 0.0
     },
     {
@@ -468,13 +488,13 @@
       "script": "verify_skill_evolution_local_first.py",
       "status": "FAIL",
       "detail": "AssertionError: expected local history for luke-iha-client-mastery, got 0",
-      "secs": 0.6
+      "secs": 0.7
     },
     {
       "script": "verify_skill_system_contract.py",
       "status": "PASS",
       "detail": "",
-      "secs": 4.0
+      "secs": 3.7
     },
     {
       "script": "verify_steering_compass.py",
@@ -486,13 +506,13 @@
       "script": "verify_steering_compass_quality.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.7
+      "secs": 0.6
     },
     {
       "script": "verify_subagent_approval_language.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.7
+      "secs": 0.5
     },
     {
       "script": "verify_subagent_readiness.py",
@@ -514,9 +534,9 @@
     },
     {
       "script": "verify_system_control_plane.py",
-      "status": "TIMEOUT",
-      "detail": ">90s",
-      "secs": 90
+      "status": "PASS",
+      "detail": "",
+      "secs": 202.6
     },
     {
       "script": "verify_tiered_agent_routing.py",
@@ -534,7 +554,7 @@
       "script": "verify_virtuoso_orchestration.py",
       "status": "PASS",
       "detail": "",
-      "secs": 15.0
+      "secs": 15.3
     }
   ]
 }

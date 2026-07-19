@@ -1,9 +1,9 @@
 # Knowledge Index
-*670 sources | 2,727,873 words | Updated: 2026-07-19*
+*675 sources | 2,731,245 words | Updated: 2026-07-19*
 
 ---
 
-## Content (232 files)
+## Content (236 files)
 
 - [video-context-ledger](../extractions/video-context/3iR3kHxCwfo/video-context-ledger.md) — 75,408 words
 - [Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them](extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md) — 60,850 words (stale)
@@ -79,6 +79,7 @@
 - [2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the](council-sessions/2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the.md) [lara-acosta] — 2,537 words
 - [master_playbook_draft](creative-direction/guides/master_playbook_draft.md) — 2,474 words (stale)
 - [DESIGN](design-libraries/brands/ollama/DESIGN.md) — 2,427 words
+- [extraction-report-2026-07-19](../extractions/nathan-gotch/extraction-report-2026-07-19.md) [nathan-gotch] — 2,414 words
 - [word-mastery-extraction](../extractions/kallaway/word-mastery-extraction.md) [kallaway] — 2,363 words (stale)
 - [extraction-report](../extractions/jonathan-courtney/extraction-report.md) — 2,301 words (stale)
 - [extraction-report](../extractions/sean-mabry/extraction-report.md) — 2,294 words (stale)
@@ -221,6 +222,7 @@
 - [streetwear-dna](../extractions/creative-direction/streetwear-dna.md) — 212 words (stale)
 - [sample-001](expert-benchmarks/linkedin/sample-001.md) [lara-acosta] — 210 words (stale)
 - [validation-report](../extractions/lara-acosta/validation-report.md) [lara-acosta] — 204 words (stale)
+- [source-metadata](../extractions/nathan-gotch/source-metadata.md) [nathan-gotch] — 200 words
 - [sample-002](expert-benchmarks/linkedin/sample-002.md) [lara-acosta] — 198 words (stale)
 - [short-burrito-chipotle](../extractions/jenny-hoyos/reference-corpus/short-burrito-chipotle.md) — 196 words
 - [short-burrito-chipotle](../extractions/jenny-hoyos-shorts/reference-corpus/short-burrito-chipotle.md) — 196 words
@@ -231,9 +233,11 @@
 - [short-strawberries](../extractions/jenny-hoyos/reference-corpus/short-strawberries.md) — 178 words
 - [short-strawberries](../extractions/jenny-hoyos-shorts/reference-corpus/short-strawberries.md) — 178 words
 - [validation-report](../extractions/ross-mckay/validation-report.md) [april-dunford] — 167 words (stale)
+- [README](../extractions/tess-barclay/README.md) — 133 words
 - [source-notes](../extractions/rafa-conde/source-notes.md) — 121 words
 - [blind-pass-log](../extractions/seth-godin-marketing-mind/blind-pass-log.md) — 90 words
 - [visual-notes](../extractions/kobi-brown-educational-virality/visual-notes.md) — 84 words
+- [blind-pass-log](../extractions/nathan-gotch-ai-seo/blind-pass-log.md) [nathan-gotch] — 77 words
 - [context](../extractions/meg-heckman/codex-prior-art/agent/memory/context.md) — 75 words
 - [blind-pass-log](../extractions/tommy-clark-linkedin-growth/blind-pass-log.md) — 75 words
 - [source-metadata](../extractions/ron-lynch/source-metadata.md) — 36 words
@@ -355,7 +359,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 13,021 words
+- [log](log.md) — 13,072 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words
@@ -637,7 +641,7 @@
 - [critique-loop-optimizer](../extractions/mark-kashef-banana-squad/prompts/critique-loop-optimizer.md) — 267 words (stale)
 - [blind-pass-log](../extractions/jenny-hoyos/blind-pass-log.md) — 60 words
 
-## Seo (25 files)
+## Seo (26 files)
 
 - [ethan-smith-aeo-extraction-report](../extractions/ethan-smith/ethan-smith-aeo-extraction-report.md) [nathan-gotch] — 3,441 words (stale)
 - [human_values_collective_profile](../research_outputs/human_values_collective_profile.md) — 2,767 words (stale)
@@ -657,6 +661,7 @@
 - [higgsfield_notes](../extractions/creative-direction/higgsfield_notes.md) — 613 words (stale)
 - [guide_research_design_principles](../extractions/creative-direction/guide_research_design_principles.md) — 556 words (stale)
 - [color_grading_cinema](../extractions/creative-direction/color_grading_cinema.md) — 528 words (stale)
+- [blind-pass-specimen-07](../extractions/nathan-gotch-ai-seo/blind-pass-specimen-07.md) [nathan-gotch] — 497 words
 - [lens_dof_research](../extractions/creative-direction/lens_dof_research.md) — 489 words (stale)
 - [video_mockup_creative_notes](../extractions/creative-direction/video_mockup_creative_notes.md) — 443 words (stale)
 - [guide_research_cinematography](../extractions/creative-direction/guide_research_cinematography.md) — 442 words (stale)

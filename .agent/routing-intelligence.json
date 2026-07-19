@@ -9,7 +9,7 @@
                 "creative-direction": 1,
                 "jack-roberts-design-mastery": 1,
                 "higgsfield-creative-studio": 1,
-                "luke-iha-copy-blocks": 22,
+                "luke-iha-copy-blocks": 23,
                 "nate-b-jones-ai-taste-mastery": 1,
                 "tyler-denk-audience-monetization": 1,
                 "lara-acosta-linkedin-mastery": 1,
@@ -41,7 +41,7 @@
                 "Content": 46,
                 "writing-depth-layer": 3,
                 "Analysis": 7,
-                "seena-rez-tiktok-commerce": 1,
+                "seena-rez-tiktok-commerce": 2,
                 "story-compass": 1,
                 "lara-acosta-linkedin-growth": 1,
                 "darrel-wilson-ai-affiliate": 1,
@@ -49,7 +49,7 @@
                 "marketing-studio-director": 1,
                 "System": 65,
                 "brand-operating-system": 11,
-                "dara-denney-meta-ads": 4,
+                "dara-denney-meta-ads": 5,
                 "internal-comms": 1,
                 "dr-kriukow-humanization": 1,
                 "forge-os": 1,
@@ -80,21 +80,22 @@
                 "strength-conditioning-os": 7,
                 "simon-intellectual-library-os": 1,
                 "creative-campaign-strategy": 2,
-                "jeremy-haynes-cold-offer": 1
+                "jeremy-haynes-cold-offer": 1,
+                "doc-coauthoring": 2
             },
-            "total_routings": 471,
+            "total_routings": 476,
             "tier_counts": {
-                "0": 471,
+                "0": 476,
                 "3": 0,
                 "2": 0,
                 "1": 0
             },
-            "auto_match_count": 13,
+            "auto_match_count": 14,
             "mixed_count": 0,
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 269,
+                "hybrid": 274,
                 "finalize-auto": 202
             },
             "expert_counts": {
@@ -115,7 +116,7 @@
                 "system-orchestrator": 3,
                 "David Placek": 1,
                 "mcp-builder": 1,
-                "gpt-image-2-director": 12,
+                "gpt-image-2-director": 13,
                 "seth-godin-brand": 2,
                 "collective-genius-council": 1,
                 "kallaway-social-commerce": 1,
@@ -168,7 +169,7 @@
                 "tommy-clark": 2,
                 "deliberate": 27,
                 "creative-director": 1,
-                "doc-coauthoring": 25,
+                "doc-coauthoring": 27,
                 "dan-wang-literary-analysis": 2,
                 "webapp-testing": 2,
                 "brand-operating-system": 24,
@@ -186,7 +187,7 @@
                 "xlsx": 1,
                 "adam-sandler": 2,
                 "health-performance-geo": 2,
-                "luke-iha-vicious-hooks": 11,
+                "luke-iha-vicious-hooks": 12,
                 "creative-direction": 7,
                 "darrel-wilson-ai-monetization": 1,
                 "jeremy-haynes-cold-offer": 3,
@@ -214,9 +215,9 @@
                 "unified-research-engine": 1,
                 "system-architecture": 7,
                 "chase-hughes-context-engineering": 2,
-                "seena-rez-tiktok-commerce": 2,
+                "seena-rez-tiktok-commerce": 3,
                 "lara-acosta-linkedin-growth": 1,
-                "stefan-georgi-dopamine-copy": 21,
+                "stefan-georgi-dopamine-copy": 22,
                 "mike-foutia-marketing-tools": 1,
                 "dr-kriukow-humanization": 2,
                 "nathan-gotch": 1,
@@ -244,7 +245,7 @@
                 "fantastic-posters": 9,
                 "research-engine": 1,
                 "t": 3,
-                "corey-mcclain-persona-engineering": 38,
+                "corey-mcclain-persona-engineering": 40,
                 "henrik-werdelin-portfolio-entrepreneurship": 1,
                 "ben-watkins": 1,
                 "pptx": 10,
@@ -259,7 +260,7 @@
                 "april-dunford": 1,
                 "system-orchestration": 3,
                 "oren-john": 2,
-                "luke-iha-copy-blocks": 30,
+                "luke-iha-copy-blocks": 31,
                 "new-media-kingmaker": 1,
                 "lamott-craft": 2,
                 "lara-acosta-linkedin-mastery": 1,
@@ -282,7 +283,7 @@
                 "story-compass": 3,
                 "darrel-wilson-ai-affiliate": 2,
                 "marketing-studio-director": 12,
-                "dara-denney-meta-ads": 26,
+                "dara-denney-meta-ads": 27,
                 "enrico-incarnati-instagram-realestate": 1,
                 "tom-noske-personal-brand": 1,
                 "brad-bonanno-explainer-architecture": 2,
@@ -292,7 +293,7 @@
                 "algorithmic-art": 1,
                 "jeremy-miner-identity-persuasion": 1,
                 "alex-hormozi": 3,
-                "how-i-write-os": 24,
+                "how-i-write-os": 25,
                 "omar-eddaoudi-scaling-ops": 6,
                 "fraser-cottrell-paid-ads": 1,
                 "asset_generator": 1,
@@ -310,11 +311,14 @@
                 "creative-campaign-strategy": 3,
                 "diandra-escobar-linkedin-growth": 1,
                 "matthew-volkwyn-copywriting": 1,
-                "tess-barclay-social-content": 1
+                "tess-barclay-social-content": 1,
+                "kallaway-ai-content-engine": 2,
+                "samuel-thompson-product-launch": 1,
+                "ross-minchev-digital-products": 1
             },
-            "total_feedback": 64,
+            "total_feedback": 65,
             "negative_count": 0,
-            "ensemble_count": 350,
+            "ensemble_count": 355,
             "auto_miss_count": 51,
             "positive_count": 0
         }
@@ -886,6 +890,15 @@
             "rating": "auto_match",
             "correction": "jeremy-haynes-cold-offer",
             "notes": "expert skill 'jeremy-haynes-cold-offer' loaded matching suggestion ['jeremy-haynes-cold-offer', 'dara-denney-meta-ads', 'how-i-write-os']"
+        },
+        {
+            "feedback_id": "fb_20260719_142404_1ef1",
+            "timestamp": "2026-07-19T14:24:04.403616+00:00",
+            "session_id": "e17f1c2e-70e8-4cfc-8404-ce561ccba8d3",
+            "routing_id": "rt_20260719_142351_0a71",
+            "rating": "auto_match",
+            "correction": "samuel-thompson-product-launch",
+            "notes": "expert skill 'samuel-thompson-product-launch' loaded matching suggestion ['seena-rez-tiktok-commerce', 'samuel-thompson-product-launch', 'ross-minchev-digital-products']"
         }
     ],
     "routing_decisions": [
@@ -9430,6 +9443,101 @@
             "ensemble": true,
             "compound_pairing": "fantastic-posters + tess-barclay-social-content + chase-hughes-conversational-influence",
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_123231_d318",
+            "timestamp": "2026-07-19T12:32:31.178196+00:00",
+            "session_id": "verify-codex-claude-parity",
+            "request_summary": "Write production-ready paid ad scripts with no AI slop",
+            "intent_score": 0,
+            "domain_detected": "dara-denney-meta-ads",
+            "experts_deployed": [
+                "dara-denney-meta-ads",
+                "gpt-image-2-director",
+                "how-i-write-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "dara-denney-meta-ads",
+            "ensemble": true,
+            "compound_pairing": "dara-denney-meta-ads + gpt-image-2-director + how-i-write-os",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_123247_2a4a",
+            "timestamp": "2026-07-19T12:32:47.750844+00:00",
+            "session_id": "verify-hook-parity",
+            "request_summary": "Write converting copy from scratch for a supplement brand using Luke Iha copy blocks.",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-copy-blocks",
+            "experts_deployed": [
+                "luke-iha-copy-blocks",
+                "luke-iha-vicious-hooks",
+                "stefan-georgi-dopamine-copy"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-copy-blocks",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-copy-blocks + luke-iha-vicious-hooks + stefan-georgi-dopamine-copy",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_142202_b6d8",
+            "timestamp": "2026-07-19T14:22:02.073710+00:00",
+            "session_id": "3fbf1a3b-e135-495d-a9d4-5a52e17ab43f",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "doc-coauthoring",
+            "experts_deployed": [
+                "doc-coauthoring",
+                "corey-mcclain-persona-engineering",
+                "kallaway-ai-content-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "doc-coauthoring",
+            "ensemble": true,
+            "compound_pairing": "doc-coauthoring + corey-mcclain-persona-engineering + kallaway-ai-content-engine",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_142307_70b1",
+            "timestamp": "2026-07-19T14:23:07.549449+00:00",
+            "session_id": "cfc1ce8d-b82a-433e-b3a3-ec957ecb1de9",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "doc-coauthoring",
+            "experts_deployed": [
+                "doc-coauthoring",
+                "corey-mcclain-persona-engineering",
+                "kallaway-ai-content-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "doc-coauthoring",
+            "ensemble": true,
+            "compound_pairing": "doc-coauthoring + corey-mcclain-persona-engineering + kallaway-ai-content-engine",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_142351_0a71",
+            "timestamp": "2026-07-19T14:23:51.091524+00:00",
+            "session_id": "e17f1c2e-70e8-4cfc-8404-ce561ccba8d3",
+            "request_summary": "do research and find the top 10 digital products we can create to an high demand niche or market but that is underserved or hasn't been given a product or service that solves its problem for the custo",
+            "intent_score": 0,
+            "domain_detected": "seena-rez-tiktok-commerce",
+            "experts_deployed": [
+                "seena-rez-tiktok-commerce",
+                "samuel-thompson-product-launch",
+                "ross-minchev-digital-products"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "seena-rez-tiktok-commerce",
+            "ensemble": true,
+            "compound_pairing": "seena-rez-tiktok-commerce + samuel-thompson-product-launch + ross-minchev-digital-products",
+            "feedback": "fb_20260719_142404_1ef1"
         }
     ]
 }

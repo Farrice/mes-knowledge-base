@@ -1,33 +1,33 @@
 # Knowledge Briefing
-*Generated: 2026-07-19 | 670 sources | 2,727,873 words*
+*Generated: 2026-07-19 | 675 sources | 2,731,245 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
 - **index** (content) — 4,631 words — `knowledge/index.md`
-- **log** (general) — 13,021 words — `knowledge/log.md`
+- **log** (general) — 13,072 words — `knowledge/log.md`
+- **extraction-report-2026-07-19** (content [nathan-gotch]) — 2,414 words — `extractions/nathan-gotch/extraction-report-2026-07-19.md`
+- **source-metadata** (content [nathan-gotch]) — 200 words — `extractions/nathan-gotch/source-metadata.md`
+- **blind-pass-log** (content [nathan-gotch]) — 77 words — `extractions/nathan-gotch-ai-seo/blind-pass-log.md`
+- **blind-pass-specimen-07** (seo [nathan-gotch]) — 497 words — `extractions/nathan-gotch-ai-seo/blind-pass-specimen-07.md`
 - **source-metadata** (content) — 36 words — `extractions/ron-lynch/source-metadata.md`
 - **visual-context** (content) — 28,304 words — `extractions/ron-lynch-v2/visual-context.md`
+- **README** (content) — 133 words — `extractions/tess-barclay/README.md`
 - **2026-07-18-founding-brief** (strategy [april-dunford]) — 3,633 words — `research_outputs/market-pulse/2026-07-18-founding-brief.md`
-- **extraction-report** (content) — 607 words — `extractions/daniel-priestley-sll-engine/extraction-report.md`
-- **visual-context** (content) — 390 words — `extractions/daniel-priestley-sll-engine/visual-context.md`
-- **amplification-report** (content) — 2,596 words — `extractions/seth-godin-marketing-mind/amplification-report.md`
-- **extraction-report-part2** (content) — 2,107 words — `extractions/seth-godin-marketing-mind/extraction-report-part2.md`
-- **assembly-rubric** (strategy) — 145 words — `knowledge/assembly-rubric.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 232 | nicolas-cole |
+| content | 236 | nicolas-cole |
 | copywriting | 97 | luke-iha |
 | general | 83 | nick-saraev |
 | strategy | 68 | april-dunford |
 | screenwriting | 50 | connelly |
 | brand | 48 | oren-john |
 | systems | 35 | nick-saraev |
-| seo | 25 | nathan-gotch |
+| seo | 26 | nathan-gotch |
 | research | 22 | dai-media |
 | sales | 10 | dai-media |
 

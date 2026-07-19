@@ -1,0 +1,88 @@
+PASS    verify_activation_governor.py (0.7s)
+FAIL    verify_agent_arsenal_routing.py (2.2s) — - antigravity-orchestrator agent missing recommended stack behavior
+FAIL    verify_agentic_engineering_loop_contract.py (3.7s) — - source evidence missing: extractions/video-context/PzVV4X37ihg/analysis.md
+PASS    verify_antigravity_global_access.py (1.9s)
+FAIL    verify_artifact_router.py (60.1s) — subprocess.TimeoutExpired: Command '['/Users/farricecain/Google Antigravity/.venv/bin/python3', 'execution/artifact_router.py', 'inventory', '--json']' timed out after 60 seconds
+FAIL    verify_attention_hijack_hooks.py (0.1s) — - missing subagent: .claude/agents/attention-hijack-hook-auditor.md
+FAIL    verify_automation_cohesion_standard.py (0.0s) — - hybrid-morning-signal-radar: missing automation.toml
+PASS    verify_autopilot_routing.py (46.5s)
+PASS    verify_autopilot_runtime_preflight.py (30.3s)
+FAIL    verify_behavior_changing_extraction_contract.py (0.0s) — - missing sam proof lab: _active/sam-parr-copywriting-os/06-before-after-proof-lab.md
+FAIL    verify_buyer_trigger_research_contract.py (0.3s) — - missing file: /Users/farricecain/Google Antigravity/skills/meg-heckman-buyer-trigger-os/workflows/research-backed-trigger-run.md
+PASS    verify_codex_authority.py (0.0s)
+PASS    verify_codex_claude_parity.py (3.6s)
+PASS    verify_codex_dynamic_workflow.py (0.2s)
+FAIL    verify_codex_indexes.py (0.0s) — - missing output: semantic_libraries/antigravity/indexes/codex-subagent-candidates.md
+FAIL    verify_contextual_next_prompts.py (0.0s) — AssertionError: Missing snippet in semantic_libraries/antigravity/primitives/collaborative-steering-compass.md: **Prompt:**
+PASS    verify_control_intent.py (0.0s)
+FAIL    verify_convene.py (0.0s) — AssertionError: missing file: .agents/cold-skills/source-command-wrappers/source-command-convene/SKILL.md
+PASS    verify_cos_primer_gate.py (0.3s)
+FAIL    verify_deep_research_os.py (0.1s) — AssertionError: missing file: .agents/cold-skills/source-command-wrappers/source-command-deep-research-os/SKILL.md
+FAIL    verify_end_session_intelligence.py (0.0s) — AssertionError: end-session workflow missing: routing-feedback-inbox.jsonl, verify_end_session_intelligence.py
+PASS    verify_expert_composition_standard.py (3.7s)
+PASS    verify_extraction_command_surface.py (4.2s)
+FAIL    verify_farrice_content_os.py (2.8s) — - codex skill missing workflow command template
+SKIP  verify_fleet.py (the runner itself — recursing would deadlock)
+PASS    verify_global_autopilot_source_truth.py (0.0s)
+PASS    verify_global_execution_bias_bridge.py (0.2s)
+FAIL    verify_global_steering_closeout.py (0.0s) — AssertionError: Missing global snippet: Close with steering by default: 3 Next Prompts using Use Now, Harden, and Expand.
+PASS    verify_global_steering_persistence.py (0.1s)
+FAIL    verify_goal_loop_maintenance_contract.py (0.0s) — - source evidence missing: extractions/video-context/5xrjO38WUYY/video-context-ledger.md
+PASS    verify_google_operator_core.py (6.5s)
+FAIL    verify_health_performance_geo_prompt.py (0.0s) — - version: Version: 3.4 Market-Domain Creative Intelligence
+PASS    verify_high_taste_os.py (0.5s)
+FAIL    verify_high_taste_writing_os.py (2.8s) — - routing query did not surface /high-taste-writing-os: copy is structurally sound but not compelling
+FAIL    verify_intent_memory_contract.py (0.0s) — - .agent/workflows/autopilot.md missing term: execution/intent_memory.py verify
+FAIL    verify_kimi_swarm.py (0.1s) — AssertionError: missing file: .agent/workflows/kimi-swarm.md
+PASS    verify_markdown_readability_guard.py (0.0s)
+PASS    verify_memory_stack.py (3.9s)
+FAIL    verify_mission_activation_contract.py (1.4s) — Reply with the number or command name to run it, or ask for alternatives in a narrower domain.
+FAIL    verify_mission_package_handoff.py (1.1s) — - cold-start routing: cold-start Vibe Tax deployment query did not surface /vibe-tax-deploy
+PASS    verify_mission_runner.py (0.1s)
+PASS    verify_mission_validator.py (0.5s)
+TIMEOUT verify_operator_cockpit.py (90s) — >90s
+PASS    verify_operator_core_ai_employee_os.py (2.2s)
+PASS    verify_operator_core_end_session.py (10.8s)
+PASS    verify_operator_core_expert_composition_governor.py (12.8s)
+PASS    verify_operator_core_extraction_governor_agent.py (11.0s)
+PASS    verify_operator_core_fast_proof.py (15.8s)
+PASS    verify_operator_core_health_check.py (9.2s)
+PASS    verify_operator_core_knowledge_librarian.py (9.2s)
+PASS    verify_operator_core_orchestrate.py (9.1s)
+PASS    verify_operator_core_repeatability_spine.py (9.2s)
+PASS    verify_operator_core_routing_intelligence.py (9.1s)
+PASS    verify_operator_core_self_evolve.py (9.2s)
+PASS    verify_operator_core_skill_anneal.py (9.3s)
+PASS    verify_operator_core_source_to_skill_system.py (12.9s)
+PASS    verify_operator_core_status.py (0.1s)
+PASS    verify_operator_core_system_audit.py (9.2s)
+PASS    verify_operator_lesson.py (0.9s)
+PASS    verify_performance_evidence_gate.py (0.2s)
+PASS    verify_plugin_readiness_stdout.py (0.1s)
+SKIP  verify_proof_ledger.py (per-artifact checker (requires --draft/--ledger); fires per-deliverable, not standalone)
+FAIL    verify_protocol_lifecycle.py (0.1s) — AssertionError: missing lifecycle fields: cold_source_only_protocols, deprecated_protocols, dormant_protocols, healthy_protocols, lifecycle_counts, overdue_protocols
+PASS    verify_raw_intent_bridge_command.py (5.6s)
+PASS    verify_raw_intent_global_skill.py (5.8s)
+PASS    verify_raw_intent_run_packet.py (17.6s)
+SKIP  verify_recall_mcp_auth.py (needs live `codex mcp list` outside sandbox)
+PASS    verify_recurring_ops_dry_run.py (0.4s)
+FAIL    verify_repeatability_spine.py (0.1s) — AssertionError: publishable copy gate missing text: Preservation Lock, strongest voice/proof/tension
+PASS    verify_savant_control_room.py (30.2s)
+PASS    verify_session_lock_gate.py (0.2s)
+PASS    verify_session_state_freshness_loop.py (0.0s)
+FAIL    verify_skill_evolution_candidate_freshness.py (0.0s) — - safe refresh command: python3 execution/skill_evolution_candidates.py scan --write
+PASS    verify_skill_evolution_candidates.py (0.1s)
+FAIL    verify_skill_evolution_local_first.py (0.7s) — AssertionError: expected local history for luke-iha-client-mastery, got 0
+PASS    verify_skill_system_contract.py (3.7s)
+FAIL    verify_steering_compass.py (0.0s) — AssertionError: Missing required file: .agents/cold-skills/source-command-wrappers/source-command-steering-compass/SKILL.md
+PASS    verify_steering_compass_quality.py (0.6s)
+PASS    verify_subagent_approval_language.py (0.5s)
+PASS    verify_subagent_readiness.py (0.0s)
+FAIL    verify_system.py (0.2s) — - Create missing workflow files or remove stale entries from SLASH_COMMANDS.md
+FAIL    verify_system_cohesion_spine.py (0.0s) — - .agent/workflows/autopilot.md missing term: next move
+PASS    verify_system_control_plane.py (202.6s)
+FAIL    verify_tiered_agent_routing.py (0.0s) — AttributeError: module 'routing_audit' has no attribute 'build_tiered_routing_report'
+SKIP  verify_video_context_source_package.py (per-artifact checker (requires package arg); fires per-extraction, not standalone)
+PASS    verify_virtuoso_orchestration.py (15.3s)
+
+FLEET: 52 pass / 30 failing / 4 skip of 86 — /Users/farricecain/Google Antigravity/.agent/health/verify-fleet.json

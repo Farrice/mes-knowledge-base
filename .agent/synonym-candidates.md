@@ -27,3 +27,8 @@ generalizes (vs. being a one-off), and hand-adds it to `SYNONYMS` if so.
 ## 2026-07-17
 
 - `extract-forge` -> `jenny-hoyos-shorts` (manual load, 2026-07-16T11:24:56.930175)
+
+## 2026-07-19
+
+- `extract-forge` -> `creative-campaign-strategy` (manual load, 2026-07-19T00:26:44.944982)
+- `extract-forge` -> `creative-campaign-strategy` (manual load, 2026-07-19T00:26:47.393078)
