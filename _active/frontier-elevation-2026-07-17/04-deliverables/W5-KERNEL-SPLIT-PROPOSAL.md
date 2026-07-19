@@ -51,3 +51,13 @@ overlay compose into a working build (accept test: scratch overlay boots on Code
 
 Nod = "approved" (or flip any of the 3) → next session scaffolds `distro/` +
 constitution-core growth + platform_compiler v2 pilot on AGENTS.md per PLAN.md.
+
+## AMENDMENT (Farrice, 2026-07-18) — the 90%-done handoff via Intake Interview
+Judgment call #3 refined, not flipped: clients never receive Farrice's extracted experts,
+but the overlay must not FEEL empty. The client overlay template gains a **Foundry Intake
+flow** — a structured interview (built on the existing /go + geoff-woods thought-partner +
+avatar-machine Phase-0 machinery, one question at a time) that grills the new owner for
+the missing 10%: who they are, their voice, their clients, their domain, their watch-list
+of source experts. The system then builds their personal layer FROM the answers — kernel
++ interview = a system that arrives 90% done and finishes itself specifically for them.
+This is the install story W5 scaffolds next session.
