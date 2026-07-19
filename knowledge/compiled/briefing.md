@@ -1,20 +1,20 @@
 # Knowledge Briefing
-*Generated: 2026-07-18 | 667 sources | 2,695,600 words*
+*Generated: 2026-07-18 | 668 sources | 2,699,318 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 4,615 words — `knowledge/index.md`
-- **log** (general) — 12,737 words — `knowledge/log.md`
+- **index** (content) — 4,621 words — `knowledge/index.md`
+- **log** (general) — 12,816 words — `knowledge/log.md`
+- **2026-07-18-founding-brief** (strategy [april-dunford]) — 3,633 words — `research_outputs/market-pulse/2026-07-18-founding-brief.md`
 - **extraction-report** (content) — 607 words — `extractions/daniel-priestley-sll-engine/extraction-report.md`
 - **visual-context** (content) — 390 words — `extractions/daniel-priestley-sll-engine/visual-context.md`
-- **amplification-report** (screenwriting) — 3,114 words — `extractions/geoff-woods/amplification-report.md`
-- **vision** (strategy) — 1,407 words — `extractions/geoff-woods/vision.md`
-- **visual-context** (content) — 27,999 words — `extractions/geoff-woods/visual-context.md`
-- **blind-pass-generated-v2-2026-07-16** (content [lara-acosta]) — 1,408 words — `extractions/jenny-hoyos-shorts/blind-pass-generated-v2-2026-07-16.md`
-- **blind-pass-log** (content) — 276 words — `extractions/jenny-hoyos-shorts/blind-pass-log.md`
 - **amplification-report** (content) — 2,596 words — `extractions/seth-godin-marketing-mind/amplification-report.md`
+- **extraction-report-part2** (content) — 2,107 words — `extractions/seth-godin-marketing-mind/extraction-report-part2.md`
+- **assembly-rubric** (strategy) — 145 words — `knowledge/assembly-rubric.md`
+- **2026-07-16-pressure-test-whether-farrice-cain-should-pivot** (strategy [april-dunford]) — 1,565 words — `knowledge/assembly-sessions/2026-07-16-pressure-test-whether-farrice-cain-should-pivot.md`
+- **2026-07-16-re-convene-with-material-new-evidence-update-the** (strategy [dai-media]) — 1,349 words — `knowledge/assembly-sessions/2026-07-16-re-convene-with-material-new-evidence-update-the.md`
 
 ## Domain Coverage
 
@@ -23,7 +23,7 @@
 | content | 230 | nicolas-cole |
 | copywriting | 97 | luke-iha |
 | general | 83 | nick-saraev |
-| strategy | 67 | april-dunford |
+| strategy | 68 | april-dunford |
 | screenwriting | 50 | connelly |
 | brand | 48 | oren-john |
 | systems | 35 | nick-saraev |

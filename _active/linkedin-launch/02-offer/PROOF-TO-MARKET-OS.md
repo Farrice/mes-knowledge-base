@@ -61,7 +61,7 @@ The brand's real barriers are *communication* barriers. Clarify the message firs
 - Buyer motivations audit (retailer, practitioner, end-user; why do they actually buy?)
 - Positioning stress-test (which angles have proof foundation + differentiation?)
 - **Claims mapping** (FTC/FDA-safe; tiers by evidence strength — general wellness → structure-function → disease-risk reduction)
-- **AI-Search Shadow module** (Ahrefs Brand Radar: how AI engines cite/describe your brand vs. top 3 competitors)
+- **AI-Search Shadow module** (live-query pattern read: how AI engines answer the category's buying questions and describe your brand vs. top 3 competitors — receipt mechanics in the module section below)
 
 **Stage 3: Decide (Days 3–5)**
 - Position selection (lock the thesis with proof foundation)

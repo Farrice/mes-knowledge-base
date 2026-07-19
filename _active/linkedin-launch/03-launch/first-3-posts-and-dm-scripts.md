@@ -21,23 +21,17 @@
 
 I watched a brand spend $40K on creative before they finished writing the sentence the launch was supposed to prove.
 
-The founder knew the story. The CMO had the data. But somewhere between the Extract and the spend, they stopped talking to each other.
+The founder had the story. The CMO had the data. Somewhere between strategy and spend, they stopped talking. The ads went live saying three different things.
 
-So the ads went live saying three different things.
+This plays the same way in supplement launches. The founder carries a category insight (usually unexpressed). The CMO reads it as obvious and removes it from the brief. The creative team builds something that looks differentiated but sounds like everyone already in the space.
 
-I've seen this a hundred times in health/supplement/performance brands. The pattern:
+By the time you see the Facebook spend fail, you've already paid for the failure.
 
-→ Founder has the category insight (doesn't usually articulate it clearly)  
-→ CMO thinks the insight is table-stakes (writes it out of the brief by accident)  
-→ Creative team builds something that *looks* differentiated but sounds like three competitors
+The fix takes 10 days of clarity. Not complexity. Just clarity about what you're actually saying, what proof backs it, and why a skeptical buyer should listen to you instead of the three other options in their cart.
 
-By the time the Facebook spend is wrong, you've already paid for the wrongness.
+Fix your message first. Then scale through creative, retail, media.
 
-The fix doesn't take long. It takes 10 days of clarity: what are you actually saying, what's your proof, why should a skeptical buyer listen *instead of* the alternatives.
-
-Fix the message first. *Then* scale it through creative, retail, and media.
-
-It's the cheapest fix in a launch. It's also the one nobody wants to spend time on.
+It's the cheapest fix in a launch. It's also the one nobody wants to actually do.
 
 ---
 
@@ -54,13 +48,13 @@ Who's building a launch right now? Send me the category and the stage you're in�
 **Template (customize per brand):**
 
 ```
-[Name] — saw you're launching [product/brand pivot/raising] soon. Congrats on the [specific detail].
+[Name] — saw you're launching [product/brand pivot/raising] soon. That's [specific detail] is a good move.
 
-Most brands at this stage are still settling positioning while the creative brief is already being built. I usually screenshot that gap for founders before it becomes a $40K problem.
+Most brands at this stage have the positioning half-settled and the creative brief already half-built. I usually screenshot that gap for founders before it costs them $40K in wrong spend.
 
-I'm not a copywriter (you have those). I clear up what the message actually is before the creative scales it.
+I'm not a copywriter. You have those. I'm the person who clears up what your message actually is before the creative tries to scale it.
 
-If that's top-of-mind right now, 10 days and a Blueprint. Otherwise, good luck with the launch.
+If positioning clarity is something you want before launch, I can work through a 10-day Blueprint with you. Otherwise, good luck.
 
 — Farrice
 ```
@@ -87,23 +81,21 @@ If that's top-of-mind right now, 10 days and a Blueprint. Otherwise, good luck w
 
 I lined up nine supplement homepages last week and spent 10 minutes trying to tell you which brand was which.
 
-I couldn't. Neither could ChatGPT when I asked it to recommend one.
+I couldn't do it. Neither could ChatGPT when I asked it to pick one for me.
 
 "Science-backed." "Clinically dosed." "Third-party tested." "Formulated for performance."
 
-These words used to be proof. Now they're wallpaper.
+Used to be those words were proof. Now they're just noise on a page.
 
-Somewhere in the last four years, every brand in the supplement space decided that differentiation meant slightly better production quality and exactly the same language everyone else uses.
+Somewhere in the last four years, every supplement brand decided that differentiation meant slightly better manufacturing and exactly the same claim language as everyone else. This is what the category chose.
 
-The buyer feels it. She knows your product is real. She *also* knows that three competitors make a nearly identical product with nearly identical claims.
+The buyer knows your product works. She also knows that three competitors make something almost identical and say almost the exact same thing about it.
 
-So the decider isn't "does this work?" (she knows it works). The decider becomes price + distribution + a name she's seen before.
+So the real decision isn't "does this work?" She already knows it works. The decision becomes price, distribution, and which name she's seen before.
 
-This is the moat that isn't a moat.
+You can't build a moat on better claims. You build it on language that lets a buyer hear why your brand is the only logical choice for what she actually cares about.
 
-The win isn't better claims or more evidence. The win is language that lets a buyer *hear* why your brand is the only logical choice for what they actually care about.
-
-Most categories still have uncontested language waiting to be claimed.
+Most categories still have uncontested language sitting there. Waiting for someone to claim it.
 
 ---
 
@@ -120,17 +112,15 @@ What's a category right now where *every* brand sounds identical to you? Drop it
 **Template (customize per brand):**
 
 ```
-[Name] — quick thought on [specific category they're in].
+[Name] — I scrolled your site and then [competitor A] and then [competitor B]. 
 
-I scrolled your site, then [competitor A], then [competitor B]. For someone who doesn't know the difference between you three, I'd pick based on price and who I'd heard of first.
+Here's what I see: if I didn't know the space, I'd pick between you three based on price and which logo I'd seen before. Your product story is different. The language you're using to sell it sounds exactly like the others.
 
-Your product story is different. Your language sounds the same as the others.
+That gap between what you actually do and how you're saying it—that's where the sale dies.
 
-That gap is where the sale dies.
+Are you positioning for [specific buyer type: retailer / practitioner / end-user / fundraise]? I can show you what language actually works in that seat. 10 days. One Blueprint.
 
-If you're positioning for [specific buyer type: retailer / practitioner / end-user / fundraise], I can show you what that language looks like. 10 days, one Blueprint.
-
-If not, no lift. Good luck scaling.
+If that's useful, let's talk. If not, no hard feelings.
 
 — Farrice
 ```
@@ -156,27 +146,25 @@ If not, no lift. Good luck scaling.
 
 **[POST TEXT]**
 
-I asked ChatGPT to recommend a recovery supplement for my friend's exact use case.
+I asked ChatGPT to recommend a recovery supplement that matched my friend's specific use case.
 
-It named three competitors and not the brand I was testing.
+It named three competitors. Not the brand I was testing.
 
-I asked *why* it recommended those three.
+When I asked why, the model told me it pulled from brand websites, supplement databases, third-party reviews, Reddit discussions, and one thing I didn't expect: the brand's own label copy.
 
-The model pulled from the brand websites (scraped), supplement databases, third-party review sites, Reddit discussions, and something I didn't expect: the brand's own label copy.
+The machine read the label before it read the marketing story.
 
-It read the label before it read the pitch.
+Most supplement brands write their label copy to pass human skepticism. Clinical. Safe. Distant. That's the instinct.
 
-Here's the thing: most supplement brands optimize their label copy for *human* skepticism. Keeps it clinical. Keeps it safe. Keeps it distant.
+An AI language model doesn't read distance the way a human does. It reads clarity and pattern.
 
-AI language models don't read distance. They read clarity + pattern.
+So when it sees "supports healthy aging" on one label and "I've watched what actually changes when someone prioritizes sleep" on another, it cites the second one. It picks the voice with specificity.
 
-So when a model sees "supports healthy aging" on one label and "I've watched what actually changes when someone prioritizes sleep" on another—it cites the second one.
+Before a person ever sees your brand, an AI has already described your positioning to them.
 
-Before a human ever sees your brand, an AI has already described it to them.
+43% of e-commerce traffic now lands on product pages with intent already formed by an AI search result. Most brands have no idea what that AI said about them or why.
 
-43% of e-commerce traffic now arrives on product pages with intent already formed by an AI search. Most brands have no idea what that AI said about them.
-
-That's the invisible messaging problem that kills launches nobody predicted would fail.
+That's the invisible messaging problem that kills launches nobody saw coming.
 
 ---
 
@@ -193,15 +181,15 @@ Want to know what ChatGPT currently says about your brand vs. your top three com
 **Template (customize per brand):**
 
 ```
-[Name] — I ran ChatGPT's recommendation for [specific use case your brand targets] and counted mentions.
+[Name] — I ran ChatGPT's recommendation for [specific use case your brand targets] and logged the mentions.
 
-You showed up once. [Competitor A] showed up three times. [Competitor B] got the full recommendation.
+You showed up once. [Competitor A] three times. [Competitor B] got the full recommendation.
 
-Not because their product is better. Because the model pulled different language off their label and site copy.
+Not because their product is better. The model read different language off their label and site copy than it read off yours.
 
-I screenshotted the full comparison—happy to send it over if AI-search positioning is something you're thinking about before the [next milestone: launch / launch / fundraise].
+I took screenshots of the full comparison. If AI-search positioning is something you want to lock in before your [next milestone: launch / fundraise / retail], I can send that over and we can talk about it.
 
-Otherwise, no lift.
+If not, that's fine. Good luck.
 
 — Farrice
 ```

@@ -8020,6 +8020,57 @@
             "ensemble": true,
             "compound_pairing": "theme-factory + product-design-build + internal-comms",
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_025942_8ec1",
+            "timestamp": "2026-07-19T02:59:42.657404+00:00",
+            "session_id": "",
+            "request_summary": "PROOF-TO-MARKET-OS.md — Path A canonical offer fusion (messaging leads, AI-Search Shadow module, claim-safe wedge, 25-day clock, teardown rule)",
+            "intent_score": 9,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "april-dunford"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "go",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_025959_da10",
+            "timestamp": "2026-07-19T02:59:59.893665+00:00",
+            "session_id": "",
+            "request_summary": "Founding Market Intelligence Brief (market-pulse run #0) — motion map, tension board, white-space, 5 pillars, 24 angles, 28 Dream 100 seeds",
+            "intent_score": 9,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "deep-research"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "market-pulse",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_030004_15f5",
+            "timestamp": "2026-07-19T03:00:04.707853+00:00",
+            "session_id": "",
+            "request_summary": "Proof-to-Market contact kit — profile package, Stress Test lead magnet, Dream 100 v1 (32 targets), first 3 posts + 3 DM scripts",
+            "intent_score": 9,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "lara-acosta"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "go",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -8566,7 +8617,7 @@
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 443,
+            "total_routings": 446,
             "total_feedback": 60,
             "positive_count": 0,
             "negative_count": 0,
@@ -8575,12 +8626,12 @@
                 "System": 63,
                 "Client Work": 14,
                 "Analysis": 6,
-                "Strategy": 23,
+                "Strategy": 24,
                 "Creative": 8,
                 "Legal Consult Prep": 1,
-                "Content": 44,
+                "Content": 45,
                 "Extraction": 20,
-                "Research": 10,
+                "Research": 11,
                 "stefan-georgi-dopamine-copy": 7,
                 "supercomputer": 18,
                 "design-md": 13,
@@ -8659,7 +8710,7 @@
                 "jen-santulan-listing-content": 32,
                 "jen-santulan": 3,
                 "health-performance-geo-client-acquisition-engine": 9,
-                "deep-research": 7,
+                "deep-research": 8,
                 "nate-b-jones-orchestration-intelligence": 4,
                 "source-command-mission": 1,
                 "creative-direction": 7,
@@ -8848,10 +8899,12 @@
                 "alex-hormozi": 3,
                 "alex-m-smith-natural-strategy": 1,
                 "tom-noske-personal-brand": 1,
-                "tyler-denk-audience-monetization": 1
+                "tyler-denk-audience-monetization": 1,
+                "april-dunford": 1,
+                "lara-acosta": 1
             },
             "tier_counts": {
-                "0": 443,
+                "0": 446,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -8860,9 +8913,9 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 254,
-                "finalize-auto": 189
+                "finalize-auto": 192
             },
-            "ensemble_count": 333,
+            "ensemble_count": 334,
             "auto_miss_count": 49,
             "auto_match_count": 11
         }
