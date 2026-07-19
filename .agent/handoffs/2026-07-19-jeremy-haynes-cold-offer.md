@@ -1,3 +1,11 @@
+---
+thread: jeremy-haynes-cold-offer
+status: active
+resume_hint: Jeremy Haynes Cold Offer — Skill
+branch: main
+pin: true
+---
+
 # Jeremy Haynes Cold Offer — Skill
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.

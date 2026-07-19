@@ -5,7 +5,7 @@ domain: AI leverage / strategic thinking / operator-AI collaboration
 when_to_use: Solving a high-stakes problem with AI as a partner instead of a tool, building CRIT prompts, prioritizing via 20/80, iterating drafts past "the bad answer", pre-testing deliverables against simulated stakeholders, building an AI board, converting tacit skills into agent-ready markdown, guarding against cognitive decay, co-creation session design
 version: "1.1"
 format: completion-engine
-workflows: 16
+workflows: 17
 tiers: 4 + operator layer
 source: BigDeal by Codie Sanchez interview 2026-07-15 (12,732-word transcript + 100-frame visual context); forge-tier extraction 2026-07-16
 ---
@@ -16,7 +16,7 @@ Geoff Woods is the founder of AI Leadership and author of the #1 bestseller *The
 
 ## Available Workflows
 
-Slash commands: `/gw-crit` `/gw-thought-partner` `/gw-20-percent` `/gw-feedback-loop` `/gw-ai-board` `/gw-persona-flip` `/gw-simulate-room` `/gw-skill-to-agent` `/gw-cognitive-guard` `/gw-jam-fusion` `/gw-forge-brief` `/gw-voice-persona` `/gw-thinking-leverage` `/gw-content-pretest` `/gw-challenger` `/gw-custom-instructions` (wrappers in `.agent/workflows/`, numbered to match the tables below).
+Slash commands: `/gw-crit` `/gw-thought-partner` `/gw-20-percent` `/gw-feedback-loop` `/gw-ai-board` `/gw-persona-flip` `/gw-simulate-room` `/gw-skill-to-agent` `/gw-cognitive-guard` `/gw-jam-fusion` `/gw-forge-brief` `/gw-voice-persona` `/gw-thinking-leverage` `/gw-content-pretest` `/gw-challenger` `/gw-custom-instructions` `/buyer-council` (wrappers in `.agent/workflows/`, numbered to match the tables below).
 
 ### Tier 1 — Foundation (Core Methodology)
 
@@ -47,6 +47,7 @@ Slash commands: `/gw-crit` `/gw-thought-partner` `/gw-20-percent` `/gw-feedback-
 | `workflows/11-forge-brief.md` | Turn raw intent into a forge-ready build brief | Dominoes-gated CRIT interview → markdown build brief + forge-os lane recommendation |
 | `workflows/12-voice-persona.md` | Build a writing persona from samples | His exact recipe (20-50 samples → interview → markdown voice file), reconciled with voice-os for client voices |
 | `workflows/14-content-pretest.md` | Pre-test a draft against a deep-ICP profile | simulate-room engine with an ICP loaded as the reader → per-section reactions, the exact drop-point line, identity triggers → calibration loop vs. real engagement |
+| `workflows/17-buyer-council.md` | Convene a simulated buyer panel against any artifact | Front door `/buyer-council`: standing-roster reuse (`councils/buyers/`) → per-element KILL/REVISE/SHIP verdicts, dissent preserved, mandatory NO-FIT + economic-gatekeeper seats, Predicted Response Map, `calibration.jsonl` reality loop |
 
 ### Tier 4 — Leadership (The AI-Driven Leader layer)
 
@@ -71,6 +72,7 @@ Slash commands: `/gw-crit` `/gw-thought-partner` `/gw-20-percent` `/gw-feedback-
 | `/cos` | 20% targeting feeds the daily brief / weekly board |
 | `/wargame-brief` · `/convene` | The simulated room should escalate to a full council or wargame |
 | `icp-deep-canvasser` | Pre-test content against the real reader: load a deep-ICP profile into simulate-room as the stakeholder (`/gw-content-pretest`) |
+| `/haynes-handshake-geoff-stakeholder` | Buyer Council's cold-offer specialization — objection-inventory intake + COMPOSE/LAYER revision loop for a Haynes offer stack specifically |
 
 ## Quick Reference
 

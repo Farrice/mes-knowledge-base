@@ -2503,8 +2503,36 @@
         "gaming_flag": false
       },
       "notes": "v2.0 Path A canonical, replaces CANONICAL-OFFER-BRIEF | Prose classifier FLAGGED (AI 10/10; 42 em-dashes, aphoristic endings, structural emoji) \u2014 Expert Standard capped at 6 per Wave 1 rule; strategic depth is present but prose surface tells prevent >6 | Factual Grounding: 7 | Verification: PARTIAL \u2014 Ahrefs plan-gating verified 2026-07-18; Dream 100 occasions labeled 'verify on LinkedIn before outreach'; Pillar 5 stats hedged with ~ but need inline sourcing before external use | Anchors cited: yes (Intent 9, Adversarial 9); Expert 6 = Anchor 6 (competent with tells) | Anchor: Anchor 9 \u2014 Intent: user can complete workflow with zero clarification (self-executing canonical OS); Adversarial: trade-offs surfaced rather than hidden, 5+ objections preempted (messaging-vs-visibility, legal lag, claim-safe wedge, diagnostic-vs-proof, 25-day math, defamation risk on named-brand teardowns)"
+    },
+    {
+      "trace_id": "20260719_102530",
+      "timestamp": "2026-07-19T10:25:30.686193",
+      "schema_version": "v3",
+      "component": "oren-dara-ad-psychology",
+      "expert": "oren-dara",
+      "workflow": "adpsy-taboo-ad",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 8.0,
+        "expert_standard": 5.0,
+        "adversarial_resilience": 7.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Expert capped 6 per prose_classifier flag (format-level: parallel card blocks + quoted banned example; hooks individually clean); final drafts owe writers-room pass | Factual Grounding: 7 (receipt-check + practitioner gates written into cards) | Verification: PARTIAL (2 receipts owed before ship) | Anchor: Could the user complete their workflow with this output and zero clarification"
     }
   ],
-  "total_cases": 88,
-  "last_updated": "2026-07-18T20:06:32.652213"
+  "total_cases": 89,
+  "last_updated": "2026-07-19T10:25:30.687153"
 }

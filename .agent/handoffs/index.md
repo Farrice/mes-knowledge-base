@@ -2,6 +2,10 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-19** [adpsy-taboo-ad/active] [3 LinkedIn founder-mirror concepts v2 (P2M pillars 1/3/4) — retry after prose fail: restructured cards, varied shapes, CLEAN 0/10](2026-07-19-adpsy-taboo-ad.md) — 3 LinkedIn founder-mirror concepts v2 (P2M pillars 1/3/4) — retry after prose fail: restructured cards, varied shapes, CLEAN 0/10
+- **2026-07-19** [adpsy-strategy-sprint/active] [Ad Psychology Audit module one-pager — Proof-to-Market Stage-2 module, six-tactic diagnostic spine, walkthrough/sprint wiring, teardown+claim-safe boundaries](2026-07-19-adpsy-strategy-sprint.md) — Ad Psychology Audit module one-pager — Proof-to-Market Stage-2 module, six-tactic diagnostic spine, walkthrough/sprint wiring, teardown+claim-safe boundaries
+- **2026-07-19** [adpsy-tactic-select/active] [MyBPM Sunday/Monday tee — full adpsy→dara chain: tactic brief, taboo/mirroring build with veto log, 3-layer static spec (KEEP verdict), shoot-ready yapper script; render gate-blocked and surfaced](2026-07-19-adpsy-tactic-select.md) — MyBPM Sunday/Monday tee — full adpsy→dara chain: tactic brief, taboo/mirroring build with veto log, 3-layer static spec (KEEP verdict), shoot-ready yapper script; render gate-blocked and surfaced
+- **2026-07-19** [jeremy-haynes-cold-offer/active] [Jeremy Haynes Cold Offer — Skill](2026-07-19-jeremy-haynes-cold-offer.md) — Jeremy Haynes Cold Offer — Skill
 - **2026-07-19** [oren-dara-ad-psychology/active] [Oren Dara Ad Psychology — Amplification Report](2026-07-19-oren-dara-ad-psychology.md) — Oren Dara Ad Psychology — Amplification Report
 - **2026-07-19** [david-baldacci-books-that-sell/active] [David Baldacci Books That Sell — Blind Pass Sample Big Pop](2026-07-19-david-baldacci-books-that-sell.md) — David Baldacci Books That Sell — Blind Pass Sample Big Pop
 - **2026-07-19** [research-outputs/active] [Research Outputs — Top 10 Digital Products Underserved Markets](2026-07-19-research-outputs.md) — Research Outputs — Top 10 Digital Products Underserved Markets

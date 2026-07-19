@@ -12,7 +12,7 @@
                 "luke-iha-copy-blocks": 23,
                 "nate-b-jones-ai-taste-mastery": 1,
                 "tyler-denk-audience-monetization": 1,
-                "lara-acosta-linkedin-mastery": 1,
+                "lara-acosta-linkedin-mastery": 2,
                 "extract-mastery": 3,
                 "Research": 12,
                 "luke-iha-vsl-leads": 4,
@@ -32,13 +32,13 @@
                 "kallaway-social-commerce": 1,
                 "theme-factory": 1,
                 "youtube-video-context-analysis": 1,
-                "luke-iha-avatar-machine": 12,
+                "luke-iha-avatar-machine": 13,
                 "david-placek-naming": 5,
                 "docx": 1,
                 "sharran-srivatsaa-scaling": 2,
                 "chase-hughes-context-engineering": 1,
                 "dai-media-consumer-posture": 2,
-                "Content": 46,
+                "Content": 49,
                 "writing-depth-layer": 3,
                 "Analysis": 7,
                 "seena-rez-tiktok-commerce": 2,
@@ -47,7 +47,7 @@
                 "darrel-wilson-ai-affiliate": 1,
                 "stefan-georgi-dopamine-copy": 8,
                 "marketing-studio-director": 1,
-                "System": 65,
+                "System": 66,
                 "brand-operating-system": 11,
                 "dara-denney-meta-ads": 5,
                 "internal-comms": 1,
@@ -75,17 +75,18 @@
                 "nate-b-jones-intent-engineering": 1,
                 "omar-eltakrori": 1,
                 "Extraction": 25,
-                "Strategy": 28,
+                "Strategy": 29,
                 "donald-miller-storybrand": 1,
                 "strength-conditioning-os": 7,
                 "simon-intellectual-library-os": 1,
                 "creative-campaign-strategy": 2,
                 "jeremy-haynes-cold-offer": 1,
-                "doc-coauthoring": 7
+                "doc-coauthoring": 7,
+                "diandra-escobar-linkedin-growth": 2
             },
-            "total_routings": 486,
+            "total_routings": 495,
             "tier_counts": {
-                "0": 486,
+                "0": 495,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -95,8 +96,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 280,
-                "finalize-auto": 206
+                "hybrid": 284,
+                "finalize-auto": 211
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -119,10 +120,10 @@
                 "gpt-image-2-director": 13,
                 "seth-godin-brand": 2,
                 "collective-genius-council": 1,
-                "kallaway-social-commerce": 1,
+                "kallaway-social-commerce": 2,
                 "david-placek-naming": 8,
                 "mark-kashef-ai-councils": 1,
-                "writing-depth-layer": 6,
+                "writing-depth-layer": 7,
                 "icp-deep-canvasser": 1,
                 "liam-mley-ai-brain-builder": 1,
                 "satori-graphics": 4,
@@ -132,7 +133,7 @@
                 "internal-comms": 6,
                 "forge-os": 8,
                 "kallaway-word-mastery": 2,
-                "andrew-stanton-audience-engineering": 2,
+                "andrew-stanton-audience-engineering": 3,
                 "claim-safe-health-marketing": 5,
                 "adam-enfroy-affiliate-marketing": 1,
                 "steven-kotler-flow-performance": 1,
@@ -164,7 +165,7 @@
                 "andrew-dun-vibe-consulting": 1,
                 "luke-iha-cross-domain": 1,
                 "theme-factory": 8,
-                "luke-iha-avatar-machine": 13,
+                "luke-iha-avatar-machine": 14,
                 "docx": 4,
                 "tommy-clark": 2,
                 "deliberate": 27,
@@ -263,7 +264,7 @@
                 "luke-iha-copy-blocks": 31,
                 "new-media-kingmaker": 1,
                 "lamott-craft": 2,
-                "lara-acosta-linkedin-mastery": 1,
+                "lara-acosta-linkedin-mastery": 2,
                 "extract-mastery": 4,
                 "sean-dollwet-kdp-publishing": 6,
                 "dara-denney": 2,
@@ -274,7 +275,7 @@
                 "knowledge-architecture-studio": 1,
                 "mark-kashef": 1,
                 "chief-of-staff-os": 13,
-                "oren-brand-archetypes": 1,
+                "oren-brand-archetypes": 2,
                 "master-copywriter": 3,
                 "henry-shukman-contemplative-writing": 4,
                 "youtube-video-context-analysis": 2,
@@ -283,7 +284,7 @@
                 "story-compass": 3,
                 "darrel-wilson-ai-affiliate": 2,
                 "marketing-studio-director": 12,
-                "dara-denney-meta-ads": 27,
+                "dara-denney-meta-ads": 28,
                 "enrico-incarnati-instagram-realestate": 1,
                 "tom-noske-personal-brand": 1,
                 "brad-bonanno-explainer-architecture": 2,
@@ -309,7 +310,7 @@
                 "dan-bolton-coaching-offers": 1,
                 "alex-suzuki-digital-product-revenue-os": 3,
                 "creative-campaign-strategy": 3,
-                "diandra-escobar-linkedin-growth": 1,
+                "diandra-escobar-linkedin-growth": 3,
                 "matthew-volkwyn-copywriting": 1,
                 "tess-barclay-social-content": 1,
                 "kallaway-ai-content-engine": 7,
@@ -317,12 +318,16 @@
                 "ross-minchev-digital-products": 1,
                 "samuel-thompson": 1,
                 "david-baldacci": 2,
-                "oren-dara": 1
+                "oren-dara": 5,
+                "nba-betting-edge": 1,
+                "mark-kashef-agent-orchestration": 1,
+                "tier3-stacking-multi": 1,
+                "futurepedia-prompt-engineering": 1
             },
-            "total_feedback": 67,
+            "total_feedback": 68,
             "negative_count": 0,
-            "ensemble_count": 362,
-            "auto_miss_count": 53,
+            "ensemble_count": 367,
+            "auto_miss_count": 54,
             "positive_count": 0
         }
     },
@@ -920,6 +925,15 @@
             "rating": "auto_miss",
             "correction": "david-baldacci-books-that-sell",
             "notes": "expert skill 'david-baldacci-books-that-sell' loaded not matching suggestion ['doc-coauthoring', 'corey-mcclain-persona-engineering', 'kallaway-ai-content-engine']"
+        },
+        {
+            "feedback_id": "fb_20260719_165145_fa2b",
+            "timestamp": "2026-07-19T16:51:45.642082+00:00",
+            "session_id": "4e14071c-f186-46e7-a2f7-fb57a64d38ae",
+            "routing_id": "rt_20260719_152030_1a85",
+            "rating": "auto_miss",
+            "correction": "april-dunford-positioning",
+            "notes": "expert skill 'april-dunford-positioning' loaded not matching suggestion ['diandra-escobar-linkedin-growth', 'nba-betting-edge', 'mark-kashef-agent-orchestration']"
         }
     ],
     "routing_decisions": [
@@ -9740,6 +9754,167 @@
             "workflow_used": "supercomputer",
             "ensemble": true,
             "compound_pairing": "supercomputer + theme-factory + henry-shukman-contemplative-writing",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_152030_1a85",
+            "timestamp": "2026-07-19T15:20:30.743555+00:00",
+            "session_id": "4e14071c-f186-46e7-a2f7-fb57a64d38ae",
+            "request_summary": "Or does our orchestration layer take care of that blending and mixing and deploying of skills and props?",
+            "intent_score": 0,
+            "domain_detected": "diandra-escobar-linkedin-growth",
+            "experts_deployed": [
+                "diandra-escobar-linkedin-growth",
+                "nba-betting-edge",
+                "mark-kashef-agent-orchestration"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "diandra-escobar-linkedin-growth",
+            "ensemble": true,
+            "compound_pairing": "diandra-escobar-linkedin-growth + nba-betting-edge + mark-kashef-agent-orchestration",
+            "feedback": "fb_20260719_165145_fa2b"
+        },
+        {
+            "routing_id": "rt_20260719_155944_5301",
+            "timestamp": "2026-07-19T15:59:44.074763+00:00",
+            "session_id": "16c44131-9fe6-48f6-81ed-6f214aec701d",
+            "request_summary": "did we build workflows and prompts and things like that that leveraged expertise and nuance and slight depth that they spoke of that we can deploy to create content, media, social media, and formats, ",
+            "intent_score": 0,
+            "domain_detected": "diandra-escobar-linkedin-growth",
+            "experts_deployed": [
+                "diandra-escobar-linkedin-growth",
+                "kallaway-social-commerce",
+                "andrew-stanton-audience-engineering"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "diandra-escobar-linkedin-growth",
+            "ensemble": true,
+            "compound_pairing": "diandra-escobar-linkedin-growth + kallaway-social-commerce + andrew-stanton-audience-engineering",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_170330_e8b4",
+            "timestamp": "2026-07-19T17:03:30.460033+00:00",
+            "session_id": "",
+            "request_summary": "Crossing Wave 2: five cross-skill blends forged + PoC-proven (godin-handshake-dunford, dunford-handshake-haynes, haynes-handshake-geoff-stakeholder, kallaway-x-jenny-hoyos, meg-heckman-handshake-proof",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "tier3-stacking-multi"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "crossing-wave-2",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_171721_4099",
+            "timestamp": "2026-07-19T17:17:21.024499+00:00",
+            "session_id": "16c44131-9fe6-48f6-81ed-6f214aec701d",
+            "request_summary": "Next Moves\n\nDeepen: Run the full chain end-to-end on MyBPM: /adpsy-tactic-select with real customer voice → top tactic builder → /dara-static-engine → /dara-static-production — deliver one rendered, g",
+            "intent_score": 0,
+            "domain_detected": "lara-acosta-linkedin-mastery",
+            "experts_deployed": [
+                "lara-acosta-linkedin-mastery",
+                "dara-denney-meta-ads",
+                "oren-brand-archetypes"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "lara-acosta-linkedin-mastery",
+            "ensemble": true,
+            "compound_pairing": "lara-acosta-linkedin-mastery + dara-denney-meta-ads + oren-brand-archetypes",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_172318_6f48",
+            "timestamp": "2026-07-19T17:23:18.563033+00:00",
+            "session_id": "4e14071c-f186-46e7-a2f7-fb57a64d38ae",
+            "request_summary": "can you please ensure that the bio-consoling concept that you're doing right now is actually accurate? I feel like there was a different marketing against the grain extraction I did. I just don't know",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-avatar-machine",
+            "experts_deployed": [
+                "luke-iha-avatar-machine",
+                "writing-depth-layer",
+                "futurepedia-prompt-engineering"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-avatar-machine",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-avatar-machine + writing-depth-layer + futurepedia-prompt-engineering",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_172528_f140",
+            "timestamp": "2026-07-19T17:25:28.700693+00:00",
+            "session_id": "",
+            "request_summary": "MyBPM Sunday/Monday tee — full adpsy→dara chain: tactic brief, taboo/mirroring build with veto log, 3-layer static spec (KEEP verdict), shoot-ready yapper script; render gate-blocked and surfaced",
+            "intent_score": 8,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "oren-dara"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "adpsy-tactic-select",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_172530_1062",
+            "timestamp": "2026-07-19T17:25:30.677681+00:00",
+            "session_id": "",
+            "request_summary": "3 LinkedIn founder-mirror concepts (P2M pillars 1/3/4) — inner-monologue register, veto logs, practitioner gates, sequencing",
+            "intent_score": 8,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "oren-dara"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "adpsy-taboo-ad",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_172531_adc4",
+            "timestamp": "2026-07-19T17:25:31.499640+00:00",
+            "session_id": "",
+            "request_summary": "Ad Psychology Audit module one-pager — Proof-to-Market Stage-2 module, six-tactic diagnostic spine, walkthrough/sprint wiring, teardown+claim-safe boundaries",
+            "intent_score": 8,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "oren-dara"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "adpsy-strategy-sprint",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_172623_fc7e",
+            "timestamp": "2026-07-19T17:26:23.428971+00:00",
+            "session_id": "",
+            "request_summary": "3 LinkedIn founder-mirror concepts v2 (P2M pillars 1/3/4) — retry after prose fail: restructured cards, varied shapes, CLEAN 0/10",
+            "intent_score": 8,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "oren-dara"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "adpsy-taboo-ad",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

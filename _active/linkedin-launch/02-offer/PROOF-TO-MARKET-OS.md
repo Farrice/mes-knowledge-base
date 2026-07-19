@@ -1,22 +1,20 @@
 ---
 name: Proof-to-Market Sprint — Operating System
-version: 2.0 (fused, Path A canonical)
-date: 2026-07-18
-ratified_by: Farrice Cain (2026-07-18, post-grilling, replaces CANONICAL-OFFER-BRIEF)
-note: "Inversion: messaging leads. AEO/GEO is diagnostic module + hook, never co-headline or standalone. Claim-safe wedge survives embedded. Same market as 07-01 council ruling; beachhead + founder-band budgets."
+version: 2.1 (founder-primary pole fix + temperature-staged ladder)
+date: 2026-07-19
+ratified_by: Farrice Cain (2026-07-19 restage; 2026-07-18 fused base, replaces CANONICAL-OFFER-BRIEF)
+note: "v2.1 (2026-07-19): PRIMARY buyer = personal-yes founder of sub-$15M brand; Head of Brand = secondary authority/nurture audience (not cold-DM'd). Five pillars realigned to founder psychology. Cold-tier restage: $250-500 Stress-Test Walkthrough is now the OFFICIAL cold tier (LIVE, ratified 2026-07-19), $2,500 sprint = warm tier, Standard/Mature = hot/expansion. v2.0 base holds: messaging leads; AEO/GEO is module + hook, never lead; claim-safe is the spine."
 ---
 
 # PROOF-TO-MARKET SPRINT — The Offer
 
 ## For Whom
 
-**Primary buyer:** Head of Brand / VP Product Marketing at a funded supplement, performance nutrition, or sports-science company preparing a launch, repositioning, retail expansion, or category push.
+**Primary buyer (the personal-yes founder):** The founder of a sub-$15M supplement, performance nutrition, or sports-science brand — profitable or imminently fundable, founder-authorized spend, no committee. $2,500 is a check they write themselves this week. They have a dated occasion in the next 60–90 days (raise, launch, retail push, repositioning) and they're selling on positioning language they wrote from instinct or borrowed from a competitor. The psychology is speed, personal conviction, and proof-hunger: "I need this sentence to land before my raise closes, not to protect my job." The founder feels the launch clock personally, which is exactly the pressure a bounded sprint answers.
 
-**Budget band:** Founder-band ($2–5K/mo; founder-led or bootstrapped with external check writers; not agency-scale procurement).
+**Secondary buyer (authority / retargeting audience):** Head of Brand / VP Product Marketing at a larger funded brand (Create Wellness, GNC, Noom-scale) — the assignment test that sorts them: a board or committee reviews a $2,500 line item before they can say yes. They carry compliance and career risk and buy on a committee cycle. **They are nurtured, not cold-DM'd** — they orbit the pillars, warm over weeks, and enter at Standard/Mature pricing later. The content serves them as the ambient authority layer; the outbound motion does not chase them.
 
-**Buyer mental state:** Science-led, wants differentiation that sticks, knows the launch can fail upstream of media spend.
-
-**Secondary buyers:** Product Marketing lead, established founder with domain expertise but no marketing formalization, CMO at a growth-stage health-tech company.
+**Budget band:** founder-authorized $2,500–5,000 (personal check writer, not agency-scale procurement). **Mental state:** science-led, moving fast against a dated occasion, would rather settle the message cheaply now than pay to be wrong later.
 
 ---
 
@@ -49,6 +47,8 @@ The brand's real barriers are *communication* barriers. Clarify the message firs
 ---
 
 ## The Offer Stack
+
+*(This 5-stage sprint is the **warm-tier core**, $2,500. The **cold tier** is the $250–500 Stress-Test Walkthrough that feeds it — ladder in "Pricing & Terms.")*
 
 ### Core: 10-Business-Day Sprint with 5-Stage Process
 
@@ -86,15 +86,19 @@ The brand's real barriers are *communication* barriers. Clarify the message firs
 
 ---
 
-## Pricing & Terms
+## Pricing & Terms — The Temperature-Staged Ladder
 
-| Tier | Price | Occasion | Delivery | Revision |
-|------|-------|----------|----------|----------|
-| **Founding pilot** | $2,500 | Limited capacity, proof-of-concept | 10 business days | 1 round (30 days) |
-| **Standard** | $3,500–4,000 | Recurring availability | 10 business days | 1 round (30 days) |
-| **Mature** | $4,500–5,000 | After 2–3 case studies, elevated scope | 10 business days | 1 round (30 days) |
+The ladder is staged by audience temperature (Haynes), and each rung's promise maps to a positioning component (Dunford). **A cold stranger never sees the $2,500 sprint in a first DM.** Cold traffic gets the low-friction paid diagnostic; the sprint is the warm-tier ask; Standard/Mature are the hot/expansion tiers for buyers who arrive already convinced.
 
-**Capacity:** 1 sprint at a time. 2 sprints per month maximum.
+| Rung | Temperature | Offer | Price | Delivery | The promise (Dunford component it proves) |
+|------|-------------|-------|-------|----------|-------------------------------------------|
+| **Cold** | Stranger, zero prior exposure | **Stress-Test Walkthrough** — 60-min live read of your message using the 12 diagnostic questions | **$250–500** | Live 60-min session + 1-page findings | "See the gap in your own message in an hour" — proves **Competitive Alternatives** (what your instinct/borrowed copy is costing you) at a personal-yes price |
+| **Warm** | Engaged; saw a pillar or booked the walkthrough | **Proof-to-Market Sprint** (Founding pilot) | **$2,500** | 10 business days · 1 round (30 days) | "Settle the sentence before you spend" — proves **Unique Attributes → Value** (dual-fluency positioning that survives a body, an FTC review, and an AI engine) |
+| **Hot / Expansion** | Inbound with a dated occasion, or a returning walkthrough/sprint client | **Sprint — Standard / Mature** | **$3,500–4,000 / $4,500–5,000** | 10 business days · 1 round (30 days) | "Full stack, elevated scope, editions on the table" — anchors **Market Category + Target Segment**; expedited timeline or extra revision available since commitment is already present |
+
+**Temperature logic (Haynes):** cold gets a bounded paid diagnostic, never the priced core offer. Warm gets the core sprint led by the ONE alternatives-derived objection that matches their engagement signal. Hot gets the full stack with editions and anchored pricing. Migration triggers: **cold → warm** = books the Stress-Test Walkthrough or replies to a pillar with a specific claim; **warm → hot** = states a dated occasion unprompted or the walkthrough surfaces a live launch clock.
+
+**Capacity:** 1 sprint at a time, 2 sprints/month max. Walkthroughs run alongside (they are a 60-min read, not a sprint) and double as the warm-up funnel into the sprint.
 
 **Headline (DM/email/profile):**  
 "Know what to say, what to prove, and why buyers should care | 10-day launch messaging sprint for supplement & performance brands | 18 yrs in human performance | DM PROOF"
@@ -103,14 +107,16 @@ The brand's real barriers are *communication* barriers. Clarify the message firs
 
 ## Why It Converts: The Five Content Pillars
 
-Farrice's unfair advantage lands in how he shows up in your market. These five pillars are the recurring narrative framing — they sell the offer, seed the content bank, and build the founder's platform:
+Farrice's unfair advantage lands in how he shows up in your market. These five pillars are the recurring narrative framing — they sell the offer, seed the content bank, and build the founder's platform.
+
+**Who each pillar is aimed at:** the personal-yes founder leads (their money, their clock, their conviction); the Head-of-Brand secondary reads over the founder's shoulder and catches the compliance/career-risk resonance. Where the two diverge, the founder's stakes win the framing.
 
 ### Pillar 1: "The Message Before the Money"
-**Thesis:** Brands fund the launch (creative, media, retail, influencer) before they've settled the one sentence the launch is supposed to prove.
+**Thesis:** Founders fund the launch (creative, retail, influencer, their own runway) before they've settled the one sentence the launch is supposed to prove.
 
-**Why it converts:** It reframes the buyer's biggest budget risk (spending into an unresolved message) as a cheap, bounded fix upstream.
+**Why it converts (founder):** it reframes the founder's biggest personal-money risk — spending their own runway into an unresolved message — as a cheap, bounded fix upstream of the launch clock. For the Head-of-Brand secondary, the same insight reads as budget-defense.
 
-**Authority:** 18 years watching launches burn spend on unclear positioning; industry admission that "founders lose the positioning battle before a single ad goes live"; Meta CPM inflation making wasted spend costlier.
+**Authority:** 18 years watching launches burn spend on unclear positioning; the founder-known truth that "you lose the positioning battle before a single ad goes live"; CPM inflation making a wrong message costlier by the week.
 
 **Angle bank (examples):**
 - "I watched a brand spend forty grand on creative for a message they hadn't finished writing."
@@ -122,7 +128,7 @@ Farrice's unfair advantage lands in how he shows up in your market. These five p
 ### Pillar 2: "Claim-Safe Is a Growth Lever"
 **Thesis:** The words that keep the FTC off your back are the same words that make a skeptical buyer trust you — if you know how to write both at once.
 
-**Why it converts:** The Head of Brand carries compliance risk personally (post-700-company FTC notice). This pillar turns fear into competitive edge.
+**Why it converts (founder):** the founder carries the whole risk — one FTC letter can gut a sub-$15M brand, and it is the first thing an investor asks about in diligence. This pillar turns that exposure into a reason to sell harder, not softer. The Head-of-Brand secondary feels it as personal career-risk relief.
 
 **Authority:** FTC "competent and reliable scientific evidence" standard, $50,120/violation; 18 years translating claim language; the editorial claim-risk read (never legal advice).
 
@@ -136,7 +142,7 @@ Farrice's unfair advantage lands in how he shows up in your market. These five p
 ### Pillar 3: "The Body Doesn't Read Your Deck"
 **Thesis:** The buzzwords in the pitch deck and the things that actually happen in a body are two different languages. Brands that win speak the second one.
 
-**Why it converts:** Unfakeable credibility that cannot be hired from an agency — a strategist who knows what the ingredient does in a real body, not just on a slide.
+**Why it converts (founder):** the founder already knows their product works — they built it because they felt it work. Their frustration is that no writer they've hired can prove it in language. This pillar says: I coached the body your supplement claims to serve, so I can write the proof you can't outsource to a generalist. Unfakeable credibility no agency can hire.
 
 **Authority:** 18 years, 1,000+ transformations, NASM CPT/CES/PES; the practitioner test (doing it → share it).
 
@@ -150,7 +156,7 @@ Farrice's unfair advantage lands in how he shows up in your market. These five p
 ### Pillar 4: "The Sea of Same"
 **Thesis:** When every brand says "clinically dosed" and "science-backed," those words stop being proof and start being camouflage. The buyer stops seeing any of you.
 
-**Why it converts:** The buyer feels the sameness daily (his deck looks like three competitors'). This pillar names the pain and points to specific language as the escape route.
+**Why it converts (founder):** the founder feels the sameness in the one room that matters — the raise. Their deck reads like three competitors', and that is where the valuation story goes flat. This pillar names the pain and points to specific language as the escape route before the pitch, not after. The Head-of-Brand secondary feels it in the retail-buyer meeting.
 
 **Authority:** Category saturation data; real brand-homepage sweeps; Jenerise's own vocab-rebrand thesis (they named the problem publicly).
 
@@ -164,7 +170,7 @@ Farrice's unfair advantage lands in how he shows up in your market. These five p
 ### Pillar 5: "The Machine Is Reading Your Label"
 **Thesis:** Before a human ever sees your brand, an AI engine has already described it to a buyer. Most brands have no idea what it's saying.
 
-**Why it converts:** Newest, least-owned fear; instantly screenshot-able; no incumbent vendor he already trusts; proof object (AI-Search Shadow module).
+**Why it converts (founder):** newest, least-owned fear; instantly screenshot-able; no incumbent vendor the founder already trusts. It is the sharpest *hook* into a cold conversation — never the offer lead. It resolves into positioning (the AI-Search Shadow module), never into a standalone SEO to-do list.
 
 **Authority:** ChatGPT ~92% AI referral share; AI sessions ~5x conversion value; 43% of e-commerce LLM traffic on product pages; McKinsey ~$750B shift to AI surfaces.
 
@@ -304,7 +310,7 @@ The 30-day sprint goal (declared 07-13, ~$3-5K by ~08-12) cannot be met by "coll
 - **KPI reframe:** the 25-day scoreboard counts **booked + deposited** (and any bridge cash), not collected-and-delivered.
 - **Funnel, named:** 10 targeted DMs/week → 2 readout calls → 1 close. This is warm-outbound wearing an inbound CTA — say so internally and build the outreach accordingly. Only sent/held/booked/deposited count.
 - **First 14 days target FOUNDERS of sub-$15M brands** (Jenerise, Spacegoods, Proper, The Stack tier) — the people for whom $2,500 is a personal yes. Head/VP-of-Brand framing belongs to the Standard/Mature tier later; VPs at Create/GNC/Noom-scale get the comment-orbit long game, not week-1 DM energy.
-- **⚑ BRIDGE SKU — FARRICE'S CALL (one line + tradeoff, per compass-not-cage):** the reviewer's strongest fast-cash fix is a **$250-500 paid Stress-Test Walkthrough** (60-min live read using the 12 questions) — the only SKU that can realistically collect before 08-12. Tradeoff: the source doc rules out low-ticket sprawl in the first 90 days; one bounded bridge SKU vs. purity of the single-offer ladder. Not live until Farrice says yes.
+- **✅ COLD-TIER OFFER — LIVE (ratified 2026-07-19 by Farrice):** the **$250-500 Stress-Test Walkthrough** (60-min live read using the 12 questions) is now the OFFICIAL cold-tier offer, not an emergency cash-bridge SKU. Restaged per the Dunford→Haynes handshake: cold strangers get the bounded paid diagnostic, the $2,500 sprint is the warm-tier ask, Standard/Mature are hot/expansion. This resolves two problems in one move — it is the only SKU that can realistically collect before 08-12 AND it fixes the audience-state mismatch (cold traffic was implicitly being pitched the $2,500 sprint). See the temperature-staged ladder in "Pricing & Terms." The earlier "not live until Farrice says yes" gate is cleared: Farrice commanded the restage; that is the yes.
 - **The 08-01 binary signal (redirect-#6 test):** by Aug 1, at least ONE funded-brand founder/decision-maker in a live two-way conversation about a dated occasion, with a readout call booked or deposit sent. Peer applause, likes, and other consultants replying = the false positive. Zero by 08-01 → diagnose the MOTION, not the offer.
 
 ---
@@ -336,7 +342,7 @@ The 30-day sprint goal (declared 07-13, ~$3-5K by ~08-12) cannot be met by "coll
 
 **Author:** Farrice Cain  
 **Grilled by:** Farrice (2026-07-18)  
-**Ratified:** 2026-07-18 as Path A's canonical offer layer (7-0 council ruling on market; same beachhead; fused, not parallel-tested)  
+**Ratified:** 2026-07-18 as Path A's canonical offer layer (7-0 council ruling; same beachhead; fused). **Restaged 2026-07-19** (Farrice command): founder-primary pole fix + $250-500 cold-tier walkthrough LIVE + five pillars realigned to founder psychology.  
 **Replaces:** CANONICAL-OFFER-BRIEF.md (superseded; offer inversion = messaging leads, AEO/GEO as module+hook)  
 **References:** Lara Acosta proof-to-market-v1 customGPT source; founded on April Dunford positioning discipline + Luke Iha content psychology + Ethan Smith AEO framework + claim-safe-health-marketing skill
 

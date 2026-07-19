@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** adpsy-taboo-ad  
-**Full path:** .agent/handoffs/2026-07-19-adpsy-taboo-ad.md  
-**Date:** 2026-07-19 (today)  
-**Status:** active  
-**Title:** 3 LinkedIn founder-mirror concepts v2 (P2M pillars 1/3/4) — retry after prose fail: restructured cards, varied shapes, CLEAN 0/10
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume adpsy-taboo-ad` for this one.
-
----
-
 ---
 thread: adpsy-taboo-ad
 status: active
@@ -23,4 +11,3 @@ pin: true
 **Next session focus**: Resume the `adpsy-taboo-ad` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (adpsy-taboo-ad)._
-

@@ -534,3 +534,8 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-19 07:54]` **finalize** | David Baldacci Books-That-Sell Expert Skill: 13 forge-tier workflows, 3-tier architecture (Foundatio | general | david-baldacci — composite:9.33 status:Keep
 - `[2026-07-19 07:56]` **finalize** | David Baldacci — commercial fiction craft + author economics mastery extraction (forge + amplify) | general | david-baldacci — composite:8.33 status:Keep
 - `[2026-07-19 08:11]` **finalize** | Oren John × Dara Denney — Ad Psychology mastery extraction (forge): oren-dara-ad-psychology, 10 work | general | oren-dara — composite:8.0 status:Keep
+- `[2026-07-19 10:03]` **finalize** | Crossing Wave 2: five cross-skill blends forged + PoC-proven (godin-handshake-dunford, dunford-hands | general | tier3-stacking-multi — composite:8.33 status:Keep
+- `[2026-07-19 10:25]` **finalize** | MyBPM Sunday/Monday tee — full adpsy→dara chain: tactic brief, taboo/mirroring build with veto log,  | general | oren-dara — composite:8.0 status:Keep
+- `[2026-07-19 10:25]` **finalize** | 3 LinkedIn founder-mirror concepts (P2M pillars 1/3/4) — inner-monologue register, veto logs, practi | general | oren-dara — composite:6.67 status:Needs Improvement
+- `[2026-07-19 10:25]` **finalize** | Ad Psychology Audit module one-pager — Proof-to-Market Stage-2 module, six-tactic diagnostic spine,  | general | oren-dara — composite:8.0 status:Keep
+- `[2026-07-19 10:26]` **finalize** | 3 LinkedIn founder-mirror concepts v2 (P2M pillars 1/3/4) — retry after prose fail: restructured car | general | oren-dara — composite:7.67 status:Keep
