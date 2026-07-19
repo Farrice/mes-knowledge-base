@@ -1,3 +1,4 @@
 {"ts": "2026-07-17T20:59:41.381151", "session_id": "fixture-w2", "binding": "parallax_editions", "chosen_workflow": "writers-room", "mandatory_workflow": "parallax", "action": "blocked"}
 {"ts": "2026-07-17T20:59:41.532677", "session_id": "fixture-w2", "binding": "parallax_editions", "chosen_workflow": "writers-room", "mandatory_workflow": "parallax", "action": "override"}
 {"ts": "2026-07-17T20:59:52.009794", "session_id": "fixture-w2", "binding": "control_intent_classifier", "chosen_workflow": "ghostwrite", "mandatory_workflow": "system-audit", "action": "warned_exempt"}
+{"ts": "2026-07-18T14:40:07.108576", "session_id": "019f772a-7626-7d62-94ac-f23789b2cf16", "binding": "control_intent_classifier", "chosen_workflow": "goal", "mandatory_workflow": "system-audit", "action": "warned_exempt"}

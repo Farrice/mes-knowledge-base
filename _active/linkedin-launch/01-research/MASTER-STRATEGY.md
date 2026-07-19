@@ -1,6 +1,6 @@
 # Farrice Cain — Master Content & Client-Acquisition Strategy
 
-> The strategic brain `/farrice-engine` and `/linkedin-daily` read every run. Beachhead, lanes, ICP, offer, depth standard, and the content→client pipeline. **v2 — 2026-06-15: pivoted from solo-coach buyer to the wellness/fitness/supplement/performance BRAND world.** Re-point the beachhead in one edit and the whole engine follows.
+> The strategic brain `/farrice-engine` and `/linkedin-daily` read every run. Beachhead, lanes, ICP, offer, depth standard, and the content→client pipeline. **v2 — 2026-06-15: pivoted from solo-coach buyer to the wellness/fitness/supplement/performance BRAND world.** **v3 — 2026-07-18: ratified Proof-to-Market Sprint as Path A's offer layer.** Messaging + positioning LEAD; AI-Search Shadow ("how AI engines cite/describe you") becomes diagnostic module inside the sprint, never standalone. Same beachhead, fused offer. Re-point the offer in one edit and the whole engine follows.
 
 ---
 

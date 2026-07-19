@@ -2984,7 +2984,7 @@
     "directory": "sam-parr-copywriting",
     "description": "The operator's direct-response copywriting playbook \u2014 classic DR (Ogilvy/Sugarman) fused with 2026 short-form-video attention mechanics. Hooks, story ads, the tangibility engine, live ad-rewrite, retention-engineered reels.",
     "when_to_use": "",
-    "mtime": 1784322305.7796075,
+    "mtime": 1784401740.3521543,
     "slash": "/sam-parr-copywriting",
     "routing": "long-tail",
     "status": ""
@@ -3134,7 +3134,7 @@
     "directory": "seth-godin-ideavirus",
     "description": "Complete viral marketing and idea propagation system from Seth Godin's Unleashing the Ideavirus",
     "when_to_use": "",
-    "mtime": 1784322305.7835104,
+    "mtime": 1784403058.544593,
     "slash": "/seth-godin-ideavirus",
     "routing": "",
     "status": ""
@@ -3144,7 +3144,7 @@
     "directory": "seth-godin-philosophy",
     "description": "Complete operating philosophy for overcoming resistance, shipping creative work, and doing what matters for people who care",
     "when_to_use": "",
-    "mtime": 1784322305.784111,
+    "mtime": 1784403229.7771666,
     "slash": "/seth-godin-philosophy",
     "routing": "",
     "status": ""
@@ -3184,7 +3184,7 @@
     "directory": "sherwin-wu-ai-engineering",
     "description": "Platform-level AI engineering strategy, agent fleet management, deployment diagnostics, and model upgrade planning from the Head of Engineering at OpenAI's API Platform.",
     "when_to_use": "",
-    "mtime": 1784322305.7852345,
+    "mtime": 1784402699.5088308,
     "slash": "/sherwin-wu-ai-engineering",
     "routing": "",
     "status": ""
@@ -3314,7 +3314,7 @@
     "directory": "story-compass",
     "description": "Pre-flight diagnostic that determines whether raw material is story-worthy using Tim Runia's Want \u2192 Tension \u2192 Change \u2192 Compass Sentence methodology. Position 0 expert \u2014 runs BEFORE all other storytelling/content/copy experts to verify there's actually a story to tell, not just a topic dressed as one. Compresses any idea into one GPS sentence \"I wanted ___, but ___, until ___.\" Binary story-vs-topic test (all three present = story; missing any = still a topic). Workflows for systematic tension mining when none is obvious, engineering meaningful change when ending is weak, applying compass to video scripts, sales copy, VSLs, emails, content calendars, and multi-part series. Use when starting any narrative deliverable, batch-processing content calendar ideas, rescuing stalled mid-creation content, validating brand promises have story fuel, or when the user mentions \"Tim Runia\", \"story compass\", \"want/tension/change\", \"compass sentence\", \"is this actually a story?\". Trigger proactively when content drafts feel topic-shaped \u2014 the compass surfaces whether there's narrative gravity or just information.",
     "when_to_use": "",
-    "mtime": 1784322305.7886727,
+    "mtime": 1784402707.5242295,
     "slash": "/story-compass",
     "routing": "",
     "status": ""
@@ -3394,7 +3394,7 @@
     "directory": "tao-prompts-ai-video",
     "description": "Design deterministic AI video pipelines with structured syntax, custom GPT translators, and decoupled modular generation.",
     "when_to_use": "",
-    "mtime": 1784322305.7908888,
+    "mtime": 1784403543.9758143,
     "slash": "/tao-prompts-ai-video",
     "routing": "",
     "status": ""
@@ -3514,7 +3514,7 @@
     "directory": "tyler-denk-audience-monetization",
     "description": "Beehiiv CEO Tyler Denk's system for audience acquisition, founder-led marketing, and high-ticket B2B monetization.",
     "when_to_use": "",
-    "mtime": 1784322305.7937076,
+    "mtime": 1784322305.0,
     "slash": "/tyler-denk-audience-monetization",
     "routing": "",
     "status": ""
@@ -3594,7 +3594,7 @@
     "directory": "wright-thompson-mastery",
     "description": "Architects narrative journalism that discovers something both specific AND universal about the human condition, using Wright Thompson's long-form profile methodology (ESPN, Pappyland, The Cost of These Dreams). Treats writing as problem-solving not performance \u2014 stories exist in the world like gravity; the writer's job is to see the path that was already there. Hammer-first architecture (build backward from emotional ending), central-complication diagnostic (irreducible tension at the subject's core), reporting truth audit (expose where language hides a gap), interiority bridge (surface hidden interior lives, connect to exterior action), myth-reality gap (distance between public mythology and private truth), erosion-not-revision (refine drafts through subtractive re-reading), detail-as-metaphor, emotional-residue engineering. Use when writing profiles of real people, fixing flat drafts that maintain one emotional level, finding the through-line in scenes that feel disconnected, engineering endings that haunt, or when the user mentions \"Wright Thompson\", \"Pappyland\", \"central complication\", \"interiority\", \"hammer first\", \"myth-reality gap\", \"emotional residue\". Trigger proactively when long-form content needs to land both specific and universal \u2014 the methodology was built for exactly that.",
     "when_to_use": "- **You're writing a profile** \u2014 Start with Central Complication\n- **You have a draft that feels flat** \u2014 Run Reporting Truth Audit\n- **You know the subject but not the story** \u2014 Run Myth/Reality Gap Finder\n- **You have scenes but they feel disconnected** \u2014 Run Thematic Compass\n- **You have a good piece but the ending doesn't land** \u2014 Run Hammer-First (even retroactively)\n- **You want the piece to haunt the reader** \u2014 Run Emotional Residue Engineer\n- **Your piece maintains one emotional level** \u2014 Run Emotional Pressure Map (after Hammer-First)",
-    "mtime": 1784322305.7958026,
+    "mtime": 1784404355.709597,
     "slash": "/wright-thompson-mastery",
     "routing": "",
     "status": ""

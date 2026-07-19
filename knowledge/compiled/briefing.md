@@ -1,20 +1,20 @@
 # Knowledge Briefing
-*Generated: 2026-07-18 | 667 sources | 2,695,529 words*
+*Generated: 2026-07-18 | 667 sources | 2,695,600 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
 - **index** (content) — 4,615 words — `knowledge/index.md`
-- **log** (general) — 12,666 words — `knowledge/log.md`
-- **amplification-report** (content) — 2,596 words — `extractions/seth-godin-marketing-mind/amplification-report.md`
-- **extraction-report-part2** (content) — 2,107 words — `extractions/seth-godin-marketing-mind/extraction-report-part2.md`
+- **log** (general) — 12,737 words — `knowledge/log.md`
 - **extraction-report** (content) — 607 words — `extractions/daniel-priestley-sll-engine/extraction-report.md`
 - **visual-context** (content) — 390 words — `extractions/daniel-priestley-sll-engine/visual-context.md`
 - **amplification-report** (screenwriting) — 3,114 words — `extractions/geoff-woods/amplification-report.md`
 - **vision** (strategy) — 1,407 words — `extractions/geoff-woods/vision.md`
 - **visual-context** (content) — 27,999 words — `extractions/geoff-woods/visual-context.md`
 - **blind-pass-generated-v2-2026-07-16** (content [lara-acosta]) — 1,408 words — `extractions/jenny-hoyos-shorts/blind-pass-generated-v2-2026-07-16.md`
+- **blind-pass-log** (content) — 276 words — `extractions/jenny-hoyos-shorts/blind-pass-log.md`
+- **amplification-report** (content) — 2,596 words — `extractions/seth-godin-marketing-mind/amplification-report.md`
 
 ## Domain Coverage
 
