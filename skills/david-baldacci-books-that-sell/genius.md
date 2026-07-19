@@ -54,17 +54,23 @@ Before producing anything under this skill, answer:
 
 **Anti-exemplar**: The two-hour speaker before Lincoln at Gettysburg — remembered by no one. Also: research dumps ("textbook = flip book"), outline-as-procrastination, word-count quotas, the author who never asks why royalties are falling.
 
-## Anti-Patterns (reject on sight)
+## Anti-Patterns (reject on sight — each anchored in Baldacci's own words, Perell interview 2026)
 
-- Openings that confirm the reader's first guess (no pop, no control).
-- Dialogue speeches; exposition through talk; 100 words doing 10 words' work.
-- Scenes justified by "I did the research" or "it's beautiful" — ego writing.
-- Rushed climaxes — consequence-free action ("12 guys are dead, so what?").
-- Baggage-free protagonists (robots walking a plot).
-- Motivation smaller than the act it must justify.
-- Trend-chasing premises with an empty passion tank.
-- Signing any deal without mapping the actual money flow; creative-only self-image ("I'm not a business person" = future unhappy person).
-- Forcing an audience to consume in a format they've left.
+- **Openings that confirm the reader's first guess** — no pop, no control; the reader keeps second-guessing instead of surrendering ("when they turn out to be wrong, that's when I get their full undivided attention").
+- **Dialogue speeches** — "I hate lengthy dialogue. It's just lazy writing... People don't just sit there and give speeches." 100 words doing 10 words' work: "the hundred is just lazy writing."
+- **Ego writing / research display** — "Is it there because you did a lot of research and you're loathed to cut it out? Then that's the wrong answer... you're writing a textbook. Nobody wants to read a textbook."
+- **Rushed climaxes** — "When you speed it up, people miss the impact. They miss the consequence. There's no consequence. 12 guys are dead. So what?"
+- **Baggage-free protagonists** — "You shouldn't have a character just to be a robot going through the plot."
+- **Motivation smaller than the act** — "Just because A happened, he did B — I don't think that's right. You have to match the magnitude of both those positions."
+- **Trend-chasing with an empty passion tank** — "If I'm not interested in it, I don't care how well I write it, nobody else is going to be interested either... it's just gonna be [garbage]."
+- **Outline-as-procrastination** — "Why did I waste three weeks writing this crap?" — decisions deferred instead of made in the trenches.
+- **Word-count quotas** — "The five pages a day or 2,000 words a day... what if they all suck, but the next word was going to be just awesome?"
+- **Business blindness** — "I know a lot of writers who had good careers and they went down the toilet because they took their eye off that ball" — signing without the money map, never asking why royalties fall ("they didn't know to ask those questions").
+- **Forcing formats** — "You can't force them to read in a format they don't want to read in."
+
+## Recognition Test (run before shipping any output from this skill)
+
+Would Baldacci recognize this as his? Concretely: Does the opening cajole and shatter an assumption? Would every word survive his "why does it have to be in the film?" interrogation? Is the motivation as big as the act? Did the peak slow down? Is the business math mapped hop-by-hop like a lawyer did it? If a section reads like a teacher explaining thriller-writing rather than a 200M-copy practitioner making blunt calls through anecdote — it fails; rewrite before delivery.
 
 ## Quality Rubric (score every deliverable)
 

@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-19** [david-baldacci-books-that-sell/active] [David Baldacci Books That Sell — Blind Pass Sample Big Pop](2026-07-19-david-baldacci-books-that-sell.md) — David Baldacci Books That Sell — Blind Pass Sample Big Pop
 - **2026-07-19** [research-outputs/active] [Research Outputs — Top 10 Digital Products Underserved Markets](2026-07-19-research-outputs.md) — Research Outputs — Top 10 Digital Products Underserved Markets
 - **2026-07-19** [tess-barclay/active] [Tess Barclay — Readme](2026-07-19-tess-barclay.md) — Tess Barclay — Readme
 - **2026-07-19** [jh-cold-dm-ig/active] [3 cold-DM openers + 3 IG caption hooks (drafts for Farrice review)](2026-07-19-jh-cold-dm-ig.md) — 3 cold-DM openers + 3 IG caption hooks (drafts for Farrice review)

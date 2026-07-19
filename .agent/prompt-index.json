@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7195,
+ "count": 7208,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -5349,6 +5349,97 @@
    "title": "Workflow Productizer",
    "gist": "Package automation into a sellable system product.",
    "path": "skills/darrel-wilson-ai-monetization/references/prompts-v2/workflow-productizer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-baldacci-books-that-sell",
+   "title": "David Baldacci \u2014 Author Deal Brief",
+   "gist": "You are executing Baldacci's author-economics analysis \u2014 the lawyer-negotiator pass (10 years of trial law; \"I negotiated a lot of deals on behalf of clients\"). The mantra: \"No one should make more off of the book than t",
+   "path": "skills/david-baldacci-books-that-sell/references/prompts-v2/author-deal-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-baldacci-books-that-sell",
+   "title": "David Baldacci \u2014 Big Pop Opening",
+   "gist": "You are executing David Baldacci's Big Pop \u2014 the assumption-shatter opening he uses to take control of the reader (53 novels, 200M+ copies sold). His mechanism, in his words: \"I sort of cajole them into making assumption",
+   "path": "skills/david-baldacci-books-that-sell/references/prompts-v2/big-pop-opening.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-baldacci-books-that-sell",
+   "title": "David Baldacci \u2014 Character Baggage Dossier",
+   "gist": "You are executing Baldacci's character architecture. His law: \"They all have baggage unrelated to the plot\" \u2014 Amos Decker's brain trauma erased his personality and cost him his family; Atlee Pine's twin was kidnapped whe",
+   "path": "skills/david-baldacci-books-that-sell/references/prompts-v2/character-baggage-dossier.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-baldacci-books-that-sell",
+   "title": "David Baldacci \u2014 Dialogue Compression Pass",
+   "gist": "You are executing the Gettysburg compression. Baldacci: \"The Gettysburg Address is 277 words long. The guy who spoke before Lincoln spoke for two hours. Nobody remembers who the hell he was.\" Lengthy dialogue is \"lazy wr",
+   "path": "skills/david-baldacci-books-that-sell/references/prompts-v2/dialogue-compression-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-baldacci-books-that-sell",
+   "title": "David Baldacci \u2014 Ebook Flywheel Launch Sprint",
+   "gist": "You are orchestrating the full Baldacci chain \u2014 craft plus business \u2014 into a zero-to-sellable ebook sprint. Governing laws from the source: the percolation/passion gate (\"If I am fascinated by what I'm writing about, eve",
+   "path": "skills/david-baldacci-books-that-sell/references/prompts-v2/ebook-flywheel-launch.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-baldacci-books-that-sell",
+   "title": "David Baldacci \u2014 Eyewitness Research Day",
+   "gist": "You are executing Baldacci's one-day research method. His bound: \"I put Archer to bed and I woke him up in the morning and I took him through one day... clothes, food, how he got from point A to point B, the stores, the ",
+   "path": "skills/david-baldacci-books-that-sell/references/prompts-v2/eyewitness-research-day.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-baldacci-books-that-sell",
+   "title": "David Baldacci \u2014 Game-Film Breakdown",
+   "gist": "You are executing Baldacci's post-release breakdown: \"After every book I do try to kind of break it down like game film\" \u2014 using reader-reaction emails, website feedback, and trusted-reader debriefs. His ego rule: \"This ",
+   "path": "skills/david-baldacci-books-that-sell/references/prompts-v2/game-film-breakdown.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-baldacci-books-that-sell",
+   "title": "David Baldacci \u2014 Premise & Jacket Copy",
+   "gist": "You are executing Baldacci's premise construction \u2014 the plant-food method. His standard, from the Absolute Power jacket copy: \"In that one premise, it creates every facet you need to write the story... You have a crime, ",
+   "path": "skills/david-baldacci-books-that-sell/references/prompts-v2/premise-and-jacket-copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-baldacci-books-that-sell",
+   "title": "David Baldacci \u2014 Reader Acquisition Plan",
+   "gist": "You are executing Baldacci's distribution doctrine, straight from his publishing-team meetings: \"A good story will sell, you just have to find the readers to read it wherever they might be... You can't force them to read",
+   "path": "skills/david-baldacci-books-that-sell/references/prompts-v2/reader-acquisition-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-baldacci-books-that-sell",
+   "title": "David Baldacci \u2014 Scene Audit Report",
+   "gist": "You are running Baldacci's edit-room pass. The rules he was \"constantly barraged\" with in film and carries into novels: a scene needs two purposes; \"if a scene or even a line of dialogue doesn't advance the plot, doesn't",
+   "path": "skills/david-baldacci-books-that-sell/references/prompts-v2/scene-audit-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-baldacci-books-that-sell",
+   "title": "David Baldacci \u2014 Slow-Motion Peak Scene",
+   "gist": "You are executing Baldacci's peak engineering. The budget law: \"You have a finite number of setups in a novel where you can just go for it... I can't keep you up at the top of the roller coaster all the time.\" The counte",
+   "path": "skills/david-baldacci-books-that-sell/references/prompts-v2/slow-motion-peak-scene.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-baldacci-books-that-sell",
+   "title": "David Baldacci \u2014 Stakes Architecture",
+   "gist": "You are executing Baldacci's stakes design. The template is Nash Falls' Faustian choice: \"One, you can work with us to bring them down and you lose everything you have. Two, you don't work with us and you lose everything",
+   "path": "skills/david-baldacci-books-that-sell/references/prompts-v2/stakes-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "david-baldacci-books-that-sell",
+   "title": "David Baldacci \u2014 Trenches Drafting Run",
+   "gist": "You are drafting the way Baldacci drafts: \"in the trenches \u2014 when the words actually count.\" No outline (\"like Tom Brady in practice... nobody's trying to kill him\"); linear from page 1; decisions made in-scene with no k",
+   "path": "skills/david-baldacci-books-that-sell/references/prompts-v2/trenches-drafting-run.md"
   },
   {
    "kind": "prompt-v2",

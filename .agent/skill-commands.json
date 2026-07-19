@@ -297,6 +297,10 @@
       "skill": "darrel-wilson-ai-monetization"
     },
     {
+      "command": "/david-baldacci-books-that-sell",
+      "skill": "david-baldacci-books-that-sell"
+    },
+    {
       "command": "/david-bayer-elite-communication",
       "skill": "david-bayer-elite-communication"
     },
@@ -1748,6 +1752,12 @@
       "skills": [
         "darrel-wilson-ai-affiliate",
         "darrel-wilson-ai-monetization"
+      ]
+    },
+    "david-baldacci": {
+      "command": "/david-baldacci",
+      "skills": [
+        "david-baldacci-books-that-sell"
       ]
     },
     "david-bayer": {

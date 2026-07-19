@@ -1,34 +1,34 @@
 # Knowledge Briefing
-*Generated: 2026-07-19 | 680 sources | 2,740,636 words*
+*Generated: 2026-07-19 | 687 sources | 2,755,963 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 4,660 words — `knowledge/index.md`
-- **log** (general) — 13,130 words — `knowledge/log.md`
+- **index** (content) — 4,687 words — `knowledge/index.md`
+- **log** (general) — 13,153 words — `knowledge/log.md`
+- **extraction-report** (content) — 3,859 words — `extractions/david-baldacci/extraction-report.md`
+- **blind-pass-log** (general) — 90 words — `extractions/david-baldacci-books-that-sell/blind-pass-log.md`
+- **blind-pass-sample-big-pop** (general) — 608 words — `extractions/david-baldacci-books-that-sell/blind-pass-sample-big-pop.md`
+- **nash-falls-ch1** (general) — 2,378 words — `extractions/david-baldacci-books-that-sell/reference-corpus/nash-falls-ch1.md`
+- **the-620-man-ch1-3** (general) — 4,293 words — `extractions/david-baldacci-books-that-sell/reference-corpus/the-620-man-ch1-3.md`
 - **extraction-report-2026-07-19** (content [nathan-gotch]) — 2,414 words — `extractions/nathan-gotch/extraction-report-2026-07-19.md`
 - **source-metadata** (content [nathan-gotch]) — 200 words — `extractions/nathan-gotch/source-metadata.md`
 - **blind-pass-log** (content [nathan-gotch]) — 77 words — `extractions/nathan-gotch-ai-seo/blind-pass-log.md`
-- **blind-pass-specimen-07** (seo [nathan-gotch]) — 497 words — `extractions/nathan-gotch-ai-seo/blind-pass-specimen-07.md`
-- **source-metadata** (content) — 36 words — `extractions/ron-lynch/source-metadata.md`
-- **visual-context** (content) — 28,304 words — `extractions/ron-lynch-v2/visual-context.md`
-- **README** (content) — 133 words — `extractions/tess-barclay/README.md`
-- **2026-07-19-SHADOW-MARKETS-INDEX** (strategy [april-dunford]) — 1,541 words — `research_outputs/2026-07-19-SHADOW-MARKETS-INDEX.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 237 | nicolas-cole |
+| content | 238 | nicolas-cole |
 | copywriting | 97 | luke-iha |
-| general | 83 | nick-saraev |
-| strategy | 72 | april-dunford |
+| general | 87 | nick-saraev |
+| strategy | 73 | april-dunford |
 | screenwriting | 50 | connelly |
 | brand | 48 | oren-john |
 | systems | 35 | nick-saraev |
 | seo | 26 | nathan-gotch |
-| research | 22 | dai-media |
+| research | 23 | dai-media |
 | sales | 10 | dai-media |
 
 ## Deepest Knowledge Sources (by word count)

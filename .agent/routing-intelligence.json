@@ -74,18 +74,18 @@
                 "nate-b-jones-context-engineering": 30,
                 "nate-b-jones-intent-engineering": 1,
                 "omar-eltakrori": 1,
-                "Extraction": 22,
+                "Extraction": 23,
                 "Strategy": 28,
                 "donald-miller-storybrand": 1,
                 "strength-conditioning-os": 7,
                 "simon-intellectual-library-os": 1,
                 "creative-campaign-strategy": 2,
                 "jeremy-haynes-cold-offer": 1,
-                "doc-coauthoring": 4
+                "doc-coauthoring": 6
             },
-            "total_routings": 479,
+            "total_routings": 482,
             "tier_counts": {
-                "0": 479,
+                "0": 482,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -95,8 +95,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 276,
-                "finalize-auto": 203
+                "hybrid": 278,
+                "finalize-auto": 204
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -169,7 +169,7 @@
                 "tommy-clark": 2,
                 "deliberate": 27,
                 "creative-director": 1,
-                "doc-coauthoring": 29,
+                "doc-coauthoring": 31,
                 "dan-wang-literary-analysis": 2,
                 "webapp-testing": 2,
                 "brand-operating-system": 24,
@@ -245,7 +245,7 @@
                 "fantastic-posters": 9,
                 "research-engine": 1,
                 "t": 3,
-                "corey-mcclain-persona-engineering": 42,
+                "corey-mcclain-persona-engineering": 44,
                 "henrik-werdelin-portfolio-entrepreneurship": 1,
                 "ben-watkins": 1,
                 "pptx": 10,
@@ -312,15 +312,16 @@
                 "diandra-escobar-linkedin-growth": 1,
                 "matthew-volkwyn-copywriting": 1,
                 "tess-barclay-social-content": 1,
-                "kallaway-ai-content-engine": 4,
+                "kallaway-ai-content-engine": 6,
                 "samuel-thompson-product-launch": 1,
                 "ross-minchev-digital-products": 1,
-                "samuel-thompson": 1
+                "samuel-thompson": 1,
+                "david-baldacci": 1
             },
-            "total_feedback": 66,
+            "total_feedback": 67,
             "negative_count": 0,
-            "ensemble_count": 358,
-            "auto_miss_count": 52,
+            "ensemble_count": 360,
+            "auto_miss_count": 53,
             "positive_count": 0
         }
     },
@@ -909,6 +910,15 @@
             "rating": "auto_miss",
             "correction": "seena-rez-tiktok-commerce",
             "notes": "expert skill 'seena-rez-tiktok-commerce' loaded not matching suggestion ['doc-coauthoring', 'corey-mcclain-persona-engineering', 'kallaway-ai-content-engine']"
+        },
+        {
+            "feedback_id": "fb_20260719_145002_3598",
+            "timestamp": "2026-07-19T14:50:02.242276+00:00",
+            "session_id": "e3364f38-93a8-4dbb-b953-dce872f08faa",
+            "routing_id": "rt_20260719_144543_014a",
+            "rating": "auto_miss",
+            "correction": "david-baldacci-books-that-sell",
+            "notes": "expert skill 'david-baldacci-books-that-sell' loaded not matching suggestion ['doc-coauthoring', 'corey-mcclain-persona-engineering', 'kallaway-ai-content-engine']"
         }
     ],
     "routing_decisions": [
@@ -9601,6 +9611,61 @@
             "mode": "finalize-auto",
             "workflow_used": "shadow-market-validation-report",
             "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_143834_76a6",
+            "timestamp": "2026-07-19T14:38:34.154202+00:00",
+            "session_id": "ed55c820-62db-48d7-bb2a-6a3d2bb14d0d",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "doc-coauthoring",
+            "experts_deployed": [
+                "doc-coauthoring",
+                "corey-mcclain-persona-engineering",
+                "kallaway-ai-content-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "doc-coauthoring",
+            "ensemble": true,
+            "compound_pairing": "doc-coauthoring + corey-mcclain-persona-engineering + kallaway-ai-content-engine",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_144543_014a",
+            "timestamp": "2026-07-19T14:45:43.936916+00:00",
+            "session_id": "e3364f38-93a8-4dbb-b953-dce872f08faa",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "doc-coauthoring",
+            "experts_deployed": [
+                "doc-coauthoring",
+                "corey-mcclain-persona-engineering",
+                "kallaway-ai-content-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "doc-coauthoring",
+            "ensemble": true,
+            "compound_pairing": "doc-coauthoring + corey-mcclain-persona-engineering + kallaway-ai-content-engine",
+            "feedback": "fb_20260719_145002_3598"
+        },
+        {
+            "routing_id": "rt_20260719_145406_6918",
+            "timestamp": "2026-07-19T14:54:06.039853+00:00",
+            "session_id": "",
+            "request_summary": "David Baldacci Books-That-Sell Expert Skill: 13 forge-tier workflows, 3-tier architecture (Foundation/Practitioner/Business), 13 born-v2 execution prompts (966 lines), agent manifest, slash commands, ",
+            "intent_score": 10,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "david-baldacci"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "ebook-flywheel",
+            "ensemble": false,
             "compound_pairing": null,
             "feedback": null
         }

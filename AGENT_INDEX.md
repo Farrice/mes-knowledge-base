@@ -63,6 +63,7 @@
 | `danny-yeung` | **Danny Yeung** | celebrity partnerships, dtc scaling, infrastructure pivots, subscription economics, velocity strategist |
 | `dara-denney` | **dara-denney** | agent configuration, dtc-meta-ads |
 | `darrel-wilson` | **darrel-wilson** | ai-augmented affiliate marketing, digital revenue systems, flip the process, recurring revenue lock-in, system sales, utility-first affiliate architecture, warm lead philosophy |
+| `david-baldacci` | **David Baldacci** | the writer-businessman |
 | `david-bayer` | **David Bayer** | approval independence, elite communication, friend coffee frame, grounded presence |
 | `david-deutsch` | **david-deutsch** | boring to brilliant, legendary copywriting, loss framing, musical architecture, question-first, screenwriter thinking |
 | `david-gelb` | **David Gelb** | agent configuration |

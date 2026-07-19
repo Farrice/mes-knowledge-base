@@ -1,28 +1,28 @@
 # Latest Handoff
 
-**Thread:** research-outputs  
-**Full path:** .agent/handoffs/2026-07-19-research-outputs.md  
+**Thread:** david-baldacci-books-that-sell  
+**Full path:** .agent/handoffs/2026-07-19-david-baldacci-books-that-sell.md  
 **Date:** 2026-07-19 (today)  
 **Status:** active  
-**Title:** Research Outputs — Top 10 Digital Products Underserved Markets
+**Title:** David Baldacci Books That Sell — Blind Pass Sample Big Pop
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume research-outputs` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume david-baldacci-books-that-sell` for this one.
 
 ---
-thread: research-outputs
+
+---
+thread: david-baldacci-books-that-sell
 status: active
-resume_hint: Research Outputs — Top 10 Digital Products Underserved Markets
+resume_hint: David Baldacci Books That Sell — Blind Pass Sample Big Pop
 branch: main
 pin: true
 ---
 
-# Research Outputs — Top 10 Digital Products Underserved Markets
+# David Baldacci Books That Sell — Blind Pass Sample Big Pop
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
 
-**Artifacts:** /Users/farricecain/Google Antigravity/research_outputs/2026-07-19-shadow-markets-top-10.md, /Users/farricecain/Google Antigravity/research_outputs/2026-07-19-shadow-markets-execution-checklist.md, /Users/farricecain/Google Antigravity/research_outputs/2026-07-19-shadow-markets-pain-signal-verification.md, /Users/farricecain/Google Antigravity/research_outputs/2026-07-19-SHADOW-MARKETS-INDEX.md, /Users/farricecain/Google Antigravity/research_outputs/2026-07-19-top-10-digital-products-underserved-markets.md
+**Artifacts:** /Users/farricecain/Google Antigravity/skills/david-baldacci-books-that-sell/references/prompts-v2/ebook-flywheel-launch.md, /Users/farricecain/Google Antigravity/skills/david-baldacci-books-that-sell/references/prompts-v2/game-film-breakdown.md, /Users/farricecain/Google Antigravity/agents/david-baldacci/AGENT.md, /Users/farricecain/Google Antigravity/skills/david-baldacci-books-that-sell/genius.md, /Users/farricecain/Google Antigravity/extractions/david-baldacci-books-that-sell/blind-pass-sample-big-pop.md
 
-**Retrieve:** `/resume research-outputs`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
+**Retrieve:** `/resume david-baldacci-books-that-sell`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
 

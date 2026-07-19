@@ -1618,7 +1618,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 62 agent(s) had no invocation card. Stubs below are machine-
+> 63 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -1821,6 +1821,16 @@ DOMAIN: dtc-meta-ads
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: 1. **Format archetype identification** — slot any DTC ad into one of 8 archetypes; tag arbitrage stage
 ENTRY PROMPT: agents/dara-denney/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: David Baldacci
+DOMAIN: See AGENT.md — domain not yet tagged in frontmatter.
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: The writer's job is two-fold:
+ENTRY PROMPT: agents/david-baldacci/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 
