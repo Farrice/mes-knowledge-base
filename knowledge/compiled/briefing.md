@@ -1,26 +1,26 @@
 # Knowledge Briefing
-*Generated: 2026-07-19 | 692 sources | 2,760,430 words*
+*Generated: 2026-07-19 | 694 sources | 2,776,599 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
 - **index** (content) — 4,752 words — `knowledge/index.md`
-- **log** (general) — 13,382 words — `knowledge/log.md`
+- **log** (general) — 13,402 words — `knowledge/log.md`
 - **extraction-report** (content) — 3,859 words — `extractions/david-baldacci/extraction-report.md`
 - **blind-pass-log** (general) — 90 words — `extractions/david-baldacci-books-that-sell/blind-pass-log.md`
 - **blind-pass-sample-big-pop** (general) — 608 words — `extractions/david-baldacci-books-that-sell/blind-pass-sample-big-pop.md`
 - **nash-falls-ch1** (general) — 2,378 words — `extractions/david-baldacci-books-that-sell/reference-corpus/nash-falls-ch1.md`
 - **the-620-man-ch1-3** (general) — 4,293 words — `extractions/david-baldacci-books-that-sell/reference-corpus/the-620-man-ch1-3.md`
+- **extraction-report** (content [kieran-flanagan]) — 1,110 words — `extractions/mike-taylor/extraction-report.md`
+- **visual-context** (content) — 15,039 words — `extractions/mike-taylor/visual-context.md`
 - **extraction-report-2026-07-19** (content [nathan-gotch]) — 2,414 words — `extractions/nathan-gotch/extraction-report-2026-07-19.md`
-- **source-metadata** (content [nathan-gotch]) — 200 words — `extractions/nathan-gotch/source-metadata.md`
-- **blind-pass-log** (content [nathan-gotch]) — 77 words — `extractions/nathan-gotch-ai-seo/blind-pass-log.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 240 | nicolas-cole |
+| content | 242 | nicolas-cole |
 | copywriting | 97 | luke-iha |
 | general | 87 | nick-saraev |
 | strategy | 73 | april-dunford |

@@ -539,3 +539,6 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-19 10:25]` **finalize** | 3 LinkedIn founder-mirror concepts (P2M pillars 1/3/4) — inner-monologue register, veto logs, practi | general | oren-dara — composite:6.67 status:Needs Improvement
 - `[2026-07-19 10:25]` **finalize** | Ad Psychology Audit module one-pager — Proof-to-Market Stage-2 module, six-tactic diagnostic spine,  | general | oren-dara — composite:8.0 status:Keep
 - `[2026-07-19 10:26]` **finalize** | 3 LinkedIn founder-mirror concepts v2 (P2M pillars 1/3/4) — retry after prose fail: restructured car | general | oren-dara — composite:7.67 status:Keep
+- `[2026-07-19 10:33]` **finalize** | Proof-to-Market founder-primary restage: buyer pole fixed + 5 pillars realigned to founder psycholog | strategy | april-dunford-x-jeremy-haynes — composite:8.33 status:Keep
+- `[2026-07-19 10:34]` **finalize** | Buyer Council OS: /buyer-council front door LIVE — triage mode (Mike Taylor 10-persona joint-anonymo | general | geoff-woods-x-mike-taylor — composite:8.33 status:Keep
+- `[2026-07-19 10:55]` **finalize** | Mike Taylor — Synthetic Customer Research OS (forge) | research | mike-taylor — composite:8.33 status:Keep

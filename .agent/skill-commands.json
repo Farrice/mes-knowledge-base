@@ -881,6 +881,10 @@
       "skill": "mike-sherrard-realtor-branding"
     },
     {
+      "command": "/mike-taylor-synthetic-research",
+      "skill": "mike-taylor-synthetic-research"
+    },
+    {
       "command": "/mitch-albom-writing-mastery",
       "skill": "mitch-albom-writing-mastery"
     },
@@ -2315,6 +2319,12 @@
       "command": "/mike-sherrard",
       "skills": [
         "mike-sherrard-realtor-branding"
+      ]
+    },
+    "mike-taylor": {
+      "command": "/mike-taylor",
+      "skills": [
+        "mike-taylor-synthetic-research"
       ]
     },
     "mitch-albom": {

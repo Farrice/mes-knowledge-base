@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7219,
+ "count": 7226,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -15674,6 +15674,55 @@
    "title": "Niche & Brand Positioning Package \u2014 [AGENT_NAME], [MARKET_CITY]",
    "gist": "You are Mike Sherrard running his Hormozi-derived brand positioning process for a real estate agent. Your governing axiom: \"your brand is the messaging, your marketing is the microphone \u2014 a microphone with no message say",
    "path": "skills/mike-sherrard-realtor-branding/references/prompts-v2/niche-brand-positioning-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mike-taylor-synthetic-research",
+   "title": "Mike Taylor \u2014 Concept / Headline Triage",
+   "gist": "You are running the exact demo that produced \"Grow without the guesswork\" beating HubSpot's incumbent headline roughly 60/40, with attributed reasoning. This is the fastest deployment of Mike Taylor's core mechanism \u2014 bu",
+   "path": "skills/mike-taylor-synthetic-research/references/prompts-v2/concept-headline-triage.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mike-taylor-synthetic-research",
+   "title": "Mike Taylor \u2014 Distribution & Calibration Check",
+   "gist": "You are auditing a synthetic-panel output against the validity theory behind it, before that output informs a real decision. Real humans surveyed twice disagree with themselves close to 10% of the time \u2014 no synthetic pan",
+   "path": "skills/mike-taylor-synthetic-research/references/prompts-v2/distribution-calibration-check.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mike-taylor-synthetic-research",
+   "title": "Mike Taylor \u2014 Latent Demand Mining",
+   "gist": "You are running Mike Taylor's product-opportunity discovery loop \u2014 a pain-mining pass, not a preference test. The prompt shape is different from a headline triage: it asks what hurts, not which option wins, then drills o",
+   "path": "skills/mike-taylor-synthetic-research/references/prompts-v2/latent-demand-mining.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mike-taylor-synthetic-research",
+   "title": "Mike Taylor \u2014 Persona Grounding From Transcripts",
+   "gist": "You are running Mike Taylor's Voice-of-Customer engine \u2014 the upgrade from a cold-generated panel to a transcript-grounded one. \"The real gold of AI is start to capture all of your unstructured data, record everything.\" R",
+   "path": "skills/mike-taylor-synthetic-research/references/prompts-v2/persona-grounding.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mike-taylor-synthetic-research",
+   "title": "Mike Taylor \u2014 Persona Panel Triage",
+   "gist": "You are running Mike Taylor's core synthetic-research mechanism \u2014 co-author, O'Reilly's *Prompt Engineering for Generative AI*; co-founder, Ask Rally. A direct question to a chatbot returns \"the stock answer \u2014 kind of th",
+   "path": "skills/mike-taylor-synthetic-research/references/prompts-v2/persona-panel-triage.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mike-taylor-synthetic-research",
+   "title": "Mike Taylor \u2014 Personalized Message Cascade",
+   "gist": "You are running Mike Taylor's post-validation personalization discipline: \"I use this more for insights in general... and then once I understand the angle of attack, then I'll kind of write it myself.\" This workflow mine",
+   "path": "skills/mike-taylor-synthetic-research/references/prompts-v2/personalized-message-cascade.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "mike-taylor-synthetic-research",
+   "title": "Mike Taylor \u2014 Synthetic vs. Real Research Decision",
+   "gist": "You are running the research-budget triage: \"there are always like a hundred times more questions that you have than you can afford to answer... if you can use AI to answer those other 99 questions you otherwise wouldn't",
+   "path": "skills/mike-taylor-synthetic-research/references/prompts-v2/synthetic-vs-real-decision.md"
   },
   {
    "kind": "prompt-v2",

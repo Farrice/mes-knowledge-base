@@ -1,15 +1,16 @@
 # Knowledge Index
-*692 sources | 2,760,430 words | Updated: 2026-07-19*
+*694 sources | 2,776,599 words | Updated: 2026-07-19*
 
 ---
 
-## Content (240 files)
+## Content (242 files)
 
 - [video-context-ledger](../extractions/video-context/3iR3kHxCwfo/video-context-ledger.md) — 75,408 words
 - [Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them](extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md) — 60,850 words (stale)
 - [visual-context](../extractions/ron-lynch-v2/visual-context.md) — 28,304 words
 - [visual-context](../extractions/geoff-woods/visual-context.md) — 27,999 words
 - [visual-context](../extractions/jeremy-haynes/visual-context.md) — 15,631 words
+- [visual-context](../extractions/mike-taylor/visual-context.md) — 15,039 words
 - [visual-context](../extractions/second-brain-seller/visual-context.md) — 13,695 words
 - [Claude-💎💎💎 Seena Rez ! $1.8m tiktok dropshipping in 30 days (showing you my actual viral videos and ho.2](extractions/inbox/Claude-💎💎💎 Seena Rez ! $1.8m tiktok dropshipping in 30 days (showing you my actual viral videos and ho.2.md) — 12,387 words (stale)
 - [visual-context](../extractions/agentic-os-v2-agentic-os/visual-context.md) [nick-saraev] — 11,544 words
@@ -138,6 +139,7 @@
 - [extraction-report](../extractions/Josh Sanders/extraction-report.md) — 1,156 words (stale)
 - [sabri_suby](../research_outputs/ai_authority_architect_agents/sabri_suby.md) — 1,155 words
 - [2026-07-19-shadow-markets-execution-checklist](../research_outputs/2026-07-19-shadow-markets-execution-checklist.md) — 1,127 words
+- [extraction-report](../extractions/mike-taylor/extraction-report.md) [kieran-flanagan] — 1,110 words
 - [quick-reference-guide](mes-3.0/quick-reference-guide.md) — 1,109 words (stale)
 - [extraction-report](../extractions/shan-hanif/extraction-report.md) [april-dunford] — 1,105 words (stale)
 - [VISION](../extractions/ben-watkins/VISION.md) — 1,099 words
@@ -363,7 +365,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 13,382 words
+- [log](log.md) — 13,402 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words

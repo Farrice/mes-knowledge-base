@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-19T10:25:31.709555",
-  "total_files": 692,
-  "total_words": 2760352,
-  "total_tokens_est": 3671268,
+  "generated": "2026-07-19T10:55:36.408690",
+  "total_files": 694,
+  "total_words": 2776599,
+  "total_tokens_est": 3692876,
   "stale_files_30d": 455,
   "domains": {
-    "content": 240,
+    "content": 242,
     "copywriting": 97,
     "general": 87,
     "strategy": 73,
@@ -27,8 +27,8 @@
     "lara-acosta": 11,
     "nathan-gotch": 11,
     "connelly": 7,
+    "kieran-flanagan": 6,
     "cardinal-mason": 6,
-    "kieran-flanagan": 5,
     "jason-fladlien": 4,
     "pressfield": 3,
     "grace-beverley": 1
@@ -1978,10 +1978,10 @@
       "domain": "content",
       "expert": null,
       "word_count": 4752,
-      "modified": "2026-07-19T10:25:29.015509",
+      "modified": "2026-07-19T10:34:39.301032",
       "age_days": 0,
       "size_bytes": 81104,
-      "content_hash": "27a0d24e",
+      "content_hash": "37b996ae",
       "has_frontmatter": false
     },
     {
@@ -1990,10 +1990,10 @@
       "parent": "knowledge",
       "domain": "general",
       "expert": null,
-      "word_count": 13304,
-      "modified": "2026-07-19T10:25:31.513825",
+      "word_count": 13402,
+      "modified": "2026-07-19T10:55:36.109771",
       "age_days": 0,
-      "size_bytes": 104045,
+      "size_bytes": 104811,
       "content_hash": "5a51f947",
       "has_frontmatter": false
     },
@@ -2226,7 +2226,7 @@
       "expert": "nathan-gotch",
       "word_count": 986,
       "modified": "2026-04-13T10:42:20.958189",
-      "age_days": 96,
+      "age_days": 97,
       "size_bytes": 7224,
       "content_hash": "b69d4727",
       "has_frontmatter": true
@@ -2252,7 +2252,7 @@
       "expert": null,
       "word_count": 922,
       "modified": "2026-04-13T10:41:40.529882",
-      "age_days": 96,
+      "age_days": 97,
       "size_bytes": 6566,
       "content_hash": "af19325c",
       "has_frontmatter": true
@@ -2486,7 +2486,7 @@
       "expert": "nick-saraev",
       "word_count": 1606,
       "modified": "2026-03-06T10:38:04.952085",
-      "age_days": 134,
+      "age_days": 135,
       "size_bytes": 10847,
       "content_hash": "20f9e032",
       "has_frontmatter": false
@@ -5872,6 +5872,32 @@
       "has_frontmatter": true
     },
     {
+      "path": "extractions/mike-taylor/extraction-report.md",
+      "name": "extraction-report",
+      "parent": "mike-taylor",
+      "domain": "content",
+      "expert": "kieran-flanagan",
+      "word_count": 1110,
+      "modified": "2026-07-19T10:42:11.088353",
+      "age_days": 0,
+      "size_bytes": 8318,
+      "content_hash": "14233869",
+      "has_frontmatter": false
+    },
+    {
+      "path": "extractions/mike-taylor/visual-context.md",
+      "name": "visual-context",
+      "parent": "mike-taylor",
+      "domain": "content",
+      "expert": null,
+      "word_count": 15039,
+      "modified": "2026-07-19T10:37:25.561846",
+      "age_days": 0,
+      "size_bytes": 81300,
+      "content_hash": "00312140",
+      "has_frontmatter": false
+    },
+    {
       "path": "extractions/nate-b-jones/karpathy-loop-mes-extraction.md",
       "name": "karpathy-loop-mes-extraction",
       "parent": "nate-b-jones",
@@ -8323,7 +8349,7 @@
       "expert": null,
       "word_count": 3450,
       "modified": "2026-07-07T10:50:51.190212",
-      "age_days": 11,
+      "age_days": 12,
       "size_bytes": 33169,
       "content_hash": "92636d10",
       "has_frontmatter": false

@@ -27,7 +27,7 @@
 | `andrew-wilkinson-ai-entrepreneurship` | **Andrew Wilkinson AI Entrepreneurship** | for ai-affiliate monetization specifically use darrel-wilson-ai-affiliate | 2 | 6 |
 | `andy-galpin-training-intelligence` | **Dr. Andy Galpin — Training Intelligence** | cardio, metabolism vs, fuel) before prescribing, then designs precise, fully-specified training, training intelligence | 4 | 0 |
 | `andy-lo-premium-websites` | **Andy Lo — Premium AI Website Creation** | for design, md / brand system extraction use design-md or brand-library, for hand-coded react/tailwind builds from a design | 5 | 14 |
-| `april-dunford-positioning` | **April Dunford: B2B Positioning & Sales Pitch Architecture** | the world's most actionable system for answering 'why should customers pick us?, b2b positioning & sales pitch architecture | 16 | 13 |
+| `april-dunford-positioning` | **April Dunford: B2B Positioning & Sales Pitch Architecture** | the world's most actionable system for answering 'why should customers pick us?, b2b positioning & sales pitch architecture | 17 | 13 |
 | `ash-maurya-founder-systems` | **Ash Maurya: Founder Systems Mastery** | problem-first entrepreneurship, lean canvas, customer forces | 13 | 0 |
 | `ash-maurya-lean-metrics` | **ash-maurya-lean-metrics** | ash maurya's running lean operating system — lean canvas business model design, single traction metric discovery, switching-trigger customer segmentation | 3 | 0 |
 | `asset_generator` | **Rank & Rent Asset Generator** | a complete system for identifying low-competition local niches, generating high-fidelity html assets with elevated copy and visuals, elevated) | 0 | 1 |
@@ -124,7 +124,7 @@
 | `gabe-novotny-fitness-content-business` | **gabe-novotny-fitness-content-business** | the cpr (cash per reel) method, fitness content business os | 3 | 0 |
 | `gary-vaynerchuk-attention` | **gary-vaynerchuk-attention** | run a document-don't-create organic content engine, and amplify only proven organic winners, ai + pop culture era | 3 | 0 |
 | `gemini-api-dev` | **gemini-api-dev** | use this skill when building applications with gemini models, gemini api, working with multimodal content (text | 0 | 0 |
-| `geoff-woods-ai-thought-partner` | **geoff-woods-ai-thought-partner** | ai leverage / strategic thinking / operator-ai collaboration, solving a high-stakes problem with ai as a partner instead of a tool, buildin..., communicate via crit | 16 | 0 |
+| `geoff-woods-ai-thought-partner` | **geoff-woods-ai-thought-partner** | ai leverage / strategic thinking / operator-ai collaboration, solving a high-stakes problem with ai as a partner instead of a tool, buildin..., communicate via crit | 17 | 0 |
 | `ghostwriting-voice-engine` | **Ghostwriting Voice Engine** | combines 5 expert methodologies: lara acosta (voice extraction), mitch albom (character embodiment), erica mallet (voice crystallization) | 4 | 0 |
 | `gpt-image-2-director` | **gpt-image-2-director** | gpt image 2, 0 prompt director, converts plain-text concepts into production-ready prompts for gpt image 2 | 3 | 0 |
 | `grace-andrews-media-company` | **Grace Andrews — Media Company Architecture** | content-driven brand architecture: city model transit strategy, trust pathway engineering, consistency × experimentation growth formula | 18 | 0 |
@@ -144,7 +144,7 @@
 | `jay-hiette-coaching-positioning` | **jay-hiette-coaching-positioning** | contrarian message architecture ("people think x, which causes y, but the truth is z") | 3 | 0 |
 | `jen-santulan-listing-content` | **jen-santulan-listing-content** | real estate social media (la / san fernando valley specialist), user is producing instagram content for jen santulan's real-estate practice o..., specifically not for generic real-estate marketing — jen's voice (warm, enthu... | 3 | 0 |
 | `jenny-hoyos-shorts` | **jenny-hoyos-shorts** | short-form viral storytelling, scripting youtube shorts / vertical video, engineering hooks, diagnosing rete..., immediate start | 13 | 0 |
-| `jeremy-haynes-cold-offer` | **jeremy-haynes-cold-offer** | and kept alive by objection-mined dynamic augmentation, use for offer builds, offer audits | 13 | 0 |
+| `jeremy-haynes-cold-offer` | **jeremy-haynes-cold-offer** | and kept alive by objection-mined dynamic augmentation, use for offer builds, offer audits | 14 | 0 |
 | `jeremy-haynes-mindset-systems` | **Jeremy Haynes Mindset Systems** | mindset engineering systems for entrepreneurs — identity versioning, dynamic motivation, pain leverage | 3 | 7 |
 | `jeremy-miner-identity-persuasion` | **Jeremy Miner - Identity-Based Persuasion & Psychological Framing** | sales psychology, identity persuasion, behavioral influence | 11 | 14 |
 | `jessica-jensen-platform-intelligence` | **Jessica Jensen — LinkedIn Platform Intelligence** | platform strategy, b2b marketing, personal branding | 12 | 0 |
@@ -170,7 +170,7 @@
 | `kallaway-content-operating-system` | **Kallaway Content Operating System** | format, substance, script | 1 | 0 |
 | `kallaway-content-psychology` | **Kallaway Content Psychology** | engineer viral content using neurochemical precision, pattern validation, buyer psychology | 10 | 39 |
 | `kallaway-content-system` | **Kallaway Content System** | end-to-end ai-enabled content production system: validated topics, format locking, substance | 9 | 0 |
-| `kallaway-illusion-of-novelty` | **kallaway-illusion-of-novelty** | perception engineering — manufactured novelty (the front-end attention layer), the front-end perception layer of the kallaway stack, stacks into addictive-storytelling for retention | 14 | 0 |
+| `kallaway-illusion-of-novelty` | **kallaway-illusion-of-novelty** | perception engineering — manufactured novelty (the front-end attention layer), the front-end perception layer of the kallaway stack, stacks into addictive-storytelling for retention | 15 | 0 |
 | `kallaway-social-commerce` | **kallaway-social-commerce** | social commerce × distribution economics × monetization infrastructure, monetizes content distribution at social commerce 3, skill.md | 5 | 0 |
 | `kallaway-word-mastery` | **Kallaway Word Mastery & Articulation** | engineer writing that grips, resonates, and converts using rhythm architecture | 15 | 0 |
 | `kieran-flanagan-audience-intelligence` | **Kieran Flanagan - Audience Intelligence** | content-reactive audience profiling, platform-specific style cards, creator style analysis | 4 | 0 |
@@ -228,13 +228,14 @@
 | `matthew-lakajev-linkedin` | **matthew-lakajev-linkedin** | matthew lakajev's linkedin-to-revenue system — offer viability testing, category-of-one niching, language mirroring | 3 | 0 |
 | `matthew-volkwyn-copywriting` | **matthew-volkwyn-copywriting** | dual-lens hooks, named close archive, voice trinity | 3 | 0 |
 | `mcp-builder` | **mcp-builder** | use when building mcp servers to integrate external apis or services, whether in python (fastmcp) or node/typescript (mcp sdk) | 0 | 0 |
-| `meg-heckman-buyer-trigger-os` | **Meg Heckman — Buyer-Trigger OS (Merch, POD & Product Purchase Psychology)** | powers the /merch-os orchestrator, buyer-trigger os | 12 | 0 |
+| `meg-heckman-buyer-trigger-os` | **Meg Heckman — Buyer-Trigger OS (Merch, POD & Product Purchase Psychology)** | powers the /merch-os orchestrator, buyer-trigger os | 13 | 0 |
 | `michael-bernoff-identity-engineering` | **Michael Bernoff Identity Engineering** | identity engineering and communication mastery frameworks for transforming pr... | 4 | 14 |
 | `michael-connelly-vivid-writing` | **Michael Connelly Vivid Writing** | momentum prose, character-through-everything, subtext dialogue | 16 | 0 |
 | `michael-israetel-hypertrophy` | **michael-israetel-hypertrophy** | mike israetel / renaissance periodization hypertrophy science — needs analysis, volume landmarks (mev/mav/mrv), mesocycle + deload design | 3 | 0 |
 | `michael-margolis-user-research` | **michael-margolis-user-research** | michael margolis's (ux research partner, then validate with 5 interviews, 3 comparison prototypes | 3 | 0 |
 | `mike-foutia-marketing-tools` | **Mike Foutia — Marketing Tools** | social, reviews, marketplaces) into deployable ad briefs and internal tool blueprints | 3 | 9 |
 | `mike-sherrard-realtor-branding` | **mike-sherrard-realtor-branding** | hormozi's brand framework applied to realtors, the four content mistakes that produce zero leads, hvc content structure | 3 | 0 |
+| `mike-taylor-synthetic-research` | **Mike Taylor — Synthetic Customer Research OS** | 17 genius patterns, 7 workflows across 3 tiers, co-author, o'reilly's prompt engineering for generative ai, co-founder, ask rally (synthetic-audience simulator) | 7 | 0 |
 | `mitch-albom-writing-mastery` | **Mitch Albom — Theme-First Writing & Emotional Architecture** | grounded in his 2026 how i write interview with david perell, build the story backward as a tool), the tether/cord discipline | 13 | 31 |
 | `monk-ai-offer-architecture` | **Monk.Ai - AI Consulting Offer Architecture** | multi-stakeholder enterprise sales, proposal engineering, client ascension | 4 | 17 |
 | `nate-b-jones-agent-deployment-strategy` | **Nate B. Jones — Agent Deployment Strategy** | ai agent deployment strategy — specification engineering, risk containment, progressive delegation | 2 | 6 |
@@ -325,7 +326,7 @@
 | `semantic-document-library-os` | **Semantic Document Library OS** | ai/automation - semantic work primitives, agent-readable knowledge systems, document architecture | 6 | 0 |
 | `seth-godin-brand` | **seth-godin-brand** | brand architecture × trust engineering × marketing operations, covers brand promise architecture, trust engineering | 10 | 0 |
 | `seth-godin-ideavirus` | **Seth Godin — Ideavirus Mastery** | complete viral marketing and idea propagation system from seth godin's unleas..., ideavirus mastery | 6 | 26 |
-| `seth-godin-marketing-mind` | **seth-godin-marketing-mind** | strategic marketing reasoning × premise interrogation × business-model diagnosis, extracted from his two-part mel robbins interview (released 2026-07-16), the 4th godin layer | 15 | 0 |
+| `seth-godin-marketing-mind` | **seth-godin-marketing-mind** | strategic marketing reasoning × premise interrogation × business-model diagnosis, extracted from his two-part mel robbins interview (released 2026-07-16), the 4th godin layer | 16 | 0 |
 | `seth-godin-philosophy` | **Seth Godin — Strategic Philosophy** | complete operating philosophy for overcoming resistance, shipping creative work, and doing what matters for people who care | 8 | 0 |
 | `shaan-puri-storytelling` | **Shaan Puri Storytelling Mastery** | storytelling and audience building frameworks for emotion-first content that... | 6 | 16 |
 | `shan-hanif-audience-monetization` | **Shan Hanif: Audience Monetization** | turn unqualified linkedin leads into a high-profit digital product backend wh..., audience monetization | 2 | 4 |

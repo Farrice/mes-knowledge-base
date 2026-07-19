@@ -45,3 +45,4 @@
 {"timestamp": "2026-07-19T00:26:47.393078", "workflow": "extract-forge", "skill": "creative-campaign-strategy", "expert": "ron-lynch", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-07-19T07:56:33.785656", "workflow": "extract-forge", "skill": "david-baldacci-books-that-sell", "expert": "david-baldacci", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-07-19T08:11:50.163015", "workflow": "extract-forge", "skill": "oren-dara-ad-psychology", "expert": "oren-dara", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-07-19T10:55:38.032360", "workflow": "extract-forge", "skill": "mike-taylor-synthetic-research", "expert": "mike-taylor", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}

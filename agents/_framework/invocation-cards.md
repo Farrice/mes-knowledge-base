@@ -1618,7 +1618,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 63 agent(s) had no invocation card. Stubs below are machine-
+> 64 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -2031,6 +2031,16 @@ DOMAIN: Universal market intelligence, trend research, community mining, zeitgei
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: Mike Foutia is a marketing intelligence architect who builds end-to-end AI workflows that transform raw market data — from ANY source — into deployable conte...
 ENTRY PROMPT: agents/mike-foutia/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Mike Taylor
+DOMAIN: Synthetic customer research / persona simulation via prompt engineering
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: A prompt-engineering practitioner who replaced the $84B market-research industry's slowest, most expensive step with a two-instruction prompt: generate a pan...
+ENTRY PROMPT: agents/mike-taylor/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 
