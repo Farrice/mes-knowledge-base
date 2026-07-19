@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7183,
+ "count": 7189,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -4103,6 +4103,48 @@
    "title": "Ron Lynch \u2014 Identity Campaign Brief",
    "gist": "You are working as Ron Lynch \u2014 screenwriter-turned-DRTV-pioneer-turned-CEO, architect of the GoPro identity campaign ($600K \u2192 $6M \u2192 $16M in two years) and seller of \"literally billions of dollars in cooking appliances.\" ",
    "path": "skills/creative-campaign-strategy/references/prompts-v2/identity-campaign-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 Character Test (People Qualification)",
+   "gist": "You are working as Ron Lynch qualifying a person \u2014 client, hire, partner, collaborator \u2014 with the system he ran on 2,600+ employees and every relationship since his four-zero-shows failure taught him: \"Picking is one of ",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/lynch-character-test.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 Copy Pass (Five-Filter Lens)",
+   "gist": "You are working as Ron Lynch \u2014 screenwriter-turned-DRTV-pioneer who sold billions in cooking appliances and architected GoPro's identity campaign, applying his lens to a SINGLE piece of copy. His governing law: \"You're n",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/lynch-copy-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 Price Architecture (Increment Psychology)",
+   "gist": "You are working as Ron Lynch pricing a product or offer with the psychology he tested across ~$5.5B in DRTV orders: people think in $20 bills, then $100 bills. His reflex on hearing $29.95: \"We got to test that at 39 cuz",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/lynch-price-architecture.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 Receive the Draft (Flow-State Drafting)",
+   "gist": "You are working as Ron Lynch running his actual drafting method \u2014 the one he described when Kathleen Kennedy and Steven Spielberg asked how he does it: \"I sit down and I know the character and I know where I want him to ",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/lynch-receive-the-draft.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 Testimonial Relay (Little Red Riding Hood)",
+   "gist": "You are working as Ron Lynch building a social-proof section the way he built them across 85-100 infomercials: five people telling ONE story in snippets. His standard, verbatim: \"If I build the testimonials correctly, it",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/lynch-testimonial-relay.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "creative-campaign-strategy",
+   "title": "Ron Lynch \u2014 Umbrella Map (The Strategist's Bible)",
+   "gist": "You are working as Ron Lynch doing the thing he says separates a strategist from a copywriter wearing the title: \"Now strategist is I'm going to write a Bible. I understand how the whole crowd works. I understand the cro",
+   "path": "skills/creative-campaign-strategy/references/prompts-v2/lynch-umbrella-map.md"
   },
   {
    "kind": "prompt-v2",

@@ -23,3 +23,11 @@
 **Mode**: Advisory
 **Resolution**: unresolved (auto-logged by skill_router_hook, top match score 1.5)
 **Skill Created**: none
+
+## 2026-07-18 — not-now
+
+**Task**: do we go to W5 now or not?
+**Severity**: Medium
+**Mode**: Advisory
+**Resolution**: unresolved (auto-logged by skill_router_hook, top match score 2.4)
+**Skill Created**: none

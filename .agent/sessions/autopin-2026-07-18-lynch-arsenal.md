@@ -1,0 +1,7 @@
+# Lynch Arsenal — Amplification Report
+
+**Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
+
+**Artifacts:** /Users/farricecain/Google Antigravity/skills/creative-campaign-strategy/references/prompts-v2/lynch-receive-the-draft.md, /Users/farricecain/Google Antigravity/skills/creative-campaign-strategy/references/prompts-v2/lynch-umbrella-map.md, /Users/farricecain/Google Antigravity/skills/creative-campaign-strategy/SKILL.md, /Users/farricecain/Google Antigravity/agents/ron-lynch/AGENT.md, /Users/farricecain/Google Antigravity/deliverables/2026-07-18-lynch-arsenal/amplification-report.md
+
+**Retrieve:** `/resume 2026-07-18-lynch-arsenal`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).

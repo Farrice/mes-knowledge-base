@@ -13,7 +13,7 @@ Tier-gated loading: pick the ONE skill below relevant to the request and load it
 | mark-kashef-ai-councils | `skills/mark-kashef-ai-councils/SKILL.md` | `skills/mark-kashef-ai-councils/genius.md` | `skills/mark-kashef-ai-councils/workflows/01-council-infrastructure-blueprint.md` |
 | mark-kashef-banana-squad | `skills/mark-kashef-banana-squad/SKILL.md` | `skills/mark-kashef-banana-squad/genius.md` | `skills/mark-kashef-banana-squad/workflows/banana-squad-system-deployment.md` |
 | mark-kashef-claude-claw | `skills/mark-kashef-claude-claw/SKILL.md` | `skills/mark-kashef-claude-claw/genius.md` | `skills/mark-kashef-claude-claw/workflows/bridge-infrastructure-blueprint.md` |
-| mark-kashef-silver-platter-agentic-os | `skills/mark-kashef-silver-platter-agentic-os/SKILL.md` | (none) | (none) |
+| mark-kashef-silver-platter-agentic-os | `skills/mark-kashef-silver-platter-agentic-os/SKILL.md` | `skills/mark-kashef-silver-platter-agentic-os/genius.md` | `skills/mark-kashef-silver-platter-agentic-os/workflows/assemble-and-render-data-map.md` |
 | mark-kashef-visual-design | `skills/mark-kashef-visual-design/SKILL.md` | `skills/mark-kashef-visual-design/genius.md` | `skills/mark-kashef-visual-design/workflows/01-ascii-wireframe-generator.md` |
 | mark-kashef-wargame-os | `skills/mark-kashef-wargame-os/SKILL.md` | `skills/mark-kashef-wargame-os/genius.md` | `skills/mark-kashef-wargame-os/workflows/wargame-order.md` |
 

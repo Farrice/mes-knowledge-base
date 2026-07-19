@@ -13,7 +13,7 @@ Tier-gated loading: pick the ONE skill below relevant to the request and load it
 | luke-iha-client-mastery | `skills/luke-iha-client-mastery/SKILL.md` | `skills/luke-iha-client-mastery/genius.md` | `skills/luke-iha-client-mastery/workflows/paid-to-feel-judgment.md` |
 | luke-iha-copy-blocks | `skills/luke-iha-copy-blocks/SKILL.md` | `skills/luke-iha-copy-blocks/genius.md` | `skills/luke-iha-copy-blocks/workflows/ad-script-writer.md` |
 | luke-iha-creative-strategy | `skills/luke-iha-creative-strategy/SKILL.md` | `skills/luke-iha-creative-strategy/genius.md` | `skills/luke-iha-creative-strategy/workflows/client-acquisition-engine.md` |
-| luke-iha-cross-domain | `skills/luke-iha-cross-domain/SKILL.md` | (none) | `skills/luke-iha-cross-domain/workflows/client-portfolio-builder.md` |
+| luke-iha-cross-domain | `skills/luke-iha-cross-domain/SKILL.md` | `skills/luke-iha-cross-domain/genius.md` | `skills/luke-iha-cross-domain/workflows/client-portfolio-builder.md` |
 | luke-iha-insight-vectors | `skills/luke-iha-insight-vectors/SKILL.md` | `skills/luke-iha-insight-vectors/genius.md` | `skills/luke-iha-insight-vectors/workflows/insight-vector-generator.md` |
 | luke-iha-million-dollar-mechanisms | `skills/luke-iha-million-dollar-mechanisms/SKILL.md` | `skills/luke-iha-million-dollar-mechanisms/genius.md` | `skills/luke-iha-million-dollar-mechanisms/workflows/little-big-idea-finder.md` |
 | luke-iha-proof-ladder | `skills/luke-iha-proof-ladder/SKILL.md` | `skills/luke-iha-proof-ladder/genius.md` | `skills/luke-iha-proof-ladder/workflows/proof-copy-engine.md` |

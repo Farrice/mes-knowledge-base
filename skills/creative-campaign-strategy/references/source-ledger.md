@@ -57,3 +57,58 @@ factual claims introduced.
 2. `wc -c extractions/ron-lynch/transcript.txt` → 67,446 bytes (file is real, non-empty, fully readable — not a broken/0-byte extraction).
 3. Read the transcript in full (single Read call, no truncation) and cross-checked every genius.md claim against it.
 4. Claims with no matching passage were labeled UNCONFIRMED, not silently dropped — flagged inline in genius.md at the exact section where they occur so a reader hits the caveat in context, not just in this ledger.
+
+## Amplification pass 2026-07-18 (three new workflows + prompts)
+
+Ground truth unchanged: `extractions/ron-lynch/transcript.txt`, re-read in full
+for this pass. New workflow/prompt quotes, claim-by-claim:
+
+| Item (workflow) | Label | Anchor |
+|---|---|---|
+| "selling an identity... We sold bravery" (copy-pass F1) | VERIFIED | transcript.txt, GoPro identity passage (appears twice: cold open + mid-interview) |
+| "write in the customer's voice... inside the head of the person who will be receiving this" (copy-pass F2) | VERIFIED | transcript.txt, customer-voice passage after screenwriting exchange |
+| Chess-player-to-checkers-player register, "edge of authority... compassion and empathy" (copy-pass F3) | VERIFIED | transcript.txt, doctor-voice/authority passage |
+| "complicated idea... into metaphor form... That's when you become excellent" (copy-pass F4) | VERIFIED | transcript.txt, metaphor/Jordan Peterson/Jesus passage |
+| "I write the right side of the script. I write the visuals" + double-your-salary line (copy-pass F5) | VERIFIED | transcript.txt, closing "I'm not a copywriter, I'm a writer" passage |
+| "you want to make this. Oh, you need the appliance to do it" (copy-pass F5) | VERIFIED | transcript.txt, food-first appliance passage |
+| "I know the beginning and the end, but I don't know the middle" + "taking dictation / watching the movie" (receive-the-draft S2-S3) | VERIFIED | transcript.txt, Kennedy & Spielberg passage (appears twice: cold open + full version) |
+| "All great art comes from beyond" + turned-off filter of acceptance (receive-the-draft S1) | VERIFIED | transcript.txt, receptive-filter exchange |
+| "If I hear an I can't, that's an alarm bell" + "with risk comes reward" (receive-the-draft S1) | VERIFIED | transcript.txt, rewriting-stories passage |
+| Doors-in-the-pool: "The first one is always agonizing... water starts flooding in... becomes part of your identity" (receive-the-draft S4) | VERIFIED | transcript.txt, dry-pool metaphor passage |
+| "internal defiance. Otherwise, you're complacent" (receive-the-draft S4) | VERIFIED | transcript.txt, same passage, following lines |
+| "flow state is magic... It's that or it's rest" (receive-the-draft S3) | VERIFIED | transcript.txt, flow-state passage (cold open + full version) |
+| Strategist's Bible: crowd parse, "three benefits and one audience... 10 times with 10 different audiences... all roads lead to Rome... three different offers to match their personal economics" (umbrella-map S1-S5) | VERIFIED | transcript.txt, "Now strategist is..." passage |
+| Beachhead sequencing: "the customer we have to win first... backfill to here's the language" (umbrella-map S3, S5) | VERIFIED | transcript.txt, umbrella/strategist-department passage |
+| "a financial game as much as it is a creative game" (umbrella-map S3) | VERIFIED | transcript.txt, same passage |
+| "marketing business of their business... marketing soap business" (umbrella-map S6) | VERIFIED | transcript.txt, soap-business passage |
+| Winners-data-mining "That's copywriting" anti-pattern (umbrella-map header) | VERIFIED | transcript.txt, strategy-vs-copywriting exchange (already anchored in Anti-Patterns section above) |
+| George Foreman wrong-hypothesis example (umbrella-map prompt, Creative Latitude) | VERIFIED | transcript.txt, George Foreman Grill passage (already anchored above) |
+
+## Expansion pass 2026-07-19 (Sources 2-3)
+
+New ground truth: `extractions/ron-lynch/transcript-2-dOM.txt` (Marketing Misfits
+w/ Norm Farrar & Kevin King, 12,885 words, youtube dOM-_4JHRRE) and
+`transcript-3-V8BD.txt` (Joe Polish / Genius Network, 9,175 words, youtube
+V8BDV3KLt5U) — both read in full this pass. Visual context: transcript-2 frames
+fetched (100, talking-head podcast, no on-screen artifacts — transcript carries
+the material); transcript-3 video download failed (captions complete).
+
+| Item | Label | Anchor |
+|---|---|---|
+| Four $100M+ shows then four zeros; "quit thinking I was the magic... picking really poor products based upon my ego" (GP-13) | VERIFIED | transcript-2, failure passage; retold transcript-3 ("I was picking me... Pop.") |
+| Little Red Riding Hood testimonial relay (GP-14) | VERIFIED | transcript-2, testimonial passage |
+| $20-bill/$100-bill increments, $19.95/39.95/59.95/99.95 ladder, "left 10 bucks on the table", 14 test versions (GP-15) | VERIFIED | transcript-2, pricing passage |
+| Innovation/Audience/Margin/Story criteria + highest-retail anchor + Walmart 50% (GP-16) | VERIFIED | transcript-3, cold open + $25K-day passage |
+| $1,000 coffee, 80% knockout, $5K/$25K consult ladder, 20-40 page document (GP-17) | VERIFIED | transcript-3, coffee passage |
+| Character-traits test, 2,600 employees, keeper/walk tells, integrity both halves (GP-18) | VERIFIED | transcript-3, test passage |
+| Mac-and-cheese repositioning kiosk; Circle "finally your favorite beverage" (GP-19) | VERIFIED | transcript-3, grocery + Circle passages |
+| 28:30 infomercial anatomy (tease/acts/commercial at 7-8 + 21/radical demo ~25) | VERIFIED | transcript-2, structure passage |
+| Billy Mays over-the-top demonstration doctrine | VERIFIED | transcript-2 ("make it over the top and outlandish") |
+| Sunk-time close; "the industry actually took over everything"; TikTok = short-form infomercial (HK-13) | VERIFIED | transcript-2, cold open + evolution passage |
+| Trust default + snake/Eve apple-taste (HK-14) | VERIFIED | transcript-2, trust passage |
+| "It's not even the food, it's the reaction" (HK-15) | VERIFIED | transcript-2 |
+| Attention's two doors: super-familiar / never-seen (HK-16) | VERIFIED | transcript-2, attention passage |
+| "Choice causes confusion and confusion creates no's" + multi-cooker flop | VERIFIED | transcript-2, failure exchange |
+| $5.5B DRTV, 85-100 long-form, 350-400 short-form, 70+ brands, first show $80M/6mo | VERIFIED-IN-SOURCE | transcript-3 host bio + transcript-2 self-report; not independently confirmed outside the interviews |
+| Lars and the Real Girl option story (no writing credit) | VERIFIED-IN-SOURCE | transcript-2, origin passage; external verification not performed |
+| Jeff Bridges "write — the writers are always working"; Kathleen Kennedy via Dana Middleton check-stand story | VERIFIED-IN-SOURCE | transcript-2 + transcript-3 (told in both) |

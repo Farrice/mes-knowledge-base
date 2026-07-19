@@ -41,3 +41,5 @@
 {"timestamp": "2026-07-15T08:42:53.906934", "workflow": "extract-forge", "skill": "jeremy-haynes-cold-offer", "expert": "jeremy-haynes", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-07-15T09:24:55.413606", "workflow": "extract-forge", "skill": "tommy-clark-linkedin-growth", "expert": "tommy-clark", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-07-16T11:24:56.930175", "workflow": "extract-forge", "skill": "jenny-hoyos-shorts", "expert": "jenny-hoyos", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-07-19T00:26:44.944982", "workflow": "extract-forge", "skill": "creative-campaign-strategy", "expert": "ron-lynch", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-07-19T00:26:47.393078", "workflow": "extract-forge", "skill": "creative-campaign-strategy", "expert": "ron-lynch", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}

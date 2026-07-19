@@ -9,7 +9,7 @@ Tier-gated loading: pick the ONE skill below relevant to the request and load it
 
 | Skill | Tier 1 (SKILL.md path) | Tier 2 (genius.md path) | Flagship workflow |
 |-------|------------------------|-------------------------|-------------------|
-| forge-os | `skills/forge-os/SKILL.md` | (none) | `skills/forge-os/workflows/raw-intent-bridge.md` |
+| forge-os | `skills/forge-os/SKILL.md` | `skills/forge-os/genius.md` | `skills/forge-os/workflows/raw-intent-bridge.md` |
 
 If the request fits a full structured run (not just a quick application), OFFER the loaded skill's flagship workflow; each skill's 'Available Workflows' table and its `references/prompts-v2/` execution prompts cover the other processes.
 

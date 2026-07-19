@@ -12,7 +12,7 @@ Tier-gated loading: pick the ONE skill below relevant to the request and load it
 | kallaway-addictive-storytelling | `skills/kallaway-addictive-storytelling/SKILL.md` | `skills/kallaway-addictive-storytelling/genius.md` | `skills/kallaway-addictive-storytelling/workflows/addiction-copy-engine.md` |
 | kallaway-ai-content-engine | `skills/kallaway-ai-content-engine/SKILL.md` | `skills/kallaway-ai-content-engine/genius.md` | `skills/kallaway-ai-content-engine/workflows/ai-content-operations.md` |
 | kallaway-audience-obsession | `skills/kallaway-audience-obsession/SKILL.md` | `skills/kallaway-audience-obsession/genius.md` | `skills/kallaway-audience-obsession/workflows/bankshot-suggestion-engine.md` |
-| kallaway-content-operating-system | `skills/kallaway-content-operating-system/SKILL.md` | (none) | `skills/kallaway-content-operating-system/workflows/trend-hook-radar.md` |
+| kallaway-content-operating-system | `skills/kallaway-content-operating-system/SKILL.md` | `skills/kallaway-content-operating-system/genius.md` | `skills/kallaway-content-operating-system/workflows/trend-hook-radar.md` |
 | kallaway-content-psychology | `skills/kallaway-content-psychology/SKILL.md` | `skills/kallaway-content-psychology/genius.md` | `skills/kallaway-content-psychology/workflows/strategic-market-architecture.md` |
 | kallaway-content-system | `skills/kallaway-content-system/SKILL.md` | `skills/kallaway-content-system/genius.md` | `skills/kallaway-content-system/workflows/revenue-ramp-builder.md` |
 | kallaway-illusion-of-novelty | `skills/kallaway-illusion-of-novelty/SKILL.md` | `skills/kallaway-illusion-of-novelty/genius.md` | `skills/kallaway-illusion-of-novelty/workflows/novelty-angles.md` |

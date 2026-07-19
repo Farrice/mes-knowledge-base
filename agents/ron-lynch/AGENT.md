@@ -38,6 +38,12 @@ Screenwriter-turned-DRTV pioneer-turned-CEO. Architect of the GoPro identity cam
 | `/lynch-customer-media` | Engineer customer-as-media systems |
 | `/lynch-transformation-sell` | Transformation-first sales creative |
 | `/lynch-campaign-ecosystem` | Full self-reinforcing campaign ecosystem |
+| `/lynch-copy-pass` | Five-filter Lynch lens on any single piece of copy (daily deployment) |
+| `/lynch-receive-the-draft` | Flow-state drafting: fix endpoints, receive the middle, "I can't" alarm |
+| `/lynch-umbrella-map` | Strategist's Bible: audience parse × beachhead sequencing × offer tiers |
+| `/lynch-testimonial-relay` | 5 voices, 1 story: sequenced-snippet social proof |
+| `/lynch-price-architecture` | Increment pricing, margin anchoring, test-up ladders |
+| `/lynch-character-test` | People qualification: coffee filter + admired-three traits test |
 | `/lynch-media-match` | Segment-specific creative per channel |
 | `/lynch-modular-script` | Modular script → multiple standalone assets |
 | `/lynch-counter-identity` | Aspirational identity design from real behavior |

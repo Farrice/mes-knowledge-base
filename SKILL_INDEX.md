@@ -33,7 +33,7 @@
 | `asset_generator` | **Rank & Rent Asset Generator** | a complete system for identifying low-competition local niches, generating high-fidelity html assets with elevated copy and visuals, elevated) | 0 | 1 |
 | `attention-hijack-hooks` | **Attention Hijack Hooks** | universal attention-anchor and hook intelligence system for brandjacking, newsjacking, namejacking | 5 | 0 |
 | `authority-hacker-ai-social-media` | **Authority Hacker: AI Social Media Mastery** | deploy ai as a social media co-pilot that packages human insight into emotion..., ai social media mastery | 3 | 12 |
-| `banana-pro-director` | **banana-pro-director** | higgsfield image prompt director for banana pro, soul cinema, and gpt-2, (1) single-image character outfit — banana pro or soul cinema two-step, (3) cinematic scene plates with or without characters | 0 | 0 |
+| `banana-pro-director` | **banana-pro-director** | higgsfield image prompt director for banana pro, soul cinema, and gpt-2, (1) single-image character outfit — banana pro or soul cinema two-step, (3) cinematic scene plates with or without characters | 3 | 0 |
 | `ben-watkins-storytelling` | **Ben Watkins — Commercial Storytelling & The Pitch Room** | grounded in his 2026 anatomy of a dream interview, 18 workflows for the four pillars (attention → feel → teach → leave wanting), the 3 c's titanic stack | 18 | 0 |
 | `benjamin-hardy-identity` | **benjamin-hardy-identity** | 10x-is-easier-than-2x goal architecture, frame/floor/focus elimination, and operating from your future self instead of toward it | 3 | 0 |
 | `bill-browder-high-stakes-narrative` | **Bill Browder — High-Stakes Narrative Nonfiction** | weaponized readability from the hedge-fund manager who turned depositions, preferred shares, and a murdered lawyer into international bestsellers (red notice | 13 | 0 |
@@ -56,7 +56,7 @@
 | `chief-of-staff-os` | **Chief of Staff OS** | cos v3 — the standing board, state: `, agent/cos/` (deterministic, private) | 4 | 0 |
 | `chris-cimorelli-copywriting` | **Chris Cimorelli — Financial Direct Response Copywriting** | 3% instead of 1%+, for non-financial dr campaigns use bond-halbert-copywriting, for sentence-level dopamine copy use stefan-georgi-dopamine-copy | 5 | 0 |
 | `chris-do-design-business` | **chris-do-design-business** | positioning by reframing the dominant competitor, premium/value-based pricing, selling without being salesy (sales = serve/ask/listen/empathize/summarize) | 3 | 0 |
-| `cinema-worldbuilder-pro` | **cinema-worldbuilder-pro** | user-defined element tags (e, @sol_ref, @berlin_plate) instead of image indices, diegetic audio only, no music, no lyrics | 0 | 0 |
+| `cinema-worldbuilder-pro` | **cinema-worldbuilder-pro** | user-defined element tags (e, @sol_ref, @berlin_plate) instead of image indices, diegetic audio only, no music, no lyrics | 5 | 0 |
 | `cinematic-documentary` | **cinematic-documentary** | cinematic documentary × character architecture × narrative direction, emotion over information ("find the egg sushi"), audience treated as parallel character on transformation arc | 13 | 0 |
 | `claim-safe-health-marketing` | **Claim-Safe Health Marketing** | regulatory compliance, health/supplement marketing, ftc/fda/dshea claim substantiation | 5 | 0 |
 | `coaching-business-os` | **coaching-business-os** | positioning, content monetization, client acquisition | 2 | 0 |
@@ -66,7 +66,7 @@
 | `corey-mcclain-persona-engineering` | **corey-mcclain-persona-engineering** | ai agent architecture × context engineering, adds a narrative identity layer (persona) on top of logic, library | 20 | 0 |
 | `craig-clemens-copywriting` | **Craig Clemens — Education-First Direct-Response Copywriting** | billion-dollar dr copy engine behind golden hippo's $2b+ empire, education-first direct-response copywriting | 6 | 0 |
 | `creative-assembly` | **creative-assembly** | creative production, multi-expert parallel production pipeline with structured handoffs and qualit... | 0 | 3 |
-| `creative-campaign-strategy` | **creative-campaign-strategy** | identity-first campaign architecture × drtv × customer-as-media engineering, billions sold in cooking appliances, architected gopro's $600k → $16m campaign in 2 years | 17 | 0 |
+| `creative-campaign-strategy` | **creative-campaign-strategy** | identity-first campaign architecture × drtv × customer-as-media engineering, billions sold in cooking appliances, architected gopro's $600k → $16m campaign in 2 years | 23 | 0 |
 | `creative-direction` | **creative-direction** | covers higgsfield, kittl, midjourney, and flux platforms | 0 | 0 |
 | `dai-media-consumer-posture` | **Dai Media - Consumer Posture Framework** | consumer posture framework for identity-based brand strategy from dai media, consumer posture framework | 3 | 9 |
 | `dakota-content-design` | **dakota-content-design** | 70k+ followers gained in 2025 and 20m+ views in 90 days from carousels alone, no reels, covers carousel-vs-reels algorithm arbitrage | 3 | 0 |
@@ -89,7 +89,7 @@
 | `david-mcraney-belief-change` | **David McRaney: Belief Change Architecture** | complete belief change architecture — from psychological diagnosis through pe..., belief change architecture | 14 | 14 |
 | `david-perell-writing` | **david-perell-writing** | david perell's own writing methodology — pop writing (personal, observational, playful) | 3 | 0 |
 | `david-placek-naming` | **David Placek — Brand Naming Science** | brand naming science — applied linguistics, creative strategy, sound symbolism | 6 | 11 |
-| `deliberate` | **deliberate** | built for high-stakes decisions where opaque single-model output is risky, distinct from /council (single-model multi-persona), this is single-prompt multi-model | 0 | 0 |
+| `deliberate` | **deliberate** | built for high-stakes decisions where opaque single-model output is risky, distinct from /council (single-model multi-persona), this is single-prompt multi-model | 1 | 0 |
 | `design-md` | **design-md** | author, extract, validate, and operate on design, brand systems as code | 7 | 0 |
 | `deya-business-systems` | **deya-business-systems** | problem-severity pricing, remarkable offer engineering, beta price ladders | 3 | 0 |
 | `diandra-escobar-linkedin-growth` | **Diandra Escobar - LinkedIn Growth Mastery** | newsjacking, namejacking, hot takes) | 22 | 0 |
@@ -110,11 +110,11 @@
 | `ethan-smith-aeo` | **Ethan Smith — AEO (Answer Engine Optimization)** | answer engine optimization — rag citation mechanics, experimental methodology, aeo strategy architecture | 3 | 8 |
 | `eugene-teo-training` | **Eugene Teo — Minimalist Strength Training** | strength, mobility, endurance) in under 2 hours a week by removing redundancy | 3 | 0 |
 | `evan-spiegel-distribution-architecture` | **evan-spiegel-distribution-architecture** | distribution-first product strategy × defensible moats × founder evolution, methodology covers defensible distribution moats, "make don't think" velocity | 13 | 0 |
-| `expert-assembly-os` | **Expert Assembly OS** | hybrid expert panel system — roster selection + bespoke persona synthesis + m... | 0 | 0 |
+| `expert-assembly-os` | **Expert Assembly OS** | hybrid expert panel system — roster selection + bespoke persona synthesis + m... | 2 | 0 |
 | `extract-mastery` | **MES 3.0 — Mastery Extraction & Expert Replication** | forges it into copy-paste-deployable crown jewel prompts, and designs the pathway to surpass the original expert within 30 days, mastery extraction & expert replication | 3 | 0 |
 | `fantastic-posters` | **fantastic-posters** | 0 + kling v3 pro, image-to-video bridge — any poster output becomes a video input frame | 14 | 0 |
 | `fareed-zakaria-writing-mastery` | **Fareed Zakaria: Writing Mastery** | for memoir / narrative-personal work use lamott-craft, writing mastery | 5 | 36 |
-| `forge-os` | **forge-os** | the forge — cornerstone generation suite, model-dialect adaptive and platform-portable, extends the existing generators | 0 | 0 |
+| `forge-os` | **forge-os** | the forge — cornerstone generation suite, model-dialect adaptive and platform-portable, extends the existing generators | 5 | 0 |
 | `fraser-cottrell-paid-ads` | **fraser-cottrell-paid-ads** | villain-vs-hero script architecture, and the 6-format static ad library, validated across ~$300-450m in managed meta spend and 8 | 3 | 0 |
 | `fresh-voice-system` | **Fresh Voice System** | combines voice dna (tone, comedy, rhythm) with serial storytelling architecture (arc design | 3 | 0 |
 | `frontend-design` | **frontend-design** | create distinctive, production-grade frontend interfaces with high design quality, use this skill when the user asks to build web components | 0 | 0 |
@@ -125,7 +125,7 @@
 | `gemini-api-dev` | **gemini-api-dev** | use this skill when building applications with gemini models, gemini api, working with multimodal content (text | 0 | 0 |
 | `geoff-woods-ai-thought-partner` | **geoff-woods-ai-thought-partner** | ai leverage / strategic thinking / operator-ai collaboration, solving a high-stakes problem with ai as a partner instead of a tool, buildin..., communicate via crit | 16 | 0 |
 | `ghostwriting-voice-engine` | **Ghostwriting Voice Engine** | combines 5 expert methodologies: lara acosta (voice extraction), mitch albom (character embodiment), erica mallet (voice crystallization) | 4 | 0 |
-| `gpt-image-2-director` | **gpt-image-2-director** | gpt image 2, 0 prompt director, converts plain-text concepts into production-ready prompts for gpt image 2 | 0 | 0 |
+| `gpt-image-2-director` | **gpt-image-2-director** | gpt image 2, 0 prompt director, converts plain-text concepts into production-ready prompts for gpt image 2 | 3 | 0 |
 | `grace-andrews-media-company` | **Grace Andrews — Media Company Architecture** | content-driven brand architecture: city model transit strategy, trust pathway engineering, consistency × experimentation growth formula | 18 | 0 |
 | `greg-hickman-service-scaling` | **greg-hickman-service-scaling** | pre-sell a productized prototype at founder pricing, land the first 5 clients from warm pipeline via icp interviews, service provider scaling & productization | 3 | 0 |
 | `greg-hoffman-brand-mastery` | **Greg Hoffman: Brand Mastery** | for personal-brand mechanics use seth-godin-brand, for cult/magnetism on a smaller scale use erica-mallet-brand-magnetism, brand mastery | 6 | 0 |
@@ -133,8 +133,8 @@
 | `harry-dry-copywriting` | **Harry Dry Copywriting** | for full campaign architecture use bond-halbert-copywriting, for dopamine craft use stefan-georgi-dopamine-copy, for big-idea methodology use chris-cimorelli-copywriting | 5 | 14 |
 | `henrik-werdelin-portfolio-entrepreneurship` | **henrik-werdelin-portfolio-entrepreneurship** | donkeycorn business design ($1m sustainable ventures, not unicorn-or-nothing), relationship-capital moats (depth/density/durability) | 3 | 0 |
 | `henry-shukman-contemplative-writing` | **Henry Shukman — Contemplative & Poetic Writing** | contemplative, poetic, and personal-essay mastery from the poet | 13 | 0 |
-| `higgsfield-creative-studio` | **higgsfield-creative-studio** | orchestrates gpt image 2 | 0 | 0 |
-| `how-i-write-os` | **How-I-Write OS — Master Writing Conductor** | cross-cutting writing × composition × reader impact, picks the smallest sufficient stack of forged experts (3-6, never all 10) | 0 | 0 |
+| `higgsfield-creative-studio` | **higgsfield-creative-studio** | orchestrates gpt image 2 | 2 | 0 |
+| `how-i-write-os` | **How-I-Write OS — Master Writing Conductor** | cross-cutting writing × composition × reader impact, picks the smallest sufficient stack of forged experts (3-6, never all 10) | 1 | 0 |
 | `internal-comms` | **internal-comms** | a set of resources to help me write all kinds of internal communications, using the formats that my company likes to use, leadership updates | 0 | 0 |
 | `jack-roberts-design-mastery` | **Jack Roberts: Design Mastery** | code-first design system that codifies visual excellence into reusable design, design mastery | 15 | 0 |
 | `james-i-bond-brain-glue` | **James I. Bond — Brain Glue** | deploy brain glue stickiness across offers, sales copy, social content | 12 | 0 |
@@ -217,12 +217,12 @@
 | `mark-kashef-ai-councils` | **Mark Kashef AI Councils** | shared reasoning, and structured debate | 3 | 7 |
 | `mark-kashef-banana-squad` | **Mark Kashef — Banana Squad Image Agent Team** | ai-powered image generation via multi-agent orchestration using the paperbana..., banana squad image agent team | 3 | 4 |
 | `mark-kashef-claude-claw` | **Mark Kashef: Claude Claw — Agent SDK Bridge Architecture** | full capability access from your phone, claude claw — agent sdk bridge architecture, agent sdk bridge architecture | 4 | 3 |
-| `mark-kashef-silver-platter-agentic-os` | **Mark Kashef Silver Platter Agentic OS** | audit an operator's business tools, map pantry -> prep -> plate, orchestrators | 0 | 0 |
+| `mark-kashef-silver-platter-agentic-os` | **Mark Kashef Silver Platter Agentic OS** | audit an operator's business tools, map pantry -> prep -> plate, orchestrators | 3 | 0 |
 | `mark-kashef-visual-design` | **Mark Kashef — Visual Blueprint Methodology** | ascii wireframe-first visual planning system that aligns human vision with ai..., visual blueprint methodology | 5 | 0 |
 | `mark-kashef-wargame-os` | **Mark Kashef Wargame OS** | wargame, wargaming, battle plan | 10 | 0 |
 | `mark-manson-values-psychology` | **mark-manson-values-psychology** | the mindset layer for transformation coaching, values psychology & wellbeing | 3 | 0 |
 | `market_intelligence` | **Market Intelligence** | advanced trend spotting and keyword intent analysis system | 0 | 0 |
-| `marketing-studio-director` | **marketing-studio-director** | higgsfield marketing studio prompt director, universal director | 0 | 0 |
+| `marketing-studio-director` | **marketing-studio-director** | higgsfield marketing studio prompt director, universal director | 9 | 0 |
 | `matt-mcgarry-newsletters` | **Matt McGarry — Newsletter Growth & Email Monetization** | launch, newsletter-as-product design, paid-growth gates with hard benchmarks | 3 | 0 |
 | `matthew-lakajev-linkedin` | **matthew-lakajev-linkedin** | matthew lakajev's linkedin-to-revenue system — offer viability testing, category-of-one niching, language mirroring | 3 | 0 |
 | `matthew-volkwyn-copywriting` | **matthew-volkwyn-copywriting** | dual-lens hooks, named close archive, voice trinity | 3 | 0 |
@@ -265,7 +265,7 @@
 | `omar-eddaoudi-premium-ads` | **Omar Eddaoudi: Premium Ads Mastery** | conviction copy, category domination, and sophisticated audience mechanics | 5 | 37 |
 | `omar-eddaoudi-scaling-ops` | **Omar Eddaoudi: Scaling Ops** | the 'how' layer to modules 1-2's 'why' — math, research, composition physics | 10 | 0 |
 | `omar-eltakrori` | **Omar Eltakrori — Personal Brand Business Architect** | from $34k/year to multi-seven-figures, personal brand business architect | 17 | 0 |
-| `oren-brand-archetypes` | **Oren — Brand Social Media Archetypes** | diagnose and select the optimal content archetype for any brand, run resource-reality audits, facilitate archetype selection workshops | 0 | 0 |
+| `oren-brand-archetypes` | **Oren — Brand Social Media Archetypes** | diagnose and select the optimal content archetype for any brand, run resource-reality audits, facilitate archetype selection workshops | 8 | 0 |
 | `oren-content-team-architecture` | **Oren — Content-Team Architecture** | design, pod system, operating cadence | 15 | 0 |
 | `oren-identity-brand-os` | **Oren — Identity Brand OS** | identity-first brand marketing from zero to cult following to 1, 000 true fans to scale, for any creator or founder | 14 | 0 |
 | `oren-luxury-psychology` | **Oren — Luxury Psychology & Premium Market Positioning** | oren's luxury psychology — insider codes, connoisseurship ladders, premium positioning against established luxury incumbents | 3 | 9 |
@@ -340,11 +340,11 @@
 | `steven-young-consciousness` | **steven-young-consciousness** | engineer oblique intentions that deliver goals as side effects, hermetic consciousness engineering | 3 | 0 |
 | `stitch-loop` | **stitch-loop** | teaches agents to iteratively build websites using stitch with an autonomous... | 0 | 0 |
 | `stockton-walbeck-lead-magnets` | **Stockton Walbeck — Lead Magnet Mastery** | lead magnet strategy using the 4-type taxonomy and 5-rule scorecard from 100+..., lead magnet mastery | 3 | 5 |
-| `story-bible-builder` | **story-bible-builder** | output is a ready-to-install skill | 0 | 0 |
+| `story-bible-builder` | **story-bible-builder** | output is a ready-to-install skill | 4 | 0 |
 | `story-compass` | **story-compass** | story diagnosis × narrative architecture × pre-creation compass, compresses any idea into one gps sentence "i wanted ___, but ___, until ___, " binary story-vs-topic test (all three present = story | 13 | 0 |
 | `strength-conditioning-os` | **strength-conditioning-os** | conductor hub for the strength-&-conditioning / fitness coaching package, the coaching conductor | 2 | 0 |
 | `sunny-lenarduzzi-youtube` | **sunny-lenarduzzi-youtube** | hyper-targeted audience, the code framework (client, differentiation | 3 | 0 |
-| `supercomputer` | **supercomputer** | reference architecture documented in `skills/supercomputer/genius | 0 | 0 |
+| `supercomputer` | **supercomputer** | reference architecture documented in `skills/supercomputer/genius | 4 | 0 |
 | `susan-orlean-narrative-nonfiction` | **Susan Orlean — Narrative Nonfiction & The Telling Subject** | grounded in her how i write interview with david perell, the three hard-walled phases (research, then thinking | 12 | 0 |
 | `swarm-commander` | **swarm-commander** | file-based coordination, and unified synthesis | 0 | 4 |
 | `sweat-equity-speedrun-social-os` | **Sweat Equity: Speedrun Social OS** | plan and execute brand, launch, local venue | 9 | 0 |
@@ -364,7 +364,7 @@
 | `tyler-denk-audience-monetization` | **Antigravity Expert: Tyler Denk (Audience Monetization)** | beehiiv ceo tyler denk's system for audience acquisition, founder-led marketing, and high-ticket b2b monetization | 2 | 4 |
 | `velocity-scaling` | **velocity-scaling** | velocity scaling × dtc subscription × celebrity partnership × infrastructure pivot, speed itself becomes the moat, danny yeung | 18 | 0 |
 | `vince-nijhof-dtc-operator-system` | **vince-nijhof-dtc-operator-system** | dtc-operator-system, $20m/month dtc operator's playbook — paid-ads-first, ai-native | 14 | 0 |
-| `voice-os` | **voice-os** | cross-cutting identity x voice fidelity x calibration | 0 | 0 |
+| `voice-os` | **voice-os** | cross-cutting identity x voice fidelity x calibration | 4 | 0 |
 | `ward-farnsworth-rhetorical-mastery` | **Ward Farnsworth — Rhetorical Mastery** | latinate chord-changes, chiasmus, anaphora | 15 | 4 |
 | `web-artifacts-builder` | **web-artifacts-builder** | suite of tools for creating elaborate, multi-component claude | 0 | 0 |
 | `webapp-testing` | **webapp-testing** | supports verifying frontend functionality, debugging ui behavior, capturing browser screenshots | 0 | 0 |

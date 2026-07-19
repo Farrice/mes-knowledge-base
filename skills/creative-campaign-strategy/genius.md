@@ -300,3 +300,41 @@ Ron runs 4-5 companies simultaneously as fractional CMO using:
 - *Buy Now: Creative Marketing that Gets Your Product Sold* (book)
 - *Marketing Mercenary*: 9-week program delivering a "marketing MBA + life coach clarity" — assignments include life reflection, USP definition, and campaign drafting
 - Free 15-page creative brief template via BigBabyAgency.com
+
+---
+
+## Expansion Patterns (Sources 2-3, 2026-07-19)
+
+Two additional interviews (Marketing Misfits w/ Norm Farrar & Kevin King, `transcript-2-dOM.txt`; Joe Polish / Genius Network, `transcript-3-V8BD.txt`) — anchors in `references/source-ledger.md`.
+
+### GP-13: The Product Is the Magic (The Founding Failure)
+His first four shows each did $100M+. The next four did zero. Verbatim: *"[It] forced me to quit thinking I was the magic and realize it was the product that was the magic... I'd been picking really poor products based upon my ego."* The fix: *"Does this product actually make the customer's life better in a profound way?"* — become highly selective, then everything flows. **Deployment**: before any creative work, run the picking gate; when a streak of failures hits, audit the picks, not the craft.
+
+### GP-14: The Testimonial Relay (Little Red Riding Hood)
+Five people each tell a SNIPPET of one story, sequentially — cape, basket, woods, house, wolf — and the viewer perceives they all had the same complete experience. Verbatim: *"If I build the testimonials correctly, it'll feel like five people are telling Little Red Riding Hood... you know they all experienced the same experience."* **Deployment**: never stack five full testimonials; sequence five fragments along the customer-journey arc.
+
+### GP-15: Price-Increment Psychology
+People think in $20 bills (the ATM increment), then $100 bills. The classic ladder: $19.95 / $39.95 / $59.95 / $99.95. Verbatim on hearing "$29.95": *"We got to test that at 39 cuz you just left 10 bucks on the table."* Up to 14 price versions tested per show; targeting now lets the same product carry different offers per audience. **Deployment**: price to the increment ceiling, test UP first, never focus-group when you can market-test.
+
+### GP-16: The Four-Criteria Picking Gate
+Verbatim: *"Innovation [—] commodities sell on price. Innovation sells on life-changing opportunity. Then there's got to be an audience... Then you have to have margin... anchor at the highest possible retail price... because if I'm going to build a brand through direct response, the audience is actually paying for the marketing... The last piece is what I provide and that's story."* Margin foresight: win DR and *"it ends up in Walmart and I just lost 50% of the retail price."* **Deployment**: Innovation → Audience → Margin → Story, in that order; no story work until the first three clear.
+
+### GP-17: The Qualification Ladder ($1,000 Cup of Coffee)
+*"I have a thousand dollar cup of coffee... that right there knocks out about 80% of the people... The ones that do sit down amazingly start to take you seriously and start to take themselves seriously."* Ladder: $1K coffee (1-2 hrs + 1-2 page notes doc) → $5K simple consult day → $25K 1-2 day evaluation returning a 20-40 page document. *"If they're not willing to spend $1,000... they're never going to pay me any real money anyway."* Payers implement; implementers get results; results build your intellectual stock. **Deployment**: never free-consult unknown quantities; price the first conversation.
+
+### GP-18: The Character-Traits Test
+Run on 2,600+ employees, every friend, every client: name three people you strongly admire → extract CHARACTER TRAITS (not results) → those traits are the person's own value system read back to them ("Ladies and gentlemen, [the person] right to a T"). The dark-side variant reveals wounds, not evil. Diagnostics: status-picks with no nameable character traits + "their truth is the truth" = walk away. The keepers ask for the test back. **Deployment**: client vetting, hiring, partnership decisions — before contracts, not after.
+
+### GP-19: Reposition the Same Thing
+The French chef's kiosk: 35-cent macaroni and cheese repositioned as a $9 brie-and-asiago dish — *"you could take something that was the same thing and reposition it."* Circle water: 60 confusing flavors repositioned as *"water — finally your favorite beverage"*, anchoring the broadest segment with flavors laid underneath. **Deployment**: when a product has too many features/flavors/benefits, anchor on the ONE universal frame and let variety live below it — *"Choice causes confusion and confusion creates no's."*
+
+### Hidden Knowledge (Expansion)
+
+13. **The sunk-time close**: long-form works because *"you have psychologically invested so much time in it already, you might as well buy it"* — VSLs and TikTok demos are unstapled infomercials; *"the industry actually took over everything."*
+14. **Trust is the default**: *"You don't have to build trust because people naturally have it. You have to not violate trust without them knowing it."* The snake sold Eve the apple's TASTE, not its knowledge — temptation, shiny object, flavor.
+15. **The reaction is the ultimate sell**: beyond transformation-first — *"it's not even the food, it's the reaction. People are going to love you for this."* Sell the moment other people respond to the buyer.
+16. **Attention has two doors**: *"super familiar... or I've never seen that before"* — deep recognition or genuine novelty; everything in between is invisible.
+17. **Integrity, both halves**: *"I do what I say I'm going to do and I don't do what I say I'm not going to do. Most people forget the second half."* Announce the can-do AND the won't-do; honesty = truth with tact.
+18. **Do the work first**: *"I do not hope for anything. I do the work first and then the thing shows up."* Wrote two screenplays before asking anyone for a favor.
+19. **Career scoreboard (source-verified)**: ~$5.5B in DRTV orders, 85-100 long-form shows, 350-400 short-form spots, 70+ brands (GoPro, OxiClean, Orange Glo, Rug Doctor, Magic Bullet lineage, Samsung, J&J, SC Johnson). First show: $80M in six months.
+20. **Protocraps**: shows are often shot before the product exists; reshoot elements when the factory version lands — creative leads manufacturing, not the reverse.

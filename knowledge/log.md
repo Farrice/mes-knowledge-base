@@ -520,3 +520,9 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-18 20:00]` **finalize** | Proof-to-Market contact kit — profile package, Stress Test lead magnet, Dream 100 v1 (32 targets), f | content | lara-acosta — composite:8.0 status:Keep
 - `[2026-07-18 20:06]` **finalize** | PROOF-TO-MARKET-OS.md v2.0 — fused Path A canonical offer layer (10-day positioning/messaging sprint | general | farrice-cain — composite:7.67 status:Needs Improvement
 - `[2026-07-18 21:25]` **finalize** | Authority Flywheel positioning set: strike brief (Dunford×Haynes, dissent preserved) + fusion round  | general | april-dunford-positioning — composite:8.67 status:Keep
+- `[2026-07-19 00:02]` **finalize** | Lynch arsenal amplification: 3 new workflows (copy-pass, receive-the-draft, umbrella-map) + 3 born-v | strategy | ron-lynch — composite:8.33 status:Keep
+- `[2026-07-19 00:02]` **finalize** | Lynch arsenal amplification: 3 new workflows + 3 born-v2 prompts, VERIFIED anchors, full wiring, amp | strategy | ron-lynch — composite:8.33 status:Keep
+- `[2026-07-19 00:03]` **finalize** | Career architecture: Lynch 5-level diagnosis of Farrice (1.5 portfolio / 4 capability / 1 income), g | strategy | ron-lynch — composite:8.33 status:Keep
+- `[2026-07-19 00:03]` **finalize** | Proof-to-Market Lynch options memo: 4-option cost+royalty deal table (B recommended: full base + 2%  | strategy | ron-lynch — composite:8.33 status:Keep
+- `[2026-07-19 00:26]` **finalize** | Ron Lynch — Identity-First Campaign Architecture mastery extraction (forge) | strategy | ron-lynch — composite:8.67 status:Keep
+- `[2026-07-19 00:26]` **finalize** | Ron Lynch expansion forge (sources 2-3): 2 new transcripts (22k words) fully mined — 7 new genius pa | strategy | ron-lynch — composite:8.33 status:Keep

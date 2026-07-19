@@ -8124,6 +8124,222 @@
             "ensemble": true,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_052059_3378",
+            "timestamp": "2026-07-19T05:20:59.916118+00:00",
+            "session_id": "28d76098-a0d8-475f-bc8a-9609aae4b6f1",
+            "request_summary": "I need a session title for this session so I can find it when needed.",
+            "intent_score": 0,
+            "domain_detected": "sharran-srivatsaa-scaling",
+            "experts_deployed": [
+                "sharran-srivatsaa-scaling",
+                "sean-dollwet-kdp-publishing",
+                "dan-martell-business-scaling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "sharran-srivatsaa-scaling",
+            "ensemble": true,
+            "compound_pairing": "sharran-srivatsaa-scaling + sean-dollwet-kdp-publishing + dan-martell-business-scaling",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_052205_912c",
+            "timestamp": "2026-07-19T05:22:05.943125+00:00",
+            "session_id": "a9315ac4-ffa2-4d50-9b64-87067d007107",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "paul-harding-lyric-prose",
+            "experts_deployed": [
+                "paul-harding-lyric-prose",
+                "doc-coauthoring",
+                "dara-denney-meta-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "paul-harding-lyric-prose",
+            "ensemble": true,
+            "compound_pairing": "paul-harding-lyric-prose + doc-coauthoring + dara-denney-meta-ads",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_064602_3f5e",
+            "timestamp": "2026-07-19T06:46:02.906030+00:00",
+            "session_id": "1c988562-45f1-4d3a-b798-2d4498378827",
+            "request_summary": "run /go  there was an extraction I did with someone who was, or is, one of the best creative strategists, used to be a scriptwriter, and had massive fame and success in Hollywood, and we got interview",
+            "intent_score": 0,
+            "domain_detected": "brand-operating-system",
+            "experts_deployed": [
+                "brand-operating-system",
+                "henry-shukman-contemplative-writing",
+                "theme-factory"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "brand-operating-system",
+            "ensemble": true,
+            "compound_pairing": "brand-operating-system + henry-shukman-contemplative-writing + theme-factory",
+            "feedback": "fb_20260719_064714_3932"
+        },
+        {
+            "routing_id": "rt_20260719_065216_249e",
+            "timestamp": "2026-07-19T06:52:16.587922+00:00",
+            "session_id": "1c988562-45f1-4d3a-b798-2d4498378827",
+            "request_summary": "do the next moves and this task: run /extract-amplify I feel like this abstraction was one of the ones I thought was super important and that I wanted us to fully harvest all the gold and great copywr",
+            "intent_score": 0,
+            "domain_detected": "creative-campaign-strategy",
+            "experts_deployed": [
+                "creative-campaign-strategy",
+                "dara-denney-meta-ads",
+                "luke-iha-creative-strategy"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "creative-campaign-strategy",
+            "ensemble": true,
+            "compound_pairing": "creative-campaign-strategy + dara-denney-meta-ads + luke-iha-creative-strategy",
+            "feedback": "fb_20260719_065410_f786"
+        },
+        {
+            "routing_id": "rt_20260719_070236_2dd8",
+            "timestamp": "2026-07-19T07:02:36.210567+00:00",
+            "session_id": "",
+            "request_summary": "Lynch arsenal amplification: 3 new workflows (copy-pass, receive-the-draft, umbrella-map) + 3 born-v2 prompts, source-ledger VERIFIED anchors, full wiring (audit 0-fail, library, pointers, registries)",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "ron-lynch"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-amplify",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_070253_5cc5",
+            "timestamp": "2026-07-19T07:02:53.419013+00:00",
+            "session_id": "",
+            "request_summary": "Lynch arsenal amplification: 3 new workflows + 3 born-v2 prompts, VERIFIED anchors, full wiring, amplification report",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "ron-lynch"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-amplify",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_070316_940a",
+            "timestamp": "2026-07-19T07:03:16.682154+00:00",
+            "session_id": "",
+            "request_summary": "Career architecture: Lynch 5-level diagnosis of Farrice (1.5 portfolio / 4 capability / 1 income), gap analysis, 12-month roadmap to cost+royalty tier anchored to revenue-5k-incumbency",
+            "intent_score": 9,
+            "domain_detected": "Analysis",
+            "experts_deployed": [
+                "ron-lynch"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "lynch-strategist-career",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_070318_0ae1",
+            "timestamp": "2026-07-19T07:03:18.628653+00:00",
+            "session_id": "",
+            "request_summary": "Proof-to-Market Lynch options memo: 4-option cost+royalty deal table (B recommended: full base + 2% launch-window attributed), auditable attribution instruments, identity-first upgrades to 4 sprint mo",
+            "intent_score": 9,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "ron-lynch"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "lynch-deal-structure",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_071836_e053",
+            "timestamp": "2026-07-19T07:18:36.465739+00:00",
+            "session_id": "1c988562-45f1-4d3a-b798-2d4498378827",
+            "request_summary": "here are two more youtube videos from featuring ron lynch that we need to run /extract-forge on and /watch : https://www.youtube.com/watch?v=dOM-_4JHRRE https://www.youtube.com/watch?v=V8BDV3KLt5U&t=2",
+            "intent_score": 0,
+            "domain_detected": "creative-campaign-strategy",
+            "experts_deployed": [
+                "creative-campaign-strategy",
+                "joey-cinema-os",
+                "youtube-video-context-analysis"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "creative-campaign-strategy",
+            "ensemble": true,
+            "compound_pairing": "creative-campaign-strategy + joey-cinema-os + youtube-video-context-analysis",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_072354_e04e",
+            "timestamp": "2026-07-19T07:23:54.365258+00:00",
+            "session_id": "1c988562-45f1-4d3a-b798-2d4498378827",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "paul-harding-lyric-prose",
+            "experts_deployed": [
+                "paul-harding-lyric-prose",
+                "doc-coauthoring",
+                "dara-denney-meta-ads"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "paul-harding-lyric-prose",
+            "ensemble": true,
+            "compound_pairing": "paul-harding-lyric-prose + doc-coauthoring + dara-denney-meta-ads",
+            "feedback": "fb_20260719_072457_6ae5"
+        },
+        {
+            "routing_id": "rt_20260719_072643_ac58",
+            "timestamp": "2026-07-19T07:26:43.581186+00:00",
+            "session_id": "",
+            "request_summary": "Ron Lynch — Identity-First Campaign Architecture mastery extraction (forge)",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "ron-lynch"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260719_072646_6bc6",
+            "timestamp": "2026-07-19T07:26:46.339054+00:00",
+            "session_id": "",
+            "request_summary": "Ron Lynch expansion forge (sources 2-3): 2 new transcripts (22k words) fully mined — 7 new genius patterns, 8 hidden-knowledge entries, infomercial-anatomy reference, 3 new workflows (testimonial-rela",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "ron-lynch"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ],
     "feedback_log": [
@@ -8666,31 +8882,58 @@
             "rating": "auto_miss",
             "correction": "claim-safe-health-marketing",
             "notes": "expert skill 'claim-safe-health-marketing' loaded not matching suggestion ['paul-harding-lyric-prose', 'doc-coauthoring', 'dara-denney-meta-ads']"
+        },
+        {
+            "feedback_id": "fb_20260719_064714_3932",
+            "timestamp": "2026-07-19T06:47:14.531006+00:00",
+            "session_id": "1c988562-45f1-4d3a-b798-2d4498378827",
+            "routing_id": "rt_20260719_064602_3f5e",
+            "rating": "auto_miss",
+            "correction": "creative-campaign-strategy",
+            "notes": "expert skill 'creative-campaign-strategy' loaded not matching suggestion ['brand-operating-system', 'henry-shukman-contemplative-writing', 'theme-factory']"
+        },
+        {
+            "feedback_id": "fb_20260719_065410_f786",
+            "timestamp": "2026-07-19T06:54:10.054031+00:00",
+            "session_id": "1c988562-45f1-4d3a-b798-2d4498378827",
+            "routing_id": "rt_20260719_065216_249e",
+            "rating": "auto_match",
+            "correction": "creative-campaign-strategy",
+            "notes": "expert skill 'creative-campaign-strategy' loaded matching suggestion ['creative-campaign-strategy', 'dara-denney-meta-ads', 'luke-iha-creative-strategy']"
+        },
+        {
+            "feedback_id": "fb_20260719_072457_6ae5",
+            "timestamp": "2026-07-19T07:24:57.432002+00:00",
+            "session_id": "1c988562-45f1-4d3a-b798-2d4498378827",
+            "routing_id": "rt_20260719_072354_e04e",
+            "rating": "auto_miss",
+            "correction": "creative-campaign-strategy",
+            "notes": "expert skill 'creative-campaign-strategy' loaded not matching suggestion ['paul-harding-lyric-prose', 'doc-coauthoring', 'dara-denney-meta-ads']"
         }
     ],
     "monthly_summary": {
         "2026-07": {
-            "total_routings": 449,
-            "total_feedback": 60,
+            "total_routings": 461,
+            "total_feedback": 63,
             "positive_count": 0,
             "negative_count": 0,
             "mixed_count": 0,
             "domain_counts": {
-                "System": 63,
+                "System": 65,
                 "Client Work": 14,
-                "Analysis": 6,
-                "Strategy": 26,
+                "Analysis": 7,
+                "Strategy": 27,
                 "Creative": 8,
                 "Legal Consult Prep": 1,
                 "Content": 45,
-                "Extraction": 20,
+                "Extraction": 22,
                 "Research": 11,
                 "stefan-georgi-dopamine-copy": 7,
                 "supercomputer": 18,
                 "design-md": 13,
                 "david-placek-naming": 5,
                 "nicolas-cole-niche-positioning": 6,
-                "brand-operating-system": 10,
+                "brand-operating-system": 11,
                 "how-i-write-os": 12,
                 "nate-b-jones-auto-improvement-loops": 1,
                 "jason-fladlien-marketing": 9,
@@ -8731,12 +8974,12 @@
                 "forge-os": 1,
                 "luke-iha-cross-domain": 1,
                 "docx": 1,
-                "sharran-srivatsaa-scaling": 1,
+                "sharran-srivatsaa-scaling": 2,
                 "story-bible-builder": 1,
                 "lara-acosta-linkedin-growth": 1,
                 "lara-acosta-linkedin-mastery": 1,
                 "dai-media-consumer-posture": 2,
-                "paul-harding-lyric-prose": 9,
+                "paul-harding-lyric-prose": 11,
                 "youtube-video-context-analysis": 1,
                 "henry-shukman-contemplative-writing": 1,
                 "nate-b-jones-ai-taste-mastery": 1,
@@ -8750,7 +8993,8 @@
                 "sky-tan-format-engine": 1,
                 "tyler-denk-audience-monetization": 1,
                 "theme-factory": 1,
-                "jack-roberts-design-mastery": 1
+                "jack-roberts-design-mastery": 1,
+                "creative-campaign-strategy": 2
             },
             "expert_counts": {
                 "system-audit": 23,
@@ -8784,7 +9028,7 @@
                 "simon-intellectual-library-os": 3,
                 "pptx": 10,
                 "david-placek-naming": 8,
-                "brand-operating-system": 23,
+                "brand-operating-system": 24,
                 "nicolas-cole-niche-positioning": 16,
                 "prediction-market-making": 1,
                 "deliberate": 27,
@@ -8799,7 +9043,7 @@
                 "internal-comms": 6,
                 "wright-thompson-mastery": 14,
                 "alex-suzuki-digital-product-revenue-os": 3,
-                "paul-harding-lyric-prose": 11,
+                "paul-harding-lyric-prose": 13,
                 "paul-james-ai-automation": 1,
                 "lamott-craft": 2,
                 "synthesis-engine": 1,
@@ -8823,7 +9067,7 @@
                 "alex-suzuki": 2,
                 "darrel-wilson-ai-monetization": 1,
                 "darrel-wilson-ai-affiliate": 2,
-                "doc-coauthoring": 23,
+                "doc-coauthoring": 25,
                 "farrice-master-context-synthesis": 1,
                 "omar-eltakrori": 1,
                 "donald-miller-culture-turnaround": 3,
@@ -8850,7 +9094,7 @@
                 "icp-deep-canvasser": 1,
                 "donald-miller-cognitive-load": 3,
                 "luke-iha-unaware-ads": 2,
-                "dara-denney-meta-ads": 22,
+                "dara-denney-meta-ads": 25,
                 "fantastic-posters": 8,
                 "nate-b-jones-intent-engineering": 1,
                 "evan-spiegel-distribution-architecture": 4,
@@ -8879,7 +9123,7 @@
                 "oren-brand-archetypes": 1,
                 "luke-iha-proof-ladder": 2,
                 "mitch-albom-writing-mastery": 1,
-                "theme-factory": 6,
+                "theme-factory": 7,
                 "kallaway-illusion-of-novelty": 3,
                 "cinematic-documentary": 1,
                 "research-engine": 1,
@@ -8890,21 +9134,21 @@
                 "new-media-kingmaker": 1,
                 "andrew-stanton": 1,
                 "Lara Acosta: Tech Founder Content System": 1,
-                "dan-martell-business-scaling": 2,
+                "dan-martell-business-scaling": 3,
                 "luisa-zhou-coaching": 2,
-                "joey-cinema-os": 5,
+                "joey-cinema-os": 6,
                 "banana-pro-director": 2,
                 "cinema-worldbuilder-pro": 2,
                 "story-bible-builder": 2,
                 "joey-noisy-group": 1,
                 "alex-content-science": 2,
                 "sky-tan-format-engine": 3,
-                "sean-dollwet-kdp-publishing": 5,
+                "sean-dollwet-kdp-publishing": 6,
                 "sean-dollwet": 1,
                 "kallaway": 1,
-                "henry-shukman-contemplative-writing": 2,
+                "henry-shukman-contemplative-writing": 3,
                 "fresh-voice-system": 5,
-                "luke-iha-creative-strategy": 4,
+                "luke-iha-creative-strategy": 5,
                 "market-intelligence": 1,
                 "forge-os": 8,
                 "health-performance-geo": 2,
@@ -8913,7 +9157,7 @@
                 "seena-rez-tiktok-commerce": 2,
                 "docx": 4,
                 "tommy-clark": 2,
-                "sharran-srivatsaa-scaling": 2,
+                "sharran-srivatsaa-scaling": 3,
                 "ali-abdaal-action-bias": 2,
                 "jeremy-haynes-cold-offer": 1,
                 "system": 3,
@@ -8937,7 +9181,7 @@
                 "lamott-allen-really-real-writing": 2,
                 "dai-media-consumer-posture": 3,
                 "daniel-priestley": 1,
-                "youtube-video-context-analysis": 1,
+                "youtube-video-context-analysis": 2,
                 "michael-connelly-vivid-writing": 1,
                 "kallaway-content-psychology": 1,
                 "donald-miller-storybrand": 1,
@@ -8957,10 +9201,12 @@
                 "april-dunford": 1,
                 "lara-acosta": 1,
                 "farrice-cain": 1,
-                "joanna-wiebe-persuasion-mastery": 1
+                "joanna-wiebe-persuasion-mastery": 1,
+                "creative-campaign-strategy": 2,
+                "ron-lynch": 6
             },
             "tier_counts": {
-                "0": 449,
+                "0": 461,
                 "1": 0,
                 "2": 0,
                 "3": 0
@@ -8968,12 +9214,12 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 255,
-                "finalize-auto": 194
+                "hybrid": 261,
+                "finalize-auto": 200
             },
-            "ensemble_count": 336,
-            "auto_miss_count": 49,
-            "auto_match_count": 11
+            "ensemble_count": 342,
+            "auto_miss_count": 51,
+            "auto_match_count": 12
         }
     }
 }

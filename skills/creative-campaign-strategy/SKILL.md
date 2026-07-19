@@ -25,7 +25,7 @@ Ron Lynch is a screenwriter-turned-DRTV pioneer-turned-CEO. He sold billions in 
 
 ## What This Skill Does NOT Do
 
-- Deep copywriting craft at the sentence level (→ Joanna Wiebe, Alen Sultanic)
+- Deep copywriting craft at the sentence level (→ Joanna Wiebe, Alen Sultanic). The identity/register/metaphor layer of any copy IS in scope via `/lynch-copy-pass` — the boundary is sentence surgery, not copy itself.
 - Content psychology and viral mechanics (→ Kallaway)
 - Consumer identity profiling (→ Dai Media — but stacks powerfully)
 - Perception reframing and category design (→ Rory Sutherland — but stacks powerfully)
@@ -108,6 +108,26 @@ Ron Lynch is a screenwriter-turned-DRTV pioneer-turned-CEO. He sold billions in 
 | `/lynch-brief-audit` | 7-Dimension quality gate before production | Step 4 — QA gate |
 | `/lynch-deal-structure` | Cost + royalty deal architecture | Step 5 — Get paid |
 
+### Tier 5 — Daily Deployment (3, amplified 2026-07-18)
+
+The general-purpose layer: Lynch's genius on everyday copy and strategy work, outside full campaign machinery.
+
+| Command | Purpose | When |
+|---|---|---|
+| `/lynch-copy-pass` | Five-filter Lynch lens on ANY single piece of copy (identity → customer's voice → chess-to-checkers register → metaphor → right column + transformation close) | Daily copy tasks, final expert pass on drafts |
+| `/lynch-receive-the-draft` | His actual drafting method: fix beginning + end, receive the middle in one pass; "I can't" alarm; first-rep doors-in-the-pool protocol | Generation of any substantial piece; stalled middles |
+| `/lynch-umbrella-map` | The Strategist's Bible: 6-10 audience parse × 3 benefits each, beachhead sequencing by earliest financial success, offer tiers, one umbrella story | Multi-audience sequencing decisions, any vertical |
+
+### Tier 6 — Expansion (3, sources 2-3 forged 2026-07-19)
+
+From the Marketing Misfits + Joe Polish interviews (`transcript-2-dOM.txt`, `transcript-3-V8BD.txt`) — 7 new genius patterns (GP-13-19), 8 new hidden-knowledge entries, `references/infomercial-anatomy.md`.
+
+| Command | Purpose | When |
+|---|---|---|
+| `/lynch-testimonial-relay` | Little Red Riding Hood social proof: 5 voices, 1 story, sequenced snippets read as unanimous experience | Any proof section: VSLs, landing pages, decks |
+| `/lynch-price-architecture` | $20-bill/$100-bill increment pricing, highest-retail margin anchor, test-up ladders, per-segment offers | Pricing any product/offer/tier |
+| `/lynch-character-test` | People qualification: paid coffee filter, admired-three traits exercise, integrity both halves, keeper/walk tells | Client vetting, hiring, partnerships — any vertical |
+
 ## Cross-Expert Stacking (8 Chains)
 
 - **× Dai Media** → Identity campaign validated against psychological consumer profiling
@@ -133,7 +153,7 @@ Score against Ron Lynch's Campaign Standard:
 
 ## Execution Prompts (structure-pure v2)
 
-14 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+20 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Ron Lynch — Full Campaign Ecosystem Blueprint** — `skills/creative-campaign-strategy/references/prompts-v2/campaign-ecosystem-blueprint.md`
 - **Ron Lynch — 14-20 Page Creative Brief** — `skills/creative-campaign-strategy/references/prompts-v2/creative-brief-14-20-page.md`
@@ -144,6 +164,12 @@ Score against Ron Lynch's Campaign Standard:
 - **Ron Lynch — Discovery & Pivot Protocol** — `skills/creative-campaign-strategy/references/prompts-v2/discovery-pivot-protocol.md`
 - **Ron Lynch — DRTV-to-VSL Script (× David Deutsch)** — `skills/creative-campaign-strategy/references/prompts-v2/drtv-to-vsl-script.md`
 - **Ron Lynch — Identity Campaign Brief** — `skills/creative-campaign-strategy/references/prompts-v2/identity-campaign-brief.md`
+- **Ron Lynch — Character Test (People Qualification)** — `skills/creative-campaign-strategy/references/prompts-v2/lynch-character-test.md`
+- **Ron Lynch — Copy Pass (Five-Filter Lens)** — `skills/creative-campaign-strategy/references/prompts-v2/lynch-copy-pass.md`
+- **Ron Lynch — Price Architecture (Increment Psychology)** — `skills/creative-campaign-strategy/references/prompts-v2/lynch-price-architecture.md`
+- **Ron Lynch — Receive the Draft (Flow-State Drafting)** — `skills/creative-campaign-strategy/references/prompts-v2/lynch-receive-the-draft.md`
+- **Ron Lynch — Testimonial Relay (Little Red Riding Hood)** — `skills/creative-campaign-strategy/references/prompts-v2/lynch-testimonial-relay.md`
+- **Ron Lynch — Umbrella Map (The Strategist's Bible)** — `skills/creative-campaign-strategy/references/prompts-v2/lynch-umbrella-map.md`
 - **Ron Lynch — Media-Matched Creative Strategy** — `skills/creative-campaign-strategy/references/prompts-v2/media-matched-creative-strategy.md`
 - **Ron Lynch — Modular Script Architecture** — `skills/creative-campaign-strategy/references/prompts-v2/modular-script-architecture.md`
 - **Ron Lynch — Product Pre-Qualification Gate** — `skills/creative-campaign-strategy/references/prompts-v2/product-prequalification-gate.md`

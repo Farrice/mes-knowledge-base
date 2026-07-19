@@ -1,26 +1,26 @@
 # Knowledge Briefing
-*Generated: 2026-07-18 | 668 sources | 2,699,367 words*
+*Generated: 2026-07-19 | 670 sources | 2,727,873 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 4,621 words — `knowledge/index.md`
-- **log** (general) — 12,865 words — `knowledge/log.md`
+- **index** (content) — 4,631 words — `knowledge/index.md`
+- **log** (general) — 13,021 words — `knowledge/log.md`
+- **source-metadata** (content) — 36 words — `extractions/ron-lynch/source-metadata.md`
+- **visual-context** (content) — 28,304 words — `extractions/ron-lynch-v2/visual-context.md`
 - **2026-07-18-founding-brief** (strategy [april-dunford]) — 3,633 words — `research_outputs/market-pulse/2026-07-18-founding-brief.md`
 - **extraction-report** (content) — 607 words — `extractions/daniel-priestley-sll-engine/extraction-report.md`
 - **visual-context** (content) — 390 words — `extractions/daniel-priestley-sll-engine/visual-context.md`
 - **amplification-report** (content) — 2,596 words — `extractions/seth-godin-marketing-mind/amplification-report.md`
 - **extraction-report-part2** (content) — 2,107 words — `extractions/seth-godin-marketing-mind/extraction-report-part2.md`
 - **assembly-rubric** (strategy) — 145 words — `knowledge/assembly-rubric.md`
-- **2026-07-16-pressure-test-whether-farrice-cain-should-pivot** (strategy [april-dunford]) — 1,565 words — `knowledge/assembly-sessions/2026-07-16-pressure-test-whether-farrice-cain-should-pivot.md`
-- **2026-07-16-re-convene-with-material-new-evidence-update-the** (strategy [dai-media]) — 1,349 words — `knowledge/assembly-sessions/2026-07-16-re-convene-with-material-new-evidence-update-the.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 230 | nicolas-cole |
+| content | 232 | nicolas-cole |
 | copywriting | 97 | luke-iha |
 | general | 83 | nick-saraev |
 | strategy | 68 | april-dunford |
