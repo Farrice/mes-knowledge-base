@@ -10,6 +10,12 @@
 
 | I want to… | Go to |
 |---|---|
+| **Copywriting / creative strategy (Ron Lynch)** | |
+| Run Lynch's genius on any single piece of copy | [Ron Lynch Arsenal](2026-07-19-ron-lynch-arsenal.md) |
+| Draft in flow state / break an "I can't" block | [Ron Lynch Arsenal](2026-07-19-ron-lynch-arsenal.md) |
+| Map audiences, pick the beachhead, tier the offers | [Ron Lynch Arsenal](2026-07-19-ron-lynch-arsenal.md) |
+| Build testimonial/proof sections, price an offer, vet a client | [Ron Lynch Arsenal](2026-07-19-ron-lynch-arsenal.md) |
+| 2026-07-19 | [Ron Lynch Arsenal](2026-07-19-ron-lynch-arsenal.md) | Full-arsenal amplify + 2-source expansion forge: 23 workflows/20 prompts, 6 new this session, career roadmap + P2M deal options | operator-guide |
 | 2026-07-18 | [Frontier Elevation — Day Two/Three](2026-07-18-frontier-elevation-day-one.md) | Lane 4 complete (279/279, A 4→18) + judge armed on Farrice's verdicts + W4/W7 shipped + overnight runner installed | operator-guide |
 | **Publishing / KDP** | |
 | Start a KDP book from a blank slate or topic hunch | [KDP Operator OS](2026-07-13-kdp-operator-os.md) |
