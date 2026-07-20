@@ -260,3 +260,11 @@
 {"ts": "2026-07-19T19:04:38Z", "label": "health-performance-geo-2026-07-19", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('the \u2026 the \u2026 the') \u2014 feedback_ai-structural-tells.md #3"], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-19T19:05:09Z", "label": "health-performance-geo-2026-07-19", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-19T19:05:49Z", "label": "health-performance-geo-2026-07-19", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-20T14:21:13Z", "label": "2026-07-20 health-performance brief", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d73 \u2014 feedback_ai-structural-tells.md #1", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-07-20T14:21:18Z", "label": "test", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d73 \u2014 feedback_ai-structural-tells.md #1", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-07-20T14:21:55Z", "label": "test", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-07-20T14:23:52Z", "label": "test", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-07-20T14:24:40Z", "label": "2026-07-20 health-performance brief", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-20T14:26:08Z", "label": "final check", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d71 \u2014 feedback_ai-structural-tells.md #1", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-07-20T14:26:34Z", "label": "final check 2", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-20T14:29:30Z", "label": "final", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
