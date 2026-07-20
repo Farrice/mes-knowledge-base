@@ -552,3 +552,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-19 12:05]` **finalize** | 2026-07-19 Health Performance GEO daily brief: Symptom-to-Stage Search Map for women's health brands | general | health-performance-geo — composite:6.67 status:Needs Improvement
 - `[2026-07-19 12:44]` **finalize** | Jason Fladlien expansion forge — 2 watched sources (15 Persuasion Patterns + Charlie Morgan 250M int | general | jason-fladlien — composite:8.33 status:Keep
 - `[2026-07-19 13:00]` **finalize** | Fladlien forge standard-verification + gap-close: 6 missed secrets recovered from interview transcri | general | jason-fladlien — composite:8.67 status:Keep
+- `[2026-07-20 16:09]` **lint** | Lint scan — 66 issues (42 errors, 12 warnings) — Files scanned: 700
