@@ -74,7 +74,7 @@
                 "nate-b-jones-context-engineering": 30,
                 "nate-b-jones-intent-engineering": 1,
                 "omar-eltakrori": 1,
-                "Extraction": 30,
+                "Extraction": 31,
                 "Strategy": 34,
                 "donald-miller-storybrand": 1,
                 "strength-conditioning-os": 7,
@@ -89,9 +89,9 @@
                 "sweat-equity-speedrun-social-os": 1,
                 "benjamin-hardy-identity": 1
             },
-            "total_routings": 541,
+            "total_routings": 542,
             "tier_counts": {
-                "0": 541,
+                "0": 542,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -102,7 +102,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 307,
-                "finalize-auto": 234
+                "finalize-auto": 235
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -131,7 +131,7 @@
                 "writing-depth-layer": 8,
                 "icp-deep-canvasser": 1,
                 "liam-mley-ai-brain-builder": 1,
-                "satori-graphics": 4,
+                "satori-graphics": 5,
                 "system": 3,
                 "joanna-wiebe-persuasion-mastery": 1,
                 "andrew-stanton": 1,
@@ -10851,6 +10851,23 @@
             "workflow_used": "supercomputer",
             "ensemble": true,
             "compound_pairing": "supercomputer + nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260721_150527_a492",
+            "timestamp": "2026-07-21T15:05:27.871479+00:00",
+            "session_id": "",
+            "request_summary": "Satori Graphics v3 — Layout & Contrast Layer mastery expansion (forge): GP-18/19/20, 6 workflows (21-26), 2 references, 6 born-v2 prompts, watched-source frames archived",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "satori-graphics"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

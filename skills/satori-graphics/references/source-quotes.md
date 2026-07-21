@@ -264,3 +264,55 @@
 > *"Instead of selling the work once, what if you could sell it a thousand times?"*
 
 > *"Financial freedom rarely comes from one income stream. It usually comes from multiple streams supporting each other."*
+
+## On the Three-Flow Rule & Thumbnail Test (GP-18) — v3, layout course 2026-07-21
+
+> *"It provides a clear, streamlined path that helps most viewers absorb the message quickly."*
+
+> *"When you're applying the three flow rule, it's helpful to take a step back. I mean, literally take a step back. Look at your design from a distance or shrink it down to a thumbnail size. If the visual path still feels balanced and easy to follow, you've done something right here. But if it feels chaotic or your eye is bouncing around the place, something is probably off."*
+
+> *"This small habit will train you to see flow on every single project and not just relying on gut instinct."*
+
+> *"The key is to make the hook the largest visual. The secondary detail slightly smaller and then the smallest text or element could be your call to action where a viewer finishes."*
+
+> *"Once a viewer is drawn in by that hook, their eyes follow the hierarchy you've built, moving from the secondary details to the finisher, where they absorb the essential information."*
+
+## On Directional Hierarchy (GP-19) — v3
+
+> *"Our eyes naturally follow implied motion angles and gaze lines without even realizing it."*
+
+> *"Designers often frame text close to the direction of the subject's gaze to make sure the reader's eye moves exactly where intended."*
+
+> *"The goal isn't to create movement. It's actually to create a path of importance. Each directional cue should serve the hierarchy by leading from the most dominant focal point to the next in order of relevance."*
+
+> *"The line of sight, the flow of shapes, and the balance of weight all work together to build that sequence in play."*
+
+## On the Contrast Stack (GP-20) — v3
+
+> *"You are about to watch the most important teachings I've ever shown on this channel about contrast."*
+
+> *"One of the main ways that contrasting colors is used is on call to action buttons or areas similar to that. It's how social media UI creates an addictive response in the user or why you've been tricked into buying premium dog food for your pet as opposed to the basic stuff."*
+
+> *"Essentially, contrast of size is hierarchy."*
+
+> *"The larger option will most likely be clicked simply because of contrast."*
+
+> *"Contrast of style isn't something you want to be using on every single design. And the advanced designers know when or where not to use it."*
+
+> *"Contrast of texture does appear visually appealing. But in graphic design, it's often used to express the sensation of touch or detail."*
+
+> *"To achieve this, you first need to understand psychology of graphic design so you can then twist and manipulate it in your work."* (contrast of psychology)
+
+> *"Skulls are normally thought of as negative and represent death of course, but the design uses bright, bold, uplifting colors matched with a very playful yellow font."*
+
+> *"The design then uses humor to get the message across and furthermore to make it memorable and relatable to the viewer."* (contrast of emotion, NHS)
+
+> *"It is important to consider the brief and the target audience for both designs because both of these designs could actually have a time and a place depending on that target audience."* (the audience gate)
+
+## On Temporal Flow (HK-14) — v3
+
+> *"Movement isn't just about where the eye goes. It's about when the eye goes there and how long for. This is called temporal flow."*
+
+> *"That sequence forces the viewer through different beats. Impact, linger, release."*
+
+> *"Something like I don't know 99% of designers don't consider this temporal flow of time. But if you start to consider it on your designs, be it a poster, marketing brochure, website, whatever it is, you'll begin to create better experiences for your audience."*

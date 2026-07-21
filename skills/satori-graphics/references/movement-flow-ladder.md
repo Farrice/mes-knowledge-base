@@ -197,3 +197,18 @@ You can use multiple levels in one design — but make one *primary*.
 - Skipping the "release" beat (rhythm without resolution = exhausting)
 - Equal-weight beats (no rhythm = no temporal flow)
 - Designing for one screen size (temporal flow breaks at thumbnail)
+
+---
+
+## Watched Visual Exemplars *(v3, 2026-07-21 — frames in `extractions/satori-graphics/expansion-2026-07-21/frames/`)*
+
+The 2026-07-21 layout-course source was actually watched (frames read), closing the original "visual context not captured" caveat. The canonical exemplar is the **Art-SYNc 2025 poster**, which Satori builds live through Levels 2–5 on a single layout:
+
+| Level | What he does to the same poster | Frame |
+|---|---|---|
+| L2 (hierarchy flow) | Arrow banished; medium subheading + small detail added — "Visual Weight: Large" callouts show size/contrast carrying the invisible arrow | `artsync-visual-weight.jpg` |
+| L3 (multiple flows) | Small type blocks pull the eye into a short "Exploration" loop before reconnecting to the main path — "kind of like fractals in nature" | `artsync-exploration-microroutes.jpg` |
+| L4 (implied motion) | Technique blocks named: **Repetition · Progressive Scaling · Blurring · Directional Patterns**; background gains a tapering directional pattern read as acceleration | `implied-motion-techniques.jpg` |
+| L5 (flow disruption) | A **45°-rotated black diamond with a red motif** planted across the main flow path — the eye hits it, pauses, must route around: forced re-engagement. Rotation deliberately maximizes the disjoint | `artsync-flow-disruption.jpg` |
+
+**L6 (temporal flow) exemplars**: A$AP Rocky editorial spread — full-bleed sharp-gaze image (fast hit) → layered jewelry/fabric/serif copy (linger) → stark white space with the logo alone (pause). Apple iMac product page — hero punch → clean technical detail blocks (slow) → vast white space around a single product (release). *"Punch, slow, pull, release… 99% of designers don't consider this temporal flow."* Frames: `asap-rocky-temporal-flow.jpg`, `apple-imac-temporal-beats.jpg`.

@@ -1,12 +1,12 @@
 # Knowledge Briefing
-*Generated: 2026-07-21 | 718 sources | 2,804,529 words*
+*Generated: 2026-07-21 | 722 sources | 2,807,301 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 4,859 words — `knowledge/index.md`
-- **log** (general) — 13,904 words — `knowledge/log.md`
+- **index** (content) — 4,899 words — `knowledge/index.md`
+- **log** (general) — 13,931 words — `knowledge/log.md`
 - **extraction-report** (content [lara-acosta]) — 3,063 words — `extractions/paolo-trivellato/extraction-report.md`
 - **vision** (screenwriting) — 445 words — `extractions/paolo-trivellato/vision.md`
 - **blind-pass-generated-01** (strategy) — 193 words — `extractions/paolo-trivellato-lead-magnet-engine/blind-pass-generated-01.md`
@@ -20,9 +20,9 @@
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 248 | lara-acosta |
-| copywriting | 101 | luke-iha |
-| general | 90 | nick-saraev |
+| content | 250 | lara-acosta |
+| copywriting | 102 | luke-iha |
+| general | 91 | nick-saraev |
 | strategy | 76 | april-dunford |
 | screenwriting | 53 | connelly |
 | brand | 50 | oren-john |

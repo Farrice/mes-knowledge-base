@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7249,
+ "count": 7255,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -21607,9 +21607,30 @@
   {
    "kind": "prompt-v2",
    "skill": "satori-graphics",
+   "title": "Contrast Audit \u2014 [design name]",
+   "gist": "You are running Satori's **count-the-contrasts** read on an existing design \u2014 the Nike-poster exercise (\"Can you see the three different uses of contrast in this poster?\") formalized into a 9-form diagnostic. Fewer than ",
+   "path": "skills/satori-graphics/references/prompts-v2/contrast-audit-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "satori-graphics",
+   "title": "Contrast Stack \u2014 [design name]",
+   "gist": "You are engineering deliberate contrast using Satori's **9-form Contrast Stack** \u2014 Basic: color, size, typography \u00b7 Intermediate: shape, style, texture \u00b7 Advanced: psychology, emotion, concept. Ship-grade work runs \u22653 de",
+   "path": "skills/satori-graphics/references/prompts-v2/contrast-stack-spec.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "satori-graphics",
    "title": "Production Brief \u2014 [design name / surface]",
    "gist": "You are running Satori's **Design-Think Pipeline** \u2014 the crown of the skill. One end-to-end run that thinks a design task all the way from communication problem to a production-ready brief a generation tool can execute. ",
    "path": "skills/satori-graphics/references/prompts-v2/design-think-production-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "satori-graphics",
+   "title": "Expectation Flip \u2014 [design name]",
+   "gist": "You are engineering **one deliberate norm inversion** \u2014 Satori's advanced contrast tier (psychology / emotion / concept). The violated expectation is the pause that forms the memory: a skull in bright teal on pink with p",
+   "path": "skills/satori-graphics/references/prompts-v2/expectation-flip-spec.md"
   },
   {
    "kind": "prompt-v2",
@@ -21624,6 +21645,20 @@
    "title": "Flip-Test Report \u2014 [design name]",
    "gist": "You are running Satori's **Flip-Design Technical Audit** \u2014 the fastest, freest, most ruthlessly diagnostic check in the Satori toolkit. Flip the design upside down and the brain stops reading content and starts seeing st",
    "path": "skills/satori-graphics/references/prompts-v2/flip-test-technical-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "satori-graphics",
+   "title": "Frontend Flow Brief \u2014 [page name]",
+   "gist": "You are compiling layout thinking into a **build-ready front-end brief**: one page journey (three-flow spine at page scale), a temporal beat map (punch \u2192 linger \u2192 release \u2014 the Apple product-page pattern), behavioral con",
+   "path": "skills/satori-graphics/references/prompts-v2/frontend-flow-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "satori-graphics",
+   "title": "Gaze-Path Spec \u2014 [layout name]",
+   "gist": "You are wiring **directional hierarchy** \u2014 Satori's path of importance \u2014 along a committed layout spine. Hierarchy decides what's seen first; direction decides where the eye goes next. The triad: line of sight \u00b7 flow of ",
+   "path": "skills/satori-graphics/references/prompts-v2/gaze-path-spec.md"
   },
   {
    "kind": "prompt-v2",
@@ -21687,6 +21722,13 @@
    "title": "Strategic Palette \u2014 [brand name]",
    "gist": "You are building a **Strategic Color Palette** using Satori's 5-layer \u00d7 4-role color system. The premise is non-negotiable and inverts the rulebook most people design by: colors have no fixed meanings \u2014 context (typograp",
    "path": "skills/satori-graphics/references/prompts-v2/strategic-color-system.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "satori-graphics",
+   "title": "Three-Flow Spine \u2014 [layout name]",
+   "gist": "You are committing a layout spine using Satori's **Three-Flow Rule**: every layout is ONE primary journey with THREE committed anchors \u2014 Hook (entry), Secondary Detail (middle stop), Finisher (where the eye rests and abs",
+   "path": "skills/satori-graphics/references/prompts-v2/three-flow-spine-spec.md"
   },
   {
    "kind": "prompt-v2",

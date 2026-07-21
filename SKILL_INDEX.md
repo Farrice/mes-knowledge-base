@@ -317,7 +317,7 @@
 | `sam-parr-taste-acquisition` | **Sam Parr - Taste Acquisition Mastery** | the 4-step system for building taste from scratch in any domain — decide, history — deployed as competitive moat, taste acquisition mastery | 12 | 0 |
 | `samuel-thompson-product-launch` | **Samuel Thompson - AI Product Launch System** | ai-powered info product launch methodology from serial entrepreneur samuel th..., ai product launch system | 4 | 11 |
 | `sarah-levinger-ad-psychology` | **sarah-levinger-ad-psychology** | emotional-avatar diagnosis, avatar-to-story-structure matching, human-story-first scripting | 3 | 0 |
-| `satori-graphics` | **Satori Graphics: Design-Thinking + Composition + Color Engine** | the design-thinking brain: originates concepts and color systems, then engineers composition, layout | 20 | 0 |
+| `satori-graphics` | **Satori Graphics: Design-Thinking + Composition + Color Engine** | the design-thinking brain: originates concepts and color systems, then engineers composition, layout | 26 | 0 |
 | `sean-dollwet-kdp-publishing` | **sean-dollwet-kdp-publishing** | title/subtitle engineering, the 5-prompt ai production chain, the 30-day honeymoon + 90-day review sprint | 10 | 0 |
 | `sean-kochel-ai-business` | **Sean Kochel: AI Business Mastery** | sean kochel's ai business mastery: why ai products don't sell, persuasion architecture, and trust-building systems | 4 | 23 |
 | `sean-kochel-design-first-build` | **Sean Kochel: Design-First Web Building** | sean kochel's systematic research-to-design-to-build pipeline for landing pag..., design-first web building | 2 | 6 |

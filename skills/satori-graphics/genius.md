@@ -15,7 +15,7 @@
 
 ## How to Use This Skill (Model Calibration)
 
-The 17 patterns are intuition primitives, not a checklist to stamp onto a deliverable. Absorb the underlying belief — design is decision-making before it is expression — then produce originally. If the output reads like a checklist crawl ("GP-01 applied, GP-06 applied, GP-11 applied"), the assignment failed. The test: would Satori recognize this as a designer who has internalized "every element pays rent" and is thinking in leverage points and hidden truths — or as someone using Satori vocabulary over a decorated layout? If it's the second, rebuild from the communication problem, not from the pattern names. This is the skill's recognition test — run it silently before shipping any output.
+The 20 patterns are intuition primitives, not a checklist to stamp onto a deliverable. Absorb the underlying belief — design is decision-making before it is expression — then produce originally. If the output reads like a checklist crawl ("GP-01 applied, GP-06 applied, GP-11 applied"), the assignment failed. The test: would Satori recognize this as a designer who has internalized "every element pays rent" and is thinking in leverage points and hidden truths — or as someone using Satori vocabulary over a decorated layout? If it's the second, rebuild from the communication problem, not from the pattern names. This is the skill's recognition test — run it silently before shipping any output.
 
 Specifically:
 - Do NOT enumerate which patterns you applied unless the workflow is explicitly a scored audit (LIFT Audit, Flip Test, Perception Gap). Execute the rent test, the verb-not-noun swap, the flip — never narrate "applying GP-07 now."
@@ -42,9 +42,9 @@ The design is the decision audit. Aesthetic moves cannot rescue weak decisions; 
 
 ---
 
-## The 17 Genius Patterns
+## The 20 Genius Patterns
 
-> GP-01 to GP-12 are the v1 core (composition, logo, psychology). GP-13 to GP-17 are the v2 generative layer (design-thinking front door, color, concept engine, perception). The v2 patterns *precede* the v1 patterns in a real workflow: you define the communication problem (GP-13), engineer the feeling (GP-14), originate the concept (GP-16) and palette (GP-15) — then the v1 composition/logo/audit machinery executes and verifies.
+> GP-01 to GP-12 are the v1 core (composition, logo, psychology). GP-13 to GP-17 are the v2 generative layer (design-thinking front door, color, concept engine, perception). GP-18 to GP-20 are the v3 layout & contrast layer (2026-07-21, the first *watched* Satori source — frames archived). Sequence in a real workflow: define the communication problem (GP-13), engineer the feeling (GP-14), originate the concept (GP-16) and palette (GP-15) → **commit the layout spine (GP-18), wire the path (GP-19), stack the contrast (GP-20)** → then the v1 composition/logo/audit machinery executes and verifies.
 
 ### GP-01 — Why-Before-What Decision Gate
 Every element on a layout must "pay rent" — serve a stated reason. If you can't answer "why is this here?" with a non-aesthetic justification (concept, hierarchy, psychology), it gets evicted.
@@ -327,6 +327,19 @@ Professionals think in **perception gaps** — the space between what you *inten
 
 Bonus: the experience *around* the work (how a file opens, how a deliverable is presented) also shapes perceived value. *Perception creates value.* Operationalized as `/satori-perception-gap`.
 
+### GP-18 — Three-Flow Rule + Thumbnail Test *(v3)*
+Every layout is **one primary journey with three committed anchors**: **Hook** (entry — largest visual mass), **Secondary Detail** (the middle stop), **Finisher** (where the eye rests and absorbs the essential info — logo, CTA, date/location). Commit the three anchors in writing *before* grid or style exist. Exception that proves the rule: on an events poster the hook is artistic type, but the essential info (date/location) rides the finisher — **largest ≠ most important; largest = entry**.
+
+**The verification habit**: *"Literally take a step back… or shrink it down to a thumbnail size. If the visual path still feels balanced and easy to follow, you've done something right."* Eye bouncing = fix, in order: contrast → spacing → alignment. Run it on every project — *"this small habit will train you to see flow… not just relying on gut instinct."* Operationalized as `/satori-three-flow`. Full spec: `references/layout-flow-hierarchy.md`.
+
+### GP-19 — Directional Hierarchy (Path of Importance) *(v3)*
+> *"The goal isn't to create movement. It's actually to create a path of importance. Each directional cue should serve the hierarchy by leading from the most dominant focal point to the next in order of relevance."*
+
+Hierarchy decides what's seen **first**; direction decides where the eye goes **next**. Triad: **line of sight · flow of shapes · balance of weight**. Tools: subject gaze lines (frame text where the face points), angled shapes funneling inward, curves/diagonals for momentum, light/shadow nudges. Proof: the Dazed cover masthead is **black, not white** — the amber-lit face + gaze line already guaranteed the journey; engineered paths beat salience defaults. Operationalized as `/satori-gaze-path`.
+
+### GP-20 — The Contrast Stack (9 forms, 3 tiers) *(v3)*
+Contrast enumerated as a deployable system — **Basic**: color, size, typography · **Intermediate**: shape, style, texture · **Advanced**: psychology, emotion, concept. Operating rules: (1) ship-grade work runs **≥3 deliberate forms** (Nike poster: color + shape + texture on a minimal design); (2) the **double-whammy** — an element contrasts its container AND its internal content contrasts itself; (3) contrast is **zonal, not global**; (4) the advanced tier works by **subverting a learned association** (serif in hip-hop, a skull in playful uplifting color, humor on a serious NHS message) — name the norm, then invert it; (5) **restraint is the skill** — *"advanced designers know when or where not to use it"*; (6) **audience gate** — cheap-hectic and premium-minimal both win depending on the target audience. Contrast is also choice architecture (HK-13): the CTA lever, the larger-option click, the for-sale-sign red. Operationalized as `/satori-contrast-stack` (generative) and `/satori-contrast-audit` (diagnostic). Full system: `references/contrast-stack.md`.
+
 ---
 
 ## Hidden Knowledge (Tacit Insights)
@@ -382,6 +395,12 @@ The biggest concept mistake is trying to speak to everyone. The strongest concep
 Much of what we credit to color is actually being carried by hierarchy, contrast, placement, and context. Fix those first; color then becomes far easier to work with. A palette can't rescue broken composition.
 
 > *"A lot of what we give color credit for is actually being ushered along by hierarchy, by contrast, placement, context, strategy."* (`extractions/satori-graphics/expansion-2026-07-04/vid3-transcript.txt`)
+
+### HK-13 — Contrast Is Choice Architecture *(v3)*
+Contrast doesn't just organize attention — it steers behavior. CTA color contrast is *"how social media UI creates an addictive response in the user"*; between two options, *"the larger option will most likely be clicked simply because of contrast"*; premium-vs-basic price perception (the dog-food example) is a contrast effect. When designing interfaces, treat every contrast decision as a behavioral decision, not a styling one.
+
+### HK-14 — Temporal Flow Is the 99% Edge *(v3)*
+*"Something like 99% of designers don't consider this temporal flow."* Engineering when the eye moves and how long it lingers — punch (hero) → linger (details) → release (white space), the A$AP Rocky spread and Apple product-page pattern — is the cheapest differentiation in the stack because almost nobody does it. Applies to posters, brochures, and directly to front-end section rhythm.
 
 ---
 
@@ -443,6 +462,22 @@ A restaurant sign where only the "Yo" is recolored — using a color pulled from
 "10,000 dogs euthanized every day" + a syringe = information; sad but abstract. Then the page tears away to reveal a collar underneath — now it's *someone's* dog, with an owner and a home. A tiny visual change, a massive emotional jump.
 **Lesson**: Information tells people what to think; emotion makes them feel. For awareness/charity work, engineer the emotional reveal.
 
+### HOF-12 — Buck Design "Universe '24" (Three-Flow Rule) *(v3, frame archived)*
+GitHub Universe poster: bold 3D graphics emanating bottom-right (hook) → white heading with a stop at the tagline (secondary) → logo bottom-left (finisher). The traced path is a smooth curve over a triangle of anchors.
+**Lesson**: A layout is one journey with three committed anchors — not a field of competing elements. Frame: `extractions/satori-graphics/expansion-2026-07-21/frames/buck-universe24-flow.jpg`.
+
+### HOF-13 — Dazed Cover (Directional Hierarchy) *(v3, frame archived)*
+The model's face is deliberately amber-lit — hierarchy makes it the first fixation. Her face points up toward the masthead, which is **black on a dark ground**, refusing the make-it-white salience default, because the gaze line already delivers the eye there.
+**Lesson**: Hierarchy decides first; direction decides next. Engineered paths beat salience defaults.
+
+### HOF-14 — Nike "MOVE DIFFERENT" Poster (Count-the-Contrasts) *(v3, frame archived)*
+A "simple" poster running three deliberate contrast forms: color (white/black/peach), shape (angular pointy lines everywhere vs. the shoe's smooth curvature — so the product wins), texture (sandy blur ground vs. smooth realistic shoe). Deliberate near-miss noted: black shoes sitting on a black zone — contrast is zonal.
+**Lesson**: Minimal ≠ flat. Ship-grade work stacks ≥3 quiet, zonal contrast forms.
+
+### HOF-15 — Teal Skull "Yes" (Contrast of Psychology) *(v3, frame archived)*
+A skull — learned symbol of death — rendered bright teal on pink with a playful yellow script. Reads joyful, and lodges in memory precisely because it violates the symbol's connotation.
+**Lesson**: The advanced contrast tier inverts a learned association on purpose. Name the norm, then flip it — the violated expectation is the memory hook (GP-03 by other means).
+
 ---
 
 ## Signature Moves (8 deployable plays)
@@ -464,6 +499,9 @@ A restaurant sign where only the "Yo" is recolored — using a color pulled from
 | 13 | **The 5-Layer Color Pass** | Palette decisions. Walk Functional→Emotional→Cultural→Competitive→Strategic; then assign Primary/Secondary/Accent/Neutral jobs. |
 | 14 | **The Sequence-Recall Test** | Post-draft. Flash the design for 3s; ask what they remember *in order*. Wrong first thing = hierarchy failed. |
 | 15 | **The Feeling Calibration** | Same content, wrong vibe. Tune premium/cheap/playful via type + color + layout + surface, matched to the audience. |
+| 16 | **Count-the-Contrasts** *(v3)* | Reading any design (yours or reference). Name every contrast form present, zone by zone; <3 nameable = flat/generic risk. |
+| 17 | **Draw-the-Flow-Line** *(v3)* | Pre-grid and pre-delivery. Physically trace the eye path over the comp; it must hit Hook → Secondary → Finisher, calmly, at thumbnail size. |
+| 18 | **The Expectation Flip** *(v3)* | Memorability briefs. Pick ONE learned association the audience holds (type-psychology, symbol-emotion, genre-concept) and deliberately invert it. |
 
 ---
 
@@ -488,6 +526,10 @@ A Satori-grade design earns ≥8 on each:
 11. **Concept strength**: A non-obvious hidden truth or one-big-idea is named and committed to — not a decorated version of the obvious (GP-16).
 12. **Color-job clarity**: Every color has a stated job across the 4 roles; the 5-layer decisions (esp. the fit-in/stand-out call) are explicit (GP-15).
 
+**For layout work (three-flow / contrast / gaze-path / frontend-flow), add two more:**
+13. **Three-anchor flow**: Hook, Secondary Detail, and Finisher are each nameable, and the path still reads calmly at thumbnail size (GP-18).
+14. **Contrast-stack depth**: ≥3 deliberate contrast forms nameable, each serving an anchor; any advanced-tier form is intentional — or its absence is a stated audience-gate decision (GP-20).
+
 ---
 
 ## Anti-Patterns (Auto-Reject)
@@ -508,6 +550,8 @@ A Satori-grade design earns ≥8 on each:
 14. **Information over emotion** (in emotional briefs) — stacking facts where a feeling/reveal was needed (GP-16 technique 7). Satori, v2 expansion 2026-07-04, confirmed verbatim in `extractions/satori-graphics/expansion-2026-07-04/vid4-transcript.txt`: *"Information tells people what to think, whereas emotion makes them feel something."*
 15. **Explanation-required** — a design you have to explain has a perception gap; confusion isn't subjective (GP-17). Satori, v2 expansion 2026-07-04, confirmed verbatim in `extractions/satori-graphics/expansion-2026-07-04/vid5-transcript.txt`: *"Aesthetics are subjective, but confusion isn't. And if you need to explain a design, then that design probably has failed its job in some way."*
 16. **Feeling-audience mismatch** — a "premium" treatment aimed at an audience that reads it as pretension or can't afford it (GP-14). Satori, v2 expansion 2026-07-04, confirmed verbatim in `extractions/satori-graphics/expansion-2026-07-04/vid1-transcript.txt`: *"It is no good trying to make your design premium if the end users are teenagers or students with little to no money at disposal."*
+17. **Uncommitted journey** — a layout with no three-anchor spine: four+ competing flows, or no finisher carrying the essential info, so the eye bounces (GP-18). Satori, v3 expansion 2026-07-21, confirmed verbatim in `extractions/satori-graphics/expansion-2026-07-21/transcript.txt`: *"If it feels chaotic or your eye is bouncing around the place, something is probably off."*
+18. **Flat emphasis** — fewer than 3 deliberate contrast forms; evenly-distributed emphasis where nothing wins (GP-20; the AI-default tell). Or its inverse: style-contrast stamped on every design. Satori, v3 expansion 2026-07-21, confirmed verbatim in `extractions/satori-graphics/expansion-2026-07-21/transcript.txt`: *"Contrast of style isn't something you want to be using on every single design. And the advanced designers know when or where not to use it."*
 
 ---
 
@@ -521,7 +565,7 @@ A Satori-grade design earns ≥8 on each:
 
 Satori is for the **communication thinking, concept origination, color strategy, composition logic, layout flow, logo concept, and design psychology** layer — the *brain* that sits above production tools. v2 rule: **Satori decides; the generation tools execute.** Never let a generation tool originate the concept — that's the human moat.
 
-Scope note: Satori's own extracted material is 10,652 words across v1 (4 videos, 2026-05-03) plus ~7,800 words across v2 (5 videos, 2026-07-04) — 9 sources total, all composition/logo/color/concept. Anything outside that footprint (typography mechanics, DESIGN.md token codification, brand positioning, AI-prompt engineering) routes to the specialists above rather than being stretched to fit.
+Scope note: Satori's own extracted material is 10,652 words across v1 (4 videos, 2026-05-03), ~7,800 words across v2 (5 videos, 2026-07-04), plus ~4,900 words across v3 (1 layout-course video, 2026-07-21 — the first source actually *watched*: 127 frames read, 17 exemplar frames archived) — 10 sources total, all composition/layout/logo/color/concept. Anything outside that footprint (typography mechanics, DESIGN.md token codification, brand positioning, AI-prompt engineering) routes to the specialists above rather than being stretched to fit.
 
 ---
 
@@ -554,9 +598,11 @@ Satori's frameworks transfer beyond graphic design:
 For deeper reference material, load:
 - `references/lift-system-decision-criteria.md` — LIFT scoring rubric, edge cases
 - `references/grid-taxonomy-selector.md` — Grid selection decision tree
-- `references/movement-flow-ladder.md` — When to use which level
+- `references/movement-flow-ladder.md` — When to use which level (now with watched visual exemplars)
 - `references/color-system.md` — **(v2)** 5-layer color model, 4-role palette, fit-in/stand-out tree, worked palette
 - `references/creative-concept-engine.md` — **(v2)** the 7 concept techniques expanded, selection matrix, commit principle
 - `references/design-business-models.md` — **(v2)** design-monetization map (reference-only)
-- `references/source-quotes.md` — Verbatim Satori source material (v1 + v2)
+- `references/layout-flow-hierarchy.md` — **(v3)** Three-Flow Rule, 3-Key Levels, directional hierarchy toolkit, thumbnail test
+- `references/contrast-stack.md` — **(v3)** the 9 contrast forms × 3 tiers, double-whammy, count-the-contrasts audit
+- `references/source-quotes.md` — Verbatim Satori source material (v1 + v2 + v3)
 - `references/cross-domain-transfer-map.md` — Detailed transfer cases

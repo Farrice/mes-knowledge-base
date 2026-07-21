@@ -49,3 +49,4 @@
 {"timestamp": "2026-07-19T12:44:23.627421", "workflow": "extract-forge", "skill": "jason-fladlien-marketing", "expert": "jason-fladlien", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-07-21T06:39:04.364096", "workflow": "extract-forge", "skill": "paolo-trivellato-lead-magnet-engine", "expert": "paolo-trivellato", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-07-21T07:23:32.601503", "workflow": "extract-forge", "skill": "ray-amjad-agentic-ladder", "expert": "ray-amjad", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-07-21T08:05:29.241265", "workflow": "extract-forge", "skill": "satori-graphics", "expert": "satori-graphics", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}

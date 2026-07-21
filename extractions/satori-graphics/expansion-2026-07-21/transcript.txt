@@ -1,0 +1,281 @@
+
+_Source: captions._
+
+
+[00:11] Now take this design by Buck Design. The viewer's  journey starts with the bold large graphics  
+[00:17] emanating from the bottom right. The angle of  these graphics and the position is something  
+[00:22] we're going to look at later in the video. But on  this design, the attention to the viewer moves up  
+[00:27] to the white heading, which acts as a secondary  focus, and that's with a short stop off to the  
+[00:33] tagline before finally resting in the information  in the bottom left, which is the logo. Of course,  
+[00:38] not every single person will view this design in  exactly the same way or the same order. But it  
+[00:43] provides a clear, streamlined path that helps most  viewers absorb the message quickly. When you're  
+[00:50] applying the three flow rule, it's helpful to take  a step back. I mean, literally take a step back.  
+[00:56] Look at your design from a distance or shrink it  down to a thumbnail size. If the visual path still  
+[01:01] feels balanced and easy to follow, you've done  something right here. But if it feels chaotic or  
+[01:07] your eye is bouncing around the place, something  is probably off. So try adjusting the balance of  
+[01:12] contrast, spacing or alignment until your eye  naturally travels through the composition in a  
+[01:18] calm and controlled way. This small habit will  train you to see flow on every single project  
+[01:23] and not just relying on gut instinct. Our eyes  naturally follow implied motion angles and gaze  
+[01:30] lines without even realizing it. And you can  use that behavior like we've seen, but we can  
+[01:35] take full control of how the viewer reads your  design by combining it with hierarchy properly.  
+[01:41] So, take this dazed magazine cover. Now, you  likely did notice the model's face because it  
+[01:47] is actually intentionally illuminated in that  lovely amber light. But consider which way her  
+[01:54] face is pointing up towards the title of the  magazine, which is black. Now, it could have  
+[02:00] been white so it stood out against the background,  but that's not what the designer intended here.  
+[02:06] Hierarchy decided you notice the face first, which  started the journey. Designers often frame text  
+[02:13] close to the direction of the subject's gaze to  make sure the reader's eye moves exactly where  
+[02:18] intended. Angled backgrounds or shapes that point  inward can funnel focus towards the center of the  
+[02:24] layout. Curved compositions or diagonal alignments  create natural momentum that keep the eye  
+[02:30] traveling through the page. Even the positioning  of light and shadow can nudge attention from one  
+[02:36] element to the next. This is where directional  hierarchy really comes to life here. The goal  
+[02:42] isn't to create movement. It's actually to create  a path of importance. Each directional cue should  
+[02:48] serve the hierarchy by leading from the most  dominant focal point to the next in order of  
+[02:52] relevance. The line of sight, the flow of shapes,  and the balance of weight all work together to  
+[02:59] build that sequence in play. And when this is done  well, the viewer doesn't just look at your design,  
+[03:05] they're actually experiencing it in a deliberate  order that reinforces the message. Size is one  
+[03:11] of the easiest ways to create hierarchy because  our eyes pick up on the fact of size instantly.  
+[03:17] The larger an element is, the faster it draws  attention, simply put. And to structure visual  
+[03:23] hierarchy using size, think of it in yet another  three levels. the hook, the secondary detail,  
+[03:30] and the finisher. Most designers will say the most  important part of your design should always be the  
+[03:36] largest. And while that's true most of the time,  there are situations where it's not true. Now,  
+[03:42] if your design is promoting a product, then  yes, the product itself should be the largest  
+[03:46] element because it's the hero here. Take this  drinks out of a poster. The bottle is front and  
+[03:52] center. That's your hook. but also they really  switched on designers out there. Notice the  
+[03:57] red circle behind it adding more emphasis.  But in another case like an events poster,  
+[04:04] the hook might be an artistic image or typography  while the most important information could be  
+[04:09] the date or location. The key is to make the hook  the largest visual. The secondary detail slightly  
+[04:15] smaller and then the smallest text or element  could be your call to action where a viewer  
+[04:20] finishes. Once a viewer is drawn in by that hook,  their eyes follow the hierarchy you've built,  
+[04:28] moving from the secondary details to the  finisher where they absorb the essential  
+[04:32] information. This approach becomes even more  powerful when combined with something like  
+[04:37] the F or desired pattern and that will guide the  flow of attention smoothly from start to finish.
+[04:48] In the realm of graphic design principles, the  very first and most fundamental level of movement  
+[04:53] and flow is simply directing visual guidance. In  our starting poster today, we have a bold headline  
+[05:00] in the top left. And this is the natural place  for the eye to start in the left to right reading  
+[05:05] cultures. But below that, a large geometric arrow  points diagonally down to a secondary block in the  
+[05:13] bottom right, the CTA. Here, your brain obviously  doesn't need instructions. It sees a bold element  
+[05:20] and then it just follows the arrow instinctively.  It doesn't have to be something as stupidly  
+[05:25] obvious as an arrow, though. Just something that  acts as a bridge or a path as such. This is the  
+[05:31] most obvious and literal form of movement in  graphic design. But why does it work? Well,  
+[05:37] it works because the human eye instinctively  follows directional cues. You'll see it in  
+[05:41] everything from wayfinding signage in airports to  sports adverts where the athletes gaze or maybe a  
+[05:48] part of their body points towards the logo or  a specific part of the design. At this level,  
+[05:54] movement is about rule and obvious clarity.  You're telling the eye exactly where to go.  
+[06:00] Simple and of course straightforward. But we  are going to steadily move into more advanced  
+[06:06] teachings in this video with each different level.  So once you've mastered simple basic direction,  
+[06:13] the next step is to use hierarchy to create a  natural flow without relying on arrows or obvious  
+[06:19] lines. And it's easier to achieve than you might  think. So on our poster, I'm adding a mediumsiz  
+[06:26] subheading and a smaller detail at the bottom of  it. And the arrow has been completely banished  
+[06:32] as you can see. Now, instead of jumping straight  from the headline to the CTA at the bottom right,  
+[06:39] your eye actually stops in the middle before  continuing. This happens because of visual  
+[06:44] weight. Larger bolder elements are seen first,  then medium elements, and then the smaller ones.  
+[06:52] It's like a gravitational pool where size and  contrast dictate order on a graphic design.  
+[06:58] But the question you might have is why? Why is  this needed or why is this even a thing? Well,  
+[07:05] the benefit of hierarchydriven flow is that  it feels effortless. You don't have to draw  
+[07:11] an arrow because the composition itself creates  an invisible one. Think of editorial layouts in  
+[07:17] magazines or minimal poster designs where there's  no decoration at all, yet your eye on a good  
+[07:23] design still travels in a deliberate sequence  top down. This is where movement becomes more  
+[07:30] sophisticated. The viewer doesn't feel directed  on a conscious level, but they're still being  
+[07:36] guided. Being guided by you, the designer. So, at  stage three, we're adding a touch of complexity.  
+[07:44] Movement doesn't have to be one single journey  from point A to point B. You can have multiple  
+[07:50] flows running at once on a single design.  A main route and then smaller micro routes.  
+[07:57] So, zooming into our central section, I'm adding  smaller type blocks and elements that pull the eye  
+[08:03] into a kind of short loop before reconnecting to  the main path. This creates a kind of exploration  
+[08:10] moment. The viewer takes a side road, processes  extra detail, and then returns to the main path.  
+[08:16] It's kind of like fractals in nature where we have  smaller movement and flows within a main movement  
+[08:22] of flow. The advantage here is time on a design.  By giving people more than one visual path,  
+[08:29] you keep them looking for longer. But of course,  this will depend on your brief and what content  
+[08:34] you've been given to work with. This is just a  clear example for you guys today. But the trick  
+[08:40] is to balance the strength of these secondary  flows so they don't overpower the main one,  
+[08:44] but it can go totally and drastically wrong. Some  designers might use too many competing paths and  
+[08:51] the design might end up feeling chaotic. But done  correctly, layered paths give your work a richness  
+[08:57] and a depth that actually rewards multiple  different viewings. Now, we're currently working  
+[09:03] on a branding streetear project. And I'm sure you  know that part at the very beginning of a branding  
+[09:07] project that feels like an uphill marathon.  You can start to feel like Thomas Anderson  
+[09:11] in the Matrix, staring at spreadsheets and data  all day long, boxed into a cubicle. Thankfully,  
+[09:17] instead of waiting for Morpheus to show up, I  just handed the entire project to an intern.  
+[09:23] but an intern from the future. Enter stage  right Skywork AI. And because this intern has  
+[09:29] no emotional feelings, I can dump the mind-numbing  and tedious parts of the research process over to  
+[09:34] it without any guilt whatsoever. Okay, maybe 5%  guilt and only because I've seen what happens in  
+[09:40] Terminator. But in Skywork, the tedious phase  of my project was handled in one workspace. It  
+[09:45] researched the market, analyzed competitors,  and built a strategy report. But get this,  
+[09:50] you can download skill packs. And for my project,  this marketing psychology one was really useful.  
+[09:56] This uses behavioral science and cognitive  biases to optimize the marketing strategy.  
+[10:02] So we're talking leveraging principles like  anchoring, social proof, and scarcity. All  
+[10:07] to understand consumer behavior and to boost  conversion rates on this project. And look,  
+[10:12] Skywork has created for me a spreadsheet on  my clients competition, their financials,  
+[10:17] and so on. And what I found interesting though  is that it doesn't stop just there. From the same  
+[10:22] project, I could have taken those findings and  actually had Skywork automatically turn them into  
+[10:27] presentations with visual slides, initial creative  directions already laid out. Here I've taken the  
+[10:34] research for the industry sector of my brand or my  client's brand and just ask I work to create a PDF  
+[10:40] of this combined information. So instead of just  bouncing between, you know, five different tools  
+[10:45] and 20 browser tabs, the entire workflow stays  connected. It stays right here. I of course read  
+[10:51] through the results myself. I obviously fully  absorbed the essence of the brand and so forth,  
+[10:56] but the process of gathering all of the  information didn't feel like something had stolen  
+[11:00] my soul. And if you would like to try Skywork for  yourself, there's a link in the description box of  
+[11:05] today's video down below. And you can try it for  free and use my code for 20% off the annual plan.  
+[11:10] And thanks to Skywork for sponsoring this part of  today's video. Now we get into the psychological  
+[11:16] side of movement. Implied motion is when a still  design makes the viewer feel like something is  
+[11:22] actually moving in some way. And it happens all  the time and it's not difficult to do either.  
+[11:27] This can be achieved with repetition, progressive  scaling, blurring, or even directional patterns.  
+[11:33] So imagine our posers background gaining a faint  directional pattern that tapers off at one edge.  
+[11:39] Your brain reads this as acceleration. It could  even be something as simple as a gradient from  
+[11:45] top to bottom with a texture added. Or think about  photography in editorial design, a dancer's frozen  
+[11:52] leap, fabric caught mid swing, or water splashing  around a product shot. Even in brutalist design,  
+[12:00] you can actually create implied motion with  repeated geometric forms, ones that get tighter  
+[12:06] or looser across a composition. The key here is  suggestion. You're not physically moving anything,  
+[12:13] but you're making the viewer's eye behave as  if it is. This is particularly powerful in  
+[12:18] static media because it makes the design feel more  alive without actually using any animation. Now,  
+[12:25] I'm adding a bold rotated black square with  a red motif right across our main flow path.  
+[12:31] At first it might look like it's a mistake, you  know, something blocking the way here, but that  
+[12:36] is the point. Your eye hits it, it pauses, and  then it has to find its way around it somehow.  
+[12:44] That pulls actually forces re-engagement. Notice  how the square is rotated at 45°, and that makes  
+[12:52] it look even more disjointing compared to the rest  of the layout. And that's not a mistake or fluke.  
+[12:58] It's done intentionally on purpose to add even  more disruption. Flow disruption works because the  
+[13:04] brain doesn't like unresolved paths. If something  interrupts a journey, we instinctively try to work  
+[13:10] it out. Now, you can use this to slow the viewer  down at key messages or key points or to make the  
+[13:16] design feel more dynamic and less predictable.  It is a highle move that requires intention,  
+[13:22] not done randomly. So if you do it deliberately,  it can become a tension point that makes the  
+[13:28] design more memorable or even allude to a specific  point. So at the ultimate stage, movement isn't  
+[13:36] just about where the eye goes. It's about when  the eye goes there and how long for. This is  
+[13:42] called temporal flow. Controlling the rhythm of  how long the eye lingers, when it accelerates,  
+[13:48] and when it pauses. It is kind of like conducting  music but with visuals. So perfect examples  
+[13:56] would be in luxury fashion advertising. Think of  notorious magazine spreads. You have a full bleed  
+[14:03] image of a model with a sharp gaze. That's a fast  hit. Followed by the layered details like jewelry,  
+[14:10] fabric, texture or copy set in fine serif fonts.  This is where the eye may slow down and scan a  
+[14:17] bit. Then a stark white space at the bottom where  the logo sits alone. That's the pause. So that  
+[14:25] sequence forces the viewer through different  beats. Impact, linger, release. Or take Apple's  
+[14:31] product pages. The opening hero image hits you  hard and fast. Then you slow down on the technical  
+[14:39] details in clean blocks. That's the slow part, of  course. And that's before resting on a vast open  
+[14:45] white space surrounding a single product. That is  the pools. And that rhythm creates a subconscious  
+[14:51] sense of time within a static design. A viewer  doesn't just look at things here. They experience  
+[14:57] it like beats of music that I said earlier. Punch,  slow, pull, release. The mastery here is kind of  
+[15:05] like a timebased journey on a design. That's when  you've truly mastered flow. But the really really  
+[15:11] key thing here is that something like I don't  know 99% of designers don't consider this temporal  
+[15:17] flow of time. But if you start to consider it on  your designs, be it a poster, marketing brochure,  
+[15:24] website, whatever it is, you'll begin to  create better experiences for your audience.
+[15:35] You are about to watch the most important  teachings I've ever shown on this channel  
+[15:38] about contrast. You'll learn some graphic design  theories about contrast and techniques that are  
+[15:42] not shown anywhere else on YouTube. The first  application of contrast is probably the one that  
+[15:47] most people know about and that is the contrast  of color. This is typically achieved by using  
+[15:52] colors opposite to each other on the color wheel.  And that's because these colors offer the most  
+[15:57] contrast. However, we can also do things such  as have low saturated colors mixed with bright,  
+[16:04] bold, saturated colors, or even grayscale options  with color, which often emphasizes a sad kind of  
+[16:10] atmosphere. One of the main ways that contrasting  colors is used is on call to action buttons or  
+[16:16] areas similar to that. It's how social media UI  creates an addictive response in the user or why  
+[16:23] you've been tricked into buying premium dog food  for your pet as opposed to the basic stuff. Next  
+[16:29] is contrast of size. Essentially, contrast of size  is hierarchy. And typically speaking, we could say  
+[16:36] that the larger things on a design, the designer  gives more importance to. And this is even more  
+[16:41] obvious when these larger objects or assets are  sat next to smaller objects. Hence, contrast.  
+[16:48] Typically, large objects on your design will be  noticed first by the viewer, and the focal point  
+[16:54] on a design is often the largest thing. Sign next  to similar objects is going to appear dominant  
+[17:00] and that much more important. Designers often  use contrast of size to allude to or emphasize  
+[17:05] a product that is being advertised. And contrast  in size is used when multiple different options  
+[17:10] are given to something like a signup page on a  website. The larger option will most likely be  
+[17:16] clicked simply because of contrast. Now, a pro  tip here is to use contrast of size to create  
+[17:21] surreal or jarring works. And this can be used to  captivate audiences and add extra intrigue. And  
+[17:29] so, the third basic way to use contrast before we  move on to the more advanced things is typography.  
+[17:34] And we could say the previous two examples  of contrast do actually play into typography  
+[17:40] when considering contrast. For example, larger  typography is contrasted with smaller typography  
+[17:46] on headlines, subheadings, and in body text.  We also sometimes see a contrast of color in  
+[17:51] typography to make important information stand out  or simply a bolder thicker font being used. And  
+[17:58] then we have contrasting type face styles. This  is often used in logo design to create interest  
+[18:04] and well contrast. A logo design simply looks  neater if we have contrast in the logo type.  
+[18:10] So now let's take things a step further and let's  get a bit more advanced when using contrast on our  
+[18:16] graphic designs. So here is a Nike poster and  it is a pretty simple poster and I personally  
+[18:22] would prefer some typography on it but it is a  very awesome demonstration of contrast. And for  
+[18:27] this first exercise I would like you to look at  this poster. Look at this design. Can you see the  
+[18:32] three different uses of contrast in this poster?  Yeah, that's right. There are three different ways  
+[18:39] contrast is being used here. So, let's go over  the easiest one. First and foremost, we have the  
+[18:44] contrast of color. As you can see here, the white  against the black or maybe the white against the  
+[18:50] orangey pinky color here, peachy color. And that  is obvious. It is the first and most obvious one  
+[18:55] you would probably realize. But what is the  second form of contrast on this poster? It  
+[19:01] is actually shape. The contrast of shape. As you  can see here, we have very straight angled pointy  
+[19:09] lines running along the entire poster. They are  contrasted with the smooth curvature of the actual  
+[19:17] shoe and the logo itself. Now, this is somewhat  subtle to some people or even unrecognizable,  
+[19:24] but this allows the shoes, the product in this  sense, and also the logo to stand out. Everything  
+[19:31] else is angled straight line. So that's the second  form of contrast here. But can you see the third?  
+[19:39] So yeah, the third form of contrast is texture.  If you look closely here, there's a kind of sandy  
+[19:45] color blur texture going on on the background.  That is in complete contrast to the shoe itself,  
+[19:52] which looks very smooth and realistic. It's a  contrasting texture, and again, it just eludes the  
+[19:59] viewer to looking at the shoe itself. I find it  interesting how the designer has put black shoes  
+[20:04] on a black part of the design. And again, I would  personally prefer some typography going on here,  
+[20:09] too. But that's an example of having three  different forms of contrast on one simple  
+[20:14] design. Contrast of style isn't something you  want to be using on every single design. And the  
+[20:19] advanced designers know when or where not to use  it. On this design here, we see a very minimal,  
+[20:25] bold, and flat design. That is apart from  the photographic element of the cockroach.  
+[20:30] This is a contrast of style and it can help to  create a visual intrigue or highlight element on  
+[20:36] your design. The minimal and the flat nature  of the design allows the viewer to be drawn  
+[20:40] into it and then to actually notice the cockroach  more so which ultimately just enhances its visual  
+[20:47] impact. Contrast of style can be very subtle  but the trained eye can spot it very easily.  
+[20:53] as example right here. The designers used very  precise technical line style graphics along with  
+[20:59] the more cartoony and 3D elements. It's a straight  contrast in style, but they work so well together.  
+[21:06] They could have easily just made these white icons  below in a cartoon 3D style as well, but it would  
+[21:11] not have worked as well as it does here on this  design. Now, it's time to get a bit touchy feely  
+[21:17] and hands-on. Contrast of texture does appear  visually appealing. But in graphic design,  
+[21:22] it's often used to express the sensation of touch  or detail. For example, here we can see the marker  
+[21:28] pen textures on a bold and flat design. This gives  the pure illusion of a texture sensation to the  
+[21:34] viewer. And then here there's a plastic or rubbery  balloon texture matched with a flat 2D graphic.  
+[21:42] Having a contrast of textures emphasizes the  important texture, making it have more impact  
+[21:47] on the design itself. Having the white flat logo  in the top left and then the bold graphics around  
+[21:53] the edges simply helps the texture of the balloon  itself become more obvious when viewed. Now, as  
+[21:59] designers, we can even use contrast of psychology  on our work. And when it's done properly,  
+[22:04] it's a very powerful thing indeed. To achieve  this, you first need to understand psychology  
+[22:09] of graphic design so you can then twist and  manipulate it in your work. For example, we can  
+[22:14] say that a serif type face is well matched with  luxury and exclusivity and it's used to express  
+[22:20] those connotations psychologically speaking to  the viewer. Well, we can actually see here that  
+[22:25] a serif type face is used in a very different  setting and situation and that goes against the  
+[22:30] norm and is a contrast of psychological beliefs.  On this second design, normally we would assume an  
+[22:37] urban hip-hop visual narrative to use a bold sans  serif type face. Instead, we see a very narrow  
+[22:43] serif type face. So again, that's contrasting of  psychology. But what about this skull design? How  
+[22:49] has the designer used contrast of psychology here?  Well, it's actually a very clever design when  
+[22:55] inspected deeply. Skulls are normally thought  of as negative and represent death of course,  
+[23:01] but the design uses bright, bold, uplifting colors  matched with a very playful yellow font. This  
+[23:08] makes the design seem playful and happy, which  totally goes against the symbolism of what skulls  
+[23:13] are. Designers can use this method to express  a message, an idea, or even an emotion on their  
+[23:19] work. And actually, emotion brings us swiftly  onto the next point in today's video. Check out  
+[23:25] this design here for the British National Health  Service. How might the contrast of emotion be used  
+[23:31] on this design? So, this design aims to raise  awareness of smoking around children, which  
+[23:36] of course is just a very serious thing. But the  design then uses humor to get the message across  
+[23:41] and furthermore to make it memorable and relatable  to the viewer. And on this movie poster here,  
+[23:47] we see a juosition of love and sadness to reflect  the film's bittersweet narrative. Also, there's a  
+[23:54] crack on the ice that suggests something is not  right in the situation. Again, more contrast.  
+[23:59] But what about UI and UX designers? How can we  implement contrast in professional and powerful  
+[24:05] ways on those kind of designs? So, here is a  design of an app or just a layout of an app. There  
+[24:10] are many different forms of contrast going on  here. And I would like you to try and work out and  
+[24:15] decipher what is going on in terms of contrast. So  when you actually pick apart designs in this way,  
+[24:21] you can then start to think about your own work  and how you can apply principles on your own  
+[24:25] graphic designs. So the first form of contrast is  here with these black labels that clearly stand  
+[24:32] out all over the app. They do this by standing out  in just terms of black contrast on color or white.  
+[24:39] But one very important use of contrast is found  here and in other areas of the app. We not only  
+[24:47] have different contrasting font choices, font  weights, but also font colors, which allude to  
+[24:54] a very important part that the designer wants to  bring an attention to. That's why you always see  
+[24:59] for sale signs in red or a contrasting color,  cuz contrasting, like I said at the start of  
+[25:04] the video, does draw attention in very easy ways.  But what other contrast elements can you see? Now,  
+[25:11] this area, and all of these areas, in fact, are  kind of a double whammy when it comes to contrast.  
+[25:16] Now firstly the app background is white or gray  but then these areas are in a bold bright color  
+[25:22] section so they obviously stand out but then also  if you think about it the photographs themselves  
+[25:28] are contrasting I mean we have red on blue we  have blue on orange kind of bluey turquoisey on  
+[25:36] pink and so on. So there's quite a lot of contrast  going on in these areas but can you see anything  
+[25:42] else that's contrasting in this design? Yes,  the actual UI itself is contrasting the UI of  
+[25:49] the app or even the phone. We have a red dots  here and also up here next something that will  
+[25:57] totally help reinvent or upscale your work when  talking about contrast and that is contrast of  
+[26:03] concepts. So here's a concept for a tech inspired  poster design. And actually it's not very inspired  
+[26:09] though, is it? I mean the concept is 2D. It's  flat. It is very lackluster. Now if you totally  
+[26:14] contrast this style, we can start with a more 3D  approach and bring on some still 2D typography  
+[26:21] but keep in line with the modern sanserif style  also. Then of course the body text and that's  
+[26:26] contrasted in size and also type style much  like we looked at earlier in today's course  
+[26:31] video. And then at the very foot of the design we  can bring on the date and contrast that in size,  
+[26:37] color and also again type style. So considering we  contrasted the original design's concept, we now  
+[26:44] have a more minimal, a more 3D and modern design  and this makes the original templateesque design  
+[26:49] look lesser in terms of quality. But then take a  look at this design here, a poster for a kind of  
+[26:55] menu or restaurant. We have some lovely salmon on  a rustic board, some bold typography, and then of  
+[27:01] course the pricing. The former concept is cheaper,  more hectic, and more slap dash if you will.  
+[27:08] However, it is important to consider the brief and  the target audience for both designs because both  
+[27:13] of these designs could actually have a time and  a place depending on that target audience. If you  
+[27:18] want to learn some more great tips about graphic  design, maybe some tips on a different principle,  
+[27:23] just click the video on screen. But until next  time, guys, design your future today. Peace.
+
+
+---
+_Work dir: `/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/1284accc-026f-4903-9712-8c88aba8e067/scratchpad/satori-layout-watch` — delete when done._
