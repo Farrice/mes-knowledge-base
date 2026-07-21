@@ -14,7 +14,7 @@
                 "tyler-denk-audience-monetization": 1,
                 "lara-acosta-linkedin-mastery": 2,
                 "extract-mastery": 3,
-                "Research": 13,
+                "Research": 15,
                 "luke-iha-vsl-leads": 4,
                 "sean-dollwet-kdp-publishing": 2,
                 "paul-james-ai-automation": 1,
@@ -61,9 +61,9 @@
                 "nicolas-cole-digital-products": 3,
                 "ai-chris-lee-zero-testimonial-sales": 1,
                 "story-bible-builder": 1,
-                "jason-fladlien-marketing": 9,
+                "jason-fladlien-marketing": 10,
                 "how-i-write-os": 12,
-                "supercomputer": 19,
+                "supercomputer": 20,
                 "design-md": 13,
                 "fantastic-posters": 2,
                 "Creative": 8,
@@ -89,9 +89,9 @@
                 "sweat-equity-speedrun-social-os": 1,
                 "benjamin-hardy-identity": 1
             },
-            "total_routings": 534,
+            "total_routings": 538,
             "tier_counts": {
-                "0": 534,
+                "0": 538,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -101,8 +101,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 304,
-                "finalize-auto": 230
+                "hybrid": 306,
+                "finalize-auto": 232
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -118,12 +118,12 @@
                 "ali-abdaal-action-bias": 2,
                 "skill-creator": 2,
                 "jen-santulan-listing-content": 33,
-                "deep-research": 8,
+                "deep-research": 9,
                 "system-orchestrator": 3,
                 "David Placek": 1,
                 "mcp-builder": 1,
                 "gpt-image-2-director": 13,
-                "seth-godin-brand": 2,
+                "seth-godin-brand": 3,
                 "collective-genius-council": 1,
                 "kallaway-social-commerce": 2,
                 "david-placek-naming": 8,
@@ -146,7 +146,7 @@
                 "cooz-voice-profile": 3,
                 "none": 8,
                 "market-intelligence": 1,
-                "nate-b-jones-context-engineering": 34,
+                "nate-b-jones-context-engineering": 35,
                 "nicolas-cole": 1,
                 "omar-eltakrori": 1,
                 "josh-kaufman-business-fundamentals": 1,
@@ -175,7 +175,7 @@
                 "tommy-clark": 2,
                 "deliberate": 27,
                 "creative-director": 1,
-                "doc-coauthoring": 36,
+                "doc-coauthoring": 37,
                 "dan-wang-literary-analysis": 2,
                 "webapp-testing": 2,
                 "brand-operating-system": 24,
@@ -220,7 +220,7 @@
                 "kieran-flanagan": 1,
                 "unified-research-engine": 1,
                 "system-architecture": 7,
-                "chase-hughes-context-engineering": 3,
+                "chase-hughes-context-engineering": 4,
                 "seena-rez-tiktok-commerce": 3,
                 "lara-acosta-linkedin-growth": 1,
                 "stefan-georgi-dopamine-copy": 22,
@@ -240,9 +240,9 @@
                 "seth-godin": 3,
                 "farrice-master-context-synthesis": 1,
                 "story-bible-builder": 2,
-                "jason-fladlien-marketing": 12,
+                "jason-fladlien-marketing": 13,
                 "luisa-zhou-coaching": 2,
-                "supercomputer": 32,
+                "supercomputer": 33,
                 "design-md": 22,
                 "alex-content-science": 2,
                 "system-audit": 23,
@@ -346,11 +346,12 @@
                 "sarah-levinger-ad-psychology": 1,
                 "ward-farnsworth-rhetorical-mastery": 1,
                 "business-intelligence-audit": 3,
-                "paolo-trivellato": 1
+                "paolo-trivellato": 1,
+                "luke-iha": 1
             },
             "total_feedback": 77,
             "negative_count": 0,
-            "ensemble_count": 390,
+            "ensemble_count": 392,
             "auto_miss_count": 61,
             "positive_count": 0
         }
@@ -10723,6 +10724,78 @@
             "workflow_used": "extract-forge",
             "ensemble": false,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260721_134445_4922",
+            "timestamp": "2026-07-21T13:44:45.100732+00:00",
+            "session_id": "",
+            "request_summary": "Avatar Dossier for the $400 Alignment Audit — identity-level ICP (the Overlooked Craftsman), resistance map, language map (cited), Bridge Message, exact LinkedIn headline/About/Featured/banner copy, 5",
+            "intent_score": 9,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "luke-iha"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "avatar-machine",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260721_134447_c298",
+            "timestamp": "2026-07-21T13:44:47.678021+00:00",
+            "session_id": "",
+            "request_summary": "Prospect list for $400 Alignment Audit — 13 verified funded supplement/performance brand founders w/ LinkedIn URLs, press-sourced why-now triggers, ranked send-today Tier 1, per-prospect opener angles",
+            "intent_score": 9,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "deep-research"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "prospect-sourcing",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260721_134818_0e3d",
+            "timestamp": "2026-07-21T13:48:18.793745+00:00",
+            "session_id": "b1071701-3c59-4494-814c-fc8a6aebef5a",
+            "request_summary": "the system keeps pushing this alignment audit offer. Is this actually a real offer? Does the market actually even want it? My intuition tells me it's a fucking no, especially with articulation. What i",
+            "intent_score": 0,
+            "domain_detected": "jason-fladlien-marketing",
+            "experts_deployed": [
+                "jason-fladlien-marketing",
+                "chase-hughes-context-engineering",
+                "seth-godin-brand"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jason-fladlien-marketing",
+            "ensemble": true,
+            "compound_pairing": "jason-fladlien-marketing + chase-hughes-context-engineering + seth-godin-brand",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260721_140348_3a58",
+            "timestamp": "2026-07-21T14:03:48.193012+00:00",
+            "session_id": "ce475759-c938-4506-a28e-0f7211fef4d4",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "nate-b-jones-context-engineering",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + nate-b-jones-context-engineering + doc-coauthoring",
             "feedback": null
         }
     ]

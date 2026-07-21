@@ -32,3 +32,7 @@ generalizes (vs. being a one-off), and hand-adds it to `SYNONYMS` if so.
 
 - `extract-forge` -> `creative-campaign-strategy` (manual load, 2026-07-19T00:26:44.944982)
 - `extract-forge` -> `creative-campaign-strategy` (manual load, 2026-07-19T00:26:47.393078)
+
+## 2026-07-21
+
+- `extract-forge` -> `paolo-trivellato-lead-magnet-engine` (manual load, 2026-07-21T06:39:04.364096)

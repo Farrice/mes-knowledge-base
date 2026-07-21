@@ -557,3 +557,6 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-21 05:16]` **finalize** | AI revenue opportunity reality check and one recommended productized service with a fourteen-day pai | strategy | business-intelligence-audit — composite:8.67 status:Keep
 - `[2026-07-21 05:58]` **finalize** | Recovered and consolidated 25 recent revenue, offer, and personal-brand concepts; refreshed market e | strategy | business-intelligence-audit — composite:7.33 status:Needs Improvement
 - `[2026-07-21 05:58]` **finalize** | Delivered a direct answer to Farrice's urgent request: recovered 25 ideas he actually developed, ran | strategy | business-intelligence-audit — composite:9.0 status:Keep
+- `[2026-07-21 06:39]` **finalize** | Paolo Trivellato — LinkedIn lead-magnet engine mastery extraction (forge, 2 sources watched frame-by | general | paolo-trivellato — composite:8.33 status:Keep
+- `[2026-07-21 06:44]` **finalize** | Avatar Dossier for the $400 Alignment Audit — identity-level ICP (the Overlooked Craftsman), resista | general | luke-iha — composite:8.33 status:Keep
+- `[2026-07-21 06:44]` **finalize** | Prospect list for $400 Alignment Audit — 13 verified funded supplement/performance brand founders w/ | research | deep-research — composite:8.33 status:Keep

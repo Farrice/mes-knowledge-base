@@ -1,30 +1,30 @@
 # Knowledge Briefing
-*Generated: 2026-07-19 | 700 sources | 2,779,483 words*
+*Generated: 2026-07-21 | 709 sources | 2,792,255 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 4,799 words — `knowledge/index.md`
-- **log** (general) — 13,650 words — `knowledge/log.md`
-- **extraction-report** (content) — 3,859 words — `extractions/david-baldacci/extraction-report.md`
-- **blind-pass-log** (general) — 90 words — `extractions/david-baldacci-books-that-sell/blind-pass-log.md`
-- **blind-pass-sample-big-pop** (general) — 608 words — `extractions/david-baldacci-books-that-sell/blind-pass-sample-big-pop.md`
-- **nash-falls-ch1** (general) — 2,378 words — `extractions/david-baldacci-books-that-sell/reference-corpus/nash-falls-ch1.md`
-- **the-620-man-ch1-3** (general) — 4,293 words — `extractions/david-baldacci-books-that-sell/reference-corpus/the-620-man-ch1-3.md`
-- **amplification-2026-07-19** (content [jason-fladlien]) — 724 words — `extractions/jason-fladlien/amplification-2026-07-19.md`
-- **visual-context** (sales [jason-fladlien]) — 239 words — `extractions/jason-fladlien/sources/2026-07-19-persuasion-patterns/visual-context.md`
-- **blind-pass-log** (strategy [jason-fladlien]) — 77 words — `extractions/jason-fladlien-marketing/blind-pass-log.md`
+- **index** (content) — 4,847 words — `knowledge/index.md`
+- **log** (general) — 13,855 words — `knowledge/log.md`
+- **extraction-report** (content [lara-acosta]) — 3,063 words — `extractions/paolo-trivellato/extraction-report.md`
+- **vision** (screenwriting) — 445 words — `extractions/paolo-trivellato/vision.md`
+- **blind-pass-generated-01** (strategy) — 193 words — `extractions/paolo-trivellato-lead-magnet-engine/blind-pass-generated-01.md`
+- **blind-pass-log** (general) — 105 words — `extractions/paolo-trivellato-lead-magnet-engine/blind-pass-log.md`
+- **extraction-report-link** (content [lara-acosta]) — 3,063 words — `extractions/paolo-trivellato-lead-magnet-engine/extraction-report-link.md`
+- **starbornai-site-copy** (copywriting) — 1,011 words — `extractions/paolo-trivellato-lead-magnet-engine/reference-corpus/starbornai-site-copy.md`
+- **x-post-inbound-outbound-system** (content) — 630 words — `extractions/paolo-trivellato-lead-magnet-engine/reference-corpus/x-post-inbound-outbound-system.md`
+- **2026-07-21-ai-revenue-opportunity-reality-check** (content) — 2,458 words — `research_outputs/2026-07-21-ai-revenue-opportunity-reality-check.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 243 | nicolas-cole |
-| copywriting | 100 | luke-iha |
-| general | 87 | nick-saraev |
-| strategy | 74 | april-dunford |
-| screenwriting | 52 | connelly |
+| content | 247 | lara-acosta |
+| copywriting | 101 | luke-iha |
+| general | 88 | nick-saraev |
+| strategy | 76 | april-dunford |
+| screenwriting | 53 | connelly |
 | brand | 49 | oren-john |
 | systems | 35 | nick-saraev |
 | seo | 26 | nathan-gotch |

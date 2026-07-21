@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** solutions  
-**Full path:** .agent/handoffs/2026-07-21-solutions.md  
-**Date:** 2026-07-21 (today)  
-**Status:** active  
-**Title:** Solutions — X Corpus Via Playwright Public Snapshot
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume solutions` for this one.
-
----
-
 ---
 thread: solutions
 status: active
@@ -25,4 +13,3 @@ pin: true
 **Artifacts:** /Users/farricecain/Google Antigravity/extractions/paolo-trivellato-lead-magnet-engine/reference-corpus/x-post-inbound-outbound-system.md, /Users/farricecain/Google Antigravity/extractions/paolo-trivellato-lead-magnet-engine/reference-corpus/starbornai-site-copy.md, /Users/farricecain/Google Antigravity/extractions/paolo-trivellato-lead-magnet-engine/blind-pass-generated-01.md, /Users/farricecain/Google Antigravity/skills/paolo-trivellato-lead-magnet-engine/genius.md, /Users/farricecain/Google Antigravity/docs/solutions/2026-07-21-x-corpus-via-playwright-public-snapshot.md
 
 **Retrieve:** `/resume solutions`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
-

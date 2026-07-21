@@ -1618,7 +1618,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 64 agent(s) had no invocation card. Stubs below are machine-
+> 65 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -2091,6 +2091,16 @@ DOMAIN: agentic orchestration, intent validation, ambiguity detection, clarity s
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: Operator Autopilot is the low-friction front door for the Antigravity system. It receives messy context, builds the shared Co-Creative Launchpad Packet, vali...
 ENTRY PROMPT: agents/operator-autopilot/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Paolo Trivellato — Agent Configuration
+DOMAIN: See AGENT.md — domain not yet tagged in frontmatter.
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: See source AGENT.md for full methodology.
+ENTRY PROMPT: agents/paolo-trivellato/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 

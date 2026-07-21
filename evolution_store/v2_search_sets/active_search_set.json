@@ -2587,8 +2587,92 @@
         "gaming_flag": false
       },
       "notes": "Saved local daily brief and appended JSONL rows | platform: codex | Verification: local PASS with content_finish_gate WARN only for required structure and claim_risk_scan WATCH only; Google Drive disabled by current run instruction | Anchor: V4 health performance GEO golden sample"
+    },
+    {
+      "trace_id": "20260720_064244",
+      "timestamp": "2026-07-20T06:42:44.929195",
+      "schema_version": "v3",
+      "component": "_active/health-performance-ip-library",
+      "expert": "health-performance-geo-client-acquisition-engine",
+      "workflow": "farrice-engine",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Daily brief saved locally; JSONL appended; Drive export disabled by current run instruction | platform: codex | Verification: PASS local gates; content_finish WARN prose_classifier parallel blocks | Anchor: V4 Health Performance AI Search Week 1"
+    },
+    {
+      "trace_id": "20260720_064257",
+      "timestamp": "2026-07-20T06:42:57.730301",
+      "schema_version": "v3",
+      "component": "_active/health-performance-ip-library",
+      "expert": "health-performance-geo-client-acquisition-engine",
+      "workflow": "farrice-engine",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Retry after intent-alignment mismatch; produced complete daily brief, local artifact PASS, JSONL PASS, Drive disabled | platform: codex | Verification: PASS local gates; chain scorer remains noisy if intent_alignment repeats | Anchor: V4 Health Performance AI Search Week 1"
+    },
+    {
+      "trace_id": "20260721_055833",
+      "timestamp": "2026-07-21T05:58:33.790643",
+      "schema_version": "v3",
+      "component": "business-intelligence-audit",
+      "expert": "business-intelligence-audit",
+      "workflow": "first-10k",
+      "quality": {
+        "composite": 7.33,
+        "intent_alignment": 4.0,
+        "expert_standard": 9.0,
+        "adversarial_resilience": 9.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Current workspace evidence and primary-source market refresh | platform: codex | Verification: PASS for local recovery and category demand; exact-offer demand UNCONFIRMED until payment | Anchor: Pyramid-first MECE decision brief with named evidence and cash-first sequencing"
     }
   ],
-  "total_cases": 91,
-  "last_updated": "2026-07-19T12:05:56.874423"
+  "total_cases": 94,
+  "last_updated": "2026-07-21T05:58:33.799839"
 }

@@ -47,3 +47,4 @@
 {"timestamp": "2026-07-19T08:11:50.163015", "workflow": "extract-forge", "skill": "oren-dara-ad-psychology", "expert": "oren-dara", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-07-19T10:55:38.032360", "workflow": "extract-forge", "skill": "mike-taylor-synthetic-research", "expert": "mike-taylor", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
 {"timestamp": "2026-07-19T12:44:23.627421", "workflow": "extract-forge", "skill": "jason-fladlien-marketing", "expert": "jason-fladlien", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
+{"timestamp": "2026-07-21T06:39:04.364096", "workflow": "extract-forge", "skill": "paolo-trivellato-lead-magnet-engine", "expert": "paolo-trivellato", "task_type": "Extraction", "qualifies": true, "sub_agents_spawned": 0, "miss": true}
