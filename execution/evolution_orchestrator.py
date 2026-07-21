@@ -40,6 +40,7 @@ Cron suggestion (one entry, runs daily, decides what's due):
 import sys
 import json
 import re
+import subprocess
 import argparse
 from pathlib import Path
 from datetime import datetime, timedelta, date
@@ -806,6 +807,22 @@ def run_daily() -> Dict[str, Any]:
             f"- {routing_learning['candidates_appended']} synonym candidate(s) appended to "
             ".agent/synonym-candidates.md for human review"
         )
+
+    # Candidate-snapshot refresh (2026-07-21 verifier-fleet triage): nothing
+    # else schedules `skill_evolution_candidates.py scan --write`, so the
+    # freshness contract (verify_skill_evolution_candidate_freshness) went
+    # stale daily. Same fail-soft rule as routing-learning: a failure here
+    # must never break the rest of the daily cycle.
+    try:
+        _scan = subprocess.run(
+            [sys.executable, str(ROOT / "execution" / "skill_evolution_candidates.py"),
+             "scan", "--write"],
+            capture_output=True, text=True, timeout=300, cwd=ROOT)
+        report_lines += ["", "## Candidate Snapshot",
+                         "- refreshed via scan --write" if _scan.returncode == 0
+                         else f"- refresh FAILED (exit {_scan.returncode}): {_scan.stdout[-160:]}{_scan.stderr[-160:]}"]
+    except Exception as exc:
+        report_lines += ["", "## Candidate Snapshot", f"- refresh unavailable: {exc}"]
 
     report_path.write_text("\n".join(report_lines) + "\n")
 
