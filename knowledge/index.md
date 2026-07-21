@@ -1,9 +1,9 @@
 # Knowledge Index
-*700 sources | 2,779,483 words | Updated: 2026-07-19*
+*701 sources | 2,782,075 words | Updated: 2026-07-21*
 
 ---
 
-## Content (243 files)
+## Content (244 files)
 
 - [video-context-ledger](../extractions/video-context/3iR3kHxCwfo/video-context-ledger.md) — 75,408 words
 - [Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them](extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md) — 60,850 words (stale)
@@ -25,7 +25,7 @@
 - [2026-04-25-substack-notes-craft-gemini-max](../research_outputs/2026-04-25-substack-notes-craft-gemini-max.md) — 5,421 words
 - [extraction-report](../extractions/seth-godin-marketing-mind/extraction-report.md) — 5,284 words
 - [extraction-report](../extractions/ocean-vuong/extraction-report.md) — 4,861 words (stale)
-- [index](index.md) — 4,799 words
+- [index](index.md) — 4,805 words
 - [the-7-levels-of-brand-building](../extractions/oren-identity-brand-os/reference-corpus/the-7-levels-of-brand-building.md) [oren-john] — 4,671 words
 - [mes-extraction](../extractions/wargame-source/mes-extraction.md) — 4,604 words
 - [visual-context](../extractions/brad-bonanno/visual-context.md) — 4,497 words
@@ -81,6 +81,7 @@
 - [extraction-report](../extractions/alex-content-science/extraction-report.md) [oren-john] — 2,540 words (stale)
 - [2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the](council-sessions/2026-06-02-re-synthesize-the-definitive-sourced-icp-for-the.md) [lara-acosta] — 2,537 words
 - [master_playbook_draft](creative-direction/guides/master_playbook_draft.md) — 2,474 words (stale)
+- [2026-07-21-ai-revenue-opportunity-reality-check](../research_outputs/2026-07-21-ai-revenue-opportunity-reality-check.md) — 2,458 words
 - [DESIGN](design-libraries/brands/ollama/DESIGN.md) — 2,427 words
 - [extraction-report-2026-07-19](../extractions/nathan-gotch/extraction-report-2026-07-19.md) [nathan-gotch] — 2,414 words
 - [word-mastery-extraction](../extractions/kallaway/word-mastery-extraction.md) [kallaway] — 2,363 words (stale)
@@ -369,7 +370,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 13,650 words
+- [log](log.md) — 13,778 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words
@@ -631,7 +632,7 @@
 - [Claude-💎💰🧑🏽_💻 JING ! Darrel Wilson ! This New AI Automation Is Replacing Freelancers in 2026](extractions/inbox/Claude-💎💰🧑🏽_💻 JING ! Darrel Wilson ! This New AI Automation Is Replacing Freelancers in 2026.md) — 50,355 words (stale)
 - [video-context-ledger](../extractions/video-context/-WCNwxz3uoM/video-context-ledger.md) — 28,024 words
 - [DESIGN](design-libraries/brands/voltagent/DESIGN.md) — 3,928 words
-- [karpathy-loop-mes-extraction](../extractions/nate-b-jones/karpathy-loop-mes-extraction.md) — 3,568 words
+- [karpathy-loop-mes-extraction](../extractions/nate-b-jones/karpathy-loop-mes-extraction.md) — 3,568 words (stale)
 - [polymarket-agents-source](../extractions/prediction-market-trading/raw-sources/polymarket-agents-source.md) — 3,492 words (stale)
 - [piece-3-hermes-orchestrator-claude-code](../extractions/adam-sandler-second-brain-gtm/reference-corpus/piece-3-hermes-orchestrator-claude-code.md) — 3,267 words
 - [extraction-report](../extractions/andy-lo/extraction-report.md) — 2,917 words (stale)
