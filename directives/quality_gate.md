@@ -108,8 +108,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-07-21 (chain_runner finalize for satori-graphics) |
-| **Activation Count** | 698 |
+| **Last Activated** | 2026-07-21 (chain_runner finalize for ray-amjad-agentic-ladder) |
+| **Activation Count** | 700 |
 | **30-Day Review Date** | 2026-08-20 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

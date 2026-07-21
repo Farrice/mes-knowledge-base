@@ -1,5 +1,5 @@
 # Knowledge Index
-*722 sources | 2,807,301 words | Updated: 2026-07-21*
+*722 sources | 2,807,371 words | Updated: 2026-07-21*
 
 ---
 
@@ -24,7 +24,7 @@
 - [companion-brand-archetypes-transcript](../extractions/oren-john-identity-marketing/companion-brand-archetypes-transcript.md) [oren-john] — 5,590 words
 - [2026-04-25-substack-notes-craft-gemini-max](../research_outputs/2026-04-25-substack-notes-craft-gemini-max.md) — 5,421 words
 - [extraction-report](../extractions/seth-godin-marketing-mind/extraction-report.md) — 5,284 words
-- [index](index.md) — 4,899 words
+- [index](index.md) — 4,919 words
 - [extraction-report](../extractions/ocean-vuong/extraction-report.md) — 4,861 words (stale)
 - [the-7-levels-of-brand-building](../extractions/oren-identity-brand-os/reference-corpus/the-7-levels-of-brand-building.md) [oren-john] — 4,671 words
 - [mes-extraction](../extractions/wargame-source/mes-extraction.md) — 4,604 words
@@ -378,7 +378,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 13,931 words
+- [log](log.md) — 13,981 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words

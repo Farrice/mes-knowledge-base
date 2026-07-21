@@ -1,28 +1,28 @@
 # Latest Handoff
 
-**Thread:** ray-amjad-agentic-ladder  
-**Full path:** .agent/handoffs/2026-07-21-ray-amjad-agentic-ladder.md  
+**Thread:** expansion-2026-07-21  
+**Full path:** .agent/handoffs/2026-07-21-expansion-2026-07-21.md  
 **Date:** 2026-07-21 (today)  
 **Status:** active  
-**Title:** Ray Amjad Agentic Ladder — Genius
+**Title:** Expansion 2026 07 21 — Blind Pass Sample
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume ray-amjad-agentic-ladder` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume expansion-2026-07-21` for this one.
 
 ---
-thread: ray-amjad-agentic-ladder
+
+---
+thread: expansion-2026-07-21
 status: active
-resume_hint: Ray Amjad Agentic Ladder — Genius
+resume_hint: Expansion 2026 07 21 — Blind Pass Sample
 branch: main
 pin: true
 ---
 
-# Ray Amjad Agentic Ladder — Genius
+# Expansion 2026 07 21 — Blind Pass Sample
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
 
-**Artifacts:** /Users/farricecain/Google Antigravity/skills/ray-amjad-agentic-ladder/references/prompts-v2/system-ladder-audit.md, /Users/farricecain/Google Antigravity/skills/ray-amjad-agentic-ladder/references/prompts-v2/adoption-brief.md, /Users/farricecain/Google Antigravity/agents/ray-amjad/AGENT.md, /Users/farricecain/Google Antigravity/extractions/ray-amjad-agentic-ladder/blind-pass-generated-task-lifecycle.md, /Users/farricecain/Google Antigravity/skills/ray-amjad-agentic-ladder/genius.md
+**Artifacts:** /Users/farricecain/Google Antigravity/skills/satori-graphics/references/prompts-v2/contrast-audit-report.md, /Users/farricecain/Google Antigravity/skills/satori-graphics/references/prompts-v2/gaze-path-spec.md, /Users/farricecain/Google Antigravity/skills/satori-graphics/references/prompts-v2/expectation-flip-spec.md, /Users/farricecain/Google Antigravity/skills/satori-graphics/references/prompts-v2/frontend-flow-brief.md, /Users/farricecain/Google Antigravity/extractions/satori-graphics/expansion-2026-07-21/blind-pass-sample.md
 
-**Retrieve:** `/resume ray-amjad-agentic-ladder`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
+**Retrieve:** `/resume expansion-2026-07-21`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
 
