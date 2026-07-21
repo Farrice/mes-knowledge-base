@@ -103,7 +103,7 @@ This system was built on Claude Code tool names. Remap when running elsewhere:
 
 All in `directives/`. Fire on trigger—never preload. Sub-files over full directives.
 
-**Index:** `directives/INDEX.md` (complete map). **Most-fired:** `quality_assurance.md` (Step 5), `verification-agent-protocol.md` (Step 5.5), `routing-bindings.md` (Step 3), `recall-grounding-protocol.md` (Step 4), `content_creation_gate.md` (Step 4), `quality_gate.md` + `feedback-ratchet.md` (Chain discipline).
+**Index:** `directives/INDEX.md` (complete map). **Most-fired:** `quality_assurance.md` (Step 5), `verification-agent-protocol.md` (Step 5.5), `routing-bindings.md` (Step 3), `recall-grounding-protocol.md` (Step 4), `content_creation_gate.md` (Step 4), `quality_gate.md` + `feedback-ratchet.md` (Chain discipline), `task-lifecycle-content.md` (Steps 4-6 as one numbered lifecycle: isolated-subagent verify, verdict routing, finalize `--receipt` — 2026-07-21).
 
 **Reference materials (shifted from CLAUDE.md):** `cli-reference.md` (all script commands), `routing-bindings.md` (mandatory routes + rationale), `system-primitives.md` (architecture table), `model-notes.md` (API/SDK refs).
 

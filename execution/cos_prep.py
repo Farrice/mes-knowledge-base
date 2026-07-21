@@ -207,6 +207,14 @@ def render_outer_loop(loop: dict) -> list:
     lines.append(f"- Lifetime revenue collected: ${loop.get('lifetime_revenue', 0):,.2f}")
     lines.append("- Data: [revenue-outcomes.json](.agent/revenue-outcomes.json) · "
                  "`python3 execution/revenue_tracker.py checkin` walks the due list one by one")
+    # Outcome-chase drafts (2026-07-21 ladder-audit build): link, never a task.
+    try:
+        chases = sorted(COS.glob("outcome-chase-*.md"),
+                        key=lambda p: p.stat().st_mtime, reverse=True)
+        if chases and (datetime.now().timestamp() - chases[0].stat().st_mtime) < 7 * 86400:
+            lines.append(f"- Drafted check-ins ready for review: [{chases[0].name}](.agent/cos/{chases[0].name})")
+    except Exception:
+        pass
     return lines
 
 

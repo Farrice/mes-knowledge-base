@@ -212,7 +212,13 @@ The implementer and verifier should apply different mental models:
 - **Implementer mindset**: "Does this do what was asked?"
 - **Verifier mindset**: "What would make this fail?"
 
-The same agent can hold both, but you must _switch modes_ between Step 5 and Step 5.5. If your verification step finds zero issues, you probably didn't try hard enough.
+**Isolated dispatch is the DEFAULT (2026-07-21 ladder-audit build).** Verification runs as a fresh Agent-tool subagent with a brief-fresh prompt per `directives/sub_agent_protocol.md` — the deliverable + its claims, never the producing conversation's history. Rationale (Ray Amjad extraction, `skills/ray-amjad-agentic-ladder/genius.md` pattern 8): smarter models cheat better; an isolated context can tell the producer "this claim doesn't hold" without inheriting its optimism. NO `.claude/agents/` files (binding rule, `directives/no-claude-code-subagents.md`) — ad-hoc dispatch only; verifier brief specs live in `execution/subagent_readiness.py`.
+
+Return contract (per sub_agent_protocol): claim inventory with **VERIFIED/LIKELY/UNCONFIRMED** labels + verdict **PASS/FAIL/PARTIAL** + the **receipt line** — one line naming *what was verified, on which surface, by what instrument, with counts* (e.g. `12 claims: 10 VERIFIED via source docs, 2 LIKELY (noted)`). The receipt is passed to finalize via `chain_runner.py finalize --receipt "…"`.
+
+Same-context mode-switching (the old default) is demoted to a fallback for trivial checks only (single claim, source already in context). If your verification step finds zero issues, you probably didn't try hard enough.
+
+Findings route per `directives/quality_gate.md` § Verdict Routing; the full lifecycle is `directives/task-lifecycle-content.md`.
 
 ---
 

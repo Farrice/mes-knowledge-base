@@ -64,6 +64,13 @@ Evolution mode: ≥7 KEEP, <7 DISCARD (binary, no marginal zone).
 1. Diagnose (1 sentence) → 2. Fix failing section only → 3. Re-check → 4. Max 1 retry. Still fails → deliver with confidence note.
 **Factual Grounding failure (Dim 4 <6):** Do NOT retry the writing. Go back to research. The problem is upstream — the claims weren't verified. Re-research, re-verify, THEN rewrite.
 
+## Verdict Routing (2026-07-21 ladder-audit build — house vocabulary, no new loops)
+
+When the Step 5.5 verification subagent returns labeled findings, route by confidence:
+- **VERIFIED-issue** (verifier confirmed a defect): one revision pass on the affected sections, re-verify the touched claims. This RIDES the existing "max 1 retry" cap above — it is not an additional loop.
+- **LIKELY-issue / UNCONFIRMED-issue**: never auto-fixed. Delivery carries one line per item — what the concern is and why it matters — so Farrice decides with context (compass, never cage).
+- Receipt records the routing: `Verification: PASS — N claims: X VERIFIED, Y LIKELY (noted)` via `chain_runner.py finalize --receipt`. Full lifecycle: `directives/task-lifecycle-content.md`.
+
 ## Performance Logging
 After delivery, log via `execution/log_performance.py`: output, agent, skill, workflow, task_type, quality_score, sub-scores, status, notes.
 

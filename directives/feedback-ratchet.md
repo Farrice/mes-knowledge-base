@@ -77,7 +77,7 @@ python execution/log_performance.py check --skill [name] --score 5
 
 ## Quality Gate Integration
 
-Quality Gate runs DURING output (silent check on all applicable dimensions — 4 when factual claims present, 3 for pure creative/strategic). Feedback Ratchet runs AFTER delivery (captures signal permanently). Gate = referee. Ratchet = scoreboard. When Factual Grounding fires, include in notes: confidence label counts (VERIFIED/LIKELY/UNCONFIRMED) and verification verdict (PASS/FAIL/PARTIAL).
+Quality Gate runs DURING output (silent check on all applicable dimensions — 4 when factual claims present, 3 for pure creative/strategic). Feedback Ratchet runs AFTER delivery (captures signal permanently). Gate = referee. Ratchet = scoreboard. When Factual Grounding fires, include in notes: confidence label counts (VERIFIED/LIKELY/UNCONFIRMED) and verification verdict (PASS/FAIL/PARTIAL). Preferred carrier (2026-07-21): the receipt line via `chain_runner.py finalize --receipt "…"` — format `Verification: PASS — N claims: X VERIFIED, Y LIKELY (noted)` — which also satisfies Step 1.5 verification accountability and echoes in the finalize output. Routing rules: `directives/quality_gate.md` § Verdict Routing.
 
 ## Notion DB: `31f49875a89781dbb599dee5e7961b5c` | Script: `execution/log_performance.py`
 

@@ -2052,6 +2052,8 @@ def print_result(result: Dict) -> None:
     if vc.get("status") == "MISSING":
         print(f"\n  ⚠️  VERIFICATION MISSING (observe mode — logged to evolution_store/verification_misses.jsonl)")
         print(f"     {vc.get('detail', '')[:220]}")
+    elif vc.get("receipt"):
+        print(f"\n  🧾 Verification receipt: {vc['receipt'][:200]}")
 
     # Revenue tracking reminder (for client/content deliverables)
     task_type = result.get("task_type", "")
@@ -2082,6 +2084,11 @@ def main():
     fin.add_argument("--expert-score", type=float, required=True, help="Expert standard score (1-10)")
     fin.add_argument("--adversarial", type=float, required=True, help="Adversarial resilience score (1-10)")
     fin.add_argument("--notes", default="", help="Freeform notes")
+    fin.add_argument("--receipt", default="", help=(
+        "Verification receipt: one line naming what was verified, on which surface, "
+        "by what instrument (with VERIFIED/LIKELY/UNCONFIRMED counts). Appended into "
+        "--notes as a 'Verification:' declaration so Step 1.5 accountability is satisfied. "
+        "Produced by the isolated verification subagent per directives/task-lifecycle-content.md."))
     fin.add_argument("--rating", type=float, help="User rating (1-10)")
     fin.add_argument("--tag", default="", help="Experiment tag")
     fin.add_argument("--skip-notion", action="store_true", help="Skip Notion logging (test mode)")
@@ -2143,6 +2150,15 @@ def main():
         _content_path = getattr(args, "content_file", "") or args.anchor_path or ""
         if args.auto:
             _print_auto_preview(_content_path, args.type)
+        # --receipt (2026-07-21 ladder-audit build): fold the verification receipt
+        # into --notes so Step 1.5's existing 'verification:' sniff stays the single
+        # source of truth. Purely additive; finalize() signature untouched.
+        if args.receipt:
+            if "verification:" in (args.notes or "").lower():
+                args.notes = f"{args.notes} | Receipt: {args.receipt}"
+            else:
+                args.notes = (f"{args.notes} | " if args.notes else "") + \
+                    f"Verification: PASS | Receipt: {args.receipt}"
         result = finalize(
             output_description=args.output,
             expert=args.expert,
@@ -2176,6 +2192,11 @@ def main():
             skip_learning=args.skip_learning,
             skip_blind_pass=args.skip_blind_pass,
         )
+        if args.receipt:
+            try:
+                result.setdefault("verification_check", {})["receipt"] = args.receipt
+            except Exception:
+                pass
         # ── Grading R1 (ADVISORY — GRADING-LOOP-REDESIGN.md, never blocks) ──
         if args.verdict or args.precedent:
             adv = check_verdict_advisory(args.verdict, args.precedent, result.get("composite"))

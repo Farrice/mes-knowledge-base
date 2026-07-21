@@ -230,12 +230,34 @@ def collect_metrics(deep: bool = False) -> dict:
     return m
 
 
+def _launchd_exit_codes() -> dict:
+    """Label -> last exit status from one `launchctl list` call.
+    (2026-07-21 ladder-audit build: log-age alone can't see a job that runs,
+    fails, and rewrites its log — the exit code is the failure signal.)
+    Read-only; any failure degrades to {} so callers treat exit as unknown."""
+    codes = {}
+    try:
+        out = subprocess.run(["launchctl", "list"], capture_output=True, text=True,
+                             timeout=10).stdout
+        for line in out.splitlines():
+            parts = line.split()
+            if len(parts) >= 3 and parts[2].startswith("com.antigravity."):
+                try:
+                    codes[parts[2]] = int(parts[1])
+                except ValueError:
+                    pass
+    except Exception:
+        pass
+    return codes
+
+
 def _launchd_evidence() -> dict:
-    """Per com.antigravity.* job: cadence (from StartCalendarInterval) and
-    log-age in days. Read-only; missing plist dir or plistlib failure
-    degrades to {}."""
+    """Per com.antigravity.* job: cadence (from StartCalendarInterval),
+    log-age in days, and last exit status. Read-only; missing plist dir or
+    plistlib failure degrades to {}."""
     import plistlib
     jobs = {}
+    exit_codes = _launchd_exit_codes()
     try:
         for pl in sorted((Path.home() / "Library" / "LaunchAgents").glob("com.antigravity.*.plist")):
             try:
@@ -246,9 +268,13 @@ def _launchd_evidence() -> dict:
                 age = -1.0
                 if log and Path(log).exists():
                     age = round((datetime.now().timestamp() - Path(log).stat().st_mtime) / 86400, 1)
-                jobs[data.get("Label", pl.stem)] = {"weekly": weekly, "log_age_days": age}
+                label = data.get("Label", pl.stem)
+                jobs[label] = {"weekly": weekly, "log_age_days": age,
+                               "last_exit": exit_codes.get(label),
+                               "log_path": log}
             except Exception:
-                jobs[pl.stem] = {"weekly": False, "log_age_days": -1.0}
+                jobs[pl.stem] = {"weekly": False, "log_age_days": -1.0, "last_exit": None,
+                                 "log_path": ""}
     except Exception:
         pass
     return jobs
@@ -348,11 +374,44 @@ def _history() -> list:
         return []
 
 
+def _notify_new_routine_failures(flags: list) -> None:
+    """Desktop push for NEWLY failing routines only (2026-07-21 ladder-audit
+    build — monitor-by-exception). Dedupe: compare 'routine <label>:' flags
+    against the previous latest.json so a persistent failure notifies once
+    per new occurrence, not daily. osascript precedent:
+    directives/agent-tick-protocol.md. Never blocks the snapshot."""
+    try:
+        current = {f.split(" — ")[0] for f in flags if f.startswith("routine ")}
+        previous = set()
+        if LATEST.exists():
+            prev = json.loads(LATEST.read_text())
+            previous = {f.split(" — ")[0] for f in prev.get("flags", [])
+                        if f.startswith("routine ")}
+        new_failures = sorted(current - previous)
+        if new_failures:
+            msg = "; ".join(new_failures)[:180]
+            subprocess.run(
+                ["osascript", "-e",
+                 f'display notification "{msg}" with title "Antigravity routine failure"'],
+                capture_output=True, timeout=10)
+    except Exception:
+        pass
+
+
 def evaluate_flags(m: dict, history: list) -> list:
     flags = []
 
     def flag(text):
         flags.append(text)
+
+    # Routine failures FIRST (2026-07-21 ladder-audit build) — consumers like
+    # the /cos brief render only the top flags, and a job failing unwatched
+    # outranks every hygiene flag.
+    for label, j in m.get("launchd", {}).items():
+        last_exit = j.get("last_exit")
+        if last_exit not in (None, 0):
+            flag(f"routine {label}: last exit {last_exit} — failing unwatched; "
+                 f"check {j.get('log_path') or ('`launchctl list ' + label + '`')}")
 
     tmp_mb = m["tmp"]["bytes"] / 1e6
     if tmp_mb > 500:
@@ -480,6 +539,7 @@ def cmd_snapshot(deep: bool, dry_run: bool) -> int:
     if dry_run:
         print(json.dumps(m, indent=2))
         return 0
+    _notify_new_routine_failures(m["flags"])
     HEALTH.mkdir(parents=True, exist_ok=True)
     if deep:
         m["proposals_added"] = _append_proposals(m)
