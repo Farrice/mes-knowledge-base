@@ -14,7 +14,7 @@
                 "tyler-denk-audience-monetization": 1,
                 "lara-acosta-linkedin-mastery": 2,
                 "extract-mastery": 3,
-                "Research": 15,
+                "Research": 16,
                 "luke-iha-vsl-leads": 4,
                 "sean-dollwet-kdp-publishing": 2,
                 "paul-james-ai-automation": 1,
@@ -89,9 +89,9 @@
                 "sweat-equity-speedrun-social-os": 1,
                 "benjamin-hardy-identity": 1
             },
-            "total_routings": 538,
+            "total_routings": 539,
             "tier_counts": {
-                "0": 538,
+                "0": 539,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -102,7 +102,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 306,
-                "finalize-auto": 232
+                "finalize-auto": 233
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -154,7 +154,7 @@
                 "ron-lynch": 7,
                 "expert-assembly-os": 3,
                 "jenny-hoyos": 6,
-                "health-performance-geo-client-acquisition-engine": 11,
+                "health-performance-geo-client-acquisition-engine": 12,
                 "product-design-build": 4,
                 "joey-noisy-group": 1,
                 "prediction-market-making": 1,
@@ -10796,6 +10796,23 @@
             "workflow_used": "supercomputer",
             "ensemble": true,
             "compound_pairing": "supercomputer + nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260721_142111_f07a",
+            "timestamp": "2026-07-21T14:21:11.247558+00:00",
+            "session_id": "",
+            "request_summary": "2026-07-21 Health Performance GEO daily brief: protein-powder third-party safety leaderboard angle",
+            "intent_score": 9,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "health-performance-geo-client-acquisition-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "health-performance-daily-brief",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]
