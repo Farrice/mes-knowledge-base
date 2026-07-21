@@ -178,6 +178,7 @@
 | `prediction-market-strategist` | **prediction-market-strategist** | market making, prediction market trading — weather, risk management, sports/events |
 | `prosperity-coach` | **prosperity-coach** | block diagnosis, block dissolution, factor integration, journey architecture, safety & posture handling, transformation coaching / prosperity psychology / mindset |
 | `rachel-woods` | **Rachel Woods** | ai operations architect |
+| `ray-amjad` | **Ray Amjad** | agent configuration |
 | `reid-hoffman` | **Reid Hoffman** | ai investment strategy, ai strategy, ai venture evaluation, consumer psychology (seven deadly sins thesis), sin-engine diagnosis and sublimation design, social technology architect, social-ai product architecture, technology governance, technology philosophy, transition leadership, transition management |
 | `remotion` | **Remotion** | ai video creation |
 | `research-intelligence-agent` | **Research Intelligence Agent** | arsenal routing, competitive intelligence, compounding memory, factual verification, handoff discipline, intelligence, market analysis, objective ownership, research, source ledgers, taste and judgment |

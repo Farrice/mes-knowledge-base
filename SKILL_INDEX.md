@@ -298,6 +298,7 @@
 | `rachel-woods-ai-operations` | **Rachel Woods: AI Operations Mastery** | transform any business into an ai-first operation using process decomposition, the craft cycle, and competitive ai edge identification | 3 | 7 |
 | `rafa-conde-fourth-wall-experience-os` | **Rafa Conde: Fourth-Wall Experience OS** | fourth-wall experience design for products, content, launches | 10 | 0 |
 | `rafa-conde-memorable-product-design` | **Rafa Conde: Memorable Product Design** | feeling-led product memorability for software, prototypes, launches | 12 | 0 |
+| `ray-amjad-agentic-ladder` | **Ray Amjad — Agentic Coding Ladder** | trust = artifacts, never claims, agentic coding ladder | 9 | 0 |
 | `re-compliance-pack` | **re-compliance-pack** | real estate compliance (fair housing, transaction management, disclosure) | 1 | 0 |
 | `react-components` | **react:components** | converts stitch designs into modular vite and react components using system-l... | 0 | 0 |
 | `reid-hoffman-ai-strategy` | **reid-hoffman-ai-strategy** | single-player-to-multiplayer agent field design, different-angle market entry, and measure-then-intervene governance | 3 | 0 |
