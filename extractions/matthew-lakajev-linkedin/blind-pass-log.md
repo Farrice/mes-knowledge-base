@@ -1,0 +1,5 @@
+# Blind-Pass Log — matthew-lakajev-linkedin
+
+Recorded by `execution/blind_pass.py` per `directives/embodiment-standard.md` Blind-Pass Protocol.
+
+- 2026-07-21T14:28:26 — **PASS** — eval: EVAL-053 — generated: `extractions/matthew-lakajev-linkedin/blind-pass-specimen-closed-lost-post.md` — reference: `extractions/matthew-lakajev-linkedin/reference-corpus/2023-10-closed-80k-30-days-post.md` — corpus: 2 piece(s) — Model-judged (Farrice pass still required for A-tier). Specimen: closed-lost how-I post from workflow 04 material vs real posts 2023-09 (AI content ideas) + 2023-10 (80K/30 days). Held: register (choppy lines, arrows, unicode headers, asides, REPOST+PS close), real receipts only (45K/7d, Jono President's Club). Give-away risk: specimen slightly tidier than real Lakajev's mid-stream numbering inconsistency.

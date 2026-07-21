@@ -14,6 +14,9 @@ Matthew Lakajev is the founder of SixFigure Creators — an Australian operator 
 3. **Organic LinkedIn funnel architecture** — lead-converting profile, five viral post types (from 54K scraped posts), comment-gated niche lead magnets, CRM signal wiring
 4. **Never-pitch DM conversion** — 200-a-week network expansion, shared-context openers, trust-gate progression (stranger → trusted advisor), invitation-ladder closing
 5. **Plain-text email monetization** — anti-newsletter "nugget of goodness" cadence: story-first, reply-driven, irregular-timing emails that convert lists into conversations
+6. **Conversation-layer prospecting** (forge expansion 2026-07-21) — monthly closed-lost campaigns ("where did we drop the ball?"), the opinion-ladder DM sequence (opinion ×3 → gift → week of silence → invite), twin-of-best-client targeting, the 10-before-10 daily rhythm, quality-time-over-volume doctrine
+7. **Trust architecture** — the proprietary Six Gates of Trust model (real → for me → snowflake → risk → worth-it-now → part-of-me → identity ally), familiarity × value forces, lane-scoped trust diagnostics
+8. **Founder psychology & IP generation** — self-trust repair (no-input mornings, loop-closing walks), subconscious model mining ("AI is the ultimate mirror"), puzzle-piece high agency
 
 ## Available Skills
 
@@ -22,6 +25,16 @@ Matthew Lakajev is the founder of SixFigure Creators — an Australian operator 
 | `skills/matthew-lakajev-linkedin` | 01-validate-offer-niche | Offer go/kill/pivot verdict, niche definition, language bank |
 | | 02-build-linkedin-funnel | Profile spec, 5-type content engine, lead magnets, email cadence |
 | | 03-run-dm-conversion | Weekly DM operating system, openers, invitation ladder |
+| | 04-closed-lost-campaign | Monthly re-outreach campaign: database rebuild, reopener scripts, cadence |
+| | 05-opinion-ladder-dm | The exact never-pitch DM sequence with triggers and exception rules |
+| | 06-six-gates-audit | Trust-gate teardown of any funnel/content/DM path |
+| | 07-twin-client-targeting | Sales Navigator twin map + lukewarm outreach scripts |
+| | 08-daily-prospecting-rhythm | 10-before-10 + engager sweep + posts, sized to real time budget |
+| | 09-warm-network-ladder | Tier-matched acquisition (beginner/established/revered), relationship garden |
+| | 10-influence-content-audit | Action-taken content grading + receipt-anchored rewrites |
+| | 11-founder-state-reset | State protocol: mornings, walks, promise repair, avoidance diagnosis |
+| | 12-subconscious-model-mining | Proprietary model extraction from the operator's own judgment |
+| | 13-high-agency-moves | Same-day action plans: show-up plays, silver-platter asks |
 
 ## Decision Framework
 
