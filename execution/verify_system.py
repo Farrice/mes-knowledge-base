@@ -26,6 +26,7 @@ ROOT = Path(__file__).parent.parent
 SKILLS_DIR = ROOT / "skills"
 AGENTS_DIR = ROOT / "agents"
 WORKFLOWS_DIR = ROOT / ".agent" / "workflows"
+COMMANDS_DIR = ROOT / ".claude" / "commands"
 SKILL_INDEX = ROOT / "SKILL_INDEX.md"
 AGENT_INDEX = ROOT / "AGENT_INDEX.md"
 SLASH_COMMANDS = ROOT / "SLASH_COMMANDS.md"
@@ -283,13 +284,27 @@ def phase_slash_workflow_mapping():
     commands = parse_slash_commands(SLASH_COMMANDS)
     workflow_files = get_workflow_files()
 
-    # Commands without workflow files
-    for cmd in sorted(commands - workflow_files):
-        add(ERROR, phase, f"Slash command `/{cmd}` listed in SLASH_COMMANDS.md but no workflow file at .agent/workflows/{cmd}.md")
+    # Commands are valid when backed by either a workflow file
+    # (.agent/workflows/) or a command file (.claude/commands/) — the
+    # SLASH_COMMANDS.md generator (execution/generate_slash_commands.py)
+    # unions both sources (Expert Front-Door System, 2026-07).
+    command_files = set()
+    if COMMANDS_DIR.exists():
+        for item in COMMANDS_DIR.iterdir():
+            if item.is_file() and item.suffix == ".md":
+                command_files.add(item.stem)
+
+    # Commands without any backing file
+    for cmd in sorted(commands - workflow_files - command_files):
+        add(ERROR, phase, f"Slash command `/{cmd}` listed in SLASH_COMMANDS.md but no file at .agent/workflows/{cmd}.md or .claude/commands/{cmd}.md")
         count += 1
 
-    # Workflow files not listed in SLASH_COMMANDS.md
-    for wf in sorted(workflow_files - commands):
+    # Workflow files not listed in SLASH_COMMANDS.md.
+    # "Documented" matches the generator's definition: any backticked
+    # `/name` mention anywhere in the doc (table row OR prose) counts.
+    doc_text = SLASH_COMMANDS.read_text(encoding="utf-8") if SLASH_COMMANDS.exists() else ""
+    documented_anywhere = set(re.findall(r'`/([a-z0-9][a-z0-9-]*)`', doc_text))
+    for wf in sorted(workflow_files - documented_anywhere):
         # Skip special files
         if wf in {"references", "writers-room", "content-sprint"}:
             continue

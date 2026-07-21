@@ -9,6 +9,7 @@ automation prompt.
 
 from __future__ import annotations
 
+import re
 import sys
 from pathlib import Path
 
@@ -17,8 +18,12 @@ ROOT = Path(__file__).resolve().parent.parent
 PROMPT = ROOT / "_active" / "health-performance-ip-library" / "AUTOMATION_PROMPT.md"
 
 
+# The prompt version evolves (3.4 -> 3.5 -> ...); the guard is that a Version
+# line exists and still declares the Market-Domain Creative Intelligence
+# identity, not that one frozen number stays pinned.
+VERSION_PATTERN = re.compile(r"^Version:\s*\d+(\.\d+)*\s+Market-Domain Creative Intelligence", re.MULTILINE)
+
 REQUIRED_PHRASES = {
-    "version": "Version: 3.4 Market-Domain Creative Intelligence",
     "market_domain_mandate": "### Market-Domain Mandate",
     "not_glp1_monitor": "The engine is not a GLP-1 monitor",
     "ten_candidate_signals": "at least ten candidate signals",
@@ -40,6 +45,12 @@ def main() -> int:
 
     text = PROMPT.read_text(encoding="utf-8")
     missing = [name for name, phrase in REQUIRED_PHRASES.items() if phrase not in text]
+
+    if not VERSION_PATTERN.search(text):
+        print(
+            "FAIL: prompt missing a 'Version: <n> Market-Domain Creative Intelligence' line"
+        )
+        return 1
 
     glp1_count = text.lower().count("glp-1")
     market_count = text.lower().count("market")

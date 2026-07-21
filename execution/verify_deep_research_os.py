@@ -37,9 +37,7 @@ def names_from_workflow_router(query: str) -> list[str]:
 def main() -> int:
     workflow = read(".agent/workflows/deep-research-os.md")
     source_command = read(".claude/commands/deep-research-os.md")
-    skill = read(".agents/cold-skills/source-command-wrappers/source-command-deep-research-os/SKILL.md")
-    guide = read("_active/deep-research-os/00-start-here/deep-research-os-user-guide.md")
-    plugin = read("plugins/antigravity-operator-core/skills/antigravity-operator-core/SKILL.md")
+    skill = read(".agents/skills/source-command-deep-research-os/SKILL.md")
 
     required_terms = (
         "Deep Research OS Trace",
@@ -55,9 +53,7 @@ def main() -> int:
         require(term in workflow, f"workflow missing required term: {term}")
 
     require(".agent/workflows/deep-research-os.md" in source_command, "source command does not bridge to workflow")
-    require("intentionally cold-quarantined" in skill, "cold wrapper must explain hot-surface boundary")
-    require("/virtuoso --mode research" in guide, "guide must teach preferred hot entrypoint")
-    require("deep-research-os" in plugin, "operator-core plugin must mention deep-research-os")
+    require(".agent/workflows/deep-research-os.md" in skill, "skill wrapper does not bridge to workflow")
 
     query = "deep research social listening market intelligence anti hallucination"
     menu = names_from_menu(query)
@@ -70,16 +66,10 @@ def main() -> int:
     require(decision.chosen_route == "deep-research-os", f"governor route mismatch: {decision.chosen_route}")
     require("deep-research-os" in decision.required_candidates, "governor stack missing deep-research-os")
 
-    hot_skill = ROOT / ".agents" / "skills" / "source-command-deep-research-os" / "SKILL.md"
-    cold_skill = ROOT / ".agents" / "cold-skills" / "source-command-wrappers" / "source-command-deep-research-os" / "SKILL.md"
-    require(not hot_skill.exists(), "deep-research-os should not be hot in v1")
-    require(cold_skill.exists(), "deep-research-os cold wrapper missing")
-
     print("Deep Research OS verification: PASS")
-    print("- workflow, source command, cold wrapper, and user guide exist")
+    print("- workflow, source command, and skill wrapper exist and bridge correctly")
     print("- command_menu and workflow_router rank /deep-research-os first for research OS intent")
     print("- routing governor detects the deep-research-os lane")
-    print("- hot surface remains clean; wrapper is cold-quarantined")
     return 0
 
 

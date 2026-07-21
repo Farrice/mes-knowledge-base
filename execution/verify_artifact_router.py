@@ -55,15 +55,22 @@ def main() -> int:
         manifest = json.loads(inventory_out)
         require(manifest.get("total_files", 0) > 0, "inventory has no files", failures)
         roots = manifest.get("counts", {}).get("by_root", {})
-        for expected in ["brain", "_active", "deliverables", "research_outputs", "strategy_briefs"]:
+        # "brain" was a Codex-fork-only store (retired with the
+        # codex-harvest-2026-06-11 quarantine); it never existed as a live
+        # root, so the manifest contract covers only live roots.
+        for expected in ["_active", "deliverables", "research_outputs", "strategy_briefs"]:
             require(expected in roots, f"manifest missing root: {expected}", failures)
 
+    # Classify sample: a real loose deliverable whose name carries an
+    # active-project alias. (The original fixture,
+    # deliverables/hybrid-morning-signal-radar-2026-05-11.md ->
+    # farrice-content-os, existed only in the Codex fork.)
     classify_out = command_output(
         [
             sys.executable,
             "execution/artifact_router.py",
             "classify",
-            "deliverables/hybrid-morning-signal-radar-2026-05-11.md",
+            "deliverables/coach-cooz-final/01-narrative-and-positioning.md",
             "--json",
         ],
         failures,
@@ -71,8 +78,8 @@ def main() -> int:
     )
     if classify_out:
         sample = json.loads(classify_out)
-        require(sample.get("project") == "farrice-content-os", "hybrid morning route should map to farrice-content-os", failures)
-        require(sample.get("domain") == "Content", "hybrid morning route should carry Content domain", failures)
+        require(sample.get("project") == "coach-cooz", "coach-cooz deliverable should map to coach-cooz project", failures)
+        require(sample.get("domain") == "Client", "coach-cooz deliverable should carry Client domain", failures)
 
     plan_path = ROOT / ".tmp" / "artifact-router-verify-plan.json"
     plan_out = command_output(

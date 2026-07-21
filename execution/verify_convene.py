@@ -55,9 +55,9 @@ def main() -> int:
     for command, mode in PRESETS.items():
         workflow = read(f".agent/workflows/{command}.md")
         source = read(f".claude/commands/{command}.md")
-        wrapper = read(f".agents/cold-skills/source-command-wrappers/source-command-{command}/SKILL.md")
+        wrapper = read(f".agents/skills/source-command-{command}/SKILL.md")
         require(".agent/workflows" in source, f"{command} source bridge missing workflow pointer")
-        require("cold" in wrapper.lower(), f"{command} wrapper should stay cold")
+        require(f".agent/workflows/{command}.md" in wrapper, f"{command} skill wrapper missing workflow bridge")
         if command != "kimi-swarm":
             require("convene" in workflow.lower() or command == "campaign", f"{command} workflow must map to convene")
         require(mode in workflow or command in {"convene", "campaign"}, f"{command} workflow missing mode {mode}")
@@ -110,15 +110,11 @@ def main() -> int:
     require(parsed["owner"] == "/convene", "convene CLI owner mismatch")
     require(parsed["delegation"]["real_subagents_spawned"] is False, "convene must not spawn subagents")
 
-    for command in PRESETS:
-        hot = ROOT / ".agents" / "skills" / f"source-command-{command}" / "SKILL.md"
-        require(not hot.exists(), f"{command} should not be hot-promoted")
-
     print("Convene verification: PASS")
     print("- /convene and presets map to council packet plans")
     print("- council_cast seats Farrice and diverse roster")
     print("- grounding_guard catches unsourced factual load")
-    print("- cold wrappers exist without hot promotion")
+    print("- source-command skill wrappers bridge to workflows")
     return 0
 
 

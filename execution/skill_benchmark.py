@@ -293,8 +293,73 @@ def get_skill_info(skill_name: str) -> dict:
     return info
 
 
+# Local-first mirror written by log_performance.py (lowercase snake_case
+# schema, .agent/performance-log.jsonl). Restored 2026-07-21 — the codex-
+# harvest control-plane restore (765e9db12) installed the local-first
+# verifier contract but this implementation never landed in execution/.
+LOCAL_PERFORMANCE_LOG = Path(__file__).parent.parent / '.agent' / 'performance-log.jsonl'
+
+
+def _local_performance_history(skill_name: str, limit: int = 20) -> list:
+    """Read performance history for a skill from the local mirror.
+
+    Maps the current lowercase snake_case log schema (log_performance.py,
+    2026-07-15 local-first mirror) onto the Title-Case entry shape the rest
+    of this module consumes.
+    """
+    if not LOCAL_PERFORMANCE_LOG.exists():
+        return []
+
+    entries = []
+    for i, line in enumerate(LOCAL_PERFORMANCE_LOG.read_text(encoding='utf-8').splitlines()):
+        if not line.strip():
+            continue
+        try:
+            row = json.loads(line)
+        except json.JSONDecodeError:
+            continue
+        name = str(row.get('skill') or row.get('Skill') or '')
+        if skill_name not in name:
+            continue
+        entries.append({
+            'id': row.get('id') or row.get('Local ID') or f'local-{i}',
+            'url': row.get('notion_url') or row.get('Notion URL')
+                   or f"local://{row.get('id') or row.get('Local ID') or i}",
+            'output': row.get('output') or row.get('Output', ''),
+            'Date': row.get('date') or row.get('Date', ''),
+            'Timestamp': row.get('timestamp') or row.get('Timestamp', ''),
+            'Agent': row.get('agent') or row.get('Agent', ''),
+            'Skill': name,
+            'Workflow': row.get('workflow') or row.get('Workflow', ''),
+            'Task Type': row.get('task_type') or row.get('Task Type', ''),
+            'Quality Score': row.get('quality_score', row.get('Quality Score')),
+            'User Rating': row.get('user_rating', row.get('User Rating')),
+            'Intent Alignment': row.get('intent_alignment', row.get('Intent Alignment')),
+            'Expert Standard': row.get('expert_standard', row.get('Expert Standard')),
+            'Adversarial Resilience': row.get('adversarial_resilience', row.get('Adversarial Resilience')),
+            'Status': row.get('status') or row.get('Status', ''),
+            'Notes': row.get('notes') or row.get('Notes', ''),
+            'Experiment Tag': row.get('experiment_tag') or row.get('Experiment Tag', ''),
+        })
+
+    entries.sort(key=lambda e: (e.get('Date', ''), e.get('Timestamp', '')), reverse=True)
+    return entries[:limit]
+
+
 def get_performance_history(skill_name: str, limit: int = 20) -> list:
-    """Pull performance history for a skill from Notion."""
+    """Pull performance history for a skill, local-first.
+
+    The local mirror (.agent/performance-log.jsonl) is the source of truth;
+    Notion is only consulted when the local mirror has no rows AND
+    ANTIGRAVITY_ALLOW_NOTION_BENCHMARK=1 (sandboxed runs stay offline).
+    """
+    local_entries = _local_performance_history(skill_name, limit=limit)
+    if local_entries:
+        return local_entries
+
+    if os.getenv('ANTIGRAVITY_ALLOW_NOTION_BENCHMARK') != '1':
+        return []
+
     api = NotionAPI()
     result = api.query_database(
         PERFORMANCE_DB_ID,
@@ -462,7 +527,12 @@ def _generate_recommendations(report: dict) -> list:
 
     if report['weakest_dimension']:
         dim = report['weakest_dimension']
-        score = perf.get(f'avg_{dim.lower().replace(" ", "_")}', 0)
+        dimension_keys = {
+            'Intent Alignment': 'avg_intent',
+            'Expert Standard': 'avg_expert',
+            'Adversarial Resilience': 'avg_adversarial',
+        }
+        score = perf.get(dimension_keys.get(dim, ''), 0)
         if score < 6:
             recs.append(f'WEAK_DIMENSION: {dim} averaging {score}/10. Focus evolution efforts here.')
 

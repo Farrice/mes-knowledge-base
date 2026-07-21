@@ -12,21 +12,48 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "execution"))
 
 import skill_benchmark  # noqa: E402
+import log_performance  # noqa: E402
+
+
+def _fixture_skill() -> str:
+    """Pick a fixture skill that genuinely has local performance history.
+
+    The local mirror (.agent/performance-log.jsonl) started fresh on
+    2026-07-15; skills that were only ever logged to Notion (e.g. the old
+    luke-iha-client-mastery fixture) have zero local rows. The contract
+    under test is local-first behavior, not any one skill, so the fixture
+    is the most-logged skill with >=2 rows and a real skills/ directory.
+    """
+    counts: dict[str, int] = {}
+    for row in log_performance.get_local_performance_entries():
+        name = str(row.get("skill") or row.get("Skill") or "")
+        if name and (ROOT / "skills" / name).is_dir():
+            counts[name] = counts.get(name, 0) + 1
+    eligible = {k: v for k, v in counts.items() if v >= 2}
+    if not eligible:
+        raise AssertionError(
+            "no skill has >=2 rows in the local performance mirror "
+            "(.agent/performance-log.jsonl) — local-first evidence is broken"
+        )
+    return max(eligible, key=lambda k: (eligible[k], k))
+
+
+FIXTURE_SKILL = _fixture_skill()
 
 
 def check_local_history() -> str:
     os.environ.pop("ANTIGRAVITY_ALLOW_NOTION_BENCHMARK", None)
-    history = skill_benchmark.get_performance_history("luke-iha-client-mastery")
+    history = skill_benchmark.get_performance_history(FIXTURE_SKILL)
     if len(history) < 2:
-        raise AssertionError(f"expected local history for luke-iha-client-mastery, got {len(history)}")
+        raise AssertionError(f"expected local history for {FIXTURE_SKILL}, got {len(history)}")
     if any(not str(row.get("url", "")).startswith(("local://", "https://")) for row in history):
         raise AssertionError("local history rows missing local/remote URL markers")
-    return f"local benchmark history available ({len(history)} rows)"
+    return f"local benchmark history available for {FIXTURE_SKILL} ({len(history)} rows)"
 
 
 def check_report_no_network() -> str:
     result = subprocess.run(
-        [sys.executable, "execution/skill_benchmark.py", "report", "luke-iha-client-mastery"],
+        [sys.executable, "execution/skill_benchmark.py", "report", FIXTURE_SKILL],
         cwd=ROOT,
         text=True,
         capture_output=True,

@@ -1,5 +1,5 @@
 ---
-description: V4 High-Taste Output OS for generating, elevating, enriching, auditing, or practitioner-hardening important writing, strategy, content, offers, research, and client artifacts with preflight proof, source spine, one composer, bounded support lanes, and verification receipts
+description: V4 High-Taste Output OS for generating, elevating, enriching, auditing, or practitioner-hardening important writing, strategy, content, offers, research, and client artifacts — including copy that is structurally sound or correct but not compelling — with preflight proof, source spine, one composer, bounded support lanes, and verification receipts
 ---
 
 # /high-taste-writing-os - V4 High-Taste Output OS

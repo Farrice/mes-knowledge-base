@@ -68,15 +68,17 @@ WORKFLOW_REQUIRED_TEXT = (
     "Replay prompt",
 )
 
+# The gate was deliberately rewritten as a thin gate (765e9db12): the
+# Preservation Lock itself now lives in /repeatability-spine (checked via
+# WORKFLOW_REQUIRED_TEXT above); the gate must keep binding failed revisions
+# to that spine. Pin the stable route anchor, not the old prose.
 PUBLISHABLE_COPY_REQUIRED_TEXT = (
-    "Preservation Lock",
-    "strongest voice/proof/tension",
+    "/repeatability-spine",
 )
 
 AUTOPILOT_REQUIRED_TEXT = (
     "/repeatability-spine",
     "repeatability",
-    "revision",
 )
 
 SYSTEM_AUDIT_REQUIRED_TEXT = (

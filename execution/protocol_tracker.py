@@ -9,7 +9,7 @@ Usage:
     # Activate a protocol (update Last Activated + increment count)
     python execution/protocol_tracker.py activate directives/quality_gate.md
 
-    # Audit all protocols (list activation status, flag zombies)
+    # Audit all protocols (list activation lifecycle status)
     python execution/protocol_tracker.py audit
 
     # From Python:
@@ -18,7 +18,6 @@ Usage:
     report = audit_protocols()
 """
 
-import os
 import re
 import argparse
 from datetime import date, datetime, timedelta
@@ -41,6 +40,20 @@ ACTIVATION_COUNT_PATTERN = re.compile(
 REVIEW_DATE_PATTERN = re.compile(
     r'(\| \*\*30-Day Review Date\*\* \| )(.+?)( \|)',
     re.MULTILINE
+)
+
+DATE_PATTERN = re.compile(r"\d{4}-\d{2}-\d{2}")
+RECENT_ACTIVE_DAYS = 14
+COLD_SOURCE_ONLY_HINTS = (
+    "guide",
+    "policy",
+    "playbook",
+    "reference",
+    "cheat",
+    "paths",
+    "principles",
+    "usage",
+    "setup",
 )
 
 
@@ -95,16 +108,15 @@ def activate_protocol(directive_path: str, note: str = "") -> Dict:
             rf'\g<1>{new_count}\g<3>', content
         )
 
-    # Advance 30-Day Review Date — an activated protocol is not stale.
-    # Without this, active protocols read as perpetually "overdue"/zombie
-    # (root cause of the 2026-07-02 audit's 42-zombie false count).
+    # Reset the review window when a protocol is deliberately activated.
     match = REVIEW_DATE_PATTERN.search(content)
     if match:
-        next_review = (date.today() + timedelta(days=30)).isoformat()
-        result["old_review_date"] = match.group(2).strip()
-        result["new_review_date"] = next_review
+        old_review = match.group(2).strip()
+        new_review = (date.today() + timedelta(days=30)).isoformat()
+        result["old_review_date"] = old_review
+        result["new_review_date"] = new_review
         content = REVIEW_DATE_PATTERN.sub(
-            rf'\g<1>{next_review}\g<3>', content
+            rf'\g<1>{new_review}\g<3>', content
         )
 
     # Write back
@@ -117,7 +129,7 @@ def get_protocol_status(directive_path: Path) -> Optional[Dict]:
     Read the Usage Tracking section from a directive file.
 
     Returns:
-        Dict with last_activated, activation_count, review_date, is_zombie.
+        Dict with last_activated, activation_count, review_date, lifecycle.
         None if no Usage Tracking section exists.
     """
     if not directive_path.exists():
@@ -162,10 +174,46 @@ def get_protocol_status(directive_path: Path) -> Optional[Dict]:
         status["review_date"] = "none"
         status["is_overdue"] = False
 
-    # Zombie detection: never activated OR overdue for review
-    status["is_zombie"] = status["never_activated"] or status["is_overdue"]
+    status["lifecycle"] = classify_lifecycle(status, content)
+    status["is_zombie"] = status["lifecycle"] == "overdue"
 
     return status
+
+
+def first_date(raw: str) -> Optional[date]:
+    match = DATE_PATTERN.search(str(raw or ""))
+    if not match:
+        return None
+    try:
+        return datetime.strptime(match.group(0), "%Y-%m-%d").date()
+    except ValueError:
+        return None
+
+
+def classify_lifecycle(status: Dict, content: str) -> str:
+    """Classify protocol health without pretending unused protocols fired."""
+    filename = str(status.get("file") or "").lower()
+    early_text = content[:2500].lower()
+    if "deprecated" in filename or re.search(r"\bdeprecated\b", early_text):
+        return "deprecated"
+
+    if status.get("never_activated"):
+        if (
+            any(hint in filename for hint in COLD_SOURCE_ONLY_HINTS)
+            or "source-only" in early_text
+            or "source only" in early_text
+            or "reference material" in early_text
+        ):
+            return "cold/source-only"
+        return "dormant"
+
+    if status.get("is_overdue"):
+        return "overdue"
+
+    last = first_date(str(status.get("last_activated") or ""))
+    if last and (date.today() - last).days <= RECENT_ACTIVE_DAYS:
+        return "active"
+    return "healthy"
 
 
 def audit_protocols(include_archived: bool = False) -> Dict:
@@ -187,18 +235,33 @@ def audit_protocols(include_archived: bool = False) -> Dict:
 
     # Summary
     total = len(results)
-    active = sum(1 for r in results if not r["never_activated"])
-    zombies = sum(1 for r in results if r["is_zombie"])
+    activated = sum(1 for r in results if not r["never_activated"])
+    lifecycle_counts = {
+        "active": sum(1 for r in results if r.get("lifecycle") == "active"),
+        "healthy": sum(1 for r in results if r.get("lifecycle") == "healthy"),
+        "dormant": sum(1 for r in results if r.get("lifecycle") == "dormant"),
+        "cold/source-only": sum(1 for r in results if r.get("lifecycle") == "cold/source-only"),
+        "overdue": sum(1 for r in results if r.get("lifecycle") == "overdue"),
+        "deprecated": sum(1 for r in results if r.get("lifecycle") == "deprecated"),
+    }
+    healthy = lifecycle_counts["active"] + lifecycle_counts["healthy"]
     never_activated = sum(1 for r in results if r["never_activated"])
     total_activations = sum(r["activation_count"] for r in results)
 
     return {
         "total_protocols": total,
-        "active_protocols": active,
-        "zombie_protocols": zombies,
+        "active_protocols": lifecycle_counts["active"],
+        "activated_protocols": activated,
+        "healthy_protocols": healthy,
+        "dormant_protocols": lifecycle_counts["dormant"],
+        "cold_source_only_protocols": lifecycle_counts["cold/source-only"],
+        "overdue_protocols": lifecycle_counts["overdue"],
+        "deprecated_protocols": lifecycle_counts["deprecated"],
+        "zombie_protocols": lifecycle_counts["overdue"],
         "never_activated": never_activated,
         "total_activations": total_activations,
-        "activation_rate": f"{(active / total * 100):.0f}%" if total else "0%",
+        "activation_rate": f"{(activated / total * 100):.0f}%" if total else "0%",
+        "lifecycle_counts": lifecycle_counts,
         "protocols": results,
     }
 
@@ -209,27 +272,38 @@ def print_audit_report(report: Dict) -> None:
     print("  PROTOCOL ACTIVATION AUDIT")
     print("=" * 60)
     print(f"  Total Protocols:    {report['total_protocols']}")
-    print(f"  Active:             {report['active_protocols']}")
+    print(f"  Activated Ever:     {report.get('activated_protocols', report['active_protocols'])}")
+    print(f"  Active Recent:      {report.get('active_protocols', 'unknown')}")
+    print(f"  Healthy Total:      {report.get('healthy_protocols', 'unknown')}")
+    print(f"  Dormant:            {report.get('dormant_protocols', 'unknown')}")
+    print(f"  Cold/Source-Only:   {report.get('cold_source_only_protocols', 'unknown')}")
+    print(f"  Overdue:            {report.get('overdue_protocols', 'unknown')}")
+    print(f"  Deprecated:         {report.get('deprecated_protocols', 'unknown')}")
     print(f"  Never Activated:    {report['never_activated']}")
-    print(f"  Zombies (overdue):  {report['zombie_protocols']}")
     print(f"  Total Activations:  {report['total_activations']}")
     print(f"  Activation Rate:    {report['activation_rate']}")
     print("-" * 60)
 
-    # Group by status
-    zombies = [p for p in report["protocols"] if p["is_zombie"]]
-    healthy = [p for p in report["protocols"] if not p["is_zombie"]]
+    groups = {
+        "OVERDUE (review required)": [p for p in report["protocols"] if p.get("lifecycle") == "overdue"],
+        "DORMANT (never activated)": [p for p in report["protocols"] if p.get("lifecycle") == "dormant"],
+        "COLD/SOURCE-ONLY": [p for p in report["protocols"] if p.get("lifecycle") == "cold/source-only"],
+        "ACTIVE RECENT": [p for p in report["protocols"] if p.get("lifecycle") == "active"],
+        "HEALTHY": [p for p in report["protocols"] if p.get("lifecycle") == "healthy"],
+        "DEPRECATED": [p for p in report["protocols"] if p.get("lifecycle") == "deprecated"],
+    }
 
-    if zombies:
-        print("\n  🔴 ZOMBIES (need attention):")
-        for p in zombies:
-            reason = "never activated" if p["never_activated"] else f"overdue since {p['review_date']}"
-            print(f"    • {p['file']}: {reason} (count: {p['activation_count']})")
-
-    if healthy:
-        print(f"\n  ✅ ACTIVE ({len(healthy)}):")
-        for p in sorted(healthy, key=lambda x: x["activation_count"], reverse=True):
-            print(f"    • {p['file']}: {p['last_activated']} (count: {p['activation_count']})")
+    for label, protocols in groups.items():
+        if not protocols:
+            continue
+        print(f"\n  {label} ({len(protocols)}):")
+        for p in sorted(protocols, key=lambda x: (x.get("activation_count", 0), x.get("file", "")), reverse=label in {"ACTIVE RECENT", "HEALTHY"}):
+            detail = (
+                f"overdue since {p['review_date']}"
+                if p.get("lifecycle") == "overdue"
+                else str(p.get("last_activated") or "not activated")
+            )
+            print(f"    - {p['file']}: {detail} (count: {p['activation_count']})")
 
     print("=" * 60)
 
@@ -251,11 +325,11 @@ def main():
     if args.command == "activate":
         result = activate_protocol(args.path, note=args.note)
         if result["success"]:
-            print(f"  ✅ Activated: {result['file']}")
+            print(f"  Activated: {result['file']}")
             print(f"     Date: {result['date']}")
-            print(f"     Count: {result.get('old_count', '?')} → {result.get('new_count', '?')}")
+            print(f"     Count: {result.get('old_count', '?')} -> {result.get('new_count', '?')}")
         else:
-            print(f"  ❌ Failed: {result['error']}")
+            print(f"  Failed: {result['error']}")
 
     elif args.command == "audit":
         report = audit_protocols()

@@ -464,14 +464,16 @@ def commit_feedback_candidates(args: argparse.Namespace, candidates: list[Feedba
             candidate.review_state = "would-commit"
             candidate.reason = "dry-run explicit feedback capture"
             continue
+        # 2026-07-21: aligned to the reworked routing_intelligence.log_misroute
+        # signature (request_summary, wrong_route, correct_route, notes,
+        # session_id) — the old kwargs crashed every explicit misroute capture
+        # at closeout (found by verify_end_session_intelligence triage).
         routing_id, feedback_id = router.log_misroute(
             request_summary=candidate.request,
-            wrong_workflow=candidate.wrong_workflow,
-            correct_workflow=candidate.correct_workflow,
-            rating=candidate.rating,
-            notes="End-session explicit route correction.",
+            wrong_route=candidate.wrong_workflow,
+            correct_route=candidate.correct_workflow,
+            notes=f"End-session explicit route correction (rating: {candidate.rating}).",
             session_id=args.source,
-            domain_detected="routing",
         )
         candidate.routing_id = routing_id
         candidate.feedback_id = feedback_id

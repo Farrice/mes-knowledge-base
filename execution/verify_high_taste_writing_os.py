@@ -10,30 +10,34 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 
+# NOTE (2026-07-21): fork-era operator agents (agents/writing-agent,
+# agents/copywriting-agent + their workflows) were deliberately NOT installed
+# on the canonical repo (765e9db12 restored only operator-autopilot; Farrice
+# 2026-06-30 "canonical-fit, retire the sprawl"). Pins updated to the files
+# that carry the behavior here.
 FILES = {
     "workflow": ROOT / ".agent" / "workflows" / "high-taste-writing-os.md",
     "codex_skill": ROOT / ".agents" / "skills" / "source-command-high-taste-writing-os" / "SKILL.md",
     "source_command": ROOT / ".claude" / "commands" / "high-taste-writing-os.md",
     "primitive": ROOT / "semantic_libraries" / "antigravity" / "primitives" / "high-taste-writing-os-contract.md",
-    "writing_agent": ROOT / "agents" / "writing-agent" / "AGENT.md",
-    "writing_workflow": ROOT / ".agent" / "workflows" / "writing-agent.md",
-    "copy_agent": ROOT / "agents" / "copywriting-agent" / "AGENT.md",
-    "copy_workflow": ROOT / ".agent" / "workflows" / "copywriting-agent.md",
     "publishable_gate": ROOT / ".agent" / "workflows" / "publishable-copy-gate.md",
-    "autopilot": ROOT / ".agent" / "workflows" / "autopilot.md",
     "orchestrate": ROOT / ".agent" / "workflows" / "orchestrate.md",
 }
 
+# Anchors track the V4 rewrite's stable headings/rules, not old prose:
+# composer ownership, reader contract, golden-sample baseline, proof ledger,
+# architecture map, single compose pass, bounded support lanes, taste
+# evidence, and the no-unproven-9+ rule.
 WORKFLOW_TERMS = [
-    "One composer, many scalpels",
+    "One composer",
     "Reader Contract",
-    "Quality Baseline",
-    "Material Ledger",
+    "Golden Standard",
+    "Proof Ledger",
     "Architecture Map",
-    "Composed Draft",
-    "Scalpel Passes",
+    "Compose Once",
+    "Bounded Support Lanes",
     "Taste Evidence Ledger",
-    "No 9+ score without live market/user proof",
+    "No 9+",
 ]
 
 INTEGRATION_TERMS = [
@@ -79,13 +83,11 @@ def main() -> int:
             if term not in content:
                 failures.append(f"workflow missing term: {term}")
 
+    # Integration surface after the deliberate autopilot rewrite: autopilot is
+    # a thin front door; the high-taste wrap binding lives in the publishable
+    # copy gate ("wrap the owner with /high-taste-writing-os") and orchestrate.
     for label in [
-        "writing_agent",
-        "writing_workflow",
-        "copy_agent",
-        "copy_workflow",
         "publishable_gate",
-        "autopilot",
         "orchestrate",
     ]:
         if not FILES[label].exists():
@@ -96,15 +98,20 @@ def main() -> int:
                 failures.append(f"{label} missing integration term: {term}")
 
     combined_skill = read(FILES["codex_skill"]) if FILES["codex_skill"].exists() else ""
-    if "generic/flat/AI slop/poorly flowing" not in combined_skill:
-        failures.append("codex skill missing user-trigger language")
+    # Trigger vocabulary anchors (skill description reworded in the V4 pass;
+    # the behavior is that flat/generic/uncompelling work triggers the OS).
+    for trigger_term in ("flat", "generic", "compelling"):
+        if trigger_term not in combined_skill:
+            failures.append(f"codex skill missing user-trigger language: {trigger_term}")
 
     for query in ROUTING_QUERIES:
         menu = run([sys.executable, "execution/command_menu.py", "search", query])
         router = run([sys.executable, "execution/workflow_router.py", "search", query])
         combined = menu + "\n" + router
-        if "/high-taste-writing-os" not in combined:
-            failures.append(f"routing query did not surface /high-taste-writing-os: {query}")
+        # The workflow's own Behavior Proof accepts either family surface:
+        # /high-taste-os (wrapper) or /high-taste-writing-os (owner).
+        if "/high-taste-writing-os" not in combined and "/high-taste-os" not in combined:
+            failures.append(f"routing query did not surface the high-taste OS: {query}")
 
     if failures:
         print("High-Taste Writing OS verification: FAIL")

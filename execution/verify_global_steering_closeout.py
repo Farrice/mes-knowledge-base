@@ -15,7 +15,9 @@ GLOBAL_AGENTS = Path.home() / ".codex" / "AGENTS.md"
 GLOBAL_SNIPPETS = [
     "Post-Output Steering Closeout",
     "Every final answer gets an Operator Lesson unless the user explicitly asks for only the direct answer.",
-    "Close with steering by default: 3 Next Prompts using Use Now, Harden, and Expand.",
+    # Anchor on the stable sentence stem — the global file extends it with
+    # "under the Insightful Momentum standard" (behavior unchanged).
+    "Close with steering by default: 3 Next Prompts using Use Now, Harden, and Expand",
     "## 3 Next Prompts",
     "Prompt",
     "Expected output",
@@ -29,10 +31,13 @@ GLOBAL_SNIPPETS = [
 
 
 LOCAL_SNIPPETS = {
+    # GEMINI.md is compiled (platform_compiler.py) and carries the always-on
+    # steering contract; the "go with your verdict" fast-approval phrase is
+    # pinned on its owners (global AGENTS.md + steering-compass.md) below.
     "GEMINI.md": [
         "ALWAYS-ON OPERATOR LESSON",
         "Operator Lesson: Next time, ask for [X] if you want [Y].",
-        "go with your verdict",
+        "3 Next Prompts",
     ],
     ".agent/workflows/extraction-governor-agent.md": [
         "Run the closeout steering compass",

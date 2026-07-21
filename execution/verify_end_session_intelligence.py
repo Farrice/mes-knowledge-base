@@ -62,19 +62,29 @@ def base_args(tmp: Path, state: str) -> list[str]:
 
 
 def check_workflow_wiring() -> str:
+    # Closeout side-effects live in the deterministic spine
+    # (execution/end_session_closeout.py), not workflow prose (End-Session
+    # Closeout Spine decision). The workflow must invoke the spine; the spine
+    # must wire intelligence capture; the capture script must keep the
+    # routing-feedback inbox default. Pins are script paths, not sentences.
     workflow = (ROOT / ".agent" / "workflows" / "end-session.md").read_text(encoding="utf-8")
     required = [
+        "end_session_closeout.py run",
         "session_closeout_intelligence.py run --source end-session",
-        "routing-feedback-inbox.jsonl",
         "conversation_index.py stats",
-        "verify_end_session_intelligence.py",
     ]
     missing = [item for item in required if item not in workflow]
     if missing:
         raise AssertionError("end-session workflow missing: " + ", ".join(missing))
+    spine = (ROOT / "execution" / "end_session_closeout.py").read_text(encoding="utf-8")
+    if "session_closeout_intelligence.py" not in spine:
+        raise AssertionError("closeout spine does not invoke session_closeout_intelligence.py")
+    intelligence = (ROOT / "execution" / "session_closeout_intelligence.py").read_text(encoding="utf-8")
+    if "routing-feedback-inbox.jsonl" not in intelligence:
+        raise AssertionError("session_closeout_intelligence.py lost the routing-feedback-inbox.jsonl default")
     if "conversation_index.py update <current-conversation-id>" in workflow:
         raise AssertionError("end-session still uses fragile targeted conversation index update")
-    return "workflow wiring"
+    return "workflow wiring (closeout spine)"
 
 
 def check_scan_and_dry_run(tmp: Path) -> str:
