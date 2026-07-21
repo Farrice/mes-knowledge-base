@@ -560,3 +560,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-21 06:39]` **finalize** | Paolo Trivellato — LinkedIn lead-magnet engine mastery extraction (forge, 2 sources watched frame-by | general | paolo-trivellato — composite:8.33 status:Keep
 - `[2026-07-21 06:44]` **finalize** | Avatar Dossier for the $400 Alignment Audit — identity-level ICP (the Overlooked Craftsman), resista | general | luke-iha — composite:8.33 status:Keep
 - `[2026-07-21 06:44]` **finalize** | Prospect list for $400 Alignment Audit — 13 verified funded supplement/performance brand founders w/ | research | deep-research — composite:8.33 status:Keep
+- `[2026-07-21 07:12]` **finalize** | Three-offer market stress test (GEO/creative-strategy/exec-ghostwriting) + Signal Pilot blind red-te | general | offer-redteam — composite:8.67 status:Keep
+- `[2026-07-21 07:23]` **finalize** | Ray Amjad — Agentic Coding Ladder mastery extraction (forge): 9 workflows, 9 born-v2 prompts, front  | general | ray-amjad — composite:8.33 status:Keep

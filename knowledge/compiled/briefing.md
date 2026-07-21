@@ -1,12 +1,12 @@
 # Knowledge Briefing
-*Generated: 2026-07-21 | 709 sources | 2,792,255 words*
+*Generated: 2026-07-21 | 718 sources | 2,804,529 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 4,847 words — `knowledge/index.md`
-- **log** (general) — 13,855 words — `knowledge/log.md`
+- **index** (content) — 4,859 words — `knowledge/index.md`
+- **log** (general) — 13,904 words — `knowledge/log.md`
 - **extraction-report** (content [lara-acosta]) — 3,063 words — `extractions/paolo-trivellato/extraction-report.md`
 - **vision** (screenwriting) — 445 words — `extractions/paolo-trivellato/vision.md`
 - **blind-pass-generated-01** (strategy) — 193 words — `extractions/paolo-trivellato-lead-magnet-engine/blind-pass-generated-01.md`
@@ -14,19 +14,19 @@
 - **extraction-report-link** (content [lara-acosta]) — 3,063 words — `extractions/paolo-trivellato-lead-magnet-engine/extraction-report-link.md`
 - **starbornai-site-copy** (copywriting) — 1,011 words — `extractions/paolo-trivellato-lead-magnet-engine/reference-corpus/starbornai-site-copy.md`
 - **x-post-inbound-outbound-system** (content) — 630 words — `extractions/paolo-trivellato-lead-magnet-engine/reference-corpus/x-post-inbound-outbound-system.md`
-- **2026-07-21-ai-revenue-opportunity-reality-check** (content) — 2,458 words — `research_outputs/2026-07-21-ai-revenue-opportunity-reality-check.md`
+- **extraction-report** (content [nick-saraev]) — 2,895 words — `extractions/ray-amjad/extraction-report.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 247 | lara-acosta |
+| content | 248 | lara-acosta |
 | copywriting | 101 | luke-iha |
-| general | 88 | nick-saraev |
+| general | 90 | nick-saraev |
 | strategy | 76 | april-dunford |
 | screenwriting | 53 | connelly |
-| brand | 49 | oren-john |
-| systems | 35 | nick-saraev |
+| brand | 50 | oren-john |
+| systems | 40 | nick-saraev |
 | seo | 26 | nathan-gotch |
 | research | 23 | dai-media |
 | sales | 11 | dai-media |

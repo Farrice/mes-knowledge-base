@@ -1117,6 +1117,10 @@
       "skill": "rafa-conde-memorable-product-design"
     },
     {
+      "command": "/ray-amjad-agentic-ladder",
+      "skill": "ray-amjad-agentic-ladder"
+    },
+    {
       "command": "/re-compliance",
       "skill": "re-compliance-pack"
     },
@@ -2497,6 +2501,12 @@
       "command": "/rachel-woods",
       "skills": [
         "rachel-woods-ai-operations"
+      ]
+    },
+    "ray-amjad": {
+      "command": "/ray-amjad",
+      "skills": [
+        "ray-amjad-agentic-ladder"
       ]
     },
     "reid-hoffman": {

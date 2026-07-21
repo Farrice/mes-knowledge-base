@@ -63,7 +63,7 @@
                 "story-bible-builder": 1,
                 "jason-fladlien-marketing": 10,
                 "how-i-write-os": 12,
-                "supercomputer": 20,
+                "supercomputer": 21,
                 "design-md": 13,
                 "fantastic-posters": 2,
                 "Creative": 8,
@@ -74,8 +74,8 @@
                 "nate-b-jones-context-engineering": 30,
                 "nate-b-jones-intent-engineering": 1,
                 "omar-eltakrori": 1,
-                "Extraction": 29,
-                "Strategy": 33,
+                "Extraction": 30,
+                "Strategy": 34,
                 "donald-miller-storybrand": 1,
                 "strength-conditioning-os": 7,
                 "simon-intellectual-library-os": 1,
@@ -89,9 +89,9 @@
                 "sweat-equity-speedrun-social-os": 1,
                 "benjamin-hardy-identity": 1
             },
-            "total_routings": 538,
+            "total_routings": 541,
             "tier_counts": {
-                "0": 538,
+                "0": 541,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -101,8 +101,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 306,
-                "finalize-auto": 232
+                "hybrid": 307,
+                "finalize-auto": 234
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -146,7 +146,7 @@
                 "cooz-voice-profile": 3,
                 "none": 8,
                 "market-intelligence": 1,
-                "nate-b-jones-context-engineering": 35,
+                "nate-b-jones-context-engineering": 36,
                 "nicolas-cole": 1,
                 "omar-eltakrori": 1,
                 "josh-kaufman-business-fundamentals": 1,
@@ -175,7 +175,7 @@
                 "tommy-clark": 2,
                 "deliberate": 27,
                 "creative-director": 1,
-                "doc-coauthoring": 37,
+                "doc-coauthoring": 38,
                 "dan-wang-literary-analysis": 2,
                 "webapp-testing": 2,
                 "brand-operating-system": 24,
@@ -242,7 +242,7 @@
                 "story-bible-builder": 2,
                 "jason-fladlien-marketing": 13,
                 "luisa-zhou-coaching": 2,
-                "supercomputer": 33,
+                "supercomputer": 34,
                 "design-md": 22,
                 "alex-content-science": 2,
                 "system-audit": 23,
@@ -347,11 +347,13 @@
                 "ward-farnsworth-rhetorical-mastery": 1,
                 "business-intelligence-audit": 3,
                 "paolo-trivellato": 1,
-                "luke-iha": 1
+                "luke-iha": 1,
+                "offer-redteam": 1,
+                "ray-amjad": 1
             },
             "total_feedback": 77,
             "negative_count": 0,
-            "ensemble_count": 392,
+            "ensemble_count": 394,
             "auto_miss_count": 61,
             "positive_count": 0
         }
@@ -10783,6 +10785,59 @@
             "routing_id": "rt_20260721_140348_3a58",
             "timestamp": "2026-07-21T14:03:48.193012+00:00",
             "session_id": "ce475759-c938-4506-a28e-0f7211fef4d4",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "nate-b-jones-context-engineering",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260721_141228_c258",
+            "timestamp": "2026-07-21T14:12:28.448332+00:00",
+            "session_id": "",
+            "request_summary": "Three-offer market stress test (GEO/creative-strategy/exec-ghostwriting) + Signal Pilot blind red-team + permanent offer-truth loop (offer_gate.py + /offer-redteam workflow, PoC-proven in-session)",
+            "intent_score": 9,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "offer-redteam"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "offer-redteam",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260721_142330_adfe",
+            "timestamp": "2026-07-21T14:23:30.896951+00:00",
+            "session_id": "",
+            "request_summary": "Ray Amjad — Agentic Coding Ladder mastery extraction (forge): 9 workflows, 9 born-v2 prompts, front door /ray-amjad",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "ray-amjad"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260721_143746_dc1e",
+            "timestamp": "2026-07-21T14:37:46.718870+00:00",
+            "session_id": "2096e4c3-d972-413f-9474-e539ce995c38",
             "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
             "intent_score": 0,
             "domain_detected": "supercomputer",

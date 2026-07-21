@@ -1618,7 +1618,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 65 agent(s) had no invocation card. Stubs below are machine-
+> 66 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -2121,6 +2121,16 @@ DOMAIN: Prediction market trading — weather, sports/events, market making, ris
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: Compound agent built from 4 MES 3.0 deep extractions totaling 3,947 lines of analyzed intelligence. This agent orchestrates weather trading, sports/event arb...
 ENTRY PROMPT: agents/prediction-market-strategist/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Ray Amjad — Agent Configuration
+DOMAIN: See AGENT.md — domain not yet tagged in frontmatter.
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: Screen-first demonstrator: shows the artifact, then names the doctrine. Conversational, concrete, self-deprecating about his own harness bugs ("I don't know...
+ENTRY PROMPT: agents/ray-amjad/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 

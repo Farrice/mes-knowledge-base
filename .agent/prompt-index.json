@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7240,
+ "count": 7249,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -20329,6 +20329,69 @@
    "title": "Rafa Conde \u2014 Tactile Detail Pass",
    "gist": "You are Rafa Conde, product designer and design engineer behind Hand Mirror and work at Retro. This is the product detail pass that turns a working product into one people feel \u2014 motion, sound, icon, microcopy, and defau",
    "path": "skills/rafa-conde-memorable-product-design/references/prompts-v2/tactile-detail-pass.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ray-amjad-agentic-ladder",
+   "title": "Ray Amjad \u2014 Client Adoption Brief",
+   "gist": "You are packaging a completed ladder diagnosis as a client-facing adoption brief. The commercial frame is Boris Cherny's own field observation: \"one person is 10x'ing their output with Claude but the rest of the org hasn",
+   "path": "skills/ray-amjad-agentic-ladder/references/prompts-v2/adoption-brief.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ray-amjad-agentic-ladder",
+   "title": "Ray Amjad \u2014 Chat-Native Harness Blueprint",
+   "gist": "You are executing Ray Amjad's harness-design method, modeled on Percy \u2014 his own Claude Tag equivalent: Claude Code + Codex on cloud, addressed by Slack tag, delivering recordings in-thread, taking approvals as reactions.",
+   "path": "skills/ray-amjad-agentic-ladder/references/prompts-v2/chat-native-harness.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ray-amjad-agentic-ladder",
+   "title": "Ray Amjad \u2014 Fan-Out Mission Prompt",
+   "gist": "You are executing Ray Amjad's coordinator-of-coordinators pattern \u2014 \"let Claude kick off Claude\" \u2014 composing the mission prompt that makes one agent instance spawn and shepherd worker instances of itself over a work queu",
+   "path": "skills/ray-amjad-agentic-ladder/references/prompts-v2/fanout-mission.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ray-amjad-agentic-ladder",
+   "title": "Ray Amjad \u2014 Ladder Diagnostic Card",
+   "gist": "You are executing Ray Amjad's level-diagnosis method over Boris Cherny's 5-level \"Steps of AI Adoption\" ladder (levels 0-4; source of record: `references/boris-ladder-source.md`). Ray's core diagnostic insight: level is ",
+   "path": "skills/ray-amjad-agentic-ladder/references/prompts-v2/ladder-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ray-amjad-agentic-ladder",
+   "title": "Ray Amjad \u2014 Level-Up Plan (One Rung)",
+   "gist": "You are executing the one-rung climb planner over Boris Cherny's ladder with Ray Amjad's implementations. Hard rule from the source: the L3 trap is \"scaling agent count before the loop has earned widespread trust\" \u2014 so y",
+   "path": "skills/ray-amjad-agentic-ladder/references/prompts-v2/level-up-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ray-amjad-agentic-ladder",
+   "title": "Ray Amjad \u2014 Routine Sheet (Loop Hunter)",
+   "gist": "You are executing Ray Amjad's loop-discovery method: loops are FOUND in observed behavior, never brainstormed from memory. His engine: screen/behavior instrumentation + a standing \"find loops\" loop that proposes routines",
+   "path": "skills/ray-amjad-agentic-ladder/references/prompts-v2/loop-hunter.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ray-amjad-agentic-ladder",
+   "title": "Ray Amjad \u2014 System Ladder Audit Card",
+   "gist": "You are executing the ladder audit against a BUILT Claude Code system \u2014 its CLAUDE.md, hooks, routines, skills, memory \u2014 rather than a person's habits. Method: Ray's two-test loop-trust diagnosis + Boris's L3/L4 tooling ",
+   "path": "skills/ray-amjad-agentic-ladder/references/prompts-v2/system-ladder-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ray-amjad-agentic-ladder",
+   "title": "Ray Amjad \u2014 Task Lifecycle File",
+   "gist": "You are executing Ray Amjad's task-lifecycle codification \u2014 the bounded-autonomy grammar he built live in his AgentStack repo (calibration anchor: `extractions/ray-amjad/reference-corpus/task-lifecycle.md`). Every stage ",
+   "path": "skills/ray-amjad-agentic-ladder/references/prompts-v2/task-lifecycle-forge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "ray-amjad-agentic-ladder",
+   "title": "Ray Amjad \u2014 Verification Environment Plan",
+   "gist": "You are executing Ray Amjad's environment-first verification doctrine: \"often the reason why your verification is not end to end is that you haven't set up the right environment \u2014 and you should brainstorm with your agen",
+   "path": "skills/ray-amjad-agentic-ladder/references/prompts-v2/verification-environment.md"
   },
   {
    "kind": "prompt-v2",
