@@ -360,10 +360,10 @@
                 "ben-watkins-storytelling": 1,
                 "meg-heckman": 1
             },
-            "total_feedback": 77,
+            "total_feedback": 79,
             "negative_count": 0,
             "ensemble_count": 411,
-            "auto_miss_count": 61,
+            "auto_miss_count": 63,
             "positive_count": 0
         }
     },
@@ -1051,6 +1051,24 @@
             "rating": "auto_match",
             "correction": "luke-iha-avatar-machine",
             "notes": "expert skill 'luke-iha-avatar-machine' loaded matching suggestion ['luke-iha-avatar-machine', 'jason-fladlien-marketing', 'chase-hughes-context-engineering']"
+        },
+        {
+            "feedback_id": "fb_20260721_210550_5f9c",
+            "timestamp": "2026-07-21T21:05:50.786093+00:00",
+            "session_id": "3ae50d0a-441c-4e31-b319-4d3d4a0dcbfa",
+            "routing_id": "rt_20260721_210507_c8ae",
+            "rating": "auto_miss",
+            "correction": "matthew-lakajev-linkedin",
+            "notes": "expert skill 'matthew-lakajev-linkedin' loaded not matching suggestion ['joey-cinema-os', 'youtube-video-context-analysis', 'fantastic-posters']"
+        },
+        {
+            "feedback_id": "fb_20260721_210647_74d0",
+            "timestamp": "2026-07-21T21:06:47.139032+00:00",
+            "session_id": "c6f4ab6d-0bfd-4cee-92ae-22e87718de8e",
+            "routing_id": "rt_20260721_210438_89cc",
+            "rating": "auto_miss",
+            "correction": "meg-heckman-buyer-trigger-os",
+            "notes": "expert skill 'meg-heckman-buyer-trigger-os' loaded not matching suggestion ['supercomputer', 'nate-b-jones-context-engineering', 'doc-coauthoring']"
         }
     ],
     "routing_decisions": [
@@ -11207,7 +11225,7 @@
             "workflow_used": "supercomputer",
             "ensemble": true,
             "compound_pairing": "supercomputer + nate-b-jones-context-engineering + doc-coauthoring",
-            "feedback": null
+            "feedback": "fb_20260721_210647_74d0"
         },
         {
             "routing_id": "rt_20260721_210507_c8ae",
@@ -11226,7 +11244,7 @@
             "workflow_used": "joey-cinema-os",
             "ensemble": true,
             "compound_pairing": "joey-cinema-os + youtube-video-context-analysis + fantastic-posters",
-            "feedback": null
+            "feedback": "fb_20260721_210550_5f9c"
         }
     ]
 }
