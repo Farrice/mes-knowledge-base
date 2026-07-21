@@ -139,3 +139,7 @@
 {"ts": "2026-07-21T14:07:05.314401+00:00", "tool": "mcp__perplexity-ask__perplexity_search", "service": "perplexity", "billable": true, "session_id": "b1071701-3c59-4494-814c-fc8a6aebef5a"}
 {"ts": "2026-07-21T14:07:05.502648+00:00", "tool": "mcp__perplexity-ask__perplexity_search", "service": "perplexity", "billable": true, "session_id": "b1071701-3c59-4494-814c-fc8a6aebef5a"}
 {"ts": "2026-07-21T14:10:16.068250+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "b1071701-3c59-4494-814c-fc8a6aebef5a"}
+{"ts": "2026-07-21T20:43:31.737151+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "76ef7f3a-bb43-47f6-86ec-27cb6980426b"}
+{"ts": "2026-07-21T20:43:49.207522+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "76ef7f3a-bb43-47f6-86ec-27cb6980426b"}
+{"ts": "2026-07-21T20:44:05.121538+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "76ef7f3a-bb43-47f6-86ec-27cb6980426b"}
+{"ts": "2026-07-21T20:44:16.569939+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "76ef7f3a-bb43-47f6-86ec-27cb6980426b"}

@@ -1,12 +1,12 @@
 # Knowledge Briefing
-*Generated: 2026-07-21 | 722 sources | 2,807,396 words*
+*Generated: 2026-07-21 | 722 sources | 2,807,423 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
 - **index** (content) — 4,919 words — `knowledge/index.md`
-- **log** (general) — 14,006 words — `knowledge/log.md`
+- **log** (general) — 14,033 words — `knowledge/log.md`
 - **extraction-report** (content [lara-acosta]) — 3,063 words — `extractions/paolo-trivellato/extraction-report.md`
 - **vision** (screenwriting) — 445 words — `extractions/paolo-trivellato/vision.md`
 - **blind-pass-generated-01** (strategy) — 193 words — `extractions/paolo-trivellato-lead-magnet-engine/blind-pass-generated-01.md`

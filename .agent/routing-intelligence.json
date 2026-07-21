@@ -63,7 +63,7 @@
                 "story-bible-builder": 1,
                 "jason-fladlien-marketing": 10,
                 "how-i-write-os": 12,
-                "supercomputer": 22,
+                "supercomputer": 24,
                 "design-md": 13,
                 "fantastic-posters": 2,
                 "Creative": 8,
@@ -75,7 +75,7 @@
                 "nate-b-jones-intent-engineering": 1,
                 "omar-eltakrori": 1,
                 "Extraction": 31,
-                "Strategy": 34,
+                "Strategy": 35,
                 "donald-miller-storybrand": 1,
                 "strength-conditioning-os": 7,
                 "simon-intellectual-library-os": 1,
@@ -89,11 +89,12 @@
                 "sweat-equity-speedrun-social-os": 1,
                 "benjamin-hardy-identity": 1,
                 "gpt-image-2-director": 2,
-                "satori-graphics": 1
+                "satori-graphics": 1,
+                "oren-luxury-psychology": 1
             },
-            "total_routings": 552,
+            "total_routings": 556,
             "tier_counts": {
-                "0": 552,
+                "0": 556,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -103,8 +104,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 314,
-                "finalize-auto": 238
+                "hybrid": 317,
+                "finalize-auto": 239
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -117,7 +118,7 @@
                 "paul-james-ai-automation": 1,
                 "joscha-bach-consciousness": 2,
                 "cinema-worldbuilder-pro": 2,
-                "ali-abdaal-action-bias": 2,
+                "ali-abdaal-action-bias": 3,
                 "skill-creator": 2,
                 "jen-santulan-listing-content": 33,
                 "deep-research": 9,
@@ -148,7 +149,7 @@
                 "cooz-voice-profile": 3,
                 "none": 8,
                 "market-intelligence": 1,
-                "nate-b-jones-context-engineering": 37,
+                "nate-b-jones-context-engineering": 39,
                 "nicolas-cole": 1,
                 "omar-eltakrori": 1,
                 "josh-kaufman-business-fundamentals": 1,
@@ -177,7 +178,7 @@
                 "tommy-clark": 2,
                 "deliberate": 27,
                 "creative-director": 1,
-                "doc-coauthoring": 39,
+                "doc-coauthoring": 41,
                 "dan-wang-literary-analysis": 2,
                 "webapp-testing": 2,
                 "brand-operating-system": 24,
@@ -244,7 +245,7 @@
                 "story-bible-builder": 2,
                 "jason-fladlien-marketing": 13,
                 "luisa-zhou-coaching": 2,
-                "supercomputer": 35,
+                "supercomputer": 37,
                 "design-md": 22,
                 "alex-content-science": 2,
                 "system-audit": 23,
@@ -257,7 +258,7 @@
                 "henrik-werdelin-portfolio-entrepreneurship": 1,
                 "ben-watkins": 1,
                 "pptx": 10,
-                "new-media-ghostwriting": 2,
+                "new-media-ghostwriting": 3,
                 "panel_cast": 1,
                 "mark-kashef-wargame-os": 6,
                 "source-to-skill-system": 1,
@@ -352,11 +353,13 @@
                 "luke-iha": 1,
                 "offer-redteam": 1,
                 "ray-amjad": 4,
-                "mark-kashef-claude-claw": 1
+                "mark-kashef-claude-claw": 1,
+                "oren-luxury-psychology": 1,
+                "swarm": 1
             },
             "total_feedback": 77,
             "negative_count": 0,
-            "ensemble_count": 403,
+            "ensemble_count": 407,
             "auto_miss_count": 61,
             "positive_count": 0
         }
@@ -11054,6 +11057,80 @@
             "mode": "finalize-auto",
             "workflow_used": "system-ladder-audit",
             "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260721_203806_c651",
+            "timestamp": "2026-07-21T20:38:06.331973+00:00",
+            "session_id": "f6ecd230-fff5-447b-ad0d-586e26ed957e",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "nate-b-jones-context-engineering",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260721_204043_f4a5",
+            "timestamp": "2026-07-21T20:40:43.266797+00:00",
+            "session_id": "76ef7f3a-bb43-47f6-86ec-27cb6980426b",
+            "request_summary": "run /go  I need you to pull all relevant content, offer, and service for LinkedIn that I was planning on doing for myself, Farrice Cain. I need us to do deep research and parallel swarms out to figure",
+            "intent_score": 0,
+            "domain_detected": "oren-luxury-psychology",
+            "experts_deployed": [
+                "oren-luxury-psychology",
+                "new-media-ghostwriting",
+                "ali-abdaal-action-bias"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "oren-luxury-psychology",
+            "ensemble": true,
+            "compound_pairing": "oren-luxury-psychology + new-media-ghostwriting + ali-abdaal-action-bias",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260721_204549_ae54",
+            "timestamp": "2026-07-21T20:45:49.649910+00:00",
+            "session_id": "76ef7f3a-bb43-47f6-86ec-27cb6980426b",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "nate-b-jones-context-engineering",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260721_204948_ce29",
+            "timestamp": "2026-07-21T20:49:48.937988+00:00",
+            "session_id": "",
+            "request_summary": "Premium Arc — Pinnacle Offer Architecture (swarm research + market receipts + executor ICP integration + ladder logic + moat positioning + momentum steps)",
+            "intent_score": 9,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "swarm"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "go",
+            "ensemble": true,
             "compound_pairing": null,
             "feedback": null
         }
