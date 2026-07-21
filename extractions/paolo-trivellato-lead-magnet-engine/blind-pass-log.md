@@ -1,0 +1,5 @@
+# Blind-Pass Log — paolo-trivellato-lead-magnet-engine
+
+Recorded by `execution/blind_pass.py` per `directives/embodiment-standard.md` Blind-Pass Protocol.
+
+- 2026-07-21T06:36:42 — **PASS** — eval: EVAL-050 — generated: `extractions/paolo-trivellato-lead-magnet-engine/blind-pass-generated-01.md` — reference: `extractions/paolo-trivellato-lead-magnet-engine/reference-corpus/x-post-inbound-outbound-system.md` — corpus: 2 piece(s) — Model-judged (not Farrice) vs x-post-inbound-outbound-system.md + starbornai-site-copy.md. Held: authority-line-first mechanics, present-tense ICP pain descent, spec'd contents list, honest FOMO, keyword gate, concrete numbers over adjectives — all present in both real pieces (hook formula outcome+timeframe+mechanism, FOMO goal stated verbatim in real X post). Gave it away: nothing structural; register note — his X-native voice runs lowercase/hypier than the LinkedIn client register the skill targets (platform variant, not a miss). A-tier still requires a Farrice-judged pass.

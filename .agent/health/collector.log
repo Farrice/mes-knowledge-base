@@ -37,3 +37,21 @@ Snapshot written: /Users/farricecain/Google Antigravity/.agent/health/2026-07-19
   ⚑ launchd com.antigravity.social-pulse-jen: no log evidence at all — job may never have run; `launchctl list com.antigravity.social-pulse-jen` to confirm
   ⚑ launchd com.antigravity.social-pulse-mybpm: no log evidence at all — job may never have run; `launchctl list com.antigravity.social-pulse-mybpm` to confirm
   ⚑ verifier fleet: 30/86 failing (run 2026-07-19) — each is a contract the system claims to hold; triage in weekly closeout
+Snapshot written: /Users/farricecain/Google Antigravity/.agent/health/2026-07-20.json (8 flag(s))
+  ⚑ hook config drifted vs blessed baseline — diff .claude/settings.json, then delete .agent/health/hooks-baseline.json to re-bless deliberately
+  ⚑ _active/ holds 717 files >60d old — archive candidates accrue in pending-review; approving keeps _active meaning 'active'
+  ⚑ 10 removal proposal(s) awaiting your yes — .agent/health/pending-review.md
+  ⚑ SLASH_COMMANDS.md at 395KB — index bloat; trim descriptions or split before it degrades routing loads
+  ⚑ launchd com.antigravity.social-pulse-farrice: no log evidence at all — job may never have run; `launchctl list com.antigravity.social-pulse-farrice` to confirm
+  ⚑ launchd com.antigravity.social-pulse-jen: no log evidence at all — job may never have run; `launchctl list com.antigravity.social-pulse-jen` to confirm
+  ⚑ launchd com.antigravity.social-pulse-mybpm: no log evidence at all — job may never have run; `launchctl list com.antigravity.social-pulse-mybpm` to confirm
+  ⚑ verifier fleet: 30/86 failing (run 2026-07-19) — each is a contract the system claims to hold; triage in weekly closeout
+Snapshot written: /Users/farricecain/Google Antigravity/.agent/health/2026-07-21.json (8 flag(s))
+  ⚑ hook config drifted vs blessed baseline — diff .claude/settings.json, then delete .agent/health/hooks-baseline.json to re-bless deliberately
+  ⚑ _active/ holds 720 files >60d old — archive candidates accrue in pending-review; approving keeps _active meaning 'active'
+  ⚑ 10 removal proposal(s) awaiting your yes — .agent/health/pending-review.md
+  ⚑ SLASH_COMMANDS.md at 395KB — index bloat; trim descriptions or split before it degrades routing loads
+  ⚑ launchd com.antigravity.social-pulse-farrice: no log evidence at all — job may never have run; `launchctl list com.antigravity.social-pulse-farrice` to confirm
+  ⚑ launchd com.antigravity.social-pulse-jen: no log evidence at all — job may never have run; `launchctl list com.antigravity.social-pulse-jen` to confirm
+  ⚑ launchd com.antigravity.social-pulse-mybpm: no log evidence at all — job may never have run; `launchctl list com.antigravity.social-pulse-mybpm` to confirm
+  ⚑ verifier fleet: 30/86 failing (run 2026-07-19) — each is a contract the system claims to hold; triage in weekly closeout

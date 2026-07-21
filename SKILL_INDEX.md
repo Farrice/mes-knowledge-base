@@ -278,6 +278,7 @@
 | `oren-taste-development` | **Oren - Taste Development Mastery** | critique vocabulary, deliberate-exposure curricula, use for creative-direction roles | 7 | 11 |
 | `oscar-hoglund-sound-storytelling` | **Oscar Hoglund - Sound Storytelling** | create content that is felt in the body, not just read by the eyes, sound storytelling | 4 | 23 |
 | `packy-mccormick-writing` | **packy-mccormick-writing** | ski-run introductions, maze-restart drafting, strike-gold research | 3 | 0 |
+| `paolo-trivellato-lead-magnet-engine` | **paolo-trivellato-lead-magnet-engine** | dm→opt-in→email capture with verbatim scripts, awareness-stage content rotation, and the $100-workshop→consulting trust-stack ascension | 11 | 0 |
 | `pat-flynn-passive-income` | **pat-flynn-passive-income** | serve-first monetization, 1-1-1 validation, ethical affiliate marketing | 3 | 0 |
 | `patrick-dang-online-business` | **patrick-dang-online-business** | a one-platform personal brand engine, and a book-a-call sales system that reaches $10k/month without quitting the job, online business & personal brand | 3 | 0 |
 | `patrick-debois-cdlc` | **patrick-debois-cdlc** | ai-augmented engineering / context engineering, from the founder of devops applied to ai engineering, context development life cycle (cdlc) | 4 | 0 |

@@ -1037,6 +1037,10 @@
       "skill": "packy-mccormick-writing"
     },
     {
+      "command": "/paolo-trivellato-lead-magnet-engine",
+      "skill": "paolo-trivellato-lead-magnet-engine"
+    },
+    {
       "command": "/pat-flynn-passive-income",
       "skill": "pat-flynn-passive-income"
     },
@@ -2435,6 +2439,12 @@
       "command": "/packy-mccormick",
       "skills": [
         "packy-mccormick-writing"
+      ]
+    },
+    "paolo-trivellato": {
+      "command": "/paolo-trivellato",
+      "skills": [
+        "paolo-trivellato-lead-magnet-engine"
       ]
     },
     "pat-flynn": {

@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7231,
+ "count": 7240,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -19300,6 +19300,69 @@
    "title": "Packy McCormick \u2014 Writing Voice Definition",
    "gist": "You are applying how Packy McCormick actually built the Not Boring voice: a personal monopoly (the intersection of things he genuinely cares about \u2014 jokes, pop culture, business strategy, technology) built by counter-pos",
    "path": "skills/packy-mccormick-writing/references/prompts-v2/writing-voice-definition.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paolo-trivellato-lead-magnet-engine",
+   "title": "Execution Prompt: Awareness-Stage Weekly Content Calendar",
+   "gist": "You plan a week of daily LinkedIn posts the Starborn way: by audience awareness stage, never topic pillars (\"I'm very against content pillars\"). Mix: 20% personal / 40% authority / 30% educational / 10% social proof \u2014 or",
+   "path": "skills/paolo-trivellato-lead-magnet-engine/references/prompts-v2/awareness-week-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paolo-trivellato-lead-magnet-engine",
+   "title": "Execution Prompt: Comment\u2192Email Capture Kit + Assume-the-Yes Close",
+   "gist": "You produce the complete capture operation for a live lead-magnet post: comment replies, delivery DMs with opt-in interposition, and the 3\u20135-message assume-the-yes close. Base scripts are verbatim on-screen artifacts fro",
+   "path": "skills/paolo-trivellato-lead-magnet-engine/references/prompts-v2/dm-capture-kit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paolo-trivellato-lead-magnet-engine",
+   "title": "Execution Prompt: Full Engine + 30-Day Action Plan",
+   "gist": "You assemble the complete Starborn engine for one operator/offer \u2014 the \"30-day action plan\" Paolo frames as the DIY replication of the Kyle Hunt build (calibration case: `references/kyle-hunt-case-study.md`; all numbers ",
+   "path": "skills/paolo-trivellato-lead-magnet-engine/references/prompts-v2/engine-30-day-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paolo-trivellato-lead-magnet-engine",
+   "title": "Execution Prompt: LinkedIn Engine Gap Audit",
+   "gist": "You audit a real LinkedIn presence against the 8-component Starborn spine and the Kyle before-state (\"great offer, invisible founder, zero predictable inbound\"). LENS mode: verdicts on THEIR actual material with quoted e",
+   "path": "skills/paolo-trivellato-lead-magnet-engine/references/prompts-v2/engine-gap-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paolo-trivellato-lead-magnet-engine",
+   "title": "Execution Prompt: Comment-Gated Lead Magnet Post",
+   "gist": "You execute Starborn AI's lead-magnet post method (Paolo Trivellato) \u2014 the format behind Kyle Hunt's 1,000\u20134,000-comment posts (self-reported). Three ingredients in order, then an honest FOMO stack, then a one-word comme",
+   "path": "skills/paolo-trivellato-lead-magnet-engine/references/prompts-v2/lead-magnet-post.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paolo-trivellato-lead-magnet-engine",
+   "title": "Execution Prompt: The Resource Behind the Gate",
+   "gist": "You build the resource a Starborn-style lead magnet promises: one pain, copy-paste shape, the 20% that gets 80% of the result, conversion CTAs placed by seller type. \"Nobody is going to go through 50 pages of plain text.",
+   "path": "skills/paolo-trivellato-lead-magnet-engine/references/prompts-v2/lead-magnet-resource.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paolo-trivellato-lead-magnet-engine",
+   "title": "Execution Prompt: LinkedIn Profile Rebuilt as Landing Page",
+   "gist": "You rewrite a LinkedIn profile as the funnel's landing page \u2014 the destination every post drives to. Source warning: \"a broken landing page just burns the audience you are building.\" Four elements + two conversion paths, ",
+   "path": "skills/paolo-trivellato-lead-magnet-engine/references/prompts-v2/profile-landing-page.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paolo-trivellato-lead-magnet-engine",
+   "title": "Execution Prompt: 5-Email Welcome Sequence + Weekly Rhythm",
+   "gist": "You write the email layer that turns lead-magnet subscribers into buyers: 5 welcome emails over week one, then the standing weekly rhythm. The eleven-email effect is the design target: two weeks on the list \u2248 11 emails r",
+   "path": "skills/paolo-trivellato-lead-magnet-engine/references/prompts-v2/welcome-sequence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "paolo-trivellato-lead-magnet-engine",
+   "title": "Execution Prompt: $100 Workshop \u2192 Consulting Ascension",
+   "gist": "You design the low-ticket\u2192high-ticket trust stack: a ~$100 workshop solving ONE narrow problem, engineered so the consulting upgrade sells itself in the follow-up window. Pricing logic from source: \"low enough that a qua",
+   "path": "skills/paolo-trivellato-lead-magnet-engine/references/prompts-v2/workshop-ascension-offer.md"
   },
   {
    "kind": "prompt-v2",
