@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** meg-heckman-buyer-trigger-os  
-**Full path:** .agent/handoffs/2026-07-21-meg-heckman-buyer-trigger-os.md  
-**Date:** 2026-07-21 (today)  
-**Status:** active  
-**Title:** Meg Heckman Buyer Trigger Os — Skill
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume meg-heckman-buyer-trigger-os` for this one.
-
----
-
 ---
 thread: meg-heckman-buyer-trigger-os
 status: active
@@ -25,4 +13,3 @@ pin: true
 **Artifacts:** /Users/farricecain/Google Antigravity/extractions/meg-heckman/mastery-extraction-micro-moments.md, /Users/farricecain/Google Antigravity/skills/meg-heckman-buyer-trigger-os/genius.md, /Users/farricecain/Google Antigravity/skills/meg-heckman-buyer-trigger-os/workflows/meg-micro-moments.md, /Users/farricecain/Google Antigravity/skills/meg-heckman-buyer-trigger-os/references/prompts-v2/micro-moments-install.md, /Users/farricecain/Google Antigravity/skills/meg-heckman-buyer-trigger-os/SKILL.md
 
 **Retrieve:** `/resume meg-heckman-buyer-trigger-os`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
-

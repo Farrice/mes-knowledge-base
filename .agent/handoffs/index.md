@@ -2,7 +2,8 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
-- **2026-07-21** [go/active] [Premium Arc — Pinnacle Offer Architecture (swarm research + market receipts + executor ICP integration + ladder logic + moat positioning + momentum steps)](2026-07-21-go.md) — Premium Arc — Pinnacle Offer Architecture (swarm research + market receipts + executor ICP integration + ladder logic + moat positioning + momentum steps)
+- **2026-07-21** [meg-heckman-buyer-trigger-os/active] [Meg Heckman Buyer Trigger Os — Skill](2026-07-21-meg-heckman-buyer-trigger-os.md) — Meg Heckman Buyer Trigger Os — Skill
+- **2026-07-21** [go/active] [Premium Arc offer architecture — pinnacle creative/content strategy offer (accountable single seat), 4-rung ladder atop Signal Pilot + Proof-to-Market, executor screen v2, momentum steps](2026-07-21-go.md) — Premium Arc offer architecture — pinnacle creative/content strategy offer (accountable single seat), 4-rung ladder atop Signal Pilot + Proof-to-Market, executor screen v2, momentum steps
 - **2026-07-21** [linkedin-launch/active] [Linkedin Launch — Premium Arc 2026 07 21](2026-07-21-linkedin-launch.md) — Linkedin Launch — Premium Arc 2026 07 21
 - **2026-07-21** [satori-v3/ready] [Satori Graphics — v3 Layout & Contrast Layer (forge from watched video)](2026-07-21-satori-v3.md) — Farrice blind pass on v3 sample, then /satori-frontend-flow on Proof-to-Market landing
 - **2026-07-21** [expansion-2026-07-21/active] [Expansion 2026 07 21 — Blind Pass Sample](2026-07-21-expansion-2026-07-21.md) — Expansion 2026 07 21 — Blind Pass Sample

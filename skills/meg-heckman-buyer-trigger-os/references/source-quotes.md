@@ -65,10 +65,33 @@ Verbatim anchor bank by source. Corpus: 6 videos, 13,339 words (`extractions/meg
 
 ---
 
+## Video 7: "How to Build a Cult like E-commerce Brand with Zero Followers" (gSkDBLWLfM8)
+- "Building a brand has nothing to do with being known. It is all about trust. And trust is earned in these micro moments. These tiny things that anybody can do for free starting today."
+- "A bumper sticker says how you identify on your car. A t-shirt says it on your body, but a tattoo says it forever."
+- "Nobody tattoos a discount, but people will tattoo their identity."
+- "Every reply is written for one person and it is read by hundreds of thousands of strangers deciding if you are real."
+- "The first email someone gets from you is a handshake. And most brands open that handshake with an invoice."
+- "People read what feels like it is written for them. And they delete what feels written at them."
+- "Week after week, it is about their world, not our shelf."
+- "Nobody trusts a catalog."
+- "A cult brand isn't one that you follow. It is one that you've helped build."
+- "Your customer's photo is a review with a face."
+- "You don't need 42,000 clips. You need one photo of one customer celebrated properly."
+- "Trust is rhythm. A brand is like a heartbeat. Nobody notices it until it stops."
+- "Some weeks the drop lands and nobody claps. But that doesn't matter. The drop happens anyways."
+- "That is not about hot dogs. That is about one unbroken promise being worth more than any campaign."
+- "84,000 people didn't buy from Sloth Hiking Club because we were famous. They bought because in a hundred tiny moments, we were worth trusting."
+- "They didn't bring an audience. They built one."
+
+---
+
 ## Claims Ledger (Factual Grounding labels)
 
 **UNCONFIRMED (self-reported, screenshots only — never assert as verified):**
-$1.19M/30d @14% (≈$167K profit) · $861K/30d combined · SHC $233–234K/30d @16% ($37K) · ZTSFS $627K/30d @15% ($94K) · $259,770/30d ($30K profit) · "Out of Breath" 3,714 sales vs Design A zero in 4 months · ZTSFS $640K first 6 months, $1M 2024, $1.8M 2025, $1.27M by Apr 2026 · "seven-figure brand in 13 months" · SHC launched Jan 2025 (600+ designs) · ZTSFS launched Jul 2023 (1,000+ designs) · customers buying "five, six, seven times" · "1–2 main elements account for 56% of all sales" · "$174B outdoor apparel market" · "$28B hiking gear market" · "12.6% outdoor participation growth since 2019" · "paid compounds 50× faster than organic" · "80% of purchase drive is the design."
+$1.19M/30d @14% (≈$167K profit) · $861K/30d combined · SHC $233–234K/30d @16% ($37K) · ZTSFS $627K/30d @15% ($94K) · $259,770/30d ($30K profit) · "Out of Breath" 3,714 sales vs Design A zero in 4 months · ZTSFS $640K first 6 months, $1M 2024, $1.8M 2025, $1.27M by Apr 2026 · "seven-figure brand in 13 months" · SHC launched Jan 2025 (600+ designs) · ZTSFS launched Jul 2023 (1,000+ designs) · customers buying "five, six, seven times" · "1–2 main elements account for 56% of all sales" · "$174B outdoor apparel market" · "$28B hiking gear market" · "12.6% outdoor participation growth since 2019" · "paid compounds 50× faster than organic" · "80% of purchase drive is the design." · SHC $1.7M in first 18 months · 84,000 customers ("raving fans") · 250 live designs · unprofitable first two months · "Meese" tee = #3 bestseller from a customer reply · weekly drop never missed since launch · community seller's customer tattooed their design.
+
+**LIKELY — Video 7 cited stats (she names the sources; not independently verified):**
+GetResponse: welcome emails ~84% open vs ~40% baseline · Edelman: 81% need to trust a brand before buying · Nielsen: 92% trust recommendations from people over ads · Sprout Social: ~half of shoppers want to buy from brands that respond on socials · IKEA effect (Journal of Consumer Research identity-signaling study) · Lego Ideas: 10,000 votes -> production + fan royalty · GoPro Million Dollar Challenge: 42,000+ clips · Costco hot dog $1.50 since 1985 (founder "I will kill you" quote — shown on screen via press article) · Trader Joe's Fearless Flyer since 1969.
 
 **LIKELY (consistent with published data; she cites no sources):**
 50ms first-impression research · 41% US hiking participation (~130M) · orienting response as involuntary neurological reflex · shipping tiers $4.75/$1.99 (supplier-specific) · 48h Meta ad learning window.

@@ -1,11 +1,11 @@
 {
-  "generated": "2026-07-21T13:49:49.261096",
-  "total_files": 722,
-  "total_words": 2807423,
-  "total_tokens_est": 3733872,
+  "generated": "2026-07-21T13:59:25.623929",
+  "total_files": 723,
+  "total_words": 2809724,
+  "total_tokens_est": 3736932,
   "stale_files_30d": 455,
   "domains": {
-    "content": 250,
+    "content": 251,
     "copywriting": 102,
     "general": 91,
     "strategy": 76,
@@ -1977,11 +1977,11 @@
       "parent": "knowledge",
       "domain": "content",
       "expert": null,
-      "word_count": 4919,
-      "modified": "2026-07-21T09:33:38.119556",
+      "word_count": 4924,
+      "modified": "2026-07-21T13:58:57.085282",
       "age_days": 0,
-      "size_bytes": 84622,
-      "content_hash": "edb4a0a2",
+      "size_bytes": 84739,
+      "content_hash": "fe63ebce",
       "has_frontmatter": false
     },
     {
@@ -1990,10 +1990,10 @@
       "parent": "knowledge",
       "domain": "general",
       "expert": null,
-      "word_count": 14033,
-      "modified": "2026-07-21T13:49:48.957196",
+      "word_count": 14118,
+      "modified": "2026-07-21T13:59:25.307868",
       "age_days": 0,
-      "size_bytes": 109929,
+      "size_bytes": 110594,
       "content_hash": "5a51f947",
       "has_frontmatter": false
     },
@@ -5610,6 +5610,19 @@
       "size_bytes": 1294,
       "content_hash": "2165d8e6",
       "has_frontmatter": true
+    },
+    {
+      "path": "extractions/meg-heckman/mastery-extraction-micro-moments.md",
+      "name": "mastery-extraction-micro-moments",
+      "parent": "meg-heckman",
+      "domain": "content",
+      "expert": null,
+      "word_count": 2211,
+      "modified": "2026-07-21T13:51:49.391409",
+      "age_days": 0,
+      "size_bytes": 14088,
+      "content_hash": "a8dd0e83",
+      "has_frontmatter": false
     },
     {
       "path": "extractions/meg-heckman/mastery-extraction.md",

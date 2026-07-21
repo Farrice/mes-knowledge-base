@@ -1,10 +1,10 @@
 ---
 name: "Meg Heckman — Buyer-Trigger OS (Merch, POD & Product Purchase Psychology)"
-description: "Purchase-trigger psychology for physical/visual products from the operator behind Sloth Hiking Club — the layer where the PRODUCT ITSELF is the conversion mechanism. 16 genius patterns and 12 workflows spanning her 4-layer system: market selection (saturation = demand proof, sub-identity gap), design triggers (6-trigger model, mirror-vs-poster, 50ms gate, familiar/twist), the factory loop (generate→test→scale-or-cut→email→repeat), and funnel diagnostics (6 metrics as single questions with kill/scale thresholds). Built for T-shirt/apparel/POD/dropshipping/merch drops AND cross-vertical trigger transfer to offers, headlines, landing pages, and content hooks. Powers the /merch-os orchestrator."
-version: "1.0"
+description: "Purchase-trigger psychology for physical/visual products from the operator behind Sloth Hiking Club — the layer where the PRODUCT ITSELF is the conversion mechanism. 23 genius patterns and 13 workflows spanning her 5-layer system: market selection (saturation = demand proof, sub-identity gap), design triggers (6-trigger model, mirror-vs-poster, 50ms gate, familiar/twist, tattoo test), the factory loop (generate→test→scale-or-cut→email→repeat), funnel diagnostics (6 metrics as single questions with kill/scale thresholds), and the trust layer (7 micro-moments: brand-voice replies, give-before-ask welcome, customer-life emails, co-creation, customer features, never-skip-a-week rhythm). Built for T-shirt/apparel/POD/dropshipping/merch drops AND cross-vertical trigger transfer to offers, headlines, landing pages, and content hooks. Powers the /merch-os orchestrator."
+version: "1.1"
 format: "completion-engine"
-workflows: 12
-extracted_from: "6 Meg Heckman videos (13,339 words + 240 frames, 2026) — multi-source forge; supersedes Codex light skill, vocabulary contract preserved"
+workflows: 13
+extracted_from: "7 Meg Heckman videos (~19,300 words + 275 frames, 2026) — multi-source forge; supersedes Codex light skill, vocabulary contract preserved; v1.1 adds the trust/micro-moments layer (gSkDBLWLfM8)"
 orchestrator: "/merch-os"
 tier: system
 ---
@@ -34,6 +34,7 @@ Deploy the thinking of an operator who built a claimed seven-figure POD brand in
 | `/meg-funnel-doctor` | [Funnel Doctor](workflows/meg-funnel-doctor.md) | Stage-isolated diagnosis from 6 metrics + the ONE fix per failing stage | Store revenue leaking; "ads aren't working"; ROAS panic |
 | `/meg-factory-loop` | [Factory Loop](workflows/meg-factory-loop.md) | The 5-step operating cadence installed: volume targets, 48h tests, kill/scale rules, email rhythm | A brand needs an operating system, not another tactic |
 | `/meg-aov-architect` | [AOV Architect](workflows/meg-aov-architect.md) | Collection-cohesion plan + shipping-arbitrage bundle logic | Margin thin; AOV below target; before installing upsell apps |
+| `/meg-micro-moments` | [Micro-Moments Install](workflows/meg-micro-moments.md) | 7-moment trust audit + 3 shipped artifacts (welcome email, customer-life email, co-creation ask, spotted feature, comment-voice card, drop calendar) in the brand's named-human voice | Zero-audience launch, dark-period recovery, or flat list engagement despite a converting product |
 
 ### Tier 3 — Cross-domain (stacking & transfer)
 | Command | Workflow | Produces | Use When |
@@ -82,7 +83,7 @@ Inverting the order — execution before trigger validation — produces beautif
 
 ## Execution Prompts (structure-pure v2)
 
-12 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+13 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Meg Heckman — 50ms Gate** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/50ms-gate.md`
 - **Meg Heckman — AOV Architect** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/aov-architect.md`
@@ -92,6 +93,7 @@ Inverting the order — execution before trigger validation — produces beautif
 - **Meg Heckman — Factory Loop** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/factory-loop.md`
 - **Meg Heckman — Funnel Doctor** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/funnel-doctor.md`
 - **Meg Heckman — Listing Copy** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/listing-copy.md`
+- **Meg Heckman — Micro-Moments Install** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/micro-moments-install.md`
 - **Meg Heckman — Store Stack** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/store-stack.md`
 - **Meg Heckman — Sub-Identity Map** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/sub-identity-map.md`
 - **Meg Heckman — Trigger Audit** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/trigger-audit.md`

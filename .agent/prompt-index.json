@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7255,
+ "count": 7256,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -15338,6 +15338,13 @@
    "title": "Meg Heckman \u2014 Listing Copy",
    "gist": "You are writing emotion-first product listing copy the way Meg Heckman writes it \u2014 a design can survive her audit, pass the 50ms gate, score a LEAD, and still die on a product page that opens with \"100% ring-spun cotton,",
    "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/listing-copy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "meg-heckman-buyer-trigger-os",
+   "title": "Meg Heckman \u2014 Micro-Moments Install",
+   "gist": "You are running Meg Heckman's trust layer \u2014 the seven micro-moments that took Sloth Hiking Club from zero followers (launched January 2025, nobody knew the brand) to a claimed $1.7M in 18 months and 84,000 customers (UNC",
+   "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/micro-moments-install.md"
   },
   {
    "kind": "prompt-v2",

@@ -228,7 +228,7 @@
 | `matthew-lakajev-linkedin` | **matthew-lakajev-linkedin** | matthew lakajev's linkedin-to-revenue system — offer viability testing, category-of-one niching, language mirroring | 3 | 0 |
 | `matthew-volkwyn-copywriting` | **matthew-volkwyn-copywriting** | dual-lens hooks, named close archive, voice trinity | 3 | 0 |
 | `mcp-builder` | **mcp-builder** | use when building mcp servers to integrate external apis or services, whether in python (fastmcp) or node/typescript (mcp sdk) | 0 | 0 |
-| `meg-heckman-buyer-trigger-os` | **Meg Heckman — Buyer-Trigger OS (Merch, POD & Product Purchase Psychology)** | powers the /merch-os orchestrator, buyer-trigger os | 13 | 0 |
+| `meg-heckman-buyer-trigger-os` | **Meg Heckman — Buyer-Trigger OS (Merch, POD & Product Purchase Psychology)** | powers the /merch-os orchestrator, buyer-trigger os | 14 | 0 |
 | `michael-bernoff-identity-engineering` | **Michael Bernoff Identity Engineering** | identity engineering and communication mastery frameworks for transforming pr... | 4 | 14 |
 | `michael-connelly-vivid-writing` | **Michael Connelly Vivid Writing** | momentum prose, character-through-everything, subtext dialogue | 16 | 0 |
 | `michael-israetel-hypertrophy` | **michael-israetel-hypertrophy** | mike israetel / renaissance periodization hypertrophy science — needs analysis, volume landmarks (mev/mav/mrv), mesocycle + deload design | 3 | 0 |

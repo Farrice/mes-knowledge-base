@@ -1,12 +1,13 @@
 # Knowledge Briefing
-*Generated: 2026-07-21 | 722 sources | 2,807,423 words*
+*Generated: 2026-07-21 | 723 sources | 2,809,724 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 4,919 words — `knowledge/index.md`
-- **log** (general) — 14,033 words — `knowledge/log.md`
+- **index** (content) — 4,924 words — `knowledge/index.md`
+- **log** (general) — 14,118 words — `knowledge/log.md`
+- **mastery-extraction-micro-moments** (content) — 2,211 words — `extractions/meg-heckman/mastery-extraction-micro-moments.md`
 - **extraction-report** (content [lara-acosta]) — 3,063 words — `extractions/paolo-trivellato/extraction-report.md`
 - **vision** (screenwriting) — 445 words — `extractions/paolo-trivellato/vision.md`
 - **blind-pass-generated-01** (strategy) — 193 words — `extractions/paolo-trivellato-lead-magnet-engine/blind-pass-generated-01.md`
@@ -14,13 +15,12 @@
 - **extraction-report-link** (content [lara-acosta]) — 3,063 words — `extractions/paolo-trivellato-lead-magnet-engine/extraction-report-link.md`
 - **starbornai-site-copy** (copywriting) — 1,011 words — `extractions/paolo-trivellato-lead-magnet-engine/reference-corpus/starbornai-site-copy.md`
 - **x-post-inbound-outbound-system** (content) — 630 words — `extractions/paolo-trivellato-lead-magnet-engine/reference-corpus/x-post-inbound-outbound-system.md`
-- **extraction-report** (content [nick-saraev]) — 2,895 words — `extractions/ray-amjad/extraction-report.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 250 | lara-acosta |
+| content | 251 | lara-acosta |
 | copywriting | 102 | luke-iha |
 | general | 91 | nick-saraev |
 | strategy | 76 | april-dunford |

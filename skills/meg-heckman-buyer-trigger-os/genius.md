@@ -21,18 +21,19 @@ Specifically:
 
 "You can't hack the mechanics, but you can hack the mind." A basic product becomes a real brand when it lets one specific person feel seen fast enough to buy on emotion and justify with logic afterward. The product is not merchandise — it is a sentence the buyer says about themselves. Everything else (store, ads, email, testing) exists to support the feeling the product creates; if the product creates no feeling, every other layer has to work harder.
 
-**Provenance**: 6 videos, 13,339 words, 240 frames (`extractions/meg-heckman/`). Brands: Sloth Hiking Club, Zero to Seven Figure Store. ALL her revenue figures are self-reported and labeled UNCONFIRMED — deploy her METHOD, never assert her numbers as verified fact. Full ledger: `references/source-quotes.md`.
+**Provenance**: 7 videos, ~19,300 words, 275 frames (`extractions/meg-heckman/`). Brands: Sloth Hiking Club, Zero to Seven Figure Store. ALL her revenue figures are self-reported and labeled UNCONFIRMED — deploy her METHOD, never assert her numbers as verified fact. Full ledger: `references/source-quotes.md`.
 
-## The 4-Layer System
+## The 5-Layer System
 
 | Layer | Question | Core mechanics | Workflows |
 |---|---|---|---|
 | **1. MARKET** | Where do I play? | Saturation = demand proof · sub-identity gap · belonging communities | `meg-sub-identity-map` |
-| **2. DESIGN** | What makes them buy? | 6 triggers · mirror-vs-poster · 50ms gate · familiar/twist · layered emotion | `meg-concept-sprint`, `meg-trigger-audit`, `meg-50ms-gate` |
+| **2. DESIGN** | What makes them buy? | 6 triggers · mirror-vs-poster · 50ms gate · familiar/twist · layered emotion · tattoo test | `meg-concept-sprint`, `meg-trigger-audit`, `meg-50ms-gate` |
 | **3. FACTORY** | How does it compound? | 5-step loop · design volume math · paid tests · email = pre-paid traffic | `meg-factory-loop`, `meg-aov-architect` |
 | **4. DIAGNOSTICS** | Why isn't it profitable? | 6 metrics as single questions · symptom displacement · presentation/product split | `meg-funnel-doctor` |
+| **5. TRUST** | Why do they come back and bring friends? | 7 micro-moments · trust ladder · reply-as-R&D · weekly rhythm | `meg-micro-moments` |
 
-Sequence is non-negotiable: market before design, design before volume, volume before diagnosis. A perfect funnel cannot save a poster.
+Sequence is non-negotiable: market before design, design before volume, volume before diagnosis. A perfect funnel cannot save a poster. Trust (Layer 5) runs PARALLEL from day one — its first moment (tattoo test) fires inside Layer 2, and its rhythm moment is what keeps every other layer believable.
 
 ## The Six Buyer Triggers (vocabulary contract — production names)
 
@@ -50,6 +51,7 @@ Sequence is non-negotiable: market before design, design before volume, volume b
 - **Conceptual Interrupt (Orienting Response)** — the surprise lives in the IDEA, not visual chaos; execution still belongs in the niche's visual world. "The interrupt has to lead somewhere... it's the door. It's not the room." Anti-case: AI 27-finger weirdness — attention with confusion buys nothing.
 - **Layered Emotion** — humor alone is surface. "Funny and it belongs and it's pride all layered together" → "I need to own that." Humor acquires; belonging + pride retain.
 - **Evergreen Bias** — self-deprecating/personality-trait humor doesn't expire; trend-reference humor spikes and dies.
+- **The Tattoo Test** (Video 7 sharpening of Identity Signal) — before any design goes live: "Would our customer tattoo this on their body?" Escalation ladder: "A bumper sticker says how you identify on your car. A t-shirt says it on your body, but a tattoo says it forever." Operational form: finish the sentence *"My customer is the person who ___"* — if the design can't finish it, don't make it. "Nobody tattoos a discount, but people will tattoo their identity." (Real bar: a community seller's customer tattooed the brand's design.)
 
 ## Market Mechanics (Layer 1)
 
@@ -85,6 +87,24 @@ Each metric is ONE question about ONE human behavior, mapped to ONE stage fix. H
 - **The mockup swap** — same design, different presentation, retest: "the CPCs immediately started to come down. That told us the issue was not Meta... it was our presentation." One variable at a time.
 - **AOV is where the margin lives** — shipping arbitrage ("$4.75 for the first item, then $1.99 for the second") means catalog cohesion (designs people naturally buy together) beats upsell funnels for newer stores.
 
+## Trust Mechanics (Layer 5 — the Seven Micro-Moments, Video 7)
+
+"Building a brand has nothing to do with being known. It is all about trust. And trust is earned in these micro moments. These tiny things that anybody can do for free starting today." All seven cost $0, work at subscriber #1, and run in customer-lifecycle order — a trust LADDER, not a list. Claimed proof: Sloth Hiking Club, launched Jan 2025 with zero audience → $1.7M / 18 months, 84,000 customers (UNCONFIRMED, self-reported).
+
+1. **Tattoo Test** (pre-product — see Design Mechanics above). The design itself is the first trust artifact: "the shirt does the talking."
+2. **Reply to every ad comment in brand voice** (pre-purchase). Farmers-market frame: two stalls, same product — one vendor silent, one mid-conversation laughing; "you already know which line you are joining." Mechanism: "Every reply is written for one person and it is read by hundreds of thousands of strangers deciding if you are real." Side effect: engaged ads get platform-rewarded → cheaper to run. Move: reply to every comment from the last week AS the brand (defined voice; LLMs make it copy-paste cheap).
+3. **Give before you ask** (the welcome email). "The first email someone gets from you is a handshake. And most brands open that handshake with an invoice." It's the most-read email you'll ever send (~84% open vs ~40% baseline — GetResponse, LIKELY) and most brands waste it. The 3-line rewrite: deliver what you promised (discount instantly, no games) · say hi like a human (it talks like co-founder Eric actually talks) · ask one small niche question they'll want to answer. Asks for nothing except a reply.
+4. **Write emails about their life, not your product.** The March email: "Can we talk about the drive home after a hike?" — dead-silent first 5 minutes, jelly legs, the smell, McDonald's on the highway after you swore you'd eat clean; product enters in the last line. "People read what feels like it is written for them. And they delete what feels written at them." It's a system: ranked everything that ruins a hike, "the lies every hiker tells." "Week after week, it is about their world, not our shelf." Precedent: Trader Joe's Fearless Flyer since 1969; Edelman 81% trust-before-buy (LIKELY).
+5. **Let customers write the products with you.** "Need your help" email → reply ("the plural of moose should be meese") → the Meese tee → #3 bestseller (claimed). Mechanism: IKEA effect (Lego Ideas royalty model). The standing template: ask what belongs on a tee that doesn't exist yet, give 3 example lanes, promise a free one if it ships, "hit reply." Move: end the next email with one question; "when a reply makes you laugh out loud, build it," send that customer one free. **"A cult brand isn't one that you follow. It is one that you've helped build."**
+6. **Feature your customers, not your products.** "Sloths have been spotted" email: real customers in tees on real trails — "You wore them, we noticed. Tag us and you'll be featured next." "Your customer's photo is a review with a face" (Nielsen 92%, LIKELY; GoPro's 42k-clip challenge as the giant-brand anchor). "You don't need 42,000 clips. You need one photo of one customer celebrated properly."
+7. **Never skip a week.** "Trust is rhythm. A brand is like a heartbeat. Nobody notices it until it stops." Weekly drop, zero missed weeks since launch — including weeks "the drop lands and nobody claps. But that doesn't matter. The drop happens anyways." → 250 live designs (claimed) by compounding. Anchor: Costco's $1.50 hot dog since 1985 — "one unbroken promise being worth more than any campaign." A dark store reads abandoned: "Would you put your credit card into an abandoned store?" This moment can quietly kill the other six.
+
+Trust-layer operating notes:
+- **Reply-as-R&D** — email isn't just pre-paid traffic (Layer 3); every reply is free research from the exact buyer. The ask→reply→product loop is how the catalog compounds without a creative team. During the unprofitable first two months ("talking to a canyon"), the replies were what pulled them through.
+- **Named human voice** — every artifact is signed by a person ("Eric, Founder"; comments signed "-Eric"). Brand voice = a person's voice, not a persona doc.
+- **One reader, mass audience** — write to one person; thousands of strangers read it deciding if you're real. The intimacy IS the broadcast strategy.
+- **Consistency beats reception** — ship when nobody claps. A no-name brand earns realness by being watched showing up again and again: "They didn't bring an audience. They built one."
+
 ## Hidden Knowledge (the apprenticeship layer)
 
 1. **Craft quality inversely predicts POD conversion** — "As a piece of art, design A is the better design... wins every [design competition]." It sold zero. Optimizing for beauty produces posters.
@@ -106,6 +126,10 @@ Each metric is ONE question about ONE human behavior, mapped to ONE stage fix. H
 2. **Sloth Hiking Club** — sub-identity architecture: saturated niche entered on purpose, ignored person found (casual hiker), interrupt embedded in the brand name itself. "In 13 months... a seven-figure brand" (claimed).
 3. **"I survived a 30-minute hike"** — layered emotion: funny + belongs + pride → "I need to own that... It's their joke about their identity." (Versus "I'd rather be hiking" — surface amusement, scroll past.)
 4. **The Mockup Swap** — diagnostic discipline: one variable isolated, presentation vs product, before blaming the platform.
+
+5. **The "drive home after a hike" email** (Video 7, on screen ~7:45) — full-length plain-text story email, zero product until the tee line at the end, signed "Eric, Founder." Second-person lived-moment narration: "Then the smell hit. Windows go all the way down. Nobody says a word. Everyone knows." The Layer-5 calibration anchor for customer-life emails.
+6. **The "Need your help Megan?" email** (Video 7, on screen ~10:20) — the reusable co-creation template: moose backstory → open question ("What belongs on a tee that doesn't exist yet?") → 3 example lanes ("dumb phrases / something relatable / animals getting up to stuff") → "doesn't need to be a finished idea" → free-tee promise → "Hit reply" → founder signature. Its output became the #3 bestseller (claimed).
+7. **"-Eric" comment replies** (Video 7, on screen ~3:44) — "Stop making cute shirts! I have at least 8 of them already 😂" → "We refuse! 😤 Thanks for giving so many of our shirts a home." Banter that matches the customer's energy; not a support desk.
 
 **Anti-Exemplar — The Decoration Design**: perfectly executed, no trigger. Broad framing ("everyone who enjoys nature"), 3+ focal points, trend humor, validated by pointing at an existing bestseller ("a weaker version of the same thing to a fight that you can't win"). Produces "that's nice" — and **"Nice doesn't open the wallet."**
 
@@ -164,6 +188,10 @@ First 8 = production vocabulary from Josh's scorecard — names are frozen.
 - Quote her thresholds as universal laws (they are POD/Meta 2026 calibration defaults) — per `references/source-quotes.md` § Claims Ledger, LIKELY band: "shipping tiers $4.75/$1.99 (supplier-specific)," "48h Meta ad learning window" — category- and platform-specific, not universal.
 - Assert her revenue claims as verified fact (always UNCONFIRMED, self-reported) — per `references/source-quotes.md` § Claims Ledger, UNCONFIRMED band: every dollar figure ($1.19M/30d, $861K/30d, "3,714 sales," "seven-figure brand in 13 months") is self-reported, screenshot-only, never independently verified.
 - Interrupt without delivery — the door must lead to a room — "The interrupt has to lead somewhere, to an identity signal or an emotional connection, because that's the door. It's not the room." (Video 3, iFvHwZBIwoA)
+- Open the handshake with an invoice — welcome email as logo + coupon + "a shop now button the size of a house." The most-read email you'll ever send, wasted on a transaction. (Video 7, gSkDBLWLfM8; `extractions/meg-heckman/transcript-cult-brand-zero-followers.txt`)
+- Write emails AT the reader — catalog/shelf emails. "People read what feels like it is written for them. And they delete what feels written at them." "Nobody trusts a catalog." (Video 7, gSkDBLWLfM8)
+- Go dark for a month, reappear with a sale — "A brand is like a heartbeat. Nobody notices it until it stops." Rhythm broken = abandoned store = credit card stays in the pocket. (Video 7, gSkDBLWLfM8)
+- Skip the drop because nobody clapped last week — reception is not the trigger; the calendar is. (Video 7, gSkDBLWLfM8)
 
 ## Voice DNA (when writing as/for her system)
 
