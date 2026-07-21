@@ -1,5 +1,5 @@
 {
-  "ts": "2026-07-21T09:02:28",
+  "ts": "2026-07-21T09:33:14",
   "date": "2026-07-21",
   "deep": false,
   "context_injection": {
@@ -16,27 +16,27 @@
     "workflows": 1786,
     "agents": 229,
     "directives": 89,
-    "execution_scripts": 345,
-    "verify_scripts": 86,
+    "execution_scripts": 331,
+    "verify_scripts": 72,
     "hooks": 14,
     "solution_cards": 45
   },
   "tmp": {
-    "bytes": 54461300,
+    "bytes": 54469302,
     "files": 3007
   },
   "ledgers": {
-    "observe_log_bytes": 4586591,
+    "observe_log_bytes": 4587342,
     "steering_observe_bytes": 7747,
-    "missions_bytes": 38154,
+    "missions_bytes": 40089,
     "content_finish_bytes": 61578
   },
   "git": {
-    "remote_branches": 8,
+    "remote_branches": 9,
     "stashes": 0,
-    "dirty_files": 73
+    "dirty_files": 35
   },
-  "active_stale_files_60d": 720,
+  "active_stale_files_60d": 726,
   "hooks_config": {
     "hash": "a2eedacc58a8a578",
     "baseline_hash": "5f75547330940713",
@@ -47,8 +47,8 @@
     }
   },
   "pending_review": {
-    "pending": 14,
-    "approved": 0,
+    "pending": 0,
+    "approved": 14,
     "rejected": 0
   },
   "governance": {
@@ -165,27 +165,25 @@
     },
     "com.antigravity.verify-fleet": {
       "weekly": true,
-      "log_age_days": 2.1,
+      "log_age_days": 2.2,
       "last_exit": 1,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/health/fleet.log"
     }
   },
   "verify_fleet": {
-    "ts": "2026-07-21T09:01:52",
+    "ts": "2026-07-21T09:32:46",
     "age_days": 0.0,
-    "failing": 14,
-    "total": 86
+    "failing": 0,
+    "total": 72
   },
   "flags": [
     "routine com.antigravity.citation-integrity: last exit 1 \u2014 failing unwatched; check /Users/farricecain/Google Antigravity/.agent/citation-integrity.log",
     "routine com.antigravity.verify-fleet: last exit 1 \u2014 failing unwatched; check /Users/farricecain/Google Antigravity/.agent/health/fleet.log",
     "hook config drifted vs blessed baseline \u2014 diff .claude/settings.json, then delete .agent/health/hooks-baseline.json to re-bless deliberately",
-    "_active/ holds 720 files >60d old \u2014 archive candidates accrue in pending-review; approving keeps _active meaning 'active'",
-    "14 removal proposal(s) awaiting your yes \u2014 .agent/health/pending-review.md",
+    "_active/ holds 726 files >60d old \u2014 archive candidates accrue in pending-review; approving keeps _active meaning 'active'",
     "SLASH_COMMANDS.md at 401KB \u2014 index bloat; trim descriptions or split before it degrades routing loads",
     "launchd com.antigravity.outcome-chase: no log evidence at all \u2014 job may never have run; `launchctl list com.antigravity.outcome-chase` to confirm",
     "launchd com.antigravity.social-pulse-jen: no log evidence at all \u2014 job may never have run; `launchctl list com.antigravity.social-pulse-jen` to confirm",
-    "launchd com.antigravity.social-pulse-mybpm: no log evidence at all \u2014 job may never have run; `launchctl list com.antigravity.social-pulse-mybpm` to confirm",
-    "verifier fleet: 14/86 failing (run 2026-07-21) \u2014 each is a contract the system claims to hold; triage in weekly closeout"
+    "launchd com.antigravity.social-pulse-mybpm: no log evidence at all \u2014 job may never have run; `launchctl list com.antigravity.social-pulse-mybpm` to confirm"
   ]
 }

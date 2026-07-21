@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-21** [satori-v3/ready] [Satori Graphics — v3 Layout & Contrast Layer (forge from watched video)](2026-07-21-satori-v3.md) — Farrice blind pass on v3 sample, then /satori-frontend-flow on Proof-to-Market landing
 - **2026-07-21** [expansion-2026-07-21/active] [Expansion 2026 07 21 — Blind Pass Sample](2026-07-21-expansion-2026-07-21.md) — Expansion 2026 07 21 — Blind Pass Sample
 - **2026-07-21** [satori-v3-layout-contrast/active] [Satori v3 — Layout & Contrast Layer (forge from watched video)](2026-07-21-satori-v3-layout-contrast.md) — Date: 2026-07-21 · Session type: /watch + /extract-forge expansion · Status: SHIPPED
 - **2026-07-21** [ray-amjad-agentic-ladder/active] [Ray Amjad Agentic Ladder — Genius](2026-07-21-ray-amjad-agentic-ladder.md) — Ray Amjad Agentic Ladder — Genius

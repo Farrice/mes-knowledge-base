@@ -1,13 +1,13 @@
 # Skill Evolution Candidates
 
-Generated: 2026-07-21T08:32:04
+Generated: 2026-07-21T09:21:45
 
 ## Summary
 
 - Ready: 0
 - Watchlist: 350
 - Blocked: 48
-- Local performance entries: 79
+- Local performance entries: 80
 - Inbox drafts excluded: 9
 
 ## Ready Candidates
