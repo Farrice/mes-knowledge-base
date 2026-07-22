@@ -14,6 +14,11 @@
 | Start any layout with a committed journey (hook/secondary/finisher) | [Satori v3 Layout & Contrast Layer](2026-07-21-satori-v3.md) |
 | Fix "clean but flat/generic" AI design via the 9-form contrast stack | [Satori v3 Layout & Contrast Layer](2026-07-21-satori-v3.md) |
 | Structure a non-generic landing/product page before build (beat maps, behavioral contrast) | [Satori v3 Layout & Contrast Layer](2026-07-21-satori-v3.md) |
+| **LinkedIn lead gen / conversion backend (Paolo Trivellato)** | |
+| Build a full LinkedIn lead-magnet→revenue engine for a boring B2B offer | [Paolo Trivellato Lead Magnet Engine](2026-07-21-paolo-lead-magnet-engine.md) |
+| Write a comment-gated lead-magnet post + the resource behind it | [Paolo Trivellato Lead Magnet Engine](2026-07-21-paolo-lead-magnet-engine.md) |
+| Turn comments into emails + booked calls (DM scripts, assume-the-yes close) | [Paolo Trivellato Lead Magnet Engine](2026-07-21-paolo-lead-magnet-engine.md) |
+| Design a $100-workshop → consulting ascension | [Paolo Trivellato Lead Magnet Engine](2026-07-21-paolo-lead-magnet-engine.md) |
 | **SEO / AEO / AI search visibility (Nathan Gotch)** | |
 | Diagnose why AI doesn't recommend a brand that ranks fine in Google | [Nathan Gotch Forge](2026-07-19-nathan-gotch-forge.md) |
 | Build a one-day category strategy (90-180 day push) | [Nathan Gotch Forge](2026-07-19-nathan-gotch-forge.md) |
@@ -89,6 +94,7 @@
 
 *(newest first)*
 
+- 2026-07-21 — [Paolo Trivellato Lead Magnet Engine](2026-07-21-paolo-lead-magnet-engine.md) — forge from 2 frame-watched videos: 11 /pt-* workflows + 9 prompts; the LinkedIn conversion backend (comment→DM→email→workshop ascension); A-tier awaits Farrice blind pass
 - 2026-07-21 — [Satori v3 Layout & Contrast Layer](2026-07-21-satori-v3.md) — layout/composition anti-generic machinery from the first WATCHED Satori source: three-flow spine, 9-form contrast stack, /satori-frontend-flow bridge
 - 2026-07-19 — [Nathan Gotch Forge](2026-07-19-nathan-gotch-forge.md) — operational AI SEO layer from the JerkyGent teardown: 9 workflows, first primary Gotch source, counted-citation diagnosis doctrine
 - 2026-07-15 — [Tommy Clark LinkedIn OS](2026-07-15-tommy-clark-2026.md) — 2026 Three-Moat expansion: uncopyable-post filter, TLA engine + edit-post CTA, data/physical moats
