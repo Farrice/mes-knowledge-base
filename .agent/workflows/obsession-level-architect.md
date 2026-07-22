@@ -17,3 +17,5 @@ Deploy Kallaway's Audience Obsession Engineering to create content at a specific
 - **Obsession level**: Level 1 (Signal), Level 2 (Belief), or Level 3 (Action)
 - **Content format**: Blog, script, email, social, sales page, etc.
 - **Topic**: What is this content about?
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-audience-obsession/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

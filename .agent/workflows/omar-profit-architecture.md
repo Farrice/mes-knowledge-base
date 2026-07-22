@@ -15,3 +15,5 @@ This is Omar Eddaoudi's foundation operational workflow — the spreadsheet lock
 **Use when**: New brand pre-launch, scale-phase planning, stuck-brand diagnostic, client engagement viability check.
 
 ARGUMENTS: $ARGUMENTS
+
+**Execution prompts**: before producing the deliverable, check `skills/omar-eddaoudi-scaling-ops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

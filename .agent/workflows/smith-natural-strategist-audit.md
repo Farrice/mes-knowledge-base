@@ -37,3 +37,5 @@ The skill carries:
 - After audit, route to the lowest-scoring dimension's deep workflow (`/smith-supply-side-audit`, `/smith-sacred-truth-inventory`, `/smith-big-fat-thing`, or `/smith-value-creation-audit`)
 - After dimension fix, return here for re-audit
 - For execution after audit: `/brief` to convert findings into strategic brief
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-m-smith-natural-strategy/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

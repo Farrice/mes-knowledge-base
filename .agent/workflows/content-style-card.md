@@ -27,3 +27,5 @@ Follow the workflow in `02-content-style-card.md` using the loaded genius contex
 
 ### 3. Save Output
 Save the style card to `.tmp/kieran-flanagan/style-card-[platform].md`.
+
+**Execution prompts**: before producing the deliverable, check `skills/kieran-flanagan-audience-intelligence/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

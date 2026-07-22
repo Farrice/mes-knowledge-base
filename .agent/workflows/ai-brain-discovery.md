@@ -47,3 +47,5 @@ Present the complete Discovery output:
 ### 6. Save to Working Directory
 
 Save the discovery output to `_active/ai-brain/[client-or-business-name]/discovery.md` for use by subsequent workflows.
+
+**Execution prompts**: before producing the deliverable, check `skills/liam-mley-ai-brain-builder/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

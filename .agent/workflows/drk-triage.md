@@ -16,3 +16,5 @@ description: Determine if distress needs clinical support, existential guidance,
    - Phase 4: Intervention Routing (clinical referral, existential coaching, or dual-track)
 5. Output the Triage Assessment with clear recommendations
 6. Run quality gate — MUST include clinical referral disclaimer
+
+**Execution prompts**: before producing the deliverable, check `skills/dr-k-consciousness/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

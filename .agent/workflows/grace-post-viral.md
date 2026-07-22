@@ -77,3 +77,5 @@ If the autopsy reveals audience dilution or trust damage (Response C):
    - Verify autopsy is data-driven, not emotional
    - Verify recovery plan (if needed) targets existing audience, not new audience
    - Verify no strategy distortion from come-down tax
+
+**Execution prompts**: before producing the deliverable, check `skills/grace-andrews-media-company/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

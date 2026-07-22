@@ -4,6 +4,11 @@ description: Menu-only backend that turns a live goal into ranked execution opti
 
 # /orchestrate - Antigravity Execution Menu
 
+> **Front door = /go (v3, 2026-07-21, Farrice decision).** /go now calls this
+> workflow's engines (expert_router, recommend_stack, state reads) inside its
+> Stage -1/0.2. Invoke /go for missions; keep /orchestrate only when a ranked
+> menu — with no execution — is itself the deliverable.
+
 Turn a live goal, messy work context, or "what should I do next?" moment into a ranked execution menu. This is a menu-only backend for comparing options, not the front door for chosen-route execution.
 
 If the user wants raw context to become verified intent, a chosen route, and safe-run execution after trace, route them to `/autopilot`. Keep `/orchestrate` only for moments where a ranked Execution Menu is the desired output.

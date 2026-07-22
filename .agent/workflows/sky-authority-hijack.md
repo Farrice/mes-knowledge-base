@@ -12,3 +12,5 @@ Read and execute the full workflow: `skills/sky-tan-format-engine/workflows/auth
 ```
 /sky-authority-hijack [creator] [niche] [offer] [revered authorities/keywords]
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/sky-tan-format-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

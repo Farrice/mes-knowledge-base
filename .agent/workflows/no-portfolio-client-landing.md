@@ -34,3 +34,5 @@ python3 execution/chain_runner.py finalize "No-portfolio client landing strategy
     --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "5 strategies ranked and customized to user situation"
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-client-acquisition/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

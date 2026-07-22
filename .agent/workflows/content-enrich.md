@@ -26,3 +26,5 @@ Follow the workflow in `03-content-enrich.md` using the loaded genius context.
 
 ### 3. Save Output
 Save enriched content to `.tmp/kieran-flanagan/enriched-[original-name].md`.
+
+**Execution prompts**: before producing the deliverable, check `skills/kieran-flanagan-content-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

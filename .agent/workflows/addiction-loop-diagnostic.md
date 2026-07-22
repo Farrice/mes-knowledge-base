@@ -20,3 +20,5 @@ Addiction Loop Audit Report — executive verdict (vending machine vs slot machi
 ## Stacks With
 → `/flat-to-addictive-rewrite` (fix what the diagnostic finds)
 → `/loop-density-optimizer` (compress after fixing)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-addictive-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

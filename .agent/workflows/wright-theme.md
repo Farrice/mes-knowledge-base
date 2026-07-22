@@ -19,3 +19,5 @@ Establish the invisible thematic force that organizes structure, scene selection
    - Step 4: Build the Compass Rose
 
 3. Run Quality Gate on the output.
+
+**Execution prompts**: before producing the deliverable, check `skills/wright-thompson-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

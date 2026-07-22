@@ -43,3 +43,5 @@ Before delivering, verify:
 
 ## Output
 A complete Campaign Architecture document with concepts across all three layers, measurement framework, and edition potential.
+
+**Execution prompts**: before producing the deliverable, check `skills/greg-hoffman-brand-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

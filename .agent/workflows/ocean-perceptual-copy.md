@@ -10,3 +10,5 @@ Re-see the prospect's tired problem through behavioral displacement so the page 
 1. Load the Ocean Vuong spine: read `skills/ocean-vuong-perceptual-writing/genius.md` (Decision Framework + Anti-Patterns + relevant patterns).
 2. Read and execute the full workflow at `skills/ocean-vuong-perceptual-writing/workflows/ocean-perceptual-copy.md` exactly (Pre-Flight, Steps, Output Format, Quality Gate).
 3. Run the Quality Gate before delivering.
+
+**Execution prompts**: before producing the deliverable, check `skills/ocean-vuong-perceptual-writing/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

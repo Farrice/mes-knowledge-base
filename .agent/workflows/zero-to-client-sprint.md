@@ -33,3 +33,5 @@ python3 execution/chain_runner.py finalize "30-day client acquisition sprint pla
     --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Full sprint plan with removal list, service selection, credibility assets, outreach sequences"
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-client-acquisition/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

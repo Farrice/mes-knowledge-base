@@ -44,3 +44,5 @@ Before delivering, verify:
 
 ## Output
 A complete Emotional Value Architecture with Identity Uniform, Edition Blueprint, Contrary Truth angles, and Club Architecture.
+
+**Execution prompts**: before producing the deliverable, check `skills/greg-hoffman-brand-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

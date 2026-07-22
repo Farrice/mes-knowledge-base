@@ -18,3 +18,5 @@ description: Proof-Fortified Ad Pipeline
    - `skills/luke-iha-proof-mechanisms/workflows/proof-fortified-ad-pipeline.md`
 
 3. Run quality gate: Does the ad include strategic positioning (creative strategy), awareness-appropriate hooks (unaware ads), AND proof at every doubt node (proof mechanisms)? All three domains must be visibly integrated.
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-proof-mechanisms/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

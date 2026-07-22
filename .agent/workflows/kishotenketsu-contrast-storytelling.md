@@ -52,3 +52,5 @@ Run the Lucas workflow and return:
 - This is not a claim that all East Asian storytelling follows one structure.
 - Do not claim visual/OCR evidence from the source package.
 - Use proof, voice, audience, and conversion gates when those are the real blocker.
+
+**Execution prompts**: before producing the deliverable, check `skills/lucas-alpay-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -21,3 +21,5 @@ Deploy Pressfield's approach to original screenplay architecture — start at th
 - Stack with **Eric Roth** for adaptation/transmutation work
 - Stack with **Jonathan Franzen** for character psychology depth
 - Stack with **Oren** for taste gate on the final output
+
+**Execution prompts**: before producing the deliverable, check `skills/steven-pressfield-narrative-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

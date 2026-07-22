@@ -18,3 +18,5 @@ Run the Cold-to-Close Proof Funnel workflow from the Proof Ladder Architecture s
    - Funnel stages needed (ad, landing page, email sequence, conversion page)
 5. Produce complete funnel with proof architecture at every stage
 6. Finalize via chain_runner.py
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-proof-ladder/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

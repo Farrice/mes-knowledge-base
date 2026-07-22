@@ -18,3 +18,5 @@ description: Hook Bank Builder
    - `skills/luke-iha-unaware-ads/workflows/hook-bank-builder.md`
 
 3. Run quality gate: Are the hooks sourced from real organic content? Are adaptations genuinely transformed, not lazy copies?
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-unaware-ads/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

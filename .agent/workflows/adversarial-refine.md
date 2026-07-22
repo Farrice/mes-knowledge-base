@@ -56,3 +56,5 @@ If requested, produce a refined version incorporating Must Fix and Should Fix pr
 - **Honest Friend Test**: Real weaknesses found, not manufactured ones
 - **Steel Man Test**: Counter-argument is genuinely strong, not a straw man
 - **Learning Test**: User's NEXT content will be better from this pass
+
+**Execution prompts**: before producing the deliverable, check `skills/dan-koe-ai-leverage/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -32,3 +32,5 @@ Load `skills/bitbranding-fashion-shopify/genius.md` for the 6 genius patterns, 5
 - `/bb-rebuild` — execute the audit's recommendations
 - `/bb-product-card` — drill deeper on Strategy 2 (card system)
 - `/bb-collection-content` — drill deeper on Strategy 3 (content layer)
+
+**Execution prompts**: before producing the deliverable, check `skills/bitbranding-fashion-shopify/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

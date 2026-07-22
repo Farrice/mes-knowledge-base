@@ -41,3 +41,5 @@ Takes any existing script, sales copy, or content and annotates every line with 
 - `/npq-script` → `/tone-calibrate` (annotate the script after building it)
 - `/psych-trigger` → `/tone-calibrate` (add tonal precision to triggers)
 - `/prevent-objection` → `/tone-calibrate` (ensure prevention has right delivery)
+
+**Execution prompts**: before producing the deliverable, check `skills/jeremy-miner-identity-persuasion/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

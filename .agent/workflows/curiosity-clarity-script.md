@@ -12,3 +12,5 @@ skill: kobi-brown-educational-virality
 3. Execute `skills/kobi-brown-educational-virality/workflows/02-curiosity-clarity-script-engine.md`.
 4. Produce the finished asset, strategy notes, long-form bridge, and self-check.
 5. If the output is substantial, finalize with `chain_runner.py` using workflow `curiosity-clarity-script`.
+
+**Execution prompts**: before producing the deliverable, check `skills/kobi-brown-educational-virality/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

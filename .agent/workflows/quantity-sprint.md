@@ -38,3 +38,5 @@ After delivery, recommend complementary tools:
 - `/authenticity-audit` to check energy alignment on sprint content
 - `/zone-of-genius` if the sprint reveals a format shift is needed
 - Kallaway's testing protocols for scaling what worked during the sprint
+
+**Execution prompts**: before producing the deliverable, check `skills/tom-noske-content-creation/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

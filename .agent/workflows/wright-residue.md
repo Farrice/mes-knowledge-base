@@ -20,3 +20,5 @@ Design the accumulation-and-release architecture that creates lasting emotional 
    - Step 5: The 24-Hour Test
 
 3. Run Quality Gate on the output.
+
+**Execution prompts**: before producing the deliverable, check `skills/wright-thompson-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

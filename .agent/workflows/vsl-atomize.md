@@ -15,3 +15,5 @@ Read these files in order:
 ## PHASE 2: EXECUTION
 
 Follow the atomization workflow in `vsl-to-ad-atomizer.md`. User provides existing VSL lead copy.
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-cross-domain/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

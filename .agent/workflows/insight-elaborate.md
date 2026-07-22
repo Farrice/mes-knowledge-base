@@ -11,3 +11,5 @@ Expand a raw insight vector into the full 8-beat elaboration structure.
 1. Load `skills/luke-iha-insight-vectors/SKILL.md`
 2. Execute `skills/luke-iha-insight-vectors/workflows/insight-elaborator.md`
 3. Requires a raw insight vector as input (from `/insight-vectors` or provided directly)
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-insight-vectors/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

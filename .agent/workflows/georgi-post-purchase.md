@@ -17,3 +17,5 @@ dopamine to reduce refunds and maximize upsell conversion.
 ## Execution
 Load `skills/stefan-georgi-dopamine-copy/SKILL.md` and execute the
 `post-purchase-dopamine-drip` workflow at T2 tier (SKILL.md + genius.md).
+
+**Execution prompts**: before producing the deliverable, check `skills/stefan-georgi-dopamine-copy/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -31,3 +31,5 @@ Run the Cross-Platform Launch Adapter. Preserve buyer readiness, value lane, pur
 - Intent routing
 - First-use and replay
 - Proof/risk notes
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -37,3 +37,5 @@ Enhances `/icp-deep-dive` at three points:
 - Content gets agreement but no conversion (assimilation problem)
 - ICP research feels shallow — you know WHAT they want but not WHY they won't act
 - Launching paradigm-shifting offers requiring genuine belief change
+
+**Execution prompts**: before producing the deliverable, check `skills/david-mcraney-belief-change/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

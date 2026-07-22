@@ -64,3 +64,5 @@ At the end of your output, include:
 - SKILL FILES READ: [list the files you actually read]
 - PATTERNS APPLIED: [list by name]
 - QUALITY CHECK: Does this feel like an Eric Roth screenplay? Would you walk out of the theater unable to speak?
+
+**Execution prompts**: before producing the deliverable, check `skills/eric-roth-screenwriting-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

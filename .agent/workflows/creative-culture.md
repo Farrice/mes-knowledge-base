@@ -43,3 +43,5 @@ Before delivering, verify:
 
 ## Output
 A Creative Culture Diagnostic with health scorecard, prescriptions, 4-Shot Offense design, and taste training plan.
+
+**Execution prompts**: before producing the deliverable, check `skills/greg-hoffman-brand-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

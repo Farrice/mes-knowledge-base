@@ -242,3 +242,5 @@ python3 execution/validate_skill.py donald-miller-cognitive-load
 python3 execution/codex_live_surface_audit.py --strict
 python3 execution/codex_harness_check.py
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/donald-miller-cognitive-load/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

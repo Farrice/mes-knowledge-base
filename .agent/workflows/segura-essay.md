@@ -15,3 +15,5 @@ Long-form recognition writing — the essay that makes readers think 'why didn't
 **Use when**: Writing a recognition essay/newsletter; Parallax edition built on a universal observation.
 
 ARGUMENTS: $ARGUMENTS
+
+**Execution prompts**: before producing the deliverable, check `skills/tom-segura-comedy-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

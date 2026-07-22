@@ -21,3 +21,5 @@ Two self-test findings (who asks the questions / can you still fly without it), 
 → `/gw-crit` (the CRIT loop that makes AI drive your thinking demand up, not down)
 → `/gw-skill-to-agent` (check a task is a chosen 20% before you automate away the reps)
 → `/gw-20-percent` (the analog prioritization ritual that pairs with the thinking chair)
+
+**Execution prompts**: before producing the deliverable, check `skills/geoff-woods-ai-thought-partner/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

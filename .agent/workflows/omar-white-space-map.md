@@ -15,3 +15,5 @@ White space is the gap between what customers want to be told and what the marke
 **Use when**: Choosing positioning angle for new brand or relaunch, crafting hero hook, sophisticated/saturated category, generic-feeling existing positioning.
 
 ARGUMENTS: $ARGUMENTS
+
+**Execution prompts**: before producing the deliverable, check `skills/omar-eddaoudi-scaling-ops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -72,3 +72,5 @@ For each candidate, ask:
 - SKILL FILES READ: [list]
 - PATTERNS APPLIED: [list by name]
 - QUALITY CHECK: Read the top selections to someone who doesn't know the context. If they go quiet, or smile, or ask "where is that from?" — you've succeeded.
+
+**Execution prompts**: before producing the deliverable, check `skills/eric-roth-screenwriting-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

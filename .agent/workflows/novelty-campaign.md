@@ -20,3 +20,5 @@ A campaign map (which component leads on each platform so it never reads copy-pa
 ## Stacks With
 → `/platform-adapt`, `/atomize`, `/content-series`
 → `/novelty-angles` (multiple angles for breadth)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-illusion-of-novelty/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

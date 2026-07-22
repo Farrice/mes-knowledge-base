@@ -14,3 +14,5 @@ A flat anecdote needs an engineered opening. Core storytelling-craft workflow.
 **Use when**: A story/anecdote lands flat; founder story, case study, or essay needs stakes.
 
 ARGUMENTS: $ARGUMENTS
+
+**Execution prompts**: before producing the deliverable, check `skills/tom-segura-comedy-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

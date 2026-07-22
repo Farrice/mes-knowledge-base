@@ -27,3 +27,5 @@ Load before execution:
 - Loads: Dara Denney `format-selection` + `david-goliath` + `yapper-script` + `objection-engine` skills
 - Downstream: `/vince-intent-first-launch` (kill committee across all format-pod outputs)
 - Pairs with: `/vince-vssl-ideation-pipeline`
+
+**Execution prompts**: before producing the deliverable, check `skills/vince-nijhof-dtc-operator-system/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

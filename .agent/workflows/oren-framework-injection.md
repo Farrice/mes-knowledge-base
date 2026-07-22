@@ -8,3 +8,5 @@ Run the **The Strategic-Framework Injection Protocol (Quality Lift, Not Just Spe
 
 ## Produces
 Framework Injection Kit — a 1-page named-framework library inside the brand-voice Project, a message-type → architecture selection rubric, the explicit naming prompt pattern, and a before/after A/B harness
+
+**Execution prompts**: before producing the deliverable, check `skills/oren-one-person-ai-marketer/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

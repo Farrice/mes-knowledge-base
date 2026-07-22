@@ -26,3 +26,5 @@ Load before execution:
 ## Stacking
 - Required upstream for: `/vince-messaging-market-fit-diagnostic`, `/vince-emotional-angle-engine`, `/vince-x-luke-data-driven-hooks`
 - Refresh trigger: monthly cadence + pre-campaign + new product launch + post-data-event
+
+**Execution prompts**: before producing the deliverable, check `skills/vince-nijhof-dtc-operator-system/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

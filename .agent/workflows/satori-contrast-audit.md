@@ -39,3 +39,5 @@ A Contrast Audit Report: apparent anchors (or "no spine" flag), the 9-form verdi
 - `/satori-three-flow` — where the prescription starts when no spine exists
 
 Full spec: `skills/satori-graphics/workflows/23-contrast-audit.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/satori-graphics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

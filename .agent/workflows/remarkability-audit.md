@@ -17,3 +17,5 @@ Deploy Seth Godin's Remarkability Audit from the `seth-godin-philosophy` skill.
 - **Primary**: Seth Godin (seth-godin-philosophy)
 - **Skill**: seth-godin-philosophy
 - **Workflow**: 04-remarkability-audit.md
+
+**Execution prompts**: before producing the deliverable, check `skills/seth-godin-philosophy/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

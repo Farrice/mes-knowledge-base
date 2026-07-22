@@ -43,3 +43,5 @@ Anti-slop spec:
 - Jack Roberts `/anti-slop-audit` — for AI-tells layer at brand-system level
 
 Full spec: `skills/satori-graphics/workflows/09-anti-ai-slop.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/satori-graphics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

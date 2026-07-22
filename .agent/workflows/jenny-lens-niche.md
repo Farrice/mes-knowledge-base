@@ -21,3 +21,5 @@ The lens + blue-ocean category, love-test verdict, avatar + platform fit, sponso
 ## Stacks With
 → `/jenny-idea-ladder` (feeds the lens + avatar every idea is filtered through)
 → `/jenny-business-engine` (sponsor legibility feeds the revenue-mix pitch)
+
+**Execution prompts**: before producing the deliverable, check `skills/jenny-hoyos-shorts/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

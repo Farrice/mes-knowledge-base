@@ -10,3 +10,5 @@ Grade existing content by the action-taken test, rewrite the best failures with 
 1. Load the spine: read `skills/matthew-lakajev-linkedin/genius.md` (Influence = Action Taken + Five Viral Post Types + Recognition-Without-Substance insight + Anti-Patterns, esp. case-study-post ban).
 2. Read and execute `skills/matthew-lakajev-linkedin/workflows/10-influence-content-audit.md` exactly as documented.
 3. Run the workflow's Quality Gate before delivering.
+
+**Execution prompts**: before producing the deliverable, check `skills/matthew-lakajev-linkedin/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

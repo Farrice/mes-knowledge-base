@@ -15,3 +15,5 @@ Execute Nicolas Cole's objection education workflow.
 3. Route: Nicolas Cole -> `nicolas-cole-sales-education-messaging` skill, `objection-education-loop` workflow.
 4. Gather actual or anticipated objections in the buyer's words.
 5. Execute the workflow exactly as documented.
+
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-sales-education-messaging/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

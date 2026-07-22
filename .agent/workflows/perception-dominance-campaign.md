@@ -21,3 +21,5 @@ Execute: skills/rory-sutherland-marketing/workflows/perception-dominance-campaig
 - Business/Brand + Offer + Market + Budget Tier + Timeline
 
 > ⚠️ This is the maximum-firepower workflow. For routine work, use individual stacking workflows.
+
+**Execution prompts**: before producing the deliverable, check `skills/rory-sutherland-marketing/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -16,3 +16,5 @@ Read these files in order:
 ## PHASE 2: EXECUTION
 
 Follow the workflow in `ad-script-writer.md`. User provides product, audience, and angle.
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-copy-blocks/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

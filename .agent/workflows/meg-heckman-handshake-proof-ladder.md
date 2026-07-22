@@ -27,3 +27,5 @@ Skepticism/armor-driven buyer (defends against being sold to) → `/sean-armor-i
 - Sequential handshake: Meg's trigger map is the INPUT to Iha's proof-ladder build, not a parallel lens
 - Optional upstream: `/meg-trigger-audit` if the trigger diagnosis itself is uncertain
 - Pairs with: `/meg-50ms-gate` (pre-flight top trigger's execution), `/proof-audit-360` (independent check on the finished ladder)
+
+**Execution prompts**: before producing the deliverable, check `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

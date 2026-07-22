@@ -18,3 +18,5 @@ description: Angle Swarm
    - `skills/luke-iha-unaware-ads/workflows/angle-swarm.md`
 
 3. Run quality gate: Are all hooks genuinely different angles, not rephrased versions? Do they span multiple awareness levels, hook types, and vector combinations?
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-unaware-ads/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

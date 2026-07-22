@@ -17,3 +17,5 @@ Run the Cold-Start Revenue Engine exactly as `/suzuki`. Deliver finished assets,
 ```text
 /suzuki-coldstart [product or "none"] [buyer] [price target] [proof or "none"] [platform(s)] [goal]
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

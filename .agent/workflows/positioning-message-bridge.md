@@ -15,3 +15,5 @@ Execute Nicolas Cole's positioning-to-sales-message bridge workflow.
 3. Route: Nicolas Cole -> `nicolas-cole-sales-education-messaging` skill, `positioning-message-bridge` workflow.
 4. Gather positioning, buyer, category, old alternative, and offer.
 5. Execute the workflow exactly as documented.
+
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-sales-education-messaging/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -30,3 +30,5 @@ The flagship production workflow. Vertical-aware. Input a vertical (social | con
    ```
 
 5. Quality gate: Is this a FINISHED piece (publishable as-is), not a brief? Did the craft fuse with the context (the action feels self-chosen), rather than push the outcome? Could you defend it if the reader saw the design?
+
+**Execution prompts**: before producing the deliverable, check `skills/chase-hughes-context-engineering/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

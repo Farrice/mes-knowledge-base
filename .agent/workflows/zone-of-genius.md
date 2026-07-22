@@ -36,3 +36,5 @@ After delivery, recommend complementary tools:
 - `/authenticity-audit` to validate upcoming content against the new format
 - `/serial-arc` (Fresh Voice System) if the format suits serial narrative content
 - Tom Noske's monetization skill for turning the content into revenue
+
+**Execution prompts**: before producing the deliverable, check `skills/tom-noske-content-creation/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

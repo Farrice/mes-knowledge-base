@@ -33,3 +33,5 @@ Run the Tweet-To-Sale Engine. Apply the floor test before delivery: the post mus
 - Purchase-intent link/application path
 - First-use path
 - Proof/risk notes
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

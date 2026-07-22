@@ -8,3 +8,5 @@ Run the **Agentic Commerce Integration** workflow.
 
 ## Produces
 Commerce Layer Architecture + Content-to-Conversion Protocol + Implementation Plan
+
+**Execution prompts**: before producing the deliverable, check `skills/oren-content-team-architecture/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

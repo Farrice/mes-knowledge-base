@@ -15,3 +15,5 @@ Execute Nicolas Cole's EDAN opener builder workflow.
 3. Route: Nicolas Cole -> `nicolas-cole-edan-writing-mechanics` skill, `edan-opener-builder` workflow.
 4. Gather topic, format, audience, and desired reader effect.
 5. Execute the workflow exactly as documented.
+
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-edan-writing-mechanics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

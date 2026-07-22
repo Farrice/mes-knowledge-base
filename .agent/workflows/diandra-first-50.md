@@ -28,3 +28,5 @@ Your first ~50 words are the AI retrieval system's audition. This workflow audit
 5. **Classifies**: Failure mode (throat-clearing, story without context, etc.)
 6. **Produces**: 3 rewrite candidates, scored on both dimensions
 7. **Delivers**: Winning rewrite integrated into the full post
+
+**Execution prompts**: before producing the deliverable, check `skills/diandra-escobar-linkedin-growth/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

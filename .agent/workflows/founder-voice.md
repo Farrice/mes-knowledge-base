@@ -75,3 +75,5 @@ Save to `research_outputs/[date]-founder-voice-[name-slug].md`
 
 ## First 3 Content Pieces (outlines)
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/andreessen-horowitz-new-media/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -14,3 +14,5 @@ description: Deploy world-class expertise through the optimal vehicle
 3. **Load**: Tier 2 (SKILL.md + genius.md + workflow)
 4. **Execute**: Run expertise deployment engine workflow from `skills/kallaway-word-mastery/workflows/expertise-deployment-engine.md`
 5. **Finalize**: Run `chain_runner.py finalize` with expert=kallaway, skill=kallaway-word-mastery, workflow=expertise-deployment-engine, type=Content
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-word-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -42,3 +42,5 @@ Movement spec:
 - `/satori-flip-test` — verify movement holds at thumbnail (transferability check)
 
 Full spec: `skills/satori-graphics/workflows/02-movement-ladder.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/satori-graphics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

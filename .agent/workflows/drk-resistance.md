@@ -19,3 +19,5 @@ Cross-expert stacking workflow combining Dr. K's samskara architecture with Stev
    - Phase 4: Treatment Protocol (dissolution path for samskara OR "turning pro" for Resistance)
 6. Output the Resistance Diagnosis with treatment pathway
 7. Run quality gate
+
+**Execution prompts**: before producing the deliverable, check `skills/dr-k-consciousness/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

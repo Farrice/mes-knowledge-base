@@ -21,3 +21,5 @@ Three adversarial reports (cracks/biases/assumptions, customer objections, where
 → `/gw-ai-board` (run a named board member as the challenger persona)
 → `/gw-simulate-room` (when the audience is a specific room you'll present to live)
 → `/gw-crit` (iterate the deliverable to its ceiling before you flip)
+
+**Execution prompts**: before producing the deliverable, check `skills/geoff-woods-ai-thought-partner/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

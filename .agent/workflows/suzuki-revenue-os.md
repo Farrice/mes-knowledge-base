@@ -39,3 +39,5 @@ Apply the Revenue Mechanics floor: no output can stop at a question map, neutral
 - Reply/DM routing by intent
 - Proof gaps
 - One next action
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

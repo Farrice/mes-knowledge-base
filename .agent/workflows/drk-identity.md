@@ -16,3 +16,5 @@ description: Map all constructed identities with guna classification and
    - Phase 4: Process Architecture (map identity as dynamic process, not static object)
 5. Output the Identity Map in the specified format
 6. Run quality gate against genius.md rubric
+
+**Execution prompts**: before producing the deliverable, check `skills/dr-k-consciousness/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

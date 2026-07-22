@@ -17,3 +17,5 @@ Run the Joscha Bach Identity Engineering workflow.
    - Phase 4: Identity Release (deactivate, archive, fusion check)
 4. Output in the specified format
 5. Run quality gate
+
+**Execution prompts**: before producing the deliverable, check `skills/joscha-bach-consciousness/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

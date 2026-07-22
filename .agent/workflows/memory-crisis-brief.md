@@ -16,3 +16,5 @@ Read and execute `skills/nate-b-jones-context-engineering/workflows/memory-crisi
 
 ### 3. Finalize
 Run chain finalization with expert=nate-b-jones, skill=context-engineering, workflow=memory-crisis-strategic-intelligence.
+
+**Execution prompts**: before producing the deliverable, check `skills/nate-b-jones-context-engineering/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -8,3 +8,5 @@ Run the **The AI Influencer-Ops Back Office** workflow.
 
 ## Produces
 A one-day-per-week creator operation: outreach + contract template library, a scheduling/deliverable/percentage tracker schema, and creator-sourcing routing — run by one operator at a partnerships team's throughput
+
+**Execution prompts**: before producing the deliverable, check `skills/oren-one-person-ai-marketer/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

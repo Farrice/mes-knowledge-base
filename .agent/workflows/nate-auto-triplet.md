@@ -43,3 +43,5 @@ Score against: Triplet Clarity, Judgment Leverage, Revert Capability. Minimum 7 
 ### Step 6: Hand-off
 - PROCEED → invoke `/nate-auto-audit` (WF 02) for readiness assessment
 - FIX FIRST → complete foundation task, then re-attempt
+
+**Execution prompts**: before producing the deliverable, check `skills/nate-b-jones-auto-improvement-loops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

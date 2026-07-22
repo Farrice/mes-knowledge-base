@@ -19,3 +19,5 @@ Execute: skills/rory-sutherland-marketing/workflows/perception-dopamine-engine.m
 
 ## Input
 - Product/Offer + Audience + Current Copy/Positioning + Price Point
+
+**Execution prompts**: before producing the deliverable, check `skills/rory-sutherland-marketing/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

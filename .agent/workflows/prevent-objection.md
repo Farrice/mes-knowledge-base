@@ -43,3 +43,5 @@ Takes your top 3-5 objections and builds a complete prevention architecture with
 - `/psych-trigger` — use triggers as the vehicle for prevention
 - `/tone-calibrate` — ensure prevention frames have correct tonal delivery
 - `/build-gap` — build a gap so wide that objections feel irrelevant
+
+**Execution prompts**: before producing the deliverable, check `skills/jeremy-miner-identity-persuasion/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

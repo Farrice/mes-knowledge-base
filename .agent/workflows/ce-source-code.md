@@ -20,3 +20,5 @@ Trace a stuck adult pattern to the childhood "app" (built for friends / safety /
    - `skills/chase-hughes-context-engineering/workflows/ce-source-code.md`
 
 3. Quality gate: Does the reframe make the person feel SEEN (not judged, not praised)? Is the release prescription (TRE / somatic discharge) included, not just the diagnosis? For Parallax content, flag the memoir application.
+
+**Execution prompts**: before producing the deliverable, check `skills/chase-hughes-context-engineering/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

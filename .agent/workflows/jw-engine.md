@@ -26,3 +26,5 @@ Examples: `/jw-engine sell the Authority Flywheel without sales calls` · `/jw-e
 - **Never fabricate:** not-input-gated ≠ invented. Real grounding or labeled assumption, never a fake fact.
 - **Anti-hoarding:** wire `/autopilot` (fan-out/gates/finalize), `/copy-engine` (ground-once cache), `/supercomputer` (multi-deliverable), and the expert roster. Do NOT rebuild them.
 - **Preserve the confrontational spine** (Mode B keeps the edge, drops the profanity). **Run the Ethics Gate on every asset before it ships.**
+
+**Execution prompts**: before producing the deliverable, check `skills/john-whiting-propaganda-machine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

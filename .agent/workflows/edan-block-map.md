@@ -15,3 +15,5 @@ Execute Nicolas Cole's EDAN block mapping workflow.
 3. Route: Nicolas Cole -> `nicolas-cole-edan-writing-mechanics` skill, `edan-block-map` workflow.
 4. Gather the passage or draft segment to classify.
 5. Execute the workflow exactly as documented.
+
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-edan-writing-mechanics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

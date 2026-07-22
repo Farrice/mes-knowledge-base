@@ -39,3 +39,5 @@ An Expectation-Flip Spec: the evidenced norm, ONE inversion (psychology/emotion/
 - `/novelty-forge` — cross-expert: illusion-of-novelty framing for the rollout
 
 Full spec: `skills/satori-graphics/workflows/25-expectation-flip.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/satori-graphics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

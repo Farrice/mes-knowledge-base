@@ -104,3 +104,5 @@ python3 execution/chain_runner.py finalize "Grace New Media Blueprint for [brand
     --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Grace city map with a16z OODA + oral/written culture integration"
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/grace-andrews-media-company/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

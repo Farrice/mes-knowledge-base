@@ -29,3 +29,5 @@ Dissolve the four resistance walls (Socialize-Minimize-Rationalize-Project) so s
    ```
 
 5. Quality gate: Is the aim the person's freedom (naming a truth/objection they want named), or extraction? If extraction — stop.
+
+**Execution prompts**: before producing the deliverable, check `skills/chase-hughes-context-engineering/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

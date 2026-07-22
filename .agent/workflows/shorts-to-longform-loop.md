@@ -12,3 +12,5 @@ skill: kobi-brown-educational-virality
 3. Execute `skills/kobi-brown-educational-virality/workflows/05-shorts-to-longform-proving-loop.md`.
 4. Produce short-form tests, expansion rules, long-form asset design, and feedback loop.
 5. If the output is substantial, finalize with `chain_runner.py` using workflow `shorts-to-longform-loop`.
+
+**Execution prompts**: before producing the deliverable, check `skills/kobi-brown-educational-virality/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

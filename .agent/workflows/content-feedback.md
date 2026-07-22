@@ -26,3 +26,5 @@ Follow the workflow in `02-content-feedback.md` using the loaded genius context.
 
 ### 3. Save Output
 Save performance report to `.tmp/kieran-flanagan/feedback-report-[date].md`.
+
+**Execution prompts**: before producing the deliverable, check `skills/kieran-flanagan-content-ops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

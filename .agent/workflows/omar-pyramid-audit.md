@@ -16,3 +16,5 @@ The diagnostic + roadmap workflow for brands hitting CAC ceilings. Maps current 
 **Use when**: CAC inflating with spend, planning major scale ramp, hit a spend plateau, quarterly portfolio health check.
 
 ARGUMENTS: $ARGUMENTS
+
+**Execution prompts**: before producing the deliverable, check `skills/omar-eddaoudi-scaling-ops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -14,3 +14,4 @@ Execute Nicolas Cole's reader-value audit workflow.
 4. Gather draft, outline, excerpt, and title if available.
 5. Execute the workflow exactly as documented.
 
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-nonfiction-value-architecture/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

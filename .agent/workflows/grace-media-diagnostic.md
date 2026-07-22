@@ -101,3 +101,5 @@ Save to `research_outputs/[date]-media-diagnostic-[brand-slug].md`
 ## Prioritized Fix Plan (ranked by impact/effort)
 ## 30-Day Recovery Sprint (immediate actions)
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/grace-andrews-media-company/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

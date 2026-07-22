@@ -17,3 +17,5 @@ Produce obsession-engineered marketing copy stacking Kallaway + Georgi + Iha.
 - **Target audience**: Who is this copy for?
 - **Copy format**: Sales page, landing page, VSL script, advertorial, etc.
 - **Available proof**: Testimonials, data, case studies
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-audience-obsession/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

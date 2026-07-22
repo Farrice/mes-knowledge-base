@@ -34,3 +34,5 @@ python3 execution/chain_runner.py finalize "Complete outreach pipeline with netw
     --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Leaks/Faucets map, warm scripts, cold outreach, 5x follow-up, pipeline tracker"
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-client-acquisition/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

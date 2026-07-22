@@ -14,3 +14,5 @@ description: Architect creative register shifts within a single piece
 3. **Load**: Tier 2 (SKILL.md + genius.md + workflow)
 4. **Execute**: Run code-switch architect workflow from `skills/kallaway-word-mastery/workflows/code-switch-architect.md`
 5. **Finalize**: Run `chain_runner.py finalize` with expert=kallaway, skill=kallaway-word-mastery, workflow=code-switch-architect, type=Content
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-word-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

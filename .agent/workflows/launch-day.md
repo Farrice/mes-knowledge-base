@@ -241,3 +241,5 @@ Use `SendMessage` with `type: "shutdown_request"` to each teammate. Then offer:
   brand-review.md
   sprint-[date].md   (combined final output)
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/erica-mallet-brand-magnetism/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

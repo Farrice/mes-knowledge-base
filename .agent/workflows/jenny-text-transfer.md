@@ -23,3 +23,5 @@ A transfer honesty note, the finished post, a mechanics map (first-line frame, b
 → `/nicolas-cole` (sentence-craft and value-architecture for the body)
 → `/farrice-engine` (the post ships under Farrice's LinkedIn engine)
 → `/ghostwrite` (written in a client's or Farrice's voice from scratch)
+
+**Execution prompts**: before producing the deliverable, check `skills/jenny-hoyos-shorts/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

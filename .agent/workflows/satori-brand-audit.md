@@ -49,3 +49,5 @@ Strategic Visual Brief:
 - All Tier 1 + Tier 2 Satori workflows (this audit chains into them per touchpoint)
 
 Full spec: `skills/satori-graphics/workflows/14-brand-audit.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/satori-graphics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

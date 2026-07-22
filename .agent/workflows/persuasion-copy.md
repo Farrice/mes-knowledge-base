@@ -13,3 +13,5 @@ Run the McRaney Persuasion-Engineered Copy Engine.
 3. Execute with inputs: Offer/Product, Audience, Copy Type, Known Objections (optional), Existing Research (optional)
 4. Produce: Belief Diagnosis, Accommodation Design, Copy Architecture, Proof Prescription, Finished Copy, Accommodation Audit
 5. Finalize via chain_runner.py
+
+**Execution prompts**: before producing the deliverable, check `skills/david-mcraney-belief-change/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

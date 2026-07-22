@@ -78,3 +78,5 @@ Present final output with:
 - **Completeness Test**: All four C's checked — none skipped
 - **Employee Test**: Output quality exceeds what a trained employee would produce
 - **Sovereignty Test**: User maintained creative direction throughout
+
+**Execution prompts**: before producing the deliverable, check `skills/dan-koe-ai-leverage/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

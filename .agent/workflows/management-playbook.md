@@ -12,3 +12,5 @@ Streamline the body: install the five-meeting playbook so labor focuses on the 3
 3. Execute: assign an operator → install 5 meetings (All-Staff, Leadership, Dept Stand-up, Personal Priority Speed Check, Quarterly Review) → templates → comp model
 4. Produce: operator hire, meeting cadence, templates, labor-refocus statement, comp model
 5. Finalize via chain_runner.py
+
+**Execution prompts**: before producing the deliverable, check `skills/donald-miller-business-growth/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

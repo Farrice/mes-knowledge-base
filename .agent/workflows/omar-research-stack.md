@@ -15,3 +15,5 @@ The 4-prompt research stack. Bridges raw customer data → ad-ready customer lan
 **Use when**: New brand engagement (after profit architecture), stale avatars, repositioning, CAC inflation diagnosis.
 
 ARGUMENTS: $ARGUMENTS
+
+**Execution prompts**: before producing the deliverable, check `skills/omar-eddaoudi-scaling-ops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

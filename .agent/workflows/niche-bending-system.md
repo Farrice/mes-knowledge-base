@@ -235,3 +235,5 @@ python3 execution/routing_governor.py evaluate "take any domain expertise and fi
 python3 execution/context_retriever.py search "take any domain expertise and find differentiated niche bending angles" --top 8
 python3 execution/codex_live_surface_audit.py --strict
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/tim-danilov-niche-bending/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -22,3 +22,5 @@ Outlier sources by ladder rung, idea longlist (~100 candidates, real count repor
 → `/jenny-script-short` (script the winning pick)
 → `/jenny-lens-niche` (locks the lens/avatar this ladder filters through)
 → `/jenny-anything-viral` (applies the same sourcing logic to a product/brand/offer)
+
+**Execution prompts**: before producing the deliverable, check `skills/jenny-hoyos-shorts/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

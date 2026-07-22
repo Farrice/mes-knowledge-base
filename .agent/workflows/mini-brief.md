@@ -640,3 +640,5 @@ Trending topic → /mini-brief → /ip-flywheel
 > **Platform Spec**: Text post | ~2,300 chars | F-shape formatting | CTA: "DEPLOY" | Posting: Tue-Thu 8-10am EST | Depth target: 50+ saves
 >
 > **Provenance**: 3 queries 🟢 GROUNDED (real `research.py` sources + `research_quality_gate.py` PASS — had the gate failed, this would read 🟡 PROJECTED/UNVERIFIED) | Kallaway genius.md + hook-engineering-matrix.md, Jasmin Alic genius.md, Josh Sanders genius.md | Oren taste check: PASS
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-content-psychology/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

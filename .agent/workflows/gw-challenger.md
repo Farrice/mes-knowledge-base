@@ -24,3 +24,5 @@ The Challenger stance, located structural cracks, the operator's biases with whe
 → `/gw-feedback-loop` (fold the surviving changes back in via the triad)
 → `/gw-content-pretest` (when the concern is reader reception, not internal integrity)
 → `/gw-thought-partner` (run the Challenger on the strategies a session produced before you commit)
+
+**Execution prompts**: before producing the deliverable, check `skills/geoff-woods-ai-thought-partner/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

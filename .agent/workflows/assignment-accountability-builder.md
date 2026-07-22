@@ -17,3 +17,5 @@ Read these files in order:
 ## Execution
 
 Follow `assignment-accountability-builder.md`. The user provides module outcomes, main actions, vehicle, price, and available review capacity.
+
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-digital-products/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

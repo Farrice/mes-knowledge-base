@@ -26,3 +26,5 @@ and protected delivery.
 
 This is a Google workflow alias, not a new expert stack. Do not create another
 router or mutate `.claude/commands`.
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-illusion-of-novelty/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

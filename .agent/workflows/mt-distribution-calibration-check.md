@@ -10,3 +10,5 @@ Audits an EXISTING panel output (never generates a new one): grounding tier conf
 1. Load the Mike Taylor spine: read `skills/mike-taylor-synthetic-research/genius.md` (Patterns 6-10, Decision Framework Q4-7).
 2. Read and execute the full workflow at `skills/mike-taylor-synthetic-research/workflows/mt-distribution-calibration-check.md` exactly as documented (Pre-Flight, Steps, Output Format, Quality Gate).
 3. Run the Quality Gate before delivering.
+
+**Execution prompts**: before producing the deliverable, check `skills/mike-taylor-synthetic-research/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

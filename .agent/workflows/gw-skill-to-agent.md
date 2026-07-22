@@ -21,3 +21,5 @@ A dominoes-gate verdict (can fail the build), a data-readiness verdict with name
 → `/gw-cognitive-guard` (make sure this task is a 20% you chose, not machine work you outsourced by reflex)
 → `/gw-crit` (the CRIT engine that extracts the tacit knowledge)
 → `/gw-ai-board` (a repeatable board build is itself a candidate for this pipeline)
+
+**Execution prompts**: before producing the deliverable, check `skills/geoff-woods-ai-thought-partner/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

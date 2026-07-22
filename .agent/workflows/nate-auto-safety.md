@@ -41,3 +41,5 @@ Safety Monitoring, Revert Capability, Judgment Leverage — min 8 for customer-f
 ### Step 6: Hand-off
 - PASSED → `/nate-auto-takeoff` (WF 07)
 - FAILED → remediate, re-audit
+
+**Execution prompts**: before producing the deliverable, check `skills/nate-b-jones-auto-improvement-loops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

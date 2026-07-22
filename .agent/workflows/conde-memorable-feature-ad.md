@@ -13,3 +13,4 @@ Read these files before executing:
 
 Execute the workflow in full and produce the finished feature ad or demo script.
 
+**Execution prompts**: before producing the deliverable, check `skills/rafa-conde-memorable-product-design/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -32,3 +32,5 @@ Turn a weak offer into a compelling one — or flag a hollow one honestly. Diagn
    ```
 
 6. Quality gate: Is the rebuilt offer genuinely better on its merits for the buyer, or just better-disguised? Name the single change that does the most work.
+
+**Execution prompts**: before producing the deliverable, check `skills/chase-hughes-context-engineering/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

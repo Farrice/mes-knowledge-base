@@ -38,3 +38,5 @@ A Three-Flow Spine Spec: the essential-info line (finisher committed FIRST), the
 - `/satori-perception-gap` — post-draft proof the spine transmits
 
 Full spec: `skills/satori-graphics/workflows/21-three-flow.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/satori-graphics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

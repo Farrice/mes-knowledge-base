@@ -25,3 +25,5 @@ Load before execution:
 - Pairs with: `/vince-omni-channel-readiness`
 - Pairs with: Sean Macintyre `cross-domain-diagnostic` (for unexpected ROAS shifts)
 - Required for: `/vince-intent-first-launch` (kill criteria reference dashboard signals)
+
+**Execution prompts**: before producing the deliverable, check `skills/vince-nijhof-dtc-operator-system/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -36,3 +36,5 @@ Step-by-step rebuild plan with exact Horizon lever paths, settings values, verif
 - `/bb-product-card` — drill into Step 4 (card system enable)
 - `/bb-collection-content` — drill into Step 5-9 (content layer)
 - `fantastic-posters` skill — generate hero images for dynamic-source binding
+
+**Execution prompts**: before producing the deliverable, check `skills/bitbranding-fashion-shopify/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

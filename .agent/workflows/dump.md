@@ -34,3 +34,5 @@ the last 24h of episodic exchanges for user turns opening with `/dump`,
 today's inbox file (deduped by normalized first-60-chars) — the physical
 guarantee for the case where a dump session happens but the capture call gets
 skipped mid-conversation.
+
+**Execution prompts**: before producing the deliverable, check `skills/chief-of-staff-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

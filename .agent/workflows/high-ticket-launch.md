@@ -18,3 +18,5 @@ Monetize your LinkedIn audience through a high-ticket educational cohort.
    - Sales conversation framework
    - Launch timeline and milestone plan
 5. Quality gate: funnel moves from free content → trust → application → close; pricing justified by transformation
+
+**Execution prompts**: before producing the deliverable, check `skills/josh-sanders-linkedin-growth/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

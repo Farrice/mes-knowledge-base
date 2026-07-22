@@ -14,3 +14,5 @@ Swap flat words for the funniest-sounding specifics and render character voices.
 **Use when**: A draft is structurally done but the words are flat.
 
 ARGUMENTS: $ARGUMENTS
+
+**Execution prompts**: before producing the deliverable, check `skills/tom-segura-comedy-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

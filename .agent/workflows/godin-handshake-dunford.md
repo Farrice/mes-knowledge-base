@@ -25,3 +25,5 @@ Load before execution:
 - Dunford supplies: competitive alternatives, unique attributes → value, target segment, market category
 - Handoff artifact: the Cleared Premise Card (Godin's output = Dunford's Target Customer input)
 - Pairs with: `skills/seth-godin-marketing-mind/workflows/02-premise-audit.md` (deeper premise-only pass), `skills/april-dunford-positioning/workflows/dunford-positioning-diagnostic.md` (run first if unclear whether the problem is positioning at all)
+
+**Execution prompts**: before producing the deliverable, check `skills/seth-godin-marketing-mind/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

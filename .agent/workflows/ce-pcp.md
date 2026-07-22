@@ -20,3 +20,5 @@ The core atom. Run the upstream question to a condition chain, then design the P
    - `skills/chase-hughes-context-engineering/workflows/ce-pcp.md`
 
 3. Quality gate: Does the design land "it just makes perfect sense" (the engineered-context fingerprint), or is it still pushing the outcome? Is the ask deferred far enough that the recipient is built first?
+
+**Execution prompts**: before producing the deliverable, check `skills/chase-hughes-context-engineering/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

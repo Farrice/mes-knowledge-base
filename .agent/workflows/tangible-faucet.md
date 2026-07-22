@@ -33,3 +33,5 @@ python3 execution/chain_runner.py finalize "Tangible asset identification — [a
     --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Asset ID with faucet test validation"
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-newsletter-flywheel/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

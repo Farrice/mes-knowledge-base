@@ -17,3 +17,5 @@ description: The complete CR × OU formula deployment
    - `skills/luke-iha-client-mastery/workflows/client-conversion-formula.md`
 
 3. Run quality gate: Has the user identified their bottleneck (volume vs conversion) with a specific fix plan?
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-client-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

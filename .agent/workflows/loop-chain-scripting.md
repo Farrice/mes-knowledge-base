@@ -24,3 +24,5 @@ Full Addiction-Looped Script — master blueprint, complete polished script, cyc
 → `/addiction-loop-architect` (build the blueprint first, feed to this workflow)
 → `/loop-density-optimizer` (compress the script after writing)
 → `/obsession-script-architect` (inject obsession payload into the looped script)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-addictive-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

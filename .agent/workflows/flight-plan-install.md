@@ -12,3 +12,5 @@ Sequence the full Small Business Flight Plan install and route the two engines (
 3. Execute: order by crisis (not chapter) → route engines OUT (marketing → storybrand/cognitive-load; sales → messaging-evolution/02) → pace one part at a time → re-proportion after each
 4. Produce: install roadmap, engine hand-off map, pace, ownership, re-proportion checkpoints
 5. Finalize via chain_runner.py
+
+**Execution prompts**: before producing the deliverable, check `skills/donald-miller-business-growth/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

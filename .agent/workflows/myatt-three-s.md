@@ -24,3 +24,5 @@ Load before execution:
 - Pairs with `/myatt-decompose` if Execution category needs SOP before hiring
 - Pairs with `/myatt-care-square` if Execution time is going to weak-Care-Square clients
 - Cross-domain: every operator in the roster benefits
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-myatt-creative-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -30,3 +30,5 @@ Engineer the "can't stop reading" quality into any content using tension archite
 - `/word-rhythm` → `/word-grip` (pacing first, then tension architecture)
 - `/word-expert` → `/word-grip` (authority+affinity, then grip)
 - `/word-sprint` (includes grip as Pass 3)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-word-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

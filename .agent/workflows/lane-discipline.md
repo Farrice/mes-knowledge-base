@@ -12,3 +12,5 @@ Run the net test before any expansion: smaller net catches more fish. Decide whe
 3. Execute: state the lane → run the net test (blur/width/confusion) → "smell money" honesty check → classify → verdict
 4. Produce: Hold / Silo / Refuse verdict with reasoning + out-loud team script if Hold
 5. Finalize via chain_runner.py
+
+**Execution prompts**: before producing the deliverable, check `skills/donald-miller-messaging-evolution/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

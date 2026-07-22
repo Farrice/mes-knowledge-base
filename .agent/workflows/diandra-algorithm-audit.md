@@ -31,3 +31,5 @@ Forensic analysis of every technical signal the 2026 LinkedIn retrieval system u
 - `/diandra-first-50` → Fix truncation issues found in Layer 2
 - `/diandra-semantic-lanes` → Fix lane scatter found in Layer 3
 - `/diandra-save-architect` → Fix save-worthiness gaps found in Layer 4
+
+**Execution prompts**: before producing the deliverable, check `skills/diandra-escobar-linkedin-growth/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

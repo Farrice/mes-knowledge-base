@@ -18,3 +18,5 @@ The "doctor" workflow — bring in broken content, get a specific structural dia
 ## Note
 
 This is DIFFERENT from `/rate` (quick feedback on routing quality) and the Five Aims Quality Gate (workflow 05, which is about polish). This workflow diagnoses **structural narrative failures** and prescribes specific repairs.
+
+**Execution prompts**: before producing the deliverable, check `skills/steven-pressfield-narrative-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

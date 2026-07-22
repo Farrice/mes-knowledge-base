@@ -36,3 +36,5 @@ After delivery, recommend complementary refinement tools:
 - `/adversarial-refine` (Dan Koe) for stress-testing the content further
 - `/comedy` (Robert Mack) for injecting comedy mechanics if appropriate
 - Fresh Voice System quality checks for voice alignment
+
+**Execution prompts**: before producing the deliverable, check `skills/tom-noske-content-creation/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

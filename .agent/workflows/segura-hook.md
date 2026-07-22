@@ -15,3 +15,5 @@ Convert /segura-antenna output into ranked recognition hooks.
 **Use when**: You have observations and need LinkedIn/social hooks that make readers feel seen.
 
 ARGUMENTS: $ARGUMENTS
+
+**Execution prompts**: before producing the deliverable, check `skills/tom-segura-comedy-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

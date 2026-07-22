@@ -21,3 +21,5 @@ A board spec in markdown: gap map, derived-and-culled skills, casting table (ski
 → `/gw-persona-flip` (run any board member as a challenger against a live deliverable)
 → `/gw-simulate-room` (build stakeholder personas the same interview way)
 → `/gw-crit` (the CRIT engine underneath the board build)
+
+**Execution prompts**: before producing the deliverable, check `skills/geoff-woods-ai-thought-partner/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

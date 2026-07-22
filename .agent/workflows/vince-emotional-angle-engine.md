@@ -28,3 +28,5 @@ Load before execution:
 - Required downstream: `/vince-intent-first-launch` (kill committee)
 - Pairs with: `/vince-vssl-ideation-pipeline` (high-volume VSSL pipeline)
 - Pairs with: Luke Iha `vicious-hook-mastery` (hook craft layered on emotion)
+
+**Execution prompts**: before producing the deliverable, check `skills/vince-nijhof-dtc-operator-system/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

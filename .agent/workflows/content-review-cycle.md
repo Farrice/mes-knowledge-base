@@ -28,3 +28,5 @@ Follow the workflow in `03-content-review-cycle.md` using the loaded genius cont
 
 ### 3. Save Output
 Save monthly review to `.tmp/kieran-flanagan/review-[month]-[year].md`.
+
+**Execution prompts**: before producing the deliverable, check `skills/kieran-flanagan-content-ops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

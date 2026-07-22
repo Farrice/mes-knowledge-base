@@ -43,3 +43,5 @@ Element-level audit:
 - `/satori-flip-test` — final structural check after evictions
 
 Full spec: `skills/satori-graphics/workflows/04-why-before-what.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/satori-graphics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

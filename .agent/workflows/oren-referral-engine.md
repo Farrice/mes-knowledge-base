@@ -8,3 +8,5 @@ Run the **The Completion-Moment Referral Engine (Zero-CAC Capture)** workflow.
 
 ## Produces
 A referral system bound to CRM project-completion — trigger spec + brand-voice ask templates + quarterly re-ask sequence
+
+**Execution prompts**: before producing the deliverable, check `skills/oren-one-person-ai-marketer/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

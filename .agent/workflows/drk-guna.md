@@ -15,3 +15,5 @@ description: Diagnose mental operating mode (tamas/rajas/sattva) and design tran
    - Phase 3: Transition Protocol (design progressive sattva cultivation)
 5. Output the Guna-Mode Map in the specified format
 6. Run quality gate
+
+**Execution prompts**: before producing the deliverable, check `skills/dr-k-consciousness/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

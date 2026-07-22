@@ -198,6 +198,10 @@ Farrice override: repair everything, no archiving. Sequenced, not triaged:
 
 ## Wave 4 — Structured Mission Contracts + Fleet Plumbing (3-4 sessions)
 Apex Wave 3 + Swarm Apex, shipped.
+> **Progress 2026-07-21 (/go v3 build)**: the contract SHAPE now ships — every /go
+> mission writes `.agent/missions/<slug>/contract.json` (intent lock, route, stack,
+> expected_spawns, deliverable_paths, gates, tier) + a portable packet. Wave 4's
+> remaining scope = the validator + re-dispatch machinery over that shape.
 - `directives/worker-envelope-standard.md` (propagate jw-engine envelope) + per-stage
   advisory `model_tier` (judgment→highest, execution→inherit, mechanical→cheapest — this
   is Farrice's token-discipline requirement made deterministic).

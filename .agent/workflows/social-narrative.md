@@ -19,3 +19,5 @@ Deploy Pressfield's narrative physics compressed for platform-specific social me
 - Stack with **Lara Acosta** for LinkedIn revenue bridge integration
 - Stack with **Jasmin Alic** for LinkedIn growth tactics
 - Stack with **Kallaway** for content psychology and platform-specific testing
+
+**Execution prompts**: before producing the deliverable, check `skills/steven-pressfield-narrative-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -21,3 +21,5 @@ Path A/B determination + chosen new aspect + outcome tie + 6–10 hook variants 
 → `/novelty-angles` (if you need angle breadth first)
 → `/novelty-contrast` (anchor the reveal against the held belief)
 → `/novelty-hook` (compress into the densest hook)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-illusion-of-novelty/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

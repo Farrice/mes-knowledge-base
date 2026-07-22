@@ -17,3 +17,5 @@ Batch-produce a week of obsession-engineered social posts with level targeting.
 - **Core topic/theme**: What domain are these posts about?
 - **Target audience**: Who specifically?
 - **Batch size** (optional): Defaults to 7
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-audience-obsession/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -16,3 +16,5 @@ Run the Kallaway Five-Input quality gate on any content draft.
 - **Content draft**: The content to audit (paste or reference)
 - **Target audience**: Who is this for?
 - **Desired obsession level** (optional): Defaults to Level 2
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-audience-obsession/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

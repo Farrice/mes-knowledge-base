@@ -17,3 +17,5 @@ Read these files in order:
 ## Execution
 
 Follow `course-proof-and-bonus-stack.md`. The user provides a product or module promise, ICP doubts, current assets, module list, and price point.
+
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-digital-products/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

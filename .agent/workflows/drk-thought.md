@@ -16,3 +16,5 @@ description: Personalized mind-garden cultivation protocol for thought-response 
    - Phase 4: Awareness Exercises (specific practices for observing-mind cultivation)
 5. Output the Personalized Garden Protocol
 6. Run quality gate
+
+**Execution prompts**: before producing the deliverable, check `skills/dr-k-consciousness/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

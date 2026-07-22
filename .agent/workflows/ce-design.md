@@ -29,3 +29,5 @@ The operating-layer orchestrator. Input one desired end-state + target + channel
    ```
 
 4. Quality gate: Could you defend the full design if the target saw it? Is the outcome good on its own merits, stripped of the engineered receptivity? If the design only works by hiding what it does, it fails.
+
+**Execution prompts**: before producing the deliverable, check `skills/chase-hughes-context-engineering/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

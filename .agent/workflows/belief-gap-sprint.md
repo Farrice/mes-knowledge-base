@@ -13,3 +13,5 @@ Chain McRaney's belief architecture with Luke Iha's insight vectors to target th
 3. If available, also load McRaney skill context
 4. Execute `skills/luke-iha-insight-vectors/workflows/belief-gap-insight-sprint.md`
 5. Requires product/offer, core conversion block (or will diagnose), and available proof as input
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-insight-vectors/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

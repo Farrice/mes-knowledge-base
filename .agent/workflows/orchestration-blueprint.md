@@ -40,3 +40,5 @@ Output a complete orchestration architecture document:
 ### Step 5: Quality Gate
 Score against: Intent Alignment, Expert Standard, Adversarial Resilience.
 Composite < 7 → retry weakest section.
+
+**Execution prompts**: before producing the deliverable, check `skills/nate-b-jones-orchestration-intelligence/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

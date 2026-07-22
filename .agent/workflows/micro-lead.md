@@ -16,3 +16,5 @@ Read these files in order:
 ## PHASE 2: EXECUTION
 
 Follow the workflow in `micro-lead-generator.md`. User provides offer and audience.
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-vsl-leads/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

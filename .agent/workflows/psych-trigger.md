@@ -43,3 +43,5 @@ Takes a belief you need to shift and builds a complete frame/deframe/reframe seq
 - `/prevent-objection` — use triggers as prevention architecture
 - `/tone-calibrate` — annotate trigger scripts with full tonal direction
 - `/frame-engineer` — dedicated frame engineering (more granular version)
+
+**Execution prompts**: before producing the deliverable, check `skills/jeremy-miner-identity-persuasion/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

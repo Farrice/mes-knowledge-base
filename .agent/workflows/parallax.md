@@ -682,3 +682,5 @@ When producing multiple editions:
 6. Finalize all at once
 
 This is the one-man-army mode. Research once, produce at scale.
+
+**Execution prompts**: before producing the deliverable, check `skills/fantastic-posters/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

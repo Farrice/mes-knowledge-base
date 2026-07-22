@@ -59,3 +59,5 @@ Generates a complete conversation flow with 8 stages — from nervous system cal
 - `/prevent-objection` — customize objection prevention layers
 - `/build-gap` — deepen the gap building section
 - `/self-persuade` — enhance self-persuasion checkpoints
+
+**Execution prompts**: before producing the deliverable, check `skills/jeremy-miner-identity-persuasion/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -12,3 +12,5 @@ Threshold table + named route(s) with concrete trigger conditions, into `oren-co
 ## Stacking
 - Upstream: runs after any combination of `identity-driver-diagnostic`, `true-fan-density-engine`, `signature-design-audit`, `identity-control-strategy`
 - Never executes the destination skill itself — names the route and trigger only
+
+**Execution prompts**: before producing the deliverable, check `skills/oren-identity-brand-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

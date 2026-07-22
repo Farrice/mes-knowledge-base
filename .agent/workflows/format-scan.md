@@ -26,3 +26,5 @@ Find fresh format inspiration from completely unrelated niches.
    - Priority matrix (Freshness × Producibility × Audience Fit)
    - Production blueprints for top 3 formats
 6. Quality gate: 5+ niches scanned, 10+ formats found, 3+ survive translation, no formats traceable to source
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-content-science/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

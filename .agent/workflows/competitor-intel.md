@@ -24,3 +24,5 @@ Build systematic competitive research for content strategy.
    - Trend detection (rising, migrating, dying)
    - Strategic action plan with 30-day content calendar
 6. Quality gate: 20+ accounts mapped, 3+ opportunity gaps, 30-day calendar with specific concepts
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-content-science/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

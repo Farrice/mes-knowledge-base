@@ -173,3 +173,5 @@ Suggest next steps:
 - Demo files: `_active/demos/[coach-name]/`
 - This workflow does NOT touch `skills/*/` or `agents/*/` — that's MES territory
 - Quality gate from `directives/quality_gate.md` runs on every post output
+
+**Execution prompts**: before producing the deliverable, check `skills/ghostwriting-voice-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

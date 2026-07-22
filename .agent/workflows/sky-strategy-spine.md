@@ -12,3 +12,5 @@ Read and execute the full workflow: `skills/sky-tan-format-engine/workflows/stra
 ```
 /sky-strategy-spine [brand/creator] [what they sell] [niche/competitors]
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/sky-tan-format-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

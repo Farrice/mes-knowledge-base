@@ -19,3 +19,5 @@ A live session: target lock (biggest-problem + 20% test), a co-built CRIT, an in
 → `/gw-feedback-loop` (the triad iteration, run as a dedicated pass)
 → `/gw-persona-flip` (Challenger stress-test when the loop plateaus)
 → `/gw-20-percent` (run first if you're not sure which problem is the real 20%)
+
+**Execution prompts**: before producing the deliverable, check `skills/geoff-woods-ai-thought-partner/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

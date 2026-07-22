@@ -26,3 +26,5 @@ Follow the workflow in `01-content-audience-profile.md` exactly as written using
 
 ### 3. Save Output
 Save the completed audience profile to `.tmp/kieran-flanagan/audience-profile.md` (or user-specified location).
+
+**Execution prompts**: before producing the deliverable, check `skills/kieran-flanagan-audience-intelligence/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

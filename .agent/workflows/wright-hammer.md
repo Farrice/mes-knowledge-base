@@ -19,3 +19,5 @@ Build story architecture starting from the emotional ending (The Hammer).
    - Step 4: Build the Outline
 
 3. Run Quality Gate on the output.
+
+**Execution prompts**: before producing the deliverable, check `skills/wright-thompson-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

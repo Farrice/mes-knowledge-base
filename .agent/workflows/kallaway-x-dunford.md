@@ -27,3 +27,5 @@ Novelty here never changes what is claimed, only how it lands. Truth-bending (a 
 - Upstream: `dunford-positioning-diagnostic` / `product-positioning-blueprint` (truth spine), `/godin-handshake-dunford` (premise gate)
 - Downstream: `dunford-positioning-to-copy` (hands the novelty-passed frame to production copy)
 - Adjacent: `/novelty-audit` — this crossing specializes it for positioning claims with a truth-bend gate
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-illusion-of-novelty/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

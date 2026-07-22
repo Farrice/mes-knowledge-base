@@ -105,3 +105,4 @@ Use Sam Parr Copywriting OS as the direct-response mechanics layer only.
 - Do not finish without a changed section or copywork artifact.
 - Do not call the source extraction complete unless there is behavior-changing proof.
 
+**Execution prompts**: before producing the deliverable, check `skills/sam-parr-copywriting-mechanics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

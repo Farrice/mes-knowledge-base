@@ -17,3 +17,5 @@ Read these files in order:
 ## PHASE 2: EXECUTION
 
 Follow the workflow in `market-pickup-lines.md`. User provides the target market (and ideally the product). If sourcing/VOC is available, incorporate it; otherwise flag modeled language and recommend `/buyer-sourcer`.
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-avatar-machine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

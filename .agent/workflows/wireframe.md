@@ -52,3 +52,5 @@ This command is designed to be the **pre-flight** for any visual workflow:
 - Chain with `/generate-image` for wireframed image compositions
 - Chain with `/generate-asset` for wireframed marketing assets
 - Use standalone for quick visual planning
+
+**Execution prompts**: before producing the deliverable, check `skills/mark-kashef-visual-design/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

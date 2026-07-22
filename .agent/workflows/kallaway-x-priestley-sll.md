@@ -27,3 +27,5 @@ Single-post rescue with no cadence around it → `/novelty-forge` or `/novelty-a
 - Upstream: `01-sll-system-map` / `02-sll-short-form-daily` (cadence + lane bank)
 - Downstream: `03-sll-long-form-explainer` / `04-sll-lead-form` (unaffected, still fed by the same bridged posts)
 - Adjacent: `/kallaway-x-dunford` (positioning layer, not cadence layer); `/novelty-audit` (this crossing specializes it with the lane-level staleness mechanic)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-illusion-of-novelty/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

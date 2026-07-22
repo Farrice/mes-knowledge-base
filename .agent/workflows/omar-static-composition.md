@@ -15,3 +15,5 @@ End-to-end visual design system for ecommerce static ads. Treats ad design as ph
 **Use when**: Designing new product-led static ad, refreshing under-performing creative, building static variations from template, landing-page hero composition.
 
 ARGUMENTS: $ARGUMENTS
+
+**Execution prompts**: before producing the deliverable, check `skills/omar-eddaoudi-scaling-ops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

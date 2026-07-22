@@ -35,3 +35,5 @@ seedance-1080p is hard-blocked.
 Studio stages: `/fantastic-studio` · `/fantastic-reference-ground` · `/fantastic-art-direct` · `/fantastic-divergence` · `/fantastic-model-route` · `/fantastic-prompt-compile` · `/fantastic-generate-run` · `/fantastic-critique-refine` · `/fantastic-format-pack`
 Composes the design brain: `/satori-design-think` · `/satori-concept` · `/satori-color` · `/satori-lift-audit` · `/satori-anti-ai-slop`
 Dispatcher: `execution/creative_router.py` · Full spec: skills/fantastic-posters/workflows/05-prompt-compile.md
+
+**Execution prompts**: before producing the deliverable, check `skills/fantastic-posters/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

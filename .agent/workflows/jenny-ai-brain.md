@@ -22,3 +22,5 @@ Pipeline SOP outline (ideation/scripting/filming/editing), context-layer spec, o
 → `/liam-mley-ai-brain-builder` (architecture, memory design, system-prompt engineering)
 → `/ai-brain` (deploy/operate the brain via the repo's brain infrastructure)
 → `/forge-os` (turn the SOP into a reusable workflow/skill)
+
+**Execution prompts**: before producing the deliverable, check `skills/jenny-hoyos-shorts/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

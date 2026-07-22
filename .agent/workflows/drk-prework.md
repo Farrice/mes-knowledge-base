@@ -18,3 +18,5 @@ Run this BEFORE deploying any tactical expert workflow on a client or yourself.
    - Phase 4: Readiness Gate (confirm cleared state before tactical deployment)
 5. Output the Cleared Internal State assessment
 6. Proceed to tactical expert workflow only after gate passes
+
+**Execution prompts**: before producing the deliverable, check `skills/dr-k-consciousness/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

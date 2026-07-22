@@ -30,3 +30,5 @@ Solve the Likable Expert Paradox — make content sound like the smartest person
 - `/word-rhythm` → `/word-expert` (rhythm first, then likable expert layer)
 - `/proof-audit-360` (deep proof analysis before likable expert application)
 - `/word-sprint` (includes likable expert as Pass 4)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-word-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

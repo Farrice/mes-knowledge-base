@@ -17,7 +17,7 @@ Preserve these invariants:
 - `/end-session` owns whole-session closeout, retrieval handoff, and closeout intelligence capture.
 - It is not `/handoff` for a focused transfer packet and not `/steering-compass` for standalone next-prompt coaching.
 - Meaningful closeouts include session naming metadata, a concise handoff, `3 Next Prompts`, `Operator Lesson`, `Next-time prompt`, `Subagent worth it?`, and `Reuse hook`.
-- **Operator-guide library (Farrice 2026-07-13, binding):** every meaningful session files a scannable document in `guides/` — a full **operator guide** when the session shipped operator assets (skills/workflows/execution/directives), a **session brief** otherwise. The closeout spine's `session-guide` step writes a deterministic stub if nothing exists (coverage never depends on memory); the model half of `/end-session` MUST enrich that stub (or write the guide outright) per the format contract `guides/FORMAT.md` (exemplar: `docs/ROOT-CORE-OPERATOR-GUIDE.md`, plus the "If you only read 10 lines" block and command table) — set `status: enriched`, update `guides/INDEX.md` (use-case table + chronology, clear the Pending line), and stamp `python3 execution/operator_guide_sync.py record`. Never fall back to a bare change-list.
+- **Operator-guide library (Farrice 2026-07-13, binding):** every meaningful session files a scannable document in `guides/` — the closeout spine's `session-guide` step detects the tier (operator assets changed → **operator-guide**, otherwise **session-brief**) and writes a deterministic stub either way (coverage never depends on memory). Model enrichment is gated to the **operator-guide** tier ONLY: when the session shipped operator assets (skills/workflows/execution/directives), the model half of `/end-session` MUST enrich that stub (or write the guide outright) per the format contract `guides/FORMAT.md` (exemplar: `docs/ROOT-CORE-OPERATOR-GUIDE.md`, plus the "If you only read 10 lines" block and command table) — set `status: enriched`, update `guides/INDEX.md` (use-case table + chronology, clear the Pending line), and stamp `python3 execution/operator_guide_sync.py record`. For the **session-brief** tier, the deterministic stub (already derived from the handoff by the spine) stands — do not re-compose it. Never fall back to a bare change-list.
 - Closeout intelligence runs via the closeout spine (Step 1.4, `execution/end_session_closeout.py`), which in turn invokes `python3 execution/session_closeout_intelligence.py run --source end-session` as one of its steps — do not call it separately.
 - Conversation indexing uses the safe `python3 execution/conversation_index.py stats` check before any rebuild.
 - Optional cleanup must be reviewed; never publish, push, broadly delete, or perform destructive cleanup without explicit approval.
@@ -108,7 +108,9 @@ python execution/handoff_store.py save --from-temp \
 
 That frontmatter is what makes `/resume` a triage board (thread · status · what's-unfinished) instead of a flat list. (Resume side: `session-kickoff.md` Step 0 + `/resume`. The Stop hook nudges if `/handoff` ran but save didn't.)
 
-Then surface the **titled retrieval block** in chat. This is the standard closeout output — ALWAYS emit it verbatim in this shape, so Farrice sees the name, where it lives, and how to get back in, with zero renaming on his end:
+> **Never Read `.agent/handoffs/index.md` whole (~99KB)** — query handoffs via `python execution/handoff_store.py list` / `latest` instead.
+
+Then surface the **titled retrieval block** in chat — RENDER it from the just-written handoff's frontmatter and sections (quote, don't rewrite; the handoff is the single model-composed session narrative and this block is a derived view of it). ALWAYS emit it in this shape, so Farrice sees the name, where it lives, and how to get back in, with zero renaming on his end:
 
 ```markdown
 ## <Session Title, from the naming convention above>
@@ -148,10 +150,11 @@ Run:
 python3 execution/contextual_next_prompts.py --objective "end-session closeout for [session label]"
 ```
 
-Use the rendered `Suggested follow-ups` block as the closeout's 3 Next Prompts.
-Keep it concise if needed, but preserve the enriched fields. This step exists
-because the old hand-authored closeout shape made the repair invisible to the
-user.
+`contextual_next_prompts.py` is the renderer — surface its output as the
+closeout's 3 Next Prompts; do not re-compose it. If the output is awkward,
+improve the `--objective` and rerun the renderer (never hand-author a
+replacement block). This step exists because the old hand-authored closeout
+shape made the repair invisible to the user.
 
 ### 2. Update Conversation Index
 // turbo
@@ -166,12 +169,9 @@ Only update a specific conversation when the current conversation id is known:
 python execution/conversation_index.py update "$CURRENT_CONVERSATION_ID"
 ```
 
-### 3. Git Checkpoint (Optional)
-// turbo
-If the workspace is a Git repo, offer to commit:
-> "Want me to commit? `git add . && git commit -m 'Session: [Label]'`"
+### 3. Git Checkpoint
 
-Do not push without explicit confirmation.
+Commits are owned by the closeout spine's `commit-gate` step (Step 1.4 auto-commits; decline via `END_SESSION_NO_AUTOCOMMIT=1`) — do not offer a second manual commit here.
 
 ---
 

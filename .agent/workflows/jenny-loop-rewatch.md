@@ -21,3 +21,5 @@ Loop verdict (seamless-loop / second-question-plant / cold-open-fallback), rewat
 ## Stacks With
 → `/jenny-script-short` (installs into Phase 2's Lasting Payoff beat)
 → `/jenny-retention` (prescribed fix when retention is stuck flat at 100%)
+
+**Execution prompts**: before producing the deliverable, check `skills/jenny-hoyos-shorts/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

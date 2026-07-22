@@ -23,3 +23,5 @@ A paste-ready CRIT prompt with four labeled blocks (Context dumped verbose, Role
 → `/gw-feedback-loop` (iterate the first output the CRIT produces)
 → `/gw-20-percent` (run first if you're unsure the target is a real 20%)
 → `/gw-persona-flip` (add the Challenger when iteration plateaus)
+
+**Execution prompts**: before producing the deliverable, check `skills/geoff-woods-ai-thought-partner/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

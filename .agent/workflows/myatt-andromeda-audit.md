@@ -25,3 +25,5 @@ Load before execution:
 - Rebuild: feed audit into `/myatt-ces` or `/myatt-grid`
 - Research refresh: `/myatt-ivoc` if Relevance pillar failed
 - Standing QA: install `/myatt-vacation-test` as ongoing gate
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-myatt-creative-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

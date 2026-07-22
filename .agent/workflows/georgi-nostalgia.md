@@ -17,3 +17,5 @@ product mention. Georgi's highest-conversion lead architecture.
 ## Execution
 Load `skills/stefan-georgi-dopamine-copy/SKILL.md` and execute the
 `nostalgia-lead-builder` workflow at T2 tier (SKILL.md + genius.md).
+
+**Execution prompts**: before producing the deliverable, check `skills/stefan-georgi-dopamine-copy/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -27,3 +27,5 @@ Load before execution:
 - Pre-hire infrastructure: `/vince-data-bank-build`
 - Downstream: `/vince-vssl-ideation-pipeline` (operationalize the pod)
 - Pairs with: soowei `workflow architecture`, Danny Yeung `dtc scaling`
+
+**Execution prompts**: before producing the deliverable, check `skills/vince-nijhof-dtc-operator-system/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

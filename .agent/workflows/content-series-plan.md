@@ -58,3 +58,5 @@ python3 execution/chain_runner.py finalize "Content series plan — [series name
 
 ### 5. Save Output
 Save series plan to `.tmp/content-series/[topic-slug].md`.
+
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-newsletter-flywheel/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

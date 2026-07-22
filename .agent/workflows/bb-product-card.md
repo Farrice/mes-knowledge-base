@@ -37,3 +37,5 @@ Don't optimize all 5 at once. Pick ONE component where current score is lowest A
 - `/bb-audit` — usually triggers this drill-in
 - `Luke Iha` skill — write the product copy that goes IN the card
 - `/bb-collection-content` — content layer wraps the card grid
+
+**Execution prompts**: before producing the deliverable, check `skills/bitbranding-fashion-shopify/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -29,3 +29,5 @@ Sentence-level rhythm optimization using cognitive load theory and Kallaway's pa
 - `/word-tone` (rhythm first, then tone second)
 - `/word-grip` (rhythm + grip for maximum engagement)
 - `/word-sprint` (includes rhythm as Pass 1)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-word-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

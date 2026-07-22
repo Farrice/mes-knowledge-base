@@ -18,3 +18,5 @@ A compact scorecard (3 questions + 9-criterion rubric), the primary failure zone
 
 ## Stacks With
 → `/novelty-reveal` `/novelty-contrast` `/novelty-urgency` `/novelty-proof` `/novelty-protect` (the routed fixes)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-illusion-of-novelty/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

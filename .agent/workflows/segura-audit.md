@@ -14,3 +14,5 @@ Originality/ownership diagnostic for any angle or piece.
 **Use when**: Unsure if material is ownable or derivative; checking a crowded-topic angle.
 
 ARGUMENTS: $ARGUMENTS
+
+**Execution prompts**: before producing the deliverable, check `skills/tom-segura-comedy-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -12,3 +12,5 @@ Plan a rename or brand merger against the 3-year recovery rule so leadership doe
 3. Execute: price at 3 years → sequence internal alignment first → build aggression cadence → plan old→new bridge → set dip dashboard
 4. Produce: 3-year timeline (trough marked), internal-alignment gate, repetition cadence, old→new bridge plan, dip dashboard
 5. Finalize via chain_runner.py
+
+**Execution prompts**: before producing the deliverable, check `skills/donald-miller-messaging-evolution/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

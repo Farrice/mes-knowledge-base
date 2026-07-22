@@ -34,3 +34,5 @@ Run the Product Funnel Builder. The free asset must create decision motion and t
 - Email follow-up
 - Replay hooks
 - Proof gate
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

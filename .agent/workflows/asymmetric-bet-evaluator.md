@@ -19,3 +19,5 @@ Execute: skills/rory-sutherland-marketing/workflows/asymmetric-bet-evaluator.md
 
 ## Input
 - Decision/Bet Description + Estimated Cost to Test + Reversibility Assessment
+
+**Execution prompts**: before producing the deliverable, check `skills/rory-sutherland-marketing/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -14,3 +14,5 @@ Order a set/essay/thread so the audience is on your side before the dangerous li
 **Use when**: You have provocative material that would alienate if deployed cold.
 
 ARGUMENTS: $ARGUMENTS
+
+**Execution prompts**: before producing the deliverable, check `skills/tom-segura-comedy-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

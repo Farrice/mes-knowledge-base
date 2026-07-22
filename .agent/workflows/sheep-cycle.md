@@ -19,3 +19,5 @@ Diagnose copy-trap addiction and build an escape strategy.
    - 3-phase escape plan (Awareness → Transition → Independence)
    - 30-day check-in metrics
 5. Quality gate: honest tagging, root cause ID'd with evidence, phased plan is specific
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-content-science/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

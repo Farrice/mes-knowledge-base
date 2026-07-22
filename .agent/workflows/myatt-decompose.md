@@ -25,3 +25,5 @@ Load before execution:
 - Diagnostic upstream: `/myatt-three-s` to identify which time-category is the source
 - Care Square cross-check: `/myatt-care-square` if bottleneck is client-related
 - Land & Expand: `/myatt-land-expand` if bottleneck is client acquisition
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-myatt-creative-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

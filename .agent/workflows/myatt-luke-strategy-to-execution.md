@@ -26,3 +26,5 @@ Load before execution:
 ## Stacking
 - Quality QA: `/myatt-vacation-test` on output
 - AI-augmented variant: stack with `/myatt-ai-augmented-ces` for scale
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-myatt-creative-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

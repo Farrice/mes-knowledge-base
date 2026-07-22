@@ -18,3 +18,5 @@ Run the Objection-Proof Mapping workflow from the Proof Ladder Architecture skil
    - Audience context
 5. Produce complete objection → doubt type → proof weapon antidote map
 6. Finalize via chain_runner.py
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-proof-ladder/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

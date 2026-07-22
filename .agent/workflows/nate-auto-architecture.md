@@ -42,3 +42,5 @@ Meta/Task Separation, Trace Infrastructure Depth, Safety Monitoring — min 7 ea
 ### Step 6: Hand-off
 - Approved → `/nate-auto-traces` (WF 04)
 - Rejected → return to WF 02 readiness audit
+
+**Execution prompts**: before producing the deliverable, check `skills/nate-b-jones-auto-improvement-loops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

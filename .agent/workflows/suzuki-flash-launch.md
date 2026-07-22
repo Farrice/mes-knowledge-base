@@ -33,3 +33,5 @@ Run the Flash Launch. Scarcity must be real (time-boxed bonus, genuine cap, real
 - Reminder frames (mid / final)
 - Close + first-use + proof collection
 - Claim/risk ledger
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -17,3 +17,5 @@ description: AI production pipeline + human judgment layer
    - `skills/luke-iha-client-mastery/workflows/ai-orchestrated-ad-production.md`
 
 3. Run quality gate: Is the 4-phase pipeline functional (Brief → Generate → Judge → Finalize)?
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-client-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

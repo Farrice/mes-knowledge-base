@@ -92,3 +92,5 @@ Josh and MyBPM are proof examples, not templates. Load those project files only 
 - Direct quotes require a nearby source URL and quote confidence.
 - Source mechanics from Meg are not the same thing as live market evidence.
 - Paid/quota tools, authenticated scraping, browser automation, connector writes, external publishing, global mirrors, and real Codex subagents require explicit approval.
+
+**Execution prompts**: before producing the deliverable, check `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

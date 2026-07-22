@@ -16,3 +16,5 @@ Read these files in order:
 ## PHASE 2: EXECUTION
 
 Follow the workflow in `fascination-bullet-factory.md`. User provides product features/benefits.
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-vsl-leads/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

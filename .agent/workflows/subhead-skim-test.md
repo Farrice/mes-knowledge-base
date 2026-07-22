@@ -14,3 +14,4 @@ Execute Nicolas Cole's skim-path audit workflow.
 4. Gather title/promise and subheads, bullets, or section labels.
 5. Execute the workflow exactly as documented.
 
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-nonfiction-value-architecture/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

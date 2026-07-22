@@ -27,3 +27,5 @@ Follow the workflow. Requires:
 
 ### 4. Quality Gate
 All 4 C's present. Credibility specific not generic. Core learning in first 30 seconds. Wrapping paper (personality, environment) clearly separated from gift (expertise).
+
+**Execution prompts**: before producing the deliverable, check `skills/caleb-ralston-personal-brand/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -26,3 +26,5 @@ Load before execution:
 - Loads: Jeremy Haynes cold-offer composition (temperature classification, objection mining, core-vs-edition split)
 - Downstream: `/jh-value-crosscheck` (per-component value pressure-test), `/jh-offer-to-copy` (hand to copy/creative)
 - Re-migration (drift, not first staging): `/jh-temp-migrate`
+
+**Execution prompts**: before producing the deliverable, check `skills/april-dunford-positioning/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

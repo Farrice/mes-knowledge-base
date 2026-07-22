@@ -18,3 +18,5 @@ Produce obsession-architected video scripts with progressive level ascension.
 - **Video length**: Short-form (60-90s), mid-form (5-10m), or long-form (10-30m)?
 - **Desired action**: What should the viewer do after watching?
 - **Available proof**: Results, data, case studies
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-audience-obsession/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

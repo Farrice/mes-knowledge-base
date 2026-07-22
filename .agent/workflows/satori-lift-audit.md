@@ -43,3 +43,5 @@ A scored LIFT diagnostic:
 - `/satori-grid-select` + `/satori-movement-ladder` — if foundation gaps surface
 
 Full spec: `skills/satori-graphics/workflows/01-lift-audit.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/satori-graphics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

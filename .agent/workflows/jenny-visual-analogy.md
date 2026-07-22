@@ -21,3 +21,5 @@ Chosen analogy staging (prop, element mapping, physical motion), first-frame spe
 ## Stacks With
 → `/jenny-script-short` (fills the V-box before scripting)
 → `/jenny-hook` (staged-visual-analogy hook pattern)
+
+**Execution prompts**: before producing the deliverable, check `skills/jenny-hoyos-shorts/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

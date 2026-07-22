@@ -25,3 +25,5 @@ Read a person, transcript, or video by change-cluster-context: baseline → devi
    - `skills/chase-hughes-context-engineering/workflows/ce-read.md`
 
 4. Quality gate: Any "this means they're lying" certainty = automatic fail. Output must be a baseline + deviation clusters + a LIKELIHOOD statement, not a verdict.
+
+**Execution prompts**: before producing the deliverable, check `skills/chase-hughes-context-engineering/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

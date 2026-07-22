@@ -14,3 +14,5 @@ Read and execute the workflow at `skills/tom-segura-comedy-storytelling/workflow
 **Use when**: Starting any content/comedy project from zero material; building an idea reserve; mining a topic for what nobody has said yet.
 
 ARGUMENTS: $ARGUMENTS
+
+**Execution prompts**: before producing the deliverable, check `skills/tom-segura-comedy-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

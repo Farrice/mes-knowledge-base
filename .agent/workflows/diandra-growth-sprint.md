@@ -366,3 +366,5 @@ Save complete package to `.tmp/diandra-growth-sprint/sprint-[slug]-[date].md`.
 - If research finds no relevant entity news: suggest alternate entities or switch to `--find` mode
 - If sub-agent fails: present available variations, offer to regenerate the failed one
 - If boomerang viability < 5: skip boomerang strategy, focus on organic reach
+
+**Execution prompts**: before producing the deliverable, check `skills/diandra-escobar-linkedin-growth/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

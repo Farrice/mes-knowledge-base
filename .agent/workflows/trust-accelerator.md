@@ -18,3 +18,5 @@ Run the Trust Accelerator workflow from the Proof Ladder Architecture skill.
    - Target conversion timeline
 5. Produce compressed trust deployment strategy with proof injection points
 6. Finalize via chain_runner.py
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-proof-ladder/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

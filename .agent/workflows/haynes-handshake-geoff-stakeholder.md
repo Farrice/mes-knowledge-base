@@ -27,3 +27,5 @@ Load before execution:
 - Handoff artifact: the Verdict Sheet — per-element kill/revise/ship, verbatim objections, dissent log, self-selection finding
 - Guardrail: dissent between stakeholders is never averaged into a blended verdict
 - Pairs with: `skills/jeremy-haynes-cold-offer/workflows/jh-objection-mine.md`, `skills/jeremy-haynes-cold-offer/workflows/jh-offer-stack.md`, `skills/geoff-woods-ai-thought-partner/workflows/07-simulate-room.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/jeremy-haynes-cold-offer/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

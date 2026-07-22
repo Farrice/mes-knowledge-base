@@ -40,3 +40,5 @@ The skill carries:
 - If Diagnosis B (stuck value creator + reframe produced) → `/smith-big-fat-thing` (compress reframe into defensible sentence)
 - If Diagnosis C (genuine problem-solver) → `/smith-supply-side-audit` (defend against commoditization)
 - After any diagnosis → Grace `/grace-city-blueprint` (build brand identity around correct mode)
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-m-smith-natural-strategy/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

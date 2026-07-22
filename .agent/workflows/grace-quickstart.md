@@ -69,3 +69,5 @@ Compressed end-to-end onboarding using Workflow 18 (Zero-to-Scale Playbook), act
    - All 7 sprint pieces have trust pathway tags
    - Named person is specific (not demographic)
    - Data Kill Switch scheduled for Day 30
+
+**Execution prompts**: before producing the deliverable, check `skills/grace-andrews-media-company/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

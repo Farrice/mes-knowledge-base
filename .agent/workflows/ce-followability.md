@@ -20,3 +20,5 @@ Build genuine followability at the cause level: the five trust factors, micro-he
    - `skills/chase-hughes-context-engineering/workflows/ce-followability.md`
 
 3. Quality gate: Is this building the CAUSE (willingness to receive social injury + fuzzy belief it'll be okay) or drilling symptoms (36-inch hand gestures)? Followability ≠ correctness — is real substance present underneath?
+
+**Execution prompts**: before producing the deliverable, check `skills/chase-hughes-context-engineering/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

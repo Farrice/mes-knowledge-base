@@ -30,3 +30,5 @@ python3 execution/chain_runner.py finalize "Newsletter review cycle — [newslet
     --intent [1-10] --expert-score [1-10] --adversarial [1-10] \
     --notes "Monthly audit with Two Rules re-validation"
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-newsletter-flywheel/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

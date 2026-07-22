@@ -18,3 +18,5 @@ description: Awareness Ladder Converter
    - `skills/luke-iha-unaware-ads/workflows/awareness-ladder-converter.md`
 
 3. Run quality gate: Does each awareness level ad use fundamentally different hook types, proof densities, and CTA intensities? If they all sound similar, they're wrong.
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-unaware-ads/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

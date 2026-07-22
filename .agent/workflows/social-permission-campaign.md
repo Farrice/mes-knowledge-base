@@ -13,3 +13,5 @@ Run the McRaney Social Permission & Norm-Shift Campaign builder.
 3. Execute with inputs: Product/Offer/Position, Audience, Community, Suspected Social Barrier (optional)
 4. Produce: Social Death Calculation, Pluralistic Ignorance Detection, Permission Architecture, Face-Saving Narrative, 5-Touchpoint Campaign Architecture, Content Briefs
 5. Finalize via chain_runner.py
+
+**Execution prompts**: before producing the deliverable, check `skills/david-mcraney-belief-change/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -8,3 +8,5 @@ Run the **Multi-Pod Scaling Protocol** workflow.
 
 ## Produces
 Scaling Readiness Assessment + Multi-Pod Architecture + Resource Sharing Blueprint
+
+**Execution prompts**: before producing the deliverable, check `skills/oren-content-team-architecture/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

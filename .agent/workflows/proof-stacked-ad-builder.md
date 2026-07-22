@@ -18,3 +18,5 @@ Run the Proof-Stacked Ad Builder workflow from the Proof Ladder Architecture ski
    - Platform (Facebook, Instagram, YouTube, etc.)
 5. Produce complete ads with multi-tier proof architecture and hook variants
 6. Finalize via chain_runner.py
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-proof-ladder/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

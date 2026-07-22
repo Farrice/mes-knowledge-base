@@ -91,3 +91,5 @@ Four-layer quality gate before any content goes live:
    - **Composite 5-6**: ITERATE — fix the weakest layer, re-run that layer only
    - **Composite <5**: Back to drafting. Piece needs fundamental rework
    - **Anti-perfectionism guard**: If composite ≥7 and you're still hesitating → SHIP IT. Testing > perfection (HK-6)
+
+**Execution prompts**: before producing the deliverable, check `skills/grace-andrews-media-company/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

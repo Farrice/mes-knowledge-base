@@ -20,3 +20,5 @@ Load before execution:
 - Quality QA: `/myatt-vacation-test` on output
 - Hook depth: `/myatt-vicious-diversity` for hook multiplication
 - Full deployment: `/myatt-ces` if you also need SOPs/cadence
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-myatt-creative-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

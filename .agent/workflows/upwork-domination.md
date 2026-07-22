@@ -18,3 +18,5 @@ description: Upwork Domination Blueprint
    - `skills/luke-iha-creative-strategy/workflows/upwork-domination-blueprint.md`
 
 3. Run quality gate: Does the output feel like a real strategic plan or generic advice?
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-creative-strategy/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

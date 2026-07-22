@@ -22,3 +22,5 @@ VIRAL table, full timestamped script (VISUAL/AUDIO columns), progression mechani
 → `/jenny-hook` (generate ranked hook options before scripting)
 → `/jenny-idea-ladder` (source the idea) · `/jenny-visual-analogy` (stage the V-box) · `/jenny-cast` (cast characters)
 → `/jenny-retention` (diagnose after posting)
+
+**Execution prompts**: before producing the deliverable, check `skills/jenny-hoyos-shorts/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

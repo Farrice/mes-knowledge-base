@@ -21,3 +21,5 @@ Head Fake Design Package — prediction inventory, 5-candidate scorecard (Surpri
 ## Stacks With
 → `/big-question-calibrator` (calibrate the question this head fake breaks)
 → `/rehook-architect` (design the transition after the head fake)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-addictive-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

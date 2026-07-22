@@ -15,3 +15,5 @@ Deploy Michael Connelly's Character Design Blueprint.
 5. Produce character sheet + first appearance draft
 6. Run quality gate from the workflow
 7. Fire quality assurance per `directives/quality_assurance.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/michael-connelly-vivid-writing/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

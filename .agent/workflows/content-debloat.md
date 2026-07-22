@@ -35,3 +35,5 @@ Validate against the workflow's quality gate. Target anti-pattern: **The Everyth
 After delivery, recommend:
 - `/content-funnel` if multiple pieces are chronically bloated (the funnel fixes the root cause)
 - `/promise-payoff` to structure the de-bloated piece's single promise
+
+**Execution prompts**: before producing the deliverable, check `skills/tom-noske-content-creation/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

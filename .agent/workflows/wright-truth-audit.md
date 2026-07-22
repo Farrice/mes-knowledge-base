@@ -19,3 +19,5 @@ Audit a draft for evidence density and diagnose purple prose as an evidence prob
    - Step 4: Rewrite with Evidence
 
 3. Run Quality Gate on the output.
+
+**Execution prompts**: before producing the deliverable, check `skills/wright-thompson-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

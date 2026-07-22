@@ -22,3 +22,5 @@ Full Addiction Loop Blueprint — loop density plan, stakes architecture, big qu
 ## Stacks With
 → `/loop-chain-scripting` (turn the blueprint into a finished script)
 → `/stakes-engineer` + `/big-question-calibrator` + `/head-fake-forge` + `/rehook-architect` (precision component build)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-addictive-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -62,3 +62,5 @@ Save to `research_outputs/[date]-new-media-audit-[org-slug].md`
 ## Structural Rebuild Plan (Week 1 → 7-Day Sprint → 30-Day)
 ## Prioritized Fix List (by impact/effort)
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/andreessen-horowitz-new-media/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -19,3 +19,5 @@ A tool-agnostic master profile in your voice (Woods' "high-D, zero patience, giv
 → `/gw-thinking-leverage` (encode the operator's own-100% standard into a portable AI profile)
 → `/gw-cognitive-guard` (the profile keeps AI adversarial; the guard keeps your own thinking in the loop)
 → `/gw-voice-persona` (a writing-voice markdown persona is the content sibling of this operating profile)
+
+**Execution prompts**: before producing the deliverable, check `skills/geoff-woods-ai-thought-partner/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

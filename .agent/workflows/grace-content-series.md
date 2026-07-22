@@ -64,3 +64,5 @@ Save to `.tmp/grace-andrews/content-series-[topic-slug].md`
 ## Production Calendar (30-60 days)
 ## Pilot Episode Deep Design
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/grace-andrews-media-company/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

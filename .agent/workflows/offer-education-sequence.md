@@ -15,3 +15,5 @@ Execute Nicolas Cole's offer education sequence workflow.
 3. Route: Nicolas Cole -> `nicolas-cole-sales-education-messaging` skill, `offer-education-sequence` workflow.
 4. Gather the audience, offer, medium, time horizon, and desired action.
 5. Execute the workflow exactly as documented.
+
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-sales-education-messaging/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

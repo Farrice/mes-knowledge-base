@@ -26,3 +26,5 @@ Load before execution:
 - Upstream: `/vince-data-bank-build`, `/vince-emotional-angle-engine`
 - Downstream: `/vince-intent-first-launch` for kill committee
 - Pairs with: Luke Iha `vsl-architecture`, Brad Bonanno `explainer-architecture`, Ron Lynch `drtv-to-vsl-translation`
+
+**Execution prompts**: before producing the deliverable, check `skills/vince-nijhof-dtc-operator-system/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

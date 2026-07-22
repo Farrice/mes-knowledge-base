@@ -44,3 +44,5 @@ Plus: Expert Analysis Pass + Performance Enhancement Notes.
 - **Listing posters (batch)** — `skills/fantastic-posters/templates/listing-batch.json`. Edit listings array, run `node generate.js --batch=...`. Native `luxury-real-estate` + `luxury-estate-cover` styles. Per-listing cost: $0.17 high quality. **Always pre-flight via `python3 execution/fal_budget_guard.py check --quality=high --n=<chunk_size>`** — guard enforces $1/call ceiling, so split 10+ listing batches into chunks of 5.
 
 Full spec: `skills/jen-santulan-listing-content/workflows/01-listing-content.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/jen-santulan-listing-content/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

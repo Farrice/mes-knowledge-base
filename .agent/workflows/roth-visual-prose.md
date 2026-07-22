@@ -19,3 +19,5 @@ Deploy Eric Roth's visual prose cinematography to any written content.
    - Phase 4: Erosion Pass
 
 3. Run Quality Gate on the output.
+
+**Execution prompts**: before producing the deliverable, check `skills/eric-roth-writing-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

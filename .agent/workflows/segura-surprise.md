@@ -14,3 +14,5 @@ Build surprise into any payoff; engineer the laugh they didn't want to give.
 **Use when**: A payoff is predictable, or you want a higher-magnitude turn.
 
 ARGUMENTS: $ARGUMENTS
+
+**Execution prompts**: before producing the deliverable, check `skills/tom-segura-comedy-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

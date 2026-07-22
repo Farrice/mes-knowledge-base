@@ -13,3 +13,4 @@ Read these files before executing:
 
 Execute the workflow in full and produce the finished fourth-wall client experience.
 
+**Execution prompts**: before producing the deliverable, check `skills/rafa-conde-fourth-wall-experience-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

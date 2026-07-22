@@ -123,3 +123,5 @@ Stop and ask before:
 - DMs, comments, likes, follows, or outreach
 - writing outside the workspace
 - building the actual plugin when readiness is below `PACKAGE NOW`
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-ai-content-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

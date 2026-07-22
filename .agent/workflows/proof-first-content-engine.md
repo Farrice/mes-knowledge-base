@@ -19,3 +19,5 @@ Run the Proof-First Content Engine workflow from the Proof Ladder Architecture s
    - Voice/tone
 5. Produce platform-optimized content with proof-first architecture
 6. Finalize via chain_runner.py
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-proof-ladder/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

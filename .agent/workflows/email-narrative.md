@@ -18,3 +18,5 @@ Deploy Pressfield's narrative physics to build multi-email sequences where each 
 
 - Stack with **Luke Iha** for direct response copy mechanics within each email
 - Stack with **Cardinal Mason** for AI-assisted copywriting execution
+
+**Execution prompts**: before producing the deliverable, check `skills/steven-pressfield-narrative-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

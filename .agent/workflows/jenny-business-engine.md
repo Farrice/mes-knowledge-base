@@ -21,3 +21,5 @@ Stage verdict (sub-scale/mid/scale), a derived revenue-mix target, sponsor archi
 ## Stacks With
 → `/jenny-lens-niche` (niche legibility feeds the sponsor-fit pitch)
 → `/jenny-longform-umbrella` (the shorts→long funnel feeds the roadmap)
+
+**Execution prompts**: before producing the deliverable, check `skills/jenny-hoyos-shorts/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

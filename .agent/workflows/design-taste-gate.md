@@ -178,3 +178,5 @@ If overall score < 7.5: **NEEDS REFINEMENT** — Apply directives and re-run tas
 - **`--quick`**: CEV audit only — skip detailed typography/composition audit and assumption scan. Fastest feedback loop.
 - **`--deep`**: Add Kittl's full Design Mastery Quality Audit workflow for professional-grade review. Most thorough.
 - **`--compare [brief]`**: Diff the current design against the original `/design-brief` output to identify where execution diverged from direction.
+
+**Execution prompts**: before producing the deliverable, check `skills/kittl-graphic-design/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

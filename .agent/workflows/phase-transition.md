@@ -17,3 +17,5 @@ Run the Joscha Bach Phase Transition Design workflow.
    - Step 4: Spark Test (minimum viable coherence demonstration)
 4. Output in the specified format
 5. Run quality gate
+
+**Execution prompts**: before producing the deliverable, check `skills/joscha-bach-consciousness/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

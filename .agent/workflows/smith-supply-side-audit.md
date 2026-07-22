@@ -40,3 +40,5 @@ The skill carries:
 - If Path B (Cohort) chosen → McRaney `/mcraney-deep-canvass` (deepen cohort understanding)
 - If Path C (Mechanism) chosen → `/name-framework` (formalize mechanism naming)
 - After any path → `/smith-big-fat-thing` (lock one-sentence positioning)
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-m-smith-natural-strategy/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

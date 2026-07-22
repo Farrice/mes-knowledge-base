@@ -26,3 +26,5 @@ Load before execution:
 - Prerequisite: `/myatt-ivoc` if no IVOC bank
 - Within CES: feed bank into `/myatt-ces` Step 6 (Hook Layering)
 - Quality QA: `/myatt-vacation-test` on top 10 before production
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-myatt-creative-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

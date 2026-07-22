@@ -16,3 +16,5 @@ description: Separate outcome attachment from daily action capacity
    - Phase 4: Tranquility Gate (design daily check for action-from-clarity vs. action-from-anxiety)
 5. Output the Action Protocol
 6. Run quality gate
+
+**Execution prompts**: before producing the deliverable, check `skills/dr-k-consciousness/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

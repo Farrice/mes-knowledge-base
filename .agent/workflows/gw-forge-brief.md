@@ -23,3 +23,5 @@ Dominoes verdict (BUILD-WORTHY / PREMATURE / NOT-A-BUILD) → CRIT interview cap
 → `/gw-crit` (the Context-Role-Interview-Task engine this runs on)
 → `/extract-forge` (when source material exists to ground a skill, not a bare-concept build)
 → `/create-agent` (downstream, once a BUILD-WORTHY agent brief clears and data is centralized)
+
+**Execution prompts**: before producing the deliverable, check `skills/geoff-woods-ai-thought-partner/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

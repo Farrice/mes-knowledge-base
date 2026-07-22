@@ -19,3 +19,5 @@ Build manifestos and declarations that feel like compressed hero's journeys — 
 - Stack with **Greg Hoffman** for brand-level manifesto work (Nike methodology)
 - Stack with **Donald Miller** for StoryBrand alignment
 - Stack with **Oren** for taste gate on the final document
+
+**Execution prompts**: before producing the deliverable, check `skills/steven-pressfield-narrative-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

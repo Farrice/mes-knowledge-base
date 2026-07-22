@@ -32,3 +32,5 @@ The supercomputer-grade composite — end-to-end context-engineering build for a
 4. For multi-deliverable missions, run under `/supercomputer` (anchor memory + cost gate). Hand each piece to its production expert (Luke Iha copy, Lara Acosta LinkedIn, Caleb 4C, etc.).
 
 5. Quality gate: every offensive mechanic deployed with its defense; destabilization check passed (reducing chaos + supplying clarity, not manufacturing chaos to sell the cure).
+
+**Execution prompts**: before producing the deliverable, check `skills/chase-hughes-context-engineering/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

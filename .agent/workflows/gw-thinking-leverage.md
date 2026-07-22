@@ -19,3 +19,5 @@ Mode + own-100% frame, a daycare-vs-department-chair dependency read, their self
 → `/gw-skill-to-agent` (own-operator mode: build AI leverage around your own 20%)
 → `/gw-cognitive-guard` (owning 100% of your thinking, not just your tasks — pair for the operator's own reps)
 → `/gw-custom-instructions` (encode the operator's own standard into a portable AI profile)
+
+**Execution prompts**: before producing the deliverable, check `skills/geoff-woods-ai-thought-partner/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

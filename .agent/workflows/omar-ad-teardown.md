@@ -16,3 +16,5 @@ Systematic teardown methodology. Transforms looking at ads from "I like this one
 **Use when**: Studying competitor ads, auditing own portfolio, building swipe file, diagnosing stuck-brand creative.
 
 ARGUMENTS: $ARGUMENTS
+
+**Execution prompts**: before producing the deliverable, check `skills/omar-eddaoudi-scaling-ops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

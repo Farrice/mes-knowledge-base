@@ -39,3 +39,5 @@ The skill carries:
 - After choosing a sacrifice → `/smith-supply-side-audit` (confirm scarcity creation)
 - For brand build → Grace `/grace-city-blueprint`
 - For pitch frame → Oren Klaff `/oren-pitch-architecture`
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-m-smith-natural-strategy/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

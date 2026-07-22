@@ -21,3 +21,5 @@ Triad-verified personality profiles per stakeholder, a room-dynamics map, a per-
 → `/gw-persona-flip` (harden the artifact before you simulate the room reading it)
 → `/gw-ai-board` (the profiles built here can seed a standing AI board)
 → `/gw-crit` (the interview + triad engine underneath the profiling)
+
+**Execution prompts**: before producing the deliverable, check `skills/geoff-woods-ai-thought-partner/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

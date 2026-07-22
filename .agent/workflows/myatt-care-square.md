@@ -27,3 +27,5 @@ Generalizes beyond ad agencies — works for ghostwriting, advisory, real estate
 ## Stacking
 - Pairs with `/myatt-land-expand` (strong Care Square = expansion-ready)
 - Cross-expert: every Tier 1 expert in the roster benefits — domain-general
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-myatt-creative-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

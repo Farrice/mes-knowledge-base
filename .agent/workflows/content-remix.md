@@ -18,3 +18,5 @@ Generate original content by applying extracted principles to your niche.
    - Full content briefs with Detail Stack decisions
    - Priority ranking
 5. Quality gate: all concepts pass Purple Cow + Source Trace tests, 3+ Detail Stack decisions per concept
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-content-science/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

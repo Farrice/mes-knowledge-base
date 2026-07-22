@@ -17,3 +17,5 @@ description: Train body-sensation judgment for AI-era creative strategy
    - `skills/luke-iha-client-mastery/workflows/paid-to-feel-judgment.md`
 
 3. Run quality gate: Can the user reliably detect signal vs slop using bodily sensation?
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-client-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

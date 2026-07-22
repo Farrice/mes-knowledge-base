@@ -10,3 +10,5 @@ End-to-end content via composition: Stanton owns the architecture (premise / spi
 1. Load the Andrew Stanton spine: read `skills/andrew-stanton-audience-engineering/genius.md` (voice + Decision Framework + Anti-Patterns) and `references/implementation.md` (the stack + per-format engine routing).
 2. Read and execute the full workflow at `skills/andrew-stanton-audience-engineering/workflows/stanton-produce.md` exactly as documented (story gate → architecture → route to engine → clamp-audit QA loop → voice/prose/fact gates → finalize).
 3. Run the Quality Gate (`genius.md` § Anti-Patterns + § Expert-Specific Quality Rubric) before delivering. Composition only — never rebuild copy-engine / parallax / linkedin-daily.
+
+**Execution prompts**: before producing the deliverable, check `skills/andrew-stanton-audience-engineering/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

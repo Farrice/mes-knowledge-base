@@ -19,3 +19,5 @@ A meta-structured outline that performs the framework on the reader/viewer + a s
 ## Stacks With
 → `/novelty-forge` (the framework being performed)
 → kallaway-audience-obsession (belief-shift payload)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-illusion-of-novelty/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

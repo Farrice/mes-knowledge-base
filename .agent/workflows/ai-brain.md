@@ -122,3 +122,5 @@ After delivery, suggest:
 - "Want me to start implementing the Quick Win automations right now?"
 - "Should we compound this with @nick-saraev for self-annealing automation architecture?"
 - "Ready to productize this as a service? Run `/deploy-skill paul-james-ai-automation` for pricing."
+
+**Execution prompts**: before producing the deliverable, check `skills/liam-mley-ai-brain-builder/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

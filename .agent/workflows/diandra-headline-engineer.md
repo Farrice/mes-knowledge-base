@@ -26,3 +26,5 @@ Engineers LinkedIn headlines that serve two masters: the unified Llama 3 retriev
 4. **Generates**: 5 headline candidates using different architectural patterns
 5. **Scores**: Each on AI matching AND human conversion
 6. **Delivers**: Top 2 recommendations with reasoning
+
+**Execution prompts**: before producing the deliverable, check `skills/diandra-escobar-linkedin-growth/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

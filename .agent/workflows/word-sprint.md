@@ -38,3 +38,5 @@ The full-stack articulation transformation — runs content through all 6 passes
 - Use after any content creation workflow for maximum polish
 - `/ip-flywheel` → `/word-sprint` (strategy → full articulation treatment)
 - `/proof-copy-engine` → `/word-sprint` (proof-first copy → articulation mastery)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-word-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

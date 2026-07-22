@@ -60,3 +60,5 @@ Present the fully eroded version alongside a change log explaining what was remo
 - SKILL FILES READ: [list]
 - PATTERNS APPLIED: [list by name]
 - QUALITY CHECK: Is the eroded draft at least 15% shorter AND more emotionally potent? Both must be true.
+
+**Execution prompts**: before producing the deliverable, check `skills/eric-roth-screenwriting-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

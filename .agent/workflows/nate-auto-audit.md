@@ -41,3 +41,5 @@ Score against: Prerequisite Completeness, Trace Infrastructure Depth, Revert Cap
 - PROCEED → invoke `/nate-auto-architecture` (WF 03)
 - BUILD FIRST → remediation owners + re-audit schedule
 - STOP → scope foundational project
+
+**Execution prompts**: before producing the deliverable, check `skills/nate-b-jones-auto-improvement-loops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

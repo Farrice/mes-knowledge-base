@@ -20,3 +20,5 @@ Provide:
 ## Stacks With
 → `/novelty-reveal` + `/novelty-contrast` (supply the inputs)
 → hook-engineering-matrix (kallaway-content-psychology — neurochemical curiosity-gap variant)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-illusion-of-novelty/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -116,3 +116,5 @@ A fresh operator should be able to ask:
 ```
 
 The system must identify the live source-evidence paths, the component order, context/access risks, approval gates, validation checks, and the first action without hidden chat context.
+
+**Execution prompts**: before producing the deliverable, check `skills/fryderyk-wiatrowski-ai-employee-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

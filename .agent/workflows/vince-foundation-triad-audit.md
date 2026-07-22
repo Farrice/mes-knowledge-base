@@ -25,3 +25,5 @@ Load before execution:
 ## Stacking
 - Required gate before: `/vince-creative-pod-architect`, `/vince-omni-channel-readiness`, `/vince-portfolio-acquisition-blueprint`
 - Pairs with: Danny Yeung `dtc scaling` for post-audit pivots
+
+**Execution prompts**: before producing the deliverable, check `skills/vince-nijhof-dtc-operator-system/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -19,3 +19,5 @@ Execute: skills/rory-sutherland-marketing/workflows/perception-metric-reframe.md
 
 ## Input
 - Current Metric + Context + Audience + Decision Being Made
+
+**Execution prompts**: before producing the deliverable, check `skills/rory-sutherland-marketing/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

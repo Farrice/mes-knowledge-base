@@ -17,3 +17,5 @@ description: Systematic testimonial collection
    - `skills/luke-iha-client-mastery/workflows/testimonial-extraction.md`
 
 3. Run quality gate: Does the user have 5-10 ghost-written testimonials sent with follow-up cadence active?
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-client-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

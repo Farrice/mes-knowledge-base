@@ -17,3 +17,5 @@ Read these files in order:
 ## Execution
 
 Follow `course-module-architect.md`. The user provides a lesson idea, ICP, final product outcome, and desired module action.
+
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-digital-products/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

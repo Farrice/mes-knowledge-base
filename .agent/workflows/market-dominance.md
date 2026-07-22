@@ -17,3 +17,5 @@ description: Niche selection, economic response, and market domination strategy
    - Lead source strategy (urgency niches, geographic farm, sphere)
    - Economic shift response plan
 5. Quality gate: plan is math-driven with specific KPIs, not motivational fluff
+
+**Execution prompts**: before producing the deliverable, check `skills/joshua-smith-real-estate/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

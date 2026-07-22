@@ -10,3 +10,5 @@ Full-inventory triage across every open research question — SYNTHETIC-SUFFICIE
 1. Load the Mike Taylor spine: read `skills/mike-taylor-synthetic-research/genius.md` (Pattern 16, Pattern 17, Real-Research Boundary).
 2. Read and execute the full workflow at `skills/mike-taylor-synthetic-research/workflows/mt-synthetic-vs-real-decision.md` exactly as documented (Pre-Flight, Steps, Output Format, Quality Gate).
 3. Run the Quality Gate before delivering.
+
+**Execution prompts**: before producing the deliverable, check `skills/mike-taylor-synthetic-research/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -17,3 +17,5 @@ Translates customer research → 1-page condensed-juice avatars + neural marketi
 **Use when**: After research stack complete, before any creative briefing, avatars feel theoretical.
 
 ARGUMENTS: $ARGUMENTS
+
+**Execution prompts**: before producing the deliverable, check `skills/omar-eddaoudi-scaling-ops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

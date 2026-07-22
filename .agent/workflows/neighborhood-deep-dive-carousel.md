@@ -41,3 +41,5 @@ Execute: skills/jen-santulan-listing-content/workflows/03-neighborhood-deep-dive
 Sherman Oaks, Encino, Canoga Park, Reseda, Tarzana, Lake Balboa, West Hills, Woodland Hills, Van Nuys
 
 Full spec: `skills/jen-santulan-listing-content/workflows/03-neighborhood-deep-dive-carousel.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/jen-santulan-listing-content/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

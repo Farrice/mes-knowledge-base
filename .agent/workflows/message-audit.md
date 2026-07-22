@@ -40,3 +40,5 @@ Before delivering, verify:
 ## OUTPUT
 
 Deliver the formatted audit report with scores, diagnosis, and prioritized fixes with example copy.
+
+**Execution prompts**: before producing the deliverable, check `skills/donald-miller-storybrand/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

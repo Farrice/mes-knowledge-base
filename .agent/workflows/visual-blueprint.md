@@ -50,3 +50,5 @@ Present the completed asset with:
 - For **slide decks specifically**, this command automatically invokes the Slide Deck Architect workflow which handles narrative architecture + per-slide wireframing
 - For **technical diagrams**, this routes to the Design System Visualizer with complexity simplification
 - The **taste gate** is optional but recommended for high-stakes deliverables (client work, revenue-generating assets)
+
+**Execution prompts**: before producing the deliverable, check `skills/mark-kashef-visual-design/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

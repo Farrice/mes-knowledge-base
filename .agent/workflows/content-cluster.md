@@ -27,3 +27,5 @@ Follow the workflow in `04-content-cluster.md` using the loaded genius context.
 
 ### 3. Save Output
 Save cluster map to `.tmp/kieran-flanagan/content-clusters.md`.
+
+**Execution prompts**: before producing the deliverable, check `skills/kieran-flanagan-audience-intelligence/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

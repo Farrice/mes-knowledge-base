@@ -23,3 +23,5 @@ Works on Meta ads, LinkedIn posts, email sequences, Substack editions, YouTube u
 - Pre-launch gate: install before EVERY batch ships
 - After audit: verify rebuild from `/myatt-andromeda-audit`
 - Rebuild source: `/myatt-grid` for full re-spec
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-myatt-creative-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

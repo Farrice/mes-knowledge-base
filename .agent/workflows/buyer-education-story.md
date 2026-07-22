@@ -34,3 +34,5 @@ Execute: skills/jen-santulan-listing-content/workflows/02-buyer-education-story.
 5. First-Year-as-Homeowner Reality
 
 Full spec: `skills/jen-santulan-listing-content/workflows/02-buyer-education-story.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/jen-santulan-listing-content/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

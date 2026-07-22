@@ -56,3 +56,5 @@ python3 execution/chain_runner.py finalize "360 Brand Audit for [name]" \
     --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "[top weaknesses found, fix routes recommended]"
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/caleb-ralston-personal-brand/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

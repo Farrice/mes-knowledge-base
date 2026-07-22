@@ -42,3 +42,5 @@ Grid spec:
 - `/satori-design-md-grid` — codify grid choices into DESIGN.md tokens
 
 Full spec: `skills/satori-graphics/workflows/03-grid-select.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/satori-graphics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

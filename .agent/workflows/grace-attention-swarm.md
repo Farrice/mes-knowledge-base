@@ -95,3 +95,5 @@ Package into a platform-organized playbook with:
 
 ### 7. Save Output
 Save to `.tmp/grace-andrews/attention-swarm-[brand-slug].md`
+
+**Execution prompts**: before producing the deliverable, check `skills/grace-andrews-media-company/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

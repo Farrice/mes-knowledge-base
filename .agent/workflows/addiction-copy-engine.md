@@ -24,3 +24,5 @@ Loop-Driven Copy Package — loop architecture, full polished copy with CTA, ann
 → `/addiction-loop-diagnostic` (audit existing copy first)
 → `/loop-density-optimizer` (compress after writing)
 → `/obsession-copy-engine` (combine loop architecture with obsession mechanics)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-addictive-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

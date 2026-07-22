@@ -64,3 +64,5 @@ Read the prose aloud. It should have a cadence — not poetry, but musical. Roth
 - SKILL FILES READ: [list]
 - PATTERNS APPLIED: [list by name]
 - QUALITY CHECK: Close your eyes after reading the prose. Can you see the scene? Feel it? That's the test.
+
+**Execution prompts**: before producing the deliverable, check `skills/eric-roth-screenwriting-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

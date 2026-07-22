@@ -17,3 +17,5 @@ Architect a 3-5 piece content series using Kallaway's obsession level progressio
 - **Target audience**: Who specifically?
 - **Ultimate action**: What should they do after the full series?
 - **Content format**: Video scripts, blog posts, emails, social posts, etc.
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-audience-obsession/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

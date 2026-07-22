@@ -14,3 +14,5 @@ Read and execute the workflow at `skills/omar-eltakrori/workflows/micro-famous.m
 3. `skills/omar-eltakrori/references/genius-patterns.md` — load if relevant to the task
 
 Then execute the workflow's steps exactly as documented. Run the Quality Gate (`genius.md` rubric + Anti-Patterns) before delivering.
+
+**Execution prompts**: before producing the deliverable, check `skills/omar-eltakrori/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

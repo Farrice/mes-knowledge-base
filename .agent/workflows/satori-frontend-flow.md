@@ -40,3 +40,5 @@ A Frontend Flow Brief: the page spine (finisher-first), a section beat map (PUNC
 - `/satori-design-think` — upstream full pipeline when concept is undecided
 
 Full spec: `skills/satori-graphics/workflows/26-frontend-flow.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/satori-graphics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

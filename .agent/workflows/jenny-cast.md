@@ -20,3 +20,5 @@ The aspirational/relatable pair, full cast with named trait-distinct characters,
 
 ## Stacks With
 → `/jenny-script-short` (cast feeds directly into the script's character beats)
+
+**Execution prompts**: before producing the deliverable, check `skills/jenny-hoyos-shorts/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

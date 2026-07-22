@@ -15,3 +15,5 @@ Read these files in order:
 ## PHASE 2: EXECUTION
 
 Follow the portfolio-building workflow in `client-portfolio-builder.md`. User provides target niche and dream brands.
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-cross-domain/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

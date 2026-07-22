@@ -21,3 +21,5 @@ Rehook Chain Design — danger zone map, rehook designs with connective phrases,
 ## Stacks With
 → `/head-fake-forge` (design the head fake that precedes each rehook)
 → `/loop-density-optimizer` (compress the transitions further)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-addictive-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

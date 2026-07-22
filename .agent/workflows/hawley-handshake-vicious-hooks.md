@@ -27,3 +27,5 @@ Single-post hooks with no series context (no installment before or after to plan
 - Upstream: `/hawley-content-season` (builds the season bible this workflow reads), `/hawley-tonal-arc` (deepens the tonal-arc compression in Step 1)
 - Downstream: `/hook-viciousness-audit` (second-pass QA on the finished hook set, independent of arc position)
 - Adjacent: `/luke-iha-vicious-hooks` / `/vicious-hook` — this crossing specializes it for series work with a Plant Map and No-Context Test neither alone provides
+
+**Execution prompts**: before producing the deliverable, check `skills/noah-hawley-storytelling-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

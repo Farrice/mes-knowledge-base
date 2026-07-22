@@ -18,3 +18,5 @@ Architect obsession-level email sequences using Kallaway's progressive framework
 - **Desired action**: What should they do after the sequence?
 - **Sequence length** (optional): Defaults to 5 emails
 - **Available proof**: Results, data, testimonials
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-audience-obsession/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

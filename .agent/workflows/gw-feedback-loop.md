@@ -21,3 +21,5 @@ An elevated draft: the bad-answer frame, triad rounds (like / don't-like / top-c
 → `/gw-persona-flip` (the Challenger stress-test, triggered on plateau)
 → `/gw-thought-partner` (the triad runs inside a full session)
 → `/gw-crit` (produces the first pass this loop then elevates)
+
+**Execution prompts**: before producing the deliverable, check `skills/geoff-woods-ai-thought-partner/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

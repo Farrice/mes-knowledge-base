@@ -27,3 +27,5 @@ Follow the workflow in `01-content-orchestrate.md` using the loaded genius conte
 
 ### 3. Save Output
 Save session output to `.tmp/kieran-flanagan/session-[date]/`.
+
+**Execution prompts**: before producing the deliverable, check `skills/kieran-flanagan-content-ops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

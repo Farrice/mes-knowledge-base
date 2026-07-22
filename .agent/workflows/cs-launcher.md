@@ -17,3 +17,5 @@ description: Zero-to-hired creative strategist blueprint
    - `skills/luke-iha-client-mastery/workflows/creative-strategist-launcher.md`
 
 3. Run quality gate: Does the user have a clear positioning statement and 30-day launch plan?
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-client-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

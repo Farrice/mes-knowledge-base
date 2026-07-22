@@ -243,3 +243,5 @@ echo "# Test Brand Anchor\n\nWe make X for Y." > /tmp/test-anchor.md
 /build-bos --name "TestBrand" --source /tmp/test-anchor.md --output /tmp/test-bos-e2e/ --no-finalize
 ls /tmp/test-bos-e2e/  # should show 6 layer folders + _working + _source
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/brand-operating-system/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

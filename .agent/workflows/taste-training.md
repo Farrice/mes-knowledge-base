@@ -45,3 +45,5 @@ Before delivering, verify:
 
 ## Output
 A complete Taste Development System with gap diagnosis, immersion calendar, proximity strategy, curiosity accountability, and deployment filter.
+
+**Execution prompts**: before producing the deliverable, check `skills/greg-hoffman-brand-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

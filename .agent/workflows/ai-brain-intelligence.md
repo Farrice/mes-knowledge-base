@@ -47,3 +47,5 @@ Present the complete Intelligence & Automation design:
 ### 6. Save Output
 
 Save all outputs to `_active/ai-brain/[client-or-business-name]/intelligence/`.
+
+**Execution prompts**: before producing the deliverable, check `skills/liam-mley-ai-brain-builder/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

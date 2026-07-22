@@ -12,3 +12,5 @@ skill: kobi-brown-educational-virality
 3. Execute `skills/kobi-brown-educational-virality/workflows/06-accuracy-without-clickbait-red-team.md`.
 4. Produce the claim table, hook debt diagnosis, safer hooks, trust inserts, and publish verdict.
 5. If the output is substantial, finalize with `chain_runner.py` using workflow `accuracy-without-clickbait`.
+
+**Execution prompts**: before producing the deliverable, check `skills/kobi-brown-educational-virality/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

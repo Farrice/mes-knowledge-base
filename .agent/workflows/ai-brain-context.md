@@ -46,3 +46,5 @@ Present the complete Context Layer:
 ### 6. Save Output
 
 Save all context layer files to `_active/ai-brain/[client-or-business-name]/context/`.
+
+**Execution prompts**: before producing the deliverable, check `skills/liam-mley-ai-brain-builder/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

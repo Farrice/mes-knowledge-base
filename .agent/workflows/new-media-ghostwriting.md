@@ -76,3 +76,5 @@ python3 execution/chain_runner.py finalize "New Media Ghostwriting for [client]"
     --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Premium ghostwriting with a16z media empire layer"
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/new-media-ghostwriting/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

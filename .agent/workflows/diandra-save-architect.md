@@ -32,3 +32,5 @@ Transforms any content idea into a format that triggers SAVE behavior — the mo
 - `/diandra-first-50` → Run AFTER this to fine-tune the opening
 - `/diandra-content-engine` → Use this INSTEAD when you want save-optimization specifically
 - `/diandra-semantic-lanes` → Ensure the save-worthy post is within your declared lanes
+
+**Execution prompts**: before producing the deliverable, check `skills/diandra-escobar-linkedin-growth/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

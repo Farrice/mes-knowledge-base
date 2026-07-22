@@ -26,3 +26,5 @@ Load before execution:
 - Required upstream: `/vince-creative-pod-architect`, `/vince-data-bank-build`
 - Downstream: `/vince-intent-first-launch` (kill committee)
 - Pairs with: soowei `workflow architecture`
+
+**Execution prompts**: before producing the deliverable, check `skills/vince-nijhof-dtc-operator-system/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

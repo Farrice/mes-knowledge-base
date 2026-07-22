@@ -36,3 +36,5 @@ After delivery, recommend:
 - `/content-funnel` to turn the prescription into a blueprint
 - `/content-debloat` if burnout/Everything-Piece bloat is compounding the trap
 - `tom-noske-personal-brand` skill if the climb-out requires building an owned offer
+
+**Execution prompts**: before producing the deliverable, check `skills/tom-noske-content-creation/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

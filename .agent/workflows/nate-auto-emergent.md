@@ -39,3 +39,5 @@ Safety Monitoring, Trace Infrastructure Depth, Prerequisite Completeness — min
 
 ### Step 6: Hand-off
 - Loaded → `/nate-auto-safety` (WF 06)
+
+**Execution prompts**: before producing the deliverable, check `skills/nate-b-jones-auto-improvement-loops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

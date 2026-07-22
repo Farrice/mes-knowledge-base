@@ -27,3 +27,5 @@ Load before execution:
 - Pairs with: `/vince-vssl-ideation-pipeline` (pipeline operates within AI standards)
 - Loads: Nate B Jones `intent-document-creation`, `domain-verifiability-classification`, `sniff-check-meta-evaluation`
 - Pairs with: `/vince-blended-attribution-blueprint` (AI insights layer)
+
+**Execution prompts**: before producing the deliverable, check `skills/vince-nijhof-dtc-operator-system/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

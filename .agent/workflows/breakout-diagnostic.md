@@ -12,3 +12,5 @@ skill: kobi-brown-educational-virality
 3. Execute `skills/kobi-brown-educational-virality/workflows/01-breakout-diagnostic.md`.
 4. Produce the diagnostic, scorecard, repair plan, and next asset.
 5. If the output is substantial, finalize with `chain_runner.py` using workflow `breakout-diagnostic`.
+
+**Execution prompts**: before producing the deliverable, check `skills/kobi-brown-educational-virality/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -29,3 +29,5 @@ Build articulation muscles by studying master writers — analyze rhythm pattern
 
 - Stand-alone exercise for skill development
 - Chain with `/word-sprint` to apply the learned rhythm to production content
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-word-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

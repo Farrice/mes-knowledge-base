@@ -29,3 +29,5 @@ Follow the workflow using loaded genius context. Requires:
 
 ### 4. Quality Gate
 30+ items saved, 5+ niches sourced, 5+ translations completed with litmus test.
+
+**Execution prompts**: before producing the deliverable, check `skills/caleb-ralston-personal-brand/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

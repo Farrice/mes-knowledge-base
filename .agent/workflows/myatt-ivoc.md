@@ -19,3 +19,5 @@ Load before execution:
 - Downstream: feed clusters into `/myatt-grid` or `/myatt-ces`
 - Universal: this output fits any copywriting / hook generation workflow
 - AI-augmented variant: `/myatt-ai-augmented-ces` for agentic mining at scale
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-myatt-creative-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

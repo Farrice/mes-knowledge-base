@@ -18,3 +18,5 @@ Run the Joscha Bach Consciousness Debugging workflow.
 4. If conflict detected, run the Conflict Topology analysis
 5. Output in the specified format
 6. Run quality gate
+
+**Execution prompts**: before producing the deliverable, check `skills/joscha-bach-consciousness/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

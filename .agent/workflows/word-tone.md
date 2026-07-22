@@ -30,3 +30,5 @@ Precision tone calibration for any content piece using Kallaway's 5-register sys
 - `/word-rhythm` → `/word-tone` (rhythm first, then tone)
 - `/word-sprint` (includes tone calibration as Pass 2)
 - `/platform-adapt` (adapt content for different platform registers)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-word-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

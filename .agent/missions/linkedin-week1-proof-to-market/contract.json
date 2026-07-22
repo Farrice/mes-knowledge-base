@@ -1,0 +1,48 @@
+{
+  "slug": "linkedin-week1-proof-to-market",
+  "intent": "Week 1 LinkedIn launch content for Proof-to-Market \u2014 receipts not promises, supplement/performance brand founders, publish-ready Monday",
+  "felt_standard": "posts that feel like receipts not promises",
+  "serves": "proof-to-market-path-a",
+  "clarity": 2,
+  "lane": "general",
+  "risks": [
+    "external write"
+  ],
+  "route": {
+    "chosen": "/content-brand-forge",
+    "score": 12,
+    "runners_up": [
+      [
+        "/oren-performance-block",
+        12
+      ],
+      [
+        "/connelly-brand-momentum",
+        11
+      ]
+    ]
+  },
+  "pattern": "solo+jam (taste-bearing creative)",
+  "tier": "T3-at-publish (drafts T1)",
+  "expected_spawns": 2,
+  "loads": {
+    "lead": "lara-acosta",
+    "supports": [
+      "jun-yuh",
+      "samuel-thompson"
+    ],
+    "stack_note": "recommend_stack: no forced stack \u2014 primary expert sufficient",
+    "voice": "VOICE-CARD.md dial BLEND (Farrice-named)"
+  },
+  "gates": [
+    "prose",
+    "voice",
+    "jam",
+    "claim-safe (supplement claims)"
+  ],
+  "deliverable_paths": [
+    "_active/linkedin-launch/03-content/"
+  ],
+  "status": "awaiting-signoff",
+  "compiled": "2026-07-21"
+}

@@ -8,3 +8,5 @@ Run the **The Brand-Voice Machine Builder (System Prompt as In-House Strategist)
 
 ## Produces
 Brand-Voice Project Configuration (ready-to-paste Project instructions + one-line-brief test + human review checklist)
+
+**Execution prompts**: before producing the deliverable, check `skills/oren-one-person-ai-marketer/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

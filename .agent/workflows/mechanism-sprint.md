@@ -15,3 +15,5 @@ Read these files in order:
 ## PHASE 2: EXECUTION
 
 Follow the sprint structure in `mechanism-first-ad-sprint.md`. Load skill files as needed per phase. User provides validated mechanism (or run `/mechanism-discover` first).
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-cross-domain/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -17,3 +17,5 @@ Turn your LinkedIn profile into a conversion machine using Josh Sanders' methodo
    - Visitor-to-follower conversion optimization
    - CTA placement strategy
 5. Quality gate: profile reads as landing page not resume, social proof tagline is specific and verifiable
+
+**Execution prompts**: before producing the deliverable, check `skills/josh-sanders-linkedin-growth/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

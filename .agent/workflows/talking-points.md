@@ -35,3 +35,5 @@ Follow the workflow in `01-talking-points.md` using the loaded genius context. I
 
 ### 3. Save Output
 Save talking point library to `.tmp/kieran-flanagan/talking-points.md`.
+
+**Execution prompts**: before producing the deliverable, check `skills/kieran-flanagan-content-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -9,3 +9,4 @@ description: Generate B.A.N.K.-segmented ICPs and avatars
 3. Load `skills/cheri-tree-bank-buyology/references/bank-deployment-map.md`.
 4. Execute `skills/cheri-tree-bank-buyology/workflows/04-code-based-icp-avatar-generator.md`.
 
+**Execution prompts**: before producing the deliverable, check `skills/cheri-tree-bank-buyology/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

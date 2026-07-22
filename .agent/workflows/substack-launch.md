@@ -30,3 +30,5 @@ python3 execution/chain_runner.py finalize "SubStack launch package — [newslet
     --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Complete launch package with name, about page, 3 posts, checklist"
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-newsletter-flywheel/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

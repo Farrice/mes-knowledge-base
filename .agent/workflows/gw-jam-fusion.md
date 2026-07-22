@@ -23,3 +23,5 @@ Interview transcript (3-5 questions, one at a time) → raised brief → Take A 
 → `/gw-crit` (the full Context-Role-Interview-Task engine behind the interview inversion)
 → `/voice-os` + `_active/farrice-brand/voice/VOICE-CARD.md` (load the voice dial before drafting when the piece is in Farrice's name)
 → `/gw-voice-persona` (build a per-client persona first, then jam inside it)
+
+**Execution prompts**: before producing the deliverable, check `skills/geoff-woods-ai-thought-partner/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

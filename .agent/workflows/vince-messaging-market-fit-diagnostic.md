@@ -27,3 +27,5 @@ Load before execution:
 - Pairs with: `/vince-emotional-angle-engine` (downstream concept generation)
 - Pairs with: Lara Acosta `8-word-rehook` (for short-form variations)
 - Pairs with: Luke Iha `vicious-hooks` (for combative-tone variations)
+
+**Execution prompts**: before producing the deliverable, check `skills/vince-nijhof-dtc-operator-system/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

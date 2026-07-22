@@ -18,3 +18,5 @@ Make boring topics magnetic through strategic analogy mapping.
    - Stress-tested winning analogy (simplifies, carries, shifts emotion, is original, respects audience)
    - Full content architecture built around the winning analogy
 5. Quality gate: analogy carries full explanation, creates emotion shift, content titled through analogy not boring topic
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-content-science/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

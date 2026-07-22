@@ -24,3 +24,5 @@ Load before execution:
 - Upstream: `/vince-emotional-angle-engine` or `/vince-vssl-ideation-pipeline` produces concept batch
 - Pairs with: Dara Denney `format-selection` (pre-filter format viability)
 - Pairs with: Luke Iha `vicious-hook-mastery` (helps survivors win post-launch)
+
+**Execution prompts**: before producing the deliverable, check `skills/vince-nijhof-dtc-operator-system/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

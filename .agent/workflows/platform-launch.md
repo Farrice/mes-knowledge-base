@@ -66,3 +66,5 @@ python3 execution/chain_runner.py finalize "Platform Launch for [product]" \
     --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Platform-native launch with cross-expert content slate"
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/new-media-kingmaker/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -26,3 +26,5 @@ Produce:
 - handoff summaries
 - first usable artifact
 - validation and next-use route
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-content-operating-system/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

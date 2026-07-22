@@ -12,3 +12,5 @@ Fork diagnosis + decision-criteria table + hybrid play (if warranted) + mandator
 ## Stacking
 - Upstream: requires a driver from `identity-driver-diagnostic` and tribe evidence from `true-fan-density-engine`
 - Downstream: `identity-scale-router` once a control strategy is validated
+
+**Execution prompts**: before producing the deliverable, check `skills/oren-identity-brand-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

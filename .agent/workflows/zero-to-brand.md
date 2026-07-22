@@ -24,3 +24,5 @@ Follow all 6 phases in order:
 
 ### 3. Quality Gate
 Credibility Bank has 5+ specific assets. 5 customer pain problems mapped with unique solutions. One primary platform selected with sustainable cadence. 30-day calendar populated.
+
+**Execution prompts**: before producing the deliverable, check `skills/caleb-ralston-personal-brand/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

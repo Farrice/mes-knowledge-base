@@ -21,3 +21,5 @@ Long-form verdict, umbrella, segmented spine (each minute a standalone short), A
 ## Stacks With
 → `/jenny-idea-ladder` (sources candidate segments/ideas)
 → `/jenny-business-engine` (the shorts→long funnel feeds the monetization roadmap)
+
+**Execution prompts**: before producing the deliverable, check `skills/jenny-hoyos-shorts/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

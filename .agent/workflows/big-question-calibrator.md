@@ -21,3 +21,5 @@ Calibrated Big Question Set — question landscape, specificity scorecard with G
 ## Stacks With
 → `/stakes-engineer` (design the stakes that precede the question)
 → `/head-fake-forge` (design the reveal that follows the question)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-addictive-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

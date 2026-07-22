@@ -31,6 +31,8 @@ DEFAULT_REPORT_DIR = AGENT_DIR / "recurring-reports"
 DEFAULT_ROUTING_DATA = AGENT_DIR / "routing-intelligence.json"
 DEFAULT_PERFORMANCE_LOG = AGENT_DIR / "performance-log.jsonl"
 DEFAULT_PERFORMANCE_INBOX = AGENT_DIR / "performance-log-inbox.jsonl"
+DEFAULT_GUARD_LEDGER = AGENT_DIR / "sessions" / "closeout-intelligence-guard.jsonl"
+REPORT_RETENTION = 10
 
 CONTROL_ROUTES = {
     "autopilot",
@@ -84,6 +86,7 @@ class CloseoutResult:
     ambiguous_feedback: list[dict] | None = None
     snapshots: dict[str, str] | None = None
     report_path: str = ""
+    guard_skipped: bool = False
 
 
 def read_text(path: Path, max_chars: int = 50000) -> str:
@@ -516,6 +519,42 @@ def run_command(label: str, command: list[str], timeout: int = 90) -> tuple[str,
         return label, f"FAIL\n{exc}"
 
 
+def guard_ledger_path(args: argparse.Namespace) -> Path:
+    path = Path(args.guard_file) if getattr(args, "guard_file", "") else DEFAULT_GUARD_LEDGER
+    if not path.is_absolute():
+        path = ROOT / path
+    return path
+
+
+def closeout_session_id(args: argparse.Namespace) -> str:
+    """Stable per-session id for the run guard, mirroring the closeout spine's
+    ledger-flag dedup pattern (end_session_closeout.py memory-ledger keys):
+    harness session id when provided, else a fingerprint of session-state
+    content + date — the same close re-run produces the same id."""
+    env_id = os.environ.get("CLAUDE_SESSION_ID", "").strip()
+    if env_id:
+        return env_id
+    state_path = Path(args.state_file) if args.state_file else SESSION_STATE
+    if not state_path.is_absolute():
+        state_path = ROOT / state_path
+    state_text = read_text(state_path, max_chars=20000)
+    return stable_fingerprint(state_text or args.source, datetime.now().date().isoformat())
+
+
+def guard_already_ran(args: argparse.Namespace, session_id: str) -> bool:
+    return any(row.get("session_id") == session_id for row in read_jsonl(guard_ledger_path(args)))
+
+
+def guard_record(args: argparse.Namespace, session_id: str) -> None:
+    try:
+        append_jsonl(
+            guard_ledger_path(args),
+            {"session_id": session_id, "ts": datetime.now(timezone.utc).isoformat(), "source": args.source},
+        )
+    except Exception:  # noqa: BLE001 — guard bookkeeping must never break closeout
+        pass
+
+
 def run_registrar(args: argparse.Namespace, dry_run: bool) -> str:
     if args.skip_registrar:
         return "SKIPPED by flag."
@@ -633,10 +672,14 @@ def render_report(result: CloseoutResult, dry_run: bool) -> str:
         "",
     ]
     for label, output in snapshots.items():
-        text = output[:4000].rstrip()
-        if len(output) > 4000:
-            text += "\n[truncated]"
-        content.extend([f"### {label}", "", f"```text\n{text}\n```", ""])
+        # 2026-07-21 report-bloat fix: one 200-char summary line per tool
+        # instead of six 4000-char embedded outputs.
+        lines = [ln.strip() for ln in output.splitlines() if ln.strip()]
+        status = lines[0] if lines else "(no output)"
+        detail = next((ln for ln in lines[1:] if not ln.startswith("#")), "")
+        summary = f"{status} — {detail}" if detail else status
+        content.append(f"- **{label}**: {summary[:200]}")
+    content.append("")
     return "\n".join(content).strip() + "\n"
 
 
@@ -652,12 +695,60 @@ def write_report(content: str, args: argparse.Namespace, dry_run: bool) -> str:
     return str(path.relative_to(ROOT) if path.is_relative_to(ROOT) else path)
 
 
+def prune_reports(args: argparse.Namespace, keep: int = REPORT_RETENTION) -> None:
+    """Retention sweep: keep the newest `keep` closeout reports, move older
+    ones to `<report-dir>/archive/`. Deterministic and fail-soft — a pruning
+    error must never break closeout."""
+    try:
+        report_dir = Path(args.report_dir) if args.report_dir else DEFAULT_REPORT_DIR
+        if not report_dir.is_absolute():
+            report_dir = ROOT / report_dir
+        reports = sorted(
+            report_dir.glob("*-session-closeout-intelligence.md"),
+            key=lambda p: p.stat().st_mtime,
+            reverse=True,
+        )
+        if len(reports) <= keep:
+            return
+        archive_dir = report_dir / "archive"
+        archive_dir.mkdir(parents=True, exist_ok=True)
+        for old in reports[keep:]:
+            try:
+                old.rename(archive_dir / old.name)
+            except OSError:
+                continue
+    except Exception:  # noqa: BLE001 — fail-soft by design
+        pass
+
+
 def perform_closeout(args: argparse.Namespace, dry_run: bool) -> CloseoutResult:
+    session_id = closeout_session_id(args)
+    force = bool(getattr(args, "force", False))
+    guard_hit = (not force) and guard_already_ran(args, session_id)
+
     routing_candidates, feedback_candidates, ambiguous = collect_routing_candidates(args)
     registrar_output = run_registrar(args, dry_run)
     routing_results = commit_routing_candidates(args, routing_candidates, dry_run)
     feedback_results = commit_feedback_candidates(args, feedback_candidates, dry_run)
     ambiguous_results = commit_ambiguous_feedback(args, ambiguous, dry_run)
+
+    if guard_hit:
+        # Per-session run guard (2026-07-21): the same close re-invoked must not
+        # regenerate 6 snapshots + a fresh report every time. Capture above is
+        # already idempotent; snapshots + report are skipped here.
+        print(
+            f"Closeout intelligence already ran this session (guard: {session_id}) — "
+            "skipping snapshots + report. Use --force to regenerate."
+        )
+        return CloseoutResult(
+            registrar_output=registrar_output,
+            routing_candidates=routing_results,
+            feedback_candidates=feedback_results,
+            ambiguous_feedback=ambiguous_results,
+            snapshots={"Snapshots": f"SKIPPED — already ran this session (guard: {session_id})."},
+            guard_skipped=True,
+        )
+
     snapshots = collect_snapshots(args)
     result = CloseoutResult(
         registrar_output=registrar_output,
@@ -668,6 +759,9 @@ def perform_closeout(args: argparse.Namespace, dry_run: bool) -> CloseoutResult:
     )
     report = render_report(result, dry_run)
     result.report_path = write_report(report, args, dry_run)
+    if not dry_run:
+        guard_record(args, session_id)
+        prune_reports(args)
     return result
 
 
@@ -685,6 +779,8 @@ def cmd_scan(args: argparse.Namespace) -> int:
 
 def cmd_run(args: argparse.Namespace) -> int:
     result = perform_closeout(args, args.dry_run)
+    if result.guard_skipped:
+        return 0  # guard line already printed by perform_closeout
     report = render_report(result, args.dry_run)
     print(report)
     print(f"Report {'would be written' if args.dry_run else 'written'}: {result.report_path}")
@@ -733,6 +829,8 @@ def main() -> int:
     run = sub.add_parser("run", help="Capture closeout intelligence.")
     add_common_args(run)
     run.add_argument("--dry-run", action="store_true", help="Show capture actions without writing.")
+    run.add_argument("--force", action="store_true", help="Bypass the per-session run guard and regenerate snapshots + report.")
+    run.add_argument("--guard-file", default="", help="Optional run-guard ledger JSONL override (tests).")
 
     status = sub.add_parser("status", help="Show closeout intelligence counts.")
     add_common_args(status)

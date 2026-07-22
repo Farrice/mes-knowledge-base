@@ -36,3 +36,5 @@ After delivery, recommend:
 - `/content-funnel` to slot this Inspiration backlog into the full portfolio
 - `/promise-payoff` to structure any single origin piece for retention
 - Module A `/authenticity-audit` to keep the energy service-first, not performative
+
+**Execution prompts**: before producing the deliverable, check `skills/tom-noske-content-creation/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

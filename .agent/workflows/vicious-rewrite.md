@@ -16,3 +16,5 @@ Read these files in order:
 ## PHASE 2: EXECUTION
 
 Follow the workflow in `vicious-rewrite-engine.md`. User provides weak hooks and transgressive tolerance.
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-vicious-hooks/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

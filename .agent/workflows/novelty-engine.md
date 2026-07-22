@@ -28,3 +28,5 @@ Finished content + component map + filled Gut-Check scorecard (≥9 + Integrity 
 → `/novelty-forge` (single-pass 5-component builder it calls in Phase 2)
 → `kallaway-audience-obsession` (avatar) · `kallaway-word-mastery` (delivery) · `kallaway-addictive-storytelling` (retention)
 → research stack: `/hunt-trends`, Perplexity, `execution/research.py`, Apify, `/novelty-pattern` (see `references/research-grounding-stack.md`)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-illusion-of-novelty/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

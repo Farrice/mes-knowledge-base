@@ -14,3 +14,5 @@ Read in order:
 
 ## PHASE 2: EXECUTION
 Follow the workflow in `pain-chain-builder.md`. Honor its Pre-Flight Gate and Quality Gate. User provides the copy/offer/market.
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-copy-blocks/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

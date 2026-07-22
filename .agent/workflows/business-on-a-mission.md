@@ -12,3 +12,5 @@ Build the Guiding Principles one-pager: a Mission Statement that opens a story l
 3. Execute: 3 economic priorities (X) → deadline (Y) → because (Z) → 3 Key Characteristics → 3 Critical Actions → repetition plan
 4. Produce: Mission Statement, Key Characteristics, Critical Actions, Guiding Principles one-pager
 5. Finalize via chain_runner.py
+
+**Execution prompts**: before producing the deliverable, check `skills/donald-miller-business-growth/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

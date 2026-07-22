@@ -12,3 +12,5 @@ Diagnose a small business against Miller's six-part airplane standard, apply the
 3. Execute: score 6 parts → proportion check → S-curve detection → name the one part crashing → route (engines routed OUT to messaging skills)
 4. Produce: six-part scorecard, proportion flags, S-curve verdict, the priority part, routing line
 5. Finalize via chain_runner.py
+
+**Execution prompts**: before producing the deliverable, check `skills/donald-miller-business-growth/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

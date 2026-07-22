@@ -21,3 +21,5 @@ Finished asset for the requested format + a component map (which line does which
 → `/novelty-to-addictive` (engineer retention after attention is captured)
 → `/novelty-campaign` (scale the angle across platforms)
 → `/novelty-pattern` (calibrate against your own data)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-illusion-of-novelty/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

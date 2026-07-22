@@ -31,3 +31,5 @@ python3 execution/chain_runner.py finalize "Estrangement Engine output" \
     --intent [1-10] --expert-score [1-10] --adversarial [1-10] \
     --notes "[what worked, what didn't]"
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/ocean-vuong-perceptual-writing/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -63,3 +63,5 @@ Present the complete coaching prompt with:
 - **$5K Test**: Would someone pay $5K for a mentor who coaches like this prompt?
 - **Sovereignty Test**: Does the user maintain creative direction?
 - **Compound Test**: Will using this prompt make the user's NEXT prompt better?
+
+**Execution prompts**: before producing the deliverable, check `skills/dan-koe-ai-leverage/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

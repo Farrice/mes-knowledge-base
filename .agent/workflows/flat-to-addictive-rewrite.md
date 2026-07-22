@@ -21,3 +21,5 @@ Addictive Rewrite Package — diagnostic report, new loop architecture, full rew
 ## Stacks With
 → `/addiction-loop-diagnostic` (audit first, then rewrite)
 → `/loop-density-optimizer` (compress after rewriting)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-addictive-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

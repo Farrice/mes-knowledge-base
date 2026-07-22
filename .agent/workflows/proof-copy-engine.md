@@ -23,3 +23,5 @@ Run the master end-to-end copywriting workflow from the Proof Ladder Architectur
 6. Optional depth layer: when the user asks for emotional truth, heart, resonance, reader trust, less generic copy, or a more human feel, load `skills/lamott-allen-really-real-writing/` after proof checks. Use it to make proof feel honest and humane without inflating claims or weakening conversion.
 7. Run quality gate (all 10 checks must pass)
 8. Finalize via chain_runner.py
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-proof-ladder/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

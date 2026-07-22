@@ -10,3 +10,5 @@ Load:
 - `skills/lamott-allen-really-real-writing/workflows/really-real-writing.md`
 
 Run the flagship depth pass. Preserve the user's intent and medium. Deliver the revised draft or writing plan plus the Depth Receipt.
+
+**Execution prompts**: before producing the deliverable, check `skills/lamott-allen-really-real-writing/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

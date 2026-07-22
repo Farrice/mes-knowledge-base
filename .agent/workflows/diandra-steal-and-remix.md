@@ -367,3 +367,5 @@ Save to `.tmp/diandra-steal-and-remix/remix-[slug]-[date].md`.
   index.md
   [slug]-blueprint.md
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/diandra-escobar-linkedin-growth/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -24,3 +24,5 @@ Extract transferable one-sentence principles from completed Detail Stack breakdo
    - Transferability scoring (Universality, Actionability, Originality)
    - Principle stacks (compound combinations)
 6. Quality gate: every principle passes zero-reference test, 3+ score 4+ on all dimensions
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-content-science/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

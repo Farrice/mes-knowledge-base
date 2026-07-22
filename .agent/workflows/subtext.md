@@ -60,3 +60,5 @@ Provide a parallel annotation showing what each line "really" means beneath the 
 - SKILL FILES READ: [list]
 - PATTERNS APPLIED: [list by name]
 - QUALITY CHECK: If you removed all the subtext annotations, would the audience still feel the emotional payload? That's the test.
+
+**Execution prompts**: before producing the deliverable, check `skills/eric-roth-screenwriting-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

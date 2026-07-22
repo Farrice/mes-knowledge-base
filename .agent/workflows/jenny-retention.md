@@ -22,3 +22,5 @@ Hook verdict, graph signature (A. early exodus / B. point drops / C. slow slope)
 → `/jenny-hook` (routes here when the hook fails, viewed-vs-swiped <70%)
 → `/jenny-loop-rewatch` (when retention reads above 100%, the missing lever is loop design)
 → `/jenny-script-short` (apply the prescribed fixes to a rewrite)
+
+**Execution prompts**: before producing the deliverable, check `skills/jenny-hoyos-shorts/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

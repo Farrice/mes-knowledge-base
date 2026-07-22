@@ -18,3 +18,5 @@ description: Ad-to-Funnel Architect
    - `skills/luke-iha-unaware-ads/workflows/ad-to-funnel-architect.md`
 
 3. Run quality gate: Does the funnel maintain awareness-level consistency from ad through landing page? Does proof density scale appropriately at each stage?
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-unaware-ads/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

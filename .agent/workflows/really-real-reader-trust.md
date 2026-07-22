@@ -10,3 +10,5 @@ Load:
 - `skills/lamott-allen-really-real-writing/workflows/really-real-reader-trust.md`
 
 Run the reader trust pass. Repair confusion, overclaiming, judgment, manipulation, and emotional abandonment.
+
+**Execution prompts**: before producing the deliverable, check `skills/lamott-allen-really-real-writing/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

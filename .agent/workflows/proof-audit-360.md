@@ -16,3 +16,5 @@ Run the 360° Proof Audit workflow from the Proof Ladder Architecture skill.
    - Context: what the copy is for, who the audience is
 5. Produce the full audit report with tier-by-tier analysis and fix prescriptions
 6. Finalize via chain_runner.py
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-proof-ladder/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

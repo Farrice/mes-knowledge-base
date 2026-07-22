@@ -18,3 +18,5 @@ Run a forensic analysis of any piece of content using Alex's Detail Stack method
    - Purple Cow Assessment
    - One-Sentence Principle extraction
 5. Quality gate: verify all 4 layers completed, 8+ invisible decisions mapped, principle passes zero-reference test
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-content-science/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

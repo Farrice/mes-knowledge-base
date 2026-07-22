@@ -23,3 +23,5 @@ Route + Voice OS boundary → corpus fingerprint read → interview (≤5 questi
 → `/voice-ratchet` (accept a proposed diff into the card via the calibration loop)
 → `/gw-crit` (the Context-Role-Interview-Task engine the recipe runs on)
 → `/gw-jam-fusion` (build a per-client persona here, then jam inside it)
+
+**Execution prompts**: before producing the deliverable, check `skills/geoff-woods-ai-thought-partner/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

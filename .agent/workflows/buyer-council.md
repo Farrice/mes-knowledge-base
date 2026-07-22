@@ -27,3 +27,5 @@ Then read and execute `skills/geoff-woods-ai-thought-partner/workflows/17-buyer-
 - Sibling: `skills/jeremy-haynes-cold-offer/workflows/haynes-handshake-geoff-stakeholder.md`
 - Deep-seat options: `mcclain-persona-forge`, `icp-deep-canvasser`
 - Escalation: `/convene` if the buyer panel surfaces a strategy question rather than a buyer-reaction question
+
+**Execution prompts**: before producing the deliverable, check `skills/geoff-woods-ai-thought-partner/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

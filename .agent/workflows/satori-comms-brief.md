@@ -42,3 +42,5 @@ A locked one-paragraph comms brief:
 - `/satori-lift-audit` — if you're auditing a finished layout, not originating one
 
 Full spec: `skills/satori-graphics/workflows/15-comms-brief.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/satori-graphics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

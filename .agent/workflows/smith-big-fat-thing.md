@@ -42,3 +42,5 @@ The skill carries:
 - If Outcome B (latent surfaced) → `/smith-natural-strategist-audit` (test across all 4 principles)
 - If Outcome C (no answer yet) → `/smith-sacred-truth-inventory` (find the sacrifice that creates a future answer)
 - After any outcome → Oren Klaff `/oren-pitch-architecture` (frame the sentence for sales/fundraising)
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-m-smith-natural-strategy/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

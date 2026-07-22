@@ -16,3 +16,5 @@ Generate non-obvious content angles using Kallaway's domain collision methodolog
 - **Core topic**: What do you want to create content about?
 - **Target audience**: Who specifically?
 - **Number of angles** (optional): Defaults to 5
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-audience-obsession/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

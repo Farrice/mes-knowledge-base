@@ -63,3 +63,5 @@ python3 execution/chain_runner.py finalize "Narrative Warfare Build" \
     --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "OODA loop + proof ladder + flood-zone compound"
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/new-media-kingmaker/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

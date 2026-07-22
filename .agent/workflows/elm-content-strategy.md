@@ -13,3 +13,5 @@ Run the McRaney ELM-Informed Content Strategy.
 3. Execute with inputs: Brand/Creator, Audience, Active Platforms, Current Content (optional), Business Goal
 4. Produce: Audience Processing Profile, Platform Route Map, Mismatch Diagnosis, Content Prescriptions per Platform, Weekly Content Calendar Architecture
 5. Finalize via chain_runner.py
+
+**Execution prompts**: before producing the deliverable, check `skills/david-mcraney-belief-change/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

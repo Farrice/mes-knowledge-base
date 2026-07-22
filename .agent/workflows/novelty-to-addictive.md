@@ -19,3 +19,5 @@ A complete script/asset with a dual map: novelty components (front) + addiction-
 ## Stacks With
 → `/addiction-loop-architect` + `/loop-chain-scripting` (kallaway-addictive-storytelling)
 → `/novelty-forge` (supplies the front end)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-illusion-of-novelty/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

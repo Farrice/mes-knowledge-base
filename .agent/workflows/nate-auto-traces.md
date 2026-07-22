@@ -40,3 +40,5 @@ Trace Infrastructure Depth, Prerequisite Completeness, Judgment Leverage — min
 ### Step 6: Hand-off
 - Built → `/nate-auto-emergent` (WF 05) for affordance pre-load
 - Incomplete → remediate gaps
+
+**Execution prompts**: before producing the deliverable, check `skills/nate-b-jones-auto-improvement-loops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

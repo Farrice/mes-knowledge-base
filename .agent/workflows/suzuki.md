@@ -39,3 +39,5 @@ Run the Cold-Start Revenue Engine. If there is no product or proof, route throug
 - Mirrorboard outline (if high-ticket)
 - Compliance ledger (claims, disclosures, platform risk)
 - 7-day plan + one action today
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

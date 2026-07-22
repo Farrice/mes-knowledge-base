@@ -46,3 +46,5 @@ All 7 rubric dimensions ≥7. Especially: Judgment Leverage, Revert Capability, 
 - Approved by sponsor → begin infrastructure build
 - Rejected → rescope (smaller system? more prereq work?)
 - Stuck on prereq → return to specific prior workflow
+
+**Execution prompts**: before producing the deliverable, check `skills/nate-b-jones-auto-improvement-loops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

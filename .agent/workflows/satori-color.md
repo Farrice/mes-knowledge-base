@@ -43,3 +43,5 @@ A strategic color system:
 - `/satori-design-think` — the end-to-end pipeline that composes this as Stage 4
 
 Full spec: `skills/satori-graphics/workflows/17-strategic-color.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/satori-graphics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

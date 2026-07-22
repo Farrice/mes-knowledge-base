@@ -27,3 +27,5 @@ Diandra = Hooks Only is a standing rule for post AUTHORSHIP — one author per b
 - Sequential handshake: Hoyos' retention-beat map is the INPUT to Diandra's structural spec, not a parallel lens
 - Pairs with: `03-diagnose-retention.md` (native video triage), workflow 18/20/17/19/21/05 in diandra-escobar-linkedin-growth (the structural mechanisms diagnosed beats route into)
 - Adjacent, not this: `/jenny-text-transfer` — angle adaptation to text platforms, not structural diagnosis of an existing post
+
+**Execution prompts**: before producing the deliverable, check `skills/jenny-hoyos-shorts/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

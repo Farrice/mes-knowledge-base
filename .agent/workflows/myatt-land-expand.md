@@ -24,3 +24,5 @@ Load before execution:
 ## Stacking
 - Pre-pitch: `/myatt-care-square` on existing accounts to identify expansion-ready ones
 - Cross-expert: stack with Luke Iha freelance positioning + Nicolas Cole portfolio architecture
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-myatt-creative-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

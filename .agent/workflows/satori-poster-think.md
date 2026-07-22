@@ -49,3 +49,5 @@ This is the minimum viable pre-flight. Nothing more. Earlier 9-step version was 
 - `/satori-flip-test` + `/satori-lift-audit` + `/satori-anti-ai-slop` + `/satori-memory-encoding` — post-generation audit chain
 
 Full spec: `skills/satori-graphics/workflows/12-poster-think.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/satori-graphics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -69,3 +69,5 @@ Your output must include:
 - SKILL FILES READ: [list]
 - PATTERNS APPLIED: [list by name]
 - QUALITY CHECK: Would Eric Roth cast this character? Does the psychology feel lived-in, not constructed?
+
+**Execution prompts**: before producing the deliverable, check `skills/eric-roth-screenwriting-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

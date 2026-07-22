@@ -19,3 +19,5 @@ Deploy Eric Roth's writing mastery to long-form content.
    - Phase 4: Erosion Passes (3 rounds)
 
 3. Run Quality Gate on the output.
+
+**Execution prompts**: before producing the deliverable, check `skills/eric-roth-writing-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

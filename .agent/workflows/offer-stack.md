@@ -22,3 +22,5 @@ Follow the workflow in `offer-stacking-optimizer.md`. User provides their core p
 - **"I have a product but weak bonuses"** → Full pipeline (Phases 1-5)
 - **"Audit my current landing page"** → Start at Phase 3 (Congruence Audit)
 - **"I need landing page copy structure"** → Start at Phase 5 (Copy Architecture)
+
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-digital-products/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

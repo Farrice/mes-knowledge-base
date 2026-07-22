@@ -39,3 +39,5 @@ After delivery, recommend complementary refinement tools:
 - `/comedy` (Robert Mack) if the content would benefit from comedic mechanics
 - `/adversarial-refine` (Dan Koe) for stress-testing the argument
 - Brock Johnson shareworthy pass if distribution is a priority
+
+**Execution prompts**: before producing the deliverable, check `skills/tom-noske-content-creation/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

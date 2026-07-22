@@ -17,3 +17,5 @@ Find what's currently breaking the LinkedIn algorithm and plan your pivot.
    - Content pivot roadmap with timeline
    - Format-to-niche translation plan
 5. Quality gate: recommendations are data-backed, not generic; formats are specific to current algorithm state
+
+**Execution prompts**: before producing the deliverable, check `skills/josh-sanders-linkedin-growth/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

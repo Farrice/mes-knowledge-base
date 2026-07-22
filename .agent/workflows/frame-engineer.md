@@ -62,3 +62,5 @@ Takes a specific belief that needs shifting and builds a detailed, step-by-step 
 - `/prevent-objection` — each objection IS a frame to engineer
 - `/build-gap` — the gap itself is a frame about "where I am vs. where I could be"
 - `/self-persuade` — combine frame engineering with self-persuasion for maximum impact
+
+**Execution prompts**: before producing the deliverable, check `skills/jeremy-miner-identity-persuasion/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

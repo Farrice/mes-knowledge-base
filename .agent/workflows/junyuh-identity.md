@@ -10,3 +10,5 @@ description: Build the complete "I Am The Niche" identity
 2. **Execute Workflow**: Run `skills/jun-yuh-creator-vision/workflows/niche-of-one-identity.md`.
 3. **Deliver**: Produce the Identity Blueprint as a conversation artifact.
 4. **Finalize**: Run chain_runner.py finalize with expert=jun-yuh-creator-vision, skill=jun-yuh-creator-vision, workflow=niche-of-one-identity, type=Strategy.
+
+**Execution prompts**: before producing the deliverable, check `skills/jun-yuh-creator-vision/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -23,3 +23,5 @@ Universal angle, hook (question + statement-under stakes stack), visual, signatu
 → `/copy-engine` (production-grade offer copy and CTA)
 → `/dara-static-engine` (adapt the treatment into a paid static ad for cold traffic)
 → `/hook-forge` (5-10 ranked hook variants of the frame-one + first-line, stress-tested)
+
+**Execution prompts**: before producing the deliverable, check `skills/jenny-hoyos-shorts/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -39,3 +39,5 @@ A Contrast Stack Spec: 3–5 forms each mapped `FORM → ZONE → WHAT IT MAKES 
 - `/satori-frontend-flow` — compiles the stack into UI section rhythm
 
 Full spec: `skills/satori-graphics/workflows/22-contrast-stack.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/satori-graphics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

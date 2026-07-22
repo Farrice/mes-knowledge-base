@@ -20,3 +20,5 @@ Stakes Architecture Blueprint — character profile, risk architecture, urgency 
 ## Stacks With
 → `/big-question-calibrator` (design the question that follows the stakes)
 → `/addiction-loop-architect` (full blueprint including stakes)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-addictive-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

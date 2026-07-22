@@ -43,3 +43,5 @@ Takes a prospect profile or audience description and generates a complete gap ar
 - `/npq-script` — embed gap building into a full conversation flow
 - `/self-persuade` — design questions that make them articulate the gap
 - `/prevent-objection` — prevent objections that arise from an inflated gap
+
+**Execution prompts**: before producing the deliverable, check `skills/jeremy-miner-identity-persuasion/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

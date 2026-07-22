@@ -77,3 +77,5 @@ Save to `research_outputs/[date]-competitive-city-analysis-[niche-slug].md`
 ## Your City Map Adjustment Recommendations
 ## 90-Day Competitive Response Plan
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/grace-andrews-media-company/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

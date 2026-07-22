@@ -17,3 +17,5 @@ description: Meta Andromeda creative diversity system
    - `skills/luke-iha-client-mastery/workflows/creative-diversity-engine.md`
 
 3. Run quality gate: Is the Composition × Vibe matrix populated with 15+ cells and rotation calendar active?
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-client-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

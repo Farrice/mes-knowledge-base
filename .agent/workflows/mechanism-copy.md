@@ -16,3 +16,5 @@ Read these files in order:
 ## PHASE 2: EXECUTION
 
 Follow the workflow in `mechanism-to-copy-bridge.md`. User provides validated mechanism.
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-million-dollar-mechanisms/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

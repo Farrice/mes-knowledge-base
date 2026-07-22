@@ -29,3 +29,5 @@ Run the Portfolio Scale Engine. Each account needs a proof source (own/partner/a
 - Per-account economics targets (qualified comments × price, kill/keep)
 - Saturation + compliance note
 - Next account to launch
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

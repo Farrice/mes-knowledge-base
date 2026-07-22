@@ -8,3 +8,5 @@ Run the **The In-House Performance Block (Anti-Agency, Time-Capped)** workflow.
 
 ## Produces
 Certification plan + two-block paid-media runbook + channel-sequencing decision tree
+
+**Execution prompts**: before producing the deliverable, check `skills/oren-one-person-ai-marketer/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

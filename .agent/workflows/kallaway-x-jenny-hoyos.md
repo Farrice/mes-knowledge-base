@@ -27,3 +27,5 @@ Load before execution:
 - Upstream: `/novelty-forge` (hook-zone novelty), `omar-kallaway-pattern-interrupt` (first-frame hook)
 - Extends: Jenny Hoyos `/03-diagnose-retention` with a novelty-decay diagnostic axis
 - Downstream: `/novelty-to-addictive` for the Kallaway Addiction Loop alternative retention engine
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-illusion-of-novelty/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

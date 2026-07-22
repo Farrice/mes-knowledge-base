@@ -10,3 +10,5 @@ Load:
 - `skills/lamott-allen-really-real-writing/workflows/really-real-social.md`
 
 Run the social depth pass. Preserve platform fit, replace generic polish with one true observation, and return platform-ready copy.
+
+**Execution prompts**: before producing the deliverable, check `skills/lamott-allen-really-real-writing/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

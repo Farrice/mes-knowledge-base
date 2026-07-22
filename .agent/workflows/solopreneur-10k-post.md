@@ -31,3 +31,5 @@ python3 execution/chain_runner.py finalize "SubStack post — [topic]" \
     --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Full post with prompt tangible asset and LinkedIn teasers"
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-newsletter-flywheel/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

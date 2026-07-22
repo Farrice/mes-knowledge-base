@@ -59,3 +59,5 @@ python3 execution/chain_runner.py finalize "Kingmaker Sprint for [brand]" \
     --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] \
     --notes "Cross-pollinated 5+ experts through a16z methodology"
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/new-media-kingmaker/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

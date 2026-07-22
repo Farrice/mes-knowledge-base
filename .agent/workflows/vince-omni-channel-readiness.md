@@ -25,3 +25,5 @@ Load before execution:
 - Required pair: `/vince-blended-attribution-blueprint` (must build before adding channels)
 - Pairs with: Danny Yeung `dtc scaling`
 - May trigger: `/vince-creative-pod-architect` (each new channel = potentially new pod)
+
+**Execution prompts**: before producing the deliverable, check `skills/vince-nijhof-dtc-operator-system/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

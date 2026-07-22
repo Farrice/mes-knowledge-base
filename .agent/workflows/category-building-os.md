@@ -244,3 +244,5 @@ Reject or revise before final if:
 - no adoption signal is defined
 - the output ignores existing approved positioning when working on Farrice's service lane
 - the source-video limits are not stated when citing `5TEMdTopdy8`
+
+**Execution prompts**: before producing the deliverable, check `skills/erica-mallet-brand-magnetism/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

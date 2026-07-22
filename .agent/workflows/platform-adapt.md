@@ -29,3 +29,5 @@ If the user asks for "real," "soulful," "less AI," "less generic," "more human,"
 
 ### 4. Save Output
 Save adapted content to `.tmp/kieran-flanagan/adapted-[platform].md`.
+
+**Execution prompts**: before producing the deliverable, check `skills/kieran-flanagan-content-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -12,3 +12,5 @@ Read these files before executing:
 4. `/Users/farricecain/Google Antigravity/agents/daniel-priestley/AGENT.md`
 
 Execute the workflow in full and produce the finished asset zero diagnosis.
+
+**Execution prompts**: before producing the deliverable, check `skills/daniel-priestley-24-assets-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

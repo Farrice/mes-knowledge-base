@@ -19,3 +19,5 @@ Deploy Eric Roth's writing mastery to calibrate brand voice and marketing tone.
    - Phase 4: Tone Compass Guide Delivery
 
 3. Run Quality Gate on the output.
+
+**Execution prompts**: before producing the deliverable, check `skills/eric-roth-writing-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -52,3 +52,5 @@ Prerequisite Completeness, Judgment Leverage, Safety Monitoring — min 7 each. 
 ## Integration Note
 
 This workflow reads LIVE Antigravity files. All other WFs in this skill are generic. This one is specifically scoped to Phase 2 self-application. Advisory only.
+
+**Execution prompts**: before producing the deliverable, check `skills/nate-b-jones-auto-improvement-loops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

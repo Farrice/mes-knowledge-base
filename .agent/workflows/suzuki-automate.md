@@ -30,3 +30,5 @@ Run the Automation Engine. Separate create / schedule / convert. The auto-DM fir
 - Compliance block (opt-in only, opt-out, rate/ToS, per-platform)
 - Human-escalation rules
 - Metrics + kill/keep rule
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-suzuki-digital-product-revenue-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

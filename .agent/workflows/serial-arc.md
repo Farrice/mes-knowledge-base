@@ -124,3 +124,5 @@ Active Arcs:
 Open loops to close in next chapter:
 - [Loop description from previous chapter]
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/fresh-voice-system/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -64,3 +64,5 @@ Check each element against the source material:
 - SKILL FILES READ: [list]
 - PATTERNS APPLIED: [list by name]
 - QUALITY CHECK: Is the invention ratio at 60%+? Does the adaptation feel like its own creature, not a photocopy?
+
+**Execution prompts**: before producing the deliverable, check `skills/eric-roth-screenwriting-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

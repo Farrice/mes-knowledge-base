@@ -15,3 +15,5 @@ Read these files in order:
 ## PHASE 2: EXECUTION
 
 Follow the cross-domain pipeline in `full-stack-ad-campaign.md`. Load each skill's SKILL.md and workflow as you reach that phase. User provides product, audience, and competitive landscape.
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-cross-domain/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

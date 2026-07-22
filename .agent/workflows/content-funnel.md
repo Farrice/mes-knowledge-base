@@ -37,3 +37,5 @@ After delivery, recommend complementary tools:
 - `/origin-story-engine` to fill the Inspiration layer
 - `/content-debloat` for any piece that's trying to do every job
 - `/promise-payoff` to structure individual pieces within a layer
+
+**Execution prompts**: before producing the deliverable, check `skills/tom-noske-content-creation/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

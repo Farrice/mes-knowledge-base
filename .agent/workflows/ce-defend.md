@@ -22,3 +22,5 @@ Scan a feed, news segment, sales pitch, or relationship dynamic for the FEAR loo
    - `skills/chase-hughes-context-engineering/workflows/ce-defend.md`
 
 3. Quality gate: For each detected mechanic — is the resistance move STRUCTURAL (limit exposure, pause at choke points), not just "be aware"? Knowing doesn't immunize. Did you connect the separate pieces (Station-1 format), not just list them?
+
+**Execution prompts**: before producing the deliverable, check `skills/chase-hughes-context-engineering/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

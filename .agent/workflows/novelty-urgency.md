@@ -19,3 +19,5 @@ Honest-window audit → urgency lines if real, or an explicit SKIP recommendatio
 
 ## Stacks With
 → `/novelty-forge` (urgency is step 3 of the full build)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-illusion-of-novelty/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

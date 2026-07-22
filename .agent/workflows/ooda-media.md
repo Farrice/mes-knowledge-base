@@ -57,3 +57,5 @@ Save to `research_outputs/[date]-ooda-playbook-[org-slug].md`
 ## Proactive Disruption Calendar (next 4 weeks)
 ## 7-Day Speed Drill (implementation sprint)
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/andreessen-horowitz-new-media/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -21,3 +21,5 @@ Density-Optimized Content — before/after density audit, optimization log, full
 ## Stacks With
 → `/addiction-loop-diagnostic` (audit first to get baseline)
 → `/loop-chain-scripting` or `/flat-to-addictive-rewrite` (build loops first, then optimize)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-addictive-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

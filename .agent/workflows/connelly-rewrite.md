@@ -15,3 +15,5 @@ Deploy Michael Connelly's Rewrite Protocol.
 5. Produce changelog and word count delta
 6. Run quality gate from the workflow
 7. Fire quality assurance per `directives/quality_assurance.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/michael-connelly-vivid-writing/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

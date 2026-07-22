@@ -16,3 +16,5 @@ Cross-expert workflow for short-form content (Reels, TikTok, Shorts) where the t
 **Use when**: Producing short-form video content, thumbnail design for YouTube, static-as-hook content, refreshing low-CTR thumbnails.
 
 ARGUMENTS: $ARGUMENTS
+
+**Execution prompts**: before producing the deliverable, check `skills/omar-eddaoudi-scaling-ops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

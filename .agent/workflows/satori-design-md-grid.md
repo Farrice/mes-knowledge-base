@@ -51,3 +51,5 @@ Enhanced DESIGN.md with new `## Composition` section:
 - `/satori-lift-audit` — score live pages produced from the enhanced DESIGN.md
 
 Full spec: `skills/satori-graphics/workflows/13-design-md-grid.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/satori-graphics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -29,3 +29,5 @@ Follow the workflow. Requires:
 
 ### 4. Quality Gate
 Each platform assigned ONE primary purpose. Accordion pipeline defined. Format niche identified. Sustainable cadence set below aspiration.
+
+**Execution prompts**: before producing the deliverable, check `skills/caleb-ralston-personal-brand/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

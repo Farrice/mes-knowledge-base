@@ -37,3 +37,5 @@ Hero image direction (specific enough to brief a photographer or feed into `/pos
 - `Oren` agent — lock brand positioning before running this workflow
 - `fantastic-posters` skill — generate the hero image from the direction spec
 - `/bb-audit` + `/bb-rebuild` — content layer is Step 5-9 of the rebuild
+
+**Execution prompts**: before producing the deliverable, check `skills/bitbranding-fashion-shopify/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

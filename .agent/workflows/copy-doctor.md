@@ -18,3 +18,5 @@ description: Copy Doctor
    - `skills/luke-iha-proof-mechanisms/workflows/copy-doctor.md`
 
 3. Run quality gate: Does the diagnosis identify specific, actionable problems — not generic advice? Are the fixes tied to specific genius patterns?
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-proof-mechanisms/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

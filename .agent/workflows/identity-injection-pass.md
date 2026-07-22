@@ -12,3 +12,5 @@ Before/After Transformation Table + injected asset variant (ad/post/email/landin
 ## Stacking
 - Upstream: requires a driver from `identity-driver-diagnostic`
 - Downstream: `identity-scale-router` if injected assets reveal a threshold has been crossed
+
+**Execution prompts**: before producing the deliverable, check `skills/oren-identity-brand-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

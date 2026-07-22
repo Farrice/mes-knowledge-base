@@ -12,3 +12,5 @@ Read and execute the full workflow: `skills/sky-tan-format-engine/workflows/reac
 ```
 /sky-reaction [creator] [niche] [skill sold] [source clip or clip type]
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/sky-tan-format-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

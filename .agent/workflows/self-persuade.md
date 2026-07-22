@@ -43,3 +43,5 @@ Takes a target conclusion and reverse-engineers a question chain that makes the 
 - `/build-gap` — use self-persuasion questions to widen the gap
 - `/npq-script` — embed self-persuasion moments into full conversation flow
 - `/ip-flywheel` — add self-persuasion hooks to LinkedIn content
+
+**Execution prompts**: before producing the deliverable, check `skills/jeremy-miner-identity-persuasion/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -14,3 +14,5 @@ Turn a complaint or irritation into material by digging past the obvious gripe.
 **Use when**: You have an annoyance/opinion and need to find what's actually funny in it.
 
 ARGUMENTS: $ARGUMENTS
+
+**Execution prompts**: before producing the deliverable, check `skills/tom-segura-comedy-storytelling/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

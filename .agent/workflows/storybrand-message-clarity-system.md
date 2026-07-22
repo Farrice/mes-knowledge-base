@@ -213,3 +213,5 @@ Before final output, verify:
 - The one-liner follows Problem -> Solution -> Result.
 - The deployment matrix uses exact locked wording, not creative variations.
 - Any source-video claim stays transcript-only unless full visual evidence exists.
+
+**Execution prompts**: before producing the deliverable, check `skills/donald-miller-cognitive-load/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -29,3 +29,5 @@ For substantial deliverables:
 ```bash
 python3 execution/chain_runner.py finalize "Aha Engine output" --expert kobi-brown --skill kobi-brown-educational-virality --workflow aha-engine --type Content --intent [evidence-based] --expert-score [evidence-based] --adversarial [evidence-based] --sub-agents 0 --notes "Universal aha-engine | anti-slop verdict: [SIGNAL/BREAKTHROUGH] | Verification: local"
 ```
+
+**Execution prompts**: before producing the deliverable, check `skills/kobi-brown-educational-virality/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

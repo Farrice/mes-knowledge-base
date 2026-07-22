@@ -22,3 +22,5 @@ The ICP assembled as a reader-in-context, a per-section prediction table in the 
 → `icp-deep-canvasser` (build or upgrade the deep-ICP profile this consumes)
 → `/gw-persona-flip` (harden the piece against Challenger + board member before you pre-test the reader)
 → `/gw-feedback-loop` (iterate the draft to its ceiling before the pre-test reads it)
+
+**Execution prompts**: before producing the deliverable, check `skills/geoff-woods-ai-thought-partner/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

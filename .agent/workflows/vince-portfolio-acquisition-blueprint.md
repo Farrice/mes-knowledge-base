@@ -27,3 +27,5 @@ Load before execution:
 - Required gate: `/vince-foundation-triad-audit` on existing brand(s)
 - Pairs with: Danny Yeung `dtc scaling + infrastructure pivots`
 - Pairs with: soowei `consulting business scale + leverage architecture` (for service layer attached to holdco)
+
+**Execution prompts**: before producing the deliverable, check `skills/vince-nijhof-dtc-operator-system/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

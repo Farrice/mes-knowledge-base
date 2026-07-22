@@ -15,3 +15,5 @@ Execute: skills/rory-sutherland-marketing/workflows/behavioral-value-offer-archi
 
 ## Input
 - Product/Offer Details + Price Point + Audience + Current Offer Structure
+
+**Execution prompts**: before producing the deliverable, check `skills/rory-sutherland-marketing/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

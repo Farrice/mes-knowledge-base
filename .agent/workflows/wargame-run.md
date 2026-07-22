@@ -14,3 +14,5 @@ The judgment-banking step. Recon is read-only; the route lands in the mission's 
 3. References on demand: `references/eight-point-standard.md`, `references/goal-and-loop-contracts.md`, `references/mission-brief-library.md`.
 
 Skill manifest: `skills/mark-kashef-wargame-os/SKILL.md` (when-NOT-to-use table + stacking guide).
+
+**Execution prompts**: before producing the deliverable, check `skills/mark-kashef-wargame-os/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

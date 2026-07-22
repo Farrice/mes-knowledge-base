@@ -59,3 +59,5 @@ Present the finished deliverable. Offer next-step recommendations based on what'
 - Can be re-run at any stage to add missing components
 - All workflows produce finished deliverables, not drafts
 - The Taki Moore agent persona should be maintained throughout execution
+
+**Execution prompts**: before producing the deliverable, check `skills/taki-moore-lifestyle-business/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

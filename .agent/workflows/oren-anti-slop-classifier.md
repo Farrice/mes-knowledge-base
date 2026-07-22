@@ -8,3 +8,5 @@ Run the **The Anti-Slop Output Classifier (Class A vs Class B Triage)** workflow
 
 ## Produces
 Per-Brand AI Deployment Matrix
+
+**Execution prompts**: before producing the deliverable, check `skills/oren-one-person-ai-marketer/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

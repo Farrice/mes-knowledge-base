@@ -39,3 +39,5 @@ A Gaze-Path Spec: per-leg wiring (`LEG → CARRIER → SPECIFIC MOVE`), hijack l
 - `/satori-perception-gap` — post-draft proof the path transmits
 
 Full spec: `skills/satori-graphics/workflows/24-gaze-path.md`
+
+**Execution prompts**: before producing the deliverable, check `skills/satori-graphics/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

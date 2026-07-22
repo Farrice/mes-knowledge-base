@@ -16,3 +16,5 @@ Transform any content from direct persuasion to Kallaway's bankshot mechanics.
 - **Content draft**: The content to transform (paste or reference)
 - **Target conclusions**: What should the viewer conclude on their own?
 - **Content format**: Blog, script, email, social, sales page, etc.
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-audience-obsession/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

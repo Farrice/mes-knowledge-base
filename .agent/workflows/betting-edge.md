@@ -165,3 +165,5 @@ python execution/live_trader.py milestone                       # 500-bet progre
 
 **Daily limits (paper/standard)**: Max 15% total exposure. Max 5% single bet. Max 2% per parlay.
 **Daily limits (Phase 3 live)**: Max 8% total exposure. Max 2% single bet. Min confidence 3. Min edge 1.5 pts. Max 5 picks/day.
+
+**Execution prompts**: before producing the deliverable, check `skills/nba-betting-edge/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

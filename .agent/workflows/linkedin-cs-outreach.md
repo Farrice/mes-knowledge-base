@@ -17,3 +17,5 @@ description: LinkedIn-specific creative strategist outreach
    - `skills/luke-iha-client-mastery/workflows/linkedin-outreach-engine.md`
 
 3. Run quality gate: Does the user have an optimized profile, content schedule, and daily outreach system?
+
+**Execution prompts**: before producing the deliverable, check `skills/luke-iha-client-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

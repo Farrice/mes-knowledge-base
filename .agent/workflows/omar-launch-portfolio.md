@@ -18,3 +18,5 @@ The launch portfolio system. Refuses single-ad-type launches. Engineers 3-layer 
 **Use when**: New brand launch, major scale-phase ramp, existing portfolio hit creative ceiling, repositioning launch.
 
 ARGUMENTS: $ARGUMENTS
+
+**Execution prompts**: before producing the deliverable, check `skills/omar-eddaoudi-scaling-ops/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

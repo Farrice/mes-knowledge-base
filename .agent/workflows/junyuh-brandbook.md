@@ -11,3 +11,5 @@ description: Generate complete visual verbal brand identity guide
 3. **Execute Workflow**: Run `skills/jun-yuh-creator-vision/workflows/brand-book-generator.md`.
 4. **Deliver**: Produce the brand book as a conversation artifact.
 5. **Finalize**: Run chain_runner.py finalize with expert=jun-yuh-creator-vision, skill=jun-yuh-creator-vision, workflow=brand-book-generator, type=Creative.
+
+**Execution prompts**: before producing the deliverable, check `skills/jun-yuh-creator-vision/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

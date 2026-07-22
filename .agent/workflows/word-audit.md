@@ -31,3 +31,5 @@ Detect and fix the uncanny valley in AI-generated or ghostwritten content — li
 - `/word-sprint` (includes believability as Pass 5)
 - `/voice-audit` (pair for full voice fidelity check)
 - `/authenticity-audit` (broader authenticity analysis)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-word-mastery/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

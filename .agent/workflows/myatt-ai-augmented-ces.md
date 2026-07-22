@@ -35,3 +35,5 @@ Load before execution:
 - Prerequisite: `/myatt-ces` for proprietary inputs
 - Pairs with `/myatt-three-s` to quantify time freed → reinvest into Strategy/Selling
 - Quality QA: `/myatt-vacation-test` (AI doesn't replace this gate)
+
+**Execution prompts**: before producing the deliverable, check `skills/alex-myatt-creative-engine/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

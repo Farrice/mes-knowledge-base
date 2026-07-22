@@ -15,3 +15,5 @@ Execute Nicolas Cole's problem articulation scripting workflow.
 3. Route: Nicolas Cole -> `nicolas-cole-sales-education-messaging` skill, `problem-articulation-script` workflow.
 4. Gather the buyer, situation, current workaround, and desired outcome.
 5. Execute the workflow exactly as documented.
+
+**Execution prompts**: before producing the deliverable, check `skills/nicolas-cole-sales-education-messaging/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

@@ -20,3 +20,5 @@ Highest-honest-rung proof (bullseye viewer-mimic, or warm-crowd, or third-party)
 ## Stacks With
 → `/trust-ladder`, `/proof-ladder-builder`, luke-iha-proof (deepen)
 → `references/trust-ladder.md` (rung catalog)
+
+**Execution prompts**: before producing the deliverable, check `skills/kallaway-illusion-of-novelty/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

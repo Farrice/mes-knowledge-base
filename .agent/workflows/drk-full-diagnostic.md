@@ -39,3 +39,5 @@ Individual diagnostics (identity, guna, samskara) each tell one part of the stor
    - Set daily practice minimum
 7. Output: Complete Consciousness Map with unified diagnosis + 30-day pathway
 8. Run quality gate against genius.md rubric
+
+**Execution prompts**: before producing the deliverable, check `skills/dr-k-consciousness/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).
