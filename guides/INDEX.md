@@ -14,6 +14,12 @@
 | Start any layout with a committed journey (hook/secondary/finisher) | [Satori v3 Layout & Contrast Layer](2026-07-21-satori-v3.md) |
 | Fix "clean but flat/generic" AI design via the 9-form contrast stack | [Satori v3 Layout & Contrast Layer](2026-07-21-satori-v3.md) |
 | Structure a non-generic landing/product page before build (beat maps, behavioral contrast) | [Satori v3 Layout & Contrast Layer](2026-07-21-satori-v3.md) |
+| **LinkedIn prospecting / conversation layer (Matthew Lakajev)** | |
+| Get immediate meetings from a dormant contact list (closed-lost campaign) | [Matthew Lakajev Conversation Layer](2026-07-21-matthew-lakajev-forge.md) |
+| Turn likes/profile-views into booked calls without pitching (opinion ladder) | [Matthew Lakajev Conversation Layer](2026-07-21-matthew-lakajev-forge.md) |
+| Diagnose where a funnel bleeds trust (Six Gates audit) | [Matthew Lakajev Conversation Layer](2026-07-21-matthew-lakajev-forge.md) |
+| Build a prospect list from my best client's graph / install the 10-before-10 rhythm | [Matthew Lakajev Conversation Layer](2026-07-21-matthew-lakajev-forge.md) |
+| Mine a proprietary model from my own judgment (how the Six Gates were built) | [Matthew Lakajev Conversation Layer](2026-07-21-matthew-lakajev-forge.md) |
 | **LinkedIn lead gen / conversion backend (Paolo Trivellato)** | |
 | Build a full LinkedIn lead-magnet→revenue engine for a boring B2B offer | [Paolo Trivellato Lead Magnet Engine](2026-07-21-paolo-lead-magnet-engine.md) |
 | Write a comment-gated lead-magnet post + the resource behind it | [Paolo Trivellato Lead Magnet Engine](2026-07-21-paolo-lead-magnet-engine.md) |
@@ -94,6 +100,7 @@
 
 *(newest first)*
 
+- 2026-07-21 — [Matthew Lakajev Conversation Layer](2026-07-21-matthew-lakajev-forge.md) — forge expansion #2 (Agency Podcast): 3→13 workflows, /ml-* namespace; Six Gates + closed-lost + opinion ladder; first blind pass for this expert (EVAL-053 model-PASS, Farrice pass pending)
 - 2026-07-21 — [Paolo Trivellato Lead Magnet Engine](2026-07-21-paolo-lead-magnet-engine.md) — forge from 2 frame-watched videos: 11 /pt-* workflows + 9 prompts; the LinkedIn conversion backend (comment→DM→email→workshop ascension); A-tier awaits Farrice blind pass
 - 2026-07-21 — [Satori v3 Layout & Contrast Layer](2026-07-21-satori-v3.md) — layout/composition anti-generic machinery from the first WATCHED Satori source: three-flow spine, 9-form contrast stack, /satori-frontend-flow bridge
 - 2026-07-19 — [Nathan Gotch Forge](2026-07-19-nathan-gotch-forge.md) — operational AI SEO layer from the JerkyGent teardown: 9 workflows, first primary Gotch source, counted-citation diagnosis doctrine
@@ -136,7 +143,6 @@
 ---
 
 ## Pending enrichment
-- [2026-07-21 — Matthew Lakajev Skill — Forge Expansion #2 (Six Gates + Closed-Lost + /ml-*)](2026-07-21-matthew-lakajev-forge.md) — session-brief stub, needs enrichment
 - [2026-07-21 — Signal Pilot — Offer Lock + Pressure Test v1 (red-teams, profile, prospects)](2026-07-21-signal-pilot-execution.md) — operator-guide stub, needs enrichment
 - [2026-07-21 — Solutions — X Corpus Via Playwright Public Snapshot](2026-07-21-.md) — operator-guide stub, needs enrichment
 - [2026-07-19 — Proof-to-Market Lynch options memo: 4-option cost+royalty deal table (B recommended: full base + 2% launch-window attributed), auditable attribution instruments, identity-first upgrades to 4 sprint modules, customer-as-media upsell verdict — propose-only, canonical offer untouched](2026-07-19-.md) — operator-guide stub, needs enrichment
