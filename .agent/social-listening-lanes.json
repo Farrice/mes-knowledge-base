@@ -6,28 +6,28 @@
       "description": "Monitor Farrice's own voice, memoirs, thought leadership, and audience engagement",
       "monitoring_targets": [
         {
-          "type": "creator",
-          "value": "farrice-cain LinkedIn author",
-          "platform": "linkedin",
+          "type": "niche",
+          "value": "personal brand positioning",
+          "platform": "tiktok",
           "actor": "sc-tiktok",
           "actor_mode": "search",
-          "note": "LinkedIn profile + activity (via flexible search)"
+          "note": "Personal-brand/positioning signal. TikTok keyword search — the actor cannot see LinkedIn; keep queries keyword-style, not sentences. (was: 'farrice-cain LinkedIn author')"
         },
         {
           "type": "hashtag",
-          "value": "dontworryaboutit",
-          "platform": "threads",
+          "value": "personalbranding",
+          "platform": "tiktok",
           "actor": "sc-tiktok",
           "actor_mode": "hashtag",
-          "note": "Threads campaign hashtag (via flexible search)"
+          "note": "Personal-brand conversation volume + angles. (was: 'dontworryaboutit' — near-zero-volume campaign tag, returned nothing)"
         },
         {
           "type": "niche",
-          "value": "invisible expert positioning LinkedIn",
-          "platform": "linkedin",
+          "value": "thought leadership",
+          "platform": "tiktok",
           "actor": "sc-tiktok",
           "actor_mode": "search",
-          "note": "Authority positioning discussions (via search)"
+          "note": "Authority-positioning discussions. (was: 'invisible expert positioning LinkedIn' — sentence query on a TikTok actor)"
         }
       ],
       "schedule": {
@@ -61,19 +61,19 @@
         },
         {
           "type": "niche",
-          "value": "streetwear fashion trends Instagram",
-          "platform": "instagram",
-          "actor": "sc-tiktok",
-          "actor_mode": "search",
-          "note": "IG streetwear community sentiment and style evolution (via search)"
-        },
-        {
-          "type": "niche",
-          "value": "streetwear hype drops culture",
+          "value": "streetwear outfit trends",
           "platform": "tiktok",
           "actor": "sc-tiktok",
           "actor_mode": "search",
-          "note": "Streetwear community sentiment and hype tracking"
+          "note": "Style evolution + community sentiment. TikTok keyword search. (was: 'streetwear fashion trends Instagram' — actor cannot search Instagram)"
+        },
+        {
+          "type": "niche",
+          "value": "streetwear drops",
+          "platform": "tiktok",
+          "actor": "sc-tiktok",
+          "actor_mode": "search",
+          "note": "Drop hype tracking. (was: 'streetwear hype drops culture' — sentence-style query)"
         }
       ],
       "schedule": {
@@ -107,18 +107,18 @@
         },
         {
           "type": "niche",
-          "value": "San Fernando Valley real estate market sentiment",
+          "value": "San Fernando Valley real estate",
           "platform": "tiktok",
           "actor": "sc-tiktok",
           "actor_mode": "search",
-          "note": "SFV real estate discussions and buyer sentiment"
+          "note": "SFV real estate discussions and buyer sentiment. (was: '...market sentiment' sentence query)"
         },
         {
           "type": "niche",
-          "value": "Los Angeles first-time home buyer advice",
+          "value": "first time home buyer Los Angeles",
           "platform": "youtube",
-          "actor": "sc-youtube-channels",
-          "note": "YouTube creators in FTHB + LA real estate space"
+          "actor": "youtube",
+          "note": "FTHB + LA real estate YouTube content, via apidojo keyword search (per_result, ~$0.005/item). Swapped from sc-youtube-channels 2026-07-21: that actor takes channel URLs ONLY, no search mode (input schema requires `channels` array — https://apify.com/scrape-creators/best-youtube-channels-scraper)"
         }
       ],
       "schedule": {

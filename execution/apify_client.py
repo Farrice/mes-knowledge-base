@@ -31,12 +31,12 @@ Usage — New Scrape Creators actors (pay_per_event pricing, added 2026-07-16):
     python execution/apify_client.py sc-tiktok-video "7234567890" --limit 1
     python execution/apify_client.py sc-tiktok-profile "@fitnessguy"
     python execution/apify_client.py sc-tiktok-hashtag "fitnessmotivation" --limit 50
-    python execution/apify_client.py sc-tiktok-transcripts --search "fitness" --limit 10
+    python execution/apify_client.py sc-tiktok-transcripts --urls "https://www.tiktok.com/@x/video/123"
     python execution/apify_client.py sc-tiktok-followers "@fitnessguy" --limit 50
     python execution/apify_client.py sc-tiktok-following "@fitnessguy" --limit 50
-    python execution/apify_client.py sc-youtube-transcripts --search "fitness" --limit 5
+    python execution/apify_client.py sc-youtube-transcripts --urls "https://www.youtube.com/watch?v=abc"
     python execution/apify_client.py sc-youtube-channels "@fitnessguy"
-    python execution/apify_client.py sc-youtube-comments --search "fitness" --limit 50
+    python execution/apify_client.py sc-youtube-comments --video-id "dQw4w9WgXcQ" --limit 50
 
 Cost control (for pay_per_event actors):
     --max-cost 0.50              # Override per-run ceiling (default $0.25)
@@ -373,23 +373,36 @@ def _get_pay_per_event_cost(
         except (ValueError, TypeError):
             pass
 
-    # Attempt 2: If items are returned, check first item for metadata (some actors embed it)
+    # Attempt 2: run-sync responses carry the run id in X-Apify-Run-Id.
+    # Fetch the run object (free API call) and read usageTotalUsd — the
+    # authoritative cost for pay_per_event actors.
     if actual_cost is None:
-        try:
-            items = response.json()
-            if isinstance(items, list) and len(items) > 0 and isinstance(items[0], dict):
-                if "_metadata" in items[0] and "usageTotalUsd" in items[0]["_metadata"]:
-                    actual_cost = items[0]["_metadata"]["usageTotalUsd"]
-        except (json.JSONDecodeError, KeyError, TypeError):
-            pass
+        run_id = response.headers.get("x-apify-run-id") or response.headers.get("X-Apify-Run-Id")
+        if run_id:
+            try:
+                token = os.environ.get("APIFY_TOKEN", "")
+                run_resp = requests.get(
+                    f"https://api.apify.com/v2/actor-runs/{run_id}",
+                    params={"token": token},
+                    timeout=30,
+                )
+                if run_resp.status_code == 200:
+                    usage = run_resp.json().get("data", {}).get("usageTotalUsd")
+                    if usage is not None:
+                        actual_cost = float(usage)
+            except (requests.RequestException, ValueError, TypeError, json.JSONDecodeError):
+                pass
 
-    # Fallback: Use conservative estimate based on result count
+    # Fallback: conservative per-result estimate. Scrape Creators actors are
+    # priced ~$0.001-0.002 per dataset item (verified 2026-07-21 via
+    # pricingInfos on the actor objects). The previous $0.10/result estimate
+    # was ~50-100x too high and falsely tripped the per-run cost ceiling on
+    # every successful run.
     if actual_cost is None:
         try:
             items = response.json()
             actual_count = len(items) if isinstance(items, list) else 0
-            # Conservative: assume $0.10 per result for pay_per_event actors (will be refined)
-            actual_cost = min(actual_count * 0.10, max_cost)
+            actual_cost = actual_count * 0.002
         except (json.JSONDecodeError, TypeError):
             actual_cost = 0.0
 
@@ -557,16 +570,20 @@ def cmd_sc_tiktok(args):
         python execution/apify_client.py sc-tiktok --hashtag "fitnessmotivation" --limit 20
         python execution/apify_client.py sc-tiktok --trending --limit 20
     """
-    run_input = {"resultsLimit": args.limit}
+    # Real input schema (verified 2026-07-21 via /builds/default):
+    #   keywords: array, hashtags: array, usernames: array, maxItems: int,
+    #   scrapeTrending: bool. No required fields — wrong field names run
+    #   silently and return 0 items, so field names here MUST match.
+    run_input = {"maxItems": args.limit}
 
     if args.search:
-        run_input["searchTerm"] = args.search
+        run_input["keywords"] = [args.search]
     elif args.profile:
-        run_input["profileUsername"] = args.profile.lstrip("@")
+        run_input["usernames"] = [args.profile.lstrip("@")]
     elif args.hashtag:
-        run_input["searchHashtag"] = args.hashtag.lstrip("#")
+        run_input["hashtags"] = [args.hashtag.lstrip("#")]
     elif args.trending:
-        run_input["searchTerm"] = "#trending"  # Proxy for trending
+        run_input["scrapeTrending"] = True
     else:
         print(json.dumps({
             "status": "error",
@@ -592,7 +609,11 @@ def cmd_sc_tiktok_video(args):
     Usage:
         python execution/apify_client.py sc-tiktok-video "7234567890" --limit 1
     """
-    run_input = {"videoIds": [args.video_id], "resultsLimit": args.limit}
+    # Real schema: videos (array of TikTok URLs). Accept URL or bare ID.
+    video = args.video_id
+    if not video.startswith("http"):
+        video = f"https://www.tiktok.com/@_/video/{video}"
+    run_input = {"videos": [video]}
     result = run_actor(
         "sc-tiktok-video",
         run_input,
@@ -609,11 +630,12 @@ def cmd_sc_tiktok_profile(args):
     Usage:
         python execution/apify_client.py sc-tiktok-profile "@fitnessguy"
     """
-    run_input = {"username": args.username.lstrip("@")}
+    # Real schema: usernames (array), maxItems (int, default 20)
+    run_input = {"usernames": [args.username.lstrip("@")], "maxItems": args.limit}
     result = run_actor(
         "sc-tiktok-profile",
         run_input,
-        1,
+        args.limit,
         max_cost=args.max_cost,
         allow_expensive=args.allow_expensive
     )
@@ -626,9 +648,11 @@ def cmd_sc_tiktok_hashtag(args):
     Usage:
         python execution/apify_client.py sc-tiktok-hashtag "fitnessmotivation" --limit 50
     """
+    # Real schema: hashtags (array, required), maxVideos (int, required).
+    # Previous "resultsLimit" field caused 400 Bad Request (missing maxVideos).
     run_input = {
         "hashtags": [args.hashtag.lstrip("#")],
-        "resultsLimit": args.limit
+        "maxVideos": args.limit
     }
     result = run_actor(
         "sc-tiktok-hashtag",
@@ -642,18 +666,21 @@ def cmd_sc_tiktok_hashtag(args):
 
 def cmd_sc_tiktok_transcripts(args):
     """
-    best-tiktok-transcripts-scraper: fetch TikTok video transcripts (if available).
+    best-tiktok-transcripts-scraper: fetch TikTok video transcripts.
+    Real schema: videos (array of TikTok video URLs, required). The actor has
+    NO search mode — collect video URLs first (e.g. via sc-tiktok --search).
     Usage:
-        python execution/apify_client.py sc-tiktok-transcripts --search "fitness" --limit 10
+        python execution/apify_client.py sc-tiktok-transcripts --urls "https://www.tiktok.com/@x/video/123,https://..."
     """
-    run_input = {"resultsLimit": args.limit}
-    if args.search:
-        run_input["searchTerm"] = args.search
+    if getattr(args, "urls", None):
+        urls = [u.strip() for u in args.urls.split(",") if u.strip()]
+        run_input = {"videos": urls}
     else:
         print(json.dumps({
             "status": "error",
             "fallback": True,
-            "message": "sc-tiktok-transcripts requires --search",
+            "message": "sc-tiktok-transcripts requires --urls (comma-separated TikTok video URLs). "
+                       "The actor has no search mode — collect URLs via `sc-tiktok --search` first.",
             "items": []
         }, indent=2))
         return
@@ -674,9 +701,10 @@ def cmd_sc_tiktok_followers(args):
     Usage:
         python execution/apify_client.py sc-tiktok-followers "@fitnessguy" --limit 50
     """
+    # Real schema: usernames (array, required), numFollowers (int, required)
     run_input = {
-        "username": args.username.lstrip("@"),
-        "resultsLimit": args.limit
+        "usernames": [args.username.lstrip("@")],
+        "numFollowers": args.limit
     }
     result = run_actor(
         "sc-tiktok-followers",
@@ -694,9 +722,10 @@ def cmd_sc_tiktok_following(args):
     Usage:
         python execution/apify_client.py sc-tiktok-following "@fitnessguy" --limit 50
     """
+    # Real schema: usernames (array, required), numberOfFollowing (int, required)
     run_input = {
-        "username": args.username.lstrip("@"),
-        "resultsLimit": args.limit
+        "usernames": [args.username.lstrip("@")],
+        "numberOfFollowing": args.limit
     }
     result = run_actor(
         "sc-tiktok-following",
@@ -711,20 +740,20 @@ def cmd_sc_tiktok_following(args):
 def cmd_sc_youtube_transcripts(args):
     """
     best-youtube-transcripts-scraper: fetch YouTube video transcripts.
+    Real schema: videoUrls (array of video URLs, required). The actor has NO
+    search or channel mode — collect video URLs first (e.g. via `youtube` actor).
     Usage:
-        python execution/apify_client.py sc-youtube-transcripts --search "fitness" --limit 5
-        python execution/apify_client.py sc-youtube-transcripts --channel "@fitnessguy" --limit 5
+        python execution/apify_client.py sc-youtube-transcripts --urls "https://www.youtube.com/watch?v=abc,https://..."
     """
-    run_input = {"resultsLimit": args.limit}
-    if args.search:
-        run_input["searchTerm"] = args.search
-    elif args.channel:
-        run_input["channelName"] = args.channel.lstrip("@")
+    if getattr(args, "urls", None):
+        urls = [u.strip() for u in args.urls.split(",") if u.strip()]
+        run_input = {"videoUrls": urls}
     else:
         print(json.dumps({
             "status": "error",
             "fallback": True,
-            "message": "sc-youtube-transcripts requires --search or --channel",
+            "message": "sc-youtube-transcripts requires --urls (comma-separated YouTube video URLs). "
+                       "The actor has no search/channel mode — use the `youtube` actor to find videos first.",
             "items": []
         }, indent=2))
         return
@@ -742,24 +771,27 @@ def cmd_sc_youtube_transcripts(args):
 def cmd_sc_youtube_channels(args):
     """
     best-youtube-channels-scraper: fetch YouTube channel data.
+    Real schema: channels (array of channel URLs, required). The actor has NO
+    search mode — the previous "channelNames"/"searchTerm" fields caused
+    400 Bad Request. For keyword discovery use the `youtube` actor instead.
     Usage:
         python execution/apify_client.py sc-youtube-channels "@fitnessguy"
-        python execution/apify_client.py sc-youtube-channels --search "fitness" --limit 10
+        python execution/apify_client.py sc-youtube-channels "https://www.youtube.com/@fitnessguy"
     """
-    run_input = {}
-    # Handle positional channel argument if provided
     channel = args.channel if hasattr(args, 'channel') and args.channel else None
 
     if channel:
-        run_input["channelNames"] = [channel.lstrip("@")]
-    elif args.search:
-        run_input["searchTerm"] = args.search
-        run_input["resultsLimit"] = args.limit
+        if channel.startswith("http"):
+            channel_url = channel
+        else:
+            channel_url = f"https://www.youtube.com/@{channel.lstrip('@')}"
+        run_input = {"channels": [channel_url]}
     else:
         print(json.dumps({
             "status": "error",
             "fallback": True,
-            "message": "sc-youtube-channels requires a channel name or --search",
+            "message": "sc-youtube-channels requires a channel handle or URL. The actor has no "
+                       "search mode — use the `youtube` actor for keyword discovery.",
             "items": []
         }, indent=2))
         return
@@ -767,7 +799,7 @@ def cmd_sc_youtube_channels(args):
     result = run_actor(
         "sc-youtube-channels",
         run_input,
-        args.limit if args.search else 1,
+        1,
         max_cost=args.max_cost,
         allow_expensive=args.allow_expensive
     )
@@ -777,20 +809,21 @@ def cmd_sc_youtube_channels(args):
 def cmd_sc_youtube_comments(args):
     """
     best-youtube-comments-scraper: fetch YouTube video comments.
+    Real schema: videosUrls (array, required), maxComments (int, required),
+    orderBy ('top'|'newest'). The actor has NO search mode.
     Usage:
         python execution/apify_client.py sc-youtube-comments --video-id "dQw4w9WgXcQ" --limit 50
-        python execution/apify_client.py sc-youtube-comments --search "fitness" --limit 50
     """
-    run_input = {"resultsLimit": args.limit}
     if args.video_id:
-        run_input["videoId"] = args.video_id
-    elif args.search:
-        run_input["searchTerm"] = args.search
+        vid = args.video_id
+        video_url = vid if vid.startswith("http") else f"https://www.youtube.com/watch?v={vid}"
+        run_input = {"videosUrls": [video_url], "maxComments": args.limit}
     else:
         print(json.dumps({
             "status": "error",
             "fallback": True,
-            "message": "sc-youtube-comments requires --video-id or --search",
+            "message": "sc-youtube-comments requires --video-id (or a full video URL). The actor "
+                       "has no search mode — use the `youtube` actor to find videos first.",
             "items": []
         }, indent=2))
         return
@@ -882,6 +915,7 @@ def main():
 
     psc_tiktok_profile = sub.add_parser("sc-tiktok-profile", help="TikTok profile scraper")
     psc_tiktok_profile.add_argument("username", help="Profile handle (@username)")
+    psc_tiktok_profile.add_argument("--limit", type=int, default=20, help="Max tiktoks per profile")
     _add_pay_per_event_args(psc_tiktok_profile)
 
     psc_tiktok_hashtag = sub.add_parser("sc-tiktok-hashtag", help="TikTok hashtag scraper")
@@ -889,8 +923,8 @@ def main():
     psc_tiktok_hashtag.add_argument("--limit", type=int, default=50)
     _add_pay_per_event_args(psc_tiktok_hashtag)
 
-    psc_tiktok_transcripts = sub.add_parser("sc-tiktok-transcripts", help="TikTok transcript scraper")
-    psc_tiktok_transcripts.add_argument("--search", help="Search term", required=True)
+    psc_tiktok_transcripts = sub.add_parser("sc-tiktok-transcripts", help="TikTok transcript scraper (needs video URLs)")
+    psc_tiktok_transcripts.add_argument("--urls", help="Comma-separated TikTok video URLs")
     psc_tiktok_transcripts.add_argument("--limit", type=int, default=10)
     _add_pay_per_event_args(psc_tiktok_transcripts)
 
@@ -904,21 +938,18 @@ def main():
     psc_tiktok_following.add_argument("--limit", type=int, default=50)
     _add_pay_per_event_args(psc_tiktok_following)
 
-    psc_yt_transcripts = sub.add_parser("sc-youtube-transcripts", help="YouTube transcript scraper")
-    psc_yt_transcripts.add_argument("--search", help="Search term")
-    psc_yt_transcripts.add_argument("--channel", help="Channel handle (@channel)")
+    psc_yt_transcripts = sub.add_parser("sc-youtube-transcripts", help="YouTube transcript scraper (needs video URLs)")
+    psc_yt_transcripts.add_argument("--urls", help="Comma-separated YouTube video URLs")
     psc_yt_transcripts.add_argument("--limit", type=int, default=5)
     _add_pay_per_event_args(psc_yt_transcripts)
 
-    psc_yt_channels = sub.add_parser("sc-youtube-channels", help="YouTube channels scraper")
-    psc_yt_channels.add_argument("channel", nargs="?", help="Channel handle (@channel)")
-    psc_yt_channels.add_argument("--search", help="Search term")
+    psc_yt_channels = sub.add_parser("sc-youtube-channels", help="YouTube channels scraper (channel handle/URL only, no search)")
+    psc_yt_channels.add_argument("channel", nargs="?", help="Channel handle (@channel) or URL")
     psc_yt_channels.add_argument("--limit", type=int, default=10)
     _add_pay_per_event_args(psc_yt_channels)
 
     psc_yt_comments = sub.add_parser("sc-youtube-comments", help="YouTube comments scraper")
-    psc_yt_comments.add_argument("--video-id", help="YouTube video ID")
-    psc_yt_comments.add_argument("--search", help="Search term")
+    psc_yt_comments.add_argument("--video-id", help="YouTube video ID or URL")
     psc_yt_comments.add_argument("--limit", type=int, default=50)
     _add_pay_per_event_args(psc_yt_comments)
 

@@ -140,19 +140,18 @@ def run_actor_for_target(target: Dict, lane_name: str, config: Dict) -> Optional
         if query:
             cmd.append(query)
 
+    elif actor_key == "youtube":
+        # apidojo/youtube-scraper: positional keyword query (per_result pricing)
+        cmd.append(query)
+
     elif actor_key == "sc-youtube-channels":
-        # Optional positional channel or --search
-        if actor_mode == "search":
-            cmd.extend(["--search", query])
-        else:
-            cmd.append(query)
+        # Positional channel handle/URL ONLY — the actor has no search mode
+        # (verified 2026-07-21: input schema requires `channels` URL array).
+        cmd.append(query)
 
     elif actor_key == "sc-youtube-transcripts":
-        # Named args only: --search or --channel
-        if actor_mode == "channel":
-            cmd.extend(["--channel", query])
-        else:
-            cmd.extend(["--search", query])
+        # Actor requires video URLs (no search/channel mode)
+        cmd.extend(["--urls", query])
 
     else:
         # Fallback: treat as generic (might fail)
@@ -178,7 +177,10 @@ def run_actor_for_target(target: Dict, lane_name: str, config: Dict) -> Optional
             cmd,
             capture_output=True,
             text=True,
-            timeout=60,
+            # 180s: run-sync actors can legitimately take >60s (Apify-side run
+            # timeout is 90-150s; the old 60s subprocess timeout killed runs
+            # that would have succeeded).
+            timeout=180,
         )
 
         if result.returncode != 0:
@@ -201,13 +203,30 @@ def run_actor_for_target(target: Dict, lane_name: str, config: Dict) -> Optional
                 "reason": output.get("reason", "unknown"),
             }
 
-        # Success
+        # Persist raw output to .tmp/social-listening/<date>-<lane>/ (fail-soft).
+        # Filename = <actor-key>-<query-slug>.json so multiple targets on the
+        # same actor within a lane don't clobber each other.
+        raw_path = None
+        try:
+            date_str = datetime.now().strftime("%Y-%m-%d")
+            raw_dir = REPO_ROOT / ".tmp" / "social-listening" / f"{date_str}-{lane_name}"
+            raw_dir.mkdir(parents=True, exist_ok=True)
+            slug = "".join(c if c.isalnum() else "-" for c in str(query)).strip("-")[:40] or "query"
+            raw_file = raw_dir / f"{actor_key}-{slug}.json"
+            with open(raw_file, "w") as f:
+                json.dump(output, f, indent=2)
+            raw_path = str(raw_file)
+        except Exception:
+            pass  # raw persistence must never break the run
+
+        # Success (note: client reports cost as "cost_dollars")
         return {
             "status": "success",
             "actor": actor_key,
             "query": query,
             "items": len(output.get("items", [])),
-            "cost": output.get("cost", 0.0),
+            "cost": output.get("cost_dollars", output.get("cost", 0.0)),
+            "raw_path": raw_path,
             "data": output,
         }
 
@@ -398,33 +417,58 @@ def run_pulse_lane(lane_name: str, config: Dict) -> Dict:
     # Log the run
     log_pulse_run(lane_name, results, config)
 
+    # Honest lane status: any actor error OR zero items collected across all
+    # targets means the lane produced no usable signal → "degraded", never
+    # "success". (Previously this always said success even when every actor
+    # failed — the routine-health channel couldn't see empty runs.)
+    successful = [r for r in results if r.get("status") == "success"]
+    total_items = sum(r.get("items", 0) for r in successful)
+    failed = [r for r in results if r.get("status") in ("failed", "timeout", "error", "parse_error")]
+    lane_status = "degraded" if (failed or total_items == 0) else "success"
+
     return {
-        "status": "success",
+        "status": lane_status,
         "lane": lane_name,
         "results_count": len(results),
+        "total_items": total_items,
+        "failed_actors": len(failed),
         "brief_saved_to": str(brief_path),
     }
 
 
 def cmd_run_all(config: Dict):
-    """Run all enabled lanes."""
+    """Run all enabled lanes. Exit 2 if any lane is degraded."""
     print("🎧 Social Listening Pulse — Running all lanes...\n")
 
+    any_degraded = False
     for lane_name, lane in config["lanes"].items():
         if lane.get("enabled"):
             print(f"  Running {lane_name}...")
             result = run_pulse_lane(lane_name, config)
             if result.get("status") == "success":
-                print(f"    ✓ {result.get('results_count')} actors completed")
+                print(f"    ✓ {result.get('results_count')} actors completed, {result.get('total_items')} items")
+            elif result.get("status") == "degraded":
+                any_degraded = True
+                print(f"    ✗ degraded: {result.get('total_items', 0)} items, "
+                      f"{result.get('failed_actors', 0)} failed actor(s)")
             else:
                 print(f"    ⚠ {result.get('status')}: {result.get('reason', '')}")
 
+    if any_degraded:
+        sys.exit(2)
+
 
 def cmd_run_lane(lane_name: str, config: Dict):
-    """Run a specific lane."""
+    """Run a specific lane. Exit codes: 0 success, 2 degraded (errors or zero items), 1 crash."""
     print(f"🎧 Social Listening Pulse — {lane_name}\n")
     result = run_pulse_lane(lane_name, config)
-    print(json.dumps(result, indent=2))
+    # Don't dump full raw data into stdout — raw JSON lives in .tmp/social-listening/
+    printable = {k: v for k, v in result.items() if k != "data"}
+    print(json.dumps(printable, indent=2))
+    if result.get("status") == "degraded":
+        sys.exit(2)
+    if result.get("status") == "error":
+        sys.exit(1)
 
 
 def cmd_status(config: Dict):
