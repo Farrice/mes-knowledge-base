@@ -72,10 +72,16 @@ conductor's, but it happens ON TOP of engine output, never instead of it.
 
 ## Stage 0.5 — PREFLIGHT SIGN-OFF (always; Farrice 2026-07-21)
 
-Render the full card and **WAIT**. Fast-approve ("y" / "go" / thumbs-up)
-launches. Adjustments edit the card in place. This replaces v2's T1-auto-run:
-every mission briefs back before execution — the tier now governs what may
-run AFTER approval (T2/T3 outward/paid/destructive rules unchanged).
+**Claude Code standard surface (Farrice 2026-07-21, same session): the
+plan-review flow.** Enter plan mode, write the EXPANDED card into the plan
+file — the full manifest: every file that will be loaded (in order), writing
+rules in force, gates with their verifiable commands, expected spawns, and
+every output path the operator can check afterward — then ExitPlanMode. The
+operator's accept IS the sign-off; a rejection with notes is the adjust loop.
+The compact card below is the fallback surface (Codex, or when plan mode is
+unavailable). Either way: render, then **WAIT**. Fast-approve launches.
+This replaces v2's T1-auto-run: every mission briefs back before execution —
+the tier governs what may run AFTER approval (T2/T3 rules unchanged).
 
 ```
 MISSION CARD — <slug>

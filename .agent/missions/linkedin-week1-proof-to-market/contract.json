@@ -43,6 +43,9 @@
   "deliverable_paths": [
     "_active/linkedin-launch/03-content/"
   ],
-  "status": "awaiting-signoff",
-  "compiled": "2026-07-21"
+  "status": "done",
+  "compiled": "2026-07-21",
+  "signed_off": "2026-07-21 (plan-review surface, Farrice)",
+  "verdict": "good",
+  "measured_spawns": 2
 }
