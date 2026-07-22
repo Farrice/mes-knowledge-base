@@ -136,6 +136,7 @@
 ---
 
 ## Pending enrichment
+- [2026-07-21 — Matthew Lakajev Skill — Forge Expansion #2 (Six Gates + Closed-Lost + /ml-*)](2026-07-21-matthew-lakajev-forge.md) — session-brief stub, needs enrichment
 - [2026-07-21 — Signal Pilot — Offer Lock + Pressure Test v1 (red-teams, profile, prospects)](2026-07-21-signal-pilot-execution.md) — operator-guide stub, needs enrichment
 - [2026-07-21 — Solutions — X Corpus Via Playwright Public Snapshot](2026-07-21-.md) — operator-guide stub, needs enrichment
 - [2026-07-19 — Proof-to-Market Lynch options memo: 4-option cost+royalty deal table (B recommended: full base + 2% launch-window attributed), auditable attribution instruments, identity-first upgrades to 4 sprint modules, customer-as-media upsell verdict — propose-only, canonical offer untouched](2026-07-19-.md) — operator-guide stub, needs enrichment

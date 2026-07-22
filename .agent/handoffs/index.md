@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-21** [linkedin-launch/active] [Linkedin Launch — Spec Rosner 2026 07 21](2026-07-21-linkedin-launch.md) — Linkedin Launch — Spec Rosner 2026 07 21
 - **2026-07-21** [matthew-lakajev-forge/ready] [Matthew Lakajev Skill — Forge Expansion #2 (Six Gates + Closed-Lost + /ml-*)](2026-07-21-matthew-lakajev-forge.md) — Farrice blind pass on the Lakajev specimen → A-tier; then /ml-closed-lost for Signal Pilot sends
 - **2026-07-21** [paolo-lead-magnet-engine/ready] [Paolo Trivellato Forge — Extraction Shipped (LinkedIn Lead Magnet Engine)](2026-07-21-paolo-lead-magnet-engine.md) — Run /pt-lead-engine for Proof-to-Market sprint (command registers fresh session); Farrice blind pass promotes A-tier
 - **2026-07-21** [signal-pilot-execution/ready] [Signal Pilot — Offer Lock + Pressure Test v1 (red-teams, profile, prospects)](2026-07-21-signal-pilot-execution.md) — Fork A: build + send Rosner flagship artifact, then Broxterman; profile paste in parallel; log every send
@@ -12,7 +13,6 @@ Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 - **2026-07-21** [solutions/active] [Solutions — Linkedin Authwall Corpus Via Public Post Permalinks](2026-07-21-solutions.md) — Solutions — Linkedin Authwall Corpus Via Public Post Permalinks
 - **2026-07-21** [meg-heckman-buyer-trigger-os/active] [Meg Heckman Buyer Trigger Os — Skill](2026-07-21-meg-heckman-buyer-trigger-os.md) — Meg Heckman Buyer Trigger Os — Skill
 - **2026-07-21** [go/active] [Premium Arc offer architecture — pinnacle creative/content strategy offer (accountable single seat), 4-rung ladder atop Signal Pilot + Proof-to-Market, executor screen v2, momentum steps](2026-07-21-go.md) — Premium Arc offer architecture — pinnacle creative/content strategy offer (accountable single seat), 4-rung ladder atop Signal Pilot + Proof-to-Market, executor screen v2, momentum steps
-- **2026-07-21** [linkedin-launch/active] [Linkedin Launch — Premium Arc 2026 07 21](2026-07-21-linkedin-launch.md) — Linkedin Launch — Premium Arc 2026 07 21
 - **2026-07-21** [satori-v3/ready] [Satori Graphics — v3 Layout & Contrast Layer (forge from watched video)](2026-07-21-satori-v3.md) — Farrice blind pass on v3 sample, then /satori-frontend-flow on Proof-to-Market landing
 - **2026-07-21** [expansion-2026-07-21/active] [Expansion 2026 07 21 — Blind Pass Sample](2026-07-21-expansion-2026-07-21.md) — Expansion 2026 07 21 — Blind Pass Sample
 - **2026-07-21** [satori-v3-layout-contrast/active] [Satori v3 — Layout & Contrast Layer (forge from watched video)](2026-07-21-satori-v3-layout-contrast.md) — Date: 2026-07-21 · Session type: /watch + /extract-forge expansion · Status: SHIPPED

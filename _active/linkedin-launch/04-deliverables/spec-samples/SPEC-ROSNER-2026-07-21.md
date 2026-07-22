@@ -11,13 +11,13 @@ I read your last three issues (lactate gels, the electrolyte piece, the block te
 
 **What's working.** Every issue runs the same clean move: the hyped thing isn't wrong, it's just not what makes you faster. Named authors, year, plain-language stat, directive close. That construction is why 25,238 people trust a free running email in a category drowning in gel ads. Most newsletters in your space would kill for the credibility engine you've built.
 
-**The gap.** The issues I sampled close three ways: the free-newsletter signoff, a survey, or a link to someone else's product — Stryd, Science in Sport. Not once to SAC. So I went looking as a stranger with a credit card. The 16-week cohort with the 70% PR rate you track has no page, no price, no path I could find. The only thing I could actually buy was the $59 strength bundle. Your strongest proof lives in your LinkedIn bio. Your buyers live on your email list. Right now they don't meet.
+**The gap.** The issues I sampled close three ways: the free-newsletter signoff, a survey, or a link to someone else's product (Stryd, Science in Sport). Not once to SAC. So I went looking as a stranger with a credit card. The 16-week cohort with the 70% PR rate you track has no public page. I couldn't even find a price. The only thing I could actually buy was the $59 strength bundle. Your strongest proof lives in your LinkedIn bio. Your buyers live on your email list. Right now they don't meet.
 
-One caveat, since you'd catch it anyway: I sampled recent issues, not your welcome automation. If the welcome flow already pitches SAC, the point stands for the weekly — everyone past the welcome window is reading world-class evidence with no way to act on it.
+One caveat, since you'd catch it anyway: I sampled recent issues, not your welcome automation. If the welcome flow already pitches SAC, the point stands for the weekly: everyone past the welcome window is reading world-class evidence with no way to act on it.
 
-In your own frame, this is a measurement problem. You track everything — except whether the newsletter converts. A 25,000-person list you never make an offer to is a rented crowd: attention that expires the week you stop publishing.
+In your own frame, this is a measurement problem. You track everything except whether the newsletter converts. A 25,000-person list you never make an offer to is a rented crowd, attention that expires the week you stop publishing.
 
-Attached: one email that bridges your exact register (myth, correction, directive) into cohort applications, and one LinkedIn post that does the same job in feed format. Both built only from your published material. If either doesn't sound like you, delete both and keep the read — it cost you nothing.
+Attached: one email that bridges your exact register (myth, correction, directive) into cohort applications, and one LinkedIn post that does the same job in feed format. Both built only from your published material. If either doesn't sound like you, delete both and keep the read. It cost you nothing.
 
 — Farrice Cain
 
@@ -32,7 +32,7 @@ Every Thursday I send you what the evidence actually says. Lactate gels with thi
 
 The promise has always been the same: save the 2,000 hours of research, get the 4-minute version, no hype.
 
-Here's the honest limit of that promise. I can't cite a single study where reading changed a race time. Evidence shows up on race day as decisions — pacing you hold at 32K when your watch says you feel great, fueling executed to the gram, the strength session you actually did in week 9 when work got loud. Between knowing and doing there's a gap, and the gap is where smart runners stay at the same PR for three years.
+That promise has one limit, and I want to name it. I can't cite a single study where reading changed a race time. Evidence shows up on race day as decisions: pacing you hold at 32K when your watch says you feel great, fueling executed to the gram, the strength session you actually did in week 9 when work got loud. Between knowing and doing there's a gap, and the gap is where smart runners stay at the same PR for three years.
 
 That gap is what SAC exists to close. Sixteen weeks, small cohorts, and we guide you through implementing the same pillars you read about here — with everything tracked, the way I tracked athletes in the NFL. 70% of our members set a personal record. We measure that, which is the only reason I'll claim it.
 
@@ -52,7 +52,7 @@ Show up, run the plan, and let the data argue for you.
 
 The number I actually manage the business by is different: 70% of SAC members set a personal record. We track everything, so I'll claim it.
 
-Here's what that second number taught me. The runners who PR aren't reading better research than everyone else — most weeks they're reading the same newsletter you are. The difference is a system for implementation: pacing decisions rehearsed before race day, fueling executed to the gram, strength work that survives a loud week at the office.
+That second number taught me something the first one can't. The runners who PR aren't reading better research than everyone else. Most weeks they're reading the same newsletter you are. The difference is a system for implementation: pacing decisions rehearsed before race day, fueling executed to the gram, strength work that survives a loud week at the office.
 
 Evidence beats hype. Always. But evidence only becomes a PR when someone builds it into your actual training week.
 
@@ -68,7 +68,7 @@ Next cohort details in the comments.
 
 Jonah — your lactate-gel piece last week did the thing most fitness writing can't: made the boring answer more interesting than the hyped one.
 
-I write conversion emails for practitioner-founders, and I noticed your newsletter never sends readers to SAC — so I wrote the bridge myself. One-page read on the gap, plus a sample email and post in your voice, built only from your published material. No call, no pitch. If it doesn't sound like you, delete it.
+I write conversion emails for coaches and sport scientists who publish. Reading your archive, I noticed the newsletter never sends readers to SAC, so I wrote the bridge myself. One-page read on the gap, plus a sample email and post in your voice, built only from your published material. No call, no pitch. If it doesn't sound like you, delete it.
 
 Want me to send it over?
 
