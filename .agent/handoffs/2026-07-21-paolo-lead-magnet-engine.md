@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** paolo-lead-magnet-engine  
-**Full path:** .agent/handoffs/2026-07-21-paolo-lead-magnet-engine.md  
-**Date:** 2026-07-21 (today)  
-**Status:** ready  
-**Title:** Paolo Trivellato Forge — Extraction Shipped (LinkedIn Lead Magnet Engine)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume paolo-lead-magnet-engine` for this one.
-
----
-
 ---
 thread: paolo-lead-magnet-engine
 status: ready
@@ -58,4 +46,3 @@ pin: true
 - Compliance: supplement niche — no income/health claims; specificity moves to outputs/time (per the compliant-grip rule in the 2026-07-07 solution card).
 - Voice: anything shipped under Farrice's name needs VOICE-CARD + dial; felt verdict wins.
 - Self-reported numbers (Paolo/Kyle/Starborn site) must stay labeled self-reported in any client-facing material.
-

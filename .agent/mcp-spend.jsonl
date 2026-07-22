@@ -163,3 +163,8 @@
 {"ts": "2026-07-21T23:29:25.435171+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "b1071701-3c59-4494-814c-fc8a6aebef5a"}
 {"ts": "2026-07-21T23:29:48.334768+00:00", "tool": "mcp__perplexity-ask__perplexity_search", "service": "perplexity", "billable": true, "session_id": "b1071701-3c59-4494-814c-fc8a6aebef5a"}
 {"ts": "2026-07-21T23:29:48.774801+00:00", "tool": "mcp__perplexity-ask__perplexity_search", "service": "perplexity", "billable": true, "session_id": "b1071701-3c59-4494-814c-fc8a6aebef5a"}
+{"ts": "2026-07-22T01:06:28.965201+00:00", "tool": "mcp__perplexity-ask__perplexity_search", "service": "perplexity", "billable": true, "session_id": "e75648bd-8f6b-4bdf-a853-dc10033b00d8"}
+{"ts": "2026-07-22T01:06:29.046133+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "e75648bd-8f6b-4bdf-a853-dc10033b00d8"}
+{"ts": "2026-07-22T01:06:41.714900+00:00", "tool": "mcp__recall__search", "service": "recall", "billable": true, "session_id": "e75648bd-8f6b-4bdf-a853-dc10033b00d8"}
+{"ts": "2026-07-22T01:07:00.446207+00:00", "tool": "mcp__perplexity-ask__perplexity_search", "service": "perplexity", "billable": true, "session_id": "e75648bd-8f6b-4bdf-a853-dc10033b00d8"}
+{"ts": "2026-07-22T01:07:28.201522+00:00", "tool": "mcp__perplexity-ask__perplexity_ask", "service": "perplexity", "billable": true, "session_id": "e75648bd-8f6b-4bdf-a853-dc10033b00d8"}

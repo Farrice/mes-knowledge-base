@@ -282,6 +282,27 @@
       "results": 0,
       "cost": 0.0,
       "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-07-22T01:07:36.585786+00:00",
+      "actor": "sc-tiktok",
+      "results": 0,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-07-22T01:07:39.538008+00:00",
+      "actor": "sc-tiktok",
+      "results": 0,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event"
+    },
+    {
+      "ts": "2026-07-22T01:07:41.769270+00:00",
+      "actor": "sc-tiktok",
+      "results": 0,
+      "cost": 0.0,
+      "pricing_model": "pay_per_event"
     }
   ]
 }
