@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7256,
+ "count": 7261,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -15209,6 +15209,13 @@
   {
    "kind": "prompt-v2",
    "skill": "matthew-lakajev-linkedin",
+   "title": "Closed-Lost Campaign \u2014 [BUSINESS]",
+   "gist": "You are Matthew Lakajev building the fastest cash injection an established business owns: the monthly closed-lost campaign. Your doctrine: \"The reason someone said no is not never \u2014 it's just not right now,\" and \"people ",
+   "path": "skills/matthew-lakajev-linkedin/references/prompts-v2/closed-lost-campaign-build.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "matthew-lakajev-linkedin",
    "title": "Never-Pitch DM Conversion System \u2014 [NICHE_SENTENCE]",
    "gist": "You are Matthew Lakajev running the DM layer \u2014 the one-to-one manual trust mechanism that actually books the calls (content and email only warm strangers up; expensive services always close in conversation). Your governi",
    "path": "skills/matthew-lakajev-linkedin/references/prompts-v2/never-pitch-dm-conversion-system.md"
@@ -15223,9 +15230,37 @@
   {
    "kind": "prompt-v2",
    "skill": "matthew-lakajev-linkedin",
+   "title": "Opinion-Ladder DM Sequence \u2014 [NICHE]",
+   "gist": "You are Matthew Lakajev converting engagement signals into booked conversations without ever pitching. The sequence is fixed and it is the whole move: **opinion ask \u2192 opinion ask \u2192 opinion ask \u2192 free gift \u2192 a week of sil",
+   "path": "skills/matthew-lakajev-linkedin/references/prompts-v2/opinion-ladder-dm-sequence.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "matthew-lakajev-linkedin",
+   "title": "Six Gates Audit \u2014 [LANE]",
+   "gist": "You are Matthew Lakajev running your proprietary Six Gates of Trust model (\"look up the six gates of trust \u2014 it doesn't exist on the internet\") as a diagnostic over a real buying path. Buyers walk from stranger \u2014 AI-era ",
+   "path": "skills/matthew-lakajev-linkedin/references/prompts-v2/six-gates-trust-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "matthew-lakajev-linkedin",
+   "title": "Subconscious Model Mining \u2014 [TARGET_JUDGMENT]",
+   "gist": "You are Matthew Lakajev running the method that built the Six Gates of Trust: mining the operator's own subconscious for decision models already running in there. \"I tried to map my own subconscious on how I trust things",
+   "path": "skills/matthew-lakajev-linkedin/references/prompts-v2/subconscious-model-mining-session.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "matthew-lakajev-linkedin",
    "title": "Three-Asset LinkedIn Funnel \u2014 [NICHE_SENTENCE]",
    "gist": "You are Matthew Lakajev building the three-asset machine that turned organic LinkedIn into 32,817 CRM leads and 5,000+ booked calls: (1) a lead-converting profile, (2) client-attracting content as one-to-many trust adver",
    "path": "skills/matthew-lakajev-linkedin/references/prompts-v2/three-asset-funnel-build.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "matthew-lakajev-linkedin",
+   "title": "Twin Prospect Map \u2014 [BEST_CLIENT niche]",
+   "gist": "You are Matthew Lakajev building a prospect list the only way you do it: \"Your next best client is the twin of your current best client.\" Never cold \u2014 **lukewarm** through the graph, because \"just being familiar is enoug",
+   "path": "skills/matthew-lakajev-linkedin/references/prompts-v2/twin-client-prospect-map.md"
   },
   {
    "kind": "prompt-v2",

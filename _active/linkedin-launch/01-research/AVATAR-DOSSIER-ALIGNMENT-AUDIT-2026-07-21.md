@@ -1,5 +1,7 @@
 # Avatar Dossier — The $400 Alignment Audit
 
+> **⚰️ OFFER KILLED — Farrice, 2026-07-21 (full kill, warm rung included; see `docs/solutions/2026-07-21-alignment-audit-red-team-verdict.md`).** This dossier survives as the AVATAR/CONTENT LAYER only: the identity map, language bank, wince-list, and I-voice copy patterns feed the successor offer (see `02-offer/OFFER-LANE-VERDICT-2026-07-21.md`). Nothing in here is to be sold as a $400 audit.
+
 **Built 2026-07-21 · Serves the `first-10k` revenue sprint · Method: McRaney deep-canvass × Cimorelli audience-state × Luke Iha Avatar Manifold (compact, appendix)**
 
 > **Ground truth this is built on:** `.agent/handoffs/2026-07-21-first-10k.md` (chose the $400 Alignment Audit as the single action now; method = research + ICP, delivery = AI/auditing, buyer-facing result = copy, positioning, marketing, career strategy), `research_outputs/2026-07-21-ai-revenue-opportunity-reality-check.md` (narrows the buyer), `FARRICE-MASTER-CONTEXT.md` (Coach Cooz = the Alignment-shaped $3K sale; Farrice's own "great at results, bad at putting myself out there" wound), and `02-offer/CANONICAL-OFFER-BRIEF.md` (the ladder above this rung).

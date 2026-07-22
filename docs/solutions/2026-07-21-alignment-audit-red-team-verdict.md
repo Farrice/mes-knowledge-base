@@ -25,7 +25,7 @@ Convergence across blind agents = signal. Dissent preserved for the operator's d
 1. **KILL** the $400 Alignment Audit as a cold offer and as the sprint's spine.
 2. **The motion:** free named teardown (citation-gap screenshot / misalignment read — the gift Farrice is genuinely great at) → sell the **FIX**: $2,500 Proof-to-Market sprint for funded brands (prospect list survives fully — it was built on the brand wedge).
 3. **Dossier survives as the inbound/content layer** (profile copy, content angles, language map — its Featured CTA was already a FREE read; no $400 CTA existed in the copy).
-4. **Preserved dissent (Farrice's call):** Defender holds a warm-list-only $400 rung with a CONCRETE 5-day deliverable (rewritten headline/About/positioning map — not "an audit") could still close on Coach-Cooz-precedent trust. Prosecutor holds n=1-warm doesn't generalize. Decision owner: Farrice.
+4. ~~**Preserved dissent (Farrice's call):** Defender holds a warm-list-only $400 rung with a CONCRETE 5-day deliverable could still close on Coach-Cooz-precedent trust. Prosecutor holds n=1-warm doesn't generalize.~~ **RESOLVED by Farrice, 2026-07-21 (same day, on record): FULL KILL — including the warm-only rung. His words: "After everything I've reviewed and looked at, it's just not the smart move." The Alignment Audit does not come back in any form without a fresh /offer-redteam pass.**
 
 ## Operator lesson
 An offer the seller can't state the outcome of in one sentence will die in a cold DM. And: when the operator's intuition names a specific mechanism ("nobody knows they want clarity"), it's intuition, not fear — fear is vague, intuition is falsifiable.

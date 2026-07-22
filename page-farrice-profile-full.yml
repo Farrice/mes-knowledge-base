@@ -1,0 +1,819 @@
+- generic [ref=e2]:
+  - heading "0 notifications" [level=2] [ref=e348]
+  - generic [ref=e349]:
+    - generic:
+      - generic "Skip navigation menu":
+        - generic [ref=e350]:
+          - button "Skip to search" [ref=e351] [cursor=pointer]
+          - button "Skip to main content" [ref=e354] [cursor=pointer]
+          - button "Skip to primary content" [ref=e357] [cursor=pointer]
+          - button "Skip to aside" [ref=e360] [cursor=pointer]
+          - button "Skip to footer" [ref=e363] [cursor=pointer]
+          - button "Close jump menu" [ref=e367] [cursor=pointer]
+    - generic [ref=e371]:
+      - banner [ref=e373]:
+        - generic [ref=e376]:
+          - button [ref=e377] [cursor=pointer]:
+            - img "LinkedIn" [ref=e378]
+          - generic [ref=e380]:
+            - status [ref=e381]
+            - search [ref=e382]:
+              - textbox "I'm looking for…" [ref=e387]
+          - generic [ref=e389]:
+            - navigation [ref=e393]:
+              - list [ref=e394]:
+                - listitem [ref=e395]:
+                  - button "Home, 1 new notification" [ref=e396] [cursor=pointer]:
+                    - generic [ref=e401]: Home
+                - listitem [ref=e403]:
+                  - link "My Network, 0 new notifications" [ref=e404] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork
+                    - generic [ref=e408]: My Network
+                - listitem [ref=e410]:
+                  - link "Jobs, 0 new notifications" [ref=e411] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/
+                    - generic [ref=e415]: Jobs
+                - listitem [ref=e417]:
+                  - link "Messaging, 0 new notifications" [ref=e418] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/
+                    - generic [ref=e422]: Messaging
+                - listitem [ref=e424]:
+                  - link "Notifications, 17 new notifications" [ref=e425] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/
+                    - generic [ref=e426]: "17"
+                    - generic [ref=e430]: Notifications
+                - listitem [ref=e432]:
+                  - button [ref=e433] [cursor=pointer]:
+                    - figure [ref=e435]
+            - generic [ref=e441]:
+              - navigation [ref=e442]:
+                - list [ref=e443]:
+                  - listitem [ref=e444]:
+                    - button "For Business" [ref=e445] [cursor=pointer]
+              - link [ref=e455] [cursor=pointer]:
+                - /url: https://www.linkedin.com/premium/redeem/?_ed=CwEAAAFyYb66UAQiKvLejf0aKxNzmjJ3ryfkxyqehLZPKD7vWLOgM5wR4lxRr-QUIgT_FeKS2NQ&upsellOrderOrigin=Tracking%3Av1%3Apremium_nav_upsell_text_winback%3ANav%3AIn-Product&referenceId=PQ%2B87Pa5QQah6IZ0PLchyw%3D%3D&customKey=wb_s&redeemTypeV2=DISCOUNT
+                - paragraph [ref=e457]:
+                  - link "Get 50% Off Sales Nav" [ref=e459]:
+                    - /url: https://www.linkedin.com/premium/redeem/?_ed=CwEAAAFyYb66UAQiKvLejf0aKxNzmjJ3ryfkxyqehLZPKD7vWLOgM5wR4lxRr-QUIgT_FeKS2NQ&upsellOrderOrigin=Tracking%3Av1%3Apremium_nav_upsell_text_winback%3ANav%3AIn-Product&referenceId=PQ%2B87Pa5QQah6IZ0PLchyw%3D%3D&customKey=wb_s&redeemTypeV2=DISCOUNT
+      - generic [ref=e461]:
+        - toolbar [ref=e462]:
+          - generic [ref=e466]:
+            - link [ref=e467] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/farricecain/
+              - generic "Farrice Cain" [ref=e468]:
+                - figure [ref=e469]
+                - generic [ref=e470]:
+                  - paragraph [ref=e471]: Farrice Cain
+                  - paragraph [ref=e473]: Creative Strategist + AI Operating Partner | I turn customer language and founder judgment into agent-ready marketing systems
+            - generic [ref=e474]:
+              - button "More" [ref=e476] [cursor=pointer]
+              - button "Enhance profile" [ref=e481] [cursor=pointer]
+              - link "Add section" [ref=e485] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/farricecain/
+              - button "Open to" [ref=e489] [cursor=pointer]
+        - main [ref=e492]:
+          - generic [ref=e494]:
+            - region "Primary content" [ref=e495]:
+              - generic [ref=e497]:
+                - generic [ref=e502]:
+                  - generic [ref=e503]:
+                    - generic [ref=e504]:
+                      - button [ref=e506] [cursor=pointer]:
+                        - figure [ref=e507]:
+                          - img "Cover photo" [ref=e508]
+                      - button "Edit background image" [ref=e512] [cursor=pointer]
+                    - link [ref=e516] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/farricecain/
+                      - generic "Profile photo" [ref=e517]:
+                        - figure [ref=e518]
+                    - link "Edit profile" [ref=e520] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/farricecain/edit/intro/
+                  - generic [ref=e524]:
+                    - generic [ref=e525]:
+                      - generic [ref=e527]:
+                        - link [ref=e531] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/in/farricecain/
+                          - generic [ref=e533]:
+                            - heading "Farrice Cain" [level=2] [ref=e534]
+                            - img "View Farrice’s verifications" [ref=e535]
+                        - paragraph [ref=e537]: Creative Strategist + AI Operating Partner | I turn customer language and founder judgment into agent-ready marketing systems
+                        - generic [ref=e538]:
+                          - paragraph [ref=e539]: Los Angeles, California, United States
+                          - paragraph [ref=e540]: ·
+                          - paragraph [ref=e541]:
+                            - link "Contact info" [ref=e542] [cursor=pointer]:
+                              - /url: "#"
+                      - button [ref=e545] [cursor=pointer]:
+                        - generic [ref=e546]:
+                          - figure [ref=e547]
+                          - paragraph [ref=e557]: Farrice Cain
+                    - link [ref=e559] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/mynetwork/invite-connect/connections/
+                      - paragraph [ref=e560]: 63 connections
+                    - generic [ref=e564]:
+                      - button "Open to" [ref=e566] [cursor=pointer]
+                      - link "Add section" [ref=e570] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/farricecain/
+                      - button "Enhance profile" [ref=e574] [cursor=pointer]
+                      - button "More" [ref=e578] [cursor=pointer]
+                - generic [ref=e590]:
+                  - generic [ref=e591]:
+                    - generic [ref=e592]:
+                      - heading "Activity" [level=2] [ref=e593]
+                      - link [ref=e595] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/feed/followers/
+                        - paragraph [ref=e596]: 69 followers
+                    - generic [ref=e597]:
+                      - link "Create a post" [ref=e598] [cursor=pointer]:
+                        - /url: /preload/sharebox/
+                      - link "Edit default activity" [ref=e601] [cursor=pointer]:
+                        - /url: https://www.linkedin.com/in/farricecain/edit/forms/content-collections-star-pill/new/
+                  - generic [ref=e605]:
+                    - radio "Posts" [checked] [ref=e606] [cursor=pointer]:
+                      - generic [ref=e607]:
+                        - checkbox "Posts" [checked]
+                        - generic [ref=e608]: Posts
+                    - radio "Comments" [ref=e609] [cursor=pointer]:
+                      - generic [ref=e610]:
+                        - checkbox "Comments"
+                        - generic [ref=e611]: Comments
+                    - radio "Images" [ref=e612] [cursor=pointer]:
+                      - generic [ref=e613]:
+                        - checkbox "Images"
+                        - generic [ref=e614]: Images
+                    - radio "Articles" [ref=e615] [cursor=pointer]:
+                      - generic [ref=e616]:
+                        - checkbox "Articles"
+                        - generic [ref=e617]: Articles
+                  - generic [ref=e619]:
+                    - generic [ref=e625]:
+                      - list [ref=e626]:
+                        - list [ref=e627]:
+                          - listitem [ref=e628]:
+                            - listitem [ref=e630]:
+                              - generic [ref=e631]:
+                                - generic [ref=e632]:
+                                  - link [ref=e633] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                    - figure [ref=e634]:
+                                      - img "View Farrice Cain’s profile" [ref=e635]
+                                  - generic [ref=e637]:
+                                    - link [ref=e640] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/farricecain/
+                                      - generic "Farrice Cain Verified Profile You" [ref=e642]:
+                                        - paragraph [ref=e645]: Farrice Cain
+                                        - paragraph [ref=e647]:
+                                          - generic [ref=e648]: • You
+                                    - paragraph [ref=e653]: Creative Strategist + AI Operating Partner | I turn customer language and founder judgment into agent-ready marketing systems
+                                    - paragraph [ref=e655]:
+                                      - generic [ref=e656]:
+                                        - text: 2mo • Edited •
+                                        - 'img "Visibility: Global" [ref=e657]'
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/farricecain/
+                                  - button "Open control menu for post by Farrice Cain" [ref=e659] [cursor=pointer]
+                                - link [ref=e663] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7457556913900232704/
+                                  - paragraph [ref=e664]:
+                                    - generic [ref=e665]:
+                                      - text: "I just manipulated my two-year-old son, and I don't know how to feel about it.He was overtired. We moved him from the crib to a real bed last week, and the bed has too many associations with play. He knows he needs to sleep. His body knows. He just can't get there on his own yet.So I read him. I lowered my voice to the exact register that turns his shoulders down. Then I gave him real stakes... in the only economy he understands. In our house, everything goes to sleep when he does... the lights, the dog, his toys. So I told him: if he wants his toy to play with later, he has to sleep now. Because if he doesn't, the toy isn't going to wake up. To anyone outside this house, that sounds insane. To him, it's the only frame that lands. He chose the toy. He was asleep in four minutes.Some people would call that manipulation.I think those people have never had to actually get someone where they need to go.Manipulation without positive intent is a knife. Manipulation with love in your heart and the other person's benefit on the line is just being good at your job. It's the difference between a con artist and a doctor who finally gets the diabetic to eat. Same tools. Opposite soul.Most marketers I know are afraid of this. They want to \"be authentic\" and \"let the work speak.\" That's code for not wanting to be responsible for the outcome.I get it. I've been the writer who softened the line that would have actually helped the person reading. I told myself I was being kind. I was being scared, and I was billing them for it.If you actually give a fuck about the person on the other side, you'll learn to speak their exact language. Even when it sounds insane to anyone else. Even when it isolates the people who aren't them. That isolation is the price. Broad palatability is what you choose when you'd rather not land than risk landing wrong.I sat with the manipulation question for a while today. I'm still not fully comfortable with it. I think that's the point. The day it stops bothering me is the day I should worry, whether it's with JJ or with the audience reading this.When's the last time you softened something you shouldn't have, be it marketing or in life? Genuinely curious if you're willing to share👇🏽"
+                                      - button:
+                                        - generic [ref=e667]: … more
+                                - link [ref=e670] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7457556913900232704/
+                                  - figure [ref=e671]:
+                                    - img "View image" [ref=e672]
+                              - generic [ref=e673]:
+                                - generic [ref=e674]:
+                                  - generic [ref=e675]:
+                                    - 'button "Reaction button state: no reaction" [ref=e678] [cursor=pointer]':
+                                      - generic [ref=e679]: "2"
+                                    - button "Open reactions menu"
+                                  - link "Comment" [ref=e687] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7457556913900232704/
+                                  - button "Repost" [ref=e691] [cursor=pointer]
+                                  - link "Send" [ref=e695] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                  - link [ref=e699] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                    - generic "2 reactions" [ref=e700]
+                                - link [ref=e720] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7457556913900232704/
+                                  - generic "View analytics" [ref=e721]:
+                                    - generic "Content analytics" [ref=e722]:
+                                      - img "Analytics Icon" [ref=e723]
+                                      - paragraph [ref=e725]: 52 impressions
+                                    - paragraph [ref=e726]:
+                                      - generic [ref=e727]: View analytics
+                                      - text: View analytics
+                          - listitem [ref=e728]:
+                            - listitem [ref=e730]:
+                              - generic [ref=e731]:
+                                - generic [ref=e732]:
+                                  - link [ref=e733] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                    - figure [ref=e734]:
+                                      - img "View Farrice Cain’s profile" [ref=e735]
+                                  - generic [ref=e737]:
+                                    - link [ref=e740] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/farricecain/
+                                      - generic "Farrice Cain Verified Profile You" [ref=e742]:
+                                        - paragraph [ref=e745]: Farrice Cain
+                                        - paragraph [ref=e747]:
+                                          - generic [ref=e748]: • You
+                                    - paragraph [ref=e753]: Creative Strategist + AI Operating Partner | I turn customer language and founder judgment into agent-ready marketing systems
+                                    - paragraph [ref=e755]:
+                                      - generic [ref=e756]:
+                                        - text: 2mo •
+                                        - 'img "Visibility: Global" [ref=e757]'
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/farricecain/
+                                  - button "Open control menu for post by Farrice Cain" [ref=e759] [cursor=pointer]
+                                - link [ref=e763] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7457127683672662016/
+                                  - paragraph [ref=e764]:
+                                    - generic [ref=e765]:
+                                      - text: "My AI told me everything was 9/10 for 8 days.Last week the content started feeling off.Not bad... just off. Dashboards said 8.7 average.My gut said 6. Took me days to trust my gutover the dashboard.Today I dug in. Four things were happening:1. Claude 4.7 is more literal than 4.6 Anthropic confirmed it in their migration docs. Prompts tuned to looser interpretation broke overnight.2. My calibration system shipped 8 days ago but had never been calibrated.3. I'd shipped 25 new skills in 2 weeks (dilutive at this scale).4. Grade compression: every score averaging to 8.7. No real range, no real signal.The fix took 12 minutes of gut-rating my ownoutputs. No new code. Just human tasteanchored to a rubric.Honestly? I'd been doing what everyone in AI isdoing right now... moving fast, shipping new toolsevery week, getting high on the build. Buildingis genuinely fun. So I cut corners on the boringprocedures that catch this stuff.I'd built the infrastructure but never told thesystem what good looked like.So it told me everything was good.This is the disease in most AI tooling I audit:the system grades itself. No human in the loop.That's how brands burn six figures on AI buildsthat look like they're working until they aren't.Three signals your AI is lying to you right now:→ Composite scores cluster at 8.5+ for everything→ You shipped new tools faster than you tested old ones→ Quality feels off but the dashboard says otherwiseIf two land, your audit is overdue.DM \"AUDIT\" or hit my calendar."
+                                      - button:
+                                        - generic [ref=e767]: … more
+                                - link [ref=e770] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7457127683672662016/
+                                  - figure [ref=e771]:
+                                    - img "View image" [ref=e772]
+                              - generic [ref=e773]:
+                                - generic [ref=e774]:
+                                  - generic [ref=e775]:
+                                    - 'button "Reaction button state: no reaction" [ref=e778] [cursor=pointer]'
+                                    - button "Open reactions menu"
+                                  - link "Comment" [ref=e785] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7457127683672662016/
+                                  - button "Repost" [ref=e789] [cursor=pointer]
+                                  - link "Send" [ref=e793] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                - link [ref=e797] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7457127683672662016/
+                                  - generic "View analytics" [ref=e798]:
+                                    - generic "Content analytics" [ref=e799]:
+                                      - img "Analytics Icon" [ref=e800]
+                                      - paragraph [ref=e802]: 55 impressions
+                                    - paragraph [ref=e803]:
+                                      - generic [ref=e804]: View analytics
+                                      - text: View analytics
+                          - listitem [ref=e805]:
+                            - listitem [ref=e807]:
+                              - generic [ref=e808]:
+                                - generic [ref=e809]:
+                                  - link [ref=e810] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                    - figure [ref=e811]:
+                                      - img "View Farrice Cain’s profile" [ref=e812]
+                                  - generic [ref=e814]:
+                                    - link [ref=e817] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/farricecain/
+                                      - generic "Farrice Cain Verified Profile You" [ref=e819]:
+                                        - paragraph [ref=e822]: Farrice Cain
+                                        - paragraph [ref=e824]:
+                                          - generic [ref=e825]: • You
+                                    - paragraph [ref=e830]: Creative Strategist + AI Operating Partner | I turn customer language and founder judgment into agent-ready marketing systems
+                                    - paragraph [ref=e832]:
+                                      - generic [ref=e833]:
+                                        - text: 4mo •
+                                        - 'img "Visibility: Global" [ref=e834]'
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/farricecain/
+                                  - button "Open control menu for post by Farrice Cain" [ref=e836] [cursor=pointer]
+                                - link [ref=e840] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7439361427284414465/
+                                  - paragraph [ref=e841]:
+                                    - generic [ref=e842]:
+                                      - text: My wife left for work at 7:15.JJ on hip and a half-finished coffee and a thought I keep running from:I have 18 years of coaching behind me.And I am completely invisible online.That's the thing I couldn't say out loud for a long time.Because I used to be the guy who walked into rooms and already knew what was happening. I could read a client in 60 seconds. Figure out what they needed before they could name it. That was my whole thing.Eighteen years. Thousands of clients.Then the rooms disappeared.I became a stay-at-home dad.Happily. Proudly. No regrets.But something in me went quiet — the part I'd spent two decades building. A whole identity that only worked when I was physically in a room with someone.And I had no idea what to do with it.Then I started seeing it everywhere.Coaches who'd rebuilt athletes most teams had already written off. Consultants who'd solved the same problem 200 times. Performance coaches charging $15K a quarter.All of them invisible online.And I kept thinking — why? These people are exceptional. Why can't anyone find them?Here's what I figured out. And this is the part nobody talks about.The best coaches in the world built their entire communication style around physical presence.Body language. Eye contact. Tone. The ability to read a room the second you walk in. Trust built through thousands of reps of shared work — where what you say matters less than what you feel in the room.That's not a soft skill. That's a craft. Years in the making.But it doesn't transfer to a screen automatically.It has to be translated.And nobody ever taught them how.Including me.I know because I was standing in that kitchen — JJ finally settled, Bella asleep in the corner, coffee long gone cold — asking myself the same question I'd used with every client who ever felt stuck:not "what do you know"but "how do you actually think"That one question changed everything.When I started using it with coaches — I found out the answer looked completely different for every single person.That's what made it worth building something around.So here's what I want to leave you with.If you've spent years building your reputation inside rooms — locker rooms, weight rooms, sidelines, labs — and you feel behind online...You're not behind.You're untranslated.The expertise is there. The track record is real. The transformations you've created are the kind people name weight rooms after.What's missing isn't more credentials or a better bio.It's the version of you that exists outside of those rooms.And that's not a different you.It's just you — in a language the rest of the world can finally understand.If you've ever lost a deal, a client, or an opportunity to someone with half your experience who just showed up better online —drop it in the comments.Because I think I know exactly what happened.And it's probably not the reason you've been telling yourself.
+                                      - button:
+                                        - generic [ref=e843]: … more
+                                - link [ref=e846] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7439361427284414465/
+                                  - figure [ref=e847]:
+                                    - img "View image" [ref=e848]
+                              - generic [ref=e849]:
+                                - generic [ref=e850]:
+                                  - generic [ref=e851]:
+                                    - 'button "Reaction button state: no reaction" [ref=e854] [cursor=pointer]':
+                                      - generic [ref=e855]: "7"
+                                    - button "Open reactions menu"
+                                  - link "Comment" [ref=e863] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7439361427284414465/
+                                    - generic [ref=e864]: "3"
+                                  - button "Repost" [ref=e869] [cursor=pointer]
+                                  - link "Send" [ref=e873] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                  - link [ref=e877] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                    - generic "7 reactions" [ref=e878]
+                                - link [ref=e896] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7439361427284414465/
+                                  - generic "View analytics" [ref=e897]:
+                                    - generic "Content analytics" [ref=e898]:
+                                      - img "Analytics Icon" [ref=e899]
+                                      - paragraph [ref=e901]: 88 impressions
+                                    - paragraph [ref=e902]:
+                                      - generic [ref=e903]: View analytics
+                                      - text: View analytics
+                          - listitem [ref=e904]:
+                            - listitem [ref=e906]:
+                              - generic [ref=e907]:
+                                - generic [ref=e908]:
+                                  - link [ref=e909] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                    - figure [ref=e910]:
+                                      - img "View Farrice Cain’s profile" [ref=e911]
+                                  - generic [ref=e913]:
+                                    - link [ref=e916] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/farricecain/
+                                      - generic "Farrice Cain Verified Profile You" [ref=e918]:
+                                        - paragraph [ref=e921]: Farrice Cain
+                                        - paragraph [ref=e923]:
+                                          - generic [ref=e924]: • You
+                                    - paragraph [ref=e929]: Creative Strategist + AI Operating Partner | I turn customer language and founder judgment into agent-ready marketing systems
+                                    - paragraph [ref=e931]:
+                                      - generic [ref=e932]:
+                                        - text: 4mo •
+                                        - 'img "Visibility: Global" [ref=e933]'
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/farricecain/
+                                  - button "Open control menu for post by Farrice Cain" [ref=e935] [cursor=pointer]
+                                - link [ref=e939] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7432942962394791936/
+                                  - paragraph [ref=e940]:
+                                    - generic [ref=e941]:
+                                      - text: "The timeline is panicking about AI replacing everyone. The gurus are screaming at you to hustle harder and learn 50 new tools.Meanwhile, this is my view today. My son's milk cup. Blue light glasses off. The Antigravity terminal running quietly in the background. Building real leverage while the market overreacts.There is a canyon opening up in the coaching industry right now that nobody is talking about.On one side: The \"hollowed-out middle\" panicking because their generic advice is now free online.And on the other side: The smartest solopreneurs quietly having the most profitable years of their careers.The difference between the two isn't how many ChatGPT prompt packs you bought. It’s whether you are using AI to just crank out more \"good enough\" work, or using it to buy back your time to do meaningful work.I wrote an entire breakdown on exactly why this canyon exists, and how the top 1% are using custom \"AI Brains\" as digital employees to strip away their operational drag.I even built an interactive diagnostic Prompt Kit you can use today to find exactly where your own bottleneck is. If you had a digital employee who could take over 40% of your administrative drag tomorrow, what's the very first thing you would do with that extra time?Actually be present with your kids at 5 PM?Finally read that stack of books on your nightstand?Build that passion project you've been putting off for two years?What is your \"day one\" priority when you get your time back? Let me know below."
+                                      - button:
+                                        - generic [ref=e943]: … more
+                                - generic [ref=e945]:
+                                  - link [ref=e946] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/pulse/canyon-nobodys-talking-farrice-cain-anujc/
+                                    - figure [ref=e947]:
+                                      - img "The Canyon Nobody's Talking About" [ref=e948]
+                                  - link [ref=e949] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/pulse/canyon-nobodys-talking-farrice-cain-anujc/
+                                    - generic [ref=e950]:
+                                      - paragraph [ref=e952]: The Canyon Nobody's Talking About
+                                      - paragraph [ref=e954]: Farrice Cain
+                              - generic [ref=e955]:
+                                - generic [ref=e956]:
+                                  - generic [ref=e957]:
+                                    - 'button "Reaction button state: no reaction" [ref=e960] [cursor=pointer]':
+                                      - generic [ref=e961]: "5"
+                                    - button "Open reactions menu"
+                                  - link "Comment" [ref=e969] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7432942962394791936/
+                                    - generic [ref=e970]: "2"
+                                  - button "Repost" [ref=e975] [cursor=pointer]
+                                  - link "Send" [ref=e979] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                  - link [ref=e983] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                    - generic "5 reactions" [ref=e984]
+                                - link [ref=e1002] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7432942962394791936/
+                                  - generic "View analytics" [ref=e1003]:
+                                    - generic "Content analytics" [ref=e1004]:
+                                      - img "Analytics Icon" [ref=e1005]
+                                      - paragraph [ref=e1007]: 152 impressions
+                                    - paragraph [ref=e1008]:
+                                      - generic [ref=e1009]: View analytics
+                                      - text: View analytics
+                          - listitem [ref=e1010]:
+                            - listitem [ref=e1012]:
+                              - generic [ref=e1013]:
+                                - generic [ref=e1014]:
+                                  - link [ref=e1015] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                    - figure [ref=e1016]:
+                                      - img "View Farrice Cain’s profile" [ref=e1017]
+                                  - generic [ref=e1019]:
+                                    - link [ref=e1022] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/farricecain/
+                                      - generic "Farrice Cain Verified Profile You" [ref=e1024]:
+                                        - paragraph [ref=e1027]: Farrice Cain
+                                        - paragraph [ref=e1029]:
+                                          - generic [ref=e1030]: • You
+                                    - paragraph [ref=e1035]: Creative Strategist + AI Operating Partner | I turn customer language and founder judgment into agent-ready marketing systems
+                                    - paragraph [ref=e1037]:
+                                      - generic [ref=e1038]:
+                                        - text: 4mo •
+                                        - 'img "Visibility: Global" [ref=e1039]'
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/farricecain/
+                                  - button "Open control menu for post by Farrice Cain" [ref=e1041] [cursor=pointer]
+                                - link [ref=e1045] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7432510167205785600/
+                                  - paragraph [ref=e1046]:
+                                    - generic [ref=e1047]:
+                                      - text: "You are automating your own irrelevance.Most coaches think putting LinkedIn on autopilot is a flex.They open ChatGPT. It spits out 500 words on \"leveraging core competencies.\" They click schedule and think they just saved 10 hours.What they actually did was pay a robot to make them sound like everyone else.Welcome to the era of \"AI Slop.\"You know the posts:❌ Packaged in unnatural corporate politeness.❌ Using words like \"delve,\" \"tapestry,\" and \"testament.\"❌ Completely devoid of lived experience.When your clients read your perfectly polished, soulless post, they don't think you're smart.They think you're lazy.Posting generic AI content is like putting a cheap plastic mannequin in the window of a luxury boutique.It doesn't matter how brilliant your coaching is inside. The display is turning premium clients away at the door.Don't let a robot ruin your reputation.I built a diagnostic tool to fix this: The \"Slop Detector.\"It's a brutal AI prompt that tears your last 3 posts apart, exposes your robotic tics, and rebuilds them using your actual, lived experience.It takes 2 minutes. It hurts to read. It will change your content forever.Drop the word \"SLOP\" below, and I'll send you the test. 👇"
+                                      - button:
+                                        - generic [ref=e1049]: … more
+                              - generic [ref=e1051]:
+                                - generic [ref=e1052]:
+                                  - generic [ref=e1053]:
+                                    - 'button "Reaction button state: no reaction" [ref=e1056] [cursor=pointer]'
+                                    - button "Open reactions menu"
+                                  - link "Comment" [ref=e1063] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7432510167205785600/
+                                  - button "Repost" [ref=e1067] [cursor=pointer]
+                                  - link "Send" [ref=e1071] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                - link [ref=e1075] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7432510167205785600/
+                                  - generic "View analytics" [ref=e1076]:
+                                    - generic "Content analytics" [ref=e1077]:
+                                      - img "Analytics Icon" [ref=e1078]
+                                      - paragraph [ref=e1080]: 50 impressions
+                                    - paragraph [ref=e1081]:
+                                      - generic [ref=e1082]: View analytics
+                                      - text: View analytics
+                          - listitem [ref=e1083]:
+                            - listitem [ref=e1085]:
+                              - generic [ref=e1086]:
+                                - generic [ref=e1087]:
+                                  - link [ref=e1088] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                    - figure [ref=e1089]:
+                                      - img "View Farrice Cain’s profile" [ref=e1090]
+                                  - generic [ref=e1092]:
+                                    - link [ref=e1095] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/farricecain/
+                                      - generic "Farrice Cain Verified Profile You" [ref=e1097]:
+                                        - paragraph [ref=e1100]: Farrice Cain
+                                        - paragraph [ref=e1102]:
+                                          - generic [ref=e1103]: • You
+                                    - paragraph [ref=e1108]: Creative Strategist + AI Operating Partner | I turn customer language and founder judgment into agent-ready marketing systems
+                                    - paragraph [ref=e1110]:
+                                      - generic [ref=e1111]:
+                                        - text: 4mo •
+                                        - 'img "Visibility: Global" [ref=e1112]'
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/farricecain/
+                                  - button "Open control menu for post by Farrice Cain" [ref=e1114] [cursor=pointer]
+                                - link [ref=e1118] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7431831243182440449/
+                                  - paragraph [ref=e1119]:
+                                    - generic [ref=e1120]:
+                                      - text: I'm writing this from the Disneyland parking lot.In about 3 minutes, my phone goes into my bag and it doesn't come out for the rest of the day.For 18 years in the coaching industry, making a choice like that felt impossible.When you are a coach, your business doesn't exist on a shelf. It exists entirely in your head.Every framework you teach, every story you use, and every insight you give a client is locked in your active memory.Relying on your brain to run your business is like wearing a heavy backpack you can never take off.Even when you're physically on vacation, you are carrying the weight of the company. If you stop thinking, the income stops moving.I hit a breaking point with this when I became a stay-at-home dad.I only had 90-minute windows to work while my son napped. I just couldn't carry the backpack 24/7 anymore.So I emptied it.I took all my coaching expertise and built a custom AI Brain. Now my entire methodology is documented, searchable, and ready to deploy at any second.It sounds exactly like me, but it doesn't require my active energy to run.I didn't systematize my knowledge so I could work ten times harder.I did it so I could finally take the backpack off and actually pay attention to my kid today.If your business breaks the minute you stop thinking about it...You don't own a business. You own an exhausting job.
+                                      - button:
+                                        - generic [ref=e1121]: … more
+                                - link [ref=e1124] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7431831243182440449/
+                                  - figure [ref=e1125]:
+                                    - img "View image" [ref=e1126]
+                              - generic [ref=e1127]:
+                                - generic [ref=e1128]:
+                                  - generic [ref=e1129]:
+                                    - 'button "Reaction button state: no reaction" [ref=e1132] [cursor=pointer]':
+                                      - generic [ref=e1133]: "1"
+                                    - button "Open reactions menu"
+                                  - link "Comment" [ref=e1141] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7431831243182440449/
+                                  - button "Repost" [ref=e1145] [cursor=pointer]
+                                  - link "Send" [ref=e1149] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                  - link [ref=e1153] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                    - generic "1 reaction" [ref=e1154]
+                                - link [ref=e1166] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7431831243182440449/
+                                  - generic "View analytics" [ref=e1167]:
+                                    - generic "Content analytics" [ref=e1168]:
+                                      - img "Analytics Icon" [ref=e1169]
+                                      - paragraph [ref=e1171]: 49 impressions
+                                    - paragraph [ref=e1172]:
+                                      - generic [ref=e1173]: View analytics
+                                      - text: View analytics
+                          - listitem [ref=e1174]:
+                            - listitem [ref=e1176]:
+                              - generic [ref=e1177]:
+                                - generic [ref=e1178]:
+                                  - link [ref=e1179] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                    - figure [ref=e1180]:
+                                      - img "View Farrice Cain’s profile" [ref=e1181]
+                                  - generic [ref=e1183]:
+                                    - link [ref=e1186] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/farricecain/
+                                      - generic "Farrice Cain Verified Profile You" [ref=e1188]:
+                                        - paragraph [ref=e1191]: Farrice Cain
+                                        - paragraph [ref=e1193]:
+                                          - generic [ref=e1194]: • You
+                                    - paragraph [ref=e1199]: Creative Strategist + AI Operating Partner | I turn customer language and founder judgment into agent-ready marketing systems
+                                    - paragraph [ref=e1201]:
+                                      - generic [ref=e1202]:
+                                        - text: 4mo •
+                                        - 'img "Visibility: Global" [ref=e1203]'
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/farricecain/
+                                  - button "Open control menu for post by Farrice Cain" [ref=e1205] [cursor=pointer]
+                                - link [ref=e1209] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7431735378887278592/
+                                  - paragraph [ref=e1210]:
+                                    - generic [ref=e1211]:
+                                      - text: I'm watching brilliant coaches waste weeks jumping from ChatGPT to Claude to Gemini, looking for the "magic model."Stop model shopping.In my 17 years as a personal trainer, I watched people fall into this exact same trap with their fitness.They would buy a new workout program, convinced "this" one was finally the magic bullet. They'd follow it for 11 days, see no results, and quit.They didn't immediately buy a new one. They blamed the program, went back to their old habits, and waited until they were fed up enough to try again months later.Here is the danger they didn't see:Every time you start and quit, you burn through a finite amount of courage, energy, and time.By the time they bought the next "magic" program, their belief that they could actually change was deeply corroded.Now I see coaches doing the exact same thing with AI.You ask ChatGPT to write a LinkedIn post. It spits out something that sounds like a generic motivational poster.So you close the tab, blame the tech, and go back to doing everything manually.Months later, you're exhausted again. So you switch to Claude, hoping it is the magic bullet.You get the same slop.And your willingness to adopt the very technology that could save your business corrodes a little more.Here is the hard truth:The bottleneck isn't the AI model. It's how you are framing the task.Writing a post isn't just an "effort" problem (putting words on a page).It is a "Domain Expertise" and "Emotional Intelligence" problem.Generic AI doesn't know your 15 years of client stories.It doesn't know your specific frameworks.It doesn't know the nuances of your voice that actually trigger behavior change in your clients.If you treat a Domain Expertise problem like an Effort problem, you will always get generic output.You can't prompt your way out of a domain expertise bottleneck.You have to codify your authority first.I put together a 5-minute audit to help you figure out exactly where your AI workflow is breaking down (and how to fix it so you never sound like a robot again).Comment "AUDIT" below and I'll send it over for free.
+                                      - button:
+                                        - generic [ref=e1213]: … more
+                              - generic [ref=e1215]:
+                                - generic [ref=e1216]:
+                                  - generic [ref=e1217]:
+                                    - 'button "Reaction button state: no reaction" [ref=e1220] [cursor=pointer]':
+                                      - generic [ref=e1221]: "2"
+                                    - button "Open reactions menu"
+                                  - link "Comment" [ref=e1229] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7431735378887278592/
+                                  - button "Repost" [ref=e1233] [cursor=pointer]
+                                  - link "Send" [ref=e1237] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                  - link [ref=e1241] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                    - generic "2 reactions" [ref=e1242]
+                                - link [ref=e1263] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7431735378887278592/
+                                  - generic "View analytics" [ref=e1264]:
+                                    - generic "Content analytics" [ref=e1265]:
+                                      - img "Analytics Icon" [ref=e1266]
+                                      - paragraph [ref=e1268]: 78 impressions
+                                    - paragraph [ref=e1269]:
+                                      - generic [ref=e1270]: View analytics
+                                      - text: View analytics
+                          - listitem [ref=e1271]:
+                            - listitem [ref=e1273]:
+                              - generic [ref=e1274]:
+                                - generic [ref=e1275]:
+                                  - link [ref=e1276] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                    - figure [ref=e1277]:
+                                      - img "View Farrice Cain’s profile" [ref=e1278]
+                                  - generic [ref=e1280]:
+                                    - link [ref=e1283] [cursor=pointer]:
+                                      - /url: https://www.linkedin.com/in/farricecain/
+                                      - generic "Farrice Cain Verified Profile You" [ref=e1285]:
+                                        - paragraph [ref=e1288]: Farrice Cain
+                                        - paragraph [ref=e1290]:
+                                          - generic [ref=e1291]: • You
+                                    - paragraph [ref=e1296]: Creative Strategist + AI Operating Partner | I turn customer language and founder judgment into agent-ready marketing systems
+                                    - paragraph [ref=e1298]:
+                                      - generic [ref=e1299]:
+                                        - text: 5mo •
+                                        - 'img "Visibility: Global" [ref=e1300]'
+                                    - link:
+                                      - /url: https://www.linkedin.com/in/farricecain/
+                                  - button "Open control menu for post by Farrice Cain" [ref=e1302] [cursor=pointer]
+                                - link [ref=e1306] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/feed/update/urn:li:activity:7430994977935151104/
+                                  - paragraph [ref=e1307]:
+                                    - generic [ref=e1308]:
+                                      - text: I spent 8 months watching coaches struggle with the same problem.They have 10, 15, 20 years of expertise.Frameworks that transform lives on coaching calls.Methodologies they've refined through thousands of client conversations.And then they sit down to write a LinkedIn post... and go blank.They tried ChatGPT. It gave them something that sounded like a motivational poster wrote it. They closed the tab. Went back to doing everything manually. Told themselves they'd "figure out AI later."Later never came.Here's the thing most people get wrong about AI and coaching:Generic AI gives generic output because it doesn't know YOU. It doesn't know:Your frameworksYour way of explaining thingsYour storiesYour methodologyYour voiceSo I started building something different. An AI Brain.Not a prompt pack. Not a ChatGPT tutorial. Not another course you'll buy and never finish.An AI Brain is a system trained on YOUR body of work. Your frameworks, your language, your philosophy. All of it captured, organized, and deployable on command.In 5 days.The result? Content that sounds like you actually said it. Frameworks deployed on command instead of rebuilt from memory. A week's worth of posts in 45 minutes. Which beats staring at a blank screen for 45 minutes and posting something you're embarrassed by.I'm opening 3 spots this month for coaches who are sitting on years of brilliance and tired of watching it collect dust.If that's you, DM me "BRAIN" and I'll show you exactly what your AI Brain would look like.No pitch. Just a preview.
+                                      - button:
+                                        - generic [ref=e1309]: … more
+                              - generic [ref=e1311]:
+                                - generic [ref=e1312]:
+                                  - generic [ref=e1313]:
+                                    - 'button "Reaction button state: no reaction" [ref=e1316] [cursor=pointer]':
+                                      - generic [ref=e1317]: "3"
+                                    - button "Open reactions menu"
+                                  - link "Comment" [ref=e1325] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/feed/update/urn:li:activity:7430994977935151104/
+                                    - generic [ref=e1326]: "2"
+                                  - button "Repost" [ref=e1331] [cursor=pointer]
+                                  - link "Send" [ref=e1335] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                  - link [ref=e1339] [cursor=pointer]:
+                                    - /url: https://www.linkedin.com/in/farricecain/
+                                    - generic "3 reactions" [ref=e1340]
+                                - link [ref=e1361] [cursor=pointer]:
+                                  - /url: https://www.linkedin.com/analytics/post-summary/urn:li:activity:7430994977935151104/
+                                  - generic "View analytics" [ref=e1362]:
+                                    - generic "Content analytics" [ref=e1363]:
+                                      - img "Analytics Icon" [ref=e1364]
+                                      - paragraph [ref=e1366]: 89 impressions
+                                    - paragraph [ref=e1367]:
+                                      - generic [ref=e1368]: View analytics
+                                      - text: View analytics
+                      - button "Next" [ref=e1369] [cursor=pointer]
+                    - link "Show all posts" [ref=e1374] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/farricecain/recent-activity/all/
+                      - generic [ref=e1375]: Show all
+            - complementary "Aside" [ref=e1400]:
+              - generic [ref=e1402]:
+                - generic [ref=e1406]:
+                  - generic [ref=e1407]:
+                    - heading "Profile language" [level=2] [ref=e1408]
+                    - link "Edit profile language" [ref=e1410] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/in/farricecain/edit/secondary-language/
+                  - paragraph [ref=e1415]: English
+                  - generic [ref=e1416]:
+                    - heading "Public profile & URL" [level=2] [ref=e1417]
+                    - link "Edit Public profile & URL" [ref=e1419] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile
+                  - paragraph [ref=e1424]: www.linkedin.com/in/farricecain
+                - iframe [ref=e1427]:
+                  - link [ref=f2e4] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?trk=li_FA_global_careers_jobsgtm_jsFA_v1&mcid=6899045044465016833
+                    - img "Advertise on LinkedIn" [ref=f2e5]
+                - generic [ref=e1432]:
+                  - generic [ref=e1434]:
+                    - heading "Who your viewers also viewed" [level=3] [ref=e1436]
+                    - paragraph [ref=e1437]: Private to you
+                  - generic [ref=e1439]:
+                    - button [ref=e1440] [cursor=pointer]:
+                      - generic [ref=e1441]:
+                        - figure [ref=e1442]
+                        - generic [ref=e1443]:
+                          - paragraph [ref=e1446]: Someone at Sky View High School
+                          - button "View" [ref=e1447]
+                    - button [ref=e1450] [cursor=pointer]:
+                      - generic [ref=e1451]:
+                        - figure [ref=e1452]
+                        - generic [ref=e1453]:
+                          - paragraph [ref=e1456]: Founder in the Marketing Services industry from New York City Metropolitan Area
+                          - button "View" [ref=e1457]
+                    - button [ref=e1460] [cursor=pointer]:
+                      - generic [ref=e1461]:
+                        - figure [ref=e1462]
+                        - generic [ref=e1463]:
+                          - paragraph [ref=e1466]: Someone at Dr. Bhim Rao Ambedkar University, Agra
+                          - button "View" [ref=e1467]
+                    - button [ref=e1470] [cursor=pointer]:
+                      - generic [ref=e1471]:
+                        - figure [ref=e1472]
+                        - generic [ref=e1473]:
+                          - paragraph [ref=e1476]: Business Owner in the Higher Education industry
+                          - button "View" [ref=e1477]
+            - generic "Footer" [ref=e1480]:
+              - generic [ref=e1483]:
+                - generic [ref=e1484]:
+                  - navigation [ref=e1485]:
+                    - link [ref=e1486] [cursor=pointer]:
+                      - /url: https://about.linkedin.com/
+                      - paragraph [ref=e1487]: About
+                    - link [ref=e1488] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/accessibility/
+                      - paragraph [ref=e1489]: Accessibility
+                    - link [ref=e1490] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/talent-solutions?trk=flagship_nav&veh=li-footer-lts-control&src=li-footer
+                      - paragraph [ref=e1491]: Talent Solutions
+                    - link [ref=e1492] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/legal/professional-community-policies/
+                      - paragraph [ref=e1493]: Community Guidelines
+                    - link [ref=e1494] [cursor=pointer]:
+                      - /url: https://careers.linkedin.com/
+                      - paragraph [ref=e1495]: Careers
+                    - link [ref=e1496] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/advertise?trk=n_nav_lms_f&src=li-footer
+                      - paragraph [ref=e1497]: Marketing Solutions
+                    - button [ref=e1498] [cursor=pointer]:
+                      - paragraph [ref=e1500]: Privacy & Terms
+                    - link [ref=e1503] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/help/linkedin/answer/62931/
+                      - paragraph [ref=e1504]: Ad Choices
+                    - link [ref=e1505] [cursor=pointer]:
+                      - /url: https://www.linkedin.com/ad/start/?trk=n_nav_ads_rr
+                      - paragraph [ref=e1506]: Advertising
+                    - link [ref=e1507] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/sales-solutions?trk=flagship_nav&veh=li-footer-lss-control&src=li-footer
+                      - paragraph [ref=e1508]: Sales Solutions
+                    - link [ref=e1509] [cursor=pointer]:
+                      - /url: https://mobile.linkedin.com/
+                      - paragraph [ref=e1510]: Mobile
+                    - link [ref=e1511] [cursor=pointer]:
+                      - /url: https://business.linkedin.com/grow?src=li-footer
+                      - paragraph [ref=e1512]: Small Business
+                    - link [ref=e1513] [cursor=pointer]:
+                      - /url: https://safety.linkedin.com/
+                      - paragraph [ref=e1514]: Safety Center
+                  - paragraph [ref=e1516]: LinkedIn Corporation © 2026
+                - generic [ref=e1517]:
+                  - list [ref=e1518]:
+                    - listitem [ref=e1519]:
+                      - generic [ref=e1523]:
+                        - link [ref=e1524] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin/
+                          - paragraph [ref=e1525]: Questions?
+                        - paragraph [ref=e1526]: Visit our Help Center.
+                    - listitem [ref=e1527]:
+                      - generic [ref=e1531]:
+                        - link [ref=e1532] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/mypreferences/d/
+                          - paragraph [ref=e1533]: Manage your account and privacy
+                        - paragraph [ref=e1534]: Go to your Settings.
+                    - listitem [ref=e1535]:
+                      - generic [ref=e1539]:
+                        - link [ref=e1540] [cursor=pointer]:
+                          - /url: https://www.linkedin.com/help/linkedin/answer/a1339724/
+                          - paragraph [ref=e1541]: Recommendation transparency
+                        - paragraph [ref=e1542]: Learn more about Recommended Content.
+                  - generic [ref=e1544]:
+                    - paragraph [ref=e1546]: Select language
+                    - combobox "Select language" [ref=e1548] [cursor=pointer]:
+                      - option "العربية (Arabic)"
+                      - option "বাংলা (Bangla)"
+                      - option "Čeština (Czech)"
+                      - option "Dansk (Danish)"
+                      - option "Deutsch (German)"
+                      - option "Ελληνικά (Greek)"
+                      - option "English (English)" [selected]
+                      - option "Español (Spanish)"
+                      - option "فارسی (Persian)"
+                      - option "Suomi (Finnish)"
+                      - option "Français (French)"
+                      - option "हिंदी (Hindi)"
+                      - option "Magyar (Hungarian)"
+                      - option "Bahasa Indonesia (Indonesian)"
+                      - option "Italiano (Italian)"
+                      - option "עברית (Hebrew)"
+                      - option "日本語 (Japanese)"
+                      - option "한국어 (Korean)"
+                      - option "मराठी (Marathi)"
+                      - option "Bahasa Malaysia (Malay)"
+                      - option "Nederlands (Dutch)"
+                      - option "Norsk (Norwegian)"
+                      - option "ਪੰਜਾਬੀ (Punjabi)"
+                      - option "Polski (Polish)"
+                      - option "Português (Portuguese)"
+                      - option "Română (Romanian)"
+                      - option "Русский (Russian)"
+                      - option "Svenska (Swedish)"
+                      - option "తెలుగు (Telugu)"
+                      - option "ภาษาไทย (Thai)"
+                      - option "Tagalog (Tagalog)"
+                      - option "Türkçe (Turkish)"
+                      - option "Українська (Ukrainian)"
+                      - option "Tiếng Việt (Vietnamese)"
+                      - option "简体中文 (Chinese (Simplified))"
+                      - option "正體中文 (Chinese (Traditional))"
+  - generic:
+    - generic:
+      - generic:
+        - generic:
+          - complementary:
+            - generic [ref=e1550]:
+              - generic [ref=e1552] [cursor=pointer]:
+                - generic [ref=e1553]:
+                  - img "Farrice Cain" [ref=e1554]
+                  - generic [ref=e1555]: Status is online
+                - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e1557]:
+                  - generic [ref=e1558]:
+                    - generic [ref=e1559]: Messaging
+                    - generic [ref=e1560]: You are on the messaging overlay. Press enter to open the list of conversations.
+              - generic [ref=e1561]:
+                - button [ref=e1563] [cursor=pointer]:
+                  - img "Open messenger dropdown menu" [ref=e1564]
+                - button "Compose message" [ref=e1567] [cursor=pointer]
+                - button "You are on the messaging overlay. Press enter to open the list of conversations." [ref=e1571] [cursor=pointer]
+          - complementary "AI-powered assistant to get help with your career, jobs etc"
+  - iframe [ref=e1575]:
+    - generic [ref=f3e1]:
+      - generic:
+        - region "Toast message":
+          - heading "0 notifications total" [level=2] [ref=f3e3]
+          - alert
+      - region [ref=f3e4]
+      - generic [ref=f3e5]:
+        - generic [ref=f3e7]:
+          - button "Skip to search" [ref=f3e8] [cursor=pointer]
+          - button "Skip to main content" [ref=f3e10] [cursor=pointer]
+          - button "Keyboard shortcuts" [ref=f3e12] [cursor=pointer]
+          - button "Close jump menu" [ref=f3e14] [cursor=pointer]
+        - banner "Global Navigation" [ref=f3e18]:
+          - generic [ref=f3e19]:
+            - link [ref=f3e20] [cursor=pointer]:
+              - /url: https://www.linkedin.com/feed/
+              - img "LinkedIn" [ref=f3e23]
+            - combobox "I’m looking for..." [ref=f3e29]
+            - navigation "Primary Navigation" [ref=f3e30]:
+              - list [ref=f3e31]:
+                - listitem [ref=f3e32]:
+                  - link "new feed updates notifications Home" [ref=f3e33] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/feed/
+                    - generic [ref=f3e34]: new feed updates notifications
+                    - generic "Home" [ref=f3e43]
+                - listitem [ref=f3e44]:
+                  - link "My Network" [ref=f3e45] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/mynetwork/?
+                - listitem [ref=f3e52]:
+                  - link "Jobs" [ref=f3e53] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/jobs/?
+                - listitem [ref=f3e60]:
+                  - link "Messaging" [ref=f3e61] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/messaging/?
+                - listitem [ref=f3e68]:
+                  - link "17 new notifications Notifications" [ref=f3e69] [cursor=pointer]:
+                    - /url: https://www.linkedin.com/notifications/?
+                    - generic [ref=f3e71]:
+                      - generic [ref=f3e72]: "17"
+                      - generic [ref=f3e73]: 17 new notifications
+                    - generic "Notifications" [ref=f3e79]
+                - listitem [ref=f3e80]:
+                  - button [ref=f3e82] [cursor=pointer]:
+                    - img "Farrice Cain" [ref=f3e83]
+                    - generic [ref=f3e84]: Me
+                - listitem [ref=f3e87]:
+                  - button [ref=f3e89] [cursor=pointer]
+                - listitem [ref=f3e98]:
+                  - link "Get 50% Off Sales Nav" [ref=f3e100] [cursor=pointer]:
+                    - /url: http://www.linkedin.com/premium/redeem/?_ed=CwEAAAFyYb66UAQiKvLejf0aKxNzmjJ3ryfkxyqehLZPKD7vWLOgM5wR4lxRr-QUIgT_FeKS2NQ&upsellOrderOrigin=Tracking%3Av1%3Apremium_nav_upsell_text_winback%3ANav%3AIn-Product&referenceId=dZnqUl7AQlydSvkkGyOT%2BQ%3D%3D&customKey=wb_s&redeemTypeV2=DISCOUNT&destRedirectURL=https%3A%2F%2Fwww.linkedin.com%2Fin%2Ffarricecain%2F

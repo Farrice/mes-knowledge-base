@@ -1,9 +1,9 @@
 # Knowledge Index
-*723 sources | 2,809,724 words | Updated: 2026-07-21*
+*729 sources | 2,816,311 words | Updated: 2026-07-21*
 
 ---
 
-## Content (251 files)
+## Content (257 files)
 
 - [video-context-ledger](../extractions/video-context/3iR3kHxCwfo/video-context-ledger.md) — 75,408 words
 - [Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them](extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md) — 60,850 words (stale)
@@ -24,12 +24,13 @@
 - [companion-brand-archetypes-transcript](../extractions/oren-john-identity-marketing/companion-brand-archetypes-transcript.md) [oren-john] — 5,590 words
 - [2026-04-25-substack-notes-craft-gemini-max](../research_outputs/2026-04-25-substack-notes-craft-gemini-max.md) — 5,421 words
 - [extraction-report](../extractions/seth-godin-marketing-mind/extraction-report.md) — 5,284 words
-- [index](index.md) — 4,924 words
+- [index](index.md) — 4,949 words
 - [extraction-report](../extractions/ocean-vuong/extraction-report.md) — 4,861 words (stale)
 - [the-7-levels-of-brand-building](../extractions/oren-identity-brand-os/reference-corpus/the-7-levels-of-brand-building.md) [oren-john] — 4,671 words
 - [mes-extraction](../extractions/wargame-source/mes-extraction.md) — 4,604 words
 - [visual-context](../extractions/brad-bonanno/visual-context.md) — 4,497 words
 - [extraction-report](../extractions/dr-k/extraction-report.md) — 4,451 words (stale)
+- [mastery-extraction-agency-podcast](../extractions/matthew-lakajev/mastery-extraction-agency-podcast.md) — 4,293 words
 - [visual-context](../extractions/ryan-doser/visual-context.md) — 4,260 words
 - [warm-audience-flywheel](../extractions/jeremy-haynes-cold-offer/reference-corpus/warm-audience-flywheel.md) — 4,149 words
 - [deep-notes-qn6VasGSexI](../extractions/sean-dollwet/deep-notes-qn6VasGSexI.md) — 4,118 words
@@ -133,6 +134,7 @@
 - [blind-pass-generated-v2-2026-07-16](../extractions/jenny-hoyos-shorts/blind-pass-generated-v2-2026-07-16.md) [lara-acosta] — 1,408 words
 - [extraction-report](../extractions/dan-martell/extraction-report.md) — 1,391 words (stale)
 - [jun_yuh](../research_outputs/ai_authority_architect_agents/jun_yuh.md) [april-dunford] — 1,378 words
+- [2026-07-21-pressure-test-farrice-s-signal-pilot-practitione](assembly-sessions/2026-07-21-pressure-test-farrice-s-signal-pilot-practitione.md) — 1,306 words
 - [extraction-report](../extractions/ross-mckay/extraction-report.md) [april-dunford] — 1,299 words (stale)
 - [product_ecosystem](../research_outputs/ai_authority_architect_agents/product_ecosystem.md) [cardinal-mason] — 1,266 words
 - [extraction-report](../extractions/luke-iha/video-2-creative-strategy/extraction-report.md) [luke-iha] — 1,251 words (stale)
@@ -220,6 +222,7 @@
 - [analysis](../extractions/video-context/Zc4E_K48v48/analysis.md) — 352 words
 - [analysis](../extractions/video-context/FD53kEpLh9c/analysis.md) — 340 words
 - [verification-record](../extractions/Sky Tan/verification-record.md) — 339 words
+- [2023-10-closed-80k-30-days-post](../extractions/matthew-lakajev-linkedin/reference-corpus/2023-10-closed-80k-30-days-post.md) — 339 words
 - [AGENT](../extractions/meg-heckman/codex-prior-art/agent/AGENT.md) — 339 words
 - [source-ledger](../extractions/meg-heckman/codex-prior-art/skill/references/source-ledger.md) — 336 words
 - [visual-context](../extractions/oren-dara-ad-psychology/visual-context.md) [oren-john] — 325 words
@@ -227,6 +230,7 @@
 - [blind-pass-log](../extractions/jenny-hoyos-shorts/blind-pass-log.md) — 276 words
 - [article-notes](../extractions/kobi-brown-educational-virality/article-notes.md) — 275 words
 - [visual-capitalist-infographic](../extractions/mark-kashef-banana-squad/prompts/visual-capitalist-infographic.md) — 272 words (stale)
+- [blind-pass-specimen-closed-lost-post](../extractions/matthew-lakajev-linkedin/blind-pass-specimen-closed-lost-post.md) — 268 words
 - [kittl_video_nodes](../extractions/creative-direction/kittl_video_nodes.md) — 266 words (stale)
 - [uncertainty-report](../extractions/anne-lamott-neal-allen-really-real/uncertainty-report.md) — 247 words
 - [cinematic-language](../extractions/creative-direction/cinematic-language.md) — 246 words (stale)
@@ -251,7 +255,9 @@
 - [README](../extractions/tess-barclay/README.md) — 133 words
 - [source-notes](../extractions/rafa-conde/source-notes.md) — 121 words
 - [blind-pass-log](../extractions/seth-godin-marketing-mind/blind-pass-log.md) — 90 words
+- [2023-09-ai-content-ideas-post](../extractions/matthew-lakajev-linkedin/reference-corpus/2023-09-ai-content-ideas-post.md) — 86 words
 - [visual-notes](../extractions/kobi-brown-educational-virality/visual-notes.md) — 84 words
+- [blind-pass-log](../extractions/matthew-lakajev-linkedin/blind-pass-log.md) — 84 words
 - [blind-pass-log](../extractions/nathan-gotch-ai-seo/blind-pass-log.md) [nathan-gotch] — 77 words
 - [context](../extractions/meg-heckman/codex-prior-art/agent/memory/context.md) — 75 words
 - [blind-pass-log](../extractions/tommy-clark-linkedin-growth/blind-pass-log.md) — 75 words
@@ -379,7 +385,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 14,118 words
+- [log](log.md) — 14,240 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words
@@ -530,9 +536,9 @@
 - [guide_research_creative_direction](../extractions/creative-direction/guide_research_creative_direction.md) — 543 words (stale)
 - [sample-001](expert-benchmarks/brand-strategy/sample-001.md) [oren-john] — 448 words (stale)
 - [architecture](../extractions/seth-godin-marketing-mind/architecture.md) — 404 words
+- [assembly-rubric](assembly-rubric.md) — 209 words
 - [product-design-scoring](../extractions/meg-heckman/codex-prior-art/skill/workflows/product-design-scoring.md) — 200 words
 - [blind-pass-generated-01](../extractions/paolo-trivellato-lead-magnet-engine/blind-pass-generated-01.md) — 193 words
-- [assembly-rubric](assembly-rubric.md) — 145 words
 - [blind-pass-log](../extractions/jason-fladlien-marketing/blind-pass-log.md) [jason-fladlien] — 77 words
 
 ## Screenwriting (53 files)

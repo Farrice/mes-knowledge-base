@@ -14,7 +14,7 @@
                 "tyler-denk-audience-monetization": 1,
                 "lara-acosta-linkedin-mastery": 2,
                 "extract-mastery": 3,
-                "Research": 15,
+                "Research": 16,
                 "luke-iha-vsl-leads": 4,
                 "sean-dollwet-kdp-publishing": 2,
                 "paul-james-ai-automation": 1,
@@ -38,7 +38,7 @@
                 "sharran-srivatsaa-scaling": 2,
                 "chase-hughes-context-engineering": 1,
                 "dai-media-consumer-posture": 2,
-                "Content": 53,
+                "Content": 54,
                 "writing-depth-layer": 3,
                 "Analysis": 9,
                 "seena-rez-tiktok-commerce": 2,
@@ -74,10 +74,10 @@
                 "nate-b-jones-context-engineering": 30,
                 "nate-b-jones-intent-engineering": 1,
                 "omar-eltakrori": 1,
-                "Extraction": 32,
-                "Strategy": 36,
+                "Extraction": 33,
+                "Strategy": 38,
                 "donald-miller-storybrand": 1,
-                "strength-conditioning-os": 7,
+                "strength-conditioning-os": 8,
                 "simon-intellectual-library-os": 1,
                 "creative-campaign-strategy": 2,
                 "jeremy-haynes-cold-offer": 1,
@@ -90,11 +90,13 @@
                 "benjamin-hardy-identity": 1,
                 "gpt-image-2-director": 2,
                 "satori-graphics": 1,
-                "oren-luxury-psychology": 1
+                "oren-luxury-psychology": 2,
+                "seth-godin-brand": 1,
+                "donald-miller-cognitive-load": 1
             },
-            "total_routings": 561,
+            "total_routings": 570,
             "tier_counts": {
-                "0": 561,
+                "0": 570,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -104,8 +106,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 320,
-                "finalize-auto": 241
+                "hybrid": 324,
+                "finalize-auto": 246
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -121,17 +123,17 @@
                 "ali-abdaal-action-bias": 3,
                 "skill-creator": 2,
                 "jen-santulan-listing-content": 33,
-                "deep-research": 9,
+                "deep-research": 10,
                 "system-orchestrator": 3,
                 "David Placek": 1,
                 "mcp-builder": 1,
                 "gpt-image-2-director": 15,
-                "seth-godin-brand": 3,
+                "seth-godin-brand": 4,
                 "collective-genius-council": 1,
                 "kallaway-social-commerce": 2,
                 "david-placek-naming": 8,
                 "mark-kashef-ai-councils": 1,
-                "writing-depth-layer": 8,
+                "writing-depth-layer": 9,
                 "icp-deep-canvasser": 1,
                 "liam-mley-ai-brain-builder": 1,
                 "satori-graphics": 6,
@@ -142,7 +144,7 @@
                 "forge-os": 8,
                 "kallaway-word-mastery": 2,
                 "andrew-stanton-audience-engineering": 3,
-                "claim-safe-health-marketing": 5,
+                "claim-safe-health-marketing": 6,
                 "adam-enfroy-affiliate-marketing": 1,
                 "steven-kotler-flow-performance": 1,
                 "creative-assembly": 1,
@@ -150,7 +152,7 @@
                 "none": 8,
                 "market-intelligence": 1,
                 "nate-b-jones-context-engineering": 40,
-                "nicolas-cole": 1,
+                "nicolas-cole": 2,
                 "omar-eltakrori": 1,
                 "josh-kaufman-business-fundamentals": 1,
                 "david-placek": 2,
@@ -186,8 +188,8 @@
                 "daniel-priestley": 1,
                 "jason-fladlien": 3,
                 "swarm-commander": 3,
-                "donald-miller-cognitive-load": 3,
-                "kallaway-illusion-of-novelty": 5,
+                "donald-miller-cognitive-load": 4,
+                "kallaway-illusion-of-novelty": 6,
                 "oren-one-person-ai-marketer": 2,
                 "luke-iha-proof-ladder": 2,
                 "alex-suzuki": 2,
@@ -199,7 +201,7 @@
                 "luke-iha-vicious-hooks": 15,
                 "creative-direction": 7,
                 "darrel-wilson-ai-monetization": 1,
-                "jeremy-haynes-cold-offer": 4,
+                "jeremy-haynes-cold-offer": 5,
                 "fresh-voice-system": 7,
                 "daniel-priestley-oversubscribed": 1,
                 "farrice-cain": 1,
@@ -234,7 +236,7 @@
                 "market_intelligence": 1,
                 "wright-thompson-mastery": 14,
                 "donald-miller-messaging-evolution": 3,
-                "paul-harding-lyric-prose": 14,
+                "paul-harding-lyric-prose": 15,
                 "fareed-zakaria-writing-mastery": 1,
                 "luke-iha-insight-vectors": 10,
                 "kallaway-addictive-storytelling": 1,
@@ -272,7 +274,7 @@
                 "luke-iha-copy-blocks": 31,
                 "new-media-kingmaker": 1,
                 "lamott-craft": 2,
-                "lara-acosta-linkedin-mastery": 2,
+                "lara-acosta-linkedin-mastery": 3,
                 "extract-mastery": 4,
                 "sean-dollwet-kdp-publishing": 7,
                 "dara-denney": 2,
@@ -312,9 +314,9 @@
                 "alex-m-smith-natural-strategy": 1,
                 "nate-b-jones-intent-engineering": 1,
                 "luke-iha-creative-strategy": 7,
-                "lara-acosta": 1,
+                "lara-acosta": 2,
                 "donald-miller-storybrand": 1,
-                "strength-conditioning-os": 17,
+                "strength-conditioning-os": 18,
                 "dan-bolton-coaching-offers": 1,
                 "alex-suzuki-digital-product-revenue-os": 3,
                 "creative-campaign-strategy": 3,
@@ -341,7 +343,7 @@
                 "council-verdict-applied": 1,
                 "frontend-design": 1,
                 "dan-koe-multipassionate-mastery": 1,
-                "sean-kochel-design-first-build": 1,
+                "sean-kochel-design-first-build": 2,
                 "sweat-equity-speedrun-social-os": 1,
                 "bill-browder-high-stakes-narrative": 1,
                 "meg-heckman-buyer-trigger-os": 1,
@@ -354,16 +356,19 @@
                 "offer-redteam": 1,
                 "ray-amjad": 4,
                 "mark-kashef-claude-claw": 1,
-                "oren-luxury-psychology": 1,
+                "oren-luxury-psychology": 2,
                 "swarm": 1,
                 "swarm: deep-research + competitive-intel + icp-deep-canvasser + fact-verifier": 1,
                 "ben-watkins-storytelling": 1,
-                "meg-heckman": 1
+                "meg-heckman": 1,
+                "matthew-lakajev": 1,
+                "coaching-business-os": 1,
+                "expert-assembly": 1
             },
-            "total_feedback": 79,
+            "total_feedback": 81,
             "negative_count": 0,
-            "ensemble_count": 411,
-            "auto_miss_count": 63,
+            "ensemble_count": 416,
+            "auto_miss_count": 65,
             "positive_count": 0
         }
     },
@@ -1069,6 +1074,24 @@
             "rating": "auto_miss",
             "correction": "meg-heckman-buyer-trigger-os",
             "notes": "expert skill 'meg-heckman-buyer-trigger-os' loaded not matching suggestion ['supercomputer', 'nate-b-jones-context-engineering', 'doc-coauthoring']"
+        },
+        {
+            "feedback_id": "fb_20260721_231148_336d",
+            "timestamp": "2026-07-21T23:11:48.195342+00:00",
+            "session_id": "b1071701-3c59-4494-814c-fc8a6aebef5a",
+            "routing_id": "rt_20260721_230929_6e11",
+            "rating": "auto_miss",
+            "correction": "nicolas-cole-niche-positioning",
+            "notes": "expert skill 'nicolas-cole-niche-positioning' loaded not matching suggestion ['strength-conditioning-os', 'lara-acosta-linkedin-mastery', 'claim-safe-health-marketing']"
+        },
+        {
+            "feedback_id": "fb_20260721_233112_d5db",
+            "timestamp": "2026-07-21T23:31:12.620877+00:00",
+            "session_id": "b1071701-3c59-4494-814c-fc8a6aebef5a",
+            "routing_id": "rt_20260721_232747_2d71",
+            "rating": "auto_miss",
+            "correction": "ross-mckay-premium-at-scale",
+            "notes": "expert skill 'ross-mckay-premium-at-scale' loaded not matching suggestion ['oren-luxury-psychology', 'coaching-business-os', 'jeremy-haynes-cold-offer']"
         }
     ],
     "routing_decisions": [
@@ -11245,6 +11268,167 @@
             "ensemble": true,
             "compound_pairing": "joey-cinema-os + youtube-video-context-analysis + fantastic-posters",
             "feedback": "fb_20260721_210550_5f9c"
+        },
+        {
+            "routing_id": "rt_20260721_212944_a37a",
+            "timestamp": "2026-07-21T21:29:44.536266+00:00",
+            "session_id": "",
+            "request_summary": "Matthew Lakajev — LinkedIn conversation-layer mastery extraction (forge expansion #2, Agency Podcast)",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "matthew-lakajev"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260721_230929_6e11",
+            "timestamp": "2026-07-21T23:09:29.274183+00:00",
+            "session_id": "b1071701-3c59-4494-814c-fc8a6aebef5a",
+            "request_summary": "run /go  okay, thank you for all this open insight! Is there anything else we need to do with the Cooz workflow to complete it and close it out today and based off of all the verdicts, help me come up",
+            "intent_score": 0,
+            "domain_detected": "strength-conditioning-os",
+            "experts_deployed": [
+                "strength-conditioning-os",
+                "lara-acosta-linkedin-mastery",
+                "claim-safe-health-marketing"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "strength-conditioning-os",
+            "ensemble": true,
+            "compound_pairing": "strength-conditioning-os + lara-acosta-linkedin-mastery + claim-safe-health-marketing",
+            "feedback": "fb_20260721_231148_336d"
+        },
+        {
+            "routing_id": "rt_20260721_231235_2e05",
+            "timestamp": "2026-07-21T23:12:35.443068+00:00",
+            "session_id": "b1071701-3c59-4494-814c-fc8a6aebef5a",
+            "request_summary": "And we're gonna kill the alignment audit, please! After everything I've reviewed and looked at, it's just not the smart move.",
+            "intent_score": 0,
+            "domain_detected": "seth-godin-brand",
+            "experts_deployed": [
+                "seth-godin-brand",
+                "paul-harding-lyric-prose",
+                "sean-kochel-design-first-build"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "seth-godin-brand",
+            "ensemble": true,
+            "compound_pairing": "seth-godin-brand + paul-harding-lyric-prose + sean-kochel-design-first-build",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260721_231522_ba3d",
+            "timestamp": "2026-07-21T23:15:22.232444+00:00",
+            "session_id": "",
+            "request_summary": "Offer Lane Verdict — Signal Pilot: Practitioner Edition locked as sprint spine (Lakajev 4-variable kill switch x Cole category-of-one over 3 candidates; A killed as standalone, B fallback, C wins; POV",
+            "intent_score": 9,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "nicolas-cole"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "ml-validate-offer",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260721_232238_9408",
+            "timestamp": "2026-07-21T23:22:38.774387+00:00",
+            "session_id": "",
+            "request_summary": "LinkedIn profile rebuild pack (Practitioner Edition): headline x2, first-ever About section, Featured Extraction Sample card, banner line, 3 POV posts — grounded in live Playwright profile read (63 co",
+            "intent_score": 9,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "lara-acosta"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "profile-rebuild",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260721_232507_61b0",
+            "timestamp": "2026-07-21T23:25:07.211192+00:00",
+            "session_id": "",
+            "request_summary": "Cold practitioner-founder prospect list (15 names, LinkedIn-verified, 5-condition checklist applied, anti-fit rule, spec-sample angle per prospect, ranked spec-sample-first Tier 1)",
+            "intent_score": 9,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "deep-research"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "prospect-sourcing",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260721_232747_2d71",
+            "timestamp": "2026-07-21T23:27:47.482273+00:00",
+            "session_id": "b1071701-3c59-4494-814c-fc8a6aebef5a",
+            "request_summary": "run /go and /assemble  something I want us to consider: I don't mind doing this type of offer in a different lane or domain, probably because I'm so confident in my skill and my ability to deliver. Ar",
+            "intent_score": 0,
+            "domain_detected": "oren-luxury-psychology",
+            "experts_deployed": [
+                "oren-luxury-psychology",
+                "coaching-business-os",
+                "jeremy-haynes-cold-offer"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "oren-luxury-psychology",
+            "ensemble": true,
+            "compound_pairing": "oren-luxury-psychology + coaching-business-os + jeremy-haynes-cold-offer",
+            "feedback": "fb_20260721_233112_d5db"
+        },
+        {
+            "routing_id": "rt_20260721_234318_dc54",
+            "timestamp": "2026-07-21T23:43:18.982307+00:00",
+            "session_id": "",
+            "request_summary": "Practitioner Edition pressure test: channel-truth evidence + cold buyer gauntlet (standing panel built, real assets scored, 3 WINCEs fixed same-night) + /assemble 4-seat panel (lane verdict: two-gate ",
+            "intent_score": 9,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "expert-assembly"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "assemble",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260722_005229_cc81",
+            "timestamp": "2026-07-22T00:52:29.116349+00:00",
+            "session_id": "b1071701-3c59-4494-814c-fc8a6aebef5a",
+            "request_summary": "before we go any further, should we be doing a new session for continuing this work that we're about to do? If so, give me a prompt to start a new session and start there fresh if the context is getti",
+            "intent_score": 0,
+            "domain_detected": "donald-miller-cognitive-load",
+            "experts_deployed": [
+                "donald-miller-cognitive-load",
+                "writing-depth-layer",
+                "kallaway-illusion-of-novelty"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "donald-miller-cognitive-load",
+            "ensemble": true,
+            "compound_pairing": "donald-miller-cognitive-load + writing-depth-layer + kallaway-illusion-of-novelty",
+            "feedback": null
         }
     ]
 }

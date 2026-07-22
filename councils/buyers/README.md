@@ -11,4 +11,5 @@ Runs check here FIRST before building fresh personas — reuse compounds; rebuil
 | Panel | Audience | Seats |
 |---|---|---|
 | `proof-to-market-founders.md` | Founder/VP-Brand buyers, Proof-to-Market offer | 5 |
+| `practitioner-founders.md` | Practitioner-founder buyers (fitness/wellness), Signal Pilot: Practitioner Edition | 5 |
 | `mybpm-streetwear.md` | MyBPM EDM/rave streetwear buyers | 5 |

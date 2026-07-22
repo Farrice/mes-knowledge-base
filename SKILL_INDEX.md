@@ -225,7 +225,7 @@
 | `market_intelligence` | **Market Intelligence** | advanced trend spotting and keyword intent analysis system | 0 | 0 |
 | `marketing-studio-director` | **marketing-studio-director** | higgsfield marketing studio prompt director, universal director | 9 | 0 |
 | `matt-mcgarry-newsletters` | **Matt McGarry — Newsletter Growth & Email Monetization** | launch, newsletter-as-product design, paid-growth gates with hard benchmarks | 3 | 0 |
-| `matthew-lakajev-linkedin` | **matthew-lakajev-linkedin** | matthew lakajev's linkedin-to-revenue system — offer viability testing, category-of-one niching, language mirroring | 3 | 0 |
+| `matthew-lakajev-linkedin` | **matthew-lakajev-linkedin** | 5m+ with 100% organic linkedin, 5,000+ booked calls, zero ads, zero virality, linkedin revenue architecture | 13 | 0 |
 | `matthew-volkwyn-copywriting` | **matthew-volkwyn-copywriting** | dual-lens hooks, named close archive, voice trinity | 3 | 0 |
 | `mcp-builder` | **mcp-builder** | use when building mcp servers to integrate external apis or services, whether in python (fastmcp) or node/typescript (mcp sdk) | 0 | 0 |
 | `meg-heckman-buyer-trigger-os` | **Meg Heckman — Buyer-Trigger OS (Merch, POD & Product Purchase Psychology)** | powers the /merch-os orchestrator, buyer-trigger os | 14 | 0 |

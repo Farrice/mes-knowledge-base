@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** signal-pilot-execution  
-**Full path:** .agent/handoffs/2026-07-21-signal-pilot-execution.md  
-**Date:** 2026-07-21 (today)  
-**Status:** ready  
-**Title:** Signal Pilot — Offer Lock + Pressure Test v1 (red-teams, profile, prospects)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume signal-pilot-execution` for this one.
-
----
-
 ---
 thread: signal-pilot-execution
 status: ready
@@ -62,4 +50,3 @@ pin: true
 - Supplement-adjacent sample emails must stay claim-safe (structure/function language only)
 - Never pitch "your LinkedIn is neglected" into a dormant LinkedIn inbox — re-route dormant prospects to live channels
 - Privacy: Cooz named in internal docs only; free-year story never in sales copy
-

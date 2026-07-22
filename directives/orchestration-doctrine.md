@@ -46,6 +46,21 @@ leans on deterministic scaffolding.
 Sonnet-class minimum, effort-high — raise effort, not tier. Judge/verify panels may seat the
 conductor's tier for the hardest calls.
 
+**Dispatch seating law (Farrice 2026-07-21, binding — the token-economy rule):** a dispatch with
+no explicit model inherits the CONDUCTOR'S model — when Fable conducts, every unseated Agent or
+workflow agent() call silently burns Fable tokens on executor work. Therefore **no unseated
+dispatches**. Every dispatch names its seat:
+- **`sonnet`** — default for ALL execution: research sweeps, evidence hunts, extractions, drafts,
+  gauntlets, advisories, file generation. Effort high for quality-bearing work, low for mechanical.
+- **`opus`** — reasoning-heavy execution where Sonnet visibly degrades the deliverable: hardest
+  adversarial verification, dense multi-source synthesis, judge-panel finals. Never pinned
+  (opus-fallback policy stands: degrade a tier, don't stall).
+- **Conductor tier (Fable)** — the main loop only: routing, Mission Cards, synthesis of executor
+  output, taste/kill verdicts, user-facing polish. A subagent inherits the conductor tier only by
+  deliberate exception, named in one line at dispatch time.
+Workflow scripts obey the same law via `agent(opts.model/effort)`; pre-launch review of any
+workflow includes checking its seats.
+
 **Seat handoffs**: when a stronger seat will resume later, park judgment calls explicitly —
 `handoff_store.py save --thread <t>` with an "awaiting stronger seat" note — rather than forcing
 them at the current rung. When a weaker seat inherits mid-mission, it re-reads this doctrine +

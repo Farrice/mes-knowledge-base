@@ -1,5 +1,5 @@
 ---
-description: "Matthew Lakajev's LinkedIn-to-revenue system — offer viability testing, category-of-one niching, language mirroring, the three-asset funnel (content + DMs + email), never-pitch-only-invite DM conversion, and plain-text email monetization. Built $5M+ with 100% organic LinkedIn..."
+description: "Matthew Lakajev's LinkedIn-to-revenue system — offer viability testing, category-of-one niching, the three-asset funnel, never-pitch DM conversion via the opinion ladder, monthly closed-lost campaigns, Six Gates of Trust diagnostics, twin-of-best-client targeting, quality-time..."
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 
