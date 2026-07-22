@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** matthew-lakajev-forge  
-**Full path:** .agent/handoffs/2026-07-21-matthew-lakajev-forge.md  
-**Date:** 2026-07-21 (today)  
-**Status:** ready  
-**Title:** Matthew Lakajev Skill — Forge Expansion #2 (Six Gates + Closed-Lost + /ml-*)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume matthew-lakajev-forge` for this one.
-
----
-
 ---
 thread: matthew-lakajev-forge
 status: ready
@@ -57,4 +45,3 @@ Run my blind pass on the Lakajev expansion: show me extractions/matthew-lakajev-
 - Concurrent-session tree: another session holds the lock for signal-pilot work — coordinate before multi-file edits; this thread's remaining work is review/deploy, not builds.
 - All Lakajev revenue numbers are his own claims from the podcast — presented as his claims; keep that framing in any public-facing reuse.
 - Never pitch anywhere in deployed sends — one "buy now" line breaks the system's single rule.
-

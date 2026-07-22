@@ -63,7 +63,7 @@
                 "story-bible-builder": 1,
                 "jason-fladlien-marketing": 10,
                 "how-i-write-os": 12,
-                "supercomputer": 26,
+                "supercomputer": 28,
                 "design-md": 13,
                 "fantastic-posters": 2,
                 "Creative": 8,
@@ -94,9 +94,9 @@
                 "seth-godin-brand": 1,
                 "donald-miller-cognitive-load": 1
             },
-            "total_routings": 573,
+            "total_routings": 575,
             "tier_counts": {
-                "0": 573,
+                "0": 575,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -106,7 +106,7 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 327,
+                "hybrid": 329,
                 "finalize-auto": 246
             },
             "expert_counts": {
@@ -180,7 +180,7 @@
                 "tommy-clark": 2,
                 "deliberate": 27,
                 "creative-director": 1,
-                "doc-coauthoring": 43,
+                "doc-coauthoring": 45,
                 "dan-wang-literary-analysis": 2,
                 "webapp-testing": 2,
                 "brand-operating-system": 24,
@@ -247,7 +247,7 @@
                 "story-bible-builder": 2,
                 "jason-fladlien-marketing": 13,
                 "luisa-zhou-coaching": 2,
-                "supercomputer": 39,
+                "supercomputer": 41,
                 "design-md": 22,
                 "alex-content-science": 2,
                 "system-audit": 23,
@@ -289,7 +289,7 @@
                 "master-copywriter": 3,
                 "henry-shukman-contemplative-writing": 4,
                 "youtube-video-context-analysis": 5,
-                "sharran-srivatsaa-scaling": 4,
+                "sharran-srivatsaa-scaling": 6,
                 "dai-media-consumer-posture": 3,
                 "story-compass": 3,
                 "darrel-wilson-ai-affiliate": 2,
@@ -367,7 +367,7 @@
             },
             "total_feedback": 81,
             "negative_count": 0,
-            "ensemble_count": 419,
+            "ensemble_count": 421,
             "auto_miss_count": 65,
             "positive_count": 0
         }
@@ -11472,6 +11472,44 @@
             "routing_id": "rt_20260722_010507_b5d5",
             "timestamp": "2026-07-22T01:05:07.526068+00:00",
             "session_id": "3ae50d0a-441c-4e31-b319-4d3d4a0dcbfa",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "doc-coauthoring",
+                "sharran-srivatsaa-scaling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + doc-coauthoring + sharran-srivatsaa-scaling",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260722_010846_2029",
+            "timestamp": "2026-07-22T01:08:46.238538+00:00",
+            "session_id": "e75648bd-8f6b-4bdf-a853-dc10033b00d8",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "doc-coauthoring",
+                "sharran-srivatsaa-scaling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + doc-coauthoring + sharran-srivatsaa-scaling",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260722_010848_b0f6",
+            "timestamp": "2026-07-22T01:08:48.786971+00:00",
+            "session_id": "e75648bd-8f6b-4bdf-a853-dc10033b00d8",
             "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
             "intent_score": 0,
             "domain_detected": "supercomputer",
