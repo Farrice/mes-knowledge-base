@@ -160,6 +160,11 @@ Full 64-entry bank: `directives/ai-slop-detector.md` (structural tropes, punctua
 - Telling: "The translation is the hard part." → Showing: "They could explain a $200K strategy in conversation. But 200 words for strangers? Silence."
 - Telling: "I help experts become visible." → Showing: "She talked for forty minutes. I turned twenty seconds into a LinkedIn post. Her DMs opened up within a week."
 
+**The Reader Contract trio (2026-07-22, Week-1 launch posts — the 7→9 gap named in one session):**
+- FAIL: vulnerability without reader payoff — "a journal entry… sorry for myself at the end." The back third of a piece belongs to the reader's usable move, not the writer's feelings.
+- FAIL: one emotional beat held too long, no open loops — the reader finishes out of politeness. Delayed reveals, beat variety, an aha that lands.
+- PASS (the target): universal relatability carried by lived-in specificity — the specific detail IS the mirror; say the reader's private sentence better than they'd say it. (Full standard: `directives/task-lifecycle-content.md` Step 2.5; memory `feedback_reader-contract-three-dials`.)
+
 *New verdicts land in `calibration-log.md` via `/voice-ratchet` (`execution/voice_ratchet.py add`); `/voice-compile` folds the strongest into this section. Format: date | verdict | line | why | source.*
 
 ## §7 THE DIAL (voice fidelity modes)

@@ -12,6 +12,11 @@ Input: Scored intent (Chain Steps 0-3 done: posture, score, route, load)
 
 2. **Slop check (deterministic).** `python3 execution/prose_classifier.py check <file>` on the draft. Fails → one rewrite of the flagged sections, re-check. Cap: 1.
 
+2.5. **Reader Contract (judgment, Farrice 2026-07-22 — three felt verdicts from the Week-1 launch posts, banked in the taste ledger).** Before verification, answer three yes/no questions about the draft; any "no" → one revision pass (rides the same cap discipline):
+   - **Payoff**: does the reader leave with a usable move, or only with my story? Vulnerability without a reader payoff reads as a journal entry ("sorry for myself at the end" vs "the reader is better off for reading").
+   - **Pull**: is there an open loop that closes late, and real beat variety? One emotional note held too long = the reader finishes out of politeness, not compulsion.
+   - **Recognition**: does at least one line say the reader's private sentence better than they'd say it — a lived-in SPECIFIC detail carrying a UNIVERSAL feeling? Generic is dead; specific-but-unrelatable is equally dead. The mirror line is the unit of landing.
+
 3. **Verify in an ISOLATED subagent** (fact-bearing deliverables; the Step 5.5 activation table in `verification-agent-protocol.md` decides). Dispatch via the Agent tool with a fresh brief per `directives/sub_agent_protocol.md`. Never `.claude/agents/` files, never the producing context verifying itself (smarter models cheat better; isolation lets the verifier say "this claim doesn't hold" without inheriting the producer's optimism). Return contract: claim inventory with VERIFIED/LIKELY/UNCONFIRMED labels + verdict PASS/FAIL/PARTIAL.
 
 4. **Route the findings** (house vocabulary, per `quality_gate.md` § Verdict Routing):
