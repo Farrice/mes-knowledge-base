@@ -1,6 +1,10 @@
 ---
-description: On-demand charisma-texture overlay (Rock humble-confidence + Reynolds wit) over any working content — a separate take, never destructive, Farrice decides per piece
+description: RETIRED (Farrice verdict, same day) — charisma-texture overlay made the writing worse; kept on disk as the negative result
+status: retired
+superseded_by: bayer-mirror-mode (see directives/task-lifecycle-content.md)
 ---
+
+> **RETIRED 2026-07-22, hours after shipping — Farrice's felt verdict on the live A/B**: "You made the writing worse... it created noise we don't need." His read on why: Reynolds-style humor works in person, mid-conversation — it can't be scripted onto a page without turning into performance. The Rock/Reynolds textures remain who he models IN PERSON; they are not writing ingredients. This file stays as the recorded negative result so nobody rebuilds it.
 
 # /texture-over — The Charisma Texture Pass (Farrice 2026-07-22)
 
