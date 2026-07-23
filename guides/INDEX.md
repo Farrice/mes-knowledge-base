@@ -10,6 +10,12 @@
 
 | I want to… | Go to |
 |---|---|
+| **Persuasion / selling assets / conversion copy (Jason Fladlien)** | |
+| Diagnose any business's missing selling asset ("best 90 minutes") + Two Agendas opener | [Jason Fladlien OS](2026-07-23-fladlien-build.md) |
+| Inject line-level persuasion from the full 56-pattern bank (10 categories, fire-time loads) | [Jason Fladlien OS](2026-07-23-fladlien-build.md) |
+| Build a teaching spine that sells (4×4 grid, Setup/Payoff/Tie-down 50/45/5) or audit tie-down density | [Jason Fladlien OS](2026-07-23-fladlien-build.md) |
+| Reposition a big-promise offer to a smaller-sooner claimed outcome (set & setting, compliant grip) | [Jason Fladlien OS](2026-07-23-fladlien-build.md) |
+| Scrape a view-only shared Notion doc whose Duplicate drops subpage bodies | [Jason Fladlien OS](2026-07-23-fladlien-build.md) |
 | **Layout / composition / front-end structure (Satori v3)** | |
 | Start any layout with a committed journey (hook/secondary/finisher) | [Satori v3 Layout & Contrast Layer](2026-07-21-satori-v3.md) |
 | Fix "clean but flat/generic" AI design via the 9-form contrast stack | [Satori v3 Layout & Contrast Layer](2026-07-21-satori-v3.md) |
@@ -102,6 +108,7 @@
 
 *(newest first)*
 
+- 2026-07-23 — [Jason Fladlien OS](2026-07-23-fladlien-build.md) — 3-pass build (07-19→23): Tier 8 forge expansion (31→36 wf, genius §36-44, first reference corpus + blind pass EVAL-049 model-PASS), gap-close (+6 recovered secrets), full 56-pattern library scraped from his own Notion (39.6k words + 494 table rows after cursor-pagination fix) → references/pattern-bank/ + rebuilt in Farrice's Notion; A-tier awaits Farrice pass
 - 2026-07-23 — [Lakajev A-Tier Blind Pass](2026-07-23-lakajev-conversation-layer.md) — A-tier confirmed via Farrice-judged blind pass (EVAL-054, generated post preferred over real); artifact-only verification protocol + LinkedIn authwall corpus trick, reusable for every "A-tier awaits blind pass" skill
 - 2026-07-21 — [Matthew Lakajev Conversation Layer](2026-07-21-matthew-lakajev-forge.md) — forge expansion #2 (Agency Podcast): 3→13 workflows, /ml-* namespace; Six Gates + closed-lost + opinion ladder; first blind pass for this expert (EVAL-053 model-PASS; superseded by A-tier EVAL-054 on 07-23)
 - 2026-07-21 — [Paolo Trivellato Lead Magnet Engine](2026-07-21-paolo-lead-magnet-engine.md) — forge from 2 frame-watched videos: 11 /pt-* workflows + 9 prompts; the LinkedIn conversion backend (comment→DM→email→workshop ascension); A-tier awaits Farrice blind pass
