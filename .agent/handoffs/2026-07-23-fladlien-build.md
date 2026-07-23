@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** fladlien-build  
-**Full path:** .agent/handoffs/2026-07-23-fladlien-build.md  
-**Date:** 2026-07-23 (today)  
-**Status:** ready  
-**Title:** Jason Fladlien OS — Watched-Source Expansion + Full 56-Pattern Library (Tier 8, pattern-bank, Notion deploy)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume fladlien-build` for this one.
-
----
-
 ---
 thread: fladlien-build
 status: ready
@@ -56,4 +44,3 @@ Read extractions/jason-fladlien-marketing/blind-pass-specimen-2026-07-19.md and 
 - Do NOT re-scrape or re-migrate the Notion library — v2 is verified; v1 rows sit archived in Notion trash (explained to Farrice).
 - Pattern-bank injections must load category files at fire time (Quality Gate enforces; wired-but-never-loaded card applies).
 - Persuasion patterns deploy in Farrice's/client copy — keep the Reader Contract (payoff/pull/recognition) and compliant-grip rules layered on top; patterns never excuse manipulation-shaped output for regulated niches.
-

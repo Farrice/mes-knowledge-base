@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-23** [fladlien-build/ready] [Jason Fladlien OS — Watched-Source Expansion + Full 56-Pattern Library (Tier 8, pattern-bank, Notion deploy)](2026-07-23-fladlien-build.md) — Farrice blind-pass verdict on jason-fladlien-marketing, then /fladlien-best-90 on Proof-to-Market
 - **2026-07-23** [lakajev-conversation-layer/done] [Matthew Lakajev — Forge Expansion v2 (Six Gates + Conversation Layer, A-Tier)](2026-07-23-lakajev-conversation-layer.md) — Deploy: /ml-closed-lost campaign in BLEND voice for Signal Pilot lane
 - **2026-07-22** [harness-ascension/active] [Handoff — Harness Ascension + Content Weapons Day (2026-07-21/22)](2026-07-22-harness-ascension-content-weapons.md) — resume: Monday post 1, then wayfinder-life-design-coach
 - **2026-07-22** [life-design-coach/active] [Handoff — Wayfinder: Life-Design Coach Lane (2026-07-22)](2026-07-22-wayfinder-life-design-coach.md) — next session: /wayfinder-work on the life-design coach lane
