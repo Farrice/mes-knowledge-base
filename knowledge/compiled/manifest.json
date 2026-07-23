@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-23T11:15:47.759410",
+  "generated": "2026-07-23T11:50:56.917665",
   "total_files": 733,
-  "total_words": 2848157,
-  "total_tokens_est": 3788048,
+  "total_words": 2860105,
+  "total_tokens_est": 3803939,
   "stale_files_30d": 456,
   "domains": {
     "content": 258,
@@ -94,7 +94,7 @@
       "expert": "dai-media",
       "word_count": 1349,
       "modified": "2026-07-16T11:25:56.454363",
-      "age_days": 6,
+      "age_days": 7,
       "size_bytes": 8545,
       "content_hash": "98ba632b",
       "has_frontmatter": false
@@ -1990,11 +1990,11 @@
       "parent": "knowledge",
       "domain": "content",
       "expert": null,
-      "word_count": 4964,
-      "modified": "2026-07-23T10:37:23.368687",
+      "word_count": 4976,
+      "modified": "2026-07-23T11:15:47.769869",
       "age_days": 0,
-      "size_bytes": 85784,
-      "content_hash": "e79b8478",
+      "size_bytes": 86091,
+      "content_hash": "27d1fc31",
       "has_frontmatter": false
     },
     {
@@ -2003,10 +2003,10 @@
       "parent": "knowledge",
       "domain": "general",
       "expert": null,
-      "word_count": 14485,
-      "modified": "2026-07-23T11:15:47.446761",
+      "word_count": 14513,
+      "modified": "2026-07-23T11:50:56.599116",
       "age_days": 0,
-      "size_bytes": 113415,
+      "size_bytes": 113614,
       "content_hash": "5a51f947",
       "has_frontmatter": false
     },
@@ -2070,7 +2070,7 @@
       "expert": null,
       "word_count": 370,
       "modified": "2026-07-06T11:27:28.991112",
-      "age_days": 16,
+      "age_days": 17,
       "size_bytes": 2715,
       "content_hash": "302e52a7",
       "has_frontmatter": true
@@ -2720,7 +2720,7 @@
       "expert": null,
       "word_count": 1099,
       "modified": "2026-07-06T11:27:28.972667",
-      "age_days": 16,
+      "age_days": 17,
       "size_bytes": 7684,
       "content_hash": "9e0456f7",
       "has_frontmatter": false
@@ -3654,11 +3654,11 @@
       "parent": "2026-07-23-persuasive-patterns-notion",
       "domain": "content",
       "expert": "jason-fladlien",
-      "word_count": 114,
-      "modified": "2026-07-23T11:13:57.706642",
+      "word_count": 184,
+      "modified": "2026-07-23T11:50:55.360617",
       "age_days": 0,
-      "size_bytes": 922,
-      "content_hash": "5a5e4230",
+      "size_bytes": 1438,
+      "content_hash": "a0801fdb",
       "has_frontmatter": false
     },
     {
@@ -3667,11 +3667,11 @@
       "parent": "2026-07-23-persuasive-patterns-notion",
       "domain": "copywriting",
       "expert": "jason-fladlien",
-      "word_count": 29345,
-      "modified": "2026-07-23T11:13:57.704811",
+      "word_count": 41183,
+      "modified": "2026-07-23T11:46:10.008764",
       "age_days": 0,
-      "size_bytes": 182553,
-      "content_hash": "046fbc17",
+      "size_bytes": 248663,
+      "content_hash": "41b25aad",
       "has_frontmatter": false
     },
     {
@@ -3734,7 +3734,7 @@
       "expert": null,
       "word_count": 60,
       "modified": "2026-07-16T11:24:58.195978",
-      "age_days": 6,
+      "age_days": 7,
       "size_bytes": 475,
       "content_hash": "c18a740e",
       "has_frontmatter": false
@@ -3760,7 +3760,7 @@
       "expert": null,
       "word_count": 196,
       "modified": "2026-07-16T11:24:51.165800",
-      "age_days": 6,
+      "age_days": 7,
       "size_bytes": 1310,
       "content_hash": "48b7c792",
       "has_frontmatter": false
@@ -3773,7 +3773,7 @@
       "expert": null,
       "word_count": 239,
       "modified": "2026-07-16T11:24:51.166219",
-      "age_days": 6,
+      "age_days": 7,
       "size_bytes": 1412,
       "content_hash": "dc9ffc93",
       "has_frontmatter": false
@@ -3786,7 +3786,7 @@
       "expert": null,
       "word_count": 178,
       "modified": "2026-07-16T11:24:51.166592",
-      "age_days": 6,
+      "age_days": 7,
       "size_bytes": 1121,
       "content_hash": "9512d605",
       "has_frontmatter": false
@@ -3799,7 +3799,7 @@
       "expert": null,
       "word_count": 1531,
       "modified": "2026-07-16T11:27:57.756129",
-      "age_days": 6,
+      "age_days": 7,
       "size_bytes": 9322,
       "content_hash": "acdeedb7",
       "has_frontmatter": false
@@ -4592,7 +4592,7 @@
       "expert": "kieran-flanagan",
       "word_count": 2108,
       "modified": "2026-03-18T11:44:31.088305",
-      "age_days": 126,
+      "age_days": 127,
       "size_bytes": 14945,
       "content_hash": "e35f29be",
       "has_frontmatter": false
@@ -7686,7 +7686,7 @@
       "expert": null,
       "word_count": 1838,
       "modified": "2026-07-16T11:19:26.909814",
-      "age_days": 6,
+      "age_days": 7,
       "size_bytes": 12108,
       "content_hash": "cf31b98b",
       "has_frontmatter": false
@@ -8596,7 +8596,7 @@
       "expert": null,
       "word_count": 693,
       "modified": "2026-07-06T11:27:28.983603",
-      "age_days": 16,
+      "age_days": 17,
       "size_bytes": 5103,
       "content_hash": "39e95673",
       "has_frontmatter": false
@@ -8609,7 +8609,7 @@
       "expert": null,
       "word_count": 459,
       "modified": "2026-07-06T11:27:28.983709",
-      "age_days": 16,
+      "age_days": 17,
       "size_bytes": 3150,
       "content_hash": "f1315166",
       "has_frontmatter": false
@@ -8622,7 +8622,7 @@
       "expert": null,
       "word_count": 193,
       "modified": "2026-07-06T11:27:28.983785",
-      "age_days": 16,
+      "age_days": 17,
       "size_bytes": 1441,
       "content_hash": "5bdac07e",
       "has_frontmatter": false
@@ -8635,7 +8635,7 @@
       "expert": null,
       "word_count": 125,
       "modified": "2026-07-06T11:27:28.984008",
-      "age_days": 16,
+      "age_days": 17,
       "size_bytes": 2452,
       "content_hash": "f92d02ab",
       "has_frontmatter": false
@@ -8648,7 +8648,7 @@
       "expert": null,
       "word_count": 57,
       "modified": "2026-07-06T11:27:28.984501",
-      "age_days": 16,
+      "age_days": 17,
       "size_bytes": 421,
       "content_hash": "1943f800",
       "has_frontmatter": false
@@ -8661,7 +8661,7 @@
       "expert": null,
       "word_count": 20273,
       "modified": "2026-07-06T11:27:28.986742",
-      "age_days": 16,
+      "age_days": 17,
       "size_bytes": 117719,
       "content_hash": "318437a3",
       "has_frontmatter": false

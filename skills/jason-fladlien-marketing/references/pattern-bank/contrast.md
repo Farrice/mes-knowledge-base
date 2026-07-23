@@ -71,6 +71,15 @@ Psychologically, people trust someone who appears to be retreating more than som
 
 ##### Conversational Ladder Applications
 
+| Stage | Pattern |
+|---|---|
+| Connect | I'm not saying we're going to solve everything on this call. I am confident we can figure out how to solve this lead problem though.  |
+| Discover | I can’t claim I know the exact answer for your business yet. I am reasonably sure though that we will figure out some easy answers though to really help you move the needle…  |
+| Expand | I’m not saying it will be impossible for you to solve this problem on your own. I am suggesting though that we have to move some significant resources over to properly manage it.  |
+| Commit | I’m not saying you have to give me all your business immediately after I show you what I can do for you. I’m merely suggesting we explore options to see which one is the right first step.  |
+| Decide | I’m not saying this in itself will triple your lead flow instantly. I am saying that this is the best deal out there for you to start with right away…  |
+| Resolve | I’m not suggesting that every single client who buys becomes a 100% exceptional success story that gets talked about for years and years. What I am saying is that when you commit to a bigger future, you unlock new capabilities that you previously didn't know existed.  |
+
 ---
 
 ## Echoing  [Contrast]
@@ -169,6 +178,16 @@ The pause introduces doubt.
 So much of how we deliver persuasion patterns effects how well they are received. 
 Just from this one technique, look at all the non-verbal elements we use:
 
+| Delivery Element | Prospect | Echo | Why It Matters |
+|---|---|---|---|
+| Volume | "IT'S TOO EXPENSIVE." | "It's too expensive?" | Loud statements sound certain and emotionally charged. Lowering your volume removes intensity and makes the objection sound less absolute. |
+| Pace | "It's too expensive." (fast) | "It's... too expensive?" (slow) | Fast speech signals certainty and reaction. Slowing down signals consideration and causes the prospect to reconsider what they just said. |
+| Pause | "It's too expensive." | "It's..." pause "...too expensive?" | The pause creates doubt with the implication: “I’m searching to even begin to understand how you could think this!?” |
+| Inflection | ↓ "It's too expensive." | ↑ "It's too expensive?" | You can turn any statement into a question if you add an upward inflection to it. |
+| Rhythm | One continuous burst | Broken into pieces | A continuous delivery feels automatic and emotional. Breaking the rhythm forces the prospect to hear the statement differently than when they originally said it. |
+| Emotional Tone | Frustration | Curiosity | Matching frustration escalates tension. Replacing it with curiosity helps the prospect shift from emotion into explanation. |
+| Certainty Level | "I know this is true." | "Is this actually true?" | Every delivery change subtly lowers certainty and increases examination. The objection becomes a hypothesis instead of a fact. |
+
 ##### Volume changes meaning
 When you saying something quieter, it doesn’t sound as serious. 
 
@@ -185,6 +204,56 @@ And often their explanation reveals the real issue.
 
 ##### Creates a Different Internal Experience
 One of the most fascinating things about this pattern is that the prospect hears their own words delivered back differently.
+For the first time, they experience their statement from another perspective.
+Sometimes they immediately soften it.
+> "Well, it's not that I don't have time..."
+> "Well, it's not really too expensive..."
+> "I guess I shouldn't say never..."
+The objection starts collapsing without you attacking it.
+
+##### Authority Through Calmness
+Weak communicators react.
+Strong communicators investigate.
+When someone throws an objection on the table and you immediately defend yourself, it signals:
+> That objection affected me.
+When you calmly echo it back, it signals:
+> Let's look at that more closely.
+The calmness creates authority.
+The curiosity creates control.
+The prospect feels heard rather than challenged.
+
+##### The Formula
+The pattern is not:
+> Repeat what they said.
+The pattern is:
+> Repeat what they said with less certainty than they used when saying it.
+They deliver certainty.
+You deliver curiosity.
+They deliver emotion.
+You deliver reflection.
+They deliver a conclusion.
+You deliver a question.
+That's why the exact same words can produce an entirely different conversation.
+
+#### What It Accomplishes
+- Prevents defensive selling.
+- Keeps control of the conversation.
+- Encourages elaboration.
+- Reveals hidden objections.
+- Lowers emotional intensity.
+- Creates reflection.
+- Buys thinking time.
+- Encourages self-correction.
+
+#### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Discover | "I've been burned before." → "Burned before?" |
+| Clarify | "The team just isn't accountable." → "Not accountable?" |
+| Expand | "It's probably going to get worse over time." → "Get worse?" |
+| Commit | "I should probably do something about it." → "Probably?" |
+| Resolve | "I just don't know if it'll work for me." → "Work for you?" |
 
 ---
 
@@ -234,6 +303,14 @@ Direct challenges create defensiveness. This pattern creates curiosity.
 - Softens resistance by presenting options rather than corrections
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Connect | "Is this the first time you've looked for a solution to this, or have you tried before?" |
+| Discover | "Is the real problem lead volume, or what happens to leads once they come in?" |
+| Clarify | "Is that a real constraint, or a proxy for something else you're worried about?" |
+| Expand | "Is this costing you money, or is it costing you the momentum you could have had by now?" |
+| Resolve | "Is this a no, or is it a 'not yet'? Because those require very different conversations." |
 
 ---
 
@@ -286,6 +363,14 @@ That's a question even highly certain people can consider without feeling attack
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Discover | "Would holding the belief that 'ads don't work in this market' help or hurt you in figuring out the real problem?" |
+| Clarify | "Would believing you can't close at that price point help or hinder you in even testing whether that's true?" |
+| Expand | "Would holding the belief that 'this is as good as it gets' help or hinder you in growing past where you are?" |
+| Commit | "Would believing results take a year help or hinder you if they could actually come in 90 days?" |
+| Resolve | "Would holding onto that concern help or hinder you in making the best choice available to you right now?" |
+
 ---
 
 ## Win/Lose Contrast  [Contrast]
@@ -333,3 +418,10 @@ Those conditions almost always involve taking action, investing, moving quickly,
 - Creates momentum by having them describe what success looks and feels like
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Discover | "Think of a time you trusted a vendor and it worked out, and a time it didn't. What separated the two?" |
+| Clarify | "Think of a time you hired well and a time you hired wrong. What was different about your process each time?" |
+| Commit | "Think of the best decision you ever made for your business. What made you pull the trigger on it?" |
+| Resolve | "Think of the last time you had this same fear about a decision and moved forward anyway. What happened?" |

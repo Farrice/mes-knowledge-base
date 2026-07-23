@@ -47,7 +47,7 @@
                 "darrel-wilson-ai-affiliate": 1,
                 "stefan-georgi-dopamine-copy": 8,
                 "marketing-studio-director": 1,
-                "System": 77,
+                "System": 78,
                 "brand-operating-system": 11,
                 "dara-denney-meta-ads": 5,
                 "internal-comms": 1,
@@ -98,9 +98,9 @@
                 "ben-watkins-storytelling": 1,
                 "alex-m-smith-natural-strategy": 1
             },
-            "total_routings": 599,
+            "total_routings": 600,
             "tier_counts": {
-                "0": 599,
+                "0": 600,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -111,7 +111,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 344,
-                "finalize-auto": 255
+                "finalize-auto": 256
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -190,7 +190,7 @@
                 "brand-operating-system": 24,
                 "chase-hughes-conversational-influence": 10,
                 "daniel-priestley": 1,
-                "jason-fladlien": 4,
+                "jason-fladlien": 5,
                 "swarm-commander": 3,
                 "donald-miller-cognitive-load": 5,
                 "kallaway-illusion-of-novelty": 8,
@@ -11983,6 +11983,23 @@
             "request_summary": "Fladlien full Persuasive Patterns library harvest + deployment: scraped his complete Notion doc (56 patterns / 10 categories, ~28k words w/ examples + why-it-works mechanics) via public api/v3, archiv",
             "intent_score": 9,
             "domain_detected": "Extraction",
+            "experts_deployed": [
+                "jason-fladlien"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-amplify",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260723_185056_3b5d",
+            "timestamp": "2026-07-23T18:50:56.566741+00:00",
+            "session_id": "",
+            "request_summary": "Fladlien pattern library → Farrice's Notion (Knowledge Vault child DB, 56 rows, full bodies + native tables) + pagination gap-close: cursor-follow re-scrape recovered 12k words + 54 tables (27.7k→39.6",
+            "intent_score": 9,
+            "domain_detected": "System",
             "experts_deployed": [
                 "jason-fladlien"
             ],

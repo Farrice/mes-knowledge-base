@@ -1,7 +1,7 @@
 # Persuasive Patterns | Jason Fladlien — FULL 55-PATTERN LIBRARY
 
-> Source: public Notion site jumpy-oregano-409.notion.site/38abc67d4986803b93c8d8dc22ddf656 (provided by Fladlien via Instagram DM to Farrice, scraped 2026-07-23 via public api/v3).
-> Intro on page: "Below are 55 patterns I use in sales, webinars and with my consulting clients that have helped generate over $250 million." Contact for implementation: jason@usebrain.com (6-figure+ companies).
+> Source: public Notion site jumpy-oregano-409.notion.site/38abc67d4986803b93c8d8dc22ddf656 (provided by Fladlien via Instagram DM to Farrice; scraped 2026-07-23 via public api/v3, full cursor pagination, tables included).
+> Intro on page: "Below are 55 patterns I use in sales, webinars and with my consulting clients that have helped generate over $250 million." Contact: jason@usebrain.com.
 
 
 ## CATEGORY: Building Block (5 patterns)
@@ -88,10 +88,19 @@ The moment someone feels manipulated, they stop evaluating the choices and start
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | Did you reach out because you're trying to grow faster or because you're trying to reduce stress? |
+| Discover | Is the challenge primarily strategic or operational? |
+| Clarify | Is the issue lack of leads or lack of follow-up? |
+| Expand | Would solving this create more money, more time, or both? |
+| Commit | Would you rather do this on your own or would you like some help? |
+| Resolve | Is the concern the investment itself or the return you expect from it? |
+
 ---
 
 ## Embedded Commands  [Building Block]
-**Summary**: Hides a command from the conscious mind. 
+**Summary**: Hides a command from the conscious mind.
 **Structure**: `You don't have to {desired action} right now…`
 > ****
 
@@ -203,12 +212,30 @@ A slight pause.
 A slower pace.
 A softer voice.
 A change in emphasis.
+The embedded command becomes highlighted without explicitly being highlighted.
+
+##### The Unconscious Notices What the Conscious Mind Ignores
+If done right, the listener won’t ever pick it out. 
+They just simply experience it differently.
+The conscious mind remembers the sentence.
+The unconscious mind remembers the emphasis.
+
+##### Hidden in Plain Sight
+The strongest phonological markers do not sound theatrical.
+They do not sound hypnotic.
+They do not sound manipulative.
+They sound natural.
+The listener should not consciously notice anything unusual.
+The phrase simply lands with slightly more weight than the words around it.
+That's often enough.
+
+##### 
 
 ---
 
 ## Frames  [Building Block]
 **Summary**: Creates a context to make your communication most effective.
-**Structure**: `{Situation} is {claim} because {context}. `
+**Structure**: `{Situation} is {claim} because {context}.`
 A frame is the context that is wrapped around the communication. 
 To be as persuasive as possible, you try to put the best context  around what you are communicating. 
 Different frames can be effective or disastrous depending upon when you use them. 
@@ -224,9 +251,60 @@ Another example - if you tell a patient they have an 80% survival rate on a surg
 It’s only the framing that changes. 
 And there are a lot of frames. 
 Revisiting the milk:
+
+| Frame Type | Example |
+|---|---|
+| Positive Frame | Be careful with the milk. |
+| Negative Frame | Don't spill the milk. |
+| Outcome Frame | Let's safely drink the milk and put the glass in the sink when done. |
+| Solution Frame | How do we make sure we are responsible with the milk?  |
+| Identity Frame | I’ve noticed how careful you can be when drinking milk.  |
+| Responsibility Frame | It's your job to take care of this glass of milk.  |
+| Consequence Frame | If it spills, you'll have a mess to clean up. |
+| Scarcity Frame | That's the last of the milk. |
+| Comparison Frame | Being careful with the milk is easier than cleaning up spilled milk. |
+| Challenge Frame | Think you can drink it all without spilling a drop?  |
+| Curiosity Frame | What do you think is the easiest way to carefully drink the milk? |
 Now, to generalize frames into structures you can use in all sorts of situations and conversations: 
 
+| Frame | Description | Template |
+|---|---|---|
+| Problem Frame | Focuses attention on the pain, obstacles, and consequences that need to be solved. | What is the biggest problem with {situation}? |
+| Outcome Frame | Focuses attention on the desired result rather than the current problem. | If this worked perfectly, what would {desired outcome} look like? |
+| Decision Frame | Focuses attention on making a decision rather than endlessly discussing possibilities. | If you were going to decide, what would you need to know first? |
+| Identity Frame | Focuses attention on who someone is, wants to be, or believes themselves to be. | Would you consider yourself an open-minded person?  |
+| Meaning Frame | Assigns meaning to facts, behaviors, or circumstances. | The fact that {observable fact} means {meaning}. |
+| Possibility Frame | Expands what someone believes is available, achievable, or true. | What might happen if {constraint} wasn't an issue? |
+| Constraint Frame | Identifies what is preventing movement, progress, or commitment. | What is preventing {desired outcome} from happening right now? |
+| Comparison Frame | Creates meaning by contrasting one thing against another. | Would you rather have {option A} or {option B}? |
+| Risk Frame | Focuses attention on potential gains, losses, or consequences. | What is the risk of {action} versus the risk of {inaction}? |
+
 #### Deeper Frame Analysis
+
+| Frame | What It Does | Template / Example | Found In |
+|---|---|---|---|
+| Presupposition Frame | Treats the desired outcome as already decided. Skips "will you?" and moves directly to "when / how / which?". | "When would you like to get started?" / "How quickly do you want to see results?" | Presuppositions, When Would NOW, Begin → Find, When You Notice |
+| Agreement Frame | Creates a chain of micro-commitments (small yeses) that stack into a larger commitment. Uses social consistency pressure - once we say yes repeatedly, we tend to keep saying yes. | "Predictable revenue would make a big difference for you, wouldn't it?" | Tie-down, Commitment Chain |
+| Loss Frame | Motivates by surfacing what we want to avoid rather than what we want to gain. Accesses loss aversion: the pain of losing something hurts more than the pleasure of gaining the same thing. | "What's the version of this problem you're most tired of living with?"  | Move Away From, Any Reason No? |
+| Floor Frame | Sets a minimum acceptable outcome so that even partial success is still worth it. Removes the fear of failure by redefining the worst case as a positive result. | "If this didn't transform everything and all it did was {modest outcome}, would that still be worth it?" | Minimum Acceptable Outcome, Could You Live With It? |
+| Utility Frame | Evaluates beliefs and assumptions on usefulness rather than truth.  | "Would holding that belief help or hinder you in achieving {goal}?" | Utility Test, Binary Breaker |
+| Future Self Frame | Speaks from a vantage point after success has already occurred. Places the listener at a future moment and asks them to look back, making the path to action feel inevitable rather than uncertain. | "Looking back after this is solved, what do you think made the biggest difference?" | Looking Back, Begin → Find |
+| Inevitability Frame | Makes the positive outcome feel certain, with the only open variable being timing. Removes the question "will this work?" and replaces it with "how soon will this work?" | "I don't know if {outcome comes soon} or {outcome comes later}..." | Sooner or Later, Presuppositions, When You Notice |
+| Cause-Effect Frame | Links a present action to a future outcome through assumed causation. The mind accepts the causal relationship without requiring proof because the chain of agreement feels natural. | "As you begin {action}, you'll find yourself {state / result}." | Begin → Find, Current Action → Desired Feeling, When You Notice |
+| Aspiration Frame | Amplifies desire by making someone defend their bigger goals. Forces justification of ambition and in doing so, the listener articulates and emotionally invests in the larger outcome themselves. | "You said you want to double the business. Why not just grow 20%?" | Why Not Less?, This vs. That |
+| Conditions Frame | Converts vague resistance into a specific, addressable list of conditions. "I'm not sure" becomes "here's what would make me sure." Once conditions are named, they can be answered. | "What would need to happen for you to feel ready to {action}?" | Winning Conditions, Trial Close |
+| Dissonance Frame | Creates cognitive tension between a stated positive identity and a current contradictory behavior. The discomfort of holding two conflicting beliefs motivates alignment  by changing the behavior. | "I know you're someone who values {trait}, which is why I'm concerned about {contradictory behavior}." | Positive Identity Contradiction, Identity Conflict |
+| Charitable Interpretation Frame | Interprets resistance, objections, or difficult behavior as evidence of positive character traits. Converts obstruction into virtue, making the listener feel seen while making the objection easier to work with. | "Because you're being this careful, that tells me you're someone who, once they commit, commits fully." | Positive Intent |
+| Liberation Frame | Separates the person from the limiting belief or problem. Asks who they would be without it, shifting the limitation from "what I am" to "what I have," which makes it feel temporary and optional. | "Who would you be if you no longer had {limiting belief / problem}?" | Who / If?, Binary Breaker |
+| Prediction Frame | Predicts the listener's future thoughts or feelings before they occur. Creates deep rapport through accurate foresight and installs positive expectations before the experience arrives. | "I know you'll feel differently about this once you see it in practice." | Mind Reading, When You Notice, Sooner or Later |
+| Permission Frame | Seeks explicit consent before delivering a challenge or reframe. The act of asking permission creates a small agreement to remain open, turning the listener from a defender into a willing evaluator. | "Would it be okay if I pushed back on that for a second?" | Permission, Wrong, But |
+| Evidence Inversion Frame | Takes the exact words or experience behind an objection and turns them into evidence for action. The resistance becomes the reason to move forward rather than away. | "You say you lack confidence but you state it in such a confident manner…” | Objection Collapse, Implication Frame, Blessing in Disguise |
+| State Break Frame | Interrupts habitual thought patterns to create a brief window of openness. When the conversational script breaks unexpectedly, fixed positions soften and attention resets. | "Wait!? Are you an only child?” | Pattern Interrupt |
+| Spectrum Frame | Dissolves binary or absolute thinking by converting it into a percentage or degree. Once someone moves from "ready or not ready" to "how ready do I need to be?", they regain flexibility. | "How certain, as a %, would you need to be in order to move forward?" | Binary Breaker, Utility Test |
+| Validation Frame | Holds two truths simultaneously using "and" rather than "but." The listener doesn't have to give up their current perspective to accept the reframe. Both things can be true at once. | "It's understandable that {perspective}, and {empowering reframe}." | Yes (but) And, Wrong, But |
+| Resource Access Frame | Activates existing internal resources (confidence, decisiveness, clarity) by accessing past memories where those states were present. Demonstrates that the resource already exists; it just isn't currently active. | "Can you remember a time when you committed fully to something and it changed what was possible?" | Reawakening, As a Child, Win/Lose Contrast |
+| Pre-Commitment Frame | Activates a positive identity immediately before a key ask. Once someone confirms they are "someone who acts when something clearly makes sense," saying no becomes inconsistent with who they just said they are. | "Do you consider yourself someone who acts when the evidence is strong enough?" | Priming, Decision Primer |
+| Epistemic Humility Frame | Admits uncertainty before delivering an interpretation. "I may be wrong, but..." signals that we aren't attached to being right but to be helpful. | "I may be wrong, but I don't think this is really about the money." | Wrong, But, Claim Softening |
 
 ---
 
@@ -278,6 +356,14 @@ The conversation feels natural and progressive rather than a negotiation.
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | "Which part of your business are you most excited to talk about today?" |
+| Expand | "How much more are you leaving on the table each month while this stays unsolved?" |
+| Commit | "When you implement this, what would you want working in the first 30 days?" |
+| Decide | "When would you like to get started?" |
+| Resolve | "Once we address that concern, what do you see as the next step?" |
+
 
 ---
 
@@ -323,6 +409,15 @@ That expectation carries social pressure. Most people don't push back.
 - Frames negative outcomes as undesirable without forcing the point
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Discover | "You've been dealing with this longer than you'd like, haven't you?" |
+| Clarify | "So the real issue is follow-up, not lead volume, isn't it?" |
+| Expand | "Fixing this now is less expensive than fixing it after another bad quarter, wouldn't you agree?" |
+| Commit | "If we solved this, that would change everything for you, wouldn't it?" |
+| Decide | "Everything we've talked about makes sense, doesn't it?" |
+| Resolve | "That guarantee removes the biggest concern, doesn't it?" |
 
 ## CATEGORY: Commitment (7 patterns)
 
@@ -491,11 +586,17 @@ The action is treated as the natural next step.
 
 ##### Conversational Ladder Applications
 
+| Stage | Pattern |
+|---|---|
+| Clarify | Can you see how the real issue might be follow-up rather than lead generation?  Would fixing follow-up be valuable if that turned out to be true?  If follow-up is the problem, when would you want to solve it? |
+| Expand | Can you see how adding just one more salesperson without fixing the process could create even more chaos?  Would avoiding that chaos be important?  If you were going to fix the process first, when would be the best time to do it? |
+| Commit | Can you see how having a written hiring process would help you avoid another bad hire?  Would avoiding another six-month hiring mistake be valuable?  If you were going to put that process in place, when would you begin? |
+| Resolve | Can you see how the cost of doing nothing for another year is probably larger than the investment we're discussing?  Would avoiding that loss be worthwhile?  If you were going to stop absorbing that loss, when would be the best time to begin? |
 
 ---
 
 ## Decision Contract  [Commitment]
-**Summary**: Creating the rules that get someone to say yes. 
+**Summary**: Creating the rules that get someone to say yes.
 **Structure**: `If it's in your best interest, say yes. If not, say no. If unclear, let's discuss it. Fair enough?`
 > ****
 
@@ -683,10 +784,19 @@ The pattern helps uncover which variable is actually driving the decision.
 
 #### Conversational Ladder Applications
 
+| Stage | Application |
+|---|---|
+| Connect | If I had a perfect solution for you by the end of our conversation, would it be okay to share it in the last few minutes?  |
+| Discover | If there was a way to fix this problem permanently, would you want to know about it? |
+| Clarify | If we could prove that hiring isn't actually the bottleneck, would you be open to looking elsewhere for the cause? |
+| Expand | If you could get back the fifteen hours you're losing every week to this issue, what would that be worth to you? And if we could make that happen in a way that made sense to you, would you be willing to act on it? |
+| Commit | If I could show you exactly how this pays for itself within 90 days, would you be willing to make a decision today? |
+| Resolve | If we could completely eliminate the concern about implementation, would there be any reason left not to sign up right now? |
+
 ---
 
 ## Permission  [Commitment]
-**Summary**: Gains consent before introducing claim, suggestion, challenge or reframe. 
+**Summary**: Gains consent before introducing claim, suggestion, challenge or reframe.
 **Structure**: `Would it be okay if I {reframe/challenge/suggest something}?`
 > ****
 
@@ -726,6 +836,16 @@ The listener prepares to receive it with more attention than they'd give a casua
 - Creates a small pre-commitment to remain open
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Connect | "Would it be okay if I asked a few questions before we get started?" |
+| Discover | “Is it fine if I ask you a lot of questions along the way to get the deepest understanding of your business possible?” |
+| Clarify | "Would you be open to me suggesting a different cause for what you're describing?" |
+| Expand | "Is it okay if I show you what this is actually costing per month?" |
+| Commit | "Do I have your permission to show you what we can offer you?” |
+| Decide | "Would it be okay if I asked you to sign up right now?” |
+| Resolve | “May I suggest to you to be open to the idea that maybe you’re wrong about your limitations?” |
 
 ---
 
@@ -775,6 +895,15 @@ By the time we ask for the real decision, the pattern feels familiar.
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | "What made you decide to take this call today?" |
+| Discover | "Does any of what you've described feel like it points toward a specific root cause?" |
+| Clarify | "How does that compare to how you thought about the problem coming in?" |
+| Expand | "How much more painful does this feel now that we've put a number to it?" |
+| Commit | "If we could deliver what we've talked about, how close to a yes would that get you?" |
+| Resolve | "Now that we've addressed that, how are you feeling about moving forward?" |
+
 ---
 
 ## When Would NOW  [Commitment]
@@ -817,13 +946,19 @@ The word "now" is there, but the question is still soft. The listener doesn't fe
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Commit | "When would now be a good time to explore whether there's a solution worth investing in?" |
+| Decide | "When would now be a good time to get started?" |
+| Resolve | "When would now be a good time to move past the hesitation and make a real decision?" |
+
 
 ## CATEGORY: Constraints (6 patterns)
 
 ---
 
 ## Cost Conscious  [Constraints]
-**Summary**: Exposes the hidden costs involved with inaction. 
+**Summary**: Exposes the hidden costs involved with inaction.
 **Structure**: `How much is {problem} costing you in {money/time/opportunity}?`
 > ****
 
@@ -895,10 +1030,19 @@ You said you've wanted to launch this course for four years. If it could have ge
 
 ##### Conversational Ladder Applications
 
+| Stage | Pattern |
+|---|---|
+| Discover | What problems do you think costs you the most if they aren’t fixed?  |
+| Clarify | You said every proposal takes three hours to build. At twenty proposals a month, how much time are you spending every year creating proposals? |
+| Expand | You mentioned losing three employees last year because managers weren't trained properly. What did recruiting, onboarding, and lost productivity cost altogether? |
+| Commit | You estimated this problem costs about $120,000 a year. If I had a solution that was a fraction of that investment, would you like to hear about it?  |
+| Decide | If this problem costs $8,000 per month and the solution costs less than two months of the problem, is that enough for you to sign up right now?  |
+| Resolve | You mentioned the investment feels expensive. You also mentioned you are losing $240,000 a year by not solving this problem. Everything is expensive. Which expensive do you want is the question.  |
+
 ---
 
 ## Could You Live With It?  [Constraints]
-**Summary**: Reframes “failure” into something more valuable. 
+**Summary**: Reframes “failure” into something more valuable.
 **Structure**: `If all that happened was {”worst” best-case}, would that still be acceptable?`
 > ****
 
@@ -970,11 +1114,21 @@ If the only thing this AI agent did was helped you do was save ten hours a week 
 
 #### Conversational Ladder Applications
 
+| Stage | Pattern |
+|---|---|
+| Connect | Some days I want to be a billionaire but other days I think if I just get a bit more clarity on what to do, then that’s more than enough. Am I crazy?  |
+| Discover | I'm going to be on the hunt for ways to triple your business, reduce your overhead by 50% or more, and free up 10 hours of your time per week. If all we did was grow your new product line revenue by 10%, would that make you happy?  |
+| Clarify | If you didn't go viral but instead consistently got one new client a week, would that be a sufficient consolation prize?  |
+| Expand | Let's say the webinar takes three times as long for you to develop but still produces more revenue than your video sales letter did. Would it be okay for you to spend those extra hours?  |
+| Commit | I can't say we'll solve all seven problems that we went over on this call today. If we only solved one of these seven problems beyond what you thought was possible, would that be enough to win your business today?  |
+| Decide | I can't guarantee the result but I can guarantee that I'm committed to your success. If that sounds good to you, sign up here.  |
+| Resolve | You said you're unsure whether you'll get the full result.  Fair enough.  If all you achieved was cutting customer churn in half, instead of eliminating it, would you still be happy you moved forward? |
+
 
 ---
 
 ## Disappearing Act  [Constraints]
-**Summary**: Weakens the excuse that would create a no. 
+**Summary**: Weakens the excuse that would create a no.
 **Structure**: `If you could eliminate only one {issue} about {situation}, what would it be?`
 > ****
 
@@ -1049,11 +1203,19 @@ Now they crave that relief and are more likely to invest in something that will 
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Discover | If one thing could disappear from your sales process tomorrow, where would you start? |
+| Clarify | You mentioned growth has slowed. If you could remove one obstacle causing that slowdown, what would it be? |
+| Commit | If solving this one problem removed 80% of the frustration you've described, would that be worth prioritizing? |
+| Decide | If moving forward meant eliminating the exact issue you've spent the last hour talking about, what would stop you from signing up right now? |
+| Resolve | If we could remove your concern about implementation, would there be any reason not to proceed? |
+
 
 ---
 
 ## Minimum Acceptable Outcome  [Constraints]
-**Summary**: Embeds several big claims into an otherwise reasonable statement or question. 
+**Summary**: Embeds several big claims into an otherwise reasonable statement or question.
 **Structure**: `If this didn't {extraordinary outcome(s)} and all it did was {modest but valuable outcome}, would that still be worth it?`
 > ****
 
@@ -1118,10 +1280,16 @@ By the time we land on the modest claim, the listener is relieved: "That seems t
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Expand | "If this never became a big revenue driver and only saved you twelve hours a week… would you still want to do it?" |
+| Decide | "If this didn't exceed every expectation and all it did was deliver a solid 3x return on what you put in — would you move forward today?" |
+| Resolve | "If we couldn't fix everything right away and all we did in the first 90 days was stop the bleeding — would that justify getting started?" |
+
 ---
 
 ## Move Away From  [Constraints]
-**Summary**: Uses loss aversion to uncover what motivates the listener. 
+**Summary**: Uses loss aversion to uncover what motivates the listener.
 **Structure**: `What is it you don't want {to happen / to continue / to experience}?`
 > ****
 
@@ -1177,6 +1345,13 @@ A prospect might say they want more revenue, but what they actually want is to s
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Discover | "What's the version of this problem you're most tired of dealing with?" |
+| Expand | "What happens to the business if this still isn't fixed eighteen months from now?" |
+| Decide | "What are you most afraid of if you don't take action today?" |
+| Resolve | "What's the worst case you're protecting yourself against by not deciding right now?" |
+
 ---
 
 ## Reason Not to?  [Constraints]
@@ -1223,6 +1398,15 @@ A prospect might say they want more revenue, but what they actually want is to s
 ---
 
 ### Use Cases
+
+| Stage | Pattern | Specific Example |
+|---|---|---|
+| Connect | Is there any reason to think now is not the time to have this conversation?  | We have 45 minutes blocked on our calendar. Is there anything that could interfere with you giving your full attention to the meeting today?  |
+| Discover | Is there anything preventing you from getting {result}? | You mentioned that you'd like to go from $100,000 a month to $250,000 a month. Is there anything preventing you from doing that within the next quarter?  |
+| Clarify | When you say {information} is there anything stopping you from {action}? | When you say you can't find the talent, is there anything stopping you from hiring a recruiting agency to find it for you?  |
+| Expand | Earlier you mentioned {information}. Would there be anything preventing you from {action}? | You mentioned you needed to run more ads. Is there anything preventing you from simply doubling the amount of creatives you make every week?  |
+| Commit | Is there any reason we couldn’t go into the specific ways in which our firm can help you with {action}? | Is there any reason we couldn't go into the specific ways in which our firm can help you generate a more predictable flow of qualified leads? |
+| Decide | Is there any reason why {objection} would prevent you from {result}? | Is there any reason beyond the guarantee that you feel puts you at a risk which would stop you from signing up right now?  |
 
 
 
@@ -1298,6 +1482,15 @@ Psychologically, people trust someone who appears to be retreating more than som
 > I’m not saying you will double your revenue in the next 60 days. I’m merely suggesting… 
 
 ##### Conversational Ladder Applications
+
+| Stage | Pattern |
+|---|---|
+| Connect | I'm not saying we're going to solve everything on this call. I am confident we can figure out how to solve this lead problem though.  |
+| Discover | I can’t claim I know the exact answer for your business yet. I am reasonably sure though that we will figure out some easy answers though to really help you move the needle…  |
+| Expand | I’m not saying it will be impossible for you to solve this problem on your own. I am suggesting though that we have to move some significant resources over to properly manage it.  |
+| Commit | I’m not saying you have to give me all your business immediately after I show you what I can do for you. I’m merely suggesting we explore options to see which one is the right first step.  |
+| Decide | I’m not saying this in itself will triple your lead flow instantly. I am saying that this is the best deal out there for you to start with right away…  |
+| Resolve | I’m not suggesting that every single client who buys becomes a 100% exceptional success story that gets talked about for years and years. What I am saying is that when you commit to a bigger future, you unlock new capabilities that you previously didn't know existed.  |
 
 ---
 
@@ -1397,6 +1590,16 @@ The pause introduces doubt.
 So much of how we deliver persuasion patterns effects how well they are received. 
 Just from this one technique, look at all the non-verbal elements we use:
 
+| Delivery Element | Prospect | Echo | Why It Matters |
+|---|---|---|---|
+| Volume | "IT'S TOO EXPENSIVE." | "It's too expensive?" | Loud statements sound certain and emotionally charged. Lowering your volume removes intensity and makes the objection sound less absolute. |
+| Pace | "It's too expensive." (fast) | "It's... too expensive?" (slow) | Fast speech signals certainty and reaction. Slowing down signals consideration and causes the prospect to reconsider what they just said. |
+| Pause | "It's too expensive." | "It's..." pause "...too expensive?" | The pause creates doubt with the implication: “I’m searching to even begin to understand how you could think this!?” |
+| Inflection | ↓ "It's too expensive." | ↑ "It's too expensive?" | You can turn any statement into a question if you add an upward inflection to it. |
+| Rhythm | One continuous burst | Broken into pieces | A continuous delivery feels automatic and emotional. Breaking the rhythm forces the prospect to hear the statement differently than when they originally said it. |
+| Emotional Tone | Frustration | Curiosity | Matching frustration escalates tension. Replacing it with curiosity helps the prospect shift from emotion into explanation. |
+| Certainty Level | "I know this is true." | "Is this actually true?" | Every delivery change subtly lowers certainty and increases examination. The objection becomes a hypothesis instead of a fact. |
+
 ##### Volume changes meaning
 When you saying something quieter, it doesn’t sound as serious. 
 
@@ -1413,6 +1616,56 @@ And often their explanation reveals the real issue.
 
 ##### Creates a Different Internal Experience
 One of the most fascinating things about this pattern is that the prospect hears their own words delivered back differently.
+For the first time, they experience their statement from another perspective.
+Sometimes they immediately soften it.
+> "Well, it's not that I don't have time..."
+> "Well, it's not really too expensive..."
+> "I guess I shouldn't say never..."
+The objection starts collapsing without you attacking it.
+
+##### Authority Through Calmness
+Weak communicators react.
+Strong communicators investigate.
+When someone throws an objection on the table and you immediately defend yourself, it signals:
+> That objection affected me.
+When you calmly echo it back, it signals:
+> Let's look at that more closely.
+The calmness creates authority.
+The curiosity creates control.
+The prospect feels heard rather than challenged.
+
+##### The Formula
+The pattern is not:
+> Repeat what they said.
+The pattern is:
+> Repeat what they said with less certainty than they used when saying it.
+They deliver certainty.
+You deliver curiosity.
+They deliver emotion.
+You deliver reflection.
+They deliver a conclusion.
+You deliver a question.
+That's why the exact same words can produce an entirely different conversation.
+
+#### What It Accomplishes
+- Prevents defensive selling.
+- Keeps control of the conversation.
+- Encourages elaboration.
+- Reveals hidden objections.
+- Lowers emotional intensity.
+- Creates reflection.
+- Buys thinking time.
+- Encourages self-correction.
+
+#### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Discover | "I've been burned before." → "Burned before?" |
+| Clarify | "The team just isn't accountable." → "Not accountable?" |
+| Expand | "It's probably going to get worse over time." → "Get worse?" |
+| Commit | "I should probably do something about it." → "Probably?" |
+| Resolve | "I just don't know if it'll work for me." → "Work for you?" |
 
 ---
 
@@ -1462,6 +1715,14 @@ Direct challenges create defensiveness. This pattern creates curiosity.
 - Softens resistance by presenting options rather than corrections
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Connect | "Is this the first time you've looked for a solution to this, or have you tried before?" |
+| Discover | "Is the real problem lead volume, or what happens to leads once they come in?" |
+| Clarify | "Is that a real constraint, or a proxy for something else you're worried about?" |
+| Expand | "Is this costing you money, or is it costing you the momentum you could have had by now?" |
+| Resolve | "Is this a no, or is it a 'not yet'? Because those require very different conversations." |
 
 ---
 
@@ -1514,6 +1775,14 @@ That's a question even highly certain people can consider without feeling attack
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Discover | "Would holding the belief that 'ads don't work in this market' help or hurt you in figuring out the real problem?" |
+| Clarify | "Would believing you can't close at that price point help or hinder you in even testing whether that's true?" |
+| Expand | "Would holding the belief that 'this is as good as it gets' help or hinder you in growing past where you are?" |
+| Commit | "Would believing results take a year help or hinder you if they could actually come in 90 days?" |
+| Resolve | "Would holding onto that concern help or hinder you in making the best choice available to you right now?" |
+
 ---
 
 ## Win/Lose Contrast  [Contrast]
@@ -1561,6 +1830,13 @@ Those conditions almost always involve taking action, investing, moving quickly,
 - Creates momentum by having them describe what success looks and feels like
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Discover | "Think of a time you trusted a vendor and it worked out, and a time it didn't. What separated the two?" |
+| Clarify | "Think of a time you hired well and a time you hired wrong. What was different about your process each time?" |
+| Commit | "Think of the best decision you ever made for your business. What made you pull the trigger on it?" |
+| Resolve | "Think of the last time you had this same fear about a decision and moved forward anyway. What happened?" |
 
 ## CATEGORY: Elicitation (6 patterns)
 
@@ -1678,10 +1954,18 @@ You don’t want these customers. Don’t close them. Refer them to your competi
 
 ### Use Cases
 
+| Stage | Pattern |
+|---|---|
+| Connect | On your intake form, you mentioned that the number one priority was getting more leads. If we uncovered powerful strategies today to do just that, would that be sufficient for us to consider this a successful interaction or do other things also need to occur?  |
+| Discover | Let's pretend you woke up tomorrow and your calendar was completely full of qualified appointments for the next ninety days. That in itself would be sufficient for you to solve your growth problem or would there be additional marketing functions that would need to also happen?  |
+| Clarify | If I somehow gave you an extra three hours every day starting tomorrow, would that solve the problem completely, or would there still be challenges around prioritization, delegation, or focus? |
+| Expand | Let's say webinars started producing customers consistently. Would that be enough, or would you also want the ability to launch future products, test new offers, and enter new markets without wondering where the customers are going to come from? |
+| Commit | We've talked about getting from roughly $80,000 a month to $200,000 a month, building a stronger acquisition system, and creating a business that doesn't depend on you personally making every decision. If I showed you a path that realistically addressed those three areas, would that be enough for you to seriously consider moving forward today, or would there be other factors we'd still need to address? |
+
 ---
 
 ## Emotional Labeling  [Elicitation]
-**Summary**: Names an unspoken issue in a way to gain more information. 
+**Summary**: Names an unspoken issue in a way to gain more information.
 **Structure**: `It seems/sounds/feels like you're {emotion}.`
 > ****
 
@@ -1782,10 +2066,20 @@ When someone feels deeply understood, your words carry more weight because they 
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | It sounds like you've been carrying this problem for a long time. |
+| Discover | It seems like this issue affects you more than most people realize. |
+| Clarify | It sounds like you're less concerned about the strategy and more concerned about execution. |
+| Expand | It feels like you've accepted this as normal even though it doesn't have to be. |
+| Commit | It sounds like you're ready for something to change. |
+| Decide | It seems like you're ready to sign up.  |
+| Resolve | It sounds like certainty is what you're looking for before making a decision. |
+
 
 ---
 
-## How Important?   [Elicitation]
+## How Important?  [Elicitation]
 **Summary**: Increases percieved significance of problem, solution or capability.
 **Structure**: `If {condition is true}, how important is {solution/value}?`
 > ****
@@ -1869,6 +2163,13 @@ Eventually the solution feels like a natural extension of everything they've alr
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Discover | If growth is the goal, how important is predictable lead flow? |
+| Clarify | If follow-up isn't happening consistently, how important is accountability? |
+| Expand | If there were a way to solve this faster, how important would speed be? |
+| Commit | If implementation determines success, how important is actually taking action? |
+
 #### 
 
 ---
@@ -1923,6 +2224,14 @@ Reference points anchor new behavior and new commitment.
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | "When did you first realize your current approach wasn't going to get you where you wanted to go?" |
+| Discover | "When did you first notice this was becoming a real problem and not just background noise?" |
+| Clarify | "When did you realize the real issue was the process and not the people running it?" |
+| Expand | "When did you first understand how much this was actually costing you each month?" |
+| Decide | "When did you decide this was worth investing in?” |
+
 
 ---
 
@@ -1966,6 +2275,12 @@ They're no longer passively hoping for something. They're actively defending why
 - Makes the listener advocate for themselves
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Discover | "You said you want to double the business. Why not just grow 20%?" |
+| Clarify | "You want to completely overhaul the hiring process. Why not just fix the onboarding?" |
+| Expand | "You want to solve this permanently. Why not just manage it better?" |
 
 ---
 
@@ -2014,12 +2329,20 @@ Every condition they name is an objection we can handle while we still have time
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Discover | "What would need to happen for you to feel like this quarter was actually a success?" |
+| Clarify | "What would need to be true for you to believe this problem is actually solvable?" |
+| Commit | "What would need to happen for you to feel completely comfortable investing in something like this?" |
+| Decide | "What would need to happen between now and the end of this call for you to feel ready to move forward?" |
+| Resolve | "What would need to happen for that concern to disappear?" |
+
 ## CATEGORY: Future Pacing (4 patterns)
 
 ---
 
 ## Begin → Find  [Future Pacing]
-**Summary**: Creates a positive outcome associated with the action you want to occur. 
+**Summary**: Creates a positive outcome associated with the action you want to occur.
 **Structure**: `As you begin {action}, you'll find yourself {beneficial realization/state}.`
 > ****
 
@@ -2136,11 +2459,43 @@ This increases motivation and reduces resistance.
 ##### 12. Feels Like Discovery Rather Than Instruction
 People resist being told what to think.
 They rarely resist discovering something for themselves.
+Compare:
+> Be more confident.
+vs.
+> As you begin publishing, you'll notice confidence.
+---
+
+##### 13. Opens a Mental Loop
+The moment someone hears:
+> As you begin...
+their brain naturally asks:
+> Then what happens?
+The rest of the sentence satisfies that curiosity.
+This creates a smooth, attention-holding structure that naturally pulls people forward.
+---
+
+##### Variation
+> As you begin {action} you’ll notice {feeling} which {result}
+- As you begin publishing content, you'll notice how easy and natural it begins to feel, which allows you to create the best content you've ever produced and get results faster than you ever imagined.
+- As you begin to use our AI agents, you'll notice a sense of wonderment at how much better and faster these agents can perform tasks than you, which will get you so excited about the new capabilities you have to grow your business 10x, 50x, or even 100x. 
+
+### Use Cases
+
+| Stage | Pattern |
+|---|---|
+| Connect | As we begin our call today, I want you to be aware that by thinking through this together, we may uncover answers that neither of us would have discovered alone. |
+| Discover | As we begin this fact-finding process, I want you to know that even rough or approximate answers can lead to insights that prove valuable regardless of what happens after this call. |
+| Clarify | As we compare what worked with what didn't, I'd like you to focus on what you believe were the biggest differences between the two. |
+| Expand | As you begin to tell me more about what you think it would take to double your business in the next many days, I really want you to focus in on the simplest actions that are already within the capabilities of you and the team.  |
+| Commit | As we explore the possibility of working together, I want you to remember that we're simply evaluating options to determine what, if anything, makes the most sense moving forward. |
+| Decide | As you begin to go to the sign up page you’ll notice all the proof of our clients is available for you to look over at any time to show how confident you can be with taking the first step forward to joining us. |
+| Resolve | While you're considering whether now is the right time to move forward, I'd like you to think of a time when you knew "yes" was the right decision. As you do, notice whether any of the same factors are present here today. |
+
 
 ---
 
 ## Looking Back  [Future Pacing]
-**Summary**: Uses the future self to uncover insight, action and priorities in the present. 
+**Summary**: Uses the future self to uncover insight, action and priorities in the present.
 **Structure**: `Looking back after {desired success}, what do you think made the biggest difference?`
 > ****
 
@@ -2188,10 +2543,18 @@ That simulated success is emotionally real. It creates desire for the actual out
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | "If this conversation turns out to be one of the most useful you've had this year, what would have made it that way?" |
+| Discover | "If you solved this in the next six months, what do you think you would have had to do differently?" |
+| Clarify | "If the business doubled, what one change do you think would have driven most of that growth?" |
+| Expand | "Looking back at two years of this problem still unresolved, what do you think you would regret most?" |
+| Resolve | "Looking back on this with full confidence, what do you think you'll realize about the fear you have right now?" |
+
 ---
 
 ## Sooner or Later  [Future Pacing]
-**Summary**: Assumes success within a choice of timelines 
+**Summary**: Assumes success within a choice of timelines
 **Structure**: `I don't know if {positive outcome soon} or {positive outcome later}`
 > ****
 
@@ -2233,6 +2596,14 @@ That curiosity keeps them engaged and personally invested.
 - Makes future success feel inevitable rather than conditional
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Connect | "I don't know if this call answers all your questions or just the most important ones, but you'll leave with more than you came in with." |
+| Discover | "I don't know if the real problem is what you described first or something we find as we dig deeper." |
+| Clarify | "I don't know if the bottleneck is in marketing or sales, but we'll know by the end of this conversation." |
+| Expand | "I don't know if fixing this gives you back ten hours a week or twenty, or quite possibly more" |
+| Resolve | "I don't know if you'll feel certain right now or after we answer a few more questions.” |
 
 ---
 
@@ -2286,12 +2657,19 @@ The small thing becomes evidence of the big thing. The listener doesn't have to 
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | "When you notice this conversation feels different from others you've had on this topic, you'll understand why we approach it this way." |
+| Clarify | "When you notice how often the same issue shows up across different parts of the business, you'll realize it's structural, not situational." |
+| Expand | "When you notice how much energy you spend managing something that shouldn't require your attention at all, you'll see why this matters." |
+| Commit | "When you notice that what we've described is basically a direct answer to the problem you just outlined, you'll realize the decision to move forward is simple." |
+
 ## CATEGORY: Identity (6 patterns)
 
 ---
 
 ## Identity Crisis  [Identity]
-**Summary**: Creates friction between values and behavior. 
+**Summary**: Creates friction between values and behavior.
 **Structure**: `I'm surprised you're {behavior} because I've always seen you as {positive identity}.`
 > ****
 
@@ -2375,10 +2753,16 @@ I'm surprised you're blaming the market because you've always seemed like someon
 
 #### Conversational Ladder Applications
 
+| Stage | Application |
+|---|---|
+| Discover | You seem like someone who sets high standards. What feels most frustrating about the current situation? |
+| Expand | You told me freedom was one of your biggest goals. I'm struggling to reconcile that with staying in a situation that's requiring sixty-hour work weeks. |
+| Resolve | You don't seem like someone who lets fear make important decisions. So help me understand whether this is really about risk, or if something else is bothering you. |
+
 ---
 
 ## Mind Reading  [Identity]
-**Summary**: Predictis thoughts, feelings and future conclusions. 
+**Summary**: Predictis thoughts, feelings and future conclusions.
 **Structure**: `I know you'll {positive realization} once {future event}.`
 > ****
 
@@ -2421,10 +2805,19 @@ That signal creates comfort, trust, and the sense that we're genuinely looking o
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | "I already know you're going to bring up things most people don't think to ask." |
+| Discover | "I know you'll recognize the real problem once we've talked through everything." |
+| Clarify | "I think you'll realize the issue is merely a symptom and not a cause once we pull back one level." |
+| Expand | "I know you'll be surprised by how much this is actually costing you once we do the math together." |
+| Commit | "I know you'll feel clearer about the decision once I show you the options.” |
+| Decide | "I know you'll be glad you signed up once you see what happens in the first month." |
+
 ---
 
 ## Positive Identity Contradiction  [Identity]
-**Summary**: Contrasts self-image with behavior. 
+**Summary**: Contrasts self-image with behavior.
 **Structure**: `I know you're someone who values {positive trait}, which is why I'm concerned about {contradictory behavior}.`
 > ****
 
@@ -2473,10 +2866,15 @@ We're not asking them to change. We're asking them to be consistent with who the
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Expand | "I know you care about your team, which is why I'm concerned that keeping this problem in place is slowly burning the best ones out." |
+| Resolve | "I know you're someone who doesn't let fear drive decisions, which is why I want to understand what's actually causing the hesitation here." |
+
 ---
 
 ## Positive Intent  [Identity]
-**Summary**: Assigns favorable motive or trait. 
+**Summary**: Assigns favorable motive or trait.
 **Structure**: `Because you {behavior}, that tells me you're {positive attribute}.`
 > ****
 
@@ -2525,10 +2923,18 @@ The objection has become a bridge.
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | The fact that you showed up today tells you are serious about investing your time into improving yourself |
+| Clarify | "Because you've already tried to solve this three times, that tells me you're someone who doesn't accept failure as a final answer." |
+| Commit | "Because you're being so precise about what you need, it tells me you've thought about this for a long time and you know exactly what success looks like." |
+| Decide | "Because you're being so careful, that tells me you're someone who will most benefit from signing up here…” |
+| Resolve | "Because you're still asking questions, that tells me you want to make the right decision…” |
+
 ---
 
 ## Stealth Flattery  [Identity]
-**Summary**: Indirectly compliments someone to make them like you more. 
+**Summary**: Indirectly compliments someone to make them like you more.
 **Structure**: `Where did you first learn how to {positive quality}?`
 > ****
 
@@ -2575,10 +2981,16 @@ And we like people who make us feel that way.
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | "I reviewed your intake form before this call and I have to say I'm impressed with your accomplishments. Where did you learn to be so resourceful?” |
+| Clarify | "You seem to have a really clear sense of what matters in your business. Where did that clarity come from?" |
+| Expand | "You're not minimizing the problem at all. Most people do. Where did that honesty with yourself come from?" |
+
 ---
 
 ## Who / If?  [Identity]
-**Summary**: Removes limiting beliefs and constrasts through identity. 
+**Summary**: Removes limiting beliefs and constrasts through identity.
 **Structure**: `Who would you be if you no longer had {limiting belief/problem}?`
 > ****
 
@@ -2628,6 +3040,12 @@ Limitations feel permanent when we're inside them. Viewed from the outside, they
 - "If this problem was already gone, what would you spend your energy on?"
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Clarify | "Who would this team become if the real constraint was finally removed?" |
+| Decide | "Who would you be six months from now if you decided today?" |
+| Resolve | "Who would you be if the fear of making the wrong decision was no longer part of the equation?" |
 
 ## CATEGORY: Linking (4 patterns)
 
@@ -2733,6 +3151,16 @@ Don’t fight the behavior… use it.
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | As you get comfortable, you'll probably find this conversation easier than you expected. |
+| Discover | As you think back over the last twelve months, you'll start noticing which problems have shown up over and over again that need to be solved sooner rather than later.  |
+| Clarify | As you are looking for the data I think you’ll find your intuition already knows what needs to be done... |
+| Expand | As you calculate what those delays have cost over the last three years, you'll begin to see why this issue deserves more attention than it's been getting. |
+| Commit | As I begin to go into the offer you may find yourself feeling as if it was made exactly and specifically for you… |
+| Decide | As you sign up you can already begin to feel a sense of progress being made because today has become the day you actively decided for a positive change.  |
+| Resolve | As you start to worry if you’re capable or not you may begin to see that capability is easily increased when you join our community and also get access to these resources…  |
+
 #### Advanced Applications
 
 ##### Reframing Behavior
@@ -2753,10 +3181,45 @@ Sometimes the environment itself becomes the link.
 
 > ****
 
+##### MILTON ALERT
+A man came to see Milton Erickson because he couldn't sit still.
+The moment he entered the office, he began pacing.
+Back and forth.
+Back and forth.
+He walked while he talked.
+He walked while he thought.
+He walked while he answered questions.
+And he told Erickson that no one could treat him because of how much a nervous wreck he was. 
+But instead of trying to get the man to stop pacing, Erickson described exactly what was the man was doing. 
+“As you walk around my office I wonder if you can still hear my voice.”
+“And as you turn left and then right, would you still be able to follow my instruction?”
+“And as you speed up, I wonder if you could alter the speed ever so slightly, either faster or slower.” 
+He accepted the man's reality exactly as it was.
+No correction.
+No resistance.
+No argument.
+Only agreement.
+After establishing that rhythm, Erickson began making tiny changes.
+Nothing dramatic.
+Nothing obvious.
+Simple stuff - like having the man only pace in one corner of the office. And then having him sit in the chair - but only for a fraction of a second. 
+Erickson never fought the behavior.
+He used it.
+Eventually the pacing slowed to walking. 
+The walking become standing.
+The standing became sitting. 
+The sitting became calm conversation.
+What makes this story so powerful is that Erickson never tried to impose a new reality.
+He started with the reality that already existed.
+The man was pacing.
+That was true.
+And once enough agreement had been built around what was true, Erickson could begin leading him somewhere new.
+
+
 ---
 
 ## Fact → Meaning  [Linking]
-**Summary**: Uses a fact to make a claim more easy to accept. 
+**Summary**: Uses a fact to make a claim more easy to accept.
 **Structure**: `The fact that {observable fact, behavior, or question} means {meaning you want to assign}.`
 > ****
 
@@ -2848,16 +3311,37 @@ The fact that you're concerned about culture means you understand how important 
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | The fact that you took time out of your day for this conversation means finding a solution matters to you. |
+| Clarify | The fact that you unsure is a sign there is real potential here.  |
+| Expand | The fact that you've tolerated this for three years means the cost may be way larger than you've realized. |
+| Commit | The fact that you're exploring solutions means you're ready for something to change. |
+| Resolve | The fact that you're asking these questions means you're trying to make the best decision possible. |
+
 ### Advanced Lesson
 You can interpret any “fact” with any intention behind it. 
 Look at how easy it is: 
+
+| Fact | Negative Interpretation | Neutral Interpretation | Positive Interpretation |
+|---|---|---|---|
+| They're asking a lot of questions. | They're difficult. | They need information. | They're taking the decision seriously. |
+| They're moving slowly. | They're procrastinating. | They need more time. | They're being thorough. |
+| They're challenging your ideas. | They're argumentative. | They disagree. | They're critically thinking. |
+| They're quiet. | They're disengaged. | They're processing. | They're listening carefully. |
+| They haven't decided yet. | They're wasting time. | They're still evaluating. | They're trying to make the best decision possible. |
+| They keep bringing up objections. | They're looking for reasons to say no. | They have concerns. | They're trying to find the right reason to say yes.  |
+| They're worried about implementation. | They think it won't work. | They don't understand the process yet. | They're already imagining using it. |
+| They keep returning to the same topic. | They're stuck. | It's unresolved. | They haven’t heard what they need to hear yet. |
+| They disagree with you. | They're being difficult. | They see it differently. | They're engaged enough to challenge the idea. |
+| They are frustrated. | They're impossible to please. | Something isn't meeting expectations. | They want a better outcome. |
 Now for each “resistance” you used to get, come up with a positive interpretation for it so you can get excited to address it the next time it comes up. 
 
 
 ---
 
 ## Gentle Bind  [Linking]
-**Summary**: Makes every choice lead to the same result. 
+**Summary**: Makes every choice lead to the same result.
 **Structure**: `You may discover {Option A}, or you may notice {Option B}.`
 > ****
 
@@ -2976,11 +3460,54 @@ A child who constantly fought instructions might be instructed to deliberately p
 Now the child faced a dilemma.
 Obeying meant disobeying.
 Disobeying meant obeying.
+The behavior pattern often collapsed because the structure supporting it disappeared.
+
+#### Why Double Binds Are So Powerful
+
+##### They Attack the Structure
+Weak persuasion attacks the content.
+Good persuasion attack the structure.
+For example, if someone says to you:
+> I lack confidence.
+Most people respond:
+> No you don't.
+But here’s how I respond:
+> How confident are you that you lack confidence?
+Now the structure breaks.
+To answer the question, they must acknowledge confidence.
+The problem contains its own contradiction.
+
+##### Forcing Resource Access
+If someone says to you:
+> I am not certain of what to do.
+You can use this double bind:
+> How certain are you about your uncertainty?
+To answer that question, the person must temporarily access certainty.
+The very resource they claim is missing.
+The pattern forces them into the state they're denying.
+They have certainty after all. And if they have enough of it, they can now make a decision. 
+
+##### The Symptom Becomes the Solution
+When someone says to me:
+> I procrastinate.
+I respond:
+> Great. Let's procrastinate on procrastinating.
+The symptom is now aimed at itself.
+Which makes it harder to use it as a limiting belief.
+Most limiting beliefs operate because nobody examines them.
+Double binds force conflicting truths into the same space.
+Consider:
+> I can't say no.
+And your response:
+> Then say no to me right now.
+Now both choices challenge the original belief.
+The mind has to reorganize.
+The old pattern can no longer operate normally.
 
 ---
 
 ## Implication Frame  [Linking]
-**Summary**: Uses truisms to empower someone to a better behavior or belief. 
+**Summary**: Uses truisms to empower someone to a better behavior or belief.
 **Structure**: `If [verifiable fact] is true for you, it means [meaning you want to assign].`
 > ****
 
@@ -3081,12 +3608,21 @@ If you've survived everything that came before this, it means you're capable of 
 
 #### Conversational Ladder Applications
 
+| Stage | Application |
+|---|---|
+| Connect | If you’ve made it to the call, it tells me you a person who takes this very seriously.  |
+| Discover | If you’re this willing to share so much with me, it means you open to a solution that will really make a big difference.  |
+| Expand | If this problem has been costing you ten hours every week for three years, it means the true cost is much larger than it first appears. |
+| Commit | If you've already know what the problem is costing you, it means you know not investing is also a cost, and often a bigger cost than investing in the right solution.  |
+| Decide | If everything you've told me is accurate, it means signing up right now is the best option for you.  |
+| Resolve | If you're worried about making the wrong decision, it means you're approaching the decision responsibly so I’m glad you’re asking these important questions.  |
+
 ## CATEGORY: Reframe (7 patterns)
 
 ---
 
 ## Binary Breaker  [Reframe]
-**Summary**: Removes rigid and inflexible beliefs and behaviors. 
+**Summary**: Removes rigid and inflexible beliefs and behaviors.
 **Structure**: `Are we talking {absolute/extreme} or {more nuanced version}?`
 Pattern 1: Absolute to %
 > ****
@@ -3218,6 +3754,18 @@ Most limiting beliefs are built on absolutes.
 People say things like:
 - "I'm not ready."
 - "I'm not confident."
+- "That never works."
+- "Nobody buys right now."
+- "I'm bad at sales."
+What Erickson was doing was introducing enough uncertainty into the certainty. 
+(Which reminds me of another pattern I like: “Are you certain enough to feel uncertain?”)
+That's why I love turning absolutes into percentages.
+What's fascinating is that you usually don't need to replace the old belief.
+You only need to weaken its rigidity.
+The unconscious mind is remarkably good at keeping the useful parts of a belief while discarding the parts that no longer serve it… once you bring the right awareness to it. 
+Doubt is great at brining that awareness. 
+Once enough doubt is introduced into an absolute, people often begin updating the belief naturally.
+They carry forward what's true, let go of what's limiting, and become open to possibilities they couldn't see before.
 
 ---
 
@@ -3313,8 +3861,17 @@ See what I mean?
 To use but effectively, place the objections first, followed by “but” and end on the positive, forward-looking point you want to make. 
 Compare: 
 
+| "I know we have a tight budget this quarter, but we still need to upgrade our software." | Our current software is severely slowing down our workflow, but upgrading to the new system will save us 10 hours a week.  |
+|---|---|
+
 #### Do the “But” Swap
 In your own communication, audit your “but” and consider replacing it with and to see which is more empowering. 
+
+| The house has a great layout, but the kitchen needs work | The house has a great layout, and the kitchen needs work |
+|---|---|
+| I missed my workout yesterday, but I'll get back on track today. | I missed my workout yesterday, and I'll get back on track today. |
+| The market is crowded, but I think there's room for us. | The market is crowded, and I think there's room for us. |
+| I understand how you feel, but… | I understand how you feel, and… |
 Alternatively, you can use even though. 
 "I want to go, but I'm tired” → "I want to go, even though I'm tired" 
 
@@ -3331,10 +3888,20 @@ Notice how I snuck a takeaway in here:
 
 #### Use Cases
 
+| Stage | Pattern |
+|---|---|
+| Connect | To truly understand this, we would need several hours and multiple different calls to really get an idea, but I'm confident we can get to the heart of it in a single call and give you clarity on exactly what you need to do next.” |
+| Discover | "I know admitting you don't really have a system yet feels embarrassing, but it's actually the easiest starting point: there's nothing broken to undo, just something to build.” |
+| Clarify | "You mentioned you're involved in every decision. That's clearly slowing things down, but I imagine you continue to do it because you haven’t found a better way yet.” |
+| Expand | You said you tried many agencies in the past and the only thing they gave you was a headache. Would that mean you're opposed to ever working with agencies in the future? If the right agency comes along, would you consider partnering with them?  |
+| Commit | Now we get to the awkward part of our conversation, where I'm going to make an offer to you. Because I am so shy and frankly not a very good salesperson, I've really just stacked this offer so incredibly in your favor. I think you will be pleasantly surprised with what I have for you.  |
+| Decide | I know this was beyond what your budget was coming into the call but I can tell you’re a person who invests based on what makes sense once you’ve heard the facts, not just a number that may no longer make sense.  |
+| Resolve | I know you're uncomfortable on camera but audiences resonate more with somebody who's figuring it out alongside them than someone who sounds like a well-polished AI-looking fake-ass personality.  |
+
 ---
 
 ## Limit Softener  [Reframe]
-**Summary**: Weakens rigid labels, absolutes, and generalizations. 
+**Summary**: Weakens rigid labels, absolutes, and generalizations.
 **Structure**: `Are we talking {hard label} or {less severe version}?`
 > ****
 
@@ -3453,11 +4020,73 @@ The prospect now becomes much more likely to consider the distinction because th
 
 ##### Ability
 Are we talking incapable or inexperienced?
+Are we talking unqualified or simply unpracticed?
+Are we talking unable or unfamiliar?
+Are we talking lack of talent or lack of repetition?
+Are we talking incompetence or lack of exposure?
+
+##### Confidence
+Are we talking lack of confidence or lack of certainty?
+Are we talking self-doubt or incomplete information?
+Are we talking fear or caution?
+Are we talking insecurity or unfamiliarity?
+Are we talking hesitation or inability?
+
+##### Business Growth
+Are we talking saturated or competitive?
+Are we talking no opportunity or just higher standards?
+Are we  talking a bad market or a more demanding market?
+Are we talking impossible growth or slower growth?
+Are we talking no demand or tougher differentiation?
+
+##### Money
+Are we talking cost or investment?
+Are we talking spending money or reallocating money?
+Are we talking expensive or profitable?
+Are we talking unaffordable or simply uncomfortable?
+Are we talking financial risk or calculated investment?
+
+##### Time
+Are we talking no time or no priority?
+Are we talking overwhelmed or disorganized?
+Are we talking busy or distracted?
+Are we talking lack of time or lack of allocation?
+Are we talking impossible to fit in or simply inconvenient?
+
+##### Change
+Are we talking danger or discomfort?
+Are we talking risk or uncertainty?
+Are we talking failure or learning?
+Are we talking permanent consequences or temporary setbacks?
+Are we talking catastrophe or inconvenience?
+
+##### Identity
+Are we talking lazy or discouraged?
+Are we talking procrastination or hesitation?
+Are we talking undisciplined or unclear?
+Are we talking lack of motivation or lack of direction?
+Are we talking weakness or exhaustion?
+
+##### Time Horizon
+Are we talking forever or for now?
+Are we talking permanent or temporary?
+Are we talking always or recently?
+Are we talking impossible or not yet?
+Are we talking never or not currently?
+---
+
+#### Conversational Ladder Applications
+
+| Stage | Application |
+|---|---|
+| Discover | Are we talking a lack of results or inconsistent results? |
+| Clarify | Are we talking a lead problem or an advertising problem? |
+| Resolve | Are we talking danger or discomfort? Because those are very different problems to solve. |
 
 ---
 
 ## Objection Collapse  [Reframe]
-**Summary**: Redirects objections to a different interpretation. 
+**Summary**: Redirects objections to a different interpretation.
 **Structure**: `You say {objection}, but couldn’t that actually suggest {new interpretation}?`
 > ****
 
@@ -3510,6 +4139,13 @@ This pattern creates a new association: "I've been burned before" might mean "I 
 - "You just described exactly why this has been such a persistent problem."
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Discover | "You said this has always been a problem. Couldn't that suggest you've been solving the symptom rather than the cause?" |
+| Clarify | "You said your team doesn't follow through. Couldn't that actually suggest the process hasn't been designed to make following through easy?" |
+| Expand | "You said this doesn't feel urgent enough. Couldn't that feeling actually be the symptom of a much bigger problem… that you've gotten too comfortable with something that's costing you?" |
+| Resolve | "You said you're not sure. Couldn't that uncertainty mean this deserves a more careful look rather than a quick no?" |
 
 ---
 
@@ -3609,10 +4245,18 @@ It builds credibility by demonstrating genuine curiosity rather than strategic p
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | "I may be wrong, but something tells me you've had this exact conversation before and it didn't go anywhere. Am I close?" |
+| Discover | "I may be wrong, but it sounds like the problem you came in with and the problem that's actually keeping you up at night might be two different things." |
+| Clarify | "I may be wrong, but I don't think it's a lead problem. I think it's a positioning problem that's creating a lead problem." |
+| Expand | "I may be wrong, but I think the real cost of this isn't the $20,000 a month you described. I think it's the momentum you've lost." |
+| Resolve | "I may be wrong, but I don't think that's the real objection. I think there's something underneath it we haven't talked about yet." |
+
 ---
 
-## Yes (but) And   [Reframe]
-**Summary**: Validating perspective while smoothly shifting it. 
+## Yes (but) And  [Reframe]
+**Summary**: Validating perspective while smoothly shifting it.
 **Structure**: `It's understandable that {current perspective}, and {empowering reframe}.`
 > ****
 
@@ -3659,12 +4303,20 @@ Both things exist. Both are true. And the second one opens a path forward.
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | "It's understandable that you're a bit guarded, and that tells me you've cared enough about this to be disappointed before." |
+| Discover | "It makes sense that you've adapted to this problem over time, and that adaptation might be hiding how much it's actually costing." |
+| Clarify | "It's completely fair to think the problem is your team, and we also need to look at what they've been set up to work with." |
+| Decide | "It's natural to want more certainty, and certainty almost never comes before the decision - it usually comes after." |
+| Resolve | "It makes complete sense that you've been burned before, and everything about how we've built this is a direct response to exactly that experience." |
+
 ## CATEGORY: Resource (6 patterns)
 
 ---
 
 ## Decision Primer  [Resource]
-**Summary**: Prepares for the decision about to occur. 
+**Summary**: Prepares for the decision about to occur.
 **Structure**: `Before you {desired decision}, first {mental prerequisite}.`
 > ****
 
@@ -3736,6 +4388,15 @@ If we imagine ourselves implementing, we become more open to any action that hel
 - Moves attention away from whether and toward how.
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Connect | Before we get into the details, first think about what you'd like this conversation to accomplish. |
+| Discover | Before we talk about solutions, first walk me through what happens on a normal day. |
+| Clarify | Before we conclude the problem is lead generation, first look at how many leads are already sitting untouched in the CRM. |
+| Commit | Before I present this offer to you, I want you to consider how much easier your life becomes when you no longer have this problem anymore.  |
+| Decide | Before you sign up, find the part of yourself that is most excited for the new future you’re about to enroll in. |
+| Resolve | Before you conclude if this investment makes sense, first compare it against the cost of keeping the problem. |
 > ****
 
 #### MILTON ALERT
@@ -3746,9 +4407,21 @@ If you listened to a lot of Milton Erickson’s hypnosis sessions, you hear thes
 - “You can notice…” 
 And often they are combined with suggestions:
 > How much more successful you can become. 
+
+| “You can begin to imagine… “ | How much more successful you can become.  |
+|---|---|
+| “It’s possible to consider…” | How much more successful you can become.  |
+| “You may become aware of…” | How much more successful you can become.  |
+| “You can notice…”  | How much more successful you can become.  |
 And also commands: 
 > When you make the right investments in yourself.
 So now we get:
+
+| “You can begin to imagine… “ | How much more successful you can become.  | When you make the right investments in yourself. |
+|---|---|---|
+| “It’s possible to consider…” | How much more successful you can become.  | When you make the right investments in yourself. |
+| “You may become aware of…” | How much more successful you can become.  | When you make the right investments in yourself. |
+| “You can notice…”  | How much more successful you can become.  | When you make the right investments in yourself. |
 Nothing is asserted directly.
 A direct statement can be rejected.
 > "You are becoming more confident."
@@ -3761,12 +4434,63 @@ It's only inviting the listener to consider it.
 The mind can accept the invitation or ignore it, but there is very little to argue with.
 That's what makes words like imagine, consider, suppose, and wonder so powerful. They create possibilities instead of assertions.
 When we say:
+> Imagine closing your biggest client.
+The mind doesn't start by analyzing.
+It starts by simulating.
+The prospect begins creating images, feelings, sounds, and sensations associated with the experience.
+The word imagine gives us psychological safety.
+We can explore ideas without committing to them.
+We can mentally rehearse success without needing to believe it will happen.
+We can explore a new identity without abandoning the old one.
+That's why children naturally use imagination to learn.
+
+##### "Begin To" Makes It Even Harder to Reject
+This is where Erickson became especially elegant.
+Most suggestions ask for an immediate result.
+> Imagine feeling more confident.
+But:
+> You can begin to imagine feeling more confident.
+Now the demand becomes microscopic.
+The listener doesn't have to imagine confidence.
+They only have to begin.
+Erickson constantly reduced the size of the requested response.
+Not:
+> Relax.
+But:
+> You can begin to relax.
+Not:
+> Understand.
+But:
+> You may begin to understand.
+Not:
+> Change.
+But:
+> You can start noticing changes.
+The smaller the request, the harder it becomes to reject.
+A huge amount of Ericksonian language can be reduced to:
+1. Preserve reality.
+1. Introduce possibility.
+1. Reduce the size of the request.
+Instead of:
+> This is true.
+We get:
+> Imagine if this were true.
+Instead of:
+> You feel this.
+We get:
+> You may begin to notice this.
+Instead of:
+> This will happen.
+We get:
+> I wonder what would happen if...
+The listener never has to fight the suggestion because the suggestion never attacks their current reality.
+
 
 
 ---
 
 ## How / When  [Resource]
-**Summary**: Reveals the inner process on how decisions are made. 
+**Summary**: Reveals the inner process on how decisions are made.
 **Structure**: `How do you know when {internal process}?`
 > ****
 
@@ -3882,6 +4606,117 @@ One of the classic observations in NLP is that "why" questions often produce jus
 People explain.
 Defend.
 Rationalize.
+Construct stories.
+For example:
+> Why do you procrastinate?
+Common answer:
+> Because I'm busy.
+> Because I'm overwhelmed.
+> Because I work better under pressure.
+These are usually explanations.
+Not mechanisms.
+But:
+> How do you know when to procrastinate?
+Now they must examine the process.
+They might say:
+> I start feeling overwhelmed.
+> I notice myself opening other tabs.
+> I tell myself I'll do it later.
+> I wait until the pressure gets high enough.
+Now we're learning how the behavior operates.
+That's far more useful than learning how they explain it.
+
+##### The Difference
+
+| Question | Tends to Produce |
+|---|---|
+| Why? | Reasons, explanations, justifications |
+| What? | Information, descriptions |
+| How? | Process, structure, mechanisms |
+| When? | Triggers, criteria, thresholds |
+That's why "how" and "when" questions are often so powerful.
+They reveal the machinery behind the behavior.
+
+#### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Connect | How did you know it was a good idea to book this call? |
+| Discover | How do you know when a project is succeeding? |
+| Clarify | How do you know when you're procrastinating versus strategically waiting? |
+| Expand | How do you know when an opportunity is bigger than it first appears? |
+| Commit | How do you know when you're ready to take action? |
+| Resolve | How do you know when you have enough information to make a decision? |
+> ****
+
+##### NLP Alert
+I first discovered this “how / when” pattern while studying Richard Bandler, co-creator of NLP (Neuro-Linguistic Programming). In one of the sessions documented on the Marshall tapes, Bandler worked with a woman who would become extremely distressed whenever someone was late. If a person didn't arrive when expected, she would begin panicking, catastrophizing, and literally started rolling on the floor out of pure terror.
+Rather than asking why she reacted that way, Bandler became curious about how she did it.
+He used role play and said something to the effect of:
+> "I'd like to fill in for you for a day. I want to do your job for you, but I need to know exactly how. If someone is late, how do I know when to start panicking? What specifically do I do?"
+He took her process literally.
+How did she know it was time to panic?
+What pictures was she making in her mind?
+What did she say to herself?
+What feelings followed?
+By eliciting the process in detail, Bandler transformed an automatic reaction into a sequence of observable steps. Once the process became visible, it became editable.
+Now he could ask questions like:
+> "Have you tried not making that picture?"
+Or:
+> "What would happen if you made a different picture instead?"
+The problem was no longer some mysterious emotional reaction. It became a process that could be examined, interrupted, and changed.
+I once used this same principle with a client who told me he felt unproductive.
+Instead of asking why, I asked:
+> "How do you know when you're productive?"
+He thought about it and explained that he felt productive whenever he worked beyond the time he would normally stop for the day.
+At the time, his quitting time was 4:00 PM.
+So I asked:
+> "If you worked until 4:30, would you feel productive?"
+"Yes."
+> "What about 4:15?"
+"Yes."
+> "What about 4:05?"
+"Yes."
+Eventually we got down to:
+> "What about 4:01?"
+And he laughed.
+"Yeah, I guess I'd feel productive."
+What he realized was that he had unconsciously created a binary rule. Before 4:00 PM meant unproductive. After 4:00 PM meant productive.
+The difference between failure and success wasn't an extra hour. It wasn't even thirty minutes. 
+It was one minute.
+Once the rule became visible, it lost much of its power. What had seemed like a massive hurdle became something almost trivial. More importantly, he began questioning the validity of the rule itself.
+Another example came from a client who struggled with public speaking.
+Rather than trying to convince her that speaking in public wasn't scary, I became curious and I asked:
+> "How do you know the difference between speaking to a large group privately versus speaking to a large group publicly?"
+At first, she didn't know.
+Like most people, she had never consciously examined the process.
+So I started exploring the boundaries of her experience.
+I asked:
+> "Imagine we're sitting around a table with nine people. A tenth person walks up and joins us. Is this now public speaking?"
+She laughed.
+"No."
+Eventually, as we explored the distinction, we uncovered something fascinating.
+The trigger wasn't the number of people.
+It wasn't the stage.
+It wasn't the microphone.
+It wasn't public speaking at all.
+What actually caused the fear was that she believed she needed to see every person's face and individually read each person's reaction in order to feel safe.
+The moment the audience became large enough that she could no longer monitor every face, her anxiety would begin to rise.
+That was how she knew it was time to become afraid.
+Once we discovered it, I told her:
+> "No wonder public speaking feels difficult. If I believed I had to continuously monitor and interpret every person's facial expression in the room before I could feel safe speaking, I would probably be even more afraid than you are."
+For the first time, she began looking at the rule itself instead of merely experiencing its consequences.
+Then I asked:
+> "Is there another way you could know you're safe while speaking besides having to read every single face in the audience?"
+She thought about it.
+And almost immediately she began generating alternative criteria.
+Not long afterward, she sent me a photograph of herself speaking on stage in front of 175 people.
+The breakthrough didn't come from giving her confidence.
+Two other way I successfully used this pattern:
+- To a friend’s kid who bit his nails - “How do you know which nail to bite first?”
+- To a friend who used to cut her self - “How do you know where to cut first?” 
+When you start from a position of curiosity and genuine interest as opposed to judgment or advice, you gain instant deep rapport. 
+
 
 ---
 
@@ -3940,11 +4775,20 @@ The listener isn't just thinking about the goal abstractly. They're experiencing
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | "If this conversation went exactly as well as you could imagine, what would be true by the end of it?" |
+| Discover | "If you could redesign the business from scratch, what would you keep and what would you throw out?" |
+| Clarify | "If you could have the root cause identified and fixed completely, what would be different about the day-to-day?" |
+| Expand | "If you could have everything you wanted out of a solution to this problem, what would it deliver?" |
+| Commit | "If a partnership like this could give you everything you've described, what would be left to think about?" |
+| Decide | "If everything you've told me you want from this is achievable, then signing up is as easy as…”  |
+
 
 ---
 
 ## Priming  [Resource]
-**Summary**: Actives desire identity, mindset, belief or frame before an ask. 
+**Summary**: Actives desire identity, mindset, belief or frame before an ask.
 **Structure**: `Do you consider yourself someone who {desired identity trait}?`
 > ****
 
@@ -3991,9 +4835,17 @@ The agreement is nearly guaranteed, which means the pre-commitment lands every t
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | "Before we dive in, do you consider yourself someone who implements good ideas when they hear them?” |
+| Discover | "Do you consider yourself someone who trusts their gut about where the problem is, or do you need to see the data first?" |
+| Clarify | "Do you consider yourself someone who'd rather know the uncomfortable truth than a comfortable version of it?" |
+| Expand | "Would you consider yourself ambitious?” |
+| Commit | "Do you consider yourself someone who takes action on worthy pursuits?” |
+
 ---
 
-## Reawakening    [Resource]
+## Reawakening  [Resource]
 **Summary**: Reconnects to a powerful past state or capability
 **Structure**: `Can you remember a time when you felt {resourceful state}…?`
 > ****
@@ -4042,6 +4894,15 @@ The pattern creates the state so we can direct it toward what needs it most.
 - Builds internal confidence and capability before a critical moment
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Connect | "Can you remember a time early in your career when you had to figure something out with almost no resources and you made it work anyway?" |
+| Discover | "Can you remember a time when you looked at a problem from a completely different angle and found an answer no one else saw?" |
+| Clarify | "Can you remember a time when your gut told you something was wrong before you had proof — and it was right?" |
+| Expand | "Can you remember a time when you let something go too long and regretted it? What did the delay actually cost?" |
+| Commit | "Can you remember a time when you committed fully to something and it had a profoundly positive result on your life?” |
+| Resolve | "Can you remember a time when you were afraid of making the wrong choice, did it anyway, and were glad you did?   |
 
 ---
 
@@ -4160,6 +5021,8 @@ In Ericksonian hypnosis, this kind of ambiguity was often useful because the con
 Another reason Erickson frequently referenced childhood is that childhood represents a time before many limitations became fully established.
 An adult might think:
 > "I've always been shy."
+"I've never been creative."
+"I've never been confident."
 Yet childhood memories often contain evidence to the contrary.
 A person who currently believes they lack confidence may remember:
 - learning to ride a bike
@@ -4167,3 +5030,45 @@ A person who currently believes they lack confidence may remember:
 - making new friends
 - performing in front of a class
 The childhood reference helps reconnect them with experiences that existed before the limiting narrative became dominant.
+---
+
+##### The Psychological "Do-Over"
+One particularly interesting aspect of childhood regression is that it can create the feeling of a fresh start.
+When someone mentally revisits an earlier point in life, they often experience less attachment to their current limitations.
+Instead of viewing themselves through the lens of:
+> "This is who I am."
+they begin viewing themselves through the lens of:
+> "This is who I became."
+That distinction matters.
+The first implies permanence.
+The second implies change.
+In many cases, a person can mentally revisit an earlier version of themselves and imagine making different choices, trying new approaches, or responding differently than they did before.
+The past is no longer experienced as proof that change is impossible. Instead, it becomes evidence that alternative paths could have been taken and can still be taken now.
+---
+
+##### Accessing Resource States
+Children naturally display many of the states that are useful for change:
+- Curiosity
+- Creativity
+- Persistence
+- Imagination
+- Playfulness
+- Exploration
+- Wonder
+When Erickson directed attention toward childhood memories, he was often indirectly activating these resourceful states.
+For example:
+> "Speaking to you as a child, wasn't it amazing how you could spend hours trying to figure something out?"
+The conscious content appears to be about childhood.
+The unconscious effect is to reactivate:
+- persistence
+- fascination
+- experimentation
+- learning
+Those states become more available in the present moment.
+
+| Stage | Pattern | Specific Example |
+|---|---|---|
+| Connect | Before we begin, I was just thinking the other day how, as a child, {resource state or experience} | Before we begin I was just thinking the other day how, as a child, things were so fresh and exciting and new and I was desiring to get back to such a place.  |
+| Discover | I’ve noticed {trait}. Thinking back to childhood, where you always like this?  | I've noticed how quickly you come up with new ideas. Thinking back to childhood, were you always this imaginative? |
+| Clarify | Thinking like a child, how would you explain …? | Thinking like a child, how would you explain why your sales team asks for more leads every month, but half the leads from last month still haven't been contacted? |
+| Resolve | Isn't it amazing that, as a child, you couldn't {basic human capability} and now look at everything you've accomplished since? | Isn't it crazy that, as a child, you couldn't walk, couldn't talk, couldn't feed yourself, and you literally went to the bathroom in your pants?  Then somehow you learned to read, learned to drive a car, built a business that's already doing $40,000 a month, hired employees, managed customers, and figured out taxes.  And now we're sitting here wondering whether you're capable of learning a client acquisition system? |

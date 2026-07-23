@@ -165,11 +165,17 @@ The action is treated as the natural next step.
 
 ##### Conversational Ladder Applications
 
+| Stage | Pattern |
+|---|---|
+| Clarify | Can you see how the real issue might be follow-up rather than lead generation?  Would fixing follow-up be valuable if that turned out to be true?  If follow-up is the problem, when would you want to solve it? |
+| Expand | Can you see how adding just one more salesperson without fixing the process could create even more chaos?  Would avoiding that chaos be important?  If you were going to fix the process first, when would be the best time to do it? |
+| Commit | Can you see how having a written hiring process would help you avoid another bad hire?  Would avoiding another six-month hiring mistake be valuable?  If you were going to put that process in place, when would you begin? |
+| Resolve | Can you see how the cost of doing nothing for another year is probably larger than the investment we're discussing?  Would avoiding that loss be worthwhile?  If you were going to stop absorbing that loss, when would be the best time to begin? |
 
 ---
 
 ## Decision Contract  [Commitment]
-**Summary**: Creating the rules that get someone to say yes. 
+**Summary**: Creating the rules that get someone to say yes.
 **Structure**: `If it's in your best interest, say yes. If not, say no. If unclear, let's discuss it. Fair enough?`
 > ****
 
@@ -357,10 +363,19 @@ The pattern helps uncover which variable is actually driving the decision.
 
 #### Conversational Ladder Applications
 
+| Stage | Application |
+|---|---|
+| Connect | If I had a perfect solution for you by the end of our conversation, would it be okay to share it in the last few minutes?  |
+| Discover | If there was a way to fix this problem permanently, would you want to know about it? |
+| Clarify | If we could prove that hiring isn't actually the bottleneck, would you be open to looking elsewhere for the cause? |
+| Expand | If you could get back the fifteen hours you're losing every week to this issue, what would that be worth to you? And if we could make that happen in a way that made sense to you, would you be willing to act on it? |
+| Commit | If I could show you exactly how this pays for itself within 90 days, would you be willing to make a decision today? |
+| Resolve | If we could completely eliminate the concern about implementation, would there be any reason left not to sign up right now? |
+
 ---
 
 ## Permission  [Commitment]
-**Summary**: Gains consent before introducing claim, suggestion, challenge or reframe. 
+**Summary**: Gains consent before introducing claim, suggestion, challenge or reframe.
 **Structure**: `Would it be okay if I {reframe/challenge/suggest something}?`
 > ****
 
@@ -400,6 +415,16 @@ The listener prepares to receive it with more attention than they'd give a casua
 - Creates a small pre-commitment to remain open
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Connect | "Would it be okay if I asked a few questions before we get started?" |
+| Discover | “Is it fine if I ask you a lot of questions along the way to get the deepest understanding of your business possible?” |
+| Clarify | "Would you be open to me suggesting a different cause for what you're describing?" |
+| Expand | "Is it okay if I show you what this is actually costing per month?" |
+| Commit | "Do I have your permission to show you what we can offer you?” |
+| Decide | "Would it be okay if I asked you to sign up right now?” |
+| Resolve | “May I suggest to you to be open to the idea that maybe you’re wrong about your limitations?” |
 
 ---
 
@@ -449,6 +474,15 @@ By the time we ask for the real decision, the pattern feels familiar.
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | "What made you decide to take this call today?" |
+| Discover | "Does any of what you've described feel like it points toward a specific root cause?" |
+| Clarify | "How does that compare to how you thought about the problem coming in?" |
+| Expand | "How much more painful does this feel now that we've put a number to it?" |
+| Commit | "If we could deliver what we've talked about, how close to a yes would that get you?" |
+| Resolve | "Now that we've addressed that, how are you feeling about moving forward?" |
+
 ---
 
 ## When Would NOW  [Commitment]
@@ -490,4 +524,10 @@ The word "now" is there, but the question is still soft. The listener doesn't fe
 - Moves the conversation from "if" to "when"
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Commit | "When would now be a good time to explore whether there's a solution worth investing in?" |
+| Decide | "When would now be a good time to get started?" |
+| Resolve | "When would now be a good time to move past the hesitation and make a real decision?" |
 

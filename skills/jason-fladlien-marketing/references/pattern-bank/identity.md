@@ -3,7 +3,7 @@
 ---
 
 ## Identity Crisis  [Identity]
-**Summary**: Creates friction between values and behavior. 
+**Summary**: Creates friction between values and behavior.
 **Structure**: `I'm surprised you're {behavior} because I've always seen you as {positive identity}.`
 > ****
 
@@ -87,10 +87,16 @@ I'm surprised you're blaming the market because you've always seemed like someon
 
 #### Conversational Ladder Applications
 
+| Stage | Application |
+|---|---|
+| Discover | You seem like someone who sets high standards. What feels most frustrating about the current situation? |
+| Expand | You told me freedom was one of your biggest goals. I'm struggling to reconcile that with staying in a situation that's requiring sixty-hour work weeks. |
+| Resolve | You don't seem like someone who lets fear make important decisions. So help me understand whether this is really about risk, or if something else is bothering you. |
+
 ---
 
 ## Mind Reading  [Identity]
-**Summary**: Predictis thoughts, feelings and future conclusions. 
+**Summary**: Predictis thoughts, feelings and future conclusions.
 **Structure**: `I know you'll {positive realization} once {future event}.`
 > ****
 
@@ -133,10 +139,19 @@ That signal creates comfort, trust, and the sense that we're genuinely looking o
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | "I already know you're going to bring up things most people don't think to ask." |
+| Discover | "I know you'll recognize the real problem once we've talked through everything." |
+| Clarify | "I think you'll realize the issue is merely a symptom and not a cause once we pull back one level." |
+| Expand | "I know you'll be surprised by how much this is actually costing you once we do the math together." |
+| Commit | "I know you'll feel clearer about the decision once I show you the options.” |
+| Decide | "I know you'll be glad you signed up once you see what happens in the first month." |
+
 ---
 
 ## Positive Identity Contradiction  [Identity]
-**Summary**: Contrasts self-image with behavior. 
+**Summary**: Contrasts self-image with behavior.
 **Structure**: `I know you're someone who values {positive trait}, which is why I'm concerned about {contradictory behavior}.`
 > ****
 
@@ -185,10 +200,15 @@ We're not asking them to change. We're asking them to be consistent with who the
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Expand | "I know you care about your team, which is why I'm concerned that keeping this problem in place is slowly burning the best ones out." |
+| Resolve | "I know you're someone who doesn't let fear drive decisions, which is why I want to understand what's actually causing the hesitation here." |
+
 ---
 
 ## Positive Intent  [Identity]
-**Summary**: Assigns favorable motive or trait. 
+**Summary**: Assigns favorable motive or trait.
 **Structure**: `Because you {behavior}, that tells me you're {positive attribute}.`
 > ****
 
@@ -237,10 +257,18 @@ The objection has become a bridge.
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | The fact that you showed up today tells you are serious about investing your time into improving yourself |
+| Clarify | "Because you've already tried to solve this three times, that tells me you're someone who doesn't accept failure as a final answer." |
+| Commit | "Because you're being so precise about what you need, it tells me you've thought about this for a long time and you know exactly what success looks like." |
+| Decide | "Because you're being so careful, that tells me you're someone who will most benefit from signing up here…” |
+| Resolve | "Because you're still asking questions, that tells me you want to make the right decision…” |
+
 ---
 
 ## Stealth Flattery  [Identity]
-**Summary**: Indirectly compliments someone to make them like you more. 
+**Summary**: Indirectly compliments someone to make them like you more.
 **Structure**: `Where did you first learn how to {positive quality}?`
 > ****
 
@@ -287,10 +315,16 @@ And we like people who make us feel that way.
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | "I reviewed your intake form before this call and I have to say I'm impressed with your accomplishments. Where did you learn to be so resourceful?” |
+| Clarify | "You seem to have a really clear sense of what matters in your business. Where did that clarity come from?" |
+| Expand | "You're not minimizing the problem at all. Most people do. Where did that honesty with yourself come from?" |
+
 ---
 
 ## Who / If?  [Identity]
-**Summary**: Removes limiting beliefs and constrasts through identity. 
+**Summary**: Removes limiting beliefs and constrasts through identity.
 **Structure**: `Who would you be if you no longer had {limiting belief/problem}?`
 > ****
 
@@ -340,3 +374,9 @@ Limitations feel permanent when we're inside them. Viewed from the outside, they
 - "If this problem was already gone, what would you spend your energy on?"
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Clarify | "Who would this team become if the real constraint was finally removed?" |
+| Decide | "Who would you be six months from now if you decided today?" |
+| Resolve | "Who would you be if the fear of making the wrong decision was no longer part of the equation?" |

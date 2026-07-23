@@ -3,7 +3,7 @@
 ---
 
 ## Begin → Find  [Future Pacing]
-**Summary**: Creates a positive outcome associated with the action you want to occur. 
+**Summary**: Creates a positive outcome associated with the action you want to occur.
 **Structure**: `As you begin {action}, you'll find yourself {beneficial realization/state}.`
 > ****
 
@@ -120,11 +120,43 @@ This increases motivation and reduces resistance.
 ##### 12. Feels Like Discovery Rather Than Instruction
 People resist being told what to think.
 They rarely resist discovering something for themselves.
+Compare:
+> Be more confident.
+vs.
+> As you begin publishing, you'll notice confidence.
+---
+
+##### 13. Opens a Mental Loop
+The moment someone hears:
+> As you begin...
+their brain naturally asks:
+> Then what happens?
+The rest of the sentence satisfies that curiosity.
+This creates a smooth, attention-holding structure that naturally pulls people forward.
+---
+
+##### Variation
+> As you begin {action} you’ll notice {feeling} which {result}
+- As you begin publishing content, you'll notice how easy and natural it begins to feel, which allows you to create the best content you've ever produced and get results faster than you ever imagined.
+- As you begin to use our AI agents, you'll notice a sense of wonderment at how much better and faster these agents can perform tasks than you, which will get you so excited about the new capabilities you have to grow your business 10x, 50x, or even 100x. 
+
+### Use Cases
+
+| Stage | Pattern |
+|---|---|
+| Connect | As we begin our call today, I want you to be aware that by thinking through this together, we may uncover answers that neither of us would have discovered alone. |
+| Discover | As we begin this fact-finding process, I want you to know that even rough or approximate answers can lead to insights that prove valuable regardless of what happens after this call. |
+| Clarify | As we compare what worked with what didn't, I'd like you to focus on what you believe were the biggest differences between the two. |
+| Expand | As you begin to tell me more about what you think it would take to double your business in the next many days, I really want you to focus in on the simplest actions that are already within the capabilities of you and the team.  |
+| Commit | As we explore the possibility of working together, I want you to remember that we're simply evaluating options to determine what, if anything, makes the most sense moving forward. |
+| Decide | As you begin to go to the sign up page you’ll notice all the proof of our clients is available for you to look over at any time to show how confident you can be with taking the first step forward to joining us. |
+| Resolve | While you're considering whether now is the right time to move forward, I'd like you to think of a time when you knew "yes" was the right decision. As you do, notice whether any of the same factors are present here today. |
+
 
 ---
 
 ## Looking Back  [Future Pacing]
-**Summary**: Uses the future self to uncover insight, action and priorities in the present. 
+**Summary**: Uses the future self to uncover insight, action and priorities in the present.
 **Structure**: `Looking back after {desired success}, what do you think made the biggest difference?`
 > ****
 
@@ -172,10 +204,18 @@ That simulated success is emotionally real. It creates desire for the actual out
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | "If this conversation turns out to be one of the most useful you've had this year, what would have made it that way?" |
+| Discover | "If you solved this in the next six months, what do you think you would have had to do differently?" |
+| Clarify | "If the business doubled, what one change do you think would have driven most of that growth?" |
+| Expand | "Looking back at two years of this problem still unresolved, what do you think you would regret most?" |
+| Resolve | "Looking back on this with full confidence, what do you think you'll realize about the fear you have right now?" |
+
 ---
 
 ## Sooner or Later  [Future Pacing]
-**Summary**: Assumes success within a choice of timelines 
+**Summary**: Assumes success within a choice of timelines
 **Structure**: `I don't know if {positive outcome soon} or {positive outcome later}`
 > ****
 
@@ -217,6 +257,14 @@ That curiosity keeps them engaged and personally invested.
 - Makes future success feel inevitable rather than conditional
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Connect | "I don't know if this call answers all your questions or just the most important ones, but you'll leave with more than you came in with." |
+| Discover | "I don't know if the real problem is what you described first or something we find as we dig deeper." |
+| Clarify | "I don't know if the bottleneck is in marketing or sales, but we'll know by the end of this conversation." |
+| Expand | "I don't know if fixing this gives you back ten hours a week or twenty, or quite possibly more" |
+| Resolve | "I don't know if you'll feel certain right now or after we answer a few more questions.” |
 
 ---
 
@@ -269,3 +317,10 @@ The small thing becomes evidence of the big thing. The listener doesn't have to 
 - Makes positive change feel inevitable
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Connect | "When you notice this conversation feels different from others you've had on this topic, you'll understand why we approach it this way." |
+| Clarify | "When you notice how often the same issue shows up across different parts of the business, you'll realize it's structural, not situational." |
+| Expand | "When you notice how much energy you spend managing something that shouldn't require your attention at all, you'll see why this matters." |
+| Commit | "When you notice that what we've described is basically a direct answer to the problem you just outlined, you'll realize the decision to move forward is simple." |

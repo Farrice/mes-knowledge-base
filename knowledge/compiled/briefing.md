@@ -1,14 +1,14 @@
 # Knowledge Briefing
-*Generated: 2026-07-23 | 733 sources | 2,848,157 words*
+*Generated: 2026-07-23 | 733 sources | 2,860,105 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 4,964 words — `knowledge/index.md`
-- **log** (general) — 14,485 words — `knowledge/log.md`
-- **FETCH-NOTES** (content [jason-fladlien]) — 114 words — `extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/FETCH-NOTES.md`
-- **persuasive-patterns-full** (copywriting [jason-fladlien]) — 29,345 words — `extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/persuasive-patterns-full.md`
+- **index** (content) — 4,976 words — `knowledge/index.md`
+- **log** (general) — 14,513 words — `knowledge/log.md`
+- **FETCH-NOTES** (content [jason-fladlien]) — 184 words — `extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/FETCH-NOTES.md`
+- **persuasive-patterns-full** (copywriting [jason-fladlien]) — 41,183 words — `extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/persuasive-patterns-full.md`
 - **blind-pass-log** (content) — 184 words — `extractions/matthew-lakajev-linkedin/blind-pass-log.md`
 - **blind-pass-specimen-artifact-only-opinion-ladder** (systems) — 294 words — `extractions/matthew-lakajev-linkedin/blind-pass-specimen-artifact-only-opinion-ladder.md`
 - **2026-07-23-pulse** (strategy) — 1,733 words — `research_outputs/market-pulse/2026-07-23-pulse.md`

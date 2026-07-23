@@ -3,7 +3,7 @@
 ---
 
 ## Cost Conscious  [Constraints]
-**Summary**: Exposes the hidden costs involved with inaction. 
+**Summary**: Exposes the hidden costs involved with inaction.
 **Structure**: `How much is {problem} costing you in {money/time/opportunity}?`
 > ****
 
@@ -75,10 +75,19 @@ You said you've wanted to launch this course for four years. If it could have ge
 
 ##### Conversational Ladder Applications
 
+| Stage | Pattern |
+|---|---|
+| Discover | What problems do you think costs you the most if they aren’t fixed?  |
+| Clarify | You said every proposal takes three hours to build. At twenty proposals a month, how much time are you spending every year creating proposals? |
+| Expand | You mentioned losing three employees last year because managers weren't trained properly. What did recruiting, onboarding, and lost productivity cost altogether? |
+| Commit | You estimated this problem costs about $120,000 a year. If I had a solution that was a fraction of that investment, would you like to hear about it?  |
+| Decide | If this problem costs $8,000 per month and the solution costs less than two months of the problem, is that enough for you to sign up right now?  |
+| Resolve | You mentioned the investment feels expensive. You also mentioned you are losing $240,000 a year by not solving this problem. Everything is expensive. Which expensive do you want is the question.  |
+
 ---
 
 ## Could You Live With It?  [Constraints]
-**Summary**: Reframes “failure” into something more valuable. 
+**Summary**: Reframes “failure” into something more valuable.
 **Structure**: `If all that happened was {”worst” best-case}, would that still be acceptable?`
 > ****
 
@@ -150,11 +159,21 @@ If the only thing this AI agent did was helped you do was save ten hours a week 
 
 #### Conversational Ladder Applications
 
+| Stage | Pattern |
+|---|---|
+| Connect | Some days I want to be a billionaire but other days I think if I just get a bit more clarity on what to do, then that’s more than enough. Am I crazy?  |
+| Discover | I'm going to be on the hunt for ways to triple your business, reduce your overhead by 50% or more, and free up 10 hours of your time per week. If all we did was grow your new product line revenue by 10%, would that make you happy?  |
+| Clarify | If you didn't go viral but instead consistently got one new client a week, would that be a sufficient consolation prize?  |
+| Expand | Let's say the webinar takes three times as long for you to develop but still produces more revenue than your video sales letter did. Would it be okay for you to spend those extra hours?  |
+| Commit | I can't say we'll solve all seven problems that we went over on this call today. If we only solved one of these seven problems beyond what you thought was possible, would that be enough to win your business today?  |
+| Decide | I can't guarantee the result but I can guarantee that I'm committed to your success. If that sounds good to you, sign up here.  |
+| Resolve | You said you're unsure whether you'll get the full result.  Fair enough.  If all you achieved was cutting customer churn in half, instead of eliminating it, would you still be happy you moved forward? |
+
 
 ---
 
 ## Disappearing Act  [Constraints]
-**Summary**: Weakens the excuse that would create a no. 
+**Summary**: Weakens the excuse that would create a no.
 **Structure**: `If you could eliminate only one {issue} about {situation}, what would it be?`
 > ****
 
@@ -229,11 +248,19 @@ Now they crave that relief and are more likely to invest in something that will 
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Discover | If one thing could disappear from your sales process tomorrow, where would you start? |
+| Clarify | You mentioned growth has slowed. If you could remove one obstacle causing that slowdown, what would it be? |
+| Commit | If solving this one problem removed 80% of the frustration you've described, would that be worth prioritizing? |
+| Decide | If moving forward meant eliminating the exact issue you've spent the last hour talking about, what would stop you from signing up right now? |
+| Resolve | If we could remove your concern about implementation, would there be any reason not to proceed? |
+
 
 ---
 
 ## Minimum Acceptable Outcome  [Constraints]
-**Summary**: Embeds several big claims into an otherwise reasonable statement or question. 
+**Summary**: Embeds several big claims into an otherwise reasonable statement or question.
 **Structure**: `If this didn't {extraordinary outcome(s)} and all it did was {modest but valuable outcome}, would that still be worth it?`
 > ****
 
@@ -298,10 +325,16 @@ By the time we land on the modest claim, the listener is relieved: "That seems t
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Expand | "If this never became a big revenue driver and only saved you twelve hours a week… would you still want to do it?" |
+| Decide | "If this didn't exceed every expectation and all it did was deliver a solid 3x return on what you put in — would you move forward today?" |
+| Resolve | "If we couldn't fix everything right away and all we did in the first 90 days was stop the bleeding — would that justify getting started?" |
+
 ---
 
 ## Move Away From  [Constraints]
-**Summary**: Uses loss aversion to uncover what motivates the listener. 
+**Summary**: Uses loss aversion to uncover what motivates the listener.
 **Structure**: `What is it you don't want {to happen / to continue / to experience}?`
 > ****
 
@@ -357,6 +390,13 @@ A prospect might say they want more revenue, but what they actually want is to s
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Discover | "What's the version of this problem you're most tired of dealing with?" |
+| Expand | "What happens to the business if this still isn't fixed eighteen months from now?" |
+| Decide | "What are you most afraid of if you don't take action today?" |
+| Resolve | "What's the worst case you're protecting yourself against by not deciding right now?" |
+
 ---
 
 ## Reason Not to?  [Constraints]
@@ -403,5 +443,14 @@ A prospect might say they want more revenue, but what they actually want is to s
 ---
 
 ### Use Cases
+
+| Stage | Pattern | Specific Example |
+|---|---|---|
+| Connect | Is there any reason to think now is not the time to have this conversation?  | We have 45 minutes blocked on our calendar. Is there anything that could interfere with you giving your full attention to the meeting today?  |
+| Discover | Is there anything preventing you from getting {result}? | You mentioned that you'd like to go from $100,000 a month to $250,000 a month. Is there anything preventing you from doing that within the next quarter?  |
+| Clarify | When you say {information} is there anything stopping you from {action}? | When you say you can't find the talent, is there anything stopping you from hiring a recruiting agency to find it for you?  |
+| Expand | Earlier you mentioned {information}. Would there be anything preventing you from {action}? | You mentioned you needed to run more ads. Is there anything preventing you from simply doubling the amount of creatives you make every week?  |
+| Commit | Is there any reason we couldn’t go into the specific ways in which our firm can help you with {action}? | Is there any reason we couldn't go into the specific ways in which our firm can help you generate a more predictable flow of qualified leads? |
+| Decide | Is there any reason why {objection} would prevent you from {result}? | Is there any reason beyond the guarantee that you feel puts you at a risk which would stop you from signing up right now?  |
 
 

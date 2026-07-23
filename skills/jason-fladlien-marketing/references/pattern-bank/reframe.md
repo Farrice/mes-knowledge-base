@@ -3,7 +3,7 @@
 ---
 
 ## Binary Breaker  [Reframe]
-**Summary**: Removes rigid and inflexible beliefs and behaviors. 
+**Summary**: Removes rigid and inflexible beliefs and behaviors.
 **Structure**: `Are we talking {absolute/extreme} or {more nuanced version}?`
 Pattern 1: Absolute to %
 > ****
@@ -135,6 +135,18 @@ Most limiting beliefs are built on absolutes.
 People say things like:
 - "I'm not ready."
 - "I'm not confident."
+- "That never works."
+- "Nobody buys right now."
+- "I'm bad at sales."
+What Erickson was doing was introducing enough uncertainty into the certainty. 
+(Which reminds me of another pattern I like: “Are you certain enough to feel uncertain?”)
+That's why I love turning absolutes into percentages.
+What's fascinating is that you usually don't need to replace the old belief.
+You only need to weaken its rigidity.
+The unconscious mind is remarkably good at keeping the useful parts of a belief while discarding the parts that no longer serve it… once you bring the right awareness to it. 
+Doubt is great at brining that awareness. 
+Once enough doubt is introduced into an absolute, people often begin updating the belief naturally.
+They carry forward what's true, let go of what's limiting, and become open to possibilities they couldn't see before.
 
 ---
 
@@ -230,8 +242,17 @@ See what I mean?
 To use but effectively, place the objections first, followed by “but” and end on the positive, forward-looking point you want to make. 
 Compare: 
 
+| "I know we have a tight budget this quarter, but we still need to upgrade our software." | Our current software is severely slowing down our workflow, but upgrading to the new system will save us 10 hours a week.  |
+|---|---|
+
 #### Do the “But” Swap
 In your own communication, audit your “but” and consider replacing it with and to see which is more empowering. 
+
+| The house has a great layout, but the kitchen needs work | The house has a great layout, and the kitchen needs work |
+|---|---|
+| I missed my workout yesterday, but I'll get back on track today. | I missed my workout yesterday, and I'll get back on track today. |
+| The market is crowded, but I think there's room for us. | The market is crowded, and I think there's room for us. |
+| I understand how you feel, but… | I understand how you feel, and… |
 Alternatively, you can use even though. 
 "I want to go, but I'm tired” → "I want to go, even though I'm tired" 
 
@@ -248,10 +269,20 @@ Notice how I snuck a takeaway in here:
 
 #### Use Cases
 
+| Stage | Pattern |
+|---|---|
+| Connect | To truly understand this, we would need several hours and multiple different calls to really get an idea, but I'm confident we can get to the heart of it in a single call and give you clarity on exactly what you need to do next.” |
+| Discover | "I know admitting you don't really have a system yet feels embarrassing, but it's actually the easiest starting point: there's nothing broken to undo, just something to build.” |
+| Clarify | "You mentioned you're involved in every decision. That's clearly slowing things down, but I imagine you continue to do it because you haven’t found a better way yet.” |
+| Expand | You said you tried many agencies in the past and the only thing they gave you was a headache. Would that mean you're opposed to ever working with agencies in the future? If the right agency comes along, would you consider partnering with them?  |
+| Commit | Now we get to the awkward part of our conversation, where I'm going to make an offer to you. Because I am so shy and frankly not a very good salesperson, I've really just stacked this offer so incredibly in your favor. I think you will be pleasantly surprised with what I have for you.  |
+| Decide | I know this was beyond what your budget was coming into the call but I can tell you’re a person who invests based on what makes sense once you’ve heard the facts, not just a number that may no longer make sense.  |
+| Resolve | I know you're uncomfortable on camera but audiences resonate more with somebody who's figuring it out alongside them than someone who sounds like a well-polished AI-looking fake-ass personality.  |
+
 ---
 
 ## Limit Softener  [Reframe]
-**Summary**: Weakens rigid labels, absolutes, and generalizations. 
+**Summary**: Weakens rigid labels, absolutes, and generalizations.
 **Structure**: `Are we talking {hard label} or {less severe version}?`
 > ****
 
@@ -370,11 +401,73 @@ The prospect now becomes much more likely to consider the distinction because th
 
 ##### Ability
 Are we talking incapable or inexperienced?
+Are we talking unqualified or simply unpracticed?
+Are we talking unable or unfamiliar?
+Are we talking lack of talent or lack of repetition?
+Are we talking incompetence or lack of exposure?
+
+##### Confidence
+Are we talking lack of confidence or lack of certainty?
+Are we talking self-doubt or incomplete information?
+Are we talking fear or caution?
+Are we talking insecurity or unfamiliarity?
+Are we talking hesitation or inability?
+
+##### Business Growth
+Are we talking saturated or competitive?
+Are we talking no opportunity or just higher standards?
+Are we  talking a bad market or a more demanding market?
+Are we talking impossible growth or slower growth?
+Are we talking no demand or tougher differentiation?
+
+##### Money
+Are we talking cost or investment?
+Are we talking spending money or reallocating money?
+Are we talking expensive or profitable?
+Are we talking unaffordable or simply uncomfortable?
+Are we talking financial risk or calculated investment?
+
+##### Time
+Are we talking no time or no priority?
+Are we talking overwhelmed or disorganized?
+Are we talking busy or distracted?
+Are we talking lack of time or lack of allocation?
+Are we talking impossible to fit in or simply inconvenient?
+
+##### Change
+Are we talking danger or discomfort?
+Are we talking risk or uncertainty?
+Are we talking failure or learning?
+Are we talking permanent consequences or temporary setbacks?
+Are we talking catastrophe or inconvenience?
+
+##### Identity
+Are we talking lazy or discouraged?
+Are we talking procrastination or hesitation?
+Are we talking undisciplined or unclear?
+Are we talking lack of motivation or lack of direction?
+Are we talking weakness or exhaustion?
+
+##### Time Horizon
+Are we talking forever or for now?
+Are we talking permanent or temporary?
+Are we talking always or recently?
+Are we talking impossible or not yet?
+Are we talking never or not currently?
+---
+
+#### Conversational Ladder Applications
+
+| Stage | Application |
+|---|---|
+| Discover | Are we talking a lack of results or inconsistent results? |
+| Clarify | Are we talking a lead problem or an advertising problem? |
+| Resolve | Are we talking danger or discomfort? Because those are very different problems to solve. |
 
 ---
 
 ## Objection Collapse  [Reframe]
-**Summary**: Redirects objections to a different interpretation. 
+**Summary**: Redirects objections to a different interpretation.
 **Structure**: `You say {objection}, but couldn’t that actually suggest {new interpretation}?`
 > ****
 
@@ -427,6 +520,13 @@ This pattern creates a new association: "I've been burned before" might mean "I 
 - "You just described exactly why this has been such a persistent problem."
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Discover | "You said this has always been a problem. Couldn't that suggest you've been solving the symptom rather than the cause?" |
+| Clarify | "You said your team doesn't follow through. Couldn't that actually suggest the process hasn't been designed to make following through easy?" |
+| Expand | "You said this doesn't feel urgent enough. Couldn't that feeling actually be the symptom of a much bigger problem… that you've gotten too comfortable with something that's costing you?" |
+| Resolve | "You said you're not sure. Couldn't that uncertainty mean this deserves a more careful look rather than a quick no?" |
 
 ---
 
@@ -526,10 +626,18 @@ It builds credibility by demonstrating genuine curiosity rather than strategic p
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | "I may be wrong, but something tells me you've had this exact conversation before and it didn't go anywhere. Am I close?" |
+| Discover | "I may be wrong, but it sounds like the problem you came in with and the problem that's actually keeping you up at night might be two different things." |
+| Clarify | "I may be wrong, but I don't think it's a lead problem. I think it's a positioning problem that's creating a lead problem." |
+| Expand | "I may be wrong, but I think the real cost of this isn't the $20,000 a month you described. I think it's the momentum you've lost." |
+| Resolve | "I may be wrong, but I don't think that's the real objection. I think there's something underneath it we haven't talked about yet." |
+
 ---
 
-## Yes (but) And   [Reframe]
-**Summary**: Validating perspective while smoothly shifting it. 
+## Yes (but) And  [Reframe]
+**Summary**: Validating perspective while smoothly shifting it.
 **Structure**: `It's understandable that {current perspective}, and {empowering reframe}.`
 > ****
 
@@ -575,3 +683,11 @@ Both things exist. Both are true. And the second one opens a path forward.
 - Makes the listener feel heard while still moving the conversation forward
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Connect | "It's understandable that you're a bit guarded, and that tells me you've cared enough about this to be disappointed before." |
+| Discover | "It makes sense that you've adapted to this problem over time, and that adaptation might be hiding how much it's actually costing." |
+| Clarify | "It's completely fair to think the problem is your team, and we also need to look at what they've been set up to work with." |
+| Decide | "It's natural to want more certainty, and certainty almost never comes before the decision - it usually comes after." |
+| Resolve | "It makes complete sense that you've been burned before, and everything about how we've built this is a direct response to exactly that experience." |

@@ -102,6 +102,16 @@ Don’t fight the behavior… use it.
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | As you get comfortable, you'll probably find this conversation easier than you expected. |
+| Discover | As you think back over the last twelve months, you'll start noticing which problems have shown up over and over again that need to be solved sooner rather than later.  |
+| Clarify | As you are looking for the data I think you’ll find your intuition already knows what needs to be done... |
+| Expand | As you calculate what those delays have cost over the last three years, you'll begin to see why this issue deserves more attention than it's been getting. |
+| Commit | As I begin to go into the offer you may find yourself feeling as if it was made exactly and specifically for you… |
+| Decide | As you sign up you can already begin to feel a sense of progress being made because today has become the day you actively decided for a positive change.  |
+| Resolve | As you start to worry if you’re capable or not you may begin to see that capability is easily increased when you join our community and also get access to these resources…  |
+
 #### Advanced Applications
 
 ##### Reframing Behavior
@@ -122,10 +132,45 @@ Sometimes the environment itself becomes the link.
 
 > ****
 
+##### MILTON ALERT
+A man came to see Milton Erickson because he couldn't sit still.
+The moment he entered the office, he began pacing.
+Back and forth.
+Back and forth.
+He walked while he talked.
+He walked while he thought.
+He walked while he answered questions.
+And he told Erickson that no one could treat him because of how much a nervous wreck he was. 
+But instead of trying to get the man to stop pacing, Erickson described exactly what was the man was doing. 
+“As you walk around my office I wonder if you can still hear my voice.”
+“And as you turn left and then right, would you still be able to follow my instruction?”
+“And as you speed up, I wonder if you could alter the speed ever so slightly, either faster or slower.” 
+He accepted the man's reality exactly as it was.
+No correction.
+No resistance.
+No argument.
+Only agreement.
+After establishing that rhythm, Erickson began making tiny changes.
+Nothing dramatic.
+Nothing obvious.
+Simple stuff - like having the man only pace in one corner of the office. And then having him sit in the chair - but only for a fraction of a second. 
+Erickson never fought the behavior.
+He used it.
+Eventually the pacing slowed to walking. 
+The walking become standing.
+The standing became sitting. 
+The sitting became calm conversation.
+What makes this story so powerful is that Erickson never tried to impose a new reality.
+He started with the reality that already existed.
+The man was pacing.
+That was true.
+And once enough agreement had been built around what was true, Erickson could begin leading him somewhere new.
+
+
 ---
 
 ## Fact → Meaning  [Linking]
-**Summary**: Uses a fact to make a claim more easy to accept. 
+**Summary**: Uses a fact to make a claim more easy to accept.
 **Structure**: `The fact that {observable fact, behavior, or question} means {meaning you want to assign}.`
 > ****
 
@@ -217,16 +262,37 @@ The fact that you're concerned about culture means you understand how important 
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | The fact that you took time out of your day for this conversation means finding a solution matters to you. |
+| Clarify | The fact that you unsure is a sign there is real potential here.  |
+| Expand | The fact that you've tolerated this for three years means the cost may be way larger than you've realized. |
+| Commit | The fact that you're exploring solutions means you're ready for something to change. |
+| Resolve | The fact that you're asking these questions means you're trying to make the best decision possible. |
+
 ### Advanced Lesson
 You can interpret any “fact” with any intention behind it. 
 Look at how easy it is: 
+
+| Fact | Negative Interpretation | Neutral Interpretation | Positive Interpretation |
+|---|---|---|---|
+| They're asking a lot of questions. | They're difficult. | They need information. | They're taking the decision seriously. |
+| They're moving slowly. | They're procrastinating. | They need more time. | They're being thorough. |
+| They're challenging your ideas. | They're argumentative. | They disagree. | They're critically thinking. |
+| They're quiet. | They're disengaged. | They're processing. | They're listening carefully. |
+| They haven't decided yet. | They're wasting time. | They're still evaluating. | They're trying to make the best decision possible. |
+| They keep bringing up objections. | They're looking for reasons to say no. | They have concerns. | They're trying to find the right reason to say yes.  |
+| They're worried about implementation. | They think it won't work. | They don't understand the process yet. | They're already imagining using it. |
+| They keep returning to the same topic. | They're stuck. | It's unresolved. | They haven’t heard what they need to hear yet. |
+| They disagree with you. | They're being difficult. | They see it differently. | They're engaged enough to challenge the idea. |
+| They are frustrated. | They're impossible to please. | Something isn't meeting expectations. | They want a better outcome. |
 Now for each “resistance” you used to get, come up with a positive interpretation for it so you can get excited to address it the next time it comes up. 
 
 
 ---
 
 ## Gentle Bind  [Linking]
-**Summary**: Makes every choice lead to the same result. 
+**Summary**: Makes every choice lead to the same result.
 **Structure**: `You may discover {Option A}, or you may notice {Option B}.`
 > ****
 
@@ -345,11 +411,54 @@ A child who constantly fought instructions might be instructed to deliberately p
 Now the child faced a dilemma.
 Obeying meant disobeying.
 Disobeying meant obeying.
+The behavior pattern often collapsed because the structure supporting it disappeared.
+
+#### Why Double Binds Are So Powerful
+
+##### They Attack the Structure
+Weak persuasion attacks the content.
+Good persuasion attack the structure.
+For example, if someone says to you:
+> I lack confidence.
+Most people respond:
+> No you don't.
+But here’s how I respond:
+> How confident are you that you lack confidence?
+Now the structure breaks.
+To answer the question, they must acknowledge confidence.
+The problem contains its own contradiction.
+
+##### Forcing Resource Access
+If someone says to you:
+> I am not certain of what to do.
+You can use this double bind:
+> How certain are you about your uncertainty?
+To answer that question, the person must temporarily access certainty.
+The very resource they claim is missing.
+The pattern forces them into the state they're denying.
+They have certainty after all. And if they have enough of it, they can now make a decision. 
+
+##### The Symptom Becomes the Solution
+When someone says to me:
+> I procrastinate.
+I respond:
+> Great. Let's procrastinate on procrastinating.
+The symptom is now aimed at itself.
+Which makes it harder to use it as a limiting belief.
+Most limiting beliefs operate because nobody examines them.
+Double binds force conflicting truths into the same space.
+Consider:
+> I can't say no.
+And your response:
+> Then say no to me right now.
+Now both choices challenge the original belief.
+The mind has to reorganize.
+The old pattern can no longer operate normally.
 
 ---
 
 ## Implication Frame  [Linking]
-**Summary**: Uses truisms to empower someone to a better behavior or belief. 
+**Summary**: Uses truisms to empower someone to a better behavior or belief.
 **Structure**: `If [verifiable fact] is true for you, it means [meaning you want to assign].`
 > ****
 
@@ -449,3 +558,12 @@ If you've survived everything that came before this, it means you're capable of 
 ---
 
 #### Conversational Ladder Applications
+
+| Stage | Application |
+|---|---|
+| Connect | If you’ve made it to the call, it tells me you a person who takes this very seriously.  |
+| Discover | If you’re this willing to share so much with me, it means you open to a solution that will really make a big difference.  |
+| Expand | If this problem has been costing you ten hours every week for three years, it means the true cost is much larger than it first appears. |
+| Commit | If you've already know what the problem is costing you, it means you know not investing is also a cost, and often a bigger cost than investing in the right solution.  |
+| Decide | If everything you've told me is accurate, it means signing up right now is the best option for you.  |
+| Resolve | If you're worried about making the wrong decision, it means you're approaching the decision responsibly so I’m glad you’re asking these important questions.  |

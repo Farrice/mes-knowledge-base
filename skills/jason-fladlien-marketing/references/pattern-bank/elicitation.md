@@ -114,10 +114,18 @@ You don’t want these customers. Don’t close them. Refer them to your competi
 
 ### Use Cases
 
+| Stage | Pattern |
+|---|---|
+| Connect | On your intake form, you mentioned that the number one priority was getting more leads. If we uncovered powerful strategies today to do just that, would that be sufficient for us to consider this a successful interaction or do other things also need to occur?  |
+| Discover | Let's pretend you woke up tomorrow and your calendar was completely full of qualified appointments for the next ninety days. That in itself would be sufficient for you to solve your growth problem or would there be additional marketing functions that would need to also happen?  |
+| Clarify | If I somehow gave you an extra three hours every day starting tomorrow, would that solve the problem completely, or would there still be challenges around prioritization, delegation, or focus? |
+| Expand | Let's say webinars started producing customers consistently. Would that be enough, or would you also want the ability to launch future products, test new offers, and enter new markets without wondering where the customers are going to come from? |
+| Commit | We've talked about getting from roughly $80,000 a month to $200,000 a month, building a stronger acquisition system, and creating a business that doesn't depend on you personally making every decision. If I showed you a path that realistically addressed those three areas, would that be enough for you to seriously consider moving forward today, or would there be other factors we'd still need to address? |
+
 ---
 
 ## Emotional Labeling  [Elicitation]
-**Summary**: Names an unspoken issue in a way to gain more information. 
+**Summary**: Names an unspoken issue in a way to gain more information.
 **Structure**: `It seems/sounds/feels like you're {emotion}.`
 > ****
 
@@ -218,10 +226,20 @@ When someone feels deeply understood, your words carry more weight because they 
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | It sounds like you've been carrying this problem for a long time. |
+| Discover | It seems like this issue affects you more than most people realize. |
+| Clarify | It sounds like you're less concerned about the strategy and more concerned about execution. |
+| Expand | It feels like you've accepted this as normal even though it doesn't have to be. |
+| Commit | It sounds like you're ready for something to change. |
+| Decide | It seems like you're ready to sign up.  |
+| Resolve | It sounds like certainty is what you're looking for before making a decision. |
+
 
 ---
 
-## How Important?   [Elicitation]
+## How Important?  [Elicitation]
 **Summary**: Increases percieved significance of problem, solution or capability.
 **Structure**: `If {condition is true}, how important is {solution/value}?`
 > ****
@@ -305,6 +323,13 @@ Eventually the solution feels like a natural extension of everything they've alr
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Discover | If growth is the goal, how important is predictable lead flow? |
+| Clarify | If follow-up isn't happening consistently, how important is accountability? |
+| Expand | If there were a way to solve this faster, how important would speed be? |
+| Commit | If implementation determines success, how important is actually taking action? |
+
 #### 
 
 ---
@@ -359,6 +384,14 @@ Reference points anchor new behavior and new commitment.
 
 #### Conversational Ladder Applications
 
+| Stage | Example |
+|---|---|
+| Connect | "When did you first realize your current approach wasn't going to get you where you wanted to go?" |
+| Discover | "When did you first notice this was becoming a real problem and not just background noise?" |
+| Clarify | "When did you realize the real issue was the process and not the people running it?" |
+| Expand | "When did you first understand how much this was actually costing you each month?" |
+| Decide | "When did you decide this was worth investing in?” |
+
 
 ---
 
@@ -402,6 +435,12 @@ They're no longer passively hoping for something. They're actively defending why
 - Makes the listener advocate for themselves
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Discover | "You said you want to double the business. Why not just grow 20%?" |
+| Clarify | "You want to completely overhaul the hiring process. Why not just fix the onboarding?" |
+| Expand | "You want to solve this permanently. Why not just manage it better?" |
 
 ---
 
@@ -449,3 +488,11 @@ Every condition they name is an objection we can handle while we still have time
 - Creates a much cleaner path to close
 
 #### Conversational Ladder Applications
+
+| Stage | Example |
+|---|---|
+| Discover | "What would need to happen for you to feel like this quarter was actually a success?" |
+| Clarify | "What would need to be true for you to believe this problem is actually solvable?" |
+| Commit | "What would need to happen for you to feel completely comfortable investing in something like this?" |
+| Decide | "What would need to happen between now and the end of this call for you to feel ready to move forward?" |
+| Resolve | "What would need to happen for that concern to disappear?" |
