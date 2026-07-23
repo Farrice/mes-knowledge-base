@@ -114,3 +114,32 @@ Mine started in a weight room eighteen years ago. This year the rent finally com
 1. **One early credibility receipt** ("I've done it four times myself") — earns the friend's authority in seven words, then hands the piece straight back to the reader.
 2. **The spine stays recognition-you** — every beat after touch 1 is the READER'S story being articulated, not Farrice's being told.
 3. **One ownership close** (weight room / first year / alive) — the practitioner-test proof lands last, in present tense, AFTER the reader already got their payoff. The writer's story is the receipt, never the subject.
+
+---
+
+## TAKE FINAL — Farrice's cut (Take 0 verbatim, ONE touch: the seven-word receipt. This is the keeper.)
+
+Most people think they abandoned their calling. They didn't. They bankrupted it.
+
+I've done it four times myself.
+
+You find the thing you're meant to do. It lights you up for a week. Then the rent comes due, and you hand the newest, most fragile thing in your life the biggest bill on the table.
+
+The calling doesn't fail. It buckles. Anything would.
+
+Think about how we treat every other young thing. We don't send kids to work. We don't harvest seeds the week we plant them. We protect young things from load until they're strong enough to carry it. Everyone understands this about gardens and children. Almost nobody applies it to purpose.
+
+So the pattern runs: excitement, pressure, poison, quit. Then the worst part. You write the story that says you weren't meant for it. You were. The calling was never the problem. The job description you gave it was.
+
+The shift is one sentence: your calling is not your income plan. Not yet. Money needs to come from somewhere else on purpose, from the skill you already sell, so the calling gets the one thing it actually needs. Time to grow up unhurried.
+
+You don't have to choose between the practical and the meaningful. You have to sequence them.
+
+Pay the rent with what you know. Feed the calling with what you love. One funds the other until the day they trade places.
+
+That day comes a lot sooner when the young thing isn't carrying the house.
+
+### Why this is the pattern (Farrice's verdict, 2026-07-22)
+- Dose = ONE touch: the seven-word receipt after the cold open. Nothing else of the writer enters. Take C's other touches "made the rest worse."
+- The spine is untouchable: David's flow, cadence, and close stay verbatim. "If we could have just kept the rest of David's take, we'd nail it."
+- Setup phrases are banned tells: "So watch what actually happens" cut on sight — "no one talks like that." The piece goes straight in.
