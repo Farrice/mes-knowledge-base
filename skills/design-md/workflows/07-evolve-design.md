@@ -147,3 +147,5 @@ If the project maintains a `CHANGELOG.md`, add an entry:
 - [05-validate-and-refine.md](05-validate-and-refine.md) — full lint workflow
 - [genius.md Section 4](../genius.md) — lint rules
 - [06-export-and-handoff.md](06-export-and-handoff.md) — re-export Tailwind / DTCG after merge
+
+**Execution prompts**: before producing the deliverable, check `skills/product-design-build/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

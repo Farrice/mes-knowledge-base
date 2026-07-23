@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-22** [harness-ascension/active] [Handoff — Harness Ascension + Content Weapons Day (2026-07-21/22)](2026-07-22-harness-ascension-content-weapons.md) — resume: Monday post 1, then wayfinder-life-design-coach
 - **2026-07-22** [life-design-coach/active] [Handoff — Wayfinder: Life-Design Coach Lane (2026-07-22)](2026-07-22-wayfinder-life-design-coach.md) — next session: /wayfinder-work on the life-design coach lane
 - **2026-07-21** [go/active] [Week 1 LinkedIn launch posts (3) — /go v3 mission, re-run after anaphora fix verified WARN](2026-07-21-go.md) — Week 1 LinkedIn launch posts (3) — /go v3 mission, re-run after anaphora fix verified WARN
 - **2026-07-21** [signal-pilot-execution/active] [Signal Pilot Fork A day-1: two forward-test-gated flagship spec samples (Rosner + Broxterman), each = one-page POV read + conversion email + LinkedIn post in the prospect's receipted verbatim voice + delivery DM; both gauntleted by cold buyer panels (8+7 findings, all fixed or resolved-by-receipt), prospect sheet + buyer panel corrected with verified economics](2026-07-21-signal-pilot-execution.md) — Signal Pilot Fork A day-1: two forward-test-gated flagship spec samples (Rosner + Broxterman), each = one-page POV read + conversion email + LinkedIn post in the prospect's receipted verbatim voice + delivery DM; both gauntleted by cold buyer panels (8+7 findings, all fixed or resolved-by-receipt), prospect sheet + buyer panel corrected with verified economics

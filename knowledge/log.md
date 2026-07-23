@@ -575,3 +575,10 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-21 16:22]` **finalize** | LinkedIn profile rebuild pack (Practitioner Edition): headline x2, first-ever About section, Feature | general | lara-acosta — composite:8.33 status:Keep
 - `[2026-07-21 16:25]` **finalize** | Cold practitioner-founder prospect list (15 names, LinkedIn-verified, 5-condition checklist applied, | research | deep-research — composite:8.33 status:Keep
 - `[2026-07-21 16:43]` **finalize** | Practitioner Edition pressure test: channel-truth evidence + cold buyer gauntlet (standing panel bui | general | expert-assembly — composite:9.0 status:Keep
+- `[2026-07-21 18:22]` **finalize** | Signal Pilot Fork A day-1: two forward-test-gated flagship spec samples (Rosner + Broxterman), each  | general | luke-iha — composite:8.67 status:Keep
+- `[2026-07-21 19:22]` **finalize** | /go v3 rebuild + end-session slimming + 1301-wrapper prompt-load sweep + born-intent drift guard + s | general | ray-amjad — composite:8.67 status:Keep
+- `[2026-07-21 20:28]` **finalize** | Week 1 LinkedIn launch posts (3) — first end-to-end /go v3 mission with sign-off, isolated verificat | content | lara-acosta — composite:7.0 status:Needs Improvement
+- `[2026-07-21 20:28]` **finalize** | cap-preview | system — composite:7.0 status:Needs Improvement
+- `[2026-07-21 20:29]` **finalize** | Week 1 LinkedIn launch posts (3) — /go v3 mission, retry-weakest pass after structural-gate fix | content | lara-acosta — composite:7.33 status:Needs Improvement
+- `[2026-07-21 20:29]` **finalize** | cap-preview | system — composite:7.0 status:Needs Improvement
+- `[2026-07-21 20:31]` **finalize** | Week 1 LinkedIn launch posts (3) — /go v3 mission, re-run after anaphora fix verified WARN | content | lara-acosta — composite:7.33 status:Needs Improvement

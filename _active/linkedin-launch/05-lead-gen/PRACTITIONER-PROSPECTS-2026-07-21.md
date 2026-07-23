@@ -29,7 +29,7 @@ Buyer = practitioner-founder in fitness / wellness / supplements who (1) sells a
 - **WHY-NOW:** The gap between his massive IG/cert reach and a near-dormant LinkedIn IS the trigger — "invisible on the platform where founders buy." **[LIKELY]**
 
 ### 3. Jonah Rosner — sport scientist / running-performance founder
-- **Sells:** Abis "SAC Training Community" — premier 16-week coaching cohorts (small groups, 70% PR rate). **[LIKELY $2K+ cohort — exact price UNCONFIRMED]**
+- **Sells:** Abis "SAC Training Community" — premier 16-week coaching cohorts (small groups, 70% PR rate). **[Price NOT publicly listed — VERIFIED absence 2026-07-21: no sales/application page indexed; handled off-page. Only public paid product = $59 Strength for Runners Bundle. Never state a cohort number.]**
 - **Audience:** "Marathon Science" beehiiv newsletter, **20,000+ subscribers** with a free lead-magnet capture path (10-week Marathon Strength Plan). **[VERIFIED — best list evidence on the list]**
 - **Practitioner:** ex-NFL sport scientist, actively coaches runners/hybrid athletes. **[VERIFIED]**
 - **LinkedIn:** https://www.linkedin.com/in/jonahrosner **[VERIFIED]** — active, posts "daily science drops."
@@ -37,7 +37,7 @@ Buyer = practitioner-founder in fitness / wellness / supplements who (1) sells a
 - **WHY-NOW:** Running 16-week cohorts on a rolling basis with a 20K list — the "big list, under-monetized" profile the offer is built for. **[LIKELY]**
 
 ### 4. Jennifer Broxterman — RD / sports nutritionist / cert founder
-- **Sells:** VIP "Nutrition & Mindset Reboot" (9-wk hybrid, limited enrollment, discovery-call gated) + Prosper Nutrition Certification. Sold a high-ticket nutrition program to **$42,000 in one <1-week launch, zero ad spend.** **[VERIFIED revenue; per-seat price LIKELY high-ticket]**
+- **Sells (CORRECTED 2026-07-21 vs live pages):** VIP "Nutrition + Mindset Reboot" = **$2,500, 6-12 month ROLLING 1-on-1 mentorship, email application to info@nutritionrx.ca** (NOT a 9-wk discovery-call cohort). Ladder: $499 / $1,599 / $2,500 **[VERIFIED at nutritionrx.ca/packages-rates/]**. Prosper cert side: Free Masterclass → $297 Accelerator → Cert & Mentorship (price unlisted). The launch story is **~$45K and belongs to Prosper (coach side)** per Get Enlifted episode title — "$42K VIP launch" was a bad paraphrase; use "five-figure launch," never the number as if verified.
 - **Audience:** LinkedIn 2,166 followers + NutritionRx clientele + Prosper cert list; Precision Nutrition contributor. **[VERIFIED ≥2K]**
 - **Practitioner:** RD since 2010, coached NHL/Olympic athletes, 16-yr CrossFit affiliate owner. **[VERIFIED]**
 - **LinkedIn:** https://www.linkedin.com/in/jennifer-broxterman **[VERIFIED]** — active, links "how to work with me."

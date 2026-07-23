@@ -219,3 +219,5 @@ Per preview-iterate cycle on a `target`:
 - [01-component-build.md](01-component-build.md) / [02-page-build.md](02-page-build.md) — what produces the code being previewed
 - [genius.md Section 4](../genius.md) — Playwright loop in technical detail
 - `directives/browser-automation-safety.md` — what's allowed without confirmation
+
+**Execution prompts**: before producing the deliverable, check `skills/design-md/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

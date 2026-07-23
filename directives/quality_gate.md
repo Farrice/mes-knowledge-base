@@ -108,8 +108,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-07-21 (chain_runner finalize for expert-assembly-os) |
-| **Activation Count** | 709 |
+| **Last Activated** | 2026-07-21 (chain_runner finalize for lara-acosta-linkedin-mastery) |
+| **Activation Count** | 716 |
 | **30-Day Review Date** | 2026-08-20 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

@@ -2,8 +2,8 @@
     "monthly_limit_usd": 30.0,
     "current_month": "2026-07",
     "usage": {
-        "total_queries": 346,
-        "estimated_cost_usd": 6.92,
+        "total_queries": 382,
+        "estimated_cost_usd": 7.64,
         "queries": [
             {
                 "timestamp": "2026-07-07T14:23:22.737279+00:00",
@@ -2772,6 +2772,294 @@
                 "description": "Claude API and agentic coding tools updates risks downsides problems",
                 "task_context": "research-engine-contrarian",
                 "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:45:10.919246+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:45:15.430168+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:45:24.616892+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:45:32.885229+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:45:38.996963+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:45:45.122545+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:45:51.782900+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:45:56.850297+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:46:01.763100+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:46:08.152134+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:46:14.746431+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:46:20.725544+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated eve",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:46:30.263270+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Based on these research findings, provide a clear synthesis answering: AI agent orchestration frameworks news \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items publish",
+                "task_context": "research-engine-synthesis",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:46:36.438055+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Claude API and agentic coding tools updates \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undate",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:46:43.174989+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Claude API and agentic coding tools updates \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undate",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:46:50.599637+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Claude API and agentic coding tools updates \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undate",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:46:57.447396+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Claude API and agentic coding tools updates \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undate",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:47:04.606471+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Claude API and agentic coding tools updates \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undate",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:47:09.603617+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Claude API and agentic coding tools updates \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undate",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:47:15.737856+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Claude API and agentic coding tools updates \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undate",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:47:22.139027+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Claude API and agentic coding tools updates \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undate",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:47:27.338080+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Claude API and agentic coding tools updates \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undate",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:47:32.140771+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Claude API and agentic coding tools updates \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undate",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:47:38.091408+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Claude API and agentic coding tools updates \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undate",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:47:45.046704+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Claude API and agentic coding tools updates \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undate",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:47:55.828316+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Based on these research findings, provide a clear synthesis answering: Claude API and agentic coding tools updates \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items pu",
+                "task_context": "research-engine-synthesis",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:48:02.542885+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:48:09.032853+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:48:14.544645+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:48:22.376050+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-competitive",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:48:28.959392+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-competitive",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:48:36.840602+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-competitive",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:48:43.284943+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:48:49.360491+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:48:54.790061+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-22T13:49:03.184428+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "autonomous agent workflows in production \u2014 latest developments from the past 14 days (as of 2026-07-22). Only include items published in the last two weeks; exclude 2025-or-older content and undated e",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
             }
         ]
     },
@@ -2782,7 +3070,7 @@
     "loop_detection": {
         "current_task_query_count": 1,
         "current_task_name": "research-engine-contrarian",
-        "last_query_timestamp": "2026-07-07T14:46:06.846606+00:00",
+        "last_query_timestamp": "2026-07-22T13:49:03.184428+00:00",
         "consecutive_low_info_queries": 0
     }
 }

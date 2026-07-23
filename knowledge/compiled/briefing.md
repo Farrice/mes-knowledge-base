@@ -1,5 +1,5 @@
 # Knowledge Briefing
-*Generated: 2026-07-21 | 729 sources | 2,816,311 words*
+*Generated: 2026-07-21 | 729 sources | 2,816,370 words*
 
 ---
 
@@ -7,8 +7,8 @@
 
 - **assembly-rubric** (strategy) — 209 words — `knowledge/assembly-rubric.md`
 - **2026-07-21-pressure-test-farrice-s-signal-pilot-practitione** (content) — 1,306 words — `knowledge/assembly-sessions/2026-07-21-pressure-test-farrice-s-signal-pilot-practitione.md`
-- **index** (content) — 4,949 words — `knowledge/index.md`
-- **log** (general) — 14,240 words — `knowledge/log.md`
+- **index** (content) — 4,954 words — `knowledge/index.md`
+- **log** (general) — 14,294 words — `knowledge/log.md`
 - **mastery-extraction-agency-podcast** (content) — 4,293 words — `extractions/matthew-lakajev/mastery-extraction-agency-podcast.md`
 - **blind-pass-log** (content) — 84 words — `extractions/matthew-lakajev-linkedin/blind-pass-log.md`
 - **blind-pass-specimen-closed-lost-post** (content) — 268 words — `extractions/matthew-lakajev-linkedin/blind-pass-specimen-closed-lost-post.md`

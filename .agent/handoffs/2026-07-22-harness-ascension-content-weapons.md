@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** harness-ascension  
-**Full path:** .agent/handoffs/2026-07-22-harness-ascension-content-weapons.md  
-**Date:** 2026-07-22 (today)  
-**Status:** active  
-**Title:** Handoff — Harness Ascension + Content Weapons Day (2026-07-21/22)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume harness-ascension` for this one.
-
----
-
 ---
 thread: harness-ascension
 status: active
@@ -49,4 +37,3 @@ ray-amjad (forged), lara-acosta-linkedin-mastery, david-bayer-elite-communicatio
 
 ## Next focus (single thread if only one)
 Monday Post 1 → then /resume wayfinder-life-design-coach.
-

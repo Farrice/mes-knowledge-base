@@ -194,3 +194,5 @@ Plus a one-paragraph build summary:
 - [02-page-build.md](02-page-build.md) — when building a full page
 - [03-preview-iterate.md](03-preview-iterate.md) — Playwright loop in detail
 - [genius.md Section 1](../genius.md) — variant architecture
+
+**Execution prompts**: before producing the deliverable, check `skills/design-md/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).

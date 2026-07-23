@@ -257,3 +257,5 @@ A deployed codebase where:
 - [01-component-build.md](01-component-build.md) — first component after deploy
 - [02-page-build.md](02-page-build.md) — first page after deploy
 - [`skills/design-md/workflows/06-export-and-handoff.md`](../../design-md/workflows/06-export-and-handoff.md) — broader handoff strategies
+
+**Execution prompts**: before producing the deliverable, check `skills/design-md/references/prompts-v2/` for the matching structure-pure prompt and honor its Output Contract (prompt-load sweep, 2026-07-21).
