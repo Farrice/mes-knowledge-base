@@ -584,3 +584,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-21 20:31]` **finalize** | Week 1 LinkedIn launch posts (3) — /go v3 mission, re-run after anaphora fix verified WARN | content | lara-acosta — composite:7.33 status:Needs Improvement
 - `[2026-07-23 10:36]` **finalize** | Extract v3.0 'One Spine, One Dial' — adaptive forge-grade /extract: extraction_manifest.py (corpus/d | general | forge-os — composite:8.33 status:Keep
 - `[2026-07-23 10:37]` **ingest** | Extract v3.0 — adaptive forge-grade pipeline + Meg trust-layer forge-scale PoC | system-architecture | forge-os — extraction_manifest.py derived manifests; auto-enrichment; 4 locked decisions; Meg v1.2 16wf
+- `[2026-07-23 11:15]` **finalize** | Fladlien full Persuasive Patterns library harvest + deployment: scraped his complete Notion doc (56  | general | jason-fladlien — composite:8.67 status:Keep

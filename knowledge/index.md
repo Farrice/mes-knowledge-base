@@ -1,9 +1,9 @@
 # Knowledge Index
-*731 sources | 2,818,672 words | Updated: 2026-07-23*
+*733 sources | 2,848,157 words | Updated: 2026-07-23*
 
 ---
 
-## Content (257 files)
+## Content (258 files)
 
 - [video-context-ledger](../extractions/video-context/3iR3kHxCwfo/video-context-ledger.md) — 75,408 words
 - [Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them](extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md) — 60,850 words (stale)
@@ -255,6 +255,7 @@
 - [validation-report](../extractions/ross-mckay/validation-report.md) [april-dunford] — 167 words (stale)
 - [README](../extractions/tess-barclay/README.md) — 133 words
 - [source-notes](../extractions/rafa-conde/source-notes.md) — 121 words
+- [FETCH-NOTES](../extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/FETCH-NOTES.md) [jason-fladlien] — 114 words
 - [blind-pass-log](../extractions/seth-godin-marketing-mind/blind-pass-log.md) — 90 words
 - [2023-09-ai-content-ideas-post](../extractions/matthew-lakajev-linkedin/reference-corpus/2023-09-ai-content-ideas-post.md) — 86 words
 - [visual-notes](../extractions/kobi-brown-educational-virality/visual-notes.md) — 84 words
@@ -263,12 +264,13 @@
 - [blind-pass-log](../extractions/tommy-clark-linkedin-growth/blind-pass-log.md) — 75 words
 - [source-metadata](../extractions/ron-lynch/source-metadata.md) — 36 words
 
-## Copywriting (102 files)
+## Copywriting (103 files)
 
 - [Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026](extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026.md) [cardinal-mason] — 60,673 words (stale)
 - [Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026 pt.2](extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026 pt.2.md) [cardinal-mason] — 54,838 words (stale)
 - [Claude-💎💎💰 Harry Dry ! Learn Copywriting in 76 Minutes](extractions/inbox/Claude-💎💎💰 Harry Dry ! Learn Copywriting in 76 Minutes.md) — 41,010 words (stale)
 - [video-context-ledger](../extractions/video-context/a7VjpIqq8Xk/video-context-ledger.md) — 40,583 words
+- [persuasive-patterns-full](../extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/persuasive-patterns-full.md) [jason-fladlien] — 29,345 words
 - [video-context-ledger](../extractions/video-context/Zc4E_K48v48/video-context-ledger.md) — 21,805 words
 - [Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026 pt.3](extractions/inbox/Claude-✍️ 💎💰 Cardinal Mason ! FREE AI Copywriting Course ! How to make $500k!year in 2026 pt.3.md) [cardinal-mason] — 8,928 words (stale)
 - [transcript-consolidated](../extractions/sean-macintyre/transcript-consolidated.md) — 6,483 words
@@ -385,7 +387,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 14,459 words
+- [log](log.md) — 14,485 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words

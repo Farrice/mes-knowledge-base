@@ -1,27 +1,27 @@
 # Knowledge Briefing
-*Generated: 2026-07-23 | 731 sources | 2,818,672 words*
+*Generated: 2026-07-23 | 733 sources | 2,848,157 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
 - **index** (content) — 4,964 words — `knowledge/index.md`
-- **log** (general) — 14,459 words — `knowledge/log.md`
+- **log** (general) — 14,485 words — `knowledge/log.md`
+- **FETCH-NOTES** (content [jason-fladlien]) — 114 words — `extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/FETCH-NOTES.md`
+- **persuasive-patterns-full** (copywriting [jason-fladlien]) — 29,345 words — `extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/persuasive-patterns-full.md`
 - **blind-pass-log** (content) — 184 words — `extractions/matthew-lakajev-linkedin/blind-pass-log.md`
 - **blind-pass-specimen-artifact-only-opinion-ladder** (systems) — 294 words — `extractions/matthew-lakajev-linkedin/blind-pass-specimen-artifact-only-opinion-ladder.md`
 - **2026-07-23-pulse** (strategy) — 1,733 words — `research_outputs/market-pulse/2026-07-23-pulse.md`
 - **assembly-rubric** (strategy) — 209 words — `knowledge/assembly-rubric.md`
 - **2026-07-21-pressure-test-farrice-s-signal-pilot-practitione** (content) — 1,306 words — `knowledge/assembly-sessions/2026-07-21-pressure-test-farrice-s-signal-pilot-practitione.md`
 - **mastery-extraction-agency-podcast** (content) — 4,293 words — `extractions/matthew-lakajev/mastery-extraction-agency-podcast.md`
-- **blind-pass-specimen-closed-lost-post** (content) — 268 words — `extractions/matthew-lakajev-linkedin/blind-pass-specimen-closed-lost-post.md`
-- **2023-09-ai-content-ideas-post** (content) — 86 words — `extractions/matthew-lakajev-linkedin/reference-corpus/2023-09-ai-content-ideas-post.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 257 | lara-acosta |
-| copywriting | 102 | luke-iha |
+| content | 258 | lara-acosta |
+| copywriting | 103 | luke-iha |
 | general | 91 | nick-saraev |
 | strategy | 77 | april-dunford |
 | screenwriting | 53 | connelly |

@@ -1,12 +1,12 @@
 {
-  "generated": "2026-07-23T10:37:23.359499",
-  "total_files": 731,
-  "total_words": 2818672,
-  "total_tokens_est": 3748833,
+  "generated": "2026-07-23T11:15:47.759410",
+  "total_files": 733,
+  "total_words": 2848157,
+  "total_tokens_est": 3788048,
   "stale_files_30d": 456,
   "domains": {
-    "content": 257,
-    "copywriting": 102,
+    "content": 258,
+    "copywriting": 103,
     "general": 91,
     "strategy": 77,
     "screenwriting": 53,
@@ -25,8 +25,8 @@
     "nicolas-cole": 16,
     "lara-acosta": 13,
     "kallaway": 12,
+    "jason-fladlien": 12,
     "nathan-gotch": 11,
-    "jason-fladlien": 10,
     "connelly": 7,
     "kieran-flanagan": 6,
     "cardinal-mason": 6,
@@ -1991,10 +1991,10 @@
       "domain": "content",
       "expert": null,
       "word_count": 4964,
-      "modified": "2026-07-23T10:36:52.855585",
+      "modified": "2026-07-23T10:37:23.368687",
       "age_days": 0,
       "size_bytes": 85784,
-      "content_hash": "3466872b",
+      "content_hash": "e79b8478",
       "has_frontmatter": false
     },
     {
@@ -2003,10 +2003,10 @@
       "parent": "knowledge",
       "domain": "general",
       "expert": null,
-      "word_count": 14459,
-      "modified": "2026-07-23T10:37:23.042568",
+      "word_count": 14485,
+      "modified": "2026-07-23T11:15:47.446761",
       "age_days": 0,
-      "size_bytes": 113218,
+      "size_bytes": 113415,
       "content_hash": "5a51f947",
       "has_frontmatter": false
     },
@@ -2239,7 +2239,7 @@
       "expert": "nathan-gotch",
       "word_count": 986,
       "modified": "2026-04-13T10:42:20.958189",
-      "age_days": 100,
+      "age_days": 101,
       "size_bytes": 7224,
       "content_hash": "b69d4727",
       "has_frontmatter": true
@@ -2265,7 +2265,7 @@
       "expert": null,
       "word_count": 922,
       "modified": "2026-04-13T10:41:40.529882",
-      "age_days": 100,
+      "age_days": 101,
       "size_bytes": 6566,
       "content_hash": "af19325c",
       "has_frontmatter": true
@@ -2499,7 +2499,7 @@
       "expert": "nick-saraev",
       "word_count": 1606,
       "modified": "2026-03-06T10:38:04.952085",
-      "age_days": 138,
+      "age_days": 139,
       "size_bytes": 10847,
       "content_hash": "20f9e032",
       "has_frontmatter": false
@@ -3318,7 +3318,7 @@
       "expert": null,
       "word_count": 2147,
       "modified": "2026-03-06T11:02:40.609863",
-      "age_days": 138,
+      "age_days": 139,
       "size_bytes": 14529,
       "content_hash": "bf443432",
       "has_frontmatter": false
@@ -3649,6 +3649,32 @@
       "has_frontmatter": false
     },
     {
+      "path": "extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/FETCH-NOTES.md",
+      "name": "FETCH-NOTES",
+      "parent": "2026-07-23-persuasive-patterns-notion",
+      "domain": "content",
+      "expert": "jason-fladlien",
+      "word_count": 114,
+      "modified": "2026-07-23T11:13:57.706642",
+      "age_days": 0,
+      "size_bytes": 922,
+      "content_hash": "5a5e4230",
+      "has_frontmatter": false
+    },
+    {
+      "path": "extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/persuasive-patterns-full.md",
+      "name": "persuasive-patterns-full",
+      "parent": "2026-07-23-persuasive-patterns-notion",
+      "domain": "copywriting",
+      "expert": "jason-fladlien",
+      "word_count": 29345,
+      "modified": "2026-07-23T11:13:57.704811",
+      "age_days": 0,
+      "size_bytes": 182553,
+      "content_hash": "046fbc17",
+      "has_frontmatter": false
+    },
+    {
       "path": "extractions/jason-fladlien-marketing/blind-pass-log.md",
       "name": "blind-pass-log",
       "parent": "jason-fladlien-marketing",
@@ -3721,7 +3747,7 @@
       "expert": null,
       "word_count": 5183,
       "modified": "2026-07-16T11:09:26.621293",
-      "age_days": 6,
+      "age_days": 7,
       "size_bytes": 32741,
       "content_hash": "5e58c91f",
       "has_frontmatter": false
@@ -3812,7 +3838,7 @@
       "expert": null,
       "word_count": 196,
       "modified": "2026-07-16T11:10:45.844279",
-      "age_days": 6,
+      "age_days": 7,
       "size_bytes": 1310,
       "content_hash": "48b7c792",
       "has_frontmatter": false
@@ -3825,7 +3851,7 @@
       "expert": null,
       "word_count": 239,
       "modified": "2026-07-16T11:10:29.673968",
-      "age_days": 6,
+      "age_days": 7,
       "size_bytes": 1412,
       "content_hash": "dc9ffc93",
       "has_frontmatter": false
@@ -3838,7 +3864,7 @@
       "expert": null,
       "word_count": 178,
       "modified": "2026-07-16T11:10:36.683052",
-      "age_days": 6,
+      "age_days": 7,
       "size_bytes": 1121,
       "content_hash": "9512d605",
       "has_frontmatter": false
@@ -6061,7 +6087,7 @@
       "expert": "kieran-flanagan",
       "word_count": 1110,
       "modified": "2026-07-19T10:42:11.088353",
-      "age_days": 3,
+      "age_days": 4,
       "size_bytes": 8318,
       "content_hash": "14233869",
       "has_frontmatter": false
@@ -6074,7 +6100,7 @@
       "expert": null,
       "word_count": 15039,
       "modified": "2026-07-19T10:37:25.561846",
-      "age_days": 3,
+      "age_days": 4,
       "size_bytes": 81300,
       "content_hash": "00312140",
       "has_frontmatter": false
@@ -7673,7 +7699,7 @@
       "expert": null,
       "word_count": 13695,
       "modified": "2026-07-16T11:12:46.687551",
-      "age_days": 6,
+      "age_days": 7,
       "size_bytes": 87765,
       "content_hash": "bd4580e3",
       "has_frontmatter": false
@@ -8791,7 +8817,7 @@
       "expert": null,
       "word_count": 3450,
       "modified": "2026-07-07T10:50:51.190212",
-      "age_days": 15,
+      "age_days": 16,
       "size_bytes": 33169,
       "content_hash": "92636d10",
       "has_frontmatter": false

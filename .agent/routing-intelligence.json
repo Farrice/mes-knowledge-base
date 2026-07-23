@@ -61,7 +61,7 @@
                 "nicolas-cole-digital-products": 3,
                 "ai-chris-lee-zero-testimonial-sales": 1,
                 "story-bible-builder": 1,
-                "jason-fladlien-marketing": 10,
+                "jason-fladlien-marketing": 11,
                 "how-i-write-os": 12,
                 "supercomputer": 30,
                 "design-md": 13,
@@ -74,7 +74,7 @@
                 "nate-b-jones-context-engineering": 30,
                 "nate-b-jones-intent-engineering": 1,
                 "omar-eltakrori": 1,
-                "Extraction": 33,
+                "Extraction": 34,
                 "Strategy": 38,
                 "donald-miller-storybrand": 1,
                 "strength-conditioning-os": 8,
@@ -98,9 +98,9 @@
                 "ben-watkins-storytelling": 1,
                 "alex-m-smith-natural-strategy": 1
             },
-            "total_routings": 597,
+            "total_routings": 599,
             "tier_counts": {
-                "0": 597,
+                "0": 599,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -110,8 +110,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 343,
-                "finalize-auto": 254
+                "hybrid": 344,
+                "finalize-auto": 255
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -186,11 +186,11 @@
                 "creative-director": 1,
                 "doc-coauthoring": 47,
                 "dan-wang-literary-analysis": 2,
-                "webapp-testing": 2,
+                "webapp-testing": 3,
                 "brand-operating-system": 24,
                 "chase-hughes-conversational-influence": 10,
                 "daniel-priestley": 1,
-                "jason-fladlien": 3,
+                "jason-fladlien": 4,
                 "swarm-commander": 3,
                 "donald-miller-cognitive-load": 5,
                 "kallaway-illusion-of-novelty": 8,
@@ -249,7 +249,7 @@
                 "seth-godin": 3,
                 "farrice-master-context-synthesis": 1,
                 "story-bible-builder": 2,
-                "jason-fladlien-marketing": 13,
+                "jason-fladlien-marketing": 14,
                 "luisa-zhou-coaching": 2,
                 "supercomputer": 43,
                 "design-md": 23,
@@ -369,11 +369,12 @@
                 "coaching-business-os": 1,
                 "expert-assembly": 1,
                 "david-perell-writing": 1,
-                "matthew-lakajev-linkedin": 1
+                "matthew-lakajev-linkedin": 1,
+                "prosperity-coach-system": 1
             },
             "total_feedback": 84,
             "negative_count": 0,
-            "ensemble_count": 441,
+            "ensemble_count": 442,
             "auto_miss_count": 66,
             "positive_count": 0
         }
@@ -11953,6 +11954,42 @@
             "mode": "finalize-auto",
             "workflow_used": "go",
             "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260723_180742_3816",
+            "timestamp": "2026-07-23T18:07:42.260188+00:00",
+            "session_id": "a5aab433-8d91-4cd8-a31b-85efb952f27b",
+            "request_summary": "https://jumpy-oregano-409.notion.site/Persuasive-Patterns-Jason-Fladlien-38abc67d4986803b93c8d8dc22ddf656?pvs=143 here is the link for the additional persuasion patterns that he said he gave him throu",
+            "intent_score": 0,
+            "domain_detected": "jason-fladlien-marketing",
+            "experts_deployed": [
+                "jason-fladlien-marketing",
+                "webapp-testing",
+                "prosperity-coach-system"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jason-fladlien-marketing",
+            "ensemble": true,
+            "compound_pairing": "jason-fladlien-marketing + webapp-testing + prosperity-coach-system",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260723_181547_0f21",
+            "timestamp": "2026-07-23T18:15:47.418791+00:00",
+            "session_id": "",
+            "request_summary": "Fladlien full Persuasive Patterns library harvest + deployment: scraped his complete Notion doc (56 patterns / 10 categories, ~28k words w/ examples + why-it-works mechanics) via public api/v3, archiv",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "jason-fladlien"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-amplify",
+            "ensemble": false,
             "compound_pairing": null,
             "feedback": null
         }
