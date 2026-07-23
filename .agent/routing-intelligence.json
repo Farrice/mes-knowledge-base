@@ -47,7 +47,7 @@
                 "darrel-wilson-ai-affiliate": 1,
                 "stefan-georgi-dopamine-copy": 8,
                 "marketing-studio-director": 1,
-                "System": 76,
+                "System": 77,
                 "brand-operating-system": 11,
                 "dara-denney-meta-ads": 5,
                 "internal-comms": 1,
@@ -95,11 +95,12 @@
                 "donald-miller-cognitive-load": 1,
                 "fresh-voice-system": 2,
                 "ward-farnsworth-rhetorical-mastery": 2,
-                "ben-watkins-storytelling": 1
+                "ben-watkins-storytelling": 1,
+                "alex-m-smith-natural-strategy": 1
             },
-            "total_routings": 595,
+            "total_routings": 597,
             "tier_counts": {
-                "0": 595,
+                "0": 597,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -109,8 +110,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 342,
-                "finalize-auto": 253
+                "hybrid": 343,
+                "finalize-auto": 254
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -124,7 +125,7 @@
                 "joscha-bach-consciousness": 2,
                 "cinema-worldbuilder-pro": 2,
                 "ali-abdaal-action-bias": 3,
-                "skill-creator": 2,
+                "skill-creator": 3,
                 "jen-santulan-listing-content": 33,
                 "deep-research": 10,
                 "system-orchestrator": 3,
@@ -144,7 +145,7 @@
                 "joanna-wiebe-persuasion-mastery": 1,
                 "andrew-stanton": 1,
                 "internal-comms": 6,
-                "forge-os": 9,
+                "forge-os": 10,
                 "kallaway-word-mastery": 2,
                 "andrew-stanton-audience-engineering": 3,
                 "claim-safe-health-marketing": 7,
@@ -203,7 +204,7 @@
                 "health-performance-geo": 4,
                 "luke-iha-vicious-hooks": 15,
                 "creative-direction": 7,
-                "darrel-wilson-ai-monetization": 1,
+                "darrel-wilson-ai-monetization": 2,
                 "jeremy-haynes-cold-offer": 5,
                 "fresh-voice-system": 10,
                 "daniel-priestley-oversubscribed": 1,
@@ -314,7 +315,7 @@
                 "banana-pro-director": 2,
                 "oren-operational-systems": 3,
                 "geoff-woods": 1,
-                "alex-m-smith-natural-strategy": 1,
+                "alex-m-smith-natural-strategy": 2,
                 "nate-b-jones-intent-engineering": 1,
                 "luke-iha-creative-strategy": 7,
                 "lara-acosta": 5,
@@ -372,7 +373,7 @@
             },
             "total_feedback": 84,
             "negative_count": 0,
-            "ensemble_count": 439,
+            "ensemble_count": 441,
             "auto_miss_count": 66,
             "positive_count": 0
         }
@@ -11917,6 +11918,42 @@
             "workflow_used": "supercomputer",
             "ensemble": true,
             "compound_pairing": "supercomputer + doc-coauthoring + sharran-srivatsaa-scaling",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260723_170828_e568",
+            "timestamp": "2026-07-23T17:08:28.107375+00:00",
+            "session_id": "c6f4ab6d-0bfd-4cee-92ae-22e87718de8e",
+            "request_summary": "the tool got interrupted, and I want to make sure that we can actually finish what we are executing.",
+            "intent_score": 0,
+            "domain_detected": "alex-m-smith-natural-strategy",
+            "experts_deployed": [
+                "alex-m-smith-natural-strategy",
+                "skill-creator",
+                "darrel-wilson-ai-monetization"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "alex-m-smith-natural-strategy",
+            "ensemble": true,
+            "compound_pairing": "alex-m-smith-natural-strategy + skill-creator + darrel-wilson-ai-monetization",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260723_173652_e639",
+            "timestamp": "2026-07-23T17:36:52.505062+00:00",
+            "session_id": "",
+            "request_summary": "Extract v3.0 'One Spine, One Dial' — adaptive forge-grade /extract: extraction_manifest.py (corpus/derive/check), extract.md v3.0 rewrite (auto-enrichment, derived manifest, amplify + asset scan), rou",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "forge-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "go",
+            "ensemble": true,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

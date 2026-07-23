@@ -1,20 +1,20 @@
 # Knowledge Briefing
-*Generated: 2026-07-21 | 729 sources | 2,816,370 words*
+*Generated: 2026-07-23 | 731 sources | 2,818,672 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
+- **index** (content) — 4,964 words — `knowledge/index.md`
+- **log** (general) — 14,459 words — `knowledge/log.md`
+- **blind-pass-log** (content) — 184 words — `extractions/matthew-lakajev-linkedin/blind-pass-log.md`
+- **blind-pass-specimen-artifact-only-opinion-ladder** (systems) — 294 words — `extractions/matthew-lakajev-linkedin/blind-pass-specimen-artifact-only-opinion-ladder.md`
+- **2026-07-23-pulse** (strategy) — 1,733 words — `research_outputs/market-pulse/2026-07-23-pulse.md`
 - **assembly-rubric** (strategy) — 209 words — `knowledge/assembly-rubric.md`
 - **2026-07-21-pressure-test-farrice-s-signal-pilot-practitione** (content) — 1,306 words — `knowledge/assembly-sessions/2026-07-21-pressure-test-farrice-s-signal-pilot-practitione.md`
-- **index** (content) — 4,954 words — `knowledge/index.md`
-- **log** (general) — 14,294 words — `knowledge/log.md`
 - **mastery-extraction-agency-podcast** (content) — 4,293 words — `extractions/matthew-lakajev/mastery-extraction-agency-podcast.md`
-- **blind-pass-log** (content) — 84 words — `extractions/matthew-lakajev-linkedin/blind-pass-log.md`
 - **blind-pass-specimen-closed-lost-post** (content) — 268 words — `extractions/matthew-lakajev-linkedin/blind-pass-specimen-closed-lost-post.md`
 - **2023-09-ai-content-ideas-post** (content) — 86 words — `extractions/matthew-lakajev-linkedin/reference-corpus/2023-09-ai-content-ideas-post.md`
-- **2023-10-closed-80k-30-days-post** (content) — 339 words — `extractions/matthew-lakajev-linkedin/reference-corpus/2023-10-closed-80k-30-days-post.md`
-- **mastery-extraction-micro-moments** (content) — 2,211 words — `extractions/meg-heckman/mastery-extraction-micro-moments.md`
 
 ## Domain Coverage
 
@@ -23,10 +23,10 @@
 | content | 257 | lara-acosta |
 | copywriting | 102 | luke-iha |
 | general | 91 | nick-saraev |
-| strategy | 76 | april-dunford |
+| strategy | 77 | april-dunford |
 | screenwriting | 53 | connelly |
 | brand | 50 | oren-john |
-| systems | 40 | nick-saraev |
+| systems | 41 | nick-saraev |
 | seo | 26 | nathan-gotch |
 | research | 23 | dai-media |
 | sales | 11 | dai-media |

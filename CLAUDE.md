@@ -102,7 +102,7 @@ python3 execution/chain_runner.py finalize "[what you produced]" \
 - Brand OS -> `/build-bos` · multi-deliverable mission -> `/supercomputer` · "no gates" -> `/autopilot` · context engineering -> `/ce-design`
 - Multi-expert/council -> `/convene` · generic research -> `execution/research.py` (Receipt-carrying; never answer research from training memory)
 - DESIGN.md work -> `/design-md-*` · UI from DESIGN.md -> `/product-build` · posters/video -> `skills/fantastic-posters/` (cost-gated)
-- New extraction -> `/extract` or `/extract-forge`, ungated (forge_gate.py is telemetry only; genius.md enrichment of A-tier skills remains available as an option, never a requirement)
+- New extraction -> `/extract` (adaptive forge-grade: derived manifest via `extraction_manifest.py`, auto-enriches thin sources, forge-scales extensions) or `/extract-forge` (explicit full-ceremony 3-checkpoint session), ungated (forge_gate.py is telemetry only; genius.md enrichment of A-tier skills remains available as an option, never a requirement)
 - JS-rendered/login-gated web -> Playwright (`directives/browser-automation-safety.md`), never WebFetch · video sources -> `fetch-video-context.py`
 - **Orchestration seating + pattern + autonomy tier -> `directives/orchestration-doctrine.md`** (Conductor Ladder: strongest available model conducts — Fable/Mythos, Opus steady-state, Sonnet by-the-book; `/go` compiles Mission Cards; session lock before long autonomous runs)
 - Foggy multi-session effort (decisions before deliverables) -> `/wayfinder-work` · deep Voice∥Brief verify -> `/two-axis-verify` · Farrice learning a new domain -> `/operator-school` · HITL/AFK + verify doctrine -> `directives/orchestration-primitive.md`

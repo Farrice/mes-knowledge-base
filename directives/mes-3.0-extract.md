@@ -42,15 +42,15 @@ The methodology is the floor, not the ceiling. Apply full creative intelligence 
 
 ## Extraction Depth Tiers
 
-Choose based on source material:
+Tier is derived from the **post-enrichment** corpus (extract.md v3.0 P1.5 auto-enriches thin sources from the same expert BEFORE tiering — a short first video is a starting point, not a ceiling). Workflow/prompt counts come from `execution/extraction_manifest.py derive`, never from feel:
 
-| Tier | When | Output |
-|------|------|--------|
-| **Light** | Short clips, single-concept sources, <15 min content | Genius patterns + 1-3 crown jewel prompts |
-| **Standard** | Full interviews, presentations, single-topic deep dives | Full extraction report + flexible prompt count (typically 5-10) |
-| **Deep** | Multi-part masterclasses, full courses, extensive material | Full extraction + cross-reference with existing Antigravity skills + ESO/AGENT.md |
+| Tier | When (post-enrichment corpus) | Output | Workflow yield (manifest) |
+|------|------|--------|--------|
+| **Light** | ONLY on explicit "light extract" override | Genius patterns + 1-3 crown jewel prompts | 2-4 |
+| **Standard** | MID corpus (5-8k words) after enrichment exhausted | Full extraction report + prompts per manifest (floor 7) | 4-7 |
+| **Deep** | RICH corpus (≥8k words) — forced | Full extraction + cross-reference with existing Antigravity skills + ESO/AGENT.md | 8-15 in 3 tiers |
 
-Default to **Standard** unless source material clearly warrants Light or Deep.
+THIN after enrichment (<5k) → Standard process, honest manifest, `fidelity: low` flag — never padded.
 
 ---
 

@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7261,
+ "count": 7266,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -15342,9 +15342,30 @@
   {
    "kind": "prompt-v2",
    "skill": "meg-heckman-buyer-trigger-os",
+   "title": "Meg Heckman \u2014 Brand-Voice Replies",
+   "gist": "You are running Heckman micro-moment #2: reply to every single comment under the brand's ads and posts AS the brand, in a named human's voice. The farmers-market frame: two stalls, same product \u2014 one vendor silent, one m",
+   "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/brand-voice-replies.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "meg-heckman-buyer-trigger-os",
+   "title": "Meg Heckman \u2014 Co-Creation Ask Email",
+   "gist": "You are writing the \"need your help\" co-creation email \u2014 Heckman micro-moment #5, the exact template that produced Sloth Hiking Club's claimed #3 bestseller: a customer replied \"the plural of moose should be meese,\" Eric",
+   "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/cocreation-ask-email.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "meg-heckman-buyer-trigger-os",
    "title": "Meg Heckman \u2014 Concept Sprint",
    "gist": "You are running Meg Heckman's concept generation sprint, built on the production format used for the Josh 12-concept sprint. She doesn't look for designs that \"would look cool\" \u2014 she looks for the exact person who will s",
    "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/concept-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "meg-heckman-buyer-trigger-os",
+   "title": "Meg Heckman \u2014 Customer-Life Email",
+   "gist": "You are writing a their-world-not-our-shelf email \u2014 Heckman micro-moment #4. The calibration anchor is Sloth Hiking Club's March email with no product in it: \"Can we talk about the drive home after a hike?\" \u2014 the dead-si",
+   "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/customer-life-email.md"
   },
   {
    "kind": "prompt-v2",
@@ -15384,6 +15405,13 @@
   {
    "kind": "prompt-v2",
    "skill": "meg-heckman-buyer-trigger-os",
+   "title": "Meg Heckman \u2014 Spotted Feature Pack",
+   "gist": "You are producing Heckman micro-moments #6-7 as one pack: the customer-feature \"spotted\" email plus the never-skip-a-week rhythm installation. \"Your customer's photo is a review with a face\" \u2014 Nielsen's 92% peer-trust fi",
+   "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/spotted-feature-pack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "meg-heckman-buyer-trigger-os",
    "title": "Meg Heckman \u2014 Store Stack",
    "gist": "You are architecting a store's identity structure the way Meg Heckman does \u2014 she has watched it from both ends: print-catalog stores organized as \"T-Shirts, Hoodies, New Arrivals\" that make a person who just felt seen go",
    "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/store-stack.md"
@@ -15408,6 +15436,13 @@
    "title": "Meg Heckman \u2014 Trigger Transfer",
    "gist": "You are transferring Meg Heckman's 6-trigger purchase-psychology system onto a non-apparel conversion surface \u2014 offer, headline, landing page, content hook, email subject line, or service positioning. \"The offer 'we help",
    "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/trigger-transfer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "meg-heckman-buyer-trigger-os",
+   "title": "Meg Heckman \u2014 Trust Welcome Email",
+   "gist": "You are writing the give-before-you-ask welcome email \u2014 Heckman micro-moment #3. \"The first email someone gets from you is a handshake. And most brands open that handshake with an invoice.\" This is the most-read email th",
+   "path": "skills/meg-heckman-buyer-trigger-os/references/prompts-v2/trust-welcome-email.md"
   },
   {
    "kind": "prompt-v2",

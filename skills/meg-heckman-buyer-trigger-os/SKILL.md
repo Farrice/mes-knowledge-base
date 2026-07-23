@@ -1,10 +1,10 @@
 ---
 name: "Meg Heckman — Buyer-Trigger OS (Merch, POD & Product Purchase Psychology)"
-description: "Purchase-trigger psychology for physical/visual products from the operator behind Sloth Hiking Club — the layer where the PRODUCT ITSELF is the conversion mechanism. 23 genius patterns and 13 workflows spanning her 5-layer system: market selection (saturation = demand proof, sub-identity gap), design triggers (6-trigger model, mirror-vs-poster, 50ms gate, familiar/twist, tattoo test), the factory loop (generate→test→scale-or-cut→email→repeat), funnel diagnostics (6 metrics as single questions with kill/scale thresholds), and the trust layer (7 micro-moments: brand-voice replies, give-before-ask welcome, customer-life emails, co-creation, customer features, never-skip-a-week rhythm). Built for T-shirt/apparel/POD/dropshipping/merch drops AND cross-vertical trigger transfer to offers, headlines, landing pages, and content hooks. Powers the /merch-os orchestrator."
-version: "1.1"
+description: "Purchase-trigger psychology for physical/visual products from the operator behind Sloth Hiking Club — the layer where the PRODUCT ITSELF is the conversion mechanism. 23 genius patterns and 16 workflows spanning her 5-layer system: market selection (saturation = demand proof, sub-identity gap), design triggers (6-trigger model, mirror-vs-poster, 50ms gate, familiar/twist, tattoo test), the factory loop (generate→test→scale-or-cut→email→repeat), funnel diagnostics (6 metrics as single questions with kill/scale thresholds), and the trust layer (7 micro-moments: brand-voice replies, give-before-ask welcome, customer-life emails, co-creation, customer features, never-skip-a-week rhythm). Built for T-shirt/apparel/POD/dropshipping/merch drops AND cross-vertical trigger transfer to offers, headlines, landing pages, and content hooks. Powers the /merch-os orchestrator."
+version: "1.2"
 format: "completion-engine"
-workflows: 13
-extracted_from: "7 Meg Heckman videos (~19,300 words + 275 frames, 2026) — multi-source forge; supersedes Codex light skill, vocabulary contract preserved; v1.1 adds the trust/micro-moments layer (gSkDBLWLfM8)"
+workflows: 16
+extracted_from: "7 Meg Heckman videos (~19,300 words + 275 frames, 2026) — multi-source forge; supersedes Codex light skill, vocabulary contract preserved; v1.1 adds the trust/micro-moments layer (gSkDBLWLfM8); v1.2 forge-scales it to 4 workflows + 6 prompts (extract v3.0 manifest PoC)"
 orchestrator: "/merch-os"
 tier: system
 ---
@@ -34,7 +34,10 @@ Deploy the thinking of an operator who built a claimed seven-figure POD brand in
 | `/meg-funnel-doctor` | [Funnel Doctor](workflows/meg-funnel-doctor.md) | Stage-isolated diagnosis from 6 metrics + the ONE fix per failing stage | Store revenue leaking; "ads aren't working"; ROAS panic |
 | `/meg-factory-loop` | [Factory Loop](workflows/meg-factory-loop.md) | The 5-step operating cadence installed: volume targets, 48h tests, kill/scale rules, email rhythm | A brand needs an operating system, not another tactic |
 | `/meg-aov-architect` | [AOV Architect](workflows/meg-aov-architect.md) | Collection-cohesion plan + shipping-arbitrage bundle logic | Margin thin; AOV below target; before installing upsell apps |
-| `/meg-micro-moments` | [Micro-Moments Install](workflows/meg-micro-moments.md) | 7-moment trust audit + 3 shipped artifacts (welcome email, customer-life email, co-creation ask, spotted feature, comment-voice card, drop calendar) in the brand's named-human voice | Zero-audience launch, dark-period recovery, or flat list engagement despite a converting product |
+| `/meg-micro-moments` | [Micro-Moments Install](workflows/meg-micro-moments.md) | 7-moment trust audit + install order + 3 shipped artifacts; routes production to the three Layer-5 engines below | Zero-audience launch, dark-period recovery, or flat list engagement despite a converting product |
+| `/meg-trust-email-engine` | [Trust Email Engine](workflows/meg-trust-email-engine.md) | The three trust emails, sendable: give-before-ask welcome, customer-life story + moment bank, six-beat co-creation ask | Welcome automation is an invoice; list engagement flat; monthly co-creation cadence |
+| `/meg-community-voice` | [Community Voice System](workflows/meg-community-voice.md) | Voice card + 100% backlog replies + daily LLM-assisted reply system with escalation line | Ads running with unanswered comments; comment section reads silent-stall |
+| `/meg-fan-flywheel` | [Fan Flywheel](workflows/meg-fan-flywheel.md) | "Spotted" feature pack + co-creation build rule + never-skip-a-week rhythm, wired into one weekly row | Brand has real customers but no UGC motion or a broken drop rhythm |
 
 ### Tier 3 — Cross-domain (stacking & transfer)
 | Command | Workflow | Produces | Use When |
@@ -83,20 +86,25 @@ Inverting the order — execution before trigger validation — produces beautif
 
 ## Execution Prompts (structure-pure v2)
 
-13 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+18 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
 
 - **Meg Heckman — 50ms Gate** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/50ms-gate.md`
 - **Meg Heckman — AOV Architect** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/aov-architect.md`
 - **Meg Heckman — Avatar Bridge** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/avatar-bridge.md`
+- **Meg Heckman — Brand-Voice Replies** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/brand-voice-replies.md`
+- **Meg Heckman — Co-Creation Ask Email** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/cocreation-ask-email.md`
 - **Meg Heckman — Concept Sprint** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/concept-sprint.md`
+- **Meg Heckman — Customer-Life Email** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/customer-life-email.md`
 - **Meg Heckman — Design Handoff** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/design-handoff.md`
 - **Meg Heckman — Factory Loop** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/factory-loop.md`
 - **Meg Heckman — Funnel Doctor** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/funnel-doctor.md`
 - **Meg Heckman — Listing Copy** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/listing-copy.md`
 - **Meg Heckman — Micro-Moments Install** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/micro-moments-install.md`
+- **Meg Heckman — Spotted Feature Pack** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/spotted-feature-pack.md`
 - **Meg Heckman — Store Stack** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/store-stack.md`
 - **Meg Heckman — Sub-Identity Map** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/sub-identity-map.md`
 - **Meg Heckman — Trigger Audit** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/trigger-audit.md`
 - **Meg Heckman — Trigger Transfer** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/trigger-transfer.md`
+- **Meg Heckman — Trust Welcome Email** — `skills/meg-heckman-buyer-trigger-os/references/prompts-v2/trust-welcome-email.md`
 
 <!-- END:execution-prompts -->

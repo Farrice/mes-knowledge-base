@@ -17,17 +17,16 @@ This is the "do it all" command. One invocation, one conversation, one complete 
 
 ## When to Use
 
-- Source material is RICH (8,000+ words, deep methodology, multiple distinct techniques)
-- The expert is in a domain critical to Farrice's business (writing, persuasion, brand, content psychology)
-- You want mastery-level depth — not a quick 3-workflow capture
-- This is an expert you'll reference repeatedly across multiple projects
+- You want the full-ceremony session: complete Vision document + 3 human checkpoints, with Farrice steering at every stage
+- The expert is in a domain critical to Farrice's business (writing, persuasion, brand, content psychology) and warrants a 2-4h supervised build
+- Source material is already known-RICH (8,000+ words, deep methodology, multiple distinct techniques)
 
 ## When NOT to Use
 
-- Light sources (< 5,000 words) — use standard `/extract`
-- Niche experts with narrow scope — standard extract is sufficient
-- Time-constrained — forge takes a full session; standard extract is faster
-- You just want to explore whether an expert is worth extracting — start with `/extract`, amplify later
+- You don't need per-phase control — `/extract` v3.0 reaches the same output shape adaptively in one pass (derived manifest via `execution/extraction_manifest.py`, auto-enrichment of thin sources from the same expert, forge-scale extensions, asset scan). **Short source no longer means small output** — /extract enriches to RICH before it sizes (elevation: Farrice 2026-07-23).
+- Time-constrained — forge takes a full session; `/extract` is faster at the same floor
+- You just want to explore whether an expert is worth extracting — run `/extract` with "light extract"
+- The expert already exists — `/extract` Extension Mode forge-scales the new layer into the existing skill
 
 ## Pipeline
 

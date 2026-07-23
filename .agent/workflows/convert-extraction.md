@@ -43,11 +43,7 @@ Identify 3-5 natural end-to-end workflows based on the extraction content:
 ...
 ```
 
-**Workflow sizing rules:**
-- 3 or fewer source items → 1-2 workflows
-- 4-10 → 2-3 workflows
-- 11-25 → 3-4 workflows
-- 26+ → 4-5 workflows
+**Workflow sizing:** derive, don't assert — `python3 execution/extraction_manifest.py derive --patterns N --deliverables N --corpus-words N` is the single source of truth (same helper /extract v3.0 uses; RICH corpus floors at 8-15 workflows across 3 tiers, ≥7 prompts). Legacy quick table (small conversions only): ≤3 source items → 1-2 workflows · 4-10 → 2-3 · 11-25 → 3-4 · 26+ → 4-5.
 
 ---
 

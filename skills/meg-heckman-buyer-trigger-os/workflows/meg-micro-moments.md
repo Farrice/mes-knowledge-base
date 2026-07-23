@@ -54,7 +54,7 @@ State the order and the one-line reason each.
 
 ### Step 3: SHIP THE ARTIFACTS
 
-Execution prompt: `references/prompts-v2/micro-moments-install.md` — honor its Output Contract and Skeleton.
+Execution prompt: `references/prompts-v2/micro-moments-install.md` — honor its Output Contract and Skeleton. For deeper single-surface production, route to the Layer-5 engines: emails → `/meg-trust-email-engine` (prompts: `trust-welcome-email`, `customer-life-email`, `cocreation-ask-email`) · comments → `/meg-community-voice` (`brand-voice-replies`) · features + rhythm → `/meg-fan-flywheel` (`spotted-feature-pack`).
 
 Produce every artifact for the three selected moments, in the brand's voice, signed by the named human. Calibration anchors are genius.md Exemplars 5–7 — match their register (conversational, fragmentary, zero catalog-speak), not their content.
 
