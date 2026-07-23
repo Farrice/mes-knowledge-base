@@ -19,7 +19,7 @@ status: enriched
 - The whole daily formula (`/ml-daily-rhythm`): 10 DMs before 10am + ~5 engager touches/day + 3-5 posts/week. Volume = **time spent**, not touches sent.
 - KPI discipline everywhere: conversations started, never impressions ("a million impressions a month and never had a lead").
 - One doctrine line: **never pitch, only invite** — one "buy now" breaks the whole machine.
-- A-tier is pending Farrice's blind pass: specimen + 2 real posts sit in `extractions/matthew-lakajev-linkedin/`.
+- **A-TIER CONFIRMED 2026-07-23** (EVAL-054): Farrice's blind pass *preferred the generated post* over two real Lakajev posts — see [2026-07-23-lakajev-conversation-layer.md](2026-07-23-lakajev-conversation-layer.md) for the verification protocol.
 - First thing to run: `/ml-closed-lost` on Farrice's own network (it's a *send* system — honors send-before-build).
 
 ## Command table
