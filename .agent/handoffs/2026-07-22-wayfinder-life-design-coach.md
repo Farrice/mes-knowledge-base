@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** life-design-coach  
-**Full path:** .agent/handoffs/2026-07-22-wayfinder-life-design-coach.md  
-**Date:** 2026-07-22 (today)  
-**Status:** active  
-**Title:** Handoff — Wayfinder: Life-Design Coach Lane (2026-07-22)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume life-design-coach` for this one.
-
----
-
 ---
 thread: life-design-coach
 status: active
@@ -30,4 +18,3 @@ Farrice named his calling on record (2026-07-22): life coach / life-design / spi
 
 ## Receipts
 Parallax IS the calling in memoir clothes (his manifesto = the 10-bar). Coach-lane content voice: Bayer body author + BLEND + textures on demand. Do not let the wayfinder session turn into an offer-build — decisions first (that is the whole point of wayfinder).
-
