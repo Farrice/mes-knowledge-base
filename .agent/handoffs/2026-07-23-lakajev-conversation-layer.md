@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** lakajev-conversation-layer  
-**Full path:** .agent/handoffs/2026-07-23-lakajev-conversation-layer.md  
-**Date:** 2026-07-23 (today)  
-**Status:** done  
-**Title:** Matthew Lakajev — Forge Expansion v2 (Six Gates + Conversation Layer, A-Tier)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume lakajev-conversation-layer` for this one.
-
----
-
 ---
 thread: lakajev-conversation-layer
 status: done
@@ -59,4 +47,3 @@ pin: true
 - Send-before-build is BINDING on the Signal Pilot thread — if the session drifts toward building assets before sends go out, flag and stop.
 - Never pitch in any script; a single "buy now" line breaks the system's core law.
 - Contact data is personal — keep names/emails in local files, out of any published artifact.
-
