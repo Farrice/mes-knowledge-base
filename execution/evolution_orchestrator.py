@@ -918,11 +918,68 @@ def run_monthly() -> Dict[str, Any]:
         result["status"] = "import_error"
         result["error"] = str(e)
 
+    # Phase-2 consumer (loop-repair #4, Farrice all-12 GO 2026-07-24): the
+    # queue's fix-arm. One card per monthly cycle, top candidate by queue
+    # pressure; auto_evolve_eligible rows run headless (T1), everything else
+    # parks for Farrice (T2) — human-optional review is a standing refusal.
+    try:
+        result["phase2_card"] = _emit_phase2_card()
+    except Exception as e:
+        result["phase2_card"] = {"status": "error", "error": str(e)}
+
     state = _load_state()
     state["last_monthly"] = datetime.now().isoformat()
     _save_state(state)
 
     return result
+
+
+def _emit_phase2_card() -> Dict[str, Any]:
+    """Emit ONE mission card for the highest-pressure phase2_queue skill.
+    Skips if a phase2 card is already pending/parked (never stack cards)."""
+    queue_dir = ROOT / ".agent" / "mission-queue"
+    for sub in ("pending", "parked"):
+        if list((queue_dir / sub).glob("card-phase2-*.md")):
+            return {"status": "skipped", "reason": f"phase2 card already in {sub}/"}
+    if not PHASE2_QUEUE.exists():
+        return {"status": "skipped", "reason": "no queue"}
+    rows = [json.loads(l) for l in PHASE2_QUEUE.read_text().splitlines() if l.strip()]
+    if not rows:
+        return {"status": "skipped", "reason": "queue empty"}
+    by_skill: Dict[str, list] = {}
+    for r in rows:
+        by_skill.setdefault(r.get("skill", "?"), []).append(r)
+    # Pressure = auto-eligible first, then most-queued, then most recent.
+    def pressure(item):
+        skill, rs = item
+        return (any(r.get("auto_evolve_eligible") for r in rs), len(rs),
+                max(r.get("queued_at", "") for r in rs))
+    skill, rs = max(by_skill.items(), key=pressure)
+    auto_ok = any(r.get("auto_evolve_eligible") for r in rs)
+    tier = "T1" if auto_ok else "T2"
+    latest = max(rs, key=lambda r: r.get("queued_at", ""))
+    today = date.today().isoformat()
+    card = queue_dir / "pending" / f"card-phase2-{today}.md"
+    card.parent.mkdir(parents=True, exist_ok=True)
+    card.write_text(f"""# Mission Card — Phase-2 skill evolution: {skill} ({today})
+Tier: {tier}
+Produced: {today} (evolution_orchestrator monthly Phase-2 consumer — loop-repair #4)
+
+## Objective
+Run `/skill-evolution` on `{skill}` — queued {len(rs)}x in phase2_queue
+(latest reason: {latest.get('reason', '?')}; metrics: {json.dumps(latest.get('metrics', {}))[:200]}).
+Ratchet semantics are BINDING: keep the edit only on measured score improvement,
+revert on regression (alex-suzuki precedent, commit dcc8f69d7). On completion,
+remove this skill's rows from `evolution_store/queue/phase2_queue.jsonl`.
+{"" if auto_ok else "Human review required (not grounded) — Farrice runs or nods this; the runner parks it."}
+
+## Constraints
+- One skill per card; never batch the queue.
+- Claim `session_lock.py` before editing skill files; clean `git status` after.
+- Log the outcome to the evolution trace; re-queue only on new low scores.
+""")
+    return {"status": "emitted", "card": card.name, "skill": skill,
+            "tier": tier, "queued_count": len(rs)}
 
 
 # ─────────────────────────────────────────────────────────

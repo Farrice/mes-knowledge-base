@@ -34,6 +34,7 @@ Load before executing:
    - Verification runs — each naming the check, the timing, and what pass looks like
 6. **Write the file** — `Write` `.agent/missions/<mission-slug>/wargames/NN-<name>.md`.
 7. **Append the self-grade** — `Edit` `LEDGER.md`: mission, draft location, an honest point-by-point self-grade against `references/eight-point-standard.md`'s eight points, flagged explicitly as a self-grade pending the adversarial pass in `/wargame-grade`.
+8. **Bank the failure-map where readers exist (canonical home, loop-repair 2026-07-24)** — distill the wargame's Fail/Counter-move/Abort content into one Solution Card at `docs/solutions/YYYY-MM-DD-wargame-<mission-slug>.md` (same frontmatter as `/extract-approach` cards, `problem_signature:` phrased as the failure the map prevents). This is what makes the wargame retrievable: the router hook and `memory_facade.py` resurface `docs/solutions/` automatically; the per-mission `wargames/` copy is the working draft, the solution card is the banked judgment. A wargame without this card is unfinished work (audit 2026-07-24: this loop was DEAD — artifacts unbanked, no reader).
 
 ## Worked Example (one move, Kashef-grade)
 
@@ -76,7 +77,7 @@ An item that reads "check if brand assets exist" without the command and both ro
 
 ## Output Requirements
 
-`.agent/missions/<mission-slug>/wargames/NN-<name>.md` containing all five Document Schema sections in order, plus a header line stating the consequence horizon applied and the model tier the drafting pass ran at. A matching `LEDGER.md` append with the self-grade.
+`.agent/missions/<mission-slug>/wargames/NN-<name>.md` containing all five Document Schema sections in order, plus a header line stating the consequence horizon applied and the model tier the drafting pass ran at. A matching `LEDGER.md` append with the self-grade. **And** the banked failure-map card in `docs/solutions/` (step 8) — the deliverable is not done until the judgment is retrievable.
 
 ## Quality Gate
 

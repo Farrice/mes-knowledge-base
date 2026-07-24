@@ -275,6 +275,49 @@ def render_system_vitals(vitals: dict) -> list:
     return lines
 
 
+def gather_memory_review() -> dict:
+    """Pending distilled-rule signal for the '🧠 Memory Review' brief section
+    (loop-repair #7, 2026-07-24 — pull-surface half only; auto-approval stays
+    NO, Farrice's taste is the filter). Reads flagged_review in the sovereign
+    DB read-only; any failure degrades to empty dict — diagnostic, never a
+    gate."""
+    result = {}
+    try:
+        import sqlite3
+        db = REPO_ROOT / ".memory" / "sovereign.db"
+        if not db.exists():
+            return result
+        conn = sqlite3.connect(f"file:{db}?mode=ro", uri=True)
+        conn.row_factory = sqlite3.Row
+        rows = conn.execute(
+            "SELECT judge_score, created_at, proposed_content FROM flagged_review "
+            "WHERE status = 'pending' ORDER BY judge_score DESC LIMIT 50"
+        ).fetchall()
+        conn.close()
+        if not rows:
+            return result
+        oldest = min(r["created_at"] or "" for r in rows)
+        top = (rows[0]["proposed_content"] or "").strip().replace("\n", " ")[:110]
+        result = {"count": len(rows), "oldest": oldest[:10], "top": top,
+                  "top_score": rows[0]["judge_score"]}
+    except Exception:
+        pass
+    return result
+
+
+def render_memory_review(mem: dict) -> list:
+    """≤3-line brief section; silent no-op when the queue is empty."""
+    if not mem:
+        return []
+    lines = ["", "## 🧠 Memory Review"]
+    lines.append(f"- {mem['count']} distilled rule{'s' if mem['count'] != 1 else ''} "
+                 f"pending your review (oldest {mem.get('oldest', '?')}) — "
+                 f"top ({mem.get('top_score', '?')}): \"{mem.get('top', '')}\"")
+    lines.append("- Review: `python3 execution/memory_review.py list` → `approve <id>` / `reject <id>` "
+                 "· Source: [.memory/sovereign.db](.memory/sovereign.db) flagged_review")
+    return lines
+
+
 def gather_evolution() -> dict:
     """Nightly evolution-report signal for the '\U0001f9ec Evolution' brief
     section. Reads the newest evolution_store/traces/daily_evolution_*.md,
@@ -823,7 +866,7 @@ def generate_questions(staleness, due_goals, loops, weekly_due, today) -> list:
 
 def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions, weekly_line,
                  outer_loop=None, evolution=None, world_pulse=None, loops_src="",
-                 system_vitals=None) -> str:
+                 system_vitals=None, memory_review=None) -> str:
     """Self-contained brief (Farrice, 2026-07-08, binding): every section names
     its source as a clickable repo-relative link, every question carries a
     provenance line. He should never have to ask where a line came from."""
@@ -871,6 +914,8 @@ def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions
         lines.extend(render_evolution(evolution))
     if system_vitals:
         lines.extend(render_system_vitals(system_vitals))
+    if memory_review:
+        lines.extend(render_memory_review(memory_review))
     lines.append("")
     n_words = {3: "three", 4: "four", 5: "five"}
     lines.append(f"## Your {n_words.get(len(questions), len(questions))} questions")
@@ -945,9 +990,11 @@ def cmd_prep(force: bool, dry_run: bool, date_str: str = None) -> int:
     outer_loop = gather_outer_loop()
     evolution = gather_evolution()
     system_vitals = gather_system_vitals()
+    memory_review = gather_memory_review()
     brief = render_brief(state, goals, due_goals, revenue_due, threads, loops,
                          questions, weekly_line, outer_loop, evolution, world_pulse,
-                         loops_src=loops_src, system_vitals=system_vitals)
+                         loops_src=loops_src, system_vitals=system_vitals,
+                         memory_review=memory_review)
 
     if dry_run:
         print(brief)

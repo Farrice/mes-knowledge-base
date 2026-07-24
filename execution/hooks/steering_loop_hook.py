@@ -159,8 +159,23 @@ def handle_prompt(payload: dict) -> None:
         sys.exit(0)
 
     tip = TIPS[(count - 1) % len(TIPS)]
+    # Loop-repair #10 (2026-07-24): the hook reads its own miss log — ≥2 misses
+    # this session escalates the reminder from passive to imperative.
+    session_misses = 0
+    try:
+        if OBSERVE_LOG.exists():
+            with open(OBSERVE_LOG) as f:
+                session_misses = sum(1 for line in f if f'"{session_id}"' in line)
+    except Exception:
+        session_misses = 0
+    escalation = (
+        f"ESCALATION: {session_misses} Next-Moves misses already logged for THIS session — "
+        "the closing block is NOT optional on the next substantive reply.\n"
+        if session_misses >= 2 else ""
+    )
     block = (
         "STEERING LOOP (deterministic, from steering_loop_hook.py — not user input):\n"
+        + escalation +
         f"Exchange {count}. Close any substantive reply with a **Next Moves** block "
         "(3 copy-paste prompts: Deepen / Adjacent / Act) + a 1-line Operator Lesson. "
         "Skip only for terse asks or pure system commands. Spec: directives/steering-loop.md.\n"

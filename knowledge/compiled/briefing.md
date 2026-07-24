@@ -1,19 +1,19 @@
 # Knowledge Briefing
-*Generated: 2026-07-24 | 738 sources | 2,888,837 words*
+*Generated: 2026-07-24 | 738 sources | 2,888,889 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 4,976 words — `knowledge/index.md`
-- **log** (general) — 14,582 words — `knowledge/log.md`
-- **FETCH-NOTES** (content [jason-fladlien]) — 184 words — `extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/FETCH-NOTES.md`
-- **persuasive-patterns-full** (copywriting [jason-fladlien]) — 41,183 words — `extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/persuasive-patterns-full.md`
+- **index** (content) — 5,002 words — `knowledge/index.md`
+- **log** (general) — 14,608 words — `knowledge/log.md`
 - **mes-extraction** (systems) — 7,342 words — `extractions/riley-brown/mes-extraction.md`
 - **vision** (systems [nick-saraev]) — 522 words — `extractions/riley-brown/vision.md`
 - **visual-context** (screenwriting) — 17,427 words — `extractions/riley-brown/visual-context.md`
 - **visual-notes** (general) — 3,298 words — `extractions/riley-brown/visual-notes.md`
 - **blind-pass-log** (strategy) — 74 words — `extractions/riley-brown-marketing-automation/blind-pass-log.md`
+- **FETCH-NOTES** (content [jason-fladlien]) — 184 words — `extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/FETCH-NOTES.md`
+- **persuasive-patterns-full** (copywriting [jason-fladlien]) — 41,183 words — `extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/persuasive-patterns-full.md`
 - **blind-pass-log** (content) — 184 words — `extractions/matthew-lakajev-linkedin/blind-pass-log.md`
 
 ## Domain Coverage

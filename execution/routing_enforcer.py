@@ -521,6 +521,45 @@ BINDINGS = [
         ),
     },
     {
+        "id": "offer_redteam_gate",
+        "signal_phrases": [
+            "new offer",
+            "cold offer",
+            "offer stack",
+            "offer spine",
+            "price the offer",
+            "offer pricing",
+            "what should i charge",
+            "should i charge",
+            "price point for",
+            "launch an offer",
+            "launch this offer",
+            "offer structure",
+            "pivot the offer",
+            "change the offer",
+        ],
+        # Executing an already-red-teamed offer (sends, assets, fulfillment)
+        # should not re-trigger the gate.
+        "negative_signals": [
+            "send the", "draft the dm", "outreach message", "fulfill",
+            "already red-teamed", "already redteamed", "per the brief",
+        ],
+        "mandatory_workflow": "offer-redteam",
+        "forbidden_workflows": [],
+        "reason": (
+            "Offer/pricing decisions route through /offer-redteam (offer_gate.py) "
+            "BEFORE build or send. The gate's one prior firing killed the $400 "
+            "audit offer and modified Signal Pilot — proven anti-echo-chamber. "
+            "Loop-engineering brief candidate 5 (Farrice all-12 GO, 2026-07-24): "
+            "a gate with no road through it never fires; this binding is the road."
+        ),
+        "override_flag": "--no-redteam",
+        "override_warning": (
+            "Only --no-redteam for offers that already carry a red-team receipt "
+            "this cycle; a fresh offer skipping the gate is echo-chamber risk."
+        ),
+    },
+    {
         "id": "brand_operating_system",
         "signal_phrases": [
             "brand operating system",

@@ -103,3 +103,4 @@
 {"ts": "2026-07-19T17:21:15.713780+00:00", "event": "check", "service": "higgsfield-nano", "decision": "approved", "request": "MyBPM Sunday/Monday split static, flat graphic, 4:5"}
 {"ts": "2026-07-21T15:51:33.309829+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
 {"ts": "2026-07-21T16:23:05.520276+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
+{"ts": "2026-07-24T22:40:49.972822+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}

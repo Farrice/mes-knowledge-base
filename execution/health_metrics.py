@@ -148,6 +148,30 @@ def collect_metrics(deep: bool = False) -> dict:
         "content_finish_bytes": _file_size(REPO_ROOT / ".agent" / "content-finish-log.jsonl"),
     }
 
+    # Loop-repair #10 (2026-07-24): steering misses in the last 7 days, so the
+    # miss-rate has a trend, not just a byte-size.
+    try:
+        cutoff = (datetime.now() - timedelta(days=7)).isoformat()
+        steer_log = REPO_ROOT / ".agent" / "sessions" / "steering-observe.jsonl"
+        m["steering_misses_7d"] = sum(
+            1 for l in steer_log.read_text().splitlines()
+            if l.strip() and json.loads(l).get("ts", "") >= cutoff) if steer_log.exists() else 0
+    except Exception:
+        m["steering_misses_7d"] = -1
+
+    # Loop-repair #3ii (2026-07-24): the observe log gets a real consumer —
+    # per-session dedupe + weekly trend, refreshed on every metrics run.
+    try:
+        from session_ledger_report import summary as _ledger_summary, render as _ledger_render, OUT as _ledger_out
+        ls = _ledger_summary()
+        if ls:
+            m["session_ledger"] = {k: ls[k] for k in
+                                   ("events", "debted_sessions", "noise_factor", "zero_spawn_sessions")}
+            m["session_ledger"]["latest_week"] = (list(ls["weekly_debted_sessions"].items()) or [("-", 0)])[-1]
+            _ledger_out.write_text(_ledger_render(ls))
+    except Exception:
+        pass
+
     remote_branches = [b for b in _git("branch", "-r", "--format=%(refname:short)").splitlines()
                        if b.strip() and not b.strip().endswith("/HEAD")]
     m["git"] = {

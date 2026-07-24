@@ -2,12 +2,18 @@
  "gate": "routing_bindings",
  "active": true,
  "started": "2026-07-17",
- "ends": "2026-07-24",
+ "ends": "2026-08-07",
  "override_token": "!route",
  "exempt_bindings": [
   "control_intent_classifier"
  ],
  "revert": "set active:false in this file (or delete it) \u2014 no code change needed; trial auto-expires after 'ends'",
  "review": "week-1 review in /weekly-closeout reads .agent/sessions/routing-enforce-log.jsonl (blocked/override/warned_exempt counts + false-positive scan) before deciding permanence",
- "approved_by": "Farrice 2026-07-17 (frontier-elevation W2, graduated enforcement)"
+ "approved_by": "Farrice 2026-07-17 (frontier-elevation W2, graduated enforcement)",
+ "verdict_2026-07-24": {
+  "decision": "EXTEND 14 days (was expiring today)",
+  "evidence": "7 days, n=4 (1 blocked / 1 override / 2 warned_exempt) \u2014 sample too small to judge, friction low; expiring would discard the experiment unlearned",
+  "review_moved_to": "execution/session_ledger_report.py section in health-metrics (deterministic), replacing the never-run /weekly-closeout ritual as primary reader",
+  "authority": "loop-engineering integration brief candidate 3(i), Farrice all-12 GO 2026-07-24"
+ }
 }

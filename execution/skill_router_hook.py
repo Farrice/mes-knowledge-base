@@ -477,6 +477,16 @@ def _solution_recall_lines(prompt: str) -> list[str]:
                 f"PRIOR SOLUTION EXISTS (from docs/solutions/ — read before re-solving): "
                 f"{name} — \"{sig}\" → {rel_path}"
             )
+        if out:
+            # Loop-audit repair #9 (2026-07-24): injections must be countable —
+            # this log is the hit-rate receipt for the next loop audit.
+            with contextlib.suppress(Exception):
+                with open(REPO_ROOT / ".agent/sessions/solution-injections.jsonl", "a", encoding="utf-8") as fh:
+                    fh.write(json.dumps({
+                        "ts": datetime.now().isoformat(timespec="seconds"),
+                        "solutions": [m.get("path", "") for m in matches if m.get("score", 0) >= floor][:2],
+                        "prompt_head": prompt[:120],
+                    }) + "\n")
         return out[:2]
     except Exception as e:
         _eprint(f"[skill_router_hook] solution recall failed (ignored): {e}")

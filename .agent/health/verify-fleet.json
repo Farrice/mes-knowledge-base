@@ -1,11 +1,14 @@
 {
-  "ts": "2026-07-21T09:32:46",
-  "total": 72,
+  "ts": "2026-07-24T15:50:32",
+  "total": 73,
   "counts": {
     "PASS": 68,
+    "FAIL": 1,
     "SKIP": 4
   },
-  "failing": [],
+  "failing": [
+    "verify_born_intent_drift.py"
+  ],
   "results": [
     {
       "script": "verify_activation_governor.py",
@@ -17,25 +20,31 @@
       "script": "verify_antigravity_global_access.py",
       "status": "PASS",
       "detail": "",
-      "secs": 2.6
+      "secs": 2.3
     },
     {
       "script": "verify_artifact_router.py",
       "status": "PASS",
       "detail": "",
-      "secs": 51.0
+      "secs": 44.7
     },
     {
       "script": "verify_autopilot_routing.py",
       "status": "PASS",
       "detail": "",
-      "secs": 50.3
+      "secs": 50.5
     },
     {
       "script": "verify_autopilot_runtime_preflight.py",
       "status": "PASS",
       "detail": "",
-      "secs": 34.5
+      "secs": 32.8
+    },
+    {
+      "script": "verify_born_intent_drift.py",
+      "status": "FAIL",
+      "detail": "Deliberate? Review the diffs, then: python3 execution/verify_born_intent_drift.py --bless",
+      "secs": 0.8
     },
     {
       "script": "verify_codex_authority.py",
@@ -47,7 +56,7 @@
       "script": "verify_codex_claude_parity.py",
       "status": "PASS",
       "detail": "",
-      "secs": 3.6
+      "secs": 3.7
     },
     {
       "script": "verify_codex_dynamic_workflow.py",
@@ -59,13 +68,13 @@
       "script": "verify_contextual_next_prompts.py",
       "status": "PASS",
       "detail": "",
-      "secs": 16.6
+      "secs": 16.0
     },
     {
       "script": "verify_control_intent.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.1
+      "secs": 0.0
     },
     {
       "script": "verify_convene.py",
@@ -83,7 +92,7 @@
       "script": "verify_deep_research_os.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1.1
+      "secs": 1.0
     },
     {
       "script": "verify_end_session_intelligence.py",
@@ -95,13 +104,13 @@
       "script": "verify_expert_composition_standard.py",
       "status": "PASS",
       "detail": "",
-      "secs": 4.0
+      "secs": 4.2
     },
     {
       "script": "verify_extraction_command_surface.py",
       "status": "PASS",
       "detail": "",
-      "secs": 4.5
+      "secs": 4.7
     },
     {
       "script": "verify_fleet.py",
@@ -125,7 +134,7 @@
       "script": "verify_global_steering_closeout.py",
       "status": "PASS",
       "detail": "",
-      "secs": 10.6
+      "secs": 10.9
     },
     {
       "script": "verify_global_steering_persistence.py",
@@ -137,7 +146,7 @@
       "script": "verify_google_operator_core.py",
       "status": "PASS",
       "detail": "",
-      "secs": 7.0
+      "secs": 7.4
     },
     {
       "script": "verify_health_performance_geo_prompt.py",
@@ -149,13 +158,13 @@
       "script": "verify_high_taste_os.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.5
+      "secs": 0.6
     },
     {
       "script": "verify_high_taste_writing_os.py",
       "status": "PASS",
       "detail": "",
-      "secs": 3.0
+      "secs": 3.1
     },
     {
       "script": "verify_markdown_readability_guard.py",
@@ -167,7 +176,7 @@
       "script": "verify_memory_stack.py",
       "status": "PASS",
       "detail": "",
-      "secs": 3.2
+      "secs": 3.3
     },
     {
       "script": "verify_mission_activation_contract.py",
@@ -185,91 +194,91 @@
       "script": "verify_mission_validator.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.5
+      "secs": 0.6
     },
     {
       "script": "verify_operator_cockpit.py",
       "status": "PASS",
       "detail": "",
-      "secs": 55.0
+      "secs": 54.2
     },
     {
       "script": "verify_operator_core_ai_employee_os.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1.8
+      "secs": 1.9
     },
     {
       "script": "verify_operator_core_end_session.py",
       "status": "PASS",
       "detail": "",
-      "secs": 11.5
+      "secs": 12.0
     },
     {
       "script": "verify_operator_core_expert_composition_governor.py",
       "status": "PASS",
       "detail": "",
-      "secs": 13.8
+      "secs": 14.2
     },
     {
       "script": "verify_operator_core_extraction_governor_agent.py",
       "status": "PASS",
       "detail": "",
-      "secs": 11.9
+      "secs": 12.2
     },
     {
       "script": "verify_operator_core_fast_proof.py",
       "status": "PASS",
       "detail": "",
-      "secs": 17.2
+      "secs": 17.7
     },
     {
       "script": "verify_operator_core_health_check.py",
       "status": "PASS",
       "detail": "",
-      "secs": 9.7
+      "secs": 10.0
     },
     {
       "script": "verify_operator_core_knowledge_librarian.py",
       "status": "PASS",
       "detail": "",
-      "secs": 9.9
+      "secs": 10.2
     },
     {
       "script": "verify_operator_core_orchestrate.py",
       "status": "PASS",
       "detail": "",
-      "secs": 9.8
+      "secs": 10.0
     },
     {
       "script": "verify_operator_core_repeatability_spine.py",
       "status": "PASS",
       "detail": "",
-      "secs": 10.0
+      "secs": 10.2
     },
     {
       "script": "verify_operator_core_routing_intelligence.py",
       "status": "PASS",
       "detail": "",
-      "secs": 9.7
+      "secs": 9.8
     },
     {
       "script": "verify_operator_core_self_evolve.py",
       "status": "PASS",
       "detail": "",
-      "secs": 9.8
+      "secs": 10.2
     },
     {
       "script": "verify_operator_core_skill_anneal.py",
       "status": "PASS",
       "detail": "",
-      "secs": 10.8
+      "secs": 10.1
     },
     {
       "script": "verify_operator_core_source_to_skill_system.py",
       "status": "PASS",
       "detail": "",
-      "secs": 13.7
+      "secs": 14.2
     },
     {
       "script": "verify_operator_core_status.py",
@@ -329,7 +338,7 @@
       "script": "verify_raw_intent_run_packet.py",
       "status": "PASS",
       "detail": "",
-      "secs": 18.6
+      "secs": 18.7
     },
     {
       "script": "verify_recall_mcp_auth.py",
@@ -353,7 +362,7 @@
       "script": "verify_savant_control_room.py",
       "status": "PASS",
       "detail": "",
-      "secs": 32.4
+      "secs": 32.9
     },
     {
       "script": "verify_session_lock_gate.py",
@@ -389,13 +398,13 @@
       "script": "verify_skill_system_contract.py",
       "status": "PASS",
       "detail": "",
-      "secs": 3.9
+      "secs": 4.1
     },
     {
       "script": "verify_steering_compass.py",
       "status": "PASS",
       "detail": "",
-      "secs": 6.6
+      "secs": 7.0
     },
     {
       "script": "verify_steering_compass_quality.py",
@@ -425,7 +434,7 @@
       "script": "verify_system_control_plane.py",
       "status": "PASS",
       "detail": "",
-      "secs": 223.6
+      "secs": 220.4
     },
     {
       "script": "verify_video_context_source_package.py",
@@ -437,7 +446,7 @@
       "script": "verify_virtuoso_orchestration.py",
       "status": "PASS",
       "detail": "",
-      "secs": 15.9
+      "secs": 16.1
     }
   ]
 }

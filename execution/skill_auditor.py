@@ -700,6 +700,36 @@ def write_audit_report(audit: Dict[str, Any]) -> Path:
         lines += ["", "Action: if an entry stays here 2 consecutive months, demote it "
                       "from PRODUCTION_CORE.md; promote any long-tail skill with 3+ traces.", ""]
 
+    # CONTEXT SIZE RATCHET (loop-repair #11, 2026-07-24, map-not-encyclopedia):
+    # always-on context files may shrink freely but never grow silently.
+    # Read-only measurement + a prune prompt; a human decides. Frontier-lab
+    # doctrine: bloated rules files make the model ignore instructions.
+    try:
+        import json as _json
+        ratchet_state = ROOT / ".agent" / "context-ratchet.json"
+        watched = {
+            "CLAUDE.md": ROOT / "CLAUDE.md",
+            "MEMORY.md": Path.home() / ".claude" / "projects" /
+                         "-Users-farricecain-Google-Antigravity" / "memory" / "MEMORY.md",
+        }
+        prev = _json.loads(ratchet_state.read_text()) if ratchet_state.exists() else {}
+        now_sizes = {k: (p.stat().st_size if p.exists() else 0) for k, p in watched.items()}
+        lines += ["## CONTEXT SIZE RATCHET (always-on files — shrink free, grow flagged)", ""]
+        for k, size in now_sizes.items():
+            prev_size = prev.get(k)
+            if prev_size is None:
+                lines.append(f"- {k}: {size:,}B (baseline recorded)")
+            elif size > prev_size:
+                lines.append(f"- ⚠️ {k} GREW {prev_size:,}B → {size:,}B (+{size - prev_size:,}B). "
+                             "Prune test per addition: would removing it cause mistakes? "
+                             "No → it goes to an on-demand file.")
+            else:
+                lines.append(f"- {k}: {size:,}B (≤ last scan — ratchet holds)")
+        ratchet_state.write_text(_json.dumps(now_sizes, indent=1))
+        lines.append("")
+    except Exception:
+        pass
+
     # Per-tier breakdown
     for tier in ["A", "B", "REVIEW", "C", "UTILITY"]:
         bucket = [r for r in audit["records"] if r["tier"] == tier]
