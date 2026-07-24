@@ -587,3 +587,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-23 11:15]` **finalize** | Fladlien full Persuasive Patterns library harvest + deployment: scraped his complete Notion doc (56  | general | jason-fladlien — composite:8.67 status:Keep
 - `[2026-07-23 11:50]` **finalize** | Fladlien pattern library → Farrice's Notion (Knowledge Vault child DB, 56 rows, full bodies + native | general | jason-fladlien — composite:8.67 status:Keep
 - `[2026-07-24 09:54]` **finalize** | Riley Brown marketing automation skill — v1.0 production-grade. 16 artifacts: genius.md (11 patterns | general | Riley Brown — composite:9.33 status:Keep
+- `[2026-07-20 16:09]` **lint** | Lint scan — 66 issues (42 errors, 12 warnings) — Files scanned: 700
