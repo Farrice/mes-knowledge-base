@@ -69,3 +69,10 @@ Snapshot written: /Users/farricecain/Google Antigravity/.agent/health/2026-07-23
   ⚑ _active/ holds 729 files >60d old — archive candidates accrue in pending-review; approving keeps _active meaning 'active'
   ⚑ SLASH_COMMANDS.md at 405KB — index bloat; trim descriptions or split before it degrades routing loads
   ⚑ launchd com.antigravity.outcome-chase: no log evidence at all — job may never have run; `launchctl list com.antigravity.outcome-chase` to confirm
+Snapshot written: /Users/farricecain/Google Antigravity/.agent/health/2026-07-24.json (6 flag(s))
+  ⚑ routine com.antigravity.citation-integrity: last exit 1 — failing unwatched; check /Users/farricecain/Google Antigravity/.agent/citation-integrity.log
+  ⚑ routine com.antigravity.verify-fleet: last exit 1 — failing unwatched; check /Users/farricecain/Google Antigravity/.agent/health/fleet.log
+  ⚑ hook config drifted vs blessed baseline — diff .claude/settings.json, then delete .agent/health/hooks-baseline.json to re-bless deliberately
+  ⚑ _active/ holds 736 files >60d old — archive candidates accrue in pending-review; approving keeps _active meaning 'active'
+  ⚑ SLASH_COMMANDS.md at 406KB — index bloat; trim descriptions or split before it degrades routing loads
+  ⚑ launchd com.antigravity.outcome-chase: no log evidence at all — job may never have run; `launchctl list com.antigravity.outcome-chase` to confirm

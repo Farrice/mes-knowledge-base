@@ -1,3 +1,11 @@
+---
+thread: workflows
+status: active
+resume_hint: Workflows — 3 Stacking Farrice Parallax Pipeline
+branch: main
+pin: true
+---
+
 # Workflows — 3 Stacking Farrice Parallax Pipeline
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.

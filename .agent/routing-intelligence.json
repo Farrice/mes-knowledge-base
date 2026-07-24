@@ -63,7 +63,7 @@
                 "story-bible-builder": 1,
                 "jason-fladlien-marketing": 11,
                 "how-i-write-os": 12,
-                "supercomputer": 30,
+                "supercomputer": 32,
                 "design-md": 13,
                 "fantastic-posters": 2,
                 "Creative": 8,
@@ -74,7 +74,7 @@
                 "nate-b-jones-context-engineering": 30,
                 "nate-b-jones-intent-engineering": 1,
                 "omar-eltakrori": 1,
-                "Extraction": 34,
+                "Extraction": 35,
                 "Strategy": 38,
                 "donald-miller-storybrand": 1,
                 "strength-conditioning-os": 8,
@@ -98,9 +98,9 @@
                 "ben-watkins-storytelling": 1,
                 "alex-m-smith-natural-strategy": 1
             },
-            "total_routings": 600,
+            "total_routings": 603,
             "tier_counts": {
-                "0": 600,
+                "0": 603,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -110,8 +110,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 344,
-                "finalize-auto": 256
+                "hybrid": 346,
+                "finalize-auto": 257
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -184,7 +184,7 @@
                 "tommy-clark": 2,
                 "deliberate": 27,
                 "creative-director": 1,
-                "doc-coauthoring": 47,
+                "doc-coauthoring": 49,
                 "dan-wang-literary-analysis": 2,
                 "webapp-testing": 3,
                 "brand-operating-system": 24,
@@ -251,7 +251,7 @@
                 "story-bible-builder": 2,
                 "jason-fladlien-marketing": 14,
                 "luisa-zhou-coaching": 2,
-                "supercomputer": 43,
+                "supercomputer": 45,
                 "design-md": 23,
                 "alex-content-science": 2,
                 "system-audit": 23,
@@ -293,7 +293,7 @@
                 "master-copywriter": 3,
                 "henry-shukman-contemplative-writing": 4,
                 "youtube-video-context-analysis": 5,
-                "sharran-srivatsaa-scaling": 8,
+                "sharran-srivatsaa-scaling": 10,
                 "dai-media-consumer-posture": 3,
                 "story-compass": 3,
                 "darrel-wilson-ai-affiliate": 2,
@@ -370,11 +370,12 @@
                 "expert-assembly": 1,
                 "david-perell-writing": 1,
                 "matthew-lakajev-linkedin": 1,
-                "prosperity-coach-system": 1
+                "prosperity-coach-system": 1,
+                "Riley Brown": 1
             },
             "total_feedback": 84,
             "negative_count": 0,
-            "ensemble_count": 442,
+            "ensemble_count": 444,
             "auto_miss_count": 66,
             "positive_count": 0
         }
@@ -12006,6 +12007,61 @@
             "tier_loaded": 0,
             "mode": "finalize-auto",
             "workflow_used": "extract-amplify",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260724_163527_7431",
+            "timestamp": "2026-07-24T16:35:27.036605+00:00",
+            "session_id": "11ee68d5-e4f3-4501-b8ed-2b477b36f39e",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "doc-coauthoring",
+                "sharran-srivatsaa-scaling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + doc-coauthoring + sharran-srivatsaa-scaling",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260724_163536_db85",
+            "timestamp": "2026-07-24T16:35:36.907945+00:00",
+            "session_id": "11ee68d5-e4f3-4501-b8ed-2b477b36f39e",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "doc-coauthoring",
+                "sharran-srivatsaa-scaling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + doc-coauthoring + sharran-srivatsaa-scaling",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260724_165420_6556",
+            "timestamp": "2026-07-24T16:54:20.688710+00:00",
+            "session_id": "",
+            "request_summary": "Riley Brown marketing automation skill — v1.0 production-grade. 16 artifacts: genius.md (11 patterns + 5 hidden knowledge + exemplars + rubric), SKILL.md (12-workflow table + stacking guide), 9 workfl",
+            "intent_score": 10,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "Riley Brown"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge-phases-3-5",
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
