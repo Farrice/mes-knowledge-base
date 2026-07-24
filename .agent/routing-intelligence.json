@@ -97,11 +97,12 @@
                 "ward-farnsworth-rhetorical-mastery": 2,
                 "ben-watkins-storytelling": 1,
                 "alex-m-smith-natural-strategy": 1,
-                "seth-godin-philosophy": 1
+                "seth-godin-philosophy": 1,
+                "kallaway-word-mastery": 1
             },
-            "total_routings": 613,
+            "total_routings": 614,
             "tier_counts": {
-                "0": 613,
+                "0": 614,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -111,7 +112,7 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 354,
+                "hybrid": 355,
                 "finalize-auto": 259
             },
             "expert_counts": {
@@ -125,7 +126,7 @@
                 "paul-james-ai-automation": 1,
                 "joscha-bach-consciousness": 2,
                 "cinema-worldbuilder-pro": 2,
-                "ali-abdaal-action-bias": 3,
+                "ali-abdaal-action-bias": 4,
                 "skill-creator": 3,
                 "jen-santulan-listing-content": 33,
                 "deep-research": 10,
@@ -147,7 +148,7 @@
                 "andrew-stanton": 1,
                 "internal-comms": 7,
                 "forge-os": 10,
-                "kallaway-word-mastery": 2,
+                "kallaway-word-mastery": 3,
                 "andrew-stanton-audience-engineering": 3,
                 "claim-safe-health-marketing": 7,
                 "adam-enfroy-affiliate-marketing": 1,
@@ -364,7 +365,7 @@
                 "oren-luxury-psychology": 2,
                 "swarm": 1,
                 "swarm: deep-research + competitive-intel + icp-deep-canvasser + fact-verifier": 1,
-                "ben-watkins-storytelling": 3,
+                "ben-watkins-storytelling": 4,
                 "meg-heckman": 1,
                 "matthew-lakajev": 1,
                 "coaching-business-os": 1,
@@ -380,7 +381,7 @@
             },
             "total_feedback": 86,
             "negative_count": 0,
-            "ensemble_count": 454,
+            "ensemble_count": 455,
             "auto_miss_count": 68,
             "positive_count": 0
         }
@@ -12273,6 +12274,25 @@
             "workflow_used": "wayfinder-work",
             "ensemble": true,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260724_232929_594e",
+            "timestamp": "2026-07-24T23:29:29.354576+00:00",
+            "session_id": "a4d25e8b-e4f9-4acc-9527-2e619de9d1ed",
+            "request_summary": "where are the Calibration Cards? Where can I find them so that I can give you my approval on them and get that done, and then also get the phase two card done?",
+            "intent_score": 0,
+            "domain_detected": "kallaway-word-mastery",
+            "experts_deployed": [
+                "kallaway-word-mastery",
+                "ben-watkins-storytelling",
+                "ali-abdaal-action-bias"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "kallaway-word-mastery",
+            "ensemble": true,
+            "compound_pairing": "kallaway-word-mastery + ben-watkins-storytelling + ali-abdaal-action-bias",
             "feedback": null
         }
     ]

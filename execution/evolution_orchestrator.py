@@ -622,6 +622,20 @@ def _append_jsonl(path: Path, entry: Dict[str, Any]) -> None:
 
 
 def queue_phase2(skill: str, metrics: Dict[str, Any], reason: str, grounded: bool) -> None:
+    # Dedupe (2026-07-24, phase-2 card #1 finding): the daily cycle re-queued
+    # the same low-score signal every day (oren: 2 scores -> 15 rows), which
+    # inflates the consumer's queue-pressure ranking. One row per skill per 7d.
+    try:
+        cutoff = (datetime.now() - timedelta(days=7)).isoformat()
+        if PHASE2_QUEUE.exists():
+            for line in PHASE2_QUEUE.read_text().splitlines():
+                if not line.strip():
+                    continue
+                row = json.loads(line)
+                if row.get("skill") == skill and row.get("queued_at", "") >= cutoff:
+                    return
+    except Exception:
+        pass
     _append_jsonl(PHASE2_QUEUE, {
         "queued_at": datetime.now().isoformat(),
         "skill": skill,
@@ -941,6 +955,13 @@ def _emit_phase2_card() -> Dict[str, Any]:
     for sub in ("pending", "parked"):
         if list((queue_dir / sub).glob("card-phase2-*.md")):
             return {"status": "skipped", "reason": f"phase2 card already in {sub}/"}
+    # One card per monthly cycle also means: a card COMPLETED recently blocks
+    # re-emission (done/ counts for 21d) — without this, finishing a card
+    # same-day would let a second one fire outside the monthly cadence.
+    import time as _time
+    for done_card in (queue_dir / "done").glob("card-phase2-*.md"):
+        if (_time.time() - done_card.stat().st_mtime) < 21 * 86400:
+            return {"status": "skipped", "reason": f"{done_card.name} completed <21d ago"}
     if not PHASE2_QUEUE.exists():
         return {"status": "skipped", "reason": "no queue"}
     rows = [json.loads(l) for l in PHASE2_QUEUE.read_text().splitlines() if l.strip()]
