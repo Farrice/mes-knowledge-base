@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7266,
+ "count": 7275,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -20553,6 +20553,69 @@
    "title": "Remotion Video Engineer \u2014 Scene Timeline & Motion Design",
    "gist": "You are a Remotion Video Engineer building the timeline layer of a composition: when things",
    "path": "skills/remotion-video-creation/references/prompts-v2/scene-timeline-motion-design.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "riley-brown-marketing-automation",
+   "title": "Batch Email Drafts \u2014 [INTENT]",
+   "gist": "You are working as Riley Brown (@rileybrownai), AI-native founder of Chorus and Vibecode, running his inbox through the draft-link primitive scaled to the whole backlog \u2014 his own stated verdict: this is \"actually the mos",
+   "path": "skills/riley-brown-marketing-automation/references/prompts-v2/batch-email-drafts.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "riley-brown-marketing-automation",
+   "title": "Brand Assets \u2014 [BRAND DOMAIN]",
+   "gist": "You are working as Riley Brown (@rileybrownai), AI-native founder of Chorus and Vibecode, improvising a brand scrape live: \"use the firecrawl and I want you to go to chorus.com... scrape all of that whole page... take al",
+   "path": "skills/riley-brown-marketing-automation/references/prompts-v2/brand-asset-sheet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "riley-brown-marketing-automation",
+   "title": "Competitor Ad Intel \u2014 [COMPETITOR SET]",
+   "gist": "You are working as Riley Brown (@rileybrownai), AI-native founder of Chorus and Vibecode, running competitor ad-spy through his agent stack. His heuristic, stated on record: \"the one metric that we can use... as a proxy ",
+   "path": "skills/riley-brown-marketing-automation/references/prompts-v2/competitor-ad-intel-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "riley-brown-marketing-automation",
+   "title": "Voice-Skill: [SKILL NAME] \u2014 [CREATOR]",
+   "gist": "You are working as Riley Brown (@rileybrownai), AI-native founder of Chorus (open agent platform) and Vibecode, who runs his entire startup's marketing inside a coding agent and a portfolio of small, named, composable sk",
+   "path": "skills/riley-brown-marketing-automation/references/prompts-v2/creator-voice-skill-deploy.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "riley-brown-marketing-automation",
+   "title": "Why-It-Works Analysis \u2014 [BATCH TAG]",
+   "gist": "You are working as Riley Brown (@rileybrownai), AI-native founder of Chorus and Vibecode. He scrapes a creator's corpus and asks the agent a second question beyond raw retrieval: \"tell me why he's such an effective short",
+   "path": "skills/riley-brown-marketing-automation/references/prompts-v2/creator-why-it-works-analysis.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "riley-brown-marketing-automation",
+   "title": "Distribution Staging \u2014 [DATE]",
+   "gist": "You are working as Riley Brown (@rileybrownai), AI-native founder of Chorus and Vibecode, running the unglamorous operations tier: staging social posts, generating constraint-encoded booking links, and keeping files orga",
+   "path": "skills/riley-brown-marketing-automation/references/prompts-v2/distribution-staging-package.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "riley-brown-marketing-automation",
+   "title": "Durable Asset \u2014 [SKILL NAME]",
+   "gist": "You are working as Riley Brown (@rileybrownai), AI-native founder of Chorus and Vibecode. His load-bearing meta-move: never hand-write a skill file \u2014 run the task live, refine it, then freeze it. \"I'll tell the agent to ",
+   "path": "skills/riley-brown-marketing-automation/references/prompts-v2/durable-asset-forge.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "riley-brown-marketing-automation",
+   "title": "Exemplar-Grounded Voice Pipeline \u2014 [PIPELINE TARGET]",
+   "gist": "You are working as Riley Brown (@rileybrownai), AI-native founder of Chorus and Vibecode, applying his skill-chaining doctrine \u2014 \"the goal then is that you use these skills together\" \u2014 to feed a real voice engine with sc",
+   "path": "skills/riley-brown-marketing-automation/references/prompts-v2/exemplar-grounded-voice-pipeline.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "riley-brown-marketing-automation",
+   "title": "On-Brand Ad Variant Batch \u2014 Source: [SOURCE AD]",
+   "gist": "You are working as Riley Brown (@rileybrownai), AI-native founder of Chorus and Vibecode, running his template-steal doctrine: take a winning ad's proven *structure* \u2014 never its copy or its people \u2014 swap in a real brand,",
+   "path": "skills/riley-brown-marketing-automation/references/prompts-v2/on-brand-ad-variant-batch.md"
   },
   {
    "kind": "prompt-v2",

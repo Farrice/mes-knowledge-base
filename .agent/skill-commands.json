@@ -1137,6 +1137,10 @@
       "skill": "remotion-video-creation"
     },
     {
+      "command": "/riley-brown-marketing-automation",
+      "skill": "riley-brown-marketing-automation"
+    },
+    {
       "command": "/robert-greene-power-mastery",
       "skill": "robert-greene-power-mastery"
     },
@@ -2519,6 +2523,12 @@
       "command": "/remotion",
       "skills": [
         "remotion-video-creation"
+      ]
+    },
+    "riley-brown": {
+      "command": "/riley-brown",
+      "skills": [
+        "riley-brown-marketing-automation"
       ]
     },
     "robert-greene": {

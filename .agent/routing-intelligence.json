@@ -32,7 +32,7 @@
                 "kallaway-social-commerce": 2,
                 "theme-factory": 1,
                 "youtube-video-context-analysis": 1,
-                "luke-iha-avatar-machine": 20,
+                "luke-iha-avatar-machine": 21,
                 "david-placek-naming": 5,
                 "docx": 1,
                 "sharran-srivatsaa-scaling": 2,
@@ -74,7 +74,7 @@
                 "nate-b-jones-context-engineering": 30,
                 "nate-b-jones-intent-engineering": 1,
                 "omar-eltakrori": 1,
-                "Extraction": 35,
+                "Extraction": 36,
                 "Strategy": 38,
                 "donald-miller-storybrand": 1,
                 "strength-conditioning-os": 8,
@@ -96,11 +96,12 @@
                 "fresh-voice-system": 2,
                 "ward-farnsworth-rhetorical-mastery": 2,
                 "ben-watkins-storytelling": 1,
-                "alex-m-smith-natural-strategy": 1
+                "alex-m-smith-natural-strategy": 1,
+                "seth-godin-philosophy": 1
             },
-            "total_routings": 603,
+            "total_routings": 606,
             "tier_counts": {
-                "0": 603,
+                "0": 606,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -110,8 +111,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 346,
-                "finalize-auto": 257
+                "hybrid": 348,
+                "finalize-auto": 258
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -144,7 +145,7 @@
                 "system": 3,
                 "joanna-wiebe-persuasion-mastery": 1,
                 "andrew-stanton": 1,
-                "internal-comms": 6,
+                "internal-comms": 7,
                 "forge-os": 10,
                 "kallaway-word-mastery": 2,
                 "andrew-stanton-audience-engineering": 3,
@@ -179,7 +180,7 @@
                 "andrew-dun-vibe-consulting": 1,
                 "luke-iha-cross-domain": 2,
                 "theme-factory": 8,
-                "luke-iha-avatar-machine": 24,
+                "luke-iha-avatar-machine": 25,
                 "docx": 4,
                 "tommy-clark": 2,
                 "deliberate": 27,
@@ -269,7 +270,7 @@
                 "mark-kashef-wargame-os": 6,
                 "source-to-skill-system": 1,
                 "boris-claude-code": 5,
-                "simon-intellectual-library-os": 3,
+                "simon-intellectual-library-os": 4,
                 "source-command-mission": 1,
                 "evan-spiegel-distribution-architecture": 4,
                 "april-dunford": 1,
@@ -298,7 +299,7 @@
                 "story-compass": 3,
                 "darrel-wilson-ai-affiliate": 2,
                 "marketing-studio-director": 12,
-                "dara-denney-meta-ads": 32,
+                "dara-denney-meta-ads": 33,
                 "enrico-incarnati-instagram-realestate": 1,
                 "tom-noske-personal-brand": 1,
                 "brad-bonanno-explainer-architecture": 2,
@@ -371,12 +372,15 @@
                 "david-perell-writing": 1,
                 "matthew-lakajev-linkedin": 1,
                 "prosperity-coach-system": 1,
-                "Riley Brown": 1
+                "Riley Brown": 1,
+                "seth-godin-philosophy": 1,
+                "slack-gif-creator": 1,
+                "riley-brown": 1
             },
-            "total_feedback": 84,
+            "total_feedback": 86,
             "negative_count": 0,
-            "ensemble_count": 444,
-            "auto_miss_count": 66,
+            "ensemble_count": 447,
+            "auto_miss_count": 68,
             "positive_count": 0
         }
     },
@@ -1127,6 +1131,24 @@
             "rating": "auto_match",
             "correction": "forge-os",
             "notes": "expert skill 'forge-os' loaded matching suggestion ['forge-os', 'ben-watkins-storytelling', 'knowledge-architecture-studio']"
+        },
+        {
+            "feedback_id": "fb_20260724_181226_0d3d",
+            "timestamp": "2026-07-24T18:12:26.042877+00:00",
+            "session_id": "11ee68d5-e4f3-4501-b8ed-2b477b36f39e",
+            "routing_id": "rt_20260724_181027_ead9",
+            "rating": "auto_miss",
+            "correction": "riley-brown-marketing-automation",
+            "notes": "expert skill 'riley-brown-marketing-automation' loaded not matching suggestion ['luke-iha-avatar-machine', 'dara-denney-meta-ads', 'simon-intellectual-library-os']"
+        },
+        {
+            "feedback_id": "fb_20260724_182739_4bee",
+            "timestamp": "2026-07-24T18:27:39.243031+00:00",
+            "session_id": "11ee68d5-e4f3-4501-b8ed-2b477b36f39e",
+            "routing_id": "rt_20260724_182333_6c63",
+            "rating": "auto_miss",
+            "correction": "riley-brown-marketing-automation",
+            "notes": "expert skill 'riley-brown-marketing-automation' loaded not matching suggestion ['seth-godin-philosophy', 'slack-gif-creator', 'internal-comms']"
         }
     ],
     "routing_decisions": [
@@ -12063,6 +12085,61 @@
             "mode": "finalize-auto",
             "workflow_used": "extract-forge-phases-3-5",
             "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260724_181027_ead9",
+            "timestamp": "2026-07-24T18:10:27.127855+00:00",
+            "session_id": "11ee68d5-e4f3-4501-b8ed-2b477b36f39e",
+            "request_summary": "<agent-message from=\"ad-spy-builder\">\nad-spy build complete. Playwright lock resolved (was a stale orphaned Chrome process, PID 87802, holding the singleton lock on mcp-chrome-86fe5ea from before this",
+            "intent_score": 0,
+            "domain_detected": "luke-iha-avatar-machine",
+            "experts_deployed": [
+                "luke-iha-avatar-machine",
+                "dara-denney-meta-ads",
+                "simon-intellectual-library-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "luke-iha-avatar-machine",
+            "ensemble": true,
+            "compound_pairing": "luke-iha-avatar-machine + dara-denney-meta-ads + simon-intellectual-library-os",
+            "feedback": "fb_20260724_181226_0d3d"
+        },
+        {
+            "routing_id": "rt_20260724_182333_6c63",
+            "timestamp": "2026-07-24T18:23:33.912667+00:00",
+            "session_id": "11ee68d5-e4f3-4501-b8ed-2b477b36f39e",
+            "request_summary": "how we doing progress please",
+            "intent_score": 0,
+            "domain_detected": "seth-godin-philosophy",
+            "experts_deployed": [
+                "seth-godin-philosophy",
+                "slack-gif-creator",
+                "internal-comms"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "seth-godin-philosophy",
+            "ensemble": true,
+            "compound_pairing": "seth-godin-philosophy + slack-gif-creator + internal-comms",
+            "feedback": "fb_20260724_182739_4bee"
+        },
+        {
+            "routing_id": "rt_20260724_183623_ecd5",
+            "timestamp": "2026-07-24T18:36:23.120222+00:00",
+            "session_id": "",
+            "request_summary": "Riley Brown — Agentic Marketing Operations mastery extraction (forge) + 7-workflow /bin/zsh capability layer (scrape→Notion, ad-spy, creative, brand-scrape, inbox-drafts, scheduler shells) with 2 live",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "riley-brown"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": true,
             "compound_pairing": null,
             "feedback": null
         }

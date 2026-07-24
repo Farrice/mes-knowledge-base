@@ -1618,7 +1618,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 66 agent(s) had no invocation card. Stubs below are machine-
+> 67 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -2141,6 +2141,16 @@ DOMAIN: research, intelligence, market analysis, competitive intelligence, factu
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: Own external truth: gather, verify, synthesize, and label facts before they enter strategy, content, offers, or client work.
 ENTRY PROMPT: agents/research-intelligence-agent/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Riley Brown — Agent Configuration
+DOMAIN: See AGENT.md — domain not yet tagged in frontmatter.
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: Fast, casual, hands-on demo energy. Fires tasks and multitasks ("fire this off"). Reacts honestly ("actually so good"; "fake... not real engagement"). Marks...
+ENTRY PROMPT: agents/riley-brown/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 

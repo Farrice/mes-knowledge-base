@@ -1,5 +1,5 @@
 ---
-description: "Purchase-trigger psychology for physical/visual products from the operator behind Sloth Hiking Club — the layer where the PRODUCT ITSELF is the conversion mechanism. 23 genius patterns and 13 workflows spanning her 5-layer system: market selection (saturation = demand proof, s..."
+description: "Purchase-trigger psychology for physical/visual products from the operator behind Sloth Hiking Club — the layer where the PRODUCT ITSELF is the conversion mechanism. 23 genius patterns and 16 workflows spanning her 5-layer system: market selection (saturation = demand proof, s..."
 ---
 <!-- auto-generated: skill-command shim (sync_registries.py) — safe to delete; regenerated on sync -->
 

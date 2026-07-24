@@ -39,6 +39,10 @@ The Notion API key is stored in the Antigravity root `.env`.
 ### Farrice Cain — Personal Context
 - Name (title), Category (Identity/Worldview/Values/Strengths/Growth Edge/Life Experience/Fatherhood/Creative Vision/Business Philosophy/Health/Emotional Pattern/Decision), Depth (Surface/Medium/Deep/Foundational), Source (Journal/Flywheel/Conversation/Telegram/AI Extraction/Life Event/Manual), Confidence (Certain/Strong/Evolving/Questioning), Emotion (multi), Raw Entry, Extracted Insight, Connected To, Date, Tags (Manifesto Material/Origin Story/Recurring Theme/Contradiction/Evolution Marker/Content Seed/Dad Life)
 
+### Social Intelligence
+- Name (title), Creator, Platform (Instagram/TikTok/YouTube/LinkedIn/X/Facebook/Ad Library), Type (Reel/Short/Video/Post/Carousel/Static Ad/Video Ad), Post URL, Media (files, external URLs), Hook, Views, Likes, Comments, Duration (s), Posted, Scraped, Running Since (ads), Analysis, Batch, Extract Candidate (checkbox)
+- Script: `execution/social_intel.py` · Workflows: `/scrape-creator`, `/ad-spy` · Full transcripts live in page body blocks (2000-char property cap)
+
 ### Performance Log
 - Output (title), Date, Agent (text), Skill (text), Workflow (text), Task Type (Content/Strategy/Extraction/Research/Client Work/System/Creative/Analysis), Quality Score (number 1-10), User Rating (number 1-10), Intent Alignment (number 1-10), Expert Standard (number 1-10), Adversarial Resilience (number 1-10), Status (Keep/Discard/Needs Improvement/Baseline), Notes, Experiment Tag
 - Script: `execution/log_performance.py`

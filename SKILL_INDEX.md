@@ -303,6 +303,7 @@
 | `react-components` | **react:components** | converts stitch designs into modular vite and react components using system-l... | 0 | 0 |
 | `reid-hoffman-ai-strategy` | **reid-hoffman-ai-strategy** | single-player-to-multiplayer agent field design, different-angle market entry, and measure-then-intervene governance | 3 | 0 |
 | `remotion-video-creation` | **remotion-best-practices** | best practices for remotion - video creation in react | 0 | 0 |
+| `riley-brown-marketing-automation` | **riley-brown-marketing-automation** | composable skills wrapped around scraper apis, examples-over-instructions (retrieve verified exemplars, don't prompt harder) | 12 | 0 |
 | `robert-greene-power-mastery` | **robert-greene-power-mastery** | engineering strategic presence (reputation, absence, silence | 3 | 0 |
 | `robert-mack-comedy-writing` | **Robert Mack: Comedy Writing Mastery** | deploy professional comedy mechanics across marketing, social media, presentations | 8 | 30 |
 | `rory-sutherland-marketing` | **Rory Sutherland: Marketing Psychology Mastery** | rory sutherland's behavioral psychology marketing: psychological reframes, costly signals, choice architecture | 20 | 32 |

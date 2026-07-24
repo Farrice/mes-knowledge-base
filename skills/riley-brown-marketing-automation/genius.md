@@ -1,552 +1,210 @@
-# Genius: Riley Brown's AI-Native Marketing Automation
+# Genius: Riley Brown — Agentic Marketing Operations
 
-**Video Source**: Riley Brown's Codex Workflow Walkthrough (36:44, 0:00-18:20 transcribed)  
-**Extraction Date**: 2026-07-24  
-**Tier**: Deep (Forge-Grade)
+**Source (all verified Riley Brown, @rileybrownai / "Agent Native"):**
+- **Primary** — "Codex Is Basically Running My Company Now" (2026-07-21, 36:44), Riley + co-founder Vashall, nine live marketing workflows in Codex. Full transcript + 100-frame visual layer.
+- **Corpus 1** — "9 AI Agent Skills To Get Ahead of 99% of People."
+- **Corpus 2** — "AI Agents Just Changed Forever: GLM 5.2, Codex Skills, Claude & Cursor" (record-and-replay, open-source routing).
 
----
+Full extraction: `extractions/riley-brown/mes-extraction.md`. Verbatim quote bank + claims ledger: `references/source-quotes.md`. Every quote below is source-tagged `[primary]` / `[9-skills]` / `[news]` / `[visual]`. Visual-layer readings are OCR ground truth and override the audio where they conflict. Transcripts are auto-captioned — spellings preserved ("Callaway"=Kallaway, "soul"=the reasoning-effort dial, "quad.ai"=Claude, "Fable/Mythos"=frontier models as spoken).
 
-## Core Genius Patterns (11 patterns)
+> **The one truth.** Riley doesn't prompt an agent to *be* good at marketing — he builds it a **retrieval layer of great examples**, freezes each capability into a **named, reusable skill**, and supplies the one thing the agent can't: **taste — knowing what good looks like.** Every high-stakes action terminates in a human-editable draft/link behind approval. `[primary]` "the only thing you need to do in order to create really good content is provide really good examples."
 
-### 1. **Scrape → Database → Analyze → Extract Patterns Loop**
-
-The master methodology. Start with any creator or competitor, scrape their content (videos, transcripts, ads), ingest into Notion, then analyze for patterns.
-
-**Pattern Sequence**:
-- Use `/slashscraper` (ScrapeCreators API) → fetch 10 creator videos + metadata
-- Notion database auto-created with schema: `Creator Name`, `Video URLs`, `Transcripts`, `Engagement Metrics`, `Best Videos` (ranked by performance)
-- Analysis layer: feed transcripts + metadata into Claude/GPT-5.6 with prompt: "Extract persuasion patterns from these transcripts"
-- Output: structured pattern database for re-use
-
-**Why It Works**: The loop reduces manual pattern-hunting. One prompt ("Show me what Kallaway's top videos have in common") produces a reusable skill.
-
-**Timestamps**: [01:37-03:30] Kallaway scraping demo; [03:10] "creating a database of his content, and we're just scraping it"
+**His distinct wedge** (vs. Saraev / Kashef / Rachel Woods / Nate B. Jones orchestration skills): marketing-specific skill libraries built on scraper APIs, where the durable asset is a *named, reusable skill* — not a one-off automation — and taste is the load-bearing human input. He is the operations tier the roster lacks: distribution, scheduling, inbox, file hygiene — the unglamorous layer that makes the content tier compound.
 
 ---
 
-### 2. **Model Selection by Complexity Tier**
+## Genius Patterns (16 — ★ = confirmed across 2+ Riley videos)
 
-Riley defaults to Claude or GPT-5.6 (or equiv. in present) for general tasks but **escalates to "extra-high" complexity settings for analysis-heavy workflows**.
+### 1. ★ Examples-Over-Instructions Doctrine (twin: "describe, don't hack")
+Refuses to solve content quality by prompting harder. Engineers *retrieval of exemplars* and leans on plain description. `[primary]` "with coding, it's very easy to verify whether something is good or bad... Whereas content, it's subjective... over the last 3 years... it hasn't gotten any better at writing content... So the only thing you need to do... is provide really good examples... we're giving a database or an API to the AI agent so that whenever it needs to create content like someone, it can just go find good examples." Cross-confirmed `[9-skills]`: "he who can describe what they want the best will inherit the world... the only enduring prompt hack is describing what you want."
+**Non-obvious:** diagnoses the bottleneck as *verification*, not generation — routes around it with retrieval + description, not prompt tricks. This thesis underwrites the entire toolkit.
 
-**Rules**:
-- General scraping/data ingestion → GPT-5.6 (cost-efficient)
-- Transcript analysis, pattern extraction → GPT-5.6 with analysis flag (extra reasoning)
-- Multi-creator comparative analysis (e.g., "Why do Quad.ai + Replit + Claude ads outperform?") → extra-high reasoning (10-15x cost, 10x better signal)
-- Always: check model switching in Codex (`/slashmodel` → select Claude Fable, GPT-5.6, etc.)
+### 2. ★ Skill-Creation-by-Doing ("turn it into a skill")
+Never hand-writes skill files. Runs the task live, refines the output, then freezes it as a named skill — and the mechanism is a first-class Codex command. Three independent demos: `[primary]` "turn all of the his top performing videos into a skill. Call it Callaway top performing." `[9-skills]` "I'll tell the agent to do a thing, then... make the thing better and then I'll just tell it to turn it into a skill." `[news]` "I recorded my screen and I taught Codex how to use Comet... and then I immediately turn into a skill." Grounded `[visual]`: Codex's slash-command palette ships **"New workflow — Save this task as a new workflow"** and **"Memory — Create an AGENTS.md file... for Codex."**
+**Non-obvious:** the durable asset is the *skill*, born from a successful run — three creation paths (compile-from-scrape / refine-a-task / record-a-screen) all land in a named, callable file.
 
-**Anti-Pattern**: Using base model for complex analysis wastes time (bad signal).
+### 3. ★ Skills Self-Assemble and Auto-Update (correction written into the file)
+Treats skills as living files that ratchet toward his taste. `[primary]` "please update the email draft skills so that you never say this or that... so you get it in its context." `[9-skills]` "your skills will auto update... the future of AI agents is just auto updating skills depending on how you interact with it."
+**Non-obvious:** corrections are written *into the asset*, so they compound.
 
-**Hidden Rule**: Model choice is tied to ROI of the output. If the extracted pattern will inform $10k+ in ad spend, extra-high reasoning pays for itself.
+### 4. Creator-to-Skill Compiler
+Scrapes a creator's top-performing (non-sponsored) content and freezes it into a named voice-writing skill. `[primary]` "so that I can write content in his style at any time... this is all that is is just a file with those transcripts that we scraped. But the point is I didn't have to go fetch the information." Output (verbatim): "Anthropic just found a hidden workspace inside Claude's brain... nobody programmed it. They call it JSpace." Riley: "actually so good... This is exactly in his tone."
+**Non-obvious:** productizes *another person's style* as a permanent callable; the name ("Callaway top performing") is the API into their voice.
 
-**Timestamps**: [06:50-06:56] "switch to Claude Fable"; models listed: ChatGPT, Claude, Claude Fable; "you have access to all the best models"
+### 5. Engagement-Authenticity Filter
+Excludes sponsored posts (bought engagement) from the exemplar set and keeps evidence of every exclusion. `[primary]` "the top 10 videos that has the most engagement that are not sponsored." Agent log: "I'll retain the exclusion evidence for every rejected sponsor/promotional post... those can be boosted. So it's like fake."
+**Non-obvious:** boosted posts poison the pattern set — he builds the filter *plus an audit trail* into the skill.
 
----
+### 6. Longest-Running-Ad Heuristic (an *explicitly-flagged* ROAS proxy)
+Can't see competitors' ROAS, so uses ad *duration* as a public proxy — and the agent labels this as inference, not proof. `[primary]` "the one metric we can use... as a proxy is how long they've been running it. If you run an ad for nine months... presumably they're spending a lot of money keeping it alive for a good reason." `[visual]` Codex output: "'Why it works' is clearly labeled as an inference from creative durability — not proof of ROAS or profitability."
+**Non-obvious:** turns a data limit into a free selection signal *and* preserves epistemic honesty.
 
-### 3. **Longest-Running Ads as ROI Proxy**
+### 7. ★ Effort-Dialing, Token-Budgeting & Open-Source Routing
+Matches model + reasoning effort to task determinism, watching cost. `[primary]` "I'm going to use 5.6 soul... medium... your limits will last quite a while if you use medium. This is a straightforward task" / "turn up soul... extra high" for analysis / "You do not need to use a good model for this" for a mechanical API call / "if you're on the $20 per month plan, you might only get a few of these." `[9-skills]`/`[news]` "just for those nine prompts, it was around $250... open-source models are getting significantly better... GLM 5.2... use a tool like open router... save five times the amount of money."
+**Non-obvious:** model choice is a per-task economic decision, not a default.
 
-The Foreplay API reveals ad runtime but NOT direct ROI. Riley uses **duration as a Bayesian prior for success**.
+### 8. ★ Skill Chaining / Composability
+Designs skills to compose; output of one becomes input of the next, live. `[primary]` "the goal then is that you use these skills together" — scrape-creators → buffer-publisher (borrowed captions), scrape-creators → email-draft. Co-founder: "the three, four, five combination is like pretty powerful."
+**Non-obvious:** the skills aren't a menu — they're a pipeline assembled on the fly.
 
-**Logic**:
-- If an ad has run for 9 months, the advertiser is (presumably) profiting from it
-- Runtime is a nearly free signal (Foreplay exposes it) vs. proprietary performance data
-- Scrape longest-running first → analyze those → extract patterns from winners
+### 9. ★ Draft-Link Handoff + Approval-Gated Publishing
+Never auto-sends. Every action ends in an editable draft/link he reviews and sends himself. `[primary]` "it's going to send me back a draft link where I can edit it and send it" / "I did say to create a draft, so it's not actually scheduled." `[visual]` The Chorus "Riley Brown" agent system prompt: "Produces and stages real marketing assets, while keeping publishing and external changes behind approval." Platform-reinforced `[visual]`: Gmail's AI-content banner, Buffer refusing to schedule until channel/caption/image resolve.
+**Non-obvious:** safety and taste live in the *terminus*, not the prompt. He removes all labor before the send while keeping the judgment human.
 
-**Critical Assumption**: This is valid for certain verticals (SaaS ads, edu, B2B) but less so for vanity/brand spend. Riley doesn't address this filtering yet.
+### 10. Batch-the-Inbox (the draft-link, scaled)
+Applies the draft-link pattern across the whole inbox. `[primary]` "I want a draft link for all of these. I don't care how many it is." / "a few days ago I had to respond to like 20 and it just sent me 20 draft links. All of them sound like me." Riley's own verdict: this one "is actually the most useful."
+**Non-obvious:** reviewing 20 pre-written drafts is a different job than writing 20 emails.
 
-**Mathematical Frame**: P(ad profitable | ran 9 months) >> P(ad profitable | ran 3 weeks)
+### 11. Zero-Plugin API Bootstrapping
+No official integration? Grab an API key, paste it, tell the agent to build a skill that controls it. `[primary]` "cal.com does not have an official plugin... get an API key paste it in and say create a skill that fully controls cal.com and it'll work one minute later." `[visual]` skill name on screen: "Cal.com Control"; the generated link correctly encodes compound constraints (Tue/Thu, Sept–Oct, 1–5pm, Google Meet, America/New York).
+**Non-obvious:** the integration surface is "does it have an API," not "does it have a plugin."
 
-**Timestamps**: [11:36-11:42] "If you run an ad for nine months, right? It's a pretty good likely..."; [11:41-43] "presumably they're spending a lot of money keeping it alive for a good"
+### 12. Improvised Multi-Tool Workflow Assembly
+Composes novel pipelines live, reasoning through what each tool ingests/emits. `[primary]` "I'm making this up on the spot... wait, how do we get that on the board? Oh, we can just use firecrawl to scrape and put it on there."
+**Non-obvious:** the meta-skill under all the skills — fluid mental modeling of tool I/O.
 
----
+### 13. Template-Steal Ad Generation (structure-theft, not copy-theft; volume is the goal)
+Scrapes competitors' best statics → board → scrapes his brand → regenerates as own branded ads, mass-producing variations. `[primary]` "we're basically just going to use them as templates for our own ads... You want to experiment a lot with ads... Would we ever do this word for word? We would change it more than this." `[visual]`: the regenerated "Built a $100,000 agent for $50" ads laid out as an A/B batch.
+**Non-obvious:** the proven ad's *structure* is the reusable template. **Named failure to avoid** (Hidden #10): Codex kept the competitor's real byline "Dr. Fahim Hussain" in the rebrand — never carry a real name/likeness into a template-steal.
 
-### 4. **Notion Schema as Emergence, Not Pre-Design**
+### 14. Teach-by-Demonstration (record-and-replay → skill)
+For any workflow with no clean API, screen-records himself doing it once; Codex converts the recording into a reusable computer-use skill. `[news]` "'Recording is now on. Show me the Typefully draft process'... it's creating this skill called manual tweet draft... You're allowed to upload up to 30 minutes... they have a really good computer use."
+**Non-obvious:** extends skill-creation to the entire GUI surface — anything he can *do* becomes a skill.
 
-Riley creates Notion databases on-the-fly, not with pre-defined templates. The schema emerges from the data.
+### 15. ★ Async Automations — "Act in the Future"
+Turns any successful one-off into a recurring or scheduled automation in natural language, replacing Zapier-style building. `[9-skills]` "Anything useful now, ask yourself, would this be useful on a recurring basis or at a specific time?... AI, because it's just like talking to a human, will just set up the automation" (his "daily best video hook outline every morning at 9am" demo). `[visual]` sidebar: a real "Create morning episode automation" thread.
+**Non-obvious:** collapses the specialist skill of automation-building into a spoken sentence; the trigger-mindset is the technique.
 
-**Pattern**:
-- Start with minimal schema (Creator Name, URLs, Transcripts)
-- Add fields as analysis surfaces new dimensions: Engagement Rate, Script Patterns, Hook Style, CTA Type, Audience Sentiment
-- Each new workflow adds a layer (e.g., `/riley-ad-performance-auditor` adds Competitor, Ad Duration, Copy Strategy)
-
-**Why This Works**: Eliminates pre-design paralysis. The database grows organically as you learn what matters.
-
-**Implication**: Notion API workflow must be *flexible* (field creation on-the-fly, not rigid schema).
-
-**Timestamps**: [03:10-15] "creating a database of his content"; implies incremental, not pre-planned
-
----
-
-### 5. **Creator Voice as Extractable Bytecode**
-
-The insight: creator voice is NOT amorphous. It can be decomposed into:
-- Script structure (hook → problem → solution → CTA)
-- Word choice (formal vs. casual, technical depth)
-- Pacing (how fast hooks hit, time to payoff)
-- Visual patterns (cuts, transitions, camera angle)
-
-**Riley's Frame**: "The reason why AI is bad at writing content scripts is because... you know, with coding, it's very easy to verify whether something is good or bad... It's way more deterministic. It's easier to validate." [03:37-48]
-
-**Application**: Extract Kallaway's transcripts → LLM prompt: "Extract the script formula used in the top 3 videos" → output a callable skill that generates scripts in his voice.
-
-**Why It Matters**: This makes creator influence *portable*. You don't have to hire Kallaway; you can instantiate his patterns.
-
----
-
-### 6. **API-First Thinking: Every Platform as a Layer**
-
-Riley treats every data source (Instagram, YouTube, Foreplay, Notion, Gmail, Paper) as an API endpoint.
-
-**Ops Pattern**:
-- ScrapeCreators API → Instagram, TikTok, YouTube data
-- Foreplay API → competitor ad corpus
-- Notion API → data warehouse + Notion-as-UI
-- Gmail API → draft generation (implied in multi-step flows)
-- Paper API → real-time dashboard (agent workflows populate a Paper doc)
-
-**Implication**: Skills are API-glue workflows. No UI needed; everything is data in/out.
-
-**Cost Consciousness**: Riley is aware of API costs. ScrapeCreators (mentioned as $10-50/creator), Foreplay ($175-458/mo), Firecrawl (implied). He doesn't mandate these in every workflow; he chooses by use case.
+### 16. Agents Live Where You Already Work (cloud agents in iMessage/Slack)
+Deploys always-on cloud agents into the tools his team already uses, addressable like a teammate. `[9-skills]` "@chorus, I need you to do in-depth research on Alex Hormozi... make a little landing page... email it to Ange and Emily" (Slack). `[primary]` "you can immediately add this agent to your iMessage."
+**Non-obvious:** the distribution insight — agents in iMessage/Slack "almost like Wi-Fi... in the background" require nobody to learn a new tool.
 
 ---
 
-### 7. **Sponsored Content Filtering**
+## Hidden Knowledge (13 tacit insights)
 
-Implied in multiple places: when scraping creators, filter out sponsored/paid-promotion videos because patterns are corrupted by brand directives.
-
-**Filter Logic**:
-- Scan video description for: #ad, #sponsored, #partner
-- Exclude from skill extraction (use only creator's authentic voice)
-- Separate database for sponsored content (useful for ad analysis, not voice)
-
-**Why**: A creator's authentic hook style differs from their sponsored-message delivery. Mixing them dilutes the extracted pattern.
-
-**Hidden**: Riley demonstrates this implicitly [01:37-03:30] but doesn't verbalize it; this is the "signal/noise" separation step.
-
----
-
-### 8. **Notion Database as Published Output**
-
-Notion isn't just a workspace; it's the distribution point. Riley embeds videos, transcripts, and analysis directly into the Notion database.
-
-**Pattern**:
-- Scrape → Database (video embeds, transcript blocks)
-- Analysis → Add property: "Persuasion Patterns" (rich text with bullet points)
-- Share database link with team/client
-- Notion becomes the "published pattern library"
-
-**Advantage over Markdown/PDF**: Searchable, sortable by engagement/patterns, embeds preserve context (watch video + read analysis side-by-side).
-
-**Implication**: Workflows should output not just data, but *formatted Notion blocks* (galleries, inline embeds).
+1. **"Just turn it into a skill" hides real generated code.** `[visual]` the Foreplay skill is a 4+ file Python pipeline (`build_dataset.py`, `enrich_analysis.py`, `make_contact_sheets.py`, +1) writing `selected_ads.csv` / `selected_ads_enriched.json`. Treat a skill as software — read what it wrote.
+2. **Read the skill the agent wrote for itself.** Skills drift; curate by telling the agent to update the file after a correction. Persistence mechanism confirmed on screen (`New workflow`, `Memory → AGENTS.md`).
+3. **Taste is the non-delegable input.** `[9-skills]` "understanding what good looks like... I'm really good at creating content... If you asked me to create a discounted cash flow analysis... I would not be good at delegating... because I don't know what a good DCF analysis looks like." You can only delegate well what you can judge well.
+4. **Every skill sits on a paid API/connector he glosses over.** ScrapeCreators, Foreplay, Firecrawl, Buffer, Typefully, Cal.com, Gmail, Paper (MCP). *Our build routes around every one of these — see `references/api-integration-guide.md` for the his-stack-vs-ours map.*
+5. **Frontier cost is brutal; open-source is the escape hatch.** `[news]` "$250" for nine Fable prompts via API; medium-by-default + GLM-via-OpenRouter is cost management disguised as preference.
+6. **MCP vs. raw-API vs. computer-use is a deliberate three-way choice** — picked per tool. When neither MCP nor REST exists, fall back to record-and-replay computer-use.
+7. **Notion databases are disposable scaffolding.** `[primary]` "put the notion database just in the archive right now. This is just for testing purposes." The durable deliverable is the skill; the DB is staging.
+8. **Human review is load-bearing, and platforms enforce it too.** `[visual]` guardrails the audio never mentions: Gmail's gold AI-content banner ("hasn't been checked for accuracy"), Buffer refusing to schedule until channel/caption/image resolve, Typefully's 512MB upload cap.
+9. **The content-verification gap is the master key.** Code is verifiable, content isn't — that single asymmetry explains everything. Internalize one thing, it's this.
+10. **Legal/ethical blind spot he doesn't flag: the rebrand kept a real person's name** ("Dr. Fahim Hussain"). A place to *improve* on his method, not copy it — our `/creative-from-winners` gate bans byline carryover.
+11. **Parallelism/async is assumed baseline.** `[9-skills]` "you can talk to many agents in parallel" (command-N), always-on cloud agents, scheduled automations.
+12. **"Anything public on the internet, Codex can scour."** He offloads research (best contact email, competitor ad libraries, brand pages) to the agent as a reflex.
+13. **Foundational skills > tools, because tools churn.** `[9-skills]` "most of that stuff will change over the next year... what actually matters is the foundations you have as a person — communication, delegation, taste, mental clarity, multitasking. If you're a good manager of people, you're going to become a good manager of agents."
 
 ---
 
-### 9. **Real-Time Agent Orchestration via Codex UI**
+## Hall of Fame Exemplars (verbatim — this is the material that makes the skill usable)
 
-Riley types prompts into Codex and agents execute immediately: `/slashscraper` → agent fetches data → populates Notion in real time.
+### Exemplar 1 — Scrape-Creator → Compile-to-Skill → Write-in-Voice (the flagship)
+Three prompts, live, in-voice on a fresh topic:
+1. *Scrape:* `[primary]` "Please find the creator Callaway on Instagram... Get his best 10 videos from the past few months and I want the transcript and the raw videos and I want them put into a new notion database... And then I also want you to tell me why he's such an effective short form creator." Model: "5.6 soul... medium... straightforward task." `[visual]` read-back: "10 source videos are now downloaded locally and the 10 transcripts succeeded."
+2. *Compile:* "find the top 10 videos that has the most engagement that are not sponsored... turn all of the his top performing videos into a skill. Call it Callaway top performing." (Agent excludes sponsored with retained exclusion evidence, writes the skill.)
+3. *Deploy (new chat):* "Callaway top performing — I want to create a script on the JSpace news by Anthropic... Callaway does a great job explaining things simply while also making it seem urgent and cool. Please create a script for this. Write three options in his voice."
+**Output (verbatim):** "Anthropic just found a hidden workspace inside Claude's brain... the weirdest part is nobody programmed it. They call it JSpace." Riley: "actually so good... This is exactly in his tone."
+**Why excellent:** the whole doctrine in one run — scrape verified winners, filter fakes (with audit trail), freeze as a named callable, deploy on a *new* topic in-voice — producing a deploy-ready hook, not a description of one.
 
-**Workflow Trigger**:
-1. User inputs intent ("Show me Kallaway's top 10 videos")
-2. Skill name invoked (`/slashscraper`)
-3. Agent chat surfaces: "I'm searching...", "Creating database", "Adding transcripts", "Ranking by engagement"
-4. Completion: "10 videos added to Notion. Top 3 patterns extracted."
+### Exemplar 2 — Ad-Spy → Board → Brand-Scrape → Image-Gen Ad Factory (improvised)
+1. *Spy:* "please scrape the longest running ads from my competitors which are quad.ai perplexity and chatgpt and replet... add a little text field... your thoughts on why their ads are doing well... top five video ads from each one and the top five static ads... videos in English only." Mid-run: "I'm going to stop it real quick... turn up soul... extra high... keep going." (Ran 10 min.) `[visual]`: Notion schema = Ad / CTA / Competitor; the agent labels "why it works" as *inference from durability, not ROAS proof.*
+2. *Board:* "please take all the static ads and put it on my open paper app right now."
+3. *Brand scrape:* "use the firecrawl and I want you to go to chorus.com... scrape all of that whole page... take all the individual assets from the page and put that in a different frame."
+4. *Regenerate:* "replace the replet formatting with an ad that is for chorus. Use good copywriting" → "Keep the guy the same and the background the same... say 'Built a $100,000 agent for $50'... Change nothing else except the colors to match the chorus brand."
+**Output:** "Built a $100,000 agent for $50. Built with Chorus" — same layout as the template, laid out as an A/B batch. Honest self-critique: "Would we ever do this word for word? We would change it more than this."
+**Why excellent:** the template-steal doctrine in full, assembled from four tools live — *with a visible trap to avoid* (kept a real byline).
 
-**Implication**: Workflows are conversational, not batch. User feedback loops fast.
+### Exemplar 3 — Batch Email: Decline-and-Pitch at Scale
+"find all of the emails over the last two months where people have offered me a product... politely and with a little bit of pizzazz say Decline... but then say, do you want to try our product? And give them a link... I want a draft link for all of these. I don't care how many it is."
+**Output (verbatim draft):** "Talia looks sharp, but I'm going to pass on trying it for now. That said, plot twist — want to try our product instead?" Five saved-and-unsent drafts `[visual]`; Riley selectively sends: "I'm actually not going to send it. That guy seemed like a harmless founder."
+**Why excellent:** maximal leverage on the draft-link primitive — one prompt, N voice-matched drafts, human taste applied only at the send decision.
 
-**Timestamps**: [01:52-02:03] "Please find the creator Callaway on Instagram. I love his social media content. Get his best 10 videos from the past few months and I want the..."
+### Exemplar 4 — Screen-Record → Skill (record-and-replay)
+`[news]` "Please make a skill called manual tweet draft... 'Recording is now on. Show me the Typefully draft process.'" Performs steps (new tab → typefully.com → switch to Riley Brown → type draft → upload image), hits stop; Codex builds the skill. Later: "manual tweet draft — can you please upload the latest video to Typefully as a draft? It's in my downloads."
+**Output:** a computer-use skill that drives the browser (it hit Typefully's 512MB cap on the real upload — an honest failure kept in the video).
+**Why excellent:** proves skill-creation extends to the entire GUI, not just API-having tools.
 
----
+### Exemplar 5 — Cal.com Constraint-Encoded Booking Link
+"the only days that should be available are in September and October... stick with this Tuesday, Thursday schedule... create a document... write the intro... draft an email for me with that Cal AI link."
+**Output:** `[visual]` a live Cal.com page — Tuesdays only, September, 1–5pm slots, Google Meet auto-attached, America/New York — plus a ready outreach draft.
+**Why excellent:** zero-plugin API bootstrap producing a real asset that parses compound constraints from one prompt.
 
-### 10. **Comparative Ad Analysis at Scale**
-
-The competitor audit workflow (e.g., Quad.ai vs. Replit vs. Claude):
-1. Scrape longest-running ads from each competitor (Foreplay)
-2. Add to Notion with schema: Competitor, Ad Duration, Ad Copy, Hook, Visual Style, CTA
-3. Prompt Claude/GPT-5.6 (extra-high): "Compare these 15 ads. What patterns do winners share?"
-4. Output: structured analysis of success factors
-
-**Key Move**: Side-by-side in Notion. The analysis isn't a report; it's a database you can query ("Show me all video ads with emotional hooks").
-
-**Timestamps**: [11:54-12:10] "I want you to scrape their longest running ads... let's go ahead and put" (Quad.ai, Replit, + others)
-
----
-
-### 11. **Skill as Recursive Extractor**
-
-A skill extracts patterns from creators, which then generates content in that creator's voice, which becomes training data for future extractions.
-
-**Loop**:
-- Extract Kallaway patterns → generate `/slashkallaway-voice` skill
-- Use skill to generate scripts → send to Kallaway for feedback
-- Feedback → refine patterns → update Notion database → regenerate skill
-- Next time: skill is more accurate
-
-**Implication**: Extraction is not a one-shot; it's a feedback loop.
+### Anti-Exemplar — The Naive Marketing Agent
+Prompt-engineering a voice from scratch; scraping raw top engagement without excluding sponsored; presenting durability as *proof* of ROAS; auto-sending with no review terminus; cloning a competitor ad word-for-word (or leaving its real byline in); treating each task as a fresh prompt instead of a saved skill; leaving corrections in chat where they evaporate; delegating work in a domain where you can't judge good from bad. **Why it fails:** ignores the verification gap, poisons the pattern set, overclaims epistemically, removes the human safety/taste terminus, courts legal risk, never compounds, delegates blind.
 
 ---
 
-## Hidden Knowledge (5 key insights Riley demonstrates but doesn't explicitly state)
+## Signature Moves (deploy-when triggers)
 
-### H1: Transcript Quality Determines Output Quality
-
-Riley scrapes transcripts from videos. If transcripts are auto-generated (YouTube auto-captions), accuracy is 70-85%. If professionally transcribed (ScrapeCreators includes native captions), it's 95%+.
-
-**Implication**: Transcript source matters. Skills built on poor transcripts produce worse patterns.
-
-**Evidence**: [01:52-05:10] Riley focuses on Kallaway because his content is well-structured; poor-quality creators would produce noisy extraction.
-
----
-
-### H2: Visual Creators Need Visual Context
-
-Riley's extraction focuses on scripts/transcripts, but the *video* itself (cuts, transitions, visual hooks) contains 40% of the pattern.
-
-**Implication**: Transcript-only extraction misses visual persuasion. A full "Kallaway skill" would need frame-by-frame analysis (Higgsfield video vision or similar).
-
-**Unstated Rule**: For YouTube/TikTok creators, always pair transcript analysis with 3-5 frames per video.
+- **"Turn it into a skill."** After any successful run, name it and freeze it. → the task will recur. *[all three videos]*
+- **Record-and-replay to teach.** Screen-record a GUI workflow once. → the tool has no clean API. *[news]*
+- **Describe, don't hack.** Speak plainly; skip "act as," @-tricks, parameter hacks. → always, on modern agents. *[9-skills]*
+- **Voice-dictate the long prompt.** Whisper Flow instead of typing. → long/exploratory instruction. *[primary]*
+- **Fire-and-multitask across parallel threads.** → tasks run minutes. *[9-skills]*
+- **Mid-run effort escalation.** Stop, raise the reasoning dial, resume. → you realize it needs analysis, not retrieval. *[primary] "turn up soul... extra high."*
+- **Downgrade the model for mechanical tasks.** → "put image, hit API, done." *[primary] "You do not need to use a good model for this."*
+- **Stage in the archive.** Route test outputs to disposable staging, never production. → validating a new skill. *[primary]*
+- **Name the skill on creation.** The memorable slash-name is the API. → the workflow recurs. *[primary]*
+- **Always demand links back.** Bake "return a link" into any producing skill. → any doc/draft/folder/post. *[primary]*
+- **Scrape with a 'why it works' column** (flagged as inference). → the scrape should also teach. *[primary]/[visual]*
+- **Act in the future.** Ask "would this be useful recurring or scheduled?" → a one-off proves useful. *[9-skills]*
 
 ---
 
-### H3: Platform Data Varies (and Matters)
+## Expert-Specific Quality Rubric (11 criteria — how Riley judges an agentic marketing workflow)
 
-Instagram engagement != YouTube engagement. Reels reward hooks; long-form (YouTube) rewards depth.
+| Criterion | Score 4 (Acceptable) | Score 7 (Good) | Score 10 (Savant) |
+|---|---|---|---|
+| **Example-groundedness** | Prompts a style abstractly | Feeds a few exemplars in-prompt | Agent auto-retrieves verified top-performers from a live scraped skill/DB |
+| **Taste / "know what good looks like"** | Delegates in a domain the operator can't judge | Operator can spot-check output | Operator is a domain expert; delegation + judgment are tight |
+| **Engagement authenticity** | Uses raw top-engagement | Manually avoids obvious sponsored | Programmatic sponsored-exclusion *with retained evidence* |
+| **Epistemic honesty** | Presents inference as proof | Hedges verbally | Output self-labels inference vs. proof ("durability, not ROAS") |
+| **Reusability (skill-as-asset)** | One-off prompt, re-explained | Saved template | Named skill/workflow that compounds via written-in corrections |
+| **Human-in-loop terminus** | Auto-sends/auto-posts | Confirms before acting | Every action ends in an editable draft/link, publishing behind approval |
+| **Model + cost fit** | One model for everything | Bumps model for hard tasks | Per-task effort dial + open-source routing tuned to plan economics |
+| **Composability** | Isolated single-tool task | Two tools chained manually | Skills chain fluidly; new pipelines assembled live |
+| **Deployability of output** | A draft needing rework | Usable with light edits | Deploy-ready asset that survives Riley reading it aloud |
+| **Integration-path fit** | Forces one method | API when available | Right path per tool: MCP / REST / computer-use-via-record-and-replay |
+| **Return-and-verify** | No link; must go hunt | Returns a link sometimes | "Always return a link" baked into the skill |
 
-**Implication**: Scrape platform-specific metrics. A creator's "top 10" on Instagram differs from their YouTube top 10.
-
-**Evidence**: Riley mentions "scrape from every single platform" but doesn't discuss platform-specific weighting.
-
----
-
-### H4: Notion's Native Embed is the Bottleneck
-
-Notion can embed videos, but the embed experience is poor on mobile. For distribution at scale, you'd need a custom UI. Riley doesn't address this.
-
-**Implication**: Notion databases work for teams of <20. Beyond that, a custom skill dashboard matters.
-
----
-
-### H5: Filtered APIs Return Proprietary Data
-
-Foreplay doesn't expose actual ad performance (ROI, CTR). It only shows runtime + video/copy. This is a *feature*, not a bug (protects advertiser privacy), but it limits analysis.
-
-**Implication**: A skill can only infer performance, not measure it. The longest-running ad is a proxy, not ground truth.
-
-**Evidence**: [11:26-30] "Obviously, they have internal data that shows like whether... the ROI, you know... but the one metric that we can use for kind of as a proxy for that is how long they've been running it."
+**Riley's minimum bar (his own verdicts):** an output must survive being read aloud — "actually so good... exactly in his tone." Rejection tells: "fake... not real engagement" (sponsored); "Would we ever do this word for word? We would change it more than this" (lazy cloning); failing the "vibe check" `[news]`. Good enough = deploy-ready and voice-true; excellent = it also self-labels its epistemic status and became a reusable skill.
 
 ---
 
-## Hall of Fame Exemplars (3 demonstrated moments)
+## Methodology (progression)
 
-### Exemplar 1: Kallaway Scrape (01:37-03:30)
-
-**What Happened**:
-1. Riley invokes `/slashscraper`
-2. Prompt: "Please find the creator Callaway on Instagram. I love his social media content. Get his best 10 videos from the past few months and I want the transcripts, I want the videos, I want all the captions"
-3. Agent returns: Notion database with 10 videos, transcripts, ranked by engagement
-4. Riley reviews the output: "So this is a skill that I created using the scrape creators API"
-
-**Why It's Exemplary**:
-- **Real-time execution**: From prompt to populated Notion in seconds (agent-native)
-- **Complete context**: Videos + transcripts + rankings in one place
-- **Modularity**: The database becomes a dependency for downstream skills
-- **Fidelity**: Transcripts are native captions (high quality)
-
-**Pattern Extracted**: "Kallaway's top videos all open with a personal story + segue to content. 3-min average hook."
-
-**Timestamp Evidence**: [01:52] "Please find the creator Callaway"; [02:41-50] "it's going to scrape all of Callaway's"; [03:10] "creating a database of his content"
+1. **Diagnose the verification gap** — build a retrieval layer of verified winners, not a cleverer prompt.
+2. **Own the taste** — only delegate what you can judge.
+3. **Scrape verified exemplars** — authenticity filters (exclude sponsored; longest-running as *flagged-inference* proxy) + a "why it works" field.
+4. **Turn it into a skill** — freeze any successful run as a named skill; read what it wrote.
+5. **Chain skills into pipelines** — compose live; pick the integration path per tool.
+6. **Terminate in a draft/link, publish behind approval** — never auto-send.
+7. **Dial model + effort + open-source per task**, watching plan economics.
+8. **Correct into the file; automate the recurring** — write fixes into the skill; promote useful one-offs to scheduled automations.
 
 ---
 
-### Exemplar 2: Kallaway Skill Creation (03:18-03:50)
-
-**What Happened**:
-1. Riley announces: "for the next skill, I'm going to be turning Callaway's content into a separate skill"
-2. He's building a *callable* version of Kallaway's voice
-3. Use case: "allows me to tap into his like really good scripting"
-4. Intent: "you use these skills together to find creators, learn how they speak, and then adjust your own kind of scripting"
-
-**Why It's Exemplary**:
-- **Voice Portability**: Kallaway's patterns become a reusable asset (not a one-off analysis)
-- **Stacking**: Skills are meant to be composed (scraper + extractor + voice-generator)
-- **Creative Leverage**: Use extracted patterns to generate your own content
-- **Feedback Loop**: "adjust your own... scripting" implies continuous refinement
-
-**Insight**: Skills are not read-only libraries; they're *productive* (generate output in learned style).
-
-**Timestamp Evidence**: [03:18] "Callaway's content into a separate skill"; [03:25] "allows me to tap into his like really good scripting"; [03:27-30] "you use these skills together to find creators, learn how they speak"
-
----
-
-### Exemplar 3: Competitor Ad Audit (10:43-12:47)
-
-**What Happened**:
-1. Riley invokes `/slashforeplay` API
-2. Prompt: "I want you to scrape their longest running ads from my competitors which are quad.ai, perplexity, replit, chatgpt, claude"
-3. Foreplay returns: ~30 longest-running ads (mix of static + video)
-4. Notion added: Ads sorted by duration, indexed by competitor
-5. Analysis layer: "What are your thoughts on why their ads are doing well?"
-6. Agent returns: structured analysis ("emotional appeal", "social proof", "scarcity framing")
-7. Output: Notion database + copy strategy recommendations
-
-**Why It's Exemplary**:
-- **Competitive Intelligence**: One API call, complete competitor ad corpus
-- **Signal Proxy**: Duration as ROI proxy (simple, effective heuristic)
-- **Structured Analysis**: Foreplay + LLM analysis = actionable patterns
-- **Scalability**: Works for 1 competitor or 10
-- **Real-Time Dashboarding**: Paper doc populated as agent runs
-
-**Critical Assumption Tested**: "If you run an ad for nine months... It's a pretty good likely [that it's working]" [11:36-40]. This is validated implicitly (longer-running ads DO tend to be better), but not in the video.
-
-**Timestamp Evidence**: [10:43] "this is scraping ads"; [10:50-52] "Foreplay is just a name of a company"; [11:06-08] "scrape the longest running"; [11:54-57] "scrape their longest running ads... quad.ai, perplexity, replit, chatgpt, claude"
-
----
-
-## Signature Moves (6 demonstrated patterns)
-
-### Move 1: "Scrape → Database → Analyze → Extract Patterns" Loop
-The core operation. Called 3+ times in the video (Kallaway scrape, Foreplay competitor audit, brand asset scraping). This is Riley's default workflow.
-
-**Reproducible Steps**:
-1. Identify creator or competitor source
-2. Use platform-specific API (ScrapeCreators, Foreplay, Firecrawl)
-3. Ingest into Notion with minimal schema
-4. Analyze with Claude/GPT-5.6 (extra-high for complex cases)
-5. Extract patterns as properties/tags in Notion
-6. Create skill from patterns
-
----
-
-### Move 2: Filtering Sponsored Content Out
-Implicit but critical. Riley doesn't extract patterns from #ad/#sponsored videos because they corrupt the authentic voice signal.
-
-**Implementation**:
-- Scraper includes: is_sponsored (boolean field)
-- Filter: `is_sponsored == false` before skill extraction
-- Notion view: "Authentic Videos" (excludes sponsored)
-
-**Why**: Sponsored delivery is brand-directed, not creator-authentic.
-
----
-
-### Move 3: Ranking by Engagement (Not Random)
-Riley's databases rank videos/ads by engagement metrics (likes, comments, shares). This ensures analysis focuses on winners.
-
-**Pattern**:
-- Notion property: `engagement_score = (likes * 1 + comments * 2 + shares * 5) / video_age_days`
-- Sort descending: top performers first
-- Analysis prompt: "What do the top 5 have in common?"
-
-**Anti-Pattern**: Analyzing all content equally (noise vs. signal problem).
-
----
-
-### Move 4: Creating Notion Databases On-the-Fly
-No pre-design step. Schema emerges as the agent populates it.
-
-**Pattern**:
-- Agent creates Notion database (one API call)
-- Fields added dynamically as new data surfaces
-- Each workflow refines the schema for next time
-
-**Efficiency**: Reduces up-front planning, enables discovery-driven structure.
-
----
-
-### Move 5: Real-Time Agent Command Interface
-Users don't write code. They invoke `/slashskillname` + natural language prompt, agents execute, results appear in Notion.
-
-**Example**:
-```
-/slashscraper
-Please find the creator Kallaway on Instagram. Get his best 10 videos.
-→ Agent: "Searching... Creating database... Adding transcripts... Done."
-→ Notion updated in real time.
-```
-
-**Implication**: No deployment step. Skills ship as conversational commands.
-
----
-
-### Move 6: Comparative Analysis Side-by-Side
-Instead of separate reports, Notion database layout enables side-by-side comparison.
-
-**Pattern**:
-- Competitors as database rows
-- Ad Duration, Copy Strategy, Hook, CTA as columns
-- Hover view: video embed + transcript
-- User can spot patterns (e.g., "all top ads start with a question")
-
-**Why**: Notion's database UI is the analysis tool (not a separate tool).
-
----
-
-## Quality Rubric (8 dimensions)
-
-Each workflow is evaluated on:
-
-### 1. **Fidelity to Source** (0-10)
-Does the extracted skill/pattern accurately represent the creator or competitor?
-
-**Scoring**:
-- 9-10: Skill can generate content indistinguishable from source (verified with blind test)
-- 7-8: Skill captures 80% of patterns; some edge cases missed
-- 5-6: Skill captures main patterns; nuance lost
-- 3-4: Skill captures surface-level moves only
-- 0-2: Fidelity unreliable
-
-**Example**: Kallaway skill [9/10] if it generates hooks identical in structure/pacing to real Kallaway videos.
-
----
-
-### 2. **Scalability** (0-10)
-Can the workflow scale from 1 creator to 100+ without manual intervention?
-
-**Scoring**:
-- 9-10: Works for 100+ creators; API parallelization built in
-- 7-8: Works for 10-50; minor manual batching
-- 5-6: Works for 3-10; semi-manual
-- 3-4: Works for 1-2; breaks under scale
-- 0-2: Requires custom engineering per creator
-
-**Example**: Foreplay competitor audit [9/10] (can add unlimited competitors); Kallaway skill [6/10] (trained on one person, needs retraining for new creator).
-
----
-
-### 3. **API Dependency Clarity** (0-10)
-Are all dependencies (ScrapeCreators, Foreplay, Notion, Firecrawl) clearly listed with costs + rate limits?
-
-**Scoring**:
-- 10: All APIs listed, costs/limits documented, fallbacks provided
-- 8: All APIs listed, costs/limits clear, no fallbacks
-- 6: Most APIs listed, some costs missing
-- 4: APIs unclear or incomplete
-- 0-2: No API documentation
-
-**Example**: Competitor audit [9/10] lists Foreplay ($175-458/mo), Notion (included).
-
----
-
-### 4. **Noise Filtering** (0-10)
-Does the workflow filter out irrelevant signals (sponsored content, bots, platform artifacts)?
-
-**Scoring**:
-- 10: Comprehensive filtering (sponsored, bots, low-quality, platform-specific noise)
-- 8: Filters sponsored + some noise
-- 6: Filters obvious spam
-- 4: Minimal filtering
-- 0-2: No filtering; raw data included
-
-**Example**: Kallaway scrape [6/10] (should filter sponsored, doesn't explicitly).
-
----
-
-### 5. **Notion Schema Replicability** (0-10)
-Can another user recreate the Notion database from scratch using the documented schema?
-
-**Scoring**:
-- 10: Full schema documented; field types, formulas, views specified
-- 8: Main fields documented; some complex views missing
-- 6: Basic structure clear; formatting ambiguous
-- 4: Schema vague; requires inference
-- 0-2: No schema documentation
-
-**Example**: Kallaway database [7/10] (field list clear, view structure inferred from video).
-
----
-
-### 6. **Cost Efficiency** (0-10)
-Does the workflow minimize API spend while maximizing signal?
-
-**Scoring**:
-- 10: <$10 per execution; high signal-to-noise
-- 8: $10-50 per execution; good ROI
-- 6: $50-100 per execution; moderate ROI
-- 4: $100-500 per execution; high spend for signal
-- 0-2: $500+ per execution or unclear cost
-
-**Example**: Foreplay audit [7/10] ($175-458/mo flat, scales to unlimited competitors within monthly allotment).
-
----
-
-### 7. **Reproducibility by Codex User** (0-10)
-Can a Codex user with API keys replicate this workflow exactly?
-
-**Scoring**:
-- 10: Documented fully; user can execute in <5 mins
-- 8: Documented; user needs <15 mins + one clarification
-- 6: Mostly documented; user needs 30 mins + some troubleshooting
-- 4: Gaps in documentation; user needs 1+ hr
-- 0-2: Incomplete; needs expert to fix
-
-**Example**: Kallaway scrape [8/10] (straightforward; assumes ScrapeCreators API key).
-
----
-
-### 8. **Extensibility** (0-10)
-Can the workflow easily integrate with downstream skills or extend to new use cases?
-
-**Scoring**:
-- 10: Plugs into 5+ other skills; outputs are modular + composable
-- 8: Plugs into 2-3 skills; outputs are clean
-- 6: Works with 1-2 downstream uses
-- 4: Minimal downstream use
-- 0-2: Output format is rigid; hard to extend
-
-**Example**: Kallaway scrape [9/10] (output feeds skill extractor, ad auditor, voice generator).
-
----
-
-## Validation Checklist (for each new extraction)
-
-Before shipping a workflow:
-
-- [ ] Source material matches Riley's demonstrated approach (scrape → DB → analyze)
-- [ ] API dependencies listed with real costs + rate limits
-- [ ] Notion schema documented (fields, types, views)
-- [ ] Sponsored content filtered (if applicable)
-- [ ] Ranking/sorting by engagement metric (not random)
-- [ ] Real-time agent orchestration (not batch/scheduled)
-- [ ] Side-by-side comparison enabled (if multi-source)
-- [ ] Can scale from 1 to 100+ without rewiring
-- [ ] Total cost per execution is < $100 (or clearly justified)
-- [ ] Skill output is productively usable (generates content, not just data)
-
----
-
-## Common Anti-Patterns (to avoid)
-
-1. **Pre-designing Notion schemas**: Let them emerge from data
-2. **Analyzing all content equally**: Rank by engagement; focus on winners
-3. **Including sponsored content in skill extraction**: Filters out authentic voice
-4. **Treating APIs as black boxes**: Always know cost + rate limits
-5. **Building report-only workflows**: Always output actionable patterns or callable skills
-6. **Batch-only execution**: Skills should support real-time queries
-7. **Single-creator skills**: Generalize to multiple creators where possible
-8. **Ignoring platform differences**: YouTube ≠ TikTok ≠ Instagram patterns
-9. **Transcript-only extraction for video creators**: Need visual context (cuts, pacing)
-10. **Static outputs in Notion**: Use formulas + filters to make the database *interactive*
-
----
-
-## Next Research Questions
-
-Riley's video hints at, but doesn't fully explore:
-
-1. **Can extracted patterns be validated against held-out test sets?** (e.g., Generate 10 Kallaway-style hooks, have Kallaway rank them)
-2. **How do patterns degrade across platforms?** (YouTube hook structure vs. TikTok 15-second hook)
-3. **What's the maximum number of creators you can extract from before the meta-pattern dilutes?** (1 vs. 10 vs. 100)
-4. **How often do patterns need refreshing?** (Monthly? Quarterly? Annual?)
-5. **Can competitor ad analysis predict which ads will run long?** (i.e., train model on past Foreplay data to predict future winners)
-
----
-
-## Source Citations
-
-All claims are grounded in the transcript 0:00-18:20:
-
-- [01:32-52] Initial skills overview
-- [01:37-03:30] Kallaway scrape demonstration (exemplar #1)
-- [03:10-27] Database creation + skill stacking (exemplar #2)
-- [03:36-48] AI limitations in content scripting
-- [06:50-57] Model selection
-- [10:43-12:47] Foreplay competitor audit (exemplar #3)
-- [11:36-42] Longest-running ads as ROI proxy
+## Anti-Patterns (reject on sight)
+
+- Prompt-engineering a voice from scratch instead of retrieving exemplars — `[9-skills]` "the only enduring prompt hack is describing what you want"; prompt-trick incantations "do basically nothing."
+- Scraping raw top-engagement without excluding sponsored/boosted posts — `[primary]` "those can be boosted. So it's like fake... it's not real engagement."
+- Presenting ad duration as *proof* of ROAS — `[visual]` his own agent labels "why it works" as "an inference from creative durability — not proof of ROAS or profitability."
+- Auto-sending / auto-posting with no editable-draft terminus — `[primary]` "I did say to create a draft, so it's not actually scheduled"; `[visual]` Chorus system prompt: "keeping publishing and external changes behind approval."
+- Cloning a competitor ad word-for-word — or carrying its real byline/person into your version — `[primary]` "Would we ever do this word for word? We would change it more than this"; `[visual]` the rebrand that kept "Dr. Fahim Hussain" (2026-07-21 demo).
+- Treating each task as a fresh prompt instead of a saved, named skill — `[primary]` "this is all that is is just a file with those transcripts... I didn't have to go fetch the information."
+- Leaving corrections in chat where they evaporate — `[primary]` "please update the email draft skills so that you never say this or that... so you get it in its context."
+- Delegating work in a domain where you can't tell good from bad (taste is non-delegable — Hidden Knowledge #3).
+- Inventing performance numbers the source doesn't expose (Ad Library gives no likes/spend/ROI — leave blank, never fabricate; see source-quotes.md "what the source does NOT establish").
+- Treating a "skill" as a black box — `[visual]` the Foreplay skill is a real multi-file pipeline (`build_dataset.py`, `enrich_analysis.py`, `make_contact_sheets.py`); open it and read it.
+
+## Recognition Test
+
+Before shipping any output from this skill, run Riley's own bar: **would Riley Brown recognize this as his?** Read it aloud — does it earn his verbatim verdicts ("actually so good... This is exactly in his tone") or his rejection ("Would we ever do this word for word?")? The output must survive a side-by-side read against real published Riley pieces (blind-pass ledger: `extractions/riley-brown-marketing-automation/blind-pass-log.md`, EVAL-055). If a cold reader could tell which one the machine wrote, it fails.
+
+## Cross-Domain / Revenue (see `references/cross-domain-patterns.md` for the full map)
+- Examples-over-instructions + draft-link terminus generalize to any subjective, hard-to-verify domain (sales, recruiting, PR, design briefs).
+- Longest-running-ad heuristic transfers to any "no internal data, but persistence is public" signal (evergreen SEO pages, repeat sponsorships).
+- Revenue: marketing skill packs as slash-commands; ghostwriting-at-scale via creator-to-skill + batch draft-links; ad-factory service (ad-spy → template-steal → variation batches); agent-as-product living in iMessage/Slack.

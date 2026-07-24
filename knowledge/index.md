@@ -1,5 +1,5 @@
 # Knowledge Index
-*733 sources | 2,860,131 words | Updated: 2026-07-24*
+*738 sources | 2,888,837 words | Updated: 2026-07-24*
 
 ---
 
@@ -370,7 +370,7 @@
 - [sample-004](expert-benchmarks/copywriting/sample-004.md) [luke-iha] — 92 words (stale)
 - [sample-001](expert-benchmarks/copywriting/sample-001.md) [luke-iha] — 63 words (stale)
 
-## General (91 files)
+## General (92 files)
 
 - [Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average](extractions/inbox/Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average.md) — 64,760 words (stale)
 - [Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2](extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2.md) — 62,412 words (stale)
@@ -387,13 +387,14 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 14,539 words
+- [log](log.md) — 14,582 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words
 - [the-620-man-ch1-3](../extractions/david-baldacci-books-that-sell/reference-corpus/the-620-man-ch1-3.md) — 4,293 words
 - [DESIGN](design-libraries/brands/tesla/DESIGN.md) — 3,367 words
 - [recipe_templates](../extractions/mark-kashef-perfect-agentic-os-kit/source_assets/references/recipe_templates.md) [nick-saraev] — 3,363 words
+- [visual-notes](../extractions/riley-brown/visual-notes.md) — 3,298 words
 - [DESIGN](design-libraries/brands/lamborghini/DESIGN.md) — 3,237 words
 - [DESIGN](design-libraries/brands/ibm/DESIGN.md) — 3,004 words
 - [DESIGN](design-libraries/brands/vercel/DESIGN.md) — 2,979 words
@@ -464,7 +465,7 @@
 - [ocr-notes](../extractions/video-context/3iR3kHxCwfo/ocr-notes.md) — 20 words
 - [ocr-notes](../extractions/video-context/a7VjpIqq8Xk/ocr-notes.md) — 20 words
 
-## Strategy (77 files)
+## Strategy (78 files)
 
 - [Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI](extractions/inbox/Claude-💎💎🧑🏽_💻 Alex Copper ! Reinventing Creative Strategy with AI.md) — 54,665 words (stale)
 - [Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2](extractions/inbox/Claude-💎💎🧑🏽_💻 Fresh & Alex Copper ! Reinventing Creative Strategy with AI pt.2.md) — 29,981 words (stale)
@@ -543,12 +544,14 @@
 - [product-design-scoring](../extractions/meg-heckman/codex-prior-art/skill/workflows/product-design-scoring.md) — 200 words
 - [blind-pass-generated-01](../extractions/paolo-trivellato-lead-magnet-engine/blind-pass-generated-01.md) — 193 words
 - [blind-pass-log](../extractions/jason-fladlien-marketing/blind-pass-log.md) [jason-fladlien] — 77 words
+- [blind-pass-log](../extractions/riley-brown-marketing-automation/blind-pass-log.md) — 74 words
 
-## Screenwriting (53 files)
+## Screenwriting (54 files)
 
 - [Claude-💎💎 Shaan Puri's Storytelling Formula](extractions/inbox/Claude-💎💎 Shaan Puri's Storytelling Formula.md) — 50,755 words (stale)
 - [Claude-💎💎🧑🏽_💻 Oscar Hoglund ! The Impact of Sound in Your Storytelling w! CEO of Epedemic Sound](extractions/inbox/Claude-💎💎🧑🏽_💻 Oscar Hoglund ! The Impact of Sound in Your Storytelling w! CEO of Epedemic Sound.md) — 50,452 words (stale)
 - [transcript](../extractions/persuasion-story-code/source/transcript.md) [nick-saraev] — 41,010 words
+- [visual-context](../extractions/riley-brown/visual-context.md) — 17,427 words
 - [skill-files-analysis](../extractions/joey-cinema/skill-files-analysis.md) — 8,609 words
 - [mes-deep-delta-2026-07-16](../extractions/jenny-hoyos/mes-deep-delta-2026-07-16.md) — 5,183 words
 - [extraction-report](../extractions/steven-pressfield/extraction-report.md) [pressfield] — 3,943 words (stale)
@@ -653,10 +656,11 @@
 - [OPPORTUNITIES](../extractions/mark-kashef-perfect-agentic-os-kit/source_assets/examples/marco_ecommerce/OPPORTUNITIES.md) [nick-saraev] — 229 words
 - [blind-pass-log](../extractions/oren-identity-brand-os/blind-pass-log.md) [oren-john] — 90 words
 
-## Systems (41 files)
+## Systems (43 files)
 
 - [Claude-💎💰🧑🏽_💻 JING ! Darrel Wilson ! This New AI Automation Is Replacing Freelancers in 2026](extractions/inbox/Claude-💎💰🧑🏽_💻 JING ! Darrel Wilson ! This New AI Automation Is Replacing Freelancers in 2026.md) — 50,355 words (stale)
 - [video-context-ledger](../extractions/video-context/-WCNwxz3uoM/video-context-ledger.md) — 28,024 words
+- [mes-extraction](../extractions/riley-brown/mes-extraction.md) — 7,342 words
 - [DESIGN](design-libraries/brands/voltagent/DESIGN.md) — 3,928 words
 - [karpathy-loop-mes-extraction](../extractions/nate-b-jones/karpathy-loop-mes-extraction.md) — 3,568 words (stale)
 - [polymarket-agents-source](../extractions/prediction-market-trading/raw-sources/polymarket-agents-source.md) — 3,492 words (stale)
@@ -684,6 +688,7 @@
 - [VISION](../extractions/joey-cinema/VISION.md) — 648 words
 - [extraction-report](../extractions/mark-kashef-banana-squad/extraction-report.md) — 612 words (stale)
 - [architecture](../extractions/wargame-source/architecture.md) — 525 words
+- [vision](../extractions/riley-brown/vision.md) [nick-saraev] — 522 words
 - [banana-squad-spawn](../extractions/mark-kashef-banana-squad/prompts-v2/banana-squad-spawn.md) [nick-saraev] — 495 words
 - [INDEX](../extractions/prediction-market-trading/INDEX.md) — 459 words (stale)
 - [node-workflows](creative-direction/node-workflows.md) — 418 words (stale)

@@ -2930,6 +2930,16 @@
     "status": ""
   },
   {
+    "name": "riley-brown-marketing-automation",
+    "directory": "riley-brown-marketing-automation",
+    "description": "Riley Brown's (Agent Native / Chorus) agentic marketing-operations doctrine \u2014 running a company's entire marketing through a coding agent + a portfolio of small, named, composable skills wrapped around scraper APIs. Examples-over-instructions (retrieve verified exemplars, don't prompt harder), creator\u2192skill voice compilation, longest-running-ad competitor intel, template-steal ad factories, email drafts at scale, constraint-encoded booking links, \"turn it into a skill\" freezing, and per-task model/cost routing \u2014 all terminating in a human-editable draft behind approval. Use for scraping creators/competitors, building marketing skill libraries, ad-spy, on-brand creative from winners, inbox/scheduling ops, and agent-native distribution.",
+    "when_to_use": "",
+    "mtime": 1784917055.4058723,
+    "slash": "/riley-brown-marketing-automation",
+    "routing": "",
+    "status": ""
+  },
+  {
     "name": "robert-greene-power-mastery",
     "directory": "robert-greene-power-mastery",
     "description": "Robert Greene's power dynamics and craft-mastery system \u2014 reading the egos and self-interest in any room, engineering strategic presence (reputation, absence, silence, formlessness), and building an apprenticeship path that compounds into irreplaceable skill.",

@@ -1,23 +1,23 @@
 {
-  "generated": "2026-07-24T09:54:21.029121",
-  "total_files": 733,
-  "total_words": 2860131,
-  "total_tokens_est": 3803974,
+  "generated": "2026-07-24T11:36:23.470990",
+  "total_files": 738,
+  "total_words": 2888837,
+  "total_tokens_est": 3842153,
   "stale_files_30d": 456,
   "domains": {
     "content": 258,
     "copywriting": 103,
-    "general": 91,
-    "strategy": 77,
-    "screenwriting": 53,
+    "general": 92,
+    "strategy": 78,
+    "screenwriting": 54,
     "brand": 50,
-    "systems": 41,
+    "systems": 43,
     "seo": 26,
     "research": 23,
     "sales": 11
   },
   "experts": {
-    "nick-saraev": 39,
+    "nick-saraev": 40,
     "oren-john": 28,
     "april-dunford": 22,
     "luke-iha": 22,
@@ -94,7 +94,7 @@
       "expert": "dai-media",
       "word_count": 1349,
       "modified": "2026-07-16T11:25:56.454363",
-      "age_days": 7,
+      "age_days": 8,
       "size_bytes": 8545,
       "content_hash": "98ba632b",
       "has_frontmatter": false
@@ -1991,10 +1991,10 @@
       "domain": "content",
       "expert": null,
       "word_count": 4976,
-      "modified": "2026-07-23T11:50:56.927885",
+      "modified": "2026-07-24T09:54:21.038757",
       "age_days": 0,
       "size_bytes": 86091,
-      "content_hash": "e8d985b2",
+      "content_hash": "5b58cb39",
       "has_frontmatter": false
     },
     {
@@ -2003,10 +2003,10 @@
       "parent": "knowledge",
       "domain": "general",
       "expert": null,
-      "word_count": 14539,
-      "modified": "2026-07-24T09:54:20.721189",
+      "word_count": 14582,
+      "modified": "2026-07-24T11:36:23.149481",
       "age_days": 0,
-      "size_bytes": 113810,
+      "size_bytes": 114112,
       "content_hash": "5a51f947",
       "has_frontmatter": false
     },
@@ -2070,7 +2070,7 @@
       "expert": null,
       "word_count": 370,
       "modified": "2026-07-06T11:27:28.991112",
-      "age_days": 17,
+      "age_days": 18,
       "size_bytes": 2715,
       "content_hash": "302e52a7",
       "has_frontmatter": true
@@ -2083,7 +2083,7 @@
       "expert": "luke-iha",
       "word_count": 608,
       "modified": "2026-04-13T10:13:53.409441",
-      "age_days": 101,
+      "age_days": 102,
       "size_bytes": 4659,
       "content_hash": "743b0ba8",
       "has_frontmatter": true
@@ -2096,7 +2096,7 @@
       "expert": "nicolas-cole",
       "word_count": 668,
       "modified": "2026-04-13T10:14:24.112031",
-      "age_days": 101,
+      "age_days": 102,
       "size_bytes": 4950,
       "content_hash": "cc3b5ed0",
       "has_frontmatter": true
@@ -2109,7 +2109,7 @@
       "expert": "kallaway",
       "word_count": 608,
       "modified": "2026-04-13T10:15:39.541375",
-      "age_days": 101,
+      "age_days": 102,
       "size_bytes": 4654,
       "content_hash": "4bdb6753",
       "has_frontmatter": true
@@ -2148,7 +2148,7 @@
       "expert": "dai-media",
       "word_count": 499,
       "modified": "2026-04-13T10:18:27.551101",
-      "age_days": 101,
+      "age_days": 102,
       "size_bytes": 3948,
       "content_hash": "53061992",
       "has_frontmatter": true
@@ -2161,7 +2161,7 @@
       "expert": "lara-acosta",
       "word_count": 339,
       "modified": "2026-04-13T10:17:31.927913",
-      "age_days": 101,
+      "age_days": 102,
       "size_bytes": 2840,
       "content_hash": "6c5f82d2",
       "has_frontmatter": true
@@ -2187,7 +2187,7 @@
       "expert": "luke-iha",
       "word_count": 629,
       "modified": "2026-04-13T10:16:31.620776",
-      "age_days": 101,
+      "age_days": 102,
       "size_bytes": 4997,
       "content_hash": "a8af83d6",
       "has_frontmatter": true
@@ -2200,7 +2200,7 @@
       "expert": "luke-iha",
       "word_count": 687,
       "modified": "2026-04-13T10:16:04.882881",
-      "age_days": 101,
+      "age_days": 102,
       "size_bytes": 4951,
       "content_hash": "aa3e6f61",
       "has_frontmatter": true
@@ -2213,7 +2213,7 @@
       "expert": "luke-iha",
       "word_count": 671,
       "modified": "2026-04-13T10:17:28.784032",
-      "age_days": 101,
+      "age_days": 102,
       "size_bytes": 4593,
       "content_hash": "b136324b",
       "has_frontmatter": true
@@ -2239,7 +2239,7 @@
       "expert": "nathan-gotch",
       "word_count": 986,
       "modified": "2026-04-13T10:42:20.958189",
-      "age_days": 101,
+      "age_days": 102,
       "size_bytes": 7224,
       "content_hash": "b69d4727",
       "has_frontmatter": true
@@ -2265,7 +2265,7 @@
       "expert": null,
       "word_count": 922,
       "modified": "2026-04-13T10:41:40.529882",
-      "age_days": 101,
+      "age_days": 102,
       "size_bytes": 6566,
       "content_hash": "af19325c",
       "has_frontmatter": true
@@ -2278,7 +2278,7 @@
       "expert": "luke-iha",
       "word_count": 715,
       "modified": "2026-04-13T10:14:56.824445",
-      "age_days": 101,
+      "age_days": 102,
       "size_bytes": 5421,
       "content_hash": "b9bc8b61",
       "has_frontmatter": true
@@ -2499,7 +2499,7 @@
       "expert": "nick-saraev",
       "word_count": 1606,
       "modified": "2026-03-06T10:38:04.952085",
-      "age_days": 139,
+      "age_days": 140,
       "size_bytes": 10847,
       "content_hash": "20f9e032",
       "has_frontmatter": false
@@ -2720,7 +2720,7 @@
       "expert": null,
       "word_count": 1099,
       "modified": "2026-07-06T11:27:28.972667",
-      "age_days": 17,
+      "age_days": 18,
       "size_bytes": 7684,
       "content_hash": "9e0456f7",
       "has_frontmatter": false
@@ -3318,7 +3318,7 @@
       "expert": null,
       "word_count": 2147,
       "modified": "2026-03-06T11:02:40.609863",
-      "age_days": 139,
+      "age_days": 140,
       "size_bytes": 14529,
       "content_hash": "bf443432",
       "has_frontmatter": false
@@ -3734,7 +3734,7 @@
       "expert": null,
       "word_count": 60,
       "modified": "2026-07-16T11:24:58.195978",
-      "age_days": 7,
+      "age_days": 8,
       "size_bytes": 475,
       "content_hash": "c18a740e",
       "has_frontmatter": false
@@ -3747,7 +3747,7 @@
       "expert": null,
       "word_count": 5183,
       "modified": "2026-07-16T11:09:26.621293",
-      "age_days": 7,
+      "age_days": 8,
       "size_bytes": 32741,
       "content_hash": "5e58c91f",
       "has_frontmatter": false
@@ -3760,7 +3760,7 @@
       "expert": null,
       "word_count": 196,
       "modified": "2026-07-16T11:24:51.165800",
-      "age_days": 7,
+      "age_days": 8,
       "size_bytes": 1310,
       "content_hash": "48b7c792",
       "has_frontmatter": false
@@ -3773,7 +3773,7 @@
       "expert": null,
       "word_count": 239,
       "modified": "2026-07-16T11:24:51.166219",
-      "age_days": 7,
+      "age_days": 8,
       "size_bytes": 1412,
       "content_hash": "dc9ffc93",
       "has_frontmatter": false
@@ -3786,7 +3786,7 @@
       "expert": null,
       "word_count": 178,
       "modified": "2026-07-16T11:24:51.166592",
-      "age_days": 7,
+      "age_days": 8,
       "size_bytes": 1121,
       "content_hash": "9512d605",
       "has_frontmatter": false
@@ -3799,7 +3799,7 @@
       "expert": null,
       "word_count": 1531,
       "modified": "2026-07-16T11:27:57.756129",
-      "age_days": 7,
+      "age_days": 8,
       "size_bytes": 9322,
       "content_hash": "acdeedb7",
       "has_frontmatter": false
@@ -3838,7 +3838,7 @@
       "expert": null,
       "word_count": 196,
       "modified": "2026-07-16T11:10:45.844279",
-      "age_days": 7,
+      "age_days": 8,
       "size_bytes": 1310,
       "content_hash": "48b7c792",
       "has_frontmatter": false
@@ -3851,7 +3851,7 @@
       "expert": null,
       "word_count": 239,
       "modified": "2026-07-16T11:10:29.673968",
-      "age_days": 7,
+      "age_days": 8,
       "size_bytes": 1412,
       "content_hash": "dc9ffc93",
       "has_frontmatter": false
@@ -3864,7 +3864,7 @@
       "expert": null,
       "word_count": 178,
       "modified": "2026-07-16T11:10:36.683052",
-      "age_days": 7,
+      "age_days": 8,
       "size_bytes": 1121,
       "content_hash": "9512d605",
       "has_frontmatter": false
@@ -4748,7 +4748,7 @@
       "expert": null,
       "word_count": 2832,
       "modified": "2026-03-06T10:12:15.808743",
-      "age_days": 139,
+      "age_days": 140,
       "size_bytes": 19346,
       "content_hash": "11953e75",
       "has_frontmatter": false
@@ -6087,7 +6087,7 @@
       "expert": "kieran-flanagan",
       "word_count": 1110,
       "modified": "2026-07-19T10:42:11.088353",
-      "age_days": 4,
+      "age_days": 5,
       "size_bytes": 8318,
       "content_hash": "14233869",
       "has_frontmatter": false
@@ -6100,7 +6100,7 @@
       "expert": null,
       "word_count": 15039,
       "modified": "2026-07-19T10:37:25.561846",
-      "age_days": 4,
+      "age_days": 5,
       "size_bytes": 81300,
       "content_hash": "00312140",
       "has_frontmatter": false
@@ -7133,6 +7133,71 @@
       "has_frontmatter": false
     },
     {
+      "path": "extractions/riley-brown/mes-extraction.md",
+      "name": "mes-extraction",
+      "parent": "riley-brown",
+      "domain": "systems",
+      "expert": null,
+      "word_count": 7342,
+      "modified": "2026-07-24T11:10:17.500938",
+      "age_days": 0,
+      "size_bytes": 48135,
+      "content_hash": "39e5168c",
+      "has_frontmatter": false
+    },
+    {
+      "path": "extractions/riley-brown/vision.md",
+      "name": "vision",
+      "parent": "riley-brown",
+      "domain": "systems",
+      "expert": "nick-saraev",
+      "word_count": 522,
+      "modified": "2026-07-24T10:55:22.594906",
+      "age_days": 0,
+      "size_bytes": 3836,
+      "content_hash": "50421710",
+      "has_frontmatter": false
+    },
+    {
+      "path": "extractions/riley-brown/visual-context.md",
+      "name": "visual-context",
+      "parent": "riley-brown",
+      "domain": "screenwriting",
+      "expert": null,
+      "word_count": 17427,
+      "modified": "2026-07-24T10:52:43.610767",
+      "age_days": 0,
+      "size_bytes": 102745,
+      "content_hash": "c4ff2451",
+      "has_frontmatter": false
+    },
+    {
+      "path": "extractions/riley-brown/visual-notes.md",
+      "name": "visual-notes",
+      "parent": "riley-brown",
+      "domain": "general",
+      "expert": null,
+      "word_count": 3298,
+      "modified": "2026-07-24T11:00:51.117693",
+      "age_days": 0,
+      "size_bytes": 22894,
+      "content_hash": "cebdecad",
+      "has_frontmatter": false
+    },
+    {
+      "path": "extractions/riley-brown-marketing-automation/blind-pass-log.md",
+      "name": "blind-pass-log",
+      "parent": "riley-brown-marketing-automation",
+      "domain": "strategy",
+      "expert": null,
+      "word_count": 74,
+      "modified": "2026-07-24T11:30:31.094621",
+      "age_days": 0,
+      "size_bytes": 801,
+      "content_hash": "1cfc082a",
+      "has_frontmatter": false
+    },
+    {
       "path": "extractions/ron-lynch/source-metadata.md",
       "name": "source-metadata",
       "parent": "ron-lynch",
@@ -7686,7 +7751,7 @@
       "expert": null,
       "word_count": 1838,
       "modified": "2026-07-16T11:19:26.909814",
-      "age_days": 7,
+      "age_days": 8,
       "size_bytes": 12108,
       "content_hash": "cf31b98b",
       "has_frontmatter": false
@@ -7699,7 +7764,7 @@
       "expert": null,
       "word_count": 13695,
       "modified": "2026-07-16T11:12:46.687551",
-      "age_days": 7,
+      "age_days": 8,
       "size_bytes": 87765,
       "content_hash": "bd4580e3",
       "has_frontmatter": false
@@ -8596,7 +8661,7 @@
       "expert": null,
       "word_count": 693,
       "modified": "2026-07-06T11:27:28.983603",
-      "age_days": 17,
+      "age_days": 18,
       "size_bytes": 5103,
       "content_hash": "39e95673",
       "has_frontmatter": false
@@ -8609,7 +8674,7 @@
       "expert": null,
       "word_count": 459,
       "modified": "2026-07-06T11:27:28.983709",
-      "age_days": 17,
+      "age_days": 18,
       "size_bytes": 3150,
       "content_hash": "f1315166",
       "has_frontmatter": false
@@ -8622,7 +8687,7 @@
       "expert": null,
       "word_count": 193,
       "modified": "2026-07-06T11:27:28.983785",
-      "age_days": 17,
+      "age_days": 18,
       "size_bytes": 1441,
       "content_hash": "5bdac07e",
       "has_frontmatter": false
@@ -8635,7 +8700,7 @@
       "expert": null,
       "word_count": 125,
       "modified": "2026-07-06T11:27:28.984008",
-      "age_days": 17,
+      "age_days": 18,
       "size_bytes": 2452,
       "content_hash": "f92d02ab",
       "has_frontmatter": false
@@ -8648,7 +8713,7 @@
       "expert": null,
       "word_count": 57,
       "modified": "2026-07-06T11:27:28.984501",
-      "age_days": 17,
+      "age_days": 18,
       "size_bytes": 421,
       "content_hash": "1943f800",
       "has_frontmatter": false
@@ -8661,7 +8726,7 @@
       "expert": null,
       "word_count": 20273,
       "modified": "2026-07-06T11:27:28.986742",
-      "age_days": 17,
+      "age_days": 18,
       "size_bytes": 117719,
       "content_hash": "318437a3",
       "has_frontmatter": false
@@ -8817,7 +8882,7 @@
       "expert": null,
       "word_count": 3450,
       "modified": "2026-07-07T10:50:51.190212",
-      "age_days": 16,
+      "age_days": 17,
       "size_bytes": 33169,
       "content_hash": "92636d10",
       "has_frontmatter": false
@@ -8960,7 +9025,7 @@
       "expert": null,
       "word_count": 998,
       "modified": "2026-07-15T10:12:11.542783",
-      "age_days": 8,
+      "age_days": 9,
       "size_bytes": 6454,
       "content_hash": "3c858e1c",
       "has_frontmatter": false
@@ -9415,7 +9480,7 @@
       "expert": null,
       "word_count": 3681,
       "modified": "2026-07-15T10:12:11.470875",
-      "age_days": 8,
+      "age_days": 9,
       "size_bytes": 29103,
       "content_hash": "38272bc0",
       "has_frontmatter": false

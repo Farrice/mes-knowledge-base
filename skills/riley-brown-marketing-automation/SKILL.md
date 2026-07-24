@@ -1,358 +1,103 @@
-# SKILL: Riley Brown's AI-Native Marketing Automation
-
-**Tier**: Deep (Forge-Grade)  
-**Domain**: Marketing automation, competitive intelligence, creator extraction, Notion data ops  
-**Author/Source**: Riley Brown (Codex Workflow Demonstration, 2026)  
-**Last Updated**: 2026-07-24  
-**Status**: Production-Ready (Tier 1 foundations shipped; Tier 2-3 extensible)
-
+---
+name: riley-brown-marketing-automation
+description: Riley Brown's (Agent Native / Chorus) agentic marketing-operations doctrine — running a company's entire marketing through a coding agent + a portfolio of small, named, composable skills wrapped around scraper APIs. Examples-over-instructions (retrieve verified exemplars, don't prompt harder), creator→skill voice compilation, longest-running-ad competitor intel, template-steal ad factories, email drafts at scale, constraint-encoded booking links, "turn it into a skill" freezing, and per-task model/cost routing — all terminating in a human-editable draft behind approval. Use for scraping creators/competitors, building marketing skill libraries, ad-spy, on-brand creative from winners, inbox/scheduling ops, and agent-native distribution.
 ---
 
-## Quick Reference
+# Riley Brown — Agentic Marketing Operations
 
-**Goal**: Build marketing automation workflows that scrape creators/competitors → ingest into Notion → extract callable patterns → generate content in learned voice.
+**The gap this fills**: the roster has content geniuses (Kallaway, Lara, Cole), ad experts (Dara, Luke), and system builders (Saraev, Kashef) — but nobody whose domain is "**the agent IS the marketing department**." Riley owns the operations tier: scraping, distribution, scheduling, inbox, file hygiene — the unglamorous layer that makes the content tier compound. Core truth: **AI can't verify content quality the way it verifies code, so the job is feeding the agent verified examples on demand, judging with real taste, and freezing every capability into a named skill that compounds.**
 
-**Core Loop**: Scrape → Database → Analyze → Extract → Extend
-
-**Key APIs**: ScrapeCreators ($10-50/creator), Foreplay ($175-458/mo), Firecrawl ($0-99/mo), Notion, Gmail, Paper
+**Expert**: Riley Brown (@rileybrownai), AI-native founder of Chorus (open agent platform) and Vibecode. Runs his startup's marketing entirely inside Codex + custom skills. **Source: 3 verified Riley Brown videos + a 100-frame visual analysis of the primary demo** (`extractions/riley-brown/`). Extraction: `extractions/riley-brown/mes-extraction.md`.
 
-**Average Cost Per Workflow**: $10-100 (varies by scale)
-
-**Output Types**: Notion databases, callable skills (voice generators), competitive audit reports, structured pattern libraries
+**Load order**: Tier 1 = this file + the workflow. Tier 2 (+`genius.md`) for any composition, creative, or client-facing work. Verbatim prompts + claims ledger: `references/source-quotes.md`.
 
----
-
-## Workflow Table (12 Workflows Across 3 Tiers)
-
-| Tier | Workflow | Description | APIs | Time | Cost | Downstream |
-|------|----------|-------------|------|------|------|------------|
-| **Foundation** | `/riley-social-scraper` | Scrape any creator (Instagram/YouTube/TikTok) → Notion DB + transcripts + videos | ScrapeCreators, Notion | 2-5 min | $10-50 | Extractor, Analyzer |
-| Foundation | `/riley-skill-extractor` | Turn creator DB → callable skill (voice generator) | Claude/GPT-5.6, Notion | 3-10 min | $5-20 | Any content workflow |
-| Foundation | `/riley-competitor-scraper` | Foreplay API → longest-running competitor ads → Notion | Foreplay, Notion | 1-3 min | $0 (monthly) | Ad Auditor, Analyzer |
-| **Practitioner** | `/riley-creator-profile-analyzer` | Who's winning, why (patterns), HOW to copy | Claude (extra-high), Notion | 5-15 min | $20-50 | Voice generator, Copy engine |
-| Practitioner | `/riley-ad-performance-auditor` | Competitor ads + written analysis (success factors, hooks, CTAs) | Foreplay, Claude (extra-high), Notion | 5-20 min | $10-30 | Ad network, Copywriting |
-| Practitioner | `/riley-brand-asset-scraper` | Firecrawl → extract logos, colors, fonts, brand patterns | Firecrawl, Notion | 2-5 min | $0-10 | Design workflows, Brand audit |
-| Practitioner | `/riley-content-calendar-orchestrator` | Notion + Cal.com + Gmail drafts → auto-schedule content + send to reviewers | Notion, Gmail, Cal.com, Claude | 10-30 min | $5-15 | Publishing, Distribution |
-| Practitioner | `/riley-engagement-trend-detector` | Video transcript + comment analysis → spot rising/falling engagement patterns over time | YouTube API, Claude, Notion | 5-10 min | $5-10 | Timing optimization, Format pivot |
-| Practitioner | `/riley-research-to-skill-pipeline` | Research topic → find creators → extract skills → generate content → schedule | All (full stack) | 20-60 min | $30-100 | Publishing, Ad deployment |
-| **Stacking** | `/riley-lara-amplifier` | Find LinkedIn examples (research) + schedule via Lara voice (copy) + deploy | Riley + Lara Acosta skill | 15-30 min | $20-40 | LinkedIn content hub |
-| Stacking | `/riley-luke-copy-auditor` | Competitor ads + Luke Iha persuasion checklist (copywriting lens) | Riley + Luke Iha skill | 10-20 min | $15-35 | Copy refinement, Testing |
-| Stacking | `/riley-farrice-parallax-pipeline` | Research → scrape → design (Satori) → schedule (Parallax) → distribute | Riley + Farrice voice + Satori + Parallax | 30-90 min | $50-150 | Substack, LinkedIn, Twitter |
-
----
-
-## Stacking Guide (Multi-Expert Workflows)
-
-### Tier 2 (Practitioner) Extensions
+## Costs — Our Routes vs. Riley's Stack
 
-**Riley + Lara Acosta (LinkedIn Growth)**:
-- Use `/riley-creator-profile-analyzer` to find LinkedIn creators in fitness/coaching
-- Export profiles to Lara's `/ghostwrite` workflow
-- Lara generates LinkedIn content in their voice
-- Schedule via `/riley-content-calendar-orchestrator`
-
-**Riley + Luke Iha (Copywriting)**:
-- Use `/riley-ad-performance-auditor` to surface competitor ad copy
-- Feed copy samples to Luke's `/luke-iha-vicious-hooks` or `/luke-iha-vsl-leads`
-- Luke audits for persuasion gaps
-- Refine + re-test
+Riley demos a **paid third-party stack** (ScrapeCreators, Foreplay, Firecrawl, Buffer, Paper). **We hold none of those keys and don't need them.** Every workflow below routes through infrastructure we already own — mostly **$0**, with a small metered Apify budget for social scraping. Riley's original tools are noted only as *what he uses*, never as a dependency.
 
-**Riley + Nathan Gotch (SEO)**:
-- Use `/riley-research-to-skill-pipeline` to identify high-traffic content creators
-- Export to Nathan's `/nathan-gotch` workflow for keyword mapping
-- Discover long-tail content opportunities
+| Capability | Riley's tool (paid) | **Our route ($0 unless noted)** |
+|---|---|---|
+| Scrape a creator | ScrapeCreators | `/scrape-creator` → `social_intel.py` (Apify sc-* actors ~$0.005–0.25/run; yt-dlp captions free) |
+| Competitor ad-spy | Foreplay ($59–149/mo) | `/ad-spy` → Meta Ad Library via read-only Playwright, **$0** |
+| Winning-ad → creative | Paper.design | `/creative-from-winners` → Dara / Fantastic Studio / Canva / Higgsfield |
+| Brand-asset scrape | Firecrawl | `/brand-asset-scrape` → Tavily + Playwright, **$0** |
+| Email drafts at scale | Gmail | `/inbox-drafts` → Gmail MCP (drafts only), **$0** |
+| Social scheduling | Buffer/Typefully | `/post-scheduler` → Typefully (key pending) |
+| Booking links | Cal.com | `/scheduling-links` → Cal.com API (key pending) |
+| Data warehouse | Notion | Social Intelligence DB (`3a749875-a897-8104-a867-fc9aeb53f52c`) via `notion_api.py` |
 
-### Tier 3 (Stacking) Integrated Workflows
+Full mapping: `references/api-integration-guide.md`.
 
-**Full Parallax Pipeline** (`/riley-farrice-parallax-pipeline`):
-1. Research a market (e.g., "AI tools for solopreneurs")
-2. `/riley-research-to-skill-pipeline`: Find top creators in that space
-3. Extract patterns → Notion database
-4. Use Farrice voice (`/voice-os` BLEND mode) to write Substack essay
-5. Export to Satori (`/satori-frontend-flow`) for visual design
-6. Schedule via Parallax (`/parallax` workflow)
-7. Distribute across LinkedIn + Twitter via Farrice brand
+## Workflow Table (12 workflows, 3 tiers)
 
-**System Monitor** (`/riley-system-monitor`):
-- Track API costs, usage, execution time across all Riley workflows
-- Monthly spend summary
-- Alert if Foreplay/ScrapeCreators costs spike
-- Optimization recommendations
+### Tier 1 — Foundation (the core moves)
 
----
+| Workflow | Produces | Use when |
+|---|---|---|
+| `workflows/riley-scrape-to-skill.md` (**front door**) | Creator → named voice-writing skill, deploy-in-voice on a fresh topic | Turning any creator into a callable style |
+| `workflows/riley-ad-spy.md` | Longest-running competitor ads, ranked, inference-labeled analysis | Competitive creative intel |
+| `workflows/riley-turn-it-into-a-skill.md` | Any successful run frozen as a named, inspectable skill/workflow | A task will recur; a correction should stick |
+| `workflows/riley-inbox-drafts.md` | N voice-matched email drafts, never sent | Inbox backlog; decline-and-pitch at scale (his highest-leverage move) |
 
-## When to Use Riley (Pre-Flight Gate)
+### Tier 2 — Practitioner (the ops + creative layer)
 
-**Use Riley when**:
-- ✅ You need to extract patterns from 1+ creators (any platform)
-- ✅ You want to spy on competitor ads (Foreplay)
-- ✅ You need a structured Notion database of content + metadata
-- ✅ You want to generate content in a creator's learned voice
-- ✅ You're building a content calendar across multiple creators
-- ✅ You need a "who's winning" competitive analysis
-- ✅ You want to automate creator research (vs. manual scrolling)
+| Workflow | Produces | Use when |
+|---|---|---|
+| `workflows/riley-creator-analyzer.md` | Per-post "why it works" verdicts grounded in a hook lens | A scraped corpus needs the surpass-Riley analysis pass |
+| `workflows/riley-template-steal-ads.md` | On-brand variant batch off a winning ad's structure | Volume ad testing from a proven skeleton |
+| `workflows/riley-brand-scrape.md` | Structured brand-asset sheet (colors/type/logos/voice) | Grounding creative in a real brand |
+| `workflows/riley-distribution-ops.md` | Staged social posts + constraint-encoded booking links + file hygiene | The unglamorous distribution/scheduling/booking tier |
 
-**Don't use Riley when**:
-- ❌ You need *real-time* social media metrics (engagement API limits apply)
-- ❌ You're analyzing private/gated content (API scraping won't access)
-- ❌ You need to extract patterns from <3 data points (too noisy)
-- ❌ Your creators are primarily on platforms without API support (some niche platforms)
-- ❌ You need licensed competitor data (Foreplay is crowdsourced; not guaranteed accuracy)
+### Tier 3 — Stacking (cross-expert pipelines)
 
----
+| Workflow | Pairs with | Use when |
+|---|---|---|
+| `workflows/riley-parallax-pipeline.md` | Farrice voice + Satori + Parallax | Research → scrape → essay → design → distribute under Farrice's brand |
+| `workflows/riley-lara-amplifier.md` | lara-acosta-*, diandra-escobar-* | Scraped LinkedIn corpus → ghostwritten posts |
+| `workflows/riley-dara-adfactory.md` | dara-static-engine (Meg/Luke as copy lens) | Ad-spy intel → original static-ad production |
+| `workflows/riley-automations.md` | any workflow above | Promoting a useful one-off to a recurring/scheduled automation ("act in the future") |
 
-## Quick Workflow Reference
+## Quick Reference (the spine)
 
-### Foundation Tier (Copy-Paste Ready)
+**DIAGNOSE (verification gap) → OWN THE TASTE → SCRAPE VERIFIED EXEMPLARS → TURN IT INTO A SKILL → CHAIN → DRAFT-LINK TERMINUS → DIAL MODEL/COST → CORRECT INTO THE FILE / AUTOMATE**
 
-#### 1. `/riley-social-scraper`
-```
-Prompt: "Please scrape [Creator Name] on [Platform]. Get the best 10 videos. Return transcripts, engagement metrics, and create a Notion database."
+- Content is subjective and unverifiable — supply *examples*, don't prompt harder.
+- Only delegate what you can judge; taste is the load-bearing human input.
+- Exclude sponsored/boosted posts *with retained exclusion evidence*.
+- Longest-running ad = the winner, but labeled *inference from durability, not ROAS proof.*
+- The durable asset is a **named skill**, born from a successful run — read what it wrote.
+- Skills chain live; pick MCP / REST / computer-use per tool.
+- **Never auto-send.** Every action ends in an editable draft/link behind approval.
+- Per-task model + effort dial; open-source for mechanical work.
+- Write corrections into the skill file so they compound; promote useful one-offs to automations.
 
-Expected Output: 
-- Notion database with 10 videos, ranked by engagement
-- Video embeds + native captions
-- Engagement metrics (likes, comments, shares)
-```
-
-#### 2. `/riley-skill-extractor`
-```
-Prompt: "Using the Notion database from /riley-social-scraper, extract the key patterns from [Creator Name]'s top 5 videos. Turn this into a callable skill template."
-
-Expected Output:
-- Skill definition in `/skills/[creator-name]-voice/SKILL.md`
-- Workflow template for generating content in that voice
-- Pattern tags (hook style, pacing, CTA type, etc.)
-```
-
-#### 3. `/riley-competitor-scraper`
-```
-Prompt: "Using Foreplay API, scrape the longest-running ads from [Competitor A], [Competitor B], [Competitor C]. Create a Notion database ranked by duration."
-
-Expected Output:
-- Notion database with competitor ads, sortable by duration
-- Video/image embeds
-- Copy excerpts
-```
-
-### Practitioner Tier (Requires Setup)
-
-#### 4. `/riley-creator-profile-analyzer`
-```
-Requires: Notion database from /riley-social-scraper
-
-Prompt: "Analyze [Creator Name]'s profile. Who are their viewers? What topics drive engagement? What's their persuasion formula? Generate a profile card."
-
-Uses: Claude (extra-high reasoning), Notion
-
-Expected Output:
-- Creator profile: audience demographics, topic clusters, persuasion style
-- Top 3 hooks (extracted from videos)
-- Audience sentiment analysis
-- Recommended content angles for replication
-```
-
-#### 5. `/riley-ad-performance-auditor`
-```
-Requires: Notion database from /riley-competitor-scraper
-
-Prompt: "These ads have been running for [9 months / 6 months / etc.]. Analyze the winning copy, hooks, and CTAs. What makes them work? Provide actionable patterns."
-
-Uses: Foreplay, Claude (extra-high), Notion
-
-Expected Output:
-- Structured ad analysis: Hook Pattern, Body Copy Strategy, CTA Mechanism
-- Comparative breakdown (what competitors do, why it works)
-- Recommendations for your own ads
-```
-
-#### 6. `/riley-brand-asset-scraper`
-```
-Prompt: "Using Firecrawl, scrape [Company Domain]. Extract: logo, primary colors (hex), fonts, imagery style, brand tone. Create a brand asset database."
-
-Uses: Firecrawl, Notion
-
-Expected Output:
-- Notion brand kit: logo (image), colors (palette), fonts (names), tone voice
-- Visual examples from website
-- Design guidelines extracted from site
-```
-
-### Stacking Tier (Multi-Skill)
-
-#### 10. `/riley-lara-amplifier`
-```
-Requires: /riley-creator-profile-analyzer output + Lara Acosta skill
-
-Workflow:
-1. Riley finds top LinkedIn creators in [niche]
-2. Extract their voice/style
-3. Hand off to Lara's /ghostwrite workflow
-4. Lara generates LinkedIn posts in that style
-5. Schedule via /riley-content-calendar-orchestrator
-
-Cost: ~$25-40 (Riley $15 + Lara $10-25)
-Time: 15-30 min
-Output: 5-10 scheduled LinkedIn posts
-```
-
----
-
-## Notion Schema Templates (Copy These)
-
-See `references/notion-schema-templates.md` for full schemas. Quick examples:
-
-### Template 1: Creator Video Database
-```
-Fields:
-- Creator (text)
-- Platform (select: YouTube, Instagram, TikTok)
-- Video Title (text)
-- URL (url)
-- Video Embed (file)
-- Transcript (rich text)
-- Engagement Score (formula: likes + 2*comments + 5*shares)
-- Rank (number, auto-sort by Engagement Score DESC)
-- Hook Style (select: Story, Question, Statistic, Emotion)
-- Hook Text (text)
-- Scripting Pattern (text)
-- Audience Segment (text)
-- Is Sponsored (checkbox)
-
-Views:
-- All Videos (default)
-- Authentic Only (filter: Is Sponsored = false)
-- Top 10 (sort: Engagement Score DESC, limit 10)
-```
-
-### Template 2: Competitor Ad Database
-```
-Fields:
-- Competitor (select: list of competitors)
-- Ad ID (Foreplay ID)
-- Ad Type (select: Static, Video, Carousel)
-- Platform (select: Facebook, Instagram, TikTok, LinkedIn)
-- Duration (number: months running)
-- Copy (text)
-- Hook (text, extracted)
-- Visual (image embed)
-- CTA Text (text)
-- CTA Type (select: Sign Up, Download, View More, Buy)
-- Success Pattern (text)
-- Last Seen (date)
-
-Views:
-- All Ads (default)
-- Longest Running (sort: Duration DESC)
-- By Competitor (group by Competitor)
-- Video Only (filter: Ad Type = Video)
-```
-
----
-
-## API Integration Summary
-
-| API | Cost | Rate Limit | Purpose | Fallback |
-|-----|------|-----------|---------|----------|
-| **ScrapeCreators** | $10-50/creator | 10 creators/day | Scrape social media + transcripts | Manual research |
-| **Foreplay** | $175-458/mo | Unlimited within plan | Scrape competitor ads | Basic competitor research |
-| **Firecrawl** | $0-99/mo | Varies by tier | Extract brand assets from websites | Manual download |
-| **Notion API** | Included | 3 req/sec | Create/update databases, properties | CSV export |
-| **Gmail API** | Included | 250 req/sec | Send draft schedules to reviewers | Manual email |
-| **Cal.com API** | Free tier available | Varies | Schedule content calendar | Manual calendar |
-| **Claude/GPT-5.6** | $0.03-0.10 per 1K tokens (varies by model) | 50 req/min | Pattern extraction, analysis | Use cheaper model |
-
----
-
-## Common Questions
-
-**Q: How do I know if a pattern extraction is good?**  
-A: Use the Quality Rubric in `genius.md`. Score on 8 dimensions (Fidelity, Scalability, API Clarity, etc.). Aim for composite >7/10.
-
-**Q: Can I extract from just 1 creator?**  
-A: Yes, but patterns are noisier. 3+ creators give better signal. 10+ creators give strong patterns.
-
-**Q: How often should I re-run extractions?**  
-A: Monthly for active creators, quarterly for stable ones. Patterns degrade as creators evolve.
-
-**Q: What if the creator has sponsored content?**  
-A: Filter it out (`is_sponsored = false`). Sponsored delivery corrupts authentic voice.
-
-**Q: Can I combine patterns from multiple creators?**  
-A: Yes. Use `/riley-creator-profile-analyzer` on a cohort (e.g., top 5 fitness YouTubers), then identify *common* patterns across all 5.
-
-**Q: What's the cheapest way to run all 12 workflows?**  
-A: Foundation tier only (~$20-50/mo). Tier 2 adds $50-100/mo. Tier 3 (stacking) scales with usage.
-
-**Q: Can I use this without Notion?**  
-A: Not recommended. Notion is core to Riley's approach (data warehouse + UI). You'd need a custom DB + dashboard.
-
-**Q: Do I need ScrapeCreators? Can I use YouTube API directly?**  
-A: YouTube API works for public videos but lacks transcripts + ranking. ScrapeCreators includes native captions (higher quality). Use ScrapeCreators if budget allows.
-
----
-
-## What's Next (Extensions Not Yet Built)
-
-- **Predictive Analysis**: Train model on past Foreplay data to predict which ads will run long
-- **Platform-Specific Variations**: Separate extraction logic for YouTube vs. TikTok hooks (different pacing)
-- **Multi-Creator Synthesis**: Automatically identify meta-patterns across 10+ creators
-- **Feedback Loop**: Create mechanism to validate extracted patterns against held-out test set
-- **Cost Optimization**: Auto-select cheaper model when high reasoning isn't needed
-
----
-
-## File Structure
-
-```
-skills/riley-brown-marketing-automation/
-├── SKILL.md                          (this file)
-├── genius.md                         (patterns, exemplars, rubric)
-├── workflows/
-│   ├── 1-foundation-social-scraper.md
-│   ├── 1-foundation-skill-extractor.md
-│   ├── 1-foundation-competitor-scraper.md
-│   ├── 2-practitioner-creator-analyzer.md
-│   ├── 2-practitioner-ad-auditor.md
-│   ├── 2-practitioner-brand-scraper.md
-│   ├── 2-practitioner-content-calendar.md
-│   ├── 2-practitioner-engagement-detector.md
-│   ├── 2-practitioner-research-pipeline.md
-│   ├── 3-stacking-lara-amplifier.md
-│   ├── 3-stacking-luke-auditor.md
-│   └── 3-stacking-system-monitor.md
-└── references/
-    ├── api-integration-guide.md
-    └── notion-schema-templates.md
-```
-
----
-
-## For Experts Integrating Riley
-
-**If you're Lara** (LinkedIn ghostwriting):
-- Input: Creator profile from `/riley-creator-profile-analyzer`
-- Use to understand audience + voice
-- Generate LinkedIn posts in that creator's style
-- Export: `/ghostwrite` workflow feeds into `/riley-content-calendar-orchestrator`
-
-**If you're Luke** (Copywriting):
-- Input: Competitor ad copy from `/riley-ad-performance-auditor`
-- Audit for persuasion gaps (hooks, proof, urgency, clarity)
-- Export: Recommendations back to `/riley-ad-performance-auditor` for refinement
-
-**If you're Nathan** (SEO):
-- Input: High-traffic creators from `/riley-research-to-skill-pipeline`
-- Keyword mapping + opportunity identification
-- Export: Content calendar updates to Notion
-
-**If you're Farrice** (Brand voice, strategy):
-- Input: Market research from Riley scraper
-- Voice calibration (BLEND mode from `/voice-os`)
-- Output: Parallax pipeline (`/riley-farrice-parallax-pipeline`)
-
----
-
-**Master Document**: `genius.md` (read first for deep context)  
-**Entrypoint**: `/riley-social-scraper` (start here to build your first creator database)  
-**Stacking Hub**: This SKILL.md (navigate multi-expert workflows)
+## Stacking Guide (consistent with `extractions/riley-brown/vision.md`)
+
+- **Riley × Kallaway** — he literally scrapes Kallaway on camera. `/scrape-creator` → `/extract` deepens voice replication; `skills/kallaway-*` grounds the "why it works" verdicts.
+- **Riley × Dara Denney** — longest-running-ad intel from `/ad-spy` feeds `/dara-static-engine` production (`riley-dara-adfactory`).
+- **Riley × Lara / Diandra** — scraped LinkedIn corpora → hook/voice engines (`riley-lara-amplifier`).
+- **Riley × Meg Heckman / buyer-trigger** — scraped competitor ads → trigger audits.
+- **Riley × the extraction pipeline itself** — any scraped creator becomes an `/extract` candidate (scrape → corpus → skill is our own loop, industrialized; `/scrape-creator` marks Extract Candidate).
+- **Farrice deployments** — VOICE-CARD + dial is a mandatory layer on anything shipped under his name (binding `farrice_voice_alignment`).
+
+## Anti-Patterns (reject on sight)
+
+Prompt-engineering a voice from scratch · scraping raw engagement without excluding sponsored · presenting ad duration as ROAS *proof* · auto-sending/auto-posting with no editable-draft terminus · cloning a competitor ad word-for-word or carrying its real byline (the "Dr. Fahim Hussain" failure) · fresh prompt instead of a saved named skill · corrections left in chat · delegating in a domain you can't judge · inventing performance numbers the source doesn't expose · treating a skill as a black box instead of reading the file it wrote.
+
+<!-- BEGIN:execution-prompts (generated by execution/wire_prompt_pointers.py — do not hand-edit; re-run to refresh) -->
+
+## Execution Prompts (structure-pure v2)
+
+9 deterministic practitioner prompts — each carries an Output Contract, Output Skeleton, and Quality Gate. When a deliverable matches one, Read it and honor its contract instead of improvising the output shape.
+
+- **Batch Email Drafts — [INTENT]** — `skills/riley-brown-marketing-automation/references/prompts-v2/batch-email-drafts.md`
+- **Brand Assets — [BRAND DOMAIN]** — `skills/riley-brown-marketing-automation/references/prompts-v2/brand-asset-sheet.md`
+- **Competitor Ad Intel — [COMPETITOR SET]** — `skills/riley-brown-marketing-automation/references/prompts-v2/competitor-ad-intel-report.md`
+- **Voice-Skill: [SKILL NAME] — [CREATOR]** — `skills/riley-brown-marketing-automation/references/prompts-v2/creator-voice-skill-deploy.md`
+- **Why-It-Works Analysis — [BATCH TAG]** — `skills/riley-brown-marketing-automation/references/prompts-v2/creator-why-it-works-analysis.md`
+- **Distribution Staging — [DATE]** — `skills/riley-brown-marketing-automation/references/prompts-v2/distribution-staging-package.md`
+- **Durable Asset — [SKILL NAME]** — `skills/riley-brown-marketing-automation/references/prompts-v2/durable-asset-forge.md`
+- **Exemplar-Grounded Voice Pipeline — [PIPELINE TARGET]** — `skills/riley-brown-marketing-automation/references/prompts-v2/exemplar-grounded-voice-pipeline.md`
+- **On-Brand Ad Variant Batch — Source: [SOURCE AD]** — `skills/riley-brown-marketing-automation/references/prompts-v2/on-brand-ad-variant-batch.md`
+
+<!-- END:execution-prompts -->

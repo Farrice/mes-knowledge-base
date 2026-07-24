@@ -1,20 +1,20 @@
 # Knowledge Briefing
-*Generated: 2026-07-24 | 733 sources | 2,860,131 words*
+*Generated: 2026-07-24 | 738 sources | 2,888,837 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
 - **index** (content) — 4,976 words — `knowledge/index.md`
-- **log** (general) — 14,539 words — `knowledge/log.md`
+- **log** (general) — 14,582 words — `knowledge/log.md`
 - **FETCH-NOTES** (content [jason-fladlien]) — 184 words — `extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/FETCH-NOTES.md`
 - **persuasive-patterns-full** (copywriting [jason-fladlien]) — 41,183 words — `extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/persuasive-patterns-full.md`
+- **mes-extraction** (systems) — 7,342 words — `extractions/riley-brown/mes-extraction.md`
+- **vision** (systems [nick-saraev]) — 522 words — `extractions/riley-brown/vision.md`
+- **visual-context** (screenwriting) — 17,427 words — `extractions/riley-brown/visual-context.md`
+- **visual-notes** (general) — 3,298 words — `extractions/riley-brown/visual-notes.md`
+- **blind-pass-log** (strategy) — 74 words — `extractions/riley-brown-marketing-automation/blind-pass-log.md`
 - **blind-pass-log** (content) — 184 words — `extractions/matthew-lakajev-linkedin/blind-pass-log.md`
-- **blind-pass-specimen-artifact-only-opinion-ladder** (systems) — 294 words — `extractions/matthew-lakajev-linkedin/blind-pass-specimen-artifact-only-opinion-ladder.md`
-- **2026-07-23-pulse** (strategy) — 1,733 words — `research_outputs/market-pulse/2026-07-23-pulse.md`
-- **assembly-rubric** (strategy) — 209 words — `knowledge/assembly-rubric.md`
-- **2026-07-21-pressure-test-farrice-s-signal-pilot-practitione** (content) — 1,306 words — `knowledge/assembly-sessions/2026-07-21-pressure-test-farrice-s-signal-pilot-practitione.md`
-- **mastery-extraction-agency-podcast** (content) — 4,293 words — `extractions/matthew-lakajev/mastery-extraction-agency-podcast.md`
 
 ## Domain Coverage
 
@@ -22,11 +22,11 @@
 |--------|-------|------------|
 | content | 258 | lara-acosta |
 | copywriting | 103 | luke-iha |
-| general | 91 | nick-saraev |
-| strategy | 77 | april-dunford |
-| screenwriting | 53 | connelly |
+| general | 92 | nick-saraev |
+| strategy | 78 | april-dunford |
+| screenwriting | 54 | connelly |
 | brand | 50 | oren-john |
-| systems | 41 | nick-saraev |
+| systems | 43 | nick-saraev |
 | seo | 26 | nathan-gotch |
 | research | 23 | dai-media |
 | sales | 11 | dai-media |
