@@ -10222,6 +10222,20 @@
    "mtime": 1784355352.40669
   },
   {
+   "id": "arsenal-loop-e2e-probe",
+   "command": null,
+   "kind": "skill-workflow",
+   "skill": "forge-os",
+   "path": "skills/forge-os/workflows/arsenal-loop-e2e-probe.md",
+   "description": "Temporary end-to-end probe for the Arsenal Loop \u2014 proves a newly built workflow becomes fireable with no manual registration. Delete after verification.",
+   "menu_status": "unreachable",
+   "front_door": "/forge-os",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785007662.269051
+  },
+  {
    "id": "plugin-forge",
    "command": "plugin-forge",
    "kind": "skill-workflow",
@@ -44656,7 +44670,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1784827849.685839
+   "mtime": 1785007278.169617
   },
   {
    "id": "extraction-governor-agent",
@@ -69491,9 +69505,9 @@
    "front_door": "/forge-os",
    "has_prompts_v2": true,
    "family": null,
-   "workflow_count": 5,
+   "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.2393034
+   "mtime": 1785007626.2408962
   },
   {
    "id": "fraser-cottrell-paid-ads",
@@ -76211,7 +76225,7 @@
   }
  ],
  "fingerprint": [
-  8853,
-  1785007132.847
+  8854,
+  1785007662.269
  ]
 }
