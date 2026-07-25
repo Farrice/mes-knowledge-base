@@ -595,3 +595,4 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-25 10:09]` **finalize** | 1654 Moonseed Ln Simi Valley listing-Reel shoot sheet: 6 Jen hooks + 3 team variations in calibrated | content | jen-santulan — composite:8.33 status:Keep
 - `[2026-07-25 10:22]` **finalize** | 1654 Moonseed shoot sheet v2: voice-recalibrated to Jen's real IG register (scraped @_jiing, 20 post | content | jen-santulan — composite:8.67 status:Keep
 - `[2026-07-25 10:41]` **finalize** | Jen voice-lock pass: 3 reels watched frame-by-frame via Playwright canvas capture (spoken=caption co | content | jen-santulan — composite:8.67 status:Keep
+- `[2026-07-25 10:51]` **finalize** | social_intel.py hardening: date normalization across actor formats + single-video-URL guard resolvin | general | none — composite:8.33 status:Keep

@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-25T10:41:06.573062",
+  "generated": "2026-07-25T10:51:22.781928",
   "total_files": 743,
-  "total_words": 2893232,
-  "total_tokens_est": 3847998,
+  "total_words": 2893255,
+  "total_tokens_est": 3848029,
   "stale_files_30d": 456,
   "domains": {
     "content": 262,
@@ -1991,10 +1991,10 @@
       "domain": "content",
       "expert": null,
       "word_count": 5028,
-      "modified": "2026-07-25T10:22:01.512075",
+      "modified": "2026-07-25T10:41:06.583018",
       "age_days": 0,
       "size_bytes": 86969,
-      "content_hash": "fa192d3a",
+      "content_hash": "e04c886a",
       "has_frontmatter": false
     },
     {
@@ -2003,10 +2003,10 @@
       "parent": "knowledge",
       "domain": "general",
       "expert": null,
-      "word_count": 14740,
-      "modified": "2026-07-25T10:41:06.262799",
+      "word_count": 14763,
+      "modified": "2026-07-25T10:51:22.460217",
       "age_days": 0,
-      "size_bytes": 115285,
+      "size_bytes": 115472,
       "content_hash": "5a51f947",
       "has_frontmatter": false
     },
@@ -2239,7 +2239,7 @@
       "expert": "nathan-gotch",
       "word_count": 986,
       "modified": "2026-04-13T10:42:20.958189",
-      "age_days": 102,
+      "age_days": 103,
       "size_bytes": 7224,
       "content_hash": "b69d4727",
       "has_frontmatter": true
@@ -2265,7 +2265,7 @@
       "expert": null,
       "word_count": 922,
       "modified": "2026-04-13T10:41:40.529882",
-      "age_days": 102,
+      "age_days": 103,
       "size_bytes": 6566,
       "content_hash": "af19325c",
       "has_frontmatter": true
@@ -6152,7 +6152,7 @@
       "expert": "kieran-flanagan",
       "word_count": 1110,
       "modified": "2026-07-19T10:42:11.088353",
-      "age_days": 5,
+      "age_days": 6,
       "size_bytes": 8318,
       "content_hash": "14233869",
       "has_frontmatter": false
@@ -8947,7 +8947,7 @@
       "expert": null,
       "word_count": 3450,
       "modified": "2026-07-07T10:50:51.190212",
-      "age_days": 17,
+      "age_days": 18,
       "size_bytes": 33169,
       "content_hash": "92636d10",
       "has_frontmatter": false

@@ -47,7 +47,7 @@
                 "darrel-wilson-ai-affiliate": 1,
                 "stefan-georgi-dopamine-copy": 8,
                 "marketing-studio-director": 1,
-                "System": 79,
+                "System": 80,
                 "brand-operating-system": 11,
                 "dara-denney-meta-ads": 5,
                 "internal-comms": 1,
@@ -102,9 +102,9 @@
                 "briar-cochran-content-science": 1,
                 "kallaway-illusion-of-novelty": 1
             },
-            "total_routings": 627,
+            "total_routings": 628,
             "tier_counts": {
-                "0": 627,
+                "0": 628,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -115,7 +115,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 363,
-                "finalize-auto": 264
+                "finalize-auto": 265
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -157,7 +157,7 @@
                 "steven-kotler-flow-performance": 1,
                 "creative-assembly": 1,
                 "cooz-voice-profile": 3,
-                "none": 8,
+                "none": 9,
                 "market-intelligence": 1,
                 "nate-b-jones-context-engineering": 40,
                 "nicolas-cole": 2,
@@ -12542,6 +12542,23 @@
             "workflow_used": "jason-fladlien-marketing",
             "ensemble": true,
             "compound_pairing": "jason-fladlien-marketing + kallaway-illusion-of-novelty + chase-hughes-conversational-influence",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_175122_5cbf",
+            "timestamp": "2026-07-25T17:51:22.443336+00:00",
+            "session_id": "",
+            "request_summary": "social_intel.py hardening: date normalization across actor formats + single-video-URL guard resolving to uploader handle via yt-dlp (closes both halves of the 2026-07-25 mis-scrape failure) + solution",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "none"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "scrape-creator",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

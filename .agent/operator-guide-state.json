@@ -1,6 +1,6 @@
 {
-  "last_synced_commit": "731f957171ba309c7aa919921237e5c590136a27",
-  "last_synced_at": "2026-07-25T07:12:57Z",
+  "last_synced_commit": "8d348357b9c19e0daf2fd133da41457a974b9865",
+  "last_synced_at": "2026-07-25T17:51:15Z",
   "guide": "docs/ROOT-CORE-OPERATOR-GUIDE.md",
   "synced_hashes": {
     "directives/external-skills-registry.md": "229f5dcc6249b805b6323adb6c1b96aeeccb6a2a",
@@ -41,6 +41,18 @@
     "skills/ben-watkins-storytelling/workflows/bw-spoken-story.md": "09136c8c2861186f53f22fe6ef8127e999e0cdc7",
     ".agent/workflows/end-session.md": "357a9bfa586143c62939de2db4b7e3f14c294843",
     "directives/model-notes.md": "315a246c9df736549a2990ad1dca4b2ee87d79d4",
-    "directives/orchestration-doctrine.md": "9d489780ca4ecddf9a0b85123c0153ae8ad8b1b9"
+    "directives/orchestration-doctrine.md": "9d489780ca4ecddf9a0b85123c0153ae8ad8b1b9",
+    ".agent/workflows/fladlien-game-selection.md": "4460a7b4a4e0f9ca300a443b08a1a69b055acaf8",
+    ".agent/workflows/fladlien-offer-anatomy.md": "36db4f2f4576f73eca1b0057509c340457ab287b",
+    ".agent/workflows/fladlien-one-sitting-product.md": "cb9c474f84bbd8d7f893502c45b593e202efc855",
+    ".agent/workflows/fladlien-webinar-campaign.md": "3581ad94ca3c7237c54358c00c5477dcbf24e096",
+    ".agent/workflows/gotch-citation-domination.md": "337ba797df82f9aed70b2fb5a0051bdb62623044",
+    ".agent/workflows/gotch-content-engine.md": "7cd8415b8e7fed9d9e65565a89f88f7e6c80d489",
+    ".agent/workflows/gotch-intent-architecture.md": "d98dc244e4fec9900c28c66ee5f5cd74d0c28f9e",
+    ".agent/workflows/gotch-omnichannel-blitz.md": "66025ae41c6bd148fad4b5b95b17ca0274b5cdd6",
+    ".agent/workflows/sll-cadence-audit.md": "8d59b8bb75713cc5f715c4f830f8691dee251ea1",
+    ".agent/workflows/sll-lead-form.md": "9335bbd12045245f8414d050727caf2bb79b6e34",
+    ".agent/workflows/sll-long-form-explainer.md": "d218fff2c2d7d962b6c8a237d3e912032566628b",
+    ".agent/workflows/sll-short-form-daily.md": "52adbb81da3ea5444f754e988cb5724199b85ac2"
   }
 }
