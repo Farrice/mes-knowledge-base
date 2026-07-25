@@ -400,3 +400,59 @@ These are not scored — they are pass/fail gates. If any is true, the ad goes b
 - **Sensory specificity in testimonials**: "I didn't feel deprived—I was eating actual food" beats "The diet was easy to follow." Details make proof credible.
 
 ---
+
+## Creative Strategy OS — The Layer Before Formats (extension 2026-07-25)
+
+> Sources: "How I Build an Elite Creative Strategy for a Brand in One Sitting" (yt `yRgPbqywUJ8`, watched with frames — her actual Notion Research SOP was on screen) + "I Hired 100+ Creative Strategists" (yt `gqnp-IdEEI8`). Frame-grounded SOP: `references/creative-strategy-research-sop.md` · moat spec: `references/persona-intelligence-moat.md` · full extraction: `extractions/dara-denney/extraction-report-creative-strategy.md`.
+
+**The thesis**: "The worst creative strategy is copying what your competitors are doing… the only thing slightly better is trying to get as many formats as you can. Real strategy lies in the layer BEFORE format selection" — personas · pillar angles · platform trends — diagnosed as GAPS against the live account. Role definition: "A creative strategist grows businesses by deciding what types of ad creative to run on paid social based on insight and performance." Targeting now lives in the creative; the strategist is the most leveraged seat on a growth team.
+
+### Genius Patterns 11-22 (Strategy Layer)
+
+11. **Research-as-Customer-Journey Simulation** — the reputation analysis retraces the skeptical first-time customer's exact research journey (brand/product → Google p1 → press → Reddit → Amazon → social → YouTube comments), logging every friction point they'd hit. Action: run the stations in customer order; a verified "nothing found" is a finding.
+12. **Every Artifact Is LLM Fuel** — each research doc is built to be "an excellent context document for your LLM of choice." The SOP produces a context engine, not a binder. Action: every output promptable — clean structure, verbatim quotes, ranked findings.
+13. **Evidence-Ranked Personas** (the moat) — personas NAMED from evidence ("Named personas from 1,079 customer reviews + 424 survey responses"), ranked by evidence volume × emotional intensity. A segment without receipts does not ship. Action: every persona carries count + hottest verbatim quotes + source spread.
+14. **Desire Segments Ride Alongside Personas** — dual segmentation: WHO (persona) and WANT (desire-based). Angles are mined from both. Action: never ship persona-only segmentation.
+15. **Persona Injection for Net-New Audiences** — the highest-value strategist move: a persona the brand never targeted, with a wedge creative (Rhode: 40+ via Gen-X celebrity partnership → "a customer they're not seeing walk through their Sephora stores"). Action: every gap analysis proposes ≥1 injection or verifies saturation.
+16. **Winner × Persona Replication** — a top performer becomes a template replicated across every core persona (D&G: perimenopausal women → GLP-1 men → new moms). Action: replication matrix before new concepts — it's the cheapest test on the sheet.
+17. **Three-Gap Diagnosis Before Any Concept** — persona gaps · awareness-level gaps (classic: MOF/BOF over-index, winners are offer-led → build TOF to feed the ecosystem) · creative diversity gap (personas × 2-3 pillar angles × awareness range + creator diversity: lifestyle/gender/age/jobs/vibes). Every concept answers: why this creative? why this persona? why this angle? Action: orphan concepts are cut.
+18. **Bundle-as-Creative-Lever** — merchandising is in the strategist's remit: when unit price can't survive paid CAC, propose problem-solution bundles to raise AOV. Action: AOV check in station 1; re-merchandise when blocked.
+19. **Quarterly→Monthly→Weekly Altitude Ladder** — permanent weekly sprints kill big swings. Quarterly planning (launches, seasonal personas, big format/creator swings) → monthly roadmap → the Creative Testing Roadmap sheet (Test · Concept Name · Nº Variations 3-6 · Winning Element · Creative Type). Action: install the ladder at engagement start.
+20. **Organic-Echo Validation** — a strategy (vs a creative) is validated when it's reflected in organic content too; a single creative test can't validate strategy. Action: pair paid tests with an organic echo check.
+21. **Own-the-Outcome Pricing** — "The brands who pay you the most recognize the strategist is OWNING THE OUTCOME, not just submitting deliverables." Ladder: $2K/mo floor per brand → $4-5K standard → $8-10K veteran × 3-4 brands. Action: package outcome + governance, never "N ads/month." Results first, then the ask.
+22. **Spec-Work Flywheel** — public breakdowns of dream-client funnels/ads got >75% response; an unsolicited 5-spec-statics drop earned an instant interview. The teardown demonstrates the process ON the target's own brand. Action: dream client → timeboxed reputation analysis + different perspective + 2-3 gap-traced test recs, published.
+
+### Hidden Knowledge (Strategy Layer)
+
+- **Ask-Amazon persona probe**: "what type of people are buying this product?" returns an Amazon-native persona breakdown — free and underutilized.
+- **Bought-vs-earned press pattern-matches by shape** (formulaic placement batches = bought); brand NEWS (IPO, retail launch) unlocks formats/offers/objectives.
+- **Ad-comment mining beats site reviews for objection freshness**; corpus bound = comments on the top ~20 ads of the last year.
+- **The automation boundary is explicit**: machines compile the corpus; humans pick golden nuggets — "machines don't quite have the judgment of what could be a really impactful review."
+- **Category posture switch**: beauty = vibes-with-performance (no cold direct punch); supplements/problem-solution = direct. Same SOP, different delivery register.
+- **"Angles ≠ concepts"** — angles are pillar pain-point ideas per persona (2-3 each); concepts instantiate them on the testing sheet.
+- **Read past the Ad Library impressions ranking** — run-length + creative duplication ("N ads use this creative") infer the real top performer better than impressions.
+- **The interview tells transfer to pitching**: have a process (research / performance-tank triage / onboarding), name admired PERFORMANCE brands (never Nike/Lululemon), bring a different perspective ("'nothing is wrong' = red flag"), do the 5-minute pre-call Ad Library audit.
+- **Role economics**: primary KPIs = spend/purchases/revenue; hook/hold/CTR are secondary storytelling metrics. AI fluency is a 2026 non-negotiable — biggest lift in reporting.
+
+### Strategy-Layer Quality Rubric (8 criteria — deliverables from workflows 18-26)
+
+1. Persona receipts on every segment (count + verbatim + source spread) — no invented segments.
+2. Journey completeness — all 7 stations, thin ones marked.
+3. THE friction point named (one), not a list of ten.
+4. Gap traceability — every concept traces to a named gap/finding ("DEAR DIY'ers ← DIY objection" standard).
+5. Dual altitude — quarterly/monthly plan present, not just a test batch.
+6. Roadmap rows complete — variations count, ONE winning-element hypothesis, creative type.
+7. ≥1 net-new persona injection or verified saturation.
+8. Deliverables both client-readable AND LLM-promptable.
+
+### Worked Exemplars (calibration)
+
+- **Grüns** (spec, non-client): scam-skepticism language → "Are Grüns a scam?" + "The REAL scam behind Grüns… they're actually good for you and they taste good."
+- **Oats Overnight**: GLP-1 review questions → trend-attach; DIY objection + defender voices → "DEAR DIY'ers… THIS IS NOT 4 U"; satiety = hottest + underrepresented → FULLNESS CHASER pair; 10-row testing sheet.
+- **Rhode**: zero partnership ads in account = unlock in plain sight; lip peptide plumping → before/after play; 40+ persona injection via elder-millennial celebrity partnership.
+
+### Fidelity Flags
+
+Her stats (10 yrs, 20K+ ads, 75% response rate, salary bands) are HER claims — label LIKELY in client-facing work. "Runith" spelling UNCONFIRMED (Motion's ad-comment analytics feature) — don't name externally. Storyblocks segment was sponsored; the persona-replication method stands tool-agnostic.
+
+---

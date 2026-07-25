@@ -7016,6 +7016,132 @@
    "mtime": 1783484292.3515334
   },
   {
+   "id": "18-research-sop",
+   "command": null,
+   "kind": "skill-workflow",
+   "skill": "dara-denney-meta-ads",
+   "path": "skills/dara-denney-meta-ads/workflows/18-research-sop.md",
+   "description": "Front door \u2014 Dara Denney's complete Elite Creative Strategy build in one sitting: reputation analysis \u2192 review mining \u2192 persona & desire segmentation \u2192 gap audit \u2192 mission doc \u2192 creative roadmap. Produces the full client-grade research + strategy package",
+   "menu_status": "reachable",
+   "front_door": "/dara-denney-meta-ads",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785015462.0990274
+  },
+  {
+   "id": "19-reputation-analysis",
+   "command": "dara-denney-reputation-analysis",
+   "kind": "skill-workflow",
+   "skill": "dara-denney-meta-ads",
+   "path": "skills/dara-denney-meta-ads/workflows/19-reputation-analysis.md",
+   "description": "Run Dara Denney's 7-station reputation analysis \u2014 retrace the skeptical customer's research journey (brand/product \u2192 Google \u2192 press \u2192 Reddit \u2192 Amazon \u2192 social \u2192 YouTube) into one LLM-ready context document with the friction point named",
+   "menu_status": "unreachable",
+   "front_door": "/dara-denney-meta-ads",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785014660.596692
+  },
+  {
+   "id": "20-review-mining",
+   "command": "dara-denney-review-mining",
+   "kind": "skill-workflow",
+   "skill": "dara-denney-meta-ads",
+   "path": "skills/dara-denney-meta-ads/workflows/20-review-mining.md",
+   "description": "Compile the full review corpus (site reviews + top-20 ad comments + manual clips), rank products, extract golden nuggets, and run Dara's AI analysis questions into an LLM-ready insights doc",
+   "menu_status": "unreachable",
+   "front_door": "/dara-denney-meta-ads",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785014689.55309
+  },
+  {
+   "id": "21-persona-intel",
+   "command": "dara-denney-persona-intel",
+   "kind": "skill-workflow",
+   "skill": "dara-denney-meta-ads",
+   "path": "skills/dara-denney-meta-ads/workflows/21-persona-intel.md",
+   "description": "Persona & Desire Segmentation \u2014 Dara's evidence-ranked persona system: named personas + desire segments mined from the review corpus, ranked by evidence volume \u00d7 emotional intensity, delivered as a client-grade research deck. The moat deliverable \u2014 also sellable standalone",
+   "menu_status": "unreachable",
+   "front_door": "/dara-denney-meta-ads",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785014726.7007809
+  },
+  {
+   "id": "22-gap-analysis",
+   "command": "dara-denney-gap-analysis",
+   "kind": "skill-workflow",
+   "skill": "dara-denney-meta-ads",
+   "path": "skills/dara-denney-meta-ads/workflows/22-gap-analysis.md",
+   "description": "Dara's three-gap audit of a live ad account \u2014 persona gaps, awareness-level gaps, creative diversity gaps \u2014 cross-analyzed against the persona deck, with every proposed concept tracing to a named gap",
+   "menu_status": "unreachable",
+   "front_door": "/dara-denney-meta-ads",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785014765.133033
+  },
+  {
+   "id": "23-mission-doc",
+   "command": "dara-denney-mission-doc",
+   "kind": "skill-workflow",
+   "skill": "dara-denney-meta-ads",
+   "path": "skills/dara-denney-meta-ads/workflows/23-mission-doc.md",
+   "description": "Step 4 of the Research SOP \u2014 synthesize reputation analysis, review mining, persona deck, and gap audit into the Mission Doc: the single strategy narrative that governs the brand's creative direction",
+   "menu_status": "unreachable",
+   "front_door": "/dara-denney-meta-ads",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785014792.6506314
+  },
+  {
+   "id": "24-creative-roadmap",
+   "command": "dara-denney-creative-roadmap",
+   "kind": "skill-workflow",
+   "skill": "dara-denney-meta-ads",
+   "path": "skills/dara-denney-meta-ads/workflows/24-creative-roadmap.md",
+   "description": "Escape the weekly-sprint trap \u2014 build the quarterly plan, monthly roadmap, and Creative Testing Roadmap sheet (Test / Concept / Variations / Winning Element / Creative Type) that sequence gap-closing concepts into shippable tests",
+   "menu_status": "unreachable",
+   "front_door": "/dara-denney-meta-ads",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785014834.7855225
+  },
+  {
+   "id": "25-strategist-package",
+   "command": "dara-denney-strategist-package",
+   "kind": "skill-workflow",
+   "skill": "dara-denney-meta-ads",
+   "path": "skills/dara-denney-meta-ads/workflows/25-strategist-package.md",
+   "description": "Productize creative strategy as a sellable offer \u2014 package the research\u2192persona\u2192gap\u2192roadmap system with Dara's pricing ladder ($2K/mo floor \u2192 $8-10K/brand), own-the-outcome positioning, and a proof-first sequencing plan",
+   "menu_status": "unreachable",
+   "front_door": "/dara-denney-meta-ads",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785014898.0851488
+  },
+  {
+   "id": "26-spec-work-engine",
+   "command": "dara-denney-spec-work-engine",
+   "kind": "skill-workflow",
+   "skill": "dara-denney-meta-ads",
+   "path": "skills/dara-denney-meta-ads/workflows/26-spec-work-engine.md",
+   "description": "Portfolio-from-zero client acquisition \u2014 Dara's spec-work flywheel: public ad/funnel breakdowns (75% response rate), unsolicited spec ads on the target's own brand, community contribution loops. Proof before pay",
+   "menu_status": "unreachable",
+   "front_door": "/dara-denney-meta-ads",
+   "has_prompts_v2": true,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785014929.5925193
+  },
+  {
    "id": "affiliate-program-selector",
    "command": "affiliate-select",
    "kind": "skill-workflow",
@@ -41994,6 +42120,110 @@
    "mtime": 1784686539.7571921
   },
   {
+   "id": "dara-denney-creative-roadmap",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/dara-denney-creative-roadmap.md",
+   "description": "Escape the weekly-sprint trap \u2014 build the quarterly plan, monthly roadmap, and Creative Testing Roadmap sheet (Test / Concept / Variations / Winning Element / Creative Type) that sequence gap-closing concepts into shippable tests",
+   "menu_status": "unreachable",
+   "front_door": "/dara-denney-creative-roadmap",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785015484.1248825
+  },
+  {
+   "id": "dara-denney-gap-analysis",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/dara-denney-gap-analysis.md",
+   "description": "Dara's three-gap audit of a live ad account \u2014 persona gaps, awareness-level gaps, creative diversity gaps \u2014 cross-analyzed against the persona deck, with every proposed concept tracing to a named gap",
+   "menu_status": "unreachable",
+   "front_door": "/dara-denney-gap-analysis",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785015484.124577
+  },
+  {
+   "id": "dara-denney-mission-doc",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/dara-denney-mission-doc.md",
+   "description": "Step 4 of the Research SOP \u2014 synthesize reputation analysis, review mining, persona deck, and gap audit into the Mission Doc: the single strategy narrative that governs the brand's creative direction",
+   "menu_status": "unreachable",
+   "front_door": "/dara-denney-mission-doc",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785015484.1247296
+  },
+  {
+   "id": "dara-denney-persona-intel",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/dara-denney-persona-intel.md",
+   "description": "Persona & Desire Segmentation \u2014 Dara's evidence-ranked persona system: named personas + desire segments mined from the review corpus, ranked by evidence volume \u00d7 emotional intensity, delivered as a client-grade research deck. The moat deliverable \u2014 also sellable standalone",
+   "menu_status": "unreachable",
+   "front_door": "/dara-denney-persona-intel",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785015484.1242547
+  },
+  {
+   "id": "dara-denney-reputation-analysis",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/dara-denney-reputation-analysis.md",
+   "description": "Run Dara Denney's 7-station reputation analysis \u2014 retrace the skeptical customer's research journey (brand/product \u2192 Google \u2192 press \u2192 Reddit \u2192 Amazon \u2192 social \u2192 YouTube) into one LLM-ready context document with the friction point named",
+   "menu_status": "unreachable",
+   "front_door": "/dara-denney-reputation-analysis",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785015484.1238
+  },
+  {
+   "id": "dara-denney-review-mining",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/dara-denney-review-mining.md",
+   "description": "Compile the full review corpus (site reviews + top-20 ad comments + manual clips), rank products, extract golden nuggets, and run Dara's AI analysis questions into an LLM-ready insights doc",
+   "menu_status": "unreachable",
+   "front_door": "/dara-denney-review-mining",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785015484.1240869
+  },
+  {
+   "id": "dara-denney-spec-work-engine",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/dara-denney-spec-work-engine.md",
+   "description": "Portfolio-from-zero client acquisition \u2014 Dara's spec-work flywheel: public ad/funnel breakdowns (75% response rate), unsolicited spec ads on the target's own brand, community contribution loops. Proof before pay",
+   "menu_status": "unreachable",
+   "front_door": "/dara-denney-spec-work-engine",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785015484.1251876
+  },
+  {
+   "id": "dara-denney-strategist-package",
+   "kind": "command-workflow",
+   "skill": null,
+   "path": ".agent/workflows/dara-denney-strategist-package.md",
+   "description": "Productize creative strategy as a sellable offer \u2014 package the research\u2192persona\u2192gap\u2192roadmap system with Dara's pricing ladder ($2K/mo floor \u2192 $8-10K/brand), own-the-outcome positioning, and a proof-first sequencing plan",
+   "menu_status": "unreachable",
+   "front_door": "/dara-denney-strategist-package",
+   "has_prompts_v2": false,
+   "family": null,
+   "last_fired": null,
+   "mtime": 1785015484.125036
+  },
+  {
    "id": "dara-educational-infographic",
    "kind": "command-workflow",
    "skill": null,
@@ -67953,7 +68183,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.2232304
+   "mtime": 1785015429.7359867
   },
   {
    "id": "adam-sandler-second-brain-gtm",
@@ -67967,7 +68197,7 @@
    "family": null,
    "workflow_count": 8,
    "last_fired": null,
-   "mtime": 1784995858.223423
+   "mtime": 1785015429.7365646
   },
   {
    "id": "ai-carousel-content-engine",
@@ -67981,7 +68211,7 @@
    "family": null,
    "workflow_count": 7,
    "last_fired": null,
-   "mtime": 1784995858.2235749
+   "mtime": 1785015429.7369516
   },
   {
    "id": "ai-chris-lee-zero-testimonial-sales",
@@ -67995,7 +68225,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2237456
+   "mtime": 1785015429.73746
   },
   {
    "id": "alan-aragon-nutrition",
@@ -68009,7 +68239,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.223866
+   "mtime": 1785015429.7376945
   },
   {
    "id": "alen-sultanic-copywriting",
@@ -68023,7 +68253,7 @@
    "family": null,
    "workflow_count": 7,
    "last_fired": null,
-   "mtime": 1784995858.2239962
+   "mtime": 1785015429.7381377
   },
   {
    "id": "alex-content-science",
@@ -68037,7 +68267,7 @@
    "family": null,
    "workflow_count": 7,
    "last_fired": null,
-   "mtime": 1784995858.2241085
+   "mtime": 1785015429.7384267
   },
   {
    "id": "alex-copper-creative-strategy",
@@ -68051,7 +68281,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.2242298
+   "mtime": 1785015429.7387593
   },
   {
    "id": "alex-hormozi-business",
@@ -68065,7 +68295,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2243457
+   "mtime": 1785015429.739258
   },
   {
    "id": "alex-m-smith-natural-strategy",
@@ -68079,7 +68309,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.2244651
+   "mtime": 1785015429.7397845
   },
   {
    "id": "alex-myatt-creative-engine",
@@ -68093,7 +68323,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.224647
+   "mtime": 1785015429.7401998
   },
   {
    "id": "alex-suzuki-digital-product-revenue-os",
@@ -68107,7 +68337,7 @@
    "family": null,
    "workflow_count": 17,
    "last_fired": null,
-   "mtime": 1784995858.2248864
+   "mtime": 1785015429.7404578
   },
   {
    "id": "algorithmic-art",
@@ -68121,7 +68351,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.225138
+   "mtime": 1785015429.7409322
   },
   {
    "id": "ali-abdaal-action-bias",
@@ -68135,7 +68365,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2252953
+   "mtime": 1785015429.7412841
   },
   {
    "id": "andreessen-horowitz-new-media",
@@ -68149,7 +68379,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2254174
+   "mtime": 1785015429.7414782
   },
   {
    "id": "andrew-dun-vibe-consulting",
@@ -68163,7 +68393,7 @@
    "family": null,
    "workflow_count": 15,
    "last_fired": null,
-   "mtime": 1784995858.2255294
+   "mtime": 1785015429.7417397
   },
   {
    "id": "andrew-lane-design-systems",
@@ -68177,7 +68407,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2256465
+   "mtime": 1785015429.7419875
   },
   {
    "id": "andrew-stanton-audience-engineering",
@@ -68191,7 +68421,7 @@
    "family": null,
    "workflow_count": 21,
    "last_fired": null,
-   "mtime": 1784995858.2257798
+   "mtime": 1785015429.7422428
   },
   {
    "id": "andrew-wilkinson-ai-entrepreneurship",
@@ -68205,7 +68435,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1784995858.2259848
+   "mtime": 1785015429.7426286
   },
   {
    "id": "andy-galpin-training-intelligence",
@@ -68219,7 +68449,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2260816
+   "mtime": 1785015429.7430048
   },
   {
    "id": "andy-lo-premium-websites",
@@ -68233,7 +68463,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2261803
+   "mtime": 1785015429.74316
   },
   {
    "id": "april-dunford-positioning",
@@ -68247,7 +68477,7 @@
    "family": null,
    "workflow_count": 17,
    "last_fired": null,
-   "mtime": 1784995858.2263014
+   "mtime": 1785015429.7434795
   },
   {
    "id": "ash-maurya-founder-systems",
@@ -68261,7 +68491,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1784995858.2264276
+   "mtime": 1785015429.7436633
   },
   {
    "id": "ash-maurya-lean-metrics",
@@ -68275,7 +68505,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.226538
+   "mtime": 1785015429.7438343
   },
   {
    "id": "asset_generator",
@@ -68289,7 +68519,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.226657
+   "mtime": 1785015429.7441769
   },
   {
    "id": "attention-hijack-hooks",
@@ -68303,7 +68533,7 @@
    "family": "\ud83d\udca1 Obsession & Attention",
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.2267694
+   "mtime": 1785015429.7443197
   },
   {
    "id": "authority-hacker-ai-social-media",
@@ -68317,7 +68547,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2268882
+   "mtime": 1785015429.744475
   },
   {
    "id": "banana-pro-director",
@@ -68345,7 +68575,7 @@
    "family": null,
    "workflow_count": 18,
    "last_fired": null,
-   "mtime": 1784995858.227039
+   "mtime": 1785015429.7448673
   },
   {
    "id": "benjamin-hardy-identity",
@@ -68359,7 +68589,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.227184
+   "mtime": 1785015429.7454052
   },
   {
    "id": "bill-browder-high-stakes-narrative",
@@ -68373,7 +68603,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1784995858.2273297
+   "mtime": 1785015429.746019
   },
   {
    "id": "bitbranding-fashion-shopify",
@@ -68387,7 +68617,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2278974
+   "mtime": 1785015429.7462058
   },
   {
    "id": "bond-halbert-copywriting",
@@ -68401,7 +68631,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2280765
+   "mtime": 1785015429.746554
   },
   {
    "id": "boris-claude-code",
@@ -68415,7 +68645,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2282197
+   "mtime": 1785015429.7467701
   },
   {
    "id": "brad-bonanno-explainer-architecture",
@@ -68429,7 +68659,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2283468
+   "mtime": 1785015429.7469544
   },
   {
    "id": "brand-guidelines",
@@ -68443,7 +68673,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.228457
+   "mtime": 1785015429.7471626
   },
   {
    "id": "brand-operating-system",
@@ -68457,7 +68687,7 @@
    "family": null,
    "workflow_count": 7,
    "last_fired": null,
-   "mtime": 1784995858.22857
+   "mtime": 1785015429.7473893
   },
   {
    "id": "brandon-jacoby-taste-mastery",
@@ -68471,7 +68701,7 @@
    "family": null,
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1784995858.2286897
+   "mtime": 1785015429.7476876
   },
   {
    "id": "brendan-kane-viral-strategy",
@@ -68485,7 +68715,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2287996
+   "mtime": 1785015429.7480497
   },
   {
    "id": "briar-cochran-content-science",
@@ -68499,7 +68729,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.229013
+   "mtime": 1785015429.7484767
   },
   {
    "id": "brock-johnson-shareworthy-content",
@@ -68513,7 +68743,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.229123
+   "mtime": 1785015429.7486634
   },
   {
    "id": "business-intelligence-audit",
@@ -68527,7 +68757,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2292228
+   "mtime": 1785015429.7490644
   },
   {
    "id": "caleb-ralston-personal-brand",
@@ -68541,7 +68771,7 @@
    "family": null,
    "workflow_count": 11,
    "last_fired": null,
-   "mtime": 1784995858.2293453
+   "mtime": 1785015429.7492902
   },
   {
    "id": "canvas-design",
@@ -68555,7 +68785,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.2294855
+   "mtime": 1785015429.749798
   },
   {
    "id": "cardinal-mason-ai-copywriting",
@@ -68569,7 +68799,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.2299333
+   "mtime": 1785015429.7500372
   },
   {
    "id": "chase-hughes-context-engineering",
@@ -68583,7 +68813,7 @@
    "family": null,
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1784995858.2301013
+   "mtime": 1785015429.7504308
   },
   {
    "id": "chase-hughes-conversational-influence",
@@ -68597,7 +68827,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.230387
+   "mtime": 1785015429.750732
   },
   {
    "id": "cheri-tree-bank-buyology",
@@ -68611,7 +68841,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2305267
+   "mtime": 1785015429.7511466
   },
   {
    "id": "chief-of-staff-os",
@@ -68625,7 +68855,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.230659
+   "mtime": 1785015429.7514327
   },
   {
    "id": "chris-cimorelli-copywriting",
@@ -68639,7 +68869,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.230767
+   "mtime": 1785015429.7516222
   },
   {
    "id": "chris-do-design-business",
@@ -68653,7 +68883,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.230879
+   "mtime": 1785015429.7517996
   },
   {
    "id": "cinema-worldbuilder-pro",
@@ -68681,7 +68911,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1784995858.231004
+   "mtime": 1785015429.7520473
   },
   {
    "id": "claim-safe-health-marketing",
@@ -68695,7 +68925,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.2311416
+   "mtime": 1785015429.7523003
   },
   {
    "id": "coaching-business-os",
@@ -68709,7 +68939,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1784995858.2312694
+   "mtime": 1785015429.75256
   },
   {
    "id": "cognitive-engagement-optimizer",
@@ -68723,7 +68953,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2313812
+   "mtime": 1785015429.752784
   },
   {
    "id": "consumer-posture-research",
@@ -68737,7 +68967,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.231483
+   "mtime": 1785015429.753014
   },
   {
    "id": "context-profile-architect",
@@ -68751,7 +68981,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2315922
+   "mtime": 1785015429.7531996
   },
   {
    "id": "corey-mcclain-persona-engineering",
@@ -68765,7 +68995,7 @@
    "family": null,
    "workflow_count": 20,
    "last_fired": null,
-   "mtime": 1784995858.2317126
+   "mtime": 1785015429.753361
   },
   {
    "id": "craig-clemens-copywriting",
@@ -68779,7 +69009,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.2318356
+   "mtime": 1785015429.7535224
   },
   {
    "id": "creative-assembly",
@@ -68793,7 +69023,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.2319686
+   "mtime": 1785015429.7536817
   },
   {
    "id": "creative-campaign-strategy",
@@ -68807,7 +69037,7 @@
    "family": null,
    "workflow_count": 23,
    "last_fired": null,
-   "mtime": 1784995858.232107
+   "mtime": 1785015429.7541392
   },
   {
    "id": "creative-direction",
@@ -68821,7 +69051,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.2332523
+   "mtime": 1785015429.7543762
   },
   {
    "id": "dai-media-consumer-posture",
@@ -68835,7 +69065,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2333584
+   "mtime": 1785015429.75457
   },
   {
    "id": "dakota-content-design",
@@ -68849,7 +69079,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2334507
+   "mtime": 1785015429.7547536
   },
   {
    "id": "damon-cart-nlp",
@@ -68863,7 +69093,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.233541
+   "mtime": 1785015429.7550485
   },
   {
    "id": "dan-bolton-coaching-offers",
@@ -68877,7 +69107,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2336376
+   "mtime": 1785015429.755245
   },
   {
    "id": "dan-koe-ai-leverage",
@@ -68891,7 +69121,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.233743
+   "mtime": 1785015429.7555215
   },
   {
    "id": "dan-koe-multipassionate-mastery",
@@ -68905,7 +69135,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.233854
+   "mtime": 1785015429.7556918
   },
   {
    "id": "dan-martell-business-scaling",
@@ -68919,7 +69149,7 @@
    "family": null,
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1784995858.2339575
+   "mtime": 1785015429.7558448
   },
   {
    "id": "dan-wang-literary-analysis",
@@ -68933,7 +69163,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1784995858.234088
+   "mtime": 1785015429.7563016
   },
   {
    "id": "daniel-pink-writing-structure",
@@ -68947,7 +69177,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2343423
+   "mtime": 1785015429.756573
   },
   {
    "id": "daniel-priestley-24-assets-os",
@@ -68961,7 +69191,7 @@
    "family": "\ud83d\udcc7 24 Assets OS \u2014 Daniel Priestley",
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2345984
+   "mtime": 1785015429.756841
   },
   {
    "id": "daniel-priestley-oversubscribed",
@@ -68975,7 +69205,7 @@
    "family": "\ud83d\udcc7 24 Assets OS \u2014 Daniel Priestley",
    "workflow_count": 9,
    "last_fired": null,
-   "mtime": 1784995858.2347293
+   "mtime": 1785015429.7571037
   },
   {
    "id": "daniel-priestley-sll-engine",
@@ -68989,7 +69219,7 @@
    "family": "\ud83d\udcc7 24 Assets OS \u2014 Daniel Priestley",
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.234829
+   "mtime": 1785015429.7572587
   },
   {
    "id": "daniel-thrasher-affiliate",
@@ -69003,21 +69233,21 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2349362
+   "mtime": 1785015429.7574096
   },
   {
    "id": "dara-denney-meta-ads",
    "kind": "skill",
    "skill": "dara-denney-meta-ads",
    "path": "skills/dara-denney-meta-ads/SKILL.md",
-   "description": "DTC creative strategy for Meta ads \u2014 video + static. Video \u2014 2026 format archetype selection, David & Goliath construction, yapper script architecture, objection-handling ads, winning-hook engineering (4-layer anatomy + tested hook taxonomy), founder ads (6 plays + 7-beat script), and format \u00d7 messaging \u00d7 persona test plans. Static \u2014 the 3-layer static system (Strategy \u2192 Design \u2192 Copy), 7 static f",
+   "description": "DTC creative strategy \u2014 the full stack. Tier 0 Creative Strategy OS \u2014 the research\u2192strategy layer BEFORE format selection: 7-station reputation analysis, customer review mining + golden nuggets, evidence-ranked Persona & Desire Segmentation (the moat), three-gap ecosystem audits, mission docs, quarterly\u2192monthly creative roadmaps, plus the strategist business model (own-the-outcome packaging, spec-",
    "menu_status": "reachable",
    "front_door": "/dara-denney-meta-ads",
    "has_prompts_v2": true,
    "family": null,
-   "workflow_count": 17,
+   "workflow_count": 26,
    "last_fired": null,
-   "mtime": 1784995858.2351112
+   "mtime": 1785015429.7578888
   },
   {
    "id": "darrel-wilson-ai-affiliate",
@@ -69031,7 +69261,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2352598
+   "mtime": 1785015429.7580767
   },
   {
    "id": "darrel-wilson-ai-monetization",
@@ -69045,7 +69275,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2353768
+   "mtime": 1785015429.7582424
   },
   {
    "id": "david-baldacci-books-that-sell",
@@ -69059,7 +69289,7 @@
    "family": null,
    "workflow_count": 14,
    "last_fired": null,
-   "mtime": 1784995858.235499
+   "mtime": 1785015429.7585156
   },
   {
    "id": "david-bayer-elite-communication",
@@ -69073,7 +69303,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.235624
+   "mtime": 1785015429.758806
   },
   {
    "id": "david-deutsch-copywriting",
@@ -69087,7 +69317,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.235744
+   "mtime": 1785015429.7589805
   },
   {
    "id": "david-mcraney-belief-change",
@@ -69101,7 +69331,7 @@
    "family": null,
    "workflow_count": 14,
    "last_fired": null,
-   "mtime": 1784995858.2358646
+   "mtime": 1785015429.7592762
   },
   {
    "id": "david-perell-writing",
@@ -69115,7 +69345,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.235962
+   "mtime": 1785015429.759432
   },
   {
    "id": "david-placek-naming",
@@ -69129,7 +69359,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.2360685
+   "mtime": 1785015429.7595747
   },
   {
    "id": "deliberate",
@@ -69143,7 +69373,7 @@
    "family": null,
    "workflow_count": 1,
    "last_fired": null,
-   "mtime": 1784995858.2361844
+   "mtime": 1785015429.7598968
   },
   {
    "id": "design-md",
@@ -69157,7 +69387,7 @@
    "family": "\ud83c\udfa8 Design.md & Systems",
    "workflow_count": 7,
    "last_fired": null,
-   "mtime": 1784995858.236315
+   "mtime": 1785015429.7601948
   },
   {
    "id": "deya-business-systems",
@@ -69171,7 +69401,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2364337
+   "mtime": 1785015429.7603836
   },
   {
    "id": "diandra-escobar-linkedin-growth",
@@ -69185,7 +69415,7 @@
    "family": "\ud83d\udcc8 LinkedIn \u2014 Diandra Escobar",
    "workflow_count": 22,
    "last_fired": null,
-   "mtime": 1784995858.2365708
+   "mtime": 1785015429.7607872
   },
   {
    "id": "doc-coauthoring",
@@ -69199,7 +69429,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.2368653
+   "mtime": 1785015429.761055
   },
   {
    "id": "docx",
@@ -69213,7 +69443,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.2369874
+   "mtime": 1785015429.7615812
   },
   {
    "id": "dom-iacovone-multi-company-operator",
@@ -69227,7 +69457,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.2370996
+   "mtime": 1785015429.7639577
   },
   {
    "id": "donald-miller-business-growth",
@@ -69241,7 +69471,7 @@
    "family": "\ud83c\udfdb\ufe0f Business Growth \u2014 Donald Miller",
    "workflow_count": 7,
    "last_fired": null,
-   "mtime": 1784995858.2372055
+   "mtime": 1785015429.764227
   },
   {
    "id": "donald-miller-cognitive-load",
@@ -69255,7 +69485,7 @@
    "family": "\ud83c\udfdb\ufe0f Business Growth \u2014 Donald Miller",
    "workflow_count": 8,
    "last_fired": null,
-   "mtime": 1784995858.2373185
+   "mtime": 1785015429.764546
   },
   {
    "id": "donald-miller-culture-turnaround",
@@ -69269,7 +69499,7 @@
    "family": "\ud83c\udfdb\ufe0f Business Growth \u2014 Donald Miller",
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.237433
+   "mtime": 1785015429.7647517
   },
   {
    "id": "donald-miller-messaging-evolution",
@@ -69283,7 +69513,7 @@
    "family": "\ud83c\udfdb\ufe0f Business Growth \u2014 Donald Miller",
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.2375407
+   "mtime": 1785015429.765135
   },
   {
    "id": "donald-miller-storybrand",
@@ -69297,7 +69527,7 @@
    "family": "\ud83c\udfdb\ufe0f Business Growth \u2014 Donald Miller",
    "workflow_count": 9,
    "last_fired": null,
-   "mtime": 1784995858.2376568
+   "mtime": 1785015429.7654836
   },
   {
    "id": "dr-k-consciousness",
@@ -69311,7 +69541,7 @@
    "family": "\ud83e\uddd8 Dharma & Identity \u2014 Dr. K",
    "workflow_count": 11,
    "last_fired": null,
-   "mtime": 1784995858.237771
+   "mtime": 1785015429.765765
   },
   {
    "id": "dr-kriukow-humanization",
@@ -69325,7 +69555,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1784995858.2378843
+   "mtime": 1785015429.7659116
   },
   {
    "id": "enrico-incarnati-instagram-realestate",
@@ -69339,7 +69569,7 @@
    "family": "\ud83c\udfe0 Real Estate \u2014 Enrico Incarnati",
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1784995858.2380083
+   "mtime": 1785015429.766062
   },
   {
    "id": "eric-roth-screenwriting-mastery",
@@ -69353,7 +69583,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1784995858.23815
+   "mtime": 1785015429.7662344
   },
   {
    "id": "eric-roth-writing-mastery",
@@ -69367,7 +69597,7 @@
    "family": null,
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1784995858.2382748
+   "mtime": 1785015429.766403
   },
   {
    "id": "erica-mallet-brand-magnetism",
@@ -69381,7 +69611,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.2384155
+   "mtime": 1785015429.7665975
   },
   {
    "id": "ethan-smith-aeo",
@@ -69395,7 +69625,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.238521
+   "mtime": 1785015429.7667744
   },
   {
    "id": "eugene-teo-training",
@@ -69409,7 +69639,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2386193
+   "mtime": 1785015429.7669022
   },
   {
    "id": "evan-spiegel-distribution-architecture",
@@ -69423,7 +69653,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1784995858.2387369
+   "mtime": 1785015429.7671812
   },
   {
    "id": "expert-assembly-os",
@@ -69451,7 +69681,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.23885
+   "mtime": 1785015429.767366
   },
   {
    "id": "fantastic-posters",
@@ -69465,7 +69695,7 @@
    "family": null,
    "workflow_count": 14,
    "last_fired": null,
-   "mtime": 1784995858.2390156
+   "mtime": 1785015429.7678628
   },
   {
    "id": "fareed-zakaria-writing-mastery",
@@ -69479,7 +69709,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.2391722
+   "mtime": 1785015429.7684228
   },
   {
    "id": "forge-os",
@@ -69493,7 +69723,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1785007626.2408962
+   "mtime": 1785015429.7689078
   },
   {
    "id": "fraser-cottrell-paid-ads",
@@ -69507,7 +69737,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2394285
+   "mtime": 1785015429.7690797
   },
   {
    "id": "fresh-voice-system",
@@ -69521,7 +69751,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2395535
+   "mtime": 1785015429.7693202
   },
   {
    "id": "frontend-design",
@@ -69535,7 +69765,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.2396605
+   "mtime": 1785015429.7694936
   },
   {
    "id": "fryderyk-wiatrowski-ai-employee-os",
@@ -69549,7 +69779,7 @@
    "family": null,
    "workflow_count": 1,
    "last_fired": null,
-   "mtime": 1784995858.2397685
+   "mtime": 1785015429.7696552
   },
   {
    "id": "futurepedia-prompt-engineering",
@@ -69563,7 +69793,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.2398868
+   "mtime": 1785015429.7698886
   },
   {
    "id": "gabe-novotny-fitness-content-business",
@@ -69577,7 +69807,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2399874
+   "mtime": 1785015429.7700398
   },
   {
    "id": "gary-vaynerchuk-attention",
@@ -69591,7 +69821,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2400892
+   "mtime": 1785015429.7701862
   },
   {
    "id": "gemini-api-dev",
@@ -69605,7 +69835,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.2401974
+   "mtime": 1785015429.7703135
   },
   {
    "id": "geoff-woods-ai-thought-partner",
@@ -69619,7 +69849,7 @@
    "family": null,
    "workflow_count": 17,
    "last_fired": null,
-   "mtime": 1784995858.240328
+   "mtime": 1785015429.770558
   },
   {
    "id": "ghostwriting-voice-engine",
@@ -69633,7 +69863,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2405865
+   "mtime": 1785015429.7707925
   },
   {
    "id": "gpt-image-2-director",
@@ -69647,7 +69877,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2407072
+   "mtime": 1785015429.7710416
   },
   {
    "id": "grace-andrews-media-company",
@@ -69661,7 +69891,7 @@
    "family": null,
    "workflow_count": 18,
    "last_fired": null,
-   "mtime": 1784995858.240992
+   "mtime": 1785015429.771413
   },
   {
    "id": "greg-hickman-service-scaling",
@@ -69675,7 +69905,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2413888
+   "mtime": 1785015429.7719507
   },
   {
    "id": "greg-hoffman-brand-mastery",
@@ -69689,7 +69919,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.24149
+   "mtime": 1785015429.7721379
   },
   {
    "id": "growth-ecosystems",
@@ -69703,7 +69933,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2416089
+   "mtime": 1785015429.7724736
   },
   {
    "id": "harry-dry-copywriting",
@@ -69717,7 +69947,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2417142
+   "mtime": 1785015429.7726786
   },
   {
    "id": "henrik-werdelin-portfolio-entrepreneurship",
@@ -69731,7 +69961,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2418168
+   "mtime": 1785015429.772987
   },
   {
    "id": "henry-shukman-contemplative-writing",
@@ -69745,7 +69975,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1784995858.2419717
+   "mtime": 1785015429.773376
   },
   {
    "id": "higgsfield-creative-studio",
@@ -69759,7 +69989,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1784995858.2420938
+   "mtime": 1785015429.7738655
   },
   {
    "id": "how-i-write-os",
@@ -69773,7 +70003,7 @@
    "family": null,
    "workflow_count": 1,
    "last_fired": null,
-   "mtime": 1784995858.242214
+   "mtime": 1785015429.7742543
   },
   {
    "id": "internal-comms",
@@ -69787,7 +70017,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.242662
+   "mtime": 1785015429.7745037
   },
   {
    "id": "jack-roberts-design-mastery",
@@ -69801,7 +70031,7 @@
    "family": null,
    "workflow_count": 15,
    "last_fired": null,
-   "mtime": 1784995858.2427762
+   "mtime": 1785015429.7747276
   },
   {
    "id": "james-i-bond-brain-glue",
@@ -69815,7 +70045,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2428925
+   "mtime": 1785015429.7749794
   },
   {
    "id": "jasmin-alic-linkedin-growth",
@@ -69829,7 +70059,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.243006
+   "mtime": 1785015429.7751348
   },
   {
    "id": "jason-fladlien-marketing",
@@ -69843,7 +70073,7 @@
    "family": null,
    "workflow_count": 36,
    "last_fired": null,
-   "mtime": 1784995858.2431433
+   "mtime": 1785015429.775491
   },
   {
    "id": "jay-hiette-coaching-positioning",
@@ -69857,7 +70087,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.243425
+   "mtime": 1785015429.7756891
   },
   {
    "id": "jen-santulan-listing-content",
@@ -69871,7 +70101,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2435293
+   "mtime": 1785015429.7758718
   },
   {
    "id": "jenny-hoyos-shorts",
@@ -69885,7 +70115,7 @@
    "family": null,
    "workflow_count": 14,
    "last_fired": null,
-   "mtime": 1784995858.243642
+   "mtime": 1785015429.7760377
   },
   {
    "id": "jeremy-haynes-cold-offer",
@@ -69899,7 +70129,7 @@
    "family": null,
    "workflow_count": 14,
    "last_fired": null,
-   "mtime": 1784995858.2437632
+   "mtime": 1785015429.7762258
   },
   {
    "id": "jeremy-haynes-mindset-systems",
@@ -69913,7 +70143,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2438622
+   "mtime": 1785015429.7764492
   },
   {
    "id": "jeremy-miner-identity-persuasion",
@@ -69927,7 +70157,7 @@
    "family": null,
    "workflow_count": 11,
    "last_fired": null,
-   "mtime": 1784995858.2439668
+   "mtime": 1785015429.7766712
   },
   {
    "id": "jessica-jensen-platform-intelligence",
@@ -69941,7 +70171,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2440727
+   "mtime": 1785015429.7768612
   },
   {
    "id": "jiang-xueqin-cognitive-autonomy",
@@ -69955,7 +70185,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2441795
+   "mtime": 1785015429.7770054
   },
   {
    "id": "jim-oshaughnessy-philosopher-financier",
@@ -69969,7 +70199,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.2442923
+   "mtime": 1785015429.7771566
   },
   {
    "id": "joanna-wiebe-persuasion-mastery",
@@ -69983,7 +70213,7 @@
    "family": null,
    "workflow_count": 9,
    "last_fired": null,
-   "mtime": 1784995858.2444103
+   "mtime": 1785015429.7774966
   },
   {
    "id": "joanna-wiebe-writing-careers",
@@ -69997,7 +70227,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.2445104
+   "mtime": 1785015429.777697
   },
   {
    "id": "joey-cinema-os",
@@ -70011,7 +70241,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2446287
+   "mtime": 1785015429.7779317
   },
   {
    "id": "john-whiting-propaganda-machine",
@@ -70025,7 +70255,7 @@
    "family": null,
    "workflow_count": 19,
    "last_fired": null,
-   "mtime": 1784995858.24474
+   "mtime": 1785015429.7781775
   },
   {
    "id": "jonah-berger-contagious",
@@ -70039,7 +70269,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.244847
+   "mtime": 1785015429.7784278
   },
   {
    "id": "jonathan-courtney-marketing",
@@ -70053,7 +70283,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1784995858.2449536
+   "mtime": 1785015429.7786546
   },
   {
    "id": "jonathan-franzen-storytelling",
@@ -70067,7 +70297,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.24505
+   "mtime": 1785015429.7790084
   },
   {
    "id": "joscha-bach-consciousness",
@@ -70081,7 +70311,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.2451527
+   "mtime": 1785015429.7791462
   },
   {
    "id": "josh-kaufman-business-fundamentals",
@@ -70095,7 +70325,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2452602
+   "mtime": 1785015429.7793102
   },
   {
    "id": "josh-sanders-linkedin-growth",
@@ -70109,7 +70339,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.2453706
+   "mtime": 1785015429.7795618
   },
   {
    "id": "joshua-smith-real-estate",
@@ -70123,7 +70353,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.245476
+   "mtime": 1785015429.7800274
   },
   {
    "id": "jun-yuh-creator-vision",
@@ -70137,7 +70367,7 @@
    "family": "\ud83d\udcc8 Personal Brand \u2014 Jun Yuh",
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1784995858.2455773
+   "mtime": 1785015429.7801712
   },
   {
    "id": "jun-yuh-personal-brand",
@@ -70151,7 +70381,7 @@
    "family": "\ud83d\udcc8 Personal Brand \u2014 Jun Yuh",
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2456913
+   "mtime": 1785015429.7803419
   },
   {
    "id": "justin-welsh-solopreneur",
@@ -70165,7 +70395,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.245791
+   "mtime": 1785015429.7804909
   },
   {
    "id": "kallaway-addictive-storytelling",
@@ -70179,7 +70409,7 @@
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.245899
+   "mtime": 1785015429.7807348
   },
   {
    "id": "kallaway-ai-content-engine",
@@ -70193,7 +70423,7 @@
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.246026
+   "mtime": 1785015429.7810507
   },
   {
    "id": "kallaway-audience-obsession",
@@ -70207,7 +70437,7 @@
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.246137
+   "mtime": 1785015429.7813728
   },
   {
    "id": "kallaway-content-operating-system",
@@ -70221,7 +70451,7 @@
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 1,
    "last_fired": null,
-   "mtime": 1784995858.2462611
+   "mtime": 1785015429.781775
   },
   {
    "id": "kallaway-content-psychology",
@@ -70235,7 +70465,7 @@
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1784995858.2463953
+   "mtime": 1785015429.781979
   },
   {
    "id": "kallaway-content-system",
@@ -70249,7 +70479,7 @@
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 9,
    "last_fired": null,
-   "mtime": 1784995858.2465138
+   "mtime": 1785015429.7823222
   },
   {
    "id": "kallaway-illusion-of-novelty",
@@ -70263,7 +70493,7 @@
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 17,
    "last_fired": null,
-   "mtime": 1784995858.2466424
+   "mtime": 1785015429.782686
   },
   {
    "id": "kallaway-social-commerce",
@@ -70277,7 +70507,7 @@
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.2469482
+   "mtime": 1785015429.78284
   },
   {
    "id": "kallaway-word-mastery",
@@ -70291,7 +70521,7 @@
    "family": "\ud83d\udd24 Word & Novelty \u2014 Kallaway",
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1784995858.2470572
+   "mtime": 1785015429.7830036
   },
   {
    "id": "kieran-flanagan-audience-intelligence",
@@ -70305,7 +70535,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.247159
+   "mtime": 1785015429.7831614
   },
   {
    "id": "kieran-flanagan-content-engine",
@@ -70319,7 +70549,7 @@
    "family": null,
    "workflow_count": 8,
    "last_fired": null,
-   "mtime": 1784995858.247263
+   "mtime": 1785015429.7832983
   },
   {
    "id": "kieran-flanagan-content-ops",
@@ -70333,7 +70563,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2473624
+   "mtime": 1785015429.783434
   },
   {
    "id": "kittl-graphic-design",
@@ -70347,7 +70577,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.24747
+   "mtime": 1785015429.7835789
   },
   {
    "id": "kj-rainey-copywriting",
@@ -70361,7 +70591,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.247568
+   "mtime": 1785015429.7837293
   },
   {
    "id": "knowledge-architecture-studio",
@@ -70375,7 +70605,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2476583
+   "mtime": 1785015429.783847
   },
   {
    "id": "kobi-brown-educational-virality",
@@ -70389,7 +70619,7 @@
    "family": null,
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1784995858.247774
+   "mtime": 1785015429.7841527
   },
   {
    "id": "kunal-shah-consumer-psychology",
@@ -70403,7 +70633,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.247887
+   "mtime": 1785015429.784334
   },
   {
    "id": "lamott-allen-really-real-writing",
@@ -70417,7 +70647,7 @@
    "family": "\u2712\ufe0f Really-Real Writing \u2014 Anne Lamott",
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.248001
+   "mtime": 1785015429.784724
   },
   {
    "id": "lamott-craft",
@@ -70431,7 +70661,7 @@
    "family": "\u2712\ufe0f Really-Real Writing \u2014 Anne Lamott",
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2481236
+   "mtime": 1785015429.7849052
   },
   {
    "id": "lance-yichao-context-engineering",
@@ -70445,7 +70675,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2482328
+   "mtime": 1785015429.7853885
   },
   {
    "id": "lara-acosta-content-system",
@@ -70459,7 +70689,7 @@
    "family": "\ud83d\udcc8 LinkedIn \u2014 Lara Acosta",
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1784995858.2483315
+   "mtime": 1785015429.7856596
   },
   {
    "id": "lara-acosta-linkedin-growth",
@@ -70473,7 +70703,7 @@
    "family": "\ud83d\udcc8 LinkedIn \u2014 Lara Acosta",
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2484155
+   "mtime": 1785015429.7858841
   },
   {
    "id": "lara-acosta-linkedin-mastery",
@@ -70487,7 +70717,7 @@
    "family": "\ud83d\udcc8 LinkedIn \u2014 Lara Acosta",
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.2485206
+   "mtime": 1785015429.7861116
   },
   {
    "id": "liam-mley-ai-brain-builder",
@@ -70501,7 +70731,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.2486236
+   "mtime": 1785015429.7864356
   },
   {
    "id": "liam-ottley-linkedin-lead-magnet",
@@ -70515,7 +70745,7 @@
    "family": null,
    "workflow_count": 1,
    "last_fired": null,
-   "mtime": 1784995858.2487292
+   "mtime": 1785015429.7866292
   },
   {
    "id": "lindsay-ai-consulting",
@@ -70529,7 +70759,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2488291
+   "mtime": 1785015429.7868054
   },
   {
    "id": "linkedin-2026-format-arbitrage",
@@ -70543,7 +70773,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1784995858.2489247
+   "mtime": 1785015429.7869546
   },
   {
    "id": "logan-kilpatrick-ai-studio",
@@ -70557,7 +70787,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2490368
+   "mtime": 1785015429.7871077
   },
   {
    "id": "lucas-alpay-storytelling",
@@ -70571,7 +70801,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2491882
+   "mtime": 1785015429.7877033
   },
   {
    "id": "luisa-zhou-coaching",
@@ -70585,7 +70815,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2495039
+   "mtime": 1785015429.7879212
   },
   {
    "id": "luke-alexander-ai-business",
@@ -70599,7 +70829,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2496161
+   "mtime": 1785015429.788108
   },
   {
    "id": "luke-iha-avatar-machine",
@@ -70613,7 +70843,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1784995858.2498116
+   "mtime": 1785015429.7883162
   },
   {
    "id": "luke-iha-client-mastery",
@@ -70627,7 +70857,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2499354
+   "mtime": 1785015429.7885175
   },
   {
    "id": "luke-iha-copy-blocks",
@@ -70641,7 +70871,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 14,
    "last_fired": null,
-   "mtime": 1784995858.250051
+   "mtime": 1785015429.7886806
   },
   {
    "id": "luke-iha-creative-strategy",
@@ -70655,7 +70885,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 7,
    "last_fired": null,
-   "mtime": 1784995858.250166
+   "mtime": 1785015429.7889621
   },
   {
    "id": "luke-iha-cross-domain",
@@ -70669,7 +70899,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2502768
+   "mtime": 1785015429.789188
   },
   {
    "id": "luke-iha-insight-vectors",
@@ -70683,7 +70913,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.250392
+   "mtime": 1785015429.7894254
   },
   {
    "id": "luke-iha-million-dollar-mechanisms",
@@ -70697,7 +70927,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2504978
+   "mtime": 1785015429.7897594
   },
   {
    "id": "luke-iha-proof-ladder",
@@ -70711,7 +70941,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 14,
    "last_fired": null,
-   "mtime": 1784995858.2506073
+   "mtime": 1785015429.7900567
   },
   {
    "id": "luke-iha-proof-mechanisms",
@@ -70725,7 +70955,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.2507296
+   "mtime": 1785015429.7902403
   },
   {
    "id": "luke-iha-unaware-ads",
@@ -70739,7 +70969,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 7,
    "last_fired": null,
-   "mtime": 1784995858.250838
+   "mtime": 1785015429.7903779
   },
   {
    "id": "luke-iha-vicious-hooks",
@@ -70753,7 +70983,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2509427
+   "mtime": 1785015429.7905045
   },
   {
    "id": "luke-iha-vsl-leads",
@@ -70767,7 +70997,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Luke Iha",
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.251048
+   "mtime": 1785015429.7910626
   },
   {
    "id": "lulu-cheng-meservey-communications",
@@ -70781,7 +71011,7 @@
    "family": null,
    "workflow_count": 15,
    "last_fired": null,
-   "mtime": 1784995858.2511854
+   "mtime": 1785015429.791516
   },
   {
    "id": "made-to-stick-messaging",
@@ -70795,7 +71025,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2513492
+   "mtime": 1785015429.7919223
   },
   {
    "id": "manus-ai-consulting",
@@ -70809,7 +71039,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2514763
+   "mtime": 1785015429.7921042
   },
   {
    "id": "marc-andreessen-ai-thesis",
@@ -70823,7 +71053,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2515826
+   "mtime": 1785015429.792255
   },
   {
    "id": "maria-wendt-digital-products",
@@ -70837,7 +71067,7 @@
    "family": null,
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1784995858.2516968
+   "mtime": 1785015429.792484
   },
   {
    "id": "marisa-murgatroyd-course-design",
@@ -70851,7 +71081,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2518024
+   "mtime": 1785015429.7926497
   },
   {
    "id": "mark-forsyth-rhetoric",
@@ -70865,7 +71095,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2519085
+   "mtime": 1785015429.7927935
   },
   {
    "id": "mark-kashef-agent-orchestration",
@@ -70879,7 +71109,7 @@
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2520242
+   "mtime": 1785015429.7932663
   },
   {
    "id": "mark-kashef-ai-councils",
@@ -70893,7 +71123,7 @@
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2521324
+   "mtime": 1785015429.793391
   },
   {
    "id": "mark-kashef-banana-squad",
@@ -70907,7 +71137,7 @@
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2522304
+   "mtime": 1785015429.7936013
   },
   {
    "id": "mark-kashef-claude-claw",
@@ -70921,7 +71151,7 @@
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2523227
+   "mtime": 1785015429.7937307
   },
   {
    "id": "mark-kashef-silver-platter-agentic-os",
@@ -70935,7 +71165,7 @@
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2524395
+   "mtime": 1785015429.7938752
   },
   {
    "id": "mark-kashef-visual-design",
@@ -70949,7 +71179,7 @@
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.2525458
+   "mtime": 1785015429.7940242
   },
   {
    "id": "mark-kashef-wargame-os",
@@ -70963,7 +71193,7 @@
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1784995858.2526658
+   "mtime": 1785015429.7943594
   },
   {
    "id": "mark-manson-values-psychology",
@@ -70977,7 +71207,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2527797
+   "mtime": 1785015429.7945623
   },
   {
    "id": "market_intelligence",
@@ -70991,7 +71221,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.2528887
+   "mtime": 1785015429.7947183
   },
   {
    "id": "marketing-studio-director",
@@ -71005,7 +71235,7 @@
    "family": null,
    "workflow_count": 9,
    "last_fired": null,
-   "mtime": 1784995858.2530398
+   "mtime": 1785015429.7951045
   },
   {
    "id": "matt-mcgarry-newsletters",
@@ -71019,7 +71249,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.253153
+   "mtime": 1785015429.7954504
   },
   {
    "id": "matthew-lakajev-linkedin",
@@ -71033,7 +71263,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1784995858.253266
+   "mtime": 1785015429.795927
   },
   {
    "id": "matthew-volkwyn-copywriting",
@@ -71047,7 +71277,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2533731
+   "mtime": 1785015429.796091
   },
   {
    "id": "mcp-builder",
@@ -71061,7 +71291,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.2535002
+   "mtime": 1785015429.796349
   },
   {
    "id": "meg-heckman-buyer-trigger-os",
@@ -71075,7 +71305,7 @@
    "family": "\ud83d\udc55 Buyer-Trigger Merch \u2014 Meg Heckman",
    "workflow_count": 17,
    "last_fired": null,
-   "mtime": 1784995858.253637
+   "mtime": 1785015429.7967534
   },
   {
    "id": "michael-bernoff-identity-engineering",
@@ -71089,7 +71319,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2539642
+   "mtime": 1785015429.7969193
   },
   {
    "id": "michael-connelly-vivid-writing",
@@ -71103,7 +71333,7 @@
    "family": null,
    "workflow_count": 16,
    "last_fired": null,
-   "mtime": 1784995858.2540927
+   "mtime": 1785015429.7973132
   },
   {
    "id": "michael-israetel-hypertrophy",
@@ -71117,7 +71347,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.254638
+   "mtime": 1785015429.7976334
   },
   {
    "id": "michael-margolis-user-research",
@@ -71131,7 +71361,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2547445
+   "mtime": 1785015429.797808
   },
   {
    "id": "mike-foutia-marketing-tools",
@@ -71145,7 +71375,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2548707
+   "mtime": 1785015429.7979667
   },
   {
    "id": "mike-sherrard-realtor-branding",
@@ -71159,7 +71389,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2549717
+   "mtime": 1785015429.7981176
   },
   {
    "id": "mike-taylor-synthetic-research",
@@ -71173,7 +71403,7 @@
    "family": null,
    "workflow_count": 7,
    "last_fired": null,
-   "mtime": 1784995858.2550929
+   "mtime": 1785015429.798553
   },
   {
    "id": "mitch-albom-writing-mastery",
@@ -71187,7 +71417,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1784995858.2552695
+   "mtime": 1785015429.798996
   },
   {
    "id": "monk-ai-offer-architecture",
@@ -71201,7 +71431,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2554095
+   "mtime": 1785015429.799369
   },
   {
    "id": "nate-b-jones-agent-deployment-strategy",
@@ -71215,7 +71445,7 @@
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1784995858.255628
+   "mtime": 1785015429.7995229
   },
   {
    "id": "nate-b-jones-ai-taste-mastery",
@@ -71229,7 +71459,7 @@
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2557473
+   "mtime": 1785015429.799669
   },
   {
    "id": "nate-b-jones-auto-improvement-loops",
@@ -71243,7 +71473,7 @@
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 8,
    "last_fired": null,
-   "mtime": 1784995858.2558653
+   "mtime": 1785015429.7999542
   },
   {
    "id": "nate-b-jones-context-engineering",
@@ -71257,7 +71487,7 @@
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.2560008
+   "mtime": 1785015429.800147
   },
   {
    "id": "nate-b-jones-intent-engineering",
@@ -71271,7 +71501,7 @@
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2561212
+   "mtime": 1785015429.8003056
   },
   {
    "id": "nate-b-jones-orchestration-intelligence",
@@ -71285,7 +71515,7 @@
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2562256
+   "mtime": 1785015429.8006444
   },
   {
    "id": "nate-b-jones-trust-architecture",
@@ -71299,7 +71529,7 @@
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.2563343
+   "mtime": 1785015429.8008242
   },
   {
    "id": "nate-herk-client-acquisition",
@@ -71313,7 +71543,7 @@
    "family": "\ud83e\udd16 AI Systems \u2014 Nate B. Jones",
    "workflow_count": 1,
    "last_fired": null,
-   "mtime": 1784995858.256428
+   "mtime": 1785015429.8009694
   },
   {
    "id": "nathan-gotch-ai-seo",
@@ -71327,7 +71557,7 @@
    "family": null,
    "workflow_count": 15,
    "last_fired": null,
-   "mtime": 1784995858.256556
+   "mtime": 1785015429.8012059
   },
   {
    "id": "nba-betting-edge",
@@ -71341,7 +71571,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2566867
+   "mtime": 1785015429.801384
   },
   {
    "id": "new-media-ghostwriting",
@@ -71355,7 +71585,7 @@
    "family": null,
    "workflow_count": 1,
    "last_fired": null,
-   "mtime": 1784995858.256793
+   "mtime": 1785015429.801528
   },
   {
    "id": "new-media-kingmaker",
@@ -71369,7 +71599,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2569041
+   "mtime": 1785015429.801701
   },
   {
    "id": "nick-saraev-agentic-workflows",
@@ -71383,7 +71613,7 @@
    "family": "\ud83e\udd16 Agentic Workflows \u2014 Nick Saraev",
    "workflow_count": 7,
    "last_fired": null,
-   "mtime": 1784995858.2570455
+   "mtime": 1785015429.8019638
   },
   {
    "id": "nick-saraev-bottleneck-thinking",
@@ -71397,7 +71627,7 @@
    "family": "\ud83e\udd16 Agentic Workflows \u2014 Nick Saraev",
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2571592
+   "mtime": 1785015429.802244
   },
   {
    "id": "nicolas-cole-client-acquisition",
@@ -71411,7 +71641,7 @@
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.2572682
+   "mtime": 1785015429.802403
   },
   {
    "id": "nicolas-cole-digital-products",
@@ -71425,7 +71655,7 @@
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.257376
+   "mtime": 1785015429.8025706
   },
   {
    "id": "nicolas-cole-edan-writing-mechanics",
@@ -71439,7 +71669,7 @@
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "workflow_count": 8,
    "last_fired": null,
-   "mtime": 1784995858.2574866
+   "mtime": 1785015429.8028247
   },
   {
    "id": "nicolas-cole-newsletter-flywheel",
@@ -71453,7 +71683,7 @@
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "workflow_count": 17,
    "last_fired": null,
-   "mtime": 1784995858.257606
+   "mtime": 1785015429.8030617
   },
   {
    "id": "nicolas-cole-niche-positioning",
@@ -71467,7 +71697,7 @@
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2577217
+   "mtime": 1785015429.8032486
   },
   {
    "id": "nicolas-cole-nonfiction-value-architecture",
@@ -71481,7 +71711,7 @@
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "workflow_count": 8,
    "last_fired": null,
-   "mtime": 1784995858.2578292
+   "mtime": 1785015429.8034534
   },
   {
    "id": "nicolas-cole-sales-education-messaging",
@@ -71495,7 +71725,7 @@
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "workflow_count": 8,
    "last_fired": null,
-   "mtime": 1784995858.2579577
+   "mtime": 1785015429.803655
   },
   {
    "id": "nicolas-cole-sentence-craft",
@@ -71509,7 +71739,7 @@
    "family": "\ud83d\udcca Newsletter & Positioning \u2014 Nicolas Cole",
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2580779
+   "mtime": 1785015429.8039463
   },
   {
    "id": "nir-eyal-habit-design",
@@ -71523,7 +71753,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2581832
+   "mtime": 1785015429.8041127
   },
   {
    "id": "noah-hawley-storytelling-mastery",
@@ -71537,7 +71767,7 @@
    "family": null,
    "workflow_count": 21,
    "last_fired": null,
-   "mtime": 1784995858.2583091
+   "mtime": 1785015429.8043544
   },
   {
    "id": "ocean-vuong-perceptual-writing",
@@ -71551,7 +71781,7 @@
    "family": null,
    "workflow_count": 15,
    "last_fired": null,
-   "mtime": 1784995858.2584572
+   "mtime": 1785015429.8047557
   },
   {
    "id": "omar-eddaoudi",
@@ -71565,7 +71795,7 @@
    "family": "\ud83d\udcd6 Teaching Business \u2014 Omar Eddaoudi",
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2587924
+   "mtime": 1785015429.8049386
   },
   {
    "id": "omar-eddaoudi-premium-ads",
@@ -71579,7 +71809,7 @@
    "family": "\ud83d\udcd6 Teaching Business \u2014 Omar Eddaoudi",
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.258926
+   "mtime": 1785015429.805221
   },
   {
    "id": "omar-eddaoudi-scaling-ops",
@@ -71593,7 +71823,7 @@
    "family": "\ud83d\udcd6 Teaching Business \u2014 Omar Eddaoudi",
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1784995858.2590585
+   "mtime": 1785015429.8055465
   },
   {
    "id": "omar-eltakrori",
@@ -71607,7 +71837,7 @@
    "family": "\ud83d\udcd6 Teaching Business \u2014 Omar Eddaoudi",
    "workflow_count": 17,
    "last_fired": null,
-   "mtime": 1784995858.2591975
+   "mtime": 1785015429.8058836
   },
   {
    "id": "oren-brand-archetypes",
@@ -71621,7 +71851,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 8,
    "last_fired": null,
-   "mtime": 1784995858.2593358
+   "mtime": 1785015429.8060753
   },
   {
    "id": "oren-content-team-architecture",
@@ -71635,7 +71865,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 15,
    "last_fired": null,
-   "mtime": 1784995858.2594516
+   "mtime": 1785015429.8062406
   },
   {
    "id": "oren-dara-ad-psychology",
@@ -71649,7 +71879,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1784995858.2595768
+   "mtime": 1785015429.8064768
   },
   {
    "id": "oren-identity-brand-os",
@@ -71663,7 +71893,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 14,
    "last_fired": null,
-   "mtime": 1784995858.2597013
+   "mtime": 1785015429.8068178
   },
   {
    "id": "oren-luxury-psychology",
@@ -71677,7 +71907,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2598193
+   "mtime": 1785015429.8070817
   },
   {
    "id": "oren-one-person-ai-marketer",
@@ -71691,7 +71921,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2599375
+   "mtime": 1785015429.8073723
   },
   {
    "id": "oren-operational-systems",
@@ -71705,7 +71935,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2600558
+   "mtime": 1785015429.80757
   },
   {
    "id": "oren-repositioning",
@@ -71719,7 +71949,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.260155
+   "mtime": 1785015429.8077042
   },
   {
    "id": "oren-taste-development",
@@ -71733,7 +71963,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand & Positioning \u2014 Oren Klaff",
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.2602599
+   "mtime": 1785015429.8078423
   },
   {
    "id": "oscar-hoglund-sound-storytelling",
@@ -71747,7 +71977,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2603848
+   "mtime": 1785015429.8080242
   },
   {
    "id": "packy-mccormick-writing",
@@ -71761,7 +71991,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2604897
+   "mtime": 1785015429.808305
   },
   {
    "id": "paolo-trivellato-lead-magnet-engine",
@@ -71775,7 +72005,7 @@
    "family": null,
    "workflow_count": 11,
    "last_fired": null,
-   "mtime": 1784995858.2606115
+   "mtime": 1785015429.8084774
   },
   {
    "id": "pat-flynn-passive-income",
@@ -71789,7 +72019,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.260714
+   "mtime": 1785015429.8086214
   },
   {
    "id": "patrick-dang-online-business",
@@ -71803,7 +72033,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.260818
+   "mtime": 1785015429.8087473
   },
   {
    "id": "patrick-debois-cdlc",
@@ -71817,7 +72047,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.260927
+   "mtime": 1785015429.8091397
   },
   {
    "id": "paul-harding-lyric-prose",
@@ -71831,7 +72061,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2610695
+   "mtime": 1785015429.809431
   },
   {
    "id": "paul-james-ai-automation",
@@ -71845,7 +72075,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2614107
+   "mtime": 1785015429.8096766
   },
   {
    "id": "pdf",
@@ -71859,7 +72089,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.261528
+   "mtime": 1785015429.809855
   },
   {
    "id": "persuasion-story-code",
@@ -71873,7 +72103,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2616668
+   "mtime": 1785015429.8100529
   },
   {
    "id": "phil-m-jones-conversational-influence",
@@ -71887,7 +72117,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1784995858.2617898
+   "mtime": 1785015429.810224
   },
   {
    "id": "pj-accetturo-ai-video",
@@ -71901,7 +72131,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2619057
+   "mtime": 1785015429.8104334
   },
   {
    "id": "pptx",
@@ -71915,7 +72145,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.2620795
+   "mtime": 1785015429.8108387
   },
   {
    "id": "prediction-market-ai-event-analysis",
@@ -71929,7 +72159,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2622037
+   "mtime": 1785015429.811203
   },
   {
    "id": "prediction-market-making",
@@ -71943,7 +72173,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2623112
+   "mtime": 1785015429.8114257
   },
   {
    "id": "prediction-market-risk-management",
@@ -71957,7 +72187,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2624147
+   "mtime": 1785015429.8116286
   },
   {
    "id": "prediction-market-weather-trading",
@@ -71971,7 +72201,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2625194
+   "mtime": 1785015429.811847
   },
   {
    "id": "product-design-build",
@@ -71985,7 +72215,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2626185
+   "mtime": 1785015429.8120832
   },
   {
    "id": "prosperity-coach-system",
@@ -71999,7 +72229,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2627892
+   "mtime": 1785015429.8123536
   },
   {
    "id": "rachel-woods-ai-operations",
@@ -72013,7 +72243,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2628818
+   "mtime": 1785015429.8125176
   },
   {
    "id": "rafa-conde-fourth-wall-experience-os",
@@ -72027,7 +72257,7 @@
    "family": null,
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1784995858.2630444
+   "mtime": 1785015429.812663
   },
   {
    "id": "rafa-conde-memorable-product-design",
@@ -72041,7 +72271,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2632065
+   "mtime": 1785015429.812918
   },
   {
    "id": "ray-amjad-agentic-ladder",
@@ -72055,7 +72285,7 @@
    "family": null,
    "workflow_count": 9,
    "last_fired": null,
-   "mtime": 1784995858.2633739
+   "mtime": 1785015429.8130844
   },
   {
    "id": "re-compliance-pack",
@@ -72083,7 +72313,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.2635376
+   "mtime": 1785015429.8132408
   },
   {
    "id": "reid-hoffman-ai-strategy",
@@ -72097,7 +72327,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2636943
+   "mtime": 1785015429.8133657
   },
   {
    "id": "remotion-video-creation",
@@ -72111,7 +72341,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.2638612
+   "mtime": 1785015429.8135178
   },
   {
    "id": "riley-brown-marketing-automation",
@@ -72125,7 +72355,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2640207
+   "mtime": 1785015429.8139956
   },
   {
    "id": "robert-greene-power-mastery",
@@ -72139,7 +72369,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2641876
+   "mtime": 1785015429.8141923
   },
   {
    "id": "robert-mack-comedy-writing",
@@ -72153,7 +72383,7 @@
    "family": null,
    "workflow_count": 8,
    "last_fired": null,
-   "mtime": 1784995858.2643614
+   "mtime": 1785015429.8146634
   },
   {
    "id": "rory-sutherland-marketing",
@@ -72167,7 +72397,7 @@
    "family": null,
    "workflow_count": 20,
    "last_fired": null,
-   "mtime": 1784995858.2645364
+   "mtime": 1785015429.8151991
   },
   {
    "id": "ross-mckay-premium-at-scale",
@@ -72181,7 +72411,7 @@
    "family": null,
    "workflow_count": 1,
    "last_fired": null,
-   "mtime": 1784995858.2650754
+   "mtime": 1785015429.8153799
   },
   {
    "id": "ross-minchev-digital-products",
@@ -72195,7 +72425,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.26521
+   "mtime": 1785015429.81566
   },
   {
    "id": "russell-brunson-funnels",
@@ -72209,7 +72439,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2653224
+   "mtime": 1785015429.8158104
   },
   {
    "id": "sabri-suby-ai-advertising",
@@ -72223,7 +72453,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2654877
+   "mtime": 1785015429.8160462
   },
   {
    "id": "sabrina-ramonov-ai-monetization",
@@ -72237,7 +72467,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.265659
+   "mtime": 1785015429.8163464
   },
   {
    "id": "sam-goddard-media-scaling",
@@ -72251,7 +72481,7 @@
    "family": null,
    "workflow_count": 5,
    "last_fired": null,
-   "mtime": 1784995858.2658155
+   "mtime": 1785015429.8164773
   },
   {
    "id": "sam-parr-copywriting",
@@ -72265,7 +72495,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Sam Parr",
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1784995858.2659652
+   "mtime": 1785015429.816637
   },
   {
    "id": "sam-parr-copywriting-mechanics",
@@ -72279,7 +72509,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Sam Parr",
    "workflow_count": 14,
    "last_fired": null,
-   "mtime": 1784995858.266131
+   "mtime": 1785015429.8168778
   },
   {
    "id": "sam-parr-taste-acquisition",
@@ -72293,7 +72523,7 @@
    "family": "\u270d\ufe0f Copywriting \u2014 Sam Parr",
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2662969
+   "mtime": 1785015429.8170683
   },
   {
    "id": "samuel-thompson-product-launch",
@@ -72307,7 +72537,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2664657
+   "mtime": 1785015429.8172958
   },
   {
    "id": "sarah-levinger-ad-psychology",
@@ -72321,7 +72551,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2666209
+   "mtime": 1785015429.8174222
   },
   {
    "id": "satori-graphics",
@@ -72335,7 +72565,7 @@
    "family": "\ud83c\udfa8 Design \u2014 Satori Graphics",
    "workflow_count": 26,
    "last_fired": null,
-   "mtime": 1784995858.2668226
+   "mtime": 1785015429.8176963
   },
   {
    "id": "sean-dollwet-kdp-publishing",
@@ -72349,7 +72579,7 @@
    "family": null,
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1784995858.2669704
+   "mtime": 1785015429.8182373
   },
   {
    "id": "sean-kochel-ai-business",
@@ -72363,7 +72593,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2671473
+   "mtime": 1785015429.8184247
   },
   {
    "id": "sean-kochel-design-first-build",
@@ -72377,7 +72607,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1784995858.2673204
+   "mtime": 1785015429.818571
   },
   {
    "id": "sean-mabry-voice-mastery",
@@ -72391,7 +72621,7 @@
    "family": null,
    "workflow_count": 1,
    "last_fired": null,
-   "mtime": 1784995858.267491
+   "mtime": 1785015429.8188124
   },
   {
    "id": "sean-macintyre-persuasion-philosophy",
@@ -72405,7 +72635,7 @@
    "family": null,
    "workflow_count": 17,
    "last_fired": null,
-   "mtime": 1784995858.2676811
+   "mtime": 1785015429.8190966
   },
   {
    "id": "seena-rez-tiktok-commerce",
@@ -72419,7 +72649,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2680871
+   "mtime": 1785015429.8193133
   },
   {
    "id": "self-evolving-systems",
@@ -72433,7 +72663,7 @@
    "family": null,
    "workflow_count": 1,
    "last_fired": null,
-   "mtime": 1784995858.268192
+   "mtime": 1785015429.8196
   },
   {
    "id": "semantic-document-library-os",
@@ -72447,7 +72677,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.268304
+   "mtime": 1785015429.8197742
   },
   {
    "id": "seth-godin-brand",
@@ -72461,7 +72691,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "workflow_count": 10,
    "last_fired": null,
-   "mtime": 1784995858.2684138
+   "mtime": 1785015429.8200154
   },
   {
    "id": "seth-godin-ideavirus",
@@ -72475,7 +72705,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.2685246
+   "mtime": 1785015429.8201694
   },
   {
    "id": "seth-godin-marketing-mind",
@@ -72489,7 +72719,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "workflow_count": 16,
    "last_fired": null,
-   "mtime": 1784995858.2686474
+   "mtime": 1785015429.820339
   },
   {
    "id": "seth-godin-philosophy",
@@ -72503,7 +72733,7 @@
    "family": "\ud83c\udfdb\ufe0f Brand \u2014 Seth Godin",
    "workflow_count": 8,
    "last_fired": null,
-   "mtime": 1784995858.2687602
+   "mtime": 1785015429.8205256
   },
   {
    "id": "shaan-puri-storytelling",
@@ -72517,7 +72747,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.268866
+   "mtime": 1785015429.8207874
   },
   {
    "id": "shan-hanif-audience-monetization",
@@ -72531,7 +72761,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1784995858.268967
+   "mtime": 1785015429.821081
   },
   {
    "id": "sharran-srivatsaa-scaling",
@@ -72545,7 +72775,7 @@
    "family": null,
    "workflow_count": 7,
    "last_fired": null,
-   "mtime": 1784995858.269072
+   "mtime": 1785015429.82121
   },
   {
    "id": "sherwin-wu-ai-engineering",
@@ -72559,7 +72789,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.269171
+   "mtime": 1785015429.8214622
   },
   {
    "id": "simon-intellectual-library-os",
@@ -72573,7 +72803,7 @@
    "family": null,
    "workflow_count": 15,
    "last_fired": null,
-   "mtime": 1784995858.2692773
+   "mtime": 1785015429.8216166
   },
   {
    "id": "skill-creator",
@@ -72587,7 +72817,7 @@
    "family": null,
    "workflow_count": 1,
    "last_fired": null,
-   "mtime": 1784995858.2694273
+   "mtime": 1785015429.8220158
   },
   {
    "id": "sky-tan-format-engine",
@@ -72601,7 +72831,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.269565
+   "mtime": 1785015429.8227367
   },
   {
    "id": "slack-gif-creator",
@@ -72615,7 +72845,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.2696908
+   "mtime": 1785015429.8229327
   },
   {
    "id": "soowei-consulting-leverage",
@@ -72629,7 +72859,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2698033
+   "mtime": 1785015429.823117
   },
   {
    "id": "stefan-georgi-dopamine-copy",
@@ -72643,7 +72873,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2699187
+   "mtime": 1785015429.8233562
   },
   {
    "id": "steven-kotler-flow-performance",
@@ -72657,7 +72887,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2700262
+   "mtime": 1785015429.8234959
   },
   {
    "id": "steven-pressfield-narrative-mastery",
@@ -72671,7 +72901,7 @@
    "family": null,
    "workflow_count": 15,
    "last_fired": null,
-   "mtime": 1784995858.2701473
+   "mtime": 1785015429.8236916
   },
   {
    "id": "steven-young-consciousness",
@@ -72685,7 +72915,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.270243
+   "mtime": 1785015429.8238285
   },
   {
    "id": "stitch-loop",
@@ -72699,7 +72929,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.2703607
+   "mtime": 1785015429.8239753
   },
   {
    "id": "stockton-walbeck-lead-magnets",
@@ -72713,7 +72943,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2704718
+   "mtime": 1785015429.8241801
   },
   {
    "id": "story-bible-builder",
@@ -72741,7 +72971,7 @@
    "family": null,
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1784995858.2705786
+   "mtime": 1785015429.8243117
   },
   {
    "id": "strength-conditioning-os",
@@ -72755,7 +72985,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1784995858.270698
+   "mtime": 1785015429.8247716
   },
   {
    "id": "sunny-lenarduzzi-youtube",
@@ -72769,7 +72999,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.271242
+   "mtime": 1785015429.8249223
   },
   {
    "id": "supercomputer",
@@ -72783,7 +73013,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2713623
+   "mtime": 1785015429.8250818
   },
   {
    "id": "susan-orlean-narrative-nonfiction",
@@ -72797,7 +73027,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2715437
+   "mtime": 1785015429.8257115
   },
   {
    "id": "swarm-commander",
@@ -72811,7 +73041,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.2716732
+   "mtime": 1785015429.8261466
   },
   {
    "id": "sweat-equity-speedrun-social-os",
@@ -72825,7 +73055,7 @@
    "family": null,
    "workflow_count": 9,
    "last_fired": null,
-   "mtime": 1784995858.2717788
+   "mtime": 1785015429.826396
   },
   {
    "id": "taki-moore-lifestyle-business",
@@ -72839,7 +73069,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.2718766
+   "mtime": 1785015429.826677
   },
   {
    "id": "tao-prompts-ai-video",
@@ -72853,7 +73083,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1784995858.2719665
+   "mtime": 1785015429.8268375
   },
   {
    "id": "taylor-welch-wealthy-consultant",
@@ -72867,7 +73097,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2720666
+   "mtime": 1785015429.8274727
   },
   {
    "id": "tess-barclay-social-content",
@@ -72881,7 +73111,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2721603
+   "mtime": 1785015429.8276017
   },
   {
    "id": "theme-factory",
@@ -72895,7 +73125,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.2722592
+   "mtime": 1785015429.827722
   },
   {
    "id": "thrivecart-digital-products",
@@ -72909,7 +73139,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2723732
+   "mtime": 1785015429.8279333
   },
   {
    "id": "tim-danilov-niche-bending",
@@ -72923,7 +73153,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2724762
+   "mtime": 1785015429.8281665
   },
   {
    "id": "tobi-lutke-business-leadership",
@@ -72937,7 +73167,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.272579
+   "mtime": 1785015429.8283768
   },
   {
    "id": "tobias-allen-marketing-mastery",
@@ -72951,7 +73181,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2726908
+   "mtime": 1785015429.828546
   },
   {
    "id": "tom-noske-content-creation",
@@ -72965,7 +73195,7 @@
    "family": null,
    "workflow_count": 8,
    "last_fired": null,
-   "mtime": 1784995858.2727976
+   "mtime": 1785015429.828906
   },
   {
    "id": "tom-noske-personal-brand",
@@ -72979,7 +73209,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.272911
+   "mtime": 1785015429.829128
   },
   {
    "id": "tom-segura-comedy-storytelling",
@@ -72993,7 +73223,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2730193
+   "mtime": 1785015429.8294952
   },
   {
    "id": "tommy-clark-linkedin-growth",
@@ -73007,7 +73237,7 @@
    "family": null,
    "workflow_count": 6,
    "last_fired": null,
-   "mtime": 1784995858.273121
+   "mtime": 1785015429.8296766
   },
   {
    "id": "tyler-denk-audience-monetization",
@@ -73021,7 +73251,7 @@
    "family": null,
    "workflow_count": 2,
    "last_fired": null,
-   "mtime": 1784995858.2732193
+   "mtime": 1785015429.8298328
   },
   {
    "id": "velocity-scaling",
@@ -73035,7 +73265,7 @@
    "family": "\u26a1 Velocity & Scaling",
    "workflow_count": 18,
    "last_fired": null,
-   "mtime": 1784995858.2733285
+   "mtime": 1785015429.8299851
   },
   {
    "id": "verticalize",
@@ -73063,7 +73293,7 @@
    "family": null,
    "workflow_count": 14,
    "last_fired": null,
-   "mtime": 1784995858.273473
+   "mtime": 1785015429.8303072
   },
   {
    "id": "voice-os",
@@ -73077,7 +73307,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.27383
+   "mtime": 1785015429.830472
   },
   {
    "id": "ward-farnsworth-rhetorical-mastery",
@@ -73091,7 +73321,7 @@
    "family": null,
    "workflow_count": 15,
    "last_fired": null,
-   "mtime": 1784995858.2739568
+   "mtime": 1785015429.830882
   },
   {
    "id": "web-artifacts-builder",
@@ -73105,7 +73335,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.2743797
+   "mtime": 1785015429.8310287
   },
   {
    "id": "webapp-testing",
@@ -73119,7 +73349,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.274497
+   "mtime": 1785015429.8311708
   },
   {
    "id": "wordsatscale-seo-ranking",
@@ -73133,7 +73363,7 @@
    "family": null,
    "workflow_count": 4,
    "last_fired": null,
-   "mtime": 1784995858.2746048
+   "mtime": 1785015429.8313239
   },
   {
    "id": "wright-thompson-mastery",
@@ -73147,7 +73377,7 @@
    "family": "\ud83c\udfac Story Craft \u2014 Wright Thompson",
    "workflow_count": 13,
    "last_fired": null,
-   "mtime": 1784995858.2747133
+   "mtime": 1785015429.8314872
   },
   {
    "id": "writing-depth-layer",
@@ -73161,7 +73391,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2748933
+   "mtime": 1785015429.8321574
   },
   {
    "id": "xlsx",
@@ -73175,7 +73405,7 @@
    "family": null,
    "workflow_count": 0,
    "last_fired": null,
-   "mtime": 1784995858.2750223
+   "mtime": 1785015429.8323462
   },
   {
    "id": "yann-martel-storytelling-mastery",
@@ -73189,7 +73419,7 @@
    "family": null,
    "workflow_count": 12,
    "last_fired": null,
-   "mtime": 1784995858.2751462
+   "mtime": 1785015429.832556
   },
   {
    "id": "youtube-video-context-analysis",
@@ -73203,7 +73433,7 @@
    "family": null,
    "workflow_count": 8,
    "last_fired": null,
-   "mtime": 1784995858.2752585
+   "mtime": 1785015429.8327274
   },
   {
    "id": "yuri-elkaim-health-coaching-business",
@@ -73217,7 +73447,7 @@
    "family": null,
    "workflow_count": 3,
    "last_fired": null,
-   "mtime": 1784995858.2753613
+   "mtime": 1785015429.8328834
   },
   {
    "id": "adam-enfroy",
@@ -73952,13 +74182,13 @@
    "kind": "agent",
    "skill": null,
    "path": "agents/dara-denney/AGENT.md",
-   "description": "DTC creative strategist for Meta ads. Format archetype expert who treats creative trends as annual arbitrage and separates format from messaging as independent test axes.",
+   "description": "DTC creative strategist \u2014 full stack. Research OS (7-station reputation analysis, review mining, evidence-ranked Persona & Desire Segmentation, three-gap audits, mission docs, creative roadmaps), the strategist business model (own-the-outcome pricing, spec-work acquisition), plus Meta ads production (format archetypes as annual arbitrage, format \u00d7 messaging as independent test axes, video + static",
    "menu_status": "reachable",
    "front_door": "/dara-denney",
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1777843745.4875507
+   "mtime": 1785015405.2040057
   },
   {
    "id": "darrel-wilson",
@@ -76211,7 +76441,7 @@
   }
  ],
  "fingerprint": [
-  8853,
-  1785007626.241
+  8878,
+  1785015484.125
  ]
 }

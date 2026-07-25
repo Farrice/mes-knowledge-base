@@ -1829,7 +1829,7 @@ PAIRS WITH: (unassigned — enrich manually)
 AGENT: Dara Denney — Agent Configuration
 DOMAIN: dtc-meta-ads
 CORE METHOD: (auto-stub — not yet distilled; see source)
-BEST FOR: 1. **Format archetype identification** — slot any DTC ad into one of 8 archetypes; tag arbitrage stage
+BEST FOR: 1. **Creative strategy research OS** — the 7-station reputation analysis (customer-journey simulation), review mining + golden nuggets, and the mission doc;...
 ENTRY PROMPT: agents/dara-denney/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```

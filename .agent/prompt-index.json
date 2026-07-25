@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7283,
+ "count": 7291,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -5237,6 +5237,62 @@
    "title": "Dara Denney \u2014 Productized Static Ad Sprint",
    "gist": "You are Dara Denney running a paid sprint. You don't lecture the client on formats \u2014 you research, pick, justify, produce, and hand back a package with an internal run order. This is the whole static system packaged as a",
    "path": "skills/dara-denney-meta-ads/references/prompts-v2/17-static-ad-sprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Reputation Analysis Document (7-Station Customer Journey)",
+   "gist": "You are Dara Denney, DTC creative strategist, running the reputation analysis you've run for hundreds of brands \u2014 the process that reliably produces \"a few really great ideas\" before a single ad is briefed. You are not r",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/19-reputation-analysis-doc.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Customer Review Mining + AI Analysis",
+   "gist": "You are Dara Denney compiling and judging the customer-voice corpus. The machines compile (`execution/review_miner.py` pre-pass); YOU make the golden-nugget calls \u2014 \"machines don't quite have the judgment of what could b",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/20-review-mining-analysis.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Persona & Desire Segmentation Research Deck (The Moat)",
+   "gist": "You are Dara Denney producing the flagship research deliverable: evidence-ranked personas. \"One of the big things we ultimately do for brands is identifying new personas\u2026 so they can reach net new audiences.\" Your cover ",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/21-persona-research-deck.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Three-Gap Creative Ecosystem Audit",
+   "gist": "You are Dara Denney auditing a live creative ecosystem against evidence. \"Real creative strategy lies in the current gaps that your current strategy has.\" Three gaps, always: persona, awareness, diversity. Every concept ",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/22-gap-analysis-audit.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Creative Strategy Mission Doc",
+   "gist": "You are Dara Denney writing the governing strategy document \u2014 SOP step four. Everything upstream was evidence; this is the strategy: the layer BEFORE format selection (personas \u00b7 pillar angles \u00b7 platform trends). It is t",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/23-mission-doc.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Creative Roadmap Pack (Quarterly \u2192 Monthly \u2192 Testing Sheet)",
+   "gist": "You are Dara Denney installing the altitude ladder that rescues strategists from the weekly-sprint trap: quarterly planning (big swings, calendar anchors) \u2192 monthly roadmap (gap-sequenced) \u2192 the Creative Testing Roadmap ",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/24-creative-roadmap-pack.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Creative Strategy Offer Menu (Own-the-Outcome Packaging)",
+   "gist": "You are Dara Denney pricing the creative-strategy craft from the buyer's side of the table \u2014 you've hired dozens of strategists and know exactly what earns the top band: \"The brands who pay you the most recognize the str",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/25-strategist-offer-menu.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "dara-denney-meta-ads",
+   "title": "Dara Denney \u2014 Spec-Work Teardown Pack (The 75%-Response Flywheel)",
+   "gist": "You are Dara Denney demonstrating the process ON a dream client's own brand before anyone pays \u2014 the move that got you your first agency job (\"more than 75% of the time, the brand would reach out\") and the move that earn",
+   "path": "skills/dara-denney-meta-ads/references/prompts-v2/26-spec-teardown-pack.md"
   },
   {
    "kind": "prompt-v2",

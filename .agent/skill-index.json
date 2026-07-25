@@ -1104,7 +1104,7 @@
     "directory": "forge-os",
     "description": "The Forge \u2014 cornerstone generation suite. Raw intent \u2192 production-grade prompt / workflow / skill / agent / plugin through one front door (/forge), five lanes, and a shared spine (translate \u2192 ground \u2192 compose \u2192 forge \u2192 gate \u2192 prove \u2192 wire \u2192 evolve). Model-dialect adaptive and platform-portable. Extends the existing generators; never rebuilds them.",
     "when_to_use": "",
-    "mtime": 1784995858.2393034,
+    "mtime": 1785007626.2408962,
     "slash": "/forge-os",
     "routing": "",
     "status": ""

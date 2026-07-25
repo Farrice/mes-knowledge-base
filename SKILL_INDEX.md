@@ -82,7 +82,7 @@
 | `daniel-priestley-oversubscribed` | **Daniel Priestley: Oversubscribed Mastery** | 27 genius patterns and 27 crown jewel prompts for entrepreneurial domination, oversubscribed mastery | 9 | 27 |
 | `daniel-priestley-sll-engine` | **Daniel Priestley: SLL Engine (Short-Form / Long-Form / Lead-Form)** | monthly proof-principles-process long-form, quarterly lead-form offers feeding the laps sales process, use for social content systems | 5 | 0 |
 | `daniel-thrasher-affiliate` | **Daniel Thrasher — Affiliate Campaign Skills** | 5 years with top affiliates), campaign/funnel model, distinct from enfroy's blog-authority model, affiliate campaign skills | 3 | 0 |
-| `dara-denney-meta-ads` | **dara-denney-meta-ads** | dtc-meta-ads, dtc creative strategy for meta ads — video + static, engine for performance creative built on dara denney's agency methodology | 17 | 0 |
+| `dara-denney-meta-ads` | **dara-denney-meta-ads** | dtc-meta-ads, dtc creative strategy — the full stack, engine for performance creative built on dara denney's agency methodology | 26 | 0 |
 | `darrel-wilson-ai-affiliate` | **darrel-wilson-ai-affiliate** | ai-augmented affiliate marketing, digital revenue systems, $50-60k/month in commissions backs the methodology | 12 | 0 |
 | `darrel-wilson-ai-monetization` | **Darrel Wilson AI Monetization** | for ai-leverage-as-thinking-partner use dan-koe-ai-leverage, for solo-entrepreneur infrastructure use andrew-wilkinson-ai-entrepreneurship | 4 | 14 |
 | `david-baldacci-books-that-sell` | **david-baldacci-books-that-sell** | commercial fiction craft + author business economics, writing fiction or narrative nonfiction that must sell, ebook/digital-product..., 200m+ copies sold | 14 | 0 |

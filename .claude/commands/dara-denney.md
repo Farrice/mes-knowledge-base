@@ -1,5 +1,5 @@
 ---
-description: "dara-denney — full expert front door: DTC creative strategist for Meta ads. Format archetype expert who treats creative trends as annual arbitrage and separates format from messaging as independent test axes. Skills: dara-denney-meta-ads."
+description: "dara-denney — full expert front door: DTC creative strategist — full stack. Research OS (7-station reputation analysis, review mining, evidence-ranked Persona & Desire Segmentation, three-gap audits, mission docs, creative roadmaps), the strategist business model (own-the-outcome pricing, spec-work acquisition), p.... Skills: dara-denney-meta-ads."
 ---
 <!-- auto-generated: expert front door (sync_registries.py) — safe to delete; regenerated on sync -->
 
@@ -9,7 +9,7 @@ Tier-gated loading: pick the ONE skill below relevant to the request and load it
 
 | Skill | Tier 1 (SKILL.md path) | Tier 2 (genius.md path) | Flagship workflow |
 |-------|------------------------|-------------------------|-------------------|
-| dara-denney-meta-ads | `skills/dara-denney-meta-ads/SKILL.md` | `skills/dara-denney-meta-ads/genius.md` | `skills/dara-denney-meta-ads/workflows/01-format-selection.md` |
+| dara-denney-meta-ads | `skills/dara-denney-meta-ads/SKILL.md` | `skills/dara-denney-meta-ads/genius.md` | `skills/dara-denney-meta-ads/workflows/18-research-sop.md` |
 
 If the request fits a full structured run (not just a quick application), OFFER the loaded skill's flagship workflow; each skill's 'Available Workflows' table and its `references/prompts-v2/` execution prompts cover the other processes.
 
