@@ -47,3 +47,10 @@ Resume riley-brown-os. Three tasks: (1) show me the blind-pass pieces side by si
 - Apify spend on IG/TikTok tests: keep `--limit ≤3`, per-run ceiling $0.25 stands.
 - Meta Ad Library requires real-browser Playwright (raw HTTP 403s) — don't "optimize" to requests.
 - One stale session-lock entry may linger (release was classifier-blocked); it expires via heartbeat TTL — claim fresh, don't fight it.
+
+
+## Postscript — menu-parity sweep (same session, later)
+- All 19 Riley-session workflows minted into the slash menu (12 riley-* wrappers + 7 harness shims), commit 28a268c7a.
+- Recent-sessions audit (16 skills): 13 already reachable; minted 12 more wrappers+shims — fladlien-game-selection/offer-anatomy/one-sitting-product/webinar-campaign, gotch-intent-architecture/content-engine/citation-domination/omnichannel-blitz, sll-short-form-daily/long-form-explainer/lead-form/cadence-audit. Landed via concurrent session's commit 520728172 (accepted per race protocol, verified complete).
+- Deliberate non-wrap: nathan-gotch 02-strategic-retrieval-narrative-mapping.md v1 (superseded by v2 intent-architecture).
+- Open idea: menu-parity check inside skill_auditor.py heartbeat (wrapper+shim per workflow or named exemption) — turns this manual sweep into a physical gate.
