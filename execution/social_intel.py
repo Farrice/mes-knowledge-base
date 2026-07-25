@@ -74,10 +74,38 @@ def detect_platform(handle_or_url: str) -> str:
     return ""
 
 
+_VIDEO_URL_MARKERS = ("/watch", "youtu.be/", "/shorts/", "/video/", "/reel/", "/reels/", "/p/")
+
+
+def _resolve_video_url_to_handle(url: str) -> str:
+    """A single-video URL is not a creator reference. Resolve it to the
+    uploader's handle via yt-dlp ($0) so the scrape targets the right
+    creator — the 2026-07-25 mis-scrape put 'watch' through as a handle."""
+    if shutil.which("yt-dlp"):
+        try:
+            out = subprocess.run(
+                ["yt-dlp", "--skip-download", "--no-update", "--print", "uploader_id", url],
+                capture_output=True, timeout=60, text=True,
+            )
+            handle = (out.stdout or "").strip().splitlines()[-1].lstrip("@") if out.stdout else ""
+            if handle:
+                print(f"NOTE: '{url}' is a single-video URL — resolved to creator "
+                      f"'@{handle}'; scraping that creator's recent posts instead.")
+                return handle
+        except Exception:
+            pass
+    sys.exit(f"ERROR: '{url}' is a single-video URL, not a creator/channel reference, "
+             f"and it could not be resolved to a handle. Pass the creator's handle or "
+             f"profile URL instead.")
+
+
 def clean_handle(raw: str) -> str:
     """Extract a bare handle from a URL, or strip a leading @ from a handle."""
     raw = raw.strip()
     if raw.startswith("http"):
+        low = raw.lower()
+        if any(m in low for m in _VIDEO_URL_MARKERS):
+            return _resolve_video_url_to_handle(raw)
         path = urlparse(raw).path.strip("/")
         seg = path.split("/")[0] if path else ""
         return seg.lstrip("@") or raw

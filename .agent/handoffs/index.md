@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-25** [solutions/active] [Solutions — Social Intel Date Normalization And Watch Url Parse](2026-07-25-solutions.md) — Solutions — Social Intel Date Normalization And Watch Url Parse
 - **2026-07-25** [riley-brown-os/ready] [Riley Brown OS — Watch + Forge + $0 Capability Layer (scrape-creator, ad-spy, Social Intelligence DB)](2026-07-25-riley-brown-os.md) — Farrice blind pass + paste Typefully/Cal.com keys + IG live-test
 - **2026-07-24** [loop-engineering-integration/done] [Loop Engineering Integration — Full Ship (12 Candidates + Act-Then-Veto Memory Lane)](2026-07-24-loop-engineering-integration.md) — Steady-state: morning /cos read; 2026-08-24 re-run the 12-loop audit vs compounding metric
 - **2026-07-24** [workflows/active] [Workflows — 3 Stacking Farrice Parallax Pipeline](2026-07-24-workflows.md) — Workflows — 3 Stacking Farrice Parallax Pipeline

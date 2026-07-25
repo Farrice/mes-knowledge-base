@@ -1,3 +1,11 @@
+---
+thread: solutions
+status: active
+resume_hint: Solutions — Social Intel Date Normalization And Watch Url Parse
+branch: main
+pin: true
+---
+
 # Solutions — Social Intel Date Normalization And Watch Url Parse
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.

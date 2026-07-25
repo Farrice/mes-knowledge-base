@@ -98,11 +98,13 @@
                 "ben-watkins-storytelling": 1,
                 "alex-m-smith-natural-strategy": 1,
                 "seth-godin-philosophy": 1,
-                "kallaway-word-mastery": 1
+                "kallaway-word-mastery": 1,
+                "briar-cochran-content-science": 1,
+                "kallaway-illusion-of-novelty": 1
             },
-            "total_routings": 616,
+            "total_routings": 618,
             "tier_counts": {
-                "0": 616,
+                "0": 618,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -112,7 +114,7 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 356,
+                "hybrid": 358,
                 "finalize-auto": 260
             },
             "expert_counts": {
@@ -127,7 +129,7 @@
                 "joscha-bach-consciousness": 2,
                 "cinema-worldbuilder-pro": 2,
                 "ali-abdaal-action-bias": 4,
-                "skill-creator": 3,
+                "skill-creator": 4,
                 "jen-santulan-listing-content": 33,
                 "deep-research": 10,
                 "system-orchestrator": 3,
@@ -170,7 +172,7 @@
                 "joey-noisy-group": 1,
                 "prediction-market-making": 1,
                 "jen-santulan": 3,
-                "jack-roberts-design-mastery": 10,
+                "jack-roberts-design-mastery": 11,
                 "higgsfield-creative-studio": 7,
                 "nate-b-jones-ai-taste-mastery": 2,
                 "context-profile-architect": 2,
@@ -195,7 +197,7 @@
                 "jason-fladlien": 5,
                 "swarm-commander": 3,
                 "donald-miller-cognitive-load": 5,
-                "kallaway-illusion-of-novelty": 8,
+                "kallaway-illusion-of-novelty": 9,
                 "oren-one-person-ai-marketer": 2,
                 "luke-iha-proof-ladder": 2,
                 "alex-suzuki": 2,
@@ -379,11 +381,12 @@
                 "riley-brown": 1,
                 "jonathan-franzen-storytelling": 1,
                 "brandon-jacoby-taste-mastery": 1,
-                "briar-cochran": 1
+                "briar-cochran": 1,
+                "briar-cochran-content-science": 1
             },
             "total_feedback": 86,
             "negative_count": 0,
-            "ensemble_count": 456,
+            "ensemble_count": 457,
             "auto_miss_count": 68,
             "positive_count": 0
         }
@@ -12331,6 +12334,42 @@
             "workflow_used": "extract-forge",
             "ensemble": false,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_164133_6a11",
+            "timestamp": "2026-07-25T16:41:33.348061+00:00",
+            "session_id": "b8d150e8-9d91-4064-84c4-061a7f9f9949",
+            "request_summary": "So did the scrape-creator skill actually work, and how do we keep that failure from happening again? and /bc-arsenal-install for my LinkedIn — baseline my account, seed the keyword ledger, and give me",
+            "intent_score": 0,
+            "domain_detected": "briar-cochran-content-science",
+            "experts_deployed": [
+                "briar-cochran-content-science"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "briar-cochran-content-science",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_164214_9cbf",
+            "timestamp": "2026-07-25T16:42:14.888895+00:00",
+            "session_id": "11ee68d5-e4f3-4501-b8ed-2b477b36f39e",
+            "request_summary": "can you ensure the skills we built here show up in the slash command menu please",
+            "intent_score": 0,
+            "domain_detected": "kallaway-illusion-of-novelty",
+            "experts_deployed": [
+                "kallaway-illusion-of-novelty",
+                "jack-roberts-design-mastery",
+                "skill-creator"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "kallaway-illusion-of-novelty",
+            "ensemble": true,
+            "compound_pairing": "kallaway-illusion-of-novelty + jack-roberts-design-mastery + skill-creator",
             "feedback": null
         }
     ]

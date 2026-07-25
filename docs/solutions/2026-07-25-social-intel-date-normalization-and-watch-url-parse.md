@@ -1,12 +1,12 @@
 # Solution Card — social_intel.py: video-URL misparse + non-ISO date rejection
 
-**Date**: 2026-07-25 · **Domain**: system fix (/scrape-creator pipeline) · **Status**: SOLVED (one of two)
+**Date**: 2026-07-25 · **Domain**: system fix (/scrape-creator pipeline) · **Status**: SOLVED (both)
 
 ## Problem
 
 Running `/scrape-creator` against individual YouTube **watch URLs** produced two failures:
 
-1. **URL misparse (open)**: `social_intel.py scrape "https://www.youtube.com/watch?v=..."`
+1. **URL misparse (FIXED 2026-07-25, same session)**: `social_intel.py scrape "https://www.youtube.com/watch?v=..."`
    extracted `watch` as the creator handle → Apify scraped an unrelated channel's video
    (created junk Notion pages; 2 renamed "🗑️ [MIS-SCRAPE — SAFE TO DELETE]" in the Social
    Intelligence DB, 2026-07-25). The scraper is handle/channel-oriented; a `/watch?v=` URL is
@@ -26,11 +26,12 @@ Running `/scrape-creator` against individual YouTube **watch URLs** produced two
   the module's own `build_properties`/`build_body_blocks` with yt-dlp metadata (free) — see
   `scratchpad backfill_briar.py` pattern from this session.
 
-## Prevention / Next build (Forge Radar)
+## Prevention (SHIPPED)
 
-`social_intel.py` should detect `watch?v=` / `youtu.be` URLs and either resolve them to the
-channel handle + scrape just that video, or fail loudly ("this is a video URL, not a creator").
-One-line guard in `detect_platform`/`clean_handle`. Not built this session (scope).
+`clean_handle()` now detects single-video URL markers (`/watch`, `youtu.be/`, `/shorts/`,
+`/video/`, `/reel(s)/`, `/p/`), resolves them to the uploader handle via yt-dlp ($0) with a
+printed NOTE, and exits with a clear error if resolution fails. Tested: video URL →
+`BriarCochranShortForm`; handles and profile URLs unaffected.
 
 ## Reusable lesson
 
