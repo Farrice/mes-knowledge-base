@@ -14,7 +14,7 @@
                 "tyler-denk-audience-monetization": 1,
                 "lara-acosta-linkedin-mastery": 2,
                 "extract-mastery": 3,
-                "Research": 16,
+                "Research": 17,
                 "luke-iha-vsl-leads": 6,
                 "sean-dollwet-kdp-publishing": 2,
                 "paul-james-ai-automation": 1,
@@ -63,7 +63,7 @@
                 "story-bible-builder": 1,
                 "jason-fladlien-marketing": 12,
                 "how-i-write-os": 12,
-                "supercomputer": 35,
+                "supercomputer": 37,
                 "design-md": 13,
                 "fantastic-posters": 2,
                 "Creative": 8,
@@ -74,7 +74,7 @@
                 "nate-b-jones-context-engineering": 30,
                 "nate-b-jones-intent-engineering": 1,
                 "omar-eltakrori": 1,
-                "Extraction": 37,
+                "Extraction": 38,
                 "Strategy": 39,
                 "donald-miller-storybrand": 1,
                 "strength-conditioning-os": 8,
@@ -102,9 +102,9 @@
                 "briar-cochran-content-science": 1,
                 "kallaway-illusion-of-novelty": 1
             },
-            "total_routings": 630,
+            "total_routings": 634,
             "tier_counts": {
-                "0": 630,
+                "0": 634,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -114,8 +114,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 365,
-                "finalize-auto": 265
+                "hybrid": 367,
+                "finalize-auto": 267
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -188,7 +188,7 @@
                 "tommy-clark": 2,
                 "deliberate": 27,
                 "creative-director": 1,
-                "doc-coauthoring": 52,
+                "doc-coauthoring": 54,
                 "dan-wang-literary-analysis": 2,
                 "webapp-testing": 3,
                 "brand-operating-system": 24,
@@ -255,7 +255,7 @@
                 "story-bible-builder": 2,
                 "jason-fladlien-marketing": 15,
                 "luisa-zhou-coaching": 2,
-                "supercomputer": 48,
+                "supercomputer": 50,
                 "design-md": 23,
                 "alex-content-science": 3,
                 "system-audit": 24,
@@ -285,7 +285,7 @@
                 "lara-acosta-linkedin-mastery": 4,
                 "extract-mastery": 4,
                 "sean-dollwet-kdp-publishing": 8,
-                "dara-denney": 2,
+                "dara-denney": 4,
                 "john-whiting": 2,
                 "synthesis-engine": 1,
                 "alan-aragon-nutrition": 1,
@@ -297,7 +297,7 @@
                 "master-copywriter": 3,
                 "henry-shukman-contemplative-writing": 4,
                 "youtube-video-context-analysis": 5,
-                "sharran-srivatsaa-scaling": 13,
+                "sharran-srivatsaa-scaling": 15,
                 "dai-media-consumer-posture": 3,
                 "story-compass": 3,
                 "darrel-wilson-ai-affiliate": 2,
@@ -386,10 +386,10 @@
                 "joshua-smith-real-estate": 1,
                 "re-compliance-pack": 1
             },
-            "total_feedback": 87,
+            "total_feedback": 88,
             "negative_count": 0,
-            "ensemble_count": 464,
-            "auto_miss_count": 68,
+            "ensemble_count": 466,
+            "auto_miss_count": 69,
             "positive_count": 0
         }
     },
@@ -1167,6 +1167,15 @@
             "rating": "auto_match",
             "correction": "jen-santulan-listing-content",
             "notes": "expert skill 'jen-santulan-listing-content' loaded matching suggestion ['jen-santulan-listing-content', 'joshua-smith-real-estate']"
+        },
+        {
+            "feedback_id": "fb_20260725_221748_ee33",
+            "timestamp": "2026-07-25T22:17:48.106000+00:00",
+            "session_id": "18035d13-8d13-47c3-8899-bb899a634297",
+            "routing_id": "rt_20260725_221505_26af",
+            "rating": "auto_miss",
+            "correction": "dara-denney-meta-ads",
+            "notes": "expert skill 'dara-denney-meta-ads' loaded not matching suggestion ['supercomputer', 'doc-coauthoring', 'sharran-srivatsaa-scaling']"
         }
     ],
     "routing_decisions": [
@@ -12598,6 +12607,78 @@
             "workflow_used": "supercomputer",
             "ensemble": true,
             "compound_pairing": "supercomputer + doc-coauthoring + sharran-srivatsaa-scaling",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_210526_617a",
+            "timestamp": "2026-07-25T21:05:26.003568+00:00",
+            "session_id": "92b278da-a56f-4e16-bc06-17f9bd64c5e4",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "doc-coauthoring",
+                "sharran-srivatsaa-scaling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + doc-coauthoring + sharran-srivatsaa-scaling",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_214939_dd53",
+            "timestamp": "2026-07-25T21:49:39.899007+00:00",
+            "session_id": "",
+            "request_summary": "Dara Denney Creative Strategy OS extraction forge extension",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "dara-denney"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_221505_26af",
+            "timestamp": "2026-07-25T22:15:05.555870+00:00",
+            "session_id": "18035d13-8d13-47c3-8899-bb899a634297",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "doc-coauthoring",
+                "sharran-srivatsaa-scaling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + doc-coauthoring + sharran-srivatsaa-scaling",
+            "feedback": "fb_20260725_221748_ee33"
+        },
+        {
+            "routing_id": "rt_20260725_222453_cc34",
+            "timestamp": "2026-07-25T22:24:53.103290+00:00",
+            "session_id": "",
+            "request_summary": "Momentous 7-station reputation analysis — deliverables/momentous-reputation-analysis-2026-07-25.md",
+            "intent_score": 9,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "dara-denney"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "19-reputation-analysis",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

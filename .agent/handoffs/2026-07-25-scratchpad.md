@@ -1,3 +1,11 @@
+---
+thread: scratchpad
+status: active
+resume_hint: Scratchpad — Primer Draft
+branch: main
+pin: true
+---
+
 # Scratchpad — Primer Draft
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.

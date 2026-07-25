@@ -1,20 +1,20 @@
 # Knowledge Briefing
-*Generated: 2026-07-25 | 743 sources | 2,893,255 words*
+*Generated: 2026-07-25 | 745 sources | 2,897,144 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 5,028 words — `knowledge/index.md`
-- **log** (general) — 14,763 words — `knowledge/log.md`
+- **index** (content) — 5,040 words — `knowledge/index.md`
+- **log** (general) — 14,801 words — `knowledge/log.md`
 - **extraction-report** (content) — 2,846 words — `extractions/briar-cochran/extraction-report.md`
 - **vision** (content) — 552 words — `extractions/briar-cochran/vision.md`
 - **visual-context** (research) — 300 words — `extractions/briar-cochran/visual-context.md`
 - **blind-pass-log** (content) — 88 words — `extractions/briar-cochran-content-science/blind-pass-log.md`
 - **blind-pass-sample-win-audit** (content) — 399 words — `extractions/briar-cochran-content-science/blind-pass-sample-win-audit.md`
+- **extraction-report-creative-strategy** (strategy) — 2,921 words — `extractions/dara-denney/extraction-report-creative-strategy.md`
+- **visual-context-creative-strategy** (strategy) — 918 words — `extractions/dara-denney/visual-context-creative-strategy.md`
 - **mes-extraction** (systems) — 7,342 words — `extractions/riley-brown/mes-extraction.md`
-- **vision** (systems [nick-saraev]) — 522 words — `extractions/riley-brown/vision.md`
-- **visual-context** (screenwriting) — 17,427 words — `extractions/riley-brown/visual-context.md`
 
 ## Domain Coverage
 
@@ -23,7 +23,7 @@
 | content | 262 | lara-acosta |
 | copywriting | 103 | luke-iha |
 | general | 92 | nick-saraev |
-| strategy | 78 | april-dunford |
+| strategy | 80 | april-dunford |
 | screenwriting | 54 | connelly |
 | brand | 50 | oren-john |
 | systems | 43 | nick-saraev |

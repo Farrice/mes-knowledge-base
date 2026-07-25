@@ -2,11 +2,13 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-25** [scratchpad/active] [Scratchpad — Primer Draft](2026-07-25-scratchpad.md) — Scratchpad — Primer Draft
+- **2026-07-25** [solutions/active] [Solutions — Expert Sop Harvest To Sellable Package](2026-07-25-solutions.md) — Solutions — Expert Sop Harvest To Sellable Package
+- **2026-07-25** [execution/active] [Execution — Arsenal Index](2026-07-25-execution.md) — Execution — Arsenal Index
+- **2026-07-25** [riley-brown-os/ready] [Riley Brown OS — Watch + Forge + $0 Capability Layer (scrape-creator, ad-spy, Social Intelligence DB)](2026-07-25-riley-brown-os.md) — Farrice blind pass + paste Typefully/Cal.com keys + IG live-test
 - **2026-07-25** [bc-arsenal-install/ready] [Briar Cochran Content Science — Forge Extraction + LinkedIn Arsenal Install (week-1 slate)](2026-07-25-bc-arsenal-install.md) — Farrice blind-pass a fresh /bc-win-audit output (A-tier gate), then draft the Monday 'I stopped saying personal brand' post from the week-1 slate
 - **2026-07-25** [jen-listings/ready] [Jen Listings — 1654 Moonseed Shoot Sheet + Voice Lock (@_jiing)](2026-07-25-jen-listings.md) — Film/post the Moonseed reels; then update SKILL.md + genius.md to @_jiing + jen-real-voice-profile.md
 - **2026-07-25** [listing-hook-set-v2/active] [Jen voice-lock pass: 3 reels watched frame-by-frame via Playwright canvas capture (spoken=caption confirmed, on-camera delivery documented), voice profile upgraded, lead IG caption written, hook set packaged for text delivery](2026-07-25-listing-hook-set-v2.md) — Jen voice-lock pass: 3 reels watched frame-by-frame via Playwright canvas capture (spoken=caption confirmed, on-camera delivery documented), voice profile upgraded, lead IG caption written, hook set packaged for text delivery
-- **2026-07-25** [solutions/active] [Solutions — Social Intel Date Normalization And Watch Url Parse](2026-07-25-solutions.md) — Solutions — Social Intel Date Normalization And Watch Url Parse
-- **2026-07-25** [riley-brown-os/ready] [Riley Brown OS — Watch + Forge + $0 Capability Layer (scrape-creator, ad-spy, Social Intelligence DB)](2026-07-25-riley-brown-os.md) — Farrice blind pass + paste Typefully/Cal.com keys + IG live-test
 - **2026-07-24** [loop-engineering-integration/done] [Loop Engineering Integration — Full Ship (12 Candidates + Act-Then-Veto Memory Lane)](2026-07-24-loop-engineering-integration.md) — Steady-state: morning /cos read; 2026-08-24 re-run the 12-loop audit vs compounding metric
 - **2026-07-24** [workflows/active] [Workflows — 3 Stacking Farrice Parallax Pipeline](2026-07-24-workflows.md) — Workflows — 3 Stacking Farrice Parallax Pipeline
 - **2026-07-23** [fladlien-build/ready] [Jason Fladlien OS — Watched-Source Expansion + Full 56-Pattern Library (Tier 8, pattern-bank, Notion deploy)](2026-07-23-fladlien-build.md) — Farrice blind-pass verdict on jason-fladlien-marketing, then /fladlien-best-90 on Proof-to-Market
