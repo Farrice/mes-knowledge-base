@@ -1,58 +1,115 @@
 # Latest Handoff
 
-**Thread:** jen-listings  
-**Full path:** .agent/handoffs/2026-07-25-jen-listings.md  
+**Thread:** bc-arsenal-install  
+**Full path:** .agent/handoffs/2026-07-25-bc-arsenal-install.md  
 **Date:** 2026-07-25 (today)  
 **Status:** ready  
-**Title:** Jen Listings — 1654 Moonseed Shoot Sheet + Voice Lock (@_jiing)
+**Title:** Briar Cochran Content Science — Forge Extraction + LinkedIn Arsenal Install (week-1 slate)
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume jen-listings` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume bc-arsenal-install` for this one.
 
 ---
-thread: jen-listings
+
+---
+thread: bc-arsenal-install
 status: ready
-resume_hint: Film/post the Moonseed reels; then update SKILL.md + genius.md to @_jiing + jen-real-voice-profile.md
-unfinished: Skill entry points still say @realestatewithjing and encode the retired hype register; 3 MLS facts need eyes-on confirm before filming
+resume_hint: Farrice blind-pass a fresh /bc-win-audit output (A-tier gate), then draft the Monday 'I stopped saying personal brand' post from the week-1 slate
+unfinished: A-tier blind pass pending Farrice's verdict; LinkedIn baseline dashboard unfilled; 2 mis-scrape Notion pages need deleting
 branch: main
 pin: true
 ---
 
-# Jen Listings — 1654 Moonseed Shoot Sheet + Voice Lock (@_jiing)
+# Briar Cochran Content Science — Forge Extraction + LinkedIn Arsenal Install (week-1 slate)
 
 ## Purpose
-- **Next session should do:** get the Moonseed reels filmed/posted, and propagate the corrected voice reference into the skill's own entry points (SKILL.md + genius.md still say @realestatewithjing and encode the retired hype register).
-- **Not in scope:** rewriting the hook set (Farrice-calibrated, delivered), re-scraping her IG (profile is current as of 2026-07-25), building a scraper tool (flagged on Forge Radar, not approved).
+
+- **Next session should do:** (1) Farrice-judged A-tier blind pass on a `/bc-*` output vs Briar's
+  real transcripts, (2) draft the Monday LinkedIn post from the week-1 arsenal slate, (3) delete
+  the 2 mis-scrape pages sitting in the Social Intelligence Notion DB.
+- **Not in scope:** rebuilding any part of the skill (extend only), re-scraping Briar (corpus is
+  banked), re-solving the `/scrape-creator` bugs (both fixed and carded).
 
 ## Load First
-- `_active/jen-listings/1654-moonseed-simi-valley/1654-moonseed-SHOOT-SHEET.md` — the deliverable: 6 hooks (hook separated from body script), IG caption, 3 team variations, pre-filming verify footer.
-- `skills/jen-santulan-listing-content/references/jen-real-voice-profile.md` — NEW canonical voice source, built from her actual IG (bio + 20 posts/reels + 3 reels watched frame-by-frame). Wins over genius.md on any energy/register conflict.
-- `~/.claude/projects/-Users-farricecain-Google-Antigravity/memory/feedback-jen-reel-hook-style.md` — updated format contract (hook-separated structure + calm-warm register).
+
+- `skills/briar-cochran-content-science/SKILL.md` + `genius.md` — the 12-workflow OS; genius.md is
+  the decision framework every `/bc-*` run loads.
+- `_active/linkedin-launch/04-content-os/BC-ARSENAL-INSTALL-2026-07-25.md` — the install pack:
+  through-line, 14-entry keyword ledger, five-input source map, cold-start arsenal ledger,
+  week-1 slate, baseline capture dashboard, anti-pattern contract.
+- `extractions/briar-cochran-content-science/reference-corpus/` (2 transcripts) +
+  `blind-pass-sample-win-audit.md` — the side-by-side pair for the A-tier judgment.
+- `_active/farrice-brand/voice/VOICE-CARD.md` §4 (LinkedIn register) + `PLATFORM-NARRATIVE-CARD.md`
+  §2 (LinkedIn = I-story arc, FULL, polished, HOT) — both required before drafting any post.
+- `docs/solutions/2026-07-25-social-intel-date-normalization-and-watch-url-parse.md` — what broke
+  and why it can't recur.
 
 ## Current State
-- **Objective:** listing-Reel hooks for 1654 Moonseed Ln, Simi Valley (Jen's own co-listing, MLS SR26157642, $700K, open house Sat/Sun 1-4).
-- **What is already done:** v1 shoot sheet (finalized 8.3) → Farrice flagged the register as too hype → scraped @_jiing → wrote voice profile → v2 rewrite in her real voice with hooks separated → watched 3 reels frame-by-frame (spoken == caption confirmed, on-camera formula documented) → lead IG caption written → text-message-format package delivered in chat.
-- **What is uncertain or stale:** Zillow engagement stats (3 days/807 views/33 saves) drift daily — re-pull morning of shoot. Two MLS contradictions unresolved: indoor laundry (description says yes, facts field says none) and whether HOA truly covers sewer (call Parklane 818-707-0200). "Zero shared walls" needs an eyes-on confirm before the wall-tap films.
-- **Latest proof/receipt:** 3 chain finalizes on thread `listing-hook-set-v2` (composites 8.3, 8.7, 8.7); prose gate run 3x with golden-ref comparison documented.
+
+- **Objective:** ship Briar Cochran's data-backed ideation + testing-arsenal system as a callable
+  OS, then run it once against Farrice's real LinkedIn launch.
+- **What is already done:**
+  - `/watch` on both source videos (frames + transcripts, whiteboard frameworks captured in
+    `extractions/briar-cochran/visual-context.md`).
+  - `/scrape-creator` → Social Intelligence DB batch `briar-2026-07-25`: 4 Briar pages with
+    metrics + transcripts + grounded per-post analyses; 2 source videos flagged Extract Candidate.
+  - Full `/extract-forge`: vision, MES 3.0 Deep report (13 genius patterns, 3 exemplars +
+    anti-exemplar, 6 signature moves, 8-criterion rubric), genius.md, 12 workflows in 3 tiers
+    (`/bc-*`), 8 born-v2 prompts (renaissance audit 3715 pass / 0 fail), AGENT.md, front door
+    `/briar-cochran`, registries synced. Heartbeat gate 6/6. Blind pass EVAL-056 model-judged PASS.
+  - Two `execution/social_intel.py` fixes, both tested: `_to_date()` normalizes human/epoch/
+    YYYYMMDD dates instead of truncating (was causing Notion to reject whole pages); `clean_handle()`
+    now resolves single-video URLs to the uploader handle via yt-dlp or exits loudly.
+  - `/bc-arsenal-install` run for Farrice's LinkedIn (install pack above).
+  - Commits `b81935566` + follow-up on `main`, pushed; session lock released.
+- **What is uncertain or stale:**
+  - **Tier is B, not A.** Model-judged PASS only — A-tier promotion requires Farrice's own blind
+    pass (`execution/blind_pass.py record` again with his verdict).
+  - **No LinkedIn baseline exists.** Nobody in the system can read Farrice's analytics; the
+    dashboard in the install pack is an unfilled 5-minute capture protocol. Week 1 is all-test
+    so the slate does not depend on it, but outlier thresholds stay uncomputable until he fills it.
+  - **Briar's self-reported stats are UNCONFIRMED and internally inconsistent** (250M views/mo in
+    one video vs ~1B/yr in another). Claim-hygiene note lives in `references/source-quotes.md` —
+    never cite his numbers as fact.
+  - 2 junk Notion pages renamed `🗑️ [MIS-SCRAPE — SAFE TO DELETE]` — deletion needs Farrice
+    (archive call was permission-blocked; Notion MCP cannot trash).
+  - Subreddit member counts in the five-input map are candidates, flagged verify-first.
+- **Latest proof/receipt:** `python3 execution/skill_auditor.py check --skill
+  briar-cochran-content-science` → 0/6 failing, GATE clear · `renaissance_audit.py` → 0 fail ·
+  blind-pass ledger `extractions/briar-cochran-content-science/blind-pass-log.md` (EVAL-056).
 
 ## Suggested Skills / Workflows
-- `/listing-content` — if another SFV/Ventura listing needs the same treatment (load the voice profile FIRST).
-- `/voice-calibrate` — to run any non-Jen-authored copy through her register.
-- `/watch` — needs a Groq key in `~/.config/watch/.env` to transcribe audio; IG blocks yt-dlp anonymously, so the working method is Playwright canvas seek-capture + reading burned-in captions.
+
+- `/bc-win-audit` or `/bc-idea-gate` — generate the fresh output for Farrice's blind pass (Tier-1
+  workflows are the fair test).
+- `/ghostwrite` + `/writers-room` — Monday post production; writers-room is the DEFAULT for
+  content ≥500 chars per the farrice-brand override list.
+- `/voice-ratchet` — bank Farrice's felt verdicts on the slate posts as they land.
+- `/bc-ideation-hour` → `/bc-arsenal-week` — the Sunday sacred hour that produces week 2.
+- `/riley-lara-amplifier` — bank a non-sponsored LinkedIn exemplar corpus before the ideation hour.
 
 ## Exact Next Prompt
+
 ```text
-Update skills/jen-santulan-listing-content/SKILL.md and genius.md to make jen-real-voice-profile.md the canonical voice source: fix the handle to @_jiing throughout, retire #realestatewithjing from the hashtag guidance, replace the high-energy register examples with her actual calm-warm exemplars, and add the hook-separated output shape (HOOK / Visual / Rest of script) to the workflow contract.
+Two things. First, generate a fresh /bc-win-audit output so I can blind-pass it against Briar's
+real transcripts — show me the generated piece and the reference side by side, then record my
+verdict. Second, draft the Monday post from the week-1 slate ("I stopped saying personal brand")
+— full BLEND voice, writers-room diagnosis-first, reader-contract check before you hand it over.
 ```
 
 ## Acceptance Criteria
-- SKILL.md + genius.md reference @_jiing and jen-real-voice-profile.md; no surviving instruction to append #realestatewithjing.
-- prompts-v2/listing-hook-set.md Output Skeleton carries the separated-hook shape.
-- A fresh session loading only the skill produces calm-warm hooks without needing the correction re-explained.
+
+- Farrice's own PASS/FAIL recorded via `blind_pass.py record` (A-tier promotion or a named gap).
+- Monday post drafted at production grade: statement hook, front-loaded concrete detail, no
+  banned moves, CTA in first comment only, reader-contract trio passed.
+- The 2 mis-scrape pages gone from the Social Intelligence DB.
 
 ## Risk Notes
-- Voice regression: genius.md's §4 signature patterns still read hype-adjacent ("This shouldn't exist at $799K"); a future session loading Tier 2 without the profile could revert.
-- Client-facing: anything Jen posts carries her license; keep the verify footer attached to every shoot sheet.
-- Stats staleness: never let a spoken number ship without a same-day re-pull.
+
+- **Voice risk:** the Monday post subverts a BURNED keyword ("personal brand"). It must read as
+  Farrice's reframe, never as him adopting the term — wince test applies.
+- **Privacy law:** the $14K niche-down scene is cleared corpus; family specifics (father, mother,
+  brother) are not. Dramatize the pattern, never the family autobiography.
+- **Grade-inflation risk:** the skill is B-tier. Do not describe it as A-tier anywhere until
+  Farrice's blind pass lands.
+- **Claim risk:** any client-facing use of Briar's methodology must not carry his view numbers.
 

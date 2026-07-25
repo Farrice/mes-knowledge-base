@@ -61,7 +61,7 @@
                 "nicolas-cole-digital-products": 3,
                 "ai-chris-lee-zero-testimonial-sales": 1,
                 "story-bible-builder": 1,
-                "jason-fladlien-marketing": 11,
+                "jason-fladlien-marketing": 12,
                 "how-i-write-os": 12,
                 "supercomputer": 34,
                 "design-md": 13,
@@ -102,9 +102,9 @@
                 "briar-cochran-content-science": 1,
                 "kallaway-illusion-of-novelty": 1
             },
-            "total_routings": 626,
+            "total_routings": 627,
             "tier_counts": {
-                "0": 626,
+                "0": 627,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -114,7 +114,7 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 362,
+                "hybrid": 363,
                 "finalize-auto": 264
             },
             "expert_counts": {
@@ -192,12 +192,12 @@
                 "dan-wang-literary-analysis": 2,
                 "webapp-testing": 3,
                 "brand-operating-system": 24,
-                "chase-hughes-conversational-influence": 11,
+                "chase-hughes-conversational-influence": 12,
                 "daniel-priestley": 1,
                 "jason-fladlien": 5,
                 "swarm-commander": 3,
                 "donald-miller-cognitive-load": 5,
-                "kallaway-illusion-of-novelty": 9,
+                "kallaway-illusion-of-novelty": 10,
                 "oren-one-person-ai-marketer": 2,
                 "luke-iha-proof-ladder": 2,
                 "alex-suzuki": 2,
@@ -253,7 +253,7 @@
                 "seth-godin": 3,
                 "farrice-master-context-synthesis": 1,
                 "story-bible-builder": 2,
-                "jason-fladlien-marketing": 14,
+                "jason-fladlien-marketing": 15,
                 "luisa-zhou-coaching": 2,
                 "supercomputer": 47,
                 "design-md": 23,
@@ -387,7 +387,7 @@
             },
             "total_feedback": 87,
             "negative_count": 0,
-            "ensemble_count": 461,
+            "ensemble_count": 462,
             "auto_miss_count": 68,
             "positive_count": 0
         }
@@ -12523,6 +12523,25 @@
             "workflow_used": "listing-hook-set-v2",
             "ensemble": false,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_174907_3515",
+            "timestamp": "2026-07-25T17:49:07.204921+00:00",
+            "session_id": "11ee68d5-e4f3-4501-b8ed-2b477b36f39e",
+            "request_summary": "can you also ensure that all of our recent sessions that we had, all the slash commands are within the menu for me to deploy when I need them? And then run the end session command to close this sessio",
+            "intent_score": 0,
+            "domain_detected": "jason-fladlien-marketing",
+            "experts_deployed": [
+                "jason-fladlien-marketing",
+                "kallaway-illusion-of-novelty",
+                "chase-hughes-conversational-influence"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jason-fladlien-marketing",
+            "ensemble": true,
+            "compound_pairing": "jason-fladlien-marketing + kallaway-illusion-of-novelty + chase-hughes-conversational-influence",
             "feedback": null
         }
     ]
