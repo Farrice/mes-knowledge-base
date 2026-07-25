@@ -74,6 +74,7 @@ A skill that ships once and is never checked again decays invisibly. Every new s
 - [ ] Frontmatter registered via `sync_registries.py` if touched — confirm `SKILL_INDEX.md` reflects the new skill accurately
 - [ ] If this extends an existing persona/skill, confirm it does NOT get wired into another author's body copy (voice-stacking check, Anti-Pattern 7)
 - [ ] A-tier claimed only with a Farrice-judged pass named explicitly in the finalize notes — otherwise ship B-tier with the gap stated
+- [ ] **Menu parity (heartbeat check 7, physical since 2026-07-25)**: every `workflows/*.md` is fireable from the slash menu — a same-stem `.claude/commands/` shim OR an `.agent/workflows/` wrapper referencing `skills/<skill>/workflows/<file>` — or carries a NAMED exemption in its frontmatter (`menu_exempt: <reason>`, `status: superseded`, or `superseded_by: <file>`). Variant/backup artifacts (`.variant.`, `.pre-evolution.`, `backup`) are auto-excluded. Enforced by `skill_auditor.py check` (tier-affecting; root cause: 2026-07-25 riley-brown forge shipped 12 fireable-but-not-in-menu workflows because wrapper minting was a manual step)
 
 ## Usage Tracking
 

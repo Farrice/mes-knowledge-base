@@ -52,7 +52,7 @@
                 "dara-denney-meta-ads": 5,
                 "internal-comms": 1,
                 "dr-kriukow-humanization": 1,
-                "forge-os": 2,
+                "forge-os": 3,
                 "wright-thompson-mastery": 2,
                 "andrew-stanton-audience-engineering": 1,
                 "paul-harding-lyric-prose": 11,
@@ -102,9 +102,9 @@
                 "briar-cochran-content-science": 1,
                 "kallaway-illusion-of-novelty": 1
             },
-            "total_routings": 628,
+            "total_routings": 629,
             "tier_counts": {
-                "0": 628,
+                "0": 629,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -114,7 +114,7 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 363,
+                "hybrid": 364,
                 "finalize-auto": 265
             },
             "expert_counts": {
@@ -149,7 +149,7 @@
                 "joanna-wiebe-persuasion-mastery": 1,
                 "andrew-stanton": 1,
                 "internal-comms": 7,
-                "forge-os": 10,
+                "forge-os": 11,
                 "kallaway-word-mastery": 4,
                 "andrew-stanton-audience-engineering": 3,
                 "claim-safe-health-marketing": 7,
@@ -292,7 +292,7 @@
                 "tobias-allen": 1,
                 "knowledge-architecture-studio": 2,
                 "mark-kashef": 1,
-                "chief-of-staff-os": 16,
+                "chief-of-staff-os": 17,
                 "oren-brand-archetypes": 3,
                 "master-copywriter": 3,
                 "henry-shukman-contemplative-writing": 4,
@@ -383,11 +383,12 @@
                 "brandon-jacoby-taste-mastery": 1,
                 "briar-cochran": 2,
                 "briar-cochran-content-science": 1,
-                "joshua-smith-real-estate": 1
+                "joshua-smith-real-estate": 1,
+                "re-compliance-pack": 1
             },
             "total_feedback": 87,
             "negative_count": 0,
-            "ensemble_count": 462,
+            "ensemble_count": 463,
             "auto_miss_count": 68,
             "positive_count": 0
         }
@@ -12559,6 +12560,25 @@
             "workflow_used": "scrape-creator",
             "ensemble": false,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_180323_0b82",
+            "timestamp": "2026-07-25T18:03:23.289997+00:00",
+            "session_id": "11ee68d5-e4f3-4501-b8ed-2b477b36f39e",
+            "request_summary": "Add a menu-parity check to skill_auditor.py heartbeat — every skill workflow needs a wrapper+shim or a named exemption (turns today's manual sweep into a physical gate that can never regress)",
+            "intent_score": 0,
+            "domain_detected": "forge-os",
+            "experts_deployed": [
+                "forge-os",
+                "chief-of-staff-os",
+                "re-compliance-pack"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "forge-os",
+            "ensemble": true,
+            "compound_pairing": "forge-os + chief-of-staff-os + re-compliance-pack",
             "feedback": null
         }
     ]

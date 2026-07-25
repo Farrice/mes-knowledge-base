@@ -119,7 +119,7 @@ def fingerprint_skill(skill_dir: Path) -> Dict[str, Any]:
 # ─────────────────────────────────────────────────────────
 # Craft standard checks (directives/skill-craft-standard.md)
 # Cheap, deterministic, advisory only — never affects tier classification.
-# (The SIX heartbeat checks below, promoted 2026-07-09, DO affect tier.)
+# (The SEVEN heartbeat checks below — six promoted 2026-07-09, menu_parity added 2026-07-25 — DO affect tier.)
 # ─────────────────────────────────────────────────────────
 
 HARDCODED_SCORE_RE = re.compile(r"--intent\s+[89]\b|expert-score\s+[89]\b|score.*[89]/10", re.IGNORECASE)
@@ -156,7 +156,7 @@ def craft_standard_flags(skill_dir: Path, fp: Dict[str, Any]) -> List[str]:
 # ─────────────────────────────────────────────────────────
 # Heartbeat checks — tier-affecting (Harness Apex Wave 2, 2026-07-09)
 #
-# Six checks from directives/skill-craft-standard.md §8 / embodiment-
+# Seven checks: six from directives/skill-craft-standard.md §8 / embodiment-
 # standard.md build checklist, promoted from advisory prose to real
 # content checks (regex/structure, not vibes). Failing ≥2 caps the tier
 # at B (A demotes to B; lower tiers unchanged). --advisory restores the
@@ -231,6 +231,29 @@ _HB_LABEL_RE = re.compile(r"\bVERIFIED\b|\bLIKELY\b|\bUNCONFIRMED\b")
 # 2026-07-17-repair-fleet-poc-three-failure-shapes.md).
 _HB_OUTPUT_SCHEMA_RE = re.compile(r"output\s+(schema|format|requirements?|contract)", re.I)
 _HB_QUALITY_GATE_RE = re.compile(r"quality\s+gate", re.I)
+# Menu-parity (check 7, 2026-07-25): named exemptions + build-artifact filenames.
+_MENU_EXEMPT_RE = re.compile(r"^\s*(?:menu_exempt\s*:|status\s*:\s*superseded\b|superseded_by\s*:)",
+                             re.I | re.M)
+_MENU_VARIANT_RE = re.compile(r"\.variant\.|\.pre-evolution\.|backup", re.I)
+_MENU_SURFACES_CACHE: "tuple | None" = None
+
+
+def _menu_surfaces():
+    """(command_stems, wrapper_blob) across .claude/commands + .agent/workflows.
+    Cached per process — the check runs per skill but the surfaces are global."""
+    global _MENU_SURFACES_CACHE
+    if _MENU_SURFACES_CACHE is not None:
+        return _MENU_SURFACES_CACHE
+    cmd_dir = ROOT / ".claude" / "commands"
+    wf_dir = ROOT / ".agent" / "workflows"
+    stems = {p.stem for p in cmd_dir.glob("*.md")} if cmd_dir.is_dir() else set()
+    parts = []
+    for d in (wf_dir, cmd_dir):
+        if d.is_dir():
+            for p in d.glob("*.md"):
+                parts.append(_read_text(p))
+    _MENU_SURFACES_CACHE = (stems, "\n".join(parts))
+    return _MENU_SURFACES_CACHE
 
 
 def _read_text(path: Path) -> str:
@@ -263,7 +286,7 @@ def _anti_pattern_items(genius: str) -> List[str]:
 
 
 def heartbeat_checks(skill_dir: Path, fp: Dict[str, Any]) -> List[Dict[str, Any]]:
-    """The six tier-affecting heartbeat checks. Each individually reportable:
+    """The seven tier-affecting heartbeat checks (6 craft + menu_parity). Each individually reportable:
     [{"check", "passed", "detail"}, ...]."""
     genius = _read_text(skill_dir / "genius.md")
     skill_md = _read_text(skill_dir / "SKILL.md")
@@ -353,6 +376,39 @@ def heartbeat_checks(skill_dir: Path, fp: Dict[str, Any]) -> List[Dict[str, Any]
                    else (f"{len(missing_contract)}/{len(wf_files)} workflow file(s) missing contracts: "
                          + "; ".join(missing_contract[:5]) if wf_files
                          else "zero workflow files")),
+    })
+
+    # 7. Menu parity — every workflow reachable from the slash menu, or carries
+    #    a NAMED exemption. Root-caused 2026-07-25 (riley-brown forge): 12 built
+    #    workflows were fireable-but-not-in-menu because wrapper minting was a
+    #    manual step. "Reachable" = same-stem command exists in .claude/commands/
+    #    OR some wrapper/shim references skills/<skill>/workflows/<file>.
+    #    Exempt = frontmatter carries `menu_exempt:` / `status: superseded` /
+    #    `superseded_by:`, or the filename marks a variant/backup artifact.
+    live_wfs = [w for w in wf_files
+                if not _MENU_VARIANT_RE.search(w.name)]
+    unreachable, exempt_count = [], 0
+    if live_wfs:
+        cmd_stems, wrapper_blob = _menu_surfaces()
+        for wf in live_wfs:
+            head = _read_text(wf)[:600]
+            if _MENU_EXEMPT_RE.search(head):
+                exempt_count += 1
+                continue
+            ref = f"skills/{skill_dir.name}/workflows/{wf.name}"
+            if wf.stem in cmd_stems or ref in wrapper_blob:
+                continue
+            unreachable.append(wf.name)
+    checks.append({
+        "check": "menu_parity",
+        "passed": bool(live_wfs) and not unreachable,
+        "detail": (f"all {len(live_wfs)} live workflow(s) menu-reachable"
+                   + (f" ({exempt_count} named-exempt)" if exempt_count else "")
+                   if live_wfs and not unreachable
+                   else (f"{len(unreachable)}/{len(live_wfs)} workflow(s) built but NOT fireable "
+                         f"from the menu (no .agent/workflows wrapper, no .claude/commands shim, "
+                         f"no `menu_exempt:` frontmatter): " + "; ".join(unreachable[:6])
+                         if live_wfs else "zero workflow files")),
     })
 
     return checks
@@ -597,7 +653,7 @@ def run_audit(advisory: bool = False) -> Dict[str, Any]:
                 rec["tier"] = HEARTBEAT_CAP_TIER
                 rec["heartbeat_capped"] = True
                 rec["reasoning"].append(
-                    f"HEARTBEAT CAP: failed {len(failures)}/6 tier-affecting checks "
+                    f"HEARTBEAT CAP: failed {len(failures)}/7 tier-affecting checks "
                     f"({', '.join(failures)}) — capped at {HEARTBEAT_CAP_TIER} per "
                     "directives/skill-craft-standard.md")
         records.append(rec)
@@ -941,7 +997,7 @@ def main():
                      help="Heartbeat checks report but do NOT cap tiers (old behavior; logged)")
     sub.add_parser("duplication", help="Cross-reference skills × agents")
 
-    chk = sub.add_parser("check", help="Run the 6 tier-affecting heartbeat checks on ONE skill "
+    chk = sub.add_parser("check", help="Run the 7 tier-affecting heartbeat checks on ONE skill "
                                        "(gate mode for extract/extract-forge QC; exit 1 on ≥2 failures)")
     chk.add_argument("--skill", required=True, help="Skill directory name under skills/")
     chk.add_argument("--advisory", action="store_true",
@@ -986,7 +1042,7 @@ def main():
               f"(directives/skill-craft-standard.md, tier-affecting)")
         for c in checks:
             print(f"  [{'PASS' if c['passed'] else 'FAIL'}] {c['check']}: {c['detail']}")
-        print(f"  → {len(failures)}/6 failing"
+        print(f"  → {len(failures)}/7 failing"
               + (f" ({', '.join(failures)})" if failures else ""))
         if len(failures) >= HEARTBEAT_FAIL_CAP_THRESHOLD:
             if args.advisory:

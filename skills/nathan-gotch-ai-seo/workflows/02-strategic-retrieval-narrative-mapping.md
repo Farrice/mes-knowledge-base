@@ -1,4 +1,5 @@
 ---
+superseded_by: 02-strategic-retrieval-narrative-mapping-v2-intent-architecture.md (menu command /gotch-intent-architecture)
 name: "Strategic Retrieval & Narrative Mapping"
 produces: "Retrieval-Layer Strategic Narrative Map"
 expert: "Nathan Gotch AI SEO"
