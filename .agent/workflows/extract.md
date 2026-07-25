@@ -79,11 +79,13 @@ python3 execution/wire_prompt_pointers.py --write
 
 ### P6 — Agent + Registration
 - `agents/<expert>/AGENT.md` + `memory/context.md` (extension: append pins, don't recreate).
-- Mint BOTH wrapper layers per workflow: `.agent/workflows/<prefix>-<name>.md` (loads genius.md + executes the skill workflow + quality gate) AND `.claude/commands/<prefix>-<name>.md` shim pointing at it — the generators do not mint per-workflow shims (2026-07-21 gap).
-- Run both generators; verify:
+- **Per-workflow wrappers + shims are minted for you** — the Arsenal Loop owns this now
+  (`directives/arsenal-loop.md`, 2026-07-25). The end-session spine mints at close and the 06:40
+  sweep catches the rest; the PostToolUse hook flags it at write time. Do NOT hand-write wrappers.
+- Want them fireable before you finish the session? One command:
 ```bash
-python3 execution/sync_registries.py && python3 execution/generate_slash_commands.py
-grep "<prefix>-" SLASH_COMMANDS.md   # every new command present, or registration failed
+python3 execution/mint_menu_wrappers.py --scope skill <skill-name> --apply
+python3 execution/skill_auditor.py check --skill <skill-name>   # check 7 = menu_parity; must PASS
 ```
 
 ### P7 — Amplify Scan

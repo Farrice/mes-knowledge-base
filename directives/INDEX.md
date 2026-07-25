@@ -46,6 +46,7 @@ These directives fire conditionally during execution. They do not govern The Cha
 | [ai-slop-detector.md](ai-slop-detector.md) | Chain Step 5.5 — prose pattern detection |
 | [quality_assurance.md](quality_assurance.md) | Chain Step 5 — anti-pattern enforcement |
 | [expertise-gap-protocol.md](expertise-gap-protocol.md) | When the routed expert lacks coverage of the request |
+| [arsenal-loop.md](arsenal-loop.md) | Any time an asset is built (auto-mints wrappers/shims — never hand-write them) OR before building anything (`/arsenal` = "what do I already have?") |
 | [hybrid-knowledge-retrieval.md](hybrid-knowledge-retrieval.md) | Combining Recall + NotebookLM + knowledge wiki |
 | [parallel_thought.md](parallel_thought.md) | When breadth-first parallel exploration is warranted |
 | [parallelism-cheat-sheet.md](parallelism-cheat-sheet.md) | Reference card for sub-agent parallelization |

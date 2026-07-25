@@ -38,6 +38,7 @@ Wired in `.claude/settings.json` → `execution/hooks/`. When a gate fires, work
 | **Finalize debt** | Stop → `session_ledger_hook.py` | **OBSERVE MODE** (Farrice 2026-07-02): logs would-block to `.agent/sessions/observe-log.jsonl` + warns with prefilled command — does NOT block. Treat the warning as binding and run the finalize honestly. Flip: `LEDGER_ENFORCE=1` |
 | **Routing bindings** | UserPromptSubmit → `session_ledger_hook.py` | Violations injected as ROUTING WARNING with the binding reason — pivot or use the documented override flag |
 | **Sub-agent truth** | PostToolUse counts real Task/Agent spawns | Use the measured count in `--sub-agents`; zero spawns on a qualifying workflow logs a miss |
+| **Menu parity** (built ≠ fireable) | PostToolUse(Write\|Edit) → `menu_parity_hook.py` · end-session spine `menu-parity` step · launchd 06:40 · SessionStart | **AUTO-FIXES, never blocks.** Wrappers + shims are MINTED for you — never hand-write them, never re-add a manual registration step. `directives/arsenal-loop.md` |
 
 Extractions (`/extract`, `/extract-forge`) are **never gated** — Farrice's standing decision 2026-06-09. `forge_gate.py status/record` is usage telemetry only.
 
@@ -101,6 +102,7 @@ python3 execution/chain_runner.py finalize "[what you produced]" \
 - Cold-start converting copy -> `/copy-engine` (Ground Once, Refine Free) · avatar/ICP cold-start -> `/avatar-machine` (Phase 0 GROUND non-optional)
 - Brand OS -> `/build-bos` · multi-deliverable mission -> `/supercomputer` · "no gates" -> `/autopilot` · context engineering -> `/ce-design`
 - Multi-expert/council -> `/convene` · generic research -> `execution/research.py` (Receipt-carrying; never answer research from training memory)
+- **"What do I already have for this?" / before building anything -> `/arsenal`** (workflow-granularity recall across ~5,600 assets; `--unused` = built-and-forgotten, `--family` = one expert in full). `/recommend` advises a path, `/find-skill` names a skill, **`/arsenal` names the exact command**. Spec: `directives/arsenal-loop.md`
 - DESIGN.md work -> `/design-md-*` · UI from DESIGN.md -> `/product-build` · posters/video -> `skills/fantastic-posters/` (cost-gated)
 - New extraction -> `/extract` (adaptive forge-grade: derived manifest via `extraction_manifest.py`, auto-enriches thin sources, forge-scales extensions) or `/extract-forge` (explicit full-ceremony 3-checkpoint session), ungated (forge_gate.py is telemetry only; genius.md enrichment of A-tier skills remains available as an option, never a requirement)
 - JS-rendered/login-gated web -> Playwright (`directives/browser-automation-safety.md`), never WebFetch · video sources -> `fetch-video-context.py`
