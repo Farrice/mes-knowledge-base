@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** riley-brown-os  
-**Full path:** .agent/handoffs/2026-07-25-riley-brown-os.md  
-**Date:** 2026-07-25 (today)  
-**Status:** ready  
-**Title:** Riley Brown OS — Watch + Forge + $0 Capability Layer (scrape-creator, ad-spy, Social Intelligence DB)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume riley-brown-os` for this one.
-
----
-
 ---
 thread: riley-brown-os
 status: ready
@@ -59,4 +47,3 @@ Resume riley-brown-os. Three tasks: (1) show me the blind-pass pieces side by si
 - Apify spend on IG/TikTok tests: keep `--limit ≤3`, per-run ceiling $0.25 stands.
 - Meta Ad Library requires real-browser Playwright (raw HTTP 403s) — don't "optimize" to requests.
 - One stale session-lock entry may linger (release was classifier-blocked); it expires via heartbeat TTL — claim fresh, don't fight it.
-
