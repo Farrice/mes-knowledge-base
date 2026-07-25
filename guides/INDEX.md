@@ -15,6 +15,13 @@
 | Pull a brand's winning Meta ads at $0 (longest-running ranking, no Foreplay) | [Riley Brown OS](2026-07-25-riley-brown-os.md) |
 | Turn a winning competitor ad into on-brand variants, or a site into a brand asset sheet | [Riley Brown OS](2026-07-25-riley-brown-os.md) |
 | Batch Gmail reply drafts (zero sends) / stage posts / shaped booking links | [Riley Brown OS](2026-07-25-riley-brown-os.md) |
+| **Data-backed ideation / content testing (Briar Cochran)** | |
+| Decide whether a competitor's "viral" post is real signal (baseline-relative outlier math) | [Briar Cochran Content Science](2026-07-25-bc-arsenal-install.md) |
+| Generate a week of content ideas from data instead of taste (five-input ideation hour) | [Briar Cochran Content Science](2026-07-25-bc-arsenal-install.md) |
+| Plan a weekly slate with winners-to-tests ratios and deliberate winner benching | [Briar Cochran Content Science](2026-07-25-bc-arsenal-install.md) |
+| Postmortem why a post won and bank it (Topic→Format→Hook→Body isolation) | [Briar Cochran Content Science](2026-07-25-bc-arsenal-install.md) |
+| Install a repeatable content OS on an account or client (incl. Farrice's LinkedIn week 1) | [Briar Cochran Content Science](2026-07-25-bc-arsenal-install.md) |
+| Fix `/scrape-creator` failing on a pasted video URL or a non-ISO actor date | [Briar Cochran Content Science](2026-07-25-bc-arsenal-install.md) |
 | **Client voice / real-estate listing content (Jen Santulan)** | |
 | Write listing-Reel hooks in Jen's real voice (calm-warm, @_jiing, hook-separated) | [Jen Listings — Moonseed + Voice Lock](2026-07-25-jen-listings.md) |
 | Source a client's true register from their Instagram when yt-dlp is blocked and no Whisper key exists | [Jen Listings — Moonseed + Voice Lock](2026-07-25-jen-listings.md) |
@@ -122,6 +129,7 @@
 
 *(newest first)*
 
+- 2026-07-25 — [Briar Cochran Content Science](2026-07-25-bc-arsenal-install.md) — /watch'd both source videos + /scrape-creator'd the channel (4 DB pages w/ analyses), then forge-extracted Briar Cochran: 13 patterns, 12 `/bc-*` workflows in 3 tiers, 8 born-v2 prompts (audit 0 fail), heartbeat 6/6, EVAL-056 model-PASS. Ships the *idea supply chain* + *testing economy* upstream of every hook skill (Venn gate, ≥3-5× baseline outlier math, 4-layer transfer filter, Chris Rock arsenal at 4:3 with deliberate benching). Ran `/bc-arsenal-install` on Farrice's LinkedIn (week-1 all-test slate). Hardened `social_intel.py` twice — date normalization + single-video-URL guard — both bugs found by *using* the tool. A-tier awaits Farrice pass; LinkedIn baseline unfilled
 - 2026-07-25 — [Jen Listings — Moonseed + Voice Lock](2026-07-25-jen-listings.md) — shipped the 1654 Moonseed hook set (6 hooks, hook-separated from body per Farrice) and, more durably, replaced Jen's *guessed* voice with a sourced one: scraped @_jiing (bio + 20 captions) and watched 3 reels frame-by-frame after yt-dlp/Whisper both failed; `jen-real-voice-profile.md` now outranks genius.md on register. Correction banked — our own golden reference had calibrated format right and voice wrong. Scrape method filed as a solution card.
 - 2026-07-25 — [Riley Brown OS](2026-07-25-riley-brown-os.md) — watched (100 frames) + forge-extracted Riley Brown (16 patterns, 12 riley-* wf, 9 prompts, EVAL-055 model-PASS, composite 8.33) AND replicated his ~$175-250/mo paid stack at $0: Social Intelligence Notion DB + /scrape-creator ($0.01 PoC) + /ad-spy (5 real AG1 ads, 176-day winners) + creative/brand/inbox/scheduler workflows; corrected the Codex half-source draft (~15 fabrication classes); A-tier + 2 free API keys await Farrice
 - 2026-07-24 — [Loop Engineering Integration](2026-07-24-loop-engineering-integration.md) — wayfinder map → canon research (proven-vs-hype) → 12-loop evidence audit (4 compounding/7 open/1 dead) → all-12 GO shipped + live-fire verified; rubric ARMED (84/85, R2 gate live); act-then-veto memory lane (auto-promote ≥9.0, taste-guarded, /cos veto surface); Phase-2 queue deduped 132→20; Opus 5 Executor Model Registry hard-coded; re-audit due ~08-24
@@ -170,8 +178,6 @@
 ---
 
 ## Pending enrichment
-- [2026-07-25 — Briar Cochran Content Science — Forge Extraction + LinkedIn Arsenal Install (week-1 slate)](2026-07-25-bc-arsenal-install.md) — operator-guide stub, needs enrichment
-- [2026-07-25 — Farrice LinkedIn Arsenal Install (/bc-arsenal-install): through-line + CCN, 14-entry seed keyword ledger from ICP dossier language, five-input source map, cold-start arsenal ledger, all-test week-1 slate (4 posts), baseline capture dashboard, cadence + anti-pattern contracts](2026-07-25-.md) — operator-guide stub, needs enrichment
 (none)
 - [2026-07-22 — Handoff — Harness Ascension + Content Weapons Day (2026-07-21/22)](2026-07-22-.md) — operator-guide stub, needs enrichment
 - [2026-07-21 — Signal Pilot — Offer Lock + Pressure Test v1 (red-teams, profile, prospects)](2026-07-21-signal-pilot-execution.md) — operator-guide stub, needs enrichment
