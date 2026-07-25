@@ -153,6 +153,10 @@
       "skill": "brendan-kane-viral-strategy"
     },
     {
+      "command": "/briar-cochran-content-science",
+      "skill": "briar-cochran-content-science"
+    },
+    {
       "command": "/brock-johnson-shareworthy-content",
       "skill": "brock-johnson-shareworthy-content"
     },
@@ -1623,6 +1627,12 @@
       "command": "/brendan-kane",
       "skills": [
         "brendan-kane-viral-strategy"
+      ]
+    },
+    "briar-cochran": {
+      "command": "/briar-cochran",
+      "skills": [
+        "briar-cochran-content-science"
       ]
     },
     "brock-johnson": {

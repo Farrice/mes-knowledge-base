@@ -45,6 +45,7 @@
 | `brand-operating-system` | **brand-operating-system** | optional auto-upload to drive as native google docs in pageless format, reference implementation shipped 2026-05-04 (resonance for andrea), do not use for single-layer scopes: design | 7 | 0 |
 | `brandon-jacoby-taste-mastery` | **Brandon Jacoby: Taste Mastery and Deployment** | taste as decisive product judgment: knowing when to obey patterns, when to invent, how to push past good enough | 10 | 3 |
 | `brendan-kane-viral-strategy` | **brendan-kane-viral-strategy** | treats virality as a reproducible research discipline, not luck, viral strategy & hook points | 3 | 0 |
+| `briar-cochran-content-science` | **briar-cochran-content-science** | content ideation, content testing, data-backed topics | 12 | 0 |
 | `brock-johnson-shareworthy-content` | **Brock Johnson - Shareworthy Content Mastery** | for tiktok/short-form video patterns use a video-specific skill, shareworthy content mastery | 3 | 6 |
 | `business-intelligence-audit` | **Business Intelligence & Deep Analysis Skill** | mckinsey-level business analysis and deep web extraction for consulting engag... | 3 | 10 |
 | `caleb-ralston-personal-brand` | **Caleb Ralston Personal Brand** | for personal-brand fundamentals via godin use seth-godin-brand | 11 | 19 |

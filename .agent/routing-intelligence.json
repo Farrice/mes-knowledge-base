@@ -74,7 +74,7 @@
                 "nate-b-jones-context-engineering": 30,
                 "nate-b-jones-intent-engineering": 1,
                 "omar-eltakrori": 1,
-                "Extraction": 36,
+                "Extraction": 37,
                 "Strategy": 38,
                 "donald-miller-storybrand": 1,
                 "strength-conditioning-os": 8,
@@ -100,9 +100,9 @@
                 "seth-godin-philosophy": 1,
                 "kallaway-word-mastery": 1
             },
-            "total_routings": 615,
+            "total_routings": 616,
             "tier_counts": {
-                "0": 615,
+                "0": 616,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -113,7 +113,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 356,
-                "finalize-auto": 259
+                "finalize-auto": 260
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -378,7 +378,8 @@
                 "slack-gif-creator": 1,
                 "riley-brown": 1,
                 "jonathan-franzen-storytelling": 1,
-                "brandon-jacoby-taste-mastery": 1
+                "brandon-jacoby-taste-mastery": 1,
+                "briar-cochran": 1
             },
             "total_feedback": 86,
             "negative_count": 0,
@@ -12313,6 +12314,23 @@
             "workflow_used": "chase-hughes-context-engineering",
             "ensemble": true,
             "compound_pairing": "chase-hughes-context-engineering + brandon-jacoby-taste-mastery + chase-hughes-conversational-influence",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_161407_bc8f",
+            "timestamp": "2026-07-25T16:14:07.997541+00:00",
+            "session_id": "",
+            "request_summary": "Briar Cochran — Content Science mastery extraction (forge): 12-workflow skill + 8 born-v2 prompts + agent + full registration, from 2 /watch'd videos + 1 enrichment source",
+            "intent_score": 9,
+            "domain_detected": "Extraction",
+            "experts_deployed": [
+                "briar-cochran"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "extract-forge",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

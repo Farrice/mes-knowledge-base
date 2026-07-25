@@ -1,26 +1,26 @@
 # Knowledge Briefing
-*Generated: 2026-07-24 | 738 sources | 2,888,889 words*
+*Generated: 2026-07-25 | 743 sources | 2,893,102 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 5,002 words — `knowledge/index.md`
-- **log** (general) — 14,608 words — `knowledge/log.md`
+- **index** (content) — 5,003 words — `knowledge/index.md`
+- **log** (general) — 14,635 words — `knowledge/log.md`
+- **extraction-report** (content) — 2,846 words — `extractions/briar-cochran/extraction-report.md`
+- **vision** (content) — 552 words — `extractions/briar-cochran/vision.md`
+- **visual-context** (research) — 300 words — `extractions/briar-cochran/visual-context.md`
+- **blind-pass-log** (content) — 88 words — `extractions/briar-cochran-content-science/blind-pass-log.md`
+- **blind-pass-sample-win-audit** (content) — 399 words — `extractions/briar-cochran-content-science/blind-pass-sample-win-audit.md`
 - **mes-extraction** (systems) — 7,342 words — `extractions/riley-brown/mes-extraction.md`
 - **vision** (systems [nick-saraev]) — 522 words — `extractions/riley-brown/vision.md`
 - **visual-context** (screenwriting) — 17,427 words — `extractions/riley-brown/visual-context.md`
-- **visual-notes** (general) — 3,298 words — `extractions/riley-brown/visual-notes.md`
-- **blind-pass-log** (strategy) — 74 words — `extractions/riley-brown-marketing-automation/blind-pass-log.md`
-- **FETCH-NOTES** (content [jason-fladlien]) — 184 words — `extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/FETCH-NOTES.md`
-- **persuasive-patterns-full** (copywriting [jason-fladlien]) — 41,183 words — `extractions/jason-fladlien/sources/2026-07-23-persuasive-patterns-notion/persuasive-patterns-full.md`
-- **blind-pass-log** (content) — 184 words — `extractions/matthew-lakajev-linkedin/blind-pass-log.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 258 | lara-acosta |
+| content | 262 | lara-acosta |
 | copywriting | 103 | luke-iha |
 | general | 92 | nick-saraev |
 | strategy | 78 | april-dunford |
@@ -28,7 +28,7 @@
 | brand | 50 | oren-john |
 | systems | 43 | nick-saraev |
 | seo | 26 | nathan-gotch |
-| research | 23 | dai-media |
+| research | 24 | dai-media |
 | sales | 11 | dai-media |
 
 ## Deepest Knowledge Sources (by word count)

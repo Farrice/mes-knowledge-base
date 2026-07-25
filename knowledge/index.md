@@ -1,9 +1,9 @@
 # Knowledge Index
-*738 sources | 2,888,889 words | Updated: 2026-07-24*
+*743 sources | 2,893,102 words | Updated: 2026-07-25*
 
 ---
 
-## Content (258 files)
+## Content (262 files)
 
 - [video-context-ledger](../extractions/video-context/3iR3kHxCwfo/video-context-ledger.md) — 75,408 words
 - [Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them](extractions/inbox/Claude-💎💎💎 .8m tiktok dropshipping in 30 days (showing you my actual viral videos and how to create them.md) — 60,850 words (stale)
@@ -24,7 +24,7 @@
 - [companion-brand-archetypes-transcript](../extractions/oren-john-identity-marketing/companion-brand-archetypes-transcript.md) [oren-john] — 5,590 words
 - [2026-04-25-substack-notes-craft-gemini-max](../research_outputs/2026-04-25-substack-notes-craft-gemini-max.md) — 5,421 words
 - [extraction-report](../extractions/seth-godin-marketing-mind/extraction-report.md) — 5,284 words
-- [index](index.md) — 5,002 words
+- [index](index.md) — 5,003 words
 - [extraction-report](../extractions/ocean-vuong/extraction-report.md) — 4,861 words (stale)
 - [the-7-levels-of-brand-building](../extractions/oren-identity-brand-os/reference-corpus/the-7-levels-of-brand-building.md) [oren-john] — 4,671 words
 - [mes-extraction](../extractions/wargame-source/mes-extraction.md) — 4,604 words
@@ -70,6 +70,7 @@
 - [extraction-report](../extractions/ray-amjad/extraction-report.md) [nick-saraev] — 2,895 words
 - [extraction-report](../extractions/ai-social-media-panel/extraction-report.md) [nathan-gotch] — 2,868 words (stale)
 - [DESIGN](design-libraries/brands/resend/DESIGN.md) — 2,859 words
+- [extraction-report](../extractions/briar-cochran/extraction-report.md) — 2,846 words
 - [extraction-report](../extractions/lifestyle-business-experts/extraction-report.md) — 2,832 words (stale)
 - [extraction-report](../extractions/joshua-smith/extraction-report.md) — 2,826 words (stale)
 - [visual-context](../extractions/joey-cinema-v2/visual-context.md) — 2,814 words
@@ -200,6 +201,7 @@
 - [research](../extractions/nick-saraev-cold-outreach/research.md) [nick-saraev] — 577 words (stale)
 - [scriptwriter-reframe-test](../extractions/sam-goddard-media-scaling/prompts-v2/scriptwriter-reframe-test.md) — 561 words
 - [kittl_flows_advanced](../extractions/creative-direction/kittl_flows_advanced.md) — 560 words (stale)
+- [vision](../extractions/briar-cochran/vision.md) — 552 words
 - [sample-004](expert-benchmarks/linkedin/sample-004.md) [nicolas-cole] — 545 words (stale)
 - [sample-005](expert-benchmarks/linkedin/sample-005.md) [nicolas-cole] — 534 words (stale)
 - [source-ledger](../extractions/kobi-brown-educational-virality/source-ledger.md) — 501 words
@@ -209,6 +211,7 @@
 - [evidence-map](../extractions/video-context/ohKt066uFhg/evidence-map.md) — 459 words
 - [critique-loop-optimizer](../extractions/mark-kashef-banana-squad/prompts-v2/critique-loop-optimizer.md) — 414 words
 - [uncertainty-report](../extractions/kobi-brown-educational-virality/uncertainty-report.md) — 409 words
+- [blind-pass-sample-win-audit](../extractions/briar-cochran-content-science/blind-pass-sample-win-audit.md) — 399 words
 - [validation-report](../extractions/mark-kashef-perfect-agentic-os-kit/validation-report.md) [nick-saraev] — 398 words
 - [source-to-skill-brief](../extractions/video-context/Zc4E_K48v48/source-to-skill-brief.md) — 394 words
 - [visual-context](../extractions/daniel-priestley-sll-engine/visual-context.md) — 390 words
@@ -257,6 +260,7 @@
 - [README](../extractions/tess-barclay/README.md) — 133 words
 - [source-notes](../extractions/rafa-conde/source-notes.md) — 121 words
 - [blind-pass-log](../extractions/seth-godin-marketing-mind/blind-pass-log.md) — 90 words
+- [blind-pass-log](../extractions/briar-cochran-content-science/blind-pass-log.md) — 88 words
 - [2023-09-ai-content-ideas-post](../extractions/matthew-lakajev-linkedin/reference-corpus/2023-09-ai-content-ideas-post.md) — 86 words
 - [visual-notes](../extractions/kobi-brown-educational-virality/visual-notes.md) — 84 words
 - [blind-pass-log](../extractions/nathan-gotch-ai-seo/blind-pass-log.md) [nathan-gotch] — 77 words
@@ -387,7 +391,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 14,608 words
+- [log](log.md) — 14,635 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words
@@ -731,7 +735,7 @@
 - [nano_banana_notes](../extractions/creative-direction/nano_banana_notes.md) — 311 words (stale)
 - [sample-001](expert-benchmarks/seo/sample-001.md) [nathan-gotch] — 120 words (stale)
 
-## Research (23 files)
+## Research (24 files)
 
 - [Guide_2_Creative_Directors_Playbook](creative-direction/guides/Guide_2_Creative_Directors_Playbook.md) — 49,000 words (stale)
 - [ai-event-analysis-extraction](../extractions/prediction-market-trading/ai-event-analysis-extraction.md) — 9,247 words (stale)
@@ -755,6 +759,7 @@
 - [gap-sales-psychology-screenwriting-bridge](synthesis/gap-sales-psychology-screenwriting-bridge.md) [dai-media] — 499 words (stale)
 - [extraction-analysis](../extractions/anne-lamott-neal-allen-really-real/extraction-analysis.md) — 370 words
 - [reference-reverse-engineer](../extractions/mark-kashef-banana-squad/prompts/reference-reverse-engineer.md) — 362 words (stale)
+- [visual-context](../extractions/briar-cochran/visual-context.md) — 300 words
 - [output-patterns](../extractions/creative-direction/output-patterns.md) — 251 words (stale)
 
 ## Sales (11 files)

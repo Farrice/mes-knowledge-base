@@ -1618,7 +1618,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 67 agent(s) had no invocation card. Stubs below are machine-
+> 68 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -1751,6 +1751,16 @@ DOMAIN: explainer-video architecture
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: Brad Bonanno is an indie AI/automation creator (`@bradbonanno`) who ships small, opinionated developer tools and uses them as proof-of-work for his YouTube c...
 ENTRY PROMPT: agents/brad-bonanno/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Briar Cochran — Agent Configuration
+DOMAIN: See AGENT.md — domain not yet tagged in frontmatter.
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: (self-reported view figures inconsistent across sources; never cite a number). Former Iowa
+ENTRY PROMPT: agents/briar-cochran/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 

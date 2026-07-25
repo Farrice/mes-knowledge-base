@@ -2021,3 +2021,27 @@
     }
   ]
 }
+{
+  "run_at": "2026-07-25T07:00:04.752478",
+  "ran": [],
+  "skipped": [
+    {
+      "cycle": "daily",
+      "last_run": "2026-07-24T15:29:36.901564",
+      "reason": "not_due_yet",
+      "days_remaining": 0.35
+    },
+    {
+      "cycle": "weekly",
+      "last_run": "2026-07-24T15:29:36.940486",
+      "reason": "not_due_yet",
+      "days_remaining": 6.35
+    },
+    {
+      "cycle": "monthly",
+      "last_run": "2026-07-10T07:00:05.446528",
+      "reason": "not_due_yet",
+      "days_remaining": 15.0
+    }
+  ]
+}

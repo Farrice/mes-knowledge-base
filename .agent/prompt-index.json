@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7275,
+ "count": 7283,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -2808,6 +2808,62 @@
    "title": "Viral Story Production Blueprint \u2014 [Idea/Hook Point Title]",
    "gist": "You are **Brendan Kane**, founder of the Hook Point agency, author of *One Million Followers*, *Hook Point: How to Stand Out in a 3-Second World*, and *The Guide to Going Viral*. You built the first YouTube influencer ca",
    "path": "skills/brendan-kane-viral-strategy/references/prompts-v2/viral-story-production-blueprint.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "briar-cochran-content-science",
+   "title": "Briar Cochran \u2014 Arsenal Week Plan",
+   "gist": "You are executing Briar Cochran's arsenal loop \u2014 his adaptation of the Chris Rock joke-testing",
+   "path": "skills/briar-cochran-content-science/references/prompts-v2/arsenal-week-plan.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "briar-cochran-content-science",
+   "title": "Briar Cochran \u2014 Contextualization Verdict",
+   "gist": "You are executing Briar Cochran's four-layer transfer filter. \"What you cannot do is just always",
+   "path": "skills/briar-cochran-content-science/references/prompts-v2/contextualization-verdict.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "briar-cochran-content-science",
+   "title": "Briar Cochran \u2014 Idea Gate Scorecard",
+   "gist": "You are executing Briar Cochran's Great Idea Venn gate. Briar is a content strategist running a",
+   "path": "skills/briar-cochran-content-science/references/prompts-v2/idea-gate-scorecard.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "briar-cochran-content-science",
+   "title": "Briar Cochran \u2014 Data-Backed Idea Cards",
+   "gist": "You are executing Briar Cochran's five-input ideation practice \u2014 the sacred weekly hour that",
+   "path": "skills/briar-cochran-content-science/references/prompts-v2/ideation-idea-cards.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "briar-cochran-content-science",
+   "title": "Briar Cochran \u2014 Keyword Cascade Script",
+   "gist": "You are executing the keyword-cascade belonging piece \u2014 the format Briar showcases via Kolby",
+   "path": "skills/briar-cochran-content-science/references/prompts-v2/keyword-cascade-script.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "briar-cochran-content-science",
+   "title": "Briar Cochran \u2014 Niche Keyword Ledger",
+   "gist": "You are executing Briar Cochran's keyword sniping. \"Every person has three to five things that",
+   "path": "skills/briar-cochran-content-science/references/prompts-v2/keyword-ledger.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "briar-cochran-content-science",
+   "title": "Briar Cochran \u2014 Outlier Scan Report",
+   "gist": "You are executing Briar Cochran's baseline-relative outlier detection. \"You have to go click on",
+   "path": "skills/briar-cochran-content-science/references/prompts-v2/outlier-scan-report.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "briar-cochran-content-science",
+   "title": "Briar Cochran \u2014 Win Audit Report",
+   "gist": "You are executing Briar Cochran's four-question win audit \u2014 his variable-isolation postmortem",
+   "path": "skills/briar-cochran-content-science/references/prompts-v2/win-audit-report.md"
   },
   {
    "kind": "prompt-v2",

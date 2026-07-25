@@ -99,12 +99,33 @@ def hook_from_text(text: str, max_len: int = 200) -> str:
 
 
 def _to_date(value) -> Optional[str]:
+    """Normalize any actor-supplied date to a valid ISO date, else None.
+
+    Actors return a zoo: ISO timestamps, 'YYYYMMDD', epoch numbers, and
+    human strings like '8 Jul 2026' (yt actor, 2026-07-25). Never emit a
+    non-ISO string — Notion rejects the whole page over it.
+    """
     if not value:
         return None
+    raw = str(value).strip()
+    candidate = raw[:10]
     try:
-        return str(value)[:10]
-    except Exception:
-        return None
+        return datetime.strptime(candidate, "%Y-%m-%d").date().isoformat()
+    except ValueError:
+        pass
+    if raw.isdigit():
+        if len(raw) == 8:  # YYYYMMDD
+            try:
+                return datetime.strptime(raw, "%Y%m%d").date().isoformat()
+            except ValueError:
+                pass
+        return _epoch_to_date(raw)
+    for fmt in ("%d %b %Y", "%b %d, %Y", "%d %B %Y", "%B %d, %Y"):
+        try:
+            return datetime.strptime(raw, fmt).date().isoformat()
+        except ValueError:
+            continue
+    return None
 
 
 def _epoch_to_date(value) -> Optional[str]:
