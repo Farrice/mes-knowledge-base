@@ -206,8 +206,24 @@ def _command_workflow_entries(cmd_stems, fired) -> List[Dict[str, Any]]:
     return out
 
 
+def _skill_front_doors() -> Dict[str, str]:
+    """skill -> the command that loads its SKILL.md.
+
+    An exact name match is NOT the only front door: many skills are fired by a
+    shorter alias (`/ai-carousel` loads `ai-carousel-content-engine`, `/cos` loads
+    `chief-of-staff-os`). Checking names alone reported 74 phantom gaps — and a
+    gauge that cries wolf is a gauge that gets ignored.
+    """
+    out: Dict[str, str] = {}
+    for cmd in list(CMD_DIR.glob("*.md")) + list(WF_DIR.glob("*.md")):
+        for m in re.finditer(r"skills/([^/]+)/SKILL\.md", _read_text(cmd)):
+            out.setdefault(m.group(1), cmd.stem)
+    return out
+
+
 def _skill_entries(cmd_stems, fired) -> List[Dict[str, Any]]:
     out: List[Dict[str, Any]] = []
+    doors = _skill_front_doors()
     for sm in sorted(SKILLS_DIR.glob("*/SKILL.md")):
         skill = sm.parent.name
         head = _read_text(sm)[:600]
@@ -215,14 +231,15 @@ def _skill_entries(cmd_stems, fired) -> List[Dict[str, Any]]:
             continue  # de-indexed per directory conventions
         wfs = [w for w in (sm.parent / "workflows").glob("*.md")
                if not _MENU_VARIANT_RE.search(w.name)]
+        door = skill if skill in cmd_stems else doors.get(skill)
         out.append({
             "id": skill,
             "kind": "skill",
             "skill": skill,
             "path": str(sm.relative_to(ROOT)),
             "description": _describe(sm),
-            "menu_status": REACHABLE if skill in cmd_stems else UNREACHABLE,
-            "front_door": f"/{skill}" if skill in cmd_stems else None,
+            "menu_status": REACHABLE if door else UNREACHABLE,
+            "front_door": f"/{door}" if door else None,
             "has_prompts_v2": (sm.parent / "references" / "prompts-v2").is_dir(),
             "family": family_for(skill),
             "workflow_count": len(wfs),
