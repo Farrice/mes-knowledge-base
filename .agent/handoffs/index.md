@@ -2,7 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
-- **2026-07-24** [loop-engineering-integration/active] [Loop Engineering Integration — Assemble Integration Brief](2026-07-24-loop-engineering-integration.md) — Loop Engineering Integration — Assemble Integration Brief
+- **2026-07-24** [loop-engineering-integration/done] [Loop Engineering Integration — Full Ship (12 Candidates + Act-Then-Veto Memory Lane)](2026-07-24-loop-engineering-integration.md) — Steady-state: morning /cos read; 2026-08-24 re-run the 12-loop audit vs compounding metric
 - **2026-07-24** [workflows/active] [Workflows — 3 Stacking Farrice Parallax Pipeline](2026-07-24-workflows.md) — Workflows — 3 Stacking Farrice Parallax Pipeline
 - **2026-07-23** [fladlien-build/ready] [Jason Fladlien OS — Watched-Source Expansion + Full 56-Pattern Library (Tier 8, pattern-bank, Notion deploy)](2026-07-23-fladlien-build.md) — Farrice blind-pass verdict on jason-fladlien-marketing, then /fladlien-best-90 on Proof-to-Market
 - **2026-07-23** [lakajev-conversation-layer/done] [Matthew Lakajev — Forge Expansion v2 (Six Gates + Conversation Layer, A-Tier)](2026-07-23-lakajev-conversation-layer.md) — Deploy: /ml-closed-lost campaign in BLEND voice for Signal Pilot lane
