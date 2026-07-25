@@ -38,6 +38,16 @@ Check if Farrice already has deployed assets for this:
 python3 execution/memory_store.py search "[user's query]" 2>/dev/null || echo "No memory hits"
 ```
 
+// turbo
+```bash
+python3 execution/arsenal.py "[user's query]" --top 4
+```
+
+Memory says what was *deployed before*; the arsenal says what *exists right now* —
+including the ~2,500 workflows inside skills that no other search surface can see.
+Run both: "already built it and forgot" is the single most expensive failure this
+command prevents.
+
 If a match exists, surface it: "You already have @[expert] + /[workflow] — want to re-run it, or looking for something different?" If re-running, skip remaining steps.
 
 ---
@@ -108,7 +118,19 @@ python3 execution/expert_router.py compounds "[user's query]"
 python3 execution/context_retriever.py search "[user's query]"
 ```
 
-Capture: top 3-5 experts, top 3-5 workflows, any compound pairings, and relevant knowledge chunks.
+**Fifth layer — the arsenal (workflow granularity).** The four searches above name
+experts, commands, compounds, and knowledge. None of them can name the specific
+*workflow inside a skill* — that corpus did not exist until `.agent/arsenal-index.json`
+(2026-07-25). This is the layer that turns "load Luke Iha" into "run `/stakes-escalator`".
+
+// turbo
+```bash
+python3 execution/arsenal.py "[user's query]"
+```
+
+Capture: top 3-5 experts, top 3-5 workflows, any compound pairings, relevant knowledge
+chunks, **and the exact commands from the arsenal pass** — always quote the command the
+arsenal prints, never a filename (numbered workflows fire under a prefixed name).
 
 ---
 

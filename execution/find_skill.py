@@ -563,6 +563,13 @@ def main():
     ap.add_argument("--rebuild-index", action="store_true", help="Force rebuild of skill index.")
     ap.add_argument("--json", action="store_true", help="Output JSON instead of formatted text.")
     ap.add_argument(
+        "--include-workflows",
+        action="store_true",
+        help="Also rank the ~2,500 workflows INSIDE skills (via .agent/arsenal-index.json). "
+        "CLI-only: skill_router_hook imports rank()/load_or_build_index() directly, so this "
+        "never changes routing behavior or the hook's calibrated relevance floor.",
+    )
+    ap.add_argument(
         "--build-embeddings",
         action="store_true",
         help="Embed skills whose content changed into .agent/skill-embeddings.json, then exit "
@@ -580,6 +587,28 @@ def main():
         ap.error("query is required unless --build-embeddings is passed")
     query = " ".join(args.query)
     skills = load_or_build_index(force=args.rebuild_index)
+    if args.include_workflows:
+        # Widen the corpus for this CLI run only. A skill answers "who knows
+        # about this"; a workflow answers "what do I actually run" — the second
+        # question is the one that stops assets being rebuilt.
+        try:
+            import arsenal_index
+            for e in arsenal_index.load_or_build()["entries"]:
+                if e["kind"] != "skill-workflow" or e["menu_status"] == "exempt":
+                    continue
+                skills.append({
+                    "name": e["id"].replace("-", " "),
+                    "directory": e["skill"],
+                    "description": e.get("description") or "",
+                    "when_to_use": "",
+                    "routing": "",
+                    # e["command"], never e["id"] — the minter prefixes numbered
+                    # stems, so the file stem is often not the firing command.
+                    "slash": f"/{e['command']}" if e.get("command") else f"({e['path']})",
+                    "status": "",
+                })
+        except Exception as exc:
+            print(f"[find_skill] --include-workflows unavailable: {exc}", file=sys.stderr)
     results = rank(skills, query, top=args.top)
     if args.json:
         print(json.dumps(

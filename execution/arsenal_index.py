@@ -127,6 +127,26 @@ def _last_fired() -> Dict[str, str]:
 # entry builders
 # ──────────────────────────────────────────────────────────────────────────
 
+_WF_REF_RE = re.compile(r"skills/([^/]+)/workflows/([^/`\s]+\.md)")
+
+
+def _command_for_path() -> Dict[str, str]:
+    """repo-relative workflow path -> the command that actually fires it.
+
+    A workflow's file stem is NOT reliably its command name: the minter prefixes
+    numbered stems (`04-viral-idea-ladder` -> `/jenny-viral-idea-ladder`) because
+    `/04-…` is meaningless outside its skill. Reachability came from the wrapper's
+    embedded path, so the real command has to be read back off that wrapper —
+    otherwise every consumer prints an invocation that does not exist.
+    """
+    out: Dict[str, str] = {}
+    for wrapper in WF_DIR.glob("*.md"):
+        m = _WF_REF_RE.search(_read_text(wrapper))
+        if m:
+            out.setdefault(f"skills/{m.group(1)}/workflows/{m.group(2)}", wrapper.stem)
+    return out
+
+
 def _skill_workflow_entries(cmd_stems, wrapper_blob, fired) -> List[Dict[str, Any]]:
     """Every skills/<skill>/workflows/<wf>.md, with its true menu status.
 
@@ -135,18 +155,21 @@ def _skill_workflow_entries(cmd_stems, wrapper_blob, fired) -> List[Dict[str, An
     referenced by some wrapper/shim.
     """
     out: List[Dict[str, Any]] = []
+    by_path = _command_for_path()
     for wf in sorted(SKILLS_DIR.glob("*/workflows/*.md")):
         skill = wf.parent.parent.name
         if _MENU_VARIANT_RE.search(wf.name):
             continue  # variant/backup artifact — not a live asset
         head = _read_text(wf)[:600]
+        ref = f"skills/{skill}/workflows/{wf.name}"
         if _MENU_EXEMPT_RE.search(head):
             status = EXEMPT
         else:
-            ref = f"skills/{skill}/workflows/{wf.name}"
             status = REACHABLE if (wf.stem in cmd_stems or ref in wrapper_blob) else UNREACHABLE
+        command = (wf.stem if wf.stem in cmd_stems else by_path.get(ref))
         out.append({
             "id": wf.stem,
+            "command": command,
             "kind": "skill-workflow",
             "skill": skill,
             "path": str(wf.relative_to(ROOT)),
