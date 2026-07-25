@@ -109,7 +109,7 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 | Field | Value |
 |-------|-------|
 | **Last Activated** | 2026-07-25 (chain_runner finalize for briar-cochran-content-science) |
-| **Activation Count** | 723 |
+| **Activation Count** | 724 |
 | **30-Day Review Date** | 2026-08-24 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

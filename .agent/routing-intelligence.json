@@ -75,7 +75,7 @@
                 "nate-b-jones-intent-engineering": 1,
                 "omar-eltakrori": 1,
                 "Extraction": 37,
-                "Strategy": 38,
+                "Strategy": 39,
                 "donald-miller-storybrand": 1,
                 "strength-conditioning-os": 8,
                 "simon-intellectual-library-os": 1,
@@ -102,9 +102,9 @@
                 "briar-cochran-content-science": 1,
                 "kallaway-illusion-of-novelty": 1
             },
-            "total_routings": 618,
+            "total_routings": 619,
             "tier_counts": {
-                "0": 618,
+                "0": 619,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -115,7 +115,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 358,
-                "finalize-auto": 260
+                "finalize-auto": 261
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -381,7 +381,7 @@
                 "riley-brown": 1,
                 "jonathan-franzen-storytelling": 1,
                 "brandon-jacoby-taste-mastery": 1,
-                "briar-cochran": 1,
+                "briar-cochran": 2,
                 "briar-cochran-content-science": 1
             },
             "total_feedback": 86,
@@ -12370,6 +12370,23 @@
             "workflow_used": "kallaway-illusion-of-novelty",
             "ensemble": true,
             "compound_pairing": "kallaway-illusion-of-novelty + jack-roberts-design-mastery + skill-creator",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_164516_e532",
+            "timestamp": "2026-07-25T16:45:16.704798+00:00",
+            "session_id": "",
+            "request_summary": "Farrice LinkedIn Arsenal Install (/bc-arsenal-install): through-line + CCN, 14-entry seed keyword ledger from ICP dossier language, five-input source map, cold-start arsenal ledger, all-test week-1 sl",
+            "intent_score": 8,
+            "domain_detected": "Strategy",
+            "experts_deployed": [
+                "briar-cochran"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "bc-arsenal-install",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

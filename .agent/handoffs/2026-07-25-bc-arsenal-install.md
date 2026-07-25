@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** bc-arsenal-install  
-**Full path:** .agent/handoffs/2026-07-25-bc-arsenal-install.md  
-**Date:** 2026-07-25 (today)  
-**Status:** active  
-**Title:** Farrice LinkedIn Arsenal Install (/bc-arsenal-install): through-line + CCN, 14-entry seed keyword ledger from ICP dossier language, five-input source map, cold-start arsenal ledger, all-test week-1 slate (4 posts), baseline capture dashboard, cadence + anti-pattern contracts
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume bc-arsenal-install` for this one.
-
----
-
 ---
 thread: bc-arsenal-install
 status: active
@@ -23,4 +11,3 @@ pin: true
 **Next session focus**: Resume the `bc-arsenal-install` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (bc-arsenal-install)._
-

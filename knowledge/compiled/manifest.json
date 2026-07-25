@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-25T09:14:08.341772",
+  "generated": "2026-07-25T09:45:17.047021",
   "total_files": 743,
-  "total_words": 2893102,
-  "total_tokens_est": 3847825,
+  "total_words": 2893151,
+  "total_tokens_est": 3847890,
   "stale_files_30d": 456,
   "domains": {
     "content": 262,
@@ -1990,11 +1990,11 @@
       "parent": "knowledge",
       "domain": "content",
       "expert": null,
-      "word_count": 5003,
-      "modified": "2026-07-24T15:53:16.532700",
+      "word_count": 5028,
+      "modified": "2026-07-25T09:14:08.351638",
       "age_days": 0,
-      "size_bytes": 86515,
-      "content_hash": "ba6fba85",
+      "size_bytes": 86969,
+      "content_hash": "9cde0f46",
       "has_frontmatter": false
     },
     {
@@ -2003,10 +2003,10 @@
       "parent": "knowledge",
       "domain": "general",
       "expert": null,
-      "word_count": 14635,
-      "modified": "2026-07-25T09:14:08.028298",
+      "word_count": 14659,
+      "modified": "2026-07-25T09:45:16.736129",
       "age_days": 0,
-      "size_bytes": 114505,
+      "size_bytes": 114700,
       "content_hash": "5a51f947",
       "has_frontmatter": false
     },
@@ -2772,7 +2772,7 @@
       "expert": null,
       "word_count": 3092,
       "modified": "2026-03-06T09:43:26.450494",
-      "age_days": 140,
+      "age_days": 141,
       "size_bytes": 21783,
       "content_hash": "24eff331",
       "has_frontmatter": false
@@ -3552,7 +3552,7 @@
       "expert": null,
       "word_count": 2395,
       "modified": "2026-03-09T09:14:26.273416",
-      "age_days": 137,
+      "age_days": 138,
       "size_bytes": 16605,
       "content_hash": "a01f97f3",
       "has_frontmatter": false
@@ -3669,7 +3669,7 @@
       "expert": null,
       "word_count": 1441,
       "modified": "2026-07-15T09:29:50.061925",
-      "age_days": 9,
+      "age_days": 10,
       "size_bytes": 10827,
       "content_hash": "9b1ff3d2",
       "has_frontmatter": false
@@ -8310,7 +8310,7 @@
       "expert": null,
       "word_count": 75,
       "modified": "2026-07-15T09:24:20.212716",
-      "age_days": 9,
+      "age_days": 10,
       "size_bytes": 867,
       "content_hash": "facf60db",
       "has_frontmatter": false
@@ -8323,7 +8323,7 @@
       "expert": null,
       "word_count": 584,
       "modified": "2026-07-15T09:24:09.542232",
-      "age_days": 9,
+      "age_days": 10,
       "size_bytes": 3891,
       "content_hash": "07b1aff9",
       "has_frontmatter": false
