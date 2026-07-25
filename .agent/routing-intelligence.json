@@ -23,7 +23,7 @@
                 "nate-b-jones-auto-improvement-loops": 3,
                 "dan-martell-business-scaling": 3,
                 "skill-creator": 1,
-                "jen-santulan-listing-content": 19,
+                "jen-santulan-listing-content": 20,
                 "chief-of-staff-os": 3,
                 "mcp-builder": 1,
                 "luke-iha-cross-domain": 2,
@@ -63,7 +63,7 @@
                 "story-bible-builder": 1,
                 "jason-fladlien-marketing": 11,
                 "how-i-write-os": 12,
-                "supercomputer": 33,
+                "supercomputer": 34,
                 "design-md": 13,
                 "fantastic-posters": 2,
                 "Creative": 8,
@@ -102,19 +102,19 @@
                 "briar-cochran-content-science": 1,
                 "kallaway-illusion-of-novelty": 1
             },
-            "total_routings": 619,
+            "total_routings": 621,
             "tier_counts": {
-                "0": 619,
+                "0": 621,
                 "3": 0,
                 "2": 0,
                 "1": 0
             },
-            "auto_match_count": 18,
+            "auto_match_count": 19,
             "mixed_count": 0,
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 358,
+                "hybrid": 360,
                 "finalize-auto": 261
             },
             "expert_counts": {
@@ -130,7 +130,7 @@
                 "cinema-worldbuilder-pro": 2,
                 "ali-abdaal-action-bias": 4,
                 "skill-creator": 4,
-                "jen-santulan-listing-content": 33,
+                "jen-santulan-listing-content": 34,
                 "deep-research": 10,
                 "system-orchestrator": 3,
                 "David Placek": 1,
@@ -188,7 +188,7 @@
                 "tommy-clark": 2,
                 "deliberate": 27,
                 "creative-director": 1,
-                "doc-coauthoring": 50,
+                "doc-coauthoring": 51,
                 "dan-wang-literary-analysis": 2,
                 "webapp-testing": 3,
                 "brand-operating-system": 24,
@@ -255,7 +255,7 @@
                 "story-bible-builder": 2,
                 "jason-fladlien-marketing": 14,
                 "luisa-zhou-coaching": 2,
-                "supercomputer": 46,
+                "supercomputer": 47,
                 "design-md": 23,
                 "alex-content-science": 3,
                 "system-audit": 24,
@@ -297,7 +297,7 @@
                 "master-copywriter": 3,
                 "henry-shukman-contemplative-writing": 4,
                 "youtube-video-context-analysis": 5,
-                "sharran-srivatsaa-scaling": 11,
+                "sharran-srivatsaa-scaling": 12,
                 "dai-media-consumer-posture": 3,
                 "story-compass": 3,
                 "darrel-wilson-ai-affiliate": 2,
@@ -382,11 +382,12 @@
                 "jonathan-franzen-storytelling": 1,
                 "brandon-jacoby-taste-mastery": 1,
                 "briar-cochran": 2,
-                "briar-cochran-content-science": 1
+                "briar-cochran-content-science": 1,
+                "joshua-smith-real-estate": 1
             },
-            "total_feedback": 86,
+            "total_feedback": 87,
             "negative_count": 0,
-            "ensemble_count": 457,
+            "ensemble_count": 459,
             "auto_miss_count": 68,
             "positive_count": 0
         }
@@ -1156,6 +1157,15 @@
             "rating": "auto_miss",
             "correction": "riley-brown-marketing-automation",
             "notes": "expert skill 'riley-brown-marketing-automation' loaded not matching suggestion ['seth-godin-philosophy', 'slack-gif-creator', 'internal-comms']"
+        },
+        {
+            "feedback_id": "fb_20260725_170349_93c8",
+            "timestamp": "2026-07-25T17:03:49.940485+00:00",
+            "session_id": "162ccbbe-aabf-49d9-ac1d-9d41995d8465",
+            "routing_id": "rt_20260725_170340_7b22",
+            "rating": "auto_match",
+            "correction": "jen-santulan-listing-content",
+            "notes": "expert skill 'jen-santulan-listing-content' loaded matching suggestion ['jen-santulan-listing-content', 'joshua-smith-real-estate']"
         }
     ],
     "routing_decisions": [
@@ -12388,6 +12398,43 @@
             "ensemble": false,
             "compound_pairing": null,
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_170307_2780",
+            "timestamp": "2026-07-25T17:03:07.302640+00:00",
+            "session_id": "b8d150e8-9d91-4064-84c4-061a7f9f9949",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "doc-coauthoring",
+                "sharran-srivatsaa-scaling"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + doc-coauthoring + sharran-srivatsaa-scaling",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_170340_7b22",
+            "timestamp": "2026-07-25T17:03:40.488293+00:00",
+            "session_id": "162ccbbe-aabf-49d9-ac1d-9d41995d8465",
+            "request_summary": "run /go on this task For Jen's real estate hooks: I need hooks for this property https://www.zillow.com/homedetails/1654-Moonseed-Ln-Simi-Valley-CA-93065/16451027_zpid/",
+            "intent_score": 0,
+            "domain_detected": "jen-santulan-listing-content",
+            "experts_deployed": [
+                "jen-santulan-listing-content",
+                "joshua-smith-real-estate"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jen-santulan-listing-content",
+            "ensemble": true,
+            "compound_pairing": "jen-santulan-listing-content + joshua-smith-real-estate",
+            "feedback": "fb_20260725_170349_93c8"
         }
     ]
 }
