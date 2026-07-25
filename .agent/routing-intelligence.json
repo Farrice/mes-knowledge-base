@@ -36,7 +36,7 @@
                 "david-placek-naming": 5,
                 "docx": 1,
                 "sharran-srivatsaa-scaling": 2,
-                "chase-hughes-context-engineering": 1,
+                "chase-hughes-context-engineering": 2,
                 "dai-media-consumer-posture": 2,
                 "Content": 58,
                 "writing-depth-layer": 3,
@@ -100,9 +100,9 @@
                 "seth-godin-philosophy": 1,
                 "kallaway-word-mastery": 1
             },
-            "total_routings": 614,
+            "total_routings": 615,
             "tier_counts": {
-                "0": 614,
+                "0": 615,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -112,7 +112,7 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 355,
+                "hybrid": 356,
                 "finalize-auto": 259
             },
             "expert_counts": {
@@ -190,7 +190,7 @@
                 "dan-wang-literary-analysis": 2,
                 "webapp-testing": 3,
                 "brand-operating-system": 24,
-                "chase-hughes-conversational-influence": 10,
+                "chase-hughes-conversational-influence": 11,
                 "daniel-priestley": 1,
                 "jason-fladlien": 5,
                 "swarm-commander": 3,
@@ -231,7 +231,7 @@
                 "kieran-flanagan": 1,
                 "unified-research-engine": 1,
                 "system-architecture": 7,
-                "chase-hughes-context-engineering": 6,
+                "chase-hughes-context-engineering": 7,
                 "seena-rez-tiktok-commerce": 3,
                 "lara-acosta-linkedin-growth": 1,
                 "stefan-georgi-dopamine-copy": 24,
@@ -377,11 +377,12 @@
                 "seth-godin-philosophy": 1,
                 "slack-gif-creator": 1,
                 "riley-brown": 1,
-                "jonathan-franzen-storytelling": 1
+                "jonathan-franzen-storytelling": 1,
+                "brandon-jacoby-taste-mastery": 1
             },
             "total_feedback": 86,
             "negative_count": 0,
-            "ensemble_count": 455,
+            "ensemble_count": 456,
             "auto_miss_count": 68,
             "positive_count": 0
         }
@@ -12293,6 +12294,25 @@
             "workflow_used": "kallaway-word-mastery",
             "ensemble": true,
             "compound_pairing": "kallaway-word-mastery + ben-watkins-storytelling + ali-abdaal-action-bias",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_034009_9239",
+            "timestamp": "2026-07-25T03:40:09.341228+00:00",
+            "session_id": "a4d25e8b-e4f9-4acc-9527-2e619de9d1ed",
+            "request_summary": "commit, push please",
+            "intent_score": 0,
+            "domain_detected": "chase-hughes-context-engineering",
+            "experts_deployed": [
+                "chase-hughes-context-engineering",
+                "brandon-jacoby-taste-mastery",
+                "chase-hughes-conversational-influence"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "chase-hughes-context-engineering",
+            "ensemble": true,
+            "compound_pairing": "chase-hughes-context-engineering + brandon-jacoby-taste-mastery + chase-hughes-conversational-influence",
             "feedback": null
         }
     ]
