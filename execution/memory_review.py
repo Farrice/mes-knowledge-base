@@ -116,6 +116,80 @@ def approve(fid: str, pin: bool = True) -> dict:
     return {"flagged_id": fid, "memory_id": memory_id, "pinned": pin}
 
 
+TASTE_GUARD = ("voice", "tone", "taste", "brand", "content style", "writing style",
+               "persona", "farrice's voice", "linkedin post", "substack", "parallax")
+
+
+def auto_promote(threshold: float = 9.0) -> list:
+    """Act-then-veto lane (Farrice decision 2026-07-24): pending rules scored
+    >= threshold auto-promote to a PROVISIONAL memory (labeled in content,
+    unpinned) unless any taste-guard keyword appears — taste/voice/content
+    rules NEVER auto-promote. Veto with `veto <id>`; bless with `bless <id>`."""
+    promoted = []
+    for fr in list_pending("pending", limit=100):
+        if (fr.get("judge_score") or 0) < threshold:
+            continue
+        body = (fr.get("proposed_content") or "").lower()
+        if any(k in body for k in TASTE_GUARD):
+            continue
+        full = get_one(fr["id"])
+        full["proposed_content"] = ("[PROVISIONAL — auto-promoted, unreviewed; "
+                                    f"veto: memory_review.py veto {fr['id']}]\n"
+                                    + (full["proposed_content"] or ""))
+        # reuse approve()'s promote path via a temporary in-place content swap
+        conn = sqlite3.connect(str(DB_PATH))
+        conn.execute("UPDATE flagged_review SET proposed_content = ? WHERE id = ?",
+                     (full["proposed_content"], fr["id"]))
+        conn.commit(); conn.close()
+        # Provisionality marker lives in the content prefix (the table's CHECK
+        # constraint allows only pending/approved/rejected statuses).
+        res = approve(fr["id"], pin=False)
+        promoted.append(res)
+    return promoted
+
+
+def _get_provisional(fid: str) -> dict:
+    fr = get_one(fid)
+    if not fr:
+        raise SystemExit(f"Not found: {fid}")
+    if fr["status"] != "approved" or not (fr.get("proposed_content") or "").startswith("[PROVISIONAL"):
+        raise SystemExit(f"Not a provisional promotion (status={fr['status']}): {fid}")
+    return fr
+
+
+def veto(fid: str) -> dict:
+    """Retro-veto a provisional auto-promotion: delete the promoted memory,
+    mark the review row rejected."""
+    fr = _get_provisional(fid)
+    mid = fr.get("promoted_memory_id")
+    conn = sqlite3.connect(str(DB_PATH))
+    if mid:
+        conn.execute("DELETE FROM memories WHERE id = ?", (mid,))
+    conn.execute("UPDATE flagged_review SET status = 'rejected', reviewed_at = ?, "
+                 "judge_rationale = COALESCE(judge_rationale,'') || ' | VETOED provisional' "
+                 "WHERE id = ?", (datetime.now(timezone.utc).isoformat(), fid))
+    conn.commit(); conn.close()
+    return {"flagged_id": fid, "deleted_memory": mid}
+
+
+def bless(fid: str) -> dict:
+    """Confirm a provisional auto-promotion: strip the provisional label, pin."""
+    fr = _get_provisional(fid)
+    mid = fr.get("promoted_memory_id")
+    conn = sqlite3.connect(str(DB_PATH))
+    if mid:
+        row = conn.execute("SELECT content FROM memories WHERE id = ?", (mid,)).fetchone()
+        if row and row[0]:
+            cleaned = row[0].split("]\n", 1)[-1] if row[0].startswith("[PROVISIONAL") else row[0]
+            conn.execute("UPDATE memories SET content = ? WHERE id = ?", (cleaned, mid))
+    cleaned_row = (fr.get("proposed_content") or "").split("]\n", 1)[-1]
+    conn.execute("UPDATE flagged_review SET proposed_content = ? WHERE id = ?", (cleaned_row, fid))
+    conn.commit(); conn.close()
+    if mid:
+        pin_memory(mid)
+    return {"flagged_id": fid, "memory_id": mid, "pinned": True}
+
+
 def reject(fid: str, reason: Optional[str] = None) -> dict:
     fr = get_one(fid)
     if not fr:
@@ -217,6 +291,15 @@ def main() -> int:
     p_reject.add_argument("id")
     p_reject.add_argument("--reason", help="Optional rejection rationale")
 
+    p_auto = sub.add_parser("auto-promote", help="Provisionally promote pending rules ≥9.0 (taste-guarded)")
+    p_auto.add_argument("--threshold", type=float, default=9.0)
+
+    p_veto = sub.add_parser("veto", help="Retro-veto a provisional auto-promotion")
+    p_veto.add_argument("id")
+
+    p_bless = sub.add_parser("bless", help="Confirm a provisional auto-promotion (strip label, pin)")
+    p_bless.add_argument("id")
+
     p_purge = sub.add_parser("purge", help="Delete old reviewed entries")
     p_purge.add_argument("--rejected", action="store_true",
                         help="Only purge rejected (default: both approved+rejected)")
@@ -246,6 +329,23 @@ def main() -> int:
     if args.command == "reject":
         result = reject(args.id, args.reason)
         print(f"✓ Rejected {result['flagged_id']}")
+        return 0
+
+    if args.command == "auto-promote":
+        results = auto_promote(threshold=args.threshold)
+        for r in results:
+            print(f"✓ PROVISIONAL {r['flagged_id']} → memory {r['memory_id']} (unpinned; veto/bless available)")
+        print(f"{len(results)} auto-promoted")
+        return 0
+
+    if args.command == "veto":
+        r = veto(args.id)
+        print(f"✓ Vetoed {r['flagged_id']} (deleted memory {r['deleted_memory']})")
+        return 0
+
+    if args.command == "bless":
+        r = bless(args.id)
+        print(f"✓ Blessed {r['flagged_id']} → memory {r['memory_id']} pinned")
         return 0
 
     if args.command == "purge":

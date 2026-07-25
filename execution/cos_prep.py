@@ -290,31 +290,58 @@ def gather_memory_review() -> dict:
         conn = sqlite3.connect(f"file:{db}?mode=ro", uri=True)
         conn.row_factory = sqlite3.Row
         rows = conn.execute(
-            "SELECT judge_score, created_at, proposed_content FROM flagged_review "
+            "SELECT id, judge_score, created_at, proposed_content FROM flagged_review "
             "WHERE status = 'pending' ORDER BY judge_score DESC LIMIT 50"
         ).fetchall()
+        # Act-then-veto lane (Farrice 2026-07-24): surface auto-promotions so
+        # every provisional rule gets seen for veto/bless.
+        prov = conn.execute(
+            "SELECT id, judge_score, proposed_content FROM flagged_review "
+            "WHERE status = 'approved' AND proposed_content LIKE '[PROVISIONAL%' "
+            "ORDER BY reviewed_at DESC LIMIT 5"
+        ).fetchall()
         conn.close()
-        if not rows:
+        if not rows and not prov:
             return result
-        oldest = min(r["created_at"] or "" for r in rows)
-        top = (rows[0]["proposed_content"] or "").strip().replace("\n", " ")[:110]
-        result = {"count": len(rows), "oldest": oldest[:10], "top": top,
-                  "top_score": rows[0]["judge_score"]}
+        result["provisional"] = [
+            {"id": p["id"], "score": p["judge_score"],
+             "line": (p["proposed_content"] or "").split("]\n")[-1].split("**Why:**")[0].split(". ")[0].strip()[:120]}
+            for p in prov
+        ]
+        top3 = []
+        for r in rows[:3]:
+            # Layman rendering: first sentence only, boilerplate stripped
+            # (Farrice 2026-07-24: review from the brief, not the database).
+            body = (r["proposed_content"] or "").strip()
+            first = body.split("**Why:**")[0].split(".\n")[0].split(". ")[0].strip().rstrip(".")
+            top3.append({"id": r["id"], "score": r["judge_score"], "line": first[:140]})
+        result["count"] = len(rows)
+        result["oldest"] = (min(r["created_at"] or "" for r in rows)[:10] if rows else "")
+        result["top3"] = top3
     except Exception:
         pass
     return result
 
 
 def render_memory_review(mem: dict) -> list:
-    """≤3-line brief section; silent no-op when the queue is empty."""
+    """≤7-line brief section; silent no-op when the queue is empty. Each rule
+    is a plain one-liner with its approve/reject commands prefilled — the
+    review should cost ~60 seconds from the brief itself."""
     if not mem:
         return []
     lines = ["", "## 🧠 Memory Review"]
-    lines.append(f"- {mem['count']} distilled rule{'s' if mem['count'] != 1 else ''} "
-                 f"pending your review (oldest {mem.get('oldest', '?')}) — "
-                 f"top ({mem.get('top_score', '?')}): \"{mem.get('top', '')}\"")
-    lines.append("- Review: `python3 execution/memory_review.py list` → `approve <id>` / `reject <id>` "
-                 "· Source: [.memory/sovereign.db](.memory/sovereign.db) flagged_review")
+    if mem.get("count"):
+        lines.append(f"- {mem['count']} distilled rule{'s' if mem['count'] != 1 else ''} "
+                     f"pending (oldest {mem.get('oldest', '?')}). Gut call per line — "
+                     "agree = approve, off = reject:")
+        for t in mem.get("top3", []):
+            lines.append(f"  - ({t['score']}) \"{t['line']}\" → "
+                         f"`python3 execution/memory_review.py approve {t['id']}` / `... reject {t['id']}`")
+        if mem["count"] > len(mem.get("top3", [])):
+            lines.append(f"  - +{mem['count'] - len(mem['top3'])} more: `python3 execution/memory_review.py list`")
+    for p in mem.get("provisional", []):
+        lines.append(f"  - ⚡ AUTO-ACTIVATED (provisional, {p['score']}): \"{p['line']}\" → "
+                     f"`python3 execution/memory_review.py bless {p['id']}` / `... veto {p['id']}`")
     return lines
 
 
