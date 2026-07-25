@@ -10,6 +10,11 @@
 
 | I want to… | Go to |
 |---|---|
+| **Agentic marketing ops / scraping / ad intel (Riley Brown OS)** | |
+| Scrape any creator's content into the Social Intelligence Notion DB (video+transcript+metrics) | [Riley Brown OS](2026-07-25-riley-brown-os.md) |
+| Pull a brand's winning Meta ads at $0 (longest-running ranking, no Foreplay) | [Riley Brown OS](2026-07-25-riley-brown-os.md) |
+| Turn a winning competitor ad into on-brand variants, or a site into a brand asset sheet | [Riley Brown OS](2026-07-25-riley-brown-os.md) |
+| Batch Gmail reply drafts (zero sends) / stage posts / shaped booking links | [Riley Brown OS](2026-07-25-riley-brown-os.md) |
 | **Compound loops / self-improvement / system health (Loop Engineering)** | |
 | Review distilled memory rules or veto/bless auto-activations from the morning brief | [Loop Engineering Integration](2026-07-24-loop-engineering-integration.md) |
 | Decide whether to enforce finalize-debt (LEDGER_ENFORCE) with real numbers | [Loop Engineering Integration](2026-07-24-loop-engineering-integration.md) |
@@ -113,6 +118,7 @@
 
 *(newest first)*
 
+- 2026-07-25 — [Riley Brown OS](2026-07-25-riley-brown-os.md) — watched (100 frames) + forge-extracted Riley Brown (16 patterns, 12 riley-* wf, 9 prompts, EVAL-055 model-PASS, composite 8.33) AND replicated his ~$175-250/mo paid stack at $0: Social Intelligence Notion DB + /scrape-creator ($0.01 PoC) + /ad-spy (5 real AG1 ads, 176-day winners) + creative/brand/inbox/scheduler workflows; corrected the Codex half-source draft (~15 fabrication classes); A-tier + 2 free API keys await Farrice
 - 2026-07-24 — [Loop Engineering Integration](2026-07-24-loop-engineering-integration.md) — wayfinder map → canon research (proven-vs-hype) → 12-loop evidence audit (4 compounding/7 open/1 dead) → all-12 GO shipped + live-fire verified; rubric ARMED (84/85, R2 gate live); act-then-veto memory lane (auto-promote ≥9.0, taste-guarded, /cos veto surface); Phase-2 queue deduped 132→20; Opus 5 Executor Model Registry hard-coded; re-audit due ~08-24
 - 2026-07-23 — [Jason Fladlien OS](2026-07-23-fladlien-build.md) — 3-pass build (07-19→23): Tier 8 forge expansion (31→36 wf, genius §36-44, first reference corpus + blind pass EVAL-049 model-PASS), gap-close (+6 recovered secrets), full 56-pattern library scraped from his own Notion (39.6k words + 494 table rows after cursor-pagination fix) → references/pattern-bank/ + rebuilt in Farrice's Notion; A-tier awaits Farrice pass
 - 2026-07-23 — [Lakajev A-Tier Blind Pass](2026-07-23-lakajev-conversation-layer.md) — A-tier confirmed via Farrice-judged blind pass (EVAL-054, generated post preferred over real); artifact-only verification protocol + LinkedIn authwall corpus trick, reusable for every "A-tier awaits blind pass" skill
