@@ -49,3 +49,60 @@ Gate rule: all four pass in one run, or the boundary stays. Partial passes do no
 - **Keep deferred:** costs nothing today; leaves a built, validated toolchain idle and the operator-core route (`plugin-readiness-audit`) dead-ended.
 
 **Recommendation: lift partially — local-only, no marketplace, effective only when all four fixtures pass in a single run.** Strongest reason: the entire packaging and validation toolchain already exists and sits idle; the fixtures convert the standing condition into one cheap deterministic checklist, and local-only scope keeps every possible failure reversible.
+
+---
+
+## 5. Lift attempt — 2026-07-25 (Farrice-directed)
+
+**Outcome: PARTIAL. Packaging engine built and structurally green; the boundary STAYS
+until the install fixtures run. Plugin Forge is NOT flipped to LIVE.**
+
+### Correction to §1: the toolchain was NOT complete
+
+§1 claimed "the lift adds zero new engines." That was wrong. `plugin_readiness_audit.py`
+is a **scorer**, `plugin-dev:plugin-validator` a **validator**, `renaissance_audit.py` an
+**audit** — none of them emits `.claude-plugin/plugin.json`. The packaging step this plan
+authorized had no owner, which is why the lane sat at "engine ready" indefinitely.
+
+Built: **`execution/plugin_build.py`** (`build` / `validate` / `clean`). Readiness-gated
+(PACKAGE NOW ≥80 only), regenerate-never-hand-edit, local `plugins/` output only.
+
+### Correction to F-REV: no revenue workflow qualifies
+
+F-REV specified a revenue-lane workflow. The repo's own readiness audit scores the revenue
+bundle **23.9/100 with zero PACKAGE NOW candidates** — packaging a REFERENCE-ONLY workflow
+would prove nothing. Substituted **`operator-core` (87.6/100, 8/8 PACKAGE NOW)**, which the
+audit itself recommends as the bundle to package. Recorded as a deliberate substitution.
+
+### Results
+
+| Fixture | Deterministic half | Install half (needs a fresh session) |
+|---|---|---|
+| **F-CORE** (was F-REV) | ✅ 8/8 commands packaged, gate-passed | ⬜ `/autopilot` fires from the plugin in a fresh session |
+| **F-CRE** | ✅ `forge-os` skill + `prompt-forge.md` bundled | ⬜ skill auto-triggers from natural language |
+| **F-SYS** | ✅ `hooks.json` on `${CLAUDE_PLUGIN_ROOT}`; probe returns `ok` when set, `FAIL` when unset | ⬜ hook registers and fires on install |
+| **F-REG** | ✅ `renaissance_audit` 3,715 pass / **0 fail** · repo-native `/autopilot` intact · `git status` additions only | ⬜ install → uninstall → clean teardown |
+
+**Real defect the validator caught:** `commands/self-evolve.md` leaked the absolute path
+`/Users/farricecain/Google Antigravity` — and **120 `.agent/workflows` files carry the same
+hardcode**. This is exactly the "portability lock-in" risk §3 names. Fixed at package time via
+`sanitize()`, which rewrites it to `$ANTIGRAVITY_ROOT` — deliberately **not**
+`${CLAUDE_PLUGIN_ROOT}`, because those paths mean *the repo*, not *the plugin*; collapsing the
+two would silently point repo-root semantics at the plugin directory.
+
+### To finish the lift (Farrice, ~15 min, $0)
+
+```bash
+python3 execution/plugin_build.py build --bundle operator-core \
+    --skill forge-os --prompt skills/forge-os/references/prompts-v2/prompt-forge.md --force
+python3 execution/plugin_build.py validate plugins/antigravity-operator-core   # expect 0 failures
+claude plugin install ./plugins/antigravity-operator-core     # LOCAL PATH ONLY
+# → open a FRESH session, then check the four install-half boxes above
+claude plugin uninstall antigravity-operator-core
+git status --porcelain                                        # must be clean (F-REG teardown)
+```
+
+All four pass in that one run → flip the Plugin Forge lane to LIVE in
+`skills/forge-os/SKILL.md` and `/forge`. Anything less → the boundary stays, and the failure
+gets written here. **Partial passes do not accumulate across sessions.** Marketplace remains
+out of scope regardless.

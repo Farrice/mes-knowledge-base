@@ -1,0 +1,13 @@
+{
+  "name": "antigravity-operator-core",
+  "version": "1.0.0",
+  "description": "Antigravity operator-core bundle \u2014 regenerated from the repo by execution/plugin_build.py. Local install only; not published.",
+  "author": {
+    "name": "Farrice Cain"
+  },
+  "license": "UNLICENSED",
+  "keywords": [
+    "antigravity",
+    "operator-core"
+  ]
+}
