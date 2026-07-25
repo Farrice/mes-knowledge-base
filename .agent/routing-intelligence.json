@@ -38,7 +38,7 @@
                 "sharran-srivatsaa-scaling": 2,
                 "chase-hughes-context-engineering": 2,
                 "dai-media-consumer-posture": 2,
-                "Content": 58,
+                "Content": 61,
                 "writing-depth-layer": 3,
                 "Analysis": 9,
                 "seena-rez-tiktok-commerce": 2,
@@ -100,9 +100,9 @@
                 "seth-godin-philosophy": 1,
                 "kallaway-word-mastery": 1
             },
-            "total_routings": 615,
+            "total_routings": 618,
             "tier_counts": {
-                "0": 615,
+                "0": 618,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -113,7 +113,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 356,
-                "finalize-auto": 259
+                "finalize-auto": 262
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -378,7 +378,8 @@
                 "slack-gif-creator": 1,
                 "riley-brown": 1,
                 "jonathan-franzen-storytelling": 1,
-                "brandon-jacoby-taste-mastery": 1
+                "brandon-jacoby-taste-mastery": 1,
+                "health-performance-geo-engine": 3
             },
             "total_feedback": 86,
             "negative_count": 0,
@@ -12313,6 +12314,57 @@
             "workflow_used": "chase-hughes-context-engineering",
             "ensemble": true,
             "compound_pairing": "chase-hughes-context-engineering + brandon-jacoby-taste-mastery + chase-hughes-conversational-influence",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_142226_03d4",
+            "timestamp": "2026-07-25T14:22:26.756077+00:00",
+            "session_id": "",
+            "request_summary": "2026-07-25 daily health-performance GEO brief: zero-sugar/sweetener-disclosure ingredient-trust angle",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "health-performance-geo-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "AUTOMATION_PROMPT",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_142400_f061",
+            "timestamp": "2026-07-25T14:24:00.128815+00:00",
+            "session_id": "",
+            "request_summary": "2026-07-25 daily health-performance GEO brief: zero-sugar/sweetener-disclosure ingredient-trust angle",
+            "intent_score": 4,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "health-performance-geo-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "AUTOMATION_PROMPT",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_142456_1d79",
+            "timestamp": "2026-07-25T14:24:56.450514+00:00",
+            "session_id": "",
+            "request_summary": "2026-07-25 daily health-performance GEO brief: zero-sugar/sweetener-disclosure ingredient-trust angle",
+            "intent_score": 9,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "health-performance-geo-engine"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "AUTOMATION_PROMPT",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

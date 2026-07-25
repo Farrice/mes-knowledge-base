@@ -2755,8 +2755,64 @@
         "gaming_flag": false
       },
       "notes": "Re-finalize after confirming gate verdict WARN with empty fails via direct module call | Verification: PASS | Receipt: Verification: PASS \u2014 8 VERIFIED, 2 CONTRADICTED rewritten, 1 verifier false-positive overturned; content_finish_gate now WARN (fails empty, proven by direct evaluate); prose 0 flags; privacy PASS | Anchor: Anchor 9 \u2014 Exemplary (Expert Standard): dwell mechanics invisible, receipts re-verified against shipped corpus, avatar language verbatim from the dossier"
+    },
+    {
+      "trace_id": "20260725_142226",
+      "timestamp": "2026-07-25T14:22:26.787054",
+      "schema_version": "v3",
+      "component": "health-performance-ip-library",
+      "expert": "health-performance-geo-engine",
+      "workflow": "AUTOMATION_PROMPT",
+      "quality": {
+        "composite": 6.33,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 7.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Ingredient-trust/sweetener-disclosure angle, first lead appearance of this motif in the 5-brief window. Factual Grounding: 8 | Verification: PASS (3 VERIFIED, 4 LIKELY, 0 UNCONFIRMED across 7 proof-spine claims; 1 item omitted for insufficient sourcing) | Anchor: Anchor 9 (Expert Standard): the golden-sample mechanics (scene-first opening, source labels held close to claims, public-to-paid audit bridge, association-not-causation discipline) show up throughout the piece, not just borrowed vocabulary"
+    },
+    {
+      "trace_id": "20260725_142400",
+      "timestamp": "2026-07-25T14:24:00.145515",
+      "schema_version": "v3",
+      "component": "health-performance-ip-library",
+      "expert": "health-performance-geo-engine",
+      "workflow": "AUTOMATION_PROMPT",
+      "quality": {
+        "composite": 6.33,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 7.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "Ingredient-trust/sweetener-disclosure angle, first lead appearance of this motif in the 5-brief window. Remaining claim_risk_scan RISKY hits (diabetes token x4) are the accurate, hedged subgroup finding from the cited peer-reviewed study itself, essential to factual completeness, not a suppressible defect. Factual Grounding: 8 | Verification: PASS (3 VERIFIED, 4 LIKELY, 0 UNCONFIRMED across 7 proof-spine claims; 1 item omitted for insufficient sourcing) | Anchor: Anchor 9 (Expert Standard): the golden-sample mechanics (scene-first opening, source labels held close to claims, public-to-paid audit bridge, association-not-causation discipline) show up throughout the piece, not just borrowed vocabulary"
     }
   ],
-  "total_cases": 97,
-  "last_updated": "2026-07-21T20:31:20.178604"
+  "total_cases": 99,
+  "last_updated": "2026-07-25T14:24:00.146269"
 }

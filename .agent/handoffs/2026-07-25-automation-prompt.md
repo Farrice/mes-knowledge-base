@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** automation-prompt  
-**Full path:** .agent/handoffs/2026-07-25-automation-prompt.md  
-**Date:** 2026-07-25 (today)  
-**Status:** active  
-**Title:** 2026-07-25 daily health-performance GEO brief: zero-sugar/sweetener-disclosure ingredient-trust angle
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume automation-prompt` for this one.
-
----
-
 ---
 thread: automation-prompt
 status: active
@@ -25,4 +13,3 @@ pin: true
 **Next session focus**: Resume the `automation-prompt` work-stream — see the deliverable above.
 
 _Auto-pinned by chain_runner.finalize (AUTOMATION_PROMPT)._
-
