@@ -1,6 +1,6 @@
 {
-  "last_synced_commit": "37050a60f4b844912b25c6bd8cc197adcb917c5e",
-  "last_synced_at": "2026-07-23T19:04:22Z",
+  "last_synced_commit": "bb39817ca2f6c6bdb900636ae7b172684a2e140a",
+  "last_synced_at": "2026-07-25T03:38:29Z",
   "guide": "docs/ROOT-CORE-OPERATOR-GUIDE.md",
   "synced_hashes": {
     "directives/external-skills-registry.md": "229f5dcc6249b805b6323adb6c1b96aeeccb6a2a",
@@ -39,6 +39,8 @@
     "skills/ben-watkins-storytelling/workflows/bw-dream-anatomy.md": "30cc1fbafc24c1e0c89370224a1d0ff4522261a4",
     "skills/ben-watkins-storytelling/workflows/bw-elevate.md": "006700958d8316c7af15b10eb3b0371361199cc3",
     "skills/ben-watkins-storytelling/workflows/bw-spoken-story.md": "09136c8c2861186f53f22fe6ef8127e999e0cdc7",
-    ".agent/workflows/end-session.md": "357a9bfa586143c62939de2db4b7e3f14c294843"
+    ".agent/workflows/end-session.md": "357a9bfa586143c62939de2db4b7e3f14c294843",
+    "directives/model-notes.md": "315a246c9df736549a2990ad1dca4b2ee87d79d4",
+    "directives/orchestration-doctrine.md": "9d489780ca4ecddf9a0b85123c0153ae8ad8b1b9"
   }
 }

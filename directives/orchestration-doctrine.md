@@ -50,16 +50,38 @@ conductor's tier for the hardest calls.
 no explicit model inherits the CONDUCTOR'S model — when Fable conducts, every unseated Agent or
 workflow agent() call silently burns Fable tokens on executor work. Therefore **no unseated
 dispatches**. Every dispatch names its seat:
-- **`sonnet`** — default for ALL execution: research sweeps, evidence hunts, extractions, drafts,
-  gauntlets, advisories, file generation. Effort high for quality-bearing work, low for mechanical.
-- **`opus`** — reasoning-heavy execution where Sonnet visibly degrades the deliverable: hardest
-  adversarial verification, dense multi-source synthesis, judge-panel finals. Never pinned
-  (opus-fallback policy stands: degrade a tier, don't stall).
+- **`sonnet`** — default for ALL grunt/grind execution: research sweeps, evidence hunts,
+  extractions, drafts, gauntlets, advisories, file generation. Effort high for quality-bearing
+  work, low for mechanical.
+- **`opus`** — the HEAVY EXECUTOR tier (Farrice 2026-07-24, standing — leverage Opus 5, don't
+  hoard it): dense multi-source synthesis, hardest adversarial verification and judge-panel
+  finals, taste-adjacent first drafts headed for Farrice's verdict, complex multi-file builds,
+  and any executor task where Sonnet output would need a conductor rewrite. Opus 5 is a
+  step-change over 4.8 at the SAME price — under-seating it is the new waste, not over-seating.
+  Never pinned (opus-fallback policy stands: degrade a tier, don't stall).
 - **Conductor tier (Fable)** — the main loop only: routing, Mission Cards, synthesis of executor
   output, taste/kill verdicts, user-facing polish. A subagent inherits the conductor tier only by
   deliberate exception, named in one line at dispatch time.
 Workflow scripts obey the same law via `agent(opts.model/effort)`; pre-launch review of any
 workflow includes checking its seats.
+
+### Executor Model Registry (hard-coded 2026-07-24 — Farrice standing instruction; update on model launches)
+
+Current seat → model resolution (Agent/Workflow `model:` values map to these):
+
+| Seat | Model (ID) | Price /MTok | Prompt like this (per claude-api skill, 2026-07 canon) |
+|---|---|---|---|
+| Conductor | Fable 5 (`claude-fable-5`) | $10/$50 | Main loop only. Thinking always on; state goal + constraints, not steps. |
+| `opus` | **Opus 5 (`claude-opus-5`)** | $5/$25 | Thinking ON by default; effort `xhigh` for hardest coding/agentic, `high` default, `low`/`medium` punch above weight — sweep down. Full task spec in ONE turn. DELETE verification scaffolding ("double-check", verify-subagents) — it self-verifies; over-verification is the failure mode. Add scope-discipline + conciseness lines. Delegates readily — cap its subagent spawns. |
+| `sonnet` | Sonnet 5 (`claude-sonnet-5`) | $3/$15 | Adaptive thinking on by default; literal instruction-follower — state scope explicitly; effort `high` default, `xhigh` for hardest; coverage-first prompts for review work (severity filters depress recall); ~30% more tokens/text than 4.6 — give max_tokens headroom. |
+| `haiku` | Haiku 4.5 (`claude-haiku-4-5`) | $1/$5 | Mechanical shuttling only (Ladder law: never quality-bearing). |
+
+Standing rules: (1) fleets = Sonnet 5 bodies, Opus 5 heads (judge/verify/synthesis nodes inside
+the same fleet); (2) any LLM-calling script in execution/ names exact IDs from this table —
+never date-suffixed variants; (3) per-model prompting deltas live in `directives/model-notes.md`
+— load it before writing dispatch prompts for a seat you haven't used this session; (4) on a new
+model launch, update THIS table + model-notes.md in one commit (the claude-api skill is the
+verification source, never memory).
 
 **Seat handoffs**: when a stronger seat will resume later, park judgment calls explicitly —
 `handoff_store.py save --thread <t>` with an "awaiting stronger seat" note — rather than forcing

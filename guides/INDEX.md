@@ -10,6 +10,11 @@
 
 | I want to… | Go to |
 |---|---|
+| **Compound loops / self-improvement / system health (Loop Engineering)** | |
+| Review distilled memory rules or veto/bless auto-activations from the morning brief | [Loop Engineering Integration](2026-07-24-loop-engineering-integration.md) |
+| Decide whether to enforce finalize-debt (LEDGER_ENFORCE) with real numbers | [Loop Engineering Integration](2026-07-24-loop-engineering-integration.md) |
+| Re-audit whether the 12 compound loops actually compound (due ~2026-08-24) | [Loop Engineering Integration](2026-07-24-loop-engineering-integration.md) |
+| Seat models correctly in fleets (Opus 5 heavy / Sonnet 5 grunt registry) | [Loop Engineering Integration](2026-07-24-loop-engineering-integration.md) |
 | **Persuasion / selling assets / conversion copy (Jason Fladlien)** | |
 | Diagnose any business's missing selling asset ("best 90 minutes") + Two Agendas opener | [Jason Fladlien OS](2026-07-23-fladlien-build.md) |
 | Inject line-level persuasion from the full 56-pattern bank (10 categories, fire-time loads) | [Jason Fladlien OS](2026-07-23-fladlien-build.md) |
@@ -108,6 +113,7 @@
 
 *(newest first)*
 
+- 2026-07-24 — [Loop Engineering Integration](2026-07-24-loop-engineering-integration.md) — wayfinder map → canon research (proven-vs-hype) → 12-loop evidence audit (4 compounding/7 open/1 dead) → all-12 GO shipped + live-fire verified; rubric ARMED (84/85, R2 gate live); act-then-veto memory lane (auto-promote ≥9.0, taste-guarded, /cos veto surface); Phase-2 queue deduped 132→20; Opus 5 Executor Model Registry hard-coded; re-audit due ~08-24
 - 2026-07-23 — [Jason Fladlien OS](2026-07-23-fladlien-build.md) — 3-pass build (07-19→23): Tier 8 forge expansion (31→36 wf, genius §36-44, first reference corpus + blind pass EVAL-049 model-PASS), gap-close (+6 recovered secrets), full 56-pattern library scraped from his own Notion (39.6k words + 494 table rows after cursor-pagination fix) → references/pattern-bank/ + rebuilt in Farrice's Notion; A-tier awaits Farrice pass
 - 2026-07-23 — [Lakajev A-Tier Blind Pass](2026-07-23-lakajev-conversation-layer.md) — A-tier confirmed via Farrice-judged blind pass (EVAL-054, generated post preferred over real); artifact-only verification protocol + LinkedIn authwall corpus trick, reusable for every "A-tier awaits blind pass" skill
 - 2026-07-21 — [Matthew Lakajev Conversation Layer](2026-07-21-matthew-lakajev-forge.md) — forge expansion #2 (Agency Podcast): 3→13 workflows, /ml-* namespace; Six Gates + closed-lost + opinion ladder; first blind pass for this expert (EVAL-053 model-PASS; superseded by A-tier EVAL-054 on 07-23)
@@ -153,6 +159,7 @@
 ---
 
 ## Pending enrichment
+(none)
 - [2026-07-22 — Handoff — Harness Ascension + Content Weapons Day (2026-07-21/22)](2026-07-22-.md) — operator-guide stub, needs enrichment
 - [2026-07-21 — Signal Pilot — Offer Lock + Pressure Test v1 (red-teams, profile, prospects)](2026-07-21-signal-pilot-execution.md) — operator-guide stub, needs enrichment
 - [2026-07-21 — Solutions — X Corpus Via Playwright Public Snapshot](2026-07-21-.md) — operator-guide stub, needs enrichment
