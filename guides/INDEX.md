@@ -165,6 +165,7 @@
 ---
 
 ## Pending enrichment
+- [2026-07-25 — Farrice LinkedIn Arsenal Install (/bc-arsenal-install): through-line + CCN, 14-entry seed keyword ledger from ICP dossier language, five-input source map, cold-start arsenal ledger, all-test week-1 slate (4 posts), baseline capture dashboard, cadence + anti-pattern contracts](2026-07-25-.md) — operator-guide stub, needs enrichment
 (none)
 - [2026-07-22 — Handoff — Harness Ascension + Content Weapons Day (2026-07-21/22)](2026-07-22-.md) — operator-guide stub, needs enrichment
 - [2026-07-21 — Signal Pilot — Offer Lock + Pressure Test v1 (red-teams, profile, prospects)](2026-07-21-signal-pilot-execution.md) — operator-guide stub, needs enrichment

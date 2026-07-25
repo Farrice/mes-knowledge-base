@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** jen-listings  
-**Full path:** .agent/handoffs/2026-07-25-jen-listings.md  
-**Date:** 2026-07-25 (today)  
-**Status:** ready  
-**Title:** Jen Listings — 1654 Moonseed Shoot Sheet + Voice Lock (@_jiing)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume jen-listings` for this one.
-
----
-
 ---
 thread: jen-listings
 status: ready
@@ -55,4 +43,3 @@ Update skills/jen-santulan-listing-content/SKILL.md and genius.md to make jen-re
 - Voice regression: genius.md's §4 signature patterns still read hype-adjacent ("This shouldn't exist at $799K"); a future session loading Tier 2 without the profile could revert.
 - Client-facing: anything Jen posts carries her license; keep the verify footer attached to every shoot sheet.
 - Stats staleness: never let a spoken number ship without a same-day re-pull.
-

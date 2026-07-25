@@ -23,7 +23,7 @@
                 "nate-b-jones-auto-improvement-loops": 3,
                 "dan-martell-business-scaling": 3,
                 "skill-creator": 1,
-                "jen-santulan-listing-content": 20,
+                "jen-santulan-listing-content": 21,
                 "chief-of-staff-os": 3,
                 "mcp-builder": 1,
                 "luke-iha-cross-domain": 2,
@@ -38,7 +38,7 @@
                 "sharran-srivatsaa-scaling": 2,
                 "chase-hughes-context-engineering": 2,
                 "dai-media-consumer-posture": 2,
-                "Content": 58,
+                "Content": 61,
                 "writing-depth-layer": 3,
                 "Analysis": 9,
                 "seena-rez-tiktok-commerce": 2,
@@ -98,13 +98,13 @@
                 "ben-watkins-storytelling": 1,
                 "alex-m-smith-natural-strategy": 1,
                 "seth-godin-philosophy": 1,
-                "kallaway-word-mastery": 1,
+                "kallaway-word-mastery": 2,
                 "briar-cochran-content-science": 1,
                 "kallaway-illusion-of-novelty": 1
             },
-            "total_routings": 621,
+            "total_routings": 626,
             "tier_counts": {
-                "0": 621,
+                "0": 626,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -114,8 +114,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 360,
-                "finalize-auto": 261
+                "hybrid": 362,
+                "finalize-auto": 264
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -130,7 +130,7 @@
                 "cinema-worldbuilder-pro": 2,
                 "ali-abdaal-action-bias": 4,
                 "skill-creator": 4,
-                "jen-santulan-listing-content": 34,
+                "jen-santulan-listing-content": 35,
                 "deep-research": 10,
                 "system-orchestrator": 3,
                 "David Placek": 1,
@@ -150,7 +150,7 @@
                 "andrew-stanton": 1,
                 "internal-comms": 7,
                 "forge-os": 10,
-                "kallaway-word-mastery": 3,
+                "kallaway-word-mastery": 4,
                 "andrew-stanton-audience-engineering": 3,
                 "claim-safe-health-marketing": 7,
                 "adam-enfroy-affiliate-marketing": 1,
@@ -171,7 +171,7 @@
                 "product-design-build": 4,
                 "joey-noisy-group": 1,
                 "prediction-market-making": 1,
-                "jen-santulan": 3,
+                "jen-santulan": 6,
                 "jack-roberts-design-mastery": 11,
                 "higgsfield-creative-studio": 7,
                 "nate-b-jones-ai-taste-mastery": 2,
@@ -236,7 +236,7 @@
                 "chase-hughes-context-engineering": 7,
                 "seena-rez-tiktok-commerce": 3,
                 "lara-acosta-linkedin-growth": 1,
-                "stefan-georgi-dopamine-copy": 24,
+                "stefan-georgi-dopamine-copy": 25,
                 "mike-foutia-marketing-tools": 2,
                 "dr-kriukow-humanization": 3,
                 "nathan-gotch": 1,
@@ -303,7 +303,7 @@
                 "darrel-wilson-ai-affiliate": 2,
                 "marketing-studio-director": 12,
                 "dara-denney-meta-ads": 33,
-                "enrico-incarnati-instagram-realestate": 1,
+                "enrico-incarnati-instagram-realestate": 2,
                 "tom-noske-personal-brand": 1,
                 "brad-bonanno-explainer-architecture": 2,
                 "web-artifacts-builder": 1,
@@ -312,14 +312,14 @@
                 "algorithmic-art": 1,
                 "jeremy-miner-identity-persuasion": 1,
                 "alex-hormozi": 3,
-                "how-i-write-os": 30,
+                "how-i-write-os": 31,
                 "omar-eddaoudi-scaling-ops": 6,
                 "fraser-cottrell-paid-ads": 4,
                 "asset_generator": 1,
                 "banana-pro-director": 2,
                 "oren-operational-systems": 3,
                 "geoff-woods": 1,
-                "alex-m-smith-natural-strategy": 2,
+                "alex-m-smith-natural-strategy": 3,
                 "nate-b-jones-intent-engineering": 1,
                 "luke-iha-creative-strategy": 8,
                 "lara-acosta": 5,
@@ -387,7 +387,7 @@
             },
             "total_feedback": 87,
             "negative_count": 0,
-            "ensemble_count": 459,
+            "ensemble_count": 461,
             "auto_miss_count": 68,
             "positive_count": 0
         }
@@ -12435,6 +12435,95 @@
             "ensemble": true,
             "compound_pairing": "jen-santulan-listing-content + joshua-smith-real-estate",
             "feedback": "fb_20260725_170349_93c8"
+        },
+        {
+            "routing_id": "rt_20260725_170924_6248",
+            "timestamp": "2026-07-25T17:09:24.157197+00:00",
+            "session_id": "",
+            "request_summary": "1654 Moonseed Ln Simi Valley listing-Reel shoot sheet: 6 Jen hooks + 3 team variations in calibrated 6853-Willis format, live-verified Zillow/CRMLS facts, proof-claims footer",
+            "intent_score": 9,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "listing-hook-set-v2",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_171627_c77c",
+            "timestamp": "2026-07-25T17:16:27.082062+00:00",
+            "session_id": "162ccbbe-aabf-49d9-ac1d-9d41995d8465",
+            "request_summary": "can you scrape her social media and Instagram in order to come out with a better voice profile from previous reels and content? Some of the wording in here and the selection of uniform and real talk i",
+            "intent_score": 0,
+            "domain_detected": "kallaway-word-mastery",
+            "experts_deployed": [
+                "kallaway-word-mastery",
+                "alex-m-smith-natural-strategy",
+                "enrico-incarnati-instagram-realestate"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "kallaway-word-mastery",
+            "ensemble": true,
+            "compound_pairing": "kallaway-word-mastery + alex-m-smith-natural-strategy + enrico-incarnati-instagram-realestate",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_172201_6874",
+            "timestamp": "2026-07-25T17:22:01.095476+00:00",
+            "session_id": "",
+            "request_summary": "1654 Moonseed shoot sheet v2: voice-recalibrated to Jen's real IG register (scraped @_jiing, 20 posts/reels), hooks separated from body scripts, open-house detail added; + jen-real-voice-profile.md re",
+            "intent_score": 9,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "listing-hook-set-v2",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_173213_7c9e",
+            "timestamp": "2026-07-25T17:32:13.579566+00:00",
+            "session_id": "162ccbbe-aabf-49d9-ac1d-9d41995d8465",
+            "request_summary": "Watch 3 of Jen's actual reels with /watch and transcribe her spoken delivery — captions are a proxy; her on-camera cadence would lock the voice profile completely and Write the lowercase caption for w",
+            "intent_score": 0,
+            "domain_detected": "jen-santulan-listing-content",
+            "experts_deployed": [
+                "jen-santulan-listing-content",
+                "stefan-georgi-dopamine-copy",
+                "how-i-write-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "jen-santulan-listing-content",
+            "ensemble": true,
+            "compound_pairing": "jen-santulan-listing-content + stefan-georgi-dopamine-copy + how-i-write-os",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260725_174106_4631",
+            "timestamp": "2026-07-25T17:41:06.242440+00:00",
+            "session_id": "",
+            "request_summary": "Jen voice-lock pass: 3 reels watched frame-by-frame via Playwright canvas capture (spoken=caption confirmed, on-camera delivery documented), voice profile upgraded, lead IG caption written, hook set p",
+            "intent_score": 9,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "jen-santulan"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "listing-hook-set-v2",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
         }
     ]
 }

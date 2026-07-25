@@ -592,3 +592,6 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-24 15:53]` **finalize** | Loop/compound engineering integration: wayfinder map (5 tickets) -> canon research + 12-loop audit + | general | system-audit — composite:8.67 status:Keep
 - `[2026-07-25 09:14]` **finalize** | Briar Cochran — Content Science mastery extraction (forge): 12-workflow skill + 8 born-v2 prompts +  | content | briar-cochran — composite:8.33 status:Keep
 - `[2026-07-25 09:45]` **finalize** | Farrice LinkedIn Arsenal Install (/bc-arsenal-install): through-line + CCN, 14-entry seed keyword le | content | briar-cochran — composite:8.0 status:Keep
+- `[2026-07-25 10:09]` **finalize** | 1654 Moonseed Ln Simi Valley listing-Reel shoot sheet: 6 Jen hooks + 3 team variations in calibrated | content | jen-santulan — composite:8.33 status:Keep
+- `[2026-07-25 10:22]` **finalize** | 1654 Moonseed shoot sheet v2: voice-recalibrated to Jen's real IG register (scraped @_jiing, 20 post | content | jen-santulan — composite:8.67 status:Keep
+- `[2026-07-25 10:41]` **finalize** | Jen voice-lock pass: 3 reels watched frame-by-frame via Playwright canvas capture (spoken=caption co | content | jen-santulan — composite:8.67 status:Keep

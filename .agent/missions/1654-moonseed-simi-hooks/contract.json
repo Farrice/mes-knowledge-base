@@ -1,0 +1,13 @@
+{
+  "slug": "1654-moonseed-simi-hooks",
+  "intent": "Listing-Reel hook set for Jen — 1654 Moonseed Ln, Simi Valley CA 93065 (6 Jen hooks + 3 team variations, shoot-sheet format)",
+  "serves": "revenue-scale-20-30k",
+  "route": "jen-santulan-listing-content/01-listing-content + prompts-v2/listing-hook-set",
+  "stack": ["jen-santulan-listing-content (Tier 2)", "golden-ref: 6853-willis-SHOOT-SHEET.md", "feedback-jen-reel-hook-style"],
+  "pattern": "solo",
+  "expected_spawns": 0,
+  "tier": "T1",
+  "cost": "$0",
+  "gates": ["v2 quality gate (11 tests)", "prose/slop", "proof-claims footer"],
+  "deliverable_paths": ["_active/jen-listings/1654-moonseed-simi-valley/1654-moonseed-SHOOT-SHEET.md"]
+}

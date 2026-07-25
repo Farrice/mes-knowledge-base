@@ -108,8 +108,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-07-25 (chain_runner finalize for briar-cochran-content-science) |
-| **Activation Count** | 724 |
+| **Last Activated** | 2026-07-25 (chain_runner finalize for jen-santulan-listing-content) |
+| **Activation Count** | 727 |
 | **30-Day Review Date** | 2026-08-24 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*
