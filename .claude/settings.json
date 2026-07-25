@@ -115,6 +115,16 @@
             "timeout": 5
           }
         ]
+      },
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/menu_parity_hook.py\"",
+            "timeout": 5
+          }
+        ]
       }
     ],
     "Stop": [
@@ -156,6 +166,11 @@
             "type": "command",
             "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/concurrent_session_alarm.py\"",
             "timeout": 15
+          },
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.venv/bin/python3 \"$CLAUDE_PROJECT_DIR/execution/hooks/menu_parity_hook.py\" sessionstart",
+            "timeout": 10
           }
         ]
       }

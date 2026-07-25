@@ -240,7 +240,52 @@ def apply_plan(plan: Dict[str, Any], limit_families: Optional[int]) -> int:
     return len(writes)
 
 
+def sweep() -> int:
+    """Unattended nightly pass: mint everything, refresh indexes, log the result.
+
+    Exists because the other three parity surfaces all depend on a Claude Code
+    session happening. This one does not — it catches Codex-side builds and any
+    session that ended without a closeout. Always exits 0; a housekeeping job
+    that fails loudly at 3am is a job that gets disabled.
+    """
+    import subprocess
+    from datetime import datetime, timezone
+
+    data = arsenal_index.load_or_build(force=True)
+    plan = build_plan(data, "all", None)
+    minted = apply_plan(plan, None)
+
+    notes = []
+    if minted:
+        for script in ("sync_registries.py", "generate_slash_commands.py"):
+            try:
+                r = subprocess.run([sys.executable, str(ROOT / "execution" / script)],
+                                   capture_output=True, text=True, timeout=300, cwd=str(ROOT))
+                if r.returncode != 0:
+                    notes.append(f"{script} exit {r.returncode}")
+            except Exception as e:
+                notes.append(f"{script} {type(e).__name__}")
+
+    after = arsenal_index.load_or_build(force=True)
+    remaining = sum(len(v) for v in arsenal_index.drift(after).values())
+    rec = {"ts": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+           "source": "nightly-sweep", "minted": minted,
+           "remaining_drift": remaining, "skipped": len(plan["skipped"]),
+           "missing_front_doors": len(plan["missing_front_doors"]), "notes": notes}
+    try:
+        out = ROOT / ".agent" / "sessions" / "menu-parity.jsonl"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        with out.open("a", encoding="utf-8") as fh:
+            fh.write(json.dumps(rec) + "\n")
+    except Exception:
+        pass
+    print(json.dumps(rec))
+    return 0
+
+
 def main() -> int:
+    if len(sys.argv) > 1 and sys.argv[1] == "sweep":
+        return sweep()
     ap = argparse.ArgumentParser(description="Mint menu wrappers + shims for built-but-unfireable workflows.")
     ap.add_argument("--scope", default="all", help="'all' or 'skill'")
     ap.add_argument("skill", nargs="?", help="Skill name when --scope skill")

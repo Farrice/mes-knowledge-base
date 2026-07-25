@@ -24,8 +24,9 @@ Usage:
     python3 execution/end_session_closeout.py run [--slug S] [--degraded] [--dry-run]
 
 Steps (in order): commit-gate, resolve-handoff, closeout-intelligence,
-memory-bridge, cos-journal, archive-session-state, artifact-sweep,
-friction-nudge, finalize-debt-nudge, solution-cards.
+memory-bridge, cos-journal, archive-session-state, session-guide,
+artifact-sweep, menu-parity, friction-nudge, finalize-debt-nudge,
+solution-cards.
 """
 from __future__ import annotations
 
@@ -593,6 +594,83 @@ def step_session_guide(ctx: Dict[str, Any], degraded: bool, dry_run: bool, slug:
         return "FAIL", f"{type(e).__name__}: {e}"
 
 
+def step_menu_parity(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
+    """Make everything this session built actually fireable (Arsenal Loop,
+    2026-07-25).
+
+    A workflow written into skills/<skill>/workflows/ is invisible until a
+    wrapper + shim exist, and that minting was a MANUAL step for months — 728
+    workflows accumulated unfireable. Heartbeat check 7 detects the drift;
+    detection alone cannot fix a minting gap, so this step MINTS. It never
+    blocks: a closeout that fails because of housekeeping is a closeout that
+    gets skipped.
+
+    Index regeneration is best-effort and separately reported — a minted
+    command already fires from .claude/commands/ whether or not the markdown
+    indexes got refreshed.
+    """
+    try:
+        r = subprocess.run(
+            [sys.executable, str(EXEC / "mint_menu_wrappers.py"), "--scope", "all", "--apply"],
+            capture_output=True, text=True, timeout=240, cwd=str(ROOT),
+        ) if not dry_run else None
+        if dry_run:
+            d = subprocess.run(
+                [sys.executable, str(EXEC / "mint_menu_wrappers.py"), "--scope", "all", "--dry-run"],
+                capture_output=True, text=True, timeout=240, cwd=str(ROOT),
+            )
+            first = next((ln for ln in (d.stdout or "").splitlines() if ln.strip()), "(no output)")
+            return "SKIP", f"dry-run — {first[:180]}"
+        if r.returncode != 0:
+            err = [ln for ln in (r.stderr or "").splitlines() if ln.strip()]
+            return "FAIL", f"exit {r.returncode} — {(err[-1] if err else '')[:200]}"
+
+        minted_line = next((ln for ln in (r.stdout or "").splitlines() if ln.startswith("MINTED")),
+                           "MINTED 0 file(s)")
+        minted = int(re.search(r"MINTED (\d+)", minted_line).group(1)) if "MINTED" in minted_line else 0
+
+        idx_note = ""
+        if minted:
+            for script in ("sync_registries.py", "generate_slash_commands.py"):
+                try:
+                    g = subprocess.run([sys.executable, str(EXEC / script)],
+                                       capture_output=True, text=True, timeout=180, cwd=str(ROOT))
+                    if g.returncode != 0:
+                        idx_note += f" · {script} exit {g.returncode}"
+                except Exception as e:
+                    idx_note += f" · {script} {type(e).__name__}"
+            idx_note = idx_note or " · indexes refreshed"
+
+        remaining = 0
+        try:
+            dr = subprocess.run([sys.executable, str(EXEC / "arsenal_index.py"), "drift", "--json"],
+                                capture_output=True, text=True, timeout=120, cwd=str(ROOT))
+            remaining = int(json.loads(dr.stdout).get("total", 0))
+        except Exception:
+            remaining = -1
+
+        try:
+            rec = {"ts": _now_iso(), "source": "end-session", "minted": minted,
+                   "remaining_drift": max(remaining, 0)}
+            path = SESSIONS_DIR / "menu-parity.jsonl"
+            path.parent.mkdir(parents=True, exist_ok=True)
+            with path.open("a", encoding="utf-8") as fh:
+                fh.write(json.dumps(rec) + "\n")
+        except Exception:
+            pass
+
+        if not minted:
+            return "OK", ("nothing new to mint — everything built is fireable"
+                          if remaining == 0 else
+                          f"nothing minted; {remaining} pre-existing unreachable workflow(s) remain")
+        return "OK", (f"minted {minted} file(s){idx_note}"
+                      + (f" · {remaining} still unreachable" if remaining > 0 else " · parity clean"))
+    except subprocess.TimeoutExpired:
+        return "FAIL", "mint timed out (240s) — run mint_menu_wrappers.py --scope all --apply by hand"
+    except Exception as e:
+        return "FAIL", f"{type(e).__name__}: {e}"
+
+
 # ─────────────────────────────────────────────────────────────
 # spine runner
 # ─────────────────────────────────────────────────────────────
@@ -608,6 +686,7 @@ def run(slug: str, degraded: bool, dry_run: bool) -> int:
         ("archive-session-state", lambda: step_archive_session_state(ctx, degraded, dry_run, slug)),
         ("session-guide", lambda: step_session_guide(ctx, degraded, dry_run, slug)),
         ("artifact-sweep", lambda: step_artifact_sweep(ctx, degraded, dry_run)),
+        ("menu-parity", lambda: step_menu_parity(ctx, degraded, dry_run)),
         ("friction-nudge", lambda: step_friction_nudge(ctx, degraded, dry_run)),
         ("finalize-debt-nudge", lambda: step_finalize_debt_nudge(ctx, degraded, dry_run)),
         ("solution-cards", lambda: step_solution_cards(ctx, degraded, dry_run)),
