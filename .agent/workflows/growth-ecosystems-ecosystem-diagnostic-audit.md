@@ -1,0 +1,13 @@
+---
+description: "/growth-ecosystems-ecosystem-diagnostic-audit — Audit any info business against Vincent's 7-step framework — identify exactly which stage is broken and deliver prioritized fix recommendations"
+---
+<!-- auto-generated: menu wrapper (mint_menu_wrappers.py) — safe to delete; regenerated on the next parity sweep -->
+
+# /growth-ecosystems-ecosystem-diagnostic-audit — Ecosystem Diagnostic & Audit
+
+Thin wrapper — the full methodology lives in the skill.
+
+## Steps
+1. Load the spine: read `skills/growth-ecosystems/genius.md` (patterns, signature moves, Anti-Patterns, Recognition Test).
+2. Read and execute `skills/growth-ecosystems/workflows/10-ecosystem-diagnostic-audit.md` exactly as documented.
+3. Run the workflow's Quality Gate before delivering.

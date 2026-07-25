@@ -68,6 +68,10 @@ SCHEMA_VERSION = 1
 REACHABLE, UNREACHABLE, EXEMPT = "reachable", "unreachable", "exempt"
 
 _H1_RE = re.compile(r"^#\s+(.+?)\s*$", re.M)
+# Wrappers and shims prefix their own command onto the description
+# ("/foo — does a thing"). Listing that verbatim under a "/foo" column reads as
+# "/foo  /foo — does a thing". Strip the echo, keep the meaning.
+_SELF_PREFIX_RE = re.compile(r"^/[a-z0-9][a-z0-9-]*\s*[—:-]\s*")
 
 
 # ──────────────────────────────────────────────────────────────────────────
@@ -78,11 +82,11 @@ def _describe(path: Path) -> str:
     """Frontmatter description → first H1 → first prose sentence."""
     desc = extract_description(path)
     if desc:
-        return desc[:400]
+        return _SELF_PREFIX_RE.sub("", desc)[:400]
     raw = _read_text(path)
     m = _H1_RE.search(raw)
     if m:
-        return m.group(1).strip()[:400]
+        return _SELF_PREFIX_RE.sub("", m.group(1).strip())[:400]
     for line in raw.splitlines():
         line = line.strip()
         if line and not line.startswith(("---", "#", "|", ">", "`", "<!--")):
