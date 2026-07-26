@@ -267,3 +267,7 @@
 {"ts": "2026-07-21T14:19:47Z", "label": "2026-07-21 health-performance brief", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-21T14:21:50Z", "label": "2026-07-21 final recheck", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-21T14:24:16Z", "label": "2026-07-21 final", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-26T14:17:20Z", "label": "_active/health-performance-ip-library/daily/2026-07-26-health-performance-geo-brief.md", "verdict": "FAIL", "fails": ["prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-07-26T14:17:54Z", "label": "_active/health-performance-ip-library/daily/2026-07-26-health-performance-geo-brief.md", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-26T14:22:45Z", "label": "_active/health-performance-ip-library/daily/2026-07-26-health-performance-geo-brief.md", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-26T14:23:02Z", "label": "_active/health-performance-ip-library/daily/2026-07-26-health-performance-geo-brief.md", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
