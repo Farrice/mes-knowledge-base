@@ -42572,7 +42572,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1780357878.160463
+   "mtime": 1785098105.850006
   },
   {
    "id": "deep-work",
@@ -64750,7 +64750,7 @@
    "has_prompts_v2": false,
    "family": null,
    "last_fired": null,
-   "mtime": 1784324880.054256
+   "mtime": 1785096910.8590417
   },
   {
    "id": "sync-instructions",
@@ -76456,6 +76456,6 @@
  ],
  "fingerprint": [
   8879,
-  1785028806.941
+  1785098105.85
  ]
 }

@@ -10,6 +10,11 @@
 
 | I want to… | Go to |
 |---|---|
+| **Research quality / trusting a swarm's output (Research Depth Fix)** | |
+| Decide whether a research artifact is decision-grade or reconnaissance | [Research Depth Fix](2026-07-26-research-depth-fix.md) |
+| Gate ANY research file (incl. ad-hoc swarm output) against the depth contract | [Research Depth Fix](2026-07-26-research-depth-fix.md) |
+| Reach a primary source behind JavaScript/login (Meta Ad Library, live pricing pages) | [Research Depth Fix](2026-07-26-research-depth-fix.md) |
+| Write a research-shaped swarm brief that can't come back shallow | [Research Depth Fix](2026-07-26-research-depth-fix.md) |
 | **Agentic marketing ops / scraping / ad intel (Riley Brown OS)** | |
 | Scrape any creator's content into the Social Intelligence Notion DB (video+transcript+metrics) | [Riley Brown OS](2026-07-25-riley-brown-os.md) |
 | Pull a brand's winning Meta ads at $0 (longest-running ranking, no Foreplay) | [Riley Brown OS](2026-07-25-riley-brown-os.md) |
