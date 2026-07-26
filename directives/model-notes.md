@@ -32,6 +32,12 @@
 - For current model IDs/pricing/params, consult the `claude-api` skill — never answer from memory.
 - **Model Dialect Cards** (`directives/model-dialects/<model>.md`, via `/forge dialect <model>`):
   probe-evidenced quirks + DO/DON'T per model. Read the card before writing prompts, gates, or
-  sub-agent dispatches pinned to that model. First card: `claude-haiku-4-5.md` (2026-07-15 —
-  headline: inline instructions silently override standing rules; restate binding rules inside
-  the task block).
+  sub-agent dispatches pinned to that model. Cards on file:
+  - `claude-opus-5.md` (2026-07-26 — headline: **subagents inherit CLAUDE.md and will execute its
+    side effects unasked** — a one-line copy brief ran the full Chain and wrote to Notion; scope
+    dispatch briefs negatively. Also: it *flags* instruction conflicts rather than resolving them
+    silently, so the restate-binding-rules tax does NOT apply at this tier.)
+  - `claude-sonnet-5.md` (2026-07-15 — headline: silently lets inline asks override standing
+    rules, unflagged; echoes unfilled brackets without asking. Restate binding rules in-task.)
+  - `claude-haiku-4-5.md` (2026-07-15 — headline: inline instructions silently override standing
+    rules; restate binding rules inside the task block.)
