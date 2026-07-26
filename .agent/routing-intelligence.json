@@ -63,7 +63,7 @@
                 "story-bible-builder": 1,
                 "jason-fladlien-marketing": 12,
                 "how-i-write-os": 12,
-                "supercomputer": 38,
+                "supercomputer": 39,
                 "design-md": 13,
                 "fantastic-posters": 2,
                 "Creative": 9,
@@ -105,9 +105,9 @@
                 "diandra-escobar-linkedin-mastery": 1,
                 "riley-brown-marketing-automation": 1
             },
-            "total_routings": 651,
+            "total_routings": 652,
             "tier_counts": {
-                "0": 651,
+                "0": 652,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -117,7 +117,7 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 378,
+                "hybrid": 379,
                 "finalize-auto": 273
             },
             "expert_counts": {
@@ -162,7 +162,7 @@
                 "cooz-voice-profile": 3,
                 "none": 9,
                 "market-intelligence": 1,
-                "nate-b-jones-context-engineering": 40,
+                "nate-b-jones-context-engineering": 41,
                 "nicolas-cole": 2,
                 "omar-eltakrori": 1,
                 "josh-kaufman-business-fundamentals": 1,
@@ -191,7 +191,7 @@
                 "tommy-clark": 2,
                 "deliberate": 27,
                 "creative-director": 1,
-                "doc-coauthoring": 55,
+                "doc-coauthoring": 56,
                 "dan-wang-literary-analysis": 2,
                 "webapp-testing": 3,
                 "brand-operating-system": 24,
@@ -258,7 +258,7 @@
                 "story-bible-builder": 2,
                 "jason-fladlien-marketing": 15,
                 "luisa-zhou-coaching": 2,
-                "supercomputer": 51,
+                "supercomputer": 52,
                 "design-md": 23,
                 "alex-content-science": 4,
                 "system-audit": 24,
@@ -394,10 +394,10 @@
                 "diandra-escobar-linkedin-mastery": 1,
                 "riley-brown-marketing-automation": 1
             },
-            "total_feedback": 88,
+            "total_feedback": 89,
             "negative_count": 0,
-            "ensemble_count": 480,
-            "auto_miss_count": 69,
+            "ensemble_count": 481,
+            "auto_miss_count": 70,
             "positive_count": 0
         }
     },
@@ -1184,6 +1184,15 @@
             "rating": "auto_miss",
             "correction": "dara-denney-meta-ads",
             "notes": "expert skill 'dara-denney-meta-ads' loaded not matching suggestion ['supercomputer', 'doc-coauthoring', 'sharran-srivatsaa-scaling']"
+        },
+        {
+            "feedback_id": "fb_20260726_224035_3372",
+            "timestamp": "2026-07-26T22:40:35.882336+00:00",
+            "session_id": "2cd3cf47-ffe8-4124-a61b-3eb13a084ab7",
+            "routing_id": "rt_20260726_223926_856a",
+            "rating": "auto_miss",
+            "correction": "chief-of-staff-os",
+            "notes": "expert skill 'chief-of-staff-os' loaded not matching suggestion ['supercomputer', 'nate-b-jones-context-engineering', 'doc-coauthoring']"
         }
     ],
     "routing_decisions": [
@@ -12999,6 +13008,25 @@
             "ensemble": true,
             "compound_pairing": "ben-watkins-storytelling + lamott-allen-really-real-writing + writing-depth-layer",
             "feedback": null
+        },
+        {
+            "routing_id": "rt_20260726_223926_856a",
+            "timestamp": "2026-07-26T22:39:26.957450+00:00",
+            "session_id": "2cd3cf47-ffe8-4124-a61b-3eb13a084ab7",
+            "request_summary": "Context: This summary will be shown in a list to help users and Claude choose which conversations are relevant.\n\nPlease write a concise, factual summary of this conversation. Output ONLY the summary -",
+            "intent_score": 0,
+            "domain_detected": "supercomputer",
+            "experts_deployed": [
+                "supercomputer",
+                "nate-b-jones-context-engineering",
+                "doc-coauthoring"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "supercomputer",
+            "ensemble": true,
+            "compound_pairing": "supercomputer + nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": "fb_20260726_224035_3372"
         }
     ]
 }

@@ -184,3 +184,5 @@
 {"ts": "2026-07-24T22:13:17.625151+00:00", "tool": "mcp__perplexity-ask__perplexity_search", "service": "perplexity", "billable": true, "session_id": "a4d25e8b-e4f9-4acc-9527-2e619de9d1ed"}
 {"ts": "2026-07-24T22:13:27.543102+00:00", "tool": "mcp__perplexity-ask__perplexity_search", "service": "perplexity", "billable": true, "session_id": "a4d25e8b-e4f9-4acc-9527-2e619de9d1ed"}
 {"ts": "2026-07-24T22:13:45.636577+00:00", "tool": "mcp__perplexity-ask__perplexity_search", "service": "perplexity", "billable": true, "session_id": "a4d25e8b-e4f9-4acc-9527-2e619de9d1ed"}
+{"ts": "2026-07-26T22:52:25.309722+00:00", "tool": "mcp__perplexity-ask__perplexity_search", "service": "perplexity", "billable": true, "session_id": "7d6ac5bb-bd97-450f-8aec-12f47e3e9505"}
+{"ts": "2026-07-26T22:53:01.210858+00:00", "tool": "mcp__perplexity-ask__perplexity_search", "service": "perplexity", "billable": true, "session_id": "7d6ac5bb-bd97-450f-8aec-12f47e3e9505"}
