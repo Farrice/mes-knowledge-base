@@ -104,3 +104,5 @@
 {"ts": "2026-07-21T15:51:33.309829+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
 {"ts": "2026-07-21T16:23:05.520276+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
 {"ts": "2026-07-24T22:40:49.972822+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
+{"ts": "2026-07-26T15:43:01.118574+00:00", "event": "check", "service": "fal-seedance-1080p", "decision": "denied", "request": "python3 execution/fal_video_seedance.py --resolution 1080p --duration 5"}
+{"ts": "2026-07-26T19:35:16.890546+00:00", "event": "check", "service": "gemini-deep-research", "decision": "approved", "request": "which tvly 2>&1; cd \"/Users/farricecain/Google Antigravity\"; grep -n -E \"MODE|mode ==|max|standard|model|MODEL\" execution/deep_research_client.py | head -30; ec"}

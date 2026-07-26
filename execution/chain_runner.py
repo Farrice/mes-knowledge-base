@@ -813,6 +813,11 @@ def finalize(
     # tracker default (14d).
     expected_outcome: str = "",
     check_in_days: Optional[int] = None,
+    # Research depth gate (added 2026-07-26, shallow-research fix): path to a
+    # depth-gate receipt JSON produced by `research_quality_gate.py validate
+    # --receipt`. Research-type finalizes without a PASSING receipt get Factual
+    # Grounding capped at 6 (see Step 2.4).
+    depth_receipt: str = "",
     # Learning-debt latch (Solution Recorder, added 2026-07-07): finalize
     # refuses to proceed if the newest session ledger has open learning_debt
     # (a hard-won fix never captured as a Solution Card), unless the caller
@@ -1115,6 +1120,33 @@ def finalize(
                 _scan_text = _cp.read_text()
         except Exception:
             pass
+
+    # ── Step 2.4: Research depth gate (2026-07-26 shallow-research fix) ──
+    # A Research-type deliverable without a PASSING depth-gate receipt
+    # (execution/research_quality_gate.py validate --receipt) caps Factual
+    # Grounding at 6.0. URL-having is not coverage: this is what stops a
+    # reconnaissance sweep from being laundered into "trusted insight" by a
+    # high self-scored grounding number. Shallow work may exist; shallow work
+    # scored as decision-grade may not.
+    depth_gate_status = "N/A"
+    if task_type == "Research":
+        _receipt_ok = False
+        if depth_receipt:
+            try:
+                _rd = json.loads(Path(depth_receipt).read_text())
+                _receipt_ok = bool(_rd.get("overall_pass"))
+                depth_gate_status = "PASS" if _receipt_ok else "FAIL"
+            except Exception:
+                depth_gate_status = "UNREADABLE"
+        else:
+            depth_gate_status = "MISSING"
+        if not _receipt_ok and factual_grounding is not None and factual_grounding > 6.0:
+            factual_grounding = 6.0
+            notes = (notes + " | DEPTH GATE: no passing depth receipt — Factual Grounding "
+                             "capped at 6 (RECON-GRADE, not decision-grade). Run "
+                             "research_quality_gate.py validate --receipt and pass "
+                             "--depth-receipt to lift the cap.").strip(" |")
+
     enforced = _enforce_caps(
         raw_scores={
             "intent_alignment": intent_alignment,
@@ -1172,6 +1204,7 @@ def finalize(
     result["expert_standard"] = expert_standard
     result["adversarial_resilience"] = adversarial_resilience
     result["factual_grounding"] = factual_grounding
+    result["depth_gate"] = depth_gate_status
     result["taste_verdict"] = adjusted.taste_verdict
     result["anchor_named"] = anchor_named
     # Audit trail: Wave 1 caps + Wave 2 taste adjustments combined
@@ -2105,6 +2138,7 @@ def main():
     fin.add_argument("--anchor-ref-for", default="", help="Comma-separated list of later phase names that must reference this anchor.")
     # Excellence Lift Wave 1 (added 2026-05-21)
     fin.add_argument("--factual", type=float, default=None, help="Factual grounding score 1-10. Omit for N/A (pure creative/opinion). Score <6 BLOCKS delivery per quality_gate.md factual veto.")
+    fin.add_argument("--depth-receipt", default="", help="Path to depth-gate receipt JSON from `research_quality_gate.py validate --receipt`. Research-type finalizes without a PASSING receipt cap Factual Grounding at 6 (RECON-GRADE).")
     # Excellence Lift Wave 2 (added 2026-05-21)
     fin.add_argument("--anchor-named", nargs="?", const="", default="", metavar="PHRASE",
                      help="The rubric_v1.md anchor phrase your ≥8 score matches (e.g. \"Anchor 9 — expert would sign it unchanged\"). REQUIRED (non-empty) whenever any dimension score is ≥8 — finalize refuses otherwise. Bare --anchor-named (no phrase) no longer counts. Unanchored ≥8s used to slip through and get flattened to 7.25 by the bimodal taste filter (taste_signature.py Rule 2); now they refuse at input.")
@@ -2188,6 +2222,7 @@ def main():
             content_path=_content_path,
             expected_outcome=args.expected_outcome,
             check_in_days=args.check_in,
+            depth_receipt=args.depth_receipt,
             learning_path=args.learning_path,
             skip_learning=args.skip_learning,
             skip_blind_pass=args.skip_blind_pass,

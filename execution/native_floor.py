@@ -53,11 +53,18 @@ import subprocess as _subprocess
 
 TMP = ROOT / ".tmp" / "research"
 
-# The native floor's source thresholds. Lighter than the paid-deep bar of 15 —
-# the floor is the reliable baseline; the agent fan-out + the dispatcher's
-# quality-gate pass enforce the higher bar where the depth demands it.
-DEPTH_MIN_SOURCES = {"quick": 2, "standard": 3, "deep": 6, "max": 8}
-DEPTH_MIN_DOMAINS = {"quick": 2, "standard": 3, "deep": 3, "max": 4}
+# Depth floors now live in ONE place — execution/research_depth.py (the depth
+# contract). The old local copies (deep=6 sources vs the protocol's 15) were how
+# "deep" runs could legally be six Tavily snippets. Kept as module-level dicts
+# for backward compatibility with existing importers.
+try:
+    from research_depth import DEPTH as _DEPTH_CONTRACT
+except ImportError:
+    from execution.research_depth import DEPTH as _DEPTH_CONTRACT
+
+DEPTH_MIN_SOURCES = {d: c["sources"] for d, c in _DEPTH_CONTRACT.items()}
+DEPTH_MIN_DOMAINS = {d: c["domains"] for d, c in _DEPTH_CONTRACT.items()}
+DEPTH_EXTRACTS = {d: c["extracts"] for d, c in _DEPTH_CONTRACT.items()}
 
 
 # ---------------------------------------------------------------------------
@@ -291,8 +298,13 @@ def write_directive(query: str, depth: str, search_queries: List[str],
 # Ingest agent findings → typed result
 # ---------------------------------------------------------------------------
 
-def _status_for(findings: List[Finding], sources: List[Source], depth: str
+def _status_for(findings: List[Finding], sources: List[Source], depth: str,
+                extracted_urls: Optional[set] = None
                 ) -> Tuple[ResearchStatus, List[str]]:
+    """Depth verdict. When `extracted_urls` is provided (the deterministic floor
+    path), snippet-only sources count HALF toward the source floor — a claim
+    built from a 400-char snippet is not the same evidence as a read page.
+    Agent-fan-out ingest passes None (agents WebFetch full pages by contract)."""
     warnings: List[str] = []
     if not findings:
         return ResearchStatus.FAILED, ["no sourced findings — floor produced nothing usable"]
@@ -300,10 +312,19 @@ def _status_for(findings: List[Finding], sources: List[Source], depth: str
     domains = {Source(url=u).domain for u in urls if u}
     min_src = DEPTH_MIN_SOURCES.get(depth, 3)
     min_dom = DEPTH_MIN_DOMAINS.get(depth, 3)
-    if len(urls) >= min_src and len(domains) >= min_dom:
+    if extracted_urls is not None:
+        full = {u for u in urls if u in extracted_urls}
+        snippet_only = urls - full
+        effective = len(full) + 0.5 * len(snippet_only)
+        coverage_note = (f"{len(full)} full-page + {len(snippet_only)} snippet-only "
+                         f"= {effective:.1f} effective sources")
+    else:
+        effective = float(len(urls))
+        coverage_note = f"{len(urls)} sources"
+    if effective >= min_src and len(domains) >= min_dom:
         return ResearchStatus.REAL, warnings
     warnings.append(
-        f"thin coverage for depth={depth}: {len(urls)} sources / {len(domains)} domains "
+        f"thin coverage for depth={depth}: {coverage_note} / {len(domains)} domains "
         f"(floor: {min_src} sources / {min_dom} domains) — treat as DEGRADED"
     )
     return ResearchStatus.DEGRADED, warnings
@@ -410,23 +431,70 @@ def run_floor(query: str, depth: str = "standard", slug: Optional[str] = None,
                 if f.source_url not in fseen:
                     fseen.add(f.source_url); findings.append(f)
 
+    # FULL-PAGE EXTRACTION — the anti-snippet leg (2026-07-26 shallow-research
+    # fix). tavily_extract sat here as dead code with zero callers while every
+    # claim shipped as a 400-char snippet. Now the floor reads real pages: top
+    # URLs (spread across domains, capped at tvly's 20/call) get extracted, and
+    # each extracted page upgrades its finding's claim/excerpt to page content.
+    extracted_urls: set = set()
+    n_extract = DEPTH_EXTRACTS.get(depth, 0)
+    if n_extract and sources:
+        by_domain: Dict[str, List[str]] = {}
+        for s in sources:
+            if s.url:
+                by_domain.setdefault(s.domain, []).append(s.url)
+        picks: List[str] = []
+        # round-robin across domains so extraction depth also buys domain spread
+        while len(picks) < min(20, n_extract * max(3, len(by_domain))) and any(by_domain.values()):
+            for dom in list(by_domain):
+                if by_domain[dom]:
+                    picks.append(by_domain[dom].pop(0))
+                if len(picks) >= 20:
+                    break
+        pages = tavily_extract(picks, query=query)
+        by_url = {f.source_url: f for f in findings}
+        for pg in pages:
+            content = (pg.get("raw_content") or "").strip().replace("\n", " ")
+            if len(content) < 80:
+                continue
+            extracted_urls.add(pg["url"])
+            try:
+                upgraded = Finding(
+                    claim=content[:400], source_url=pg["url"], excerpt=content[:300],
+                    confidence="high", finding_type="data",
+                )
+            except Exception:
+                continue
+            if pg["url"] in by_url:
+                findings[findings.index(by_url[pg["url"]])] = upgraded
+            else:
+                findings.append(upgraded)
+                if pg["url"] not in {s.url for s in sources}:
+                    sources.append(Source(url=pg["url"], title=pg.get("title", "")))
+
     directive = write_directive(query, depth, queries, sources, out_dir)
 
     warnings: List[str] = []
     if findings:
-        status = ResearchStatus.DEGRADED
-        if used_research:
+        status, status_warnings = _status_for(findings, sources, depth,
+                                              extracted_urls=extracted_urls)
+        warnings += status_warnings
+        leg = "research+search" if used_research else "search"
+        extract_note = (f", {len(extracted_urls)} full-page extract(s)"
+                        if extracted_urls else ", 0 full-page extracts")
+        if status == ResearchStatus.REAL:
             warnings.append(
-                f"Tavily research+search floor ({len(sources)} sources, cited report). "
-                f"Run the agent fan-out in {directive.name} → ingest for full swarm depth."
+                f"Tavily {leg} floor met the {depth} depth contract "
+                f"({len(sources)} sources{extract_note})."
             )
         else:
             warnings.append(
-                f"Tavily-only floor ({len(sources)} sources). Run the agent fan-out in "
-                f"{directive.name} → ingest to reach REAL depth."
+                f"Tavily {leg} floor ({len(sources)} sources{extract_note}). Run the "
+                f"agent fan-out in {directive.name} → ingest to reach REAL depth."
             )
         outcome = AttemptOutcome.ACTIVE
-        detail = f"Tavily {len(sources)} sources" + (" + cited report" if used_research else " (fan-out pending)")
+        detail = (f"Tavily {len(sources)} sources{extract_note}"
+                  + (" + cited report" if used_research else ""))
     else:
         status = ResearchStatus.FAILED
         warnings.append(

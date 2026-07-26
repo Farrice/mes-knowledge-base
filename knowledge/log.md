@@ -598,3 +598,11 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-25 10:51]` **finalize** | social_intel.py hardening: date normalization across actor formats + single-video-URL guard resolvin | general | none — composite:8.33 status:Keep
 - `[2026-07-25 14:49]` **finalize** | Dara Denney Creative Strategy OS extraction forge extension | general | dara-denney — composite:8.0 status:Keep
 - `[2026-07-25 15:24]` **finalize** | Momentous 7-station reputation analysis — deliverables/momentous-reputation-analysis-2026-07-25.md | general | dara-denney — composite:8.33 status:Keep
+- `[2026-07-25 17:54]` **finalize** | Testimonial Capture Kit for Josh & Katie (3 ghost-written drafts, transferable-layer positioning fra | general | Luke Iha — composite:8.33 status:Keep
+- `[2026-07-25 18:06]` **finalize** | Father-son training block for JJ (2y8m) — 20-min structure using JJ as load across 5 movement patter | general | Eugene Teo — composite:8.0 status:Keep
+- `[2026-07-25 18:21]` **finalize** | Wargame 01 — The Path A Fork: CoWork handoff bundle imported and harmonized against the 2026-07-07 P | general | Mark Kashef — composite:8.67 status:Keep
+- `[2026-07-25 19:37]` **finalize** | Offer re-derivation swarm — 12 agents (6 evidence sweeps, 3 path builds, 3 adversarial attacks), all | general | Mark Kashef — composite:8.67 status:Keep
+- `[2026-07-26 05:04]` **lint** | Lint scan — 47 issues (23 errors, 12 warnings) — Files scanned: 745
+- `[2026-07-26 05:04]` **compile** | Full compilation — 745 files, 2,897,259 words, 47 lint issues
+- `[2026-07-26 15:07]` **finalize** | Two-sentence cold email opener for [CLIENT NAME] supplement brand ($2M/yr, no prior creative teardow | general | dara-denney — composite:7.67 status:Keep
+- `[2026-07-26 15:17]` **finalize** | Research-stack depth fix (8 changes: single depth contract, tavily_extract wired, loud DEGRADED, ver | general | Mark Kashef — composite:8.67 status:Keep

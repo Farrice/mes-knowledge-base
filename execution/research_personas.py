@@ -30,9 +30,14 @@ except ImportError:
     from execution.deep_research_engine import decompose_query, detect_research_intent
 
 
-# How many expert agents to fan out per depth tier (user-locked).
+# How many expert agents to fan out per depth tier (user-locked). Now sourced
+# from the single depth contract (execution/research_depth.py) — 2026-07-26.
 # Workflow runs ~16 concurrent; the rest queue. These are TOTAL agents.
-DEPTH_AGENT_COUNT = {"quick": 3, "standard": 6, "deep": 11, "max": 36}
+try:
+    from research_depth import DEPTH as _DEPTH_CONTRACT
+except ImportError:
+    from execution.research_depth import DEPTH as _DEPTH_CONTRACT
+DEPTH_AGENT_COUNT = {d: c["agents"] for d, c in _DEPTH_CONTRACT.items()}
 
 # Each research angle → a roster of world-class expert lenses (real personas from
 # agents/_framework/invocation-cards.md + parallel_swarm.ENSEMBLE_FALLBACKS where

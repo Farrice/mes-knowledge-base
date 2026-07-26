@@ -43,6 +43,20 @@ Two orderings: **depth-first** (for insight-grade research, the default for Stan
 
 ## Depth Levels
 
+> **SINGLE SOURCE OF TRUTH: `execution/research_depth.py`** (2026-07-26). The
+> floors below are a human-readable mirror of that contract — if they ever
+> disagree, the code wins and this file is stale. The contract also carries
+> what this table historically omitted, which is how "deep" runs shipped as
+> six snippets: **gap-fill rounds** (standard=1, deep=2, max=3), **full-page
+> extracts per subtopic** (snippets count HALF toward the source floor), and
+> **independent verification of ALL load-bearing claims** (cap 20; the finder
+> never verifies its own claim). Any research artifact — including ad-hoc
+> Workflow swarms, which previously bypassed every floor — is validated with
+> `python3 execution/research_quality_gate.py validate <report> --depth <tier> --receipt`;
+> a Research-type finalize without that PASSING receipt gets Factual Grounding
+> capped at 6 by `chain_runner.py` (deterministic). Unvalidated research ships
+> with a `⚠️ RECON-GRADE — not decision-grade` banner.
+
 ### Quick (Sanity Check)
 - **When**: Fact-checking a single claim, quick context gathering
 - **Tools**: 3-5 `search_web` calls
@@ -59,10 +73,10 @@ Two orderings: **depth-first** (for insight-grade research, the default for Stan
 
 ### Deep (Strategic Intelligence)
 - **When**: User explicitly requests deep research, strategy briefs, critical decisions
-- **Tools**: Full swarm-research workflow (see `.agent/workflows/swarm-research.md`)
-- **Cost**: $0.50-0.75 (if Perplexity premium used; $0 if free-tier only)
-- **Time**: 8-15 minutes
-- **Source minimum**: 15
+- **Tools**: Full deep-research workflow (see `.agent/workflows/deep-research.md`; the multi-wave engine is `.agent/workflows/deep-research-swarm.workflow.js`)
+- **Cost**: $0 — Gemini Deep Research is Ultra-quota-covered (fire it as a background accelerator on every deep/max run via `research.py gemini-start`); Perplexity is DEAD, never propose paid credits
+- **Time**: 15-40 minutes (2 gap-fill waves + independent verification — single-pass "deep" is a contradiction)
+- **Source minimum**: 15 across 6+ domains, full-page reads (snippets count half)
 
 ---
 
@@ -101,11 +115,13 @@ Save resources — don't research when:
 For any research deeper than Quick, use the decompose-parallel-synthesize pattern:
 
 1. **Decompose**: Break the question into 4-6 sub-questions using `deep_research_engine.py --decompose-only`
-2. **Research in parallel**: Each sub-question gets its own research track with `search_web` + `read_url_content`
-3. **Synthesize**: Cross-reference findings across all tracks, flag contradictions
-4. **Quality gate**: Run `research_quality_gate.py validate` on the output
+2. **Research in parallel**: Each sub-question gets its own research track with `search_web` + `read_url_content` — full-page reads, never snippet-only. JS-rendered/login-gated primary sources route to the Playwright lane, never dropped silently.
+3. **Gap-fill**: a completeness critic names material gaps; follow-up agents close them (rounds per the depth contract — standard 1, deep 2, max 3)
+4. **Verify**: every load-bearing claim attacked by an agent that did NOT find it (refute-default; REFUTED claims dropped)
+5. **Synthesize**: cross-reference findings across all tracks, flag contradictions
+6. **Quality gate**: `research_quality_gate.py validate <report> --depth <tier> --receipt` — the receipt feeds `chain_runner.py finalize --depth-receipt`
 
-Full protocol: `.agent/workflows/swarm-research.md`
+Full protocol: `.agent/workflows/deep-research.md` (note: `swarm-research.md` is a superseded stub — do not cite it as the protocol)
 
 ---
 

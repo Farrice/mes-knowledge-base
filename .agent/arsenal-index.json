@@ -69415,7 +69415,21 @@
    "family": "\ud83d\udcc8 LinkedIn \u2014 Diandra Escobar",
    "workflow_count": 22,
    "last_fired": null,
-   "mtime": 1785015429.7607872
+   "mtime": 1785028806.9405427
+  },
+  {
+   "id": "diandra-escobar-linkedin-mastery",
+   "kind": "skill",
+   "skill": "diandra-escobar-linkedin-mastery",
+   "path": "skills/diandra-escobar-linkedin-mastery/SKILL.md",
+   "description": "Deploy Diandra Escobar's complete LinkedIn Journey System plus Domain Arsenal \u2014 17 practitioner capabilities that PRODUCE finished LinkedIn deliverables (2026 algorithm-native, buyer's-journey method). Use for ANY LinkedIn or B2B personal-brand task: writing posts, hooks, threads, carousels, or video scripts; optimizing a profile, headline, or about section; comment strategy; content calendars and",
+   "menu_status": "unreachable",
+   "front_door": null,
+   "has_prompts_v2": false,
+   "family": "\ud83d\udcc8 LinkedIn \u2014 Diandra Escobar",
+   "workflow_count": 0,
+   "last_fired": null,
+   "mtime": 1785028806.9397264
   },
   {
    "id": "doc-coauthoring",
@@ -76441,7 +76455,7 @@
   }
  ],
  "fingerprint": [
-  8878,
-  1785015484.125
+  8879,
+  1785028806.941
  ]
 }

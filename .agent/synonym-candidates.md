@@ -36,3 +36,8 @@ generalizes (vs. being a one-off), and hand-adds it to `SYNONYMS` if so.
 ## 2026-07-21
 
 - `extract-forge` -> `paolo-trivellato-lead-magnet-engine` (manual load, 2026-07-21T06:39:04.364096)
+
+## 2026-07-26
+
+- `extract-forge` -> `briar-cochran-content-science` (manual load, 2026-07-25T09:14:09.512247)
+- `extract-forge` -> `dara-denney-meta-ads` (manual load, 2026-07-25T14:49:41.158504)

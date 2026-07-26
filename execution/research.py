@@ -482,8 +482,30 @@ def _cli() -> int:
         a = p.parse_args(argv)
         res = research(a.query, depth=a.depth, task_context=a.task_context)
 
-    print(res.to_json() if getattr(a, "json", False) else res.render_receipt())
-    return 0 if res.is_usable else 2
+    # DEPTH CONTRACT ENFORCEMENT (2026-07-26 shallow-research fix): at deep/max,
+    # DEGRADED is a FAILURE, not a pass. A "deep" result below its floor used to
+    # return quietly and get treated as trusted insight downstream. Now it exits
+    # non-zero, carries acceptable:false, and names the unmet floor.
+    req_depth = getattr(a, "depth", "standard")
+    strict_fail = (res.status == RS.DEGRADED and req_depth in ("deep", "max"))
+    if strict_fail:
+        res.warnings.append(
+            f"DEPTH CONTRACT UNMET (depth={req_depth}): DEGRADED is a hard fail at this "
+            f"tier — run the agent fan-out + `research.py ingest` before using this result."
+        )
+    if getattr(a, "json", False):
+        try:
+            payload = json.loads(res.to_json())
+        except Exception:
+            payload = {"raw": res.to_json()}
+        payload["acceptable"] = bool(res.is_usable and not strict_fail)
+        print(json.dumps(payload, indent=2))
+    else:
+        print(res.render_receipt())
+        if strict_fail:
+            print(f"\n⛔ DEPTH CONTRACT UNMET — depth={req_depth} result is DEGRADED. "
+                  f"This output is RECON-GRADE, not decision-grade. Exit 2.")
+    return 0 if (res.is_usable and not strict_fail) else 2
 
 
 if __name__ == "__main__":

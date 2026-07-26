@@ -86,3 +86,78 @@ SKIP  verify_video_context_source_package.py (per-artifact checker (requires pac
 PASS    verify_virtuoso_orchestration.py (15.3s)
 
 FLEET: 52 pass / 30 failing / 4 skip of 86 — /Users/farricecain/Google Antigravity/.agent/health/verify-fleet.json
+PASS    verify_activation_governor.py (0.8s)
+PASS    verify_antigravity_global_access.py (3.3s)
+TIMEOUT verify_artifact_router.py (90s) — >90s
+TIMEOUT verify_autopilot_routing.py (90s) — >90s
+TIMEOUT verify_autopilot_runtime_preflight.py (90s) — >90s
+FAIL    verify_born_intent_drift.py (1.2s) — Deliberate? Review the diffs, then: python3 execution/verify_born_intent_drift.py --bless
+PASS    verify_codex_authority.py (0.0s)
+PASS    verify_codex_claude_parity.py (918.3s)
+PASS    verify_codex_dynamic_workflow.py (0.4s)
+FAIL    verify_contextual_next_prompts.py (680.9s) —   /jh-next-problem                          — map the buyer's post-purchase problem sequence and absorb the kill-points into the original offer
+PASS    verify_control_intent.py (0.1s)
+PASS    verify_convene.py (0.5s)
+PASS    verify_cos_primer_gate.py (0.8s)
+PASS    verify_deep_research_os.py (4.6s)
+PASS    verify_end_session_intelligence.py (1.1s)
+PASS    verify_expert_composition_standard.py (19.3s)
+PASS    verify_extraction_command_surface.py (1985.3s)
+SKIP  verify_fleet.py (the runner itself — recursing would deadlock)
+PASS    verify_global_autopilot_source_truth.py (0.0s)
+PASS    verify_global_execution_bias_bridge.py (0.3s)
+FAIL    verify_global_steering_closeout.py (1649.0s) —   /jh-next-problem                          — map the buyer's post-purchase problem sequence and absorb the kill-points into the original offer
+PASS    verify_global_steering_persistence.py (0.1s)
+PASS    verify_google_operator_core.py (22.1s)
+PASS    verify_health_performance_geo_prompt.py (0.1s)
+PASS    verify_high_taste_os.py (1.6s)
+PASS    verify_high_taste_writing_os.py (970.1s)
+PASS    verify_markdown_readability_guard.py (0.1s)
+PASS    verify_memory_stack.py (1044.2s)
+PASS    verify_mission_activation_contract.py (3.5s)
+PASS    verify_mission_runner.py (0.2s)
+PASS    verify_mission_validator.py (0.7s)
+TIMEOUT verify_operator_cockpit.py (90s) — >90s
+PASS    verify_operator_core_ai_employee_os.py (9.4s)
+PASS    verify_operator_core_end_session.py (1543.4s)
+PASS    verify_operator_core_expert_composition_governor.py (89.2s)
+PASS    verify_operator_core_extraction_governor_agent.py (64.3s)
+TIMEOUT verify_operator_core_fast_proof.py (90s) — >90s
+PASS    verify_operator_core_health_check.py (53.6s)
+PASS    verify_operator_core_knowledge_librarian.py (51.2s)
+PASS    verify_operator_core_orchestrate.py (50.9s)
+PASS    verify_operator_core_repeatability_spine.py (52.3s)
+PASS    verify_operator_core_routing_intelligence.py (50.7s)
+PASS    verify_operator_core_self_evolve.py (52.8s)
+PASS    verify_operator_core_skill_anneal.py (54.9s)
+PASS    verify_operator_core_source_to_skill_system.py (76.7s)
+PASS    verify_operator_core_status.py (0.3s)
+PASS    verify_operator_core_system_audit.py (50.3s)
+PASS    verify_operator_lesson.py (5.8s)
+PASS    verify_performance_evidence_gate.py (0.7s)
+PASS    verify_plugin_readiness_stdout.py (0.2s)
+SKIP  verify_proof_ledger.py (per-artifact checker (requires --draft/--ledger); fires per-deliverable, not standalone)
+PASS    verify_protocol_lifecycle.py (0.3s)
+PASS    verify_raw_intent_bridge_command.py (26.1s)
+PASS    verify_raw_intent_global_skill.py (27.4s)
+PASS    verify_raw_intent_run_packet.py (83.0s)
+SKIP  verify_recall_mcp_auth.py (needs live `codex mcp list` outside sandbox)
+PASS    verify_recurring_ops_dry_run.py (1.4s)
+PASS    verify_repeatability_spine.py (28.2s)
+TIMEOUT verify_savant_control_room.py (90s) — >90s
+PASS    verify_session_lock_gate.py (0.8s)
+PASS    verify_session_state_freshness_loop.py (0.1s)
+PASS    verify_skill_evolution_candidate_freshness.py (0.1s)
+PASS    verify_skill_evolution_candidates.py (0.7s)
+PASS    verify_skill_evolution_local_first.py (1.0s)
+PASS    verify_skill_system_contract.py (23.8s)
+FAIL    verify_steering_compass.py (27.3s) —   /jh-next-problem                          — map the buyer's post-purchase problem sequence and absorb the kill-points into the original offer
+PASS    verify_steering_compass_quality.py (2.3s)
+PASS    verify_subagent_approval_language.py (2.3s)
+PASS    verify_subagent_readiness.py (0.1s)
+FAIL    verify_system.py (0.8s) — - Run `python execution/sync_registries.py` to rebuild SKILL_INDEX.md and AGENT_INDEX.md
+FAIL    verify_system_control_plane.py (229.4s) — AssertionError: /Users/farricecain/Google Antigravity/.venv/bin/python3 execution/verify_operator_core_fast_proof.py timed out after 90s:
+SKIP  verify_video_context_source_package.py (per-artifact checker (requires package arg); fires per-extraction, not standalone)
+PASS    verify_virtuoso_orchestration.py (73.3s)
+
+FLEET: 57 pass / 12 failing / 4 skip of 73 — /Users/farricecain/Google Antigravity/.agent/health/verify-fleet.json

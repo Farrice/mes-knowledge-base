@@ -108,8 +108,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-07-25 (chain_runner finalize for dara-denney-meta-ads) |
-| **Activation Count** | 730 |
-| **30-Day Review Date** | 2026-08-24 |
+| **Last Activated** | 2026-07-26 (chain_runner finalize for mark-kashef-wargame-os) |
+| **Activation Count** | 736 |
+| **30-Day Review Date** | 2026-08-25 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

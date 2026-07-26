@@ -141,7 +141,7 @@ Each specialist writes one JSON object per validated finding (schema in the dire
 - `perplexity_ask` (basic sonar via MCP) — 1-2 calls per agent for synthesis (cheap, ~$0.01)
 - Tavily MCP (`tavily_search`) — structured search alternative if configured
 
-Full sub-agent research protocol: `.agent/workflows/swarm-research.md`
+Full sub-agent research protocol: `.agent/workflows/deep-research-swarm.workflow.js` (multi-wave engine; `swarm-research.md` is a superseded stub — do not cite it). Depth floors: `execution/research_depth.py` (single source of truth, 2026-07-26).
 
 **Query 1 — Core Research** (MANDATORY):
 Collapse the main question with key sub-dimensions using the Collapsing Rule. Example:
@@ -420,7 +420,8 @@ research_outputs/
 
 | Component | Cost | Time |
 |-----------|------|------|
-| Perplexity Deep Research (2-3 queries) | $0.50-0.75 | 30-90 seconds |
+| Gemini Deep Research (Ultra quota) | $0 | 5-15 minutes |
+| Perplexity (DEAD — never propose paid credits) | n/a | n/a |
 | 3 Parallel Agents (`search_web` + `read_url_content`) | Free | 2-5 minutes |
 | Synthesis + Adversarial | Free | 1-2 minutes |
 | **Total** | **$0.50-0.75** | **4-8 minutes** |

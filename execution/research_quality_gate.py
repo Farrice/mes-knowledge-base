@@ -22,6 +22,7 @@ Usage (Python):
 """
 
 import argparse
+import json as _json
 import re
 import sys
 from dataclasses import dataclass, field
@@ -370,13 +371,81 @@ def main():
     parser.add_argument("file", help="Path to research markdown file")
     parser.add_argument("--strict", action="store_true",
                        help="Apply stricter quality thresholds")
+    parser.add_argument("--depth", default=None,
+                       choices=["quick", "standard", "deep", "max"],
+                       help="Explicit depth tier — floors come from the depth "
+                            "contract (execution/research_depth.py) instead of "
+                            "content-sniffing. Any Workflow/ad-hoc research "
+                            "artifact can be validated this way (2026-07-26).")
+    parser.add_argument("--receipt", action="store_true",
+                       help="Write a machine-readable receipt JSON next to the "
+                            "file (<file>.depth-receipt.json). chain_runner "
+                            "finalize --depth-receipt consumes it: Research "
+                            "finalizes without a PASSING receipt cap Factual "
+                            "Grounding at 6.")
 
     args = parser.parse_args()
     gate = QualityGate()
 
     path = Path(args.file)
     report = gate.validate_markdown(path, strict=args.strict)
+
+    # Explicit-depth override (2026-07-26 shallow-research fix): the depth
+    # contract is the single source of truth for floors. Re-judge the source
+    # count against the contract, replacing the content-sniffed guess.
+    if args.depth:
+        try:
+            try:
+                from research_depth import min_sources as _min_src, min_domains as _min_dom
+            except ImportError:
+                from execution.research_depth import min_sources as _min_src, min_domains as _min_dom
+            need_src = _min_src(args.depth)
+            need_dom = _min_dom(args.depth)
+            text = path.read_text()
+            urls = set(re.findall(r"https?://[^\s\)\]\>\"']+", text))
+            domains = set()
+            for u in urls:
+                m = re.match(r"https?://(?:www\.)?([^/]+)", u)
+                if m:
+                    domains.add(m.group(1).lower())
+            report.metrics["detected_depth"] = args.depth
+            report.metrics["min_sources_expected"] = need_src
+            report.metrics["min_domains_expected"] = need_dom
+            report.metrics["unique_source_urls"] = len(urls)
+            report.metrics["unique_domains"] = len(domains)
+            # Drop any prior sniffed source-count critical; re-issue from contract
+            report.issues = [i for i in report.issues
+                             if not (i.category == "provenance" and "sources found" in i.message)]
+            if len(urls) < need_src or len(domains) < need_dom:
+                report.issues.append(QualityIssue(
+                    severity="critical", category="depth_contract",
+                    message=(f"DEPTH CONTRACT UNMET for {args.depth}: {len(urls)} sources / "
+                             f"{len(domains)} domains (contract: {need_src} sources / {need_dom} domains)"),
+                    suggestion="Run more sweep rounds / the agent fan-out before calling this decision-grade.",
+                ))
+            critical_count = sum(1 for i in report.issues if i.severity == "critical")
+            report.overall_pass = critical_count == 0 and report.overall_score >= 60
+        except Exception as e:
+            report.issues.append(QualityIssue(
+                severity="warning", category="depth_contract",
+                message=f"depth-contract check errored: {type(e).__name__}: {e}"))
+
     print(report.to_markdown())
+
+    if args.receipt:
+        receipt_path = path.with_suffix(path.suffix + ".depth-receipt.json")
+        receipt = {
+            "file": str(path),
+            "overall_pass": report.overall_pass,
+            "overall_score": report.overall_score,
+            "depth": args.depth or report.metrics.get("detected_depth", "unknown"),
+            "metrics": report.metrics,
+            "critical_issues": [i.message for i in report.issues if i.severity == "critical"],
+            "validated_at": datetime.now().isoformat(timespec="seconds"),
+            "gate": "research_quality_gate.py",
+        }
+        receipt_path.write_text(_json.dumps(receipt, indent=2))
+        print(f"\nReceipt: {receipt_path} ({'PASS' if report.overall_pass else 'FAIL'})")
 
     # Exit with non-zero if critical issues found
     critical = sum(1 for i in report.issues if i.severity == "critical")

@@ -75,8 +75,9 @@ function buildPrompt(a, query) {
     `## How to research ($0 tools you already have)\n` +
     `1. \`tvly search\` / \`tvly research\` for cited multi-source grounding on your angle.\n` +
     `2. \`WebSearch\` across these queries, then \`WebFetch\` (or \`tvly extract\`) the 2-3 strongest sources for FULL-page reads (not snippets):\n${qs}\n` +
-    `3. Mine real human language where your lens calls for it (Reddit, reviews, forums).\n` +
-    `4. Adversarially check each claim: would a skeptic find a contradicting source? Drop what you cannot stand behind.\n\n` +
+    `3. If a primary source is JS-rendered or login-gated (WebFetch returns a JS shell / empty page), do NOT drop it silently — report its URL in angle_insight prefixed "PRIMARY-SOURCE-BLOCKED:" so the Playwright lane can pick it up.\n` +
+    `4. Mine real human language where your lens calls for it (Reddit, reviews, forums).\n` +
+    `5. Adversarially check each claim: would a skeptic find a contradicting source? Drop what you cannot stand behind.\n\n` +
     `## Output (STRICT)\n` +
     `Return 5-12 findings. EVERY finding MUST have a real source_url — a claim with no URL is not a finding, omit it. ` +
     `Plus a 2-3 sentence angle_insight: the non-obvious thing your expert lens surfaced.`
@@ -119,9 +120,48 @@ waveResults.forEach((r, i) => {
 })
 log(`Fan-out: ${findings.length} sourced findings from ${waveResults.filter(Boolean).length}/${agentsSpec.length} experts`)
 
+// ── Playwright primary-source lane (2026-07-26, F6 of the shallow-research fix)
+// Two feeds: (a) primary_sources declared in args (JS-rendered/login-gated URLs
+// the mission KNOWS matter — e.g. Meta Ad Library, live pricing pages), and
+// (b) PRIMARY-SOURCE-BLOCKED URLs surfaced by sweep agents whose WebFetch hit a
+// JS shell. Browser rules per directives/browser-automation-safety.md.
+const declaredPrimary = (_A && _A.primary_sources) || []
+const blockedUrls = insights
+  .filter((s) => s.includes('PRIMARY-SOURCE-BLOCKED:'))
+  .map((s) => (s.match(/PRIMARY-SOURCE-BLOCKED:\s*(\S+)/) || [])[1])
+  .filter(Boolean)
+const pwTargets = [...new Set([...declaredPrimary.map((p) => (typeof p === 'string' ? { url: p, task: 'extract the primary data on this page' } : p)), ...blockedUrls.map((u) => ({ url: u, task: 'extract the primary data WebFetch could not reach' }))])].slice(0, 3)
+if (pwTargets.length && DEPTH !== 'quick') {
+  const pwResults = await parallel(
+    pwTargets.map((t, i) => () =>
+      agent(
+        `You are a primary-source researcher with browser access. Read directives/browser-automation-safety.md first and follow it.\n` +
+          `Overall research question: ${QUERY}\n\n` +
+          `Use the Playwright MCP tools (browser_navigate, browser_snapshot, browser_evaluate, browser_click, browser_wait_for) to open and READ this primary source that plain fetching cannot reach:\n` +
+          `URL: ${t.url}\nTask: ${t.task}\n\n` +
+          `Extract the actual data on the page (prices, counts, listings, live records — whatever the task names). Read-only: never log in, never submit forms, never purchase.\n` +
+          `Return 3-10 findings. EVERY finding needs source_url = the page you actually read. Plus angle_insight: what the primary source shows that secondary sources got wrong or missed.`,
+        { label: `playwright-${i + 1}`, phase: 'Fan-out', schema: FINDINGS_SCHEMA, agentType: 'general-purpose' }
+      )
+    )
+  )
+  let pwAdded = 0
+  pwResults.forEach((r) => {
+    if (!r) return
+    ;(r.findings || []).forEach((f) => { if (f && f.source_url) { findings.push(f); pwAdded++ } })
+    if (r.angle_insight) insights.push(`- [primary-source/browser] ${r.angle_insight}`)
+  })
+  log(`Playwright lane: ${pwTargets.length} primary source(s) → +${pwAdded} findings`)
+} else if (blockedUrls.length) {
+  log(`Playwright lane: skipped (${DEPTH === 'quick' ? 'quick depth' : 'no targets'}) — ${blockedUrls.length} blocked URL(s) noted in report`)
+}
+
 // ── Phase: Gap-fill (the "deep" loop) ────────────────────────────────────
+// DEPTH CONTRACT (execution/research_depth.py, 2026-07-26): standard=1 wave,
+// deep=2, max=3. The old table gave standard ZERO waves — single-pass research
+// wearing a "standard" label is how shallow work shipped as decision-grade.
 phase('Gap-fill')
-const maxExtraWaves = DEPTH === 'max' ? 2 : DEPTH === 'deep' ? 1 : 0
+const maxExtraWaves = DEPTH === 'max' ? 3 : DEPTH === 'deep' ? 2 : DEPTH === 'standard' ? 1 : 0
 let wave = 0
 while (wave < maxExtraWaves) {
   const critic = await agent(
@@ -155,7 +195,10 @@ while (wave < maxExtraWaves) {
 
 // ── Phase: Verify (adversarial) ──────────────────────────────────────────
 phase('Verify')
-const checkN = DEPTH === 'quick' ? 0 : DEPTH === 'standard' ? 4 : 8
+// DEPTH CONTRACT (research_depth.py): verify ALL load-bearing claims at
+// standard+, runaway cap 20. The old checkN of 4/8 left most claims unverified
+// while the report presented them at the same confidence as the checked ones.
+const checkN = DEPTH === 'quick' ? 4 : 20
 // finding_type is free-form from agents ('market_size', 'pricing_data', ...) — a strict
 // ['statistic','data'] whitelist matched nothing and silently skipped Verify at every depth.
 const claims = findings.filter((f) => /stat|data|size|pricing|revenue|market|benchmark/i.test(f.finding_type || '')).slice(0, checkN)

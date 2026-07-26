@@ -8,6 +8,15 @@ workflows: 22
 
 # Diandra Escobar — LinkedIn Growth Mastery
 
+> **Routing disambiguation (added 2026-07-25).** A second Diandra skill now exists:
+> `skills/diandra-escobar-linkedin-mastery` (17 Crown Jewels, buyer's-journey spine,
+> imported from the CoWork handoff bundle). Route positioning, category naming, POV,
+> profile-as-landing-page, comment infiltration, DM conversion and proof-stacking there.
+> THIS skill keeps hooks, hot takes, borrowed-attention formats, the 4-bucket funnel,
+> infrastructure and sourcing. One author per body across both.
+
+
+
 **Invocation**: `/deploy-skill diandra-escobar-linkedin-growth`
 **Domain**: LinkedIn Algorithmic Growth • Audience Acquisition • Growth Content Formats • Content System Architecture • B2B Content Strategy • Content Infrastructure • Strategic Engagement
 

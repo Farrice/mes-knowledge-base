@@ -1,50 +1,62 @@
 {
-  "ts": "2026-07-24T15:50:32",
+  "ts": "2026-07-26T11:45:18",
   "total": 73,
   "counts": {
-    "PASS": 68,
-    "FAIL": 1,
+    "PASS": 57,
+    "TIMEOUT": 6,
+    "FAIL": 6,
     "SKIP": 4
   },
   "failing": [
-    "verify_born_intent_drift.py"
+    "verify_artifact_router.py",
+    "verify_autopilot_routing.py",
+    "verify_autopilot_runtime_preflight.py",
+    "verify_born_intent_drift.py",
+    "verify_contextual_next_prompts.py",
+    "verify_global_steering_closeout.py",
+    "verify_operator_cockpit.py",
+    "verify_operator_core_fast_proof.py",
+    "verify_savant_control_room.py",
+    "verify_steering_compass.py",
+    "verify_system.py",
+    "verify_system_control_plane.py"
   ],
   "results": [
     {
       "script": "verify_activation_governor.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.7
+      "secs": 0.8
     },
     {
       "script": "verify_antigravity_global_access.py",
       "status": "PASS",
       "detail": "",
-      "secs": 2.3
+      "secs": 3.3
     },
     {
       "script": "verify_artifact_router.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 44.7
+      "status": "TIMEOUT",
+      "detail": ">90s",
+      "secs": 90
     },
     {
       "script": "verify_autopilot_routing.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 50.5
+      "status": "TIMEOUT",
+      "detail": ">90s",
+      "secs": 90
     },
     {
       "script": "verify_autopilot_runtime_preflight.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 32.8
+      "status": "TIMEOUT",
+      "detail": ">90s",
+      "secs": 90
     },
     {
       "script": "verify_born_intent_drift.py",
       "status": "FAIL",
       "detail": "Deliberate? Review the diffs, then: python3 execution/verify_born_intent_drift.py --bless",
-      "secs": 0.8
+      "secs": 1.2
     },
     {
       "script": "verify_codex_authority.py",
@@ -56,61 +68,61 @@
       "script": "verify_codex_claude_parity.py",
       "status": "PASS",
       "detail": "",
-      "secs": 3.7
+      "secs": 918.3
     },
     {
       "script": "verify_codex_dynamic_workflow.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.2
+      "secs": 0.4
     },
     {
       "script": "verify_contextual_next_prompts.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 16.0
+      "status": "FAIL",
+      "detail": "  /jh-next-problem                          \u2014 map the buyer's post-purchase problem sequence and absorb the kill-points into the original offer",
+      "secs": 680.9
     },
     {
       "script": "verify_control_intent.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.0
+      "secs": 0.1
     },
     {
       "script": "verify_convene.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.2
+      "secs": 0.5
     },
     {
       "script": "verify_cos_primer_gate.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.3
+      "secs": 0.8
     },
     {
       "script": "verify_deep_research_os.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1.0
+      "secs": 4.6
     },
     {
       "script": "verify_end_session_intelligence.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.5
+      "secs": 1.1
     },
     {
       "script": "verify_expert_composition_standard.py",
       "status": "PASS",
       "detail": "",
-      "secs": 4.2
+      "secs": 19.3
     },
     {
       "script": "verify_extraction_command_surface.py",
       "status": "PASS",
       "detail": "",
-      "secs": 4.7
+      "secs": 1985.3
     },
     {
       "script": "verify_fleet.py",
@@ -128,13 +140,13 @@
       "script": "verify_global_execution_bias_bridge.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.2
+      "secs": 0.3
     },
     {
       "script": "verify_global_steering_closeout.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 10.9
+      "status": "FAIL",
+      "detail": "  /jh-next-problem                          \u2014 map the buyer's post-purchase problem sequence and absorb the kill-points into the original offer",
+      "secs": 1649.0
     },
     {
       "script": "verify_global_steering_persistence.py",
@@ -146,169 +158,169 @@
       "script": "verify_google_operator_core.py",
       "status": "PASS",
       "detail": "",
-      "secs": 7.4
+      "secs": 22.1
     },
     {
       "script": "verify_health_performance_geo_prompt.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.0
+      "secs": 0.1
     },
     {
       "script": "verify_high_taste_os.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.6
+      "secs": 1.6
     },
     {
       "script": "verify_high_taste_writing_os.py",
       "status": "PASS",
       "detail": "",
-      "secs": 3.1
+      "secs": 970.1
     },
     {
       "script": "verify_markdown_readability_guard.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.0
+      "secs": 0.1
     },
     {
       "script": "verify_memory_stack.py",
       "status": "PASS",
       "detail": "",
-      "secs": 3.3
+      "secs": 1044.2
     },
     {
       "script": "verify_mission_activation_contract.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1.5
+      "secs": 3.5
     },
     {
       "script": "verify_mission_runner.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.1
+      "secs": 0.2
     },
     {
       "script": "verify_mission_validator.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.6
+      "secs": 0.7
     },
     {
       "script": "verify_operator_cockpit.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 54.2
+      "status": "TIMEOUT",
+      "detail": ">90s",
+      "secs": 90
     },
     {
       "script": "verify_operator_core_ai_employee_os.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1.9
+      "secs": 9.4
     },
     {
       "script": "verify_operator_core_end_session.py",
       "status": "PASS",
       "detail": "",
-      "secs": 12.0
+      "secs": 1543.4
     },
     {
       "script": "verify_operator_core_expert_composition_governor.py",
       "status": "PASS",
       "detail": "",
-      "secs": 14.2
+      "secs": 89.2
     },
     {
       "script": "verify_operator_core_extraction_governor_agent.py",
       "status": "PASS",
       "detail": "",
-      "secs": 12.2
+      "secs": 64.3
     },
     {
       "script": "verify_operator_core_fast_proof.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 17.7
+      "status": "TIMEOUT",
+      "detail": ">90s",
+      "secs": 90
     },
     {
       "script": "verify_operator_core_health_check.py",
       "status": "PASS",
       "detail": "",
-      "secs": 10.0
+      "secs": 53.6
     },
     {
       "script": "verify_operator_core_knowledge_librarian.py",
       "status": "PASS",
       "detail": "",
-      "secs": 10.2
+      "secs": 51.2
     },
     {
       "script": "verify_operator_core_orchestrate.py",
       "status": "PASS",
       "detail": "",
-      "secs": 10.0
+      "secs": 50.9
     },
     {
       "script": "verify_operator_core_repeatability_spine.py",
       "status": "PASS",
       "detail": "",
-      "secs": 10.2
+      "secs": 52.3
     },
     {
       "script": "verify_operator_core_routing_intelligence.py",
       "status": "PASS",
       "detail": "",
-      "secs": 9.8
+      "secs": 50.7
     },
     {
       "script": "verify_operator_core_self_evolve.py",
       "status": "PASS",
       "detail": "",
-      "secs": 10.2
+      "secs": 52.8
     },
     {
       "script": "verify_operator_core_skill_anneal.py",
       "status": "PASS",
       "detail": "",
-      "secs": 10.1
+      "secs": 54.9
     },
     {
       "script": "verify_operator_core_source_to_skill_system.py",
       "status": "PASS",
       "detail": "",
-      "secs": 14.2
+      "secs": 76.7
     },
     {
       "script": "verify_operator_core_status.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.1
+      "secs": 0.3
     },
     {
       "script": "verify_operator_core_system_audit.py",
       "status": "PASS",
       "detail": "",
-      "secs": 10.0
+      "secs": 50.3
     },
     {
       "script": "verify_operator_lesson.py",
       "status": "PASS",
       "detail": "",
-      "secs": 1.0
+      "secs": 5.8
     },
     {
       "script": "verify_performance_evidence_gate.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.2
+      "secs": 0.7
     },
     {
       "script": "verify_plugin_readiness_stdout.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.1
+      "secs": 0.2
     },
     {
       "script": "verify_proof_ledger.py",
@@ -320,25 +332,25 @@
       "script": "verify_protocol_lifecycle.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.1
+      "secs": 0.3
     },
     {
       "script": "verify_raw_intent_bridge_command.py",
       "status": "PASS",
       "detail": "",
-      "secs": 5.9
+      "secs": 26.1
     },
     {
       "script": "verify_raw_intent_global_skill.py",
       "status": "PASS",
       "detail": "",
-      "secs": 6.1
+      "secs": 27.4
     },
     {
       "script": "verify_raw_intent_run_packet.py",
       "status": "PASS",
       "detail": "",
-      "secs": 18.7
+      "secs": 83.0
     },
     {
       "script": "verify_recall_mcp_auth.py",
@@ -350,91 +362,91 @@
       "script": "verify_recurring_ops_dry_run.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.3
+      "secs": 1.4
     },
     {
       "script": "verify_repeatability_spine.py",
       "status": "PASS",
       "detail": "",
-      "secs": 5.2
+      "secs": 28.2
     },
     {
       "script": "verify_savant_control_room.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 32.9
+      "status": "TIMEOUT",
+      "detail": ">90s",
+      "secs": 90
     },
     {
       "script": "verify_session_lock_gate.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.2
+      "secs": 0.8
     },
     {
       "script": "verify_session_state_freshness_loop.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.0
+      "secs": 0.1
     },
     {
       "script": "verify_skill_evolution_candidate_freshness.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.0
+      "secs": 0.1
     },
     {
       "script": "verify_skill_evolution_candidates.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.1
+      "secs": 0.7
     },
     {
       "script": "verify_skill_evolution_local_first.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.2
+      "secs": 1.0
     },
     {
       "script": "verify_skill_system_contract.py",
       "status": "PASS",
       "detail": "",
-      "secs": 4.1
+      "secs": 23.8
     },
     {
       "script": "verify_steering_compass.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 7.0
+      "status": "FAIL",
+      "detail": "  /jh-next-problem                          \u2014 map the buyer's post-purchase problem sequence and absorb the kill-points into the original offer",
+      "secs": 27.3
     },
     {
       "script": "verify_steering_compass_quality.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.6
+      "secs": 2.3
     },
     {
       "script": "verify_subagent_approval_language.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.6
+      "secs": 2.3
     },
     {
       "script": "verify_subagent_readiness.py",
       "status": "PASS",
       "detail": "",
-      "secs": 0.0
+      "secs": 0.1
     },
     {
       "script": "verify_system.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 0.2
+      "status": "FAIL",
+      "detail": "- Run `python execution/sync_registries.py` to rebuild SKILL_INDEX.md and AGENT_INDEX.md",
+      "secs": 0.8
     },
     {
       "script": "verify_system_control_plane.py",
-      "status": "PASS",
-      "detail": "",
-      "secs": 220.4
+      "status": "FAIL",
+      "detail": "AssertionError: /Users/farricecain/Google Antigravity/.venv/bin/python3 execution/verify_operator_core_fast_proof.py timed out after 90s:",
+      "secs": 229.4
     },
     {
       "script": "verify_video_context_source_package.py",
@@ -446,7 +458,7 @@
       "script": "verify_virtuoso_orchestration.py",
       "status": "PASS",
       "detail": "",
-      "secs": 16.1
+      "secs": 73.3
     }
   ]
 }

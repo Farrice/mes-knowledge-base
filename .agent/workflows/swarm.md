@@ -140,6 +140,30 @@ Concretely, every pattern run obeys:
   writes the `_active/path-decision-2026-07-01/README.md` Incumbency Rule guard directly
   into the mission's Constraints section. Do not drop it from the deliverable.
 
+## DEPTH CONTRACT (mandatory on every research-shaped brief — added 2026-07-26)
+
+Root cause of the 2026-07-25 shallow-research incident: an ad-hoc research swarm ran
+single-pass, snippet-fed, with self-verified evidence — and shipped as decision-grade
+because no floor bound it. Any brief whose workers gather external evidence MUST carry
+these four guards, written into the brief itself (the depth tiers live in
+`execution/research_depth.py` — read them, don't restate them):
+
+1. **Fetch mandate** — workers read FULL pages (WebFetch / `tvly extract`), never build
+   claims from search snippets. JS-rendered or login-gated primary sources route to the
+   Playwright lane (`deep-research-swarm.workflow.js`), never get dropped silently.
+2. **Round minimum** — at least one gap-check + follow-up round after the initial sweep
+   (standard=1, deep=2, max=3). Single-pass research is reconnaissance, label it so.
+3. **Per-question floor** — sources/domains per the depth contract, checked after the
+   run with `python3 execution/research_quality_gate.py validate <report> --depth <tier>
+   --receipt`. A Research-type finalize without that PASSING receipt gets Factual
+   Grounding capped at 6 by `chain_runner.py` (deterministic, not advisory).
+4. **Independent verification** — every load-bearing claim is attacked by an agent that
+   did NOT find it (refute-default). Finder-verified claims count as UNCONFIRMED.
+
+A research deliverable that has not passed the depth gate ships with a
+`⚠️ RECON-GRADE — not decision-grade` banner at the top of the artifact. Shallow work
+may exist; unlabeled shallow work may not.
+
 ---
 
 ## Fallback (Codex / no native Workflow tool)

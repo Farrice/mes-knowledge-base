@@ -50,9 +50,14 @@ PATH_DECISION_DOC = "_active/path-decision-2026-07-01/README.md"
 sys.path.insert(0, str(EXEC_DIR))
 
 # ── Fan-out: the effort→count function (the Grok knob, done right) ──────────
+# Research knobs now come from the single depth contract (research_depth.py,
+# 2026-07-26) so conductor fan-out can't drift from the floor's requirements.
 HEAVY_FAN_OUT = {"low": 4, "medium": 8, "high": 12}
-RESEARCH_FAN_OUT = {"low": 6, "medium": 6, "high": 10}
-RESEARCH_DEPTH_LABEL = {"low": "standard", "medium": "standard", "high": "deep"}
+try:
+    from research_depth import DEPTH as _DEPTH_CONTRACT, EFFORT_TO_DEPTH as RESEARCH_DEPTH_LABEL
+except ImportError:
+    from execution.research_depth import DEPTH as _DEPTH_CONTRACT, EFFORT_TO_DEPTH as RESEARCH_DEPTH_LABEL
+RESEARCH_FAN_OUT = {eff: _DEPTH_CONTRACT[d]["fan_out"] for eff, d in RESEARCH_DEPTH_LABEL.items()}
 
 # Plan-time roster casting always casts at max breadth (council_cast "deploy"
 # mode, 16 candidates) so there's headroom to file-verify + trim down to any

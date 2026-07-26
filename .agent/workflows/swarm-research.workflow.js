@@ -29,9 +29,13 @@ const outDirAbs = abs(OUT_DIR)
 const slugify = (s) => ((s || 'subtopic').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '') || 'subtopic')
 
 const NUM_SUBTOPICS = DEPTH === 'deep' ? 10 : 6
-// "standard"→1 round total (no gap-fill), "deep"→up to 2 rounds total
-// (initial sweep + at most one gap-driven followup sweep).
-const ALLOW_FOLLOWUP = DEPTH === 'deep'
+// DEPTH CONTRACT (execution/research_depth.py, 2026-07-26): gap-fill runs at
+// EVERY depth this workflow serves — standard gets 1 followup round too. The
+// old `DEPTH === 'deep'` gate meant standard runs were single-pass by design,
+// which is how shallow work shipped as finished research. (Deep/max missions
+// needing 2-3 waves should route to deep-research-swarm.workflow.js, which
+// carries the multi-wave loop.)
+const ALLOW_FOLLOWUP = true
 
 const DECOMPOSE_SCHEMA = {
   type: 'object',
@@ -251,8 +255,11 @@ findings.forEach((f) => (f.claims || []).forEach((c) => allClaims.push(c)))
 // own "parallel, cap 6" — see deviations note in the final report).
 const grounded = allClaims.filter((c) => c.tag === 'GROUNDED')
 const others = allClaims.filter((c) => c.tag !== 'GROUNDED')
-const candidates = grounded.concat(others).slice(0, 8)
-const claimsToVerify = candidates.slice(0, 6)
+// DEPTH CONTRACT (research_depth.py): verify ALL load-bearing claims, runaway
+// cap 20. The old top-6 cap meant a 30-claim run shipped 24 unverified claims
+// wearing the same report as the 6 verified ones.
+const candidates = grounded.concat(others).slice(0, 24)
+const claimsToVerify = candidates.slice(0, 20)
 const verdicts = claimsToVerify.length
   ? await parallel(
       claimsToVerify.map((c, i) =>
@@ -277,13 +284,18 @@ log(`Verify: ${validVerdicts.length}/${claimsToVerify.length} load-bearing claim
 // ── Synthesize ───────────────────────────────────────────────────────────
 phase('Synthesize')
 const allFindingsManifest = findings.map((f) => `- **${f.subtopic}** file: ${f.filePath}`).join('\n')
+const refuted = validVerdicts.filter((v) => v.verdict === 'REFUTED')
 const verdictsManifest =
   validVerdicts.map((v) => `- "${v.claim}" -> ${v.verdict} (${v.evidence || 'n/a'}${v.source ? `, source: ${v.source}` : ''})`).join('\n') || 'none checked'
+const refutedManifest = refuted.length
+  ? `\n\nREFUTED CLAIMS — these are DROPPED. They must NOT appear anywhere in the report except the Contradictions section, explicitly labeled REFUTED:\n` +
+    refuted.map((v) => `- "${v.claim}" (refuting evidence: ${v.evidence || 'n/a'})`).join('\n')
+  : ''
 const deliverablePath = `${outDirAbs}/research-report.md`
 const synth = await agent(
   `Read the mission file first: ${missionAbs}.\n\n` +
     `Read ALL findings files listed below IN FULL before writing (do not rely on the manifest alone):\n${allFindingsManifest}\n\n` +
-    `QUESTION: ${QUESTION}\n\nVerification verdicts:\n${verdictsManifest}\n\n` +
+    `QUESTION: ${QUESTION}\n\nVerification verdicts:\n${verdictsManifest}${refutedManifest}\n\n` +
     `Contradictions/unknowns noted at Gap check:\n${contradictions.length ? contradictions.map((c) => `- ${JSON.stringify(c)}`).join('\n') : 'none'}\n\n` +
     `Write the report to ${deliverablePath} with these sections:\n` +
     `1. Single Truth — up top, the one decision-grade answer.\n` +
