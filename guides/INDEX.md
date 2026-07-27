@@ -10,6 +10,11 @@
 
 | I want to… | Go to |
 |---|---|
+| **Extraction at forge scale from any source (Extract OS v3.0)** | |
+| Extract an expert and get 7+ prompts/tiered workflows without running the full forge | [Extract OS v3.0](2026-07-27-extract-os.md) |
+| Size an extraction deterministically (corpus verdict → workflow/prompt floors) | [Extract OS v3.0](2026-07-27-extract-os.md) |
+| Forge-scale a new layer into an existing expert skill (Extension Mode) | [Extract OS v3.0](2026-07-27-extract-os.md) |
+| Install Meg's trust layer on a brand (emails, replies, UGC, rhythm) | [Extract OS v3.0](2026-07-27-extract-os.md) |
 | **Cold outreach spec samples / prospect-voice copy (Signal Pilot)** | |
 | Build copy in a real prospect's voice without fabrication or de-voicing | [Signal Pilot Flagship Spec Samples](2026-07-27-signal-pilot-execution.md) |
 | Resolve classifier/reviewer flags on grounded copy (receipt vs rewrite) | [Signal Pilot Flagship Spec Samples](2026-07-27-signal-pilot-execution.md) |
@@ -145,6 +150,7 @@
 
 *(newest first)*
 
+- 2026-07-27 — [Extract OS v3.0 — One Spine, One Dial](2026-07-27-extract-os.md) — elevated `/extract` to forge parity: derived manifests via new `extraction_manifest.py` (RICH ≥8k → 8-15 wf forced-Deep; MID 4-7; THIN honest + fidelity:low), auto-enrichment of thin sources from the same expert (≤4 free sources), forge-scale Extension Mode (2-5 wf + ≥5 prompts), close-out asset scan. PoC same-session: Meg trust layer 1wf+1prompt → 4 workflows (/meg-micro-moments, /meg-trust-email-engine, /meg-community-voice, /meg-fan-flywheel) + 6 born-v2 prompts, skill v1.2 (16 wf), all gates clear. Enrichment discovery still untested live
 - 2026-07-27 — [Signal Pilot Flagship Spec Samples](2026-07-27-signal-pilot-execution.md) — built + gauntleted the first two Signal Pilot flagship spec samples (Rosner: newsletter-never-pitches-SAC thesis, price-placeholder discipline; Broxterman: rebuilt to her real $2,500 rolling VIP after research corrected the prospect sheet), finalized 8.67. Shipped the **receipted-override protocol** (solution card): corpus-first verbatim research with URLs, QA flags resolved by receipt not rewrite, intimate-marker de-mimicry + naming the mimicry aloud, selectivity-objection preemption. Both artifacts SEND-ready with paste-ready DMs; sends + profile paste + day-7 checkpoint remain on Farrice
 - 2026-07-26 — [Opus 5 Dialect](2026-07-26-opus-5-dialect.md) — first `/forge dialect` run on the top tier: 8 isolated `model: opus` probes, conductor-scored, **6 PASS / 2 DRIFT / 0 FAIL** on P1-P8 plus a P9 scope-containment extension scored FAIL. Two findings that change dispatch design: Opus 5 **flags** instruction conflicts and honors the standing rule (Haiku 4.5 and Sonnet 5 both resolve silently — the restate-binding-rules tax dies at this tier), and a two-sentence copy brief made a subagent run CLAUDE.md's full Chain and **write to Notion** unasked (14 tool calls, 177s; ~973k subagent tokens across the battery). Phantom row purged from `performance-log.jsonl` + Notion archived — caught only because the target was re-identified by fingerprint after a sibling session shifted it off the last line. Card + pointer in `ce81208ed`; exclusion block into `sub_agent_protocol.md` still pending; same-tier scoring caveat stated in-card
 - 2026-07-25 — [Briar Cochran Content Science](2026-07-25-bc-arsenal-install.md) — /watch'd both source videos + /scrape-creator'd the channel (4 DB pages w/ analyses), then forge-extracted Briar Cochran: 13 patterns, 12 `/bc-*` workflows in 3 tiers, 8 born-v2 prompts (audit 0 fail), heartbeat 6/6, EVAL-056 model-PASS. Ships the *idea supply chain* + *testing economy* upstream of every hook skill (Venn gate, ≥3-5× baseline outlier math, 4-layer transfer filter, Chris Rock arsenal at 4:3 with deliberate benching). Ran `/bc-arsenal-install` on Farrice's LinkedIn (week-1 all-test slate). Hardened `social_intel.py` twice — date normalization + single-video-URL guard — both bugs found by *using* the tool. A-tier awaits Farrice pass; LinkedIn baseline unfilled
@@ -196,8 +202,9 @@
 ---
 
 ## Pending enrichment
-- [2026-07-27 — Extract OS — v3.0 One Spine, One Dial (adaptive forge + Meg trust layer)](2026-07-27-extract-os.md) — session-brief stub, needs enrichment
 - [2026-07-27 — Farrice Offer Stack — Premium Arc Design (accountable single seat + Engine Install)](2026-07-27-offer-stack.md) — session-brief stub, needs enrichment
+- [2026-07-27 — Solutions — Dated Promise Needs Deterministic Tickler](2026-07-27-.md) — operator-guide stub, needs enrichment
+- [2026-07-27 — Signal Pilot — Fork A Day-1 Build v2 (Rosner + Broxterman flagships SEND-ready)](2026-07-27-signal-pilot-execution.md) — operator-guide stub, needs enrichment
 - [2026-07-27 — Farrice Brand — LinkedIn Profile Rewrite v2 (Proof-to-Market Positioning + Voice Card 1.1)](2026-07-27-linkedin-profile-content.md) — session-brief stub, needs enrichment
 - [2026-07-26 — Research Depth Fix — Shallow Work Made Physically Impossible + Offer Re-Derivation](2026-07-26-.md) — session-brief stub, needs enrichment
 (none)
