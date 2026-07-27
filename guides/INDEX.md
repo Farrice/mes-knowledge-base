@@ -10,6 +10,12 @@
 
 | I want to… | Go to |
 |---|---|
+| **Model dialects / prompting a new model (Opus 5)** | |
+| Know how to prompt a model tier without relearning it by trial and error | [Opus 5 Dialect](2026-07-26-opus-5-dialect.md) |
+| Stop a subagent running the Chain or writing to Notion from a task brief | [Opus 5 Dialect](2026-07-26-opus-5-dialect.md) |
+| Pick an effort level (and know why you sweep down, not up) | [Opus 5 Dialect](2026-07-26-opus-5-dialect.md) |
+| Probe a newly released model into a reusable card | [Opus 5 Dialect](2026-07-26-opus-5-dialect.md) |
+| Safely delete a row from `.agent/*.jsonl` while another session is live | [Opus 5 Dialect](2026-07-26-opus-5-dialect.md) |
 | **Research quality / trusting a swarm's output (Research Depth Fix)** | |
 | Decide whether a research artifact is decision-grade or reconnaissance | [Research Depth Fix](2026-07-26-research-depth-fix.md) |
 | Gate ANY research file (incl. ad-hoc swarm output) against the depth contract | [Research Depth Fix](2026-07-26-research-depth-fix.md) |
@@ -134,6 +140,7 @@
 
 *(newest first)*
 
+- 2026-07-26 — [Opus 5 Dialect](2026-07-26-opus-5-dialect.md) — first `/forge dialect` run on the top tier: 8 isolated `model: opus` probes, conductor-scored, **6 PASS / 2 DRIFT / 0 FAIL** on P1-P8 plus a P9 scope-containment extension scored FAIL. Two findings that change dispatch design: Opus 5 **flags** instruction conflicts and honors the standing rule (Haiku 4.5 and Sonnet 5 both resolve silently — the restate-binding-rules tax dies at this tier), and a two-sentence copy brief made a subagent run CLAUDE.md's full Chain and **write to Notion** unasked (14 tool calls, 177s; ~973k subagent tokens across the battery). Phantom row purged from `performance-log.jsonl` + Notion archived — caught only because the target was re-identified by fingerprint after a sibling session shifted it off the last line. Card + pointer in `ce81208ed`; exclusion block into `sub_agent_protocol.md` still pending; same-tier scoring caveat stated in-card
 - 2026-07-25 — [Briar Cochran Content Science](2026-07-25-bc-arsenal-install.md) — /watch'd both source videos + /scrape-creator'd the channel (4 DB pages w/ analyses), then forge-extracted Briar Cochran: 13 patterns, 12 `/bc-*` workflows in 3 tiers, 8 born-v2 prompts (audit 0 fail), heartbeat 6/6, EVAL-056 model-PASS. Ships the *idea supply chain* + *testing economy* upstream of every hook skill (Venn gate, ≥3-5× baseline outlier math, 4-layer transfer filter, Chris Rock arsenal at 4:3 with deliberate benching). Ran `/bc-arsenal-install` on Farrice's LinkedIn (week-1 all-test slate). Hardened `social_intel.py` twice — date normalization + single-video-URL guard — both bugs found by *using* the tool. A-tier awaits Farrice pass; LinkedIn baseline unfilled
 - 2026-07-25 — [Jen Listings — Moonseed + Voice Lock](2026-07-25-jen-listings.md) — shipped the 1654 Moonseed hook set (6 hooks, hook-separated from body per Farrice) and, more durably, replaced Jen's *guessed* voice with a sourced one: scraped @_jiing (bio + 20 captions) and watched 3 reels frame-by-frame after yt-dlp/Whisper both failed; `jen-real-voice-profile.md` now outranks genius.md on register. Correction banked — our own golden reference had calibrated format right and voice wrong. Scrape method filed as a solution card.
 - 2026-07-25 — [Riley Brown OS](2026-07-25-riley-brown-os.md) — watched (100 frames) + forge-extracted Riley Brown (16 patterns, 12 riley-* wf, 9 prompts, EVAL-055 model-PASS, composite 8.33) AND replicated his ~$175-250/mo paid stack at $0: Social Intelligence Notion DB + /scrape-creator ($0.01 PoC) + /ad-spy (5 real AG1 ads, 176-day winners) + creative/brand/inbox/scheduler workflows; corrected the Codex half-source draft (~15 fabrication classes); A-tier + 2 free API keys await Farrice
