@@ -110,16 +110,25 @@ def _last_fired() -> Dict[str, str]:
     except Exception:
         return {}
     seen: Dict[str, str] = {}
+
+    def note(val: Any, ts: str) -> None:
+        if isinstance(val, str) and val.strip():
+            name = val.strip().lstrip("@/")
+            if ts > seen.get(name, ""):
+                seen[name] = ts
+
     for rec in data.get("routing_decisions", []) or []:
         if not isinstance(rec, dict):
             continue
         ts = str(rec.get("timestamp") or rec.get("ts") or "")
-        for key in ("chosen", "route", "skill", "command", "workflow", "target"):
-            val = rec.get(key)
-            if isinstance(val, str) and val:
-                name = val.lstrip("/")
-                if ts > seen.get(name, ""):
-                    seen[name] = ts
+        # The real schema is workflow_used + experts_deployed (a list). An earlier
+        # guess at generic key names ("chosen"/"route"/"target") matched ZERO of
+        # 657 records, so every asset looked unused — a broken signal is worse
+        # than no signal, because it reads as a finding.
+        note(rec.get("workflow_used"), ts)
+        deployed = rec.get("experts_deployed")
+        for item in (deployed if isinstance(deployed, list) else [deployed]):
+            note(item, ts)
     return seen
 
 
@@ -140,7 +149,10 @@ def _command_for_path() -> Dict[str, str]:
     otherwise every consumer prints an invocation that does not exist.
     """
     out: Dict[str, str] = {}
-    for wrapper in WF_DIR.glob("*.md"):
+    # Both surfaces: some workflows are referenced straight from a .claude/commands
+    # shim with no .agent/workflows wrapper. Scanning only WF_DIR left those with a
+    # null command even though they were reachable.
+    for wrapper in list(WF_DIR.glob("*.md")) + list(CMD_DIR.glob("*.md")):
         m = _WF_REF_RE.search(_read_text(wrapper))
         if m:
             out.setdefault(f"skills/{m.group(1)}/workflows/{m.group(2)}", wrapper.stem)
@@ -178,7 +190,12 @@ def _skill_workflow_entries(cmd_stems, wrapper_blob, fired) -> List[Dict[str, An
             "front_door": f"/{skill}" if (CMD_DIR / f"{skill}.md").exists() else None,
             "has_prompts_v2": (SKILLS_DIR / skill / "references" / "prompts-v2").is_dir(),
             "family": family_for(wf.stem) or family_for(skill),
-            "last_fired": fired.get(wf.stem),
+            "last_fired": fired.get(command or wf.stem) or fired.get(wf.stem),
+            # Routing logs record the SKILL/workflow that was deployed, rarely an
+            # individual sub-workflow. Parent evidence separates "this expert has
+            # never been deployed at all" (genuinely forgotten) from "expert is in
+            # rotation, this particular sub-workflow may not be".
+            "skill_last_fired": fired.get(skill),
             "mtime": wf.stat().st_mtime,
         })
     return out

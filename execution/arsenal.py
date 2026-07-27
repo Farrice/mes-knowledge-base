@@ -165,13 +165,20 @@ def cmd_unused(data: Dict[str, Any], limit: int) -> int:
     invocations, so a command Farrice types directly leaves no trace here. The
     list is a memory jog, not an indictment, and it says so.
     """
+    # "Cold" = the parent expert has NEVER appeared in the routing log. That is a
+    # far stronger signal than a missing sub-workflow entry, since the log records
+    # skills and top-level workflows, not individual sub-workflows.
     cands = [e for e in data["entries"]
              if e["kind"] == "skill-workflow" and not e.get("last_fired")
+             and not e.get("skill_last_fired")
              and e["menu_status"] == "reachable" and e.get("has_prompts_v2")]
     cands.sort(key=lambda e: -e["mtime"])
-    print(f"\n{_fmt('ARSENAL — built, forge-grade, no routing evidence', BOLD)}")
-    print(_fmt("  (the router log only records ROUTED calls — anything you typed "
-               "directly still shows here)\n", DIM))
+    warm = sum(1 for e in data["entries"]
+               if e["kind"] == "skill-workflow" and e.get("skill_last_fired"))
+    print(f"\n{_fmt('ARSENAL — forge-grade, parent expert never routed to', BOLD)}")
+    print(_fmt(f"  ({warm} sub-workflows belong to experts that ARE in rotation and are "
+               f"excluded. The log records routed calls only — anything typed directly "
+               f"leaves no trace, so this is a memory jog, not proof of disuse.)\n", DIM))
     by_skill: Dict[str, List[Dict[str, Any]]] = {}
     for e in cands:
         by_skill.setdefault(e["skill"], []).append(e)
