@@ -1,0 +1,20 @@
+{
+  "file": "_active/offer-rederivation-2026-07-25/04-deliverables/OFFER-VALIDATION-VERIFIED.md",
+  "overall_pass": true,
+  "overall_score": 90,
+  "depth": "deep",
+  "metrics": {
+    "total_urls": 27,
+    "unique_domains": 26,
+    "detected_depth": "deep",
+    "min_sources_expected": 15,
+    "modeled_flags": 0,
+    "claim_sourcing_rate": "93% (13/14)",
+    "hedge_ratio": "0.0 per 1000 words",
+    "min_domains_expected": 6,
+    "unique_source_urls": 27
+  },
+  "critical_issues": [],
+  "validated_at": "2026-07-26T15:58:00",
+  "gate": "research_quality_gate.py"
+}

@@ -183,6 +183,7 @@
 ---
 
 ## Pending enrichment
+- [2026-07-26 — Research Depth Fix — Shallow Work Made Physically Impossible + Offer Re-Derivation](2026-07-26-.md) — session-brief stub, needs enrichment
 (none)
 - [2026-07-22 — Handoff — Harness Ascension + Content Weapons Day (2026-07-21/22)](2026-07-22-.md) — operator-guide stub, needs enrichment
 - [2026-07-21 — Signal Pilot — Offer Lock + Pressure Test v1 (red-teams, profile, prospects)](2026-07-21-signal-pilot-execution.md) — operator-guide stub, needs enrichment

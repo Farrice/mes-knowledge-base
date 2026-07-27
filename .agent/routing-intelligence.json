@@ -14,7 +14,7 @@
                 "tyler-denk-audience-monetization": 1,
                 "lara-acosta-linkedin-mastery": 2,
                 "extract-mastery": 3,
-                "Research": 17,
+                "Research": 18,
                 "luke-iha-vsl-leads": 6,
                 "sean-dollwet-kdp-publishing": 2,
                 "paul-james-ai-automation": 1,
@@ -105,9 +105,9 @@
                 "diandra-escobar-linkedin-mastery": 1,
                 "riley-brown-marketing-automation": 1
             },
-            "total_routings": 652,
+            "total_routings": 653,
             "tier_counts": {
-                "0": 652,
+                "0": 653,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -118,7 +118,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 379,
-                "finalize-auto": 273
+                "finalize-auto": 274
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -294,7 +294,7 @@
                 "alan-aragon-nutrition": 1,
                 "tobias-allen": 1,
                 "knowledge-architecture-studio": 2,
-                "mark-kashef": 1,
+                "mark-kashef": 2,
                 "chief-of-staff-os": 17,
                 "oren-brand-archetypes": 3,
                 "master-copywriter": 3,
@@ -396,7 +396,7 @@
             },
             "total_feedback": 89,
             "negative_count": 0,
-            "ensemble_count": 481,
+            "ensemble_count": 482,
             "auto_miss_count": 70,
             "positive_count": 0
         }
@@ -13027,6 +13027,23 @@
             "ensemble": true,
             "compound_pairing": "supercomputer + nate-b-jones-context-engineering + doc-coauthoring",
             "feedback": "fb_20260726_224035_3372"
+        },
+        {
+            "routing_id": "rt_20260726_225905_d491",
+            "timestamp": "2026-07-26T22:59:05.786821+00:00",
+            "session_id": "",
+            "request_summary": "Offer-validation corpus promoted from RECON-GRADE to decision-grade: 20 load-bearing claims independently refuted (6 VERIFIED / 5 LIKELY / 8 UNCONFIRMED / 1 REFUTED), synthesized into OFFER-VALIDATION",
+            "intent_score": 9,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "mark-kashef"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "resume",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
         }
     ]
 }

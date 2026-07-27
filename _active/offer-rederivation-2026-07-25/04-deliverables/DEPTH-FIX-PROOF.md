@@ -71,3 +71,22 @@ Which means this corpus is **⚠️ RECON-GRADE — not decision-grade.** Good r
 To promote it: re-run the verify phase (up to 20 refuters) and the synthesis, then gate the report and finalize with `--depth-receipt`. That's a bounded run whenever you want it, rather than something to spend on today, when the point was proving the machine works.
 
 The findings are preserved at `.tmp/research/offer-validation-deep/` and cost nothing to sit there.
+
+---
+
+## PROMOTED — 2026-07-26 (later same day)
+
+The verify phase and synthesis ran. 23 agents: 3 claim-extraction, 20 independent refuters (one per load-bearing claim, each briefed to refute rather than confirm, none of them the agent that found the claim).
+
+**Verdicts: 6 VERIFIED · 5 LIKELY · 8 UNCONFIRMED · 1 REFUTED.**
+
+Decision-grade output: **`OFFER-VALIDATION-VERIFIED.md`** (this folder). Depth gate PASS at 90/100, 27 sources / 26 domains against the deep contract's 15/6, claim sourcing 93%. Receipt: `OFFER-VALIDATION-VERIFIED.md.depth-receipt.json`.
+
+What the verify phase changed, and why the phase earned its cost:
+
+- Only the **asked prices on live pages** survived as VERIFIED. Every claim about buyer *behavior* (reply rates, audit-to-retainer conversion, channel reach) came back UNCONFIRMED, downgraded, or REFUTED.
+- **The Meta Ad Library buyer filter is not independently reproducible.** The refuter reached the live library but could not reproduce a per-advertiser ad count for any named brand, and took over fifteen minutes to establish one. The 13-brand list and the 750/820/720/330 counts in PW1 should not be cited.
+- **Reddit is fetch-blocked to this crawler**, stranding five load-bearing claims (A4, A5, A6, C2, C3) on sources no refuter could re-read.
+- **Three claims verified true but broke the reasoning built on them**: Meta's 11%/7.6% lift measures Meta's own AI image generation (arguing for automated variation, not human angle briefs); Motion and Foreplay already ship AI insight, so "tools display, humans analyze" collapses; LinkedIn-as-DTC-buyer-channel is REFUTED on audience composition.
+
+The corpus is no longer RECON-GRADE. The report built from it is decision-grade on price and explicitly hypothesis-grade on go-to-market.

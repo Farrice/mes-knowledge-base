@@ -1,8 +1,8 @@
 {
-  "generated": "2026-07-26T15:17:04.002284",
+  "generated": "2026-07-26T15:59:06.155064",
   "total_files": 745,
-  "total_words": 2897344,
-  "total_tokens_est": 3853467,
+  "total_words": 2897367,
+  "total_tokens_est": 3853498,
   "stale_files_30d": 456,
   "domains": {
     "content": 262,
@@ -1991,10 +1991,10 @@
       "domain": "content",
       "expert": null,
       "word_count": 5040,
-      "modified": "2026-07-26T05:04:05.496584",
+      "modified": "2026-07-26T15:17:04.015113",
       "age_days": 0,
       "size_bytes": 87223,
-      "content_hash": "139e82f6",
+      "content_hash": "78823d76",
       "has_frontmatter": false
     },
     {
@@ -2003,10 +2003,10 @@
       "parent": "knowledge",
       "domain": "general",
       "expert": null,
-      "word_count": 15001,
-      "modified": "2026-07-26T15:17:03.548142",
+      "word_count": 15024,
+      "modified": "2026-07-26T15:59:05.818948",
       "age_days": 0,
-      "size_bytes": 117190,
+      "size_bytes": 117384,
       "content_hash": "5a51f947",
       "has_frontmatter": false
     },
@@ -3656,7 +3656,7 @@
       "expert": null,
       "word_count": 1407,
       "modified": "2026-07-16T15:39:37.292793",
-      "age_days": 9,
+      "age_days": 10,
       "size_bytes": 9527,
       "content_hash": "1540a766",
       "has_frontmatter": false
@@ -3669,7 +3669,7 @@
       "expert": null,
       "word_count": 27999,
       "modified": "2026-07-16T15:38:58.015599",
-      "age_days": 9,
+      "age_days": 10,
       "size_bytes": 162799,
       "content_hash": "1b3bc0ff",
       "has_frontmatter": false
@@ -4787,7 +4787,7 @@
       "expert": "lara-acosta",
       "word_count": 1770,
       "modified": "2026-03-05T15:55:13.853690",
-      "age_days": 142,
+      "age_days": 143,
       "size_bytes": 12133,
       "content_hash": "4752481d",
       "has_frontmatter": false
@@ -5307,7 +5307,7 @@
       "expert": null,
       "word_count": 2051,
       "modified": "2026-02-24T15:44:02.667098",
-      "age_days": 151,
+      "age_days": 152,
       "size_bytes": 14288,
       "content_hash": "0d130858",
       "has_frontmatter": false
