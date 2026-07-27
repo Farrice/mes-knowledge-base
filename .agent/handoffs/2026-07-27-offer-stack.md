@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** offer-stack  
-**Full path:** .agent/handoffs/2026-07-27-offer-stack.md  
-**Date:** 2026-07-27 (today)  
-**Status:** ready  
-**Title:** Farrice Offer Stack — Premium Arc Design (accountable single seat + Engine Install)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume offer-stack` for this one.
-
----
-
 ---
 thread: offer-stack
 status: ready
@@ -57,4 +45,3 @@ Draft the Cooz re-sell DM and the 6 warm faucet asks in my voice (VOICE-CARD, BL
 - The 90% pattern: document-polishing urges are the trap — the arc doc is done, do not extend it before a sale.
 - Do not name Cooz's unexecuted engagement in any public content (client privacy).
 - Premium rungs pitched only at debriefs or to 7/7 screen-passers with budget signal.
-
