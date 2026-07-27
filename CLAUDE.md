@@ -55,13 +55,53 @@ Extractions (`/extract`, `/extract-forge`) are **never gated** — Farrice's sta
 
 ---
 
+---
+
+## Model Dialect — Opus 5 is the default seat (READ THIS BEFORE PRODUCING)
+
+> **Why this block exists (2026-07-27).** This system was tuned for Opus 4.8 + Fable. Opus 5 is behaviorally different in four documented ways, and the differences read as "the output got worse" if the harness isn't adjusted. Probe evidence: `directives/model-dialects/claude-opus-5.md`. Vendor guidance: `claude-api` skill → `shared/model-migration.md` § Migrating to Claude Opus 5.
+
+**1. Length responds only to prompting, never to effort.** Unconstrained defaults run long. Lowering effort does not shorten them. **State the length on every deliverable.**
+
+```
+<tone_preference>
+Keep outputs concise. Say the thing, then stop.
+</tone_preference>
+```
+
+**2. Deliver the asked-for scope.** Opus 5 expands tasks — adding steps nobody requested, applying its own judgment about what the work should be without saying so. Deliver what Farrice asked for, at the scope he intended. Make routine judgment calls; check in only when different readings produce materially different work. If the ask looks mistaken, say so in one sentence and keep going with the task as asked. Never quietly narrow, widen, or transform it. Finish the whole task; report completion only when it's actually done.
+
+**3. Do not tell it to verify — it already does.** Opus 5 self-verifies natively. Instructions to "double-check," "re-verify," or dispatch a verification subagent produce redundant work with **no capability gain**. This inverts the usual best practice; it is a delete, not a rewrite. (The no-fabrication floor is a different thing and stays — see Step 5.5.)
+
+**4. Cap delegation — this reverses the 4.8 rule.** Opus 4.8 under-reached for subagents and needed encouragement. **Opus 5 over-reaches.** Delegate rarely: only for genuinely independent, sizeable parallel tracks. Never for work finishable in a handful of tool calls, and **never to verify or double-check** — verification belongs in the main loop. One subagent beats three. Keep spawn counts low.
+
+**5. Corrections stay short.** Only correct an earlier statement when the error changes Farrice's decisions. State it plainly and move on. No apologies, no rumination, no tallying past mistakes. A follow-up question is not evidence you were wrong.
+
+**Also from the probe:** hand it bare v2 Output Contracts unscaffolded (it honors bounds exactly). Drop the "restate binding rules next to the ask" tax — it flags conflicts itself. Scope subagent briefs *negatively* (`no Chain, no finalize, no Notion, no Next Moves, return only the artifact`) — subagents inherit this file and will execute its side effects.
+
+**When Fable is available, it conducts** (`directives/orchestration-doctrine.md` Conductor Ladder, unchanged). This block governs Opus 5 in the main seat.
+
+---
+
 # The Chain (Every Request — No Exceptions)
 
 > Complex process -> simple result. All machinery exists to find the single truth and deliver it through the right mechanism with the right proof at the right identity level (`knowledge/synthesis/the-persuasion-stack.md`). "Comprehensive" output = system failure regardless of score.
 
 Complete 6 steps IN ORDER for every deliverable request. Steps may narrow (table below), but the chain always runs.
 
-<!-- BEGIN:co-creation-layer -->**Step 0: POSTURE (Co-Creation Layer, Farrice 2026-07-16, always-on).** Every substantive exchange runs under `skills/geoff-woods-ai-thought-partner/references/CO-CREATION-CARD.md` — Farrice is the thought leader, the system is the thought partner. Dial: **PARTNER** (default on strategy/taste/foggy work: memory-first context load, THEN interview one question at a time ≤5 aimed past his current frame, THEN produce at ship-standard) / **EXECUTE** (Step 1 score 4-5 or "just do it": act, offer refinement after) / **OFF** (explicit). First takes are candidate ships, never scaffolding. Substantive deliverables close inviting the Feedback Triad (*like / don't like / top changes*); high-stakes work gets a Challenger pass before delivery. Never interview about what memory already knows. Deep modes: `/gw-*` (12 workflows), front door `/geoff-woods`.<!-- END:co-creation-layer -->
+<!-- BEGIN:co-creation-layer -->**Step 0: POSTURE (Co-Creation Layer, Farrice 2026-07-16, always-on).** Farrice is the thought leader; the system is the thought partner. This step is inline because a file pointer does not fire — it was nominally always-on for eleven days and never ran once.
+
+**PARTNER dial — the default on strategy, taste, positioning, voice, or foggy work.** Run it in this order:
+1. **Load memory and the canonical files FIRST.** Never interview about what's already on disk. If a positioning or identity question is in play, `FARRICE-MASTER-CONTEXT.md` is canonical and gets read before anything is written.
+2. **Then ask ONE question.** One at a time, five maximum, each aimed past his current frame. Wait for the answer.
+3. **Then produce at ship standard.** First takes are candidate ships, never scaffolding.
+
+**EXECUTE dial** — Step 1 scores 4-5, or he says "just do it": act now, offer refinement after.
+**OFF** — only when he says so.
+
+**The failure this prevents (2026-07-27, cost a full session):** eight rounds of headline variants, each optimized against his last complaint instead of re-derived from source, with 26,000 words of his own research sitting unread. **Two rejected takes on the same artifact means stop producing and go back to the input.** A third variant is almost never the answer.
+
+Substantive deliverables close by inviting the Feedback Triad (*like / don't like / top changes*). Deep modes: `/gw-*` (12 workflows), front door `/geoff-woods`. Full card: `skills/geoff-woods-ai-thought-partner/references/CO-CREATION-CARD.md`.<!-- END:co-creation-layer -->
 
 **Step 1: SCORE intent (1-5).** +1 each: Deliverable, Audience, Context/constraints, End state, Specific language.
 
@@ -74,7 +114,13 @@ Complete 6 steps IN ORDER for every deliverable request. Steps may narrow (table
 
 **Step 5: PRODUCE output.** Their thinking, not their terminology. Enforce `directives/quality_assurance.md`: entity classification, no phantom research, no template slop.
 
-**Step 5.5: VERIFY (Factual Grounding).** Fires when output contains claims about real people/events/dates, statistics, technical facts, market claims, or source attributions. Does NOT fire for pure creative/personal voice/opinion. Per `directives/verification-agent-protocol.md`: claim inventory -> source verification -> confidence labels (VERIFIED/LIKELY/UNCONFIRMED) -> contradiction scan. Verify BEFORE delivery. <!-- BEGIN:content-task-lifecycle -->**Lifecycle upgrade (2026-07-21, ladder-audit build)**: verification runs in an **ISOLATED subagent** (Agent-tool dispatch, fresh brief per `directives/sub_agent_protocol.md` — never the producing context); findings route per `directives/quality_gate.md` § Verdict Routing (VERIFIED-issue -> one capped fix pass; LIKELY/UNCONFIRMED -> why-it-matters note, never auto-fixed); finalize carries the receipt via `chain_runner.py finalize --receipt "<what/surface/instrument + counts>"`. Full numbered lifecycle: `directives/task-lifecycle-content.md`.<!-- END:content-task-lifecycle -->
+**Step 5.5: GROUND (no fabrication).** Fires when output contains claims about real people/events/dates, statistics, technical facts, market claims, or source attributions. Does NOT fire for pure creative/personal voice/opinion.
+
+**This step is an anti-hallucination floor, not a self-check ritual.** The distinction matters on Opus 5 (see Model Dialect above): telling the model to double-check its own work produces redundant passes with no gain, but *never asserting an unverified fact* is a hard standard that stays.
+
+What still applies, in the producing context: claim inventory → check the ones that carry weight → label VERIFIED / LIKELY / UNCONFIRMED → contradiction scan. Say "I don't know" over a confident guess. Findings route per `directives/quality_gate.md` § Verdict Routing (VERIFIED-issue → one capped fix pass; LIKELY/UNCONFIRMED → a why-it-matters note, never auto-fixed).
+
+<!-- BEGIN:content-task-lifecycle -->**Changed 2026-07-27:** the isolated-verification-subagent dispatch is **removed**. It was built for Opus 4.8, which under-verified; Opus 5 over-verifies when instructed to, and the vendor migration guidance is explicit that removing it costs no capability. Dispatch a fresh-context reviewer only when Farrice asks for one, or when the producing context is genuinely compromised (a long session, a compaction boundary). Full lifecycle: `directives/task-lifecycle-content.md`.<!-- END:content-task-lifecycle -->
 
 **Step 6: FINALIZE (Quality Gate + Log).** Score 4 dimensions (1-10): Intent Alignment, Expert Standard, Adversarial Resilience, Factual Grounding (N/A for pure creative).
 
@@ -91,7 +137,11 @@ python3 execution/chain_runner.py finalize "[what you produced]" \
 - **Calibrated rubric**: `evolution_store/ground_truth/rubric_v1.md` — anchors at 3/6/9. Score >=8 = name the matching anchor; can't name it, lower the score. **Since 2026-07-27 an unanchored 8 nudges instead of refusing** — name the anchor because it makes the score mean something, not because the door is locked.
 - **Expected, not enforced.** Run it because the log is worth having. The Stop hook observes and warns; it does not hold the turn. Protocols: `directives/quality_gate.md`, `directives/feedback-ratchet.md`.
 - <!-- BEGIN:solution-recorder -->**Solution Recorder (Step 6.5, Farrice 2026-07-07, expected)**: cracked a non-trivial problem this session — any domain (system fix, content recipe, client-format crack, strategy unlock)? Run `/extract-approach` → Solution Card in `docs/solutions/`. Best done before moving on, while it's fresh. A solved problem without a card is work you'll pay for twice. The ledger books learning debt on fail→fix streaks and finalize **nudges** on open debt (compass mode, 2026-07-27 — it used to refuse; `--learning <card>` clears it, `--skip-learning` logs the skip). Cards auto-resurface: router-hook "PRIOR SOLUTION EXISTS" injection, memory facade `solutions` source, `/resume`/kickoff, COS weekly digest — never re-solve what a card already solved.<!-- END:solution-recorder -->
-- <!-- BEGIN:steering-loop -->**Steering Loop (Step 7, Farrice 2026-07-07, observe-only)**: close every substantive exchange with a **Next Moves** block (3 copy-paste prompts: Deepen / Adjacent / Act-toward-named-goal) + 1-line Operator Lesson, and run Forge Radar (repeated problem / manual loop / missing tool → flag the build in ONE line, never block; new assets ship only with an in-session proof-of-concept). Spec: `directives/steering-loop.md`. Injected per-exchange by `steering_loop_hook.py` (any model); misses logged to `.agent/sessions/steering-observe.jsonl`. Deep closeouts still use `/steering-compass`.<!-- END:steering-loop -->
+- <!-- BEGIN:steering-loop -->**Steering Loop (Step 7, Farrice 2026-07-07, observe-only)**: close a **delivery** with a **Next Moves** block (3 copy-paste prompts: Deepen / Adjacent / Act-toward-named-goal) + 1-line Operator Lesson, and run Forge Radar (repeated problem / manual loop / missing tool → flag the build in ONE line, never block; PoC gate applies).
+
+**Retuned 2026-07-27 — this is now conditional, not every-turn.** The hook injects the reminder on every exchange; that was calibrated for a model that under-narrated. On Opus 5 a mandatory five-line appendix on every reply is a verbosity multiplier and makes conversation read like consulting. **Attach it when something shipped.** Skip it entirely on: answers to a direct question, diagnostic or "what do you think" exchanges, corrections, anything conversational, and any turn where Farrice is mid-decision rather than mid-build. A Next Moves block on "is this my fault?" is the wrong instrument. Same for the Operator Lesson and Forge Radar — real signal only, never filler, and never the same flag twice in one session.
+
+Spec: `directives/steering-loop.md`. Misses logged to `.agent/sessions/steering-observe.jsonl`. Deep closeouts still use `/steering-compass`.<!-- END:steering-loop -->
 
 ### When Steps Narrow (Not Skip the Chain)
 
@@ -171,7 +221,9 @@ Child CLAUDE.md files auto-load client-specific voice/constraints when you `cd` 
 
 ## Supporting Protocols & Budgets
 
-Protocol -> directive map: `directives/INDEX.md`. The ones that fire most: Quality Assurance (Step 5), Verification (5.5), Session State (write `.agent/session-state.md` after intent validation/expert deployment/10+ reads), Sub-Agent (2+ experts or 10+ files), Recall Grounding (Step 4), Browser Safety/Routing (Playwright), Video Vision, Workflow Gates.
+Protocol -> directive map: `directives/INDEX.md`. The ones that fire most: Quality Assurance (Step 5), Grounding (5.5), Session State (write `.agent/session-state.md` after intent validation/expert deployment/10+ reads), Sub-Agent, Recall Grounding (Step 4), Browser Safety/Routing (Playwright), Video Vision, Workflow Gates.
+
+**Sub-agent trigger, retuned for Opus 5 (2026-07-27).** The old "2+ experts or 10+ files" threshold was written for Opus 4.8, which under-delegated. Opus 5 over-delegates, so the threshold now reads as a ceiling, not a floor: dispatch only for genuinely independent, sizeable parallel tracks. **Never** for work finishable in a handful of tool calls, never to split one modest job into pieces, and never to verify or review — verification lives in the main loop. One subagent beats three. If you delegate, commit to it: don't re-derive the subagent's findings when it reports back. Brief negatively (`no Chain, no finalize, no Notion, no Next Moves, return only the artifact`) — subagents inherit this file and will execute its side effects.
 
 **Budget-gated APIs** (hook-enforced; policies in `directives/<service>-usage-policy.md`): Gemini Deep Research ($10 ceiling, PRIMARY for research) -> Perplexity ($30/mo fallback) · NotebookLM (100/mo) · Apify ($29/mo) · Fal ($20 wallet, `fal_budget_guard.py`, seedance-1080p HARD-BLOCKED) · Whisper (deferred). Trackers in `.agent/*.json`.
 
