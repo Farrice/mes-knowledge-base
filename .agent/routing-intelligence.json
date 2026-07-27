@@ -47,7 +47,7 @@
                 "darrel-wilson-ai-affiliate": 1,
                 "stefan-georgi-dopamine-copy": 9,
                 "marketing-studio-director": 1,
-                "System": 81,
+                "System": 82,
                 "brand-operating-system": 11,
                 "dara-denney-meta-ads": 5,
                 "internal-comms": 1,
@@ -91,7 +91,7 @@
                 "gpt-image-2-director": 4,
                 "satori-graphics": 1,
                 "oren-luxury-psychology": 2,
-                "seth-godin-brand": 1,
+                "seth-godin-brand": 2,
                 "donald-miller-cognitive-load": 1,
                 "fresh-voice-system": 3,
                 "ward-farnsworth-rhetorical-mastery": 2,
@@ -103,11 +103,12 @@
                 "kallaway-illusion-of-novelty": 1,
                 "claim-safe-health-marketing": 1,
                 "diandra-escobar-linkedin-mastery": 1,
-                "riley-brown-marketing-automation": 1
+                "riley-brown-marketing-automation": 1,
+                "alex-content-science": 1
             },
-            "total_routings": 653,
+            "total_routings": 656,
             "tier_counts": {
-                "0": 653,
+                "0": 656,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -117,8 +118,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 379,
-                "finalize-auto": 274
+                "hybrid": 381,
+                "finalize-auto": 275
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -131,7 +132,7 @@
                 "paul-james-ai-automation": 1,
                 "joscha-bach-consciousness": 2,
                 "cinema-worldbuilder-pro": 2,
-                "ali-abdaal-action-bias": 5,
+                "ali-abdaal-action-bias": 6,
                 "skill-creator": 4,
                 "jen-santulan-listing-content": 35,
                 "deep-research": 10,
@@ -139,7 +140,7 @@
                 "David Placek": 1,
                 "mcp-builder": 1,
                 "gpt-image-2-director": 17,
-                "seth-godin-brand": 4,
+                "seth-godin-brand": 5,
                 "collective-genius-council": 1,
                 "kallaway-social-commerce": 3,
                 "david-placek-naming": 8,
@@ -250,7 +251,7 @@
                 "paul-harding-lyric-prose": 15,
                 "fareed-zakaria-writing-mastery": 1,
                 "luke-iha-insight-vectors": 10,
-                "kallaway-addictive-storytelling": 1,
+                "kallaway-addictive-storytelling": 2,
                 "jiang-xueqin-cognitive-autonomy": 1,
                 "ai-chris-lee-zero-testimonial-sales": 2,
                 "seth-godin": 3,
@@ -260,7 +261,7 @@
                 "luisa-zhou-coaching": 2,
                 "supercomputer": 52,
                 "design-md": 23,
-                "alex-content-science": 4,
+                "alex-content-science": 5,
                 "system-audit": 24,
                 "david-bayer-elite-communication": 18,
                 "lamott-allen-really-real-writing": 6,
@@ -341,7 +342,7 @@
                 "david-baldacci": 2,
                 "oren-dara": 5,
                 "nba-betting-edge": 1,
-                "mark-kashef-agent-orchestration": 2,
+                "mark-kashef-agent-orchestration": 3,
                 "tier3-stacking-multi": 2,
                 "futurepedia-prompt-engineering": 1,
                 "april-dunford-x-jeremy-haynes": 1,
@@ -356,7 +357,7 @@
                 "dan-koe-multipassionate-mastery": 1,
                 "sean-kochel-design-first-build": 2,
                 "sweat-equity-speedrun-social-os": 1,
-                "bill-browder-high-stakes-narrative": 1,
+                "bill-browder-high-stakes-narrative": 2,
                 "meg-heckman-buyer-trigger-os": 1,
                 "benjamin-hardy-identity": 1,
                 "sarah-levinger-ad-psychology": 1,
@@ -390,13 +391,13 @@
                 "re-compliance-pack": 1,
                 "Luke Iha": 1,
                 "Eugene Teo": 1,
-                "Mark Kashef": 3,
+                "Mark Kashef": 4,
                 "diandra-escobar-linkedin-mastery": 1,
                 "riley-brown-marketing-automation": 1
             },
             "total_feedback": 89,
             "negative_count": 0,
-            "ensemble_count": 482,
+            "ensemble_count": 485,
             "auto_miss_count": 70,
             "positive_count": 0
         }
@@ -13041,6 +13042,61 @@
             "tier_loaded": 0,
             "mode": "finalize-auto",
             "workflow_used": "resume",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260727_040220_9e0f",
+            "timestamp": "2026-07-27T04:02:20.825586+00:00",
+            "session_id": "2cd3cf47-ffe8-4124-a61b-3eb13a084ab7",
+            "request_summary": "oh, did we end up breaking something and stuff that was already working with orchestration with the different models and all that, or explaining to me simply what decisions I need to do to close this ",
+            "intent_score": 0,
+            "domain_detected": "alex-content-science",
+            "experts_deployed": [
+                "alex-content-science",
+                "mark-kashef-agent-orchestration",
+                "ali-abdaal-action-bias"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "alex-content-science",
+            "ensemble": true,
+            "compound_pairing": "alex-content-science + mark-kashef-agent-orchestration + ali-abdaal-action-bias",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260727_040342_2d2e",
+            "timestamp": "2026-07-27T04:03:42.845574+00:00",
+            "session_id": "2cd3cf47-ffe8-4124-a61b-3eb13a084ab7",
+            "request_summary": "Purge that fake row",
+            "intent_score": 0,
+            "domain_detected": "seth-godin-brand",
+            "experts_deployed": [
+                "seth-godin-brand",
+                "kallaway-addictive-storytelling",
+                "bill-browder-high-stakes-narrative"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "seth-godin-brand",
+            "ensemble": true,
+            "compound_pairing": "seth-godin-brand + kallaway-addictive-storytelling + bill-browder-high-stakes-narrative",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260727_040832_2b88",
+            "timestamp": "2026-07-27T04:08:32.513151+00:00",
+            "session_id": "",
+            "request_summary": "Model dialect card for claude-opus-5 — P1-P8 probe battery run in subagent mode (8 isolated model:opus dispatches), conductor-scored, plus a P9 scope-containment extension probe; card + model-notes po",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "Mark Kashef"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "forge-dialect",
             "ensemble": true,
             "compound_pairing": null,
             "feedback": null

@@ -1,12 +1,12 @@
 # Knowledge Briefing
-*Generated: 2026-07-26 | 745 sources | 2,897,367 words*
+*Generated: 2026-07-26 | 745 sources | 2,897,396 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
 - **index** (content) — 5,040 words — `knowledge/index.md`
-- **log** (general) — 15,024 words — `knowledge/log.md`
+- **log** (general) — 15,053 words — `knowledge/log.md`
 - **extraction-report** (content) — 2,846 words — `extractions/briar-cochran/extraction-report.md`
 - **vision** (content) — 552 words — `extractions/briar-cochran/vision.md`
 - **visual-context** (research) — 300 words — `extractions/briar-cochran/visual-context.md`

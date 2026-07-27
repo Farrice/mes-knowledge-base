@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-26** [opus-5-dialect/ready] [Model Dialects — Opus 5 Probe Battery + Card (subagent scope containment)](2026-07-26-opus-5-dialect.md) — Add the negative-scoping exclusion block to directives/sub_agent_protocol.md, then prove it with one throwaway model:opus dispatch
 - **2026-07-26** [research-depth-fix/ready] [Research Depth Fix — Shallow Work Made Physically Impossible + Offer Re-Derivation](2026-07-26-research-depth-fix.md) — Promote the RECON-GRADE corpus: verify phase + synthesis on .tmp/research/offer-validation-deep/, then gate and finalize with --depth-receipt
 - **2026-07-26** [22-gap-analysis/active] [Two-sentence cold email opener for [CLIENT NAME] supplement brand ($2M/yr, no prior creative teardown) — 3 variants mapped to Dara's three gaps (awareness-level, creative diversity, mechanism), plus the 5-min Meta Ad Library recon that fills the gap slot honestly](2026-07-26-22-gap-analysis.md) — Two-sentence cold email opener for [CLIENT NAME] supplement brand ($2M/yr, no prior creative teardown) — 3 variants mapped to Dara's three gaps (awareness-level, creative diversity, mechanism), plus the 5-min Meta Ad Library recon that fills the gap slot honestly
 - **2026-07-25** [offer-rederivation-2026-07-25/active] [Offer Rederivation 2026 07 25 — Depth Fix Proof](2026-07-25-offer-rederivation-2026-07-25.md) — Offer Rederivation 2026 07 25 — Depth Fix Proof

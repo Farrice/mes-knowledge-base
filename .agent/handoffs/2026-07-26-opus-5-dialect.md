@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** opus-5-dialect  
-**Full path:** .agent/handoffs/2026-07-26-opus-5-dialect.md  
-**Date:** 2026-07-26 (today)  
-**Status:** ready  
-**Title:** Model Dialects — Opus 5 Probe Battery + Card (subagent scope containment)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume opus-5-dialect` for this one.
-
----
-
 ---
 thread: opus-5-dialect
 status: ready
@@ -78,4 +66,3 @@ seating, or the Executor Model Registry.
 - **`--from-temp` collision:** the shared OS temp dir accumulates `handoff-*.md` from every session and from phantom subagent finalizes (one was removed this session before it could poison this handoff). Always read the `from-temp:` line and confirm the basename matches the intended work.
 - **Over-correction risk:** the exclusion block must not leak into dispatches that *are* meant to produce logged deliverables — scope it to non-deliverable briefs (probes, scouts, drafts-for-inspection, verification passes).
 - No secrets, credentials, or client PII in this handoff.
-
