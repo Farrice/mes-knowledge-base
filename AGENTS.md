@@ -15,10 +15,13 @@ A 3-layer expert-orchestration OS owned by Farrice: JARVIS routing → <!-- COUN
 - **Front doors (v2, 2026-07-13)**: `/go "<messy thought>"` = the Maestro front door — silent DICE compile → MISSION CARD (goal spine from `.agent/cos/goals.json`, felt-standard verbatim, pattern per `directives/orchestration-doctrine.md`, autonomy tier) → routes to ONE conductor → logs to `.agent/missions.jsonl` at compile AND close. Codex adaptations: "Universal Harness" section at the end of `.agent/workflows/go.md` (fleet patterns plan via `codex_dynamic_workflow.py`; real subagents stay approval-gated). `/create` = universal content conductor (outcome contract ≥2 outcomes → context richness → live zeitgeist w/ receipts → purpose routing → proven recipe → gates). Orchestrating multi-step or quality-critical work: load `directives/peak-operation.md` (the operating doctrine — shape of the work, routing table, drift signals, invariants).
 - Intermediates → `.tmp/` (never commit).
 
-## The Chain (every deliverable request — no exceptions)
+## The Chain (every deliverable request — the working method, not a checkpoint)
+
+> **COMPASS DOCTRINE (Farrice 2026-07-27).** Only the cost gate and the factual veto may stop work. Every other gate in this system nudges and gets out of the way. No gate self-activates by date. Full rule: `CLAUDE.md` § Compass Layer.
+
 1. **SCORE** intent 1-5 (+1 each: Deliverable, Audience, Context, End-state, Specific language)
 2. **SHARPEN** if ≤3 (one round of questions max). Flowing/vision language ("I want it to feel like...", raw notes, stream-of-consciousness) → run the `/raw-intent-bridge` Stage 0 Vision Translation automatically (`.agent/workflows/raw-intent-bridge.md`): build the Translation Card, compile `python3 execution/raw_intent_run_packet.py "<sharpened intent line>" --plain`, execute the route with Farrice's verbatim words as the creative payload. Never compile or route raw flow-speech directly, and never make Farrice restate his vision in system terms.
-3. **ROUTE** to expert skills. Default to `PRODUCTION_CORE.md` (~25 proven entries); long-tail needs explicit `/name`. Mandatory bindings: `directives/routing-bindings.md`.
+3. **ROUTE** to expert skills. Default to `PRODUCTION_CORE.md` (~25 proven entries); long-tail needs explicit `/name`. Routing bindings (suggestions, never blocks): `directives/routing-bindings.md`.
 4. **LOAD** before producing: `skills/[name]/SKILL.md` + minimum one more file (genius.md or workflow). Also: `python3 execution/memory_facade.py "<task intent>" --top 10` (one call across sovereign + auto-memory + wiki + agent + episodic stores; `memory_retrieve.py` stays valid as the sovereign-only sub-path)
 5. **PRODUCE** — the expert's thinking, not their terminology
 5.5 **VERIFY** — factual claims about real people/events/dates/stats/sources get labeled VERIFIED/LIKELY/UNCONFIRMED before delivery
@@ -32,22 +35,22 @@ A 3-layer expert-orchestration OS owned by Farrice: JARVIS routing → <!-- COUN
    ```
    Composite <7 or any dimension <6 → retry weakest section once, re-finalize. Factual Grounding <6 = delivery blocked.
 
-<!-- BEGIN:solution-recorder -->**Step 6.5 — Solution Recorder (binding, 2026-07-07):** cracked a non-trivial problem (any domain)? Run `python3 execution/solution_recorder.py draft --slug <slug> --problem "<signature>"`, fill the card, `save` it to `docs/solutions/` before moving on — a solved problem without a card is unfinished work. Check `docs/solutions/index.md` before re-solving anything familiar. Finalize is latched to this: open fresh learning debt makes `chain_runner.py finalize` refuse until you pass `--learning <card>` (validated card clears the debt) or `--skip-learning` (proceeds, logged to `evolution_store/learning_latch_overrides.jsonl`).<!-- END:solution-recorder -->
+<!-- BEGIN:solution-recorder -->**Step 6.5 — Solution Recorder (expected, 2026-07-07):** cracked a non-trivial problem (any domain)? Run `python3 execution/solution_recorder.py draft --slug <slug> --problem "<signature>"`, fill the card, `save` it to `docs/solutions/`. Best done while it's fresh — a solved problem without a card is work you'll pay for twice. Check `docs/solutions/index.md` before re-solving anything familiar. Open learning debt makes `chain_runner.py finalize` print a **nudge** (compass mode, 2026-07-27 — it used to refuse); `--learning <card>` clears it, `--skip-learning` logs the skip.<!-- END:solution-recorder -->
 
 ## Hooks on Codex — live and physical (verified by live-fire probe 2026-07-13, Codex CLI 0.144.3)
 `.codex/hooks.json` fires deterministically in this workspace. Verified firing events:
 - **SessionStart** (plugin hooks) · **UserPromptSubmit** ×3 (skill-router, session-ledger prompt) · **PreToolUse on shell** ×3 (cost-gate, dangerous-git, active-tool-lock) · **PostToolUse on shell** (session-ledger) · **Stop** (session-ledger finalize check).
-- Codex maps its shell tool to the `Bash` matcher, so every shell command passes the same physical gates as Claude Code. When a gate fires, work WITH it — never around it.
+- Codex maps its shell tool to the `Bash` matcher, so every shell command passes the same gates as Claude Code. Since 2026-07-27 the only one that can stop you is the cost gate; the rest report and continue. `.codex/tools/codex_hook_runner.py` is a pure pass-through to the same `execution/hooks/*.py`, so every compass change applies to Codex automatically — there is no separate Codex enforcement state to maintain.
 - Codex hook-output contract is STRICTER than Claude Code: `hookSpecificOutput` requires `hookEventName` or the hook is marked Failed (root-caused 2026-07-13 on the JCC SessionStart hook).
 
 **Coverage gaps — here YOU are still the hook:**
 - **Native file reads do NOT fire tool hooks** (only shell commands do). The Claude-side execution-prompt menu injection has no Codex equivalent — when you load a skill, READ its "Execution Prompts" section in SKILL.md and honor the matching v2 prompt contract yourself.
 - **Cost gate** still deserves a manual pre-check before any paid API (Fal, Seedance, Kling, deep-research): `python3 execution/cost_gate.py check --service <id>`. Denied = stop and surface. (The PreToolUse hook backstops this, but only for shell-invoked spends.)
-- **Finalize debt**: produced an artifact with an expert skill loaded → Step 6 is mandatory before ending.
+- **Finalize debt**: produced an artifact with an expert skill loaded → run Step 6 before ending. Nothing holds the session open if you don't; the log is just worth having.
 - **Routing bindings**: check `directives/routing-bindings.md` when a route feels ambiguous.
 - **Keep the CLI current**: `npm install -g @openai/codex@latest`. A stale CLI can hard-fail against current models (0.133.0 could not run gpt-5.6-sol at all; fixed by 0.144.3, 2026-07-13).
 
-## Voice layer (binding — mirrors CLAUDE.md `farrice_voice_alignment`; gap proven by A/B 2026-07-13)
+## Voice layer (standing decision — mirrors CLAUDE.md `farrice_voice_alignment`; gap proven by A/B 2026-07-13)
 Anything shipping in Farrice's own voice (posts, editions, Notes, emails, DMs, bios): read `_active/farrice-brand/voice/VOICE-CARD.md` and apply the dial mode (default BLEND — "better version of me," never blanket mimicry) BEFORE the content workflow runs. The 2026-07-13 golden-brief A/B showed Codex output loses his texture exactly when this load is skipped.
 
 ## Persistent Per-Exchange Steering

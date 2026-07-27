@@ -1,24 +1,21 @@
-# Mandatory Workflow Routing — Full Bindings Table
+# Workflow Routing — Full Bindings Table
 
-> Extracted from CLAUDE.md 2026-06-09 (rebuild). **Enforcement is deterministic**: the
-> UserPromptSubmit hook (`session_ledger_hook.py prompt`) runs `routing_enforcer.check_routing`
-> on every explicit workflow invocation and injects violations as context; `finalize()` runs the
-> post-hoc check. Machine source of truth: `execution/routing_enforcer.py BINDINGS`.
-> **Update BINDINGS and this table together.**
+> Extracted from CLAUDE.md 2026-06-09 (rebuild). The UserPromptSubmit hook
+> (`skill_router_hook.py`) matches every prompt against this table and surfaces the better
+> route as a **suggestion with its reason**. Machine source of truth:
+> `execution/routing_enforcer.py BINDINGS`. **Update BINDINGS and this table together.**
 >
-> **ENFORCEMENT TRIAL (Wave 2 flip, 2026-07-17 → 2026-07-24, Farrice-approved):** while
-> `.agent/routing-enforce-trial.json` is `active` and unexpired, explicit domain-binding
-> violations **BLOCK the prompt** instead of warning. Compass-not-cage preserved three ways:
-> (1) documented override — resend with `!route` in the prompt (allowed + logged);
-> (2) revert flag — set `active:false` in the trial file, no code change, and the trial
-> auto-expires at `ends`; (3) the fuzzy `control_intent_classifier` binding is EXEMPT
-> (warn-only always) — it false-positived on a legitimate `/resume` the day of the flip.
-> Every blocked/override/warned_exempt event lands in
-> `.agent/sessions/routing-enforce-log.jsonl` for the week-1 review in `/weekly-closeout`.
+> **DISARMED 2026-07-27 (compass doctrine).** The enforcement trial that ran 2026-07-17 → 2026-07-27
+> made binding violations **block the prompt** and demand a `!route` token. It is off, permanently,
+> and does not re-arm on a date. Reason: on 2026-07-27 it matched the word "anaphora" inside a
+> question *about a prose-classifier false positive* and force-routed it to a rhetoric workflow.
+> A router that misreads the request and then blocks it costs more than it saves. State lives in
+> `.agent/routing-enforce-trial.json`; events still log to `.agent/sessions/routing-enforce-log.jsonl`
+> so the false-positive rate stays measurable.
 
-If the task matches a domain below, deploy the bound workflow **even if the user names a different one**. System wins; explain the override in one sentence. Origin: 2026-04-21 session degraded to 6/10 because `writers-room` was used instead of `/parallax`.
+If the task matches a domain below, the bound workflow is almost always the right call, and it's worth saying so out loud when the user names a different one. Origin: 2026-04-21 session degraded to 6/10 because `writers-room` was used instead of `/parallax`. **The user's explicit choice wins.** Name the better route in one sentence, then do what they asked.
 
-| Domain signal | Mandatory workflow | Never substitute |
+| Domain signal | Expected workflow | Never substitute |
 |---|---|---|
 | Parallax Substack editions | `/parallax` | `writers-room` (diagnostic-on-draft only) |
 | LinkedIn post from scratch | `/ghostwrite` or Lara Acosta skill | `writers-room` (refinement only) |
@@ -38,7 +35,7 @@ If the task matches a domain below, deploy the bound workflow **even if the user
 | Context engineering / "engineer the conditions" / "make the behavior automatic" | `/ce-design` (Context Engineering OS in `skills/chase-hughes-context-engineering/`) | Single-tactic copy/LinkedIn workflow alone. Ethics gate: `execution/context_ethics_gate.py` |
 | Build an avatar / ICP / manifold from scratch · "plot the market" · cold-start buyer intelligence | `/avatar-machine` (full cold-start → finished copy) or `/avatar-manifold` (intelligence only). **Phase 0 GROUND auto-fires** (`execution/avatar_manifold_runner.py`, gated by `research_quality_gate.py --strict`). Skip only with `--no-ground` + `--voc-file` | `icp-build`/`icp-research`/`icp-deep-dive` (reasoning-only; modeled language fails rubric crit 6) |
 | Cold-start → converting copy (VSL/ad/email/landing from blank page) | `/copy-engine` — **Ground Once, Refine Free.** Grounds ONCE via `avatar_manifold_runner.py` (WARM reuse = $0), writes `warm_core`, assembles the 6 copy blocks, gates proof via `verify_proof_ledger.py`. Later iterations reuse the cache at $0 | Writing copy from ungrounded context. Refinement of EXISTING copy uses standalone copy-blocks workflows at $0 |
-| New/changed offer, pricing, offer stack/spine ("new offer", "what should I charge", "launch an offer", "pivot the offer") | `/offer-redteam` (runs `offer_gate.py`) BEFORE build or send — the gate's one prior firing killed the $400 audit offer and modified Signal Pilot. Override `--no-redteam` only with a same-cycle red-team receipt | Building/sending a fresh offer ungated (echo-chamber risk). Executing an already-red-teamed offer does not re-trigger |
+| New/changed offer, pricing, offer stack/spine ("new offer", "what should I charge", "launch an offer", "pivot the offer") | `/offer-redteam` (runs `offer_gate.py`, $0 and always exit-0 advisory) — worth running early because its one prior firing killed the $400 audit offer and modified Signal Pilot. **Compass, not gate (2026-07-27): never hold a build or a send waiting on it.** Run it alongside the work, or after | Skipping the red team entirely on a fresh offer (echo-chamber risk). Executing an already-red-teamed offer does not re-trigger |
 | Dan Wang analytical essay ("friction map", "official story vs ground truth", "annual letter", "dan wang", "draft 1.5 of history", "anchor sentence essay", "literary cornerstone") | `/wang-friction-map` (Dan Wang — mine the gap between the official story and the ground truth before drafting, then hand forward to `/literary-cornerstone-sprint`, `/wang-anchor-sentence`, `/wang-musical-pass`) | Generic "essay"/"long-form" (defers to writers-room / story-stack) |
 | Michael Connelly vivid writing ("telling detail", "michael connelly", "connelly", "pick the one detail", "show don't tell", "momentum audit", "good place(s) to stop") | `/telling-detail-engine` (Michael Connelly — pick the one detail that reveals character AND situation, show the tell instead of naming it, keep momentum sacred; hand forward to `/momentum-audit`, `/connelly-rewrite`, `/connelly-subtext`) | Generic "write a story"/"make it vivid" (defers to writers-room / depth-layer / story-stack) |
 | Ocean Vuong perceptual writing ("ocean vuong", "estrangement engine", "defamiliarize", "defamiliarization", "species test", "perceptual rewrite", "anti-homogenization", "escape the median sentence", "make the familiar strange") | `/estrangement-engine` (Ocean Vuong — lead with the concrete image, make the familiar strange so the reader sees it for the first time, refuse the AI-median sentence on a hard honesty spine; hand forward to `/species-test`, `/cliche-rescue`, and cross-domain `/ocean-perceptual-copy`, `/ocean-brand-estrangement`, `/ocean-content-anti-slop`) | Generic "make it original"/"less AI-sounding" (defers to writers-room / depth-layer) |

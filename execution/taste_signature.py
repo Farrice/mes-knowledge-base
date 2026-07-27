@@ -64,6 +64,7 @@ Usage:
     print(adjusted.adjustments)      # audit trail
 """
 
+import os
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Any
 
@@ -151,7 +152,23 @@ def apply(
     # ── Rule 2: 8-must-be-earned ──
     # Any dim ≥8 without anchor_named is capped at 7.25 (below the 7.5 PASS floor). Forces Claude to
     # cite the rubric anchor for any "excellent" claim.
-    if not anchor_named:
+    #
+    # COMPASS MODE (Farrice 2026-07-27, "nothing should ever be a cage"): chain_runner already
+    # surfaces an unanchored ≥8 as a visible 🧭 NUDGE. Applying the silent 24% cap on top of that
+    # nudge punishes twice, and the second punishment is invisible — good work reads back as
+    # "Needs Improvement" with no stated reason. A cap you can't see is the worst kind of gate.
+    # Under compass mode the raw scores stand and the nudge does the work.
+    _compass_on = os.environ.get("COMPASS_MODE", "1") != "0"
+    if not anchor_named and _compass_on:
+        adjustments.append({
+            "rule": "earned_8_cap_waived_compass",
+            "dimension": "all",
+            "reason": (
+                "unanchored ≥8 left uncapped under COMPASS_MODE — surfaced as a visible "
+                "nudge instead of a silent cap. Set COMPASS_MODE=0 to restore the cap."
+            ),
+        })
+    if not anchor_named and not _compass_on:
         for name, val in (
             ("intent_alignment", intent),
             ("expert_standard", expert),
@@ -191,11 +208,31 @@ def apply(
         and raw_expert >= _ANTI_CLUSTER_DIM_THRESHOLD
         and raw_adv >= _ANTI_CLUSTER_DIM_THRESHOLD
     )
+    # Two corrections, 2026-07-27:
+    # (a) NOT_RUN/ERROR are NOT evidence of bad prose — they mean the check never
+    #     ran (e.g. finalize called with a description rather than a file path).
+    #     Treating "unchecked" as "dirty" penalised honest gaps and made every
+    #     description-only finalize look suspicious. Only a real FLAGGED/WARNING
+    #     verdict should feed the cluster heuristic.
+    # (b) Under COMPASS_MODE the unanchored-≥8 case is already surfaced as a
+    #     visible nudge; capping the composite on top of it is the silent second
+    #     punishment the compass doctrine exists to remove.
+    _prose_actually_dirty = prose_verdict in ("FLAGGED", "WARNING")
     cluster_suspicious = (
         all_high
         and not anchor_named
-        and prose_verdict != "CLEAN"
+        and _prose_actually_dirty
     )
+    if cluster_suspicious and _compass_on:
+        adjustments.append({
+            "rule": "anti_cluster_waived_compass",
+            "dimension": "composite",
+            "reason": (
+                "suspicious cluster surfaced as a nudge rather than a silent composite "
+                "cap (COMPASS_MODE). Set COMPASS_MODE=0 to restore the cap."
+            ),
+        })
+        cluster_suspicious = False
     if cluster_suspicious and composite > _EARNED_8_CAP:
         adjustments.append({
             "rule": "anti_cluster",

@@ -4,7 +4,7 @@
 > survived three concurrent-session collisions. Any model driving this system orchestrates the SAME
 > way by reading this file — pattern choice is system property, not session luck.
 
-## The Laws (non-negotiable)
+## The Laws (expected)
 
 1. **The Conductor conducts, Executors execute — roles, not models.** The main thread holds
    judgment, synthesis, gating, taste staging, commits. Fleets do the grind. Whoever is the

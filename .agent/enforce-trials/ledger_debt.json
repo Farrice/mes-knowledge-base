@@ -1,10 +1,10 @@
 {
  "gate": "ledger_debt",
  "active": false,
- "starts": "2026-07-31",
- "ends": "2026-08-07",
- "override": "Stop hook blocks once on ripened finalize debt (same as LEDGER_ENFORCE=1); run the prefilled finalize command honestly, or LEDGER_ENFORCE=0 env for a session-scoped escape",
- "revert": "set active:false in this file \u2014 no code change; auto-expires at ends",
- "activation": "ON THE DUE DATE flip active:true \u2014 one field, any conductor tier; prior gate's week-1 review must pass first (one flip per week, Farrice doctrine 2026-07-17)",
- "sequence_note": "routing_bindings (live, own file .agent/routing-enforce-trial.json, ends 2026-07-24) -> blind_pass -> ledger_debt -> steering"
+ "disarmed": "2026-07-27",
+ "compass_doctrine": "Farrice 2026-07-27: 'Nothing should ever be a cage.' Finalize debt stays an observe-mode warning with a prefilled command. It never blocks a Stop.",
+ "activation": "DISARMED 2026-07-27. Never auto-activate on a date. Re-enabling a block requires an explicit new decision from Farrice.",
+ "was_scheduled": "starts 2026-07-31, ends 2026-08-07 — four days out. Would have made the Stop hook block once on ripened finalize debt.",
+ "override": "LEDGER_ENFORCE=0 (no longer needed while disarmed)",
+ "revert": "set active:false in this file — no code change"
 }

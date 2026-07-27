@@ -15,7 +15,7 @@ Fable is the map-holder and judge — routing, synthesis, taste, HITL. Executors
 
 Parallel work runs only on the **frontier** — unblocked, unclaimed units. Blocking edges are declared up front (tickets, workflow stages); no executor starts work whose inputs aren't closed. When fog exists — the way to the destination isn't visible — produce **decisions before deliverables**: chart a `/wayfinder-work` map instead of charging at the destination.
 
-## Verify everything (the non-negotiable half)
+## Verify everything (the expected half)
 
 Nothing ships on assertion. In order, as applicable:
 

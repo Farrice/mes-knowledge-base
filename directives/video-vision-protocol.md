@@ -79,7 +79,7 @@ extractions/<expert>/
 
 ## Integration table — which workflows fire visual capture
 
-### Tier 1 — Extract family (mandatory)
+### Tier 1 — Extract family (expected)
 
 | Workflow | Trigger point | Notes |
 |---|---|---|

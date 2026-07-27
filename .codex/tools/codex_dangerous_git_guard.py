@@ -12,8 +12,13 @@ import re
 import sys
 
 
+# Destructive only. Plain `git push` was in this list until 2026-07-27 and was
+# the one Codex-only divergence from .claude/hooks/block-dangerous-git.sh — it
+# blocked ordinary shipping while the operating rules say commit and push main
+# every session (feedback_all-work-on-main). Force-push stays blocked; a normal
+# push is how work leaves the machine, not a destructive act.
 DANGEROUS_PATTERNS = (
-    r"\bgit\s+push\b",
+    r"\bgit\s+push\b.*(--force|-f\b)",
     r"\bgit\s+reset\s+--hard\b",
     r"\bgit\s+clean\s+-fd\b",
     r"\bgit\s+clean\s+-f\b",

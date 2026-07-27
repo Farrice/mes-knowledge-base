@@ -599,6 +599,36 @@ def _enforce_caps(
 # running a full finalize (finalize has no dry-run mode).
 # ─────────────────────────────────────────────────────────────
 
+# ──────────────────────────────────────────────────────────────────
+# COMPASS MODE (Farrice, 2026-07-27) — "Nothing should ever be a cage."
+# ──────────────────────────────────────────────────────────────────
+# Quality latches (anchor-named, blind-pass, learning-debt, memory-mirror
+# staleness) used to REFUSE finalize outright. Every one of them was a
+# process check dressed as a correctness check, and every one of them
+# interrupted flow work mid-ship. They now WARN and let the work through.
+#
+# The single exception is the Factual Veto (factual_grounding < 6). That one
+# stays hard, because it only fires when the author has ALREADY scored the
+# facts as unreliable — refusing to publish knowingly-wrong claims is not a
+# cage, it's the whole point of the rubric.
+#
+# Toggle: COMPASS_MODE=0 in the environment restores the old refusals for a
+# single run. There is no scheduled path back to blocking.
+COMPASS_MODE = os.environ.get("COMPASS_MODE", "1") != "0"
+
+
+def _compass(result: Dict[str, Any], message: str) -> bool:
+    """Record a latch fire. Returns True if the caller should still refuse.
+
+    In compass mode the message is appended to result['compass_warnings'] and
+    the caller continues. Outside compass mode the caller refuses as before.
+    """
+    if COMPASS_MODE:
+        result.setdefault("compass_warnings", []).append(message)
+        return False
+    return True
+
+
 def check_anchor_named(
     scores: Dict[str, Optional[float]],
     anchor_named: Any,
@@ -908,7 +938,7 @@ def finalize(
         },
         anchor_named,
     )
-    if _anchor_err:
+    if _anchor_err and _compass(result, _anchor_err):
         result["success"] = False
         result["error"] = _anchor_err
         return result
@@ -929,7 +959,7 @@ def finalize(
         output_description=output_description, workflow=workflow,
     )
     result["blind_pass_check"] = _bp_check
-    if _bp_err:
+    if _bp_err and _compass(result, _bp_err):
         result["success"] = False
         result["error"] = _bp_err
         return result
@@ -1041,8 +1071,7 @@ def finalize(
                 f"  - {d.get('ts', '?')} · streak {d.get('streak', '?')} · {d.get('evidence', '')}"
                 for d in _learning_debt
             )
-            result["success"] = False
-            result["error"] = (
+            _ld_err = (
                 "LEARNING DEBT OPEN — a hard problem was cracked this session "
                 f"({len(_learning_debt)} fresh fail→success streak(s), ledger: "
                 f"{_ledger_path.name if _ledger_path else '<unknown>'}) with no Solution Card saved.\n"
@@ -1053,7 +1082,10 @@ def finalize(
                 "If this debt belongs to another window/session, clear with --skip-learning "
                 "(logged) — see docs/solutions/index.md first."
             )
-            return result
+            if _compass(result, _ld_err):
+                result["success"] = False
+                result["error"] = _ld_err
+                return result
 
     # ── Step 1.5: Verification accountability (added 2026-06-12) ─
     # Chain Step 5.5 fired before delivery — this makes skipping it VISIBLE.
@@ -1511,12 +1543,14 @@ def finalize(
                 f"Run `python3 execution/mirror_notion.py` to refresh, "
                 f"or check the nightly launchd job."
             )
-            result["memory_halt"] = halt_msg
-            result["status"] = "halted"
-            print(f"\n{'🔴 ' * 20}")
-            print(f"🔴 {halt_msg}")
-            print(f"{'🔴 ' * 20}\n")
-            return result
+            if _compass(result, halt_msg):
+                result["memory_halt"] = halt_msg
+                result["status"] = "halted"
+                print(f"\n{'🔴 ' * 20}")
+                print(f"🔴 {halt_msg}")
+                print(f"{'🔴 ' * 20}\n")
+                return result
+            print(f"\n  ⚠  {halt_msg}\n     (compass mode: warned, not halted)")
 
         # WARN: any source past 36h (non-blocking, advisory)
         if freshness_report.get("warn"):
@@ -1992,6 +2026,11 @@ def print_result(result: Dict) -> None:
     print(f"  Composite:  {result['composite_score']}/10")
     print(f"  Status:     {result['status']}")
     print(f"  {result['gate_message']}")
+
+    # Compass-mode nudges: latches that used to refuse now report and let the
+    # work through. Visible so they still do their job, never blocking.
+    for _w in result.get("compass_warnings", []):
+        print(f"\n  🧭 NUDGE (did not block): {_w.splitlines()[0]}")
     print("-" * 60)
 
     # Sub-scores

@@ -82,7 +82,7 @@
 
 ## General Rules
 
-1. **Never skip a chain step** — each step depends on the prior step's output
+1. **Try not to skip a chain step** — each step depends on the prior step's output
 2. **Run quality gate at every boundary** — see `directives/quality_gate.md`
 3. **Log chain execution** — note which steps completed in the task artifact
 4. **If a step fails** — retry once, then halt the chain and notify user

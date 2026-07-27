@@ -81,7 +81,7 @@ If this section grows past 5 entries, the template needs a v2 to absorb the diff
 
 ---
 
-## Ship Bar (Non-Negotiable Quality Gates)
+## Ship Bar (Expected Quality Gates)
 
 A BOS ships when:
 

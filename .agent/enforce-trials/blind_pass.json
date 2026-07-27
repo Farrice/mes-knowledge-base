@@ -1,10 +1,10 @@
 {
  "gate": "blind_pass",
  "active": false,
- "starts": "2026-07-24",
- "ends": "2026-07-31",
- "override": "chain_runner finalize: --skip-blind-pass alone refuses while active; add --skip-blind-pass --override-reason \"<why>\" (logged to blind_pass_overrides.jsonl with the reason, surfaced in COS morning receipt)",
- "revert": "set active:false in this file \u2014 no code change; auto-expires at ends",
- "activation": "ON THE DUE DATE flip active:true \u2014 one field, any conductor tier; prior gate's week-1 review must pass first (one flip per week, Farrice doctrine 2026-07-17)",
- "sequence_note": "routing_bindings (live, own file .agent/routing-enforce-trial.json, ends 2026-07-24) -> blind_pass -> ledger_debt -> steering"
+ "disarmed": "2026-07-27",
+ "compass_doctrine": "Farrice 2026-07-27: 'Nothing should ever be a cage.' This gate is WARNING-ONLY, permanently. chain_runner.py runs it through _compass() so it reports and lets the work through.",
+ "activation": "DISARMED 2026-07-27. Never auto-activate on a date. Re-enabling a block requires an explicit new decision from Farrice.",
+ "was_scheduled": "starts 2026-07-24, ends 2026-07-31 — overdue and would have blocked every Extraction finalize without a recorded blind-pass verdict",
+ "override": "chain_runner finalize: --skip-blind-pass (no longer needed while compass mode is on)",
+ "revert": "set active:false in this file — no code change"
 }

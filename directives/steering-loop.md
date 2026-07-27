@@ -61,7 +61,7 @@ inside or beside the Next Moves block. Never halt the current deliverable to
 build it (COS rule: compass, never cage). If Farrice says go (or the build is
 <5 min and doesn't derail the mission), build it in-session.
 
-**PoC gate (non-negotiable)**: a new skill/workflow/script ships only with a
+**PoC gate (expected)**: a new skill/workflow/script ships only with a
 worked proof-of-concept — run it once on the real case from this session and
 show the output. No empty scaffolds, no "should work" (this is the
 plugin-packaging ladder rule: prove the helper before packaging). If it can't

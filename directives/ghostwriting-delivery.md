@@ -151,7 +151,7 @@ The Voice Profile MUST pass all three before advancing to content production:
 
 | Expert | Role | When |
 |--------|------|------|
-| **Voice Profile** | The primary constraint -- every decision filtered through the profile | Always (non-negotiable) |
+| **Voice Profile** | The primary constraint -- every decision filtered through the profile | Always (expected) |
 | **Nicolas Cole** | Voice preservation + structural power optimization | Every post -- ensures posts are effective AND authentic |
 | **Ward Farnsworth** | Rhetorical device injection (antithesis, parallelism, tricolon) | Premium clients only -- adds stylistic elevation without losing voice |
 
@@ -168,7 +168,7 @@ The Voice Profile MUST pass all three before advancing to content production:
 
 ## Phase 5: Quality Gate -- The Voice Authenticity Standard
 
-> **Trigger**: Run on every post before delivery. No exceptions.
+> **Trigger**: Run on every post before delivery. Worth doing every time.
 
 ### 10-Point Voice Authenticity Checklist
 

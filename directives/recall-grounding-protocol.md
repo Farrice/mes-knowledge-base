@@ -97,11 +97,11 @@ If Tier 2 is loaded AND Recall returns high signal, prefer 2 cards × 1 chunk (d
 | User passed `--no-ground` flag | Skip, no announcement |
 | Expert domain outside grounding-relevant set | Don't query at all |
 
-Silent skip is mandatory. Never announce "I tried Recall but…" — it creates noise. The skill files are the baseline; Recall is a bonus.
+Silent skip is expected. Never announce "I tried Recall but…" — it creates noise. The skill files are the baseline; Recall is a bonus.
 
 ---
 
-## Logging — `recall_logger` is mandatory (Fix 5 / 2026-04-24)
+## Logging — `recall_logger` is expected (Fix 5 / 2026-04-24)
 
 **Every grounding decision (fire OR skip OR fail) must be logged to `evolution_store/traces/recall_grounding.jsonl` via `execution/recall_logger.py`.** Silent skip is still the user-facing behavior, but silent in the traces is the failure mode that this fix exists to prevent — a feature you can't measure can't be tuned and can't be trusted.
 

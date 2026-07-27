@@ -17,7 +17,7 @@ These directives govern The Chain itself. Violating a constitutional directive c
 | [intent-pipeline.md](intent-pipeline.md) | DICE scoring + sharpening rubric | Chain Steps 1-2 |
 | [agent-loading-protocol.md](agent-loading-protocol.md) | Tier 0-3 escalation rules + Hot Context Rule | Chain Step 4 |
 | [recall-grounding-protocol.md](recall-grounding-protocol.md) | Tier 1.5 auto-grounding for content/brand domains | Chain Step 4 (sub-step 1.5) |
-| [content_creation_gate.md](content_creation_gate.md) | Mandatory ≥2 skill files for content tasks | Chain Step 4 (content branch) |
+| [content_creation_gate.md](content_creation_gate.md) | Expected ≥2 skill files for content tasks | Chain Step 4 (content branch) |
 | [verification-agent-protocol.md](verification-agent-protocol.md) | Factual claim inventory + source verification | Chain Step 5.5 |
 | [quality_gate.md](quality_gate.md) | 4-dim scoring + factual veto + retry logic | Chain Step 6 |
 | [evolution-direction.md](evolution-direction.md) | North star for what to evolve + stopping criteria | Read before any /skill-evolution run |

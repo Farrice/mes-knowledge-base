@@ -8,7 +8,7 @@ This directive defines the safety contract for autonomous multi-day agent work. 
 
 ---
 
-## The Five Rules (Non-Negotiable)
+## The Five Rules (Expected)
 
 ### Rule 1 — ONE PHASE PER TICK
 

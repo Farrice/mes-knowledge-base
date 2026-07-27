@@ -1,4 +1,4 @@
-# Content Creation Pre-Flight Gate (MANDATORY)
+# Content Creation Pre-Flight Gate (EXPECTED)
 
 > Trigger: Any writing/drafting/creating task. Loading protocol: `directives/agent-loading-protocol.md`
 
@@ -9,7 +9,7 @@
 | Content Type | Default Expert Ensemble |
 |:---|:---|
 | Lead Magnet / Free Resource | Stockton Walbeck + Harry Dry + Cardinal Mason |
-| Profile / About Copy | Lara Acosta + Harry Dry + Caleb Ralston (**+ Writers' Room mandatory**) |
+| Profile / About Copy | Lara Acosta + Harry Dry + Caleb Ralston (**+ Writers' Room expected**) |
 | Sales / Offer Copy | Cardinal Mason + Harry Dry + Alen Sultanic |
 | Social Posts | Kallaway + Shaan Puri + Lara Acosta |
 | Email Sequence | Cardinal Mason + Harry Dry + Seena Rez |
@@ -18,12 +18,12 @@
 | Long-form / Guide | Dan Koe + Nicolas Cole + Harry Dry |
 
 ### Step 1b: Writers' Room (Profile Content Only)
-Profile content → `.agent/workflows/writers-room.md` MANDATORY from draft 1. 3-layer treatment: Structure → Emotion → Platform/Voice. Additional: check `_active/linkedin-launch/04-content-os/arcs/` for off-limits language, write reader-as-protagonist (≥4 recognition beats), confirm char limits via `memory/content-voice-calibration.md`.
+Profile content → `.agent/workflows/writers-room.md` EXPECTED from draft 1. 3-layer treatment: Structure → Emotion → Platform/Voice. Additional: check `_active/linkedin-launch/04-content-os/arcs/` for off-limits language, write reader-as-protagonist (≥4 recognition beats), confirm char limits via `memory/content-voice-calibration.md`.
 
-## Step 2: Card Check (T0 — MANDATORY)
+## Step 2: Card Check (T0 — EXPECTED)
 Read `agents/_framework/invocation-cards.md` → confirm experts, identify PAIRS WITH, find ENTRY PROMPT.
 
-## Step 3: Load Expert Skills (Tiered — MANDATORY)
+## Step 3: Load Expert Skills (Tiered — EXPECTED)
 Semantic-first: `python3 execution/context_retriever.py search "query"` → top chunks.
 Fallback: T1 (SKILL.md + prompt ~1,350 tokens) | T2 (+genius.md ~2,550) | T3 (sub-agent ~300 main).
 **Minimum: 2 experts loaded. 3 preferred.**
@@ -37,7 +37,7 @@ Before customer-facing copy, answer from ICP perspective: **"What do I get?"** I
 ## Step 5: Expert-Driven Execution
 Write using loaded frameworks. Patterns MUST inform, not template.
 
-### Step 5b: Post-Production Expert Test (MANDATORY)
+### Step 5b: Post-Production Expert Test (EXPECTED)
 > "Could the named expert distinguish this from their own work?"
 YES → proceed | NO → reject and regenerate using expert methodology more aggressively.
 

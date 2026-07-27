@@ -29,7 +29,7 @@ End of every session, or when the user says "commit", "wrap up", "end session", 
 - **After each completed task** — don't let work pile up
 - **Before switching work types** — brand work vs. offer work vs. extractions
 - **When the user says "commit this"** or `/commit`
-- **Always at session end** — no exceptions
+- **Always at session end** — very few exceptions
 
 ## Commit Message Format
 

@@ -28,15 +28,24 @@ All script commands (calibration, audit, knowledge compiler, cost/forge gates): 
 
 ---
 
-## Deterministic Enforcement Layer (hooks — these gates are PHYSICAL, not advisory)
+## Compass Layer (hooks — nudges, not cages)
 
-Wired in `.claude/settings.json` → `execution/hooks/`. When a gate fires, work WITH it — never around it.
+> **COMPASS DOCTRINE (Farrice, 2026-07-27, supersedes the prior "Deterministic Enforcement Layer").**
+> *"Nothing should ever be a cage. There should be nudges, motivation, refocusing when needed. None of this locking nonsense."*
+>
+> **Exactly one gate in this system may block, and it guards money, not quality: the cost gate.** Everything else reports, logs, warns, and gets out of the way. A quality latch that stops the work is a bug, not a feature. When a nudge fires mid-flow, note it and keep shipping; pay it down when the ship is done.
+>
+> **No gate turns itself on by calendar.** The scheduled enforcement ladder (`.agent/enforce-trials/`) is disarmed with `active:false` + `disarmed` stamps. Re-arming any block requires an explicit new decision from Farrice, never a date. If you find a trial file scheduled to flip `active:true`, that is drift — disarm it and say so.
+
+Wired in `.claude/settings.json` → `execution/hooks/`.
 
 | Gate | Hook | Behavior |
 |---|---|---|
-| **Cost gate** (paid APIs: Fal, Seedance, Kling, deep-research) | PreToolUse(Bash) → `cost_gate_hook.py` | **HARD BLOCK.** Denied = surface to Farrice, do not retry. Needs-approval = ask Farrice; ONLY after explicit yes run `cost_gate.py approve --service <id>`, then retry (15-min token) |
-| **Finalize debt** | Stop → `session_ledger_hook.py` | **OBSERVE MODE** (Farrice 2026-07-02): logs would-block to `.agent/sessions/observe-log.jsonl` + warns with prefilled command — does NOT block. Treat the warning as binding and run the finalize honestly. Flip: `LEDGER_ENFORCE=1` |
-| **Routing bindings** | UserPromptSubmit → `session_ledger_hook.py` | Violations injected as ROUTING WARNING with the binding reason — pivot or use the documented override flag |
+| **Cost gate** (paid APIs: Fal, Seedance, Kling, deep-research) | PreToolUse(Bash) → `cost_gate_hook.py` | **HARD BLOCK — the only one, and it's about spend.** Denied = surface to Farrice, do not retry. Needs-approval = ask Farrice; ONLY after explicit yes run `cost_gate.py approve --service <id>`, then retry (15-min token) |
+| **Finalize debt** | Stop → `session_ledger_hook.py` | **OBSERVE ONLY.** Logs to `.agent/sessions/observe-log.jsonl` + warns with a prefilled command. Never blocks. Run the finalize honestly because it's useful, not because something is holding the door |
+| **Routing bindings** | UserPromptSubmit → `skill_router_hook.py` | **SUGGESTIONS.** A matched binding surfaces the reason and the better route. Take it or ignore it. The prompt-blocking trial was disarmed 2026-07-27 after it force-routed a prose-QA question into a rhetoric workflow |
+| **Finalize quality latches** (anchor-named, blind-pass, learning-debt, memory-mirror staleness) | `chain_runner.py` → `_compass()` | **NUDGE, never refuse.** Each prints `🧭 NUDGE (did not block)` and the finalize completes. `COMPASS_MODE=0` restores the old refusals for one run |
+| **Factual veto** (`--factual` < 6) | `chain_runner.py` | **Still hard, deliberately.** It only fires when you have already scored the facts as unreliable. Refusing to ship knowingly-wrong claims isn't a cage |
 | **Sub-agent truth** | PostToolUse counts real Task/Agent spawns | Use the measured count in `--sub-agents`; zero spawns on a qualifying workflow logs a miss |
 | **Menu parity** (built ≠ fireable) | PostToolUse(Write\|Edit) → `menu_parity_hook.py` · end-session spine `menu-parity` step · launchd 06:40 · SessionStart | **AUTO-FIXES, never blocks.** Wrappers + shims are MINTED for you — never hand-write them, never re-add a manual registration step. `directives/arsenal-loop.md` |
 
@@ -79,10 +88,10 @@ python3 execution/chain_runner.py finalize "[what you produced]" \
 
 - **If composite < 7 or any dimension < 6**: retry weakest section once, re-finalize.
 - **Factual Grounding veto**: scored (not N/A) and <6 = delivery blocked regardless of composite.
-- **Calibrated rubric**: `evolution_store/ground_truth/rubric_v1.md` — anchors at 3/6/9. **Score >=8 = name the matching anchor**; can't name it, lower the score.
-- **Non-negotiable** — and now Stop-hook enforced. Protocols: `directives/quality_gate.md`, `directives/feedback-ratchet.md`.
-- <!-- BEGIN:solution-recorder -->**Solution Recorder (Step 6.5, Farrice 2026-07-07, binding)**: cracked a non-trivial problem this session — any domain (system fix, content recipe, client-format crack, strategy unlock)? Run `/extract-approach` → Solution Card in `docs/solutions/` BEFORE moving on. **A solved problem without a card is unfinished work.** The ledger books learning debt on fail→fix streaks; finalize latches on open debt (`--learning <card>` to clear, `--skip-learning` logs the override). Cards auto-resurface: router-hook "PRIOR SOLUTION EXISTS" injection, memory facade `solutions` source, `/resume`/kickoff, COS weekly digest — never re-solve what a card already solved.<!-- END:solution-recorder -->
-- <!-- BEGIN:steering-loop -->**Steering Loop (Step 7, Farrice 2026-07-07, hook-enforced)**: close every substantive exchange with a **Next Moves** block (3 copy-paste prompts: Deepen / Adjacent / Act-toward-named-goal) + 1-line Operator Lesson, and run Forge Radar (repeated problem / manual loop / missing tool → flag the build in ONE line, never block; new assets ship only with an in-session proof-of-concept). Spec: `directives/steering-loop.md`. Injected per-exchange by `steering_loop_hook.py` (any model); misses logged to `.agent/sessions/steering-observe.jsonl`. Deep closeouts still use `/steering-compass`.<!-- END:steering-loop -->
+- **Calibrated rubric**: `evolution_store/ground_truth/rubric_v1.md` — anchors at 3/6/9. Score >=8 = name the matching anchor; can't name it, lower the score. **Since 2026-07-27 an unanchored 8 nudges instead of refusing** — name the anchor because it makes the score mean something, not because the door is locked.
+- **Expected, not enforced.** Run it because the log is worth having. The Stop hook observes and warns; it does not hold the turn. Protocols: `directives/quality_gate.md`, `directives/feedback-ratchet.md`.
+- <!-- BEGIN:solution-recorder -->**Solution Recorder (Step 6.5, Farrice 2026-07-07, expected)**: cracked a non-trivial problem this session — any domain (system fix, content recipe, client-format crack, strategy unlock)? Run `/extract-approach` → Solution Card in `docs/solutions/`. Best done before moving on, while it's fresh. A solved problem without a card is work you'll pay for twice. The ledger books learning debt on fail→fix streaks and finalize **nudges** on open debt (compass mode, 2026-07-27 — it used to refuse; `--learning <card>` clears it, `--skip-learning` logs the skip). Cards auto-resurface: router-hook "PRIOR SOLUTION EXISTS" injection, memory facade `solutions` source, `/resume`/kickoff, COS weekly digest — never re-solve what a card already solved.<!-- END:solution-recorder -->
+- <!-- BEGIN:steering-loop -->**Steering Loop (Step 7, Farrice 2026-07-07, observe-only)**: close every substantive exchange with a **Next Moves** block (3 copy-paste prompts: Deepen / Adjacent / Act-toward-named-goal) + 1-line Operator Lesson, and run Forge Radar (repeated problem / manual loop / missing tool → flag the build in ONE line, never block; new assets ship only with an in-session proof-of-concept). Spec: `directives/steering-loop.md`. Injected per-exchange by `steering_loop_hook.py` (any model); misses logged to `.agent/sessions/steering-observe.jsonl`. Deep closeouts still use `/steering-compass`.<!-- END:steering-loop -->
 
 ### When Steps Narrow (Not Skip the Chain)
 

@@ -1,19 +1,28 @@
 {
  "gate": "routing_bindings",
- "active": true,
+ "active": false,
+ "disarmed": "2026-07-27",
+ "compass_doctrine": "Farrice 2026-07-27: 'Nothing should ever be a cage.' Blocking enforcement is retired system-wide. Routing bindings stay as WARNINGS (skill_router_hook still injects ROUTING SUGGESTION every prompt). Do NOT flip active:true on a date. Re-enabling a block requires an explicit new decision from Farrice, never a calendar.",
+ "prior_state": "active:true 2026-07-17 -> 2026-08-07. This was the ONLY live prompt-blocker in the system: session_ledger_hook.py returned decision:block when a prompt matched a binding and the named workflow was not used, requiring the token '!route' to proceed.",
+ "why_disarmed": "False-positive rate was the problem, not the volume. On 2026-07-27 a prompt describing a prose-classifier false positive matched the binding 'anaphora' and was routed as MANDATORY to /ward-rhetorical-engine, a rhetoric workflow with nothing to do with the request. A gate that misreads the request and then blocks it is worse than no gate.",
  "started": "2026-07-17",
  "ends": "2026-08-07",
  "override_token": "!route",
  "exempt_bindings": [
   "control_intent_classifier"
  ],
- "revert": "set active:false in this file (or delete it) \u2014 no code change needed; trial auto-expires after 'ends'",
- "review": "week-1 review in /weekly-closeout reads .agent/sessions/routing-enforce-log.jsonl (blocked/override/warned_exempt counts + false-positive scan) before deciding permanence",
+ "revert": "set active:false in this file (or delete it) — no code change needed",
+ "review": "execution/session_ledger_report.py reads .agent/sessions/routing-enforce-log.jsonl (blocked/override/warned_exempt counts + false-positive scan)",
  "approved_by": "Farrice 2026-07-17 (frontier-elevation W2, graduated enforcement)",
  "verdict_2026-07-24": {
   "decision": "EXTEND 14 days (was expiring today)",
-  "evidence": "7 days, n=4 (1 blocked / 1 override / 2 warned_exempt) \u2014 sample too small to judge, friction low; expiring would discard the experiment unlearned",
+  "evidence": "7 days, n=4 (1 blocked / 1 override / 2 warned_exempt) — sample too small to judge, friction low; expiring would discard the experiment unlearned",
   "review_moved_to": "execution/session_ledger_report.py section in health-metrics (deterministic), replacing the never-run /weekly-closeout ritual as primary reader",
   "authority": "loop-engineering integration brief candidate 3(i), Farrice all-12 GO 2026-07-24"
+ },
+ "verdict_2026-07-27": {
+  "decision": "DISARM — permanent, not an expiry",
+  "authority": "Farrice direct: 'none of this locking nonsense'",
+  "evidence": "n=4 over 10 days with at least one clear false positive on live flow work"
  }
 }

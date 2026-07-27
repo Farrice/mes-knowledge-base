@@ -212,5 +212,5 @@ This is the "skill of composition" — the supercomputer's job is orchestration,
 - `skills/supercomputer/SKILL.md` — composition table + when-to-use
 - `skills/supercomputer/genius.md` — design philosophy + open questions
 - `.agent/workflows/supercomputer.md` — the executable 4-phase runbook
-- `execution/routing_enforcer.py` — the mandatory-binding code (must mirror Section 1 above)
+- `execution/routing_enforcer.py` — the expected-binding code (must mirror Section 1 above)
 - CLAUDE.md "Mandatory Workflow Routing" table — the human-readable mirror of the bindings

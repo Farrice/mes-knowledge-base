@@ -41,7 +41,7 @@ Don't spawn for trivial changes (<20 lines).
 
 ### Sub-Agent Prompt Envelope (Anthropic 4-field — Wave 5 / 2026-05-21, scope universalized 2026-05-22)
 
-**Every sub-agent spawn MUST use the Anthropic 4-field envelope, regardless of archetype** (SkillExecutor, CodeReviewer, DocSyncer, Researcher). The fields are MANDATORY — vague delegation ("research the semiconductor shortage") causes 30%+ duplicate work and gaps per Anthropic's multi-agent research-system retro (anthropic.com/engineering/built-multi-agent-research-system). Each spawn must declare all four explicitly:
+**Every sub-agent spawn MUST use the Anthropic 4-field envelope, regardless of archetype** (SkillExecutor, CodeReviewer, DocSyncer, Researcher). The fields are EXPECTED — vague delegation ("research the semiconductor shortage") causes 30%+ duplicate work and gaps per Anthropic's multi-agent research-system retro (anthropic.com/engineering/built-multi-agent-research-system). Each spawn must declare all four explicitly:
 
 **Field-name aliasing** (both forms recognized — substance is identical):
 

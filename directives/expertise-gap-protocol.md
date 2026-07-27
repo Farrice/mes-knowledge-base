@@ -235,5 +235,5 @@ This protocol now feeds into the Intelligence Gap Detector:
 
 ---
 
-*Created: 2026-03-04 | Classification: Mandatory Orchestration Protocol*
+*Created: 2026-03-04 | Classification: Expected Orchestration Protocol*
 *Extends: deep_self_annealing.md (errors) to cover missing expertise*

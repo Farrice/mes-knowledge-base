@@ -1,6 +1,6 @@
 # Artifact Placement — Every Asset Into Its Populated Subfolder
 
-**Status**: BINDING (Farrice 2026-07-08). Deterministic enforcement, not advisory prose.
+**Status**: STANDING DECISION (Farrice 2026-07-08). Deterministic enforcement, not advisory prose.
 **Origin**: 14 projects accumulated 4-43 loose root files while the router's empty
 scaffolds sat alongside — retrieval broke. Root cause: prevention was never wired,
 only cleanup. Solution cards: `docs/solutions/2026-07-07-project-artifacts-loose-plus-empty-scaffold.md`.

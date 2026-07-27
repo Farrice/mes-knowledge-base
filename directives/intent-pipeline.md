@@ -1,4 +1,4 @@
-# Intent Pipeline (MANDATORY)
+# Intent Pipeline (EXPECTED)
 
 > Single pipeline for processing every user request. Replaces intent_refiner, pre_flight_validation, expert_auto_routing.
 
