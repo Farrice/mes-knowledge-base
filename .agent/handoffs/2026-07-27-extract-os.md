@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** extract-os  
-**Full path:** .agent/handoffs/2026-07-27-extract-os.md  
-**Date:** 2026-07-27 (today)  
-**Status:** ready  
-**Title:** Extract OS — v3.0 One Spine, One Dial (adaptive forge + Meg trust layer)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume extract-os` for this one.
-
----
-
 ---
 thread: extract-os
 status: ready
@@ -56,4 +44,3 @@ Run /extract on this video: <URL of a new expert, ideally a short 10-15 min sing
 - 7 concurrent sessions were active at closeout — claim `session_lock.py` before any multi-file build
 - Wrapper minting moved to Arsenal Loop mid-stream (2026-07-25 sibling change) — trust the P6 text on disk, not memory of this session's version
 - Meg revenue figures remain UNCONFIRMED; stat citations LIKELY — labels required in any client-facing use
-

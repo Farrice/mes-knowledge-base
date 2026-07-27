@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-27** [extract-os/ready] [Extract OS — v3.0 One Spine, One Dial (adaptive forge + Meg trust layer)](2026-07-27-extract-os.md) — Run /extract v3.0 on a fresh short expert video to validate auto-enrichment + derived manifest live
 - **2026-07-27** [offer-stack/ready] [Farrice Offer Stack — Premium Arc Design (accountable single seat + Engine Install)](2026-07-27-offer-stack.md) — Fire the sends: Cooz DM + 6 faucet asks (K Pilot), 5 teardowns, Week-1 posts — log in revenue_tracker
 - **2026-07-27** [writers-room/active] [LinkedIn profile rewrite v2 — headline, About v9, Cards Face Up post, Why the Better Product Loses article, offer restructured to 3 tiers, VOICE-CARD compiled 1.0->1.1](2026-07-27-writers-room.md) — LinkedIn profile rewrite v2 — headline, About v9, Cards Face Up post, Why the Better Product Loses article, offer restructured to 3 tiers, VOICE-CARD compiled 1.0->1.1
 - **2026-07-27** [signal-pilot-execution/ready] [Signal Pilot — Fork A Day-1 Build v2 (Rosner + Broxterman flagships SEND-ready)](2026-07-27-signal-pilot-execution.md) — Send Rosner + Broxterman DMs, log both, profile live first; then verify Robertson window + build his spec
