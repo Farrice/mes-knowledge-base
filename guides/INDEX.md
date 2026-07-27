@@ -196,6 +196,7 @@
 ---
 
 ## Pending enrichment
+- [2026-07-27 — Extract OS — v3.0 One Spine, One Dial (adaptive forge + Meg trust layer)](2026-07-27-extract-os.md) — session-brief stub, needs enrichment
 - [2026-07-27 — Farrice Offer Stack — Premium Arc Design (accountable single seat + Engine Install)](2026-07-27-offer-stack.md) — session-brief stub, needs enrichment
 - [2026-07-27 — Farrice Brand — LinkedIn Profile Rewrite v2 (Proof-to-Market Positioning + Voice Card 1.1)](2026-07-27-linkedin-profile-content.md) — session-brief stub, needs enrichment
 - [2026-07-26 — Research Depth Fix — Shallow Work Made Physically Impossible + Offer Re-Derivation](2026-07-26-.md) — session-brief stub, needs enrichment
