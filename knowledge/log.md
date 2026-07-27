@@ -608,4 +608,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-26 15:17]` **finalize** | Research-stack depth fix (8 changes: single depth contract, tavily_extract wired, loud DEGRADED, ver | general | Mark Kashef — composite:8.67 status:Keep
 - `[2026-07-26 15:59]` **finalize** | Offer-validation corpus promoted from RECON-GRADE to decision-grade: 20 load-bearing claims independ | general | mark-kashef — composite:8.67 status:Keep
 - `[2026-07-26 21:08]` **finalize** | Model dialect card for claude-opus-5 — P1-P8 probe battery run in subagent mode (8 isolated model:op | general | Mark Kashef — composite:8.33 status:Keep
+- `[2026-07-27 11:33]` **finalize** | LinkedIn profile rewrite v2 — headline, About v9, Cards Face Up post, Why the Better Product Loses a | general | april-dunford — composite:7.0 status:Needs Improvement
 - `[2026-07-27 16:10]` **lint** | Lint scan — 68 issues (44 errors, 12 warnings) — Files scanned: 745

@@ -2,6 +2,8 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-27** [signal-pilot-execution/ready] [Signal Pilot — Fork A Day-1 Build v2 (Rosner + Broxterman flagships SEND-ready)](2026-07-27-signal-pilot-execution.md) — Send Rosner + Broxterman DMs, log both, profile live first; then verify Robertson window + build his spec
+- **2026-07-27** [writers-room/active] [LinkedIn profile rewrite v2 — headline, About v9, Cards Face Up post, Why the Better Product Loses article, offer restructured to 3 tiers, VOICE-CARD compiled 1.0->1.1](2026-07-27-writers-room.md) — LinkedIn profile rewrite v2 — headline, About v9, Cards Face Up post, Why the Better Product Loses article, offer restructured to 3 tiers, VOICE-CARD compiled 1.0->1.1
 - **2026-07-27** [linkedin-profile-content/ready] [Farrice Brand — LinkedIn Profile Rewrite v2 (Proof-to-Market Positioning + Voice Card 1.1)](2026-07-27-linkedin-profile-content.md) — Propose 3 teardown brands, pick one, DM it before publishing
 - **2026-07-27** [linkedin-profile-content/ready] [Handoff — LinkedIn Profile + Content Package (2026-07-27)](2026-07-27-linkedin-profile-content-package.md) — About v9 is the register reference; teardown #1 brand not picked, nothing sent
 - **2026-07-27** [scratchpad/active] [Scratchpad — Profile V2](2026-07-27-scratchpad.md) — Scratchpad — Profile V2

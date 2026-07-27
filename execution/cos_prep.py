@@ -24,6 +24,9 @@ import sys
 from datetime import datetime, timedelta
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from cos_reminders import render_reminders  # noqa: E402  (dated tickler, stdlib-only)
+
 REPO_ROOT = Path(__file__).resolve().parents[1]
 COS = REPO_ROOT / ".agent" / "cos"
 BRIEFS = COS / "briefs"
@@ -933,6 +936,7 @@ def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions
             header += f" — from [{Path(loops_src).stem}]({loops_src})"
         lines.append(header)
         lines.extend(f"- {l}" for l in loops)
+    lines.extend(render_reminders())
     if world_pulse:
         lines.extend(render_world_pulse(world_pulse))
     if outer_loop:

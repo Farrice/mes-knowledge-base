@@ -38,7 +38,7 @@
                 "sharran-srivatsaa-scaling": 2,
                 "chase-hughes-context-engineering": 2,
                 "dai-media-consumer-posture": 2,
-                "Content": 62,
+                "Content": 63,
                 "writing-depth-layer": 3,
                 "Analysis": 9,
                 "seena-rez-tiktok-commerce": 2,
@@ -108,9 +108,9 @@
                 "cardinal-mason-ai-copywriting": 1,
                 "april-dunford-positioning": 1
             },
-            "total_routings": 669,
+            "total_routings": 670,
             "tier_counts": {
-                "0": 669,
+                "0": 670,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -121,7 +121,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 394,
-                "finalize-auto": 275
+                "finalize-auto": 276
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -282,7 +282,7 @@
                 "simon-intellectual-library-os": 4,
                 "source-command-mission": 1,
                 "evan-spiegel-distribution-architecture": 4,
-                "april-dunford": 1,
+                "april-dunford": 2,
                 "system-orchestration": 3,
                 "oren-john": 2,
                 "luke-iha-copy-blocks": 33,
@@ -13350,6 +13350,23 @@
             "workflow_used": "supercomputer",
             "ensemble": true,
             "compound_pairing": "supercomputer + nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260727_183314_f5c4",
+            "timestamp": "2026-07-27T18:33:14.413601+00:00",
+            "session_id": "",
+            "request_summary": "LinkedIn profile rewrite v2 — headline, About v9, Cards Face Up post, Why the Better Product Loses article, offer restructured to 3 tiers, VOICE-CARD compiled 1.0->1.1",
+            "intent_score": 7,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "april-dunford"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "writers-room",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

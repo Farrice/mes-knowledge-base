@@ -108,8 +108,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-07-26 (chain_runner finalize for forge-os) |
-| **Activation Count** | 738 |
-| **30-Day Review Date** | 2026-08-25 |
+| **Last Activated** | 2026-07-27 (chain_runner finalize for ward-farnsworth-rhetorical-mastery) |
+| **Activation Count** | 739 |
+| **30-Day Review Date** | 2026-08-26 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*

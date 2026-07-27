@@ -190,6 +190,7 @@
 ---
 
 ## Pending enrichment
+- [2026-07-27 — Farrice Brand — LinkedIn Profile Rewrite v2 (Proof-to-Market Positioning + Voice Card 1.1)](2026-07-27-linkedin-profile-content.md) — session-brief stub, needs enrichment
 - [2026-07-26 — Research Depth Fix — Shallow Work Made Physically Impossible + Offer Re-Derivation](2026-07-26-.md) — session-brief stub, needs enrichment
 (none)
 - [2026-07-22 — Handoff — Harness Ascension + Content Weapons Day (2026-07-21/22)](2026-07-22-.md) — operator-guide stub, needs enrichment

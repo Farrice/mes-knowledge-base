@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** signal-pilot-execution  
-**Full path:** .agent/handoffs/2026-07-27-signal-pilot-execution.md  
-**Date:** 2026-07-27 (today)  
-**Status:** ready  
-**Title:** Signal Pilot — Fork A Day-1 Build v2 (Rosner + Broxterman flagships SEND-ready)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume signal-pilot-execution` for this one.
-
----
-
 ---
 thread: signal-pilot-execution
 status: ready
@@ -61,4 +49,3 @@ pin: true
 - If a prospect replies "send it," the artifact goes as-is except placeholders — do not improvise new claims mid-thread
 - Broxterman copy must stay process-language only (RD compliance); never introduce outcome promises in follow-ups
 - Never cite Cooz $3K as a receipt; free-year story never in sales copy; pricing frame verbatim from the two-gate card
-

@@ -2,8 +2,8 @@
     "monthly_limit_usd": 30.0,
     "current_month": "2026-07",
     "usage": {
-        "total_queries": 544,
-        "estimated_cost_usd": 10.88,
+        "total_queries": 573,
+        "estimated_cost_usd": 11.46,
         "queries": [
             {
                 "timestamp": "2026-07-07T14:23:22.737279+00:00",
@@ -4356,6 +4356,238 @@
                 "description": "LinkedIn content strategy algorithm changes \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and undate",
                 "task_context": "research-engine-contrarian",
                 "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:33:35.722363+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "campaign structure and creative brief innovations \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and ",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:33:44.775273+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "campaign structure and creative brief innovations \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and ",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:33:51.328285+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "campaign structure and creative brief innovations \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and ",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:34:01.953464+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "campaign structure and creative brief innovations \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and ",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:34:10.557907+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "campaign structure and creative brief innovations \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and ",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:34:20.805808+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "campaign structure and creative brief innovations \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and ",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:34:30.196117+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "campaign structure and creative brief innovations \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and ",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:34:40.032960+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "campaign structure and creative brief innovations \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and ",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:34:46.315954+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "campaign structure and creative brief innovations \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and ",
+                "task_context": "research-engine-contrarian",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:34:51.171839+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "campaign structure and creative brief innovations \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and ",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:34:56.699192+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "campaign structure and creative brief innovations \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and ",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:35:04.063441+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "campaign structure and creative brief innovations \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and ",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:35:16.564654+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Based on these research findings, provide a clear synthesis answering: campaign structure and creative brief innovations \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include it",
+                "task_context": "research-engine-synthesis",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:35:21.446814+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "identity-level audience messaging \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergree",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:35:27.729657+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "identity-level audience messaging \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergree",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:35:35.056871+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "identity-level audience messaging \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergree",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:35:43.151740+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "identity-level audience messaging \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergree",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:35:52.542052+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "identity-level audience messaging \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergree",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:36:01.485190+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "identity-level audience messaging \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergree",
+                "task_context": "research-engine-psychology",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:36:09.624979+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "identity-level audience messaging \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergree",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:36:17.934756+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "identity-level audience messaging \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergree",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:36:24.679041+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "identity-level audience messaging \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergree",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:36:29.462556+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "identity-level audience messaging \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergree",
+                "task_context": "research-engine-competitive",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:36:39.582679+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "identity-level audience messaging \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergree",
+                "task_context": "research-engine-competitive",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:36:49.940841+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "identity-level audience messaging \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and undated evergree",
+                "task_context": "research-engine-competitive",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:37:07.464999+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "Based on these research findings, provide a clear synthesis answering: identity-level audience messaging \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in",
+                "task_context": "research-engine-synthesis",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:37:13.732411+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "LinkedIn content strategy algorithm changes \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and undate",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:37:22.575304+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "LinkedIn content strategy algorithm changes \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and undate",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
+            },
+            {
+                "timestamp": "2026-07-27T18:37:30.508451+00:00",
+                "type": "research",
+                "model": "sonar",
+                "description": "LinkedIn content strategy algorithm changes \u2014 latest developments from the past 14 days (as of 2026-07-27). Only include items published in the last two weeks; exclude 2025-or-older content and undate",
+                "task_context": "research-engine-market_data",
+                "estimated_cost": 0.02
             }
         ]
     },
@@ -4364,9 +4596,9 @@
         "block_at_percent": 100
     },
     "loop_detection": {
-        "current_task_query_count": 2,
-        "current_task_name": "research-engine-contrarian",
-        "last_query_timestamp": "2026-07-27T13:49:03.335589+00:00",
+        "current_task_query_count": 3,
+        "current_task_name": "research-engine-market_data",
+        "last_query_timestamp": "2026-07-27T18:37:30.508451+00:00",
         "consecutive_low_info_queries": 0
     }
 }
