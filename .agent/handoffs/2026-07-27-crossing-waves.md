@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** crossing-waves  
-**Full path:** .agent/handoffs/2026-07-27-crossing-waves.md  
-**Date:** 2026-07-27 (today)  
-**Status:** ready  
-**Title:** Antigravity Crossings — Waves 2+3 & Buyer Council OS (10 blends, Mike Taylor forge)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume crossing-waves` for this one.
-
----
-
 ---
 thread: crossing-waves
 status: ready
@@ -64,4 +52,3 @@ Monday DM send + calibration: send the 10 founder DMs from _active/linkedin-laun
 - **Grounding honesty:** never report a panel verdict above the seat's tagged tier; cold-generated seats stay labeled as such.
 - **Prose classifier:** structured workflow specs score FLAGGED ~5–8/10 by convention — do not sand crossing specs to chase a copy-tuned classifier.
 - No secrets, credentials, or client PII in any artifact referenced here.
-
