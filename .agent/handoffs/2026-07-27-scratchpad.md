@@ -1,3 +1,11 @@
+---
+thread: scratchpad
+status: active
+resume_hint: Scratchpad — Profile V2
+branch: main
+pin: true
+---
+
 # Scratchpad — Profile V2
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.

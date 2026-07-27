@@ -1,6 +1,6 @@
 ---
-version: 1.0
-compiled: 2026-07-07
+version: 1.1
+compiled: 2026-07-27
 owner: voice-os
 supersedes:
   - _active/codex-harvest-2026-06-11/brain/marketing-voice-tone-high-taste-core-2026-05-10/google-docs-source/03-Farrice-Voice-Proof-Style-Card.md (stale, unwired, superseded offer positioning; Voice DNA + guardrails harvested into this card)
@@ -110,11 +110,21 @@ Measured across three shipped/ready-to-ship Parallax edition bodies (`01-manifes
 
 **Email/DM (professional)**: MIRROR-adjacent, closer to spoken cadence than edited prose. No documented exemplar in corpus; extrapolate from the raw thought-bank verbatim register (longer sentences, run-on connective "and," first-person present tense) rather than the polished edition register. Flag as a corpus gap, see §6/§8.
 
+**THE SPINE CHOICE (cross-cutting, added 1.1 — resolves an apparent contradiction in §6)**: every piece picks a spine, and the choice is not about the pronoun.
+
+- **Confession-I** — his story carries the argument. Default for receipts, launches, origin pieces, anything where the proof IS his experience. Verdicted PASS 2026-07-16 ("I love the direction of this flip").
+- **Recognition-you (the Bayer Mirror)** — the READER'S interior described back to them, more precisely than they'd say it themselves. Verdicted PASS 10/10 in a controlled A/B 2026-07-22, beating his own-voice take *with him judging* ("universally relatable and agnostic but the reader feels spoken to by a friend"). Dose: ONE seven-word first-person receipt directly after the cold open, nothing else — three touches tested worse the same day.
+- **Dictation-you — BANNED.** Instructing the reader ("watch what happens the next time you..."). FAIL 2026-07-16: "people don't like being yelled at or dictated to anymore."
+
+Recognition-you and dictation-you share a pronoun and nothing else. Mirroring passes; instructing fails. That is the whole distinction, and reading §6 without it makes the bank look self-contradicting.
+
+**Class boundary (amended 2026-07-27)**: the Bayer Mirror's own spec scopes it to "deep-topic/spiritual/insight" pieces and reserves story-class for confession-I. Farrice's 2026-07-27 verdict on LinkedIn profile copy broke that: the Mirror held on story-class copy because a deep-topic thesis sat underneath the story. **The boundary is thesis-class, not format-class** — if there's a real argument under the narrative, the Mirror is live regardless of format.
+
 **Client-facing docs**: OFF-mode territory when the doc is FOR a client's brand (Jen, Andrea). When the doc is Farrice's own strategic/offer writing (e.g. the Alignment Sprint offer copy), register drops the confession pivot and the anime/spirituality texture; keeps the direct, non-prescriptive, specific-proof tone. Density > completeness, no filler, ≤2 pages per the standing directive.
 
 ## §5 BANNED MOVES (hard floor)
 
-Full 64-entry bank: `directives/ai-slop-detector.md` (structural tropes, punctuation tells, vocabulary tiers, rhythm tells, emotional tells, LinkedIn-specific tells). Ten most Farrice-relevant, inline:
+Full 64-entry bank: `directives/ai-slop-detector.md` (structural tropes, punctuation tells, vocabulary tiers, rhythm tells, emotional tells, LinkedIn-specific tells). Twelve most Farrice-relevant, inline:
 
 1. **"Here's what/why/how..." openers / "Here's the thing"**: the single most recognizable AI tell on social; his writing states the insight, never announces it's coming.
 2. **"It's not X. It's Y." negation-reveal**: appeared 15+ times in rejected Parallax drafts; the single most reliable structural tell across this system's failures.
@@ -126,6 +136,8 @@ Full 64-entry bank: `directives/ai-slop-detector.md` (structural tropes, punctua
 8. **Status-words and defensive credentialing** ("thought leader," "passionate about," "As an X, I..."), authority is earned through the writing, not claimed.
 9. **Ghost citations** ("Studies show..." without naming the study) and **forced jargon that sounds smart and means nothing** ("dangerous in a room," "the architecture of visibility").
 10. **Rule-of-three compulsion**: AI groups everything in threes to fake comprehensiveness. His real lists are messy (sometimes two items, sometimes five); when three appears, each item does different work, never parallel restatement.
+11. **Spoken-scaffold setup phrases** ("So watch what actually happens," "Here's what I want you to notice"), added 1.1: FAIL 2026-07-22 — *"no one talks like that... bad cadence."* The piece goes straight in and never announces what it's about to do. Cut on sight, including mid-body.
+12. **Scripted charisma textures** (Rock/Reynolds-style written wit), added 1.1: FAIL 2026-07-22 A/B — *"made the writing worse... created noise we don't need."* That humor is real and it lives in-person, mid-conversation. On the page it reads as performance, which is the one unforgivable failure (§2 wince test). Heroes stay heroes; they are not prose ingredients. `/texture-over` was retired the day it shipped.
 
 ## §6 CALIBRATION BANK (living, append-target for the ratchet loop)
 
@@ -164,6 +176,22 @@ Full 64-entry bank: `directives/ai-slop-detector.md` (structural tropes, punctua
 - FAIL: vulnerability without reader payoff — "a journal entry… sorry for myself at the end." The back third of a piece belongs to the reader's usable move, not the writer's feelings.
 - FAIL: one emotional beat held too long, no open loops — the reader finishes out of politeness. Delayed reveals, beat variety, an aha that lands.
 - PASS (the target): universal relatability carried by lived-in specificity — the specific detail IS the mirror; say the reader's private sentence better than they'd say it. (Full standard: `directives/task-lifecycle-content.md` Step 2.5; memory `feedback_reader-contract-three-dials`.)
+
+**The Latin×Saxon delivery fix (2026-07-22 dial 4, entry 16 — his own named synthesis):**
+- FAIL: metaphor delivered long-winded and abstract — *"outcome with no edges / built the plane mid-flight and called it customization."* Abstract-stacked images read as writing, not thinking.
+- The prescription is his, not the system's: **less abstract, more concrete-metaphorical, Saxon-punch delivery** — Farnsworth × Forsyth × Puri × Albom. Conceptual runway, then land the line on a short hard Germanic word. One device per line, never stacked.
+- PASS (2026-07-27, applied): *"Careful sounds like maybe. And maybe always loses to a lie."* End-weight built backwards from **lie**. Also *"This time I'd like him to be right"* — five monosyllables after a long runway.
+- Rhythm/articulation was named as **the last gap** at 8.5. This is the move that closes it.
+
+**The imperfection principle (2026-07-27, entry 22 — the root cause under "reads AI-generated"):**
+- FAIL: *"every canister promised the physique, the look, and the feeling of being someone who finally had it handled."* His verdict: *"No one says every canister promise. I would say supplement. I wouldn't even say it like that."*
+- The diagnosis is not vocabulary, it's polish. **Every sentence being a gem IS the tell.** Real writing carries flat sentences doing ordinary work. PASS from the same session: *"Years of that. A few things actually worked. Most did nothing."* — deliberately unremarkable, and it's what makes the surrounding lines land.
+- His own plain list beat the literary compression of it every time: *"the physique, the look, the feel, the confidence"* > any tightened version of it. **When he has said the thing himself, use his words, not a better-written version of his words.**
+- Process root cause, logged so it doesn't recur: the writers-room Layer 3 Friend Test was *reported as run* across two passes and never actually executed. Layers 1–2 (structure, tension) were treated as the whole workflow. A named-but-unexecuted workflow is worse than a skipped one, because it launders a half-pass as a full one.
+
+**Bayer Mirror PASS bank (2026-07-22 → 2026-07-27, entries 18/19/21 — mechanics in §4 Spine Choice):**
+- *"You are the only one at the table playing with your cards face up."* One everyday analogy carrying 90% of the argument, no explanation after it. Farrice 2026-07-27: *"I really liked the David Mirror, that was good."*
+- *"Careful sounds like maybe."* Distilled up, not dumbed down — simpler words carrying a deeper truth. The win is the reader thinking *"I already knew that, I just needed someone to say it,"* never *"wow, he's smart."*
 
 *New verdicts land in `calibration-log.md` via `/voice-ratchet` (`execution/voice_ratchet.py add`); `/voice-compile` folds the strongest into this section. Format: date | verdict | line | why | source.*
 

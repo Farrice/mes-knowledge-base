@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** linkedin-profile-content  
-**Full path:** .agent/handoffs/2026-07-27-linkedin-profile-content.md  
-**Date:** 2026-07-27 (today)  
-**Status:** ready  
-**Title:** Farrice Brand — LinkedIn Profile Rewrite v2 (Proof-to-Market Positioning + Voice Card 1.1)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume linkedin-profile-content` for this one.
-
----
-
 ---
 thread: linkedin-profile-content
 status: ready
@@ -74,4 +62,3 @@ Read .agent/missions/teardown-first-sends/portable.md and follow it. Start by pr
 - No prices may be published anywhere (frozen 2026-07-25 until three conversations price-test them).
 - `raw_intent_run_packet.py` returned a packet about its own machinery instead of the LinkedIn work — the portable handoff at `.agent/missions/teardown-first-sends/portable.md` is hand-authored, not generated. Do not trust that generator's output unchecked.
 - Claude Code and Codex must not run against this working tree simultaneously.
-

@@ -56,6 +56,18 @@ Other real patterns: em dashes stay near zero. His natural pause punctuation is 
 - **Notes/Threads/short-form**: 32-63 words is the sweet spot. First 200 characters must complete the load-bearing idea (mobile truncation). Every short post should be satisfying alone: a trailer, not a clip that depends on a link to make sense.
 - **Client-facing or strategic docs**: drop the confession pivot and the anime/spirituality texture. Keep direct, non-prescriptive, specific-proof tone. Short. No filler.
 
+## Pick a spine before you write a line (the move most people get wrong)
+
+Every piece runs on one of two spines. The choice is not about which pronoun you use.
+
+- **Confession-I** — his story carries the argument. Default for receipts, launches, origin pieces, anything where his experience *is* the proof.
+- **Recognition-you** — the reader's interior described back to them, more precisely than they could say it themselves. In a controlled head-to-head this beat his own-voice version 10/10, with him judging. Dose is strict: **one seven-word first-person receipt right after the cold open, and nothing else of him in the body.** Three touches tested worse.
+- **Dictation-you — BANNED.** Telling the reader what to do or what they'll see ("watch what happens next time you..."). His verdict: people don't want to be dictated to.
+
+Recognition-you and dictation-you share a pronoun and nothing else. Mirroring passes. Instructing fails.
+
+Use recognition-you when a real argument sits underneath the piece, whatever its format — a story with a thesis under it qualifies. Use confession-I when the story *is* the point.
+
 ## Banned moves (hard floor, all modes except OFF)
 
 1. **"Here's what/why/how..." openers**, "here's the thing," "let's dive in": the single most recognizable AI tell on social media.
@@ -70,6 +82,15 @@ Other real patterns: em dashes stay near zero. His natural pause punctuation is 
 10. **Vocabulary kill-list**: delve, tapestry, leverage, robust, pivotal, realm, multifaceted, comprehensive, meticulous, unlock the power of, game-changer, seamless, unprecedented, foster, elevate, optimize, synergy.
 11. **Rule-of-three padding**: grouping things in threes to fake comprehensiveness. His real lists are messy; when three does appear, each item does different work.
 12. **Sycophantic openers and motivational-poster tone**: "Great question!", every setback reframed as an "opportunity," relentless positivity with zero real doubt or frustration.
+13. **Spoken-scaffold setup phrases**: "So watch what actually happens," "Here's what I want you to notice." His verdict: "no one talks like that... bad cadence." The piece goes straight in; it never announces what it's about to do.
+14. **Scripted charisma / written wit**: Rock or Reynolds-style banter on the page. Tested and cancelled — "made the writing worse, created noise we don't need." That humor is real and it lives in conversation, not in prose.
+15. **Uniform polish**: if every sentence is a gem, it reads as machine-written. Real writing carries flat sentences doing ordinary work. "Years of that. A few things actually worked. Most did nothing." is deliberately unremarkable, and it is what makes the lines around it land.
+
+## Two craft rules that close the last gap
+
+**Use his words, not better-written versions of his words.** When he has already said the thing, his phrasing beats your compression of it every time. He said "the physique, the look, the feel, the confidence" and a tightened literary version of that same list failed on sight. Reach for his nouns first. If you find yourself writing a word he wouldn't use out loud — "canister" for supplement — you have already lost the line.
+
+**Latin runway, Saxon landing.** His named fix for flat rhythm: set up with the conceptual or abstract phrase, then land the sentence on a short hard Germanic word. Build backwards from the last word; if moving any other word to the end would make the line stronger, the end-weight is wrong. One device per line, never stacked — if the reader notices the technique, the technique failed. Examples that passed: "Careful sounds like maybe. And maybe always loses to a lie." / "This time I'd like him to be right."
 
 ## The taste signature (how he grades)
 
@@ -90,6 +111,10 @@ Bimodal: clear PASS or clear FAIL, with almost no marginal band. A draft that la
 - "You can't tell presence from performance from the outside."
 - "Manipulation without positive intent is a knife. Manipulation with love in your heart and the other person's benefit on the line is just being good at your job... Same tools. Opposite soul."
 - "I sat with the manipulation question for a while today. I'm still not fully comfortable with it. I think that's the point."
+- "Every year of mastery buries the plain version deeper." (kept over a writers-room cut recommendation — his call, and he asked for denser and harder)
+- "You are the only one at the table playing with your cards face up." (one everyday analogy carrying the whole argument, never explained afterward)
+- "Careful sounds like maybe. And maybe always loses to a lie."
+- "Years of that. A few things actually worked. Most did nothing." (flat on purpose — the plain sentence that makes the sharp ones land)
 
 ## Real lines that failed (and the specific reason)
 
