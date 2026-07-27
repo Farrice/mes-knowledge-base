@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-27** [solutions/active] [Solutions — Prose Gate Scaffolding False Fail](2026-07-27-solutions.md) — Solutions — Prose Gate Scaffolding False Fail
 - **2026-07-27** [crossing-waves/ready] [Antigravity Crossings — Waves 2+3 & Buyer Council OS (10 blends, Mike Taylor forge)](2026-07-27-crossing-waves.md) — Send Monday's 10 founder DMs (V1 free-screenshot lead), then log real replies to councils/buyers/calibration.jsonl
 - **2026-07-27** [extract-os/ready] [Extract OS — v3.0 One Spine, One Dial (adaptive forge + Meg trust layer)](2026-07-27-extract-os.md) — Run /extract v3.0 on a fresh short expert video to validate auto-enrichment + derived manifest live
 - **2026-07-27** [offer-stack/ready] [Farrice Offer Stack — Premium Arc Design (accountable single seat + Engine Install)](2026-07-27-offer-stack.md) — Fire the sends: Cooz DM + 6 faucet asks (K Pilot), 5 teardowns, Week-1 posts — log in revenue_tracker

@@ -267,3 +267,5 @@
 {"ts": "2026-07-21T14:19:47Z", "label": "2026-07-21 health-performance brief", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-21T14:21:50Z", "label": "2026-07-21 final recheck", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
 {"ts": "2026-07-21T14:24:16Z", "label": "2026-07-21 final", "verdict": "WARN", "fails": [], "warns": ["prose_classifier: WARNING"]}
+{"ts": "2026-07-27T21:39:04Z", "label": "health-performance-geo-2026-07-27", "verdict": "FAIL", "fails": ["\"It's not X. It's Y.\" reveal pattern \u00d74 \u2014 feedback_ai-structural-tells.md #1", "Triple-beat anaphora ('it \u2026 it \u2026 it') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}
+{"ts": "2026-07-27T21:40:01Z", "label": "health-performance-geo-2026-07-27", "verdict": "FAIL", "fails": ["Triple-beat anaphora ('what \u2026 what \u2026 what') \u2014 feedback_ai-structural-tells.md #3", "prose_classifier: FLAGGED (banned vocab / AI prose density)"], "warns": []}

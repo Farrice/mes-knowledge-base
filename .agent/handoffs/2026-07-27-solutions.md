@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** solutions  
-**Full path:** .agent/handoffs/2026-07-27-solutions.md  
-**Date:** 2026-07-27 (today)  
-**Status:** active  
-**Title:** Solutions — Prose Gate Scaffolding False Fail
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume solutions` for this one.
-
----
-
 ---
 thread: solutions
 status: active
@@ -25,4 +13,3 @@ pin: true
 **Artifacts:** /Users/farricecain/Google Antigravity/_active/linkedin-launch/03-launch/teardowns/2026-07-27-teardown-01-transparent-labs.md, /Users/farricecain/Google Antigravity/_active/linkedin-launch/03-launch/teardowns/2026-07-27-teardown-02-momentous.md, /Users/farricecain/Google Antigravity/_active/linkedin-launch/03-launch/teardowns/2026-07-27-teardown-03-puori.md, /Users/farricecain/Google Antigravity/_active/linkedin-launch/03-launch/2026-07-27-profile-top-to-bottom.md, /Users/farricecain/Google Antigravity/docs/solutions/2026-07-27-prose-gate-scaffolding-false-fail.md
 
 **Retrieve:** `/resume solutions`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
-

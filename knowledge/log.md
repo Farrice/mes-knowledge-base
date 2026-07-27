@@ -610,3 +610,9 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-26 21:08]` **finalize** | Model dialect card for claude-opus-5 — P1-P8 probe battery run in subagent mode (8 isolated model:op | general | Mark Kashef — composite:8.33 status:Keep
 - `[2026-07-27 11:33]` **finalize** | LinkedIn profile rewrite v2 — headline, About v9, Cards Face Up post, Why the Better Product Loses a | general | april-dunford — composite:7.0 status:Needs Improvement
 - `[2026-07-27 16:10]` **lint** | Lint scan — 68 issues (44 errors, 12 warnings) — Files scanned: 745
+- `[2026-07-27 12:38]` **finalize** | Teardowns #1-3 (Transparent Labs, Momentous, Puori) with DMs + published post copy, and the LinkedIn | general | farrice-voice-os — composite:8.0 status:Keep
+- `[2026-07-27 13:52]` **finalize** | Compass doctrine: audited the enforcement layer, disarmed the live routing prompt-blocker and the 3- | general | system — composite:7.25 status:Needs Improvement
+- `[2026-07-27 13:57]` **finalize** | Compass doctrine v2: silent earned-8 score cap waived under COMPASS_MODE so the visible nudge is the | general | system — composite:7.25 status:Needs Improvement
+- `[2026-07-27 13:58]` **finalize** | Compass doctrine v3: anti-cluster cap no longer treats an unrun prose check as dirty prose | general | system — composite:8.33 status:Keep
+- `[2026-07-27 14:01]` **finalize** | REGRESSION TEST - factual veto probe, ignore this row | general | system — composite:9.0 status:BLOCKED — Factual Veto
+- `[2026-07-27 14:39]` **finalize** | Compass sweep round 2: softened 27 cage-language lines across 20 directives, audited the Codex hook  | general | system — composite:8.33 status:Keep
