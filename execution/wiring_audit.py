@@ -66,6 +66,7 @@ def inventory() -> list[str]:
         out += [f"agent:{p.parent.name}" for p in AGENTS_DIR.glob("*/AGENT.md")]
         out += [f"execution:{p.relative_to(EXEC_DIR)}" for p in EXEC_DIR.rglob("*.py")
                 if ".venv" not in p.parts and "__pycache__" not in p.parts
+                and "archive" not in p.parts
                 and not any(part.startswith("_archived") for part in p.parts)]
     except OSError:
         pass
@@ -142,7 +143,11 @@ class Corpus:
                     parts.append(self._read(p))
             except OSError:
                 pass
-            for d in (EXEC_DIR, ROOT / "directives"):
+            # skills/ + docs/solutions/ added 2026-07-28 (scar: the audit
+            # orphaned weather_data.py despite 26 skill-prose invocations, and
+            # nearly archived wiring_audit.py itself)
+            for d in (EXEC_DIR, ROOT / "directives", ROOT / "skills",
+                      ROOT / "docs" / "solutions"):
                 try:
                     for p in d.rglob("*"):
                         if p.suffix in (".py", ".md") and p.is_file() \
@@ -207,6 +212,12 @@ def prove(key: str, c: Corpus) -> tuple[str, str]:
         refs = c.exec_refs.count(base) - own.count(base)
         if refs > 0:
             return "PROVEN", f"referenced {refs}x (hooks/launchd/scripts/workflows/directives)"
+        # Python imports don't say ".py" (2026-07-28 fix — the audit was blind
+        # to `import x` / `from x import` consumers)
+        stem = base[:-3] if base.endswith(".py") else base
+        for pat in (f"import {stem}\n", f"import {stem} ", f"from {stem} import"):
+            if (c.exec_refs.count(pat) - own.count(pat)) > 0:
+                return "PROVEN", f"python-imported ({pat.strip()!r})"
         return "ORPHAN", "no reference anywhere in the invocation surfaces"
 
     return "ORPHAN", f"unknown asset class {klass!r}"

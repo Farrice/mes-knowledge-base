@@ -1,5 +1,5 @@
 {
- "generated": "2026-07-28T09:36:44.793197",
+ "generated": "2026-07-28T15:20:22.951453",
  "assets": {
   "agent:adam-enfroy": {
    "status": "PROVEN",
@@ -1171,24 +1171,9 @@
    "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
    "checked": "2026-07-28T09:36:43.715345"
   },
-  "execution:ad_vo_script_gate.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
-  "execution:agent_arsenal_router_audit.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
   "execution:agent_tick.py": {
    "status": "PROVEN",
    "via": "referenced 10x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
-  "execution:agent_upgrader.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
    "checked": "2026-07-28T09:36:43.715345"
   },
   "execution:ai_carousel_engine.py": {
@@ -1199,7 +1184,7 @@
   "execution:ai_misfire_sprint_guard.py": {
    "status": "ORPHAN",
    "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-07-28T15:20:14.403052"
   },
   "execution:anchor_memory.py": {
    "status": "PROVEN",
@@ -1209,11 +1194,6 @@
   "execution:anchor_verify.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
-  "execution:antigravity_global_access.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
    "checked": "2026-07-28T09:36:43.715345"
   },
   "execution:apify_client.py": {
@@ -1254,7 +1234,7 @@
   "execution:audit_extraction_integrity.py": {
    "status": "ORPHAN",
    "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-07-28T15:20:14.403052"
   },
   "execution:autopilot_runtime_preflight.py": {
    "status": "PROVEN",
@@ -1264,21 +1244,6 @@
   "execution:avatar_manifold_runner.py": {
    "status": "PROVEN",
    "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
-  "execution:backfill_paper_bets.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
-  "execution:backfill_voice_rules.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
-  "execution:backtest.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
    "checked": "2026-07-28T09:36:43.715345"
   },
   "execution:benchmark_router_retrieval.py": {
@@ -1346,24 +1311,9 @@
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
    "checked": "2026-07-28T09:36:43.715345"
   },
-  "execution:claude_export_consolidate.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
-  "execution:claude_export_ingest.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
   "execution:claude_export_parser.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
-  "execution:claude_export_state.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
    "checked": "2026-07-28T09:36:43.715345"
   },
   "execution:claude_export_triage.py": {
@@ -1374,7 +1324,7 @@
   "execution:client_package_lint.py": {
    "status": "ORPHAN",
    "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-07-28T15:20:14.403052"
   },
   "execution:co_creative_launchpad.py": {
    "status": "PROVEN",
@@ -1396,11 +1346,6 @@
    "via": "referenced 10x (hooks/launchd/scripts/workflows/directives)",
    "checked": "2026-07-28T09:36:43.715345"
   },
-  "execution:codex_live_surface_quarantine_plan.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
   "execution:codex_operator_preflight.py": {
    "status": "PROVEN",
    "via": "referenced 19x (hooks/launchd/scripts/workflows/directives)",
@@ -1409,11 +1354,6 @@
   "execution:command_menu.py": {
    "status": "PROVEN",
    "via": "referenced 63x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
-  "execution:confidence_variant.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
    "checked": "2026-07-28T09:36:43.715345"
   },
   "execution:content_finish_gate.py": {
@@ -1456,11 +1396,6 @@
    "via": "referenced 26x (hooks/launchd/scripts/workflows/directives)",
    "checked": "2026-07-28T09:36:43.715345"
   },
-  "execution:cos_board_cast.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
   "execution:cos_prep.py": {
    "status": "PROVEN",
    "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
@@ -1472,9 +1407,9 @@
    "checked": "2026-07-28T09:36:43.715345"
   },
   "execution:cos_reminders.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
+   "status": "PROVEN",
+   "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:20:14.403052"
   },
   "execution:cost_gate.py": {
    "status": "PROVEN",
@@ -1519,7 +1454,7 @@
   "execution:design_md_extract.py": {
    "status": "ORPHAN",
    "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-07-28T15:20:14.403052"
   },
   "execution:design_md_validate.py": {
    "status": "PROVEN",
@@ -1534,11 +1469,6 @@
   "execution:dream.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
-  "execution:e3_assemble.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
    "checked": "2026-07-28T09:36:43.715345"
   },
   "execution:end_session_closeout.py": {
@@ -1589,16 +1519,6 @@
   "execution:export_to_drive.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
-  "execution:extract_book_insights.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
-  "execution:extract_publishable_sections.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
    "checked": "2026-07-28T09:36:43.715345"
   },
   "execution:extraction_manifest.py": {
@@ -1689,21 +1609,11 @@
   "execution:generate_agent_stacking_registry.py": {
    "status": "ORPHAN",
    "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
-  "execution:generate_cheat_sheet.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
+   "checked": "2026-07-28T15:20:14.403052"
   },
   "execution:generate_codex_indexes.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
-  "execution:generate_council_report.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
    "checked": "2026-07-28T09:36:43.715345"
   },
   "execution:generate_design.py": {
@@ -1711,44 +1621,14 @@
    "via": "referenced 13x (hooks/launchd/scripts/workflows/directives)",
    "checked": "2026-07-28T09:36:43.715345"
   },
-  "execution:generate_fladlien_addons.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
   "execution:generate_image.py": {
    "status": "PROVEN",
    "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
    "checked": "2026-07-28T09:36:43.715345"
   },
-  "execution:generate_invocation_cards.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
-  "execution:generate_mes_extraction.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
   "execution:generate_slash_commands.py": {
    "status": "PROVEN",
    "via": "referenced 15x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
-  "execution:genius_compressor.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
-  "execution:genius_enricher.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:36:43.715345"
-  },
-  "execution:google_operator_core_parity_manifest.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
    "checked": "2026-07-28T09:36:43.715345"
   },
   "execution:ground_truth.py": {
@@ -1758,848 +1638,743 @@
   },
   "execution:grounding_guard.py": {
    "status": "PROVEN",
-   "via": "referenced 15x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 24x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:handoff_store.py": {
    "status": "PROVEN",
-   "via": "referenced 24x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 39x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:harness_status.py": {
    "status": "PROVEN",
    "via": "referenced 18x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:harvest_memory_daily.py": {
    "status": "PROVEN",
    "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:health_metrics.py": {
    "status": "PROVEN",
-   "via": "referenced 14x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 15x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:higgsfield_budget_guard.py": {
    "status": "PROVEN",
-   "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 62x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:hooks/active_tool_lock.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:hooks/apify_mcp_bootstrap.py": {
-   "status": "ORPHAN",
-   "via": "hook file not registered in .claude/settings.json",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:hooks/artifact_placement_hook.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:hooks/concurrent_session_alarm.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:hooks/cost_gate_hook.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:hooks/divergence_alarm_hook.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:hooks/enforce_trial.py": {
-   "status": "ORPHAN",
-   "via": "hook file not registered in .claude/settings.json",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:hooks/fleet_write_guard.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:hooks/guard_stranded_deliverables.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:hooks/mcp_spend_log_hook.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:hooks/menu_parity_hook.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:hooks/pending_decisions_hook.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:hooks/prompt_menu_hook.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:hooks/session_end_hook.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:hooks/session_ledger_hook.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:hooks/steering_loop_hook.py": {
    "status": "PROVEN",
    "via": "registered in .claude/settings.json",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:hybrid_content_zeitgeist_radar.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:hybrid_morning_signal_radar.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:install_codex_dynamic_workflow_global.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:intake_extraction.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:intent_memory.py": {
    "status": "PROVEN",
    "via": "referenced 15x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:intent_to_package.py": {
    "status": "PROVEN",
-   "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 15x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:kallaway_trend_hook_radar.py": {
    "status": "PROVEN",
-   "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 19x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:kimi_swarm.py": {
    "status": "PROVEN",
    "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:knowledge_compiler.py": {
    "status": "PROVEN",
-   "via": "referenced 75x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 76x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:live_trader.py": {
    "status": "PROVEN",
    "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:log_performance.py": {
    "status": "PROVEN",
    "via": "referenced 27x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:md_to_docx.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:md_to_gdoc.py": {
    "status": "PROVEN",
-   "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:measure_injection.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:memory_distill.py": {
    "status": "PROVEN",
    "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:memory_embed.py": {
    "status": "PROVEN",
    "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:memory_facade.py": {
    "status": "PROVEN",
-   "via": "referenced 21x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 25x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:memory_ops.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:memory_retrieve.py": {
    "status": "PROVEN",
    "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:memory_review.py": {
    "status": "PROVEN",
-   "via": "referenced 19x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:memory_selector.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 23x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:memory_store.py": {
    "status": "PROVEN",
-   "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:merge_transcripts.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 13x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:mint_menu_wrappers.py": {
    "status": "PROVEN",
-   "via": "referenced 1737x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 1740x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:mirror_notion.py": {
    "status": "PROVEN",
-   "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:mission_control.py": {
    "status": "PROVEN",
    "via": "referenced 44x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:mission_runner.py": {
    "status": "PROVEN",
-   "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:mission_validator.py": {
    "status": "PROVEN",
    "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:native_floor.py": {
    "status": "PROVEN",
-   "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:nba_stats.py": {
    "status": "PROVEN",
-   "via": "referenced 13x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 26x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:notebooklm_client.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:notebooklm_knowledge_retrieval.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:notion_api.py": {
    "status": "PROVEN",
-   "via": "referenced 18x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 28x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:notion_backfill_knowledge.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:odds_fetcher.py": {
    "status": "PROVEN",
-   "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 19x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:offer_gate.py": {
    "status": "PROVEN",
-   "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:operator_cockpit.py": {
    "status": "PROVEN",
    "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:operator_core_fast_proof.py": {
    "status": "PROVEN",
    "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:operator_core_status.py": {
    "status": "PROVEN",
    "via": "referenced 29x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:operator_guide_sync.py": {
    "status": "PROVEN",
    "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:orchestration_ledger.py": {
    "status": "PROVEN",
-   "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:outcome_chase.py": {
    "status": "PROVEN",
-   "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:outcome_recipes.py": {
    "status": "PROVEN",
    "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:panel_cast.py": {
    "status": "PROVEN",
-   "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 19x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:paper_trader.py": {
    "status": "PROVEN",
    "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:parallel_swarm.py": {
    "status": "PROVEN",
-   "via": "referenced 21x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:paths.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 23x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:pattern_propagation.py": {
    "status": "PROVEN",
    "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:perception_engineering_bridge_audit.py": {
    "status": "ORPHAN",
    "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:20:14.403052"
   },
   "execution:performance_evidence_audit.py": {
    "status": "PROVEN",
    "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:perplexity_client.py": {
    "status": "PROVEN",
-   "via": "referenced 13x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 14x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:persona_receipt_check.py": {
    "status": "PROVEN",
-   "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:persona_stat_lint.py": {
    "status": "PROVEN",
-   "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 20x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:platform_compiler.py": {
    "status": "PROVEN",
-   "via": "referenced 16x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:plugin_build.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 20x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:plugin_readiness_audit.py": {
    "status": "PROVEN",
-   "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:polymarket_client.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:polymarket_paper.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:polymarket_ws.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 14x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:project_filer.py": {
    "status": "PROVEN",
-   "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 10x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:projection_engine.py": {
    "status": "PROVEN",
-   "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 19x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:prompt_library.py": {
    "status": "PROVEN",
-   "via": "referenced 23x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 42x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:prose_classifier.py": {
    "status": "PROVEN",
-   "via": "referenced 45x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 129x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:protocol_tracker.py": {
    "status": "PROVEN",
    "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:publishable_copy_guard.py": {
    "status": "ORPHAN",
    "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:20:14.403052"
   },
   "execution:pulse_dashboard.py": {
    "status": "PROVEN",
    "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:raw_intent_run_packet.py": {
    "status": "PROVEN",
-   "via": "referenced 27x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 28x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:recall_logger.py": {
    "status": "PROVEN",
-   "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 14x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:recommend_stack.py": {
    "status": "PROVEN",
    "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:recurring_ops.py": {
    "status": "PROVEN",
    "via": "referenced 13x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:regression_suite.py": {
    "status": "PROVEN",
    "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:renaissance_audit.py": {
    "status": "PROVEN",
-   "via": "referenced 24x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 39x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:renaissance_queue.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:research.py": {
    "status": "PROVEN",
-   "via": "referenced 77x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 127x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:research_contract.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:research_depth.py": {
    "status": "PROVEN",
-   "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:research_personas.py": {
    "status": "PROVEN",
-   "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:research_quality_gate.py": {
    "status": "PROVEN",
-   "via": "referenced 31x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 40x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:revenue_tracker.py": {
    "status": "PROVEN",
-   "via": "referenced 31x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 38x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:review_miner.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "status": "PROVEN",
+   "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:risk_manager.py": {
    "status": "PROVEN",
-   "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:routing_audit.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:routing_enforcer.py": {
    "status": "PROVEN",
-   "via": "referenced 34x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 55x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:routing_governor.py": {
    "status": "PROVEN",
-   "via": "referenced 23x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 25x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:routing_intelligence.py": {
    "status": "PROVEN",
    "via": "referenced 98x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:routing_test_suite.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:run_receipt.py": {
    "status": "PROVEN",
    "via": "referenced 16x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:savant_control_room.py": {
    "status": "PROVEN",
    "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:search_experts.py": {
    "status": "PROVEN",
    "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:self_heal.py": {
    "status": "PROVEN",
-   "via": "referenced 20x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 31x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:session_closeout_intelligence.py": {
    "status": "PROVEN",
    "via": "referenced 30x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:session_ledger_report.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:session_lock.py": {
    "status": "PROVEN",
-   "via": "referenced 23x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 26x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:session_log_registrar.py": {
    "status": "PROVEN",
    "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:session_workspace.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:skill_auditor.py": {
    "status": "PROVEN",
-   "via": "referenced 19x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 57x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:skill_benchmark.py": {
    "status": "PROVEN",
-   "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 22x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:skill_census.py": {
    "status": "PROVEN",
-   "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:skill_converter.py": {
    "status": "PROVEN",
    "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:skill_evolution_candidates.py": {
    "status": "PROVEN",
    "via": "referenced 6x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:skill_router_hook.py": {
    "status": "PROVEN",
-   "via": "referenced 14x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 17x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:social_intel.py": {
    "status": "PROVEN",
-   "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 18x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:social_pulse.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:solution_recorder.py": {
    "status": "PROVEN",
-   "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:strategy_orchestrator.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:subagent_readiness.py": {
    "status": "PROVEN",
    "via": "referenced 7x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:swarm_conductor.py": {
    "status": "PROVEN",
-   "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:sync_global_operator_core.py": {
    "status": "PROVEN",
    "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:sync_operator_core_end_session.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:sync_operator_core_expert_composition_governor.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:sync_operator_core_extraction_governor_agent.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:sync_operator_core_health_check.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:sync_operator_core_knowledge_librarian.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:sync_operator_core_orchestrate.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:sync_operator_core_repeatability_spine.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:sync_operator_core_routing_intelligence.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:sync_operator_core_self_evolve.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:sync_operator_core_skill_anneal.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:sync_operator_core_source_to_skill_system.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:sync_operator_core_system_audit.py": {
    "status": "PROVEN",
    "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:sync_registries.py": {
    "status": "PROVEN",
-   "via": "referenced 635x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 645x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:system_audit.py": {
    "status": "PROVEN",
    "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:system_cohesion_platter.py": {
    "status": "PROVEN",
    "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:system_cohesion_state.py": {
    "status": "PROVEN",
    "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:system_efficiency_benchmark.py": {
    "status": "ORPHAN",
    "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:20:14.403052"
   },
   "execution:system_health.py": {
    "status": "PROVEN",
    "via": "referenced 25x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:task_queue.py": {
    "status": "PROVEN",
    "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:taste_signature.py": {
    "status": "PROVEN",
-   "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:teardown_ethics_gate.py": {
    "status": "PROVEN",
    "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:test_notebooklm_integration.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:test_video_enhance.py": {
    "status": "ORPHAN",
    "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:20:14.403052"
   },
   "execution:thought_bank.py": {
    "status": "PROVEN",
-   "via": "referenced 8x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:token_meter.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 9x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:tool_router.py": {
    "status": "PROVEN",
    "via": "referenced 11x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:trim_descriptions.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:trim_workflow_descriptions.py": {
    "status": "PROVEN",
    "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:validate_skill.py": {
    "status": "PROVEN",
-   "via": "referenced 23x (hooks/launchd/scripts/workflows/directives)",
-   "checked": "2026-07-28T09:35:38.823124"
+   "via": "referenced 25x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:verify_activation_governor.py": {
    "status": "PROVEN",
    "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:verify_antigravity_global_access.py": {
    "status": "PROVEN",
    "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:verify_artifact_router.py": {
    "status": "PROVEN",
    "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:verify_autopilot_routing.py": {
    "status": "PROVEN",
    "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:verify_autopilot_runtime_preflight.py": {
    "status": "PROVEN",
    "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:verify_born_intent_drift.py": {
    "status": "PROVEN",
    "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:verify_codex_authority.py": {
    "status": "PROVEN",
    "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:verify_codex_claude_parity.py": {
    "status": "PROVEN",
    "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:verify_codex_dynamic_workflow.py": {
    "status": "PROVEN",
    "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:verify_contextual_next_prompts.py": {
-   "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T09:35:38.823124"
+   "checked": "2026-07-28T15:19:33.427547"
   },
   "execution:verify_control_intent.py": {
    "status": "PROVEN",
@@ -2662,11 +2437,6 @@
    "checked": "2026-07-28T09:35:38.823124"
   },
   "execution:verify_global_execution_bias_bridge.py": {
-   "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:verify_global_steering_closeout.py": {
    "status": "PROVEN",
    "via": "verify_* \u2014 run by the Sunday fleet glob",
    "checked": "2026-07-28T09:35:38.823124"
@@ -2896,11 +2666,6 @@
    "via": "verify_* \u2014 run by the Sunday fleet glob",
    "checked": "2026-07-28T09:35:38.823124"
   },
-  "execution:verify_steering_compass.py": {
-   "status": "PROVEN",
-   "via": "verify_* \u2014 run by the Sunday fleet glob",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
   "execution:verify_steering_compass_quality.py": {
    "status": "PROVEN",
    "via": "verify_* \u2014 run by the Sunday fleet glob",
@@ -2961,20 +2726,10 @@
    "via": "referenced 10x (hooks/launchd/scripts/workflows/directives)",
    "checked": "2026-07-28T09:35:38.823124"
   },
-  "execution:wave5_dispatch.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:wave5_orchestrator.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
   "execution:weather_data.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "status": "PROVEN",
+   "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:20:02.153220"
   },
   "execution:wire_prompt_pointers.py": {
    "status": "PROVEN",
@@ -2982,14 +2737,9 @@
    "checked": "2026-07-28T09:35:38.823124"
   },
   "execution:wiring_audit.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
-  },
-  "execution:workflow_consolidator.py": {
-   "status": "ORPHAN",
-   "via": "no reference anywhere in the invocation surfaces",
-   "checked": "2026-07-28T09:35:38.823124"
+   "status": "PROVEN",
+   "via": "referenced 12x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:20:14.403052"
   },
   "execution:workflow_router.py": {
    "status": "PROVEN",
@@ -17895,6 +17645,266 @@
    "status": "PROVEN",
    "via": "wrapper in .claude/commands/ (menu-parity)",
    "checked": "2026-07-28T09:35:38.823124"
+  },
+  "execution:archive/ad_vo_script_gate.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/agent_arsenal_router_audit.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/agent_upgrader.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/antigravity_global_access.py": {
+   "status": "PROVEN",
+   "via": "python-imported ('import antigravity_global_access')",
+   "checked": "2026-07-28T15:19:33.427547"
+  },
+  "execution:archive/apify_mcp_bootstrap.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/backfill_paper_bets.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/backfill_voice_rules.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/backtest.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/claude_export_consolidate.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/claude_export_ingest.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/claude_export_state.py": {
+   "status": "PROVEN",
+   "via": "python-imported ('import claude_export_state')",
+   "checked": "2026-07-28T15:19:33.427547"
+  },
+  "execution:archive/codex_live_surface_quarantine_plan.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/confidence_variant.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/cos_board_cast.py": {
+   "status": "PROVEN",
+   "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
+  },
+  "execution:archive/e3_assemble.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/enforce_trial.py": {
+   "status": "PROVEN",
+   "via": "python-imported ('from enforce_trial import')",
+   "checked": "2026-07-28T15:19:33.427547"
+  },
+  "execution:archive/extract_book_insights.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/extract_publishable_sections.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/generate_cheat_sheet.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/generate_council_report.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/generate_fladlien_addons.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/generate_invocation_cards.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/generate_mes_extraction.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/genius_compressor.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/genius_enricher.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/google_operator_core_parity_manifest.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/hybrid_content_zeitgeist_radar.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/install_codex_dynamic_workflow_global.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/intake_extraction.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/md_to_docx.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/measure_injection.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/memory_selector.py": {
+   "status": "PROVEN",
+   "via": "python-imported ('from memory_selector import')",
+   "checked": "2026-07-28T15:19:33.427547"
+  },
+  "execution:archive/merge_transcripts.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/paths.py": {
+   "status": "PROVEN",
+   "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
+  },
+  "execution:archive/plugin_build.py": {
+   "status": "PROVEN",
+   "via": "referenced 4x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
+  },
+  "execution:archive/polymarket_client.py": {
+   "status": "PROVEN",
+   "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
+  },
+  "execution:archive/polymarket_paper.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/polymarket_ws.py": {
+   "status": "PROVEN",
+   "via": "referenced 1x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
+  },
+  "execution:archive/routing_test_suite.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/session_ledger_report.py": {
+   "status": "PROVEN",
+   "via": "python-imported ('from session_ledger_report import')",
+   "checked": "2026-07-28T15:19:33.427547"
+  },
+  "execution:archive/strategy_orchestrator.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/test_notebooklm_integration.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/token_meter.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/trim_descriptions.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/verify_contextual_next_prompts.py": {
+   "status": "PROVEN",
+   "via": "referenced 3x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
+  },
+  "execution:archive/verify_global_steering_closeout.py": {
+   "status": "PROVEN",
+   "via": "referenced 2x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
+  },
+  "execution:archive/verify_steering_compass.py": {
+   "status": "PROVEN",
+   "via": "referenced 5x (hooks/launchd/scripts/workflows/directives)",
+   "checked": "2026-07-28T15:19:33.427547"
+  },
+  "execution:archive/wave5_dispatch.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/wave5_orchestrator.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:archive/workflow_consolidator.py": {
+   "status": "ORPHAN",
+   "via": "no reference anywhere in the invocation surfaces",
+   "checked": "2026-07-28T15:20:14.403052"
+  },
+  "execution:verify_dead_channels.py": {
+   "status": "PROVEN",
+   "via": "verify_* \u2014 run by the Sunday fleet glob",
+   "checked": "2026-07-28T15:19:33.427547"
+  },
+  "execution:verify_wiring_audit.py": {
+   "status": "PROVEN",
+   "via": "verify_* \u2014 run by the Sunday fleet glob",
+   "checked": "2026-07-28T15:19:33.427547"
   }
  }
 }

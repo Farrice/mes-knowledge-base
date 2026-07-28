@@ -83,6 +83,46 @@ never date-suffixed variants; (3) per-model prompting deltas live in `directives
 model launch, update THIS table + model-notes.md in one commit (the claude-api skill is the
 verification source, never memory).
 
+## Seating Charter — the Grounding Chain (council-ratified 2026-07-28, Farrice Fork-1B)
+
+Full deliberation: `knowledge/council-sessions/2026-07-28-seating-charter-harness-diet-ratification-contex.md`.
+
+**The law**: every expenditure — a Fable turn, a hook injection, a log line, a canonical rule —
+carries one of two tags: **forward** (`consumer:` — code or a human ritual provably acts on it)
+or **backward** (`scar:` — a dated wound it guards). Its chain must ground out in a human within
+two hops. Neither tag = decoration → archived wholesale (`execution/archive/`, delist-not-delete;
+/arsenal restocks; a real break is the ticket back). **Receipts are MINED from observe logs,
+never manufactured on a calendar — no new trackers, ledgers, or probation channels, ever.** The
+receipt check lives inside `/weekly-closeout` (existing consumer), nowhere else.
+
+**The hop ladder seats the models**:
+
+| Hop | Definition | Seat |
+|---|---|---|
+| **0** | A human outside the repo directly receives it | **Fable may write directly — CLOSED LIST ONLY** (Farrice Fork-1B, 2026-07-28): Parallax editions · cold offer emails · letters-to-JJ-grade personal writing. Nothing enters this list without Farrice's explicit say — "voice-bearing" as an adjective is how creep starts. Everything else at hop 0: Opus 5 writes, taste arbitrates after. |
+| **1** | Consumed by a process whose output a human receives | Opus 5 steady-state production (client deliverables, briefs, drafts, refinement) · Fable for dispatch/compilation when the turn ends in a decision consumed by 3+ downstream cheaper turns · Sonnet 5 when a script/agent consumes it |
+| **2+** | Read only by another subsystem | **No seat. Archive without ceremony** — observer-of-observer chains are the 60%-maintenance disease. |
+
+**Fable budget rule** (≈50% of monthly budget — spend deliberately): before a Fable turn, name
+the consumer — either the closed-list hop-0 artifact, or the 3+ downstream turns that consume the
+dispatch. A Fable-written artifact outside the closed list = a **misseat**, logged and read in
+`/weekly-closeout` as a trend, never a quota. Verification never gets its own seat: the main
+loop verifies (dialect law), a spawned reviewer only on Farrice's ask or a compromised context.
+
+**Fable-absent degradation (Farrice 2026-07-28 — the ORIGINAL intent of this charter: Opus 5 is
+the default seat and must deliver Fable-grade conducting when no Fable seat exists):** the
+charter NEVER stalls work waiting for Fable (opus-fallback policy: degrade a tier, don't stall).
+When Fable is unavailable: hop-0 closed-list artifacts route to **Opus 5 + Farrice's felt
+verdict as the taste gate** (his arbitration replaces Fable's composition — the human is the
+apex seat, Fable was only ever its proxy); everything else runs exactly as written, because the
+Opus-5 seat inherits the same machinery that makes conducting work — the dieted constitutions,
+the dialect injector's per-prompt corrections, Mission Cards, solution cards, and this doctrine.
+What closes the Opus→Fable gap is **pre-banked judgment, not prompting**: park genuinely
+Fable-grade calls (kill decisions, closed-list amendments, hype-vs-real verdicts) via
+`handoff_store.py save` with an "awaiting stronger seat" note, and bank reusable judgment as
+wargame failure-maps (`/wargame-run`) so cheaper seats run them blind. A parked call is charter
+behavior; a stalled mission is a violation.
+
 **Seat handoffs**: when a stronger seat will resume later, park judgment calls explicitly —
 `handoff_store.py save --thread <t>` with an "awaiting stronger seat" note — rather than forcing
 them at the current rung. When a weaker seat inherits mid-mission, it re-reads this doctrine +

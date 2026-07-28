@@ -110,11 +110,14 @@
                 "context-profile-architect": 1,
                 "new-media-kingmaker": 1,
                 "lamott-allen-really-real-writing": 1,
-                "nick-saraev-bottleneck-thinking": 1
+                "nick-saraev-bottleneck-thinking": 1,
+                "mark-kashef-wargame-os": 1,
+                "gemini-api-dev": 1,
+                "packy-mccormick-writing": 1
             },
-            "total_routings": 702,
+            "total_routings": 705,
             "tier_counts": {
-                "0": 702,
+                "0": 705,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -124,7 +127,7 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 413,
+                "hybrid": 416,
                 "finalize-auto": 289
             },
             "expert_counts": {
@@ -138,7 +141,7 @@
                 "paul-james-ai-automation": 1,
                 "joscha-bach-consciousness": 2,
                 "cinema-worldbuilder-pro": 2,
-                "ali-abdaal-action-bias": 7,
+                "ali-abdaal-action-bias": 8,
                 "skill-creator": 4,
                 "jen-santulan-listing-content": 35,
                 "deep-research": 11,
@@ -226,7 +229,7 @@
                 "jeremy-haynes": 4,
                 "ethan-smith-aeo": 3,
                 "luke-iha-vsl-leads": 10,
-                "gemini-api-dev": 4,
+                "gemini-api-dev": 5,
                 "voice-os": 16,
                 "michael-connelly-vivid-writing": 1,
                 "joey-cinema-os": 9,
@@ -267,10 +270,10 @@
                 "luisa-zhou-coaching": 2,
                 "supercomputer": 62,
                 "design-md": 23,
-                "alex-content-science": 5,
+                "alex-content-science": 6,
                 "system-audit": 24,
                 "david-bayer-elite-communication": 19,
-                "lamott-allen-really-real-writing": 7,
+                "lamott-allen-really-real-writing": 8,
                 "fantastic-posters": 14,
                 "research-engine": 1,
                 "t": 3,
@@ -280,7 +283,7 @@
                 "pptx": 10,
                 "new-media-ghostwriting": 4,
                 "panel_cast": 1,
-                "mark-kashef-wargame-os": 6,
+                "mark-kashef-wargame-os": 7,
                 "source-to-skill-system": 1,
                 "boris-claude-code": 5,
                 "simon-intellectual-library-os": 4,
@@ -353,7 +356,7 @@
                 "futurepedia-prompt-engineering": 1,
                 "april-dunford-x-jeremy-haynes": 1,
                 "geoff-woods-x-mike-taylor": 3,
-                "mike-taylor-synthetic-research": 4,
+                "mike-taylor-synthetic-research": 5,
                 "mike-taylor": 2,
                 "rory-sutherland-marketing": 1,
                 "kallaway-x-april-dunford": 1,
@@ -410,11 +413,14 @@
                 "test": 1,
                 "hilary-gridley": 1,
                 "nick-saraev-bottleneck-thinking": 1,
-                "writers-room": 1
+                "writers-room": 1,
+                "consumer-posture-research": 1,
+                "dr-k-consciousness": 1,
+                "packy-mccormick-writing": 1
             },
             "total_feedback": 94,
             "negative_count": 0,
-            "ensemble_count": 517,
+            "ensemble_count": 520,
             "auto_miss_count": 75,
             "positive_count": 0
         }
@@ -14006,6 +14012,63 @@
             "ensemble": true,
             "compound_pairing": "riley-brown-marketing-automation + chief-of-staff-os + mike-taylor-synthetic-research",
             "feedback": "fb_20260728_213524_b96a"
+        },
+        {
+            "routing_id": "rt_20260728_215655_7f4b",
+            "timestamp": "2026-07-28T21:56:55.460439+00:00",
+            "session_id": "d0dc8b73-36d6-48cc-9b31-4bf3a7ffc3eb",
+            "request_summary": "also, let's not lose sight of the fact that one of the major focuses of this is to be able to get Opus 5 to give me Fable-like performance, orchestration, execution, output, and everything when I have",
+            "intent_score": 0,
+            "domain_detected": "mark-kashef-wargame-os",
+            "experts_deployed": [
+                "mark-kashef-wargame-os",
+                "alex-content-science",
+                "ali-abdaal-action-bias"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "mark-kashef-wargame-os",
+            "ensemble": true,
+            "compound_pairing": "mark-kashef-wargame-os + alex-content-science + ali-abdaal-action-bias",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260728_220249_8b11",
+            "timestamp": "2026-07-28T22:02:49.732527+00:00",
+            "session_id": "d0dc8b73-36d6-48cc-9b31-4bf3a7ffc3eb",
+            "request_summary": "it should be fine. I thought I connected the API that has my ultra membership so that we don't have to worry about that being a problem anymore, so that we actually run deep research.\n\nThat's another ",
+            "intent_score": 0,
+            "domain_detected": "gemini-api-dev",
+            "experts_deployed": [
+                "gemini-api-dev",
+                "consumer-posture-research",
+                "dr-k-consciousness"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "gemini-api-dev",
+            "ensemble": true,
+            "compound_pairing": "gemini-api-dev + consumer-posture-research + dr-k-consciousness",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260728_220935_0f28",
+            "timestamp": "2026-07-28T22:09:35.732504+00:00",
+            "session_id": "d0dc8b73-36d6-48cc-9b31-4bf3a7ffc3eb",
+            "request_summary": "the balance problem. re-probe and fire a real deep-research run as the test",
+            "intent_score": 0,
+            "domain_detected": "packy-mccormick-writing",
+            "experts_deployed": [
+                "packy-mccormick-writing",
+                "mike-taylor-synthetic-research",
+                "lamott-allen-really-real-writing"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "packy-mccormick-writing",
+            "ensemble": true,
+            "compound_pairing": "packy-mccormick-writing + mike-taylor-synthetic-research + lamott-allen-really-real-writing",
+            "feedback": null
         }
     ]
 }
