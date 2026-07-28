@@ -538,7 +538,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T04:02:20.825586+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1773947745.468029
   },
   {
@@ -553,7 +553,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T04:02:20.825586+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1773947745.4684753
   },
   {
@@ -568,7 +568,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T04:02:20.825586+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1773947745.468986
   },
   {
@@ -583,7 +583,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T04:02:20.825586+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1773947745.4695222
   },
   {
@@ -598,7 +598,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T04:02:20.825586+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1773947745.4697967
   },
   {
@@ -613,7 +613,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T04:02:20.825586+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1773947745.470134
   },
   {
@@ -628,7 +628,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T04:02:20.825586+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1775779996.8391566
   },
   {
@@ -1288,7 +1288,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:24:34.986680+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1773947745.4722722
   },
   {
@@ -1303,7 +1303,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:24:34.986680+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1775779996.8403661
   },
   {
@@ -1317,8 +1317,8 @@
    "front_door": "/ali-abdaal-action-bias",
    "has_prompts_v2": true,
    "family": null,
-   "last_fired": "2026-07-28T15:24:34.986680+00:00",
-   "skill_last_fired": "2026-07-28T15:24:34.986680+00:00",
+   "last_fired": "2026-07-28T21:56:55.460439+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1773947745.4728754
   },
   {
@@ -4768,7 +4768,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": "2026-07-15T03:46:52.227927+00:00",
-   "skill_last_fired": "2026-07-27T18:44:12.857550+00:00",
+   "skill_last_fired": "2026-07-28T20:00:47.991449+00:00",
    "mtime": 1784352323.5779846
   },
   {
@@ -4783,7 +4783,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T18:44:12.857550+00:00",
+   "skill_last_fired": "2026-07-28T20:00:47.991449+00:00",
    "mtime": 1784352282.1222086
   },
   {
@@ -4798,7 +4798,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T18:44:12.857550+00:00",
+   "skill_last_fired": "2026-07-28T20:00:47.991449+00:00",
    "mtime": 1784352293.6065078
   },
   {
@@ -4813,7 +4813,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-27T18:44:12.857550+00:00",
+   "skill_last_fired": "2026-07-28T20:00:47.991449+00:00",
    "mtime": 1784352349.9230647
   },
   {
@@ -9673,7 +9673,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\uddd8 Dharma & Identity \u2014 Dr. K",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-07-28T22:02:49.732527+00:00",
    "mtime": 1775779996.8701866
   },
   {
@@ -9688,7 +9688,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\uddd8 Dharma & Identity \u2014 Dr. K",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-07-28T22:02:49.732527+00:00",
    "mtime": 1775779996.8705006
   },
   {
@@ -9703,7 +9703,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\uddd8 Dharma & Identity \u2014 Dr. K",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-07-28T22:02:49.732527+00:00",
    "mtime": 1775779996.8710005
   },
   {
@@ -9718,7 +9718,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\uddd8 Dharma & Identity \u2014 Dr. K",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-07-28T22:02:49.732527+00:00",
    "mtime": 1775779996.8714585
   },
   {
@@ -9733,7 +9733,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\uddd8 Dharma & Identity \u2014 Dr. K",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-07-28T22:02:49.732527+00:00",
    "mtime": 1775779996.871792
   },
   {
@@ -9748,7 +9748,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\uddd8 Dharma & Identity \u2014 Dr. K",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-07-28T22:02:49.732527+00:00",
    "mtime": 1775779996.8724346
   },
   {
@@ -9763,7 +9763,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\uddd8 Dharma & Identity \u2014 Dr. K",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-07-28T22:02:49.732527+00:00",
    "mtime": 1775779996.872672
   },
   {
@@ -9778,7 +9778,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\uddd8 Dharma & Identity \u2014 Dr. K",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-07-28T22:02:49.732527+00:00",
    "mtime": 1775779996.8730516
   },
   {
@@ -9793,7 +9793,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\uddd8 Dharma & Identity \u2014 Dr. K",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-07-28T22:02:49.732527+00:00",
    "mtime": 1775779996.873269
   },
   {
@@ -9808,7 +9808,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\uddd8 Dharma & Identity \u2014 Dr. K",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-07-28T22:02:49.732527+00:00",
    "mtime": 1775779996.8735044
   },
   {
@@ -9823,7 +9823,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\uddd8 Dharma & Identity \u2014 Dr. K",
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-07-28T22:02:49.732527+00:00",
    "mtime": 1775779996.8738873
   },
   {
@@ -18148,7 +18148,7 @@
    "has_prompts_v2": true,
    "family": "\u2712\ufe0f Really-Real Writing \u2014 Anne Lamott",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784389649.7488608
   },
   {
@@ -18163,7 +18163,7 @@
    "has_prompts_v2": true,
    "family": "\u2712\ufe0f Really-Real Writing \u2014 Anne Lamott",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784389649.7491653
   },
   {
@@ -18178,7 +18178,7 @@
    "has_prompts_v2": true,
    "family": "\u2712\ufe0f Really-Real Writing \u2014 Anne Lamott",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784389649.7493553
   },
   {
@@ -18193,7 +18193,7 @@
    "has_prompts_v2": true,
    "family": "\u2712\ufe0f Really-Real Writing \u2014 Anne Lamott",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784389649.7495432
   },
   {
@@ -18208,7 +18208,7 @@
    "has_prompts_v2": true,
    "family": "\u2712\ufe0f Really-Real Writing \u2014 Anne Lamott",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784389649.7497497
   },
   {
@@ -18223,7 +18223,7 @@
    "has_prompts_v2": true,
    "family": "\u2712\ufe0f Really-Real Writing \u2014 Anne Lamott",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784389649.7499287
   },
   {
@@ -18238,7 +18238,7 @@
    "has_prompts_v2": true,
    "family": "\u2712\ufe0f Really-Real Writing \u2014 Anne Lamott",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784389649.750101
   },
   {
@@ -18253,7 +18253,7 @@
    "has_prompts_v2": true,
    "family": "\u2712\ufe0f Really-Real Writing \u2014 Anne Lamott",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784389649.750264
   },
   {
@@ -18268,7 +18268,7 @@
    "has_prompts_v2": true,
    "family": "\u2712\ufe0f Really-Real Writing \u2014 Anne Lamott",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784389649.750456
   },
   {
@@ -18283,7 +18283,7 @@
    "has_prompts_v2": true,
    "family": "\u2712\ufe0f Really-Real Writing \u2014 Anne Lamott",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784389649.7506561
   },
   {
@@ -18298,7 +18298,7 @@
    "has_prompts_v2": true,
    "family": "\u2712\ufe0f Really-Real Writing \u2014 Anne Lamott",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784389649.7508197
   },
   {
@@ -18313,7 +18313,7 @@
    "has_prompts_v2": true,
    "family": "\u2712\ufe0f Really-Real Writing \u2014 Anne Lamott",
    "last_fired": null,
-   "skill_last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784389649.751029
   },
   {
@@ -21673,7 +21673,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-18T04:38:09.405976+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1783451505.001803
   },
   {
@@ -21688,7 +21688,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-18T04:38:09.405976+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1783451778.9162023
   },
   {
@@ -21703,7 +21703,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-18T04:38:09.405976+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1783451813.8467708
   },
   {
@@ -21718,7 +21718,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-18T04:38:09.405976+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1783451362.9093966
   },
   {
@@ -21733,7 +21733,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-18T04:38:09.405976+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1783451771.6606472
   },
   {
@@ -21748,7 +21748,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-18T04:38:09.405976+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1783451393.9015267
   },
   {
@@ -21763,7 +21763,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-18T04:38:09.405976+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1783451807.5765555
   },
   {
@@ -21778,7 +21778,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-18T04:38:09.405976+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1783451293.6915014
   },
   {
@@ -21793,7 +21793,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": null,
-   "skill_last_fired": "2026-07-18T04:38:09.405976+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1783451762.9536524
   },
   {
@@ -21808,7 +21808,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "last_fired": "2026-07-26T01:21:17.361930+00:00",
-   "skill_last_fired": "2026-07-18T04:38:09.405976+00:00",
+   "skill_last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1784932404.100723
   },
   {
@@ -23023,7 +23023,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T19:14:17.217875+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784483148.745564
   },
   {
@@ -23038,7 +23038,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T19:14:17.217875+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784483191.5617254
   },
   {
@@ -23053,7 +23053,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T19:14:17.217875+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784483124.4353325
   },
   {
@@ -23068,7 +23068,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": "2026-07-19T18:34:24.419209+00:00",
-   "skill_last_fired": "2026-07-19T19:14:17.217875+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784485947.460308
   },
   {
@@ -23083,7 +23083,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T19:14:17.217875+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784483080.462973
   },
   {
@@ -23098,7 +23098,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T19:14:17.217875+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784483167.8260496
   },
   {
@@ -23113,7 +23113,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-19T19:14:17.217875+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1784483225.4583328
   },
   {
@@ -27582,8 +27582,8 @@
    "front_door": "/packy-mccormick-writing",
    "has_prompts_v2": true,
    "family": null,
-   "last_fired": null,
-   "skill_last_fired": null,
+   "last_fired": "2026-07-28T22:09:35.732504+00:00",
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1782937969.290622
   },
   {
@@ -27598,7 +27598,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1782937998.5283446
   },
   {
@@ -27613,7 +27613,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": null,
+   "skill_last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1782938028.9470916
   },
   {
@@ -29473,7 +29473,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-26T22:12:16.480608+00:00",
+   "skill_last_fired": "2026-07-28T20:00:47.991449+00:00",
    "mtime": 1784918030.6269455
   },
   {
@@ -29488,7 +29488,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-26T22:12:16.480608+00:00",
+   "skill_last_fired": "2026-07-28T20:00:47.991449+00:00",
    "mtime": 1784918047.09789
   },
   {
@@ -29503,7 +29503,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-26T22:12:16.480608+00:00",
+   "skill_last_fired": "2026-07-28T20:00:47.991449+00:00",
    "mtime": 1784918039.101043
   },
   {
@@ -29518,7 +29518,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-26T22:12:16.480608+00:00",
+   "skill_last_fired": "2026-07-28T20:00:47.991449+00:00",
    "mtime": 1784918036.1213138
   },
   {
@@ -29533,7 +29533,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-26T22:12:16.480608+00:00",
+   "skill_last_fired": "2026-07-28T20:00:47.991449+00:00",
    "mtime": 1784918046.0258777
   },
   {
@@ -29548,7 +29548,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-26T22:12:16.480608+00:00",
+   "skill_last_fired": "2026-07-28T20:00:47.991449+00:00",
    "mtime": 1784918040.6483846
   },
   {
@@ -29563,7 +29563,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-26T22:12:16.480608+00:00",
+   "skill_last_fired": "2026-07-28T20:00:47.991449+00:00",
    "mtime": 1784918034.4274929
   },
   {
@@ -29578,7 +29578,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-26T22:12:16.480608+00:00",
+   "skill_last_fired": "2026-07-28T20:00:47.991449+00:00",
    "mtime": 1784918043.810048
   },
   {
@@ -29593,7 +29593,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-26T22:12:16.480608+00:00",
+   "skill_last_fired": "2026-07-28T20:00:47.991449+00:00",
    "mtime": 1784918042.1398551
   },
   {
@@ -29608,7 +29608,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-26T22:12:16.480608+00:00",
+   "skill_last_fired": "2026-07-28T20:00:47.991449+00:00",
    "mtime": 1784918029.222569
   },
   {
@@ -29623,7 +29623,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-26T22:12:16.480608+00:00",
+   "skill_last_fired": "2026-07-28T20:00:47.991449+00:00",
    "mtime": 1784918037.5950603
   },
   {
@@ -29638,7 +29638,7 @@
    "has_prompts_v2": true,
    "family": null,
    "last_fired": null,
-   "skill_last_fired": "2026-07-26T22:12:16.480608+00:00",
+   "skill_last_fired": "2026-07-28T20:00:47.991449+00:00",
    "mtime": 1784918032.5798678
   },
   {
@@ -45234,7 +45234,7 @@
    "front_door": "/deep-research",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": "2026-07-21T23:25:07.211192+00:00",
+   "last_fired": "2026-07-28T19:59:58.340283+00:00",
    "mtime": 1785098105.850006
   },
   {
@@ -67620,7 +67620,7 @@
    "front_door": "/system-audit",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": "2026-07-28T16:44:27.391729+00:00",
+   "last_fired": "2026-07-28T22:21:29.001868+00:00",
    "mtime": 1782845945.7592132
   },
   {
@@ -71111,7 +71111,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 7,
-   "last_fired": "2026-07-27T04:02:20.825586+00:00",
+   "last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1785250296.6649413
   },
   {
@@ -71209,7 +71209,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 3,
-   "last_fired": "2026-07-28T15:24:34.986680+00:00",
+   "last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1785250296.6703463
   },
   {
@@ -71699,7 +71699,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 4,
-   "last_fired": "2026-07-27T18:44:12.857550+00:00",
+   "last_fired": "2026-07-28T20:00:47.991449+00:00",
    "mtime": 1785250296.6847265
   },
   {
@@ -71811,7 +71811,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 0,
-   "last_fired": null,
+   "last_fired": "2026-07-28T22:02:49.732527+00:00",
    "mtime": 1785250296.686465
   },
   {
@@ -72399,7 +72399,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\uddd8 Dharma & Identity \u2014 Dr. K",
    "workflow_count": 11,
-   "last_fired": null,
+   "last_fired": "2026-07-28T22:02:49.732527+00:00",
    "mtime": 1785250296.695702
   },
   {
@@ -72693,7 +72693,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 0,
-   "last_fired": "2026-07-27T15:01:35.168331+00:00",
+   "last_fired": "2026-07-28T22:02:49.732527+00:00",
    "mtime": 1785250296.7028894
   },
   {
@@ -73519,7 +73519,7 @@
    "has_prompts_v2": true,
    "family": "\u2712\ufe0f Really-Real Writing \u2014 Anne Lamott",
    "workflow_count": 12,
-   "last_fired": "2026-07-28T15:14:59.943330+00:00",
+   "last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1785250296.7161515
   },
   {
@@ -74065,7 +74065,7 @@
    "has_prompts_v2": true,
    "family": "\ud83e\udd16 AI Orchestration \u2014 Mark Kashef",
    "workflow_count": 10,
-   "last_fired": "2026-07-18T04:38:09.405976+00:00",
+   "last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1785250296.733537
   },
   {
@@ -74275,7 +74275,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 7,
-   "last_fired": "2026-07-19T19:14:17.217875+00:00",
+   "last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1785250296.7390335
   },
   {
@@ -74863,7 +74863,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 3,
-   "last_fired": null,
+   "last_fired": "2026-07-28T22:09:35.732504+00:00",
    "mtime": 1785250296.7486734
   },
   {
@@ -75227,7 +75227,7 @@
    "has_prompts_v2": true,
    "family": null,
    "workflow_count": 12,
-   "last_fired": "2026-07-26T22:12:16.480608+00:00",
+   "last_fired": "2026-07-28T20:00:47.991449+00:00",
    "mtime": 1785250296.7523305
   },
   {
@@ -76397,7 +76397,7 @@
    "front_door": "/alex-content-science",
    "has_prompts_v2": false,
    "family": null,
-   "last_fired": "2026-07-27T04:02:20.825586+00:00",
+   "last_fired": "2026-07-28T21:56:55.460439+00:00",
    "mtime": 1774030452.13427
   },
   {
