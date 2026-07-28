@@ -73,9 +73,9 @@ def scan_file(fp: Path, memory_mode: bool) -> list:
         cited = m.group(1).rstrip(".")
         if cited in seen or NOISE.search(cited) or RUNTIME_ALLOWLIST.match(cited):
             continue
-        # Pointers annotated as planned/expired/not-yet are acknowledged absences.
+        # Pointers annotated as planned/expired/not-yet/deleted/superseded are acknowledged absences.
         tail = text[m.end():m.end() + 40]
-        if re.match(r"[`')\s]*\((?:planned|not yet|ephemeral)", tail):
+        if re.match(r"[`')\s]*\((?:planned|not yet|ephemeral|deleted|superseded)", tail):
             seen.add(cited)
             continue
         seen.add(cited)

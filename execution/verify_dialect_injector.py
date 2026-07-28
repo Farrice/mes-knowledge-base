@@ -144,7 +144,7 @@ def run_checks():
     out, rc = run_hook({**sid, "prompt": ""})
     check("empty_prompt_silent", out.strip() == "" and rc == 0)
 
-    out, _ = run_hook({**sid, "prompt": "write a post", "model": "claude-fable-5"})
+    out, _ = run_hook({**sid, "prompt": "write a post", "model": "claude-nonexistent-9"})
     check("unknown_model_honest_silence", PIN_MARKER not in out)
 
     out, _ = run_hook({**sid, "prompt": "write a post", "model": PIN_DEFAULT_MODEL},
@@ -157,7 +157,7 @@ def run_checks():
     check("default_model_resolves", f"card: {PIN_DEFAULT_MODEL}" in out)
 
     # cache resolution: a cached model with no card wins over the default
-    MODEL_CACHE.write_text(json.dumps({"model": "claude-fable-5", "ts": "t"}))
+    MODEL_CACHE.write_text(json.dumps({"model": "claude-nonexistent-9", "ts": "t"}))
     out, _ = run_hook({**sid, "prompt": "draft the offer page copy"})
     check("cache_beats_blind_default", PIN_MARKER not in out)
     MODEL_CACHE.unlink(missing_ok=True)

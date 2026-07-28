@@ -41,7 +41,7 @@ Five stacked failures, any one of which would have been survivable alone:
 - **Trusting the written standard.** `research-protocol.md` already said deep = 15 sources and had said so for months. Documentation never stopped a single shallow run; only the exit code did.
 - **Assuming the fix was "more sources."** Measurement disproved it — round 1 had 87 sources and still failed. Chasing source count would have fixed nothing.
 - **Rebuilding `deep_research_engine.py`'s title-as-claim path.** Explicitly left alone as legacy; the fix routes around it rather than expanding scope.
-- **Un-archiving the `.claude/agents/deep-research.md` agent** (it had Playwright but no fan-out). Rejected: violates the no-named-subagents binding. The Playwright capability was rebuilt inside the workflow instead.
+- **Un-archiving the `.claude/agents/deep-research.md` (deleted — archived agent, no longer on disk) agent** (it had Playwright but no fan-out). Rejected: violates the no-named-subagents binding. The Playwright capability was rebuilt inside the workflow instead.
 
 ## Verification
 

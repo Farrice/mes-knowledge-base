@@ -37,19 +37,9 @@ Every deliverable → artifact (`brain/<id>/`, `IsArtifact: true`). Workspace co
 
 ---
 
-## Deterministic Enforcement Layer (Hooks — PHYSICAL Gates, 2026-06-09)
+## Compass Layer (Hooks — nudges, not cages; Farrice 2026-07-27, supersedes the 2026-06-09 "physical gates" framing)
 
-Wired in `.claude/settings.json` → `execution/hooks/`. These gates are **real** — not advisory, not memory-dependent. Work WITH them.
-
-| Gate | Hook | Behavior |
-|---|---|---|
-| **Cost gate** (Fal, Seedance, Kling, deep-research) | PreToolUse(Bash) → `cost_gate_hook.py` | **HARD BLOCK.** Denied = surface to user. Needs-approval = `cost_gate.py approve --service <id>` (15-min token), retry. |
-| **Finalize debt** | Stop → `session_ledger_hook.py` | Skill loaded + artifact produced + no finalize = blocked ONCE with prefilled command. **Observe-mode ships; flip LEDGER_ENFORCE=1 after ~5 clean sessions.** |
-| **Routing violations** | UserPromptSubmit → `session_ledger_hook.py` | Bindings checked deterministically; violations injected as ROUTING WARNING with reason + documented override. |
-| **Extraction freeze** | `forge_gate.py check` (binding precondition) | Last extraction needs ≥3 production uses. Soft gate: `--force --reason` logged to `.agent/forge-state.json`. |
-| **Sub-agent truth** | PostToolUse counts Task/Agent spawns | Measured count only (not self-report). Use true count in `--sub-agents` field. |
-
-`evolution_orchestrator.py auto` runs daily 07:00 via launchd `com.antigravity.evolution-auto` — never manually babysit.
+Wired in `.claude/settings.json` → `execution/hooks/`. **Exactly two things block**: the **cost gate** (paid APIs — denied = surface to Farrice, never retry; approve only after his explicit yes via `cost_gate.py approve`, 15-min token) and the **factual veto** (`--factual` < 6). Everything else — finalize debt, routing bindings, quality latches, menu parity — reports, nudges, and auto-fixes; a latch that stops work is a bug. **Extractions are never gated** (standing decision 2026-06-09; `forge_gate.py` is telemetry only). No gate re-arms itself by calendar. Sub-agent counts are measured by hook, not self-reported. `evolution_orchestrator.py auto` runs daily via launchd — never babysit it.
 
 ---
 

@@ -119,11 +119,11 @@ Detects new assets (workflows, skills, agents) without firing paths:
 - Classifies: NEWBORN_WIRED (has path), NEWBORN_ORPHAN (missing), STALE_BIRTH (orphan >1 day)
 - Ledger: `.agent/health/birth-wiring.json` (append-only)
 
-Can be run manually: `python3 execution/verify_birth_wiring.py <file_path> [workflow|skill|agent]`
+Can be run manually: `python3 execution/verify_birth_wiring.py` (deleted 2026-07-28 — superseded, see .agent/handoffs/2026-07-28-opus5-adaptation-layer.md) `<file_path> [workflow|skill|agent]`
 
 #### Tier 3b: Daily Ratchet (daily_backlog_drain.py)
 Drains historical backlog of orphans (~150/day):
-- Reads from `.agent/backlog/orphans.jsonl` (write-set from verifiers)
+- Reads from `.agent/backlog/orphans.jsonl` (planned — never materialized; drain deleted 2026-07-28) (write-set from verifiers)
 - For each orphan, re-checks and applies AUTO_FIX if safe (skip-if-present wrappers)
 - Classifies: FIXED (wired), SKIPPED (already present), MANUAL (judgment needed)
 - Results: `.agent/health/backlog-drain.json` (daily snapshot)

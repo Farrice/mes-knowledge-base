@@ -412,10 +412,10 @@
                 "nick-saraev-bottleneck-thinking": 1,
                 "writers-room": 1
             },
-            "total_feedback": 93,
+            "total_feedback": 94,
             "negative_count": 0,
             "ensemble_count": 517,
-            "auto_miss_count": 74,
+            "auto_miss_count": 75,
             "positive_count": 0
         }
     },
@@ -1247,6 +1247,15 @@
             "rating": "auto_miss",
             "correction": "dan-wang-literary-analysis",
             "notes": "expert skill 'dan-wang-literary-analysis' loaded not matching suggestion ['ben-watkins-storytelling', 'susan-orlean-narrative-nonfiction', 'chase-hughes-conversational-influence']"
+        },
+        {
+            "feedback_id": "fb_20260728_213524_b96a",
+            "timestamp": "2026-07-28T21:35:24.537182+00:00",
+            "session_id": "d0dc8b73-36d6-48cc-9b31-4bf3a7ffc3eb",
+            "routing_id": "rt_20260728_200047_b6c6",
+            "rating": "auto_miss",
+            "correction": "boris-claude-code",
+            "notes": "expert skill 'boris-claude-code' loaded not matching suggestion ['riley-brown-marketing-automation', 'chief-of-staff-os', 'mike-taylor-synthetic-research']"
         }
     ],
     "routing_decisions": [
@@ -13996,7 +14005,7 @@
             "workflow_used": "riley-brown-marketing-automation",
             "ensemble": true,
             "compound_pairing": "riley-brown-marketing-automation + chief-of-staff-os + mike-taylor-synthetic-research",
-            "feedback": null
+            "feedback": "fb_20260728_213524_b96a"
         }
     ]
 }

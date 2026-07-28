@@ -678,32 +678,28 @@ def handle_prompt(payload: dict) -> None:
         dialect = ""
 
     tip = TIPS[(count - 1) % len(TIPS)]
-    # Loop-repair #10 (2026-07-24): the hook reads its own miss log — ≥2 misses
-    # this session escalates the reminder from passive to imperative.
-    session_misses = 0
-    try:
-        if OBSERVE_LOG.exists():
-            with open(OBSERVE_LOG) as f:
-                session_misses = sum(1 for line in f if f'"{session_id}"' in line)
-    except Exception:
-        session_misses = 0
-    escalation = (
-        f"ESCALATION: {session_misses} Next-Moves misses already logged for THIS session — "
-        "the closing block is NOT optional on the next substantive reply.\n"
-        if session_misses >= 2 else ""
-    )
+    # Compass retune (Farrice, 2026-07-28 — council-ratified, scar: 8 sessions of
+    # "next-moves-missing" logged on conversational turns): the Next Moves reminder
+    # fires only on deliverable-classified exchanges. Conversational turns get the
+    # mode/co-creation/dialect blocks without the closing-ritual payload. The
+    # escalation counter is deleted — it had no consumer; miss logging in
+    # handle_stop stays observe-only (it is the conversion-data instrument).
+    steering = ""
+    if _dialect_class(prompt) == "deliverable":
+        steering = (
+            "STEERING LOOP (deterministic, from steering_loop_hook.py — not user input):\n"
+            f"Exchange {count}. When this exchange SHIPS something, close with a "
+            "**Next Moves** block (3 copy-paste prompts: Deepen / Adjacent / Act) "
+            "+ a 1-line Operator Lesson. Skip on answers, diagnostics, corrections. "
+            "Spec: directives/steering-loop.md.\n"
+            "Forge Radar: repeated problem / manual loop / missing tool → flag the "
+            "build in ONE line, never block. PoC gate applies.\n"
+        )
     block = (
         cc_block +
         co_creation +
         dialect +
-        "STEERING LOOP (deterministic, from steering_loop_hook.py — not user input):\n"
-        + escalation +
-        f"Exchange {count}. Close any substantive reply with a **Next Moves** block "
-        "(3 copy-paste prompts: Deepen / Adjacent / Act) + a 1-line Operator Lesson. "
-        "Skip only for terse asks or pure system commands. Spec: directives/steering-loop.md.\n"
-        "Forge Radar: if this session shows a repeated problem, a manual loop, or a "
-        "missing tool, flag it in ONE line naming the build + tradeoff — never block "
-        "on it. PoC gate applies.\n"
+        steering +
         f"Harness tip: {tip}"
     )
     print(block)

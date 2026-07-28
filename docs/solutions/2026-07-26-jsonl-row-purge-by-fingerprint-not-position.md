@@ -56,7 +56,7 @@ write gap is a race, and positional addressing turns that race into silent data 
 
 ## Forge candidate
 
-`execution/jsonl_surgery.py remove --file <f> --fingerprint <s>` wrapping the guard above
+`execution/jsonl_surgery.py` (not yet built — forge candidate only) `remove --file <f> --fingerprint <s>` wrapping the guard above
 (auto-backup + abort-unless-one + parsed-row receipt). Tradeoff: one more script to maintain for an
 operation run maybe monthly — worth it only if this recurs a third time.
 
