@@ -10,9 +10,13 @@
   "last_feedback_exchange": 0
  },
  "d0dc8b73-36d6-48cc-9b31-4bf3a7ffc3eb": {
-  "stems": {},
-  "updated": "2026-07-28T15:16:52.195001",
-  "last_feedback_exchange": 8
+  "stems": {
+   "claude": {
+    "rejections": 2
+   }
+  },
+  "updated": "2026-07-28T15:50:24.787805",
+  "last_feedback_exchange": 18
  },
  "verify-dialect-injector": {
   "stems": {},

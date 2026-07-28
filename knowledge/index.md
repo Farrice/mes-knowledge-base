@@ -1,5 +1,5 @@
 # Knowledge Index
-*754 sources | 2,908,177 words | Updated: 2026-07-28*
+*755 sources | 2,909,603 words | Updated: 2026-07-28*
 
 ---
 
@@ -24,7 +24,7 @@
 - [companion-brand-archetypes-transcript](../extractions/oren-john-identity-marketing/companion-brand-archetypes-transcript.md) [oren-john] — 5,590 words
 - [2026-04-25-substack-notes-craft-gemini-max](../research_outputs/2026-04-25-substack-notes-craft-gemini-max.md) — 5,421 words (stale)
 - [extraction-report](../extractions/seth-godin-marketing-mind/extraction-report.md) — 5,284 words
-- [index](index.md) — 5,143 words
+- [index](index.md) — 5,148 words
 - [extraction-report](../extractions/ocean-vuong/extraction-report.md) — 4,861 words (stale)
 - [the-7-levels-of-brand-building](../extractions/oren-identity-brand-os/reference-corpus/the-7-levels-of-brand-building.md) [oren-john] — 4,671 words
 - [mes-extraction](../extractions/wargame-source/mes-extraction.md) — 4,604 words
@@ -349,6 +349,7 @@
 - [integrity-patch](../extractions/kallaway-content-system/integrity-patch.md) [kallaway] — 590 words
 - [skill-system-contract](../extractions/alex-suzuki-digital-product-revenue-os/skill-system-contract.md) — 576 words
 - [persuasion-level-audit](../extractions/joanna-wiebe-persuasion-mastery/prompts-v2/persuasion-level-audit.md) — 576 words
+- [council-rubric](council-rubric.md) [april-dunford] — 552 words
 - [blind-pass-specimen-2026-07-19](../extractions/jason-fladlien-marketing/blind-pass-specimen-2026-07-19.md) [jason-fladlien] — 549 words
 - [the-3-percent-disruption-principle](synthesis/the-3-percent-disruption-principle.md) [luke-iha] — 544 words (stale)
 - [andrea-ticketing-platform-2026-06-18](../research_outputs/andrea-ticketing-platform-2026-06-18.md) — 537 words
@@ -361,7 +362,6 @@
 - [evidence-ledger](../extractions/anne-lamott-neal-allen-really-real/evidence-ledger.md) — 493 words
 - [2026-marshmallow-save-live-monologue](../extractions/jason-fladlien-marketing/reference-corpus/2026-marshmallow-save-live-monologue.md) [jason-fladlien] — 490 words
 - [greenfield_vs_audit_detection](../extractions/mark-kashef-perfect-agentic-os-kit/source_assets/references/greenfield_vs_audit_detection.md) [nick-saraev] — 468 words
-- [council-rubric](council-rubric.md) [april-dunford] — 459 words
 - [joey-character-prompt-and-seedance-prompt](../extractions/joey-cinema-os/reference-corpus/joey-character-prompt-and-seedance-prompt.md) — 453 words
 - [05-sub-agent-roles](../extractions/chase-hughes/_forge-output/05-sub-agent-roles.md) [connelly] — 431 words
 - [system-one-optimizer](../extractions/joanna-wiebe-persuasion-mastery/prompts/system-one-optimizer.md) [connelly] — 412 words (stale)
@@ -379,7 +379,7 @@
 - [sample-004](expert-benchmarks/copywriting/sample-004.md) [luke-iha] — 92 words (stale)
 - [sample-001](expert-benchmarks/copywriting/sample-001.md) [luke-iha] — 63 words (stale)
 
-## General (92 files)
+## General (93 files)
 
 - [Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average](extractions/inbox/Claude-💡💰💎 Michael Bernoff ! This Mental Shift Will Finally Break You Out of Average.md) — 64,760 words (stale)
 - [Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2](extractions/inbox/Claude-💎✍️ Mitch Albom ! The Blueprint for Writing Best-Sellers pt.2.md) — 62,412 words (stale)
@@ -396,7 +396,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 15,427 words
+- [log](log.md) — 15,452 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words
@@ -431,6 +431,7 @@
 - [visual-language](creative-direction/visual-language.md) — 1,709 words (stale)
 - [DESIGN](design-libraries/brands/wise/DESIGN.md) — 1,339 words (stale)
 - [data_engineering_tips](../extractions/mark-kashef-perfect-agentic-os-kit/source_assets/references/data_engineering_tips.md) [nick-saraev] — 1,311 words
+- [2026-07-28-seating-charter-harness-diet-ratification-contex](council-sessions/2026-07-28-seating-charter-harness-diet-ratification-contex.md) — 1,303 words
 - [streetwear-design](creative-direction/streetwear-design.md) — 1,176 words (stale)
 - [07-model-upgrade-migration-planner](../extractions/sherwin-wu/prompts/07-model-upgrade-migration-planner.md) — 1,170 words (stale)
 - [05-builder-trap-intervention](../extractions/jonathan-courtney/prompts/05-builder-trap-intervention.md) — 1,166 words (stale)

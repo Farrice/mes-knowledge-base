@@ -1,20 +1,20 @@
 # Knowledge Briefing
-*Generated: 2026-07-28 | 754 sources | 2,908,177 words*
+*Generated: 2026-07-28 | 755 sources | 2,909,603 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 5,143 words — `knowledge/index.md`
-- **log** (general) — 15,427 words — `knowledge/log.md`
+- **council-rubric** (copywriting [april-dunford]) — 552 words — `knowledge/council-rubric.md`
+- **2026-07-28-seating-charter-harness-diet-ratification-contex** (general) — 1,303 words — `knowledge/council-sessions/2026-07-28-seating-charter-harness-diet-ratification-contex.md`
+- **index** (content) — 5,148 words — `knowledge/index.md`
+- **log** (general) — 15,452 words — `knowledge/log.md`
 - **blind-pass-log** (content) — 79 words — `extractions/hilary-gridley/blind-pass-log.md`
 - **blind-pass-sample** (systems) — 669 words — `extractions/hilary-gridley/blind-pass-sample.md`
 - **extraction** (content [kieran-flanagan]) — 3,747 words — `extractions/hilary-gridley/extraction.md`
 - **how-to-stop-using-ai-so-badly** (content) — 736 words — `extractions/hilary-gridley/reference-corpus/how-to-stop-using-ai-so-badly.md`
 - **todays-managers-will-decide-what** (content) — 568 words — `extractions/hilary-gridley/reference-corpus/todays-managers-will-decide-what.md`
 - **vision** (content) — 999 words — `extractions/hilary-gridley/vision.md`
-- **visual-context** (strategy [april-dunford]) — 504 words — `extractions/hilary-gridley/visual-context.md`
-- **2026-07-28-graph-engineering-deep-research** (seo) — 1,854 words — `research_outputs/2026-07-28-graph-engineering-deep-research.md`
 
 ## Domain Coverage
 
@@ -22,7 +22,7 @@
 |--------|-------|------------|
 | content | 267 | lara-acosta |
 | copywriting | 103 | luke-iha |
-| general | 92 | nick-saraev |
+| general | 93 | nick-saraev |
 | strategy | 82 | april-dunford |
 | screenwriting | 54 | connelly |
 | brand | 50 | oren-john |

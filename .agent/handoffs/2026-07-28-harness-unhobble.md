@@ -1,15 +1,3 @@
-# Latest Handoff
-
-**Thread:** harness-unhobble  
-**Full path:** .agent/handoffs/2026-07-28-harness-unhobble.md  
-**Date:** 2026-07-28 (today)  
-**Status:** done  
-**Title:** Harness Unhobble — Claude-5 Context Diet v1 (CLAUDE.md 56% cut + Seating Charter)
-
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume harness-unhobble` for this one.
-
----
-
 ---
 thread: harness-unhobble
 status: done
@@ -60,4 +48,3 @@ pin: true
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - (first handoff on this thread — list shipped assets here as they land)
 - Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.
-

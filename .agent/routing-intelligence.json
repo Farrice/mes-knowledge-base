@@ -47,7 +47,7 @@
                 "darrel-wilson-ai-affiliate": 1,
                 "stefan-georgi-dopamine-copy": 10,
                 "marketing-studio-director": 1,
-                "System": 91,
+                "System": 92,
                 "brand-operating-system": 11,
                 "dara-denney-meta-ads": 5,
                 "internal-comms": 1,
@@ -115,9 +115,9 @@
                 "gemini-api-dev": 1,
                 "packy-mccormick-writing": 1
             },
-            "total_routings": 705,
+            "total_routings": 706,
             "tier_counts": {
-                "0": 705,
+                "0": 706,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -128,7 +128,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 416,
-                "finalize-auto": 289
+                "finalize-auto": 290
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -245,7 +245,7 @@
                 "self-evolving-systems": 3,
                 "kieran-flanagan": 1,
                 "unified-research-engine": 1,
-                "system-architecture": 7,
+                "system-architecture": 8,
                 "chase-hughes-context-engineering": 8,
                 "seena-rez-tiktok-commerce": 3,
                 "lara-acosta-linkedin-growth": 1,
@@ -420,7 +420,7 @@
             },
             "total_feedback": 94,
             "negative_count": 0,
-            "ensemble_count": 520,
+            "ensemble_count": 521,
             "auto_miss_count": 75,
             "positive_count": 0
         }
@@ -14068,6 +14068,23 @@
             "workflow_used": "packy-mccormick-writing",
             "ensemble": true,
             "compound_pairing": "packy-mccormick-writing + mike-taylor-synthetic-research + lamott-allen-really-real-writing",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260728_222129_5b99",
+            "timestamp": "2026-07-28T22:21:29.001868+00:00",
+            "session_id": "",
+            "request_summary": "Unhobble mission: vetted the '80% deleted' video against Anthropic primary source (claim-vet table, six-shifts solution card), applied CLAUDE.md diet 3672→1601w with council-mandated scar restoration,",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "system-architecture"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": true,
+            "compound_pairing": null,
             "feedback": null
         }
     ]
