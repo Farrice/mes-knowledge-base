@@ -15,6 +15,32 @@
 
 ## Phase 1: Load the Writers' Room (3 layers, 10 sources)
 
+> **LOADING PROTOCOL (2026-07-27, binding — replaces "load every genius.md").**
+> The full room is ~78,000 words (~106k tokens) and does NOT fit a working context
+> alongside the draft, the voice card, and session history. The old instruction
+> produced the laundered half-pass this protocol exists to kill: on 2026-07-27 a
+> run named 13 experts in its output while the session ledger recorded ONE
+> `skill_loaded` — the genius files had been grepped, not read, and the treatment
+> was written from 24 lines of a 78,000-word room.
+>
+> **The rule, mechanical:**
+> 1. **Load every expert's `lens-card.md` with the Read tool** (NOT grep — grep is
+>    a partial read, logs as `skill_grepped`, and does not count as loading the
+>    room). The cards are the compiled operative layer: every named pattern,
+>    executable behavior, test, and anti-pattern, at full fidelity. Whole room
+>    ≈ 10k tokens.
+> 2. **FIRING RULE — where the depth comes back:** when a lens fires on a specific
+>    line of the draft (a diagnostic hits, an anti-pattern matches), READ that
+>    expert's genius.md section before writing the treatment for that line. The
+>    card decides WHETHER the expert has something to say; genius.md says WHAT.
+>    Never treat from the card alone.
+> 3. **A card that is missing falls back to the full genius.md read** — never to
+>    grep, never to memory of the expert.
+> 4. **Truth check:** `chain_runner finalize` compares the session ledger's
+>    loaded-expert count against this room's roster and prints an EXPERT-LOAD
+>    TRUTH nudge on a mismatch. If you cannot honestly load the room, say so and
+>    run fewer experts by name — a declared 4-expert pass beats a fake 15.
+
 ### Layer 1: Structure & Compression
 
 These three compress, cut, and tighten the architecture:
@@ -231,6 +257,17 @@ Does this diagnosis match what you feel is broken about this draft?
 ---
 
 ## Phase 3: Apply the Treatment
+
+> **LAYER-1 CHECKPOINT (2026-07-27, binding).** Layer 1 produces a COMPRESSED
+> DRAFT as its own artifact, with the compression ratio stated, BEFORE any
+> Layer 2 injection begins. Never inject into an uncompressed draft. The
+> 2026-07-27 failure that prompted this: Layer 2 beats were bolted onto a
+> draft already at its character cap with Layer 1 never run — every addition
+> forced an unplanned cut somewhere else, which is exactly what "disjointed,
+> flows poorly" feels like from the reader's side. If the draft arrives at or
+> near a hard length cap, Layer 1's target is cap-minus-15% so Layer 2 has
+> room to work. Skipping Layer 1 requires saying so out loud, not doing it
+> silently.
 
 ### Step 1: Layer 1 — Compress (run first)
 

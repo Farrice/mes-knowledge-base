@@ -985,6 +985,45 @@ def finalize(
     except Exception:
         _ledger_path, _ledger_data = None, {}
 
+    # ── Expert-load truth, half 2 (2026-07-27) ─────────────────────────
+    # Compare what the session ACTUALLY loaded (full reads) against what it
+    # only grepped, and against the roster a multi-expert room claims to run.
+    # Root incident: /writers-room reported a 13-expert treatment while the
+    # ledger showed one skill_loaded — the genius files were grepped, not
+    # read, and nothing surfaced the gap. Nudge only (compass doctrine).
+    try:
+        _lt_loaded = sorted({d["name"] for d in (_ledger_data.get("debts") or [])
+                             if d.get("type") == "skill_loaded"})
+        _lt_grepped = sorted({d["name"] for d in (_ledger_data.get("debts") or [])
+                              if d.get("type") == "skill_grepped"})
+        result["load_truth"] = {"loaded": _lt_loaded, "grepped": _lt_grepped}
+        # SYSTEM-WIDE roster derivation (Farrice 2026-07-27: "make sure this
+        # doesn't happen system-wide"): the roster is read from the workflow
+        # file itself — every genius.md it names — so ANY multi-expert room,
+        # current or future, gets the truth check with zero registration.
+        # Floor: a room that names N experts must fully load at least
+        # ceil(N * 0.6) of them (cards count; grep does not).
+        _room_min = None
+        _wf_slug = (workflow or "").strip().lstrip("/")
+        if _wf_slug:
+            _wf_path = Path(__file__).resolve().parent.parent / ".agent" / "workflows" / f"{_wf_slug}.md"
+            if _wf_path.exists():
+                _named = set(re.findall(r"skills/([a-z0-9\-]+)/(?:genius|lens-card)\.md",
+                                        _wf_path.read_text(encoding="utf-8", errors="replace")))
+                if len(_named) >= 3:
+                    _room_min = max(3, -(-len(_named) * 6 // 10))  # ceil(N*0.6)
+        if _room_min and len(_lt_loaded) < _room_min:
+            result.setdefault("compass_warnings", []).append(
+                f"EXPERT-LOAD TRUTH — workflow '{workflow}' declares a room of "
+                f"{_room_min}+ experts but this session fully loaded "
+                f"{len(_lt_loaded)} ({', '.join(_lt_loaded) or 'none'}) and only "
+                f"grepped {len(_lt_grepped)}. A named-but-unloaded expert is a "
+                f"laundered half-pass — load lens-card.md per expert, read "
+                f"genius.md on every lens that fires."
+            )
+    except Exception:
+        pass
+
     _all_debt = _ledger_data.get("learning_debt") or []
     try:
         from solution_recorder import split_debt_freshness as _split_debt

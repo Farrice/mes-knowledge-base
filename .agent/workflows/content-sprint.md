@@ -103,6 +103,15 @@ Once topic is selected, prompt Farrice:
 
 ## Phase 4: Expert Draft (0 min Farrice time — AI work)
 
+> **LOADING PROTOCOL (2026-07-27, binding — same contract as /writers-room).**
+> Load each named expert's `lens-card.md` via the Read tool (never grep — grep
+> logs as `skill_grepped` and does not count). When a lens fires on a specific
+> line, READ that expert's genius.md section before treating that line. A
+> missing card falls back to the full genius.md read. `chain_runner finalize`
+> compares loaded experts against this roster and nudges on a mismatch. If the
+> room can't honestly be loaded, run fewer experts and say so — a declared
+> smaller pass beats a laundered full one.
+
 ### Load expert stack based on content type:
 
 **For LinkedIn text posts (default)**:

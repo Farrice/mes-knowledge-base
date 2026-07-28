@@ -363,7 +363,7 @@ def handle_posttool(payload: dict) -> None:
 
     if tool == "Read":
         fp = str(tin.get("file_path", ""))
-        m = re.search(r"/skills/([^/]+)/(SKILL|genius)\.md$", fp)
+        m = re.search(r"/skills/([^/]+)/(SKILL|genius|lens-card)\.md$", fp)
         if m and _is_expert_skill(m.group(1)):
             _add_debt(ledger, "skill_loaded", m.group(1))
             loaded_expert_skill = m.group(1)
@@ -391,6 +391,26 @@ def handle_posttool(payload: dict) -> None:
         tool_response = payload.get("tool_response", "")
         blob = json.dumps(tool_response) + str(tin.get("command", ""))
         _cmd = str(tin.get("command", ""))
+
+        # Expert-load truth, half 1 (2026-07-27): a grep/sed/awk/head/tail/cat
+        # against a skill's genius.md or lens-card.md is a PARTIAL read — it must
+        # never be laundered as a full load. Root incident: /writers-room named
+        # 13 experts in output while the ledger showed one skill_loaded, because
+        # the genius files were grepped through Bash, which this hook never saw.
+        # skill_grepped is a distinct debt type: visible in the finalize
+        # comparison (session_ledger_report), never satisfying a skill_loaded
+        # expectation. Fail-safe: pure detection, never raises.
+        try:
+            if re.search(r"\b(grep|rg|sed|awk|head|tail|cat)\b", _cmd):
+                for _sk in set(re.findall(r"skills/([a-z0-9\-]+)/(?:genius|lens-card|SKILL)\.md", _cmd)):
+                    if _is_expert_skill(_sk) and not any(
+                        d["type"] in ("skill_loaded", "skill_grepped") and d["name"] == _sk
+                        for d in ledger["debts"]
+                    ):
+                        _add_debt(ledger, "skill_grepped", _sk)
+                        changed = True
+        except Exception:
+            pass
 
         # Cracked-problem detection (Solution Recorder, 2026-07-07): a fail ->
         # fail -> ... -> success streak on Bash is the deterministic signature
