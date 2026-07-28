@@ -1,57 +1,56 @@
 ---
 thread: about-rebuild-ship
 status: ready
-resume_hint: Pick one of three About takes (Mirror/Aisle/Decision), ship profile top-to-bottom, then teardown sends + first content — everything else from the 2026-07-28 session is already durable
+resume_hint: Gut-pick one of three About takes, /voice-compile, headline, ship profile, send teardown #1
+unfinished: About pick · headline · featured · booking link · teardown sends · first content
 branch: main
 pin: true
 ---
 
-# Handoff — About Rebuild + Ship Sprint (2026-07-28)
+# LinkedIn Launch — About Rebuild v2 (Three Takes + Co-Creation Layer)
 
-**Next session owns:** the PICK and the SHIP. Do not re-litigate the architecture — it's ruled. Do not re-derive the critiques — they're all captured below and in durable stores.
+## Purpose
+- **Next session should do:** Gut-pick one of three About takes → /voice-compile (12 pending) → resolve headline against the picked About → ship profile top-to-bottom → send teardown #1 (Transparent Labs). One Pen Protocol pass max on the winner; iteration brake is now hook-enforced.
+- **Not in scope:** New About variants beyond the pick+one-pass; re-litigating the reader-first architecture ruling; rebuilding the writers-room (Pen Protocol shipped, binding).
 
-## 1. The one decision waiting
+## Load First
+- `.agent/handoffs/2026-07-28-about-rebuild-ship.md` — the full ship checklist + binding critiques distilled (THE working doc)
+- `_active/linkedin-launch/03-launch/2026-07-28-about-rebuild-three-takes.md` — the three takes (Mirror / Aisle / Decision), all classifier-CLEAN ≤2,600
+- `_active/farrice-brand/voice/VOICE-CARD.md` v1.2 — named-place principle, payoff punch, heat-in-nouns now in §6
+- `.agent/handoffs/2026-07-27-positioning-before-headline.md` — headline is STILL the open positioning decision
+- `_active/linkedin-launch/03-launch/2026-07-27-profile-top-to-bottom.md` — §7 featured section, §1-2 banner/photo, rest of profile copy
 
-Three architecturally distinct About takes, all reader-first, all classifier-CLEAN, all ≤2,600:
-**`_active/linkedin-launch/03-launch/2026-07-28-about-rebuild-three-takes.md`**
-- **TAKE A — The Mirror**: their interior scene by scene (legal meeting, 11pm ad library), Farrice enters late. Closest to the Bayer Mirror 10/10 lineage.
-- **TAKE B — The Aisle**: one continuous scene — their buyer, two bottles, four seconds. Most cinematic; the counter credential is the narrator's authority.
-- **TAKE C — The Decision**: operator thesis, category diagnosis first, minimal memoir. Most "serious strategist seat"; uses the verified wedge language (sea of sameness, same models, "true before it's scaled").
+## Current State
+- **Objective:** LinkedIn profile live + first teardown sent = inbound for the Proof-to-Market offer ($2,500 sprint, supplement/performance brands).
+- **What is already done:** Three reader-first About takes ICP-grounded and CLEAN; Pen Protocol binding in writers-room; Co-Creation Enforcement Layer live in steering_loop_hook.py (spiral brake, feedback-turn protocol, work-mode front door); VOICE-CARD 1.2; 12 verdicts ratcheted; teardowns #1-3 built (NOTHING sent); all committed and pushed (f7b372d2b).
+- **What is uncertain or stale:** Headline unresolved since 2026-07-27; sprint/retainer tier wording vs frozen Signal Pilot prices unreconciled; Cal.com booking link identified but unbuilt; About v9-v14 lineage superseded by the three takes — do not resume from v14.
+- **Latest proof/receipt:** prose_classifier CLEAN 0/10 on all three takes; expert-load truth 15/15 loaded, 0 grepped; co-creation layer live-fired correctly on its first real prompt.
 
-Read all three cold, gut-pick, run at most ONE Pen Protocol pass on the winner. **Iteration brake applies: no sanding marathons — the 2026-07-28 rule is "3+ revisions on one skeleton = rewrite from source, never sand."**
+## Suggested Skills / Workflows
+- `/resume about-rebuild-ship` — surfaces this thread pinned
+- `/voice-compile` — fold 12 pending verdicts → VOICE-CARD 1.3 BEFORE judging takes
+- `/writers-room` (Pen Protocol path) — the single allowed refinement pass on the picked take
+- `/prose-check` on any edited line before paste-to-LinkedIn
 
-## 2. What is already durable (do NOT redo)
+## Exact Next Prompt
+```text
+Read .agent/handoffs/2026-07-28-about-rebuild-ship.md, run /voice-compile, then show me the three About takes side by side with a 2-line case for each. I'll gut-pick. After the pick: one Pen Protocol pass max, then headline resolved against the picked About, then the ship checklist top to bottom.
+```
 
-- **Pen Protocol** (binding) — `.agent/workflows/writers-room.md` Phase 3: one lead voice writes with full latitude; room critiques pass/fail; conditional lenses are invitations; PASS bank is a floor, never a freeze list. Solution card: `docs/solutions/2026-07-28-writers-room-pen-protocol.md`.
-- **VOICE-CARD v1.2** — named-place principle, payoff-punch rule, heat rule (contempt in the nouns, not the volume), memoir-stays-front-facing, "Years of that" amended to texture-only.
-- **Voice ratchet: 12 verdicts pending compile** (entries 24–34, all from the About sessions). Run `/voice-compile` early next session → VOICE-CARD 1.3.
-- **Expert-load truth + lens cards** (2026-07-27) — room loads 15/15 via cards; Dan Wang now in the room by invitation.
+## Acceptance Criteria
+- One take picked and live on LinkedIn (≤2,600, classifier CLEAN at paste time)
+- Headline chosen and live; featured section's 3 slots populated; booking link exists
+- Teardown #1 DM'd to Transparent Labs (send-before-build verb finally closed)
+- VOICE-CARD at 1.3 with 0 pending verdicts
 
-## 3. The binding critiques (his words, distilled — the lens for ALL future profile/content work)
+## Risk Notes
+- Sibling-session concurrency on this tree (golden rule: one live writer; claim session_lock before multi-file work)
+- Offer-tier wording may drift from CANONICAL-OFFER-BRIEF frozen prices — verify before promising specifics in DMs
+- The spiral brake will fire if the new session produces About variants without a pick — that is by design, not a malfunction
 
-1. **Reader front and center or don't bother**: "why should the inbound lead care... if we're not writing with that lens there is no point in having this About at all."
-2. **Specificity is lived-in experience**: named places, real questions (pill size, meds, whey vs isolate), the owned shelf of half-used tubs — never "the only room where..." cleverness.
-3. **Payoffs must punch**: flat lines are texture, never payoffs. The wasted-years beat must land in the reader's chest.
-4. **Heat in the nouns**: fillers, fairy-dust doses, label doing the work — short cuts, no grandizing, no flattening.
-5. **Offers name the discipline and deliverables**: creative strategy, positioning, messaging; what they walk away with per tier; no guessing.
-6. **No template traps**: writers get creative latitude; one author per body; committee editing is the failure mode.
-
-## 4. Ship checklist (his stated goal: inbound ASAP)
-
-- [ ] **About**: pick a take, paste to LinkedIn (§6 of profile-top-to-bottom has the rest of the profile copy).
-- [ ] **Headline**: STILL UNRESOLVED — see `.agent/handoffs/2026-07-27-positioning-before-headline.md` (candidates + the "(locked)" shape that survived). The three-takes doc's positioning may finally settle it: the About's first line and headline should rhyme.
-- [ ] **Featured section**: 3 slots decided (proof → offer → deep read) — `2026-07-27-profile-top-to-bottom.md` §7.
-- [ ] **Banner + photo**: same file §1–2 (photo: shoulders-up, no gym).
-- [ ] **Conversion path**: Cal.com booking link — identified free 10-min fix, never built. Do before driving traffic.
-- [ ] **Teardowns #1–3 built, NOTHING SENT** (Transparent Labs, Momentous, Puori — `03-launch/teardowns/`). Send-before-build is the open verb; DM before publishing per the teardown mechanic.
-- [ ] **First content**: pair the About with the real shelf photo (owned, unfakeable proof); ICP formats that win are mechanism-teardown + myth-correction + cited claim cards (`01-research/wellness-supplement-brand-niche.md` §6).
-
-## 5. ICP grounding used (don't re-research)
-
-`wellness-supplement-brand-niche.md` — buyer = $1M–$50M DTC wellness/supplement founder or marketing lead; their language: angles, claims, creative fatigue, compliance; verified pains: sea of sameness, same-AI-models parity, legal-strangled claims, AI-content trust collapse 60%→26%; wedge: "someone who actually knows what works in a body" / "true before it's scaled." Avatar dossier's ejection-trigger list applies to copy tone (no hype, no guru words).
-
-## 6. Next-session starter prompt (copy-paste)
-
-> Read `.agent/handoffs/2026-07-28-about-rebuild-ship.md`, then show me the three About takes side by side with a 2-line case for each. I'll gut-pick. After the pick: one Pen Protocol pass max, then headline (resolve it against the picked About), then the ship checklist top to bottom. /voice-compile first — 12 verdicts pending.
-
-_Session 2026-07-28 (ee1d3250): About v10→v14 lineage + reader-first ruling + Pen Protocol shipped. Lock 14a039a4786e released at handoff._
+## Do NOT Rebuild (shipped this session — extend, never re-derive)
+- **Pen Protocol** — `.agent/workflows/writers-room.md` Phase 3 (binding) + `docs/solutions/2026-07-28-writers-room-pen-protocol.md`
+- **Co-Creation Enforcement Layer** — `execution/hooks/steering_loop_hook.py` (spiral brake / feedback-turn protocol / work-mode front door) + `docs/solutions/2026-07-28-co-creation-enforcement-layer.md`; kill switch `.agent/co-creation.off`
+- **The three About takes** — `_active/linkedin-launch/03-launch/2026-07-28-about-rebuild-three-takes.md`; pick, don't regenerate
+- **VOICE-CARD 1.2 + 15 lens cards + expert-load truth** — loaded room is solved; never grep a genius file
+- Before building anything named above: `/arsenal <task>` and read the prior handoff first. Re-solving shipped work is the #1 next-session failure mode.

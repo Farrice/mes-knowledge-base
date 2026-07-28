@@ -1,73 +1,64 @@
 # Latest Handoff
 
-**Thread:** opus5-adaptation-layer  
-**Full path:** .agent/handoffs/2026-07-28-opus5-adaptation-layer.md  
+**Thread:** about-rebuild-ship  
+**Full path:** .agent/handoffs/2026-07-28-about-rebuild-ship.md  
 **Date:** 2026-07-28 (today)  
 **Status:** ready  
-**Title:** Opus 5 Adaptation Layer — Model-Dialect Resilience v2 (injector + dead-channel layer SHIPPED)
+**Title:** LinkedIn Launch — About Rebuild v2 (Three Takes + Co-Creation Layer)
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume opus5-adaptation-layer` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume about-rebuild-ship` for this one.
 
 ---
-thread: opus5-adaptation-layer
+
+---
+thread: about-rebuild-ship
 status: ready
-resume_hint: Triage 66 execution orphans (wire/archive/bless), then probe Fable 5 for claude-fable-5.md dialect card
-unfinished: Orphan triage + Fable dialect card; first 06:00 run of rewired daily-health-audit unverified
+resume_hint: Gut-pick one of three About takes, /voice-compile, headline, ship profile, send teardown #1
+unfinished: About pick · headline · featured · booking link · teardown sends · first content
 branch: main
 pin: true
 ---
 
-# Opus 5 Adaptation Layer — Model-Dialect Resilience v2 (injector + dead-channel layer SHIPPED)
+# LinkedIn Launch — About Rebuild v2 (Three Takes + Co-Creation Layer)
 
 ## Purpose
-- **Next session should do:** (1) triage the 66 execution-class wiring orphans — wire, archive, or bless each with Farrice (they are the ENTIRE dead pile; everything else proved wired); (2) probe Fable 5 and write `directives/model-dialects/claude-fable-5.md` with a `machine-dialect` JSON block so the bound injector lights up on Fable seats (it is honestly silent there now).
-- **Not in scope:** rebuilding anything below — the layer is shipped, verified, and committed. Extend only.
+- **Next session should do:** Gut-pick one of three About takes → /voice-compile (12 pending) → resolve headline against the picked About → ship profile top-to-bottom → send teardown #1 (Transparent Labs). One Pen Protocol pass max on the winner; iteration brake is now hook-enforced.
+- **Not in scope:** New About variants beyond the pick+one-pass; re-litigating the reader-first architecture ruling; rebuilding the writers-room (Pen Protocol shipped, binding).
 
 ## Load First
-- `docs/solutions/2026-07-28-opus5-adaptation-bound-injector.md` — § MERGE OUTCOME is the authoritative final-shape record (two concurrent sessions built this on one tree; accept→repair→dedupe)
-- `guides/2026-07-28-opus5-adaptation-layer.md` — Part 2 = operator guide (commands, mental model, honest edges)
-- `directives/model-dialects/claude-opus-5.md` — the card format to replicate for Fable (JSON `machine-dialect` block at the end)
-- `python3 execution/wiring_audit.py status` — live orphan list (do not work from a stale copy)
+- `.agent/handoffs/2026-07-28-about-rebuild-ship.md` — the full ship checklist + binding critiques distilled (THE working doc)
+- `_active/linkedin-launch/03-launch/2026-07-28-about-rebuild-three-takes.md` — the three takes (Mirror / Aisle / Decision), all classifier-CLEAN ≤2,600
+- `_active/farrice-brand/voice/VOICE-CARD.md` v1.2 — named-place principle, payoff punch, heat-in-nouns now in §6
+- `.agent/handoffs/2026-07-27-positioning-before-headline.md` — headline is STILL the open positioning decision
+- `_active/linkedin-launch/03-launch/2026-07-27-profile-top-to-bottom.md` — §7 featured section, §1-2 banner/photo, rest of profile copy
 
 ## Current State
-- **Objective:** model releases survivable without harness rebuilds; every asset provably wired.
-- **What is already done (commits `2397327cf` + `7c0d77cc3`, 2026-07-28):**
-  - Bound injector in `steering_loop_hook.py`: active-model resolution (payload→env→transcript→cache→default), JSON dialect-card block, deliverable/conversational classes, exemplar calibration, NO number tables (Farrice's binding call), kill switch `DIALECT_INJECTOR_OFF=1` / `.agent/dialect-injector.off`.
-  - 5 classify-only detectors in `self_heal.py`: dead_hooks (evidence mtimes + unmapped-hook completeness), dead_launchd (loaded + log cadence + new-plist grace), stale_feeds, core_surface_bypass (≥3 sessions/7d, pinned), wiring_orphans.
-  - `wiring_audit.py` tier-3 ratchet: 3,579 assets, read-only by AST guarantee, FULL backlog drained day one in 1.6s → 66 orphans, all execution-class. Daily 150/day via `com.antigravity.daily-health-audit` (06:00, rewired `daily_health_audit.py`); weekly 400-batch in /weekly-closeout.
-  - Verifiers: `verify_dialect_injector.py` (26), `verify_dead_channels.py` (23), `verify_wiring_audit.py` (21) — 12 sabotage negative controls, all caught both directions; existing suites regressed green.
-  - Deleted as superseded: `verify_loop_integrity.py`, `verify_core_surface.py`, `verify_birth_wiring.py` (its PostToolUse trigger was never registered), `daily_backlog_drain.py` (declared a launchd job that never existed).
-- **What is uncertain or stale:** a THIRD session was live this morning writing `writers-room.md` / `VOICE-CARD.md` — foreign uncommitted files may sit in the tree; accept→repair→dedupe, never revert. `daily-health-audit` launchd job has not yet had its first 06:00 run with the rewired orchestrator — check `.agent/health/daily-audit.json` tomorrow.
-- **Latest proof/receipt:** all three suites green as of commit `7c0d77cc3`; `wiring_audit.py status` = 100% coverage, 66 orphans.
+- **Objective:** LinkedIn profile live + first teardown sent = inbound for the Proof-to-Market offer ($2,500 sprint, supplement/performance brands).
+- **What is already done:** Three reader-first About takes ICP-grounded and CLEAN; Pen Protocol binding in writers-room; Co-Creation Enforcement Layer live in steering_loop_hook.py (spiral brake, feedback-turn protocol, work-mode front door); VOICE-CARD 1.2; 12 verdicts ratcheted; teardowns #1-3 built (NOTHING sent); all committed and pushed (f7b372d2b).
+- **What is uncertain or stale:** Headline unresolved since 2026-07-27; sprint/retainer tier wording vs frozen Signal Pilot prices unreconciled; Cal.com booking link identified but unbuilt; About v9-v14 lineage superseded by the three takes — do not resume from v14.
+- **Latest proof/receipt:** prose_classifier CLEAN 0/10 on all three takes; expert-load truth 15/15 loaded, 0 grepped; co-creation layer live-fired correctly on its first real prompt.
 
 ## Suggested Skills / Workflows
-- `/weekly-closeout` — the orphan triage lives in its Step 1 wiring deep pass
-- `/system-audit` — control-plane route for any wiring complaint (routing binding fires on this)
-- `directives/model-dialects/` + `test_model_compliance` probes — the Fable probe should follow the P1–P9 battery used for Opus 5
+- `/resume about-rebuild-ship` — surfaces this thread pinned
+- `/voice-compile` — fold 12 pending verdicts → VOICE-CARD 1.3 BEFORE judging takes
+- `/writers-room` (Pen Protocol path) — the single allowed refinement pass on the picked take
+- `/prose-check` on any edited line before paste-to-LinkedIn
 
 ## Exact Next Prompt
 ```text
-/resume opus5-adaptation-layer
-
-Two tasks, in order. 1) Run python3 execution/wiring_audit.py status and walk me
-through the 66 execution orphans in batches of ~15: for each, propose wire (add the
-missing reference), archive (move to _archived, deliberate), or bless (add an
-exemption with reason). Nothing executes without my yes. 2) Then probe Fable 5
-(P1-P9 battery per directives/model-dialects/claude-opus-5.md) and write
-claude-fable-5.md with a machine-dialect JSON block — same format, Fable's
-pathologies. Do not rebuild the injector or detectors; extend only.
+Read .agent/handoffs/2026-07-28-about-rebuild-ship.md, run /voice-compile, then show me the three About takes side by side with a 2-line case for each. I'll gut-pick. After the pick: one Pen Protocol pass max, then headline resolved against the picked About, then the ship checklist top to bottom.
 ```
 
 ## Acceptance Criteria
-- Orphan count in `wiring_audit.py status` reaches 0 via deliberate wire/archive/bless decisions (no silent deletions).
-- `claude-fable-5.md` exists with a parsing `machine-dialect` block; `verify_dialect_injector.py` still 26/26; a Fable-seat prompt shows the MODEL DIALECT block injected.
+- One take picked and live on LinkedIn (≤2,600, classifier CLEAN at paste time)
+- Headline chosen and live; featured section's 3 slots populated; booking link exists
+- Teardown #1 DM'd to Transparent Labs (send-before-build verb finally closed)
+- VOICE-CARD at 1.3 with 0 pending verdicts
 
 ## Risk Notes
-- Concurrent sessions on one tree caused three collisions today — claim `session_lock` AND confirm no sibling is live before multi-file work; if files change that this session didn't write: accept→repair→dedupe (docs/solutions/2026-07-15).
-- The wiring prover's proof rules are curated — a new asset class (e.g. councils/) is invisible until added to `wiring_audit.inventory()`.
-- Never "fix" an orphan by weakening its proof rule — that is laundering, structurally forbidden in the self-heal layer.
+- Sibling-session concurrency on this tree (golden rule: one live writer; claim session_lock before multi-file work)
+- Offer-tier wording may drift from CANONICAL-OFFER-BRIEF frozen prices — verify before promising specifics in DMs
+- The spiral brake will fire if the new session produces About variants without a pick — that is by design, not a malfunction
 
 ## Do NOT Rebuild (auto-scaffolded — the store adds this when a handoff omits it)
 - (first handoff on this thread — list shipped assets here as they land)
