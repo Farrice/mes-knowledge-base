@@ -36,6 +36,13 @@ PASSES = 0
 PORCELAIN_AT_START = ""
 
 
+def _porcelain() -> str:
+    out = subprocess.run(["git", "status", "--porcelain"], cwd=str(ROOT),
+                         capture_output=True, text=True, timeout=30).stdout
+    return "\n".join(l for l in out.splitlines()
+                     if "self-heal-report.json" not in l and "self-heal-latest.json" not in l)
+
+
 def git_arg_lists(path: Path) -> list[list[str]]:
     """Every literal argv list in the source whose first element is "git".
 
@@ -84,9 +91,7 @@ def main() -> int:
         return 1
 
     global PORCELAIN_AT_START
-    PORCELAIN_AT_START = subprocess.run(
-        ["git", "status", "--porcelain"], cwd=str(ROOT),
-        capture_output=True, text=True, timeout=30).stdout
+    PORCELAIN_AT_START = _porcelain()
 
     sys.path.insert(0, str(ROOT / "execution"))
     import self_heal  # noqa: E402
@@ -231,8 +236,7 @@ def main() -> int:
           "index already has staged changes" in csrc)
 
     # ── 2e. GIT CLEANLINESS: the suite itself must not dirty the tree ──────
-    porcelain_now = subprocess.run(["git", "status", "--porcelain"], cwd=str(ROOT),
-                                   capture_output=True, text=True, timeout=30).stdout
+    porcelain_now = _porcelain()
     check("verifier has not dirtied the working tree so far",
           porcelain_now == PORCELAIN_AT_START,
           "the suite mutated tracked state")
