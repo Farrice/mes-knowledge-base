@@ -2,6 +2,9 @@
 
 One line per card: date · name · problem_signature.
 
+- 2026-07-28 · front-door-masks-first-workflow-from-minter · the generated expert front door cites the first workflow path as its example row, which arsenal_index reads as "reachable," so the minter silently skips that workflow's /command on every fresh forge
+- 2026-07-27 · every-failure-defaults-to-the-human · a check reports pass/fail with no notion of WHO fixes it, so every failure escalates to the human by default
+- 2026-07-27 · verification-with-no-reader · verification machinery that reports to a log file nobody reads is indistinguishable from no verification
 - 2026-07-26 · shallow-research-passed-as-trusted · Ad-hoc Workflow research swarms run single-pass on search snippets with self-verified evidence and no depth floor binds them, so reconnaissance ships as decision-grade insight through finalize
 - 2026-07-25 · 2026-07-25-expert-sop-harvest-to-sellable-package · 
 - 2026-07-25 · 2026-07-25-instagram-voice-scrape-without-downloads · 

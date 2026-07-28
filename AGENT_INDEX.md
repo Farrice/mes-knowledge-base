@@ -96,6 +96,7 @@
 | `heath-brothers` | **heath-brothers** | commander's intent extraction, concrete translation, emotional authenticity, idea stickiness, knowledge gap creation, message design, schema violation engineering |
 | `henrik-werdelin` | **henrik-werdelin** | ai-agent-augmented solo business building, customer-first venture discovery, donkeycorn business design, multi-venture portfolio architecture, portfolio entrepreneur, portfolio entrepreneurship, relationship-capital moat building, relationship-capital moats, studio and talent-catalyst operating models, studio producer, venture discovery |
 | `henry-shukman` | **Henry Shukman: Contemplative & Poetic Writing Master** | contemplative, poetic writing master |
+| `hilary-gridley` | **Hilary Gridley** | agent configuration |
 | `jasmin-alic` | **Jasmin Alic** | linkedin organic growth virtuoso |
 | `jason-fladlien` | **Jason Fladlien** | agent profile, brand strategy, copywriting, market research, marketing psychology, offer design, sales/closing, skill stacking |
 | `jay-hiette` | **jay-hiette** | belief-shifting messaging, coaching positioning architect, coaching-business deal flow, compounding acquisition design, contrarian message engineering, identity-led content systems, online coaching positioning, reality matrix architecture, symptom-language copywriting |

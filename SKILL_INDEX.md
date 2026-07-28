@@ -95,6 +95,7 @@
 | `design-md` | **design-md** | author, extract, validate, and operate on design, brand systems as code | 7 | 0 |
 | `deya-business-systems` | **deya-business-systems** | problem-severity pricing, remarkable offer engineering, beta price ladders | 3 | 0 |
 | `diandra-escobar-linkedin-growth` | **Diandra Escobar - LinkedIn Growth Mastery** | newsjacking, namejacking, hot takes) | 22 | 0 |
+| `diandra-escobar-linkedin-mastery` | **diandra-escobar-linkedin-mastery** | the linkedin journey system + domain arsenal | 0 | 0 |
 | `doc-coauthoring` | **doc-coauthoring** | guide users through a structured workflow for co-authoring documentation | 0 | 0 |
 | `docx` | **docx** | when claude needs to work with professional documents ( | 0 | 0 |
 | `dom-iacovone-multi-company-operator` | **Dom Iacovone: Multi-Company Operator Excellence** | entrepreneurship, operator excellence, cpg | 6 | 0 |
@@ -136,6 +137,7 @@
 | `henrik-werdelin-portfolio-entrepreneurship` | **henrik-werdelin-portfolio-entrepreneurship** | donkeycorn business design ($1m sustainable ventures, not unicorn-or-nothing), relationship-capital moats (depth/density/durability) | 3 | 0 |
 | `henry-shukman-contemplative-writing` | **Henry Shukman — Contemplative & Poetic Writing** | contemplative, poetic, and personal-essay mastery from the poet | 13 | 0 |
 | `higgsfield-creative-studio` | **higgsfield-creative-studio** | orchestrates gpt image 2 | 2 | 0 |
+| `hilary-gridley` | **Hilary Gridley — Judgment Encoding & Anti-Slop Management OS** | from the ex-whoop team lead behind 'how to be a super manager with ai, judgment encoding & anti-slop management os | 13 | 0 |
 | `how-i-write-os` | **How-I-Write OS — Master Writing Conductor** | cross-cutting writing × composition × reader impact, picks the smallest sufficient stack of forged experts (3-6, never all 10) | 1 | 0 |
 | `internal-comms` | **internal-comms** | a set of resources to help me write all kinds of internal communications, using the formats that my company likes to use, leadership updates | 0 | 0 |
 | `jack-roberts-design-mastery` | **Jack Roberts: Design Mastery** | code-first design system that codifies visual excellence into reusable design, design mastery | 15 | 0 |
