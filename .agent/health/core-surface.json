@@ -1,0 +1,21 @@
+{
+  "timestamp": "2026-07-28T09:31:52.856707",
+  "summary": {
+    "total_findings": 1,
+    "aligned": 0,
+    "underloaded": 0,
+    "orphan": 0
+  },
+  "production_core_domains": 5,
+  "findings": [
+    {
+      "tier": "sessions",
+      "classification": "SUMMARY",
+      "sessions_audited": 36,
+      "aligned": 0,
+      "underloaded": 0,
+      "orphan": 0,
+      "message": "Core-surface audit: 0 aligned, 0 underloaded, 0 orphan"
+    }
+  ]
+}

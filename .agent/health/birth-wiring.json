@@ -1,0 +1,121 @@
+[
+  {
+    "timestamp": "2026-07-28T09:24:49.709516",
+    "file_path": ".agent/workflows/test-example.md",
+    "file_type": "workflow",
+    "classification": "NEWBORN_ORPHAN",
+    "message": "Workflow not found in SLASH_COMMANDS.md"
+  },
+  {
+    "timestamp": "2026-07-28T09:26:59.670530",
+    "file_path": "/Users/farricecain/Google Antigravity/execution/hooks/session_ledger_hook.py",
+    "file_type": "doc",
+    "classification": "INFO",
+    "message": "Manual audit required for doc type"
+  },
+  {
+    "timestamp": "2026-07-28T09:30:36.507419",
+    "file_path": "/Users/farricecain/Google Antigravity/execution/self_heal.py",
+    "file_type": "doc",
+    "classification": "INFO",
+    "message": "Manual audit required for doc type"
+  },
+  {
+    "timestamp": "2026-07-28T09:30:45.114387",
+    "file_path": "/Users/farricecain/Google Antigravity/execution/verify_loop_integrity.py",
+    "file_type": "doc",
+    "classification": "INFO",
+    "message": "Manual audit required for doc type"
+  },
+  {
+    "timestamp": "2026-07-28T09:30:48.924606",
+    "file_path": "/Users/farricecain/Google Antigravity/execution/verify_loop_integrity.py",
+    "file_type": "doc",
+    "classification": "INFO",
+    "message": "Manual audit required for doc type"
+  },
+  {
+    "timestamp": "2026-07-28T09:30:59.520652",
+    "file_path": "/Users/farricecain/Google Antigravity/execution/verify_loop_integrity.py",
+    "file_type": "doc",
+    "classification": "INFO",
+    "message": "Manual audit required for doc type"
+  },
+  {
+    "timestamp": "2026-07-28T09:31:13.443464",
+    "file_path": "/Users/farricecain/Google Antigravity/execution/verify_loop_integrity.py",
+    "file_type": "doc",
+    "classification": "INFO",
+    "message": "Manual audit required for doc type"
+  },
+  {
+    "timestamp": "2026-07-28T09:33:33.900891",
+    "file_path": "/Users/farricecain/Google Antigravity/execution/self_heal.py",
+    "file_type": "doc",
+    "classification": "INFO",
+    "message": "Manual audit required for doc type"
+  },
+  {
+    "timestamp": "2026-07-28T09:34:23.663417",
+    "file_path": "/Users/farricecain/Google Antigravity/execution/verify_system.py",
+    "file_type": "doc",
+    "classification": "INFO",
+    "message": "Manual audit required for doc type"
+  },
+  {
+    "timestamp": "2026-07-28T09:35:03.101411",
+    "file_path": "/Users/farricecain/Google Antigravity/execution/wiring_audit.py",
+    "file_type": "doc",
+    "classification": "INFO",
+    "message": "Manual audit required for doc type"
+  },
+  {
+    "timestamp": "2026-07-28T09:35:53.970142",
+    "file_path": "/Users/farricecain/Google Antigravity/execution/wiring_audit.py",
+    "file_type": "doc",
+    "classification": "INFO",
+    "message": "Manual audit required for doc type"
+  },
+  {
+    "timestamp": "2026-07-28T09:35:59.466969",
+    "file_path": "/Users/farricecain/Google Antigravity/execution/self_heal.py",
+    "file_type": "doc",
+    "classification": "INFO",
+    "message": "Manual audit required for doc type"
+  },
+  {
+    "timestamp": "2026-07-28T09:36:05.099052",
+    "file_path": "/Users/farricecain/Google Antigravity/execution/verify_system.py",
+    "file_type": "doc",
+    "classification": "INFO",
+    "message": "Manual audit required for doc type"
+  },
+  {
+    "timestamp": "2026-07-28T09:36:16.870633",
+    "file_path": "/Users/farricecain/Google Antigravity/execution/self_heal.py",
+    "file_type": "doc",
+    "classification": "INFO",
+    "message": "Manual audit required for doc type"
+  },
+  {
+    "timestamp": "2026-07-28T09:36:19.908967",
+    "file_path": "/Users/farricecain/Google Antigravity/execution/verify_system.py",
+    "file_type": "doc",
+    "classification": "INFO",
+    "message": "Manual audit required for doc type"
+  },
+  {
+    "timestamp": "2026-07-28T09:36:36.456222",
+    "file_path": "/Users/farricecain/Google Antigravity/execution/daily_health_audit.py",
+    "file_type": "doc",
+    "classification": "INFO",
+    "message": "Manual audit required for doc type"
+  },
+  {
+    "timestamp": "2026-07-28T09:36:38.703391",
+    "file_path": "/Users/farricecain/Google Antigravity/SLASH_COMMANDS.md",
+    "file_type": "doc",
+    "classification": "INFO",
+    "message": "Manual audit required for doc type"
+  }
+]

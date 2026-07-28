@@ -38,7 +38,7 @@
                 "sharran-srivatsaa-scaling": 2,
                 "chase-hughes-context-engineering": 2,
                 "dai-media-consumer-posture": 2,
-                "Content": 63,
+                "Content": 64,
                 "writing-depth-layer": 3,
                 "Analysis": 9,
                 "seena-rez-tiktok-commerce": 2,
@@ -47,7 +47,7 @@
                 "darrel-wilson-ai-affiliate": 1,
                 "stefan-georgi-dopamine-copy": 10,
                 "marketing-studio-director": 1,
-                "System": 88,
+                "System": 91,
                 "brand-operating-system": 11,
                 "dara-denney-meta-ads": 5,
                 "internal-comms": 1,
@@ -92,7 +92,7 @@
                 "satori-graphics": 1,
                 "oren-luxury-psychology": 2,
                 "seth-godin-brand": 2,
-                "donald-miller-cognitive-load": 1,
+                "donald-miller-cognitive-load": 2,
                 "fresh-voice-system": 4,
                 "ward-farnsworth-rhetorical-mastery": 2,
                 "ben-watkins-storytelling": 7,
@@ -112,9 +112,9 @@
                 "lamott-allen-really-real-writing": 1,
                 "nick-saraev-bottleneck-thinking": 1
             },
-            "total_routings": 695,
+            "total_routings": 700,
             "tier_counts": {
-                "0": 695,
+                "0": 700,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -124,15 +124,15 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 411,
-                "finalize-auto": 284
+                "hybrid": 412,
+                "finalize-auto": 288
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
                 "donald-miller-culture-turnaround": 3,
                 "sky-tan-format-engine": 4,
                 "monk-ai-offer-architecture": 1,
-                "april-dunford-positioning": 4,
+                "april-dunford-positioning": 5,
                 "tyler-denk-audience-monetization": 1,
                 "susan-orlean-narrative-nonfiction": 5,
                 "paul-james-ai-automation": 1,
@@ -167,7 +167,7 @@
                 "steven-kotler-flow-performance": 1,
                 "creative-assembly": 1,
                 "cooz-voice-profile": 3,
-                "none": 9,
+                "none": 12,
                 "market-intelligence": 1,
                 "nate-b-jones-context-engineering": 50,
                 "nicolas-cole": 2,
@@ -206,7 +206,7 @@
                 "daniel-priestley": 1,
                 "jason-fladlien": 5,
                 "swarm-commander": 4,
-                "donald-miller-cognitive-load": 6,
+                "donald-miller-cognitive-load": 7,
                 "kallaway-illusion-of-novelty": 15,
                 "oren-one-person-ai-marketer": 2,
                 "luke-iha-proof-ladder": 2,
@@ -337,7 +337,7 @@
                 "strength-conditioning-os": 18,
                 "dan-bolton-coaching-offers": 1,
                 "alex-suzuki-digital-product-revenue-os": 3,
-                "creative-campaign-strategy": 11,
+                "creative-campaign-strategy": 12,
                 "diandra-escobar-linkedin-growth": 3,
                 "matthew-volkwyn-copywriting": 1,
                 "tess-barclay-social-content": 1,
@@ -409,12 +409,13 @@
                 "sabrina-ramonov-ai-monetization": 1,
                 "test": 1,
                 "hilary-gridley": 1,
-                "nick-saraev-bottleneck-thinking": 1
+                "nick-saraev-bottleneck-thinking": 1,
+                "writers-room": 1
             },
-            "total_feedback": 92,
+            "total_feedback": 93,
             "negative_count": 0,
-            "ensemble_count": 514,
-            "auto_miss_count": 73,
+            "ensemble_count": 515,
+            "auto_miss_count": 74,
             "positive_count": 0
         }
     },
@@ -1237,6 +1238,15 @@
             "rating": "auto_miss",
             "correction": "mitch-albom-writing-mastery",
             "notes": "expert skill 'mitch-albom-writing-mastery' loaded not matching suggestion ['ben-watkins-storytelling', 'kallaway-illusion-of-novelty', 'dr-kriukow-humanization']"
+        },
+        {
+            "feedback_id": "fb_20260728_163818_5b97",
+            "timestamp": "2026-07-28T16:38:18.716578+00:00",
+            "session_id": "ee1d3250-5fa2-4dbd-a10f-d9f1ed7c1453",
+            "routing_id": "rt_20260728_161707_dcda",
+            "rating": "auto_miss",
+            "correction": "dan-wang-literary-analysis",
+            "notes": "expert skill 'dan-wang-literary-analysis' loaded not matching suggestion ['ben-watkins-storytelling', 'susan-orlean-narrative-nonfiction', 'chase-hughes-conversational-influence']"
         }
     ],
     "routing_decisions": [
@@ -13863,6 +13873,93 @@
             "workflow_used": "supercomputer",
             "ensemble": true,
             "compound_pairing": "supercomputer + nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260728_164418_ef87",
+            "timestamp": "2026-07-28T16:44:18.716522+00:00",
+            "session_id": "",
+            "request_summary": "Model-Dialect Adaptation Layer: bound injector (dialect-card-keyed, exemplar-calibrated) + 5 dead-channel detectors in self_heal + full-asset wiring ratchet; 3 verifier suites, 12 sabotage controls; m",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "none"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "resume",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260728_164427_848c",
+            "timestamp": "2026-07-28T16:44:27.391729+00:00",
+            "session_id": "",
+            "request_summary": "Model-Dialect Adaptation Layer: bound injector (dialect-card-keyed, exemplar-calibrated) + 5 dead-channel detectors in self_heal + full-asset wiring ratchet; 3 verifier suites, 12 sabotage controls; m",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "none"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "system-audit",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260728_170655_41ea",
+            "timestamp": "2026-07-28T17:06:55.322617+00:00",
+            "session_id": "ee1d3250-5fa2-4dbd-a10f-d9f1ed7c1453",
+            "request_summary": "here's some final edits. I like what we got so far. This is a way better improvement, but the one edit that we would put here, that I think needs better, is this: most of it did nothing but give me em",
+            "intent_score": 0,
+            "domain_detected": "donald-miller-cognitive-load",
+            "experts_deployed": [
+                "donald-miller-cognitive-load",
+                "april-dunford-positioning",
+                "creative-campaign-strategy"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "donald-miller-cognitive-load",
+            "ensemble": true,
+            "compound_pairing": "donald-miller-cognitive-load + april-dunford-positioning + creative-campaign-strategy",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260728_183953_fe06",
+            "timestamp": "2026-07-28T18:39:53.675352+00:00",
+            "session_id": "",
+            "request_summary": "LinkedIn About rebuild: v12/v13/v14 treatments + reader-first architecture ruling + three distinct About takes (Mirror/Aisle/Decision), all classifier-CLEAN, ICP-grounded from wellness-supplement-bran",
+            "intent_score": 8,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "writers-room"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "writers-room",
+            "ensemble": false,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260728_184008_462e",
+            "timestamp": "2026-07-28T18:40:08.556575+00:00",
+            "session_id": "",
+            "request_summary": "Co-Creation Enforcement Layer: spiral brake + feedback-turn protocol + work-mode front door in steering_loop_hook.py (stateful, ledger-derived renditions, 8-case bench + live fire + slash-command cali",
+            "intent_score": 9,
+            "domain_detected": "System",
+            "experts_deployed": [
+                "none"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "none",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

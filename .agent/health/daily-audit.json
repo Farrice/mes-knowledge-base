@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-07-28T09:36:42.072285",
+  "self_heal": {
+    "exit": 0,
+    "findings": 9,
+    "ids": [
+      "platform_drift",
+      "wiring_orphans",
+      "verify_born_intent_drift.py",
+      "verify_contextual_next_prompts.py",
+      "verify_global_steering_closeout.py",
+      "verify_steering_compass.py",
+      "verify_system.py",
+      "verify_system_control_plane.py",
+      "fleet_timeouts"
+    ]
+  },
+  "wiring_drain": {
+    "audited": 150,
+    "new": 0,
+    "coverage": "3579/3579",
+    "orphans_total": 60,
+    "flips": [],
+    "orphans_sample": [
+      "execution:ad_vo_script_gate.py",
+      "execution:agent_arsenal_router_audit.py",
+      "execution:agent_upgrader.py",
+      "execution:ai_misfire_sprint_guard.py",
+      "execution:antigravity_global_access.py",
+      "execution:audit_extraction_integrity.py",
+      "execution:backfill_paper_bets.py",
+      "execution:backfill_voice_rules.py"
+    ]
+  }
+}

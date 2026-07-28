@@ -1,12 +1,12 @@
 # Knowledge Briefing
-*Generated: 2026-07-28 | 753 sources | 2,906,165 words*
+*Generated: 2026-07-28 | 753 sources | 2,906,299 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
-- **index** (content) — 5,104 words — `knowledge/index.md`
-- **log** (general) — 15,308 words — `knowledge/log.md`
+- **index** (content) — 5,143 words — `knowledge/index.md`
+- **log** (general) — 15,403 words — `knowledge/log.md`
 - **blind-pass-log** (content) — 79 words — `extractions/hilary-gridley/blind-pass-log.md`
 - **blind-pass-sample** (systems) — 669 words — `extractions/hilary-gridley/blind-pass-sample.md`
 - **extraction** (content [kieran-flanagan]) — 3,747 words — `extractions/hilary-gridley/extraction.md`

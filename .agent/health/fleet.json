@@ -1,0 +1,166 @@
+{
+  "timestamp": "2026-07-28T09:31:23.697619",
+  "summary": {
+    "total_findings": 19,
+    "by_classification": {
+      "PROVEN": 18,
+      "SUMMARY": 1
+    },
+    "tier_summaries": {
+      "loop-integrity": {
+        "total": 18,
+        "summary": {
+          "PROVEN": 18
+        }
+      },
+      "core-surface": {
+        "total": 1,
+        "summary": {
+          "total_findings": 1,
+          "aligned": 0,
+          "underloaded": 0,
+          "orphan": 0
+        }
+      }
+    }
+  },
+  "findings": [
+    {
+      "tier": "loop-integrity",
+      "classification": "PROVEN",
+      "job": "com.antigravity.evolution-auto",
+      "path": "/Users/farricecain/Library/LaunchAgents/com.antigravity.evolution-auto.plist",
+      "schedule": "daily 07:00",
+      "script": "evolution_orchestrator.py auto",
+      "status": "loaded",
+      "message": "Launchd job com.antigravity.evolution-auto: loaded"
+    },
+    {
+      "tier": "loop-integrity",
+      "classification": "PROVEN",
+      "job": "com.antigravity.harvest-memory-daily",
+      "path": "/Users/farricecain/Library/LaunchAgents/com.antigravity.harvest-memory-daily.plist",
+      "schedule": "07:40",
+      "script": "harvest-memory-daily",
+      "status": "loaded",
+      "message": "Launchd job com.antigravity.harvest-memory-daily: loaded"
+    },
+    {
+      "tier": "loop-integrity",
+      "classification": "PROVEN",
+      "job": "com.antigravity.distill-weekly",
+      "path": "/Users/farricecain/Library/LaunchAgents/com.antigravity.distill-weekly.plist",
+      "schedule": "Sun 04:00",
+      "script": "distill-weekly",
+      "status": "loaded",
+      "message": "Launchd job com.antigravity.distill-weekly: loaded"
+    },
+    {
+      "tier": "loop-integrity",
+      "classification": "PROVEN",
+      "job": "com.antigravity.mirror-nightly",
+      "path": "/Users/farricecain/Library/LaunchAgents/com.antigravity.mirror-nightly.plist",
+      "schedule": "nightly ~02:00",
+      "script": "mirror_notion.py",
+      "status": "loaded",
+      "message": "Launchd job com.antigravity.mirror-nightly: loaded"
+    },
+    {
+      "tier": "loop-integrity",
+      "classification": "PROVEN",
+      "job": "com.antigravity.health-metrics",
+      "path": "/Users/farricecain/Library/LaunchAgents/com.antigravity.health-metrics.plist",
+      "schedule": "daily",
+      "script": "health_metrics.py",
+      "status": "loaded",
+      "message": "Launchd job com.antigravity.health-metrics: loaded"
+    },
+    {
+      "tier": "loop-integrity",
+      "classification": "PROVEN",
+      "step": "step_archive_session_state",
+      "message": "Spine step step_archive_session_state declared and defined"
+    },
+    {
+      "tier": "loop-integrity",
+      "classification": "PROVEN",
+      "step": "step_artifact_sweep",
+      "message": "Spine step step_artifact_sweep declared and defined"
+    },
+    {
+      "tier": "loop-integrity",
+      "classification": "PROVEN",
+      "step": "step_closeout_intelligence",
+      "message": "Spine step step_closeout_intelligence declared and defined"
+    },
+    {
+      "tier": "loop-integrity",
+      "classification": "PROVEN",
+      "step": "step_commit_gate",
+      "message": "Spine step step_commit_gate declared and defined"
+    },
+    {
+      "tier": "loop-integrity",
+      "classification": "PROVEN",
+      "step": "step_cos_journal",
+      "message": "Spine step step_cos_journal declared and defined"
+    },
+    {
+      "tier": "loop-integrity",
+      "classification": "PROVEN",
+      "step": "step_finalize_debt_nudge",
+      "message": "Spine step step_finalize_debt_nudge declared and defined"
+    },
+    {
+      "tier": "loop-integrity",
+      "classification": "PROVEN",
+      "step": "step_friction_nudge",
+      "message": "Spine step step_friction_nudge declared and defined"
+    },
+    {
+      "tier": "loop-integrity",
+      "classification": "PROVEN",
+      "step": "step_memory_bridge",
+      "message": "Spine step step_memory_bridge declared and defined"
+    },
+    {
+      "tier": "loop-integrity",
+      "classification": "PROVEN",
+      "step": "step_menu_parity",
+      "message": "Spine step step_menu_parity declared and defined"
+    },
+    {
+      "tier": "loop-integrity",
+      "classification": "PROVEN",
+      "step": "step_resolve_handoff",
+      "message": "Spine step step_resolve_handoff declared and defined"
+    },
+    {
+      "tier": "loop-integrity",
+      "classification": "PROVEN",
+      "step": "step_self_heal",
+      "message": "Spine step step_self_heal declared and defined"
+    },
+    {
+      "tier": "loop-integrity",
+      "classification": "PROVEN",
+      "step": "step_session_guide",
+      "message": "Spine step step_session_guide declared and defined"
+    },
+    {
+      "tier": "loop-integrity",
+      "classification": "PROVEN",
+      "step": "step_solution_cards",
+      "message": "Spine step step_solution_cards declared and defined"
+    },
+    {
+      "tier": "core-surface",
+      "classification": "SUMMARY",
+      "sessions_audited": 36,
+      "aligned": 0,
+      "underloaded": 0,
+      "orphan": 0,
+      "message": "Core-surface audit: 0 aligned, 0 underloaded, 0 orphan"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "timestamp": "2026-07-28T09:25:40.949234",
+  "summary": {
+    "fixed": 0,
+    "skipped": 0,
+    "manual": 0,
+    "error": 0
+  },
+  "processed_count": 1,
+  "results": [
+    {
+      "status": "info",
+      "message": "No orphans in backlog"
+    }
+  ]
+}

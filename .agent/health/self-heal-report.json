@@ -1,18 +1,65 @@
 {
- "ts": "2026-07-28T08:32:21.254221",
+ "ts": "2026-07-28T09:40:00.524580",
  "mode": "report",
  "rows": [
-  {
-   "id": "stale_slash_commands",
-   "cls": "JUDGMENT",
-   "what": "826 workflows missing from SLASH_COMMANDS.md, and the generator cannot fix it: `generate_slash_commands.py --check` reports 2,398 to append but main() writes almost nothing \u2014 a generator bug",
-   "fix": "debug the append region in execution/generate_slash_commands.py"
-  },
   {
    "id": "platform_drift",
    "cls": "JUDGMENT",
    "what": "2 constitution/portability drift \u2014 platform_compiler reports siblings out of sync; the write-mode fix is deliberately not automated (it rewrites constitution files)",
    "fix": "python3 execution/platform_compiler.py sync   # review the diff first"
+  },
+  {
+   "id": "wiring_orphans",
+   "cls": "JUDGMENT",
+   "what": "60 asset(s) with NO provable firing path (execution: 60) \u2014 e.g. ad_vo_script_gate.py, agent_arsenal_router_audit.py, agent_upgrader.py, ai_misfire_sprint_guard.py",
+   "fix": "python3 execution/wiring_audit.py status   # wire it, or archive it deliberately",
+   "detail": {
+    "orphans": [
+     "execution:ad_vo_script_gate.py",
+     "execution:agent_arsenal_router_audit.py",
+     "execution:agent_upgrader.py",
+     "execution:ai_misfire_sprint_guard.py",
+     "execution:antigravity_global_access.py",
+     "execution:audit_extraction_integrity.py",
+     "execution:backfill_paper_bets.py",
+     "execution:backfill_voice_rules.py",
+     "execution:backtest.py",
+     "execution:claude_export_consolidate.py",
+     "execution:claude_export_ingest.py",
+     "execution:claude_export_state.py",
+     "execution:client_package_lint.py",
+     "execution:codex_live_surface_quarantine_plan.py",
+     "execution:confidence_variant.py",
+     "execution:cos_board_cast.py",
+     "execution:cos_reminders.py",
+     "execution:design_md_extract.py",
+     "execution:e3_assemble.py",
+     "execution:extract_book_insights.py",
+     "execution:extract_publishable_sections.py",
+     "execution:generate_agent_stacking_registry.py",
+     "execution:generate_cheat_sheet.py",
+     "execution:generate_council_report.py",
+     "execution:generate_fladlien_addons.py",
+     "execution:generate_invocation_cards.py",
+     "execution:generate_mes_extraction.py",
+     "execution:genius_compressor.py",
+     "execution:genius_enricher.py",
+     "execution:google_operator_core_parity_manifest.py",
+     "execution:hooks/apify_mcp_bootstrap.py",
+     "execution:hooks/enforce_trial.py",
+     "execution:hybrid_content_zeitgeist_radar.py",
+     "execution:install_codex_dynamic_workflow_global.py",
+     "execution:intake_extraction.py",
+     "execution:md_to_docx.py",
+     "execution:measure_injection.py",
+     "execution:memory_selector.py",
+     "execution:merge_transcripts.py",
+     "execution:paths.py"
+    ],
+    "by_class": {
+     "execution": 60
+    }
+   }
   },
   {
    "id": "verify_born_intent_drift.py",
@@ -37,6 +84,12 @@
    "cls": "JUDGMENT",
    "what": "workflow_router no longer ranks /steering-compass top-3 \u2014 the command corpus outgrew the ranking, not a broken workflow. Fix is demoting long-tail entries (routing: long-tail), which is a taste call.",
    "fix": "python3 execution/verify_steering_compass.py"
+  },
+  {
+   "id": "verify_system.py",
+   "cls": "JUDGMENT",
+   "what": "verify_system.py is red in the 1d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "fix": "python3 execution/verify_system.py   # then re-run verify_fleet.py"
   },
   {
    "id": "verify_system_control_plane.py",

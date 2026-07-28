@@ -472,6 +472,11 @@ _CC_MODE_CARDS = {
 
 def _cc_prompt_block(session_id: str, prompt: str, count: int) -> str:
     """Assemble mode card + spiral brake; update rejection state. Never raises."""
+    # Slash/system commands already name their route — a mode card is redundant
+    # and the brake is noise there (live-fire calibration, first firing was on
+    # /end-session). Bare-name workflow invocations still pass through.
+    if prompt.strip().startswith(("/", "@")):
+        return ""
     renditions = _cc_renditions(session_id)
     is_feedback = _cc_feedback(prompt, renditions)
 
