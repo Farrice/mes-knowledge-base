@@ -1,12 +1,12 @@
 # Knowledge Briefing
-*Generated: 2026-07-28 | 753 sources | 2,906,299 words*
+*Generated: 2026-07-28 | 754 sources | 2,908,177 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
 - **index** (content) — 5,143 words — `knowledge/index.md`
-- **log** (general) — 15,403 words — `knowledge/log.md`
+- **log** (general) — 15,427 words — `knowledge/log.md`
 - **blind-pass-log** (content) — 79 words — `extractions/hilary-gridley/blind-pass-log.md`
 - **blind-pass-sample** (systems) — 669 words — `extractions/hilary-gridley/blind-pass-sample.md`
 - **extraction** (content [kieran-flanagan]) — 3,747 words — `extractions/hilary-gridley/extraction.md`
@@ -14,7 +14,7 @@
 - **todays-managers-will-decide-what** (content) — 568 words — `extractions/hilary-gridley/reference-corpus/todays-managers-will-decide-what.md`
 - **vision** (content) — 999 words — `extractions/hilary-gridley/vision.md`
 - **visual-context** (strategy [april-dunford]) — 504 words — `extractions/hilary-gridley/visual-context.md`
-- **2026-07-27-pulse** (strategy) — 1,148 words — `research_outputs/market-pulse/2026-07-27-pulse.md`
+- **2026-07-28-graph-engineering-deep-research** (seo) — 1,854 words — `research_outputs/2026-07-28-graph-engineering-deep-research.md`
 
 ## Domain Coverage
 
@@ -27,7 +27,7 @@
 | screenwriting | 54 | connelly |
 | brand | 50 | oren-john |
 | systems | 44 | nick-saraev |
-| seo | 26 | nathan-gotch |
+| seo | 27 | nathan-gotch |
 | research | 24 | dai-media |
 | sales | 11 | dai-media |
 

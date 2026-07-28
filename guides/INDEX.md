@@ -10,6 +10,12 @@
 
 | I want to… | Go to |
 |---|---|
+| **Feedback loop + rendition control (Co-Creation Layer + Pen Protocol)** | |
+| Understand why the reply names a MODE / how to override it (`mode X`) | [Co-Creation Layer + Pen Protocol](2026-07-28-about-rebuild-ship.md) |
+| Know what the 🛑 SPIRAL BRAKE means and the three allowed moves | [Co-Creation Layer + Pen Protocol](2026-07-28-about-rebuild-ship.md) |
+| Run a draft through the writers-room without committee-editing it flat | [Co-Creation Layer + Pen Protocol](2026-07-28-about-rebuild-ship.md) |
+| Silence or health-check the always-on layer (`.agent/co-creation.off`) | [Co-Creation Layer + Pen Protocol](2026-07-28-about-rebuild-ship.md) |
+| Wire a counter to any doctrine that keeps getting violated | [Co-Creation Layer + Pen Protocol](2026-07-28-about-rebuild-ship.md) |
 | **Predict buyer response / fuse two experts into one asset (Crossings + Buyer Council)** | |
 | Get predicted buyer verdicts on any artifact (offer, concept, content, GTM plan) | [Antigravity Crossings](2026-07-27-crossing-waves.md) |
 | Ground simulated personas in real market voice when you have no transcripts | [Antigravity Crossings](2026-07-27-crossing-waves.md) |
@@ -156,6 +162,8 @@
 ## Chronology
 
 *(newest first)*
+
+- 2026-07-28 — [Co-Creation Layer + Pen Protocol](2026-07-28-about-rebuild-ship.md) — made the feedback loop physical after two documented spiral sessions (headline ×8, About v10→v14): **Co-Creation Enforcement Layer** in `steering_loop_hook.py` (spiral brake at 2 rejections/3 renditions from ledger-derived state, feedback-turn protocol forcing restate→ask→ratchet→ONE take, work-mode front door classifying raw prompts into 5 operating modes with `mode X` override; 8-case bench + live fire, slash-command over-firing gated same session). **Pen Protocol** binding in writers-room (one author writes, room critiques pass/fail — ensemble edits, author writes). Root rule: *a doctrine without a counter is a vibe*. Content side: About rebuilt reader-first into three CLEAN takes (Mirror/Aisle/Decision) + VOICE-CARD 1.2 (named-place, payoff punch, heat-in-nouns) + 12 verdicts ratcheted. About pick, headline, and teardown sends remain on Farrice
 
 - 2026-07-27 — [Antigravity Crossings — Waves 2+3 & Buyer Council OS](2026-07-27-crossing-waves.md) — revived the crossing pattern (design-time fusion of two experts; runtime orchestration mixes but is forbidden to blend) and shipped **9 new crossings** across two waves, each PoC-proven on a live artifact. Codified the 3-leg compilation rule (recurrence · different contribution slots · runtime-loss), with forward-demand substituted openly for pools too young to have recurrence; 5 candidate pairings killed by the slot rule. Resurrected Farrice's buyer-panel premise — traced to **Mike Taylor** (O'Reilly *Prompt Engineering for Generative AI*, Marketing Against the Grain), which survived only as a single Recall card — into `/buyer-council` (TRIAGE + COUNCIL), standing roster `councils/buyers/`, and a **calibration ledger** that logs falsifiable predictions before reality lands. Watched-source Taylor forge (7 `/mt-*` wf) added the grounding ladder; Farrice's directive added **Tier 2.5 social-grounded** (auto gap-fill via `/social-listen`, $0 fallback, 45-day corpus expiry, first corpus = 26 receipted founder quotes). Machinery immediately operated on the live offer: founder-primary restage, make-right clauses both rungs, DM set; council retest flipped S1→SHIP and S3→SHIP-with-watch with clause citations. 9 finalizes, all PASS (8.33-8.67). **All 3 ledger predictions still pending — the panel has zero track record until Monday's DMs land**
 - 2026-07-27 — [Extract OS v3.0 — One Spine, One Dial](2026-07-27-extract-os.md) — elevated `/extract` to forge parity: derived manifests via new `extraction_manifest.py` (RICH ≥8k → 8-15 wf forced-Deep; MID 4-7; THIN honest + fidelity:low), auto-enrichment of thin sources from the same expert (≤4 free sources), forge-scale Extension Mode (2-5 wf + ≥5 prompts), close-out asset scan. PoC same-session: Meg trust layer 1wf+1prompt → 4 workflows (/meg-micro-moments, /meg-trust-email-engine, /meg-community-voice, /meg-fan-flywheel) + 6 born-v2 prompts, skill v1.2 (16 wf), all gates clear. Enrichment discovery still untested live

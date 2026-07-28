@@ -14,7 +14,7 @@
                 "tyler-denk-audience-monetization": 1,
                 "lara-acosta-linkedin-mastery": 3,
                 "extract-mastery": 3,
-                "Research": 18,
+                "Research": 19,
                 "luke-iha-vsl-leads": 7,
                 "sean-dollwet-kdp-publishing": 2,
                 "paul-james-ai-automation": 1,
@@ -103,7 +103,7 @@
                 "kallaway-illusion-of-novelty": 2,
                 "claim-safe-health-marketing": 2,
                 "diandra-escobar-linkedin-mastery": 1,
-                "riley-brown-marketing-automation": 1,
+                "riley-brown-marketing-automation": 2,
                 "alex-content-science": 1,
                 "cardinal-mason-ai-copywriting": 1,
                 "april-dunford-positioning": 1,
@@ -112,9 +112,9 @@
                 "lamott-allen-really-real-writing": 1,
                 "nick-saraev-bottleneck-thinking": 1
             },
-            "total_routings": 700,
+            "total_routings": 702,
             "tier_counts": {
-                "0": 700,
+                "0": 702,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -124,8 +124,8 @@
             "mode_counts": {
                 "output": 0,
                 "expertise": 0,
-                "hybrid": 412,
-                "finalize-auto": 288
+                "hybrid": 413,
+                "finalize-auto": 289
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -141,7 +141,7 @@
                 "ali-abdaal-action-bias": 7,
                 "skill-creator": 4,
                 "jen-santulan-listing-content": 35,
-                "deep-research": 10,
+                "deep-research": 11,
                 "system-orchestrator": 3,
                 "David Placek": 1,
                 "mcp-builder": 1,
@@ -302,7 +302,7 @@
                 "tobias-allen": 1,
                 "knowledge-architecture-studio": 2,
                 "mark-kashef": 2,
-                "chief-of-staff-os": 18,
+                "chief-of-staff-os": 19,
                 "oren-brand-archetypes": 3,
                 "master-copywriter": 3,
                 "henry-shukman-contemplative-writing": 4,
@@ -353,7 +353,7 @@
                 "futurepedia-prompt-engineering": 1,
                 "april-dunford-x-jeremy-haynes": 1,
                 "geoff-woods-x-mike-taylor": 3,
-                "mike-taylor-synthetic-research": 3,
+                "mike-taylor-synthetic-research": 4,
                 "mike-taylor": 2,
                 "rory-sutherland-marketing": 1,
                 "kallaway-x-april-dunford": 1,
@@ -399,7 +399,7 @@
                 "Eugene Teo": 1,
                 "Mark Kashef": 4,
                 "diandra-escobar-linkedin-mastery": 5,
-                "riley-brown-marketing-automation": 1,
+                "riley-brown-marketing-automation": 2,
                 "cardinal-mason-ai-copywriting": 1,
                 "noah-hawley-storytelling-mastery": 1,
                 "farrice-voice-os": 1,
@@ -414,7 +414,7 @@
             },
             "total_feedback": 93,
             "negative_count": 0,
-            "ensemble_count": 515,
+            "ensemble_count": 517,
             "auto_miss_count": 74,
             "positive_count": 0
         }
@@ -13960,6 +13960,42 @@
             "workflow_used": "none",
             "ensemble": false,
             "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260728_195958_4736",
+            "timestamp": "2026-07-28T19:59:58.340283+00:00",
+            "session_id": "",
+            "request_summary": "Graph-engineering vetted deep research: 41-source hype audit (term=joke coinage w/ fabricated Anthropic attribution, predates Opus 5), substance benchmarks (graphs=compression not accuracy), 4-bucket ",
+            "intent_score": 9,
+            "domain_detected": "Research",
+            "experts_deployed": [
+                "deep-research"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "deep-research",
+            "ensemble": true,
+            "compound_pairing": null,
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260728_200047_b6c6",
+            "timestamp": "2026-07-28T20:00:47.991449+00:00",
+            "session_id": "d0dc8b73-36d6-48cc-9b31-4bf3a7ffc3eb",
+            "request_summary": "Fallback heartbeat: check on graph-engineering research mission — foundation task bv0xn2n6u and 3 specialist agents should have completed and notified; if notifications arrived, proceed to synthesis p",
+            "intent_score": 0,
+            "domain_detected": "riley-brown-marketing-automation",
+            "experts_deployed": [
+                "riley-brown-marketing-automation",
+                "chief-of-staff-os",
+                "mike-taylor-synthetic-research"
+            ],
+            "tier_loaded": 0,
+            "mode": "hybrid",
+            "workflow_used": "riley-brown-marketing-automation",
+            "ensemble": true,
+            "compound_pairing": "riley-brown-marketing-automation + chief-of-staff-os + mike-taylor-synthetic-research",
             "feedback": null
         }
     ]

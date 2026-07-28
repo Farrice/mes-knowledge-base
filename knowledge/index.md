@@ -1,5 +1,5 @@
 # Knowledge Index
-*753 sources | 2,906,299 words | Updated: 2026-07-28*
+*754 sources | 2,908,177 words | Updated: 2026-07-28*
 
 ---
 
@@ -396,7 +396,7 @@
 - [Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2](extractions/inbox/Claude-💎💎✍️ Dan Wang ! Why Millions of Americans Love His Writing on China pt.2.md) — 21,945 words (stale)
 - [video-context-ledger](../extractions/video-context/ohKt066uFhg/video-context-ledger.md) — 20,273 words
 - [video-context-ledger](../extractions/video-context/FD53kEpLh9c/video-context-ledger.md) — 16,487 words
-- [log](log.md) — 15,403 words
+- [log](log.md) — 15,427 words
 - [01-extraction-report](../extractions/chase-hughes/_forge-output/01-extraction-report.md) — 7,098 words
 - [weatherbot-source](../extractions/prediction-market-trading/raw-sources/weatherbot-source.md) — 7,035 words (stale)
 - [video-context-ledger](../extractions/meg-heckman/video-context-7MNa2YTPGs4/video-context-ledger.md) — 5,745 words
@@ -716,12 +716,13 @@
 - [blind-pass-log](../extractions/ray-amjad-agentic-ladder/blind-pass-log.md) [nick-saraev] — 83 words
 - [blind-pass-log](../extractions/jenny-hoyos/blind-pass-log.md) — 60 words
 
-## Seo (26 files)
+## Seo (27 files)
 
 - [ethan-smith-aeo-extraction-report](../extractions/ethan-smith/ethan-smith-aeo-extraction-report.md) [nathan-gotch] — 3,441 words (stale)
 - [human_values_collective_profile](../research_outputs/human_values_collective_profile.md) — 2,767 words (stale)
 - [notion-cinema-claude-skills-v3](../extractions/joey-cinema/notion-cinema-claude-skills-v3.md) — 2,211 words
 - [research-karpathy-wiki-architecture](../research_outputs/research-karpathy-wiki-architecture.md) — 1,879 words (stale)
+- [2026-07-28-graph-engineering-deep-research](../research_outputs/2026-07-28-graph-engineering-deep-research.md) — 1,854 words
 - [ai_chris_lee](../research_outputs/ai_authority_architect_agents/ai_chris_lee.md) — 1,534 words
 - [extraction_report](../extractions/matthew-berman/extraction_report.md) — 1,163 words (stale)
 - [sample-002](expert-benchmarks/seo/sample-002.md) [nathan-gotch] — 1,119 words (stale)

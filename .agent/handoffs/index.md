@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-28** [research-outputs/active] [Research Outputs — Graph Engineering Deep Research](2026-07-28-research-outputs.md) — Research Outputs — Graph Engineering Deep Research
 - **2026-07-28** [about-rebuild-ship/ready] [LinkedIn Launch — About Rebuild v2 (Three Takes + Co-Creation Layer)](2026-07-28-about-rebuild-ship.md) — Gut-pick one of three About takes, /voice-compile, headline, ship profile, send teardown #1
 - **2026-07-28** [opus5-adaptation-layer/ready] [Opus 5 Adaptation Layer — Model-Dialect Resilience v2 (injector + dead-channel layer SHIPPED)](2026-07-28-opus5-adaptation-layer.md) — Triage 66 execution orphans (wire/archive/bless), then probe Fable 5 for claude-fable-5.md dialect card
 - **2026-07-28** [writers-room/active] [LinkedIn About rebuild: v12/v13/v14 treatments + reader-first architecture ruling + three distinct About takes (Mirror/Aisle/Decision), all classifier-CLEAN, ICP-grounded from wellness-supplement-brand-niche docs; 12 felt verdicts ratcheted; VOICE-CARD 1.1->1.2](2026-07-28-writers-room.md) — LinkedIn About rebuild: v12/v13/v14 treatments + reader-first architecture ruling + three distinct About takes (Mirror/Aisle/Decision), all classifier-CLEAN, ICP-grounded from wellness-supplement-brand-niche docs; 12 felt verdicts ratcheted; VOICE-CARD 1.1->1.2

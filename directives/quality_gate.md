@@ -108,8 +108,8 @@ Rotate these phrasings across benchmark scoring runs to detect variants that opt
 
 | Field | Value |
 |-------|-------|
-| **Last Activated** | 2026-07-28 (chain_runner finalize for none) |
-| **Activation Count** | 751 |
+| **Last Activated** | 2026-07-28 (chain_runner finalize for deep-research-os) |
+| **Activation Count** | 752 |
 | **30-Day Review Date** | 2026-08-27 |
 
 *Created: 2026-02-17 | Compressed: 2026-04-13*
