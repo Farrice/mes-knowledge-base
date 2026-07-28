@@ -56,3 +56,58 @@ The classification is the whole idea: AUTO = fix silently · EVIDENCE = git alre
 ## Pointers
 
 Solution Cards: `docs/solutions/2026-07-27-verification-with-no-reader.md` · `2026-07-27-every-failure-defaults-to-the-human.md`. Handoff: `.agent/handoffs/2026-07-28-opus5-adaptation-layer.md` (next mission: bound injector + dead-channel detector, Fable seat).
+
+---
+
+# Part 2 — Model-Dialect Adaptation Layer (built 2026-07-28, Fable seat)
+
+> **The 10-line payload.** Model releases used to cost weeks because the model's
+> quirks were absorbed by prose nobody executes. Now: (1) every prompt, the **bound
+> injector** reads the ACTIVE model's dialect card and injects what that model won't
+> infer — hold-a-stated-length, scope = the ask, the negative subagent brief —
+> calibrated to your exemplars, never a number table. Your explicit bounds always
+> win. A model swap = probe it, write one card; the hook never changes. (2) The
+> **dead-channel layer** proves every asset has a firing path: five detectors in
+> self_heal (hooks, launchd, feeds, core-surface, wiring orphans) + a full-asset
+> ratchet that drained the 3,579-asset backlog on day one (66 orphans, all
+> execution-class). Findings land where you already look: session-open pending
+> decisions and /cos. Nothing blocks; nothing is ever deleted.
+
+## Commands
+
+| What | Command |
+|---|---|
+| Wiring coverage + orphan counts | `python3 execution/wiring_audit.py status` |
+| Audit one asset right now | `python3 execution/wiring_audit.py check <path>` |
+| Manual deep drain | `python3 execution/wiring_audit.py drain --batch 400` |
+| All findings, classified | `python3 execution/self_heal.py report` |
+| Layer health (3 suites) | `verify_dialect_injector.py` · `verify_dead_channels.py` · `verify_wiring_audit.py` |
+| Injector kill switch | `DIALECT_INJECTOR_OFF=1` or `touch .agent/dialect-injector.off` |
+
+## Mental model
+
+- **Injector** (steering_loop_hook.py, UserPromptSubmit — fires every exchange):
+  classifies the ask (deliverable / conversational), resolves the active model
+  (payload → env → transcript → cache → default seat), injects that model's pathology
+  corrections from the `machine-dialect` JSON block in
+  `directives/model-dialects/<model>.md`.
+- **Tier 1** (self_heal detectors, daily 06:00 + session close): declared wiring must
+  show *firing evidence* — artifact mtimes for hooks, log cadence for launchd, feed
+  freshness. Existence is the link path; these walk the fire path.
+- **Tier 2**: ≥3 sessions in 7 days shipping content deliverables with zero expert
+  loads fires the core-surface flag (ledger manifests; legacy ledgers = no verdict).
+- **Tier 3** (wiring_audit.py): every workflow/skill/agent/script needs a provable
+  invocation route (wrapper, SLASH registry, SKILL_INDEX, AGENT_INDEX, real
+  reference). Daily 150/day maintenance in `com.antigravity.daily-health-audit`;
+  weekly 400 in /weekly-closeout. Menu-parity wires new workflows at write time.
+
+## Honest edges
+
+- Ten hooks are **unobservable by design** (print-only/conditional, e.g. cost_gate) —
+  exempted with reasons in `self_heal.HOOK_UNOBSERVABLE`. An unmapped NEW hook flags
+  until mapped or exempted; that asymmetry keeps the map complete.
+- The injector is **silent for unprobed models** (e.g. this Fable seat until a Fable
+  card exists) — honest silence beats wrong corrections.
+- Orphan triage is yours: wire it or archive it deliberately, in /weekly-closeout.
+- Merge history (two concurrent sessions, one tree):
+  `docs/solutions/2026-07-28-opus5-adaptation-bound-injector.md` § MERGE OUTCOME.

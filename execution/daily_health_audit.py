@@ -1,23 +1,23 @@
 #!/usr/bin/env python3
-"""daily_health_audit.py — Daily health ratchet (runs ~150 assets/day to full backlog in ~1 month).
+"""daily_health_audit.py — the daily dead-channel drain (06:00, launchd
+com.antigravity.daily-health-audit).
 
-Combines Tier 1 (loop-integrity) and Tier 2 (core-surface) audits to gradually
-verify all declared wiring and all skill/workflow registry entries.
+Rewired 2026-07-28 (merge of two same-day builds; commit message has the
+history). This is a thin orchestrator — detection logic lives where it is
+surfaced and verified:
 
-Tiers:
-  Tier 1: System-level wiring (hooks, launchd, spine, commands)
-          - verify_loop_integrity.py (always runs, fixed cost)
-  Tier 2: Session ledgers + core-surface alignment
-          - verify_core_surface.py (always runs, incremental per session)
-  Tier 3: Asset-level inventory checks (future)
-          - Batch process: skills, workflows, directives, etc.
-          - Run ~150 assets/day to cover ~1,200 skills in 8 days, ~990 workflows in 7 days
+  Tiers 1+2  execution/self_heal.py `report` — dead_hooks, dead_launchd,
+             stale_feeds, core_surface_bypass, wiring_orphans (+ the original
+             healers' detectors). Its report cache is what pending_decisions_
+             hook (session open) and /cos read, so a finding here lands in a
+             channel with a PROVEN reader — never a log nobody opens.
+  Tier 3     execution/wiring_audit.py `drain` — the full-asset firing-path
+             ratchet (~150/day maintenance; backlog fully drained 2026-07-28).
 
-Exit: always 0 (audit-only, never blocks)
-Writes: .agent/health/daily-audit.json
-Scheduled: daily via launchd com.antigravity.daily-health-audit (06:00 AM)
-
-Design: runs fast system checks (Tier 1) always. Tier 2 incremental. Tier 3 future.
+Read-only + report-only: nothing deleted, nothing blocked (compass doctrine).
+Exit 0 always. Writes .agent/health/daily-audit.json (cadence evidence for
+detect_dead_launchd) — and stdout, so launchd creates the log this job's own
+detector checks.
 """
 
 import json
@@ -26,133 +26,49 @@ import sys
 from datetime import datetime
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
-HEALTH_DIR = REPO_ROOT / ".agent/health"
-OUTPUT_JSON = HEALTH_DIR / "daily-audit.json"
-AUDIT_STATE = HEALTH_DIR / "daily-audit-state.json"
+ROOT = Path(__file__).resolve().parents[1]
+OUT = ROOT / ".agent" / "health" / "daily-audit.json"
+PY = sys.executable
+DRAIN_BATCH = "150"  # pinned; weekly-closeout runs its own deeper pass
 
 
-class DailyHealthAudit:
-    """Orchestrates daily health checks across all tiers."""
-
-    def __init__(self):
-        self.timestamp = datetime.now().isoformat()
-        self.findings = []
-        self.state = self._load_state()
-
-    def _load_state(self):
-        """Load audit progress state (last asset checked, etc.)"""
-        if AUDIT_STATE.exists():
-            try:
-                return json.loads(AUDIT_STATE.read_text())
-            except Exception:
-                pass
-        return {
-            "last_run": None,
-            "assets_checked_total": 0,
-            "last_asset_batch": 0,
-            "tier1_pass": False,
-            "tier2_pass": False,
-        }
-
-    def _save_state(self):
-        """Persist audit progress state"""
-        HEALTH_DIR.mkdir(parents=True, exist_ok=True)
-        AUDIT_STATE.write_text(json.dumps(self.state, indent=2))
-
-    def run_tier1_loop_integrity(self):
-        """Run Tier 1: System-level wiring checks (loop-integrity)."""
-        try:
-            result = subprocess.run(
-                [sys.executable, str(REPO_ROOT / "execution/verify_loop_integrity.py")],
-                capture_output=True,
-                text=True,
-                timeout=30,
-            )
-
-            # Tier 1 exit code: 0 = pass, >0 = findings found (but not failing)
-            self.state["tier1_pass"] = result.returncode == 0
-
-            self.findings.append({
-                "tier": 1,
-                "name": "loop_integrity",
-                "status": "pass" if result.returncode == 0 else "findings",
-                "exit_code": result.returncode,
-                "output": result.stdout[:500] if result.stdout else "",
-            })
-            return result.returncode == 0
-        except Exception as e:
-            self.findings.append({
-                "tier": 1,
-                "name": "loop_integrity",
-                "status": "error",
-                "message": str(e),
-            })
-            return False
-
-    def run_tier2_core_surface(self):
-        """Run Tier 2: Skill load vs deliverable surface checks."""
-        try:
-            result = subprocess.run(
-                [sys.executable, str(REPO_ROOT / "execution/verify_core_surface.py")],
-                capture_output=True,
-                text=True,
-                timeout=30,
-            )
-
-            self.state["tier2_pass"] = result.returncode == 0
-
-            self.findings.append({
-                "tier": 2,
-                "name": "core_surface",
-                "status": "pass" if result.returncode == 0 else "findings",
-                "exit_code": result.returncode,
-                "output": result.stdout[:500] if result.stdout else "",
-            })
-            return result.returncode == 0
-        except Exception as e:
-            self.findings.append({
-                "tier": 2,
-                "name": "core_surface",
-                "status": "error",
-                "message": str(e),
-            })
-            return False
-
-    def write_report(self):
-        """Write daily audit results to .agent/health/daily-audit.json"""
-        HEALTH_DIR.mkdir(parents=True, exist_ok=True)
-
-        report = {
-            "timestamp": self.timestamp,
-            "state": self.state,
-            "tiers_run": [1, 2],  # Future: extend to 3
-            "findings": self.findings,
-            "next_run": "Tomorrow 06:00 (scheduled via launchd)",
-        }
-
-        with open(OUTPUT_JSON, "w") as f:
-            json.dump(report, f, indent=2)
-
-        self.state["last_run"] = self.timestamp
-        self._save_state()
-
-    def run(self):
-        """Execute daily audit (Tier 1 + 2)."""
-        tier1_pass = self.run_tier1_loop_integrity()
-        tier2_pass = self.run_tier2_core_surface()
-
-        self.write_report()
-
-        # Exit 0 (never block), but report findings
-        return 0
+def _run(args: list[str], timeout: int = 600) -> tuple[int, str]:
+    try:
+        r = subprocess.run([PY] + args, capture_output=True, text=True,
+                           timeout=timeout, cwd=str(ROOT))
+        return r.returncode, (r.stdout or "")
+    except Exception as e:  # noqa: BLE001 — audit must finish and report
+        return -1, f"{type(e).__name__}: {e}"
 
 
-def main():
-    audit = DailyHealthAudit()
-    exit_code = audit.run()
-    sys.exit(exit_code)
+def main() -> int:
+    report = {"timestamp": datetime.now().isoformat()}
+
+    rc, out = _run([str(ROOT / "execution" / "self_heal.py"), "report", "--json"])
+    try:
+        rows = json.loads(out)
+    except ValueError:
+        rows = []
+    report["self_heal"] = {"exit": rc, "findings": len(rows) if isinstance(rows, list) else -1,
+                           "ids": [r.get("id") for r in rows][:12] if isinstance(rows, list) else []}
+
+    rc, out = _run([str(ROOT / "execution" / "wiring_audit.py"), "drain",
+                    "--batch", DRAIN_BATCH])
+    try:
+        drain = json.loads(out)
+    except ValueError:
+        drain = {"error": out[:200]}
+    report["wiring_drain"] = drain
+
+    OUT.parent.mkdir(parents=True, exist_ok=True)
+    OUT.write_text(json.dumps(report, indent=2))
+    # stdout -> launchd StandardOutPath -> the log detect_dead_launchd reads.
+    print(json.dumps({"daily_health_audit": report["timestamp"],
+                      "findings": report["self_heal"]["findings"],
+                      "wiring": drain.get("coverage") or drain.get("error", "?"),
+                      "orphans": drain.get("orphans_total")}))
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

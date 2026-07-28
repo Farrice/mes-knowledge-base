@@ -386,12 +386,275 @@ def detect_platform_drift() -> dict | None:
         return None
 
 
+# ──────────────────────────────────────────────────────────────────
+# dead-channel detectors — tiers 1+2 of the Model-Dialect Adaptation
+# Layer (2026-07-28). An asset is real only when a hook, launchd job, or
+# spine step provably FIRES; existence is the link path, these walk the
+# FIRE path (docs/solutions/2026-07-21-wired-but-never-loaded-prompts.md
+# — /aar sat reachable-but-never-fired for 115 days). Classify-only:
+# report with a diagnosis, never block (compass doctrine).
+# ──────────────────────────────────────────────────────────────────
+# Registered hook script -> (firing-evidence path or glob rel ROOT, max age
+# days). Every mapping VERIFIED against live mtimes 2026-07-28 — a wrong
+# mapping mints false REDs, which kill trust as fast as false greens.
+HOOK_EVIDENCE = {
+    "steering_loop_hook.py": (".agent/steering-loop-state.json", 7),
+    "session_ledger_hook.py": (".agent/sessions/ledger-*.json", 7),
+    "menu_parity_hook.py": (".agent/sessions/menu-parity.jsonl", 7),
+    "active_tool_lock.py": (".agent/active-tool.lock", 7),
+    "skill_router_hook.py": (".agent/sessions/solution-injections.jsonl", 14),
+    "mcp_spend_log_hook.py": (".agent/mcp-spend.jsonl", 14),
+}
+# Hooks that CANNOT be proven from an artifact, with the reason. An exempted
+# hook is a documented gap; an UNMAPPED hook is a finding — that asymmetry is
+# what keeps these maps complete as hooks get added.
+HOOK_UNOBSERVABLE = {
+    "cost_gate_hook.py": "fires only on paid-API Bash calls",
+    "block-dangerous-git.sh": "guard — blocks or passes, writes nothing",
+    "fleet_write_guard.py": "writes only while a fleet run is active",
+    "guard_stranded_deliverables.py": "writes only when restoring a stranded deliverable",
+    "artifact_placement_hook.py": "print-only nudge",
+    "prompt_menu_hook.py": "print-only injector (reads prompt-index.json)",
+    "divergence_alarm_hook.py": "print-only SessionStart alarm",
+    "concurrent_session_alarm.py": "print-only SessionStart alarm",
+    "pending_decisions_hook.py": "print-only SessionStart surface",
+    "session_end_hook.py": "SessionEnd — fires after ledgers close",
+}
+# Feed file -> (producer description, max age days; None = exists-only).
+FEED_FRESHNESS = {
+    ".agent/health/verify-fleet.json": ("Sunday verify-fleet launchd run", 9),
+    ".agent/health/self-heal-latest.json": ("session-close self-heal", 5),
+    ".agent/health/latest.json": ("daily health-metrics launchd run", 3),
+    "evolution_store/failure-registry.md": ("failure_learning (chronic-fail rules)", None),
+}
+LAUNCHD_DIR = Path.home() / "Library" / "LaunchAgents"
+LAUNCHD_PREFIX = "com.antigravity."
+# Sessions in the window where content shipped with zero expert loads before
+# the finding fires. Pinned — a test must never read this back.
+CORE_BYPASS_MIN_SESSIONS = 3
+CORE_BYPASS_WINDOW_DAYS = 7
+CONTENT_ROOTS = ("deliverables/", "_active/", "projects/", "strategy_briefs/",
+                 "research_outputs/", "products/")
+
+
+def _age_days(p: Path) -> float | None:
+    try:
+        return (datetime.now().timestamp() - p.stat().st_mtime) / 86400.0
+    except OSError:
+        return None
+
+
+def _newest_age_days(rel: str) -> float | None:
+    """Age of the newest match for a path-or-glob relative to ROOT."""
+    if any(ch in rel for ch in "*?["):
+        ages = [a for a in (_age_days(p) for p in ROOT.glob(rel)) if a is not None]
+        return min(ages) if ages else None
+    return _age_days(ROOT / rel)
+
+
+def _registered_hook_scripts() -> list[str]:
+    """Basenames of every hook command wired in .claude/settings.json."""
+    try:
+        s = json.loads((ROOT / ".claude" / "settings.json").read_text())
+    except (OSError, ValueError):
+        return []
+    out = []
+    for entries in (s.get("hooks") or {}).values():
+        for e in entries or []:
+            for h in (e.get("hooks") or []):
+                cmd = str(h.get("command", ""))
+                for tok in cmd.replace('"', " ").split():
+                    base = tok.rsplit("/", 1)[-1]
+                    if base.endswith((".py", ".sh")) and base not in out:
+                        out.append(base)
+    return out
+
+
+def detect_dead_hooks() -> dict | None:
+    problems, unmapped = [], []
+    for base in _registered_hook_scripts():
+        if base in HOOK_UNOBSERVABLE:
+            continue
+        if base not in HOOK_EVIDENCE:
+            unmapped.append(base)
+            continue
+        rel, max_d = HOOK_EVIDENCE[base]
+        age = _newest_age_days(rel)
+        if age is None:
+            problems.append(f"{base}: evidence artifact {rel} MISSING — hook may never fire")
+        elif age > max_d:
+            problems.append(f"{base}: last observable fire {age:.0f}d ago (max {max_d}d)")
+    if not problems and not unmapped:
+        return None
+    what = []
+    if problems:
+        what.append(f"{len(problems)} registered hook(s) with no recent firing evidence: "
+                    + "; ".join(problems[:3]))
+    if unmapped:
+        what.append(f"{len(unmapped)} hook(s) unmapped (add to HOOK_EVIDENCE or "
+                    f"HOOK_UNOBSERVABLE in self_heal.py): {', '.join(unmapped[:5])}")
+    return {"id": "dead_hooks", "cls": JUDGMENT, "what": " | ".join(what),
+            "fix": "python3 execution/self_heal.py report --json   # then check the named hook",
+            "detail": {"problems": problems, "unmapped": unmapped}}
+
+
+def _launchd_loaded_labels() -> set[str] | None:
+    """Labels currently loaded, or None when launchctl is unavailable."""
+    try:
+        r = _run(["launchctl", "list"], timeout=30)
+        if r.returncode != 0:
+            return None
+        return {ln.split("\t")[-1].strip() for ln in (r.stdout or "").splitlines()[1:]}
+    except Exception:
+        return None
+
+
+def detect_dead_launchd() -> dict | None:
+    import plistlib
+    loaded = _launchd_loaded_labels()
+    not_loaded, stale = [], []
+    try:
+        plists = sorted(LAUNCHD_DIR.glob(f"{LAUNCHD_PREFIX}*.plist"))
+    except OSError:
+        return None
+    for pl in plists:
+        try:
+            data = plistlib.loads(pl.read_bytes())
+        except Exception:
+            stale.append(f"{pl.name}: unparseable plist")
+            continue
+        label = str(data.get("Label") or pl.stem)
+        if loaded is not None and label not in loaded:
+            not_loaded.append(label)
+            continue
+        cal = data.get("StartCalendarInterval")
+        entries = cal if isinstance(cal, list) else ([cal] if cal else [])
+        weekly = any(isinstance(c, dict) and "Weekday" in c for c in entries)
+        max_d = 9 if weekly else 3
+        # Grace period: a plist younger than its own cadence window hasn't had
+        # a fair chance to fire yet (found live 2026-07-28 — daily-health-audit
+        # was installed at 09:27 and flagged before its first 06:00).
+        plist_age = _age_days(pl)
+        if plist_age is not None and plist_age < max_d:
+            continue
+        log = data.get("StandardOutPath") or data.get("StandardErrorPath")
+        if not log:
+            continue  # loaded and no log to check — nothing further provable
+        age = _age_days(Path(log))
+        if age is None:
+            stale.append(f"{label}: log {log} never written")
+        elif age > max_d:
+            stale.append(f"{label}: last ran {age:.0f}d ago (cadence allows {max_d}d)")
+    if not not_loaded and not stale:
+        return None
+    what = []
+    if not_loaded:
+        what.append(f"{len(not_loaded)} plist(s) on disk but NOT loaded: "
+                    + ", ".join(not_loaded[:4]))
+    if stale:
+        what.append(f"{len(stale)} job(s) loaded but not running on cadence: "
+                    + "; ".join(stale[:3]))
+    return {"id": "dead_launchd", "cls": JUDGMENT, "what": " | ".join(what),
+            "fix": ("launchctl load ~/Library/LaunchAgents/<label>.plist   "
+                    "# or read the job's log for the real failure"),
+            "detail": {"not_loaded": not_loaded, "stale": stale}}
+
+
+def detect_stale_feeds() -> dict | None:
+    stale = []
+    for rel, (producer, max_d) in FEED_FRESHNESS.items():
+        p = ROOT / rel
+        if not p.exists():
+            stale.append(f"{rel} MISSING (producer: {producer})")
+            continue
+        if max_d is None:
+            continue
+        age = _age_days(p)
+        if age is not None and age > max_d:
+            stale.append(f"{rel} is {age:.0f}d old (max {max_d}d; producer: {producer})")
+    if not stale:
+        return None
+    return {"id": "stale_feeds", "cls": JUDGMENT,
+            "what": (f"{len(stale)} declared feed(s) starving — the producing loop is "
+                     f"not firing: " + "; ".join(stale[:3])),
+            "fix": "run the named producer once by hand, then find why its schedule missed",
+            "detail": {"stale": stale}}
+
+
+def detect_core_surface_bypass() -> dict | None:
+    """Tier 2: content shipped while the expert layer loaded nothing.
+
+    Ledgers WITHOUT a manifest are legacy and are skipped — absent data is
+    reported as absent, never inferred (2026-07-27 card, Weaker-Model Trap 3).
+    """
+    hits = []
+    try:
+        ledgers = list((ROOT / ".agent" / "sessions").glob("ledger-*.json"))
+    except OSError:
+        return None
+    for lp in ledgers:
+        age = _age_days(lp)
+        if age is None or age > CORE_BYPASS_WINDOW_DAYS:
+            continue
+        try:
+            d = json.loads(lp.read_text())
+        except (OSError, ValueError):
+            continue
+        mf = d.get("manifest")
+        if not isinstance(mf, dict) or not mf:
+            continue  # legacy ledger — no depth data, no verdict
+        paths = d.get("produced_paths") or []
+        content = [p for p in paths if str(p).startswith(CONTENT_ROOTS)]
+        if not content:
+            continue
+        loads = len(mf.get("skills_full") or []) + len(mf.get("skill_tool_calls") or [])
+        if loads == 0:
+            hits.append(f"{d.get('session_id', lp.stem)[:8]} ({len(content)} content file(s))")
+    if len(hits) < CORE_BYPASS_MIN_SESSIONS:
+        return None
+    return {"id": "core_surface_bypass", "cls": JUDGMENT,
+            "what": (f"{len(hits)} session(s) in {CORE_BYPASS_WINDOW_DAYS}d shipped content "
+                     f"deliverables with ZERO expert skill loads: {', '.join(hits[:4])} — "
+                     f"the production core is being bypassed, not underused"),
+            "fix": "read the named sessions' receipts: python3 execution/execution_receipt.py",
+            "detail": {"sessions": hits}}
+
+
+def detect_wiring_orphans() -> dict | None:
+    """Tier 3 surface: read wiring_audit.py's index; never rescan here.
+    (The daily launchd drain writes the index; this just routes its findings
+    into the channels that provably get read — /cos + session-open.)"""
+    try:
+        idx = json.loads((ROOT / ".agent" / "health" / "wiring-index.json").read_text())
+        assets = idx.get("assets") or {}
+    except (OSError, ValueError):
+        return None  # ratchet hasn't run yet — nothing to report, honestly
+    orphans = sorted(k for k, v in assets.items()
+                     if isinstance(v, dict) and v.get("status") == "ORPHAN")
+    if not orphans:
+        return None
+    by_class: dict[str, int] = {}
+    for k in orphans:
+        by_class[k.split(":", 1)[0]] = by_class.get(k.split(":", 1)[0], 0) + 1
+    return {"id": "wiring_orphans", "cls": JUDGMENT,
+            "what": (f"{len(orphans)} asset(s) with NO provable firing path "
+                     f"({', '.join(f'{c}: {n}' for c, n in sorted(by_class.items()))}) — "
+                     f"e.g. {', '.join(k.split(':', 1)[1] for k in orphans[:4])}"),
+            "fix": "python3 execution/wiring_audit.py status   # wire it, or archive it deliberately",
+            "detail": {"orphans": orphans[:40], "by_class": by_class}}
+
+
 # Detectors that only CLASSIFY (no auto-fix exists, or the fix is known broken,
 # or auto-writing would be too invasive). Kept in the scan so the finding still
 # surfaces; absent from HEALERS so heal() can never dispatch to them.
 CLASSIFIERS = {
     "stale_slash_commands": detect_stale_slash_commands,
     "platform_drift": detect_platform_drift,
+    "dead_hooks": detect_dead_hooks,
+    "dead_launchd": detect_dead_launchd,
+    "stale_feeds": detect_stale_feeds,
+    "core_surface_bypass": detect_core_surface_bypass,
+    "wiring_orphans": detect_wiring_orphans,
 }
 
 # Which fleet verifier each detector speaks for. Used to decide whether a red
@@ -401,6 +664,11 @@ HEALER_OWNS = {
     "stale_slash_commands": "verify_system.py",
     "born_intent_drift": "verify_born_intent_drift.py",
     "platform_drift": "verify_platform_portability.py",
+    "dead_hooks": "verify_dead_channels.py",
+    "dead_launchd": "verify_dead_channels.py",
+    "stale_feeds": "verify_dead_channels.py",
+    "core_surface_bypass": "verify_dead_channels.py",
+    "wiring_orphans": "verify_wiring_audit.py",
 }
 
 
