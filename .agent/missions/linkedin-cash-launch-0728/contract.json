@@ -1,0 +1,37 @@
+{
+  "slug": "linkedin-cash-launch-0728",
+  "ts": "2026-07-28T11:05:00-07:00",
+  "intent": "LinkedIn cash launch: fresh deep research, wargame canonical offer vs $500-2K/7-14d cash goal, lock profile decisions, day-by-day 14-day motion plan from existing assets",
+  "serves": "revenue-5k-incumbency",
+  "felt_standard": [
+    "irresistible and compelling... would instantly pay for it",
+    "momentum from a zero-standing start",
+    "$500 to $2,000 cash collected in my bank account within the next 7 to 14 days"
+  ],
+  "route": {"chosen": "/first-10k", "score": 10002, "runners_up": [{"name": "/revenue-offer-agent", "score": 9908}, {"name": "/client-acquire", "score": 9800}]},
+  "pattern": "solo+wargame",
+  "tier": "T2",
+  "expected_spawns": 1,
+  "stack": {
+    "lead": "lara-acosta (b2b-linkedin)",
+    "supports": ["kallaway (psychology)", "adversarial-reviewer (wargame seat)"],
+    "note": "recommend_stack: no forced stacking; primary workflow sufficient"
+  },
+  "research": {
+    "engine": "research.py --depth deep (Gemini Deep primary, Ultra quota $0)",
+    "runs": ["demand-pricing-receipts", "icp-fresh-pass", "zero-start-linkedin-momentum"],
+    "posture": "June research demoted to hypothesis; fresh confirms/corrects/kills"
+  },
+  "gates": ["send-before-build", "prose_classifier", "factual-grounding", "cost_gate (auto-approved, ultra quota)"],
+  "deliverable_paths": [
+    "_active/linkedin-launch/01-research/2026-07-28-FRESH-RESEARCH/",
+    "_active/linkedin-launch/02-offer/OFFER-WARGAME-2026-07-28.md",
+    "_active/linkedin-launch/03-launch/2026-07-28-LAUNCH-PLAN-14-DAY.md",
+    "_active/linkedin-launch/01-research/ICP-BATTLE-CARD.md"
+  ],
+  "decisions_for_farrice": [
+    "About take A/B/C verdict (2026-07-28-about-rebuild-three-takes.md)",
+    "Profile blanks: shop name, dates, booking URL",
+    "Confirm whether 07-27 teardown DMs actually went out"
+  ]
+}
