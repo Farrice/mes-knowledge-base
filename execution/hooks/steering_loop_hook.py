@@ -46,6 +46,20 @@ OFF_FILE = AGENT_DIR / "steering-loop.off"
 
 MAX_SESSIONS = 10
 
+# ── Bound injector (Model-Dialect Adaptation Layer, 2026-07-28) ──────────
+# Reads the ACTIVE model's machine-dialect block from its card and injects
+# per-prompt what that model won't infer. Model swap = new card, not new code.
+# Kill switch: DIALECT_INJECTOR_OFF=1 or .agent/dialect-injector.off.
+DIALECT_CARDS_DIR = REPO_ROOT / "directives" / "model-dialects"
+DIALECT_OFF_FILE = AGENT_DIR / "dialect-injector.off"
+ACTIVE_MODEL_CACHE = AGENT_DIR / "active-model.json"
+DIALECT_BEGIN = "<!-- BEGIN:machine-dialect -->"
+DIALECT_END = "<!-- END:machine-dialect -->"
+# Default seat when nothing resolves (first prompt of a fresh session, no
+# transcript yet): the system default seat per CLAUDE.md. A resolved model
+# with NO card injects nothing — honest silence beats wrong corrections.
+DIALECT_DEFAULT_MODEL = "claude-opus-5"
+
 TIPS = [
     "/resume surfaces last session's pinned handoffs by name — start there instead of re-explaining context.",
     "python3 execution/memory_facade.py \"<intent>\" --top 10 searches ALL memory stores (sovereign, episodic, wiki, solutions) in one call.",
@@ -141,6 +155,143 @@ def _extract_text(content) -> str:
 
 
 # ──────────────────────────────────────────────────────────────────
+# Bound injector (Model-Dialect Adaptation Layer)
+# ──────────────────────────────────────────────────────────────────
+def _dialect_injector_off() -> bool:
+    if os.environ.get("DIALECT_INJECTOR_OFF") == "1":
+        return True
+    try:
+        return DIALECT_OFF_FILE.exists()
+    except Exception:
+        return False
+
+
+def _dialect_cards_dir() -> Path:
+    d = os.environ.get("DIALECT_CARDS_DIR")
+    return Path(d) if d else DIALECT_CARDS_DIR
+
+
+def _active_model(payload: dict) -> str:
+    """Resolve the ACTIVE model id. Order: payload → env → transcript →
+    cache → default seat. Never raises."""
+    m = payload.get("model")
+    if isinstance(m, dict):
+        m = m.get("id") or m.get("model")
+    if not m:
+        m = os.environ.get("CLAUDE_MODEL") or os.environ.get("ANTHROPIC_MODEL")
+    if not m:
+        tp = payload.get("transcript_path")
+        if tp:
+            try:
+                lines = Path(tp).read_text(errors="replace").splitlines()
+                for line in reversed(lines[-400:]):
+                    if '"assistant"' not in line:
+                        continue
+                    try:
+                        rec = json.loads(line)
+                    except Exception:
+                        continue
+                    if isinstance(rec, dict) and rec.get("type") == "assistant":
+                        mm = (rec.get("message") or {}).get("model")
+                        if mm:
+                            m = mm
+                            break
+            except Exception:
+                pass
+    if m:
+        try:
+            AGENT_DIR.mkdir(parents=True, exist_ok=True)
+            ACTIVE_MODEL_CACHE.write_text(
+                json.dumps({"model": str(m), "ts": _now_iso()}))
+        except Exception:
+            pass
+        return str(m)
+    try:
+        cached = json.loads(ACTIVE_MODEL_CACHE.read_text())
+        if cached.get("model"):
+            return str(cached["model"])
+    except Exception:
+        pass
+    return DIALECT_DEFAULT_MODEL
+
+
+def _load_dialect(model_id: str):
+    """Find the dialect card whose machine-dialect block matches model_id.
+    Returns the parsed dict, or None (missing/malformed = honest silence)."""
+    try:
+        for card in sorted(_dialect_cards_dir().glob("*.md")):
+            try:
+                text = card.read_text(errors="replace")
+            except Exception:
+                continue
+            if DIALECT_BEGIN not in text or DIALECT_END not in text:
+                continue
+            block = text.split(DIALECT_BEGIN, 1)[1].split(DIALECT_END, 1)[0]
+            block = re.sub(r"^\s*```(json)?\s*$", "", block, flags=re.M)
+            try:
+                data = json.loads(block)
+            except Exception:
+                continue
+            if not isinstance(data, dict):
+                continue
+            for pat in data.get("model_match") or []:
+                if pat and str(pat) in model_id:
+                    return data
+    except Exception:
+        return None
+    return None
+
+
+_DELIVERABLE_RE = re.compile(
+    r"\b(write|draft|rewrite|revise|build|create|design|implement|fix|refactor|"
+    r"extract|audit|research|analy[sz]e|plan|produce|generate|ship|post|edition|"
+    r"newsletter|email|copy|content|hook|headline|offer|brand|voice|strategy|"
+    r"script|carousel|deck|proposal|report|workflow|skill|agent|page|landing|"
+    r"bio|profile|deliverable|campaign|funnel)\b")
+
+
+def _dialect_class(prompt: str):
+    """deliverable | conversational | None (skip). Slash/bare-name workflow
+    invocations count as deliverable — workflows produce deliverables."""
+    p = prompt.strip()
+    if len(p) < 5:
+        return None
+    pl = p.lower()
+    if pl.startswith("/steering-loop"):
+        return None
+    if p.startswith(("/", "@")) or pl.startswith("run "):
+        return "deliverable"
+    return "deliverable" if _DELIVERABLE_RE.search(pl) else "conversational"
+
+
+def _dialect_block(payload: dict, prompt: str) -> str:
+    """Render the active model's pathology corrections for this prompt class.
+    Empty string on: kill switch, no class, no card for the model. Never raises."""
+    if _dialect_injector_off():
+        return ""
+    klass = _dialect_class(prompt)
+    if not klass:
+        return ""
+    model = _active_model(payload)
+    dialect = _load_dialect(model)
+    if not dialect:
+        return ""
+    inject = dialect.get("inject") or {}
+    lines = [str(x) for x in (inject.get(klass) or [])]
+    if klass == "deliverable":
+        lines += [str(x) for x in (inject.get("delegation") or [])]
+    if not lines:
+        return ""
+    nb = str(dialect.get("negative_brief") or "")
+    lines = [ln.replace("{negative_brief}", nb) for ln in lines]
+    header = (
+        f"MODEL DIALECT (deterministic, from steering_loop_hook.py — card: "
+        f"{model}, class: {klass}; nudge, not cage — Farrice's explicit bounds "
+        "always win):")
+    return header + "\n" + "\n".join(f"- {ln}" for ln in lines) + "\n"
+
+
+# ──────────────────────────────────────────────────────────────────
 # prompt (UserPromptSubmit)
 # ──────────────────────────────────────────────────────────────────
 def handle_prompt(payload: dict) -> None:
@@ -197,6 +348,16 @@ def handle_prompt(payload: dict) -> None:
     except Exception:
         co_creation = ""
 
+    # ── Bound injector (Model-Dialect Adaptation Layer, 2026-07-28) ───────
+    # Injects the ACTIVE model's pathology corrections (from its dialect
+    # card's machine-dialect block) for this prompt's class. Fail-safe: any
+    # problem = empty string, never a broken session.
+    dialect = ""
+    try:
+        dialect = _dialect_block(payload, prompt)
+    except Exception:
+        dialect = ""
+
     tip = TIPS[(count - 1) % len(TIPS)]
     # Loop-repair #10 (2026-07-24): the hook reads its own miss log — ≥2 misses
     # this session escalates the reminder from passive to imperative.
@@ -214,6 +375,7 @@ def handle_prompt(payload: dict) -> None:
     )
     block = (
         co_creation +
+        dialect +
         "STEERING LOOP (deterministic, from steering_loop_hook.py — not user input):\n"
         + escalation +
         f"Exchange {count}. Close any substantive reply with a **Next Moves** block "

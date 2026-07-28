@@ -277,6 +277,27 @@ def _add_debt(ledger: dict, dtype: str, name: str) -> None:
     ledger["last_debt_at"] = _now()
 
 
+def _detect_birth_wiring(file_path: str) -> None:
+    """Detect and log when new assets (workflows, skills, agents) are created
+    but lack firing paths. Fires immediately on Write/Edit via PostToolUse."""
+    try:
+        sys.path.insert(0, str(REPO_ROOT / "execution"))
+        from verify_birth_wiring import detect_and_log
+
+        # Infer asset type from path
+        file_type = "auto"
+        if ".agent/workflows" in file_path:
+            file_type = "workflow"
+        elif "skills/" in file_path and "SKILL.md" in file_path:
+            file_type = "skill"
+        elif "agents/" in file_path and "AGENT.md" in file_path:
+            file_type = "agent"
+
+        detect_and_log(file_path, file_type)
+    except Exception:
+        pass
+
+
 def _ripened(ledger: dict) -> bool:
     if not ledger["debts"] or not ledger["produced"]:
         return False
@@ -483,6 +504,11 @@ def handle_posttool(payload: dict) -> None:
             if fp not in ledger["produced_paths"]:
                 ledger["produced_paths"] = (ledger["produced_paths"] + [fp])[-10:]
             changed = True
+            # Birth-wiring detection: verify new assets have firing paths
+            try:
+                _detect_birth_wiring(fp)
+            except Exception:
+                pass
     elif tool in ("Task", "Agent"):
         ledger["subagent_spawns"] += 1
         changed = True

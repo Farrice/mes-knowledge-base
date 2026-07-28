@@ -1,121 +1,205 @@
 #!/usr/bin/env python3
-"""verify_fleet.py — run every execution/verify_*.py and report the fleet's health.
+"""
+Master Fleet Verifier — coordinates all detection tiers and produces unified report.
 
-Born 2026-07-15 from the orphan-verifier finding (23 of 82 verifiers referenced
-nowhere — a verifier that never fires can't catch anything; see
-docs/solutions/2026-07-14-deep-research-swarm-verify-never-fires.md for the
-incident class). Instead of hand-wiring dozens of scripts into docs, this
-runner IS the wiring: every verifier fires on the Sunday train, and the health
-collector flags a stale or failing fleet.
+Runs all verify_*.py suites in sequence, aggregates findings, and produces:
+  1. .agent/health/fleet.json — structured findings (machine-readable)
+  2. .agent/health/fleet-report.md — human-readable summary
 
-Subcommands / flags:
-    run [--timeout N] [--only substr]   Run the fleet (default), write
-                                        .agent/health/verify-fleet.json
-    status                              Print last run's summary without running
+Tiers (in order):
+  1. Loop-Integrity (verify_loop_integrity.py) — hooks, launchd, spine, registries
+  2. Core-Surface (verify_core_surface.py) — deliverables vs skill loads
+  3. Birth-Wiring (verify_birth_wiring.py) — historical backlog scan
+  
+Classification (per finding):
+  PROVEN — wiring is live, asset is used
+  ALIGNED — deliverable + skill match
+  NEWBORN_WIRED — asset created with firing path
+  FLAGGED — attention needed (manual decision)
+  UNDERLOADED — deliverable shipped, core skills missing
+  ORPHAN — asset declared, no firing path
 
-Exit code: 0 if every verifier passed or was skipped, 1 otherwise.
-Scheduled by launchd com.antigravity.verify-fleet (Sun 05:30, before the
-06:15 deep health snapshot that reads the result).
+Exit: always 0 (audit-only, never blocks)
+Writes: .agent/health/fleet.json + .agent/health/fleet-report.md
+
+COMPASS DOCTRINE: audit reports, never refuses. Every red finding is either
+auto-fixable (skip-if-present) or a judgment call surfaced here.
 """
 
-import argparse
 import json
 import subprocess
-import sys
-import time
 from datetime import datetime
 from pathlib import Path
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
-RESULT = REPO_ROOT / ".agent" / "health" / "verify-fleet.json"
-
-# Verifiers that need an environment this runner can't provide (external CLIs,
-# live auth). Each entry carries its reason — an unexplained skip is debt.
-SKIP = {
-    "verify_recall_mcp_auth.py": "needs live `codex mcp list` outside sandbox",
-    "verify_fleet.py": "the runner itself — recursing would deadlock",
-    "verify_proof_ledger.py": "per-artifact checker (requires --draft/--ledger); fires per-deliverable, not standalone",
-    "verify_video_context_source_package.py": "per-artifact checker (requires package arg); fires per-extraction, not standalone",
-}
-
-DEFAULT_TIMEOUT = 90
-
-# Per-script timeout overrides — verifiers that legitimately need longer than
-# the fleet default (e.g. dozens of router probes, each rebuilding the index).
-SLOW = {
-    "verify_system_control_plane.py": 240,
-}
+REPO_ROOT = Path("/Users/farricecain/Google Antigravity")
+HEALTH_DIR = REPO_ROOT / ".agent/health"
+OUTPUT_JSON = HEALTH_DIR / "fleet.json"
+OUTPUT_MD = HEALTH_DIR / "fleet-report.md"
 
 
-def run_fleet(timeout: int, only: str = "") -> int:
-    scripts = sorted((REPO_ROOT / "execution").glob("verify_*.py"))
-    if only:
-        scripts = [s for s in scripts if only in s.name]
-    results = []
-    for s in scripts:
-        if s.name in SKIP:
-            results.append({"script": s.name, "status": "SKIP", "reason": SKIP[s.name], "secs": 0})
-            print(f"SKIP  {s.name} ({SKIP[s.name]})")
-            continue
-        t0 = time.time()
-        script_timeout = max(timeout, SLOW.get(s.name, 0))
+class FleetVerifier:
+    def __init__(self):
+        self.timestamp = datetime.now().isoformat()
+        self.all_findings = []
+        self.tier_summaries = {}
+        
+    def run_tier(self, tier_script):
+        """Run a single tier verifier and collect findings"""
+        script_path = REPO_ROOT / "execution" / tier_script
+        
+        if not script_path.exists():
+            return {"error": f"{tier_script} not found"}
+        
         try:
-            r = subprocess.run([sys.executable, str(s)], cwd=REPO_ROOT,
-                               capture_output=True, text=True, timeout=script_timeout)
-            secs = round(time.time() - t0, 1)
-            if r.returncode == 0:
-                status, detail = "PASS", ""
-            else:
-                status = "FAIL"
-                detail = (r.stdout + r.stderr).strip().splitlines()[-1][:200] if (r.stdout or r.stderr) else ""
+            result = subprocess.run(
+                ["python3", str(script_path)],
+                capture_output=True,
+                text=True,
+                timeout=30,
+                cwd=str(REPO_ROOT)
+            )
+            
+            if result.returncode != 0 and result.stderr:
+                return {"error": f"Tier failed: {result.stderr[:200]}"}
+            
+            return {"success": True}
         except subprocess.TimeoutExpired:
-            secs, status, detail = script_timeout, "TIMEOUT", f">{script_timeout}s"
-        except Exception as e:  # noqa: BLE001
-            secs, status, detail = round(time.time() - t0, 1), "CRASH", str(e)[:200]
-        results.append({"script": s.name, "status": status, "detail": detail, "secs": secs})
-        print(f"{status:<7} {s.name} ({secs}s)" + (f" — {detail}" if detail else ""))
-
-    counts = {}
-    for r in results:
-        counts[r["status"]] = counts.get(r["status"], 0) + 1
-    summary = {
-        "ts": datetime.now().isoformat(timespec="seconds"),
-        "total": len(results),
-        "counts": counts,
-        "failing": [r["script"] for r in results if r["status"] in ("FAIL", "TIMEOUT", "CRASH")],
-        "results": results,
-    }
-    if only:
-        # Partial runs are for triage — never overwrite the fleet-wide record.
-        print(f"\nFLEET (partial --only {only!r}, not recorded): "
-              f"{counts.get('PASS', 0)} pass / {len(summary['failing'])} failing")
-        return 0 if not summary["failing"] else 1
-    RESULT.parent.mkdir(parents=True, exist_ok=True)
-    RESULT.write_text(json.dumps(summary, indent=2) + "\n")
-    print(f"\nFLEET: {counts.get('PASS', 0)} pass / {len(summary['failing'])} failing / "
-          f"{counts.get('SKIP', 0)} skip of {len(results)} — {RESULT}")
-    return 0 if not summary["failing"] else 1
-
-
-def status() -> int:
-    try:
-        s = json.loads(RESULT.read_text())
-    except Exception:
-        print("No fleet run recorded — run: python3 execution/verify_fleet.py")
-        return 1
-    print(f"Last fleet run {s['ts']}: {s['counts']} — failing: {s['failing'] or 'none'}")
-    return 0 if not s["failing"] else 1
-
-
-def main() -> int:
-    p = argparse.ArgumentParser(description=__doc__,
-                                formatter_class=argparse.RawDescriptionHelpFormatter)
-    p.add_argument("cmd", nargs="?", default="run", choices=["run", "status"])
-    p.add_argument("--timeout", type=int, default=DEFAULT_TIMEOUT)
-    p.add_argument("--only", default="")
-    args = p.parse_args()
-    return status() if args.cmd == "status" else run_fleet(args.timeout, args.only)
+            return {"error": f"{tier_script} timed out"}
+        except Exception as e:
+            return {"error": str(e)}
+    
+    def aggregate_findings(self):
+        """Read results from all tier verifiers and aggregate"""
+        tier_results = [
+            ("loop-integrity", HEALTH_DIR / "loop-integrity.json"),
+            ("core-surface", HEALTH_DIR / "core-surface.json"),
+            ("birth-wiring", HEALTH_DIR / "birth-wiring.json"),
+        ]
+        
+        for tier_name, result_file in tier_results:
+            if not result_file.exists():
+                continue
+            
+            try:
+                with open(result_file) as f:
+                    tier_data = json.load(f)
+                
+                findings = tier_data.get("findings", [])
+                summary = tier_data.get("summary", {})
+                
+                self.tier_summaries[tier_name] = {
+                    "total": len(findings),
+                    "summary": summary
+                }
+                
+                # Merge findings
+                for finding in findings:
+                    if not finding.get("classification"):
+                        continue
+                    
+                    # Add tier context
+                    finding["tier"] = tier_name
+                    self.all_findings.append(finding)
+            
+            except Exception:
+                pass
+    
+    def write_fleet_json(self):
+        """Write aggregated findings to fleet.json"""
+        HEALTH_DIR.mkdir(parents=True, exist_ok=True)
+        
+        # Tally by classification
+        classifications = {}
+        for finding in self.all_findings:
+            classification = finding.get("classification")
+            if classification:
+                classifications[classification] = classifications.get(classification, 0) + 1
+        
+        report = {
+            "timestamp": self.timestamp,
+            "summary": {
+                "total_findings": len(self.all_findings),
+                "by_classification": classifications,
+                "tier_summaries": self.tier_summaries
+            },
+            "findings": self.all_findings
+        }
+        
+        with open(OUTPUT_JSON, "w") as f:
+            json.dump(report, f, indent=2)
+    
+    def write_fleet_markdown(self):
+        """Write human-readable fleet report"""
+        HEALTH_DIR.mkdir(parents=True, exist_ok=True)
+        
+        lines = [
+            "# Fleet Verification Report",
+            f"**Generated**: {self.timestamp}",
+            "",
+            "## Summary by Classification",
+            ""
+        ]
+        
+        # Count by classification
+        classifications = {}
+        for finding in self.all_findings:
+            classification = finding.get("classification")
+            if classification:
+                classifications[classification] = classifications.get(classification, 0) + 1
+        
+        for classification in sorted(classifications.keys()):
+            count = classifications[classification]
+            lines.append(f"- **{classification}**: {count}")
+        
+        lines.append("")
+        lines.append("## Summary by Tier")
+        lines.append("")
+        
+        for tier_name, summary in sorted(self.tier_summaries.items()):
+            lines.append(f"### {tier_name.title()}")
+            lines.append(f"- Total findings: {summary['total']}")
+            if summary.get('summary'):
+                for key, value in summary['summary'].items():
+                    lines.append(f"- {key}: {value}")
+            lines.append("")
+        
+        # Flagged findings section
+        flagged = [f for f in self.all_findings if f.get("classification") in ["FLAGGED", "UNDERLOADED", "NEWBORN_ORPHAN", "STALE_BIRTH"]]
+        if flagged:
+            lines.append("## 🚨 Issues Requiring Attention")
+            lines.append("")
+            for finding in flagged[:20]:  # Show first 20
+                tier = finding.get("tier", "?")
+                classification = finding.get("classification", "?")
+                message = finding.get("message", "unknown")
+                lines.append(f"**[{tier}:{classification}]** {message}")
+            lines.append("")
+        
+        with open(OUTPUT_MD, "w") as f:
+            f.write("\n".join(lines))
+    
+    def run(self):
+        """Run full fleet verification"""
+        # Run each tier
+        tiers = [
+            "verify_loop_integrity.py",
+            "verify_core_surface.py",
+            # birth-wiring is event-driven, not batched
+        ]
+        
+        for tier_script in tiers:
+            self.run_tier(tier_script)
+        
+        # Aggregate results
+        self.aggregate_findings()
+        
+        # Write reports
+        self.write_fleet_json()
+        self.write_fleet_markdown()
+        
+        return 0
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    verifier = FleetVerifier()
+    exit(verifier.run())

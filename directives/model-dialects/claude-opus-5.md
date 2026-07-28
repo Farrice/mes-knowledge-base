@@ -93,3 +93,38 @@ Admin mode: subagent (8 isolated `model: opus` dispatches). Conductor-scored —
 Provider version bump past `claude-opus-5` · fixture replay flags cross-skill drift on Opus-run
 work · Opus assigned a new class of forge work · a Fable seat becomes available for independent
 re-scoring of the verbosity and scope-containment findings.
+
+## Machine-Readable Dialect (consumed by `steering_loop_hook.py` — the bound injector)
+
+The bound injector reads this block per prompt and injects the lines for the classified ask.
+**These are model-pathology corrections, not deliverable specs** — no number tables (Farrice,
+2026-07-28: exemplars grant latitude; a specificity tax is the failure mode, not the fix).
+Length/scope calibration points at the loaded expert's exemplars. A model swap = write a new
+card with its own block; the hook never changes. Malformed JSON here = the injector goes
+silent (fail-safe), it never breaks a session.
+
+<!-- BEGIN:machine-dialect -->
+```json
+{
+  "model_match": ["claude-opus-5", "opus-5"],
+  "inject": {
+    "deliverable": [
+      "Before producing, state in ONE line the length/scale you will hold, then hold it — this model never infers length from context, and lowering effort does not shorten output (P2/P6).",
+      "Calibrate length, scope, and shape to the loaded expert's exemplars and the ask itself — the exemplar is the bound, never your unconstrained default. Farrice's explicitly stated bounds always win over any calibration.",
+      "Scope = exactly what was asked. Add nothing unrequested. If the ask looks mistaken, say so in one sentence and continue with the task as asked (P9)."
+    ],
+    "conversational": [
+      "Answer at conversational scale — the direct answer first, no sections, no unrequested expansion or environment asides (P6)."
+    ],
+    "delegation": [
+      "Delegation cap: no subagents for work finishable in a handful of tool calls, and never to verify or double-check. If you do dispatch, the brief MUST contain verbatim: \"{negative_brief}\" (P9 — subagents inherit CLAUDE.md and will execute its side effects, including live Notion writes)."
+    ]
+  },
+  "negative_brief": "no Chain, no finalize, no Notion, no Next Moves, return only the artifact",
+  "probe_evidence": "P2/P6 verbosity drift, P9 scope-containment FAIL — see probe sections above"
+}
+```
+<!-- END:machine-dialect -->
+
+
+---

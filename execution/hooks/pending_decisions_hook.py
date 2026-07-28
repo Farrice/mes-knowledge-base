@@ -42,6 +42,7 @@ HEAL_CACHE = HEALTH / "self-heal-latest.json"
 PENDING_REVIEW = HEALTH / "pending-review.md"
 PHASE2_QUEUE = ROOT / "evolution_store" / "queue" / "phase2_queue.jsonl"
 REGISTRY = ROOT / "evolution_store" / "failure-registry.md"
+FLEET_CACHE = HEALTH / "fleet.json"
 
 MAX_LINES = 3
 STALE_HOURS = 72   # beyond this the cache describes a world that has moved on
@@ -95,6 +96,16 @@ def _chronic_rules() -> int:
         return 0
 
 
+def _fleet_findings() -> int:
+    """Count flagged findings from fleet verification (loop-integrity, core-surface)."""
+    try:
+        data = json.loads(FLEET_CACHE.read_text())
+        by_classification = data.get("summary", {}).get("by_classification", {})
+        return by_classification.get("FLAGGED", 0) + by_classification.get("UNDERLOADED", 0)
+    except (OSError, json.JSONDecodeError):
+        return 0
+
+
 def main() -> None:
     lines: list[str] = []
     try:
@@ -141,6 +152,15 @@ def main() -> None:
             lines.append(
                 f"⚠ EVOLUTION QUEUE: {n} skill(s) need ground truth before they can "
                 "auto-evolve — `python3 execution/evolution_orchestrator.py status`.")
+    except Exception:
+        pass
+
+    try:
+        n = _fleet_findings()
+        if n:
+            lines.append(
+                f"⚠ FLEET: {n} wiring issue(s) found — "
+                "read `.agent/health/fleet-report.md` for details; `python3 execution/verify_fleet.py` to rescan.")
     except Exception:
         pass
 
