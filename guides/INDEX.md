@@ -210,6 +210,7 @@
 ---
 
 ## Pending enrichment
+- [2026-07-28 — Opus 5 Adaptation Layer — Model-Dialect Resilience (Fable seat)](2026-07-28-opus5-adaptation-layer.md) — operator-guide stub, needs enrichment
 - [2026-07-27 — Farrice Offer Stack — Premium Arc Design (accountable single seat + Engine Install)](2026-07-27-offer-stack.md) — session-brief stub, needs enrichment
 - [2026-07-27 — Solutions — Dated Promise Needs Deterministic Tickler](2026-07-27-.md) — operator-guide stub, needs enrichment
 - [2026-07-27 — Signal Pilot — Fork A Day-1 Build v2 (Rosner + Broxterman flagships SEND-ready)](2026-07-27-signal-pilot-execution.md) — operator-guide stub, needs enrichment

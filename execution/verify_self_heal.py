@@ -202,13 +202,20 @@ def main() -> int:
         (sandbox / ".agent" / "health" / "born-intent-baseline.json").write_text('{"a":2}\n')
         (sandbox / "UNRELATED.md").write_text("still must not be committed\n")
         real_root = self_heal.ROOT
+        real_log = self_heal.HEAL_LOG
+        # Redirect the audit log too: HEAL_LOG is computed at import time, so
+        # swapping ROOT alone leaves the sandbox probe writing 'committed' rows
+        # into the REAL .agent/health/self-heal.jsonl (found in the first live
+        # spine run, 2026-07-28 — audit noise, weekly on the fleet train).
         self_heal.ROOT = sandbox
+        self_heal.HEAL_LOG = sandbox / "self-heal.jsonl"
         try:
             note = self_heal._commit_healed("born_intent_drift", "sandbox probe")
             committed = _sh("git", "show", "--stat", "--format=", "HEAD").stdout
             dirty_after = _sh("git", "status", "--porcelain").stdout
         finally:
             self_heal.ROOT = real_root
+            self_heal.HEAL_LOG = real_log
         check("scoped commit includes the healer's declared file",
               "born-intent-baseline.json" in committed, f"note={note}")
         check("scoped commit EXCLUDES an undeclared dirty file",

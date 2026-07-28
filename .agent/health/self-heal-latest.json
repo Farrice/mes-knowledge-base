@@ -1,21 +1,7 @@
 {
- "ts": "2026-07-28T08:30:45.720186",
+ "ts": "2026-07-28T08:31:55.344968",
  "mode": "heal",
  "rows": [
-  {
-   "id": "born_intent_drift",
-   "cls": "EVIDENCE",
-   "what": "1 anchor(s) drifted, every one traceable to a commit since the last bless",
-   "fix": "python3 execution/verify_born_intent_drift.py --bless",
-   "detail": {
-    "explained": [
-     "skill:dara-denney-meta-ads <- f41bd34f8 2026-07-25 feat(dara): creative strategy layer"
-    ]
-   },
-   "action": "healed",
-   "note": "skill:dara-denney-meta-ads <- f41bd34f8 2026-07-25 feat(dara): creative strategy layer",
-   "commit": "commit skipped (--no-commit; the caller owns the commit)"
-  },
   {
    "id": "stale_slash_commands",
    "cls": "JUDGMENT",
@@ -28,6 +14,13 @@
    "cls": "JUDGMENT",
    "what": "2 constitution/portability drift \u2014 platform_compiler reports siblings out of sync; the write-mode fix is deliberately not automated (it rewrites constitution files)",
    "fix": "python3 execution/platform_compiler.py sync   # review the diff first",
+   "action": "escalated"
+  },
+  {
+   "id": "verify_born_intent_drift.py",
+   "cls": "JUDGMENT",
+   "what": "verify_born_intent_drift.py is red in the 1d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },
   {

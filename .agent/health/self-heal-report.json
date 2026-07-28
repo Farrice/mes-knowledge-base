@@ -1,22 +1,11 @@
 {
- "ts": "2026-07-28T07:30:23.997025",
+ "ts": "2026-07-28T08:31:49.694951",
  "mode": "report",
  "rows": [
   {
-   "id": "born_intent_drift",
-   "cls": "EVIDENCE",
-   "what": "1 anchor(s) drifted, every one traceable to a commit since the last bless",
-   "fix": "python3 execution/verify_born_intent_drift.py --bless",
-   "detail": {
-    "explained": [
-     "skill:dara-denney-meta-ads <- f41bd34f8 2026-07-25 feat(dara): creative strategy layer"
-    ]
-   }
-  },
-  {
    "id": "stale_slash_commands",
    "cls": "JUDGMENT",
-   "what": "817 workflows missing from SLASH_COMMANDS.md, and the generator cannot fix it: `generate_slash_commands.py --check` reports 2,398 to append but main() writes almost nothing \u2014 a generator bug",
+   "what": "826 workflows missing from SLASH_COMMANDS.md, and the generator cannot fix it: `generate_slash_commands.py --check` reports 2,398 to append but main() writes almost nothing \u2014 a generator bug",
    "fix": "debug the append region in execution/generate_slash_commands.py"
   },
   {
@@ -24,6 +13,12 @@
    "cls": "JUDGMENT",
    "what": "2 constitution/portability drift \u2014 platform_compiler reports siblings out of sync; the write-mode fix is deliberately not automated (it rewrites constitution files)",
    "fix": "python3 execution/platform_compiler.py sync   # review the diff first"
+  },
+  {
+   "id": "verify_born_intent_drift.py",
+   "cls": "JUDGMENT",
+   "what": "verify_born_intent_drift.py is red in the 1d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py"
   },
   {
    "id": "verify_contextual_next_prompts.py",
