@@ -1,6 +1,6 @@
 ---
-version: 1.1
-compiled: 2026-07-27
+version: 1.2
+compiled: 2026-07-28
 owner: voice-os
 supersedes:
   - _active/codex-harvest-2026-06-11/brain/marketing-voice-tone-high-taste-core-2026-05-10/google-docs-source/03-Farrice-Voice-Proof-Style-Card.md (stale, unwired, superseded offer positioning; Voice DNA + guardrails harvested into this card)
@@ -185,13 +185,21 @@ Full 64-entry bank: `directives/ai-slop-detector.md` (structural tropes, punctua
 
 **The imperfection principle (2026-07-27, entry 22 — the root cause under "reads AI-generated"):**
 - FAIL: *"every canister promised the physique, the look, and the feeling of being someone who finally had it handled."* His verdict: *"No one says every canister promise. I would say supplement. I wouldn't even say it like that."*
-- The diagnosis is not vocabulary, it's polish. **Every sentence being a gem IS the tell.** Real writing carries flat sentences doing ordinary work. PASS from the same session: *"Years of that. A few things actually worked. Most did nothing."* — deliberately unremarkable, and it's what makes the surrounding lines land.
+- The diagnosis is not vocabulary, it's polish. **Every sentence being a gem IS the tell.** Real writing carries flat sentences doing ordinary work. PASS from the same session: *"Years of that. A few things actually worked. Most did nothing."* — deliberately unremarkable, and it's what makes the surrounding lines land. **(Amended 2026-07-28: PASS as connective texture only — asked to carry the payoff beat it FAILs: "that's a painful thing and it should be more hit at home... more relatable and a puncher point." Flat lines are texture, never payoffs.)**
 - His own plain list beat the literary compression of it every time: *"the physique, the look, the feel, the confidence"* > any tightened version of it. **When he has said the thing himself, use his words, not a better-written version of his words.**
 - Process root cause, logged so it doesn't recur: the writers-room Layer 3 Friend Test was *reported as run* across two passes and never actually executed. Layers 1–2 (structure, tension) were treated as the whole workflow. A named-but-unexecuted workflow is worse than a skipped one, because it launders a half-pass as a full one.
 
 **Bayer Mirror PASS bank (2026-07-22 → 2026-07-27, entries 18/19/21 — mechanics in §4 Spine Choice):**
 - *"You are the only one at the table playing with your cards face up."* One everyday analogy carrying 90% of the argument, no explanation after it. Farrice 2026-07-27: *"I really liked the David Mirror, that was good."*
 - *"Careful sounds like maybe."* Distilled up, not dumbed down — simpler words carrying a deeper truth. The win is the reader thinking *"I already knew that, I just needed someone to say it,"* never *"wow, he's smart."*
+
+**The named-place principle + payoff punch (2026-07-28, entries 24–30 — the About v12/v13 session):**
+- FAIL: *"the only room where you get to tell someone to put it back on the shelf."* He says the plain named place — "a counter at a vitamin shop" — never the clever generalization. *"Feels like AI trying to put some type of elevation."* Humans tell stories in lived specifics: the real questions (are the pills small enough to swallow, does it mix with my medications, whey vs isolate), not abstracted rooms. **Specificity is lived-in experience; generalized cleverness is the tell.**
+- FAIL: *"I waited for the work to speak. It doesn't speak. It never once spoke."* — *"No one talks like that. I don't talk like that."* Theatrical repetition is writing-performance. Load-bearing credibility beats shrink to one plain line and move on.
+- FAIL: *"I had the same problem in a body instead of a bottle."* — *"What does that even mean?... added words with fake texture."* Compressed cleverness that doesn't paint. Build the bridge visibly or cut the beat.
+- **PASS bank is a FLOOR, never a freeze list** — two killed lines had survived twelve versions as untouchable because they once passed. A felt verdict is a reference at a moment in time, not immunity from the current diagnosis.
+- **Heat rule: contempt in the nouns, not the volume.** *"Fillers, fairy-dust doses, the label does all the work"* — approved callouts, delivered in short cuts. *"They should punch and cut and do what they need to do simply and directly without losing any emotional energy."* No grandizing, no over-explanation, and no flattening either — quiet defiance is not the same as limp.
+- **Memoir stays front-facing.** The lived material exists to prove he can solve the reader's problem — *"not become just a sap story or journal-about section."* Every scene must ladder to the founder's situation (matches the 2026-07-22 reader-payoff verdict).
 
 *New verdicts land in `calibration-log.md` via `/voice-ratchet` (`execution/voice_ratchet.py add`); `/voice-compile` folds the strongest into this section. Format: date | verdict | line | why | source.*
 

@@ -2,8 +2,9 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
-- **2026-07-28** [opus5-adaptation-layer/active] [Opus 5 Adaptation Layer — Model-Dialect Resilience (Fable seat)](2026-07-28-opus5-adaptation-layer.md) — Design the harness layer that survives model releases — so a model swap (4.8→5, 5→next)
 - **2026-07-28** [deliverables/active] [Deliverables — Receipt Selftest](2026-07-28-deliverables.md) — Deliverables — Receipt Selftest
+- **2026-07-28** [hooks/active] [Hooks — Session Ledger Hook](2026-07-28-hooks.md) — Hooks — Session Ledger Hook
+- **2026-07-28** [opus5-adaptation-layer/active] [Opus 5 Adaptation Layer — Model-Dialect Resilience (Fable seat)](2026-07-28-opus5-adaptation-layer.md) — Design the harness layer that survives model releases — so a model swap (4.8→5, 5→next)
 - **2026-07-28** [hillary-gidley/active] [Hillary Gidley — Vision](2026-07-28-hillary-gidley.md) — Hillary Gidley — Vision
 - **2026-07-27** [deliverables/active] [Deliverables — Receipt Selftest](2026-07-27-deliverables.md) — Deliverables — Receipt Selftest
 - **2026-07-27** [solutions/active] [Solutions — Verification With No Reader](2026-07-27-solutions.md) — Solutions — Verification With No Reader
@@ -223,3 +224,4 @@ Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 - **2026-06-23** [high-taste-writing-os/active] [High-Taste OS command system final smoke artifact](2026-06-23-high-taste-writing-os.md) — High-Taste OS command system final smoke artifact
 - **2026-06-20** [linkedin-ai-boom/ready] [Handoff — Diandra Engine Test → Hooks-Only Lesson + Elevated AI-Boom Post](2026-06-20-diandra-hooks-only.md) — Ship/schedule the posts; pick the opener (original vs elevated)
 - **2026-06-19** [linkedin-ai-boom/ready] [Handoff — AI-Boom × Wellness Content + /quality-content Pipeline](2026-06-19-ai-boom-content.md) — Ship/schedule the 2 LinkedIn posts + newsletter (posting sequence is in the package file). Note before publishing: swap the illustrative "friend who got asked 'who wrote this'" anecdote for a real, pe
+- **2026-07-28** [about-rebuild-ship/ready] [Handoff — About Rebuild + Ship Sprint](2026-07-28-about-rebuild-ship.md) — three About takes await gut-pick; Pen Protocol + VOICE-CARD 1.2 durable; ship checklist to inbound

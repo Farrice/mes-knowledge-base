@@ -292,6 +292,309 @@ def _dialect_block(payload: dict, prompt: str) -> str:
 
 
 # ──────────────────────────────────────────────────────────────────
+# Co-Creation Enforcement Layer (Farrice 2026-07-28)
+# ──────────────────────────────────────────────────────────────────
+# WHY: the co-creation doctrine (verify → align → act) lived as prose and the
+# model still produced 5 renditions of one About on educated guesses while
+# Farrice directed everything (2026-07-28 About session; 2026-07-27 headline
+# session = same failure). A doctrine without a counter is a vibe. This layer
+# adds STATE (renditions per artifact stem from the session ledger, rejections
+# per stem, feedback-turn tracking) and injects three deterministic mechanisms:
+#   1. SPIRAL BRAKE — 2 rejected takes or 3+ renditions of one stem → stop
+#      producing variants; fresh crack / gut-check / pick.
+#   2. FEEDBACK-TURN PROTOCOL — critique-shaped prompt → restate verdicts,
+#      ONE AskUserQuestion on ambiguity BEFORE producing, ratchet, ONE take.
+#   3. WORK-MODE FRONT DOOR — raw un-slash-commanded input → operating card
+#      at workflow standard (REFINE/BUILD/IDEATE/DECIDE/CAPTURE), overridable
+#      with one word ("mode X").
+# Compass doctrine holds: instructs the MODEL, never blocks Farrice.
+# Kill switch: CO_CREATION_OFF=1 or .agent/co-creation.off.
+
+CC_STATE_PATH = AGENT_DIR / "co-creation-state.json"
+CC_OFF_FILE = AGENT_DIR / "co-creation.off"
+
+
+def _cc_off() -> bool:
+    if os.environ.get("CO_CREATION_OFF") == "1":
+        return True
+    try:
+        return CC_OFF_FILE.exists()
+    except Exception:
+        return False
+
+
+def _cc_load() -> dict:
+    try:
+        if CC_STATE_PATH.exists():
+            data = json.loads(CC_STATE_PATH.read_text())
+            if isinstance(data, dict):
+                return data
+    except Exception:
+        pass
+    return {}
+
+
+def _cc_save(state: dict) -> None:
+    try:
+        AGENT_DIR.mkdir(parents=True, exist_ok=True)
+        state = _prune_state(state)
+        CC_STATE_PATH.write_text(json.dumps(state, indent=1))
+    except Exception:
+        pass
+
+
+# Version-marker suffixes stripped repeatedly to find an artifact's stem:
+# about_v13 / about_v12_L1 / about-final / draft_2 → "about". A strip that
+# would empty the stem is rejected (take_a stays take_a rather than "").
+_CC_SUFFIXES = [
+    re.compile(r"[_\-. ]v(er(sion)?)?\d+$", re.I),
+    re.compile(r"[_\-. ](final|draft|rev|copy|edit)\d*$", re.I),
+    re.compile(r"[_\-. ]l\d+$", re.I),
+    re.compile(r"[_\-. ]\d{1,3}$"),
+]
+
+
+def _cc_stem(path_str: str) -> str:
+    try:
+        base = Path(str(path_str)).name
+        base = base.rsplit(".", 1)[0].lower()
+        changed = True
+        while changed:
+            changed = False
+            for rx in _CC_SUFFIXES:
+                stripped = rx.sub("", base)
+                if stripped and stripped != base:
+                    base = stripped
+                    changed = True
+        return base.strip("_-. ")
+    except Exception:
+        return ""
+
+
+def _cc_renditions(session_id: str) -> dict:
+    """{stem: distinct-rendition-count} from this session's ledger
+    produced_paths (maintained by session_ledger_hook). Never raises."""
+    try:
+        safe = re.sub(r"[^A-Za-z0-9_-]", "_", session_id or "unknown")[:64]
+        ledger_path = SESSIONS_DIR / f"ledger-{safe}.json"
+        if not ledger_path.exists():
+            return {}
+        data = json.loads(ledger_path.read_text())
+        seen: dict = {}
+        for p in (data.get("produced_paths") or []):
+            s = _cc_stem(p)
+            if not s:
+                continue
+            seen.setdefault(s, set()).add(Path(str(p)).name.lower())
+        return {s: len(names) for s, names in seen.items()}
+    except Exception:
+        return {}
+
+
+_CC_CRITIQUE_RE = re.compile(
+    r"\b(edits?|change|remove|cut|don'?t like|didn'?t like|not working|weird|"
+    r"disjointed|flat|bland|generic|too safe|better (way|delivery|version)|"
+    r"needs? to be|i feel like|rework|redo|revise|another (crack|pass|try)|"
+    r"instead of|payoff|punchier|beaten? (it )?down|restructure|not landing|"
+    r"reads? (a little )?(weird|off)|final edits)\b")
+
+_CC_REFERENT_RE = re.compile(
+    r"\b(this|that|the) (version|draft|piece|post|about|copy|take|one|part|"
+    r"section|line)\b|\bv\d+\b|\"[^\"]{8,}\"|“[^”]{8,}”")
+
+
+def _cc_feedback(prompt: str, stems: dict) -> bool:
+    """Critique-shaped prompt aimed at an existing artifact."""
+    p = prompt.strip()
+    if len(p) < 180:
+        return False
+    pl = p.lower()
+    if not _CC_CRITIQUE_RE.search(pl):
+        return False
+    if _CC_REFERENT_RE.search(pl):
+        return True
+    return any(s in pl for s in stems if len(s) >= 4)
+
+
+_CC_MODE_OVERRIDE_RE = re.compile(
+    r"\bmode (build-new|refine-existing|ideate|decide|capture)\b", re.I)
+
+
+def _cc_work_mode(prompt: str, is_feedback: bool):
+    """BUILD-NEW | REFINE-EXISTING | IDEATE | DECIDE | CAPTURE | None."""
+    pl = prompt.lower().strip()
+    m = _CC_MODE_OVERRIDE_RE.search(pl)
+    if m:
+        return m.group(1).upper()
+    if is_feedback:
+        return "REFINE-EXISTING"
+    if re.search(r"\b(should (i|we)|which (one|of these|way|take)|pick (one|a|the)|"
+                 r"choose|decide|gut.?check|or should)\b", pl):
+        return "DECIDE"
+    if re.search(r"\b(ideas?|angles?|options|variations?|brainstorm|riff|ideate|"
+                 r"ways we could)\b", pl):
+        return "IDEATE"
+    if _DELIVERABLE_RE.search(pl):
+        return "BUILD-NEW"
+    if len(pl) > 400 and "?" not in pl and not re.search(
+            r"\b(can you|please|need you|help me)\b", pl):
+        return "CAPTURE"
+    return None
+
+
+_CC_MODE_CARDS = {
+    "REFINE-EXISTING": (
+        "Pen Protocol applies (writers-room Phase 3). FEEDBACK-TURN PROTOCOL: "
+        "(1) restate his verdicts as a numbered list FIRST; (2) ambiguous or "
+        "conflicting verdicts → ONE AskUserQuestion BEFORE producing; (3) log "
+        "felt verdicts (python3 execution/voice_ratchet.py add); (4) produce "
+        "ONE take by ONE pen — never N variants unless he asked for variants, "
+        "never committee edits."),
+    "BUILD-NEW": (
+        "Operate at /go standard without the command: score intent (1-5), "
+        "route via PRODUCTION_CORE, load the expert (lens cards / SKILL.md) "
+        "BEFORE producing, finalize after. State the chosen route in one line "
+        "so Farrice can redirect early."),
+    "IDEATE": (
+        "Divergence before convergence: offer /ideate or /jam on taste-bearing "
+        "work; generate wide before polishing anything; no premature "
+        "single-answer convergence."),
+    "DECIDE": (
+        "Name the decision before any artifact — a deliverable produced before "
+        "the decision is made will be rebuilt (2026-07-27 headline lesson). "
+        "Lay out the fork, recommend one side, let him pick."),
+    "CAPTURE": (
+        "Thought dump detected: capture verbatim via python3 "
+        "execution/thought_bank.py capture \"...\" and confirm in ONE line — "
+        "no unpacking unless he asks."),
+}
+
+
+def _cc_prompt_block(session_id: str, prompt: str, count: int) -> str:
+    """Assemble mode card + spiral brake; update rejection state. Never raises."""
+    renditions = _cc_renditions(session_id)
+    is_feedback = _cc_feedback(prompt, renditions)
+
+    state = _cc_load()
+    entry = state.get(session_id) or {"stems": {}, "updated": ""}
+    stems_state = entry.get("stems") or {}
+
+    if is_feedback:
+        pl = prompt.lower()
+        targets = [s for s in renditions if len(s) >= 4 and s in pl]
+        if not targets:
+            multi = [s for s, n in renditions.items() if n >= 2]
+            if len(multi) == 1:
+                targets = multi
+        for s in targets:
+            rec = stems_state.get(s) or {"rejections": 0}
+            rec["rejections"] = int(rec.get("rejections", 0)) + 1
+            stems_state[s] = rec
+
+    entry["stems"] = stems_state
+    entry["last_feedback_exchange"] = count if is_feedback else int(
+        entry.get("last_feedback_exchange") or 0)
+    entry["updated"] = _now_iso()
+    state[session_id] = entry
+    _cc_save(state)
+
+    lines = []
+    mode = _cc_work_mode(prompt, is_feedback)
+    if mode:
+        lines.append(
+            f"MODE: {mode} (deterministic guess from steering_loop_hook.py — "
+            "say 'mode <BUILD-NEW|REFINE-EXISTING|IDEATE|DECIDE|CAPTURE>' to "
+            "override).")
+        card = _CC_MODE_CARDS.get(mode)
+        if card:
+            lines.append(card)
+
+    # Spiral brake: his stated rule made physical — 2 rejected takes on one
+    # stem, or 3+ renditions, means variants stop.
+    for s, n in sorted(renditions.items(), key=lambda kv: -kv[1]):
+        rej = int((stems_state.get(s) or {}).get("rejections", 0))
+        if rej >= 2 or n >= 3:
+            hot = (n >= 5 or rej >= 3)
+            prefix = ("ESCALATION — this loop has already burned "
+                      f"{n} renditions. " if hot else "")
+            lines.append(
+                f"🛑 SPIRAL BRAKE (deterministic): '{s}' is at rendition {n} "
+                f"with {rej} rejected take(s) this session. {prefix}Do NOT "
+                "produce another variant. Allowed moves: (a) fresh crack from "
+                "SOURCE INPUT with a different architecture, (b) ONE "
+                "AskUserQuestion gut-check on the fork, (c) present existing "
+                "takes for a pick. Name the rendition count to Farrice out "
+                "loud.")
+            if hot:
+                _append_observe({
+                    "ts": _now_iso_utc(), "session_id": session_id,
+                    "exchange": count, "event": "spiral", "stem": s,
+                    "renditions": n, "rejections": rej})
+            break  # one brake per prompt — the loudest stem
+
+    return ("\n".join(lines) + "\n") if lines else ""
+
+
+def _cc_stop_observe(session_id: str, raw: str, exchange: int) -> None:
+    """Observe-only: on a feedback-turn exchange, did the reply verify before
+    producing (AskUserQuestion or a verdict-restate before the first
+    Write/Edit)? Miss → observe log. Never raises, never blocks."""
+    state = _cc_load()
+    entry = state.get(session_id) or {}
+    if int(entry.get("last_feedback_exchange") or 0) != exchange or not exchange:
+        return
+
+    last_user_idx = -1
+    records = []
+    for line in raw.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        try:
+            rec = json.loads(line)
+        except Exception:
+            continue
+        if not isinstance(rec, dict):
+            continue
+        records.append(rec)
+        if rec.get("type") == "user":
+            content = (rec.get("message") or {}).get("content")
+            is_tool_result = isinstance(content, list) and any(
+                isinstance(c, dict) and c.get("type") == "tool_result"
+                for c in content)
+            if not is_tool_result:
+                last_user_idx = len(records) - 1
+
+    asked = False
+    produced = False
+    restated = False
+    for rec in records[last_user_idx + 1:]:
+        if rec.get("type") != "assistant":
+            continue
+        content = (rec.get("message") or {}).get("content")
+        if not isinstance(content, list):
+            continue
+        for item in content:
+            if not isinstance(item, dict):
+                continue
+            if item.get("type") == "tool_use":
+                name = str(item.get("name") or "")
+                if name == "AskUserQuestion":
+                    asked = True
+                elif name in ("Write", "Edit") and not (asked or restated):
+                    produced = True
+            elif item.get("type") == "text":
+                if re.search(r"\bverdicts?\b", str(item.get("text") or ""),
+                             re.I) and not produced:
+                    restated = True
+
+    if produced and not (asked or restated):
+        _append_observe({
+            "ts": _now_iso_utc(), "session_id": session_id,
+            "exchange": exchange, "event": "feedback-turn-blind-produce"})
+
+
+# ──────────────────────────────────────────────────────────────────
 # prompt (UserPromptSubmit)
 # ──────────────────────────────────────────────────────────────────
 def handle_prompt(payload: dict) -> None:
@@ -316,6 +619,17 @@ def handle_prompt(payload: dict) -> None:
     # mechanism. This is: a per-prompt classifier that injects the dial when
     # the ask is taste-bearing. Same delivery channel as the steering block,
     # which demonstrably fires every exchange. Fail-safe by contract.
+    # ── Co-Creation Enforcement Layer (2026-07-28) ────────────────────────
+    # Mode card + spiral brake + feedback-turn protocol. When a work mode
+    # resolves, its card REPLACES the generic PARTNER-dial text below (the
+    # specific instruction wins; injection stays compact). Fail-safe.
+    cc_block = ""
+    try:
+        if not _cc_off():
+            cc_block = _cc_prompt_block(session_id, prompt, count)
+    except Exception:
+        cc_block = ""
+
     co_creation = ""
     try:
         p = prompt.lower()
@@ -331,7 +645,7 @@ def handle_prompt(payload: dict) -> None:
         )
         _foggy = re.search(r"\b(not sure|don'?t know|feel like|something is off|"
                            r"help me figure|what do you think|foggy|stuck)\b", p)
-        if (_taste or _foggy) and not _execute:
+        if (_taste or _foggy) and not _execute and not cc_block:
             co_creation = (
                 "CO-CREATION STEP 0 (deterministic, from steering_loop_hook.py): "
                 "taste-bearing or foggy ask detected → PARTNER dial is ON.\n"
@@ -374,6 +688,7 @@ def handle_prompt(payload: dict) -> None:
         if session_misses >= 2 else ""
     )
     block = (
+        cc_block +
         co_creation +
         dialect +
         "STEERING LOOP (deterministic, from steering_loop_hook.py — not user input):\n"
@@ -425,18 +740,26 @@ def handle_stop(payload: dict) -> None:
         found_any = True
         last_text = _extract_text(message.get("content")) or ""
 
-    if not found_any or len(last_text) < 400:
-        sys.exit(0)
-
-    if "next moves" in last_text.lower():
-        sys.exit(0)
-
     state = _load_state()
     exchange = 0
     try:
         exchange = int((state.get(session_id) or {}).get("count", 0))
     except Exception:
         exchange = 0
+
+    # Co-Creation feedback-turn observer (2026-07-28, observe-only) — runs
+    # regardless of Next-Moves compliance, BEFORE the early exits below.
+    try:
+        if not _cc_off():
+            _cc_stop_observe(session_id, raw, exchange)
+    except Exception:
+        pass
+
+    if not found_any or len(last_text) < 400:
+        sys.exit(0)
+
+    if "next moves" in last_text.lower():
+        sys.exit(0)
 
     _append_observe({
         "ts": _now_iso_utc(),

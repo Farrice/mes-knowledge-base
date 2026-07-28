@@ -71,6 +71,33 @@ a shipped artifact.
 Solved a non-trivial problem along the way? The Solution Recorder binding still
 applies: `/extract-approach` → card in `docs/solutions/` before moving on.
 
+## 2.5 Co-Creation Enforcement Layer (2026-07-28 — always-on, stateful)
+
+> Origin: the 2026-07-27 headline session (8 variant rounds) and the 2026-07-28
+> About session (5 renditions on guessed feedback). Root rule: **a doctrine
+> without a counter is a vibe** — the loop only closes when state is measured
+> and injected. Solution card: `docs/solutions/2026-07-28-co-creation-enforcement-layer.md`.
+
+Same hook (`steering_loop_hook.py`), three stateful mechanisms; state in
+`.agent/co-creation-state.json`; renditions derived from the session ledger's
+`produced_paths`. Kill switch: `CO_CREATION_OFF=1` / `.agent/co-creation.off`.
+
+1. **Spiral Brake** — 2 rejected takes on one artifact stem OR 3+ renditions →
+   injected order to stop producing variants: fresh crack from source / ONE
+   AskUserQuestion gut-check / present takes for a pick. 5+ renditions escalates
+   and logs `spiral` to the observe log.
+2. **Feedback-Turn Protocol** — critique-shaped prompt → restate his verdicts as
+   a numbered list first, ONE AskUserQuestion on any ambiguous verdict BEFORE
+   producing, log felt verdicts to voice_ratchet, then produce ONE take. Stop
+   mode logs `feedback-turn-blind-produce` when a Write/Edit happens on a
+   feedback turn with neither a question nor a verdict-restate first.
+3. **Work-Mode Front Door** — every substantive raw prompt gets a mode
+   (`BUILD-NEW` / `REFINE-EXISTING` / `IDEATE` / `DECIDE` / `CAPTURE`) and its
+   operating card, so un-slash-commanded input still runs at workflow standard.
+   The first injected line names the mode; Farrice overrides with "mode X".
+
+Compass doctrine holds: these instruct the model, never block Farrice.
+
 ## 3. Ownership map (don't duplicate)
 
 - Per-exchange floor (this directive) — global, hook-enforced.

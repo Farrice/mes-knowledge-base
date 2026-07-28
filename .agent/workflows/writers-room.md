@@ -258,6 +258,49 @@ Does this diagnosis match what you feel is broken about this draft?
 
 ## Phase 3: Apply the Treatment
 
+> **PEN PROTOCOL (2026-07-28, binding — supersedes layer-by-layer committee editing).**
+> Farrice, after the About v12 treatment: *"so bland and flat and generic... trying to
+> be so safe... We have too many great writers, too many great skills, for this to be
+> the version output that we're getting."* Root causes, named:
+> 1. Layer-by-layer application means every lens applies its move to the same body
+>    and **nobody holds the pen** — the seams between passes ARE the "disjointed,
+>    flows poorly" reading, and lens-as-checklist produces exactly the committee
+>    prose every lens card's own calibration section warns against ("intuition
+>    primitives, not a checklist").
+> 2. The logged-PASS bank was treated as a freeze list — two lines Farrice killed
+>    on 2026-07-28 had survived twelve versions as untouchable because they once
+>    passed.
+> 3. A conditional lens (Dan Wang) was skipped on a format gate when his texture
+>    instinct was exactly what the draft needed.
+>
+> **The rule, mechanical:**
+> 1. **Diagnostics compress into a WRITER'S BRIEF** (one screen max): top-3 issues,
+>    source material (Farrice's own words and scenes FIRST — the input, not prior
+>    drafts), temperature, cap, must-keep lines WITH verdict dates, anchor sentence
+>    if one exists.
+> 2. **ONE lead voice takes the pen** — chosen per piece by what the draft needs
+>    most (texture → Wang, theme → Albom, sentence craft → Cole, persuasion →
+>    Wiebe; Farrice-voice artifacts default to Fresh Voice / GVE embodiment). The
+>    pen writes the WHOLE body in one sitting with full creative latitude. Lenses
+>    are the pen's absorbed instincts, not sequential passes. The pen may override
+>    any lens when its instinct conflicts — it should be able to say why, but it
+>    does not ask permission.
+> 3. **Conditional lenses are invitations, never format gates.** "Only for
+>    long-form" clauses mark who must be CONSULTED on that format — never who may
+>    contribute elsewhere. The pen invites any expert into its hand for any piece.
+> 4. **The room re-enters as critics, after the pen.** Each layer critiques
+>    pass/fail against the diagnosis and the calibration bank — findings, not
+>    rewrites. No lens edits the body. All findings return to the SAME pen for the
+>    next full-latitude pass (one author per body, per standing memory).
+> 5. **The PASS bank is a floor, never a freeze list.** A previously-passed line is
+>    a reference point, not immune to the current diagnosis. Preserving a logged-
+>    PASS line the draft has outgrown is a template trap, not fidelity.
+> 6. The Layer-1 checkpoint below still applies — compression ratio stated before
+>    new material goes in — but it is the pen's own measurement, not a separate
+>    committee pass. The Step 1/2/3 layer walkthroughs below remain as the pen's
+>    instinct inventory and the critics' checklists; they are no longer applied
+>    serially to the body by different hands.
+
 > **LAYER-1 CHECKPOINT (2026-07-27, binding).** Layer 1 produces a COMPRESSED
 > DRAFT as its own artifact, with the compression ratio stated, BEFORE any
 > Layer 2 injection begins. Never inject into an uncompressed draft. The
