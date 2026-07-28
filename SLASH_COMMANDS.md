@@ -1,6 +1,6 @@
 # 🚀 Antigravity Workflows — Complete Index (3202 Commands)
 
-You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type the `/command` directly.
+You don't need to remember these! Type what you want to do (e.g., *"Help me research a market"*), and the system will automatically run the correct workflow. Or type a slash command directly.
 
 ---
 

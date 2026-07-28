@@ -85,17 +85,19 @@ def parse_index_slugs(index_path):
 
 
 def parse_slash_commands(path):
-    """Extract slash command names from SLASH_COMMANDS.md."""
+    """Extract slash command names from SLASH_COMMANDS.md.
+
+    Matches any backticked `/command` pattern anywhere in the file,
+    whether in table rows, prose, or list formatting. This aligns with
+    the generator's definition in generate_slash_commands.py (line 195).
+    """
     commands = set()
     if not path.exists():
         return commands
     content = path.read_text(encoding="utf-8")
-    # Only match `/command` entries inside markdown table rows (lines starting with |)
-    for line in content.splitlines():
-        if not line.strip().startswith("|"):
-            continue
-        for m in re.finditer(r'`/([a-z0-9][a-z0-9-]*)`', line):
-            commands.add(m.group(1))
+    # Match `/command` entries anywhere in the file (backtick-wrapped)
+    for m in re.finditer(r'`/([a-z0-9][a-z0-9-]*)`', content):
+        commands.add(m.group(1))
     return commands
 
 
@@ -123,6 +125,56 @@ def is_archived_skill(slug):
         return False
     frontmatter = head.split("---", 2)[1]
     return "status: archived" in frontmatter
+
+
+def skill_family_of(name: str) -> str | None:
+    """Identify if a workflow command belongs to a skill family.
+
+    Menu wrappers embed the full `skills/<skill>/workflows/<file>.md` path,
+    so the family is read from the command's wrapper file rather than guessed
+    from the command's prefix. Only directories that actually exist count.
+
+    This mirrors the logic in generate_slash_commands.py:skill_family_of().
+    """
+    p = WORKFLOWS_DIR / f"{name}.md"
+    if not p.exists():
+        return None
+    try:
+        content = p.read_text(encoding="utf-8", errors="replace")
+        m = re.search(r"skills/([^/]+)/workflows/", content)
+        if not m:
+            return None
+        skill = m.group(1)
+        # Only a directory that actually exists counts as a family.
+        return skill if (SKILLS_DIR / skill).is_dir() else None
+    except Exception:
+        return None
+
+
+def extract_skill_families_from_slash_commands(doc_text: str) -> set[str]:
+    """Extract skill family names from SLASH_COMMANDS.md.
+
+    Parses the "Expert Skill Families" table to identify which skill families
+    are documented. Returns a set of skill family names (e.g., "luke-iha",
+    "satori", "lara-acosta").
+    """
+    families = set()
+    in_family_table = False
+    for line in doc_text.splitlines():
+        # Start of Expert Skill Families table
+        if "Expert Skill Families" in line and "commands across" in line:
+            in_family_table = True
+            continue
+        # End when we hit the Standalone Workflows section or another section
+        if in_family_table and line.startswith("###"):
+            break
+        # Extract skill names from table rows like: | `/{skill}` **{skill}** | ...
+        if in_family_table and line.startswith("|") and "**" in line:
+            # Skill name is wrapped in ** like **luke-iha** or **satori**
+            m = re.search(r'\*\*([a-z0-9][a-z0-9-]*)\*\*', line)
+            if m:
+                families.add(m.group(1))
+    return families
 
 
 def get_workflow_files():
@@ -300,15 +352,37 @@ def phase_slash_workflow_mapping():
         count += 1
 
     # Workflow files not listed in SLASH_COMMANDS.md.
-    # "Documented" matches the generator's definition: any backticked
-    # `/name` mention anywhere in the doc (table row OR prose) counts.
+    # A workflow is "documented" if:
+    #   1. It's explicitly backticked in SLASH_COMMANDS.md, OR
+    #   2. It belongs to a skill family listed in the "Expert Skill Families" table
+    #
+    # This accounts for SLASH_COMMANDS.md's intentional grouping strategy (Arsenal Loop,
+    # 2026-07-25): skill-family commands are rolled up by family in the table so the
+    # file stays cheap to read. They are implicitly documented via the family count,
+    # not explicitly via individual `/command` backticks.
     doc_text = SLASH_COMMANDS.read_text(encoding="utf-8") if SLASH_COMMANDS.exists() else ""
-    documented_anywhere = set(re.findall(r'`/([a-z0-9][a-z0-9-]*)`', doc_text))
-    for wf in sorted(workflow_files - documented_anywhere):
+    explicitly_documented = set(re.findall(r'`/([a-z0-9][a-z0-9-]*)`', doc_text))
+    documented_families = extract_skill_families_from_slash_commands(doc_text)
+
+    for wf in sorted(workflow_files):
         # Skip special files
         if wf in {"references", "writers-room", "content-sprint"}:
             continue
+
+        # Check if this workflow is documented
+        if wf in explicitly_documented:
+            # Explicitly backticked
+            continue
+
+        # Check if this workflow belongs to a documented skill family
+        family = skill_family_of(wf)
+        if family and family in documented_families:
+            # Implicitly documented via skill family
+            continue
+
+        # If we get here, the workflow is truly undocumented
         add(WARNING, phase, f"Workflow file `.agent/workflows/{wf}.md` exists but `/{wf}` is not in SLASH_COMMANDS.md")
+        count += 1
 
     return count
 
