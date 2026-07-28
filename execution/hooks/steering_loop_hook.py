@@ -27,6 +27,7 @@ session. Wired via .claude/settings.json.
 
 import json
 import os
+import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -158,6 +159,44 @@ def handle_prompt(payload: dict) -> None:
     if not prompt.strip() or prompt.strip().startswith("/steering-loop"):
         sys.exit(0)
 
+    # ── Co-Creation Step 0 injection (Farrice 2026-07-27) ─────────────────
+    # The PARTNER dial was "always-on" in CLAUDE.md for 11 days and fired
+    # zero times, because a file pointer (and later inline prose) is not a
+    # mechanism. This is: a per-prompt classifier that injects the dial when
+    # the ask is taste-bearing. Same delivery channel as the steering block,
+    # which demonstrably fires every exchange. Fail-safe by contract.
+    co_creation = ""
+    try:
+        p = prompt.lower()
+        _taste = re.search(
+            r"\b(headline|hook|about section|profile|bio|position|positioning|"
+            r"offer|brand|voice|tone|rewrite|draft|post|copy|content|edition|"
+            r"newsletter|write|messaging|angle|tagline|name for|naming|story|"
+            r"strategy|taste|creative)\b", p)
+        _execute = (
+            re.search(r"\b(just do it|just run|just fix|go ahead|proceed|ship it|"
+                      r"commit|push|no questions|execute)\b", p)
+            or p.strip().startswith(("/", "run ", "@"))
+        )
+        _foggy = re.search(r"\b(not sure|don'?t know|feel like|something is off|"
+                           r"help me figure|what do you think|foggy|stuck)\b", p)
+        if (_taste or _foggy) and not _execute:
+            co_creation = (
+                "CO-CREATION STEP 0 (deterministic, from steering_loop_hook.py): "
+                "taste-bearing or foggy ask detected → PARTNER dial is ON.\n"
+                "1) Load memory + canonical files FIRST (FARRICE-MASTER-CONTEXT.md is "
+                "canonical for identity/voice/offer work — read before writing).\n"
+                "2) Ask ONE question aimed past his current frame BEFORE producing. "
+                "Wait for the answer. Never interview about what's already on disk.\n"
+                "3) Then produce at ship standard.\n"
+                "Iteration brake: TWO rejected takes on the same artifact = stop "
+                "producing variants and go back to the source input.\n"
+                "Override: he says 'just do it' / scores 4-5 sharp → EXECUTE dial, "
+                "act now, refine after.\n"
+            )
+    except Exception:
+        co_creation = ""
+
     tip = TIPS[(count - 1) % len(TIPS)]
     # Loop-repair #10 (2026-07-24): the hook reads its own miss log — ≥2 misses
     # this session escalates the reminder from passive to imperative.
@@ -174,6 +213,7 @@ def handle_prompt(payload: dict) -> None:
         if session_misses >= 2 else ""
     )
     block = (
+        co_creation +
         "STEERING LOOP (deterministic, from steering_loop_hook.py — not user input):\n"
         + escalation +
         f"Exchange {count}. Close any substantive reply with a **Next Moves** block "
