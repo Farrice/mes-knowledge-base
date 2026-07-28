@@ -2,13 +2,14 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-27** [scratchpad/active] [Scratchpad — About V12](2026-07-27-scratchpad.md) — Scratchpad — About V12
+- **2026-07-27** [positioning-before-headline/active] [Handoff — Positioning Before Headline](2026-07-27-positioning-before-headline.md) — Eight rounds of LinkedIn headline variants, each one worse than the last by Farrice's own read. He called it: "we're so locked in on this little detail of three years behind the counter... cherry picking things that aren't giving us the whole contextual firepower... I feel like we've been getting worse."
 - **2026-07-27** [solutions/active] [Solutions — Prose Gate Scaffolding False Fail](2026-07-27-solutions.md) — Solutions — Prose Gate Scaffolding False Fail
 - **2026-07-27** [crossing-waves/ready] [Antigravity Crossings — Waves 2+3 & Buyer Council OS (10 blends, Mike Taylor forge)](2026-07-27-crossing-waves.md) — Send Monday's 10 founder DMs (V1 free-screenshot lead), then log real replies to councils/buyers/calibration.jsonl
 - **2026-07-27** [extract-os/ready] [Extract OS — v3.0 One Spine, One Dial (adaptive forge + Meg trust layer)](2026-07-27-extract-os.md) — Run /extract v3.0 on a fresh short expert video to validate auto-enrichment + derived manifest live
 - **2026-07-27** [offer-stack/ready] [Farrice Offer Stack — Premium Arc Design (accountable single seat + Engine Install)](2026-07-27-offer-stack.md) — Fire the sends: Cooz DM + 6 faucet asks (K Pilot), 5 teardowns, Week-1 posts — log in revenue_tracker
 - **2026-07-27** [writers-room/active] [LinkedIn profile rewrite v2 — headline, About v9, Cards Face Up post, Why the Better Product Loses article, offer restructured to 3 tiers, VOICE-CARD compiled 1.0->1.1](2026-07-27-writers-room.md) — LinkedIn profile rewrite v2 — headline, About v9, Cards Face Up post, Why the Better Product Loses article, offer restructured to 3 tiers, VOICE-CARD compiled 1.0->1.1
 - **2026-07-27** [signal-pilot-execution/ready] [Signal Pilot — Fork A Day-1 Build v2 (Rosner + Broxterman flagships SEND-ready)](2026-07-27-signal-pilot-execution.md) — Send Rosner + Broxterman DMs, log both, profile live first; then verify Robertson window + build his spec
-- **2026-07-27** [scratchpad/active] [Scratchpad — Profile V2](2026-07-27-scratchpad.md) — Scratchpad — Profile V2
 - **2026-07-27** [linkedin-profile-content/ready] [Farrice Brand — LinkedIn Profile Rewrite v2 (Proof-to-Market Positioning + Voice Card 1.1)](2026-07-27-linkedin-profile-content.md) — Propose 3 teardown brands, pick one, DM it before publishing
 - **2026-07-27** [linkedin-profile-content/ready] [Handoff — LinkedIn Profile + Content Package (2026-07-27)](2026-07-27-linkedin-profile-content-package.md) — About v9 is the register reference; teardown #1 brand not picked, nothing sent
 - **2026-07-26** [opus-5-dialect/ready] [Model Dialects — Opus 5 Probe Battery + Card (subagent scope containment)](2026-07-26-opus-5-dialect.md) — Add the negative-scoping exclusion block to directives/sub_agent_protocol.md, then prove it with one throwaway model:opus dispatch

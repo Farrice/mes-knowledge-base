@@ -1,28 +1,28 @@
 # Latest Handoff
 
-**Thread:** solutions  
-**Full path:** .agent/handoffs/2026-07-27-solutions.md  
+**Thread:** scratchpad  
+**Full path:** .agent/handoffs/2026-07-27-scratchpad.md  
 **Date:** 2026-07-27 (today)  
 **Status:** active  
-**Title:** Solutions — Prose Gate Scaffolding False Fail
+**Title:** Scratchpad — About V12
 
-> Not auto-loaded. Run `/resume` to choose any thread, or `/resume solutions` for this one.
-
----
+> Not auto-loaded. Run `/resume` to choose any thread, or `/resume scratchpad` for this one.
 
 ---
-thread: solutions
+
+---
+thread: scratchpad
 status: active
-resume_hint: Solutions — Prose Gate Scaffolding False Fail
+resume_hint: Scratchpad — About V12
 branch: main
 pin: true
 ---
 
-# Solutions — Prose Gate Scaffolding False Fail
+# Scratchpad — About V12
 
 **Auto-pinned by the Stop-hook backstop** — this session closed without /end-session, /pin-session, or chain finalize, so the deterministic net titled and pinned it to keep the work retrievable.
 
-**Artifacts:** /Users/farricecain/Google Antigravity/_active/linkedin-launch/03-launch/teardowns/2026-07-27-teardown-01-transparent-labs.md, /Users/farricecain/Google Antigravity/_active/linkedin-launch/03-launch/teardowns/2026-07-27-teardown-02-momentous.md, /Users/farricecain/Google Antigravity/_active/linkedin-launch/03-launch/teardowns/2026-07-27-teardown-03-puori.md, /Users/farricecain/Google Antigravity/_active/linkedin-launch/03-launch/2026-07-27-profile-top-to-bottom.md, /Users/farricecain/Google Antigravity/docs/solutions/2026-07-27-prose-gate-scaffolding-false-fail.md
+**Artifacts:** /private/tmp/claude-501/-Users-farricecain-Google-Antigravity/ee1d3250-5fa2-4dbd-a10f-d9f1ed7c1453/scratchpad/about_v12_L1.txt, /private/tmp/claude-501/-Users-farricecain-Google-Antigravity/ee1d3250-5fa2-4dbd-a10f-d9f1ed7c1453/scratchpad/about_v12.txt
 
-**Retrieve:** `/resume solutions`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
+**Retrieve:** `/resume scratchpad`. Re-title with `/pin-session` if you want a sharper name (idempotent — overwrites this one row).
 
