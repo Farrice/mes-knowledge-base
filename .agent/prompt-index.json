@@ -1,6 +1,6 @@
 {
  "generated_from": "prompt_library.py build",
- "count": 7291,
+ "count": 7301,
  "entries": [
   {
    "kind": "prompt-v2",
@@ -8884,6 +8884,76 @@
    "title": "Higgsfield Creative Studio \u2014 Guarded Generation Request",
    "gist": "You are the Higgsfield Creative Studio's generation dispatcher: the layer that stands between a",
    "path": "skills/higgsfield-creative-studio/references/prompts-v2/guarded-generation-request.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "hilary-gridley",
+   "title": "Hilary Gridley \u2014 AI-Native Two-Panel Redesign",
+   "gist": "You are executing Hilary Gridley's situation-redesign method, calibrated to her actual teaching slide (captured verbatim in `extractions/hilary-gridley/visual-context.md`). Her forcing rules: \"If nothing was a surprise a",
+   "path": "skills/hilary-gridley/references/prompts-v2/ai-native-redesign.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "hilary-gridley",
+   "title": "Hilary Gridley \u2014 Edit-Pair Corpus Assembly",
+   "gist": "You are executing the evidence-assembly step of Hilary Gridley's pipeline \u2014 the \"literally had a document, one column drafts people sent me, other column my revisions\" move. The corpus is the standard; everything downstr",
+   "path": "skills/hilary-gridley/references/prompts-v2/edit-pair-harvest.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "hilary-gridley",
+   "title": "Hilary Gridley \u2014 Evaluator Fleet Plan",
+   "gist": "You are executing Hilary Gridley's tool-scoping doctrine. Her law: \"I was NOT like 'I'm going to make a second Hilary'... I made this as specific as: an editor for emails that you are sending to an executive that you nee",
+   "path": "skills/hilary-gridley/references/prompts-v2/evaluator-fleet.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "hilary-gridley",
+   "title": "Hilary Gridley \u2014 Executive Editor (Get-to-Yes)",
+   "gist": "You are building Hilary Gridley's canonical tool for a new operator: the evaluator she made so \"anyone on my team could upload an email they were going to send to an executive and get feedback on how to make that email m",
+   "path": "skills/hilary-gridley/references/prompts-v2/exec-editor.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "hilary-gridley",
+   "title": "Hilary Gridley \u2014 Graduated Feedback Script",
+   "gist": "You are executing Hilary Gridley's feedback grammar for received slop. Her insight: the bad/good binary reads as a character verdict (\"you made slop, you're a bad person\") and kills iteration. Her replacement grammar, ve",
+   "path": "skills/hilary-gridley/references/prompts-v2/feedback-script.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "hilary-gridley",
+   "title": "Hilary Gridley \u2014 Evaluator Tool from Edit Pairs",
+   "gist": "You are executing Hilary Gridley's judgment-encoding pipeline. She led teams and AI adoption at Whoop, teaches \"How to Be a Super Manager with AI\" (Maven, hundreds of managers), and built dozens of narrow evaluator tools",
+   "path": "skills/hilary-gridley/references/prompts-v2/judgment-encode.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "hilary-gridley",
+   "title": "Hilary Gridley \u2014 Quality Bar & Accountability Contract",
+   "gist": "You are executing Hilary Gridley's bar-setting method. Her thesis: \"You have to make it super clear what good looks like. If you don't have clarity on that, you cannot expect anyone on your team to have clarity on that \u2014",
+   "path": "skills/hilary-gridley/references/prompts-v2/quality-bar.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "hilary-gridley",
+   "title": "Hilary Gridley \u2014 Slop Root Diagnosis",
+   "gist": "You are executing Hilary Gridley's slop diagnosis. Her three roots, from watching AI adoption at Whoop and across hundreds of managers' companies: (1) \"everybody's doing this in their own way... completely decentralized\"",
+   "path": "skills/hilary-gridley/references/prompts-v2/slop-diagnostic.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "hilary-gridley",
+   "title": "Hilary Gridley \u2014 Taste Profile Productized Offer Package",
+   "gist": "You are packaging the Taste Profile build as a sellable engagement, grounded in the extraction's market signal: buyer pain has shifted (her course data, Feb 2025 \u2192 now) from \"get my team using AI\" to \"my team uses AI and",
+   "path": "skills/hilary-gridley/references/prompts-v2/taste-profile-offer.md"
+  },
+  {
+   "kind": "prompt-v2",
+   "skill": "hilary-gridley",
+   "title": "Hilary Gridley \u2014 Taste Profile (Three-Layer Context Asset)",
+   "gist": "You are assembling the Taste Profile \u2014 concept from Kipp Bodnar/Kieran Flanagan (*Loop*): \"all of the stuff that ISN'T in an ideal customer profile \u2014 what that customer believes, what they feel, what pushes them too far.",
+   "path": "skills/hilary-gridley/references/prompts-v2/taste-profile.md"
   },
   {
    "kind": "prompt-v2",

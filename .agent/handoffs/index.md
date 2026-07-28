@@ -2,9 +2,13 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-28** [opus5-adaptation-layer/active] [Opus 5 Adaptation Layer — Model-Dialect Resilience (Fable seat)](2026-07-28-opus5-adaptation-layer.md) — Design the harness layer that survives model releases — so a model swap (4.8→5, 5→next)
+- **2026-07-28** [deliverables/active] [Deliverables — Receipt Selftest](2026-07-28-deliverables.md) — Deliverables — Receipt Selftest
+- **2026-07-28** [hillary-gidley/active] [Hillary Gidley — Vision](2026-07-28-hillary-gidley.md) — Hillary Gidley — Vision
+- **2026-07-27** [deliverables/active] [Deliverables — Receipt Selftest](2026-07-27-deliverables.md) — Deliverables — Receipt Selftest
+- **2026-07-27** [solutions/active] [Solutions — Verification With No Reader](2026-07-27-solutions.md) — Solutions — Verification With No Reader
 - **2026-07-27** [scratchpad/active] [Scratchpad — About V12](2026-07-27-scratchpad.md) — Scratchpad — About V12
 - **2026-07-27** [positioning-before-headline/active] [Handoff — Positioning Before Headline](2026-07-27-positioning-before-headline.md) — Eight rounds of LinkedIn headline variants, each one worse than the last by Farrice's own read. He called it: "we're so locked in on this little detail of three years behind the counter... cherry picking things that aren't giving us the whole contextual firepower... I feel like we've been getting worse."
-- **2026-07-27** [solutions/active] [Solutions — Prose Gate Scaffolding False Fail](2026-07-27-solutions.md) — Solutions — Prose Gate Scaffolding False Fail
 - **2026-07-27** [crossing-waves/ready] [Antigravity Crossings — Waves 2+3 & Buyer Council OS (10 blends, Mike Taylor forge)](2026-07-27-crossing-waves.md) — Send Monday's 10 founder DMs (V1 free-screenshot lead), then log real replies to councils/buyers/calibration.jsonl
 - **2026-07-27** [extract-os/ready] [Extract OS — v3.0 One Spine, One Dial (adaptive forge + Meg trust layer)](2026-07-27-extract-os.md) — Run /extract v3.0 on a fresh short expert video to validate auto-enrichment + derived manifest live
 - **2026-07-27** [offer-stack/ready] [Farrice Offer Stack — Premium Arc Design (accountable single seat + Engine Install)](2026-07-27-offer-stack.md) — Fire the sends: Cooz DM + 6 faucet asks (K Pilot), 5 teardowns, Week-1 posts — log in revenue_tracker

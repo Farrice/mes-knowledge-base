@@ -1,32 +1,32 @@
 # Knowledge Briefing
-*Generated: 2026-07-27 | 746 sources | 2,898,818 words*
+*Generated: 2026-07-28 | 753 sources | 2,906,165 words*
 
 ---
 
 ## Recent Activity (Last 7 Days)
 
 - **index** (content) — 5,104 words — `knowledge/index.md`
-- **log** (general) — 15,263 words — `knowledge/log.md`
+- **log** (general) — 15,308 words — `knowledge/log.md`
+- **blind-pass-log** (content) — 79 words — `extractions/hilary-gridley/blind-pass-log.md`
+- **blind-pass-sample** (systems) — 669 words — `extractions/hilary-gridley/blind-pass-sample.md`
+- **extraction** (content [kieran-flanagan]) — 3,747 words — `extractions/hilary-gridley/extraction.md`
+- **how-to-stop-using-ai-so-badly** (content) — 736 words — `extractions/hilary-gridley/reference-corpus/how-to-stop-using-ai-so-badly.md`
+- **todays-managers-will-decide-what** (content) — 568 words — `extractions/hilary-gridley/reference-corpus/todays-managers-will-decide-what.md`
+- **vision** (content) — 999 words — `extractions/hilary-gridley/vision.md`
+- **visual-context** (strategy [april-dunford]) — 504 words — `extractions/hilary-gridley/visual-context.md`
 - **2026-07-27-pulse** (strategy) — 1,148 words — `research_outputs/market-pulse/2026-07-27-pulse.md`
-- **extraction-report** (content) — 2,846 words — `extractions/briar-cochran/extraction-report.md`
-- **vision** (content) — 552 words — `extractions/briar-cochran/vision.md`
-- **visual-context** (research) — 300 words — `extractions/briar-cochran/visual-context.md`
-- **blind-pass-log** (content) — 88 words — `extractions/briar-cochran-content-science/blind-pass-log.md`
-- **blind-pass-sample-win-audit** (content) — 399 words — `extractions/briar-cochran-content-science/blind-pass-sample-win-audit.md`
-- **extraction-report-creative-strategy** (strategy) — 2,921 words — `extractions/dara-denney/extraction-report-creative-strategy.md`
-- **visual-context-creative-strategy** (strategy) — 918 words — `extractions/dara-denney/visual-context-creative-strategy.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 262 | lara-acosta |
+| content | 267 | lara-acosta |
 | copywriting | 103 | luke-iha |
 | general | 92 | nick-saraev |
-| strategy | 81 | april-dunford |
+| strategy | 82 | april-dunford |
 | screenwriting | 54 | connelly |
 | brand | 50 | oren-john |
-| systems | 43 | nick-saraev |
+| systems | 44 | nick-saraev |
 | seo | 26 | nathan-gotch |
 | research | 24 | dai-media |
 | sales | 11 | dai-media |

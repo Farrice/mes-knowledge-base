@@ -1,0 +1,11 @@
+{"ts": "2026-07-27T21:55:39.420731", "id": "stale_registries", "cls": "AUTO", "action": "healed", "note": "registries rebuilt; verify_system no longer flags them"}
+{"ts": "2026-07-27T21:57:58.632428", "id": "born_intent_drift", "cls": "EVIDENCE", "action": "healed", "note": "skill:dara-denney-meta-ads <- f41bd34f8 2026-07-25 feat(dara): creative strategy layer"}
+{"ts": "2026-07-27T21:59:31.132968", "id": "stale_slash_commands", "cls": "AUTO", "action": "heal_failed", "note": "regenerated but 816 workflow(s) still missing"}
+{"ts": "2026-07-28T07:28:43.279290", "id": "born_intent_drift", "action": "committed", "files": [".agent/health/born-intent-baseline.json"]}
+{"ts": "2026-07-28T07:29:08.135576", "id": "born_intent_drift", "action": "committed", "files": [".agent/health/born-intent-baseline.json"]}
+{"ts": "2026-07-28T07:29:20.853319", "id": "born_intent_drift", "action": "committed", "files": [".agent/health/born-intent-baseline.json", "UNRELATED.md"]}
+{"ts": "2026-07-28T07:29:23.718244", "id": "born_intent_drift", "action": "committed", "files": [".agent/health/born-intent-baseline.json"]}
+{"ts": "2026-07-28T07:29:38.205622", "id": "born_intent_drift", "action": "committed", "files": [".agent/health/born-intent-baseline.json"]}
+{"ts": "2026-07-28T07:29:42.596882", "id": "born_intent_drift", "action": "committed", "files": [".agent/health/born-intent-baseline.json"]}
+{"ts": "2026-07-28T07:30:24.158384", "id": "born_intent_drift", "action": "committed", "files": [".agent/health/born-intent-baseline.json"]}
+{"ts": "2026-07-28T08:30:45.718613", "id": "born_intent_drift", "cls": "EVIDENCE", "action": "healed", "note": "skill:dara-denney-meta-ads <- f41bd34f8 2026-07-25 feat(dara): creative strategy layer", "commit": "commit skipped (--no-commit; the caller owns the commit)"}

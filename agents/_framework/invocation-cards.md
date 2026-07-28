@@ -1618,7 +1618,7 @@ PAIRS WITH: see AGENT.md handoffs (advisory)
 
 ## Auto-Generated Stub Cards (pending manual enrichment)
 
-> 68 agent(s) had no invocation card. Stubs below are machine-
+> 69 agent(s) had no invocation card. Stubs below are machine-
 > generated from `agents/<slug>/AGENT.md` — thinner than a hand-written
 > card (~50-80 tokens, no PAIRS WITH). Enrich by rewriting the card and
 > moving it into a themed section above; sync_registries.py will then
@@ -1941,6 +1941,16 @@ DOMAIN: See AGENT.md — domain not yet tagged in frontmatter.
 CORE METHOD: (auto-stub — not yet distilled; see source)
 BEST FOR: This agent's expert calibration — Hall of Fame Exemplars, Signature Moves, and Quality Rubric — lives in the genius.md files loaded at deployment:
 ENTRY PROMPT: agents/greg-hoffman/AGENT.md
+PAIRS WITH: (unassigned — enrich manually)
+```
+
+<!-- GEN:auto-card -->
+```
+AGENT: Hilary Gridley — Agent Configuration
+DOMAIN: See AGENT.md — domain not yet tagged in frontmatter.
+CORE METHOD: (auto-stub — not yet distilled; see source)
+BEST FOR: 1. Judgment encoding — mint evaluator tools from any before/after corpus
+ENTRY PROMPT: agents/hilary-gridley/AGENT.md
 PAIRS WITH: (unassigned — enrich manually)
 ```
 

@@ -327,9 +327,21 @@ def cmd_save(args) -> int:
     existing_threads = {m["thread"] for m in all_metas(include_archived=True)}
     if thread not in existing_threads:
         close = difflib.get_close_matches(thread, list(existing_threads), n=1, cutoff=0.8)
-        if close:
-            print(f"WARNING: new thread '{thread}' is close to existing '{close[0]}' — "
-                  f"if it's the same work-stream, re-run with --thread {close[0]}", file=sys.stderr)
+        if close and not getattr(args, "new_thread", False):
+            # AUTO-ADOPT (Farrice 2026-07-28): the old behavior warned about the
+            # near-duplicate and then created it anyway — so duplicates stacked
+            # and /resume showed two threads for one work-stream (it happened
+            # the very day this shipped: 'opus5-adaptation' landed beside
+            # 'opus5-adaptation-layer'). A warning nobody acts on is a log
+            # line; the fix is to adopt the existing thread and say so.
+            # Deliberate new thread with a similar name: pass --new-thread.
+            print(f"AUTO-ADOPTED existing thread '{close[0]}' (asked-for '{thread}' is a "
+                  f"near-duplicate). Deliberate separate thread? Re-run with --new-thread.",
+                  file=sys.stderr)
+            thread = close[0]
+        elif close:
+            print(f"WARNING: new thread '{thread}' is close to existing '{close[0]}' "
+                  f"(--new-thread was passed, keeping them separate)", file=sys.stderr)
     if args.thread and existing_fm.get("thread") and slugify(existing_fm["thread"]) != thread:
         print(f"WARNING: source frontmatter thread='{existing_fm['thread']}' but --thread='{args.thread}' "
               "— verify this is the right handoff", file=sys.stderr)
@@ -351,6 +363,29 @@ def cmd_save(args) -> int:
             print(f"ERROR: {dest.name} exists for a different thread — use --slug or --overwrite",
                   file=sys.stderr)
             return 1
+
+    # DO-NOT-REBUILD floor (Farrice 2026-07-28): the next session's biggest risk
+    # is re-solving, and a handoff that only lists what WAS built invites exactly
+    # that. Every stored handoff must carry the section; if the author omitted
+    # it, scaffold it here — physically in the file, pointing at the thread's
+    # prior handoff so "extend, never rebuild" has a concrete target. Mechanism,
+    # not reminder: a nudge to add the section is prose, and prose doesn't fire.
+    if not re.search(r"(?im)^#+\s*.*(do\s*n[o']?t\s+rebuild|not\s+rebuild)", body):
+        prior = [m for m in all_metas(include_archived=True)
+                 if m["thread"] == thread and m["path"].name != f"{date}-{args.slug or thread}.md"]
+        prior.sort(key=lambda m: m.get("date", ""), reverse=True)
+        prior_line = (f"- Previous handoff on this thread: `{prior[0]['path'].relative_to(ROOT)}` — "
+                      f"everything it lists as shipped is EXTEND-ONLY.\n" if prior else
+                      "- (first handoff on this thread — list shipped assets here as they land)\n")
+        body = body.rstrip() + (
+            "\n\n## Do NOT Rebuild (auto-scaffolded — the store adds this when a "
+            "handoff omits it)\n"
+            + prior_line +
+            "- Before building anything named above: `/arsenal <task>` and read the "
+            "prior handoff first. Re-solving shipped work is the #1 next-session "
+            "failure mode.\n")
+        print("scaffolded: Do-NOT-Rebuild section (was missing from the handoff body)",
+              file=sys.stderr)
 
     fields = {
         "thread": thread, "status": status,
@@ -576,6 +611,9 @@ def main() -> int:
     sp.add_argument("--unfinished"); sp.add_argument("--branch")
     sp.add_argument("--slug"); sp.add_argument("--date")
     sp.add_argument("--pin", action="store_true"); sp.add_argument("--overwrite", action="store_true")
+    sp.add_argument("--new-thread", action="store_true", dest="new_thread",
+                    help="Force a genuinely new thread even when its name is a near-"
+                         "duplicate of an existing one (default: auto-adopt the existing)")
     sp.set_defaults(fn=cmd_save)
 
     lp = sub.add_parser("list")

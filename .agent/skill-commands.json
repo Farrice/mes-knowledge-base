@@ -337,6 +337,10 @@
       "skill": "diandra-escobar-linkedin-growth"
     },
     {
+      "command": "/diandra-escobar-linkedin-mastery",
+      "skill": "diandra-escobar-linkedin-mastery"
+    },
+    {
       "command": "/doc-coauthoring",
       "skill": "doc-coauthoring"
     },
@@ -1833,7 +1837,8 @@
     "diandra-escobar": {
       "command": "/diandra-escobar",
       "skills": [
-        "diandra-escobar-linkedin-growth"
+        "diandra-escobar-linkedin-growth",
+        "diandra-escobar-linkedin-mastery"
       ]
     },
     "donald-miller": {
@@ -1975,6 +1980,12 @@
       "command": "/henry-shukman",
       "skills": [
         "henry-shukman-contemplative-writing"
+      ]
+    },
+    "hilary-gridley": {
+      "command": "/hilary-gridley",
+      "skills": [
+        "hilary-gridley"
       ]
     },
     "jasmin-alic": {

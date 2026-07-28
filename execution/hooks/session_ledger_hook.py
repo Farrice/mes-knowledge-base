@@ -100,7 +100,72 @@ def _load(session_id: str) -> dict:
         "pending_routing": None, "closeout_ran": False,
         "bash_fail_streak": 0, "learning_debt": [], "solution_cards_saved": 0,
         "learning_debt_nudged": False,
+        "manifest": _empty_manifest(),
     }
+
+
+# ── Execution manifest (Farrice 2026-07-27) ───────────────────────────────
+# WHY: the ledger already knew WHETHER an expert skill loaded (skill_loaded)
+# and whether it was only grepped (skill_grepped). It did not know DEPTH
+# (SKILL.md alone = Tier 1; + genius.md = Tier 2), never recorded which
+# workflow files were read, and never recorded whether the Chain's own gate
+# scripts actually ran. So "we ran the workflow" was an unfalsifiable prose
+# claim: the tool log held the answer and nothing ever compared the two.
+#
+# The manifest is PURE OBSERVATION — recorded here, rendered by
+# execution/execution_receipt.py, reported at Stop. It never blocks and never
+# accrues debt (compass doctrine, 2026-07-27). Every write is individually
+# try/except'd: a manifest bug must never disturb the debt logic above it.
+MANIFEST_CAP = 40
+
+# Chain gate scripts whose Bash invocation is the only proof the step ran.
+GATE_SIGNATURES = {
+    "memory_facade.py": "tier_1_5b_memory_facade",
+    "prose_classifier.py": "slop_ban_check",
+    "citation_integrity.py": "citation_integrity",
+    "chain_runner.py": "chain_runner",
+    "verify_fleet.py": "verify_fleet",
+    "research.py": "receipt_research",
+    "solution_recorder.py": "solution_recorder",
+}
+
+
+def _empty_manifest() -> dict:
+    return {
+        "skills_full": [],      # SKILL.md / lens-card.md Read  -> Tier 1
+        "genius_read": [],      # genius.md Read                -> Tier 2 depth
+        "workflows_read": [],   # .agent/workflows/*.md Read
+        "directives_read": [],  # directives/*.md Read
+        "skill_tool_calls": [], # Skill tool invocations (any skill, expert or not)
+        "gates_run": [],        # Chain gate scripts proven to have executed
+        "recall_calls": 0,      # Tier 1.5a recall grounding
+        "reads_total": 0,
+    }
+
+
+def _mf(ledger: dict) -> dict:
+    """Manifest accessor that survives ledgers written before this field existed."""
+    m = ledger.get("manifest")
+    if not isinstance(m, dict):
+        m = _empty_manifest()
+        ledger["manifest"] = m
+    for k, v in _empty_manifest().items():
+        m.setdefault(k, v)
+    return m
+
+
+def _mf_add(ledger: dict, key: str, value: str) -> bool:
+    try:
+        m = _mf(ledger)
+        lst = m.get(key)
+        if not isinstance(lst, list) or value in lst:
+            return False
+        if len(lst) >= MANIFEST_CAP:
+            return False
+        lst.append(value)
+        return True
+    except Exception:
+        return False
 
 
 def _save(ledger: dict) -> None:
@@ -361,6 +426,40 @@ def handle_posttool(payload: dict) -> None:
     changed = False
     loaded_expert_skill = None
 
+    # ── manifest: pure observation, never debt, never blocks ──────────────
+    try:
+        if tool == "Read":
+            _fp = str(tin.get("file_path", ""))
+            _m = _mf(ledger)
+            _m["reads_total"] = int(_m.get("reads_total", 0)) + 1
+            changed = True
+            _sk = re.search(r"/skills/([^/]+)/(SKILL|genius|lens-card)\.md$", _fp)
+            if _sk:
+                if _sk.group(2) == "genius":
+                    _mf_add(ledger, "genius_read", _sk.group(1))
+                else:
+                    _mf_add(ledger, "skills_full", _sk.group(1))
+            _wf = re.search(r"/\.agent/workflows/([^/]+)\.md$", _fp)
+            if _wf:
+                _mf_add(ledger, "workflows_read", _wf.group(1))
+            _dr = re.search(r"/directives/([^/]+)\.md$", _fp)
+            if _dr:
+                _mf_add(ledger, "directives_read", _dr.group(1))
+        elif tool == "Skill":
+            _mf_add(ledger, "skill_tool_calls", str(tin.get("skill", "")))
+            changed = True
+        elif tool == "Bash":
+            _c = str(tin.get("command", ""))
+            for _sig, _label in GATE_SIGNATURES.items():
+                if _sig in _c and _mf_add(ledger, "gates_run", _label):
+                    changed = True
+        elif tool.startswith("mcp__recall__"):
+            _m = _mf(ledger)
+            _m["recall_calls"] = int(_m.get("recall_calls", 0)) + 1
+            changed = True
+    except Exception:
+        pass
+
     if tool == "Read":
         fp = str(tin.get("file_path", ""))
         m = re.search(r"/skills/([^/]+)/(SKILL|genius|lens-card)\.md$", fp)
@@ -574,10 +673,43 @@ def _derive_title_thread(ledger: dict):
     return title, thread
 
 
+def _emit_receipt(ledger: dict) -> bool:
+    """Execution receipt (Farrice 2026-07-27) — surface what ACTUALLY ran.
+
+    Fires on Stop when durable work exists, and only when the flag set has
+    CHANGED since the last emission (hashed into the ledger). That keeps it
+    from repeating an identical readout on every turn while still surfacing
+    the moment a new gap opens — e.g. a deliverable gets written and the
+    content_creation_gate floor goes unmet.
+
+    Observation only: prints to stderr, returns whether the ledger was
+    mutated. Never blocks, never raises, never accrues debt.
+    """
+    try:
+        if not ledger.get("produced"):
+            return False
+        sys.path.insert(0, str(REPO_ROOT / "execution"))
+        import execution_receipt  # noqa: E402
+
+        r = execution_receipt.build(ledger)
+        sig = json.dumps([r.get("flags"), len(r.get("skills_full") or []),
+                          bool(r.get("finalized_at"))], sort_keys=True)
+        if ledger.get("receipt_sig") == sig:
+            return False
+        ledger["receipt_sig"] = sig
+        print(execution_receipt.render(ledger), file=sys.stderr)
+        return True
+    except Exception:
+        return False
+
+
 def handle_stop(payload: dict) -> None:
     session_id = payload.get("session_id", "unknown")
     stop_active = bool(payload.get("stop_hook_active"))
     ledger = _load(session_id)
+
+    if _emit_receipt(ledger):
+        _save(ledger)
 
     # Handoff persistence nudge — independent of finalize debt. Fires when the
     # /handoff skill ran but the durable `handoff_store.py save` never did, so

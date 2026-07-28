@@ -278,6 +278,86 @@ def render_system_vitals(vitals: dict) -> list:
     return lines
 
 
+def gather_self_heal() -> dict:
+    """Self-heal signal for the '🔧 Self-Heal' brief section (Farrice 2026-07-27).
+
+    "What good does it do that we're logging these things if they don't get
+    fixed and healed and corrected?" — so the daily `cos_prep.py prep` run
+    APPLIES the auto-fixes, and the brief reports only what genuinely needed
+    a human. A green day renders one line; a clean day renders nothing.
+
+    Read-only here (`report`); the healing happens in prep(). Degrades to a
+    warning rather than silence — a dead healer is itself a finding.
+
+    Reads the CACHE at .agent/health/self-heal-latest.json, written by the
+    `heal` run in prep(). It must never scan inline: a live scan runs
+    verify_system.py plus verify_born_intent_drift.py over 6,596 anchors and
+    pushed this brief past 120s the first time it was wired that way.
+    """
+    health = REPO_ROOT / ".agent" / "health"
+    # Prefer the fresh observation (report cache); fall back to the heal record.
+    # These are separate files on purpose — a report must never overwrite the
+    # record of what was actually repaired (D1, 2026-07-27).
+    rows, ts = None, None
+    for p in (health / "self-heal-report.json", health / "self-heal-latest.json"):
+        try:
+            d = json.loads(p.read_text())
+        except Exception:
+            continue
+        if ts is None or str(d.get("ts", "")) > ts:
+            rows, ts = d.get("rows") or [], str(d.get("ts", ""))
+    if rows is None or not ts:
+        return {"dead": True}
+    try:
+        age_h = (datetime.now() - datetime.fromisoformat(ts)).total_seconds() / 3600
+        if age_h > 48:
+            return {"dead": True, "stale_h": round(age_h)}
+    except ValueError:
+        return {"dead": True}
+    judgment = [x for x in rows if x.get("cls") == "JUDGMENT"]
+    fixable = [x for x in rows if x.get("cls") != "JUDGMENT"]
+    healed_today = 0
+    try:
+        today = _today()
+        with (REPO_ROOT / ".agent" / "health" / "self-heal.jsonl").open() as f:
+            healed_today = sum(1 for ln in f
+                               if today in ln and '"action": "healed"' in ln)
+    except OSError:
+        pass
+    return {"judgment": judgment, "fixable": fixable, "healed_today": healed_today}
+
+
+def render_self_heal(sh: dict) -> list:
+    """<=6 lines. Auto-healed items are COUNTED, never itemised — the whole
+    point is that they stopped needing his attention."""
+    if not sh:
+        return []
+    lines = ["", "## 🔧 Self-Heal"]
+    if sh.get("dead"):
+        age = sh.get("stale_h")
+        why = f"last ran {age}h ago" if age else "has never run"
+        lines.append(f"- ⚠️ self-heal {why} — `python3 execution/self_heal.py heal`; "
+                     "a dead healer silently stops healing")
+        return lines
+    n_healed, judgment = sh.get("healed_today", 0), sh.get("judgment") or []
+    if n_healed:
+        lines.append(f"- ✅ {n_healed} issue(s) auto-repaired today, no action needed "
+                     f"([log](.agent/health/self-heal.jsonl))")
+    if sh.get("fixable"):
+        lines.append(f"- 🔧 {len(sh['fixable'])} fixable but unapplied — "
+                     f"`python3 execution/self_heal.py heal`")
+    if not judgment:
+        if not n_healed and not sh.get("fixable"):
+            lines.append("- ✅ nothing to heal, nothing waiting on you")
+        return lines
+    lines.append(f"- 🧠 {len(judgment)} need your judgment (never auto-healed):")
+    for j in judgment[:4]:
+        lines.append(f"  - **{j.get('id')}** — {str(j.get('what', ''))[:150]}")
+    if len(judgment) > 4:
+        lines.append(f"  - +{len(judgment) - 4} more — `python3 execution/self_heal.py report`")
+    return lines
+
+
 def gather_memory_review() -> dict:
     """Pending distilled-rule signal for the '🧠 Memory Review' brief section
     (loop-repair #7, 2026-07-24 — pull-surface half only; auto-approval stays
@@ -896,7 +976,7 @@ def generate_questions(staleness, due_goals, loops, weekly_due, today) -> list:
 
 def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions, weekly_line,
                  outer_loop=None, evolution=None, world_pulse=None, loops_src="",
-                 system_vitals=None, memory_review=None) -> str:
+                 system_vitals=None, memory_review=None, self_heal=None) -> str:
     """Self-contained brief (Farrice, 2026-07-08, binding): every section names
     its source as a clickable repo-relative link, every question carries a
     provenance line. He should never have to ask where a line came from."""
@@ -945,6 +1025,8 @@ def render_brief(state, goals, due_goals, revenue_due, threads, loops, questions
         lines.extend(render_evolution(evolution))
     if system_vitals:
         lines.extend(render_system_vitals(system_vitals))
+    if self_heal:
+        lines.extend(render_self_heal(self_heal))
     if memory_review:
         lines.extend(render_memory_review(memory_review))
     lines.append("")
@@ -1022,10 +1104,24 @@ def cmd_prep(force: bool, dry_run: bool, date_str: str = None) -> int:
     evolution = gather_evolution()
     system_vitals = gather_system_vitals()
     memory_review = gather_memory_review()
+    # OBSERVATION ONLY (Farrice, 2026-07-27, binding): session-end closeout is
+    # the PRIMARY healing mechanism — failures get swept and repaired in the
+    # session that produced them, not on a timetable that is inconvenient when
+    # he is creating at speed. The daily brief only reports what is still open.
+    # `report` runs the detectors (~2s) and never writes the heal record.
+    if not dry_run:
+        try:
+            subprocess.run([sys.executable,
+                            str(REPO_ROOT / 'execution' / 'self_heal.py'), 'report'],
+                           capture_output=True, text=True, timeout=180,
+                           cwd=str(REPO_ROOT))
+        except Exception:
+            pass
+    self_heal = gather_self_heal()
     brief = render_brief(state, goals, due_goals, revenue_due, threads, loops,
                          questions, weekly_line, outer_loop, evolution, world_pulse,
                          loops_src=loops_src, system_vitals=system_vitals,
-                         memory_review=memory_review)
+                         memory_review=memory_review, self_heal=self_heal)
 
     if dry_run:
         print(brief)

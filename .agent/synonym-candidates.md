@@ -41,3 +41,8 @@ generalizes (vs. being a one-off), and hand-adds it to `SYNONYMS` if so.
 
 - `extract-forge` -> `briar-cochran-content-science` (manual load, 2026-07-25T09:14:09.512247)
 - `extract-forge` -> `dara-denney-meta-ads` (manual load, 2026-07-25T14:49:41.158504)
+
+## 2026-07-28
+
+- `writers-room` -> `ward-farnsworth-rhetorical-mastery` (manual load, 2026-07-27T11:33:16.233142)
+- `writers-room` -> `writers-room` (manual load, 2026-07-27T16:56:47.267244)

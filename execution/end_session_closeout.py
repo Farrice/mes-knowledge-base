@@ -671,6 +671,62 @@ def step_menu_parity(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tupl
         return "FAIL", f"{type(e).__name__}: {e}"
 
 
+def step_self_heal(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
+    """PRIMARY healing path (Farrice, 2026-07-27, binding).
+
+    "When I run the end session or close out a session, self-heal should run as
+    a backup just in case. If there are any errors or issues or failure points
+    within that session, it sweeps the session and then heals in that moment.
+    That way it's not something waiting to get healed later that day or the
+    week, at a timetable interval that is inconvenient if I'm creating at speed."
+
+    So this — not the 06:45 job — is where repairs happen. The daily brief was
+    demoted to observation-only the same day. A failure produced in a session
+    gets swept and repaired in that session, and `failure_learning.py` (invoked
+    inside the heal path) turns any recurrence into a written prevention rule,
+    so the same failure cannot quietly return.
+
+    Runs FIRST in the spine, before `commit-gate`, with `--no-commit` — the
+    commit gate then sweeps the repairs into the one session commit instead of
+    self-heal minting a second. Never blocks: a heal that fails or times out
+    degrades to a reported line and the closeout continues.
+    """
+    if dry_run:
+        return "OK", "[dry-run] would sweep this session and apply AUTO/EVIDENCE repairs"
+    try:
+        r = subprocess.run(
+            [sys.executable, str(ROOT / "execution" / "self_heal.py"), "heal", "--no-commit"],
+            cwd=ROOT, capture_output=True, text=True, timeout=420)
+        out = (r.stdout or "") + (r.stderr or "")
+        healed = out.count("[FIXED]")
+        failed = out.count("[COULD NOT FIX]")
+        m = re.search(r"(\d+) need your judgment", out)
+        judgment = int(m.group(1)) if m else 0
+        learned = ""
+        try:
+            lp = subprocess.run(
+                [sys.executable, str(ROOT / "execution" / "failure_learning.py")],
+                cwd=ROOT, capture_output=True, text=True, timeout=60)
+            lm = re.search(r"(\d+) rule\(s\) written", lp.stdout or "")
+            if lm:
+                learned = f" · {lm.group(1)} prevention rule(s) learned"
+        except Exception:
+            pass
+        parts = []
+        if healed:
+            parts.append(f"{healed} repaired")
+        if failed:
+            parts.append(f"{failed} could not be fixed")
+        if judgment:
+            parts.append(f"{judgment} need judgment (surfaced at next session open)")
+        return "OK", (("; ".join(parts) if parts else "nothing to heal — session closed clean")
+                      + learned)
+    except subprocess.TimeoutExpired:
+        return "FAIL", "self-heal timed out (420s) — run `python3 execution/self_heal.py heal` by hand"
+    except Exception as e:
+        return "FAIL", f"{type(e).__name__}: {e}"
+
+
 # ─────────────────────────────────────────────────────────────
 # spine runner
 # ─────────────────────────────────────────────────────────────
@@ -678,6 +734,9 @@ def step_menu_parity(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tupl
 def run(slug: str, degraded: bool, dry_run: bool) -> int:
     ctx: Dict[str, Any] = {}
     steps = [
+        # self-heal runs BEFORE commit-gate so its repairs land in the session's
+        # own commit rather than a second one (see step_self_heal docstring).
+        ("self-heal", lambda: step_self_heal(ctx, degraded, dry_run)),
         ("commit-gate", lambda: step_commit_gate(ctx, degraded, dry_run)),
         ("resolve-handoff", lambda: step_resolve_handoff(ctx, degraded, dry_run)),
         ("closeout-intelligence", lambda: step_closeout_intelligence(ctx, degraded, dry_run)),
