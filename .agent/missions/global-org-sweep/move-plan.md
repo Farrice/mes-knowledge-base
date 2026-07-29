@@ -1,6 +1,32 @@
 # MOVE PLAN — Global Organization Sweep
 
-**Generated** 2026-07-28 · **Status**: awaiting Farrice's approval · **Nothing has moved.**
+**Generated** 2026-07-28 · **Status: ✅ EXECUTED 2026-07-28** (approved by Farrice in-session).
+
+> **This document is the plan as proposed — a before/after record, deliberately not
+> rewritten to the after-state** (`project_relocate.py` treats `*/move-plan.md` as frozen,
+> so paths below still read as they did at planning time). What actually happened:
+>
+> | | |
+> |---|---|
+> | CLEAR tier | 66 files filed across 24 projects, **24/24 verify PASS**, 58 inbound refs rewritten |
+> | Skipped by design | the 3 low-confidence items (J1) — all confirmed genuinely ambiguous |
+> | ONE TREE (J3) | `projects/` dissolved into `_active/`; 9 stub pointers left behind |
+> | Duplicates (J2) | Ken's Fasting 3→1 (`_active/kens-fasting`), PMF 4→1 (`_active/pmf-offer-shelf`) |
+> | Archived (J4) | 14 projects → `_archive/2026-07-28-org-sweep/`, each with a `MOVED.md` pointer. **Nothing deleted.** |
+> | `deliverables/` (J5) | 17 of 22 filed; 5 genuinely-unclear ones deferred back to Farrice |
+> | Root strays (J6) | all 5 filed; repo root is now canonical docs only |
+> | Taxonomy | `linkedin-launch` reconciled to one 00→06 chain; `dual_taxonomy` drift = 0 |
+> | Canon | 9 genuine stamps applied, **8 false positives confirmed and left alone** |
+> | Totals | **~29,300 files relocated across 60 operations, 0 verify failures** |
+>
+> **Not archived despite being cold** — both turned out to be wired, and archiving them
+> would have broken things: `remotion-studio` (`/create-video` shells into it) and
+> `claude-code-harness-analysis` (cited by `session_ledger_hook.py`).
+>
+> **Still open for Farrice** (J5): `MyBPM-SEO-AEO-Optimization.md`,
+> `mybpm-event-planning-analysis.md`, `suzuki-general-use-demo-pack.md`,
+> `prompt-course-consumer-posture.md`, `IN-BETWEENER_pitch_deck.html` — still in
+> `deliverables/`, no correct default.
 
 Built from `project_filer.py plan` across all 70 projects (read-only, no `--out`) plus
 `artifact_router.py classify` for the loose files outside any project. Zero scan errors.

@@ -17,7 +17,7 @@
 | 6 | Week-2 POV post batch (About-thesis pillar, 3 posts) | ⚪ OPEN | pillar spine in launch plan |
 | 7 | Day-7 checkpoint review (Mon 08-03): tripwire count, escalate or hold | ⚪ SCHEDULED | tripwires in wargame doc |
 | 8 | One-gap DM template + carousel visual assets (tomorrow's build lane) | ⚪ OPEN | mission 3+4 outputs feed it |
-| 9 | SYSTEM: Global org sweep — propose-first move-plan + PROJECTS.md + repo-wide canon stamps (Opus 5 A/B candidate) | ⚪ OPEN | `.agent/missions/global-org-sweep/brief.md` |
+| 9 | SYSTEM: Global org sweep — propose-first move-plan + PROJECTS.md + repo-wide canon stamps (Opus 5 A/B candidate) | ✅ DONE 07-28 (approved in-session, then executed) | `PROJECTS.md` · `.agent/missions/global-org-sweep/move-plan.md` · `execution/projects_index.py` |
 
 ## Standing facts (so no session re-asks)
 
@@ -37,3 +37,4 @@
 
 - 2026-07-28: Campaign file created; mission 1 closed with Farrice verdict GOOD.
 - 2026-07-28 (evening): Mission 2 (profile go-live doc) shipped — Take A locked, banner design brief + Featured thumbnails included. /missions front door + canon layer (audit, read guard, CANON.md) + org-sweep brief shipped same session.
+- 2026-07-28 (late): Mission 9 (global org sweep) DONE — approved in-session, then executed. ~29,300 files relocated across 60 operations, 0 verify failures, nothing deleted. `projects/` dissolved into `_active/` (one tree), 14 cold projects archived with `MOVED.md` pointers, Ken's Fasting 3→1 and PMF 4→1, `deliverables/` + repo root cleared. `PROJECTS.md` is now the generated retrieval front door (regenerates daily); org drift surfaces at SessionStart as a judgment item. This project's own taxonomy collision (`03-content`/`03-launch`, `04-content-os`/`04-deliverables`) is reconciled to one 00→06 chain — CANON.md here is current.

@@ -486,6 +486,30 @@ def step_solution_cards(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> T
         return "FAIL", f"{type(e).__name__}: {e}"
 
 
+def step_projects_index(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
+    """Regenerate PROJECTS.md so a session that moved files leaves a correct map
+    behind. Runs AFTER artifact-sweep for that reason. Cheap (~0.3s, one git
+    call). The daily 06:00 audit is the deterministic backstop if this is skipped."""
+    script = EXEC / "projects_index.py"
+    if not script.exists():
+        return "SKIP", "projects_index.py not present"
+    if dry_run:
+        return "OK", "[dry-run] would regenerate PROJECTS.md"
+    try:
+        r = subprocess.run(
+            [sys.executable, str(script), "sync"],
+            capture_output=True, text=True, timeout=60, cwd=str(ROOT),
+        )
+        last = (r.stdout or "").strip().splitlines()[-1:] or ["(no output)"]
+        if r.returncode != 0:
+            return "FAIL", f"exit {r.returncode} — {(r.stderr or '')[-160:]}"
+        return "OK", last[0][:200]
+    except subprocess.TimeoutExpired:
+        return "FAIL", "timed out after 60s"
+    except Exception as e:
+        return "FAIL", f"{type(e).__name__}: {e}"
+
+
 def step_artifact_sweep(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> Tuple[str, str]:
     """File unambiguous recent loose project-root artifacts into canonical
     subfolders (only-populated policy). Degraded-safe: project_filer sweep
@@ -750,6 +774,7 @@ def run(slug: str, degraded: bool, dry_run: bool) -> int:
         ("archive-session-state", lambda: step_archive_session_state(ctx, degraded, dry_run, slug)),
         ("session-guide", lambda: step_session_guide(ctx, degraded, dry_run, slug)),
         ("artifact-sweep", lambda: step_artifact_sweep(ctx, degraded, dry_run)),
+        ("projects-index", lambda: step_projects_index(ctx, degraded, dry_run)),
         ("menu-parity", lambda: step_menu_parity(ctx, degraded, dry_run)),
         ("friction-nudge", lambda: step_friction_nudge(ctx, degraded, dry_run)),
         ("finalize-debt-nudge", lambda: step_finalize_debt_nudge(ctx, degraded, dry_run)),

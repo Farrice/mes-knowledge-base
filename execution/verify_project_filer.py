@@ -19,6 +19,7 @@ Exit 0 = PASS, 1 = FAIL.
 """
 from __future__ import annotations
 
+import ast
 import subprocess
 import sys
 import tempfile
@@ -93,7 +94,35 @@ def main() -> int:
         if pf.sibling_web_host(proj, proj / "notes.md"):
             failures.append("a plain .md was treated as a web asset")
 
-    # 5. The sweep window must widen after a gap, never drop files.
+    # 5. The write-time hook and the filer must agree on what never moves.
+    #    They drifted on 2026-07-28: the filer exempted CAMPAIGN.md while the hook
+    #    still advised filing it, so the enforcement layer was actively
+    #    recommending the move that had just been reversed.
+    #    Read by walking the AST — a verifier must never execute the thing it checks.
+    hook = Path(__file__).resolve().parent / "hooks" / "artifact_placement_hook.py"
+    if hook.is_file():
+        pinned: set[str] = set()
+        try:
+            tree = ast.parse(hook.read_text(encoding="utf-8"))
+            for node in ast.walk(tree):
+                if not isinstance(node, ast.Assign):
+                    continue
+                if not any(getattr(t, "id", None) == "PINNED_NAMES" for t in node.targets):
+                    continue
+                if isinstance(node.value, (ast.Set, ast.List, ast.Tuple)):
+                    pinned = {e.value for e in node.value.elts
+                              if isinstance(e, ast.Constant) and isinstance(e.value, str)}
+        except (OSError, SyntaxError) as exc:
+            failures.append(f"could not parse PINNED_NAMES from the placement hook: {exc}")
+        missing = {n for n in MUST_BE_EXEMPT if n not in pinned}
+        if pinned and missing:
+            failures.append(
+                f"placement hook PINNED_NAMES is missing {sorted(missing)} — the "
+                f"write-time advisory would tell an agent to file a file the "
+                f"filer itself refuses to move"
+            )
+
+    # 6. The sweep window must widen after a gap, never drop files.
     if pf.effective_since_minutes(None) is not None and not pf.SWEEP_STATE.exists():
         failures.append("no sweep state should mean a full scan (None)")
     if pf.effective_since_minutes(30) != 30:

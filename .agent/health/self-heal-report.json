@@ -1,7 +1,13 @@
 {
- "ts": "2026-07-28T19:59:16.793328",
+ "ts": "2026-07-28T21:49:53.262701",
  "mode": "report",
  "rows": [
+  {
+   "id": "platform_drift",
+   "cls": "JUDGMENT",
+   "what": "1 constitution/portability drift \u2014 platform_compiler reports siblings out of sync; the write-mode fix is deliberately not automated (it rewrites constitution files)",
+   "fix": "python3 execution/platform_compiler.py sync   # review the diff first"
+  },
   {
    "id": "wiring_orphans",
    "cls": "JUDGMENT",
@@ -53,6 +59,16 @@
     "by_class": {
      "execution": 46
     }
+   }
+  },
+  {
+   "id": "org_drift",
+   "cls": "JUDGMENT",
+   "what": "organization drift: 5 file(s) the sweep deferred for judgment",
+   "fix": "python3 execution/projects_index.py check   # stamp status:, or file the strays",
+   "detail": {
+    "drift": [],
+    "deferred_files": 5
    }
   },
   {

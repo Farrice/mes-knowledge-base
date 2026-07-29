@@ -14,8 +14,13 @@ from __future__ import annotations
 import json
 import sys
 
+# MUST stay in sync with project_filer.EXEMPT_NAMES — verify_project_filer.py
+# asserts it. Each of these is a contract with another tool: CANON.md is written
+# at the project root by canon_audit, CAMPAIGN.md is read by exact path by
+# campaign_beacon, MOVED.md is a relocation pointer that must not move.
 PINNED_NAMES = {"INDEX.md", "README.md", "CLAUDE.md", "RISKS.md",
-                "GEMINI.md", "AGENTS.md", "CODEX.md", ".gitignore"}
+                "GEMINI.md", "AGENTS.md", "CODEX.md", ".gitignore",
+                "CANON.md", "CAMPAIGN.md", "MOVED.md"}
 
 CONTENT_SUFFIXES = {".md", ".txt", ".html", ".htm", ".pdf", ".png", ".svg",
                     ".jpg", ".jpeg", ".gif", ".webp", ".mp4", ".mov", ".docx",
