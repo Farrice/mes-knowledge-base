@@ -419,6 +419,8 @@ HOOK_UNOBSERVABLE = {
     "concurrent_session_alarm.py": "print-only SessionStart alarm",
     "pending_decisions_hook.py": "print-only SessionStart surface",
     "session_end_hook.py": "SessionEnd — fires after ledgers close",
+    "campaign_beacon.py": "print-only SessionStart announcement of active campaign + next mission",
+    "superseded_read_guard.py": "print-only PostToolUse redirect on superseded/archived file Read",
 }
 # Feed file -> (producer description, max age days; None = exists-only).
 FEED_FRESHNESS = {
