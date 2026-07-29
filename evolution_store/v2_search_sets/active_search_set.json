@@ -2811,8 +2811,36 @@
         "gaming_flag": false
       },
       "notes": "Assembly mission: locked copy carried verbatim (felt verdict 9/10 beats classifier flags); canon guard live-tested; beacon regex fixed for 2b rows | Factual Grounding: 9 | Verification: PASS | Rubric anchor: paste-ready completeness (every profile field executable tonight without another lookup)"
+    },
+    {
+      "trace_id": "20260729_153551",
+      "timestamp": "2026-07-29T15:35:51.892116",
+      "schema_version": "v3",
+      "component": "_active/farrice-brand/voice",
+      "expert": "voice-os",
+      "workflow": "go",
+      "quality": {
+        "composite": 6.67,
+        "intent_alignment": 4.0,
+        "expert_standard": 8.0,
+        "adversarial_resilience": 8.0,
+        "factual_grounding": 0.0
+      },
+      "reasoning": {
+        "hypothesis": "",
+        "variant_diff": "",
+        "reasoning_chain": [],
+        "failure_signals": []
+      },
+      "evaluation": {
+        "benchmark_tasks": [],
+        "held_out_score": 0.0,
+        "held_out_delta": 0.0,
+        "gaming_flag": false
+      },
+      "notes": "No copy produced by design \u2014 spiral brake honored. Root cause is evidence-backed from the calibration log, not inferred. Drive verified by folder-by-folder listing, not assumed. Deliberately did NOT paste into the go-live doc, did NOT run prose_classifier (nothing passed), did NOT upload Profile Go-Live Master \u2014 all three gated on a PASS that did not come. | Factual Grounding: 9 | Verification: PASS (Drive state read back after upload; calibration log lines quoted verbatim from disk)"
     }
   ],
-  "total_cases": 99,
-  "last_updated": "2026-07-28T19:42:26.778677"
+  "total_cases": 100,
+  "last_updated": "2026-07-29T15:35:51.893397"
 }

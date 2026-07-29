@@ -8,9 +8,9 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 | Project | Tree | Entry point | Last touched | Status |
 |---|---|---|---|---|
-| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-07-28 | active |
+| `farrice-brand` | _active/ | `_active/farrice-brand/INDEX.md` | 2026-07-29 | active |
+| `linkedin-launch` | _active/ | `_active/linkedin-launch/CAMPAIGN.md` | 2026-07-29 | active* |
 | `farrice-final-10` | _active/ | `_active/farrice-final-10/INDEX.md` | 2026-07-28 | active* |
-| `linkedin-launch` | _active/ | `_active/linkedin-launch/CAMPAIGN.md` | 2026-07-28 | active* |
 | `positioning-cowork-2026-07-25` | _active/ | `_active/positioning-cowork-2026-07-25/INDEX.md` | 2026-07-28 | active* |
 | `re-compliance` | _active/ | `_active/re-compliance/INDEX.md` | 2026-07-28 | active |
 | `health-performance-ip-library` | _active/ | `_active/health-performance-ip-library/INDEX.md` | 2026-07-27 | active* |
@@ -54,6 +54,7 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 
 | Project | Tree | Entry point | Last touched | Status |
 |---|---|---|---|---|
+| `operator-cockpit-v2` | _active/ | `_active/operator-cockpit-v2/INDEX.md` | 2026-07-29 | done |
 | `alignment-architect-2026-07-07` | _active/ | `_active/alignment-architect-2026-07-07/INDEX.md` | 2026-07-28 | done |
 | `memory-bakeoff` | _active/ | `_active/memory-bakeoff/INDEX.md` | 2026-07-28 | done |
 | `trendscale-trial` | _active/ | `_active/trendscale-trial/INDEX.md` | 2026-07-28 | done |
@@ -70,10 +71,15 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `context-engineering-os` | _active/ | `_active/context-engineering-os/INDEX.md` | 2026-07-02 | done |
 | `fork-harvest-2026-07-02` | _active/ | `_active/fork-harvest-2026-07-02/INDEX.md` | 2026-07-02 | done |
 | `path-decision-2026-07-01` | _active/ | `_active/path-decision-2026-07-01/INDEX.md` | 2026-07-02 | done |
-| `operator-cockpit-v2` | _active/ | `_active/operator-cockpit-v2/INDEX.md` | 2026-06-30 | done |
 | `operator-core-backport` | _active/ | `_active/operator-core-backport/INDEX.md` | 2026-06-30 | done |
 | `codex-harvest-2026-06-11` | _active/ | `_active/codex-harvest-2026-06-11/INDEX.md` | 2026-06-11 | done |
 | `platform-bakeoff` | _active/ | `_active/platform-bakeoff/INDEX.md` | 2026-06-11 | done |
 
 **56 projects** — 21 active, 15 parked, 20 done.
+
+## Needs judgment
+
+Contradictions only — not a list of unstamped projects.
+
+- **status_done_but_live** — `_active/operator-cockpit-v2`: stamped done, then touched 0d ago
 

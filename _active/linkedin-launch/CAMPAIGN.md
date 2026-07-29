@@ -17,7 +17,8 @@
 | 6 | Week-2 POV post batch (About-thesis pillar, 3 posts) | ⚪ OPEN | pillar spine in launch plan |
 | 7 | Day-7 checkpoint review (Mon 08-03): tripwire count, escalate or hold | ⚪ SCHEDULED | tripwires in wargame doc |
 | 8 | One-gap DM template + carousel visual assets (tomorrow's build lane) | ⚪ OPEN | mission 3+4 outputs feed it |
-| 10 | Context OS package (7 docs) + Google Drive export for global AI use | ✅ DONE 07-29 | `04-deliverables/context-os/` + Drive folder "Farrice — LinkedIn Launch OS" |
+| 10 | Context OS package (7 docs) + Google Drive export for global AI use | ✅ DONE 07-29 (Drive 17/17 verified) | `04-deliverables/context-os/` + Drive folder "Farrice — LinkedIn Launch OS" |
+| 11 | Non-About profile copy (Experience ×3, Featured ×3, Services) to the Take A bar | 🔴 BLOCKED ON FARRICE — v3 rejected 07-29, **spiral brake armed**: no rendition 4 until raw voice-dump per job | `../03-launch/2026-07-29-profile-copy-v3-PENDING-VERDICT.md` (status: rejected, negative reference only) |
 | 9 | SYSTEM: Global org sweep — propose-first move-plan + PROJECTS.md + repo-wide canon stamps (Opus 5 A/B candidate) | ✅ DONE 07-28 (approved in-session, then executed) | `PROJECTS.md` · `.agent/missions/global-org-sweep/move-plan.md` · `execution/projects_index.py` |
 
 ## Standing facts (so no session re-asks)
@@ -38,6 +39,8 @@
 ## Log
 
 - 2026-07-29: Mission 10 — Context OS package (7 docs: master context, offer canon, ICP truth map, voice register w/ privacy law, content strategy, proof library) + Drive export.
+- 2026-07-29 (late): Drive export VERIFIED COMPLETE — 17/17 docs. The outage had cut off after "02 Working Assets"; `03 Research` was empty and now holds the 3 fresh-research receipts from mission 1 (uploaded as `text/markdown` via `gws drive +upload`, not Docs like the other 14 — readable either way, flagged for consistency only). No duplicate folders or docs from the outage. "Profile Go-Live Master" still correctly excluded — it does NOT go up until the profile copy passes.
+- 2026-07-29 (late): **Profile copy v3 REJECTED by Farrice** — 1/10 usable, all blocks 4/10, "nowhere near as good" as the About takes (9/10). **Spiral brake ARMED: no rendition 4 exists and none may be written until Farrice's raw voice-dump per job is on disk.** Root cause on disk in `../farrice-brand/voice/calibration-log.md` (2026-07-29 rows): v3 was briefed from a banned-tells list instead of an architecture, so it fixed the 07-29 surface FAILs and reintroduced the confession-I spine that killed About v10-v14 on 07-28 — no reader-turn, "why should the inbound lead care" never asked. Standing rule now logged: **every rendition brief carries the reader-architecture ruling, or it is optimizing against the last complaint.** Second finding: LinkedIn Experience slots are résumé fields, so Take A's full scene→turn arc does not fit — the mechanism there is ONE reader-turn per entry, a design decision v3 never attempted.
 
 - 2026-07-28: Campaign file created; mission 1 closed with Farrice verdict GOOD.
 - 2026-07-28 (evening): Mission 2 (profile go-live doc) shipped — Take A locked, banner design brief + Featured thumbnails included. /missions front door + canon layer (audit, read guard, CANON.md) + org-sweep brief shipped same session.

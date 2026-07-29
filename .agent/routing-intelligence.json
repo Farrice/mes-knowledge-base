@@ -40,7 +40,7 @@
                 "dai-media-consumer-posture": 2,
                 "Content": 64,
                 "writing-depth-layer": 3,
-                "Analysis": 9,
+                "Analysis": 10,
                 "seena-rez-tiktok-commerce": 2,
                 "story-compass": 1,
                 "lara-acosta-linkedin-growth": 1,
@@ -116,9 +116,9 @@
                 "packy-mccormick-writing": 1,
                 "matthew-volkwyn-copywriting": 1
             },
-            "total_routings": 717,
+            "total_routings": 718,
             "tier_counts": {
-                "0": 717,
+                "0": 718,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -129,7 +129,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 425,
-                "finalize-auto": 292
+                "finalize-auto": 293
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -231,7 +231,7 @@
                 "ethan-smith-aeo": 3,
                 "luke-iha-vsl-leads": 10,
                 "gemini-api-dev": 5,
-                "voice-os": 16,
+                "voice-os": 17,
                 "michael-connelly-vivid-writing": 1,
                 "joey-cinema-os": 9,
                 "nate-b-jones-auto-improvement-loops": 6,
@@ -14295,6 +14295,23 @@
             "workflow_used": "supercomputer",
             "ensemble": true,
             "compound_pairing": "supercomputer + nate-b-jones-context-engineering + doc-coauthoring",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260729_223551_76da",
+            "timestamp": "2026-07-29T22:35:51.872942+00:00",
+            "session_id": "",
+            "request_summary": "Diagnosed the profile-copy v3 FAIL to root cause (briefed from a ban list, not an architecture; reintroduced the confession-I spine that killed About v10-v14) and armed the spiral brake instead of wri",
+            "intent_score": 4,
+            "domain_detected": "Analysis",
+            "experts_deployed": [
+                "voice-os"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "go",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

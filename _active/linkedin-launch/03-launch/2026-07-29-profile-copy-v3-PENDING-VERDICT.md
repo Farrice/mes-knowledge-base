@@ -1,12 +1,21 @@
 ---
-status: draft
-note: Rendition 3 of the non-About profile copy. Awaiting Farrice's felt verdict. On PASS, these blocks replace their counterparts in 2026-07-28-PROFILE-GO-LIVE-TONIGHT.md verbatim. On FAIL, spiral brake applies — stop producing, collect a raw voice-dump per job from Farrice before any rendition 4.
+status: rejected
+verdict: FAIL — Farrice 2026-07-29. "1 out of 10 usable, they all were 4/10. Nowhere near as good as the About takes. Not usable, I would not post it."
+do_not_build_on: true
+spiral_brake: ARMED 2026-07-29. No rendition 4 until a raw voice-dump per job is collected from Farrice. His words are the ore.
+root_cause: briefed from a BAN LIST, not an architecture. Fixed the 07-29 surface FAILs and reintroduced the confession-I architecture that killed About v10-v14 on 07-28 (no reader-turn, "why should the inbound lead care" never asked). See calibration-log.md 2026-07-29 rows.
 pen: single pen, ward-saxon-punch + perell-draft-pop-first loaded as skill files, VOICE-CARD + Take A as bar
 register: "silent confidence and swag with wit and humor" (Farrice, 2026-07-29, verbatim)
 banned_tells: grand-noun labeling ("the work", "that's where the expertise comes from") · repetitive "The..." openings · "room" · prestige register · em-dashes · exclamation marks (voice_ratchet FAILs 2026-07-29)
 ---
 
-# Profile Copy v3 — pending Farrice verdict
+# Profile Copy v3 — REJECTED (kept as the negative reference; do not paste, do not sand)
+
+> **Verdict 2026-07-29 (Farrice):** 1/10 usable, all blocks 4/10, "not usable, and I would not post it."
+> **Nothing in this file goes into `2026-07-28-PROFILE-GO-LIVE-TONIGHT.md`.** Spiral brake armed — the next
+> rendition starts from Farrice's raw voice-dump per job, under the reader-turn architecture, not from these blocks.
+> Blocks 5–8 (Featured 2/3, Services, capacity) are offer-mechanics whose source of truth is the offer canon and
+> Take A's own lines — those get harvested from passed artifacts, not re-penned.
 
 ## Block 1 — Experience: Founder & Creative Strategist (Jan 2025–Present)
 
