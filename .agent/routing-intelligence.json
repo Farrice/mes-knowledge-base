@@ -38,7 +38,7 @@
                 "sharran-srivatsaa-scaling": 2,
                 "chase-hughes-context-engineering": 2,
                 "dai-media-consumer-posture": 2,
-                "Content": 64,
+                "Content": 65,
                 "writing-depth-layer": 3,
                 "Analysis": 9,
                 "seena-rez-tiktok-commerce": 2,
@@ -116,9 +116,9 @@
                 "packy-mccormick-writing": 1,
                 "matthew-volkwyn-copywriting": 1
             },
-            "total_routings": 714,
+            "total_routings": 715,
             "tier_counts": {
-                "0": 714,
+                "0": 715,
                 "3": 0,
                 "2": 0,
                 "1": 0
@@ -129,7 +129,7 @@
                 "output": 0,
                 "expertise": 0,
                 "hybrid": 422,
-                "finalize-auto": 292
+                "finalize-auto": 293
             },
             "expert_counts": {
                 "nicolas-cole-niche-positioning": 16,
@@ -421,7 +421,8 @@
                 "adversarial-reviewer": 1,
                 "assembly": 1,
                 "alex-copper-creative-strategy": 1,
-                "michael-bernoff-identity-engineering": 1
+                "michael-bernoff-identity-engineering": 1,
+                "Oren Operational Systems": 1
             },
             "total_feedback": 94,
             "negative_count": 0,
@@ -14238,6 +14239,23 @@
             "workflow_used": "matthew-volkwyn-copywriting",
             "ensemble": true,
             "compound_pairing": "matthew-volkwyn-copywriting + sean-dollwet-kdp-publishing + michael-bernoff-identity-engineering",
+            "feedback": null
+        },
+        {
+            "routing_id": "rt_20260729_142822_d48e",
+            "timestamp": "2026-07-29T14:28:22.791981+00:00",
+            "session_id": "",
+            "request_summary": "Health Performance GEO Daily Brief 2026-07-29: review-authenticity convergence (FTC TruHeight order + Google incentivized-review exclusion) angle, publishable assets, Clean Review Audit offer bridge",
+            "intent_score": 9,
+            "domain_detected": "Content",
+            "experts_deployed": [
+                "Oren Operational Systems"
+            ],
+            "tier_loaded": 0,
+            "mode": "finalize-auto",
+            "workflow_used": "health-performance-geo-daily-automation",
+            "ensemble": false,
+            "compound_pairing": null,
             "feedback": null
         }
     ]

@@ -1,5 +1,5 @@
 # Knowledge Briefing
-*Generated: 2026-07-28 | 755 sources | 2,909,603 words*
+*Generated: 2026-07-29 | 734 sources | 2,735,200 words*
 
 ---
 
@@ -7,29 +7,29 @@
 
 - **council-rubric** (copywriting [april-dunford]) — 552 words — `knowledge/council-rubric.md`
 - **2026-07-28-seating-charter-harness-diet-ratification-contex** (general) — 1,303 words — `knowledge/council-sessions/2026-07-28-seating-charter-harness-diet-ratification-contex.md`
-- **index** (content) — 5,148 words — `knowledge/index.md`
-- **log** (general) — 15,452 words — `knowledge/log.md`
-- **blind-pass-log** (content) — 79 words — `extractions/hilary-gridley/blind-pass-log.md`
-- **blind-pass-sample** (systems) — 669 words — `extractions/hilary-gridley/blind-pass-sample.md`
-- **extraction** (content [kieran-flanagan]) — 3,747 words — `extractions/hilary-gridley/extraction.md`
-- **how-to-stop-using-ai-so-badly** (content) — 736 words — `extractions/hilary-gridley/reference-corpus/how-to-stop-using-ai-so-badly.md`
-- **todays-managers-will-decide-what** (content) — 568 words — `extractions/hilary-gridley/reference-corpus/todays-managers-will-decide-what.md`
-- **vision** (content) — 999 words — `extractions/hilary-gridley/vision.md`
+- **index** (content) — 5,153 words — `knowledge/index.md`
+- **2026-07-28-replication-lesson** (general) — 854 words — `knowledge/lessons/2026-07-28-replication-lesson.md`
+- **log** (general) — 15,531 words — `knowledge/log.md`
+- **pattern-inventory-and-delta** (research [nick-saraev]) — 2,506 words — `extractions/agentic-os-integration/pattern-inventory-and-delta.md`
+- **extraction-report** (content) — 2,846 words — `extractions/briar-cochran/extraction-report.md`
+- **vision** (content) — 552 words — `extractions/briar-cochran/vision.md`
+- **blind-pass-log** (content) — 88 words — `extractions/briar-cochran-content-science/blind-pass-log.md`
+- **blind-pass-sample-win-audit** (content) — 399 words — `extractions/briar-cochran-content-science/blind-pass-sample-win-audit.md`
 
 ## Domain Coverage
 
 | Domain | Files | Top Expert |
 |--------|-------|------------|
-| content | 267 | lara-acosta |
+| content | 250 | lara-acosta |
 | copywriting | 103 | luke-iha |
-| general | 93 | nick-saraev |
-| strategy | 82 | april-dunford |
-| screenwriting | 54 | connelly |
+| general | 94 | nick-saraev |
+| strategy | 80 | april-dunford |
+| screenwriting | 53 | connelly |
 | brand | 50 | oren-john |
 | systems | 44 | nick-saraev |
 | seo | 27 | nathan-gotch |
-| research | 24 | dai-media |
-| sales | 11 | dai-media |
+| research | 23 | dai-media |
+| sales | 10 | dai-media |
 
 ## Deepest Knowledge Sources (by word count)
 
