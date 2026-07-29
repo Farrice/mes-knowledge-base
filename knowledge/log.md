@@ -624,3 +624,5 @@ Everyt | content | Lara Acosta: Tech Founder Content System — composite:9.0 st
 - `[2026-07-28 11:40]` **finalize** | Co-Creation Enforcement Layer: spiral brake + feedback-turn protocol + work-mode front door in steer | general | none — composite:8.33 status:Keep
 - `[2026-07-28 12:59]` **finalize** | Graph-engineering vetted deep research: 41-source hype audit (term=joke coinage w/ fabricated Anthro | research | deep-research — composite:9.0 status:Keep
 - `[2026-07-28 15:21]` **finalize** | Unhobble mission: vetted the '80% deleted' video against Anthropic primary source (claim-vet table,  | research | system-architecture — composite:9.0 status:Keep
+- `[2026-07-28 16:40]` **finalize** | LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO- | general | adversarial-reviewer — composite:6.67 status:Needs Improvement
+- `[2026-07-28 19:42]` **finalize** | Profile-live-tonight mission: go-live master doc (Take A locked, banner design brief, Featured w/ $7 | content | assembly — composite:6.33 status:Needs Improvement

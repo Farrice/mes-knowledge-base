@@ -59,3 +59,7 @@
 {"ts": "2026-07-28T22:48:53.642539+00:00", "session_id": "d0dc8b73-36d6-48cc-9b31-4bf3a7ffc3eb", "exchange": 15, "event": "next-moves-missing", "chars": 1030}
 {"ts": "2026-07-28T22:52:34.507107+00:00", "session_id": "d0dc8b73-36d6-48cc-9b31-4bf3a7ffc3eb", "exchange": 18, "event": "feedback-turn-blind-produce"}
 {"ts": "2026-07-28T22:52:39.308908+00:00", "session_id": "d0dc8b73-36d6-48cc-9b31-4bf3a7ffc3eb", "exchange": 18, "event": "feedback-turn-blind-produce"}
+{"ts": "2026-07-28T22:54:06.310800+00:00", "session_id": "d0dc8b73-36d6-48cc-9b31-4bf3a7ffc3eb", "exchange": 18, "event": "feedback-turn-blind-produce"}
+{"ts": "2026-07-28T22:54:06.321729+00:00", "session_id": "d0dc8b73-36d6-48cc-9b31-4bf3a7ffc3eb", "exchange": 18, "event": "next-moves-missing", "chars": 3257}
+{"ts": "2026-07-28T23:27:59.930705+00:00", "session_id": "d0499498-4dd7-4ae9-a3af-02809583daab", "exchange": 1, "event": "next-moves-missing", "chars": 1558}
+{"ts": "2026-07-29T02:03:22.424786+00:00", "session_id": "d0499498-4dd7-4ae9-a3af-02809583daab", "exchange": 5, "event": "feedback-turn-blind-produce"}
