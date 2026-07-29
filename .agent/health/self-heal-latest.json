@@ -1,65 +1,52 @@
 {
- "ts": "2026-07-28T20:41:15.809015",
+ "ts": "2026-07-29T15:31:22.878345",
  "mode": "heal",
  "rows": [
   {
+   "id": "platform_drift",
+   "cls": "JUDGMENT",
+   "what": "1 constitution/portability drift \u2014 platform_compiler reports siblings out of sync; the write-mode fix is deliberately not automated (it rewrites constitution files)",
+   "fix": "python3 execution/platform_compiler.py sync   # review the diff first",
+   "action": "escalated"
+  },
+  {
    "id": "wiring_orphans",
    "cls": "JUDGMENT",
-   "what": "46 asset(s) with NO provable firing path (execution: 46) \u2014 e.g. ai_misfire_sprint_guard.py, archive/ad_vo_script_gate.py, archive/agent_arsenal_router_audit.py, archive/agent_upgrader.py",
+   "what": "9 asset(s) with NO provable firing path (execution: 9) \u2014 e.g. ai_misfire_sprint_guard.py, audit_extraction_integrity.py, client_package_lint.py, design_md_extract.py",
    "fix": "python3 execution/wiring_audit.py status   # wire it, or archive it deliberately",
    "detail": {
     "orphans": [
      "execution:ai_misfire_sprint_guard.py",
-     "execution:archive/ad_vo_script_gate.py",
-     "execution:archive/agent_arsenal_router_audit.py",
-     "execution:archive/agent_upgrader.py",
-     "execution:archive/apify_mcp_bootstrap.py",
-     "execution:archive/backfill_paper_bets.py",
-     "execution:archive/backfill_voice_rules.py",
-     "execution:archive/backtest.py",
-     "execution:archive/claude_export_consolidate.py",
-     "execution:archive/claude_export_ingest.py",
-     "execution:archive/codex_live_surface_quarantine_plan.py",
-     "execution:archive/confidence_variant.py",
-     "execution:archive/e3_assemble.py",
-     "execution:archive/extract_book_insights.py",
-     "execution:archive/extract_publishable_sections.py",
-     "execution:archive/generate_cheat_sheet.py",
-     "execution:archive/generate_council_report.py",
-     "execution:archive/generate_fladlien_addons.py",
-     "execution:archive/generate_invocation_cards.py",
-     "execution:archive/generate_mes_extraction.py",
-     "execution:archive/genius_compressor.py",
-     "execution:archive/genius_enricher.py",
-     "execution:archive/google_operator_core_parity_manifest.py",
-     "execution:archive/hybrid_content_zeitgeist_radar.py",
-     "execution:archive/install_codex_dynamic_workflow_global.py",
-     "execution:archive/intake_extraction.py",
-     "execution:archive/md_to_docx.py",
-     "execution:archive/measure_injection.py",
-     "execution:archive/merge_transcripts.py",
-     "execution:archive/polymarket_paper.py",
-     "execution:archive/routing_test_suite.py",
-     "execution:archive/strategy_orchestrator.py",
-     "execution:archive/test_notebooklm_integration.py",
-     "execution:archive/token_meter.py",
-     "execution:archive/trim_descriptions.py",
-     "execution:archive/wave5_dispatch.py",
-     "execution:archive/wave5_orchestrator.py",
-     "execution:archive/workflow_consolidator.py",
      "execution:audit_extraction_integrity.py",
-     "execution:client_package_lint.py"
+     "execution:client_package_lint.py",
+     "execution:design_md_extract.py",
+     "execution:generate_agent_stacking_registry.py",
+     "execution:perception_engineering_bridge_audit.py",
+     "execution:publishable_copy_guard.py",
+     "execution:system_efficiency_benchmark.py",
+     "execution:test_video_enhance.py"
     ],
     "by_class": {
-     "execution": 46
+     "execution": 9
     }
+   },
+   "action": "escalated"
+  },
+  {
+   "id": "org_drift",
+   "cls": "JUDGMENT",
+   "what": "organization drift: 5 file(s) the sweep deferred for judgment",
+   "fix": "python3 execution/projects_index.py check   # stamp status:, or file the strays",
+   "detail": {
+    "drift": [],
+    "deferred_files": 5
    },
    "action": "escalated"
   },
   {
    "id": "verify_born_intent_drift.py",
    "cls": "JUDGMENT",
-   "what": "verify_born_intent_drift.py is red in the 2d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "what": "verify_born_intent_drift.py is red in the 3d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
    "fix": "python3 execution/verify_born_intent_drift.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },
@@ -87,7 +74,7 @@
   {
    "id": "verify_system.py",
    "cls": "JUDGMENT",
-   "what": "verify_system.py is red in the 2d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
+   "what": "verify_system.py is red in the 3d-old fleet snapshot but no detector found a cause now \u2014 either the snapshot predates a heal, or a detector is blind",
    "fix": "python3 execution/verify_system.py   # then re-run verify_fleet.py",
    "action": "escalated"
   },
