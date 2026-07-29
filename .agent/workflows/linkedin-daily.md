@@ -42,15 +42,15 @@ Read ALL of:
 | `_active/farrice-brand/CLAUDE.md` | Voice rules — banned MOVES, required moves, anti-patterns (SOURCE OF TRUTH). "Structurally sound but flat = 5/10." |
 | `_active/farrice-brand/thought-bank/pov-anchors.md` | POV anchors (no-cheap-question-closes, private-language rule) |
 | `FARRICE.md` | Interest stack, tribal vocabulary, avatar, 80/20 + Inclusion Insurance + Revelation Sequence |
-| `_active/linkedin-launch/04-content-os/CONTENT-OS.md` | Pillars, lanes, rotation, barbell, 90-day arc, distribution motion |
-| `_active/linkedin-launch/04-content-os/voice-gate.md` | Pass/fail gate run before any draft ships |
+| `_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md` | Pillars, lanes, rotation, barbell, 90-day arc, distribution motion |
+| `_active/linkedin-launch/04-deliverables/content-os/voice-gate.md` | Pass/fail gate run before any draft ships |
 | `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md` | ICP beliefs / identity-resistance / Bridge Message |
 | `knowledge/synthesis/the-persuasion-stack.md` | Single Truth → Mechanism → Matched Proof → Identity Dissolution |
 | `_active/linkedin-launch/06-automation/daily/performance-log.md` | Last 7 entries + Carry-Forward Directives |
 | Yesterday's `daily/briefing-*.md` + most recent post set | Continuity; never repeat an angle, hook format, or close structure within 7 days |
 
 **Quality benchmark (REQUIRED — load before drafting; a fresh session may not run this engine without it):**
-- `_active/linkedin-launch/04-content-os/ai-boom-content-package.md` — the proven-recipe benchmark edition. This is the bar. If today's cook doesn't clear it, that's the gate failing, not a style nitpick.
+- `_active/linkedin-launch/04-deliverables/content-os/ai-boom-content-package.md` — the proven-recipe benchmark edition. This is the bar. If today's cook doesn't clear it, that's the gate failing, not a style nitpick.
 - The loaded memory note `feedback_content-quality-pipeline-recipe.md` — the recipe pattern behind that benchmark: scaffold × parallel-depth × expert-lens × voice-rules × dual-QA. Apply the pattern, not just the artifact shape.
 
 **Voice + cognitive-signature layer (load the depth — this is the antidote to flat AND what makes it world-class):**
@@ -175,7 +175,7 @@ Layered through the build:
 
 ### 8. Voice Gate + Mechanical Audit (pass/fail — fail = REGENERATE the section, never patch)
 
-Run `_active/linkedin-launch/04-content-os/voice-gate.md` top to bottom, PLUS the Parallax mechanical checks:
+Run `_active/linkedin-launch/04-deliverables/content-os/voice-gate.md` top to bottom, PLUS the Parallax mechanical checks:
 - **The Aha gate (the apex bar — fail if it only informs).** Name the specific perception shift the piece creates: the reader's belief BEFORE → the belief AFTER. If you can't name a real before/after, it's information, not transformation — regenerate. Confirm the Cognitive Signature is doing work (at least a Reframe Landing). The standard: a reader is *left better off* and would come back (addictive-in-a-good-way), not just nodding.
 - **The Empathy gate (the trust/authority engine — fail if it doesn't make them feel seen).** Does the piece articulate the ICP's truth/worldview/problem **better than they could themselves** ("he gets it better than my own team")? Name the broken-promise / deepest-problem / daily-life moment it touches (`icp-emotional-map.md`). Enforce *reassure the human, indict the machine* — flag any line that shames or makes the decision-maker feel MORE replaceable. If it only informs or impresses, it fails.
 - **"Polished but flat" is a FAIL, not a pass.** Each piece must have a beating center (a real moment, a real stake) — not just clean sentences.

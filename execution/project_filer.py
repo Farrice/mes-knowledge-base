@@ -124,6 +124,37 @@ def propose(project_root: Path, path: Path) -> tuple[str, float, str, list[str]]
     return folder, conf, lifecycle, reasons + ["degraded suffix/keyword heuristic (out-of-tree)"]
 
 
+WEB_HOST_SUFFIXES = {".html", ".htm"}
+WEB_ASSET_SUFFIXES = {".css", ".js", ".mjs", ".png", ".jpg", ".jpeg", ".svg",
+                      ".gif", ".webp", ".ico", ".woff", ".woff2", ".map"}
+
+
+def sibling_web_host(project_root: Path, path: Path) -> str | None:
+    """A page in the same directory that loads this file by relative path.
+
+    SCAR 2026-07-28: the sweep classified a site's entry script as a "draft" and
+    filed it into 03-working-drafts/, but the page loaded it by relative path
+    from the project root — the site broke silently. A web asset is not an
+    artifact to file; it is part of a page's contract with the filesystem.
+
+    (No literal asset filename appears here — it would make this module a
+    grep-visible referrer and pin real files for the wrong reason.)
+    """
+    if path.suffix.lower() not in WEB_ASSET_SUFFIXES:
+        return None
+    for host in path.parent.iterdir():
+        if host.suffix.lower() not in WEB_HOST_SUFFIXES or not host.is_file():
+            continue
+        try:
+            text = host.read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            continue
+        # Match the relative form a page would actually use.
+        if f'"{path.name}"' in text or f"'{path.name}'" in text or f"/{path.name}" in text:
+            return _display(host)
+    return None
+
+
 # ─────────────────────────────────────────────────────────────
 # inbound reference scan
 # ─────────────────────────────────────────────────────────────
@@ -229,9 +260,14 @@ def build_plan(project_root: Path, since_minutes: int | None = None) -> dict[str
         folder, conf, lifecycle, reasons = propose(project_root, path)
         destination = project_root / folder / path.name
         referrers, control = scan_referrers(path, project_root)
+        web_host = sibling_web_host(project_root, path)
         if control:
             action = "pin"
             pin_reason = f"referenced from control-plane file: {_display(control[0])}"
+        elif web_host:
+            action = "pin"
+            pin_reason = (f"loaded by {web_host} as a relative asset — moving it "
+                          f"breaks the page")
         else:
             action = "move"
             pin_reason = ""

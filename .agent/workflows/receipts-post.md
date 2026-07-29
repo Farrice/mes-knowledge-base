@@ -17,6 +17,6 @@ Receipts-narrative LinkedIn posts (launch, story, proof posts) in Farrice's I-sp
    a. `prose_classifier.py check` (cap 1 rewrite) → b. **Reader Contract** (Payoff / Pull / Recognition — any no = one revision) → c. **isolated fact-verify subagent** (every receipt vs canon; overturn verifier false-positives with fixed-string grep before accepting) → d. **adversarial voice review subagent** (fresh context; catches cross-post structural tells no scanner sees — the negate-reveal engine class).
 4. **Ward line pass, surgical.** `/ward-saxon-punch` + `/ward-cadence-audit` on flagged lines ONLY — restraint law: ≤7 changes across a 3-post set, chord-change landings, never label the device.
 5. **Felt-verdict loop.** Present takes; bank every Farrice critique via `voice_ratchet.py add` + taste ledger BEFORE editing; apply as targeted passes (payoff → tension → line), never full regens. His edits are calibration gold — diff and bank them.
-6. **Close per the mission grammar**: deliverable to `_active/linkedin-launch/03-content/`, finalize with `--receipt`, posting protocol header (20 min engage before, every comment 30-60 min, can't engage = don't post).
+6. **Close per the mission grammar**: deliverable to `_active/linkedin-launch/03-launch/`, finalize with `--receipt`, posting protocol header (20 min engage before, every comment 30-60 min, can't engage = don't post).
 
-PoC: `_active/linkedin-launch/03-content/WEEK1-POSTS-2026-07-21.md` (v4 — three posts, Farrice-graded strong-7s → 8.5s through this exact loop).
+PoC: `_active/linkedin-launch/03-launch/WEEK1-POSTS-2026-07-21.md` (v4 — three posts, Farrice-graded strong-7s → 8.5s through this exact loop).

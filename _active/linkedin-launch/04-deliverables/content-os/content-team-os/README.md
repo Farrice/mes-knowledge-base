@@ -14,7 +14,7 @@ When files conflict, use this order:
 
 1. `_active/linkedin-launch/02-offer/CANONICAL-OFFER-BRIEF.md`
 2. `_active/linkedin-launch/01-research/MARKET-ICP-DOSSIER-2026-06.md`
-3. `_active/linkedin-launch/04-content-os/CONTENT-OS.md`
+3. `_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md`
 4. `_active/linkedin-launch/06-automation/health-performance-ai-search-week-1/publish-copy-v4-codex-preflight.md`
 5. `_active/health-performance-ip-library/AUTOMATION_PROMPT.md`
 6. This `content-team-os/` package

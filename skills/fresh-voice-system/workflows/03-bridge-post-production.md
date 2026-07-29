@@ -129,7 +129,7 @@ Run the standard serial narrative checks PLUS bridge-specific checks:
 - **Follow-up**: [How to handle DMs that come from this post]
 ```
 
-Save to: `_active/linkedin-launch/04-content-os/arcs/[arc-name]/bridge-[slug].md`
+Save to: `_active/linkedin-launch/04-deliverables/content-os/arcs/[arc-name]/bridge-[slug].md`
 
 ---
 

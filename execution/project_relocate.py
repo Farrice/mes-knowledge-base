@@ -150,7 +150,17 @@ def apply(plan: dict, stub: bool) -> dict:
     for ref in plan["referrers"]:
         p = Path(ref)
         if not p.exists():
-            continue
+            # Referrers that live INSIDE the moved tree were enumerated at their
+            # old paths and have just moved with it. Translate, don't skip — or a
+            # doc that references its own directory keeps pointing at the old
+            # location and `verify` fails.
+            try:
+                rel = p.relative_to(ROOT / src_rel)
+            except ValueError:
+                continue
+            p = ROOT / dst_rel / rel
+            if not p.exists():
+                continue
         n = rewrite(p, src_rel, dst_rel)
         if n:
             rewrites[str(p)] = n

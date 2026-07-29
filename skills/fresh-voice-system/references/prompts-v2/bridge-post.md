@@ -127,7 +127,7 @@ bullet-point pitch, no urgency language.]
 - Follow-up: [how to handle DMs that come from this post]
 ```
 
-Save to: `_active/linkedin-launch/04-content-os/arcs/[arc-name]/bridge-[slug].md`
+Save to: `_active/linkedin-launch/04-deliverables/content-os/arcs/[arc-name]/bridge-[slug].md`
 
 ## Quality Gate
 

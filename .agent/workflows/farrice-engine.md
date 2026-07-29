@@ -90,7 +90,7 @@ Build a named-brand content teardown per `_active/linkedin-launch/02-offer/teard
 ## Standing principles
 
 - **Depth standard** — every public artifact runs the Cognitive Signature (Paradox Reveal → False-Frame Demolition → Reframe Landing) and passes the **Aha gate** (real perception shift, left-better-off, addictive-in-a-good-way). Information-only = fail.
-- **Voice first** — every public artifact passes `_active/linkedin-launch/04-content-os/voice-gate.md`. Polished-but-flat = fail (see `linkedin-daily` Step 8).
+- **Voice first** — every public artifact passes `_active/linkedin-launch/04-deliverables/content-os/voice-gate.md`. Polished-but-flat = fail (see `linkedin-daily` Step 8).
 - **The content is the demo** — never ship a post that doesn't prove the service (AI + human depth).
 - **Acquisition > applause** — optimize for decision-maker profile views/DMs/calls/seats, never likes.
 - **Apify-first research, deterministic fallback** — raw data via `execution/apify_client.py` (budgeted, never blocks); degrade to `research.py`/Perplexity/Tavily; always report which was used.

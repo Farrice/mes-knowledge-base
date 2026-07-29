@@ -11,7 +11,7 @@ status: enriched
 > ran it once against Farrice's real LinkedIn launch, and hardened `/scrape-creator` against the
 > two bugs the run exposed. The skill decides **which ideas enter production** — it sits upstream
 > of every hook/retention skill in the roster. Companion files: `skills/briar-cochran-content-science/`
-> (SKILL.md + genius.md + 12 workflows + 8 v2 prompts) · `_active/linkedin-launch/04-content-os/BC-ARSENAL-INSTALL-2026-07-25.md`
+> (SKILL.md + genius.md + 12 workflows + 8 v2 prompts) · `_active/linkedin-launch/04-deliverables/content-os/BC-ARSENAL-INSTALL-2026-07-25.md`
 > (the LinkedIn install pack) · `extractions/briar-cochran/` (extraction-era artifacts) ·
 > `docs/solutions/2026-07-25-social-intel-date-normalization-and-watch-url-parse.md`.
 
@@ -137,7 +137,7 @@ and not on an account whose funnel/goal mix is undecided — the TAM logic colla
 declared goal.
 
 **How to invoke**: `/bc-arsenal-install`. Deliverable lives at
-`_active/linkedin-launch/04-content-os/BC-ARSENAL-INSTALL-2026-07-25.md`.
+`_active/linkedin-launch/04-deliverables/content-os/BC-ARSENAL-INSTALL-2026-07-25.md`.
 
 **Worked example**: Week-1 slate = Mon "I stopped saying personal brand" (subverts a BURNED
 keyword) · Wed "Referrals… until they don't" · Thu "Brilliant in a room. Ghost online." (first

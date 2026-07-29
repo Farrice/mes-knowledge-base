@@ -60,7 +60,7 @@ Found: claim-safe route is live, proceed to Move 2A.
 Not found in 45 minutes: claim-safe route is **falsified for this sprint**, not for all time. Route everything to 2B. This is the Path A brief's own Day-1 kill switch, unrun since 07-07.
 
 **R2 — Does your LinkedIn baseline exist to measure a wedge post against?**
-Check: `_active/linkedin-launch/04-content-os/BC-ARSENAL-INSTALL-2026-07-25.md` § 6 — the follower-quality dashboard, ~5 min to populate.
+Check: `_active/linkedin-launch/04-deliverables/content-os/BC-ARSENAL-INSTALL-2026-07-25.md` § 6 — the follower-quality dashboard, ~5 min to populate.
 Baseline exists: the bundle's kill criterion ("wedge post underperforms baseline") is measurable.
 No baseline: you cannot evaluate the Answer-Market Fit test at all. Capture it before posting or the test returns nothing.
 

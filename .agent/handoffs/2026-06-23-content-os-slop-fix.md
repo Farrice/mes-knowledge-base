@@ -10,7 +10,7 @@ The prior session ran long and fired too many parallel workflows — quality deg
 ## THE ONE JOB THIS SESSION (focused cleanup — do NOT rebuild)
 The Content OS architecture, research, and the `/geo-content` command are DONE and good. The only job is making the **exemplar posts actually clean + sharp**:
 
-1. **Hard anti-slop pass, one pillar at a time.** For each file in `_active/linkedin-launch/04-content-os/exemplars/_p1..p5` and `starter-content-batch.md`: run a REAL skill — **`/anti-slop-audit`** (or `/slop-check`) + **`prose-doctor`** (structural AI MOVES: negate-then-reveal "not X it's Y", twin-sentence endings, triple anaphora, "Here's what/why" openers, mic-drop, cheap-question closes, reveal-leadins) — and **actually apply the fixes**. Then the deterministic floor: `python3 execution/prose_classifier.py check <file>` pointed so it audits the **post text**, and re-run until genuinely clean. Verify; never trust a self-report.
+1. **Hard anti-slop pass, one pillar at a time.** For each file in `_active/linkedin-launch/04-deliverables/content-os/exemplars/_p1..p5` and `starter-content-batch.md`: run a REAL skill — **`/anti-slop-audit`** (or `/slop-check`) + **`prose-doctor`** (structural AI MOVES: negate-then-reveal "not X it's Y", twin-sentence endings, triple anaphora, "Here's what/why" openers, mic-drop, cheap-question closes, reveal-leadins) — and **actually apply the fixes**. Then the deterministic floor: `python3 execution/prose_classifier.py check <file>` pointed so it audits the **post text**, and re-run until genuinely clean. Verify; never trust a self-report.
 2. **Felt-verdict pass.** Does each read like a credentialed operator settling a live fight (Farrice's 8/10 "would post as-is"), or does it still carry the AI shape/sameness? Rewrite the ones that don't via **`writers-room`** or **`/really-real-social`** — surgical, one engine; preserve the strong ones (the "don't rebuild elevated content / multi-engine degrades" lesson). P5 + P1 were the cleanest on arrival; P2/P3/P4 had the most fixes.
 3. **Re-collate** the cleaned best into `starter-content-batch.md`.
 
@@ -23,7 +23,7 @@ The Content OS architecture, research, and the `/geo-content` command are DONE a
 - Strategy is locked and correct: **edu-FIRST adjudication spine, value-first, offer soft (`--cta` ~1-in-5)**. Don't relitigate it; fix the prose.
 
 ## STATE — WHERE EVERYTHING IS (reference, don't duplicate)
-- **Strategy spec (read, don't re-derive):** `_active/linkedin-launch/01-research/CONTENT-DOMINATION-RESEARCH.md` (thesis, blend map, formula, jacking) + `_active/linkedin-launch/04-content-os/CONTENT-OS.md` (master) + `content-os/content-creation-system.md` + `content-os/social-playbook.md`. Audience: `research/MARKET-ICP-DOSSIER-2026-06.md`.
+- **Strategy spec (read, don't re-derive):** `_active/linkedin-launch/01-research/CONTENT-DOMINATION-RESEARCH.md` (thesis, blend map, formula, jacking) + `_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md` (master) + `content-os/content-creation-system.md` + `content-os/social-playbook.md`. Audience: `research/MARKET-ICP-DOSSIER-2026-06.md`.
 - **The posts to fix:** `content-os/exemplars/_p1..p5` (15 posts) + `content-os/starter-content-batch.md` (14 collated).
 - **The command (DONE, value-first):** `.agent/workflows/geo-content.md` (rebuilt) + `SLASH_COMMANDS.md` entry updated.
 - **SUPERSEDED (ignore / can delete later):** `content-os/CONTENT-OS.md` supersedes the old `_active/linkedin-launch/content-engine/CONTENT-ENGINE.md` (offer-coupled 5-pillar engine).

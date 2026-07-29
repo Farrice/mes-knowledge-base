@@ -52,7 +52,7 @@ CORE = [
     ("_active/linkedin-launch/02-offer/teardown-system.md", "Farrice — Teardown System", "doc"),
     ("_active/linkedin-launch/05-lead-gen/pipeline.md", "Farrice — Pipeline Tracker", "doc"),
     ("_active/linkedin-launch/05-lead-gen/proof-tracker.md", "Farrice — Proof Tracker", "doc"),
-    ("_active/linkedin-launch/04-content-os/voice-gate.md", "Farrice — Voice Gate", "doc"),
+    ("_active/linkedin-launch/04-deliverables/content-os/voice-gate.md", "Farrice — Voice Gate", "doc"),
     (".agent/workflows/farrice-engine.md", "Farrice Engine — Master Workflow", "system"),
     (".agent/workflows/linkedin-daily.md", "Farrice — LinkedIn Daily Workflow", "system"),
 ]

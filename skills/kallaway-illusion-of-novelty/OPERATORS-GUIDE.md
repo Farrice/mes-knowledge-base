@@ -49,7 +49,7 @@ Front end only: this skill manufactures the LOOK, then hands off. `/novelty-to-a
 ## 7. Source ground truth
 
 - **Primary:** Kallaway, "The Illusion of Novelty" (YouTube `LvuoNlYRs7g`, ~20 min, 6,310-word transcript at `extractions/kallaway/transcript.txt`). Verbatim anchors in `genius.md` and `references/source-quotes.md`; never paraphrase as exact quotes.
-- **Session-proven exemplars:** the flagship (`_active/linkedin-launch/04-content-os/novelty-engine-flagship/FLAGSHIP.md`) and the benchmark's three surviving fixes (close the loop, re-aim the stat, real anecdote over composite) are ground truth for what a passing run looks like in Farrice's domains.
+- **Session-proven exemplars:** the flagship (`_active/linkedin-launch/04-deliverables/content-os/novelty-engine-flagship/FLAGSHIP.md`) and the benchmark's three surviving fixes (close the loop, re-aim the stat, real anecdote over composite) are ground truth for what a passing run looks like in Farrice's domains.
 - **Calibration evidence:** the benchmark report + solution card in §2. These are load-bearing; a future session that trusts a scorecard tie is repeating a solved failure.
 
 ## 8. Extend-never-rebuild rules

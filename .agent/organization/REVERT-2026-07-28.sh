@@ -1,6 +1,8 @@
 #!/bin/sh
 # Auto-generated inverse moves (newest first). Re-run to revert.
 
+mv -n "/Users/farricecain/Google Antigravity/_active/linkedin-launch/04-deliverables/content-os" "/Users/farricecain/Google Antigravity/_active/linkedin-launch/04-content-os"
+# Auto-generated inverse moves (newest first). Re-run to revert.
 mkdir -p "/Users/farricecain/Google Antigravity/projects/prediction_market_arb" && mv -n "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/02-research/sportsbook.py" "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/sportsbook.py"
 # Auto-generated inverse moves (newest first). Re-run to revert.
 mkdir -p "/Users/farricecain/Google Antigravity/projects/prediction_market_arb" && mv -n "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/02-research/resilience.py" "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/resilience.py"

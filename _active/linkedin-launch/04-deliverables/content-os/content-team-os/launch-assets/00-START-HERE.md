@@ -1,7 +1,7 @@
 # Launch Assets - Teardown Tuesday Sprint 001
 
 Built: 2026-06-30
-Source OS: `_active/linkedin-launch/04-content-os/content-team-os/`
+Source OS: `_active/linkedin-launch/04-deliverables/content-os/content-team-os/`
 Status: ready for review and publishing prep
 
 This folder executes the three requested next prompts:

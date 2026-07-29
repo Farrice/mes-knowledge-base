@@ -42,10 +42,10 @@
 ### 4 · CONTENT OS (ongoing content — run daily)
 | Canonical | What it is |
 |---|---|
-| `_active/linkedin-launch/04-content-os/CONTENT-OS.md` | **The master content doc** — 3 functions, signature template, 8 blends, edutainment/aha/psychology stack, playbook, cadence. Run via `/geo-content`. |
-| `_active/linkedin-launch/04-content-os/content-creation-system.md` | The signature "Physiology Misconception Correction" template + hook system + GET standard. |
-| `_active/linkedin-launch/04-content-os/social-playbook.md` | Distribution + newsjack engine + format grid + multi-platform + Teardown Tuesday. |
-| `_active/linkedin-launch/04-content-os/starter-content-batch.md` | The cooked exemplar posts. **⚠ OPEN: post bodies need the anti-slop fix — see §OPEN THREADS.** |
+| `_active/linkedin-launch/04-deliverables/content-os/CONTENT-OS.md` | **The master content doc** — 3 functions, signature template, 8 blends, edutainment/aha/psychology stack, playbook, cadence. Run via `/geo-content`. |
+| `_active/linkedin-launch/04-deliverables/content-os/content-creation-system.md` | The signature "Physiology Misconception Correction" template + hook system + GET standard. |
+| `_active/linkedin-launch/04-deliverables/content-os/social-playbook.md` | Distribution + newsjack engine + format grid + multi-platform + Teardown Tuesday. |
+| `_active/linkedin-launch/04-deliverables/content-os/starter-content-batch.md` | The cooked exemplar posts. **⚠ OPEN: post bodies need the anti-slop fix — see §OPEN THREADS.** |
 
 ### 5 · LEAD-GEN & PIPELINE (fill the funnel)
 `_active/linkedin-launch/02-offer/lead-gen-playbook.md` (dual-track motion) · `_active/linkedin-launch/02-offer/teardown-system.md` (the keystone proof act) · trackers: `_active/linkedin-launch/05-lead-gen/pipeline.md` · `_active/linkedin-launch/05-lead-gen/proof-tracker.md` · `_active/linkedin-launch/06-automation/daily/performance-log.md`.
@@ -61,7 +61,7 @@ The market/supplements/brands/FDA-FTC/news intelligence engine.
 > **To run today's brief:** open a session and invoke the AUTOMATION_PROMPT (or `/geo-content --research` for a lighter content-focused scan). **⚠ Scheduling status — NOT truly automated:** briefs run through 2026-06-30 but with gaps (missing 06-25, 06-28) and NO launchd/cron job — it's being run by hand. To make it real, schedule a daily cloud agent (`/schedule`) or add a launchd job. See §OPEN THREADS → "schedule the brief."
 
 ### 7 · BRAND & VOICE (the pass/fail law)
-`_active/farrice-brand/CLAUDE.md` (voice rules — banned MOVES) · `_active/linkedin-launch/04-content-os/voice-gate.md` (the gate) · `_active/farrice-brand/thought-bank/pov-anchors.md` (POV anchors) · `_active/farrice-brand/thought-bank/inbox/` (raw idea capture). Deterministic floor: `python3 execution/prose_classifier.py check <file>`.
+`_active/farrice-brand/CLAUDE.md` (voice rules — banned MOVES) · `_active/linkedin-launch/04-deliverables/content-os/voice-gate.md` (the gate) · `_active/farrice-brand/thought-bank/pov-anchors.md` (POV anchors) · `_active/farrice-brand/thought-bank/inbox/` (raw idea capture). Deterministic floor: `python3 execution/prose_classifier.py check <file>`.
 
 ### 8 · COMMANDS (how you operate)
 | Command | Does |

@@ -32,7 +32,7 @@ watch someone think.**
    lens is the intellectual engine, not backstory.
 3. **[TARGET INSIGHT]** — the universal truth the reader should discover by the end of the arc.
    Where the arc is heading, even before the reader knows it.
-4. **[ACTIVE ARCS]** (if any) — check `_active/linkedin-launch/04-content-os/arcs/` for currently
+4. **[ACTIVE ARCS]** (if any) — check `_active/linkedin-launch/04-deliverables/content-os/arcs/` for currently
    running arcs. New arcs must not repeat themes or create narrative collisions.
 
 ## Execution Protocol

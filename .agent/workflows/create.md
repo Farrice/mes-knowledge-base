@@ -78,7 +78,7 @@ Narrative/story pieces may also pull the story-stack (Runia → Hawley → Stant
 
 ## Stage 4 — PRODUCE
 
-Follow the proven recipe: **scaffold × parallel-depth × expert-lens × voice-rules × dual-QA**. Required benchmark read before drafting: `_active/linkedin-launch/04-content-os/ai-boom-content-package.md`.
+Follow the proven recipe: **scaffold × parallel-depth × expert-lens × voice-rules × dual-QA**. Required benchmark read before drafting: `_active/linkedin-launch/04-deliverables/content-os/ai-boom-content-package.md`.
 
 Voice rules (house standard, already in memory): Show > Tell, reader-as-protagonist, no forced jargon, 3-variant process (content-voice-calibration memory note).
 
