@@ -1,3 +1,7 @@
+---
+status: done
+---
+
 # System Health Check Framework
 
 ## Purpose

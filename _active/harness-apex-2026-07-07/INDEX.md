@@ -1,3 +1,7 @@
+---
+status: done
+---
+
 # Harness Apex 2026 07 07
 
 ## Purpose

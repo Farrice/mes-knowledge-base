@@ -1,7 +1,8 @@
 {
-  "generated_at": "2026-07-29T04:50:32.948245+00:00",
+  "generated_at": "2026-07-29T15:12:12.631378+00:00",
   "rows": [
     {
+      "stamped_after_touch": false,
       "name": "_ledgers",
       "root": "_active",
       "path": "_active/_ledgers",
@@ -12,16 +13,17 @@
       "index_exists": true,
       "last_touched": "2026-06-19",
       "last_touched_source": "git",
-      "days": 39,
+      "days": 40,
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "alignment-architect-2026-07-07",
       "root": "_active",
       "path": "_active/alignment-architect-2026-07-07",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-28",
@@ -30,6 +32,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "andrea-dj",
       "root": "_active",
       "path": "_active/andrea-dj",
@@ -44,20 +47,7 @@
       "prefix_collisions": {}
     },
     {
-      "name": "chris-restaurants",
-      "root": "_active",
-      "path": "_active/chris-restaurants",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": "INDEX.md",
-      "index_exists": true,
-      "last_touched": "2026-04-09",
-      "last_touched_source": "git",
-      "days": 110,
-      "prefix_collisions": {}
-    },
-    {
+      "stamped_after_touch": true,
       "name": "claude-code-harness-analysis",
       "root": "_active",
       "path": "_active/claude-code-harness-analysis",
@@ -72,12 +62,13 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "claude-export",
       "root": "_active",
       "path": "_active/claude-export",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-11",
@@ -86,6 +77,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "coach-cooz",
       "root": "_active",
       "path": "_active/coach-cooz",
@@ -100,12 +92,13 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "codex-harvest-2026-06-11",
       "root": "_active",
       "path": "_active/codex-harvest-2026-06-11",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-06-11",
@@ -114,6 +107,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "codex-parity-2026-07-13",
       "root": "_active",
       "path": "_active/codex-parity-2026-07-13",
@@ -128,6 +122,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "codex-repeatability",
       "root": "_active",
       "path": "_active/codex-repeatability",
@@ -142,6 +137,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "content-system-audit",
       "root": "_active",
       "path": "_active/content-system-audit",
@@ -156,12 +152,13 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "context-engineering-os",
       "root": "_active",
       "path": "_active/context-engineering-os",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-02",
@@ -170,6 +167,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "disney-crowd-app",
       "root": "_active",
       "path": "_active/disney-crowd-app",
@@ -184,6 +182,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "dwa-affiliate-battle-test",
       "root": "_active",
       "path": "_active/dwa-affiliate-battle-test",
@@ -198,6 +197,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "dwa-threads-engine-2026-07-05",
       "root": "_active",
       "path": "_active/dwa-threads-engine-2026-07-05",
@@ -212,6 +212,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "elevation-track",
       "root": "_active",
       "path": "_active/elevation-track",
@@ -226,6 +227,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "farrice-brand",
       "root": "_active",
       "path": "_active/farrice-brand",
@@ -240,6 +242,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "farrice-creative-strategist-portfolio",
       "root": "_active",
       "path": "_active/farrice-creative-strategist-portfolio",
@@ -254,6 +257,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "farrice-final-10",
       "root": "_active",
       "path": "_active/farrice-final-10",
@@ -268,12 +272,13 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "farrice-master-context-2026-07-07",
       "root": "_active",
       "path": "_active/farrice-master-context-2026-07-07",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-07",
@@ -282,6 +287,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "farrice-teach-grow-rich",
       "root": "_active",
       "path": "_active/farrice-teach-grow-rich",
@@ -296,12 +302,13 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "fork-harvest-2026-07-02",
       "root": "_active",
       "path": "_active/fork-harvest-2026-07-02",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-02",
@@ -310,6 +317,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "frontier-elevation-2026-07-17",
       "root": "_active",
       "path": "_active/frontier-elevation-2026-07-17",
@@ -324,12 +332,13 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "harness-apex-2026-07-07",
       "root": "_active",
       "path": "_active/harness-apex-2026-07-07",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-09",
@@ -338,6 +347,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "health-performance-ip-library",
       "root": "_active",
       "path": "_active/health-performance-ip-library",
@@ -352,6 +362,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "javier-human-values",
       "root": "_active",
       "path": "_active/javier-human-values",
@@ -366,6 +377,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "jen-listings",
       "root": "_active",
       "path": "_active/jen-listings",
@@ -380,6 +392,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "jen-santulan",
       "root": "_active",
       "path": "_active/jen-santulan",
@@ -394,6 +407,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "josh-dancewear-brand",
       "root": "_active",
       "path": "_active/josh-dancewear-brand",
@@ -408,6 +422,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "josh-katie-fitness",
       "root": "_active",
       "path": "_active/josh-katie-fitness",
@@ -422,6 +437,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "josh-swing-nerd-shirts-v1",
       "root": "_active",
       "path": "_active/josh-swing-nerd-shirts-v1",
@@ -432,10 +448,11 @@
       "index_exists": true,
       "last_touched": "2026-07-06",
       "last_touched_source": "git",
-      "days": 22,
+      "days": 23,
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "kens-fasting",
       "root": "_active",
       "path": "_active/kens-fasting",
@@ -450,6 +467,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "linkedin-launch",
       "root": "_active",
       "path": "_active/linkedin-launch",
@@ -464,6 +482,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "loop-engineering-integration",
       "root": "_active",
       "path": "_active/loop-engineering-integration",
@@ -478,12 +497,13 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "memory-bakeoff",
       "root": "_active",
       "path": "_active/memory-bakeoff",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-28",
@@ -492,12 +512,13 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "mybpm-merch-os-run-1",
       "root": "_active",
       "path": "_active/mybpm-merch-os-run-1",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "parked",
+      "status_source": "declared",
+      "declared_raw": "parked",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-19",
@@ -506,20 +527,22 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "notion-intellectual-library",
       "root": "_active",
       "path": "_active/notion-intellectual-library",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-06",
       "last_touched_source": "git",
-      "days": 22,
+      "days": 23,
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "offer-rederivation-2026-07-25",
       "root": "_active",
       "path": "_active/offer-rederivation-2026-07-25",
@@ -534,12 +557,13 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "operator-cockpit-v2",
       "root": "_active",
       "path": "_active/operator-cockpit-v2",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-06-30",
@@ -548,12 +572,13 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "operator-core-backport",
       "root": "_active",
       "path": "_active/operator-core-backport",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-06-30",
@@ -562,6 +587,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "parallax-icp-offer",
       "root": "_active",
       "path": "_active/parallax-icp-offer",
@@ -576,12 +602,13 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "path-decision-2026-07-01",
       "root": "_active",
       "path": "_active/path-decision-2026-07-01",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-02",
@@ -590,12 +617,13 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "platform-bakeoff",
       "root": "_active",
       "path": "_active/platform-bakeoff",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-06-11",
@@ -604,62 +632,22 @@
       "prefix_collisions": {}
     },
     {
-      "name": "pmf-brief-2026-07-07",
-      "root": "_active",
-      "path": "_active/pmf-brief-2026-07-07",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": "INDEX.md",
-      "index_exists": true,
-      "last_touched": "2026-07-28",
-      "last_touched_source": "mtime",
-      "days": 0,
-      "prefix_collisions": {}
-    },
-    {
-      "name": "pmf-offer-map-2026-07-07",
-      "root": "_active",
-      "path": "_active/pmf-offer-map-2026-07-07",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": "INDEX.md",
-      "index_exists": true,
-      "last_touched": "2026-07-28",
-      "last_touched_source": "mtime",
-      "days": 0,
-      "prefix_collisions": {}
-    },
-    {
+      "stamped_after_touch": true,
       "name": "pmf-offer-shelf",
       "root": "_active",
       "path": "_active/pmf-offer-shelf",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-09",
       "last_touched_source": "mtime",
-      "days": 19,
+      "days": 20,
       "prefix_collisions": {}
     },
     {
-      "name": "pmf-ofm-options-2026-07-07",
-      "root": "_active",
-      "path": "_active/pmf-ofm-options-2026-07-07",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": "INDEX.md",
-      "index_exists": true,
-      "last_touched": "2026-07-28",
-      "last_touched_source": "mtime",
-      "days": 0,
-      "prefix_collisions": {}
-    },
-    {
+      "stamped_after_touch": false,
       "name": "positioning-cowork-2026-07-25",
       "root": "_active",
       "path": "_active/positioning-cowork-2026-07-25",
@@ -674,6 +662,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "prediction-market-arb",
       "root": "_active",
       "path": "_active/prediction-market-arb",
@@ -688,12 +677,13 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "prompt-renaissance",
       "root": "_active",
       "path": "_active/prompt-renaissance",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-11",
@@ -702,12 +692,13 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "prompt-wiring-os-2026-07-13",
       "root": "_active",
       "path": "_active/prompt-wiring-os-2026-07-13",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-13",
@@ -716,6 +707,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "re-compliance",
       "root": "_active",
       "path": "_active/re-compliance",
@@ -730,6 +722,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "remotion-studio",
       "root": "_active",
       "path": "_active/remotion-studio",
@@ -744,12 +737,13 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "second-brain-audits",
       "root": "_active",
       "path": "_active/second-brain-audits",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-16",
@@ -758,26 +752,13 @@
       "prefix_collisions": {}
     },
     {
-      "name": "strategic-clarity",
-      "root": "_active",
-      "path": "_active/strategic-clarity",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": "INDEX.md",
-      "index_exists": true,
-      "last_touched": "2026-03-31",
-      "last_touched_source": "git",
-      "days": 118,
-      "prefix_collisions": {}
-    },
-    {
+      "stamped_after_touch": true,
       "name": "swarm-apex-2026-07-07",
       "root": "_active",
       "path": "_active/swarm-apex-2026-07-07",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-07",
@@ -786,6 +767,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "system-audit",
       "root": "_active",
       "path": "_active/system-audit",
@@ -800,12 +782,13 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "system-health-check-framework",
       "root": "_active",
       "path": "_active/system-health-check-framework",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
+      "status": "done",
+      "status_source": "declared",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-15",
@@ -814,6 +797,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "system-integration",
       "root": "_active",
       "path": "_active/system-integration",
@@ -828,6 +812,7 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": false,
       "name": "trendscale-brief-revision",
       "root": "_active",
       "path": "_active/trendscale-brief-revision",
@@ -842,12 +827,13 @@
       "prefix_collisions": {}
     },
     {
+      "stamped_after_touch": true,
       "name": "trendscale-trial",
       "root": "_active",
       "path": "_active/trendscale-trial",
-      "status": "active",
+      "status": "done",
       "status_source": "declared",
-      "declared_raw": "active",
+      "declared_raw": "done",
       "entry": "INDEX.md",
       "index_exists": true,
       "last_touched": "2026-07-28",

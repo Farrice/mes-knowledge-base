@@ -1,3 +1,7 @@
+---
+status: done
+---
+
 # Codex Harvest 2026 06 11
 
 ## Purpose

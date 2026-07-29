@@ -24,3 +24,4 @@
 {"ts": "2026-07-28T22:52:11.258217+00:00", "source": "end-session", "minted": 0, "remaining_drift": 0}
 {"ts": "2026-07-29T02:55:51.161591+00:00", "source": "end-session", "minted": 1, "remaining_drift": 0}
 {"ts": "2026-07-29T03:41:41.883543+00:00", "source": "end-session", "minted": 0, "remaining_drift": 0}
+{"ts": "2026-07-29T13:40:09+00:00", "source": "nightly-sweep", "minted": 0, "remaining_drift": 0, "skipped": 0, "missing_front_doors": 0, "notes": []}

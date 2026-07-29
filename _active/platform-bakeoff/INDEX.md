@@ -1,3 +1,7 @@
+---
+status: done
+---
+
 # Platform Bakeoff
 
 ## Purpose

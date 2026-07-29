@@ -1,11 +1,20 @@
 {
-  "timestamp": "2026-07-28T09:36:42.072285",
+  "timestamp": "2026-07-29T06:00:05.780570",
+  "projects_index": {
+    "exit": 0,
+    "out": "Wrote PROJECTS.md (56 projects, 0 drift items)"
+  },
+  "artifact_sweep": {
+    "exit": 0,
+    "out": "SWEEP: auto-filed 0 file(s) across 0 project(s); 5 need judgment"
+  },
   "self_heal": {
     "exit": 0,
-    "findings": 9,
+    "findings": 10,
     "ids": [
       "platform_drift",
       "wiring_orphans",
+      "org_drift",
       "verify_born_intent_drift.py",
       "verify_contextual_next_prompts.py",
       "verify_global_steering_closeout.py",
@@ -18,18 +27,18 @@
   "wiring_drain": {
     "audited": 150,
     "new": 0,
-    "coverage": "3579/3579",
-    "orphans_total": 60,
+    "coverage": "3541/3541",
+    "orphans_total": 9,
     "flips": [],
     "orphans_sample": [
-      "execution:ad_vo_script_gate.py",
-      "execution:agent_arsenal_router_audit.py",
-      "execution:agent_upgrader.py",
       "execution:ai_misfire_sprint_guard.py",
-      "execution:antigravity_global_access.py",
       "execution:audit_extraction_integrity.py",
-      "execution:backfill_paper_bets.py",
-      "execution:backfill_voice_rules.py"
+      "execution:client_package_lint.py",
+      "execution:design_md_extract.py",
+      "execution:generate_agent_stacking_registry.py",
+      "execution:perception_engineering_bridge_audit.py",
+      "execution:publishable_copy_guard.py",
+      "execution:system_efficiency_benchmark.py"
     ]
   }
 }

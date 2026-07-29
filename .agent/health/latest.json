@@ -1,60 +1,50 @@
 {
-  "ts": "2026-07-28T06:24:51",
-  "date": "2026-07-28",
+  "ts": "2026-07-29T06:15:05",
+  "date": "2026-07-29",
   "deep": false,
   "context_injection": {
-    "claude_md_bytes": 26999,
-    "memory_md_bytes": 18188,
-    "memory_md_entries": 122,
+    "claude_md_bytes": 12473,
+    "memory_md_bytes": 19560,
+    "memory_md_entries": 127,
     "master_context_bytes": 18497,
-    "total_bytes": 63684,
-    "memory_dir_files": 159,
-    "memory_dir_bytes": 471839
+    "total_bytes": 50530,
+    "memory_dir_files": 164,
+    "memory_dir_bytes": 484280
   },
   "assets": {
-    "skills": 378,
-    "workflows": 2586,
-    "agents": 231,
+    "skills": 379,
+    "workflows": 2601,
+    "agents": 232,
     "directives": 90,
-    "execution_scripts": 347,
-    "verify_scripts": 75,
-    "hooks": 15,
-    "solution_cards": 67
+    "execution_scripts": 313,
+    "verify_scripts": 78,
+    "hooks": 16,
+    "solution_cards": 73
   },
   "tmp": {
-    "bytes": 57809837,
-    "files": 3055
+    "bytes": 59250086,
+    "files": 3069
   },
   "ledgers": {
-    "observe_log_bytes": 4668746,
-    "steering_observe_bytes": 8851,
-    "missions_bytes": 48309,
+    "observe_log_bytes": 4692790,
+    "steering_observe_bytes": 10253,
+    "missions_bytes": 51090,
     "content_finish_bytes": 63167
   },
-  "steering_misses_7d": 9,
-  "session_ledger": {
-    "events": 926,
-    "debted_sessions": 105,
-    "noise_factor": 8.8,
-    "zero_spawn_sessions": 67,
-    "latest_week": [
-      "2026-W31",
-      7
-    ]
-  },
+  "steering_misses_7d": 13,
   "git": {
-    "remote_branches": 15,
+    "remote_branches": 16,
     "stashes": 2,
-    "dirty_files": 41
+    "dirty_files": 16
   },
-  "active_stale_files_60d": 738,
+  "active_stale_files_60d": 3088,
   "hooks_config": {
-    "hash": "03d8900d1b6edca9",
+    "hash": "10467100eb9c447d",
     "baseline_hash": "5f75547330940713",
     "drifted": true,
     "evidence_age_days": {
       "session_ledger": 0.3,
-      "steering_loop": 0.8
+      "steering_loop": 0.5
     }
   },
   "pending_review": {
@@ -63,30 +53,30 @@
     "rejected": 0
   },
   "governance": {
-    "CLAUDE.md": 26999,
+    "CLAUDE.md": 12473,
     "CODEX.md": 25963,
     "AGENTS.md": 13000,
-    "GEMINI.md": 15236,
-    "SLASH_COMMANDS.md": 199475,
-    "SKILL_INDEX.md": 70558,
-    "AGENT_INDEX.md": 48140,
+    "GEMINI.md": 14730,
+    "SLASH_COMMANDS.md": 199717,
+    "SKILL_INDEX.md": 70774,
+    "AGENT_INDEX.md": 48204,
     "DOMAIN_REGISTRY.md": 50821,
     "PRODUCTION_CORE.md": 3884,
     "FARRICE-MASTER-CONTEXT.md": 18497,
     "child_claude_md": {
       "count": 26,
-      "bytes": 261638
+      "bytes": 261637
     },
     "agent_md": {
-      "count": 230,
-      "bytes": 1316734,
+      "count": 231,
+      "bytes": 1321730,
       "largest": "kallaway"
     }
   },
   "launchd": {
     "com.antigravity.citation-integrity": {
       "weekly": true,
-      "log_age_days": 2.0,
+      "log_age_days": 2.9,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/citation-integrity.log"
     },
@@ -96,15 +86,21 @@
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/cos/prep.log"
     },
+    "com.antigravity.daily-health-audit": {
+      "weekly": false,
+      "log_age_days": 0.0,
+      "last_exit": 0,
+      "log_path": "/Users/farricecain/Google Antigravity/.agent/health/daily-audit.log"
+    },
     "com.antigravity.distill-weekly": {
       "weekly": true,
-      "log_age_days": 2.1,
+      "log_age_days": 3.1,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.memory/backups/distill-weekly.log"
     },
     "com.antigravity.evolution-auto": {
       "weekly": false,
-      "log_age_days": 0.8,
+      "log_age_days": 1.0,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/evolution-logs/evolution-auto.log"
     },
@@ -116,13 +112,13 @@
     },
     "com.antigravity.health-metrics": {
       "weekly": false,
-      "log_age_days": 0.8,
+      "log_age_days": 1.0,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/health/collector.log"
     },
     "com.antigravity.knowledge-compiler-weekly": {
       "weekly": true,
-      "log_age_days": 2.1,
+      "log_age_days": 3.0,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.memory/backups/knowledge-compiler-weekly.log"
     },
@@ -134,13 +130,13 @@
     },
     "com.antigravity.memory-maintenance": {
       "weekly": false,
-      "log_age_days": 0.0,
+      "log_age_days": 0.1,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.memory/backups/maintenance.log"
     },
     "com.antigravity.menu-parity": {
       "weekly": false,
-      "log_age_days": 0.8,
+      "log_age_days": 1.0,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/sessions/menu-parity.log"
     },
@@ -158,47 +154,47 @@
     },
     "com.antigravity.outcome-chase": {
       "weekly": true,
-      "log_age_days": 2.1,
+      "log_age_days": 3.1,
       "last_exit": 0,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/cos/outcome-chase.log"
     },
     "com.antigravity.social-pulse-farrice": {
       "weekly": true,
-      "log_age_days": 6.9,
-      "last_exit": 0,
+      "log_age_days": 1.0,
+      "last_exit": 2,
       "log_path": "/Users/farricecain/.logs/social-pulse-farrice.log"
     },
     "com.antigravity.social-pulse-jen": {
       "weekly": true,
-      "log_age_days": 6.0,
+      "log_age_days": 0.0,
       "last_exit": 0,
       "log_path": "/Users/farricecain/.logs/social-pulse-jen.log"
     },
     "com.antigravity.social-pulse-mybpm": {
       "weekly": true,
-      "log_age_days": 5.0,
+      "log_age_days": 6.0,
       "last_exit": 0,
       "log_path": "/Users/farricecain/.logs/social-pulse-mybpm.log"
     },
     "com.antigravity.verify-fleet": {
       "weekly": true,
-      "log_age_days": 1.8,
+      "log_age_days": 2.8,
       "last_exit": 1,
       "log_path": "/Users/farricecain/Google Antigravity/.agent/health/fleet.log"
     }
   },
   "verify_fleet": {
     "ts": "2026-07-26T11:45:18",
-    "age_days": 1.8,
+    "age_days": 2.8,
     "failing": 12,
     "total": 73
   },
   "flags": [
+    "routine com.antigravity.social-pulse-farrice: last exit 2 \u2014 failing unwatched; check /Users/farricecain/.logs/social-pulse-farrice.log",
     "routine com.antigravity.verify-fleet: last exit 1 \u2014 failing unwatched; check /Users/farricecain/Google Antigravity/.agent/health/fleet.log",
-    "15 remote branches \u2014 content-audit then prune keeps divergence checks fast; audit first, ours-merges make 'merged' untrustworthy",
+    "16 remote branches \u2014 content-audit then prune keeps divergence checks fast; audit first, ours-merges make 'merged' untrustworthy",
     "hook config drifted vs blessed baseline \u2014 diff .claude/settings.json, then delete .agent/health/hooks-baseline.json to re-bless deliberately",
-    "_active/ holds 738 files >60d old \u2014 archive candidates accrue in pending-review; approving keeps _active meaning 'active'",
-    "CLAUDE.md at 27KB (injected every session) \u2014 compress per claude-md-optimization playbook; rules preserved, tokens back",
+    "_active/ holds 3088 files >60d old \u2014 archive candidates accrue in pending-review; approving keeps _active meaning 'active'",
     "verifier fleet: 12/73 failing (run 2026-07-26) \u2014 each is a contract the system claims to hold; triage in weekly closeout"
   ]
 }

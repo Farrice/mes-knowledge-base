@@ -1,3 +1,7 @@
+---
+status: done
+---
+
 # Path Decision 2026 07 01
 
 ## Purpose

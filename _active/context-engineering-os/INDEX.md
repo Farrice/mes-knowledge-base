@@ -1,3 +1,7 @@
+---
+status: done
+---
+
 # Context Engineering OS — Session Hub & Index
 
 > **The front door to everything built in the Chase Hughes / Context Engineering OS session.**

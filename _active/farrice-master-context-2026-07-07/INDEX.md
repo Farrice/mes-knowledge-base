@@ -1,3 +1,7 @@
+---
+status: done
+---
+
 # Farrice Master Context 2026 07 07
 
 ## Purpose

@@ -1,3 +1,7 @@
+---
+status: done
+---
+
 # Notion Intellectual Library
 
 > **STATUS 2026-07-06**: historical deploy documentation. The live pipeline is `mirror_notion.py` → `.memory/sovereign.db` (`notion_mirror`), nightly launchd `com.antigravity.mirror-nightly`; write path = `chain_runner` finalize → Notion. This folder is not a live mirror.

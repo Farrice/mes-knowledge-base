@@ -1,3 +1,7 @@
+---
+status: done
+---
+
 # Alignment Architect 2026 07 07
 
 ## Purpose

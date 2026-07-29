@@ -1,3 +1,7 @@
+---
+status: done
+---
+
 # Prompt Wiring Os 2026 07 13
 
 ## Purpose

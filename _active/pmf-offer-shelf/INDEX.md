@@ -1,3 +1,7 @@
+---
+status: done
+---
+
 # Pmf Offer Package 2026 07 05
 
 ## Purpose

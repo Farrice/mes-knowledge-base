@@ -160,12 +160,20 @@ def is_relocation_stub(project_dir: Path) -> bool:
     and nothing else. It exists so a grep for the old path still finds where the
     work went — it is not a project, and listing it would put phantom rows in
     PROJECTS.md and a false `missing_index` in the drift report.
+
+    Tolerant of generated maps: artifact_router.ensure_project_shapes() writes a
+    boilerplate INDEX.md into any _active/<dir> lacking one, which silently turned
+    five pointers back into "live projects". A dir holding MOVED.md and nothing
+    but generated maps is still a pointer.
     """
     try:
         entries = [p for p in project_dir.iterdir() if not p.name.startswith(".")]
     except OSError:
         return False
-    return len(entries) == 1 and entries[0].name == "MOVED.md"
+    names = {p.name for p in entries}
+    if "MOVED.md" not in names:
+        return False
+    return not (names - {"MOVED.md"} - GENERATED_MAP_NAMES)
 
 
 def read_stamp(index_path: Path) -> dict:
@@ -265,7 +273,17 @@ def collect() -> list[dict]:
             else:
                 status, status_source = derive_status(days), "derived"
 
+            # When was the stamp itself written? A stamp newer than the last
+            # activity is the most recent word on the project's state.
+            stamped_after = False
+            if declared in VALID_STATUS and ts:
+                try:
+                    stamped_after = index_path.stat().st_mtime >= ts
+                except OSError:
+                    stamped_after = False
+
             rows.append({
+                "stamped_after_touch": stamped_after,
                 "name": project_dir.name,
                 "root": root_name,
                 "path": key,
@@ -299,10 +317,17 @@ def drift(rows: list[dict]) -> list[dict]:
                 and r["days"] is not None and r["days"] > STALE_DECLARED_DAYS):
             out.append({"kind": "status_declared_stale", "project": r["path"],
                         "detail": f"stamped active, untouched {r['days']}d"})
+        # "Stamped done but still live" only means something if the activity came
+        # AFTER the stamp. A stamp written today on a project touched today is
+        # Farrice saying "this is finished" about work that just concluded — the
+        # newer information wins. Without this, any housekeeping pass (filing,
+        # a folder merge) makes every freshly-stamped project look contradictory,
+        # and a report that cries wolf on day one is a report nobody reads.
         if (r["status_source"] == "declared" and r["status"] == "done"
-                and r["days"] is not None and r["days"] < DONE_BUT_LIVE_DAYS):
+                and r["days"] is not None and r["days"] < DONE_BUT_LIVE_DAYS
+                and not r.get("stamped_after_touch")):
             out.append({"kind": "status_done_but_live", "project": r["path"],
-                        "detail": f"stamped done, touched {r['days']}d ago"})
+                        "detail": f"stamped done, then touched {r['days']}d ago"})
         if not r["index_exists"]:
             out.append({"kind": "missing_index", "project": r["path"],
                         "detail": "no INDEX.md — project has no entry point"})

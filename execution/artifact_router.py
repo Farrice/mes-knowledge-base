@@ -471,6 +471,10 @@ def ensure_project_shapes() -> list[str]:
     created: list[str] = []
     for project in active_projects():
         project_dir = ROOT / "_active" / project
+        # A project_relocate --stub pointer is not a project. Writing boilerplate
+        # INDEX.md into one turns it back into a "live project" in PROJECTS.md.
+        if (project_dir / "MOVED.md").is_file():
+            continue
         index_path = project_dir / "INDEX.md"
         if not index_path.exists():
             index_path.write_text(

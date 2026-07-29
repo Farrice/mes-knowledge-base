@@ -1,7 +1,6 @@
 ---
-status: active
+status: done
 ---
-
 # TrendScale Trial
 
 ## Purpose
