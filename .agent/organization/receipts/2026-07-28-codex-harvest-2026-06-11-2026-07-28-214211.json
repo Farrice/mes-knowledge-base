@@ -1,0 +1,22 @@
+{
+  "applied_at": "2026-07-29T04:42:11+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/CANON.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/04-deliverables/CANON.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/CANON.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11",
+  "project_slug": "codex-harvest-2026-06-11",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/04-deliverables/CANON.md": 1
+  },
+  "skipped": [],
+  "version": 1
+}

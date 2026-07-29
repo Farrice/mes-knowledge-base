@@ -88,9 +88,9 @@ Already-shipped outputs that carry decision weight but are not link-verifiable. 
 
 | File | Why | Re-ground action |
 |---|---|---|
-| `deliverables/prediction-market-business-briefing.md` | Real-money go/no-go, ZERO URLs, hard stats as fact ("$1→$3.3M in 8mo", "7.6% of wallets profitable", "~$9.5B/mo"). | Re-run `research.py --depth deep` on each stat; attach URLs or pull the claim. |
-| `deliverables/prediction-market-partner-briefing.md` | Partner-decision briefing, ZERO URLs, named trader stats as fact. | Same — re-verify every trader/volume stat with sources. |
-| `deliverables/prediction-market-proposal-package.md` | Compensation/partnership ask built on the same unverified profit/market-size claims. | Re-ground the underlying claims; gate before sending. |
+| `_active/prediction-market-arb/02-research/prediction-market-business-briefing.md` | Real-money go/no-go, ZERO URLs, hard stats as fact ("$1→$3.3M in 8mo", "7.6% of wallets profitable", "~$9.5B/mo"). | Re-run `research.py --depth deep` on each stat; attach URLs or pull the claim. |
+| `_active/prediction-market-arb/02-research/prediction-market-partner-briefing.md` | Partner-decision briefing, ZERO URLs, named trader stats as fact. | Same — re-verify every trader/volume stat with sources. |
+| `_active/prediction-market-arb/02-research/prediction-market-proposal-package.md` | Compensation/partnership ask built on the same unverified profit/market-size claims. | Re-ground the underlying claims; gate before sending. |
 | `research_outputs/prediction-market-arb/00-research-dossier.md` | Capital-allocation dossier; header claims "9 searches / 4 extractions" but only 2 URLs; dense unsourced financials. | Re-run through engine; quarantine every URL-less claim. |
 | `research_outputs/dj-event-matchmaking-research.md` | Andrea/Resonance go/no-go on ~35 stats, ZERO URLs ("78% dating-app fatigue", "Tinder lost 594K"). | Re-verify each market stat; supersede with a sourced brief. |
 | `research_outputs/ghostwriting_niche_selection.md` | Authority Flywheel niche decision on ~23 unsourced stats (pricing bands, "~60K NSCA members"). | Re-ground pricing/sizing via `research.py`. |

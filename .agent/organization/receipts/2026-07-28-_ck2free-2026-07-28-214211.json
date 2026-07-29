@@ -1,0 +1,20 @@
+{
+  "applied_at": "2026-07-29T04:42:11+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/_ck2free/MOVED.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/_ck2free/04-deliverables/MOVED.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/projects/_ck2free/MOVED.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/projects/_ck2free",
+  "project_slug": "_ck2free",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {},
+  "skipped": [],
+  "version": 1
+}

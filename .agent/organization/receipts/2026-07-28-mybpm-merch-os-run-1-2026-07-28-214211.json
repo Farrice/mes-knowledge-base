@@ -1,0 +1,22 @@
+{
+  "applied_at": "2026-07-29T04:42:11+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/CANON.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/04-deliverables/CANON.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/CANON.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1",
+  "project_slug": "mybpm-merch-os-run-1",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/04-deliverables/CANON.md": 1
+  },
+  "skipped": [],
+  "version": 1
+}

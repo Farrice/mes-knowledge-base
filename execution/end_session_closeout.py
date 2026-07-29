@@ -496,8 +496,13 @@ def step_artifact_sweep(ctx: Dict[str, Any], degraded: bool, dry_run: bool) -> T
     if dry_run:
         return "OK", "[dry-run] would run project_filer.py sweep"
     try:
+        # BOUNDED window on purpose. The watermark default (no --since-minutes)
+        # widens to catch up after a gap, which can exceed this step's 60s budget
+        # on a repo this size. Session close stays fast and handles today's files;
+        # the daily 06:00 audit runs the unbounded catch-up. Both are wired, so
+        # nothing is permanently invisible either way.
         r = subprocess.run(
-            [sys.executable, str(filer), "sweep"],
+            [sys.executable, str(filer), "sweep", "--since-minutes", "1440"],
             capture_output=True, text=True, timeout=60, cwd=str(ROOT),
         )
         out_lines = [ln for ln in (r.stdout or "").splitlines() if ln.strip()]

@@ -1,3 +1,8 @@
+---
+status: superseded
+superseded_by: ../PLAN.md
+---
+
 # STALE — DO NOT USE
 
 **Quarantined 2026-07-08** during the adversarial review of `03-testimonial-weaponization/PLAN.md`.

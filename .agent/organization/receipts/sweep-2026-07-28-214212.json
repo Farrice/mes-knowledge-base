@@ -1,0 +1,44 @@
+{
+  "auto_moved": 27,
+  "needs_judgment": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/jen-santulan/state.yaml",
+      "project": "jen-santulan",
+      "reason": "low confidence 0.5"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/andrea-dj/state.yaml",
+      "project": "andrea-dj",
+      "reason": "low confidence 0.5"
+    }
+  ],
+  "projects_touched": [
+    "Kens_Fasting_Digital_Product",
+    "_ck2free",
+    "chris-restaurants",
+    "coach-cooz",
+    "codex-harvest-2026-06-11",
+    "course-graveyard-coach",
+    "disney-crowd-app",
+    "dwa-threads-engine-2026-07-05",
+    "farrice-brand",
+    "farrice-website",
+    "health-performance-ip-library",
+    "invisible-expert",
+    "jen-listings",
+    "josh-swing-nerd-shirts-v1",
+    "linkedin-launch",
+    "mybpm-merch-os-run-1",
+    "pmf-brief-2026-07-07",
+    "pmf-offer-map-2026-07-07",
+    "pmf-ofm-options-2026-07-07",
+    "sfv-first-time-homebuyers",
+    "strategic-clarity",
+    "system-integration",
+    "teardown-kajabi",
+    "teardown-skool",
+    "unbottlenecked_blueprint"
+  ],
+  "since_minutes": 1440,
+  "swept_at": "2026-07-29T04:42:12+00:00"
+}

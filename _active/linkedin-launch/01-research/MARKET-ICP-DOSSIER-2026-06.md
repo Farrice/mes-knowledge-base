@@ -1,3 +1,7 @@
+---
+status: canonical
+---
+
 # MARKET + ICP DOSSIER — Health / Wellness / Performance / Supplement GEO Wedge
 
 ## Canonical buyer intelligence for Farrice Cain's LinkedIn-led GEO/SEO ghostwriting business

@@ -9,7 +9,7 @@ Domain: Prediction market trading (weather vertical) + meteorological data arbit
 Depth Tier: Deep — production codebase, ~1,700 lines of real trading logic across two bot versions
 Genius Patterns: 11
 Hidden Knowledge: 8
-Existing Overlap: Feasibility assessment at deliverables/polymarket-kalshi-arbitrage-feasibility.md (strategy layer only, no execution code)
+Existing Overlap: Feasibility assessment at _active/prediction-market-arb/02-research/polymarket-kalshi-arbitrage-feasibility.md (strategy layer only, no execution code)
 ```
 
 ---

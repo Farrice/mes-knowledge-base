@@ -1,0 +1,20 @@
+{
+  "applied_at": "2026-07-29T04:42:11+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/sfv-first-time-homebuyers/MOVED.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/sfv-first-time-homebuyers/04-deliverables/MOVED.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/projects/sfv-first-time-homebuyers/MOVED.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/projects/sfv-first-time-homebuyers",
+  "project_slug": "sfv-first-time-homebuyers",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {},
+  "skipped": [],
+  "version": 1
+}

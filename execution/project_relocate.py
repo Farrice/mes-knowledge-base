@@ -86,22 +86,35 @@ def find_referrers(needle: str) -> list[Path]:
     return sorted(set(hits))
 
 
+SENTINEL = "\x00\x00RELOCATE\x00\x00"
+
+
 def rewrite(path: Path, src_rel: str, dst_rel: str) -> int:
+    """Replace src_rel with dst_rel, idempotently.
+
+    The destination usually CONTAINS the source (`deliverables/x.md` ->
+    `.../04-deliverables/x.md`). A naive str.replace would then rewrite INSIDE
+    an already-correct path on a second run, producing corruption like
+    `.../04-_active/.../04-deliverables/x.md`. Mask the destination first so
+    already-rewritten text is never touched.
+    """
     try:
         text = path.read_text(encoding="utf-8")
     except (OSError, UnicodeDecodeError):
         return 0
-    if src_rel not in text:
+    masked = text.replace(dst_rel, SENTINEL)
+    if src_rel not in masked:
         return 0
-    n = text.count(src_rel)
-    path.write_text(text.replace(src_rel, dst_rel), encoding="utf-8")
+    n = masked.count(src_rel)
+    path.write_text(masked.replace(src_rel, dst_rel).replace(SENTINEL, dst_rel),
+                    encoding="utf-8")
     return n
 
 
 def build(src_rel: str, dst_rel: str) -> dict:
     src, dst = ROOT / src_rel, ROOT / dst_rel
-    if not src.is_dir():
-        raise SystemExit(f"source is not a directory: {src_rel}")
+    if not src.exists():
+        raise SystemExit(f"source does not exist: {src_rel}")
     if dst.exists():
         raise SystemExit(f"destination already exists, refusing: {dst_rel}")
     referrers = find_referrers(src_rel)
@@ -115,7 +128,8 @@ def build(src_rel: str, dst_rel: str) -> dict:
         "schema": 1,
         "generated_at": datetime.now(timezone.utc).isoformat(),
         "src": src_rel, "dst": dst_rel,
-        "files_in_project": sum(1 for _ in src.rglob("*") if _.is_file()),
+        "files_in_project": (sum(1 for _ in src.rglob("*") if _.is_file())
+                             if src.is_dir() else 1),
         "referrers": [str(p) for p in referrers],
         "control_referrers": [str(p) for p in control],
     }
@@ -198,11 +212,25 @@ def apply(plan: dict, stub: bool) -> dict:
 
 
 def verify(src_rel: str, dst_rel: str) -> dict:
-    """Zero live references to the old path (frozen ledgers excluded)."""
-    stale = [str(p.relative_to(ROOT)) if ROOT in p.parents else str(p)
-             for p in find_referrers(src_rel)]
+    """Zero live references to the old path (frozen ledgers excluded).
+
+    The destination frequently CONTAINS the source as a substring — moving
+    `deliverables/x.md` into `.../04-deliverables/x.md` means a correctly
+    rewritten file still literally contains the old string. Blank the new path
+    out first, then look for genuine leftovers; otherwise every such move
+    reports a false failure and halts a good run.
+    """
+    stale = []
+    for p in find_referrers(src_rel):
+        try:
+            text = p.read_text(encoding="utf-8", errors="ignore")
+        except OSError:
+            continue
+        if src_rel in text.replace(dst_rel, "\x00"):
+            stale.append(str(p.relative_to(ROOT)) if ROOT in p.parents else str(p))
+    # .exists(), not .is_dir() — this tool relocates single files too.
     return {"stale_referrers": stale, "ok": not stale,
-            "destination_exists": (ROOT / dst_rel).is_dir()}
+            "destination_exists": (ROOT / dst_rel).exists()}
 
 
 def main() -> int:

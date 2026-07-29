@@ -24,7 +24,7 @@
 - Goal: Multi-strategy AI trading platform on Polymarket (+ eventually Kalshi)
 - Financial context: Starting small ($20-50 weather), scaling up per graduated deployment plan
 - Plan file: `.claude/plans/twinkly-juggling-coral.md`
-- Feasibility doc: `deliverables/polymarket-kalshi-arbitrage-feasibility.md`
+- Feasibility doc: `_active/prediction-market-arb/02-research/polymarket-kalshi-arbitrage-feasibility.md`
 
 ## Extraction Reports — Complete Inventory
 

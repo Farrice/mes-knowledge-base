@@ -1,3 +1,8 @@
+---
+status: superseded
+superseded_by: ../../FARRICE-MASTER-CONTEXT.md
+---
+
 # FOUNDER CONTEXT BRIEF — Farrice "Fresh" Cain
 
 > ⚠️ **SUPERSEDED 2026-07-07** by `/Users/farricecain/Google Antigravity/FARRICE-MASTER-CONTEXT.md` (v2.0) — the master doc absorbs this brief and adds the Notion self-work layer (9 docs), full receipts, and the pattern-vs-plan ledger. This file remains the deep-dive reference for §7 voice law and §12 calibration samples, which the master doc points back to.

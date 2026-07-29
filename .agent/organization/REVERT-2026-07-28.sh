@@ -1,6 +1,104 @@
 #!/bin/sh
 # Auto-generated inverse moves (newest first). Re-run to revert.
 
+mkdir -p "/Users/farricecain/Google Antigravity/projects/invisible-expert" && mv -n "/Users/farricecain/Google Antigravity/projects/invisible-expert/04-deliverables/MOVED.md" "/Users/farricecain/Google Antigravity/projects/invisible-expert/MOVED.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/projects/teardown-skool" && mv -n "/Users/farricecain/Google Antigravity/projects/teardown-skool/04-deliverables/MOVED.md" "/Users/farricecain/Google Antigravity/projects/teardown-skool/MOVED.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint" && mv -n "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/04-deliverables/MOVED.md" "/Users/farricecain/Google Antigravity/projects/unbottlenecked_blueprint/MOVED.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/projects/course-graveyard-coach" && mv -n "/Users/farricecain/Google Antigravity/projects/course-graveyard-coach/04-deliverables/MOVED.md" "/Users/farricecain/Google Antigravity/projects/course-graveyard-coach/MOVED.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/projects/farrice-website" && mv -n "/Users/farricecain/Google Antigravity/projects/farrice-website/04-deliverables/MOVED.md" "/Users/farricecain/Google Antigravity/projects/farrice-website/MOVED.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/projects/sfv-first-time-homebuyers" && mv -n "/Users/farricecain/Google Antigravity/projects/sfv-first-time-homebuyers/04-deliverables/MOVED.md" "/Users/farricecain/Google Antigravity/projects/sfv-first-time-homebuyers/MOVED.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/projects/teardown-kajabi" && mv -n "/Users/farricecain/Google Antigravity/projects/teardown-kajabi/04-deliverables/MOVED.md" "/Users/farricecain/Google Antigravity/projects/teardown-kajabi/MOVED.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product" && mv -n "/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product/04-deliverables/MOVED.md" "/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product/MOVED.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/projects/_ck2free" && mv -n "/Users/farricecain/Google Antigravity/projects/_ck2free/04-deliverables/MOVED.md" "/Users/farricecain/Google Antigravity/projects/_ck2free/MOVED.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05" && mv -n "/Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/04-deliverables/CANON.md" "/Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/CANON.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/system-integration" && mv -n "/Users/farricecain/Google Antigravity/_active/system-integration/06-system/2026-05-12-agentic-os-elevation-brief.md" "/Users/farricecain/Google Antigravity/_active/system-integration/2026-05-12-agentic-os-elevation-brief.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1" && mv -n "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/04-deliverables/CANON.md" "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/CANON.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/pmf-brief-2026-07-07" && mv -n "/Users/farricecain/Google Antigravity/_active/pmf-brief-2026-07-07/04-deliverables/MOVED.md" "/Users/farricecain/Google Antigravity/_active/pmf-brief-2026-07-07/MOVED.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/linkedin-launch" && mv -n "/Users/farricecain/Google Antigravity/_active/linkedin-launch/04-deliverables/CANON.md" "/Users/farricecain/Google Antigravity/_active/linkedin-launch/CANON.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/linkedin-launch" && mv -n "/Users/farricecain/Google Antigravity/_active/linkedin-launch/04-deliverables/CAMPAIGN.md" "/Users/farricecain/Google Antigravity/_active/linkedin-launch/CAMPAIGN.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/strategic-clarity" && mv -n "/Users/farricecain/Google Antigravity/_active/strategic-clarity/04-deliverables/MOVED.md" "/Users/farricecain/Google Antigravity/_active/strategic-clarity/MOVED.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/pmf-offer-map-2026-07-07" && mv -n "/Users/farricecain/Google Antigravity/_active/pmf-offer-map-2026-07-07/04-deliverables/MOVED.md" "/Users/farricecain/Google Antigravity/_active/pmf-offer-map-2026-07-07/MOVED.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1" && mv -n "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/04-deliverables/CANON.md" "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/CANON.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11" && mv -n "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/04-deliverables/CANON.md" "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/CANON.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/chris-restaurants" && mv -n "/Users/farricecain/Google Antigravity/_active/chris-restaurants/04-deliverables/MOVED.md" "/Users/farricecain/Google Antigravity/_active/chris-restaurants/MOVED.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/jen-listings" && mv -n "/Users/farricecain/Google Antigravity/_active/jen-listings/04-deliverables/CANON.md" "/Users/farricecain/Google Antigravity/_active/jen-listings/CANON.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/coach-cooz" && mv -n "/Users/farricecain/Google Antigravity/_active/coach-cooz/04-deliverables/CANON.md" "/Users/farricecain/Google Antigravity/_active/coach-cooz/CANON.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/pmf-ofm-options-2026-07-07" && mv -n "/Users/farricecain/Google Antigravity/_active/pmf-ofm-options-2026-07-07/04-deliverables/MOVED.md" "/Users/farricecain/Google Antigravity/_active/pmf-ofm-options-2026-07-07/MOVED.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library" && mv -n "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/04-deliverables/CANON.md" "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/CANON.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/farrice-brand" && mv -n "/Users/farricecain/Google Antigravity/_active/farrice-brand/04-deliverables/FOUNDER-CONTEXT-BRIEF.md" "/Users/farricecain/Google Antigravity/_active/farrice-brand/FOUNDER-CONTEXT-BRIEF.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/farrice-brand" && mv -n "/Users/farricecain/Google Antigravity/_active/farrice-brand/04-deliverables/CANON.md" "/Users/farricecain/Google Antigravity/_active/farrice-brand/CANON.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mkdir -p "/Users/farricecain/Google Antigravity/_active/disney-crowd-app" && mv -n "/Users/farricecain/Google Antigravity/_active/disney-crowd-app/04-deliverables/concept-brief.md" "/Users/farricecain/Google Antigravity/_active/disney-crowd-app/concept-brief.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_archive/2026-07-28-org-sweep/SLASH_COMMANDS.pdf" "/Users/farricecain/Google Antigravity/SLASH_COMMANDS.pdf"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_archive/2026-07-28-org-sweep/fleet-status.md" "/Users/farricecain/Google Antigravity/fleet-status.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_archive/2026-07-28-org-sweep/eval-artifacts/bakemargin-mobile.png" "/Users/farricecain/Google Antigravity/bakemargin-mobile.png"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_archive/2026-07-28-org-sweep/eval-artifacts/bakemargin-desktop.png" "/Users/farricecain/Google Antigravity/bakemargin-desktop.png"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_active/linkedin-launch/01-research/page-farrice-profile-full.yml" "/Users/farricecain/Google Antigravity/page-farrice-profile-full.yml"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_archive/2026-07-28-org-sweep/personal/coachella-weekend-2-family-plan.md" "/Users/farricecain/Google Antigravity/deliverables/coachella-weekend-2-family-plan.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_active/system-audit/04-deliverables/design-md-health-2026-05-11.md" "/Users/farricecain/Google Antigravity/deliverables/design-md-health-2026-05-11.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_active/system-audit/04-deliverables/playwright-retrofit-audit-2026-05-14.md" "/Users/farricecain/Google Antigravity/deliverables/playwright-retrofit-audit-2026-05-14.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_active/system-audit/04-deliverables/phase2-upgrades-handoff-prompt.md" "/Users/farricecain/Google Antigravity/deliverables/phase2-upgrades-handoff-prompt.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_active/system-audit/04-deliverables/phase2-karpathy-audit-delta-2026-04-20.md" "/Users/farricecain/Google Antigravity/deliverables/phase2-karpathy-audit-delta-2026-04-20.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_active/system-audit/04-deliverables/phase2-karpathy-audit-2026-04-20.md" "/Users/farricecain/Google Antigravity/deliverables/phase2-karpathy-audit-2026-04-20.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_active/linkedin-launch/01-research/momentous-reputation-analysis-2026-07-25.md" "/Users/farricecain/Google Antigravity/deliverables/momentous-reputation-analysis-2026-07-25.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_active/linkedin-launch/05-lead-gen/linkedin-ghostwriting-outreach-playbook.md" "/Users/farricecain/Google Antigravity/deliverables/linkedin-ghostwriting-outreach-playbook.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_active/linkedin-launch/04-deliverables/design-brief-linkedin-carousel-authenticity-trap.md" "/Users/farricecain/Google Antigravity/deliverables/design-brief-linkedin-carousel-authenticity-trap.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_active/linkedin-launch/04-deliverables/design-brief-linkedin-carousel-PENCIL-HANDOFF.md" "/Users/farricecain/Google Antigravity/deliverables/design-brief-linkedin-carousel-PENCIL-HANDOFF.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_active/prediction-market-arb/02-research/trading-dashboard-demo.html" "/Users/farricecain/Google Antigravity/deliverables/trading-dashboard-demo.html"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_active/prediction-market-arb/02-research/polymarket-kalshi-arbitrage-feasibility.md" "/Users/farricecain/Google Antigravity/deliverables/polymarket-kalshi-arbitrage-feasibility.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_active/prediction-market-arb/02-research/prediction-market-proposal-package.md" "/Users/farricecain/Google Antigravity/deliverables/prediction-market-proposal-package.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_active/prediction-market-arb/02-research/prediction-market-partner-briefing.md" "/Users/farricecain/Google Antigravity/deliverables/prediction-market-partner-briefing.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_active/prediction-market-arb/02-research/prediction-market-full-cost-analysis.md" "/Users/farricecain/Google Antigravity/deliverables/prediction-market-full-cost-analysis.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_active/prediction-market-arb/02-research/prediction-market-final-partner-briefing.md" "/Users/farricecain/Google Antigravity/deliverables/prediction-market-final-partner-briefing.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
+mv -n "/Users/farricecain/Google Antigravity/_active/prediction-market-arb/02-research/prediction-market-business-briefing.md" "/Users/farricecain/Google Antigravity/deliverables/prediction-market-business-briefing.md"
+# Auto-generated inverse moves (newest first). Re-run to revert.
 mv -n "/Users/farricecain/Google Antigravity/_archive/2026-07-28-org-sweep/Kens_Fasting_Digital_Product" "/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product"
 # Auto-generated inverse moves (newest first). Re-run to revert.
 mv -n "/Users/farricecain/Google Antigravity/_archive/2026-07-28-org-sweep/pmf-ofm-options-2026-07-07" "/Users/farricecain/Google Antigravity/_active/pmf-ofm-options-2026-07-07"

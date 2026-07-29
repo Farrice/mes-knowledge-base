@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:34:15.061956+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "deliverables/design-brief-linkedin-carousel-authenticity-trap.md",
+  "dst": "_active/linkedin-launch/04-deliverables/design-brief-linkedin-carousel-authenticity-trap.md",
+  "stub_left": false,
+  "files_moved": 1,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md": 1
+  },
+  "total_rewrites": 1,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

@@ -1,0 +1,28 @@
+{
+  "applied_at": "2026-07-29T04:42:10+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/farrice-brand/CANON.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/farrice-brand/04-deliverables/CANON.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/farrice-brand/FOUNDER-CONTEXT-BRIEF.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/farrice-brand/04-deliverables/FOUNDER-CONTEXT-BRIEF.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/farrice-brand/CANON.md",
+    "/Users/farricecain/Google Antigravity/_active/farrice-brand/FOUNDER-CONTEXT-BRIEF.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/farrice-brand",
+  "project_slug": "farrice-brand",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/user_master-context-doc.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/farrice-brand/04-deliverables/CANON.md": 3
+  },
+  "skipped": [],
+  "version": 1
+}

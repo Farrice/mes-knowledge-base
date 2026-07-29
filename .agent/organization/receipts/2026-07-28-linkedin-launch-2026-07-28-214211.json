@@ -1,0 +1,28 @@
+{
+  "applied_at": "2026-07-29T04:42:11+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/CAMPAIGN.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/04-deliverables/CAMPAIGN.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/CANON.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/linkedin-launch/04-deliverables/CANON.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/linkedin-launch/CAMPAIGN.md",
+    "/Users/farricecain/Google Antigravity/_active/linkedin-launch/CANON.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/linkedin-launch",
+  "project_slug": "linkedin-launch",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/linkedin-launch/04-deliverables/CAMPAIGN.md": 5,
+    "/Users/farricecain/Google Antigravity/_active/linkedin-launch/04-deliverables/CANON.md": 23
+  },
+  "skipped": [],
+  "version": 1
+}

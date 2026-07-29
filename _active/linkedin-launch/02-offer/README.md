@@ -1,3 +1,8 @@
+---
+status: superseded
+superseded_by: PROOF-TO-MARKET-OS.md
+---
+
 # 02-offer — index
 
 > What you sell. Canonical offer brief, the $500 claim-safe audit (TEMPLATE + EXAMPLE), the free lead magnet, the featured-section funnel, service + sales guides.

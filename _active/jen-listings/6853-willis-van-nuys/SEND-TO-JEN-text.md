@@ -1,3 +1,8 @@
+---
+status: superseded
+superseded_by: 6853-willis-SHOOT-SHEET.md
+---
+
 # ⛔ Superseded — do not use
 
 The "text to send Jen" blob format is retired (per Farrice, 2026-07-02: a prose blob is useless for shooting — she needs per-Reel cards).

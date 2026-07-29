@@ -1,4 +1,5 @@
 ---
+status: canonical
 version: 1.2
 compiled: 2026-07-28
 owner: voice-os

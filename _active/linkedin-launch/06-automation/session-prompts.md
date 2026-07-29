@@ -10,7 +10,7 @@ Copy-paste these at the start of a fresh Claude Code session. Each prompt is sel
 I need to rewrite my entire LinkedIn profile to match my new positioning as a LinkedIn ghostwriter for elite S&C coaches and sports scientists.
 
 CONTEXT — Read these files first:
-- `deliverables/linkedin-ghostwriting-outreach-playbook.md` (lines 1-10 for positioning statement + service packages)
+- `_active/linkedin-launch/05-lead-gen/linkedin-ghostwriting-outreach-playbook.md` (lines 1-10 for positioning statement + service packages)
 - `_active/linkedin-launch/04-deliverables/content-os/posts/001-the-audit-lessons.md` (my first post — the profile must COMPLEMENT this, not cannibalize it)
 - `_active/linkedin-launch/02-offer/service-architecture.md` (service tiers and Cole methodology)
 - `FARRICE.md` (lines 1-100 for personal context, background, archetypes)
@@ -47,7 +47,7 @@ I need to write my Week 1 LinkedIn content — 2 more posts to go with my audit 
 CONTEXT — Read these files first:
 - `_active/linkedin-launch/content-calendar-sc-coaching.md` (full 5-week calendar — I'm writing Week 1 Wed + Thu)
 - `_active/linkedin-launch/04-deliverables/content-os/posts/001-the-audit-lessons.md` (Post #1 already published — new posts must complement, not repeat)
-- `deliverables/linkedin-ghostwriting-outreach-playbook.md` (lines 1-150 for lead data — Rocky Snyder and Steve Hess details are the raw material for these posts)
+- `_active/linkedin-launch/05-lead-gen/linkedin-ghostwriting-outreach-playbook.md` (lines 1-150 for lead data — Rocky Snyder and Steve Hess details are the raw material for these posts)
 - `FARRICE.md` (lines 1-100 for voice and background)
 
 THE TWO POSTS TO WRITE:
@@ -81,7 +81,7 @@ I need to refine my ghostwriting service offering. The core positioning is locke
 
 CONTEXT — Read these files first:
 - `_active/linkedin-launch/02-offer/service-architecture.md` (current service tiers — Proof Run, The Voice, The Engine)
-- `deliverables/linkedin-ghostwriting-outreach-playbook.md` (lines 1-10 for positioning, current package names and pricing)
+- `_active/linkedin-launch/05-lead-gen/linkedin-ghostwriting-outreach-playbook.md` (lines 1-10 for positioning, current package names and pricing)
 - `skills/nicolas-cole-digital-products/genius.md` (Context Repackaging, Vehicle Framework, Income Staircase)
 
 THE INSIGHT: Some elite coaches won't care about LinkedIn specifically. A 55-year-old NFL S&C coach who's been getting referrals for 25 years isn't going to suddenly want a "LinkedIn presence." But he might want:
@@ -115,7 +115,7 @@ CONTEXT — Read these files first:
 - `_active/linkedin-launch/04-deliverables/content-os/posts/001-the-audit-lessons.md` (my published post — proof of concept #1)
 - `_active/linkedin-launch/content-calendar-sc-coaching.md` (full content calendar for additional published posts)
 - `_active/linkedin-launch/02-offer/service-architecture.md` (service tiers and methodology)
-- `deliverables/linkedin-ghostwriting-outreach-playbook.md` (audit methodology and lead examples for reference)
+- `_active/linkedin-launch/05-lead-gen/linkedin-ghostwriting-outreach-playbook.md` (audit methodology and lead examples for reference)
 - `FARRICE.md` (lines 1-100 for background)
 
 WHAT I NEED:
@@ -144,7 +144,7 @@ Save all spec pieces to `_active/linkedin-launch/spec-pieces/` and the portfolio
 I'm ready to start outreach. I have my profile optimized, published posts live, spec pieces ready, and the outreach playbook built. Time to execute.
 
 CONTEXT — Read these files first:
-- `deliverables/linkedin-ghostwriting-outreach-playbook.md` (full playbook — 8 audited leads with scripts, 12 bonus leads)
+- `_active/linkedin-launch/05-lead-gen/linkedin-ghostwriting-outreach-playbook.md` (full playbook — 8 audited leads with scripts, 12 bonus leads)
 - `_active/linkedin-launch/04-deliverables/content-os/posts/` (all published posts — reference in outreach as proof)
 - `_active/linkedin-launch/02-offer/service-architecture.md` (current service tiers and pricing)
 - `_active/linkedin-launch/spec-pieces/` (spec posts for network connector leads)

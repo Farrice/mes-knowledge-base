@@ -59,6 +59,7 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `andrea-dj` | _active/ | `_active/andrea-dj/RISKS.md` | 2026-07-28 | parked |
 | `farrice-creative-strategist-portfolio` | _active/ | `_active/farrice-creative-strategist-portfolio/INDEX.md` | 2026-07-28 | parked |
 | `jen-santulan` | _active/ | `_active/jen-santulan/INDEX.md` | 2026-07-28 | parked |
+| `prediction-market-arb` | _active/ | `_active/prediction-market-arb/INDEX.md` | 2026-07-28 | parked |
 | `_ledgers` | _active/ | `_active/_ledgers/INDEX.md` | 2026-06-19 | parked* |
 | `codex-harvest-2026-06-11` | _active/ | `_active/codex-harvest-2026-06-11/INDEX.md` | 2026-06-11 | parked* |
 | `disney-crowd-app` | _active/ | `_active/disney-crowd-app/INDEX.md` | 2026-06-11 | parked* |
@@ -68,7 +69,6 @@ Status lives in each project's own `INDEX.md` frontmatter (`status: active | par
 | `system-integration` | _active/ | `_active/system-integration/INDEX.md` | 2026-05-28 | parked* |
 | `content-system-audit` | _active/ | `_active/content-system-audit/INDEX.md` | 2026-05-01 | parked* |
 | `parallax-icp-offer` | _active/ | `_active/parallax-icp-offer/INDEX.md` | 2026-04-20 | parked* |
-| `prediction-market-arb` | _active/ | `_active/prediction-market-arb/INDEX.md` | 2026-04-15 | parked |
 | `chris-restaurants` | _active/ | `_active/chris-restaurants/INDEX.md` | 2026-04-09 | parked* |
 | `claude-code-harness-analysis` | _active/ | `_active/claude-code-harness-analysis/README.md` | 2026-04-09 | parked |
 | `strategic-clarity` | _active/ | `_active/strategic-clarity/INDEX.md` | 2026-03-31 | parked* |

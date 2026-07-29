@@ -46,7 +46,20 @@ ORG_HOME = ROOT / ".agent" / "organization"
 RECEIPTS_DIR = ORG_HOME / "receipts"
 
 # Files pinned by name at a project root — never filed into a subfolder.
-EXEMPT_NAMES = {"INDEX.md", "README.md", "CLAUDE.md", "RISKS.md", ".gitignore"}
+#
+# SCAR 2026-07-28: CANON.md, CAMPAIGN.md and MOVED.md were missing here. The
+# sweep had been silently timing out, so the gap never bit; the moment it ran
+# fast enough to finish it filed 27 of them into 04-deliverables/ — including
+# _active/linkedin-launch/CAMPAIGN.md, which the SessionStart campaign beacon
+# reads by exact path, and 11 MOVED.md relocation pointers, whose entire job is
+# to sit at the old location. Each of these is a contract with another tool:
+#   INDEX.md    project entry point + lifecycle stamp (projects_index.py)
+#   CANON.md    canon map, written AT the project root (canon_audit.py)
+#   CAMPAIGN.md mission queue, read by hooks/campaign_beacon.py
+#   MOVED.md    relocation pointer (project_relocate.py --stub)
+EXEMPT_NAMES = {"INDEX.md", "README.md", "CLAUDE.md", "RISKS.md", ".gitignore",
+                "CANON.md", "CAMPAIGN.md", "MOVED.md", "AGENTS.md", "CODEX.md",
+                "GEMINI.md"}
 
 # A referrer under any of these repo roots pins the file (control plane is
 # never rewritten by this tool).
@@ -159,10 +172,21 @@ def sibling_web_host(project_root: Path, path: Path) -> str | None:
 # inbound reference scan
 # ─────────────────────────────────────────────────────────────
 
+# Excluded from the grep itself, not filtered afterwards. These hold a 25MB
+# manifest and multi-hundred-thousand-line move-plan snapshots; scanning them
+# for every needle is what made the session-close sweep blow its 60s budget.
+# They are already discarded as referrers by BOOKKEEPING_PREFIXES.
+# NOTE the ':(exclude)' long form. The ':!' shorthand silently matches NOTHING
+# here (verified: 41 hits unfiltered, 0 with ':!', 10 with ':(exclude)') — a
+# silent zero would turn every control-plane pin into an unpinned move.
+_GREP_EXCLUDES = [":(exclude)_system/organization", ":(exclude).agent/organization"]
+
+
 def _git_grep(needle: str) -> list[Path]:
     try:
         r = subprocess.run(
-            ["git", "grep", "-I", "-l", "-F", "--untracked", needle],
+            ["git", "grep", "-I", "-l", "-F", "--untracked", needle,
+             "--", *_GREP_EXCLUDES],
             capture_output=True, text=True, cwd=str(ROOT), timeout=30,
         )
     except Exception:
@@ -246,7 +270,8 @@ def scan_referrers(path: Path, project_root: Path) -> tuple[list[Path], list[Pat
 # plan
 # ─────────────────────────────────────────────────────────────
 
-def build_plan(project_root: Path, since_minutes: int | None = None) -> dict[str, Any]:
+def build_plan(project_root: Path, since_minutes: int | None = None,
+               with_baseline: bool = True) -> dict[str, Any]:
     project_root = project_root.resolve()
     slug = project_root.name
     cutoff = None
@@ -254,9 +279,17 @@ def build_plan(project_root: Path, since_minutes: int | None = None) -> dict[str
         cutoff = datetime.now(timezone.utc).timestamp() - since_minutes * 60
 
     items: list[dict[str, Any]] = []
-    for path in loose_files(project_root):
-        if cutoff is not None and path.stat().st_mtime < cutoff:
-            continue
+    candidates = loose_files(project_root)
+    if cutoff is not None:
+        candidates = [p for p in candidates if p.stat().st_mtime >= cutoff]
+    # Nothing in window: skip the whole scan. sweep() walks ~60 projects and
+    # most have no eligible file — the per-project work below is what made the
+    # session-close step blow its 60s budget.
+    if not candidates and not with_baseline:
+        return {"version": 1, "producer": "project_filer.py", "schema": 1,
+                "generated_at": utc_now(), "project": str(project_root),
+                "project_slug": slug, "items": [], "baseline_broken": []}
+    for path in candidates:
         folder, conf, lifecycle, reasons = propose(project_root, path)
         destination = project_root / folder / path.name
         referrers, control = scan_referrers(path, project_root)
@@ -284,11 +317,14 @@ def build_plan(project_root: Path, since_minutes: int | None = None) -> dict[str
         })
 
     # Pre-move broken-ref baseline: verify --against-plan fails only on
-    # NET-NEW breaks relative to this set.
-    try:
-        baseline = scan_broken_refs(project_root)
-    except Exception:
-        baseline = []
+    # NET-NEW breaks relative to this set. Skipped by sweep(), which never
+    # consumes it — computing it for every project was pure cost.
+    baseline: list[Any] = []
+    if with_baseline:
+        try:
+            baseline = scan_broken_refs(project_root)
+        except Exception:
+            baseline = []
 
     return {
         "version": 1,
@@ -827,14 +863,49 @@ def _sweep_project_roots() -> list[Path]:
     return roots
 
 
-def sweep(since_minutes: int) -> dict[str, Any]:
+SWEEP_STATE = ORG_HOME / "sweep-state.json"
+
+
+def effective_since_minutes(requested: int | None) -> int | None:
+    """Resolve the sweep window from a watermark. None == full scan.
+
+    THIS IS THE FIX FOR WHAT KILLED THE LAST ORGANIZATION LAYER. The window was a
+    fixed 720 minutes, so any file created more than 12h before a session close
+    was invisible to the sweep FOREVER — and after the last sweep on 2026-07-19,
+    nine days of files were unreachable by any mechanism. A gap between sweeps
+    must WIDEN the window, never drop files on the floor.
+    """
+    if requested is not None:
+        return requested                      # explicit --since-minutes always wins
+    try:
+        last = json.loads(SWEEP_STATE.read_text()).get("last_swept_at")
+    except (OSError, ValueError):
+        last = None
+    if not last:
+        return None                           # never swept -> full scan
+    elapsed = (datetime.now(timezone.utc).timestamp() - float(last)) / 60
+    if elapsed > 30 * 1440:
+        return None                           # >30d gap -> full scan, catch everything
+    return max(720, int(elapsed) + 60)        # +60min overlap for clock skew
+
+
+def _record_sweep() -> None:
+    ORG_HOME.mkdir(parents=True, exist_ok=True)
+    SWEEP_STATE.write_text(json.dumps(
+        {"last_swept_at": datetime.now(timezone.utc).timestamp(),
+         "last_swept_iso": utc_now()}, indent=2) + "\n", encoding="utf-8")
+
+
+def sweep(since_minutes: int | None) -> dict[str, Any]:
+    since_minutes = effective_since_minutes(since_minutes)
     auto_moved = 0
     needs_judgment: list[dict[str, Any]] = []
     projects_touched: list[str] = []
 
     for project_root in _sweep_project_roots():
         try:
-            plan = build_plan(project_root, since_minutes=since_minutes)
+            plan = build_plan(project_root, since_minutes=since_minutes,
+                              with_baseline=False)
         except Exception:
             continue
         if not plan["items"]:
@@ -877,6 +948,7 @@ def sweep(since_minutes: int) -> dict[str, Any]:
         except Exception:
             pass
 
+    _record_sweep()
     return {"auto_moved": auto_moved, "needs_judgment": len(needs_judgment),
             "projects": sorted(set(projects_touched))}
 
@@ -912,7 +984,9 @@ def main() -> int:
     p_prune.add_argument("--json", action="store_true")
 
     p_sweep = sub.add_parser("sweep", help="Auto-file unambiguous recent loose files (never throws).")
-    p_sweep.add_argument("--since-minutes", type=int, default=720)
+    # Default None -> watermark-driven (see effective_since_minutes). A fixed
+    # lookback made files older than the window permanently invisible.
+    p_sweep.add_argument("--since-minutes", type=int, default=None)
     p_sweep.add_argument("--json", action="store_true")
 
     args = ap.parse_args()

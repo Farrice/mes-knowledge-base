@@ -1,0 +1,22 @@
+{
+  "applied_at": "2026-07-29T04:42:10+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/disney-crowd-app/concept-brief.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/disney-crowd-app/04-deliverables/concept-brief.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/disney-crowd-app/concept-brief.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/disney-crowd-app",
+  "project_slug": "disney-crowd-app",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/disney-crowd-app/04-deliverables/concept-brief.md": 2
+  },
+  "skipped": [],
+  "version": 1
+}

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:35:06.750080+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "SLASH_COMMANDS.pdf",
+  "dst": "_archive/2026-07-28-org-sweep/SLASH_COMMANDS.pdf",
+  "stub_left": false,
+  "files_moved": 1,
+  "rewrites": {},
+  "total_rewrites": 0,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

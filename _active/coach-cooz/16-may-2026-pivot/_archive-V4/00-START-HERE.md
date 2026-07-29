@@ -1,3 +1,7 @@
+---
+status: archived
+---
+
 # Coach Cooz — May 2026 Pivot Package (V3)
 ## START HERE — the master index
 ## Updated: 2026-05-02

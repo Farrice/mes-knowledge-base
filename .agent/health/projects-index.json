@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T04:31:18.981415+00:00",
+  "generated_at": "2026-07-29T04:46:43.858658+00:00",
   "rows": [
     {
       "name": "_ledgers",
@@ -682,9 +682,9 @@
       "declared_raw": "parked",
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-04-15",
+      "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 104,
+      "days": 0,
       "prefix_collisions": {}
     },
     {

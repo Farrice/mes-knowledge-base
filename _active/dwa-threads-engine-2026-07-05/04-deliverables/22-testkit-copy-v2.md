@@ -1,3 +1,8 @@
+---
+status: canonical
+supersedes: 05-creative-books/01-05
+---
+
 # Test-Kit Copy v2 — Rebuilt Post-Verdict (PIVOT_VEHICLE)
 
 **Source verdict:** `21-GO-NO-GO-VERDICT.md`, confidence 8/10. **Product spec:** `24-ship-sprint-presale.md`.

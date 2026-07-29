@@ -1,3 +1,8 @@
+---
+status: superseded
+superseded_by: ../../00-start-here/CREATIVE-BOOK.md
+---
+
 > **⛔ SUPERSEDED 2026-07-01 — coach-era scripts (targets coaches; that positioning was abandoned for the brands-first strategy).** The live brand-era scripts are in `../../00-start-here/CREATIVE-BOOK.md` §7 (teardown DM, ICP interview ask, golden question, audit close, install attach, founder-offer email). Kept for reference only.
 
 # LinkedIn DM Outreach Scripts

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:34:18.230277+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "deliverables/linkedin-ghostwriting-outreach-playbook.md",
+  "dst": "_active/linkedin-launch/05-lead-gen/linkedin-ghostwriting-outreach-playbook.md",
+  "stub_left": false,
+  "files_moved": 1,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/niche-positioning-locked.md": 1,
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/session-management-protocol.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/linkedin-launch/06-automation/session-prompts.md": 5,
+    "/Users/farricecain/Google Antigravity/_active/linkedin-launch/99-archive/_archive/superseded-2026-06-30/LINKEDIN-MASTER-INDEX.md": 1
+  },
+  "total_rewrites": 8,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

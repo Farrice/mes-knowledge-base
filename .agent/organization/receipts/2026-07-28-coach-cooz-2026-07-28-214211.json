@@ -1,0 +1,22 @@
+{
+  "applied_at": "2026-07-29T04:42:11+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/coach-cooz/CANON.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/coach-cooz/04-deliverables/CANON.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/coach-cooz/CANON.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/coach-cooz",
+  "project_slug": "coach-cooz",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/coach-cooz/04-deliverables/CANON.md": 2
+  },
+  "skipped": [],
+  "version": 1
+}

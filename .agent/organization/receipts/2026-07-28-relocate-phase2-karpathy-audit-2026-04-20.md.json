@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:34:24.701919+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "deliverables/phase2-karpathy-audit-2026-04-20.md",
+  "dst": "_active/system-audit/04-deliverables/phase2-karpathy-audit-2026-04-20.md",
+  "stub_left": false,
+  "files_moved": 1,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/deliverables/phase2-upgrades-handoff-prompt.md": 3
+  },
+  "total_rewrites": 3,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

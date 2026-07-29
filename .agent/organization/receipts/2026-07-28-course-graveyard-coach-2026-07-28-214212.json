@@ -1,0 +1,20 @@
+{
+  "applied_at": "2026-07-29T04:42:12+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/course-graveyard-coach/MOVED.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/course-graveyard-coach/04-deliverables/MOVED.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/projects/course-graveyard-coach/MOVED.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/projects/course-graveyard-coach",
+  "project_slug": "course-graveyard-coach",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {},
+  "skipped": [],
+  "version": 1
+}

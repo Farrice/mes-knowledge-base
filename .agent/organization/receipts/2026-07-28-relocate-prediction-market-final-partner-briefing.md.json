@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:32:42.890952+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "deliverables/prediction-market-final-partner-briefing.md",
+  "dst": "_active/prediction-market-arb/02-research/prediction-market-final-partner-briefing.md",
+  "stub_left": false,
+  "files_moved": 1,
+  "rewrites": {},
+  "total_rewrites": 0,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

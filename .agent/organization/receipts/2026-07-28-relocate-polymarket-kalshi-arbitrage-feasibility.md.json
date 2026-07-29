@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:32:56.142153+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "deliverables/polymarket-kalshi-arbitrage-feasibility.md",
+  "dst": "_active/prediction-market-arb/02-research/polymarket-kalshi-arbitrage-feasibility.md",
+  "stub_left": false,
+  "files_moved": 1,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/prediction-market-arb-project.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/prediction-market-arb/02-research/prediction-market-full-cost-analysis.md": 1,
+    "/Users/farricecain/Google Antigravity/agents/prediction-market-strategist/memory/context.md": 1,
+    "/Users/farricecain/Google Antigravity/extractions/prediction-market-trading/weatherbot-extraction.md": 1
+  },
+  "total_rewrites": 4,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

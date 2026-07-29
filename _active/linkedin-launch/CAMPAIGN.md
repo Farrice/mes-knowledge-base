@@ -8,11 +8,11 @@
 
 | # | Mission | Status | Artifacts |
 |---|---|---|---|
-| 1 | Offer wargame + 14-day plan + battle card + fresh research | ✅ DONE 07-28 (verdict: good) | `02-offer/OFFER-WARGAME-2026-07-28.md` · `03-launch/2026-07-28-LAUNCH-PLAN-14-DAY.md` · `01-research/ICP-BATTLE-CARD.md` |
-| 2 | Profile go-live master doc (Take A locked, banner brief, Featured w/ $750 Angle Map, all fields) | ✅ DONE 07-28 | `03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md` |
+| 1 | Offer wargame + 14-day plan + battle card + fresh research | ✅ DONE 07-28 (verdict: good) | `../02-offer/OFFER-WARGAME-2026-07-28.md` · `../03-launch/2026-07-28-LAUNCH-PLAN-14-DAY.md` · `../01-research/ICP-BATTLE-CARD.md` |
+| 2 | Profile go-live master doc (Take A locked, banner brief, Featured w/ $750 Angle Map, all fields) | ✅ DONE 07-28 | `../03-launch/2026-07-28-PROFILE-GO-LIVE-TONIGHT.md` |
 | 2b | Day-1 execution (FARRICE, not a session): paste profile live, send 3 teardown DMs, log sends, booking link | 🔴 OPEN — gates everything | go-live doc + launch plan Day 1 |
 | 3 | One-gap DM template + 5 real examples (gold-list harvest method) | ⚪ OPEN | wargame doc + battle card feed it |
-| 4 | Teardown #1 → 10-slide PDF carousel (publishes Fri 07-31) | ⚪ OPEN | `03-launch/teardowns/2026-07-27-teardown-01-transparent-labs.md` |
+| 4 | Teardown #1 → 10-slide PDF carousel (publishes Fri 07-31) | ⚪ OPEN | `../03-launch/teardowns/2026-07-27-teardown-01-transparent-labs.md` |
 | 5 | Teardowns #2/#3 → carousels (publish 08-04, 08-06) | ⚪ OPEN | after #4 sets the format |
 | 6 | Week-2 POV post batch (About-thesis pillar, 3 posts) | ⚪ OPEN | pillar spine in launch plan |
 | 7 | Day-7 checkpoint review (Mon 08-03): tripwire count, escalate or hold | ⚪ SCHEDULED | tripwires in wargame doc |
