@@ -4,8 +4,8 @@
 
 - Manus session: `https://manus.im/app/gn4gQbZ4marr7Msfb2xAP2`
 - Manus preview: `https://predeploy-57681be8-farricepor-fagcrmt9-qydwak9ajq3nzwbk.manus.space/`
-- Local proof artifact: `projects/farrice-creative-strategist-portfolio/04-deliverables/RUN_MAP.md`
-- Local source artifact: `projects/farrice-creative-strategist-portfolio/index.html`
+- Local proof artifact: `_active/farrice-creative-strategist-portfolio/04-deliverables/RUN_MAP.md`
+- Local source artifact: `_active/farrice-creative-strategist-portfolio/index.html`
 - Evidence limit: source was accessible through browser login and visible DOM extraction; unpublished Manus internal files are unavailable.
 
 ## Objective
@@ -95,7 +95,7 @@ Skip the checkpoint for local, reversible files inside the current workspace whe
 
 Applied proof exists at:
 
-`projects/farrice-creative-strategist-portfolio/`
+`_active/farrice-creative-strategist-portfolio/`
 
 The behavior change is that a hosted Manus result became local source, reusable prompts, downloaded assets, screenshots, and a hardening audit.
 

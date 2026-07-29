@@ -18,7 +18,7 @@ Generative video (Higgsfield/Veo) cannot render a real product label — it morp
 
 ## Solution (verified working, $0, local)
 
-1. **Never let the model render the product.** Composite the real product PNG over the generated footage. Added a manifest-driven `overlays[]` track to the Remotion ad pipeline (`projects/trendscale-trial/03-video-samples/remotion-pipeline/src/Ad.tsx`): path, start/end seconds, x/y/width percent, accent glow, fade-in. Glow doubles as an edge mask over the covered region.
+1. **Never let the model render the product.** Composite the real product PNG over the generated footage. Added a manifest-driven `overlays[]` track to the Remotion ad pipeline (`_active/trendscale-trial/03-video-samples/remotion-pipeline/src/Ad.tsx`): path, start/end seconds, x/y/width percent, accent glow, fade-in. Glow doubles as an edge mask over the covered region.
 2. **Size coverage from measured facts, not eyeballing.** Extract the cutout's alpha bounding box (`ffmpeg alphaextract` → parse PGM) — the JCKED cutout's visible bottle is only 25.4% of canvas width, so naive width% under-covers by ~4x. Size: neededVisibleWidth / contentRatio / frameWidth.
 3. **Cut the beat before the push enlarges the generated product.** A static overlay can't track a zooming AI bottle; trim the reveal beat to end before the worst frame (here 9.4-10.8s of a 12s push), and let the END CARD be the close-up product hero (it already uses the real PNG).
 4. **Kill the "generic lag" structurally:** slice one long AI push into 2-3 hard-cut beats (door 2.5s → key 2.0s → reveal 1.4s) with escalating captions instead of one caption over 12 silent seconds.

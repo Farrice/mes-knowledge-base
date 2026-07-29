@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:28:38.007221+00:00",
+  "action": "project-relocate",
+  "moved_by": "shutil (untracked)",
+  "src": "projects/Kens_Fasting_Digital_Product",
+  "dst": "_archive/2026-07-28-org-sweep/Kens_Fasting_Digital_Product",
+  "stub_left": true,
+  "files_moved": 0,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.agent/health/projects-index.json": 2,
+    "/Users/farricecain/Google Antigravity/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/brain/f0054a93-478e-4c9f-b2a5-77da0169f04d/kens_fasting_product_status.md": 2
+  },
+  "total_rewrites": 5,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

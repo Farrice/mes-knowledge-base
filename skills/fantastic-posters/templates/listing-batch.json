@@ -34,7 +34,7 @@
     "4. Pre-flight: python3 execution/fal_budget_guard.py check --quality=high --n=<chunk_size>",
     "5. Run: cd skills/fantastic-posters/ && ./gen.sh --batch=<path-to-this-file> --quality=high",
     "6. Post-flight: python3 execution/fal_budget_guard.py log --quality=high --n=<chunk_size> --status=success",
-    "7. Outputs in skills/fantastic-posters/out/ — move to projects/jen-santulan/listings/[address-slug]/poster.png"
+    "7. Outputs in skills/fantastic-posters/out/ — move to _active/jen-santulan/listings/[address-slug]/poster.png"
   ],
   "_cost_envelope": {
     "5_listings_high": 0.85,

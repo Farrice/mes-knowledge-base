@@ -28,4 +28,4 @@ pin: true
 - `/resume cos-launch` — reload this thread
 
 ## Key paths (don't duplicate — read)
-`.agent/cos/{decisions.md,goals.json,life-context.md,journal/2026-07-05.md}` · `skills/chief-of-staff-os/genius.md` · `_active/path-decision-2026-07-01/README.md` · `projects/trendscale-trial/rework-v2/`
+`.agent/cos/{decisions.md,goals.json,life-context.md,journal/2026-07-05.md}` · `skills/chief-of-staff-os/genius.md` · `_active/path-decision-2026-07-01/README.md` · `_active/trendscale-trial/rework-v2/`

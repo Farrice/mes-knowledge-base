@@ -35,7 +35,7 @@ On mobile, stack vertically, same pairing order.
 
 ## ARTIFACT 1 — The StoryBrand Message Audit: Homepage BEFORE/AFTER
 
-**Source file:** `projects/javier-human-values/brand/storybrand-message-audit.md`
+**Source file:** `_active/javier-human-values/brand/storybrand-message-audit.md`
 **Section to pull:** "Fix 1: REWRITE THE HERO SECTION" (lines ~235-255)
 
 ### What to screenshot / render:
@@ -66,7 +66,7 @@ The visibility of change is immediate. A visitor understands in 3 seconds what F
 
 ## ARTIFACT 2 — The Grace City Blueprint Transit Map + Product Ladder
 
-**Source file:** `projects/javier-human-values/strategy/grace-city-blueprint.md`
+**Source file:** `_active/javier-human-values/strategy/grace-city-blueprint.md`
 **Section to pull:** "TRANSIT MAP — VISUAL" (lines ~414-450) + "Product Ladder Design" (lines ~225-265)
 
 ### What to screenshot / render:
@@ -92,7 +92,7 @@ It proves strategic depth. The first artifact proved Farrice rewrites copy well.
 
 ## ARTIFACT 3 — The Family Conversation Card + Newsletter Flywheel Template
 
-**Source file:** `projects/javier-human-values/content/newsletter-flywheel.md`
+**Source file:** `_active/javier-human-values/content/newsletter-flywheel.md`
 **Section to pull:** "Part 4: The Family Conversation Card" template (lines ~86-108) + one of the three launch variants (Variant 3 recommended, lines ~269-342)
 
 ### What to screenshot / render:

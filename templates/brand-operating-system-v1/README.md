@@ -1,6 +1,6 @@
 # Brand Operating System Template v1
 
-This is the deployable template for any future BOS build — a 6-layer architecture (43 docs) that produces an AI-handoff-first brand system at the same quality bar as the Resonance reference at `projects/andrea-dj/brand-operating-system/`.
+This is the deployable template for any future BOS build — a 6-layer architecture (43 docs) that produces an AI-handoff-first brand system at the same quality bar as the Resonance reference at `_active/andrea-dj/brand-operating-system/`.
 
 ## Philosophy
 
@@ -63,7 +63,7 @@ python3 execution/bos_scaffold.py \
 
 ## Reference implementation
 
-Live: `projects/andrea-dj/brand-operating-system/` — Resonance v1 (shipped 2026-05-04, all 43 docs, Drive + native Google Docs + pageless).
+Live: `_active/andrea-dj/brand-operating-system/` — Resonance v1 (shipped 2026-05-04, all 43 docs, Drive + native Google Docs + pageless).
 
 The template is a derivative of this reference. When the template amends, Resonance gets back-applied or explicitly diverged — see `directives/brand-operating-system-protocol.md` for the discipline.
 

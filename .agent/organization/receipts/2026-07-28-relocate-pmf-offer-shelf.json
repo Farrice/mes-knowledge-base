@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:27:26.234274+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/pmf-offer-package-2026-07-05",
+  "dst": "_active/pmf-offer-shelf",
+  "stub_left": false,
+  "files_moved": 9,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-05-pmf-offer-package-2026-07-05.md": 2,
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-07-pmf-offer-research.md": 2,
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/index.md": 2,
+    "/Users/farricecain/Google Antigravity/.agent/health/projects-index.json": 1,
+    "/Users/farricecain/Google Antigravity/.agent/sessions/autopin-pmf-offer-package-2026-07-05.md": 2,
+    "/Users/farricecain/Google Antigravity/.agent/sessions/observe-log.jsonl": 5,
+    "/Users/farricecain/Google Antigravity/PROJECTS.md": 1
+  },
+  "total_rewrites": 15,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

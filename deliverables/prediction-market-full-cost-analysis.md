@@ -174,7 +174,7 @@ You are giving a massive family discount. The numbers speak for themselves.
 | Proposal + talking points + objection handling | `deliverables/prediction-market-proposal-package.md` |
 | Original business briefing (sent to him) | `deliverables/prediction-market-business-briefing.md` |
 | Feasibility assessment v2.1 | `deliverables/polymarket-kalshi-arbitrage-feasibility.md` |
-| The codebase | `projects/prediction_market_arb/` (18 modules, 7,248 LOC) |
+| The codebase | `_active/prediction-market-arb/` (18 modules, 7,248 LOC) |
 | Research extractions | `extractions/prediction-market-trading/` (13 files, 11,565 lines) |
 | AI skills & workflows | `skills/prediction-market-*/` (4 skills, 12 workflows) |
 | Compound agent | `agents/prediction-market-strategist/` |

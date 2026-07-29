@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:28:30.981417+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/pmf-brief-2026-07-07",
+  "dst": "_archive/2026-07-28-org-sweep/pmf-brief-2026-07-07",
+  "stub_left": true,
+  "files_moved": 1,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.agent/health/projects-index.json": 1,
+    "/Users/farricecain/Google Antigravity/PROJECTS.md": 1
+  },
+  "total_rewrites": 2,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

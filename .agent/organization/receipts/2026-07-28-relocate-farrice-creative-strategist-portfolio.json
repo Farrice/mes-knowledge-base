@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:27:08.200419+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "projects/farrice-creative-strategist-portfolio",
+  "dst": "_active/farrice-creative-strategist-portfolio",
+  "stub_left": false,
+  "files_moved": 51,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.agent/health/projects-index.json": 2,
+    "/Users/farricecain/Google Antigravity/.agent/run-receipts/2026-06-23T025947Z0000-repeatability-spine-source-to-skill-system.json": 3,
+    "/Users/farricecain/Google Antigravity/.agent/run-receipts/2026-06-23T025947Z0000-repeatability-spine-source-to-skill-system.md": 3,
+    "/Users/farricecain/Google Antigravity/.agent/run-receipts/2026-06-23T030725Z0000-local-portfolio-hardening.json": 1,
+    "/Users/farricecain/Google Antigravity/.agent/run-receipts/2026-06-23T030725Z0000-local-portfolio-hardening.md": 1,
+    "/Users/farricecain/Google Antigravity/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/deliverables/manus-to-codex-replacement-workflow/COLD_START_FIXTURE.md": 2,
+    "/Users/farricecain/Google Antigravity/deliverables/manus-to-codex-replacement-workflow/README.md": 1,
+    "/Users/farricecain/Google Antigravity/deliverables/manus-to-codex-replacement-workflow/SKILL_SYSTEM_CONTRACT.md": 3,
+    "/Users/farricecain/Google Antigravity/_active/farrice-creative-strategist-portfolio/04-deliverables/EDITING_GUIDE.md": 2,
+    "/Users/farricecain/Google Antigravity/_active/farrice-creative-strategist-portfolio/04-deliverables/RECRUITER_SEND_GUIDE.md": 4,
+    "/Users/farricecain/Google Antigravity/_active/farrice-creative-strategist-portfolio/04-deliverables/RUN_MAP.md": 2
+  },
+  "total_rewrites": 25,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

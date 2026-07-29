@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:26:57.249331+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "projects/re-compliance",
+  "dst": "_active/re-compliance",
+  "stub_left": false,
+  "files_moved": 6,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.agent/health/projects-index.json": 2,
+    "/Users/farricecain/Google Antigravity/.agent/sessions/observe-log.jsonl": 8,
+    "/Users/farricecain/Google Antigravity/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/re-compliance/04-deliverables/IMMEDIATE-NEXT-STEPS.md": 5,
+    "/Users/farricecain/Google Antigravity/_active/re-compliance/04-deliverables/JEN-COORDINATION-WEEK1.md": 2,
+    "/Users/farricecain/Google Antigravity/_active/re-compliance/04-deliverables/JEN-EMAIL-TEMPLATE.md": 2,
+    "/Users/farricecain/Google Antigravity/_active/re-compliance/04-deliverables/WEEK1-SUMMARY.md": 5,
+    "/Users/farricecain/Google Antigravity/skills/re-compliance-pack/SKILL.md": 1
+  },
+  "total_rewrites": 26,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

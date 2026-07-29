@@ -155,6 +155,19 @@ def _walk(root: Path):
 
 # ------------------------------------------------------------------- per-project
 
+def is_relocation_stub(project_dir: Path) -> bool:
+    """A directory left behind by `project_relocate --stub`: a MOVED.md pointer
+    and nothing else. It exists so a grep for the old path still finds where the
+    work went — it is not a project, and listing it would put phantom rows in
+    PROJECTS.md and a false `missing_index` in the drift report.
+    """
+    try:
+        entries = [p for p in project_dir.iterdir() if not p.name.startswith(".")]
+    except OSError:
+        return False
+    return len(entries) == 1 and entries[0].name == "MOVED.md"
+
+
 def read_stamp(index_path: Path) -> dict:
     if not index_path.is_file():
         return {}
@@ -225,6 +238,8 @@ def collect() -> list[dict]:
         for project_dir in sorted(root_dir.iterdir()):
             if not project_dir.is_dir() or project_dir.name.startswith("."):
                 continue
+            if is_relocation_stub(project_dir):
+                continue   # a pointer left by project_relocate, not a project
             key = f"{root_name}/{project_dir.name}"
             ts = focused_times.get(key)
             stamp_source = "git"

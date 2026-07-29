@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:28:27.393499+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/pmf-offer-map-2026-07-07",
+  "dst": "_active/pmf-offer-shelf/04-deliverables/offer-map",
+  "stub_left": true,
+  "files_moved": 2,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/MEMORY.md": 1,
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_pmf-offer-shelf-2026-07-07.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-07-alignment-architect-launch.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-07-fladlien-game-selection.md": 2,
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/index.md": 2,
+    "/Users/farricecain/Google Antigravity/.agent/health/projects-index.json": 1,
+    "/Users/farricecain/Google Antigravity/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/linkedin-launch/02-offer/PROOF-TO-MARKET-OS.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/linkedin-launch/03-launch/REPS-GAMEPLAN-2026-07-07.md": 1,
+    "/Users/farricecain/Google Antigravity/skills/mark-kashef-wargame-os/references/mission-brief-library.md": 1
+  },
+  "total_rewrites": 12,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

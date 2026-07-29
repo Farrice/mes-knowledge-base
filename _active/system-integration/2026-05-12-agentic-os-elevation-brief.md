@@ -69,7 +69,7 @@ The "missing piece" the user is feeling is real, but it is not new capability â€
   - Pointer to client-specific brand context (`_active/<client>/brand/`)
   - Override list â€” what aspects of root CLAUDE.md don't apply (e.g., "Skip Step 5.5 verification for memoir content")
 - Document the inheritance pattern in root CLAUDE.md so future client folders follow it
-- For Jen Santulan (highest-leverage client): create `projects/jen-santulan/CLAUDE.md` first as the worked example
+- For Jen Santulan (highest-leverage client): create `_active/jen-santulan/CLAUDE.md` first as the worked example
 
 **Files touched:** 3-5 new `projects/<client>/CLAUDE.md` files; one paragraph added to root `CLAUDE.md` documenting the pattern.
 

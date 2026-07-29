@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:26:47.090782+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "projects/javier-human-values",
+  "dst": "_active/javier-human-values",
+  "stub_left": false,
+  "files_moved": 9,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/MEMORY.md": 1,
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/javier-payano-context.md": 2,
+    "/Users/farricecain/Google Antigravity/.agent/health/projects-index.json": 2,
+    "/Users/farricecain/Google Antigravity/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/brain/336cc59c-9f19-4cc3-831a-dc261c65079b/walkthrough.md": 5,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/brain/fc7752cc-5fca-459c-8a98-1ca0d060eefc/browser/scratchpad_53l6xsil.md": 9,
+    "/Users/farricecain/Google Antigravity/_active/parallax-icp-offer/proof/before-after-artifacts.md": 3,
+    "/Users/farricecain/Google Antigravity/extractions/agentic-os-integration/pattern-inventory-and-delta.md": 1,
+    "/Users/farricecain/Google Antigravity/research_outputs/research-integrity-audit.md": 1
+  },
+  "total_rewrites": 25,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

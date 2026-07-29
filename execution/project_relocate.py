@@ -51,6 +51,9 @@ FROZEN = (
     "_system/organization/aliases.json",
     ".agent/organization/receipts/",
     ".agent/organization/REVERT-",
+    # A move-plan is a before/after record. Rewriting it to the after-state makes
+    # it describe moves it says haven't happened yet — history, not a live pointer.
+    "/move-plan.md",
     ".git/",
 )
 

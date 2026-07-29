@@ -302,7 +302,7 @@ Active client projects use Claude Code's parent-folder CLAUDE.md inheritance. Wh
 
 | Project | File | When it loads |
 |---------|------|---------------|
-| Andrea / Resonance | `projects/andrea-dj/CLAUDE.md` | Working from `projects/andrea-dj/` or subfolders |
+| Andrea / Resonance | `_active/andrea-dj/CLAUDE.md` | Working from `_active/andrea-dj/` or subfolders |
 | Jen Santulan | `_active/jen-listings/CLAUDE.md` | Working from `_active/jen-listings/` or subfolders |
 | Farrice / Parallax | `_active/farrice-brand/CLAUDE.md` | Working from `_active/farrice-brand/` or subfolders |
 

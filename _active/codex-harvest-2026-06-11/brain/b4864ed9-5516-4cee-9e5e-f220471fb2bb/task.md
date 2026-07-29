@@ -8,7 +8,7 @@
 - [x] Move orphan `.skill` files → `_archive/orphan-skills/`
 - [x] Archive `00_FOCUS_MODE/` → `_archive/00_FOCUS_MODE-deprecated`
 - [x] Consolidate `_active/brand/` + `content/` + `offers/` → `_active/farrice-brand/`
-- [x] Move `strategic-clarity/` → `_active/strategic-clarity/`
+- [x] Move `strategic-clarity/` → `_archive/2026-07-28-org-sweep/strategic-clarity/`
 - [x] Verify no files lost
 
 ## Phase 2: Research-Grounded Strategic Clarity Rebuild

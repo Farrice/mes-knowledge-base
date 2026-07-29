@@ -544,7 +544,7 @@ def handle_posttool(payload: dict) -> None:
         # to remember. Never raises — this whole hook is fail-safe by contract.
         #
         # Failure signal, in authority order (verified against the harness
-        # source: projects/Claude Code Harness Analysis/source-code-v2.1.88/
+        # source: _active/claude-code-harness-analysis/source-code-v2.1.88/
         # src/tools/BashTool/{BashTool.tsx,commandSemantics.ts} — the Bash
         # tool_response schema is {stdout, stderr, interrupted, isImage,
         # returnCodeInterpretation, ...}; there is NO is_error key, ever):

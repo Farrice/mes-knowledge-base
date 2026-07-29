@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:25:16.801922+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/strategic-clarity",
+  "dst": "_archive/2026-07-28-org-sweep/strategic-clarity",
+  "stub_left": true,
+  "files_moved": 11,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.agent/health/projects-index.json": 1,
+    "/Users/farricecain/Google Antigravity/.agent/missions/global-org-sweep/move-plan.md": 1,
+    "/Users/farricecain/Google Antigravity/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/06-system/HARVEST-MANIFEST.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/brain/b4864ed9-5516-4cee-9e5e-f220471fb2bb/implementation_plan.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/brain/b4864ed9-5516-4cee-9e5e-f220471fb2bb/task.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/brain/b4864ed9-5516-4cee-9e5e-f220471fb2bb/walkthrough.md": 2
+  },
+  "total_rewrites": 8,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

@@ -44,7 +44,7 @@ Invoke Remotion to build the composition:
 
 3. **Create composition in:**
    ```
-   projects/remotion-studio/src/[VideoName].tsx
+   _active/remotion-studio/src/[VideoName].tsx
    ```
 
 4. **Register in Root.tsx:**
@@ -54,7 +54,7 @@ Invoke Remotion to build the composition:
 ### Phase 3: Preview & Iterate
 
 ```bash
-cd projects/remotion-studio
+cd _active/remotion-studio
 npm start
 ```
 

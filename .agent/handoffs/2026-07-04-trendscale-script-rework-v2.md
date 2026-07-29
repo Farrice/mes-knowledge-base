@@ -14,7 +14,7 @@ pin: true
 Reworked Farrice's two TrendScale trial ad scripts (JCKED Liquid L-Carnitine "Locked Vault" + Puravita Magnesium "Battery You Can't See") into the client's official Brief Template v1.3 `.docx`, then elevated to published-grade over several passes: fixed pricing/alignment, killed AI tells, added the founder hire-unlock triad, removed the internal Notes section, and rewrote both bodies to flow as one cohesive cold-traffic script (the metaphor now carries the mechanism).
 
 ## Where everything lives
-`projects/trendscale-trial/rework-v2/`
+`_active/trendscale-trial/rework-v2/`
 - **SEND:** `TrendScale_JCKED_Brief_v2.docx` + `TrendScale_Puravita_Brief_v2.docx`
 - **Message to recruiter:** `COVER-NOTE.md`
 - **Readable full copy (plain text):** `MASTER-COPY.md`

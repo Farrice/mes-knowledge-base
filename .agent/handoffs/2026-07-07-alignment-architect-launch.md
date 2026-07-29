@@ -32,7 +32,7 @@ pin: true
 - `FARRICE-MASTER-CONTEXT.md` — load before any identity/voice/positioning work
 - `_active/farrice-master-context-2026-07-07/extracts/` — cited Notion + workspace extracts
 - `docs/solutions/2026-07-07-freeze-override-receipt-excavation.md` — the reusable method card
-- `_active/pmf-offer-map-2026-07-07/PMF-OFFER-BRIEF.md` — the 10-path shelf (parked paths have addresses; AI Brain install is the month-3+ ladder rung)
+- `_active/pmf-offer-shelf/04-deliverables/offer-map/PMF-OFFER-BRIEF.md` — the 10-path shelf (parked paths have addresses; AI Brain install is the month-3+ ladder rung)
 
 ## Guardrails for the next agent
 

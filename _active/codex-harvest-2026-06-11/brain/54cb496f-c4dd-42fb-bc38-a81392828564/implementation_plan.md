@@ -19,4 +19,4 @@ To build the complete foundational playbook for the "Unbottlenecked Blueprint" (
 - **Deliverables**: The Offer Name, Continuity Hook, Pricing tiers, Deliverables, and Retention Architecture.
 
 ## Phase 4: Verification & Export
-Each phase will generate a specific deliverable file that will be saved in `/projects/unbottlenecked_blueprint/`. We will finalize each output through `chain_runner.py` to ensure it passes the rigorous Antigravity quality gate.
+Each phase will generate a specific deliverable file that will be saved in `/_archive/2026-07-28-org-sweep/unbottlenecked_blueprint/`. We will finalize each output through `chain_runner.py` to ensure it passes the rigorous Antigravity quality gate.

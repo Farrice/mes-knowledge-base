@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:25:10.157962+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "projects/unbottlenecked_blueprint",
+  "dst": "_archive/2026-07-28-org-sweep/unbottlenecked_blueprint",
+  "stub_left": true,
+  "files_moved": 6,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.agent/health/projects-index.json": 2,
+    "/Users/farricecain/Google Antigravity/.agent/missions/global-org-sweep/move-plan.md": 1,
+    "/Users/farricecain/Google Antigravity/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/brain/54cb496f-c4dd-42fb-bc38-a81392828564/implementation_plan.md": 1,
+    "/Users/farricecain/Google Antigravity/research_outputs/research-integrity-audit.md": 1
+  },
+  "total_rewrites": 6,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

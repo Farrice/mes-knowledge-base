@@ -2,7 +2,7 @@
 name: re-compliance-pack
 description: Real Estate Compliance Skill Pack — Fair Housing auditor for MLS listings, follow-up cadence execution, and CMA disclosure formatting. Encodes HUD Fair Housing Act standards, NAR SOPs, and TRID compliance. Use when reviewing real estate listings for advertising violations, structuring transaction workflows, or documenting compliance. Lead skill RE-1 runs against live MLS remarks to catch banned words, protected-class implications, and compliance risks before publication.
 paths:
-  - "projects/re-compliance/**"
+  - "_active/re-compliance/**"
   - "_active/re-compliance/**"
   - "skills/re-compliance-pack/**"
 when_to_use: (1) Pre-publish MLS listing review for Fair Housing compliance — scanning advertising copy for banned words, cautionary terms, or protected-class implications. (2) Real estate transaction workflows — structuring follow-up cadences, calculating TRID timelines, or formatting CMA disclosures. (3) Compliance training or audit with real-world receipt generation. Trigger proactively when Jen shares an MLS listing draft or when reviewing real estate advertising.

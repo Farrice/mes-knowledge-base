@@ -51,6 +51,6 @@ SUGGESTED NEXT MOVES (not gates — options)
 
   (Suggestion ids let the system learn what you fire vs ignore. Auto-tracked when you run the suggested workflow within 24h; manual: `python3 execution/orchestration_ledger.py record --suggestion-id <id> --action invoked|ignored|modified|rejected`.)
 
-State persisted: projects/andrea-dj/state.yaml
+State persisted: _active/andrea-dj/state.yaml
 Ledger archived: _active/_ledgers/02-research/autopilot-ap-20260618-andrea-ticketing.md
 ════════════════════════════════════════════════════════════

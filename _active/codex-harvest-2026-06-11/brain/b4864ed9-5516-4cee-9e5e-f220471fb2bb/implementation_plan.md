@@ -75,7 +75,7 @@ _active/farrice-brand/
 └── icp-intelligence/   ← from _active/icp-intelligence-service/
 ```
 
-##### [MOVE] `strategic-clarity/` → `_active/strategic-clarity/`
+##### [MOVE] `strategic-clarity/` → `_archive/2026-07-28-org-sweep/strategic-clarity/`
 After Phase 2 rebuild, this becomes an active project, not a root-level artifact.
 
 ##### [CREATE] Index files for directories that lack them

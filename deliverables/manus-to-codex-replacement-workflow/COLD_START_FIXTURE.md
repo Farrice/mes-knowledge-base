@@ -7,7 +7,7 @@ Harden this local portfolio against the Manus original and turn the replacement 
 
 Original session: https://manus.im/app/gn4gQbZ4marr7Msfb2xAP2
 Original preview: https://predeploy-57681be8-farricepor-fagcrmt9-qydwak9ajq3nzwbk.manus.space/
-Local artifact: projects/farrice-creative-strategist-portfolio/
+Local artifact: _active/farrice-creative-strategist-portfolio/
 ```
 
 ## Expected Route
@@ -20,7 +20,7 @@ Local artifact: projects/farrice-creative-strategist-portfolio/
 
 ## Expected Outputs
 
-- `projects/farrice-creative-strategist-portfolio/04-deliverables/HARDENING_AUDIT.md`
+- `_active/farrice-creative-strategist-portfolio/04-deliverables/HARDENING_AUDIT.md`
 - patched local portfolio source
 - desktop and mobile screenshots
 - `deliverables/manus-to-codex-replacement-workflow/`

@@ -42,7 +42,7 @@ python3 execution/thought_bank.py list --days 14
 
 Then read:
 - `.agent/cos/goals.json` + the latest entry in `.agent/cos/briefs/` (current goals/commitments — pick the newest date)
-- `FARRICE.md` for personal-brand/education/value/aha work; for client work, `cd` into the client's project and read its own `CLAUDE.md` instead (see table: `projects/andrea-dj/CLAUDE.md`, `_active/jen-listings/CLAUDE.md`, `_active/farrice-brand/CLAUDE.md`)
+- `FARRICE.md` for personal-brand/education/value/aha work; for client work, `cd` into the client's project and read its own `CLAUDE.md` instead (see table: `_active/andrea-dj/CLAUDE.md`, `_active/jen-listings/CLAUDE.md`, `_active/farrice-brand/CLAUDE.md`)
 
 ---
 

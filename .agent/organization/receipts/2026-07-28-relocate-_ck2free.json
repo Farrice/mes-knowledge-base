@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:24:50.129209+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "projects/_ck2free",
+  "dst": "_archive/2026-07-28-org-sweep/_ck2free",
+  "stub_left": true,
+  "files_moved": 1,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.agent/health/projects-index.json": 2,
+    "/Users/farricecain/Google Antigravity/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/research_outputs/research-integrity-audit.md": 1
+  },
+  "total_rewrites": 4,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

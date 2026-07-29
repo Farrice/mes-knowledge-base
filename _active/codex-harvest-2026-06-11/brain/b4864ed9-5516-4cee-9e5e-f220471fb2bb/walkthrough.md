@@ -10,7 +10,7 @@
 - **System files untouched**: `skills/`, `agents/`, `execution/`, `directives/`, `councils/`, `COUNCIL.md`, `DOMAIN_REGISTRY.md` — all left exactly as-is
 
 ### Phase 2: Research-Grounded Strategic Clarity Rebuild
-All 5 documents rebuilt from scratch using fresh Perplexity deep research. Old versions archived in `_active/strategic-clarity/_archive/`.
+All 5 documents rebuilt from scratch using fresh Perplexity deep research. Old versions archived in `_archive/2026-07-28-org-sweep/strategic-clarity/_archive/`.
 
 | Doc | Key External Sources |
 |-----|---------------------|
@@ -24,6 +24,6 @@ All 5 documents rebuilt from scratch using fresh Perplexity deep research. Old v
 - ✅ 0 orphan `.skill` files remain at root
 - ✅ `00_FOCUS_MODE/` no longer at root
 - ✅ `_active/farrice-brand/` has 5 clean subdirectories
-- ✅ `_active/strategic-clarity/` has all 5 rebuilt docs + `_archive/`
+- ✅ `_archive/2026-07-28-org-sweep/strategic-clarity/` has all 5 rebuilt docs + `_archive/`
 - ✅ All docs cite external sources (not recycled session data)
 - ✅ All system orchestration files confirmed untouched

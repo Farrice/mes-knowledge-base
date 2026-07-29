@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-29T03:46:27.743962+00:00",
+  "generated_at": "2026-07-29T04:31:18.981415+00:00",
   "rows": [
     {
       "name": "_ledgers",
@@ -24,9 +24,23 @@
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-13",
+      "last_touched": "2026-07-28",
       "last_touched_source": "git",
-      "days": 15,
+      "days": 0,
+      "prefix_collisions": {}
+    },
+    {
+      "name": "andrea-dj",
+      "root": "_active",
+      "path": "_active/andrea-dj",
+      "status": "parked",
+      "status_source": "declared",
+      "declared_raw": "parked",
+      "entry": "RISKS.md",
+      "index_exists": true,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 0,
       "prefix_collisions": {}
     },
     {
@@ -40,6 +54,20 @@
       "index_exists": true,
       "last_touched": "2026-04-09",
       "last_touched_source": "git",
+      "days": 110,
+      "prefix_collisions": {}
+    },
+    {
+      "name": "claude-code-harness-analysis",
+      "root": "_active",
+      "path": "_active/claude-code-harness-analysis",
+      "status": "parked",
+      "status_source": "declared",
+      "declared_raw": "parked",
+      "entry": "README.md",
+      "index_exists": true,
+      "last_touched": "2026-04-09",
+      "last_touched_source": "mtime",
       "days": 110,
       "prefix_collisions": {}
     },
@@ -96,7 +124,7 @@
       "index_exists": true,
       "last_touched": "2026-07-13",
       "last_touched_source": "git",
-      "days": 14,
+      "days": 15,
       "prefix_collisions": {}
     },
     {
@@ -212,6 +240,20 @@
       "prefix_collisions": {}
     },
     {
+      "name": "farrice-creative-strategist-portfolio",
+      "root": "_active",
+      "path": "_active/farrice-creative-strategist-portfolio",
+      "status": "parked",
+      "status_source": "declared",
+      "declared_raw": "parked",
+      "entry": "INDEX.md",
+      "index_exists": true,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 0,
+      "prefix_collisions": {}
+    },
+    {
       "name": "farrice-final-10",
       "root": "_active",
       "path": "_active/farrice-final-10",
@@ -220,9 +262,9 @@
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-04",
+      "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 24,
+      "days": 0,
       "prefix_collisions": {}
     },
     {
@@ -310,6 +352,20 @@
       "prefix_collisions": {}
     },
     {
+      "name": "javier-human-values",
+      "root": "_active",
+      "path": "_active/javier-human-values",
+      "status": "parked",
+      "status_source": "declared",
+      "declared_raw": "parked",
+      "entry": "INDEX.md",
+      "index_exists": true,
+      "last_touched": "2026-03-30",
+      "last_touched_source": "mtime",
+      "days": 120,
+      "prefix_collisions": {}
+    },
+    {
       "name": "jen-listings",
       "root": "_active",
       "path": "_active/jen-listings",
@@ -321,6 +377,20 @@
       "last_touched": "2026-07-25",
       "last_touched_source": "git",
       "days": 3,
+      "prefix_collisions": {}
+    },
+    {
+      "name": "jen-santulan",
+      "root": "_active",
+      "path": "_active/jen-santulan",
+      "status": "parked",
+      "status_source": "declared",
+      "declared_raw": "parked",
+      "entry": "INDEX.md",
+      "index_exists": true,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 0,
       "prefix_collisions": {}
     },
     {
@@ -366,6 +436,20 @@
       "prefix_collisions": {}
     },
     {
+      "name": "kens-fasting",
+      "root": "_active",
+      "path": "_active/kens-fasting",
+      "status": "parked",
+      "status_source": "declared",
+      "declared_raw": "parked",
+      "entry": "INDEX.md",
+      "index_exists": true,
+      "last_touched": "2026-06-02",
+      "last_touched_source": "mtime",
+      "days": 56,
+      "prefix_collisions": {}
+    },
+    {
       "name": "linkedin-launch",
       "root": "_active",
       "path": "_active/linkedin-launch",
@@ -377,16 +461,7 @@
       "last_touched": "2026-07-28",
       "last_touched_source": "git",
       "days": 0,
-      "prefix_collisions": {
-        "03": [
-          "03-content",
-          "03-launch"
-        ],
-        "04": [
-          "04-content-os",
-          "04-deliverables"
-        ]
-      }
+      "prefix_collisions": {}
     },
     {
       "name": "loop-engineering-integration",
@@ -411,9 +486,9 @@
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-06-30",
+      "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 28,
+      "days": 0,
       "prefix_collisions": {}
     },
     {
@@ -537,9 +612,9 @@
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-07",
+      "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 21,
+      "days": 0,
       "prefix_collisions": {}
     },
     {
@@ -551,15 +626,15 @@
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-07",
+      "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 21,
+      "days": 0,
       "prefix_collisions": {}
     },
     {
-      "name": "pmf-offer-package-2026-07-05",
+      "name": "pmf-offer-shelf",
       "root": "_active",
-      "path": "_active/pmf-offer-package-2026-07-05",
+      "path": "_active/pmf-offer-shelf",
       "status": "active",
       "status_source": "derived",
       "declared_raw": null,
@@ -579,9 +654,9 @@
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-09",
+      "last_touched": "2026-07-28",
       "last_touched_source": "mtime",
-      "days": 19,
+      "days": 0,
       "prefix_collisions": {}
     },
     {
@@ -593,9 +668,23 @@
       "declared_raw": null,
       "entry": "INDEX.md",
       "index_exists": true,
-      "last_touched": "2026-07-26",
+      "last_touched": "2026-07-28",
       "last_touched_source": "git",
-      "days": 2,
+      "days": 0,
+      "prefix_collisions": {}
+    },
+    {
+      "name": "prediction-market-arb",
+      "root": "_active",
+      "path": "_active/prediction-market-arb",
+      "status": "parked",
+      "status_source": "declared",
+      "declared_raw": "parked",
+      "entry": "INDEX.md",
+      "index_exists": true,
+      "last_touched": "2026-04-15",
+      "last_touched_source": "mtime",
+      "days": 104,
       "prefix_collisions": {}
     },
     {
@@ -624,6 +713,34 @@
       "last_touched": "2026-07-13",
       "last_touched_source": "git",
       "days": 15,
+      "prefix_collisions": {}
+    },
+    {
+      "name": "re-compliance",
+      "root": "_active",
+      "path": "_active/re-compliance",
+      "status": "active",
+      "status_source": "declared",
+      "declared_raw": "active",
+      "entry": "INDEX.md",
+      "index_exists": true,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 0,
+      "prefix_collisions": {}
+    },
+    {
+      "name": "remotion-studio",
+      "root": "_active",
+      "path": "_active/remotion-studio",
+      "status": "parked",
+      "status_source": "declared",
+      "declared_raw": "parked",
+      "entry": "INDEX.md",
+      "index_exists": true,
+      "last_touched": "2026-03-14",
+      "last_touched_source": "mtime",
+      "days": 136,
       "prefix_collisions": {}
     },
     {
@@ -707,7 +824,7 @@
       "index_exists": true,
       "last_touched": "2026-05-28",
       "last_touched_source": "git",
-      "days": 60,
+      "days": 61,
       "prefix_collisions": {}
     },
     {
@@ -725,377 +842,19 @@
       "prefix_collisions": {}
     },
     {
-      "name": "Claude Code Harness Analysis",
-      "root": "projects",
-      "path": "projects/Claude Code Harness Analysis",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": "README.md",
-      "index_exists": false,
-      "last_touched": "2026-04-02",
-      "last_touched_source": "git",
-      "days": 117,
-      "prefix_collisions": {}
-    },
-    {
-      "name": "Ken's Fasting Digital Product",
-      "root": "projects",
-      "path": "projects/Ken's Fasting Digital Product",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": null,
-      "index_exists": false,
-      "last_touched": "2026-04-02",
-      "last_touched_source": "git",
-      "days": 117,
-      "prefix_collisions": {}
-    },
-    {
-      "name": "Kens_Fasting_Digital_Product",
-      "root": "projects",
-      "path": "projects/Kens_Fasting_Digital_Product",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": null,
-      "index_exists": false,
-      "last_touched": "2026-06-02",
-      "last_touched_source": "git",
-      "days": 56,
-      "prefix_collisions": {}
-    },
-    {
-      "name": "_ck2free",
-      "root": "projects",
-      "path": "projects/_ck2free",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": null,
-      "index_exists": false,
-      "last_touched": "2026-05-31",
-      "last_touched_source": "git",
-      "days": 58,
-      "prefix_collisions": {}
-    },
-    {
-      "name": "andrea-dj",
-      "root": "projects",
-      "path": "projects/andrea-dj",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": null,
-      "index_exists": false,
-      "last_touched": "2026-06-09",
-      "last_touched_source": "git",
-      "days": 49,
-      "prefix_collisions": {}
-    },
-    {
-      "name": "course-graveyard-coach",
-      "root": "projects",
-      "path": "projects/course-graveyard-coach",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": null,
-      "index_exists": false,
-      "last_touched": "2026-05-31",
-      "last_touched_source": "git",
-      "days": 58,
-      "prefix_collisions": {}
-    },
-    {
-      "name": "farrice-creative-strategist-portfolio",
-      "root": "projects",
-      "path": "projects/farrice-creative-strategist-portfolio",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": null,
-      "index_exists": false,
-      "last_touched": "2026-07-08",
-      "last_touched_source": "mtime",
-      "days": 20,
-      "prefix_collisions": {}
-    },
-    {
-      "name": "farrice-website",
-      "root": "projects",
-      "path": "projects/farrice-website",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": null,
-      "index_exists": false,
-      "last_touched": "2026-03-27",
-      "last_touched_source": "git",
-      "days": 123,
-      "prefix_collisions": {}
-    },
-    {
-      "name": "invisible-expert",
-      "root": "projects",
-      "path": "projects/invisible-expert",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": null,
-      "index_exists": false,
-      "last_touched": "2026-05-31",
-      "last_touched_source": "git",
-      "days": 58,
-      "prefix_collisions": {}
-    },
-    {
-      "name": "javier-human-values",
-      "root": "projects",
-      "path": "projects/javier-human-values",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": null,
-      "index_exists": false,
-      "last_touched": "2026-03-30",
-      "last_touched_source": "git",
-      "days": 119,
-      "prefix_collisions": {}
-    },
-    {
-      "name": "jen-santulan",
-      "root": "projects",
-      "path": "projects/jen-santulan",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": null,
-      "index_exists": false,
-      "last_touched": "2026-05-31",
-      "last_touched_source": "git",
-      "days": 58,
-      "prefix_collisions": {}
-    },
-    {
-      "name": "prediction_market_arb",
-      "root": "projects",
-      "path": "projects/prediction_market_arb",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": null,
-      "index_exists": false,
-      "last_touched": "2026-04-15",
-      "last_touched_source": "git",
-      "days": 104,
-      "prefix_collisions": {}
-    },
-    {
-      "name": "re-compliance",
-      "root": "projects",
-      "path": "projects/re-compliance",
-      "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": null,
-      "index_exists": false,
-      "last_touched": "2026-07-15",
-      "last_touched_source": "git",
-      "days": 13,
-      "prefix_collisions": {}
-    },
-    {
-      "name": "remotion-studio",
-      "root": "projects",
-      "path": "projects/remotion-studio",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": null,
-      "index_exists": false,
-      "last_touched": "2026-03-15",
-      "last_touched_source": "git",
-      "days": 135,
-      "prefix_collisions": {}
-    },
-    {
-      "name": "sfv-first-time-homebuyers",
-      "root": "projects",
-      "path": "projects/sfv-first-time-homebuyers",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": null,
-      "index_exists": false,
-      "last_touched": "2026-05-31",
-      "last_touched_source": "git",
-      "days": 58,
-      "prefix_collisions": {}
-    },
-    {
-      "name": "teardown-kajabi",
-      "root": "projects",
-      "path": "projects/teardown-kajabi",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": null,
-      "index_exists": false,
-      "last_touched": "2026-05-31",
-      "last_touched_source": "git",
-      "days": 58,
-      "prefix_collisions": {}
-    },
-    {
-      "name": "teardown-skool",
-      "root": "projects",
-      "path": "projects/teardown-skool",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": null,
-      "index_exists": false,
-      "last_touched": "2026-05-31",
-      "last_touched_source": "git",
-      "days": 58,
-      "prefix_collisions": {}
-    },
-    {
       "name": "trendscale-trial",
-      "root": "projects",
-      "path": "projects/trendscale-trial",
+      "root": "_active",
+      "path": "_active/trendscale-trial",
       "status": "active",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": null,
-      "index_exists": false,
-      "last_touched": "2026-07-13",
-      "last_touched_source": "git",
-      "days": 14,
-      "prefix_collisions": {}
-    },
-    {
-      "name": "unbottlenecked_blueprint",
-      "root": "projects",
-      "path": "projects/unbottlenecked_blueprint",
-      "status": "parked",
-      "status_source": "derived",
-      "declared_raw": null,
-      "entry": null,
-      "index_exists": false,
-      "last_touched": "2026-04-03",
-      "last_touched_source": "git",
-      "days": 115,
+      "status_source": "declared",
+      "declared_raw": "active",
+      "entry": "INDEX.md",
+      "index_exists": true,
+      "last_touched": "2026-07-28",
+      "last_touched_source": "mtime",
+      "days": 0,
       "prefix_collisions": {}
     }
   ],
-  "drift": [
-    {
-      "kind": "dual_taxonomy",
-      "project": "_active/linkedin-launch",
-      "detail": "03-* collision: 03-content + 03-launch"
-    },
-    {
-      "kind": "dual_taxonomy",
-      "project": "_active/linkedin-launch",
-      "detail": "04-* collision: 04-content-os + 04-deliverables"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/Claude Code Harness Analysis",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/Ken's Fasting Digital Product",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/Kens_Fasting_Digital_Product",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/_ck2free",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/andrea-dj",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/course-graveyard-coach",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/farrice-creative-strategist-portfolio",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/farrice-website",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/invisible-expert",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/javier-human-values",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/jen-santulan",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/prediction_market_arb",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/re-compliance",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/remotion-studio",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/sfv-first-time-homebuyers",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/teardown-kajabi",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/teardown-skool",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/trendscale-trial",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    },
-    {
-      "kind": "missing_index",
-      "project": "projects/unbottlenecked_blueprint",
-      "detail": "no INDEX.md \u2014 project has no entry point"
-    }
-  ]
+  "drift": []
 }

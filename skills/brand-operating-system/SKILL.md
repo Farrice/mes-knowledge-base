@@ -101,7 +101,7 @@ The BOS ships when:
 ## Reference Implementation
 
 **Resonance for Andrea** (shipped 2026-05-04):
-- Source: `projects/andrea-dj/brand-operating-system/` (43 markdown files)
+- Source: `_active/andrea-dj/brand-operating-system/` (43 markdown files)
 - Drive: `Andrea DJ Package / 2026-05-04 — Brand Operating System v1/` (43 native Google Docs, pageless)
 - Quality: Composite 8.3/10, adversarial review SHIP WITH FIXES (7.6/10), prose-doctor PASS
 

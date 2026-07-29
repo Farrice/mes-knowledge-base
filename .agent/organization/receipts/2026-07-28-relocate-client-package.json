@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:27:22.688631+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "deliverables/kens-fasting-package",
+  "dst": "_active/kens-fasting/04-deliverables/client-package",
+  "stub_left": false,
+  "files_moved": 12,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/brain/f0054a93-478e-4c9f-b2a5-77da0169f04d/claude_code_prompt.md": 1
+  },
+  "total_rewrites": 1,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

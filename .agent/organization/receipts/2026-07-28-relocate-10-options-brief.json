@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:27:29.521123+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "_active/pmf-brief-2026-07-07/04-deliverables",
+  "dst": "_active/pmf-offer-shelf/04-deliverables/10-options-brief",
+  "stub_left": false,
+  "files_moved": 1,
+  "rewrites": {},
+  "total_rewrites": 0,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

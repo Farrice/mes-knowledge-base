@@ -219,7 +219,7 @@ Child CLAUDE.md files auto-load client-specific voice/constraints when you `cd` 
 
 | Project | File | Domain |
 |---------|------|--------|
-| Andrea / Resonance | `projects/andrea-dj/CLAUDE.md` | Curated daytime sober dance party, Chicago |
+| Andrea / Resonance | `_active/andrea-dj/CLAUDE.md` | Curated daytime sober dance party, Chicago |
 | Jen Santulan | `_active/jen-listings/CLAUDE.md` | LA real estate, SFV specialist |
 | Farrice / Parallax | `_active/farrice-brand/CLAUDE.md` | Substack + LinkedIn, memoir-grade interiority |
 

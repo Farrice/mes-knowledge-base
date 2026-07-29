@@ -24,7 +24,7 @@ The rest of this skill trains the lens. This workflow points it at Farrice's act
 
 ### Step 1: Load Grounding Context
 
-Before generating any move, load `FARRICE-MASTER-CONTEXT.md` (repo root) plus whatever project-specific CLAUDE.md applies to the client surface in play (`projects/andrea-dj/CLAUDE.md`, `_active/jen-listings/CLAUDE.md`). A move built without this context is generic advice wearing a Godin label — the whole point of this layer is that it isn't that.
+Before generating any move, load `FARRICE-MASTER-CONTEXT.md` (repo root) plus whatever project-specific CLAUDE.md applies to the client surface in play (`_active/andrea-dj/CLAUDE.md`, `_active/jen-listings/CLAUDE.md`). A move built without this context is generic advice wearing a Godin label — the whole point of this layer is that it isn't that.
 
 ### Step 2: Name the Principle Doing the Work
 

@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:26:53.745088+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "projects/prediction_market_arb",
+  "dst": "_active/prediction-market-arb",
+  "stub_left": false,
+  "files_moved": 37,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.agent/health/projects-index.json": 2,
+    "/Users/farricecain/Google Antigravity/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/agents/prediction-market-strategist/memory/context.md": 2,
+    "/Users/farricecain/Google Antigravity/deliverables/prediction-market-full-cost-analysis.md": 1,
+    "/Users/farricecain/Google Antigravity/skills/prediction-market-ai-event-analysis/references/source-ledger.md": 1
+  },
+  "total_rewrites": 7,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

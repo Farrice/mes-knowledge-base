@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:27:05.043750+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "projects/trendscale-trial",
+  "dst": "_active/trendscale-trial",
+  "stub_left": false,
+  "files_moved": 11660,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_trendscale-trial.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-06-28-ad-script.md": 2,
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-04-trendscale-script-rework-v2.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-05-cos-launch.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-09-trendscale-trial.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-13-trendscale-trial.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/index.md": 2,
+    "/Users/farricecain/Google Antigravity/.agent/health/projects-index.json": 2,
+    "/Users/farricecain/Google Antigravity/.agent/sessions/autopin-trendscale-trial.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/sessions/observe-log.jsonl": 63,
+    "/Users/farricecain/Google Antigravity/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/docs/solutions/2026-07-11-brief-to-finished-ai-video-production-system.md": 1,
+    "/Users/farricecain/Google Antigravity/docs/solutions/2026-07-13-ai-video-product-label-morphing-composite-fix.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/trendscale-trial/03-video-samples/flow-handoff/RUN-THIS-IN-FLOW.md": 1
+  },
+  "total_rewrites": 79,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

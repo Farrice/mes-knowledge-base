@@ -1,0 +1,83 @@
+{
+  "_comment": "Resonance Claude Projects rebuild 2026-06-05. pool = unique docs to reformat once into _pool/<id>.md. rooms = per-room assembly (self-contained, shared docs duplicated). tier A = canonical/verbatim-sensitive (minimal-touch), B = research/knowledge (full house-style).",
+  "roots": {
+    "ROOM": "/Users/farricecain/Google Antigravity/_active/andrea-dj/ai-team/claude-project-uploads",
+    "KIMI": "/Users/farricecain/Downloads/Andrea Project/Kimi_Agent_Resonance Research",
+    "INGEST": "/Users/farricecain/Google Antigravity/_active/andrea-dj/ai-team/_build-2026-06-05/_ingest-raw",
+    "POOL": "/Users/farricecain/Google Antigravity/_active/andrea-dj/ai-team/_build-2026-06-05/_pool"
+  },
+  "pool": [
+    {"id": "voice-document", "src": "ROOM/1-front-of-house/03-voice-document.md", "tier": "A"},
+    {"id": "non-negotiables", "src": "ROOM/1-front-of-house/05-non-negotiables.md", "tier": "A"},
+    {"id": "icp-master", "src": "ROOM/1-front-of-house/02-icp-master.md", "tier": "A"},
+    {"id": "brand-bible", "src": "ROOM/1-front-of-house/01-brand-bible.md", "tier": "A"},
+    {"id": "positioning-one-pager", "src": "ROOM/1-front-of-house/04-positioning-one-pager.md", "tier": "A"},
+    {"id": "role-doctrine", "src": "INGEST/role-doctrine.md", "tier": "A"},
+    {"id": "master-index", "src": "ROOM/1-front-of-house/00-master-index.md", "tier": "B"},
+    {"id": "channel-architecture", "src": "ROOM/1-front-of-house/03-channel-architecture.md", "tier": "B"},
+    {"id": "funnel", "src": "ROOM/1-front-of-house/07-funnel.md", "tier": "B"},
+    {"id": "audience-set-intelligence-brief", "src": "ROOM/1-front-of-house/2026-06-04-audience-set-intelligence-brief.md", "tier": "B"},
+    {"id": "execution-playbook-v2", "src": "KIMI/resonance_event1_execution_playbook_v2.md", "tier": "B"},
+    {"id": "content-pillars", "src": "ROOM/2-the-crowd/01-content-pillars.md", "tier": "B"},
+    {"id": "hook-library", "src": "ROOM/2-the-crowd/02-hook-library.md", "tier": "B"},
+    {"id": "image-prompt-formulas", "src": "ROOM/2-the-crowd/03-image-prompt-formulas.md", "tier": "B"},
+    {"id": "ig-feed-post", "src": "ROOM/2-the-crowd/ig-feed-post.md", "tier": "B"},
+    {"id": "ig-reel", "src": "ROOM/2-the-crowd/ig-reel.md", "tier": "B"},
+    {"id": "ig-story", "src": "ROOM/2-the-crowd/ig-story.md", "tier": "B"},
+    {"id": "email-newsletter", "src": "ROOM/2-the-crowd/email-newsletter.md", "tier": "B"},
+    {"id": "wrong-ai-ledger", "src": "ROOM/2-the-crowd/wrong-ai-ledger.md", "tier": "A"},
+    {"id": "ig-profile-first-week-content", "src": "INGEST/ig-profile-first-week-content.md", "tier": "B"},
+    {"id": "universal-anchors", "src": "INGEST/universal-anchors.md", "tier": "B"},
+    {"id": "psychological-profiles", "src": "KIMI/resonance_psychological_profiles.md", "tier": "B"},
+    {"id": "godin-tribal-frameworks", "src": "KIMI/resonance_godin_tribal_frameworks.md", "tier": "B"},
+    {"id": "drift-signals", "src": "ROOM/3-the-doorkeeper/03-drift-signals.md", "tier": "B"},
+    {"id": "why-gate-mechanics", "src": "ROOM/3-the-doorkeeper/06-why-gate-mechanics.md", "tier": "B"},
+    {"id": "vetting-playbook", "src": "KIMI/resonance_vetting_playbook.md", "tier": "B"},
+    {"id": "curation-chemistry-brief", "src": "KIMI/resonance_curation_chemistry_brief.md", "tier": "B"},
+    {"id": "male-curation-profile", "src": "KIMI/resonance_male_curation_profile.md", "tier": "B"},
+    {"id": "female-curation-profile", "src": "KIMI/resonance_female_curation_profile.md", "tier": "B"},
+    {"id": "dj-booking-pack", "src": "ROOM/4-the-green-room/dj-booking-pack.md", "tier": "B"},
+    {"id": "outreach-playbook", "src": "ROOM/4-the-green-room/outreach-playbook.md", "tier": "B"},
+    {"id": "press-one-sheeter", "src": "ROOM/4-the-green-room/press-one-sheeter.md", "tier": "B"},
+    {"id": "venue-pitch", "src": "ROOM/4-the-green-room/venue-pitch.md", "tier": "B"},
+    {"id": "run-of-show", "src": "ROOM/6-the-booth/06-run-of-show.md", "tier": "B"},
+    {"id": "room-set-architecture", "src": "KIMI/resonance_room_set_architecture.md", "tier": "B"},
+    {"id": "room-chemistry", "src": "KIMI/resonance_room_chemistry.md", "tier": "B"},
+    {"id": "anti-omission-audit", "src": "INGEST/anti-omission-audit.md", "tier": "B"},
+    {"id": "success-metrics", "src": "ROOM/5-the-logbook/04-success-metrics.md", "tier": "B"},
+    {"id": "exit-interview-protocol", "src": "ROOM/5-the-logbook/05-exit-interview-protocol.md", "tier": "B"},
+    {"id": "team-map", "src": "ROOM/1-front-of-house/TEAM-MAP.md", "tier": "A"}
+  ],
+  "rooms": [
+    {
+      "num": 1, "folder": "1 — Planning & Strategy", "old": "Front of House",
+      "model": "Opus", "purpose": "Your main thinking partner. Planning, strategy, routing — start here when you're not sure where to go.",
+      "docs": ["master-index", "brand-bible", "icp-master", "voice-document", "positioning-one-pager", "non-negotiables", "channel-architecture", "funnel", "audience-set-intelligence-brief", "execution-playbook-v2", "role-doctrine", "team-map"]
+    },
+    {
+      "num": 2, "folder": "2 — Content & Social", "old": "The Crowd",
+      "model": "Sonnet", "purpose": "Everything you say to the world: IG posts, reels, stories, captions, emails.",
+      "docs": ["voice-document", "icp-master", "non-negotiables", "content-pillars", "hook-library", "image-prompt-formulas", "ig-feed-post", "ig-reel", "ig-story", "email-newsletter", "wrong-ai-ledger", "ig-profile-first-week-content", "universal-anchors", "psychological-profiles", "godin-tribal-frameworks"]
+    },
+    {
+      "num": 3, "folder": "3 — Applications & Vetting", "old": "The Doorkeeper",
+      "model": "Opus", "purpose": "Who gets in: DMs, applications, accept/decline, sponsor and partner offers tested against the lines.",
+      "docs": ["icp-master", "voice-document", "non-negotiables", "drift-signals", "why-gate-mechanics", "vetting-playbook", "curation-chemistry-brief", "male-curation-profile", "female-curation-profile", "audience-set-intelligence-brief"]
+    },
+    {
+      "num": 4, "folder": "4 — Partners & Outreach", "old": "The Green Room",
+      "model": "Sonnet", "purpose": "Working with people: venues, press, DJs, sponsors, outreach.",
+      "docs": ["voice-document", "positioning-one-pager", "non-negotiables", "dj-booking-pack", "outreach-playbook", "press-one-sheeter", "venue-pitch", "execution-playbook-v2", "anti-omission-audit"]
+    },
+    {
+      "num": 5, "folder": "5 — Music & The Floor", "old": "The Booth",
+      "model": "Sonnet", "purpose": "The music and the room: the set, tempo, the floor, day-of flow.",
+      "docs": ["voice-document", "non-negotiables", "run-of-show", "audience-set-intelligence-brief", "room-set-architecture", "room-chemistry", "role-doctrine", "anti-omission-audit", "dj-booking-pack"]
+    },
+    {
+      "num": 6, "folder": "6 — Event Memory (after July 18)", "old": "The Logbook",
+      "model": "Sonnet", "purpose": "Memory keeper — turn on after the first event. Couples who met, voice corrections, lessons.",
+      "docs": ["icp-master", "voice-document", "non-negotiables", "success-metrics", "exit-interview-protocol", "wrong-ai-ledger"]
+    }
+  ]
+}

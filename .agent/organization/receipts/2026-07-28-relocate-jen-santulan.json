@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:26:50.345167+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "projects/jen-santulan",
+  "dst": "_active/jen-santulan",
+  "stub_left": false,
+  "files_moved": 29,
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_jen-fthb-engine.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/health/projects-index.json": 2,
+    "/Users/farricecain/Google Antigravity/PROJECTS.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/jen-listings/04-deliverables/6853-willis-weekend-content-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/system-integration/2026-05-12-agentic-os-elevation-brief.md": 1,
+    "/Users/farricecain/Google Antigravity/extractions/agentic-os-integration/pattern-inventory-and-delta.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/jen-santulan/deliverables/08-edm-appendix.md": 2,
+    "/Users/farricecain/Google Antigravity/_active/jen-santulan/production/08-edm-appendix.md": 2,
+    "/Users/farricecain/Google Antigravity/_active/jen-santulan/state.yaml": 11,
+    "/Users/farricecain/Google Antigravity/skills/fantastic-posters/templates/listing-batch.json": 1,
+    "/Users/farricecain/Google Antigravity/skills/fantastic-posters/workflows/poster-to-video.md": 1,
+    "/Users/farricecain/Google Antigravity/skills/jen-santulan-listing-content/references/source-ledger.md": 1
+  },
+  "total_rewrites": 25,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

@@ -12,19 +12,19 @@ A **$7 digital product** (with **$47-$97 upsell**) built around intermittent fas
 
 ## All Assets (6 files across 2 directories)
 
-### Core Strategy Files — [projects/Ken's Fasting Digital Product/](file:///Users/farricecain/Google%20Antigravity/projects/Ken%27s%20Fasting%20Digital%20Product/)
+### Core Strategy Files — [_active/kens-fasting/](file:///Users/farricecain/Google%20Antigravity/projects/Ken%27s%20Fasting%20Digital%20Product/)
 
 | File | What It Contains |
 |------|-----------------|
 | [fasting_product_and_upsell_strategy.md](file:///Users/farricecain/Google%20Antigravity/projects/Ken%27s%20Fasting%20Digital%20Product/fasting_product_and_upsell_strategy.md) | **The pivoted product architecture** — 4-module "Pre-Flight Checklist" ($7) + "30-Day Fasting Lifestyle Blueprint" upsell ($47-$97) with trust bridge and email sequence |
 | [fasting_sprint_plan.md](file:///Users/farricecain/Google%20Antigravity/projects/Ken%27s%20Fasting%20Digital%20Product/fasting_sprint_plan.md) | **48-hour launch sprint** — 60-min product build spec, Gumroad checkout setup, Reddit/Facebook outreach scripts, and post-sale follow-up protocol |
 
-### Marketing & Copy — [projects/Kens_Fasting_Digital_Product/](file:///Users/farricecain/Google%20Antigravity/projects/Kens_Fasting_Digital_Product/)
+### Marketing & Copy — [_archive/2026-07-28-org-sweep/Kens_Fasting_Digital_Product/](file:///Users/farricecain/Google%20Antigravity/_archive/2026-07-28-org-sweep/Kens_Fasting_Digital_Product/)
 
 | File | What It Contains |
 |------|-----------------|
-| [landing_page_copy.md](file:///Users/farricecain/Google%20Antigravity/projects/Kens_Fasting_Digital_Product/04-deliverables/landing_page_copy.md) | **Full sales page copy** — VSL lead, mechanism reveal ("Metabolic Switch"), fascination bullets, $7 offer with guarantee, and $37 order bump |
-| [instagram_content_strategy.md](file:///Users/farricecain/Google%20Antigravity/projects/Kens_Fasting_Digital_Product/04-deliverables/instagram_content_strategy.md) | **"The Fasting Executive" IG strategy** — city map architecture, 3 content pillars (Myth-Buster Reels, Blueprint Carousels, Lifestyle Proof Stories), 30-day launch sprint calendar |
+| [landing_page_copy.md](file:///Users/farricecain/Google%20Antigravity/_active/kens-fasting/04-deliverables/instagram-and-landing/landing_page_copy.md) | **Full sales page copy** — VSL lead, mechanism reveal ("Metabolic Switch"), fascination bullets, $7 offer with guarantee, and $37 order bump |
+| [instagram_content_strategy.md](file:///Users/farricecain/Google%20Antigravity/_active/kens-fasting/04-deliverables/instagram-and-landing/instagram_content_strategy.md) | **"The Fasting Executive" IG strategy** — city map architecture, 3 content pillars (Myth-Buster Reels, Blueprint Carousels, Lifestyle Proof Stories), 30-day launch sprint calendar |
 
 ### Swarm Research — [swarm_research/](file:///Users/farricecain/Google%20Antigravity/projects/Ken%27s%20Fasting%20Digital%20Product/swarm_research/)
 

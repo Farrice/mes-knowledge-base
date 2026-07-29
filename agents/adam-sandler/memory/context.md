@@ -32,7 +32,7 @@ Context-engineering tooling targets engineers/software; knowledge work (non-soft
 
 ## First-Audit Candidates (live clients in this system)
 - Jen Santulan (`_active/jen-listings/`) — SFV realtor, messy listing context.
-- Andrea / Resonance (`projects/andrea-dj/`) — sober daytime party, Chicago.
+- Andrea / Resonance (`_active/andrea-dj/`) — sober daytime party, Chicago.
 - Josh & Katie (`_active/josh-katie-fitness/`) — fitness programs.
 
 ## Engagement Log

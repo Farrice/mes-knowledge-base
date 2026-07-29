@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "applied_at": "2026-07-29T04:27:11.455296+00:00",
+  "action": "project-relocate",
+  "moved_by": "git mv",
+  "src": "projects/Claude Code Harness Analysis",
+  "dst": "_active/claude-code-harness-analysis",
+  "stub_left": false,
+  "files_moved": 2108,
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.agent/health/projects-index.json": 2,
+    "/Users/farricecain/Google Antigravity/PROJECTS.md": 2,
+    "/Users/farricecain/Google Antigravity/execution/hooks/session_ledger_hook.py": 1
+  },
+  "total_rewrites": 5,
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh"
+}

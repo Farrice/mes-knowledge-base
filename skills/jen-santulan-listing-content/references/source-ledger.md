@@ -1,6 +1,6 @@
 # Jen Santulan Listing Content — Source Ledger
 
-> This is a **client skill**, not a public-expert extraction. There is no `extractions/` file for Jen Santulan — confirmed via `ls extractions/ | grep -i santulan` (zero matches) and a repo-wide `grep -ril santulan` (2026-07-17), which surfaces only `_active/jen-listings/`, `projects/jen-santulan/`, and the skill's own files. Ground truth for this skill is the client project directory, not the extraction pipeline. Every claim below traces to a file actually opened and read during this repair pass (2026-07-17), or is flagged UNCONFIRMED where it isn't.
+> This is a **client skill**, not a public-expert extraction. There is no `extractions/` file for Jen Santulan — confirmed via `ls extractions/ | grep -i santulan` (zero matches) and a repo-wide `grep -ril santulan` (2026-07-17), which surfaces only `_active/jen-listings/`, `_active/jen-santulan/`, and the skill's own files. Ground truth for this skill is the client project directory, not the extraction pipeline. Every claim below traces to a file actually opened and read during this repair pass (2026-07-17), or is flagged UNCONFIRMED where it isn't.
 
 ---
 

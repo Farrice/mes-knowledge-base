@@ -22,6 +22,6 @@ It is intentionally **not** hot-promoted as a slash command. Promotion to `.agen
 
 The first applied proof is the local rebuild of the Manus portfolio:
 
-`projects/farrice-creative-strategist-portfolio/`
+`_active/farrice-creative-strategist-portfolio/`
 
 It includes a run map, local assets, editable source, screenshots, and browser verification.

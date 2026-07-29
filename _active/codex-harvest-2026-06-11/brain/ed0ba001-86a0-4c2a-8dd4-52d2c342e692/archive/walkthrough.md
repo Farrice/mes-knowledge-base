@@ -38,8 +38,8 @@ Expanded both cards with exact deliverables instead of vague promises:
 - Added qualification criteria (10+ years experience, content that matches expertise)
 
 ## Files Modified
-- [index.html](file:///Users/farricecain/Google%20Antigravity/projects/farrice-website/index.html) — Complete copy rewrite + 2 new sections
-- [styles.css](file:///Users/farricecain/Google%20Antigravity/projects/farrice-website/styles.css) — Proof grid, work samples, responsive styles
+- [index.html](file:///Users/farricecain/Google%20Antigravity/_archive/2026-07-28-org-sweep/farrice-website/index.html) — Complete copy rewrite + 2 new sections
+- [styles.css](file:///Users/farricecain/Google%20Antigravity/_archive/2026-07-28-org-sweep/farrice-website/styles.css) — Proof grid, work samples, responsive styles
 
 ## Browser Recording
 ![Site walkthrough recording](file:///Users/farricecain/.gemini/antigravity/brain/ed0ba001-86a0-4c2a-8dd4-52d2c342e692/fresh_preview_check_1774388477889.webp)

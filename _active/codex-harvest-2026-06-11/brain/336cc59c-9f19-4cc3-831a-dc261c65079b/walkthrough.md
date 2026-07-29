@@ -11,27 +11,27 @@ Five integrated strategic deliverables for **Human Values Collective** (HVC), Ja
 ### 1. Brand Intelligence Document
 Deep research synthesis covering HVC's mission, programs (Unstoppable Parent, Unstoppable Teacher, Sunday Night Dinners), Javier's 10+ year music career, Lane Tech High School context, and strategic funnel architecture.
 
-📄 [brand-intelligence.md](file:///Users/farricecain/Google%20Antigravity/projects/javier-human-values/research/brand-intelligence.md)
+📄 [brand-intelligence.md](file:///Users/farricecain/Google%20Antigravity/_active/javier-human-values/research/brand-intelligence.md)
 
 ### 2. StoryBrand BrandScript (SB7)
 Complete 7-element BrandScript using Donald Miller's methodology — Character (overwhelmed parents), 3-level Problem stack, Guide positioning, 3-step Plan, dual CTAs, Failure stakes, Success transformation. Includes the **"Broken Vase" hook** (named and elevated as HVC's #1 strategic messaging asset), one-liner, and 5 survival sound bites.
 
-📄 [storybrand-brandscript.md](file:///Users/farricecain/Google%20Antigravity/projects/javier-human-values/strategy/storybrand-brandscript.md)
+📄 [storybrand-brandscript.md](file:///Users/farricecain/Google%20Antigravity/_active/javier-human-values/strategy/storybrand-brandscript.md)
 
 ### 3. StoryBrand Message Audit
 Website-wide audit scoring 31/70 on SB7 alignment. 5-Second Test: FAIL. Identified 5 structural issues (hero confusion, product positioning, cognitive overload, zero story loops, buried survival relevance). Produced 5 priority fixes with before/after copy and 3 quick wins deployable today.
 
-📄 [storybrand-message-audit.md](file:///Users/farricecain/Google%20Antigravity/projects/javier-human-values/strategy/storybrand-message-audit.md)
+📄 [storybrand-message-audit.md](file:///Users/farricecain/Google%20Antigravity/_active/javier-human-values/strategy/storybrand-message-audit.md)
 
 ### 4. Newsletter Flywheel — Value of the Week
 Full Nicolas Cole newsletter methodology applied. Passed Two Rules Gate (book that never ends ✅, tangible asset ✅). Designed the **Family Conversation Card** — a printable, saveable, collectible dinner-table guide. Produced 3 variant first editions on TRUTH (The Tactical, The Story-Led, The Contrarian). Editor pick: Variant 3. Includes growth engine and content flywheel multiplier.
 
-📄 [newsletter-flywheel.md](file:///Users/farricecain/Google%20Antigravity/projects/javier-human-values/content/newsletter-flywheel.md)
+📄 [newsletter-flywheel.md](file:///Users/farricecain/Google%20Antigravity/_active/javier-human-values/content/newsletter-flywheel.md)
 
 ### 5. Grace City Blueprint — HVC Media Company
 Complete content transit system: Grand Central station ("practiced out loud, not just hoped for"), 4 quarterly destinations (1K subs, 20 program enrollees, 15 teachers, 500 YT subs), 4 content lines (newsletter, podcast, Instagram, community), 3 passenger profiles (Carmen, Marcus, Sarah & James), 5-stage trust pathway with bridge audit, 5-rung revenue district ($0–$2K), and 30-day content sprint calendar matched to Javier's 3-5 hrs/week teacher schedule.
 
-📄 [grace-city-blueprint.md](file:///Users/farricecain/Google%20Antigravity/projects/javier-human-values/strategy/grace-city-blueprint.md)
+📄 [grace-city-blueprint.md](file:///Users/farricecain/Google%20Antigravity/_active/javier-human-values/strategy/grace-city-blueprint.md)
 
 ---
 

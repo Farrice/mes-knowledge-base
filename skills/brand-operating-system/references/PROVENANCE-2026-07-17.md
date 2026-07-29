@@ -7,7 +7,7 @@ Anchor → source file + location, for every claim/quote added in this repair pa
 | Anchor in new text | Source | Location |
 |---|---|---|
 | "the founder pasting that doc into Claude should feel like they're reading their own brand's voice" | Derived from the skill's own stated design goal | `skills/brand-operating-system/genius.md` (HEAD), "Why the AI Brain Master compression discipline" section, point 1 ("Cold-context AI") |
-| "13 explicit conflicts between the founder's own docs and a prior vendor deliverable, plus 9 open questions" | `projects/andrea-dj/brand-operating-system/_working/A1-reconciliation.md` | Section 3 (13-row conflict table), Section 7 (9 numbered open questions) — row/item counts verified by direct count, not estimated |
+| "13 explicit conflicts between the founder's own docs and a prior vendor deliverable, plus 9 open questions" | `_active/andrea-dj/brand-operating-system/_working/A1-reconciliation.md` | Section 3 (13-row conflict table), Section 7 (9 numbered open questions) — row/item counts verified by direct count, not estimated |
 | "Resonance's Brand Bible earns its ~4,000 words; its AI Brain Master earns its one paragraph" | `skills/brand-operating-system/genius.md` (HEAD) | "Why the AI Brain Master compression discipline" section, paragraph 2 |
 | Style/structure model ("intuition primitives, not a checklist"; "polish is the tell") | `skills/ben-watkins-storytelling/genius.md` | Lines 7-16, per explicit ENVELOPE instruction — structure adapted to BOS-specific content, no sentences copied verbatim |
 
@@ -15,12 +15,12 @@ Anchor → source file + location, for every claim/quote added in this repair pa
 
 | Anchor | Source file | Location | Verbatim quote used |
 |---|---|---|---|
-| File-numbering drift (CRITICAL, Fix 1) | `projects/andrea-dj/brand-operating-system/_working/G1-adversarial-review.md` | Axis 4 — Structural Soundness / "Top 5 Fixes" → Fix 1 | "every paste-in session would have hit broken paths" |
+| File-numbering drift (CRITICAL, Fix 1) | `_active/andrea-dj/brand-operating-system/_working/G1-adversarial-review.md` | Axis 4 — Structural Soundness / "Top 5 Fixes" → Fix 1 | "every paste-in session would have hit broken paths" |
 | Em-dash rule violation (Fix 2) | same file | Axis 3 — Voice Alignment / Fix 2 | "Brand Bible §1 uses 5+ em-dashes in its first paragraph, contradicting voice rule #3 (≤2 per piece)" |
 | Abstract sponsor template (Fix 3) | same file | Axis 5 — Market Resilience / Fix 3 | "Sponsor decision template is abstract — doesn't anticipate the most likely real offer (wellness-aligned brand, $5K-10K product placement + 30-second stage acknowledgment)" |
 | Legacy "Pulse" citation drift (Fix 4) | same file | Axis 2 — Evidence Quality / Fix 4 | "Brand Bible §1 cites legacy `01-pulse-brand.md` while AI Brain Master bans the term 'Pulse.'" |
 | Golden-hour metaphor vs. literal mechanic (Fix 5) | same file | Axis 1 — Premise Integrity / Fix 5 | "if a photo could have been taken at 11pm, it fails" |
-| Prior-vendor framing surviving founder override | `projects/andrea-dj/brand-operating-system/_working/A1-reconciliation.md` | Section 3, conflict row #6 ("Success metric") | "the experience is the point; the couple is the residue" (Monday Package, retired) vs. "We count the couples, not the followers." (Manifesto v2, canonical) |
+| Prior-vendor framing surviving founder override | `_active/andrea-dj/brand-operating-system/_working/A1-reconciliation.md` | Section 3, conflict row #6 ("Success metric") | "the experience is the point; the couple is the residue" (Monday Package, retired) vs. "We count the couples, not the followers." (Manifesto v2, canonical) |
 
 ## workflows/*.md — Output Schema sections
 
