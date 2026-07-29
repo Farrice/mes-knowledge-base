@@ -1,0 +1,30 @@
+{
+  "applied_at": "2026-07-29T04:12:31+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/README-INTEL.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/04-deliverables/README-INTEL.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/README-VERDICT.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/04-deliverables/README-VERDICT.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/README-INTEL.md",
+    "/Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/README-VERDICT.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05",
+  "project_slug": "dwa-threads-engine-2026-07-05",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_dwa-threads-engine.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/sessions/observe-log.jsonl": 7,
+    "/Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/04-deliverables/README-INTEL.md": 12,
+    "/Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/04-deliverables/README-VERDICT.md": 7
+  },
+  "skipped": [],
+  "version": 1
+}

@@ -1,0 +1,22 @@
+{
+  "applied_at": "2026-07-29T04:12:54+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/farrice-final-10/SEED.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/farrice-final-10/04-deliverables/SEED.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/farrice-final-10/SEED.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/farrice-final-10",
+  "project_slug": "farrice-final-10",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/farrice-final-10/research/icp-substrate.md": 1
+  },
+  "skipped": [],
+  "version": 1
+}

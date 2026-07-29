@@ -1,0 +1,25 @@
+{
+  "applied_at": "2026-07-29T04:11:54+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/chris-restaurants/00-mission-brief.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/chris-restaurants/04-deliverables/00-mission-brief.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/chris-restaurants/Package-A-Menu-Intelligence-Report.html",
+      "to": "/Users/farricecain/Google Antigravity/_active/chris-restaurants/90-exports/Package-A-Menu-Intelligence-Report.html"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/chris-restaurants/00-mission-brief.md",
+    "/Users/farricecain/Google Antigravity/_active/chris-restaurants/Package-A-Menu-Intelligence-Report.html"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/chris-restaurants",
+  "project_slug": "chris-restaurants",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {},
+  "skipped": [],
+  "version": 1
+}

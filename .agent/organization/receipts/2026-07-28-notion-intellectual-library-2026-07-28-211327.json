@@ -1,0 +1,36 @@
+{
+  "applied_at": "2026-07-29T04:13:27+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/notion-intellectual-library/DEPLOY-RUNBOOK.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/notion-intellectual-library/04-deliverables/DEPLOY-RUNBOOK.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/notion-intellectual-library/notion-ai-deployment-prompts.pdf",
+      "to": "/Users/farricecain/Google Antigravity/_active/notion-intellectual-library/90-exports/notion-ai-deployment-prompts.pdf"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/notion-intellectual-library/DEPLOY-RUNBOOK.md",
+    "/Users/farricecain/Google Antigravity/_active/notion-intellectual-library/notion-ai-deployment-prompts.pdf"
+  ],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/notion-intellectual-library/notion-ai-deployment-prompts.md",
+      "reason": "referenced from control-plane file: execution/notion_api.py"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/_active/notion-intellectual-library",
+  "project_slug": "notion-intellectual-library",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_three-layer-memory-system.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/MEMORY-SYSTEM-DELIVERY-SUMMARY.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-06-23-three-layer-memory-second-brain.md": 2,
+    "/Users/farricecain/Google Antigravity/.agent/memory-system-usage.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/notion-intellectual-library/04-deliverables/DEPLOY-RUNBOOK.md": 2
+  },
+  "skipped": [],
+  "version": 1
+}

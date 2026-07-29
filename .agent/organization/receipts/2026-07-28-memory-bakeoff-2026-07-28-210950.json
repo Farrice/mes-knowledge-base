@@ -1,0 +1,25 @@
+{
+  "applied_at": "2026-07-29T04:09:50+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/memory-bakeoff/bake-off-protocol.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/memory-bakeoff/04-deliverables/bake-off-protocol.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/memory-bakeoff/bake-off-protocol.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/memory-bakeoff",
+  "project_slug": "memory-bakeoff",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_three-layer-memory-system.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/MEMORY-SYSTEM-DELIVERY-SUMMARY.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-06-23-three-layer-memory-second-brain.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/memory-system-usage.md": 1
+  },
+  "skipped": [],
+  "version": 1
+}

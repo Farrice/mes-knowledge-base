@@ -68,7 +68,7 @@ Do not lead with "dream home." Lead with "the second space." That is the scrolls
 | `deliverables/21212-ingomar-ct-listing-content.md` | Six-hook architecture, property profile, visual strategy, delivery notes |
 | `_active/jen-listings/5421-bothwell-tarzana/listing-package.md` | Move-up buyer adaptation, luxury/flexible-space hook style, filming roadmap |
 | `projects/jen-santulan/production/05-instagram-batch.md` | "Honest math" register and no-pressure clarity |
-| `_active/jen-listings/sky-format-jen-reacts.md` | Jen Reacts: listing walkthrough labels, hidden-cost/real-number format |
+| `_active/jen-listings/04-deliverables/sky-format-jen-reacts.md` | Jen Reacts: listing walkthrough labels, hidden-cost/real-number format |
 | `_active/jen-listings/deliverables/sfv-fthb-lead-copy/` | Claim-safety habit: verify program/rent claims before posting |
 
 ## Property Receipts

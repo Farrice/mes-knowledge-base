@@ -1,0 +1,24 @@
+{
+  "applied_at": "2026-07-29T04:11:47+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/alignment-architect-2026-07-07/WEEK-1.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/alignment-architect-2026-07-07/04-deliverables/WEEK-1.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/alignment-architect-2026-07-07/WEEK-1.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/alignment-architect-2026-07-07",
+  "project_slug": "alignment-architect-2026-07-07",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-07-alignment-architect-launch.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/sessions/observe-log.jsonl": 2,
+    "/Users/farricecain/Google Antigravity/_active/alignment-architect-2026-07-07/04-deliverables/WEEK-1.md": 6
+  },
+  "skipped": [],
+  "version": 1
+}

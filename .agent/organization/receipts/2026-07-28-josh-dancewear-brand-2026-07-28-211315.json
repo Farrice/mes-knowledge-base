@@ -1,0 +1,23 @@
+{
+  "applied_at": "2026-07-29T04:13:15+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/josh-dancewear-brand/brand-identity-one-sheet.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/josh-dancewear-brand/04-deliverables/brand-identity-one-sheet.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/josh-dancewear-brand/brand-identity-one-sheet.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/josh-dancewear-brand",
+  "project_slug": "josh-dancewear-brand",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/josh-dancewear-brand/04-deliverables/brand-identity-one-sheet.md": 39,
+    "/Users/farricecain/Google Antigravity/_active/josh-dancewear-brand/research/swing-dance-ground-truth.md": 1
+  },
+  "skipped": [],
+  "version": 1
+}

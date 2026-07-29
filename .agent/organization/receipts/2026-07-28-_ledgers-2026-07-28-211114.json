@@ -1,0 +1,141 @@
+{
+  "applied_at": "2026-07-29T04:11:14+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260521120512-test.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260521120512-test.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260522091556-atomize-parallax-04.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260522091556-atomize-parallax-04.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260522091627-system-audit.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260522091627-system-audit.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260522091704-li-memory-collapse.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260522091704-li-memory-collapse.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260522091750-research-long-context.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260522091750-research-long-context.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260522161358-polish-jj-variants.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260522161358-polish-jj-variants.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260523202801-postfix-validation.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260523202801-postfix-validation.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260523202832-bug2-verify.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260523202832-bug2-verify.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260525-supercomputer-vs-higgs-perplexity.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260525-supercomputer-vs-higgs-perplexity.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260525053411-polish-jj-variants-v2.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260525053411-polish-jj-variants-v2.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260525053839-atomize-parallax.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260525053839-atomize-parallax.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260525054045-system-audit.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260525054045-system-audit.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260525054226-li-memory-collapse.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260525054226-li-memory-collapse.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260525054353-research-long-context-v2.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260525054353-research-long-context-v2.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260611-disney-crowd-forecast.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260611-disney-crowd-forecast.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260618-andrea-ticketing.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260618-andrea-ticketing.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-diandra-seqfix.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-diandra-seqfix.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-test-001.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-test-001.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-back-compat-213303.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-back-compat-213303.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-test-phase-b-213249.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-test-phase-b-213249.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260521120512-test.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260522091556-atomize-parallax-04.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260522091627-system-audit.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260522091704-li-memory-collapse.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260522091750-research-long-context.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260522161358-polish-jj-variants.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260523202801-postfix-validation.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260523202832-bug2-verify.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260525-supercomputer-vs-higgs-perplexity.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260525053411-polish-jj-variants-v2.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260525053839-atomize-parallax.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260525054045-system-audit.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260525054226-li-memory-collapse.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260525054353-research-long-context-v2.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260611-disney-crowd-forecast.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260618-andrea-ticketing.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-diandra-seqfix.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-test-001.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-back-compat-213303.md",
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-test-phase-b-213249.md"
+  ],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260530164740-bayer-skill-elevation.md",
+      "reason": "referenced from control-plane file: skills/david-bayer-elite-communication/references/source-ledger.md"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/_active/_ledgers",
+  "project_slug": "_ledgers",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260521120512-test.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260522091556-atomize-parallax-04.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260522091627-system-audit.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260522091704-li-memory-collapse.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260522091750-research-long-context.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260522161358-polish-jj-variants.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260523202801-postfix-validation.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260523202832-bug2-verify.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260525-supercomputer-vs-higgs-perplexity.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260525053411-polish-jj-variants-v2.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260525053839-atomize-parallax.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260525054045-system-audit.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260525054226-li-memory-collapse.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260525054353-research-long-context-v2.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260611-disney-crowd-forecast.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260618-andrea-ticketing.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-diandra-seqfix.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-test-001.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-back-compat-213303.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-test-phase-b-213249.md": 1
+  },
+  "skipped": [],
+  "version": 1
+}

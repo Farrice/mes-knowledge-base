@@ -1,0 +1,24 @@
+{
+  "applied_at": "2026-07-29T04:12:00+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/coach-cooz/09-latest-context-april-2026.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/coach-cooz/04-deliverables/09-latest-context-april-2026.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/coach-cooz/09-latest-context-april-2026.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/coach-cooz",
+  "project_slug": "coach-cooz",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/coach-cooz/13-pmf-investigation/03-premium-online-business-architecture.md": 2,
+    "/Users/farricecain/Google Antigravity/_active/coach-cooz/15-final-package/06-cooz-flywheel-quickstart.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/coach-cooz/INDEX.md": 2
+  },
+  "skipped": [],
+  "version": 1
+}

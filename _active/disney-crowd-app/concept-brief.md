@@ -2,7 +2,7 @@
 
 **One-liner:** A weather app for Disneyland. Open it, get a verdict — "Today's a 2. Go." — and a 10-day crowd forecast built for people who live 20 minutes away, not 2,000 miles.
 
-**Status:** Concept validation. Demo: `demo.html`. Risks: `RISKS.md`.
+**Status:** Concept validation. Demo: `90-exports/demo.html`. Risks: `RISKS.md`.
 
 ---
 

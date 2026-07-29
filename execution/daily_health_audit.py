@@ -44,6 +44,18 @@ def _run(args: list[str], timeout: int = 600) -> tuple[int, str]:
 def main() -> int:
     report = {"timestamp": datetime.now().isoformat()}
 
+    # Regenerate PROJECTS.md FIRST so self_heal's org_drift detector reads a fresh
+    # index rather than yesterday's. This is the deterministic backstop for
+    # organization: session-close can be skipped, but the 06:00 job cannot.
+    rc, out = _run([str(ROOT / "execution" / "projects_index.py"), "sync"])
+    report["projects_index"] = {"exit": rc, "out": out.strip()[:200]}
+
+    # Wide catch-up sweep. Session-close runs a bounded window to stay inside its
+    # 60s budget; this one has the full timeout, so files that missed the session
+    # window get filed here instead of staying invisible forever.
+    rc, out = _run([str(ROOT / "execution" / "project_filer.py"), "sweep"])
+    report["artifact_sweep"] = {"exit": rc, "out": out.strip()[-200:]}
+
     rc, out = _run([str(ROOT / "execution" / "self_heal.py"), "report", "--json"])
     try:
         rows = json.loads(out)
@@ -66,7 +78,9 @@ def main() -> int:
     print(json.dumps({"daily_health_audit": report["timestamp"],
                       "findings": report["self_heal"]["findings"],
                       "wiring": drain.get("coverage") or drain.get("error", "?"),
-                      "orphans": drain.get("orphans_total")}))
+                      "orphans": drain.get("orphans_total"),
+                      "projects_index": report["projects_index"]["exit"],
+                      "artifact_sweep": report["artifact_sweep"]["exit"]}))
     return 0
 
 

@@ -23,8 +23,8 @@ A **$7 digital product** (with **$47-$97 upsell**) built around intermittent fas
 
 | File | What It Contains |
 |------|-----------------|
-| [landing_page_copy.md](file:///Users/farricecain/Google%20Antigravity/projects/Kens_Fasting_Digital_Product/landing_page_copy.md) | **Full sales page copy** — VSL lead, mechanism reveal ("Metabolic Switch"), fascination bullets, $7 offer with guarantee, and $37 order bump |
-| [instagram_content_strategy.md](file:///Users/farricecain/Google%20Antigravity/projects/Kens_Fasting_Digital_Product/instagram_content_strategy.md) | **"The Fasting Executive" IG strategy** — city map architecture, 3 content pillars (Myth-Buster Reels, Blueprint Carousels, Lifestyle Proof Stories), 30-day launch sprint calendar |
+| [landing_page_copy.md](file:///Users/farricecain/Google%20Antigravity/projects/Kens_Fasting_Digital_Product/04-deliverables/landing_page_copy.md) | **Full sales page copy** — VSL lead, mechanism reveal ("Metabolic Switch"), fascination bullets, $7 offer with guarantee, and $37 order bump |
+| [instagram_content_strategy.md](file:///Users/farricecain/Google%20Antigravity/projects/Kens_Fasting_Digital_Product/04-deliverables/instagram_content_strategy.md) | **"The Fasting Executive" IG strategy** — city map architecture, 3 content pillars (Myth-Buster Reels, Blueprint Carousels, Lifestyle Proof Stories), 30-day launch sprint calendar |
 
 ### Swarm Research — [swarm_research/](file:///Users/farricecain/Google%20Antigravity/projects/Ken%27s%20Fasting%20Digital%20Product/swarm_research/)
 

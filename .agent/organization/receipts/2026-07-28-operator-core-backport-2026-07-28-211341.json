@@ -1,0 +1,29 @@
+{
+  "applied_at": "2026-07-29T04:13:41+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/operator-core-backport/baseline-routing-2026-06-22.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/operator-core-backport/04-deliverables/baseline-routing-2026-06-22.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/operator-core-backport/baseline-routing-2026-06-22.md"
+  ],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/operator-core-backport/codex-to-google-parity-manifest.json",
+      "reason": "referenced from control-plane file: execution/archive/google_operator_core_parity_manifest.py"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/operator-core-backport/codex-to-google-parity-manifest.md",
+      "reason": "referenced from control-plane file: execution/archive/google_operator_core_parity_manifest.py"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/_active/operator-core-backport",
+  "project_slug": "operator-core-backport",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {},
+  "skipped": [],
+  "version": 1
+}

@@ -58,7 +58,7 @@ Every output is filtered through the Cooz Voice Profile (`03-cooz-voice-profile.
 
 Before Cooz sends his first voice memo, test the flywheel on EXISTING material. This is the Week 0 validation step.
 
-**Test input**: `_active/coach-cooz/09-latest-context-april-2026.md`
+**Test input**: `_active/coach-cooz/04-deliverables/09-latest-context-april-2026.md`
 
 This is already a voice memo transcript from Cooz (April 2026). Use it as the test input. Run `/cooz-flywheel 09-latest-context-april-2026.md` and see what comes out.
 

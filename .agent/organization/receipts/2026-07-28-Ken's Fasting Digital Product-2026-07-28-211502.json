@@ -1,0 +1,27 @@
+{
+  "applied_at": "2026-07-29T04:15:02+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/Ken's Fasting Digital Product/fasting_product_and_upsell_strategy.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/Ken's Fasting Digital Product/04-deliverables/fasting_product_and_upsell_strategy.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/Ken's Fasting Digital Product/fasting_sprint_plan.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/Ken's Fasting Digital Product/04-deliverables/fasting_sprint_plan.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/projects/Ken's Fasting Digital Product/fasting_product_and_upsell_strategy.md",
+    "/Users/farricecain/Google Antigravity/projects/Ken's Fasting Digital Product/fasting_sprint_plan.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/projects/Ken's Fasting Digital Product",
+  "project_slug": "Ken's Fasting Digital Product",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/brain/f0054a93-478e-4c9f-b2a5-77da0169f04d/claude_code_prompt.md": 2
+  },
+  "skipped": [],
+  "version": 1
+}

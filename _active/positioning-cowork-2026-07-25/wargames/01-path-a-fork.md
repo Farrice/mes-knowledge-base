@@ -1,7 +1,7 @@
 # Wargame 01 — The Path A Fork
 
 **Fought:** 2026-07-25 · **Method:** Mark Kashef Wargame OS (`/wargame-run`)
-**Inputs fought against:** `strategy_briefs/2026-07-07-path-a-proof-of-work-heavy.md` (8-lens heavy run, 6-claim ledger) × `_active/positioning-cowork-2026-07-25/CLAUDE-CODE-HANDOFF.md` (Diandra arsenal, Answer-Market Fit)
+**Inputs fought against:** `strategy_briefs/2026-07-07-path-a-proof-of-work-heavy.md` (8-lens heavy run, 6-claim ledger) × `_active/positioning-cowork-2026-07-25/04-deliverables/CLAUDE-CODE-HANDOFF.md` (Diandra arsenal, Answer-Market Fit)
 **Executor assumption:** Farrice, solo, ~2 focused hours/day around a toddler, $0 paid APIs, 18 days left on the sprint clock.
 
 ---

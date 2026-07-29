@@ -63,16 +63,40 @@ def main() -> int:
         if stamp.get("entry") != "04-deliverables/x.md":
             failures.append(f"read_stamp did not recover entry: got {stamp!r}")
 
-    # 4. A deeper INDEX.md must still be guarded (no blanket exemption).
+    # 4. The path exemption must be narrow: a nested INDEX.md carrying NON-canon
+    #    metadata is still guarded. (Canon-vocabulary frontmatter is legitimately
+    #    allowed at any depth — that's is_canon_frontmatter's job, tested below —
+    #    so this fixture must use real document metadata to probe the path rule.)
+    polluted = "---\nauthor: Someone\ndate: 2026-01-01\ndomain: Brand\n---\n\n# Doc\n"
     with tempfile.TemporaryDirectory() as tmp:
         deep = Path(tmp) / "_active" / "fixture-project" / "sub" / "INDEX.md"
         deep.parent.mkdir(parents=True)
-        deep.write_text(STAMP, encoding="utf-8")
+        deep.write_text(polluted, encoding="utf-8")
         if not guard.scan_paths([deep]):
             failures.append(
-                "a nested INDEX.md was NOT flagged — the exemption is too broad "
-                "and real metadata pollution can hide under the filename"
+                "a nested INDEX.md with document metadata was NOT flagged — the "
+                "path exemption is too broad and pollution can hide under the filename"
             )
+
+    # 5. Canon-layer routing frontmatter survives anywhere (it is how a stale doc
+    #    stops winning greps), but a block mixing canon keys with real metadata,
+    #    or carrying a bogus status, must still be flagged.
+    with tempfile.TemporaryDirectory() as tmp:
+        base = Path(tmp) / "_active" / "fixture-project" / "02-research"
+        base.mkdir(parents=True)
+        for name, body, want_flagged in (
+            ("canon.md", "---\nstatus: superseded\nsuperseded_by: x.md\n---\n\n# D\n", False),
+            ("mixed.md", "---\nstatus: superseded\nauthor: Someone\n---\n\n# D\n", True),
+            ("bogus.md", "---\nstatus: not-a-real-status\n---\n\n# D\n", True),
+        ):
+            f = base / name
+            f.write_text(body, encoding="utf-8")
+            flagged = bool(guard.scan_paths([f]))
+            if flagged != want_flagged:
+                failures.append(
+                    f"canon frontmatter check wrong for {name}: flagged={flagged}, "
+                    f"expected {want_flagged}"
+                )
 
     if failures:
         print("Projects index verification FAILED")

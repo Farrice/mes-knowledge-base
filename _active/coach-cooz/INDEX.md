@@ -29,7 +29,7 @@
 | `02-source-docs/` | 8 Tenets Framework, Voice Guide, 4-expert avatar swarm v2 dossiers | CURRENT — the swarm v2 outputs are the live ICP intelligence |
 | `03-research/` | WS1, WS1.5, WS1.6 research (voice validation, Apify data, market reality), Perplexity findings | CURRENT — research data still valid, referenced throughout |
 | `07-client-artifacts-pdfs/` | 50+ PDFs from all phases (Aug 2025 through 2026). Sales scripts, brand docs, business plans. | HISTORICAL — not updated, not current strategy |
-| `09-latest-context-april-2026.md` | Cooz voice memos + text messages from early April 2026 | CURRENT — Cooz's own words and current state |
+| `04-deliverables/09-latest-context-april-2026.md` | Cooz voice memos + text messages from early April 2026 | CURRENT — Cooz's own words and current state |
 
 ### Dead work (do not use for current strategy)
 
@@ -101,6 +101,6 @@ The content generation workflow for Cooz is at `.agent/workflows/cooz-flywheel.m
 - `13-pmf-investigation/` → current, reference
 - `02-source-docs/` → current (8 Tenets, Voice Guide, avatar-swarm-v2)
 - `03-research/` → current (research data)
-- `09-latest-context-april-2026.md` → current (Cooz's own words)
+- `04-deliverables/09-latest-context-april-2026.md` → current (Cooz's own words)
 - `_DEPRECATED/` → dead. Do not use for current strategy.
 - Everything else → check the INDEX (this file) first.

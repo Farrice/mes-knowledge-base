@@ -54,6 +54,12 @@ MACHINE_READABLE_PARTS = {
     "parallax-packages",
 }
 
+# Canon-layer routing vocabulary (execution/canon_audit.py +
+# execution/hooks/superseded_read_guard.py). Frontmatter made of ONLY these keys,
+# carrying a real canon status, is routing metadata and is allowed to stay visible.
+CANON_KEYS = {"status", "superseded_by", "supersedes", "entry"}
+CANON_STATUSES = {"canonical", "draft", "superseded", "archived", "active", "parked", "done"}
+
 VISIBLE_METADATA_KEYS = {
     "artifact",
     "artifact type",
@@ -252,6 +258,31 @@ def issue_for(path: Path, kind: str, line: int, reason: str, metadata: dict[str,
     }
 
 
+def is_canon_frontmatter(metadata: dict[str, str]) -> bool:
+    """Canon-layer routing frontmatter, not document metadata.
+
+    `status: canonical|draft|superseded|archived` (+ `superseded_by`/`supersedes`)
+    is consumed by execution/canon_audit.py and by the
+    execution/hooks/superseded_read_guard.py PostToolUse hook — it is how a stale
+    doc stops winning greps. This module's own docstring already allows "Markdown
+    surfaces that require frontmatter for routing or parsing"; this is one.
+
+    Narrow by construction: the block must contain a canon `status:` AND carry
+    nothing but canon keys. A doc that also declares `author:`/`date:` is still
+    flagged, so real metadata pollution cannot hide behind a status line.
+    """
+    if not metadata:
+        return False
+    # normalize_key strips underscores (superseded_by -> supersededby), so the
+    # canon vocabulary has to be normalized on both sides of the comparison.
+    allowed = {normalize_key(k) for k in CANON_KEYS}
+    keys = {normalize_key(k) for k in metadata}
+    if not keys or not keys.issubset(allowed):
+        return False
+    status = (metadata.get("status") or metadata.get("Status") or "").strip().lower()
+    return status in CANON_STATUSES
+
+
 def scan_file(path: Path) -> list[dict[str, Any]]:
     if not is_readable_candidate(path):
         return []
@@ -265,17 +296,23 @@ def scan_file(path: Path) -> list[dict[str, Any]]:
     end = frontmatter_end(lines)
     if end is not None:
         metadata = parse_key_values(lines[1:end])
-        issues.append(
-            issue_for(
-                path,
-                "leading-frontmatter",
-                1,
-                "Human-facing Markdown must not start with visible YAML frontmatter; move metadata to a sidecar .metadata.json file.",
-                metadata,
+        if not is_canon_frontmatter(metadata):
+            issues.append(
+                issue_for(
+                    path,
+                    "leading-frontmatter",
+                    1,
+                    "Human-facing Markdown must not start with visible YAML frontmatter; move metadata to a sidecar .metadata.json file.",
+                    metadata,
+                )
             )
-        )
 
     indexes = top_key_value_indexes(lines)
+    if indexes:
+        # Lines inside an allowed canon frontmatter block are that block, not a
+        # second violation — don't report the same stamp twice.
+        if end is not None and is_canon_frontmatter(parse_key_values(lines[1:end])):
+            indexes = [i for i in indexes if i > end]
     if indexes:
         metadata = parse_key_values([lines[index] for index in indexes])
         issues.append(

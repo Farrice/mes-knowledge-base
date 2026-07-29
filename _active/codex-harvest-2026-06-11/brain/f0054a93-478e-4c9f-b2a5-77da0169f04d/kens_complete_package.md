@@ -445,7 +445,7 @@ Follow the 30-Day Launch Sprint in Section 6. Start with Myth-Buster Reels (Pill
 *Source files in workspace:*
 - *[fasting_product_and_upsell_strategy.md](file:///Users/farricecain/Google%20Antigravity/projects/Ken%27s%20Fasting%20Digital%20Product/fasting_product_and_upsell_strategy.md)*
 - *[fasting_sprint_plan.md](file:///Users/farricecain/Google%20Antigravity/projects/Ken%27s%20Fasting%20Digital%20Product/fasting_sprint_plan.md)*
-- *[landing_page_copy.md](file:///Users/farricecain/Google%20Antigravity/projects/Kens_Fasting_Digital_Product/landing_page_copy.md)*
-- *[instagram_content_strategy.md](file:///Users/farricecain/Google%20Antigravity/projects/Kens_Fasting_Digital_Product/instagram_content_strategy.md)*
+- *[landing_page_copy.md](file:///Users/farricecain/Google%20Antigravity/projects/Kens_Fasting_Digital_Product/04-deliverables/landing_page_copy.md)*
+- *[instagram_content_strategy.md](file:///Users/farricecain/Google%20Antigravity/projects/Kens_Fasting_Digital_Product/04-deliverables/instagram_content_strategy.md)*
 - *[swarm_research/synthesis.md](file:///Users/farricecain/Google%20Antigravity/projects/Ken%27s%20Fasting%20Digital%20Product/swarm_research/synthesis.md)*
 - *[Trend_Report_Intermittent_Fasting.md](file:///Users/farricecain/Google%20Antigravity/strategy_briefs/Trend_Report_Intermittent_Fasting.md)*

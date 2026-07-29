@@ -21,10 +21,10 @@ I've built a comprehensive digital product strategy, content plan, and launch ki
 
 **Supporting Source Files (pull any additional detail from these):**
 ```
-/Users/farricecain/Google Antigravity/projects/Ken's Fasting Digital Product/fasting_product_and_upsell_strategy.md
-/Users/farricecain/Google Antigravity/projects/Ken's Fasting Digital Product/fasting_sprint_plan.md
-/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product/landing_page_copy.md
-/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product/instagram_content_strategy.md
+/Users/farricecain/Google Antigravity/projects/Ken's Fasting Digital Product/04-deliverables/fasting_product_and_upsell_strategy.md
+/Users/farricecain/Google Antigravity/projects/Ken's Fasting Digital Product/04-deliverables/fasting_sprint_plan.md
+/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product/04-deliverables/landing_page_copy.md
+/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product/04-deliverables/instagram_content_strategy.md
 /Users/farricecain/Google Antigravity/projects/Ken's Fasting Digital Product/swarm_research/synthesis.md
 /Users/farricecain/Google Antigravity/strategy_briefs/Trend_Report_Intermittent_Fasting.md
 ```

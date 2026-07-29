@@ -1,0 +1,31 @@
+{
+  "applied_at": "2026-07-29T04:12:14+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/codex-repeatability/session-brief-v4-high-taste-os-2026-06-24.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/codex-repeatability/04-deliverables/session-brief-v4-high-taste-os-2026-06-24.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/codex-repeatability/session-brief-v4-high-taste-os-2026-06-24.md"
+  ],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/codex-repeatability/high-taste-os-smoke-practitioner-2026-06-23.md",
+      "reason": "referenced from control-plane file: execution/verify_high_taste_os.py"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/codex-repeatability/v4-high-taste-output-os.md",
+      "reason": "referenced from control-plane file: .agent/workflows/high-taste-writing-os.md"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/_active/codex-repeatability",
+  "project_slug": "codex-repeatability",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-06-24-brief.md": 1
+  },
+  "skipped": [],
+  "version": 1
+}

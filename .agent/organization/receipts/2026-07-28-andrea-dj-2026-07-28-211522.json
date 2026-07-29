@@ -1,0 +1,25 @@
+{
+  "applied_at": "2026-07-29T04:15:22+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/andrea-dj/Resonance-Designer-Kit-July18.zip",
+      "to": "/Users/farricecain/Google Antigravity/projects/andrea-dj/04-deliverables/Resonance-Designer-Kit-July18.zip"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/projects/andrea-dj/Resonance-Designer-Kit-July18.zip"
+  ],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/projects/andrea-dj/state.yaml",
+      "reason": "referenced from control-plane file: .agent/workflows/avatar-machine.md"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/projects/andrea-dj",
+  "project_slug": "andrea-dj",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {},
+  "skipped": [],
+  "version": 1
+}

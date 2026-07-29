@@ -43,7 +43,7 @@ Before applying frameworks, the architecture is grounded in real numbers from re
 | **Voxer-only coaching examples** | Wellness Voxer Plan | $397/mo | Mon–Fri async voice/text only, no calls | entrepreneurshq.com/voxer-coaching |
 | Voxer-only examples | Body Reset Week | $197 one-time | 1-week async sprint | Same |
 | **High-ticket coaching industry benchmark** | "Entrepreneurs, executives, high performers will pay" | **$3K–$10K+** per package | Varies | Multiple sources |
-| **Cooz (current stated offer — April 2026 context)** | 90-Day Resurrection Protocol | $5K (down from $10K aspiration), $4K with podcast listener credit | 13 weekly calls, daily Voxer, TrueCoach programming, weekly photos/metrics, 8 Tenets curriculum | `_active/coach-cooz/09-latest-context-april-2026.md` + `OFFER_2_THE_REBUILD_10K_REVISED_V2.md` |
+| **Cooz (current stated offer — April 2026 context)** | 90-Day Resurrection Protocol | $5K (down from $10K aspiration), $4K with podcast listener credit | 13 weekly calls, daily Voxer, TrueCoach programming, weekly photos/metrics, 8 Tenets curriculum | `_active/coach-cooz/04-deliverables/09-latest-context-april-2026.md` + `OFFER_2_THE_REBUILD_10K_REVISED_V2.md` |
 
 **Key observation from the data:** The "body coaching" category has a sharp price cliff. Commodity 1:1 caps at ~$600/mo (Cody McBroom is the best-known operator at that tier). Premium jumps to $2K–$8K/mo and goes dark (application-only, no public pricing). The gap between $600/mo and $2K+/mo is where the entire premium-at-scale architecture has to live. Below $600 is a grinder. Above $2K is where solopreneur sanity and profit live.
 
@@ -1076,7 +1076,7 @@ Every framework application in this document cites the specific skill file and p
 - Voxer coaching examples: `entrepreneurshq.com/voxer-coaching` (Body Reset Week $197, Wellness Voxer Plan $397/mo)
 - TrueCoach vs Everfit vs Trainerize 2026 comparison: `fitbudd.com/insights/everfit-vs-trainerize-vs-truecoach`
 - Priestley KPI book: `keypersonofinfluence.com` + Amazon
-- Cooz's April 2026 context: `_active/coach-cooz/09-latest-context-april-2026.md`
+- Cooz's April 2026 context: `_active/coach-cooz/04-deliverables/09-latest-context-april-2026.md`
 - Cooz's existing offers: `_active/coach-cooz/05-offers-and-frameworks/OFFER_2_THE_REBUILD_10K_REVISED_V2.md` + `OFFER_1_THE_INTENSIVE_4997_REVISED_V2.md`
 
 ---

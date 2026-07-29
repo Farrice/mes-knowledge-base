@@ -230,7 +230,7 @@ This is the central insight. **Bringing six T-shirts to a dance is the cultural 
 ## Source Inventory
 
 **Internal (where I started)**:
-- `_active/josh-dancewear-brand/brand-identity-one-sheet.md` (existing brand spec)
+- `_active/josh-dancewear-brand/04-deliverables/brand-identity-one-sheet.md` (existing brand spec)
 - `_active/josh-dancewear-brand/research/icp-profile.md` (commercial/Broadway/ballet ICP — does not cover swing)
 - `_active/josh-dancewear-brand/visuals/swing/07-12.png` (the failed prior visuals — not opened, but noted as the failure mode being corrected)
 

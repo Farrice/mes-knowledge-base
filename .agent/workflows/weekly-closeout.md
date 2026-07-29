@@ -37,6 +37,8 @@ python3 execution/log_performance.py baseline
 - **Loop self-check**: `python3 execution/health_metrics.py verify` — a dead health loop hides every other problem.
 - **Wiring deep pass** (Model-Dialect Adaptation Layer, 2026-07-28): `python3 execution/wiring_audit.py drain --batch 400` then `status` — the weekly deeper sweep over the firing-path index (the daily 06:00 audit maintains ~150/day). ORPHAN assets are a wire-it-or-archive-it decision with Farrice; the audit itself never deletes or blocks. New orphans since last week = something shipped unwired — check `docs/solutions/2026-07-21-wired-but-never-loaded-prompts.md` before hand-wiring.
 
+- **Org drift** (Global Org Sweep, 2026-07-28): `python3 execution/projects_index.py check` — contradictions only, never a list of unstamped projects. Four kinds: a project stamped `active` but cold >45d, stamped `done` but touched <14d, a project with **no entry point** (`missing_index`), and a **dual-taxonomy** collision (two sibling dirs on one canonical prefix, e.g. `03-content` + `03-launch`). Fix for the first three is a `status:` stamp in that project's own `INDEX.md`; the fourth is a filing decision. Also listed: files the session-close sweep **deferred** for judgment — file them with `project_filer.py plan --project "<abs dir>"`. The daily 06:00 job already regenerated `PROJECTS.md`; nothing here blocks.
+
 ### 2. Revenue outcome drain (~10 min, 5 questions max)
 
 ```bash

@@ -21,7 +21,7 @@ Changes (all verified):
 - `execution/memory_facade.py` — added `episodic` source (read-only project-scoped LIKE on `exchanges`, never `vec_exchanges`). Query: `python3 execution/memory_facade.py "<topic>" --sources episodic`. Now part of default `ALL_SOURCES`. ~0.43s.
 - `execution/episodic_ingest.py` (NEW) — L1→L2 bridge: session summaries → sovereign episodic tier (`preview` default / `run`), idempotent, PII-redacted, deterministic (no LLM at ingest). 15 sessions already ingested. Complete the loop with `memory_embed.py` → `memory_distill.py preview` → `memory_review.py` (human gate; nothing auto-promotes).
 - `execution/notion_api.py` — added `session_memory` DB id + `push_session_memory()` (allow-listed: Title/Date/Mode/Key-Decisions/Pickup only, never raw transcripts) + `session-memory` CLI subcommand.
-- `_active/memory-bakeoff/bake-off-protocol.md` (NEW) — locked decision rule; incumbent episodic-memory wins; hard DQ for ungated paid calls. Fast-path (adopt incumbent directly) recommended.
+- `_active/memory-bakeoff/04-deliverables/bake-off-protocol.md` (NEW) — locked decision rule; incumbent episodic-memory wins; hard DQ for ungated paid calls. Fast-path (adopt incumbent directly) recommended.
 - `CLAUDE.md` — facade now spans 5 stores incl. episodic; added the 3-layer memory-stack summary + Knowledge Sources episodic entry.
 
 ### Thread B — Notion Intellectual Library (DEPLOYED + POPULATED)
@@ -38,7 +38,7 @@ Hub: https://app.notion.com/p/78a6e794605947a7b864c9a358e87d92
 - Build scripts live in the session scratchpad (`build_library.py`, `lib_full.json`, `lib_ids.json`) — re-runnable to EXTEND the Library with more experts (matched by name; appends).
 
 ## Remaining priority (next session)
-1. **Commit** the uncommitted work (offered at end of /end-session): `execution/memory_facade.py`, `execution/notion_api.py`, `execution/episodic_ingest.py`, `CLAUDE.md`, `.env`, `_active/memory-bakeoff/`, `_active/notion-intellectual-library/DEPLOY-RUNBOOK.md`.
+1. **Commit** the uncommitted work (offered at end of /end-session): `execution/memory_facade.py`, `execution/notion_api.py`, `execution/episodic_ingest.py`, `CLAUDE.md`, `.env`, `_active/memory-bakeoff/`, `_active/notion-intellectual-library/04-deliverables/DEPLOY-RUNBOOK.md`.
 2. (Optional) Extend the Library: more of the 223 `genius.md` experts; draw `Linked Entries` cross-connections; wire grounded advisors (Simon Prompt 2) now that there's substance for filter/refusal tests.
 3. Run the weekly memory loop: `episodic_ingest.py run` → `memory_embed.py` → `memory_distill.py preview` → `memory_review.py`.
 
@@ -51,4 +51,4 @@ Hub: https://app.notion.com/p/78a6e794605947a7b864c9a358e87d92
 ## Core context to load
 - Plan: `/Users/farricecain/.claude/plans/https-www-youtube-com-watch-v-4imza1omck-delightful-hennessy.md`
 - Memory: `project_three-layer-memory-system.md`, `reference_notion-ai-database-integration-gotcha.md` (in the project auto-memory dir)
-- `_active/notion-intellectual-library/DEPLOY-RUNBOOK.md`
+- `_active/notion-intellectual-library/04-deliverables/DEPLOY-RUNBOOK.md`

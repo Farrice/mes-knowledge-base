@@ -1,5 +1,149 @@
 {
   "aliases": {
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260521120512-test.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260521120512-test.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260522091556-atomize-parallax-04.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260522091556-atomize-parallax-04.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260522091627-system-audit.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260522091627-system-audit.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260522091704-li-memory-collapse.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260522091704-li-memory-collapse.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260522091750-research-long-context.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260522091750-research-long-context.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260522161358-polish-jj-variants.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260522161358-polish-jj-variants.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260523202801-postfix-validation.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260523202801-postfix-validation.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260523202832-bug2-verify.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260523202832-bug2-verify.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260525-supercomputer-vs-higgs-perplexity.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260525-supercomputer-vs-higgs-perplexity.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260525053411-polish-jj-variants-v2.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260525053411-polish-jj-variants-v2.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260525053839-atomize-parallax.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260525053839-atomize-parallax.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260525054045-system-audit.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260525054045-system-audit.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260525054226-li-memory-collapse.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260525054226-li-memory-collapse.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260525054353-research-long-context-v2.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260525054353-research-long-context-v2.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260611-disney-crowd-forecast.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260611-disney-crowd-forecast.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-20260618-andrea-ticketing.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-20260618-andrea-ticketing.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-diandra-seqfix.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-diandra-seqfix.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-ap-test-001.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-ap-test-001.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-back-compat-213303.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-back-compat-213303.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/_ledgers/autopilot-test-phase-b-213249.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/_ledgers/02-research/autopilot-test-phase-b-213249.md",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:11:14+00:00",
+      "project": "_ledgers"
+    },
+    "/Users/farricecain/Google Antigravity/_active/alignment-architect-2026-07-07/WEEK-1.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/alignment-architect-2026-07-07/04-deliverables/WEEK-1.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:11:47+00:00",
+      "project": "alignment-architect-2026-07-07"
+    },
+    "/Users/farricecain/Google Antigravity/_active/chris-restaurants/00-mission-brief.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/chris-restaurants/04-deliverables/00-mission-brief.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:11:54+00:00",
+      "project": "chris-restaurants"
+    },
+    "/Users/farricecain/Google Antigravity/_active/chris-restaurants/Package-A-Menu-Intelligence-Report.html": {
+      "current": "/Users/farricecain/Google Antigravity/_active/chris-restaurants/90-exports/Package-A-Menu-Intelligence-Report.html",
+      "lifecycle": "export",
+      "moved_at": "2026-07-29T04:11:54+00:00",
+      "project": "chris-restaurants"
+    },
+    "/Users/farricecain/Google Antigravity/_active/coach-cooz/09-latest-context-april-2026.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/coach-cooz/04-deliverables/09-latest-context-april-2026.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:12:00+00:00",
+      "project": "coach-cooz"
+    },
     "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/CODEX_MIGRATION.md": {
       "current": "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/01-source/CODEX_MIGRATION.md",
       "lifecycle": "deliverable",
@@ -35,6 +179,12 @@
       "lifecycle": "source",
       "moved_at": "2026-07-09T03:10:52+00:00",
       "project": "codex-harvest-2026-06-11"
+    },
+    "/Users/farricecain/Google Antigravity/_active/codex-repeatability/session-brief-v4-high-taste-os-2026-06-24.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/codex-repeatability/04-deliverables/session-brief-v4-high-taste-os-2026-06-24.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:12:14+00:00",
+      "project": "codex-repeatability"
     },
     "/Users/farricecain/Google Antigravity/_active/content-system-audit/dm-scripts.md": {
       "current": "/Users/farricecain/Google Antigravity/_active/content-system-audit/04-deliverables/dm-scripts.md",
@@ -77,6 +227,12 @@
       "lifecycle": "system",
       "moved_at": "2026-07-09T03:12:08+00:00",
       "project": "content-system-audit"
+    },
+    "/Users/farricecain/Google Antigravity/_active/disney-crowd-app/demo.html": {
+      "current": "/Users/farricecain/Google Antigravity/_active/disney-crowd-app/90-exports/demo.html",
+      "lifecycle": "export",
+      "moved_at": "2026-07-29T04:12:23+00:00",
+      "project": "disney-crowd-app"
     },
     "/Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/00-farrice-voice-and-assets.md": {
       "current": "/Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/04-deliverables/00-farrice-voice-and-assets.md",
@@ -234,6 +390,36 @@
       "moved_at": "2026-07-09T02:50:49+00:00",
       "project": "dwa-threads-engine-2026-07-05"
     },
+    "/Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/README-INTEL.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/04-deliverables/README-INTEL.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:12:31+00:00",
+      "project": "dwa-threads-engine-2026-07-05"
+    },
+    "/Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/README-VERDICT.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/dwa-threads-engine-2026-07-05/04-deliverables/README-VERDICT.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:12:31+00:00",
+      "project": "dwa-threads-engine-2026-07-05"
+    },
+    "/Users/farricecain/Google Antigravity/_active/elevation-track/E2-census-report.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/elevation-track/04-deliverables/E2-census-report.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:12:47+00:00",
+      "project": "elevation-track"
+    },
+    "/Users/farricecain/Google Antigravity/_active/elevation-track/E5-harvest-roadmap.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/elevation-track/04-deliverables/E5-harvest-roadmap.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:12:47+00:00",
+      "project": "elevation-track"
+    },
+    "/Users/farricecain/Google Antigravity/_active/farrice-final-10/SEED.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/farrice-final-10/04-deliverables/SEED.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:12:54+00:00",
+      "project": "farrice-final-10"
+    },
     "/Users/farricecain/Google Antigravity/_active/farrice-teach-grow-rich/00-day1-build-sequence.md": {
       "current": "/Users/farricecain/Google Antigravity/_active/farrice-teach-grow-rich/03-working-drafts/00-day1-build-sequence.md",
       "lifecycle": "working-draft",
@@ -264,6 +450,18 @@
       "moved_at": "2026-07-09T03:13:11+00:00",
       "project": "farrice-teach-grow-rich"
     },
+    "/Users/farricecain/Google Antigravity/_active/harness-apex-2026-07-07/WAVE_0_COMPLETE.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/harness-apex-2026-07-07/04-deliverables/WAVE_0_COMPLETE.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:13:04+00:00",
+      "project": "harness-apex-2026-07-07"
+    },
+    "/Users/farricecain/Google Antigravity/_active/harness-apex-2026-07-07/WAVE_0_IMPLEMENTATION.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/harness-apex-2026-07-07/04-deliverables/WAVE_0_IMPLEMENTATION.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:13:04+00:00",
+      "project": "harness-apex-2026-07-07"
+    },
     "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/CLIENT_ACQUISITION_OFFER.md": {
       "current": "/Users/farricecain/Google Antigravity/_active/health-performance-ip-library/04-deliverables/CLIENT_ACQUISITION_OFFER.md",
       "lifecycle": "deliverable",
@@ -281,6 +479,18 @@
       "lifecycle": "deliverable",
       "moved_at": "2026-07-09T03:13:20+00:00",
       "project": "health-performance-ip-library"
+    },
+    "/Users/farricecain/Google Antigravity/_active/jen-listings/sky-format-jen-reacts.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/jen-listings/04-deliverables/sky-format-jen-reacts.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:13:10+00:00",
+      "project": "jen-listings"
+    },
+    "/Users/farricecain/Google Antigravity/_active/josh-dancewear-brand/brand-identity-one-sheet.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/josh-dancewear-brand/04-deliverables/brand-identity-one-sheet.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:13:15+00:00",
+      "project": "josh-dancewear-brand"
     },
     "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/ARTWORK_BUILD_PROMPTS.md": {
       "current": "/Users/farricecain/Google Antigravity/_active/josh-swing-nerd-shirts-v1/04-deliverables/ARTWORK_BUILD_PROMPTS.md",
@@ -342,6 +552,12 @@
       "moved_at": "2026-07-09T15:04:18+00:00",
       "project": "linkedin-launch"
     },
+    "/Users/farricecain/Google Antigravity/_active/memory-bakeoff/bake-off-protocol.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/memory-bakeoff/04-deliverables/bake-off-protocol.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:09:50+00:00",
+      "project": "memory-bakeoff"
+    },
     "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/04-listing-copy.md": {
       "current": "/Users/farricecain/Google Antigravity/_active/mybpm-merch-os-run-1/04-deliverables/04-listing-copy.md",
       "lifecycle": "deliverable",
@@ -384,6 +600,36 @@
       "moved_at": "2026-07-09T03:10:41+00:00",
       "project": "mybpm-merch-os-run-1"
     },
+    "/Users/farricecain/Google Antigravity/_active/notion-intellectual-library/DEPLOY-RUNBOOK.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/notion-intellectual-library/04-deliverables/DEPLOY-RUNBOOK.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:13:27+00:00",
+      "project": "notion-intellectual-library"
+    },
+    "/Users/farricecain/Google Antigravity/_active/notion-intellectual-library/notion-ai-deployment-prompts.pdf": {
+      "current": "/Users/farricecain/Google Antigravity/_active/notion-intellectual-library/90-exports/notion-ai-deployment-prompts.pdf",
+      "lifecycle": "export",
+      "moved_at": "2026-07-29T04:13:27+00:00",
+      "project": "notion-intellectual-library"
+    },
+    "/Users/farricecain/Google Antigravity/_active/operator-core-backport/baseline-routing-2026-06-22.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/operator-core-backport/04-deliverables/baseline-routing-2026-06-22.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:13:41+00:00",
+      "project": "operator-core-backport"
+    },
+    "/Users/farricecain/Google Antigravity/_active/parallax-icp-offer/ASSET-INDEX.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/parallax-icp-offer/06-system/ASSET-INDEX.md",
+      "lifecycle": "system",
+      "moved_at": "2026-07-29T04:13:49+00:00",
+      "project": "parallax-icp-offer"
+    },
+    "/Users/farricecain/Google Antigravity/_active/parallax-icp-offer/EXECUTION-PACK.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/parallax-icp-offer/04-deliverables/EXECUTION-PACK.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:13:49+00:00",
+      "project": "parallax-icp-offer"
+    },
     "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/2026-07-01-FINAL-VERDICT-path-arbitration.md": {
       "current": "/Users/farricecain/Google Antigravity/_active/path-decision-2026-07-01/04-deliverables/2026-07-01-FINAL-VERDICT-path-arbitration.md",
       "lifecycle": "deliverable",
@@ -425,6 +671,30 @@
       "lifecycle": "research",
       "moved_at": "2026-07-09T03:13:02+00:00",
       "project": "path-decision-2026-07-01"
+    },
+    "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/PROTOCOL.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/04-deliverables/PROTOCOL.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:14:02+00:00",
+      "project": "platform-bakeoff"
+    },
+    "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/capability-matrix.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/04-deliverables/capability-matrix.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:14:02+00:00",
+      "project": "platform-bakeoff"
+    },
+    "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/scorecard.py": {
+      "current": "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/04-deliverables/scorecard.py",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:14:02+00:00",
+      "project": "platform-bakeoff"
+    },
+    "/Users/farricecain/Google Antigravity/_active/pmf-brief-2026-07-07/pmf-10-options-brief.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/pmf-brief-2026-07-07/04-deliverables/pmf-10-options-brief.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:14:10+00:00",
+      "project": "pmf-brief-2026-07-07"
     },
     "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/00-THESIS-AND-VERDICT.md": {
       "current": "/Users/farricecain/Google Antigravity/_active/pmf-offer-package-2026-07-05/02-research/00-THESIS-AND-VERDICT.md",
@@ -479,6 +749,54 @@
       "lifecycle": "deliverable",
       "moved_at": "2026-07-09T17:05:23+00:00",
       "project": "pmf-ofm-options-2026-07-07"
+    },
+    "/Users/farricecain/Google Antigravity/_active/positioning-cowork-2026-07-25/CLAUDE-CODE-HANDOFF.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/positioning-cowork-2026-07-25/04-deliverables/CLAUDE-CODE-HANDOFF.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:14:21+00:00",
+      "project": "positioning-cowork-2026-07-25"
+    },
+    "/Users/farricecain/Google Antigravity/_active/positioning-cowork-2026-07-25/DEPLOY-PROMPT.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/positioning-cowork-2026-07-25/04-deliverables/DEPLOY-PROMPT.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:14:21+00:00",
+      "project": "positioning-cowork-2026-07-25"
+    },
+    "/Users/farricecain/Google Antigravity/_active/positioning-cowork-2026-07-25/DIANDRA-ARSENAL-COMPLETE.md": {
+      "current": "/Users/farricecain/Google Antigravity/_active/positioning-cowork-2026-07-25/04-deliverables/DIANDRA-ARSENAL-COMPLETE.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:14:21+00:00",
+      "project": "positioning-cowork-2026-07-25"
+    },
+    "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/WAVE-3-FLEET-REPORT.json": {
+      "current": "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/01-source/WAVE-3-FLEET-REPORT.json",
+      "lifecycle": "source",
+      "moved_at": "2026-07-29T04:14:48+00:00",
+      "project": "prompt-renaissance"
+    },
+    "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/WAVE-6-FLEET-REPORT.json": {
+      "current": "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/01-source/WAVE-6-FLEET-REPORT.json",
+      "lifecycle": "source",
+      "moved_at": "2026-07-29T04:14:48+00:00",
+      "project": "prompt-renaissance"
+    },
+    "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/verify-input.json": {
+      "current": "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/01-source/verify-input.json",
+      "lifecycle": "source",
+      "moved_at": "2026-07-29T04:14:48+00:00",
+      "project": "prompt-renaissance"
+    },
+    "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/wave-3-complete.json": {
+      "current": "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/01-source/wave-3-complete.json",
+      "lifecycle": "source",
+      "moved_at": "2026-07-29T04:14:48+00:00",
+      "project": "prompt-renaissance"
+    },
+    "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/wave-3-tracking.json": {
+      "current": "/Users/farricecain/Google Antigravity/_active/prompt-renaissance/01-source/wave-3-tracking.json",
+      "lifecycle": "source",
+      "moved_at": "2026-07-29T04:14:48+00:00",
+      "project": "prompt-renaissance"
     },
     "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/repair-input.json": {
       "current": "/Users/farricecain/Google Antigravity/_active/prompt-wiring-os-2026-07-13/01-source/repair-input.json",
@@ -1260,6 +1578,36 @@
       "moved_at": "2026-07-09T03:22:21+00:00",
       "project": "deliverables"
     },
+    "/Users/farricecain/Google Antigravity/projects/Ken's Fasting Digital Product/fasting_product_and_upsell_strategy.md": {
+      "current": "/Users/farricecain/Google Antigravity/projects/Ken's Fasting Digital Product/04-deliverables/fasting_product_and_upsell_strategy.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:15:02+00:00",
+      "project": "Ken's Fasting Digital Product"
+    },
+    "/Users/farricecain/Google Antigravity/projects/Ken's Fasting Digital Product/fasting_sprint_plan.md": {
+      "current": "/Users/farricecain/Google Antigravity/projects/Ken's Fasting Digital Product/04-deliverables/fasting_sprint_plan.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:15:02+00:00",
+      "project": "Ken's Fasting Digital Product"
+    },
+    "/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product/instagram_content_strategy.md": {
+      "current": "/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product/04-deliverables/instagram_content_strategy.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:15:12+00:00",
+      "project": "Kens_Fasting_Digital_Product"
+    },
+    "/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product/landing_page_copy.md": {
+      "current": "/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product/04-deliverables/landing_page_copy.md",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:15:12+00:00",
+      "project": "Kens_Fasting_Digital_Product"
+    },
+    "/Users/farricecain/Google Antigravity/projects/andrea-dj/Resonance-Designer-Kit-July18.zip": {
+      "current": "/Users/farricecain/Google Antigravity/projects/andrea-dj/04-deliverables/Resonance-Designer-Kit-July18.zip",
+      "lifecycle": "deliverable",
+      "moved_at": "2026-07-29T04:15:22+00:00",
+      "project": "andrea-dj"
+    },
     "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/CMS_DEPLOYMENT_GUIDE.md": {
       "current": "/Users/farricecain/Google Antigravity/projects/farrice-creative-strategist-portfolio/04-deliverables/CMS_DEPLOYMENT_GUIDE.md",
       "lifecycle": "deliverable",
@@ -1349,6 +1697,54 @@
       "lifecycle": "unknown",
       "moved_at": "2026-07-09T03:27:53+00:00",
       "project": "farrice-creative-strategist-portfolio"
+    },
+    "/Users/farricecain/Google Antigravity/projects/farrice-website/script.js": {
+      "current": "/Users/farricecain/Google Antigravity/projects/farrice-website/03-working-drafts/script.js",
+      "lifecycle": "draft",
+      "moved_at": "2026-07-29T04:15:34+00:00",
+      "project": "farrice-website"
+    },
+    "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/constants.py": {
+      "current": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/02-research/constants.py",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:16:42+00:00",
+      "project": "prediction_market_arb"
+    },
+    "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/contract_matcher.py": {
+      "current": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/02-research/contract_matcher.py",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:16:42+00:00",
+      "project": "prediction_market_arb"
+    },
+    "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/ensemble.py": {
+      "current": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/02-research/ensemble.py",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:16:42+00:00",
+      "project": "prediction_market_arb"
+    },
+    "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/kalshi_client.py": {
+      "current": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/02-research/kalshi_client.py",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:16:42+00:00",
+      "project": "prediction_market_arb"
+    },
+    "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/models.py": {
+      "current": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/02-research/models.py",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:16:42+00:00",
+      "project": "prediction_market_arb"
+    },
+    "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/resilience.py": {
+      "current": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/02-research/resilience.py",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:16:42+00:00",
+      "project": "prediction_market_arb"
+    },
+    "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/sportsbook.py": {
+      "current": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/02-research/sportsbook.py",
+      "lifecycle": "research",
+      "moved_at": "2026-07-29T04:16:42+00:00",
+      "project": "prediction_market_arb"
     },
     "/Users/farricecain/Google Antigravity/projects/trendscale-trial/FACT-CHECK.md": {
       "current": "/Users/farricecain/Google Antigravity/projects/trendscale-trial/02-research/FACT-CHECK.md",
@@ -1501,6 +1897,6 @@
       "project": "proj-alias-test"
     }
   },
-  "updated_at": "2026-07-29T03:40:00+00:00",
+  "updated_at": "2026-07-29T04:18:47+00:00",
   "version": 1
 }

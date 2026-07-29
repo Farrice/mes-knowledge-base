@@ -1,0 +1,103 @@
+{
+  "applied_at": "2026-07-29T04:16:42+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/constants.py",
+      "to": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/02-research/constants.py"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/contract_matcher.py",
+      "to": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/02-research/contract_matcher.py"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/ensemble.py",
+      "to": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/02-research/ensemble.py"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/kalshi_client.py",
+      "to": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/02-research/kalshi_client.py"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/models.py",
+      "to": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/02-research/models.py"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/resilience.py",
+      "to": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/02-research/resilience.py"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/sportsbook.py",
+      "to": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/02-research/sportsbook.py"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/constants.py",
+    "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/contract_matcher.py",
+    "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/ensemble.py",
+    "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/kalshi_client.py",
+    "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/models.py",
+    "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/resilience.py",
+    "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/sportsbook.py"
+  ],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/__init__.py",
+      "reason": "referenced from control-plane file: execution/skill_router_hook.py"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/config.json",
+      "reason": "referenced from control-plane file: .agent/workflows/calibration-review.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/config.py",
+      "reason": "referenced from control-plane file: skills/nick-saraev-agentic-workflows/references/_legacy-prompts/crown_jewel_n25_batch_processing_architect.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/dashboard.py",
+      "reason": "referenced from control-plane file: .agent/workflows/pulse-board.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/market_selector.py",
+      "reason": "referenced from control-plane file: skills/prediction-market-ai-event-analysis/references/source-ledger.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/paper_trader.py",
+      "reason": "referenced from control-plane file: .agent/workflows/betting-edge.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/polymarket_client.py",
+      "reason": "referenced from control-plane file: execution/archive/polymarket_client.py"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/polymarket_ws.py",
+      "reason": "referenced from control-plane file: execution/archive/polymarket_ws.py"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/requirements.txt",
+      "reason": "referenced from control-plane file: CLAUDE.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/risk_manager.py",
+      "reason": "referenced from control-plane file: .agent/workflows/kill-switch-protocol.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/state.py",
+      "reason": "referenced from control-plane file: .agent/workflows/mission.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/strategy_orchestrator.py",
+      "reason": "referenced from control-plane file: execution/archive/strategy_orchestrator.py"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb/weather_data.py",
+      "reason": "referenced from control-plane file: execution/weather_data.py"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/projects/prediction_market_arb",
+  "project_slug": "prediction_market_arb",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {},
+  "skipped": [],
+  "version": 1
+}

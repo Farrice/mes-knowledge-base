@@ -14,7 +14,7 @@ pin: true
 
 ## ADDENDUM (same session, post-handoff)
 
-Both next-lane options were EXECUTED before close: **E5 roadmap done** (`_active/elevation-track/E5-harvest-roadmap.md` — 5 dedup-checked targets; #1 = claim-safe/regulatory health marketing, ZERO coverage in 338 skills vs Path A's literal definition = live liability, harvest first) and **score sweep done** (45 workflows — 5× the estimate — de-templated to `[evidence-based]`; convention centralized in `directives/feedback-ratchet.md`). Next session = the harvest wave itself, starting with target #1 via `/extract-forge`.
+Both next-lane options were EXECUTED before close: **E5 roadmap done** (`_active/elevation-track/04-deliverables/E5-harvest-roadmap.md` — 5 dedup-checked targets; #1 = claim-safe/regulatory health marketing, ZERO coverage in 338 skills vs Path A's literal definition = live liability, harvest first) and **score sweep done** (45 workflows — 5× the estimate — de-templated to `[evidence-based]`; convention centralized in `directives/feedback-ratchet.md`). Next session = the harvest wave itself, starting with target #1 via `/extract-forge`.
 
 ## Where things stand (one paragraph)
 

@@ -1,0 +1,32 @@
+{
+  "applied_at": "2026-07-29T04:13:04+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/harness-apex-2026-07-07/WAVE_0_COMPLETE.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/harness-apex-2026-07-07/04-deliverables/WAVE_0_COMPLETE.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/harness-apex-2026-07-07/WAVE_0_IMPLEMENTATION.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/harness-apex-2026-07-07/04-deliverables/WAVE_0_IMPLEMENTATION.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/harness-apex-2026-07-07/WAVE_0_COMPLETE.md",
+    "/Users/farricecain/Google Antigravity/_active/harness-apex-2026-07-07/WAVE_0_IMPLEMENTATION.md"
+  ],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/harness-apex-2026-07-07/PLAN.md",
+      "reason": "referenced from control-plane file: .agent/workflows/cooz-flywheel-v5.md"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/_active/harness-apex-2026-07-07",
+  "project_slug": "harness-apex-2026-07-07",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/.agent/sessions/observe-log.jsonl": 2
+  },
+  "skipped": [],
+  "version": 1
+}

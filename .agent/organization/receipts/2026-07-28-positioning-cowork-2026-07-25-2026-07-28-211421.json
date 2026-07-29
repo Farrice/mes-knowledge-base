@@ -1,0 +1,32 @@
+{
+  "applied_at": "2026-07-29T04:14:21+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/positioning-cowork-2026-07-25/CLAUDE-CODE-HANDOFF.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/positioning-cowork-2026-07-25/04-deliverables/CLAUDE-CODE-HANDOFF.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/positioning-cowork-2026-07-25/DEPLOY-PROMPT.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/positioning-cowork-2026-07-25/04-deliverables/DEPLOY-PROMPT.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/positioning-cowork-2026-07-25/DIANDRA-ARSENAL-COMPLETE.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/positioning-cowork-2026-07-25/04-deliverables/DIANDRA-ARSENAL-COMPLETE.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/positioning-cowork-2026-07-25/CLAUDE-CODE-HANDOFF.md",
+    "/Users/farricecain/Google Antigravity/_active/positioning-cowork-2026-07-25/DEPLOY-PROMPT.md",
+    "/Users/farricecain/Google Antigravity/_active/positioning-cowork-2026-07-25/DIANDRA-ARSENAL-COMPLETE.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/positioning-cowork-2026-07-25",
+  "project_slug": "positioning-cowork-2026-07-25",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/positioning-cowork-2026-07-25/wargames/01-path-a-fork.md": 1
+  },
+  "skipped": [],
+  "version": 1
+}

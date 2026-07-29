@@ -1,0 +1,40 @@
+{
+  "applied_at": "2026-07-29T04:12:47+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/elevation-track/E2-census-report.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/elevation-track/04-deliverables/E2-census-report.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/elevation-track/E5-harvest-roadmap.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/elevation-track/04-deliverables/E5-harvest-roadmap.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/elevation-track/E2-census-report.md",
+    "/Users/farricecain/Google Antigravity/_active/elevation-track/E5-harvest-roadmap.md"
+  ],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/elevation-track/E1-factory-audit.md",
+      "reason": "referenced from control-plane file: directives/embodiment-standard.md"
+    },
+    {
+      "path": "/Users/farricecain/Google Antigravity/_active/elevation-track/E2-census.json",
+      "reason": "referenced from control-plane file: execution/skill_census.py"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/_active/elevation-track",
+  "project_slug": "elevation-track",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/.claude/projects/-Users-farricecain-Google-Antigravity/memory/project_system-audit-2026-07-02-raphael.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/handoffs/2026-07-02-elevation-track.md": 1,
+    "/Users/farricecain/Google Antigravity/.agent/sessions/observe-log.jsonl": 14,
+    "/Users/farricecain/Google Antigravity/_active/elevation-track/04-deliverables/E2-census-report.md": 2,
+    "/Users/farricecain/Google Antigravity/_active/elevation-track/INDEX.md": 2
+  },
+  "skipped": [],
+  "version": 1
+}

@@ -1,0 +1,25 @@
+{
+  "applied_at": "2026-07-29T04:15:34+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/farrice-website/script.js",
+      "to": "/Users/farricecain/Google Antigravity/projects/farrice-website/03-working-drafts/script.js"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/projects/farrice-website/script.js"
+  ],
+  "pins": [
+    {
+      "path": "/Users/farricecain/Google Antigravity/projects/farrice-website/index.html",
+      "reason": "referenced from control-plane file: .agent/workflows/generate-asset.md"
+    }
+  ],
+  "project": "/Users/farricecain/Google Antigravity/projects/farrice-website",
+  "project_slug": "farrice-website",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {},
+  "skipped": [],
+  "version": 1
+}

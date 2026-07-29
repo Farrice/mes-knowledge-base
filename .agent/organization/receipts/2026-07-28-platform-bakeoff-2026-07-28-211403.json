@@ -1,0 +1,32 @@
+{
+  "applied_at": "2026-07-29T04:14:03+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/PROTOCOL.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/04-deliverables/PROTOCOL.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/capability-matrix.md",
+      "to": "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/04-deliverables/capability-matrix.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/scorecard.py",
+      "to": "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/04-deliverables/scorecard.py"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/PROTOCOL.md",
+    "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/capability-matrix.md",
+    "/Users/farricecain/Google Antigravity/_active/platform-bakeoff/scorecard.py"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/_active/platform-bakeoff",
+  "project_slug": "platform-bakeoff",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/memory-bakeoff/04-deliverables/bake-off-protocol.md": 2
+  },
+  "skipped": [],
+  "version": 1
+}

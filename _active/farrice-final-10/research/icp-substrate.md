@@ -1,7 +1,7 @@
 # ICP Substrate — "The Final 10%" (fill-machine raw material)
 
 > **Purpose:** the belief/objection/language substrate the propaganda fill machine (jw-* skills) pulls from when generating any Final 10% asset. NOT a strategy doc — it's ammunition, pre-sorted.
-> **Sources (real, cited):** `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md` (McRaney deep-canvass — the psychographic depth), `FARRICE.md` (the operator's lived 90%-pattern), `_active/farrice-final-10/SEED.md` (the offer the objections attach to).
+> **Sources (real, cited):** `_active/linkedin-launch/01-research/deep-icp-profile-invisible-expert.md` (McRaney deep-canvass — the psychographic depth), `FARRICE.md` (the operator's lived 90%-pattern), `_active/farrice-final-10/04-deliverables/SEED.md` (the offer the objections attach to).
 > **Provenance discipline (Ethics Gate):** every objection is labeled `[ICP-SOURCED]` (traceable to the deep-canvass research) or `[LIVED]` (traceable to Farrice's own 90%-pattern / FARRICE.md avatar). **Neither is real-client data** — Farrice is pre-first-close on this offer. Never present modeled buyer talk as a client testimonial.
 
 ---

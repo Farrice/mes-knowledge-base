@@ -1,0 +1,31 @@
+{
+  "applied_at": "2026-07-29T04:15:12+00:00",
+  "moves": [
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product/instagram_content_strategy.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product/04-deliverables/instagram_content_strategy.md"
+    },
+    {
+      "from": "/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product/landing_page_copy.md",
+      "to": "/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product/04-deliverables/landing_page_copy.md"
+    }
+  ],
+  "old_paths": [
+    "/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product/instagram_content_strategy.md",
+    "/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product/landing_page_copy.md"
+  ],
+  "pins": [],
+  "project": "/Users/farricecain/Google Antigravity/projects/Kens_Fasting_Digital_Product",
+  "project_slug": "Kens_Fasting_Digital_Product",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/06-system/HARVEST-MANIFEST.md": 1,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/brain/f0054a93-478e-4c9f-b2a5-77da0169f04d/claude_code_prompt.md": 2,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/brain/f0054a93-478e-4c9f-b2a5-77da0169f04d/kens_complete_package.md": 2,
+    "/Users/farricecain/Google Antigravity/_active/codex-harvest-2026-06-11/brain/f0054a93-478e-4c9f-b2a5-77da0169f04d/kens_fasting_product_status.md": 2,
+    "/Users/farricecain/Google Antigravity/research_outputs/research-integrity-audit.md": 1
+  },
+  "skipped": [],
+  "version": 1
+}

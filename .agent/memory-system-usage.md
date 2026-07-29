@@ -125,8 +125,8 @@ python3 execution/memory_review.py
 Read these in order:
 1. `project_three-layer-memory-system.md` (architecture + rationale)
 2. `reference_notion-ai-database-integration-gotcha.md` (the gotcha + fix)
-3. `_active/notion-intellectual-library/DEPLOY-RUNBOOK.md` (Notion setup)
-4. `_active/memory-bakeoff/bake-off-protocol.md` (why episodic-memory wins)
+3. `_active/notion-intellectual-library/04-deliverables/DEPLOY-RUNBOOK.md` (Notion setup)
+4. `_active/memory-bakeoff/04-deliverables/bake-off-protocol.md` (why episodic-memory wins)
 5. This file (quick reference)
 
 ---

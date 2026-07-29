@@ -24,7 +24,7 @@ pin: true
 1. Create payment links: $400 Audit · $750 Sprint deposit (Stripe/PayPal).
 2. Update LinkedIn headline + About, queue all 14 posts (`03-content/LINKEDIN-QUEUE.md`); post 1 live; posts 3 & 11 stay gated until consent nods.
 3. Send 2 DMs from `02-outreach/WARM-DM-SCRIPTS.md`: **Cooz** (heads-up + case-study-in-progress + 2 intro asks) and **Josh & Katie** (name-use permission + referral ask).
-4. Then follow `_active/alignment-architect-2026-07-07/WEEK-1.md` day by day. Friday: fill `05-congruence/SCOREBOARD.md` (four verbs + Path A touches ≥3/wk).
+4. Then follow `_active/alignment-architect-2026-07-07/04-deliverables/WEEK-1.md` day by day. Friday: fill `05-congruence/SCOREBOARD.md` (four verbs + Path A touches ≥3/wk).
 
 ## Key artifacts (read these, don't rebuild)
 
