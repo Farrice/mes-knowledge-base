@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""artifact_placement_hook.py — PostToolUse advisory (Write only).
+"""artifact_placement_hook.py — PostToolUse advisory (Write / Edit / NotebookEdit).
 
 Pure-path heuristic, no artifact_router import (must run <100ms). When a Write
 lands a content file directly at the root of _active/<project>/ or
@@ -50,10 +50,13 @@ def main() -> int:
     except Exception:
         return 0
 
-    if payload.get("tool_name") != "Write":
+    # Edit-on-a-new-path is the most common agent file-creation route; a
+    # Write-only matcher left that channel completely uncovered.
+    if payload.get("tool_name") not in ("Write", "Edit", "NotebookEdit"):
         return 0
 
-    file_path = (payload.get("tool_input") or {}).get("file_path") or ""
+    tool_input = payload.get("tool_input") or {}
+    file_path = tool_input.get("file_path") or tool_input.get("notebook_path") or ""
     if not file_path:
         return 0
 
@@ -67,24 +70,34 @@ def main() -> int:
     if suffix not in CONTENT_SUFFIXES:
         return 0
 
-    # depth check: file must sit exactly one level under _active/<p> or projects/<p>
+    # Depth check: file must sit exactly one level under _active/<p> or projects/<p>.
+    # Resolve the LAST occurrence of the anchor — nested repo copies exist (e.g.
+    # _active/codex-harvest-2026-06-11/_active/...) and first-occurrence matching
+    # anchored on the outer one, computed the wrong project, and went silent.
     project = None
+    project_dir = None
     for anchor in ("_active", "projects"):
-        if anchor in parts:
-            i = parts.index(anchor)
-            if i + 2 == len(parts) - 1:  # anchor, project, file  (file is last)
-                project = parts[i + 1]
+        if anchor not in parts:
+            continue
+        i = len(parts) - 1 - parts[::-1].index(anchor)
+        if i + 2 == len(parts) - 1:  # anchor, project, file  (file is last)
+            project = parts[i + 1]
+            project_dir = "/".join(parts[: i + 2])
             break
     if project is None:
         return 0
 
     folder = suggest_folder(name)
+    # No bare-`mv` fallback: directives/artifact-placement.md forbids it because
+    # bare moves orphan every inbound link. The enforcement mechanism must not
+    # teach the violation it exists to prevent.
     msg = (
         "ARTIFACT PLACEMENT (deterministic): this file was written loose at the "
         f"root of {project}/. Canonical policy is only-populated numbered "
-        f"subfolders — it likely belongs in {folder}/. File it with "
-        f"`python3 execution/project_filer.py plan --project {project}` then "
-        f"`apply`, or move it directly: `mv \"{file_path}\" \"$(dirname \"{file_path}\")/{folder}/\"`."
+        f"subfolders — it likely belongs in {folder}/. File it with: "
+        f"`python3 execution/project_filer.py plan --project \"{project_dir}\" --out /tmp/p.json` "
+        f"then `apply --plan /tmp/p.json --dry-run` to review, then `apply --plan /tmp/p.json`. "
+        "Never bare `mv` — it orphans inbound links."
     )
     print(json.dumps({
         "hookSpecificOutput": {

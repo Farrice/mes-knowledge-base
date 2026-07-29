@@ -141,9 +141,23 @@ def is_archived(path: Path) -> bool:
     return any(part.lower() in ARCHIVE_DIR_NAMES for part in path.parts)
 
 
+def is_project_root_index(path: Path) -> bool:
+    """`_active/<slug>/INDEX.md` and `projects/<slug>/INDEX.md` carry the project
+    lifecycle stamp (`status:`, `entry:`) that `projects_index.py` aggregates into
+    PROJECTS.md. Exactly this surface — never a deeper INDEX.md, which would let
+    real metadata pollution back in under an exempt filename.
+    """
+    if path.name != "INDEX.md":
+        return False
+    parts = path.resolve().parts
+    return len(parts) >= 3 and parts[-3] in {"_active", "projects"}
+
+
 def is_allowed_frontmatter_path(path: Path) -> bool:
     parts = {part.lower() for part in path.parts}
     if path.name in SYSTEM_FILENAMES:
+        return True
+    if is_project_root_index(path):
         return True
     if parts & SYSTEM_PATH_PARTS:
         return True

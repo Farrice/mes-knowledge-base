@@ -1493,8 +1493,14 @@
       "lifecycle": "source",
       "moved_at": "2026-07-09T03:06:20+00:00",
       "project": "proj"
+    },
+    "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/f45108f6-954b-456f-bec6-69bd23c426ca/scratchpad/fix/proj-alias-test/some-draft.md": {
+      "current": "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/f45108f6-954b-456f-bec6-69bd23c426ca/scratchpad/fix/proj-alias-test/03-working-drafts/some-draft.md",
+      "lifecycle": "draft",
+      "moved_at": "2026-07-29T03:40:00+00:00",
+      "project": "proj-alias-test"
     }
   },
-  "updated_at": "2026-07-26T13:40:57+00:00",
+  "updated_at": "2026-07-29T03:40:00+00:00",
   "version": 1
 }

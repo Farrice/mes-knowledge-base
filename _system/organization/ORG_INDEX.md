@@ -1,7 +1,7 @@
 # Global Artifact Organization
 
-Last updated: 2026-07-26T13:52:18+00:00
-Total indexed files: 31009
+Last updated: 2026-07-29T03:36:33+00:00
+Total indexed files: 31151
 
 ## Canonical Project Shape
 
@@ -19,35 +19,35 @@ Active projects live under `_active/<project-slug>/` with:
 
 ## Counts By Root
 
-- `skills`: 12573
-- `_active`: 6493
-- `.agent`: 3617
-- `extractions`: 2897
+- `skills`: 12616
+- `_active`: 6519
+- `.agent`: 3633
+- `extractions`: 2908
 - `projects`: 2751
 - `.agents`: 1041
-- `agents`: 441
-- `execution`: 389
+- `agents`: 442
+- `execution`: 407
 - `deliverables`: 215
-- `knowledge`: 193
-- `directives`: 104
-- `research_outputs`: 87
-- `docs`: 78
-- `_system`: 53
+- `knowledge`: 195
+- `directives`: 107
+- `docs`: 94
+- `research_outputs`: 89
+- `_system`: 57
 - `semantic_libraries`: 35
 - `documents_codex`: 32
 - `strategy_briefs`: 10
 
 ## Counts By Domain
 
-- `System`: 13159
-- `Creative`: 1342
-- `Extraction`: 11602
-- `Revenue`: 182
-- `Client`: 1048
-- `Research`: 2413
-- `Content`: 869
-- `Ops`: 184
-- `Personal`: 210
+- `System`: 13197
+- `Creative`: 1343
+- `Extraction`: 11641
+- `Revenue`: 187
+- `Client`: 1067
+- `Research`: 2417
+- `Content`: 889
+- `Ops`: 197
+- `Personal`: 213
 
 ## Router Commands
 

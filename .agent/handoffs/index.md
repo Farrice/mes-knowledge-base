@@ -2,6 +2,7 @@
 
 Newest first. Resume a thread with `/resume` (menu) or `/resume <thread>`.
 
+- **2026-07-28** [opus5-harness-repair/ready] [Opus 5 Harness Repair + LinkedIn Teardowns — Send Day (teardown DMs · About verdict · Fable A/B)](2026-07-28-opus5-harness-repair.md) — Send the 3 teardown DMs (copy in teardowns/ §8), log them, THEN clean-session About verdict
 - **2026-07-28** [go/active] [LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card](2026-07-28-go.md) — LinkedIn cash-launch mission: 3 fresh Gemini Deep runs (146 sources), adversarial offer wargame (GO-WITH-FIXES: $750 Angle Map middle rung, one-gap DM volume engine, day-7/10/14 tripwires), 14-day launch plan, ICP battle card
 - **2026-07-28** [linkedin-launch/active] [Linkedin Launch — Icp Battle Card](2026-07-28-linkedin-launch.md) — Linkedin Launch — Icp Battle Card
 - **2026-07-28** [unhobble-harness/active] [Harness Unhobble — Claude-5 Context Diet v1 (CLAUDE.md 56% cut + Seating Charter)](2026-07-28-unhobble-harness.md) — first production mission on dieted harness + Signal Pilot outreach brief from deep-research

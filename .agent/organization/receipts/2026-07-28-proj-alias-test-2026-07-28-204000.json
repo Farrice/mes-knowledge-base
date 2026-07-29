@@ -1,0 +1,18 @@
+{
+  "applied_at": "2026-07-29T03:40:00+00:00",
+  "moves": [],
+  "old_paths": [],
+  "pins": [],
+  "project": "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/f45108f6-954b-456f-bec6-69bd23c426ca/scratchpad/fix/proj-alias-test",
+  "project_slug": "proj-alias-test",
+  "pruned_dirs": [],
+  "revert_script": "/Users/farricecain/Google Antigravity/.agent/organization/REVERT-2026-07-28.sh",
+  "rewrites": {},
+  "skipped": [
+    {
+      "path": "/private/tmp/claude-501/-Users-farricecain-Google-Antigravity/f45108f6-954b-456f-bec6-69bd23c426ca/scratchpad/fix/proj-alias-test/some-draft.md",
+      "reason": "already moved by a prior run -> /private/tmp/claude-501/-Users-farricecain-Google-Antigravity/f45108f6-954b-456f-bec6-69bd23c426ca/scratchpad/fix/proj-alias-test/03-working-drafts/some-draft.md"
+    }
+  ],
+  "version": 1
+}
